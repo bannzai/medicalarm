@@ -29,7 +29,7 @@ class MedicineAdd {
       name: name,
       memo: memo,
       memoImageURL: memoImageURL,
-      notifications: notifications,
+      notificationSettings: notifications,
       stock: stock,
     );
     await docRef.set(medicine);

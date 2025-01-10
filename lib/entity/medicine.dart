@@ -13,7 +13,7 @@ class Medicine with _$Medicine {
     required String name,
     required String memo,
     required String memoImageURL,
-    required List<MedicineNotificationSetting> notifications,
+    required List<MedicineNotificationSetting> notificationSettings,
     required int? stock,
     @ClientCreatedTimestamp() DateTime? createdDateTime,
     @ClientUpdatedTimestamp() DateTime? updatedDateTime,

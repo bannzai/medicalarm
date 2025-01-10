@@ -24,7 +24,7 @@ mixin _$Medicine {
   String get name => throw _privateConstructorUsedError;
   String get memo => throw _privateConstructorUsedError;
   String get memoImageURL => throw _privateConstructorUsedError;
-  List<MedicineNotificationSetting> get notifications => throw _privateConstructorUsedError;
+  List<MedicineNotificationSetting> get notificationSettings => throw _privateConstructorUsedError;
   int? get stock => throw _privateConstructorUsedError;
   @ClientCreatedTimestamp()
   DateTime? get createdDateTime => throw _privateConstructorUsedError;
@@ -53,7 +53,7 @@ abstract class $MedicineCopyWith<$Res> {
       String name,
       String memo,
       String memoImageURL,
-      List<MedicineNotificationSetting> notifications,
+      List<MedicineNotificationSetting> notificationSettings,
       int? stock,
       @ClientCreatedTimestamp() DateTime? createdDateTime,
       @ClientUpdatedTimestamp() DateTime? updatedDateTime,
@@ -79,7 +79,7 @@ class _$MedicineCopyWithImpl<$Res, $Val extends Medicine> implements $MedicineCo
     Object? name = null,
     Object? memo = null,
     Object? memoImageURL = null,
-    Object? notifications = null,
+    Object? notificationSettings = null,
     Object? stock = freezed,
     Object? createdDateTime = freezed,
     Object? updatedDateTime = freezed,
@@ -103,9 +103,9 @@ class _$MedicineCopyWithImpl<$Res, $Val extends Medicine> implements $MedicineCo
           ? _value.memoImageURL
           : memoImageURL // ignore: cast_nullable_to_non_nullable
               as String,
-      notifications: null == notifications
-          ? _value.notifications
-          : notifications // ignore: cast_nullable_to_non_nullable
+      notificationSettings: null == notificationSettings
+          ? _value.notificationSettings
+          : notificationSettings // ignore: cast_nullable_to_non_nullable
               as List<MedicineNotificationSetting>,
       stock: freezed == stock
           ? _value.stock
@@ -141,7 +141,7 @@ abstract class _$$MedicineImplCopyWith<$Res> implements $MedicineCopyWith<$Res> 
       String name,
       String memo,
       String memoImageURL,
-      List<MedicineNotificationSetting> notifications,
+      List<MedicineNotificationSetting> notificationSettings,
       int? stock,
       @ClientCreatedTimestamp() DateTime? createdDateTime,
       @ClientUpdatedTimestamp() DateTime? updatedDateTime,
@@ -162,7 +162,7 @@ class __$$MedicineImplCopyWithImpl<$Res> extends _$MedicineCopyWithImpl<$Res, _$
     Object? name = null,
     Object? memo = null,
     Object? memoImageURL = null,
-    Object? notifications = null,
+    Object? notificationSettings = null,
     Object? stock = freezed,
     Object? createdDateTime = freezed,
     Object? updatedDateTime = freezed,
@@ -186,9 +186,9 @@ class __$$MedicineImplCopyWithImpl<$Res> extends _$MedicineCopyWithImpl<$Res, _$
           ? _value.memoImageURL
           : memoImageURL // ignore: cast_nullable_to_non_nullable
               as String,
-      notifications: null == notifications
-          ? _value._notifications
-          : notifications // ignore: cast_nullable_to_non_nullable
+      notificationSettings: null == notificationSettings
+          ? _value._notificationSettings
+          : notificationSettings // ignore: cast_nullable_to_non_nullable
               as List<MedicineNotificationSetting>,
       stock: freezed == stock
           ? _value.stock
@@ -223,13 +223,13 @@ class _$MedicineImpl extends _Medicine {
       required this.name,
       required this.memo,
       required this.memoImageURL,
-      required final List<MedicineNotificationSetting> notifications,
+      required final List<MedicineNotificationSetting> notificationSettings,
       required this.stock,
       @ClientCreatedTimestamp() this.createdDateTime,
       @ClientUpdatedTimestamp() this.updatedDateTime,
       @ServerCreatedTimestamp() this.serverCreatedDateTime,
       @ServerUpdatedTimestamp() this.serverUpdatedDateTime})
-      : _notifications = notifications,
+      : _notificationSettings = notificationSettings,
         super._();
 
   factory _$MedicineImpl.fromJson(Map<String, dynamic> json) => _$$MedicineImplFromJson(json);
@@ -242,12 +242,12 @@ class _$MedicineImpl extends _Medicine {
   final String memo;
   @override
   final String memoImageURL;
-  final List<MedicineNotificationSetting> _notifications;
+  final List<MedicineNotificationSetting> _notificationSettings;
   @override
-  List<MedicineNotificationSetting> get notifications {
-    if (_notifications is EqualUnmodifiableListView) return _notifications;
+  List<MedicineNotificationSetting> get notificationSettings {
+    if (_notificationSettings is EqualUnmodifiableListView) return _notificationSettings;
     // ignore: implicit_dynamic_type
-    return EqualUnmodifiableListView(_notifications);
+    return EqualUnmodifiableListView(_notificationSettings);
   }
 
   @override
@@ -267,7 +267,7 @@ class _$MedicineImpl extends _Medicine {
 
   @override
   String toString() {
-    return 'Medicine(id: $id, name: $name, memo: $memo, memoImageURL: $memoImageURL, notifications: $notifications, stock: $stock, createdDateTime: $createdDateTime, updatedDateTime: $updatedDateTime, serverCreatedDateTime: $serverCreatedDateTime, serverUpdatedDateTime: $serverUpdatedDateTime)';
+    return 'Medicine(id: $id, name: $name, memo: $memo, memoImageURL: $memoImageURL, notificationSettings: $notificationSettings, stock: $stock, createdDateTime: $createdDateTime, updatedDateTime: $updatedDateTime, serverCreatedDateTime: $serverCreatedDateTime, serverUpdatedDateTime: $serverUpdatedDateTime)';
   }
 
   @override
@@ -279,7 +279,7 @@ class _$MedicineImpl extends _Medicine {
             (identical(other.name, name) || other.name == name) &&
             (identical(other.memo, memo) || other.memo == memo) &&
             (identical(other.memoImageURL, memoImageURL) || other.memoImageURL == memoImageURL) &&
-            const DeepCollectionEquality().equals(other._notifications, _notifications) &&
+            const DeepCollectionEquality().equals(other._notificationSettings, _notificationSettings) &&
             (identical(other.stock, stock) || other.stock == stock) &&
             (identical(other.createdDateTime, createdDateTime) || other.createdDateTime == createdDateTime) &&
             (identical(other.updatedDateTime, updatedDateTime) || other.updatedDateTime == updatedDateTime) &&
@@ -289,7 +289,7 @@ class _$MedicineImpl extends _Medicine {
 
   @JsonKey(includeFromJson: false, includeToJson: false)
   @override
-  int get hashCode => Object.hash(runtimeType, id, name, memo, memoImageURL, const DeepCollectionEquality().hash(_notifications), stock,
+  int get hashCode => Object.hash(runtimeType, id, name, memo, memoImageURL, const DeepCollectionEquality().hash(_notificationSettings), stock,
       createdDateTime, updatedDateTime, serverCreatedDateTime, serverUpdatedDateTime);
 
   /// Create a copy of Medicine
@@ -313,7 +313,7 @@ abstract class _Medicine extends Medicine {
       required final String name,
       required final String memo,
       required final String memoImageURL,
-      required final List<MedicineNotificationSetting> notifications,
+      required final List<MedicineNotificationSetting> notificationSettings,
       required final int? stock,
       @ClientCreatedTimestamp() final DateTime? createdDateTime,
       @ClientUpdatedTimestamp() final DateTime? updatedDateTime,
@@ -332,7 +332,7 @@ abstract class _Medicine extends Medicine {
   @override
   String get memoImageURL;
   @override
-  List<MedicineNotificationSetting> get notifications;
+  List<MedicineNotificationSetting> get notificationSettings;
   @override
   int? get stock;
   @override
