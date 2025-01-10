@@ -33,7 +33,7 @@ class MedicineNotificationSetting with _$MedicineNotificationSetting {
     required MedicineNotificationSettingReminderTime reminderTime,
     required bool isEnabled,
     required bool useCriticalAlert,
-    required String who,
+    required String doserName,
   }) = _MedicineNotificationSetting;
   const MedicineNotificationSetting._();
 

@@ -365,6 +365,7 @@ mixin _$MedicineNotificationSetting {
   MedicineNotificationSettingReminderTime get reminderTime => throw _privateConstructorUsedError;
   bool get isEnabled => throw _privateConstructorUsedError;
   bool get useCriticalAlert => throw _privateConstructorUsedError;
+  String get doserName => throw _privateConstructorUsedError;
 
   /// Serializes this MedicineNotificationSetting to a JSON map.
   Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
@@ -380,7 +381,7 @@ abstract class $MedicineNotificationSettingCopyWith<$Res> {
   factory $MedicineNotificationSettingCopyWith(MedicineNotificationSetting value, $Res Function(MedicineNotificationSetting) then) =
       _$MedicineNotificationSettingCopyWithImpl<$Res, MedicineNotificationSetting>;
   @useResult
-  $Res call({int dosingCount, MedicineNotificationSettingReminderTime reminderTime, bool isEnabled, bool useCriticalAlert});
+  $Res call({int dosingCount, MedicineNotificationSettingReminderTime reminderTime, bool isEnabled, bool useCriticalAlert, String doserName});
 
   $MedicineNotificationSettingReminderTimeCopyWith<$Res> get reminderTime;
 }
@@ -404,6 +405,7 @@ class _$MedicineNotificationSettingCopyWithImpl<$Res, $Val extends MedicineNotif
     Object? reminderTime = null,
     Object? isEnabled = null,
     Object? useCriticalAlert = null,
+    Object? doserName = null,
   }) {
     return _then(_value.copyWith(
       dosingCount: null == dosingCount
@@ -422,6 +424,10 @@ class _$MedicineNotificationSettingCopyWithImpl<$Res, $Val extends MedicineNotif
           ? _value.useCriticalAlert
           : useCriticalAlert // ignore: cast_nullable_to_non_nullable
               as bool,
+      doserName: null == doserName
+          ? _value.doserName
+          : doserName // ignore: cast_nullable_to_non_nullable
+              as String,
     ) as $Val);
   }
 
@@ -442,7 +448,7 @@ abstract class _$$MedicineNotificationSettingImplCopyWith<$Res> implements $Medi
       __$$MedicineNotificationSettingImplCopyWithImpl<$Res>;
   @override
   @useResult
-  $Res call({int dosingCount, MedicineNotificationSettingReminderTime reminderTime, bool isEnabled, bool useCriticalAlert});
+  $Res call({int dosingCount, MedicineNotificationSettingReminderTime reminderTime, bool isEnabled, bool useCriticalAlert, String doserName});
 
   @override
   $MedicineNotificationSettingReminderTimeCopyWith<$Res> get reminderTime;
@@ -463,6 +469,7 @@ class __$$MedicineNotificationSettingImplCopyWithImpl<$Res> extends _$MedicineNo
     Object? reminderTime = null,
     Object? isEnabled = null,
     Object? useCriticalAlert = null,
+    Object? doserName = null,
   }) {
     return _then(_$MedicineNotificationSettingImpl(
       dosingCount: null == dosingCount
@@ -481,6 +488,10 @@ class __$$MedicineNotificationSettingImplCopyWithImpl<$Res> extends _$MedicineNo
           ? _value.useCriticalAlert
           : useCriticalAlert // ignore: cast_nullable_to_non_nullable
               as bool,
+      doserName: null == doserName
+          ? _value.doserName
+          : doserName // ignore: cast_nullable_to_non_nullable
+              as String,
     ));
   }
 }
@@ -490,7 +501,7 @@ class __$$MedicineNotificationSettingImplCopyWithImpl<$Res> extends _$MedicineNo
 @JsonSerializable(explicitToJson: true)
 class _$MedicineNotificationSettingImpl extends _MedicineNotificationSetting {
   const _$MedicineNotificationSettingImpl(
-      {required this.dosingCount, required this.reminderTime, required this.isEnabled, required this.useCriticalAlert})
+      {required this.dosingCount, required this.reminderTime, required this.isEnabled, required this.useCriticalAlert, required this.doserName})
       : super._();
 
   factory _$MedicineNotificationSettingImpl.fromJson(Map<String, dynamic> json) => _$$MedicineNotificationSettingImplFromJson(json);
@@ -503,10 +514,12 @@ class _$MedicineNotificationSettingImpl extends _MedicineNotificationSetting {
   final bool isEnabled;
   @override
   final bool useCriticalAlert;
+  @override
+  final String doserName;
 
   @override
   String toString() {
-    return 'MedicineNotificationSetting(dosingCount: $dosingCount, reminderTime: $reminderTime, isEnabled: $isEnabled, useCriticalAlert: $useCriticalAlert)';
+    return 'MedicineNotificationSetting(dosingCount: $dosingCount, reminderTime: $reminderTime, isEnabled: $isEnabled, useCriticalAlert: $useCriticalAlert, doserName: $doserName)';
   }
 
   @override
@@ -517,12 +530,13 @@ class _$MedicineNotificationSettingImpl extends _MedicineNotificationSetting {
             (identical(other.dosingCount, dosingCount) || other.dosingCount == dosingCount) &&
             (identical(other.reminderTime, reminderTime) || other.reminderTime == reminderTime) &&
             (identical(other.isEnabled, isEnabled) || other.isEnabled == isEnabled) &&
-            (identical(other.useCriticalAlert, useCriticalAlert) || other.useCriticalAlert == useCriticalAlert));
+            (identical(other.useCriticalAlert, useCriticalAlert) || other.useCriticalAlert == useCriticalAlert) &&
+            (identical(other.doserName, doserName) || other.doserName == doserName));
   }
 
   @JsonKey(includeFromJson: false, includeToJson: false)
   @override
-  int get hashCode => Object.hash(runtimeType, dosingCount, reminderTime, isEnabled, useCriticalAlert);
+  int get hashCode => Object.hash(runtimeType, dosingCount, reminderTime, isEnabled, useCriticalAlert, doserName);
 
   /// Create a copy of MedicineNotificationSetting
   /// with the given fields replaced by the non-null parameter values.
@@ -545,7 +559,8 @@ abstract class _MedicineNotificationSetting extends MedicineNotificationSetting 
       {required final int dosingCount,
       required final MedicineNotificationSettingReminderTime reminderTime,
       required final bool isEnabled,
-      required final bool useCriticalAlert}) = _$MedicineNotificationSettingImpl;
+      required final bool useCriticalAlert,
+      required final String doserName}) = _$MedicineNotificationSettingImpl;
   const _MedicineNotificationSetting._() : super._();
 
   factory _MedicineNotificationSetting.fromJson(Map<String, dynamic> json) = _$MedicineNotificationSettingImpl.fromJson;
@@ -558,6 +573,8 @@ abstract class _MedicineNotificationSetting extends MedicineNotificationSetting 
   bool get isEnabled;
   @override
   bool get useCriticalAlert;
+  @override
+  String get doserName;
 
   /// Create a copy of MedicineNotificationSetting
   /// with the given fields replaced by the non-null parameter values.
