@@ -12,7 +12,7 @@ class MedicinesPage extends StatelessWidget {
       ),
       body: const SafeArea(
         child: Padding(
-          padding: EdgeInsets.all(8.0),
+          padding: EdgeInsets.symmetric(vertical: 8.0),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
