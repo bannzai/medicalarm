@@ -50,6 +50,9 @@ class App extends StatelessWidget {
             borderSide: BorderSide(color: AppColors.border),
           ),
         ),
+        appBarTheme: const AppBarTheme(
+          elevation: 1,
+        ),
         useMaterial3: false,
       ),
       home: const RootPage(),

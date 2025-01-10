@@ -13,10 +13,12 @@ class MedicineFormPage extends HookConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final medicine = useState(this.medicine);
+    final primaryColor = Theme.of(context).colorScheme.primary;
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Medicine Form'),
+        title: Text('Medicine Form', style: TextStyle(color: primaryColor)),
+        backgroundColor: Colors.white,
       ),
       body: SafeArea(
         child: Column(
