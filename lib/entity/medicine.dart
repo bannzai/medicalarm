@@ -50,4 +50,8 @@ class MedicineNotificationSettingReminderTime with _$MedicineNotificationSetting
   const MedicineNotificationSettingReminderTime._();
 
   factory MedicineNotificationSettingReminderTime.fromJson(Map<String, dynamic> json) => _$MedicineNotificationSettingReminderTimeFromJson(json);
+
+  String toTimeString() {
+    return '${hour.toString().padLeft(2, '0')}:${minute.toString().padLeft(2, '0')}';
+  }
 }
