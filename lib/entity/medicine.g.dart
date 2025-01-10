@@ -38,7 +38,7 @@ _$MedicineNotificationSettingImpl _$$MedicineNotificationSettingImplFromJson(Map
       reminderTime: MedicineNotificationSettingReminderTime.fromJson(json['reminderTime'] as Map<String, dynamic>),
       isEnabled: json['isEnabled'] as bool,
       useCriticalAlert: json['useCriticalAlert'] as bool,
-      doserName: json['doserName'] as String,
+      doserName: json['doserName'] as String?,
     );
 
 Map<String, dynamic> _$$MedicineNotificationSettingImplToJson(_$MedicineNotificationSettingImpl instance) => <String, dynamic>{
