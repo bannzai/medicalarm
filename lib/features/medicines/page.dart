@@ -10,11 +10,16 @@ class MedicinesPage extends StatelessWidget {
       appBar: AppBar(
         title: const Text('お薬'),
       ),
-      body: const Column(
-        crossAxisAlignment: CrossAxisAlignment.center,
-        children: [
-          MedicalAddButton(),
-        ],
+      body: const SafeArea(
+        child: Padding(
+          padding: EdgeInsets.all(8.0),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: [
+              MedicalAddButton(),
+            ],
+          ),
+        ),
       ),
     );
   }
