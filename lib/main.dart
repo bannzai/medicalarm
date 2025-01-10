@@ -39,10 +39,6 @@ class App extends StatelessWidget {
           secondary: AppColors.secondary,
         ),
         useMaterial3: false,
-        scaffoldBackgroundColor: Colors.white,
-        appBarTheme: const AppBarTheme(
-          backgroundColor: AppColors.primary,
-        ),
       ),
       home: const RootPage(),
       localizationsDelegates: AppLocalizations.localizationsDelegates,
