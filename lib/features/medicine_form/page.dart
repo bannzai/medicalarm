@@ -99,6 +99,7 @@ class MedicineNotificationSettingSection extends StatelessWidget {
                   ),
                 ),
               ),
+              IconButton(onPressed: () {}, icon: const Icon(Icons.settings)),
               IconButton(
                 onPressed: () {
                   notificationSettings.value = notificationSettings.value.where((element) => element != notificationSetting).toList();
