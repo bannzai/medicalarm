@@ -4,7 +4,6 @@ import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:medicalarm/entity/medicine.dart';
 import 'package:medicalarm/features/medicine_form/components/section.dart';
 import 'package:medicalarm/style/button.dart';
-import 'package:medicalarm/style/color.dart';
 
 class MedicineFormPage extends HookConsumerWidget {
   final Medicine? medicine;
@@ -19,7 +18,6 @@ class MedicineFormPage extends HookConsumerWidget {
       appBar: AppBar(
         title: const Text('Medicine Form'),
       ),
-      backgroundColor: AppColors.formBackground,
       body: SafeArea(
         child: Column(
           children: [
@@ -33,7 +31,7 @@ class MedicineFormPage extends HookConsumerWidget {
                 border: OutlineInputBorder(),
               ),
             ),
-            SectionTitle(
+            Section(
               icon: Icons.schedule,
               text: '服用時刻',
               children: [
@@ -64,10 +62,8 @@ class MedicineNotificationSettingSection extends HookConsumerWidget {
             // TODO: 追加ボタンを押したときの処理
           },
           icon: const Icon(Icons.add),
-          label: const Text('服用時刻を追加'),
-          style: secondaryButtonStyle.merge(
-            capsuleButtonStyle,
-          ),
+          label: const Text('服用時刻を追加', style: TextStyle(fontWeight: FontWeight.bold)),
+          style: secondaryButtonStyle.merge(capsuleButtonStyle),
         ),
       ],
     );

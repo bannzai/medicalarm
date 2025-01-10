@@ -1,35 +1,40 @@
 import 'package:flutter/material.dart';
-import 'package:medicalarm/style/color.dart';
 
-class SectionTitle extends StatelessWidget {
+class Section extends StatelessWidget {
   final IconData icon;
   final String text;
   final List<Widget> children;
 
-  const SectionTitle({
+  const Section({
     super.key,
     required this.icon,
     required this.text,
     required this.children,
   });
+
   @override
   Widget build(BuildContext context) {
+    final foregroundColor = Theme.of(context).colorScheme.primary;
     return Padding(
-      padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 8.0),
+      padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 12.0),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Row(
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
-              Icon(icon, size: 16, color: TextColor.main),
+              Icon(
+                icon,
+                size: 16,
+                color: foregroundColor,
+              ),
               const SizedBox(width: 8.0),
               Text(
                 text,
-                style: const TextStyle(
-                  fontWeight: FontWeight.w300,
+                style: TextStyle(
+                  fontWeight: FontWeight.normal,
                   fontSize: 14,
-                  color: TextColor.main,
+                  color: foregroundColor,
                 ),
               ),
             ],

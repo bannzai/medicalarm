@@ -36,7 +36,9 @@ class App extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(
           seedColor: AppColors.primary,
           primary: AppColors.primary,
-          secondary: AppColors.secondary,
+        ),
+        bottomSheetTheme: const BottomSheetThemeData(
+          backgroundColor: AppColors.formBackground,
         ),
         useMaterial3: false,
       ),
