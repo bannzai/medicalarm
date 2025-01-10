@@ -21,14 +21,16 @@ class MedicineFormPage extends HookConsumerWidget {
       body: SafeArea(
         child: Column(
           children: [
-            TextFormField(
-              initialValue: medicine.value?.name,
-              onChanged: (value) {
-                medicine.value = medicine.value?.copyWith(name: value);
-              },
-              decoration: const InputDecoration(
-                hintText: '薬の名前',
-                border: OutlineInputBorder(),
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 12.0, vertical: 8.0),
+              child: TextFormField(
+                initialValue: medicine.value?.name,
+                onChanged: (value) {
+                  medicine.value = medicine.value?.copyWith(name: value);
+                },
+                decoration: const InputDecoration(
+                  hintText: '薬の名前',
+                ),
               ),
             ),
             Section(

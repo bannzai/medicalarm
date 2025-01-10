@@ -40,6 +40,16 @@ class App extends StatelessWidget {
         bottomSheetTheme: const BottomSheetThemeData(
           backgroundColor: AppColors.formBackground,
         ),
+        textSelectionTheme: const TextSelectionThemeData(
+          cursorColor: AppColors.primary,
+        ),
+        inputDecorationTheme: const InputDecorationTheme(
+          filled: true,
+          fillColor: Colors.white,
+          enabledBorder: OutlineInputBorder(
+            borderSide: BorderSide(color: AppColors.border),
+          ),
+        ),
         useMaterial3: false,
       ),
       home: const RootPage(),
