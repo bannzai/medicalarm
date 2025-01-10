@@ -163,7 +163,8 @@ class __$$AppUserImplCopyWithImpl<$Res> extends _$AppUserCopyWithImpl<$Res, _$Ap
 }
 
 /// @nodoc
-@JsonSerializable()
+
+@JsonSerializable(explicitToJson: true)
 class _$AppUserImpl extends _AppUser {
   const _$AppUserImpl(
       {this.id,
