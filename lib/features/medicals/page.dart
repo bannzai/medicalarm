@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:medicalarm/features/medicals/components/add_button.dart';
 
 class MedicalsPage extends StatelessWidget {
   const MedicalsPage({super.key});
@@ -9,7 +10,12 @@ class MedicalsPage extends StatelessWidget {
       appBar: AppBar(
         title: const Text('お薬'),
       ),
-      body: const Text('Medical'),
+      body: const Column(
+        crossAxisAlignment: CrossAxisAlignment.center,
+        children: [
+          MedicalAddButton(),
+        ],
+      ),
     );
   }
 }
