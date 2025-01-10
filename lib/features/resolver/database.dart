@@ -39,6 +39,12 @@ class UserDatabase {
         fromFirestore: _medicineFromFirestore,
         toFirestore: _medicineToFirestore,
       );
+
+  DocumentReference<Medicine> medicineReference({required String medicineID}) =>
+      FirebaseFirestore.instance.collection(_CollectionPath.medicines(userID)).doc(medicineID).withConverter(
+            fromFirestore: _medicineFromFirestore,
+            toFirestore: _medicineToFirestore,
+          );
 }
 
 class UserDatabaseResolver extends HookConsumerWidget {
