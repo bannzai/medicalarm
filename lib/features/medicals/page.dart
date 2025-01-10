@@ -5,6 +5,11 @@ class MedicalsPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Text('Medical');
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('お薬'),
+      ),
+      body: const Text('Medical'),
+    );
   }
 }
