@@ -4,7 +4,7 @@ import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:medicalarm/entity/remote_config_parameter.dart';
 import 'package:medicalarm/provider/remote_config_parameter.dart';
 import 'package:medicalarm/utils/analytics/analytics.dart';
-import 'package:medicalarm/utils/version.dart';
+import 'package:medicalarm/utils/config/version.dart';
 
 final checkForceUpdateProvider = Provider.autoDispose(
   (ref) => CheckForceUpdate(
