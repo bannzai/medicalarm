@@ -6,9 +6,9 @@ part 'app_user.g.dart';
 part 'app_user.freezed.dart';
 
 @freezed
+@JsonSerializable(explicitToJson: true)
 class AppUser with _$AppUser {
   const AppUser._();
-  @JsonSerializable(explicitToJson: true)
   const factory AppUser({
     String? id,
     @Default(10) int remainingFreeAIFunction,
