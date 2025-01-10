@@ -62,7 +62,7 @@ class MedicineUpdate {
       name: name,
       memo: memo,
       memoImageURL: memoImageURL,
-      notifications: medicineNotificationSettings,
+      notificationSettings: medicineNotificationSettings,
       stock: stock,
     );
     await docRef.set(newMedicine);
