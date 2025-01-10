@@ -41,7 +41,7 @@ class DeleteUserButton extends HookConsumerWidget {
                     child: const Text(
                       'キャンセル',
                       style: TextStyle(
-                        color: TextColor.darkGray,
+                        color: TextColor.gray,
                         fontWeight: FontWeight.w600,
                       ),
                     ),
@@ -102,7 +102,7 @@ class DeleteUserButton extends HookConsumerWidget {
               child: const Text(
                 'キャンセル',
                 style: TextStyle(
-                  color: TextColor.darkGray,
+                  color: TextColor.gray,
                   fontWeight: FontWeight.w600,
                 ),
               ),

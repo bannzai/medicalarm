@@ -34,7 +34,7 @@ class MedicineFormPage extends HookConsumerWidget {
               ),
             ),
             SectionTitle(
-              icon: const Icon(Icons.medical_information),
+              icon: Icons.schedule,
               text: '服用時刻',
               children: [
                 MedicineNotificationSettingSection(notificationSettings: medicine.value?.notificationSettings ?? []),
@@ -53,26 +53,23 @@ class MedicineNotificationSettingSection extends HookConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    if (notificationSettings.isEmpty) {
-      return TextButton.icon(
-        onPressed: () {
-          // TODO: 追加ボタンを押したときの処理
-        },
-        icon: const Icon(Icons.add),
-        label: const Text('服用時刻を追加'),
-        style: secondaryButtonStyle.merge(
-          capsuleButtonStyle,
+    return Column(
+      children: [
+        for (var notificationSetting in notificationSettings)
+          TextFormField(
+            initialValue: notificationSetting.reminderTime.toTimeString(),
+          ),
+        TextButton.icon(
+          onPressed: () {
+            // TODO: 追加ボタンを押したときの処理
+          },
+          icon: const Icon(Icons.add),
+          label: const Text('服用時刻を追加'),
+          style: secondaryButtonStyle.merge(
+            capsuleButtonStyle,
+          ),
         ),
-      );
-    } else {
-      return Column(
-        children: [
-          for (var notificationSetting in notificationSettings)
-            TextFormField(
-              initialValue: notificationSetting.reminderTime.toTimeString(),
-            ),
-        ],
-      );
-    }
+      ],
+    );
   }
 }

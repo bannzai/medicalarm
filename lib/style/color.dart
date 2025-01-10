@@ -5,7 +5,7 @@ abstract class AppColors {
   static const Color primary = Color(0xFFEE817B);
   static const Color secondary = Color(0xFFF6AFAA);
   static const Color background = Color(0xFFFCECEA);
-  static const Color formBackground = AppColors.background;
+  static const Color formBackground = Color(0xFFF5F5F5);
   static const Color border = Color(0xFFE0E0E0);
 }
 
