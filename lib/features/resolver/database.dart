@@ -5,22 +5,14 @@ import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:medicalarm/components/loading/indicator.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:medicalarm/entity/chat_partner.dart';
 import 'package:medicalarm/entity/app_user.dart';
 import 'package:medicalarm/features/resolver/auth.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
-
-import '../entity/chat_message.dart';
 
 part 'database.g.dart';
 
 abstract class _CollectionPath {
   static const String users = "/users";
-  static String chatPartners({required String userID}) =>
-      "/users/$userID/chatPartners";
-  static String chatMessages(
-          {required String userID, required String chatPartnerID}) =>
-      "/users/$userID/chatPartners/$chatPartnerID/chatMessages";
 }
 
 @Riverpod(keepAlive: true, dependencies: [])
@@ -43,60 +35,6 @@ class UserDatabase {
         fromFirestore: _userFromFirestore,
         toFirestore: _userToFirestore,
       );
-
-  final FromFirestore<ChatPartner> _chatPartnerFromFirestore =
-      (snapshot, options) =>
-          ChatPartner.fromJson(snapshot.data()!..["id"] = snapshot.id);
-  final ToFirestore<ChatPartner> _chatPartnerToFirestore =
-      (chatPartner, options) => chatPartner.toJson();
-  CollectionReference<ChatPartner> chatPartnersReference() =>
-      FirebaseFirestore.instance
-          .collection(_CollectionPath.chatPartners(userID: userID))
-          .withConverter(
-            fromFirestore: _chatPartnerFromFirestore,
-            toFirestore: _chatPartnerToFirestore,
-          );
-  DocumentReference<ChatPartner> chatPartnerReference({
-    required String chatPartnerID,
-  }) =>
-      FirebaseFirestore.instance
-          .collection(_CollectionPath.chatPartners(userID: userID))
-          .doc(chatPartnerID)
-          .withConverter(
-            fromFirestore: _chatPartnerFromFirestore,
-            toFirestore: _chatPartnerToFirestore,
-          );
-
-  final FromFirestore<ChatMessage> _chatMessageFromFirestore =
-      (snapshot, options) =>
-          ChatMessage.fromJson(snapshot.data()!..["id"] = snapshot.id);
-  final ToFirestore<ChatMessage> _chatMessageToFirestore =
-      (chatMessage, options) => chatMessage.toJson();
-  CollectionReference<ChatMessage> chatMessagesReference(
-          {required String chatPartnerID}) =>
-      FirebaseFirestore.instance
-          .collection(
-            _CollectionPath.chatMessages(
-              userID: userID,
-              chatPartnerID: chatPartnerID,
-            ),
-          )
-          .withConverter(
-            fromFirestore: _chatMessageFromFirestore,
-            toFirestore: _chatMessageToFirestore,
-          );
-  DocumentReference<ChatMessage> chatMessageReference({
-    required String chatPartnerID,
-    required String chatMessageID,
-  }) =>
-      FirebaseFirestore.instance
-          .collection(_CollectionPath.chatMessages(
-              userID: userID, chatPartnerID: chatPartnerID))
-          .doc(chatMessageID)
-          .withConverter(
-            fromFirestore: _chatMessageFromFirestore,
-            toFirestore: _chatMessageToFirestore,
-          );
 }
 
 class UserDatabaseResolver extends HookConsumerWidget {
