@@ -7,6 +7,7 @@ import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:medicalarm/features/root/page.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:medicalarm/style/color.dart';
 
 void main() async {
   runZonedGuarded(() async {
@@ -32,7 +33,7 @@ class App extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        colorScheme: ColorScheme.fromSeed(seedColor: AppColors.primary),
         useMaterial3: false,
         scaffoldBackgroundColor: Colors.white,
       ),
