@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:medicalarm/components/button/inquriy.dart';
+import 'package:medicalarm/components/button/user_delete.dart';
 import 'package:medicalarm/features/settings/components/section.dart';
 import 'package:medicalarm/style/color.dart';
 import 'package:medicalarm/utils/analytics/analytics.dart';
