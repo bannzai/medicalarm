@@ -1,64 +1,10 @@
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:flutter/material.dart';
+import 'package:medicalarm/style/color.dart';
 
 final fillWidthStyle = ButtonStyle(
   minimumSize: WidgetStateProperty.all(const Size(double.infinity, 48)),
 );
-
-class ColorButton extends HookWidget {
-  final Widget child;
-  final Color color;
-  final Future<void> Function()? onPressed;
-
-  const ColorButton({
-    super.key,
-    required this.child,
-    required this.color,
-    required this.onPressed,
-  });
-
-  @override
-  Widget build(BuildContext context) {
-    final isProcessing = useState(false);
-
-    return ElevatedButton(
-      style: ButtonStyle(
-        backgroundColor: WidgetStateProperty.resolveWith(
-          (states) {
-            if (states.contains(WidgetState.disabled)) {
-              return null;
-            }
-            return color;
-          },
-        ),
-      ),
-      onPressed: onPressed == null
-          ? null
-          : () async {
-              if (isProcessing.value) {
-                return;
-              }
-              isProcessing.value = true;
-              try {
-                await onPressed?.call();
-              } catch (error) {
-                rethrow;
-              } finally {
-                if (context.mounted) {
-                  isProcessing.value = false;
-                }
-              }
-            },
-      child: Stack(
-        alignment: Alignment.center,
-        children: [
-          child,
-          if (isProcessing.value) _Loading(),
-        ],
-      ),
-    );
-  }
-}
 
 class AlertButton extends HookWidget {
   final String text;
@@ -100,7 +46,7 @@ class AlertButton extends HookWidget {
             style: TextStyle(
               fontWeight: FontWeight.w600,
               fontSize: 14,
-              color: (isProcessing.value || onPressed == null) ? Colors.grey : Colors.purple,
+              color: (isProcessing.value || onPressed == null) ? TextColor.disabled(Colors.grey) : TextColor.main,
             ),
           ),
           if (isProcessing.value) _Loading(),

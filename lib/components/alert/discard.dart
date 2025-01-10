@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:medicalarm/style/color.dart';
 
 class DiscardDialog extends StatelessWidget {
   final String title;
@@ -15,9 +14,8 @@ class DiscardDialog extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return AlertDialog(
-      title: Icon(
+      title: const Icon(
         Icons.warning,
-        color: Theme.of(context).primaryColor,
       ),
       content: Column(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -29,7 +27,6 @@ class DiscardDialog extends StatelessWidget {
               style: const TextStyle(
                 fontWeight: FontWeight.w600,
                 fontSize: 16,
-                color: TextColor.main,
               ),
               textAlign: TextAlign.center,
             ),
@@ -60,7 +57,6 @@ void showDiscardDialog(
         style: const TextStyle(
           fontWeight: FontWeight.w300,
           fontSize: 14,
-          color: TextColor.main,
         ),
       ),
       actions: actions,
