@@ -59,27 +59,41 @@ class MedicineNotificationSettingSection extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        for (final notificationSetting in notificationSettings.value) ...[
+        for (final (index, notificationSetting) in notificationSettings.value.indexed) ...[
           Row(
             children: [
               Expanded(
-                child: Container(
-                  decoration: BoxDecoration(
-                    border: Border.all(color: AppColors.border),
-                    color: Colors.white,
-                    borderRadius: BorderRadius.circular(4),
-                  ),
-                  constraints: const BoxConstraints(
-                    minHeight: 48,
-                    maxWidth: double.infinity,
-                  ),
-                  child: Align(
-                    alignment: Alignment.centerLeft,
-                    child: Padding(
-                      padding: const EdgeInsets.symmetric(horizontal: 8.0),
-                      child: Text(
-                        notificationSetting.reminderTime.toTimeString(),
-                        style: const TextStyle(fontSize: 16),
+                child: GestureDetector(
+                  onTap: () async {
+                    final result = await showTimePicker(
+                      context: context,
+                      initialTime: notificationSetting.reminderTime.toTimeOfDay(),
+                    );
+                    if (result != null) {
+                      final copied = [...notificationSettings.value];
+                      copied[index] =
+                          copied[index].copyWith(reminderTime: MedicineNotificationSettingReminderTime(hour: result.hour, minute: result.minute));
+                      notificationSettings.value = copied;
+                    }
+                  },
+                  child: Container(
+                    decoration: BoxDecoration(
+                      border: Border.all(color: AppColors.border),
+                      color: Colors.white,
+                      borderRadius: BorderRadius.circular(4),
+                    ),
+                    constraints: const BoxConstraints(
+                      minHeight: 48,
+                      maxWidth: double.infinity,
+                    ),
+                    child: Align(
+                      alignment: Alignment.centerLeft,
+                      child: Padding(
+                        padding: const EdgeInsets.symmetric(horizontal: 8.0),
+                        child: Text(
+                          notificationSetting.reminderTime.toTimeString(),
+                          style: const TextStyle(fontSize: 16),
+                        ),
                       ),
                     ),
                   ),
