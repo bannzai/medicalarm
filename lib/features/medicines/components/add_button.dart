@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
+import 'package:medicalarm/features/medicine_form/page.dart';
 import 'package:medicalarm/style/button.dart';
 
 class MedicalAddButton extends HookConsumerWidget {
@@ -13,7 +14,7 @@ class MedicalAddButton extends HookConsumerWidget {
         onPressed: () {
           showModalBottomSheet(
             context: context,
-            builder: (context) => const MedicalAddBottomSheet(),
+            builder: (context) => const MedicineFormPage(medicine: null),
           );
         },
         icon: const Icon(Icons.add),
@@ -21,14 +22,5 @@ class MedicalAddButton extends HookConsumerWidget {
         style: textButtonStyle,
       ),
     );
-  }
-}
-
-class MedicalAddBottomSheet extends StatelessWidget {
-  const MedicalAddBottomSheet({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return const Text('お薬を追加');
   }
 }
