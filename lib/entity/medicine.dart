@@ -13,7 +13,7 @@ class Medicine with _$Medicine {
     required String name,
     required String memo,
     required String memoImageURL,
-    required List<MedicineNotification> notifications,
+    required List<MedicineNotificationSetting> notifications,
     required int? stock,
     @ClientCreatedTimestamp() DateTime? createdDateTime,
     @ClientUpdatedTimestamp() DateTime? updatedDateTime,
@@ -26,27 +26,27 @@ class Medicine with _$Medicine {
 }
 
 @freezed
-class MedicineNotification with _$MedicineNotification {
+class MedicineNotificationSetting with _$MedicineNotificationSetting {
   @JsonSerializable(explicitToJson: true)
-  const factory MedicineNotification({
+  const factory MedicineNotificationSetting({
     required int dosingCount,
-    required MedicineNotificationReminderTime reminderTime,
+    required MedicineNotificationSettingReminderTime reminderTime,
     required bool isEnabled,
     required bool useCriticalAlert,
-  }) = _MedicineNotification;
-  const MedicineNotification._();
+  }) = _MedicineNotificationSetting;
+  const MedicineNotificationSetting._();
 
-  factory MedicineNotification.fromJson(Map<String, dynamic> json) => _$MedicineNotificationFromJson(json);
+  factory MedicineNotificationSetting.fromJson(Map<String, dynamic> json) => _$MedicineNotificationSettingFromJson(json);
 }
 
 @freezed
-class MedicineNotificationReminderTime with _$MedicineNotificationReminderTime {
+class MedicineNotificationSettingReminderTime with _$MedicineNotificationSettingReminderTime {
   @JsonSerializable(explicitToJson: true)
-  const factory MedicineNotificationReminderTime({
+  const factory MedicineNotificationSettingReminderTime({
     required int hour,
     required int minute,
-  }) = _MedicineNotificationReminderTime;
-  const MedicineNotificationReminderTime._();
+  }) = _MedicineNotificationSettingReminderTime;
+  const MedicineNotificationSettingReminderTime._();
 
-  factory MedicineNotificationReminderTime.fromJson(Map<String, dynamic> json) => _$MedicineNotificationReminderTimeFromJson(json);
+  factory MedicineNotificationSettingReminderTime.fromJson(Map<String, dynamic> json) => _$MedicineNotificationSettingReminderTimeFromJson(json);
 }

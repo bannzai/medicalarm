@@ -19,7 +19,7 @@ class MedicineAdd {
     required String name,
     required String memo,
     required String memoImageURL,
-    required List<MedicineNotification> notifications,
+    required List<MedicineNotificationSetting> notifications,
     required int? stock,
   }) async {
     final collectionRef = database.medicinesReference();
@@ -54,7 +54,7 @@ class MedicineUpdate {
     required String name,
     required String memo,
     required String memoImageURL,
-    required List<MedicineNotification> notifications,
+    required List<MedicineNotificationSetting> medicineNotificationSettings,
     required int? stock,
   }) async {
     final docRef = database.medicineReference(medicineID: medicineID);
@@ -62,7 +62,7 @@ class MedicineUpdate {
       name: name,
       memo: memo,
       memoImageURL: memoImageURL,
-      notifications: notifications,
+      notifications: medicineNotificationSettings,
       stock: stock,
     );
     await docRef.set(newMedicine);
