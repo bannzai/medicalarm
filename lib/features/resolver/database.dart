@@ -6,6 +6,7 @@ import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:medicalarm/components/loading/indicator.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:medicalarm/entity/app_user.dart';
+import 'package:medicalarm/entity/medicine.dart';
 import 'package:medicalarm/features/resolver/auth.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 
@@ -13,6 +14,7 @@ part 'database.g.dart';
 
 abstract class _CollectionPath {
   static const String users = "/users";
+  static String medicines(String userID) => "/users/$userID/medicines";
 }
 
 @Riverpod(keepAlive: true, dependencies: [])
@@ -29,6 +31,13 @@ class UserDatabase {
   DocumentReference<AppUser> userReference() => FirebaseFirestore.instance.collection(_CollectionPath.users).doc(userID).withConverter(
         fromFirestore: _userFromFirestore,
         toFirestore: _userToFirestore,
+      );
+
+  final FromFirestore<Medicine> _medicineFromFirestore = (snapshot, options) => Medicine.fromJson(snapshot.data()!..["id"] = snapshot.id);
+  final ToFirestore<Medicine> _medicineToFirestore = (medicine, options) => medicine.toJson();
+  CollectionReference<Medicine> medicinesReference() => FirebaseFirestore.instance.collection(_CollectionPath.medicines(userID)).withConverter(
+        fromFirestore: _medicineFromFirestore,
+        toFirestore: _medicineToFirestore,
       );
 }
 
