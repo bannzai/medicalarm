@@ -32,5 +32,18 @@ final medicineAddProvider = AutoDisposeProvider<MedicineAdd>.internal(
 );
 
 typedef MedicineAddRef = AutoDisposeProviderRef<MedicineAdd>;
+String _$medicineUpdateHash() => r'3983b5d639b08c244491b64ebff70eb8545ae77f';
+
+/// See also [medicineUpdate].
+@ProviderFor(medicineUpdate)
+final medicineUpdateProvider = AutoDisposeProvider<MedicineUpdate>.internal(
+  medicineUpdate,
+  name: r'medicineUpdateProvider',
+  debugGetCreateSourceHash: const bool.fromEnvironment('dart.vm.product') ? null : _$medicineUpdateHash,
+  dependencies: <ProviderOrFamily>[userDatabaseProvider],
+  allTransitiveDependencies: <ProviderOrFamily>{userDatabaseProvider, ...?userDatabaseProvider.allTransitiveDependencies},
+);
+
+typedef MedicineUpdateRef = AutoDisposeProviderRef<MedicineUpdate>;
 // ignore_for_file: type=lint
 // ignore_for_file: subtype_of_sealed_class, invalid_use_of_internal_member, invalid_use_of_visible_for_testing_member
