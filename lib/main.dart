@@ -49,6 +49,9 @@ class App extends StatelessWidget {
           enabledBorder: OutlineInputBorder(
             borderSide: BorderSide(color: AppColors.border),
           ),
+          focusedBorder: OutlineInputBorder(
+            borderSide: BorderSide(color: AppColors.primary),
+          ),
         ),
         appBarTheme: const AppBarTheme(
           elevation: 1,
