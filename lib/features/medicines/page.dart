@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:medicalarm/features/medicals/components/add_button.dart';
+import 'package:medicalarm/features/medicines/components/add_button.dart';
 
-class MedicalsPage extends StatelessWidget {
-  const MedicalsPage({super.key});
+class MedicinesPage extends StatelessWidget {
+  const MedicinesPage({super.key});
 
   @override
   Widget build(BuildContext context) {
