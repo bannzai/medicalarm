@@ -24,14 +24,9 @@ class UserDatabase {
   final String userID;
   UserDatabase({required this.userID});
 
-  final FromFirestore<AppUser> _userFromFirestore = (snapshot, options) =>
-      AppUser.fromJson(snapshot.data()!..["id"] = snapshot.id);
-  final ToFirestore<AppUser> _userToFirestore =
-      (user, options) => user.toJson();
-  DocumentReference<AppUser> userReference() => FirebaseFirestore.instance
-      .collection(_CollectionPath.users)
-      .doc(userID)
-      .withConverter(
+  final FromFirestore<AppUser> _userFromFirestore = (snapshot, options) => AppUser.fromJson(snapshot.data()!..["id"] = snapshot.id);
+  final ToFirestore<AppUser> _userToFirestore = (user, options) => user.toJson();
+  DocumentReference<AppUser> userReference() => FirebaseFirestore.instance.collection(_CollectionPath.users).doc(userID).withConverter(
         fromFirestore: _userFromFirestore,
         toFirestore: _userToFirestore,
       );
@@ -55,10 +50,7 @@ class UserDatabaseResolver extends HookConsumerWidget {
 
     if (user != null) {
       return ProviderScope(
-        overrides: [
-          userDatabaseProvider
-              .overrideWith((ref) => UserDatabase(userID: user.uid))
-        ],
+        overrides: [userDatabaseProvider.overrideWith((ref) => UserDatabase(userID: user.uid))],
         child: Consumer(
           builder: ((context, ref, child) => builder(context)),
         ),

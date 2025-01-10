@@ -30,8 +30,7 @@ extension OfferingTypeFunction on OfferingType {
 
 @Riverpod(dependencies: [])
 Stream<CustomerInfo> customerInfo(CustomerInfoRef ref) {
-  final StreamController<CustomerInfo> stream =
-      StreamController<CustomerInfo>();
+  final StreamController<CustomerInfo> stream = StreamController<CustomerInfo>();
   void listener(CustomerInfo customerInfo) {
     stream.sink.add(customerInfo);
   }
@@ -48,22 +47,19 @@ Stream<CustomerInfo> customerInfo(CustomerInfoRef ref) {
 extension CustomerInfoExtension on CustomerInfo {
 // rc_promo_Premium `のみ` が含まれている場合は値を返す
   DateTime? get promotionExpirationDate {
-    final premiumEntitlement =
-        entitlements.active[premiumEntitlementIdentifier];
+    final premiumEntitlement = entitlements.active[premiumEntitlementIdentifier];
     final expirationDate = premiumEntitlement?.expirationDate;
     if (premiumEntitlement == null || expirationDate == null) {
       return null;
     }
-    if (!premiumEntitlement.productIdentifier
-        .startsWith(promotionProductIdentifierPrefix)) {
+    if (!premiumEntitlement.productIdentifier.startsWith(promotionProductIdentifierPrefix)) {
       return null;
     }
 
     if (activeSubscriptions.isEmpty) {
       return null;
     }
-    if (activeSubscriptions.any(
-        (element) => !element.startsWith(promotionProductIdentifierPrefix))) {
+    if (activeSubscriptions.any((element) => !element.startsWith(promotionProductIdentifierPrefix))) {
       return null;
     }
     return DateTime.parse(expirationDate);
@@ -124,43 +120,34 @@ List<Package> currentOfferingPackages(CurrentOfferingPackagesRef ref) {
 @Riverpod(dependencies: [currentOfferingPackages])
 Package? weeklyPackage(WeeklyPackageRef ref) {
   final currentOfferingPackages = ref.watch(currentOfferingPackagesProvider);
-  return currentOfferingPackages
-      .firstWhereOrNull((element) => element.packageType == PackageType.weekly);
+  return currentOfferingPackages.firstWhereOrNull((element) => element.packageType == PackageType.weekly);
 }
 
 @Riverpod(dependencies: [currentOfferingPackages])
 Package? monthlyPackage(MonthlyPackageRef ref) {
   final currentOfferingPackages = ref.watch(currentOfferingPackagesProvider);
-  return currentOfferingPackages.firstWhereOrNull(
-      (element) => element.packageType == PackageType.monthly);
+  return currentOfferingPackages.firstWhereOrNull((element) => element.packageType == PackageType.monthly);
 }
 
 @Riverpod(dependencies: [currentOfferingPackages])
 Package? sixMonthPackage(SixMonthPackageRef ref) {
   final currentOfferingPackages = ref.watch(currentOfferingPackagesProvider);
-  return currentOfferingPackages.firstWhereOrNull(
-      (element) => element.packageType == PackageType.sixMonth);
+  return currentOfferingPackages.firstWhereOrNull((element) => element.packageType == PackageType.sixMonth);
 }
 
 @Riverpod(dependencies: [])
 Package? monthlyPremiumPackage(MonthlyPremiumPackageRef ref) {
   const premiumPackageOfferingType = OfferingType.premium;
-  final offering = ref
-      .watch(offeringsProvider)
-      .valueOrNull
-      ?.all[premiumPackageOfferingType.identifier];
+  final offering = ref.watch(offeringsProvider).valueOrNull?.all[premiumPackageOfferingType.identifier];
   if (offering == null) {
     return null;
   }
-  return offering.availablePackages.firstWhereOrNull(
-      (element) => element.packageType == PackageType.monthly);
+  return offering.availablePackages.firstWhereOrNull((element) => element.packageType == PackageType.monthly);
 }
 
 Future<void> initializePurchase(String uid) async {
-  await Purchases.setLogLevel(
-      Environment.isDevelopment ? LogLevel.debug : LogLevel.info);
-  Purchases.configure(
-      PurchasesConfiguration(Secret.revenueCatPublicAPIKey)..appUserID = uid);
+  await Purchases.setLogLevel(Environment.isDevelopment ? LogLevel.debug : LogLevel.info);
+  Purchases.configure(PurchasesConfiguration(Secret.revenueCatPublicAPIKey)..appUserID = uid);
   Purchases.logIn(uid);
 }
 
@@ -173,8 +160,7 @@ class Purchase {
   Future<bool> call(Package package) async {
     try {
       final purchaserInfo = await Purchases.purchasePackage(package);
-      final premiumEntitlement =
-          purchaserInfo.entitlements.all[premiumEntitlementIdentifier];
+      final premiumEntitlement = purchaserInfo.entitlements.all[premiumEntitlementIdentifier];
       if (premiumEntitlement == null) {
         throw AssertionError("unexpected premium entitlements is not exists");
       }
@@ -183,11 +169,9 @@ class Purchase {
       }
       return Future.value(true);
     } on PlatformException catch (exception, stack) {
-      analytics.logEvent(name: "catched_purchase_exception", parameters: {
-        "code": exception.code,
-        "details": exception.details.toString(),
-        "message": exception.message ?? ""
-      });
+      analytics.logEvent(
+          name: "catched_purchase_exception",
+          parameters: {"code": exception.code, "details": exception.details.toString(), "message": exception.message ?? ""});
       final newException = mapToDisplayedException(exception);
       if (newException == null) {
         return Future.value(false);

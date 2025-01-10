@@ -13,8 +13,7 @@ Future<void> setupRemoteConfig() async {
         minimumFetchInterval: const Duration(hours: 1),
       )),
       remoteConfig.setDefaults({
-        RemoteConfigKeys.minimumAppVersion:
-            RemoteConfigParameterDefaultValues.minimumAppVersion,
+        RemoteConfigKeys.minimumAppVersion: RemoteConfigParameterDefaultValues.minimumAppVersion,
       }),
       remoteConfig.fetchAndActivate()
     ).wait;
