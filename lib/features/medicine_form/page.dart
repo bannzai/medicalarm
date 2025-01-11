@@ -6,6 +6,7 @@ import 'package:medicalarm/features/medicine_form/components/notification_settin
 import 'package:medicalarm/features/medicine_form/components/section.dart';
 import 'package:medicalarm/style/button.dart';
 import 'package:medicalarm/style/color.dart';
+import 'package:medicalarm/theme/form.dart';
 
 class MedicineFormPage extends HookConsumerWidget {
   final Medicine? medicine;
@@ -18,35 +19,35 @@ class MedicineFormPage extends HookConsumerWidget {
     final notificationSettings = useState(medicine?.notificationSettings ?? []);
     final primaryColor = Theme.of(context).colorScheme.primary;
 
-    return Scaffold(
-      appBar: AppBar(
-        title: Text('Medicine Form', style: TextStyle(color: primaryColor)),
-        backgroundColor: Colors.white,
-        iconTheme: IconThemeData(color: primaryColor),
-      ),
-      body: SafeArea(
-        child: Column(
-          children: [
-            Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 12.0, vertical: 16.0),
-              child: TextFormField(
-                initialValue: name.value,
-                onChanged: (value) {
-                  name.value = value;
-                },
-                decoration: const InputDecoration(
-                  hintText: '薬の名前',
+    return FormTheme(
+      child: Scaffold(
+        appBar: AppBar(
+          title: Text('Medicine Form', style: TextStyle(color: primaryColor)),
+        ),
+        body: SafeArea(
+          child: Column(
+            children: [
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 12.0, vertical: 16.0),
+                child: TextFormField(
+                  initialValue: name.value,
+                  onChanged: (value) {
+                    name.value = value;
+                  },
+                  decoration: const InputDecoration(
+                    hintText: '薬の名前',
+                  ),
                 ),
               ),
-            ),
-            Section(
-              icon: Icons.schedule,
-              text: '服用時刻',
-              children: [
-                MedicineNotificationSettingSection(notificationSettings: notificationSettings),
-              ],
-            ),
-          ],
+              Section(
+                icon: Icons.schedule,
+                text: '服用時刻',
+                children: [
+                  MedicineNotificationSettingSection(notificationSettings: notificationSettings),
+                ],
+              ),
+            ],
+          ),
         ),
       ),
     );
