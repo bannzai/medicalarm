@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:medicalarm/entity/medicine.dart';
+import 'package:medicalarm/features/dose_receiver_form/page.dart';
 import 'package:medicalarm/features/medicine_form/components/section_layout.dart';
 
 class MedicineAdditionalInfoSection extends StatelessWidget {
   final ValueNotifier<String> memo;
   final ValueNotifier<String> memoImageURL;
-  final ValueNotifier<String> doseReceiverName;
+  final ValueNotifier<MedicineDoseReceiver> doseReceiver;
   final ValueNotifier<String> unit;
   final ValueNotifier<int> stock;
 
@@ -12,7 +14,7 @@ class MedicineAdditionalInfoSection extends StatelessWidget {
     super.key,
     required this.memo,
     required this.memoImageURL,
-    required this.doseReceiverName,
+    required this.doseReceiver,
     required this.unit,
     required this.stock,
   });
@@ -24,7 +26,7 @@ class MedicineAdditionalInfoSection extends StatelessWidget {
       text: 'その他',
       children: [
         MedicineMemoRow(memo: memo, memoImageURL: memoImageURL),
-        MedicineDoseReceiverNameTextField(doseReceiverName: doseReceiverName),
+        MedicineDoseReceiverTile(doseReceiver: doseReceiver),
         MedicineUnitTextField(unit: unit),
         MedicineStockTextField(stock: stock),
       ],
@@ -67,9 +69,9 @@ class MedicineMemoRow extends StatelessWidget {
   }
 }
 
-class MedicineDoseReceiverNameTextField extends StatelessWidget {
-  final ValueNotifier<String> doseReceiverName;
-  const MedicineDoseReceiverNameTextField({super.key, required this.doseReceiverName});
+class MedicineDoseReceiverTile extends StatelessWidget {
+  final ValueNotifier<MedicineDoseReceiver> doseReceiver;
+  const MedicineDoseReceiverTile({super.key, required this.doseReceiver});
 
   @override
   Widget build(BuildContext context) {
@@ -79,11 +81,20 @@ class MedicineDoseReceiverNameTextField extends StatelessWidget {
         title: const Text('服用者'),
         trailing: Wrap(
           children: [
-            Text(doseReceiverName.value),
+            Text(doseReceiver.value.name),
             const Icon(Icons.chevron_right),
           ],
         ),
-        onTap: () {},
+        onTap: () {
+          Navigator.push(
+            context,
+            MaterialPageRoute(
+              builder: (context) => DoseReceiverFormPage(
+                doseReceiver: doseReceiver,
+              ),
+            ),
+          );
+        },
       ),
     );
   }
