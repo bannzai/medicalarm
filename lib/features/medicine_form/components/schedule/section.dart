@@ -20,7 +20,6 @@ class MedicineScheduleSection extends StatelessWidget {
                 schedules: schedules,
                 index: index,
               ),
-              IconButton(onPressed: () {}, icon: const Icon(Icons.settings)),
               MedicineScheduleDeleteButton(schedule: schedule, schedules: schedules),
             ],
           ),
