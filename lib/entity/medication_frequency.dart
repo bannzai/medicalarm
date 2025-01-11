@@ -43,4 +43,13 @@ sealed class MedicationFrequency with _$MedicationFrequency {
   }) = CycleMedicationFrequency;
 
   factory MedicationFrequency.fromJson(Map<String, dynamic> json) => _$MedicationFrequencyFromJson(json);
+
+  String get displayName => switch (this) {
+        DailyMedicationFrequency() => '毎日',
+        EveryXDaysMedicationFrequency(interval: final interval) => '$interval日ごと',
+        SpecificDayOfWeekMedicationFrequency(daysOfWeek: final daysOfWeek) => daysOfWeek.join(','),
+        SpecificDayOfMonthMedicationFrequency(daysOfMonth: final daysOfMonth) => daysOfMonth.join(','),
+        OddOrEvenDayMedicationFrequency(isOddDay: final isOddDay) => isOddDay ? '奇数日' : '偶数日',
+        CycleMedicationFrequency(consecutiveDays: final consecutiveDays, restDays: final restDays) => '$consecutiveDays日服用/$restDays日休薬',
+      };
 }
