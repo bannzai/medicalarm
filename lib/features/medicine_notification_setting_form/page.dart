@@ -10,7 +10,8 @@ class MedicineNotificationSettingFormPage extends HookConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final isEnabled = useState(medicineNotificationSetting.isEnabled);
+    final isReminderEnabled = useState(medicineNotificationSetting.isReminderEnabled);
+    final isFollowupEnabled = useState(medicineNotificationSetting.isFollowupEnabled);
     final useCriticalAlert = useState(medicineNotificationSetting.useCriticalAlert);
     final doserName = useState(medicineNotificationSetting.doserName ?? '');
     return FormTheme(
@@ -22,11 +23,19 @@ class MedicineNotificationSettingFormPage extends HookConsumerWidget {
             child: Column(
           children: [
             SwitchListTile(
-              value: isEnabled.value,
+              value: isReminderEnabled.value,
               onChanged: (value) {
-                isEnabled.value = value;
+                isReminderEnabled.value = value;
               },
-              title: const Text('通知を有効にする'),
+              title: const Text('服用時の通知を有効にする'),
+            ),
+            SwitchListTile(
+              value: isFollowupEnabled.value,
+              onChanged: (value) {
+                isFollowupEnabled.value = value;
+              },
+              title: const Text('フォローアップ通知を有効にする'),
+              subtitle: const Text('最初の通知から30分の間に服薬を記録しない場合、フォローアップ通知が送信されます'),
             ),
             SwitchListTile(
               value: useCriticalAlert.value,
