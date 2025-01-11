@@ -24,9 +24,11 @@ mixin _$Medicine {
   String get name => throw _privateConstructorUsedError;
   String get memo => throw _privateConstructorUsedError;
   String get memoImageURL => throw _privateConstructorUsedError;
-  List<MedicineNotificationSetting> get notificationSettings => throw _privateConstructorUsedError;
+  List<MedicationSchedule> get schedules => throw _privateConstructorUsedError;
+  MedicineNotificationSetting get notificationSetting => throw _privateConstructorUsedError;
   int? get stock => throw _privateConstructorUsedError;
-  String get unit => throw _privateConstructorUsedError;
+  String? get unit => throw _privateConstructorUsedError;
+  String? get doseReceiverName => throw _privateConstructorUsedError;
   @ClientCreatedTimestamp()
   DateTime? get createdDateTime => throw _privateConstructorUsedError;
   @ClientUpdatedTimestamp()
@@ -54,13 +56,17 @@ abstract class $MedicineCopyWith<$Res> {
       String name,
       String memo,
       String memoImageURL,
-      List<MedicineNotificationSetting> notificationSettings,
+      List<MedicationSchedule> schedules,
+      MedicineNotificationSetting notificationSetting,
       int? stock,
-      String unit,
+      String? unit,
+      String? doseReceiverName,
       @ClientCreatedTimestamp() DateTime? createdDateTime,
       @ClientUpdatedTimestamp() DateTime? updatedDateTime,
       @ServerCreatedTimestamp() DateTime? serverCreatedDateTime,
       @ServerUpdatedTimestamp() DateTime? serverUpdatedDateTime});
+
+  $MedicineNotificationSettingCopyWith<$Res> get notificationSetting;
 }
 
 /// @nodoc
@@ -81,9 +87,11 @@ class _$MedicineCopyWithImpl<$Res, $Val extends Medicine> implements $MedicineCo
     Object? name = null,
     Object? memo = null,
     Object? memoImageURL = null,
-    Object? notificationSettings = null,
+    Object? schedules = null,
+    Object? notificationSetting = null,
     Object? stock = freezed,
-    Object? unit = null,
+    Object? unit = freezed,
+    Object? doseReceiverName = freezed,
     Object? createdDateTime = freezed,
     Object? updatedDateTime = freezed,
     Object? serverCreatedDateTime = freezed,
@@ -106,18 +114,26 @@ class _$MedicineCopyWithImpl<$Res, $Val extends Medicine> implements $MedicineCo
           ? _value.memoImageURL
           : memoImageURL // ignore: cast_nullable_to_non_nullable
               as String,
-      notificationSettings: null == notificationSettings
-          ? _value.notificationSettings
-          : notificationSettings // ignore: cast_nullable_to_non_nullable
-              as List<MedicineNotificationSetting>,
+      schedules: null == schedules
+          ? _value.schedules
+          : schedules // ignore: cast_nullable_to_non_nullable
+              as List<MedicationSchedule>,
+      notificationSetting: null == notificationSetting
+          ? _value.notificationSetting
+          : notificationSetting // ignore: cast_nullable_to_non_nullable
+              as MedicineNotificationSetting,
       stock: freezed == stock
           ? _value.stock
           : stock // ignore: cast_nullable_to_non_nullable
               as int?,
-      unit: null == unit
+      unit: freezed == unit
           ? _value.unit
           : unit // ignore: cast_nullable_to_non_nullable
-              as String,
+              as String?,
+      doseReceiverName: freezed == doseReceiverName
+          ? _value.doseReceiverName
+          : doseReceiverName // ignore: cast_nullable_to_non_nullable
+              as String?,
       createdDateTime: freezed == createdDateTime
           ? _value.createdDateTime
           : createdDateTime // ignore: cast_nullable_to_non_nullable
@@ -136,6 +152,16 @@ class _$MedicineCopyWithImpl<$Res, $Val extends Medicine> implements $MedicineCo
               as DateTime?,
     ) as $Val);
   }
+
+  /// Create a copy of Medicine
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $MedicineNotificationSettingCopyWith<$Res> get notificationSetting {
+    return $MedicineNotificationSettingCopyWith<$Res>(_value.notificationSetting, (value) {
+      return _then(_value.copyWith(notificationSetting: value) as $Val);
+    });
+  }
 }
 
 /// @nodoc
@@ -148,13 +174,18 @@ abstract class _$$MedicineImplCopyWith<$Res> implements $MedicineCopyWith<$Res> 
       String name,
       String memo,
       String memoImageURL,
-      List<MedicineNotificationSetting> notificationSettings,
+      List<MedicationSchedule> schedules,
+      MedicineNotificationSetting notificationSetting,
       int? stock,
-      String unit,
+      String? unit,
+      String? doseReceiverName,
       @ClientCreatedTimestamp() DateTime? createdDateTime,
       @ClientUpdatedTimestamp() DateTime? updatedDateTime,
       @ServerCreatedTimestamp() DateTime? serverCreatedDateTime,
       @ServerUpdatedTimestamp() DateTime? serverUpdatedDateTime});
+
+  @override
+  $MedicineNotificationSettingCopyWith<$Res> get notificationSetting;
 }
 
 /// @nodoc
@@ -170,9 +201,11 @@ class __$$MedicineImplCopyWithImpl<$Res> extends _$MedicineCopyWithImpl<$Res, _$
     Object? name = null,
     Object? memo = null,
     Object? memoImageURL = null,
-    Object? notificationSettings = null,
+    Object? schedules = null,
+    Object? notificationSetting = null,
     Object? stock = freezed,
-    Object? unit = null,
+    Object? unit = freezed,
+    Object? doseReceiverName = freezed,
     Object? createdDateTime = freezed,
     Object? updatedDateTime = freezed,
     Object? serverCreatedDateTime = freezed,
@@ -195,18 +228,26 @@ class __$$MedicineImplCopyWithImpl<$Res> extends _$MedicineCopyWithImpl<$Res, _$
           ? _value.memoImageURL
           : memoImageURL // ignore: cast_nullable_to_non_nullable
               as String,
-      notificationSettings: null == notificationSettings
-          ? _value._notificationSettings
-          : notificationSettings // ignore: cast_nullable_to_non_nullable
-              as List<MedicineNotificationSetting>,
+      schedules: null == schedules
+          ? _value._schedules
+          : schedules // ignore: cast_nullable_to_non_nullable
+              as List<MedicationSchedule>,
+      notificationSetting: null == notificationSetting
+          ? _value.notificationSetting
+          : notificationSetting // ignore: cast_nullable_to_non_nullable
+              as MedicineNotificationSetting,
       stock: freezed == stock
           ? _value.stock
           : stock // ignore: cast_nullable_to_non_nullable
               as int?,
-      unit: null == unit
+      unit: freezed == unit
           ? _value.unit
           : unit // ignore: cast_nullable_to_non_nullable
-              as String,
+              as String?,
+      doseReceiverName: freezed == doseReceiverName
+          ? _value.doseReceiverName
+          : doseReceiverName // ignore: cast_nullable_to_non_nullable
+              as String?,
       createdDateTime: freezed == createdDateTime
           ? _value.createdDateTime
           : createdDateTime // ignore: cast_nullable_to_non_nullable
@@ -236,14 +277,16 @@ class _$MedicineImpl extends _Medicine {
       required this.name,
       required this.memo,
       required this.memoImageURL,
-      required final List<MedicineNotificationSetting> notificationSettings,
+      required final List<MedicationSchedule> schedules,
+      required this.notificationSetting,
       required this.stock,
       required this.unit,
+      required this.doseReceiverName,
       @ClientCreatedTimestamp() this.createdDateTime,
       @ClientUpdatedTimestamp() this.updatedDateTime,
       @ServerCreatedTimestamp() this.serverCreatedDateTime,
       @ServerUpdatedTimestamp() this.serverUpdatedDateTime})
-      : _notificationSettings = notificationSettings,
+      : _schedules = schedules,
         super._();
 
   factory _$MedicineImpl.fromJson(Map<String, dynamic> json) => _$$MedicineImplFromJson(json);
@@ -256,18 +299,22 @@ class _$MedicineImpl extends _Medicine {
   final String memo;
   @override
   final String memoImageURL;
-  final List<MedicineNotificationSetting> _notificationSettings;
+  final List<MedicationSchedule> _schedules;
   @override
-  List<MedicineNotificationSetting> get notificationSettings {
-    if (_notificationSettings is EqualUnmodifiableListView) return _notificationSettings;
+  List<MedicationSchedule> get schedules {
+    if (_schedules is EqualUnmodifiableListView) return _schedules;
     // ignore: implicit_dynamic_type
-    return EqualUnmodifiableListView(_notificationSettings);
+    return EqualUnmodifiableListView(_schedules);
   }
 
   @override
+  final MedicineNotificationSetting notificationSetting;
+  @override
   final int? stock;
   @override
-  final String unit;
+  final String? unit;
+  @override
+  final String? doseReceiverName;
   @override
   @ClientCreatedTimestamp()
   final DateTime? createdDateTime;
@@ -283,7 +330,7 @@ class _$MedicineImpl extends _Medicine {
 
   @override
   String toString() {
-    return 'Medicine(id: $id, name: $name, memo: $memo, memoImageURL: $memoImageURL, notificationSettings: $notificationSettings, stock: $stock, unit: $unit, createdDateTime: $createdDateTime, updatedDateTime: $updatedDateTime, serverCreatedDateTime: $serverCreatedDateTime, serverUpdatedDateTime: $serverUpdatedDateTime)';
+    return 'Medicine(id: $id, name: $name, memo: $memo, memoImageURL: $memoImageURL, schedules: $schedules, notificationSetting: $notificationSetting, stock: $stock, unit: $unit, doseReceiverName: $doseReceiverName, createdDateTime: $createdDateTime, updatedDateTime: $updatedDateTime, serverCreatedDateTime: $serverCreatedDateTime, serverUpdatedDateTime: $serverUpdatedDateTime)';
   }
 
   @override
@@ -295,9 +342,11 @@ class _$MedicineImpl extends _Medicine {
             (identical(other.name, name) || other.name == name) &&
             (identical(other.memo, memo) || other.memo == memo) &&
             (identical(other.memoImageURL, memoImageURL) || other.memoImageURL == memoImageURL) &&
-            const DeepCollectionEquality().equals(other._notificationSettings, _notificationSettings) &&
+            const DeepCollectionEquality().equals(other._schedules, _schedules) &&
+            (identical(other.notificationSetting, notificationSetting) || other.notificationSetting == notificationSetting) &&
             (identical(other.stock, stock) || other.stock == stock) &&
             (identical(other.unit, unit) || other.unit == unit) &&
+            (identical(other.doseReceiverName, doseReceiverName) || other.doseReceiverName == doseReceiverName) &&
             (identical(other.createdDateTime, createdDateTime) || other.createdDateTime == createdDateTime) &&
             (identical(other.updatedDateTime, updatedDateTime) || other.updatedDateTime == updatedDateTime) &&
             (identical(other.serverCreatedDateTime, serverCreatedDateTime) || other.serverCreatedDateTime == serverCreatedDateTime) &&
@@ -306,8 +355,8 @@ class _$MedicineImpl extends _Medicine {
 
   @JsonKey(includeFromJson: false, includeToJson: false)
   @override
-  int get hashCode => Object.hash(runtimeType, id, name, memo, memoImageURL, const DeepCollectionEquality().hash(_notificationSettings), stock, unit,
-      createdDateTime, updatedDateTime, serverCreatedDateTime, serverUpdatedDateTime);
+  int get hashCode => Object.hash(runtimeType, id, name, memo, memoImageURL, const DeepCollectionEquality().hash(_schedules), notificationSetting,
+      stock, unit, doseReceiverName, createdDateTime, updatedDateTime, serverCreatedDateTime, serverUpdatedDateTime);
 
   /// Create a copy of Medicine
   /// with the given fields replaced by the non-null parameter values.
@@ -330,9 +379,11 @@ abstract class _Medicine extends Medicine {
       required final String name,
       required final String memo,
       required final String memoImageURL,
-      required final List<MedicineNotificationSetting> notificationSettings,
+      required final List<MedicationSchedule> schedules,
+      required final MedicineNotificationSetting notificationSetting,
       required final int? stock,
-      required final String unit,
+      required final String? unit,
+      required final String? doseReceiverName,
       @ClientCreatedTimestamp() final DateTime? createdDateTime,
       @ClientUpdatedTimestamp() final DateTime? updatedDateTime,
       @ServerCreatedTimestamp() final DateTime? serverCreatedDateTime,
@@ -350,11 +401,15 @@ abstract class _Medicine extends Medicine {
   @override
   String get memoImageURL;
   @override
-  List<MedicineNotificationSetting> get notificationSettings;
+  List<MedicationSchedule> get schedules;
+  @override
+  MedicineNotificationSetting get notificationSetting;
   @override
   int? get stock;
   @override
-  String get unit;
+  String? get unit;
+  @override
+  String? get doseReceiverName;
   @override
   @ClientCreatedTimestamp()
   DateTime? get createdDateTime;
@@ -381,11 +436,9 @@ MedicineNotificationSetting _$MedicineNotificationSettingFromJson(Map<String, dy
 
 /// @nodoc
 mixin _$MedicineNotificationSetting {
-  int get dosingCount => throw _privateConstructorUsedError;
-  MedicineNotificationSettingReminderTime get reminderTime => throw _privateConstructorUsedError;
-  bool get isEnabled => throw _privateConstructorUsedError;
+  bool get isReminderEnabled => throw _privateConstructorUsedError;
+  bool get isFollowupEnabled => throw _privateConstructorUsedError;
   bool get useCriticalAlert => throw _privateConstructorUsedError;
-  String? get doserName => throw _privateConstructorUsedError;
 
   /// Serializes this MedicineNotificationSetting to a JSON map.
   Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
@@ -401,9 +454,7 @@ abstract class $MedicineNotificationSettingCopyWith<$Res> {
   factory $MedicineNotificationSettingCopyWith(MedicineNotificationSetting value, $Res Function(MedicineNotificationSetting) then) =
       _$MedicineNotificationSettingCopyWithImpl<$Res, MedicineNotificationSetting>;
   @useResult
-  $Res call({int dosingCount, MedicineNotificationSettingReminderTime reminderTime, bool isEnabled, bool useCriticalAlert, String? doserName});
-
-  $MedicineNotificationSettingReminderTimeCopyWith<$Res> get reminderTime;
+  $Res call({bool isReminderEnabled, bool isFollowupEnabled, bool useCriticalAlert});
 }
 
 /// @nodoc
@@ -421,44 +472,24 @@ class _$MedicineNotificationSettingCopyWithImpl<$Res, $Val extends MedicineNotif
   @pragma('vm:prefer-inline')
   @override
   $Res call({
-    Object? dosingCount = null,
-    Object? reminderTime = null,
-    Object? isEnabled = null,
+    Object? isReminderEnabled = null,
+    Object? isFollowupEnabled = null,
     Object? useCriticalAlert = null,
-    Object? doserName = freezed,
   }) {
     return _then(_value.copyWith(
-      dosingCount: null == dosingCount
-          ? _value.dosingCount
-          : dosingCount // ignore: cast_nullable_to_non_nullable
-              as int,
-      reminderTime: null == reminderTime
-          ? _value.reminderTime
-          : reminderTime // ignore: cast_nullable_to_non_nullable
-              as MedicineNotificationSettingReminderTime,
-      isEnabled: null == isEnabled
-          ? _value.isEnabled
-          : isEnabled // ignore: cast_nullable_to_non_nullable
+      isReminderEnabled: null == isReminderEnabled
+          ? _value.isReminderEnabled
+          : isReminderEnabled // ignore: cast_nullable_to_non_nullable
+              as bool,
+      isFollowupEnabled: null == isFollowupEnabled
+          ? _value.isFollowupEnabled
+          : isFollowupEnabled // ignore: cast_nullable_to_non_nullable
               as bool,
       useCriticalAlert: null == useCriticalAlert
           ? _value.useCriticalAlert
           : useCriticalAlert // ignore: cast_nullable_to_non_nullable
               as bool,
-      doserName: freezed == doserName
-          ? _value.doserName
-          : doserName // ignore: cast_nullable_to_non_nullable
-              as String?,
     ) as $Val);
-  }
-
-  /// Create a copy of MedicineNotificationSetting
-  /// with the given fields replaced by the non-null parameter values.
-  @override
-  @pragma('vm:prefer-inline')
-  $MedicineNotificationSettingReminderTimeCopyWith<$Res> get reminderTime {
-    return $MedicineNotificationSettingReminderTimeCopyWith<$Res>(_value.reminderTime, (value) {
-      return _then(_value.copyWith(reminderTime: value) as $Val);
-    });
   }
 }
 
@@ -468,10 +499,7 @@ abstract class _$$MedicineNotificationSettingImplCopyWith<$Res> implements $Medi
       __$$MedicineNotificationSettingImplCopyWithImpl<$Res>;
   @override
   @useResult
-  $Res call({int dosingCount, MedicineNotificationSettingReminderTime reminderTime, bool isEnabled, bool useCriticalAlert, String? doserName});
-
-  @override
-  $MedicineNotificationSettingReminderTimeCopyWith<$Res> get reminderTime;
+  $Res call({bool isReminderEnabled, bool isFollowupEnabled, bool useCriticalAlert});
 }
 
 /// @nodoc
@@ -485,33 +513,23 @@ class __$$MedicineNotificationSettingImplCopyWithImpl<$Res> extends _$MedicineNo
   @pragma('vm:prefer-inline')
   @override
   $Res call({
-    Object? dosingCount = null,
-    Object? reminderTime = null,
-    Object? isEnabled = null,
+    Object? isReminderEnabled = null,
+    Object? isFollowupEnabled = null,
     Object? useCriticalAlert = null,
-    Object? doserName = freezed,
   }) {
     return _then(_$MedicineNotificationSettingImpl(
-      dosingCount: null == dosingCount
-          ? _value.dosingCount
-          : dosingCount // ignore: cast_nullable_to_non_nullable
-              as int,
-      reminderTime: null == reminderTime
-          ? _value.reminderTime
-          : reminderTime // ignore: cast_nullable_to_non_nullable
-              as MedicineNotificationSettingReminderTime,
-      isEnabled: null == isEnabled
-          ? _value.isEnabled
-          : isEnabled // ignore: cast_nullable_to_non_nullable
+      isReminderEnabled: null == isReminderEnabled
+          ? _value.isReminderEnabled
+          : isReminderEnabled // ignore: cast_nullable_to_non_nullable
+              as bool,
+      isFollowupEnabled: null == isFollowupEnabled
+          ? _value.isFollowupEnabled
+          : isFollowupEnabled // ignore: cast_nullable_to_non_nullable
               as bool,
       useCriticalAlert: null == useCriticalAlert
           ? _value.useCriticalAlert
           : useCriticalAlert // ignore: cast_nullable_to_non_nullable
               as bool,
-      doserName: freezed == doserName
-          ? _value.doserName
-          : doserName // ignore: cast_nullable_to_non_nullable
-              as String?,
     ));
   }
 }
@@ -520,26 +538,21 @@ class __$$MedicineNotificationSettingImplCopyWithImpl<$Res> extends _$MedicineNo
 
 @JsonSerializable(explicitToJson: true)
 class _$MedicineNotificationSettingImpl extends _MedicineNotificationSetting {
-  const _$MedicineNotificationSettingImpl(
-      {required this.dosingCount, required this.reminderTime, required this.isEnabled, required this.useCriticalAlert, required this.doserName})
+  const _$MedicineNotificationSettingImpl({required this.isReminderEnabled, required this.isFollowupEnabled, required this.useCriticalAlert})
       : super._();
 
   factory _$MedicineNotificationSettingImpl.fromJson(Map<String, dynamic> json) => _$$MedicineNotificationSettingImplFromJson(json);
 
   @override
-  final int dosingCount;
+  final bool isReminderEnabled;
   @override
-  final MedicineNotificationSettingReminderTime reminderTime;
-  @override
-  final bool isEnabled;
+  final bool isFollowupEnabled;
   @override
   final bool useCriticalAlert;
-  @override
-  final String? doserName;
 
   @override
   String toString() {
-    return 'MedicineNotificationSetting(dosingCount: $dosingCount, reminderTime: $reminderTime, isEnabled: $isEnabled, useCriticalAlert: $useCriticalAlert, doserName: $doserName)';
+    return 'MedicineNotificationSetting(isReminderEnabled: $isReminderEnabled, isFollowupEnabled: $isFollowupEnabled, useCriticalAlert: $useCriticalAlert)';
   }
 
   @override
@@ -547,16 +560,14 @@ class _$MedicineNotificationSettingImpl extends _MedicineNotificationSetting {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
             other is _$MedicineNotificationSettingImpl &&
-            (identical(other.dosingCount, dosingCount) || other.dosingCount == dosingCount) &&
-            (identical(other.reminderTime, reminderTime) || other.reminderTime == reminderTime) &&
-            (identical(other.isEnabled, isEnabled) || other.isEnabled == isEnabled) &&
-            (identical(other.useCriticalAlert, useCriticalAlert) || other.useCriticalAlert == useCriticalAlert) &&
-            (identical(other.doserName, doserName) || other.doserName == doserName));
+            (identical(other.isReminderEnabled, isReminderEnabled) || other.isReminderEnabled == isReminderEnabled) &&
+            (identical(other.isFollowupEnabled, isFollowupEnabled) || other.isFollowupEnabled == isFollowupEnabled) &&
+            (identical(other.useCriticalAlert, useCriticalAlert) || other.useCriticalAlert == useCriticalAlert));
   }
 
   @JsonKey(includeFromJson: false, includeToJson: false)
   @override
-  int get hashCode => Object.hash(runtimeType, dosingCount, reminderTime, isEnabled, useCriticalAlert, doserName);
+  int get hashCode => Object.hash(runtimeType, isReminderEnabled, isFollowupEnabled, useCriticalAlert);
 
   /// Create a copy of MedicineNotificationSetting
   /// with the given fields replaced by the non-null parameter values.
@@ -576,25 +587,19 @@ class _$MedicineNotificationSettingImpl extends _MedicineNotificationSetting {
 
 abstract class _MedicineNotificationSetting extends MedicineNotificationSetting {
   const factory _MedicineNotificationSetting(
-      {required final int dosingCount,
-      required final MedicineNotificationSettingReminderTime reminderTime,
-      required final bool isEnabled,
-      required final bool useCriticalAlert,
-      required final String? doserName}) = _$MedicineNotificationSettingImpl;
+      {required final bool isReminderEnabled,
+      required final bool isFollowupEnabled,
+      required final bool useCriticalAlert}) = _$MedicineNotificationSettingImpl;
   const _MedicineNotificationSetting._() : super._();
 
   factory _MedicineNotificationSetting.fromJson(Map<String, dynamic> json) = _$MedicineNotificationSettingImpl.fromJson;
 
   @override
-  int get dosingCount;
+  bool get isReminderEnabled;
   @override
-  MedicineNotificationSettingReminderTime get reminderTime;
-  @override
-  bool get isEnabled;
+  bool get isFollowupEnabled;
   @override
   bool get useCriticalAlert;
-  @override
-  String? get doserName;
 
   /// Create a copy of MedicineNotificationSetting
   /// with the given fields replaced by the non-null parameter values.
@@ -603,50 +608,50 @@ abstract class _MedicineNotificationSetting extends MedicineNotificationSetting 
   _$$MedicineNotificationSettingImplCopyWith<_$MedicineNotificationSettingImpl> get copyWith => throw _privateConstructorUsedError;
 }
 
-MedicineNotificationSettingReminderTime _$MedicineNotificationSettingReminderTimeFromJson(Map<String, dynamic> json) {
-  return _MedicineNotificationSettingReminderTime.fromJson(json);
+MedicationSchedule _$MedicationScheduleFromJson(Map<String, dynamic> json) {
+  return _MedicationSchedule.fromJson(json);
 }
 
 /// @nodoc
-mixin _$MedicineNotificationSettingReminderTime {
+mixin _$MedicationSchedule {
   int get hour => throw _privateConstructorUsedError;
-  int get minute => throw _privateConstructorUsedError;
+  int get minute => throw _privateConstructorUsedError; // 服用量
+  int get amount => throw _privateConstructorUsedError;
 
-  /// Serializes this MedicineNotificationSettingReminderTime to a JSON map.
+  /// Serializes this MedicationSchedule to a JSON map.
   Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
 
-  /// Create a copy of MedicineNotificationSettingReminderTime
+  /// Create a copy of MedicationSchedule
   /// with the given fields replaced by the non-null parameter values.
   @JsonKey(includeFromJson: false, includeToJson: false)
-  $MedicineNotificationSettingReminderTimeCopyWith<MedicineNotificationSettingReminderTime> get copyWith => throw _privateConstructorUsedError;
+  $MedicationScheduleCopyWith<MedicationSchedule> get copyWith => throw _privateConstructorUsedError;
 }
 
 /// @nodoc
-abstract class $MedicineNotificationSettingReminderTimeCopyWith<$Res> {
-  factory $MedicineNotificationSettingReminderTimeCopyWith(
-          MedicineNotificationSettingReminderTime value, $Res Function(MedicineNotificationSettingReminderTime) then) =
-      _$MedicineNotificationSettingReminderTimeCopyWithImpl<$Res, MedicineNotificationSettingReminderTime>;
+abstract class $MedicationScheduleCopyWith<$Res> {
+  factory $MedicationScheduleCopyWith(MedicationSchedule value, $Res Function(MedicationSchedule) then) =
+      _$MedicationScheduleCopyWithImpl<$Res, MedicationSchedule>;
   @useResult
-  $Res call({int hour, int minute});
+  $Res call({int hour, int minute, int amount});
 }
 
 /// @nodoc
-class _$MedicineNotificationSettingReminderTimeCopyWithImpl<$Res, $Val extends MedicineNotificationSettingReminderTime>
-    implements $MedicineNotificationSettingReminderTimeCopyWith<$Res> {
-  _$MedicineNotificationSettingReminderTimeCopyWithImpl(this._value, this._then);
+class _$MedicationScheduleCopyWithImpl<$Res, $Val extends MedicationSchedule> implements $MedicationScheduleCopyWith<$Res> {
+  _$MedicationScheduleCopyWithImpl(this._value, this._then);
 
   // ignore: unused_field
   final $Val _value;
   // ignore: unused_field
   final $Res Function($Val) _then;
 
-  /// Create a copy of MedicineNotificationSettingReminderTime
+  /// Create a copy of MedicationSchedule
   /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
     Object? hour = null,
     Object? minute = null,
+    Object? amount = null,
   }) {
     return _then(_value.copyWith(
       hour: null == hour
@@ -657,37 +662,38 @@ class _$MedicineNotificationSettingReminderTimeCopyWithImpl<$Res, $Val extends M
           ? _value.minute
           : minute // ignore: cast_nullable_to_non_nullable
               as int,
+      amount: null == amount
+          ? _value.amount
+          : amount // ignore: cast_nullable_to_non_nullable
+              as int,
     ) as $Val);
   }
 }
 
 /// @nodoc
-abstract class _$$MedicineNotificationSettingReminderTimeImplCopyWith<$Res> implements $MedicineNotificationSettingReminderTimeCopyWith<$Res> {
-  factory _$$MedicineNotificationSettingReminderTimeImplCopyWith(
-          _$MedicineNotificationSettingReminderTimeImpl value, $Res Function(_$MedicineNotificationSettingReminderTimeImpl) then) =
-      __$$MedicineNotificationSettingReminderTimeImplCopyWithImpl<$Res>;
+abstract class _$$MedicationScheduleImplCopyWith<$Res> implements $MedicationScheduleCopyWith<$Res> {
+  factory _$$MedicationScheduleImplCopyWith(_$MedicationScheduleImpl value, $Res Function(_$MedicationScheduleImpl) then) =
+      __$$MedicationScheduleImplCopyWithImpl<$Res>;
   @override
   @useResult
-  $Res call({int hour, int minute});
+  $Res call({int hour, int minute, int amount});
 }
 
 /// @nodoc
-class __$$MedicineNotificationSettingReminderTimeImplCopyWithImpl<$Res>
-    extends _$MedicineNotificationSettingReminderTimeCopyWithImpl<$Res, _$MedicineNotificationSettingReminderTimeImpl>
-    implements _$$MedicineNotificationSettingReminderTimeImplCopyWith<$Res> {
-  __$$MedicineNotificationSettingReminderTimeImplCopyWithImpl(
-      _$MedicineNotificationSettingReminderTimeImpl _value, $Res Function(_$MedicineNotificationSettingReminderTimeImpl) _then)
-      : super(_value, _then);
+class __$$MedicationScheduleImplCopyWithImpl<$Res> extends _$MedicationScheduleCopyWithImpl<$Res, _$MedicationScheduleImpl>
+    implements _$$MedicationScheduleImplCopyWith<$Res> {
+  __$$MedicationScheduleImplCopyWithImpl(_$MedicationScheduleImpl _value, $Res Function(_$MedicationScheduleImpl) _then) : super(_value, _then);
 
-  /// Create a copy of MedicineNotificationSettingReminderTime
+  /// Create a copy of MedicationSchedule
   /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
     Object? hour = null,
     Object? minute = null,
+    Object? amount = null,
   }) {
-    return _then(_$MedicineNotificationSettingReminderTimeImpl(
+    return _then(_$MedicationScheduleImpl(
       hour: null == hour
           ? _value.hour
           : hour // ignore: cast_nullable_to_non_nullable
@@ -696,6 +702,10 @@ class __$$MedicineNotificationSettingReminderTimeImplCopyWithImpl<$Res>
           ? _value.minute
           : minute // ignore: cast_nullable_to_non_nullable
               as int,
+      amount: null == amount
+          ? _value.amount
+          : amount // ignore: cast_nullable_to_non_nullable
+              as int,
     ));
   }
 }
@@ -703,67 +713,70 @@ class __$$MedicineNotificationSettingReminderTimeImplCopyWithImpl<$Res>
 /// @nodoc
 
 @JsonSerializable(explicitToJson: true)
-class _$MedicineNotificationSettingReminderTimeImpl extends _MedicineNotificationSettingReminderTime {
-  const _$MedicineNotificationSettingReminderTimeImpl({required this.hour, required this.minute}) : super._();
+class _$MedicationScheduleImpl extends _MedicationSchedule {
+  const _$MedicationScheduleImpl({required this.hour, required this.minute, required this.amount}) : super._();
 
-  factory _$MedicineNotificationSettingReminderTimeImpl.fromJson(Map<String, dynamic> json) =>
-      _$$MedicineNotificationSettingReminderTimeImplFromJson(json);
+  factory _$MedicationScheduleImpl.fromJson(Map<String, dynamic> json) => _$$MedicationScheduleImplFromJson(json);
 
   @override
   final int hour;
   @override
   final int minute;
+// 服用量
+  @override
+  final int amount;
 
   @override
   String toString() {
-    return 'MedicineNotificationSettingReminderTime(hour: $hour, minute: $minute)';
+    return 'MedicationSchedule(hour: $hour, minute: $minute, amount: $amount)';
   }
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _$MedicineNotificationSettingReminderTimeImpl &&
+            other is _$MedicationScheduleImpl &&
             (identical(other.hour, hour) || other.hour == hour) &&
-            (identical(other.minute, minute) || other.minute == minute));
+            (identical(other.minute, minute) || other.minute == minute) &&
+            (identical(other.amount, amount) || other.amount == amount));
   }
 
   @JsonKey(includeFromJson: false, includeToJson: false)
   @override
-  int get hashCode => Object.hash(runtimeType, hour, minute);
+  int get hashCode => Object.hash(runtimeType, hour, minute, amount);
 
-  /// Create a copy of MedicineNotificationSettingReminderTime
+  /// Create a copy of MedicationSchedule
   /// with the given fields replaced by the non-null parameter values.
   @JsonKey(includeFromJson: false, includeToJson: false)
   @override
   @pragma('vm:prefer-inline')
-  _$$MedicineNotificationSettingReminderTimeImplCopyWith<_$MedicineNotificationSettingReminderTimeImpl> get copyWith =>
-      __$$MedicineNotificationSettingReminderTimeImplCopyWithImpl<_$MedicineNotificationSettingReminderTimeImpl>(this, _$identity);
+  _$$MedicationScheduleImplCopyWith<_$MedicationScheduleImpl> get copyWith =>
+      __$$MedicationScheduleImplCopyWithImpl<_$MedicationScheduleImpl>(this, _$identity);
 
   @override
   Map<String, dynamic> toJson() {
-    return _$$MedicineNotificationSettingReminderTimeImplToJson(
+    return _$$MedicationScheduleImplToJson(
       this,
     );
   }
 }
 
-abstract class _MedicineNotificationSettingReminderTime extends MedicineNotificationSettingReminderTime {
-  const factory _MedicineNotificationSettingReminderTime({required final int hour, required final int minute}) =
-      _$MedicineNotificationSettingReminderTimeImpl;
-  const _MedicineNotificationSettingReminderTime._() : super._();
+abstract class _MedicationSchedule extends MedicationSchedule {
+  const factory _MedicationSchedule({required final int hour, required final int minute, required final int amount}) = _$MedicationScheduleImpl;
+  const _MedicationSchedule._() : super._();
 
-  factory _MedicineNotificationSettingReminderTime.fromJson(Map<String, dynamic> json) = _$MedicineNotificationSettingReminderTimeImpl.fromJson;
+  factory _MedicationSchedule.fromJson(Map<String, dynamic> json) = _$MedicationScheduleImpl.fromJson;
 
   @override
   int get hour;
   @override
-  int get minute;
+  int get minute; // 服用量
+  @override
+  int get amount;
 
-  /// Create a copy of MedicineNotificationSettingReminderTime
+  /// Create a copy of MedicationSchedule
   /// with the given fields replaced by the non-null parameter values.
   @override
   @JsonKey(includeFromJson: false, includeToJson: false)
-  _$$MedicineNotificationSettingReminderTimeImplCopyWith<_$MedicineNotificationSettingReminderTimeImpl> get copyWith =>
-      throw _privateConstructorUsedError;
+  _$$MedicationScheduleImplCopyWith<_$MedicationScheduleImpl> get copyWith => throw _privateConstructorUsedError;
 }
