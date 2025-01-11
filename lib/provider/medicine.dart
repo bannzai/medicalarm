@@ -18,7 +18,6 @@ class MedicineAdd {
   MedicineAdd({required this.database});
 
   Future<Medicine> call({
-    required String userID,
     required String name,
     required MedicationFrequency frequency,
     required List<MedicationSchedule> schedules,
@@ -32,7 +31,7 @@ class MedicineAdd {
     final collectionRef = database.medicinesReference();
     final docRef = collectionRef.doc();
     final medicine = Medicine(
-      userID: userID,
+      userID: database.userID,
       id: docRef.id,
       name: name,
       frequency: frequency,
