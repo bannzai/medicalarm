@@ -85,11 +85,12 @@ class DoseReceiverTextField extends HookConsumerWidget {
       children: [
         Transform.scale(
           scale: 1.5,
-          child: Checkbox(
-            value: selectedDoseReceiver.value?.id == doseReceiver.id,
+          child: Radio<String?>(
+            value: doseReceiver.id,
+            groupValue: selectedDoseReceiver.value?.id,
             onChanged: (value) {
               if (value != null) {
-                selectedDoseReceiver.value = value ? MedicineDoseReceiver(id: doseReceiver.id, name: doseReceiver.name) : null;
+                selectedDoseReceiver.value = MedicineDoseReceiver(id: doseReceiver.id, name: doseReceiver.name);
               }
             },
           ),
