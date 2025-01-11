@@ -28,11 +28,11 @@ class MedicineAdditionalInfoSection extends StatelessWidget {
       text: 'その他',
       children: [
         // MedicineMemoRow(memo: memo, memoImageURL: memoImageURL),
-        const SizedBox(height: 12),
+        const SizedBox(height: 6),
         MedicineDoseReceiverTile(doseReceiver: doseReceiver),
-        const SizedBox(height: 12),
+        const SizedBox(height: 6),
         MedicineUnitTextField(unit: unit),
-        const SizedBox(height: 12),
+        const SizedBox(height: 6),
         MedicineStockTile(unit: unit.value, stock: stock),
       ],
     );

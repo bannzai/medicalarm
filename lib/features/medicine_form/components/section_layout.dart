@@ -42,6 +42,7 @@ class MedicineFormSectionLayout extends StatelessWidget {
               ],
             ),
           ),
+          const SizedBox(height: 10),
           ...children,
         ],
       ),

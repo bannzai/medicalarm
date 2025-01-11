@@ -44,9 +44,16 @@ class MedicineFormPage extends HookConsumerWidget {
                 child: SingleChildScrollView(
                   child: Column(
                     children: [
-                      MedicineFormNameTextField(name: name),
-                      MedicationFrequencyTile(frequency: frequency),
-                      const SizedBox(height: 12),
+                      Padding(
+                        padding: const EdgeInsets.symmetric(vertical: 16.0),
+                        child: Column(
+                          children: [
+                            MedicineFormNameTextField(name: name),
+                            const SizedBox(height: 6),
+                            MedicationFrequencyTile(frequency: frequency),
+                          ],
+                        ),
+                      ),
                       const Divider(color: Colors.black, height: 1),
                       MedicineScheduleSection(schedules: schedules),
                       const Divider(color: Colors.black, height: 1),

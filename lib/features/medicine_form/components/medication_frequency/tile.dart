@@ -13,7 +13,7 @@ class MedicationFrequencyTile extends StatelessWidget {
       padding: const EdgeInsets.symmetric(horizontal: 12.0),
       child: FlatTile(
         child: ListTile(
-          title: const Text('頻度'),
+          title: const Text('飲む頻度'),
           trailing: Wrap(
             children: [
               Text(frequency.value.displayName),
