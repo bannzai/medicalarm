@@ -54,6 +54,11 @@ class UserDatabase {
             fromFirestore: _doseReceiverFromFirestore,
             toFirestore: _doseReceiverToFirestore,
           );
+  DocumentReference<DoseReceiver> doseReceiverReference({required String doseReceiverID}) =>
+      FirebaseFirestore.instance.collection(_CollectionPath.doseReceivers(userID)).doc(doseReceiverID).withConverter(
+            fromFirestore: _doseReceiverFromFirestore,
+            toFirestore: _doseReceiverToFirestore,
+          );
 }
 
 class UserDatabaseResolver extends HookConsumerWidget {

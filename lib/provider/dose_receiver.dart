@@ -59,3 +59,20 @@ DoseReceiverUpdate doseReceiverUpdate(DoseReceiverUpdateRef ref) {
   final database = ref.watch(userDatabaseProvider);
   return DoseReceiverUpdate(database: database);
 }
+
+class DoseReceiverDelete {
+  final UserDatabase database;
+
+  DoseReceiverDelete({required this.database});
+
+  Future<void> call({required DoseReceiver doseReceiver}) async {
+    final docRef = database.doseReceiverReference(doseReceiverID: doseReceiver.id);
+    await docRef.delete();
+  }
+}
+
+@Riverpod(dependencies: [userDatabase])
+DoseReceiverDelete doseReceiverDelete(DoseReceiverDeleteRef ref) {
+  final database = ref.watch(userDatabaseProvider);
+  return DoseReceiverDelete(database: database);
+}
