@@ -5,10 +5,10 @@ import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:image_cropper/image_cropper.dart';
 import 'package:image_picker/image_picker.dart';
+import 'package:medicalarm/components/alert/image_picker.dart';
 import 'package:medicalarm/components/error/error_alert.dart';
 import 'package:medicalarm/components/loading/loading.dart';
 import 'package:medicalarm/provider/app_user.dart';
-import 'package:medicalarm/utils/image/image.dart';
 import 'package:medicalarm/utils/storage/firebase_cloud_storage.dart';
 
 class MedicineMemoRow extends StatelessWidget {
@@ -66,8 +66,7 @@ class ImagePickerButton extends HookConsumerWidget {
             if (isLoading.value) {
               return;
             }
-            final imagePicker = ImagePicker();
-            final XFile? photo = await imagePicker.pickImage(source: ImageSource.gallery);
+            final XFile? photo = await showImagePickerDialog(context);
 
             if (photo != null) {
               final croppedFile = await ImageCropper().cropImage(
