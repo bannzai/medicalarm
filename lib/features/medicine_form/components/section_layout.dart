@@ -16,30 +16,32 @@ class MedicineFormSectionLayout extends StatelessWidget {
   Widget build(BuildContext context) {
     final foregroundColor = Theme.of(context).colorScheme.primary;
     return Padding(
-      padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 12.0),
+      padding: const EdgeInsets.symmetric(vertical: 12.0),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Row(
-            crossAxisAlignment: CrossAxisAlignment.center,
-            children: [
-              Icon(
-                icon,
-                size: 16,
-                color: foregroundColor,
-              ),
-              const SizedBox(width: 8.0),
-              Text(
-                text,
-                style: TextStyle(
-                  fontWeight: FontWeight.normal,
-                  fontSize: 14,
+          Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 16.0),
+            child: Row(
+              crossAxisAlignment: CrossAxisAlignment.center,
+              children: [
+                Icon(
+                  icon,
+                  size: 16,
                   color: foregroundColor,
                 ),
-              ),
-            ],
+                const SizedBox(width: 8.0),
+                Text(
+                  text,
+                  style: TextStyle(
+                    fontWeight: FontWeight.normal,
+                    fontSize: 14,
+                    color: foregroundColor,
+                  ),
+                ),
+              ],
+            ),
           ),
-          const SizedBox(height: 10.0),
           ...children,
         ],
       ),

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
+import 'package:medicalarm/features/medicine_form/components/section_layout.dart';
 
 class MedicineNotificationSettingSection extends HookConsumerWidget {
   final ValueNotifier<bool> isReminderEnabled;
@@ -15,7 +16,9 @@ class MedicineNotificationSettingSection extends HookConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    return Column(
+    return MedicineFormSectionLayout(
+      icon: Icons.notifications,
+      text: '通知設定',
       children: [
         SwitchListTile(
           value: isReminderEnabled.value,

@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:medicalarm/entity/medicine.dart';
+import 'package:medicalarm/features/medicine_form/components/name_text_field.dart';
 import 'package:medicalarm/features/medicine_form/components/notification_setting/section.dart';
 import 'package:medicalarm/features/medicine_form/components/schedule/section.dart';
-import 'package:medicalarm/features/medicine_form/components/section_layout.dart';
 import 'package:medicalarm/theme/form.dart';
 
 class MedicineFormPage extends HookConsumerWidget {
@@ -35,25 +35,8 @@ class MedicineFormPage extends HookConsumerWidget {
                 child: SingleChildScrollView(
                   child: Column(
                     children: [
-                      Padding(
-                        padding: const EdgeInsets.symmetric(horizontal: 12.0, vertical: 16.0),
-                        child: TextFormField(
-                          initialValue: name.value,
-                          onChanged: (value) {
-                            name.value = value;
-                          },
-                          decoration: const InputDecoration(
-                            hintText: '薬の名前',
-                          ),
-                        ),
-                      ),
-                      MedicineFormSectionLayout(
-                        icon: Icons.schedule,
-                        text: '服用時刻',
-                        children: [
-                          MedicineScheduleSection(schedules: schedules),
-                        ],
-                      ),
+                      MedicineFormNameTextField(name: name),
+                      MedicineScheduleSection(schedules: schedules),
                       if (schedules.value.isNotEmpty) ...[
                         MedicineNotificationSettingSection(
                           isReminderEnabled: isReminderEnabled,
