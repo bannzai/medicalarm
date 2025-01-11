@@ -36,7 +36,7 @@ class MedicationFrequencyFormPage extends HookConsumerWidget {
                       padding: const EdgeInsets.only(top: 20.0, bottom: 60.0),
                       child: Column(
                         children: [
-                          Text('頻度', style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold, color: primaryColor)),
+                          Text('服用頻度', style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold, color: primaryColor)),
                           MedicationFrequencyFormSectionLayout(
                             icon: Icons.schedule,
                             text: '服用頻度',
