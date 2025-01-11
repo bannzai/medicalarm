@@ -22,10 +22,6 @@ MedicationFrequency _$MedicationFrequencyFromJson(Map<String, dynamic> json) {
       return EveryXDaysMedicationFrequency.fromJson(json);
     case 'specificWeekdays':
       return SpecificWeekdaysMedicationFrequency.fromJson(json);
-    case 'specificDayOfMonth':
-      return SpecificDayOfMonthMedicationFrequency.fromJson(json);
-    case 'oddOrEvenDay':
-      return OddOrEvenDayMedicationFrequency.fromJson(json);
     case 'cycle':
       return CycleMedicationFrequency.fromJson(json);
 
@@ -41,8 +37,6 @@ mixin _$MedicationFrequency {
     required TResult Function() daily,
     required TResult Function(int interval) everyXDays,
     required TResult Function(List<Weekday> weekdays) specificWeekdays,
-    required TResult Function(List<int> daysOfMonth) specificDayOfMonth,
-    required TResult Function(bool isOddDay) oddOrEvenDay,
     required TResult Function(int consecutiveDays, int restDays) cycle,
   }) =>
       throw _privateConstructorUsedError;
@@ -51,8 +45,6 @@ mixin _$MedicationFrequency {
     TResult? Function()? daily,
     TResult? Function(int interval)? everyXDays,
     TResult? Function(List<Weekday> weekdays)? specificWeekdays,
-    TResult? Function(List<int> daysOfMonth)? specificDayOfMonth,
-    TResult? Function(bool isOddDay)? oddOrEvenDay,
     TResult? Function(int consecutiveDays, int restDays)? cycle,
   }) =>
       throw _privateConstructorUsedError;
@@ -61,8 +53,6 @@ mixin _$MedicationFrequency {
     TResult Function()? daily,
     TResult Function(int interval)? everyXDays,
     TResult Function(List<Weekday> weekdays)? specificWeekdays,
-    TResult Function(List<int> daysOfMonth)? specificDayOfMonth,
-    TResult Function(bool isOddDay)? oddOrEvenDay,
     TResult Function(int consecutiveDays, int restDays)? cycle,
     required TResult orElse(),
   }) =>
@@ -72,8 +62,6 @@ mixin _$MedicationFrequency {
     required TResult Function(DailyMedicationFrequency value) daily,
     required TResult Function(EveryXDaysMedicationFrequency value) everyXDays,
     required TResult Function(SpecificWeekdaysMedicationFrequency value) specificWeekdays,
-    required TResult Function(SpecificDayOfMonthMedicationFrequency value) specificDayOfMonth,
-    required TResult Function(OddOrEvenDayMedicationFrequency value) oddOrEvenDay,
     required TResult Function(CycleMedicationFrequency value) cycle,
   }) =>
       throw _privateConstructorUsedError;
@@ -82,8 +70,6 @@ mixin _$MedicationFrequency {
     TResult? Function(DailyMedicationFrequency value)? daily,
     TResult? Function(EveryXDaysMedicationFrequency value)? everyXDays,
     TResult? Function(SpecificWeekdaysMedicationFrequency value)? specificWeekdays,
-    TResult? Function(SpecificDayOfMonthMedicationFrequency value)? specificDayOfMonth,
-    TResult? Function(OddOrEvenDayMedicationFrequency value)? oddOrEvenDay,
     TResult? Function(CycleMedicationFrequency value)? cycle,
   }) =>
       throw _privateConstructorUsedError;
@@ -92,8 +78,6 @@ mixin _$MedicationFrequency {
     TResult Function(DailyMedicationFrequency value)? daily,
     TResult Function(EveryXDaysMedicationFrequency value)? everyXDays,
     TResult Function(SpecificWeekdaysMedicationFrequency value)? specificWeekdays,
-    TResult Function(SpecificDayOfMonthMedicationFrequency value)? specificDayOfMonth,
-    TResult Function(OddOrEvenDayMedicationFrequency value)? oddOrEvenDay,
     TResult Function(CycleMedicationFrequency value)? cycle,
     required TResult orElse(),
   }) =>
@@ -171,8 +155,6 @@ class _$DailyMedicationFrequencyImpl extends DailyMedicationFrequency {
     required TResult Function() daily,
     required TResult Function(int interval) everyXDays,
     required TResult Function(List<Weekday> weekdays) specificWeekdays,
-    required TResult Function(List<int> daysOfMonth) specificDayOfMonth,
-    required TResult Function(bool isOddDay) oddOrEvenDay,
     required TResult Function(int consecutiveDays, int restDays) cycle,
   }) {
     return daily();
@@ -184,8 +166,6 @@ class _$DailyMedicationFrequencyImpl extends DailyMedicationFrequency {
     TResult? Function()? daily,
     TResult? Function(int interval)? everyXDays,
     TResult? Function(List<Weekday> weekdays)? specificWeekdays,
-    TResult? Function(List<int> daysOfMonth)? specificDayOfMonth,
-    TResult? Function(bool isOddDay)? oddOrEvenDay,
     TResult? Function(int consecutiveDays, int restDays)? cycle,
   }) {
     return daily?.call();
@@ -197,8 +177,6 @@ class _$DailyMedicationFrequencyImpl extends DailyMedicationFrequency {
     TResult Function()? daily,
     TResult Function(int interval)? everyXDays,
     TResult Function(List<Weekday> weekdays)? specificWeekdays,
-    TResult Function(List<int> daysOfMonth)? specificDayOfMonth,
-    TResult Function(bool isOddDay)? oddOrEvenDay,
     TResult Function(int consecutiveDays, int restDays)? cycle,
     required TResult orElse(),
   }) {
@@ -214,8 +192,6 @@ class _$DailyMedicationFrequencyImpl extends DailyMedicationFrequency {
     required TResult Function(DailyMedicationFrequency value) daily,
     required TResult Function(EveryXDaysMedicationFrequency value) everyXDays,
     required TResult Function(SpecificWeekdaysMedicationFrequency value) specificWeekdays,
-    required TResult Function(SpecificDayOfMonthMedicationFrequency value) specificDayOfMonth,
-    required TResult Function(OddOrEvenDayMedicationFrequency value) oddOrEvenDay,
     required TResult Function(CycleMedicationFrequency value) cycle,
   }) {
     return daily(this);
@@ -227,8 +203,6 @@ class _$DailyMedicationFrequencyImpl extends DailyMedicationFrequency {
     TResult? Function(DailyMedicationFrequency value)? daily,
     TResult? Function(EveryXDaysMedicationFrequency value)? everyXDays,
     TResult? Function(SpecificWeekdaysMedicationFrequency value)? specificWeekdays,
-    TResult? Function(SpecificDayOfMonthMedicationFrequency value)? specificDayOfMonth,
-    TResult? Function(OddOrEvenDayMedicationFrequency value)? oddOrEvenDay,
     TResult? Function(CycleMedicationFrequency value)? cycle,
   }) {
     return daily?.call(this);
@@ -240,8 +214,6 @@ class _$DailyMedicationFrequencyImpl extends DailyMedicationFrequency {
     TResult Function(DailyMedicationFrequency value)? daily,
     TResult Function(EveryXDaysMedicationFrequency value)? everyXDays,
     TResult Function(SpecificWeekdaysMedicationFrequency value)? specificWeekdays,
-    TResult Function(SpecificDayOfMonthMedicationFrequency value)? specificDayOfMonth,
-    TResult Function(OddOrEvenDayMedicationFrequency value)? oddOrEvenDay,
     TResult Function(CycleMedicationFrequency value)? cycle,
     required TResult orElse(),
   }) {
@@ -345,8 +317,6 @@ class _$EveryXDaysMedicationFrequencyImpl extends EveryXDaysMedicationFrequency 
     required TResult Function() daily,
     required TResult Function(int interval) everyXDays,
     required TResult Function(List<Weekday> weekdays) specificWeekdays,
-    required TResult Function(List<int> daysOfMonth) specificDayOfMonth,
-    required TResult Function(bool isOddDay) oddOrEvenDay,
     required TResult Function(int consecutiveDays, int restDays) cycle,
   }) {
     return everyXDays(interval);
@@ -358,8 +328,6 @@ class _$EveryXDaysMedicationFrequencyImpl extends EveryXDaysMedicationFrequency 
     TResult? Function()? daily,
     TResult? Function(int interval)? everyXDays,
     TResult? Function(List<Weekday> weekdays)? specificWeekdays,
-    TResult? Function(List<int> daysOfMonth)? specificDayOfMonth,
-    TResult? Function(bool isOddDay)? oddOrEvenDay,
     TResult? Function(int consecutiveDays, int restDays)? cycle,
   }) {
     return everyXDays?.call(interval);
@@ -371,8 +339,6 @@ class _$EveryXDaysMedicationFrequencyImpl extends EveryXDaysMedicationFrequency 
     TResult Function()? daily,
     TResult Function(int interval)? everyXDays,
     TResult Function(List<Weekday> weekdays)? specificWeekdays,
-    TResult Function(List<int> daysOfMonth)? specificDayOfMonth,
-    TResult Function(bool isOddDay)? oddOrEvenDay,
     TResult Function(int consecutiveDays, int restDays)? cycle,
     required TResult orElse(),
   }) {
@@ -388,8 +354,6 @@ class _$EveryXDaysMedicationFrequencyImpl extends EveryXDaysMedicationFrequency 
     required TResult Function(DailyMedicationFrequency value) daily,
     required TResult Function(EveryXDaysMedicationFrequency value) everyXDays,
     required TResult Function(SpecificWeekdaysMedicationFrequency value) specificWeekdays,
-    required TResult Function(SpecificDayOfMonthMedicationFrequency value) specificDayOfMonth,
-    required TResult Function(OddOrEvenDayMedicationFrequency value) oddOrEvenDay,
     required TResult Function(CycleMedicationFrequency value) cycle,
   }) {
     return everyXDays(this);
@@ -401,8 +365,6 @@ class _$EveryXDaysMedicationFrequencyImpl extends EveryXDaysMedicationFrequency 
     TResult? Function(DailyMedicationFrequency value)? daily,
     TResult? Function(EveryXDaysMedicationFrequency value)? everyXDays,
     TResult? Function(SpecificWeekdaysMedicationFrequency value)? specificWeekdays,
-    TResult? Function(SpecificDayOfMonthMedicationFrequency value)? specificDayOfMonth,
-    TResult? Function(OddOrEvenDayMedicationFrequency value)? oddOrEvenDay,
     TResult? Function(CycleMedicationFrequency value)? cycle,
   }) {
     return everyXDays?.call(this);
@@ -414,8 +376,6 @@ class _$EveryXDaysMedicationFrequencyImpl extends EveryXDaysMedicationFrequency 
     TResult Function(DailyMedicationFrequency value)? daily,
     TResult Function(EveryXDaysMedicationFrequency value)? everyXDays,
     TResult Function(SpecificWeekdaysMedicationFrequency value)? specificWeekdays,
-    TResult Function(SpecificDayOfMonthMedicationFrequency value)? specificDayOfMonth,
-    TResult Function(OddOrEvenDayMedicationFrequency value)? oddOrEvenDay,
     TResult Function(CycleMedicationFrequency value)? cycle,
     required TResult orElse(),
   }) {
@@ -533,8 +493,6 @@ class _$SpecificWeekdaysMedicationFrequencyImpl extends SpecificWeekdaysMedicati
     required TResult Function() daily,
     required TResult Function(int interval) everyXDays,
     required TResult Function(List<Weekday> weekdays) specificWeekdays,
-    required TResult Function(List<int> daysOfMonth) specificDayOfMonth,
-    required TResult Function(bool isOddDay) oddOrEvenDay,
     required TResult Function(int consecutiveDays, int restDays) cycle,
   }) {
     return specificWeekdays(weekdays);
@@ -546,8 +504,6 @@ class _$SpecificWeekdaysMedicationFrequencyImpl extends SpecificWeekdaysMedicati
     TResult? Function()? daily,
     TResult? Function(int interval)? everyXDays,
     TResult? Function(List<Weekday> weekdays)? specificWeekdays,
-    TResult? Function(List<int> daysOfMonth)? specificDayOfMonth,
-    TResult? Function(bool isOddDay)? oddOrEvenDay,
     TResult? Function(int consecutiveDays, int restDays)? cycle,
   }) {
     return specificWeekdays?.call(weekdays);
@@ -559,8 +515,6 @@ class _$SpecificWeekdaysMedicationFrequencyImpl extends SpecificWeekdaysMedicati
     TResult Function()? daily,
     TResult Function(int interval)? everyXDays,
     TResult Function(List<Weekday> weekdays)? specificWeekdays,
-    TResult Function(List<int> daysOfMonth)? specificDayOfMonth,
-    TResult Function(bool isOddDay)? oddOrEvenDay,
     TResult Function(int consecutiveDays, int restDays)? cycle,
     required TResult orElse(),
   }) {
@@ -576,8 +530,6 @@ class _$SpecificWeekdaysMedicationFrequencyImpl extends SpecificWeekdaysMedicati
     required TResult Function(DailyMedicationFrequency value) daily,
     required TResult Function(EveryXDaysMedicationFrequency value) everyXDays,
     required TResult Function(SpecificWeekdaysMedicationFrequency value) specificWeekdays,
-    required TResult Function(SpecificDayOfMonthMedicationFrequency value) specificDayOfMonth,
-    required TResult Function(OddOrEvenDayMedicationFrequency value) oddOrEvenDay,
     required TResult Function(CycleMedicationFrequency value) cycle,
   }) {
     return specificWeekdays(this);
@@ -589,8 +541,6 @@ class _$SpecificWeekdaysMedicationFrequencyImpl extends SpecificWeekdaysMedicati
     TResult? Function(DailyMedicationFrequency value)? daily,
     TResult? Function(EveryXDaysMedicationFrequency value)? everyXDays,
     TResult? Function(SpecificWeekdaysMedicationFrequency value)? specificWeekdays,
-    TResult? Function(SpecificDayOfMonthMedicationFrequency value)? specificDayOfMonth,
-    TResult? Function(OddOrEvenDayMedicationFrequency value)? oddOrEvenDay,
     TResult? Function(CycleMedicationFrequency value)? cycle,
   }) {
     return specificWeekdays?.call(this);
@@ -602,8 +552,6 @@ class _$SpecificWeekdaysMedicationFrequencyImpl extends SpecificWeekdaysMedicati
     TResult Function(DailyMedicationFrequency value)? daily,
     TResult Function(EveryXDaysMedicationFrequency value)? everyXDays,
     TResult Function(SpecificWeekdaysMedicationFrequency value)? specificWeekdays,
-    TResult Function(SpecificDayOfMonthMedicationFrequency value)? specificDayOfMonth,
-    TResult Function(OddOrEvenDayMedicationFrequency value)? oddOrEvenDay,
     TResult Function(CycleMedicationFrequency value)? cycle,
     required TResult orElse(),
   }) {
@@ -633,377 +581,6 @@ abstract class SpecificWeekdaysMedicationFrequency extends MedicationFrequency {
   /// with the given fields replaced by the non-null parameter values.
   @JsonKey(includeFromJson: false, includeToJson: false)
   _$$SpecificWeekdaysMedicationFrequencyImplCopyWith<_$SpecificWeekdaysMedicationFrequencyImpl> get copyWith => throw _privateConstructorUsedError;
-}
-
-/// @nodoc
-abstract class _$$SpecificDayOfMonthMedicationFrequencyImplCopyWith<$Res> {
-  factory _$$SpecificDayOfMonthMedicationFrequencyImplCopyWith(
-          _$SpecificDayOfMonthMedicationFrequencyImpl value, $Res Function(_$SpecificDayOfMonthMedicationFrequencyImpl) then) =
-      __$$SpecificDayOfMonthMedicationFrequencyImplCopyWithImpl<$Res>;
-  @useResult
-  $Res call({List<int> daysOfMonth});
-}
-
-/// @nodoc
-class __$$SpecificDayOfMonthMedicationFrequencyImplCopyWithImpl<$Res>
-    extends _$MedicationFrequencyCopyWithImpl<$Res, _$SpecificDayOfMonthMedicationFrequencyImpl>
-    implements _$$SpecificDayOfMonthMedicationFrequencyImplCopyWith<$Res> {
-  __$$SpecificDayOfMonthMedicationFrequencyImplCopyWithImpl(
-      _$SpecificDayOfMonthMedicationFrequencyImpl _value, $Res Function(_$SpecificDayOfMonthMedicationFrequencyImpl) _then)
-      : super(_value, _then);
-
-  /// Create a copy of MedicationFrequency
-  /// with the given fields replaced by the non-null parameter values.
-  @pragma('vm:prefer-inline')
-  @override
-  $Res call({
-    Object? daysOfMonth = null,
-  }) {
-    return _then(_$SpecificDayOfMonthMedicationFrequencyImpl(
-      daysOfMonth: null == daysOfMonth
-          ? _value._daysOfMonth
-          : daysOfMonth // ignore: cast_nullable_to_non_nullable
-              as List<int>,
-    ));
-  }
-}
-
-/// @nodoc
-
-@JsonSerializable(explicitToJson: true)
-class _$SpecificDayOfMonthMedicationFrequencyImpl extends SpecificDayOfMonthMedicationFrequency {
-  const _$SpecificDayOfMonthMedicationFrequencyImpl({required final List<int> daysOfMonth, final String? $type})
-      : _daysOfMonth = daysOfMonth,
-        $type = $type ?? 'specificDayOfMonth',
-        super._();
-
-  factory _$SpecificDayOfMonthMedicationFrequencyImpl.fromJson(Map<String, dynamic> json) =>
-      _$$SpecificDayOfMonthMedicationFrequencyImplFromJson(json);
-
-  final List<int> _daysOfMonth;
-  @override
-  List<int> get daysOfMonth {
-    if (_daysOfMonth is EqualUnmodifiableListView) return _daysOfMonth;
-    // ignore: implicit_dynamic_type
-    return EqualUnmodifiableListView(_daysOfMonth);
-  }
-
-  @JsonKey(name: 'runtimeType')
-  final String $type;
-
-  @override
-  String toString() {
-    return 'MedicationFrequency.specificDayOfMonth(daysOfMonth: $daysOfMonth)';
-  }
-
-  @override
-  bool operator ==(Object other) {
-    return identical(this, other) ||
-        (other.runtimeType == runtimeType &&
-            other is _$SpecificDayOfMonthMedicationFrequencyImpl &&
-            const DeepCollectionEquality().equals(other._daysOfMonth, _daysOfMonth));
-  }
-
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @override
-  int get hashCode => Object.hash(runtimeType, const DeepCollectionEquality().hash(_daysOfMonth));
-
-  /// Create a copy of MedicationFrequency
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @override
-  @pragma('vm:prefer-inline')
-  _$$SpecificDayOfMonthMedicationFrequencyImplCopyWith<_$SpecificDayOfMonthMedicationFrequencyImpl> get copyWith =>
-      __$$SpecificDayOfMonthMedicationFrequencyImplCopyWithImpl<_$SpecificDayOfMonthMedicationFrequencyImpl>(this, _$identity);
-
-  @override
-  @optionalTypeArgs
-  TResult when<TResult extends Object?>({
-    required TResult Function() daily,
-    required TResult Function(int interval) everyXDays,
-    required TResult Function(List<Weekday> weekdays) specificWeekdays,
-    required TResult Function(List<int> daysOfMonth) specificDayOfMonth,
-    required TResult Function(bool isOddDay) oddOrEvenDay,
-    required TResult Function(int consecutiveDays, int restDays) cycle,
-  }) {
-    return specificDayOfMonth(daysOfMonth);
-  }
-
-  @override
-  @optionalTypeArgs
-  TResult? whenOrNull<TResult extends Object?>({
-    TResult? Function()? daily,
-    TResult? Function(int interval)? everyXDays,
-    TResult? Function(List<Weekday> weekdays)? specificWeekdays,
-    TResult? Function(List<int> daysOfMonth)? specificDayOfMonth,
-    TResult? Function(bool isOddDay)? oddOrEvenDay,
-    TResult? Function(int consecutiveDays, int restDays)? cycle,
-  }) {
-    return specificDayOfMonth?.call(daysOfMonth);
-  }
-
-  @override
-  @optionalTypeArgs
-  TResult maybeWhen<TResult extends Object?>({
-    TResult Function()? daily,
-    TResult Function(int interval)? everyXDays,
-    TResult Function(List<Weekday> weekdays)? specificWeekdays,
-    TResult Function(List<int> daysOfMonth)? specificDayOfMonth,
-    TResult Function(bool isOddDay)? oddOrEvenDay,
-    TResult Function(int consecutiveDays, int restDays)? cycle,
-    required TResult orElse(),
-  }) {
-    if (specificDayOfMonth != null) {
-      return specificDayOfMonth(daysOfMonth);
-    }
-    return orElse();
-  }
-
-  @override
-  @optionalTypeArgs
-  TResult map<TResult extends Object?>({
-    required TResult Function(DailyMedicationFrequency value) daily,
-    required TResult Function(EveryXDaysMedicationFrequency value) everyXDays,
-    required TResult Function(SpecificWeekdaysMedicationFrequency value) specificWeekdays,
-    required TResult Function(SpecificDayOfMonthMedicationFrequency value) specificDayOfMonth,
-    required TResult Function(OddOrEvenDayMedicationFrequency value) oddOrEvenDay,
-    required TResult Function(CycleMedicationFrequency value) cycle,
-  }) {
-    return specificDayOfMonth(this);
-  }
-
-  @override
-  @optionalTypeArgs
-  TResult? mapOrNull<TResult extends Object?>({
-    TResult? Function(DailyMedicationFrequency value)? daily,
-    TResult? Function(EveryXDaysMedicationFrequency value)? everyXDays,
-    TResult? Function(SpecificWeekdaysMedicationFrequency value)? specificWeekdays,
-    TResult? Function(SpecificDayOfMonthMedicationFrequency value)? specificDayOfMonth,
-    TResult? Function(OddOrEvenDayMedicationFrequency value)? oddOrEvenDay,
-    TResult? Function(CycleMedicationFrequency value)? cycle,
-  }) {
-    return specificDayOfMonth?.call(this);
-  }
-
-  @override
-  @optionalTypeArgs
-  TResult maybeMap<TResult extends Object?>({
-    TResult Function(DailyMedicationFrequency value)? daily,
-    TResult Function(EveryXDaysMedicationFrequency value)? everyXDays,
-    TResult Function(SpecificWeekdaysMedicationFrequency value)? specificWeekdays,
-    TResult Function(SpecificDayOfMonthMedicationFrequency value)? specificDayOfMonth,
-    TResult Function(OddOrEvenDayMedicationFrequency value)? oddOrEvenDay,
-    TResult Function(CycleMedicationFrequency value)? cycle,
-    required TResult orElse(),
-  }) {
-    if (specificDayOfMonth != null) {
-      return specificDayOfMonth(this);
-    }
-    return orElse();
-  }
-
-  @override
-  Map<String, dynamic> toJson() {
-    return _$$SpecificDayOfMonthMedicationFrequencyImplToJson(
-      this,
-    );
-  }
-}
-
-abstract class SpecificDayOfMonthMedicationFrequency extends MedicationFrequency {
-  const factory SpecificDayOfMonthMedicationFrequency({required final List<int> daysOfMonth}) = _$SpecificDayOfMonthMedicationFrequencyImpl;
-  const SpecificDayOfMonthMedicationFrequency._() : super._();
-
-  factory SpecificDayOfMonthMedicationFrequency.fromJson(Map<String, dynamic> json) = _$SpecificDayOfMonthMedicationFrequencyImpl.fromJson;
-
-  List<int> get daysOfMonth;
-
-  /// Create a copy of MedicationFrequency
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  _$$SpecificDayOfMonthMedicationFrequencyImplCopyWith<_$SpecificDayOfMonthMedicationFrequencyImpl> get copyWith =>
-      throw _privateConstructorUsedError;
-}
-
-/// @nodoc
-abstract class _$$OddOrEvenDayMedicationFrequencyImplCopyWith<$Res> {
-  factory _$$OddOrEvenDayMedicationFrequencyImplCopyWith(
-          _$OddOrEvenDayMedicationFrequencyImpl value, $Res Function(_$OddOrEvenDayMedicationFrequencyImpl) then) =
-      __$$OddOrEvenDayMedicationFrequencyImplCopyWithImpl<$Res>;
-  @useResult
-  $Res call({bool isOddDay});
-}
-
-/// @nodoc
-class __$$OddOrEvenDayMedicationFrequencyImplCopyWithImpl<$Res> extends _$MedicationFrequencyCopyWithImpl<$Res, _$OddOrEvenDayMedicationFrequencyImpl>
-    implements _$$OddOrEvenDayMedicationFrequencyImplCopyWith<$Res> {
-  __$$OddOrEvenDayMedicationFrequencyImplCopyWithImpl(
-      _$OddOrEvenDayMedicationFrequencyImpl _value, $Res Function(_$OddOrEvenDayMedicationFrequencyImpl) _then)
-      : super(_value, _then);
-
-  /// Create a copy of MedicationFrequency
-  /// with the given fields replaced by the non-null parameter values.
-  @pragma('vm:prefer-inline')
-  @override
-  $Res call({
-    Object? isOddDay = null,
-  }) {
-    return _then(_$OddOrEvenDayMedicationFrequencyImpl(
-      isOddDay: null == isOddDay
-          ? _value.isOddDay
-          : isOddDay // ignore: cast_nullable_to_non_nullable
-              as bool,
-    ));
-  }
-}
-
-/// @nodoc
-
-@JsonSerializable(explicitToJson: true)
-class _$OddOrEvenDayMedicationFrequencyImpl extends OddOrEvenDayMedicationFrequency {
-  const _$OddOrEvenDayMedicationFrequencyImpl({required this.isOddDay, final String? $type})
-      : $type = $type ?? 'oddOrEvenDay',
-        super._();
-
-  factory _$OddOrEvenDayMedicationFrequencyImpl.fromJson(Map<String, dynamic> json) => _$$OddOrEvenDayMedicationFrequencyImplFromJson(json);
-
-  @override
-  final bool isOddDay;
-
-  @JsonKey(name: 'runtimeType')
-  final String $type;
-
-  @override
-  String toString() {
-    return 'MedicationFrequency.oddOrEvenDay(isOddDay: $isOddDay)';
-  }
-
-  @override
-  bool operator ==(Object other) {
-    return identical(this, other) ||
-        (other.runtimeType == runtimeType &&
-            other is _$OddOrEvenDayMedicationFrequencyImpl &&
-            (identical(other.isOddDay, isOddDay) || other.isOddDay == isOddDay));
-  }
-
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @override
-  int get hashCode => Object.hash(runtimeType, isOddDay);
-
-  /// Create a copy of MedicationFrequency
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @override
-  @pragma('vm:prefer-inline')
-  _$$OddOrEvenDayMedicationFrequencyImplCopyWith<_$OddOrEvenDayMedicationFrequencyImpl> get copyWith =>
-      __$$OddOrEvenDayMedicationFrequencyImplCopyWithImpl<_$OddOrEvenDayMedicationFrequencyImpl>(this, _$identity);
-
-  @override
-  @optionalTypeArgs
-  TResult when<TResult extends Object?>({
-    required TResult Function() daily,
-    required TResult Function(int interval) everyXDays,
-    required TResult Function(List<Weekday> weekdays) specificWeekdays,
-    required TResult Function(List<int> daysOfMonth) specificDayOfMonth,
-    required TResult Function(bool isOddDay) oddOrEvenDay,
-    required TResult Function(int consecutiveDays, int restDays) cycle,
-  }) {
-    return oddOrEvenDay(isOddDay);
-  }
-
-  @override
-  @optionalTypeArgs
-  TResult? whenOrNull<TResult extends Object?>({
-    TResult? Function()? daily,
-    TResult? Function(int interval)? everyXDays,
-    TResult? Function(List<Weekday> weekdays)? specificWeekdays,
-    TResult? Function(List<int> daysOfMonth)? specificDayOfMonth,
-    TResult? Function(bool isOddDay)? oddOrEvenDay,
-    TResult? Function(int consecutiveDays, int restDays)? cycle,
-  }) {
-    return oddOrEvenDay?.call(isOddDay);
-  }
-
-  @override
-  @optionalTypeArgs
-  TResult maybeWhen<TResult extends Object?>({
-    TResult Function()? daily,
-    TResult Function(int interval)? everyXDays,
-    TResult Function(List<Weekday> weekdays)? specificWeekdays,
-    TResult Function(List<int> daysOfMonth)? specificDayOfMonth,
-    TResult Function(bool isOddDay)? oddOrEvenDay,
-    TResult Function(int consecutiveDays, int restDays)? cycle,
-    required TResult orElse(),
-  }) {
-    if (oddOrEvenDay != null) {
-      return oddOrEvenDay(isOddDay);
-    }
-    return orElse();
-  }
-
-  @override
-  @optionalTypeArgs
-  TResult map<TResult extends Object?>({
-    required TResult Function(DailyMedicationFrequency value) daily,
-    required TResult Function(EveryXDaysMedicationFrequency value) everyXDays,
-    required TResult Function(SpecificWeekdaysMedicationFrequency value) specificWeekdays,
-    required TResult Function(SpecificDayOfMonthMedicationFrequency value) specificDayOfMonth,
-    required TResult Function(OddOrEvenDayMedicationFrequency value) oddOrEvenDay,
-    required TResult Function(CycleMedicationFrequency value) cycle,
-  }) {
-    return oddOrEvenDay(this);
-  }
-
-  @override
-  @optionalTypeArgs
-  TResult? mapOrNull<TResult extends Object?>({
-    TResult? Function(DailyMedicationFrequency value)? daily,
-    TResult? Function(EveryXDaysMedicationFrequency value)? everyXDays,
-    TResult? Function(SpecificWeekdaysMedicationFrequency value)? specificWeekdays,
-    TResult? Function(SpecificDayOfMonthMedicationFrequency value)? specificDayOfMonth,
-    TResult? Function(OddOrEvenDayMedicationFrequency value)? oddOrEvenDay,
-    TResult? Function(CycleMedicationFrequency value)? cycle,
-  }) {
-    return oddOrEvenDay?.call(this);
-  }
-
-  @override
-  @optionalTypeArgs
-  TResult maybeMap<TResult extends Object?>({
-    TResult Function(DailyMedicationFrequency value)? daily,
-    TResult Function(EveryXDaysMedicationFrequency value)? everyXDays,
-    TResult Function(SpecificWeekdaysMedicationFrequency value)? specificWeekdays,
-    TResult Function(SpecificDayOfMonthMedicationFrequency value)? specificDayOfMonth,
-    TResult Function(OddOrEvenDayMedicationFrequency value)? oddOrEvenDay,
-    TResult Function(CycleMedicationFrequency value)? cycle,
-    required TResult orElse(),
-  }) {
-    if (oddOrEvenDay != null) {
-      return oddOrEvenDay(this);
-    }
-    return orElse();
-  }
-
-  @override
-  Map<String, dynamic> toJson() {
-    return _$$OddOrEvenDayMedicationFrequencyImplToJson(
-      this,
-    );
-  }
-}
-
-abstract class OddOrEvenDayMedicationFrequency extends MedicationFrequency {
-  const factory OddOrEvenDayMedicationFrequency({required final bool isOddDay}) = _$OddOrEvenDayMedicationFrequencyImpl;
-  const OddOrEvenDayMedicationFrequency._() : super._();
-
-  factory OddOrEvenDayMedicationFrequency.fromJson(Map<String, dynamic> json) = _$OddOrEvenDayMedicationFrequencyImpl.fromJson;
-
-  bool get isOddDay;
-
-  /// Create a copy of MedicationFrequency
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  _$$OddOrEvenDayMedicationFrequencyImplCopyWith<_$OddOrEvenDayMedicationFrequencyImpl> get copyWith => throw _privateConstructorUsedError;
 }
 
 /// @nodoc
@@ -1093,8 +670,6 @@ class _$CycleMedicationFrequencyImpl extends CycleMedicationFrequency {
     required TResult Function() daily,
     required TResult Function(int interval) everyXDays,
     required TResult Function(List<Weekday> weekdays) specificWeekdays,
-    required TResult Function(List<int> daysOfMonth) specificDayOfMonth,
-    required TResult Function(bool isOddDay) oddOrEvenDay,
     required TResult Function(int consecutiveDays, int restDays) cycle,
   }) {
     return cycle(consecutiveDays, restDays);
@@ -1106,8 +681,6 @@ class _$CycleMedicationFrequencyImpl extends CycleMedicationFrequency {
     TResult? Function()? daily,
     TResult? Function(int interval)? everyXDays,
     TResult? Function(List<Weekday> weekdays)? specificWeekdays,
-    TResult? Function(List<int> daysOfMonth)? specificDayOfMonth,
-    TResult? Function(bool isOddDay)? oddOrEvenDay,
     TResult? Function(int consecutiveDays, int restDays)? cycle,
   }) {
     return cycle?.call(consecutiveDays, restDays);
@@ -1119,8 +692,6 @@ class _$CycleMedicationFrequencyImpl extends CycleMedicationFrequency {
     TResult Function()? daily,
     TResult Function(int interval)? everyXDays,
     TResult Function(List<Weekday> weekdays)? specificWeekdays,
-    TResult Function(List<int> daysOfMonth)? specificDayOfMonth,
-    TResult Function(bool isOddDay)? oddOrEvenDay,
     TResult Function(int consecutiveDays, int restDays)? cycle,
     required TResult orElse(),
   }) {
@@ -1136,8 +707,6 @@ class _$CycleMedicationFrequencyImpl extends CycleMedicationFrequency {
     required TResult Function(DailyMedicationFrequency value) daily,
     required TResult Function(EveryXDaysMedicationFrequency value) everyXDays,
     required TResult Function(SpecificWeekdaysMedicationFrequency value) specificWeekdays,
-    required TResult Function(SpecificDayOfMonthMedicationFrequency value) specificDayOfMonth,
-    required TResult Function(OddOrEvenDayMedicationFrequency value) oddOrEvenDay,
     required TResult Function(CycleMedicationFrequency value) cycle,
   }) {
     return cycle(this);
@@ -1149,8 +718,6 @@ class _$CycleMedicationFrequencyImpl extends CycleMedicationFrequency {
     TResult? Function(DailyMedicationFrequency value)? daily,
     TResult? Function(EveryXDaysMedicationFrequency value)? everyXDays,
     TResult? Function(SpecificWeekdaysMedicationFrequency value)? specificWeekdays,
-    TResult? Function(SpecificDayOfMonthMedicationFrequency value)? specificDayOfMonth,
-    TResult? Function(OddOrEvenDayMedicationFrequency value)? oddOrEvenDay,
     TResult? Function(CycleMedicationFrequency value)? cycle,
   }) {
     return cycle?.call(this);
@@ -1162,8 +729,6 @@ class _$CycleMedicationFrequencyImpl extends CycleMedicationFrequency {
     TResult Function(DailyMedicationFrequency value)? daily,
     TResult Function(EveryXDaysMedicationFrequency value)? everyXDays,
     TResult Function(SpecificWeekdaysMedicationFrequency value)? specificWeekdays,
-    TResult Function(SpecificDayOfMonthMedicationFrequency value)? specificDayOfMonth,
-    TResult Function(OddOrEvenDayMedicationFrequency value)? oddOrEvenDay,
     TResult Function(CycleMedicationFrequency value)? cycle,
     required TResult orElse(),
   }) {

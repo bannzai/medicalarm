@@ -22,18 +22,6 @@ sealed class MedicationFrequency with _$MedicationFrequency {
     required List<Weekday> weekdays,
   }) = SpecificWeekdaysMedicationFrequency;
 
-  // 月の特定日
-  @JsonSerializable(explicitToJson: true)
-  const factory MedicationFrequency.specificDayOfMonth({
-    required List<int> daysOfMonth,
-  }) = SpecificDayOfMonthMedicationFrequency;
-
-  // 奇数日 / 偶数日
-  @JsonSerializable(explicitToJson: true)
-  const factory MedicationFrequency.oddOrEvenDay({
-    required bool isOddDay,
-  }) = OddOrEvenDayMedicationFrequency;
-
   // 周期
   @JsonSerializable(explicitToJson: true)
   const factory MedicationFrequency.cycle({
@@ -50,8 +38,6 @@ sealed class MedicationFrequency with _$MedicationFrequency {
         DailyMedicationFrequency() => '毎日',
         EveryXDaysMedicationFrequency(interval: final interval) => '$interval日ごと',
         SpecificWeekdaysMedicationFrequency(weekdays: final weekdays) => weekdays.map((weekday) => weekday.weekdayShortString()).join(','),
-        SpecificDayOfMonthMedicationFrequency(daysOfMonth: final daysOfMonth) => daysOfMonth.join(','),
-        OddOrEvenDayMedicationFrequency(isOddDay: final isOddDay) => isOddDay ? '奇数日' : '偶数日',
         CycleMedicationFrequency(consecutiveDays: final consecutiveDays, restDays: final restDays) => '$consecutiveDays日服用/$restDays日休薬',
       };
 }

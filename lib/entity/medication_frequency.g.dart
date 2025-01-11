@@ -45,28 +45,6 @@ const _$WeekdayEnumMap = {
   Weekday.Saturday: 'Saturday',
 };
 
-_$SpecificDayOfMonthMedicationFrequencyImpl _$$SpecificDayOfMonthMedicationFrequencyImplFromJson(Map<String, dynamic> json) =>
-    _$SpecificDayOfMonthMedicationFrequencyImpl(
-      daysOfMonth: (json['daysOfMonth'] as List<dynamic>).map((e) => (e as num).toInt()).toList(),
-      $type: json['runtimeType'] as String?,
-    );
-
-Map<String, dynamic> _$$SpecificDayOfMonthMedicationFrequencyImplToJson(_$SpecificDayOfMonthMedicationFrequencyImpl instance) => <String, dynamic>{
-      'daysOfMonth': instance.daysOfMonth,
-      'runtimeType': instance.$type,
-    };
-
-_$OddOrEvenDayMedicationFrequencyImpl _$$OddOrEvenDayMedicationFrequencyImplFromJson(Map<String, dynamic> json) =>
-    _$OddOrEvenDayMedicationFrequencyImpl(
-      isOddDay: json['isOddDay'] as bool,
-      $type: json['runtimeType'] as String?,
-    );
-
-Map<String, dynamic> _$$OddOrEvenDayMedicationFrequencyImplToJson(_$OddOrEvenDayMedicationFrequencyImpl instance) => <String, dynamic>{
-      'isOddDay': instance.isOddDay,
-      'runtimeType': instance.$type,
-    };
-
 _$CycleMedicationFrequencyImpl _$$CycleMedicationFrequencyImplFromJson(Map<String, dynamic> json) => _$CycleMedicationFrequencyImpl(
       consecutiveDays: (json['consecutiveDays'] as num).toInt(),
       restDays: (json['restDays'] as num).toInt(),

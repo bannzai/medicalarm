@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
-import 'package:medicalarm/components/container/flat_tile.dart';
 import 'package:medicalarm/components/picker/number.dart';
 import 'package:medicalarm/components/picker/weekday.dart';
 import 'package:medicalarm/entity/medication_frequency.dart';
@@ -65,22 +64,6 @@ class MedicationFrequencyFormPage extends HookConsumerWidget {
                               ),
                               const Divider(color: Colors.black, height: 1),
                               ListTile(
-                                title: const Text('月の特定日'),
-                                trailing: frequency.value is SpecificDayOfMonthMedicationFrequency ? const Icon(Icons.check) : null,
-                                onTap: () {
-                                  frequency.value = const MedicationFrequency.specificDayOfMonth(daysOfMonth: [1, 2, 3, 4, 5, 6, 7]);
-                                },
-                              ),
-                              const Divider(color: Colors.black, height: 1),
-                              ListTile(
-                                title: const Text('奇数日/偶数日'),
-                                trailing: frequency.value is OddOrEvenDayMedicationFrequency ? const Icon(Icons.check) : null,
-                                onTap: () {
-                                  frequency.value = const MedicationFrequency.oddOrEvenDay(isOddDay: true);
-                                },
-                              ),
-                              const Divider(color: Colors.black, height: 1),
-                              ListTile(
                                 title: const Text('周期'),
                                 trailing: frequency.value is CycleMedicationFrequency ? const Icon(Icons.check) : null,
                                 onTap: () {
@@ -119,8 +102,6 @@ class MedicationFrequencyFormPage extends HookConsumerWidget {
                                   WeekdayPicker(weekdays: weekdays),
                                 ],
                               ),
-                            SpecificDayOfMonthMedicationFrequency() => const SizedBox.shrink(),
-                            OddOrEvenDayMedicationFrequency() => const SizedBox.shrink(),
                             CycleMedicationFrequency() => const SizedBox.shrink(),
                           }
                         ],
