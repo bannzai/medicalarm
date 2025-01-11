@@ -3,9 +3,11 @@ import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:medicalarm/components/container/flat_tile.dart';
 import 'package:medicalarm/components/picker/number.dart';
+import 'package:medicalarm/components/picker/weekday.dart';
 import 'package:medicalarm/entity/medication_frequency.dart';
 import 'package:medicalarm/style/button.dart';
 import 'package:medicalarm/theme/form.dart';
+import 'package:medicalarm/utils/date_time/weekday.dart';
 
 class MedicationFrequencyFormPage extends HookConsumerWidget {
   final ValueNotifier<MedicationFrequency> frequency;
@@ -15,6 +17,7 @@ class MedicationFrequencyFormPage extends HookConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final frequency = useState(this.frequency.value);
     final frequencyValue = frequency.value;
+    final weekdays = useState<List<Weekday>>(frequencyValue is SpecificWeekdaysMedicationFrequency ? frequencyValue.weekdays : []);
 
     return DraggableScrollableSheet(
       initialChildSize: 0.6,
@@ -50,9 +53,9 @@ class MedicationFrequencyFormPage extends HookConsumerWidget {
                               const Divider(color: Colors.black, height: 1),
                               ListTile(
                                 title: const Text('特定の曜日'),
-                                trailing: frequency.value is SpecificDayOfWeekMedicationFrequency ? const Icon(Icons.check) : null,
+                                trailing: frequency.value is SpecificWeekdaysMedicationFrequency ? const Icon(Icons.check) : null,
                                 onTap: () {
-                                  frequency.value = const MedicationFrequency.specificDayOfWeek(daysOfWeek: [1, 2, 3, 4, 5, 6, 7]);
+                                  frequency.value = const MedicationFrequency.specificWeekdays(weekdays: Weekday.values);
                                 },
                               ),
                               const Divider(color: Colors.black, height: 1),
@@ -104,7 +107,9 @@ class MedicationFrequencyFormPage extends HookConsumerWidget {
                                     ),
                                   ),
                                 ],
-                              SpecificDayOfWeekMedicationFrequency() => [],
+                              SpecificWeekdaysMedicationFrequency() => [
+                                  WeekdayPicker(weekdays: weekdays),
+                                ],
                               SpecificDayOfMonthMedicationFrequency() => [],
                               OddOrEvenDayMedicationFrequency() => [],
                               CycleMedicationFrequency() => [],
