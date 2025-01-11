@@ -66,3 +66,25 @@ class MedicineMemoRow extends StatelessWidget {
     );
   }
 }
+
+class MedicineDoseReceiverNameTextField extends StatelessWidget {
+  final ValueNotifier<String> doseReceiverName;
+  const MedicineDoseReceiverNameTextField({super.key, required this.doseReceiverName});
+
+  @override
+  Widget build(BuildContext context) {
+    return Padding(
+      padding: const EdgeInsets.symmetric(horizontal: 12.0, vertical: 16.0),
+      child: ListTile(
+        title: const Text('服用者'),
+        trailing: Wrap(
+          children: [
+            Text(doseReceiverName.value),
+            const Icon(Icons.chevron_right),
+          ],
+        ),
+        onTap: () {},
+      ),
+    );
+  }
+}
