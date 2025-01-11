@@ -17,11 +17,9 @@ class MedicineNotificationSettingAddButton extends StatelessWidget {
         notificationSettings.value = [
           ...notificationSettings.value,
           const MedicineNotificationSetting(
-            reminderTime: MedicineDosingTime(hour: 10, minute: 00),
-            dosingCount: 1,
-            isEnabled: true,
+            isReminderEnabled: true,
+            isFollowupEnabled: false,
             useCriticalAlert: false,
-            doserName: null,
           ),
         ];
       },
