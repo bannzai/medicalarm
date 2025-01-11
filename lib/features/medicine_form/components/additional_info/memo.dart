@@ -1,4 +1,13 @@
+import 'dart:io';
+
 import 'package:flutter/material.dart';
+import 'package:flutter_hooks/flutter_hooks.dart';
+import 'package:hooks_riverpod/hooks_riverpod.dart';
+import 'package:image_cropper/image_cropper.dart';
+import 'package:image_picker/image_picker.dart';
+import 'package:medicalarm/components/error/error_alert.dart';
+import 'package:medicalarm/utils/image/image.dart';
+import 'package:medicalarm/utils/storage/firebase_cloud_storage.dart';
 
 class MedicineMemoRow extends StatelessWidget {
   final ValueNotifier<String> memo;
@@ -34,7 +43,7 @@ class MedicineMemoRow extends StatelessWidget {
   }
 }
 
-class ImagePickerButton extends StatelessWidget {
+class ImagePickerButton extends HookConsumerWidget {
   const ImagePickerButton({
     super.key,
     required this.memoImageURL,
@@ -43,9 +52,50 @@ class ImagePickerButton extends StatelessWidget {
   final ValueNotifier<String> memoImageURL;
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context, WidgetRef ref) {
+    final isLoading = useState(false);
     return GestureDetector(
-      onTap: () {},
+      onTap: () async {
+        final imagePicker = ImagePicker();
+        final XFile? photo = await imagePicker.pickImage(source: ImageSource.gallery);
+
+        if (photo != null) {
+          final croppedFile = await ImageCropper().cropImage(
+            sourcePath: photo.path,
+            uiSettings: [
+              AndroidUiSettings(
+                toolbarTitle: 'Cropper',
+                toolbarColor: Colors.deepOrange,
+                toolbarWidgetColor: Colors.white,
+                aspectRatioPresets: [
+                  CropAspectRatioPreset.original,
+                  CropAspectRatioPreset.square,
+                  _CropAspectRatioPresetCustom(),
+                ],
+              ),
+              IOSUiSettings(
+                title: 'Cropper',
+                aspectRatioPresets: [
+                  CropAspectRatioPreset.original,
+                  CropAspectRatioPreset.square,
+                  _CropAspectRatioPresetCustom(), // IMPORTANT: iOS supports only one custom aspect ratio in preset list
+                ],
+              ),
+            ],
+          );
+          if (croppedFile != null) {
+            try {
+              final file = File(croppedFile.path);
+              final url = await uploadImage(medicinesRef(userID: userID), file);
+              memoImageURL.value = url;
+            } catch (e) {
+              if (context.mounted) {
+                showErrorAlert(context, e.toString());
+              }
+            }
+          }
+        }
+      },
       child: ClipRRect(
         borderRadius: BorderRadius.circular(8),
         child: Container(
@@ -57,4 +107,12 @@ class ImagePickerButton extends StatelessWidget {
       ),
     );
   }
+}
+
+class _CropAspectRatioPresetCustom implements CropAspectRatioPresetData {
+  @override
+  (int, int)? get data => (1, 1);
+
+  @override
+  String get name => '1x1 (customized)';
 }
