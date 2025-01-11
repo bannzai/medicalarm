@@ -5,6 +5,7 @@ import 'package:medicalarm/components/container/flat_tile.dart';
 import 'package:medicalarm/components/picker/number.dart';
 import 'package:medicalarm/components/picker/weekday.dart';
 import 'package:medicalarm/entity/medication_frequency.dart';
+import 'package:medicalarm/features/medication_frequency_form/components/section_layout.dart';
 import 'package:medicalarm/style/button.dart';
 import 'package:medicalarm/theme/form.dart';
 import 'package:medicalarm/utils/date_time/weekday.dart';
@@ -35,7 +36,9 @@ class MedicationFrequencyFormPage extends HookConsumerWidget {
                       padding: const EdgeInsets.symmetric(vertical: 60.0),
                       child: Column(
                         children: [
-                          Column(
+                          MedicationFrequencyFormSectionLayout(
+                            icon: Icons.schedule,
+                            text: '服用頻度',
                             children: [
                               ListTile(
                                 title: const Text('毎日'),
@@ -84,39 +87,42 @@ class MedicationFrequencyFormPage extends HookConsumerWidget {
                                   frequency.value = const MedicationFrequency.cycle(consecutiveDays: 21, restDays: 7);
                                 },
                               ),
-                              const Divider(color: Colors.black, height: 1),
                             ],
                           ),
                           const SizedBox(height: 16.0),
-                          Column(
-                            children: switch (frequencyValue) {
-                              DailyMedicationFrequency() => [],
-                              EveryXDaysMedicationFrequency() => [
-                                  FlatTile(
-                                    child: ListTile(
-                                      title: const Text('X日ごと'),
-                                      trailing: Text(frequencyValue.interval.toString()),
-                                      onTap: () async {
-                                        final interval = await showModalBottomSheet<int>(
-                                          context: context,
-                                          barrierColor: Colors.transparent,
-                                          builder: (context) => AppNumberPicker(initialNumber: frequencyValue.interval),
-                                        );
-                                        if (interval != null) {
-                                          frequency.value = MedicationFrequency.everyXDays(interval: interval);
-                                        }
-                                      },
-                                    ),
+                          switch (frequencyValue) {
+                            DailyMedicationFrequency() => const SizedBox.shrink(),
+                            EveryXDaysMedicationFrequency() => MedicationFrequencyFormSectionLayout(
+                                icon: Icons.schedule,
+                                text: 'X日ごと',
+                                children: [
+                                  ListTile(
+                                    title: Text('${frequencyValue.interval}日ごと'),
+                                    trailing: const Icon(Icons.chevron_right),
+                                    onTap: () async {
+                                      final interval = await showModalBottomSheet<int>(
+                                        context: context,
+                                        barrierColor: Colors.transparent,
+                                        builder: (context) => AppNumberPicker(initialNumber: frequencyValue.interval),
+                                      );
+                                      if (interval != null) {
+                                        frequency.value = MedicationFrequency.everyXDays(interval: interval);
+                                      }
+                                    },
                                   ),
                                 ],
-                              SpecificWeekdaysMedicationFrequency() => [
+                              ),
+                            SpecificWeekdaysMedicationFrequency() => MedicationFrequencyFormSectionLayout(
+                                icon: Icons.schedule,
+                                text: '特定の曜日',
+                                children: [
                                   WeekdayPicker(weekdays: weekdays),
                                 ],
-                              SpecificDayOfMonthMedicationFrequency() => [],
-                              OddOrEvenDayMedicationFrequency() => [],
-                              CycleMedicationFrequency() => [],
-                            },
-                          ),
+                              ),
+                            SpecificDayOfMonthMedicationFrequency() => const SizedBox.shrink(),
+                            OddOrEvenDayMedicationFrequency() => const SizedBox.shrink(),
+                            CycleMedicationFrequency() => const SizedBox.shrink(),
+                          }
                         ],
                       ),
                     ),
