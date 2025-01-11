@@ -21,12 +21,13 @@ class MedicineFormPage extends HookConsumerWidget {
       appBar: AppBar(
         title: Text('Medicine Form', style: TextStyle(color: primaryColor)),
         backgroundColor: Colors.white,
+        iconTheme: IconThemeData(color: primaryColor),
       ),
       body: SafeArea(
         child: Column(
           children: [
             Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 12.0, vertical: 8.0),
+              padding: const EdgeInsets.symmetric(horizontal: 12.0, vertical: 16.0),
               child: TextFormField(
                 initialValue: name.value,
                 onChanged: (value) {
