@@ -119,7 +119,7 @@ class DoseReceiverAddButton extends HookConsumerWidget {
       onPressed: doseReceivers.any((e) => e.name.isEmpty)
           ? null
           : () {
-              doseReceiverAdd.call(name: '');
+              doseReceiverAdd.call(name: '新しい服用者');
             },
       icon: const Icon(Icons.add),
       label: const Text('服用者を追加', style: TextStyle(fontWeight: FontWeight.bold)),
