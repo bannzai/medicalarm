@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:medicalarm/entity/medicine.dart';
+import 'package:medicalarm/features/medicine_form/components/notification_setting/section.dart';
 import 'package:medicalarm/features/medicine_form/components/section.dart';
 import 'package:medicalarm/style/button.dart';
 import 'package:medicalarm/style/color.dart';
@@ -48,88 +49,6 @@ class MedicineFormPage extends HookConsumerWidget {
           ],
         ),
       ),
-    );
-  }
-}
-
-class MedicineNotificationSettingSection extends StatelessWidget {
-  final ValueNotifier<List<MedicineNotificationSetting>> notificationSettings;
-  const MedicineNotificationSettingSection({super.key, required this.notificationSettings});
-
-  @override
-  Widget build(BuildContext context) {
-    return Column(
-      children: [
-        for (final (index, notificationSetting) in notificationSettings.value.indexed) ...[
-          Row(
-            children: [
-              Expanded(
-                child: GestureDetector(
-                  onTap: () async {
-                    final result = await showTimePicker(
-                      context: context,
-                      initialTime: notificationSetting.reminderTime.toTimeOfDay(),
-                    );
-                    if (result != null) {
-                      final copied = [...notificationSettings.value];
-                      copied[index] =
-                          copied[index].copyWith(reminderTime: MedicineNotificationSettingReminderTime(hour: result.hour, minute: result.minute));
-                      notificationSettings.value = copied;
-                    }
-                  },
-                  child: Container(
-                    decoration: BoxDecoration(
-                      border: Border.all(color: AppColors.border),
-                      color: Colors.white,
-                      borderRadius: BorderRadius.circular(4),
-                    ),
-                    constraints: const BoxConstraints(
-                      minHeight: 48,
-                      maxWidth: double.infinity,
-                    ),
-                    child: Align(
-                      alignment: Alignment.centerLeft,
-                      child: Padding(
-                        padding: const EdgeInsets.symmetric(horizontal: 8.0),
-                        child: Text(
-                          notificationSetting.reminderTime.toTimeString(),
-                          style: const TextStyle(fontSize: 16),
-                        ),
-                      ),
-                    ),
-                  ),
-                ),
-              ),
-              IconButton(onPressed: () {}, icon: const Icon(Icons.settings)),
-              IconButton(
-                onPressed: () {
-                  notificationSettings.value = notificationSettings.value.where((element) => element != notificationSetting).toList();
-                },
-                icon: const Icon(Icons.delete),
-              ),
-            ],
-          ),
-          const SizedBox(height: 6),
-        ],
-        const SizedBox(height: 10),
-        TextButton.icon(
-          onPressed: () {
-            notificationSettings.value = [
-              ...notificationSettings.value,
-              const MedicineNotificationSetting(
-                reminderTime: MedicineNotificationSettingReminderTime(hour: 10, minute: 00),
-                dosingCount: 1,
-                isEnabled: true,
-                useCriticalAlert: false,
-                doserName: null,
-              ),
-            ];
-          },
-          icon: const Icon(Icons.add),
-          label: const Text('服用時刻を追加', style: TextStyle(fontWeight: FontWeight.bold)),
-          style: secondaryButtonStyle.merge(capsuleButtonStyle),
-        ),
-      ],
     );
   }
 }
