@@ -102,7 +102,45 @@ class MedicationFrequencyFormPage extends HookConsumerWidget {
                                   WeekdayPicker(weekdays: weekdays),
                                 ],
                               ),
-                            CycleMedicationFrequency() => const SizedBox.shrink(),
+                            CycleMedicationFrequency() => MedicationFrequencyFormSectionLayout(
+                                icon: Icons.schedule,
+                                text: '周期',
+                                children: [
+                                  ListTile(
+                                    title: Text('${frequencyValue.consecutiveDays}日服用'),
+                                    trailing: const Icon(Icons.chevron_right),
+                                    onTap: () async {
+                                      final consecutiveDays = await showModalBottomSheet<int>(
+                                        context: context,
+                                        builder: (context) => AppNumberPicker(initialNumber: frequencyValue.consecutiveDays),
+                                      );
+                                      if (consecutiveDays != null) {
+                                        frequency.value = MedicationFrequency.cycle(
+                                          consecutiveDays: consecutiveDays,
+                                          restDays: frequencyValue.restDays,
+                                        );
+                                      }
+                                    },
+                                  ),
+                                  const Divider(color: Colors.black, height: 1),
+                                  ListTile(
+                                    title: Text('${frequencyValue.restDays}日休薬'),
+                                    trailing: const Icon(Icons.chevron_right),
+                                    onTap: () async {
+                                      final restDays = await showModalBottomSheet<int>(
+                                        context: context,
+                                        builder: (context) => AppNumberPicker(initialNumber: frequencyValue.restDays),
+                                      );
+                                      if (restDays != null) {
+                                        frequency.value = MedicationFrequency.cycle(
+                                          consecutiveDays: frequencyValue.consecutiveDays,
+                                          restDays: restDays,
+                                        );
+                                      }
+                                    },
+                                  ),
+                                ],
+                              ),
                           }
                         ],
                       ),
