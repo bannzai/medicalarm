@@ -141,8 +141,10 @@ class __$$DailyMedicationFrequencyImplCopyWithImpl<$Res> extends _$MedicationFre
 /// @nodoc
 
 @JsonSerializable(explicitToJson: true)
-class _$DailyMedicationFrequencyImpl implements DailyMedicationFrequency {
-  const _$DailyMedicationFrequencyImpl({final String? $type}) : $type = $type ?? 'daily';
+class _$DailyMedicationFrequencyImpl extends DailyMedicationFrequency {
+  const _$DailyMedicationFrequencyImpl({final String? $type})
+      : $type = $type ?? 'daily',
+        super._();
 
   factory _$DailyMedicationFrequencyImpl.fromJson(Map<String, dynamic> json) => _$$DailyMedicationFrequencyImplFromJson(json);
 
@@ -257,8 +259,9 @@ class _$DailyMedicationFrequencyImpl implements DailyMedicationFrequency {
   }
 }
 
-abstract class DailyMedicationFrequency implements MedicationFrequency {
+abstract class DailyMedicationFrequency extends MedicationFrequency {
   const factory DailyMedicationFrequency() = _$DailyMedicationFrequencyImpl;
+  const DailyMedicationFrequency._() : super._();
 
   factory DailyMedicationFrequency.fromJson(Map<String, dynamic> json) = _$DailyMedicationFrequencyImpl.fromJson;
 }
@@ -298,8 +301,10 @@ class __$$EveryXDaysMedicationFrequencyImplCopyWithImpl<$Res> extends _$Medicati
 /// @nodoc
 
 @JsonSerializable(explicitToJson: true)
-class _$EveryXDaysMedicationFrequencyImpl implements EveryXDaysMedicationFrequency {
-  const _$EveryXDaysMedicationFrequencyImpl({required this.interval, final String? $type}) : $type = $type ?? 'everyXDays';
+class _$EveryXDaysMedicationFrequencyImpl extends EveryXDaysMedicationFrequency {
+  const _$EveryXDaysMedicationFrequencyImpl({required this.interval, final String? $type})
+      : $type = $type ?? 'everyXDays',
+        super._();
 
   factory _$EveryXDaysMedicationFrequencyImpl.fromJson(Map<String, dynamic> json) => _$$EveryXDaysMedicationFrequencyImplFromJson(json);
 
@@ -428,8 +433,9 @@ class _$EveryXDaysMedicationFrequencyImpl implements EveryXDaysMedicationFrequen
   }
 }
 
-abstract class EveryXDaysMedicationFrequency implements MedicationFrequency {
+abstract class EveryXDaysMedicationFrequency extends MedicationFrequency {
   const factory EveryXDaysMedicationFrequency({required final int interval}) = _$EveryXDaysMedicationFrequencyImpl;
+  const EveryXDaysMedicationFrequency._() : super._();
 
   factory EveryXDaysMedicationFrequency.fromJson(Map<String, dynamic> json) = _$EveryXDaysMedicationFrequencyImpl.fromJson;
 
@@ -477,10 +483,11 @@ class __$$SpecificDayOfWeekMedicationFrequencyImplCopyWithImpl<$Res>
 /// @nodoc
 
 @JsonSerializable(explicitToJson: true)
-class _$SpecificDayOfWeekMedicationFrequencyImpl implements SpecificDayOfWeekMedicationFrequency {
+class _$SpecificDayOfWeekMedicationFrequencyImpl extends SpecificDayOfWeekMedicationFrequency {
   const _$SpecificDayOfWeekMedicationFrequencyImpl({required final List<int> daysOfWeek, final String? $type})
       : _daysOfWeek = daysOfWeek,
-        $type = $type ?? 'specificDayOfWeek';
+        $type = $type ?? 'specificDayOfWeek',
+        super._();
 
   factory _$SpecificDayOfWeekMedicationFrequencyImpl.fromJson(Map<String, dynamic> json) => _$$SpecificDayOfWeekMedicationFrequencyImplFromJson(json);
 
@@ -614,8 +621,9 @@ class _$SpecificDayOfWeekMedicationFrequencyImpl implements SpecificDayOfWeekMed
   }
 }
 
-abstract class SpecificDayOfWeekMedicationFrequency implements MedicationFrequency {
+abstract class SpecificDayOfWeekMedicationFrequency extends MedicationFrequency {
   const factory SpecificDayOfWeekMedicationFrequency({required final List<int> daysOfWeek}) = _$SpecificDayOfWeekMedicationFrequencyImpl;
+  const SpecificDayOfWeekMedicationFrequency._() : super._();
 
   factory SpecificDayOfWeekMedicationFrequency.fromJson(Map<String, dynamic> json) = _$SpecificDayOfWeekMedicationFrequencyImpl.fromJson;
 
@@ -663,10 +671,11 @@ class __$$SpecificDayOfMonthMedicationFrequencyImplCopyWithImpl<$Res>
 /// @nodoc
 
 @JsonSerializable(explicitToJson: true)
-class _$SpecificDayOfMonthMedicationFrequencyImpl implements SpecificDayOfMonthMedicationFrequency {
+class _$SpecificDayOfMonthMedicationFrequencyImpl extends SpecificDayOfMonthMedicationFrequency {
   const _$SpecificDayOfMonthMedicationFrequencyImpl({required final List<int> daysOfMonth, final String? $type})
       : _daysOfMonth = daysOfMonth,
-        $type = $type ?? 'specificDayOfMonth';
+        $type = $type ?? 'specificDayOfMonth',
+        super._();
 
   factory _$SpecificDayOfMonthMedicationFrequencyImpl.fromJson(Map<String, dynamic> json) =>
       _$$SpecificDayOfMonthMedicationFrequencyImplFromJson(json);
@@ -801,8 +810,9 @@ class _$SpecificDayOfMonthMedicationFrequencyImpl implements SpecificDayOfMonthM
   }
 }
 
-abstract class SpecificDayOfMonthMedicationFrequency implements MedicationFrequency {
+abstract class SpecificDayOfMonthMedicationFrequency extends MedicationFrequency {
   const factory SpecificDayOfMonthMedicationFrequency({required final List<int> daysOfMonth}) = _$SpecificDayOfMonthMedicationFrequencyImpl;
+  const SpecificDayOfMonthMedicationFrequency._() : super._();
 
   factory SpecificDayOfMonthMedicationFrequency.fromJson(Map<String, dynamic> json) = _$SpecificDayOfMonthMedicationFrequencyImpl.fromJson;
 
@@ -850,8 +860,10 @@ class __$$OddOrEvenDayMedicationFrequencyImplCopyWithImpl<$Res> extends _$Medica
 /// @nodoc
 
 @JsonSerializable(explicitToJson: true)
-class _$OddOrEvenDayMedicationFrequencyImpl implements OddOrEvenDayMedicationFrequency {
-  const _$OddOrEvenDayMedicationFrequencyImpl({required this.isOddDay, final String? $type}) : $type = $type ?? 'oddOrEvenDay';
+class _$OddOrEvenDayMedicationFrequencyImpl extends OddOrEvenDayMedicationFrequency {
+  const _$OddOrEvenDayMedicationFrequencyImpl({required this.isOddDay, final String? $type})
+      : $type = $type ?? 'oddOrEvenDay',
+        super._();
 
   factory _$OddOrEvenDayMedicationFrequencyImpl.fromJson(Map<String, dynamic> json) => _$$OddOrEvenDayMedicationFrequencyImplFromJson(json);
 
@@ -980,8 +992,9 @@ class _$OddOrEvenDayMedicationFrequencyImpl implements OddOrEvenDayMedicationFre
   }
 }
 
-abstract class OddOrEvenDayMedicationFrequency implements MedicationFrequency {
+abstract class OddOrEvenDayMedicationFrequency extends MedicationFrequency {
   const factory OddOrEvenDayMedicationFrequency({required final bool isOddDay}) = _$OddOrEvenDayMedicationFrequencyImpl;
+  const OddOrEvenDayMedicationFrequency._() : super._();
 
   factory OddOrEvenDayMedicationFrequency.fromJson(Map<String, dynamic> json) = _$OddOrEvenDayMedicationFrequencyImpl.fromJson;
 
@@ -1031,8 +1044,10 @@ class __$$CycleMedicationFrequencyImplCopyWithImpl<$Res> extends _$MedicationFre
 /// @nodoc
 
 @JsonSerializable(explicitToJson: true)
-class _$CycleMedicationFrequencyImpl implements CycleMedicationFrequency {
-  const _$CycleMedicationFrequencyImpl({required this.consecutiveDays, required this.restDays, final String? $type}) : $type = $type ?? 'cycle';
+class _$CycleMedicationFrequencyImpl extends CycleMedicationFrequency {
+  const _$CycleMedicationFrequencyImpl({required this.consecutiveDays, required this.restDays, final String? $type})
+      : $type = $type ?? 'cycle',
+        super._();
 
   factory _$CycleMedicationFrequencyImpl.fromJson(Map<String, dynamic> json) => _$$CycleMedicationFrequencyImplFromJson(json);
 
@@ -1166,8 +1181,9 @@ class _$CycleMedicationFrequencyImpl implements CycleMedicationFrequency {
   }
 }
 
-abstract class CycleMedicationFrequency implements MedicationFrequency {
+abstract class CycleMedicationFrequency extends MedicationFrequency {
   const factory CycleMedicationFrequency({required final int consecutiveDays, required final int restDays}) = _$CycleMedicationFrequencyImpl;
+  const CycleMedicationFrequency._() : super._();
 
   factory CycleMedicationFrequency.fromJson(Map<String, dynamic> json) = _$CycleMedicationFrequencyImpl.fromJson;
 

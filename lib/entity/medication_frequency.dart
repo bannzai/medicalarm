@@ -42,6 +42,7 @@ sealed class MedicationFrequency with _$MedicationFrequency {
     required int restDays,
   }) = CycleMedicationFrequency;
 
+  const MedicationFrequency._();
   factory MedicationFrequency.fromJson(Map<String, dynamic> json) => _$MedicationFrequencyFromJson(json);
 
   String get displayName => switch (this) {
