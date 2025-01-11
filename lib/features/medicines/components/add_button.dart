@@ -15,6 +15,7 @@ class MedicalAddButton extends HookConsumerWidget {
         onPressed: () {
           showModalBottomSheet(
             context: context,
+            useSafeArea: true,
             isScrollControlled: true,
             backgroundColor: Colors.transparent,
             builder: (context) => AppResolvers(

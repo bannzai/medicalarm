@@ -47,6 +47,7 @@ class AppNumberPicker extends StatelessWidget {
 
 Future<int?> showAppNumberPicker(BuildContext context, {required int initialNumber}) {
   return showModalBottomSheet(
+    useSafeArea: true,
     context: context,
     builder: (BuildContext context) {
       return AppNumberPicker(initialNumber: initialNumber);

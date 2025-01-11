@@ -53,6 +53,7 @@ class AppTimePicker extends StatelessWidget {
 
 Future<DateTime?> showAppTimePicker(BuildContext context, {required TimeOfDay initialTime}) {
   return showModalBottomSheet(
+    useSafeArea: true,
     context: context,
     builder: (BuildContext context) {
       return AppTimePicker(

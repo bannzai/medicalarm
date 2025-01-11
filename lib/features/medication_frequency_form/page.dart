@@ -90,6 +90,7 @@ class MedicationFrequencyFormPage extends HookConsumerWidget {
                                     onTap: () async {
                                       final interval = await showModalBottomSheet<int>(
                                         context: context,
+                                        useSafeArea: true,
                                         barrierColor: Colors.transparent,
                                         builder: (context) => AppNumberPicker(initialNumber: frequencyValue.interval),
                                       );
@@ -117,6 +118,7 @@ class MedicationFrequencyFormPage extends HookConsumerWidget {
                                     onTap: () async {
                                       final consecutiveDays = await showModalBottomSheet<int>(
                                         context: context,
+                                        useSafeArea: true,
                                         builder: (context) => AppNumberPicker(initialNumber: frequencyValue.consecutiveDays),
                                       );
                                       if (consecutiveDays != null) {
@@ -134,6 +136,7 @@ class MedicationFrequencyFormPage extends HookConsumerWidget {
                                     onTap: () async {
                                       final restDays = await showModalBottomSheet<int>(
                                         context: context,
+                                        useSafeArea: true,
                                         builder: (context) => AppNumberPicker(initialNumber: frequencyValue.restDays),
                                       );
                                       if (restDays != null) {

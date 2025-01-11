@@ -40,8 +40,8 @@ class MedicineFormPage extends HookConsumerWidget {
     final canSubmit = name.value.isNotEmpty && schedules.value.isNotEmpty;
 
     return DraggableScrollableSheet(
-        initialChildSize: 0.8,
-        maxChildSize: 0.8,
+        initialChildSize: 1.0,
+        maxChildSize: 1.0,
         builder: (context, scrollController) {
           return FormTheme(
             child: Scaffold(
