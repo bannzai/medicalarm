@@ -1,5 +1,4 @@
 import 'package:freezed_annotation/freezed_annotation.dart';
-import 'package:replai/entity/timestamp.dart';
 
 part 'medication_frequency.freezed.dart';
 part 'medication_frequency.g.dart';
