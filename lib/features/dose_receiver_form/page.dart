@@ -43,7 +43,9 @@ class DoseReceiverFormPage extends HookConsumerWidget {
                           children: [
                             for (final doseReceiver in doseReceivers) ...[
                               DoseReceiverTextField(doseReceiver: doseReceiver, selectedDoseReceiver: selectedDoseReceiver),
+                              const SizedBox(height: 6),
                             ],
+                            const SizedBox(height: 10),
                             DoseReceiverAddButton(doseReceivers: doseReceivers),
                           ],
                         ),
@@ -81,13 +83,16 @@ class DoseReceiverTextField extends HookConsumerWidget {
     final doseReceiverUpdate = ref.watch(doseReceiverUpdateProvider);
     return Row(
       children: [
-        Checkbox(
-          value: selectedDoseReceiver.value?.id == doseReceiver.id,
-          onChanged: (value) {
-            if (value != null) {
-              selectedDoseReceiver.value = value ? MedicineDoseReceiver(id: doseReceiver.id, name: doseReceiver.name) : null;
-            }
-          },
+        Transform.scale(
+          scale: 1.5,
+          child: Checkbox(
+            value: selectedDoseReceiver.value?.id == doseReceiver.id,
+            onChanged: (value) {
+              if (value != null) {
+                selectedDoseReceiver.value = value ? MedicineDoseReceiver(id: doseReceiver.id, name: doseReceiver.name) : null;
+              }
+            },
+          ),
         ),
         Expanded(
           child: TextFormField(
