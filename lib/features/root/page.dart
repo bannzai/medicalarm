@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:medicalarm/features/home/page.dart';
 import 'package:medicalarm/features/localization/resolver.dart';
+import 'package:medicalarm/features/resolver/app_entity_prepare.dart';
 import 'package:medicalarm/features/resolver/app_resolvers.dart';
 import 'package:medicalarm/features/resolver/app_user_create.dart';
 import 'package:medicalarm/features/resolver/force_update.dart';
@@ -19,7 +20,12 @@ class RootPage extends HookConsumerWidget {
             return PurchaseSetupResolver(
               userID: user.uid,
               builder: (context) {
-                return const HomePage();
+                return AppEntityPrepareResolver(
+                  userID: user.uid,
+                  builder: (context) {
+                    return const HomePage();
+                  },
+                );
               },
             );
           });
