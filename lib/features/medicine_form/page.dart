@@ -40,7 +40,10 @@ class MedicineFormPage extends HookConsumerWidget {
                     children: [
                       MedicineFormNameTextField(name: name),
                       MedicationFrequencyTile(frequency: frequency),
+                      const SizedBox(height: 12),
+                      const Divider(color: Colors.black, height: 1),
                       MedicineScheduleSection(schedules: schedules),
+                      const Divider(color: Colors.black, height: 1),
                       if (schedules.value.isNotEmpty) ...[
                         MedicineNotificationSettingSection(
                           isReminderEnabled: isReminderEnabled,
