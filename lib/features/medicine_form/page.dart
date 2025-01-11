@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
+import 'package:medicalarm/entity/medication_frequency.dart';
 import 'package:medicalarm/entity/medicine.dart';
+import 'package:medicalarm/features/medicine_form/components/medication_frequency/tile.dart';
 import 'package:medicalarm/features/medicine_form/components/name_text_field.dart';
 import 'package:medicalarm/features/medicine_form/components/notification_setting/section.dart';
 import 'package:medicalarm/features/medicine_form/components/schedule/section.dart';
@@ -15,6 +17,7 @@ class MedicineFormPage extends HookConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final name = useState(medicine?.name ?? '');
+    final frequency = useState(medicine?.frequency ?? const MedicationFrequency.daily());
     final schedules = useState(medicine?.schedules ?? []);
     final primaryColor = Theme.of(context).colorScheme.primary;
 
@@ -36,6 +39,7 @@ class MedicineFormPage extends HookConsumerWidget {
                   child: Column(
                     children: [
                       MedicineFormNameTextField(name: name),
+                      MedicationFrequencyTile(frequency: frequency),
                       MedicineScheduleSection(schedules: schedules),
                       if (schedules.value.isNotEmpty) ...[
                         MedicineNotificationSettingSection(
