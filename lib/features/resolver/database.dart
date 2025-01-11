@@ -6,6 +6,7 @@ import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:medicalarm/components/loading/indicator.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:medicalarm/entity/app_user.dart';
+import 'package:medicalarm/entity/dose_receiver.dart';
 import 'package:medicalarm/entity/medicine.dart';
 import 'package:medicalarm/features/resolver/auth.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
@@ -15,6 +16,7 @@ part 'database.g.dart';
 abstract class _CollectionPath {
   static const String users = "/users";
   static String medicines(String userID) => "/users/$userID/medicines";
+  static String doseReceivers(String userID) => "/users/$userID/doseReceivers";
 }
 
 @Riverpod(keepAlive: true, dependencies: [])
@@ -39,11 +41,18 @@ class UserDatabase {
         fromFirestore: _medicineFromFirestore,
         toFirestore: _medicineToFirestore,
       );
-
   DocumentReference<Medicine> medicineReference({required String medicineID}) =>
       FirebaseFirestore.instance.collection(_CollectionPath.medicines(userID)).doc(medicineID).withConverter(
             fromFirestore: _medicineFromFirestore,
             toFirestore: _medicineToFirestore,
+          );
+
+  final FromFirestore<DoseReceiver> _doseReceiverFromFirestore = (snapshot, options) => DoseReceiver.fromJson(snapshot.data()!..["id"] = snapshot.id);
+  final ToFirestore<DoseReceiver> _doseReceiverToFirestore = (doseReceiver, options) => doseReceiver.toJson();
+  CollectionReference<DoseReceiver> doseReceiversReference() =>
+      FirebaseFirestore.instance.collection(_CollectionPath.doseReceivers(userID)).withConverter(
+            fromFirestore: _doseReceiverFromFirestore,
+            toFirestore: _doseReceiverToFirestore,
           );
 }
 
