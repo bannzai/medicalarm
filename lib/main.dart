@@ -43,13 +43,14 @@ class App extends StatelessWidget {
         textSelectionTheme: const TextSelectionThemeData(
           cursorColor: AppColors.primary,
         ),
-        inputDecorationTheme: const InputDecorationTheme(
+        inputDecorationTheme: InputDecorationTheme(
           filled: true,
           fillColor: Colors.white,
           enabledBorder: OutlineInputBorder(
-            borderSide: BorderSide(color: AppColors.border),
+            borderSide: const BorderSide(color: AppColors.border),
+            borderRadius: BorderRadius.circular(8),
           ),
-          focusedBorder: OutlineInputBorder(
+          focusedBorder: const OutlineInputBorder(
             borderSide: BorderSide(color: AppColors.primary),
           ),
         ),
