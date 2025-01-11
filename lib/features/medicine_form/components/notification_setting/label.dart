@@ -25,7 +25,7 @@ class MedicineNotificationSettingLabel extends StatelessWidget {
           );
           if (result != null) {
             final copied = [...notificationSettings.value];
-            copied[index] = copied[index].copyWith(reminderTime: MedicineNotificationSettingReminderTime(hour: result.hour, minute: result.minute));
+            copied[index] = copied[index].copyWith(reminderTime: MedicineDosingTime(hour: result.hour, minute: result.minute));
             notificationSettings.value = copied;
           }
         },

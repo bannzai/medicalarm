@@ -14,9 +14,11 @@ class Medicine with _$Medicine {
     required String name,
     required String memo,
     required String memoImageURL,
-    required List<MedicineNotificationSetting> notificationSettings,
+    required List<MedicationSchedule> schedules,
+    required MedicineNotificationSetting notificationSetting,
     required int? stock,
-    required String unit,
+    required String? unit,
+    required String? doseReceiverName,
     @ClientCreatedTimestamp() DateTime? createdDateTime,
     @ClientUpdatedTimestamp() DateTime? updatedDateTime,
     @ServerCreatedTimestamp() DateTime? serverCreatedDateTime,
@@ -31,11 +33,9 @@ class Medicine with _$Medicine {
 class MedicineNotificationSetting with _$MedicineNotificationSetting {
   @JsonSerializable(explicitToJson: true)
   const factory MedicineNotificationSetting({
-    required int dosingCount,
-    required MedicineNotificationSettingReminderTime reminderTime,
-    required bool isEnabled,
+    required bool isReminderEnabled,
+    required bool isFollowupEnabled,
     required bool useCriticalAlert,
-    required String? doserName,
   }) = _MedicineNotificationSetting;
   const MedicineNotificationSetting._();
 
@@ -43,15 +43,17 @@ class MedicineNotificationSetting with _$MedicineNotificationSetting {
 }
 
 @freezed
-class MedicineNotificationSettingReminderTime with _$MedicineNotificationSettingReminderTime {
+class MedicationSchedule with _$MedicationSchedule {
   @JsonSerializable(explicitToJson: true)
-  const factory MedicineNotificationSettingReminderTime({
+  const factory MedicationSchedule({
     required int hour,
     required int minute,
-  }) = _MedicineNotificationSettingReminderTime;
-  const MedicineNotificationSettingReminderTime._();
+    // 服用量
+    required int amount,
+  }) = _MedicationSchedule;
+  const MedicationSchedule._();
 
-  factory MedicineNotificationSettingReminderTime.fromJson(Map<String, dynamic> json) => _$MedicineNotificationSettingReminderTimeFromJson(json);
+  factory MedicationSchedule.fromJson(Map<String, dynamic> json) => _$MedicationScheduleFromJson(json);
 
   String toTimeString() {
     return '${hour.toString().padLeft(2, '0')}:${minute.toString().padLeft(2, '0')}';
