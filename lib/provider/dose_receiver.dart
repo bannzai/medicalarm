@@ -23,6 +23,7 @@ class DoseReceiverAdd {
     final docRef = collectionRef.doc();
     final doseReceiver = DoseReceiver(
       id: docRef.id,
+      userID: database.userID,
       name: name,
     );
     await database.doseReceiversReference().add(doseReceiver);
