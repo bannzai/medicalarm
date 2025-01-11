@@ -12,6 +12,9 @@ ButtonStyle get elevatedButtonStyle => ElevatedButton.styleFrom(
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.circular(10),
       ),
+      padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 12.0),
+      minimumSize: const Size(double.infinity, 48.0),
+      textStyle: const TextStyle(fontSize: 16.0, fontWeight: FontWeight.bold),
     );
 
 ButtonStyle get textButtonStyle => TextButton.styleFrom(
