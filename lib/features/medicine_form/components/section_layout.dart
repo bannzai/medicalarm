@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
-class Section extends StatelessWidget {
+class MedicineFormSectionLayout extends StatelessWidget {
   final IconData icon;
   final String text;
   final List<Widget> children;
 
-  const Section({
+  const MedicineFormSectionLayout({
     super.key,
     required this.icon,
     required this.text,

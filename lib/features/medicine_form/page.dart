@@ -4,7 +4,7 @@ import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:medicalarm/entity/medicine.dart';
 import 'package:medicalarm/features/medicine_form/components/notification_setting/section.dart';
 import 'package:medicalarm/features/medicine_form/components/schedule/section.dart';
-import 'package:medicalarm/features/medicine_form/components/section.dart';
+import 'package:medicalarm/features/medicine_form/components/section_layout.dart';
 import 'package:medicalarm/theme/form.dart';
 
 class MedicineFormPage extends HookConsumerWidget {
@@ -47,7 +47,7 @@ class MedicineFormPage extends HookConsumerWidget {
                           ),
                         ),
                       ),
-                      Section(
+                      MedicineFormSectionLayout(
                         icon: Icons.schedule,
                         text: '服用時刻',
                         children: [
