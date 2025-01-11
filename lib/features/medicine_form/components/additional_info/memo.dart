@@ -15,15 +15,7 @@ class MedicineMemoRow extends StatelessWidget {
       padding: const EdgeInsets.symmetric(horizontal: 12.0),
       child: Row(
         children: [
-          ClipRRect(
-            borderRadius: BorderRadius.circular(8),
-            child: Container(
-              width: 50,
-              height: 50,
-              color: Colors.grey,
-              child: memoImageURL.value.isNotEmpty ? Image.network(memoImageURL.value) : const Icon(Icons.add_a_photo),
-            ),
-          ),
+          ImagePickerButton(memoImageURL: memoImageURL),
           const SizedBox(width: 8),
           Expanded(
             child: TextFormField(
@@ -37,6 +29,31 @@ class MedicineMemoRow extends StatelessWidget {
             ),
           ),
         ],
+      ),
+    );
+  }
+}
+
+class ImagePickerButton extends StatelessWidget {
+  const ImagePickerButton({
+    super.key,
+    required this.memoImageURL,
+  });
+
+  final ValueNotifier<String> memoImageURL;
+
+  @override
+  Widget build(BuildContext context) {
+    return GestureDetector(
+      onTap: () {},
+      child: ClipRRect(
+        borderRadius: BorderRadius.circular(8),
+        child: Container(
+          width: 50,
+          height: 50,
+          color: Colors.grey,
+          child: memoImageURL.value.isNotEmpty ? Image.network(memoImageURL.value) : const Icon(Icons.add_a_photo),
+        ),
       ),
     );
   }
