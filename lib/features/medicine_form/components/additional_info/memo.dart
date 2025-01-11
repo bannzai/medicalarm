@@ -12,21 +12,28 @@ class MedicineMemoRow extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.symmetric(horizontal: 12.0, vertical: 16.0),
+      padding: const EdgeInsets.symmetric(horizontal: 12.0),
       child: Row(
         children: [
-          SizedBox(
-            width: 100,
-            height: 100,
-            child: memoImageURL.value.isNotEmpty ? Image.network(memoImageURL.value) : const Icon(Icons.add_a_photo),
+          ClipRRect(
+            borderRadius: BorderRadius.circular(8),
+            child: Container(
+              width: 50,
+              height: 50,
+              color: Colors.grey,
+              child: memoImageURL.value.isNotEmpty ? Image.network(memoImageURL.value) : const Icon(Icons.add_a_photo),
+            ),
           ),
-          TextFormField(
-            initialValue: memo.value,
-            onChanged: (value) {
-              memo.value = value;
-            },
-            decoration: const InputDecoration(
-              hintText: 'メモ',
+          const SizedBox(width: 8),
+          Expanded(
+            child: TextFormField(
+              initialValue: memo.value,
+              onChanged: (value) {
+                memo.value = value;
+              },
+              decoration: const InputDecoration(
+                hintText: 'メモ',
+              ),
             ),
           ),
         ],
