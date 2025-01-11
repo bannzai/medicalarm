@@ -18,9 +18,12 @@ class DoseReceiverFormPage extends HookConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
+    final primaryColor = Theme.of(context).colorScheme.primary;
     final doseReceivers = ref.watch(doseReceiversProvider);
     final selectedDoseReceiver = useState(doseReceiver.value);
-    final primaryColor = Theme.of(context).colorScheme.primary;
+    selectedDoseReceiver.addListener(() {
+      doseReceiver.value = selectedDoseReceiver.value;
+    });
 
     return DraggableScrollableSheet(
       initialChildSize: 0.8,
