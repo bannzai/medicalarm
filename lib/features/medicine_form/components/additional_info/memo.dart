@@ -3,7 +3,6 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
-import 'package:image_cropper/image_cropper.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:medicalarm/components/alert/image_picker.dart';
 import 'package:medicalarm/components/error/error_alert.dart';
@@ -69,34 +68,8 @@ class ImagePickerButton extends HookConsumerWidget {
             final XFile? photo = await showImagePickerDialog(context);
 
             if (photo != null) {
-              final croppedFile = await ImageCropper().cropImage(
-                sourcePath: photo.path,
-                uiSettings: [
-                  AndroidUiSettings(
-                    toolbarTitle: 'Cropper',
-                    toolbarColor: Colors.deepOrange,
-                    toolbarWidgetColor: Colors.white,
-                    aspectRatioPresets: [
-                      CropAspectRatioPreset.original,
-                      CropAspectRatioPreset.square,
-                      _CropAspectRatioPresetCustom(),
-                    ],
-                  ),
-                  IOSUiSettings(
-                    title: 'Cropper',
-                    aspectRatioPresets: [
-                      CropAspectRatioPreset.original,
-                      CropAspectRatioPreset.square,
-                      _CropAspectRatioPresetCustom(), // IMPORTANT: iOS supports only one custom aspect ratio in preset list
-                    ],
-                  ),
-                ],
-              );
-              if (croppedFile != null) {
-                final file = File(croppedFile.path);
-                final url = await uploadImage(medicinesRef(userID: userID), file);
-                memoImageURL.value = url;
-              }
+              final url = await uploadImage(medicinesRef(userID: userID), File(photo.path));
+              memoImageURL.value = url;
             }
           } catch (e) {
             if (context.mounted) {
@@ -118,12 +91,4 @@ class ImagePickerButton extends HookConsumerWidget {
       ),
     );
   }
-}
-
-class _CropAspectRatioPresetCustom implements CropAspectRatioPresetData {
-  @override
-  (int, int)? get data => (1, 1);
-
-  @override
-  String get name => '1x1 (customized)';
 }
