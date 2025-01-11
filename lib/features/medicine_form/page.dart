@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:medicalarm/components/error/error_alert.dart';
+import 'package:medicalarm/components/loading/loading.dart';
 import 'package:medicalarm/entity/medication_frequency.dart';
 import 'package:medicalarm/entity/medicine.dart';
 import 'package:medicalarm/features/medicine_form/components/additional_info/section.dart';
@@ -38,6 +39,7 @@ class MedicineFormPage extends HookConsumerWidget {
     final medicineAdd = ref.watch(medicineAddProvider);
     final medicineUpdate = ref.watch(medicineUpdateProvider);
 
+    final isLoading = useState(false);
     final canSubmit = name.value.isNotEmpty && schedules.value.isNotEmpty;
 
     Future<void> submit() async {
@@ -135,23 +137,33 @@ class MedicineFormPage extends HookConsumerWidget {
                             if (!canSubmit) ...[
                               const Text('名前と服用時刻を入力してください', style: TextStyle(color: TextColor.danger, fontSize: 10.0)),
                             ],
-                            ElevatedButton(
-                              style: elevatedButtonStyle,
-                              onPressed: canSubmit
-                                  ? () async {
-                                      try {
-                                        await submit();
-                                        if (context.mounted) {
-                                          Navigator.pop(context);
-                                        }
-                                      } catch (e) {
-                                        if (context.mounted) {
-                                          showErrorAlert(context, e.toString());
+                            Loading(
+                              isLoading: isLoading.value,
+                              child: ElevatedButton(
+                                style: elevatedButtonStyle,
+                                onPressed: canSubmit
+                                    ? () async {
+                                        try {
+                                          if (isLoading.value) {
+                                            return;
+                                          }
+                                          isLoading.value = true;
+
+                                          await submit();
+                                          if (context.mounted) {
+                                            Navigator.pop(context);
+                                          }
+                                        } catch (e) {
+                                          if (context.mounted) {
+                                            showErrorAlert(context, e.toString());
+                                          }
+                                        } finally {
+                                          isLoading.value = false;
                                         }
                                       }
-                                    }
-                                  : null,
-                              child: const Text('保存'),
+                                    : null,
+                                child: const Text('保存'),
+                              ),
                             ),
                           ],
                         ),
