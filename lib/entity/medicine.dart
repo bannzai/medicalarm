@@ -1,6 +1,7 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
+import 'package:medicalarm/entity/medication_frequency.dart';
 import 'package:medicalarm/entity/timestamp.dart';
 
 part 'medicine.g.dart';
@@ -12,13 +13,14 @@ class Medicine with _$Medicine {
   const factory Medicine({
     required String id,
     required String name,
-    required String memo,
-    required String memoImageURL,
+    required MedicationFrequency frequency,
     required List<MedicationSchedule> schedules,
     required MedicineNotificationSetting notificationSetting,
     required int? stock,
     required String? unit,
     required String? doseReceiverName,
+    required String memo,
+    required String memoImageURL,
     @ClientCreatedTimestamp() DateTime? createdDateTime,
     @ClientUpdatedTimestamp() DateTime? updatedDateTime,
     @ServerCreatedTimestamp() DateTime? serverCreatedDateTime,

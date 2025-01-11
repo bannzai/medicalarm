@@ -22,13 +22,14 @@ Medicine _$MedicineFromJson(Map<String, dynamic> json) {
 mixin _$Medicine {
   String get id => throw _privateConstructorUsedError;
   String get name => throw _privateConstructorUsedError;
-  String get memo => throw _privateConstructorUsedError;
-  String get memoImageURL => throw _privateConstructorUsedError;
+  MedicationFrequency get frequency => throw _privateConstructorUsedError;
   List<MedicationSchedule> get schedules => throw _privateConstructorUsedError;
   MedicineNotificationSetting get notificationSetting => throw _privateConstructorUsedError;
   int? get stock => throw _privateConstructorUsedError;
   String? get unit => throw _privateConstructorUsedError;
   String? get doseReceiverName => throw _privateConstructorUsedError;
+  String get memo => throw _privateConstructorUsedError;
+  String get memoImageURL => throw _privateConstructorUsedError;
   @ClientCreatedTimestamp()
   DateTime? get createdDateTime => throw _privateConstructorUsedError;
   @ClientUpdatedTimestamp()
@@ -54,18 +55,20 @@ abstract class $MedicineCopyWith<$Res> {
   $Res call(
       {String id,
       String name,
-      String memo,
-      String memoImageURL,
+      MedicationFrequency frequency,
       List<MedicationSchedule> schedules,
       MedicineNotificationSetting notificationSetting,
       int? stock,
       String? unit,
       String? doseReceiverName,
+      String memo,
+      String memoImageURL,
       @ClientCreatedTimestamp() DateTime? createdDateTime,
       @ClientUpdatedTimestamp() DateTime? updatedDateTime,
       @ServerCreatedTimestamp() DateTime? serverCreatedDateTime,
       @ServerUpdatedTimestamp() DateTime? serverUpdatedDateTime});
 
+  $MedicationFrequencyCopyWith<$Res> get frequency;
   $MedicineNotificationSettingCopyWith<$Res> get notificationSetting;
 }
 
@@ -85,13 +88,14 @@ class _$MedicineCopyWithImpl<$Res, $Val extends Medicine> implements $MedicineCo
   $Res call({
     Object? id = null,
     Object? name = null,
-    Object? memo = null,
-    Object? memoImageURL = null,
+    Object? frequency = null,
     Object? schedules = null,
     Object? notificationSetting = null,
     Object? stock = freezed,
     Object? unit = freezed,
     Object? doseReceiverName = freezed,
+    Object? memo = null,
+    Object? memoImageURL = null,
     Object? createdDateTime = freezed,
     Object? updatedDateTime = freezed,
     Object? serverCreatedDateTime = freezed,
@@ -106,14 +110,10 @@ class _$MedicineCopyWithImpl<$Res, $Val extends Medicine> implements $MedicineCo
           ? _value.name
           : name // ignore: cast_nullable_to_non_nullable
               as String,
-      memo: null == memo
-          ? _value.memo
-          : memo // ignore: cast_nullable_to_non_nullable
-              as String,
-      memoImageURL: null == memoImageURL
-          ? _value.memoImageURL
-          : memoImageURL // ignore: cast_nullable_to_non_nullable
-              as String,
+      frequency: null == frequency
+          ? _value.frequency
+          : frequency // ignore: cast_nullable_to_non_nullable
+              as MedicationFrequency,
       schedules: null == schedules
           ? _value.schedules
           : schedules // ignore: cast_nullable_to_non_nullable
@@ -134,6 +134,14 @@ class _$MedicineCopyWithImpl<$Res, $Val extends Medicine> implements $MedicineCo
           ? _value.doseReceiverName
           : doseReceiverName // ignore: cast_nullable_to_non_nullable
               as String?,
+      memo: null == memo
+          ? _value.memo
+          : memo // ignore: cast_nullable_to_non_nullable
+              as String,
+      memoImageURL: null == memoImageURL
+          ? _value.memoImageURL
+          : memoImageURL // ignore: cast_nullable_to_non_nullable
+              as String,
       createdDateTime: freezed == createdDateTime
           ? _value.createdDateTime
           : createdDateTime // ignore: cast_nullable_to_non_nullable
@@ -157,6 +165,16 @@ class _$MedicineCopyWithImpl<$Res, $Val extends Medicine> implements $MedicineCo
   /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
+  $MedicationFrequencyCopyWith<$Res> get frequency {
+    return $MedicationFrequencyCopyWith<$Res>(_value.frequency, (value) {
+      return _then(_value.copyWith(frequency: value) as $Val);
+    });
+  }
+
+  /// Create a copy of Medicine
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
   $MedicineNotificationSettingCopyWith<$Res> get notificationSetting {
     return $MedicineNotificationSettingCopyWith<$Res>(_value.notificationSetting, (value) {
       return _then(_value.copyWith(notificationSetting: value) as $Val);
@@ -172,18 +190,21 @@ abstract class _$$MedicineImplCopyWith<$Res> implements $MedicineCopyWith<$Res> 
   $Res call(
       {String id,
       String name,
-      String memo,
-      String memoImageURL,
+      MedicationFrequency frequency,
       List<MedicationSchedule> schedules,
       MedicineNotificationSetting notificationSetting,
       int? stock,
       String? unit,
       String? doseReceiverName,
+      String memo,
+      String memoImageURL,
       @ClientCreatedTimestamp() DateTime? createdDateTime,
       @ClientUpdatedTimestamp() DateTime? updatedDateTime,
       @ServerCreatedTimestamp() DateTime? serverCreatedDateTime,
       @ServerUpdatedTimestamp() DateTime? serverUpdatedDateTime});
 
+  @override
+  $MedicationFrequencyCopyWith<$Res> get frequency;
   @override
   $MedicineNotificationSettingCopyWith<$Res> get notificationSetting;
 }
@@ -199,13 +220,14 @@ class __$$MedicineImplCopyWithImpl<$Res> extends _$MedicineCopyWithImpl<$Res, _$
   $Res call({
     Object? id = null,
     Object? name = null,
-    Object? memo = null,
-    Object? memoImageURL = null,
+    Object? frequency = null,
     Object? schedules = null,
     Object? notificationSetting = null,
     Object? stock = freezed,
     Object? unit = freezed,
     Object? doseReceiverName = freezed,
+    Object? memo = null,
+    Object? memoImageURL = null,
     Object? createdDateTime = freezed,
     Object? updatedDateTime = freezed,
     Object? serverCreatedDateTime = freezed,
@@ -220,14 +242,10 @@ class __$$MedicineImplCopyWithImpl<$Res> extends _$MedicineCopyWithImpl<$Res, _$
           ? _value.name
           : name // ignore: cast_nullable_to_non_nullable
               as String,
-      memo: null == memo
-          ? _value.memo
-          : memo // ignore: cast_nullable_to_non_nullable
-              as String,
-      memoImageURL: null == memoImageURL
-          ? _value.memoImageURL
-          : memoImageURL // ignore: cast_nullable_to_non_nullable
-              as String,
+      frequency: null == frequency
+          ? _value.frequency
+          : frequency // ignore: cast_nullable_to_non_nullable
+              as MedicationFrequency,
       schedules: null == schedules
           ? _value._schedules
           : schedules // ignore: cast_nullable_to_non_nullable
@@ -248,6 +266,14 @@ class __$$MedicineImplCopyWithImpl<$Res> extends _$MedicineCopyWithImpl<$Res, _$
           ? _value.doseReceiverName
           : doseReceiverName // ignore: cast_nullable_to_non_nullable
               as String?,
+      memo: null == memo
+          ? _value.memo
+          : memo // ignore: cast_nullable_to_non_nullable
+              as String,
+      memoImageURL: null == memoImageURL
+          ? _value.memoImageURL
+          : memoImageURL // ignore: cast_nullable_to_non_nullable
+              as String,
       createdDateTime: freezed == createdDateTime
           ? _value.createdDateTime
           : createdDateTime // ignore: cast_nullable_to_non_nullable
@@ -275,13 +301,14 @@ class _$MedicineImpl extends _Medicine {
   const _$MedicineImpl(
       {required this.id,
       required this.name,
-      required this.memo,
-      required this.memoImageURL,
+      required this.frequency,
       required final List<MedicationSchedule> schedules,
       required this.notificationSetting,
       required this.stock,
       required this.unit,
       required this.doseReceiverName,
+      required this.memo,
+      required this.memoImageURL,
       @ClientCreatedTimestamp() this.createdDateTime,
       @ClientUpdatedTimestamp() this.updatedDateTime,
       @ServerCreatedTimestamp() this.serverCreatedDateTime,
@@ -296,9 +323,7 @@ class _$MedicineImpl extends _Medicine {
   @override
   final String name;
   @override
-  final String memo;
-  @override
-  final String memoImageURL;
+  final MedicationFrequency frequency;
   final List<MedicationSchedule> _schedules;
   @override
   List<MedicationSchedule> get schedules {
@@ -316,6 +341,10 @@ class _$MedicineImpl extends _Medicine {
   @override
   final String? doseReceiverName;
   @override
+  final String memo;
+  @override
+  final String memoImageURL;
+  @override
   @ClientCreatedTimestamp()
   final DateTime? createdDateTime;
   @override
@@ -330,7 +359,7 @@ class _$MedicineImpl extends _Medicine {
 
   @override
   String toString() {
-    return 'Medicine(id: $id, name: $name, memo: $memo, memoImageURL: $memoImageURL, schedules: $schedules, notificationSetting: $notificationSetting, stock: $stock, unit: $unit, doseReceiverName: $doseReceiverName, createdDateTime: $createdDateTime, updatedDateTime: $updatedDateTime, serverCreatedDateTime: $serverCreatedDateTime, serverUpdatedDateTime: $serverUpdatedDateTime)';
+    return 'Medicine(id: $id, name: $name, frequency: $frequency, schedules: $schedules, notificationSetting: $notificationSetting, stock: $stock, unit: $unit, doseReceiverName: $doseReceiverName, memo: $memo, memoImageURL: $memoImageURL, createdDateTime: $createdDateTime, updatedDateTime: $updatedDateTime, serverCreatedDateTime: $serverCreatedDateTime, serverUpdatedDateTime: $serverUpdatedDateTime)';
   }
 
   @override
@@ -340,13 +369,14 @@ class _$MedicineImpl extends _Medicine {
             other is _$MedicineImpl &&
             (identical(other.id, id) || other.id == id) &&
             (identical(other.name, name) || other.name == name) &&
-            (identical(other.memo, memo) || other.memo == memo) &&
-            (identical(other.memoImageURL, memoImageURL) || other.memoImageURL == memoImageURL) &&
+            (identical(other.frequency, frequency) || other.frequency == frequency) &&
             const DeepCollectionEquality().equals(other._schedules, _schedules) &&
             (identical(other.notificationSetting, notificationSetting) || other.notificationSetting == notificationSetting) &&
             (identical(other.stock, stock) || other.stock == stock) &&
             (identical(other.unit, unit) || other.unit == unit) &&
             (identical(other.doseReceiverName, doseReceiverName) || other.doseReceiverName == doseReceiverName) &&
+            (identical(other.memo, memo) || other.memo == memo) &&
+            (identical(other.memoImageURL, memoImageURL) || other.memoImageURL == memoImageURL) &&
             (identical(other.createdDateTime, createdDateTime) || other.createdDateTime == createdDateTime) &&
             (identical(other.updatedDateTime, updatedDateTime) || other.updatedDateTime == updatedDateTime) &&
             (identical(other.serverCreatedDateTime, serverCreatedDateTime) || other.serverCreatedDateTime == serverCreatedDateTime) &&
@@ -355,8 +385,8 @@ class _$MedicineImpl extends _Medicine {
 
   @JsonKey(includeFromJson: false, includeToJson: false)
   @override
-  int get hashCode => Object.hash(runtimeType, id, name, memo, memoImageURL, const DeepCollectionEquality().hash(_schedules), notificationSetting,
-      stock, unit, doseReceiverName, createdDateTime, updatedDateTime, serverCreatedDateTime, serverUpdatedDateTime);
+  int get hashCode => Object.hash(runtimeType, id, name, frequency, const DeepCollectionEquality().hash(_schedules), notificationSetting, stock, unit,
+      doseReceiverName, memo, memoImageURL, createdDateTime, updatedDateTime, serverCreatedDateTime, serverUpdatedDateTime);
 
   /// Create a copy of Medicine
   /// with the given fields replaced by the non-null parameter values.
@@ -377,13 +407,14 @@ abstract class _Medicine extends Medicine {
   const factory _Medicine(
       {required final String id,
       required final String name,
-      required final String memo,
-      required final String memoImageURL,
+      required final MedicationFrequency frequency,
       required final List<MedicationSchedule> schedules,
       required final MedicineNotificationSetting notificationSetting,
       required final int? stock,
       required final String? unit,
       required final String? doseReceiverName,
+      required final String memo,
+      required final String memoImageURL,
       @ClientCreatedTimestamp() final DateTime? createdDateTime,
       @ClientUpdatedTimestamp() final DateTime? updatedDateTime,
       @ServerCreatedTimestamp() final DateTime? serverCreatedDateTime,
@@ -397,9 +428,7 @@ abstract class _Medicine extends Medicine {
   @override
   String get name;
   @override
-  String get memo;
-  @override
-  String get memoImageURL;
+  MedicationFrequency get frequency;
   @override
   List<MedicationSchedule> get schedules;
   @override
@@ -410,6 +439,10 @@ abstract class _Medicine extends Medicine {
   String? get unit;
   @override
   String? get doseReceiverName;
+  @override
+  String get memo;
+  @override
+  String get memoImageURL;
   @override
   @ClientCreatedTimestamp()
   DateTime? get createdDateTime;
