@@ -1,3 +1,4 @@
+import 'package:medicalarm/entity/medication_frequency.dart';
 import 'package:medicalarm/entity/medicine.dart';
 import 'package:medicalarm/features/resolver/database.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
@@ -17,26 +18,28 @@ class MedicineAdd {
 
   Future<Medicine> call({
     required String name,
-    required String memo,
-    required String memoImageURL,
+    required MedicationFrequency frequency,
     required List<MedicationSchedule> schedules,
     required MedicineNotificationSetting notificationSetting,
     required int? stock,
     required String? unit,
     required String? doseReceiverName,
+    required String memo,
+    required String memoImageURL,
   }) async {
     final collectionRef = database.medicinesReference();
     final docRef = collectionRef.doc();
     final medicine = Medicine(
       id: docRef.id,
       name: name,
-      memo: memo,
-      memoImageURL: memoImageURL,
+      frequency: frequency,
       schedules: schedules,
       notificationSetting: notificationSetting,
       stock: stock,
       unit: unit,
       doseReceiverName: doseReceiverName,
+      memo: memo,
+      memoImageURL: memoImageURL,
     );
     await docRef.set(medicine);
     return medicine;
@@ -58,24 +61,26 @@ class MedicineUpdate {
     required String medicineID,
     required Medicine medicine,
     required String name,
-    required String memo,
-    required String memoImageURL,
+    required MedicationFrequency frequency,
     required List<MedicationSchedule> schedules,
     required MedicineNotificationSetting notificationSetting,
     required int? stock,
     required String? unit,
     required String? doseReceiverName,
+    required String memo,
+    required String memoImageURL,
   }) async {
     final docRef = database.medicineReference(medicineID: medicineID);
     final newMedicine = medicine.copyWith(
       name: name,
-      memo: memo,
-      memoImageURL: memoImageURL,
+      frequency: frequency,
       schedules: schedules,
       notificationSetting: notificationSetting,
       stock: stock,
       unit: unit,
       doseReceiverName: doseReceiverName,
+      memo: memo,
+      memoImageURL: memoImageURL,
     );
     await docRef.set(newMedicine);
     return newMedicine;
