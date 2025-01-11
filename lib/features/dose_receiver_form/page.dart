@@ -37,13 +37,16 @@ class DoseReceiverFormPage extends HookConsumerWidget {
                   ),
                   body: SafeArea(
                     child: SingleChildScrollView(
-                      child: Column(
-                        children: [
-                          for (final doseReceiver in doseReceivers) ...[
-                            DoseReceiverTextField(doseReceiver: doseReceiver, selectedDoseReceiver: selectedDoseReceiver),
+                      child: Padding(
+                        padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 16.0),
+                        child: Column(
+                          children: [
+                            for (final doseReceiver in doseReceivers) ...[
+                              DoseReceiverTextField(doseReceiver: doseReceiver, selectedDoseReceiver: selectedDoseReceiver),
+                            ],
+                            DoseReceiverAddButton(doseReceivers: doseReceivers),
                           ],
-                          DoseReceiverAddButton(doseReceivers: doseReceivers),
-                        ],
+                        ),
                       ),
                     ),
                   ),
@@ -86,14 +89,16 @@ class DoseReceiverTextField extends HookConsumerWidget {
             }
           },
         ),
-        TextField(
-          controller: TextEditingController(text: name.value),
-          onChanged: (value) {
-            name.value = value;
-          },
-          onSubmitted: (value) {
-            doseReceiverUpdate.call(doseReceiver: doseReceiver, name: value);
-          },
+        Expanded(
+          child: TextFormField(
+            initialValue: doseReceiver.name,
+            onChanged: (value) {
+              name.value = value;
+            },
+            onFieldSubmitted: (value) {
+              doseReceiverUpdate.call(doseReceiver: doseReceiver, name: value);
+            },
+          ),
         ),
       ],
     );
