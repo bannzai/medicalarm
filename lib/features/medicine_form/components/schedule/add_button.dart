@@ -2,24 +2,24 @@ import 'package:flutter/material.dart';
 import 'package:medicalarm/entity/medicine.dart';
 import 'package:medicalarm/style/button.dart';
 
-class MedicineNotificationSettingAddButton extends StatelessWidget {
-  const MedicineNotificationSettingAddButton({
+class MedicineScheduleAddButton extends StatelessWidget {
+  const MedicineScheduleAddButton({
     super.key,
-    required this.notificationSettings,
+    required this.schedules,
   });
 
-  final ValueNotifier<List<MedicineNotificationSetting>> notificationSettings;
+  final ValueNotifier<List<MedicationSchedule>> schedules;
 
   @override
   Widget build(BuildContext context) {
     return TextButton.icon(
       onPressed: () {
-        notificationSettings.value = [
-          ...notificationSettings.value,
-          const MedicineNotificationSetting(
-            isReminderEnabled: true,
-            isFollowupEnabled: false,
-            useCriticalAlert: false,
+        schedules.value = [
+          ...schedules.value,
+          const MedicationSchedule(
+            hour: 10,
+            minute: 00,
+            amount: null,
           ),
         ];
       },

@@ -13,7 +13,6 @@ class MedicineNotificationSettingFormPage extends HookConsumerWidget {
     final isReminderEnabled = useState(medicineNotificationSetting.isReminderEnabled);
     final isFollowupEnabled = useState(medicineNotificationSetting.isFollowupEnabled);
     final useCriticalAlert = useState(medicineNotificationSetting.useCriticalAlert);
-    final doserName = useState(medicineNotificationSetting.doserName ?? '');
     return FormTheme(
       child: Scaffold(
         appBar: AppBar(
@@ -45,13 +44,6 @@ class MedicineNotificationSettingFormPage extends HookConsumerWidget {
               },
               title: const Text('マナーモードでも通知する'),
               subtitle: const Text('集中モードがONまたはデバイスが消音時でも、重大な通知はロック画面に表示されますサウンドが再生されます'),
-            ),
-            TextFormField(
-              initialValue: doserName.value,
-              onChanged: (value) {
-                doserName.value = value;
-              },
-              decoration: const InputDecoration(hintText: '服用者(お子さんのお名前など)'),
             ),
           ],
         )),

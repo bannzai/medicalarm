@@ -2,16 +2,16 @@ import 'package:flutter/material.dart';
 import 'package:medicalarm/entity/medicine.dart';
 import 'package:medicalarm/style/color.dart';
 
-class MedicineNotificationSettingLabel extends StatelessWidget {
-  const MedicineNotificationSettingLabel({
+class MedicineScheduleReminderTime extends StatelessWidget {
+  const MedicineScheduleReminderTime({
     super.key,
-    required this.notificationSetting,
-    required this.notificationSettings,
+    required this.schedule,
+    required this.schedules,
     required this.index,
   });
 
-  final MedicineNotificationSetting notificationSetting;
-  final ValueNotifier<List<MedicineNotificationSetting>> notificationSettings;
+  final MedicationSchedule schedule;
+  final ValueNotifier<List<MedicationSchedule>> schedules;
   final int index;
 
   @override
@@ -21,12 +21,12 @@ class MedicineNotificationSettingLabel extends StatelessWidget {
         onTap: () async {
           final result = await showTimePicker(
             context: context,
-            initialTime: notificationSetting.reminderTime.toTimeOfDay(),
+            initialTime: schedule.toTimeOfDay(),
           );
           if (result != null) {
-            final copied = [...notificationSettings.value];
-            copied[index] = copied[index].copyWith(reminderTime: MedicineDosingTime(hour: result.hour, minute: result.minute));
-            notificationSettings.value = copied;
+            final copied = [...schedules.value];
+            copied[index] = copied[index].copyWith(hour: result.hour, minute: result.minute);
+            schedules.value = copied;
           }
         },
         child: Container(
@@ -44,7 +44,7 @@ class MedicineNotificationSettingLabel extends StatelessWidget {
             child: Padding(
               padding: const EdgeInsets.symmetric(horizontal: 8.0),
               child: Text(
-                notificationSetting.reminderTime.toTimeString(),
+                schedule.toTimeString(),
                 style: const TextStyle(fontSize: 16),
               ),
             ),

@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:medicalarm/entity/medicine.dart';
-import 'package:medicalarm/features/medicine_form/components/notification_setting/section.dart';
+import 'package:medicalarm/features/medicine_form/components/schedule/section.dart';
 import 'package:medicalarm/features/medicine_form/components/section.dart';
 import 'package:medicalarm/theme/form.dart';
 
@@ -14,7 +14,7 @@ class MedicineFormPage extends HookConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final name = useState(medicine?.name ?? '');
-    final notificationSettings = useState(medicine?.notificationSettings ?? []);
+    final schedules = useState(medicine?.schedules ?? []);
     final primaryColor = Theme.of(context).colorScheme.primary;
 
     return FormTheme(
@@ -41,7 +41,7 @@ class MedicineFormPage extends HookConsumerWidget {
                 icon: Icons.schedule,
                 text: '服用時刻',
                 children: [
-                  MedicineNotificationSettingSection(notificationSettings: notificationSettings),
+                  MedicineScheduleSection(schedules: schedules),
                 ],
               ),
             ],

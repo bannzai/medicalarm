@@ -19,8 +19,11 @@ class MedicineAdd {
     required String name,
     required String memo,
     required String memoImageURL,
-    required List<MedicineNotificationSetting> notifications,
+    required List<MedicationSchedule> schedules,
+    required MedicineNotificationSetting notificationSetting,
     required int? stock,
+    required String? unit,
+    required String? doseReceiverName,
   }) async {
     final collectionRef = database.medicinesReference();
     final docRef = collectionRef.doc();
@@ -29,8 +32,11 @@ class MedicineAdd {
       name: name,
       memo: memo,
       memoImageURL: memoImageURL,
-      notificationSettings: notifications,
+      schedules: schedules,
+      notificationSetting: notificationSetting,
       stock: stock,
+      unit: unit,
+      doseReceiverName: doseReceiverName,
     );
     await docRef.set(medicine);
     return medicine;
@@ -54,16 +60,22 @@ class MedicineUpdate {
     required String name,
     required String memo,
     required String memoImageURL,
-    required List<MedicineNotificationSetting> medicineNotificationSettings,
+    required List<MedicationSchedule> schedules,
+    required MedicineNotificationSetting notificationSetting,
     required int? stock,
+    required String? unit,
+    required String? doseReceiverName,
   }) async {
     final docRef = database.medicineReference(medicineID: medicineID);
     final newMedicine = medicine.copyWith(
       name: name,
       memo: memo,
       memoImageURL: memoImageURL,
-      notificationSettings: medicineNotificationSettings,
+      schedules: schedules,
+      notificationSetting: notificationSetting,
       stock: stock,
+      unit: unit,
+      doseReceiverName: doseReceiverName,
     );
     await docRef.set(newMedicine);
     return newMedicine;

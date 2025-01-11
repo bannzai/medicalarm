@@ -616,7 +616,7 @@ MedicationSchedule _$MedicationScheduleFromJson(Map<String, dynamic> json) {
 mixin _$MedicationSchedule {
   int get hour => throw _privateConstructorUsedError;
   int get minute => throw _privateConstructorUsedError; // 服用量
-  int get amount => throw _privateConstructorUsedError;
+  int? get amount => throw _privateConstructorUsedError;
 
   /// Serializes this MedicationSchedule to a JSON map.
   Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
@@ -632,7 +632,7 @@ abstract class $MedicationScheduleCopyWith<$Res> {
   factory $MedicationScheduleCopyWith(MedicationSchedule value, $Res Function(MedicationSchedule) then) =
       _$MedicationScheduleCopyWithImpl<$Res, MedicationSchedule>;
   @useResult
-  $Res call({int hour, int minute, int amount});
+  $Res call({int hour, int minute, int? amount});
 }
 
 /// @nodoc
@@ -651,7 +651,7 @@ class _$MedicationScheduleCopyWithImpl<$Res, $Val extends MedicationSchedule> im
   $Res call({
     Object? hour = null,
     Object? minute = null,
-    Object? amount = null,
+    Object? amount = freezed,
   }) {
     return _then(_value.copyWith(
       hour: null == hour
@@ -662,10 +662,10 @@ class _$MedicationScheduleCopyWithImpl<$Res, $Val extends MedicationSchedule> im
           ? _value.minute
           : minute // ignore: cast_nullable_to_non_nullable
               as int,
-      amount: null == amount
+      amount: freezed == amount
           ? _value.amount
           : amount // ignore: cast_nullable_to_non_nullable
-              as int,
+              as int?,
     ) as $Val);
   }
 }
@@ -676,7 +676,7 @@ abstract class _$$MedicationScheduleImplCopyWith<$Res> implements $MedicationSch
       __$$MedicationScheduleImplCopyWithImpl<$Res>;
   @override
   @useResult
-  $Res call({int hour, int minute, int amount});
+  $Res call({int hour, int minute, int? amount});
 }
 
 /// @nodoc
@@ -691,7 +691,7 @@ class __$$MedicationScheduleImplCopyWithImpl<$Res> extends _$MedicationScheduleC
   $Res call({
     Object? hour = null,
     Object? minute = null,
-    Object? amount = null,
+    Object? amount = freezed,
   }) {
     return _then(_$MedicationScheduleImpl(
       hour: null == hour
@@ -702,10 +702,10 @@ class __$$MedicationScheduleImplCopyWithImpl<$Res> extends _$MedicationScheduleC
           ? _value.minute
           : minute // ignore: cast_nullable_to_non_nullable
               as int,
-      amount: null == amount
+      amount: freezed == amount
           ? _value.amount
           : amount // ignore: cast_nullable_to_non_nullable
-              as int,
+              as int?,
     ));
   }
 }
@@ -724,7 +724,7 @@ class _$MedicationScheduleImpl extends _MedicationSchedule {
   final int minute;
 // 服用量
   @override
-  final int amount;
+  final int? amount;
 
   @override
   String toString() {
@@ -762,7 +762,7 @@ class _$MedicationScheduleImpl extends _MedicationSchedule {
 }
 
 abstract class _MedicationSchedule extends MedicationSchedule {
-  const factory _MedicationSchedule({required final int hour, required final int minute, required final int amount}) = _$MedicationScheduleImpl;
+  const factory _MedicationSchedule({required final int hour, required final int minute, required final int? amount}) = _$MedicationScheduleImpl;
   const _MedicationSchedule._() : super._();
 
   factory _MedicationSchedule.fromJson(Map<String, dynamic> json) = _$MedicationScheduleImpl.fromJson;
@@ -772,7 +772,7 @@ abstract class _MedicationSchedule extends MedicationSchedule {
   @override
   int get minute; // 服用量
   @override
-  int get amount;
+  int? get amount;
 
   /// Create a copy of MedicationSchedule
   /// with the given fields replaced by the non-null parameter values.

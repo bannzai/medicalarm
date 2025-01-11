@@ -53,7 +53,7 @@ Map<String, dynamic> _$$MedicineNotificationSettingImplToJson(_$MedicineNotifica
 _$MedicationScheduleImpl _$$MedicationScheduleImplFromJson(Map<String, dynamic> json) => _$MedicationScheduleImpl(
       hour: (json['hour'] as num).toInt(),
       minute: (json['minute'] as num).toInt(),
-      amount: (json['amount'] as num).toInt(),
+      amount: (json['amount'] as num?)?.toInt(),
     );
 
 Map<String, dynamic> _$$MedicationScheduleImplToJson(_$MedicationScheduleImpl instance) => <String, dynamic>{

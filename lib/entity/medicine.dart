@@ -49,7 +49,7 @@ class MedicationSchedule with _$MedicationSchedule {
     required int hour,
     required int minute,
     // 服用量
-    required int amount,
+    required int? amount,
   }) = _MedicationSchedule;
   const MedicationSchedule._();
 
