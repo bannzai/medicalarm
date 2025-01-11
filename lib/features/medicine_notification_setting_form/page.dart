@@ -28,6 +28,7 @@ class MedicineNotificationSettingFormPage extends HookConsumerWidget {
                 isReminderEnabled.value = value;
               },
               title: const Text('服用時の通知を有効にする'),
+              subtitle: const Text('服用時刻に基づいて通知を送信します'),
             ),
             SwitchListTile(
               value: isFollowupEnabled.value,
