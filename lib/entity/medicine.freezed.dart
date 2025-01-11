@@ -21,6 +21,7 @@ Medicine _$MedicineFromJson(Map<String, dynamic> json) {
 /// @nodoc
 mixin _$Medicine {
   String get id => throw _privateConstructorUsedError;
+  String get userID => throw _privateConstructorUsedError;
   String get name => throw _privateConstructorUsedError;
   MedicationFrequency get frequency => throw _privateConstructorUsedError;
   List<MedicationSchedule> get schedules => throw _privateConstructorUsedError;
@@ -54,6 +55,7 @@ abstract class $MedicineCopyWith<$Res> {
   @useResult
   $Res call(
       {String id,
+      String userID,
       String name,
       MedicationFrequency frequency,
       List<MedicationSchedule> schedules,
@@ -88,6 +90,7 @@ class _$MedicineCopyWithImpl<$Res, $Val extends Medicine> implements $MedicineCo
   @override
   $Res call({
     Object? id = null,
+    Object? userID = null,
     Object? name = null,
     Object? frequency = null,
     Object? schedules = null,
@@ -106,6 +109,10 @@ class _$MedicineCopyWithImpl<$Res, $Val extends Medicine> implements $MedicineCo
       id: null == id
           ? _value.id
           : id // ignore: cast_nullable_to_non_nullable
+              as String,
+      userID: null == userID
+          ? _value.userID
+          : userID // ignore: cast_nullable_to_non_nullable
               as String,
       name: null == name
           ? _value.name
@@ -204,6 +211,7 @@ abstract class _$$MedicineImplCopyWith<$Res> implements $MedicineCopyWith<$Res> 
   @useResult
   $Res call(
       {String id,
+      String userID,
       String name,
       MedicationFrequency frequency,
       List<MedicationSchedule> schedules,
@@ -236,6 +244,7 @@ class __$$MedicineImplCopyWithImpl<$Res> extends _$MedicineCopyWithImpl<$Res, _$
   @override
   $Res call({
     Object? id = null,
+    Object? userID = null,
     Object? name = null,
     Object? frequency = null,
     Object? schedules = null,
@@ -254,6 +263,10 @@ class __$$MedicineImplCopyWithImpl<$Res> extends _$MedicineCopyWithImpl<$Res, _$
       id: null == id
           ? _value.id
           : id // ignore: cast_nullable_to_non_nullable
+              as String,
+      userID: null == userID
+          ? _value.userID
+          : userID // ignore: cast_nullable_to_non_nullable
               as String,
       name: null == name
           ? _value.name
@@ -317,6 +330,7 @@ class __$$MedicineImplCopyWithImpl<$Res> extends _$MedicineCopyWithImpl<$Res, _$
 class _$MedicineImpl extends _Medicine {
   const _$MedicineImpl(
       {required this.id,
+      required this.userID,
       required this.name,
       required this.frequency,
       required final List<MedicationSchedule> schedules,
@@ -337,6 +351,8 @@ class _$MedicineImpl extends _Medicine {
 
   @override
   final String id;
+  @override
+  final String userID;
   @override
   final String name;
   @override
@@ -377,7 +393,7 @@ class _$MedicineImpl extends _Medicine {
 
   @override
   String toString() {
-    return 'Medicine(id: $id, name: $name, frequency: $frequency, schedules: $schedules, notificationSetting: $notificationSetting, stock: $stock, unit: $unit, doseReceiver: $doseReceiver, memo: $memo, memoImageURL: $memoImageURL, createdDateTime: $createdDateTime, updatedDateTime: $updatedDateTime, serverCreatedDateTime: $serverCreatedDateTime, serverUpdatedDateTime: $serverUpdatedDateTime)';
+    return 'Medicine(id: $id, userID: $userID, name: $name, frequency: $frequency, schedules: $schedules, notificationSetting: $notificationSetting, stock: $stock, unit: $unit, doseReceiver: $doseReceiver, memo: $memo, memoImageURL: $memoImageURL, createdDateTime: $createdDateTime, updatedDateTime: $updatedDateTime, serverCreatedDateTime: $serverCreatedDateTime, serverUpdatedDateTime: $serverUpdatedDateTime)';
   }
 
   @override
@@ -386,6 +402,7 @@ class _$MedicineImpl extends _Medicine {
         (other.runtimeType == runtimeType &&
             other is _$MedicineImpl &&
             (identical(other.id, id) || other.id == id) &&
+            (identical(other.userID, userID) || other.userID == userID) &&
             (identical(other.name, name) || other.name == name) &&
             (identical(other.frequency, frequency) || other.frequency == frequency) &&
             const DeepCollectionEquality().equals(other._schedules, _schedules) &&
@@ -403,8 +420,8 @@ class _$MedicineImpl extends _Medicine {
 
   @JsonKey(includeFromJson: false, includeToJson: false)
   @override
-  int get hashCode => Object.hash(runtimeType, id, name, frequency, const DeepCollectionEquality().hash(_schedules), notificationSetting, stock, unit,
-      doseReceiver, memo, memoImageURL, createdDateTime, updatedDateTime, serverCreatedDateTime, serverUpdatedDateTime);
+  int get hashCode => Object.hash(runtimeType, id, userID, name, frequency, const DeepCollectionEquality().hash(_schedules), notificationSetting,
+      stock, unit, doseReceiver, memo, memoImageURL, createdDateTime, updatedDateTime, serverCreatedDateTime, serverUpdatedDateTime);
 
   /// Create a copy of Medicine
   /// with the given fields replaced by the non-null parameter values.
@@ -424,6 +441,7 @@ class _$MedicineImpl extends _Medicine {
 abstract class _Medicine extends Medicine {
   const factory _Medicine(
       {required final String id,
+      required final String userID,
       required final String name,
       required final MedicationFrequency frequency,
       required final List<MedicationSchedule> schedules,
@@ -443,6 +461,8 @@ abstract class _Medicine extends Medicine {
 
   @override
   String get id;
+  @override
+  String get userID;
   @override
   String get name;
   @override

@@ -21,6 +21,7 @@ DoseReceiver _$DoseReceiverFromJson(Map<String, dynamic> json) {
 /// @nodoc
 mixin _$DoseReceiver {
   String get id => throw _privateConstructorUsedError;
+  String get userID => throw _privateConstructorUsedError;
   String get name => throw _privateConstructorUsedError;
   @ClientCreatedTimestamp()
   DateTime? get createdDateTime => throw _privateConstructorUsedError;
@@ -46,6 +47,7 @@ abstract class $DoseReceiverCopyWith<$Res> {
   @useResult
   $Res call(
       {String id,
+      String userID,
       String name,
       @ClientCreatedTimestamp() DateTime? createdDateTime,
       @ClientUpdatedTimestamp() DateTime? updatedDateTime,
@@ -68,6 +70,7 @@ class _$DoseReceiverCopyWithImpl<$Res, $Val extends DoseReceiver> implements $Do
   @override
   $Res call({
     Object? id = null,
+    Object? userID = null,
     Object? name = null,
     Object? createdDateTime = freezed,
     Object? updatedDateTime = freezed,
@@ -78,6 +81,10 @@ class _$DoseReceiverCopyWithImpl<$Res, $Val extends DoseReceiver> implements $Do
       id: null == id
           ? _value.id
           : id // ignore: cast_nullable_to_non_nullable
+              as String,
+      userID: null == userID
+          ? _value.userID
+          : userID // ignore: cast_nullable_to_non_nullable
               as String,
       name: null == name
           ? _value.name
@@ -110,6 +117,7 @@ abstract class _$$DoseReceiverImplCopyWith<$Res> implements $DoseReceiverCopyWit
   @useResult
   $Res call(
       {String id,
+      String userID,
       String name,
       @ClientCreatedTimestamp() DateTime? createdDateTime,
       @ClientUpdatedTimestamp() DateTime? updatedDateTime,
@@ -128,6 +136,7 @@ class __$$DoseReceiverImplCopyWithImpl<$Res> extends _$DoseReceiverCopyWithImpl<
   @override
   $Res call({
     Object? id = null,
+    Object? userID = null,
     Object? name = null,
     Object? createdDateTime = freezed,
     Object? updatedDateTime = freezed,
@@ -138,6 +147,10 @@ class __$$DoseReceiverImplCopyWithImpl<$Res> extends _$DoseReceiverCopyWithImpl<
       id: null == id
           ? _value.id
           : id // ignore: cast_nullable_to_non_nullable
+              as String,
+      userID: null == userID
+          ? _value.userID
+          : userID // ignore: cast_nullable_to_non_nullable
               as String,
       name: null == name
           ? _value.name
@@ -169,6 +182,7 @@ class __$$DoseReceiverImplCopyWithImpl<$Res> extends _$DoseReceiverCopyWithImpl<
 class _$DoseReceiverImpl extends _DoseReceiver {
   const _$DoseReceiverImpl(
       {required this.id,
+      required this.userID,
       required this.name,
       @ClientCreatedTimestamp() this.createdDateTime,
       @ClientUpdatedTimestamp() this.updatedDateTime,
@@ -180,6 +194,8 @@ class _$DoseReceiverImpl extends _DoseReceiver {
 
   @override
   final String id;
+  @override
+  final String userID;
   @override
   final String name;
   @override
@@ -197,7 +213,7 @@ class _$DoseReceiverImpl extends _DoseReceiver {
 
   @override
   String toString() {
-    return 'DoseReceiver(id: $id, name: $name, createdDateTime: $createdDateTime, updatedDateTime: $updatedDateTime, serverCreatedDateTime: $serverCreatedDateTime, serverUpdatedDateTime: $serverUpdatedDateTime)';
+    return 'DoseReceiver(id: $id, userID: $userID, name: $name, createdDateTime: $createdDateTime, updatedDateTime: $updatedDateTime, serverCreatedDateTime: $serverCreatedDateTime, serverUpdatedDateTime: $serverUpdatedDateTime)';
   }
 
   @override
@@ -206,6 +222,7 @@ class _$DoseReceiverImpl extends _DoseReceiver {
         (other.runtimeType == runtimeType &&
             other is _$DoseReceiverImpl &&
             (identical(other.id, id) || other.id == id) &&
+            (identical(other.userID, userID) || other.userID == userID) &&
             (identical(other.name, name) || other.name == name) &&
             (identical(other.createdDateTime, createdDateTime) || other.createdDateTime == createdDateTime) &&
             (identical(other.updatedDateTime, updatedDateTime) || other.updatedDateTime == updatedDateTime) &&
@@ -215,7 +232,7 @@ class _$DoseReceiverImpl extends _DoseReceiver {
 
   @JsonKey(includeFromJson: false, includeToJson: false)
   @override
-  int get hashCode => Object.hash(runtimeType, id, name, createdDateTime, updatedDateTime, serverCreatedDateTime, serverUpdatedDateTime);
+  int get hashCode => Object.hash(runtimeType, id, userID, name, createdDateTime, updatedDateTime, serverCreatedDateTime, serverUpdatedDateTime);
 
   /// Create a copy of DoseReceiver
   /// with the given fields replaced by the non-null parameter values.
@@ -235,6 +252,7 @@ class _$DoseReceiverImpl extends _DoseReceiver {
 abstract class _DoseReceiver extends DoseReceiver {
   const factory _DoseReceiver(
       {required final String id,
+      required final String userID,
       required final String name,
       @ClientCreatedTimestamp() final DateTime? createdDateTime,
       @ClientUpdatedTimestamp() final DateTime? updatedDateTime,
@@ -246,6 +264,8 @@ abstract class _DoseReceiver extends DoseReceiver {
 
   @override
   String get id;
+  @override
+  String get userID;
   @override
   String get name;
   @override

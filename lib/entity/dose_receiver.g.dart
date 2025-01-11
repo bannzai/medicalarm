@@ -8,6 +8,7 @@ part of 'dose_receiver.dart';
 
 _$DoseReceiverImpl _$$DoseReceiverImplFromJson(Map<String, dynamic> json) => _$DoseReceiverImpl(
       id: json['id'] as String,
+      userID: json['userID'] as String,
       name: json['name'] as String,
       createdDateTime: const ClientCreatedTimestamp().fromJson(json['createdDateTime'] as Timestamp?),
       updatedDateTime: const ClientUpdatedTimestamp().fromJson(json['updatedDateTime'] as Timestamp?),
@@ -17,6 +18,7 @@ _$DoseReceiverImpl _$$DoseReceiverImplFromJson(Map<String, dynamic> json) => _$D
 
 Map<String, dynamic> _$$DoseReceiverImplToJson(_$DoseReceiverImpl instance) => <String, dynamic>{
       'id': instance.id,
+      'userID': instance.userID,
       'name': instance.name,
       'createdDateTime': const ClientCreatedTimestamp().toJson(instance.createdDateTime),
       'updatedDateTime': const ClientUpdatedTimestamp().toJson(instance.updatedDateTime),

@@ -11,6 +11,7 @@ class DoseReceiver with _$DoseReceiver {
   @JsonSerializable(explicitToJson: true)
   const factory DoseReceiver({
     required String id,
+    required String userID,
     required String name,
     @ClientCreatedTimestamp() DateTime? createdDateTime,
     @ClientUpdatedTimestamp() DateTime? updatedDateTime,

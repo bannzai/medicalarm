@@ -8,6 +8,7 @@ part of 'medicine.dart';
 
 _$MedicineImpl _$$MedicineImplFromJson(Map<String, dynamic> json) => _$MedicineImpl(
       id: json['id'] as String,
+      userID: json['userID'] as String,
       name: json['name'] as String,
       frequency: MedicationFrequency.fromJson(json['frequency'] as Map<String, dynamic>),
       schedules: (json['schedules'] as List<dynamic>).map((e) => MedicationSchedule.fromJson(e as Map<String, dynamic>)).toList(),
@@ -25,6 +26,7 @@ _$MedicineImpl _$$MedicineImplFromJson(Map<String, dynamic> json) => _$MedicineI
 
 Map<String, dynamic> _$$MedicineImplToJson(_$MedicineImpl instance) => <String, dynamic>{
       'id': instance.id,
+      'userID': instance.userID,
       'name': instance.name,
       'frequency': instance.frequency.toJson(),
       'schedules': instance.schedules.map((e) => e.toJson()).toList(),
