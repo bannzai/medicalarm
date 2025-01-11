@@ -6,6 +6,7 @@ import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:image_cropper/image_cropper.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:medicalarm/components/error/error_alert.dart';
+import 'package:medicalarm/provider/app_user.dart';
 import 'package:medicalarm/utils/image/image.dart';
 import 'package:medicalarm/utils/storage/firebase_cloud_storage.dart';
 
@@ -54,6 +55,8 @@ class ImagePickerButton extends HookConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final isLoading = useState(false);
+    final userID = ref.watch(appUserIDProvider);
+
     return GestureDetector(
       onTap: () async {
         final imagePicker = ImagePicker();

@@ -4,6 +4,7 @@ import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:medicalarm/components/loading/indicator.dart';
 import 'package:medicalarm/components/retry/page.dart';
+import 'package:medicalarm/provider/app_user.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 
 part 'auth.g.dart';
@@ -68,7 +69,12 @@ class SignInResolver extends HookConsumerWidget {
     if (userValue == null) {
       return const IndicatorPage();
     } else {
-      return builder(context, userValue);
+      return ProviderScope(
+        overrides: [
+          appUserIDProvider.overrideWithValue(userValue.uid),
+        ],
+        child: builder(context, userValue),
+      );
     }
   }
 }
