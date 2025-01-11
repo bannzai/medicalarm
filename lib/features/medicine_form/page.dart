@@ -10,6 +10,7 @@ import 'package:medicalarm/features/medicine_form/components/notification_settin
 import 'package:medicalarm/features/medicine_form/components/schedule/section.dart';
 import 'package:medicalarm/provider/medicine.dart';
 import 'package:medicalarm/style/button.dart';
+import 'package:medicalarm/style/color.dart';
 import 'package:medicalarm/theme/form.dart';
 
 class MedicineFormPage extends HookConsumerWidget {
@@ -36,6 +37,8 @@ class MedicineFormPage extends HookConsumerWidget {
     final medicineAdd = ref.watch(medicineAddProvider);
     final medicineUpdate = ref.watch(medicineUpdateProvider);
 
+    final canSubmit = name.value.isNotEmpty && schedules.value.isNotEmpty;
+
     return DraggableScrollableSheet(
         initialChildSize: 0.8,
         maxChildSize: 0.8,
@@ -49,6 +52,7 @@ class MedicineFormPage extends HookConsumerWidget {
                 child: Stack(
                   children: [
                     SingleChildScrollView(
+                      padding: const EdgeInsets.only(bottom: 60.0),
                       child: Column(
                         children: [
                           Padding(
@@ -85,47 +89,57 @@ class MedicineFormPage extends HookConsumerWidget {
                       alignment: Alignment.bottomCenter,
                       child: Padding(
                         padding: const EdgeInsets.symmetric(horizontal: 12.0),
-                        child: ElevatedButton(
-                          style: elevatedButtonStyle,
-                          onPressed: () {
-                            final medicine = this.medicine;
-                            if (medicine == null) {
-                              medicineAdd(
-                                name: name.value,
-                                frequency: frequency.value,
-                                schedules: schedules.value,
-                                memo: memo.value,
-                                memoImageURL: memoImageURL.value,
-                                doseReceiver: doseReceiver.value,
-                                unit: unit.value,
-                                stock: stock.value,
-                                notificationSetting: MedicineNotificationSetting(
-                                  isReminderEnabled: isReminderEnabled.value,
-                                  isFollowupEnabled: isFollowupEnabled.value,
-                                  useCriticalAlert: useCriticalAlert.value,
-                                ),
-                              );
-                            } else {
-                              medicineUpdate(
-                                medicineID: medicine.id,
-                                medicine: medicine,
-                                name: name.value,
-                                frequency: frequency.value,
-                                schedules: schedules.value,
-                                memo: memo.value,
-                                memoImageURL: memoImageURL.value,
-                                doseReceiver: doseReceiver.value,
-                                unit: unit.value,
-                                stock: stock.value,
-                                notificationSetting: MedicineNotificationSetting(
-                                  isReminderEnabled: isReminderEnabled.value,
-                                  isFollowupEnabled: isFollowupEnabled.value,
-                                  useCriticalAlert: useCriticalAlert.value,
-                                ),
-                              );
-                            }
-                          },
-                          child: const Text('保存'),
+                        child: Column(
+                          children: [
+                            const Spacer(),
+                            if (!canSubmit) ...[
+                              const Text('名前と服用時刻を入力してください', style: TextStyle(color: TextColor.danger, fontSize: 10.0)),
+                            ],
+                            ElevatedButton(
+                              style: elevatedButtonStyle,
+                              onPressed: canSubmit
+                                  ? () {
+                                      final medicine = this.medicine;
+                                      if (medicine == null) {
+                                        medicineAdd(
+                                          name: name.value,
+                                          frequency: frequency.value,
+                                          schedules: schedules.value,
+                                          memo: memo.value,
+                                          memoImageURL: memoImageURL.value,
+                                          doseReceiver: doseReceiver.value,
+                                          unit: unit.value,
+                                          stock: stock.value,
+                                          notificationSetting: MedicineNotificationSetting(
+                                            isReminderEnabled: isReminderEnabled.value,
+                                            isFollowupEnabled: isFollowupEnabled.value,
+                                            useCriticalAlert: useCriticalAlert.value,
+                                          ),
+                                        );
+                                      } else {
+                                        medicineUpdate(
+                                          medicineID: medicine.id,
+                                          medicine: medicine,
+                                          name: name.value,
+                                          frequency: frequency.value,
+                                          schedules: schedules.value,
+                                          memo: memo.value,
+                                          memoImageURL: memoImageURL.value,
+                                          doseReceiver: doseReceiver.value,
+                                          unit: unit.value,
+                                          stock: stock.value,
+                                          notificationSetting: MedicineNotificationSetting(
+                                            isReminderEnabled: isReminderEnabled.value,
+                                            isFollowupEnabled: isFollowupEnabled.value,
+                                            useCriticalAlert: useCriticalAlert.value,
+                                          ),
+                                        );
+                                      }
+                                    }
+                                  : null,
+                              child: const Text('保存'),
+                            ),
+                          ],
                         ),
                       ),
                     ),

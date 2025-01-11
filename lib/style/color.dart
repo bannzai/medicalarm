@@ -7,6 +7,7 @@ abstract class AppColors {
   static const Color background = Color(0xFFFCECEA);
   static const Color formBackground = Color(0xFFF5F5F5);
   static const Color border = Color(0xFFE0E0E0);
+  static const Color disabled = Color(0xFFE0E0E0);
 }
 
 abstract class TextColor {

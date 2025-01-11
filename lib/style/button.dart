@@ -15,6 +15,7 @@ ButtonStyle get elevatedButtonStyle => ElevatedButton.styleFrom(
       padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 12.0),
       minimumSize: const Size(double.infinity, 48.0),
       textStyle: const TextStyle(fontSize: 16.0, fontWeight: FontWeight.bold),
+      disabledBackgroundColor: AppColors.disabled,
     );
 
 ButtonStyle get textButtonStyle => TextButton.styleFrom(
