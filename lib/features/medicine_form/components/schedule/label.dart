@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:medicalarm/components/picker/time.dart';
 import 'package:medicalarm/entity/medicine.dart';
 import 'package:medicalarm/style/color.dart';
 
@@ -19,10 +20,11 @@ class MedicineScheduleReminderTime extends StatelessWidget {
     return Expanded(
       child: GestureDetector(
         onTap: () async {
-          final result = await showTimePicker(
-            context: context,
+          final result = await showAppTimePicker(
+            context,
             initialTime: schedule.toTimeOfDay(),
           );
+
           if (result != null) {
             final copied = [...schedules.value];
             copied[index] = copied[index].copyWith(hour: result.hour, minute: result.minute);

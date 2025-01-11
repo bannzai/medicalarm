@@ -1,19 +1,21 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 import 'package:medicalarm/components/picker/toolbar.dart';
 import 'package:medicalarm/utils/config/environment.dart';
 import 'package:flutter/cupertino.dart';
 
 class AppTimePicker extends StatelessWidget {
-  final DateTime initialDateTime;
+  final TimeOfDay initialTime;
 
   const AppTimePicker({
     super.key,
-    required this.initialDateTime,
+    required this.initialTime,
   });
 
   @override
   Widget build(BuildContext context) {
-    var selectedDateTime = initialDateTime;
+    var selectedDateTime = DateTime.now().copyWith(hour: initialTime.hour, minute: initialTime.minute);
     var minimumInterval = 10;
     if (Environment.isDevelopment) {
       minimumInterval = 1;
@@ -49,12 +51,12 @@ class AppTimePicker extends StatelessWidget {
   }
 }
 
-Future<TimeOfDay?> showAppTimePicker(BuildContext context, {required DateTime initialDateTime}) {
+Future<DateTime?> showAppTimePicker(BuildContext context, {required TimeOfDay initialTime}) {
   return showModalBottomSheet(
     context: context,
     builder: (BuildContext context) {
       return AppTimePicker(
-        initialDateTime: initialDateTime,
+        initialTime: initialTime,
       );
     },
   );
