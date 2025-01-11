@@ -1,0 +1,51 @@
+import 'package:medicalarm/components/picker/toolbar.dart';
+import 'package:medicalarm/utils/config/environment.dart';
+import 'package:flutter/cupertino.dart';
+
+class TimePicker extends StatelessWidget {
+  final DateTime initialDateTime;
+  final void Function(DateTime datetime) done;
+
+  const TimePicker({
+    super.key,
+    required this.initialDateTime,
+    required this.done,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    var selectedDateTime = initialDateTime;
+    var minimumInterval = 10;
+    if (Environment.isDevelopment) {
+      minimumInterval = 1;
+    }
+    return Column(
+      mainAxisAlignment: MainAxisAlignment.end,
+      mainAxisSize: MainAxisSize.min,
+      children: <Widget>[
+        PickerToolbar(
+          done: (() {
+            done(selectedDateTime);
+          }),
+          cancel: (() => Navigator.pop(context)),
+        ),
+        SizedBox(
+          height: MediaQuery.of(context).size.height / 3,
+          child: GestureDetector(
+              onTap: () {
+                Navigator.pop(context);
+              },
+              child: CupertinoDatePicker(
+                use24hFormat: true,
+                minuteInterval: minimumInterval,
+                initialDateTime: selectedDateTime,
+                mode: CupertinoDatePickerMode.time,
+                onDateTimeChanged: (DateTime value) {
+                  selectedDateTime = value;
+                },
+              )),
+        ),
+      ],
+    );
+  }
+}
