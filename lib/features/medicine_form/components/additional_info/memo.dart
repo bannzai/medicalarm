@@ -6,6 +6,7 @@ import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:image_cropper/image_cropper.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:medicalarm/components/error/error_alert.dart';
+import 'package:medicalarm/components/loading/loading.dart';
 import 'package:medicalarm/provider/app_user.dart';
 import 'package:medicalarm/utils/image/image.dart';
 import 'package:medicalarm/utils/storage/firebase_cloud_storage.dart';
@@ -57,55 +58,63 @@ class ImagePickerButton extends HookConsumerWidget {
     final isLoading = useState(false);
     final userID = ref.watch(appUserIDProvider);
 
-    return GestureDetector(
-      onTap: () async {
-        final imagePicker = ImagePicker();
-        final XFile? photo = await imagePicker.pickImage(source: ImageSource.gallery);
+    return Loading(
+      isLoading: isLoading.value,
+      child: GestureDetector(
+        onTap: () async {
+          try {
+            if (isLoading.value) {
+              return;
+            }
+            final imagePicker = ImagePicker();
+            final XFile? photo = await imagePicker.pickImage(source: ImageSource.gallery);
 
-        if (photo != null) {
-          final croppedFile = await ImageCropper().cropImage(
-            sourcePath: photo.path,
-            uiSettings: [
-              AndroidUiSettings(
-                toolbarTitle: 'Cropper',
-                toolbarColor: Colors.deepOrange,
-                toolbarWidgetColor: Colors.white,
-                aspectRatioPresets: [
-                  CropAspectRatioPreset.original,
-                  CropAspectRatioPreset.square,
-                  _CropAspectRatioPresetCustom(),
+            if (photo != null) {
+              final croppedFile = await ImageCropper().cropImage(
+                sourcePath: photo.path,
+                uiSettings: [
+                  AndroidUiSettings(
+                    toolbarTitle: 'Cropper',
+                    toolbarColor: Colors.deepOrange,
+                    toolbarWidgetColor: Colors.white,
+                    aspectRatioPresets: [
+                      CropAspectRatioPreset.original,
+                      CropAspectRatioPreset.square,
+                      _CropAspectRatioPresetCustom(),
+                    ],
+                  ),
+                  IOSUiSettings(
+                    title: 'Cropper',
+                    aspectRatioPresets: [
+                      CropAspectRatioPreset.original,
+                      CropAspectRatioPreset.square,
+                      _CropAspectRatioPresetCustom(), // IMPORTANT: iOS supports only one custom aspect ratio in preset list
+                    ],
+                  ),
                 ],
-              ),
-              IOSUiSettings(
-                title: 'Cropper',
-                aspectRatioPresets: [
-                  CropAspectRatioPreset.original,
-                  CropAspectRatioPreset.square,
-                  _CropAspectRatioPresetCustom(), // IMPORTANT: iOS supports only one custom aspect ratio in preset list
-                ],
-              ),
-            ],
-          );
-          if (croppedFile != null) {
-            try {
-              final file = File(croppedFile.path);
-              final url = await uploadImage(medicinesRef(userID: userID), file);
-              memoImageURL.value = url;
-            } catch (e) {
-              if (context.mounted) {
-                showErrorAlert(context, e.toString());
+              );
+              if (croppedFile != null) {
+                final file = File(croppedFile.path);
+                final url = await uploadImage(medicinesRef(userID: userID), file);
+                memoImageURL.value = url;
               }
             }
+          } catch (e) {
+            if (context.mounted) {
+              showErrorAlert(context, e.toString());
+            }
+          } finally {
+            isLoading.value = false;
           }
-        }
-      },
-      child: ClipRRect(
-        borderRadius: BorderRadius.circular(8),
-        child: Container(
-          width: 50,
-          height: 50,
-          color: Colors.grey,
-          child: memoImageURL.value.isNotEmpty ? Image.network(memoImageURL.value) : const Icon(Icons.add_a_photo),
+        },
+        child: ClipRRect(
+          borderRadius: BorderRadius.circular(8),
+          child: Container(
+            width: 50,
+            height: 50,
+            color: Colors.grey,
+            child: memoImageURL.value.isNotEmpty ? Image.network(memoImageURL.value) : const Icon(Icons.add_a_photo),
+          ),
         ),
       ),
     );
