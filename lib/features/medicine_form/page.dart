@@ -22,44 +22,51 @@ class MedicineFormPage extends HookConsumerWidget {
     final isFollowupEnabled = useState(medicine?.notificationSetting.isFollowupEnabled ?? true);
     final useCriticalAlert = useState(medicine?.notificationSetting.useCriticalAlert ?? false);
 
-    return FormTheme(
-      child: Scaffold(
-        appBar: AppBar(
-          title: Text('Medicine Form', style: TextStyle(color: primaryColor)),
-        ),
-        body: SafeArea(
-          child: Column(
-            children: [
-              Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 12.0, vertical: 16.0),
-                child: TextFormField(
-                  initialValue: name.value,
-                  onChanged: (value) {
-                    name.value = value;
-                  },
-                  decoration: const InputDecoration(
-                    hintText: '薬の名前',
+    return DraggableScrollableSheet(
+        initialChildSize: 0.8,
+        maxChildSize: 0.8,
+        builder: (context, scrollController) {
+          return FormTheme(
+            child: Scaffold(
+              appBar: AppBar(
+                title: Text('Medicine Form', style: TextStyle(color: primaryColor)),
+              ),
+              body: SafeArea(
+                child: SingleChildScrollView(
+                  child: Column(
+                    children: [
+                      Padding(
+                        padding: const EdgeInsets.symmetric(horizontal: 12.0, vertical: 16.0),
+                        child: TextFormField(
+                          initialValue: name.value,
+                          onChanged: (value) {
+                            name.value = value;
+                          },
+                          decoration: const InputDecoration(
+                            hintText: '薬の名前',
+                          ),
+                        ),
+                      ),
+                      Section(
+                        icon: Icons.schedule,
+                        text: '服用時刻',
+                        children: [
+                          MedicineScheduleSection(schedules: schedules),
+                        ],
+                      ),
+                      if (schedules.value.isNotEmpty) ...[
+                        MedicineNotificationSettingSection(
+                          isReminderEnabled: isReminderEnabled,
+                          isFollowupEnabled: isFollowupEnabled,
+                          useCriticalAlert: useCriticalAlert,
+                        ),
+                      ],
+                    ],
                   ),
                 ),
               ),
-              Section(
-                icon: Icons.schedule,
-                text: '服用時刻',
-                children: [
-                  MedicineScheduleSection(schedules: schedules),
-                ],
-              ),
-              if (schedules.value.isNotEmpty) ...[
-                MedicineNotificationSettingSection(
-                  isReminderEnabled: isReminderEnabled,
-                  isFollowupEnabled: isFollowupEnabled,
-                  useCriticalAlert: useCriticalAlert,
-                ),
-              ],
-            ],
-          ),
-        ),
-      ),
-    );
+            ),
+          );
+        });
   }
 }

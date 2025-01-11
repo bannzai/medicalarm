@@ -14,6 +14,8 @@ class MedicalAddButton extends HookConsumerWidget {
         onPressed: () {
           showModalBottomSheet(
             context: context,
+            isScrollControlled: true,
+            backgroundColor: Colors.transparent,
             builder: (context) => const MedicineFormPage(medicine: null),
           );
         },
