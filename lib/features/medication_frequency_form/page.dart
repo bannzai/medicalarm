@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:medicalarm/components/container/flat_tile.dart';
+import 'package:medicalarm/components/picker/number.dart';
 import 'package:medicalarm/entity/medication_frequency.dart';
 import 'package:medicalarm/style/button.dart';
 import 'package:medicalarm/theme/form.dart';
@@ -90,7 +91,16 @@ class MedicationFrequencyFormPage extends HookConsumerWidget {
                                     child: ListTile(
                                       title: const Text('X日ごと'),
                                       trailing: Text(frequencyValue.interval.toString()),
-                                      onTap: () {},
+                                      onTap: () async {
+                                        final interval = await showModalBottomSheet<int>(
+                                          context: context,
+                                          barrierColor: Colors.transparent,
+                                          builder: (context) => AppNumberPicker(initialNumber: frequencyValue.interval),
+                                        );
+                                        if (interval != null) {
+                                          frequency.value = MedicationFrequency.everyXDays(interval: interval);
+                                        }
+                                      },
                                     ),
                                   ),
                                 ],
