@@ -24,16 +24,26 @@ Map<String, dynamic> _$$EveryXDaysMedicationFrequencyImplToJson(_$EveryXDaysMedi
       'runtimeType': instance.$type,
     };
 
-_$SpecificDayOfWeekMedicationFrequencyImpl _$$SpecificDayOfWeekMedicationFrequencyImplFromJson(Map<String, dynamic> json) =>
-    _$SpecificDayOfWeekMedicationFrequencyImpl(
-      daysOfWeek: (json['daysOfWeek'] as List<dynamic>).map((e) => (e as num).toInt()).toList(),
+_$SpecificWeekdaysMedicationFrequencyImpl _$$SpecificWeekdaysMedicationFrequencyImplFromJson(Map<String, dynamic> json) =>
+    _$SpecificWeekdaysMedicationFrequencyImpl(
+      weekdays: (json['weekdays'] as List<dynamic>).map((e) => $enumDecode(_$WeekdayEnumMap, e)).toList(),
       $type: json['runtimeType'] as String?,
     );
 
-Map<String, dynamic> _$$SpecificDayOfWeekMedicationFrequencyImplToJson(_$SpecificDayOfWeekMedicationFrequencyImpl instance) => <String, dynamic>{
-      'daysOfWeek': instance.daysOfWeek,
+Map<String, dynamic> _$$SpecificWeekdaysMedicationFrequencyImplToJson(_$SpecificWeekdaysMedicationFrequencyImpl instance) => <String, dynamic>{
+      'weekdays': instance.weekdays.map((e) => _$WeekdayEnumMap[e]!).toList(),
       'runtimeType': instance.$type,
     };
+
+const _$WeekdayEnumMap = {
+  Weekday.Sunday: 'Sunday',
+  Weekday.Monday: 'Monday',
+  Weekday.Tuesday: 'Tuesday',
+  Weekday.Wednesday: 'Wednesday',
+  Weekday.Thursday: 'Thursday',
+  Weekday.Friday: 'Friday',
+  Weekday.Saturday: 'Saturday',
+};
 
 _$SpecificDayOfMonthMedicationFrequencyImpl _$$SpecificDayOfMonthMedicationFrequencyImplFromJson(Map<String, dynamic> json) =>
     _$SpecificDayOfMonthMedicationFrequencyImpl(

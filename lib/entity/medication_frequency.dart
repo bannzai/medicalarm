@@ -1,4 +1,5 @@
 import 'package:freezed_annotation/freezed_annotation.dart';
+import 'package:medicalarm/utils/date_time/weekday.dart';
 
 part 'medication_frequency.freezed.dart';
 part 'medication_frequency.g.dart';
@@ -17,9 +18,9 @@ sealed class MedicationFrequency with _$MedicationFrequency {
 
   // 特定の曜日
   @JsonSerializable(explicitToJson: true)
-  const factory MedicationFrequency.specificDayOfWeek({
-    required List<int> daysOfWeek,
-  }) = SpecificDayOfWeekMedicationFrequency;
+  const factory MedicationFrequency.specificWeekdays({
+    required List<Weekday> weekdays,
+  }) = SpecificWeekdaysMedicationFrequency;
 
   // 月の特定日
   @JsonSerializable(explicitToJson: true)
@@ -48,7 +49,7 @@ sealed class MedicationFrequency with _$MedicationFrequency {
   String get displayName => switch (this) {
         DailyMedicationFrequency() => '毎日',
         EveryXDaysMedicationFrequency(interval: final interval) => '$interval日ごと',
-        SpecificDayOfWeekMedicationFrequency(daysOfWeek: final daysOfWeek) => daysOfWeek.join(','),
+        SpecificWeekdaysMedicationFrequency(weekdays: final weekdays) => weekdays.map((weekday) => weekday.weekdayShortString()).join(','),
         SpecificDayOfMonthMedicationFrequency(daysOfMonth: final daysOfMonth) => daysOfMonth.join(','),
         OddOrEvenDayMedicationFrequency(isOddDay: final isOddDay) => isOddDay ? '奇数日' : '偶数日',
         CycleMedicationFrequency(consecutiveDays: final consecutiveDays, restDays: final restDays) => '$consecutiveDays日服用/$restDays日休薬',
