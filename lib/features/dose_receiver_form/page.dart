@@ -45,7 +45,11 @@ class DoseReceiverFormPage extends HookConsumerWidget {
                         child: Column(
                           children: [
                             for (final doseReceiver in doseReceivers) ...[
-                              DoseReceiverTextField(doseReceiver: doseReceiver, selectedDoseReceiver: selectedDoseReceiver),
+                              DoseReceiverTextField(
+                                key: ValueKey(doseReceiver.id),
+                                doseReceiver: doseReceiver,
+                                selectedDoseReceiver: selectedDoseReceiver,
+                              ),
                               const SizedBox(height: 6),
                             ],
                             const SizedBox(height: 10),
@@ -128,7 +132,7 @@ class DoseReceiverAddButton extends HookConsumerWidget {
       onPressed: doseReceivers.any((e) => e.name.isEmpty)
           ? null
           : () {
-              doseReceiverAdd.call(name: '新しい服用者');
+              doseReceiverAdd.call(name: '');
             },
       icon: const Icon(Icons.add),
       label: const Text('服用者を追加', style: TextStyle(fontWeight: FontWeight.bold)),
