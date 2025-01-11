@@ -1,17 +1,18 @@
 import 'dart:convert';
 import 'dart:io';
+import 'dart:typed_data';
 
 import 'package:flutter/material.dart';
 import 'package:image/image.dart';
 
-Future<File> compressToJPEGImage(File file) async {
+Future<Uint8List> convertToJPEGImage(File file) async {
   //1. Decode the image.
   final image = decodeImage(await file.readAsBytes());
   if (image == null) {
     throw Exception('Failed to decode image');
   }
-  final resizedImageBytes = encodeJpg(image, quality: 80); //or img.encodeJpg(resizedImage, quality: 85);
-  return File.fromRawPath(resizedImageBytes);
+  final resizedImageBytes = encodeJpg(image, quality: 100);
+  return resizedImageBytes;
 }
 
 Future<String> base64CompressImage(File file) async {
