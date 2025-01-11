@@ -17,7 +17,7 @@ class MedicationFrequencyFormPage extends HookConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final frequency = useState(this.frequency.value);
     final frequencyValue = frequency.value;
-    final weekdays = useState<List<Weekday>>(frequencyValue is SpecificWeekdaysMedicationFrequency ? frequencyValue.weekdays : []);
+    final weekdays = useState<List<Weekday>>(frequencyValue is SpecificWeekdaysMedicationFrequency ? frequencyValue.weekdays : Weekday.values);
 
     return DraggableScrollableSheet(
       initialChildSize: 0.6,
@@ -28,9 +28,11 @@ class MedicationFrequencyFormPage extends HookConsumerWidget {
             body: SafeArea(
               child: Padding(
                 padding: const EdgeInsets.symmetric(vertical: 16.0),
-                child: Column(
+                child: Stack(
                   children: [
                     SingleChildScrollView(
+                      controller: scrollController,
+                      padding: const EdgeInsets.symmetric(vertical: 60.0),
                       child: Column(
                         children: [
                           Column(
@@ -118,16 +120,18 @@ class MedicationFrequencyFormPage extends HookConsumerWidget {
                         ],
                       ),
                     ),
-                    const Spacer(),
-                    Padding(
-                      padding: const EdgeInsets.symmetric(horizontal: 12.0),
-                      child: ElevatedButton(
-                        style: elevatedButtonStyle,
-                        onPressed: () {
-                          this.frequency.value = frequency.value;
-                          Navigator.pop(context);
-                        },
-                        child: const Text('保存'),
+                    Align(
+                      alignment: Alignment.bottomCenter,
+                      child: Padding(
+                        padding: const EdgeInsets.symmetric(horizontal: 12.0),
+                        child: ElevatedButton(
+                          style: elevatedButtonStyle,
+                          onPressed: () {
+                            this.frequency.value = frequency.value;
+                            Navigator.pop(context);
+                          },
+                          child: const Text('保存'),
+                        ),
                       ),
                     ),
                   ],

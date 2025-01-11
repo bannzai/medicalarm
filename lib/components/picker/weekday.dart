@@ -14,6 +14,7 @@ class WeekdayPicker extends StatelessWidget {
             title: Text(
               weekday.weekdayString(),
             ),
+            trailing: weekdays.value.contains(weekday) ? const Icon(Icons.check) : null,
             onTap: () {
               if (weekdays.value.contains(weekday)) {
                 weekdays.value = [...weekdays.value]..removeWhere((e) => e == weekday);
@@ -22,6 +23,7 @@ class WeekdayPicker extends StatelessWidget {
               }
             },
           ),
+          const Divider(color: Colors.black, height: 1),
         ],
       ],
     );
