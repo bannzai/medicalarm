@@ -1,3 +1,5 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:medicalarm/entity/dose_receiver.dart';
 import 'package:medicalarm/entity/medication_frequency.dart';
 import 'package:medicalarm/entity/medicine.dart';
 import 'package:medicalarm/features/resolver/database.dart';
@@ -23,7 +25,7 @@ class MedicineAdd {
     required MedicineNotificationSetting notificationSetting,
     required int? stock,
     required String? unit,
-    required String? doseReceiverName,
+    required MedicineDoseReceiver? doseReceiver,
     required String memo,
     required String memoImageURL,
   }) async {
@@ -37,11 +39,11 @@ class MedicineAdd {
       notificationSetting: notificationSetting,
       stock: stock,
       unit: unit,
-      doseReceiverName: doseReceiverName,
+      doseReceiver: doseReceiver,
       memo: memo,
       memoImageURL: memoImageURL,
     );
-    await docRef.set(medicine);
+    await docRef.set(medicine, SetOptions(merge: true));
     return medicine;
   }
 }
@@ -66,7 +68,7 @@ class MedicineUpdate {
     required MedicineNotificationSetting notificationSetting,
     required int? stock,
     required String? unit,
-    required String? doseReceiverName,
+    required MedicineDoseReceiver? doseReceiver,
     required String memo,
     required String memoImageURL,
   }) async {
@@ -78,11 +80,11 @@ class MedicineUpdate {
       notificationSetting: notificationSetting,
       stock: stock,
       unit: unit,
-      doseReceiverName: doseReceiverName,
+      doseReceiver: doseReceiver,
       memo: memo,
       memoImageURL: memoImageURL,
     );
-    await docRef.set(newMedicine);
+    await docRef.set(newMedicine, SetOptions(merge: true));
     return newMedicine;
   }
 }
