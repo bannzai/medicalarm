@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:medicalarm/entity/medicine.dart';
+import 'package:medicalarm/features/medicine_form/components/notification_setting/add_button.dart';
 import 'package:medicalarm/features/medicine_form/components/notification_setting/delete_button.dart';
 import 'package:medicalarm/features/medicine_form/components/notification_setting/label.dart';
-import 'package:medicalarm/style/button.dart';
 
 class MedicineNotificationSettingSection extends StatelessWidget {
   final ValueNotifier<List<MedicineNotificationSetting>> notificationSettings;
@@ -27,23 +27,7 @@ class MedicineNotificationSettingSection extends StatelessWidget {
           const SizedBox(height: 6),
         ],
         const SizedBox(height: 10),
-        TextButton.icon(
-          onPressed: () {
-            notificationSettings.value = [
-              ...notificationSettings.value,
-              const MedicineNotificationSetting(
-                reminderTime: MedicineNotificationSettingReminderTime(hour: 10, minute: 00),
-                dosingCount: 1,
-                isEnabled: true,
-                useCriticalAlert: false,
-                doserName: null,
-              ),
-            ];
-          },
-          icon: const Icon(Icons.add),
-          label: const Text('服用時刻を追加', style: TextStyle(fontWeight: FontWeight.bold)),
-          style: secondaryButtonStyle.merge(capsuleButtonStyle),
-        ),
+        MedicineNotificationSettingAddButton(notificationSettings: notificationSettings),
       ],
     );
   }
