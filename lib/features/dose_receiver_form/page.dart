@@ -20,17 +20,21 @@ class DoseReceiverFormPage extends HookConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final doseReceivers = ref.watch(doseReceiversProvider);
     final selectedDoseReceiver = doseReceiver;
+    final primaryColor = Theme.of(context).colorScheme.primary;
 
-    return Retry(
-      retry: () => ref.invalidate(doseReceiversProvider),
-      child: doseReceivers.when(
-        data: (doseReceivers) {
-          return DraggableScrollableSheet(
-            initialChildSize: 0.8,
-            minChildSize: 0.8,
-            builder: (context, scrollController) {
+    return DraggableScrollableSheet(
+      initialChildSize: 0.8,
+      minChildSize: 0.8,
+      builder: (context, scrollController) {
+        return Retry(
+          retry: () => ref.invalidate(doseReceiversProvider),
+          child: doseReceivers.when(
+            data: (doseReceivers) {
               return FormTheme(
                 child: Scaffold(
+                  appBar: AppBar(
+                    title: Text('服用者', style: TextStyle(color: primaryColor)),
+                  ),
                   body: SafeArea(
                     child: SingleChildScrollView(
                       child: Column(
@@ -46,15 +50,15 @@ class DoseReceiverFormPage extends HookConsumerWidget {
                 ),
               );
             },
-          );
-        },
-        error: (error, stackTrace) {
-          return RetryPage(exception: error);
-        },
-        loading: () {
-          return const CircularProgressIndicator();
-        },
-      ),
+            error: (error, stackTrace) {
+              return RetryPage(exception: error);
+            },
+            loading: () {
+              return const CircularProgressIndicator();
+            },
+          ),
+        );
+      },
     );
   }
 }

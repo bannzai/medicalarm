@@ -22,16 +22,16 @@ class MedicineDoseReceiverTile extends StatelessWidget {
             ],
           ),
           onTap: () {
-            Navigator.push(
-              context,
-              MaterialPageRoute(
-                builder: (context) => AppResolvers(
-                  builder: (context, user) {
-                    return DoseReceiverFormPage(
-                      doseReceiver: doseReceiver,
-                    );
-                  },
-                ),
+            showModalBottomSheet(
+              context: context,
+              isScrollControlled: true,
+              backgroundColor: Colors.transparent,
+              builder: (context) => AppResolvers(
+                builder: (context, user) {
+                  return DoseReceiverFormPage(
+                    doseReceiver: doseReceiver,
+                  );
+                },
               ),
             );
           },
