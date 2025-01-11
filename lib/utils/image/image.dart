@@ -4,6 +4,16 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:image/image.dart';
 
+Future<File> compressToJPEGImage(File file) async {
+  //1. Decode the image.
+  final image = decodeImage(await file.readAsBytes());
+  if (image == null) {
+    throw Exception('Failed to decode image');
+  }
+  final resizedImageBytes = encodeJpg(image, quality: 80); //or img.encodeJpg(resizedImage, quality: 85);
+  return File.fromRawPath(resizedImageBytes);
+}
+
 Future<String> base64CompressImage(File file) async {
   try {
     //1. Decode the image.

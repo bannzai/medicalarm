@@ -8,6 +8,7 @@ import 'package:medicalarm/components/alert/image_picker.dart';
 import 'package:medicalarm/components/error/error_alert.dart';
 import 'package:medicalarm/components/loading/loading.dart';
 import 'package:medicalarm/provider/app_user.dart';
+import 'package:medicalarm/utils/image/image.dart';
 import 'package:medicalarm/utils/storage/firebase_cloud_storage.dart';
 
 class MedicineMemoRow extends StatelessWidget {
@@ -68,7 +69,8 @@ class ImagePickerButton extends HookConsumerWidget {
             final XFile? photo = await showImagePickerDialog(context);
 
             if (photo != null) {
-              final url = await uploadImage(medicinesRef(userID: userID), File(photo.path));
+              final compressedFile = await compressToJPEGImage(File(photo.path));
+              final url = await uploadImage(medicinesRef(userID: userID), compressedFile);
               memoImageURL.value = url;
             }
           } catch (e) {
