@@ -34,7 +34,12 @@ class AuthResolver extends HookConsumerWidget {
                 builder: (context, user) => builder(context, user),
               );
             } else {
-              return builder(context, user);
+              return ProviderScope(
+                overrides: [
+                  appUserIDProvider.overrideWithValue(user.uid),
+                ],
+                child: builder(context, user),
+              );
             }
           },
           error: (e, st) => RetryPage(exception: e),
