@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:medicalarm/entity/medicine.dart';
 import 'package:medicalarm/features/medicine_form/components/additional_info/dose_receiver.dart';
-import 'package:medicalarm/features/medicine_form/components/additional_info/memo.dart';
 import 'package:medicalarm/features/medicine_form/components/additional_info/stock.dart';
 import 'package:medicalarm/features/medicine_form/components/additional_info/unit.dart';
 import 'package:medicalarm/features/medicine_form/components/section_layout.dart';
@@ -28,9 +27,12 @@ class MedicineAdditionalInfoSection extends StatelessWidget {
       icon: Icons.info,
       text: 'その他',
       children: [
-        MedicineMemoRow(memo: memo, memoImageURL: memoImageURL),
+        // MedicineMemoRow(memo: memo, memoImageURL: memoImageURL),
+        const SizedBox(height: 12),
         MedicineDoseReceiverTile(doseReceiver: doseReceiver),
+        const SizedBox(height: 12),
         MedicineUnitTextField(unit: unit),
+        const SizedBox(height: 12),
         MedicineStockTile(unit: unit.value, stock: stock),
       ],
     );

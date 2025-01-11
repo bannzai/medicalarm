@@ -6,13 +6,17 @@ class MedicineUnitTextField extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return TextFormField(
-      initialValue: unit.value,
-      onChanged: (value) {
-        unit.value = value;
-      },
-      decoration: const InputDecoration(
-        hintText: '単位',
+    return Padding(
+      padding: const EdgeInsets.symmetric(horizontal: 12.0),
+      child: TextFormField(
+        initialValue: unit.value,
+        onChanged: (value) {
+          unit.value = value;
+        },
+        decoration: const InputDecoration(
+          hintText: '錠,ml,gなど',
+          labelText: '単位',
+        ),
       ),
     );
   }
