@@ -8,6 +8,8 @@ import 'package:medicalarm/features/medicine_form/components/medication_frequenc
 import 'package:medicalarm/features/medicine_form/components/name_text_field.dart';
 import 'package:medicalarm/features/medicine_form/components/notification_setting/section.dart';
 import 'package:medicalarm/features/medicine_form/components/schedule/section.dart';
+import 'package:medicalarm/provider/medicine.dart';
+import 'package:medicalarm/style/button.dart';
 import 'package:medicalarm/theme/form.dart';
 
 class MedicineFormPage extends HookConsumerWidget {
@@ -31,6 +33,9 @@ class MedicineFormPage extends HookConsumerWidget {
     final isFollowupEnabled = useState(medicine?.notificationSetting.isFollowupEnabled ?? true);
     final useCriticalAlert = useState(medicine?.notificationSetting.useCriticalAlert ?? false);
 
+    final medicineAdd = ref.watch(medicineAddProvider);
+    final medicineUpdate = ref.watch(medicineUpdateProvider);
+
     return DraggableScrollableSheet(
         initialChildSize: 0.8,
         maxChildSize: 0.8,
@@ -41,38 +46,90 @@ class MedicineFormPage extends HookConsumerWidget {
                 title: Text('Medicine Form', style: TextStyle(color: primaryColor)),
               ),
               body: SafeArea(
-                child: SingleChildScrollView(
-                  child: Column(
-                    children: [
-                      Padding(
-                        padding: const EdgeInsets.symmetric(vertical: 16.0),
-                        child: Column(
-                          children: [
-                            MedicineFormNameTextField(name: name),
-                            const SizedBox(height: 6),
-                            MedicationFrequencyTile(frequency: frequency),
+                child: Stack(
+                  children: [
+                    SingleChildScrollView(
+                      child: Column(
+                        children: [
+                          Padding(
+                            padding: const EdgeInsets.symmetric(vertical: 16.0),
+                            child: Column(
+                              children: [
+                                MedicineFormNameTextField(name: name),
+                                const SizedBox(height: 6),
+                                MedicationFrequencyTile(frequency: frequency),
+                              ],
+                            ),
+                          ),
+                          const Divider(color: Colors.black, height: 1),
+                          MedicineScheduleSection(schedules: schedules),
+                          const Divider(color: Colors.black, height: 1),
+                          if (schedules.value.isNotEmpty) ...[
+                            MedicineNotificationSettingSection(
+                              isReminderEnabled: isReminderEnabled,
+                              isFollowupEnabled: isFollowupEnabled,
+                              useCriticalAlert: useCriticalAlert,
+                            ),
                           ],
+                          MedicineAdditionalInfoSection(
+                            memo: memo,
+                            memoImageURL: memoImageURL,
+                            doseReceiver: doseReceiver,
+                            unit: unit,
+                            stock: stock,
+                          ),
+                        ],
+                      ),
+                    ),
+                    Align(
+                      alignment: Alignment.bottomCenter,
+                      child: Padding(
+                        padding: const EdgeInsets.symmetric(horizontal: 12.0),
+                        child: ElevatedButton(
+                          style: elevatedButtonStyle,
+                          onPressed: () {
+                            final medicine = this.medicine;
+                            if (medicine == null) {
+                              medicineAdd(
+                                name: name.value,
+                                frequency: frequency.value,
+                                schedules: schedules.value,
+                                memo: memo.value,
+                                memoImageURL: memoImageURL.value,
+                                doseReceiver: doseReceiver.value,
+                                unit: unit.value,
+                                stock: stock.value,
+                                notificationSetting: MedicineNotificationSetting(
+                                  isReminderEnabled: isReminderEnabled.value,
+                                  isFollowupEnabled: isFollowupEnabled.value,
+                                  useCriticalAlert: useCriticalAlert.value,
+                                ),
+                              );
+                            } else {
+                              medicineUpdate(
+                                medicineID: medicine.id,
+                                medicine: medicine,
+                                name: name.value,
+                                frequency: frequency.value,
+                                schedules: schedules.value,
+                                memo: memo.value,
+                                memoImageURL: memoImageURL.value,
+                                doseReceiver: doseReceiver.value,
+                                unit: unit.value,
+                                stock: stock.value,
+                                notificationSetting: MedicineNotificationSetting(
+                                  isReminderEnabled: isReminderEnabled.value,
+                                  isFollowupEnabled: isFollowupEnabled.value,
+                                  useCriticalAlert: useCriticalAlert.value,
+                                ),
+                              );
+                            }
+                          },
+                          child: const Text('保存'),
                         ),
                       ),
-                      const Divider(color: Colors.black, height: 1),
-                      MedicineScheduleSection(schedules: schedules),
-                      const Divider(color: Colors.black, height: 1),
-                      if (schedules.value.isNotEmpty) ...[
-                        MedicineNotificationSettingSection(
-                          isReminderEnabled: isReminderEnabled,
-                          isFollowupEnabled: isFollowupEnabled,
-                          useCriticalAlert: useCriticalAlert,
-                        ),
-                      ],
-                      MedicineAdditionalInfoSection(
-                        memo: memo,
-                        memoImageURL: memoImageURL,
-                        doseReceiver: doseReceiver,
-                        unit: unit,
-                        stock: stock,
-                      ),
-                    ],
-                  ),
+                    ),
+                  ],
                 ),
               ),
             ),

@@ -57,6 +57,10 @@ class ImagePickerButton extends HookConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final isLoading = useState(false);
     final userID = ref.watch(appUserIDProvider);
+    final memoImageURL = useState(this.memoImageURL.value);
+    memoImageURL.addListener(() {
+      this.memoImageURL.value = memoImageURL.value;
+    });
 
     return Loading(
       isLoading: isLoading.value,
@@ -69,7 +73,7 @@ class ImagePickerButton extends HookConsumerWidget {
             final XFile? photo = await showImagePickerDialog(context);
 
             if (photo != null) {
-              final compressedFile = await compressToJPEGImage(File(photo.path));
+              final compressedFile = await convertToJPEGImage(File(photo.path));
               final url = await uploadImage(medicinesRef(userID: userID), compressedFile);
               memoImageURL.value = url;
             }
