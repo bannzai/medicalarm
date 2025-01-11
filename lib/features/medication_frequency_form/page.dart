@@ -51,6 +51,7 @@ class MedicationFrequencyFormPage extends HookConsumerWidget {
                               const Divider(color: Colors.black, height: 1),
                               ListTile(
                                 title: const Text('X日ごと'),
+                                subtitle: const Text('例) 2日ごと、3日ごと'),
                                 trailing: frequency.value is EveryXDaysMedicationFrequency ? const Icon(Icons.check) : null,
                                 onTap: () {
                                   frequency.value = const MedicationFrequency.everyXDays(interval: 1);
@@ -59,6 +60,7 @@ class MedicationFrequencyFormPage extends HookConsumerWidget {
                               const Divider(color: Colors.black, height: 1),
                               ListTile(
                                 title: const Text('特定の曜日'),
+                                subtitle: const Text('例) 月曜日のみ, 水曜日と金曜日'),
                                 trailing: frequency.value is SpecificWeekdaysMedicationFrequency ? const Icon(Icons.check) : null,
                                 onTap: () {
                                   frequency.value = const MedicationFrequency.specificWeekdays(weekdays: Weekday.values);
@@ -67,6 +69,7 @@ class MedicationFrequencyFormPage extends HookConsumerWidget {
                               const Divider(color: Colors.black, height: 1),
                               ListTile(
                                 title: const Text('周期'),
+                                subtitle: const Text('例) 21日服用/7日休薬'),
                                 trailing: frequency.value is CycleMedicationFrequency ? const Icon(Icons.check) : null,
                                 onTap: () {
                                   frequency.value = const MedicationFrequency.cycle(consecutiveDays: 21, restDays: 7);
