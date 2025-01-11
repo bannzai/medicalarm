@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:medicalarm/entity/medicine.dart';
 
-class MedicineNotificationSettingAddButton extends StatelessWidget {
-  const MedicineNotificationSettingAddButton({
+class MedicineNotificationSettingDeleteButton extends StatelessWidget {
+  const MedicineNotificationSettingDeleteButton({
     super.key,
     required this.notificationSettings,
     required this.notificationSetting,
