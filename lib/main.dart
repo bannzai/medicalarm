@@ -53,6 +53,7 @@ class App extends StatelessWidget {
           focusedBorder: const OutlineInputBorder(
             borderSide: BorderSide(color: AppColors.primary),
           ),
+          contentPadding: const EdgeInsets.symmetric(horizontal: 12.0, vertical: 16.0),
         ),
         appBarTheme: const AppBarTheme(
           elevation: 1,

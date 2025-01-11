@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:medicalarm/features/medicine_form/page.dart';
+import 'package:medicalarm/features/resolver/app_resolvers.dart';
 import 'package:medicalarm/style/button.dart';
 
 class MedicalAddButton extends HookConsumerWidget {
@@ -16,7 +17,11 @@ class MedicalAddButton extends HookConsumerWidget {
             context: context,
             isScrollControlled: true,
             backgroundColor: Colors.transparent,
-            builder: (context) => const MedicineFormPage(medicine: null),
+            builder: (context) => AppResolvers(
+              builder: (context, user) {
+                return const MedicineFormPage(medicine: null);
+              },
+            ),
           );
         },
         icon: const Icon(Icons.add),

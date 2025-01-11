@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:medicalarm/components/container/flat_tile.dart';
 import 'package:medicalarm/entity/medicine.dart';
 import 'package:medicalarm/features/dose_receiver_form/page.dart';
+import 'package:medicalarm/features/resolver/app_resolvers.dart';
 
 class MedicineDoseReceiverTile extends StatelessWidget {
   final ValueNotifier<MedicineDoseReceiver?> doseReceiver;
@@ -24,8 +25,12 @@ class MedicineDoseReceiverTile extends StatelessWidget {
             Navigator.push(
               context,
               MaterialPageRoute(
-                builder: (context) => DoseReceiverFormPage(
-                  doseReceiver: doseReceiver,
+                builder: (context) => AppResolvers(
+                  builder: (context, user) {
+                    return DoseReceiverFormPage(
+                      doseReceiver: doseReceiver,
+                    );
+                  },
                 ),
               ),
             );
