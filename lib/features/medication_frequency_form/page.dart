@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:medicalarm/components/picker/number.dart';
-import 'package:medicalarm/components/picker/weekday.dart';
+import 'package:medicalarm/features/medication_frequency_form/components/weekday_picker.dart';
 import 'package:medicalarm/entity/medication_frequency.dart';
 import 'package:medicalarm/features/medication_frequency_form/components/section_layout.dart';
 import 'package:medicalarm/style/button.dart';
@@ -18,6 +18,7 @@ class MedicationFrequencyFormPage extends HookConsumerWidget {
     final frequency = useState(this.frequency.value);
     final frequencyValue = frequency.value;
     final weekdays = useState<List<Weekday>>(frequencyValue is SpecificWeekdaysMedicationFrequency ? frequencyValue.weekdays : Weekday.values);
+    final primaryColor = Theme.of(context).colorScheme.primary;
 
     return DraggableScrollableSheet(
       initialChildSize: 0.6,
@@ -32,9 +33,10 @@ class MedicationFrequencyFormPage extends HookConsumerWidget {
                   children: [
                     SingleChildScrollView(
                       controller: scrollController,
-                      padding: const EdgeInsets.symmetric(vertical: 60.0),
+                      padding: const EdgeInsets.only(top: 20.0, bottom: 60.0),
                       child: Column(
                         children: [
+                          Text('頻度', style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold, color: primaryColor)),
                           MedicationFrequencyFormSectionLayout(
                             icon: Icons.schedule,
                             text: '服用頻度',

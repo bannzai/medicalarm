@@ -9,7 +9,7 @@ class WeekdayPicker extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        for (final weekday in Weekday.values) ...[
+        for (final (index, weekday) in Weekday.values.indexed) ...[
           ListTile(
             title: Text(
               weekday.weekdayString(),
@@ -23,7 +23,7 @@ class WeekdayPicker extends StatelessWidget {
               }
             },
           ),
-          const Divider(color: Colors.black, height: 1),
+          if (index != Weekday.values.length - 1) const Divider(color: Colors.black, height: 1),
         ],
       ],
     );
