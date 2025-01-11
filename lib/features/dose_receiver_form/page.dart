@@ -9,7 +9,7 @@ import 'package:medicalarm/style/button.dart';
 import 'package:medicalarm/theme/form.dart';
 
 class DoseReceiverFormPage extends HookConsumerWidget {
-  final ValueNotifier<MedicineDoseReceiver> doseReceiver;
+  final ValueNotifier<MedicineDoseReceiver?> doseReceiver;
 
   const DoseReceiverFormPage({
     super.key,
@@ -19,6 +19,7 @@ class DoseReceiverFormPage extends HookConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final doseReceivers = ref.watch(doseReceiversProvider);
+    final selectedDoseReceiver = doseReceiver;
 
     return Retry(
       retry: () => ref.invalidate(doseReceiversProvider),
@@ -35,7 +36,7 @@ class DoseReceiverFormPage extends HookConsumerWidget {
                       child: Column(
                         children: [
                           for (final doseReceiver in doseReceivers) ...[
-                            DoseReceiverTextField(doseReceiver: doseReceiver),
+                            DoseReceiverTextField(doseReceiver: doseReceiver, selectedDoseReceiver: selectedDoseReceiver),
                           ],
                           DoseReceiverAddButton(doseReceivers: doseReceivers),
                         ],
@@ -60,20 +61,37 @@ class DoseReceiverFormPage extends HookConsumerWidget {
 
 class DoseReceiverTextField extends HookConsumerWidget {
   final DoseReceiver doseReceiver;
-  const DoseReceiverTextField({super.key, required this.doseReceiver});
+  final ValueNotifier<MedicineDoseReceiver?> selectedDoseReceiver;
+  const DoseReceiverTextField({
+    super.key,
+    required this.doseReceiver,
+    required this.selectedDoseReceiver,
+  });
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final name = useState(doseReceiver.name);
     final doseReceiverUpdate = ref.watch(doseReceiverUpdateProvider);
-    return TextField(
-      controller: TextEditingController(text: name.value),
-      onChanged: (value) {
-        name.value = value;
-      },
-      onSubmitted: (value) {
-        doseReceiverUpdate.call(doseReceiver: doseReceiver, name: value);
-      },
+    return Row(
+      children: [
+        Checkbox(
+          value: selectedDoseReceiver.value?.id == doseReceiver.id,
+          onChanged: (value) {
+            if (value != null) {
+              selectedDoseReceiver.value = value ? MedicineDoseReceiver(id: doseReceiver.id, name: doseReceiver.name) : null;
+            }
+          },
+        ),
+        TextField(
+          controller: TextEditingController(text: name.value),
+          onChanged: (value) {
+            name.value = value;
+          },
+          onSubmitted: (value) {
+            doseReceiverUpdate.call(doseReceiver: doseReceiver, name: value);
+          },
+        ),
+      ],
     );
   }
 }

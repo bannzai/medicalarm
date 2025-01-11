@@ -3,6 +3,7 @@ import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:medicalarm/entity/medication_frequency.dart';
 import 'package:medicalarm/entity/medicine.dart';
+import 'package:medicalarm/features/medicine_form/components/additional_info/section.dart';
 import 'package:medicalarm/features/medicine_form/components/medication_frequency/tile.dart';
 import 'package:medicalarm/features/medicine_form/components/name_text_field.dart';
 import 'package:medicalarm/features/medicine_form/components/notification_setting/section.dart';
@@ -20,6 +21,11 @@ class MedicineFormPage extends HookConsumerWidget {
     final frequency = useState(medicine?.frequency ?? const MedicationFrequency.daily());
     final schedules = useState(medicine?.schedules ?? []);
     final primaryColor = Theme.of(context).colorScheme.primary;
+    final memo = useState(medicine?.memo ?? '');
+    final memoImageURL = useState(medicine?.memoImageURL ?? '');
+    final doseReceiver = useState(medicine?.doseReceiver);
+    final unit = useState(medicine?.unit ?? '');
+    final stock = useState(medicine?.stock ?? 0);
 
     final isReminderEnabled = useState(medicine?.notificationSetting.isReminderEnabled ?? true);
     final isFollowupEnabled = useState(medicine?.notificationSetting.isFollowupEnabled ?? true);
@@ -51,6 +57,13 @@ class MedicineFormPage extends HookConsumerWidget {
                           useCriticalAlert: useCriticalAlert,
                         ),
                       ],
+                      MedicineAdditionalInfoSection(
+                        memo: memo,
+                        memoImageURL: memoImageURL,
+                        doseReceiver: doseReceiver,
+                        unit: unit,
+                        stock: stock,
+                      ),
                     ],
                   ),
                 ),

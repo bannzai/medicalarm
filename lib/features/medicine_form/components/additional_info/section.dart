@@ -9,7 +9,7 @@ import 'package:medicalarm/features/medicine_form/components/section_layout.dart
 class MedicineAdditionalInfoSection extends StatelessWidget {
   final ValueNotifier<String> memo;
   final ValueNotifier<String> memoImageURL;
-  final ValueNotifier<MedicineDoseReceiver> doseReceiver;
+  final ValueNotifier<MedicineDoseReceiver?> doseReceiver;
   final ValueNotifier<String> unit;
   final ValueNotifier<int> stock;
 

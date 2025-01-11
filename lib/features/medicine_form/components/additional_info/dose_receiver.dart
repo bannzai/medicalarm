@@ -3,7 +3,7 @@ import 'package:medicalarm/entity/medicine.dart';
 import 'package:medicalarm/features/dose_receiver_form/page.dart';
 
 class MedicineDoseReceiverTile extends StatelessWidget {
-  final ValueNotifier<MedicineDoseReceiver> doseReceiver;
+  final ValueNotifier<MedicineDoseReceiver?> doseReceiver;
   const MedicineDoseReceiverTile({super.key, required this.doseReceiver});
 
   @override
@@ -14,7 +14,7 @@ class MedicineDoseReceiverTile extends StatelessWidget {
         title: const Text('服用者'),
         trailing: Wrap(
           children: [
-            Text(doseReceiver.value.name),
+            Text(doseReceiver.value?.name ?? 'あなた'),
             const Icon(Icons.chevron_right),
           ],
         ),
