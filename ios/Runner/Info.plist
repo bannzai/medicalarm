@@ -227,6 +227,10 @@
 			<string>3qcr597p9d.skadnetwork</string>
 		</dict>
 	</array>
+	<key>NSCameraUsageDescription</key>
+	<string>薬の情報を記録しておくためにカメラへのアクセスを許可してください</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>薬の情報を記録しておくために写真へのアクセスを許可してください</string>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
 	<key>UILaunchStoryboardName</key>
