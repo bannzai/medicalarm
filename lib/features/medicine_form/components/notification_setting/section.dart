@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:medicalarm/entity/medicine.dart';
+import 'package:medicalarm/features/medicine_form/components/notification_setting/add_button.dart';
 import 'package:medicalarm/features/medicine_form/components/notification_setting/label.dart';
 import 'package:medicalarm/style/button.dart';
 
@@ -20,12 +21,7 @@ class MedicineNotificationSettingSection extends StatelessWidget {
                 index: index,
               ),
               IconButton(onPressed: () {}, icon: const Icon(Icons.settings)),
-              IconButton(
-                onPressed: () {
-                  notificationSettings.value = notificationSettings.value.where((element) => element != notificationSetting).toList();
-                },
-                icon: const Icon(Icons.delete),
-              ),
+              MedicineNotificationSettingAddButton(notificationSettings: notificationSettings, notificationSetting: notificationSetting),
             ],
           ),
           const SizedBox(height: 6),
