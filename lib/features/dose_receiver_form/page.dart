@@ -136,11 +136,9 @@ class DoseReceiverAddButton extends HookConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final doseReceiverAdd = ref.watch(doseReceiverAddProvider);
     return TextButton.icon(
-      onPressed: doseReceivers.any((e) => e.name.isEmpty)
-          ? null
-          : () {
-              doseReceiverAdd.call(name: '');
-            },
+      onPressed: () {
+        doseReceiverAdd.call(name: '新しい服用者');
+      },
       icon: const Icon(Icons.add),
       label: const Text('服用者を追加', style: TextStyle(fontWeight: FontWeight.bold)),
       style: secondaryButtonStyle.merge(capsuleButtonStyle),
