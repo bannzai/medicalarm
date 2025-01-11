@@ -1,15 +1,14 @@
+import 'package:flutter/material.dart';
 import 'package:medicalarm/components/picker/toolbar.dart';
 import 'package:medicalarm/utils/config/environment.dart';
 import 'package:flutter/cupertino.dart';
 
-class TimePicker extends StatelessWidget {
+class AppTimePicker extends StatelessWidget {
   final DateTime initialDateTime;
-  final void Function(DateTime datetime) done;
 
-  const TimePicker({
+  const AppTimePicker({
     super.key,
     required this.initialDateTime,
-    required this.done,
   });
 
   @override
@@ -25,9 +24,9 @@ class TimePicker extends StatelessWidget {
       children: <Widget>[
         PickerToolbar(
           done: (() {
-            done(selectedDateTime);
+            Navigator.pop(context, selectedDateTime);
           }),
-          cancel: (() => Navigator.pop(context)),
+          cancel: (() => Navigator.pop(context, null)),
         ),
         SizedBox(
           height: MediaQuery.of(context).size.height / 3,
@@ -48,4 +47,15 @@ class TimePicker extends StatelessWidget {
       ],
     );
   }
+}
+
+Future<TimeOfDay?> showAppTimePicker(BuildContext context, {required DateTime initialDateTime}) {
+  return showModalBottomSheet(
+    context: context,
+    builder: (BuildContext context) {
+      return AppTimePicker(
+        initialDateTime: initialDateTime,
+      );
+    },
+  );
 }

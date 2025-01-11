@@ -1,14 +1,13 @@
+import 'package:flutter/material.dart';
 import 'package:medicalarm/components/picker/toolbar.dart';
 import 'package:flutter/cupertino.dart';
 
-class NumberPicker extends StatelessWidget {
+class AppNumberPicker extends StatelessWidget {
   final int initialNumber;
-  final void Function(int number) done;
 
-  const NumberPicker({
+  const AppNumberPicker({
     super.key,
     required this.initialNumber,
-    required this.done,
   });
 
   @override
@@ -20,9 +19,9 @@ class NumberPicker extends StatelessWidget {
       children: <Widget>[
         PickerToolbar(
           done: (() {
-            done(selectedNumber);
+            Navigator.pop(context, selectedNumber);
           }),
-          cancel: (() => Navigator.pop(context)),
+          cancel: (() => Navigator.pop(context, null)),
         ),
         SizedBox(
           height: MediaQuery.of(context).size.height / 3,
@@ -44,4 +43,13 @@ class NumberPicker extends StatelessWidget {
       ],
     );
   }
+}
+
+Future<int?> showAppNumberPicker(BuildContext context, {required int initialNumber}) {
+  return showModalBottomSheet(
+    context: context,
+    builder: (BuildContext context) {
+      return AppNumberPicker(initialNumber: initialNumber);
+    },
+  );
 }
