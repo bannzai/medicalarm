@@ -26,6 +26,7 @@ mixin _$Medicine {
   String get memoImageURL => throw _privateConstructorUsedError;
   List<MedicineNotificationSetting> get notificationSettings => throw _privateConstructorUsedError;
   int? get stock => throw _privateConstructorUsedError;
+  String get unit => throw _privateConstructorUsedError;
   @ClientCreatedTimestamp()
   DateTime? get createdDateTime => throw _privateConstructorUsedError;
   @ClientUpdatedTimestamp()
@@ -55,6 +56,7 @@ abstract class $MedicineCopyWith<$Res> {
       String memoImageURL,
       List<MedicineNotificationSetting> notificationSettings,
       int? stock,
+      String unit,
       @ClientCreatedTimestamp() DateTime? createdDateTime,
       @ClientUpdatedTimestamp() DateTime? updatedDateTime,
       @ServerCreatedTimestamp() DateTime? serverCreatedDateTime,
@@ -81,6 +83,7 @@ class _$MedicineCopyWithImpl<$Res, $Val extends Medicine> implements $MedicineCo
     Object? memoImageURL = null,
     Object? notificationSettings = null,
     Object? stock = freezed,
+    Object? unit = null,
     Object? createdDateTime = freezed,
     Object? updatedDateTime = freezed,
     Object? serverCreatedDateTime = freezed,
@@ -111,6 +114,10 @@ class _$MedicineCopyWithImpl<$Res, $Val extends Medicine> implements $MedicineCo
           ? _value.stock
           : stock // ignore: cast_nullable_to_non_nullable
               as int?,
+      unit: null == unit
+          ? _value.unit
+          : unit // ignore: cast_nullable_to_non_nullable
+              as String,
       createdDateTime: freezed == createdDateTime
           ? _value.createdDateTime
           : createdDateTime // ignore: cast_nullable_to_non_nullable
@@ -143,6 +150,7 @@ abstract class _$$MedicineImplCopyWith<$Res> implements $MedicineCopyWith<$Res> 
       String memoImageURL,
       List<MedicineNotificationSetting> notificationSettings,
       int? stock,
+      String unit,
       @ClientCreatedTimestamp() DateTime? createdDateTime,
       @ClientUpdatedTimestamp() DateTime? updatedDateTime,
       @ServerCreatedTimestamp() DateTime? serverCreatedDateTime,
@@ -164,6 +172,7 @@ class __$$MedicineImplCopyWithImpl<$Res> extends _$MedicineCopyWithImpl<$Res, _$
     Object? memoImageURL = null,
     Object? notificationSettings = null,
     Object? stock = freezed,
+    Object? unit = null,
     Object? createdDateTime = freezed,
     Object? updatedDateTime = freezed,
     Object? serverCreatedDateTime = freezed,
@@ -194,6 +203,10 @@ class __$$MedicineImplCopyWithImpl<$Res> extends _$MedicineCopyWithImpl<$Res, _$
           ? _value.stock
           : stock // ignore: cast_nullable_to_non_nullable
               as int?,
+      unit: null == unit
+          ? _value.unit
+          : unit // ignore: cast_nullable_to_non_nullable
+              as String,
       createdDateTime: freezed == createdDateTime
           ? _value.createdDateTime
           : createdDateTime // ignore: cast_nullable_to_non_nullable
@@ -225,6 +238,7 @@ class _$MedicineImpl extends _Medicine {
       required this.memoImageURL,
       required final List<MedicineNotificationSetting> notificationSettings,
       required this.stock,
+      required this.unit,
       @ClientCreatedTimestamp() this.createdDateTime,
       @ClientUpdatedTimestamp() this.updatedDateTime,
       @ServerCreatedTimestamp() this.serverCreatedDateTime,
@@ -253,6 +267,8 @@ class _$MedicineImpl extends _Medicine {
   @override
   final int? stock;
   @override
+  final String unit;
+  @override
   @ClientCreatedTimestamp()
   final DateTime? createdDateTime;
   @override
@@ -267,7 +283,7 @@ class _$MedicineImpl extends _Medicine {
 
   @override
   String toString() {
-    return 'Medicine(id: $id, name: $name, memo: $memo, memoImageURL: $memoImageURL, notificationSettings: $notificationSettings, stock: $stock, createdDateTime: $createdDateTime, updatedDateTime: $updatedDateTime, serverCreatedDateTime: $serverCreatedDateTime, serverUpdatedDateTime: $serverUpdatedDateTime)';
+    return 'Medicine(id: $id, name: $name, memo: $memo, memoImageURL: $memoImageURL, notificationSettings: $notificationSettings, stock: $stock, unit: $unit, createdDateTime: $createdDateTime, updatedDateTime: $updatedDateTime, serverCreatedDateTime: $serverCreatedDateTime, serverUpdatedDateTime: $serverUpdatedDateTime)';
   }
 
   @override
@@ -281,6 +297,7 @@ class _$MedicineImpl extends _Medicine {
             (identical(other.memoImageURL, memoImageURL) || other.memoImageURL == memoImageURL) &&
             const DeepCollectionEquality().equals(other._notificationSettings, _notificationSettings) &&
             (identical(other.stock, stock) || other.stock == stock) &&
+            (identical(other.unit, unit) || other.unit == unit) &&
             (identical(other.createdDateTime, createdDateTime) || other.createdDateTime == createdDateTime) &&
             (identical(other.updatedDateTime, updatedDateTime) || other.updatedDateTime == updatedDateTime) &&
             (identical(other.serverCreatedDateTime, serverCreatedDateTime) || other.serverCreatedDateTime == serverCreatedDateTime) &&
@@ -289,7 +306,7 @@ class _$MedicineImpl extends _Medicine {
 
   @JsonKey(includeFromJson: false, includeToJson: false)
   @override
-  int get hashCode => Object.hash(runtimeType, id, name, memo, memoImageURL, const DeepCollectionEquality().hash(_notificationSettings), stock,
+  int get hashCode => Object.hash(runtimeType, id, name, memo, memoImageURL, const DeepCollectionEquality().hash(_notificationSettings), stock, unit,
       createdDateTime, updatedDateTime, serverCreatedDateTime, serverUpdatedDateTime);
 
   /// Create a copy of Medicine
@@ -315,6 +332,7 @@ abstract class _Medicine extends Medicine {
       required final String memoImageURL,
       required final List<MedicineNotificationSetting> notificationSettings,
       required final int? stock,
+      required final String unit,
       @ClientCreatedTimestamp() final DateTime? createdDateTime,
       @ClientUpdatedTimestamp() final DateTime? updatedDateTime,
       @ServerCreatedTimestamp() final DateTime? serverCreatedDateTime,
@@ -335,6 +353,8 @@ abstract class _Medicine extends Medicine {
   List<MedicineNotificationSetting> get notificationSettings;
   @override
   int? get stock;
+  @override
+  String get unit;
   @override
   @ClientCreatedTimestamp()
   DateTime? get createdDateTime;

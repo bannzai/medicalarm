@@ -16,6 +16,7 @@ class Medicine with _$Medicine {
     required String memoImageURL,
     required List<MedicineNotificationSetting> notificationSettings,
     required int? stock,
+    required String unit,
     @ClientCreatedTimestamp() DateTime? createdDateTime,
     @ClientUpdatedTimestamp() DateTime? updatedDateTime,
     @ServerCreatedTimestamp() DateTime? serverCreatedDateTime,

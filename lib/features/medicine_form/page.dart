@@ -4,8 +4,6 @@ import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:medicalarm/entity/medicine.dart';
 import 'package:medicalarm/features/medicine_form/components/notification_setting/section.dart';
 import 'package:medicalarm/features/medicine_form/components/section.dart';
-import 'package:medicalarm/style/button.dart';
-import 'package:medicalarm/style/color.dart';
 import 'package:medicalarm/theme/form.dart';
 
 class MedicineFormPage extends HookConsumerWidget {
