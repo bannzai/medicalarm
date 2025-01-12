@@ -3,6 +3,7 @@ import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:medicalarm/entity/medicine.dart';
 import 'package:medicalarm/features/medicine_form/components/schedule/notification_setting/section.dart';
+import 'package:medicalarm/style/color.dart';
 import 'package:medicalarm/theme/form.dart';
 
 class MedicineScheduleFormPage extends HookConsumerWidget {
@@ -47,15 +48,27 @@ class MedicineScheduleQuantityMemoTextField extends HookConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    return TextField(
-      controller: TextEditingController(text: quantityMemo.value),
-      onChanged: (value) {
-        quantityMemo.value = value;
-      },
-      decoration: const InputDecoration(
-        labelText: '容量',
-        hintText: '通知と一緒に表示されます。服用量を入力してください。(例: 1錠、100mg)',
-      ),
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        TextField(
+          controller: TextEditingController(text: quantityMemo.value),
+          onChanged: (value) {
+            quantityMemo.value = value;
+          },
+          decoration: const InputDecoration(
+            labelText: '容量',
+          ),
+        ),
+        const SizedBox(height: 4),
+        const Padding(
+          padding: EdgeInsets.symmetric(horizontal: 16.0),
+          child: Text(
+            '容量を入力してください。(例: 1錠、100mg)。 容量は通知に表示されます。',
+            style: TextStyle(color: TextColor.gray, fontSize: 10.0),
+          ),
+        ),
+      ],
     );
   }
 }

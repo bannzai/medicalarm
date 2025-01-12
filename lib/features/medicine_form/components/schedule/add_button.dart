@@ -19,7 +19,12 @@ class MedicineScheduleAddButton extends StatelessWidget {
           const MedicationSchedule(
             hour: 10,
             minute: 00,
-            memo: '',
+            quantityMemo: '',
+            notificationSetting: MedicineScheduleNotificationSetting(
+              isReminderEnabled: true,
+              isFollowupEnabled: true,
+              useCriticalAlert: false,
+            ),
           ),
         ];
       },
