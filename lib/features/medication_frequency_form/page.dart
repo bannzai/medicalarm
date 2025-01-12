@@ -24,150 +24,155 @@ class MedicationFrequencyFormPage extends HookConsumerWidget {
       initialChildSize: 0.6,
       maxChildSize: 0.8,
       builder: (context, scrollController) {
-        return FormTheme(
-          child: Scaffold(
-            body: SafeArea(
-              child: Padding(
-                padding: const EdgeInsets.symmetric(vertical: 16.0),
-                child: Stack(
-                  children: [
-                    SingleChildScrollView(
-                      controller: scrollController,
-                      padding: const EdgeInsets.only(top: 20.0, bottom: 60.0),
-                      child: Column(
-                        children: [
-                          Text('服用頻度', style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold, color: primaryColor)),
-                          MedicationFrequencyFormSectionLayout(
-                            icon: Icons.schedule,
-                            text: '服用頻度',
-                            children: [
-                              ListTile(
-                                title: const Text('毎日'),
-                                trailing: frequency.value is DailyMedicationFrequency ? const Icon(Icons.check) : null,
-                                onTap: () {
-                                  frequency.value = const MedicationFrequency.daily();
-                                },
-                              ),
-                              const Divider(color: Colors.black, height: 1),
-                              ListTile(
-                                title: const Text('X日ごと'),
-                                subtitle: const Text('例) 2日ごと、3日ごと'),
-                                trailing: frequency.value is EveryXDaysMedicationFrequency ? const Icon(Icons.check) : null,
-                                onTap: () {
-                                  frequency.value = const MedicationFrequency.everyXDays(interval: 1);
-                                },
-                              ),
-                              const Divider(color: Colors.black, height: 1),
-                              ListTile(
-                                title: const Text('特定の曜日'),
-                                subtitle: const Text('例) 月曜日のみ, 水曜日と金曜日'),
-                                trailing: frequency.value is SpecificWeekdaysMedicationFrequency ? const Icon(Icons.check) : null,
-                                onTap: () {
-                                  frequency.value = const MedicationFrequency.specificWeekdays(weekdays: Weekday.values);
-                                },
-                              ),
-                              const Divider(color: Colors.black, height: 1),
-                              ListTile(
-                                title: const Text('周期'),
-                                subtitle: const Text('例) 21日服用/7日休薬'),
-                                trailing: frequency.value is CycleMedicationFrequency ? const Icon(Icons.check) : null,
-                                onTap: () {
-                                  frequency.value = const MedicationFrequency.cycle(consecutiveDays: 21, restDays: 7);
-                                },
-                              ),
-                            ],
-                          ),
-                          const SizedBox(height: 16.0),
-                          switch (frequencyValue) {
-                            DailyMedicationFrequency() => const SizedBox.shrink(),
-                            EveryXDaysMedicationFrequency() => MedicationFrequencyFormSectionLayout(
-                                icon: Icons.schedule,
-                                text: 'X日ごと',
-                                children: [
-                                  ListTile(
-                                    title: Text('${frequencyValue.interval}日ごと'),
-                                    trailing: const Icon(Icons.chevron_right),
-                                    onTap: () async {
-                                      final interval = await showModalBottomSheet<int>(
-                                        context: context,
-                                        useSafeArea: true,
-                                        barrierColor: Colors.transparent,
-                                        builder: (context) => AppNumberPicker(initialNumber: frequencyValue.interval),
-                                      );
-                                      if (interval != null) {
-                                        frequency.value = MedicationFrequency.everyXDays(interval: interval);
-                                      }
-                                    },
-                                  ),
-                                ],
-                              ),
-                            SpecificWeekdaysMedicationFrequency() => MedicationFrequencyFormSectionLayout(
-                                icon: Icons.schedule,
-                                text: '特定の曜日',
-                                children: [
-                                  WeekdayPicker(weekdays: weekdays),
-                                ],
-                              ),
-                            CycleMedicationFrequency() => MedicationFrequencyFormSectionLayout(
-                                icon: Icons.schedule,
-                                text: '周期',
-                                children: [
-                                  ListTile(
-                                    title: Text('${frequencyValue.consecutiveDays}日服用'),
-                                    trailing: const Icon(Icons.chevron_right),
-                                    onTap: () async {
-                                      final consecutiveDays = await showModalBottomSheet<int>(
-                                        context: context,
-                                        useSafeArea: true,
-                                        builder: (context) => AppNumberPicker(initialNumber: frequencyValue.consecutiveDays),
-                                      );
-                                      if (consecutiveDays != null) {
-                                        frequency.value = MedicationFrequency.cycle(
-                                          consecutiveDays: consecutiveDays,
-                                          restDays: frequencyValue.restDays,
+        return GestureDetector(
+          onTap: () {
+            FocusScope.of(context).unfocus();
+          },
+          child: FormTheme(
+            child: Scaffold(
+              body: SafeArea(
+                child: Padding(
+                  padding: const EdgeInsets.symmetric(vertical: 16.0),
+                  child: Stack(
+                    children: [
+                      SingleChildScrollView(
+                        controller: scrollController,
+                        padding: const EdgeInsets.only(top: 20.0, bottom: 60.0),
+                        child: Column(
+                          children: [
+                            Text('服用頻度', style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold, color: primaryColor)),
+                            MedicationFrequencyFormSectionLayout(
+                              icon: Icons.schedule,
+                              text: '服用頻度',
+                              children: [
+                                ListTile(
+                                  title: const Text('毎日'),
+                                  trailing: frequency.value is DailyMedicationFrequency ? const Icon(Icons.check) : null,
+                                  onTap: () {
+                                    frequency.value = const MedicationFrequency.daily();
+                                  },
+                                ),
+                                const Divider(color: Colors.black, height: 1),
+                                ListTile(
+                                  title: const Text('X日ごと'),
+                                  subtitle: const Text('例) 2日ごと、3日ごと'),
+                                  trailing: frequency.value is EveryXDaysMedicationFrequency ? const Icon(Icons.check) : null,
+                                  onTap: () {
+                                    frequency.value = const MedicationFrequency.everyXDays(interval: 1);
+                                  },
+                                ),
+                                const Divider(color: Colors.black, height: 1),
+                                ListTile(
+                                  title: const Text('特定の曜日'),
+                                  subtitle: const Text('例) 月曜日のみ, 水曜日と金曜日'),
+                                  trailing: frequency.value is SpecificWeekdaysMedicationFrequency ? const Icon(Icons.check) : null,
+                                  onTap: () {
+                                    frequency.value = const MedicationFrequency.specificWeekdays(weekdays: Weekday.values);
+                                  },
+                                ),
+                                const Divider(color: Colors.black, height: 1),
+                                ListTile(
+                                  title: const Text('周期'),
+                                  subtitle: const Text('例) 21日服用/7日休薬'),
+                                  trailing: frequency.value is CycleMedicationFrequency ? const Icon(Icons.check) : null,
+                                  onTap: () {
+                                    frequency.value = const MedicationFrequency.cycle(consecutiveDays: 21, restDays: 7);
+                                  },
+                                ),
+                              ],
+                            ),
+                            const SizedBox(height: 16.0),
+                            switch (frequencyValue) {
+                              DailyMedicationFrequency() => const SizedBox.shrink(),
+                              EveryXDaysMedicationFrequency() => MedicationFrequencyFormSectionLayout(
+                                  icon: Icons.schedule,
+                                  text: 'X日ごと',
+                                  children: [
+                                    ListTile(
+                                      title: Text('${frequencyValue.interval}日ごと'),
+                                      trailing: const Icon(Icons.chevron_right),
+                                      onTap: () async {
+                                        final interval = await showModalBottomSheet<int>(
+                                          context: context,
+                                          useSafeArea: true,
+                                          barrierColor: Colors.transparent,
+                                          builder: (context) => AppNumberPicker(initialNumber: frequencyValue.interval),
                                         );
-                                      }
-                                    },
-                                  ),
-                                  const Divider(color: Colors.black, height: 1),
-                                  ListTile(
-                                    title: Text('${frequencyValue.restDays}日休薬'),
-                                    trailing: const Icon(Icons.chevron_right),
-                                    onTap: () async {
-                                      final restDays = await showModalBottomSheet<int>(
-                                        context: context,
-                                        useSafeArea: true,
-                                        builder: (context) => AppNumberPicker(initialNumber: frequencyValue.restDays),
-                                      );
-                                      if (restDays != null) {
-                                        frequency.value = MedicationFrequency.cycle(
-                                          consecutiveDays: frequencyValue.consecutiveDays,
-                                          restDays: restDays,
+                                        if (interval != null) {
+                                          frequency.value = MedicationFrequency.everyXDays(interval: interval);
+                                        }
+                                      },
+                                    ),
+                                  ],
+                                ),
+                              SpecificWeekdaysMedicationFrequency() => MedicationFrequencyFormSectionLayout(
+                                  icon: Icons.schedule,
+                                  text: '特定の曜日',
+                                  children: [
+                                    WeekdayPicker(weekdays: weekdays),
+                                  ],
+                                ),
+                              CycleMedicationFrequency() => MedicationFrequencyFormSectionLayout(
+                                  icon: Icons.schedule,
+                                  text: '周期',
+                                  children: [
+                                    ListTile(
+                                      title: Text('${frequencyValue.consecutiveDays}日服用'),
+                                      trailing: const Icon(Icons.chevron_right),
+                                      onTap: () async {
+                                        final consecutiveDays = await showModalBottomSheet<int>(
+                                          context: context,
+                                          useSafeArea: true,
+                                          builder: (context) => AppNumberPicker(initialNumber: frequencyValue.consecutiveDays),
                                         );
-                                      }
-                                    },
-                                  ),
-                                ],
-                              ),
-                          }
-                        ],
-                      ),
-                    ),
-                    Align(
-                      alignment: Alignment.bottomCenter,
-                      child: Padding(
-                        padding: const EdgeInsets.symmetric(horizontal: 12.0),
-                        child: ElevatedButton(
-                          style: elevatedButtonStyle,
-                          onPressed: () {
-                            this.frequency.value = frequency.value;
-                            Navigator.pop(context);
-                          },
-                          child: const Text('保存'),
+                                        if (consecutiveDays != null) {
+                                          frequency.value = MedicationFrequency.cycle(
+                                            consecutiveDays: consecutiveDays,
+                                            restDays: frequencyValue.restDays,
+                                          );
+                                        }
+                                      },
+                                    ),
+                                    const Divider(color: Colors.black, height: 1),
+                                    ListTile(
+                                      title: Text('${frequencyValue.restDays}日休薬'),
+                                      trailing: const Icon(Icons.chevron_right),
+                                      onTap: () async {
+                                        final restDays = await showModalBottomSheet<int>(
+                                          context: context,
+                                          useSafeArea: true,
+                                          builder: (context) => AppNumberPicker(initialNumber: frequencyValue.restDays),
+                                        );
+                                        if (restDays != null) {
+                                          frequency.value = MedicationFrequency.cycle(
+                                            consecutiveDays: frequencyValue.consecutiveDays,
+                                            restDays: restDays,
+                                          );
+                                        }
+                                      },
+                                    ),
+                                  ],
+                                ),
+                            }
+                          ],
                         ),
                       ),
-                    ),
-                  ],
+                      Align(
+                        alignment: Alignment.bottomCenter,
+                        child: Padding(
+                          padding: const EdgeInsets.symmetric(horizontal: 12.0),
+                          child: ElevatedButton(
+                            style: elevatedButtonStyle,
+                            onPressed: () {
+                              this.frequency.value = frequency.value;
+                              Navigator.pop(context);
+                            },
+                            child: const Text('保存'),
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
                 ),
               ),
             ),

@@ -33,28 +33,33 @@ class DoseReceiverFormPage extends HookConsumerWidget {
           retry: () => ref.invalidate(doseReceiversProvider),
           child: doseReceivers.when(
             data: (doseReceivers) {
-              return FormTheme(
-                child: Scaffold(
-                  appBar: AppBar(
-                    title: Text('服用者', style: TextStyle(color: primaryColor)),
-                  ),
-                  body: SafeArea(
-                    child: SingleChildScrollView(
-                      child: Padding(
-                        padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 16.0),
-                        child: Column(
-                          children: [
-                            for (final doseReceiver in doseReceivers) ...[
-                              DoseReceiverTextField(
-                                key: ValueKey(doseReceiver.id),
-                                doseReceiver: doseReceiver,
-                                selectedDoseReceiver: selectedDoseReceiver,
-                              ),
-                              const SizedBox(height: 6),
+              return GestureDetector(
+                onTap: () {
+                  FocusScope.of(context).unfocus();
+                },
+                child: FormTheme(
+                  child: Scaffold(
+                    appBar: AppBar(
+                      title: Text('服用者', style: TextStyle(color: primaryColor)),
+                    ),
+                    body: SafeArea(
+                      child: SingleChildScrollView(
+                        child: Padding(
+                          padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 16.0),
+                          child: Column(
+                            children: [
+                              for (final doseReceiver in doseReceivers) ...[
+                                DoseReceiverTextField(
+                                  key: ValueKey(doseReceiver.id),
+                                  doseReceiver: doseReceiver,
+                                  selectedDoseReceiver: selectedDoseReceiver,
+                                ),
+                                const SizedBox(height: 6),
+                              ],
+                              const SizedBox(height: 10),
+                              DoseReceiverAddButton(doseReceivers: doseReceivers),
                             ],
-                            const SizedBox(height: 10),
-                            DoseReceiverAddButton(doseReceivers: doseReceivers),
-                          ],
+                          ),
                         ),
                       ),
                     ),

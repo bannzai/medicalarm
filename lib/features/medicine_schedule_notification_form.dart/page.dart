@@ -19,28 +19,33 @@ class MedicineScheduleNotificationFormPage extends HookConsumerWidget {
     final quantityMemo = useState(schedule.quantityMemo);
     final primaryColor = Theme.of(context).colorScheme.primary;
 
-    return FormTheme(
-      child: Scaffold(
-        appBar: AppBar(
-          title: Text('服用スケジュール通知設定', style: TextStyle(color: primaryColor)),
-        ),
-        body: SafeArea(
-          child: SingleChildScrollView(
-            child: Column(
-              children: [
-                MedicineScheduleNotificationSettingSection(
-                  isReminderEnabled: isReminderEnabled,
-                  isFollowupEnabled: isFollowupEnabled,
-                  useCriticalAlert: useCriticalAlert,
-                ),
-                MedicineFormSectionLayout(
-                  icon: Icons.info,
-                  text: '情報',
-                  children: [
-                    MedicineScheduleQuantityMemoTextField(quantityMemo: quantityMemo),
-                  ],
-                ),
-              ],
+    return GestureDetector(
+      onTap: () {
+        FocusScope.of(context).unfocus();
+      },
+      child: FormTheme(
+        child: Scaffold(
+          appBar: AppBar(
+            title: Text('服用スケジュール通知設定', style: TextStyle(color: primaryColor)),
+          ),
+          body: SafeArea(
+            child: SingleChildScrollView(
+              child: Column(
+                children: [
+                  MedicineScheduleNotificationSettingSection(
+                    isReminderEnabled: isReminderEnabled,
+                    isFollowupEnabled: isFollowupEnabled,
+                    useCriticalAlert: useCriticalAlert,
+                  ),
+                  MedicineFormSectionLayout(
+                    icon: Icons.info,
+                    text: '情報',
+                    children: [
+                      MedicineScheduleQuantityMemoTextField(quantityMemo: quantityMemo),
+                    ],
+                  ),
+                ],
+              ),
             ),
           ),
         ),
