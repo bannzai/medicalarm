@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
+import 'package:medicalarm/features/medications/page.dart';
 import 'package:medicalarm/features/medicines/page.dart';
 import 'package:medicalarm/features/settings/page.dart';
 import 'package:medicalarm/style/color.dart';
