@@ -20,6 +20,7 @@ class Medicine with _$Medicine {
     required MedicineDoseReceiver? doseReceiver,
     required String memo,
     required String memoImageURL,
+    @NullableTimestampConverter() DateTime? archivedDateTime,
     @ClientCreatedTimestamp() DateTime? createdDateTime,
     @ClientUpdatedTimestamp() DateTime? updatedDateTime,
     @ServerCreatedTimestamp() DateTime? serverCreatedDateTime,
