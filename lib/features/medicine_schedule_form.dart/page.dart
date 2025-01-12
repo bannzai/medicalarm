@@ -22,7 +22,7 @@ class MedicineScheduleFormPage extends HookConsumerWidget {
     return FormTheme(
       child: Scaffold(
         appBar: AppBar(
-          title: Text('服用時刻設定', style: TextStyle(color: primaryColor)),
+          title: Text('服用スケジュール通知設定', style: TextStyle(color: primaryColor)),
         ),
         body: SafeArea(
           child: SingleChildScrollView(

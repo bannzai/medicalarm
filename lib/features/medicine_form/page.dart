@@ -105,7 +105,7 @@ class MedicineFormPage extends HookConsumerWidget {
                           children: [
                             const Spacer(),
                             if (!canSubmit) ...[
-                              const Text('名前と服用時刻を入力してください', style: TextStyle(color: TextColor.danger, fontSize: 10.0)),
+                              const Text('名前と服用スケジュールを入力してください', style: TextStyle(color: TextColor.danger, fontSize: 10.0)),
                             ],
                             Loading(
                               isLoading: isLoading.value,

@@ -14,7 +14,7 @@ class MedicineScheduleSection extends StatelessWidget {
   Widget build(BuildContext context) {
     return MedicineFormSectionLayout(
       icon: Icons.schedule,
-      text: '服用時刻',
+      text: '服用スケジュール',
       children: [
         const SizedBox(height: 10),
         for (final (index, schedule) in schedules.value.indexed) ...[
