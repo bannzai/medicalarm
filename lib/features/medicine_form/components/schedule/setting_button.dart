@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:medicalarm/entity/medicine.dart';
-import 'package:medicalarm/features/medicine_schedule_form.dart/page.dart';
+import 'package:medicalarm/features/medicine_schedule_notification_form.dart/page.dart';
 
 class MedicineScheduleSettingButton extends StatelessWidget {
   final MedicationSchedule schedule;
@@ -13,7 +13,7 @@ class MedicineScheduleSettingButton extends StatelessWidget {
         Navigator.push(
           context,
           MaterialPageRoute(
-            builder: (context) => MedicineScheduleFormPage(schedule: schedule),
+            builder: (context) => MedicineScheduleNotificationFormPage(schedule: schedule),
           ),
         );
       },

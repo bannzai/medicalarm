@@ -7,9 +7,9 @@ import 'package:medicalarm/features/medicine_form/components/section_layout.dart
 import 'package:medicalarm/style/color.dart';
 import 'package:medicalarm/theme/form.dart';
 
-class MedicineScheduleFormPage extends HookConsumerWidget {
+class MedicineScheduleNotificationFormPage extends HookConsumerWidget {
   final MedicationSchedule schedule;
-  const MedicineScheduleFormPage({super.key, required this.schedule});
+  const MedicineScheduleNotificationFormPage({super.key, required this.schedule});
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
