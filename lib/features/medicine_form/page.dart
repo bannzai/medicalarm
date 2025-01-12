@@ -50,7 +50,7 @@ class MedicineFormPage extends HookConsumerWidget {
           memo: memo.value,
           memoImageURL: memoImageURL.value,
           doseReceiver: doseReceiver.value,
-          notificationSetting: MedicineNotificationSetting(
+          notificationSetting: MedicineScheduleNotificationSetting(
             isReminderEnabled: isReminderEnabled.value,
             isFollowupEnabled: isFollowupEnabled.value,
             useCriticalAlert: useCriticalAlert.value,
@@ -66,7 +66,7 @@ class MedicineFormPage extends HookConsumerWidget {
           memo: memo.value,
           memoImageURL: memoImageURL.value,
           doseReceiver: doseReceiver.value,
-          notificationSetting: MedicineNotificationSetting(
+          notificationSetting: MedicineScheduleNotificationSetting(
             isReminderEnabled: isReminderEnabled.value,
             isFollowupEnabled: isFollowupEnabled.value,
             useCriticalAlert: useCriticalAlert.value,
