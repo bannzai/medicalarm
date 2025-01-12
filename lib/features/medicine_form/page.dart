@@ -64,82 +64,87 @@ class MedicineFormPage extends HookConsumerWidget {
         initialChildSize: 1.0,
         maxChildSize: 1.0,
         builder: (context, scrollController) {
-          return FormTheme(
-            child: Scaffold(
-              appBar: AppBar(
-                title: Text('Medicine Form', style: TextStyle(color: primaryColor)),
-              ),
-              body: SafeArea(
-                child: Stack(
-                  children: [
-                    SingleChildScrollView(
-                      padding: const EdgeInsets.only(bottom: 60.0),
-                      child: Column(
-                        children: [
-                          Padding(
-                            padding: const EdgeInsets.symmetric(vertical: 16.0),
-                            child: Column(
-                              children: [
-                                MedicineFormNameTextField(name: name),
-                                const SizedBox(height: 6),
-                                MedicationFrequencyTile(frequency: frequency),
-                              ],
-                            ),
-                          ),
-                          const Divider(color: Colors.black, height: 1),
-                          MedicineScheduleSection(schedules: schedules),
-                          const Divider(color: Colors.black, height: 1),
-                          MedicineAdditionalInfoSection(
-                            memo: memo,
-                            memoImageURL: memoImageURL,
-                            doseReceiver: doseReceiver,
-                          ),
-                        ],
-                      ),
-                    ),
-                    Align(
-                      alignment: Alignment.bottomCenter,
-                      child: Padding(
-                        padding: const EdgeInsets.symmetric(horizontal: 12.0),
+          return GestureDetector(
+            onTap: () {
+              FocusScope.of(context).unfocus();
+            },
+            child: FormTheme(
+              child: Scaffold(
+                appBar: AppBar(
+                  title: Text('Medicine Form', style: TextStyle(color: primaryColor)),
+                ),
+                body: SafeArea(
+                  child: Stack(
+                    children: [
+                      SingleChildScrollView(
+                        padding: const EdgeInsets.only(bottom: 60.0),
                         child: Column(
                           children: [
-                            const Spacer(),
-                            if (!canSubmit) ...[
-                              const Text('名前と服用スケジュールを入力してください', style: TextStyle(color: TextColor.danger, fontSize: 10.0)),
-                            ],
-                            Loading(
-                              isLoading: isLoading.value,
-                              child: ElevatedButton(
-                                style: elevatedButtonStyle,
-                                onPressed: canSubmit
-                                    ? () async {
-                                        try {
-                                          if (isLoading.value) {
-                                            return;
-                                          }
-                                          isLoading.value = true;
-
-                                          await submit();
-                                          if (context.mounted) {
-                                            Navigator.pop(context);
-                                          }
-                                        } catch (e) {
-                                          if (context.mounted) {
-                                            showErrorAlert(context, e.toString());
-                                          }
-                                        } finally {
-                                          isLoading.value = false;
-                                        }
-                                      }
-                                    : null,
-                                child: const Text('保存'),
+                            Padding(
+                              padding: const EdgeInsets.symmetric(vertical: 16.0),
+                              child: Column(
+                                children: [
+                                  MedicineFormNameTextField(name: name),
+                                  const SizedBox(height: 6),
+                                  MedicationFrequencyTile(frequency: frequency),
+                                ],
                               ),
+                            ),
+                            const Divider(color: Colors.black, height: 1),
+                            MedicineScheduleSection(schedules: schedules),
+                            const Divider(color: Colors.black, height: 1),
+                            MedicineAdditionalInfoSection(
+                              memo: memo,
+                              memoImageURL: memoImageURL,
+                              doseReceiver: doseReceiver,
                             ),
                           ],
                         ),
                       ),
-                    ),
-                  ],
+                      Align(
+                        alignment: Alignment.bottomCenter,
+                        child: Padding(
+                          padding: const EdgeInsets.symmetric(horizontal: 12.0),
+                          child: Column(
+                            children: [
+                              const Spacer(),
+                              if (!canSubmit) ...[
+                                const Text('名前と服用スケジュールを入力してください', style: TextStyle(color: TextColor.danger, fontSize: 10.0)),
+                              ],
+                              Loading(
+                                isLoading: isLoading.value,
+                                child: ElevatedButton(
+                                  style: elevatedButtonStyle,
+                                  onPressed: canSubmit
+                                      ? () async {
+                                          try {
+                                            if (isLoading.value) {
+                                              return;
+                                            }
+                                            isLoading.value = true;
+
+                                            await submit();
+                                            if (context.mounted) {
+                                              Navigator.pop(context);
+                                            }
+                                          } catch (e) {
+                                            if (context.mounted) {
+                                              showErrorAlert(context, e.toString());
+                                            }
+                                          } finally {
+                                            isLoading.value = false;
+                                          }
+                                        }
+                                      : null,
+                                  child: const Text('保存'),
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
                 ),
               ),
             ),
