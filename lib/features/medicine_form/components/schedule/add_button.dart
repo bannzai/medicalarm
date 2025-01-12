@@ -30,7 +30,7 @@ class MedicineScheduleAddButton extends StatelessWidget {
       },
       icon: const Icon(Icons.add),
       label: const Text('服用スケジュールを追加', style: TextStyle(fontWeight: FontWeight.bold)),
-      style: secondaryButtonStyle.merge(capsuleButtonStyle),
+      style: capsuleTextButtonStyle(context),
     );
   }
 }

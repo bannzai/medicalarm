@@ -3,6 +3,7 @@ import 'dart:io';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
+import 'package:medicalarm/style/button.dart';
 import 'package:medicalarm/utils/analytics/analytics.dart';
 import 'package:medicalarm/utils/shared_preferences/keys.dart';
 import 'package:package_info_plus/package_info_plus.dart';
@@ -80,6 +81,7 @@ class InquiryButton extends HookConsumerWidget {
         analytics.logEvent(name: 'problem_unresolved_button_pressed');
         inquiry();
       },
+      style: filledWidthButtonStyle,
     );
   }
 }

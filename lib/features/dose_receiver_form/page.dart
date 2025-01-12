@@ -139,7 +139,7 @@ class DoseReceiverAddButton extends HookConsumerWidget {
       },
       icon: const Icon(Icons.add),
       label: const Text('服用者を追加', style: TextStyle(fontWeight: FontWeight.bold)),
-      style: secondaryButtonStyle.merge(capsuleButtonStyle),
+      style: capsuleTextButtonStyle(context),
     );
   }
 }
