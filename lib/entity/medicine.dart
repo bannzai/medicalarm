@@ -7,6 +7,12 @@ import 'package:medicalarm/entity/timestamp.dart';
 part 'medicine.g.dart';
 part 'medicine.freezed.dart';
 
+// NOTE:
+// "Medicine" は「薬」そのものを指すため、服薬に限らず、薬に関連する通知（例: 購入リマインダーやストック通知など）も含めた広義の意味で使えます。
+// 「薬」という単語に焦点を当てたい場合。
+// "Medication" は「服薬」を意味し、薬を飲む行為やそれに関連する情報を強調します。
+// 服薬管理を主目的としたアプリで、薬の管理全般よりも服薬行為に焦点を当てている場合。
+
 @freezed
 class Medicine with _$Medicine {
   @JsonSerializable(explicitToJson: true)
