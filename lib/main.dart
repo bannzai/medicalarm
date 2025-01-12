@@ -31,12 +31,14 @@ class App extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
+    final colorScheme = ColorScheme.fromSeed(
+      seedColor: AppColors.primary,
+      primary: AppColors.primary,
+    );
+
     return MaterialApp(
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(
-          seedColor: AppColors.primary,
-          primary: AppColors.primary,
-        ),
+        colorScheme: colorScheme,
         bottomSheetTheme: const BottomSheetThemeData(
           backgroundColor: AppColors.formBackground,
         ),
@@ -57,6 +59,32 @@ class App extends StatelessWidget {
         ),
         appBarTheme: const AppBarTheme(
           elevation: 1,
+        ),
+        textButtonTheme: TextButtonThemeData(
+          style: TextButton.styleFrom(
+            backgroundColor: colorScheme.primary,
+            foregroundColor: TextColor.white,
+            padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 12.0),
+            textStyle: const TextStyle(fontSize: 16.0, fontWeight: FontWeight.bold),
+            minimumSize: const Size(double.infinity, 48.0),
+          ),
+        ),
+        elevatedButtonTheme: ElevatedButtonThemeData(
+          style: ElevatedButton.styleFrom(
+            shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
+            padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 12.0),
+            minimumSize: const Size(double.infinity, 48.0),
+            textStyle: const TextStyle(fontSize: 16.0, fontWeight: FontWeight.bold),
+            disabledBackgroundColor: AppColors.disabled,
+          ),
+        ),
+        outlinedButtonTheme: OutlinedButtonThemeData(
+          style: OutlinedButton.styleFrom(
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(10),
+            ),
+            side: const BorderSide(),
+          ),
         ),
         useMaterial3: false,
       ),

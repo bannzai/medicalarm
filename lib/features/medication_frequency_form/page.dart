@@ -5,7 +5,6 @@ import 'package:medicalarm/components/picker/number.dart';
 import 'package:medicalarm/features/medication_frequency_form/components/weekday_picker.dart';
 import 'package:medicalarm/entity/medication_frequency.dart';
 import 'package:medicalarm/features/medication_frequency_form/components/section_layout.dart';
-import 'package:medicalarm/style/button.dart';
 import 'package:medicalarm/theme/form.dart';
 import 'package:medicalarm/utils/date_time/weekday.dart';
 
@@ -162,7 +161,6 @@ class MedicationFrequencyFormPage extends HookConsumerWidget {
                         child: Padding(
                           padding: const EdgeInsets.symmetric(horizontal: 12.0),
                           child: ElevatedButton(
-                            style: elevatedButtonStyle,
                             onPressed: () {
                               this.frequency.value = frequency.value;
                               Navigator.pop(context);

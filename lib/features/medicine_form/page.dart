@@ -10,7 +10,6 @@ import 'package:medicalarm/features/medicine_form/components/medication_frequenc
 import 'package:medicalarm/features/medicine_form/components/name_text_field.dart';
 import 'package:medicalarm/features/medicine_form/components/schedule/section.dart';
 import 'package:medicalarm/provider/medicine.dart';
-import 'package:medicalarm/style/button.dart';
 import 'package:medicalarm/style/color.dart';
 import 'package:medicalarm/theme/form.dart';
 
@@ -115,7 +114,6 @@ class MedicineFormPage extends HookConsumerWidget {
                       Loading(
                         isLoading: isLoading.value,
                         child: ElevatedButton(
-                          style: elevatedButtonStyle,
                           onPressed: canSubmit
                               ? () async {
                                   try {
