@@ -6,15 +6,15 @@ import 'package:medicalarm/features/settings/page.dart';
 import 'package:medicalarm/style/color.dart';
 import 'package:medicalarm/utils/analytics/analytics.dart';
 
-enum HomePageTabType { medicines, medications, settings }
+enum HomePageTabType { medications, medicines, settings }
 
 extension HomePageTabFunctions on HomePageTabType {
   String get screenName {
     switch (this) {
-      case HomePageTabType.medicines:
-        return 'MedicinesPage';
       case HomePageTabType.medications:
         return 'MedicationsPage';
+      case HomePageTabType.medicines:
+        return 'MedicinesPage';
       case HomePageTabType.settings:
         return 'SettingsPage';
     }
@@ -49,7 +49,11 @@ class HomePage extends HookConsumerWidget {
               unselectedLabelColor: TextColor.gray,
               tabs: const <Tab>[
                 Tab(
-                  text: 'お薬',
+                  text: '服薬',
+                  icon: Icon(Icons.list_alt_outlined),
+                ),
+                Tab(
+                  text: 'お薬一覧',
                   icon: Icon(Icons.list_alt_outlined),
                 ),
                 Tab(
@@ -64,8 +68,8 @@ class HomePage extends HookConsumerWidget {
           physics: const NeverScrollableScrollPhysics(),
           controller: tabController,
           children: const [
-            MedicinesPage(),
             MedicationsPage(),
+            MedicinesPage(),
             SettingPage(),
           ],
         ),
