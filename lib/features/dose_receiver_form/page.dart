@@ -88,7 +88,6 @@ class DoseReceiverTextField extends HookConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final name = useState(doseReceiver.name);
     final doseReceiverUpdate = ref.watch(doseReceiverUpdateProvider);
-    final doseReceiverDelete = ref.watch(doseReceiverDeleteProvider);
     return Row(
       children: [
         Transform.scale(
@@ -113,12 +112,6 @@ class DoseReceiverTextField extends HookConsumerWidget {
               doseReceiverUpdate.call(doseReceiver: doseReceiver, name: value);
             },
           ),
-        ),
-        IconButton(
-          onPressed: () {
-            doseReceiverDelete.call(doseReceiver: doseReceiver);
-          },
-          icon: const Icon(Icons.delete),
         ),
       ],
     );
