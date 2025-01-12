@@ -15,9 +15,13 @@ class MedicineScheduleFormPage extends HookConsumerWidget {
     final isFollowupEnabled = useState(schedule.notificationSetting.isFollowupEnabled);
     final useCriticalAlert = useState(schedule.notificationSetting.useCriticalAlert);
     final quantityMemo = useState(schedule.quantityMemo);
+    final primaryColor = Theme.of(context).colorScheme.primary;
 
     return FormTheme(
       child: Scaffold(
+        appBar: AppBar(
+          title: Text('服用時刻設定', style: TextStyle(color: primaryColor)),
+        ),
         body: SafeArea(
           child: SingleChildScrollView(
             child: Column(
