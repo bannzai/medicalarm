@@ -30,6 +30,7 @@ class MedicineMemoRow extends StatelessWidget {
           const SizedBox(width: 8),
           Expanded(
             child: TextFormField(
+              maxLines: 5,
               initialValue: memo.value,
               onChanged: (value) {
                 memo.value = value;
@@ -37,6 +38,9 @@ class MedicineMemoRow extends StatelessWidget {
               decoration: const InputDecoration(
                 hintText: 'メモ',
               ),
+              validator: (value) {
+                return value != null && value.length > 300 ? 'メモは300文字以内で入力してください' : null;
+              },
             ),
           ),
         ],
