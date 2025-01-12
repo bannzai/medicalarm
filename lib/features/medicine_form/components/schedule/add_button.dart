@@ -19,7 +19,7 @@ class MedicineScheduleAddButton extends StatelessWidget {
           const MedicationSchedule(
             hour: 10,
             minute: 00,
-            amount: null,
+            memo: '',
           ),
         ];
       },
