@@ -49,7 +49,7 @@ class MedicationSchedule with _$MedicationSchedule {
   const factory MedicationSchedule({
     required int hour,
     required int minute,
-    required String memo,
+    required String quantityMemo,
     required MedicineScheduleNotificationSetting notificationSetting,
   }) = _MedicationSchedule;
   const MedicationSchedule._();

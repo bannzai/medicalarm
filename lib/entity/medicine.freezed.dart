@@ -618,7 +618,7 @@ MedicationSchedule _$MedicationScheduleFromJson(Map<String, dynamic> json) {
 mixin _$MedicationSchedule {
   int get hour => throw _privateConstructorUsedError;
   int get minute => throw _privateConstructorUsedError;
-  String get memo => throw _privateConstructorUsedError;
+  String get quantityMemo => throw _privateConstructorUsedError;
   MedicineScheduleNotificationSetting get notificationSetting => throw _privateConstructorUsedError;
 
   /// Serializes this MedicationSchedule to a JSON map.
@@ -635,7 +635,7 @@ abstract class $MedicationScheduleCopyWith<$Res> {
   factory $MedicationScheduleCopyWith(MedicationSchedule value, $Res Function(MedicationSchedule) then) =
       _$MedicationScheduleCopyWithImpl<$Res, MedicationSchedule>;
   @useResult
-  $Res call({int hour, int minute, String memo, MedicineScheduleNotificationSetting notificationSetting});
+  $Res call({int hour, int minute, String quantityMemo, MedicineScheduleNotificationSetting notificationSetting});
 
   $MedicineScheduleNotificationSettingCopyWith<$Res> get notificationSetting;
 }
@@ -656,7 +656,7 @@ class _$MedicationScheduleCopyWithImpl<$Res, $Val extends MedicationSchedule> im
   $Res call({
     Object? hour = null,
     Object? minute = null,
-    Object? memo = null,
+    Object? quantityMemo = null,
     Object? notificationSetting = null,
   }) {
     return _then(_value.copyWith(
@@ -668,9 +668,9 @@ class _$MedicationScheduleCopyWithImpl<$Res, $Val extends MedicationSchedule> im
           ? _value.minute
           : minute // ignore: cast_nullable_to_non_nullable
               as int,
-      memo: null == memo
-          ? _value.memo
-          : memo // ignore: cast_nullable_to_non_nullable
+      quantityMemo: null == quantityMemo
+          ? _value.quantityMemo
+          : quantityMemo // ignore: cast_nullable_to_non_nullable
               as String,
       notificationSetting: null == notificationSetting
           ? _value.notificationSetting
@@ -696,7 +696,7 @@ abstract class _$$MedicationScheduleImplCopyWith<$Res> implements $MedicationSch
       __$$MedicationScheduleImplCopyWithImpl<$Res>;
   @override
   @useResult
-  $Res call({int hour, int minute, String memo, MedicineScheduleNotificationSetting notificationSetting});
+  $Res call({int hour, int minute, String quantityMemo, MedicineScheduleNotificationSetting notificationSetting});
 
   @override
   $MedicineScheduleNotificationSettingCopyWith<$Res> get notificationSetting;
@@ -714,7 +714,7 @@ class __$$MedicationScheduleImplCopyWithImpl<$Res> extends _$MedicationScheduleC
   $Res call({
     Object? hour = null,
     Object? minute = null,
-    Object? memo = null,
+    Object? quantityMemo = null,
     Object? notificationSetting = null,
   }) {
     return _then(_$MedicationScheduleImpl(
@@ -726,9 +726,9 @@ class __$$MedicationScheduleImplCopyWithImpl<$Res> extends _$MedicationScheduleC
           ? _value.minute
           : minute // ignore: cast_nullable_to_non_nullable
               as int,
-      memo: null == memo
-          ? _value.memo
-          : memo // ignore: cast_nullable_to_non_nullable
+      quantityMemo: null == quantityMemo
+          ? _value.quantityMemo
+          : quantityMemo // ignore: cast_nullable_to_non_nullable
               as String,
       notificationSetting: null == notificationSetting
           ? _value.notificationSetting
@@ -742,7 +742,8 @@ class __$$MedicationScheduleImplCopyWithImpl<$Res> extends _$MedicationScheduleC
 
 @JsonSerializable(explicitToJson: true)
 class _$MedicationScheduleImpl extends _MedicationSchedule {
-  const _$MedicationScheduleImpl({required this.hour, required this.minute, required this.memo, required this.notificationSetting}) : super._();
+  const _$MedicationScheduleImpl({required this.hour, required this.minute, required this.quantityMemo, required this.notificationSetting})
+      : super._();
 
   factory _$MedicationScheduleImpl.fromJson(Map<String, dynamic> json) => _$$MedicationScheduleImplFromJson(json);
 
@@ -751,13 +752,13 @@ class _$MedicationScheduleImpl extends _MedicationSchedule {
   @override
   final int minute;
   @override
-  final String memo;
+  final String quantityMemo;
   @override
   final MedicineScheduleNotificationSetting notificationSetting;
 
   @override
   String toString() {
-    return 'MedicationSchedule(hour: $hour, minute: $minute, memo: $memo, notificationSetting: $notificationSetting)';
+    return 'MedicationSchedule(hour: $hour, minute: $minute, quantityMemo: $quantityMemo, notificationSetting: $notificationSetting)';
   }
 
   @override
@@ -767,13 +768,13 @@ class _$MedicationScheduleImpl extends _MedicationSchedule {
             other is _$MedicationScheduleImpl &&
             (identical(other.hour, hour) || other.hour == hour) &&
             (identical(other.minute, minute) || other.minute == minute) &&
-            (identical(other.memo, memo) || other.memo == memo) &&
+            (identical(other.quantityMemo, quantityMemo) || other.quantityMemo == quantityMemo) &&
             (identical(other.notificationSetting, notificationSetting) || other.notificationSetting == notificationSetting));
   }
 
   @JsonKey(includeFromJson: false, includeToJson: false)
   @override
-  int get hashCode => Object.hash(runtimeType, hour, minute, memo, notificationSetting);
+  int get hashCode => Object.hash(runtimeType, hour, minute, quantityMemo, notificationSetting);
 
   /// Create a copy of MedicationSchedule
   /// with the given fields replaced by the non-null parameter values.
@@ -795,7 +796,7 @@ abstract class _MedicationSchedule extends MedicationSchedule {
   const factory _MedicationSchedule(
       {required final int hour,
       required final int minute,
-      required final String memo,
+      required final String quantityMemo,
       required final MedicineScheduleNotificationSetting notificationSetting}) = _$MedicationScheduleImpl;
   const _MedicationSchedule._() : super._();
 
@@ -806,7 +807,7 @@ abstract class _MedicationSchedule extends MedicationSchedule {
   @override
   int get minute;
   @override
-  String get memo;
+  String get quantityMemo;
   @override
   MedicineScheduleNotificationSetting get notificationSetting;
 
