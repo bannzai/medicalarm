@@ -2,12 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:medicalarm/features/medicine_form/components/section_layout.dart';
 
-class MedicineNotificationSettingSection extends HookConsumerWidget {
+class MedicineScheduleNotificationSettingSection extends HookConsumerWidget {
   final ValueNotifier<bool> isReminderEnabled;
   final ValueNotifier<bool> isFollowupEnabled;
   final ValueNotifier<bool> useCriticalAlert;
 
-  const MedicineNotificationSettingSection({
+  const MedicineScheduleNotificationSettingSection({
     super.key,
     required this.isReminderEnabled,
     required this.isFollowupEnabled,
