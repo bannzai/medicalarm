@@ -50,11 +50,6 @@ class MedicineFormPage extends HookConsumerWidget {
           memo: memo.value,
           memoImageURL: memoImageURL.value,
           doseReceiver: doseReceiver.value,
-          notificationSetting: MedicineScheduleNotificationSetting(
-            isReminderEnabled: isReminderEnabled.value,
-            isFollowupEnabled: isFollowupEnabled.value,
-            useCriticalAlert: useCriticalAlert.value,
-          ),
         );
       } else {
         await medicineUpdate(
@@ -66,11 +61,6 @@ class MedicineFormPage extends HookConsumerWidget {
           memo: memo.value,
           memoImageURL: memoImageURL.value,
           doseReceiver: doseReceiver.value,
-          notificationSetting: MedicineScheduleNotificationSetting(
-            isReminderEnabled: isReminderEnabled.value,
-            isFollowupEnabled: isFollowupEnabled.value,
-            useCriticalAlert: useCriticalAlert.value,
-          ),
         );
       }
     }
