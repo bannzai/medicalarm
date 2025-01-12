@@ -3,6 +3,7 @@ import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:medicalarm/entity/medicine.dart';
 import 'package:medicalarm/features/medicine_form/components/schedule/notification_setting/section.dart';
+import 'package:medicalarm/features/medicine_form/components/section_layout.dart';
 import 'package:medicalarm/style/color.dart';
 import 'package:medicalarm/theme/form.dart';
 
@@ -32,7 +33,13 @@ class MedicineScheduleFormPage extends HookConsumerWidget {
                   isFollowupEnabled: isFollowupEnabled,
                   useCriticalAlert: useCriticalAlert,
                 ),
-                MedicineScheduleQuantityMemoTextField(quantityMemo: quantityMemo),
+                MedicineFormSectionLayout(
+                  icon: Icons.info,
+                  text: '情報',
+                  children: [
+                    MedicineScheduleQuantityMemoTextField(quantityMemo: quantityMemo),
+                  ],
+                ),
               ],
             ),
           ),
@@ -51,13 +58,16 @@ class MedicineScheduleQuantityMemoTextField extends HookConsumerWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        TextField(
-          controller: TextEditingController(text: quantityMemo.value),
-          onChanged: (value) {
-            quantityMemo.value = value;
-          },
-          decoration: const InputDecoration(
-            labelText: '容量',
+        Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 12.0),
+          child: TextField(
+            controller: TextEditingController(text: quantityMemo.value),
+            onChanged: (value) {
+              quantityMemo.value = value;
+            },
+            decoration: const InputDecoration(
+              labelText: '容量',
+            ),
           ),
         ),
         const SizedBox(height: 4),
