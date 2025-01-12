@@ -17,8 +17,6 @@ class Medicine with _$Medicine {
     required MedicationFrequency frequency,
     required List<MedicationSchedule> schedules,
     required MedicineNotificationSetting notificationSetting,
-    required int? stock,
-    required String? unit,
     // null の場合は デフォルトdoseReciver(=User,自分)として扱う
     required MedicineDoseReceiver? doseReceiver,
     required String memo,
@@ -52,8 +50,7 @@ class MedicationSchedule with _$MedicationSchedule {
   const factory MedicationSchedule({
     required int hour,
     required int minute,
-    // 服用量
-    required int? amount,
+    required String memo,
   }) = _MedicationSchedule;
   const MedicationSchedule._();
 

@@ -29,8 +29,6 @@ class MedicineFormPage extends HookConsumerWidget {
     final memo = useState(medicine?.memo ?? '');
     final memoImageURL = useState(medicine?.memoImageURL ?? '');
     final doseReceiver = useState(medicine?.doseReceiver);
-    final unit = useState(medicine?.unit ?? '');
-    final stock = useState(medicine?.stock ?? 0);
 
     final isReminderEnabled = useState(medicine?.notificationSetting.isReminderEnabled ?? true);
     final isFollowupEnabled = useState(medicine?.notificationSetting.isFollowupEnabled ?? true);
@@ -52,8 +50,6 @@ class MedicineFormPage extends HookConsumerWidget {
           memo: memo.value,
           memoImageURL: memoImageURL.value,
           doseReceiver: doseReceiver.value,
-          unit: unit.value,
-          stock: stock.value,
           notificationSetting: MedicineNotificationSetting(
             isReminderEnabled: isReminderEnabled.value,
             isFollowupEnabled: isFollowupEnabled.value,
@@ -70,8 +66,6 @@ class MedicineFormPage extends HookConsumerWidget {
           memo: memo.value,
           memoImageURL: memoImageURL.value,
           doseReceiver: doseReceiver.value,
-          unit: unit.value,
-          stock: stock.value,
           notificationSetting: MedicineNotificationSetting(
             isReminderEnabled: isReminderEnabled.value,
             isFollowupEnabled: isFollowupEnabled.value,
@@ -121,8 +115,6 @@ class MedicineFormPage extends HookConsumerWidget {
                             memo: memo,
                             memoImageURL: memoImageURL,
                             doseReceiver: doseReceiver,
-                            unit: unit,
-                            stock: stock,
                           ),
                         ],
                       ),

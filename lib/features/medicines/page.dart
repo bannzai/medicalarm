@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
-import 'package:intl/intl.dart';
 import 'package:medicalarm/components/retry/page.dart';
 import 'package:medicalarm/entity/medicine.dart';
 import 'package:medicalarm/features/medicines/components/add_button.dart';
@@ -78,7 +77,6 @@ class MedicineTile extends HookConsumerWidget {
           children: [
             Text(medicine.schedules.first.toTimeString()),
             Text(medicine.name),
-            Text(medicine.unit ?? ''),
           ],
         ),
       ],

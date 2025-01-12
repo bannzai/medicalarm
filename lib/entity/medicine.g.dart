@@ -13,8 +13,6 @@ _$MedicineImpl _$$MedicineImplFromJson(Map<String, dynamic> json) => _$MedicineI
       frequency: MedicationFrequency.fromJson(json['frequency'] as Map<String, dynamic>),
       schedules: (json['schedules'] as List<dynamic>).map((e) => MedicationSchedule.fromJson(e as Map<String, dynamic>)).toList(),
       notificationSetting: MedicineNotificationSetting.fromJson(json['notificationSetting'] as Map<String, dynamic>),
-      stock: (json['stock'] as num?)?.toInt(),
-      unit: json['unit'] as String?,
       doseReceiver: json['doseReceiver'] == null ? null : MedicineDoseReceiver.fromJson(json['doseReceiver'] as Map<String, dynamic>),
       memo: json['memo'] as String,
       memoImageURL: json['memoImageURL'] as String,
@@ -31,8 +29,6 @@ Map<String, dynamic> _$$MedicineImplToJson(_$MedicineImpl instance) => <String, 
       'frequency': instance.frequency.toJson(),
       'schedules': instance.schedules.map((e) => e.toJson()).toList(),
       'notificationSetting': instance.notificationSetting.toJson(),
-      'stock': instance.stock,
-      'unit': instance.unit,
       'doseReceiver': instance.doseReceiver?.toJson(),
       'memo': instance.memo,
       'memoImageURL': instance.memoImageURL,
@@ -57,13 +53,13 @@ Map<String, dynamic> _$$MedicineNotificationSettingImplToJson(_$MedicineNotifica
 _$MedicationScheduleImpl _$$MedicationScheduleImplFromJson(Map<String, dynamic> json) => _$MedicationScheduleImpl(
       hour: (json['hour'] as num).toInt(),
       minute: (json['minute'] as num).toInt(),
-      amount: (json['amount'] as num?)?.toInt(),
+      memo: json['memo'] as String,
     );
 
 Map<String, dynamic> _$$MedicationScheduleImplToJson(_$MedicationScheduleImpl instance) => <String, dynamic>{
       'hour': instance.hour,
       'minute': instance.minute,
-      'amount': instance.amount,
+      'memo': instance.memo,
     };
 
 _$MedicineDoseReceiverImpl _$$MedicineDoseReceiverImplFromJson(Map<String, dynamic> json) => _$MedicineDoseReceiverImpl(
