@@ -101,51 +101,49 @@ class MedicineFormPage extends HookConsumerWidget {
                           ],
                         ),
                       ),
-                      Align(
-                        alignment: Alignment.bottomCenter,
-                        child: Padding(
-                          padding: const EdgeInsets.symmetric(horizontal: 12.0),
-                          child: Column(
-                            children: [
-                              const Spacer(),
-                              if (!canSubmit) ...[
-                                const Text('名前と服用スケジュールを入力してください', style: TextStyle(color: TextColor.danger, fontSize: 10.0)),
-                              ],
-                              Loading(
-                                isLoading: isLoading.value,
-                                child: ElevatedButton(
-                                  style: elevatedButtonStyle,
-                                  onPressed: canSubmit
-                                      ? () async {
-                                          try {
-                                            if (isLoading.value) {
-                                              return;
-                                            }
-                                            isLoading.value = true;
+                    ],
+                  ),
+                ),
+                floatingActionButton: Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 12.0),
+                  child: Column(
+                    children: [
+                      const Spacer(),
+                      if (!canSubmit) ...[
+                        const Text('名前と服用スケジュールを入力してください', style: TextStyle(color: TextColor.danger, fontSize: 10.0)),
+                      ],
+                      Loading(
+                        isLoading: isLoading.value,
+                        child: ElevatedButton(
+                          style: elevatedButtonStyle,
+                          onPressed: canSubmit
+                              ? () async {
+                                  try {
+                                    if (isLoading.value) {
+                                      return;
+                                    }
+                                    isLoading.value = true;
 
-                                            await submit();
-                                            if (context.mounted) {
-                                              Navigator.pop(context);
-                                            }
-                                          } catch (e) {
-                                            if (context.mounted) {
-                                              showErrorAlert(context, e.toString());
-                                            }
-                                          } finally {
-                                            isLoading.value = false;
-                                          }
-                                        }
-                                      : null,
-                                  child: const Text('保存'),
-                                ),
-                              ),
-                            ],
-                          ),
+                                    await submit();
+                                    if (context.mounted) {
+                                      Navigator.pop(context);
+                                    }
+                                  } catch (e) {
+                                    if (context.mounted) {
+                                      showErrorAlert(context, e.toString());
+                                    }
+                                  } finally {
+                                    isLoading.value = false;
+                                  }
+                                }
+                              : null,
+                          child: const Text('保存'),
                         ),
                       ),
                     ],
                   ),
                 ),
+                floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
               ),
             ),
           );
