@@ -16,7 +16,6 @@ class Medicine with _$Medicine {
     required String name,
     required MedicationFrequency frequency,
     required List<MedicationSchedule> schedules,
-    required MedicineNotificationSetting notificationSetting,
     // null の場合は デフォルトdoseReciver(=User,自分)として扱う
     required MedicineDoseReceiver? doseReceiver,
     required String memo,
@@ -32,16 +31,16 @@ class Medicine with _$Medicine {
 }
 
 @freezed
-class MedicineNotificationSetting with _$MedicineNotificationSetting {
+class MedicineScheduleNotificationSetting with _$MedicineScheduleNotificationSetting {
   @JsonSerializable(explicitToJson: true)
-  const factory MedicineNotificationSetting({
+  const factory MedicineScheduleNotificationSetting({
     required bool isReminderEnabled,
     required bool isFollowupEnabled,
     required bool useCriticalAlert,
-  }) = _MedicineNotificationSetting;
-  const MedicineNotificationSetting._();
+  }) = _MedicineScheduleNotificationSetting;
+  const MedicineScheduleNotificationSetting._();
 
-  factory MedicineNotificationSetting.fromJson(Map<String, dynamic> json) => _$MedicineNotificationSettingFromJson(json);
+  factory MedicineScheduleNotificationSetting.fromJson(Map<String, dynamic> json) => _$MedicineScheduleNotificationSettingFromJson(json);
 }
 
 @freezed
@@ -51,6 +50,7 @@ class MedicationSchedule with _$MedicationSchedule {
     required int hour,
     required int minute,
     required String memo,
+    required MedicineScheduleNotificationSetting notificationSetting,
   }) = _MedicationSchedule;
   const MedicationSchedule._();
 
