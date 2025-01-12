@@ -47,12 +47,13 @@ class MedicinesPageBody extends HookConsumerWidget {
                 for (final medicine in medicines) ...[
                   MedicineTile(medicine: medicine),
                 ],
-                const MedicalAddButton(),
               ],
             ),
           ),
         ),
       ),
+      floatingActionButton: const MedicalAddButton(),
+      floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
     );
   }
 }
