@@ -63,7 +63,6 @@ class HomePage extends HookConsumerWidget {
           controller: tabController,
           children: const [
             MedicinesPage(),
-            // ECItemsPage(),
             SettingPage(),
           ],
         ),
