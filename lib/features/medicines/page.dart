@@ -11,10 +11,10 @@ class MedicinesPage extends HookConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final medicines = ref.watch(medicinesProvider);
+    final medicines = ref.watch(activeMedicinesProvider);
 
     return Retry(
-      retry: () => ref.invalidate(medicinesProvider),
+      retry: () => ref.invalidate(activeMedicinesProvider),
       child: medicines.when(
         data: (medicines) => MedicinesPageBody(medicines: medicines),
         error: (error, stackTrace) => RetryPage(exception: error),

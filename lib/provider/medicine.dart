@@ -7,9 +7,12 @@ import 'package:riverpod_annotation/riverpod_annotation.dart';
 part 'medicine.g.dart';
 
 @Riverpod(dependencies: [userDatabase])
-Stream<List<Medicine>> medicines(MedicinesRef ref) {
+Stream<List<Medicine>> activeMedicines(ActiveMedicinesRef ref) {
   final database = ref.watch(userDatabaseProvider);
-  return database.medicinesReference().snapshots().map((event) => event.docs.map((doc) => doc.data()).toList());
+  return database
+      .medicinesReference()
+      .snapshots()
+      .map((event) => event.docs.map((doc) => doc.data()).where((medicine) => medicine.archivedDateTime == null).toList());
 }
 
 class MedicineAdd {
