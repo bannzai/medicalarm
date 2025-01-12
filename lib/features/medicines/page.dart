@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
+import 'package:intl/intl.dart';
 import 'package:medicalarm/components/retry/page.dart';
 import 'package:medicalarm/entity/medicine.dart';
 import 'package:medicalarm/features/medicines/components/add_button.dart';
@@ -56,12 +58,30 @@ class MedicinesPageBody extends HookConsumerWidget {
   }
 }
 
-class MedicineTile extends StatelessWidget {
+class MedicineTile extends HookConsumerWidget {
   final Medicine medicine;
   const MedicineTile({super.key, required this.medicine});
 
   @override
-  Widget build(BuildContext context) {
-    return Text(medicine.name);
+  Widget build(BuildContext context, WidgetRef ref) {
+    final isChecked = useState(false);
+    return Row(
+      children: [
+        Checkbox(
+          value: isChecked.value,
+          onChanged: (value) {
+            isChecked.value = value ?? false;
+          },
+        ),
+        Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Text(medicine.schedules.first.toTimeString()),
+            Text(medicine.name),
+            Text(medicine.unit ?? ''),
+          ],
+        ),
+      ],
+    );
   }
 }
