@@ -8,7 +8,6 @@ import 'package:medicalarm/entity/medicine.dart';
 import 'package:medicalarm/features/medicine_form/components/additional_info/section.dart';
 import 'package:medicalarm/features/medicine_form/components/medication_frequency/tile.dart';
 import 'package:medicalarm/features/medicine_form/components/name_text_field.dart';
-import 'package:medicalarm/features/medicine_form/components/notification_setting/section.dart';
 import 'package:medicalarm/features/medicine_form/components/schedule/section.dart';
 import 'package:medicalarm/provider/medicine.dart';
 import 'package:medicalarm/style/button.dart';
@@ -29,10 +28,6 @@ class MedicineFormPage extends HookConsumerWidget {
     final memo = useState(medicine?.memo ?? '');
     final memoImageURL = useState(medicine?.memoImageURL ?? '');
     final doseReceiver = useState(medicine?.doseReceiver);
-
-    final isReminderEnabled = useState(medicine?.notificationSetting.isReminderEnabled ?? true);
-    final isFollowupEnabled = useState(medicine?.notificationSetting.isFollowupEnabled ?? true);
-    final useCriticalAlert = useState(medicine?.notificationSetting.useCriticalAlert ?? false);
 
     final medicineAdd = ref.watch(medicineAddProvider);
     final medicineUpdate = ref.watch(medicineUpdateProvider);
@@ -94,13 +89,6 @@ class MedicineFormPage extends HookConsumerWidget {
                           const Divider(color: Colors.black, height: 1),
                           MedicineScheduleSection(schedules: schedules),
                           const Divider(color: Colors.black, height: 1),
-                          if (schedules.value.isNotEmpty) ...[
-                            MedicineNotificationSettingSection(
-                              isReminderEnabled: isReminderEnabled,
-                              isFollowupEnabled: isFollowupEnabled,
-                              useCriticalAlert: useCriticalAlert,
-                            ),
-                          ],
                           MedicineAdditionalInfoSection(
                             memo: memo,
                             memoImageURL: memoImageURL,

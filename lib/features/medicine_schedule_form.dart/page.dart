@@ -1,0 +1,57 @@
+import 'package:flutter/material.dart';
+import 'package:flutter_hooks/flutter_hooks.dart';
+import 'package:hooks_riverpod/hooks_riverpod.dart';
+import 'package:medicalarm/entity/medicine.dart';
+import 'package:medicalarm/features/medicine_form/components/schedule/notification_setting/section.dart';
+import 'package:medicalarm/theme/form.dart';
+
+class MedicineScheduleFormPage extends HookConsumerWidget {
+  final MedicationSchedule schedule;
+  const MedicineScheduleFormPage({super.key, required this.schedule});
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final isReminderEnabled = useState(schedule.notificationSetting.isReminderEnabled);
+    final isFollowupEnabled = useState(schedule.notificationSetting.isFollowupEnabled);
+    final useCriticalAlert = useState(schedule.notificationSetting.useCriticalAlert);
+    final quantityMemo = useState(schedule.quantityMemo);
+
+    return FormTheme(
+      child: Scaffold(
+        body: SafeArea(
+          child: SingleChildScrollView(
+            child: Column(
+              children: [
+                MedicineScheduleNotificationSettingSection(
+                  isReminderEnabled: isReminderEnabled,
+                  isFollowupEnabled: isFollowupEnabled,
+                  useCriticalAlert: useCriticalAlert,
+                ),
+                MedicineScheduleQuantityMemoTextField(quantityMemo: quantityMemo),
+              ],
+            ),
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+class MedicineScheduleQuantityMemoTextField extends HookConsumerWidget {
+  final ValueNotifier<String> quantityMemo;
+  const MedicineScheduleQuantityMemoTextField({super.key, required this.quantityMemo});
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    return TextField(
+      controller: TextEditingController(text: quantityMemo.value),
+      onChanged: (value) {
+        quantityMemo.value = value;
+      },
+      decoration: const InputDecoration(
+        labelText: '容量',
+        hintText: '通知と一緒に表示されます。服用量を入力してください。(例: 1錠、100mg)',
+      ),
+    );
+  }
+}
