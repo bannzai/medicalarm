@@ -22,6 +22,7 @@ ButtonStyle get textButtonStyle => TextButton.styleFrom(
       backgroundColor: AppColors.primary,
       foregroundColor: TextColor.white,
       padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 12.0),
+      textStyle: const TextStyle(fontSize: 16.0, fontWeight: FontWeight.bold),
       minimumSize: const Size(double.infinity, 48.0),
     );
 
