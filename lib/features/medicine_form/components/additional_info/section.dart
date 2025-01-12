@@ -22,9 +22,9 @@ class MedicineAdditionalInfoSection extends StatelessWidget {
       icon: Icons.info,
       text: 'その他',
       children: [
-        MedicineMemoRow(memo: memo, memoImageURL: memoImageURL),
-        const SizedBox(height: 6),
         MedicineDoseReceiverTile(doseReceiver: doseReceiver),
+        const SizedBox(height: 6),
+        MedicineMemoRow(memo: memo, memoImageURL: memoImageURL),
       ],
     );
   }
