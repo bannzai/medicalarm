@@ -1,37 +1,35 @@
+import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:medicalarm/entity/medication_history.dart';
 import 'package:medicalarm/entity/medicine.dart';
 
-typedef ScheduleTime = (int hour, int minute);
+part 'grouped.freezed.dart';
 
-extension ScheduleTimeExtension on ScheduleTime {
-  int get hour => this.$1;
-  int get minute => this.$2;
+@freezed
+class ScheduleTime with _$ScheduleTime {
+  const factory ScheduleTime({
+    required int hour,
+    required int minute,
+  }) = _ScheduleTime;
 
   String toTimeString() {
     return '${hour.toString().padLeft(2, '0')}:${minute.toString().padLeft(2, '0')}';
   }
 }
 
-class MedicineDosingRowValue {
-  final MedicationHistory? medicationHistory;
-  final String medicineName;
-  final String quantityMemo;
-
-  MedicineDosingRowValue({
-    required this.medicationHistory,
-    required this.medicineName,
-    required this.quantityMemo,
-  });
+@freezed
+class MedicineDosingRowValue with _$MedicineDosingRowValue {
+  const factory MedicineDosingRowValue({
+    required MedicationHistory? medicationHistory,
+    required String medicineName,
+    required String quantityMemo,
+  }) = _MedicineDosingRowValue;
 }
 
-class MedicineTileValue {
-  final ScheduleTime scheduleTime;
-  final MedicineDoseReceiver doseReceiver;
-  final List<MedicineDosingRowValue> dosingRows;
-
-  MedicineTileValue({
-    required this.scheduleTime,
-    required this.doseReceiver,
-    required this.dosingRows,
-  });
+@freezed
+class MedicineTileValue with _$MedicineTileValue {
+  const factory MedicineTileValue({
+    required ScheduleTime scheduleTime,
+    required MedicineDoseReceiver doseReceiver,
+    required List<MedicineDosingRowValue> dosingRows,
+  }) = _MedicineTileValue;
 }
