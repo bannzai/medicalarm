@@ -50,7 +50,7 @@ class MedicationsPageBody extends StatelessWidget {
                 children: [
                   Text(medicine.name),
                   Text(schedule.quantityMemo),
-                  Text(medicine.doseReceiver?.name ?? 'Default Receiver'),
+                  Text(medicine.doseReceiver.name),
                   Text(history.createdDateTime?.toString() ?? 'No Date'),
                   Text('${schedule.hour}:${schedule.minute}'),
                   Text(history.memo),
