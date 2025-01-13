@@ -1,6 +1,7 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:medicalarm/entity/timestamp.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:medicalarm/entity/medicine.dart';
-import 'package:medicalarm/entity/timestamp.dart';
 
 part 'medication_history.freezed.dart';
 part 'medication_history.g.dart';
