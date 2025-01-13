@@ -10,6 +10,7 @@ class ScheduleTime with _$ScheduleTime {
     required int hour,
     required int minute,
   }) = _ScheduleTime;
+  const ScheduleTime._();
 
   String toTimeString() {
     return '${hour.toString().padLeft(2, '0')}:${minute.toString().padLeft(2, '0')}';

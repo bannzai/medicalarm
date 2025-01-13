@@ -98,8 +98,8 @@ class __$$ScheduleTimeImplCopyWithImpl<$Res> extends _$ScheduleTimeCopyWithImpl<
 
 /// @nodoc
 
-class _$ScheduleTimeImpl implements _ScheduleTime {
-  const _$ScheduleTimeImpl({required this.hour, required this.minute});
+class _$ScheduleTimeImpl extends _ScheduleTime {
+  const _$ScheduleTimeImpl({required this.hour, required this.minute}) : super._();
 
   @override
   final int hour;
@@ -131,8 +131,9 @@ class _$ScheduleTimeImpl implements _ScheduleTime {
   _$$ScheduleTimeImplCopyWith<_$ScheduleTimeImpl> get copyWith => __$$ScheduleTimeImplCopyWithImpl<_$ScheduleTimeImpl>(this, _$identity);
 }
 
-abstract class _ScheduleTime implements ScheduleTime {
+abstract class _ScheduleTime extends ScheduleTime {
   const factory _ScheduleTime({required final int hour, required final int minute}) = _$ScheduleTimeImpl;
+  const _ScheduleTime._() : super._();
 
   @override
   int get hour;
