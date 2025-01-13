@@ -26,7 +26,7 @@ class MedicineFormPage extends HookConsumerWidget {
     final primaryColor = Theme.of(context).colorScheme.primary;
     final memo = useState(medicine?.memo ?? '');
     final memoImageURL = useState(medicine?.memoImageURL ?? '');
-    final doseReceiver = useState(medicine?.doseReceiver);
+    final doseReceiver = useState(medicine?.doseReceiver ?? MedicineDoseReceiver.firstUser);
 
     final medicineAdd = ref.watch(medicineAddProvider);
     final medicineUpdate = ref.watch(medicineUpdateProvider);
