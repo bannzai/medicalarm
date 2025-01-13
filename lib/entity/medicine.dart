@@ -22,8 +22,7 @@ class Medicine with _$Medicine {
     required String name,
     required MedicationFrequency frequency,
     required List<MedicationSchedule> schedules,
-    // null の場合は デフォルトdoseReciver(=User,自分)として扱う
-    required MedicineDoseReceiver? doseReceiver,
+    required MedicineDoseReceiver doseReceiver,
     required String memo,
     required String memoImageURL,
     @NullableTimestampConverter() DateTime? archivedDateTime,
@@ -54,6 +53,7 @@ class MedicineScheduleNotificationSetting with _$MedicineScheduleNotificationSet
 class MedicationSchedule with _$MedicationSchedule {
   @JsonSerializable(explicitToJson: true)
   const factory MedicationSchedule({
+    required String id,
     required int hour,
     required int minute,
     required String quantityMemo,
@@ -73,6 +73,7 @@ class MedicationSchedule with _$MedicationSchedule {
 }
 
 @freezed
+// NOTE: [DoseReceiver:Exist] 必ず 1つ以上のDoseReceiverが存在する。AppEntityPrepareResolverで必ず存在するようにする
 class MedicineDoseReceiver with _$MedicineDoseReceiver {
   @JsonSerializable(explicitToJson: true)
   const factory MedicineDoseReceiver({
@@ -83,4 +84,6 @@ class MedicineDoseReceiver with _$MedicineDoseReceiver {
   const MedicineDoseReceiver._();
 
   factory MedicineDoseReceiver.fromJson(Map<String, dynamic> json) => _$MedicineDoseReceiverFromJson(json);
+
+  static MedicineDoseReceiver get firstUser => const MedicineDoseReceiver(id: 'firstUser', name: 'あなた');
 }

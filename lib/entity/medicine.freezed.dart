@@ -24,8 +24,8 @@ mixin _$Medicine {
   String get userID => throw _privateConstructorUsedError;
   String get name => throw _privateConstructorUsedError;
   MedicationFrequency get frequency => throw _privateConstructorUsedError;
-  List<MedicationSchedule> get schedules => throw _privateConstructorUsedError; // null の場合は デフォルトdoseReciver(=User,自分)として扱う
-  MedicineDoseReceiver? get doseReceiver => throw _privateConstructorUsedError;
+  List<MedicationSchedule> get schedules => throw _privateConstructorUsedError;
+  MedicineDoseReceiver get doseReceiver => throw _privateConstructorUsedError;
   String get memo => throw _privateConstructorUsedError;
   String get memoImageURL => throw _privateConstructorUsedError;
   @NullableTimestampConverter()
@@ -58,7 +58,7 @@ abstract class $MedicineCopyWith<$Res> {
       String name,
       MedicationFrequency frequency,
       List<MedicationSchedule> schedules,
-      MedicineDoseReceiver? doseReceiver,
+      MedicineDoseReceiver doseReceiver,
       String memo,
       String memoImageURL,
       @NullableTimestampConverter() DateTime? archivedDateTime,
@@ -68,7 +68,7 @@ abstract class $MedicineCopyWith<$Res> {
       @ServerUpdatedTimestamp() DateTime? serverUpdatedDateTime});
 
   $MedicationFrequencyCopyWith<$Res> get frequency;
-  $MedicineDoseReceiverCopyWith<$Res>? get doseReceiver;
+  $MedicineDoseReceiverCopyWith<$Res> get doseReceiver;
 }
 
 /// @nodoc
@@ -90,7 +90,7 @@ class _$MedicineCopyWithImpl<$Res, $Val extends Medicine> implements $MedicineCo
     Object? name = null,
     Object? frequency = null,
     Object? schedules = null,
-    Object? doseReceiver = freezed,
+    Object? doseReceiver = null,
     Object? memo = null,
     Object? memoImageURL = null,
     Object? archivedDateTime = freezed,
@@ -120,10 +120,10 @@ class _$MedicineCopyWithImpl<$Res, $Val extends Medicine> implements $MedicineCo
           ? _value.schedules
           : schedules // ignore: cast_nullable_to_non_nullable
               as List<MedicationSchedule>,
-      doseReceiver: freezed == doseReceiver
+      doseReceiver: null == doseReceiver
           ? _value.doseReceiver
           : doseReceiver // ignore: cast_nullable_to_non_nullable
-              as MedicineDoseReceiver?,
+              as MedicineDoseReceiver,
       memo: null == memo
           ? _value.memo
           : memo // ignore: cast_nullable_to_non_nullable
@@ -169,12 +169,8 @@ class _$MedicineCopyWithImpl<$Res, $Val extends Medicine> implements $MedicineCo
   /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
-  $MedicineDoseReceiverCopyWith<$Res>? get doseReceiver {
-    if (_value.doseReceiver == null) {
-      return null;
-    }
-
-    return $MedicineDoseReceiverCopyWith<$Res>(_value.doseReceiver!, (value) {
+  $MedicineDoseReceiverCopyWith<$Res> get doseReceiver {
+    return $MedicineDoseReceiverCopyWith<$Res>(_value.doseReceiver, (value) {
       return _then(_value.copyWith(doseReceiver: value) as $Val);
     });
   }
@@ -191,7 +187,7 @@ abstract class _$$MedicineImplCopyWith<$Res> implements $MedicineCopyWith<$Res> 
       String name,
       MedicationFrequency frequency,
       List<MedicationSchedule> schedules,
-      MedicineDoseReceiver? doseReceiver,
+      MedicineDoseReceiver doseReceiver,
       String memo,
       String memoImageURL,
       @NullableTimestampConverter() DateTime? archivedDateTime,
@@ -203,7 +199,7 @@ abstract class _$$MedicineImplCopyWith<$Res> implements $MedicineCopyWith<$Res> 
   @override
   $MedicationFrequencyCopyWith<$Res> get frequency;
   @override
-  $MedicineDoseReceiverCopyWith<$Res>? get doseReceiver;
+  $MedicineDoseReceiverCopyWith<$Res> get doseReceiver;
 }
 
 /// @nodoc
@@ -220,7 +216,7 @@ class __$$MedicineImplCopyWithImpl<$Res> extends _$MedicineCopyWithImpl<$Res, _$
     Object? name = null,
     Object? frequency = null,
     Object? schedules = null,
-    Object? doseReceiver = freezed,
+    Object? doseReceiver = null,
     Object? memo = null,
     Object? memoImageURL = null,
     Object? archivedDateTime = freezed,
@@ -250,10 +246,10 @@ class __$$MedicineImplCopyWithImpl<$Res> extends _$MedicineCopyWithImpl<$Res, _$
           ? _value._schedules
           : schedules // ignore: cast_nullable_to_non_nullable
               as List<MedicationSchedule>,
-      doseReceiver: freezed == doseReceiver
+      doseReceiver: null == doseReceiver
           ? _value.doseReceiver
           : doseReceiver // ignore: cast_nullable_to_non_nullable
-              as MedicineDoseReceiver?,
+              as MedicineDoseReceiver,
       memo: null == memo
           ? _value.memo
           : memo // ignore: cast_nullable_to_non_nullable
@@ -325,9 +321,8 @@ class _$MedicineImpl extends _Medicine {
     return EqualUnmodifiableListView(_schedules);
   }
 
-// null の場合は デフォルトdoseReciver(=User,自分)として扱う
   @override
-  final MedicineDoseReceiver? doseReceiver;
+  final MedicineDoseReceiver doseReceiver;
   @override
   final String memo;
   @override
@@ -400,7 +395,7 @@ abstract class _Medicine extends Medicine {
       required final String name,
       required final MedicationFrequency frequency,
       required final List<MedicationSchedule> schedules,
-      required final MedicineDoseReceiver? doseReceiver,
+      required final MedicineDoseReceiver doseReceiver,
       required final String memo,
       required final String memoImageURL,
       @NullableTimestampConverter() final DateTime? archivedDateTime,
@@ -421,9 +416,9 @@ abstract class _Medicine extends Medicine {
   @override
   MedicationFrequency get frequency;
   @override
-  List<MedicationSchedule> get schedules; // null の場合は デフォルトdoseReciver(=User,自分)として扱う
+  List<MedicationSchedule> get schedules;
   @override
-  MedicineDoseReceiver? get doseReceiver;
+  MedicineDoseReceiver get doseReceiver;
   @override
   String get memo;
   @override
@@ -639,6 +634,7 @@ MedicationSchedule _$MedicationScheduleFromJson(Map<String, dynamic> json) {
 
 /// @nodoc
 mixin _$MedicationSchedule {
+  String get id => throw _privateConstructorUsedError;
   int get hour => throw _privateConstructorUsedError;
   int get minute => throw _privateConstructorUsedError;
   String get quantityMemo => throw _privateConstructorUsedError;
@@ -658,7 +654,7 @@ abstract class $MedicationScheduleCopyWith<$Res> {
   factory $MedicationScheduleCopyWith(MedicationSchedule value, $Res Function(MedicationSchedule) then) =
       _$MedicationScheduleCopyWithImpl<$Res, MedicationSchedule>;
   @useResult
-  $Res call({int hour, int minute, String quantityMemo, MedicineScheduleNotificationSetting notificationSetting});
+  $Res call({String id, int hour, int minute, String quantityMemo, MedicineScheduleNotificationSetting notificationSetting});
 
   $MedicineScheduleNotificationSettingCopyWith<$Res> get notificationSetting;
 }
@@ -677,12 +673,17 @@ class _$MedicationScheduleCopyWithImpl<$Res, $Val extends MedicationSchedule> im
   @pragma('vm:prefer-inline')
   @override
   $Res call({
+    Object? id = null,
     Object? hour = null,
     Object? minute = null,
     Object? quantityMemo = null,
     Object? notificationSetting = null,
   }) {
     return _then(_value.copyWith(
+      id: null == id
+          ? _value.id
+          : id // ignore: cast_nullable_to_non_nullable
+              as String,
       hour: null == hour
           ? _value.hour
           : hour // ignore: cast_nullable_to_non_nullable
@@ -719,7 +720,7 @@ abstract class _$$MedicationScheduleImplCopyWith<$Res> implements $MedicationSch
       __$$MedicationScheduleImplCopyWithImpl<$Res>;
   @override
   @useResult
-  $Res call({int hour, int minute, String quantityMemo, MedicineScheduleNotificationSetting notificationSetting});
+  $Res call({String id, int hour, int minute, String quantityMemo, MedicineScheduleNotificationSetting notificationSetting});
 
   @override
   $MedicineScheduleNotificationSettingCopyWith<$Res> get notificationSetting;
@@ -735,12 +736,17 @@ class __$$MedicationScheduleImplCopyWithImpl<$Res> extends _$MedicationScheduleC
   @pragma('vm:prefer-inline')
   @override
   $Res call({
+    Object? id = null,
     Object? hour = null,
     Object? minute = null,
     Object? quantityMemo = null,
     Object? notificationSetting = null,
   }) {
     return _then(_$MedicationScheduleImpl(
+      id: null == id
+          ? _value.id
+          : id // ignore: cast_nullable_to_non_nullable
+              as String,
       hour: null == hour
           ? _value.hour
           : hour // ignore: cast_nullable_to_non_nullable
@@ -765,11 +771,14 @@ class __$$MedicationScheduleImplCopyWithImpl<$Res> extends _$MedicationScheduleC
 
 @JsonSerializable(explicitToJson: true)
 class _$MedicationScheduleImpl extends _MedicationSchedule {
-  const _$MedicationScheduleImpl({required this.hour, required this.minute, required this.quantityMemo, required this.notificationSetting})
+  const _$MedicationScheduleImpl(
+      {required this.id, required this.hour, required this.minute, required this.quantityMemo, required this.notificationSetting})
       : super._();
 
   factory _$MedicationScheduleImpl.fromJson(Map<String, dynamic> json) => _$$MedicationScheduleImplFromJson(json);
 
+  @override
+  final String id;
   @override
   final int hour;
   @override
@@ -781,7 +790,7 @@ class _$MedicationScheduleImpl extends _MedicationSchedule {
 
   @override
   String toString() {
-    return 'MedicationSchedule(hour: $hour, minute: $minute, quantityMemo: $quantityMemo, notificationSetting: $notificationSetting)';
+    return 'MedicationSchedule(id: $id, hour: $hour, minute: $minute, quantityMemo: $quantityMemo, notificationSetting: $notificationSetting)';
   }
 
   @override
@@ -789,6 +798,7 @@ class _$MedicationScheduleImpl extends _MedicationSchedule {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
             other is _$MedicationScheduleImpl &&
+            (identical(other.id, id) || other.id == id) &&
             (identical(other.hour, hour) || other.hour == hour) &&
             (identical(other.minute, minute) || other.minute == minute) &&
             (identical(other.quantityMemo, quantityMemo) || other.quantityMemo == quantityMemo) &&
@@ -797,7 +807,7 @@ class _$MedicationScheduleImpl extends _MedicationSchedule {
 
   @JsonKey(includeFromJson: false, includeToJson: false)
   @override
-  int get hashCode => Object.hash(runtimeType, hour, minute, quantityMemo, notificationSetting);
+  int get hashCode => Object.hash(runtimeType, id, hour, minute, quantityMemo, notificationSetting);
 
   /// Create a copy of MedicationSchedule
   /// with the given fields replaced by the non-null parameter values.
@@ -817,7 +827,8 @@ class _$MedicationScheduleImpl extends _MedicationSchedule {
 
 abstract class _MedicationSchedule extends MedicationSchedule {
   const factory _MedicationSchedule(
-      {required final int hour,
+      {required final String id,
+      required final int hour,
       required final int minute,
       required final String quantityMemo,
       required final MedicineScheduleNotificationSetting notificationSetting}) = _$MedicationScheduleImpl;
@@ -825,6 +836,8 @@ abstract class _MedicationSchedule extends MedicationSchedule {
 
   factory _MedicationSchedule.fromJson(Map<String, dynamic> json) = _$MedicationScheduleImpl.fromJson;
 
+  @override
+  String get id;
   @override
   int get hour;
   @override

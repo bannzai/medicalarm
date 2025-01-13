@@ -12,7 +12,7 @@ _$MedicineImpl _$$MedicineImplFromJson(Map<String, dynamic> json) => _$MedicineI
       name: json['name'] as String,
       frequency: MedicationFrequency.fromJson(json['frequency'] as Map<String, dynamic>),
       schedules: (json['schedules'] as List<dynamic>).map((e) => MedicationSchedule.fromJson(e as Map<String, dynamic>)).toList(),
-      doseReceiver: json['doseReceiver'] == null ? null : MedicineDoseReceiver.fromJson(json['doseReceiver'] as Map<String, dynamic>),
+      doseReceiver: MedicineDoseReceiver.fromJson(json['doseReceiver'] as Map<String, dynamic>),
       memo: json['memo'] as String,
       memoImageURL: json['memoImageURL'] as String,
       archivedDateTime: const NullableTimestampConverter().fromJson(json['archivedDateTime'] as Timestamp?),
@@ -28,7 +28,7 @@ Map<String, dynamic> _$$MedicineImplToJson(_$MedicineImpl instance) => <String, 
       'name': instance.name,
       'frequency': instance.frequency.toJson(),
       'schedules': instance.schedules.map((e) => e.toJson()).toList(),
-      'doseReceiver': instance.doseReceiver?.toJson(),
+      'doseReceiver': instance.doseReceiver.toJson(),
       'memo': instance.memo,
       'memoImageURL': instance.memoImageURL,
       'archivedDateTime': const NullableTimestampConverter().toJson(instance.archivedDateTime),
@@ -52,6 +52,7 @@ Map<String, dynamic> _$$MedicineScheduleNotificationSettingImplToJson(_$Medicine
     };
 
 _$MedicationScheduleImpl _$$MedicationScheduleImplFromJson(Map<String, dynamic> json) => _$MedicationScheduleImpl(
+      id: json['id'] as String,
       hour: (json['hour'] as num).toInt(),
       minute: (json['minute'] as num).toInt(),
       quantityMemo: json['quantityMemo'] as String,
@@ -59,6 +60,7 @@ _$MedicationScheduleImpl _$$MedicationScheduleImplFromJson(Map<String, dynamic> 
     );
 
 Map<String, dynamic> _$$MedicationScheduleImplToJson(_$MedicationScheduleImpl instance) => <String, dynamic>{
+      'id': instance.id,
       'hour': instance.hour,
       'minute': instance.minute,
       'quantityMemo': instance.quantityMemo,
