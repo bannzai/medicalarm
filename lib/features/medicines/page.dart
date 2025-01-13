@@ -128,8 +128,16 @@ class MedicineTile extends HookConsumerWidget {
         Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Text(medicine.schedules.first.toTimeString()),
-            Text(medicine.name),
+            Text(tileValue.scheduleTime.toTimeString()),
+            Text(tileValue.doseReceiver.name),
+            for (final dosingRow in tileValue.dosingRows) ...[
+              Row(
+                children: [
+                  Text(dosingRow.medicineName),
+                  Text(dosingRow.quantityMemo),
+                ],
+              ),
+            ],
           ],
         ),
       ],
