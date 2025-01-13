@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:medicalarm/entity/medicine.dart';
 import 'package:medicalarm/features/medicine_form/components/schedule/add_button.dart';
 import 'package:medicalarm/features/medicine_form/components/schedule/delete_button.dart';
@@ -24,14 +23,15 @@ class MedicineScheduleSection extends StatelessWidget {
             padding: const EdgeInsets.symmetric(horizontal: 16.0),
             child: Row(
               children: [
-                MedicineScheduleReminderTime(
-                  schedule: schedule,
-                  schedules: schedules,
-                  index: index,
+                Expanded(
+                  child: MedicineScheduleReminderTime(schedule: schedule, schedules: schedules, index: index),
                 ),
-                HookConsumer(builder: (context, ref, child) {
-                  return MedicineScheduleQuantityMemoTextField(schedule: schedule, schedules: schedules, index: index);
-                }),
+                const SizedBox(width: 10),
+                SizedBox(
+                  height: 48,
+                  width: 180,
+                  child: MedicineScheduleQuantityMemoTextField(schedule: schedule, schedules: schedules, index: index),
+                ),
                 MedicineScheduleNotificationSettingButton(schedule: schedule, schedules: schedules, index: index),
                 MedicineScheduleDeleteButton(schedule: schedule, schedules: schedules),
               ],
