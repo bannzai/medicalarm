@@ -24,6 +24,7 @@ mixin _$MedicationHistory {
   Medicine get medicine => throw _privateConstructorUsedError;
   MedicationHistoryActionKind get actionKind => throw _privateConstructorUsedError;
   MedicationHistoryAction get action => throw _privateConstructorUsedError;
+  String get memo => throw _privateConstructorUsedError;
   @ClientCreatedTimestamp()
   DateTime? get createdDateTime => throw _privateConstructorUsedError;
   @ClientUpdatedTimestamp()
@@ -52,6 +53,7 @@ abstract class $MedicationHistoryCopyWith<$Res> {
       Medicine medicine,
       MedicationHistoryActionKind actionKind,
       MedicationHistoryAction action,
+      String memo,
       @ClientCreatedTimestamp() DateTime? createdDateTime,
       @ClientUpdatedTimestamp() DateTime? updatedDateTime,
       @ServerCreatedTimestamp() DateTime? serverCreatedDateTime,
@@ -79,6 +81,7 @@ class _$MedicationHistoryCopyWithImpl<$Res, $Val extends MedicationHistory> impl
     Object? medicine = null,
     Object? actionKind = null,
     Object? action = null,
+    Object? memo = null,
     Object? createdDateTime = freezed,
     Object? updatedDateTime = freezed,
     Object? serverCreatedDateTime = freezed,
@@ -101,6 +104,10 @@ class _$MedicationHistoryCopyWithImpl<$Res, $Val extends MedicationHistory> impl
           ? _value.action
           : action // ignore: cast_nullable_to_non_nullable
               as MedicationHistoryAction,
+      memo: null == memo
+          ? _value.memo
+          : memo // ignore: cast_nullable_to_non_nullable
+              as String,
       createdDateTime: freezed == createdDateTime
           ? _value.createdDateTime
           : createdDateTime // ignore: cast_nullable_to_non_nullable
@@ -152,6 +159,7 @@ abstract class _$$MedicationHistoryImplCopyWith<$Res> implements $MedicationHist
       Medicine medicine,
       MedicationHistoryActionKind actionKind,
       MedicationHistoryAction action,
+      String memo,
       @ClientCreatedTimestamp() DateTime? createdDateTime,
       @ClientUpdatedTimestamp() DateTime? updatedDateTime,
       @ServerCreatedTimestamp() DateTime? serverCreatedDateTime,
@@ -177,6 +185,7 @@ class __$$MedicationHistoryImplCopyWithImpl<$Res> extends _$MedicationHistoryCop
     Object? medicine = null,
     Object? actionKind = null,
     Object? action = null,
+    Object? memo = null,
     Object? createdDateTime = freezed,
     Object? updatedDateTime = freezed,
     Object? serverCreatedDateTime = freezed,
@@ -199,6 +208,10 @@ class __$$MedicationHistoryImplCopyWithImpl<$Res> extends _$MedicationHistoryCop
           ? _value.action
           : action // ignore: cast_nullable_to_non_nullable
               as MedicationHistoryAction,
+      memo: null == memo
+          ? _value.memo
+          : memo // ignore: cast_nullable_to_non_nullable
+              as String,
       createdDateTime: freezed == createdDateTime
           ? _value.createdDateTime
           : createdDateTime // ignore: cast_nullable_to_non_nullable
@@ -228,6 +241,7 @@ class _$MedicationHistoryImpl extends _MedicationHistory {
       required this.medicine,
       required this.actionKind,
       required this.action,
+      required this.memo,
       @ClientCreatedTimestamp() this.createdDateTime,
       @ClientUpdatedTimestamp() this.updatedDateTime,
       @ServerCreatedTimestamp() this.serverCreatedDateTime,
@@ -245,6 +259,8 @@ class _$MedicationHistoryImpl extends _MedicationHistory {
   @override
   final MedicationHistoryAction action;
   @override
+  final String memo;
+  @override
   @ClientCreatedTimestamp()
   final DateTime? createdDateTime;
   @override
@@ -259,7 +275,7 @@ class _$MedicationHistoryImpl extends _MedicationHistory {
 
   @override
   String toString() {
-    return 'MedicationHistory(id: $id, medicine: $medicine, actionKind: $actionKind, action: $action, createdDateTime: $createdDateTime, updatedDateTime: $updatedDateTime, serverCreatedDateTime: $serverCreatedDateTime, serverUpdatedDateTime: $serverUpdatedDateTime)';
+    return 'MedicationHistory(id: $id, medicine: $medicine, actionKind: $actionKind, action: $action, memo: $memo, createdDateTime: $createdDateTime, updatedDateTime: $updatedDateTime, serverCreatedDateTime: $serverCreatedDateTime, serverUpdatedDateTime: $serverUpdatedDateTime)';
   }
 
   @override
@@ -271,6 +287,7 @@ class _$MedicationHistoryImpl extends _MedicationHistory {
             (identical(other.medicine, medicine) || other.medicine == medicine) &&
             (identical(other.actionKind, actionKind) || other.actionKind == actionKind) &&
             (identical(other.action, action) || other.action == action) &&
+            (identical(other.memo, memo) || other.memo == memo) &&
             (identical(other.createdDateTime, createdDateTime) || other.createdDateTime == createdDateTime) &&
             (identical(other.updatedDateTime, updatedDateTime) || other.updatedDateTime == updatedDateTime) &&
             (identical(other.serverCreatedDateTime, serverCreatedDateTime) || other.serverCreatedDateTime == serverCreatedDateTime) &&
@@ -279,8 +296,8 @@ class _$MedicationHistoryImpl extends _MedicationHistory {
 
   @JsonKey(includeFromJson: false, includeToJson: false)
   @override
-  int get hashCode =>
-      Object.hash(runtimeType, id, medicine, actionKind, action, createdDateTime, updatedDateTime, serverCreatedDateTime, serverUpdatedDateTime);
+  int get hashCode => Object.hash(
+      runtimeType, id, medicine, actionKind, action, memo, createdDateTime, updatedDateTime, serverCreatedDateTime, serverUpdatedDateTime);
 
   /// Create a copy of MedicationHistory
   /// with the given fields replaced by the non-null parameter values.
@@ -304,6 +321,7 @@ abstract class _MedicationHistory extends MedicationHistory {
       required final Medicine medicine,
       required final MedicationHistoryActionKind actionKind,
       required final MedicationHistoryAction action,
+      required final String memo,
       @ClientCreatedTimestamp() final DateTime? createdDateTime,
       @ClientUpdatedTimestamp() final DateTime? updatedDateTime,
       @ServerCreatedTimestamp() final DateTime? serverCreatedDateTime,
@@ -320,6 +338,8 @@ abstract class _MedicationHistory extends MedicationHistory {
   MedicationHistoryActionKind get actionKind;
   @override
   MedicationHistoryAction get action;
+  @override
+  String get memo;
   @override
   @ClientCreatedTimestamp()
   DateTime? get createdDateTime;
@@ -357,25 +377,26 @@ MedicationHistoryAction _$MedicationHistoryActionFromJson(Map<String, dynamic> j
 /// @nodoc
 mixin _$MedicationHistoryAction {
   MedicationHistoryActionKind get kind => throw _privateConstructorUsedError;
+  MedicationSchedule get medicationSchedule => throw _privateConstructorUsedError;
   @optionalTypeArgs
   TResult when<TResult extends Object?>({
-    required TResult Function(MedicationHistoryActionKind kind) take,
-    required TResult Function(MedicationHistoryActionKind kind, MedicationHistory takeAction) revert,
-    required TResult Function(MedicationHistoryActionKind kind) skip,
+    required TResult Function(MedicationHistoryActionKind kind, MedicationSchedule medicationSchedule) take,
+    required TResult Function(MedicationHistoryActionKind kind, MedicationHistory takeAction, MedicationSchedule medicationSchedule) revert,
+    required TResult Function(MedicationHistoryActionKind kind, MedicationSchedule medicationSchedule) skip,
   }) =>
       throw _privateConstructorUsedError;
   @optionalTypeArgs
   TResult? whenOrNull<TResult extends Object?>({
-    TResult? Function(MedicationHistoryActionKind kind)? take,
-    TResult? Function(MedicationHistoryActionKind kind, MedicationHistory takeAction)? revert,
-    TResult? Function(MedicationHistoryActionKind kind)? skip,
+    TResult? Function(MedicationHistoryActionKind kind, MedicationSchedule medicationSchedule)? take,
+    TResult? Function(MedicationHistoryActionKind kind, MedicationHistory takeAction, MedicationSchedule medicationSchedule)? revert,
+    TResult? Function(MedicationHistoryActionKind kind, MedicationSchedule medicationSchedule)? skip,
   }) =>
       throw _privateConstructorUsedError;
   @optionalTypeArgs
   TResult maybeWhen<TResult extends Object?>({
-    TResult Function(MedicationHistoryActionKind kind)? take,
-    TResult Function(MedicationHistoryActionKind kind, MedicationHistory takeAction)? revert,
-    TResult Function(MedicationHistoryActionKind kind)? skip,
+    TResult Function(MedicationHistoryActionKind kind, MedicationSchedule medicationSchedule)? take,
+    TResult Function(MedicationHistoryActionKind kind, MedicationHistory takeAction, MedicationSchedule medicationSchedule)? revert,
+    TResult Function(MedicationHistoryActionKind kind, MedicationSchedule medicationSchedule)? skip,
     required TResult orElse(),
   }) =>
       throw _privateConstructorUsedError;
@@ -416,7 +437,9 @@ abstract class $MedicationHistoryActionCopyWith<$Res> {
   factory $MedicationHistoryActionCopyWith(MedicationHistoryAction value, $Res Function(MedicationHistoryAction) then) =
       _$MedicationHistoryActionCopyWithImpl<$Res, MedicationHistoryAction>;
   @useResult
-  $Res call({MedicationHistoryActionKind kind});
+  $Res call({MedicationHistoryActionKind kind, MedicationSchedule medicationSchedule});
+
+  $MedicationScheduleCopyWith<$Res> get medicationSchedule;
 }
 
 /// @nodoc
@@ -434,13 +457,28 @@ class _$MedicationHistoryActionCopyWithImpl<$Res, $Val extends MedicationHistory
   @override
   $Res call({
     Object? kind = null,
+    Object? medicationSchedule = null,
   }) {
     return _then(_value.copyWith(
       kind: null == kind
           ? _value.kind
           : kind // ignore: cast_nullable_to_non_nullable
               as MedicationHistoryActionKind,
+      medicationSchedule: null == medicationSchedule
+          ? _value.medicationSchedule
+          : medicationSchedule // ignore: cast_nullable_to_non_nullable
+              as MedicationSchedule,
     ) as $Val);
+  }
+
+  /// Create a copy of MedicationHistoryAction
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $MedicationScheduleCopyWith<$Res> get medicationSchedule {
+    return $MedicationScheduleCopyWith<$Res>(_value.medicationSchedule, (value) {
+      return _then(_value.copyWith(medicationSchedule: value) as $Val);
+    });
   }
 }
 
@@ -450,7 +488,10 @@ abstract class _$$TakeMedicationHistoryActionImplCopyWith<$Res> implements $Medi
       __$$TakeMedicationHistoryActionImplCopyWithImpl<$Res>;
   @override
   @useResult
-  $Res call({MedicationHistoryActionKind kind});
+  $Res call({MedicationHistoryActionKind kind, MedicationSchedule medicationSchedule});
+
+  @override
+  $MedicationScheduleCopyWith<$Res> get medicationSchedule;
 }
 
 /// @nodoc
@@ -465,12 +506,17 @@ class __$$TakeMedicationHistoryActionImplCopyWithImpl<$Res> extends _$Medication
   @override
   $Res call({
     Object? kind = null,
+    Object? medicationSchedule = null,
   }) {
     return _then(_$TakeMedicationHistoryActionImpl(
       kind: null == kind
           ? _value.kind
           : kind // ignore: cast_nullable_to_non_nullable
               as MedicationHistoryActionKind,
+      medicationSchedule: null == medicationSchedule
+          ? _value.medicationSchedule
+          : medicationSchedule // ignore: cast_nullable_to_non_nullable
+              as MedicationSchedule,
     ));
   }
 }
@@ -479,7 +525,7 @@ class __$$TakeMedicationHistoryActionImplCopyWithImpl<$Res> extends _$Medication
 
 @JsonSerializable(explicitToJson: true)
 class _$TakeMedicationHistoryActionImpl extends TakeMedicationHistoryAction {
-  const _$TakeMedicationHistoryActionImpl({this.kind = MedicationHistoryActionKind.take, final String? $type})
+  const _$TakeMedicationHistoryActionImpl({this.kind = MedicationHistoryActionKind.take, required this.medicationSchedule, final String? $type})
       : $type = $type ?? 'take',
         super._();
 
@@ -488,24 +534,29 @@ class _$TakeMedicationHistoryActionImpl extends TakeMedicationHistoryAction {
   @override
   @JsonKey()
   final MedicationHistoryActionKind kind;
+  @override
+  final MedicationSchedule medicationSchedule;
 
   @JsonKey(name: 'runtimeType')
   final String $type;
 
   @override
   String toString() {
-    return 'MedicationHistoryAction.take(kind: $kind)';
+    return 'MedicationHistoryAction.take(kind: $kind, medicationSchedule: $medicationSchedule)';
   }
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
-        (other.runtimeType == runtimeType && other is _$TakeMedicationHistoryActionImpl && (identical(other.kind, kind) || other.kind == kind));
+        (other.runtimeType == runtimeType &&
+            other is _$TakeMedicationHistoryActionImpl &&
+            (identical(other.kind, kind) || other.kind == kind) &&
+            (identical(other.medicationSchedule, medicationSchedule) || other.medicationSchedule == medicationSchedule));
   }
 
   @JsonKey(includeFromJson: false, includeToJson: false)
   @override
-  int get hashCode => Object.hash(runtimeType, kind);
+  int get hashCode => Object.hash(runtimeType, kind, medicationSchedule);
 
   /// Create a copy of MedicationHistoryAction
   /// with the given fields replaced by the non-null parameter values.
@@ -518,33 +569,33 @@ class _$TakeMedicationHistoryActionImpl extends TakeMedicationHistoryAction {
   @override
   @optionalTypeArgs
   TResult when<TResult extends Object?>({
-    required TResult Function(MedicationHistoryActionKind kind) take,
-    required TResult Function(MedicationHistoryActionKind kind, MedicationHistory takeAction) revert,
-    required TResult Function(MedicationHistoryActionKind kind) skip,
+    required TResult Function(MedicationHistoryActionKind kind, MedicationSchedule medicationSchedule) take,
+    required TResult Function(MedicationHistoryActionKind kind, MedicationHistory takeAction, MedicationSchedule medicationSchedule) revert,
+    required TResult Function(MedicationHistoryActionKind kind, MedicationSchedule medicationSchedule) skip,
   }) {
-    return take(kind);
+    return take(kind, medicationSchedule);
   }
 
   @override
   @optionalTypeArgs
   TResult? whenOrNull<TResult extends Object?>({
-    TResult? Function(MedicationHistoryActionKind kind)? take,
-    TResult? Function(MedicationHistoryActionKind kind, MedicationHistory takeAction)? revert,
-    TResult? Function(MedicationHistoryActionKind kind)? skip,
+    TResult? Function(MedicationHistoryActionKind kind, MedicationSchedule medicationSchedule)? take,
+    TResult? Function(MedicationHistoryActionKind kind, MedicationHistory takeAction, MedicationSchedule medicationSchedule)? revert,
+    TResult? Function(MedicationHistoryActionKind kind, MedicationSchedule medicationSchedule)? skip,
   }) {
-    return take?.call(kind);
+    return take?.call(kind, medicationSchedule);
   }
 
   @override
   @optionalTypeArgs
   TResult maybeWhen<TResult extends Object?>({
-    TResult Function(MedicationHistoryActionKind kind)? take,
-    TResult Function(MedicationHistoryActionKind kind, MedicationHistory takeAction)? revert,
-    TResult Function(MedicationHistoryActionKind kind)? skip,
+    TResult Function(MedicationHistoryActionKind kind, MedicationSchedule medicationSchedule)? take,
+    TResult Function(MedicationHistoryActionKind kind, MedicationHistory takeAction, MedicationSchedule medicationSchedule)? revert,
+    TResult Function(MedicationHistoryActionKind kind, MedicationSchedule medicationSchedule)? skip,
     required TResult orElse(),
   }) {
     if (take != null) {
-      return take(kind);
+      return take(kind, medicationSchedule);
     }
     return orElse();
   }
@@ -592,13 +643,16 @@ class _$TakeMedicationHistoryActionImpl extends TakeMedicationHistoryAction {
 }
 
 abstract class TakeMedicationHistoryAction extends MedicationHistoryAction {
-  const factory TakeMedicationHistoryAction({final MedicationHistoryActionKind kind}) = _$TakeMedicationHistoryActionImpl;
+  const factory TakeMedicationHistoryAction({final MedicationHistoryActionKind kind, required final MedicationSchedule medicationSchedule}) =
+      _$TakeMedicationHistoryActionImpl;
   const TakeMedicationHistoryAction._() : super._();
 
   factory TakeMedicationHistoryAction.fromJson(Map<String, dynamic> json) = _$TakeMedicationHistoryActionImpl.fromJson;
 
   @override
   MedicationHistoryActionKind get kind;
+  @override
+  MedicationSchedule get medicationSchedule;
 
   /// Create a copy of MedicationHistoryAction
   /// with the given fields replaced by the non-null parameter values.
@@ -614,9 +668,11 @@ abstract class _$$RevertMedicationHistoryActionImplCopyWith<$Res> implements $Me
       __$$RevertMedicationHistoryActionImplCopyWithImpl<$Res>;
   @override
   @useResult
-  $Res call({MedicationHistoryActionKind kind, MedicationHistory takeAction});
+  $Res call({MedicationHistoryActionKind kind, MedicationHistory takeAction, MedicationSchedule medicationSchedule});
 
   $MedicationHistoryCopyWith<$Res> get takeAction;
+  @override
+  $MedicationScheduleCopyWith<$Res> get medicationSchedule;
 }
 
 /// @nodoc
@@ -633,6 +689,7 @@ class __$$RevertMedicationHistoryActionImplCopyWithImpl<$Res> extends _$Medicati
   $Res call({
     Object? kind = null,
     Object? takeAction = null,
+    Object? medicationSchedule = null,
   }) {
     return _then(_$RevertMedicationHistoryActionImpl(
       kind: null == kind
@@ -643,6 +700,10 @@ class __$$RevertMedicationHistoryActionImplCopyWithImpl<$Res> extends _$Medicati
           ? _value.takeAction
           : takeAction // ignore: cast_nullable_to_non_nullable
               as MedicationHistory,
+      medicationSchedule: null == medicationSchedule
+          ? _value.medicationSchedule
+          : medicationSchedule // ignore: cast_nullable_to_non_nullable
+              as MedicationSchedule,
     ));
   }
 
@@ -661,7 +722,8 @@ class __$$RevertMedicationHistoryActionImplCopyWithImpl<$Res> extends _$Medicati
 
 @JsonSerializable(explicitToJson: true)
 class _$RevertMedicationHistoryActionImpl extends RevertMedicationHistoryAction {
-  const _$RevertMedicationHistoryActionImpl({this.kind = MedicationHistoryActionKind.revert, required this.takeAction, final String? $type})
+  const _$RevertMedicationHistoryActionImpl(
+      {this.kind = MedicationHistoryActionKind.revert, required this.takeAction, required this.medicationSchedule, final String? $type})
       : $type = $type ?? 'revert',
         super._();
 
@@ -672,13 +734,15 @@ class _$RevertMedicationHistoryActionImpl extends RevertMedicationHistoryAction 
   final MedicationHistoryActionKind kind;
   @override
   final MedicationHistory takeAction;
+  @override
+  final MedicationSchedule medicationSchedule;
 
   @JsonKey(name: 'runtimeType')
   final String $type;
 
   @override
   String toString() {
-    return 'MedicationHistoryAction.revert(kind: $kind, takeAction: $takeAction)';
+    return 'MedicationHistoryAction.revert(kind: $kind, takeAction: $takeAction, medicationSchedule: $medicationSchedule)';
   }
 
   @override
@@ -687,12 +751,13 @@ class _$RevertMedicationHistoryActionImpl extends RevertMedicationHistoryAction 
         (other.runtimeType == runtimeType &&
             other is _$RevertMedicationHistoryActionImpl &&
             (identical(other.kind, kind) || other.kind == kind) &&
-            (identical(other.takeAction, takeAction) || other.takeAction == takeAction));
+            (identical(other.takeAction, takeAction) || other.takeAction == takeAction) &&
+            (identical(other.medicationSchedule, medicationSchedule) || other.medicationSchedule == medicationSchedule));
   }
 
   @JsonKey(includeFromJson: false, includeToJson: false)
   @override
-  int get hashCode => Object.hash(runtimeType, kind, takeAction);
+  int get hashCode => Object.hash(runtimeType, kind, takeAction, medicationSchedule);
 
   /// Create a copy of MedicationHistoryAction
   /// with the given fields replaced by the non-null parameter values.
@@ -705,33 +770,33 @@ class _$RevertMedicationHistoryActionImpl extends RevertMedicationHistoryAction 
   @override
   @optionalTypeArgs
   TResult when<TResult extends Object?>({
-    required TResult Function(MedicationHistoryActionKind kind) take,
-    required TResult Function(MedicationHistoryActionKind kind, MedicationHistory takeAction) revert,
-    required TResult Function(MedicationHistoryActionKind kind) skip,
+    required TResult Function(MedicationHistoryActionKind kind, MedicationSchedule medicationSchedule) take,
+    required TResult Function(MedicationHistoryActionKind kind, MedicationHistory takeAction, MedicationSchedule medicationSchedule) revert,
+    required TResult Function(MedicationHistoryActionKind kind, MedicationSchedule medicationSchedule) skip,
   }) {
-    return revert(kind, takeAction);
+    return revert(kind, takeAction, medicationSchedule);
   }
 
   @override
   @optionalTypeArgs
   TResult? whenOrNull<TResult extends Object?>({
-    TResult? Function(MedicationHistoryActionKind kind)? take,
-    TResult? Function(MedicationHistoryActionKind kind, MedicationHistory takeAction)? revert,
-    TResult? Function(MedicationHistoryActionKind kind)? skip,
+    TResult? Function(MedicationHistoryActionKind kind, MedicationSchedule medicationSchedule)? take,
+    TResult? Function(MedicationHistoryActionKind kind, MedicationHistory takeAction, MedicationSchedule medicationSchedule)? revert,
+    TResult? Function(MedicationHistoryActionKind kind, MedicationSchedule medicationSchedule)? skip,
   }) {
-    return revert?.call(kind, takeAction);
+    return revert?.call(kind, takeAction, medicationSchedule);
   }
 
   @override
   @optionalTypeArgs
   TResult maybeWhen<TResult extends Object?>({
-    TResult Function(MedicationHistoryActionKind kind)? take,
-    TResult Function(MedicationHistoryActionKind kind, MedicationHistory takeAction)? revert,
-    TResult Function(MedicationHistoryActionKind kind)? skip,
+    TResult Function(MedicationHistoryActionKind kind, MedicationSchedule medicationSchedule)? take,
+    TResult Function(MedicationHistoryActionKind kind, MedicationHistory takeAction, MedicationSchedule medicationSchedule)? revert,
+    TResult Function(MedicationHistoryActionKind kind, MedicationSchedule medicationSchedule)? skip,
     required TResult orElse(),
   }) {
     if (revert != null) {
-      return revert(kind, takeAction);
+      return revert(kind, takeAction, medicationSchedule);
     }
     return orElse();
   }
@@ -779,8 +844,10 @@ class _$RevertMedicationHistoryActionImpl extends RevertMedicationHistoryAction 
 }
 
 abstract class RevertMedicationHistoryAction extends MedicationHistoryAction {
-  const factory RevertMedicationHistoryAction({final MedicationHistoryActionKind kind, required final MedicationHistory takeAction}) =
-      _$RevertMedicationHistoryActionImpl;
+  const factory RevertMedicationHistoryAction(
+      {final MedicationHistoryActionKind kind,
+      required final MedicationHistory takeAction,
+      required final MedicationSchedule medicationSchedule}) = _$RevertMedicationHistoryActionImpl;
   const RevertMedicationHistoryAction._() : super._();
 
   factory RevertMedicationHistoryAction.fromJson(Map<String, dynamic> json) = _$RevertMedicationHistoryActionImpl.fromJson;
@@ -788,6 +855,8 @@ abstract class RevertMedicationHistoryAction extends MedicationHistoryAction {
   @override
   MedicationHistoryActionKind get kind;
   MedicationHistory get takeAction;
+  @override
+  MedicationSchedule get medicationSchedule;
 
   /// Create a copy of MedicationHistoryAction
   /// with the given fields replaced by the non-null parameter values.
@@ -802,7 +871,10 @@ abstract class _$$SkipMedicationHistoryActionImplCopyWith<$Res> implements $Medi
       __$$SkipMedicationHistoryActionImplCopyWithImpl<$Res>;
   @override
   @useResult
-  $Res call({MedicationHistoryActionKind kind});
+  $Res call({MedicationHistoryActionKind kind, MedicationSchedule medicationSchedule});
+
+  @override
+  $MedicationScheduleCopyWith<$Res> get medicationSchedule;
 }
 
 /// @nodoc
@@ -817,12 +889,17 @@ class __$$SkipMedicationHistoryActionImplCopyWithImpl<$Res> extends _$Medication
   @override
   $Res call({
     Object? kind = null,
+    Object? medicationSchedule = null,
   }) {
     return _then(_$SkipMedicationHistoryActionImpl(
       kind: null == kind
           ? _value.kind
           : kind // ignore: cast_nullable_to_non_nullable
               as MedicationHistoryActionKind,
+      medicationSchedule: null == medicationSchedule
+          ? _value.medicationSchedule
+          : medicationSchedule // ignore: cast_nullable_to_non_nullable
+              as MedicationSchedule,
     ));
   }
 }
@@ -831,7 +908,7 @@ class __$$SkipMedicationHistoryActionImplCopyWithImpl<$Res> extends _$Medication
 
 @JsonSerializable(explicitToJson: true)
 class _$SkipMedicationHistoryActionImpl extends SkipMedicationHistoryAction {
-  const _$SkipMedicationHistoryActionImpl({this.kind = MedicationHistoryActionKind.skip, final String? $type})
+  const _$SkipMedicationHistoryActionImpl({this.kind = MedicationHistoryActionKind.skip, required this.medicationSchedule, final String? $type})
       : $type = $type ?? 'skip',
         super._();
 
@@ -840,24 +917,29 @@ class _$SkipMedicationHistoryActionImpl extends SkipMedicationHistoryAction {
   @override
   @JsonKey()
   final MedicationHistoryActionKind kind;
+  @override
+  final MedicationSchedule medicationSchedule;
 
   @JsonKey(name: 'runtimeType')
   final String $type;
 
   @override
   String toString() {
-    return 'MedicationHistoryAction.skip(kind: $kind)';
+    return 'MedicationHistoryAction.skip(kind: $kind, medicationSchedule: $medicationSchedule)';
   }
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
-        (other.runtimeType == runtimeType && other is _$SkipMedicationHistoryActionImpl && (identical(other.kind, kind) || other.kind == kind));
+        (other.runtimeType == runtimeType &&
+            other is _$SkipMedicationHistoryActionImpl &&
+            (identical(other.kind, kind) || other.kind == kind) &&
+            (identical(other.medicationSchedule, medicationSchedule) || other.medicationSchedule == medicationSchedule));
   }
 
   @JsonKey(includeFromJson: false, includeToJson: false)
   @override
-  int get hashCode => Object.hash(runtimeType, kind);
+  int get hashCode => Object.hash(runtimeType, kind, medicationSchedule);
 
   /// Create a copy of MedicationHistoryAction
   /// with the given fields replaced by the non-null parameter values.
@@ -870,33 +952,33 @@ class _$SkipMedicationHistoryActionImpl extends SkipMedicationHistoryAction {
   @override
   @optionalTypeArgs
   TResult when<TResult extends Object?>({
-    required TResult Function(MedicationHistoryActionKind kind) take,
-    required TResult Function(MedicationHistoryActionKind kind, MedicationHistory takeAction) revert,
-    required TResult Function(MedicationHistoryActionKind kind) skip,
+    required TResult Function(MedicationHistoryActionKind kind, MedicationSchedule medicationSchedule) take,
+    required TResult Function(MedicationHistoryActionKind kind, MedicationHistory takeAction, MedicationSchedule medicationSchedule) revert,
+    required TResult Function(MedicationHistoryActionKind kind, MedicationSchedule medicationSchedule) skip,
   }) {
-    return skip(kind);
+    return skip(kind, medicationSchedule);
   }
 
   @override
   @optionalTypeArgs
   TResult? whenOrNull<TResult extends Object?>({
-    TResult? Function(MedicationHistoryActionKind kind)? take,
-    TResult? Function(MedicationHistoryActionKind kind, MedicationHistory takeAction)? revert,
-    TResult? Function(MedicationHistoryActionKind kind)? skip,
+    TResult? Function(MedicationHistoryActionKind kind, MedicationSchedule medicationSchedule)? take,
+    TResult? Function(MedicationHistoryActionKind kind, MedicationHistory takeAction, MedicationSchedule medicationSchedule)? revert,
+    TResult? Function(MedicationHistoryActionKind kind, MedicationSchedule medicationSchedule)? skip,
   }) {
-    return skip?.call(kind);
+    return skip?.call(kind, medicationSchedule);
   }
 
   @override
   @optionalTypeArgs
   TResult maybeWhen<TResult extends Object?>({
-    TResult Function(MedicationHistoryActionKind kind)? take,
-    TResult Function(MedicationHistoryActionKind kind, MedicationHistory takeAction)? revert,
-    TResult Function(MedicationHistoryActionKind kind)? skip,
+    TResult Function(MedicationHistoryActionKind kind, MedicationSchedule medicationSchedule)? take,
+    TResult Function(MedicationHistoryActionKind kind, MedicationHistory takeAction, MedicationSchedule medicationSchedule)? revert,
+    TResult Function(MedicationHistoryActionKind kind, MedicationSchedule medicationSchedule)? skip,
     required TResult orElse(),
   }) {
     if (skip != null) {
-      return skip(kind);
+      return skip(kind, medicationSchedule);
     }
     return orElse();
   }
@@ -944,13 +1026,16 @@ class _$SkipMedicationHistoryActionImpl extends SkipMedicationHistoryAction {
 }
 
 abstract class SkipMedicationHistoryAction extends MedicationHistoryAction {
-  const factory SkipMedicationHistoryAction({final MedicationHistoryActionKind kind}) = _$SkipMedicationHistoryActionImpl;
+  const factory SkipMedicationHistoryAction({final MedicationHistoryActionKind kind, required final MedicationSchedule medicationSchedule}) =
+      _$SkipMedicationHistoryActionImpl;
   const SkipMedicationHistoryAction._() : super._();
 
   factory SkipMedicationHistoryAction.fromJson(Map<String, dynamic> json) = _$SkipMedicationHistoryActionImpl.fromJson;
 
   @override
   MedicationHistoryActionKind get kind;
+  @override
+  MedicationSchedule get medicationSchedule;
 
   /// Create a copy of MedicationHistoryAction
   /// with the given fields replaced by the non-null parameter values.

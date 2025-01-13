@@ -14,6 +14,7 @@ class MedicationHistory with _$MedicationHistory {
     required Medicine medicine,
     required MedicationHistoryActionKind actionKind,
     required MedicationHistoryAction action,
+    required String memo,
     @ClientCreatedTimestamp() DateTime? createdDateTime,
     @ClientUpdatedTimestamp() DateTime? updatedDateTime,
     @ServerCreatedTimestamp() DateTime? serverCreatedDateTime,
@@ -35,6 +36,7 @@ sealed class MedicationHistoryAction with _$MedicationHistoryAction {
   @JsonSerializable(explicitToJson: true)
   const factory MedicationHistoryAction.take({
     @Default(MedicationHistoryActionKind.take) MedicationHistoryActionKind kind,
+    required MedicationSchedule medicationSchedule,
   }) = TakeMedicationHistoryAction;
 
   // 服用取り消し
@@ -42,12 +44,14 @@ sealed class MedicationHistoryAction with _$MedicationHistoryAction {
   const factory MedicationHistoryAction.revert({
     @Default(MedicationHistoryActionKind.revert) MedicationHistoryActionKind kind,
     required MedicationHistory takeAction,
+    required MedicationSchedule medicationSchedule,
   }) = RevertMedicationHistoryAction;
 
   // 服用スキップ
   @JsonSerializable(explicitToJson: true)
   const factory MedicationHistoryAction.skip({
     @Default(MedicationHistoryActionKind.skip) MedicationHistoryActionKind kind,
+    required MedicationSchedule medicationSchedule,
   }) = SkipMedicationHistoryAction;
 
   const MedicationHistoryAction._();
