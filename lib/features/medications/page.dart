@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:medicalarm/entity/medication_history.dart';
+import 'package:medicalarm/provider/medication_history.dart';
 
 class MedicationsPage extends HookConsumerWidget {
   const MedicationsPage({super.key});
