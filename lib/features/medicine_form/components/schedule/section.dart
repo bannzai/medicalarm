@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:medicalarm/entity/medicine.dart';
 import 'package:medicalarm/features/medicine_form/components/schedule/add_button.dart';
 import 'package:medicalarm/features/medicine_form/components/schedule/delete_button.dart';
 import 'package:medicalarm/features/medicine_form/components/schedule/label.dart';
 import 'package:medicalarm/features/medicine_form/components/schedule/notification_setting_button.dart';
+import 'package:medicalarm/features/medicine_form/components/schedule/quantity_memo_text_field.dart';
 import 'package:medicalarm/features/medicine_form/components/section_layout.dart';
 
 class MedicineScheduleSection extends StatelessWidget {
@@ -27,7 +29,10 @@ class MedicineScheduleSection extends StatelessWidget {
                   schedules: schedules,
                   index: index,
                 ),
-                MedicineScheduleNotificationSettingButton(schedule: schedule),
+                HookConsumer(builder: (context, ref, child) {
+                  return MedicineScheduleQuantityMemoTextField(schedule: schedule, schedules: schedules, index: index);
+                }),
+                MedicineScheduleNotificationSettingButton(schedule: schedule, schedules: schedules, index: index),
                 MedicineScheduleDeleteButton(schedule: schedule, schedules: schedules),
               ],
             ),

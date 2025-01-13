@@ -4,7 +4,14 @@ import 'package:medicalarm/features/medicine_schedule_notification_form.dart/pag
 
 class MedicineScheduleNotificationSettingButton extends StatelessWidget {
   final MedicationSchedule schedule;
-  const MedicineScheduleNotificationSettingButton({super.key, required this.schedule});
+  final ValueNotifier<List<MedicationSchedule>> schedules;
+  final int index;
+  const MedicineScheduleNotificationSettingButton({
+    super.key,
+    required this.schedule,
+    required this.schedules,
+    required this.index,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -13,7 +20,7 @@ class MedicineScheduleNotificationSettingButton extends StatelessWidget {
         Navigator.push(
           context,
           MaterialPageRoute(
-            builder: (context) => MedicineScheduleNotificationFormPage(schedule: schedule),
+            builder: (context) => MedicineScheduleNotificationFormPage(schedule: schedule, schedules: schedules, index: index,),
           ),
         );
       },
