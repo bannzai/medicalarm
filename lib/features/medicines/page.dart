@@ -1,10 +1,15 @@
+import 'package:async_value_group/async_value_group.dart';
+import 'package:collection/collection.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:medicalarm/components/loading/indicator.dart';
 import 'package:medicalarm/components/retry/page.dart';
+import 'package:medicalarm/entity/medication_history.dart';
 import 'package:medicalarm/entity/medicine.dart';
 import 'package:medicalarm/features/medicines/components/add_button.dart';
+import 'package:medicalarm/features/medicines/entity/grouped.dart';
+import 'package:medicalarm/provider/medication_history.dart';
 import 'package:medicalarm/provider/medicine.dart';
 
 class MedicinesPage extends HookConsumerWidget {
@@ -13,11 +18,12 @@ class MedicinesPage extends HookConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final medicines = ref.watch(activeMedicinesProvider);
+    final medicationHistories = ref.watch(medicationHistoriesProvider);
 
     return Retry(
       retry: () => ref.invalidate(activeMedicinesProvider),
-      child: medicines.when(
-        data: (medicines) => MedicinesPageBody(medicines: medicines),
+      child: AsyncValueGroup.group2(medicines, medicationHistories).when(
+        data: (data) => MedicinesPageBody(medicines: data.$1, medicationHistories: data.$2),
         error: (error, stackTrace) => RetryPage(exception: error),
         loading: () => const IndicatorPage(),
       ),
@@ -27,9 +33,12 @@ class MedicinesPage extends HookConsumerWidget {
 
 class MedicinesPageBody extends HookConsumerWidget {
   final List<Medicine> medicines;
+  final List<MedicationHistory> medicationHistories;
+
   const MedicinesPageBody({
     super.key,
     required this.medicines,
+    required this.medicationHistories,
   });
 
   @override
@@ -45,8 +54,8 @@ class MedicinesPageBody extends HookConsumerWidget {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
-                for (final medicine in medicines) ...[
-                  MedicineTile(medicine: medicine),
+                for (final tileValue in _tileValues()) ...[
+                  MedicineTile(tileValue: tileValue),
                 ],
               ],
             ),
@@ -57,11 +66,53 @@ class MedicinesPageBody extends HookConsumerWidget {
       floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
     );
   }
+
+  List<MedicineTileValue> _tileValues() {
+    final tileValues = <MedicineTileValue>[];
+    // scheduleTimeとdoseReceiverごとのtileValuesを構築する
+    for (final medicine in medicines) {
+      final doseReceiver = medicine.doseReceiver;
+
+      for (final schedule in medicine.schedules) {
+        final scheduleTime = ScheduleTime(hour: schedule.hour, minute: schedule.minute);
+        tileValues.add(MedicineTileValue(scheduleTime: scheduleTime, doseReceiver: doseReceiver, dosingRows: []));
+      }
+    }
+
+    // dosingRowsを構築する
+    for (final medicine in medicines) {
+      final doseReceiver = medicine.doseReceiver;
+
+      for (final schedule in medicine.schedules) {
+        final scheduleTime = ScheduleTime(hour: schedule.hour, minute: schedule.minute);
+
+        final tileIndex = tileValues.indexWhere(
+          (tile) => tile.scheduleTime == scheduleTime && tile.doseReceiver == doseReceiver,
+        );
+        final tile = tileValues[tileIndex];
+
+        final dosingRows = [...tile.dosingRows];
+        final medicationHistory = medicationHistories.firstWhereOrNull(
+          (history) => history.medicine.id == medicine.id && history.action.medicationSchedule.id == schedule.id,
+        );
+        final row = MedicineDosingRowValue(
+          medicationHistory: medicationHistory,
+          medicineName: medicine.name,
+          quantityMemo: schedule.quantityMemo,
+        );
+
+        dosingRows.add(row);
+        tileValues[tileIndex] = tile.copyWith(dosingRows: [...dosingRows]);
+      }
+    }
+
+    return tileValues;
+  }
 }
 
 class MedicineTile extends HookConsumerWidget {
-  final Medicine medicine;
-  const MedicineTile({super.key, required this.medicine});
+  final MedicineTileValue tileValue;
+  const MedicineTile({super.key, required this.tileValue});
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {

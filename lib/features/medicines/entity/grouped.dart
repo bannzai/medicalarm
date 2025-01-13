@@ -26,6 +26,7 @@ class MedicineDosingRowValue with _$MedicineDosingRowValue {
 }
 
 @freezed
+// scheduleTime(id無し。値一致)とdoseReceiverごとのdosingRowsを管理する
 class MedicineTileValue with _$MedicineTileValue {
   const factory MedicineTileValue({
     required ScheduleTime scheduleTime,
