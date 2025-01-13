@@ -24,7 +24,7 @@ class MedicineAdd {
     required String name,
     required MedicationFrequency frequency,
     required List<MedicationSchedule> schedules,
-    required MedicineDoseReceiver? doseReceiver,
+    required MedicineDoseReceiver doseReceiver,
     required String memo,
     required String memoImageURL,
   }) async {
@@ -62,7 +62,7 @@ class MedicineUpdate {
     required String name,
     required MedicationFrequency frequency,
     required List<MedicationSchedule> schedules,
-    required MedicineDoseReceiver? doseReceiver,
+    required MedicineDoseReceiver doseReceiver,
     required String memo,
     required String memoImageURL,
   }) async {
