@@ -32,6 +32,19 @@ final doseReceiverAddProvider = AutoDisposeProvider<DoseReceiverAdd>.internal(
 );
 
 typedef DoseReceiverAddRef = AutoDisposeProviderRef<DoseReceiverAdd>;
+String _$firstDoseReceiverAddHash() => r'ea2fc0bd1813362eb27434493b8833f2d1b25d4a';
+
+/// See also [firstDoseReceiverAdd].
+@ProviderFor(firstDoseReceiverAdd)
+final firstDoseReceiverAddProvider = AutoDisposeProvider<FirstDoseReceiverAdd>.internal(
+  firstDoseReceiverAdd,
+  name: r'firstDoseReceiverAddProvider',
+  debugGetCreateSourceHash: const bool.fromEnvironment('dart.vm.product') ? null : _$firstDoseReceiverAddHash,
+  dependencies: <ProviderOrFamily>[userDatabaseProvider],
+  allTransitiveDependencies: <ProviderOrFamily>{userDatabaseProvider, ...?userDatabaseProvider.allTransitiveDependencies},
+);
+
+typedef FirstDoseReceiverAddRef = AutoDisposeProviderRef<FirstDoseReceiverAdd>;
 String _$doseReceiverUpdateHash() => r'f3adc895dfec5d1e814131571096ec1c893e4fda';
 
 /// See also [doseReceiverUpdate].

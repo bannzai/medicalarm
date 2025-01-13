@@ -1,5 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:medicalarm/entity/dose_receiver.dart';
+import 'package:medicalarm/entity/medicine.dart';
 import 'package:medicalarm/features/resolver/database.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 
@@ -17,12 +18,13 @@ class DoseReceiverAdd {
   DoseReceiverAdd({required this.database});
 
   Future<DoseReceiver> call({
+    String? id,
     required String name,
   }) async {
     final collectionRef = database.doseReceiversReference();
     final docRef = collectionRef.doc();
     final doseReceiver = DoseReceiver(
-      id: docRef.id,
+      id: id ?? docRef.id,
       userID: database.userID,
       name: name,
     );
@@ -35,6 +37,23 @@ class DoseReceiverAdd {
 DoseReceiverAdd doseReceiverAdd(DoseReceiverAddRef ref) {
   final database = ref.watch(userDatabaseProvider);
   return DoseReceiverAdd(database: database);
+}
+
+class FirstDoseReceiverAdd {
+  final UserDatabase database;
+
+  FirstDoseReceiverAdd({required this.database});
+
+  Future<void> call() async {
+    final doseReceiverAdd = DoseReceiverAdd(database: database);
+    await doseReceiverAdd.call(id: MedicineDoseReceiver.firstUser.id, name: MedicineDoseReceiver.firstUser.name);
+  }
+}
+
+@Riverpod(dependencies: [userDatabase])
+FirstDoseReceiverAdd firstDoseReceiverAdd(FirstDoseReceiverAddRef ref) {
+  final database = ref.watch(userDatabaseProvider);
+  return FirstDoseReceiverAdd(database: database);
 }
 
 class DoseReceiverUpdate {
