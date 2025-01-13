@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
+import 'package:medicalarm/components/loading/indicator.dart';
+import 'package:medicalarm/components/retry/page.dart';
 import 'package:medicalarm/entity/medication_history.dart';
 import 'package:medicalarm/provider/medication_history.dart';
 
@@ -10,15 +12,35 @@ class MedicationsPage extends HookConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final medicationHistories = ref.watch(medicationHistoriesProvider);
 
+    return Retry(
+      retry: () => ref.invalidate(medicationHistoriesProvider),
+      child: medicationHistories.when(
+        data: (histories) => MedicationsPageBody(histories: histories),
+        error: (error, stackTrace) => RetryPage(exception: error),
+        loading: () => const IndicatorPage(),
+      ),
+    );
+  }
+}
+
+class MedicationsPageBody extends StatelessWidget {
+  final List<MedicationHistory> histories;
+  const MedicationsPageBody({
+    super.key,
+    required this.histories,
+  });
+
+  @override
+  Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         title: const Text('服薬履歴'),
       ),
       body: SafeArea(
         child: ListView.builder(
-          itemCount: medicationHistories.length,
+          itemCount: histories.length,
           itemBuilder: (context, index) {
-            final history = medicationHistories[index];
+            final history = histories[index];
             final medicine = history.medicine;
             final schedule = history.action.medicationSchedule;
             return Padding(
