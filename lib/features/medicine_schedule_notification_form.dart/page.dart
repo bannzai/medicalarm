@@ -37,53 +37,12 @@ class MedicineScheduleNotificationFormPage extends HookConsumerWidget {
                     isFollowupEnabled: isFollowupEnabled,
                     useCriticalAlert: useCriticalAlert,
                   ),
-                  MedicineFormSectionLayout(
-                    icon: Icons.info,
-                    text: '情報',
-                    children: [
-                      MedicineScheduleQuantityMemoTextField(quantityMemo: quantityMemo),
-                    ],
-                  ),
                 ],
               ),
             ),
           ),
         ),
       ),
-    );
-  }
-}
-
-class MedicineScheduleQuantityMemoTextField extends HookConsumerWidget {
-  final ValueNotifier<String> quantityMemo;
-  const MedicineScheduleQuantityMemoTextField({super.key, required this.quantityMemo});
-
-  @override
-  Widget build(BuildContext context, WidgetRef ref) {
-    return Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: [
-        Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 12.0),
-          child: TextField(
-            controller: TextEditingController(text: quantityMemo.value),
-            onChanged: (value) {
-              quantityMemo.value = value;
-            },
-            decoration: const InputDecoration(
-              labelText: '容量',
-            ),
-          ),
-        ),
-        const SizedBox(height: 4),
-        const Padding(
-          padding: EdgeInsets.symmetric(horizontal: 16.0),
-          child: Text(
-            '容量を入力してください。(例: 1錠、100mg)。 容量は通知に表示されます。',
-            style: TextStyle(color: TextColor.gray, fontSize: 10.0),
-          ),
-        ),
-      ],
     );
   }
 }
