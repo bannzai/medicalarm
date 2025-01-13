@@ -109,6 +109,8 @@ class DoseReceiverTextField extends HookConsumerWidget {
         ),
         Expanded(
           child: TextFormField(
+            maxLines: 1,
+            maxLength: 10,
             initialValue: doseReceiver.name,
             onChanged: (value) {
               name.value = value;
