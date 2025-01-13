@@ -52,10 +52,4 @@ sealed class MedicationHistoryAction with _$MedicationHistoryAction {
 
   const MedicationHistoryAction._();
   factory MedicationHistoryAction.fromJson(Map<String, dynamic> json) => _$MedicationHistoryActionFromJson(json);
-
-  MedicationHistoryActionKind get kind => switch (this) {
-        TakeMedicationHistoryAction() => MedicationHistoryActionKind.take,
-        RevertMedicationHistoryAction() => MedicationHistoryActionKind.revert,
-        SkipMedicationHistoryAction() => MedicationHistoryActionKind.skip,
-      };
 }
