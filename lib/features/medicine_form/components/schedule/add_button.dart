@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:medicalarm/entity/medicine.dart';
 import 'package:medicalarm/style/button.dart';
+import 'package:uuid/uuid.dart';
 
 class MedicineScheduleAddButton extends StatelessWidget {
   const MedicineScheduleAddButton({
@@ -16,11 +17,12 @@ class MedicineScheduleAddButton extends StatelessWidget {
       onPressed: () {
         schedules.value = [
           ...schedules.value,
-          const MedicationSchedule(
+          MedicationSchedule(
+            id: const Uuid().v4(),
             hour: 10,
             minute: 00,
             quantityMemo: '',
-            notificationSetting: MedicineScheduleNotificationSetting(
+            notificationSetting: const MedicineScheduleNotificationSetting(
               isReminderEnabled: true,
               isFollowupEnabled: true,
               useCriticalAlert: false,
