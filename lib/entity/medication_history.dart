@@ -30,7 +30,7 @@ enum MedicationHistoryActionKind {
 }
 
 @freezed
-class MedicationHistoryAction with _$MedicationHistoryAction {
+sealed class MedicationHistoryAction with _$MedicationHistoryAction {
   // 服用
   @JsonSerializable(explicitToJson: true)
   const factory MedicationHistoryAction.take({
