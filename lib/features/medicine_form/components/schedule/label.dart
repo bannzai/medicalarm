@@ -40,6 +40,7 @@ class MedicineScheduleReminderTime extends StatelessWidget {
           constraints: const BoxConstraints(
             minHeight: 48,
             maxWidth: double.infinity,
+            minWidth: double.infinity,
           ),
           child: Align(
             alignment: Alignment.centerLeft,
@@ -47,7 +48,7 @@ class MedicineScheduleReminderTime extends StatelessWidget {
               padding: const EdgeInsets.symmetric(horizontal: 8.0),
               child: Text(
                 schedule.toTimeString(),
-                style: const TextStyle(fontSize: 16),
+                style: const TextStyle(fontSize: 12),
               ),
             ),
           ),
