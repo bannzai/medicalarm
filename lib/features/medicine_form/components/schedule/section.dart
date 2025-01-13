@@ -3,7 +3,7 @@ import 'package:medicalarm/entity/medicine.dart';
 import 'package:medicalarm/features/medicine_form/components/schedule/add_button.dart';
 import 'package:medicalarm/features/medicine_form/components/schedule/delete_button.dart';
 import 'package:medicalarm/features/medicine_form/components/schedule/label.dart';
-import 'package:medicalarm/features/medicine_form/components/schedule/setting_button.dart';
+import 'package:medicalarm/features/medicine_form/components/schedule/notification_setting_button.dart';
 import 'package:medicalarm/features/medicine_form/components/section_layout.dart';
 
 class MedicineScheduleSection extends StatelessWidget {
@@ -27,7 +27,7 @@ class MedicineScheduleSection extends StatelessWidget {
                   schedules: schedules,
                   index: index,
                 ),
-                MedicineScheduleSettingButton(schedule: schedule),
+                MedicineScheduleNotificationSettingButton(schedule: schedule),
                 MedicineScheduleDeleteButton(schedule: schedule, schedules: schedules),
               ],
             ),
