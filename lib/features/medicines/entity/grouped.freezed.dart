@@ -15,313 +15,6 @@ final _privateConstructorUsedError = UnsupportedError(
     'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#adding-getters-and-methods-to-our-models');
 
 /// @nodoc
-mixin _$ScheduleTime {
-  int get hour => throw _privateConstructorUsedError;
-  int get minute => throw _privateConstructorUsedError;
-
-  /// Create a copy of ScheduleTime
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  $ScheduleTimeCopyWith<ScheduleTime> get copyWith => throw _privateConstructorUsedError;
-}
-
-/// @nodoc
-abstract class $ScheduleTimeCopyWith<$Res> {
-  factory $ScheduleTimeCopyWith(ScheduleTime value, $Res Function(ScheduleTime) then) = _$ScheduleTimeCopyWithImpl<$Res, ScheduleTime>;
-  @useResult
-  $Res call({int hour, int minute});
-}
-
-/// @nodoc
-class _$ScheduleTimeCopyWithImpl<$Res, $Val extends ScheduleTime> implements $ScheduleTimeCopyWith<$Res> {
-  _$ScheduleTimeCopyWithImpl(this._value, this._then);
-
-  // ignore: unused_field
-  final $Val _value;
-  // ignore: unused_field
-  final $Res Function($Val) _then;
-
-  /// Create a copy of ScheduleTime
-  /// with the given fields replaced by the non-null parameter values.
-  @pragma('vm:prefer-inline')
-  @override
-  $Res call({
-    Object? hour = null,
-    Object? minute = null,
-  }) {
-    return _then(_value.copyWith(
-      hour: null == hour
-          ? _value.hour
-          : hour // ignore: cast_nullable_to_non_nullable
-              as int,
-      minute: null == minute
-          ? _value.minute
-          : minute // ignore: cast_nullable_to_non_nullable
-              as int,
-    ) as $Val);
-  }
-}
-
-/// @nodoc
-abstract class _$$ScheduleTimeImplCopyWith<$Res> implements $ScheduleTimeCopyWith<$Res> {
-  factory _$$ScheduleTimeImplCopyWith(_$ScheduleTimeImpl value, $Res Function(_$ScheduleTimeImpl) then) = __$$ScheduleTimeImplCopyWithImpl<$Res>;
-  @override
-  @useResult
-  $Res call({int hour, int minute});
-}
-
-/// @nodoc
-class __$$ScheduleTimeImplCopyWithImpl<$Res> extends _$ScheduleTimeCopyWithImpl<$Res, _$ScheduleTimeImpl>
-    implements _$$ScheduleTimeImplCopyWith<$Res> {
-  __$$ScheduleTimeImplCopyWithImpl(_$ScheduleTimeImpl _value, $Res Function(_$ScheduleTimeImpl) _then) : super(_value, _then);
-
-  /// Create a copy of ScheduleTime
-  /// with the given fields replaced by the non-null parameter values.
-  @pragma('vm:prefer-inline')
-  @override
-  $Res call({
-    Object? hour = null,
-    Object? minute = null,
-  }) {
-    return _then(_$ScheduleTimeImpl(
-      hour: null == hour
-          ? _value.hour
-          : hour // ignore: cast_nullable_to_non_nullable
-              as int,
-      minute: null == minute
-          ? _value.minute
-          : minute // ignore: cast_nullable_to_non_nullable
-              as int,
-    ));
-  }
-}
-
-/// @nodoc
-
-class _$ScheduleTimeImpl extends _ScheduleTime {
-  const _$ScheduleTimeImpl({required this.hour, required this.minute}) : super._();
-
-  @override
-  final int hour;
-  @override
-  final int minute;
-
-  @override
-  String toString() {
-    return 'ScheduleTime(hour: $hour, minute: $minute)';
-  }
-
-  @override
-  bool operator ==(Object other) {
-    return identical(this, other) ||
-        (other.runtimeType == runtimeType &&
-            other is _$ScheduleTimeImpl &&
-            (identical(other.hour, hour) || other.hour == hour) &&
-            (identical(other.minute, minute) || other.minute == minute));
-  }
-
-  @override
-  int get hashCode => Object.hash(runtimeType, hour, minute);
-
-  /// Create a copy of ScheduleTime
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @override
-  @pragma('vm:prefer-inline')
-  _$$ScheduleTimeImplCopyWith<_$ScheduleTimeImpl> get copyWith => __$$ScheduleTimeImplCopyWithImpl<_$ScheduleTimeImpl>(this, _$identity);
-}
-
-abstract class _ScheduleTime extends ScheduleTime {
-  const factory _ScheduleTime({required final int hour, required final int minute}) = _$ScheduleTimeImpl;
-  const _ScheduleTime._() : super._();
-
-  @override
-  int get hour;
-  @override
-  int get minute;
-
-  /// Create a copy of ScheduleTime
-  /// with the given fields replaced by the non-null parameter values.
-  @override
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  _$$ScheduleTimeImplCopyWith<_$ScheduleTimeImpl> get copyWith => throw _privateConstructorUsedError;
-}
-
-/// @nodoc
-mixin _$MedicineDosingRowValue {
-  MedicationHistory? get medicationHistory => throw _privateConstructorUsedError;
-  String get medicineName => throw _privateConstructorUsedError;
-  String get quantityMemo => throw _privateConstructorUsedError;
-
-  /// Create a copy of MedicineDosingRowValue
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  $MedicineDosingRowValueCopyWith<MedicineDosingRowValue> get copyWith => throw _privateConstructorUsedError;
-}
-
-/// @nodoc
-abstract class $MedicineDosingRowValueCopyWith<$Res> {
-  factory $MedicineDosingRowValueCopyWith(MedicineDosingRowValue value, $Res Function(MedicineDosingRowValue) then) =
-      _$MedicineDosingRowValueCopyWithImpl<$Res, MedicineDosingRowValue>;
-  @useResult
-  $Res call({MedicationHistory? medicationHistory, String medicineName, String quantityMemo});
-
-  $MedicationHistoryCopyWith<$Res>? get medicationHistory;
-}
-
-/// @nodoc
-class _$MedicineDosingRowValueCopyWithImpl<$Res, $Val extends MedicineDosingRowValue> implements $MedicineDosingRowValueCopyWith<$Res> {
-  _$MedicineDosingRowValueCopyWithImpl(this._value, this._then);
-
-  // ignore: unused_field
-  final $Val _value;
-  // ignore: unused_field
-  final $Res Function($Val) _then;
-
-  /// Create a copy of MedicineDosingRowValue
-  /// with the given fields replaced by the non-null parameter values.
-  @pragma('vm:prefer-inline')
-  @override
-  $Res call({
-    Object? medicationHistory = freezed,
-    Object? medicineName = null,
-    Object? quantityMemo = null,
-  }) {
-    return _then(_value.copyWith(
-      medicationHistory: freezed == medicationHistory
-          ? _value.medicationHistory
-          : medicationHistory // ignore: cast_nullable_to_non_nullable
-              as MedicationHistory?,
-      medicineName: null == medicineName
-          ? _value.medicineName
-          : medicineName // ignore: cast_nullable_to_non_nullable
-              as String,
-      quantityMemo: null == quantityMemo
-          ? _value.quantityMemo
-          : quantityMemo // ignore: cast_nullable_to_non_nullable
-              as String,
-    ) as $Val);
-  }
-
-  /// Create a copy of MedicineDosingRowValue
-  /// with the given fields replaced by the non-null parameter values.
-  @override
-  @pragma('vm:prefer-inline')
-  $MedicationHistoryCopyWith<$Res>? get medicationHistory {
-    if (_value.medicationHistory == null) {
-      return null;
-    }
-
-    return $MedicationHistoryCopyWith<$Res>(_value.medicationHistory!, (value) {
-      return _then(_value.copyWith(medicationHistory: value) as $Val);
-    });
-  }
-}
-
-/// @nodoc
-abstract class _$$MedicineDosingRowValueImplCopyWith<$Res> implements $MedicineDosingRowValueCopyWith<$Res> {
-  factory _$$MedicineDosingRowValueImplCopyWith(_$MedicineDosingRowValueImpl value, $Res Function(_$MedicineDosingRowValueImpl) then) =
-      __$$MedicineDosingRowValueImplCopyWithImpl<$Res>;
-  @override
-  @useResult
-  $Res call({MedicationHistory? medicationHistory, String medicineName, String quantityMemo});
-
-  @override
-  $MedicationHistoryCopyWith<$Res>? get medicationHistory;
-}
-
-/// @nodoc
-class __$$MedicineDosingRowValueImplCopyWithImpl<$Res> extends _$MedicineDosingRowValueCopyWithImpl<$Res, _$MedicineDosingRowValueImpl>
-    implements _$$MedicineDosingRowValueImplCopyWith<$Res> {
-  __$$MedicineDosingRowValueImplCopyWithImpl(_$MedicineDosingRowValueImpl _value, $Res Function(_$MedicineDosingRowValueImpl) _then)
-      : super(_value, _then);
-
-  /// Create a copy of MedicineDosingRowValue
-  /// with the given fields replaced by the non-null parameter values.
-  @pragma('vm:prefer-inline')
-  @override
-  $Res call({
-    Object? medicationHistory = freezed,
-    Object? medicineName = null,
-    Object? quantityMemo = null,
-  }) {
-    return _then(_$MedicineDosingRowValueImpl(
-      medicationHistory: freezed == medicationHistory
-          ? _value.medicationHistory
-          : medicationHistory // ignore: cast_nullable_to_non_nullable
-              as MedicationHistory?,
-      medicineName: null == medicineName
-          ? _value.medicineName
-          : medicineName // ignore: cast_nullable_to_non_nullable
-              as String,
-      quantityMemo: null == quantityMemo
-          ? _value.quantityMemo
-          : quantityMemo // ignore: cast_nullable_to_non_nullable
-              as String,
-    ));
-  }
-}
-
-/// @nodoc
-
-class _$MedicineDosingRowValueImpl implements _MedicineDosingRowValue {
-  const _$MedicineDosingRowValueImpl({required this.medicationHistory, required this.medicineName, required this.quantityMemo});
-
-  @override
-  final MedicationHistory? medicationHistory;
-  @override
-  final String medicineName;
-  @override
-  final String quantityMemo;
-
-  @override
-  String toString() {
-    return 'MedicineDosingRowValue(medicationHistory: $medicationHistory, medicineName: $medicineName, quantityMemo: $quantityMemo)';
-  }
-
-  @override
-  bool operator ==(Object other) {
-    return identical(this, other) ||
-        (other.runtimeType == runtimeType &&
-            other is _$MedicineDosingRowValueImpl &&
-            (identical(other.medicationHistory, medicationHistory) || other.medicationHistory == medicationHistory) &&
-            (identical(other.medicineName, medicineName) || other.medicineName == medicineName) &&
-            (identical(other.quantityMemo, quantityMemo) || other.quantityMemo == quantityMemo));
-  }
-
-  @override
-  int get hashCode => Object.hash(runtimeType, medicationHistory, medicineName, quantityMemo);
-
-  /// Create a copy of MedicineDosingRowValue
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @override
-  @pragma('vm:prefer-inline')
-  _$$MedicineDosingRowValueImplCopyWith<_$MedicineDosingRowValueImpl> get copyWith =>
-      __$$MedicineDosingRowValueImplCopyWithImpl<_$MedicineDosingRowValueImpl>(this, _$identity);
-}
-
-abstract class _MedicineDosingRowValue implements MedicineDosingRowValue {
-  const factory _MedicineDosingRowValue(
-      {required final MedicationHistory? medicationHistory,
-      required final String medicineName,
-      required final String quantityMemo}) = _$MedicineDosingRowValueImpl;
-
-  @override
-  MedicationHistory? get medicationHistory;
-  @override
-  String get medicineName;
-  @override
-  String get quantityMemo;
-
-  /// Create a copy of MedicineDosingRowValue
-  /// with the given fields replaced by the non-null parameter values.
-  @override
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  _$$MedicineDosingRowValueImplCopyWith<_$MedicineDosingRowValueImpl> get copyWith => throw _privateConstructorUsedError;
-}
-
-/// @nodoc
 mixin _$MedicineTileValue {
   ScheduleTime get scheduleTime => throw _privateConstructorUsedError;
   MedicineDoseReceiver get doseReceiver => throw _privateConstructorUsedError;
@@ -507,4 +200,311 @@ abstract class _MedicineTileValue implements MedicineTileValue {
   @override
   @JsonKey(includeFromJson: false, includeToJson: false)
   _$$MedicineTileValueImplCopyWith<_$MedicineTileValueImpl> get copyWith => throw _privateConstructorUsedError;
+}
+
+/// @nodoc
+mixin _$MedicineDosingRowValue {
+  MedicationHistory? get medicationHistory => throw _privateConstructorUsedError;
+  String get medicineName => throw _privateConstructorUsedError;
+  String get quantityMemo => throw _privateConstructorUsedError;
+
+  /// Create a copy of MedicineDosingRowValue
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  $MedicineDosingRowValueCopyWith<MedicineDosingRowValue> get copyWith => throw _privateConstructorUsedError;
+}
+
+/// @nodoc
+abstract class $MedicineDosingRowValueCopyWith<$Res> {
+  factory $MedicineDosingRowValueCopyWith(MedicineDosingRowValue value, $Res Function(MedicineDosingRowValue) then) =
+      _$MedicineDosingRowValueCopyWithImpl<$Res, MedicineDosingRowValue>;
+  @useResult
+  $Res call({MedicationHistory? medicationHistory, String medicineName, String quantityMemo});
+
+  $MedicationHistoryCopyWith<$Res>? get medicationHistory;
+}
+
+/// @nodoc
+class _$MedicineDosingRowValueCopyWithImpl<$Res, $Val extends MedicineDosingRowValue> implements $MedicineDosingRowValueCopyWith<$Res> {
+  _$MedicineDosingRowValueCopyWithImpl(this._value, this._then);
+
+  // ignore: unused_field
+  final $Val _value;
+  // ignore: unused_field
+  final $Res Function($Val) _then;
+
+  /// Create a copy of MedicineDosingRowValue
+  /// with the given fields replaced by the non-null parameter values.
+  @pragma('vm:prefer-inline')
+  @override
+  $Res call({
+    Object? medicationHistory = freezed,
+    Object? medicineName = null,
+    Object? quantityMemo = null,
+  }) {
+    return _then(_value.copyWith(
+      medicationHistory: freezed == medicationHistory
+          ? _value.medicationHistory
+          : medicationHistory // ignore: cast_nullable_to_non_nullable
+              as MedicationHistory?,
+      medicineName: null == medicineName
+          ? _value.medicineName
+          : medicineName // ignore: cast_nullable_to_non_nullable
+              as String,
+      quantityMemo: null == quantityMemo
+          ? _value.quantityMemo
+          : quantityMemo // ignore: cast_nullable_to_non_nullable
+              as String,
+    ) as $Val);
+  }
+
+  /// Create a copy of MedicineDosingRowValue
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $MedicationHistoryCopyWith<$Res>? get medicationHistory {
+    if (_value.medicationHistory == null) {
+      return null;
+    }
+
+    return $MedicationHistoryCopyWith<$Res>(_value.medicationHistory!, (value) {
+      return _then(_value.copyWith(medicationHistory: value) as $Val);
+    });
+  }
+}
+
+/// @nodoc
+abstract class _$$MedicineDosingRowValueImplCopyWith<$Res> implements $MedicineDosingRowValueCopyWith<$Res> {
+  factory _$$MedicineDosingRowValueImplCopyWith(_$MedicineDosingRowValueImpl value, $Res Function(_$MedicineDosingRowValueImpl) then) =
+      __$$MedicineDosingRowValueImplCopyWithImpl<$Res>;
+  @override
+  @useResult
+  $Res call({MedicationHistory? medicationHistory, String medicineName, String quantityMemo});
+
+  @override
+  $MedicationHistoryCopyWith<$Res>? get medicationHistory;
+}
+
+/// @nodoc
+class __$$MedicineDosingRowValueImplCopyWithImpl<$Res> extends _$MedicineDosingRowValueCopyWithImpl<$Res, _$MedicineDosingRowValueImpl>
+    implements _$$MedicineDosingRowValueImplCopyWith<$Res> {
+  __$$MedicineDosingRowValueImplCopyWithImpl(_$MedicineDosingRowValueImpl _value, $Res Function(_$MedicineDosingRowValueImpl) _then)
+      : super(_value, _then);
+
+  /// Create a copy of MedicineDosingRowValue
+  /// with the given fields replaced by the non-null parameter values.
+  @pragma('vm:prefer-inline')
+  @override
+  $Res call({
+    Object? medicationHistory = freezed,
+    Object? medicineName = null,
+    Object? quantityMemo = null,
+  }) {
+    return _then(_$MedicineDosingRowValueImpl(
+      medicationHistory: freezed == medicationHistory
+          ? _value.medicationHistory
+          : medicationHistory // ignore: cast_nullable_to_non_nullable
+              as MedicationHistory?,
+      medicineName: null == medicineName
+          ? _value.medicineName
+          : medicineName // ignore: cast_nullable_to_non_nullable
+              as String,
+      quantityMemo: null == quantityMemo
+          ? _value.quantityMemo
+          : quantityMemo // ignore: cast_nullable_to_non_nullable
+              as String,
+    ));
+  }
+}
+
+/// @nodoc
+
+class _$MedicineDosingRowValueImpl implements _MedicineDosingRowValue {
+  const _$MedicineDosingRowValueImpl({required this.medicationHistory, required this.medicineName, required this.quantityMemo});
+
+  @override
+  final MedicationHistory? medicationHistory;
+  @override
+  final String medicineName;
+  @override
+  final String quantityMemo;
+
+  @override
+  String toString() {
+    return 'MedicineDosingRowValue(medicationHistory: $medicationHistory, medicineName: $medicineName, quantityMemo: $quantityMemo)';
+  }
+
+  @override
+  bool operator ==(Object other) {
+    return identical(this, other) ||
+        (other.runtimeType == runtimeType &&
+            other is _$MedicineDosingRowValueImpl &&
+            (identical(other.medicationHistory, medicationHistory) || other.medicationHistory == medicationHistory) &&
+            (identical(other.medicineName, medicineName) || other.medicineName == medicineName) &&
+            (identical(other.quantityMemo, quantityMemo) || other.quantityMemo == quantityMemo));
+  }
+
+  @override
+  int get hashCode => Object.hash(runtimeType, medicationHistory, medicineName, quantityMemo);
+
+  /// Create a copy of MedicineDosingRowValue
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  @override
+  @pragma('vm:prefer-inline')
+  _$$MedicineDosingRowValueImplCopyWith<_$MedicineDosingRowValueImpl> get copyWith =>
+      __$$MedicineDosingRowValueImplCopyWithImpl<_$MedicineDosingRowValueImpl>(this, _$identity);
+}
+
+abstract class _MedicineDosingRowValue implements MedicineDosingRowValue {
+  const factory _MedicineDosingRowValue(
+      {required final MedicationHistory? medicationHistory,
+      required final String medicineName,
+      required final String quantityMemo}) = _$MedicineDosingRowValueImpl;
+
+  @override
+  MedicationHistory? get medicationHistory;
+  @override
+  String get medicineName;
+  @override
+  String get quantityMemo;
+
+  /// Create a copy of MedicineDosingRowValue
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  _$$MedicineDosingRowValueImplCopyWith<_$MedicineDosingRowValueImpl> get copyWith => throw _privateConstructorUsedError;
+}
+
+/// @nodoc
+mixin _$ScheduleTime {
+  int get hour => throw _privateConstructorUsedError;
+  int get minute => throw _privateConstructorUsedError;
+
+  /// Create a copy of ScheduleTime
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  $ScheduleTimeCopyWith<ScheduleTime> get copyWith => throw _privateConstructorUsedError;
+}
+
+/// @nodoc
+abstract class $ScheduleTimeCopyWith<$Res> {
+  factory $ScheduleTimeCopyWith(ScheduleTime value, $Res Function(ScheduleTime) then) = _$ScheduleTimeCopyWithImpl<$Res, ScheduleTime>;
+  @useResult
+  $Res call({int hour, int minute});
+}
+
+/// @nodoc
+class _$ScheduleTimeCopyWithImpl<$Res, $Val extends ScheduleTime> implements $ScheduleTimeCopyWith<$Res> {
+  _$ScheduleTimeCopyWithImpl(this._value, this._then);
+
+  // ignore: unused_field
+  final $Val _value;
+  // ignore: unused_field
+  final $Res Function($Val) _then;
+
+  /// Create a copy of ScheduleTime
+  /// with the given fields replaced by the non-null parameter values.
+  @pragma('vm:prefer-inline')
+  @override
+  $Res call({
+    Object? hour = null,
+    Object? minute = null,
+  }) {
+    return _then(_value.copyWith(
+      hour: null == hour
+          ? _value.hour
+          : hour // ignore: cast_nullable_to_non_nullable
+              as int,
+      minute: null == minute
+          ? _value.minute
+          : minute // ignore: cast_nullable_to_non_nullable
+              as int,
+    ) as $Val);
+  }
+}
+
+/// @nodoc
+abstract class _$$ScheduleTimeImplCopyWith<$Res> implements $ScheduleTimeCopyWith<$Res> {
+  factory _$$ScheduleTimeImplCopyWith(_$ScheduleTimeImpl value, $Res Function(_$ScheduleTimeImpl) then) = __$$ScheduleTimeImplCopyWithImpl<$Res>;
+  @override
+  @useResult
+  $Res call({int hour, int minute});
+}
+
+/// @nodoc
+class __$$ScheduleTimeImplCopyWithImpl<$Res> extends _$ScheduleTimeCopyWithImpl<$Res, _$ScheduleTimeImpl>
+    implements _$$ScheduleTimeImplCopyWith<$Res> {
+  __$$ScheduleTimeImplCopyWithImpl(_$ScheduleTimeImpl _value, $Res Function(_$ScheduleTimeImpl) _then) : super(_value, _then);
+
+  /// Create a copy of ScheduleTime
+  /// with the given fields replaced by the non-null parameter values.
+  @pragma('vm:prefer-inline')
+  @override
+  $Res call({
+    Object? hour = null,
+    Object? minute = null,
+  }) {
+    return _then(_$ScheduleTimeImpl(
+      hour: null == hour
+          ? _value.hour
+          : hour // ignore: cast_nullable_to_non_nullable
+              as int,
+      minute: null == minute
+          ? _value.minute
+          : minute // ignore: cast_nullable_to_non_nullable
+              as int,
+    ));
+  }
+}
+
+/// @nodoc
+
+class _$ScheduleTimeImpl extends _ScheduleTime {
+  const _$ScheduleTimeImpl({required this.hour, required this.minute}) : super._();
+
+  @override
+  final int hour;
+  @override
+  final int minute;
+
+  @override
+  String toString() {
+    return 'ScheduleTime(hour: $hour, minute: $minute)';
+  }
+
+  @override
+  bool operator ==(Object other) {
+    return identical(this, other) ||
+        (other.runtimeType == runtimeType &&
+            other is _$ScheduleTimeImpl &&
+            (identical(other.hour, hour) || other.hour == hour) &&
+            (identical(other.minute, minute) || other.minute == minute));
+  }
+
+  @override
+  int get hashCode => Object.hash(runtimeType, hour, minute);
+
+  /// Create a copy of ScheduleTime
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  @override
+  @pragma('vm:prefer-inline')
+  _$$ScheduleTimeImplCopyWith<_$ScheduleTimeImpl> get copyWith => __$$ScheduleTimeImplCopyWithImpl<_$ScheduleTimeImpl>(this, _$identity);
+}
+
+abstract class _ScheduleTime extends ScheduleTime {
+  const factory _ScheduleTime({required final int hour, required final int minute}) = _$ScheduleTimeImpl;
+  const _ScheduleTime._() : super._();
+
+  @override
+  int get hour;
+  @override
+  int get minute;
+
+  /// Create a copy of ScheduleTime
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  _$$ScheduleTimeImplCopyWith<_$ScheduleTimeImpl> get copyWith => throw _privateConstructorUsedError;
 }
