@@ -194,6 +194,7 @@ class MedicineTileRow extends HookConsumerWidget {
             const Spacer(),
             if (dosingRow.quantityMemo.isNotEmpty) ...[
               Text('${dosingRow.quantityMemo.substring(0, min(dosingRow.quantityMemo.length, 10))}...'),
+              // TODO: Acoordiong menu
             ],
           ],
         ),
