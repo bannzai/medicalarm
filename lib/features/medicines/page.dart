@@ -171,18 +171,28 @@ class MedicineTileRow extends HookConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final isChecked = useState(false);
-    return Row(
+    return Column(
       crossAxisAlignment: CrossAxisAlignment.center,
       children: [
-        AppCheckbox(
-          value: isChecked.value,
-          onChanged: (value) {
-            isChecked.value = value;
-          },
+        Row(
+          crossAxisAlignment: CrossAxisAlignment.center,
+          children: [
+            SizedBox(
+              width: 24,
+              height: 24,
+              child: Checkbox(
+                value: isChecked.value,
+                onChanged: (value) {
+                  isChecked.value = value ?? false;
+                },
+              ),
+            ),
+            SizedBox(width: 8),
+            Text(dosingRow.medicineName, style: const TextStyle(fontSize: 16)),
+            SizedBox(width: 8),
+            Text(dosingRow.quantityMemo),
+          ],
         ),
-        Text(dosingRow.medicineName, style: const TextStyle(fontSize: 16)),
-        const Spacer(),
-        Text(dosingRow.quantityMemo),
       ],
     );
   }
