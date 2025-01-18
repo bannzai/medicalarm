@@ -39,6 +39,7 @@ class App extends StatelessWidget {
     return MaterialApp(
       theme: ThemeData(
         colorScheme: colorScheme,
+        dividerColor: Colors.black,
         bottomSheetTheme: const BottomSheetThemeData(
           backgroundColor: AppColors.formBackground,
         ),
