@@ -33,7 +33,7 @@ class MedicineAdd {
     final medicine = Medicine(
       userID: database.userID,
       id: docRef.id,
-      name: name,
+      name: name.trim(),
       frequency: frequency,
       schedules: schedules,
       doseReceiver: doseReceiver,
@@ -68,7 +68,7 @@ class MedicineUpdate {
   }) async {
     final docRef = database.medicineReference(medicineID: medicineID);
     final newMedicine = medicine.copyWith(
-      name: name,
+      name: name.trim(),
       frequency: frequency,
       schedules: schedules,
       doseReceiver: doseReceiver,
