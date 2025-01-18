@@ -22,9 +22,15 @@ class AppCheckboxState extends State<AppCheckbox> {
       onTap: () {
         widget.onChanged(!widget.value);
       },
-      child: CustomPaint(
-        size: const Size(24.0, 24.0),
-        painter: _CheckboxPainter(isChecked: widget.value),
+      child: Container(
+        width: 24.0,
+        height: 24.0,
+        decoration: BoxDecoration(
+          border: Border.all(color: Colors.blue, width: 2.0),
+        ),
+        child: CustomPaint(
+          painter: _CheckboxPainter(isChecked: widget.value),
+        ),
       ),
     );
   }
@@ -41,9 +47,6 @@ class _CheckboxPainter extends CustomPainter {
       ..color = Colors.blue
       ..style = PaintingStyle.stroke
       ..strokeWidth = 2.0;
-
-    final rect = Rect.fromLTWH(0.0, 0.0, size.width, size.height);
-    canvas.drawRect(rect, paint);
 
     if (isChecked) {
       final path = Path()
