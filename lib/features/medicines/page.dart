@@ -127,37 +127,29 @@ class MedicineTile extends HookConsumerWidget {
           borderRadius: BorderRadius.circular(8),
           border: Border.all(color: AppColors.border),
         ),
-        child: Row(
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Row(
-                  children: [
-                    Text(
-                      tileValue.scheduleTime.toTimeString(),
-                      style: TextStyle(
-                        fontSize: 20,
-                        fontWeight: FontWeight.bold,
-                        color: primaryColor,
-                      ),
-                    ),
-                  ],
-                ),
-                const Divider(height: 1),
-                Text(
-                  tileValue.doseReceiver.name,
-                  style: const TextStyle(
-                    fontSize: 18,
-                    fontWeight: FontWeight.bold,
-                  ),
-                ),
-                const Divider(height: 1),
-                for (final dosingRow in tileValue.dosingRows) ...[
-                  MedicineTileRow(dosingRow: dosingRow),
-                ],
-              ],
+            Text(
+              tileValue.scheduleTime.toTimeString(),
+              style: TextStyle(
+                fontSize: 20,
+                fontWeight: FontWeight.bold,
+                color: primaryColor,
+              ),
             ),
+            const Divider(height: 1),
+            Text(
+              tileValue.doseReceiver.name,
+              style: const TextStyle(
+                fontSize: 18,
+                fontWeight: FontWeight.bold,
+              ),
+            ),
+            const Divider(height: 1),
+            for (final dosingRow in tileValue.dosingRows) ...[
+              MedicineTileRow(dosingRow: dosingRow),
+            ],
           ],
         ),
       ),
