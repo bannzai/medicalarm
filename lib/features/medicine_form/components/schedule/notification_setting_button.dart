@@ -20,7 +20,11 @@ class MedicineScheduleNotificationSettingButton extends StatelessWidget {
         Navigator.push(
           context,
           MaterialPageRoute(
-            builder: (context) => MedicineScheduleNotificationFormPage(schedule: schedule, schedules: schedules, index: index,),
+            builder: (context) => MedicineScheduleNotificationFormPage(
+              schedule: schedule,
+              schedules: schedules,
+              index: index,
+            ),
           ),
         );
       },
