@@ -138,7 +138,7 @@ class MedicineTile extends HookConsumerWidget {
                 color: primaryColor,
               ),
             ),
-            const Divider(height: 1),
+            const SizedBox(height: 4),
             Text(
               tileValue.doseReceiver.name,
               style: const TextStyle(
@@ -146,7 +146,7 @@ class MedicineTile extends HookConsumerWidget {
                 fontWeight: FontWeight.bold,
               ),
             ),
-            const Divider(height: 1),
+            const SizedBox(height: 4),
             for (final dosingRow in tileValue.dosingRows) ...[
               MedicineTileRow(dosingRow: dosingRow),
             ],
@@ -171,12 +171,17 @@ class MedicineTileRow extends HookConsumerWidget {
     return Row(
       crossAxisAlignment: CrossAxisAlignment.center,
       children: [
-        Checkbox(
-          value: isChecked.value,
-          onChanged: (value) {
-            isChecked.value = value ?? false;
-          },
+        SizedBox(
+          width: 20,
+          height: 20,
+          child: Checkbox(
+            value: isChecked.value,
+            onChanged: (value) {
+              isChecked.value = value ?? false;
+            },
+          ),
         ),
+        const SizedBox(width: 10),
         Text(dosingRow.medicineName),
         Text(dosingRow.quantityMemo),
       ],
