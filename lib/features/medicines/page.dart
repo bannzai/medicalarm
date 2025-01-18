@@ -134,6 +134,14 @@ class MedicineTile extends HookConsumerWidget {
           color: Colors.white,
           borderRadius: BorderRadius.circular(8),
           border: Border.all(color: AppColors.border),
+          boxShadow: [
+            BoxShadow(
+              color: Colors.black.withOpacity(0.1),
+              spreadRadius: 2,
+              blurRadius: 5,
+              offset: const Offset(0, 3), // 影の位置を調整
+            ),
+          ],
         ),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
