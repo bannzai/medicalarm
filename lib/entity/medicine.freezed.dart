@@ -30,6 +30,8 @@ mixin _$Medicine {
   String get memoImageURL => throw _privateConstructorUsedError;
   @NullableTimestampConverter()
   DateTime? get archivedDateTime => throw _privateConstructorUsedError;
+  @TimestampConverter()
+  DateTime get beganDateTime => throw _privateConstructorUsedError;
   @ClientCreatedTimestamp()
   DateTime? get createdDateTime => throw _privateConstructorUsedError;
   @ClientUpdatedTimestamp()
@@ -62,6 +64,7 @@ abstract class $MedicineCopyWith<$Res> {
       String memo,
       String memoImageURL,
       @NullableTimestampConverter() DateTime? archivedDateTime,
+      @TimestampConverter() DateTime beganDateTime,
       @ClientCreatedTimestamp() DateTime? createdDateTime,
       @ClientUpdatedTimestamp() DateTime? updatedDateTime,
       @ServerCreatedTimestamp() DateTime? serverCreatedDateTime,
@@ -94,6 +97,7 @@ class _$MedicineCopyWithImpl<$Res, $Val extends Medicine> implements $MedicineCo
     Object? memo = null,
     Object? memoImageURL = null,
     Object? archivedDateTime = freezed,
+    Object? beganDateTime = null,
     Object? createdDateTime = freezed,
     Object? updatedDateTime = freezed,
     Object? serverCreatedDateTime = freezed,
@@ -136,6 +140,10 @@ class _$MedicineCopyWithImpl<$Res, $Val extends Medicine> implements $MedicineCo
           ? _value.archivedDateTime
           : archivedDateTime // ignore: cast_nullable_to_non_nullable
               as DateTime?,
+      beganDateTime: null == beganDateTime
+          ? _value.beganDateTime
+          : beganDateTime // ignore: cast_nullable_to_non_nullable
+              as DateTime,
       createdDateTime: freezed == createdDateTime
           ? _value.createdDateTime
           : createdDateTime // ignore: cast_nullable_to_non_nullable
@@ -191,6 +199,7 @@ abstract class _$$MedicineImplCopyWith<$Res> implements $MedicineCopyWith<$Res> 
       String memo,
       String memoImageURL,
       @NullableTimestampConverter() DateTime? archivedDateTime,
+      @TimestampConverter() DateTime beganDateTime,
       @ClientCreatedTimestamp() DateTime? createdDateTime,
       @ClientUpdatedTimestamp() DateTime? updatedDateTime,
       @ServerCreatedTimestamp() DateTime? serverCreatedDateTime,
@@ -220,6 +229,7 @@ class __$$MedicineImplCopyWithImpl<$Res> extends _$MedicineCopyWithImpl<$Res, _$
     Object? memo = null,
     Object? memoImageURL = null,
     Object? archivedDateTime = freezed,
+    Object? beganDateTime = null,
     Object? createdDateTime = freezed,
     Object? updatedDateTime = freezed,
     Object? serverCreatedDateTime = freezed,
@@ -262,6 +272,10 @@ class __$$MedicineImplCopyWithImpl<$Res> extends _$MedicineCopyWithImpl<$Res, _$
           ? _value.archivedDateTime
           : archivedDateTime // ignore: cast_nullable_to_non_nullable
               as DateTime?,
+      beganDateTime: null == beganDateTime
+          ? _value.beganDateTime
+          : beganDateTime // ignore: cast_nullable_to_non_nullable
+              as DateTime,
       createdDateTime: freezed == createdDateTime
           ? _value.createdDateTime
           : createdDateTime // ignore: cast_nullable_to_non_nullable
@@ -296,6 +310,7 @@ class _$MedicineImpl extends _Medicine {
       required this.memo,
       required this.memoImageURL,
       @NullableTimestampConverter() this.archivedDateTime,
+      @TimestampConverter() required this.beganDateTime,
       @ClientCreatedTimestamp() this.createdDateTime,
       @ClientUpdatedTimestamp() this.updatedDateTime,
       @ServerCreatedTimestamp() this.serverCreatedDateTime,
@@ -331,6 +346,9 @@ class _$MedicineImpl extends _Medicine {
   @NullableTimestampConverter()
   final DateTime? archivedDateTime;
   @override
+  @TimestampConverter()
+  final DateTime beganDateTime;
+  @override
   @ClientCreatedTimestamp()
   final DateTime? createdDateTime;
   @override
@@ -345,7 +363,7 @@ class _$MedicineImpl extends _Medicine {
 
   @override
   String toString() {
-    return 'Medicine(id: $id, userID: $userID, name: $name, frequency: $frequency, schedules: $schedules, doseReceiver: $doseReceiver, memo: $memo, memoImageURL: $memoImageURL, archivedDateTime: $archivedDateTime, createdDateTime: $createdDateTime, updatedDateTime: $updatedDateTime, serverCreatedDateTime: $serverCreatedDateTime, serverUpdatedDateTime: $serverUpdatedDateTime)';
+    return 'Medicine(id: $id, userID: $userID, name: $name, frequency: $frequency, schedules: $schedules, doseReceiver: $doseReceiver, memo: $memo, memoImageURL: $memoImageURL, archivedDateTime: $archivedDateTime, beganDateTime: $beganDateTime, createdDateTime: $createdDateTime, updatedDateTime: $updatedDateTime, serverCreatedDateTime: $serverCreatedDateTime, serverUpdatedDateTime: $serverUpdatedDateTime)';
   }
 
   @override
@@ -362,6 +380,7 @@ class _$MedicineImpl extends _Medicine {
             (identical(other.memo, memo) || other.memo == memo) &&
             (identical(other.memoImageURL, memoImageURL) || other.memoImageURL == memoImageURL) &&
             (identical(other.archivedDateTime, archivedDateTime) || other.archivedDateTime == archivedDateTime) &&
+            (identical(other.beganDateTime, beganDateTime) || other.beganDateTime == beganDateTime) &&
             (identical(other.createdDateTime, createdDateTime) || other.createdDateTime == createdDateTime) &&
             (identical(other.updatedDateTime, updatedDateTime) || other.updatedDateTime == updatedDateTime) &&
             (identical(other.serverCreatedDateTime, serverCreatedDateTime) || other.serverCreatedDateTime == serverCreatedDateTime) &&
@@ -371,7 +390,7 @@ class _$MedicineImpl extends _Medicine {
   @JsonKey(includeFromJson: false, includeToJson: false)
   @override
   int get hashCode => Object.hash(runtimeType, id, userID, name, frequency, const DeepCollectionEquality().hash(_schedules), doseReceiver, memo,
-      memoImageURL, archivedDateTime, createdDateTime, updatedDateTime, serverCreatedDateTime, serverUpdatedDateTime);
+      memoImageURL, archivedDateTime, beganDateTime, createdDateTime, updatedDateTime, serverCreatedDateTime, serverUpdatedDateTime);
 
   /// Create a copy of Medicine
   /// with the given fields replaced by the non-null parameter values.
@@ -399,6 +418,7 @@ abstract class _Medicine extends Medicine {
       required final String memo,
       required final String memoImageURL,
       @NullableTimestampConverter() final DateTime? archivedDateTime,
+      @TimestampConverter() required final DateTime beganDateTime,
       @ClientCreatedTimestamp() final DateTime? createdDateTime,
       @ClientUpdatedTimestamp() final DateTime? updatedDateTime,
       @ServerCreatedTimestamp() final DateTime? serverCreatedDateTime,
@@ -426,6 +446,9 @@ abstract class _Medicine extends Medicine {
   @override
   @NullableTimestampConverter()
   DateTime? get archivedDateTime;
+  @override
+  @TimestampConverter()
+  DateTime get beganDateTime;
   @override
   @ClientCreatedTimestamp()
   DateTime? get createdDateTime;

@@ -26,6 +26,7 @@ class Medicine with _$Medicine {
     required String memo,
     required String memoImageURL,
     @NullableTimestampConverter() DateTime? archivedDateTime,
+    @TimestampConverter() required DateTime beganDateTime,
     @ClientCreatedTimestamp() DateTime? createdDateTime,
     @ClientUpdatedTimestamp() DateTime? updatedDateTime,
     @ServerCreatedTimestamp() DateTime? serverCreatedDateTime,
