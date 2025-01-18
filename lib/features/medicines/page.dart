@@ -1,3 +1,5 @@
+import 'dart:math';
+
 import 'package:async_value_group/async_value_group.dart';
 import 'package:collection/collection.dart';
 import 'package:flutter/material.dart';
@@ -187,10 +189,12 @@ class MedicineTileRow extends HookConsumerWidget {
                 },
               ),
             ),
-            SizedBox(width: 8),
+            const SizedBox(width: 8),
             Text(dosingRow.medicineName, style: const TextStyle(fontSize: 16)),
-            SizedBox(width: 8),
-            Text(dosingRow.quantityMemo),
+            const Spacer(),
+            if (dosingRow.quantityMemo.isNotEmpty) ...[
+              Text('${dosingRow.quantityMemo.substring(0, min(dosingRow.quantityMemo.length, 10))}...'),
+            ],
           ],
         ),
       ],
