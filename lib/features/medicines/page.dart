@@ -11,6 +11,7 @@ import 'package:medicalarm/features/medicines/components/add_button.dart';
 import 'package:medicalarm/features/medicines/entity/grouped.dart';
 import 'package:medicalarm/provider/medication_history.dart';
 import 'package:medicalarm/provider/medicine.dart';
+import 'package:medicalarm/style/color.dart';
 
 class MedicinesPage extends HookConsumerWidget {
   const MedicinesPage({super.key});
@@ -116,8 +117,67 @@ class MedicineTile extends HookConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
+    final primaryColor = Theme.of(context).colorScheme.primary;
+    return Padding(
+      padding: const EdgeInsets.symmetric(horizontal: 16.0),
+      child: Container(
+        padding: const EdgeInsets.symmetric(vertical: 10.0, horizontal: 10.0),
+        decoration: BoxDecoration(
+          color: Colors.white,
+          borderRadius: BorderRadius.circular(8),
+          border: Border.all(color: AppColors.border),
+        ),
+        child: Row(
+          children: [
+            Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Row(
+                  children: [
+                    Text(
+                      tileValue.scheduleTime.toTimeString(),
+                      style: TextStyle(
+                        fontSize: 20,
+                        fontWeight: FontWeight.bold,
+                        color: primaryColor,
+                      ),
+                    ),
+                  ],
+                ),
+                const Divider(height: 1),
+                Text(
+                  tileValue.doseReceiver.name,
+                  style: const TextStyle(
+                    fontSize: 18,
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
+                const Divider(height: 1),
+                for (final dosingRow in tileValue.dosingRows) ...[
+                  MedicineTileRow(dosingRow: dosingRow),
+                ],
+              ],
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+class MedicineTileRow extends HookConsumerWidget {
+  const MedicineTileRow({
+    super.key,
+    required this.dosingRow,
+  });
+
+  final MedicineDosingRowValue dosingRow;
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
     final isChecked = useState(false);
     return Row(
+      crossAxisAlignment: CrossAxisAlignment.center,
       children: [
         Checkbox(
           value: isChecked.value,
@@ -125,21 +185,8 @@ class MedicineTile extends HookConsumerWidget {
             isChecked.value = value ?? false;
           },
         ),
-        Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Text(tileValue.scheduleTime.toTimeString()),
-            Text(tileValue.doseReceiver.name),
-            for (final dosingRow in tileValue.dosingRows) ...[
-              Row(
-                children: [
-                  Text(dosingRow.medicineName),
-                  Text(dosingRow.quantityMemo),
-                ],
-              ),
-            ],
-          ],
-        ),
+        Text(dosingRow.medicineName),
+        Text(dosingRow.quantityMemo),
       ],
     );
   }
