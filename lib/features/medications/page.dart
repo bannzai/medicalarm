@@ -48,10 +48,15 @@ class MedicationsPageBody extends StatelessWidget {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Text(medicine.name),
-                  Text(schedule.quantityMemo),
+                  Text(medicine.name, style: const TextStyle(fontSize: 16, fontWeight: FontWeight.bold)),
+                  Row(
+                    children: [
+                      const Text('時間:'),
+                      Text(history.createdDateTime?.toString() ?? 'No Date'),
+                    ],
+                  ),
+                  Text(schedule.quantityMemo, style: const TextStyle(fontSize: 12)),
                   Text(medicine.doseReceiver.name),
-                  Text(history.createdDateTime?.toString() ?? 'No Date'),
                   Text('${schedule.hour}:${schedule.minute}'),
                   Text(history.memo),
                   if (history.actionKind == MedicationHistoryActionKind.take)
