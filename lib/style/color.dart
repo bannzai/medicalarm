@@ -8,6 +8,10 @@ abstract class AppColors {
   static const Color formBackground = Color(0xFFF5F5F5);
   static const Color border = Color(0xFFE0E0E0);
   static const Color disabled = Color(0xFFE0E0E0);
+
+  static const Color sunday = Color(0xFFE17F7F);
+  static const Color saturday = Color(0xFF7FB9E1);
+  static const Color weekday = Color(0xFF7E7E7E);
 }
 
 abstract class TextColor {
