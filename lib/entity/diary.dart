@@ -8,6 +8,10 @@ import 'package:medicalarm/entity/timestamp.dart';
 part 'diary.freezed.dart';
 part 'diary.g.dart';
 
+abstract class DiaryFirestoreKey {
+  static const String date = "date";
+}
+
 @freezed
 class Diary with _$Diary {
   @JsonSerializable(explicitToJson: true)
@@ -17,6 +21,7 @@ class Diary with _$Diary {
     required List<String> tags,
     required List<DiaryMemo> memos,
     required String memo,
+    @TimestampConverter() required DateTime diaryDate,
     @ClientCreatedTimestamp() DateTime? createdDateTime,
     @ClientUpdatedTimestamp() DateTime? updatedDateTime,
     @ServerCreatedTimestamp() DateTime? serverCreatedDateTime,

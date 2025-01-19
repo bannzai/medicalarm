@@ -25,6 +25,8 @@ mixin _$Diary {
   List<String> get tags => throw _privateConstructorUsedError;
   List<DiaryMemo> get memos => throw _privateConstructorUsedError;
   String get memo => throw _privateConstructorUsedError;
+  @TimestampConverter()
+  DateTime get diaryDate => throw _privateConstructorUsedError;
   @ClientCreatedTimestamp()
   DateTime? get createdDateTime => throw _privateConstructorUsedError;
   @ClientUpdatedTimestamp()
@@ -53,6 +55,7 @@ abstract class $DiaryCopyWith<$Res> {
       List<String> tags,
       List<DiaryMemo> memos,
       String memo,
+      @TimestampConverter() DateTime diaryDate,
       @ClientCreatedTimestamp() DateTime? createdDateTime,
       @ClientUpdatedTimestamp() DateTime? updatedDateTime,
       @ServerCreatedTimestamp() DateTime? serverCreatedDateTime,
@@ -78,6 +81,7 @@ class _$DiaryCopyWithImpl<$Res, $Val extends Diary> implements $DiaryCopyWith<$R
     Object? tags = null,
     Object? memos = null,
     Object? memo = null,
+    Object? diaryDate = null,
     Object? createdDateTime = freezed,
     Object? updatedDateTime = freezed,
     Object? serverCreatedDateTime = freezed,
@@ -104,6 +108,10 @@ class _$DiaryCopyWithImpl<$Res, $Val extends Diary> implements $DiaryCopyWith<$R
           ? _value.memo
           : memo // ignore: cast_nullable_to_non_nullable
               as String,
+      diaryDate: null == diaryDate
+          ? _value.diaryDate
+          : diaryDate // ignore: cast_nullable_to_non_nullable
+              as DateTime,
       createdDateTime: freezed == createdDateTime
           ? _value.createdDateTime
           : createdDateTime // ignore: cast_nullable_to_non_nullable
@@ -135,6 +143,7 @@ abstract class _$$DiaryImplCopyWith<$Res> implements $DiaryCopyWith<$Res> {
       List<String> tags,
       List<DiaryMemo> memos,
       String memo,
+      @TimestampConverter() DateTime diaryDate,
       @ClientCreatedTimestamp() DateTime? createdDateTime,
       @ClientUpdatedTimestamp() DateTime? updatedDateTime,
       @ServerCreatedTimestamp() DateTime? serverCreatedDateTime,
@@ -155,6 +164,7 @@ class __$$DiaryImplCopyWithImpl<$Res> extends _$DiaryCopyWithImpl<$Res, _$DiaryI
     Object? tags = null,
     Object? memos = null,
     Object? memo = null,
+    Object? diaryDate = null,
     Object? createdDateTime = freezed,
     Object? updatedDateTime = freezed,
     Object? serverCreatedDateTime = freezed,
@@ -181,6 +191,10 @@ class __$$DiaryImplCopyWithImpl<$Res> extends _$DiaryCopyWithImpl<$Res, _$DiaryI
           ? _value.memo
           : memo // ignore: cast_nullable_to_non_nullable
               as String,
+      diaryDate: null == diaryDate
+          ? _value.diaryDate
+          : diaryDate // ignore: cast_nullable_to_non_nullable
+              as DateTime,
       createdDateTime: freezed == createdDateTime
           ? _value.createdDateTime
           : createdDateTime // ignore: cast_nullable_to_non_nullable
@@ -211,6 +225,7 @@ class _$DiaryImpl extends _Diary {
       required final List<String> tags,
       required final List<DiaryMemo> memos,
       required this.memo,
+      @TimestampConverter() required this.diaryDate,
       @ClientCreatedTimestamp() this.createdDateTime,
       @ClientUpdatedTimestamp() this.updatedDateTime,
       @ServerCreatedTimestamp() this.serverCreatedDateTime,
@@ -244,6 +259,9 @@ class _$DiaryImpl extends _Diary {
   @override
   final String memo;
   @override
+  @TimestampConverter()
+  final DateTime diaryDate;
+  @override
   @ClientCreatedTimestamp()
   final DateTime? createdDateTime;
   @override
@@ -258,7 +276,7 @@ class _$DiaryImpl extends _Diary {
 
   @override
   String toString() {
-    return 'Diary(id: $id, userID: $userID, tags: $tags, memos: $memos, memo: $memo, createdDateTime: $createdDateTime, updatedDateTime: $updatedDateTime, serverCreatedDateTime: $serverCreatedDateTime, serverUpdatedDateTime: $serverUpdatedDateTime)';
+    return 'Diary(id: $id, userID: $userID, tags: $tags, memos: $memos, memo: $memo, diaryDate: $diaryDate, createdDateTime: $createdDateTime, updatedDateTime: $updatedDateTime, serverCreatedDateTime: $serverCreatedDateTime, serverUpdatedDateTime: $serverUpdatedDateTime)';
   }
 
   @override
@@ -271,6 +289,7 @@ class _$DiaryImpl extends _Diary {
             const DeepCollectionEquality().equals(other._tags, _tags) &&
             const DeepCollectionEquality().equals(other._memos, _memos) &&
             (identical(other.memo, memo) || other.memo == memo) &&
+            (identical(other.diaryDate, diaryDate) || other.diaryDate == diaryDate) &&
             (identical(other.createdDateTime, createdDateTime) || other.createdDateTime == createdDateTime) &&
             (identical(other.updatedDateTime, updatedDateTime) || other.updatedDateTime == updatedDateTime) &&
             (identical(other.serverCreatedDateTime, serverCreatedDateTime) || other.serverCreatedDateTime == serverCreatedDateTime) &&
@@ -280,7 +299,7 @@ class _$DiaryImpl extends _Diary {
   @JsonKey(includeFromJson: false, includeToJson: false)
   @override
   int get hashCode => Object.hash(runtimeType, id, userID, const DeepCollectionEquality().hash(_tags), const DeepCollectionEquality().hash(_memos),
-      memo, createdDateTime, updatedDateTime, serverCreatedDateTime, serverUpdatedDateTime);
+      memo, diaryDate, createdDateTime, updatedDateTime, serverCreatedDateTime, serverUpdatedDateTime);
 
   /// Create a copy of Diary
   /// with the given fields replaced by the non-null parameter values.
@@ -304,6 +323,7 @@ abstract class _Diary extends Diary {
       required final List<String> tags,
       required final List<DiaryMemo> memos,
       required final String memo,
+      @TimestampConverter() required final DateTime diaryDate,
       @ClientCreatedTimestamp() final DateTime? createdDateTime,
       @ClientUpdatedTimestamp() final DateTime? updatedDateTime,
       @ServerCreatedTimestamp() final DateTime? serverCreatedDateTime,
@@ -322,6 +342,9 @@ abstract class _Diary extends Diary {
   List<DiaryMemo> get memos;
   @override
   String get memo;
+  @override
+  @TimestampConverter()
+  DateTime get diaryDate;
   @override
   @ClientCreatedTimestamp()
   DateTime? get createdDateTime;
