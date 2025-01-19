@@ -21,6 +21,7 @@ MedicationHistory _$MedicationHistoryFromJson(Map<String, dynamic> json) {
 /// @nodoc
 mixin _$MedicationHistory {
   String get id => throw _privateConstructorUsedError;
+  String get userID => throw _privateConstructorUsedError;
   Medicine get medicine => throw _privateConstructorUsedError;
   MedicationHistoryActionKind get actionKind => throw _privateConstructorUsedError;
   MedicationHistoryAction get action => throw _privateConstructorUsedError;
@@ -50,6 +51,7 @@ abstract class $MedicationHistoryCopyWith<$Res> {
   @useResult
   $Res call(
       {String id,
+      String userID,
       Medicine medicine,
       MedicationHistoryActionKind actionKind,
       MedicationHistoryAction action,
@@ -78,6 +80,7 @@ class _$MedicationHistoryCopyWithImpl<$Res, $Val extends MedicationHistory> impl
   @override
   $Res call({
     Object? id = null,
+    Object? userID = null,
     Object? medicine = null,
     Object? actionKind = null,
     Object? action = null,
@@ -91,6 +94,10 @@ class _$MedicationHistoryCopyWithImpl<$Res, $Val extends MedicationHistory> impl
       id: null == id
           ? _value.id
           : id // ignore: cast_nullable_to_non_nullable
+              as String,
+      userID: null == userID
+          ? _value.userID
+          : userID // ignore: cast_nullable_to_non_nullable
               as String,
       medicine: null == medicine
           ? _value.medicine
@@ -156,6 +163,7 @@ abstract class _$$MedicationHistoryImplCopyWith<$Res> implements $MedicationHist
   @useResult
   $Res call(
       {String id,
+      String userID,
       Medicine medicine,
       MedicationHistoryActionKind actionKind,
       MedicationHistoryAction action,
@@ -182,6 +190,7 @@ class __$$MedicationHistoryImplCopyWithImpl<$Res> extends _$MedicationHistoryCop
   @override
   $Res call({
     Object? id = null,
+    Object? userID = null,
     Object? medicine = null,
     Object? actionKind = null,
     Object? action = null,
@@ -195,6 +204,10 @@ class __$$MedicationHistoryImplCopyWithImpl<$Res> extends _$MedicationHistoryCop
       id: null == id
           ? _value.id
           : id // ignore: cast_nullable_to_non_nullable
+              as String,
+      userID: null == userID
+          ? _value.userID
+          : userID // ignore: cast_nullable_to_non_nullable
               as String,
       medicine: null == medicine
           ? _value.medicine
@@ -238,6 +251,7 @@ class __$$MedicationHistoryImplCopyWithImpl<$Res> extends _$MedicationHistoryCop
 class _$MedicationHistoryImpl extends _MedicationHistory {
   const _$MedicationHistoryImpl(
       {required this.id,
+      required this.userID,
       required this.medicine,
       required this.actionKind,
       required this.action,
@@ -252,6 +266,8 @@ class _$MedicationHistoryImpl extends _MedicationHistory {
 
   @override
   final String id;
+  @override
+  final String userID;
   @override
   final Medicine medicine;
   @override
@@ -275,7 +291,7 @@ class _$MedicationHistoryImpl extends _MedicationHistory {
 
   @override
   String toString() {
-    return 'MedicationHistory(id: $id, medicine: $medicine, actionKind: $actionKind, action: $action, memo: $memo, createdDateTime: $createdDateTime, updatedDateTime: $updatedDateTime, serverCreatedDateTime: $serverCreatedDateTime, serverUpdatedDateTime: $serverUpdatedDateTime)';
+    return 'MedicationHistory(id: $id, userID: $userID, medicine: $medicine, actionKind: $actionKind, action: $action, memo: $memo, createdDateTime: $createdDateTime, updatedDateTime: $updatedDateTime, serverCreatedDateTime: $serverCreatedDateTime, serverUpdatedDateTime: $serverUpdatedDateTime)';
   }
 
   @override
@@ -284,6 +300,7 @@ class _$MedicationHistoryImpl extends _MedicationHistory {
         (other.runtimeType == runtimeType &&
             other is _$MedicationHistoryImpl &&
             (identical(other.id, id) || other.id == id) &&
+            (identical(other.userID, userID) || other.userID == userID) &&
             (identical(other.medicine, medicine) || other.medicine == medicine) &&
             (identical(other.actionKind, actionKind) || other.actionKind == actionKind) &&
             (identical(other.action, action) || other.action == action) &&
@@ -297,7 +314,7 @@ class _$MedicationHistoryImpl extends _MedicationHistory {
   @JsonKey(includeFromJson: false, includeToJson: false)
   @override
   int get hashCode => Object.hash(
-      runtimeType, id, medicine, actionKind, action, memo, createdDateTime, updatedDateTime, serverCreatedDateTime, serverUpdatedDateTime);
+      runtimeType, id, userID, medicine, actionKind, action, memo, createdDateTime, updatedDateTime, serverCreatedDateTime, serverUpdatedDateTime);
 
   /// Create a copy of MedicationHistory
   /// with the given fields replaced by the non-null parameter values.
@@ -318,6 +335,7 @@ class _$MedicationHistoryImpl extends _MedicationHistory {
 abstract class _MedicationHistory extends MedicationHistory {
   const factory _MedicationHistory(
       {required final String id,
+      required final String userID,
       required final Medicine medicine,
       required final MedicationHistoryActionKind actionKind,
       required final MedicationHistoryAction action,
@@ -332,6 +350,8 @@ abstract class _MedicationHistory extends MedicationHistory {
 
   @override
   String get id;
+  @override
+  String get userID;
   @override
   Medicine get medicine;
   @override

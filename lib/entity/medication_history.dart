@@ -12,6 +12,7 @@ class MedicationHistory with _$MedicationHistory {
   @JsonSerializable(explicitToJson: true)
   const factory MedicationHistory({
     required String id,
+    required String userID,
     required Medicine medicine,
     required MedicationHistoryActionKind actionKind,
     required MedicationHistoryAction action,
