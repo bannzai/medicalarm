@@ -6,6 +6,7 @@ import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:medicalarm/components/loading/indicator.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:medicalarm/entity/app_user.dart';
+import 'package:medicalarm/entity/diary.dart';
 import 'package:medicalarm/entity/dose_receiver.dart';
 import 'package:medicalarm/entity/medicine.dart';
 import 'package:medicalarm/features/resolver/auth.dart';
@@ -19,6 +20,7 @@ abstract class _CollectionPath {
   static String medicines(String userID) => "/users/$userID/medicines";
   static String doseReceivers(String userID) => "/users/$userID/doseReceivers";
   static String medicationHistories(String userID) => "/users/$userID/medicationHistories";
+  static String diaries(String userID) => "/users/$userID/diaries";
 }
 
 @Riverpod(keepAlive: true, dependencies: [])
@@ -70,6 +72,12 @@ class UserDatabase {
             fromFirestore: _medicationHistoryFromFirestore,
             toFirestore: _medicationHistoryToFirestore,
           );
+  final FromFirestore<Diary> _diaryFromFirestore = (snapshot, options) => Diary.fromJson(snapshot.data()!..["id"] = snapshot.id);
+  final ToFirestore<Diary> _diaryToFirestore = (diary, options) => diary.toJson();
+  CollectionReference<Diary> diariesReference() => FirebaseFirestore.instance.collection(_CollectionPath.diaries(userID)).withConverter(
+        fromFirestore: _diaryFromFirestore,
+        toFirestore: _diaryToFirestore,
+      );
 }
 
 class UserDatabaseResolver extends HookConsumerWidget {
