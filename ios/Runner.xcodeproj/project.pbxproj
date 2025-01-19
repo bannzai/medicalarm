@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		1498D2341E8E89220040F4C2 /* GeneratedPluginRegistrant.m in Sources */ = {isa = PBXBuildFile; fileRef = 1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */; };
-		20934BB22D313EF400B2D710 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 20934BAF2D313EF400B2D710 /* .gitignore */; };
 		20934BB32D313EF400B2D710 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 20934BB02D313EF400B2D710 /* GoogleService-Info.plist */; };
 		288BC258B6CB3802C75782BD /* Pods_Runner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71C71B00FC9CF05791B1F725 /* Pods_Runner.framework */; };
 		331C808B294A63AB00263BE5 /* RunnerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331C807B294A618700263BE5 /* RunnerTests.swift */; };
@@ -278,7 +277,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				97C147011CF9000F007C117D /* LaunchScreen.storyboard in Resources */,
-				20934BB22D313EF400B2D710 /* .gitignore in Resources */,
 				20934BB32D313EF400B2D710 /* GoogleService-Info.plist in Resources */,
 				3B3967161E833CAA004F5970 /* AppFrameworkInfo.plist in Resources */,
 				97C146FE1CF9000F007C117D /* Assets.xcassets in Resources */,
