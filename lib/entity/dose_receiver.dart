@@ -25,8 +25,8 @@ class DoseReceiver with _$DoseReceiver {
   factory DoseReceiver.fromJson(Map<String, dynamic> json) => _$DoseReceiverFromJson(json);
 
   static DoseReceiver firstUser({required String userID}) => DoseReceiver(
-        id: MedicineDoseReceiver.firstUser.id,
+        id: 'firstUser',
         userID: userID,
-        name: MedicineDoseReceiver.firstUser.name,
+        name: 'あなた',
       );
 }
