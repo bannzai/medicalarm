@@ -1,4 +1,5 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:medicalarm/entity/dose_receiver.dart';
 import 'package:medicalarm/entity/medication_frequency.dart';
 import 'package:medicalarm/entity/medicine.dart';
 import 'package:medicalarm/features/resolver/database.dart';
@@ -24,7 +25,7 @@ class MedicineAdd {
     required String name,
     required MedicationFrequency frequency,
     required List<MedicationSchedule> schedules,
-    required MedicineDoseReceiver doseReceiver,
+    required DoseReceiver doseReceiver,
     required String memo,
     required String memoImageURL,
   }) async {
@@ -63,7 +64,7 @@ class MedicineUpdate {
     required String name,
     required MedicationFrequency frequency,
     required List<MedicationSchedule> schedules,
-    required MedicineDoseReceiver doseReceiver,
+    required DoseReceiver doseReceiver,
     required String memo,
     required String memoImageURL,
   }) async {

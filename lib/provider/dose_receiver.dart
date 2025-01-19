@@ -1,6 +1,5 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:medicalarm/entity/dose_receiver.dart';
-import 'package:medicalarm/entity/medicine.dart';
 import 'package:medicalarm/features/resolver/database.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 
@@ -46,7 +45,7 @@ class FirstDoseReceiverAdd {
 
   Future<void> call() async {
     final doseReceiverAdd = DoseReceiverAdd(database: database);
-    await doseReceiverAdd.call(id: MedicineDoseReceiver.firstUser.id, name: MedicineDoseReceiver.firstUser.name);
+    await doseReceiverAdd.call(id: DoseReceiver.firstUserID, name: DoseReceiver.firstUserName);
   }
 }
 

@@ -1,6 +1,5 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
-import 'package:medicalarm/entity/medicine.dart';
 import 'package:medicalarm/entity/timestamp.dart';
 
 part 'dose_receiver.g.dart';
@@ -24,9 +23,11 @@ class DoseReceiver with _$DoseReceiver {
 
   factory DoseReceiver.fromJson(Map<String, dynamic> json) => _$DoseReceiverFromJson(json);
 
+  static String firstUserID = 'firstUser';
+  static String firstUserName = 'あなた';
   static DoseReceiver firstUser({required String userID}) => DoseReceiver(
-        id: 'firstUser',
+        id: firstUserID,
         userID: userID,
-        name: 'あなた',
+        name: firstUserName,
       );
 }

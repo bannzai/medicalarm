@@ -3,13 +3,12 @@ import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:medicalarm/components/retry/page.dart';
 import 'package:medicalarm/entity/dose_receiver.dart';
-import 'package:medicalarm/entity/medicine.dart';
 import 'package:medicalarm/provider/dose_receiver.dart';
 import 'package:medicalarm/style/button.dart';
 import 'package:medicalarm/theme/form.dart';
 
 class DoseReceiverFormPage extends HookConsumerWidget {
-  final ValueNotifier<MedicineDoseReceiver?> doseReceiver;
+  final ValueNotifier<DoseReceiver?> doseReceiver;
 
   const DoseReceiverFormPage({
     super.key,
@@ -82,7 +81,7 @@ class DoseReceiverFormPage extends HookConsumerWidget {
 
 class DoseReceiverTextField extends HookConsumerWidget {
   final DoseReceiver doseReceiver;
-  final ValueNotifier<MedicineDoseReceiver?> selectedDoseReceiver;
+  final ValueNotifier<DoseReceiver?> selectedDoseReceiver;
   const DoseReceiverTextField({
     super.key,
     required this.doseReceiver,
@@ -102,7 +101,7 @@ class DoseReceiverTextField extends HookConsumerWidget {
             groupValue: selectedDoseReceiver.value?.id,
             onChanged: (value) {
               if (value != null) {
-                selectedDoseReceiver.value = MedicineDoseReceiver(id: doseReceiver.id, name: doseReceiver.name);
+                selectedDoseReceiver.value = doseReceiver;
               }
             },
           ),

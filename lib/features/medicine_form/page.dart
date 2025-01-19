@@ -3,6 +3,7 @@ import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:medicalarm/components/error/error_alert.dart';
 import 'package:medicalarm/components/loading/loading.dart';
+import 'package:medicalarm/entity/dose_receiver.dart';
 import 'package:medicalarm/entity/medication_frequency.dart';
 import 'package:medicalarm/entity/medicine.dart';
 import 'package:medicalarm/features/medicine_form/components/additional_info/section.dart';
@@ -26,7 +27,7 @@ class MedicineFormPage extends HookConsumerWidget {
     final primaryColor = Theme.of(context).colorScheme.primary;
     final memo = useState(medicine?.memo ?? '');
     final memoImageURL = useState(medicine?.memoImageURL ?? '');
-    final doseReceiver = useState(medicine?.doseReceiver ?? MedicineDoseReceiver.firstUser);
+    final doseReceiver = useState<DoseReceiver>(medicine?.doseReceiver ?? DoseReceiver.firstUser);
 
     final medicineAdd = ref.watch(medicineAddProvider);
     final medicineUpdate = ref.watch(medicineUpdateProvider);

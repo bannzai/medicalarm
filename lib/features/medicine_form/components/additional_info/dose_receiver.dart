@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:medicalarm/components/container/flat_tile.dart';
-import 'package:medicalarm/entity/medicine.dart';
+import 'package:medicalarm/entity/dose_receiver.dart';
 import 'package:medicalarm/features/dose_receiver_form/page.dart';
 import 'package:medicalarm/features/resolver/app_resolvers.dart';
 
 class MedicineDoseReceiverTile extends StatelessWidget {
-  final ValueNotifier<MedicineDoseReceiver?> doseReceiver;
+  final ValueNotifier<DoseReceiver?> doseReceiver;
   const MedicineDoseReceiverTile({super.key, required this.doseReceiver});
 
   @override
