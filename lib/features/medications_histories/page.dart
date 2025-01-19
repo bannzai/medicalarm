@@ -5,8 +5,8 @@ import 'package:medicalarm/components/retry/page.dart';
 import 'package:medicalarm/entity/medication_history.dart';
 import 'package:medicalarm/provider/medication_history.dart';
 
-class MedicationsPage extends HookConsumerWidget {
-  const MedicationsPage({super.key});
+class MedicationHistoriesPage extends HookConsumerWidget {
+  const MedicationHistoriesPage({super.key});
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
@@ -15,7 +15,7 @@ class MedicationsPage extends HookConsumerWidget {
     return Retry(
       retry: () => ref.invalidate(medicationHistoriesProvider),
       child: medicationHistories.when(
-        data: (histories) => MedicationsPageBody(histories: histories),
+        data: (histories) => MedicationsHistoryPageBody(histories: histories),
         error: (error, stackTrace) => RetryPage(exception: error),
         loading: () => const IndicatorPage(),
       ),
@@ -23,9 +23,9 @@ class MedicationsPage extends HookConsumerWidget {
   }
 }
 
-class MedicationsPageBody extends StatelessWidget {
+class MedicationsHistoryPageBody extends StatelessWidget {
   final List<MedicationHistory> histories;
-  const MedicationsPageBody({
+  const MedicationsHistoryPageBody({
     super.key,
     required this.histories,
   });
