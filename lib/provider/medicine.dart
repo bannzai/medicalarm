@@ -39,6 +39,7 @@ class MedicineAdd {
       doseReceiver: doseReceiver,
       memo: memo,
       memoImageURL: memoImageURL,
+      beganDateTime: DateTime.now(),
     );
     await docRef.set(medicine, SetOptions(merge: true));
     return medicine;
