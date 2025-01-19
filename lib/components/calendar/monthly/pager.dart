@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:medicalarm/components/calendar/const.dart';
+import 'package:medicalarm/components/calendar/monthly/calendar.dart';
 import 'package:medicalarm/style/color.dart';
+import 'package:medicalarm/utils/analytics/analytics.dart';
 
 class MonthCalendarPager extends StatelessWidget {
   const MonthCalendarPager({
@@ -13,13 +16,13 @@ class MonthCalendarPager extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       decoration: BoxDecoration(
-        color: AppColors.white,
+        color: Colors.white,
       ),
       height: CalendarConst.monthlyCalendarHeight,
       width: MediaQuery.of(context).size.width,
       child: MonthCalendar(
           dateForMonth: displayedMonth,
-          weekCalendarBuilder: (context, diaries, schedules, weekDateRange) {
+          weekCalendarBuilder: (context, diaries, weekDateRange) {
             return CalendarWeekLine(
               dateRange: weekDateRange,
               calendarMenstruationBandModels: calendarMenstruationBandModels,
