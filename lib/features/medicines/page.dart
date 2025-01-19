@@ -56,15 +56,13 @@ class MedicinesPageBody extends HookConsumerWidget {
           child: SingleChildScrollView(
             child: Padding(
               padding: const EdgeInsets.symmetric(vertical: 20.0),
-              child: Expanded(
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.center,
-                  children: [
-                    for (final tileValue in _tileValues()) ...[
-                      MedicineTile(tileValue: tileValue),
-                    ],
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.center,
+                children: [
+                  for (final tileValue in _tileValues()) ...[
+                    MedicineTile(tileValue: tileValue),
                   ],
-                ),
+                ],
               ),
             ),
           ),
