@@ -34,7 +34,6 @@ abstract class $MedicineTileValueCopyWith<$Res> {
   $Res call({ScheduleTime scheduleTime, MedicineDoseReceiver doseReceiver, List<MedicineDosingRowValue> dosingRows});
 
   $ScheduleTimeCopyWith<$Res> get scheduleTime;
-  $MedicineDoseReceiverCopyWith<$Res> get doseReceiver;
 }
 
 /// @nodoc
@@ -52,7 +51,7 @@ class _$MedicineTileValueCopyWithImpl<$Res, $Val extends MedicineTileValue> impl
   @override
   $Res call({
     Object? scheduleTime = null,
-    Object? doseReceiver = null,
+    Object? doseReceiver = freezed,
     Object? dosingRows = null,
   }) {
     return _then(_value.copyWith(
@@ -60,7 +59,7 @@ class _$MedicineTileValueCopyWithImpl<$Res, $Val extends MedicineTileValue> impl
           ? _value.scheduleTime
           : scheduleTime // ignore: cast_nullable_to_non_nullable
               as ScheduleTime,
-      doseReceiver: null == doseReceiver
+      doseReceiver: freezed == doseReceiver
           ? _value.doseReceiver
           : doseReceiver // ignore: cast_nullable_to_non_nullable
               as MedicineDoseReceiver,
@@ -80,16 +79,6 @@ class _$MedicineTileValueCopyWithImpl<$Res, $Val extends MedicineTileValue> impl
       return _then(_value.copyWith(scheduleTime: value) as $Val);
     });
   }
-
-  /// Create a copy of MedicineTileValue
-  /// with the given fields replaced by the non-null parameter values.
-  @override
-  @pragma('vm:prefer-inline')
-  $MedicineDoseReceiverCopyWith<$Res> get doseReceiver {
-    return $MedicineDoseReceiverCopyWith<$Res>(_value.doseReceiver, (value) {
-      return _then(_value.copyWith(doseReceiver: value) as $Val);
-    });
-  }
 }
 
 /// @nodoc
@@ -102,8 +91,6 @@ abstract class _$$MedicineTileValueImplCopyWith<$Res> implements $MedicineTileVa
 
   @override
   $ScheduleTimeCopyWith<$Res> get scheduleTime;
-  @override
-  $MedicineDoseReceiverCopyWith<$Res> get doseReceiver;
 }
 
 /// @nodoc
@@ -117,7 +104,7 @@ class __$$MedicineTileValueImplCopyWithImpl<$Res> extends _$MedicineTileValueCop
   @override
   $Res call({
     Object? scheduleTime = null,
-    Object? doseReceiver = null,
+    Object? doseReceiver = freezed,
     Object? dosingRows = null,
   }) {
     return _then(_$MedicineTileValueImpl(
@@ -125,7 +112,7 @@ class __$$MedicineTileValueImplCopyWithImpl<$Res> extends _$MedicineTileValueCop
           ? _value.scheduleTime
           : scheduleTime // ignore: cast_nullable_to_non_nullable
               as ScheduleTime,
-      doseReceiver: null == doseReceiver
+      doseReceiver: freezed == doseReceiver
           ? _value.doseReceiver
           : doseReceiver // ignore: cast_nullable_to_non_nullable
               as MedicineDoseReceiver,
@@ -166,12 +153,13 @@ class _$MedicineTileValueImpl implements _MedicineTileValue {
         (other.runtimeType == runtimeType &&
             other is _$MedicineTileValueImpl &&
             (identical(other.scheduleTime, scheduleTime) || other.scheduleTime == scheduleTime) &&
-            (identical(other.doseReceiver, doseReceiver) || other.doseReceiver == doseReceiver) &&
+            const DeepCollectionEquality().equals(other.doseReceiver, doseReceiver) &&
             const DeepCollectionEquality().equals(other._dosingRows, _dosingRows));
   }
 
   @override
-  int get hashCode => Object.hash(runtimeType, scheduleTime, doseReceiver, const DeepCollectionEquality().hash(_dosingRows));
+  int get hashCode =>
+      Object.hash(runtimeType, scheduleTime, const DeepCollectionEquality().hash(doseReceiver), const DeepCollectionEquality().hash(_dosingRows));
 
   /// Create a copy of MedicineTileValue
   /// with the given fields replaced by the non-null parameter values.

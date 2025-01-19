@@ -12,7 +12,7 @@ _$MedicineImpl _$$MedicineImplFromJson(Map<String, dynamic> json) => _$MedicineI
       name: json['name'] as String,
       frequency: MedicationFrequency.fromJson(json['frequency'] as Map<String, dynamic>),
       schedules: (json['schedules'] as List<dynamic>).map((e) => MedicationSchedule.fromJson(e as Map<String, dynamic>)).toList(),
-      doseReceiver: MedicineDoseReceiver.fromJson(json['doseReceiver'] as Map<String, dynamic>),
+      doseReceiver: DoseReceiver.fromJson(json['doseReceiver'] as Map<String, dynamic>),
       memo: json['memo'] as String,
       memoImageURL: json['memoImageURL'] as String,
       archivedDateTime: const NullableTimestampConverter().fromJson(json['archivedDateTime'] as Timestamp?),
@@ -67,14 +67,4 @@ Map<String, dynamic> _$$MedicationScheduleImplToJson(_$MedicationScheduleImpl in
       'minute': instance.minute,
       'quantityMemo': instance.quantityMemo,
       'notificationSetting': instance.notificationSetting.toJson(),
-    };
-
-_$MedicineDoseReceiverImpl _$$MedicineDoseReceiverImplFromJson(Map<String, dynamic> json) => _$MedicineDoseReceiverImpl(
-      id: json['id'] as String,
-      name: json['name'] as String,
-    );
-
-Map<String, dynamic> _$$MedicineDoseReceiverImplToJson(_$MedicineDoseReceiverImpl instance) => <String, dynamic>{
-      'id': instance.id,
-      'name': instance.name,
     };

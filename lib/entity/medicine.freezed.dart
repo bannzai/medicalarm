@@ -25,7 +25,7 @@ mixin _$Medicine {
   String get name => throw _privateConstructorUsedError;
   MedicationFrequency get frequency => throw _privateConstructorUsedError;
   List<MedicationSchedule> get schedules => throw _privateConstructorUsedError;
-  MedicineDoseReceiver get doseReceiver => throw _privateConstructorUsedError;
+  DoseReceiver get doseReceiver => throw _privateConstructorUsedError;
   String get memo => throw _privateConstructorUsedError;
   String get memoImageURL => throw _privateConstructorUsedError;
   @NullableTimestampConverter()
@@ -60,7 +60,7 @@ abstract class $MedicineCopyWith<$Res> {
       String name,
       MedicationFrequency frequency,
       List<MedicationSchedule> schedules,
-      MedicineDoseReceiver doseReceiver,
+      DoseReceiver doseReceiver,
       String memo,
       String memoImageURL,
       @NullableTimestampConverter() DateTime? archivedDateTime,
@@ -71,7 +71,7 @@ abstract class $MedicineCopyWith<$Res> {
       @ServerUpdatedTimestamp() DateTime? serverUpdatedDateTime});
 
   $MedicationFrequencyCopyWith<$Res> get frequency;
-  $MedicineDoseReceiverCopyWith<$Res> get doseReceiver;
+  $DoseReceiverCopyWith<$Res> get doseReceiver;
 }
 
 /// @nodoc
@@ -127,7 +127,7 @@ class _$MedicineCopyWithImpl<$Res, $Val extends Medicine> implements $MedicineCo
       doseReceiver: null == doseReceiver
           ? _value.doseReceiver
           : doseReceiver // ignore: cast_nullable_to_non_nullable
-              as MedicineDoseReceiver,
+              as DoseReceiver,
       memo: null == memo
           ? _value.memo
           : memo // ignore: cast_nullable_to_non_nullable
@@ -177,8 +177,8 @@ class _$MedicineCopyWithImpl<$Res, $Val extends Medicine> implements $MedicineCo
   /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
-  $MedicineDoseReceiverCopyWith<$Res> get doseReceiver {
-    return $MedicineDoseReceiverCopyWith<$Res>(_value.doseReceiver, (value) {
+  $DoseReceiverCopyWith<$Res> get doseReceiver {
+    return $DoseReceiverCopyWith<$Res>(_value.doseReceiver, (value) {
       return _then(_value.copyWith(doseReceiver: value) as $Val);
     });
   }
@@ -195,7 +195,7 @@ abstract class _$$MedicineImplCopyWith<$Res> implements $MedicineCopyWith<$Res> 
       String name,
       MedicationFrequency frequency,
       List<MedicationSchedule> schedules,
-      MedicineDoseReceiver doseReceiver,
+      DoseReceiver doseReceiver,
       String memo,
       String memoImageURL,
       @NullableTimestampConverter() DateTime? archivedDateTime,
@@ -208,7 +208,7 @@ abstract class _$$MedicineImplCopyWith<$Res> implements $MedicineCopyWith<$Res> 
   @override
   $MedicationFrequencyCopyWith<$Res> get frequency;
   @override
-  $MedicineDoseReceiverCopyWith<$Res> get doseReceiver;
+  $DoseReceiverCopyWith<$Res> get doseReceiver;
 }
 
 /// @nodoc
@@ -259,7 +259,7 @@ class __$$MedicineImplCopyWithImpl<$Res> extends _$MedicineCopyWithImpl<$Res, _$
       doseReceiver: null == doseReceiver
           ? _value.doseReceiver
           : doseReceiver // ignore: cast_nullable_to_non_nullable
-              as MedicineDoseReceiver,
+              as DoseReceiver,
       memo: null == memo
           ? _value.memo
           : memo // ignore: cast_nullable_to_non_nullable
@@ -337,7 +337,7 @@ class _$MedicineImpl extends _Medicine {
   }
 
   @override
-  final MedicineDoseReceiver doseReceiver;
+  final DoseReceiver doseReceiver;
   @override
   final String memo;
   @override
@@ -414,7 +414,7 @@ abstract class _Medicine extends Medicine {
       required final String name,
       required final MedicationFrequency frequency,
       required final List<MedicationSchedule> schedules,
-      required final MedicineDoseReceiver doseReceiver,
+      required final DoseReceiver doseReceiver,
       required final String memo,
       required final String memoImageURL,
       @NullableTimestampConverter() final DateTime? archivedDateTime,
@@ -438,7 +438,7 @@ abstract class _Medicine extends Medicine {
   @override
   List<MedicationSchedule> get schedules;
   @override
-  MedicineDoseReceiver get doseReceiver;
+  DoseReceiver get doseReceiver;
   @override
   String get memo;
   @override
@@ -875,163 +875,4 @@ abstract class _MedicationSchedule extends MedicationSchedule {
   @override
   @JsonKey(includeFromJson: false, includeToJson: false)
   _$$MedicationScheduleImplCopyWith<_$MedicationScheduleImpl> get copyWith => throw _privateConstructorUsedError;
-}
-
-MedicineDoseReceiver _$MedicineDoseReceiverFromJson(Map<String, dynamic> json) {
-  return _MedicineDoseReceiver.fromJson(json);
-}
-
-/// @nodoc
-mixin _$MedicineDoseReceiver {
-// lib/entity/DoseReceiver とは同期をとってないので、IDがnot foundの可能性がある
-  String get id => throw _privateConstructorUsedError;
-  String get name => throw _privateConstructorUsedError;
-
-  /// Serializes this MedicineDoseReceiver to a JSON map.
-  Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
-
-  /// Create a copy of MedicineDoseReceiver
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  $MedicineDoseReceiverCopyWith<MedicineDoseReceiver> get copyWith => throw _privateConstructorUsedError;
-}
-
-/// @nodoc
-abstract class $MedicineDoseReceiverCopyWith<$Res> {
-  factory $MedicineDoseReceiverCopyWith(MedicineDoseReceiver value, $Res Function(MedicineDoseReceiver) then) =
-      _$MedicineDoseReceiverCopyWithImpl<$Res, MedicineDoseReceiver>;
-  @useResult
-  $Res call({String id, String name});
-}
-
-/// @nodoc
-class _$MedicineDoseReceiverCopyWithImpl<$Res, $Val extends MedicineDoseReceiver> implements $MedicineDoseReceiverCopyWith<$Res> {
-  _$MedicineDoseReceiverCopyWithImpl(this._value, this._then);
-
-  // ignore: unused_field
-  final $Val _value;
-  // ignore: unused_field
-  final $Res Function($Val) _then;
-
-  /// Create a copy of MedicineDoseReceiver
-  /// with the given fields replaced by the non-null parameter values.
-  @pragma('vm:prefer-inline')
-  @override
-  $Res call({
-    Object? id = null,
-    Object? name = null,
-  }) {
-    return _then(_value.copyWith(
-      id: null == id
-          ? _value.id
-          : id // ignore: cast_nullable_to_non_nullable
-              as String,
-      name: null == name
-          ? _value.name
-          : name // ignore: cast_nullable_to_non_nullable
-              as String,
-    ) as $Val);
-  }
-}
-
-/// @nodoc
-abstract class _$$MedicineDoseReceiverImplCopyWith<$Res> implements $MedicineDoseReceiverCopyWith<$Res> {
-  factory _$$MedicineDoseReceiverImplCopyWith(_$MedicineDoseReceiverImpl value, $Res Function(_$MedicineDoseReceiverImpl) then) =
-      __$$MedicineDoseReceiverImplCopyWithImpl<$Res>;
-  @override
-  @useResult
-  $Res call({String id, String name});
-}
-
-/// @nodoc
-class __$$MedicineDoseReceiverImplCopyWithImpl<$Res> extends _$MedicineDoseReceiverCopyWithImpl<$Res, _$MedicineDoseReceiverImpl>
-    implements _$$MedicineDoseReceiverImplCopyWith<$Res> {
-  __$$MedicineDoseReceiverImplCopyWithImpl(_$MedicineDoseReceiverImpl _value, $Res Function(_$MedicineDoseReceiverImpl) _then) : super(_value, _then);
-
-  /// Create a copy of MedicineDoseReceiver
-  /// with the given fields replaced by the non-null parameter values.
-  @pragma('vm:prefer-inline')
-  @override
-  $Res call({
-    Object? id = null,
-    Object? name = null,
-  }) {
-    return _then(_$MedicineDoseReceiverImpl(
-      id: null == id
-          ? _value.id
-          : id // ignore: cast_nullable_to_non_nullable
-              as String,
-      name: null == name
-          ? _value.name
-          : name // ignore: cast_nullable_to_non_nullable
-              as String,
-    ));
-  }
-}
-
-/// @nodoc
-
-@JsonSerializable(explicitToJson: true)
-class _$MedicineDoseReceiverImpl extends _MedicineDoseReceiver {
-  const _$MedicineDoseReceiverImpl({required this.id, required this.name}) : super._();
-
-  factory _$MedicineDoseReceiverImpl.fromJson(Map<String, dynamic> json) => _$$MedicineDoseReceiverImplFromJson(json);
-
-// lib/entity/DoseReceiver とは同期をとってないので、IDがnot foundの可能性がある
-  @override
-  final String id;
-  @override
-  final String name;
-
-  @override
-  String toString() {
-    return 'MedicineDoseReceiver(id: $id, name: $name)';
-  }
-
-  @override
-  bool operator ==(Object other) {
-    return identical(this, other) ||
-        (other.runtimeType == runtimeType &&
-            other is _$MedicineDoseReceiverImpl &&
-            (identical(other.id, id) || other.id == id) &&
-            (identical(other.name, name) || other.name == name));
-  }
-
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @override
-  int get hashCode => Object.hash(runtimeType, id, name);
-
-  /// Create a copy of MedicineDoseReceiver
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @override
-  @pragma('vm:prefer-inline')
-  _$$MedicineDoseReceiverImplCopyWith<_$MedicineDoseReceiverImpl> get copyWith =>
-      __$$MedicineDoseReceiverImplCopyWithImpl<_$MedicineDoseReceiverImpl>(this, _$identity);
-
-  @override
-  Map<String, dynamic> toJson() {
-    return _$$MedicineDoseReceiverImplToJson(
-      this,
-    );
-  }
-}
-
-abstract class _MedicineDoseReceiver extends MedicineDoseReceiver {
-  const factory _MedicineDoseReceiver({required final String id, required final String name}) = _$MedicineDoseReceiverImpl;
-  const _MedicineDoseReceiver._() : super._();
-
-  factory _MedicineDoseReceiver.fromJson(Map<String, dynamic> json) = _$MedicineDoseReceiverImpl.fromJson;
-
-// lib/entity/DoseReceiver とは同期をとってないので、IDがnot foundの可能性がある
-  @override
-  String get id;
-  @override
-  String get name;
-
-  /// Create a copy of MedicineDoseReceiver
-  /// with the given fields replaced by the non-null parameter values.
-  @override
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  _$$MedicineDoseReceiverImplCopyWith<_$MedicineDoseReceiverImpl> get copyWith => throw _privateConstructorUsedError;
 }

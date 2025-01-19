@@ -1,6 +1,7 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
+import 'package:medicalarm/entity/dose_receiver.dart';
 import 'package:medicalarm/entity/medication_frequency.dart';
 import 'package:medicalarm/entity/timestamp.dart';
 
@@ -22,7 +23,7 @@ class Medicine with _$Medicine {
     required String name,
     required MedicationFrequency frequency,
     required List<MedicationSchedule> schedules,
-    required MedicineDoseReceiver doseReceiver,
+    required DoseReceiver doseReceiver,
     required String memo,
     required String memoImageURL,
     @NullableTimestampConverter() DateTime? archivedDateTime,
@@ -71,20 +72,4 @@ class MedicationSchedule with _$MedicationSchedule {
   TimeOfDay toTimeOfDay() {
     return TimeOfDay(hour: hour, minute: minute);
   }
-}
-
-@freezed
-// NOTE: [DoseReceiver:Exist] 必ず 1つ以上のDoseReceiverが存在する。AppEntityPrepareResolverで必ず存在するようにする
-class MedicineDoseReceiver with _$MedicineDoseReceiver {
-  @JsonSerializable(explicitToJson: true)
-  const factory MedicineDoseReceiver({
-    // lib/entity/DoseReceiver とは同期をとってないので、IDがnot foundの可能性がある
-    required String id,
-    required String name,
-  }) = _MedicineDoseReceiver;
-  const MedicineDoseReceiver._();
-
-  factory MedicineDoseReceiver.fromJson(Map<String, dynamic> json) => _$MedicineDoseReceiverFromJson(json);
-
-  static MedicineDoseReceiver get firstUser => const MedicineDoseReceiver(id: 'firstUser', name: 'あなた');
 }
