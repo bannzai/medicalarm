@@ -423,21 +423,25 @@ mixin _$MedicationHistoryAction {
   MedicationSchedule get medicationSchedule => throw _privateConstructorUsedError;
   @optionalTypeArgs
   TResult when<TResult extends Object?>({
-    required TResult Function(MedicationHistoryActionKind kind, MedicationSchedule medicationSchedule, DateTime scheduledRecordedDate) take,
+    required TResult Function(
+            MedicationHistoryActionKind kind, MedicationSchedule medicationSchedule, @TimestampConverter() DateTime scheduledRecordedDate)
+        take,
     required TResult Function(MedicationHistoryActionKind kind, MedicationHistory takeAction, MedicationSchedule medicationSchedule) revert,
     required TResult Function(MedicationHistoryActionKind kind, MedicationSchedule medicationSchedule) skip,
   }) =>
       throw _privateConstructorUsedError;
   @optionalTypeArgs
   TResult? whenOrNull<TResult extends Object?>({
-    TResult? Function(MedicationHistoryActionKind kind, MedicationSchedule medicationSchedule, DateTime scheduledRecordedDate)? take,
+    TResult? Function(MedicationHistoryActionKind kind, MedicationSchedule medicationSchedule, @TimestampConverter() DateTime scheduledRecordedDate)?
+        take,
     TResult? Function(MedicationHistoryActionKind kind, MedicationHistory takeAction, MedicationSchedule medicationSchedule)? revert,
     TResult? Function(MedicationHistoryActionKind kind, MedicationSchedule medicationSchedule)? skip,
   }) =>
       throw _privateConstructorUsedError;
   @optionalTypeArgs
   TResult maybeWhen<TResult extends Object?>({
-    TResult Function(MedicationHistoryActionKind kind, MedicationSchedule medicationSchedule, DateTime scheduledRecordedDate)? take,
+    TResult Function(MedicationHistoryActionKind kind, MedicationSchedule medicationSchedule, @TimestampConverter() DateTime scheduledRecordedDate)?
+        take,
     TResult Function(MedicationHistoryActionKind kind, MedicationHistory takeAction, MedicationSchedule medicationSchedule)? revert,
     TResult Function(MedicationHistoryActionKind kind, MedicationSchedule medicationSchedule)? skip,
     required TResult orElse(),
@@ -531,7 +535,7 @@ abstract class _$$TakeMedicationHistoryActionImplCopyWith<$Res> implements $Medi
       __$$TakeMedicationHistoryActionImplCopyWithImpl<$Res>;
   @override
   @useResult
-  $Res call({MedicationHistoryActionKind kind, MedicationSchedule medicationSchedule, DateTime scheduledRecordedDate});
+  $Res call({MedicationHistoryActionKind kind, MedicationSchedule medicationSchedule, @TimestampConverter() DateTime scheduledRecordedDate});
 
   @override
   $MedicationScheduleCopyWith<$Res> get medicationSchedule;
@@ -574,7 +578,10 @@ class __$$TakeMedicationHistoryActionImplCopyWithImpl<$Res> extends _$Medication
 @JsonSerializable(explicitToJson: true)
 class _$TakeMedicationHistoryActionImpl extends TakeMedicationHistoryAction {
   const _$TakeMedicationHistoryActionImpl(
-      {this.kind = MedicationHistoryActionKind.take, required this.medicationSchedule, required this.scheduledRecordedDate, final String? $type})
+      {this.kind = MedicationHistoryActionKind.take,
+      required this.medicationSchedule,
+      @TimestampConverter() required this.scheduledRecordedDate,
+      final String? $type})
       : $type = $type ?? 'take',
         super._();
 
@@ -587,6 +594,7 @@ class _$TakeMedicationHistoryActionImpl extends TakeMedicationHistoryAction {
   final MedicationSchedule medicationSchedule;
 // 2025-01-19の服用予定だったのに、2025-01-20に服用した場合、scheduledRecordedDateは2025-01-20になる
   @override
+  @TimestampConverter()
   final DateTime scheduledRecordedDate;
 
   @JsonKey(name: 'runtimeType')
@@ -622,7 +630,9 @@ class _$TakeMedicationHistoryActionImpl extends TakeMedicationHistoryAction {
   @override
   @optionalTypeArgs
   TResult when<TResult extends Object?>({
-    required TResult Function(MedicationHistoryActionKind kind, MedicationSchedule medicationSchedule, DateTime scheduledRecordedDate) take,
+    required TResult Function(
+            MedicationHistoryActionKind kind, MedicationSchedule medicationSchedule, @TimestampConverter() DateTime scheduledRecordedDate)
+        take,
     required TResult Function(MedicationHistoryActionKind kind, MedicationHistory takeAction, MedicationSchedule medicationSchedule) revert,
     required TResult Function(MedicationHistoryActionKind kind, MedicationSchedule medicationSchedule) skip,
   }) {
@@ -632,7 +642,8 @@ class _$TakeMedicationHistoryActionImpl extends TakeMedicationHistoryAction {
   @override
   @optionalTypeArgs
   TResult? whenOrNull<TResult extends Object?>({
-    TResult? Function(MedicationHistoryActionKind kind, MedicationSchedule medicationSchedule, DateTime scheduledRecordedDate)? take,
+    TResult? Function(MedicationHistoryActionKind kind, MedicationSchedule medicationSchedule, @TimestampConverter() DateTime scheduledRecordedDate)?
+        take,
     TResult? Function(MedicationHistoryActionKind kind, MedicationHistory takeAction, MedicationSchedule medicationSchedule)? revert,
     TResult? Function(MedicationHistoryActionKind kind, MedicationSchedule medicationSchedule)? skip,
   }) {
@@ -642,7 +653,8 @@ class _$TakeMedicationHistoryActionImpl extends TakeMedicationHistoryAction {
   @override
   @optionalTypeArgs
   TResult maybeWhen<TResult extends Object?>({
-    TResult Function(MedicationHistoryActionKind kind, MedicationSchedule medicationSchedule, DateTime scheduledRecordedDate)? take,
+    TResult Function(MedicationHistoryActionKind kind, MedicationSchedule medicationSchedule, @TimestampConverter() DateTime scheduledRecordedDate)?
+        take,
     TResult Function(MedicationHistoryActionKind kind, MedicationHistory takeAction, MedicationSchedule medicationSchedule)? revert,
     TResult Function(MedicationHistoryActionKind kind, MedicationSchedule medicationSchedule)? skip,
     required TResult orElse(),
@@ -699,7 +711,7 @@ abstract class TakeMedicationHistoryAction extends MedicationHistoryAction {
   const factory TakeMedicationHistoryAction(
       {final MedicationHistoryActionKind kind,
       required final MedicationSchedule medicationSchedule,
-      required final DateTime scheduledRecordedDate}) = _$TakeMedicationHistoryActionImpl;
+      @TimestampConverter() required final DateTime scheduledRecordedDate}) = _$TakeMedicationHistoryActionImpl;
   const TakeMedicationHistoryAction._() : super._();
 
   factory TakeMedicationHistoryAction.fromJson(Map<String, dynamic> json) = _$TakeMedicationHistoryActionImpl.fromJson;
@@ -708,6 +720,7 @@ abstract class TakeMedicationHistoryAction extends MedicationHistoryAction {
   MedicationHistoryActionKind get kind;
   @override
   MedicationSchedule get medicationSchedule; // 2025-01-19の服用予定だったのに、2025-01-20に服用した場合、scheduledRecordedDateは2025-01-20になる
+  @TimestampConverter()
   DateTime get scheduledRecordedDate;
 
   /// Create a copy of MedicationHistoryAction
@@ -826,7 +839,9 @@ class _$RevertMedicationHistoryActionImpl extends RevertMedicationHistoryAction 
   @override
   @optionalTypeArgs
   TResult when<TResult extends Object?>({
-    required TResult Function(MedicationHistoryActionKind kind, MedicationSchedule medicationSchedule, DateTime scheduledRecordedDate) take,
+    required TResult Function(
+            MedicationHistoryActionKind kind, MedicationSchedule medicationSchedule, @TimestampConverter() DateTime scheduledRecordedDate)
+        take,
     required TResult Function(MedicationHistoryActionKind kind, MedicationHistory takeAction, MedicationSchedule medicationSchedule) revert,
     required TResult Function(MedicationHistoryActionKind kind, MedicationSchedule medicationSchedule) skip,
   }) {
@@ -836,7 +851,8 @@ class _$RevertMedicationHistoryActionImpl extends RevertMedicationHistoryAction 
   @override
   @optionalTypeArgs
   TResult? whenOrNull<TResult extends Object?>({
-    TResult? Function(MedicationHistoryActionKind kind, MedicationSchedule medicationSchedule, DateTime scheduledRecordedDate)? take,
+    TResult? Function(MedicationHistoryActionKind kind, MedicationSchedule medicationSchedule, @TimestampConverter() DateTime scheduledRecordedDate)?
+        take,
     TResult? Function(MedicationHistoryActionKind kind, MedicationHistory takeAction, MedicationSchedule medicationSchedule)? revert,
     TResult? Function(MedicationHistoryActionKind kind, MedicationSchedule medicationSchedule)? skip,
   }) {
@@ -846,7 +862,8 @@ class _$RevertMedicationHistoryActionImpl extends RevertMedicationHistoryAction 
   @override
   @optionalTypeArgs
   TResult maybeWhen<TResult extends Object?>({
-    TResult Function(MedicationHistoryActionKind kind, MedicationSchedule medicationSchedule, DateTime scheduledRecordedDate)? take,
+    TResult Function(MedicationHistoryActionKind kind, MedicationSchedule medicationSchedule, @TimestampConverter() DateTime scheduledRecordedDate)?
+        take,
     TResult Function(MedicationHistoryActionKind kind, MedicationHistory takeAction, MedicationSchedule medicationSchedule)? revert,
     TResult Function(MedicationHistoryActionKind kind, MedicationSchedule medicationSchedule)? skip,
     required TResult orElse(),
@@ -1008,7 +1025,9 @@ class _$SkipMedicationHistoryActionImpl extends SkipMedicationHistoryAction {
   @override
   @optionalTypeArgs
   TResult when<TResult extends Object?>({
-    required TResult Function(MedicationHistoryActionKind kind, MedicationSchedule medicationSchedule, DateTime scheduledRecordedDate) take,
+    required TResult Function(
+            MedicationHistoryActionKind kind, MedicationSchedule medicationSchedule, @TimestampConverter() DateTime scheduledRecordedDate)
+        take,
     required TResult Function(MedicationHistoryActionKind kind, MedicationHistory takeAction, MedicationSchedule medicationSchedule) revert,
     required TResult Function(MedicationHistoryActionKind kind, MedicationSchedule medicationSchedule) skip,
   }) {
@@ -1018,7 +1037,8 @@ class _$SkipMedicationHistoryActionImpl extends SkipMedicationHistoryAction {
   @override
   @optionalTypeArgs
   TResult? whenOrNull<TResult extends Object?>({
-    TResult? Function(MedicationHistoryActionKind kind, MedicationSchedule medicationSchedule, DateTime scheduledRecordedDate)? take,
+    TResult? Function(MedicationHistoryActionKind kind, MedicationSchedule medicationSchedule, @TimestampConverter() DateTime scheduledRecordedDate)?
+        take,
     TResult? Function(MedicationHistoryActionKind kind, MedicationHistory takeAction, MedicationSchedule medicationSchedule)? revert,
     TResult? Function(MedicationHistoryActionKind kind, MedicationSchedule medicationSchedule)? skip,
   }) {
@@ -1028,7 +1048,8 @@ class _$SkipMedicationHistoryActionImpl extends SkipMedicationHistoryAction {
   @override
   @optionalTypeArgs
   TResult maybeWhen<TResult extends Object?>({
-    TResult Function(MedicationHistoryActionKind kind, MedicationSchedule medicationSchedule, DateTime scheduledRecordedDate)? take,
+    TResult Function(MedicationHistoryActionKind kind, MedicationSchedule medicationSchedule, @TimestampConverter() DateTime scheduledRecordedDate)?
+        take,
     TResult Function(MedicationHistoryActionKind kind, MedicationHistory takeAction, MedicationSchedule medicationSchedule)? revert,
     TResult Function(MedicationHistoryActionKind kind, MedicationSchedule medicationSchedule)? skip,
     required TResult orElse(),

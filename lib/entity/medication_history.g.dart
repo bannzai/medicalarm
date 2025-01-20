@@ -43,14 +43,14 @@ const _$MedicationHistoryActionKindEnumMap = {
 _$TakeMedicationHistoryActionImpl _$$TakeMedicationHistoryActionImplFromJson(Map<String, dynamic> json) => _$TakeMedicationHistoryActionImpl(
       kind: $enumDecodeNullable(_$MedicationHistoryActionKindEnumMap, json['kind']) ?? MedicationHistoryActionKind.take,
       medicationSchedule: MedicationSchedule.fromJson(json['medicationSchedule'] as Map<String, dynamic>),
-      scheduledRecordedDate: DateTime.parse(json['scheduledRecordedDate'] as String),
+      scheduledRecordedDate: const TimestampConverter().fromJson(json['scheduledRecordedDate'] as Timestamp),
       $type: json['runtimeType'] as String?,
     );
 
 Map<String, dynamic> _$$TakeMedicationHistoryActionImplToJson(_$TakeMedicationHistoryActionImpl instance) => <String, dynamic>{
       'kind': _$MedicationHistoryActionKindEnumMap[instance.kind]!,
       'medicationSchedule': instance.medicationSchedule.toJson(),
-      'scheduledRecordedDate': instance.scheduledRecordedDate.toIso8601String(),
+      'scheduledRecordedDate': const TimestampConverter().toJson(instance.scheduledRecordedDate),
       'runtimeType': instance.$type,
     };
 
