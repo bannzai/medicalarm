@@ -127,8 +127,17 @@ class MedicationsPageBody extends HookConsumerWidget {
       final doseReceiver = medicine.doseReceiver;
 
       for (final schedule in medicine.schedules) {
+        final MedicineTileValue tileValue;
         final scheduleTime = ScheduleTime(hour: schedule.hour, minute: schedule.minute);
-        tileValues.add(MedicineTileValue(id: const Uuid().v4(), scheduleTime: scheduleTime, doseReceiver: doseReceiver, dosingRows: []));
+        final matchedTile = tileValues.firstWhereOrNull(
+          (tile) => tile.scheduleTime == scheduleTime && tile.doseReceiver == doseReceiver,
+        );
+        if (matchedTile != null) {
+          tileValue = matchedTile;
+        } else {
+          tileValue = MedicineTileValue(id: const Uuid().v4(), scheduleTime: scheduleTime, doseReceiver: doseReceiver, dosingRows: []);
+        }
+        tileValues.add(tileValue);
       }
     }
 
