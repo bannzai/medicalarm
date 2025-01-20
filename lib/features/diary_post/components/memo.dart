@@ -4,6 +4,7 @@ import 'package:medicalarm/features/localization/l.dart';
 
 class DiaryPostMemo extends HookConsumerWidget {
   final ValueNotifier<String> memo;
+  final FocusNode focusNode;
   const DiaryPostMemo({super.key, required this.memo, required this.focusNode});
 
   @override
