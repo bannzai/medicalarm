@@ -28,6 +28,7 @@ class MedicineAdd {
     required DoseReceiver doseReceiver,
     required String memo,
     required String memoImageURL,
+    required DateTime beganDateTime,
   }) async {
     final collectionRef = database.medicinesReference();
     final docRef = collectionRef.doc();
@@ -40,7 +41,7 @@ class MedicineAdd {
       doseReceiver: doseReceiver,
       memo: memo,
       memoImageURL: memoImageURL,
-      beganDateTime: DateTime.now(),
+      beganDateTime: beganDateTime,
     );
     await docRef.set(medicine, SetOptions(merge: true));
     return medicine;

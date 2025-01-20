@@ -5,7 +5,6 @@ import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:medicalarm/components/calendar/const.dart';
 import 'package:medicalarm/components/calendar/day/tile.dart';
 import 'package:medicalarm/components/calendar/weekly/line.dart';
-import 'package:medicalarm/entity/diary.dart';
 import 'package:medicalarm/provider/diary.dart';
 import 'package:medicalarm/utils/analytics/analytics.dart';
 import 'package:medicalarm/utils/date_time/date_time_ext.dart';

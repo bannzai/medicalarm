@@ -7,6 +7,7 @@ import 'package:medicalarm/entity/dose_receiver.dart';
 import 'package:medicalarm/entity/medication_frequency.dart';
 import 'package:medicalarm/entity/medicine.dart';
 import 'package:medicalarm/features/medicine_form/components/additional_info/section.dart';
+import 'package:medicalarm/features/medicine_form/components/begin/tile.dart';
 import 'package:medicalarm/features/medicine_form/components/medication_frequency/tile.dart';
 import 'package:medicalarm/features/medicine_form/components/name_text_field.dart';
 import 'package:medicalarm/features/medicine_form/components/schedule/section.dart';
@@ -14,6 +15,7 @@ import 'package:medicalarm/provider/app_user.dart';
 import 'package:medicalarm/provider/medicine.dart';
 import 'package:medicalarm/style/color.dart';
 import 'package:medicalarm/theme/form.dart';
+import 'package:medicalarm/utils/date_time/date_time_ext.dart';
 
 class MedicineFormPage extends HookConsumerWidget {
   final Medicine? medicine;
@@ -25,6 +27,7 @@ class MedicineFormPage extends HookConsumerWidget {
     final userID = ref.watch(appUserIDProvider);
     final name = useState(medicine?.name ?? '');
     final frequency = useState(medicine?.frequency ?? const MedicationFrequency.daily());
+    final begin = useState(medicine?.beganDateTime ?? today());
     final schedules = useState(medicine?.schedules ?? []);
     final primaryColor = Theme.of(context).colorScheme.primary;
     final memo = useState(medicine?.memo ?? '');
@@ -47,6 +50,7 @@ class MedicineFormPage extends HookConsumerWidget {
           memo: memo.value,
           memoImageURL: memoImageURL.value,
           doseReceiver: doseReceiver.value,
+          beganDateTime: begin.value,
         );
       } else {
         await medicineUpdate(
@@ -89,6 +93,8 @@ class MedicineFormPage extends HookConsumerWidget {
                                   MedicineFormNameTextField(name: name),
                                   const SizedBox(height: 6),
                                   MedicationFrequencyTile(frequency: frequency),
+                                  const SizedBox(height: 6),
+                                  MedicationBeginTile(begin: begin),
                                 ],
                               ),
                             ),
