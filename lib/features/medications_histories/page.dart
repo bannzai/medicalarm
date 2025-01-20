@@ -113,7 +113,6 @@ class MedicationHistoryTile extends HookConsumerWidget {
     final medicine = history.medicine;
     final schedule = history.action.medicationSchedule;
     final primaryColor = Theme.of(context).colorScheme.primary;
-    final memo = useState(history.memo);
     final memoUpdate = ref.watch(medicationHistoryMemoUpdateProvider);
 
     return Padding(
@@ -181,13 +180,15 @@ class MedicationHistoryTile extends HookConsumerWidget {
             const SizedBox(height: 4),
             Row(
               children: [
-                if (memo.value.isEmpty) ...[
+                if (history.memo.isEmpty) ...[
                   const Text('メモなし'),
                 ],
-                Text(memo.value),
+                if (history.memo.isNotEmpty) ...[
+                  Text(history.memo),
+                ],
                 IconButton(
                   onPressed: () async {
-                    final result = await showTextEditSheet(context, text: memo.value);
+                    final result = await showTextEditSheet(context, text: history.memo);
                     if (result != null) {
                       memoUpdate.call(medicationHistory: history, memo: result);
                     }

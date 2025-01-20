@@ -63,9 +63,7 @@ class App extends StatelessWidget {
         ),
         textButtonTheme: TextButtonThemeData(
           style: TextButton.styleFrom(
-            backgroundColor: colorScheme.primary,
-            foregroundColor: TextColor.white,
-            padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 12.0),
+            foregroundColor: colorScheme.primary,
             textStyle: const TextStyle(fontSize: 16.0, fontWeight: FontWeight.bold),
           ),
         ),

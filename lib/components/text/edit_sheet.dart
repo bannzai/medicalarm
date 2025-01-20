@@ -10,8 +10,14 @@ class TextEditSheet extends HookWidget {
   @override
   Widget build(BuildContext context) {
     final text = useState(this.text);
+    final focusNode = useFocusNode();
+
+    WidgetsBinding.instance.addPostFrameCallback((timeStamp) {
+      focusNode.requestFocus();
+    });
+
     return DraggableScrollableSheet(
-      maxChildSize: 0.7,
+      maxChildSize: 1,
       initialChildSize: 0.7,
       builder: (context, scrollController) {
         return Container(
@@ -19,16 +25,18 @@ class TextEditSheet extends HookWidget {
             color: Colors.white,
             borderRadius: BorderRadius.only(topLeft: Radius.circular(16), topRight: Radius.circular(16)),
           ),
-          child: SingleChildScrollView(
-            controller: scrollController,
-            child: Column(
-              mainAxisAlignment: MainAxisAlignment.start,
-              children: [
-                Padding(
-                  padding: const EdgeInsets.only(bottom: 20, top: 24, left: 16, right: 16),
+          child: Stack(
+            children: [
+              SingleChildScrollView(
+                controller: scrollController,
+                child: Padding(
+                  padding: const EdgeInsets.only(bottom: 20, top: 40, left: 16, right: 16),
                   child: TextFormField(
+                    focusNode: focusNode,
                     initialValue: text.value,
                     validator: validator,
+                    minLines: 1,
+                    maxLines: 10,
                     decoration: const InputDecoration(
                       border: UnderlineInputBorder(),
                       enabledBorder: UnderlineInputBorder(),
@@ -37,13 +45,20 @@ class TextEditSheet extends HookWidget {
                     onChanged: (value) {
                       text.value = value;
                     },
-                    onFieldSubmitted: (value) {
-                      Navigator.of(context).pop(value);
-                    },
                   ),
                 ),
-              ],
-            ),
+              ),
+              Positioned(
+                top: 10,
+                right: 10,
+                child: TextButton(
+                  onPressed: () {
+                    Navigator.of(context).pop(text.value);
+                  },
+                  child: const Text('保存'),
+                ),
+              ),
+            ],
           ),
         );
       },
