@@ -14,12 +14,11 @@ class WeekdayBadge extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
+    return SizedBox(
       width: 20,
       height: WeekdayBadgeConst.height,
-      color: Colors.white,
       child: Center(
-        child: Text(weekday.weekdayString(),
+        child: Text(weekday.weekdayShortString(),
             textAlign: TextAlign.end,
             style: const TextStyle(
               fontWeight: FontWeight.w600,

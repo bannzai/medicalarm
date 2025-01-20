@@ -4,6 +4,7 @@ import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:medicalarm/components/calendar/const.dart';
 import 'package:medicalarm/components/calendar/day/tile.dart';
+import 'package:medicalarm/components/calendar/weekly/badge.dart';
 import 'package:medicalarm/components/calendar/weekly/line.dart';
 import 'package:medicalarm/provider/diary.dart';
 import 'package:medicalarm/utils/analytics/analytics.dart';
@@ -25,39 +26,44 @@ class WeeklyCalendarPager extends HookConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final diaries = ref.watch(diariesForDateTimeRangeProvider(dateTimeRange: allWeekCalendarDateTimeRange())).asData?.valueOrNull ?? [];
 
-    return LimitedBox(
-      maxHeight: CalendarConst.tileHeight,
-      child: PageView.builder(
-        controller: pageController,
-        physics: const PageScrollPhysics(),
-        scrollDirection: Axis.horizontal,
-        itemBuilder: (context, index) {
-          final days = weekcalendarDataSource[index];
+    return Column(
+      children: [
+        _WeekdayLine(),
+        LimitedBox(
+          maxHeight: CalendarConst.tileHeight,
+          child: PageView.builder(
+            controller: pageController,
+            physics: const PageScrollPhysics(),
+            scrollDirection: Axis.horizontal,
+            itemBuilder: (context, index) {
+              final days = weekcalendarDataSource[index];
 
-          return SizedBox(
-            width: MediaQuery.of(context).size.width - _horizontalPadding * 2,
-            child: CalendarWeekLine(
-              dateRange: DateTimeRange(start: days.first, end: days.last),
-              horizontalPadding: _horizontalPadding,
-              day: (context, weekday, date) {
-                final diary = diaries.firstWhereOrNull((e) => isSameDay(e.diaryDate, date));
-                debugPrint('date: $date');
-                return CalendarDayTile(
-                  weekday: weekday,
-                  date: date,
-                  diary: diary,
-                  onTap: (date) {
-                    analytics.logEvent(name: 'did_select_day_tile_on_menstruation');
+              return SizedBox(
+                width: MediaQuery.of(context).size.width - _horizontalPadding * 2,
+                child: CalendarWeekLine(
+                  dateRange: DateTimeRange(start: days.first, end: days.last),
+                  horizontalPadding: _horizontalPadding,
+                  day: (context, weekday, date) {
+                    final diary = diaries.firstWhereOrNull((e) => isSameDay(e.diaryDate, date));
+                    debugPrint('date: $date');
+                    return CalendarDayTile(
+                      weekday: weekday,
+                      date: date,
+                      diary: diary,
+                      onTap: (date) {
+                        analytics.logEvent(name: 'did_select_day_tile_on_menstruation');
 
-                    this.date.value = date;
+                        this.date.value = date;
+                      },
+                      selected: isSameDay(date, this.date.value),
+                    );
                   },
-                  selected: isSameDay(date, this.date.value),
-                );
-              },
-            ),
-          );
-        },
-      ),
+                ),
+              );
+            },
+          ),
+        ),
+      ],
     );
   }
 
@@ -89,3 +95,13 @@ final List<List<DateTime>> weekcalendarDataSource = () {
   return List.generate(
       ((diffDay) / Weekday.values.length).round(), (i) => days.sublist(i * Weekday.values.length, i * Weekday.values.length + Weekday.values.length));
 }();
+
+class _WeekdayLine extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Row(
+      mainAxisAlignment: MainAxisAlignment.start,
+      children: List.generate(Weekday.values.length, (index) => Expanded(child: WeekdayBadge(weekday: Weekday.values[index]))),
+    );
+  }
+}
