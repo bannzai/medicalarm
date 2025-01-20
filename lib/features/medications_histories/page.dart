@@ -111,6 +111,7 @@ class MedicationHistoryTile extends StatelessWidget {
   Widget build(BuildContext context) {
     final medicine = history.medicine;
     final schedule = history.action.medicationSchedule;
+    final primaryColor = Theme.of(context).colorScheme.primary;
 
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 16.0),
@@ -134,23 +135,42 @@ class MedicationHistoryTile extends StatelessWidget {
           children: [
             Row(
               children: [
-                Text(medicine.name, style: const TextStyle(fontSize: 16, fontWeight: FontWeight.bold)),
-                Text(schedule.quantityMemo, style: const TextStyle(fontSize: 12)),
+                Text(medicine.name, style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold, color: primaryColor)),
+                Text(
+                  schedule.quantityMemo,
+                  style: const TextStyle(fontSize: 12),
+                ),
               ],
             ),
-            Text(medicine.doseReceiver.name),
+            const SizedBox(height: 4),
+            Text(medicine.doseReceiver.name, style: const TextStyle(fontSize: 16, fontWeight: FontWeight.bold)),
+            const SizedBox(height: 4),
             Column(
               children: [
                 Row(
                   children: [
-                    const Text('服用予定時刻:'),
-                    Text(schedule.toTimeString()),
+                    const Text('予定時刻:'),
+                    const Spacer(),
+                    Text(
+                      schedule.toTimeString(),
+                      style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                        color: primaryColor,
+                      ),
+                    ),
                   ],
                 ),
                 Row(
                   children: [
-                    const Text('服用時間:'),
-                    Text(DateFormat(DateFormat.HOUR24_MINUTE).format(history.recordDateTime)),
+                    const Text('記録時間:'),
+                    const Spacer(),
+                    Text(
+                      DateFormat(DateFormat.HOUR24_MINUTE).format(history.recordDateTime),
+                      style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                        color: primaryColor,
+                      ),
+                    ),
                   ],
                 ),
               ],
