@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
+import 'package:intl/intl.dart';
 import 'package:medicalarm/components/calendar/day/today_badge.dart';
 import 'package:medicalarm/components/calendar/weekly/pager.dart';
 import 'package:medicalarm/components/loading/indicator.dart';
 import 'package:medicalarm/components/retry/page.dart';
 import 'package:medicalarm/entity/medication_history.dart';
 import 'package:medicalarm/entity/medicine.dart';
-import 'package:medicalarm/features/medications/page.dart';
 import 'package:medicalarm/provider/medication_history.dart';
 import 'package:medicalarm/style/color.dart';
 import 'package:medicalarm/utils/date_time/date_time_ext.dart';
@@ -88,9 +88,7 @@ class MedicationsHistoryPageBody extends StatelessWidget {
                 itemCount: histories.length,
                 itemBuilder: (context, index) {
                   final history = histories[index];
-                  final medicine = history.medicine;
-                  final schedule = history.action.medicationSchedule;
-                  return MedicationHistoryTile(medicine: medicine, history: history, schedule: schedule);
+                  return MedicationHistoryTile(history: history);
                 },
               ),
             ),
@@ -104,17 +102,16 @@ class MedicationsHistoryPageBody extends StatelessWidget {
 class MedicationHistoryTile extends StatelessWidget {
   const MedicationHistoryTile({
     super.key,
-    required this.medicine,
     required this.history,
-    required this.schedule,
   });
 
-  final Medicine medicine;
   final MedicationHistory history;
-  final MedicationSchedule schedule;
 
   @override
   Widget build(BuildContext context) {
+    final medicine = history.medicine;
+    final schedule = history.action.medicationSchedule;
+
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 16.0),
       child: Container(
@@ -135,23 +132,32 @@ class MedicationHistoryTile extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Text(medicine.name, style: const TextStyle(fontSize: 16, fontWeight: FontWeight.bold)),
             Row(
               children: [
-                const Text('時間:'),
-                Text(history.createdDateTime?.toString() ?? 'No Date'),
+                Text(medicine.name, style: const TextStyle(fontSize: 16, fontWeight: FontWeight.bold)),
+                Text(schedule.quantityMemo, style: const TextStyle(fontSize: 12)),
               ],
             ),
-            Text(schedule.quantityMemo, style: const TextStyle(fontSize: 12)),
             Text(medicine.doseReceiver.name),
-            Text('${schedule.hour}:${schedule.minute}'),
-            Text(history.memo),
-            if (history.actionKind == MedicationHistoryActionKind.take)
-              const Text('Action: Take')
-            else if (history.actionKind == MedicationHistoryActionKind.revert)
-              const Text('Action: Revert')
-            else if (history.actionKind == MedicationHistoryActionKind.skip)
-              const Text('Action: Skip'),
+            Column(
+              children: [
+                Row(
+                  children: [
+                    const Text('服用予定時刻:'),
+                    Text(schedule.toTimeString()),
+                  ],
+                ),
+                Row(
+                  children: [
+                    const Text('服用時間:'),
+                    Text(DateFormat(DateFormat.HOUR24_MINUTE).format(history.recordDateTime)),
+                  ],
+                ),
+              ],
+            ),
+            if (history.memo.isNotEmpty) ...[
+              Text(history.memo),
+            ],
           ],
         ),
       ),
