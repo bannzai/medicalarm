@@ -49,7 +49,6 @@ class MedicationHistoryTake {
 
   Future<MedicationHistory> call({
     required MedicationHistory? medicationHistory,
-    required String memo,
     required DateTime recordedDateTime,
     required DateTime scheduledRecordedDate,
     required Medicine medicine,
@@ -67,7 +66,7 @@ class MedicationHistoryTake {
             medicationSchedule: medicationSchedule,
             scheduledRecordedDate: scheduledRecordedDate,
           ),
-          memo: memo,
+          memo: '',
           recordedDateTime: recordedDateTime,
           scheduledRecordedDate: scheduledRecordedDate,
         );

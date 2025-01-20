@@ -239,7 +239,6 @@ class MedicineTileRow extends HookConsumerWidget {
       if (isChecked.value) {
         medicationHistoryTake(
           medicationHistory: dosingRow.medicationHistory,
-          memo: dosingRow.quantityMemo,
           scheduledRecordedDate: dosingRow.date,
           recordedDateTime: dosingRow.medicationHistory?.recordedDateTime ?? DateTime.now(),
           medicine: dosingRow.medicine,
