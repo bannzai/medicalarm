@@ -28,20 +28,6 @@ Stream<List<MedicationHistory>> medicationHistoriesByDate(MedicationHistoriesRef
       .map((event) => event.docs.map((doc) => doc.data()).toList());
 }
 
-@Riverpod(dependencies: [userDatabase])
-Stream<List<MedicationHistory>> medicationHistoriesByDateRange(MedicationHistoriesRef ref, DateTimeRange dateRange) {
-  final database = ref.watch(userDatabaseProvider);
-  return database
-      .medicationHistoriesReference()
-      .where(
-        'scheduledRecordedDate',
-        isGreaterThanOrEqualTo: dateRange.start.date(),
-        isLessThanOrEqualTo: dateRange.end.date().subtract(const Duration(seconds: 1)),
-      )
-      .snapshots()
-      .map((event) => event.docs.map((doc) => doc.data()).toList());
-}
-
 class MedicationHistoryTake {
   final UserDatabase database;
 

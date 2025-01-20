@@ -19,7 +19,7 @@ final medicationHistoriesProvider = AutoDisposeStreamProvider<List<MedicationHis
 );
 
 typedef MedicationHistoriesRef = AutoDisposeStreamProviderRef<List<MedicationHistory>>;
-String _$medicationHistoriesByDateHash() => r'3d419f13a163438e18841b3d824b87922ed68371';
+String _$medicationHistoriesByDateHash() => r'61b6a486b27f90399c2feba8727042fb501616fa';
 
 /// Copied from Dart SDK
 class _SystemHash {
@@ -163,132 +163,6 @@ class _MedicationHistoriesByDateProviderElement extends AutoDisposeStreamProvide
 
   @override
   DateTime get date => (origin as MedicationHistoriesByDateProvider).date;
-}
-
-String _$medicationHistoriesByDateRangeHash() => r'42f36b040613e1e761533a7ee613e407ef1ad07e';
-
-/// See also [medicationHistoriesByDateRange].
-@ProviderFor(medicationHistoriesByDateRange)
-const medicationHistoriesByDateRangeProvider = MedicationHistoriesByDateRangeFamily();
-
-/// See also [medicationHistoriesByDateRange].
-class MedicationHistoriesByDateRangeFamily extends Family<AsyncValue<List<MedicationHistory>>> {
-  /// See also [medicationHistoriesByDateRange].
-  const MedicationHistoriesByDateRangeFamily();
-
-  /// See also [medicationHistoriesByDateRange].
-  MedicationHistoriesByDateRangeProvider call(
-    DateTimeRange dateRange,
-  ) {
-    return MedicationHistoriesByDateRangeProvider(
-      dateRange,
-    );
-  }
-
-  @override
-  MedicationHistoriesByDateRangeProvider getProviderOverride(
-    covariant MedicationHistoriesByDateRangeProvider provider,
-  ) {
-    return call(
-      provider.dateRange,
-    );
-  }
-
-  static final Iterable<ProviderOrFamily> _dependencies = <ProviderOrFamily>[userDatabaseProvider];
-
-  @override
-  Iterable<ProviderOrFamily>? get dependencies => _dependencies;
-
-  static final Iterable<ProviderOrFamily> _allTransitiveDependencies = <ProviderOrFamily>{
-    userDatabaseProvider,
-    ...?userDatabaseProvider.allTransitiveDependencies
-  };
-
-  @override
-  Iterable<ProviderOrFamily>? get allTransitiveDependencies => _allTransitiveDependencies;
-
-  @override
-  String? get name => r'medicationHistoriesByDateRangeProvider';
-}
-
-/// See also [medicationHistoriesByDateRange].
-class MedicationHistoriesByDateRangeProvider extends AutoDisposeStreamProvider<List<MedicationHistory>> {
-  /// See also [medicationHistoriesByDateRange].
-  MedicationHistoriesByDateRangeProvider(
-    DateTimeRange dateRange,
-  ) : this._internal(
-          (ref) => medicationHistoriesByDateRange(
-            ref as MedicationHistoriesByDateRangeRef,
-            dateRange,
-          ),
-          from: medicationHistoriesByDateRangeProvider,
-          name: r'medicationHistoriesByDateRangeProvider',
-          debugGetCreateSourceHash: const bool.fromEnvironment('dart.vm.product') ? null : _$medicationHistoriesByDateRangeHash,
-          dependencies: MedicationHistoriesByDateRangeFamily._dependencies,
-          allTransitiveDependencies: MedicationHistoriesByDateRangeFamily._allTransitiveDependencies,
-          dateRange: dateRange,
-        );
-
-  MedicationHistoriesByDateRangeProvider._internal(
-    super._createNotifier, {
-    required super.name,
-    required super.dependencies,
-    required super.allTransitiveDependencies,
-    required super.debugGetCreateSourceHash,
-    required super.from,
-    required this.dateRange,
-  }) : super.internal();
-
-  final DateTimeRange dateRange;
-
-  @override
-  Override overrideWith(
-    Stream<List<MedicationHistory>> Function(MedicationHistoriesByDateRangeRef provider) create,
-  ) {
-    return ProviderOverride(
-      origin: this,
-      override: MedicationHistoriesByDateRangeProvider._internal(
-        (ref) => create(ref as MedicationHistoriesByDateRangeRef),
-        from: from,
-        name: null,
-        dependencies: null,
-        allTransitiveDependencies: null,
-        debugGetCreateSourceHash: null,
-        dateRange: dateRange,
-      ),
-    );
-  }
-
-  @override
-  AutoDisposeStreamProviderElement<List<MedicationHistory>> createElement() {
-    return _MedicationHistoriesByDateRangeProviderElement(this);
-  }
-
-  @override
-  bool operator ==(Object other) {
-    return other is MedicationHistoriesByDateRangeProvider && other.dateRange == dateRange;
-  }
-
-  @override
-  int get hashCode {
-    var hash = _SystemHash.combine(0, runtimeType.hashCode);
-    hash = _SystemHash.combine(hash, dateRange.hashCode);
-
-    return _SystemHash.finish(hash);
-  }
-}
-
-mixin MedicationHistoriesByDateRangeRef on AutoDisposeStreamProviderRef<List<MedicationHistory>> {
-  /// The parameter `dateRange` of this provider.
-  DateTimeRange get dateRange;
-}
-
-class _MedicationHistoriesByDateRangeProviderElement extends AutoDisposeStreamProviderElement<List<MedicationHistory>>
-    with MedicationHistoriesByDateRangeRef {
-  _MedicationHistoriesByDateRangeProviderElement(super.provider);
-
-  @override
-  DateTimeRange get dateRange => (origin as MedicationHistoriesByDateRangeProvider).dateRange;
 }
 
 String _$medicationHistoryTakeHash() => r'1875448b498368c05b7c415da62bcf0ca7a7a7a1';
