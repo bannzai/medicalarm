@@ -17,8 +17,10 @@ class Diary with _$Diary {
   factory Diary({
     required String id,
     required String userID,
-    required List<String> tags,
-    required List<DiaryMemo> memos,
+// [DiarySetting:WIP] 服用者ごとのタグをどういう風に管理するのが良いかわかなかったのでファーストリリースから外す
+    // required List<String> tags,
+// [DiaryMemo:WIP] 服用者ごとのメモをどういう風に管理するのが良いかわかなかったのでファーストリリースから外す
+    // required List<DiaryMemo> memos,
     required String memo,
     @TimestampConverter() required DateTime diaryDate,
     @ClientCreatedTimestamp() DateTime? createdDateTime,
@@ -31,15 +33,16 @@ class Diary with _$Diary {
   factory Diary.fromJson(Map<String, dynamic> json) => _$DiaryFromJson(json);
 }
 
-@freezed
-class DiaryMemo with _$DiaryMemo {
-  @JsonSerializable(explicitToJson: true)
-  factory DiaryMemo({
-    required MedicationHistory medicationHistory,
-    required String memo,
-    required DoseReceiver doseReceiver,
-  }) = _DiaryMemo;
-  const DiaryMemo._();
+// [DiaryMemo:WIP] 服用者ごとのメモをどういう風に管理するのが良いかわかなかったのでファーストリリースから外す
+// @freezed
+// class DiaryMemo with _$DiaryMemo {
+//   @JsonSerializable(explicitToJson: true)
+//   factory DiaryMemo({
+//     required MedicationHistory medicationHistory,
+//     required String memo,
+//     required DoseReceiver doseReceiver,
+//   }) = _DiaryMemo;
+//   const DiaryMemo._();
 
-  factory DiaryMemo.fromJson(Map<String, dynamic> json) => _$DiaryMemoFromJson(json);
-}
+//   factory DiaryMemo.fromJson(Map<String, dynamic> json) => _$DiaryMemoFromJson(json);
+// }

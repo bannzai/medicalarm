@@ -86,7 +86,7 @@ class DiaryPostPageBody extends HookConsumerWidget {
                 analytics.logEvent(name: 'diary_post_button_tapped');
 
                 final navigator = Navigator.of(context);
-                await diaryPost(
+                await diaryPost.call(
                   diary: diary,
                   tags: tags.value,
                   memos: memos.value,

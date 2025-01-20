@@ -152,11 +152,11 @@ class _DiariesForDateTimeRangeProviderElement extends AutoDisposeStreamProviderE
   DateTimeRange get dateTimeRange => (origin as DiariesForDateTimeRangeProvider).dateTimeRange;
 }
 
-String _$diaryPostHash() => r'56330330822b702302e973700684978925f9c3ee';
+String _$diaryPostHash() => r'3d0c5e4ddfeb0151c2573816a58253af9ebe136a';
 
 /// See also [diaryPost].
 @ProviderFor(diaryPost)
-final diaryPostProvider = AutoDisposeFutureProvider<DiaryPost>.internal(
+final diaryPostProvider = AutoDisposeProvider<DiaryPost>.internal(
   diaryPost,
   name: r'diaryPostProvider',
   debugGetCreateSourceHash: const bool.fromEnvironment('dart.vm.product') ? null : _$diaryPostHash,
@@ -164,6 +164,6 @@ final diaryPostProvider = AutoDisposeFutureProvider<DiaryPost>.internal(
   allTransitiveDependencies: <ProviderOrFamily>{userDatabaseProvider, ...?userDatabaseProvider.allTransitiveDependencies},
 );
 
-typedef DiaryPostRef = AutoDisposeFutureProviderRef<DiaryPost>;
+typedef DiaryPostRef = AutoDisposeProviderRef<DiaryPost>;
 // ignore_for_file: type=lint
 // ignore_for_file: subtype_of_sealed_class, invalid_use_of_internal_member, invalid_use_of_visible_for_testing_member

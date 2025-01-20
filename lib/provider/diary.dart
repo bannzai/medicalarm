@@ -50,7 +50,7 @@ class DiaryPost {
 }
 
 @Riverpod(dependencies: [userDatabase])
-Future<DiaryPost> diaryPost(DiaryPostRef ref) async {
+DiaryPost diaryPost(DiaryPostRef ref) async {
   final database = ref.watch(userDatabaseProvider);
   return DiaryPost(database);
 }
