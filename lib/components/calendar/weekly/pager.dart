@@ -33,7 +33,6 @@ class WeeklyCalendarPager extends HookConsumerWidget {
 
           return SizedBox(
             width: MediaQuery.of(context).size.width - _horizontalPadding * 2,
-            height: CalendarConst.tileHeight,
             child: CalendarWeekLine(
               dateRange: DateTimeRange(start: days.first, end: days.last),
               horizontalPadding: _horizontalPadding,

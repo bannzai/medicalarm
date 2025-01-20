@@ -59,36 +59,32 @@ class MedicinesPageBody extends HookConsumerWidget {
       body: SafeArea(
         child: Padding(
           padding: const EdgeInsets.symmetric(vertical: 8.0),
-          child: Expanded(
-            child: Column(
-              children: [
-                WeeklyCalendarPager(onTap: (selectedDate, diary, diaries) {
-                  date.value = selectedDate;
-                }),
-                Expanded(
-                  child: SingleChildScrollView(
-                    child: Padding(
-                      padding: const EdgeInsets.symmetric(vertical: 20.0),
-                      child: PageView.builder(
-                        controller: pageController,
-                        physics: const PageScrollPhysics(),
-                        scrollDirection: Axis.horizontal,
-                        itemBuilder: (context, index) {
-                          return Column(
-                            crossAxisAlignment: CrossAxisAlignment.center,
-                            children: [
-                              for (final tileValue in _tileValues()) ...[
-                                MedicineTile(tileValue: tileValue),
-                              ],
-                            ],
-                          );
-                        },
-                      ),
+          child: Column(
+            children: [
+              WeeklyCalendarPager(onTap: (selectedDate, diary, diaries) {
+                date.value = selectedDate;
+              }),
+              const Divider(
+                height: 1,
+                color: Colors.black,
+              ),
+              Expanded(
+                child: SingleChildScrollView(
+                  physics: const AlwaysScrollableScrollPhysics(),
+                  child: Padding(
+                    padding: const EdgeInsets.symmetric(vertical: 20.0),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.center,
+                      children: [
+                        for (final tileValue in _tileValues()) ...[
+                          MedicineTile(tileValue: tileValue),
+                        ],
+                      ],
                     ),
                   ),
                 ),
-              ],
-            ),
+              ),
+            ],
           ),
         ),
       ),
