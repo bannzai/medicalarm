@@ -14,15 +14,16 @@ const double _horizontalPadding = 10;
 
 class WeeklyCalendarPager extends HookConsumerWidget {
   final ValueNotifier<DateTime> date;
+  final PageController pageController;
   const WeeklyCalendarPager({
     super.key,
     required this.date,
+    required this.pageController,
   });
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final diaries = ref.watch(diariesForDateTimeRangeProvider(dateTimeRange: allWeekCalendarDateTimeRange())).asData?.valueOrNull ?? [];
-    final pageController = usePageController();
 
     return LimitedBox(
       maxHeight: CalendarConst.tileHeight,

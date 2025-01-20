@@ -63,6 +63,15 @@ class MedicinesPageBody extends HookConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
+    final page = useState(todayCalendarPageIndex);
+    final pageController = usePageController(initialPage: page.value);
+    pageController.addListener(() {
+      final pageControllerPage = pageController.page;
+      if (pageControllerPage != null) {
+        page.value = pageControllerPage.toInt();
+      }
+    });
+
     return Scaffold(
       appBar: AppBar(
         title: const Text('お薬'),
@@ -72,7 +81,7 @@ class MedicinesPageBody extends HookConsumerWidget {
           padding: const EdgeInsets.symmetric(vertical: 8.0),
           child: Column(
             children: [
-              WeeklyCalendarPager(date: date),
+              WeeklyCalendarPager(date: date, pageController: pageController),
               const Divider(
                 height: 1,
                 color: Colors.black,
