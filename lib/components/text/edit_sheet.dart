@@ -16,26 +16,30 @@ class TextEditSheet extends HookWidget {
       builder: (context, scrollController) {
         return Column(
           mainAxisAlignment: MainAxisAlignment.start,
+          mainAxisSize: MainAxisSize.max,
           children: [
-            Padding(
-              padding: const EdgeInsets.only(bottom: 20, top: 24, left: 16, right: 16),
-              child: TextFormField(
-                initialValue: text.value,
-                validator: validator,
-                decoration: const InputDecoration(
-                  border: UnderlineInputBorder(),
-                  enabledBorder: UnderlineInputBorder(),
-                  focusedBorder: UnderlineInputBorder(),
+            Align(
+              alignment: Alignment.topCenter,
+              child: Padding(
+                padding: const EdgeInsets.only(bottom: 20, top: 24, left: 16, right: 16),
+                child: TextFormField(
+                  initialValue: text.value,
+                  validator: validator,
+                  decoration: const InputDecoration(
+                    border: UnderlineInputBorder(),
+                    enabledBorder: UnderlineInputBorder(),
+                    focusedBorder: UnderlineInputBorder(),
+                  ),
+                  onChanged: (value) {
+                    text.value = value;
+                  },
+                  onFieldSubmitted: (value) {
+                    Navigator.of(context).pop(value);
+                  },
                 ),
-                onChanged: (value) {
-                  text.value = value;
-                },
-                onFieldSubmitted: (value) {
-                  Navigator.of(context).pop(value);
-                },
               ),
             ),
-            const Spacer(),
+            Expanded(child: Container()),
           ],
         );
       },
