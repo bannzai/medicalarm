@@ -13,7 +13,7 @@ class MedicationBeginTile extends StatelessWidget {
       padding: const EdgeInsets.symmetric(horizontal: 12.0),
       child: FlatTile(
         child: ListTile(
-          title: const Text('飲む頻度'),
+          title: const Text('服用開始日'),
           trailing: Wrap(
             children: [
               Text(DateFormat('yyyy/MM/dd').format(begin.value)),
