@@ -223,7 +223,7 @@ class MedicineTileRow extends HookConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final isChecked = useState(false);
+    final isChecked = useState(dosingRow.medicationHistory != null);
     final isMemoExpanded = useState(false);
     final medicationHistoryTake = ref.watch(medicationHistoryTakeProvider);
     final medicationHistoryDelete = ref.watch(medicationHistoryDeleteProvider);
