@@ -47,3 +47,20 @@ extension TZDate on TZDateTime {
 bool isSameDay(DateTime lhs, DateTime rhs) => lhs.year == rhs.year && lhs.month == rhs.month && lhs.day == rhs.day;
 
 bool isSameMonth(DateTime lhs, DateTime rhs) => lhs.year == rhs.year && lhs.month == rhs.month;
+
+extension DateTimeMonth on DateTime {
+  bool isPreviousMonth(DateTime date) {
+    if (isSameMonth(date, this)) {
+      return false;
+    }
+    return isBefore(date);
+  }
+}
+
+DateTime today() {
+  return DateTime.now().date();
+}
+
+DateTime now() {
+  return DateTime.now();
+}
