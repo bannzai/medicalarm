@@ -80,6 +80,11 @@ class UserDatabase {
         fromFirestore: _diaryFromFirestore,
         toFirestore: _diaryToFirestore,
       );
+  DocumentReference<Diary> diaryReference({required String? diaryID}) =>
+      FirebaseFirestore.instance.collection(_CollectionPath.diaries(userID)).doc(diaryID).withConverter(
+            fromFirestore: _diaryFromFirestore,
+            toFirestore: _diaryToFirestore,
+          );
 
   final FromFirestore<DiarySetting> _diarySettingFromFirestore = (snapshot, options) => DiarySetting.fromJson(snapshot.data()!..["id"] = snapshot.id);
   final ToFirestore<DiarySetting> _diarySettingToFirestore = (diarySetting, options) => diarySetting.toJson();
