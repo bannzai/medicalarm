@@ -18,7 +18,7 @@ Stream<List<MedicationHistory>> medicationHistoriesByDate(MedicationHistoriesRef
   return database
       .medicationHistoriesReference()
       .where(
-        'recordDate',
+        'recordDateTime',
         isGreaterThanOrEqualTo: date.date(),
         isLessThanOrEqualTo: date.date().add(const Duration(days: 1)),
       )
