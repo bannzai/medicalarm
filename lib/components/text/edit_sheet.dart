@@ -14,33 +14,37 @@ class TextEditSheet extends HookWidget {
       maxChildSize: 0.7,
       initialChildSize: 0.7,
       builder: (context, scrollController) {
-        return Column(
-          mainAxisAlignment: MainAxisAlignment.start,
-          mainAxisSize: MainAxisSize.max,
-          children: [
-            Align(
-              alignment: Alignment.topCenter,
-              child: Padding(
-                padding: const EdgeInsets.only(bottom: 20, top: 24, left: 16, right: 16),
-                child: TextFormField(
-                  initialValue: text.value,
-                  validator: validator,
-                  decoration: const InputDecoration(
-                    border: UnderlineInputBorder(),
-                    enabledBorder: UnderlineInputBorder(),
-                    focusedBorder: UnderlineInputBorder(),
+        return Container(
+          decoration: const BoxDecoration(
+            color: Colors.white,
+            borderRadius: BorderRadius.only(topLeft: Radius.circular(16), topRight: Radius.circular(16)),
+          ),
+          child: SingleChildScrollView(
+            controller: scrollController,
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.start,
+              children: [
+                Padding(
+                  padding: const EdgeInsets.only(bottom: 20, top: 24, left: 16, right: 16),
+                  child: TextFormField(
+                    initialValue: text.value,
+                    validator: validator,
+                    decoration: const InputDecoration(
+                      border: UnderlineInputBorder(),
+                      enabledBorder: UnderlineInputBorder(),
+                      focusedBorder: UnderlineInputBorder(),
+                    ),
+                    onChanged: (value) {
+                      text.value = value;
+                    },
+                    onFieldSubmitted: (value) {
+                      Navigator.of(context).pop(value);
+                    },
                   ),
-                  onChanged: (value) {
-                    text.value = value;
-                  },
-                  onFieldSubmitted: (value) {
-                    Navigator.of(context).pop(value);
-                  },
                 ),
-              ),
+              ],
             ),
-            Expanded(child: Container()),
-          ],
+          ),
         );
       },
     );
@@ -49,7 +53,9 @@ class TextEditSheet extends HookWidget {
 
 Future<String?> showTextEditSheet(BuildContext context, {required String text, FormFieldValidator<String>? validator}) async {
   return await showModalBottomSheet<String?>(
-    backgroundColor: Colors.white,
+    useSafeArea: true,
+    backgroundColor: Colors.transparent,
+    isScrollControlled: true,
     context: context,
     builder: (context) => TextEditSheet(text: text, validator: validator),
   );
