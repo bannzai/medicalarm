@@ -304,5 +304,18 @@ final medicationHistoryTakeProvider = AutoDisposeProvider<MedicationHistoryTake>
 );
 
 typedef MedicationHistoryTakeRef = AutoDisposeProviderRef<MedicationHistoryTake>;
+String _$medicationHistoryDeleteHash() => r'd25eda5bb38097e3a1d3efad69fc21e23ae2f900';
+
+/// See also [medicationHistoryDelete].
+@ProviderFor(medicationHistoryDelete)
+final medicationHistoryDeleteProvider = AutoDisposeProvider<MedicationHistoryDelete>.internal(
+  medicationHistoryDelete,
+  name: r'medicationHistoryDeleteProvider',
+  debugGetCreateSourceHash: const bool.fromEnvironment('dart.vm.product') ? null : _$medicationHistoryDeleteHash,
+  dependencies: <ProviderOrFamily>[userDatabaseProvider],
+  allTransitiveDependencies: <ProviderOrFamily>{userDatabaseProvider, ...?userDatabaseProvider.allTransitiveDependencies},
+);
+
+typedef MedicationHistoryDeleteRef = AutoDisposeProviderRef<MedicationHistoryDelete>;
 // ignore_for_file: type=lint
 // ignore_for_file: subtype_of_sealed_class, invalid_use_of_internal_member, invalid_use_of_visible_for_testing_member

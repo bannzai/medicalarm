@@ -76,3 +76,18 @@ class MedicationHistoryTake {
 MedicationHistoryTake medicationHistoryTake(MedicationHistoryTakeRef ref) {
   return MedicationHistoryTake(ref.watch(userDatabaseProvider));
 }
+
+class MedicationHistoryDelete {
+  final UserDatabase database;
+
+  MedicationHistoryDelete(this.database);
+
+  Future<void> call(MedicationHistory medicationHistory) async {
+    await database.medicationHistoriesReference().doc(medicationHistory.id).delete();
+  }
+}
+
+@Riverpod(dependencies: [userDatabase])
+MedicationHistoryDelete medicationHistoryDelete(MedicationHistoryDeleteRef ref) {
+  return MedicationHistoryDelete(ref.watch(userDatabaseProvider));
+}

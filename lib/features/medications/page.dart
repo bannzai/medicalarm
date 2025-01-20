@@ -225,6 +225,7 @@ class MedicineTileRow extends HookConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final isChecked = useState(false);
     final medicationHistoryTake = ref.watch(medicationHistoryTakeProvider);
+    final medicationHistoryDelete = ref.watch(medicationHistoryDeleteProvider);
     isChecked.addListener(() {
       if (isChecked.value) {
         medicationHistoryTake(
@@ -235,7 +236,7 @@ class MedicineTileRow extends HookConsumerWidget {
           medicationSchedule: dosingRow.medicationSchedule,
         );
       } else {
-        // TODO: 削除
+        medicationHistoryDelete(dosingRow.medicationHistory!);
       }
     });
 
