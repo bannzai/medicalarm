@@ -10,6 +10,7 @@ part 'grouped.freezed.dart';
 // scheduleTime(id無し。値一致)とdoseReceiverごとのdosingRowsを管理する
 class MedicineTileValue with _$MedicineTileValue {
   const factory MedicineTileValue({
+    required String id,
     required ScheduleTime scheduleTime,
     required DoseReceiver doseReceiver,
     required List<MedicineDosingRowValue> dosingRows,

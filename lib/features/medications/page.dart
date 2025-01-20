@@ -16,6 +16,7 @@ import 'package:medicalarm/provider/medication_history.dart';
 import 'package:medicalarm/provider/medicine.dart';
 import 'package:medicalarm/style/color.dart';
 import 'package:medicalarm/utils/date_time/date_time_ext.dart';
+import 'package:uuid/uuid.dart';
 
 class MedicationsPage extends HookConsumerWidget {
   const MedicationsPage({super.key});
@@ -101,6 +102,7 @@ class MedicinesPageBody extends HookConsumerWidget {
                     children: [
                       for (final tileValue in _tileValues()) ...[
                         MedicineTile(
+                          key: ValueKey(tileValue.id),
                           tileValue: tileValue,
                         ),
                       ],
@@ -125,7 +127,7 @@ class MedicinesPageBody extends HookConsumerWidget {
 
       for (final schedule in medicine.schedules) {
         final scheduleTime = ScheduleTime(hour: schedule.hour, minute: schedule.minute);
-        tileValues.add(MedicineTileValue(scheduleTime: scheduleTime, doseReceiver: doseReceiver, dosingRows: []));
+        tileValues.add(MedicineTileValue(id: const Uuid().v4(), scheduleTime: scheduleTime, doseReceiver: doseReceiver, dosingRows: []));
       }
     }
 

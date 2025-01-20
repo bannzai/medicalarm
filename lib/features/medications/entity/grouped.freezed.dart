@@ -16,6 +16,7 @@ final _privateConstructorUsedError = UnsupportedError(
 
 /// @nodoc
 mixin _$MedicineTileValue {
+  String get id => throw _privateConstructorUsedError;
   ScheduleTime get scheduleTime => throw _privateConstructorUsedError;
   DoseReceiver get doseReceiver => throw _privateConstructorUsedError;
   List<MedicineDosingRowValue> get dosingRows => throw _privateConstructorUsedError;
@@ -31,7 +32,7 @@ abstract class $MedicineTileValueCopyWith<$Res> {
   factory $MedicineTileValueCopyWith(MedicineTileValue value, $Res Function(MedicineTileValue) then) =
       _$MedicineTileValueCopyWithImpl<$Res, MedicineTileValue>;
   @useResult
-  $Res call({ScheduleTime scheduleTime, DoseReceiver doseReceiver, List<MedicineDosingRowValue> dosingRows});
+  $Res call({String id, ScheduleTime scheduleTime, DoseReceiver doseReceiver, List<MedicineDosingRowValue> dosingRows});
 
   $ScheduleTimeCopyWith<$Res> get scheduleTime;
   $DoseReceiverCopyWith<$Res> get doseReceiver;
@@ -51,11 +52,16 @@ class _$MedicineTileValueCopyWithImpl<$Res, $Val extends MedicineTileValue> impl
   @pragma('vm:prefer-inline')
   @override
   $Res call({
+    Object? id = null,
     Object? scheduleTime = null,
     Object? doseReceiver = null,
     Object? dosingRows = null,
   }) {
     return _then(_value.copyWith(
+      id: null == id
+          ? _value.id
+          : id // ignore: cast_nullable_to_non_nullable
+              as String,
       scheduleTime: null == scheduleTime
           ? _value.scheduleTime
           : scheduleTime // ignore: cast_nullable_to_non_nullable
@@ -98,7 +104,7 @@ abstract class _$$MedicineTileValueImplCopyWith<$Res> implements $MedicineTileVa
       __$$MedicineTileValueImplCopyWithImpl<$Res>;
   @override
   @useResult
-  $Res call({ScheduleTime scheduleTime, DoseReceiver doseReceiver, List<MedicineDosingRowValue> dosingRows});
+  $Res call({String id, ScheduleTime scheduleTime, DoseReceiver doseReceiver, List<MedicineDosingRowValue> dosingRows});
 
   @override
   $ScheduleTimeCopyWith<$Res> get scheduleTime;
@@ -116,11 +122,16 @@ class __$$MedicineTileValueImplCopyWithImpl<$Res> extends _$MedicineTileValueCop
   @pragma('vm:prefer-inline')
   @override
   $Res call({
+    Object? id = null,
     Object? scheduleTime = null,
     Object? doseReceiver = null,
     Object? dosingRows = null,
   }) {
     return _then(_$MedicineTileValueImpl(
+      id: null == id
+          ? _value.id
+          : id // ignore: cast_nullable_to_non_nullable
+              as String,
       scheduleTime: null == scheduleTime
           ? _value.scheduleTime
           : scheduleTime // ignore: cast_nullable_to_non_nullable
@@ -140,9 +151,12 @@ class __$$MedicineTileValueImplCopyWithImpl<$Res> extends _$MedicineTileValueCop
 /// @nodoc
 
 class _$MedicineTileValueImpl implements _MedicineTileValue {
-  const _$MedicineTileValueImpl({required this.scheduleTime, required this.doseReceiver, required final List<MedicineDosingRowValue> dosingRows})
+  const _$MedicineTileValueImpl(
+      {required this.id, required this.scheduleTime, required this.doseReceiver, required final List<MedicineDosingRowValue> dosingRows})
       : _dosingRows = dosingRows;
 
+  @override
+  final String id;
   @override
   final ScheduleTime scheduleTime;
   @override
@@ -157,7 +171,7 @@ class _$MedicineTileValueImpl implements _MedicineTileValue {
 
   @override
   String toString() {
-    return 'MedicineTileValue(scheduleTime: $scheduleTime, doseReceiver: $doseReceiver, dosingRows: $dosingRows)';
+    return 'MedicineTileValue(id: $id, scheduleTime: $scheduleTime, doseReceiver: $doseReceiver, dosingRows: $dosingRows)';
   }
 
   @override
@@ -165,13 +179,14 @@ class _$MedicineTileValueImpl implements _MedicineTileValue {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
             other is _$MedicineTileValueImpl &&
+            (identical(other.id, id) || other.id == id) &&
             (identical(other.scheduleTime, scheduleTime) || other.scheduleTime == scheduleTime) &&
             (identical(other.doseReceiver, doseReceiver) || other.doseReceiver == doseReceiver) &&
             const DeepCollectionEquality().equals(other._dosingRows, _dosingRows));
   }
 
   @override
-  int get hashCode => Object.hash(runtimeType, scheduleTime, doseReceiver, const DeepCollectionEquality().hash(_dosingRows));
+  int get hashCode => Object.hash(runtimeType, id, scheduleTime, doseReceiver, const DeepCollectionEquality().hash(_dosingRows));
 
   /// Create a copy of MedicineTileValue
   /// with the given fields replaced by the non-null parameter values.
@@ -184,10 +199,13 @@ class _$MedicineTileValueImpl implements _MedicineTileValue {
 
 abstract class _MedicineTileValue implements MedicineTileValue {
   const factory _MedicineTileValue(
-      {required final ScheduleTime scheduleTime,
+      {required final String id,
+      required final ScheduleTime scheduleTime,
       required final DoseReceiver doseReceiver,
       required final List<MedicineDosingRowValue> dosingRows}) = _$MedicineTileValueImpl;
 
+  @override
+  String get id;
   @override
   ScheduleTime get scheduleTime;
   @override
