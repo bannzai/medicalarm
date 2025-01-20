@@ -99,7 +99,7 @@ class MedicationsHistoryPageBody extends StatelessWidget {
   }
 }
 
-class MedicationHistoryTile extends StatelessWidget {
+class MedicationHistoryTile extends HookConsumerWidget {
   const MedicationHistoryTile({
     super.key,
     required this.history,
@@ -108,10 +108,12 @@ class MedicationHistoryTile extends StatelessWidget {
   final MedicationHistory history;
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context, WidgetRef ref) {
     final medicine = history.medicine;
     final schedule = history.action.medicationSchedule;
     final primaryColor = Theme.of(context).colorScheme.primary;
+    final memo = useState(history.memo);
+    final memoUpdate = ref.watch(medicationHistoryMemoUpdateProvider);
 
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 16.0),
@@ -175,9 +177,20 @@ class MedicationHistoryTile extends StatelessWidget {
                 ),
               ],
             ),
-            if (history.memo.isNotEmpty) ...[
-              Text(history.memo),
-            ],
+            Padding(
+              padding: const EdgeInsets.symmetric(vertical: 8),
+              child: TextFormField(
+                initialValue: memo.value,
+                maxLines: 3,
+                decoration: const InputDecoration(labelText: 'メモ'),
+                onChanged: (value) {
+                  memo.value = value;
+                },
+                onFieldSubmitted: (value) {
+                  memoUpdate.call(medicationHistory: history, memo: value);
+                },
+              ),
+            ),
           ],
         ),
       ),

@@ -91,3 +91,21 @@ class MedicationHistoryDelete {
 MedicationHistoryDelete medicationHistoryDelete(MedicationHistoryDeleteRef ref) {
   return MedicationHistoryDelete(ref.watch(userDatabaseProvider));
 }
+
+class MedicationHistoryMemoUpdate {
+  final UserDatabase database;
+
+  MedicationHistoryMemoUpdate(this.database);
+
+  Future<void> call({required MedicationHistory medicationHistory, required String memo}) async {
+    await database.medicationHistoriesReference().doc(medicationHistory.id).set(
+          medicationHistory.copyWith(memo: memo),
+          SetOptions(merge: true),
+        );
+  }
+}
+
+@Riverpod(dependencies: [userDatabase])
+MedicationHistoryMemoUpdate medicationHistoryMemoUpdate(MedicationHistoryMemoUpdateRef ref) {
+  return MedicationHistoryMemoUpdate(ref.watch(userDatabaseProvider));
+}
