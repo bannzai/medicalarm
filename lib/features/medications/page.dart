@@ -7,6 +7,7 @@ import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:medicalarm/components/calendar/day/tile.dart';
 import 'package:medicalarm/components/calendar/weekly/line.dart';
+import 'package:medicalarm/components/calendar/weekly/pager.dart';
 import 'package:medicalarm/components/loading/indicator.dart';
 import 'package:medicalarm/components/retry/page.dart';
 import 'package:medicalarm/entity/medication_history.dart';
@@ -61,20 +62,7 @@ class MedicinesPageBody extends HookConsumerWidget {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
-                  CalendarWeekLine(
-                      dateRange: DateTimeRange(
-                        start: DateTime.now().subtract(const Duration(days: 90)),
-                        end: DateTime.now().add(const Duration(days: 90)),
-                      ),
-                      horizontalPadding: 16,
-                      day: (context, weekday, date) {
-                        return CalendarDayTile(
-                          date: date,
-                          weekday: weekday,
-                          onTap: (date) {},
-                          diary: null,
-                        );
-                      }),
+                  const WeeklyCalendarPager(),
                   for (final tileValue in _tileValues()) ...[
                     MedicineTile(tileValue: tileValue),
                   ],
