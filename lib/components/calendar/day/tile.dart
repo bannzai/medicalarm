@@ -45,7 +45,32 @@ class CalendarDayTile extends StatelessWidget {
           height: CalendarConst.tileHeight,
           child: Column(
             children: <Widget>[
-              _content(),
+              SizedBox(
+                width: 40,
+                height: 40,
+                child: Stack(
+                  children: [
+                    if (selected)
+                      const Positioned(
+                        child: Align(
+                          alignment: Alignment.center,
+                          child: _BackgroundCircle(),
+                        ),
+                      ),
+                    Positioned(
+                      child: Align(
+                        alignment: Alignment.center,
+                        child: _DayText(
+                          date: date,
+                          selected: selected,
+                          weekday: weekday,
+                          onTap: onTap,
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
               CalendarDayBadge(diary: diary),
             ],
           ),
@@ -53,60 +78,64 @@ class CalendarDayTile extends StatelessWidget {
       ),
     );
   }
+}
 
-  Widget _content() {
-    return SizedBox(
-      width: 40,
-      height: 40,
-      child: Stack(
-        children: [
-          if (selected)
-            Positioned(
-              child: Align(
-                alignment: Alignment.center,
-                child: Container(
-                  width: 32,
-                  height: 32,
-                  decoration: BoxDecoration(
-                    color: AppColors.primary,
-                    borderRadius: BorderRadius.circular(16),
-                  ),
-                ),
-              ),
-            ),
-          Positioned(
-            child: Align(
-                alignment: Alignment.center,
-                child: Text(
-                  '${date.day}',
-                  textAlign: TextAlign.center,
-                  style: TextStyle(
-                    fontWeight: FontWeight.w600,
-                    fontSize: 16,
-                    color: _textColor(),
-                  ),
-                )),
-          ),
-        ],
-      ),
+class _DayText extends StatelessWidget {
+  const _DayText({
+    required this.date,
+    required this.selected,
+    required this.weekday,
+    required this.onTap,
+  });
+
+  final DateTime date;
+  final bool selected;
+  final Weekday weekday;
+  final Function(DateTime p1)? onTap;
+
+  @override
+  Widget build(BuildContext context) {
+    return Text(
+      '${date.day}',
+      textAlign: TextAlign.center,
+      style: TextStyle(
+          fontWeight: FontWeight.w600,
+          fontSize: 16,
+          color: () {
+            if (selected) {
+              return Colors.white;
+            }
+            final weekdayColor = switch (weekday) {
+              Weekday.Sunday => weekday.weekdayColor(),
+              Weekday.Monday => TextColor.gray,
+              Weekday.Tuesday => TextColor.gray,
+              Weekday.Wednesday => TextColor.gray,
+              Weekday.Thursday => TextColor.gray,
+              Weekday.Friday => TextColor.gray,
+              Weekday.Saturday => weekday.weekdayColor()
+            };
+            final onTap = this.onTap;
+            final alpha = (255 * (onTap != null ? 1 : 0.4)).floor();
+            return weekdayColor.withAlpha(alpha);
+          }()),
     );
   }
+}
 
-  Color _textColor() {
-    if (selected) {
-      return Colors.white;
-    }
-    final weekdayColor = switch (weekday) {
-      Weekday.Sunday => weekday.weekdayColor(),
-      Weekday.Monday => TextColor.gray,
-      Weekday.Tuesday => TextColor.gray,
-      Weekday.Wednesday => TextColor.gray,
-      Weekday.Thursday => TextColor.gray,
-      Weekday.Friday => TextColor.gray,
-      Weekday.Saturday => weekday.weekdayColor()
-    };
-    final onTap = this.onTap;
-    final alpha = (255 * (onTap != null ? 1 : 0.4)).floor();
-    return weekdayColor.withAlpha(alpha);
+class _BackgroundCircle extends StatelessWidget {
+  const _BackgroundCircle({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      width: 32,
+      height: 32,
+      decoration: BoxDecoration(
+        color: AppColors.primary,
+        borderRadius: BorderRadius.circular(16),
+      ),
+    );
   }
 }
