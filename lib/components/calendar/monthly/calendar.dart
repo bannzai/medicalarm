@@ -2,7 +2,7 @@ import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:flutter/material.dart';
 import 'package:medicalarm/components/calendar/calculator.dart';
 import 'package:medicalarm/components/calendar/const.dart';
-import 'package:medicalarm/components/calendar/weekday/badge.dart';
+import 'package:medicalarm/components/calendar/weekly/badge.dart';
 import 'package:medicalarm/components/loading/indicator.dart';
 import 'package:medicalarm/entity/diary.dart';
 import 'package:medicalarm/provider/diary.dart';
