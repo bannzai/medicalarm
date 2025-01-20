@@ -3,5 +3,9 @@
   "retry": "再試行",
   "@retry": {
     "description": "再試行ボタンのテキスト"
+  },
+  "save": "保存",
+  "@save": {
+    "description": "保存ボタンのテキスト"
   }
 }
