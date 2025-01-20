@@ -50,7 +50,8 @@ class MedicationHistoryTake {
   Future<MedicationHistory> call({
     required MedicationHistory? medicationHistory,
     required String memo,
-    required DateTime recordDateTime,
+    required DateTime recordedDateTime,
+    required DateTime scheduledRecordedDate,
     required Medicine medicine,
     required MedicationSchedule medicationSchedule,
   }) async {
@@ -62,9 +63,12 @@ class MedicationHistoryTake {
           userID: database.userID,
           medicine: medicine,
           actionKind: MedicationHistoryActionKind.take,
-          action: MedicationHistoryAction.take(medicationSchedule: medicationSchedule),
+          action: MedicationHistoryAction.take(
+            medicationSchedule: medicationSchedule,
+            scheduledRecordedDate: scheduledRecordedDate,
+          ),
           memo: memo,
-          recordDateTime: recordDateTime,
+          recordedDateTime: recordedDateTime,
         );
 
     await docRef.set(newMedicationHistory, SetOptions(merge: true));

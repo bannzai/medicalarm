@@ -17,7 +17,7 @@ class MedicationHistory with _$MedicationHistory {
     required MedicationHistoryActionKind actionKind,
     required MedicationHistoryAction action,
     required String memo,
-    @TimestampConverter() required DateTime recordDateTime,
+    @TimestampConverter() required DateTime recordedDateTime,
     @ClientCreatedTimestamp() DateTime? createdDateTime,
     @ClientUpdatedTimestamp() DateTime? updatedDateTime,
     @ServerCreatedTimestamp() DateTime? serverCreatedDateTime,
@@ -40,6 +40,8 @@ sealed class MedicationHistoryAction with _$MedicationHistoryAction {
   const factory MedicationHistoryAction.take({
     @Default(MedicationHistoryActionKind.take) MedicationHistoryActionKind kind,
     required MedicationSchedule medicationSchedule,
+    // 2025-01-19の服用予定だったのに、2025-01-20に服用した場合、scheduledRecordedDateは2025-01-20になる
+    required DateTime scheduledRecordedDate,
   }) = TakeMedicationHistoryAction;
 
   // 服用取り消し

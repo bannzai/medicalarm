@@ -172,7 +172,7 @@ class MedicationHistoryTile extends HookConsumerWidget {
                     const Text('記録時間'),
                     const Spacer(),
                     Text(
-                      DateFormat(DateFormat.HOUR24_MINUTE).format(history.recordDateTime),
+                      DateFormat(DateFormat.HOUR24_MINUTE).format(history.recordedDateTime),
                       style: TextStyle(
                         fontWeight: FontWeight.bold,
                         color: primaryColor,

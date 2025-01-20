@@ -13,7 +13,7 @@ _$MedicationHistoryImpl _$$MedicationHistoryImplFromJson(Map<String, dynamic> js
       actionKind: $enumDecode(_$MedicationHistoryActionKindEnumMap, json['actionKind']),
       action: MedicationHistoryAction.fromJson(json['action'] as Map<String, dynamic>),
       memo: json['memo'] as String,
-      recordDateTime: const TimestampConverter().fromJson(json['recordDateTime'] as Timestamp),
+      recordedDateTime: const TimestampConverter().fromJson(json['recordedDateTime'] as Timestamp),
       createdDateTime: const ClientCreatedTimestamp().fromJson(json['createdDateTime'] as Timestamp?),
       updatedDateTime: const ClientUpdatedTimestamp().fromJson(json['updatedDateTime'] as Timestamp?),
       serverCreatedDateTime: const ServerCreatedTimestamp().fromJson(json['serverCreatedDateTime']),
@@ -27,7 +27,7 @@ Map<String, dynamic> _$$MedicationHistoryImplToJson(_$MedicationHistoryImpl inst
       'actionKind': _$MedicationHistoryActionKindEnumMap[instance.actionKind]!,
       'action': instance.action.toJson(),
       'memo': instance.memo,
-      'recordDateTime': const TimestampConverter().toJson(instance.recordDateTime),
+      'recordedDateTime': const TimestampConverter().toJson(instance.recordedDateTime),
       'createdDateTime': const ClientCreatedTimestamp().toJson(instance.createdDateTime),
       'updatedDateTime': const ClientUpdatedTimestamp().toJson(instance.updatedDateTime),
       'serverCreatedDateTime': const ServerCreatedTimestamp().toJson(instance.serverCreatedDateTime),
@@ -43,12 +43,14 @@ const _$MedicationHistoryActionKindEnumMap = {
 _$TakeMedicationHistoryActionImpl _$$TakeMedicationHistoryActionImplFromJson(Map<String, dynamic> json) => _$TakeMedicationHistoryActionImpl(
       kind: $enumDecodeNullable(_$MedicationHistoryActionKindEnumMap, json['kind']) ?? MedicationHistoryActionKind.take,
       medicationSchedule: MedicationSchedule.fromJson(json['medicationSchedule'] as Map<String, dynamic>),
+      scheduledRecordedDate: DateTime.parse(json['scheduledRecordedDate'] as String),
       $type: json['runtimeType'] as String?,
     );
 
 Map<String, dynamic> _$$TakeMedicationHistoryActionImplToJson(_$TakeMedicationHistoryActionImpl instance) => <String, dynamic>{
       'kind': _$MedicationHistoryActionKindEnumMap[instance.kind]!,
       'medicationSchedule': instance.medicationSchedule.toJson(),
+      'scheduledRecordedDate': instance.scheduledRecordedDate.toIso8601String(),
       'runtimeType': instance.$type,
     };
 

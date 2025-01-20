@@ -237,7 +237,8 @@ class MedicineTileRow extends HookConsumerWidget {
         medicationHistoryTake(
           medicationHistory: dosingRow.medicationHistory,
           memo: dosingRow.quantityMemo,
-          recordDateTime: dosingRow.medicationHistory?.recordDateTime ?? DateTime.now(),
+          scheduledRecordedDate: dosingRow.date,
+          recordedDateTime: dosingRow.medicationHistory?.recordedDateTime ?? DateTime.now(),
           medicine: dosingRow.medicine,
           medicationSchedule: dosingRow.medicationSchedule,
         );
