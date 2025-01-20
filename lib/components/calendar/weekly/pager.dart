@@ -31,7 +31,7 @@ class WeeklyCalendarPager extends HookConsumerWidget {
         children: [
           _WeekdayLine(),
           LimitedBox(
-            maxHeight: CalendarConst.tileHeight,
+            maxHeight: CalendarConst.weeklyTileHeight,
             child: PageView.builder(
               controller: pageController,
               physics: const PageScrollPhysics(),

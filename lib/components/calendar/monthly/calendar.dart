@@ -43,7 +43,7 @@ class MonthCalendar extends HookConsumerWidget {
               if (weeks.length <= offset) {
                 return const Column(
                   children: [
-                    SizedBox(height: CalendarConst.tileHeight),
+                    SizedBox(height: CalendarConst.monthlyTileHeight),
                     Divider(height: 1),
                   ],
                 );

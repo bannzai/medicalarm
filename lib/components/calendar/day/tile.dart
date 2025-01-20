@@ -42,7 +42,6 @@ class CalendarDayTile extends StatelessWidget {
       child: RawMaterialButton(
         onPressed: () => onTap != null ? onTap(date.date()) : null,
         child: SizedBox(
-          height: CalendarConst.tileHeight,
           child: Column(
             children: <Widget>[
               SizedBox(
