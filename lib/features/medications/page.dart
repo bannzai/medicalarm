@@ -85,33 +85,30 @@ class MedicinesPageBody extends HookConsumerWidget {
         ),
       ),
       body: SafeArea(
-        child: Padding(
-          padding: const EdgeInsets.symmetric(vertical: 8.0),
-          child: Column(
-            children: [
-              WeeklyCalendarPager(date: date, pageController: pageController),
-              const Divider(
-                height: 1,
-                color: Colors.black,
-              ),
-              Expanded(
-                child: SingleChildScrollView(
-                  physics: const AlwaysScrollableScrollPhysics(),
-                  child: Padding(
-                    padding: const EdgeInsets.symmetric(vertical: 20.0),
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.center,
-                      children: [
-                        for (final tileValue in _tileValues()) ...[
-                          MedicineTile(tileValue: tileValue),
-                        ],
+        child: Column(
+          children: [
+            WeeklyCalendarPager(date: date, pageController: pageController),
+            const Divider(
+              height: 1,
+              color: Colors.black,
+            ),
+            Expanded(
+              child: SingleChildScrollView(
+                physics: const AlwaysScrollableScrollPhysics(),
+                child: Padding(
+                  padding: const EdgeInsets.symmetric(vertical: 20.0),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.center,
+                    children: [
+                      for (final tileValue in _tileValues()) ...[
+                        MedicineTile(tileValue: tileValue),
                       ],
-                    ),
+                    ],
                   ),
                 ),
               ),
-            ],
-          ),
+            ),
+          ],
         ),
       ),
       floatingActionButton: const MedicalAddButton(),

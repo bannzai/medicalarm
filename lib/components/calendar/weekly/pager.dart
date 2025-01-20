@@ -26,44 +26,47 @@ class WeeklyCalendarPager extends HookConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final diaries = ref.watch(diariesForDateTimeRangeProvider(dateTimeRange: allWeekCalendarDateTimeRange())).asData?.valueOrNull ?? [];
 
-    return Column(
-      children: [
-        _WeekdayLine(),
-        LimitedBox(
-          maxHeight: CalendarConst.tileHeight,
-          child: PageView.builder(
-            controller: pageController,
-            physics: const PageScrollPhysics(),
-            scrollDirection: Axis.horizontal,
-            itemBuilder: (context, index) {
-              final days = weekcalendarDataSource[index];
+    return Container(
+      color: Colors.white,
+      child: Column(
+        children: [
+          _WeekdayLine(),
+          LimitedBox(
+            maxHeight: CalendarConst.tileHeight,
+            child: PageView.builder(
+              controller: pageController,
+              physics: const PageScrollPhysics(),
+              scrollDirection: Axis.horizontal,
+              itemBuilder: (context, index) {
+                final days = weekcalendarDataSource[index];
 
-              return SizedBox(
-                width: MediaQuery.of(context).size.width - _horizontalPadding * 2,
-                child: CalendarWeekLine(
-                  dateRange: DateTimeRange(start: days.first, end: days.last),
-                  horizontalPadding: _horizontalPadding,
-                  day: (context, weekday, date) {
-                    final diary = diaries.firstWhereOrNull((e) => isSameDay(e.diaryDate, date));
-                    debugPrint('date: $date');
-                    return CalendarDayTile(
-                      weekday: weekday,
-                      date: date,
-                      diary: diary,
-                      onTap: (date) {
-                        analytics.logEvent(name: 'did_select_day_tile_on_menstruation');
+                return SizedBox(
+                  width: MediaQuery.of(context).size.width - _horizontalPadding * 2,
+                  child: CalendarWeekLine(
+                    dateRange: DateTimeRange(start: days.first, end: days.last),
+                    horizontalPadding: _horizontalPadding,
+                    day: (context, weekday, date) {
+                      final diary = diaries.firstWhereOrNull((e) => isSameDay(e.diaryDate, date));
+                      debugPrint('date: $date');
+                      return CalendarDayTile(
+                        weekday: weekday,
+                        date: date,
+                        diary: diary,
+                        onTap: (date) {
+                          analytics.logEvent(name: 'did_select_day_tile_on_menstruation');
 
-                        this.date.value = date;
-                      },
-                      selected: isSameDay(date, this.date.value),
-                    );
-                  },
-                ),
-              );
-            },
+                          this.date.value = date;
+                        },
+                        selected: isSameDay(date, this.date.value),
+                      );
+                    },
+                  ),
+                );
+              },
+            ),
           ),
-        ),
-      ],
+        ],
+      ),
     );
   }
 
