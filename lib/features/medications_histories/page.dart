@@ -8,7 +8,6 @@ import 'package:medicalarm/components/loading/indicator.dart';
 import 'package:medicalarm/components/retry/page.dart';
 import 'package:medicalarm/components/text/edit_sheet.dart';
 import 'package:medicalarm/entity/medication_history.dart';
-import 'package:medicalarm/features/medicine_form/page.dart';
 import 'package:medicalarm/provider/medication_history.dart';
 import 'package:medicalarm/style/color.dart';
 import 'package:medicalarm/utils/date_time/date_time_ext.dart';
@@ -142,12 +141,7 @@ class MedicationHistoryTile extends HookConsumerWidget {
           children: [
             Row(
               children: [
-                GestureDetector(
-                  onTap: () {
-                    showMedicineForm(context, medicine);
-                  },
-                  child: Text(medicine.name, style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold, color: primaryColor)),
-                ),
+                Text(medicine.name, style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold, color: primaryColor)),
                 const Spacer(),
                 Text(
                   schedule.quantityMemo,
