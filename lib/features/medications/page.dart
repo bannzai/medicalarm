@@ -39,7 +39,7 @@ class MedicationsPage extends HookConsumerWidget {
     return Retry(
       retry: () => ref.invalidate(activeMedicinesProvider),
       child: medicines.when(
-        data: (data) => MedicinesPageBody(
+        data: (data) => MedicationsPageBody(
           date: date,
           medicines: data,
           medicationHistories: medicationHistories.value,
@@ -51,12 +51,12 @@ class MedicationsPage extends HookConsumerWidget {
   }
 }
 
-class MedicinesPageBody extends HookConsumerWidget {
+class MedicationsPageBody extends HookConsumerWidget {
   final ValueNotifier<DateTime> date;
   final List<Medicine> medicines;
   final List<MedicationHistory> medicationHistories;
 
-  const MedicinesPageBody({
+  const MedicationsPageBody({
     super.key,
     required this.date,
     required this.medicines,
