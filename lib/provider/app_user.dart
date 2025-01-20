@@ -1,12 +1,13 @@
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:medicalarm/entity/app_user.dart';
 import 'package:medicalarm/features/resolver/database.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 
 part 'app_user.g.dart';
 
-@Riverpod(dependencies: [userDatabase])
+@Riverpod(dependencies: [appUser])
 String appUserID(AppUserIDRef ref) {
-  throw UnimplementedError();
+  return ref.watch(appUserProvider).asData?.value.id ?? FirebaseAuth.instance.currentUser!.uid;
 }
 
 @Riverpod(dependencies: [userDatabase])

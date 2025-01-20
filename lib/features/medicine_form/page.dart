@@ -157,3 +157,13 @@ class MedicineFormPage extends HookConsumerWidget {
         });
   }
 }
+
+void showMedicineForm(BuildContext context, Medicine? medicine) {
+  showModalBottomSheet(
+    context: context,
+    useSafeArea: true,
+    isScrollControlled: true,
+    backgroundColor: Colors.transparent,
+    builder: (context) => MedicineFormPage(medicine: medicine),
+  );
+}

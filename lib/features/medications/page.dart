@@ -14,6 +14,7 @@ import 'package:medicalarm/entity/medicine.dart';
 import 'package:medicalarm/features/medications/components/add_button.dart';
 import 'package:medicalarm/components/calendar/day/today_badge.dart';
 import 'package:medicalarm/features/medications/entity/grouped.dart';
+import 'package:medicalarm/features/medicine_form/page.dart';
 import 'package:medicalarm/provider/medication_history.dart';
 import 'package:medicalarm/provider/medicine.dart';
 import 'package:medicalarm/style/color.dart';
@@ -258,7 +259,15 @@ class MedicineTileRow extends HookConsumerWidget {
               ),
             ),
             const SizedBox(width: 8),
-            Text(dosingRow.medicine.name, style: const TextStyle(fontSize: 16)),
+            GestureDetector(
+              child: Text(
+                dosingRow.medicine.name,
+                style: const TextStyle(fontSize: 16),
+              ),
+              onTap: () {
+                showMedicineForm(context, dosingRow.medicine);
+              },
+            ),
             const Spacer(),
             if (dosingRow.quantityMemo.isNotEmpty) ...[
               Text(dosingRow.quantityMemo),
