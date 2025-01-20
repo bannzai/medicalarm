@@ -89,7 +89,12 @@ class MedicationsHistoryPageBody extends StatelessWidget {
                 itemCount: histories.length,
                 itemBuilder: (context, index) {
                   final history = histories[index];
-                  return MedicationHistoryTile(history: history);
+                  return Column(
+                    children: [
+                      MedicationHistoryTile(history: history),
+                      const SizedBox(height: 10),
+                    ],
+                  );
                 },
               ),
             ),
