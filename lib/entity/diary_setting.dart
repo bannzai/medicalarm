@@ -1,10 +1,10 @@
-import 'package:flutter/foundation.dart';
-import 'package:freezed_annotation/freezed_annotation.dart';
-import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:medicalarm/entity/timestamp.dart';
+// import 'package:flutter/foundation.dart';
+// import 'package:freezed_annotation/freezed_annotation.dart';
+// import 'package:cloud_firestore/cloud_firestore.dart';
+// import 'package:medicalarm/entity/timestamp.dart';
 
-part 'diary_setting.g.dart';
-part 'diary_setting.freezed.dart';
+// part 'diary_setting.g.dart';
+// part 'diary_setting.freezed.dart';
 
 // [DiarySetting:WIP] 服用者ごとのタグをどういう風に管理するのが良いかわかなかったのでファーストリリースから外す
 // @freezed
