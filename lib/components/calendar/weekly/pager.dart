@@ -19,26 +19,27 @@ class WeeklyCalendarPager extends HookConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final diaries = ref.watch(diariesForDateTimeRangeProvider(dateTimeRange: allDateTimeRange())).asData?.valueOrNull ?? [];
+    final diaries = ref.watch(diariesForDateTimeRangeProvider(dateTimeRange: allWeekCalendarDateTimeRange())).asData?.valueOrNull ?? [];
     final pageController = usePageController();
 
     return LimitedBox(
-      maxHeight: CalendarConst.monthlyCalendarHeight,
+      maxHeight: CalendarConst.tileHeight,
       child: PageView.builder(
         controller: pageController,
         physics: const PageScrollPhysics(),
         scrollDirection: Axis.horizontal,
         itemBuilder: (context, index) {
-          final days = menstruationWeekCalendarDataSource[index];
+          final days = weekcalendarDataSource[index];
 
           return SizedBox(
             width: MediaQuery.of(context).size.width - _horizontalPadding * 2,
-            height: CalendarConst.monthlyCalendarHeight,
+            height: CalendarConst.tileHeight,
             child: CalendarWeekLine(
               dateRange: DateTimeRange(start: days.first, end: days.last),
               horizontalPadding: _horizontalPadding,
               day: (context, weekday, date) {
                 final diary = diaries.firstWhereOrNull((e) => isSameDay(e.diaryDate, date));
+                debugPrint('date: $date');
                 return CalendarDayTile(
                     weekday: weekday,
                     date: date,
@@ -56,16 +57,15 @@ class WeeklyCalendarPager extends HookConsumerWidget {
     );
   }
 
-  DateTimeRange allDateTimeRange() {
-    final date = today();
-    return DateTimeRange(start: date.subtract(const Duration(days: 90)), end: date.add(const Duration(days: 90)));
+  DateTimeRange allWeekCalendarDateTimeRange() {
+    final range = weekcalendarDataSource;
+    return DateTimeRange(start: range.first.first, end: range.last.last);
   }
 }
 
-final todayCalendarPageIndex =
-    menstruationWeekCalendarDataSource.lastIndexWhere((element) => element.where((element) => isSameDay(element, today())).isNotEmpty);
+final todayCalendarPageIndex = weekcalendarDataSource.lastIndexWhere((element) => element.where((element) => isSameDay(element, today())).isNotEmpty);
 
-final List<List<DateTime>> menstruationWeekCalendarDataSource = () {
+final List<List<DateTime>> weekcalendarDataSource = () {
   final base = today();
 
   var begin = base.subtract(const Duration(days: 90));
