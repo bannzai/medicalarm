@@ -6,7 +6,7 @@ part of 'diary_setting.dart';
 // RiverpodGenerator
 // **************************************************************************
 
-String _$diarySettingHash() => r'08a50a4682bbf2b1b9a3fd6ae8b7a23c3a1eecb5';
+String _$diarySettingHash() => r'946c7400b95074ce55c990153987102ffd03dd10';
 
 /// See also [diarySetting].
 @ProviderFor(diarySetting)
