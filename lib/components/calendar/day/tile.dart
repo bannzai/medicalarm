@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:medicalarm/components/calendar/const.dart';
 import 'package:medicalarm/components/calendar/day/badge.dart';
 import 'package:medicalarm/entity/diary.dart';
 import 'package:medicalarm/style/color.dart';
