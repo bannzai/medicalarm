@@ -127,17 +127,22 @@ class MedicationsPageBody extends HookConsumerWidget {
       final doseReceiver = medicine.doseReceiver;
 
       for (final schedule in medicine.schedules) {
-        final MedicineTileValue tileValue;
         final scheduleTime = ScheduleTime(hour: schedule.hour, minute: schedule.minute);
         final matchedTile = tileValues.firstWhereOrNull(
-          (tile) => tile.scheduleTime == scheduleTime && tile.doseReceiver == doseReceiver,
+          (tile) => tile.scheduleTime == scheduleTime && tile.doseReceiver.id == doseReceiver.id,
         );
         if (matchedTile != null) {
-          tileValue = matchedTile;
+          continue;
         } else {
-          tileValue = MedicineTileValue(id: const Uuid().v4(), scheduleTime: scheduleTime, doseReceiver: doseReceiver, dosingRows: []);
+          tileValues.add(
+            MedicineTileValue(
+              id: const Uuid().v4(),
+              scheduleTime: scheduleTime,
+              doseReceiver: doseReceiver,
+              dosingRows: [],
+            ),
+          );
         }
-        tileValues.add(tileValue);
       }
     }
 
@@ -149,7 +154,7 @@ class MedicationsPageBody extends HookConsumerWidget {
         final scheduleTime = ScheduleTime(hour: schedule.hour, minute: schedule.minute);
 
         final tileIndex = tileValues.indexWhere(
-          (tile) => tile.scheduleTime == scheduleTime && tile.doseReceiver == doseReceiver,
+          (tile) => tile.scheduleTime == scheduleTime && tile.doseReceiver.id == doseReceiver.id,
         );
         final tile = tileValues[tileIndex];
 
