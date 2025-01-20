@@ -44,6 +44,7 @@ class MonthCalendarPager extends StatelessWidget {
                     analytics.logEvent(name: 'did_select_day_tile_on_calendar_card');
                     transitionWhenCalendarDayTapped(context, date: date, diaries: diaries);
                   },
+                  selected: isSameDay(today(), date),
                 );
               },
             );

@@ -14,8 +14,11 @@ import 'package:medicalarm/utils/date_time/weekday.dart';
 const double _horizontalPadding = 10;
 
 class WeeklyCalendarPager extends HookConsumerWidget {
-  final Function(DateTime, Diary?, List<Diary>) onTap;
-  const WeeklyCalendarPager({super.key, required this.onTap});
+  final ValueNotifier<DateTime> date;
+  const WeeklyCalendarPager({
+    super.key,
+    required this.date,
+  });
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
@@ -40,14 +43,16 @@ class WeeklyCalendarPager extends HookConsumerWidget {
                 final diary = diaries.firstWhereOrNull((e) => isSameDay(e.diaryDate, date));
                 debugPrint('date: $date');
                 return CalendarDayTile(
-                    weekday: weekday,
-                    date: date,
-                    diary: diary,
-                    onTap: (date) {
-                      analytics.logEvent(name: 'did_select_day_tile_on_menstruation');
+                  weekday: weekday,
+                  date: date,
+                  diary: diary,
+                  onTap: (date) {
+                    analytics.logEvent(name: 'did_select_day_tile_on_menstruation');
 
-                      onTap(date, diary, diaries);
-                    });
+                    this.date.value = date;
+                  },
+                  selected: isSameDay(date, this.date.value),
+                );
               },
             ),
           );

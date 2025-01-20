@@ -10,6 +10,7 @@ class CalendarDayTile extends StatelessWidget {
   final DateTime date;
   final Weekday weekday;
   final Diary? diary;
+  final bool selected;
   final Function(DateTime)? onTap;
 
   const CalendarDayTile.grayout({
@@ -22,6 +23,7 @@ class CalendarDayTile extends StatelessWidget {
           weekday: weekday,
           diary: null,
           date: date,
+          selected: false,
         );
 
   const CalendarDayTile({
@@ -30,6 +32,7 @@ class CalendarDayTile extends StatelessWidget {
     required this.weekday,
     required this.diary,
     required this.onTap,
+    required this.selected,
   });
 
   @override
@@ -37,7 +40,7 @@ class CalendarDayTile extends StatelessWidget {
     final onTap = this.onTap;
     return Expanded(
       child: RawMaterialButton(
-        onPressed: () => onTap != null ? onTap(date) : null,
+        onPressed: () => onTap != null ? onTap(date.date()) : null,
         child: SizedBox(
           height: CalendarConst.tileHeight,
           child: Column(
@@ -57,7 +60,7 @@ class CalendarDayTile extends StatelessWidget {
       height: 40,
       child: Stack(
         children: [
-          if (_isToday)
+          if (selected)
             Positioned(
               child: Align(
                 alignment: Alignment.center,
@@ -90,7 +93,7 @@ class CalendarDayTile extends StatelessWidget {
   }
 
   Color _textColor() {
-    if (_isToday) {
+    if (selected) {
       return Colors.white;
     }
     final weekdayColor = switch (weekday) {
@@ -106,6 +109,4 @@ class CalendarDayTile extends StatelessWidget {
     final alpha = (255 * (onTap != null ? 1 : 0.4)).floor();
     return weekdayColor.withAlpha(alpha);
   }
-
-  bool get _isToday => isSameDay(date, today());
 }

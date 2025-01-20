@@ -1,12 +1,9 @@
 import 'dart:math';
 
-import 'package:async_value_group/async_value_group.dart';
 import 'package:collection/collection.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
-import 'package:medicalarm/components/calendar/day/tile.dart';
-import 'package:medicalarm/components/calendar/weekly/line.dart';
 import 'package:medicalarm/components/calendar/weekly/pager.dart';
 import 'package:medicalarm/components/loading/indicator.dart';
 import 'package:medicalarm/components/retry/page.dart';
@@ -26,15 +23,24 @@ class MedicationsPage extends HookConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final date = useState(today());
     final medicines = ref.watch(activeMedicinesProvider);
-    final medicationHistories = ref.watch(medicationHistoriesByDateProvider(date.value));
+    final medicationHistoriesAsync = ref.watch(medicationHistoriesByDateProvider(date.value.date()));
+    final medicationHistories = useState(medicationHistoriesAsync.asData?.valueOrNull ?? []);
+
+    useEffect(() {
+      final asyncValue = medicationHistoriesAsync.asData;
+      if (asyncValue != null) {
+        medicationHistories.value = asyncValue.value;
+      }
+      return null;
+    }, [medicationHistoriesAsync.asData?.valueOrNull]);
 
     return Retry(
       retry: () => ref.invalidate(activeMedicinesProvider),
-      child: AsyncValueGroup.group2(medicines, medicationHistories).when(
+      child: medicines.when(
         data: (data) => MedicinesPageBody(
           date: date,
-          medicines: data.$1,
-          medicationHistories: data.$2,
+          medicines: data,
+          medicationHistories: medicationHistories.value,
         ),
         error: (error, stackTrace) => RetryPage(exception: error),
         loading: () => const IndicatorPage(),
@@ -66,9 +72,7 @@ class MedicinesPageBody extends HookConsumerWidget {
           padding: const EdgeInsets.symmetric(vertical: 8.0),
           child: Column(
             children: [
-              WeeklyCalendarPager(onTap: (selectedDate, diary, diaries) {
-                date.value = selectedDate;
-              }),
+              WeeklyCalendarPager(date: date),
               const Divider(
                 height: 1,
                 color: Colors.black,

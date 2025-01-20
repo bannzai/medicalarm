@@ -35,7 +35,7 @@ class CalendarWeekLine extends HookConsumerWidget {
   }
 
   DateTime _buildDate(Weekday weekday) {
-    return dateRange.start.addDays(weekday.index);
+    return dateRange.start.addDays(weekday.index).date();
   }
 }
 
