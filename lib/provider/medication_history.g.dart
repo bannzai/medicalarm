@@ -19,7 +19,7 @@ final medicationHistoriesProvider = AutoDisposeStreamProvider<List<MedicationHis
 );
 
 typedef MedicationHistoriesRef = AutoDisposeStreamProviderRef<List<MedicationHistory>>;
-String _$medicationHistoriesByDateHash() => r'afd1ef891efdb3308f440997ea7896b69fbcefe6';
+String _$medicationHistoriesByDateHash() => r'3d419f13a163438e18841b3d824b87922ed68371';
 
 /// Copied from Dart SDK
 class _SystemHash {
@@ -165,7 +165,7 @@ class _MedicationHistoriesByDateProviderElement extends AutoDisposeStreamProvide
   DateTime get date => (origin as MedicationHistoriesByDateProvider).date;
 }
 
-String _$medicationHistoriesByDateRangeHash() => r'fec85df806e968ad0a01c1d9d954604a3a4e865b';
+String _$medicationHistoriesByDateRangeHash() => r'42f36b040613e1e761533a7ee613e407ef1ad07e';
 
 /// See also [medicationHistoriesByDateRange].
 @ProviderFor(medicationHistoriesByDateRange)

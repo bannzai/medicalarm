@@ -20,6 +20,7 @@ class MedicineTileValue with _$MedicineTileValue {
 @freezed
 class MedicineDosingRowValue with _$MedicineDosingRowValue {
   const factory MedicineDosingRowValue({
+    required String id,
     required MedicationHistory? medicationHistory,
     required Medicine medicine,
     required MedicationSchedule medicationSchedule,

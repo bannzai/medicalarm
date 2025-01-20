@@ -222,6 +222,7 @@ abstract class _MedicineTileValue implements MedicineTileValue {
 
 /// @nodoc
 mixin _$MedicineDosingRowValue {
+  String get id => throw _privateConstructorUsedError;
   MedicationHistory? get medicationHistory => throw _privateConstructorUsedError;
   Medicine get medicine => throw _privateConstructorUsedError;
   MedicationSchedule get medicationSchedule => throw _privateConstructorUsedError;
@@ -239,7 +240,13 @@ abstract class $MedicineDosingRowValueCopyWith<$Res> {
   factory $MedicineDosingRowValueCopyWith(MedicineDosingRowValue value, $Res Function(MedicineDosingRowValue) then) =
       _$MedicineDosingRowValueCopyWithImpl<$Res, MedicineDosingRowValue>;
   @useResult
-  $Res call({MedicationHistory? medicationHistory, Medicine medicine, MedicationSchedule medicationSchedule, String quantityMemo, DateTime date});
+  $Res call(
+      {String id,
+      MedicationHistory? medicationHistory,
+      Medicine medicine,
+      MedicationSchedule medicationSchedule,
+      String quantityMemo,
+      DateTime date});
 
   $MedicationHistoryCopyWith<$Res>? get medicationHistory;
   $MedicineCopyWith<$Res> get medicine;
@@ -260,6 +267,7 @@ class _$MedicineDosingRowValueCopyWithImpl<$Res, $Val extends MedicineDosingRowV
   @pragma('vm:prefer-inline')
   @override
   $Res call({
+    Object? id = null,
     Object? medicationHistory = freezed,
     Object? medicine = null,
     Object? medicationSchedule = null,
@@ -267,6 +275,10 @@ class _$MedicineDosingRowValueCopyWithImpl<$Res, $Val extends MedicineDosingRowV
     Object? date = null,
   }) {
     return _then(_value.copyWith(
+      id: null == id
+          ? _value.id
+          : id // ignore: cast_nullable_to_non_nullable
+              as String,
       medicationHistory: freezed == medicationHistory
           ? _value.medicationHistory
           : medicationHistory // ignore: cast_nullable_to_non_nullable
@@ -331,7 +343,13 @@ abstract class _$$MedicineDosingRowValueImplCopyWith<$Res> implements $MedicineD
       __$$MedicineDosingRowValueImplCopyWithImpl<$Res>;
   @override
   @useResult
-  $Res call({MedicationHistory? medicationHistory, Medicine medicine, MedicationSchedule medicationSchedule, String quantityMemo, DateTime date});
+  $Res call(
+      {String id,
+      MedicationHistory? medicationHistory,
+      Medicine medicine,
+      MedicationSchedule medicationSchedule,
+      String quantityMemo,
+      DateTime date});
 
   @override
   $MedicationHistoryCopyWith<$Res>? get medicationHistory;
@@ -352,6 +370,7 @@ class __$$MedicineDosingRowValueImplCopyWithImpl<$Res> extends _$MedicineDosingR
   @pragma('vm:prefer-inline')
   @override
   $Res call({
+    Object? id = null,
     Object? medicationHistory = freezed,
     Object? medicine = null,
     Object? medicationSchedule = null,
@@ -359,6 +378,10 @@ class __$$MedicineDosingRowValueImplCopyWithImpl<$Res> extends _$MedicineDosingR
     Object? date = null,
   }) {
     return _then(_$MedicineDosingRowValueImpl(
+      id: null == id
+          ? _value.id
+          : id // ignore: cast_nullable_to_non_nullable
+              as String,
       medicationHistory: freezed == medicationHistory
           ? _value.medicationHistory
           : medicationHistory // ignore: cast_nullable_to_non_nullable
@@ -387,9 +410,16 @@ class __$$MedicineDosingRowValueImplCopyWithImpl<$Res> extends _$MedicineDosingR
 
 class _$MedicineDosingRowValueImpl extends _MedicineDosingRowValue {
   const _$MedicineDosingRowValueImpl(
-      {required this.medicationHistory, required this.medicine, required this.medicationSchedule, required this.quantityMemo, required this.date})
+      {required this.id,
+      required this.medicationHistory,
+      required this.medicine,
+      required this.medicationSchedule,
+      required this.quantityMemo,
+      required this.date})
       : super._();
 
+  @override
+  final String id;
   @override
   final MedicationHistory? medicationHistory;
   @override
@@ -403,7 +433,7 @@ class _$MedicineDosingRowValueImpl extends _MedicineDosingRowValue {
 
   @override
   String toString() {
-    return 'MedicineDosingRowValue(medicationHistory: $medicationHistory, medicine: $medicine, medicationSchedule: $medicationSchedule, quantityMemo: $quantityMemo, date: $date)';
+    return 'MedicineDosingRowValue(id: $id, medicationHistory: $medicationHistory, medicine: $medicine, medicationSchedule: $medicationSchedule, quantityMemo: $quantityMemo, date: $date)';
   }
 
   @override
@@ -411,6 +441,7 @@ class _$MedicineDosingRowValueImpl extends _MedicineDosingRowValue {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
             other is _$MedicineDosingRowValueImpl &&
+            (identical(other.id, id) || other.id == id) &&
             (identical(other.medicationHistory, medicationHistory) || other.medicationHistory == medicationHistory) &&
             (identical(other.medicine, medicine) || other.medicine == medicine) &&
             (identical(other.medicationSchedule, medicationSchedule) || other.medicationSchedule == medicationSchedule) &&
@@ -419,7 +450,7 @@ class _$MedicineDosingRowValueImpl extends _MedicineDosingRowValue {
   }
 
   @override
-  int get hashCode => Object.hash(runtimeType, medicationHistory, medicine, medicationSchedule, quantityMemo, date);
+  int get hashCode => Object.hash(runtimeType, id, medicationHistory, medicine, medicationSchedule, quantityMemo, date);
 
   /// Create a copy of MedicineDosingRowValue
   /// with the given fields replaced by the non-null parameter values.
@@ -432,13 +463,16 @@ class _$MedicineDosingRowValueImpl extends _MedicineDosingRowValue {
 
 abstract class _MedicineDosingRowValue extends MedicineDosingRowValue {
   const factory _MedicineDosingRowValue(
-      {required final MedicationHistory? medicationHistory,
+      {required final String id,
+      required final MedicationHistory? medicationHistory,
       required final Medicine medicine,
       required final MedicationSchedule medicationSchedule,
       required final String quantityMemo,
       required final DateTime date}) = _$MedicineDosingRowValueImpl;
   const _MedicineDosingRowValue._() : super._();
 
+  @override
+  String get id;
   @override
   MedicationHistory? get medicationHistory;
   @override

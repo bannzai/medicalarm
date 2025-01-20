@@ -149,6 +149,7 @@ class MedicinesPageBody extends HookConsumerWidget {
           (history) => history.medicine.id == medicine.id && history.action.medicationSchedule.id == schedule.id,
         );
         final row = MedicineDosingRowValue(
+          id: const Uuid().v4(),
           medicationHistory: medicationHistory,
           medicine: medicine,
           medicationSchedule: schedule,
@@ -213,7 +214,7 @@ class MedicineTile extends StatelessWidget {
             ),
             const SizedBox(height: 4),
             for (final dosingRow in tileValue.dosingRows) ...[
-              MedicineTileRow(dosingRow: dosingRow),
+              MedicineTileRow(key: ValueKey(dosingRow.id), dosingRow: dosingRow),
             ],
           ],
         ),
