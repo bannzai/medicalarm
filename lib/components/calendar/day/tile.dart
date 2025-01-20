@@ -123,9 +123,7 @@ class _DayText extends StatelessWidget {
 }
 
 class _BackgroundCircle extends StatelessWidget {
-  const _BackgroundCircle({
-    super.key,
-  });
+  const _BackgroundCircle();
 
   @override
   Widget build(BuildContext context) {

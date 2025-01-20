@@ -1,4 +1,3 @@
-import 'dart:io';
 import 'dart:math';
 
 import 'package:collection/collection.dart';
@@ -12,12 +11,12 @@ import 'package:medicalarm/components/retry/page.dart';
 import 'package:medicalarm/entity/medication_history.dart';
 import 'package:medicalarm/entity/medicine.dart';
 import 'package:medicalarm/features/medications/components/add_button.dart';
+import 'package:medicalarm/features/medications/components/today_badge.dart';
 import 'package:medicalarm/features/medications/entity/grouped.dart';
 import 'package:medicalarm/provider/medication_history.dart';
 import 'package:medicalarm/provider/medicine.dart';
 import 'package:medicalarm/style/color.dart';
 import 'package:medicalarm/utils/date_time/date_time_ext.dart';
-import 'package:medicalarm/utils/date_time/weekday.dart';
 
 class MedicationsPage extends HookConsumerWidget {
   const MedicationsPage({super.key});
@@ -92,6 +91,7 @@ class MedicinesPageBody extends HookConsumerWidget {
               height: 1,
               color: Colors.black,
             ),
+            TodayBadge(date: date),
             Expanded(
               child: SingleChildScrollView(
                 physics: const AlwaysScrollableScrollPhysics(),
@@ -254,9 +254,24 @@ class MedicineTileRow extends HookConsumerWidget {
   }
 }
 
-String _displayMonth(int page) => DateFormat(DateFormat.NUM_MONTH, Platform.localeName).format(_targetEndDayOfWeekday(page));
-DateTime _targetEndDayOfWeekday(int page) {
-  final diff = page - todayCalendarPageIndex;
-  final base = today().addDays(diff * Weekday.values.length);
-  return endDayOfWeekday(base);
+String _displayMonth(int page) {
+  String format(DateTime date) {
+    return DateFormat(DateFormat.NUM_MONTH_DAY).format(date);
+  }
+
+  final first = _dateTimeRange(page).start;
+  final last = _dateTimeRange(page).end;
+  return '${format(first)} - ${format(last)}';
 }
+
+DateTimeRange _dateTimeRange(int page) {
+  final first = weekcalendarDataSource[page].first;
+  final last = weekcalendarDataSource[page].last;
+  return DateTimeRange(start: first, end: last);
+}
+
+// DateTime _targetEndDayOfWeekday(int page) {
+//   final diff = page - todayCalendarPageIndex;
+//   final base = today().addDays(diff * Weekday.values.length);
+//   return endDayOfWeekday(base);
+// }
