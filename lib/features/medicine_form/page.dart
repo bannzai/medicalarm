@@ -10,6 +10,7 @@ import 'package:medicalarm/features/medicine_form/components/additional_info/sec
 import 'package:medicalarm/features/medicine_form/components/medication_frequency/tile.dart';
 import 'package:medicalarm/features/medicine_form/components/name_text_field.dart';
 import 'package:medicalarm/features/medicine_form/components/schedule/section.dart';
+import 'package:medicalarm/provider/app_user.dart';
 import 'package:medicalarm/provider/medicine.dart';
 import 'package:medicalarm/style/color.dart';
 import 'package:medicalarm/theme/form.dart';
@@ -21,13 +22,14 @@ class MedicineFormPage extends HookConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
+    final userID = ref.watch(appUserIDProvider);
     final name = useState(medicine?.name ?? '');
     final frequency = useState(medicine?.frequency ?? const MedicationFrequency.daily());
     final schedules = useState(medicine?.schedules ?? []);
     final primaryColor = Theme.of(context).colorScheme.primary;
     final memo = useState(medicine?.memo ?? '');
     final memoImageURL = useState(medicine?.memoImageURL ?? '');
-    final doseReceiver = useState<DoseReceiver>(medicine?.doseReceiver ?? DoseReceiver.firstUser);
+    final doseReceiver = useState<DoseReceiver>(medicine?.doseReceiver ?? DoseReceiver.firstUser(userID: userID));
 
     final medicineAdd = ref.watch(medicineAddProvider);
     final medicineUpdate = ref.watch(medicineUpdateProvider);
