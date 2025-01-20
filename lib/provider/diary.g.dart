@@ -6,19 +6,6 @@ part of 'diary.dart';
 // RiverpodGenerator
 // **************************************************************************
 
-String _$doseReceiversHash() => r'bc4a5566bc53494fc386b8e5fe0564252e2dc9d6';
-
-/// See also [doseReceivers].
-@ProviderFor(doseReceivers)
-final doseReceiversProvider = AutoDisposeStreamProvider<List<DoseReceiver>>.internal(
-  doseReceivers,
-  name: r'doseReceiversProvider',
-  debugGetCreateSourceHash: const bool.fromEnvironment('dart.vm.product') ? null : _$doseReceiversHash,
-  dependencies: <ProviderOrFamily>[userDatabaseProvider],
-  allTransitiveDependencies: <ProviderOrFamily>{userDatabaseProvider, ...?userDatabaseProvider.allTransitiveDependencies},
-);
-
-typedef DoseReceiversRef = AutoDisposeStreamProviderRef<List<DoseReceiver>>;
 String _$diariesForDateTimeRangeHash() => r'2727aaaf807f0aa8132fd9a35ba90a6815860e1e';
 
 /// Copied from Dart SDK
