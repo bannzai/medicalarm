@@ -2,20 +2,20 @@ import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:medicalarm/features/medications_histories/page.dart';
-import 'package:medicalarm/features/medicines/page.dart';
+import 'package:medicalarm/features/medications/page.dart';
 import 'package:medicalarm/features/settings/page.dart';
 import 'package:medicalarm/style/color.dart';
 import 'package:medicalarm/utils/analytics/analytics.dart';
 
-enum HomePageTabType { medicines, medications, settings }
+enum HomePageTabType { medications, medicationHistories, settings }
 
 extension HomePageTabFunctions on HomePageTabType {
   String get screenName {
     switch (this) {
-      case HomePageTabType.medicines:
-        return 'MedicinesPage';
       case HomePageTabType.medications:
         return 'MedicationsPage';
+      case HomePageTabType.medicationHistories:
+        return 'MedicationHistoriesPage';
       case HomePageTabType.settings:
         return 'SettingsPage';
     }
@@ -69,7 +69,7 @@ class HomePage extends HookConsumerWidget {
           physics: const NeverScrollableScrollPhysics(),
           controller: tabController,
           children: const [
-            MedicinesPage(),
+            MedicationsPage(),
             MedicationHistoriesPage(),
             SettingPage(),
           ],

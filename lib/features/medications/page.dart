@@ -9,14 +9,14 @@ import 'package:medicalarm/components/loading/indicator.dart';
 import 'package:medicalarm/components/retry/page.dart';
 import 'package:medicalarm/entity/medication_history.dart';
 import 'package:medicalarm/entity/medicine.dart';
-import 'package:medicalarm/features/medicines/components/add_button.dart';
-import 'package:medicalarm/features/medicines/entity/grouped.dart';
+import 'package:medicalarm/features/medications/components/add_button.dart';
+import 'package:medicalarm/features/medications/entity/grouped.dart';
 import 'package:medicalarm/provider/medication_history.dart';
 import 'package:medicalarm/provider/medicine.dart';
 import 'package:medicalarm/style/color.dart';
 
-class MedicinesPage extends HookConsumerWidget {
-  const MedicinesPage({super.key});
+class MedicationsPage extends HookConsumerWidget {
+  const MedicationsPage({super.key});
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
