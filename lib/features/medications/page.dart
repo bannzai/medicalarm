@@ -224,6 +224,7 @@ class MedicineTileRow extends HookConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final isChecked = useState(false);
+    final isMemoExpanded = useState(false);
     final medicationHistoryTake = ref.watch(medicationHistoryTakeProvider);
     final medicationHistoryDelete = ref.watch(medicationHistoryDeleteProvider);
     isChecked.addListener(() {
@@ -260,11 +261,18 @@ class MedicineTileRow extends HookConsumerWidget {
             Text(dosingRow.medicine.name, style: const TextStyle(fontSize: 16)),
             const Spacer(),
             if (dosingRow.quantityMemo.isNotEmpty) ...[
-              Text('${dosingRow.quantityMemo.substring(0, min(dosingRow.quantityMemo.length, 10))}...'),
-              // TODO: Acoordiong menu
+              TextButton(
+                onPressed: () {
+                  isMemoExpanded.value = !isMemoExpanded.value;
+                },
+                child: Text('${dosingRow.quantityMemo.substring(0, min(dosingRow.quantityMemo.length, 10))}...'),
+              ),
             ],
           ],
         ),
+        if (isMemoExpanded.value) ...[
+          Text(dosingRow.quantityMemo),
+        ],
       ],
     );
   }
