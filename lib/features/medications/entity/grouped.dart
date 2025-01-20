@@ -1,6 +1,7 @@
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:medicalarm/entity/dose_receiver.dart';
 import 'package:medicalarm/entity/medication_history.dart';
+import 'package:medicalarm/entity/medicine.dart';
 
 part 'grouped.freezed.dart';
 
@@ -18,7 +19,8 @@ class MedicineTileValue with _$MedicineTileValue {
 class MedicineDosingRowValue with _$MedicineDosingRowValue {
   const factory MedicineDosingRowValue({
     required MedicationHistory? medicationHistory,
-    required String medicineName,
+    required Medicine medicine,
+    required MedicationSchedule medicationSchedule,
     required String quantityMemo,
   }) = _MedicineDosingRowValue;
 }

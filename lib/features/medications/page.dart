@@ -146,7 +146,8 @@ class MedicinesPageBody extends HookConsumerWidget {
         );
         final row = MedicineDosingRowValue(
           medicationHistory: medicationHistory,
-          medicineName: medicine.name,
+          medicine: medicine,
+          medicationSchedule: schedule,
           quantityMemo: schedule.quantityMemo,
         );
 
@@ -214,16 +215,30 @@ class MedicineTile extends HookConsumerWidget {
 }
 
 class MedicineTileRow extends HookConsumerWidget {
+  final MedicineDosingRowValue dosingRow;
   const MedicineTileRow({
     super.key,
     required this.dosingRow,
   });
 
-  final MedicineDosingRowValue dosingRow;
-
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final isChecked = useState(false);
+    final medicationHistoryTake = ref.watch(medicationHistoryTakeProvider);
+    isChecked.addListener(() {
+      if (isChecked.value) {
+        medicationHistoryTake(
+          medicationHistory: dosingRow.medicationHistory,
+          memo: dosingRow.quantityMemo,
+          recordDateTime: dosingRow.medicationHistory?.recordDateTime ?? DateTime.now(),
+          medicine: dosingRow.medicine,
+          medicationSchedule: dosingRow.medicationSchedule,
+        );
+      } else {
+        // TODO: 削除
+      }
+    });
+
     return Column(
       crossAxisAlignment: CrossAxisAlignment.center,
       children: [
@@ -241,7 +256,7 @@ class MedicineTileRow extends HookConsumerWidget {
               ),
             ),
             const SizedBox(width: 8),
-            Text(dosingRow.medicineName, style: const TextStyle(fontSize: 16)),
+            Text(dosingRow.medicine.name, style: const TextStyle(fontSize: 16)),
             const Spacer(),
             if (dosingRow.quantityMemo.isNotEmpty) ...[
               Text('${dosingRow.quantityMemo.substring(0, min(dosingRow.quantityMemo.length, 10))}...'),

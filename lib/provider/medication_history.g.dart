@@ -290,5 +290,19 @@ class _MedicationHistoriesByDateRangeProviderElement extends AutoDisposeStreamPr
   @override
   DateTimeRange get dateRange => (origin as MedicationHistoriesByDateRangeProvider).dateRange;
 }
+
+String _$medicationHistoryTakeHash() => r'1875448b498368c05b7c415da62bcf0ca7a7a7a1';
+
+/// See also [medicationHistoryTake].
+@ProviderFor(medicationHistoryTake)
+final medicationHistoryTakeProvider = AutoDisposeProvider<MedicationHistoryTake>.internal(
+  medicationHistoryTake,
+  name: r'medicationHistoryTakeProvider',
+  debugGetCreateSourceHash: const bool.fromEnvironment('dart.vm.product') ? null : _$medicationHistoryTakeHash,
+  dependencies: <ProviderOrFamily>[userDatabaseProvider],
+  allTransitiveDependencies: <ProviderOrFamily>{userDatabaseProvider, ...?userDatabaseProvider.allTransitiveDependencies},
+);
+
+typedef MedicationHistoryTakeRef = AutoDisposeProviderRef<MedicationHistoryTake>;
 // ignore_for_file: type=lint
 // ignore_for_file: subtype_of_sealed_class, invalid_use_of_internal_member, invalid_use_of_visible_for_testing_member

@@ -205,7 +205,8 @@ abstract class _MedicineTileValue implements MedicineTileValue {
 /// @nodoc
 mixin _$MedicineDosingRowValue {
   MedicationHistory? get medicationHistory => throw _privateConstructorUsedError;
-  String get medicineName => throw _privateConstructorUsedError;
+  Medicine get medicine => throw _privateConstructorUsedError;
+  MedicationSchedule get medicationSchedule => throw _privateConstructorUsedError;
   String get quantityMemo => throw _privateConstructorUsedError;
 
   /// Create a copy of MedicineDosingRowValue
@@ -219,9 +220,11 @@ abstract class $MedicineDosingRowValueCopyWith<$Res> {
   factory $MedicineDosingRowValueCopyWith(MedicineDosingRowValue value, $Res Function(MedicineDosingRowValue) then) =
       _$MedicineDosingRowValueCopyWithImpl<$Res, MedicineDosingRowValue>;
   @useResult
-  $Res call({MedicationHistory? medicationHistory, String medicineName, String quantityMemo});
+  $Res call({MedicationHistory? medicationHistory, Medicine medicine, MedicationSchedule medicationSchedule, String quantityMemo});
 
   $MedicationHistoryCopyWith<$Res>? get medicationHistory;
+  $MedicineCopyWith<$Res> get medicine;
+  $MedicationScheduleCopyWith<$Res> get medicationSchedule;
 }
 
 /// @nodoc
@@ -239,7 +242,8 @@ class _$MedicineDosingRowValueCopyWithImpl<$Res, $Val extends MedicineDosingRowV
   @override
   $Res call({
     Object? medicationHistory = freezed,
-    Object? medicineName = null,
+    Object? medicine = null,
+    Object? medicationSchedule = null,
     Object? quantityMemo = null,
   }) {
     return _then(_value.copyWith(
@@ -247,10 +251,14 @@ class _$MedicineDosingRowValueCopyWithImpl<$Res, $Val extends MedicineDosingRowV
           ? _value.medicationHistory
           : medicationHistory // ignore: cast_nullable_to_non_nullable
               as MedicationHistory?,
-      medicineName: null == medicineName
-          ? _value.medicineName
-          : medicineName // ignore: cast_nullable_to_non_nullable
-              as String,
+      medicine: null == medicine
+          ? _value.medicine
+          : medicine // ignore: cast_nullable_to_non_nullable
+              as Medicine,
+      medicationSchedule: null == medicationSchedule
+          ? _value.medicationSchedule
+          : medicationSchedule // ignore: cast_nullable_to_non_nullable
+              as MedicationSchedule,
       quantityMemo: null == quantityMemo
           ? _value.quantityMemo
           : quantityMemo // ignore: cast_nullable_to_non_nullable
@@ -271,6 +279,26 @@ class _$MedicineDosingRowValueCopyWithImpl<$Res, $Val extends MedicineDosingRowV
       return _then(_value.copyWith(medicationHistory: value) as $Val);
     });
   }
+
+  /// Create a copy of MedicineDosingRowValue
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $MedicineCopyWith<$Res> get medicine {
+    return $MedicineCopyWith<$Res>(_value.medicine, (value) {
+      return _then(_value.copyWith(medicine: value) as $Val);
+    });
+  }
+
+  /// Create a copy of MedicineDosingRowValue
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $MedicationScheduleCopyWith<$Res> get medicationSchedule {
+    return $MedicationScheduleCopyWith<$Res>(_value.medicationSchedule, (value) {
+      return _then(_value.copyWith(medicationSchedule: value) as $Val);
+    });
+  }
 }
 
 /// @nodoc
@@ -279,10 +307,14 @@ abstract class _$$MedicineDosingRowValueImplCopyWith<$Res> implements $MedicineD
       __$$MedicineDosingRowValueImplCopyWithImpl<$Res>;
   @override
   @useResult
-  $Res call({MedicationHistory? medicationHistory, String medicineName, String quantityMemo});
+  $Res call({MedicationHistory? medicationHistory, Medicine medicine, MedicationSchedule medicationSchedule, String quantityMemo});
 
   @override
   $MedicationHistoryCopyWith<$Res>? get medicationHistory;
+  @override
+  $MedicineCopyWith<$Res> get medicine;
+  @override
+  $MedicationScheduleCopyWith<$Res> get medicationSchedule;
 }
 
 /// @nodoc
@@ -297,7 +329,8 @@ class __$$MedicineDosingRowValueImplCopyWithImpl<$Res> extends _$MedicineDosingR
   @override
   $Res call({
     Object? medicationHistory = freezed,
-    Object? medicineName = null,
+    Object? medicine = null,
+    Object? medicationSchedule = null,
     Object? quantityMemo = null,
   }) {
     return _then(_$MedicineDosingRowValueImpl(
@@ -305,10 +338,14 @@ class __$$MedicineDosingRowValueImplCopyWithImpl<$Res> extends _$MedicineDosingR
           ? _value.medicationHistory
           : medicationHistory // ignore: cast_nullable_to_non_nullable
               as MedicationHistory?,
-      medicineName: null == medicineName
-          ? _value.medicineName
-          : medicineName // ignore: cast_nullable_to_non_nullable
-              as String,
+      medicine: null == medicine
+          ? _value.medicine
+          : medicine // ignore: cast_nullable_to_non_nullable
+              as Medicine,
+      medicationSchedule: null == medicationSchedule
+          ? _value.medicationSchedule
+          : medicationSchedule // ignore: cast_nullable_to_non_nullable
+              as MedicationSchedule,
       quantityMemo: null == quantityMemo
           ? _value.quantityMemo
           : quantityMemo // ignore: cast_nullable_to_non_nullable
@@ -320,18 +357,21 @@ class __$$MedicineDosingRowValueImplCopyWithImpl<$Res> extends _$MedicineDosingR
 /// @nodoc
 
 class _$MedicineDosingRowValueImpl implements _MedicineDosingRowValue {
-  const _$MedicineDosingRowValueImpl({required this.medicationHistory, required this.medicineName, required this.quantityMemo});
+  const _$MedicineDosingRowValueImpl(
+      {required this.medicationHistory, required this.medicine, required this.medicationSchedule, required this.quantityMemo});
 
   @override
   final MedicationHistory? medicationHistory;
   @override
-  final String medicineName;
+  final Medicine medicine;
+  @override
+  final MedicationSchedule medicationSchedule;
   @override
   final String quantityMemo;
 
   @override
   String toString() {
-    return 'MedicineDosingRowValue(medicationHistory: $medicationHistory, medicineName: $medicineName, quantityMemo: $quantityMemo)';
+    return 'MedicineDosingRowValue(medicationHistory: $medicationHistory, medicine: $medicine, medicationSchedule: $medicationSchedule, quantityMemo: $quantityMemo)';
   }
 
   @override
@@ -340,12 +380,13 @@ class _$MedicineDosingRowValueImpl implements _MedicineDosingRowValue {
         (other.runtimeType == runtimeType &&
             other is _$MedicineDosingRowValueImpl &&
             (identical(other.medicationHistory, medicationHistory) || other.medicationHistory == medicationHistory) &&
-            (identical(other.medicineName, medicineName) || other.medicineName == medicineName) &&
+            (identical(other.medicine, medicine) || other.medicine == medicine) &&
+            (identical(other.medicationSchedule, medicationSchedule) || other.medicationSchedule == medicationSchedule) &&
             (identical(other.quantityMemo, quantityMemo) || other.quantityMemo == quantityMemo));
   }
 
   @override
-  int get hashCode => Object.hash(runtimeType, medicationHistory, medicineName, quantityMemo);
+  int get hashCode => Object.hash(runtimeType, medicationHistory, medicine, medicationSchedule, quantityMemo);
 
   /// Create a copy of MedicineDosingRowValue
   /// with the given fields replaced by the non-null parameter values.
@@ -359,13 +400,16 @@ class _$MedicineDosingRowValueImpl implements _MedicineDosingRowValue {
 abstract class _MedicineDosingRowValue implements MedicineDosingRowValue {
   const factory _MedicineDosingRowValue(
       {required final MedicationHistory? medicationHistory,
-      required final String medicineName,
+      required final Medicine medicine,
+      required final MedicationSchedule medicationSchedule,
       required final String quantityMemo}) = _$MedicineDosingRowValueImpl;
 
   @override
   MedicationHistory? get medicationHistory;
   @override
-  String get medicineName;
+  Medicine get medicine;
+  @override
+  MedicationSchedule get medicationSchedule;
   @override
   String get quantityMemo;
 

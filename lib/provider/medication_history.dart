@@ -1,5 +1,7 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:medicalarm/entity/medication_history.dart';
+import 'package:medicalarm/entity/medicine.dart';
 import 'package:medicalarm/features/resolver/database.dart';
 import 'package:medicalarm/utils/date_time/date_time_ext.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
@@ -38,4 +40,39 @@ Stream<List<MedicationHistory>> medicationHistoriesByDateRange(MedicationHistori
       )
       .snapshots()
       .map((event) => event.docs.map((doc) => doc.data()).toList());
+}
+
+class MedicationHistoryTake {
+  final UserDatabase database;
+
+  MedicationHistoryTake(this.database);
+
+  Future<MedicationHistory> call({
+    required MedicationHistory? medicationHistory,
+    required String memo,
+    required DateTime recordDateTime,
+    required Medicine medicine,
+    required MedicationSchedule medicationSchedule,
+  }) async {
+    final docRef = database.medicationHistoriesReference().doc();
+
+    final newMedicationHistory = medicationHistory ??
+        MedicationHistory(
+          id: docRef.id,
+          userID: database.userID,
+          medicine: medicine,
+          actionKind: MedicationHistoryActionKind.take,
+          action: MedicationHistoryAction.take(medicationSchedule: medicationSchedule),
+          memo: memo,
+          recordDateTime: recordDateTime,
+        );
+
+    await docRef.set(newMedicationHistory, SetOptions(merge: true));
+    return newMedicationHistory;
+  }
+}
+
+@Riverpod(dependencies: [userDatabase])
+MedicationHistoryTake medicationHistoryTake(MedicationHistoryTakeRef ref) {
+  return MedicationHistoryTake(ref.watch(userDatabaseProvider));
 }
