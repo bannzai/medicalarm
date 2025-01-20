@@ -1,7 +1,6 @@
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:medicalarm/entity/dose_receiver.dart';
 import 'package:medicalarm/entity/medication_history.dart';
-import 'package:medicalarm/entity/medicine.dart';
 
 part 'grouped.freezed.dart';
 

@@ -5,7 +5,7 @@ import 'package:medicalarm/components/calendar/day/tile.dart';
 import 'package:medicalarm/components/calendar/monthly/calendar.dart';
 import 'package:medicalarm/components/calendar/weekly/line.dart';
 import 'package:medicalarm/utils/analytics/analytics.dart';
-import 'package:medicalarm/utils/date_time/date_time+.dart';
+import 'package:medicalarm/utils/date_time/date_time_ext.dart';
 
 class MonthCalendarPager extends StatelessWidget {
   const MonthCalendarPager({
@@ -42,7 +42,7 @@ class MonthCalendarPager extends StatelessWidget {
                   diary: diaries.firstWhereOrNull((e) => isSameDay(e.diaryDate, date)),
                   onTap: (date) {
                     analytics.logEvent(name: 'did_select_day_tile_on_calendar_card');
-                    transitionWhenCalendarDayTapped(context, date: date, diaries: diaries, schedules: schedules);
+                    transitionWhenCalendarDayTapped(context, date: date, diaries: diaries);
                   },
                 );
               },

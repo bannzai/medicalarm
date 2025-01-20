@@ -1,4 +1,3 @@
-import 'package:medicalarm/style/color.dart';
 import 'package:medicalarm/utils/date_time/weekday.dart';
 import 'package:flutter/material.dart';
 

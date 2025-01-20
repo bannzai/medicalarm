@@ -80,6 +80,7 @@ class DiaryPostPageBody extends HookConsumerWidget {
                     final navigator = Navigator.of(context);
                     await diaryPost.call(
                       diary: diary,
+                      diaryDate: diaryDate,
                       memo: memo.value,
                     );
 
