@@ -22,7 +22,7 @@ Stream<List<MedicationHistory>> medicationHistoriesByDate(MedicationHistoriesRef
       .where(
         'scheduledRecordedDate',
         isGreaterThanOrEqualTo: date.date(),
-        isLessThanOrEqualTo: date.date().add(const Duration(days: 1)),
+        isLessThanOrEqualTo: date.date().add(const Duration(days: 1)).subtract(const Duration(seconds: 1)),
       )
       .snapshots()
       .map((event) => event.docs.map((doc) => doc.data()).toList());
@@ -35,8 +35,8 @@ Stream<List<MedicationHistory>> medicationHistoriesByDateRange(MedicationHistori
       .medicationHistoriesReference()
       .where(
         'scheduledRecordedDate',
-        isGreaterThanOrEqualTo: dateRange.start,
-        isLessThanOrEqualTo: dateRange.end,
+        isGreaterThanOrEqualTo: dateRange.start.date(),
+        isLessThanOrEqualTo: dateRange.end.date().subtract(const Duration(seconds: 1)),
       )
       .snapshots()
       .map((event) => event.docs.map((doc) => doc.data()).toList());

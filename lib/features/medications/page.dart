@@ -146,7 +146,10 @@ class MedicationsPageBody extends HookConsumerWidget {
 
         final dosingRows = [...tile.dosingRows];
         final medicationHistory = medicationHistories.firstWhereOrNull(
-          (history) => history.medicine.id == medicine.id && history.action.medicationSchedule.id == schedule.id,
+          (history) =>
+              history.medicine.id == medicine.id &&
+              history.action.medicationSchedule.id == schedule.id &&
+              isSameDay(history.scheduledRecordedDate, date.value.date()),
         );
         final row = MedicineDosingRowValue(
           id: const Uuid().v4(),
