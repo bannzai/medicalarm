@@ -62,7 +62,9 @@ class MedicinesPageBody extends HookConsumerWidget {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
-                  const WeeklyCalendarPager(),
+                  WeeklyCalendarPager(onTap: (date, diary, diaries) {
+                    transitionWhenCalendarDayTapped(context, date: date, diaries: diaries);
+                  }),
                   for (final tileValue in _tileValues()) ...[
                     MedicineTile(tileValue: tileValue),
                   ],
