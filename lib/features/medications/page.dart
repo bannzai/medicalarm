@@ -105,6 +105,7 @@ class MedicinesPageBody extends HookConsumerWidget {
                           key: ValueKey(tileValue.id),
                           tileValue: tileValue,
                         ),
+                        const SizedBox(height: 10),
                       ],
                     ],
                   ),
@@ -160,7 +161,9 @@ class MedicinesPageBody extends HookConsumerWidget {
       }
     }
 
-    return tileValues;
+    final ordered = tileValues.sortedBy((tile) => tile.scheduleTime.toTimeString());
+
+    return ordered;
   }
 }
 

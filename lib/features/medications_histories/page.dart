@@ -143,6 +143,7 @@ class MedicationHistoryTile extends HookConsumerWidget {
                   },
                   child: Text(medicine.name, style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold, color: primaryColor)),
                 ),
+                const Spacer(),
                 Text(
                   schedule.quantityMemo,
                   style: const TextStyle(fontSize: 12),
