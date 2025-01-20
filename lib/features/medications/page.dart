@@ -125,6 +125,9 @@ class MedicationsPageBody extends HookConsumerWidget {
     // scheduleTimeとdoseReceiverごとのtileValuesを構築する
     for (final medicine in medicines) {
       final doseReceiver = medicine.doseReceiver;
+      if (medicine.beganDateTime.isAfter(date.value.date())) {
+        continue;
+      }
 
       for (final schedule in medicine.schedules) {
         final scheduleTime = ScheduleTime(hour: schedule.hour, minute: schedule.minute);
@@ -149,6 +152,9 @@ class MedicationsPageBody extends HookConsumerWidget {
     // dosingRowsを構築する
     for (final medicine in medicines) {
       final doseReceiver = medicine.doseReceiver;
+      if (medicine.beganDateTime.isAfter(date.value.date())) {
+        continue;
+      }
 
       for (final schedule in medicine.schedules) {
         final scheduleTime = ScheduleTime(hour: schedule.hour, minute: schedule.minute);
