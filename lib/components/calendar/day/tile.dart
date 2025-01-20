@@ -71,7 +71,7 @@ class CalendarDayTile extends StatelessWidget {
                   ],
                 ),
               ),
-              CalendarDayBadge(diary: diary),
+              CalendarDayBadge(date: date, diary: diary),
             ],
           ),
         ),

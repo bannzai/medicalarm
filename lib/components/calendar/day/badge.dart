@@ -1,19 +1,23 @@
 import 'package:flutter/material.dart';
+import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:medicalarm/entity/diary.dart';
 import 'package:medicalarm/style/color.dart';
 
-class CalendarDayBadge extends StatelessWidget {
+class CalendarDayBadge extends HookConsumerWidget {
+  final DateTime date;
   final Diary? diary;
 
   const CalendarDayBadge({
     super.key,
+    required this.date,
     required this.diary,
   });
 
   @override
-  Widget build(BuildContext context) {
-    List<Widget> widgets = [];
+  Widget build(BuildContext context, WidgetRef ref) {
     final diary = this.diary;
+
+    List<Widget> widgets = [];
 
     if (diary != null) {
       if (diary.memo.isNotEmpty) {
