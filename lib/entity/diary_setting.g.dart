@@ -7,7 +7,7 @@ part of 'diary_setting.dart';
 // **************************************************************************
 
 _$DiarySettingImpl _$$DiarySettingImplFromJson(Map<String, dynamic> json) => _$DiarySettingImpl(
-      physicalConditions: (json['physicalConditions'] as List<dynamic>?)?.map((e) => e as String).toList() ?? const [],
+      tags: (json['tags'] as List<dynamic>?)?.map((e) => e as String).toList() ?? const [],
       createdDateTime: const ClientCreatedTimestamp().fromJson(json['createdDateTime'] as Timestamp?),
       updatedDateTime: const ClientUpdatedTimestamp().fromJson(json['updatedDateTime'] as Timestamp?),
       serverCreatedDateTime: const ServerCreatedTimestamp().fromJson(json['serverCreatedDateTime']),
@@ -15,7 +15,7 @@ _$DiarySettingImpl _$$DiarySettingImplFromJson(Map<String, dynamic> json) => _$D
     );
 
 Map<String, dynamic> _$$DiarySettingImplToJson(_$DiarySettingImpl instance) => <String, dynamic>{
-      'physicalConditions': instance.physicalConditions,
+      'tags': instance.tags,
       'createdDateTime': const ClientCreatedTimestamp().toJson(instance.createdDateTime),
       'updatedDateTime': const ClientUpdatedTimestamp().toJson(instance.updatedDateTime),
       'serverCreatedDateTime': const ServerCreatedTimestamp().toJson(instance.serverCreatedDateTime),

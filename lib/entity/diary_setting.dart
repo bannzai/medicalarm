@@ -10,7 +10,7 @@ part 'diary_setting.freezed.dart';
 class DiarySetting with _$DiarySetting {
   @JsonSerializable(explicitToJson: true)
   const factory DiarySetting({
-    @Default([]) List<String> physicalConditions,
+    @Default([]) List<String> tags,
     @ClientCreatedTimestamp() DateTime? createdDateTime,
     @ClientUpdatedTimestamp() DateTime? updatedDateTime,
     @ServerCreatedTimestamp() DateTime? serverCreatedDateTime,
@@ -20,7 +20,7 @@ class DiarySetting with _$DiarySetting {
   factory DiarySetting.fromJson(Map<String, dynamic> json) => _$DiarySettingFromJson(json);
   const DiarySetting._();
 
-  static List<String> get defaultPhysicalConditions => [
+  static List<String> get defaultTags => [
         '頭痛',
         '腹痛',
         '吐き気',

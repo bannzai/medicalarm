@@ -2,7 +2,6 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:medicalarm/entity/dose_receiver.dart';
 import 'package:medicalarm/entity/medication_history.dart';
-import 'package:medicalarm/entity/medicine.dart';
 import 'package:medicalarm/entity/timestamp.dart';
 
 part 'diary.freezed.dart';

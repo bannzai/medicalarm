@@ -20,7 +20,7 @@ DiarySetting _$DiarySettingFromJson(Map<String, dynamic> json) {
 
 /// @nodoc
 mixin _$DiarySetting {
-  List<String> get physicalConditions => throw _privateConstructorUsedError;
+  List<String> get tags => throw _privateConstructorUsedError;
   @ClientCreatedTimestamp()
   DateTime? get createdDateTime => throw _privateConstructorUsedError;
   @ClientUpdatedTimestamp()
@@ -44,7 +44,7 @@ abstract class $DiarySettingCopyWith<$Res> {
   factory $DiarySettingCopyWith(DiarySetting value, $Res Function(DiarySetting) then) = _$DiarySettingCopyWithImpl<$Res, DiarySetting>;
   @useResult
   $Res call(
-      {List<String> physicalConditions,
+      {List<String> tags,
       @ClientCreatedTimestamp() DateTime? createdDateTime,
       @ClientUpdatedTimestamp() DateTime? updatedDateTime,
       @ServerCreatedTimestamp() DateTime? serverCreatedDateTime,
@@ -65,16 +65,16 @@ class _$DiarySettingCopyWithImpl<$Res, $Val extends DiarySetting> implements $Di
   @pragma('vm:prefer-inline')
   @override
   $Res call({
-    Object? physicalConditions = null,
+    Object? tags = null,
     Object? createdDateTime = freezed,
     Object? updatedDateTime = freezed,
     Object? serverCreatedDateTime = freezed,
     Object? serverUpdatedDateTime = freezed,
   }) {
     return _then(_value.copyWith(
-      physicalConditions: null == physicalConditions
-          ? _value.physicalConditions
-          : physicalConditions // ignore: cast_nullable_to_non_nullable
+      tags: null == tags
+          ? _value.tags
+          : tags // ignore: cast_nullable_to_non_nullable
               as List<String>,
       createdDateTime: freezed == createdDateTime
           ? _value.createdDateTime
@@ -102,7 +102,7 @@ abstract class _$$DiarySettingImplCopyWith<$Res> implements $DiarySettingCopyWit
   @override
   @useResult
   $Res call(
-      {List<String> physicalConditions,
+      {List<String> tags,
       @ClientCreatedTimestamp() DateTime? createdDateTime,
       @ClientUpdatedTimestamp() DateTime? updatedDateTime,
       @ServerCreatedTimestamp() DateTime? serverCreatedDateTime,
@@ -119,16 +119,16 @@ class __$$DiarySettingImplCopyWithImpl<$Res> extends _$DiarySettingCopyWithImpl<
   @pragma('vm:prefer-inline')
   @override
   $Res call({
-    Object? physicalConditions = null,
+    Object? tags = null,
     Object? createdDateTime = freezed,
     Object? updatedDateTime = freezed,
     Object? serverCreatedDateTime = freezed,
     Object? serverUpdatedDateTime = freezed,
   }) {
     return _then(_$DiarySettingImpl(
-      physicalConditions: null == physicalConditions
-          ? _value._physicalConditions
-          : physicalConditions // ignore: cast_nullable_to_non_nullable
+      tags: null == tags
+          ? _value._tags
+          : tags // ignore: cast_nullable_to_non_nullable
               as List<String>,
       createdDateTime: freezed == createdDateTime
           ? _value.createdDateTime
@@ -155,23 +155,23 @@ class __$$DiarySettingImplCopyWithImpl<$Res> extends _$DiarySettingCopyWithImpl<
 @JsonSerializable(explicitToJson: true)
 class _$DiarySettingImpl extends _DiarySetting with DiagnosticableTreeMixin {
   const _$DiarySettingImpl(
-      {final List<String> physicalConditions = const [],
+      {final List<String> tags = const [],
       @ClientCreatedTimestamp() this.createdDateTime,
       @ClientUpdatedTimestamp() this.updatedDateTime,
       @ServerCreatedTimestamp() this.serverCreatedDateTime,
       @ServerUpdatedTimestamp() this.serverUpdatedDateTime})
-      : _physicalConditions = physicalConditions,
+      : _tags = tags,
         super._();
 
   factory _$DiarySettingImpl.fromJson(Map<String, dynamic> json) => _$$DiarySettingImplFromJson(json);
 
-  final List<String> _physicalConditions;
+  final List<String> _tags;
   @override
   @JsonKey()
-  List<String> get physicalConditions {
-    if (_physicalConditions is EqualUnmodifiableListView) return _physicalConditions;
+  List<String> get tags {
+    if (_tags is EqualUnmodifiableListView) return _tags;
     // ignore: implicit_dynamic_type
-    return EqualUnmodifiableListView(_physicalConditions);
+    return EqualUnmodifiableListView(_tags);
   }
 
   @override
@@ -189,7 +189,7 @@ class _$DiarySettingImpl extends _DiarySetting with DiagnosticableTreeMixin {
 
   @override
   String toString({DiagnosticLevel minLevel = DiagnosticLevel.info}) {
-    return 'DiarySetting(physicalConditions: $physicalConditions, createdDateTime: $createdDateTime, updatedDateTime: $updatedDateTime, serverCreatedDateTime: $serverCreatedDateTime, serverUpdatedDateTime: $serverUpdatedDateTime)';
+    return 'DiarySetting(tags: $tags, createdDateTime: $createdDateTime, updatedDateTime: $updatedDateTime, serverCreatedDateTime: $serverCreatedDateTime, serverUpdatedDateTime: $serverUpdatedDateTime)';
   }
 
   @override
@@ -197,7 +197,7 @@ class _$DiarySettingImpl extends _DiarySetting with DiagnosticableTreeMixin {
     super.debugFillProperties(properties);
     properties
       ..add(DiagnosticsProperty('type', 'DiarySetting'))
-      ..add(DiagnosticsProperty('physicalConditions', physicalConditions))
+      ..add(DiagnosticsProperty('tags', tags))
       ..add(DiagnosticsProperty('createdDateTime', createdDateTime))
       ..add(DiagnosticsProperty('updatedDateTime', updatedDateTime))
       ..add(DiagnosticsProperty('serverCreatedDateTime', serverCreatedDateTime))
@@ -209,7 +209,7 @@ class _$DiarySettingImpl extends _DiarySetting with DiagnosticableTreeMixin {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
             other is _$DiarySettingImpl &&
-            const DeepCollectionEquality().equals(other._physicalConditions, _physicalConditions) &&
+            const DeepCollectionEquality().equals(other._tags, _tags) &&
             (identical(other.createdDateTime, createdDateTime) || other.createdDateTime == createdDateTime) &&
             (identical(other.updatedDateTime, updatedDateTime) || other.updatedDateTime == updatedDateTime) &&
             (identical(other.serverCreatedDateTime, serverCreatedDateTime) || other.serverCreatedDateTime == serverCreatedDateTime) &&
@@ -218,8 +218,8 @@ class _$DiarySettingImpl extends _DiarySetting with DiagnosticableTreeMixin {
 
   @JsonKey(includeFromJson: false, includeToJson: false)
   @override
-  int get hashCode => Object.hash(runtimeType, const DeepCollectionEquality().hash(_physicalConditions), createdDateTime, updatedDateTime,
-      serverCreatedDateTime, serverUpdatedDateTime);
+  int get hashCode => Object.hash(
+      runtimeType, const DeepCollectionEquality().hash(_tags), createdDateTime, updatedDateTime, serverCreatedDateTime, serverUpdatedDateTime);
 
   /// Create a copy of DiarySetting
   /// with the given fields replaced by the non-null parameter values.
@@ -238,7 +238,7 @@ class _$DiarySettingImpl extends _DiarySetting with DiagnosticableTreeMixin {
 
 abstract class _DiarySetting extends DiarySetting {
   const factory _DiarySetting(
-      {final List<String> physicalConditions,
+      {final List<String> tags,
       @ClientCreatedTimestamp() final DateTime? createdDateTime,
       @ClientUpdatedTimestamp() final DateTime? updatedDateTime,
       @ServerCreatedTimestamp() final DateTime? serverCreatedDateTime,
@@ -248,7 +248,7 @@ abstract class _DiarySetting extends DiarySetting {
   factory _DiarySetting.fromJson(Map<String, dynamic> json) = _$DiarySettingImpl.fromJson;
 
   @override
-  List<String> get physicalConditions;
+  List<String> get tags;
   @override
   @ClientCreatedTimestamp()
   DateTime? get createdDateTime;
