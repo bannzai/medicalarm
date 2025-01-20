@@ -28,8 +28,6 @@ class DiaryPost {
 
   Future<Diary> call({
     required Diary? diary,
-    required List<String> tags,
-    required List<DiaryMemo> memos,
     required String memo,
     required DateTime diaryDate,
   }) async {
@@ -38,8 +36,6 @@ class DiaryPost {
         Diary(
           id: docRef.id,
           userID: database.userID,
-          tags: tags,
-          memos: memos,
           memo: memo,
           diaryDate: diaryDate,
         );
@@ -50,7 +46,7 @@ class DiaryPost {
 }
 
 @Riverpod(dependencies: [userDatabase])
-DiaryPost diaryPost(DiaryPostRef ref) async {
+DiaryPost diaryPost(DiaryPostRef ref) {
   final database = ref.watch(userDatabaseProvider);
   return DiaryPost(database);
 }
