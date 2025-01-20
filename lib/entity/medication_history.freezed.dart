@@ -26,6 +26,8 @@ mixin _$MedicationHistory {
   MedicationHistoryActionKind get actionKind => throw _privateConstructorUsedError;
   MedicationHistoryAction get action => throw _privateConstructorUsedError;
   String get memo => throw _privateConstructorUsedError;
+  @TimestampConverter()
+  DateTime get recordDateTime => throw _privateConstructorUsedError;
   @ClientCreatedTimestamp()
   DateTime? get createdDateTime => throw _privateConstructorUsedError;
   @ClientUpdatedTimestamp()
@@ -56,6 +58,7 @@ abstract class $MedicationHistoryCopyWith<$Res> {
       MedicationHistoryActionKind actionKind,
       MedicationHistoryAction action,
       String memo,
+      @TimestampConverter() DateTime recordDateTime,
       @ClientCreatedTimestamp() DateTime? createdDateTime,
       @ClientUpdatedTimestamp() DateTime? updatedDateTime,
       @ServerCreatedTimestamp() DateTime? serverCreatedDateTime,
@@ -85,6 +88,7 @@ class _$MedicationHistoryCopyWithImpl<$Res, $Val extends MedicationHistory> impl
     Object? actionKind = null,
     Object? action = null,
     Object? memo = null,
+    Object? recordDateTime = null,
     Object? createdDateTime = freezed,
     Object? updatedDateTime = freezed,
     Object? serverCreatedDateTime = freezed,
@@ -115,6 +119,10 @@ class _$MedicationHistoryCopyWithImpl<$Res, $Val extends MedicationHistory> impl
           ? _value.memo
           : memo // ignore: cast_nullable_to_non_nullable
               as String,
+      recordDateTime: null == recordDateTime
+          ? _value.recordDateTime
+          : recordDateTime // ignore: cast_nullable_to_non_nullable
+              as DateTime,
       createdDateTime: freezed == createdDateTime
           ? _value.createdDateTime
           : createdDateTime // ignore: cast_nullable_to_non_nullable
@@ -168,6 +176,7 @@ abstract class _$$MedicationHistoryImplCopyWith<$Res> implements $MedicationHist
       MedicationHistoryActionKind actionKind,
       MedicationHistoryAction action,
       String memo,
+      @TimestampConverter() DateTime recordDateTime,
       @ClientCreatedTimestamp() DateTime? createdDateTime,
       @ClientUpdatedTimestamp() DateTime? updatedDateTime,
       @ServerCreatedTimestamp() DateTime? serverCreatedDateTime,
@@ -195,6 +204,7 @@ class __$$MedicationHistoryImplCopyWithImpl<$Res> extends _$MedicationHistoryCop
     Object? actionKind = null,
     Object? action = null,
     Object? memo = null,
+    Object? recordDateTime = null,
     Object? createdDateTime = freezed,
     Object? updatedDateTime = freezed,
     Object? serverCreatedDateTime = freezed,
@@ -225,6 +235,10 @@ class __$$MedicationHistoryImplCopyWithImpl<$Res> extends _$MedicationHistoryCop
           ? _value.memo
           : memo // ignore: cast_nullable_to_non_nullable
               as String,
+      recordDateTime: null == recordDateTime
+          ? _value.recordDateTime
+          : recordDateTime // ignore: cast_nullable_to_non_nullable
+              as DateTime,
       createdDateTime: freezed == createdDateTime
           ? _value.createdDateTime
           : createdDateTime // ignore: cast_nullable_to_non_nullable
@@ -256,6 +270,7 @@ class _$MedicationHistoryImpl extends _MedicationHistory {
       required this.actionKind,
       required this.action,
       required this.memo,
+      @TimestampConverter() required this.recordDateTime,
       @ClientCreatedTimestamp() this.createdDateTime,
       @ClientUpdatedTimestamp() this.updatedDateTime,
       @ServerCreatedTimestamp() this.serverCreatedDateTime,
@@ -277,6 +292,9 @@ class _$MedicationHistoryImpl extends _MedicationHistory {
   @override
   final String memo;
   @override
+  @TimestampConverter()
+  final DateTime recordDateTime;
+  @override
   @ClientCreatedTimestamp()
   final DateTime? createdDateTime;
   @override
@@ -291,7 +309,7 @@ class _$MedicationHistoryImpl extends _MedicationHistory {
 
   @override
   String toString() {
-    return 'MedicationHistory(id: $id, userID: $userID, medicine: $medicine, actionKind: $actionKind, action: $action, memo: $memo, createdDateTime: $createdDateTime, updatedDateTime: $updatedDateTime, serverCreatedDateTime: $serverCreatedDateTime, serverUpdatedDateTime: $serverUpdatedDateTime)';
+    return 'MedicationHistory(id: $id, userID: $userID, medicine: $medicine, actionKind: $actionKind, action: $action, memo: $memo, recordDateTime: $recordDateTime, createdDateTime: $createdDateTime, updatedDateTime: $updatedDateTime, serverCreatedDateTime: $serverCreatedDateTime, serverUpdatedDateTime: $serverUpdatedDateTime)';
   }
 
   @override
@@ -305,6 +323,7 @@ class _$MedicationHistoryImpl extends _MedicationHistory {
             (identical(other.actionKind, actionKind) || other.actionKind == actionKind) &&
             (identical(other.action, action) || other.action == action) &&
             (identical(other.memo, memo) || other.memo == memo) &&
+            (identical(other.recordDateTime, recordDateTime) || other.recordDateTime == recordDateTime) &&
             (identical(other.createdDateTime, createdDateTime) || other.createdDateTime == createdDateTime) &&
             (identical(other.updatedDateTime, updatedDateTime) || other.updatedDateTime == updatedDateTime) &&
             (identical(other.serverCreatedDateTime, serverCreatedDateTime) || other.serverCreatedDateTime == serverCreatedDateTime) &&
@@ -313,8 +332,8 @@ class _$MedicationHistoryImpl extends _MedicationHistory {
 
   @JsonKey(includeFromJson: false, includeToJson: false)
   @override
-  int get hashCode => Object.hash(
-      runtimeType, id, userID, medicine, actionKind, action, memo, createdDateTime, updatedDateTime, serverCreatedDateTime, serverUpdatedDateTime);
+  int get hashCode => Object.hash(runtimeType, id, userID, medicine, actionKind, action, memo, recordDateTime, createdDateTime, updatedDateTime,
+      serverCreatedDateTime, serverUpdatedDateTime);
 
   /// Create a copy of MedicationHistory
   /// with the given fields replaced by the non-null parameter values.
@@ -340,6 +359,7 @@ abstract class _MedicationHistory extends MedicationHistory {
       required final MedicationHistoryActionKind actionKind,
       required final MedicationHistoryAction action,
       required final String memo,
+      @TimestampConverter() required final DateTime recordDateTime,
       @ClientCreatedTimestamp() final DateTime? createdDateTime,
       @ClientUpdatedTimestamp() final DateTime? updatedDateTime,
       @ServerCreatedTimestamp() final DateTime? serverCreatedDateTime,
@@ -360,6 +380,9 @@ abstract class _MedicationHistory extends MedicationHistory {
   MedicationHistoryAction get action;
   @override
   String get memo;
+  @override
+  @TimestampConverter()
+  DateTime get recordDateTime;
   @override
   @ClientCreatedTimestamp()
   DateTime? get createdDateTime;

@@ -17,6 +17,7 @@ class MedicationHistory with _$MedicationHistory {
     required MedicationHistoryActionKind actionKind,
     required MedicationHistoryAction action,
     required String memo,
+    @TimestampConverter() required DateTime recordDateTime,
     @ClientCreatedTimestamp() DateTime? createdDateTime,
     @ClientUpdatedTimestamp() DateTime? updatedDateTime,
     @ServerCreatedTimestamp() DateTime? serverCreatedDateTime,

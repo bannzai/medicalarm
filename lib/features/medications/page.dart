@@ -24,13 +24,18 @@ class MedicationsPage extends HookConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
+    final date = useState(today());
     final medicines = ref.watch(activeMedicinesProvider);
-    final medicationHistories = ref.watch(medicationHistoriesProvider);
+    final medicationHistories = ref.watch(medicationHistoriesByDateProvider(date.value));
 
     return Retry(
       retry: () => ref.invalidate(activeMedicinesProvider),
       child: AsyncValueGroup.group2(medicines, medicationHistories).when(
-        data: (data) => MedicinesPageBody(medicines: data.$1, medicationHistories: data.$2),
+        data: (data) => MedicinesPageBody(
+          date: date,
+          medicines: data.$1,
+          medicationHistories: data.$2,
+        ),
         error: (error, stackTrace) => RetryPage(exception: error),
         loading: () => const IndicatorPage(),
       ),
@@ -39,19 +44,19 @@ class MedicationsPage extends HookConsumerWidget {
 }
 
 class MedicinesPageBody extends HookConsumerWidget {
+  final ValueNotifier<DateTime> date;
   final List<Medicine> medicines;
   final List<MedicationHistory> medicationHistories;
 
   const MedicinesPageBody({
     super.key,
+    required this.date,
     required this.medicines,
     required this.medicationHistories,
   });
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final date = useState(today());
-    final pageController = usePageController();
     return Scaffold(
       appBar: AppBar(
         title: const Text('お薬'),
