@@ -6,6 +6,7 @@ import 'package:medicalarm/components/calendar/day/today_badge.dart';
 import 'package:medicalarm/components/calendar/weekly/pager.dart';
 import 'package:medicalarm/components/loading/indicator.dart';
 import 'package:medicalarm/components/retry/page.dart';
+import 'package:medicalarm/components/text/edit_sheet.dart';
 import 'package:medicalarm/entity/medication_history.dart';
 import 'package:medicalarm/entity/medicine.dart';
 import 'package:medicalarm/provider/medication_history.dart';
@@ -151,7 +152,7 @@ class MedicationHistoryTile extends HookConsumerWidget {
               children: [
                 Row(
                   children: [
-                    const Text('予定時刻:'),
+                    const Text('予定時刻'),
                     const Spacer(),
                     Text(
                       schedule.toTimeString(),
@@ -164,7 +165,7 @@ class MedicationHistoryTile extends HookConsumerWidget {
                 ),
                 Row(
                   children: [
-                    const Text('記録時間:'),
+                    const Text('記録時間'),
                     const Spacer(),
                     Text(
                       DateFormat(DateFormat.HOUR24_MINUTE).format(history.recordDateTime),
@@ -177,19 +178,23 @@ class MedicationHistoryTile extends HookConsumerWidget {
                 ),
               ],
             ),
-            Padding(
-              padding: const EdgeInsets.symmetric(vertical: 8),
-              child: TextFormField(
-                initialValue: memo.value,
-                maxLines: 3,
-                decoration: const InputDecoration(labelText: 'メモ'),
-                onChanged: (value) {
-                  memo.value = value;
-                },
-                onFieldSubmitted: (value) {
-                  memoUpdate.call(medicationHistory: history, memo: value);
-                },
-              ),
+            const SizedBox(height: 4),
+            Row(
+              children: [
+                if (memo.value.isEmpty) ...[
+                  const Text('メモなし'),
+                ],
+                Text(memo.value),
+                IconButton(
+                  onPressed: () async {
+                    final result = await showTextEditSheet(context, text: memo.value);
+                    if (result != null) {
+                      memoUpdate.call(medicationHistory: history, memo: result);
+                    }
+                  },
+                  icon: const Icon(Icons.edit),
+                ),
+              ],
             ),
           ],
         ),

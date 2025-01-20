@@ -8,6 +8,7 @@ import 'package:intl/intl.dart';
 import 'package:medicalarm/components/calendar/weekly/pager.dart';
 import 'package:medicalarm/components/loading/indicator.dart';
 import 'package:medicalarm/components/retry/page.dart';
+import 'package:medicalarm/components/text/edit_sheet.dart';
 import 'package:medicalarm/entity/medication_history.dart';
 import 'package:medicalarm/entity/medicine.dart';
 import 'package:medicalarm/features/medications/components/add_button.dart';
@@ -224,7 +225,6 @@ class MedicineTileRow extends HookConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final isChecked = useState(dosingRow.medicationHistory != null);
-    final isMemoExpanded = useState(false);
     final medicationHistoryTake = ref.watch(medicationHistoryTakeProvider);
     final medicationHistoryDelete = ref.watch(medicationHistoryDeleteProvider);
     isChecked.addListener(() {
@@ -261,18 +261,10 @@ class MedicineTileRow extends HookConsumerWidget {
             Text(dosingRow.medicine.name, style: const TextStyle(fontSize: 16)),
             const Spacer(),
             if (dosingRow.quantityMemo.isNotEmpty) ...[
-              TextButton(
-                onPressed: () {
-                  isMemoExpanded.value = !isMemoExpanded.value;
-                },
-                child: Text('${dosingRow.quantityMemo.substring(0, min(dosingRow.quantityMemo.length, 10))}...'),
-              ),
+              Text(dosingRow.quantityMemo),
             ],
           ],
         ),
-        if (isMemoExpanded.value) ...[
-          Text(dosingRow.quantityMemo),
-        ],
       ],
     );
   }
