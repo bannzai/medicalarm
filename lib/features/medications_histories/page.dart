@@ -159,7 +159,7 @@ class MedicationHistoryTile extends HookConsumerWidget {
                     const Text('予定時刻'),
                     const Spacer(),
                     Text(
-                      schedule.toTimeString(),
+                      '${DateFormat(DateFormat.MONTH_DAY).format(history.scheduledRecordedDate)} ${schedule.toTimeString()}',
                       style: TextStyle(
                         fontWeight: FontWeight.bold,
                         color: primaryColor,
@@ -172,7 +172,7 @@ class MedicationHistoryTile extends HookConsumerWidget {
                     const Text('記録時間'),
                     const Spacer(),
                     Text(
-                      DateFormat(DateFormat.HOUR24_MINUTE).format(history.recordedDateTime),
+                      '${DateFormat(DateFormat.MONTH_DAY).format(history.recordedDateTime)} ${DateFormat(DateFormat.HOUR24_MINUTE).format(history.recordedDateTime)}',
                       style: TextStyle(
                         fontWeight: FontWeight.bold,
                         color: primaryColor,
