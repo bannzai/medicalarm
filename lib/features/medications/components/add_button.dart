@@ -10,7 +10,7 @@ class MedicalAddButton extends HookConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 16.0),
-      child: TextButton.icon(
+      child: ElevatedButton.icon(
         onPressed: () {
           showMedicineForm(context, null);
         },
