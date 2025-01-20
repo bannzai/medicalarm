@@ -18,6 +18,8 @@ class MedicationHistory with _$MedicationHistory {
     required MedicationHistoryAction action,
     required String memo,
     @TimestampConverter() required DateTime recordedDateTime,
+    // 2025-01-19の服用予定だったのに、2025-01-20に服用した場合、scheduledRecordedDateは2025-01-20になる
+    @TimestampConverter() required DateTime scheduledRecordedDate,
     @ClientCreatedTimestamp() DateTime? createdDateTime,
     @ClientUpdatedTimestamp() DateTime? updatedDateTime,
     @ServerCreatedTimestamp() DateTime? serverCreatedDateTime,

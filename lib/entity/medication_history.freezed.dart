@@ -27,7 +27,9 @@ mixin _$MedicationHistory {
   MedicationHistoryAction get action => throw _privateConstructorUsedError;
   String get memo => throw _privateConstructorUsedError;
   @TimestampConverter()
-  DateTime get recordedDateTime => throw _privateConstructorUsedError;
+  DateTime get recordedDateTime => throw _privateConstructorUsedError; // 2025-01-19の服用予定だったのに、2025-01-20に服用した場合、scheduledRecordedDateは2025-01-20になる
+  @TimestampConverter()
+  DateTime get scheduledRecordedDate => throw _privateConstructorUsedError;
   @ClientCreatedTimestamp()
   DateTime? get createdDateTime => throw _privateConstructorUsedError;
   @ClientUpdatedTimestamp()
@@ -59,6 +61,7 @@ abstract class $MedicationHistoryCopyWith<$Res> {
       MedicationHistoryAction action,
       String memo,
       @TimestampConverter() DateTime recordedDateTime,
+      @TimestampConverter() DateTime scheduledRecordedDate,
       @ClientCreatedTimestamp() DateTime? createdDateTime,
       @ClientUpdatedTimestamp() DateTime? updatedDateTime,
       @ServerCreatedTimestamp() DateTime? serverCreatedDateTime,
@@ -89,6 +92,7 @@ class _$MedicationHistoryCopyWithImpl<$Res, $Val extends MedicationHistory> impl
     Object? action = null,
     Object? memo = null,
     Object? recordedDateTime = null,
+    Object? scheduledRecordedDate = null,
     Object? createdDateTime = freezed,
     Object? updatedDateTime = freezed,
     Object? serverCreatedDateTime = freezed,
@@ -122,6 +126,10 @@ class _$MedicationHistoryCopyWithImpl<$Res, $Val extends MedicationHistory> impl
       recordedDateTime: null == recordedDateTime
           ? _value.recordedDateTime
           : recordedDateTime // ignore: cast_nullable_to_non_nullable
+              as DateTime,
+      scheduledRecordedDate: null == scheduledRecordedDate
+          ? _value.scheduledRecordedDate
+          : scheduledRecordedDate // ignore: cast_nullable_to_non_nullable
               as DateTime,
       createdDateTime: freezed == createdDateTime
           ? _value.createdDateTime
@@ -177,6 +185,7 @@ abstract class _$$MedicationHistoryImplCopyWith<$Res> implements $MedicationHist
       MedicationHistoryAction action,
       String memo,
       @TimestampConverter() DateTime recordedDateTime,
+      @TimestampConverter() DateTime scheduledRecordedDate,
       @ClientCreatedTimestamp() DateTime? createdDateTime,
       @ClientUpdatedTimestamp() DateTime? updatedDateTime,
       @ServerCreatedTimestamp() DateTime? serverCreatedDateTime,
@@ -205,6 +214,7 @@ class __$$MedicationHistoryImplCopyWithImpl<$Res> extends _$MedicationHistoryCop
     Object? action = null,
     Object? memo = null,
     Object? recordedDateTime = null,
+    Object? scheduledRecordedDate = null,
     Object? createdDateTime = freezed,
     Object? updatedDateTime = freezed,
     Object? serverCreatedDateTime = freezed,
@@ -239,6 +249,10 @@ class __$$MedicationHistoryImplCopyWithImpl<$Res> extends _$MedicationHistoryCop
           ? _value.recordedDateTime
           : recordedDateTime // ignore: cast_nullable_to_non_nullable
               as DateTime,
+      scheduledRecordedDate: null == scheduledRecordedDate
+          ? _value.scheduledRecordedDate
+          : scheduledRecordedDate // ignore: cast_nullable_to_non_nullable
+              as DateTime,
       createdDateTime: freezed == createdDateTime
           ? _value.createdDateTime
           : createdDateTime // ignore: cast_nullable_to_non_nullable
@@ -271,6 +285,7 @@ class _$MedicationHistoryImpl extends _MedicationHistory {
       required this.action,
       required this.memo,
       @TimestampConverter() required this.recordedDateTime,
+      @TimestampConverter() required this.scheduledRecordedDate,
       @ClientCreatedTimestamp() this.createdDateTime,
       @ClientUpdatedTimestamp() this.updatedDateTime,
       @ServerCreatedTimestamp() this.serverCreatedDateTime,
@@ -294,6 +309,10 @@ class _$MedicationHistoryImpl extends _MedicationHistory {
   @override
   @TimestampConverter()
   final DateTime recordedDateTime;
+// 2025-01-19の服用予定だったのに、2025-01-20に服用した場合、scheduledRecordedDateは2025-01-20になる
+  @override
+  @TimestampConverter()
+  final DateTime scheduledRecordedDate;
   @override
   @ClientCreatedTimestamp()
   final DateTime? createdDateTime;
@@ -309,7 +328,7 @@ class _$MedicationHistoryImpl extends _MedicationHistory {
 
   @override
   String toString() {
-    return 'MedicationHistory(id: $id, userID: $userID, medicine: $medicine, actionKind: $actionKind, action: $action, memo: $memo, recordedDateTime: $recordedDateTime, createdDateTime: $createdDateTime, updatedDateTime: $updatedDateTime, serverCreatedDateTime: $serverCreatedDateTime, serverUpdatedDateTime: $serverUpdatedDateTime)';
+    return 'MedicationHistory(id: $id, userID: $userID, medicine: $medicine, actionKind: $actionKind, action: $action, memo: $memo, recordedDateTime: $recordedDateTime, scheduledRecordedDate: $scheduledRecordedDate, createdDateTime: $createdDateTime, updatedDateTime: $updatedDateTime, serverCreatedDateTime: $serverCreatedDateTime, serverUpdatedDateTime: $serverUpdatedDateTime)';
   }
 
   @override
@@ -324,6 +343,7 @@ class _$MedicationHistoryImpl extends _MedicationHistory {
             (identical(other.action, action) || other.action == action) &&
             (identical(other.memo, memo) || other.memo == memo) &&
             (identical(other.recordedDateTime, recordedDateTime) || other.recordedDateTime == recordedDateTime) &&
+            (identical(other.scheduledRecordedDate, scheduledRecordedDate) || other.scheduledRecordedDate == scheduledRecordedDate) &&
             (identical(other.createdDateTime, createdDateTime) || other.createdDateTime == createdDateTime) &&
             (identical(other.updatedDateTime, updatedDateTime) || other.updatedDateTime == updatedDateTime) &&
             (identical(other.serverCreatedDateTime, serverCreatedDateTime) || other.serverCreatedDateTime == serverCreatedDateTime) &&
@@ -332,8 +352,8 @@ class _$MedicationHistoryImpl extends _MedicationHistory {
 
   @JsonKey(includeFromJson: false, includeToJson: false)
   @override
-  int get hashCode => Object.hash(runtimeType, id, userID, medicine, actionKind, action, memo, recordedDateTime, createdDateTime, updatedDateTime,
-      serverCreatedDateTime, serverUpdatedDateTime);
+  int get hashCode => Object.hash(runtimeType, id, userID, medicine, actionKind, action, memo, recordedDateTime, scheduledRecordedDate,
+      createdDateTime, updatedDateTime, serverCreatedDateTime, serverUpdatedDateTime);
 
   /// Create a copy of MedicationHistory
   /// with the given fields replaced by the non-null parameter values.
@@ -360,6 +380,7 @@ abstract class _MedicationHistory extends MedicationHistory {
       required final MedicationHistoryAction action,
       required final String memo,
       @TimestampConverter() required final DateTime recordedDateTime,
+      @TimestampConverter() required final DateTime scheduledRecordedDate,
       @ClientCreatedTimestamp() final DateTime? createdDateTime,
       @ClientUpdatedTimestamp() final DateTime? updatedDateTime,
       @ServerCreatedTimestamp() final DateTime? serverCreatedDateTime,
@@ -382,7 +403,10 @@ abstract class _MedicationHistory extends MedicationHistory {
   String get memo;
   @override
   @TimestampConverter()
-  DateTime get recordedDateTime;
+  DateTime get recordedDateTime; // 2025-01-19の服用予定だったのに、2025-01-20に服用した場合、scheduledRecordedDateは2025-01-20になる
+  @override
+  @TimestampConverter()
+  DateTime get scheduledRecordedDate;
   @override
   @ClientCreatedTimestamp()
   DateTime? get createdDateTime;

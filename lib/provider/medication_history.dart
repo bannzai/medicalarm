@@ -20,7 +20,7 @@ Stream<List<MedicationHistory>> medicationHistoriesByDate(MedicationHistoriesRef
   return database
       .medicationHistoriesReference()
       .where(
-        'recordDateTime',
+        'scheduledRecordedDate',
         isGreaterThanOrEqualTo: date.date(),
         isLessThanOrEqualTo: date.date().add(const Duration(days: 1)),
       )
@@ -34,7 +34,7 @@ Stream<List<MedicationHistory>> medicationHistoriesByDateRange(MedicationHistori
   return database
       .medicationHistoriesReference()
       .where(
-        'recordDateTime',
+        'scheduledRecordedDate',
         isGreaterThanOrEqualTo: dateRange.start,
         isLessThanOrEqualTo: dateRange.end,
       )
@@ -69,6 +69,7 @@ class MedicationHistoryTake {
           ),
           memo: memo,
           recordedDateTime: recordedDateTime,
+          scheduledRecordedDate: scheduledRecordedDate,
         );
 
     await docRef.set(newMedicationHistory, SetOptions(merge: true));
