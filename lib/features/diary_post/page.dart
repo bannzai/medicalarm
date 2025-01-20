@@ -2,11 +2,17 @@ import 'package:async_value_group/async_value_group.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
+import 'package:intl/intl.dart';
+import 'package:medicalarm/components/button/buttons.dart';
 import 'package:medicalarm/components/loading/indicator.dart';
 import 'package:medicalarm/components/retry/page.dart';
 import 'package:medicalarm/entity/diary.dart';
 import 'package:medicalarm/entity/diary_setting.dart';
+import 'package:medicalarm/features/localization/l.dart';
+import 'package:medicalarm/provider/diary.dart';
 import 'package:medicalarm/provider/diary_setting.dart';
+import 'package:medicalarm/style/color.dart';
+import 'package:medicalarm/utils/analytics/analytics.dart';
 
 class DiaryPostPage extends HookConsumerWidget {
   final DateTime date;
@@ -46,39 +52,26 @@ extension DiaryPostPageRoute on DiaryPostPage {
 }
 
 class DiaryPostPageBody extends HookConsumerWidget {
-  final DateTime date;
+  final DateTime diaryDate;
   final Diary? diary;
   final DiarySetting? diarySetting;
 
   const DiaryPostPageBody({
     super.key,
-    required this.date,
+    required this.diaryDate,
     required this.diary,
     required this.diarySetting,
   });
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final memoTextEditingController = useTextEditingController(text: diary?.memo ?? '');
-    final focusNode = useFocusNode();
-    final scrollController = useScrollController();
-
-    final physicalCondition = useState<PhysicalConditionStatus?>(diary.physicalConditionStatus);
-    final physicalConditionDetails = useState(diary.physicalConditions);
-    final sex = useState(diary.hasSex);
-
-    final setDiary = ref.watch(setDiaryProvider);
-
-    // FIXME: なぜかFocusScope.of(context).hasFocusになりKeyboardToolbarが表示されてしまうのでunfocusする
-    useEffect(() {
-      WidgetsBinding.instance.addPostFrameCallback((timeStamp) {
-        FocusScope.of(context).unfocus();
-      });
-      return null;
-    }, []);
+    final tags = useState(diarySetting?.tags ?? DiarySetting.defaultTags);
+    final memos = useState(diary?.memos ?? []);
+    final memo = useState(diary?.memo ?? '');
+    final diaryPost = ref.watch(diaryPostProvider);
 
     return Scaffold(
-      backgroundColor: AppColors.white,
+      backgroundColor: Colors.white,
       resizeToAvoidBottomInset: false,
       appBar: AppBar(
         elevation: 0.0,
@@ -93,17 +86,17 @@ class DiaryPostPageBody extends HookConsumerWidget {
                 analytics.logEvent(name: 'diary_post_button_tapped');
 
                 final navigator = Navigator.of(context);
-                await setDiary(diary.copyWith(
-                  physicalConditionStatus: physicalCondition.value,
-                  physicalConditions: physicalConditionDetails.value,
-                  hasSex: sex.value,
-                  memo: memoTextEditingController.text,
-                ));
+                await diaryPost(
+                  diary: diary,
+                  tags: tags.value,
+                  memos: memos.value,
+                  memo: memo.value,
+                );
 
                 navigator.pop();
               }),
         ],
-        backgroundColor: AppColors.white,
+        backgroundColor: Colors.white,
       ),
       body: SafeArea(
         child: Column(
@@ -111,11 +104,9 @@ class DiaryPostPageBody extends HookConsumerWidget {
             Expanded(
               child: ListView(
                 padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 16),
-                controller: scrollController,
                 children: [
-                  Text(DateTimeFormatter.yearAndMonthAndDay(date),
+                  Text(DateFormat(DateFormat.YEAR_MONTH_DAY).format(diaryDate),
                       style: const TextStyle(
-                        fontFamily: FontFamily.japanese,
                         fontWeight: FontWeight.w500,
                         fontSize: 20,
                         color: TextColor.main,
