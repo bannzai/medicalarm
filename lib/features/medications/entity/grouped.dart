@@ -2,6 +2,7 @@ import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:medicalarm/entity/dose_receiver.dart';
 import 'package:medicalarm/entity/medication_history.dart';
 import 'package:medicalarm/entity/medicine.dart';
+import 'package:medicalarm/utils/date_time/date_time_ext.dart';
 
 part 'grouped.freezed.dart';
 
@@ -22,7 +23,13 @@ class MedicineDosingRowValue with _$MedicineDosingRowValue {
     required Medicine medicine,
     required MedicationSchedule medicationSchedule,
     required String quantityMemo,
+    required DateTime date,
   }) = _MedicineDosingRowValue;
+  const MedicineDosingRowValue._();
+
+  bool get isDisabled {
+    return date.date().isAfter(today());
+  }
 }
 
 @freezed

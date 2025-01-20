@@ -1,5 +1,3 @@
-import 'dart:math';
-
 import 'package:collection/collection.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
@@ -8,7 +6,6 @@ import 'package:intl/intl.dart';
 import 'package:medicalarm/components/calendar/weekly/pager.dart';
 import 'package:medicalarm/components/loading/indicator.dart';
 import 'package:medicalarm/components/retry/page.dart';
-import 'package:medicalarm/components/text/edit_sheet.dart';
 import 'package:medicalarm/entity/medication_history.dart';
 import 'package:medicalarm/entity/medicine.dart';
 import 'package:medicalarm/features/medications/components/add_button.dart';
@@ -103,7 +100,9 @@ class MedicinesPageBody extends HookConsumerWidget {
                     crossAxisAlignment: CrossAxisAlignment.center,
                     children: [
                       for (final tileValue in _tileValues()) ...[
-                        MedicineTile(tileValue: tileValue),
+                        MedicineTile(
+                          tileValue: tileValue,
+                        ),
                       ],
                     ],
                   ),
@@ -151,6 +150,7 @@ class MedicinesPageBody extends HookConsumerWidget {
           medicine: medicine,
           medicationSchedule: schedule,
           quantityMemo: schedule.quantityMemo,
+          date: date.value,
         );
 
         dosingRows.add(row);
@@ -162,13 +162,14 @@ class MedicinesPageBody extends HookConsumerWidget {
   }
 }
 
-class MedicineTile extends HookConsumerWidget {
+class MedicineTile extends StatelessWidget {
   final MedicineTileValue tileValue;
   const MedicineTile({super.key, required this.tileValue});
 
   @override
-  Widget build(BuildContext context, WidgetRef ref) {
+  Widget build(BuildContext context) {
     final primaryColor = Theme.of(context).colorScheme.primary;
+
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 16.0),
       child: Container(
@@ -225,6 +226,7 @@ class MedicineTileRow extends HookConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
+    final isDisabled = dosingRow.isDisabled;
     final isChecked = useState(dosingRow.medicationHistory != null);
     final medicationHistoryTake = ref.watch(medicationHistoryTakeProvider);
     final medicationHistoryDelete = ref.watch(medicationHistoryDeleteProvider);
@@ -252,10 +254,12 @@ class MedicineTileRow extends HookConsumerWidget {
               width: 24,
               height: 24,
               child: Checkbox(
-                value: isChecked.value,
-                onChanged: (value) {
-                  isChecked.value = value ?? false;
-                },
+                value: isDisabled ? false : isChecked.value,
+                onChanged: isDisabled
+                    ? null
+                    : (value) {
+                        isChecked.value = value ?? false;
+                      },
               ),
             ),
             const SizedBox(width: 8),
