@@ -46,7 +46,6 @@ class WeeklyCalendarPager extends HookConsumerWidget {
                     horizontalPadding: _horizontalPadding,
                     day: (context, weekday, date) {
                       final diary = diaries.firstWhereOrNull((e) => isSameDay(e.diaryDate, date));
-                      debugPrint('date: $date');
                       return CalendarDayTile(
                         weekday: weekday,
                         date: date,

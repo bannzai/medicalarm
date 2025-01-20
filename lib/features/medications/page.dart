@@ -11,7 +11,7 @@ import 'package:medicalarm/components/retry/page.dart';
 import 'package:medicalarm/entity/medication_history.dart';
 import 'package:medicalarm/entity/medicine.dart';
 import 'package:medicalarm/features/medications/components/add_button.dart';
-import 'package:medicalarm/features/medications/components/today_badge.dart';
+import 'package:medicalarm/components/calendar/day/today_badge.dart';
 import 'package:medicalarm/features/medications/entity/grouped.dart';
 import 'package:medicalarm/provider/medication_history.dart';
 import 'package:medicalarm/provider/medicine.dart';

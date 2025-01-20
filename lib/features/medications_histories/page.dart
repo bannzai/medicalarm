@@ -1,34 +1,69 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
+import 'package:medicalarm/components/calendar/day/today_badge.dart';
+import 'package:medicalarm/components/calendar/weekly/pager.dart';
 import 'package:medicalarm/components/loading/indicator.dart';
 import 'package:medicalarm/components/retry/page.dart';
 import 'package:medicalarm/entity/medication_history.dart';
 import 'package:medicalarm/entity/medicine.dart';
+import 'package:medicalarm/features/medications/page.dart';
 import 'package:medicalarm/provider/medication_history.dart';
 import 'package:medicalarm/style/color.dart';
+import 'package:medicalarm/utils/date_time/date_time_ext.dart';
 
 class MedicationHistoriesPage extends HookConsumerWidget {
   const MedicationHistoriesPage({super.key});
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final medicationHistories = ref.watch(medicationHistoriesProvider);
+    final date = useState(today());
+    final page = useState(todayCalendarPageIndex);
+    final pageController = usePageController(initialPage: page.value);
+    pageController.addListener(() {
+      final pageControllerPage = pageController.page;
+      if (pageControllerPage != null) {
+        page.value = pageControllerPage.toInt();
+      }
+    });
+    final medicationHistoriesAsync = ref.watch(medicationHistoriesByDateProvider(date.value));
+    final medicationHistories = useState(medicationHistoriesAsync.asData?.valueOrNull ?? []);
+
+    useEffect(() {
+      final asyncValue = medicationHistoriesAsync.asData;
+      if (asyncValue != null) {
+        medicationHistories.value = asyncValue.value;
+      }
+      return null;
+    }, [medicationHistoriesAsync.asData?.valueOrNull]);
 
     return Retry(
-      retry: () => ref.invalidate(medicationHistoriesProvider),
-      child: medicationHistories.when(
-        data: (histories) => MedicationsHistoryPageBody(histories: histories),
-        error: (error, stackTrace) => RetryPage(exception: error),
-        loading: () => const IndicatorPage(),
-      ),
+      retry: () => ref.invalidate(medicationHistoriesByDateProvider(date.value)),
+      child: () {
+        if (medicationHistoriesAsync is AsyncError) {
+          return RetryPage(exception: medicationHistoriesAsync.error!);
+        }
+        return Stack(
+          children: [
+            MedicationsHistoryPageBody(histories: medicationHistories.value, date: date, pageController: pageController),
+            if (medicationHistoriesAsync is AsyncLoading) ...[
+              const Indicator(),
+            ],
+          ],
+        );
+      }(),
     );
   }
 }
 
 class MedicationsHistoryPageBody extends StatelessWidget {
+  final ValueNotifier<DateTime> date;
+  final PageController pageController;
   final List<MedicationHistory> histories;
   const MedicationsHistoryPageBody({
     super.key,
+    required this.date,
+    required this.pageController,
     required this.histories,
   });
 
@@ -39,15 +74,27 @@ class MedicationsHistoryPageBody extends StatelessWidget {
         title: const Text('服薬履歴'),
       ),
       body: SafeArea(
-        child: ListView.builder(
-          padding: const EdgeInsets.symmetric(vertical: 16.0),
-          itemCount: histories.length,
-          itemBuilder: (context, index) {
-            final history = histories[index];
-            final medicine = history.medicine;
-            final schedule = history.action.medicationSchedule;
-            return MedicationHistoryTile(medicine: medicine, history: history, schedule: schedule);
-          },
+        child: Column(
+          children: [
+            WeeklyCalendarPager(date: date, pageController: pageController),
+            const Divider(
+              height: 1,
+              color: Colors.black,
+            ),
+            TodayBadge(date: date),
+            Expanded(
+              child: ListView.builder(
+                padding: const EdgeInsets.symmetric(vertical: 16.0),
+                itemCount: histories.length,
+                itemBuilder: (context, index) {
+                  final history = histories[index];
+                  final medicine = history.medicine;
+                  final schedule = history.action.medicationSchedule;
+                  return MedicationHistoryTile(medicine: medicine, history: history, schedule: schedule);
+                },
+              ),
+            ),
+          ],
         ),
       ),
     );
