@@ -17,6 +17,7 @@ import 'package:medicalarm/features/medications/entity/grouped.dart';
 import 'package:medicalarm/provider/medication_history.dart';
 import 'package:medicalarm/provider/medicine.dart';
 import 'package:medicalarm/style/color.dart';
+import 'package:medicalarm/utils/date_time/date_time_ext.dart';
 
 class MedicationsPage extends HookConsumerWidget {
   const MedicationsPage({super.key});
@@ -49,6 +50,8 @@ class MedicinesPageBody extends HookConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
+    final date = useState(today());
+    final pageController = usePageController();
     return Scaffold(
       appBar: AppBar(
         title: const Text('お薬'),
@@ -56,20 +59,35 @@ class MedicinesPageBody extends HookConsumerWidget {
       body: SafeArea(
         child: Padding(
           padding: const EdgeInsets.symmetric(vertical: 8.0),
-          child: SingleChildScrollView(
-            child: Padding(
-              padding: const EdgeInsets.symmetric(vertical: 20.0),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.center,
-                children: [
-                  WeeklyCalendarPager(onTap: (date, diary, diaries) {
-                    transitionWhenCalendarDayTapped(context, date: date, diaries: diaries);
-                  }),
-                  for (final tileValue in _tileValues()) ...[
-                    MedicineTile(tileValue: tileValue),
-                  ],
-                ],
-              ),
+          child: Expanded(
+            child: Column(
+              children: [
+                WeeklyCalendarPager(onTap: (selectedDate, diary, diaries) {
+                  date.value = selectedDate;
+                }),
+                Expanded(
+                  child: SingleChildScrollView(
+                    child: Padding(
+                      padding: const EdgeInsets.symmetric(vertical: 20.0),
+                      child: PageView.builder(
+                        controller: pageController,
+                        physics: const PageScrollPhysics(),
+                        scrollDirection: Axis.horizontal,
+                        itemBuilder: (context, index) {
+                          return Column(
+                            crossAxisAlignment: CrossAxisAlignment.center,
+                            children: [
+                              for (final tileValue in _tileValues()) ...[
+                                MedicineTile(tileValue: tileValue),
+                              ],
+                            ],
+                          );
+                        },
+                      ),
+                    ),
+                  ),
+                ),
+              ],
             ),
           ),
         ),
