@@ -1,3 +1,4 @@
+import 'package:medicalarm/utils/date_time/weekday.dart';
 import 'package:timezone/timezone.dart';
 
 // dateTime.addDays(n) だと n * 24 * 60 * 59 * 1000 が足されるので、サマータイムの国ではずれる
@@ -71,4 +72,12 @@ int daysBetween(DateTime from, DateTime to) {
   from = DateTime(from.year, from.month, from.day);
   to = DateTime(to.year, to.month, to.day);
   return (to.difference(from).inHours / 24).round();
+}
+
+DateTime firstDayOfWeekday(DateTime day) {
+  return day.subtract(Duration(days: day.weekday == 7 ? 0 : day.weekday));
+}
+
+DateTime endDayOfWeekday(DateTime day) {
+  return day.subtract(Duration(days: day.weekday == 7 ? 0 : day.weekday)).addDays(Weekday.values.length - 1);
 }

@@ -1,3 +1,4 @@
+import 'package:flutter/material.dart';
 import 'package:medicalarm/entity/medication_history.dart';
 import 'package:medicalarm/features/resolver/database.dart';
 import 'package:medicalarm/utils/date_time/date_time_ext.dart';
@@ -20,6 +21,20 @@ Stream<List<MedicationHistory>> medicationHistoriesByDate(MedicationHistoriesRef
         'recordDateTime',
         isGreaterThanOrEqualTo: date.date(),
         isLessThanOrEqualTo: date.date().add(const Duration(days: 1)),
+      )
+      .snapshots()
+      .map((event) => event.docs.map((doc) => doc.data()).toList());
+}
+
+@Riverpod(dependencies: [userDatabase])
+Stream<List<MedicationHistory>> medicationHistoriesByDateRange(MedicationHistoriesRef ref, DateTimeRange dateRange) {
+  final database = ref.watch(userDatabaseProvider);
+  return database
+      .medicationHistoriesReference()
+      .where(
+        'recordDateTime',
+        isGreaterThanOrEqualTo: dateRange.start,
+        isLessThanOrEqualTo: dateRange.end,
       )
       .snapshots()
       .map((event) => event.docs.map((doc) => doc.data()).toList());

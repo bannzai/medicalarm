@@ -1,9 +1,11 @@
+import 'dart:io';
 import 'dart:math';
 
 import 'package:collection/collection.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
+import 'package:intl/intl.dart';
 import 'package:medicalarm/components/calendar/weekly/pager.dart';
 import 'package:medicalarm/components/loading/indicator.dart';
 import 'package:medicalarm/components/retry/page.dart';
@@ -15,6 +17,7 @@ import 'package:medicalarm/provider/medication_history.dart';
 import 'package:medicalarm/provider/medicine.dart';
 import 'package:medicalarm/style/color.dart';
 import 'package:medicalarm/utils/date_time/date_time_ext.dart';
+import 'package:medicalarm/utils/date_time/weekday.dart';
 
 class MedicationsPage extends HookConsumerWidget {
   const MedicationsPage({super.key});
@@ -74,7 +77,12 @@ class MedicinesPageBody extends HookConsumerWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('お薬'),
+        title: Column(
+          children: [
+            const Text('お薬', style: TextStyle(fontSize: 20)),
+            Text(_displayMonth(page.value), style: const TextStyle(fontSize: 16, fontWeight: FontWeight.bold)),
+          ],
+        ),
       ),
       body: SafeArea(
         child: Padding(
@@ -247,4 +255,11 @@ class MedicineTileRow extends HookConsumerWidget {
       ],
     );
   }
+}
+
+String _displayMonth(int page) => DateFormat(DateFormat.NUM_MONTH, Platform.localeName).format(_targetEndDayOfWeekday(page));
+DateTime _targetEndDayOfWeekday(int page) {
+  final diff = page - todayCalendarPageIndex;
+  final base = today().addDays(diff * Weekday.values.length);
+  return endDayOfWeekday(base);
 }
