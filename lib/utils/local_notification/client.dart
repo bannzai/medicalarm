@@ -233,6 +233,8 @@ class RegisterReminderLocalNotification {
           continue;
         }
 
+        final useCriticalAlert = group.scheduleRows.any((element) => element.medicationSchedule.notificationSetting.useCriticalAlert);
+
         // IDの計算には本来のピル番号を使用する。表示用の番号だと今後も設定によりズレる可能性があるため
         // また、_calcLocalNotificationIDの中で、本来のピル番号を使用していることを前提としている(2桁までを想定している)
         final reminderEnabledScheduleRows = group.scheduleRows.where((element) => element.medicationSchedule.notificationSetting.isReminderEnabled);
@@ -264,7 +266,7 @@ class RegisterReminderLocalNotification {
                       presentAlert: false,
                       presentBanner: true,
                       presentList: true,
-                      interruptionLevel: InterruptionLevel.critical,
+                      interruptionLevel: useCriticalAlert ? InterruptionLevel.critical : InterruptionLevel.timeSensitive,
                       badgeNumber: dayOffset,
                     ),
                   ),
@@ -321,7 +323,7 @@ class RegisterReminderLocalNotification {
                       presentAlert: false,
                       presentBanner: true,
                       presentList: true,
-                      interruptionLevel: InterruptionLevel.critical,
+                      interruptionLevel: useCriticalAlert ? InterruptionLevel.critical : InterruptionLevel.timeSensitive,
                       badgeNumber: dayOffset,
                     ),
                   ),
