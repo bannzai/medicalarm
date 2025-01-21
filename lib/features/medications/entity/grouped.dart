@@ -49,7 +49,7 @@ class MedicationGroupScheduleTime with _$MedicationGroupScheduleTime {
   }
 }
 
-List<MedicationGroup> grouped({
+List<MedicationGroup> medicationGroups({
   required List<Medicine> medicines,
   required List<MedicationHistory> medicationHistories,
   required DateTime date,

@@ -1,4 +1,3 @@
-import 'package:collection/collection.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
@@ -17,7 +16,6 @@ import 'package:medicalarm/provider/medication_history.dart';
 import 'package:medicalarm/provider/medicine.dart';
 import 'package:medicalarm/style/color.dart';
 import 'package:medicalarm/utils/date_time/date_time_ext.dart';
-import 'package:uuid/uuid.dart';
 
 class MedicationsPage extends HookConsumerWidget {
   const MedicationsPage({super.key});
@@ -112,8 +110,12 @@ class MedicationsPageBody extends HookConsumerWidget {
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.center,
                     children: [
-                      for (final tileValue in _tileValues()) ...[
-                        MedicineTile(
+                      for (final tileValue in medicationGroups(
+                        medicines: medicines,
+                        medicationHistories: medicationHistories,
+                        date: date.value,
+                      )) ...[
+                        MedicationGroupTile(
                           key: ValueKey(tileValue.id),
                           tileValue: tileValue,
                         ),
@@ -133,9 +135,9 @@ class MedicationsPageBody extends HookConsumerWidget {
   }
 }
 
-class MedicineTile extends StatelessWidget {
-  final MedicineTileValue tileValue;
-  const MedicineTile({super.key, required this.tileValue});
+class MedicationGroupTile extends StatelessWidget {
+  final MedicationGroup tileValue;
+  const MedicationGroupTile({super.key, required this.tileValue});
 
   @override
   Widget build(BuildContext context) {
