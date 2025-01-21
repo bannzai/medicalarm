@@ -172,7 +172,6 @@ class RegisterReminderLocalNotification {
     );
   }
 
-  // TODO: Critical Permissionを取得する
   // TODO: badgeNumber 対応。Pilllを参考に
   static Future<void> run({
     required List<Medicine> medicines,
