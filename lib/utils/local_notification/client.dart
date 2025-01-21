@@ -245,7 +245,7 @@ class RegisterReminderLocalNotification {
         if (reminderEnabledScheduleRows.isNotEmpty) {
           var message = '';
           for (final scheduleRow in reminderEnabledScheduleRows) {
-            message += '${scheduleRow.medicine.name} ${scheduleRow.medicine.doseReceiver.name} ${scheduleRow.quantityMemo}\n';
+            message += '${scheduleRow.medicine.doseReceiver.name} ${scheduleRow.medicine.name} ${scheduleRow.quantityMemo}\n';
           }
           final notificationID = _calcLocalNotificationID(
             groupIndex: groupIndex,
@@ -306,7 +306,7 @@ class RegisterReminderLocalNotification {
         if (followUpEnabledScheduleRows.isNotEmpty) {
           var message = '';
           for (final scheduleRow in followUpEnabledScheduleRows) {
-            message += '${scheduleRow.medicine.name} ${scheduleRow.medicine.doseReceiver.name} ${scheduleRow.quantityMemo}\n';
+            message += '${scheduleRow.medicine.doseReceiver.name} ${scheduleRow.medicine.name} ${scheduleRow.quantityMemo}\n';
           }
           final notificationID = _calcLocalNotificationID(
             groupIndex: groupIndex,
