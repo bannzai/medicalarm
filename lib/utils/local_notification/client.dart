@@ -236,9 +236,9 @@ class RegisterReminderLocalNotification {
           // IDの計算には本来のピル番号を使用する。表示用の番号だと今後も設定によりズレる可能性があるため
           // また、_calcLocalNotificationIDの中で、本来のピル番号を使用していることを前提としている(2桁までを想定している)
           final notificationID = _calcLocalNotificationID(
-            medicineIndex: medicineIndex,
+            groupIndex: groupIndex,
+            scheduleRowIndex: scheduleIndex,
             schedule: schedule.medicationSchedule,
-            scheduleIndex: scheduleIndex,
           );
 
           futures.add(
@@ -301,20 +301,20 @@ class RegisterReminderLocalNotification {
   // reminder time id is 10{groupIndex:2}{hour:2}{minute:2}{pillNumberInPillSheet:2}
   // for example return value 1002223014 means,  `10` is prefix, gropuIndex: `02` is third pillSheet,`22` is hour, `30` is minute, `14` is pill number into pill sheet
   // 1000000000 = reminderNotificationIdentifierOffset
-  //   10000000 = medicineIndex
+  //   10000000 = groupIndex
   //     100000 = schedule.hour
   //       1000 = schedule.minute
-  //         10 = scheduleIndex
+  //         10 = scheduleRowIndex
   static int _calcLocalNotificationID({
-    required int medicineIndex,
+    required int groupIndex,
+    required int scheduleRowIndex,
     required MedicationSchedule schedule,
-    required int scheduleIndex,
   }) {
-    final medicineIndexNumber = (medicineIndex + 1) * 10000000;
+    final groupIndexNumber = (groupIndex + 1) * 10000000;
     final hour = schedule.hour * 100000;
     final minute = schedule.minute * 1000;
-    final scheduleIndexNumber = (scheduleIndex + 1) * 10;
-    return reminderNotificationIdentifierOffset + medicineIndexNumber + hour + minute + scheduleIndexNumber;
+    final scheduleRowIndexNumber = (scheduleRowIndex + 1) * 10;
+    return reminderNotificationIdentifierOffset + groupIndexNumber + hour + minute + scheduleRowIndexNumber;
   }
 }
 
