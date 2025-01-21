@@ -1,5 +1,6 @@
 import 'dart:async';
 
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:medicalarm/components/picker/toolbar.dart';
 import 'package:medicalarm/utils/config/environment.dart';
@@ -17,7 +18,7 @@ class AppTimePicker extends StatelessWidget {
   Widget build(BuildContext context) {
     var selectedDateTime = DateTime.now().copyWith(hour: initialTime.hour, minute: initialTime.minute);
     var minimumInterval = 10;
-    if (Environment.isDevelopment) {
+    if (kDebugMode) {
       minimumInterval = 1;
     }
     return Column(
