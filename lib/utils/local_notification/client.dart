@@ -188,7 +188,9 @@ class RegisterReminderLocalNotification {
     final tzNow = tz.TZDateTime.now(tz.local);
 
     final offset = loopCount * registerDays;
+    var badgeNumber = 0;
     for (final dayOffset in List.generate(offset, (index) => index)) {
+      badgeNumber += 1;
       final date = tzNow.date().addDays(dayOffset);
       final groupedValues = medicationGroups(
         medicines: medicines,
@@ -267,7 +269,7 @@ class RegisterReminderLocalNotification {
                       presentBanner: true,
                       presentList: true,
                       interruptionLevel: useCriticalAlert ? InterruptionLevel.critical : InterruptionLevel.timeSensitive,
-                      badgeNumber: dayOffset,
+                      badgeNumber: badgeNumber,
                     ),
                   ),
                   uiLocalNotificationDateInterpretation: UILocalNotificationDateInterpretation.absoluteTime,
@@ -324,7 +326,7 @@ class RegisterReminderLocalNotification {
                       presentBanner: true,
                       presentList: true,
                       interruptionLevel: useCriticalAlert ? InterruptionLevel.critical : InterruptionLevel.timeSensitive,
-                      badgeNumber: dayOffset,
+                      badgeNumber: badgeNumber,
                     ),
                   ),
                   uiLocalNotificationDateInterpretation: UILocalNotificationDateInterpretation.absoluteTime,
