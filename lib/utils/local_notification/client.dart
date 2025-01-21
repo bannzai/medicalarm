@@ -151,10 +151,15 @@ class RegisterReminderLocalNotification {
     );
   }
 
+  // TODO: MedicationHistoryがある場合は、その日の服用記録がある場合はスキップする
+  // TODO: Critical Permissionを取得する
+  // TODO: medicine.frequency を考慮
+  // TODO: 64個制限があるから、時間順に登録する
   static Future<void> run({
     required List<Medicine> medicines,
   }) async {
     final List<Future<void>> futures = [];
+
     for (final (medicineIndex, medicine) in medicines.indexed) {
       analytics.debug(name: 'run_register_reminder_notification', parameters: {
         'medicineID': medicine.id,
