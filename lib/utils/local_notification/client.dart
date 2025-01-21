@@ -35,7 +35,7 @@ class LocalNotificationService {
     tz.setLocalLocation(tz.getLocation(await FlutterNativeTimezone.getLocalTimezone()));
   }
 
-  Future<void> initialize() async {
+  Future<void> requestPermission() async {
     await plugin.initialize(
       const InitializationSettings(
         iOS: DarwinInitializationSettings(
@@ -46,6 +46,7 @@ class LocalNotificationService {
           defaultPresentSound: true,
           defaultPresentBanner: true,
           defaultPresentList: true,
+          requestCriticalPermission: true,
         ),
       ),
     );
