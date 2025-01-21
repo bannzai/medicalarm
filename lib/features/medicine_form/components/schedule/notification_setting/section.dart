@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:medicalarm/features/medicine_form/components/section_layout.dart';
+import 'package:medicalarm/utils/local_notification/client.dart';
 
 class MedicineScheduleNotificationSettingSection extends HookConsumerWidget {
   final ValueNotifier<bool> isReminderEnabled;
@@ -48,6 +49,8 @@ class MedicineScheduleNotificationSettingSection extends HookConsumerWidget {
           value: useCriticalAlert.value,
           onChanged: (value) {
             useCriticalAlert.value = value;
+
+            localNotificationService.requestPermissionWithCriticalAlert();
           },
           title: const Text('マナーモードでも通知する'),
           subtitle: const Text('集中モードがONまたはデバイスが消音時でも、重大な通知はロック画面に表示されますサウンドが再生されます'),
