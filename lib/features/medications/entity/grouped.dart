@@ -1,9 +1,11 @@
 import 'package:collection/collection.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:medicalarm/entity/dose_receiver.dart';
+import 'package:medicalarm/entity/medication_frequency.dart';
 import 'package:medicalarm/entity/medication_history.dart';
 import 'package:medicalarm/entity/medicine.dart';
 import 'package:medicalarm/utils/date_time/date_time_ext.dart';
+import 'package:medicalarm/utils/date_time/weekday.dart';
 import 'package:uuid/uuid.dart';
 
 part 'grouped.freezed.dart';
@@ -54,23 +56,37 @@ List<MedicationGroup> medicationGroups({
   required List<MedicationHistory> medicationHistories,
   required DateTime date,
 }) {
-  final groupedValue = <MedicationGroup>[];
+  final groupedValues = <MedicationGroup>[];
   // scheduleTimeとdoseReceiverごとのtileValuesを構築する
   for (final medicine in medicines) {
     final doseReceiver = medicine.doseReceiver;
     if (medicine.beganDateTime.isAfter(date.date())) {
       continue;
     }
+    final bool isMatched;
+    switch (medicine.frequency) {
+      case DailyMedicationFrequency():
+        isMatched = true;
+      case EveryXDaysMedicationFrequency(interval: final interval):
+        isMatched = daysBetween(medicine.beganDateTime, date.date()) % interval == 0;
+      case SpecificWeekdaysMedicationFrequency(weekdays: final weekdays):
+        isMatched = weekdays.any((weekday) => WeekdayFunctions.weekdayFromDate(date.date()) == weekday);
+      case CycleMedicationFrequency(consecutiveDays: final consecutiveDays, restDays: final restDays):
+        isMatched = daysBetween(medicine.beganDateTime, date.date()) % (consecutiveDays + restDays) < consecutiveDays;
+    }
+    if (!isMatched) {
+      continue;
+    }
 
     for (final schedule in medicine.schedules) {
       final scheduleTime = MedicationGroupScheduleTime(hour: schedule.hour, minute: schedule.minute);
-      final matchedTile = groupedValue.firstWhereOrNull(
+      final matchedTile = groupedValues.firstWhereOrNull(
         (tile) => tile.scheduleTime == scheduleTime && tile.doseReceiver.id == doseReceiver.id,
       );
       if (matchedTile != null) {
         continue;
       } else {
-        groupedValue.add(
+        groupedValues.add(
           MedicationGroup(
             id: const Uuid().v4(),
             scheduleTime: scheduleTime,
@@ -92,10 +108,10 @@ List<MedicationGroup> medicationGroups({
     for (final schedule in medicine.schedules) {
       final scheduleTime = MedicationGroupScheduleTime(hour: schedule.hour, minute: schedule.minute);
 
-      final tileIndex = groupedValue.indexWhere(
+      final tileIndex = groupedValues.indexWhere(
         (tile) => tile.scheduleTime == scheduleTime && tile.doseReceiver.id == doseReceiver.id,
       );
-      final tile = groupedValue[tileIndex];
+      final tile = groupedValues[tileIndex];
 
       final dosingRows = [...tile.dosingRows];
       final medicationHistory = medicationHistories.firstWhereOrNull(
@@ -114,11 +130,11 @@ List<MedicationGroup> medicationGroups({
       );
 
       dosingRows.add(row);
-      groupedValue[tileIndex] = tile.copyWith(dosingRows: [...dosingRows]);
+      groupedValues[tileIndex] = tile.copyWith(dosingRows: [...dosingRows]);
     }
   }
 
-  final ordered = groupedValue.sortedBy((tile) => tile.scheduleTime.toTimeString());
+  final ordered = groupedValues.sortedBy((tile) => tile.scheduleTime.toTimeString());
 
   return ordered;
 }
