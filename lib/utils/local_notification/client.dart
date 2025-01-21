@@ -190,7 +190,6 @@ class RegisterReminderLocalNotification {
     final offset = loopCount * registerDays;
     var badgeNumber = 0;
     for (final dayOffset in List.generate(offset, (index) => index)) {
-      badgeNumber += 1;
       final date = tzNow.date().addDays(dayOffset);
       final groupedValues = medicationGroups(
         medicines: medicines,
@@ -199,6 +198,7 @@ class RegisterReminderLocalNotification {
       );
 
       for (final (groupIndex, group) in groupedValues.indexed) {
+        badgeNumber += 1;
         analytics.debug(name: 'run_register_reminder_notification', parameters: {
           'groupIndex': groupIndex,
           'groupID': group.id,
