@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
@@ -16,6 +18,7 @@ import 'package:medicalarm/provider/medication_history.dart';
 import 'package:medicalarm/provider/medicine.dart';
 import 'package:medicalarm/style/color.dart';
 import 'package:medicalarm/utils/date_time/date_time_ext.dart';
+import 'package:medicalarm/utils/local_notification/client.dart';
 
 class MedicationsPage extends HookConsumerWidget {
   const MedicationsPage({super.key});
@@ -203,6 +206,8 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
     final isChecked = useState(scheduleRow.medicationHistory != null);
     final medicationHistoryTake = ref.watch(medicationHistoryTakeProvider);
     final medicationHistoryDelete = ref.watch(medicationHistoryDeleteProvider);
+    final registerReminderLocalNotification = ref.read(registerReminderLocalNotificationProvider);
+
     isChecked.addListener(() {
       if (isChecked.value) {
         medicationHistoryTake(
@@ -215,6 +220,7 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
       } else {
         medicationHistoryDelete(scheduleRow.medicationHistory!);
       }
+      unawaited(registerReminderLocalNotification());
     });
 
     return Column(
