@@ -155,6 +155,7 @@ class RegisterReminderLocalNotification {
   // TODO: Critical Permissionを取得する
   // TODO: medicine.frequency を考慮
   // TODO: 64個制限があるから、時間順に登録する
+  // TODO: badgeNumber 対応。Pilllを参考に
   static Future<void> run({
     required List<Medicine> medicines,
   }) async {
