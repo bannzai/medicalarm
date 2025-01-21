@@ -5,7 +5,10 @@ import 'dart:math';
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
+import 'package:medicalarm/entity/medication_history.dart';
 import 'package:medicalarm/entity/medicine.dart';
+import 'package:medicalarm/features/medications/entity/grouped.dart';
+import 'package:medicalarm/provider/medication_history.dart';
 import 'package:medicalarm/provider/medicine.dart';
 import 'package:medicalarm/utils/analytics/analytics.dart';
 import 'package:medicalarm/utils/analytics/error.dart';
@@ -142,22 +145,24 @@ class RegisterReminderLocalNotification {
     analytics.debug(name: 'cancel_reminder_notification');
 
     final medicines = ref.read(activeMedicinesProvider).asData?.valueOrNull;
-    if (medicines == null || medicines.isEmpty) {
+    final medicationHistories = ref.read(medicationHistoriesByDateProvider(today())).asData?.valueOrNull;
+    if (medicines == null || medicationHistories == null) {
       return;
     }
 
     await run(
       medicines: medicines,
+      medicationHistories: medicationHistories,
     );
   }
 
-  // TODO: MedicationHistoryがある場合は、その日の服用記録がある場合はスキップする
   // TODO: Critical Permissionを取得する
   // TODO: medicine.frequency を考慮
   // TODO: 64個制限があるから、時間順に登録する
   // TODO: badgeNumber 対応。Pilllを参考に
   static Future<void> run({
     required List<Medicine> medicines,
+    required List<MedicationHistory> medicationHistories,
   }) async {
     final List<Future<void>> futures = [];
 
@@ -183,6 +188,23 @@ class RegisterReminderLocalNotification {
               'tzNowHour': tzNow.hour,
               'tzNowMinute': tzNow.minute,
             });
+            continue;
+          }
+
+          final isTaken = medicationHistories.any((element) {
+            if (element.medicine.id != medicine.id) {
+              return false;
+            }
+            if (!isSameDay(element.scheduledRecordedDate, today())) {
+              return false;
+            }
+            final action = element.action;
+            if (action is TakeMedicationHistoryAction) {
+              return schedule.hour == action.medicationSchedule.hour && schedule.minute == action.medicationSchedule.minute;
+            }
+            return false;
+          });
+          if (isTaken) {
             continue;
           }
 
