@@ -191,7 +191,7 @@ class RegisterReminderLocalNotification {
           continue;
         }
 
-        // 過去のスケジュールはスキップする
+        // 本日服用予定だった、過去のスケジュールはスキップする
         final isPast = group.scheduleTime.hour < tzNow.hour || (group.scheduleTime.hour == tzNow.hour && group.scheduleTime.minute < tzNow.minute);
         if (dayOffset == 0 && isPast) {
           analytics.debug(name: 'rrrn_skip_past_schedule', parameters: {
@@ -205,7 +205,6 @@ class RegisterReminderLocalNotification {
         }
 
         final reminderDateTime = date.add(Duration(hours: group.scheduleTime.hour)).add(Duration(minutes: group.scheduleTime.minute));
-
         if (reminderDateTime.isBefore(tzNow)) {
           analytics.debug(name: 'rrrn_is_before_now', parameters: {
             'dayOffset': dayOffset,
@@ -219,59 +218,119 @@ class RegisterReminderLocalNotification {
 
         // IDの計算には本来のピル番号を使用する。表示用の番号だと今後も設定によりズレる可能性があるため
         // また、_calcLocalNotificationIDの中で、本来のピル番号を使用していることを前提としている(2桁までを想定している)
-        final notificationID = _calcLocalNotificationID(
-          groupIndex: groupIndex,
-          scheduleTime: group.scheduleTime,
-        );
+        final reminderEnabledScheduleRows = group.scheduleRows.where((element) => element.medicationSchedule.notificationSetting.isReminderEnabled);
+        if (reminderEnabledScheduleRows.isNotEmpty) {
+          var message = '';
+          for (final scheduleRow in reminderEnabledScheduleRows) {
+            message += '${scheduleRow.medicine.name} ${scheduleRow.medicine.doseReceiver.name} ${scheduleRow.quantityMemo}\n';
+          }
+          final notificationID = _calcLocalNotificationID(
+            groupIndex: groupIndex,
+            scheduleTime: group.scheduleTime,
+            kind: 1,
+          );
 
-        var message = '';
-        for (final scheduleRow in group.scheduleRows) {
-          message += '${scheduleRow.medicine.name} ${scheduleRow.medicine.doseReceiver.name} ${scheduleRow.quantityMemo}\n';
+          futures.add(
+            Future(() async {
+              try {
+                await localNotificationService.plugin.zonedSchedule(
+                  notificationID,
+                  'お薬の時間です',
+                  message,
+                  reminderDateTime.add(const Duration(minutes: 30)),
+                  NotificationDetails(
+                    iOS: DarwinNotificationDetails(
+                      presentBadge: true,
+                      presentSound: true,
+                      // Alertはdeprecatedなので、banner,listをtrueにしておけばよい。
+                      // https://developer.apple.com/documentation/usernotifications/unnotificationpresentationoptions/unnotificationpresentationoptionalert
+                      presentAlert: false,
+                      presentBanner: true,
+                      presentList: true,
+                      interruptionLevel: InterruptionLevel.critical,
+                      badgeNumber: dayOffset,
+                    ),
+                  ),
+                  uiLocalNotificationDateInterpretation: UILocalNotificationDateInterpretation.absoluteTime,
+                );
+
+                analytics.debug(name: 'rrrn_followup', parameters: {
+                  'dayOffset': dayOffset,
+                  'notificationID': notificationID,
+                  'scheduleTimeHour': group.scheduleTime.hour,
+                  'scheduleTimeMinute': group.scheduleTime.minute,
+                });
+              } catch (e, st) {
+                // NOTE: エラーが発生しても他の通知のスケジュールを続ける
+                errorLogger.recordError(e, st);
+
+                analytics.debug(name: 'rrrn_e_reminder', parameters: {
+                  'dayOffset': dayOffset,
+                  'notificationID': notificationID,
+                  'scheduleTimeHour': group.scheduleTime.hour,
+                  'scheduleTimeMinute': group.scheduleTime.minute,
+                });
+              }
+            }),
+          );
         }
 
-        futures.add(
-          Future(() async {
-            try {
-              await localNotificationService.plugin.zonedSchedule(
-                notificationID,
-                'お薬の時間です',
-                message,
-                reminderDateTime,
-                NotificationDetails(
-                  iOS: DarwinNotificationDetails(
-                    presentBadge: true,
-                    presentSound: true,
-                    // Alertはdeprecatedなので、banner,listをtrueにしておけばよい。
-                    // https://developer.apple.com/documentation/usernotifications/unnotificationpresentationoptions/unnotificationpresentationoptionalert
-                    presentAlert: false,
-                    presentBanner: true,
-                    presentList: true,
-                    interruptionLevel: InterruptionLevel.critical,
-                    badgeNumber: dayOffset,
+        final followUpEnabledScheduleRows = group.scheduleRows.where((element) => element.medicationSchedule.notificationSetting.isFollowupEnabled);
+        if (followUpEnabledScheduleRows.isNotEmpty) {
+          var message = '';
+          for (final scheduleRow in followUpEnabledScheduleRows) {
+            message += '${scheduleRow.medicine.name} ${scheduleRow.medicine.doseReceiver.name} ${scheduleRow.quantityMemo}\n';
+          }
+          final notificationID = _calcLocalNotificationID(
+            groupIndex: groupIndex,
+            scheduleTime: group.scheduleTime,
+            kind: 2,
+          );
+
+          futures.add(
+            Future(() async {
+              try {
+                await localNotificationService.plugin.zonedSchedule(
+                  notificationID,
+                  'お薬の時間から30分過ぎているようです',
+                  message,
+                  reminderDateTime,
+                  NotificationDetails(
+                    iOS: DarwinNotificationDetails(
+                      presentBadge: true,
+                      presentSound: true,
+                      // Alertはdeprecatedなので、banner,listをtrueにしておけばよい。
+                      // https://developer.apple.com/documentation/usernotifications/unnotificationpresentationoptions/unnotificationpresentationoptionalert
+                      presentAlert: false,
+                      presentBanner: true,
+                      presentList: true,
+                      interruptionLevel: InterruptionLevel.critical,
+                      badgeNumber: dayOffset,
+                    ),
                   ),
-                ),
-                uiLocalNotificationDateInterpretation: UILocalNotificationDateInterpretation.absoluteTime,
-              );
+                  uiLocalNotificationDateInterpretation: UILocalNotificationDateInterpretation.absoluteTime,
+                );
 
-              analytics.debug(name: 'rrrn_non_premium', parameters: {
-                'dayOffset': dayOffset,
-                'notificationID': notificationID,
-                'scheduleTimeHour': group.scheduleTime.hour,
-                'scheduleTimeMinute': group.scheduleTime.minute,
-              });
-            } catch (e, st) {
-              // NOTE: エラーが発生しても他の通知のスケジュールを続ける
-              errorLogger.recordError(e, st);
+                analytics.debug(name: 'rrrn_non_premium', parameters: {
+                  'dayOffset': dayOffset,
+                  'notificationID': notificationID,
+                  'scheduleTimeHour': group.scheduleTime.hour,
+                  'scheduleTimeMinute': group.scheduleTime.minute,
+                });
+              } catch (e, st) {
+                // NOTE: エラーが発生しても他の通知のスケジュールを続ける
+                errorLogger.recordError(e, st);
 
-              analytics.debug(name: 'rrrn_e_non_premium', parameters: {
-                'dayOffset': dayOffset,
-                'notificationID': notificationID,
-                'scheduleTimeHour': group.scheduleTime.hour,
-                'scheduleTimeMinute': group.scheduleTime.minute,
-              });
-            }
-          }),
-        );
+                analytics.debug(name: 'rrrn_e_non_premium', parameters: {
+                  'dayOffset': dayOffset,
+                  'notificationID': notificationID,
+                  'scheduleTimeHour': group.scheduleTime.hour,
+                  'scheduleTimeMinute': group.scheduleTime.minute,
+                });
+              }
+            }),
+          );
+        }
       }
     }
 
@@ -297,15 +356,17 @@ class RegisterReminderLocalNotification {
   //   10000000 = groupIndex
   //     100000 = scheduleTime.hour
   //       1000 = scheduleTime.minute
-  //         10 = xxx
+  //         10 = kind: 1 reminder, kind: 2 followup
   static int _calcLocalNotificationID({
     required int groupIndex,
     required MedicationGroupScheduleTime scheduleTime,
+    required int kind,
   }) {
     final groupIndexNumber = (groupIndex + 1) * 10000000;
     final hour = scheduleTime.hour * 100000;
     final minute = scheduleTime.minute * 1000;
-    return reminderNotificationIdentifierOffset + groupIndexNumber + hour + minute;
+    final kindNumber = kind * 10;
+    return reminderNotificationIdentifierOffset + groupIndexNumber + hour + minute + kindNumber;
   }
 }
 
