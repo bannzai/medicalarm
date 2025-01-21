@@ -156,7 +156,6 @@ class RegisterReminderLocalNotification {
     );
   }
 
-  // TODO: Medicine.beganDateTime を考慮
   // TODO: Critical Permissionを取得する
   // TODO: medicine.frequency を考慮
   // TODO: 64個制限があるから、時間順に登録する
