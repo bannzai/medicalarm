@@ -60,6 +60,12 @@ class LocalNotificationService {
   Future<void> requestPermission() async {
     plugin
         .resolvePlatformSpecificImplementation<IOSFlutterLocalNotificationsPlugin>()
+        ?.requestPermissions(sound: true, badge: true, alert: true, provisional: true);
+  }
+
+  Future<void> requestPermissionWithCriticalAlert() async {
+    plugin
+        .resolvePlatformSpecificImplementation<IOSFlutterLocalNotificationsPlugin>()
         ?.requestPermissions(sound: true, badge: true, alert: true, provisional: true, critical: true);
   }
 
