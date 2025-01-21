@@ -18,6 +18,7 @@ part 'database.g.dart';
 
 abstract class _CollectionPath {
   static const String users = "/users";
+  static String userPrivates(String userID) => '$users/$userID/privates';
   static String medicines(String userID) => "/users/$userID/medicines";
   static String doseReceivers(String userID) => "/users/$userID/doseReceivers";
   static String medicationHistories(String userID) => "/users/$userID/medicationHistories";
@@ -47,6 +48,7 @@ class UserDatabase {
         fromFirestore: _userFromFirestore,
         toFirestore: _userToFirestore,
       );
+  DocumentReference userPrivateRawReference() => FirebaseFirestore.instance.collection(_CollectionPath.userPrivates(userID)).doc(userID);
 
   final FromFirestore<Medicine> _medicineFromFirestore = (snapshot, options) => Medicine.fromJson(snapshot.data()!..["id"] = snapshot.id);
   final ToFirestore<Medicine> _medicineToFirestore = (medicine, options) => medicine.toJson();
