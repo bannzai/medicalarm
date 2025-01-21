@@ -24,6 +24,10 @@ class MedicineScheduleNotificationSettingSection extends HookConsumerWidget {
           value: isReminderEnabled.value,
           onChanged: (value) {
             isReminderEnabled.value = value;
+
+            if (!value) {
+              isFollowupEnabled.value = false;
+            }
           },
           title: const Text('服用時の通知を有効にする'),
           subtitle: const Text('服用時刻に基づいて通知を送信します'),
@@ -31,7 +35,11 @@ class MedicineScheduleNotificationSettingSection extends HookConsumerWidget {
         SwitchListTile(
           value: isFollowupEnabled.value,
           onChanged: (value) {
-            isFollowupEnabled.value = value;
+            if (!isReminderEnabled.value) {
+              isFollowupEnabled.value = false;
+            } else {
+              isFollowupEnabled.value = value;
+            }
           },
           title: const Text('フォローアップ通知を有効にする'),
           subtitle: const Text('最初の通知から30分の間に服薬を記録しない場合、フォローアップ通知が送信されます'),

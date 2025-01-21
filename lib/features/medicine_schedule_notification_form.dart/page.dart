@@ -23,10 +23,6 @@ class MedicineScheduleNotificationFormPage extends HookConsumerWidget {
     final useCriticalAlert = useState(schedule.notificationSetting.useCriticalAlert);
     final primaryColor = Theme.of(context).colorScheme.primary;
     isReminderEnabled.addListener(() {
-      if (!isReminderEnabled.value) {
-        isFollowupEnabled.value = false;
-      }
-
       final copied = [...schedules.value];
       copied[index] = copied[index].copyWith(
         notificationSetting: copied[index].notificationSetting.copyWith(
@@ -36,11 +32,6 @@ class MedicineScheduleNotificationFormPage extends HookConsumerWidget {
       schedules.value = copied;
     });
     isFollowupEnabled.addListener(() {
-      if (!isReminderEnabled.value) {
-        isFollowupEnabled.value = false;
-        return;
-      }
-
       final copied = [...schedules.value];
       copied[index] =
           copied[index].copyWith(notificationSetting: copied[index].notificationSetting.copyWith(isFollowupEnabled: isFollowupEnabled.value));
