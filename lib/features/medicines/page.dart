@@ -3,6 +3,7 @@ import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:medicalarm/components/loading/indicator.dart';
 import 'package:medicalarm/components/retry/page.dart';
 import 'package:medicalarm/entity/medicine.dart';
+import 'package:medicalarm/features/medications/components/add_button.dart';
 import 'package:medicalarm/features/medicine_form/page.dart';
 import 'package:medicalarm/provider/medicine.dart';
 import 'package:medicalarm/style/color.dart';
@@ -46,6 +47,8 @@ class MedicinesPageBody extends StatelessWidget {
                 ))
             .toList(),
       ),
+      floatingActionButton: const MedicalAddButton(),
+      floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
     );
   }
 }
