@@ -131,76 +131,6 @@ class MedicationsPageBody extends HookConsumerWidget {
       floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
     );
   }
-
-  List<MedicineTileValue> _tileValues() {
-    final tileValues = <MedicineTileValue>[];
-    // scheduleTimeとdoseReceiverごとのtileValuesを構築する
-    for (final medicine in medicines) {
-      final doseReceiver = medicine.doseReceiver;
-      if (medicine.beganDateTime.isAfter(date.value.date())) {
-        continue;
-      }
-
-      for (final schedule in medicine.schedules) {
-        final scheduleTime = ScheduleTime(hour: schedule.hour, minute: schedule.minute);
-        final matchedTile = tileValues.firstWhereOrNull(
-          (tile) => tile.scheduleTime == scheduleTime && tile.doseReceiver.id == doseReceiver.id,
-        );
-        if (matchedTile != null) {
-          continue;
-        } else {
-          tileValues.add(
-            MedicineTileValue(
-              id: const Uuid().v4(),
-              scheduleTime: scheduleTime,
-              doseReceiver: doseReceiver,
-              dosingRows: [],
-            ),
-          );
-        }
-      }
-    }
-
-    // dosingRowsを構築する
-    for (final medicine in medicines) {
-      final doseReceiver = medicine.doseReceiver;
-      if (medicine.beganDateTime.isAfter(date.value.date())) {
-        continue;
-      }
-
-      for (final schedule in medicine.schedules) {
-        final scheduleTime = ScheduleTime(hour: schedule.hour, minute: schedule.minute);
-
-        final tileIndex = tileValues.indexWhere(
-          (tile) => tile.scheduleTime == scheduleTime && tile.doseReceiver.id == doseReceiver.id,
-        );
-        final tile = tileValues[tileIndex];
-
-        final dosingRows = [...tile.dosingRows];
-        final medicationHistory = medicationHistories.firstWhereOrNull(
-          (history) =>
-              history.medicine.id == medicine.id &&
-              history.action.medicationSchedule.id == schedule.id &&
-              isSameDay(history.scheduledRecordedDate, date.value.date()),
-        );
-        final row = MedicineDosingRowValue(
-          id: const Uuid().v4(),
-          medicationHistory: medicationHistory,
-          medicine: medicine,
-          medicationSchedule: schedule,
-          quantityMemo: schedule.quantityMemo,
-          date: date.value,
-        );
-
-        dosingRows.add(row);
-        tileValues[tileIndex] = tile.copyWith(dosingRows: [...dosingRows]);
-      }
-    }
-
-    final ordered = tileValues.sortedBy((tile) => tile.scheduleTime.toTimeString());
-
-    return ordered;
-  }
 }
 
 class MedicineTile extends StatelessWidget {
@@ -259,7 +189,7 @@ class MedicineTile extends StatelessWidget {
 }
 
 class MedicineTileRow extends HookConsumerWidget {
-  final MedicineDosingRowValue dosingRow;
+  final MedicationGroupScheduleRow dosingRow;
   const MedicineTileRow({
     super.key,
     required this.dosingRow,
