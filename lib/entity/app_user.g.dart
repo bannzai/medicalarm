@@ -8,6 +8,7 @@ part of 'app_user.dart';
 
 _$AppUserImpl _$$AppUserImplFromJson(Map<String, dynamic> json) => _$AppUserImpl(
       id: json['id'] as String?,
+      analyticsDebugIsEnabled: json['analyticsDebugIsEnabled'] as bool? ?? false,
       createdDateTime: const ClientCreatedTimestamp().fromJson(json['createdDateTime'] as Timestamp?),
       updatedDateTime: const ClientUpdatedTimestamp().fromJson(json['updatedDateTime'] as Timestamp?),
       serverCreatedDateTime: const ServerCreatedTimestamp().fromJson(json['serverCreatedDateTime']),
@@ -16,6 +17,7 @@ _$AppUserImpl _$$AppUserImplFromJson(Map<String, dynamic> json) => _$AppUserImpl
 
 Map<String, dynamic> _$$AppUserImplToJson(_$AppUserImpl instance) => <String, dynamic>{
       'id': instance.id,
+      'analyticsDebugIsEnabled': instance.analyticsDebugIsEnabled,
       'createdDateTime': const ClientCreatedTimestamp().toJson(instance.createdDateTime),
       'updatedDateTime': const ClientUpdatedTimestamp().toJson(instance.updatedDateTime),
       'serverCreatedDateTime': const ServerCreatedTimestamp().toJson(instance.serverCreatedDateTime),

@@ -21,6 +21,7 @@ AppUser _$AppUserFromJson(Map<String, dynamic> json) {
 /// @nodoc
 mixin _$AppUser {
   String? get id => throw _privateConstructorUsedError;
+  bool get analyticsDebugIsEnabled => throw _privateConstructorUsedError;
   @ClientCreatedTimestamp()
   DateTime? get createdDateTime => throw _privateConstructorUsedError;
   @ClientUpdatedTimestamp()
@@ -45,6 +46,7 @@ abstract class $AppUserCopyWith<$Res> {
   @useResult
   $Res call(
       {String? id,
+      bool analyticsDebugIsEnabled,
       @ClientCreatedTimestamp() DateTime? createdDateTime,
       @ClientUpdatedTimestamp() DateTime? updatedDateTime,
       @ServerCreatedTimestamp() DateTime? serverCreatedDateTime,
@@ -66,6 +68,7 @@ class _$AppUserCopyWithImpl<$Res, $Val extends AppUser> implements $AppUserCopyW
   @override
   $Res call({
     Object? id = freezed,
+    Object? analyticsDebugIsEnabled = null,
     Object? createdDateTime = freezed,
     Object? updatedDateTime = freezed,
     Object? serverCreatedDateTime = freezed,
@@ -76,6 +79,10 @@ class _$AppUserCopyWithImpl<$Res, $Val extends AppUser> implements $AppUserCopyW
           ? _value.id
           : id // ignore: cast_nullable_to_non_nullable
               as String?,
+      analyticsDebugIsEnabled: null == analyticsDebugIsEnabled
+          ? _value.analyticsDebugIsEnabled
+          : analyticsDebugIsEnabled // ignore: cast_nullable_to_non_nullable
+              as bool,
       createdDateTime: freezed == createdDateTime
           ? _value.createdDateTime
           : createdDateTime // ignore: cast_nullable_to_non_nullable
@@ -103,6 +110,7 @@ abstract class _$$AppUserImplCopyWith<$Res> implements $AppUserCopyWith<$Res> {
   @useResult
   $Res call(
       {String? id,
+      bool analyticsDebugIsEnabled,
       @ClientCreatedTimestamp() DateTime? createdDateTime,
       @ClientUpdatedTimestamp() DateTime? updatedDateTime,
       @ServerCreatedTimestamp() DateTime? serverCreatedDateTime,
@@ -119,6 +127,7 @@ class __$$AppUserImplCopyWithImpl<$Res> extends _$AppUserCopyWithImpl<$Res, _$Ap
   @override
   $Res call({
     Object? id = freezed,
+    Object? analyticsDebugIsEnabled = null,
     Object? createdDateTime = freezed,
     Object? updatedDateTime = freezed,
     Object? serverCreatedDateTime = freezed,
@@ -129,6 +138,10 @@ class __$$AppUserImplCopyWithImpl<$Res> extends _$AppUserCopyWithImpl<$Res, _$Ap
           ? _value.id
           : id // ignore: cast_nullable_to_non_nullable
               as String?,
+      analyticsDebugIsEnabled: null == analyticsDebugIsEnabled
+          ? _value.analyticsDebugIsEnabled
+          : analyticsDebugIsEnabled // ignore: cast_nullable_to_non_nullable
+              as bool,
       createdDateTime: freezed == createdDateTime
           ? _value.createdDateTime
           : createdDateTime // ignore: cast_nullable_to_non_nullable
@@ -155,6 +168,7 @@ class __$$AppUserImplCopyWithImpl<$Res> extends _$AppUserCopyWithImpl<$Res, _$Ap
 class _$AppUserImpl extends _AppUser {
   const _$AppUserImpl(
       {this.id,
+      this.analyticsDebugIsEnabled = false,
       @ClientCreatedTimestamp() this.createdDateTime,
       @ClientUpdatedTimestamp() this.updatedDateTime,
       @ServerCreatedTimestamp() this.serverCreatedDateTime,
@@ -165,6 +179,9 @@ class _$AppUserImpl extends _AppUser {
 
   @override
   final String? id;
+  @override
+  @JsonKey()
+  final bool analyticsDebugIsEnabled;
   @override
   @ClientCreatedTimestamp()
   final DateTime? createdDateTime;
@@ -180,7 +197,7 @@ class _$AppUserImpl extends _AppUser {
 
   @override
   String toString() {
-    return 'AppUser(id: $id, createdDateTime: $createdDateTime, updatedDateTime: $updatedDateTime, serverCreatedDateTime: $serverCreatedDateTime, serverUpdatedDateTime: $serverUpdatedDateTime)';
+    return 'AppUser(id: $id, analyticsDebugIsEnabled: $analyticsDebugIsEnabled, createdDateTime: $createdDateTime, updatedDateTime: $updatedDateTime, serverCreatedDateTime: $serverCreatedDateTime, serverUpdatedDateTime: $serverUpdatedDateTime)';
   }
 
   @override
@@ -189,6 +206,7 @@ class _$AppUserImpl extends _AppUser {
         (other.runtimeType == runtimeType &&
             other is _$AppUserImpl &&
             (identical(other.id, id) || other.id == id) &&
+            (identical(other.analyticsDebugIsEnabled, analyticsDebugIsEnabled) || other.analyticsDebugIsEnabled == analyticsDebugIsEnabled) &&
             (identical(other.createdDateTime, createdDateTime) || other.createdDateTime == createdDateTime) &&
             (identical(other.updatedDateTime, updatedDateTime) || other.updatedDateTime == updatedDateTime) &&
             (identical(other.serverCreatedDateTime, serverCreatedDateTime) || other.serverCreatedDateTime == serverCreatedDateTime) &&
@@ -197,7 +215,8 @@ class _$AppUserImpl extends _AppUser {
 
   @JsonKey(includeFromJson: false, includeToJson: false)
   @override
-  int get hashCode => Object.hash(runtimeType, id, createdDateTime, updatedDateTime, serverCreatedDateTime, serverUpdatedDateTime);
+  int get hashCode =>
+      Object.hash(runtimeType, id, analyticsDebugIsEnabled, createdDateTime, updatedDateTime, serverCreatedDateTime, serverUpdatedDateTime);
 
   /// Create a copy of AppUser
   /// with the given fields replaced by the non-null parameter values.
@@ -217,6 +236,7 @@ class _$AppUserImpl extends _AppUser {
 abstract class _AppUser extends AppUser {
   const factory _AppUser(
       {final String? id,
+      final bool analyticsDebugIsEnabled,
       @ClientCreatedTimestamp() final DateTime? createdDateTime,
       @ClientUpdatedTimestamp() final DateTime? updatedDateTime,
       @ServerCreatedTimestamp() final DateTime? serverCreatedDateTime,
@@ -227,6 +247,8 @@ abstract class _AppUser extends AppUser {
 
   @override
   String? get id;
+  @override
+  bool get analyticsDebugIsEnabled;
   @override
   @ClientCreatedTimestamp()
   DateTime? get createdDateTime;

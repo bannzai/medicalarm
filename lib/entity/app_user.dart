@@ -11,6 +11,7 @@ class AppUser with _$AppUser {
   @JsonSerializable(explicitToJson: true)
   const factory AppUser({
     String? id,
+    @Default(false) bool analyticsDebugIsEnabled,
     @ClientCreatedTimestamp() DateTime? createdDateTime,
     @ClientUpdatedTimestamp() DateTime? updatedDateTime,
     @ServerCreatedTimestamp() DateTime? serverCreatedDateTime,
