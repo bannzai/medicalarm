@@ -6,6 +6,7 @@ import 'package:medicalarm/features/medications/page.dart';
 import 'package:medicalarm/features/settings/page.dart';
 import 'package:medicalarm/style/color.dart';
 import 'package:medicalarm/utils/analytics/analytics.dart';
+import 'package:medicalarm/utils/push_notification/request_permission.dart';
 
 enum HomePageTabType { medications, medicationHistories, settings }
 
@@ -30,10 +31,16 @@ class HomePage extends HookConsumerWidget {
     final tabIndex = useState(0);
     final ticker = useSingleTickerProvider();
     final tabController = useTabController(initialLength: HomePageTabType.values.length, vsync: ticker);
+    final registerRemotePushNotificationToken = ref.watch(registerRemotePushNotificationTokenProvider);
     tabController.addListener(() {
       tabIndex.value = tabController.index;
       _screenTracking(tabController.index);
     });
+
+    useEffect(() {
+      requestNotificationPermissions(registerRemotePushNotificationToken);
+      return null;
+    }, []);
 
     return DefaultTabController(
       length: HomePageTabType.values.length,
