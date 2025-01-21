@@ -273,7 +273,7 @@ class RegisterReminderLocalNotification {
                   uiLocalNotificationDateInterpretation: UILocalNotificationDateInterpretation.absoluteTime,
                 );
 
-                analytics.debug(name: 'rrrn_followup', parameters: {
+                analytics.debug(name: 'rrrn_reminder', parameters: {
                   'dayOffset': dayOffset,
                   'notificationID': notificationID,
                   'scheduleTimeHour': group.scheduleTime.hour,
