@@ -330,7 +330,7 @@ class RegisterReminderLocalNotification {
                   uiLocalNotificationDateInterpretation: UILocalNotificationDateInterpretation.absoluteTime,
                 );
 
-                analytics.debug(name: 'rrrn_non_premium', parameters: {
+                analytics.debug(name: 'rrrn_followup', parameters: {
                   'dayOffset': dayOffset,
                   'notificationID': notificationID,
                   'scheduleTimeHour': group.scheduleTime.hour,
@@ -340,7 +340,7 @@ class RegisterReminderLocalNotification {
                 // NOTE: エラーが発生しても他の通知のスケジュールを続ける
                 errorLogger.recordError(e, st);
 
-                analytics.debug(name: 'rrrn_e_non_premium', parameters: {
+                analytics.debug(name: 'rrrn_e_followup', parameters: {
                   'dayOffset': dayOffset,
                   'notificationID': notificationID,
                   'scheduleTimeHour': group.scheduleTime.hour,
