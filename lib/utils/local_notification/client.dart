@@ -261,7 +261,7 @@ class RegisterReminderLocalNotification {
                   notificationID,
                   'お薬の時間です',
                   message,
-                  reminderDateTime.add(const Duration(minutes: 30)),
+                  reminderDateTime,
                   NotificationDetails(
                     iOS: DarwinNotificationDetails(
                       presentBadge: true,
@@ -324,7 +324,7 @@ class RegisterReminderLocalNotification {
                   notificationID,
                   'お薬の時間から30分過ぎているようです',
                   message,
-                  reminderDateTime,
+                  reminderDateTime.add(const Duration(minutes: 30)),
                   NotificationDetails(
                     iOS: DarwinNotificationDetails(
                       presentBadge: true,
