@@ -3,7 +3,6 @@ import 'dart:async';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:medicalarm/components/picker/toolbar.dart';
-import 'package:medicalarm/utils/config/environment.dart';
 import 'package:flutter/cupertino.dart';
 
 class AppTimePicker extends StatelessWidget {

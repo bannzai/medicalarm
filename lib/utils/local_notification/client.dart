@@ -25,6 +25,7 @@ const fallbackNotificationIdentifier = 1;
 const newPillSheetNotificationIdentifier = 2;
 const scheduleNotificationIdentifierOffset = 100000;
 const reminderNotificationIdentifierOffset = 1000000000;
+const followupNotificationIdentifierOffset = 2000000000;
 
 // NOTE: It can not be use Future.wait(processes) when register notification.
 class LocalNotificationService {
@@ -246,9 +247,11 @@ class RegisterReminderLocalNotification {
             message += '${scheduleRow.medicine.doseReceiver.name} ${scheduleRow.medicine.name} ${scheduleRow.quantityMemo}\n';
           }
           final notificationID = _calcLocalNotificationID(
-            groupIndex: groupIndex,
-            scheduleTime: group.scheduleTime,
-            kind: 1,
+            isReminder: true,
+            month: date.month,
+            day: date.day,
+            hour: group.scheduleTime.hour,
+            minute: group.scheduleTime.minute,
           );
 
           futures.add(
@@ -307,9 +310,11 @@ class RegisterReminderLocalNotification {
             message += '${scheduleRow.medicine.doseReceiver.name} ${scheduleRow.medicine.name} ${scheduleRow.quantityMemo}\n';
           }
           final notificationID = _calcLocalNotificationID(
-            groupIndex: groupIndex,
-            scheduleTime: group.scheduleTime,
-            kind: 2,
+            isReminder: false,
+            month: date.month,
+            day: date.day,
+            hour: group.scheduleTime.hour,
+            minute: group.scheduleTime.minute,
           );
 
           futures.add(
@@ -381,21 +386,20 @@ class RegisterReminderLocalNotification {
 
   // reminder time id is 10{groupIndex:2}{hour:2}{minute:2}{pillNumberInPillSheet:2}
   // for example return value 1002223014 means,  `10` is prefix, gropuIndex: `02` is third pillSheet,`22` is hour, `30` is minute, `14` is pill number into pill sheet
-  // 1000000000 = reminderNotificationIdentifierOffset
-  //   10000000 = groupIndex
-  //     100000 = scheduleTime.hour
-  //       1000 = scheduleTime.minute
-  //         10 = kind: 1 reminder, kind: 2 followup
+  // (n)000000000 = reminderNotificationIdentifierOffset. isReminder is 1000000000, isFollowup is 2000000000
+  //     10000000 = month
+  //       100000 = day
+  //         1000 = scheduleTime.hour
+  //           10 = scheduleTime.minute
   static int _calcLocalNotificationID({
-    required int groupIndex,
-    required MedicationGroupScheduleTime scheduleTime,
-    required int kind,
+    required bool isReminder,
+    required int month,
+    required int day,
+    required int hour,
+    required int minute,
   }) {
-    final groupIndexNumber = (groupIndex + 1) * 10000000;
-    final hour = scheduleTime.hour * 100000;
-    final minute = scheduleTime.minute * 1000;
-    final kindNumber = kind * 10;
-    return reminderNotificationIdentifierOffset + groupIndexNumber + hour + minute + kindNumber;
+    final offset = isReminder ? reminderNotificationIdentifierOffset : followupNotificationIdentifierOffset;
+    return offset + month * (10000000 ~/ 10) + day * (100000 ~/ 10) + hour * (1000 ~/ 10) + minute;
   }
 }
 
