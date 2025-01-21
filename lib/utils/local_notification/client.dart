@@ -217,6 +217,7 @@ class RegisterReminderLocalNotification {
                       presentAlert: false,
                       presentBanner: true,
                       presentList: true,
+                      interruptionLevel: InterruptionLevel.critical,
                       badgeNumber: dayOffset,
                     ),
                   ),
