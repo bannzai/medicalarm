@@ -280,6 +280,7 @@ class RegisterReminderLocalNotification {
                 analytics.debug(name: 'rrrn_reminder', parameters: {
                   'dayOffset': dayOffset,
                   'message': message,
+                  'reminderDateTime': reminderDateTime,
                   'notificationID': notificationID,
                   'scheduleTimeHour': group.scheduleTime.hour,
                   'scheduleTimeMinute': group.scheduleTime.minute,
@@ -291,6 +292,7 @@ class RegisterReminderLocalNotification {
                 analytics.debug(name: 'rrrn_e_reminder', parameters: {
                   'dayOffset': dayOffset,
                   'message': message,
+                  'reminderDateTime': reminderDateTime,
                   'notificationID': notificationID,
                   'scheduleTimeHour': group.scheduleTime.hour,
                   'scheduleTimeMinute': group.scheduleTime.minute,
@@ -339,6 +341,7 @@ class RegisterReminderLocalNotification {
                 analytics.debug(name: 'rrrn_followup', parameters: {
                   'dayOffset': dayOffset,
                   'message': message,
+                  'reminderDateTime': reminderDateTime,
                   'notificationID': notificationID,
                   'scheduleTimeHour': group.scheduleTime.hour,
                   'scheduleTimeMinute': group.scheduleTime.minute,
@@ -350,6 +353,7 @@ class RegisterReminderLocalNotification {
                 analytics.debug(name: 'rrrn_e_followup', parameters: {
                   'dayOffset': dayOffset,
                   'message': message,
+                  'reminderDateTime': reminderDateTime,
                   'notificationID': notificationID,
                   'scheduleTimeHour': group.scheduleTime.hour,
                   'scheduleTimeMinute': group.scheduleTime.minute,
