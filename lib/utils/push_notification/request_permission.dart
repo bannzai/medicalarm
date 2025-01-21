@@ -14,13 +14,9 @@ part 'request_permission.g.dart';
 Future<void> requestNotificationPermissions(RegisterRemotePushNotificationToken registerRemotePushNotificationToken) async {
   if (Platform.isIOS) {
     await FirebaseMessaging.instance.setForegroundNotificationPresentationOptions(alert: true, badge: true, sound: true);
-  }
-  await FirebaseMessaging.instance.requestPermission(alert: true, badge: true, sound: true, announcement: true);
-  registerRemotePushNotificationToken(await FirebaseMessaging.instance.getToken());
-  await localNotificationService.requestPermission();
-
-  if (Platform.isAndroid) {
-    await AndroidFlutterLocalNotificationsPlugin().requestExactAlarmsPermission();
+    await FirebaseMessaging.instance.requestPermission(alert: true, badge: true, sound: true, announcement: true);
+    await localNotificationService.requestPermission();
+    registerRemotePushNotificationToken(await FirebaseMessaging.instance.getToken());
   }
 }
 
