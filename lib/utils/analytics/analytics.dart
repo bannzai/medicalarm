@@ -5,7 +5,15 @@ import 'package:flutter/foundation.dart';
 
 final firebaseAnalytics = FirebaseAnalytics.instance;
 
+var analyticsDebugIsEnabled = false;
+
 class Analytics {
+  void debug({required String name, Map<String, Object>? parameters}) async {
+    if (analyticsDebugIsEnabled) {
+      logEvent(name: name, parameters: parameters);
+    }
+  }
+
   void logEvent({required String name, Map<String, Object>? parameters}) async {
     assert(name.length <= 40, "firebase analytics log event name limit length up to 40");
     if (kDebugMode) {
