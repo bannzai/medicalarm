@@ -9,7 +9,7 @@ var analyticsDebugIsEnabled = false;
 
 class Analytics {
   void debug({required String name, Map<String, Object>? parameters}) async {
-    if (analyticsDebugIsEnabled) {
+    if (analyticsDebugIsEnabled || kDebugMode) {
       logEvent(name: name, parameters: parameters);
     }
   }
