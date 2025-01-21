@@ -156,6 +156,7 @@ class RegisterReminderLocalNotification {
     );
   }
 
+  // TODO: Medicine.beganDateTime を考慮
   // TODO: Critical Permissionを取得する
   // TODO: medicine.frequency を考慮
   // TODO: 64個制限があるから、時間順に登録する
@@ -191,11 +192,13 @@ class RegisterReminderLocalNotification {
             continue;
           }
 
+          final reminderDateTime = tzNow.date().addDays(dayOffset).add(Duration(hours: schedule.hour)).add(Duration(minutes: schedule.minute));
+
           final isTaken = medicationHistories.any((element) {
             if (element.medicine.id != medicine.id) {
               return false;
             }
-            if (!isSameDay(element.scheduledRecordedDate, today())) {
+            if (!isSameDay(element.scheduledRecordedDate, reminderDateTime)) {
               return false;
             }
             final action = element.action;
@@ -208,7 +211,12 @@ class RegisterReminderLocalNotification {
             continue;
           }
 
-          final reminderDateTime = tzNow.date().addDays(dayOffset).add(Duration(hours: schedule.hour)).add(Duration(minutes: schedule.minute));
+          // reminderDate(reminderDateTime.date()相当)を用意すればもっと早くこの条件分を評価できるが、
+          // reminderDateTimeができるのがこの時点なのでここでチェックしている
+          if (reminderDateTime.date().isBefore(medicine.beganDateTime.date())) {
+            continue;
+          }
+
           if (reminderDateTime.isBefore(tzNow)) {
             analytics.debug(name: 'rrrn_is_before_now', parameters: {
               'dayOffset': dayOffset,
