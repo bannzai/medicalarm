@@ -12,6 +12,7 @@ import 'package:medicalarm/features/medications/components/add_button.dart';
 import 'package:medicalarm/components/calendar/day/today_badge.dart';
 import 'package:medicalarm/features/medications/entity/grouped.dart';
 import 'package:medicalarm/features/medicine_form/page.dart';
+import 'package:medicalarm/features/medicines/page.dart';
 import 'package:medicalarm/provider/medication_history.dart';
 import 'package:medicalarm/provider/medicine.dart';
 import 'package:medicalarm/style/color.dart';
@@ -82,6 +83,17 @@ class MedicationsPageBody extends HookConsumerWidget {
             Text(_displayMonth(page.value), style: const TextStyle(fontSize: 16, fontWeight: FontWeight.bold)),
           ],
         ),
+        actions: [
+          IconButton(
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => const MedicinesPage()),
+              );
+            },
+            icon: const Icon(Icons.edit),
+          ),
+        ],
       ),
       body: SafeArea(
         child: Column(
