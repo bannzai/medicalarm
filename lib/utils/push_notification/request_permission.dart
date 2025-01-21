@@ -6,6 +6,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:medicalarm/features/resolver/database.dart';
+import 'package:medicalarm/utils/local_notification/client.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 
 part 'request_permission.g.dart';
@@ -16,6 +17,7 @@ Future<void> requestNotificationPermissions(RegisterRemotePushNotificationToken 
   }
   await FirebaseMessaging.instance.requestPermission(alert: true, badge: true, sound: true, announcement: true);
   registerRemotePushNotificationToken(await FirebaseMessaging.instance.getToken());
+  await localNotificationService.requestPermission();
 
   if (Platform.isAndroid) {
     await AndroidFlutterLocalNotificationsPlugin().requestExactAlarmsPermission();

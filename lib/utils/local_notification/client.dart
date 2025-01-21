@@ -35,7 +35,8 @@ class LocalNotificationService {
     tz.setLocalLocation(tz.getLocation(await FlutterNativeTimezone.getLocalTimezone()));
   }
 
-  Future<void> requestPermission() async {
+  Future<void> initialize() async {
+    // NOTE: iOSではやっていることが、UNUserNotificationCenter.current().requestAuthorization(options: options)である。なので何度読んでも良い
     await plugin.initialize(
       const InitializationSettings(
         iOS: DarwinInitializationSettings(
@@ -46,10 +47,20 @@ class LocalNotificationService {
           defaultPresentSound: true,
           defaultPresentBanner: true,
           defaultPresentList: true,
-          requestCriticalPermission: true,
+          requestAlertPermission: false,
+          requestBadgePermission: false,
+          requestSoundPermission: false,
+          requestProvisionalPermission: false,
+          requestCriticalPermission: false,
         ),
       ),
     );
+  }
+
+  Future<void> requestPermission() async {
+    plugin
+        .resolvePlatformSpecificImplementation<IOSFlutterLocalNotificationsPlugin>()
+        ?.requestPermissions(sound: true, badge: true, alert: true, provisional: true, critical: true);
   }
 
   // iOSでは 以下の二つを実行しているだけなので今のところエラーは発生しない

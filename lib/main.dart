@@ -30,7 +30,7 @@ void main() async {
 
     // AppLocalizationsの初期化を待つ
     WidgetsBinding.instance.addPostFrameCallback((timeStamp) async {
-      await localNotificationService.requestPermission();
+      await localNotificationService.initialize();
     });
 
     // MEMO: FirebaseCrashlytics#recordFlutterError called dumpErrorToConsole in function.
