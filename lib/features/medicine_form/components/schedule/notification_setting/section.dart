@@ -51,6 +51,8 @@ class MedicineScheduleNotificationSettingSection extends HookConsumerWidget {
             final grand = await localNotificationService.requestPermissionWithCriticalAlert();
             if (grand == true) {
               useCriticalAlert.value = value;
+            } else {
+              useCriticalAlert.value = false;
             }
           },
           title: const Text('マナーモードでも通知する'),
