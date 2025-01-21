@@ -17,7 +17,7 @@ class MedicationGroup with _$MedicationGroup {
     required String id,
     required MedicationGroupScheduleTime scheduleTime,
     required DoseReceiver doseReceiver,
-    required List<MedicationGroupScheduleRow> dosingRows,
+    required List<MedicationGroupScheduleRow> scheduleRows,
   }) = _MedicationGroup;
 }
 
@@ -91,7 +91,7 @@ List<MedicationGroup> medicationGroups({
             id: const Uuid().v4(),
             scheduleTime: scheduleTime,
             doseReceiver: doseReceiver,
-            dosingRows: [],
+            scheduleRows: [],
           ),
         );
       }
@@ -113,7 +113,7 @@ List<MedicationGroup> medicationGroups({
       );
       final tile = groupedValues[tileIndex];
 
-      final dosingRows = [...tile.dosingRows];
+      final scheduleRows = [...tile.scheduleRows];
       final medicationHistory = medicationHistories.firstWhereOrNull(
         (history) =>
             history.medicine.id == medicine.id &&
@@ -129,8 +129,8 @@ List<MedicationGroup> medicationGroups({
         date: date,
       );
 
-      dosingRows.add(row);
-      groupedValues[tileIndex] = tile.copyWith(dosingRows: [...dosingRows]);
+      scheduleRows.add(row);
+      groupedValues[tileIndex] = tile.copyWith(scheduleRows: [...scheduleRows]);
     }
   }
 

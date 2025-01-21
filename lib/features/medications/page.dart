@@ -180,8 +180,8 @@ class MedicationGroupTile extends StatelessWidget {
               ),
             ),
             const SizedBox(height: 4),
-            for (final dosingRow in tileValue.dosingRows) ...[
-              MedicineTileRow(key: ValueKey(dosingRow.id), dosingRow: dosingRow),
+            for (final scheduleRow in tileValue.scheduleRows) ...[
+              MedicineTileScheduleRow(key: ValueKey(scheduleRow.id), scheduleRow: scheduleRow),
             ],
           ],
         ),
@@ -190,30 +190,30 @@ class MedicationGroupTile extends StatelessWidget {
   }
 }
 
-class MedicineTileRow extends HookConsumerWidget {
-  final MedicationGroupScheduleRow dosingRow;
-  const MedicineTileRow({
+class MedicineTileScheduleRow extends HookConsumerWidget {
+  final MedicationGroupScheduleRow scheduleRow;
+  const MedicineTileScheduleRow({
     super.key,
-    required this.dosingRow,
+    required this.scheduleRow,
   });
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final isDisabled = dosingRow.isDisabled;
-    final isChecked = useState(dosingRow.medicationHistory != null);
+    final isDisabled = scheduleRow.isDisabled;
+    final isChecked = useState(scheduleRow.medicationHistory != null);
     final medicationHistoryTake = ref.watch(medicationHistoryTakeProvider);
     final medicationHistoryDelete = ref.watch(medicationHistoryDeleteProvider);
     isChecked.addListener(() {
       if (isChecked.value) {
         medicationHistoryTake(
-          medicationHistory: dosingRow.medicationHistory,
-          scheduledRecordedDate: dosingRow.date,
-          recordedDateTime: dosingRow.medicationHistory?.recordedDateTime ?? DateTime.now(),
-          medicine: dosingRow.medicine,
-          medicationSchedule: dosingRow.medicationSchedule,
+          medicationHistory: scheduleRow.medicationHistory,
+          scheduledRecordedDate: scheduleRow.date,
+          recordedDateTime: scheduleRow.medicationHistory?.recordedDateTime ?? DateTime.now(),
+          medicine: scheduleRow.medicine,
+          medicationSchedule: scheduleRow.medicationSchedule,
         );
       } else {
-        medicationHistoryDelete(dosingRow.medicationHistory!);
+        medicationHistoryDelete(scheduleRow.medicationHistory!);
       }
     });
 
@@ -238,16 +238,16 @@ class MedicineTileRow extends HookConsumerWidget {
             const SizedBox(width: 8),
             GestureDetector(
               child: Text(
-                dosingRow.medicine.name,
+                scheduleRow.medicine.name,
                 style: const TextStyle(fontSize: 16),
               ),
               onTap: () {
-                showMedicineForm(context, dosingRow.medicine);
+                showMedicineForm(context, scheduleRow.medicine);
               },
             ),
             const Spacer(),
-            if (dosingRow.quantityMemo.isNotEmpty) ...[
-              Text(dosingRow.quantityMemo),
+            if (scheduleRow.quantityMemo.isNotEmpty) ...[
+              Text(scheduleRow.quantityMemo),
             ],
           ],
         ),

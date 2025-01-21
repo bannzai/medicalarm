@@ -5,6 +5,7 @@ import 'dart:math';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:medicalarm/entity/medication_history.dart';
 import 'package:medicalarm/entity/medicine.dart';
+import 'package:medicalarm/features/medications/entity/grouped.dart';
 import 'package:medicalarm/provider/medication_history.dart';
 import 'package:medicalarm/provider/medicine.dart';
 import 'package:medicalarm/utils/analytics/analytics.dart';
@@ -162,35 +163,43 @@ class RegisterReminderLocalNotification {
   }) async {
     final List<Future<void>> futures = [];
 
-    for (final (medicineIndex, medicine) in medicines.indexed) {
-      analytics.debug(name: 'run_register_reminder_notification', parameters: {
-        'medicineID': medicine.id,
-        'medicineName': medicine.name,
-        'beginDateTime': medicine.beganDateTime,
-        'doseReceiverID': medicine.doseReceiver.id,
-        'doseReceiverName': medicine.doseReceiver.name,
-      });
-      final tzNow = tz.TZDateTime.now(tz.local);
+    final tzNow = tz.TZDateTime.now(tz.local);
+    final groupedValues = medicationGroups(
+      medicines: medicines,
+      medicationHistories: medicationHistories,
+      date: tzNow.date(),
+    );
 
-      for (final (scheduleIndex, schedule) in medicine.schedules.indexed) {
+    for (final (groupIndex, group) in groupedValues.indexed) {
+      analytics.debug(name: 'run_register_reminder_notification', parameters: {
+        'groupIndex': groupIndex,
+        'groupID': group.id,
+      });
+
+      for (final (scheduleIndex, schedule) in group.scheduleRows.indexed) {
         for (final dayOffset in List.generate(registerDays, (index) => index)) {
           // 過去のスケジュールはスキップする
-          final isPast = schedule.hour < tzNow.hour || (schedule.hour == tzNow.hour && schedule.minute < tzNow.minute);
+          final isPast = schedule.medicationSchedule.hour < tzNow.hour ||
+              (schedule.medicationSchedule.hour == tzNow.hour && schedule.medicationSchedule.minute < tzNow.minute);
           if (dayOffset == 0 && isPast) {
             analytics.debug(name: 'rrrn_skip_past_schedule', parameters: {
               'dayOffset': dayOffset,
-              'scheduleHour': schedule.hour,
-              'scheduleMinute': schedule.minute,
+              'scheduleHour': schedule.medicationSchedule.hour,
+              'scheduleMinute': schedule.medicationSchedule.minute,
               'tzNowHour': tzNow.hour,
               'tzNowMinute': tzNow.minute,
             });
             continue;
           }
 
-          final reminderDateTime = tzNow.date().addDays(dayOffset).add(Duration(hours: schedule.hour)).add(Duration(minutes: schedule.minute));
+          final reminderDateTime = tzNow
+              .date()
+              .addDays(dayOffset)
+              .add(Duration(hours: schedule.medicationSchedule.hour))
+              .add(Duration(minutes: schedule.medicationSchedule.minute));
 
           final isTaken = medicationHistories.any((element) {
-            if (element.medicine.id != medicine.id) {
+            if (element.medicine.id != schedule.medicine.id) {
               return false;
             }
             if (!isSameDay(element.scheduledRecordedDate, reminderDateTime)) {
@@ -198,7 +207,8 @@ class RegisterReminderLocalNotification {
             }
             final action = element.action;
             if (action is TakeMedicationHistoryAction) {
-              return schedule.hour == action.medicationSchedule.hour && schedule.minute == action.medicationSchedule.minute;
+              return schedule.medicationSchedule.hour == action.medicationSchedule.hour &&
+                  schedule.medicationSchedule.minute == action.medicationSchedule.minute;
             }
             return false;
           });
@@ -208,7 +218,7 @@ class RegisterReminderLocalNotification {
 
           // reminderDate(reminderDateTime.date()相当)を用意すればもっと早くこの条件分を評価できるが、
           // reminderDateTimeができるのがこの時点なのでここでチェックしている
-          if (reminderDateTime.date().isBefore(medicine.beganDateTime.date())) {
+          if (reminderDateTime.date().isBefore(schedule.medicine.beganDateTime.date())) {
             continue;
           }
 
@@ -217,8 +227,8 @@ class RegisterReminderLocalNotification {
               'dayOffset': dayOffset,
               'tzNow': tzNow,
               'reminderDateTime': reminderDateTime,
-              'scheduleHour': schedule.hour,
-              'scheduleMinute': schedule.minute,
+              'scheduleHour': schedule.medicationSchedule.hour,
+              'scheduleMinute': schedule.medicationSchedule.minute,
             });
             continue;
           }
@@ -227,7 +237,7 @@ class RegisterReminderLocalNotification {
           // また、_calcLocalNotificationIDの中で、本来のピル番号を使用していることを前提としている(2桁までを想定している)
           final notificationID = _calcLocalNotificationID(
             medicineIndex: medicineIndex,
-            schedule: schedule,
+            schedule: schedule.medicationSchedule,
             scheduleIndex: scheduleIndex,
           );
 
@@ -237,7 +247,7 @@ class RegisterReminderLocalNotification {
                 await localNotificationService.plugin.zonedSchedule(
                   notificationID,
                   'お薬の時間です',
-                  '${medicine.name} ${medicine.doseReceiver.name} ${schedule.quantityMemo}',
+                  '${schedule.medicine.name} ${schedule.medicine.doseReceiver.name} ${schedule.quantityMemo}',
                   reminderDateTime,
                   NotificationDetails(
                     iOS: DarwinNotificationDetails(
@@ -258,8 +268,8 @@ class RegisterReminderLocalNotification {
                 analytics.debug(name: 'rrrn_non_premium', parameters: {
                   'dayOffset': dayOffset,
                   'notificationID': notificationID,
-                  'scheduleHour': schedule.hour,
-                  'scheduleMinute': schedule.minute,
+                  'scheduleHour': schedule.medicationSchedule.hour,
+                  'scheduleMinute': schedule.medicationSchedule.minute,
                 });
               } catch (e, st) {
                 // NOTE: エラーが発生しても他の通知のスケジュールを続ける
@@ -268,8 +278,8 @@ class RegisterReminderLocalNotification {
                 analytics.debug(name: 'rrrn_e_non_premium', parameters: {
                   'dayOffset': dayOffset,
                   'notificationID': notificationID,
-                  'scheduleHour': schedule.hour,
-                  'scheduleMinute': schedule.minute,
+                  'scheduleHour': schedule.medicationSchedule.hour,
+                  'scheduleMinute': schedule.medicationSchedule.minute,
                 });
               }
             }),

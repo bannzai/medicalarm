@@ -19,7 +19,7 @@ mixin _$MedicationGroup {
   String get id => throw _privateConstructorUsedError;
   MedicationGroupScheduleTime get scheduleTime => throw _privateConstructorUsedError;
   DoseReceiver get doseReceiver => throw _privateConstructorUsedError;
-  List<MedicationGroupScheduleRow> get dosingRows => throw _privateConstructorUsedError;
+  List<MedicationGroupScheduleRow> get scheduleRows => throw _privateConstructorUsedError;
 
   /// Create a copy of MedicationGroup
   /// with the given fields replaced by the non-null parameter values.
@@ -31,7 +31,7 @@ mixin _$MedicationGroup {
 abstract class $MedicationGroupCopyWith<$Res> {
   factory $MedicationGroupCopyWith(MedicationGroup value, $Res Function(MedicationGroup) then) = _$MedicationGroupCopyWithImpl<$Res, MedicationGroup>;
   @useResult
-  $Res call({String id, MedicationGroupScheduleTime scheduleTime, DoseReceiver doseReceiver, List<MedicationGroupScheduleRow> dosingRows});
+  $Res call({String id, MedicationGroupScheduleTime scheduleTime, DoseReceiver doseReceiver, List<MedicationGroupScheduleRow> scheduleRows});
 
   $MedicationGroupScheduleTimeCopyWith<$Res> get scheduleTime;
   $DoseReceiverCopyWith<$Res> get doseReceiver;
@@ -54,7 +54,7 @@ class _$MedicationGroupCopyWithImpl<$Res, $Val extends MedicationGroup> implemen
     Object? id = null,
     Object? scheduleTime = null,
     Object? doseReceiver = null,
-    Object? dosingRows = null,
+    Object? scheduleRows = null,
   }) {
     return _then(_value.copyWith(
       id: null == id
@@ -69,9 +69,9 @@ class _$MedicationGroupCopyWithImpl<$Res, $Val extends MedicationGroup> implemen
           ? _value.doseReceiver
           : doseReceiver // ignore: cast_nullable_to_non_nullable
               as DoseReceiver,
-      dosingRows: null == dosingRows
-          ? _value.dosingRows
-          : dosingRows // ignore: cast_nullable_to_non_nullable
+      scheduleRows: null == scheduleRows
+          ? _value.scheduleRows
+          : scheduleRows // ignore: cast_nullable_to_non_nullable
               as List<MedicationGroupScheduleRow>,
     ) as $Val);
   }
@@ -103,7 +103,7 @@ abstract class _$$MedicationGroupImplCopyWith<$Res> implements $MedicationGroupC
       __$$MedicationGroupImplCopyWithImpl<$Res>;
   @override
   @useResult
-  $Res call({String id, MedicationGroupScheduleTime scheduleTime, DoseReceiver doseReceiver, List<MedicationGroupScheduleRow> dosingRows});
+  $Res call({String id, MedicationGroupScheduleTime scheduleTime, DoseReceiver doseReceiver, List<MedicationGroupScheduleRow> scheduleRows});
 
   @override
   $MedicationGroupScheduleTimeCopyWith<$Res> get scheduleTime;
@@ -124,7 +124,7 @@ class __$$MedicationGroupImplCopyWithImpl<$Res> extends _$MedicationGroupCopyWit
     Object? id = null,
     Object? scheduleTime = null,
     Object? doseReceiver = null,
-    Object? dosingRows = null,
+    Object? scheduleRows = null,
   }) {
     return _then(_$MedicationGroupImpl(
       id: null == id
@@ -139,9 +139,9 @@ class __$$MedicationGroupImplCopyWithImpl<$Res> extends _$MedicationGroupCopyWit
           ? _value.doseReceiver
           : doseReceiver // ignore: cast_nullable_to_non_nullable
               as DoseReceiver,
-      dosingRows: null == dosingRows
-          ? _value._dosingRows
-          : dosingRows // ignore: cast_nullable_to_non_nullable
+      scheduleRows: null == scheduleRows
+          ? _value._scheduleRows
+          : scheduleRows // ignore: cast_nullable_to_non_nullable
               as List<MedicationGroupScheduleRow>,
     ));
   }
@@ -151,8 +151,8 @@ class __$$MedicationGroupImplCopyWithImpl<$Res> extends _$MedicationGroupCopyWit
 
 class _$MedicationGroupImpl implements _MedicationGroup {
   const _$MedicationGroupImpl(
-      {required this.id, required this.scheduleTime, required this.doseReceiver, required final List<MedicationGroupScheduleRow> dosingRows})
-      : _dosingRows = dosingRows;
+      {required this.id, required this.scheduleTime, required this.doseReceiver, required final List<MedicationGroupScheduleRow> scheduleRows})
+      : _scheduleRows = scheduleRows;
 
   @override
   final String id;
@@ -160,17 +160,17 @@ class _$MedicationGroupImpl implements _MedicationGroup {
   final MedicationGroupScheduleTime scheduleTime;
   @override
   final DoseReceiver doseReceiver;
-  final List<MedicationGroupScheduleRow> _dosingRows;
+  final List<MedicationGroupScheduleRow> _scheduleRows;
   @override
-  List<MedicationGroupScheduleRow> get dosingRows {
-    if (_dosingRows is EqualUnmodifiableListView) return _dosingRows;
+  List<MedicationGroupScheduleRow> get scheduleRows {
+    if (_scheduleRows is EqualUnmodifiableListView) return _scheduleRows;
     // ignore: implicit_dynamic_type
-    return EqualUnmodifiableListView(_dosingRows);
+    return EqualUnmodifiableListView(_scheduleRows);
   }
 
   @override
   String toString() {
-    return 'MedicationGroup(id: $id, scheduleTime: $scheduleTime, doseReceiver: $doseReceiver, dosingRows: $dosingRows)';
+    return 'MedicationGroup(id: $id, scheduleTime: $scheduleTime, doseReceiver: $doseReceiver, scheduleRows: $scheduleRows)';
   }
 
   @override
@@ -181,11 +181,11 @@ class _$MedicationGroupImpl implements _MedicationGroup {
             (identical(other.id, id) || other.id == id) &&
             (identical(other.scheduleTime, scheduleTime) || other.scheduleTime == scheduleTime) &&
             (identical(other.doseReceiver, doseReceiver) || other.doseReceiver == doseReceiver) &&
-            const DeepCollectionEquality().equals(other._dosingRows, _dosingRows));
+            const DeepCollectionEquality().equals(other._scheduleRows, _scheduleRows));
   }
 
   @override
-  int get hashCode => Object.hash(runtimeType, id, scheduleTime, doseReceiver, const DeepCollectionEquality().hash(_dosingRows));
+  int get hashCode => Object.hash(runtimeType, id, scheduleTime, doseReceiver, const DeepCollectionEquality().hash(_scheduleRows));
 
   /// Create a copy of MedicationGroup
   /// with the given fields replaced by the non-null parameter values.
@@ -200,7 +200,7 @@ abstract class _MedicationGroup implements MedicationGroup {
       {required final String id,
       required final MedicationGroupScheduleTime scheduleTime,
       required final DoseReceiver doseReceiver,
-      required final List<MedicationGroupScheduleRow> dosingRows}) = _$MedicationGroupImpl;
+      required final List<MedicationGroupScheduleRow> scheduleRows}) = _$MedicationGroupImpl;
 
   @override
   String get id;
@@ -209,7 +209,7 @@ abstract class _MedicationGroup implements MedicationGroup {
   @override
   DoseReceiver get doseReceiver;
   @override
-  List<MedicationGroupScheduleRow> get dosingRows;
+  List<MedicationGroupScheduleRow> get scheduleRows;
 
   /// Create a copy of MedicationGroup
   /// with the given fields replaced by the non-null parameter values.
