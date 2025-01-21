@@ -164,19 +164,32 @@ class RegisterReminderLocalNotification {
     final List<Future<void>> futures = [];
 
     final tzNow = tz.TZDateTime.now(tz.local);
-    final groupedValues = medicationGroups(
-      medicines: medicines,
-      medicationHistories: medicationHistories,
-      date: tzNow.date(),
-    );
 
-    for (final (groupIndex, group) in groupedValues.indexed) {
-      analytics.debug(name: 'run_register_reminder_notification', parameters: {
-        'groupIndex': groupIndex,
-        'groupID': group.id,
-      });
+    for (final dayOffset in List.generate(registerDays, (index) => index)) {
+      final date = tzNow.date().addDays(dayOffset);
+      final groupedValues = medicationGroups(
+        medicines: medicines,
+        medicationHistories: medicationHistories,
+        date: date,
+      );
 
-      for (final dayOffset in List.generate(registerDays, (index) => index)) {
+      // TODO: 例えば frequency が cycleで、consecutiveDaysよりも後ろで、restDaysの期間にいる場合の再評価が必要になる
+      if (groupedValues.isEmpty) {
+        continue;
+      }
+
+      for (final (groupIndex, group) in groupedValues.indexed) {
+        analytics.debug(name: 'run_register_reminder_notification', parameters: {
+          'groupIndex': groupIndex,
+          'groupID': group.id,
+        });
+
+        // すでに日毎のrowsに服用記録がついている場合はスキップ
+        final isTakenAll = group.scheduleRows.every((element) => element.medicationHistory != null);
+        if (isTakenAll) {
+          continue;
+        }
+
         // 過去のスケジュールはスキップする
         final isPast = group.scheduleTime.hour < tzNow.hour || (group.scheduleTime.hour == tzNow.hour && group.scheduleTime.minute < tzNow.minute);
         if (dayOffset == 0 && isPast) {
@@ -190,13 +203,7 @@ class RegisterReminderLocalNotification {
           continue;
         }
 
-        final reminderDateTime =
-            tzNow.date().addDays(dayOffset).add(Duration(hours: group.scheduleTime.hour)).add(Duration(minutes: group.scheduleTime.minute));
-
-        final isTakenAll = group.scheduleRows.every((element) => element.medicationHistory != null);
-        if (isTakenAll) {
-          continue;
-        }
+        final reminderDateTime = date.add(Duration(hours: group.scheduleTime.hour)).add(Duration(minutes: group.scheduleTime.minute));
 
         if (reminderDateTime.isBefore(tzNow)) {
           analytics.debug(name: 'rrrn_is_before_now', parameters: {
