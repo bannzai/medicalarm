@@ -47,10 +47,11 @@ class MedicineScheduleNotificationSettingSection extends HookConsumerWidget {
         ),
         SwitchListTile(
           value: useCriticalAlert.value,
-          onChanged: (value) {
-            useCriticalAlert.value = value;
-
-            localNotificationService.requestPermissionWithCriticalAlert();
+          onChanged: (value) async {
+            final grand = await localNotificationService.requestPermissionWithCriticalAlert();
+            if (grand == true) {
+              useCriticalAlert.value = value;
+            }
           },
           title: const Text('マナーモードでも通知する'),
           subtitle: const Text('集中モードがONまたはデバイスが消音時でも、重大な通知はロック画面に表示されますサウンドが再生されます'),
