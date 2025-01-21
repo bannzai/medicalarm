@@ -28,6 +28,10 @@
 	<string>ca-app-pub-9127772965271297~5079143300</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSCameraUsageDescription</key>
+	<string>薬の情報を記録しておくためにカメラへのアクセスを許可してください</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>薬の情報を記録しておくために写真へのアクセスを許可してください</string>
 	<key>SKAdNetworkItems</key>
 	<array>
 		<dict>
@@ -227,12 +231,12 @@
 			<string>3qcr597p9d.skadnetwork</string>
 		</dict>
 	</array>
-	<key>NSCameraUsageDescription</key>
-	<string>薬の情報を記録しておくためにカメラへのアクセスを許可してください</string>
-	<key>NSPhotoLibraryUsageDescription</key>
-	<string>薬の情報を記録しておくために写真へのアクセスを許可してください</string>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>remote-notification</string>
+	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
