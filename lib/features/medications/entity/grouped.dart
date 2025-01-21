@@ -51,6 +51,10 @@ class MedicationGroupScheduleTime with _$MedicationGroupScheduleTime {
   }
 }
 
+// lib/features/medications/page.dart に表示される要素であり、通知に使われる単位
+// 取り除かれる要素
+// * medicine.beganDateTime.isAfter(date.date())
+// * medicine.frequency に該当しない date の場合
 List<MedicationGroup> medicationGroups({
   required List<Medicine> medicines,
   required List<MedicationHistory> medicationHistories,
@@ -102,6 +106,20 @@ List<MedicationGroup> medicationGroups({
   for (final medicine in medicines) {
     final doseReceiver = medicine.doseReceiver;
     if (medicine.beganDateTime.isAfter(date.date())) {
+      continue;
+    }
+    final bool isMatched;
+    switch (medicine.frequency) {
+      case DailyMedicationFrequency():
+        isMatched = true;
+      case EveryXDaysMedicationFrequency(interval: final interval):
+        isMatched = daysBetween(medicine.beganDateTime, date.date()) % interval == 0;
+      case SpecificWeekdaysMedicationFrequency(weekdays: final weekdays):
+        isMatched = weekdays.any((weekday) => WeekdayFunctions.weekdayFromDate(date.date()) == weekday);
+      case CycleMedicationFrequency(consecutiveDays: final consecutiveDays, restDays: final restDays):
+        isMatched = daysBetween(medicine.beganDateTime, date.date()) % (consecutiveDays + restDays) < consecutiveDays;
+    }
+    if (!isMatched) {
       continue;
     }
 
