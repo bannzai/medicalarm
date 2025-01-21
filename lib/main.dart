@@ -8,6 +8,9 @@ import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:medicalarm/features/root/page.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:medicalarm/style/color.dart';
+import 'package:medicalarm/utils/config/remote_config.dart';
+import 'package:medicalarm/utils/local_notification/client.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 void main() async {
   runZonedGuarded(() async {
@@ -17,6 +20,18 @@ void main() async {
       MobileAds.instance.initialize(),
       Firebase.initializeApp(),
     ).wait;
+
+    // ignore: prefer_typing_uninitialized_variables
+    final (_, _, _) = await (
+      LocalNotificationService.setupTimeZone(),
+      SharedPreferences.getInstance(),
+      setupRemoteConfig(),
+    ).wait;
+
+    // AppLocalizationsの初期化を待つ
+    WidgetsBinding.instance.addPostFrameCallback((timeStamp) async {
+      await localNotificationService.initialize();
+    });
 
     // MEMO: FirebaseCrashlytics#recordFlutterError called dumpErrorToConsole in function.
     FlutterError.onError = FirebaseCrashlytics.instance.recordFlutterError;
