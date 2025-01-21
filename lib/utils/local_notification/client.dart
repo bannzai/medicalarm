@@ -198,7 +198,6 @@ class RegisterReminderLocalNotification {
       );
 
       for (final (groupIndex, group) in groupedValues.indexed) {
-        badgeNumber += 1;
         analytics.debug(name: 'run_register_reminder_notification', parameters: {
           'groupIndex': groupIndex,
           'groupID': group.id,
@@ -234,6 +233,9 @@ class RegisterReminderLocalNotification {
           });
           continue;
         }
+
+        // continue群が抜けてからインクリメント
+        badgeNumber += 1;
 
         final useCriticalAlert = group.scheduleRows.any((element) => element.medicationSchedule.notificationSetting.useCriticalAlert);
 
