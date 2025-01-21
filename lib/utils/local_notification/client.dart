@@ -150,33 +150,35 @@ class RegisterReminderLocalNotification {
     await run(
       medicines: medicines,
       medicationHistories: medicationHistories,
+      loopCount: 0,
     );
   }
 
   // TODO: Critical Permissionを取得する
-  // TODO: medicine.frequency を考慮
   // TODO: 64個制限があるから、時間順に登録する
   // TODO: badgeNumber 対応。Pilllを参考に
   static Future<void> run({
     required List<Medicine> medicines,
     required List<MedicationHistory> medicationHistories,
+    // NOTE: [LocalNotificationReminder] 例えば frequency が cycleで、consecutiveDaysよりも後ろで、restDaysの期間にいる場合の再評価が必要になる
+    // ループをいっぱい回してfuturesが空にならない場合までを採用する。上限をloopCount==10としている
+    required int loopCount,
   }) async {
-    final List<Future<void>> futures = [];
+    if (loopCount > 10) {
+      return;
+    }
 
+    final List<Future<void>> futures = [];
     final tzNow = tz.TZDateTime.now(tz.local);
 
-    for (final dayOffset in List.generate(registerDays, (index) => index)) {
+    final offset = loopCount * registerDays;
+    for (final dayOffset in List.generate(offset, (index) => index)) {
       final date = tzNow.date().addDays(dayOffset);
       final groupedValues = medicationGroups(
         medicines: medicines,
         medicationHistories: medicationHistories,
         date: date,
       );
-
-      // TODO: 例えば frequency が cycleで、consecutiveDaysよりも後ろで、restDaysの期間にいる場合の再評価が必要になる
-      if (groupedValues.isEmpty) {
-        continue;
-      }
 
       for (final (groupIndex, group) in groupedValues.indexed) {
         analytics.debug(name: 'run_register_reminder_notification', parameters: {
@@ -272,6 +274,12 @@ class RegisterReminderLocalNotification {
           }),
         );
       }
+    }
+
+    if (futures.isEmpty) {
+      // NOTE: [LocalNotificationReminder] 例えば frequency が cycleで、consecutiveDaysよりも後ろで、restDaysの期間にいる場合の再評価が必要になる
+      run(medicines: medicines, medicationHistories: medicationHistories, loopCount: loopCount + 1);
+      return;
     }
     analytics.debug(name: 'rrrn_e_before_run', parameters: {
       'notificationCount': futures.length,
