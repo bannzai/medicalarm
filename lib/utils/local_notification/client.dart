@@ -5,7 +5,10 @@ import 'dart:math';
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
+import 'package:medicalarm/entity/medicine.dart';
+import 'package:medicalarm/provider/medicine.dart';
 import 'package:medicalarm/utils/analytics/analytics.dart';
+import 'package:medicalarm/utils/analytics/error.dart';
 import 'package:medicalarm/utils/date_time/date_time_ext.dart';
 import 'package:riverpod/riverpod.dart';
 import 'package:timezone/data/latest_all.dart' as tz;
@@ -16,13 +19,6 @@ import 'package:timezone/timezone.dart';
 // Reminder Notification
 const actionIdentifier = 'RECORD_PILL';
 const iOSQuickRecordPillCategoryIdentifier = 'PILL_REMINDER';
-const androidReminderNotificationChannelID = 'androidReminderNotificationChannelID';
-const androidCalendarScheduleNotificationChannelID = 'androidCalendarScheduleNotificationChannelID';
-const androidReminderNotificationGroupKey = 'androidReminderNotificationGroupKey';
-
-// General Android Notification Setting
-// Doc: https://developer.android.com/reference/androidx/core/app/NotificationCompat#CATEGORY_REMINDER()
-const androidNotificationCategoryCalendarSchedule = 'androidNotificationCategoryCalendarSchedule';
 
 // Notification ID offset
 const fallbackNotificationIdentifier = 1;
@@ -42,9 +38,6 @@ class LocalNotificationService {
   Future<void> initialize() async {
     await plugin.initialize(
       const InitializationSettings(
-        android: AndroidInitializationSettings(
-          '@mipmap/ic_notification',
-        ),
         iOS: DarwinInitializationSettings(
           // Alertはdeprecatedなので、banner,listをtrueにしておけばよい。
           // https://developer.apple.com/documentation/usernotifications/unnotificationpresentationoptions/unnotificationpresentationoptionalert
@@ -125,7 +118,7 @@ class RegisterReminderLocalNotification {
 
   RegisterReminderLocalNotification(this.ref);
 
-  static const int registerDays = 10;
+  static const int registerDays = 5;
 
   // UseCase:
   // - 薬を追加
@@ -144,289 +137,79 @@ class RegisterReminderLocalNotification {
     analytics.debug(name: 'call_register_reminder_notification');
     final cancelReminderLocalNotification = CancelReminderLocalNotification();
     // エンティティの変更があった場合にref.readで最新の状態を取得するために、Future.microtaskで更新を待ってから処理を始める
-    // hour,minute,番号を基準にIDを決定しているので、時間変更や番号変更時にそれまで登録されていたIDを特定するのが不可能なので全てキャンセルする
+    // hour,minute を基準にIDを決定しているので、時間変更や番号変更時にそれまで登録されていたIDを特定するのが不可能なので全てキャンセルする
     await (Future.microtask(() => null), cancelReminderLocalNotification()).wait;
     analytics.debug(name: 'cancel_reminder_notification');
 
-    final pillSheetGroup = ref.read(latestPillSheetGroupProvider).asData?.valueOrNull;
-    final activePillSheet = ref.read(activePillSheetProvider).asData?.valueOrNull;
-    final premiumOrTrial = ref.read(userProvider).asData?.valueOrNull?.premiumOrTrial;
-    final setting = ref.read(settingProvider).asData?.valueOrNull;
-    final user = ref.read(userProvider).asData?.valueOrNull;
-    if (pillSheetGroup == null || activePillSheet == null || premiumOrTrial == null || setting == null || user == null) {
+    final medicines = ref.read(activeMedicinesProvider).asData?.valueOrNull;
+    if (medicines == null || medicines.isEmpty) {
       return;
     }
 
     await run(
-      pillSheetGroup: pillSheetGroup,
-      activePillSheet: activePillSheet,
-      premiumOrTrial: premiumOrTrial,
-      setting: setting,
+      medicines: medicines,
     );
   }
 
   static Future<void> run({
-    required PillSheetGroup pillSheetGroup,
-    required PillSheet activePillSheet,
-    required bool premiumOrTrial,
-    required Setting setting,
+    required List<Medicine> medicines,
   }) async {
-    if (!setting.isOnReminder) {
-      return;
-    }
-    if (pillSheetGroup.lastActiveRestDuration != null) {
-      return;
-    }
-    try {
-      // NOTE: 本来であれば各ユースケース毎に通知を登録するが、99%のケースで同じ通知を登録するのでここで登録してしまう
-      // ただ、重要な服用通知のスケジューリング処理を邪魔しないため、awaitもしないしエラーハンドリングもしない
-      final newPillSheetNotification = NewPillSheetNotification();
-      unawaited(newPillSheetNotification.call(pillSheetGroup: pillSheetGroup, setting: setting));
-    } catch (e, st) {
-      // 通知の登録に失敗しても、服用記録には影響がないのでエラーログだけ残す
-      errorLogger.recordError(e, st);
-    }
-
-    analytics.debug(name: 'run_register_reminder_notification', parameters: {
-      'todayPillNumber': activePillSheet.todayPillNumber,
-      'todayPillIsAlreadyTaken': activePillSheet.todayPillIsAlreadyTaken,
-      'lastTakenPillNumber': activePillSheet.lastTakenOrZeroPillNumber,
-      'reminderTimes': setting.reminderTimes.toString(),
-    });
-    final tzNow = tz.TZDateTime.now(tz.local);
     final List<Future<void>> futures = [];
+    for (final (medicineIndex, medicine) in medicines.indexed) {
+      analytics.debug(name: 'run_register_reminder_notification', parameters: {
+        'medicineID': medicine.id,
+        'medicineName': medicine.name,
+        'beginDateTime': medicine.beganDateTime,
+        'doseReceiverID': medicine.doseReceiver.id,
+        'doseReceiverName': medicine.doseReceiver.name,
+      });
+      final tzNow = tz.TZDateTime.now(tz.local);
 
-    final badgeNumber = activePillSheet.todayPillNumber - activePillSheet.lastTakenOrZeroPillNumber;
-
-    for (final reminderTime in setting.reminderTimes) {
-      // 新規ピルシートグループの作成後に通知のスケジュールができないため、多めに通知をスケジュールする
-      // ユーザーの何かしらのアクションでどこかでスケジュールされるだろう
-      for (final dayOffset in List.generate(registerDays, (index) => index)) {
-        // 本日服用済みの場合はスキップする
-        if (dayOffset == 0 && activePillSheet.todayPillIsAlreadyTaken) {
-          analytics.debug(name: 'rrrn_skip_already_taken', parameters: {
-            'dayOffset': dayOffset,
-            'todayPillIsAlreadyTaken': activePillSheet.todayPillIsAlreadyTaken,
-            'reminderTimeHour': reminderTime.hour,
-            'reminderTimeMinute': reminderTime.minute,
-          });
-          continue;
-        }
-
-        final reminderDateTime = tzNow.date().addDays(dayOffset).add(Duration(hours: reminderTime.hour)).add(Duration(minutes: reminderTime.minute));
-        if (reminderDateTime.isBefore(tzNow)) {
-          analytics.debug(name: 'rrrn_is_before_now', parameters: {
-            'dayOffset': dayOffset,
-            'tzNow': tzNow,
-            'reminderDateTime': reminderDateTime,
-            'reminderTimeHour': reminderTime.hour,
-            'reminderTimeMinute': reminderTime.minute,
-          });
-          continue;
-        }
-
-        // 跨いでも1ピルシート分だけなので、今日の日付起点で考えて今処理しているループがactivePillSheetの次かどうかを判別し、処理中の「ピルシート中のピル番号」を計算して使用する
-        final isOverActivePillSheet = activePillSheet.todayPillNumber + dayOffset > activePillSheet.typeInfo.totalCount;
-        final pillNumberInPillSheet = isOverActivePillSheet
-            ? activePillSheet.todayPillNumber + dayOffset - activePillSheet.typeInfo.totalCount
-            : activePillSheet.todayPillNumber + dayOffset;
-
-        var pillSheetGroupIndex = activePillSheet.groupIndex;
-        var pillSheeType = activePillSheet.pillSheetType;
-        var pillSheetDisplayNumber = pillSheetGroup.displayPillNumberWithoutDate(
-          pageIndex: activePillSheet.groupIndex,
-          pillNumberInPillSheet: pillNumberInPillSheet,
-        );
-
-        // activePillSheetよりも未来のPillSheet
-        if (isOverActivePillSheet) {
-          final isLastPillSheet = (pillSheetGroup.pillSheets.length - 1) == activePillSheet.groupIndex;
-
-          switch ((isLastPillSheet, premiumOrTrial, setting.isAutomaticallyCreatePillSheet)) {
-            case (true, true, true):
-              // 次のピルシートグループの処理。新しいシート自動作成の場合の先読み追加
-              final nextPillSheetGroup = buildPillSheetGroup(
-                setting: setting,
-                pillSheetGroup: pillSheetGroup,
-                pillSheetTypes: pillSheetGroup.pillSheets.map((e) => e.pillSheetType).toList(),
-                displayNumberSetting: null,
-              );
-              pillSheetDisplayNumber = nextPillSheetGroup.displayPillNumberWithoutDate(
-                pageIndex: 0,
-                pillNumberInPillSheet: pillNumberInPillSheet,
-              );
-              final nextPillSheetGroupFirstPillSheet = nextPillSheetGroup.pillSheets.first;
-              pillSheetGroupIndex = nextPillSheetGroupFirstPillSheet.groupIndex;
-              pillSheeType = nextPillSheetGroupFirstPillSheet.pillSheetType;
-            case (false, _, _):
-              // 次のピルシートを使用する場合
-              final nextPillSheet = pillSheetGroup.pillSheets[activePillSheet.groupIndex + 1];
-              pillSheetGroupIndex = nextPillSheet.groupIndex;
-              pillSheeType = nextPillSheet.pillSheetType;
-              pillSheetDisplayNumber = pillSheetGroup.displayPillNumberWithoutDate(
-                pageIndex: nextPillSheet.groupIndex,
-                pillNumberInPillSheet: pillNumberInPillSheet,
-              );
-
-            case (_, _, _):
-              // 次のピルシートグループもピルシートも使用しない場合はループをスキップ
-              analytics.debug(name: 'rrrn_is_over_active_ps_none', parameters: {
-                'dayOffset': dayOffset,
-                'isLastPillSheet': isLastPillSheet,
-                'premiumOrTrial': premiumOrTrial,
-                'isAutomaticallyCreatePillSheet': setting.isAutomaticallyCreatePillSheet,
-                'reminderTimeHour': reminderTime.hour,
-                'reminderTimeMinute': reminderTime.minute,
-              });
-              continue;
-          }
-        }
-
-        // 偽薬/休薬期間中の通知がOFFの場合はスキップする
-        if (!setting.isOnNotifyInNotTakenDuration) {
-          if (pillSheeType.dosingPeriod < pillNumberInPillSheet) {
-            analytics.debug(name: 'rrrn_is_skip_in_dosing', parameters: {
+      for (final (scheduleIndex, schedule) in medicine.schedules.indexed) {
+        for (final dayOffset in List.generate(registerDays, (index) => index)) {
+          // 過去のスケジュールはスキップする
+          final isPast = schedule.hour < tzNow.hour || (schedule.hour == tzNow.hour && schedule.minute < tzNow.minute);
+          if (dayOffset == 0 && isPast) {
+            analytics.debug(name: 'rrrn_skip_past_schedule', parameters: {
               'dayOffset': dayOffset,
-              'dosingPeriod': pillSheeType.dosingPeriod,
-              'pillNumberInPillSheet': pillNumberInPillSheet,
-              'isOnNotifyInNotTakenDuration': setting.isOnNotifyInNotTakenDuration,
-              'reminderTimeHour': reminderTime.hour,
-              'reminderTimeMinute': reminderTime.minute,
+              'scheduleHour': schedule.hour,
+              'scheduleMinute': schedule.minute,
+              'tzNowHour': tzNow.hour,
+              'tzNowMinute': tzNow.minute,
             });
             continue;
           }
-        }
 
-        // IDの計算には本来のピル番号を使用する。表示用の番号だと今後も設定によりズレる可能性があるため
-        // また、_calcLocalNotificationIDの中で、本来のピル番号を使用していることを前提としている(2桁までを想定している)
-        final notificationID = _calcLocalNotificationID(
-          pillSheetGroupIndex: pillSheetGroupIndex,
-          reminderTime: reminderTime,
-          pillNumberInPillSheet: pillNumberInPillSheet,
-        );
+          final reminderDateTime = tzNow.date().addDays(dayOffset).add(Duration(hours: schedule.hour)).add(Duration(minutes: schedule.minute));
+          if (reminderDateTime.isBefore(tzNow)) {
+            analytics.debug(name: 'rrrn_is_before_now', parameters: {
+              'dayOffset': dayOffset,
+              'tzNow': tzNow,
+              'reminderDateTime': reminderDateTime,
+              'scheduleHour': schedule.hour,
+              'scheduleMinute': schedule.minute,
+            });
+            continue;
+          }
 
-        if (premiumOrTrial) {
-          final title = () {
-            var result = setting.reminderNotificationCustomization.word;
-            if (!setting.reminderNotificationCustomization.isInVisibleReminderDate) {
-              result += ' ';
-              result += '${reminderDateTime.month}/${reminderDateTime.day} (${WeekdayFunctions.weekdayFromDate(reminderDateTime).weekdayString()})';
-            }
-
-            if (!setting.reminderNotificationCustomization.isInVisiblePillNumber) {
-              result += ' ';
-              result += pillSheetDisplayNumber;
-              result += L.number;
-            }
-
-            if (Environment.isDevelopment) {
-              result += ' Local';
-            }
-            // NOTE: 0文字以上じゃないと通知が表示されない。フロントでバリデーションをかけていてもここだけは残す
-            if (result.isEmpty) {
-              return L.notification;
-            }
-            return result;
-          }();
-
-          final message = () {
-            if (setting.reminderNotificationCustomization.isInVisibleDescription) {
-              return '';
-            }
-            // 最後に飲んだ日付が数日前の場合は常にmissedTakenMessage
-            if (activePillSheet.todayPillNumber - activePillSheet.lastTakenOrZeroPillNumber > 1) {
-              return setting.reminderNotificationCustomization.missedTakenMessage;
-            }
-            // 本日分の服用記録がない場合で今日のループ(dayOffset==0)の時
-            if (dayOffset == 0 && !activePillSheet.todayPillIsAlreadyTaken) {
-              return setting.reminderNotificationCustomization.dailyTakenMessage;
-            }
-            // 本日分の服用記録がある場合で、次の日のループ(dayOffset==1)の時
-            if (dayOffset == 1) {
-              return setting.reminderNotificationCustomization.dailyTakenMessage;
-            }
-            return setting.reminderNotificationCustomization.missedTakenMessage;
-          }();
-
-          futures.add(
-            Future(() async {
-              try {
-                await localNotificationService.plugin.zonedSchedule(
-                  notificationID,
-                  title,
-                  message,
-                  reminderDateTime,
-                  NotificationDetails(
-                    android: AndroidNotificationDetails(
-                      androidReminderNotificationChannelID,
-                      L.takePillReminderChannelName,
-                      channelShowBadge: true,
-                      setAsGroupSummary: true,
-                      groupKey: androidReminderNotificationGroupKey,
-                      category: AndroidNotificationCategory.reminder,
-                      actions: [
-                        AndroidNotificationAction(
-                          actionIdentifier,
-                          L.taken,
-                        )
-                      ],
-                    ),
-                    iOS: DarwinNotificationDetails(
-                      categoryIdentifier: iOSQuickRecordPillCategoryIdentifier,
-                      sound: 'becho.caf',
-                      presentBadge: true,
-                      presentSound: true,
-                      // Alertはdeprecatedなので、banner,listをtrueにしておけばよい。
-                      // https://developer.apple.com/documentation/usernotifications/unnotificationpresentationoptions/unnotificationpresentationoptionalert
-                      presentAlert: false,
-                      presentBanner: true,
-                      presentList: true,
-                      badgeNumber: badgeNumber + dayOffset,
-                    ),
-                  ),
-                  androidScheduleMode: AndroidScheduleMode.alarmClock,
-                  uiLocalNotificationDateInterpretation: UILocalNotificationDateInterpretation.absoluteTime,
-                );
-
-                analytics.debug(name: 'rrrn_premium', parameters: {
-                  'dayOffset': dayOffset,
-                  'notificationID': notificationID,
-                  'reminderTimeHour': reminderTime.hour,
-                  'reminderTimeMinute': reminderTime.minute,
-                });
-              } catch (e, st) {
-                // NOTE: エラーが発生しても他の通知のスケジュールを続ける
-                errorLogger.recordError(e, st);
-                analytics.debug(name: 'rrrn_e_premium', parameters: {
-                  'dayOffset': dayOffset,
-                  'notificationID': notificationID,
-                  'reminderTimeHour': reminderTime.hour,
-                  'reminderTimeMinute': reminderTime.minute,
-                });
-              }
-            }),
+          // IDの計算には本来のピル番号を使用する。表示用の番号だと今後も設定によりズレる可能性があるため
+          // また、_calcLocalNotificationIDの中で、本来のピル番号を使用していることを前提としている(2桁までを想定している)
+          final notificationID = _calcLocalNotificationID(
+            medicineIndex: medicineIndex,
+            schedule: schedule,
+            scheduleIndex: scheduleIndex,
           );
-        } else {
-          final title = L.takePillReminder;
+
           futures.add(
             Future(() async {
               try {
                 await localNotificationService.plugin.zonedSchedule(
                   notificationID,
-                  title,
-                  '',
+                  'お薬の時間です',
+                  '${medicine.name} ${medicine.doseReceiver.name} ${schedule.quantityMemo}',
                   reminderDateTime,
                   NotificationDetails(
-                    android: AndroidNotificationDetails(
-                      androidReminderNotificationChannelID,
-                      L.takePillReminderChannelName,
-                      channelShowBadge: true,
-                      setAsGroupSummary: true,
-                      groupKey: androidReminderNotificationGroupKey,
-                      category: AndroidNotificationCategory.reminder,
-                    ),
                     iOS: DarwinNotificationDetails(
-                      sound: 'becho.caf',
                       presentBadge: true,
                       presentSound: true,
                       // Alertはdeprecatedなので、banner,listをtrueにしておけばよい。
@@ -434,18 +217,17 @@ class RegisterReminderLocalNotification {
                       presentAlert: false,
                       presentBanner: true,
                       presentList: true,
-                      badgeNumber: badgeNumber + dayOffset,
+                      badgeNumber: dayOffset,
                     ),
                   ),
-                  androidScheduleMode: AndroidScheduleMode.alarmClock,
                   uiLocalNotificationDateInterpretation: UILocalNotificationDateInterpretation.absoluteTime,
                 );
 
                 analytics.debug(name: 'rrrn_non_premium', parameters: {
                   'dayOffset': dayOffset,
                   'notificationID': notificationID,
-                  'reminderTimeHour': reminderTime.hour,
-                  'reminderTimeMinute': reminderTime.minute,
+                  'scheduleHour': schedule.hour,
+                  'scheduleMinute': schedule.minute,
                 });
               } catch (e, st) {
                 // NOTE: エラーが発生しても他の通知のスケジュールを続ける
@@ -454,8 +236,8 @@ class RegisterReminderLocalNotification {
                 analytics.debug(name: 'rrrn_e_non_premium', parameters: {
                   'dayOffset': dayOffset,
                   'notificationID': notificationID,
-                  'reminderTimeHour': reminderTime.hour,
-                  'reminderTimeMinute': reminderTime.minute,
+                  'scheduleHour': schedule.hour,
+                  'scheduleMinute': schedule.minute,
                 });
               }
             }),
@@ -463,11 +245,12 @@ class RegisterReminderLocalNotification {
         }
       }
     }
-
     analytics.debug(name: 'rrrn_e_before_run', parameters: {
       'notificationCount': futures.length,
     });
+
     await Future.wait(futures);
+
     analytics.debug(name: 'rrrn_e_end_run', parameters: {
       'notificationCount': futures.length,
     });
@@ -476,19 +259,20 @@ class RegisterReminderLocalNotification {
   // reminder time id is 10{groupIndex:2}{hour:2}{minute:2}{pillNumberInPillSheet:2}
   // for example return value 1002223014 means,  `10` is prefix, gropuIndex: `02` is third pillSheet,`22` is hour, `30` is minute, `14` is pill number into pill sheet
   // 1000000000 = reminderNotificationIdentifierOffset
-  //   10000000 = pillSheetGroupIndex
-  //     100000 = reminderTime.hour
-  //       1000 = reminderTime.minute
-  //         10 = pillNumberInPillSheet
+  //   10000000 = medicineIndex
+  //     100000 = schedule.hour
+  //       1000 = schedule.minute
+  //         10 = scheduleIndex
   static int _calcLocalNotificationID({
-    required int pillSheetGroupIndex,
-    required ReminderTime reminderTime,
-    required int pillNumberInPillSheet,
+    required int medicineIndex,
+    required MedicationSchedule schedule,
+    required int scheduleIndex,
   }) {
-    final groupIndex = pillSheetGroupIndex * 10000000;
-    final hour = reminderTime.hour * 100000;
-    final minute = reminderTime.minute * 1000;
-    return reminderNotificationIdentifierOffset + groupIndex + hour + minute + pillNumberInPillSheet;
+    final medicineIndexNumber = (medicineIndex + 1) * 10000000;
+    final hour = schedule.hour * 100000;
+    final minute = schedule.minute * 1000;
+    final scheduleIndexNumber = (scheduleIndex + 1) * 10;
+    return reminderNotificationIdentifierOffset + medicineIndexNumber + hour + minute + scheduleIndexNumber;
   }
 }
 
@@ -508,136 +292,6 @@ class CancelReminderLocalNotification {
       'ids': pendingNotifications.map((e) => e.id).toList().toString(),
     });
     await Future.wait(pendingNotifications.map((p) => localNotificationService.cancelNotification(localNotificationID: p.id)));
-  }
-}
-
-// Schedule
-extension ScheduleLocalNotificationService on LocalNotificationService {
-  Future<void> scheduleCalendarScheduleNotification({
-    required Schedule schedule,
-  }) async {
-    final localNotification = schedule.localNotification;
-    if (localNotification != null) {
-      final remindDate = tz.TZDateTime.from(localNotification.remindDateTime, tz.local);
-      await plugin.zonedSchedule(
-        localNotification.localNotificationID,
-        L.todaySchedule,
-        schedule.title,
-        remindDate,
-        NotificationDetails(
-          android: AndroidNotificationDetails(
-            androidCalendarScheduleNotificationChannelID,
-            L.calendarSchedule,
-            groupKey: null,
-            category: AndroidNotificationCategory.reminder,
-          ),
-          iOS: const DarwinNotificationDetails(
-            sound: 'becho.caf',
-          ),
-        ),
-        androidScheduleMode: AndroidScheduleMode.alarmClock,
-        uiLocalNotificationDateInterpretation: UILocalNotificationDateInterpretation.absoluteTime,
-      );
-    }
-  }
-}
-
-final newPillSheetNotificationProvider = Provider((ref) => NewPillSheetNotification());
-
-// 新しいピルシートの通知をスケジュールする
-// PillSheetGroup.pillSheets毎にスケジュールする方法が直感的だが、ローカル通知のスケジュールができる数に上限もあるので枠を節約する意味でも一つ先のピルシートの通知をスケジュールする
-// 2[0-9]日毎に1会通知をスケジュールするのでも十分
-class NewPillSheetNotification {
-  Future<void> call({
-    required PillSheetGroup pillSheetGroup,
-    required Setting setting,
-  }) async {
-    final pendingNotifications = await localNotificationService.pendingNewPillSheetNotifications();
-    await Future.wait(pendingNotifications.map((p) => localNotificationService.cancelNotification(localNotificationID: p.id)));
-
-    final activePillSheet = pillSheetGroup.activePillSheet;
-    if (activePillSheet == null) {
-      return;
-    }
-    final reminderTime = setting.earlyReminderTime;
-    if (reminderTime == null) {
-      return;
-    }
-
-    Future<void> register(TZDateTime reminderDateTime) async {
-      debugPrint('NewPillSheetNotification register time: $reminderDateTime');
-      try {
-        await localNotificationService.plugin.zonedSchedule(
-          newPillSheetNotificationIdentifier,
-          L.newPillSheetNotificationTitle,
-          L.newPillSheetNotificationMessage,
-          reminderDateTime,
-          NotificationDetails(
-            android: AndroidNotificationDetails(
-              androidReminderNotificationChannelID,
-              L.takePillReminderChannelName,
-              channelShowBadge: true,
-              setAsGroupSummary: true,
-              groupKey: androidReminderNotificationGroupKey,
-              category: AndroidNotificationCategory.reminder,
-            ),
-            iOS: const DarwinNotificationDetails(
-              sound: 'becho.caf',
-              presentBadge: true,
-              presentSound: true,
-              // Alertはdeprecatedなので、banner,listをtrueにしておけばよい。
-              // https://developer.apple.com/documentation/usernotifications/unnotificationpresentationoptions/unnotificationpresentationoptionalert
-              presentAlert: false,
-              presentBanner: true,
-              presentList: true,
-            ),
-          ),
-          androidScheduleMode: AndroidScheduleMode.alarmClock,
-          uiLocalNotificationDateInterpretation: UILocalNotificationDateInterpretation.absoluteTime,
-        );
-      } catch (e, st) {
-        // NOTE: エラーが発生しても他の通知のスケジュールを続ける
-        errorLogger.recordError(e, st);
-
-        analytics.debug(name: 'npn_error', parameters: {
-          'registerDateTime': reminderDateTime,
-          'reminderTimeHour': reminderTime.hour,
-          'reminderTimeMinute': reminderTime.minute,
-        });
-      }
-    }
-
-    for (final pillSheet in pillSheetGroup.pillSheets) {
-      // 次のピルシートが存在する場合
-      if (pillSheet.groupIndex > activePillSheet.groupIndex) {
-        final nextBeginDate = tz.TZDateTime.from(pillSheet.beginingDate, tz.local);
-        final reminderDateTime = nextBeginDate
-            .date()
-            .add(
-              Duration(hours: reminderTime.hour),
-            )
-            .add(
-              Duration(minutes: reminderTime.minute),
-            );
-        await register(reminderDateTime);
-        break;
-      }
-
-      // ピルシートグループが終了する場合
-      if (pillSheet.groupIndex == pillSheetGroup.pillSheets.last.groupIndex) {
-        final nextBeginDate = tz.TZDateTime.from(pillSheet.estimatedEndTakenDate.addDays(1), tz.local);
-        final reminderDateTime = nextBeginDate
-            .date()
-            .add(
-              Duration(hours: reminderTime.hour),
-            )
-            .add(
-              Duration(minutes: reminderTime.minute),
-            );
-        await register(reminderDateTime);
-        break;
-      }
-    }
   }
 }
 
