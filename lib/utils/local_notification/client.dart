@@ -160,10 +160,10 @@ class RegisterReminderLocalNotification {
     analytics.debug(name: 'cancel_reminder_notification');
 
     final medicines = ref.read(activeMedicinesProvider).asData?.valueOrNull;
-    final medicationHistories = ref.read(medicationHistoriesByDateProvider(today())).asData?.valueOrNull;
-    if (medicines == null || medicationHistories == null) {
+    if (medicines == null) {
       return;
     }
+    final medicationHistories = ref.read(medicationHistoriesByDateProvider(today())).asData?.valueOrNull ?? [];
 
     await run(
       medicines: medicines,
