@@ -72,4 +72,6 @@ class MedicationSchedule with _$MedicationSchedule {
   TimeOfDay toTimeOfDay() {
     return TimeOfDay(hour: hour, minute: minute);
   }
+
+  static const maxScheduleCount = 4;
 }
