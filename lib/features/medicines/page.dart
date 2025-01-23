@@ -47,7 +47,9 @@ class MedicinesPageBody extends StatelessWidget {
                 ))
             .toList(),
       ),
-      floatingActionButton: const MedicalAddButton(),
+      floatingActionButton: MedicalAddButton(
+        medicines: medicines,
+      ),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
     );
   }

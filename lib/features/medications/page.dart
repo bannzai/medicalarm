@@ -132,7 +132,7 @@ class MedicationsPageBody extends HookConsumerWidget {
           ],
         ),
       ),
-      floatingActionButton: const MedicalAddButton(),
+      floatingActionButton: MedicalAddButton(medicines: medicines),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
     );
   }
