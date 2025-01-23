@@ -67,6 +67,7 @@ class MedicineFormPage extends HookConsumerWidget {
           memo: memo.value,
           memoImageURL: memoImageURL.value,
           doseReceiver: doseReceiver.value,
+          beganDateTime: begin.value,
         );
       }
     }
@@ -82,7 +83,7 @@ class MedicineFormPage extends HookConsumerWidget {
             child: FormTheme(
               child: Scaffold(
                 appBar: AppBar(
-                  title: Text('Medicine Form', style: TextStyle(color: primaryColor)),
+                  title: Text('お薬登録画面', style: TextStyle(color: primaryColor)),
                 ),
                 body: SafeArea(
                   child: Stack(

@@ -68,6 +68,7 @@ class MedicineUpdate {
     required DoseReceiver doseReceiver,
     required String memo,
     required String memoImageURL,
+    required DateTime beganDateTime,
   }) async {
     final docRef = database.medicineReference(medicineID: medicineID);
     final newMedicine = medicine.copyWith(
@@ -77,6 +78,7 @@ class MedicineUpdate {
       doseReceiver: doseReceiver,
       memo: memo,
       memoImageURL: memoImageURL,
+      beganDateTime: beganDateTime,
     );
     await docRef.set(newMedicine, SetOptions(merge: true));
     return newMedicine;
