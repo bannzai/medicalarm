@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:medicalarm/entity/medicine.dart';
 import 'package:medicalarm/style/button.dart';
+import 'package:medicalarm/style/color.dart';
 import 'package:medicalarm/utils/local_notification/client.dart';
 import 'package:uuid/uuid.dart';
 
@@ -22,8 +23,8 @@ class MedicineScheduleAddButton extends HookConsumerWidget {
     return Column(
       children: [
         if (schedules.value.length >= MedicationSchedule.maxCount) ...[
-          const SizedBox(height: 10),
-          const Text('服用スケジュールは${MedicationSchedule.maxCount}つまで登録できます。'),
+          const Text('服用スケジュールは${MedicationSchedule.maxCount}つまで登録できます。', style: TextStyle(color: TextColor.danger)),
+          const SizedBox(height: 4),
         ],
         TextButton.icon(
           onPressed: schedules.value.length >= MedicationSchedule.maxCount
