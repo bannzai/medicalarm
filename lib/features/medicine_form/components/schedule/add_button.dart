@@ -21,12 +21,12 @@ class MedicineScheduleAddButton extends HookConsumerWidget {
 
     return Column(
       children: [
-        if (schedules.value.length >= MedicationSchedule.maxScheduleCount) ...[
+        if (schedules.value.length >= MedicationSchedule.maxCount) ...[
           const SizedBox(height: 10),
-          const Text('服用スケジュールは${MedicationSchedule.maxScheduleCount}つまで登録できます。'),
+          const Text('服用スケジュールは${MedicationSchedule.maxCount}つまで登録できます。'),
         ],
         TextButton.icon(
-          onPressed: schedules.value.length >= MedicationSchedule.maxScheduleCount
+          onPressed: schedules.value.length >= MedicationSchedule.maxCount
               ? null
               : () {
                   unawaited(registerReminderLocalNotification());

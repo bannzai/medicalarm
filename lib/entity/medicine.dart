@@ -36,6 +36,8 @@ class Medicine with _$Medicine {
   const Medicine._();
 
   factory Medicine.fromJson(Map<String, dynamic> json) => _$MedicineFromJson(json);
+
+  static const maxCount = 10;
 }
 
 @freezed
@@ -73,5 +75,5 @@ class MedicationSchedule with _$MedicationSchedule {
     return TimeOfDay(hour: hour, minute: minute);
   }
 
-  static const maxScheduleCount = 4;
+  static const maxCount = 4;
 }
