@@ -18,28 +18,39 @@ class MedicineScheduleAddButton extends HookConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final registerReminderLocalNotification = ref.read(registerReminderLocalNotificationProvider);
+    final isReachedLimit = schedules.value.length >= 4;
 
-    return TextButton.icon(
-      onPressed: () {
-        unawaited(registerReminderLocalNotification());
-        schedules.value = [
-          ...schedules.value,
-          MedicationSchedule(
-            id: const Uuid().v4(),
-            hour: 10,
-            minute: 00,
-            quantityMemo: '',
-            notificationSetting: const MedicineScheduleNotificationSetting(
-              isReminderEnabled: true,
-              isFollowupEnabled: true,
-              useCriticalAlert: false,
-            ),
-          ),
-        ];
-      },
-      icon: const Icon(Icons.add),
-      label: const Text('服用スケジュールを追加', style: TextStyle(fontWeight: FontWeight.bold)),
-      style: capsuleTextButtonStyle(context),
+    return Column(
+      children: [
+        if (isReachedLimit) ...[
+          const SizedBox(height: 10),
+          const Text('服用スケジュールは4つまで登録できます。'),
+        ],
+        TextButton.icon(
+          onPressed: isReachedLimit
+              ? null
+              : () {
+                  unawaited(registerReminderLocalNotification());
+                  schedules.value = [
+                    ...schedules.value,
+                    MedicationSchedule(
+                      id: const Uuid().v4(),
+                      hour: 10,
+                      minute: 00,
+                      quantityMemo: '',
+                      notificationSetting: const MedicineScheduleNotificationSetting(
+                        isReminderEnabled: true,
+                        isFollowupEnabled: true,
+                        useCriticalAlert: false,
+                      ),
+                    ),
+                  ];
+                },
+          icon: const Icon(Icons.add),
+          label: const Text('服用スケジュールを追加', style: TextStyle(fontWeight: FontWeight.bold)),
+          style: capsuleTextButtonStyle(context),
+        ),
+      ],
     );
   }
 }
