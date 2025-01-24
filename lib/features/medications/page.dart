@@ -132,7 +132,16 @@ class MedicationsPageBody extends HookConsumerWidget {
           ],
         ),
       ),
-      floatingActionButton: MedicalAddButton(medicines: medicines),
+      floatingActionButton: FloatingActionButton.extended(
+        onPressed: medicines.length >= Medicine.maxCount
+            ? null
+            : () {
+                showMedicineForm(context, null);
+              },
+        label: MedicalAddFloatingActionButtonChild(
+          medicines: medicines,
+        ),
+      ),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
     );
   }
