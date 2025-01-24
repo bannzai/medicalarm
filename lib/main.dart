@@ -91,6 +91,9 @@ class App extends StatelessWidget {
             disabledBackgroundColor: AppColors.disabled,
           ),
         ),
+        floatingActionButtonTheme: const FloatingActionButtonThemeData(
+          extendedTextStyle: TextStyle(fontSize: 16.0, fontWeight: FontWeight.bold),
+        ),
         outlinedButtonTheme: OutlinedButtonThemeData(
           style: OutlinedButton.styleFrom(
             shape: RoundedRectangleBorder(
