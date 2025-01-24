@@ -277,9 +277,3 @@ DateTimeRange _dateTimeRange(int page) {
   final last = weekcalendarDataSource[page].last;
   return DateTimeRange(start: first, end: last);
 }
-
-// DateTime _targetEndDayOfWeekday(int page) {
-//   final diff = page - todayCalendarPageIndex;
-//   final base = today().addDays(diff * Weekday.values.length);
-//   return endDayOfWeekday(base);
-// }
