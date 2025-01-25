@@ -54,6 +54,7 @@ class MedicationHistoryTake {
           memo: '',
           recordedDateTime: recordedDateTime,
           scheduledRecordedDate: scheduledRecordedDate,
+          ttlExpiredDateTime: DateTime.now().addDays(365),
         );
 
     await docRef.set(newMedicationHistory, SetOptions(merge: true));

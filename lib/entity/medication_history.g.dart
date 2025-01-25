@@ -19,6 +19,7 @@ _$MedicationHistoryImpl _$$MedicationHistoryImplFromJson(Map<String, dynamic> js
       updatedDateTime: const ClientUpdatedTimestamp().fromJson(json['updatedDateTime'] as Timestamp?),
       serverCreatedDateTime: const ServerCreatedTimestamp().fromJson(json['serverCreatedDateTime']),
       serverUpdatedDateTime: const ServerUpdatedTimestamp().fromJson(json['serverUpdatedDateTime']),
+      ttlExpiredDateTime: DateTime.parse(json['ttlExpiredDateTime'] as String),
     );
 
 Map<String, dynamic> _$$MedicationHistoryImplToJson(_$MedicationHistoryImpl instance) => <String, dynamic>{
@@ -34,6 +35,7 @@ Map<String, dynamic> _$$MedicationHistoryImplToJson(_$MedicationHistoryImpl inst
       'updatedDateTime': const ClientUpdatedTimestamp().toJson(instance.updatedDateTime),
       'serverCreatedDateTime': const ServerCreatedTimestamp().toJson(instance.serverCreatedDateTime),
       'serverUpdatedDateTime': const ServerUpdatedTimestamp().toJson(instance.serverUpdatedDateTime),
+      'ttlExpiredDateTime': instance.ttlExpiredDateTime.toIso8601String(),
     };
 
 const _$MedicationHistoryActionKindEnumMap = {
