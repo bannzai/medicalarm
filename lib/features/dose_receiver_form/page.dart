@@ -6,6 +6,7 @@ import 'package:medicalarm/entity/dose_receiver.dart';
 import 'package:medicalarm/provider/dose_receiver.dart';
 import 'package:medicalarm/style/button.dart';
 import 'package:medicalarm/theme/form.dart';
+import 'package:medicalarm/utils/purchase/purchase.dart';
 
 class DoseReceiverFormPage extends HookConsumerWidget {
   final ValueNotifier<DoseReceiver?> doseReceiver;
@@ -132,13 +133,14 @@ class DoseReceiverAddButton extends HookConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final doseReceiverAdd = ref.watch(doseReceiverAddProvider);
+    final customerInfo = ref.watch(customerInfoProvider).asData?.value;
     return Column(
       children: [
-        if (doseReceivers.length >= DoseReceiver.maxCount) ...[
-          const Text('服用者は最大${DoseReceiver.maxCount}人まで登録できます', style: TextStyle(color: Colors.red)),
+        if (doseReceivers.length >= DoseReceiver.maxCount(customerInfo)) ...[
+          Text('服用者は最大${DoseReceiver.maxCount(customerInfo)}人まで登録できます', style: const TextStyle(color: Colors.red)),
         ],
         TextButton.icon(
-          onPressed: doseReceivers.length < DoseReceiver.maxCount
+          onPressed: doseReceivers.length < DoseReceiver.maxCount(customerInfo)
               ? () {
                   doseReceiverAdd.call(name: '新しい服用者');
                 }

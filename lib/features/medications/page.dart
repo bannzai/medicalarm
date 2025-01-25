@@ -19,6 +19,7 @@ import 'package:medicalarm/provider/medicine.dart';
 import 'package:medicalarm/style/color.dart';
 import 'package:medicalarm/utils/date_time/date_time_ext.dart';
 import 'package:medicalarm/utils/local_notification/client.dart';
+import 'package:medicalarm/utils/purchase/purchase.dart';
 
 class MedicationsPage extends HookConsumerWidget {
   const MedicationsPage({super.key});
@@ -69,6 +70,7 @@ class MedicationsPageBody extends HookConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final page = useState(todayCalendarPageIndex);
     final pageController = usePageController(initialPage: page.value);
+    final customerInfo = ref.watch(customerInfoProvider).asData?.value;
     pageController.addListener(() {
       final pageControllerPage = pageController.page;
       if (pageControllerPage != null) {
@@ -133,7 +135,7 @@ class MedicationsPageBody extends HookConsumerWidget {
         ),
       ),
       floatingActionButton: FloatingActionButton.extended(
-        onPressed: medicines.length >= Medicine.maxCount
+        onPressed: medicines.length >= Medicine.maxCount(customerInfo)
             ? null
             : () {
                 showMedicineForm(context, null);

@@ -7,6 +7,7 @@ import 'package:medicalarm/features/medications/components/add_button.dart';
 import 'package:medicalarm/features/medicine_form/page.dart';
 import 'package:medicalarm/provider/medicine.dart';
 import 'package:medicalarm/style/color.dart';
+import 'package:medicalarm/utils/purchase/purchase.dart';
 
 class MedicinesPage extends HookConsumerWidget {
   const MedicinesPage({super.key});
@@ -26,12 +27,13 @@ class MedicinesPage extends HookConsumerWidget {
   }
 }
 
-class MedicinesPageBody extends StatelessWidget {
+class MedicinesPageBody extends HookConsumerWidget {
   final List<Medicine> medicines;
   const MedicinesPageBody({super.key, required this.medicines});
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context, WidgetRef ref) {
+    final customerInfo = ref.watch(customerInfoProvider).asData?.value;
     return Scaffold(
       appBar: AppBar(
         title: const Text('お薬一覧'),
@@ -48,7 +50,7 @@ class MedicinesPageBody extends StatelessWidget {
             .toList(),
       ),
       floatingActionButton: FloatingActionButton.extended(
-        onPressed: medicines.length >= Medicine.maxCount
+        onPressed: medicines.length >= Medicine.maxCount(customerInfo)
             ? null
             : () {
                 showMedicineForm(context, null);
