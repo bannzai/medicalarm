@@ -20,7 +20,9 @@
     "_applicationInternalID" : "6740401642",
     "_developerTeamID" : "TQPN82UBBY",
     "_failTransactionsEnabled" : false,
-    "_lastSynchronizedDate" : 759464249.88579404,
+    "_lastSynchronizedDate" : 759464959.03092003,
+    "_locale" : "ja",
+    "_storefront" : "JPN",
     "_storeKitErrors" : [
       {
         "current" : null,
