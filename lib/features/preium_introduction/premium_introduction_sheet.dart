@@ -51,13 +51,12 @@ class _Body extends HookConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final offeringType = customerInfo.currentOfferingType;
-    final weeklyPackage = ref.watch(weeklyPackageProvider);
     final monthlyPackage = ref.watch(monthlyPackageProvider);
-    final sixMonthPackage = ref.watch(sixMonthPackageProvider);
+    final annualPackage = ref.watch(annualPackageProvider);
     final monthlyPremiumPackage = ref.watch(monthlyPremiumPackageProvider);
     final isLoading = useState(false);
 
-    if (monthlyPackage == null || weeklyPackage == null || sixMonthPackage == null) {
+    if (monthlyPackage == null || annualPackage == null) {
       return const IndicatorPage();
     }
     if (isLoading.value) {
@@ -102,9 +101,8 @@ class _Body extends HookConsumerWidget {
                 const SizedBox(height: 12),
                 PurchaseButtons(
                   offeringType: offeringType,
-                  weeklyPackage: weeklyPackage,
                   monthlyPackage: monthlyPackage,
-                  sixMonthPackage: sixMonthPackage,
+                  annualPackage: annualPackage,
                   isLoading: isLoading,
                 ),
               ],

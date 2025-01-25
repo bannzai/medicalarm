@@ -135,6 +135,12 @@ Package? sixMonthPackage(SixMonthPackageRef ref) {
   return currentOfferingPackages.firstWhereOrNull((element) => element.packageType == PackageType.sixMonth);
 }
 
+@Riverpod(dependencies: [currentOfferingPackages])
+Package? annualPackage(SixMonthPackageRef ref) {
+  final currentOfferingPackages = ref.watch(currentOfferingPackagesProvider);
+  return currentOfferingPackages.firstWhereOrNull((element) => element.packageType == PackageType.annual);
+}
+
 @Riverpod(dependencies: [])
 Package? monthlyPremiumPackage(MonthlyPremiumPackageRef ref) {
   const premiumPackageOfferingType = OfferingType.premium;

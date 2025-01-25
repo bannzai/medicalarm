@@ -1,46 +1,42 @@
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
+import 'package:medicalarm/features/preium_introduction/components/annual_purchase_button.dart';
 import 'package:purchases_flutter/purchases_flutter.dart';
 import 'package:medicalarm/components/error/error_alert.dart';
 import 'package:medicalarm/features/preium_introduction/components/discount_badge.dart';
-import 'package:medicalarm/features/preium_introduction/components/six_month_purchase_button.dart';
 import 'package:medicalarm/features/preium_introduction/components/monthly_purchase_button.dart';
-import 'package:medicalarm/features/preium_introduction/components/weekly_purchase_button.dart';
 import 'package:medicalarm/features/preium_introduction/premium_complete_dialog.dart';
 import 'package:medicalarm/utils/analytics/analytics.dart';
 import 'package:medicalarm/utils/purchase/purchase.dart';
 
 class PurchaseButtons extends HookConsumerWidget {
   final OfferingType offeringType;
-  final Package weeklyPackage;
   final Package monthlyPackage;
-  final Package sixMonthPackage;
+  final Package annualPackage;
   final ValueNotifier<bool> isLoading;
 
   const PurchaseButtons({
     super.key,
     required this.offeringType,
-    required this.weeklyPackage,
     required this.monthlyPackage,
-    required this.sixMonthPackage,
+    required this.annualPackage,
     required this.isLoading,
   });
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final purchase = ref.watch(purchaseProvider);
-    final maxMonthlyDiscountBadgePercent = ((1 - (monthlyPackage.storeProduct.price / (weeklyPackage.storeProduct.price * 5))) * 100).toInt();
-    final sixMonthDiscountBadgePercent = ((1 - (sixMonthPackage.storeProduct.price / (monthlyPackage.storeProduct.price * 6))) * 100).toInt();
+    final annualhDiscountBadgePercent = ((1 - (annualPackage.storeProduct.price / (monthlyPackage.storeProduct.price * 12))) * 100).toInt();
 
     return Column(
       children: [
         Padding(
           padding: const EdgeInsets.symmetric(horizontal: 20.0),
-          child: WeeklyPurchaseButton(
-            weeklyPackage: weeklyPackage,
-            onTap: (weeklyPackage) async {
-              analytics.logEvent(name: "pressed_weekly_purchase_button");
-              await _purchase(context, weeklyPackage, purchase);
+          child: MonthlyPurchaseButton(
+            monthlyPackage: monthlyPackage,
+            onTap: (monthlyPackage) async {
+              analytics.logEvent(name: "pressed_monthly_purchase_button");
+              await _purchase(context, monthlyPackage, purchase);
             },
           ),
         ),
@@ -50,10 +46,10 @@ class PurchaseButtons extends HookConsumerWidget {
           child: Stack(
             clipBehavior: Clip.none,
             children: [
-              MonthlyPurchaseButton(
-                monthlyPackage: monthlyPackage,
-                onTap: (monthlyPackage) async {
-                  analytics.logEvent(name: "pressed_monthly_purchase_button");
+              AnnualPurchaseButton(
+                annualPackage: annualPackage,
+                onTap: (annualPackage) async {
+                  analytics.logEvent(name: "pressed_annual_purchase_button");
                   await _purchase(context, monthlyPackage, purchase);
                 },
               ),
@@ -61,31 +57,7 @@ class PurchaseButtons extends HookConsumerWidget {
                 top: -6,
                 right: 8,
                 child: DiscountBadge(
-                  text: "週額より最大$maxMonthlyDiscountBadgePercent%OFF",
-                ),
-              ),
-            ],
-          ),
-        ),
-        const SizedBox(height: 10),
-        Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 20.0),
-          child: Stack(
-            clipBehavior: Clip.none,
-            children: [
-              SixMonthPurchaseButton(
-                sixMonthPackage: sixMonthPackage,
-                offeringType: offeringType,
-                onTap: (sixMonthPackage) async {
-                  analytics.logEvent(name: "pressed_six_m_purchase_button");
-                  await _purchase(context, sixMonthPackage, purchase);
-                },
-              ),
-              Positioned(
-                top: -6,
-                right: 8,
-                child: DiscountBadge(
-                  text: "月額より$sixMonthDiscountBadgePercent%OFF",
+                  text: "月額より$annualhDiscountBadgePercent%OFF",
                 ),
               ),
             ],

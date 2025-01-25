@@ -84,6 +84,19 @@ final sixMonthPackageProvider = AutoDisposeProvider<Package?>.internal(
 );
 
 typedef SixMonthPackageRef = AutoDisposeProviderRef<Package?>;
+String _$annualPackageHash() => r'a0f73f340ef0ae6dc39f6866c85fd2b785ebb251';
+
+/// See also [annualPackage].
+@ProviderFor(annualPackage)
+final annualPackageProvider = AutoDisposeProvider<Package?>.internal(
+  annualPackage,
+  name: r'annualPackageProvider',
+  debugGetCreateSourceHash: const bool.fromEnvironment('dart.vm.product') ? null : _$annualPackageHash,
+  dependencies: <ProviderOrFamily>[currentOfferingPackagesProvider],
+  allTransitiveDependencies: <ProviderOrFamily>{currentOfferingPackagesProvider, ...?currentOfferingPackagesProvider.allTransitiveDependencies},
+);
+
+typedef AnnualPackageRef = AutoDisposeProviderRef<Package?>;
 String _$monthlyPremiumPackageHash() => r'0ffcc9f632f99e229be32bf0cf19246f0e04f71c';
 
 /// See also [monthlyPremiumPackage].
