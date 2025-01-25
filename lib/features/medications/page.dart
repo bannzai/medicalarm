@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:intl/intl.dart';
+import 'package:medicalarm/components/admob/admob.dart';
 import 'package:medicalarm/components/calendar/weekly/pager.dart';
 import 'package:medicalarm/components/fab/layout.dart';
 import 'package:medicalarm/components/loading/indicator.dart';
@@ -115,6 +116,7 @@ class MedicationsPageBody extends HookConsumerWidget {
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.center,
                       children: [
+                        const AdMob(),
                         for (final tileValue in medicationGroups(
                           medicines: medicines,
                           medicationHistories: medicationHistories,
