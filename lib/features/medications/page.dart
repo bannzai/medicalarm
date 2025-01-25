@@ -71,7 +71,6 @@ class MedicationsPageBody extends HookConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final page = useState(todayCalendarPageIndex);
     final pageController = usePageController(initialPage: page.value);
-    final customerInfo = ref.watch(customerInfoProvider).asData?.value;
     pageController.addListener(() {
       final pageControllerPage = pageController.page;
       if (pageControllerPage != null) {

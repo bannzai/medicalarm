@@ -8,7 +8,6 @@ import 'package:medicalarm/features/medications/components/add_button.dart';
 import 'package:medicalarm/features/medicine_form/page.dart';
 import 'package:medicalarm/provider/medicine.dart';
 import 'package:medicalarm/style/color.dart';
-import 'package:medicalarm/utils/purchase/purchase.dart';
 
 class MedicinesPage extends HookConsumerWidget {
   const MedicinesPage({super.key});
@@ -34,7 +33,6 @@ class MedicinesPageBody extends HookConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final customerInfo = ref.watch(customerInfoProvider).asData?.value;
     return Scaffold(
       appBar: AppBar(
         title: const Text('お薬一覧'),
