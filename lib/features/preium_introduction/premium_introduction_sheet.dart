@@ -6,7 +6,6 @@ import 'package:flutter/material.dart';
 import 'package:purchases_flutter/purchases_flutter.dart';
 import 'package:medicalarm/components/loading/indicator.dart';
 import 'package:medicalarm/components/retry/page.dart';
-import 'package:medicalarm/features/preium_introduction/components/premium_introduction_discount.dart';
 import 'package:medicalarm/features/preium_introduction/components/premium_introduction_footer.dart';
 import 'package:medicalarm/features/preium_introduction/components/premium_introduction_header.dart';
 import 'package:medicalarm/features/preium_introduction/components/premium_user_thanks.dart';
