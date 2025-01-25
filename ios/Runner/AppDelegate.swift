@@ -3,12 +3,13 @@ import UIKit
 
 @main
 @objc class AppDelegate: FlutterAppDelegate {
-  private var channel: FlutterMethodChannel
+  private var channel: FlutterMethodChannel?
 
   override func application(
     _ application: UIApplication,
     didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?
   ) -> Bool {
+    let viewController = window?.rootViewController as! FlutterViewController
     channel = FlutterMethodChannel(
       name: "method.channel.bannzai.medicalarm",
       binaryMessenger: viewController.binaryMessenger
@@ -20,8 +21,10 @@ import UIKit
       }
 
       switch call.method {
-        case "requestAppTrackingTransparency":
-          requestAppTrackingTransparency(completion: completionHandler)
+      case "requestAppTrackingTransparency":
+        requestAppTrackingTransparency(completion: completionHandler)
+      default:
+        return
       }
     })
 
