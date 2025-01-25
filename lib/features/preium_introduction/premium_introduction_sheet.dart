@@ -53,7 +53,6 @@ class _Body extends HookConsumerWidget {
     final offeringType = customerInfo.currentOfferingType;
     final monthlyPackage = ref.watch(monthlyPackageProvider);
     final annualPackage = ref.watch(annualPackageProvider);
-    final monthlyPremiumPackage = ref.watch(monthlyPremiumPackageProvider);
     final isLoading = useState(false);
 
     if (monthlyPackage == null || annualPackage == null) {
@@ -83,13 +82,6 @@ class _Body extends HookConsumerWidget {
                 const PremiumUserThanksRow(),
               ],
               if (customerInfo.activeSubscriptions.isEmpty) ...[
-                if (customerInfo.isInDiscountDuration)
-                  if (monthlyPremiumPackage != null)
-                    PremiumIntroductionDiscountRow(
-                      monthlyPremiumPackage: monthlyPremiumPackage,
-                      discountEntitlementDeadlineDate: customerInfo.discountDeadlineDate,
-                    ),
-                const SizedBox(height: 12),
                 const Text(
                   """
   ＿人人人人人人人人＿
