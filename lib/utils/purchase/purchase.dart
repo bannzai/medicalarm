@@ -74,18 +74,21 @@ extension CustomerInfoExtension on CustomerInfo {
   }
 
   bool get isInPromotion {
-    return promotionExpirationDate?.isAfter(DateTime.now()) ?? false;
+    return false;
+    // return promotionExpirationDate?.isAfter(DateTime.now()) ?? false;
   }
 
   DateTime? get discountDeadlineDate {
-    return promotionExpirationDate?.add(const Duration(days: 3));
+    return null;
+    // return promotionExpirationDate?.add(const Duration(days: 3));
   }
 
   bool get isInDiscountDuration {
-    if (discountDeadlineDate == null) {
-      return false;
-    }
-    return discountDeadlineDate!.isAfter(DateTime.now());
+    return false;
+    // if (discountDeadlineDate == null) {
+    //   return false;
+    // }
+    // return discountDeadlineDate!.isAfter(DateTime.now());
   }
 
   OfferingType get currentOfferingType {
