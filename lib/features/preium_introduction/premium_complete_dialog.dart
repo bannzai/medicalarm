@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:medicalarm/components/button/buttons.dart';
 
 class PremiumCompleteDialog extends StatelessWidget {
   final VoidCallback onClose;
@@ -36,8 +35,10 @@ class PremiumCompleteDialog extends StatelessWidget {
           const SizedBox(height: 24),
           SizedBox(
             width: 180,
-            child: ColorButton(
-              color: Theme.of(context).primaryColor,
+            child: ElevatedButton(
+              style: ElevatedButton.styleFrom(
+                backgroundColor: Theme.of(context).primaryColor,
+              ),
               onPressed: () async {
                 Navigator.of(context).pop();
                 onClose();

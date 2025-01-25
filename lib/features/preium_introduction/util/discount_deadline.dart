@@ -1,4 +1,4 @@
-import 'package:medicalarm/utils/date_time.dart';
+import 'package:intl/intl.dart';
 import 'package:medicalarm/utils/purchase/purchase.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 import 'dart:async';
@@ -47,5 +47,11 @@ String discountPriceDeadlineCountdownString(Duration diff) {
   final hour = diff.inHours;
   final minute = diff.inMinutes % 60;
   final second = diff.inSeconds % 60;
-  return DateTimeFormatter.clock(hour.toInt(), minute.toInt(), second.toInt());
+
+  String formatted(int hour, int minute, int second) {
+    final format = NumberFormat("00");
+    return "${format.format(hour)}:${format.format(minute)}:${format.format(second)}";
+  }
+
+  return formatted(hour, minute, second);
 }
