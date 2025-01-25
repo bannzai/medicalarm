@@ -41,7 +41,7 @@ class PremiumIntroductionFotter extends StatelessWidget {
                     style: const TextStyle(decoration: TextDecoration.underline),
                     recognizer: TapGestureRecognizer()
                       ..onTap = () {
-                        launchUrl(Uri.parse("https://bannzai.github.io/ReplAI/PrivacyPolicy"), mode: LaunchMode.inAppWebView);
+                        launchUrl(Uri.parse("https://bannzai.github.io/Medicalarm/PrivacyPolicy"), mode: LaunchMode.inAppWebView);
                       },
                   ),
                   const TextSpan(
@@ -52,7 +52,7 @@ class PremiumIntroductionFotter extends StatelessWidget {
                     style: const TextStyle(decoration: TextDecoration.underline),
                     recognizer: TapGestureRecognizer()
                       ..onTap = () {
-                        launchUrl(Uri.parse("https://bannzai.github.io/ReplAI/Terms"), mode: LaunchMode.inAppWebView);
+                        launchUrl(Uri.parse("https://bannzai.github.io/Medicalarm/Terms"), mode: LaunchMode.inAppWebView);
                       },
                   ),
                   const TextSpan(
@@ -63,7 +63,7 @@ class PremiumIntroductionFotter extends StatelessWidget {
                     style: const TextStyle(decoration: TextDecoration.underline),
                     recognizer: TapGestureRecognizer()
                       ..onTap = () {
-                        launchUrl(Uri.parse("https://bannzai.github.io/ReplAI/SpecifiedCommercialTransactionAct"), mode: LaunchMode.inAppWebView);
+                        launchUrl(Uri.parse("https://bannzai.github.io/Medicalarm/SpecifiedCommercialTransactionAct"), mode: LaunchMode.inAppWebView);
                       },
                   ),
                   const TextSpan(

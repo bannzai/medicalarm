@@ -14,7 +14,7 @@ class PremiumCompleteDialog extends StatelessWidget {
         mainAxisSize: MainAxisSize.min,
         children: [
           const Text(
-            "ReplAIプレミアム登録完了",
+            "Medicalarmプレミアム登録完了",
             style: TextStyle(
               color: Colors.black,
               fontWeight: FontWeight.w700,

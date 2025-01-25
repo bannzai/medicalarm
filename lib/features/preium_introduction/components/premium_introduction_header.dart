@@ -8,7 +8,7 @@ class PremiumIntroductionHeader extends StatelessWidget {
     return const Column(
       children: [
         Text(
-          "ReplAI",
+          "Medicalarm",
           style: TextStyle(color: Colors.black, fontFamily: "NotoSansJP", fontSize: 32, fontWeight: FontWeight.w900),
         ),
         Text(

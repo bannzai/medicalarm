@@ -15,7 +15,7 @@ Exception? mapToDisplayedException(PlatformException exception) {
       return null;
     case PurchasesErrorCode.storeProblemError:
       // NOTE: RevenueCat auto retring purchase request on backend services.
-      // ReplAI must not be handling error message.
+      // Medicalarm must not be handling error message.
       // See more detail: https://docs.revenuecat.com/docs/errors#--store_problem
       // > If everything was working while testing, you shouldn't have to do anything to handle this error in production. RevenueCat will automatically retry any purchase failures so no data is lost.
       // But, return ambigious error message to be the on the safe side
