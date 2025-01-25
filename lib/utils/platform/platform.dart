@@ -10,5 +10,5 @@ String get accountName {
 
 // TODO: ここにアプリのURLを入れる
 String get forceUpdateStoreURL {
-  return Platform.isIOS ? "" : "";
+  return Platform.isIOS ? "https://apps.apple.com/app/apple-store/id6740401642?pt=97327896&ct=force_update&mt=8" : "";
 }
