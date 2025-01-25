@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:medicalarm/components/button/inquriy.dart';
 import 'package:medicalarm/components/button/user_delete.dart';
+import 'package:medicalarm/features/settings/components/premium_introduction.dart';
 import 'package:medicalarm/features/settings/components/section.dart';
 import 'package:medicalarm/style/color.dart';
 import 'package:medicalarm/utils/analytics/analytics.dart';
@@ -18,6 +19,10 @@ class SettingPage extends StatelessWidget {
       body: SafeArea(
         child: Column(
           children: [
+            const SettingSectionTitle(text: "プレミアムプラン", children: [
+              PremiumIntroduction(),
+              _Divider(),
+            ]),
             SettingSectionTitle(text: 'アプリについて', children: [
               ListTile(
                   title: const Text(
