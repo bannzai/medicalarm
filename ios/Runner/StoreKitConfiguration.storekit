@@ -20,7 +20,7 @@
     "_applicationInternalID" : "6740401642",
     "_developerTeamID" : "TQPN82UBBY",
     "_failTransactionsEnabled" : false,
-    "_lastSynchronizedDate" : 759464959.03092003,
+    "_lastSynchronizedDate" : 759465326.17868102,
     "_locale" : "ja",
     "_storefront" : "JPN",
     "_storeKitErrors" : [
@@ -72,7 +72,71 @@
     ]
   },
   "subscriptionGroups" : [
+    {
+      "id" : "21626481",
+      "localizations" : [
 
+      ],
+      "name" : "プレミアムプラン",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "3600",
+          "familyShareable" : false,
+          "groupNumber" : 2,
+          "internalID" : "6741009957",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "プレミアムプランの機能が使えます",
+              "displayName" : "プレミアムプラン",
+              "locale" : "ja"
+            }
+          ],
+          "productID" : "medicalarm_3600yen_1year",
+          "recurringSubscriptionPeriod" : "P1Y",
+          "referenceName" : "Annual 3600yen",
+          "subscriptionGroupID" : "21626481",
+          "type" : "RecurringSubscription",
+          "winbackOffers" : [
+
+          ]
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "480",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "6741009790",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "プレミアムプランの機能が使用できます",
+              "displayName" : "プレミアムプラン",
+              "locale" : "ja"
+            }
+          ],
+          "productID" : "medicalarm_480yen_1month",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Monthly 480yen",
+          "subscriptionGroupID" : "21626481",
+          "type" : "RecurringSubscription",
+          "winbackOffers" : [
+
+          ]
+        }
+      ]
+    }
   ],
   "version" : {
     "major" : 4,
