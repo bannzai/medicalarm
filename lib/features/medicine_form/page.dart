@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:medicalarm/components/error/error_alert.dart';
+import 'package:medicalarm/components/fab/layout.dart';
 import 'package:medicalarm/components/loading/loading.dart';
 import 'package:medicalarm/entity/dose_receiver.dart';
 import 'package:medicalarm/entity/medication_frequency.dart';
@@ -85,82 +86,83 @@ class MedicineFormPage extends HookConsumerWidget {
                 appBar: AppBar(
                   title: Text('お薬登録画面', style: TextStyle(color: primaryColor)),
                 ),
-                body: SafeArea(
-                  child: Stack(
-                    children: [
-                      SingleChildScrollView(
-                        padding: const EdgeInsets.only(bottom: 60.0),
-                        child: Column(
-                          children: [
-                            Padding(
-                              padding: const EdgeInsets.symmetric(vertical: 16.0),
-                              child: Column(
-                                children: [
-                                  MedicineFormNameTextField(name: name),
-                                  const SizedBox(height: 6),
-                                  MedicationFrequencyTile(frequency: frequency),
-                                  const SizedBox(height: 6),
-                                  MedicationBeginTile(begin: begin),
-                                ],
+                body: FloatingActionButtonLayout(
+                  scaffoldBody: SafeArea(
+                    child: Stack(
+                      children: [
+                        SingleChildScrollView(
+                          padding: const EdgeInsets.only(bottom: 60.0),
+                          child: Column(
+                            children: [
+                              Padding(
+                                padding: const EdgeInsets.symmetric(vertical: 16.0),
+                                child: Column(
+                                  children: [
+                                    MedicineFormNameTextField(name: name),
+                                    const SizedBox(height: 6),
+                                    MedicationFrequencyTile(frequency: frequency),
+                                    const SizedBox(height: 6),
+                                    MedicationBeginTile(begin: begin),
+                                  ],
+                                ),
                               ),
-                            ),
-                            const Divider(color: Colors.black, height: 1),
-                            MedicineScheduleSection(schedules: schedules),
-                            const Divider(color: Colors.black, height: 1),
-                            MedicineAdditionalInfoSection(
-                              memo: memo,
-                              memoImageURL: memoImageURL,
-                              doseReceiver: doseReceiver,
+                              const Divider(color: Colors.black, height: 1),
+                              MedicineScheduleSection(schedules: schedules),
+                              const Divider(color: Colors.black, height: 1),
+                              MedicineAdditionalInfoSection(
+                                memo: memo,
+                                memoImageURL: memoImageURL,
+                                doseReceiver: doseReceiver,
+                              ),
+                            ],
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                  floatingActionButton: Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: 16.0),
+                    child: SizedBox(
+                      width: double.infinity,
+                      child: ElevatedButton.icon(
+                        onPressed: canSubmit
+                            ? () async {
+                                try {
+                                  if (isLoading.value) {
+                                    return;
+                                  }
+                                  isLoading.value = true;
+
+                                  await submit();
+                                  unawaited(registerReminderLocalNotification());
+
+                                  if (context.mounted) {
+                                    Navigator.pop(context);
+                                  }
+                                } catch (e) {
+                                  if (context.mounted) {
+                                    showErrorAlert(context, e.toString());
+                                  }
+                                } finally {
+                                  isLoading.value = false;
+                                }
+                              }
+                            : null,
+                        label: Column(
+                          children: [
+                            if (!canSubmit) ...[
+                              const Text('名前と服用スケジュールを入力してください', style: TextStyle(color: TextColor.danger, fontSize: 10.0)),
+                            ],
+                            Loading(
+                              isLoading: isLoading.value,
+                              child: const Text('保存'),
                             ),
                           ],
                         ),
                       ),
-                    ],
-                  ),
-                ),
-                floatingActionButton: Padding(
-                  padding: const EdgeInsets.symmetric(horizontal: 16.0),
-                  child: SizedBox(
-                    width: double.infinity,
-                    child: FloatingActionButton.extended(
-                      onPressed: canSubmit
-                          ? () async {
-                              try {
-                                if (isLoading.value) {
-                                  return;
-                                }
-                                isLoading.value = true;
-
-                                await submit();
-                                unawaited(registerReminderLocalNotification());
-
-                                if (context.mounted) {
-                                  Navigator.pop(context);
-                                }
-                              } catch (e) {
-                                if (context.mounted) {
-                                  showErrorAlert(context, e.toString());
-                                }
-                              } finally {
-                                isLoading.value = false;
-                              }
-                            }
-                          : null,
-                      label: Column(
-                        children: [
-                          if (!canSubmit) ...[
-                            const Text('名前と服用スケジュールを入力してください', style: TextStyle(color: TextColor.danger, fontSize: 10.0)),
-                          ],
-                          Loading(
-                            isLoading: isLoading.value,
-                            child: const Text('保存'),
-                          ),
-                        ],
-                      ),
                     ),
                   ),
                 ),
-                floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
               ),
             ),
           );

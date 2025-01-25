@@ -5,6 +5,7 @@ import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:intl/intl.dart';
 import 'package:medicalarm/components/calendar/weekly/pager.dart';
+import 'package:medicalarm/components/fab/layout.dart';
 import 'package:medicalarm/components/loading/indicator.dart';
 import 'package:medicalarm/components/retry/page.dart';
 import 'package:medicalarm/entity/medication_history.dart';
@@ -98,53 +99,47 @@ class MedicationsPageBody extends HookConsumerWidget {
           ),
         ],
       ),
-      body: SafeArea(
-        child: Column(
-          children: [
-            WeeklyCalendarPager(date: date, pageController: pageController),
-            const Divider(
-              height: 1,
-              color: Colors.black,
-            ),
-            TodayBadge(date: date),
-            Expanded(
-              child: SingleChildScrollView(
-                physics: const AlwaysScrollableScrollPhysics(),
-                child: Padding(
-                  padding: const EdgeInsets.symmetric(vertical: 20.0),
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.center,
-                    children: [
-                      for (final tileValue in medicationGroups(
-                        medicines: medicines,
-                        medicationHistories: medicationHistories,
-                        date: date.value,
-                      )) ...[
-                        MedicationGroupTile(
-                          key: ValueKey(tileValue.id),
-                          tileValue: tileValue,
-                        ),
-                        const SizedBox(height: 10),
+      body: FloatingActionButtonLayout(
+        scaffoldBody: SafeArea(
+          child: Column(
+            children: [
+              WeeklyCalendarPager(date: date, pageController: pageController),
+              const Divider(
+                height: 1,
+                color: Colors.black,
+              ),
+              TodayBadge(date: date),
+              Expanded(
+                child: SingleChildScrollView(
+                  physics: const AlwaysScrollableScrollPhysics(),
+                  child: Padding(
+                    padding: const EdgeInsets.symmetric(vertical: 20.0),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.center,
+                      children: [
+                        for (final tileValue in medicationGroups(
+                          medicines: medicines,
+                          medicationHistories: medicationHistories,
+                          date: date.value,
+                        )) ...[
+                          MedicationGroupTile(
+                            key: ValueKey(tileValue.id),
+                            tileValue: tileValue,
+                          ),
+                          const SizedBox(height: 10),
+                        ],
                       ],
-                    ],
+                    ),
                   ),
                 ),
               ),
-            ),
-          ],
+            ],
+          ),
         ),
-      ),
-      floatingActionButton: FloatingActionButton.extended(
-        onPressed: medicines.length >= Medicine.maxCount(isPremium: customerInfo?.isPremium)
-            ? null
-            : () {
-                showMedicineForm(context, null);
-              },
-        label: MedicalAddFloatingActionButtonChild(
+        floatingActionButton: MedicalAddFloatingActionButtonChild(
           medicines: medicines,
         ),
       ),
-      floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
     );
   }
 }

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
+import 'package:medicalarm/components/fab/layout.dart';
 import 'package:medicalarm/components/loading/indicator.dart';
 import 'package:medicalarm/components/retry/page.dart';
 import 'package:medicalarm/entity/medicine.dart';
@@ -38,28 +39,22 @@ class MedicinesPageBody extends HookConsumerWidget {
       appBar: AppBar(
         title: const Text('お薬一覧'),
       ),
-      body: ListView(
-        padding: const EdgeInsets.symmetric(vertical: 16.0),
-        children: medicines
-            .map((medicine) => Column(
-                  children: [
-                    MedicinesPageSection(medicine: medicine),
-                    const SizedBox(height: 10),
-                  ],
-                ))
-            .toList(),
-      ),
-      floatingActionButton: FloatingActionButton.extended(
-        onPressed: medicines.length >= Medicine.maxCount(isPremium: customerInfo?.isPremium)
-            ? null
-            : () {
-                showMedicineForm(context, null);
-              },
-        label: MedicalAddFloatingActionButtonChild(
+      body: FloatingActionButtonLayout(
+        scaffoldBody: ListView(
+          padding: const EdgeInsets.symmetric(vertical: 16.0),
+          children: medicines
+              .map((medicine) => Column(
+                    children: [
+                      MedicinesPageSection(medicine: medicine),
+                      const SizedBox(height: 10),
+                    ],
+                  ))
+              .toList(),
+        ),
+        floatingActionButton: MedicalAddFloatingActionButtonChild(
           medicines: medicines,
         ),
       ),
-      floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
     );
   }
 }

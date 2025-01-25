@@ -18,7 +18,13 @@ class FloatingActionButtonLayout extends StatelessWidget {
         Align(
           alignment: Alignment.bottomCenter,
           child: SafeArea(
-            child: floatingActionButton,
+            child: Column(
+              children: [
+                const Spacer(),
+                floatingActionButton,
+                const SizedBox(height: 20),
+              ],
+            ),
           ),
         ),
       ],

@@ -145,7 +145,7 @@ class DoseReceiverAddButton extends HookConsumerWidget {
                 showPremiumIntroductionSheet(context);
               },
               child: Text(
-                'プレミアムプランで上限を${DoseReceiver.maxCount(isPremium: true)}つに増やす',
+                'プレミアムプランで上限を${DoseReceiver.maxCount(isPremium: true)}に増やす',
                 style: const TextStyle(
                   color: Colors.blue,
                   fontWeight: FontWeight.bold,
