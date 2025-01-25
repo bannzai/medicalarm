@@ -7,12 +7,14 @@ import 'package:medicalarm/style/button.dart';
 import 'package:medicalarm/utils/analytics/analytics.dart';
 import 'package:medicalarm/utils/shared_preferences/keys.dart';
 import 'package:package_info_plus/package_info_plus.dart';
+import 'package:purchases_flutter/purchases_flutter.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:medicalarm/entity/app_user.dart';
 import 'package:medicalarm/features/resolver/database.dart';
 import 'package:medicalarm/style/color.dart';
 import 'package:medicalarm/utils/config/environment.dart';
 import 'package:url_launcher/url_launcher.dart';
+import 'package:medicalarm/utils/purchase/purchase.dart';
 
 void inquiry() {
   PackageInfo.fromPlatform().then((value) => debugInfo(', ')).then((info) {
@@ -41,6 +43,12 @@ Future<String> debugInfo(String separator) async {
   try {
     package = await PackageInfo.fromPlatform();
   } catch (_) {}
+
+  CustomerInfo? customerInfo;
+  try {
+    customerInfo = await Purchases.getCustomerInfo();
+  } catch (_) {}
+
   final appName = package?.appName;
   final buildNumber = package?.buildNumber;
   final packageName = package?.packageName;
@@ -52,9 +60,7 @@ Future<String> debugInfo(String separator) async {
     "$platform:$appName:$version:$packageName:$buildNumber:${Environment.isProduction ? "prod" : "dev"}",
     'userID: $userID',
     'createdDateTime: ${user?.createdDateTime}',
-    // TODO: [CustomerInfo]
-    // 'isPremium: ${user?.isPremium}',
-    // 'isTrial: ${user?.isTrial}',
+    'isPremium: ${customerInfo?.isPremium}',
   ];
   return contents.join(separator);
 }
