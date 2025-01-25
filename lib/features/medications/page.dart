@@ -20,7 +20,6 @@ import 'package:medicalarm/provider/medicine.dart';
 import 'package:medicalarm/style/color.dart';
 import 'package:medicalarm/utils/date_time/date_time_ext.dart';
 import 'package:medicalarm/utils/local_notification/client.dart';
-import 'package:medicalarm/utils/purchase/purchase.dart';
 
 class MedicationsPage extends HookConsumerWidget {
   const MedicationsPage({super.key});
