@@ -24,7 +24,7 @@ class MedicationHistory with _$MedicationHistory {
     @ClientUpdatedTimestamp() DateTime? updatedDateTime,
     @ServerCreatedTimestamp() DateTime? serverCreatedDateTime,
     @ServerUpdatedTimestamp() DateTime? serverUpdatedDateTime,
-    @NullableTimestampConverter() required DateTime ttlExpiredDateTime,
+    @NullableTimestampConverter() required DateTime ttlExpiresDateTime,
   }) = _MedicationHistory;
 
   factory MedicationHistory.fromJson(Map<String, dynamic> json) => _$MedicationHistoryFromJson(json);

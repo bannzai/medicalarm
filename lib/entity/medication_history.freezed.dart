@@ -39,7 +39,7 @@ mixin _$MedicationHistory {
   @ServerUpdatedTimestamp()
   DateTime? get serverUpdatedDateTime => throw _privateConstructorUsedError;
   @NullableTimestampConverter()
-  DateTime get ttlExpiredDateTime => throw _privateConstructorUsedError;
+  DateTime get ttlExpiresDateTime => throw _privateConstructorUsedError;
 
   /// Serializes this MedicationHistory to a JSON map.
   Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
@@ -68,7 +68,7 @@ abstract class $MedicationHistoryCopyWith<$Res> {
       @ClientUpdatedTimestamp() DateTime? updatedDateTime,
       @ServerCreatedTimestamp() DateTime? serverCreatedDateTime,
       @ServerUpdatedTimestamp() DateTime? serverUpdatedDateTime,
-      @NullableTimestampConverter() DateTime ttlExpiredDateTime});
+      @NullableTimestampConverter() DateTime ttlExpiresDateTime});
 
   $MedicineCopyWith<$Res> get medicine;
   $MedicationHistoryActionCopyWith<$Res> get action;
@@ -100,7 +100,7 @@ class _$MedicationHistoryCopyWithImpl<$Res, $Val extends MedicationHistory> impl
     Object? updatedDateTime = freezed,
     Object? serverCreatedDateTime = freezed,
     Object? serverUpdatedDateTime = freezed,
-    Object? ttlExpiredDateTime = null,
+    Object? ttlExpiresDateTime = null,
   }) {
     return _then(_value.copyWith(
       id: null == id
@@ -151,9 +151,9 @@ class _$MedicationHistoryCopyWithImpl<$Res, $Val extends MedicationHistory> impl
           ? _value.serverUpdatedDateTime
           : serverUpdatedDateTime // ignore: cast_nullable_to_non_nullable
               as DateTime?,
-      ttlExpiredDateTime: null == ttlExpiredDateTime
-          ? _value.ttlExpiredDateTime
-          : ttlExpiredDateTime // ignore: cast_nullable_to_non_nullable
+      ttlExpiresDateTime: null == ttlExpiresDateTime
+          ? _value.ttlExpiresDateTime
+          : ttlExpiresDateTime // ignore: cast_nullable_to_non_nullable
               as DateTime,
     ) as $Val);
   }
@@ -198,7 +198,7 @@ abstract class _$$MedicationHistoryImplCopyWith<$Res> implements $MedicationHist
       @ClientUpdatedTimestamp() DateTime? updatedDateTime,
       @ServerCreatedTimestamp() DateTime? serverCreatedDateTime,
       @ServerUpdatedTimestamp() DateTime? serverUpdatedDateTime,
-      @NullableTimestampConverter() DateTime ttlExpiredDateTime});
+      @NullableTimestampConverter() DateTime ttlExpiresDateTime});
 
   @override
   $MedicineCopyWith<$Res> get medicine;
@@ -228,7 +228,7 @@ class __$$MedicationHistoryImplCopyWithImpl<$Res> extends _$MedicationHistoryCop
     Object? updatedDateTime = freezed,
     Object? serverCreatedDateTime = freezed,
     Object? serverUpdatedDateTime = freezed,
-    Object? ttlExpiredDateTime = null,
+    Object? ttlExpiresDateTime = null,
   }) {
     return _then(_$MedicationHistoryImpl(
       id: null == id
@@ -279,9 +279,9 @@ class __$$MedicationHistoryImplCopyWithImpl<$Res> extends _$MedicationHistoryCop
           ? _value.serverUpdatedDateTime
           : serverUpdatedDateTime // ignore: cast_nullable_to_non_nullable
               as DateTime?,
-      ttlExpiredDateTime: null == ttlExpiredDateTime
-          ? _value.ttlExpiredDateTime
-          : ttlExpiredDateTime // ignore: cast_nullable_to_non_nullable
+      ttlExpiresDateTime: null == ttlExpiresDateTime
+          ? _value.ttlExpiresDateTime
+          : ttlExpiresDateTime // ignore: cast_nullable_to_non_nullable
               as DateTime,
     ));
   }
@@ -304,7 +304,7 @@ class _$MedicationHistoryImpl extends _MedicationHistory {
       @ClientUpdatedTimestamp() this.updatedDateTime,
       @ServerCreatedTimestamp() this.serverCreatedDateTime,
       @ServerUpdatedTimestamp() this.serverUpdatedDateTime,
-      @NullableTimestampConverter() required this.ttlExpiredDateTime})
+      @NullableTimestampConverter() required this.ttlExpiresDateTime})
       : super._();
 
   factory _$MedicationHistoryImpl.fromJson(Map<String, dynamic> json) => _$$MedicationHistoryImplFromJson(json);
@@ -342,11 +342,11 @@ class _$MedicationHistoryImpl extends _MedicationHistory {
   final DateTime? serverUpdatedDateTime;
   @override
   @NullableTimestampConverter()
-  final DateTime ttlExpiredDateTime;
+  final DateTime ttlExpiresDateTime;
 
   @override
   String toString() {
-    return 'MedicationHistory(id: $id, userID: $userID, medicine: $medicine, actionKind: $actionKind, action: $action, memo: $memo, recordedDateTime: $recordedDateTime, scheduledRecordedDate: $scheduledRecordedDate, createdDateTime: $createdDateTime, updatedDateTime: $updatedDateTime, serverCreatedDateTime: $serverCreatedDateTime, serverUpdatedDateTime: $serverUpdatedDateTime, ttlExpiredDateTime: $ttlExpiredDateTime)';
+    return 'MedicationHistory(id: $id, userID: $userID, medicine: $medicine, actionKind: $actionKind, action: $action, memo: $memo, recordedDateTime: $recordedDateTime, scheduledRecordedDate: $scheduledRecordedDate, createdDateTime: $createdDateTime, updatedDateTime: $updatedDateTime, serverCreatedDateTime: $serverCreatedDateTime, serverUpdatedDateTime: $serverUpdatedDateTime, ttlExpiresDateTime: $ttlExpiresDateTime)';
   }
 
   @override
@@ -366,13 +366,13 @@ class _$MedicationHistoryImpl extends _MedicationHistory {
             (identical(other.updatedDateTime, updatedDateTime) || other.updatedDateTime == updatedDateTime) &&
             (identical(other.serverCreatedDateTime, serverCreatedDateTime) || other.serverCreatedDateTime == serverCreatedDateTime) &&
             (identical(other.serverUpdatedDateTime, serverUpdatedDateTime) || other.serverUpdatedDateTime == serverUpdatedDateTime) &&
-            (identical(other.ttlExpiredDateTime, ttlExpiredDateTime) || other.ttlExpiredDateTime == ttlExpiredDateTime));
+            (identical(other.ttlExpiresDateTime, ttlExpiresDateTime) || other.ttlExpiresDateTime == ttlExpiresDateTime));
   }
 
   @JsonKey(includeFromJson: false, includeToJson: false)
   @override
   int get hashCode => Object.hash(runtimeType, id, userID, medicine, actionKind, action, memo, recordedDateTime, scheduledRecordedDate,
-      createdDateTime, updatedDateTime, serverCreatedDateTime, serverUpdatedDateTime, ttlExpiredDateTime);
+      createdDateTime, updatedDateTime, serverCreatedDateTime, serverUpdatedDateTime, ttlExpiresDateTime);
 
   /// Create a copy of MedicationHistory
   /// with the given fields replaced by the non-null parameter values.
@@ -404,7 +404,7 @@ abstract class _MedicationHistory extends MedicationHistory {
       @ClientUpdatedTimestamp() final DateTime? updatedDateTime,
       @ServerCreatedTimestamp() final DateTime? serverCreatedDateTime,
       @ServerUpdatedTimestamp() final DateTime? serverUpdatedDateTime,
-      @NullableTimestampConverter() required final DateTime ttlExpiredDateTime}) = _$MedicationHistoryImpl;
+      @NullableTimestampConverter() required final DateTime ttlExpiresDateTime}) = _$MedicationHistoryImpl;
   const _MedicationHistory._() : super._();
 
   factory _MedicationHistory.fromJson(Map<String, dynamic> json) = _$MedicationHistoryImpl.fromJson;
@@ -441,7 +441,7 @@ abstract class _MedicationHistory extends MedicationHistory {
   DateTime? get serverUpdatedDateTime;
   @override
   @NullableTimestampConverter()
-  DateTime get ttlExpiredDateTime;
+  DateTime get ttlExpiresDateTime;
 
   /// Create a copy of MedicationHistory
   /// with the given fields replaced by the non-null parameter values.
