@@ -1,5 +1,6 @@
 import 'dart:async';
 
+import 'package:async_value_group/async_value_group.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
@@ -21,6 +22,8 @@ import 'package:medicalarm/provider/medicine.dart';
 import 'package:medicalarm/style/color.dart';
 import 'package:medicalarm/utils/date_time/date_time_ext.dart';
 import 'package:medicalarm/utils/local_notification/client.dart';
+import 'package:medicalarm/utils/purchase/purchase.dart';
+import 'package:purchases_flutter/models/customer_info_wrapper.dart';
 
 class MedicationsPage extends HookConsumerWidget {
   const MedicationsPage({super.key});
@@ -31,6 +34,7 @@ class MedicationsPage extends HookConsumerWidget {
     final medicines = ref.watch(activeMedicinesProvider);
     final medicationHistoriesAsync = ref.watch(medicationHistoriesByDateProvider(date.value.date()));
     final medicationHistories = useState(medicationHistoriesAsync.asData?.valueOrNull ?? []);
+    final customerInfo = ref.watch(customerInfoProvider);
 
     useEffect(() {
       final asyncValue = medicationHistoriesAsync.asData;
@@ -42,11 +46,12 @@ class MedicationsPage extends HookConsumerWidget {
 
     return Retry(
       retry: () => ref.invalidate(activeMedicinesProvider),
-      child: medicines.when(
+      child: AsyncValueGroup.group2(medicines, customerInfo).when(
         data: (data) => MedicationsPageBody(
           date: date,
-          medicines: data,
+          medicines: data.$1,
           medicationHistories: medicationHistories.value,
+          customerInfo: data.$2,
         ),
         error: (error, stackTrace) => RetryPage(exception: error),
         loading: () => const IndicatorPage(),
@@ -59,12 +64,14 @@ class MedicationsPageBody extends HookConsumerWidget {
   final ValueNotifier<DateTime> date;
   final List<Medicine> medicines;
   final List<MedicationHistory> medicationHistories;
+  final CustomerInfo customerInfo;
 
   const MedicationsPageBody({
     super.key,
     required this.date,
     required this.medicines,
     required this.medicationHistories,
+    required this.customerInfo,
   });
 
   @override
@@ -116,7 +123,9 @@ class MedicationsPageBody extends HookConsumerWidget {
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.center,
                       children: [
-                        const AdMob(),
+                        if (customerInfo.isPremium) ...[
+                          const AdMob(),
+                        ],
                         for (final tileValue in medicationGroups(
                           medicines: medicines,
                           medicationHistories: medicationHistories,
