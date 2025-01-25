@@ -123,7 +123,6 @@ class MedicineFormPage extends HookConsumerWidget {
                   child: SizedBox(
                     width: double.infinity,
                     child: FloatingActionButton.extended(
-                      
                       onPressed: canSubmit
                           ? () async {
                               try {
