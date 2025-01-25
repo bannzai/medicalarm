@@ -132,13 +132,22 @@ class DoseReceiverAddButton extends HookConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final doseReceiverAdd = ref.watch(doseReceiverAddProvider);
-    return TextButton.icon(
-      onPressed: () {
-        doseReceiverAdd.call(name: '新しい服用者');
-      },
-      icon: const Icon(Icons.add),
-      label: const Text('服用者を追加', style: TextStyle(fontWeight: FontWeight.bold)),
-      style: capsuleTextButtonStyle(context),
+    return Column(
+      children: [
+        if (doseReceivers.length >= DoseReceiver.maxCount) ...[
+          const Text('服用者は最大${DoseReceiver.maxCount}人まで登録できます', style: TextStyle(color: Colors.red)),
+        ],
+        TextButton.icon(
+          onPressed: doseReceivers.length < DoseReceiver.maxCount
+              ? () {
+                  doseReceiverAdd.call(name: '新しい服用者');
+                }
+              : null,
+          icon: const Icon(Icons.add),
+          label: const Text('服用者を追加', style: TextStyle(fontWeight: FontWeight.bold)),
+          style: capsuleTextButtonStyle(context),
+        ),
+      ],
     );
   }
 }

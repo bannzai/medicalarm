@@ -30,4 +30,6 @@ class DoseReceiver with _$DoseReceiver {
         userID: userID,
         name: firstUserName,
       );
+
+  static const int maxCount = 5;
 }
