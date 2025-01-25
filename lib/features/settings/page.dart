@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:medicalarm/components/button/inquriy.dart';
 import 'package:medicalarm/components/button/user_delete.dart';
@@ -72,7 +73,9 @@ class SettingPage extends StatelessWidget {
                 },
               ),
             ]),
-            const DeleteUserButton(),
+            if (kDebugMode) ...[
+              const DeleteUserButton(),
+            ],
           ],
         ),
       ),
