@@ -19,8 +19,8 @@ class MedicalAddFloatingActionButtonChild extends HookConsumerWidget {
       padding: const EdgeInsets.symmetric(horizontal: 16.0),
       child: Column(
         children: [
-          if (medicines.length >= Medicine.maxCount(customerInfo)) ...[
-            Text('お薬は${Medicine.maxCount(customerInfo)}つまで登録できます。', style: const TextStyle(color: TextColor.danger)),
+          if (medicines.length >= Medicine.maxCount(isPremium: customerInfo?.isPremium)) ...[
+            Text('お薬は${Medicine.maxCount(isPremium: customerInfo?.isPremium)}つまで登録できます。', style: const TextStyle(color: TextColor.danger)),
             const SizedBox(height: 4),
           ],
           const Row(

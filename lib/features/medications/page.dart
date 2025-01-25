@@ -135,7 +135,7 @@ class MedicationsPageBody extends HookConsumerWidget {
         ),
       ),
       floatingActionButton: FloatingActionButton.extended(
-        onPressed: medicines.length >= Medicine.maxCount(customerInfo)
+        onPressed: medicines.length >= Medicine.maxCount(isPremium: customerInfo?.isPremium)
             ? null
             : () {
                 showMedicineForm(context, null);

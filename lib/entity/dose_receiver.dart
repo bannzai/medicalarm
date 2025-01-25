@@ -1,8 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:medicalarm/entity/timestamp.dart';
-import 'package:purchases_flutter/purchases_flutter.dart';
-import 'package:medicalarm/utils/purchase/purchase.dart';
 
 part 'dose_receiver.g.dart';
 part 'dose_receiver.freezed.dart';
@@ -33,5 +31,5 @@ class DoseReceiver with _$DoseReceiver {
         name: firstUserName,
       );
 
-  static int maxCount(CustomerInfo? customerInfo) => customerInfo?.isPremium == true ? 10 : 2;
+  static int maxCount({required bool? isPremium}) => isPremium == true ? 10 : 2;
 }

@@ -4,8 +4,6 @@ import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:medicalarm/entity/dose_receiver.dart';
 import 'package:medicalarm/entity/medication_frequency.dart';
 import 'package:medicalarm/entity/timestamp.dart';
-import 'package:purchases_flutter/purchases_flutter.dart';
-import 'package:medicalarm/utils/purchase/purchase.dart';
 
 part 'medicine.g.dart';
 part 'medicine.freezed.dart';
@@ -39,7 +37,7 @@ class Medicine with _$Medicine {
 
   factory Medicine.fromJson(Map<String, dynamic> json) => _$MedicineFromJson(json);
 
-  static int maxCount(CustomerInfo? customerInfo) => customerInfo?.isPremium == true ? 10 : 2;
+  static int maxCount({required bool? isPremium}) => isPremium == true ? 10 : 2;
 }
 
 @freezed
@@ -77,5 +75,5 @@ class MedicationSchedule with _$MedicationSchedule {
     return TimeOfDay(hour: hour, minute: minute);
   }
 
-  static int maxCount(CustomerInfo? customerInfo) => customerInfo?.isPremium == true ? 4 : 2;
+  static int maxCount({required bool? isPremium}) => isPremium == true ? 4 : 2;
 }

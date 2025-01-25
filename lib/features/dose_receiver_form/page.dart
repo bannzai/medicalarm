@@ -3,6 +3,7 @@ import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:medicalarm/components/retry/page.dart';
 import 'package:medicalarm/entity/dose_receiver.dart';
+import 'package:medicalarm/features/preium_introduction/premium_introduction_sheet.dart';
 import 'package:medicalarm/provider/dose_receiver.dart';
 import 'package:medicalarm/style/button.dart';
 import 'package:medicalarm/theme/form.dart';
@@ -136,11 +137,26 @@ class DoseReceiverAddButton extends HookConsumerWidget {
     final customerInfo = ref.watch(customerInfoProvider).asData?.value;
     return Column(
       children: [
-        if (doseReceivers.length >= DoseReceiver.maxCount(customerInfo)) ...[
-          Text('服用者は最大${DoseReceiver.maxCount(customerInfo)}人まで登録できます', style: const TextStyle(color: Colors.red)),
+        if (doseReceivers.length >= DoseReceiver.maxCount(isPremium: customerInfo?.isPremium)) ...[
+          Text('服用者は最大${DoseReceiver.maxCount(isPremium: customerInfo?.isPremium)}人まで登録できます', style: const TextStyle(color: Colors.red)),
+          if (customerInfo?.isPremium == false) ...[
+            TextButton(
+              onPressed: () {
+                showPremiumIntroductionSheet(context);
+              },
+              child: Text(
+                'プレミアムプランで上限を${DoseReceiver.maxCount(isPremium: true)}人に増やす',
+                style: const TextStyle(
+                  color: Colors.blue,
+                  fontWeight: FontWeight.bold,
+                  decoration: TextDecoration.underline,
+                ),
+              ),
+            ),
+          ],
         ],
         TextButton.icon(
-          onPressed: doseReceivers.length < DoseReceiver.maxCount(customerInfo)
+          onPressed: doseReceivers.length < DoseReceiver.maxCount(isPremium: customerInfo?.isPremium)
               ? () {
                   doseReceiverAdd.call(name: '新しい服用者');
                 }
