@@ -20,10 +20,10 @@ extension OfferingTypeFunction on OfferingType {
   String get identifier {
     switch (this) {
       case OfferingType.discounted:
-        return "discounted";
+        return "Discounted";
 
       case OfferingType.premium:
-        return "default";
+        return "Premium";
     }
   }
 }
