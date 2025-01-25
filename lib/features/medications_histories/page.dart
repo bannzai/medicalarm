@@ -1,3 +1,5 @@
+import 'dart:ui';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
@@ -8,9 +10,11 @@ import 'package:medicalarm/components/loading/indicator.dart';
 import 'package:medicalarm/components/retry/page.dart';
 import 'package:medicalarm/components/text/edit_sheet.dart';
 import 'package:medicalarm/entity/medication_history.dart';
+import 'package:medicalarm/features/preium_introduction/premium_introduction_sheet.dart';
 import 'package:medicalarm/provider/medication_history.dart';
 import 'package:medicalarm/style/color.dart';
 import 'package:medicalarm/utils/date_time/date_time_ext.dart';
+import 'package:medicalarm/utils/purchase/purchase.dart';
 
 class MedicationHistoriesPage extends HookConsumerWidget {
   const MedicationHistoriesPage({super.key});
@@ -56,7 +60,7 @@ class MedicationHistoriesPage extends HookConsumerWidget {
   }
 }
 
-class MedicationsHistoryPageBody extends StatelessWidget {
+class MedicationsHistoryPageBody extends HookConsumerWidget {
   final ValueNotifier<DateTime> date;
   final PageController pageController;
   final List<MedicationHistory> histories;
@@ -68,7 +72,8 @@ class MedicationsHistoryPageBody extends StatelessWidget {
   });
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context, WidgetRef ref) {
+    final customerInfo = ref.watch(customerInfoProvider).asData?.value;
     return Scaffold(
       appBar: AppBar(
         title: const Text('服薬履歴'),
@@ -83,18 +88,55 @@ class MedicationsHistoryPageBody extends StatelessWidget {
             ),
             TodayBadge(date: date),
             Expanded(
-              child: ListView.builder(
-                padding: const EdgeInsets.symmetric(vertical: 16.0),
-                itemCount: histories.length,
-                itemBuilder: (context, index) {
-                  final history = histories[index];
-                  return Column(
-                    children: [
-                      MedicationHistoryTile(history: history),
-                      const SizedBox(height: 10),
-                    ],
-                  );
-                },
+              child: Stack(
+                children: [
+                  Positioned.fill(
+                    child: ListView.builder(
+                      padding: const EdgeInsets.symmetric(vertical: 16.0),
+                      itemCount: histories.length,
+                      itemBuilder: (context, index) {
+                        final history = histories[index];
+                        return Column(
+                          children: [
+                            MedicationHistoryTile(history: history),
+                            const SizedBox(height: 10),
+                          ],
+                        );
+                      },
+                    ),
+                  ),
+                  if (customerInfo?.isPremium == false && !isSameDay(today(), date.value)) ...[
+                    Positioned.fill(
+                      child: ClipRRect(
+                        child: Stack(
+                          children: [
+                            BackdropFilter(
+                              filter: ImageFilter.blur(sigmaX: 6, sigmaY: 6),
+                              child: Container(
+                                color: Colors.black.withOpacity(0),
+                              ),
+                            ),
+                            Center(
+                              child: TextButton(
+                                onPressed: () {
+                                  showPremiumIntroductionSheet(context);
+                                },
+                                child: const Text(
+                                  'プレミアムプランの加入で閲覧が可能です',
+                                  style: TextStyle(
+                                    color: Colors.blue,
+                                    fontWeight: FontWeight.bold,
+                                    decoration: TextDecoration.underline,
+                                  ),
+                                ),
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                    ),
+                  ],
+                ],
               ),
             ),
           ],
