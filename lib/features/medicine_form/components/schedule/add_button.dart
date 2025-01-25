@@ -3,6 +3,7 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:medicalarm/entity/medicine.dart';
+import 'package:medicalarm/features/preium_introduction/premium_introduction_sheet.dart';
 import 'package:medicalarm/style/button.dart';
 import 'package:medicalarm/style/color.dart';
 import 'package:medicalarm/utils/local_notification/client.dart';
@@ -28,6 +29,21 @@ class MedicineScheduleAddButton extends HookConsumerWidget {
           Text('服用スケジュールは${MedicationSchedule.maxCount(isPremium: customerInfo?.isPremium)}つまで登録できます。',
               style: const TextStyle(color: TextColor.danger)),
           const SizedBox(height: 4),
+          if (customerInfo?.isPremium == false) ...[
+            TextButton(
+              onPressed: () {
+                showPremiumIntroductionSheet(context);
+              },
+              child: Text(
+                'プレミアムプランで上限を${MedicationSchedule.maxCount(isPremium: true)}つに増やす',
+                style: const TextStyle(
+                  color: Colors.blue,
+                  fontWeight: FontWeight.bold,
+                  decoration: TextDecoration.underline,
+                ),
+              ),
+            ),
+          ],
         ],
         TextButton.icon(
           onPressed: schedules.value.length >= MedicationSchedule.maxCount(isPremium: customerInfo?.isPremium)

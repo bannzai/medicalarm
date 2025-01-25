@@ -75,5 +75,5 @@ class MedicationSchedule with _$MedicationSchedule {
     return TimeOfDay(hour: hour, minute: minute);
   }
 
-  static int maxCount({required bool? isPremium}) => isPremium == true ? 4 : 2;
+  static int maxCount({required bool? isPremium}) => isPremium == true ? 5 : 2;
 }
