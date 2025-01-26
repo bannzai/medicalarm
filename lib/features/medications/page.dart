@@ -227,6 +227,8 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
     final medicationHistoryTake = ref.watch(medicationHistoryTakeProvider);
     final medicationHistoryDelete = ref.watch(medicationHistoryDeleteProvider);
     final registerReminderLocalNotification = ref.read(registerReminderLocalNotificationProvider);
+    final adMobReward = AdMobReward();
+    unawaited(adMobReward.loadRewardedAd());
 
     isChecked.addListener(() {
       if (isChecked.value) {
@@ -258,7 +260,6 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
                     ? null
                     : (value) async {
                         if (totalRecordActionCount > (kDebugMode ? 1 : 20)) {
-                          final adMobReward = AdMobReward();
                           await adMobReward.loadRewardedAd();
                           await adMobReward.showRewardedAd(onEarnedReward: () {
                             isChecked.value = value ?? false;

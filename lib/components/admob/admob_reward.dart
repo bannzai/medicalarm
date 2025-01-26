@@ -17,7 +17,10 @@ class AdMobReward {
 
   RewardedAd? _rewardedAd;
   Future<void> showRewardedAd({required VoidCallback onEarnedReward}) async {
-    await _rewardedAd?.show(onUserEarnedReward: (ad, reward) {
+    if (_rewardedAd == null) {
+      return;
+    }
+    await _rewardedAd!.show(onUserEarnedReward: (ad, reward) {
       debugPrint('Rewarded ad rewarded.');
       onEarnedReward();
     });
