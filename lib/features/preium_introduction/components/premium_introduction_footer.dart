@@ -34,7 +34,7 @@ class PremiumIntroductionFotter extends StatelessWidget {
                   color: Colors.grey.shade700,
                 ),
                 children: [
-                  const TextSpan(text: "・プレミアム契約期間は開始日から起算して1週間、1ヶ月または6ヶ月ごとの自動更新となります\n"),
+                  const TextSpan(text: "・プレミアム契約期間は開始日から起算して1ヶ月または1年間ごとの自動更新となります\n"),
                   const TextSpan(text: "・"),
                   TextSpan(
                     text: "プライバシーポリシー",
