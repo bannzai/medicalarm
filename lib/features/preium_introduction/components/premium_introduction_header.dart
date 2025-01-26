@@ -12,7 +12,7 @@ class PremiumIntroductionHeader extends StatelessWidget {
           style: TextStyle(color: Colors.black, fontFamily: "NotoSansJP", fontSize: 32, fontWeight: FontWeight.w900),
         ),
         Text(
-          "Premium",
+          "プレミアムプラン",
           style: TextStyle(color: Colors.black, fontFamily: "NotoSansJP", fontSize: 24, fontWeight: FontWeight.w600),
         ),
       ],
