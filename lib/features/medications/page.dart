@@ -1,13 +1,11 @@
 import 'dart:async';
 
 import 'package:async_value_group/async_value_group.dart';
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:intl/intl.dart';
 import 'package:medicalarm/components/admob/admob.dart';
-import 'package:medicalarm/components/admob/admob_reward.dart';
 import 'package:medicalarm/components/calendar/weekly/pager.dart';
 import 'package:medicalarm/components/fab/layout.dart';
 import 'package:medicalarm/components/loading/indicator.dart';
@@ -227,8 +225,6 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
     final medicationHistoryTake = ref.watch(medicationHistoryTakeProvider);
     final medicationHistoryDelete = ref.watch(medicationHistoryDeleteProvider);
     final registerReminderLocalNotification = ref.read(registerReminderLocalNotificationProvider);
-    final adMobReward = AdMobReward();
-    unawaited(adMobReward.loadRewardedAd());
 
     isChecked.addListener(() {
       if (isChecked.value) {
@@ -258,17 +254,9 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
                 value: isDisabled ? false : isChecked.value,
                 onChanged: isDisabled
                     ? null
-                    : (value) async {
-                        if (totalRecordActionCount > (kDebugMode ? 1 : 20)) {
-                          await adMobReward.loadRewardedAd();
-                          await adMobReward.showRewardedAd(onEarnedReward: () {
-                            isChecked.value = value ?? false;
-                            ref.read(sharedPreferencesProvider).setInt(IntKey.totalRecordActionCount, totalRecordActionCount + 1);
-                          });
-                        } else {
-                          isChecked.value = value ?? false;
-                          ref.read(sharedPreferencesProvider).setInt(IntKey.totalRecordActionCount, totalRecordActionCount + 1);
-                        }
+                    : (value) {
+                        isChecked.value = value ?? false;
+                        ref.read(sharedPreferencesProvider).setInt(IntKey.totalRecordActionCount, totalRecordActionCount + 1);
                       },
               ),
             ),
