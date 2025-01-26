@@ -35,7 +35,7 @@ class SettingPage extends StatelessWidget {
                   ),
                   onTap: () {
                     analytics.logEvent(name: 'did_select_terms_of_service', parameters: {});
-                    launchUrl(Uri.parse('https://bannzai.github.io/medicalarm/TermsOfService'), mode: LaunchMode.externalApplication);
+                    launchUrl(Uri.parse('https://bannzai.github.io/medicalarm/Terms'), mode: LaunchMode.externalApplication);
                   }),
               const _Divider(),
               ListTile(
