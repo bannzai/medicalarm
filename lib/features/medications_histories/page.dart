@@ -90,21 +90,26 @@ class MedicationsHistoryPageBody extends HookConsumerWidget {
             Expanded(
               child: Stack(
                 children: [
-                  Positioned.fill(
-                    child: ListView.builder(
-                      padding: const EdgeInsets.symmetric(vertical: 16.0),
-                      itemCount: histories.length,
-                      itemBuilder: (context, index) {
-                        final history = histories[index];
-                        return Column(
-                          children: [
-                            MedicationHistoryTile(history: history),
-                            const SizedBox(height: 10),
-                          ],
-                        );
-                      },
+                  if (histories.isEmpty) ...[
+                    const MedicationHistoryEmpty(),
+                  ],
+                  if (histories.isNotEmpty) ...[
+                    Positioned.fill(
+                      child: ListView.builder(
+                        padding: const EdgeInsets.symmetric(vertical: 16.0),
+                        itemCount: histories.length,
+                        itemBuilder: (context, index) {
+                          final history = histories[index];
+                          return Column(
+                            children: [
+                              MedicationHistoryTile(history: history),
+                              const SizedBox(height: 10),
+                            ],
+                          );
+                        },
+                      ),
                     ),
-                  ),
+                  ],
                   if (customerInfo?.isPremium == false && date.value.isBefore(today())) ...[
                     Positioned.fill(
                       child: ClipRRect(
@@ -143,6 +148,15 @@ class MedicationsHistoryPageBody extends HookConsumerWidget {
         ),
       ),
     );
+  }
+}
+
+class MedicationHistoryEmpty extends StatelessWidget {
+  const MedicationHistoryEmpty({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return const Center(child: Text('服薬履歴がありません'));
   }
 }
 
