@@ -1,6 +1,6 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:medicalarm/components/button/inquriy.dart';
+import 'package:medicalarm/components/button/inquiry.dart';
 import 'package:medicalarm/components/button/user_delete.dart';
 import 'package:medicalarm/features/settings/components/premium_introduction.dart';
 import 'package:medicalarm/features/settings/components/section.dart';

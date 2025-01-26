@@ -20,7 +20,7 @@ void inquiry() {
   PackageInfo.fromPlatform().then((value) => debugInfo(', ')).then((info) {
     launchUrl(
         Uri.parse(Uri.encodeFull(
-            'https://docs.google.com/forms/d/e/1FAIpQLSdokN_G4rRbtBvpYw8r8emBcXWLac1iNq2u3g1Z6iM05NgBAQ/viewform?usp=pp_url&entry.1233153512=$info')),
+            'https://docs.google.com/forms/d/e/1FAIpQLSekfSrJzYFKsMyQsTIezbbmOSuIbltomfP6KTs37SoR9_Xrhw/viewform?usp=pp_url&entry.1212480449=$info')),
         mode: LaunchMode.externalApplication);
   });
 }
