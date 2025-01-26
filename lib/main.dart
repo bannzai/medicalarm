@@ -7,6 +7,7 @@ import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:medicalarm/features/root/page.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:medicalarm/provider/shared_preferences.dart';
 import 'package:medicalarm/style/color.dart';
 import 'package:medicalarm/utils/config/remote_config.dart';
 import 'package:medicalarm/utils/local_notification/client.dart';
@@ -22,7 +23,7 @@ void main() async {
     ).wait;
 
     // ignore: prefer_typing_uninitialized_variables
-    final (_, _, _) = await (
+    final (_, sharedPreferences, _) = await (
       LocalNotificationService.setupTimeZone(),
       SharedPreferences.getInstance(),
       setupRemoteConfig(),
@@ -36,7 +37,12 @@ void main() async {
     // MEMO: FirebaseCrashlytics#recordFlutterError called dumpErrorToConsole in function.
     FlutterError.onError = FirebaseCrashlytics.instance.recordFlutterError;
 
-    runApp(const ProviderScope(child: App()));
+    runApp(ProviderScope(
+      overrides: [
+        sharedPreferencesProvider.overrideWith((ref) => sharedPreferences),
+      ],
+      child: const App(),
+    ));
   }, (error, stack) => FirebaseCrashlytics.instance.recordError(error, stack));
 }
 
