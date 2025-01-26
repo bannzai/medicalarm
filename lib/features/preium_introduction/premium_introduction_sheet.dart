@@ -85,91 +85,102 @@ class _Body extends HookConsumerWidget {
               ],
               if (customerInfo.activeSubscriptions.isEmpty) ...[
                 Padding(
-                  padding: const EdgeInsets.symmetric(horizontal: 16),
-                  child: DefaultTextStyle(
-                    style: const TextStyle(fontSize: 18, fontWeight: FontWeight.normal, color: Colors.black),
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        const Row(
-                          children: [
-                            Icon(Icons.remove_red_eye),
-                            SizedBox(width: 8),
-                            Text('広告の非表示'),
-                          ],
-                        ),
-                        const SizedBox(height: 4),
-                        const Row(
-                          children: [
-                            Icon(Icons.history),
-                            SizedBox(width: 8),
-                            Text('服用履歴をすべて表示'),
-                          ],
-                        ),
-                        const SizedBox(height: 4),
-                        Row(
-                          children: [
-                            const Icon(Icons.medication),
-                            const SizedBox(width: 8),
-                            Text.rich(
-                              TextSpan(
-                                children: [
-                                  const TextSpan(
-                                    text: '薬の登録数を',
-                                    style: TextStyle(fontSize: 18, fontWeight: FontWeight.normal, color: Colors.black),
-                                  ),
-                                  TextSpan(
-                                    text: '${Medicine.maxCount(isPremium: false)} → ${Medicine.maxCount(isPremium: true)}',
-                                    style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold, color: Colors.black),
-                                  ),
-                                ],
+                  padding: const EdgeInsets.symmetric(horizontal: 20),
+                  child: Container(
+                    padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 16),
+                    decoration: BoxDecoration(
+                      color: Colors.white,
+                      borderRadius: const BorderRadius.all(Radius.circular(8)),
+                      border: Border.all(
+                        width: 0.4,
+                        color: Colors.grey.shade500,
+                      ),
+                    ),
+                    child: DefaultTextStyle(
+                      style: const TextStyle(fontSize: 18, fontWeight: FontWeight.normal, color: Colors.black),
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          const Row(
+                            children: [
+                              Icon(Icons.remove_red_eye),
+                              SizedBox(width: 8),
+                              Text('広告の非表示'),
+                            ],
+                          ),
+                          const SizedBox(height: 4),
+                          const Row(
+                            children: [
+                              Icon(Icons.history),
+                              SizedBox(width: 8),
+                              Text('服用履歴をすべて表示'),
+                            ],
+                          ),
+                          const SizedBox(height: 4),
+                          Row(
+                            children: [
+                              const Icon(Icons.medication),
+                              const SizedBox(width: 8),
+                              Text.rich(
+                                TextSpan(
+                                  children: [
+                                    const TextSpan(
+                                      text: '薬の登録数を',
+                                      style: TextStyle(fontSize: 18, fontWeight: FontWeight.normal, color: Colors.black),
+                                    ),
+                                    TextSpan(
+                                      text: '${Medicine.maxCount(isPremium: false)} → ${Medicine.maxCount(isPremium: true)}',
+                                      style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold, color: Colors.black),
+                                    ),
+                                  ],
+                                ),
                               ),
-                            ),
-                          ],
-                        ),
-                        const SizedBox(height: 4),
-                        Row(
-                          children: [
-                            const Icon(Icons.schedule),
-                            const SizedBox(width: 8),
-                            Text.rich(
-                              TextSpan(
-                                children: [
-                                  const TextSpan(
-                                    text: '通知のスケジュール数を',
-                                    style: TextStyle(fontSize: 18, fontWeight: FontWeight.normal, color: Colors.black),
-                                  ),
-                                  TextSpan(
-                                    text: '${MedicationSchedule.maxCount(isPremium: false)} → ${MedicationSchedule.maxCount(isPremium: true)}',
-                                    style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold, color: Colors.black),
-                                  ),
-                                ],
+                            ],
+                          ),
+                          const SizedBox(height: 4),
+                          Row(
+                            children: [
+                              const Icon(Icons.schedule),
+                              const SizedBox(width: 8),
+                              Text.rich(
+                                TextSpan(
+                                  children: [
+                                    const TextSpan(
+                                      text: '通知のスケジュール数を',
+                                      style: TextStyle(fontSize: 18, fontWeight: FontWeight.normal, color: Colors.black),
+                                    ),
+                                    TextSpan(
+                                      text: '${MedicationSchedule.maxCount(isPremium: false)} → ${MedicationSchedule.maxCount(isPremium: true)}',
+                                      style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold, color: Colors.black),
+                                    ),
+                                  ],
+                                ),
                               ),
-                            ),
-                          ],
-                        ),
-                        const SizedBox(height: 4),
-                        Row(
-                          children: [
-                            const Icon(Icons.person),
-                            const SizedBox(width: 8),
-                            Text.rich(
-                              TextSpan(
-                                children: [
-                                  const TextSpan(
-                                    text: '服用者の登録数を',
-                                    style: TextStyle(fontSize: 18, fontWeight: FontWeight.normal, color: Colors.black),
-                                  ),
-                                  TextSpan(
-                                    text: '${DoseReceiver.maxCount(isPremium: false)} → ${DoseReceiver.maxCount(isPremium: true)}',
-                                    style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold, color: Colors.black),
-                                  ),
-                                ],
+                            ],
+                          ),
+                          const SizedBox(height: 4),
+                          Row(
+                            children: [
+                              const Icon(Icons.person),
+                              const SizedBox(width: 8),
+                              Text.rich(
+                                TextSpan(
+                                  children: [
+                                    const TextSpan(
+                                      text: '服用者の登録数を',
+                                      style: TextStyle(fontSize: 18, fontWeight: FontWeight.normal, color: Colors.black),
+                                    ),
+                                    TextSpan(
+                                      text: '${DoseReceiver.maxCount(isPremium: false)} → ${DoseReceiver.maxCount(isPremium: true)}',
+                                      style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold, color: Colors.black),
+                                    ),
+                                  ],
+                                ),
                               ),
-                            ),
-                          ],
-                        ),
-                      ],
+                            ],
+                          ),
+                        ],
+                      ),
                     ),
                   ),
                 ),
