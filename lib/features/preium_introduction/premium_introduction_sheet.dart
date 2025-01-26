@@ -87,7 +87,7 @@ class _Body extends HookConsumerWidget {
                     left: 0,
                     top: 0,
                     child: CloseButton(
-                      color: Colors.black,
+                      color: Colors.white,
                     ),
                   ),
                 ],
