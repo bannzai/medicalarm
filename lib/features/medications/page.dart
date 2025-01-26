@@ -1,6 +1,7 @@
 import 'dart:async';
 
 import 'package:async_value_group/async_value_group.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
@@ -255,9 +256,11 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
                 value: isDisabled ? false : isChecked.value,
                 onChanged: isDisabled
                     ? null
-                    : (value) {
-                        if (totalRecordActionCount > 20) {
-                          showRewardedAd(onEarnedReward: () {
+                    : (value) async {
+                        if (totalRecordActionCount > (kDebugMode ? 1 : 20)) {
+                          final adMobReward = AdMobReward();
+                          await adMobReward.loadRewardedAd();
+                          await adMobReward.showRewardedAd(onEarnedReward: () {
                             isChecked.value = value ?? false;
                             ref.read(sharedPreferencesProvider).setInt(IntKey.totalRecordActionCount, totalRecordActionCount + 1);
                           });
