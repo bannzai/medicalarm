@@ -61,7 +61,7 @@ class SettingPage extends StatelessWidget {
                     ),
                   ),
                   onTap: () {
-                    analytics.logEvent(name: 'did_select_specified_commercial_transaction_act', parameters: {});
+                    analytics.logEvent(name: 'did_select_scta', parameters: {});
                     launchUrl(Uri.parse('https://bannzai.github.io/medicalarm/SpecifiedCommercialTransactionAct'),
                         mode: LaunchMode.externalApplication);
                   }),
