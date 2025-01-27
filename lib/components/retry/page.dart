@@ -33,7 +33,7 @@ class RetryPage extends HookConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    debugPrint("Retry: $exception");
+    debugPrint('Retry: $exception');
     return Scaffold(
       body: Center(
         child: Column(

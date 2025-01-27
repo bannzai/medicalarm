@@ -14,7 +14,7 @@ class PremiumCompleteDialog extends StatelessWidget {
         mainAxisSize: MainAxisSize.min,
         children: [
           const Text(
-            "Medicalarmプレミアム登録完了",
+            'Medicalarmプレミアム登録完了',
             style: TextStyle(
               color: Colors.black,
               fontWeight: FontWeight.w700,
@@ -24,7 +24,7 @@ class PremiumCompleteDialog extends StatelessWidget {
           ),
           const SizedBox(height: 24),
           const Text(
-            "ご登録ありがとうございます。\nすべての機能が使えるようになりました！",
+            'ご登録ありがとうございます。\nすべての機能が使えるようになりました！',
             style: TextStyle(
               color: Colors.black,
               fontWeight: FontWeight.w400,
@@ -43,7 +43,7 @@ class PremiumCompleteDialog extends StatelessWidget {
                 Navigator.of(context).pop();
                 onClose();
               },
-              child: const Text("OK"),
+              child: const Text('OK'),
             ),
           ),
         ],

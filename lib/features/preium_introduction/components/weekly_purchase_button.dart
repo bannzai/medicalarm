@@ -32,7 +32,7 @@ class WeeklyPurchaseButton extends StatelessWidget {
           mainAxisSize: MainAxisSize.min,
           children: [
             const Text(
-              "週額プラン",
+              '週額プラン',
               style: TextStyle(
                 color: Colors.black,
                 fontSize: 16,

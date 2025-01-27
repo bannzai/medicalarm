@@ -49,8 +49,8 @@ String discountPriceDeadlineCountdownString(Duration diff) {
   final second = diff.inSeconds % 60;
 
   String formatted(int hour, int minute, int second) {
-    final format = NumberFormat("00");
-    return "${format.format(hour)}:${format.format(minute)}:${format.format(second)}";
+    final format = NumberFormat('00');
+    return '${format.format(hour)}:${format.format(minute)}:${format.format(second)}';
   }
 
   return formatted(hour, minute, second);

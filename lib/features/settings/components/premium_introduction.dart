@@ -11,12 +11,12 @@ class PremiumIntroduction extends StatelessWidget {
   Widget build(BuildContext context) {
     return ListTile(
       onTap: () {
-        analytics.logEvent(name: "tapped_premium_introduction_row");
+        analytics.logEvent(name: 'tapped_premium_introduction_row');
         showPremiumIntroductionSheet(context);
       },
       title: const Row(
         children: [
-          Text("プレミアムプランを見る",
+          Text('プレミアムプランを見る',
               style: TextStyle(
                 fontWeight: FontWeight.w300,
                 fontSize: 16,

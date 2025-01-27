@@ -28,10 +28,10 @@ class CheckForceUpdate {
     final forceUpdate = packageVersion.isLessThan(Version.parse(config.minimumAppVersion));
     if (forceUpdate) {
       analytics.logEvent(
-        name: "screen_type_force_update",
+        name: 'screen_type_force_update',
         parameters: {
-          "package_version": packageVersion.toString(),
-          "minimum_app_version": config.minimumAppVersion,
+          'package_version': packageVersion.toString(),
+          'minimum_app_version': config.minimumAppVersion,
         },
       );
     }

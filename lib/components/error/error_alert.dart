@@ -10,15 +10,15 @@ void showErrorAlert(BuildContext? context, Object error) {
   final String message;
   final String? faqLinkURL;
   if (error is FormatException) {
-    title = "不明なエラーが発生しました";
+    title = '不明なエラーが発生しました';
     message = error.message;
     faqLinkURL = null;
   } else if (error is String) {
-    title = "エラーが発生しました";
+    title = 'エラーが発生しました';
     message = error;
     faqLinkURL = null;
   } else {
-    title = "予想外のエラーが発生しました";
+    title = '予想外のエラーが発生しました';
     message = error.toString();
     faqLinkURL = null;
   }
@@ -46,7 +46,7 @@ class ErrorAlert extends StatelessWidget {
     final faq = faqLinkURL;
     return AlertDialog(
       title: Text(
-        title ?? "エラーが発生しました",
+        title ?? 'エラーが発生しました',
         style: const TextStyle(
           fontWeight: FontWeight.w600,
           fontSize: 16,
@@ -62,13 +62,13 @@ class ErrorAlert extends StatelessWidget {
       actions: <Widget>[
         if (faq != null)
           AlertButton(
-            text: "FAQを見る",
+            text: 'FAQを見る',
             onPressed: () async {
               launchUrl(Uri.parse(faq));
             },
           ),
         AlertButton(
-          text: "閉じる",
+          text: '閉じる',
           onPressed: () async {
             Navigator.of(context).pop();
           },

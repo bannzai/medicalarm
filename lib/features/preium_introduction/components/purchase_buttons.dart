@@ -35,7 +35,7 @@ class PurchaseButtons extends HookConsumerWidget {
           child: MonthlyPurchaseButton(
             monthlyPackage: monthlyPackage,
             onTap: (monthlyPackage) async {
-              analytics.logEvent(name: "pressed_monthly_purchase_button");
+              analytics.logEvent(name: 'pressed_monthly_purchase_button');
               await _purchase(context, monthlyPackage, purchase);
             },
           ),
@@ -49,7 +49,7 @@ class PurchaseButtons extends HookConsumerWidget {
               AnnualPurchaseButton(
                 annualPackage: annualPackage,
                 onTap: (annualPackage) async {
-                  analytics.logEvent(name: "pressed_annual_purchase_button");
+                  analytics.logEvent(name: 'pressed_annual_purchase_button');
                   await _purchase(context, monthlyPackage, purchase);
                 },
               ),
@@ -57,7 +57,7 @@ class PurchaseButtons extends HookConsumerWidget {
                 top: -6,
                 right: 8,
                 child: DiscountBadge(
-                  text: "月額より$annualhDiscountBadgePercent%OFF",
+                  text: '月額より$annualhDiscountBadgePercent%OFF',
                 ),
               ),
             ],
@@ -87,7 +87,7 @@ class PurchaseButtons extends HookConsumerWidget {
         }
       }
     } catch (error) {
-      debugPrint("caused purchase error for $error");
+      debugPrint('caused purchase error for $error');
       if (context.mounted) showErrorAlert(context, error);
     } finally {
       isLoading.value = false;
