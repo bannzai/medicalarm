@@ -20,10 +20,10 @@ extension OfferingTypeFunction on OfferingType {
   String get identifier {
     switch (this) {
       case OfferingType.discounted:
-        return "discounted";
+        return "Discounted";
 
       case OfferingType.premium:
-        return "default";
+        return "Premium";
     }
   }
 }
@@ -74,18 +74,21 @@ extension CustomerInfoExtension on CustomerInfo {
   }
 
   bool get isInPromotion {
-    return promotionExpirationDate?.isAfter(DateTime.now()) ?? false;
+    return false;
+    // return promotionExpirationDate?.isAfter(DateTime.now()) ?? false;
   }
 
   DateTime? get discountDeadlineDate {
-    return promotionExpirationDate?.add(const Duration(days: 3));
+    return null;
+    // return promotionExpirationDate?.add(const Duration(days: 3));
   }
 
   bool get isInDiscountDuration {
-    if (discountDeadlineDate == null) {
-      return false;
-    }
-    return discountDeadlineDate!.isAfter(DateTime.now());
+    return false;
+    // if (discountDeadlineDate == null) {
+    //   return false;
+    // }
+    // return discountDeadlineDate!.isAfter(DateTime.now());
   }
 
   OfferingType get currentOfferingType {
@@ -133,6 +136,12 @@ Package? monthlyPackage(MonthlyPackageRef ref) {
 Package? sixMonthPackage(SixMonthPackageRef ref) {
   final currentOfferingPackages = ref.watch(currentOfferingPackagesProvider);
   return currentOfferingPackages.firstWhereOrNull((element) => element.packageType == PackageType.sixMonth);
+}
+
+@Riverpod(dependencies: [currentOfferingPackages])
+Package? annualPackage(SixMonthPackageRef ref) {
+  final currentOfferingPackages = ref.watch(currentOfferingPackagesProvider);
+  return currentOfferingPackages.firstWhereOrNull((element) => element.packageType == PackageType.annual);
 }
 
 @Riverpod(dependencies: [])

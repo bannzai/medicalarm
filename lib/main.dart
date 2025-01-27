@@ -7,7 +7,11 @@ import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:medicalarm/features/root/page.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:medicalarm/provider/shared_preferences.dart';
 import 'package:medicalarm/style/color.dart';
+import 'package:medicalarm/utils/config/remote_config.dart';
+import 'package:medicalarm/utils/local_notification/client.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 void main() async {
   runZonedGuarded(() async {
@@ -18,10 +22,27 @@ void main() async {
       Firebase.initializeApp(),
     ).wait;
 
+    // ignore: prefer_typing_uninitialized_variables
+    final (_, sharedPreferences, _) = await (
+      LocalNotificationService.setupTimeZone(),
+      SharedPreferences.getInstance(),
+      setupRemoteConfig(),
+    ).wait;
+
+    // AppLocalizationsの初期化を待つ
+    WidgetsBinding.instance.addPostFrameCallback((timeStamp) async {
+      await localNotificationService.initialize();
+    });
+
     // MEMO: FirebaseCrashlytics#recordFlutterError called dumpErrorToConsole in function.
     FlutterError.onError = FirebaseCrashlytics.instance.recordFlutterError;
 
-    runApp(const ProviderScope(child: App()));
+    runApp(ProviderScope(
+      overrides: [
+        sharedPreferencesProvider.overrideWith((ref) => sharedPreferences),
+      ],
+      child: const App(),
+    ));
   }, (error, stack) => FirebaseCrashlytics.instance.recordError(error, stack));
 }
 
@@ -31,12 +52,15 @@ class App extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
+    final colorScheme = ColorScheme.fromSeed(
+      seedColor: AppColors.primary,
+      primary: AppColors.primary,
+    );
+
     return MaterialApp(
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(
-          seedColor: AppColors.primary,
-          primary: AppColors.primary,
-        ),
+        colorScheme: colorScheme,
+        dividerColor: Colors.black,
         bottomSheetTheme: const BottomSheetThemeData(
           backgroundColor: AppColors.formBackground,
         ),
@@ -57,6 +81,32 @@ class App extends StatelessWidget {
         ),
         appBarTheme: const AppBarTheme(
           elevation: 1,
+        ),
+        textButtonTheme: TextButtonThemeData(
+          style: TextButton.styleFrom(
+            foregroundColor: colorScheme.primary,
+            textStyle: const TextStyle(fontSize: 16.0, fontWeight: FontWeight.bold),
+          ),
+        ),
+        elevatedButtonTheme: ElevatedButtonThemeData(
+          style: ElevatedButton.styleFrom(
+            shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
+            padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 12.0),
+            minimumSize: const Size(double.infinity, 48.0),
+            textStyle: const TextStyle(fontSize: 16.0, fontWeight: FontWeight.bold),
+            disabledBackgroundColor: AppColors.disabled,
+          ),
+        ),
+        floatingActionButtonTheme: const FloatingActionButtonThemeData(
+          extendedTextStyle: TextStyle(fontSize: 16.0, fontWeight: FontWeight.bold),
+        ),
+        outlinedButtonTheme: OutlinedButtonThemeData(
+          style: OutlinedButton.styleFrom(
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(10),
+            ),
+            side: const BorderSide(),
+          ),
         ),
         useMaterial3: false,
       ),

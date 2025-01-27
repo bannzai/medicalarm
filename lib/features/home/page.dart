@@ -1,18 +1,22 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
-import 'package:medicalarm/features/medicines/page.dart';
+import 'package:medicalarm/features/medications_histories/page.dart';
+import 'package:medicalarm/features/medications/page.dart';
 import 'package:medicalarm/features/settings/page.dart';
 import 'package:medicalarm/style/color.dart';
 import 'package:medicalarm/utils/analytics/analytics.dart';
+import 'package:medicalarm/utils/push_notification/request_permission.dart';
 
-enum HomePageTabType { medicals, settings }
+enum HomePageTabType { medications, medicationHistories, settings }
 
 extension HomePageTabFunctions on HomePageTabType {
   String get screenName {
     switch (this) {
-      case HomePageTabType.medicals:
-        return 'ShoppingListPage';
+      case HomePageTabType.medications:
+        return 'MedicationsPage';
+      case HomePageTabType.medicationHistories:
+        return 'MedicationHistoriesPage';
       case HomePageTabType.settings:
         return 'SettingsPage';
     }
@@ -27,10 +31,16 @@ class HomePage extends HookConsumerWidget {
     final tabIndex = useState(0);
     final ticker = useSingleTickerProvider();
     final tabController = useTabController(initialLength: HomePageTabType.values.length, vsync: ticker);
+    final registerRemotePushNotificationToken = ref.watch(registerRemotePushNotificationTokenProvider);
     tabController.addListener(() {
       tabIndex.value = tabController.index;
       _screenTracking(tabController.index);
     });
+
+    useEffect(() {
+      requestNotificationPermissions(registerRemotePushNotificationToken);
+      return null;
+    }, []);
 
     return DefaultTabController(
       length: HomePageTabType.values.length,
@@ -47,7 +57,11 @@ class HomePage extends HookConsumerWidget {
               unselectedLabelColor: TextColor.gray,
               tabs: const <Tab>[
                 Tab(
-                  text: 'お薬',
+                  text: '服薬',
+                  icon: Icon(Icons.timer_outlined),
+                ),
+                Tab(
+                  text: '履歴',
                   icon: Icon(Icons.list_alt_outlined),
                 ),
                 Tab(
@@ -62,7 +76,8 @@ class HomePage extends HookConsumerWidget {
           physics: const NeverScrollableScrollPhysics(),
           controller: tabController,
           children: const [
-            MedicinesPage(),
+            MedicationsPage(),
+            MedicationHistoriesPage(),
             SettingPage(),
           ],
         ),

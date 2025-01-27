@@ -6,19 +6,19 @@ part of 'medicine.dart';
 // RiverpodGenerator
 // **************************************************************************
 
-String _$medicinesHash() => r'49cf2d16e2f43cb35a416cf0e2ade92c6df6ff9e';
+String _$activeMedicinesHash() => r'315c7e74899fb23742e2942a6fcc5962c6eb40e7';
 
-/// See also [medicines].
-@ProviderFor(medicines)
-final medicinesProvider = AutoDisposeStreamProvider<List<Medicine>>.internal(
-  medicines,
-  name: r'medicinesProvider',
-  debugGetCreateSourceHash: const bool.fromEnvironment('dart.vm.product') ? null : _$medicinesHash,
+/// See also [activeMedicines].
+@ProviderFor(activeMedicines)
+final activeMedicinesProvider = AutoDisposeStreamProvider<List<Medicine>>.internal(
+  activeMedicines,
+  name: r'activeMedicinesProvider',
+  debugGetCreateSourceHash: const bool.fromEnvironment('dart.vm.product') ? null : _$activeMedicinesHash,
   dependencies: <ProviderOrFamily>[userDatabaseProvider],
   allTransitiveDependencies: <ProviderOrFamily>{userDatabaseProvider, ...?userDatabaseProvider.allTransitiveDependencies},
 );
 
-typedef MedicinesRef = AutoDisposeStreamProviderRef<List<Medicine>>;
+typedef ActiveMedicinesRef = AutoDisposeStreamProviderRef<List<Medicine>>;
 String _$medicineAddHash() => r'fe3d4590db89f60df78f4df5944c9e27076c4652';
 
 /// See also [medicineAdd].

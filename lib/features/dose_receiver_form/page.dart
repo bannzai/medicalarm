@@ -3,13 +3,14 @@ import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:medicalarm/components/retry/page.dart';
 import 'package:medicalarm/entity/dose_receiver.dart';
-import 'package:medicalarm/entity/medicine.dart';
+import 'package:medicalarm/features/preium_introduction/premium_introduction_sheet.dart';
 import 'package:medicalarm/provider/dose_receiver.dart';
 import 'package:medicalarm/style/button.dart';
 import 'package:medicalarm/theme/form.dart';
+import 'package:medicalarm/utils/purchase/purchase.dart';
 
 class DoseReceiverFormPage extends HookConsumerWidget {
-  final ValueNotifier<MedicineDoseReceiver?> doseReceiver;
+  final ValueNotifier<DoseReceiver?> doseReceiver;
 
   const DoseReceiverFormPage({
     super.key,
@@ -33,28 +34,33 @@ class DoseReceiverFormPage extends HookConsumerWidget {
           retry: () => ref.invalidate(doseReceiversProvider),
           child: doseReceivers.when(
             data: (doseReceivers) {
-              return FormTheme(
-                child: Scaffold(
-                  appBar: AppBar(
-                    title: Text('服用者', style: TextStyle(color: primaryColor)),
-                  ),
-                  body: SafeArea(
-                    child: SingleChildScrollView(
-                      child: Padding(
-                        padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 16.0),
-                        child: Column(
-                          children: [
-                            for (final doseReceiver in doseReceivers) ...[
-                              DoseReceiverTextField(
-                                key: ValueKey(doseReceiver.id),
-                                doseReceiver: doseReceiver,
-                                selectedDoseReceiver: selectedDoseReceiver,
-                              ),
-                              const SizedBox(height: 6),
+              return GestureDetector(
+                onTap: () {
+                  FocusScope.of(context).unfocus();
+                },
+                child: FormTheme(
+                  child: Scaffold(
+                    appBar: AppBar(
+                      title: Text('服用者', style: TextStyle(color: primaryColor)),
+                    ),
+                    body: SafeArea(
+                      child: SingleChildScrollView(
+                        child: Padding(
+                          padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 16.0),
+                          child: Column(
+                            children: [
+                              for (final doseReceiver in doseReceivers) ...[
+                                DoseReceiverTextField(
+                                  key: ValueKey(doseReceiver.id),
+                                  doseReceiver: doseReceiver,
+                                  selectedDoseReceiver: selectedDoseReceiver,
+                                ),
+                                const SizedBox(height: 6),
+                              ],
+                              const SizedBox(height: 10),
+                              DoseReceiverAddButton(doseReceivers: doseReceivers),
                             ],
-                            const SizedBox(height: 10),
-                            DoseReceiverAddButton(doseReceivers: doseReceivers),
-                          ],
+                          ),
                         ),
                       ),
                     ),
@@ -77,7 +83,7 @@ class DoseReceiverFormPage extends HookConsumerWidget {
 
 class DoseReceiverTextField extends HookConsumerWidget {
   final DoseReceiver doseReceiver;
-  final ValueNotifier<MedicineDoseReceiver?> selectedDoseReceiver;
+  final ValueNotifier<DoseReceiver?> selectedDoseReceiver;
   const DoseReceiverTextField({
     super.key,
     required this.doseReceiver,
@@ -88,7 +94,6 @@ class DoseReceiverTextField extends HookConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final name = useState(doseReceiver.name);
     final doseReceiverUpdate = ref.watch(doseReceiverUpdateProvider);
-    final doseReceiverDelete = ref.watch(doseReceiverDeleteProvider);
     return Row(
       children: [
         Transform.scale(
@@ -98,7 +103,7 @@ class DoseReceiverTextField extends HookConsumerWidget {
             groupValue: selectedDoseReceiver.value?.id,
             onChanged: (value) {
               if (value != null) {
-                selectedDoseReceiver.value = MedicineDoseReceiver(id: doseReceiver.id, name: doseReceiver.name);
+                selectedDoseReceiver.value = doseReceiver;
               }
             },
           ),
@@ -113,12 +118,6 @@ class DoseReceiverTextField extends HookConsumerWidget {
               doseReceiverUpdate.call(doseReceiver: doseReceiver, name: value);
             },
           ),
-        ),
-        IconButton(
-          onPressed: () {
-            doseReceiverDelete.call(doseReceiver: doseReceiver);
-          },
-          icon: const Icon(Icons.delete),
         ),
       ],
     );
@@ -135,13 +134,38 @@ class DoseReceiverAddButton extends HookConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final doseReceiverAdd = ref.watch(doseReceiverAddProvider);
-    return TextButton.icon(
-      onPressed: () {
-        doseReceiverAdd.call(name: '新しい服用者');
-      },
-      icon: const Icon(Icons.add),
-      label: const Text('服用者を追加', style: TextStyle(fontWeight: FontWeight.bold)),
-      style: secondaryButtonStyle.merge(capsuleButtonStyle),
+    final customerInfo = ref.watch(customerInfoProvider).asData?.value;
+    return Column(
+      children: [
+        if (doseReceivers.length >= DoseReceiver.maxCount(isPremium: customerInfo?.isPremium)) ...[
+          Text('服用者は最大${DoseReceiver.maxCount(isPremium: customerInfo?.isPremium)}人まで登録できます', style: const TextStyle(color: Colors.red)),
+          if (customerInfo?.isPremium == false) ...[
+            TextButton(
+              onPressed: () {
+                showPremiumIntroductionSheet(context);
+              },
+              child: Text(
+                'プレミアムプランで上限を${DoseReceiver.maxCount(isPremium: true)}に増やす',
+                style: const TextStyle(
+                  color: Colors.blue,
+                  fontWeight: FontWeight.bold,
+                  decoration: TextDecoration.underline,
+                ),
+              ),
+            ),
+          ],
+        ],
+        TextButton.icon(
+          onPressed: doseReceivers.length < DoseReceiver.maxCount(isPremium: customerInfo?.isPremium)
+              ? () {
+                  doseReceiverAdd.call(name: '新しい服用者');
+                }
+              : null,
+          icon: const Icon(Icons.add),
+          label: const Text('服用者を追加', style: TextStyle(fontWeight: FontWeight.bold)),
+          style: capsuleTextButtonStyle(context),
+        ),
+      ],
     );
   }
 }

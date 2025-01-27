@@ -9,7 +9,5 @@ String get accountName {
 }
 
 String get forceUpdateStoreURL {
-  return Platform.isIOS
-      ? "https://apps.apple.com/app/apple-store/id6477324661?pt=97327896&ct=force_update&mt=8"
-      : "https://play.google.com/store/apps/details?id=com.bannzai.medicalarml&utm_source=force_update&utm_campaign=force_update&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1";
+  return Platform.isIOS ? "https://apps.apple.com/app/apple-store/id6740401642?pt=97327896&ct=force_update&mt=8" : "";
 }

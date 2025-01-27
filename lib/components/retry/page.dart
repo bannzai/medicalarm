@@ -44,11 +44,14 @@ class RetryPage extends HookConsumerWidget {
               style: Theme.of(context).textTheme.bodyMedium,
             ),
             const SizedBox(height: 16),
-            ElevatedButton(
-              onPressed: () {
-                Retry.of(context).retry();
-              },
-              child: Text(L.retry),
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 12.0),
+              child: ElevatedButton(
+                onPressed: () {
+                  Retry.of(context).retry();
+                },
+                child: Text(L.retry),
+              ),
             ),
           ],
         ),

@@ -30,6 +30,8 @@ class MedicineMemoRow extends StatelessWidget {
           const SizedBox(width: 8),
           Expanded(
             child: TextFormField(
+              maxLines: 5,
+              maxLength: 300,
               initialValue: memo.value,
               onChanged: (value) {
                 memo.value = value;

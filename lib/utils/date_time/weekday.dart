@@ -2,8 +2,10 @@
 
 import 'dart:io';
 
+import 'package:flutter/material.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:intl/intl.dart';
+import 'package:medicalarm/style/color.dart';
 
 enum Weekday {
   @JsonKey(name: 'Sunday')
@@ -52,5 +54,26 @@ extension WeekdayFunctions on Weekday {
 
   String weekdayShortString() {
     return shortWeekdays()[index];
+  }
+
+  Color weekdayColor() {
+    switch (this) {
+      case Weekday.Sunday:
+        return AppColors.sunday;
+      case Weekday.Monday:
+        return AppColors.weekday;
+      case Weekday.Tuesday:
+        return AppColors.weekday;
+      case Weekday.Wednesday:
+        return AppColors.weekday;
+      case Weekday.Thursday:
+        return AppColors.weekday;
+      case Weekday.Friday:
+        return AppColors.weekday;
+      case Weekday.Saturday:
+        return AppColors.saturday;
+      default:
+        throw ArgumentError.notNull('');
+    }
   }
 }

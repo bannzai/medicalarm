@@ -6,7 +6,7 @@ part of 'app_user.dart';
 // RiverpodGenerator
 // **************************************************************************
 
-String _$appUserIDHash() => r'1f065a3c24945e5ad5e7f2869677621f7b5b04a4';
+String _$appUserIDHash() => r'4f06a266d5801bd41331f035ac4916bc2380ea3f';
 
 /// See also [appUserID].
 @ProviderFor(appUserID)
@@ -14,8 +14,8 @@ final appUserIDProvider = AutoDisposeProvider<String>.internal(
   appUserID,
   name: r'appUserIDProvider',
   debugGetCreateSourceHash: const bool.fromEnvironment('dart.vm.product') ? null : _$appUserIDHash,
-  dependencies: <ProviderOrFamily>[userDatabaseProvider],
-  allTransitiveDependencies: <ProviderOrFamily>{userDatabaseProvider, ...?userDatabaseProvider.allTransitiveDependencies},
+  dependencies: <ProviderOrFamily>[appUserProvider],
+  allTransitiveDependencies: <ProviderOrFamily>{appUserProvider, ...?appUserProvider.allTransitiveDependencies},
 );
 
 typedef AppUserIDRef = AutoDisposeProviderRef<String>;

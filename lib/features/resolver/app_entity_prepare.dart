@@ -17,12 +17,12 @@ class AppEntityPrepareResolver extends HookConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final doseReceivers = ref.watch(doseReceiversProvider);
-    final doseReceiverAdd = ref.watch(doseReceiverAddProvider);
+    final firstDoseReceiverAdd = ref.watch(firstDoseReceiverAddProvider);
 
     useEffect(() {
       void f() async {
         if (doseReceivers is AsyncData && doseReceivers.value?.isEmpty == true) {
-          await doseReceiverAdd(name: 'あなた');
+          await firstDoseReceiverAdd.call();
         }
       }
 

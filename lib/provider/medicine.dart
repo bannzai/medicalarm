@@ -1,4 +1,5 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:medicalarm/entity/dose_receiver.dart';
 import 'package:medicalarm/entity/medication_frequency.dart';
 import 'package:medicalarm/entity/medicine.dart';
 import 'package:medicalarm/features/resolver/database.dart';
@@ -7,9 +8,12 @@ import 'package:riverpod_annotation/riverpod_annotation.dart';
 part 'medicine.g.dart';
 
 @Riverpod(dependencies: [userDatabase])
-Stream<List<Medicine>> medicines(MedicinesRef ref) {
+Stream<List<Medicine>> activeMedicines(ActiveMedicinesRef ref) {
   final database = ref.watch(userDatabaseProvider);
-  return database.medicinesReference().snapshots().map((event) => event.docs.map((doc) => doc.data()).toList());
+  return database
+      .medicinesReference()
+      .snapshots()
+      .map((event) => event.docs.map((doc) => doc.data()).where((medicine) => medicine.archivedDateTime == null).toList());
 }
 
 class MedicineAdd {
@@ -21,23 +25,23 @@ class MedicineAdd {
     required String name,
     required MedicationFrequency frequency,
     required List<MedicationSchedule> schedules,
-    required MedicineNotificationSetting notificationSetting,
-    required MedicineDoseReceiver? doseReceiver,
+    required DoseReceiver doseReceiver,
     required String memo,
     required String memoImageURL,
+    required DateTime beganDateTime,
   }) async {
     final collectionRef = database.medicinesReference();
     final docRef = collectionRef.doc();
     final medicine = Medicine(
       userID: database.userID,
       id: docRef.id,
-      name: name,
+      name: name.trim(),
       frequency: frequency,
       schedules: schedules,
-      notificationSetting: notificationSetting,
       doseReceiver: doseReceiver,
       memo: memo,
       memoImageURL: memoImageURL,
+      beganDateTime: beganDateTime,
     );
     await docRef.set(medicine, SetOptions(merge: true));
     return medicine;
@@ -61,20 +65,20 @@ class MedicineUpdate {
     required String name,
     required MedicationFrequency frequency,
     required List<MedicationSchedule> schedules,
-    required MedicineNotificationSetting notificationSetting,
-    required MedicineDoseReceiver? doseReceiver,
+    required DoseReceiver doseReceiver,
     required String memo,
     required String memoImageURL,
+    required DateTime beganDateTime,
   }) async {
     final docRef = database.medicineReference(medicineID: medicineID);
     final newMedicine = medicine.copyWith(
-      name: name,
+      name: name.trim(),
       frequency: frequency,
       schedules: schedules,
-      notificationSetting: notificationSetting,
       doseReceiver: doseReceiver,
       memo: memo,
       memoImageURL: memoImageURL,
+      beganDateTime: beganDateTime,
     );
     await docRef.set(newMedicine, SetOptions(merge: true));
     return newMedicine;

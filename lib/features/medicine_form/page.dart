@@ -1,19 +1,25 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:medicalarm/components/error/error_alert.dart';
+import 'package:medicalarm/components/fab/layout.dart';
 import 'package:medicalarm/components/loading/loading.dart';
+import 'package:medicalarm/entity/dose_receiver.dart';
 import 'package:medicalarm/entity/medication_frequency.dart';
 import 'package:medicalarm/entity/medicine.dart';
 import 'package:medicalarm/features/medicine_form/components/additional_info/section.dart';
+import 'package:medicalarm/features/medicine_form/components/begin/tile.dart';
 import 'package:medicalarm/features/medicine_form/components/medication_frequency/tile.dart';
 import 'package:medicalarm/features/medicine_form/components/name_text_field.dart';
-import 'package:medicalarm/features/medicine_form/components/notification_setting/section.dart';
 import 'package:medicalarm/features/medicine_form/components/schedule/section.dart';
+import 'package:medicalarm/provider/app_user.dart';
 import 'package:medicalarm/provider/medicine.dart';
-import 'package:medicalarm/style/button.dart';
 import 'package:medicalarm/style/color.dart';
 import 'package:medicalarm/theme/form.dart';
+import 'package:medicalarm/utils/date_time/date_time_ext.dart';
+import 'package:medicalarm/utils/local_notification/client.dart';
 
 class MedicineFormPage extends HookConsumerWidget {
   final Medicine? medicine;
@@ -22,23 +28,23 @@ class MedicineFormPage extends HookConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
+    final userID = ref.watch(appUserIDProvider);
     final name = useState(medicine?.name ?? '');
     final frequency = useState(medicine?.frequency ?? const MedicationFrequency.daily());
+    final begin = useState(medicine?.beganDateTime ?? today());
     final schedules = useState(medicine?.schedules ?? []);
     final primaryColor = Theme.of(context).colorScheme.primary;
     final memo = useState(medicine?.memo ?? '');
     final memoImageURL = useState(medicine?.memoImageURL ?? '');
-    final doseReceiver = useState(medicine?.doseReceiver);
-
-    final isReminderEnabled = useState(medicine?.notificationSetting.isReminderEnabled ?? true);
-    final isFollowupEnabled = useState(medicine?.notificationSetting.isFollowupEnabled ?? true);
-    final useCriticalAlert = useState(medicine?.notificationSetting.useCriticalAlert ?? false);
+    final doseReceiver = useState<DoseReceiver>(medicine?.doseReceiver ?? DoseReceiver.firstUser(userID: userID));
 
     final medicineAdd = ref.watch(medicineAddProvider);
     final medicineUpdate = ref.watch(medicineUpdateProvider);
 
     final isLoading = useState(false);
     final canSubmit = name.value.isNotEmpty && schedules.value.isNotEmpty;
+
+    final registerReminderLocalNotification = ref.read(registerReminderLocalNotificationProvider);
 
     Future<void> submit() async {
       final medicine = this.medicine;
@@ -50,11 +56,7 @@ class MedicineFormPage extends HookConsumerWidget {
           memo: memo.value,
           memoImageURL: memoImageURL.value,
           doseReceiver: doseReceiver.value,
-          notificationSetting: MedicineNotificationSetting(
-            isReminderEnabled: isReminderEnabled.value,
-            isFollowupEnabled: isFollowupEnabled.value,
-            useCriticalAlert: useCriticalAlert.value,
-          ),
+          beganDateTime: begin.value,
         );
       } else {
         await medicineUpdate(
@@ -66,11 +68,7 @@ class MedicineFormPage extends HookConsumerWidget {
           memo: memo.value,
           memoImageURL: memoImageURL.value,
           doseReceiver: doseReceiver.value,
-          notificationSetting: MedicineNotificationSetting(
-            isReminderEnabled: isReminderEnabled.value,
-            isFollowupEnabled: isFollowupEnabled.value,
-            useCriticalAlert: useCriticalAlert.value,
-          ),
+          beganDateTime: begin.value,
         );
       }
     }
@@ -79,93 +77,105 @@ class MedicineFormPage extends HookConsumerWidget {
         initialChildSize: 1.0,
         maxChildSize: 1.0,
         builder: (context, scrollController) {
-          return FormTheme(
-            child: Scaffold(
-              appBar: AppBar(
-                title: Text('Medicine Form', style: TextStyle(color: primaryColor)),
-              ),
-              body: SafeArea(
-                child: Stack(
-                  children: [
-                    SingleChildScrollView(
-                      padding: const EdgeInsets.only(bottom: 60.0),
-                      child: Column(
-                        children: [
-                          Padding(
-                            padding: const EdgeInsets.symmetric(vertical: 16.0),
-                            child: Column(
-                              children: [
-                                MedicineFormNameTextField(name: name),
-                                const SizedBox(height: 6),
-                                MedicationFrequencyTile(frequency: frequency),
-                              ],
-                            ),
+          return GestureDetector(
+            onTap: () {
+              FocusScope.of(context).unfocus();
+            },
+            child: FormTheme(
+              child: Scaffold(
+                appBar: AppBar(
+                  title: Text('お薬登録画面', style: TextStyle(color: primaryColor)),
+                ),
+                body: FloatingActionButtonLayout(
+                  scaffoldBody: SafeArea(
+                    child: Stack(
+                      children: [
+                        SingleChildScrollView(
+                          padding: const EdgeInsets.only(bottom: 60.0),
+                          child: Column(
+                            children: [
+                              Padding(
+                                padding: const EdgeInsets.symmetric(vertical: 16.0),
+                                child: Column(
+                                  children: [
+                                    MedicineFormNameTextField(name: name),
+                                    const SizedBox(height: 6),
+                                    MedicationFrequencyTile(frequency: frequency),
+                                    const SizedBox(height: 6),
+                                    MedicationBeginTile(begin: begin),
+                                  ],
+                                ),
+                              ),
+                              const Divider(color: Colors.black, height: 1),
+                              MedicineScheduleSection(schedules: schedules),
+                              const Divider(color: Colors.black, height: 1),
+                              MedicineAdditionalInfoSection(
+                                memo: memo,
+                                memoImageURL: memoImageURL,
+                                doseReceiver: doseReceiver,
+                              ),
+                            ],
                           ),
-                          const Divider(color: Colors.black, height: 1),
-                          MedicineScheduleSection(schedules: schedules),
-                          const Divider(color: Colors.black, height: 1),
-                          if (schedules.value.isNotEmpty) ...[
-                            MedicineNotificationSettingSection(
-                              isReminderEnabled: isReminderEnabled,
-                              isFollowupEnabled: isFollowupEnabled,
-                              useCriticalAlert: useCriticalAlert,
-                            ),
-                          ],
-                          MedicineAdditionalInfoSection(
-                            memo: memo,
-                            memoImageURL: memoImageURL,
-                            doseReceiver: doseReceiver,
-                          ),
-                        ],
-                      ),
+                        ),
+                      ],
                     ),
-                    Align(
-                      alignment: Alignment.bottomCenter,
-                      child: Padding(
-                        padding: const EdgeInsets.symmetric(horizontal: 12.0),
-                        child: Column(
+                  ),
+                  floatingActionButton: Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: 16.0),
+                    child: SizedBox(
+                      width: double.infinity,
+                      child: ElevatedButton.icon(
+                        onPressed: canSubmit
+                            ? () async {
+                                try {
+                                  if (isLoading.value) {
+                                    return;
+                                  }
+                                  isLoading.value = true;
+
+                                  await submit();
+                                  unawaited(registerReminderLocalNotification());
+
+                                  if (context.mounted) {
+                                    Navigator.pop(context);
+                                  }
+                                } catch (e) {
+                                  if (context.mounted) {
+                                    showErrorAlert(context, e.toString());
+                                  }
+                                } finally {
+                                  isLoading.value = false;
+                                }
+                              }
+                            : null,
+                        label: Column(
                           children: [
-                            const Spacer(),
                             if (!canSubmit) ...[
-                              const Text('名前と服用時刻を入力してください', style: TextStyle(color: TextColor.danger, fontSize: 10.0)),
+                              const Text('名前と服用スケジュールを入力してください', style: TextStyle(color: TextColor.danger, fontSize: 10.0)),
                             ],
                             Loading(
                               isLoading: isLoading.value,
-                              child: ElevatedButton(
-                                style: elevatedButtonStyle,
-                                onPressed: canSubmit
-                                    ? () async {
-                                        try {
-                                          if (isLoading.value) {
-                                            return;
-                                          }
-                                          isLoading.value = true;
-
-                                          await submit();
-                                          if (context.mounted) {
-                                            Navigator.pop(context);
-                                          }
-                                        } catch (e) {
-                                          if (context.mounted) {
-                                            showErrorAlert(context, e.toString());
-                                          }
-                                        } finally {
-                                          isLoading.value = false;
-                                        }
-                                      }
-                                    : null,
-                                child: const Text('保存'),
-                              ),
+                              child: const Text('保存'),
                             ),
                           ],
                         ),
                       ),
                     ),
-                  ],
+                  ),
                 ),
               ),
             ),
           );
         });
   }
+}
+
+void showMedicineForm(BuildContext context, Medicine? medicine) {
+  showModalBottomSheet(
+    context: context,
+    useSafeArea: true,
+    isScrollControlled: true,
+    backgroundColor: Colors.transparent,
+    builder: (context) => MedicineFormPage(medicine: medicine),
+  );
 }

@@ -1,6 +1,8 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:medicalarm/components/button/inquriy.dart';
+import 'package:medicalarm/components/button/inquiry.dart';
 import 'package:medicalarm/components/button/user_delete.dart';
+import 'package:medicalarm/features/settings/components/premium_introduction.dart';
 import 'package:medicalarm/features/settings/components/section.dart';
 import 'package:medicalarm/style/color.dart';
 import 'package:medicalarm/utils/analytics/analytics.dart';
@@ -18,6 +20,10 @@ class SettingPage extends StatelessWidget {
       body: SafeArea(
         child: Column(
           children: [
+            const SettingSectionTitle(text: "プレミアムプラン", children: [
+              PremiumIntroduction(),
+              _Divider(),
+            ]),
             SettingSectionTitle(text: 'アプリについて', children: [
               ListTile(
                   title: const Text(
@@ -29,7 +35,7 @@ class SettingPage extends StatelessWidget {
                   ),
                   onTap: () {
                     analytics.logEvent(name: 'did_select_terms_of_service', parameters: {});
-                    launchUrl(Uri.parse('https://bannzai.github.io/medicalarm/TermsOfService'), mode: LaunchMode.externalApplication);
+                    launchUrl(Uri.parse('https://bannzai.github.io/medicalarm/Terms'), mode: LaunchMode.externalApplication);
                   }),
               const _Divider(),
               ListTile(
@@ -55,7 +61,7 @@ class SettingPage extends StatelessWidget {
                     ),
                   ),
                   onTap: () {
-                    analytics.logEvent(name: 'did_select_specified_commercial_transaction_act', parameters: {});
+                    analytics.logEvent(name: 'did_select_scta', parameters: {});
                     launchUrl(Uri.parse('https://bannzai.github.io/medicalarm/SpecifiedCommercialTransactionAct'),
                         mode: LaunchMode.externalApplication);
                   }),
@@ -67,7 +73,9 @@ class SettingPage extends StatelessWidget {
                 },
               ),
             ]),
-            const DeleteUserButton(),
+            if (kDebugMode) ...[
+              const DeleteUserButton(),
+            ],
           ],
         ),
       ),

@@ -17,12 +17,13 @@ class DoseReceiverAdd {
   DoseReceiverAdd({required this.database});
 
   Future<DoseReceiver> call({
+    String? id,
     required String name,
   }) async {
     final collectionRef = database.doseReceiversReference();
     final docRef = collectionRef.doc();
     final doseReceiver = DoseReceiver(
-      id: docRef.id,
+      id: id ?? docRef.id,
       userID: database.userID,
       name: name,
     );
@@ -35,6 +36,23 @@ class DoseReceiverAdd {
 DoseReceiverAdd doseReceiverAdd(DoseReceiverAddRef ref) {
   final database = ref.watch(userDatabaseProvider);
   return DoseReceiverAdd(database: database);
+}
+
+class FirstDoseReceiverAdd {
+  final UserDatabase database;
+
+  FirstDoseReceiverAdd({required this.database});
+
+  Future<void> call() async {
+    final doseReceiverAdd = DoseReceiverAdd(database: database);
+    await doseReceiverAdd.call(id: DoseReceiver.firstUserID, name: DoseReceiver.firstUserName);
+  }
+}
+
+@Riverpod(dependencies: [userDatabase])
+FirstDoseReceiverAdd firstDoseReceiverAdd(FirstDoseReceiverAddRef ref) {
+  final database = ref.watch(userDatabaseProvider);
+  return FirstDoseReceiverAdd(database: database);
 }
 
 class DoseReceiverUpdate {
@@ -58,21 +76,4 @@ class DoseReceiverUpdate {
 DoseReceiverUpdate doseReceiverUpdate(DoseReceiverUpdateRef ref) {
   final database = ref.watch(userDatabaseProvider);
   return DoseReceiverUpdate(database: database);
-}
-
-class DoseReceiverDelete {
-  final UserDatabase database;
-
-  DoseReceiverDelete({required this.database});
-
-  Future<void> call({required DoseReceiver doseReceiver}) async {
-    final docRef = database.doseReceiverReference(doseReceiverID: doseReceiver.id);
-    await docRef.delete();
-  }
-}
-
-@Riverpod(dependencies: [userDatabase])
-DoseReceiverDelete doseReceiverDelete(DoseReceiverDeleteRef ref) {
-  final database = ref.watch(userDatabaseProvider);
-  return DoseReceiverDelete(database: database);
 }
