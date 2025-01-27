@@ -11,11 +11,11 @@ class PremiumIntroductionHeader extends StatelessWidget {
       child: Column(
         children: [
           Image.asset(
-            "assets/premium_header.png",
+            'assets/premium_header.png',
             height: 140,
           ),
           const Text(
-            "プレミアムプラン",
+            'プレミアムプラン',
             style: TextStyle(
               color: TextColor.white,
               fontSize: 20,

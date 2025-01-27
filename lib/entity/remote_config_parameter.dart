@@ -4,11 +4,11 @@ part 'remote_config_parameter.freezed.dart';
 part 'remote_config_parameter.g.dart';
 
 abstract class RemoteConfigKeys {
-  static const minimumAppVersion = "minimumAppVersion";
+  static const minimumAppVersion = 'minimumAppVersion';
 }
 
 abstract class RemoteConfigParameterDefaultValues {
-  static const minimumAppVersion = "1.0.0";
+  static const minimumAppVersion = '1.0.0';
 }
 
 @freezed

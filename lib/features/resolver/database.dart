@@ -17,12 +17,12 @@ import 'package:medicalarm/entity/medication_history.dart';
 part 'database.g.dart';
 
 abstract class _CollectionPath {
-  static const String users = "/users";
+  static const String users = '/users';
   static String userPrivates(String userID) => '$users/$userID/privates';
-  static String medicines(String userID) => "/users/$userID/medicines";
-  static String doseReceivers(String userID) => "/users/$userID/doseReceivers";
-  static String medicationHistories(String userID) => "/users/$userID/medicationHistories";
-  static String diaries(String userID) => "/users/$userID/diaries";
+  static String medicines(String userID) => '/users/$userID/medicines';
+  static String doseReceivers(String userID) => '/users/$userID/doseReceivers';
+  static String medicationHistories(String userID) => '/users/$userID/medicationHistories';
+  static String diaries(String userID) => '/users/$userID/diaries';
 
 // [DiarySetting:WIP] 服用者ごとのタグをどういう風に管理するのが良いかわかなかったのでファーストリリースから外す
   // static String diarySettings(String userID) => "/users/$userID/diarySettings";
@@ -42,7 +42,7 @@ class UserDatabase {
   final String userID;
   UserDatabase({required this.userID});
 
-  final FromFirestore<AppUser> _userFromFirestore = (snapshot, options) => AppUser.fromJson(snapshot.data()!..["id"] = snapshot.id);
+  final FromFirestore<AppUser> _userFromFirestore = (snapshot, options) => AppUser.fromJson(snapshot.data()!..['id'] = snapshot.id);
   final ToFirestore<AppUser> _userToFirestore = (user, options) => user.toJson();
   DocumentReference<AppUser> userReference() => FirebaseFirestore.instance.collection(_CollectionPath.users).doc(userID).withConverter(
         fromFirestore: _userFromFirestore,
@@ -50,7 +50,7 @@ class UserDatabase {
       );
   DocumentReference userPrivateRawReference() => FirebaseFirestore.instance.collection(_CollectionPath.userPrivates(userID)).doc(userID);
 
-  final FromFirestore<Medicine> _medicineFromFirestore = (snapshot, options) => Medicine.fromJson(snapshot.data()!..["id"] = snapshot.id);
+  final FromFirestore<Medicine> _medicineFromFirestore = (snapshot, options) => Medicine.fromJson(snapshot.data()!..['id'] = snapshot.id);
   final ToFirestore<Medicine> _medicineToFirestore = (medicine, options) => medicine.toJson();
   CollectionReference<Medicine> medicinesReference() => FirebaseFirestore.instance.collection(_CollectionPath.medicines(userID)).withConverter(
         fromFirestore: _medicineFromFirestore,
@@ -62,7 +62,7 @@ class UserDatabase {
             toFirestore: _medicineToFirestore,
           );
 
-  final FromFirestore<DoseReceiver> _doseReceiverFromFirestore = (snapshot, options) => DoseReceiver.fromJson(snapshot.data()!..["id"] = snapshot.id);
+  final FromFirestore<DoseReceiver> _doseReceiverFromFirestore = (snapshot, options) => DoseReceiver.fromJson(snapshot.data()!..['id'] = snapshot.id);
   final ToFirestore<DoseReceiver> _doseReceiverToFirestore = (doseReceiver, options) => doseReceiver.toJson();
   CollectionReference<DoseReceiver> doseReceiversReference() =>
       FirebaseFirestore.instance.collection(_CollectionPath.doseReceivers(userID)).withConverter(
@@ -76,14 +76,14 @@ class UserDatabase {
           );
 
   final FromFirestore<MedicationHistory> _medicationHistoryFromFirestore =
-      (snapshot, options) => MedicationHistory.fromJson(snapshot.data()!..["id"] = snapshot.id);
+      (snapshot, options) => MedicationHistory.fromJson(snapshot.data()!..['id'] = snapshot.id);
   final ToFirestore<MedicationHistory> _medicationHistoryToFirestore = (medicationHistory, options) => medicationHistory.toJson();
   CollectionReference<MedicationHistory> medicationHistoriesReference() =>
       FirebaseFirestore.instance.collection(_CollectionPath.medicationHistories(userID)).withConverter(
             fromFirestore: _medicationHistoryFromFirestore,
             toFirestore: _medicationHistoryToFirestore,
           );
-  final FromFirestore<Diary> _diaryFromFirestore = (snapshot, options) => Diary.fromJson(snapshot.data()!..["id"] = snapshot.id);
+  final FromFirestore<Diary> _diaryFromFirestore = (snapshot, options) => Diary.fromJson(snapshot.data()!..['id'] = snapshot.id);
   final ToFirestore<Diary> _diaryToFirestore = (diary, options) => diary.toJson();
   CollectionReference<Diary> diariesReference() => FirebaseFirestore.instance.collection(_CollectionPath.diaries(userID)).withConverter(
         fromFirestore: _diaryFromFirestore,

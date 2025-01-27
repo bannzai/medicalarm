@@ -20,7 +20,7 @@ class SettingPage extends StatelessWidget {
       body: SafeArea(
         child: Column(
           children: [
-            const SettingSectionTitle(text: "プレミアムプラン", children: [
+            const SettingSectionTitle(text: 'プレミアムプラン', children: [
               PremiumIntroduction(),
               _Divider(),
             ]),

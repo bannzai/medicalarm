@@ -6,7 +6,7 @@ part 'diary.freezed.dart';
 part 'diary.g.dart';
 
 abstract class DiaryFirestoreKey {
-  static const String date = "date";
+  static const String date = 'date';
 }
 
 @freezed

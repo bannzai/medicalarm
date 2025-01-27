@@ -8,7 +8,7 @@ class PremiumUserThanksRow extends StatelessWidget {
     return const Column(
       children: [
         Text(
-          "あなたは\vプレミアムメンバーです",
+          'あなたは\vプレミアムメンバーです',
           style: TextStyle(
             fontWeight: FontWeight.w700,
             fontSize: 16,
@@ -17,7 +17,7 @@ class PremiumUserThanksRow extends StatelessWidget {
           textAlign: TextAlign.center,
         ),
         Text(
-          "ご利用ありがとうございます。\nお陰様でMedicalarmの運営を継続できています。",
+          'ご利用ありがとうございます。\nお陰様でMedicalarmの運営を継続できています。',
           style: TextStyle(
             fontWeight: FontWeight.w400,
             fontSize: 14,
