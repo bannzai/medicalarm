@@ -89,7 +89,7 @@ class MedicationFrequencyFormPage extends HookConsumerWidget {
                                   text: L.everyXDays,
                                   children: [
                                     ListTile(
-                                      title: Text('${frequencyValue.interval}日ごと'),
+                                      title: Text(L.everyXDaysFormat(frequencyValue.interval)),
                                       trailing: const Icon(Icons.chevron_right),
                                       onTap: () async {
                                         final interval = await showModalBottomSheet<int>(
@@ -117,7 +117,7 @@ class MedicationFrequencyFormPage extends HookConsumerWidget {
                                   text: L.cycle,
                                   children: [
                                     ListTile(
-                                      title: Text('${frequencyValue.consecutiveDays}日服用'),
+                                      title: Text(L.consecutiveDaysFormat(frequencyValue.consecutiveDays)),
                                       trailing: const Icon(Icons.chevron_right),
                                       onTap: () async {
                                         final consecutiveDays = await showModalBottomSheet<int>(
@@ -135,7 +135,7 @@ class MedicationFrequencyFormPage extends HookConsumerWidget {
                                     ),
                                     const Divider(color: Colors.black, height: 1),
                                     ListTile(
-                                      title: Text('${frequencyValue.restDays}日休薬'),
+                                      title: Text(L.restDaysFormat(frequencyValue.restDays)),
                                       trailing: const Icon(Icons.chevron_right),
                                       onTap: () async {
                                         final restDays = await showModalBottomSheet<int>(
