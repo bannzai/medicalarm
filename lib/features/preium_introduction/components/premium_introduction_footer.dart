@@ -74,7 +74,7 @@ class PremiumIntroductionFotter extends StatelessWidget {
                     text: '・${L.autoRenewalNotice}\n',
                   ),
                   TextSpan(
-                    text: '・購入後、自動更新の解約は${storeName}アプリのアカウント設定で行えます。(アプリ内から自動更新の解約は行なえません)。',
+                    text: L.premiumCancelDescription(storeName),
                   ),
                 ],
               ),
@@ -139,7 +139,7 @@ class PremiumIntroductionFotter extends StatelessWidget {
         'entitlements': entitlements?.identifier ?? '',
         'isActivated': entitlements?.isActive ?? false,
       });
-      throw const FormatException('以前の購入情報が見つかりません。アカウントをお確かめの上再度お試しください');
+      throw FormatException(L.purchaseErrorRestoreFailed);
     } on PlatformException catch (exception, stack) {
       analytics.logEvent(
           name: 'catched_restore_exception',

@@ -8,6 +8,7 @@ import 'package:medicalarm/utils/analytics/analytics.dart';
 import 'package:medicalarm/utils/analytics/error.dart';
 import 'package:medicalarm/utils/purchase/error.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
+import 'package:medicalarm/features/localization/l.dart';
 
 part 'purchase.g.dart';
 
@@ -174,7 +175,7 @@ class Purchase {
         throw AssertionError('unexpected premium entitlements is not exists');
       }
       if (!premiumEntitlement.isActive) {
-        throw const FormatException('課金の有効化が完了しておりません。しばらく時間をおいてからご確認ください');
+        throw FormatException(L.purchaseErrorActivationPending);
       }
       return Future.value(true);
     } on PlatformException catch (exception, stack) {
