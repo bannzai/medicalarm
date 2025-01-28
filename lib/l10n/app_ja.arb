@@ -407,5 +407,45 @@
   "notificationScheduleLimit": "通知のスケジュール数を",
   "@notificationScheduleLimit": {
     "description": "通知スケジュールの上限を説明するテキストの一部"
+  },
+  "addMedicine": "お薬を追加",
+  "@addMedicine": {
+    "description": "お薬を追加するボタンのテキスト"
+  },
+  "medicineMaxCount": "お薬は{count}つまで登録できます。",
+  "@medicineMaxCount": {
+    "description": "お薬の最大登録数を表示するメッセージ",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "increaseMedicineLimitWithPremium": "プレミアムプランで上限を{count}に増やす",
+  "@increaseMedicineLimitWithPremium": {
+    "description": "お薬の登録上限をプレミアムプランで増やすことを案内するメッセージ",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "10"
+      }
+    }
+  },
+  "aboutApp": "アプリについて",
+  "@aboutApp": {
+    "description": "アプリについてのセクションタイトル"
+  },
+  "termsOfService": "利用規約",
+  "@termsOfService": {
+    "description": "利用規約へのリンクテキスト"
+  },
+  "privacyPolicy": "プライバシーポリシー",
+  "@privacyPolicy": {
+    "description": "プライバシーポリシーへのリンクテキスト"
+  },
+  "specifiedCommercialTransactionAct": "特定商法取引法に基づく表記",
+  "@specifiedCommercialTransactionAct": {
+    "description": "特定商法取引法に基づく表記へのリンクテキスト"
   }
 }

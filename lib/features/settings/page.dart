@@ -7,6 +7,7 @@ import 'package:medicalarm/features/settings/components/section.dart';
 import 'package:medicalarm/style/color.dart';
 import 'package:medicalarm/utils/analytics/analytics.dart';
 import 'package:url_launcher/url_launcher.dart';
+import 'package:medicalarm/features/localization/l.dart';
 
 class SettingPage extends StatelessWidget {
   const SettingPage({super.key});
@@ -15,20 +16,20 @@ class SettingPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('設定'),
+        title: Text(L.settings),
       ),
       body: SafeArea(
         child: Column(
           children: [
-            const SettingSectionTitle(text: 'プレミアムプラン', children: [
+            SettingSectionTitle(text: L.premiumPlan, children: const [
               PremiumIntroduction(),
               _Divider(),
             ]),
-            SettingSectionTitle(text: 'アプリについて', children: [
+            SettingSectionTitle(text: L.aboutApp, children: [
               ListTile(
-                  title: const Text(
-                    '利用規約',
-                    style: TextStyle(
+                  title: Text(
+                    L.termsOfService,
+                    style: const TextStyle(
                       fontWeight: FontWeight.w300,
                       fontSize: 16,
                     ),
@@ -39,9 +40,9 @@ class SettingPage extends StatelessWidget {
                   }),
               const _Divider(),
               ListTile(
-                title: const Text(
-                  'プライバシーポリシー',
-                  style: TextStyle(
+                title: Text(
+                  L.privacyPolicy,
+                  style: const TextStyle(
                     fontWeight: FontWeight.w300,
                     fontSize: 16,
                   ),
@@ -53,9 +54,9 @@ class SettingPage extends StatelessWidget {
               ),
               const _Divider(),
               ListTile(
-                  title: const Text(
-                    '特定商法取引法に基づく表記',
-                    style: TextStyle(
+                  title: Text(
+                    L.specifiedCommercialTransactionAct,
+                    style: const TextStyle(
                       fontWeight: FontWeight.w300,
                       fontSize: 16,
                     ),
@@ -67,7 +68,7 @@ class SettingPage extends StatelessWidget {
                   }),
               const _Divider(),
               ListTile(
-                title: const Text('お問い合わせ'),
+                title: Text(L.inquiry),
                 onTap: () {
                   inquiry();
                 },

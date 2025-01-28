@@ -5,6 +5,7 @@ import 'package:medicalarm/features/medicine_form/page.dart';
 import 'package:medicalarm/features/preium_introduction/premium_introduction_sheet.dart';
 import 'package:medicalarm/style/color.dart';
 import 'package:medicalarm/utils/purchase/purchase.dart';
+import 'package:medicalarm/features/localization/l.dart';
 
 class MedicalAddFloatingActionButtonChild extends HookConsumerWidget {
   const MedicalAddFloatingActionButtonChild({
@@ -22,7 +23,10 @@ class MedicalAddFloatingActionButtonChild extends HookConsumerWidget {
       child: Column(
         children: [
           if (medicines.length >= Medicine.maxCount(isPremium: customerInfo?.isPremium)) ...[
-            Text('お薬は${Medicine.maxCount(isPremium: customerInfo?.isPremium)}つまで登録できます。', style: const TextStyle(color: TextColor.danger)),
+            Text(
+              L.medicineMaxCount(Medicine.maxCount(isPremium: customerInfo?.isPremium)),
+              style: const TextStyle(color: TextColor.danger)
+            ),
             const SizedBox(height: 4),
             if (customerInfo?.isPremium == false) ...[
               TextButton(
@@ -30,7 +34,7 @@ class MedicalAddFloatingActionButtonChild extends HookConsumerWidget {
                   showPremiumIntroductionSheet(context);
                 },
                 child: Text(
-                  'プレミアムプランで上限を${Medicine.maxCount(isPremium: true)}に増やす',
+                  L.increaseMedicineLimitWithPremium(Medicine.maxCount(isPremium: true)),
                   style: const TextStyle(
                     color: Colors.blue,
                     fontWeight: FontWeight.bold,
@@ -47,7 +51,7 @@ class MedicalAddFloatingActionButtonChild extends HookConsumerWidget {
                   }
                 : null,
             icon: const Icon(Icons.add),
-            label: const Text('お薬を追加'),
+            label: Text(L.addMedicine),
           ),
         ],
       ),
