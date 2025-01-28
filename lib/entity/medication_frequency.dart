@@ -1,4 +1,5 @@
 import 'package:freezed_annotation/freezed_annotation.dart';
+import 'package:medicalarm/features/localization/l.dart';
 import 'package:medicalarm/utils/date_time/weekday.dart';
 
 part 'medication_frequency.freezed.dart';
@@ -35,9 +36,9 @@ sealed class MedicationFrequency with _$MedicationFrequency {
   factory MedicationFrequency.fromJson(Map<String, dynamic> json) => _$MedicationFrequencyFromJson(json);
 
   String get displayName => switch (this) {
-        DailyMedicationFrequency() => '毎日',
-        EveryXDaysMedicationFrequency(interval: final interval) => '$interval日ごと',
+        DailyMedicationFrequency() => L.daily,
+        EveryXDaysMedicationFrequency(interval: final interval) => L.everyXDaysFormat(interval),
         SpecificWeekdaysMedicationFrequency(weekdays: final weekdays) => weekdays.map((weekday) => weekday.weekdayShortString()).join(','),
-        CycleMedicationFrequency(consecutiveDays: final consecutiveDays, restDays: final restDays) => '$consecutiveDays日服用/$restDays日休薬',
+        CycleMedicationFrequency(consecutiveDays: final consecutiveDays, restDays: final restDays) => L.cycleDaysFormat(consecutiveDays, restDays),
       };
 }
