@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
+import 'package:medicalarm/features/localization/l.dart';
 import 'package:medicalarm/features/medicine_form/components/section_layout.dart';
 import 'package:medicalarm/utils/local_notification/client.dart';
 
@@ -19,7 +20,7 @@ class MedicineScheduleNotificationSettingSection extends HookConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     return MedicineFormSectionLayout(
       icon: Icons.notifications,
-      text: '通知設定',
+      text: L.notificationSetting,
       children: [
         SwitchListTile(
           value: isReminderEnabled.value,
@@ -30,8 +31,8 @@ class MedicineScheduleNotificationSettingSection extends HookConsumerWidget {
               isFollowupEnabled.value = false;
             }
           },
-          title: const Text('服用時の通知を有効にする'),
-          subtitle: const Text('服用時刻に基づいて通知を送信します'),
+          title: Text(L.medicationTime),
+          subtitle: Text(L.medicationTimeDescription),
         ),
         SwitchListTile(
           value: isFollowupEnabled.value,
@@ -42,8 +43,8 @@ class MedicineScheduleNotificationSettingSection extends HookConsumerWidget {
               isFollowupEnabled.value = value;
             }
           },
-          title: const Text('フォローアップ通知を有効にする'),
-          subtitle: const Text('最初の通知から30分の間に服薬を記録しない場合、フォローアップ通知が送信されます'),
+          title: Text(L.enableFollowupNotification),
+          subtitle: Text(L.followupNotificationDescription),
         ),
         SwitchListTile(
           value: useCriticalAlert.value,
@@ -55,8 +56,8 @@ class MedicineScheduleNotificationSettingSection extends HookConsumerWidget {
               useCriticalAlert.value = false;
             }
           },
-          title: const Text('マナーモードでも通知する'),
-          subtitle: const Text('集中モードがONまたはデバイスが消音時でも、重大な通知はロック画面に表示されますサウンドが再生されます'),
+          title: Text(L.enableNotificationInSilentMode),
+          subtitle: Text(L.silentModeNotificationDescription),
         ),
       ],
     );
