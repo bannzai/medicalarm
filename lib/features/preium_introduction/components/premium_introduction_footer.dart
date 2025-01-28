@@ -74,7 +74,7 @@ class PremiumIntroductionFotter extends StatelessWidget {
                     text: '・${L.autoRenewalNotice}\n',
                   ),
                   TextSpan(
-                    text: '・購入後、自動更新の解約は${storeName}アプリのアカウント設定で行えます。(アプリ内から自動更新の解約は行なえません)。',
+                    text: '・${L.premiumIntroductionFooterDescription(storeName: storeName)}\n',
                   ),
                 ],
               ),
