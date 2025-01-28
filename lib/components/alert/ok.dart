@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:medicalarm/components/button/buttons.dart';
+import 'package:medicalarm/features/localization/l.dart';
 
 class OKDialog extends StatelessWidget {
   final IconData icon;
@@ -45,7 +46,7 @@ class OKDialog extends StatelessWidget {
       ),
       actions: <Widget>[
         AlertButton(
-          text: 'OK',
+          text: L.ok,
           onPressed: () async {
             final ok = this.ok;
             if (ok != null) {
