@@ -36,7 +36,7 @@ class PremiumIntroductionFotter extends StatelessWidget {
                 ),
                 children: [
                   TextSpan(text: '・${L.premiumContractPeriod}\n'),
-                  TextSpan(text: L.bullet),
+                  const TextSpan(text: '・'),
                   TextSpan(
                     text: L.privacyPolicy,
                     style: const TextStyle(decoration: TextDecoration.underline),
