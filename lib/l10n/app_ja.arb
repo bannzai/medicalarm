@@ -57,5 +57,9 @@
   "memo": "メモ",
   "@memo": {
     "description": "メモ入力フィールドのラベル"
+  },
+  "bullet": "・",
+  "@bullet": {
+    "description": "プレミアム紹介フッターの箇条書き"
   }
 }
