@@ -215,5 +215,29 @@
   "newDoseReceiver": "新しい服用者",
   "@newDoseReceiver": {
     "description": "新規追加時のデフォルトの服用者名"
+  },
+  "reloginRequired": "再ログインしてください",
+  "@reloginRequired": {
+    "description": "アカウント削除時に再ログインが必要な場合のダイアログタイトル"
+  },
+  "reloginMessage": "アカウントを削除するには、再ログインしてください。",
+  "@reloginMessage": {
+    "description": "アカウント削除時の再ログイン要求メッセージ"
+  },
+  "relogin": "再ログインする",
+  "@relogin": {
+    "description": "再ログインを実行するためのボタンテキスト"
+  },
+  "accountDeleted": "アカウントを削除しました",
+  "@accountDeleted": {
+    "description": "アカウント削除完了時のメッセージ"
+  },
+  "confirmExit": "アプリを終了しますか？",
+  "@confirmExit": {
+    "description": "アプリ終了確認のメッセージ"
+  },
+  "exit": "終了する",
+  "@exit": {
+    "description": "アプリを終了するためのボタンテキスト"
   }
 }

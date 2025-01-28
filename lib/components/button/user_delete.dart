@@ -7,6 +7,7 @@ import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:medicalarm/components/alert/discard.dart';
 import 'package:medicalarm/components/error/error_alert.dart';
 import 'package:medicalarm/components/loading/indicator.dart';
+import 'package:medicalarm/features/localization/l.dart';
 import 'package:medicalarm/features/resolver/auth.dart';
 import 'package:medicalarm/style/color.dart';
 import 'package:medicalarm/utils/analytics/error.dart';
@@ -31,16 +32,16 @@ class DeleteUserButton extends HookConsumerWidget {
 
               showDiscardDialog(
                 context,
-                title: 'ユーザー情報を削除します',
-                message: 'アカウントを削除すると、ユーザー情報がすべて削除されます。',
+                title: L.deleteAccountConfirm,
+                message: L.deleteAccountMessage,
                 actions: [
                   TextButton(
                     onPressed: () async {
                       Navigator.of(context).pop();
                     },
-                    child: const Text(
-                      'キャンセル',
-                      style: TextStyle(
+                    child: Text(
+                      L.cancel,
+                      style: const TextStyle(
                         color: TextColor.gray,
                         fontWeight: FontWeight.w600,
                       ),
@@ -58,12 +59,12 @@ class DeleteUserButton extends HookConsumerWidget {
                         isLoading.value = false;
                       }
                     },
-                    child: const Text('削除する', style: TextStyle(color: TextColor.danger, fontWeight: FontWeight.w600)),
+                    child: Text(L.delete, style: const TextStyle(color: TextColor.danger, fontWeight: FontWeight.w600)),
                   ),
                 ],
               );
             },
-            child: const Text('アカウントを削除する'),
+            child: Text(L.deleteAccount),
           ),
         ),
         if (isLoading.value)
@@ -92,16 +93,16 @@ class DeleteUserButton extends HookConsumerWidget {
         if (!context.mounted) return;
         showDiscardDialog(
           context,
-          title: '再ログインしてください',
-          message: 'アカウントを削除するには、再ログインしてください。',
+          title: L.reloginRequired,
+          message: L.reloginMessage,
           actions: [
             TextButton(
               onPressed: () async {
                 Navigator.of(context).pop();
               },
-              child: const Text(
-                'キャンセル',
-                style: TextStyle(
+              child: Text(
+                L.cancel,
+                style: const TextStyle(
                   color: TextColor.gray,
                   fontWeight: FontWeight.w600,
                 ),
@@ -122,9 +123,9 @@ class DeleteUserButton extends HookConsumerWidget {
                 // ignore: use_build_context_synchronously
                 await _delete(context, isAppleLinked: isAppleLinked, isGoogleLinked: isGoogleLinked);
               },
-              child: const Text(
-                '再ログインする',
-                style: TextStyle(
+              child: Text(
+                L.relogin,
+                style: const TextStyle(
                   color: TextColor.main,
                   fontWeight: FontWeight.w600,
                 ),
@@ -154,9 +155,9 @@ class _CompletedDialog extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         mainAxisSize: MainAxisSize.min,
         children: [
-          const Text(
-            'アカウントを削除しました',
-            style: TextStyle(
+          Text(
+            L.accountDeleted,
+            style: const TextStyle(
               color: TextColor.main,
               fontWeight: FontWeight.w700,
               fontSize: 16,
@@ -164,9 +165,9 @@ class _CompletedDialog extends StatelessWidget {
             textAlign: TextAlign.center,
           ),
           const SizedBox(height: 24),
-          const Text(
-            'アプリを終了しますか？',
-            style: TextStyle(
+          Text(
+            L.confirmExit,
+            style: const TextStyle(
               color: TextColor.main,
               fontWeight: FontWeight.w400,
               fontSize: 14,
@@ -180,9 +181,9 @@ class _CompletedDialog extends StatelessWidget {
               onPressed: () async {
                 exit(0);
               },
-              child: const Text(
-                '終了する',
-                style: TextStyle(
+              child: Text(
+                L.exit,
+                style: const TextStyle(
                   color: TextColor.main,
                   fontWeight: FontWeight.w600,
                 ),
