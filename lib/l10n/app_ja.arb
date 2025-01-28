@@ -529,5 +529,19 @@
   "insomnia": "不眠",
   "@insomnia": {
     "description": "症状の選択肢：不眠"
+  },
+  "updateRequired": "アプリをアップデートしてください",
+  "@updateRequired": {
+    "description": "アプリのアップデートが必要な場合のダイアログタイトル"
+  },
+  "updateRequiredMessage": "お使いのアプリのバージョンのアップデートをお願いしております。{storeName}から最新バージョンにアップデートしてください",
+  "@updateRequiredMessage": {
+    "description": "アプリのアップデートが必要な場合のメッセージ",
+    "placeholders": {
+      "storeName": {
+        "type": "String",
+        "example": "App Store"
+      }
+    }
   }
 }

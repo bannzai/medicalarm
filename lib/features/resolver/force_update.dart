@@ -3,6 +3,7 @@ import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:medicalarm/components/alert/ok.dart';
 import 'package:medicalarm/components/loading/indicator.dart';
+import 'package:medicalarm/features/localization/l.dart';
 import 'package:medicalarm/provider/force_update.dart';
 import 'package:medicalarm/utils/analytics/error.dart';
 import 'package:medicalarm/utils/platform/platform.dart';
@@ -40,8 +41,12 @@ class ForceUpdateResolver extends HookConsumerWidget {
     if (shouldForceUpdate.value) {
       Future.microtask(() async {
         if (context.mounted) {
-          await showOKDialog(context,
-              icon: Icons.error, title: 'アプリをアップデートしてください', message: 'お使いのアプリのバージョンのアップデートをお願いしております。$storeNameから最新バージョンにアップデートしてください', ok: () async {
+          await showOKDialog(
+            context,
+            icon: Icons.error,
+            title: L.updateRequired,
+            message: L.updateRequiredMessage(storeName),
+            ok: () async {
             await launchUrl(
               Uri.parse(forceUpdateStoreURL),
               mode: LaunchMode.externalApplication,
