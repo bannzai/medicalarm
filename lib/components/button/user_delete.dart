@@ -2,7 +2,6 @@ import 'dart:io';
 
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import '../../features/localization/l.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:medicalarm/components/alert/discard.dart';
@@ -32,7 +31,7 @@ class DeleteUserButton extends HookConsumerWidget {
 
               showDiscardDialog(
                 context,
-                title: L.strings.deleteUserConfirmationTitle,
+                title: 'ユーザー情報を削除します',
                 message: 'アカウントを削除すると、ユーザー情報がすべて削除されます。',
                 actions: [
                   TextButton(
