@@ -341,5 +341,63 @@
         "example": "App Store"
       }
     }
+  },
+  "daily": "毎日",
+  "@daily": {
+    "description": "毎日の服薬頻度オプション"
+  },
+  "everyXDays": "X日ごと",
+  "@everyXDays": {
+    "description": "X日ごとの服薬頻度オプション"
+  },
+  "everyXDaysDescription": "例: 2日に1回、3日に1回など",
+  "@everyXDaysDescription": {
+    "description": "X日ごとの服薬頻度の説明"
+  },
+  "specificWeekdays": "特定の曜日",
+  "@specificWeekdays": {
+    "description": "特定の曜日の服薬頻度オプション"
+  },
+  "specificWeekdaysDescription": "例: 月水金、火木土など",
+  "@specificWeekdaysDescription": {
+    "description": "特定の曜日の服薬頻度の説明"
+  },
+  "cycle": "周期",
+  "@cycle": {
+    "description": "周期的な服薬頻度オプション"
+  },
+  "cycleDescription": "例: 21日服用7日休薬など",
+  "@cycleDescription": {
+    "description": "周期的な服薬頻度の説明"
+  },
+  "consecutiveDaysFormat": "{days}日連続服用",
+  "@consecutiveDaysFormat": {
+    "description": "連続服用日数のフォーマット",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "21"
+      }
+    }
+  },
+  "quantity": "服用量",
+  "@quantity": {
+    "description": "服用量の入力フィールドのラベル"
+  },
+  "quantityExample": "例: 1錠、1包など",
+  "@quantityExample": {
+    "description": "服用量の入力フィールドのヒント"
+  },
+  "medicineRegistrationLimit": "お薬登録数の上限: ",
+  "@medicineRegistrationLimit": {
+    "description": "お薬登録数の上限の説明"
+  },
+  "notificationScheduleLimit": "通知スケジュール数の上限: ",
+  "@notificationScheduleLimit": {
+    "description": "通知スケジュール数の上限の説明"
+  },
+  "doseReceiverRegistrationLimit": "服用者登録数の上限: ",
+  "@doseReceiverRegistrationLimit": {
+    "description": "服用者登録数の上限の説明"
   }
 }
