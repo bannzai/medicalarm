@@ -7,6 +7,7 @@ import 'package:medicalarm/features/settings/page.dart';
 import 'package:medicalarm/style/color.dart';
 import 'package:medicalarm/utils/analytics/analytics.dart';
 import 'package:medicalarm/utils/push_notification/request_permission.dart';
+import 'package:medicalarm/features/localization/l.dart';
 
 enum HomePageTabType { medications, medicationHistories, settings }
 
@@ -55,18 +56,18 @@ class HomePage extends HookConsumerWidget {
               labelStyle: const TextStyle(fontSize: 12),
               indicatorColor: Colors.transparent,
               unselectedLabelColor: TextColor.gray,
-              tabs: const <Tab>[
+              tabs: <Tab>[
                 Tab(
-                  text: '服薬',
-                  icon: Icon(Icons.timer_outlined),
+                  text: L.medication,
+                  icon: const Icon(Icons.timer_outlined),
                 ),
                 Tab(
-                  text: '履歴',
-                  icon: Icon(Icons.list_alt_outlined),
+                  text: L.history,
+                  icon: const Icon(Icons.list_alt_outlined),
                 ),
                 Tab(
-                  text: '設定',
-                  icon: Icon(Icons.settings_outlined),
+                  text: L.settings,
+                  icon: const Icon(Icons.settings_outlined),
                 ),
               ],
             ),

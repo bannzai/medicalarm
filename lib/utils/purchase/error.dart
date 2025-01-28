@@ -1,6 +1,7 @@
 import 'package:flutter/services.dart';
 import 'package:purchases_flutter/purchases_flutter.dart';
 import 'package:medicalarm/utils/platform/platform.dart';
+import 'package:medicalarm/features/localization/l.dart';
 
 // See also: https://docs.revenuecat.com/docs/errors
 Exception? mapToDisplayedException(PlatformException exception) {
@@ -23,7 +24,7 @@ Exception? mapToDisplayedException(PlatformException exception) {
     case PurchasesErrorCode.purchaseNotAllowedError:
       // NOTE: Maybe simulator or emulators
       // See more details: https://docs.revenuecat.com/docs/errors#--purchase_not_allowed
-      return const FormatException('このデバイスで購入が許可されていません');
+      return FormatException(L.purchaseNotAllowed);
     case PurchasesErrorCode.purchaseInvalidError:
       // See more details: https://docs.revenuecat.com/docs/errors#-purchase_invalid
       return const FormatException('支払いに失敗しました。有効な支払い方法かどうかをご確認の上再度お試しください');

@@ -347,5 +347,53 @@
         "example": "7"
       }
     }
+  },
+  "limitedTimeDiscount": "今なら限定価格でずっと使える",
+  "@limitedTimeDiscount": {
+    "description": "プレミアムプランの限定価格キャンペーンを案内するメッセージ"
+  },
+  "monthlyPlan": "月額プラン",
+  "@monthlyPlan": {
+    "description": "月額プランの名称"
+  },
+  "annualPlan": "年額プラン",
+  "@annualPlan": {
+    "description": "年額プランの名称"
+  },
+  "weeklyPlan": "週額プラン",
+  "@weeklyPlan": {
+    "description": "週額プランの名称"
+  },
+  "restorePurchase": "以前購入した方はこちら",
+  "@restorePurchase": {
+    "description": "購入情報の復元を案内するリンクテキスト"
+  },
+  "purchaseRestored": "購入情報を復元しました",
+  "@purchaseRestored": {
+    "description": "購入情報の復元が完了した際のメッセージ"
+  },
+  "premiumRequired": "プレミアムプランの加入で閲覧が可能です",
+  "@premiumRequired": {
+    "description": "プレミアムプラン加入が必要な機能へのアクセス時のメッセージ"
+  },
+  "medication": "服薬",
+  "@medication": {
+    "description": "服薬タブのタイトル"
+  },
+  "history": "履歴",
+  "@history": {
+    "description": "履歴タブのタイトル"
+  },
+  "purchaseNotAllowed": "このデバイスで購入が許可されていません",
+  "@purchaseNotAllowed": {
+    "description": "デバイスでの購入が許可されていない場合のエラーメッセージ"
+  },
+  "medicationTime": "お薬の時間です",
+  "@medicationTime": {
+    "description": "服薬時刻の通知タイトル"
+  },
+  "medicationTimeFollowup": "お薬の時間から30分過ぎているようです",
+  "@medicationTimeFollowup": {
+    "description": "服薬時刻から30分経過した際のフォローアップ通知タイトル"
   }
 }
