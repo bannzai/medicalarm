@@ -1,5 +1,535 @@
 {
   "@@locale": "ja",
+  "retry": "再試行",
+  "@retry": {
+    "description": "エラーが発生した際やデータの読み込みに失敗した際に、再度処理を実行するためのボタンテキスト"
+  },
+  "save": "保存",
+  "@save": {
+    "description": "フォームやエディタで入力したデータを保存する際に使用するボタンテキスト"
+  },
+  "memo": "メモ",
+  "@memo": {
+    "description": "服薬記録や日記などで追加情報を入力するためのテキストフィールドのプレースホルダー"
+  },
+  "completed": "完了",
+  "@completed": {
+    "description": "フォームの入力や設定の変更などの操作が完了した際に使用するボタンテキスト"
+  },
+  "medicineRegistration": "お薬登録画面",
+  "@medicineRegistration": {
+    "description": "お薬の新規登録・編集画面のタイトル"
+  },
+  "medicineName": "薬の名前",
+  "@medicineName": {
+    "description": "お薬登録フォームでの薬の名前を入力するフィールドのプレースホルダー"
+  },
+  "medicineList": "お薬一覧",
+  "@medicineList": {
+    "description": "登録されているお薬の一覧を表示する画面のタイトル"
+  },
+  "medicationSchedule": "服用スケジュール",
+  "@medicationSchedule": {
+    "description": "服用スケジュールのセクションタイトル"
+  },
+  "medicationTime": "服用時の通知を有効にする",
+  "@medicationTime": {
+    "description": "服用時刻の通知設定を有効にするためのスイッチのラベル"
+  },
+  "medicationTimeDescription": "服用時刻に基づいて通知を送信します",
+  "@medicationTimeDescription": {
+    "description": "服用時刻の通知設定の説明文"
+  },
+  "close": "閉じる",
+  "@close": {
+    "description": "ダイアログやモーダルを閉じるためのボタンテキスト"
+  },
+  "settings": "設定",
+  "@settings": {
+    "description": "設定画面のタイトル"
+  },
+  "camera": "カメラ",
+  "@camera": {
+    "description": "カメラを起動するためのメニュー項目"
+  },
+  "photoLibrary": "フォトライブラリ",
+  "@photoLibrary": {
+    "description": "フォトライブラリを開くためのメニュー項目"
+  },
+  "medicationHistory": "服薬履歴",
+  "@medicationHistory": {
+    "description": "服薬履歴を表示する画面のタイトル"
+  },
+  "noMedicationHistory": "服薬履歴がありません",
+  "@noMedicationHistory": {
+    "description": "服薬履歴が存在しない場合に表示するメッセージ"
+  },
+  "scheduledTime": "予定時刻",
+  "@scheduledTime": {
+    "description": "服薬予定時刻のラベル"
+  },
+  "recordedTime": "記録時間",
+  "@recordedTime": {
+    "description": "実際に服薬を記録した時間のラベル"
+  },
+  "noMemo": "メモなし",
+  "@noMemo": {
+    "description": "メモが存在しない場合に表示するテキスト"
+  },
+  "premiumPlan": "プレミアムプラン",
+  "@premiumPlan": {
+    "description": "プレミアムプランの名称"
+  },
+  "premiumFeatureAds": "広告の非表示",
+  "@premiumFeatureAds": {
+    "description": "プレミアム機能の広告非表示の説明"
+  },
+  "premiumFeatureHistory": "服用履歴をすべて表示",
+  "@premiumFeatureHistory": {
+    "description": "プレミアム機能の履歴表示の説明"
+  },
+  "premiumRegistrationComplete": "Medicalarmプレミアム登録完了",
+  "@premiumRegistrationComplete": {
+    "description": "プレミアム登録完了時のタイトル"
+  },
+  "premiumRegistrationThanks": "ご登録ありがとうございます。\nすべての機能が使えるようになりました！",
+  "@premiumRegistrationThanks": {
+    "description": "プレミアム登録完了時のメッセージ"
+  },
+  "unknownError": "不明なエラーが発生しました",
+  "@unknownError": {
+    "description": "予期せぬエラーが発生した際のエラーメッセージ"
+  },
+  "error": "エラーが発生しました",
+  "@error": {
+    "description": "一般的なエラーメッセージ"
+  },
+  "unexpectedError": "予想外のエラーが発生しました",
+  "@unexpectedError": {
+    "description": "予期せぬエラーが発生した際のエラーメッセージ"
+  },
+  "cancel": "キャンセル",
+  "@cancel": {
+    "description": "操作をキャンセルするためのボタンテキスト"
+  },
+  "delete": "削除する",
+  "@delete": {
+    "description": "削除操作を実行するためのボタンテキスト"
+  },
+  "deleteAccount": "アカウントを削除する",
+  "@deleteAccount": {
+    "description": "アカウント削除ボタンのテキスト"
+  },
+  "deleteAccountConfirm": "ユーザー情報を削除します",
+  "@deleteAccountConfirm": {
+    "description": "アカウント削除確認ダイアログのタイトル"
+  },
+  "deleteAccountMessage": "アカウントを削除すると、ユーザー情報がすべて削除されます。",
+  "@deleteAccountMessage": {
+    "description": "アカウント削除確認ダイアログのメッセージ"
+  },
+  "medicationFrequency": "服用頻度",
+  "@medicationFrequency": {
+    "description": "服用頻度の設定セクションのタイトル"
+  },
+  "daily": "毎日",
+  "@daily": {
+    "description": "毎日服用する頻度設定"
+  },
+  "everyXDays": "X日ごと",
+  "@everyXDays": {
+    "description": "X日ごとに服用する頻度設定"
+  },
+  "specificWeekdays": "特定の曜日",
+  "@specificWeekdays": {
+    "description": "特定の曜日に服用する頻度設定"
+  },
+  "cycle": "周期",
+  "@cycle": {
+    "description": "周期で服用する頻度設定"
+  },
+  "cycleDescription": "例) 21日服用/7日休薬",
+  "@cycleDescription": {
+    "description": "周期での服用頻度の説明文"
+  },
+  "everyXDaysDescription": "例) 2日ごと、3日ごと",
+  "@everyXDaysDescription": {
+    "description": "X日ごとの服用頻度の説明文"
+  },
+  "specificWeekdaysDescription": "例) 月曜日のみ, 水曜日と金曜日",
+  "@specificWeekdaysDescription": {
+    "description": "特定の曜日の服用頻度の説明文"
+  },
+  "medicineFormValidationError": "名前と服用スケジュールを入力してください",
+  "@medicineFormValidationError": {
+    "description": "お薬登録フォームでの入力バリデーションエラーメッセージ"
+  },
+  "quantity": "容量",
+  "@quantity": {
+    "description": "服用量を入力するフィールドのラベル"
+  },
+  "quantityExample": "例: 1錠、100mg",
+  "@quantityExample": {
+    "description": "服用量入力フィールドのプレースホルダー"
+  },
+  "medicationStartDate": "服用開始日",
+  "@medicationStartDate": {
+    "description": "服用開始日を選択するフィールドのラベル"
+  },
+  "otherInformation": "その他",
+  "@otherInformation": {
+    "description": "その他の情報を入力するセクションのタイトル"
+  },
+  "doseReceiver": "服用者",
+  "@doseReceiver": {
+    "description": "服用者を選択するフィールドのラベル"
+  },
+  "defaultDoseReceiver": "あなた",
+  "@defaultDoseReceiver": {
+    "description": "デフォルトの服用者名"
+  },
+  "doseReceiverMaxCount": "服用者は最大{count}人まで登録できます",
+  "@doseReceiverMaxCount": {
+    "description": "服用者の最大登録数を表示するメッセージ",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "2"
+      }
+    }
+  },
+  "increaseLimitWithPremium": "プレミアムプランで上限を{count}に増やす",
+  "@increaseLimitWithPremium": {
+    "description": "プレミアムプランでの上限増加を案内するメッセージ",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "10"
+      }
+    }
+  },
+  "addDoseReceiver": "服用者を追加",
+  "@addDoseReceiver": {
+    "description": "服用者を追加するボタンのテキスト"
+  },
+  "newDoseReceiver": "新しい服用者",
+  "@newDoseReceiver": {
+    "description": "新規追加時のデフォルトの服用者名"
+  },
+  "reloginRequired": "再ログインしてください",
+  "@reloginRequired": {
+    "description": "アカウント削除時に再ログインが必要な場合のダイアログタイトル"
+  },
+  "reloginMessage": "アカウントを削除するには、再ログインしてください。",
+  "@reloginMessage": {
+    "description": "アカウント削除時の再ログイン要求メッセージ"
+  },
+  "relogin": "再ログインする",
+  "@relogin": {
+    "description": "再ログインを実行するためのボタンテキスト"
+  },
+  "accountDeleted": "アカウントを削除しました",
+  "@accountDeleted": {
+    "description": "アカウント削除完了時のメッセージ"
+  },
+  "confirmExit": "アプリを終了しますか？",
+  "@confirmExit": {
+    "description": "アプリ終了確認のメッセージ"
+  },
+  "exit": "終了する",
+  "@exit": {
+    "description": "アプリを終了するためのボタンテキスト"
+  },
+  "viewFaq": "FAQを見る",
+  "@viewFaq": {
+    "description": "FAQページを表示するためのボタンテキスト"
+  },
+  "medicine": "お薬",
+  "@medicine": {
+    "description": "お薬タブのタイトル"
+  },
+  "inquiry": "お問い合わせ",
+  "@inquiry": {
+    "description": "お問い合わせボタンのテキスト"
+  },
+  "ok": "OK",
+  "@ok": {
+    "description": "確認ダイアログのOKボタンのテキスト"
+  },
+  "medicationScheduleLimit": "服用スケジュールは{count}つまで登録できます。",
+  "@medicationScheduleLimit": {
+    "description": "服用スケジュールの登録上限を表示するメッセージ",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "3"
+      }
+    }
+  },
+  "increaseMedicationScheduleLimit": "プレミアムプランで上限を{count}に増やす",
+  "@increaseMedicationScheduleLimit": {
+    "description": "服用スケジュールの上限をプレミアムプランで増やすことを案内するメッセージ",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "10"
+      }
+    }
+  },
+  "addMedicationSchedule": "服用スケジュールを追加",
+  "@addMedicationSchedule": {
+    "description": "服用スケジュールを追加するボタンのテキスト"
+  },
+  "medicationScheduleNotificationSetting": "服用スケジュール通知設定",
+  "@medicationScheduleNotificationSetting": {
+    "description": "服用スケジュールの通知設定画面のタイトル"
+  },
+  "notificationSetting": "通知設定",
+  "@notificationSetting": {
+    "description": "通知設定セクションのタイトル"
+  },
+  "enableFollowupNotification": "フォローアップ通知を有効にする",
+  "@enableFollowupNotification": {
+    "description": "フォローアップ通知を有効にするスイッチのラベル"
+  },
+  "followupNotificationDescription": "最初の通知から30分の間に服薬を記録しない場合、フォローアップ通知が送信されます",
+  "@followupNotificationDescription": {
+    "description": "フォローアップ通知の説明文"
+  },
+  "enableNotificationInSilentMode": "マナーモードでも通知する",
+  "@enableNotificationInSilentMode": {
+    "description": "マナーモード時の通知を有効にするスイッチのラベル"
+  },
+  "silentModeNotificationDescription": "集中モードがONまたはデバイスが消音時でも、重大な通知はロック画面に表示されますサウンドが再生されます",
+  "@silentModeNotificationDescription": {
+    "description": "マナーモード時の通知の説明文"
+  },
+  "everyXDaysFormat": "{count}日ごと",
+  "@everyXDaysFormat": {
+    "description": "X日ごとの服用頻度を表示する際のフォーマット",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "2"
+      }
+    }
+  },
+  "cycleDaysFormat": "{consecutiveDays}日服用/{restDays}日休薬",
+  "@cycleDaysFormat": {
+    "description": "服用周期を表示する際のフォーマット",
+    "placeholders": {
+      "consecutiveDays": {
+        "type": "int",
+        "example": "21"
+      },
+      "restDays": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  },
+  "consecutiveDaysFormat": "{count}日服用",
+  "@consecutiveDaysFormat": {
+    "description": "連続服用日数を表示する際のフォーマット",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "21"
+      }
+    }
+  },
+  "restDaysFormat": "{count}日休薬",
+  "@restDaysFormat": {
+    "description": "休薬日数を表示する際のフォーマット",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  },
+  "limitedTimeDiscount": "今なら限定価格でずっと使える",
+  "@limitedTimeDiscount": {
+    "description": "プレミアムプランの限定価格キャンペーンを案内するメッセージ"
+  },
+  "monthlyPlan": "月額プラン",
+  "@monthlyPlan": {
+    "description": "月額プランの名称"
+  },
+  "annualPlan": "年額プラン",
+  "@annualPlan": {
+    "description": "年額プランの名称"
+  },
+  "weeklyPlan": "週額プラン",
+  "@weeklyPlan": {
+    "description": "週額プランの名称"
+  },
+  "restorePurchase": "以前購入した方はこちら",
+  "@restorePurchase": {
+    "description": "購入情報の復元を案内するリンクテキスト"
+  },
+  "purchaseRestored": "購入情報を復元しました",
+  "@purchaseRestored": {
+    "description": "購入情報の復元が完了した際のメッセージ"
+  },
+  "premiumRequired": "プレミアムプランの加入で閲覧が可能です",
+  "@premiumRequired": {
+    "description": "プレミアムプラン加入が必要な機能へのアクセス時のメッセージ"
+  },
+  "medication": "服薬",
+  "@medication": {
+    "description": "服薬タブのタイトル"
+  },
+  "history": "履歴",
+  "@history": {
+    "description": "履歴タブのタイトル"
+  },
+  "purchaseNotAllowed": "このデバイスで購入が許可されていません",
+  "@purchaseNotAllowed": {
+    "description": "デバイスでの購入が許可されていない場合のエラーメッセージ"
+  },
+  "medicationTime": "お薬の時間です",
+  "@medicationTime": {
+    "description": "服薬時刻の通知タイトル"
+  },
+  "medicationTimeFollowup": "お薬の時間から30分過ぎているようです",
+  "@medicationTimeFollowup": {
+    "description": "服薬時刻から30分経過した際のフォローアップ通知タイトル"
+  },
+  "medicineRegistrationLimit": "薬の登録数を",
+  "@medicineRegistrationLimit": {
+    "description": "薬の登録数の上限を説明するテキストの一部"
+  },
+  "doseReceiverRegistrationLimit": "服用者の登録数を",
+  "@doseReceiverRegistrationLimit": {
+    "description": "服用者の登録数の上限を説明するテキストの一部"
+  },
+  "notificationScheduleLimit": "通知のスケジュール数を",
+  "@notificationScheduleLimit": {
+    "description": "通知スケジュールの上限を説明するテキストの一部"
+  },
+  "addMedicine": "お薬を追加",
+  "@addMedicine": {
+    "description": "お薬を追加するボタンのテキスト"
+  },
+  "medicineMaxCount": "お薬は{count}つまで登録できます。",
+  "@medicineMaxCount": {
+    "description": "お薬の最大登録数を表示するメッセージ",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "increaseMedicineLimitWithPremium": "プレミアムプランで上限を{count}に増やす",
+  "@increaseMedicineLimitWithPremium": {
+    "description": "お薬の登録上限をプレミアムプランで増やすことを案内するメッセージ",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "10"
+      }
+    }
+  },
+  "aboutApp": "アプリについて",
+  "@aboutApp": {
+    "description": "アプリについてのセクションタイトル"
+  },
+  "termsOfService": "利用規約",
+  "@termsOfService": {
+    "description": "利用規約へのリンクテキスト"
+  },
+  "privacyPolicy": "プライバシーポリシー",
+  "@privacyPolicy": {
+    "description": "プライバシーポリシーへのリンクテキスト"
+  },
+  "specifiedCommercialTransactionAct": "特定商取引法に基づく表記",
+  "@specifiedCommercialTransactionAct": {
+    "description": "特定商法取引法に基づく表記へのリンクテキスト"
+  },
+  "viewPremiumPlan": "プレミアムプランを見る",
+  "@viewPremiumPlan": {
+    "description": "プレミアムプランの詳細を表示するためのボタンテキスト"
+  },
+  "premiumContractPeriod": "プレミアム契約期間は開始日から起算して1ヶ月または1年間ごとの自動更新となります",
+  "@premiumContractPeriod": {
+    "description": "プレミアム契約の期間と自動更新に関する説明"
+  },
+  "confirmBeforeRegistration": "をご確認のうえ登録してください",
+  "@confirmBeforeRegistration": {
+    "description": "各種規約の確認を促すメッセージ"
+  },
+  "autoRenewalNotice": "プレミアム契約期間の終了日の24時間以上前に解約しない限り契約期間が自動更新されます",
+  "@autoRenewalNotice": {
+    "description": "自動更新に関する注意事項"
+  },
+  "cancelSubscriptionInstruction": "購入後、自動更新の解約は{storeName}アプリのアカウント設定で行えます。(アプリ内から自動更新の解約は行なえません)。",
+  "@cancelSubscriptionInstruction": {
+    "description": "自動更新の解約方法の説明",
+    "placeholders": {
+      "storeName": {
+        "type": "String",
+        "example": "App Store"
+      }
+    }
+  },
+  "headache": "頭痛",
+  "@headache": {
+    "description": "症状の選択肢：頭痛"
+  },
+  "stomachache": "腹痛",
+  "@stomachache": {
+    "description": "症状の選択肢：腹痛"
+  },
+  "nausea": "吐き気",
+  "@nausea": {
+    "description": "症状の選択肢：吐き気"
+  },
+  "anemia": "貧血",
+  "@anemia": {
+    "description": "症状の選択肢：貧血"
+  },
+  "diarrhea": "下痢",
+  "@diarrhea": {
+    "description": "症状の選択肢：下痢"
+  },
+  "constipation": "便秘",
+  "@constipation": {
+    "description": "症状の選択肢：便秘"
+  },
+  "hotFlash": "ほてり",
+  "@hotFlash": {
+    "description": "症状の選択肢：ほてり"
+  },
+  "drowsiness": "眠気",
+  "@drowsiness": {
+    "description": "症状の選択肢：眠気"
+  },
+  "backPain": "腰痛",
+  "@backPain": {
+    "description": "症状の選択肢：腰痛"
+  },
+  "palpitation": "動悸",
+  "@palpitation": {
+    "description": "症状の選択肢：動悸"
+  },
+  "abnormalBleeding": "不正出血",
+  "@abnormalBleeding": {
+    "description": "症状の選択肢：不正出血"
+  },
+  "lossOfAppetite": "食欲不振",
+  "@lossOfAppetite": {
+    "description": "症状の選択肢：食欲不振"
+  },
+  "chestTightness": "胸の張り",
+  "@chestTightness": {
+    "description": "症状の選択肢：胸の張り"
+  },
+  "insomnia": "不眠",
+  "@insomnia": {
+    "description": "症状の選択肢：不眠"
+  },
   "updateRequired": "アプリをアップデートしてください",
   "@updateRequired": {
     "description": "アプリのアップデートが必要な場合のダイアログタイトル"
@@ -13,49 +543,5 @@
         "example": "App Store"
       }
     }
-  },
-  "purchaseErrorUnknown": "原因不明のエラーが発生しました。時間をおいて再度お試しください。解決しない場合は 設定 > 問い合わせ よりお問い合わせください。",
-  "@purchaseErrorUnknown": {
-    "description": "購入時の不明なエラーメッセージ"
-  },
-  "purchaseErrorStoreMessage": "{storeName} でエラーが発生しています。しばらくお時間をおいて再度お試しください",
-  "@purchaseErrorStoreMessage": {
-    "description": "ストアでのエラーメッセージ",
-    "placeholders": {
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
-  "purchaseErrorPaymentFailed": "支払いに失敗しました。有効な支払い方法かどうかをご確認の上再度お試しください",
-  "@purchaseErrorPaymentFailed": {
-    "description": "支払い失敗時のエラーメッセージ"
-  },
-  "purchaseNotAllowed": "このデバイスで購入が許可されていません",
-  "@purchaseNotAllowed": {
-    "description": "デバイスでの購入が許可されていない場合のエラーメッセージ"
-  },
-  "purchaseErrorProductUnavailable": "対象のプランは現在販売しておりません。お手数ですがアプリを再起動の上お試しください",
-  "@purchaseErrorProductUnavailable": {
-    "description": "商品が利用できない場合のエラーメッセージ"
-  },
-  "purchaseErrorAlreadyPurchased": "すでにプランを購入済みです。この端末で購入情報を復元する場合は「以前購入した方はこちら」から購入情報を復元してくさい",
-  "@purchaseErrorAlreadyPurchased": {
-    "description": "既に購入済みの場合のエラーメッセージ"
-  },
-  "purchaseErrorReceiptInUse": "既に購入済み。もくは購入情報は別のユーザーで使用されています。{accountName}を確認してください",
-  "@purchaseErrorReceiptInUse": {
-    "description": "購入情報が他のユーザーで使用されている場合のエラーメッセージ",
-    "placeholders": {
-      "accountName": {
-        "type": "String",
-        "example": "Apple ID"
-      }
-    }
-  },
-  "memo": "メモ",
-  "@memo": {
-    "description": "メモ入力フィールドのラベル"
   }
 }

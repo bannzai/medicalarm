@@ -8,7 +8,7 @@ Exception? mapToDisplayedException(PlatformException exception) {
   final errorCode = PurchasesErrorHelper.getErrorCode(exception);
   switch (errorCode) {
     case PurchasesErrorCode.unknownError:
-      return FormatException('${L.purchaseErrorUnknown} 詳細: ${exception.message}:${exception.details}');
+      return FormatException('原因不明のエラーが発生しました。時間をおいて再度お試しください。解決しない場合は 設定 > 問い合わせ よりお問い合わせください。詳細: ${exception.message}:${exception.details}');
     case PurchasesErrorCode.purchaseCancelledError:
       // NOTE: This exception indicates that the User has canceled.
       // See more details: https://docs.revenuecat.com/docs/errors#--purchase_cancelled
@@ -20,25 +20,25 @@ Exception? mapToDisplayedException(PlatformException exception) {
       // See more detail: https://docs.revenuecat.com/docs/errors#--store_problem
       // > If everything was working while testing, you shouldn't have to do anything to handle this error in production. RevenueCat will automatically retry any purchase failures so no data is lost.
       // But, return ambigious error message to be the on the safe side
-      return FormatException(L.purchaseErrorStoreMessage(storeName));
+      return FormatException('$storeName でエラーが発生しています。しばらくお時間をおいて再度お試しください');
     case PurchasesErrorCode.purchaseNotAllowedError:
       // NOTE: Maybe simulator or emulators
       // See more details: https://docs.revenuecat.com/docs/errors#--purchase_not_allowed
       return FormatException(L.purchaseNotAllowed);
     case PurchasesErrorCode.purchaseInvalidError:
       // See more details: https://docs.revenuecat.com/docs/errors#-purchase_invalid
-      return FormatException(L.purchaseErrorPaymentFailed);
+      return const FormatException('支払いに失敗しました。有効な支払い方法かどうかをご確認の上再度お試しください');
     case PurchasesErrorCode.productNotAvailableForPurchaseError:
       // Maybe missed implement or User references older payment product.
       // See more details: https://docs.revenuecat.com/docs/errors#-product_not_available_for_purchase
-      return FormatException(L.purchaseErrorProductUnavailable);
+      return const FormatException('対象のプランは現在販売しておりません。お手数ですがアプリを再起動の上お試しください');
     case PurchasesErrorCode.productAlreadyPurchasedError:
       // User already has same product. Announcement to restore
       // See more details: https://docs.revenuecat.com/docs/errors#-product_already_purchased
       // > If this occurs in production, make sure the user restores purchases to re-sync any transactions with their current App User Id.
-      return FormatException(L.purchaseErrorAlreadyPurchased);
+      return const FormatException('すでにプランを購入済みです。この端末で購入情報を復元する場合は「以前購入した方はこちら」から購入情報を復元してくさい');
     case PurchasesErrorCode.receiptAlreadyInUseError:
-      return FormatException(L.purchaseErrorReceiptInUse(accountName));
+      return FormatException('既に購入済み。もくは購入情報は別のユーザーで使用されています。$accountNameを確認してください');
     case PurchasesErrorCode.invalidReceiptError:
       return const FormatException('不正な購入情報です。購入情報を確かめてください');
     case PurchasesErrorCode.missingReceiptFileError:
