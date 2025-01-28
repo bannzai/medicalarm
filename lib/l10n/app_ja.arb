@@ -61,41 +61,5 @@
   "bullet": "・",
   "@bullet": {
     "description": "プレミアム紹介フッターの箇条書き"
-  },
-  "premiumIntroductionFooterDescription": "購入後、自動更新の解約は\${storeName}アプリのアカウント設定で行えます。(アプリ内から自動更新の解約は行なえません)。",
-  "@premiumIntroductionFooterDescription": {
-    "description": "プレミアム紹介フッターの自動更新に関する説明"
-  },
-  "premiumContractPeriod": "契約期間",
-  "@premiumContractPeriod": {
-    "description": "プレミアム紹介フッターの契約期間"
-  },
-  "privacyPolicy": "プライバシーポリシー",
-  "@privacyPolicy": {
-    "description": "プレミアム紹介フッターのプライバシーポリシー"
-  },
-  "termsOfService": "利用規約",
-  "@termsOfService": {
-    "description": "プレミアム紹介フッターの利用規約"
-  },
-  "specifiedCommercialTransactionAct": "特定商取引法に基づく表記",
-  "@specifiedCommercialTransactionAct": {
-    "description": "プレミアム紹介フッターの特定商取引法に基づく表記"
-  },
-  "confirmBeforeRegistration": "登録前にご確認ください",
-  "@confirmBeforeRegistration": {
-    "description": "プレミアム紹介フッターの登録前にご確認ください"
-  },
-  "autoRenewalNotice": "自動更新に関する注意",
-  "@autoRenewalNotice": {
-    "description": "プレミアム紹介フッターの自動更新に関する注意"
-  },
-  "restorePurchase": "以前購入した方はこちら",
-  "@restorePurchase": {
-    "description": "プレミアム紹介フッターの以前購入した方はこちら"
-  },
-  "purchaseRestored": "購入情報を復元しました",
-  "@purchaseRestored": {
-    "description": "購入情報の復元に成功した場合のスナックバーメッセージ"
   }
 }
