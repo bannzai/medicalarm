@@ -6,6 +6,7 @@ import 'package:medicalarm/entity/medicine.dart';
 import 'package:medicalarm/features/preium_introduction/premium_introduction_sheet.dart';
 import 'package:medicalarm/style/button.dart';
 import 'package:medicalarm/style/color.dart';
+import 'package:medicalarm/features/localization/l.dart';
 import 'package:medicalarm/utils/local_notification/client.dart';
 import 'package:medicalarm/utils/purchase/purchase.dart';
 import 'package:uuid/uuid.dart';
@@ -26,7 +27,8 @@ class MedicineScheduleAddButton extends HookConsumerWidget {
     return Column(
       children: [
         if (schedules.value.length >= MedicationSchedule.maxCount(isPremium: customerInfo?.isPremium)) ...[
-          Text('服用スケジュールは${MedicationSchedule.maxCount(isPremium: customerInfo?.isPremium)}つまで登録できます。',
+          Text(
+              L.medicationScheduleLimit(MedicationSchedule.maxCount(isPremium: customerInfo?.isPremium)),
               style: const TextStyle(color: TextColor.danger)),
           const SizedBox(height: 4),
           if (customerInfo?.isPremium == false) ...[
@@ -35,7 +37,7 @@ class MedicineScheduleAddButton extends HookConsumerWidget {
                 showPremiumIntroductionSheet(context);
               },
               child: Text(
-                'プレミアムプランで上限を${MedicationSchedule.maxCount(isPremium: true)}に増やす',
+                L.increaseMedicationScheduleLimit(MedicationSchedule.maxCount(isPremium: true)),
                 style: const TextStyle(
                   color: Colors.blue,
                   fontWeight: FontWeight.bold,
@@ -66,7 +68,7 @@ class MedicineScheduleAddButton extends HookConsumerWidget {
                   ];
                 },
           icon: const Icon(Icons.add),
-          label: const Text('服用スケジュールを追加', style: TextStyle(fontWeight: FontWeight.bold)),
+          label: Text(L.addMedicationSchedule, style: const TextStyle(fontWeight: FontWeight.bold)),
           style: capsuleTextButtonStyle(context),
         ),
       ],
