@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:medicalarm/style/color.dart';
+import 'package:medicalarm/features/localization/l.dart';
 
 class PickerToolbar extends StatelessWidget {
   final VoidCallback done;
@@ -21,9 +22,9 @@ class PickerToolbar extends StatelessWidget {
               horizontal: 16.0,
               vertical: 5.0,
             ),
-            child: const Text(
-              'キャンセル',
-              style: TextStyle(
+            child: Text(
+              L.cancel,
+              style: const TextStyle(
                 fontWeight: FontWeight.w300,
                 fontSize: 14,
                 color: TextColor.main,
@@ -38,9 +39,9 @@ class PickerToolbar extends StatelessWidget {
               horizontal: 16.0,
               vertical: 5.0,
             ),
-            child: const Text(
-              '完了',
-              style: TextStyle(
+            child: Text(
+              L.completed,
+              style: const TextStyle(
                 fontWeight: FontWeight.w600,
                 fontSize: 16,
                 color: TextColor.main,

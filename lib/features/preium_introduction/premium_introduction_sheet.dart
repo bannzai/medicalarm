@@ -1,8 +1,8 @@
 import 'package:async_value_group/async_value_group.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
-
 import 'package:flutter/material.dart';
+import 'package:medicalarm/features/localization/l.dart';
 import 'package:medicalarm/entity/dose_receiver.dart';
 import 'package:medicalarm/entity/medicine.dart';
 import 'package:medicalarm/style/color.dart';
@@ -121,19 +121,19 @@ class _Body extends HookConsumerWidget {
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
-                              const Row(
+                              Row(
                                 children: [
-                                  Icon(Icons.remove_red_eye),
-                                  SizedBox(width: 8),
-                                  Text('広告の非表示'),
+                                  const Icon(Icons.remove_red_eye),
+                                  const SizedBox(width: 8),
+                                  Text(L.premiumFeatureAds),
                                 ],
                               ),
                               const SizedBox(height: 4),
-                              const Row(
+                              Row(
                                 children: [
-                                  Icon(Icons.history),
-                                  SizedBox(width: 8),
-                                  Text('服用履歴をすべて表示'),
+                                  const Icon(Icons.history),
+                                  const SizedBox(width: 8),
+                                  Text(L.premiumFeatureHistory),
                                 ],
                               ),
                               const SizedBox(height: 4),
@@ -144,9 +144,9 @@ class _Body extends HookConsumerWidget {
                                   Text.rich(
                                     TextSpan(
                                       children: [
-                                        const TextSpan(
-                                          text: '薬の登録数を',
-                                          style: TextStyle(fontSize: 18, fontWeight: FontWeight.normal, color: Colors.black),
+                                        TextSpan(
+                                          text: L.medicineRegistrationLimit,
+                                          style: const TextStyle(fontSize: 18, fontWeight: FontWeight.normal, color: Colors.black),
                                         ),
                                         TextSpan(
                                           text: '${Medicine.maxCount(isPremium: false)} → ${Medicine.maxCount(isPremium: true)}',
@@ -165,9 +165,9 @@ class _Body extends HookConsumerWidget {
                                   Text.rich(
                                     TextSpan(
                                       children: [
-                                        const TextSpan(
-                                          text: '通知のスケジュール数を',
-                                          style: TextStyle(fontSize: 18, fontWeight: FontWeight.normal, color: Colors.black),
+                                        TextSpan(
+                                          text: L.notificationScheduleLimit,
+                                          style: const TextStyle(fontSize: 18, fontWeight: FontWeight.normal, color: Colors.black),
                                         ),
                                         TextSpan(
                                           text: '${MedicationSchedule.maxCount(isPremium: false)} → ${MedicationSchedule.maxCount(isPremium: true)}',
@@ -186,9 +186,9 @@ class _Body extends HookConsumerWidget {
                                   Text.rich(
                                     TextSpan(
                                       children: [
-                                        const TextSpan(
-                                          text: '服用者の登録数を',
-                                          style: TextStyle(fontSize: 18, fontWeight: FontWeight.normal, color: Colors.black),
+                                        TextSpan(
+                                          text: L.doseReceiverRegistrationLimit,
+                                          style: const TextStyle(fontSize: 18, fontWeight: FontWeight.normal, color: Colors.black),
                                         ),
                                         TextSpan(
                                           text: '${DoseReceiver.maxCount(isPremium: false)} → ${DoseReceiver.maxCount(isPremium: true)}',

@@ -395,5 +395,17 @@
   "medicationTimeFollowup": "お薬の時間から30分過ぎているようです",
   "@medicationTimeFollowup": {
     "description": "服薬時刻から30分経過した際のフォローアップ通知タイトル"
+  },
+  "medicineRegistrationLimit": "薬の登録数を",
+  "@medicineRegistrationLimit": {
+    "description": "薬の登録数の上限を説明するテキストの一部"
+  },
+  "doseReceiverRegistrationLimit": "服用者の登録数を",
+  "@doseReceiverRegistrationLimit": {
+    "description": "服用者の登録数の上限を説明するテキストの一部"
+  },
+  "notificationScheduleLimit": "通知のスケジュール数を",
+  "@notificationScheduleLimit": {
+    "description": "通知スケジュールの上限を説明するテキストの一部"
   }
 }
