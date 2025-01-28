@@ -239,5 +239,113 @@
   "exit": "終了する",
   "@exit": {
     "description": "アプリを終了するためのボタンテキスト"
+  },
+  "viewFaq": "FAQを見る",
+  "@viewFaq": {
+    "description": "FAQページを表示するためのボタンテキスト"
+  },
+  "medicine": "お薬",
+  "@medicine": {
+    "description": "お薬タブのタイトル"
+  },
+  "inquiry": "お問い合わせ",
+  "@inquiry": {
+    "description": "お問い合わせボタンのテキスト"
+  },
+  "ok": "OK",
+  "@ok": {
+    "description": "確認ダイアログのOKボタンのテキスト"
+  },
+  "medicationScheduleLimit": "服用スケジュールは{count}つまで登録できます。",
+  "@medicationScheduleLimit": {
+    "description": "服用スケジュールの登録上限を表示するメッセージ",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "3"
+      }
+    }
+  },
+  "increaseMedicationScheduleLimit": "プレミアムプランで上限を{count}に増やす",
+  "@increaseMedicationScheduleLimit": {
+    "description": "服用スケジュールの上限をプレミアムプランで増やすことを案内するメッセージ",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "10"
+      }
+    }
+  },
+  "addMedicationSchedule": "服用スケジュールを追加",
+  "@addMedicationSchedule": {
+    "description": "服用スケジュールを追加するボタンのテキスト"
+  },
+  "medicationScheduleNotificationSetting": "服用スケジュール通知設定",
+  "@medicationScheduleNotificationSetting": {
+    "description": "服用スケジュールの通知設定画面のタイトル"
+  },
+  "notificationSetting": "通知設定",
+  "@notificationSetting": {
+    "description": "通知設定セクションのタイトル"
+  },
+  "enableFollowupNotification": "フォローアップ通知を有効にする",
+  "@enableFollowupNotification": {
+    "description": "フォローアップ通知を有効にするスイッチのラベル"
+  },
+  "followupNotificationDescription": "最初の通知から30分の間に服薬を記録しない場合、フォローアップ通知が送信されます",
+  "@followupNotificationDescription": {
+    "description": "フォローアップ通知の説明文"
+  },
+  "enableNotificationInSilentMode": "マナーモードでも通知する",
+  "@enableNotificationInSilentMode": {
+    "description": "マナーモード時の通知を有効にするスイッチのラベル"
+  },
+  "silentModeNotificationDescription": "集中モードがONまたはデバイスが消音時でも、重大な通知はロック画面に表示されますサウンドが再生されます",
+  "@silentModeNotificationDescription": {
+    "description": "マナーモード時の通知の説明文"
+  },
+  "everyXDaysFormat": "{count}日ごと",
+  "@everyXDaysFormat": {
+    "description": "X日ごとの服用頻度を表示する際のフォーマット",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "2"
+      }
+    }
+  },
+  "cycleDaysFormat": "{consecutiveDays}日服用/{restDays}日休薬",
+  "@cycleDaysFormat": {
+    "description": "服用周期を表示する際のフォーマット",
+    "placeholders": {
+      "consecutiveDays": {
+        "type": "int",
+        "example": "21"
+      },
+      "restDays": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  },
+  "consecutiveDaysFormat": "{count}日服用",
+  "@consecutiveDaysFormat": {
+    "description": "連続服用日数を表示する際のフォーマット",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "21"
+      }
+    }
+  },
+  "restDaysFormat": "{count}日休薬",
+  "@restDaysFormat": {
+    "description": "休薬日数を表示する際のフォーマット",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "7"
+      }
+    }
   }
 }
