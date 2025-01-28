@@ -323,5 +323,23 @@
   "purchaseRestored": "購入情報を復元しました",
   "@purchaseRestored": {
     "description": "購入情報の復元が完了した際のメッセージ"
+  },
+  "medicationTimeFollowup": "服用時刻のフォローアップ",
+  "@medicationTimeFollowup": {
+    "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
+  },
+  "updateRequired": "アップデートが必要です",
+  "@updateRequired": {
+    "description": "強制アップデートが必要な場合のダイアログタイトル"
+  },
+  "updateRequiredMessage": "{storeName}から最新版にアップデートしてください",
+  "@updateRequiredMessage": {
+    "description": "強制アップデートが必要な場合のダイアログメッセージ",
+    "placeholders": {
+      "storeName": {
+        "type": "String",
+        "example": "App Store"
+      }
+    }
   }
 }
