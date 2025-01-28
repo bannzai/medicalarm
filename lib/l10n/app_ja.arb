@@ -221,5 +221,71 @@
         "example": "App Store"
       }
     }
+  },
+  "premiumUserThanksTitle": "あなたはプレミアムメンバーです",
+  "@premiumUserThanksTitle": {
+    "description": "プレミアムユーザーへの感謝を示すタイトル"
+  },
+  "premiumUserThanksMessage": "ご利用ありがとうございます。\nお陰様でMedicalarmの運営を継続できています。",
+  "@premiumUserThanksMessage": {
+    "description": "プレミアムユーザーへの感謝メッセージ"
+  },
+  "premiumPricePerMonth": "（{price}/月）",
+  "@premiumPricePerMonth": {
+    "description": "月額料金の表示フォーマット",
+    "placeholders": {
+      "price": {
+        "type": "String",
+        "example": "¥500"
+      }
+    }
+  },
+  "premiumCancelDescription": "・購入後、自動更新の解約は{storeName}アプリのアカウント設定で行えます。(アプリ内から自動更新の解約は行なえません)。",
+  "@premiumCancelDescription": {
+    "description": "プレミアムプランの解約方法の説明",
+    "placeholders": {
+      "storeName": {
+        "type": "String",
+        "example": "App Store"
+      }
+    }
+  },
+  "purchaseErrorRestoreFailed": "以前の購入情報が見つかりません。アカウントをお確かめの上再度お試しください",
+  "@purchaseErrorRestoreFailed": {
+    "description": "購入情報の復元に失敗した場合のエラーメッセージ"
+  },
+  "purchaseErrorUserNotFound": "ユーザーが確認できませんでした。アプリを再起動の上再度お試しください。詳細: {message}",
+  "@purchaseErrorUserNotFound": {
+    "description": "ユーザーが見つからない場合のエラーメッセージ",
+    "placeholders": {
+      "message": {
+        "type": "String",
+        "example": "エラーの詳細"
+      }
+    }
+  },
+  "purchaseErrorActivationPending": "課金の有効化が完了しておりません。しばらく時間をおいてからご確認ください",
+  "@purchaseErrorActivationPending": {
+    "description": "課金の有効化が完了していない場合のエラーメッセージ"
+  },
+  "purchaseErrorTimeout": "タイムアウトしました。通信環境をお確かめの上再度お試しください。解決しない場合は 設定 > 問い合わせ よりお問い合わせください。詳細: {message}",
+  "@purchaseErrorTimeout": {
+    "description": "購入処理がタイムアウトした場合のエラーメッセージ",
+    "placeholders": {
+      "message": {
+        "type": "String",
+        "example": "エラーの詳細"
+      }
+    }
+  },
+  "purchaseErrorNetworkError": "通信不良です。通信環境をお確かめの上再度お試しください。解決しない場合は 設定 > 問い合わせ よりお問い合わせください。詳細: {message}",
+  "@purchaseErrorNetworkError": {
+    "description": "ネットワークエラーが発生した場合のエラーメッセージ",
+    "placeholders": {
+      "message": {
+        "type": "String",
+        "example": "エラーの詳細"
+      }
+    }
   }
 }

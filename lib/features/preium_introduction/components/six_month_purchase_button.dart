@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:purchases_flutter/purchases_flutter.dart';
 import 'package:medicalarm/utils/purchase/purchase.dart';
+import 'package:medicalarm/features/localization/l.dart';
 
 class SixMonthPurchaseButton extends StatelessWidget {
   final Package sixMonthPackage;
@@ -59,7 +60,7 @@ class SixMonthPurchaseButton extends StatelessWidget {
                   ),
                 ),
                 Text(
-                  '（$monthlyPriceString/月）',
+                  L.premiumPricePerMonth(monthlyPriceString),
                   style: const TextStyle(
                     color: Colors.black,
                     fontSize: 14,
