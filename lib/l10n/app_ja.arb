@@ -399,5 +399,21 @@
   "doseReceiverRegistrationLimit": "服用者登録数の上限: ",
   "@doseReceiverRegistrationLimit": {
     "description": "服用者登録数の上限の説明"
+  },
+  "error": "エラー",
+  "@error": {
+    "description": "エラーダイアログのタイトル"
+  },
+  "viewFaq": "よくある質問を見る",
+  "@viewFaq": {
+    "description": "FAQページへのリンクテキスト"
+  },
+  "inquiry": "お問い合わせ",
+  "@inquiry": {
+    "description": "お問い合わせボタンのテキスト"
+  },
+  "cancel": "キャンセル",
+  "@cancel": {
+    "description": "キャンセルボタンのテキスト"
   }
 }
