@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
+import 'package:medicalarm/features/localization/l.dart';
 
 class TextEditSheet extends HookWidget {
   final String text;
@@ -55,7 +56,7 @@ class TextEditSheet extends HookWidget {
                   onPressed: () {
                     Navigator.of(context).pop(text.value);
                   },
-                  child: const Text('保存'),
+                  child: Text(L.save),
                 ),
               ),
             ],
