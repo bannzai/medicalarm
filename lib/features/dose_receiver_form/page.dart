@@ -139,10 +139,7 @@ class DoseReceiverAddButton extends HookConsumerWidget {
     return Column(
       children: [
         if (doseReceivers.length >= DoseReceiver.maxCount(isPremium: customerInfo?.isPremium)) ...[
-          Text(
-            L.doseReceiverMaxCount(DoseReceiver.maxCount(isPremium: customerInfo?.isPremium)),
-            style: const TextStyle(color: Colors.red)
-          ),
+          Text(L.doseReceiverMaxCount(DoseReceiver.maxCount(isPremium: customerInfo?.isPremium)), style: const TextStyle(color: Colors.red)),
           if (customerInfo?.isPremium == false) ...[
             TextButton(
               onPressed: () {
