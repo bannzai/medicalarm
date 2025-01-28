@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:medicalarm/features/localization/l.dart';
 
 class PremiumCompleteDialog extends StatelessWidget {
   final VoidCallback onClose;
@@ -13,9 +14,9 @@ class PremiumCompleteDialog extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         mainAxisSize: MainAxisSize.min,
         children: [
-          const Text(
-            'Medicalarmプレミアム登録完了',
-            style: TextStyle(
+          Text(
+            L.premiumRegistrationComplete,
+            style: const TextStyle(
               color: Colors.black,
               fontWeight: FontWeight.w700,
               fontSize: 16,
@@ -23,9 +24,9 @@ class PremiumCompleteDialog extends StatelessWidget {
             textAlign: TextAlign.center,
           ),
           const SizedBox(height: 24),
-          const Text(
-            'ご登録ありがとうございます。\nすべての機能が使えるようになりました！',
-            style: TextStyle(
+          Text(
+            L.premiumRegistrationThanks,
+            style: const TextStyle(
               color: Colors.black,
               fontWeight: FontWeight.w400,
               fontSize: 14,
@@ -43,7 +44,7 @@ class PremiumCompleteDialog extends StatelessWidget {
                 Navigator.of(context).pop();
                 onClose();
               },
-              child: const Text('OK'),
+              child: Text(L.ok),
             ),
           ),
         ],
