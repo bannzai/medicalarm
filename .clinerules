@@ -21,7 +21,7 @@ Medicalarm(Medication + Alarm)という服薬管理のためのモバイルア�
 
 ## その他の規約
 - 新しいclassの追加、関数の追加、エラーの解消、リファクタリングの完了などタスクの完了ごとに変更点をgit add して、git commitして記録を残してください
-- git commit 時は --author ROO-CLINEをつけてください
+- git commit 時は --author 'ROO-CODE <dummy_email_address@roo-code.com>' をつけてください
 - 翻訳時のコンパイルエラーは `flutter gen-l10n` をして解消してください
 - *.arb の @key: { description: String } の `description` 部分はどういうユースケースで使われているのかを記述してください
 - *.arb の key 名は lowerCamelCaseにしてください
