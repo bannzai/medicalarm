@@ -444,8 +444,34 @@
   "@privacyPolicy": {
     "description": "プライバシーポリシーへのリンクテキスト"
   },
-  "specifiedCommercialTransactionAct": "特定商法取引法に基づく表記",
+  "specifiedCommercialTransactionAct": "特定商取引法に基づく表記",
   "@specifiedCommercialTransactionAct": {
     "description": "特定商法取引法に基づく表記へのリンクテキスト"
+  },
+  "viewPremiumPlan": "プレミアムプランを見る",
+  "@viewPremiumPlan": {
+    "description": "プレミアムプランの詳細を表示するためのボタンテキスト"
+  },
+  "premiumContractPeriod": "プレミアム契約期間は開始日から起算して1ヶ月または1年間ごとの自動更新となります",
+  "@premiumContractPeriod": {
+    "description": "プレミアム契約の期間と自動更新に関する説明"
+  },
+  "confirmBeforeRegistration": "をご確認のうえ登録してください",
+  "@confirmBeforeRegistration": {
+    "description": "各種規約の確認を促すメッセージ"
+  },
+  "autoRenewalNotice": "プレミアム契約期間の終了日の24時間以上前に解約しない限り契約期間が自動更新されます",
+  "@autoRenewalNotice": {
+    "description": "自動更新に関する注意事項"
+  },
+  "cancelSubscriptionInstruction": "購入後、自動更新の解約は{storeName}アプリのアカウント設定で行えます。(アプリ内から自動更新の解約は行なえません)。",
+  "@cancelSubscriptionInstruction": {
+    "description": "自動更新の解約方法の説明",
+    "placeholders": {
+      "storeName": {
+        "type": "String",
+        "example": "App Store"
+      }
+    }
   }
 }
