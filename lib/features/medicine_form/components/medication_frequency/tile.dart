@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:medicalarm/components/container/flat_tile.dart';
 import 'package:medicalarm/entity/medication_frequency.dart';
 import 'package:medicalarm/features/medication_frequency_form/page.dart';
+import 'package:medicalarm/features/localization/l.dart';
 
 class MedicationFrequencyTile extends StatelessWidget {
   final ValueNotifier<MedicationFrequency> frequency;
@@ -13,7 +14,7 @@ class MedicationFrequencyTile extends StatelessWidget {
       padding: const EdgeInsets.symmetric(horizontal: 12.0),
       child: FlatTile(
         child: ListTile(
-          title: const Text('飲む頻度'),
+          title: Text(L.medicationFrequency),
           trailing: Wrap(
             children: [
               Text(frequency.value.displayName),

@@ -15,5 +15,205 @@
   "completed": "完了",
   "@completed": {
     "description": "フォームの入力や設定の変更などの操作が完了した際に使用するボタンテキスト"
+  },
+  "medicineRegistration": "お薬登録画面",
+  "@medicineRegistration": {
+    "description": "お薬の新規登録・編集画面のタイトル"
+  },
+  "medicineName": "薬の名前",
+  "@medicineName": {
+    "description": "お薬登録フォームでの薬の名前を入力するフィールドのプレースホルダー"
+  },
+  "medicineList": "お薬一覧",
+  "@medicineList": {
+    "description": "登録されているお薬の一覧を表示する画面のタイトル"
+  },
+  "medicationSchedule": "服用スケジュール",
+  "@medicationSchedule": {
+    "description": "服用スケジュールのセクションタイトル"
+  },
+  "medicationTime": "服用時の通知を有効にする",
+  "@medicationTime": {
+    "description": "服用時刻の通知設定を有効にするためのスイッチのラベル"
+  },
+  "medicationTimeDescription": "服用時刻に基づいて通知を送信します",
+  "@medicationTimeDescription": {
+    "description": "服用時刻の通知設定の説明文"
+  },
+  "close": "閉じる",
+  "@close": {
+    "description": "ダイアログやモーダルを閉じるためのボタンテキスト"
+  },
+  "settings": "設定",
+  "@settings": {
+    "description": "設定画面のタイトル"
+  },
+  "camera": "カメラ",
+  "@camera": {
+    "description": "カメラを起動するためのメニュー項目"
+  },
+  "photoLibrary": "フォトライブラリ",
+  "@photoLibrary": {
+    "description": "フォトライブラリを開くためのメニュー項目"
+  },
+  "medicationHistory": "服薬履歴",
+  "@medicationHistory": {
+    "description": "服薬履歴を表示する画面のタイトル"
+  },
+  "noMedicationHistory": "服薬履歴がありません",
+  "@noMedicationHistory": {
+    "description": "服薬履歴が存在しない場合に表示するメッセージ"
+  },
+  "scheduledTime": "予定時刻",
+  "@scheduledTime": {
+    "description": "服薬予定時刻のラベル"
+  },
+  "recordedTime": "記録時間",
+  "@recordedTime": {
+    "description": "実際に服薬を記録した時間のラベル"
+  },
+  "noMemo": "メモなし",
+  "@noMemo": {
+    "description": "メモが存在しない場合に表示するテキスト"
+  },
+  "premiumPlan": "プレミアムプラン",
+  "@premiumPlan": {
+    "description": "プレミアムプランの名称"
+  },
+  "premiumFeatureAds": "広告の非表示",
+  "@premiumFeatureAds": {
+    "description": "プレミアム機能の広告非表示の説明"
+  },
+  "premiumFeatureHistory": "服用履歴をすべて表示",
+  "@premiumFeatureHistory": {
+    "description": "プレミアム機能の履歴表示の説明"
+  },
+  "premiumRegistrationComplete": "Medicalarmプレミアム登録完了",
+  "@premiumRegistrationComplete": {
+    "description": "プレミアム登録完了時のタイトル"
+  },
+  "premiumRegistrationThanks": "ご登録ありがとうございます。\nすべての機能が使えるようになりました！",
+  "@premiumRegistrationThanks": {
+    "description": "プレミアム登録完了時のメッセージ"
+  },
+  "unknownError": "不明なエラーが発生しました",
+  "@unknownError": {
+    "description": "予期せぬエラーが発生した際のエラーメッセージ"
+  },
+  "error": "エラーが発生しました",
+  "@error": {
+    "description": "一般的なエラーメッセージ"
+  },
+  "unexpectedError": "予想外のエラーが発生しました",
+  "@unexpectedError": {
+    "description": "予期せぬエラーが発生した際のエラーメッセージ"
+  },
+  "cancel": "キャンセル",
+  "@cancel": {
+    "description": "操作をキャンセルするためのボタンテキスト"
+  },
+  "delete": "削除する",
+  "@delete": {
+    "description": "削除操作を実行するためのボタンテキスト"
+  },
+  "deleteAccount": "アカウントを削除する",
+  "@deleteAccount": {
+    "description": "アカウント削除ボタンのテキスト"
+  },
+  "deleteAccountConfirm": "ユーザー情報を削除します",
+  "@deleteAccountConfirm": {
+    "description": "アカウント削除確認ダイアログのタイトル"
+  },
+  "deleteAccountMessage": "アカウントを削除すると、ユーザー情報がすべて削除されます。",
+  "@deleteAccountMessage": {
+    "description": "アカウント削除確認ダイアログのメッセージ"
+  },
+  "medicationFrequency": "服用頻度",
+  "@medicationFrequency": {
+    "description": "服用頻度の設定セクションのタイトル"
+  },
+  "daily": "毎日",
+  "@daily": {
+    "description": "毎日服用する頻度設定"
+  },
+  "everyXDays": "X日ごと",
+  "@everyXDays": {
+    "description": "X日ごとに服用する頻度設定"
+  },
+  "specificWeekdays": "特定の曜日",
+  "@specificWeekdays": {
+    "description": "特定の曜日に服用する頻度設定"
+  },
+  "cycle": "周期",
+  "@cycle": {
+    "description": "周期で服用する頻度設定"
+  },
+  "cycleDescription": "例) 21日服用/7日休薬",
+  "@cycleDescription": {
+    "description": "周期での服用頻度の説明文"
+  },
+  "everyXDaysDescription": "例) 2日ごと、3日ごと",
+  "@everyXDaysDescription": {
+    "description": "X日ごとの服用頻度の説明文"
+  },
+  "specificWeekdaysDescription": "例) 月曜日のみ, 水曜日と金曜日",
+  "@specificWeekdaysDescription": {
+    "description": "特定の曜日の服用頻度の説明文"
+  },
+  "medicineFormValidationError": "名前と服用スケジュールを入力してください",
+  "@medicineFormValidationError": {
+    "description": "お薬登録フォームでの入力バリデーションエラーメッセージ"
+  },
+  "quantity": "容量",
+  "@quantity": {
+    "description": "服用量を入力するフィールドのラベル"
+  },
+  "quantityExample": "例: 1錠、100mg",
+  "@quantityExample": {
+    "description": "服用量入力フィールドのプレースホルダー"
+  },
+  "medicationStartDate": "服用開始日",
+  "@medicationStartDate": {
+    "description": "服用開始日を選択するフィールドのラベル"
+  },
+  "otherInformation": "その他",
+  "@otherInformation": {
+    "description": "その他の情報を入力するセクションのタイトル"
+  },
+  "doseReceiver": "服用者",
+  "@doseReceiver": {
+    "description": "服用者を選択するフィールドのラベル"
+  },
+  "defaultDoseReceiver": "あなた",
+  "@defaultDoseReceiver": {
+    "description": "デフォルトの服用者名"
+  },
+  "doseReceiverMaxCount": "服用者は最大{count}人まで登録できます",
+  "@doseReceiverMaxCount": {
+    "description": "服用者の最大登録数を表示するメッセージ",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "2"
+      }
+    }
+  },
+  "increaseLimitWithPremium": "プレミアムプランで上限を{count}に増やす",
+  "@increaseLimitWithPremium": {
+    "description": "プレミアムプランでの上限増加を案内するメッセージ",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "10"
+      }
+    }
+  },
+  "addDoseReceiver": "服用者を追加",
+  "@addDoseReceiver": {
+    "description": "服用者を追加するボタンのテキスト"
+  },
+  "newDoseReceiver": "新しい服用者",
+  "@newDoseReceiver": {
+    "description": "新規追加時のデフォルトの服用者名"
   }
 }

@@ -3,6 +3,7 @@ import 'package:medicalarm/components/container/flat_tile.dart';
 import 'package:medicalarm/entity/dose_receiver.dart';
 import 'package:medicalarm/features/dose_receiver_form/page.dart';
 import 'package:medicalarm/features/resolver/app_resolvers.dart';
+import 'package:medicalarm/features/localization/l.dart';
 
 class MedicineDoseReceiverTile extends StatelessWidget {
   final ValueNotifier<DoseReceiver?> doseReceiver;
@@ -14,10 +15,10 @@ class MedicineDoseReceiverTile extends StatelessWidget {
       padding: const EdgeInsets.symmetric(horizontal: 12.0),
       child: FlatTile(
         child: ListTile(
-          title: const Text('服用者'),
+          title: Text(L.doseReceiver),
           trailing: Wrap(
             children: [
-              Text(doseReceiver.value?.name ?? 'あなた'),
+              Text(doseReceiver.value?.name ?? L.defaultDoseReceiver),
               const Icon(Icons.chevron_right),
             ],
           ),

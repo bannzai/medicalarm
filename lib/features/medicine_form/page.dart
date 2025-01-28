@@ -20,6 +20,7 @@ import 'package:medicalarm/style/color.dart';
 import 'package:medicalarm/theme/form.dart';
 import 'package:medicalarm/utils/date_time/date_time_ext.dart';
 import 'package:medicalarm/utils/local_notification/client.dart';
+import 'package:medicalarm/features/localization/l.dart';
 
 class MedicineFormPage extends HookConsumerWidget {
   final Medicine? medicine;
@@ -84,7 +85,7 @@ class MedicineFormPage extends HookConsumerWidget {
             child: FormTheme(
               child: Scaffold(
                 appBar: AppBar(
-                  title: Text('お薬登録画面', style: TextStyle(color: primaryColor)),
+                  title: Text(L.medicineRegistration, style: TextStyle(color: primaryColor)),
                 ),
                 body: FloatingActionButtonLayout(
                   scaffoldBody: SafeArea(
@@ -151,11 +152,11 @@ class MedicineFormPage extends HookConsumerWidget {
                         label: Column(
                           children: [
                             if (!canSubmit) ...[
-                              const Text('名前と服用スケジュールを入力してください', style: TextStyle(color: TextColor.danger, fontSize: 10.0)),
+                              Text(L.medicineFormValidationError, style: const TextStyle(color: TextColor.danger, fontSize: 10.0)),
                             ],
                             Loading(
                               isLoading: isLoading.value,
-                              child: const Text('保存'),
+                              child: Text(L.save),
                             ),
                           ],
                         ),
