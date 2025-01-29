@@ -9,6 +9,7 @@ import 'package:medicalarm/utils/platform/platform.dart';
 import 'package:medicalarm/utils/purchase/error.dart';
 import 'package:medicalarm/utils/purchase/purchase.dart';
 import 'package:url_launcher/url_launcher.dart';
+import 'package:medicalarm/features/localization/l.dart';
 
 class PremiumIntroductionFotter extends StatelessWidget {
   final ValueNotifier<bool> isLoading;
@@ -34,10 +35,10 @@ class PremiumIntroductionFotter extends StatelessWidget {
                   color: Colors.grey.shade700,
                 ),
                 children: [
-                  const TextSpan(text: '・プレミアム契約期間は開始日から起算して1ヶ月または1年間ごとの自動更新となります\n'),
+                  TextSpan(text: '・${L.premiumContractPeriod}\n'),
                   const TextSpan(text: '・'),
                   TextSpan(
-                    text: 'プライバシーポリシー',
+                    text: L.privacyPolicy,
                     style: const TextStyle(decoration: TextDecoration.underline),
                     recognizer: TapGestureRecognizer()
                       ..onTap = () {
@@ -48,7 +49,7 @@ class PremiumIntroductionFotter extends StatelessWidget {
                     text: ' / ',
                   ),
                   TextSpan(
-                    text: '利用規約',
+                    text: L.termsOfService,
                     style: const TextStyle(decoration: TextDecoration.underline),
                     recognizer: TapGestureRecognizer()
                       ..onTap = () {
@@ -59,21 +60,21 @@ class PremiumIntroductionFotter extends StatelessWidget {
                     text: ' / ',
                   ),
                   TextSpan(
-                    text: '特定商取引法に基づく表示',
+                    text: L.specifiedCommercialTransactionAct,
                     style: const TextStyle(decoration: TextDecoration.underline),
                     recognizer: TapGestureRecognizer()
                       ..onTap = () {
                         launchUrl(Uri.parse('https://bannzai.github.io/medicalarm/SpecifiedCommercialTransactionAct'), mode: LaunchMode.inAppWebView);
                       },
                   ),
-                  const TextSpan(
-                    text: 'をご確認のうえ登録してください\n',
-                  ),
-                  const TextSpan(
-                    text: '・プレミアム契約期間の終了日の24時間以上前に解約しない限り契約期間が自動更新されます\n',
+                  TextSpan(
+                    text: '${L.confirmBeforeRegistration}\n',
                   ),
                   TextSpan(
-                    text: '・購入後、自動更新の解約は$storeNameアプリのアカウント設定で行えます。(アプリ内から自動更新の解約は行なえません)。',
+                    text: '・${L.autoRenewalNotice}\n',
+                  ),
+                  TextSpan(
+                    text: L.premiumCancelDescription(storeName),
                   ),
                 ],
               ),
@@ -88,11 +89,11 @@ class PremiumIntroductionFotter extends StatelessWidget {
                 final shouldShowSnackbar = await _restore();
                 if (shouldShowSnackbar) {
                   messenger.showSnackBar(
-                    const SnackBar(
-                      duration: Duration(
+                    SnackBar(
+                      duration: const Duration(
                         seconds: 2,
                       ),
-                      content: Text('購入情報を復元しました'),
+                      content: Text(L.purchaseRestored),
                     ),
                   );
                 }
@@ -102,9 +103,9 @@ class PremiumIntroductionFotter extends StatelessWidget {
                 isLoading.value = false;
               }
             },
-            child: const Text(
-              '以前購入した方はこちら',
-              style: TextStyle(
+            child: Text(
+              L.restorePurchase,
+              style: const TextStyle(
                 decoration: TextDecoration.underline,
                 color: Colors.black,
                 fontWeight: FontWeight.w400,
@@ -138,7 +139,7 @@ class PremiumIntroductionFotter extends StatelessWidget {
         'entitlements': entitlements?.identifier ?? '',
         'isActivated': entitlements?.isActive ?? false,
       });
-      throw const FormatException('以前の購入情報が見つかりません。アカウントをお確かめの上再度お試しください');
+      throw FormatException(L.purchaseErrorRestoreFailed);
     } on PlatformException catch (exception, stack) {
       analytics.logEvent(
           name: 'catched_restore_exception',

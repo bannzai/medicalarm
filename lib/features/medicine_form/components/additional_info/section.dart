@@ -3,6 +3,7 @@ import 'package:medicalarm/entity/dose_receiver.dart';
 import 'package:medicalarm/features/medicine_form/components/additional_info/dose_receiver.dart';
 import 'package:medicalarm/features/medicine_form/components/additional_info/memo.dart';
 import 'package:medicalarm/features/medicine_form/components/section_layout.dart';
+import 'package:medicalarm/features/localization/l.dart';
 
 class MedicineAdditionalInfoSection extends StatelessWidget {
   final ValueNotifier<String> memo;
@@ -20,7 +21,7 @@ class MedicineAdditionalInfoSection extends StatelessWidget {
   Widget build(BuildContext context) {
     return MedicineFormSectionLayout(
       icon: Icons.info,
-      text: 'その他',
+      text: L.otherInformation,
       children: [
         MedicineDoseReceiverTile(doseReceiver: doseReceiver),
         const SizedBox(height: 6),

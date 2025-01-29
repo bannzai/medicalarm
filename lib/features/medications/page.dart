@@ -22,6 +22,7 @@ import 'package:medicalarm/provider/medicine.dart';
 import 'package:medicalarm/provider/shared_preferences.dart';
 import 'package:medicalarm/style/color.dart';
 import 'package:medicalarm/utils/date_time/date_time_ext.dart';
+import 'package:medicalarm/features/localization/l.dart';
 import 'package:medicalarm/utils/local_notification/client.dart';
 import 'package:medicalarm/utils/purchase/purchase.dart';
 import 'package:medicalarm/utils/shared_preferences/keys.dart';
@@ -91,7 +92,7 @@ class MedicationsPageBody extends HookConsumerWidget {
       appBar: AppBar(
         title: Column(
           children: [
-            const Text('お薬', style: TextStyle(fontSize: 20)),
+            Text(L.medicine, style: const TextStyle(fontSize: 20)),
             Text(_displayMonth(page.value), style: const TextStyle(fontSize: 16, fontWeight: FontWeight.bold)),
           ],
         ),

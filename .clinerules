@@ -1,0 +1,27 @@
+Medicalarm(Medication + Alarm)という服薬管理のためのモバイルアプリを開発しています。Flutter製です
+
+このアプリはFlutterアプリです。技術構成は以下のようになっています
+
+## 状態管理
+- Flutter Hooks
+- Riverpod
+
+## インフラ
+- Firebase
+  * Firestore
+  * Firebase Analytics
+  * Crashlytics
+  * Firebase Functions
+- RevenueCat
+- AdMob
+
+また多言語化しています。 AppLocalizations L; というグローバル変数にアクセスして文言を多言語化しています。以下のファイルも参考にしてください
+- lib/features/localization/resolver.dart
+- lib/features/localization/l.dart
+
+## その他の規約
+- 新しいclassの追加、関数の追加、エラーの解消、リファクタリングの完了などタスクの完了ごとに変更点をgit add して、git commitして記録を残してください
+- 翻訳時のコンパイルエラーは `flutter gen-l10n` をして解消してください
+- *.arb の @key: { description: String } の `description` 部分はどういうユースケースで使われているのかを記述してください
+- *.arb の key 名は lowerCamelCaseにしてください
+

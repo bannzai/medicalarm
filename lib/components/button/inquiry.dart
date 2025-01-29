@@ -4,6 +4,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:medicalarm/style/button.dart';
+import 'package:medicalarm/features/localization/l.dart';
 import 'package:medicalarm/utils/analytics/analytics.dart';
 import 'package:medicalarm/utils/shared_preferences/keys.dart';
 import 'package:package_info_plus/package_info_plus.dart';
@@ -75,9 +76,9 @@ class InquiryButton extends HookConsumerWidget {
         Icons.mail,
         size: 20,
       ),
-      label: const Text(
-        'お問い合わせ',
-        style: TextStyle(
+      label: Text(
+        L.inquiry,
+        style: const TextStyle(
           fontWeight: FontWeight.w300,
           fontSize: 14,
           color: TextColor.black,

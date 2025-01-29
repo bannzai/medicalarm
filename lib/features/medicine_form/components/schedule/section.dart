@@ -6,6 +6,7 @@ import 'package:medicalarm/features/medicine_form/components/schedule/label.dart
 import 'package:medicalarm/features/medicine_form/components/schedule/notification_setting_button.dart';
 import 'package:medicalarm/features/medicine_form/components/schedule/quantity_memo_text_field.dart';
 import 'package:medicalarm/features/medicine_form/components/section_layout.dart';
+import 'package:medicalarm/features/localization/l.dart';
 
 class MedicineScheduleSection extends StatelessWidget {
   final ValueNotifier<List<MedicationSchedule>> schedules;
@@ -15,7 +16,7 @@ class MedicineScheduleSection extends StatelessWidget {
   Widget build(BuildContext context) {
     return MedicineFormSectionLayout(
       icon: Icons.schedule,
-      text: '服用スケジュール',
+      text: L.medicationSchedule,
       children: [
         const SizedBox(height: 10),
         for (final (index, schedule) in schedules.value.indexed) ...[

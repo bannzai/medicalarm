@@ -8,6 +8,7 @@ import 'package:medicalarm/features/medications/components/add_button.dart';
 import 'package:medicalarm/features/medicine_form/page.dart';
 import 'package:medicalarm/provider/medicine.dart';
 import 'package:medicalarm/style/color.dart';
+import 'package:medicalarm/features/localization/l.dart';
 
 class MedicinesPage extends HookConsumerWidget {
   const MedicinesPage({super.key});
@@ -35,7 +36,7 @@ class MedicinesPageBody extends HookConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('お薬一覧'),
+        title: Text(L.medicineList),
       ),
       body: FloatingActionButtonLayout(
         scaffoldBody: ListView(

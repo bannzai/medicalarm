@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:medicalarm/features/localization/l.dart';
 
 class MedicineFormNameTextField extends StatelessWidget {
   const MedicineFormNameTextField({
@@ -19,8 +20,8 @@ class MedicineFormNameTextField extends StatelessWidget {
         onChanged: (value) {
           name.value = value;
         },
-        decoration: const InputDecoration(
-          hintText: '薬の名前',
+        decoration: InputDecoration(
+          hintText: L.medicineName,
         ),
       ),
     );

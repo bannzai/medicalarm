@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
+import 'package:medicalarm/features/localization/l.dart';
 import 'package:medicalarm/features/preium_introduction/components/annual_purchase_button.dart';
 import 'package:purchases_flutter/purchases_flutter.dart';
 import 'package:medicalarm/components/error/error_alert.dart';
@@ -57,7 +58,7 @@ class PurchaseButtons extends HookConsumerWidget {
                 top: -6,
                 right: 8,
                 child: DiscountBadge(
-                  text: '月額より$annualhDiscountBadgePercent%OFF',
+                  text: L.monthlyPlanDiscountFormat(annualhDiscountBadgePercent),
                 ),
               ),
             ],

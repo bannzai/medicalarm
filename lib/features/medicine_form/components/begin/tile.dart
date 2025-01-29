@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:medicalarm/components/container/flat_tile.dart';
 import 'package:medicalarm/utils/date_time/date_time_ext.dart';
+import 'package:medicalarm/features/localization/l.dart';
 
 class MedicationBeginTile extends StatelessWidget {
   final ValueNotifier<DateTime> begin;
@@ -13,7 +14,7 @@ class MedicationBeginTile extends StatelessWidget {
       padding: const EdgeInsets.symmetric(horizontal: 12.0),
       child: FlatTile(
         child: ListTile(
-          title: const Text('服用開始日'),
+          title: Text(L.medicationStartDate),
           trailing: Wrap(
             children: [
               Text(DateFormat('yyyy/MM/dd').format(begin.value)),

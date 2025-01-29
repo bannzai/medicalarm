@@ -1,15 +1,16 @@
 import 'package:flutter/material.dart';
+import 'package:medicalarm/features/localization/l.dart';
 
 class PremiumUserThanksRow extends StatelessWidget {
   const PremiumUserThanksRow({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return const Column(
+    return Column(
       children: [
         Text(
-          'あなたは\vプレミアムメンバーです',
-          style: TextStyle(
+          L.premiumUserThanksTitle,
+          style: const TextStyle(
             fontWeight: FontWeight.w700,
             fontSize: 16,
             color: Colors.black,
@@ -17,8 +18,8 @@ class PremiumUserThanksRow extends StatelessWidget {
           textAlign: TextAlign.center,
         ),
         Text(
-          'ご利用ありがとうございます。\nお陰様でMedicalarmの運営を継続できています。',
-          style: TextStyle(
+          L.premiumUserThanksMessage,
+          style: const TextStyle(
             fontWeight: FontWeight.w400,
             fontSize: 14,
             color: Colors.black,

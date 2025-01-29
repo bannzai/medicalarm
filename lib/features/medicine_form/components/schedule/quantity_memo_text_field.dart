@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:medicalarm/entity/medicine.dart';
+import 'package:medicalarm/features/localization/l.dart';
 
 class MedicineScheduleQuantityMemoTextField extends HookConsumerWidget {
   final MedicationSchedule schedule;
@@ -28,9 +29,9 @@ class MedicineScheduleQuantityMemoTextField extends HookConsumerWidget {
         schedules.value = copied;
       },
       style: const TextStyle(fontSize: 12),
-      decoration: const InputDecoration(
-        labelText: '容量',
-        hintText: '例: 1錠、100mg',
+      decoration: InputDecoration(
+        labelText: L.quantity,
+        hintText: L.quantityExample,
       ),
     );
   }

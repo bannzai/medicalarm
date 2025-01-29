@@ -7,6 +7,7 @@ import 'package:image_picker/image_picker.dart';
 import 'package:medicalarm/components/alert/image_picker.dart';
 import 'package:medicalarm/components/error/error_alert.dart';
 import 'package:medicalarm/components/loading/loading.dart';
+import 'package:medicalarm/features/localization/l.dart';
 import 'package:medicalarm/provider/app_user.dart';
 import 'package:medicalarm/utils/image/image.dart';
 import 'package:medicalarm/utils/storage/firebase_cloud_storage.dart';
@@ -36,8 +37,8 @@ class MedicineMemoRow extends StatelessWidget {
               onChanged: (value) {
                 memo.value = value;
               },
-              decoration: const InputDecoration(
-                hintText: 'メモ',
+              decoration: InputDecoration(
+                hintText: L.memo,
               ),
             ),
           ),

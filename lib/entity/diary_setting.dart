@@ -22,19 +22,19 @@
 //   const DiarySetting._();
 
 //   static List<String> get defaultTags => [
-//         '頭痛',
-//         '腹痛',
-//         '吐き気',
-//         '貧血',
-//         '下痢',
-//         '便秘',
-//         'ほてり',
-//         '眠気',
-//         '腰痛',
-//         '動悸',
-//         '不正出血',
-//         '食欲不振',
-//         '胸の張り',
-//         '不眠',
+//         L.headache,
+//         L.stomachache,
+//         L.nausea,
+//         L.anemia,
+//         L.diarrhea,
+//         L.constipation,
+//         L.hotFlash,
+//         L.drowsiness,
+//         L.backPain,
+//         L.palpitation,
+//         L.abnormalBleeding,
+//         L.lossOfAppetite,
+//         L.chestTightness,
+//         L.insomnia,
 //       ];
 // }

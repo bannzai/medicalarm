@@ -3,6 +3,7 @@ import 'package:flutter_svg/svg.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:purchases_flutter/object_wrappers.dart';
 import 'package:medicalarm/features/preium_introduction/util/discount_deadline.dart';
+import 'package:medicalarm/features/localization/l.dart';
 
 class PremiumIntroductionDiscountRow extends HookConsumerWidget {
   final Package monthlyPremiumPackage;
@@ -39,10 +40,10 @@ class PremiumIntroductionDiscountRow extends HookConsumerWidget {
         crossAxisAlignment: CrossAxisAlignment.center,
         mainAxisSize: MainAxisSize.min,
         children: [
-          const Text(
-            '今なら限定価格でずっと使える',
+          Text(
+            L.limitedTimeDiscount,
             textAlign: TextAlign.center,
-            style: TextStyle(
+            style: const TextStyle(
               fontWeight: FontWeight.w700,
               fontSize: 20,
               color: Colors.black,
@@ -62,10 +63,10 @@ class PremiumIntroductionDiscountRow extends HookConsumerWidget {
           Column(
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
-              const Text(
-                '通常 月額プラン',
+              Text(
+                L.monthlyPlan,
                 textAlign: TextAlign.center,
-                style: TextStyle(
+                style: const TextStyle(
                   fontWeight: FontWeight.w400,
                   fontSize: 12,
                   color: Colors.black,

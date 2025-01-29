@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:purchases_flutter/purchases_flutter.dart';
+import 'package:medicalarm/features/localization/l.dart';
 
 class MonthlyPurchaseButton extends StatelessWidget {
   final Package monthlyPackage;
@@ -31,9 +32,9 @@ class MonthlyPurchaseButton extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.start,
           mainAxisSize: MainAxisSize.min,
           children: [
-            const Text(
-              '月額プラン',
-              style: TextStyle(
+            Text(
+              L.monthlyPlan,
+              style: const TextStyle(
                 color: Colors.black,
                 fontSize: 16,
                 fontWeight: FontWeight.w700,

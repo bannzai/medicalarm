@@ -8,6 +8,7 @@ import 'package:medicalarm/provider/dose_receiver.dart';
 import 'package:medicalarm/style/button.dart';
 import 'package:medicalarm/theme/form.dart';
 import 'package:medicalarm/utils/purchase/purchase.dart';
+import 'package:medicalarm/features/localization/l.dart';
 
 class DoseReceiverFormPage extends HookConsumerWidget {
   final ValueNotifier<DoseReceiver?> doseReceiver;
@@ -41,7 +42,7 @@ class DoseReceiverFormPage extends HookConsumerWidget {
                 child: FormTheme(
                   child: Scaffold(
                     appBar: AppBar(
-                      title: Text('服用者', style: TextStyle(color: primaryColor)),
+                      title: Text(L.doseReceiver, style: TextStyle(color: primaryColor)),
                     ),
                     body: SafeArea(
                       child: SingleChildScrollView(
@@ -138,14 +139,14 @@ class DoseReceiverAddButton extends HookConsumerWidget {
     return Column(
       children: [
         if (doseReceivers.length >= DoseReceiver.maxCount(isPremium: customerInfo?.isPremium)) ...[
-          Text('服用者は最大${DoseReceiver.maxCount(isPremium: customerInfo?.isPremium)}人まで登録できます', style: const TextStyle(color: Colors.red)),
+          Text(L.doseReceiverMaxCount(DoseReceiver.maxCount(isPremium: customerInfo?.isPremium)), style: const TextStyle(color: Colors.red)),
           if (customerInfo?.isPremium == false) ...[
             TextButton(
               onPressed: () {
                 showPremiumIntroductionSheet(context);
               },
               child: Text(
-                'プレミアムプランで上限を${DoseReceiver.maxCount(isPremium: true)}に増やす',
+                L.increaseLimitWithPremium(DoseReceiver.maxCount(isPremium: true)),
                 style: const TextStyle(
                   color: Colors.blue,
                   fontWeight: FontWeight.bold,
@@ -158,11 +159,11 @@ class DoseReceiverAddButton extends HookConsumerWidget {
         TextButton.icon(
           onPressed: doseReceivers.length < DoseReceiver.maxCount(isPremium: customerInfo?.isPremium)
               ? () {
-                  doseReceiverAdd.call(name: '新しい服用者');
+                  doseReceiverAdd.call(name: L.newDoseReceiver);
                 }
               : null,
           icon: const Icon(Icons.add),
-          label: const Text('服用者を追加', style: TextStyle(fontWeight: FontWeight.bold)),
+          label: Text(L.addDoseReceiver, style: const TextStyle(fontWeight: FontWeight.bold)),
           style: capsuleTextButtonStyle(context),
         ),
       ],

@@ -1,7 +1,5 @@
 import 'dart:async';
-
 import 'dart:math';
-
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:medicalarm/entity/medication_history.dart';
 import 'package:medicalarm/entity/medicine.dart';
@@ -11,6 +9,7 @@ import 'package:medicalarm/provider/medicine.dart';
 import 'package:medicalarm/utils/analytics/analytics.dart';
 import 'package:medicalarm/utils/analytics/error.dart';
 import 'package:medicalarm/utils/date_time/date_time_ext.dart';
+import 'package:medicalarm/features/localization/l.dart';
 import 'package:riverpod/riverpod.dart';
 import 'package:timezone/data/latest_all.dart' as tz;
 import 'package:timezone/timezone.dart' as tz;
@@ -259,7 +258,7 @@ class RegisterReminderLocalNotification {
               try {
                 await localNotificationService.plugin.zonedSchedule(
                   notificationID,
-                  'お薬の時間です',
+                  L.medicationTime,
                   message,
                   reminderDateTime,
                   NotificationDetails(
@@ -322,7 +321,7 @@ class RegisterReminderLocalNotification {
               try {
                 await localNotificationService.plugin.zonedSchedule(
                   notificationID,
-                  'お薬の時間から30分過ぎているようです',
+                  L.medicationTimeFollowup,
                   message,
                   reminderDateTime.add(const Duration(minutes: 30)),
                   NotificationDetails(

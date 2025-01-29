@@ -3,6 +3,7 @@ import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:medicalarm/components/loading/loading.dart';
+import 'package:medicalarm/features/localization/l.dart';
 
 class ImagePickerDialog extends HookConsumerWidget {
   const ImagePickerDialog({super.key});
@@ -19,7 +20,7 @@ class ImagePickerDialog extends HookConsumerWidget {
           mainAxisSize: MainAxisSize.min,
           children: [
             ListTile(
-              title: const Text('カメラ'),
+              title: Text(L.camera),
               leading: const Icon(Icons.photo_camera),
               onTap: () async {
                 final XFile? photo = await imagePicker.pickImage(source: ImageSource.camera);
@@ -32,7 +33,7 @@ class ImagePickerDialog extends HookConsumerWidget {
               },
             ),
             ListTile(
-              title: const Text('フォトライブラリ'),
+              title: Text(L.photoLibrary),
               leading: const Icon(Icons.photo_album),
               onTap: () async {
                 final XFile? photo = await imagePicker.pickImage(source: ImageSource.gallery);
@@ -51,7 +52,7 @@ class ImagePickerDialog extends HookConsumerWidget {
           onPressed: () {
             Navigator.pop(context, null);
           },
-          child: const Text('閉じる'),
+          child: Text(L.close),
         ),
       ],
     );

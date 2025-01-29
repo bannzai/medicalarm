@@ -15,6 +15,7 @@ import 'package:medicalarm/provider/medication_history.dart';
 import 'package:medicalarm/style/color.dart';
 import 'package:medicalarm/utils/date_time/date_time_ext.dart';
 import 'package:medicalarm/utils/purchase/purchase.dart';
+import 'package:medicalarm/features/localization/l.dart';
 
 class MedicationHistoriesPage extends HookConsumerWidget {
   const MedicationHistoriesPage({super.key});
@@ -76,7 +77,7 @@ class MedicationsHistoryPageBody extends HookConsumerWidget {
     final customerInfo = ref.watch(customerInfoProvider).asData?.value;
     return Scaffold(
       appBar: AppBar(
-        title: const Text('服薬履歴'),
+        title: Text(L.medicationHistory),
       ),
       body: SafeArea(
         child: Column(
@@ -126,9 +127,9 @@ class MedicationsHistoryPageBody extends HookConsumerWidget {
                                 onPressed: () {
                                   showPremiumIntroductionSheet(context);
                                 },
-                                child: const Text(
-                                  'プレミアムプランの加入で閲覧が可能です',
-                                  style: TextStyle(
+                                child: Text(
+                                  L.premiumRequired,
+                                  style: const TextStyle(
                                     color: Colors.blue,
                                     fontWeight: FontWeight.bold,
                                     decoration: TextDecoration.underline,
@@ -156,7 +157,7 @@ class MedicationHistoryEmpty extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Center(child: Text('服薬履歴がありません'));
+    return Center(child: Text(L.noMedicationHistory));
   }
 }
 
@@ -212,7 +213,7 @@ class MedicationHistoryTile extends HookConsumerWidget {
               children: [
                 Row(
                   children: [
-                    const Text('予定時刻'),
+                    Text(L.scheduledTime),
                     const Spacer(),
                     Text(
                       '${DateFormat(DateFormat.MONTH_DAY).format(history.scheduledRecordedDate)} ${schedule.toTimeString()}',
@@ -225,7 +226,7 @@ class MedicationHistoryTile extends HookConsumerWidget {
                 ),
                 Row(
                   children: [
-                    const Text('記録時間'),
+                    Text(L.recordedTime),
                     const Spacer(),
                     Text(
                       '${DateFormat(DateFormat.MONTH_DAY).format(history.recordedDateTime)} ${DateFormat(DateFormat.HOUR24_MINUTE).format(history.recordedDateTime)}',
@@ -242,7 +243,7 @@ class MedicationHistoryTile extends HookConsumerWidget {
             Row(
               children: [
                 if (history.memo.isEmpty) ...[
-                  const Text('メモなし'),
+                  Text(L.noMemo),
                 ],
                 if (history.memo.isNotEmpty) ...[
                   Text(history.memo),
