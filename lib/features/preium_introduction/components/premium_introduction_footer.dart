@@ -68,7 +68,7 @@ class PremiumIntroductionFotter extends StatelessWidget {
                       },
                   ),
                   TextSpan(
-                    text: L.confirmBeforeRegistration + '\n',
+                    text: '${L.confirmBeforeRegistration}\n',
                   ),
                   TextSpan(
                     text: '・${L.autoRenewalNotice}\n',
