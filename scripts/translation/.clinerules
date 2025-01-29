@@ -1,0 +1,87 @@
+medicalarmというFlutter製の服薬管理アプリのスクリプトディレクトリです。Pythonとbashのスクリプトが置かれています
+このスクリプトファイルではアプリの多言語化に伴う ASO(App Store Optimization) を意識した翻訳をお願いしたいです。
+name,subtile,keywordsの設定するスクリプトを書いてください。ディレクトリ方式は fastlane deliverのディレクトリ方式になります。
+
+## スクリプトの手順
+1. 日本語のテキストをインプットとします。## 日本語のセクションを参考にしてください
+2. fastlane deliverのディレクトリ方式になるようにmkdir,touchを行うようにしてください
+3. OpenAIのAPIを使用して翻訳をします。プロンプトには翻訳の他に文字数の制限についても記載してください
+4. 文字数の制限を超えている場合はリトライしてください。リトライは10回までとします
+5. fastlane deliver のディレクトリ方式になるように結果を出力してください。出力はname.txt,subtitle.txt,keywords.txtになります
+
+## 日本語
+- name: Medicalarm - 絶対飲み忘れない服薬管理アプリ
+- subtitle: 飲み忘れの不安を解決します
+- keywords:ピル,薬,薬飲み忘れ,服薬,服薬管理,通知,アラーム,人気,ヘルスケア
+
+## fastlane deliverのディレクトリ方式
+以下は日本語のディレクトリのtreeコマンドの出力結果です
+
+$ tree -L 2 fastlane/metadata/ja
+fastlane/metadata/ja
+├── apple_tv_privacy_policy.txt
+├── description.txt
+├── keywords.txt
+├── marketing_url.txt
+├── memo.md
+├── name.txt
+├── privacy_url.txt
+├── promotional_text.txt
+├── release_notes.txt
+├── subtitle.txt
+└── support_url.txt
+
+今回 name.txt,subtitle.txt,keywords.txtの翻訳のためのスクリプトを書いてください
+
+## 制約
+
+name,subtile,keywordsはそれぞれ文字数制限があります。それを遵守するようにスクリプトの処理に含めてください
+
+- nameは30文字以内
+- subtitleは30文字以内
+- keywordsは100文字以内
+
+## 言語
+BCP47言語コードになります
+
+langs = [
+    "ar-SA",
+    "ca",
+    "cs",
+    "da",
+    "de-DE",
+    "el",
+    "en-AU",
+    "en-CA",
+    "en-GB",
+    "en-US",
+    "es-ES",
+    "es-MX",
+    "fi",
+    "he",
+    "hi",
+    "hr",
+    "hu",
+    "id",
+    "it",
+    "ja",
+    "ko",
+    "ms",
+    "nl-NL",
+    "no",
+    "pl",
+    "pt-BR",
+    "pt-PT",
+    "ro",
+    "sk",
+    "sv",
+    "th",
+    "tr",
+    "uk",
+    "vi",
+    "zh-Hans",
+    "zh-Hant",
+]
+## 規約
+- タスクの完了ごとに変更点をgit add して、git commitして記録を残してください
+
