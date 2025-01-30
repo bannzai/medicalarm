@@ -18,7 +18,7 @@ def translate_english_value(text):
             {
                 "role": "system",
                 "content": """
-                    Flutterで作られたピル管理アプリ・Pilllの翻訳作業を手伝ってください。次に渡すアプリ上で使われている文言を適切に英訳してください
+                    Flutterで作られた服薬管理アプリ・Medicalarmの翻訳作業を手伝ってください。次に渡すアプリ上で使われている文言を適切に英訳してください
             """,
             },
             {
@@ -30,7 +30,7 @@ def translate_english_value(text):
             {
                 "name": "translate",
                 "description": """
-                    Flutterで作られたピル管理アプリ・Pilllの翻訳作業を手伝ってください。次に渡すアプリ上で使われている文言を適切に英訳してください
+                    Flutterで作られた服薬管理アプリ・Medicalarmの翻訳作業を手伝ってください。次に渡すアプリ上で使われている文言を適切に英訳してください
                 """,
                 "parameters": {
                     "type": "object",

@@ -46,23 +46,19 @@ langs = [
 ]
 
 
-# 飲み忘れの不安をなくすピルの服用管理モバイルアプリ・Pilllの開発をしています。
-# ピルの服用時刻にリマインド、服用履歴の管理、生理管理を行えるアプリになっています。
-# このアプリでローカライズをしたいです。AppStore上に表示するアプリ紹介のためのデスクリプションを翻訳したいです
-# 指定された言語が使われている文化圏に相応しいPilllのアプリ上で表示するための翻訳を返してください。
 def translate_text(target_lang, ja_text):
     translated_app_store_description = [
         {
             "name": "translated_app_store_description",
             "description": f"""
-            We are developing a mobile app called Pilll, which manages pill intake to eliminate the worry of forgetting to take pills. 
-            This app provides reminders for pill intake times, manages pill intake history, and offers menstrual tracking features. 
-            We would like to localize this app and translate the description for the App Store. 
-            Please provide a translation that fits the cultural context of the specified language and is suitable for use in the app's introduction on the App Store.
-            """,
-            "parameters": {
-                "type": "object",
-                "properties": {
+                薬の飲み忘れの不安をなくす服薬管理モバイルアプリ・Medicalarmの開発をしています。
+                服薬の服用時刻にリマインド、服用履歴の管理、生理管理を行えるアプリになっています。
+                このアプリでローカライズをしたいです。AppStore上に表示するアプリ紹介のためのデスクリプションを翻訳したいです
+                指定された言語が使われている文化圏に相応しいMedicalarmのアプリ上で表示するための翻訳を返してください。
+    """
+                "parameters": {
+                    "type": "object",
+                    "properties": {
                     "text": {
                         "type": "string",
                         "description": "Translated release note on the App Store for {target_lang}",
@@ -79,10 +75,10 @@ def translate_text(target_lang, ja_text):
             {
                 "role": "user",
                 "content": f"""
-             Please translate below the japanese release note to `{target_lang}`.
-             `{target_lang}` matches the BCP 47 language code.
+             AppStoreに表示されるリリースノートを `{target_lang}` に翻訳してください。
+             `{target_lang}` はBCP 47言語コードにマッチしています。
 
-             Japanese release note
+             日本語のストアデスクリプションです
              -------
              {ja_text}
              --------
