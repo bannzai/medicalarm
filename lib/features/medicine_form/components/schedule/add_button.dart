@@ -27,8 +27,7 @@ class MedicineScheduleAddButton extends HookConsumerWidget {
     return Column(
       children: [
         if (schedules.value.length >= MedicationSchedule.maxCount(isPremium: customerInfo?.isPremium)) ...[
-          Text(
-              L.medicationScheduleLimit(MedicationSchedule.maxCount(isPremium: customerInfo?.isPremium)),
+          Text(L.medicationScheduleLimit(MedicationSchedule.maxCount(isPremium: customerInfo?.isPremium)),
               style: const TextStyle(color: TextColor.danger)),
           const SizedBox(height: 4),
           if (customerInfo?.isPremium == false) ...[

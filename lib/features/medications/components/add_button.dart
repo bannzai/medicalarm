@@ -23,10 +23,7 @@ class MedicalAddFloatingActionButtonChild extends HookConsumerWidget {
       child: Column(
         children: [
           if (medicines.length >= Medicine.maxCount(isPremium: customerInfo?.isPremium)) ...[
-            Text(
-              L.medicineMaxCount(Medicine.maxCount(isPremium: customerInfo?.isPremium)),
-              style: const TextStyle(color: TextColor.danger)
-            ),
+            Text(L.medicineMaxCount(Medicine.maxCount(isPremium: customerInfo?.isPremium)), style: const TextStyle(color: TextColor.danger)),
             const SizedBox(height: 4),
             if (customerInfo?.isPremium == false) ...[
               TextButton(
