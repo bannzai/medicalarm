@@ -78,22 +78,22 @@ def create_deliver_structure():
 
 
 # 薬の飲み忘れの不安をなくす服薬管理モバイルアプリ・Medicalarmの開発をしています。
-# 服薬の服用時刻にリマインド、服用履歴の管理、生理管理を行えるアプリになっています。
+# 服薬の服用時刻にリマインド、服用履歴の管理・マナーモードでも届く通知機能を兼ね備えたアプリになっています。
 # このアプリでローカライズをしたいです。AppStoreで設定するASOのためのメタデータを翻訳したいです。
 # {content_type}の翻訳をしてください。文字数は{char_limit}文字以内です。{lang}に翻訳してください。
 # {content_type}の翻訳の注意点です: {content_type_note}
-# 指定された言語が使われている文化圏に相応しいPilllのアプリ上で表示するための翻訳を返してください。
+# 指定された言語が使われている文化圏に相応しいMedicalarmのアプリ上で表示するための翻訳を返してください。
 def translate_text(ja_text, lang, content_type, char_limit, content_type_note):
     translated_app_store_metadata = [
         {
             "name": "translated_app_store_metadata",
             "description": f"""
                 薬の飲み忘れの不安をなくす服薬管理モバイルアプリ・Medicalarmの開発をしています。
-                服薬の服用時刻にリマインド、服用履歴の管理、生理管理を行えるアプリになっています。
+                服薬の服用時刻にリマインド、服用履歴の管理・マナーモードでも届く通知機能を兼ね備えたアプリになっています。
                 このアプリでローカライズをしたいです。AppStoreで設定するASOのためのメタデータを翻訳したいです。
                 {content_type}の翻訳をしてください。文字数は{char_limit}文字以内です。{lang}に翻訳してください。
                 {content_type}の翻訳の注意点です: {content_type_note}
-                指定された言語が使われている文化圏に相応しいPilllのアプリ上で表示するための翻訳を返してください。
+                指定された言語が使われている文化圏に相応しいMedicalarmのアプリ上で表示するための翻訳を返してください。
             """,
             "parameters": {
                 "type": "object",
