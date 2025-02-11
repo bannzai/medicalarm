@@ -46,12 +46,12 @@ LANGS = [
 ]
 INPUT_TEXT = {
     # 実際は違う。name,subtitle
-    "name": "Pilll - ピル飲み忘れ防止",
-    "subtitle": "生理も一緒に管理",
-    "keywords": "ピル,pill,生理,ピルリマインダー,フリウェル,ヤーズ,トリキュラー,薬,女子,カレンダー,薬飲み忘れ,ヤーズフレックス,PMS,服薬,通知,アラーム,人気,ヘルスケア,フェムテック,管理",
+    "name": "Medicalarm - 絶対飲み忘れない服薬管理アプリ",
+    "subtitle": "飲み忘れの不安を解決します",
+    "keywords": "ピル,薬,薬飲み忘れ,服薬,服薬管理,通知,アラーム,人気,ヘルスケア",
 }
 INPUT_TEXT_NOTE = {
-    "name": "Pilll - を最初に入れてください。これを含めて30文字以内で翻訳してください。",
+    "name": "Medicalarm - を最初に入れてください。これを含めて30文字以内で翻訳してください。",
     "subtitle": "短くキャッチーに翻訳してください",
     "keywords": "`,`区切りでキーワードを羅列してください",
 }
@@ -77,8 +77,8 @@ def create_deliver_structure():
         os.makedirs(os.path.join(FASTLANE_METADATA_DIR, lang), exist_ok=True)
 
 
-# 飲み忘れの不安をなくすピルの服用管理モバイルアプリ・Pilllの開発をしています。
-# ピルの服用時刻にリマインド、服用履歴の管理、生理管理を行えるアプリになっています。
+# 薬の飲み忘れの不安をなくす服薬管理モバイルアプリ・Medicalarmの開発をしています。
+# 服薬の服用時刻にリマインド、服用履歴の管理、生理管理を行えるアプリになっています。
 # このアプリでローカライズをしたいです。AppStoreで設定するASOのためのメタデータを翻訳したいです。
 # {content_type}の翻訳をしてください。文字数は{char_limit}文字以内です。{lang}に翻訳してください。
 # {content_type}の翻訳の注意点です: {content_type_note}
@@ -88,8 +88,8 @@ def translate_text(ja_text, lang, content_type, char_limit, content_type_note):
         {
             "name": "translated_app_store_metadata",
             "description": f"""
-                飲み忘れの不安をなくすピルの服用管理モバイルアプリ・Pilllの開発をしています。
-                ピルの服用時刻にリマインド、服用履歴の管理、生理管理を行えるアプリになっています。
+                薬の飲み忘れの不安をなくす服薬管理モバイルアプリ・Medicalarmの開発をしています。
+                服薬の服用時刻にリマインド、服用履歴の管理、生理管理を行えるアプリになっています。
                 このアプリでローカライズをしたいです。AppStoreで設定するASOのためのメタデータを翻訳したいです。
                 {content_type}の翻訳をしてください。文字数は{char_limit}文字以内です。{lang}に翻訳してください。
                 {content_type}の翻訳の注意点です: {content_type_note}
