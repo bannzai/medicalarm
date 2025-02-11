@@ -41,12 +41,7 @@ class ForceUpdateResolver extends HookConsumerWidget {
     if (shouldForceUpdate.value) {
       Future.microtask(() async {
         if (context.mounted) {
-          await showOKDialog(
-            context,
-            icon: Icons.error,
-            title: L.updateRequired,
-            message: L.updateRequiredMessage(storeName),
-            ok: () async {
+          await showOKDialog(context, icon: Icons.error, title: L.updateRequired, message: L.updateRequiredMessage(storeName), ok: () async {
             await launchUrl(
               Uri.parse(forceUpdateStoreURL),
               mode: LaunchMode.externalApplication,
