@@ -115,7 +115,7 @@ def translate_text(ja_value: str, comment: str, target_lang: str) -> str:
 
     try:
         response = openai.chat.completions.create(
-            model="gpt-4o-mini",
+            model="o3-mini",
             messages=[
                 {"role": "system", "content": "You are a translation assistant."},
                 {"role": "user", "content": prompt},

@@ -74,7 +74,7 @@ def translate_text(target_lang, ja_text):
     ]
 
     response = openai.chat.completions.create(
-        model="gpt-4o-mini",
+        model="o3-mini",
         messages=[
             {
                 "role": "user",
