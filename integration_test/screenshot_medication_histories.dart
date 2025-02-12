@@ -153,7 +153,6 @@ class MedicationHistoryTile extends HookConsumerWidget {
     final medicine = history.medicine;
     final schedule = history.action.medicationSchedule;
     final primaryColor = Theme.of(context).colorScheme.primary;
-    final memoUpdate = ref.watch(medicationHistoryMemoUpdateProvider);
 
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 16.0),
@@ -231,7 +230,7 @@ class MedicationHistoryTile extends HookConsumerWidget {
                   onPressed: () async {
                     final result = await showTextEditSheet(context, text: history.memo);
                     if (result != null) {
-                      memoUpdate.call(medicationHistory: history, memo: result);
+                      ref.read(medicationHistoryMemoUpdateProvider).call(medicationHistory: history, memo: result);
                     }
                   },
                   icon: const Icon(Icons.edit),
