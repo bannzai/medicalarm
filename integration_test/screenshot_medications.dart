@@ -141,13 +141,24 @@ final List<Medicine> medicines = [
     name: 'ビタミン剤',
     beganDateTime: DateTime.now(),
     frequency: const DailyMedicationFrequency(),
-    doseReceiver: const DoseReceiver(id: '2', userID: '2', name: '自分'),
+    doseReceiver: const DoseReceiver(id: '2', userID: '2', name: 'マナちゃん'),
     memo: 'Memo 2',
     memoImageURL: 'https://example.com/memo.png',
     schedules: [
       const MedicationSchedule(
         id: '2',
-        hour: 10,
+        hour: 8,
+        minute: 0,
+        quantityMemo: '2錠',
+        notificationSetting: MedicineScheduleNotificationSetting(
+          isReminderEnabled: true,
+          isFollowupEnabled: true,
+          useCriticalAlert: true,
+        ),
+      ),
+      const MedicationSchedule(
+        id: '3',
+        hour: 19,
         minute: 0,
         quantityMemo: '2錠',
         notificationSetting: MedicineScheduleNotificationSetting(
