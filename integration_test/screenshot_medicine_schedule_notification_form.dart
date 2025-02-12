@@ -90,6 +90,7 @@ class MedicineScheduleNotificationSettingSection extends HookWidget {
 
   @override
   Widget build(BuildContext context) {
+    final switchListTileThemeTitleTextTheme = ListTileTheme.of(context).titleTextStyle;
     return MedicineFormSectionLayout(
       icon: Icons.notifications,
       text: L.notificationSetting,
@@ -121,7 +122,11 @@ class MedicineScheduleNotificationSettingSection extends HookWidget {
         SwitchListTile(
           value: useCriticalAlert.value,
           onChanged: (value) async {},
-          title: Text(L.enableNotificationInSilentMode),
+          title: Text(L.enableNotificationInSilentMode,
+              style: const TextStyle(
+                decoration: TextDecoration.underline,
+                decorationStyle: TextDecorationStyle.solid,
+              ).merge(switchListTileThemeTitleTextTheme)),
           subtitle: Text(L.silentModeNotificationDescription),
         ),
       ],
