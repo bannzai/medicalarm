@@ -12,7 +12,7 @@ void main() {
   group('end-to-end test', () {
     final locales = AppLocalizations.supportedLocales.where((locale) => locale.languageCode != 'ja');
     for (final locale in locales) {
-      testWidgets('screenshot chat_partner_form $locale', (tester) async {
+      testWidgets('screenshot medications $locale', (tester) async {
         L = lookupAppLocalizations(locale);
 
         await tester.pumpWidget(MaterialApp(
@@ -33,7 +33,7 @@ void main() {
         await tester.pumpAndSettle(const Duration(seconds: 3));
         await binding.convertFlutterSurfaceToImage();
         await tester.pumpAndSettle();
-        await binding.takeScreenshot('artifacts/screenshots/screenshot_chat_partner_form--${locale.languageCode}.png');
+        await binding.takeScreenshot('artifacts/screenshots/screenshot_medications--${locale.languageCode}.png');
       });
     }
   });
