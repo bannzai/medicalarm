@@ -3,7 +3,8 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:integration_test/integration_test.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:medicalarm/features/localization/l.dart';
-import 'package:medicalarm/features/medications/medications_page.dart';
+
+import 'screenshot_medications.dart';
 
 void main() {
   final binding = IntegrationTestWidgetsFlutterBinding.ensureInitialized();
@@ -22,7 +23,7 @@ void main() {
           ),
           debugShowCheckedModeBanner: false,
           locale: locale,
-          home: const ScreenshotChatPartnerForm(),
+          home: const ScreenshotMedicationsPage(),
           localizationsDelegates: AppLocalizations.localizationsDelegates,
           supportedLocales: AppLocalizations.supportedLocales,
         ));
