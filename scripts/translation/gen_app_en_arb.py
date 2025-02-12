@@ -6,8 +6,7 @@ import openai
 # OpenAI API key (replace with your actual key)
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
-os.chdir("../../")
-
+os.chdir(os.environ.get("PROJECT_DIR")
 
 # Function to translate text using OpenAI's API with Function Calling
 def translate_english_value(text):
