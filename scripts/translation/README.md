@@ -1,4 +1,5 @@
 ## Generator
+- gen_app_en_arb 英語の .arb を作成
 - generate_screenshot.sh は UITest を通して各言語のスクリーンショットを撮る
 - generate_screenshot_text.py は OpenAI を通じて resources/text_to_image.json からスクリーンショットに表示するテキストを画像にする
 - generate_merged_image.sh は imagemagick を使用して、generate_screenshot と generate_screenshot_text を合体させる

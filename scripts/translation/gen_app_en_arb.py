@@ -6,7 +6,7 @@ import openai
 # OpenAI API key (replace with your actual key)
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
-os.chdir("../")
+os.chdir("../../")
 
 
 # Function to translate text using OpenAI's API with Function Calling
