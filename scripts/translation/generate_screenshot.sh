@@ -5,7 +5,7 @@ SCRIPT_DIR="$(cd `dirname $0` && pwd -P)"
 PROJECT_ROOT_DIR=$SCRIPT_DIR/../
 cd $PROJECT_ROOT_DIR
 
-source scripts/ui_test_env.sh
+source scripts/translation/ui_test_env.sh
 
 rm -rf $GENERATE_SCREENSHOT_ARTIFACT
 
