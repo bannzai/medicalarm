@@ -5,6 +5,7 @@ import 'package:firebase_crashlytics/firebase_crashlytics.dart';
 import 'package:flutter/material.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
+import 'package:intl/intl.dart';
 import 'package:medicalarm/features/root/page.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:medicalarm/provider/shared_preferences.dart';
@@ -16,6 +17,8 @@ import 'package:shared_preferences/shared_preferences.dart';
 void main() async {
   runZonedGuarded(() async {
     WidgetsFlutterBinding.ensureInitialized();
+
+    Intl.defaultLocale = 'ja';
 
     await (
       MobileAds.instance.initialize(),
