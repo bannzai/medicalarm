@@ -9,7 +9,7 @@ import 'package:medicalarm/provider/shared_preferences.dart';
 import 'package:medicalarm/style/color.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-import 'screenshot_medicine_schedule_notification_form.dart';
+import '../lib/screenshot/screenshot_medicine_schedule_notification_form.dart';
 
 void main() {
   final binding = IntegrationTestWidgetsFlutterBinding.ensureInitialized();

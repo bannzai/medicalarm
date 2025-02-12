@@ -9,7 +9,7 @@ import 'package:medicalarm/provider/shared_preferences.dart';
 import 'package:medicalarm/style/color.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-import 'screenshot_medication_histories.dart';
+import '../lib/screenshot/screenshot_medication_histories.dart';
 
 void main() {
   final binding = IntegrationTestWidgetsFlutterBinding.ensureInitialized();
