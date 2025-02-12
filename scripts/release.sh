@@ -36,7 +36,7 @@ git fetch origin
 git switch -d origin/main
 
 flutter build ipa --release --export-options-plist=$(pwd -P)/ios/Config/ExportOptions.plist
-xcrun altool --upload-app --type ios -f "./build/ios/ipa/replai.ipa" -u "$APPLE_ID" -p "$APPLE_APP_PASSWORD"
+xcrun altool --upload-app --type ios -f "./build/ios/ipa/medicalarm.ipa" -u "$APPLE_ID" -p "$APPLE_APP_PASSWORD"
 
 git tag $DATE
 git push origin --tags
