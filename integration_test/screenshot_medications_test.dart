@@ -3,6 +3,7 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:integration_test/integration_test.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:medicalarm/features/localization/l.dart';
+import 'package:medicalarm/style/color.dart';
 
 import 'screenshot_medications.dart';
 
@@ -15,11 +16,62 @@ void main() {
       testWidgets('screenshot medications $locale', (tester) async {
         L = lookupAppLocalizations(locale);
 
+        final colorScheme = ColorScheme.fromSeed(
+          seedColor: AppColors.primary,
+          primary: AppColors.primary,
+        );
         await tester.pumpWidget(MaterialApp(
           theme: ThemeData(
-            colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+            colorScheme: colorScheme,
+            dividerColor: Colors.black,
+            bottomSheetTheme: const BottomSheetThemeData(
+              backgroundColor: AppColors.formBackground,
+            ),
+            textSelectionTheme: const TextSelectionThemeData(
+              cursorColor: AppColors.primary,
+            ),
+            inputDecorationTheme: InputDecorationTheme(
+              filled: true,
+              fillColor: Colors.white,
+              enabledBorder: OutlineInputBorder(
+                borderSide: const BorderSide(color: AppColors.border),
+                borderRadius: BorderRadius.circular(8),
+              ),
+              focusedBorder: const OutlineInputBorder(
+                borderSide: BorderSide(color: AppColors.primary),
+              ),
+              contentPadding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 20.0),
+            ),
+            appBarTheme: const AppBarTheme(
+              elevation: 1,
+            ),
+            textButtonTheme: TextButtonThemeData(
+              style: TextButton.styleFrom(
+                foregroundColor: colorScheme.primary,
+                textStyle: const TextStyle(fontSize: 16.0, fontWeight: FontWeight.bold),
+              ),
+            ),
+            elevatedButtonTheme: ElevatedButtonThemeData(
+              style: ElevatedButton.styleFrom(
+                shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
+                padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 12.0),
+                minimumSize: const Size(double.infinity, 48.0),
+                textStyle: const TextStyle(fontSize: 16.0, fontWeight: FontWeight.bold),
+                disabledBackgroundColor: AppColors.disabled,
+              ),
+            ),
+            floatingActionButtonTheme: const FloatingActionButtonThemeData(
+              extendedTextStyle: TextStyle(fontSize: 16.0, fontWeight: FontWeight.bold),
+            ),
+            outlinedButtonTheme: OutlinedButtonThemeData(
+              style: OutlinedButton.styleFrom(
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(10),
+                ),
+                side: const BorderSide(),
+              ),
+            ),
             useMaterial3: false,
-            scaffoldBackgroundColor: Colors.white,
           ),
           debugShowCheckedModeBanner: false,
           locale: locale,
