@@ -244,54 +244,54 @@ class MedicationHistoryTile extends HookConsumerWidget {
   }
 }
 
-final List<Medicine> medicines = [
-  Medicine(
-    id: '1',
-    userID: '1',
-    name: '頭痛薬',
-    beganDateTime: DateTime.now(),
-    frequency: const DailyMedicationFrequency(),
-    doseReceiver: const DoseReceiver(id: '1', userID: '1', name: '自分'),
-    memo: 'Memo 1',
-    memoImageURL: 'https://example.com/memo.png',
-    schedules: [
-      const MedicationSchedule(
+List<Medicine> get medicines => [
+      Medicine(
         id: '1',
-        hour: 10,
-        minute: 0,
-        quantityMemo: '1錠',
-        notificationSetting: MedicineScheduleNotificationSetting(
-          isReminderEnabled: true,
-          isFollowupEnabled: true,
-          useCriticalAlert: true,
-        ),
+        userID: '1',
+        name: '頭痛薬',
+        beganDateTime: DateTime.now(),
+        frequency: const DailyMedicationFrequency(),
+        doseReceiver: const DoseReceiver(id: '1', userID: '1', name: '自分'),
+        memo: 'Memo 1',
+        memoImageURL: 'https://example.com/memo.png',
+        schedules: [
+          const MedicationSchedule(
+            id: '1',
+            hour: 10,
+            minute: 0,
+            quantityMemo: '1錠',
+            notificationSetting: MedicineScheduleNotificationSetting(
+              isReminderEnabled: true,
+              isFollowupEnabled: true,
+              useCriticalAlert: true,
+            ),
+          ),
+        ],
       ),
-    ],
-  ),
-  Medicine(
-    id: '2',
-    userID: '2',
-    name: 'ビタミン剤',
-    beganDateTime: DateTime.now(),
-    frequency: const DailyMedicationFrequency(),
-    doseReceiver: const DoseReceiver(id: '2', userID: '2', name: 'マナちゃん'),
-    memo: 'Memo 2',
-    memoImageURL: 'https://example.com/memo.png',
-    schedules: [
-      const MedicationSchedule(
+      Medicine(
         id: '2',
-        hour: 8,
-        minute: 0,
-        quantityMemo: '2錠',
-        notificationSetting: MedicineScheduleNotificationSetting(
-          isReminderEnabled: true,
-          isFollowupEnabled: true,
-          useCriticalAlert: true,
-        ),
+        userID: '2',
+        name: 'ビタミン剤',
+        beganDateTime: DateTime.now(),
+        frequency: const DailyMedicationFrequency(),
+        doseReceiver: const DoseReceiver(id: '2', userID: '2', name: 'マナちゃん'),
+        memo: 'Memo 2',
+        memoImageURL: 'https://example.com/memo.png',
+        schedules: [
+          const MedicationSchedule(
+            id: '2',
+            hour: 8,
+            minute: 0,
+            quantityMemo: '2錠',
+            notificationSetting: MedicineScheduleNotificationSetting(
+              isReminderEnabled: true,
+              isFollowupEnabled: true,
+              useCriticalAlert: true,
+            ),
+          ),
+        ],
       ),
-    ],
-  ),
-];
+    ];
 final List<MedicationHistory> medicationHistories = [
   MedicationHistory(
     id: '1',
@@ -303,7 +303,7 @@ final List<MedicationHistory> medicationHistories = [
       medicationSchedule: medicines[0].schedules[0],
       scheduledRecordedDate: DateTime.now(),
     ),
-    memo: 'Memo 1',
+    memo: L.screenshotMedicationHistoriesMemo,
     recordedDateTime: DateTime.now(),
     scheduledRecordedDate: DateTime.now(),
     ttlExpiresDateTime: DateTime.now(),

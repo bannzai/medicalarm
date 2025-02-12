@@ -3,6 +3,7 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:integration_test/integration_test.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:intl/date_symbol_data_local.dart';
 import 'package:medicalarm/features/localization/l.dart';
 import 'package:medicalarm/provider/shared_preferences.dart';
 import 'package:medicalarm/style/color.dart';
@@ -12,6 +13,8 @@ import 'screenshot_medication_histories.dart';
 
 void main() {
   final binding = IntegrationTestWidgetsFlutterBinding.ensureInitialized();
+
+  initializeDateFormatting();
 
   group('end-to-end test', () {
     final locales = AppLocalizations.supportedLocales;

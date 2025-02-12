@@ -727,5 +727,9 @@
         "example": "App Store"
       }
     }
+  },
+  "screenshotMedicationHistoriesMemo": "昼寝をしすぎて薬飲む時間が遅れた",
+  "@screenshotMedicationHistoriesMemo": {
+    "description": "薬のメモの例"
   }
 }
