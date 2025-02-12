@@ -115,7 +115,7 @@ def translate_text(ja_value: str, comment: str, target_lang: str) -> str:
 
     try:
         response = openai.chat.completions.create(
-            model="o1-mini",
+            model="gpt-4o-mini",
             messages=[
                 {"role": "user", "content": f"あなたは優秀なモバイルアプリの翻訳者です。{prompt}"},
             ],
