@@ -17,11 +17,11 @@ import 'package:medicalarm/utils/date_time/date_time_ext.dart';
 import 'package:medicalarm/utils/purchase/purchase.dart';
 import 'package:medicalarm/features/localization/l.dart';
 
-class ScreenshotMedicationHistoriesPage extends HookConsumerWidget {
+class ScreenshotMedicationHistoriesPage extends HookWidget {
   const ScreenshotMedicationHistoriesPage({super.key});
 
   @override
-  Widget build(BuildContext context, WidgetRef ref) {
+  Widget build(BuildContext context) {
     final date = useState(today());
     final page = useState(todayCalendarPageIndex);
     final pageController = usePageController(initialPage: page.value);
@@ -31,32 +31,11 @@ class ScreenshotMedicationHistoriesPage extends HookConsumerWidget {
         page.value = pageControllerPage.toInt();
       }
     });
-    final medicationHistoriesAsync = ref.watch(medicationHistoriesByDateProvider(date.value));
-    final medicationHistories = useState(medicationHistoriesAsync.asData?.valueOrNull ?? []);
-
-    useEffect(() {
-      final asyncValue = medicationHistoriesAsync.asData;
-      if (asyncValue != null) {
-        medicationHistories.value = asyncValue.value;
-      }
-      return null;
-    }, [medicationHistoriesAsync.asData?.valueOrNull]);
-
-    return Retry(
-      retry: () => ref.invalidate(medicationHistoriesByDateProvider(date.value)),
-      child: () {
-        if (medicationHistoriesAsync is AsyncError) {
-          return RetryPage(exception: medicationHistoriesAsync.error!);
-        }
-        return Stack(
-          children: [
-            MedicationsHistoryPageBody(histories: medicationHistories.value, date: date, pageController: pageController),
-            if (medicationHistoriesAsync is AsyncLoading) ...[
-              const Indicator(),
-            ],
-          ],
-        );
-      }(),
+    final List<MedicationHistory> medicationHistories = [];
+    return MedicationsHistoryPageBody(
+      histories: medicationHistories,
+      date: date,
+      pageController: pageController,
     );
   }
 }
