@@ -125,7 +125,7 @@ def translate_text(ja_text, lang, content_type, char_limit, content_type_note):
                 """
 
             response = client.chat.completions.create(
-                model="o3-mini",
+                model="gpt-4o-mini",
                 messages=[
                     {
                         "role": "user",
