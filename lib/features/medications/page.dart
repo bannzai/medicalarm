@@ -223,23 +223,20 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
     final totalRecordActionCount = ref.watch(sharedPreferencesProvider).getInt(IntKey.totalRecordActionCount) ?? 0;
     final isDisabled = scheduleRow.isDisabled;
     final isChecked = useState(scheduleRow.medicationHistory != null);
-    final medicationHistoryTake = ref.watch(medicationHistoryTakeProvider);
-    final medicationHistoryDelete = ref.watch(medicationHistoryDeleteProvider);
-    final registerReminderLocalNotification = ref.read(registerReminderLocalNotificationProvider);
 
     isChecked.addListener(() {
       if (isChecked.value) {
-        medicationHistoryTake(
-          medicationHistory: scheduleRow.medicationHistory,
-          scheduledRecordedDate: scheduleRow.date,
-          recordedDateTime: scheduleRow.medicationHistory?.recordedDateTime ?? DateTime.now(),
-          medicine: scheduleRow.medicine,
-          medicationSchedule: scheduleRow.medicationSchedule,
-        );
+        ref.read(medicationHistoryTakeProvider).call(
+              medicationHistory: scheduleRow.medicationHistory,
+              scheduledRecordedDate: scheduleRow.date,
+              recordedDateTime: scheduleRow.medicationHistory?.recordedDateTime ?? DateTime.now(),
+              medicine: scheduleRow.medicine,
+              medicationSchedule: scheduleRow.medicationSchedule,
+            );
       } else {
-        medicationHistoryDelete(scheduleRow.medicationHistory!);
+        ref.watch(medicationHistoryDeleteProvider).call(scheduleRow.medicationHistory!);
       }
-      unawaited(registerReminderLocalNotification());
+      unawaited(ref.read(registerReminderLocalNotificationProvider).call());
     });
 
     return Column(

@@ -184,7 +184,7 @@
   "@doseReceiver": {
     "description": "服用者を選択するフィールドのラベル"
   },
-  "defaultDoseReceiver": "あなた",
+  "defaultDoseReceiver": "自分",
   "@defaultDoseReceiver": {
     "description": "デフォルトの服用者名"
   },
@@ -608,7 +608,7 @@
       }
     }
   },
-  "premiumUserThanksTitle": "あなたはプレミアムメンバーです",
+  "premiumUserThanksTitle": "プレミアムメンバーです",
   "@premiumUserThanksTitle": {
     "description": "プレミアムユーザーへの感謝を示すタイトル"
   },
@@ -727,5 +727,9 @@
         "example": "App Store"
       }
     }
+  },
+  "screenshotMedicationHistoriesMemo": "昼寝をしすぎて薬飲む時間が遅れた",
+  "@screenshotMedicationHistoriesMemo": {
+    "description": "薬のメモの例"
   }
 }

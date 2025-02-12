@@ -1,5 +1,6 @@
 import 'dart:async';
 
+import 'package:flutter/foundation.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
@@ -16,7 +17,10 @@ class InAppReviewResolver extends HookConsumerWidget {
     useEffect(() {
       // Android では呼びすぎると無効化されてしまうためuseEffectで制限
       if (medicationHistories?.isNotEmpty == true) {
-        unawaited(InAppReview.instance.requestReview());
+        // 画面が固まるので開発次は無効化。おそらくストアリリースしてないせい
+        if (kReleaseMode) {
+          unawaited(InAppReview.instance.requestReview());
+        }
       }
       return null;
     }, [medicationHistories]);
