@@ -6,10 +6,11 @@ import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:intl/intl.dart';
 import 'package:medicalarm/components/calendar/day/today_badge.dart';
 import 'package:medicalarm/components/calendar/weekly/pager.dart';
-import 'package:medicalarm/components/loading/indicator.dart';
-import 'package:medicalarm/components/retry/page.dart';
 import 'package:medicalarm/components/text/edit_sheet.dart';
+import 'package:medicalarm/entity/dose_receiver.dart';
+import 'package:medicalarm/entity/medication_frequency.dart';
 import 'package:medicalarm/entity/medication_history.dart';
+import 'package:medicalarm/entity/medicine.dart';
 import 'package:medicalarm/features/preium_introduction/premium_introduction_sheet.dart';
 import 'package:medicalarm/provider/medication_history.dart';
 import 'package:medicalarm/style/color.dart';
@@ -31,7 +32,6 @@ class ScreenshotMedicationHistoriesPage extends HookWidget {
         page.value = pageControllerPage.toInt();
       }
     });
-    final List<MedicationHistory> medicationHistories = [];
     return MedicationsHistoryPageBody(
       histories: medicationHistories,
       date: date,
@@ -244,3 +244,69 @@ class MedicationHistoryTile extends HookConsumerWidget {
     );
   }
 }
+
+final List<Medicine> medicines = [
+  Medicine(
+    id: '1',
+    userID: '1',
+    name: '頭痛薬',
+    beganDateTime: DateTime.now(),
+    frequency: const DailyMedicationFrequency(),
+    doseReceiver: const DoseReceiver(id: '1', userID: '1', name: '自分'),
+    memo: 'Memo 1',
+    memoImageURL: 'https://example.com/memo.png',
+    schedules: [
+      const MedicationSchedule(
+        id: '1',
+        hour: 10,
+        minute: 0,
+        quantityMemo: '1錠',
+        notificationSetting: MedicineScheduleNotificationSetting(
+          isReminderEnabled: true,
+          isFollowupEnabled: true,
+          useCriticalAlert: true,
+        ),
+      ),
+    ],
+  ),
+  Medicine(
+    id: '2',
+    userID: '2',
+    name: 'ビタミン剤',
+    beganDateTime: DateTime.now(),
+    frequency: const DailyMedicationFrequency(),
+    doseReceiver: const DoseReceiver(id: '2', userID: '2', name: 'マナちゃん'),
+    memo: 'Memo 2',
+    memoImageURL: 'https://example.com/memo.png',
+    schedules: [
+      const MedicationSchedule(
+        id: '2',
+        hour: 8,
+        minute: 0,
+        quantityMemo: '2錠',
+        notificationSetting: MedicineScheduleNotificationSetting(
+          isReminderEnabled: true,
+          isFollowupEnabled: true,
+          useCriticalAlert: true,
+        ),
+      ),
+    ],
+  ),
+];
+final List<MedicationHistory> medicationHistories = [
+  MedicationHistory(
+    id: '1',
+    userID: '1',
+    medicine: medicines[0],
+    actionKind: MedicationHistoryActionKind.take,
+    action: MedicationHistoryAction.take(
+      kind: MedicationHistoryActionKind.take,
+      medicationSchedule: medicines[0].schedules[0],
+      scheduledRecordedDate: DateTime.now(),
+    ),
+    memo: 'Memo 1',
+    recordedDateTime: DateTime.now(),
+    scheduledRecordedDate: DateTime.now(),
+    ttlExpiresDateTime: DateTime.now(),
+  ),
+];
