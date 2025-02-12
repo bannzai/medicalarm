@@ -105,7 +105,7 @@ List<MedicationGroup> medicationGroups({
   // dosingRowsを構築する
   for (final medicine in medicines) {
     final doseReceiver = medicine.doseReceiver;
-    if (medicine.beganDateTime.isAfter(date.date())) {
+    if (medicine.beganDateTime.date().isAfter(date.date())) {
       continue;
     }
     final bool isMatched;
