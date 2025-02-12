@@ -156,17 +156,6 @@ final List<Medicine> medicines = [
           useCriticalAlert: true,
         ),
       ),
-      const MedicationSchedule(
-        id: '3',
-        hour: 19,
-        minute: 0,
-        quantityMemo: '2錠',
-        notificationSetting: MedicineScheduleNotificationSetting(
-          isReminderEnabled: true,
-          isFollowupEnabled: true,
-          useCriticalAlert: true,
-        ),
-      ),
     ],
   ),
 ];
