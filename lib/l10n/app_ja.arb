@@ -184,7 +184,7 @@
   "@doseReceiver": {
     "description": "服用者を選択するフィールドのラベル"
   },
-  "defaultDoseReceiver": "あなた",
+  "defaultDoseReceiver": "自分",
   "@defaultDoseReceiver": {
     "description": "デフォルトの服用者名"
   },
@@ -608,7 +608,7 @@
       }
     }
   },
-  "premiumUserThanksTitle": "あなたはプレミアムメンバーです",
+  "premiumUserThanksTitle": "プレミアムメンバーです",
   "@premiumUserThanksTitle": {
     "description": "プレミアムユーザーへの感謝を示すタイトル"
   },
