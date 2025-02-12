@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:medicalarm/entity/medicine.dart';
 import 'package:medicalarm/features/localization/l.dart';
-import 'package:medicalarm/features/medicine_form/components/schedule/notification_setting/section.dart';
+import 'package:medicalarm/features/medicine_form/components/section_layout.dart';
 import 'package:medicalarm/theme/form.dart';
 
 class ScreenshotMedicineScheduleNotificationFormPage extends HookWidget {
@@ -75,3 +75,56 @@ MedicationSchedule get schedule => const MedicationSchedule(
     );
 ValueNotifier<List<MedicationSchedule>> get schedules => ValueNotifier<List<MedicationSchedule>>([schedule]);
 int get index => 0;
+
+class MedicineScheduleNotificationSettingSection extends HookWidget {
+  final ValueNotifier<bool> isReminderEnabled;
+  final ValueNotifier<bool> isFollowupEnabled;
+  final ValueNotifier<bool> useCriticalAlert;
+
+  const MedicineScheduleNotificationSettingSection({
+    super.key,
+    required this.isReminderEnabled,
+    required this.isFollowupEnabled,
+    required this.useCriticalAlert,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return MedicineFormSectionLayout(
+      icon: Icons.notifications,
+      text: L.notificationSetting,
+      children: [
+        SwitchListTile(
+          value: isReminderEnabled.value,
+          onChanged: (value) {
+            isReminderEnabled.value = value;
+
+            if (!value) {
+              isFollowupEnabled.value = false;
+            }
+          },
+          title: Text(L.medicationTime),
+          subtitle: Text(L.medicationTimeDescription),
+        ),
+        SwitchListTile(
+          value: isFollowupEnabled.value,
+          onChanged: (value) {
+            if (!isReminderEnabled.value) {
+              isFollowupEnabled.value = false;
+            } else {
+              isFollowupEnabled.value = value;
+            }
+          },
+          title: Text(L.enableFollowupNotification),
+          subtitle: Text(L.followupNotificationDescription),
+        ),
+        SwitchListTile(
+          value: useCriticalAlert.value,
+          onChanged: (value) async {},
+          title: Text(L.enableNotificationInSilentMode),
+          subtitle: Text(L.silentModeNotificationDescription),
+        ),
+      ],
+    );
+  }
+}
