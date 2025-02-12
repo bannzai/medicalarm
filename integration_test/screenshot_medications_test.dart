@@ -10,7 +10,7 @@ void main() {
   final binding = IntegrationTestWidgetsFlutterBinding.ensureInitialized();
 
   group('end-to-end test', () {
-    final locales = AppLocalizations.supportedLocales.where((locale) => locale.languageCode != 'ja');
+    final locales = AppLocalizations.supportedLocales;
     for (final locale in locales) {
       testWidgets('screenshot medications $locale', (tester) async {
         L = lookupAppLocalizations(locale);
