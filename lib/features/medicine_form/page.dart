@@ -3,8 +3,10 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
+import 'package:medicalarm/components/button/buttons.dart';
 import 'package:medicalarm/components/error/error_alert.dart';
 import 'package:medicalarm/components/fab/layout.dart';
+import 'package:medicalarm/components/keyboard/toolbar.dart';
 import 'package:medicalarm/components/loading/loading.dart';
 import 'package:medicalarm/entity/dose_receiver.dart';
 import 'package:medicalarm/entity/medication_frequency.dart';
@@ -18,6 +20,7 @@ import 'package:medicalarm/provider/app_user.dart';
 import 'package:medicalarm/provider/medicine.dart';
 import 'package:medicalarm/style/color.dart';
 import 'package:medicalarm/theme/form.dart';
+import 'package:medicalarm/utils/analytics/analytics.dart';
 import 'package:medicalarm/utils/date_time/date_time_ext.dart';
 import 'package:medicalarm/utils/local_notification/client.dart';
 import 'package:medicalarm/features/localization/l.dart';
@@ -45,7 +48,9 @@ class MedicineFormPage extends HookConsumerWidget {
     final isLoading = useState(false);
     final canSubmit = name.value.isNotEmpty && schedules.value.isNotEmpty;
 
-    final registerReminderLocalNotification = ref.read(registerReminderLocalNotificationProvider);
+    final registerReminderLocalNotification = ref.watch(registerReminderLocalNotificationProvider);
+
+    final focusNode = useFocusNode();
 
     Future<void> submit() async {
       final medicine = this.medicine;
@@ -91,32 +96,49 @@ class MedicineFormPage extends HookConsumerWidget {
                   scaffoldBody: SafeArea(
                     child: Stack(
                       children: [
-                        SingleChildScrollView(
-                          padding: const EdgeInsets.only(bottom: 60.0),
-                          child: Column(
-                            children: [
-                              Padding(
-                                padding: const EdgeInsets.symmetric(vertical: 16.0),
+                        Column(
+                          children: [
+                            Expanded(
+                              child: SingleChildScrollView(
+                                padding: const EdgeInsets.only(bottom: 60.0),
                                 child: Column(
                                   children: [
-                                    MedicineFormNameTextField(name: name),
-                                    const SizedBox(height: 6),
-                                    MedicationFrequencyTile(frequency: frequency),
-                                    const SizedBox(height: 6),
-                                    MedicationBeginTile(begin: begin),
+                                    Padding(
+                                      padding: const EdgeInsets.symmetric(vertical: 16.0),
+                                      child: Column(
+                                        children: [
+                                          MedicineFormNameTextField(name: name),
+                                          const SizedBox(height: 6),
+                                          MedicationFrequencyTile(frequency: frequency),
+                                          const SizedBox(height: 6),
+                                          MedicationBeginTile(begin: begin),
+                                        ],
+                                      ),
+                                    ),
+                                    const Divider(color: Colors.black, height: 1),
+                                    MedicineScheduleSection(schedules: schedules),
+                                    const Divider(color: Colors.black, height: 1),
+                                    MedicineAdditionalInfoSection(
+                                      memo: memo,
+                                      memoImageURL: memoImageURL,
+                                      doseReceiver: doseReceiver,
+                                    ),
                                   ],
                                 ),
                               ),
-                              const Divider(color: Colors.black, height: 1),
-                              MedicineScheduleSection(schedules: schedules),
-                              const Divider(color: Colors.black, height: 1),
-                              MedicineAdditionalInfoSection(
-                                memo: memo,
-                                memoImageURL: memoImageURL,
-                                doseReceiver: doseReceiver,
+                            ),
+                            if (focusNode.hasPrimaryFocus) ...[
+                              KeyboardToolbar(
+                                doneButton: AlertButton(
+                                  text: L.completed,
+                                  onPressed: () async {
+                                    analytics.logEvent(name: 'medicine_form_done_button_pressed');
+                                    focusNode.unfocus();
+                                  },
+                                ),
                               ),
                             ],
-                          ),
+                          ],
                         ),
                       ],
                     ),
