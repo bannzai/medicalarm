@@ -1,0 +1,735 @@
+{
+  "@@locale": "th",
+  "retry": "ลองอีกครั้ง",
+  "@retry": {
+    "description": "エラーが発生した際やデータの読み込みに失敗した際に、再度処理を実行するためのボタンテキスト"
+  },
+  "save": "บันทึก",
+  "@save": {
+    "description": "フォームやエディタで入力したデータを保存する際に使用するボタンテキスト"
+  },
+  "memo": "บันทึก",
+  "@memo": {
+    "description": "服薬記録や日記などで追加情報を入力するためのテキストフィールドのプレースホルダー"
+  },
+  "completed": "เสร็จสิ้น",
+  "@completed": {
+    "description": "フォームの入力や設定の変更などの操作が完了した際に使用するボタンテキスト"
+  },
+  "medicineRegistration": "หน้าจอการลงทะเบียนยา",
+  "@medicineRegistration": {
+    "description": "お薬の新規登録・編集画面のタイトル"
+  },
+  "medicineName": "ชื่อยา",
+  "@medicineName": {
+    "description": "お薬登録フォームでの薬の名前を入力するフィールドのプレースホルダー"
+  },
+  "medicineList": "รายการยา",
+  "@medicineList": {
+    "description": "登録されているお薬の一覧を表示する画面のタイトル"
+  },
+  "medicationSchedule": "ตารางการใช้ยา",
+  "@medicationSchedule": {
+    "description": "服用スケジュールのセクションタイトル"
+  },
+  "medicationTime": "เปิดการแจ้งเตือนเมื่อถึงเวลาทานยา",
+  "@medicationTime": {
+    "description": "服用時刻の通知設定を有効にするためのスイッチのラベル"
+  },
+  "medicationTimeDescription": "จะส่งการแจ้งเตือนตามเวลาที่กำหนดสำหรับการใช้ยา",
+  "@medicationTimeDescription": {
+    "description": "服用時刻の通知設定の説明文"
+  },
+  "close": "ปิด",
+  "@close": {
+    "description": "ダイアログやモーダルを閉じるためのボタンテキスト"
+  },
+  "settings": "การตั้งค่า",
+  "@settings": {
+    "description": "設定画面のタイトル"
+  },
+  "camera": "กล้อง",
+  "@camera": {
+    "description": "カメラを起動するためのメニュー項目"
+  },
+  "photoLibrary": "ห้องสมุดภาพ",
+  "@photoLibrary": {
+    "description": "フォトライブラリを開くためのメニュー項目"
+  },
+  "medicationHistory": "ประวัติการใช้ยา",
+  "@medicationHistory": {
+    "description": "服薬履歴を表示する画面のタイトル"
+  },
+  "noMedicationHistory": "ไม่มีประวัติการใช้ยา",
+  "@noMedicationHistory": {
+    "description": "服薬履歴が存在しない場合に表示するメッセージ"
+  },
+  "scheduledTime": "เวลาที่กำหนด",
+  "@scheduledTime": {
+    "description": "服薬予定時刻のラベル"
+  },
+  "recordedTime": "เวลาที่บันทึก",
+  "@recordedTime": {
+    "description": "実際に服薬を記録した時間のラベル"
+  },
+  "noMemo": "ไม่มีบันทึก",
+  "@noMemo": {
+    "description": "メモが存在しない場合に表示するテキスト"
+  },
+  "premiumPlan": "แผนพรีเมียม",
+  "@premiumPlan": {
+    "description": "プレミアムプランの名称"
+  },
+  "premiumFeatureAds": "ปิดการแสดงโฆษณา",
+  "@premiumFeatureAds": {
+    "description": "プレミアム機能の広告非表示の説明"
+  },
+  "premiumFeatureHistory": "แสดงประวัติการใช้ทั้งหมด",
+  "@premiumFeatureHistory": {
+    "description": "プレミアム機能の履歴表示の説明"
+  },
+  "premiumRegistrationComplete": "การลงทะเบียน Medicalarm พรีเมียมเสร็จสมบูรณ์",
+  "@premiumRegistrationComplete": {
+    "description": "プレミアム登録完了時のタイトル"
+  },
+  "premiumRegistrationThanks": "ขอบคุณสำหรับการลงทะเบียนของคุณ。\nตอนนี้คุณสามารถใช้ฟังก์ชันทั้งหมดได้แล้ว!",
+  "@premiumRegistrationThanks": {
+    "description": "プレミアム登録完了時のメッセージ"
+  },
+  "unknownError": "เกิดข้อผิดพลาดที่ไม่ทราบสาเหตุ",
+  "@unknownError": {
+    "description": "予期せぬエラーが発生した際のエラーメッセージ"
+  },
+  "error": "เกิดข้อผิดพลาดขึ้น",
+  "@error": {
+    "description": "一般的なエラーメッセージ"
+  },
+  "unexpectedError": "เกิดข้อผิดพลาดที่คาดไม่ถึง",
+  "@unexpectedError": {
+    "description": "予期せぬエラーが発生した際のエラーメッセージ"
+  },
+  "cancel": "ยกเลิก",
+  "@cancel": {
+    "description": "操作をキャンセルするためのボタンテキスト"
+  },
+  "delete": "ลบ",
+  "@delete": {
+    "description": "削除操作を実行するためのボタンテキスト"
+  },
+  "deleteAccount": "ลบบัญชี",
+  "@deleteAccount": {
+    "description": "アカウント削除ボタンのテキスト"
+  },
+  "deleteAccountConfirm": "ลบข้อมูลผู้ใช้",
+  "@deleteAccountConfirm": {
+    "description": "アカウント削除確認ダイアログのタイトル"
+  },
+  "deleteAccountMessage": "เมื่อคุณลบบัญชี ข้อมูลผู้ใช้ทั้งหมดจะถูกลบออก",
+  "@deleteAccountMessage": {
+    "description": "アカウント削除確認ダイアログのメッセージ"
+  },
+  "medicationFrequency": "ความถี่ในการใช้ยา",
+  "@medicationFrequency": {
+    "description": "服用頻度の設定セクションのタイトル"
+  },
+  "daily": "ทุกวัน",
+  "@daily": {
+    "description": "毎日服用する頻度設定"
+  },
+  "everyXDays": "ทุก X วัน",
+  "@everyXDays": {
+    "description": "X日ごとに服用する頻度設定"
+  },
+  "specificWeekdays": "วันเฉพาะ",
+  "@specificWeekdays": {
+    "description": "特定の曜日に服用する頻度設定"
+  },
+  "cycle": "รอบ",
+  "@cycle": {
+    "description": "周期で服用する頻度設定"
+  },
+  "cycleDescription": "21 วันใช้ยา/7 วันหยุดใช้ยา",
+  "@cycleDescription": {
+    "description": "周期での服用頻度の説明文"
+  },
+  "everyXDaysDescription": "ทุก 2 วัน, ทุก 3 วัน",
+  "@everyXDaysDescription": {
+    "description": "X日ごとの服用頻度の説明文"
+  },
+  "specificWeekdaysDescription": "เฉพาะวันจันทร์, วันพุธและวันศุกร์",
+  "@specificWeekdaysDescription": {
+    "description": "特定の曜日の服用頻度の説明文"
+  },
+  "medicineFormValidationError": "กรุณากรอกชื่อและกำหนดตารางการใช้ยา",
+  "@medicineFormValidationError": {
+    "description": "お薬登録フォームでの入力バリデーションエラーメッセージ"
+  },
+  "quantity": "ปริมาณ",
+  "@quantity": {
+    "description": "服用量を入力するフィールドのラベル"
+  },
+  "quantityExample": "ตัวอย่าง: 1 เม็ด, 100 มก.",
+  "@quantityExample": {
+    "description": "服用量入力フィールドのプレースホルダー"
+  },
+  "medicationStartDate": "วันที่เริ่มการใช้",
+  "@medicationStartDate": {
+    "description": "服用開始日を選択するフィールドのラベル"
+  },
+  "otherInformation": "อื่นๆ",
+  "@otherInformation": {
+    "description": "その他の情報を入力するセクションのタイトル"
+  },
+  "doseReceiver": "ผู้ใช้ยา",
+  "@doseReceiver": {
+    "description": "服用者を選択するフィールドのラベル"
+  },
+  "defaultDoseReceiver": "ตัวเอง",
+  "@defaultDoseReceiver": {
+    "description": "デフォルトの服用者名"
+  },
+  "doseReceiverMaxCount": "ผู้ใช้สามารถลงทะเบียนได้สูงสุด {count} คน",
+  "@doseReceiverMaxCount": {
+    "description": "服用者の最大登録数を表示するメッセージ",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "2"
+      }
+    }
+  },
+  "increaseLimitWithPremium": "เพิ่มขีดจำกัดเป็น {count} ในแผนพรีเมียม",
+  "@increaseLimitWithPremium": {
+    "description": "プレミアムプランでの上限増加を案内するメッセージ",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "10"
+      }
+    }
+  },
+  "addDoseReceiver": "เพิ่มผู้ใช้",
+  "@addDoseReceiver": {
+    "description": "服用者を追加するボタンのテキスト"
+  },
+  "newDoseReceiver": "ผู้ใช้ใหม่",
+  "@newDoseReceiver": {
+    "description": "新規追加時のデフォルトの服用者名"
+  },
+  "reloginRequired": "กรุณาเข้าสู่ระบบอีกครั้ง",
+  "@reloginRequired": {
+    "description": "アカウント削除時に再ログインが必要な場合のダイアログタイトル"
+  },
+  "reloginMessage": "หากต้องการลบบัญชีของคุณ โปรดเข้าสู่ระบบอีกครั้ง",
+  "@reloginMessage": {
+    "description": "アカウント削除時の再ログイン要求メッセージ"
+  },
+  "relogin": "เข้าสู่ระบบอีกครั้ง",
+  "@relogin": {
+    "description": "再ログインを実行するためのボタンテキスト"
+  },
+  "accountDeleted": "ลบบัญชีเรียบร้อยแล้ว",
+  "@accountDeleted": {
+    "description": "アカウント削除完了時のメッセージ"
+  },
+  "confirmExit": "คุณต้องการออกจากแอปหรือไม่?",
+  "@confirmExit": {
+    "description": "アプリ終了確認のメッセージ"
+  },
+  "exit": "สิ้นสุด",
+  "@exit": {
+    "description": "アプリを終了するためのボタンテキスト"
+  },
+  "viewFaq": "ดูคำถามที่พบบ่อย",
+  "@viewFaq": {
+    "description": "FAQページを表示するためのボタンテキスト"
+  },
+  "medicine": "ยา",
+  "@medicine": {
+    "description": "お薬タブのタイトル"
+  },
+  "inquiry": "ติดต่อเรา",
+  "@inquiry": {
+    "description": "お問い合わせボタンのテキスト"
+  },
+  "ok": "ตกลง",
+  "@ok": {
+    "description": "確認ダイアログのOKボタンのテキスト"
+  },
+  "medicationScheduleLimit": "คุณสามารถลงทะเบียนตารางการรับประทานยาได้สูงสุด {count} รายการ",
+  "@medicationScheduleLimit": {
+    "description": "服用スケジュールの登録上限を表示するメッセージ",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "3"
+      }
+    }
+  },
+  "increaseMedicationScheduleLimit": "เพิ่มขีดจำกัดสูงสุดเป็น {count} ด้วยแผนพรีเมียม",
+  "@increaseMedicationScheduleLimit": {
+    "description": "服用スケジュールの上限をプレミアムプランで増やすことを案内するメッセージ",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "10"
+      }
+    }
+  },
+  "addMedicationSchedule": "เพิ่มตารางการใช้ยา",
+  "@addMedicationSchedule": {
+    "description": "服用スケジュールを追加するボタンのテキスト"
+  },
+  "medicationScheduleNotificationSetting": "การตั้งค่าการแจ้งเตือนตารางการใช้ยา",
+  "@medicationScheduleNotificationSetting": {
+    "description": "服用スケジュールの通知設定画面のタイトル"
+  },
+  "notificationSetting": "การตั้งค่าแจ้งเตือน",
+  "@notificationSetting": {
+    "description": "通知設定セクションのタイトル"
+  },
+  "enableFollowupNotification": "เปิดการแจ้งเตือนติดตาม",
+  "@enableFollowupNotification": {
+    "description": "フォローアップ通知を有効にするスイッチのラベル"
+  },
+  "followupNotificationDescription": "หากไม่มีการบันทึกการใช้ยาในช่วง 30 นาทีหลังจากการแจ้งเตือนครั้งแรก จะมีการส่งการแจ้งเตือนตามมา",
+  "@followupNotificationDescription": {
+    "description": "フォローアップ通知の説明文"
+  },
+  "enableNotificationInSilentMode": "แจ้งเตือนแม้ในโหมดสั่น",
+  "@enableNotificationInSilentMode": {
+    "description": "マナーモード時の通知を有効にするスイッチのラベル"
+  },
+  "silentModeNotificationDescription": "แม้ในขณะเปิดโหมดจดจ่อหรืออุปกรณ์อยู่ในโหมดเสียงปิด การแจ้งเตือนที่สำคัญจะปรากฏบนหน้าจอล็อกและมีเสียงแจ้งเตือนด้วย",
+  "@silentModeNotificationDescription": {
+    "description": "マナーモード時の通知の説明文"
+  },
+  "everyXDaysFormat": "ทุก {count} วัน",
+  "@everyXDaysFormat": {
+    "description": "X日ごとの服用頻度を表示する際のフォーマット",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "2"
+      }
+    }
+  },
+  "cycleDaysFormat": "{consecutiveDays} วันที่ใช้ยา/{restDays} วันที่พักยา",
+  "@cycleDaysFormat": {
+    "description": "服用周期を表示する際のフォーマット",
+    "placeholders": {
+      "consecutiveDays": {
+        "type": "int",
+        "example": "21"
+      },
+      "restDays": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  },
+  "consecutiveDaysFormat": "{count} วัน การใช้ยา",
+  "@consecutiveDaysFormat": {
+    "description": "連続服用日数を表示する際のフォーマット",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "21"
+      }
+    }
+  },
+  "restDaysFormat": "{count} วันหยุดยา",
+  "@restDaysFormat": {
+    "description": "休薬日数を表示する際のフォーマット",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  },
+  "limitedTimeDiscount": "ตอนนี้ใช้ราคาโปรโมชันพิเศษได้ตลอดไป",
+  "@limitedTimeDiscount": {
+    "description": "プレミアムプランの限定価格キャンペーンを案内するメッセージ"
+  },
+  "monthlyPlan": "แผนรายเดือน",
+  "@monthlyPlan": {
+    "description": "月額プランの名称"
+  },
+  "annualPlan": "แผนรายปี",
+  "@annualPlan": {
+    "description": "年額プランの名称"
+  },
+  "weeklyPlan": "แผนรายสัปดาห์",
+  "@weeklyPlan": {
+    "description": "週額プランの名称"
+  },
+  "premiumRequired": "คุณสามารถเข้าถึงได้โดยการสมัครแผนพรีเมียม",
+  "@premiumRequired": {
+    "description": "プレミアムプラン加入が必要な機能へのアクセス時のメッセージ"
+  },
+  "medication": "การใช้ยา",
+  "@medication": {
+    "description": "服薬タブのタイトル"
+  },
+  "history": "ประวัติ",
+  "@history": {
+    "description": "履歴タブのタイトル"
+  },
+  "medicineRegistrationLimit": "จำนวนการลงทะเบียนยา",
+  "@medicineRegistrationLimit": {
+    "description": "薬の登録数の上限を説明するテキストの一部"
+  },
+  "doseReceiverRegistrationLimit": "จำนวนผู้ใช้ที่ลงทะเบียน",
+  "@doseReceiverRegistrationLimit": {
+    "description": "服用者の登録数の上限を説明するテキストの一部"
+  },
+  "notificationScheduleLimit": "จำนวนตารางเวลาการแจ้งเตือน",
+  "@notificationScheduleLimit": {
+    "description": "通知スケジュールの上限を説明するテキストの一部"
+  },
+  "addMedicine": "เพิ่มยา",
+  "@addMedicine": {
+    "description": "お薬を追加するボタンのテキスト"
+  },
+  "medicineMaxCount": "คุณสามารถลงทะเบียนยาได้สูงสุด {count} ชนิด",
+  "@medicineMaxCount": {
+    "description": "お薬の最大登録数を表示するメッセージ",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "increaseMedicineLimitWithPremium": "เพิ่มขีดจำกัดเป็น {count} ในแผนพรีเมียม",
+  "@increaseMedicineLimitWithPremium": {
+    "description": "お薬の登録上限をプレミアムプランで増やすことを案内するメッセージ",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "10"
+      }
+    }
+  },
+  "aboutApp": "เกี่ยวกับแอป",
+  "@aboutApp": {
+    "description": "アプリについてのセクションタイトル"
+  },
+  "viewPremiumPlan": "ดูแผนพรีเมียม",
+  "@viewPremiumPlan": {
+    "description": "プレミアムプランの詳細を表示するためのボタンテキスト"
+  },
+  "cancelSubscriptionInstruction": "หลังจากซื้อแล้ว คุณสามารถยกเลิกการต่ออายุอัตโนมัติได้ที่การตั้งค่าบัญชีในแอพ {storeName} (ไม่สามารถยกเลิกการต่ออายุอัตโนมัติได้จากภายในแอพ).",
+  "@cancelSubscriptionInstruction": {
+    "description": "自動更新の解約方法の説明",
+    "placeholders": {
+      "storeName": {
+        "type": "String",
+        "example": "App Store"
+      }
+    }
+  },
+  "headache": "ปวดหัว",
+  "@headache": {
+    "description": "症状の選択肢：頭痛"
+  },
+  "stomachache": "ปวดท้อง",
+  "@stomachache": {
+    "description": "症状の選択肢：腹痛"
+  },
+  "nausea": "คลื่นไส้",
+  "@nausea": {
+    "description": "症状の選択肢：吐き気"
+  },
+  "anemia": "ภาวะโลหิตจาง",
+  "@anemia": {
+    "description": "症状の選択肢：貧血"
+  },
+  "diarrhea": "ท้องเสีย",
+  "@diarrhea": {
+    "description": "症状の選択肢：下痢"
+  },
+  "constipation": "ท้องผูก",
+  "@constipation": {
+    "description": "症状の選択肢：便秘"
+  },
+  "hotFlash": "ร้อนผ่าว",
+  "@hotFlash": {
+    "description": "症状の選択肢：ほてり"
+  },
+  "drowsiness": "ง่วงนอน",
+  "@drowsiness": {
+    "description": "症状の選択肢：眠気"
+  },
+  "backPain": "ปวดหลัง",
+  "@backPain": {
+    "description": "症状の選択肢：腰痛"
+  },
+  "palpitation": "หัวใจเต้นแรง",
+  "@palpitation": {
+    "description": "症状の選択肢：動悸"
+  },
+  "abnormalBleeding": "เลือดออกผิดปกติ",
+  "@abnormalBleeding": {
+    "description": "症状の選択肢：不正出血"
+  },
+  "lossOfAppetite": "เบื่ออาหาร",
+  "@lossOfAppetite": {
+    "description": "症状の選択肢：食欲不振"
+  },
+  "chestTightness": "อาการเจ็บหน้าอก",
+  "@chestTightness": {
+    "description": "症状の選択肢：胸の張り"
+  },
+  "insomnia": "อาการนอนไม่หลับ",
+  "@insomnia": {
+    "description": "症状の選択肢：不眠"
+  },
+  "monthlyPlanDiscountFormat": "ส่วนลด {percent}% จากแผนรายเดือน",
+  "@monthlyPlanDiscountFormat": {
+    "description": "月額プランからの割引率を表示するフォーマット",
+    "placeholders": {
+      "percent": {
+        "type": "int",
+        "example": "50"
+      }
+    }
+  },
+  "purchaseErrorUnknown": "เกิดข้อผิดพลาดที่ไม่ทราบสาเหตุ กรุณาลองอีกครั้งในภายหลัง หากยังไม่สามารถแก้ไขได้ กรุณาติดต่อผ่าน เมนู > สอบถาม รายละเอียด: {message}",
+  "@purchaseErrorUnknown": {
+    "description": "購入時の不明なエラーメッセージ",
+    "placeholders": {
+      "message": {
+        "type": "String",
+        "example": "エラーの詳細"
+      }
+    }
+  },
+  "purchaseErrorStoreProblem": "เกิดข้อผิดพลาดที่ {storeName} กรุณาลองอีกครั้งในอีกสักครู่",
+  "@purchaseErrorStoreProblem": {
+    "description": "ストアでのエラーメッセージ",
+    "placeholders": {
+      "storeName": {
+        "type": "String",
+        "example": "App Store"
+      }
+    }
+  },
+  "purchaseErrorInvalidPayment": "การชำระเงินล้มเหลว กรุณาตรวจสอบวิธีการชำระเงินของคุณอีกครั้งและลองอีกครั้ง",
+  "@purchaseErrorInvalidPayment": {
+    "description": "支払い方法が無効な場合のエラーメッセージ"
+  },
+  "purchaseErrorProductUnavailable": "ขออภัย แผนการที่เลือกไม่มีให้บริการในขณะนี้ กรุณาปิดแอปพลิเคชันแล้วเปิดใหม่เพื่อทดลองอีกครั้ง",
+  "@purchaseErrorProductUnavailable": {
+    "description": "商品が利用できない場合のエラーメッセージ"
+  },
+  "purchaseErrorAlreadyPurchased": "คุณได้ซื้อแผนไปแล้ว หากต้องการกู้คืนข้อมูลการซื้อในอุปกรณ์นี้ โปรดกดที่ \"ผู้ที่เคยซื้อไปแล้วที่นี่\" เพื่อกู้คืนข้อมูลการซื้อ",
+  "@purchaseErrorAlreadyPurchased": {
+    "description": "すでに購入済みの場合のエラーメッセージ"
+  },
+  "purchaseErrorReceiptInUse": "คุณได้ทำการซื้อแล้ว ข้อมูลการซื้อถูกใช้งานโดยผู้ใช้รายอื่น โปรดตรวจสอบ {accountName}",
+  "@purchaseErrorReceiptInUse": {
+    "description": "購入情報が他のユーザーで使用されている場合のエラーメッセージ",
+    "placeholders": {
+      "accountName": {
+        "type": "String",
+        "example": "Apple ID"
+      }
+    }
+  },
+  "purchaseErrorInvalidReceipt": "ข้อมูลการซื้อไม่ถูกต้อง โปรดตรวจสอบข้อมูลการซื้อของคุณ",
+  "@purchaseErrorInvalidReceipt": {
+    "description": "購入情報が無効な場合のエラーメッセージ"
+  },
+  "purchaseErrorMissingReceipt": "ไม่มีข้อมูลของผู้ซื้อ กรุณาลงชื่อเข้าใช้ด้วย {accountName} บนอุปกรณ์ของคุณเพื่อทำการทดลอง",
+  "@purchaseErrorMissingReceipt": {
+    "description": "購入情報が見つからない場合のエラーメッセージ",
+    "placeholders": {
+      "accountName": {
+        "type": "String",
+        "example": "Apple ID"
+      }
+    }
+  },
+  "purchaseErrorNetwork": "เครือข่ายมีสถานะไม่เสถียร กรุณาตรวจสอบการเชื่อมต่อและลองอีกครั้ง",
+  "@purchaseErrorNetwork": {
+    "description": "ネットワークエラーの場合のエラーメッセージ"
+  },
+  "purchaseNotAllowed": "การซื้อผ่านอุปกรณ์นี้ไม่ได้รับอนุญาต",
+  "@purchaseNotAllowed": {
+    "description": "デバイスでの購入が許可されていない場合のエラーメッセージ"
+  },
+  "purchaseErrorInvalidCredentials": "การซื้อไม่สำเร็จ กรุณาลองอีกครั้งหลังจากรอสักครู่ หากยังไม่สามารถแก้ไขได้ กรุณาติดต่อเราผ่านการตั้งค่า > ติดต่อเรา รายละเอียด: {message}",
+  "@purchaseErrorInvalidCredentials": {
+    "description": "認証情報が無効な場合のエラーメッセージ",
+    "placeholders": {
+      "message": {
+        "type": "String",
+        "example": "エラーの詳細"
+      }
+    }
+  },
+  "purchaseErrorUnexpectedBackend": "ไม่สามารถทำการซื้อได้ในขณะนี้ กรุณาลองอีกครั้งในภายหลัง หากยังไม่สามารถแก้ไขได้ กรุณาติดต่อผ่านการตั้งค่า > การสอบถาม รายละเอียด: {message}",
+  "@purchaseErrorUnexpectedBackend": {
+    "description": "バックエンドで予期せぬエラーが発生した場合のエラーメッセージ",
+    "placeholders": {
+      "message": {
+        "type": "String",
+        "example": "エラーの詳細"
+      }
+    }
+  },
+  "purchaseErrorOperationInProgress": "กระบวนการซื้อกำลังดำเนินการอยู่ โปรดลองตรวจสอบอีกครั้งในภายหลัง",
+  "@purchaseErrorOperationInProgress": {
+    "description": "購入処理が既に進行中の場合のエラーメッセージ"
+  },
+  "purchaseErrorInsufficientPermissions": "บัญชีของคุณ {accountName} ไม่สามารถเข้าร่วมแผนได้ โปรดตรวจสอบข้อมูลการชำระเงินของคุณและลองอีกครั้ง",
+  "@purchaseErrorInsufficientPermissions": {
+    "description": "権限が不足している場合のエラーメッセージ",
+    "placeholders": {
+      "accountName": {
+        "type": "String",
+        "example": "Apple ID"
+      }
+    }
+  },
+  "purchaseErrorPaymentPending": "การชำระเงินถูกระงับอยู่ กรุณาตรวจสอบ {storeName} ด้วยบัญชีที่ลงชื่อเข้าใช้ {accountName}",
+  "@purchaseErrorPaymentPending": {
+    "description": "支払いが保留中の場合のエラーメッセージ",
+    "placeholders": {
+      "accountName": {
+        "type": "String",
+        "example": "Apple ID"
+      },
+      "storeName": {
+        "type": "String",
+        "example": "App Store"
+      }
+    }
+  },
+  "premiumUserThanksTitle": "สมาชิกพรีเมียม",
+  "@premiumUserThanksTitle": {
+    "description": "プレミアムユーザーへの感謝を示すタイトル"
+  },
+  "premiumUserThanksMessage": "ขอขอบคุณที่ใช้บริการของเรา。\nด้วยความช่วยเหลือจากคุณ เราสามารถดำเนินการ Medicalarm ต่อไปได้.",
+  "@premiumUserThanksMessage": {
+    "description": "プレミアムユーザーへの感謝メッセージ"
+  },
+  "premiumPricePerMonth": "({price}/เดือน)",
+  "@premiumPricePerMonth": {
+    "description": "月額料金の表示フォーマット",
+    "placeholders": {
+      "price": {
+        "type": "String",
+        "example": "¥500"
+      }
+    }
+  },
+  "premiumCancelDescription": "・หลังจากการซื้อ คุณสามารถยกเลิกการต่ออายุอัตโนมัติได้ในการตั้งค่าบัญชีในแอป {storeName} (ไม่สามารถยกเลิกการต่ออายุอัตโนมัติจากภายในแอปได้)",
+  "@premiumCancelDescription": {
+    "description": "プレミアムプランの解約方法の説明",
+    "placeholders": {
+      "storeName": {
+        "type": "String",
+        "example": "App Store"
+      }
+    }
+  },
+  "purchaseErrorRestoreFailed": "ไม่พบข้อมูลการซื้อก่อนหน้านี้ โปรดตรวจสอบบัญชีของคุณและลองอีกครั้ง",
+  "@purchaseErrorRestoreFailed": {
+    "description": "購入情報の復元に失敗した場合のエラーメッセージ"
+  },
+  "purchaseErrorUserNotFound": "ไม่สามารถยืนยันผู้ใช้ได้ กรุณาเริ่มแอปใหม่แล้วลองอีกครั้ง รายละเอียด: {message}",
+  "@purchaseErrorUserNotFound": {
+    "description": "ユーザーが見つからない場合のエラーメッセージ",
+    "placeholders": {
+      "message": {
+        "type": "String",
+        "example": "エラーの詳細"
+      }
+    }
+  },
+  "purchaseErrorActivationPending": "การเปิดใช้งานการชำระเงินยังไม่เสร็จสมบูรณ์ กรุณารอซักครู่แล้วตรวจสอบอีกครั้ง",
+  "@purchaseErrorActivationPending": {
+    "description": "課金の有効化が完了していない場合のエラーメッセージ"
+  },
+  "purchaseErrorTimeout": "การหมดเวลาการเชื่อมต่อ โปรดตรวจสอบสภาพการเชื่อมต่อและลองอีกครั้ง หากยังคงไม่สามารถแก้ไขได้ โปรดติดต่อสอบถามที่ การตั้งค่า > สอบถาม ข้อมูลเพิ่มเติม: {message}",
+  "@purchaseErrorTimeout": {
+    "description": "購入処理がタイムアウトした場合のエラーメッセージ",
+    "placeholders": {
+      "message": {
+        "type": "String",
+        "example": "エラーの詳細"
+      }
+    }
+  },
+  "purchaseErrorNetworkError": "มีปัญหาการเชื่อมต่อ โปรดตรวจสอบสภาพแวดล้อมการเชื่อมต่อของคุณและลองอีกครั้ง หากยังไม่ได้รับการแก้ไข โปรดติดต่อเราผ่านการตั้งค่า > สอบถาม รายละเอียด: {message}",
+  "@purchaseErrorNetworkError": {
+    "description": "ネットワークエラーが発生した場合のエラーメッセージ",
+    "placeholders": {
+      "message": {
+        "type": "String",
+        "example": "エラーの詳細"
+      }
+    }
+  },
+  "sixMonthPlan": "แผนหกเดือน",
+  "@sixMonthPlan": {
+    "description": "6ヶ月プランの表示名"
+  },
+  "premiumContractPeriod": "ระยะเวลาสัญญาคือ 1 เดือนนับตั้งแต่วันที่ซื้อ",
+  "@premiumContractPeriod": {
+    "description": "プレミアムプランの契約期間の説明"
+  },
+  "privacyPolicy": "นโยบายความเป็นส่วนตัว",
+  "@privacyPolicy": {
+    "description": "プライバシーポリシーのリンクテキスト"
+  },
+  "termsOfService": "ข้อกำหนดการใช้บริการ",
+  "@termsOfService": {
+    "description": "利用規約のリンクテキスト"
+  },
+  "specifiedCommercialTransactionAct": "การแสดงข้อมูลตามกฎหมายการค้ามนุษย์",
+  "@specifiedCommercialTransactionAct": {
+    "description": "特定商取引法に基づく表記のリンクテキスト"
+  },
+  "confirmBeforeRegistration": "โปรดตรวจสอบและลงทะเบียน",
+  "@confirmBeforeRegistration": {
+    "description": "各種規約確認を促すメッセージ"
+  },
+  "autoRenewalNotice": "หลังจากสิ้นสุดระยะเวลาสัญญาแล้วจะมีการต่ออายุอัตโนมัติ.",
+  "@autoRenewalNotice": {
+    "description": "自動更新に関する注意事項"
+  },
+  "restorePurchase": "ผู้ที่เคยซื้อไปแล้วที่นี่",
+  "@restorePurchase": {
+    "description": "購入情報の復元リンクのテキスト"
+  },
+  "purchaseRestored": "ข้อมูลการซื้อได้ถูกกู้คืนเรียบร้อยแล้ว",
+  "@purchaseRestored": {
+    "description": "購入情報の復元が完了した際のメッセージ"
+  },
+  "medicationTimeFollowup": "ติดตามเวลาการใช้ยา",
+  "@medicationTimeFollowup": {
+    "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
+  },
+  "updateRequired": "ต้องการการอัปเดต",
+  "@updateRequired": {
+    "description": "強制アップデートが必要な場合のダイアログタイトル"
+  },
+  "updateRequiredMessage": "กรุณาอัปเดตเป็นเวอร์ชันล่าสุดจาก {storeName}",
+  "@updateRequiredMessage": {
+    "description": "強制アップデートが必要な場合のダイアログメッセージ",
+    "placeholders": {
+      "storeName": {
+        "type": "String",
+        "example": "App Store"
+      }
+    }
+  },
+  "screenshotMedicationHistoriesMemo": "นอนกลางวันนานเกินไปทำให้เวลาที่ต้องทานยาล่าช้า",
+  "@screenshotMedicationHistoriesMemo": {
+    "description": "薬のメモの例"
+  }
+}

@@ -1,0 +1,735 @@
+{
+  "@@locale": "ne",
+  "retry": "पुनः प्रयास करें",
+  "@retry": {
+    "description": "エラーが発生した際やデータの読み込みに失敗した際に、再度処理を実行するためのボタンテキスト"
+  },
+  "save": "सुरक्षित गर्नुहोस्",
+  "@save": {
+    "description": "フォームやエディタで入力したデータを保存する際に使用するボタンテキスト"
+  },
+  "memo": "नोट",
+  "@memo": {
+    "description": "服薬記録や日記などで追加情報を入力するためのテキストフィールドのプレースホルダー"
+  },
+  "completed": "सम्पन्न",
+  "@completed": {
+    "description": "フォームの入力や設定の変更などの操作が完了した際に使用するボタンテキスト"
+  },
+  "medicineRegistration": "दवा रजिस्ट्रेशन स्क्रिन",
+  "@medicineRegistration": {
+    "description": "お薬の新規登録・編集画面のタイトル"
+  },
+  "medicineName": "औषधिको नाम",
+  "@medicineName": {
+    "description": "お薬登録フォームでの薬の名前を入力するフィールドのプレースホルダー"
+  },
+  "medicineList": "औषधिहरूको सूची",
+  "@medicineList": {
+    "description": "登録されているお薬の一覧を表示する画面のタイトル"
+  },
+  "medicationSchedule": "डोज़ कार्यक्रम",
+  "@medicationSchedule": {
+    "description": "服用スケジュールのセクションタイトル"
+  },
+  "medicationTime": "डोजको समयमा सूचनाहरू सक्रिय गर्नुहोस्",
+  "@medicationTime": {
+    "description": "服用時刻の通知設定を有効にするためのスイッチのラベル"
+  },
+  "medicationTimeDescription": "समयको आधारमा सूचनाहरू पठाउनेछ।",
+  "@medicationTimeDescription": {
+    "description": "服用時刻の通知設定の説明文"
+  },
+  "close": "बन्द गर्नुहोस्",
+  "@close": {
+    "description": "ダイアログやモーダルを閉じるためのボタンテキスト"
+  },
+  "settings": "सेटिंग",
+  "@settings": {
+    "description": "設定画面のタイトル"
+  },
+  "camera": "क्यामेरा",
+  "@camera": {
+    "description": "カメラを起動するためのメニュー項目"
+  },
+  "photoLibrary": "फोटो लाइब्रेरी",
+  "@photoLibrary": {
+    "description": "フォトライブラリを開くためのメニュー項目"
+  },
+  "medicationHistory": "औषधि सेवनको इतिहास",
+  "@medicationHistory": {
+    "description": "服薬履歴を表示する画面のタイトル"
+  },
+  "noMedicationHistory": "दवा सेवन इतिहास उपलब्ध छैन",
+  "@noMedicationHistory": {
+    "description": "服薬履歴が存在しない場合に表示するメッセージ"
+  },
+  "scheduledTime": "नियोजित समय",
+  "@scheduledTime": {
+    "description": "服薬予定時刻のラベル"
+  },
+  "recordedTime": "रेकर्ड गर्ने समय",
+  "@recordedTime": {
+    "description": "実際に服薬を記録した時間のラベル"
+  },
+  "noMemo": "कोئی नोट नहीं",
+  "@noMemo": {
+    "description": "メモが存在しない場合に表示するテキスト"
+  },
+  "premiumPlan": "प्रीमियम योजना",
+  "@premiumPlan": {
+    "description": "プレミアムプランの名称"
+  },
+  "premiumFeatureAds": "विज्ञापन अनियमित गर्नुहोस्",
+  "@premiumFeatureAds": {
+    "description": "プレミアム機能の広告非表示の説明"
+  },
+  "premiumFeatureHistory": "सभी सेवन इतिहास देख्नुहोस्",
+  "@premiumFeatureHistory": {
+    "description": "プレミアム機能の履歴表示の説明"
+  },
+  "premiumRegistrationComplete": "Medicalarm प्रीमियम रजिस्ट्रेशन सफल",
+  "@premiumRegistrationComplete": {
+    "description": "プレミアム登録完了時のタイトル"
+  },
+  "premiumRegistrationThanks": "तपाईंलाई धन्यवाद। तपाईंको सबै सुविधाहरू अब उपलब्ध छन्!",
+  "@premiumRegistrationThanks": {
+    "description": "プレミアム登録完了時のメッセージ"
+  },
+  "unknownError": "अनजाने त्रुटि उत्पन्न भएको छ",
+  "@unknownError": {
+    "description": "予期せぬエラーが発生した際のエラーメッセージ"
+  },
+  "error": "एक त्रुटि उत्पन्न भयो",
+  "@error": {
+    "description": "一般的なエラーメッセージ"
+  },
+  "unexpectedError": "अनपेक्षित त्रुटि उत्पन्न भएको छ",
+  "@unexpectedError": {
+    "description": "予期せぬエラーが発生した際のエラーメッセージ"
+  },
+  "cancel": "रद्द गर्नुहोस्",
+  "@cancel": {
+    "description": "操作をキャンセルするためのボタンテキスト"
+  },
+  "delete": "हटाउनुहोस्",
+  "@delete": {
+    "description": "削除操作を実行するためのボタンテキスト"
+  },
+  "deleteAccount": "खातामा हटाउनुहोस्",
+  "@deleteAccount": {
+    "description": "アカウント削除ボタンのテキスト"
+  },
+  "deleteAccountConfirm": "तपाईं प्रयोगकर्ता जानकारी मेटाइ रहनुहुन्छ",
+  "@deleteAccountConfirm": {
+    "description": "アカウント削除確認ダイアログのタイトル"
+  },
+  "deleteAccountMessage": "खातामा हटनु भएमा, सबै प्रयोगकर्ता जानकारी मेटिन्छ।",
+  "@deleteAccountMessage": {
+    "description": "アカウント削除確認ダイアログのメッセージ"
+  },
+  "medicationFrequency": "दवाईकोfrequency",
+  "@medicationFrequency": {
+    "description": "服用頻度の設定セクションのタイトル"
+  },
+  "daily": "प्रत्येक दिन",
+  "@daily": {
+    "description": "毎日服用する頻度設定"
+  },
+  "everyXDays": "{VAL} दिनमा",
+  "@everyXDays": {
+    "description": "X日ごとに服用する頻度設定"
+  },
+  "specificWeekdays": "विशिष्ट दिनहरू",
+  "@specificWeekdays": {
+    "description": "特定の曜日に服用する頻度設定"
+  },
+  "cycle": "चक्र",
+  "@cycle": {
+    "description": "周期で服用する頻度設定"
+  },
+  "cycleDescription": "उदाहरण) 21 दिनको सेवन/7 दिनको विश्राम",
+  "@cycleDescription": {
+    "description": "周期での服用頻度の説明文"
+  },
+  "everyXDaysDescription": "उदाहरण) 2 दिनमा एकचोटि, 3 दिनमा एकचोटि",
+  "@everyXDaysDescription": {
+    "description": "X日ごとの服用頻度の説明文"
+  },
+  "specificWeekdaysDescription": "उदाहरण) सोमबार मात्र, बुधबार र शुक्रबार",
+  "@specificWeekdaysDescription": {
+    "description": "特定の曜日の服用頻度の説明文"
+  },
+  "medicineFormValidationError": "कृपया नाम र औषधिको तालिका प्रविष्ट गर्नुहोस्",
+  "@medicineFormValidationError": {
+    "description": "お薬登録フォームでの入力バリデーションエラーメッセージ"
+  },
+  "quantity": "क्षमता",
+  "@quantity": {
+    "description": "服用量を入力するフィールドのラベル"
+  },
+  "quantityExample": "उदाहरण: 1 गोली, 100mg",
+  "@quantityExample": {
+    "description": "服用量入力フィールドのプレースホルダー"
+  },
+  "medicationStartDate": "आरम्भ गर्ने मिति",
+  "@medicationStartDate": {
+    "description": "服用開始日を選択するフィールドのラベル"
+  },
+  "otherInformation": "अन्य",
+  "@otherInformation": {
+    "description": "その他の情報を入力するセクションのタイトル"
+  },
+  "doseReceiver": "दवाई लिने वाला",
+  "@doseReceiver": {
+    "description": "服用者を選択するフィールドのラベル"
+  },
+  "defaultDoseReceiver": "आफ्नो",
+  "@defaultDoseReceiver": {
+    "description": "デフォルトの服用者名"
+  },
+  "doseReceiverMaxCount": "औषधि सेवन गर्ने व्यक्तिहरूले अधिकतम {count} जनासम्म दर्ता गर्न सक्नुहुन्छ।",
+  "@doseReceiverMaxCount": {
+    "description": "服用者の最大登録数を表示するメッセージ",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "2"
+      }
+    }
+  },
+  "increaseLimitWithPremium": "प्रीमियम योजना अन्तर्गत {count} मा सीमा बढाउनुहोस्",
+  "@increaseLimitWithPremium": {
+    "description": "プレミアムプランでの上限増加を案内するメッセージ",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "10"
+      }
+    }
+  },
+  "addDoseReceiver": "खुराककर्ता थप्नुहोस्",
+  "@addDoseReceiver": {
+    "description": "服用者を追加するボタンのテキスト"
+  },
+  "newDoseReceiver": "नयाँ स्वीकारकर्ता",
+  "@newDoseReceiver": {
+    "description": "新規追加時のデフォルトの服用者名"
+  },
+  "reloginRequired": "कृपया पुनः लग इन गर्नुहोस्",
+  "@reloginRequired": {
+    "description": "アカウント削除時に再ログインが必要な場合のダイアログタイトル"
+  },
+  "reloginMessage": "खाता रद्द गर्नका लागि पुनः लगइन गर्नुहोस्।",
+  "@reloginMessage": {
+    "description": "アカウント削除時の再ログイン要求メッセージ"
+  },
+  "relogin": "पुनः लगइन गर्नुहोस्",
+  "@relogin": {
+    "description": "再ログインを実行するためのボタンテキスト"
+  },
+  "accountDeleted": "तपाईंको खाता हटाइएको छ।",
+  "@accountDeleted": {
+    "description": "アカウント削除完了時のメッセージ"
+  },
+  "confirmExit": "के तपाईँ अनुप्रयोग बन्द गर्न चाहनुहुन्छ?",
+  "@confirmExit": {
+    "description": "アプリ終了確認のメッセージ"
+  },
+  "exit": "समाप्त गर्नु",
+  "@exit": {
+    "description": "アプリを終了するためのボタンテキスト"
+  },
+  "viewFaq": "FAQ हेर्नुहोस्",
+  "@viewFaq": {
+    "description": "FAQページを表示するためのボタンテキスト"
+  },
+  "medicine": "ओषधि",
+  "@medicine": {
+    "description": "お薬タブのタイトル"
+  },
+  "inquiry": "सम्पर्क गर्नुहोस्",
+  "@inquiry": {
+    "description": "お問い合わせボタンのテキスト"
+  },
+  "ok": "ठीक छ",
+  "@ok": {
+    "description": "確認ダイアログのOKボタンのテキスト"
+  },
+  "medicationScheduleLimit": "तपाईँले {count} सम्मको औषधि तालिका दर्ता गर्न सक्नुहुन्छ।",
+  "@medicationScheduleLimit": {
+    "description": "服用スケジュールの登録上限を表示するメッセージ",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "3"
+      }
+    }
+  },
+  "increaseMedicationScheduleLimit": "प्रीमियम योजनामा {count} सम्मको सीमा बढाउनुहोस्",
+  "@increaseMedicationScheduleLimit": {
+    "description": "服用スケジュールの上限をプレミアムプランで増やすことを案内するメッセージ",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "10"
+      }
+    }
+  },
+  "addMedicationSchedule": "दवा सेवन तालिका थप्नुहोस्",
+  "@addMedicationSchedule": {
+    "description": "服用スケジュールを追加するボタンのテキスト"
+  },
+  "medicationScheduleNotificationSetting": "मेडिसिन कार्यक्रमसम्बन्धी सूचनाको सेटिंग",
+  "@medicationScheduleNotificationSetting": {
+    "description": "服用スケジュールの通知設定画面のタイトル"
+  },
+  "notificationSetting": "सूचना सेटिङ्ग",
+  "@notificationSetting": {
+    "description": "通知設定セクションのタイトル"
+  },
+  "enableFollowupNotification": "फॉलो-अप नोटिफिकेशन सक्रिय गर्नुहोस्",
+  "@enableFollowupNotification": {
+    "description": "フォローアップ通知を有効にするスイッチのラベル"
+  },
+  "followupNotificationDescription": "पहिलो नोटिफिकेसनको 30 मिनेट भित्र औषधी खाएको रेकर्ड नगरेमा, फोलोअप नोटिफिकेसन पठाइनेछ।",
+  "@followupNotificationDescription": {
+    "description": "フォローアップ通知の説明文"
+  },
+  "enableNotificationInSilentMode": "शांत मोडमा पनि सूचनाहरू पठाउने",
+  "@enableNotificationInSilentMode": {
+    "description": "マナーモード時の通知を有効にするスイッチのラベル"
+  },
+  "silentModeNotificationDescription": "गंभीर सूचनाहरू केन्द्रित मोड ON हुँदा वा उपकरण मूकमा हुँदा पनि लक स्क्रिनमा देखायो र ध्वनि बजाइयो।",
+  "@silentModeNotificationDescription": {
+    "description": "マナーモード時の通知の説明文"
+  },
+  "everyXDaysFormat": "{count} दिनको अन्तरमा",
+  "@everyXDaysFormat": {
+    "description": "X日ごとの服用頻度を表示する際のフォーマット",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "2"
+      }
+    }
+  },
+  "cycleDaysFormat": "{consecutiveDays} दिनको औषधि/{restDays} दिनको विश्राम",
+  "@cycleDaysFormat": {
+    "description": "服用周期を表示する際のフォーマット",
+    "placeholders": {
+      "consecutiveDays": {
+        "type": "int",
+        "example": "21"
+      },
+      "restDays": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  },
+  "consecutiveDaysFormat": "{count} दिन सेवन",
+  "@consecutiveDaysFormat": {
+    "description": "連続服用日数を表示する際のフォーマット",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "21"
+      }
+    }
+  },
+  "restDaysFormat": "{count} दिनको औषधि नखाने",
+  "@restDaysFormat": {
+    "description": "休薬日数を表示する際のフォーマット",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  },
+  "limitedTimeDiscount": "अब सीमित मूल्यमा सदाको लागि प्रयोग गर्न सकिन्छ",
+  "@limitedTimeDiscount": {
+    "description": "プレミアムプランの限定価格キャンペーンを案内するメッセージ"
+  },
+  "monthlyPlan": "महिना शुल्क योजना",
+  "@monthlyPlan": {
+    "description": "月額プランの名称"
+  },
+  "annualPlan": "वार्षिक योजना",
+  "@annualPlan": {
+    "description": "年額プランの名称"
+  },
+  "weeklyPlan": "साप्ताहिक योजना",
+  "@weeklyPlan": {
+    "description": "週額プランの名称"
+  },
+  "premiumRequired": "यो प्रीमियम योजना सदस्यताको साथ सुलभ छ",
+  "@premiumRequired": {
+    "description": "プレミアムプラン加入が必要な機能へのアクセス時のメッセージ"
+  },
+  "medication": "दवा सेवन",
+  "@medication": {
+    "description": "服薬タブのタイトル"
+  },
+  "history": "इतिहास",
+  "@history": {
+    "description": "履歴タブのタイトル"
+  },
+  "medicineRegistrationLimit": "औषधिको दर्ता सङ्ख्या",
+  "@medicineRegistrationLimit": {
+    "description": "薬の登録数の上限を説明するテキストの一部"
+  },
+  "doseReceiverRegistrationLimit": "रोगीहरूको दर्ता संख्या",
+  "@doseReceiverRegistrationLimit": {
+    "description": "服用者の登録数の上限を説明するテキストの一部"
+  },
+  "notificationScheduleLimit": "अवस्थापनहरूको तालिका सङ्ख्या",
+  "@notificationScheduleLimit": {
+    "description": "通知スケジュールの上限を説明するテキストの一部"
+  },
+  "addMedicine": "औषधि थप्नुहोस्",
+  "@addMedicine": {
+    "description": "お薬を追加するボタンのテキスト"
+  },
+  "medicineMaxCount": "तपाईं {count} औषधिहरू थप्न सक्नुहुन्छ।",
+  "@medicineMaxCount": {
+    "description": "お薬の最大登録数を表示するメッセージ",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "increaseMedicineLimitWithPremium": "प्रीमियम योजना संगको अधिकतम सीमा {count} मा बढाउनुहोस्।",
+  "@increaseMedicineLimitWithPremium": {
+    "description": "お薬の登録上限をプレミアムプランで増やすことを案内するメッセージ",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "10"
+      }
+    }
+  },
+  "aboutApp": "ऐप बारेमा",
+  "@aboutApp": {
+    "description": "アプリについてのセクションタイトル"
+  },
+  "viewPremiumPlan": "प्रीमियम योजना हेर्नुहोस्",
+  "@viewPremiumPlan": {
+    "description": "プレミアムプランの詳細を表示するためのボタンテキスト"
+  },
+  "cancelSubscriptionInstruction": "खरीद गरेपछि, स्वचालित नवीकरण रद्द {storeName} अनुप्रयोगको खाता सेटिंगमा गर्न सकिन्छ। (अनुप्रयोग भित्रबाट स्वचालित नवीकरण रद्द गर्न सकिँदैन)।",
+  "@cancelSubscriptionInstruction": {
+    "description": "自動更新の解約方法の説明",
+    "placeholders": {
+      "storeName": {
+        "type": "String",
+        "example": "App Store"
+      }
+    }
+  },
+  "headache": "माथुको दुखाइ",
+  "@headache": {
+    "description": "症状の選択肢：頭痛"
+  },
+  "stomachache": "पेट दुख्ने",
+  "@stomachache": {
+    "description": "症状の選択肢：腹痛"
+  },
+  "nausea": "बाँध",
+  "@nausea": {
+    "description": "症状の選択肢：吐き気"
+  },
+  "anemia": "रक्ताल्पता",
+  "@anemia": {
+    "description": "症状の選択肢：貧血"
+  },
+  "diarrhea": "दस्त",
+  "@diarrhea": {
+    "description": "症状の選択肢：下痢"
+  },
+  "constipation": "कब्ज",
+  "@constipation": {
+    "description": "症状の選択肢：便秘"
+  },
+  "hotFlash": "ताप",
+  "@hotFlash": {
+    "description": "症状の選択肢：ほてり"
+  },
+  "drowsiness": "निद्रा",
+  "@drowsiness": {
+    "description": "症状の選択肢：眠気"
+  },
+  "backPain": "कमरदर्द",
+  "@backPain": {
+    "description": "症状の選択肢：腰痛"
+  },
+  "palpitation": "धड़कन",
+  "@palpitation": {
+    "description": "症状の選択肢：動悸"
+  },
+  "abnormalBleeding": "अनियमित रक्तस्राव",
+  "@abnormalBleeding": {
+    "description": "症状の選択肢：不正出血"
+  },
+  "lossOfAppetite": "खाना न खानेको इच्छा",
+  "@lossOfAppetite": {
+    "description": "症状の選択肢：食欲不振"
+  },
+  "chestTightness": "छातीमा फुलावट",
+  "@chestTightness": {
+    "description": "症状の選択肢：胸の張り"
+  },
+  "insomnia": "अनिद्रा",
+  "@insomnia": {
+    "description": "症状の選択肢：不眠"
+  },
+  "monthlyPlanDiscountFormat": "मासिक सदस्यता मूल्यबाट {percent}% छुट",
+  "@monthlyPlanDiscountFormat": {
+    "description": "月額プランからの割引率を表示するフォーマット",
+    "placeholders": {
+      "percent": {
+        "type": "int",
+        "example": "50"
+      }
+    }
+  },
+  "purchaseErrorUnknown": "अज्ञात त्रुटि उत्पन्न भएको छ। केही समय पछि पुन: प्रयास गर्नुहोस्। यदि समस्या समाधान भएन भने सेटिंग > सम्पर्क मार्फत सम्पर्क गर्नुहोस्। विवरण: {message}",
+  "@purchaseErrorUnknown": {
+    "description": "購入時の不明なエラーメッセージ",
+    "placeholders": {
+      "message": {
+        "type": "String",
+        "example": "エラーの詳細"
+      }
+    }
+  },
+  "purchaseErrorStoreProblem": "{storeName} मा त्रुटि भएको छ। कृपया केही समयपछि पुनः प्रयास गर्नुहोस्।",
+  "@purchaseErrorStoreProblem": {
+    "description": "ストアでのエラーメッセージ",
+    "placeholders": {
+      "storeName": {
+        "type": "String",
+        "example": "App Store"
+      }
+    }
+  },
+  "purchaseErrorInvalidPayment": "भुक्तानी असफल भयो। कृपया वैध भुक्तानी विधि छ कि छैन पुष्टि गरी पुनः प्रयास गर्नुहोस्।",
+  "@purchaseErrorInvalidPayment": {
+    "description": "支払い方法が無効な場合のエラーメッセージ"
+  },
+  "purchaseErrorProductUnavailable": "छोटा योजना वर्तमानमा बिक्रीमा छैन। कृपया अनुप्रयोगलाई पुनः सुरु गरेर प्रयास गर्नुहोस्।",
+  "@purchaseErrorProductUnavailable": {
+    "description": "商品が利用できない場合のエラーメッセージ"
+  },
+  "purchaseErrorAlreadyPurchased": "तपाईंले पहिलेदेखि नै योजना किनिसक्नु भएको छ। यदि तपाईंले यस उपकरणमा किन्ने जानकारी पुनर्स्थापना गर्न चाहनुहुन्छ भने \"पहिले किन्ने व्यक्तिहरू यहाँ\" मा जानुहोस् र किन्ने जानकारी पुनर्स्थापना गर्नुहोस्।",
+  "@purchaseErrorAlreadyPurchased": {
+    "description": "すでに購入済みの場合のエラーメッセージ"
+  },
+  "purchaseErrorReceiptInUse": "पहिले नै किनारा गरिएको छ। खरिद जानकारी अर्को प्रयोगकर्तासँग प्रयोग गरिएको छ। {accountName} जाँच गर्नुहोस्।",
+  "@purchaseErrorReceiptInUse": {
+    "description": "購入情報が他のユーザーで使用されている場合のエラーメッセージ",
+    "placeholders": {
+      "accountName": {
+        "type": "String",
+        "example": "Apple ID"
+      }
+    }
+  },
+  "purchaseErrorInvalidReceipt": "अन्यथा जानकारी खरीददारीको हो। कृपया खरीदारी जानकारी जाँच गर्नुहोस्।",
+  "@purchaseErrorInvalidReceipt": {
+    "description": "購入情報が無効な場合のエラーメッセージ"
+  },
+  "purchaseErrorMissingReceipt": "खरिदारको जानकारी उपलब्ध छैन। कृपया {accountName} को साथमा यन्त्रमा साइन इन गरेर प्रयास गर्नुहोस्",
+  "@purchaseErrorMissingReceipt": {
+    "description": "購入情報が見つからない場合のエラーメッセージ",
+    "placeholders": {
+      "accountName": {
+        "type": "String",
+        "example": "Apple ID"
+      }
+    }
+  },
+  "purchaseErrorNetwork": "नेटवर्क स्थिति अस्थिर छ। कृपया जडानको स्थिति जाँच गर्नुहोस् र त्यसपछि प्रयास गर्नुहोस्।",
+  "@purchaseErrorNetwork": {
+    "description": "ネットワークエラーの場合のエラーメッセージ"
+  },
+  "purchaseNotAllowed": "यो उपकरणमा किनमेलको अनुमति छैन",
+  "@purchaseNotAllowed": {
+    "description": "デバイスでの購入が許可されていない場合のエラーメッセージ"
+  },
+  "purchaseErrorInvalidCredentials": "खरीदमा असफलता भयो। कृपया केही समय पछि पुनः प्रयास गर्नुहोस्। समाधान नभएमा सेटिङ > सम्पर्कमार्फत सम्पर्क गर्नुहोस्। विवरण: {message}",
+  "@purchaseErrorInvalidCredentials": {
+    "description": "認証情報が無効な場合のエラーメッセージ",
+    "placeholders": {
+      "message": {
+        "type": "String",
+        "example": "エラーの詳細"
+      }
+    }
+  },
+  "purchaseErrorUnexpectedBackend": "हालको समयमा किन्बोर्ड गर्नुहोस्। कृपया केही समयपछि पुनः प्रयास गर्नुहोस्। यदि समस्या समाधान हुँदैन भने सेटिङ्गमा जानुहोस् > सम्पर्क गर्नुहोस्। विस्तारमा: {message}",
+  "@purchaseErrorUnexpectedBackend": {
+    "description": "バックエンドで予期せぬエラーが発生した場合のエラーメッセージ",
+    "placeholders": {
+      "message": {
+        "type": "String",
+        "example": "エラーの詳細"
+      }
+    }
+  },
+  "purchaseErrorOperationInProgress": "खरीद प्रक्रिया अलग से प्रगति पर है। कृपया थोड़ी देर बाद फिर से जांच करें",
+  "@purchaseErrorOperationInProgress": {
+    "description": "購入処理が既に進行中の場合のエラーメッセージ"
+  },
+  "purchaseErrorInsufficientPermissions": "तपाईँको {accountName} मा योजनामा पर्न सक्नुहुन्न। कृपया भुक्तानीको जानकारी जाँच गरेर पुनः प्रयास गर्नुहोस्।",
+  "@purchaseErrorInsufficientPermissions": {
+    "description": "権限が不足している場合のエラーメッセージ",
+    "placeholders": {
+      "accountName": {
+        "type": "String",
+        "example": "Apple ID"
+      }
+    }
+  },
+  "purchaseErrorPaymentPending": "भुक्तानी बीचमा रोकिनु भएको छ। कृपया {accountName} मा लगइन गर्नुहोस् र {storeName} जाँच गर्नुहोस्।",
+  "@purchaseErrorPaymentPending": {
+    "description": "支払いが保留中の場合のエラーメッセージ",
+    "placeholders": {
+      "accountName": {
+        "type": "String",
+        "example": "Apple ID"
+      },
+      "storeName": {
+        "type": "String",
+        "example": "App Store"
+      }
+    }
+  },
+  "premiumUserThanksTitle": "यो प्रीमियम सदस्य हो",
+  "@premiumUserThanksTitle": {
+    "description": "プレミアムユーザーへの感謝を示すタイトル"
+  },
+  "premiumUserThanksMessage": "तपाईंको सेवा गर्दैछौं। मेडिकलार्मको सञ्चालनलाई निरन्तरता दिन पाउँदा हामीलाई खुशी छ।",
+  "@premiumUserThanksMessage": {
+    "description": "プレミアムユーザーへの感謝メッセージ"
+  },
+  "premiumPricePerMonth": "({price}/महिना)",
+  "@premiumPricePerMonth": {
+    "description": "月額料金の表示フォーマット",
+    "placeholders": {
+      "price": {
+        "type": "String",
+        "example": "¥500"
+      }
+    }
+  },
+  "premiumCancelDescription": "• खरिद गरेपछि, {storeName} अनुप्रयोगको खाता सेटिङ्गमा स्वचालित नवीकरण रद्द गर्न सकिन्छ। (अनुप्रयोग भित्रबाट स्वचालित नवीकरण रद्द गर्न सकिँदैन)।",
+  "@premiumCancelDescription": {
+    "description": "プレミアムプランの解約方法の説明",
+    "placeholders": {
+      "storeName": {
+        "type": "String",
+        "example": "App Store"
+      }
+    }
+  },
+  "purchaseErrorRestoreFailed": "अघिल्लो खरिदको जानकारी फेला परेको छैन। कृपया खाता जाँच गर्नुहोस् र फेरि प्रयास गर्नुहोस्।",
+  "@purchaseErrorRestoreFailed": {
+    "description": "購入情報の復元に失敗した場合のエラーメッセージ"
+  },
+  "purchaseErrorUserNotFound": "सदस्यलाई फेला पार्न सकेनौं। कृपया अनुप्रयोगलाई पुनः सुरु गर्नुहोस् र फेरि प्रयास गर्नुहोस्। विवरण: {message}",
+  "@purchaseErrorUserNotFound": {
+    "description": "ユーザーが見つからない場合のエラーメッセージ",
+    "placeholders": {
+      "message": {
+        "type": "String",
+        "example": "エラーの詳細"
+      }
+    }
+  },
+  "purchaseErrorActivationPending": "भुगतान सक्रियण पूरा भएको छैन। कृपया केही समयपछि जाँच गर्नुहोस्।",
+  "@purchaseErrorActivationPending": {
+    "description": "課金の有効化が完了していない場合のエラーメッセージ"
+  },
+  "purchaseErrorTimeout": "टाइमआउट भयो। कृपया संचार वातावरणको जाँच गर्नुहोस् र पुनः प्रयास गर्नुहोस्। यदि समाधान हुँदैन भने, सेटिङ > समर्पणमा जानुहोस् र सम्पर्क गर्नुहोस्। विवरण: {message}",
+  "@purchaseErrorTimeout": {
+    "description": "購入処理がタイムアウトした場合のエラーメッセージ",
+    "placeholders": {
+      "message": {
+        "type": "String",
+        "example": "エラーの詳細"
+      }
+    }
+  },
+  "purchaseErrorNetworkError": "नेटवर्कको समस्या। कृपया आफ्नो संचार वातावरण सुनिश्चित गर्नुहोस् र पुनः प्रयास गर्नुहोस्। यदि यो समाधान गर्दैन भने सेटिङ्स > सम्पर्कमार्फत सम्पर्क गर्नुहोस्। विवरण: {message}",
+  "@purchaseErrorNetworkError": {
+    "description": "ネットワークエラーが発生した場合のエラーメッセージ",
+    "placeholders": {
+      "message": {
+        "type": "String",
+        "example": "エラーの詳細"
+      }
+    }
+  },
+  "sixMonthPlan": "6 महिने योजना",
+  "@sixMonthPlan": {
+    "description": "6ヶ月プランの表示名"
+  },
+  "premiumContractPeriod": "सहमति अवधि किनारी 1 महिना छ।",
+  "@premiumContractPeriod": {
+    "description": "プレミアムプランの契約期間の説明"
+  },
+  "privacyPolicy": "गोपनीयता नीति",
+  "@privacyPolicy": {
+    "description": "プライバシーポリシーのリンクテキスト"
+  },
+  "termsOfService": "उपयोगको शर्तहरू",
+  "@termsOfService": {
+    "description": "利用規約のリンクテキスト"
+  },
+  "specifiedCommercialTransactionAct": "विशेष व्यापार नियमावली अनुरूप अभिव्यक्ति",
+  "@specifiedCommercialTransactionAct": {
+    "description": "特定商取引法に基づく表記のリンクテキスト"
+  },
+  "confirmBeforeRegistration": "कृपया सबै नियम र शर्तहरू जाँच गर्नुहोस् र दर्ता गर्नुहोस्।",
+  "@confirmBeforeRegistration": {
+    "description": "各種規約確認を促すメッセージ"
+  },
+  "autoRenewalNotice": "अवधि समाप्त भएपछि यो स्वचालित अद्यावधिक हुनेछ।",
+  "@autoRenewalNotice": {
+    "description": "自動更新に関する注意事項"
+  },
+  "restorePurchase": "अघिल्लो पटक खरिद गरिसक्ने व्यक्तिहरू यहाँ छन्",
+  "@restorePurchase": {
+    "description": "購入情報の復元リンクのテキスト"
+  },
+  "purchaseRestored": "ما خریدو معلومات بحال شو",
+  "@purchaseRestored": {
+    "description": "購入情報の復元が完了した際のメッセージ"
+  },
+  "medicationTimeFollowup": "औषधि लिनको समयको अनुगमन",
+  "@medicationTimeFollowup": {
+    "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
+  },
+  "updateRequired": "अपडेट गर्न आवश्यक छ",
+  "@updateRequired": {
+    "description": "強制アップデートが必要な場合のダイアログタイトル"
+  },
+  "updateRequiredMessage": "{storeName} मा नवीनतम संस्करणमा अपग्रेड गर्नुहोस्",
+  "@updateRequiredMessage": {
+    "description": "強制アップデートが必要な場合のダイアログメッセージ",
+    "placeholders": {
+      "storeName": {
+        "type": "String",
+        "example": "App Store"
+      }
+    }
+  },
+  "screenshotMedicationHistoriesMemo": "दिउँसो धेरै सुतेर औषधि खाने समय ढिला भयो",
+  "@screenshotMedicationHistoriesMemo": {
+    "description": "薬のメモの例"
+  }
+}
