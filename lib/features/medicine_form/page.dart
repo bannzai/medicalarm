@@ -91,6 +91,17 @@ class MedicineFormPage extends HookConsumerWidget {
               child: Scaffold(
                 appBar: AppBar(
                   title: Text(L.medicineRegistration, style: TextStyle(color: primaryColor)),
+                  actions: [
+                    IconButton(
+                      onPressed: () {
+                        final medicineID = medicine?.id;
+                        if (medicineID != null) {
+                          ref.read(medicineDeleteProvider)(medicineID: medicineID);
+                        }
+                      },
+                      icon: const Icon(Icons.delete),
+                    ),
+                  ],
                 ),
                 body: FloatingActionButtonLayout(
                   scaffoldBody: SafeArea(

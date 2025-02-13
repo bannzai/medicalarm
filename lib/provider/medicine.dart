@@ -90,3 +90,20 @@ MedicineUpdate medicineUpdate(MedicineUpdateRef ref) {
   final database = ref.watch(userDatabaseProvider);
   return MedicineUpdate(database: database);
 }
+
+class MedicineDelete {
+  final UserDatabase database;
+
+  MedicineDelete({required this.database});
+
+  Future<void> call({required String medicineID}) async {
+    final docRef = database.medicineReference(medicineID: medicineID);
+    await docRef.delete();
+  }
+}
+
+@Riverpod(dependencies: [userDatabase])
+MedicineDelete medicineDelete(MedicineDeleteRef ref) {
+  final database = ref.watch(userDatabaseProvider);
+  return MedicineDelete(database: database);
+}
