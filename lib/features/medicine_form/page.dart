@@ -93,10 +93,19 @@ class MedicineFormPage extends HookConsumerWidget {
                   title: Text(L.medicineRegistration, style: TextStyle(color: primaryColor)),
                   actions: [
                     IconButton(
-                      onPressed: () {
+                      onPressed: () async {
                         final medicineID = medicine?.id;
                         if (medicineID != null) {
-                          ref.read(medicineDeleteProvider)(medicineID: medicineID);
+                          try {
+                            await ref.read(medicineDeleteProvider).call(medicineID: medicineID);
+                            if (context.mounted) {
+                              Navigator.of(context).pop();
+                            }
+                          } catch (e) {
+                            if (context.mounted) {
+                              showErrorAlert(context, e.toString());
+                            }
+                          }
                         }
                       },
                       icon: const Icon(Icons.delete),
