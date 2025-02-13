@@ -234,7 +234,7 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
               medicationSchedule: scheduleRow.medicationSchedule,
             );
       } else {
-        await ref.watch(medicationHistoryDeleteProvider).call(scheduleRow.medicationHistory!);
+        await ref.read(medicationHistoryDeleteProvider).call(scheduleRow.medicationHistory!);
       }
       unawaited(ref.read(registerReminderLocalNotificationProvider).call());
     });
