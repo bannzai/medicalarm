@@ -1,0 +1,735 @@
+{
+  "@@locale": "tl",
+  "retry": "Subukan muli",
+  "@retry": {
+    "description": "エラーが発生した際やデータの読み込みに失敗した際に、再度処理を実行するためのボタンテキスト"
+  },
+  "save": "Itago",
+  "@save": {
+    "description": "フォームやエディタで入力したデータを保存する際に使用するボタンテキスト"
+  },
+  "memo": "Tala",
+  "@memo": {
+    "description": "服薬記録や日記などで追加情報を入力するためのテキストフィールドのプレースホルダー"
+  },
+  "completed": "Tapusin",
+  "@completed": {
+    "description": "フォームの入力や設定の変更などの操作が完了した際に使用するボタンテキスト"
+  },
+  "medicineRegistration": "Pahina ng Pagrehistro ng Gamot",
+  "@medicineRegistration": {
+    "description": "お薬の新規登録・編集画面のタイトル"
+  },
+  "medicineName": "Pangalan ng gamot",
+  "@medicineName": {
+    "description": "お薬登録フォームでの薬の名前を入力するフィールドのプレースホルダー"
+  },
+  "medicineList": "Listahan ng mga Gamot",
+  "@medicineList": {
+    "description": "登録されているお薬の一覧を表示する画面のタイトル"
+  },
+  "medicationSchedule": "Iskedyul ng pag-inom",
+  "@medicationSchedule": {
+    "description": "服用スケジュールのセクションタイトル"
+  },
+  "medicationTime": "Paganahin ang abiso sa oras ng pag-inom",
+  "@medicationTime": {
+    "description": "服用時刻の通知設定を有効にするためのスイッチのラベル"
+  },
+  "medicationTimeDescription": "Magpapadala ng abiso batay sa oras ng pag-inom.",
+  "@medicationTimeDescription": {
+    "description": "服用時刻の通知設定の説明文"
+  },
+  "close": "Isara",
+  "@close": {
+    "description": "ダイアログやモーダルを閉じるためのボタンテキスト"
+  },
+  "settings": "Mga Setting",
+  "@settings": {
+    "description": "設定画面のタイトル"
+  },
+  "camera": "Kamera",
+  "@camera": {
+    "description": "カメラを起動するためのメニュー項目"
+  },
+  "photoLibrary": "Aklatan ng mga Larawan",
+  "@photoLibrary": {
+    "description": "フォトライブラリを開くためのメニュー項目"
+  },
+  "medicationHistory": "Kasaysayan ng Pag-inom ng Gamot",
+  "@medicationHistory": {
+    "description": "服薬履歴を表示する画面のタイトル"
+  },
+  "noMedicationHistory": "Walang tala ng pagkuha ng gamot",
+  "@noMedicationHistory": {
+    "description": "服薬履歴が存在しない場合に表示するメッセージ"
+  },
+  "scheduledTime": "Inaasahang Oras",
+  "@scheduledTime": {
+    "description": "服薬予定時刻のラベル"
+  },
+  "recordedTime": "Oras ng Pagrekord",
+  "@recordedTime": {
+    "description": "実際に服薬を記録した時間のラベル"
+  },
+  "noMemo": "Walang tala",
+  "@noMemo": {
+    "description": "メモが存在しない場合に表示するテキスト"
+  },
+  "premiumPlan": "Premium Plan",
+  "@premiumPlan": {
+    "description": "プレミアムプランの名称"
+  },
+  "premiumFeatureAds": "Itago ang mga ad",
+  "@premiumFeatureAds": {
+    "description": "プレミアム機能の広告非表示の説明"
+  },
+  "premiumFeatureHistory": "Ipakita ang lahat ng tala ng pag-inom",
+  "@premiumFeatureHistory": {
+    "description": "プレミアム機能の履歴表示の説明"
+  },
+  "premiumRegistrationComplete": "Tapos na ang pagpaparehistro sa Medicalarm Premium",
+  "@premiumRegistrationComplete": {
+    "description": "プレミアム登録完了時のタイトル"
+  },
+  "premiumRegistrationThanks": "Salamat sa iyong pagrerehistro.\nNaging magagamit na ang lahat ng mga tampok!",
+  "@premiumRegistrationThanks": {
+    "description": "プレミアム登録完了時のメッセージ"
+  },
+  "unknownError": "May isang hindi kilalang error na naganap.",
+  "@unknownError": {
+    "description": "予期せぬエラーが発生した際のエラーメッセージ"
+  },
+  "error": "Nagkaroon ng error.",
+  "@error": {
+    "description": "一般的なエラーメッセージ"
+  },
+  "unexpectedError": "Isang hindi inaasahang error ang nangyari.",
+  "@unexpectedError": {
+    "description": "予期せぬエラーが発生した際のエラーメッセージ"
+  },
+  "cancel": "Kansel",
+  "@cancel": {
+    "description": "操作をキャンセルするためのボタンテキスト"
+  },
+  "delete": "Tanggalin",
+  "@delete": {
+    "description": "削除操作を実行するためのボタンテキスト"
+  },
+  "deleteAccount": "Tanggalin ang account",
+  "@deleteAccount": {
+    "description": "アカウント削除ボタンのテキスト"
+  },
+  "deleteAccountConfirm": "Buburang impormasyon ng gumagamit",
+  "@deleteAccountConfirm": {
+    "description": "アカウント削除確認ダイアログのタイトル"
+  },
+  "deleteAccountMessage": "Kapag nag-delete ka ng account, lahat ng impormasyon ng gumagamit ay mabubura.",
+  "@deleteAccountMessage": {
+    "description": "アカウント削除確認ダイアログのメッセージ"
+  },
+  "medicationFrequency": "Dalas ng Pag-inom",
+  "@medicationFrequency": {
+    "description": "服用頻度の設定セクションのタイトル"
+  },
+  "daily": "Araw-araw",
+  "@daily": {
+    "description": "毎日服用する頻度設定"
+  },
+  "everyXDays": "bawat X na araw",
+  "@everyXDays": {
+    "description": "X日ごとに服用する頻度設定"
+  },
+  "specificWeekdays": "tiyak na araw ng linggo",
+  "@specificWeekdays": {
+    "description": "特定の曜日に服用する頻度設定"
+  },
+  "cycle": "Kadalasan",
+  "@cycle": {
+    "description": "周期で服用する頻度設定"
+  },
+  "cycleDescription": "halimbawa) Kumuha sa ika-21 ng araw / 7 araw na hindi umiinom",
+  "@cycleDescription": {
+    "description": "周期での服用頻度の説明文"
+  },
+  "everyXDaysDescription": "Halimbawa) Tuwing ikalawang araw, tuwing ikatlong araw",
+  "@everyXDaysDescription": {
+    "description": "X日ごとの服用頻度の説明文"
+  },
+  "specificWeekdaysDescription": "Halimbawa) Lunes lamang, Miyerkules at Biyernes",
+  "@specificWeekdaysDescription": {
+    "description": "特定の曜日の服用頻度の説明文"
+  },
+  "medicineFormValidationError": "Mangyaring ipasok ang pangalan at iskedyul ng pag-inom",
+  "@medicineFormValidationError": {
+    "description": "お薬登録フォームでの入力バリデーションエラーメッセージ"
+  },
+  "quantity": "Kapasidad",
+  "@quantity": {
+    "description": "服用量を入力するフィールドのラベル"
+  },
+  "quantityExample": "halimbawa: 1 tablet, 100mg",
+  "@quantityExample": {
+    "description": "服用量入力フィールドのプレースホルダー"
+  },
+  "medicationStartDate": "Petsa ng Pagsisimula ng Gamot",
+  "@medicationStartDate": {
+    "description": "服用開始日を選択するフィールドのラベル"
+  },
+  "otherInformation": "Iba pa",
+  "@otherInformation": {
+    "description": "その他の情報を入力するセクションのタイトル"
+  },
+  "doseReceiver": "manggagamot",
+  "@doseReceiver": {
+    "description": "服用者を選択するフィールドのラベル"
+  },
+  "defaultDoseReceiver": "sarili",
+  "@defaultDoseReceiver": {
+    "description": "デフォルトの服用者名"
+  },
+  "doseReceiverMaxCount": "Maaaring magrehistro ng hanggang {count} na tao ang mga umiinom ng gamot.",
+  "@doseReceiverMaxCount": {
+    "description": "服用者の最大登録数を表示するメッセージ",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "2"
+      }
+    }
+  },
+  "increaseLimitWithPremium": "Pataasin ang limitasyon sa {count} gamit ang Premium Plan",
+  "@increaseLimitWithPremium": {
+    "description": "プレミアムプランでの上限増加を案内するメッセージ",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "10"
+      }
+    }
+  },
+  "addDoseReceiver": "Magdagdag ng gumagamit ng gamot",
+  "@addDoseReceiver": {
+    "description": "服用者を追加するボタンのテキスト"
+  },
+  "newDoseReceiver": "Bagong gumagamit",
+  "@newDoseReceiver": {
+    "description": "新規追加時のデフォルトの服用者名"
+  },
+  "reloginRequired": "Mangyaring mag-login muli",
+  "@reloginRequired": {
+    "description": "アカウント削除時に再ログインが必要な場合のダイアログタイトル"
+  },
+  "reloginMessage": "Upang tanggalin ang account, mangyaring mag-log in muli.",
+  "@reloginMessage": {
+    "description": "アカウント削除時の再ログイン要求メッセージ"
+  },
+  "relogin": "Magsimulang muli ang pag-login",
+  "@relogin": {
+    "description": "再ログインを実行するためのボタンテキスト"
+  },
+  "accountDeleted": "Tinanggal na ang account",
+  "@accountDeleted": {
+    "description": "アカウント削除完了時のメッセージ"
+  },
+  "confirmExit": "Ihinto ang app?",
+  "@confirmExit": {
+    "description": "アプリ終了確認のメッセージ"
+  },
+  "exit": "Tapos na",
+  "@exit": {
+    "description": "アプリを終了するためのボタンテキスト"
+  },
+  "viewFaq": "Tumingin sa FAQ",
+  "@viewFaq": {
+    "description": "FAQページを表示するためのボタンテキスト"
+  },
+  "medicine": "Mga Gamot",
+  "@medicine": {
+    "description": "お薬タブのタイトル"
+  },
+  "inquiry": "Makipag-ugnayan",
+  "@inquiry": {
+    "description": "お問い合わせボタンのテキスト"
+  },
+  "ok": "Ayos",
+  "@ok": {
+    "description": "確認ダイアログのOKボタンのテキスト"
+  },
+  "medicationScheduleLimit": "Maaari kang magrehistro ng hanggang {count} na iskedyul ng pag-inom.",
+  "@medicationScheduleLimit": {
+    "description": "服用スケジュールの登録上限を表示するメッセージ",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "3"
+      }
+    }
+  },
+  "increaseMedicationScheduleLimit": "Itaas ang limitasyon sa {count} gamit ang premium plan.",
+  "@increaseMedicationScheduleLimit": {
+    "description": "服用スケジュールの上限をプレミアムプランで増やすことを案内するメッセージ",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "10"
+      }
+    }
+  },
+  "addMedicationSchedule": "Magdagdag ng iskedyul ng pag-inom",
+  "@addMedicationSchedule": {
+    "description": "服用スケジュールを追加するボタンのテキスト"
+  },
+  "medicationScheduleNotificationSetting": "Mga Setting ng Abiso sa Iskedyul ng Gamot",
+  "@medicationScheduleNotificationSetting": {
+    "description": "服用スケジュールの通知設定画面のタイトル"
+  },
+  "notificationSetting": "Mga Setting ng Abiso",
+  "@notificationSetting": {
+    "description": "通知設定セクションのタイトル"
+  },
+  "enableFollowupNotification": "I-enable ang mga follow-up na abiso",
+  "@enableFollowupNotification": {
+    "description": "フォローアップ通知を有効にするスイッチのラベル"
+  },
+  "followupNotificationDescription": "Kung hindi mo itatala ang pag-inom ng gamot sa loob ng 30 minuto mula sa unang abiso, isang follow-up na abiso ang ipapadala.",
+  "@followupNotificationDescription": {
+    "description": "フォローアップ通知の説明文"
+  },
+  "enableNotificationInSilentMode": "Ipaalam kahit na nasa silent mode",
+  "@enableNotificationInSilentMode": {
+    "description": "マナーモード時の通知を有効にするスイッチのラベル"
+  },
+  "silentModeNotificationDescription": "Kahit na naka-ON ang Focus Mode o naka-silent ang device, ang mga mahalagang notification ay ipinapakita sa lock screen at tumutunog.",
+  "@silentModeNotificationDescription": {
+    "description": "マナーモード時の通知の説明文"
+  },
+  "everyXDaysFormat": "{count} araw-araw",
+  "@everyXDaysFormat": {
+    "description": "X日ごとの服用頻度を表示する際のフォーマット",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "2"
+      }
+    }
+  },
+  "cycleDaysFormat": "{consecutiveDays} araw na pag-inom/{restDays} araw na pahinga",
+  "@cycleDaysFormat": {
+    "description": "服用周期を表示する際のフォーマット",
+    "placeholders": {
+      "consecutiveDays": {
+        "type": "int",
+        "example": "21"
+      },
+      "restDays": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  },
+  "consecutiveDaysFormat": "{count} araw na pag-inom",
+  "@consecutiveDaysFormat": {
+    "description": "連続服用日数を表示する際のフォーマット",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "21"
+      }
+    }
+  },
+  "restDaysFormat": "{count} araw na walang pag-inom",
+  "@restDaysFormat": {
+    "description": "休薬日数を表示する際のフォーマット",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  },
+  "limitedTimeDiscount": "Sa kasalukuyan, may limitadong presyo na magagamit nang permanente",
+  "@limitedTimeDiscount": {
+    "description": "プレミアムプランの限定価格キャンペーンを案内するメッセージ"
+  },
+  "monthlyPlan": "Buwanang Plano",
+  "@monthlyPlan": {
+    "description": "月額プランの名称"
+  },
+  "annualPlan": "Taunang Plano",
+  "@annualPlan": {
+    "description": "年額プランの名称"
+  },
+  "weeklyPlan": "Lingguhang plano",
+  "@weeklyPlan": {
+    "description": "週額プランの名称"
+  },
+  "premiumRequired": "Maaari lamang itong ma-access sa pamamagitan ng membership sa Premium Plan.",
+  "@premiumRequired": {
+    "description": "プレミアムプラン加入が必要な機能へのアクセス時のメッセージ"
+  },
+  "medication": "Pagsusuri ng Gamot",
+  "@medication": {
+    "description": "服薬タブのタイトル"
+  },
+  "history": "Kasaysayan",
+  "@history": {
+    "description": "履歴タブのタイトル"
+  },
+  "medicineRegistrationLimit": "Bilang ng mga rehistradong gamot",
+  "@medicineRegistrationLimit": {
+    "description": "薬の登録数の上限を説明するテキストの一部"
+  },
+  "doseReceiverRegistrationLimit": "Bilang ng mga nakarehistrong gumagamit",
+  "@doseReceiverRegistrationLimit": {
+    "description": "服用者の登録数の上限を説明するテキストの一部"
+  },
+  "notificationScheduleLimit": "Ang bilang ng mga iskedyul ng abiso",
+  "@notificationScheduleLimit": {
+    "description": "通知スケジュールの上限を説明するテキストの一部"
+  },
+  "addMedicine": "Magdagdag ng gamot",
+  "@addMedicine": {
+    "description": "お薬を追加するボタンのテキスト"
+  },
+  "medicineMaxCount": "Maaari kang magrehistro ng hanggang {count} na gamot.",
+  "@medicineMaxCount": {
+    "description": "お薬の最大登録数を表示するメッセージ",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "increaseMedicineLimitWithPremium": "Palawakin ang limitasyon sa pagpaparehistro ng gamot sa Premium plan sa {count}",
+  "@increaseMedicineLimitWithPremium": {
+    "description": "お薬の登録上限をプレミアムプランで増やすことを案内するメッセージ",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "10"
+      }
+    }
+  },
+  "aboutApp": "Tungkol sa App",
+  "@aboutApp": {
+    "description": "アプリについてのセクションタイトル"
+  },
+  "viewPremiumPlan": "Tumingin sa Premium Plan",
+  "@viewPremiumPlan": {
+    "description": "プレミアムプランの詳細を表示するためのボタンテキスト"
+  },
+  "cancelSubscriptionInstruction": "Pagkatapos ng pagbili, ang pagkansela ng auto-renewal ay maaaring gawin sa mga setting ng account ng {storeName} na app. (Hindi maaring kanselahin ang auto-renewal mula sa loob ng app.)",
+  "@cancelSubscriptionInstruction": {
+    "description": "自動更新の解約方法の説明",
+    "placeholders": {
+      "storeName": {
+        "type": "String",
+        "example": "App Store"
+      }
+    }
+  },
+  "headache": "sakit ng ulo",
+  "@headache": {
+    "description": "症状の選択肢：頭痛"
+  },
+  "stomachache": "Sakit perut",
+  "@stomachache": {
+    "description": "症状の選択肢：腹痛"
+  },
+  "nausea": "Nausea",
+  "@nausea": {
+    "description": "症状の選択肢：吐き気"
+  },
+  "anemia": "anemia",
+  "@anemia": {
+    "description": "症状の選択肢：貧血"
+  },
+  "diarrhea": "Diarhea",
+  "@diarrhea": {
+    "description": "症状の選択肢：下痢"
+  },
+  "constipation": "Constipation",
+  "@constipation": {
+    "description": "症状の選択肢：便秘"
+  },
+  "hotFlash": "pamamaga",
+  "@hotFlash": {
+    "description": "症状の選択肢：ほてり"
+  },
+  "drowsiness": "Pagkaantok",
+  "@drowsiness": {
+    "description": "症状の選択肢：眠気"
+  },
+  "backPain": "sakit sa likod",
+  "@backPain": {
+    "description": "症状の選択肢：腰痛"
+  },
+  "palpitation": "pagsusulong",
+  "@palpitation": {
+    "description": "症状の選択肢：動悸"
+  },
+  "abnormalBleeding": "Hindi",
+  "@abnormalBleeding": {
+    "description": "症状の選択肢：不正出血"
+  },
+  "lossOfAppetite": "Kulang ang gana sa pagkain",
+  "@lossOfAppetite": {
+    "description": "症状の選択肢：食欲不振"
+  },
+  "chestTightness": "pamimigay ng dibdib",
+  "@chestTightness": {
+    "description": "症状の選択肢：胸の張り"
+  },
+  "insomnia": "Insomnia",
+  "@insomnia": {
+    "description": "症状の選択肢：不眠"
+  },
+  "monthlyPlanDiscountFormat": "{percent}% OFF mula sa buwanang bayad",
+  "@monthlyPlanDiscountFormat": {
+    "description": "月額プランからの割引率を表示するフォーマット",
+    "placeholders": {
+      "percent": {
+        "type": "int",
+        "example": "50"
+      }
+    }
+  },
+  "purchaseErrorUnknown": "Isang hindi kilalang error ang nangyari. Mangyaring subukan muli pagkatapos ng ilang sandali. Kung hindi ito malulutas, mangyaring makipag-ugnayan sa pamamagitan ng Mga Setting > Tanong. Detalye: {message}",
+  "@purchaseErrorUnknown": {
+    "description": "購入時の不明なエラーメッセージ",
+    "placeholders": {
+      "message": {
+        "type": "String",
+        "example": "エラーの詳細"
+      }
+    }
+  },
+  "purchaseErrorStoreProblem": "Nagkaroon ng error sa {storeName}. Mangyaring maghintay ng ilang sandali at subukang muli.",
+  "@purchaseErrorStoreProblem": {
+    "description": "ストアでのエラーメッセージ",
+    "placeholders": {
+      "storeName": {
+        "type": "String",
+        "example": "App Store"
+      }
+    }
+  },
+  "purchaseErrorInvalidPayment": "Nabigo ang pagbabayad. Paki-suri kung ito ay isang wastong paraan ng pagbabayad at subukan muli.",
+  "@purchaseErrorInvalidPayment": {
+    "description": "支払い方法が無効な場合のエラーメッセージ"
+  },
+  "purchaseErrorProductUnavailable": "Ang kasalukuyang plano ay hindi ibinibigay. Paumanhin, ngunit mangyaring muling simulan ang app at subukan muli.",
+  "@purchaseErrorProductUnavailable": {
+    "description": "商品が利用できない場合のエラーメッセージ"
+  },
+  "purchaseErrorAlreadyPurchased": "Mayroon ka nang nabili na plano. Kung nais mong ibalik ang impormasyon ng binili sa device na ito, mangyaring mag-click sa \"Dito kung dati ka nang bumili\" upang ibalik ang impormasyon ng binili.",
+  "@purchaseErrorAlreadyPurchased": {
+    "description": "すでに購入済みの場合のエラーメッセージ"
+  },
+  "purchaseErrorReceiptInUse": "Bumili na. Ang impormasyon ng pagbili ay ginagamit ng ibang gumagamit. Mangyaring suriin ang {accountName}.",
+  "@purchaseErrorReceiptInUse": {
+    "description": "購入情報が他のユーザーで使用されている場合のエラーメッセージ",
+    "placeholders": {
+      "accountName": {
+        "type": "String",
+        "example": "Apple ID"
+      }
+    }
+  },
+  "purchaseErrorInvalidReceipt": "Ito ay hindi wastong impormasyon sa pagbili. Pakisuri ang impormasyon ng pagbili.",
+  "@purchaseErrorInvalidReceipt": {
+    "description": "購入情報が無効な場合のエラーメッセージ"
+  },
+  "purchaseErrorMissingReceipt": "Walang umiiral na impormasyon ng mamimili. Mangyaring subukan na mag-sign in sa device gamit ang {accountName}.",
+  "@purchaseErrorMissingReceipt": {
+    "description": "購入情報が見つからない場合のエラーメッセージ",
+    "placeholders": {
+      "accountName": {
+        "type": "String",
+        "example": "Apple ID"
+      }
+    }
+  },
+  "purchaseErrorNetwork": "Hindi ang matatag ang estado ng network. Mangyaring suriin ang iyong koneksyon at subukan muli.",
+  "@purchaseErrorNetwork": {
+    "description": "ネットワークエラーの場合のエラーメッセージ"
+  },
+  "purchaseNotAllowed": "Hindi hindi na pinahihintulutan ang pagbili sa aparatong ito.",
+  "@purchaseNotAllowed": {
+    "description": "デバイスでの購入が許可されていない場合のエラーメッセージ"
+  },
+  "purchaseErrorInvalidCredentials": "Bumili ng ibinagsak na mga pagbili. Mangyaring subukang muli pagkatapos ng ilang oras. Kung hindi ito malulutas, mangyaring makipag-ugnayan sa pamamagitan ng Mga Setting > Mga Katanungan. Mga Detalye: {message}",
+  "@purchaseErrorInvalidCredentials": {
+    "description": "認証情報が無効な場合のエラーメッセージ",
+    "placeholders": {
+      "message": {
+        "type": "String",
+        "example": "エラーの詳細"
+      }
+    }
+  },
+  "purchaseErrorUnexpectedBackend": "Sa kasalukuyan, hindi makakabili. Subukan muli mamaya. Kung hindi ito maresolba, mangyaring makipag-ugnay sa pamamagitan ng Mga Setting > Makipag-ugnayan. Detalye: {message}",
+  "@purchaseErrorUnexpectedBackend": {
+    "description": "バックエンドで予期せぬエラーが発生した場合のエラーメッセージ",
+    "placeholders": {
+      "message": {
+        "type": "String",
+        "example": "エラーの詳細"
+      }
+    }
+  },
+  "purchaseErrorOperationInProgress": "Mayroon nang isinasagawang proseso ng pagbili. Mangyaring maghintay ng kaunti at muling suriin.",
+  "@purchaseErrorOperationInProgress": {
+    "description": "購入処理が既に進行中の場合のエラーメッセージ"
+  },
+  "purchaseErrorInsufficientPermissions": "Sa iyong {accountName} ay hindi ka makakasali sa plano. Mangyaring suriin ang impormasyon ng iyong pagbabayad at subukan muli.",
+  "@purchaseErrorInsufficientPermissions": {
+    "description": "権限が不足している場合のエラーメッセージ",
+    "placeholders": {
+      "accountName": {
+        "type": "String",
+        "example": "Apple ID"
+      }
+    }
+  },
+  "purchaseErrorPaymentPending": "Nakatigil ang pagbabayad. Pakisuri ang {storeName} gamit ang iyong {accountName} na naka-log in.",
+  "@purchaseErrorPaymentPending": {
+    "description": "支払いが保留中の場合のエラーメッセージ",
+    "placeholders": {
+      "accountName": {
+        "type": "String",
+        "example": "Apple ID"
+      },
+      "storeName": {
+        "type": "String",
+        "example": "App Store"
+      }
+    }
+  },
+  "premiumUserThanksTitle": "Ikaw ay isang premium na miyembro.",
+  "@premiumUserThanksTitle": {
+    "description": "プレミアムユーザーへの感謝を示すタイトル"
+  },
+  "premiumUserThanksMessage": "Salamat sa iyong paggamit. Dahil sa inyo, patuloy namin ang pagpapatakbo ng Medicalarm.",
+  "@premiumUserThanksMessage": {
+    "description": "プレミアムユーザーへの感謝メッセージ"
+  },
+  "premiumPricePerMonth": "(₱{price}/buwan)",
+  "@premiumPricePerMonth": {
+    "description": "月額料金の表示フォーマット",
+    "placeholders": {
+      "price": {
+        "type": "String",
+        "example": "¥500"
+      }
+    }
+  },
+  "premiumCancelDescription": "Pagkatapos bumili, maaari mong kanselahin ang awtomatikong pag-update sa mga setting ng account ng {storeName} app. (Hindi mo maikansela ang awtomatikong pag-update mula sa loob ng app).",
+  "@premiumCancelDescription": {
+    "description": "プレミアムプランの解約方法の説明",
+    "placeholders": {
+      "storeName": {
+        "type": "String",
+        "example": "App Store"
+      }
+    }
+  },
+  "purchaseErrorRestoreFailed": "Hindi wala pang impormasyon sa pagbili. Mangyaring suriin ang iyong account at subukan muli.",
+  "@purchaseErrorRestoreFailed": {
+    "description": "購入情報の復元に失敗した場合のエラーメッセージ"
+  },
+  "purchaseErrorUserNotFound": "Hindi na matagpuan ang gumagamit. Mangyaring i-restart ang app at subukan muli. Detalye: {message}",
+  "@purchaseErrorUserNotFound": {
+    "description": "ユーザーが見つからない場合のエラーメッセージ",
+    "placeholders": {
+      "message": {
+        "type": "String",
+        "example": "エラーの詳細"
+      }
+    }
+  },
+  "purchaseErrorActivationPending": "Hindi pa tapos ang pag-activate ng pagbabayad. Mangyaring suriin muli pagkatapos ng ilang sandali.",
+  "@purchaseErrorActivationPending": {
+    "description": "課金の有効化が完了していない場合のエラーメッセージ"
+  },
+  "purchaseErrorTimeout": "Nag-timeout. Pakisiyasatin ang iyong koneksyon sa internet at subukan muli. Kung hindi ito malulutas, mangyaring makipag-ugnay sa amin sa pamamagitan ng Mga Setting > Feedback. Detalye: {message}",
+  "@purchaseErrorTimeout": {
+    "description": "購入処理がタイムアウトした場合のエラーメッセージ",
+    "placeholders": {
+      "message": {
+        "type": "String",
+        "example": "エラーの詳細"
+      }
+    }
+  },
+  "purchaseErrorNetworkError": "May mga problema sa koneksyon. Pakisuri ang iyong koneksyon sa internet at subukan muli. Kung hindi ito malulutas, mangyaring makipag-ugnay sa amin sa pamamagitan ng Mga Setting > Tulong. Detalye: {message}",
+  "@purchaseErrorNetworkError": {
+    "description": "ネットワークエラーが発生した場合のエラーメッセージ",
+    "placeholders": {
+      "message": {
+        "type": "String",
+        "example": "エラーの詳細"
+      }
+    }
+  },
+  "sixMonthPlan": "Anim na Buwan na Plano",
+  "@sixMonthPlan": {
+    "description": "6ヶ月プランの表示名"
+  },
+  "premiumContractPeriod": "Ang panahon ng kontrata ay isang buwan mula sa petsa ng pagbili.",
+  "@premiumContractPeriod": {
+    "description": "プレミアムプランの契約期間の説明"
+  },
+  "privacyPolicy": "Patakaran sa Privacy",
+  "@privacyPolicy": {
+    "description": "プライバシーポリシーのリンクテキスト"
+  },
+  "termsOfService": "Mga Tuntunin ng Paggamit",
+  "@termsOfService": {
+    "description": "利用規約のリンクテキスト"
+  },
+  "specifiedCommercialTransactionAct": "TALA NG TUNTUNING PANGKALAKALAN SA ILALIM NG BATA SA MABIBILI",
+  "@specifiedCommercialTransactionAct": {
+    "description": "特定商取引法に基づく表記のリンクテキスト"
+  },
+  "confirmBeforeRegistration": "Mangyaring suriin at mag-rehistro",
+  "@confirmBeforeRegistration": {
+    "description": "各種規約確認を促すメッセージ"
+  },
+  "autoRenewalNotice": "Pagkatapos ng katapusan ng kontrata, ito ay awtomatikong mag-uupdate.",
+  "@autoRenewalNotice": {
+    "description": "自動更新に関する注意事項"
+  },
+  "restorePurchase": "Ang mga naunang bumili dito",
+  "@restorePurchase": {
+    "description": "購入情報の復元リンクのテキスト"
+  },
+  "purchaseRestored": "Naibalik na ang impormasyon sa pagbili.",
+  "@purchaseRestored": {
+    "description": "購入情報の復元が完了した際のメッセージ"
+  },
+  "medicationTimeFollowup": "Pagsusubaybay sa Oras ng Pag-inom",
+  "@medicationTimeFollowup": {
+    "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
+  },
+  "updateRequired": "Kailangan ng pag-update",
+  "@updateRequired": {
+    "description": "強制アップデートが必要な場合のダイアログタイトル"
+  },
+  "updateRequiredMessage": "Pakisama mo ang pinakabagos na update mula sa {storeName}.",
+  "@updateRequiredMessage": {
+    "description": "強制アップデートが必要な場合のダイアログメッセージ",
+    "placeholders": {
+      "storeName": {
+        "type": "String",
+        "example": "App Store"
+      }
+    }
+  },
+  "screenshotMedicationHistoriesMemo": "Kakaingat sa sobrang paghihimbing, naantala ang oras ng pag-inom ng gamot",
+  "@screenshotMedicationHistoriesMemo": {
+    "description": "薬のメモの例"
+  }
+}

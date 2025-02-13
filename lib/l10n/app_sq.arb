@@ -1,0 +1,735 @@
+{
+  "@@locale": "sq",
+  "retry": "Rivendos",
+  "@retry": {
+    "description": "エラーが発生した際やデータの読み込みに失敗した際に、再度処理を実行するためのボタンテキスト"
+  },
+  "save": "Ruaj",
+  "@save": {
+    "description": "フォームやエディタで入力したデータを保存する際に使用するボタンテキスト"
+  },
+  "memo": "Shënim",
+  "@memo": {
+    "description": "服薬記録や日記などで追加情報を入力するためのテキストフィールドのプレースホルダー"
+  },
+  "completed": "Përfunduar",
+  "@completed": {
+    "description": "フォームの入力や設定の変更などの操作が完了した際に使用するボタンテキスト"
+  },
+  "medicineRegistration": "Ekrani i regjistrimit të ilaçeve",
+  "@medicineRegistration": {
+    "description": "お薬の新規登録・編集画面のタイトル"
+  },
+  "medicineName": "Emri i ilaçit",
+  "@medicineName": {
+    "description": "お薬登録フォームでの薬の名前を入力するフィールドのプレースホルダー"
+  },
+  "medicineList": "Lista e ilaçeve",
+  "@medicineList": {
+    "description": "登録されているお薬の一覧を表示する画面のタイトル"
+  },
+  "medicationSchedule": "Grafiku i marrëveshjeve",
+  "@medicationSchedule": {
+    "description": "服用スケジュールのセクションタイトル"
+  },
+  "medicationTime": "Aktivizoni njoftimet gjatë marrjes së ilaçeve",
+  "@medicationTime": {
+    "description": "服用時刻の通知設定を有効にするためのスイッチのラベル"
+  },
+  "medicationTimeDescription": "Dërgon njoftime në bazë të orarit të marrjes",
+  "@medicationTimeDescription": {
+    "description": "服用時刻の通知設定の説明文"
+  },
+  "close": "Mbyll",
+  "@close": {
+    "description": "ダイアログやモーダルを閉じるためのボタンテキスト"
+  },
+  "settings": "Cilësimet",
+  "@settings": {
+    "description": "設定画面のタイトル"
+  },
+  "camera": "Kamera",
+  "@camera": {
+    "description": "カメラを起動するためのメニュー項目"
+  },
+  "photoLibrary": "Biblioteka e fotove",
+  "@photoLibrary": {
+    "description": "フォトライブラリを開くためのメニュー項目"
+  },
+  "medicationHistory": "Historiku i ilaçeve",
+  "@medicationHistory": {
+    "description": "服薬履歴を表示する画面のタイトル"
+  },
+  "noMedicationHistory": "Nuk ka historik të barnave",
+  "@noMedicationHistory": {
+    "description": "服薬履歴が存在しない場合に表示するメッセージ"
+  },
+  "scheduledTime": "Koha e planifikuar",
+  "@scheduledTime": {
+    "description": "服薬予定時刻のラベル"
+  },
+  "recordedTime": "Koha e regjistruar",
+  "@recordedTime": {
+    "description": "実際に服薬を記録した時間のラベル"
+  },
+  "noMemo": "Pa nuk ka shënime",
+  "@noMemo": {
+    "description": "メモが存在しない場合に表示するテキスト"
+  },
+  "premiumPlan": "Plani Premium",
+  "@premiumPlan": {
+    "description": "プレミアムプランの名称"
+  },
+  "premiumFeatureAds": "Reklamat e fshehur",
+  "@premiumFeatureAds": {
+    "description": "プレミアム機能の広告非表示の説明"
+  },
+  "premiumFeatureHistory": "Të gjitha historitë e përdorimit",
+  "@premiumFeatureHistory": {
+    "description": "プレミアム機能の履歴表示の説明"
+  },
+  "premiumRegistrationComplete": "Regjistrimi në Medicalarm Premium përfundoi",
+  "@premiumRegistrationComplete": {
+    "description": "プレミアム登録完了時のタイトル"
+  },
+  "premiumRegistrationThanks": "Faleminderit për regjistrimin tuaj. Të gjitha funksionet tani janë në dispozicion!",
+  "@premiumRegistrationThanks": {
+    "description": "プレミアム登録完了時のメッセージ"
+  },
+  "unknownError": "Ka një gabim të panjohur.",
+  "@unknownError": {
+    "description": "予期せぬエラーが発生した際のエラーメッセージ"
+  },
+  "error": "Ka ndodhi një gabim",
+  "@error": {
+    "description": "一般的なエラーメッセージ"
+  },
+  "unexpectedError": "Ka ndodhi një gabim i papritur",
+  "@unexpectedError": {
+    "description": "予期せぬエラーが発生した際のエラーメッセージ"
+  },
+  "cancel": "Anulo",
+  "@cancel": {
+    "description": "操作をキャンセルするためのボタンテキスト"
+  },
+  "delete": "Fshi",
+  "@delete": {
+    "description": "削除操作を実行するためのボタンテキスト"
+  },
+  "deleteAccount": "Fshij llogarinë",
+  "@deleteAccount": {
+    "description": "アカウント削除ボタンのテキスト"
+  },
+  "deleteAccountConfirm": "Do you want to delete the user information?",
+  "@deleteAccountConfirm": {
+    "description": "アカウント削除確認ダイアログのタイトル"
+  },
+  "deleteAccountMessage": "Kur për të fshirë llogarinë, të gjitha informacionet e përdoruesit do të fshihen.",
+  "@deleteAccountMessage": {
+    "description": "アカウント削除確認ダイアログのメッセージ"
+  },
+  "medicationFrequency": "Frekuenca e përdorimit",
+  "@medicationFrequency": {
+    "description": "服用頻度の設定セクションのタイトル"
+  },
+  "daily": "Cdo ditë",
+  "@daily": {
+    "description": "毎日服用する頻度設定"
+  },
+  "everyXDays": "X ditë",
+  "@everyXDays": {
+    "description": "X日ごとに服用する頻度設定"
+  },
+  "specificWeekdays": "ditë specifike",
+  "@specificWeekdays": {
+    "description": "特定の曜日に服用する頻度設定"
+  },
+  "cycle": "Cikli",
+  "@cycle": {
+    "description": "周期で服用する頻度設定"
+  },
+  "cycleDescription": "Shembuj) 21 ditë marrje/7 ditë pushimi",
+  "@cycleDescription": {
+    "description": "周期での服用頻度の説明文"
+  },
+  "everyXDaysDescription": "p.shp33Dha q.pr.SH.c sh.p.y.m",
+  "@everyXDaysDescription": {
+    "description": "X日ごとの服用頻度の説明文"
+  },
+  "specificWeekdaysDescription": "e premte dhe e mërkurë, e hënë vetëm",
+  "@specificWeekdaysDescription": {
+    "description": "特定の曜日の服用頻度の説明文"
+  },
+  "medicineFormValidationError": "Ju lutem, shkruani emrin dhe orarin e marrjes së ilaçeve",
+  "@medicineFormValidationError": {
+    "description": "お薬登録フォームでの入力バリデーションエラーメッセージ"
+  },
+  "quantity": "Kapaciteti",
+  "@quantity": {
+    "description": "服用量を入力するフィールドのラベル"
+  },
+  "quantityExample": "Shembuj: 1 tabletë, 100mg",
+  "@quantityExample": {
+    "description": "服用量入力フィールドのプレースホルダー"
+  },
+  "medicationStartDate": "Data e fillimit të marrjes",
+  "@medicationStartDate": {
+    "description": "服用開始日を選択するフィールドのラベル"
+  },
+  "otherInformation": "Të tjera",
+  "@otherInformation": {
+    "description": "その他の情報を入力するセクションのタイトル"
+  },
+  "doseReceiver": "Përdoruesi i ilaçeve",
+  "@doseReceiver": {
+    "description": "服用者を選択するフィールドのラベル"
+  },
+  "defaultDoseReceiver": "vetë",
+  "@defaultDoseReceiver": {
+    "description": "デフォルトの服用者名"
+  },
+  "doseReceiverMaxCount": "Numri maksimal i përdoruesve të regjistruar është {count} persona.",
+  "@doseReceiverMaxCount": {
+    "description": "服用者の最大登録数を表示するメッセージ",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "2"
+      }
+    }
+  },
+  "increaseLimitWithPremium": "Rritni kufirin në {count} me planin premium",
+  "@increaseLimitWithPremium": {
+    "description": "プレミアムプランでの上限増加を案内するメッセージ",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "10"
+      }
+    }
+  },
+  "addDoseReceiver": "Shto përdoruesin e barnave",
+  "@addDoseReceiver": {
+    "description": "服用者を追加するボタンのテキスト"
+  },
+  "newDoseReceiver": "Përdorues i ri",
+  "@newDoseReceiver": {
+    "description": "新規追加時のデフォルトの服用者名"
+  },
+  "reloginRequired": "Ju lutem, bëni një rivendosje të hyrjes",
+  "@reloginRequired": {
+    "description": "アカウント削除時に再ログインが必要な場合のダイアログタイトル"
+  },
+  "reloginMessage": "Për të fshirë llogarinë, ju lutemi rikapërcjeleni.",
+  "@reloginMessage": {
+    "description": "アカウント削除時の再ログイン要求メッセージ"
+  },
+  "relogin": "Rikthehu përsëri",
+  "@relogin": {
+    "description": "再ログインを実行するためのボタンテキスト"
+  },
+  "accountDeleted": "Keni fshirë llogarinë",
+  "@accountDeleted": {
+    "description": "アカウント削除完了時のメッセージ"
+  },
+  "confirmExit": "A dëshiron të mbyllësh aplikacionin?",
+  "@confirmExit": {
+    "description": "アプリ終了確認のメッセージ"
+  },
+  "exit": "Mbyll",
+  "@exit": {
+    "description": "アプリを終了するためのボタンテキスト"
+  },
+  "viewFaq": "Shiko FAQ",
+  "@viewFaq": {
+    "description": "FAQページを表示するためのボタンテキスト"
+  },
+  "medicine": "Medikamenti",
+  "@medicine": {
+    "description": "お薬タブのタイトル"
+  },
+  "inquiry": "Kontakti",
+  "@inquiry": {
+    "description": "お問い合わせボタンのテキスト"
+  },
+  "ok": "Mirë",
+  "@ok": {
+    "description": "確認ダイアログのOKボタンのテキスト"
+  },
+  "medicationScheduleLimit": "Programet e përdorimit mund të regjistrohen deri në {count} herë.",
+  "@medicationScheduleLimit": {
+    "description": "服用スケジュールの登録上限を表示するメッセージ",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "3"
+      }
+    }
+  },
+  "increaseMedicationScheduleLimit": "Krijoni kufijtë e orarit të përdorimit në planin e premiumit në {count}",
+  "@increaseMedicationScheduleLimit": {
+    "description": "服用スケジュールの上限をプレミアムプランで増やすことを案内するメッセージ",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "10"
+      }
+    }
+  },
+  "addMedicationSchedule": "Shtoni orarin e marrjes",
+  "@addMedicationSchedule": {
+    "description": "服用スケジュールを追加するボタンのテキスト"
+  },
+  "medicationScheduleNotificationSetting": "Cilësimi i njoftimeve për orarin e marrjes",
+  "@medicationScheduleNotificationSetting": {
+    "description": "服用スケジュールの通知設定画面のタイトル"
+  },
+  "notificationSetting": "Cilësimi i njoftimeve",
+  "@notificationSetting": {
+    "description": "通知設定セクションのタイトル"
+  },
+  "enableFollowupNotification": "Aktivizo njoftimet e ndjekjes",
+  "@enableFollowupNotification": {
+    "description": "フォローアップ通知を有効にするスイッチのラベル"
+  },
+  "followupNotificationDescription": "Nëse nuk regjistroni marrjen e ilaçeve brenda 30 minutave nga njoftimi i parë, do të dërgohet një njoftim ndjekës.",
+  "@followupNotificationDescription": {
+    "description": "フォローアップ通知の説明文"
+  },
+  "enableNotificationInSilentMode": "Njofto edhe kur është në modalitetin e heshtur",
+  "@enableNotificationInSilentMode": {
+    "description": "マナーモード時の通知を有効にするスイッチのラベル"
+  },
+  "silentModeNotificationDescription": "Njoftimet e rëndësishme do të shfaqen në ekranin e bllokimit dhe do të luajnë tingull edhe kur Modaliteti i Përqendrimit është aktiv apo kur pajisja është në heshtje.",
+  "@silentModeNotificationDescription": {
+    "description": "マナーモード時の通知の説明文"
+  },
+  "everyXDaysFormat": "{count} ditë",
+  "@everyXDaysFormat": {
+    "description": "X日ごとの服用頻度を表示する際のフォーマット",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "2"
+      }
+    }
+  },
+  "cycleDaysFormat": "{consecutiveDays} ditë marrjeje/{restDays} ditë pushimi",
+  "@cycleDaysFormat": {
+    "description": "服用周期を表示する際のフォーマット",
+    "placeholders": {
+      "consecutiveDays": {
+        "type": "int",
+        "example": "21"
+      },
+      "restDays": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  },
+  "consecutiveDaysFormat": "{count} ditë të përdorimit",
+  "@consecutiveDaysFormat": {
+    "description": "連続服用日数を表示する際のフォーマット",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "21"
+      }
+    }
+  },
+  "restDaysFormat": "{count} ditë pa medikamente",
+  "@restDaysFormat": {
+    "description": "休薬日数を表示する際のフォーマット",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  },
+  "limitedTimeDiscount": "Tani tani me çmimin e kufizuar mund të përdoret për një kohë të gjatë",
+  "@limitedTimeDiscount": {
+    "description": "プレミアムプランの限定価格キャンペーンを案内するメッセージ"
+  },
+  "monthlyPlan": "Plani mujor",
+  "@monthlyPlan": {
+    "description": "月額プランの名称"
+  },
+  "annualPlan": "Plani i përvitshëm",
+  "@annualPlan": {
+    "description": "年額プランの名称"
+  },
+  "weeklyPlan": "Plani javor",
+  "@weeklyPlan": {
+    "description": "週額プランの名称"
+  },
+  "premiumRequired": "Qasja është e mundur me anë të anëtarësimit në planin premium.",
+  "@premiumRequired": {
+    "description": "プレミアムプラン加入が必要な機能へのアクセス時のメッセージ"
+  },
+  "medication": "Marrja e ilaçeve",
+  "@medication": {
+    "description": "服薬タブのタイトル"
+  },
+  "history": "Historia",
+  "@history": {
+    "description": "履歴タブのタイトル"
+  },
+  "medicineRegistrationLimit": "Numri i regjistrimeve të ilaçeve",
+  "@medicineRegistrationLimit": {
+    "description": "薬の登録数の上限を説明するテキストの一部"
+  },
+  "doseReceiverRegistrationLimit": "Numri i regjistrimeve të përdoruesve të narkotikëve",
+  "@doseReceiverRegistrationLimit": {
+    "description": "服用者の登録数の上限を説明するテキストの一部"
+  },
+  "notificationScheduleLimit": "Numri i orareve të njoftimeve",
+  "@notificationScheduleLimit": {
+    "description": "通知スケジュールの上限を説明するテキストの一部"
+  },
+  "addMedicine": "Shto ilaçin",
+  "@addMedicine": {
+    "description": "お薬を追加するボタンのテキスト"
+  },
+  "medicineMaxCount": "Mundësi për regjistrimin e deri në {count} ilaçe.",
+  "@medicineMaxCount": {
+    "description": "お薬の最大登録数を表示するメッセージ",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "increaseMedicineLimitWithPremium": "Shkalla premium e rrit kufirin në {count}",
+  "@increaseMedicineLimitWithPremium": {
+    "description": "お薬の登録上限をプレミアムプランで増やすことを案内するメッセージ",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "10"
+      }
+    }
+  },
+  "aboutApp": "Për Shkëmbimin e Aplikacionit",
+  "@aboutApp": {
+    "description": "アプリについてのセクションタイトル"
+  },
+  "viewPremiumPlan": "Shiko planin premium",
+  "@viewPremiumPlan": {
+    "description": "プレミアムプランの詳細を表示するためのボタンテキスト"
+  },
+  "cancelSubscriptionInstruction": "Pas blerjes, mund të anullohet rinovimi automatik në cilësimet e llogarisë {storeName} brenda aplikacionit. (Rinovimi automatik nuk mund të anulohet nga brenda aplikacionit.)",
+  "@cancelSubscriptionInstruction": {
+    "description": "自動更新の解約方法の説明",
+    "placeholders": {
+      "storeName": {
+        "type": "String",
+        "example": "App Store"
+      }
+    }
+  },
+  "headache": "dhimbje koke",
+  "@headache": {
+    "description": "症状の選択肢：頭痛"
+  },
+  "stomachache": "dhimbje barku",
+  "@stomachache": {
+    "description": "症状の選択肢：腹痛"
+  },
+  "nausea": "të vjella",
+  "@nausea": {
+    "description": "症状の選択肢：吐き気"
+  },
+  "anemia": "anemi",
+  "@anemia": {
+    "description": "症状の選択肢：貧血"
+  },
+  "diarrhea": "Diarre",
+  "@diarrhea": {
+    "description": "症状の選択肢：下痢"
+  },
+  "constipation": "constipacion",
+  "@constipation": {
+    "description": "症状の選択肢：便秘"
+  },
+  "hotFlash": "djersit",
+  "@hotFlash": {
+    "description": "症状の選択肢：ほてり"
+  },
+  "drowsiness": "Gjumë",
+  "@drowsiness": {
+    "description": "症状の選択肢：眠気"
+  },
+  "backPain": "dhimbje në mes",
+  "@backPain": {
+    "description": "症状の選択肢：腰痛"
+  },
+  "palpitation": "Puls",
+  "@palpitation": {
+    "description": "症状の選択肢：動悸"
+  },
+  "abnormalBleeding": "Gjak të paligjshme",
+  "@abnormalBleeding": {
+    "description": "症状の選択肢：不正出血"
+  },
+  "lossOfAppetite": "mungesë e oreksit",
+  "@lossOfAppetite": {
+    "description": "症状の選択肢：食欲不振"
+  },
+  "chestTightness": "Ndjenja e mbushjes së gjoksit",
+  "@chestTightness": {
+    "description": "症状の選択肢：胸の張り"
+  },
+  "insomnia": "Pagjume",
+  "@insomnia": {
+    "description": "症状の選択肢：不眠"
+  },
+  "monthlyPlanDiscountFormat": "Zbritje prej {percent}% OFF nga plani mujor",
+  "@monthlyPlanDiscountFormat": {
+    "description": "月額プランからの割引率を表示するフォーマット",
+    "placeholders": {
+      "percent": {
+        "type": "int",
+        "example": "50"
+      }
+    }
+  },
+  "purchaseErrorUnknown": "Ka një gabim të panjohur. Ju lutemi provoni përsëri më vonë. Nëse problemi vazhdon, ju lutemi kontaktoni përmes Cilësimeve > Kontakt. Detaje: {message}",
+  "@purchaseErrorUnknown": {
+    "description": "購入時の不明なエラーメッセージ",
+    "placeholders": {
+      "message": {
+        "type": "String",
+        "example": "エラーの詳細"
+      }
+    }
+  },
+  "purchaseErrorStoreProblem": "Ka ndodhi një gabim në {storeName}. Ju lutemi prisni pak dhe provoni përsëri.",
+  "@purchaseErrorStoreProblem": {
+    "description": "ストアでのエラーメッセージ",
+    "placeholders": {
+      "storeName": {
+        "type": "String",
+        "example": "App Store"
+      }
+    }
+  },
+  "purchaseErrorInvalidPayment": "Pagesa dështoi. Ju lutemi kontrolloni nëse mënyra e pagesës është e vlefshme dhe provoni përsëri.",
+  "@purchaseErrorInvalidPayment": {
+    "description": "支払い方法が無効な場合のエラーメッセージ"
+  },
+  "purchaseErrorProductUnavailable": "Plani i synuar aktualisht nuk është në shitje. Ju lutemi, rindizni aplikacionin dhe përpiquni përsëri.",
+  "@purchaseErrorProductUnavailable": {
+    "description": "商品が利用できない場合のエラーメッセージ"
+  },
+  "purchaseErrorAlreadyPurchased": "Keni blerë tashmë planin. Nëse dëshironi të riktheni informacionin e blerjes në këtë pajisje, ju lutemi, nga \"Atu që kanë blerë më parë klikoni këtu\".",
+  "@purchaseErrorAlreadyPurchased": {
+    "description": "すでに購入済みの場合のエラーメッセージ"
+  },
+  "purchaseErrorReceiptInUse": "Të blerë tashmë. Informacioni i blerjes përdoret nga një përdorues tjetër. Ju lutemi kontrolloni {accountName}.",
+  "@purchaseErrorReceiptInUse": {
+    "description": "購入情報が他のユーザーで使用されている場合のエラーメッセージ",
+    "placeholders": {
+      "accountName": {
+        "type": "String",
+        "example": "Apple ID"
+      }
+    }
+  },
+  "purchaseErrorInvalidReceipt": "Informacion i pavlefshme e blerjes. Ju lutemi kontrolloni informacionet e blerjes.",
+  "@purchaseErrorInvalidReceipt": {
+    "description": "購入情報が無効な場合のエラーメッセージ"
+  },
+  "purchaseErrorMissingReceipt": "Nuk ka informacion për blerësin. Ju lutemi provoni të identifikoheni në pajisje me {accountName}.",
+  "@purchaseErrorMissingReceipt": {
+    "description": "購入情報が見つからない場合のエラーメッセージ",
+    "placeholders": {
+      "accountName": {
+        "type": "String",
+        "example": "Apple ID"
+      }
+    }
+  },
+  "purchaseErrorNetwork": "Gjendja e rrjetit është e paqëndrueshme. Ju lutemi kontrolloni statusin e lidhjes dhe provoni përsëri.",
+  "@purchaseErrorNetwork": {
+    "description": "ネットワークエラーの場合のエラーメッセージ"
+  },
+  "purchaseNotAllowed": "Ky kyçja për blerje në këtë pajisje nuk është e lejuar",
+  "@purchaseNotAllowed": {
+    "description": "デバイスでの購入が許可されていない場合のエラーメッセージ"
+  },
+  "purchaseErrorInvalidCredentials": "Blerja dështoi. Ju lutemi provoni përsëri pas disa kohe. Nëse problemi vazhdon, ju lutemi kontaktoni përmes Cilësimeve > Kërkoni për ndihmë. Detajet: {message}",
+  "@purchaseErrorInvalidCredentials": {
+    "description": "認証情報が無効な場合のエラーメッセージ",
+    "placeholders": {
+      "message": {
+        "type": "String",
+        "example": "エラーの詳細"
+      }
+    }
+  },
+  "purchaseErrorUnexpectedBackend": "Aktualisht nuk mund të bëni blerje. Ju lutemi provoni përsëri pas një kohe. Nëse problemi vazhdon, ju lutemi kontaktoni përmes Cilësimeve > Kontaktoni na. Detaje: {message}",
+  "@purchaseErrorUnexpectedBackend": {
+    "description": "バックエンドで予期せぬエラーが発生した場合のエラーメッセージ",
+    "placeholders": {
+      "message": {
+        "type": "String",
+        "example": "エラーの詳細"
+      }
+    }
+  },
+  "purchaseErrorOperationInProgress": "Procesi i blerjes është duke vazhduar veçmas. Ju lutemi prisni pak dhe provoni përsëri.",
+  "@purchaseErrorOperationInProgress": {
+    "description": "購入処理が既に進行中の場合のエラーメッセージ"
+  },
+  "purchaseErrorInsufficientPermissions": "Me keni {accountName} nuk mund të regjistroheni për planin. Ju lutemi kontrolloni informacionin tuaj të pagesës dhe provoni përsëri.",
+  "@purchaseErrorInsufficientPermissions": {
+    "description": "権限が不足している場合のエラーメッセージ",
+    "placeholders": {
+      "accountName": {
+        "type": "String",
+        "example": "Apple ID"
+      }
+    }
+  },
+  "purchaseErrorPaymentPending": "Pagesa është pezulluar. Ju lutemi kontrolloni {storeName} me {accountName} tuaj të identifikuar",
+  "@purchaseErrorPaymentPending": {
+    "description": "支払いが保留中の場合のエラーメッセージ",
+    "placeholders": {
+      "accountName": {
+        "type": "String",
+        "example": "Apple ID"
+      },
+      "storeName": {
+        "type": "String",
+        "example": "App Store"
+      }
+    }
+  },
+  "premiumUserThanksTitle": "Anëtar Premium",
+  "@premiumUserThanksTitle": {
+    "description": "プレミアムユーザーへの感謝を示すタイトル"
+  },
+  "premiumUserThanksMessage": "Faleminderit për përdorimin tuaj. Falë jush, ne jemi në gjendje të vazhdojmë funksionimin e Medicalarm.",
+  "@premiumUserThanksMessage": {
+    "description": "プレミアムユーザーへの感謝メッセージ"
+  },
+  "premiumPricePerMonth": "({price}/muaj)",
+  "@premiumPricePerMonth": {
+    "description": "月額料金の表示フォーマット",
+    "placeholders": {
+      "price": {
+        "type": "String",
+        "example": "¥500"
+      }
+    }
+  },
+  "premiumCancelDescription": "Pas pas blerjes, anulimi automatik i rinovimit mund të bëhet në cilësimet e llogarisë së aplikacionit {storeName}. (Anulimi automatik i rinovimit nuk mund të bëhet nga brenda aplikacionit).",
+  "@premiumCancelDescription": {
+    "description": "プレミアムプランの解約方法の説明",
+    "placeholders": {
+      "storeName": {
+        "type": "String",
+        "example": "App Store"
+      }
+    }
+  },
+  "purchaseErrorRestoreFailed": "Nuk u gjetën informacionet e mëparshme të blerjes. Ju lutem kontrolloni llogarinë tuaj dhe provoni përsëri.",
+  "@purchaseErrorRestoreFailed": {
+    "description": "購入情報の復元に失敗した場合のエラーメッセージ"
+  },
+  "purchaseErrorUserNotFound": "Përdoruesi nuk u gjet. Ju lutemi rinitni aplikacionin dhe provoni përsëri. Detaje: {message}",
+  "@purchaseErrorUserNotFound": {
+    "description": "ユーザーが見つからない場合のエラーメッセージ",
+    "placeholders": {
+      "message": {
+        "type": "String",
+        "example": "エラーの詳細"
+      }
+    }
+  },
+  "purchaseErrorActivationPending": "Aktivizimi i pagesës nuk është përfunduar. Ju lutemi prisni pak kohë dhe kontrolloni përsëri.",
+  "@purchaseErrorActivationPending": {
+    "description": "課金の有効化が完了していない場合のエラーメッセージ"
+  },
+  "purchaseErrorTimeout": "Keni në kohë për të dalë. Kontrolloni ambientin tuaj të komunikimit dhe provoni përsëri. Nëse problemi vazhdon, ju lutemi kontaktoni në Caktimet > Kërkesa. Detajet: {message}",
+  "@purchaseErrorTimeout": {
+    "description": "購入処理がタイムアウトした場合のエラーメッセージ",
+    "placeholders": {
+      "message": {
+        "type": "String",
+        "example": "エラーの詳細"
+      }
+    }
+  },
+  "purchaseErrorNetworkError": "Ka kaqenë lëvizjet. Ju lutemi kontrolloni ambientin e komunikimit dhe provoni përsëri. Nëse problemi vazhdon, ju lutemi kontaktoni përmes cilësimeve > Kërkesë. Detajet: {message}",
+  "@purchaseErrorNetworkError": {
+    "description": "ネットワークエラーが発生した場合のエラーメッセージ",
+    "placeholders": {
+      "message": {
+        "type": "String",
+        "example": "エラーの詳細"
+      }
+    }
+  },
+  "sixMonthPlan": "Plani 6-mujor",
+  "@sixMonthPlan": {
+    "description": "6ヶ月プランの表示名"
+  },
+  "premiumContractPeriod": "Periudha e kontratës është nga data e blerjes deri në 1 muaj.",
+  "@premiumContractPeriod": {
+    "description": "プレミアムプランの契約期間の説明"
+  },
+  "privacyPolicy": "Politika e Privatësisë",
+  "@privacyPolicy": {
+    "description": "プライバシーポリシーのリンクテキスト"
+  },
+  "termsOfService": "Kushtet e përdorimit",
+  "@termsOfService": {
+    "description": "利用規約のリンクテキスト"
+  },
+  "specifiedCommercialTransactionAct": "Shënimi sipas Ligjit për Tregtinë e veçantë",
+  "@specifiedCommercialTransactionAct": {
+    "description": "特定商取引法に基づく表記のリンクテキスト"
+  },
+  "confirmBeforeRegistration": "Ju lutem, kontrolloni dhe regjistrohuni.",
+  "@confirmBeforeRegistration": {
+    "description": "各種規約確認を促すメッセージ"
+  },
+  "autoRenewalNotice": "Pas përfundimin e periudhës së kontratës, rinovimi do të bëhet automatikisht.",
+  "@autoRenewalNotice": {
+    "description": "自動更新に関する注意事項"
+  },
+  "restorePurchase": "Të mëparshmit blerës",
+  "@restorePurchase": {
+    "description": "購入情報の復元リンクのテキスト"
+  },
+  "purchaseRestored": "Informacionet e blerjes janë rikuperuar.",
+  "@purchaseRestored": {
+    "description": "購入情報の復元が完了した際のメッセージ"
+  },
+  "medicationTimeFollowup": "Ndjekja e kohës së marrjes",
+  "@medicationTimeFollowup": {
+    "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
+  },
+  "updateRequired": "Përditësimi është i nevojshëm",
+  "@updateRequired": {
+    "description": "強制アップデートが必要な場合のダイアログタイトル"
+  },
+  "updateRequiredMessage": "Ju lutem përditësoni në versionin më të fundit nga {storeName}.",
+  "@updateRequiredMessage": {
+    "description": "強制アップデートが必要な場合のダイアログメッセージ",
+    "placeholders": {
+      "storeName": {
+        "type": "String",
+        "example": "App Store"
+      }
+    }
+  },
+  "screenshotMedicationHistoriesMemo": "Kam një gjumë të gjatë dhe harrova të merrja ilaçin në kohë.",
+  "@screenshotMedicationHistoriesMemo": {
+    "description": "薬のメモの例"
+  }
+}
