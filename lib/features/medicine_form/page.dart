@@ -50,7 +50,8 @@ class MedicineFormPage extends HookConsumerWidget {
 
     final registerReminderLocalNotification = ref.watch(registerReminderLocalNotificationProvider);
 
-    final focusNode = useFocusNode();
+    final nameFocusNode = useFocusNode();
+    final memoFocusNode = useFocusNode();
 
     Future<void> submit() async {
       final medicine = this.medicine;
@@ -127,7 +128,7 @@ class MedicineFormPage extends HookConsumerWidget {
                                       padding: const EdgeInsets.symmetric(vertical: 16.0),
                                       child: Column(
                                         children: [
-                                          MedicineFormNameTextField(name: name),
+                                          MedicineFormNameTextField(name: name, focusNode: nameFocusNode),
                                           const SizedBox(height: 6),
                                           MedicationFrequencyTile(frequency: frequency),
                                           const SizedBox(height: 6),
@@ -142,18 +143,20 @@ class MedicineFormPage extends HookConsumerWidget {
                                       memo: memo,
                                       memoImageURL: memoImageURL,
                                       doseReceiver: doseReceiver,
+                                      memoFocusNode: memoFocusNode,
                                     ),
                                   ],
                                 ),
                               ),
                             ),
-                            if (focusNode.hasPrimaryFocus) ...[
+                            if (nameFocusNode.hasFocus || memoFocusNode.hasFocus) ...[
                               KeyboardToolbar(
                                 doneButton: AlertButton(
                                   text: L.completed,
                                   onPressed: () async {
                                     analytics.logEvent(name: 'medicine_form_done_button_pressed');
-                                    focusNode.unfocus();
+                                    nameFocusNode.unfocus();
+                                    memoFocusNode.unfocus();
                                   },
                                 ),
                               ),

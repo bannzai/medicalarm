@@ -15,10 +15,12 @@ import 'package:medicalarm/utils/storage/firebase_cloud_storage.dart';
 class MedicineMemoRow extends StatelessWidget {
   final ValueNotifier<String> memo;
   final ValueNotifier<String> memoImageURL;
+  final FocusNode focusNode;
   const MedicineMemoRow({
     super.key,
     required this.memo,
     required this.memoImageURL,
+    required this.focusNode,
   });
 
   @override
@@ -31,6 +33,7 @@ class MedicineMemoRow extends StatelessWidget {
           const SizedBox(width: 8),
           Expanded(
             child: TextFormField(
+              focusNode: focusNode,
               maxLines: 5,
               maxLength: 300,
               initialValue: memo.value,

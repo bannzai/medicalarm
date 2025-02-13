@@ -9,12 +9,14 @@ class MedicineAdditionalInfoSection extends StatelessWidget {
   final ValueNotifier<String> memo;
   final ValueNotifier<String> memoImageURL;
   final ValueNotifier<DoseReceiver?> doseReceiver;
+  final FocusNode memoFocusNode;
 
   const MedicineAdditionalInfoSection({
     super.key,
     required this.memo,
     required this.memoImageURL,
     required this.doseReceiver,
+    required this.memoFocusNode,
   });
 
   @override
@@ -25,7 +27,7 @@ class MedicineAdditionalInfoSection extends StatelessWidget {
       children: [
         MedicineDoseReceiverTile(doseReceiver: doseReceiver),
         const SizedBox(height: 6),
-        MedicineMemoRow(memo: memo, memoImageURL: memoImageURL),
+        MedicineMemoRow(memo: memo, memoImageURL: memoImageURL, focusNode: memoFocusNode),
       ],
     );
   }

@@ -5,15 +5,18 @@ class MedicineFormNameTextField extends StatelessWidget {
   const MedicineFormNameTextField({
     super.key,
     required this.name,
+    required this.focusNode,
   });
 
   final ValueNotifier<String> name;
+  final FocusNode focusNode;
 
   @override
   Widget build(BuildContext context) {
     return Padding(
       padding: const EdgeInsets.only(left: 12.0, right: 12.0),
       child: TextFormField(
+        focusNode: focusNode,
         maxLines: 1,
         maxLength: 50,
         initialValue: name.value,
