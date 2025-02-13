@@ -125,41 +125,41 @@ class MedicineFormPage extends HookConsumerWidget {
                     padding: const EdgeInsets.symmetric(horizontal: 16.0),
                     child: SizedBox(
                       width: double.infinity,
-                      child: ElevatedButton.icon(
-                        onPressed: canSubmit
-                            ? () async {
-                                try {
-                                  if (isLoading.value) {
-                                    return;
-                                  }
-                                  isLoading.value = true;
+                      child: Column(
+                        children: [
+                          if (!canSubmit) ...[
+                            Text(L.medicineFormValidationError, style: const TextStyle(color: TextColor.danger, fontSize: 10.0)),
+                          ],
+                          ElevatedButton.icon(
+                            onPressed: canSubmit
+                                ? () async {
+                                    try {
+                                      if (isLoading.value) {
+                                        return;
+                                      }
+                                      isLoading.value = true;
 
-                                  await submit();
-                                  unawaited(registerReminderLocalNotification());
+                                      await submit();
+                                      unawaited(registerReminderLocalNotification());
 
-                                  if (context.mounted) {
-                                    Navigator.pop(context);
+                                      if (context.mounted) {
+                                        Navigator.pop(context);
+                                      }
+                                    } catch (e) {
+                                      if (context.mounted) {
+                                        showErrorAlert(context, e.toString());
+                                      }
+                                    } finally {
+                                      isLoading.value = false;
+                                    }
                                   }
-                                } catch (e) {
-                                  if (context.mounted) {
-                                    showErrorAlert(context, e.toString());
-                                  }
-                                } finally {
-                                  isLoading.value = false;
-                                }
-                              }
-                            : null,
-                        label: Column(
-                          children: [
-                            if (!canSubmit) ...[
-                              Text(L.medicineFormValidationError, style: const TextStyle(color: TextColor.danger, fontSize: 10.0)),
-                            ],
-                            Loading(
+                                : null,
+                            label: Loading(
                               isLoading: isLoading.value,
                               child: Text(L.save),
                             ),
-                          ],
-                        ),
+                          ),
+                        ],
                       ),
                     ),
                   ),
