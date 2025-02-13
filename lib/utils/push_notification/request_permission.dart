@@ -14,8 +14,9 @@ Future<void> requestNotificationPermissions(RegisterRemotePushNotificationToken 
     await FirebaseMessaging.instance.setForegroundNotificationPresentationOptions(alert: true, badge: true, sound: true);
     await FirebaseMessaging.instance.requestPermission(alert: true, badge: true, sound: true, announcement: true);
     await localNotificationService.requestPermission();
-    final token = await FirebaseMessaging.instance.getToken();
-    registerRemotePushNotificationToken(token);
+    final apnsToken = await FirebaseMessaging.instance.getAPNSToken();
+    final fcmToken = await FirebaseMessaging.instance.getToken();
+    registerRemotePushNotificationToken(fcmToken: fcmToken, apnsToken: apnsToken);
   }
 }
 
@@ -24,9 +25,9 @@ class RegisterRemotePushNotificationToken {
 
   RegisterRemotePushNotificationToken(this.database);
 
-  Future<void> call(String? token) {
+  Future<void> call({required String? fcmToken, required String? apnsToken}) {
     return database.userPrivateRawReference().set(
-      {'fcmToken': token},
+      {'fcmToken': fcmToken, 'apnsToken': apnsToken},
       SetOptions(merge: true),
     );
   }
