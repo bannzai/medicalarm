@@ -122,7 +122,7 @@ class MedicationsPageBody extends HookConsumerWidget {
                 child: SingleChildScrollView(
                   physics: const AlwaysScrollableScrollPhysics(),
                   child: Padding(
-                    padding: const EdgeInsets.symmetric(vertical: 20.0),
+                    padding: const EdgeInsets.only(top: 20.0, bottom: 100),
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.center,
                       children: [
