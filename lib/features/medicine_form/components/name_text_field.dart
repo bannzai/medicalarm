@@ -14,7 +14,7 @@ class MedicineFormNameTextField extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.only(left: 12.0, right: 12.0),
       child: TextFormField(
-        maxLines: 2,
+        maxLines: 1,
         maxLength: 50,
         initialValue: name.value,
         onChanged: (value) {
