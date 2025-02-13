@@ -122,7 +122,7 @@ class MedicationsPageBody extends HookConsumerWidget {
                 child: SingleChildScrollView(
                   physics: const AlwaysScrollableScrollPhysics(),
                   child: Padding(
-                    padding: const EdgeInsets.symmetric(vertical: 20.0),
+                    padding: const EdgeInsets.only(top: 20.0, bottom: 100),
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.center,
                       children: [
@@ -224,9 +224,9 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
     final isDisabled = scheduleRow.isDisabled;
     final isChecked = useState(scheduleRow.medicationHistory != null);
 
-    isChecked.addListener(() {
+    isChecked.addListener(() async {
       if (isChecked.value) {
-        ref.read(medicationHistoryTakeProvider).call(
+        await ref.read(medicationHistoryTakeProvider).call(
               medicationHistory: scheduleRow.medicationHistory,
               scheduledRecordedDate: scheduleRow.date,
               recordedDateTime: scheduleRow.medicationHistory?.recordedDateTime ?? DateTime.now(),
@@ -234,7 +234,7 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
               medicationSchedule: scheduleRow.medicationSchedule,
             );
       } else {
-        ref.watch(medicationHistoryDeleteProvider).call(scheduleRow.medicationHistory!);
+        await ref.read(medicationHistoryDeleteProvider).call(scheduleRow.medicationHistory!);
       }
       unawaited(ref.read(registerReminderLocalNotificationProvider).call());
     });
