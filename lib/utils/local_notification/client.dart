@@ -135,7 +135,7 @@ class RegisterReminderLocalNotification {
   // UseCase:
   // - 薬を追加
   // - 薬を編集
-  // - TODO: 薬を削除
+  // - 薬を削除
   // - 服用記録
   // - 服用キャンセル
   // - TODO: クイックレコード
