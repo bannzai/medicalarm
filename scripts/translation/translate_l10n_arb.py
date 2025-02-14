@@ -3,17 +3,14 @@ import os
 from openai import OpenAI
 
 # Set your OpenAI API key
-# openai.organization = os.environ.get("OPENAI_ORGANIZATION")
-# openai.api_key = os.environ.get("OPENAI_API_KEY")
-# Gemini互換を使ってみる
-# ref: https://ai.google.dev/gemini-api/docs/openai#python
-# model="gpt-4o-mini",
-model = "gemini-2.0-flash"
 
 openai = OpenAI(
     api_key=os.environ.get("GEMINI_API_KEY"),
     base_url="https://generativelanguage.googleapis.com/v1beta/openai/",
 )
+openai.organization = os.environ.get("OPENAI_ORGANIZATION")
+openai.api_key = os.environ.get("OPENAI_API_KEY")
+model="gpt-4o-mini"
 
 # Directory containing .arb files
 arb_directory = os.environ.get("L10N_DIR")
