@@ -36,7 +36,7 @@
   "@medicationTime": {
     "description": "服用時刻の通知設定を有効にするためのスイッチのラベル"
   },
-  "medicationTimeDescription": "{VAL} ఆధారంగా నోటిఫికేషన్‌లను పంపిస్తుంది",
+  "medicationTimeDescription": "ఆధారంగా నోటిఫికేషన్‌లను పంపిస్తుంది",
   "@medicationTimeDescription": {
     "description": "服用時刻の通知設定の説明文"
   },
@@ -136,7 +136,7 @@
   "@daily": {
     "description": "毎日服用する頻度設定"
   },
-  "everyXDays": "{VAL} దినాల వ్యత్యాసం",
+  "everyXDays": "దినాల వ్యత్యాసం",
   "@everyXDays": {
     "description": "X日ごとに服用する頻度設定"
   },
@@ -152,7 +152,7 @@
   "@cycleDescription": {
     "description": "周期での服用頻度の説明文"
   },
-  "everyXDaysDescription": "{VAL} దినాలకో అందులో, {VAL} దినాలకో",
+  "everyXDaysDescription": "దినాలకో అందులో, దినాలకో",
   "@everyXDaysDescription": {
     "description": "X日ごとの服用頻度の説明文"
   },
