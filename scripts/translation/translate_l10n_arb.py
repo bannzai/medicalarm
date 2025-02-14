@@ -4,10 +4,7 @@ from openai import OpenAI
 
 # Set your OpenAI API key
 
-openai = OpenAI(
-    api_key=os.environ.get("GEMINI_API_KEY"),
-    base_url="https://generativelanguage.googleapis.com/v1beta/openai/",
-)
+openai = OpenAI()
 openai.organization = os.environ.get("OPENAI_ORGANIZATION")
 openai.api_key = os.environ.get("OPENAI_API_KEY")
 model="gpt-4o-mini"
