@@ -12,7 +12,7 @@ class LocalNotifications extends StatelessWidget {
       title: const Text('Local Notifications'),
       trailing: const Icon(Icons.chevron_right),
       onTap: () {
-        Navigator.push(context, MaterialPageRoute(builder: (context) => LocalNotificationsPage()));
+        Navigator.push(context, MaterialPageRoute(builder: (context) => const LocalNotificationsPage()));
       },
     );
   }
