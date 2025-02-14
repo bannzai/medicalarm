@@ -19,6 +19,8 @@ class LocalNotifications extends StatelessWidget {
 }
 
 class LocalNotificationsPage extends HookWidget {
+  const LocalNotificationsPage({super.key});
+
   @override
   Widget build(BuildContext context) {
     final pendingLocalNotifications = useState<List<PendingNotificationRequest>>([]);
@@ -31,11 +33,28 @@ class LocalNotificationsPage extends HookWidget {
       return null;
     }, []);
 
-    return ListView.builder(
-      itemBuilder: (context, index) {
-        return Text(pendingLocalNotifications.value[index].id.toString());
-      },
-      itemCount: pendingLocalNotifications.value.length,
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('Local Notifications'),
+      ),
+      body: ListView.builder(
+        itemBuilder: (context, index) {
+          final pendingNotification = pendingLocalNotifications.value[index];
+          return Padding(
+            padding: const EdgeInsets.all(10.0),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(pendingNotification.id.toString()),
+                Text('title: ${pendingNotification.title ?? ''}'),
+                Text('body: ${pendingNotification.body ?? ''}'),
+                Text('payload: ${pendingNotification.payload ?? ''}'),
+              ],
+            ),
+          );
+        },
+        itemCount: pendingLocalNotifications.value.length,
+      ),
     );
   }
 }
