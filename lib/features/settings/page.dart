@@ -2,6 +2,7 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:medicalarm/components/button/inquiry.dart';
 import 'package:medicalarm/components/button/user_delete.dart';
+import 'package:medicalarm/features/settings/components/local_notifications.dart';
 import 'package:medicalarm/features/settings/components/premium_introduction.dart';
 import 'package:medicalarm/features/settings/components/section.dart';
 import 'package:medicalarm/style/color.dart';
@@ -77,6 +78,9 @@ class SettingPage extends StatelessWidget {
             if (kDebugMode) ...[
               const DeleteUserButton(),
             ],
+            const SettingSectionTitle(text: 'DEBUG', children: [
+              LocalNotifications(),
+            ]),
           ],
         ),
       ),
