@@ -97,6 +97,52 @@ langs = [
 skip_keys = ["", " - ", " / ", "- ", ",", ":"]
 
 
+def check_translated_text(ja_value: str, comment: str, target_lang: str) -> bool:
+    """Translate text using OpenAI API."""
+    prompt = (
+        f"iOSアプリの翻訳をチェックしてください。\n"
+        "Flutterで作られています。フォーマットは l10n/*.arb の形式に従います {VAL} のようなプレースホルダーの正しいフォーマットを保ってください。\n"
+        f"言語は {target_lang} に翻訳してください。{target_lang} はISO 639-1言語コードです。\n"
+        f"アプリの説明です。飲み忘れの不安をなくす服薬管理モバイルアプリ・Medicalarmの開発をしています。\n"
+        f"服薬の服用時刻にリマインド、服用履歴の管理・マナーモードでも届く通知機能を兼ね備えたアプリになっています。\n"
+        f"翻訳のインプットは日本語の文章、補助情報を渡します。\n"
+        f"日本語: この文章はすでにアプリ内で使われている翻訳済みの日本語です\n"
+        f"補助情報: 日本語で渡します。こちらはアプリ内でどのように使われているのか、どのようなユースケースで使われているのかを記述したものです。翻訳の参考にしてください\n"
+        f"インプット:\n"
+        f"日本語: {ja_value}\n"
+        f"補助情報: {comment}"
+    )
+
+    try:
+        response = openai.chat.completions.create(
+            model="gpt-4o-mini",
+            messages=[{"role": "user", "content": f"あなたは優秀なモバイルアプリの翻訳者です。{prompt}"}],
+            functions=[
+                {
+                    "name": "check_translated_text",
+                    "description": "Check translated text is correct.",
+                    "parameters": {
+                        "type": "object",
+                        "properties": {
+                            "ok": {
+                                "type": "boolean",
+                                "description": "The translation of the input text in the target language is correct.",
+                            }
+                        },
+                        "required": ["ok"],
+                    },
+                }
+            ],
+            function_call={"name": "check_translated_text"},
+        )
+
+        arguments = json.loads(response.choices[0].message.function_call.arguments)
+        return arguments["ok"]
+    except Exception as e:
+        print(f"Error translating text: {e}")
+        return ""
+
+    
 def translate_text(ja_value: str, comment: str, target_lang: str) -> str:
     """Translate text using OpenAI API."""
     prompt = (
