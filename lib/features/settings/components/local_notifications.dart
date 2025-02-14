@@ -10,6 +10,7 @@ class LocalNotifications extends StatelessWidget {
   Widget build(BuildContext context) {
     return ListTile(
       title: const Text('Local Notifications'),
+      trailing: const Icon(Icons.chevron_right),
       onTap: () {
         Navigator.push(context, MaterialPageRoute(builder: (context) => LocalNotificationsPage()));
       },

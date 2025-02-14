@@ -35,6 +35,7 @@ class SettingPage extends StatelessWidget {
                       fontSize: 16,
                     ),
                   ),
+                  trailing: const Icon(Icons.chevron_right),
                   onTap: () {
                     analytics.logEvent(name: 'did_select_terms_of_service', parameters: {});
                     launchUrl(Uri.parse('https://bannzai.github.io/medicalarm/Terms'), mode: LaunchMode.externalApplication);
@@ -48,6 +49,7 @@ class SettingPage extends StatelessWidget {
                     fontSize: 16,
                   ),
                 ),
+                trailing: const Icon(Icons.chevron_right),
                 onTap: () {
                   analytics.logEvent(name: 'did_select_privacy_policy', parameters: {});
                   launchUrl(Uri.parse('https://bannzai.github.io/medicalarm/PrivacyPolicy'), mode: LaunchMode.externalApplication);
@@ -62,6 +64,7 @@ class SettingPage extends StatelessWidget {
                       fontSize: 16,
                     ),
                   ),
+                  trailing: const Icon(Icons.chevron_right),
                   onTap: () {
                     analytics.logEvent(name: 'did_select_scta', parameters: {});
                     launchUrl(Uri.parse('https://bannzai.github.io/medicalarm/SpecifiedCommercialTransactionAct'),
@@ -70,6 +73,7 @@ class SettingPage extends StatelessWidget {
               const _Divider(),
               ListTile(
                 title: Text(L.inquiry),
+                trailing: const Icon(Icons.chevron_right),
                 onTap: () {
                   inquiry();
                 },
