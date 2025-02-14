@@ -220,23 +220,27 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final totalRecordActionCount = ref.watch(sharedPreferencesProvider).getInt(IntKey.totalRecordActionCount) ?? 0;
+    final sharedPreferences = ref.watch(sharedPreferencesProvider);
+    final totalRecordActionCount = sharedPreferences.getInt(IntKey.totalRecordActionCount) ?? 0;
     final isDisabled = scheduleRow.isDisabled;
     final isChecked = useState(scheduleRow.medicationHistory != null);
+    final medicationHistoryTake = ref.watch(medicationHistoryTakeProvider);
+    final medicationHistoryDelete = ref.watch(medicationHistoryDeleteProvider);
+    final registerReminderLocalNotification = ref.watch(registerReminderLocalNotificationProvider);
 
     isChecked.addListener(() async {
       if (isChecked.value) {
-        await ref.read(medicationHistoryTakeProvider).call(
-              medicationHistory: scheduleRow.medicationHistory,
-              scheduledRecordedDate: scheduleRow.date,
-              recordedDateTime: scheduleRow.medicationHistory?.recordedDateTime ?? DateTime.now(),
-              medicine: scheduleRow.medicine,
-              medicationSchedule: scheduleRow.medicationSchedule,
-            );
+        await medicationHistoryTake.call(
+          medicationHistory: scheduleRow.medicationHistory,
+          scheduledRecordedDate: scheduleRow.date,
+          recordedDateTime: scheduleRow.medicationHistory?.recordedDateTime ?? DateTime.now(),
+          medicine: scheduleRow.medicine,
+          medicationSchedule: scheduleRow.medicationSchedule,
+        );
       } else {
-        await ref.read(medicationHistoryDeleteProvider).call(scheduleRow.medicationHistory!);
+        await medicationHistoryDelete.call(scheduleRow.medicationHistory!);
       }
-      unawaited(ref.read(registerReminderLocalNotificationProvider).call());
+      unawaited(registerReminderLocalNotification.call());
     });
 
     return Column(
@@ -254,7 +258,7 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
                     ? null
                     : (value) {
                         isChecked.value = value ?? false;
-                        ref.read(sharedPreferencesProvider).setInt(IntKey.totalRecordActionCount, totalRecordActionCount + 1);
+                        sharedPreferences.setInt(IntKey.totalRecordActionCount, totalRecordActionCount + 1);
                       },
               ),
             ),
