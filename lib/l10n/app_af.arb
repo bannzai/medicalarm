@@ -152,7 +152,7 @@
   "@cycleDescription": {
     "description": "周期での服用頻度の説明文"
   },
-  "everyXDaysDescription": "Elke {VAL} dae, Elke {VAL} dae",
+  "everyXDaysDescription": "voorbeeld) Elke 2 dae",
   "@everyXDaysDescription": {
     "description": "X日ごとの服用頻度の説明文"
   },
