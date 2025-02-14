@@ -286,7 +286,7 @@ def main():
 
             if key not in target_arb:
                 print(f"Translating key: {key} to {target_lang}")
-                run_translation(base_arb, value, target_lang, 0)
+                translation = run_translation(base_arb, value, target_lang, 0)
 
                 if translation:
                     target_arb[key] = translation
