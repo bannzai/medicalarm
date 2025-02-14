@@ -1,6 +1,6 @@
 import json
 import os
-from openai import OPENAI
+from openai import OpenAI
 
 # Set your OpenAI API key
 # openai.organization = os.environ.get("OPENAI_ORGANIZATION")
@@ -10,7 +10,7 @@ from openai import OPENAI
 # model="gpt-4o-mini",
 model = "gemini-2.0-flash"
 
-openai = OPENAI(
+openai = OpenAI(
     api_key=os.environ.get("GEMINI_API_KEY"),
     base_url="https://generativelanguage.googleapis.com/v1beta/openai/",
 )
@@ -254,7 +254,7 @@ def run_translation(base_arb: dict, value: str, target_lang: str, count: int) ->
     comment = base_arb.get(f"@{key}", {}).get("description", "")
     placeholders = base_arb.get(f"@{key}", {}).get("placeholders", [])
     translation = translate_text(value, comment, target_lang)
-    placeholders_ok = check_use_all_placeholders(value, comment, placeholders, target_lang):
+    placeholders_ok = check_use_all_placeholders(value, comment, placeholders, target_lang)
     translated_text_ok = check_translated_text(value, comment, placeholders, target_lang)
 
     if placeholders_ok and translated_text_ok:
