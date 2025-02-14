@@ -225,6 +225,8 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
     final registerReminderLocalNotification = ref.watch(registerReminderLocalNotificationProvider);
 
     isChecked.addListener(() async {
+      unawaited(registerReminderLocalNotification.call());
+
       if (isChecked.value) {
         await medicationHistoryTake.call(
           medicationHistory: scheduleRow.medicationHistory,
@@ -236,7 +238,6 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
       } else {
         await medicationHistoryDelete.call(scheduleRow.medicationHistory!);
       }
-      unawaited(registerReminderLocalNotification.call());
     });
 
     return Column(

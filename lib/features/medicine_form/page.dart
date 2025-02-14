@@ -98,8 +98,8 @@ class MedicineFormPage extends HookConsumerWidget {
                         final medicineID = medicine?.id;
                         if (medicineID != null) {
                           try {
-                            await ref.read(medicineDeleteProvider).call(medicineID: medicineID);
                             unawaited(ref.read(registerReminderLocalNotificationProvider).call());
+                            await ref.read(medicineDeleteProvider).call(medicineID: medicineID);
                             if (context.mounted) {
                               Navigator.of(context).pop();
                             }

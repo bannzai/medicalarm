@@ -153,11 +153,10 @@ class RegisterReminderLocalNotification {
     await (Future.microtask(() => null), cancelReminderLocalNotification()).wait;
     analytics.debug(name: 'cancel_reminder_notification');
 
-    final medicines = ref.read(activeMedicinesProvider).asData?.valueOrNull;
-    if (medicines == null) {
-      return;
-    }
-    final medicationHistories = ref.read(medicationHistoriesByDateProvider(today())).asData?.valueOrNull ?? [];
+    final (medicines, medicationHistories) = await (
+      ref.read(activeMedicinesProvider.future),
+      ref.read(medicationHistoriesByDateProvider(today()).future),
+    ).wait;
 
     await run(
       medicines: medicines,
