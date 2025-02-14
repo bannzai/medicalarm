@@ -19,13 +19,11 @@ import 'package:medicalarm/features/medicine_form/page.dart';
 import 'package:medicalarm/features/medicines/page.dart';
 import 'package:medicalarm/provider/medication_history.dart';
 import 'package:medicalarm/provider/medicine.dart';
-import 'package:medicalarm/provider/shared_preferences.dart';
 import 'package:medicalarm/style/color.dart';
 import 'package:medicalarm/utils/date_time/date_time_ext.dart';
 import 'package:medicalarm/features/localization/l.dart';
 import 'package:medicalarm/utils/local_notification/client.dart';
 import 'package:medicalarm/utils/purchase/purchase.dart';
-import 'package:medicalarm/utils/shared_preferences/keys.dart';
 import 'package:purchases_flutter/models/customer_info_wrapper.dart';
 
 class MedicationsPage extends HookConsumerWidget {
@@ -220,8 +218,6 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final sharedPreferences = ref.watch(sharedPreferencesProvider);
-    final totalRecordActionCount = sharedPreferences.getInt(IntKey.totalRecordActionCount) ?? 0;
     final isDisabled = scheduleRow.isDisabled;
     final isChecked = useState(scheduleRow.medicationHistory != null);
     final medicationHistoryTake = ref.watch(medicationHistoryTakeProvider);
@@ -258,7 +254,6 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
                     ? null
                     : (value) {
                         isChecked.value = value ?? false;
-                        sharedPreferences.setInt(IntKey.totalRecordActionCount, totalRecordActionCount + 1);
                       },
               ),
             ),
