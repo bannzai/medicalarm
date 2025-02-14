@@ -6,7 +6,7 @@ DATE=$(date '+%Y%m.%d.%H%M%S')
 git fetch origin
 git switch -c release/$DATE origin/main
 
-REVENUE_CAT_PUBLIC_API_KEY=$REVENUE_CAT_PUBLIC_API_KEY_PROD
+# REVENUE_CAT_PUBLIC_API_KEY=$REVENUE_CAT_PUBLIC_API_KEY_PROD
 # FILE_FIREBASE_IOS=$FILE_FIREBASE_IOS_PROD
 
 make secret
