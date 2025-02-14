@@ -1,6 +1,7 @@
-#!/bin/sh
+#!/bin/zsh
 set -eu
 set -o pipefail
+set -x
 
 DATE=$(date '+%Y%m.%d.%H%M%S')
 git fetch origin
