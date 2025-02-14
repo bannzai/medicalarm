@@ -240,7 +240,7 @@ def save_arb_file(file_path: str, data: dict):
     with open(file_path, "w", encoding="utf-8") as file:
         json.dump(data, file, indent=2, ensure_ascii=False)
 
-def run_translation(base_arb: dict, key: str, value: str, target_lang: str, count: int) -> str:
+def run_translation(base_arb: dict, key: str, value: str, target_lang: str, count: int) -> tuple[str, str]:
     """Run translation for a given target language."""
     if count > 4:
         return ""
@@ -255,7 +255,7 @@ def run_translation(base_arb: dict, key: str, value: str, target_lang: str, coun
         return translation
     
     print(f"Translation failed: {translation}. Retry count: {count}, placeholders_ok: {placeholders_ok}, translated_text_ok: {translated_text_ok}")
-    return run_translation(base_arb, value, target_lang, count + 1)
+    return run_translation(base_arb, key, value, target_lang, count + 1), comment
 
 def main():
     # Load the base ARB file (e.g., app_en.arb)
@@ -280,7 +280,7 @@ def main():
 
             if key not in target_arb:
                 print(f"Translating key: {key} to {target_lang}")
-                translation = run_translation(base_arb, key, value, target_lang, 0)
+                translation, comment = run_translation(base_arb, key, value, target_lang, 0)
 
                 if translation:
                     target_arb[key] = translation
