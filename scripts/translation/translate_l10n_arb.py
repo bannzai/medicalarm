@@ -109,7 +109,6 @@ def check_use_all_placeholders(ja_value: str, comment: str, placeholders: list, 
     
     try:
         response = openai.chat.completions.create(  
-            # Gemini互換を使ってみる
             model=model,
             messages=[{"role": "user", "content": f"あなたは優秀なモバイルアプリの翻訳者です。{prompt}"}],
             functions=[
@@ -130,6 +129,8 @@ def check_use_all_placeholders(ja_value: str, comment: str, placeholders: list, 
             ],
             function_call={"name": "check_use_all_placeholders"},
         )
+        arguments = json.loads(response.choices[0].message.function_call.arguments)
+        return arguments["ok"]
     except Exception as e:
         print(f"Error checking use all placeholders: {e}")
         return False
