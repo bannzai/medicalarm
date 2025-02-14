@@ -24,8 +24,6 @@ git commit -m ":up: to $DATE"
 git push origin $(git rev-parse --abbrev-ref HEAD)
 gh pr create --fill --base main --head $(git rev-parse --abbrev-ref HEAD)
 
-git fetch origin
-
 # wait for create pull-request
 sleep 5
 
