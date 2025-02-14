@@ -19,13 +19,11 @@ import 'package:medicalarm/features/medicine_form/page.dart';
 import 'package:medicalarm/features/medicines/page.dart';
 import 'package:medicalarm/provider/medication_history.dart';
 import 'package:medicalarm/provider/medicine.dart';
-import 'package:medicalarm/provider/shared_preferences.dart';
 import 'package:medicalarm/style/color.dart';
 import 'package:medicalarm/utils/date_time/date_time_ext.dart';
 import 'package:medicalarm/features/localization/l.dart';
 import 'package:medicalarm/utils/local_notification/client.dart';
 import 'package:medicalarm/utils/purchase/purchase.dart';
-import 'package:medicalarm/utils/shared_preferences/keys.dart';
 import 'package:purchases_flutter/models/customer_info_wrapper.dart';
 
 class MedicationsPage extends HookConsumerWidget {
@@ -220,23 +218,26 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final totalRecordActionCount = ref.watch(sharedPreferencesProvider).getInt(IntKey.totalRecordActionCount) ?? 0;
     final isDisabled = scheduleRow.isDisabled;
     final isChecked = useState(scheduleRow.medicationHistory != null);
+    final medicationHistoryTake = ref.watch(medicationHistoryTakeProvider);
+    final medicationHistoryDelete = ref.watch(medicationHistoryDeleteProvider);
+    final registerReminderLocalNotification = ref.watch(registerReminderLocalNotificationProvider);
 
     isChecked.addListener(() async {
+      unawaited(registerReminderLocalNotification.call());
+
       if (isChecked.value) {
-        await ref.read(medicationHistoryTakeProvider).call(
-              medicationHistory: scheduleRow.medicationHistory,
-              scheduledRecordedDate: scheduleRow.date,
-              recordedDateTime: scheduleRow.medicationHistory?.recordedDateTime ?? DateTime.now(),
-              medicine: scheduleRow.medicine,
-              medicationSchedule: scheduleRow.medicationSchedule,
-            );
+        await medicationHistoryTake.call(
+          medicationHistory: scheduleRow.medicationHistory,
+          scheduledRecordedDate: scheduleRow.date,
+          recordedDateTime: scheduleRow.medicationHistory?.recordedDateTime ?? DateTime.now(),
+          medicine: scheduleRow.medicine,
+          medicationSchedule: scheduleRow.medicationSchedule,
+        );
       } else {
-        await ref.read(medicationHistoryDeleteProvider).call(scheduleRow.medicationHistory!);
+        await medicationHistoryDelete.call(scheduleRow.medicationHistory!);
       }
-      unawaited(ref.read(registerReminderLocalNotificationProvider).call());
     });
 
     return Column(
@@ -254,7 +255,6 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
                     ? null
                     : (value) {
                         isChecked.value = value ?? false;
-                        ref.read(sharedPreferencesProvider).setInt(IntKey.totalRecordActionCount, totalRecordActionCount + 1);
                       },
               ),
             ),

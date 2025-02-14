@@ -6,6 +6,4 @@ extension StringKey on String {
 
 extension ReleaseNoteKey on String {}
 
-extension IntKey on String {
-  static const String totalRecordActionCount = 'totalRecordActionCount';
-}
+extension IntKey on String {}

@@ -135,7 +135,7 @@ class RegisterReminderLocalNotification {
   // UseCase:
   // - 薬を追加
   // - 薬を編集
-  // - TODO: 薬を削除
+  // - 薬を削除
   // - 服用記録
   // - 服用キャンセル
   // - TODO: クイックレコード
@@ -153,11 +153,10 @@ class RegisterReminderLocalNotification {
     await (Future.microtask(() => null), cancelReminderLocalNotification()).wait;
     analytics.debug(name: 'cancel_reminder_notification');
 
-    final medicines = ref.read(activeMedicinesProvider).asData?.valueOrNull;
-    if (medicines == null) {
-      return;
-    }
-    final medicationHistories = ref.read(medicationHistoriesByDateProvider(today())).asData?.valueOrNull ?? [];
+    final (medicines, medicationHistories) = await (
+      ref.read(activeMedicinesProvider.future),
+      ref.read(medicationHistoriesByDateProvider(today()).future),
+    ).wait;
 
     await run(
       medicines: medicines,
