@@ -49,6 +49,7 @@ class LocalNotificationsPage extends HookWidget {
                 Text('title: ${pendingNotification.title ?? ''}'),
                 Text('body: ${pendingNotification.body ?? ''}'),
                 Text('payload: ${pendingNotification.payload ?? ''}'),
+                const Divider(),
               ],
             ),
           );
