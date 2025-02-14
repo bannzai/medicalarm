@@ -1,10 +1,19 @@
 import json
 import os
-import openai
+from openai import OPENAI
 
 # Set your OpenAI API key
-openai.organization = os.environ.get("OPENAI_ORGANIZATION")
-openai.api_key = os.environ.get("OPENAI_API_KEY")
+# openai.organization = os.environ.get("OPENAI_ORGANIZATION")
+# openai.api_key = os.environ.get("OPENAI_API_KEY")
+# Gemini互換を使ってみる
+# ref: https://ai.google.dev/gemini-api/docs/openai#python
+# model="gpt-4o-mini",
+model = "gemini-2.0-flash"
+
+openai = OPENAI(
+    api_key=os.environ.get("GEMINI_API_KEY"),
+    base_url="https://generativelanguage.googleapis.com/v1beta/openai/",
+)
 
 # Directory containing .arb files
 arb_directory = os.environ.get("L10N_DIR")
@@ -106,7 +115,8 @@ def check_use_all_placeholders(ja_value: str, comment: str, placeholders: list, 
     
     try:
         response = openai.chat.completions.create(  
-            model="gpt-4o-mini",
+            # Gemini互換を使ってみる
+            model=model,
             messages=[{"role": "user", "content": f"あなたは優秀なモバイルアプリの翻訳者です。{prompt}"}],
             functions=[
                 {
@@ -149,7 +159,7 @@ def check_translated_text(ja_value: str, comment: str, placeholders: list, targe
 
     try:
         response = openai.chat.completions.create(
-            model="gpt-4o-mini",
+            model=model,
             messages=[{"role": "user", "content": f"あなたは優秀なモバイルアプリの翻訳者です。{prompt}"}],
             functions=[
                 {
@@ -195,7 +205,7 @@ def translate_text(ja_value: str, comment: str, target_lang: str) -> str:
 
     try:
         response = openai.chat.completions.create(
-            model="gpt-4o-mini",
+            model=model,
             messages=[
                 {"role": "user", "content": f"あなたは優秀なモバイルアプリの翻訳者です。{prompt}"},
             ],
