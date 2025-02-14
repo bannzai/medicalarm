@@ -96,12 +96,6 @@ class LocalNotificationService {
     final pendingNotifications = await plugin.pendingNotificationRequests();
     return pendingNotifications.where((element) => element.id - reminderNotificationIdentifierOffset > 0).toList();
   }
-
-  // iOSではgetPendingNotificationRequestsWithCompletionHandlerを実行しているだけなのでおそらくエラーは発生しない
-  Future<List<PendingNotificationRequest>> pendingNewPillSheetNotifications() async {
-    final pendingNotifications = await plugin.pendingNotificationRequests();
-    return pendingNotifications.where((element) => element.id == newPillSheetNotificationIdentifier).toList();
-  }
 }
 
 // 必要な状態が全て揃ったら(AsyncData)の時のみ値を返す。そうじゃない場合はnullを返す
