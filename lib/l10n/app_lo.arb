@@ -92,9 +92,7 @@
   "@premiumRegistrationComplete": {
     "description": "プレミアム登録完了時のタイトル"
   },
-  "premiumRegistrationThanks": {
-    "lo": "ຂອບໃຈສໍາລັບການລົງລຽງຂອງທ່ານ。ທຸກຟັງຊັນຖືກໃຊ້ງານແລ້ວ! "
-  },
+  "premiumRegistrationThanks": "ຂອບໃຈສໍາລັບການລົງລຽງຂອງທ່ານ。ທຸກຟັງຊັນຖືກໃຊ້ງານແລ້ວ! ",
   "@premiumRegistrationThanks": {
     "description": "プレミアム登録完了時のメッセージ"
   },
@@ -138,7 +136,7 @@
   "@daily": {
     "description": "毎日服用する頻度設定"
   },
-  "everyXDays": "{VAL} ມື້",
+  "everyXDays": "例) 2 ມື້",
   "@everyXDays": {
     "description": "X日ごとに服用する頻度設定"
   },
@@ -422,7 +420,7 @@
   "@viewPremiumPlan": {
     "description": "プレミアムプランの詳細を表示するためのボタンテキスト"
   },
-  "cancelSubscriptionInstruction": "ຄວາມຮູ້ສຶກນິຍົມຂອງຜູ້ບໍລິສັດແລະຄັດລອກພອນ",
+  "cancelSubscriptionInstruction": "購入後、自動更新の解約は{storeName}アプリのアカウント設定で行えます。(アプリ内から自動更新の解約は行なえません)。",
   "@cancelSubscriptionInstruction": {
     "description": "自動更新の解約方法の説明",
     "placeholders": {

@@ -136,7 +136,7 @@
   "@daily": {
     "description": "毎日服用する頻度設定"
   },
-  "everyXDays": "{VAL} ቀን ባይሆን ወይም ማህበራዊ ሠርተር አላዊ ነን እገባ፣ ስለዚያ እንግዲት ይቆይ",
+  "everyXDays": "ቀን ባይሆን ወይም ማህበራዊ ሠርተር አላዊ ነን እገባ፣ ስለዚያ እንግዲት ይቆይ",
   "@everyXDays": {
     "description": "X日ごとに服用する頻度設定"
   },
@@ -376,7 +376,7 @@
   "@history": {
     "description": "履歴タブのタイトル"
   },
-  "medicineRegistrationLimit": "{VAL} የመድኃኒት ተመዝግቦች",
+  "medicineRegistrationLimit": "የመድኃኒት ተመዝግቦች",
   "@medicineRegistrationLimit": {
     "description": "薬の登録数の上限を説明するテキストの一部"
   },
@@ -664,7 +664,7 @@
       }
     }
   },
-  "purchaseErrorNetworkError": "የመረጃ አንቀጽ አልተወሰነም። እባኮትን የመረጃ አቅርቦትን እና ይከፈቱ ይዞታ ደንበኞች ወደ ሌላ በኩል ይመለከቱ። እባኮትን በአይነተመአፍ የፈረሱበት ወይም በመሳሪያ መቀመጥ ቢሆን እባኮትን ይምረጡ። ካለ የሚቀመጡ የድምፅ ዝርዝር ለማህበረሰቡ ወንድም ንዑስ ዝይኔር እና ዝይኔር ይቾክ ይመካዝነዋ ወመን ዕΓιαመሮይዮዮስ።",
+  "purchaseErrorNetworkError": "የመረጃ መስመር ችግር አለ። እባኮትን የመረጃ ሁኔታዎን ያረጋግጡ እና እንደገና ይሞክሩ። አልተፈታም ከሆነ በቅንብር > ጥያቄ ይገኙ። ዝርዝር: {message}",
   "@purchaseErrorNetworkError": {
     "description": "ネットワークエラーが発生した場合のエラーメッセージ",
     "placeholders": {

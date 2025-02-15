@@ -136,7 +136,7 @@
   "@daily": {
     "description": "毎日服用する頻度設定"
   },
-  "everyXDays": "{VAL} ദിനം마다",
+  "everyXDays": "ദിനം마다",
   "@everyXDays": {
     "description": "X日ごとに服用する頻度設定"
   },

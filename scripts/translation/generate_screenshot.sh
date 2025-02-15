@@ -14,4 +14,6 @@ mkdir -p $GENERATE_SCREENSHOT_ARTIFACT
 # set -e はしない。テストが失敗しても継続して欲しいから
 set +e
 flutter drive --driver=test_driver/screenshot_test.dart --target=integration_test/screenshot_medications_test.dart --device-id=$IPHONE_SIMULATOR_DEVICE_ID
+flutter drive --driver=test_driver/screenshot_test.dart --target=integration_test/screenshot_medication_histories_test.dart --device-id=$IPHONE_SIMULATOR_DEVICE_ID
+flutter drive --driver=test_driver/screenshot_test.dart --target=integration_test/screenshot_medicine_schedule_notification_form_test.dart --device-id=$IPHONE_SIMULATOR_DEVICE_ID
 set -e

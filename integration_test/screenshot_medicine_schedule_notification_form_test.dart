@@ -9,13 +9,13 @@ import 'package:medicalarm/provider/shared_preferences.dart';
 import 'package:medicalarm/style/color.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-import '../lib/screenshot/screenshot_medicine_schedule_notification_form.dart';
+import 'package:medicalarm/screenshot/screenshot_medicine_schedule_notification_form.dart';
 
 void main() {
   final binding = IntegrationTestWidgetsFlutterBinding.ensureInitialized();
 
   group('end-to-end test', () {
-    final locales = AppLocalizations.supportedLocales;
+    const locales = AppLocalizations.supportedLocales;
     for (final locale in locales) {
       testWidgets('screenshot notification setting $locale', (tester) async {
         debugPrint('Intl.defaultLocale: ${Intl.defaultLocale}, locale.languageCode: ${locale.languageCode}');

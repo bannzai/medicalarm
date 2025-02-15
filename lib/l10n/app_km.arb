@@ -1,6 +1,6 @@
 {
   "@@locale": "km",
-  "retry": "សាកល្បងឡើងវិញ",
+  "retry": "ព្យាយាមម្តងទៀត",
   "@retry": {
     "description": "エラーが発生した際やデータの読み込みに失敗した際に、再度処理を実行するためのボタンテキスト"
   },
@@ -12,11 +12,11 @@
   "@memo": {
     "description": "服薬記録や日記などで追加情報を入力するためのテキストフィールドのプレースホルダー"
   },
-  "completed": "រៀបចំ",
+  "completed": "បញ្ចប់",
   "@completed": {
     "description": "フォームの入力や設定の変更などの操作が完了した際に使用するボタンテキスト"
   },
-  "medicineRegistration": "កំណត់រូបឱសថ",
+  "medicineRegistration": "ក៏ប៉ុន្តែពេលដែលអ្នកប្រើប្រាស់បញ្ជូលព័ត៌មានអំពីអំពីថ្នាំ និងតើត្រូវកំណត់ពេលវេលាដើម្បីផ្តល់ការព្រមានសំរាប់ពេលដែលគេត្រូវការទទួលថ្នាំ ឬក៏ពេលដែលគេព្យាយាមកែប្រែព័ត៌មានអំពីថ្នាំមួយ ឬក៏អាចដោះសោឡើងវិញតាមការដែលគេចង់បាន។",
   "@medicineRegistration": {
     "description": "お薬の新規登録・編集画面のタイトル"
   },
@@ -28,15 +28,15 @@
   "@medicineList": {
     "description": "登録されているお薬の一覧を表示する画面のタイトル"
   },
-  "medicationSchedule": "កាលវិភាគស្រូបចូល",
+  "medicationSchedule": "កាលវិភាគប្រើថ្នាំ",
   "@medicationSchedule": {
     "description": "服用スケジュールのセクションタイトル"
   },
-  "medicationTime": "បើកការជូនដំណឹងពេលយកថ្នាំ",
+  "medicationTime": "បិទសិទ្ធិការជូនដំណឹងពេលដែលអ្នកទទួលថ្នាំ",
   "@medicationTime": {
     "description": "服用時刻の通知設定を有効にするためのスイッチのラベル"
   },
-  "medicationTimeDescription": "នឹងផ្ញើសារជូនដល់អ្នកនៅពេលវេលាដែលត្រូវធ្វើមិញ",
+  "medicationTimeDescription": "វាគ្មិននឹងបញ្ជូនការជូនដំណឹងដោយផ្អែកលើពេលវេលាព្យួរ",
   "@medicationTimeDescription": {
     "description": "服用時刻の通知設定の説明文"
   },
@@ -48,7 +48,7 @@
   "@settings": {
     "description": "設定画面のタイトル"
   },
-  "camera": "កាមេរ៉ា",
+  "camera": "កាមերា",
   "@camera": {
     "description": "カメラを起動するためのメニュー項目"
   },
@@ -56,55 +56,55 @@
   "@photoLibrary": {
     "description": "フォトライブラリを開くためのメニュー項目"
   },
-  "medicationHistory": "ប្រវត្តិផលប៉ុនប៉ង",
+  "medicationHistory": "ប្រវត្តិការបរិច្ឆេទ",
   "@medicationHistory": {
     "description": "服薬履歴を表示する画面のタイトル"
   },
-  "noMedicationHistory": "មិនមានប្រវត្តិការប្រើប្រាស់នូវថ្នាំសោះ",
+  "noMedicationHistory": "មិនមាន​ប្រវត្តិ​ការ​ប្រើថ្នាំ",
   "@noMedicationHistory": {
     "description": "服薬履歴が存在しない場合に表示するメッセージ"
   },
-  "scheduledTime": "ពេលវេលាទៅវិញ",
+  "scheduledTime": "កំណត់ពេលវេលា",
   "@scheduledTime": {
     "description": "服薬予定時刻のラベル"
   },
-  "recordedTime": "ម៉ោងកំណត់",
+  "recordedTime": "ពេលវេលាចុះកំណត់",
   "@recordedTime": {
     "description": "実際に服薬を記録した時間のラベル"
   },
-  "noMemo": "គ្មានមេមូរ",
+  "noMemo": "គ្មានកំណត់ចំណាំ",
   "@noMemo": {
     "description": "メモが存在しない場合に表示するテキスト"
   },
-  "premiumPlan": "ផែនការព្រីមៀម",
+  "premiumPlan": "ផ្លង់ព្រីមៀម",
   "@premiumPlan": {
     "description": "プレミアムプランの名称"
   },
-  "premiumFeatureAds": "ការបង្ហាញយើងឈប់ប្រើគេហទំព័រ",
+  "premiumFeatureAds": "ការលាក់ពាណិជ្ជកម្ម",
   "@premiumFeatureAds": {
     "description": "プレミアム機能の広告非表示の説明"
   },
-  "premiumFeatureHistory": "បង្ហាញប្រវត្តិការប្រើប្រាស់ទាំងអស់",
+  "premiumFeatureHistory": "បង្ហាញប្រវត្តិគ្រោះថ្នាក់អ្នកទាំងអស់",
   "@premiumFeatureHistory": {
     "description": "プレミアム機能の履歴表示の説明"
   },
-  "premiumRegistrationComplete": "ការចុះឈ្មោះ Medicalarm Premium បានសម្រេច",
+  "premiumRegistrationComplete": "ការចុះបញ្ជីប្រើប្រាស់ Medicalarm បានបញ្ចប់เรียบร้อย",
   "@premiumRegistrationComplete": {
     "description": "プレミアム登録完了時のタイトル"
   },
-  "premiumRegistrationThanks": "សូមអរគុណចំពោះការចុះបញ្ជីរបស់លោកអ្នក។\nសមត្ថភាពទាំងអស់ត្រូវបានបើកអឡឹរ!",
+  "premiumRegistrationThanks": "អរគុណសម្រាប់ការចុះបញ្ជីរបស់អ្នក។\nគ្រប់មុខងារបានចាប់ផ្តើមប្រើប្រាស់បាន។",
   "@premiumRegistrationThanks": {
     "description": "プレミアム登録完了時のメッセージ"
   },
-  "unknownError": "មានកំហុសមិនច្បាស់បានកើតឡើង",
+  "unknownError": "មានកំហុសមិនច្បាស់មួយកើតឡើង",
   "@unknownError": {
     "description": "予期せぬエラーが発生した際のエラーメッセージ"
   },
-  "error": "កំហុសមួយត្រូវបានកើតឡើង",
+  "error": "មិនមានកំហុសកើតឡើង។",
   "@error": {
     "description": "一般的なエラーメッセージ"
   },
-  "unexpectedError": "មានកំហុសមិនអុីទិចដែលបានកើតឡើង",
+  "unexpectedError": "មានកំហុសមិនគួរ​ឱ្យ​រំពឹងពីមុន។",
   "@unexpectedError": {
     "description": "予期せぬエラーが発生した際のエラーメッセージ"
   },
@@ -112,23 +112,23 @@
   "@cancel": {
     "description": "操作をキャンセルするためのボタンテキスト"
   },
-  "delete": "លុបឬស",
+  "delete": "លុបចេញ",
   "@delete": {
     "description": "削除操作を実行するためのボタンテキスト"
   },
-  "deleteAccount": "លុបគណនី",
+  "deleteAccount": " អ្នកត្រូវតែលុបគណនី",
   "@deleteAccount": {
     "description": "アカウント削除ボタンのテキスト"
   },
-  "deleteAccountConfirm": "លុបព័ត៌មានអ្នកប្រើ",
+  "deleteAccountConfirm": "លុបព័ត៌មានអ្នកប្រើប្រាស់",
   "@deleteAccountConfirm": {
     "description": "アカウント削除確認ダイアログのタイトル"
   },
-  "deleteAccountMessage": "ការលុបគណនីនឹងលុបព័ត៌មានអ្នកប្រើប្រាស់ទាំងអស់។",
+  "deleteAccountMessage": "បើអ្នកលុបគណនី ព័ត៌មានអ្នកប្រើទាំងអស់នឹងត្រូវបានលុបចេញ។",
   "@deleteAccountMessage": {
     "description": "アカウント削除確認ダイアログのメッセージ"
   },
-  "medicationFrequency": "빈도 복용",
+  "medicationFrequency": "ចំនួនប្រចាំថ្ងៃ",
   "@medicationFrequency": {
     "description": "服用頻度の設定セクションのタイトル"
   },
@@ -136,51 +136,51 @@
   "@daily": {
     "description": "毎日服用する頻度設定"
   },
-  "everyXDays": "{VAL} ថ្ងៃជា",
+  "everyXDays": "ថ្ងៃមួយ",
   "@everyXDays": {
     "description": "X日ごとに服用する頻度設定"
   },
-  "specificWeekdays": "ថ្ងៃជាក់លាក់",
+  "specificWeekdays": "ថ្ងៃចascus",
   "@specificWeekdays": {
     "description": "特定の曜日に服用する頻度設定"
   },
-  "cycle": "វគ្គ",
+  "cycle": "ព្រិល",
   "@cycle": {
     "description": "周期で服用する頻度設定"
   },
-  "cycleDescription": "គំរូ) ២១​ថ្ងៃ​ការស៊ីយ៉ាង/ ៧​ថ្ងៃ​សម្រាក",
+  "cycleDescription": "ករណី) 21 ថ្ងៃសាកយ៉ាង/7 ថ្ងៃឈប់សាក",
   "@cycleDescription": {
     "description": "周期での服用頻度の説明文"
   },
-  "everyXDaysDescription": "រយៈពេល 2 ថ្ងៃ ទី 3 ថ្ងៃ",
+  "everyXDaysDescription": "គំរូ) រៀងរាល់ 2 ថ្ងៃ រៀងរាល់ 3 ថ្ងៃ",
   "@everyXDaysDescription": {
     "description": "X日ごとの服用頻度の説明文"
   },
-  "specificWeekdaysDescription": "ឧទាហរណ៍) ថ្ងៃច័ន្ទតែ, ថ្ងៃពុធ និង ថ្ងៃសុក្រ",
+  "specificWeekdaysDescription": "គំរូ) ថ្ងៃច័ន្ទតែមួយ, ថ្ងៃពុធ និង​ថ្ងៃសុក្រ",
   "@specificWeekdaysDescription": {
     "description": "特定の曜日の服用頻度の説明文"
   },
-  "medicineFormValidationError": "សូមបញ្ចូលឈ្មោះ និងកាលវិភាគប្រើប្រាស់",
+  "medicineFormValidationError": "សូមបញ្ចូលឈ្មោះនិងកាលវិភាគការបរិភោគ",
   "@medicineFormValidationError": {
     "description": "お薬登録フォームでの入力バリデーションエラーメッセージ"
   },
-  "quantity": "សមត្ថភាព",
+  "quantity": "កម្រិត",
   "@quantity": {
     "description": "服用量を入力するフィールドのラベル"
   },
-  "quantityExample": "ដូចជា: ១គ្រាប់, ១០០មិកក្រាម",
+  "quantityExample": "ឧត្តមភាព: ១ គ្រាប់, ១០០ មីលីក្រាម",
   "@quantityExample": {
     "description": "服用量入力フィールドのプレースホルダー"
   },
-  "medicationStartDate": "ថ្ងៃចាប់ផ្តើមសម្រាប់ការបរិច្ឆេទការប្រើប្រាស់",
+  "medicationStartDate": "ថ្ងៃចាប់ផ្តើមអាហារព្យាបាល",
   "@medicationStartDate": {
     "description": "服用開始日を選択するフィールドのラベル"
   },
-  "otherInformation": "ចំណែការពិពណ៌នាផ្សេងទៀត",
+  "otherInformation": "អ្វីផ្សេងទៀត",
   "@otherInformation": {
     "description": "その他の情報を入力するセクションのタイトル"
   },
-  "doseReceiver": "អ្នកប្រើប្រាស់ยา",
+  "doseReceiver": "អ្នកប្រើប្រាស់",
   "@doseReceiver": {
     "description": "服用者を選択するフィールドのラベル"
   },
@@ -188,7 +188,7 @@
   "@defaultDoseReceiver": {
     "description": "デフォルトの服用者名"
   },
-  "doseReceiverMaxCount": "អ្នកអាចបន្ថែមអ្នកប្រើប្រាស់បានចំនួនអmaks{count}នាក់",
+  "doseReceiverMaxCount": "អ្នកអាចចុះបញ្ជីអ្នកឈានមុខបានអតិបរិមា {count} នាក់",
   "@doseReceiverMaxCount": {
     "description": "服用者の最大登録数を表示するメッセージ",
     "placeholders": {
@@ -198,7 +198,7 @@
       }
     }
   },
-  "increaseLimitWithPremium": "បង្កើនដែនដាក់នៅក្នុងផែនការបៀវខ្ពស់ទៅភាពអតិថិជន {count}",
+  "increaseLimitWithPremium": "ជំរុញកំណត់បន្ទាន់នៃការប្រាកដថាលេខអតិបរិមាឡើងទៅ{count}ជាមួយផែនការព្រីម្យូម",
   "@increaseLimitWithPremium": {
     "description": "プレミアムプランでの上限増加を案内するメッセージ",
     "placeholders": {
@@ -208,31 +208,31 @@
       }
     }
   },
-  "addDoseReceiver": "បន្ថែមអ្នកបរិភោគ",
+  "addDoseReceiver": "បន្ថែមអ្នកប្រើប្រាស់",
   "@addDoseReceiver": {
     "description": "服用者を追加するボタンのテキスト"
   },
-  "newDoseReceiver": "អ្នកប្រើប្រាស់ថ្មី",
+  "newDoseReceiver": "អ្នកប្រើរៀបចំថ្មី",
   "@newDoseReceiver": {
     "description": "新規追加時のデフォルトの服用者名"
   },
-  "reloginRequired": "សូមចូលប្រើពេលម្ដងទៀត",
+  "reloginRequired": "សូមមកចូលឡើយ",
   "@reloginRequired": {
     "description": "アカウント削除時に再ログインが必要な場合のダイアログタイトル"
   },
-  "reloginMessage": "សម្រាប់ការលុបគណនី សូមចូលឡើងវិញ។",
+  "reloginMessage": "ដើម្បីលុបគណនី សូមចូលឡើងវិញ។",
   "@reloginMessage": {
     "description": "アカウント削除時の再ログイン要求メッセージ"
   },
-  "relogin": "ចុចចូលឡើងវិញ",
+  "relogin": "ចូលឡើងវិញ",
   "@relogin": {
     "description": "再ログインを実行するためのボタンテキスト"
   },
-  "accountDeleted": "បានលុបគណនីเรียบร้อยแล้ว",
+  "accountDeleted": "គណនីត្រូវបានលុបออกហើយ",
   "@accountDeleted": {
     "description": "アカウント削除完了時のメッセージ"
   },
-  "confirmExit": "តើអ្នកចង់បិទកម្មវិធីមែនទេ?",
+  "confirmExit": "តើអ្នកចង់បិទកម្មវិធីដែរឬទេ?",
   "@confirmExit": {
     "description": "アプリ終了確認のメッセージ"
   },
@@ -240,23 +240,23 @@
   "@exit": {
     "description": "アプリを終了するためのボタンテキスト"
   },
-  "viewFaq": "មើលសំនួរពាណិជ្ជកម្ម",
+  "viewFaq": "មើលសំណួរពេលឆ្ងល់",
   "@viewFaq": {
     "description": "FAQページを表示するためのボタンテキスト"
   },
-  "medicine": "គ្រាប់ថ្នាំ",
+  "medicine": "ថ្នាំ",
   "@medicine": {
     "description": "お薬タブのタイトル"
   },
-  "inquiry": "សេចក្ដីស្នើសុំ",
+  "inquiry": "ទាក់ទង",
   "@inquiry": {
     "description": "お問い合わせボタンのテキスト"
   },
-  "ok": "អរុណ​សួស្តី",
+  "ok": "យល់ព្រម",
   "@ok": {
     "description": "確認ダイアログのOKボタンのテキスト"
   },
-  "medicationScheduleLimit": "អ្នកអាចកត់ត្រា(schedule) សម្រាប់ការទទួលថ្នាំបានចំនួន{count}។",
+  "medicationScheduleLimit": "អ្នកអាចចុះបញ្ជីកម្មវិធីប្រើប្រាស់បានដល់{count}។",
   "@medicationScheduleLimit": {
     "description": "服用スケジュールの登録上限を表示するメッセージ",
     "placeholders": {
@@ -266,7 +266,7 @@
       }
     }
   },
-  "increaseMedicationScheduleLimit": "បន្ថែមកំណត់អតិបរមាឱ្យបាន{count}ក្នុងផែនការផremium",
+  "increaseMedicationScheduleLimit": "បន្ថែមកំណត់ឱ្យកើនឡើងជាង {count} ក្នុងផែនទីពាណិជ្ជកម្ម",
   "@increaseMedicationScheduleLimit": {
     "description": "服用スケジュールの上限をプレミアムプランで増やすことを案内するメッセージ",
     "placeholders": {
@@ -276,35 +276,31 @@
       }
     }
   },
-  "addMedicationSchedule": "បន្ថែមកាសពេលវេលាសម្រាប់ព្យាបាល",
+  "addMedicationSchedule": "ប្តូរពេលវេលាសម្រាប់ការទទួល",
   "@addMedicationSchedule": {
     "description": "服用スケジュールを追加するボタンのテキスト"
   },
-  "medicationScheduleNotificationSetting": "ការកំណត់ការជូនដំណឹងពីកាលវិភាគការប្រើប្រាស់",
+  "medicationScheduleNotificationSetting": "ការកំណត់ការជូនដំណឹងកាលវិភាគការទទួលยา",
   "@medicationScheduleNotificationSetting": {
     "description": "服用スケジュールの通知設定画面のタイトル"
   },
-  "notificationSetting": "ការកំណត់សេចក្តីជូនដំណឹង",
+  "notificationSetting": "កំណត់ការជូនដំណឹង",
   "@notificationSetting": {
     "description": "通知設定セクションのタイトル"
   },
-  "enableFollowupNotification": "បើកការបំរែបំរាស់ការតាមដាន",
+  "enableFollowupNotification": "បញ្ជូនម៉ាស៊ីនកំណត់ការតាមដានឱ្យអនុវត្ត",
   "@enableFollowupNotification": {
     "description": "フォローアップ通知を有効にするスイッチのラベル"
   },
-  "followupNotificationDescription": "បើអ្នកមិនបានកត់ត្រាពេលបរិច្ឆេទការប្រើប្រាស់នៅក្នុងរយៈពេល 30 នាទីក្រោយពីការជូនដំណឹងដំបូង ការជូនដំណឹងអនុវត្តន៍នឹងត្រូវបានផ្ញើ។",
+  "followupNotificationDescription": "ប្រសិនបើអ្នកមិនបានកត់ត្រាការទទួលធ្មេញក្រោយពេលដែលបានទទួលសំណែងដំបូង ជាង 30 នាទី ការជូនដំណឹងអំបូរ សម្រាប់ការទទួលធ្មេញនឹងត្រូវបានផ្ញើ។",
   "@followupNotificationDescription": {
     "description": "フォローアップ通知の説明文"
   },
-  "enableNotificationInSilentMode": "សម្គាល់នៅពេលមានទីតាំងស្ងប់ស្ងាត់",
+  "enableNotificationInSilentMode": "ធ្វើឱ្យមានការជូនដំណឹងនៅពេលស្ថានភាពម៉ូដសំឡេង",
   "@enableNotificationInSilentMode": {
     "description": "マナーモード時の通知を有効にするスイッチのラベル"
   },
-  "silentModeNotificationDescription": "កម្រិតផ្តោតអារម្មណ៍បានបើក ឬឧបករណ៍មានសំឡេងចាក់តែមិនខកខាន សារល្អិតទាំងឡាយនឹងបង្ហាញលើអេក្រង់សម្ងាត់ និងសំឡេងនឹងត្រូវបានចាក់ឡើង។",
-  "@silentModeNotificationDescription": {
-    "description": "マナーモード時の通知の説明文"
-  },
-  "everyXDaysFormat": "{count} ថ្ងៃប្រចាំ",
+  "everyXDaysFormat": "{count}ថ្ងៃម្តង",
   "@everyXDaysFormat": {
     "description": "X日ごとの服用頻度を表示する際のフォーマット",
     "placeholders": {
@@ -314,7 +310,7 @@
       }
     }
   },
-  "cycleDaysFormat": "{consecutiveDays} ថ្ងៃចំពោះ/{restDays} ថ្ងៃឈប់សម្រាក",
+  "cycleDaysFormat": "{consecutiveDays}ថ្ងៃចូលរបៀប/{restDays}ថ្ងៃសម្រាក",
   "@cycleDaysFormat": {
     "description": "服用周期を表示する際のフォーマット",
     "placeholders": {
@@ -328,7 +324,7 @@
       }
     }
   },
-  "consecutiveDaysFormat": "{count} ថ្ងៃ ការបរិភោគ",
+  "consecutiveDaysFormat": "{count} ថ្ងៃសំរាប់ការប្រើចំរៀង",
   "@consecutiveDaysFormat": {
     "description": "連続服用日数を表示する際のフォーマット",
     "placeholders": {
@@ -338,7 +334,7 @@
       }
     }
   },
-  "restDaysFormat": "{count}ថ្ងៃមិនប្រើថ្នាំ",
+  "restDaysFormat": "{count} ថ្ងៃនៃការបាត់បង់ការព្យាបាល",
   "@restDaysFormat": {
     "description": "休薬日数を表示する際のフォーマット",
     "placeholders": {
@@ -348,27 +344,27 @@
       }
     }
   },
-  "limitedTimeDiscount": "ឥឡូវនេះ វាអាចប្រើបាននៅថ្លៃកំណត់ ជាទីបំផុត",
+  "limitedTimeDiscount": "ឥឡូវនេះ អ្នកអាចប្រើបានក្នុងតម្លៃខ្ចីពិសេសដោយមិនមានការកំណត់។",
   "@limitedTimeDiscount": {
     "description": "プレミアムプランの限定価格キャンペーンを案内するメッセージ"
   },
-  "monthlyPlan": "ផែនការរៀងរាល់ខែ",
+  "monthlyPlan": "ផែនការបម្រុងទឹកប្រាក់ប្រចាំខែ",
   "@monthlyPlan": {
     "description": "月額プランの名称"
   },
-  "annualPlan": "ផែនការឆ្នាំ",
+  "annualPlan": "ផែនការប្រាក់កម្ចីប្រចាំឆ្នាំ",
   "@annualPlan": {
     "description": "年額プランの名称"
   },
-  "weeklyPlan": "ផែនការ​ប្រាក់​ខែ",
+  "weeklyPlan": "គម្រោងប្រចាំសប្ដាហ៍",
   "@weeklyPlan": {
     "description": "週額プランの名称"
   },
-  "premiumRequired": "ការចុះឈ្មោះផែនទីព្រីម្យូមអាចអនុញ្ញាតឱ្យយើងអាចមើលបាន។",
+  "premiumRequired": "ការចូលដំណើរការដោយការចូលរួមផែនការព្រីមថម",
   "@premiumRequired": {
     "description": "プレミアムプラン加入が必要な機能へのアクセス時のメッセージ"
   },
-  "medication": "គ្រោះថ្នាក់",
+  "medication": "គ្រឿងពេញ",
   "@medication": {
     "description": "服薬タブのタイトル"
   },
@@ -376,7 +372,7 @@
   "@history": {
     "description": "履歴タブのタイトル"
   },
-  "medicineRegistrationLimit": "ចំនួនការចុះឈ្មោះថ្នាំ",
+  "medicineRegistrationLimit": "ចំនួនចុះឈ្មោះថ្នាំ",
   "@medicineRegistrationLimit": {
     "description": "薬の登録数の上限を説明するテキストの一部"
   },
@@ -384,7 +380,7 @@
   "@doseReceiverRegistrationLimit": {
     "description": "服用者の登録数の上限を説明するテキストの一部"
   },
-  "notificationScheduleLimit": "រាល់កាលបរិច្ឆេទនៃការជូនដំណឹង",
+  "notificationScheduleLimit": "ចំនួនកំណត់ត្រាជូនដំណឹង",
   "@notificationScheduleLimit": {
     "description": "通知スケジュールの上限を説明するテキストの一部"
   },
@@ -392,7 +388,7 @@
   "@addMedicine": {
     "description": "お薬を追加するボタンのテキスト"
   },
-  "medicineMaxCount": "អ្នកអាចចុះបញ្ជីថ្នាំបានដល់ {count} យ៉ាង។",
+  "medicineMaxCount": "សារពើភ័ណ្ឌឱសថ អាចចុះឈ្មោះបាន ដល់ {count} នាក់។",
   "@medicineMaxCount": {
     "description": "お薬の最大登録数を表示するメッセージ",
     "placeholders": {
@@ -402,7 +398,7 @@
       }
     }
   },
-  "increaseMedicineLimitWithPremium": "បំរើពាណិជ្ជកម្មប្រភេទ​ព្រីមៀម បន្ថែមកំណត់កម្រិតទៅ {count}",
+  "increaseMedicineLimitWithPremium": "បញ្ចូលផលិតផលបុគ្គលិកផ្គត់ផ្គង់លើហត្ថកម្មអនុញ្ញាតឲ្យយកយន្តភាចបញ្ចូលម៉ាញ៉ិតនៃប្រព័ន្ធនៅលើក្នុហ្មងអ្នកនៅលើអ្នកគឺជួយប្រសិទ្ធិតិអាសយដ្ឋានតាមផ្លូវអន្ដរាគមន៍ដែលមានផ្លាំផ្លែ។",
   "@increaseMedicineLimitWithPremium": {
     "description": "お薬の登録上限をプレミアムプランで増やすことを案内するメッセージ",
     "placeholders": {
@@ -416,11 +412,11 @@
   "@aboutApp": {
     "description": "アプリについてのセクションタイトル"
   },
-  "viewPremiumPlan": "មើលផែនការព្រីមៀម",
+  "viewPremiumPlan": "មើលផែនការ​ព្រីមៀម",
   "@viewPremiumPlan": {
     "description": "プレミアムプランの詳細を表示するためのボタンテキスト"
   },
-  "cancelSubscriptionInstruction": "ការលុបចោលការអាប់ដេតដោយស្វ័យប្រវត្តិបន្ទាប់ពីការទិញអាចធ្វើបាននៅក្នុងការកំណត់គណនីរបស់កម្មវិធី {storeName} (មិនអាចលុបចោលការអាប់ដេតដោយស្វ័យប្រវត្តិពីក្នុងកម្មវិធីនេះទេ)។",
+  "cancelSubscriptionInstruction": "ក្រោយ​ពី​ការទិញ ការលើក​លែង​ការអាប់ដេត​ដោយស្វ័យប្រវត្តិ​អាចប្រើបាននៅ​ក្នុងការកំណត់គណនី {storeName} នៅក្នុងអាផ្លូ។ (មិនអាចលើកលែងការអាប់ដេតដោយស្វ័យប្រវត្តិ​ពីក្នុង​អាផ្លូ)",
   "@cancelSubscriptionInstruction": {
     "description": "自動更新の解約方法の説明",
     "placeholders": {
@@ -430,63 +426,63 @@
       }
     }
   },
-  "headache": "ការឈឺក្បាល",
+  "headache": "ឈឺក្បាល",
   "@headache": {
     "description": "症状の選択肢：頭痛"
   },
-  "stomachache": "ឈឺពោះ",
+  "stomachache": "អាការៈក្រចក",
   "@stomachache": {
     "description": "症状の選択肢：腹痛"
   },
-  "nausea": "ការលេបរំខាន",
+  "nausea": "ការមិនកើតឡើងនៃកម្ចាត់",
   "@nausea": {
     "description": "症状の選択肢：吐き気"
   },
-  "anemia": "កាត់បន្ថយភាពខ្វះឈាម",
+  "anemia": "កង្វះឈាម",
   "@anemia": {
     "description": "症状の選択肢：貧血"
   },
-  "diarrhea": "ក្រៅសង្គ្រោះ",
+  "diarrhea": "អាសារ",
   "@diarrhea": {
     "description": "症状の選択肢：下痢"
   },
-  "constipation": "ចុះមិនស៊ុត",
+  "constipation": "រំអត់",
   "@constipation": {
     "description": "症状の選択肢：便秘"
   },
-  "hotFlash": "ការឡើងដល់",
+  "hotFlash": "ក្តៅ",
   "@hotFlash": {
     "description": "症状の選択肢：ほてり"
   },
-  "drowsiness": "ការដំណេក",
+  "drowsiness": "眠ញ",
   "@drowsiness": {
     "description": "症状の選択肢：眠気"
   },
-  "backPain": "កម្តៅចុងរាងកាយ",
+  "backPain": "ការឈឺចិត្តខ្នង",
   "@backPain": {
     "description": "症状の選択肢：腰痛"
   },
-  "palpitation": "ចិត្រ",
+  "palpitation": "ចាក់ចត",
   "@palpitation": {
     "description": "症状の選択肢：動悸"
   },
-  "abnormalBleeding": "ការលេចធ្លោមិនបានគ្រប់គ្រង",
+  "abnormalBleeding": "ឈរ​ជាមួយ​គ្នា",
   "@abnormalBleeding": {
     "description": "症状の選択肢：不正出血"
   },
-  "lossOfAppetite": "ការពង់ពេញមិនត្រឹមត្រូវ",
+  "lossOfAppetite": "ការខ្វះអត្ថប្រយោជន៍",
   "@lossOfAppetite": {
     "description": "症状の選択肢：食欲不振"
   },
-  "chestTightness": "គ្រឿងចងចាំខ្យល់",
+  "chestTightness": "ដាស្មារតី",
   "@chestTightness": {
     "description": "症状の選択肢：胸の張り"
   },
-  "insomnia": "ការគាត់ឈាម",
+  "insomnia": "មិនអាចដេក",
   "@insomnia": {
     "description": "症状の選択肢：不眠"
   },
-  "monthlyPlanDiscountFormat": "ថ្លៃបន្តិច {percent}% OFF",
+  "monthlyPlanDiscountFormat": " discounte  {percent}% OFF per month",
   "@monthlyPlanDiscountFormat": {
     "description": "月額プランからの割引率を表示するフォーマット",
     "placeholders": {
@@ -496,7 +492,7 @@
       }
     }
   },
-  "purchaseErrorUnknown": "មានកំហុសមិនដឹងមូលហេតុ។ សូមរង់ចាំរយៈពេលមួយ ហើយ prób តែម្តងទៀត។ ប្រសិនបើមិនដោះសោទេ សូមទំនាក់ទំនងតាមរយៈ ការកំណត់ > ការទំនាក់ទំនង។ ព័ត៌មានលម្អិត៖ {message}",
+  "purchaseErrorUnknown": "មានកំហុសដែលមិនអាចកំណត់បាន។ សូមអាណាចក្រនៅពេលក្រោយហើយព្យាយាមម្ដងទៀត។ ប្រសិនបើមិនដោះសោបាន សូមទាក់ទងតាមរយៈ ការកំណត់ > សំណួរ។ លម្អិត: {message}",
   "@purchaseErrorUnknown": {
     "description": "購入時の不明なエラーメッセージ",
     "placeholders": {
@@ -506,7 +502,7 @@
       }
     }
   },
-  "purchaseErrorStoreProblem": "មានកំហុសកើតឡើងនៅ {storeName}។ សូមរង់ចាំរយៈពេលមួយ ហើយសូមព្យាយាមម្តងទៀត។",
+  "purchaseErrorStoreProblem": "មានកំហុសកើតឡើងនៅ {storeName} សូមរងចាំប៉ុន្មាននាទី ហើយព្យាយាមម្តងទៀត",
   "@purchaseErrorStoreProblem": {
     "description": "ストアでのエラーメッセージ",
     "placeholders": {
@@ -516,33 +512,19 @@
       }
     }
   },
-  "purchaseErrorInvalidPayment": "ការបង់ប្រាក់បានបរាជ័យ។ សូមពិនិត្យមើលថាធ្មេញបង់ប្រាក់ដែលសន្សំព័ត៌មានអាចប្រើបានទើយបន្ទាន់។",
+  "purchaseErrorInvalidPayment": "ការបង់ប្រាក់បានបរាជ័យ។ សូមពិនិត្យមើលថាតើមានវិធីបង់ប្រាក់ដែលអាចប្រើបាន មុននឹងស试ម្តងទៀត",
   "@purchaseErrorInvalidPayment": {
     "description": "支払い方法が無効な場合のエラーメッセージ"
   },
-  "purchaseErrorProductUnavailable": "គម្រោងនេះមិនមានលក់នៅពេលនេះទេ។ សូមអភ័យទោស ខណៈដែលអ្នកសូមសាកល្បងម្តងទៀតដោយកំណត់អោយកម្មវិធីដំណើរការឡើងវិញ",
+  "purchaseErrorProductUnavailable": "ផែនការដែលគោលដៅមិនមានអាជីវកម្មនៅពេលបច្ចុប្បន្ន។ សូមអនុញ្ញាតឱ្យអ្នកចាប់ផ្ដើមកម្មវិធីឡើងវិញហើយសាកល្បងម្តងទៀត។",
   "@purchaseErrorProductUnavailable": {
     "description": "商品が利用できない場合のエラーメッセージ"
   },
-  "purchaseErrorAlreadyPurchased": "អ្នកបានទិញផែនការម៉ាម៉ាយ។ ប្រសិនបើអ្នកចង់ស្ដារព័ត៌មានការទិញរបស់អ្នកនៅលើឧបករណ៍នេះ សូមធ្វើចាត់តាំងពី \"អ្នកដែលបានទិញពីមុននេះ\" ដើម្បីស្តារព័ត៌មានការទិញ។",
+  "purchaseErrorAlreadyPurchased": "អ្នកបានទិញផែនការបានហើយ។ ប្រសិនបើអ្នកចង់ восстановить информацию о покупке наឧបករណ៍នេះ សូមប្រើ \"អ្នកដែលបានទិញមុននេះ\" ដើម្បី восстановить информацию о покупке។",
   "@purchaseErrorAlreadyPurchased": {
     "description": "すでに購入済みの場合のエラーメッセージ"
   },
-  "purchaseErrorReceiptInUse": "ដែលបានទិញរួចរាល់។ ទិន្នន័យការទិញមាន ប្រើប្រាស់ដោយអ្នកប្រើផ្សេងទៀត។ សូមពិនិត្យ {accountName}។",
-  "@purchaseErrorReceiptInUse": {
-    "description": "購入情報が他のユーザーで使用されている場合のエラーメッセージ",
-    "placeholders": {
-      "accountName": {
-        "type": "String",
-        "example": "Apple ID"
-      }
-    }
-  },
-  "purchaseErrorInvalidReceipt": "ព័ត៌មានទិញឥតសុពលភាព។ សូម​ពិនិត្យ​ព័ត៌មាន​ទិញ",
-  "@purchaseErrorInvalidReceipt": {
-    "description": "購入情報が無効な場合のエラーメッセージ"
-  },
-  "purchaseErrorMissingReceipt": "ព័ត៌មានអ្នកទិញអត់មាន។ សូមចុចឈ្មោះគណនី {accountName} រួចភ្ជាប់ក្នុងឧបករណ៍របស់អ្នកឡើងវិញសម្រាប់ការបង្រ្កាប",
+  "purchaseErrorMissingReceipt": "មិនមានព័ត៌មានអំពីអ្នកទិញឡើយ។ សូមចូលក្នុងឧបករណ៍ជាមួយ {accountName} ហើយសាកល្បងម្តងទៀត។",
   "@purchaseErrorMissingReceipt": {
     "description": "購入情報が見つからない場合のエラーメッセージ",
     "placeholders": {
@@ -552,15 +534,15 @@
       }
     }
   },
-  "purchaseErrorNetwork": "ស្ថានភាពបណ្តាញមិនស្ថិរភាព។ សូមពិនិត្យស្ថានការណ៍ការតភ្ជាប់រួចហើយចូរ​ងាយធ្វើម្តងទៀត។",
+  "purchaseErrorNetwork": "ស្ថានភាពបណ្ដាញមិនស្ថិតស្ថេរទេ។ សូមពិនិត្យមើលស្ថានភាពការតភ្ជាប់របស់អ្នកមុននឹងសាកល្បង។",
   "@purchaseErrorNetwork": {
     "description": "ネットワークエラーの場合のエラーメッセージ"
   },
-  "purchaseNotAllowed": "ការទិញមិនត្រូវបានអនុញ្ញាតនៅលើឧបករណ៍នេះ",
+  "purchaseNotAllowed": "ឧបករណ៍នេះមិនអនុញ្ញាតឱ្យទិញទេ",
   "@purchaseNotAllowed": {
     "description": "デバイスでの購入が許可されていない場合のエラーメッセージ"
   },
-  "purchaseErrorInvalidCredentials": "ការលក់ដែលបានបរាជ័យ។ សូមរង់ចាំនិងព្យាយាមម្ដងទៀត។ ប្រសិនបើមិនមានការដោះសោ វាសូមទំនាក់ទំនងតាមរយៈ កំណត់ > សំណើរ។ ព័ត៌មានលម្អិត: {message}",
+  "purchaseErrorInvalidCredentials": "ការទិញបានបរាជ័យ។ សូមរង់ចាំមួយចំនួនតិចហើយព្យាយាមម្ដងទៀត។ ប្រសិនបើគ្មានការដោះស្រាយ អ្នកអាចទំនាក់ទំនងតាមរយៈ ការកំណត់ > សុញ្ញាអ៊ីមែល។ ព័ត៌មានលម្អិត: {message}",
   "@purchaseErrorInvalidCredentials": {
     "description": "認証情報が無効な場合のエラーメッセージ",
     "placeholders": {
@@ -570,7 +552,7 @@
       }
     }
   },
-  "purchaseErrorUnexpectedBackend": "ទីនេះអាចមិនអាចទិញបានទេ។ សូមរង់ចាំបន្តសំរាប់ពេលថ្មី ហើយសូមប្រាកដថាបានសាកល្បងឡើងវិញ។ ប្រសិនបើមិនមានការលុបបំបាត់ សូមទាក់ទងតាម៖ កំណត់ > សំនួរ។ ព័ត៌មានលម្អិត៖ {message}",
+  "purchaseErrorUnexpectedBackend": "ដេលនេះ មិនអាចទិញបានទេ។ សូមរង់ចាំសម្រាប់ពេលនេះ ហើយព្យាយាមម្តងទៀត។ ប្រសិនបើនៅតែមិនដោះសោសរបារណ៍ អាចទំនាក់ទំនងមកដោយចុច នៅក្នុង ការកំណត់ > សំណាប់សំណេរ។ ព័ត៌មានលម្អិត៖ {message}",
   "@purchaseErrorUnexpectedBackend": {
     "description": "バックエンドで予期せぬエラーが発生した場合のエラーメッセージ",
     "placeholders": {
@@ -580,11 +562,11 @@
       }
     }
   },
-  "purchaseErrorOperationInProgress": "ការសំណូមពរ​នេះ​កំពុង​រត់​ដោយឡែក។ សូម​រង់​ចាំមួយ​បម្រែបម្រួល​មុនពេល​ចេះ​អាន​វិញ។",
+  "purchaseErrorOperationInProgress": "ការកំណត់ការជាវកំពុងប្រព្រឹត្តទៅ។ សូមរង់ចាំហើយពិនិត្យម្តងទៀត។",
   "@purchaseErrorOperationInProgress": {
     "description": "購入処理が既に進行中の場合のエラーメッセージ"
   },
-  "purchaseErrorInsufficientPermissions": "គណនី {accountName} របស់អ្នកមិនអាចចូលរួមគម្រោងបានទេ។ សូមពិនិត្យព័ត៌មានការទូទាត់របស់អ្នកហើយក៏សូម forsøretryម្ដងទៀត។",
+  "purchaseErrorInsufficientPermissions": "អ្នកមិនអាច​ចុះបញ្ជីក្នុងផែនកម្មវិធីដោយប្រើ {accountName} របស់អ្នកបានទេ។ សូមពិនិត្យព័ត៌មានការទូទាត់របស់អ្នក ហើយសាកល្បងឡើងវិញ។",
   "@purchaseErrorInsufficientPermissions": {
     "description": "権限が不足している場合のエラーメッセージ",
     "placeholders": {
@@ -594,7 +576,7 @@
       }
     }
   },
-  "purchaseErrorPaymentPending": "ការបង់ប្រាក់ទាន់ពេលមិនបានបញ្ចប់។ សូមពិនិត្យ {storeName} ជាមួយ {accountName} ដែលកំពុងចូលនៅ",
+  "purchaseErrorPaymentPending": "សេចក្តីជូនដំណឹង៖ ការទូទាត់បានឈិនដណ្ដើម។ សូមពិនិត្យ {storeName} ជាមួយនឹង {accountName} ដែលកំពុងចូលរួម។",
   "@purchaseErrorPaymentPending": {
     "description": "支払いが保留中の場合のエラーメッセージ",
     "placeholders": {
@@ -608,15 +590,15 @@
       }
     }
   },
-  "premiumUserThanksTitle": "អ្នកជាសមាជិកព្រីមៀម",
+  "premiumUserThanksTitle": "អ្នកជាវពេញលេញ",
   "@premiumUserThanksTitle": {
     "description": "プレミアムユーザーへの感謝を示すタイトル"
   },
-  "premiumUserThanksMessage": "សូមអរគុណសម្រាប់ការប្រើប្រាស់របស់អ្នក។ ដោយសារតែអ្នក Medicalarm អាចបន្តដំណើរការបាន។",
+  "premiumUserThanksMessage": "សូមអរគុណសម្រាប់ការប្រើប្រាស់របស់អ្នក។ ដោយសារតែអ្នក ពួកយើងអាចបន្តអនុវត្តកម្មវិធី Medicalarm បាន។",
   "@premiumUserThanksMessage": {
     "description": "プレミアムユーザーへの感謝メッセージ"
   },
-  "premiumPricePerMonth": "(កូដ{$price}/ខែ)",
+  "premiumPricePerMonth": "(ឈิด/ខែ)",
   "@premiumPricePerMonth": {
     "description": "月額料金の表示フォーマット",
     "placeholders": {
@@ -626,7 +608,7 @@
       }
     }
   },
-  "premiumCancelDescription": "• ក្រោយពីទិញ អ្នកអាចធ្វើការលុបចោលការអាប់ដេតដោយស្វ័យប្រវត្តិតាមការកំណត់គណនីក្នុងកម្មវិធី {storeName} ។ (មិនអាចលុបចោលការអាប់ដេតដោយស្វ័យប្រវត្តិជាមួយកម្មវិធីក្នុង។)",
+  "premiumCancelDescription": "• ក្រោយពីការជាវនិងទិញសូមចំណាំថាការលើកយល់ដល់កំណត់ឌីសក្រុមហ៊ុន {storeName} អាចធ្វើតាមការកំណត់កម្រិតគណនី។ (ការលុបជាគម្រោងការផ្លាស់ប្តូរដោយផ្ទាល់នៅក្នុងកម្មវិធីមិនអាចធ្វើបាន)។",
   "@premiumCancelDescription": {
     "description": "プレミアムプランの解約方法の説明",
     "placeholders": {
@@ -636,35 +618,15 @@
       }
     }
   },
-  "purchaseErrorRestoreFailed": "មិនមានព័ត៌មានទិញមុននេះសូម។ សូមពិនិត្យអាគ្គីផ្គត់ផ្គង់របស់អ្នកពីមុនហើយព្យាយាមម្តងទៀត។",
+  "purchaseErrorRestoreFailed": "មិនមានព័ត៌មានការទិញមុននេះទេ។ សូមយកគណនីរបស់អ្នកសូមពិនិត្យមើល ហើយសូមព្យាយាមម្តងទៀត។",
   "@purchaseErrorRestoreFailed": {
     "description": "購入情報の復元に失敗した場合のエラーメッセージ"
   },
-  "purchaseErrorUserNotFound": "អ្នកមិនអាចផ្ទៀងផ្ទាត់អ្នកប្រើប្រាស់បានទេ។ សូមបើកឡើងវិញនៃកម្មវិធីហើយសូមព្យាយាមម្តងទៀត។ ព័ត៌មានលម្អិត៖ {message}",
-  "@purchaseErrorUserNotFound": {
-    "description": "ユーザーが見つからない場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
-  "purchaseErrorActivationPending": "ការប្រឹក្សាទិន្នន័យមិនបានបញ្ចប់។ សូមរង់ចាំអំពីពេលនេះហើយពិនិត្យមើលម្តងទៀត។",
+  "purchaseErrorActivationPending": "ការប្រើប្រាស់សេវាកម្មបានបញ្ចប់អញ្ចឹមមិនទាន់ត្រឹមត្រូវ។ សូមរង់ចាំបន្តិចមុននឹងពិនិត្យវិញ។",
   "@purchaseErrorActivationPending": {
     "description": "課金の有効化が完了していない場合のエラーメッセージ"
   },
-  "purchaseErrorTimeout": "ការបញ្ឈប់ពេលវេលា។ សូមពិនិត្យ​ស្ថានភាព​ការប្រាស្រ័យទាក់ទង ហើយសូមសាកល្បងម្តងទៀត។ ប្រសិនបើបញ្ហានេះមិនត្រូវបានដោះសោចរៀងរាល់, សូមទំនាក់ទំនងតាមរយៈ ការកំណត់ > សំណួរ។ ព័ត៌មានលំអិត: {message}",
-  "@purchaseErrorTimeout": {
-    "description": "購入処理がタイムアウトした場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
-  "purchaseErrorNetworkError": "មានបញ្ហាផ្សាយធម្មតា។ សូមពិនិត្យបរិយាកាសផ្តល់សិក្សារបស់អ្នក ហើយសូមព្យាយាមម្តងទៀត។ ប្រសិនបើមិនអាចដោះស្រាយបាន សូមទំនាក់ទំនងទៅកាន់ ការកំណត់ > សំណួរ។ ព័ត៌មានលម្អិត: {message}",
+  "purchaseErrorNetworkError": "មានបញ្ហា​ការផ្គត់ផ្គង់​សេវាកម្ម។ សូមពិនិត្យ​បរិស្ថាន​ការផ្ទេរនិង​ព្យាយាម​ម្តងទៀត។ ប្រសិនបើ​មិនមានការដោះស្រាយ សូមទំនាក់ទំនងមកតាមផ្លូវ គ្រប់គ្រង > សំណួរ។ ព័ត៌មានលម្អិត៖ {message}",
   "@purchaseErrorNetworkError": {
     "description": "ネットワークエラーが発生した場合のエラーメッセージ",
     "placeholders": {
@@ -674,51 +636,51 @@
       }
     }
   },
-  "sixMonthPlan": "ផែនការ 6 ខែ",
+  "sixMonthPlan": "ប្រព័ន្ធជំនាន់៣ ខែ",
   "@sixMonthPlan": {
     "description": "6ヶ月プランの表示名"
   },
-  "premiumContractPeriod": "សុព្វជានៅ​ពេល​ឱ្យ​ឲ្យ_detមក​បាន​ពេល​នេះ​ ១ ខែនៃការកណ្តាប់សុំ​ ពេល​អ្នក​ទិញ",
+  "premiumContractPeriod": "អាយុកាលបញ្ជាក់គឺតាំងពីថ្ងៃទិញរហូតដល់ 1 ខែ។",
   "@premiumContractPeriod": {
     "description": "プレミアムプランの契約期間の説明"
   },
-  "privacyPolicy": "គោលការណ៍ភាពឯកជន",
+  "privacyPolicy": "គោលការណ៍អាការៈភាព",
   "@privacyPolicy": {
     "description": "プライバシーポリシーのリンクテキスト"
   },
-  "termsOfService": "ការគ្រប់គ្រងការប្រើប្រាស់",
+  "termsOfService": "ការប្រើប្រាស់គោលការណ៍",
   "@termsOfService": {
     "description": "利用規約のリンクテキスト"
   },
-  "specifiedCommercialTransactionAct": "សារពត៌មានស្តីពីច្បាប់ពាណិនតែយ៉ាងត្រឹមត្រូវ",
+  "specifiedCommercialTransactionAct": "កាដូសម្រាប់ការចុះបញ្ជីតាមច្បាប់ជាក់លាក់",
   "@specifiedCommercialTransactionAct": {
     "description": "特定商取引法に基づく表記のリンクテキスト"
   },
-  "confirmBeforeRegistration": "សូមពិនិត្យមើលនិងចុះបញ្ជី",
+  "confirmBeforeRegistration": "សូមពិនិត្យមើលនិងចុះឈ្មោះ",
   "@confirmBeforeRegistration": {
     "description": "各種規約確認を促すメッセージ"
   },
-  "autoRenewalNotice": "កិច្ចសន្យា នឹងត្រូវបានធ្វើអាប់ដេតអ 自动 ដោយស្វ័យប្រវត្តិនៅក្រោយបានបញ្ចប់។",
+  "autoRenewalNotice": "ក្រោយពេលអabanga ៩០ថ្ងៃ អំនូសរបារ គឺជាសកម្មភាពឌីជីថល ដែលអាចធ្វើតាមស្របវិធី ជាមួយនឹងការទាមទារទៅបណ្តាញគ្រប់គ្រង ដែលអាជ្ញាធរមួយច្បាស់លាស់ត្រូវការនិងការ​មិន​អាចចេះមកស្កាល់កូដម្លើងបាន។",
   "@autoRenewalNotice": {
     "description": "自動更新に関する注意事項"
   },
-  "restorePurchase": "អ្នកដែលបាន​ទិញ​មុន​នេះ",
+  "restorePurchase": "អ្នកដែលបានទិញមុននេះ",
   "@restorePurchase": {
     "description": "購入情報の復元リンクのテキスト"
   },
-  "purchaseRestored": "បានបណ្តុះបណ្តាលព័ត៌មានទិញ",
+  "purchaseRestored": "បានស្តារព័ត៌មានការទិញរួចរាល់",
   "@purchaseRestored": {
     "description": "購入情報の復元が完了した際のメッセージ"
   },
-  "medicationTimeFollowup": "ការតាមដានពេលវេលាចំនួនទៀត",
+  "medicationTimeFollowup": "ការតាមដានពេលវេលាផ្សាយគ្រួសារព្យាបាល",
   "@medicationTimeFollowup": {
     "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
   },
-  "updateRequired": "ត្រូវអាប់ដេត",
+  "updateRequired": "ត្រូវជំ🎣🔄",
   "@updateRequired": {
     "description": "強制アップデートが必要な場合のダイアログタイトル"
   },
-  "updateRequiredMessage": "សូមធ្វើការអាប់ដេតទៅកាន់កំណែសម័យថ្មីជាពី {storeName}",
+  "updateRequiredMessage": "សូមធ្វើការកែលម្អទាំងអស់ពី {storeName} ឡើងនូវឯកសារថ្មី",
   "@updateRequiredMessage": {
     "description": "強制アップデートが必要な場合のダイアログメッセージ",
     "placeholders": {
@@ -728,7 +690,7 @@
       }
     }
   },
-  "screenshotMedicationHistoriesMemo": "ខ្ញុំបានស្រោចស្រពពេលថ្ងៃ ដ导致ទីនៅពេលឲ្យសម្រួលគេង",
+  "screenshotMedicationHistoriesMemo": "ខ្ញុំដេកកន្លះពេក ហើយម៉ោងសរសៃព្យាបាលនឹងយឺត។",
   "@screenshotMedicationHistoriesMemo": {
     "description": "薬のメモの例"
   }

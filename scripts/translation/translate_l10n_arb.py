@@ -1,10 +1,13 @@
 import json
 import os
-import openai
+from openai import OpenAI
 
 # Set your OpenAI API key
+
+openai = OpenAI()
 openai.organization = os.environ.get("OPENAI_ORGANIZATION")
 openai.api_key = os.environ.get("OPENAI_API_KEY")
+model="gpt-4o-mini"
 
 # Directory containing .arb files
 arb_directory = os.environ.get("L10N_DIR")
@@ -96,12 +99,94 @@ langs = [
 # Keys to skip during translation
 skip_keys = ["", " - ", " / ", "- ", ",", ":"]
 
+def check_use_all_placeholders(ja_value: str, comment: str, placeholders: list, target_lang: str) -> bool:
+    """Check if all placeholders are used."""
+    prompt = (
+        f"arbファイルの1要素になります。value部分です。placeholdersが全て使われているかチェックしてください"
+        f"value: {ja_value}\n"
+        f"placeholders: {placeholders}\n"
+    )
+    
+    try:
+        response = openai.chat.completions.create(  
+            model=model,
+            messages=[{"role": "user", "content": f"あなたは優秀なモバイルアプリの翻訳者です。{prompt}"}],
+            functions=[
+                {
+                    "name": "check_use_all_placeholders",
+                    "description": "Check if all placeholders are used.",
+                    "parameters": {
+                        "type": "object",
+                        "properties": {
+                            "ok": {
+                                "type": "boolean",
+                                "description": "The translation of the input text in the target language is correct.",
+                            }
+                        },
+                        "required": ["ok"],
+                    },
+                }
+            ],
+            function_call={"name": "check_use_all_placeholders"},
+        )
+        arguments = json.loads(response.choices[0].message.function_call.arguments)
+        return arguments["ok"]
+    except Exception as e:
+        print(f"Error checking use all placeholders: {e}")
+        return False
 
+def check_translated_text(ja_value: str, comment: str, placeholders: list, target_lang: str) -> bool:
+    """Translate text using OpenAI API."""
+    prompt = (
+        f"iOSアプリの翻訳をチェックしてください。\n"
+        "Flutterで作られています。フォーマットは l10n/*.arb の形式に従います。arbの {VAL} のような変数を埋め込む箇所については `プレースホルダー` の情報を参考にしてください。すべての変数は使い切ってください。\n"
+        f"言語は {target_lang} に翻訳してください。{target_lang} はISO 639-1言語コードです。\n"
+        f"アプリの説明です。飲み忘れの不安をなくす服薬管理モバイルアプリ・Medicalarmの開発をしています。\n"
+        f"服薬の服用時刻にリマインド、服用履歴の管理・マナーモードでも届く通知機能を兼ね備えたアプリになっています。\n"
+        f"翻訳のインプットは日本語の文章、補助情報を渡します。\n"
+        f"日本語: この文章はすでにアプリ内で使われている翻訳済みの日本語です\n"
+        f"補助情報: 日本語で渡します。こちらはアプリ内でどのように使われているのか、どのようなユースケースで使われているのかを記述したものです。翻訳の参考にしてください\n"
+        f"インプット:\n"
+        f"日本語: {ja_value}\n"
+        f"補助情報: {comment}\n"
+        f"プレースホルダー: {placeholders}\n"
+    )
+
+    try:
+        response = openai.chat.completions.create(
+            model=model,
+            messages=[{"role": "user", "content": f"あなたは優秀なモバイルアプリの翻訳者です。{prompt}"}],
+            functions=[
+                {
+                    "name": "check_translated_text",
+                    "description": "Check translated text is correct.",
+                    "parameters": {
+                        "type": "object",
+                        "properties": {
+                            "ok": {
+                                "type": "boolean",
+                                "description": "The translation of the input text in the target language is correct.",
+                            }
+                        },
+                        "required": ["ok"],
+                    },
+                }
+            ],
+            function_call={"name": "check_translated_text"},
+        )
+
+        arguments = json.loads(response.choices[0].message.function_call.arguments)
+        return arguments["ok"]
+    except Exception as e:
+        print(f"Error checking translated text: {e}")
+        return False
+
+    
 def translate_text(ja_value: str, comment: str, target_lang: str) -> str:
     """Translate text using OpenAI API."""
     prompt = (
         f"iOSアプリの翻訳をしてください。\n"
-        "Flutterで作られています。フォーマットは l10n/*.arb の形式に従います {VAL} のようなプレースホルダーの正しいフォーマットを保ってください。\n"
+        "Flutterで作られています。フォーマットは l10n/*.arb の形式に従います。arbの {VAL} のような変数を埋め込む箇所については `プレースホルダー` の情報を参考にしてください。すべての変数は使い切ってください。\n"
         f"言語は {target_lang} に翻訳してください。{target_lang} はISO 639-1言語コードです。\n"
         f"アプリの説明です。飲み忘れの不安をなくす服薬管理モバイルアプリ・Medicalarmの開発をしています。\n"
         f"服薬の服用時刻にリマインド、服用履歴の管理・マナーモードでも届く通知機能を兼ね備えたアプリになっています。\n"
@@ -115,7 +200,7 @@ def translate_text(ja_value: str, comment: str, target_lang: str) -> str:
 
     try:
         response = openai.chat.completions.create(
-            model="gpt-4o-mini",
+            model=model,
             messages=[
                 {"role": "user", "content": f"あなたは優秀なモバイルアプリの翻訳者です。{prompt}"},
             ],
@@ -156,6 +241,22 @@ def save_arb_file(file_path: str, data: dict):
     with open(file_path, "w", encoding="utf-8") as file:
         json.dump(data, file, indent=2, ensure_ascii=False)
 
+def run_translation(base_arb: dict, key: str, value: str, target_lang: str, count: int) -> str:
+    """Run translation for a given target language."""
+    if count > 4:
+        return ""
+
+    comment = base_arb.get(f"@{key}", {}).get("description", "")
+    placeholders = base_arb.get(f"@{key}", {}).get("placeholders", [])
+    translation = translate_text(value, comment, target_lang)
+    placeholders_ok = check_use_all_placeholders(value, comment, placeholders, target_lang)
+    translated_text_ok = check_translated_text(value, comment, placeholders, target_lang)
+
+    if placeholders_ok and translated_text_ok:
+        return translation
+    
+    print(f"Translation failed: {translation}. Retry count: {count}, placeholders_ok: {placeholders_ok}, translated_text_ok: {translated_text_ok}")
+    return run_translation(base_arb, key, value, target_lang, count + 1)
 
 def main():
     # Load the base ARB file (e.g., app_en.arb)
@@ -180,8 +281,8 @@ def main():
 
             if key not in target_arb:
                 print(f"Translating key: {key} to {target_lang}")
+                translation = run_translation(base_arb, key, value, target_lang, 0)
                 comment = base_arb.get(f"@{key}", {}).get("description", "")
-                translation = translate_text(value, comment, target_lang)
 
                 if translation:
                     target_arb[key] = translation
