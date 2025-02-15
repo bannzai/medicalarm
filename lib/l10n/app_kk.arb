@@ -694,7 +694,7 @@
   "@specifiedCommercialTransactionAct": {
     "description": "特定商取引法に基づく表記のリンクテキスト"
   },
-  "confirmBeforeRegistration": "{VAL} қарастырғаннан кейін, тіркеліңіз.",
+  "confirmBeforeRegistration": "қарастырғаннан кейін, тіркеліңіз.",
   "@confirmBeforeRegistration": {
     "description": "各種規約確認を促すメッセージ"
   },
