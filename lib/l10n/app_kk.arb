@@ -136,7 +136,7 @@
   "@daily": {
     "description": "毎日服用する頻度設定"
   },
-  "everyXDays": "{VAL} күн сайын",
+  "everyXDays": "күн сайын",
   "@everyXDays": {
     "description": "X日ごとに服用する頻度設定"
   },
@@ -152,7 +152,7 @@
   "@cycleDescription": {
     "description": "周期での服用頻度の説明文"
   },
-  "everyXDaysDescription": "{VAL} күн сайын, {VAL} күн сайын",
+  "everyXDaysDescription": "{VAL} күн сайын, күн сайын",
   "@everyXDaysDescription": {
     "description": "X日ごとの服用頻度の説明文"
   },

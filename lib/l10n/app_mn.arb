@@ -152,7 +152,7 @@
   "@cycleDescription": {
     "description": "周期での服用頻度の説明文"
   },
-  "everyXDaysDescription": "жилийн {VAL} өдөр тутам",
+  "everyXDaysDescription": "жилийн өдөр тутам",
   "@everyXDaysDescription": {
     "description": "X日ごとの服用頻度の説明文"
   },
