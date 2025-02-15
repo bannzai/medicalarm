@@ -222,8 +222,7 @@ class MedicationHistoryTile extends HookConsumerWidget {
               children: [
                 if (history.memo.isEmpty) ...[
                   Text(L.noMemo),
-                ],
-                if (history.memo.isNotEmpty) ...[
+                ] else ...[
                   Text(history.memo),
                 ],
                 IconButton(
