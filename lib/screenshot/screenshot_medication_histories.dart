@@ -176,7 +176,7 @@ class MedicationHistoryTile extends HookConsumerWidget {
           children: [
             Row(
               children: [
-                Text(medicine.name, style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold, color: primaryColor)),
+                Center(child: Text(medicine.name, style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold, color: primaryColor))),
                 const Spacer(),
                 Text(
                   schedule.quantityMemo,
@@ -221,9 +221,9 @@ class MedicationHistoryTile extends HookConsumerWidget {
             Row(
               children: [
                 if (history.memo.isEmpty) ...[
-                  Text(L.noMemo),
+                  Expanded(child: Text(L.noMemo)),
                 ] else ...[
-                  Text(history.memo),
+                  Expanded(child: Text(history.memo)),
                 ],
                 IconButton(
                   onPressed: () async {
