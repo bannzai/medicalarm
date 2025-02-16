@@ -693,5 +693,23 @@
   "screenshotMedicationHistoriesMemo": "ខ្ញុំដេកកន្លះពេក ហើយម៉ោងសរសៃព្យាបាលនឹងយឺត។",
   "@screenshotMedicationHistoriesMemo": {
     "description": "薬のメモの例"
+  },
+  "silentModeNotificationDescription": "ពេលដែលម៉ូដកែប្រែបានបើក ឬ កាន់ទូរស័ព្ទបានដាក់ទាស់ទេគ្របតទៅនេះ ប្រតិកម្មសំខាន់ៗនឹងត្រូវបង្ហាញនៅលើអេក្រង់តាំងពិព័រណ៍ជាមួយអូសវិទ្យាឆ្នាស់។",
+  "@silentModeNotificationDescription": {
+    "description": "マナーモード時の通知の説明文"
+  },
+  "purchaseErrorInvalidReceipt": "ព័ត៌មាន ការជួញដូរ មិនត្រឹមត្រូវ។ សូមពិនិត្យព័ត៌មាន ការជួញដូរ។",
+  "@purchaseErrorInvalidReceipt": {
+    "description": "購入情報が無効な場合のエラーメッセージ"
+  },
+  "purchaseErrorUserNotFound": "អ្នកមិនអាចបញ្ជាក់បាននៅក្នុងកម្មវិធីទេ។ សូមចាប់ផ្តើមកម្មវិធីឡើងវិញហើយសូមព្យាយាមឡើងវិញ។ វេញ​លម្អិត: {message}",
+  "@purchaseErrorUserNotFound": {
+    "description": "ユーザーが見つからない場合のエラーメッセージ",
+    "placeholders": {
+      "message": {
+        "type": "String",
+        "example": "エラーの詳細"
+      }
+    }
   }
 }

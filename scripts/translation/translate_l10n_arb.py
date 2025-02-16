@@ -7,7 +7,7 @@ from openai import OpenAI
 openai = OpenAI()
 openai.organization = os.environ.get("OPENAI_ORGANIZATION")
 openai.api_key = os.environ.get("OPENAI_API_KEY")
-model="gpt-4o-mini"
+model = "gpt-4o-mini"
 
 # Directory containing .arb files
 arb_directory = os.environ.get("L10N_DIR")
@@ -72,7 +72,9 @@ langs = [
     "or",  # Oriya
     "pa",  # Panjabi Punjabi
     "pl",  # Polish
-    "ps",  # Pushto Pashto
+    #  A CupertinoLocalizations delegate that supports the ps locale was not found.
+    # 解消が難しそうだったのでサポート対象外にする。flutter driveのスクショ生成でエラーが出る
+    # "ps",  # Pushto Pashto
     "pt",  # Portuguese (plus one country variation)
     "ro",  # Romanian Moldavian Moldovan
     "ru",  # Russian
@@ -99,18 +101,26 @@ langs = [
 # Keys to skip during translation
 skip_keys = ["", " - ", " / ", "- ", ",", ":"]
 
-def check_use_all_placeholders(ja_value: str, comment: str, placeholders: list, target_lang: str) -> bool:
+
+def check_use_all_placeholders(
+    ja_value: str, comment: str, placeholders: list, target_lang: str
+) -> bool:
     """Check if all placeholders are used."""
     prompt = (
         f"arbファイルの1要素になります。value部分です。placeholdersが全て使われているかチェックしてください"
         f"value: {ja_value}\n"
         f"placeholders: {placeholders}\n"
     )
-    
+
     try:
-        response = openai.chat.completions.create(  
+        response = openai.chat.completions.create(
             model=model,
-            messages=[{"role": "user", "content": f"あなたは優秀なモバイルアプリの翻訳者です。{prompt}"}],
+            messages=[
+                {
+                    "role": "user",
+                    "content": f"あなたは優秀なモバイルアプリの翻訳者です。{prompt}",
+                }
+            ],
             functions=[
                 {
                     "name": "check_use_all_placeholders",
@@ -135,7 +145,10 @@ def check_use_all_placeholders(ja_value: str, comment: str, placeholders: list, 
         print(f"Error checking use all placeholders: {e}")
         return False
 
-def check_translated_text(ja_value: str, comment: str, placeholders: list, target_lang: str) -> bool:
+
+def check_translated_text(
+    ja_value: str, comment: str, placeholders: list, target_lang: str
+) -> bool:
     """Translate text using OpenAI API."""
     prompt = (
         f"iOSアプリの翻訳をチェックしてください。\n"
@@ -155,7 +168,12 @@ def check_translated_text(ja_value: str, comment: str, placeholders: list, targe
     try:
         response = openai.chat.completions.create(
             model=model,
-            messages=[{"role": "user", "content": f"あなたは優秀なモバイルアプリの翻訳者です。{prompt}"}],
+            messages=[
+                {
+                    "role": "user",
+                    "content": f"あなたは優秀なモバイルアプリの翻訳者です。{prompt}",
+                }
+            ],
             functions=[
                 {
                     "name": "check_translated_text",
@@ -181,7 +199,7 @@ def check_translated_text(ja_value: str, comment: str, placeholders: list, targe
         print(f"Error checking translated text: {e}")
         return False
 
-    
+
 def translate_text(ja_value: str, comment: str, target_lang: str) -> str:
     """Translate text using OpenAI API."""
     prompt = (
@@ -202,7 +220,10 @@ def translate_text(ja_value: str, comment: str, target_lang: str) -> str:
         response = openai.chat.completions.create(
             model=model,
             messages=[
-                {"role": "user", "content": f"あなたは優秀なモバイルアプリの翻訳者です。{prompt}"},
+                {
+                    "role": "user",
+                    "content": f"あなたは優秀なモバイルアプリの翻訳者です。{prompt}",
+                },
             ],
             functions=[
                 {
@@ -241,7 +262,10 @@ def save_arb_file(file_path: str, data: dict):
     with open(file_path, "w", encoding="utf-8") as file:
         json.dump(data, file, indent=2, ensure_ascii=False)
 
-def run_translation(base_arb: dict, key: str, value: str, target_lang: str, count: int) -> str:
+
+def run_translation(
+    base_arb: dict, key: str, value: str, target_lang: str, count: int
+) -> str:
     """Run translation for a given target language."""
     if count > 4:
         return ""
@@ -249,14 +273,21 @@ def run_translation(base_arb: dict, key: str, value: str, target_lang: str, coun
     comment = base_arb.get(f"@{key}", {}).get("description", "")
     placeholders = base_arb.get(f"@{key}", {}).get("placeholders", [])
     translation = translate_text(value, comment, target_lang)
-    placeholders_ok = check_use_all_placeholders(value, comment, placeholders, target_lang)
-    translated_text_ok = check_translated_text(value, comment, placeholders, target_lang)
+    placeholders_ok = check_use_all_placeholders(
+        value, comment, placeholders, target_lang
+    )
+    translated_text_ok = check_translated_text(
+        value, comment, placeholders, target_lang
+    )
 
     if placeholders_ok and translated_text_ok:
         return translation
-    
-    print(f"Translation failed: {translation}. Retry count: {count}, placeholders_ok: {placeholders_ok}, translated_text_ok: {translated_text_ok}")
+
+    print(
+        f"Translation failed: {translation}. Retry count: {count}, placeholders_ok: {placeholders_ok}, translated_text_ok: {translated_text_ok}"
+    )
     return run_translation(base_arb, key, value, target_lang, count + 1)
+
 
 def main():
     # Load the base ARB file (e.g., app_en.arb)
