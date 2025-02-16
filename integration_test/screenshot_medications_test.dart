@@ -4,11 +4,15 @@ import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:integration_test/integration_test.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:medicalarm/features/localization/l.dart';
+import 'package:medicalarm/provider/medication_history.dart';
 import 'package:medicalarm/provider/shared_preferences.dart';
 import 'package:medicalarm/style/color.dart';
+import 'package:medicalarm/utils/local_notification/client.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import 'package:medicalarm/screenshot/screenshot_medications.dart';
+
+import 'fake/providers.dart';
 
 void main() {
   final binding = IntegrationTestWidgetsFlutterBinding.ensureInitialized();
@@ -28,6 +32,9 @@ void main() {
           ProviderScope(
             overrides: [
               sharedPreferencesProvider.overrideWith((ref) => sharedPreferences),
+              medicationHistoryTakeProvider.overrideWithValue(FakeMedicationHistoryTake()),
+              medicationHistoryDeleteProvider.overrideWithValue(FakeMedicationHistoryDelete()),
+              registerReminderLocalNotificationProvider.overrideWithValue(FakeRegisterReminderLocalNotification()),
             ],
             child: MaterialApp(
               theme: ThemeData(
