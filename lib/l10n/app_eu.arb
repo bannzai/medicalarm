@@ -731,5 +731,29 @@
   "screenshotMedicationHistoriesMemo": "Lo egon dutelako, botika hartzeko ordua berandu iritsi da",
   "@screenshotMedicationHistoriesMemo": {
     "description": "薬のメモの例"
+  },
+  "screenshotMedicationDoserReceiver1": "Nere",
+  "@screenshotMedicationDoserReceiver1": {
+    "description": "薬の服用者の例"
+  },
+  "screenshotMedicationDoserReceiver2": "Mana-neska",
+  "@screenshotMedicationDoserReceiver2": {
+    "description": "薬の服用者の例"
+  },
+  "screenshotMedicationQuontityMemo1": "1 pilula",
+  "@screenshotMedicationQuontityMemo1": {
+    "description": "薬の服用量の例"
+  },
+  "screenshotMedicationQuontityMemo2": "2 pilula",
+  "@screenshotMedicationQuontityMemo2": {
+    "description": "薬の服用量の例"
+  },
+  "screenshotMedicationName1": "buruko",
+  "@screenshotMedicationName1": {
+    "description": "薬の名前の例"
+  },
+  "screenshotMedicationName2": "Bitamina",
+  "@screenshotMedicationName2": {
+    "description": "薬の名前の例"
   }
 }

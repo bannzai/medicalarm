@@ -731,5 +731,29 @@
   "screenshotMedicationHistoriesMemo": "Jag sov för mycket och missade tiden för att ta medicinen.",
   "@screenshotMedicationHistoriesMemo": {
     "description": "薬のメモの例"
+  },
+  "screenshotMedicationDoserReceiver1": "själv",
+  "@screenshotMedicationDoserReceiver1": {
+    "description": "薬の服用者の例"
+  },
+  "screenshotMedicationDoserReceiver2": "Mana-chan",
+  "@screenshotMedicationDoserReceiver2": {
+    "description": "薬の服用者の例"
+  },
+  "screenshotMedicationQuontityMemo1": "1 tablett",
+  "@screenshotMedicationQuontityMemo1": {
+    "description": "薬の服用量の例"
+  },
+  "screenshotMedicationQuontityMemo2": "2 tabletter",
+  "@screenshotMedicationQuontityMemo2": {
+    "description": "薬の服用量の例"
+  },
+  "screenshotMedicationName1": "Huvudvärkspiller",
+  "@screenshotMedicationName1": {
+    "description": "薬の名前の例"
+  },
+  "screenshotMedicationName2": "Vitaminpreparat",
+  "@screenshotMedicationName2": {
+    "description": "薬の名前の例"
   }
 }

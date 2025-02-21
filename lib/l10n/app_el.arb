@@ -731,5 +731,29 @@
   "screenshotMedicationHistoriesMemo": "Ξέχασα να πάρω το φάρμακό μου επειδή κοιμήθηκα πολύ.",
   "@screenshotMedicationHistoriesMemo": {
     "description": "薬のメモの例"
+  },
+  "screenshotMedicationDoserReceiver1": "εαυτός",
+  "@screenshotMedicationDoserReceiver1": {
+    "description": "薬の服用者の例"
+  },
+  "screenshotMedicationDoserReceiver2": "Μάνα (Mάna)",
+  "@screenshotMedicationDoserReceiver2": {
+    "description": "薬の服用者の例"
+  },
+  "screenshotMedicationQuontityMemo1": "1 δισκίο",
+  "@screenshotMedicationQuontityMemo1": {
+    "description": "薬の服用量の例"
+  },
+  "screenshotMedicationQuontityMemo2": "2 δισκία",
+  "@screenshotMedicationQuontityMemo2": {
+    "description": "薬の服用量の例"
+  },
+  "screenshotMedicationName1": "παυσίπονο",
+  "@screenshotMedicationName1": {
+    "description": "薬の名前の例"
+  },
+  "screenshotMedicationName2": "Βιταμίνες",
+  "@screenshotMedicationName2": {
+    "description": "薬の名前の例"
   }
 }

@@ -731,5 +731,29 @@
   "screenshotMedicationHistoriesMemo": "Ég tók of mikið siestu og tók lyfið of seint.",
   "@screenshotMedicationHistoriesMemo": {
     "description": "薬のメモの例"
+  },
+  "screenshotMedicationDoserReceiver1": "Ég",
+  "@screenshotMedicationDoserReceiver1": {
+    "description": "薬の服用者の例"
+  },
+  "screenshotMedicationDoserReceiver2": "Mona",
+  "@screenshotMedicationDoserReceiver2": {
+    "description": "薬の服用者の例"
+  },
+  "screenshotMedicationQuontityMemo1": "1 tafla",
+  "@screenshotMedicationQuontityMemo1": {
+    "description": "薬の服用量の例"
+  },
+  "screenshotMedicationQuontityMemo2": "2 töflur",
+  "@screenshotMedicationQuontityMemo2": {
+    "description": "薬の服用量の例"
+  },
+  "screenshotMedicationName1": "höfuðverkur",
+  "@screenshotMedicationName1": {
+    "description": "薬の名前の例"
+  },
+  "screenshotMedicationName2": "Vítamín",
+  "@screenshotMedicationName2": {
+    "description": "薬の名前の例"
   }
 }

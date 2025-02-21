@@ -731,5 +731,29 @@
   "screenshotMedicationHistoriesMemo": "ຂໍແອວໃຊໃຈຫຼາຍເກີນໄປ ບໍ່ໃສເວລາດື່ມຢາໃຫ້ແລະມັນຕໍ່ມາຊໍາໃຫ້ທ່ານ.",
   "@screenshotMedicationHistoriesMemo": {
     "description": "薬のメモの例"
+  },
+  "screenshotMedicationDoserReceiver1": "ຕົວທ່ານ",
+  "@screenshotMedicationDoserReceiver1": {
+    "description": "薬の服用者の例"
+  },
+  "screenshotMedicationDoserReceiver2": "ມານາຈານ",
+  "@screenshotMedicationDoserReceiver2": {
+    "description": "薬の服用者の例"
+  },
+  "screenshotMedicationQuontityMemo1": "1 ອິນດາ",
+  "@screenshotMedicationQuontityMemo1": {
+    "description": "薬の服用量の例"
+  },
+  "screenshotMedicationQuontityMemo2": "2 ຊ່ວນ",
+  "@screenshotMedicationQuontityMemo2": {
+    "description": "薬の服用量の例"
+  },
+  "screenshotMedicationName1": "ຢາບໍ່ສູນ",
+  "@screenshotMedicationName1": {
+    "description": "薬の名前の例"
+  },
+  "screenshotMedicationName2": "ບິທາມິນ",
+  "@screenshotMedicationName2": {
+    "description": "薬の名前の例"
   }
 }

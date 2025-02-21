@@ -731,5 +731,29 @@
   "screenshotMedicationHistoriesMemo": "ഞാൻ നിദ്രയെടുത്തതുകൊണ്ട് മരുന്ന് കഴിക്കാനുള്ള സമയം പ്രായാസമായി കഴിഞ്ഞു.",
   "@screenshotMedicationHistoriesMemo": {
     "description": "薬のメモの例"
+  },
+  "screenshotMedicationDoserReceiver1": "എനിക്ക്",
+  "@screenshotMedicationDoserReceiver1": {
+    "description": "薬の服用者の例"
+  },
+  "screenshotMedicationDoserReceiver2": "മാന ചാൻ",
+  "@screenshotMedicationDoserReceiver2": {
+    "description": "薬の服用者の例"
+  },
+  "screenshotMedicationQuontityMemo1": "1 ഡോസ്",
+  "@screenshotMedicationQuontityMemo1": {
+    "description": "薬の服用量の例"
+  },
+  "screenshotMedicationQuontityMemo2": "2 പിൽക്കണങ്ങൾ",
+  "@screenshotMedicationQuontityMemo2": {
+    "description": "薬の服用量の例"
+  },
+  "screenshotMedicationName1": "തലവേദന മരുന്ന്",
+  "@screenshotMedicationName1": {
+    "description": "薬の名前の例"
+  },
+  "screenshotMedicationName2": "വിറ്റമിനുകൾ",
+  "@screenshotMedicationName2": {
+    "description": "薬の名前の例"
   }
 }

@@ -695,5 +695,65 @@
   "screenshotMedicationHistoriesMemo": "दोपहर की नींद लेने से समय पर दवाई लेना लेट हो गया।",
   "@screenshotMedicationHistoriesMemo": {
     "description": "薬のメモの例"
+  },
+  "premiumFeatureHistory": "សូមបង្ហាញអត្រាការប្រើប្រាស់របស់អ្នក",
+  "@premiumFeatureHistory": {
+    "description": "プレミアム機能の履歴表示の説明"
+  },
+  "limitedTimeDiscount": "စုစုပေါင်းကျေးဇူးပြု၍ အသုံးချနိုင်မည့် အထူးစျေးနှုန်းဖြင့် သုံးရန် ရရှိနိုင်ပါသည်။",
+  "@limitedTimeDiscount": {
+    "description": "プレミアムプランの限定価格キャンペーンを案内するメッセージ"
+  },
+  "purchaseErrorProductUnavailable": "प्रस्तुत योजना वर्तमान में उपलब्ध नहीं है। कृपया ऐप को पुनः आरंभ करें और पुनः प्रयास करें।",
+  "@purchaseErrorProductUnavailable": {
+    "description": "商品が利用できない場合のエラーメッセージ"
+  },
+  "purchaseErrorInvalidCredentials": "ଖରିଦକୁ ବ୍ରେକ କରିବାରେ ବिफଳ ହୋଇଛି। କିଛି ସମୟ ବିତିବାକୁ ଅପେକ୍ଷା କରନ୍ତୁ ଏବଂ ପୁନର୍ବାର ଚେଷ୍ଟା କରନ୍ତୁ। ଯଦି ଏହା ହେଲେ ନାହିଁ, ଦୟାକରି ସେଟିଂସ୍ > ସମ୍ପର୍କୀୟ କରନ୍ତୁ। ବିସ୍ତୃତ: {message}",
+  "@purchaseErrorInvalidCredentials": {
+    "description": "認証情報が無効な場合のエラーメッセージ",
+    "placeholders": {
+      "message": {
+        "type": "String",
+        "example": "エラーの詳細"
+      }
+    }
+  },
+  "purchaseErrorPaymentPending": "あなたの支払いは途中で保留されています。ログイン中の{accountName}アカウントで{storeName}を確認してください。",
+  "@purchaseErrorPaymentPending": {
+    "description": "支払いが保留中の場合のエラーメッセージ",
+    "placeholders": {
+      "accountName": {
+        "type": "String",
+        "example": "Apple ID"
+      },
+      "storeName": {
+        "type": "String",
+        "example": "App Store"
+      }
+    }
+  },
+  "screenshotMedicationDoserReceiver1": "မိမိ",
+  "@screenshotMedicationDoserReceiver1": {
+    "description": "薬の服用者の例"
+  },
+  "screenshotMedicationDoserReceiver2": "Mana-chan",
+  "@screenshotMedicationDoserReceiver2": {
+    "description": "薬の服用者の例"
+  },
+  "screenshotMedicationQuontityMemo1": "1 tablet",
+  "@screenshotMedicationQuontityMemo1": {
+    "description": "薬の服用量の例"
+  },
+  "screenshotMedicationQuontityMemo2": "2 गोली",
+  "@screenshotMedicationQuontityMemo2": {
+    "description": "薬の服用量の例"
+  },
+  "screenshotMedicationName1": "頭痛薬",
+  "@screenshotMedicationName1": {
+    "description": "薬の名前の例"
+  },
+  "screenshotMedicationName2": "ଭିଟାମିନ ଗୋଲି",
+  "@screenshotMedicationName2": {
+    "description": "薬の名前の例"
   }
 }

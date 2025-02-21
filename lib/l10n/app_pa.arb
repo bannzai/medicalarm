@@ -731,5 +731,29 @@
   "screenshotMedicationHistoriesMemo": "ਮੈਂ ਦੋਪਰ ਦੀ ਨੀਂਦ demasiado ਕਰ ਲਈ ਅਤੇ ਦਵਾਈ ਪੀਣ ਦਾ ਸਮਾਂ ਦੇਰ ਨਾਲ ਹੋ ਗਿਆ",
   "@screenshotMedicationHistoriesMemo": {
     "description": "薬のメモの例"
+  },
+  "screenshotMedicationDoserReceiver1": "ਆਪਣੇ",
+  "@screenshotMedicationDoserReceiver1": {
+    "description": "薬の服用者の例"
+  },
+  "screenshotMedicationDoserReceiver2": "ਮਾਨਾ ਚਾਨ",
+  "@screenshotMedicationDoserReceiver2": {
+    "description": "薬の服用者の例"
+  },
+  "screenshotMedicationQuontityMemo1": "1 ਗੋਲੀ",
+  "@screenshotMedicationQuontityMemo1": {
+    "description": "薬の服用量の例"
+  },
+  "screenshotMedicationQuontityMemo2": "2 ਗੋਲੀ",
+  "@screenshotMedicationQuontityMemo2": {
+    "description": "薬の服用量の例"
+  },
+  "screenshotMedicationName1": "ਸਿਰਦਰਦ ਦੀ ਦਵਾਈ",
+  "@screenshotMedicationName1": {
+    "description": "薬の名前の例"
+  },
+  "screenshotMedicationName2": "ਵਿਟਾਮਿਨ ਦੀ ਦਵਾਈ",
+  "@screenshotMedicationName2": {
+    "description": "薬の名前の例"
   }
 }
