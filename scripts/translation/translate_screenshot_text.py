@@ -92,7 +92,7 @@ def translate_text(target_lang, text):
                 "properties": {
                     "text": {
                         "type": "string",
-                        "description": "Translated App Store screenshot slogan for {target_lang}",
+                        "description": f"Translated App Store screenshot slogan for {target_lang}",
                     },
                 },
                 "required": ["text"],
