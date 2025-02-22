@@ -6,7 +6,7 @@ set -euo pipefail
 
 
 SCRIPT_DIR="$(cd `dirname $0` && pwd -P)"
-PROJECT_ROOT_DIR=$SCRIPT_DIR/../
+PROJECT_ROOT_DIR=$SCRIPT_DIR/../../../
 cd $PROJECT_ROOT_DIR
 
 TITLE=$1
