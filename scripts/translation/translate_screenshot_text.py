@@ -85,6 +85,7 @@ def translate_text(target_lang, text):
             We are developing Medicalarm, a medication management mobile app that eliminates the anxiety of forgetting to take your meds. The app features medication time reminders, medication history tracking, and notifications that work even in silent mode.
             We aim to localize this app. 
             Please provide translations for display on the Medicalarm app that are appropriate for the cultural context of the specified language. These phrases will be used as short, catchy copy on AppStore screenshots.
+            Please translation to `{target_lang}`. `{target_lang}` matches the BCP 47 language code.
             """,
             "parameters": {
                 "type": "object",
