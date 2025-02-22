@@ -77,24 +77,22 @@ def translate_text(target_lang, text):
     translated_localization_strings = [
         {
             "name": "translated_localization_strings",
-            # あなたはApp Store上の「Focus」というiOSのスクリーンタイムAPIを利用したアプリの翻訳を行っています。
+            # あなたはApp Store上の「ReplAI(リプるAI)」というチャットアシスタントをしてくれるモバイルアプリを開発しています。OpenAIのAPIを通じてチャットの返信を考えてくれるアプリです。
             # 今回翻訳してほしいアプリの概要は以下のとおりです
             #
             # 概要:
-            # 「Focus」というiOSのスクリーンタイムAPIを利用してユーザーが指定したアプリの制限時間を超えた場合に指定したアプリの利用を制限できる機能を持っているアプリを開発してます。
-            # ユーザーのアプリの使いすぎを防ぎ本来やりたかったことに集中(Focus)できるアプリになります。
+            # ReplAI(リプるAI)というチャットアシスタントをしてくれるモバイルアプリを開発しています。OpenAIのAPIを通じてチャットの返信を考えてくれるアプリです。
+            # このアプリがあれば友人や気になるあの人との会話の返信に困らない。マッチングアプリでも大活躍間違い無し。ReplAI(リプるAI)はいつも返信に迷ってしまう口下手・チャット下手な人のためのアプリです
             # このアプリでローカライズをしたいです。
-            # 指定された言語が使われている文化圏に相応しいFocusのアプリ上で表示するための翻訳を返してください。
+            # 指定された言語が使われている文化圏に相応しいReplAIのアプリ上で表示するための翻訳を返してください。
             # この文言はAppStore上に出るスクリーンショットで短いキャッチコピーとして使われます
             "description": f"""
-            You are translating an app called "Focus" available on the App Store, which utilizes the iOS Screen Time API.
-            The overview of the app you need to translate is as follows:
+            You are developing a mobile app called "ReplAI," a chat assistant app that helps users craft replies. The app leverages OpenAI's API to generate chat responses. 
 
-            Overview:
-            We are developing an app called "Focus" that uses the iOS Screen Time API to restrict the use of specified apps when the user exceeds their set time limit. This app helps users prevent excessive app usage and focus on what they originally intended to do.
-            We want to localize this app.
-            Please provide translations suitable for the cultural context of the specified language to be displayed on the Focus app.
-            This text will be used as a short tagline in the screenshots on the App Store.
+            Overview: 
+            ReplAI is a mobile chat assistant app that helps users respond to messages. With this app, you'll never struggle with how to reply to a friend or someone you're interested in. It's also perfect for conversations on dating apps. ReplAI is designed for people who often find themselves at a loss for words or who feel less confident in chatting. 
+
+            Please localize this text appropriately for the cultural context of the specified language. The translations will be used as short, catchy captions on screenshots displayed in the App Store.
             """,
             "parameters": {
                 "type": "object",
