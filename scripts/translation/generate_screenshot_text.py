@@ -6,7 +6,7 @@ import openai
 openai.organization = os.environ.get("OPENAI_ORGANIZATION")
 openai.api_key = os.environ.get("OPENAI_API_KEY")
 
-os.chdir(os.environ.get("PROJECT_DIR"))
+os.chdir(os.environ.get("TRANSLATION_SCRIPT_DIR"))
 
 
 def load():
