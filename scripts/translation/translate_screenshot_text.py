@@ -63,13 +63,12 @@ textJSONs = [
     },
 ]
 
-os.chdir(os.environ.get("PROJECT_DIR"))
+os.chdir(os.environ.get("TRANSLATION_SCRIPT_DIR"))
 
 
 def create_lang_directory(lang):
     path = f"resources/{lang}"
     os.makedirs(path, exist_ok=True)
-    os.makedirs(f"{path}/6.5inchi", exist_ok=True)
     return path
 
 
