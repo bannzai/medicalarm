@@ -15,7 +15,7 @@ GENERATE_SCREENSHOT_TEST_FUNCTION_1 = "screenshot_medications"
 GENERATE_SCREENSHOT_TEST_FUNCTION_2 = "screenshot_medication_histories"
 GENERATE_SCREENSHOT_TEST_FUNCTION_3 = "screenshot_medicine_schedule_notification_form"
 
-os.chdir("PROJECT_DIR")
+os.chdir(os.environ.get("PROJECT_DIR"))
 
 
 def map_directory_name(arg):
