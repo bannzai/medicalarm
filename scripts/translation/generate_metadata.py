@@ -95,7 +95,7 @@ for screenshot in screenshots:
             print("ファイルの移動とリネームが成功しました。")
         except FileNotFoundError:
             print(
-                f"ファイルが見つかりません。 source_file_name: {source_file_name}, destination_file: {destination_file}"
+                f"ファイルが見つかりません。 source_file_name: {source_file_name}:{file_is_exists(source_file_name)}, destination_file: {destination_file}:{file_is_exists(destination_file)}"
             )
         except Exception as e:
             print(f"エラーが発生しました: {str(e)}")
