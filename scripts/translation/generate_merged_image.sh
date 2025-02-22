@@ -12,11 +12,11 @@ INDEX=$3
 ARTIFACT_DIR="artifacts/merged_image"
 mkdir -p "$ARTIFACT_DIR/$LANG"
 
-BACKGROUND_65="scripts/resources/6.5inchi/$INDEX.png"
+BACKGROUND_65="scripts/translation/resources/6.5inchi/$INDEX.png"
 TITLE_65="artifacts/text_to_image/$LANG/6.5inchi/title_$INDEX.png"
 # TODO: SUBTITLE
 # SUBTITLE_65="artifacts/text_to_image/$LANG/6.5inchi/subtitle_$INDEX.png"
-NOTCH_FRAME_65="scripts/resources/6.5inchi/notch.png"
+NOTCH_FRAME_65="scripts/translation/resources/6.5inchi/notch.png"
 ARTIFACT65="$ARTIFACT_DIR/$LANG/${INDEX}_APP_IPHONE_65_${INDEX}.png"
 
 ROUNDED_FILE="$ARTIFACT_DIR/$LANG/${INDEX}_rounded.png"

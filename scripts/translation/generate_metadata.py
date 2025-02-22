@@ -62,7 +62,7 @@ for screenshot in screenshots:
         continue
 
     merged_image_return_code = os.system(
-        f'./scripts/generate_merged_image.sh "{screenshot_file_name}" "{lang}" "{screenshot_index}"'
+        f'{os.environ.get("PROJECT_DIR")}/scripts/translation/generate_merged_image.sh "{screenshot_file_name}" "{lang}" "{screenshot_index}"'
     )
     if merged_image_return_code == 0:
         print("generate_merged_imageスクリプトは正常に実行されました。")
@@ -71,10 +71,11 @@ for screenshot in screenshots:
 
     for inchi in [65]:
         artifact_dir = f"artifacts/merged_image/{lang}"
-        destination_directory = f"fastlane/screenshots/{lang}"
+        destination_directory = f"ios/fastlane/screenshots/{lang}"
         destination_file_name = (
             f"{screenshot_index}_APP_IPHONE_{inchi}_{screenshot_index}.png"
         )
+
         destination_file = os.path.join(destination_directory, destination_file_name)
         source_file_name = f"{artifact_dir}/{destination_file_name}"
 
