@@ -26,7 +26,7 @@ langs = [
     "hu",
     "id",
     "it",
-    "ja",
+    # "ja",
     "ko",
     "ms",
     "nl-NL",
@@ -44,58 +44,22 @@ langs = [
     "zh-Hans",
     "zh-Hant",
 ]
-# langs = ["ja"]
 
 textJSONs = [
     {
         "index": 0,
-        "title": "App Blocking",
-        "subtitle": "Control app usage and live better",
+        "title": "Manage Multiple Meds",
+        "subtitle": "Assign Medication Takers",
     },
     {
         "index": 1,
-        "title": "Powerful Customization",
-        "subtitle": "Focus Promises to Fulfill Your Goals",
+        "title": "Track Your History",
+        "subtitle": "No More Missed Doses",
     },
     {
         "index": 2,
-        "title": "Recurring App Blocks",
-        "subtitle": "Consistent Control Aligned with Your Lifestyle",
-    },
-    {
-        "index": 3,
-        "title": "Diverse Blocking Options",
-        "subtitle": "Tailor to Your Needs and Habits",
-    },
-    {
-        "index": 4,
-        "title": "Pomodoro Timer",
-        "subtitle": "Stay Focused with the Pomodoro Timer",
-    },
-    {
-        "index": 5,
-        "title": "Money Is Strong",
-        "subtitle": "Prevent App Unlocks With Monetary Controls",
-    },
-    {
-        "index": 6,
-        "title": "Tense With Penalties",
-        "subtitle": "Focus Detects Deletions And More",
-    },
-    {
-        "index": 7,
-        "title": "App Block with Location",
-        "subtitle": "Register Your Best Place",
-    },
-    {
-        "index": 8,
-        "title": "Focus Provide Many Widget",
-        "subtitle": "Start Focus Your Time Quickly",
-    },
-    {
-        "index": 9,
-        "title": "App Restriction Later",
-        "subtitle": "Use App Just a Little Before Unlock",
+        "title": "Never Miss Alerts",
+        "subtitle": "Repeat Notifications Even on Silent Mode",
     },
 ]
 
