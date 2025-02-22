@@ -99,7 +99,7 @@ textJSONs = [
     },
 ]
 
-os.chdir("./scripts")
+os.chdir(os.environ.get("PROJECT_DIR"))
 
 
 def create_lang_directory(lang):
