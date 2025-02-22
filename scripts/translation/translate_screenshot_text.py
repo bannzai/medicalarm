@@ -76,16 +76,16 @@ def translate_text(target_lang, text):
     translated_localization_strings = [
         {
             "name": "translated_localization_strings",
-            # We are developing Medicalarm, a medication management mobile app that eliminates the anxiety of forgetting to take your meds. The app features medication time reminders, medication history tracking, and notifications that work even in silent mode.
-            # We aim to localize this app.
-            # Please provide translations for display on the Medicalarm app that are appropriate for the cultural context of the specified language. These phrases will be used as short, catchy copy on AppStore screenshots.
-            # Please translation to `{target_lang}`. `{target_lang}` matches the BCP 47 language code.
+            # 飲み忘れの不安をなくす服薬管理モバイルアプリ・Medicalarmの開発をしています。
+            # 服薬の服用時刻にリマインド、服用履歴の管理・マナーモードでも届く通知機能を兼ね備えたアプリになっています。
+            # このアプリでローカライズをしたいです。
+            # 指定された言語が使われている文化圏に相応しいMedicalarmのアプリ上で表示するための翻訳を返してください。
+            # この文言はAppStore上に出るスクリーンショットで短いキャッチコピーとして使われます
             "description": f"""
-            飲み忘れの不安をなくす服薬管理モバイルアプリ・Medicalarmの開発をしています。
-            服薬の服用時刻にリマインド、服用履歴の管理・マナーモードでも届く通知機能を兼ね備えたアプリになっています。
-            このアプリでローカライズをしたいです。
-            指定された言語が使われている文化圏に相応しいMedicalarmのアプリ上で表示するための翻訳を返してください。
-            この文言はAppStore上に出るスクリーンショットで短いキャッチコピーとして使われます
+            We are developing Medicalarm, a medication management mobile app that eliminates the anxiety of forgetting to take your meds. The app features medication time reminders, medication history tracking, and notifications that work even in silent mode.
+            We aim to localize this app.
+            Please provide translations for display on the Medicalarm app that are appropriate for the cultural context of the specified language. These phrases will be used as short, catchy copy on AppStore screenshots.
+            Please translation to `{target_lang}`. `{target_lang}` matches the BCP 47 language code.
             """,
             "parameters": {
                 "type": "object",
@@ -101,7 +101,7 @@ def translate_text(target_lang, text):
     ]
 
     response = openai.chat.completions.create(
-        model="gpt-4o-mini",
+        model="gpt-4o",
         messages=[
             {
                 "role": "user",
