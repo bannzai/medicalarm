@@ -11,10 +11,9 @@ file_list = os.listdir("artifacts/screenshots")
 screenshots = [file for file in file_list if file.lower().endswith(".png")]
 
 # ここを変更する場合はui_test_env.sh, generate_screenshot.shも編集する
-GENERATE_SCREENSHOT_TEST_FUNCTION_1 = "screenshot_chat_partner_form"
-GENERATE_SCREENSHOT_TEST_FUNCTION_2 = "screenshot_chat_messages"
-GENERATE_SCREENSHOT_TEST_FUNCTION_3 = "screenshot_chat_messages_with_ai_review"
-GENERATE_SCREENSHOT_TEST_FUNCTION_4 = "screenshot_chat_partners"
+GENERATE_SCREENSHOT_TEST_FUNCTION_1 = "screenshot_medications"
+GENERATE_SCREENSHOT_TEST_FUNCTION_2 = "screenshot_medication_histories"
+GENERATE_SCREENSHOT_TEST_FUNCTION_3 = "screenshot_medicine_schedule_notification_form"
 
 
 def map_directory_name(arg):
@@ -55,8 +54,6 @@ for screenshot in screenshots:
         screenshot_index = 1
     elif test_function_name == GENERATE_SCREENSHOT_TEST_FUNCTION_3:
         screenshot_index = 2
-    elif test_function_name == GENERATE_SCREENSHOT_TEST_FUNCTION_4:
-        screenshot_index = 3
     else:
         print(f"Invalid test function name: {test_function_name}")
         continue
