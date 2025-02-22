@@ -3,6 +3,9 @@ import os
 import shutil
 
 
+os.chdir(os.environ.get("PROJECT_DIR"))
+
+
 def file_is_exists(path):
     return os.path.isfile(f"{path}")
 
@@ -14,8 +17,6 @@ screenshots = [file for file in file_list if file.lower().endswith(".png")]
 GENERATE_SCREENSHOT_TEST_FUNCTION_1 = "screenshot_medications"
 GENERATE_SCREENSHOT_TEST_FUNCTION_2 = "screenshot_medication_histories"
 GENERATE_SCREENSHOT_TEST_FUNCTION_3 = "screenshot_medicine_schedule_notification_form"
-
-os.chdir(os.environ.get("PROJECT_DIR"))
 
 
 def map_directory_name(arg):
