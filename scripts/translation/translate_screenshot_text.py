@@ -77,22 +77,15 @@ def translate_text(target_lang, text):
     translated_localization_strings = [
         {
             "name": "translated_localization_strings",
-            # あなたはApp Store上の「ReplAI(リプるAI)」というチャットアシスタントをしてくれるモバイルアプリを開発しています。OpenAIのAPIを通じてチャットの返信を考えてくれるアプリです。
-            # 今回翻訳してほしいアプリの概要は以下のとおりです
-            #
-            # 概要:
-            # ReplAI(リプるAI)というチャットアシスタントをしてくれるモバイルアプリを開発しています。OpenAIのAPIを通じてチャットの返信を考えてくれるアプリです。
-            # このアプリがあれば友人や気になるあの人との会話の返信に困らない。マッチングアプリでも大活躍間違い無し。ReplAI(リプるAI)はいつも返信に迷ってしまう口下手・チャット下手な人のためのアプリです
+            # 飲み忘れの不安をなくす服薬管理モバイルアプリ・Medicalarmの開発をしています。
+            # 服薬の服用時刻にリマインド、服用履歴の管理・マナーモードでも届く通知機能を兼ね備えたアプリになっています。
             # このアプリでローカライズをしたいです。
-            # 指定された言語が使われている文化圏に相応しいReplAIのアプリ上で表示するための翻訳を返してください。
+            # 指定された言語が使われている文化圏に相応しいMedicalarmのアプリ上で表示するための翻訳を返してください。
             # この文言はAppStore上に出るスクリーンショットで短いキャッチコピーとして使われます
             "description": f"""
-            You are developing a mobile app called "ReplAI," a chat assistant app that helps users craft replies. The app leverages OpenAI's API to generate chat responses. 
-
-            Overview: 
-            ReplAI is a mobile chat assistant app that helps users respond to messages. With this app, you'll never struggle with how to reply to a friend or someone you're interested in. It's also perfect for conversations on dating apps. ReplAI is designed for people who often find themselves at a loss for words or who feel less confident in chatting. 
-
-            Please localize this text appropriately for the cultural context of the specified language. The translations will be used as short, catchy captions on screenshots displayed in the App Store.
+            We are developing Medicalarm, a medication management mobile app that eliminates the anxiety of forgetting to take your meds. The app features medication time reminders, medication history tracking, and notifications that work even in silent mode.
+            We aim to localize this app. 
+            Please provide translations for display on the Medicalarm app that are appropriate for the cultural context of the specified language. These phrases will be used as short, catchy copy on AppStore screenshots.
             """,
             "parameters": {
                 "type": "object",
