@@ -1,0 +1,235 @@
+import json
+import os
+
+import openai
+
+openai.organization = os.environ.get("OPENAI_ORGANIZATION")
+openai.api_key = os.environ.get("OPENAI_API_KEY")
+
+langs = [
+    "ar-SA",
+    "ca",
+    "cs",
+    "da",
+    "de-DE",
+    "el",
+    "en-AU",
+    "en-CA",
+    "en-GB",
+    "en-US",
+    "es-ES",
+    "es-MX",
+    "fi",
+    "he",
+    "hi",
+    "hr",
+    "hu",
+    "id",
+    "it",
+    "ja",
+    "ko",
+    "ms",
+    "nl-NL",
+    "no",
+    "pl",
+    "pt-BR",
+    "pt-PT",
+    "ro",
+    "sk",
+    "sv",
+    "th",
+    "tr",
+    "uk",
+    "vi",
+    "zh-Hans",
+    "zh-Hant",
+]
+# langs = ["ja"]
+
+textJSONs = [
+    {
+        "index": 0,
+        "title": "App Blocking",
+        "subtitle": "Control app usage and live better",
+    },
+    {
+        "index": 1,
+        "title": "Powerful Customization",
+        "subtitle": "Focus Promises to Fulfill Your Goals",
+    },
+    {
+        "index": 2,
+        "title": "Recurring App Blocks",
+        "subtitle": "Consistent Control Aligned with Your Lifestyle",
+    },
+    {
+        "index": 3,
+        "title": "Diverse Blocking Options",
+        "subtitle": "Tailor to Your Needs and Habits",
+    },
+    {
+        "index": 4,
+        "title": "Pomodoro Timer",
+        "subtitle": "Stay Focused with the Pomodoro Timer",
+    },
+    {
+        "index": 5,
+        "title": "Money Is Strong",
+        "subtitle": "Prevent App Unlocks With Monetary Controls",
+    },
+    {
+        "index": 6,
+        "title": "Tense With Penalties",
+        "subtitle": "Focus Detects Deletions And More",
+    },
+    {
+        "index": 7,
+        "title": "App Block with Location",
+        "subtitle": "Register Your Best Place",
+    },
+    {
+        "index": 8,
+        "title": "Focus Provide Many Widget",
+        "subtitle": "Start Focus Your Time Quickly",
+    },
+    {
+        "index": 9,
+        "title": "App Restriction Later",
+        "subtitle": "Use App Just a Little Before Unlock",
+    },
+]
+
+os.chdir("./scripts")
+
+
+def create_lang_directory(lang):
+    path = f"resources/{lang}"
+    os.makedirs(path, exist_ok=True)
+    os.makedirs(f"{path}/6.5inchi", exist_ok=True)
+    return path
+
+
+def translate_text(target_lang, text):
+    translated_localization_strings = [
+        {
+            "name": "translated_localization_strings",
+            # あなたはApp Store上の「Focus」というiOSのスクリーンタイムAPIを利用したアプリの翻訳を行っています。
+            # 今回翻訳してほしいアプリの概要は以下のとおりです
+            #
+            # 概要:
+            # 「Focus」というiOSのスクリーンタイムAPIを利用してユーザーが指定したアプリの制限時間を超えた場合に指定したアプリの利用を制限できる機能を持っているアプリを開発してます。
+            # ユーザーのアプリの使いすぎを防ぎ本来やりたかったことに集中(Focus)できるアプリになります。
+            # このアプリでローカライズをしたいです。
+            # 指定された言語が使われている文化圏に相応しいFocusのアプリ上で表示するための翻訳を返してください。
+            # この文言はAppStore上に出るスクリーンショットで短いキャッチコピーとして使われます
+            "description": f"""
+            You are translating an app called "Focus" available on the App Store, which utilizes the iOS Screen Time API.
+            The overview of the app you need to translate is as follows:
+
+            Overview:
+            We are developing an app called "Focus" that uses the iOS Screen Time API to restrict the use of specified apps when the user exceeds their set time limit. This app helps users prevent excessive app usage and focus on what they originally intended to do.
+            We want to localize this app.
+            Please provide translations suitable for the cultural context of the specified language to be displayed on the Focus app.
+            This text will be used as a short tagline in the screenshots on the App Store.
+            """,
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "text": {
+                        "type": "string",
+                        "description": "Translated App Store screenshot slogan for {target_lang}",
+                    },
+                },
+                "required": ["text"],
+            },
+        }
+    ]
+
+    response = openai.chat.completions.create(
+        model="gpt-4o-mini",
+        messages=[
+            {
+                "role": "user",
+                "content": f"""
+             Please translate {text} to {target_lang}.
+             {target_lang} matches the BCP 47 language code.
+             """,
+            },
+        ],
+        max_tokens=100,
+        n=1,
+        stop=None,
+        functions=translated_localization_strings,
+        function_call={"name": "translated_localization_strings"},
+    )
+
+    message = response.choices[0].message
+    if message.function_call:
+        arguments = json.loads(message.function_call.arguments)
+        return arguments
+
+
+def translate_with_retry(i, lang, title, subtitle, index):
+    if i > 0:
+        return None
+    try:
+        # 英語部分と日本語部分に分割
+        print(
+            f"Start translation lang:{lang} title:{title} subtitle:{subtitle} index:{index}"
+        )
+        translatedTitle = translate_text(lang, title).get("text")
+        print(f"Translated lang:{lang} title:{title} to {translatedTitle}")
+
+        translatedSubtitle = translate_text(lang, subtitle).get("text")
+        print(f"Translated lang:{lang} subtitle:{subtitle} to {translatedSubtitle}")
+
+        return {
+            "title": translatedTitle,
+            "subtitle": translatedSubtitle,
+            "index": index,
+        }
+    except Exception as e:
+        print(e)
+        return translate_with_retry(i + 1, lang, title, subtitle, index)
+
+
+def load():
+    with open("resources/text_to_image.json", "r") as file:
+        return json.load(file)
+
+
+def file_is_exists():
+    return os.path.isfile(f"resources/text_to_image.json")
+
+
+jsonObject = {}
+if file_is_exists():
+    jsonObject = load()
+
+for lang in langs:
+    print(f"Start lang: {lang}")
+    # print(f'Warn 現在はtitle,subtitleが空で作成される')
+    if lang in jsonObject:
+        # すでに該当するlangがtext_to_image.jsonにある場合はスキップ
+        # 作り直したかったらlangのkeyごと削除する
+        continue
+
+    arr = []
+    # 空のjsonを作りたい場合は、このfor文をコメントアウトを解除
+    # for i in range(0, 10):
+    #     arr.append({"title": "", "subtitle": "", "index": i})
+
+    # 空のjsonを作りたい場合は、このfor文をコメントアウト
+    for textJSON in textJSONs:
+        title = textJSON["title"]
+        subtitle = textJSON["subtitle"]
+        index = textJSON["index"]
+        translated = translate_with_retry(0, lang, title, subtitle, index)
+        arr.append(translated)
+    jsonObject[lang] = arr
+
+if not file_is_exists():
+    os.makedirs("resources", exist_ok=True)
+with open("resources/text_to_image.json", "w") as file:
+    file.write(json.dumps(jsonObject, indent=4, ensure_ascii=False))
+"Translate and generate app store screenshot title and subtitle"
