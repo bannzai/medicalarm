@@ -755,5 +755,13 @@
   "screenshotMedicationName2": "Vitamine",
   "@screenshotMedicationName2": {
     "description": "薬の名前の例"
+  },
+  "notificationTitle": "Es ist Zeit für Ihre Medikamente",
+  "@notificationTitle": {
+    "description": "薬の通知のタイトル"
+  },
+  "notificationFollowupTitle": "Haben Sie vergessen, Ihre Medikamenteneinnahme zu protokollieren?",
+  "@notificationFollowupTitle": {
+    "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
   }
 }

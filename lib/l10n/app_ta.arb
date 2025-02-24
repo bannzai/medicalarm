@@ -755,5 +755,13 @@
   "screenshotMedicationName2": "விடாமின் தாக்கங்கள்",
   "@screenshotMedicationName2": {
     "description": "薬の名前の例"
+  },
+  "notificationTitle": "உங்கள் மருந்தின் நேரம்",
+  "@notificationTitle": {
+    "description": "薬の通知のタイトル"
+  },
+  "notificationFollowupTitle": "நீங்கள் மருந்து எடுக்கும் பதிவுகளை மறந்துவிடவில்லை என்றால்?",
+  "@notificationFollowupTitle": {
+    "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
   }
 }

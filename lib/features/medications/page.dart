@@ -124,7 +124,7 @@ class MedicationsPageBody extends HookConsumerWidget {
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.center,
                       children: [
-                        if (customerInfo.isPremium) ...[
+                        if (!customerInfo.isPremium) ...[
                           const AdMob(),
                         ],
                         for (final tileValue in medicationGroups(

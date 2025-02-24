@@ -755,5 +755,13 @@
   "screenshotMedicationName2": "vitamines",
   "@screenshotMedicationName2": {
     "description": "薬の名前の例"
+  },
+  "notificationTitle": "Het is tijd om je medicatie in te nemen.",
+  "@notificationTitle": {
+    "description": "薬の通知のタイトル"
+  },
+  "notificationFollowupTitle": "Vergeet je geen medicatie-opname bij te houden?",
+  "@notificationFollowupTitle": {
+    "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
   }
 }

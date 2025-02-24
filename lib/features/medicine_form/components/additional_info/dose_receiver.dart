@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:medicalarm/components/container/flat_tile.dart';
 import 'package:medicalarm/entity/dose_receiver.dart';
 import 'package:medicalarm/features/dose_receiver_form/page.dart';
-import 'package:medicalarm/features/resolver/app_resolvers.dart';
 import 'package:medicalarm/features/localization/l.dart';
 
 class MedicineDoseReceiverTile extends StatelessWidget {
@@ -28,12 +27,8 @@ class MedicineDoseReceiverTile extends StatelessWidget {
               useSafeArea: true,
               isScrollControlled: true,
               backgroundColor: Colors.transparent,
-              builder: (context) => AppResolvers(
-                builder: (context, user) {
-                  return DoseReceiverFormPage(
-                    doseReceiver: doseReceiver,
-                  );
-                },
+              builder: (context) => DoseReceiverFormPage(
+                doseReceiver: doseReceiver,
               ),
             );
           },

@@ -755,5 +755,13 @@
   "screenshotMedicationName2": "Viên vitamin",
   "@screenshotMedicationName2": {
     "description": "薬の名前の例"
+  },
+  "notificationTitle": "Đến giờ dùng thuốc",
+  "@notificationTitle": {
+    "description": "薬の通知のタイトル"
+  },
+  "notificationFollowupTitle": "Bạn có quên ghi lại lịch uống thuốc không?",
+  "@notificationFollowupTitle": {
+    "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
   }
 }

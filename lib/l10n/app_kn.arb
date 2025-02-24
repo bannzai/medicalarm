@@ -755,5 +755,13 @@
   "screenshotMedicationName2": "ವಿಟಮಿನ್ ಡ್ರಾಗ್",
   "@screenshotMedicationName2": {
     "description": "薬の名前の例"
+  },
+  "notificationTitle": "ಊಪದಾವು ಸಮಯವಾಗಿದೆ",
+  "@notificationTitle": {
+    "description": "薬の通知のタイトル"
+  },
+  "notificationFollowupTitle": "ನೀವು ಔಷಧಿ ದಾಖಲೆಗಳನ್ನು ಇನ್ಮುಂದೆ ಬಿಟ್ಟು ಹೋಗುತ್ತಿದಿರಾ?",
+  "@notificationFollowupTitle": {
+    "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
   }
 }

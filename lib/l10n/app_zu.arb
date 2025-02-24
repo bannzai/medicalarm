@@ -755,5 +755,13 @@
   "screenshotMedicationName2": "I-Vitamin",
   "@screenshotMedicationName2": {
     "description": "薬の名前の例"
+  },
+  "notificationTitle": "Ithuba lokuthola imithi",
+  "@notificationTitle": {
+    "description": "薬の通知のタイトル"
+  },
+  "notificationFollowupTitle": "Ingabe uwashiyanga amakhono okuphuziswa? ",
+  "@notificationFollowupTitle": {
+    "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
   }
 }

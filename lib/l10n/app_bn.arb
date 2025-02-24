@@ -755,5 +755,13 @@
   "screenshotMedicationName2": "ভিটামিন ট্যাবলেট",
   "@screenshotMedicationName2": {
     "description": "薬の名前の例"
+  },
+  "notificationTitle": "এছাড়াও ঔষধের সময়",
+  "@notificationTitle": {
+    "description": "薬の通知のタイトル"
+  },
+  "notificationFollowupTitle": "আপনি কি ঔষধ গ্রহণের রেকর্ড করতে ভুলে গেছেন?",
+  "@notificationFollowupTitle": {
+    "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
   }
 }

@@ -755,5 +755,13 @@
   "screenshotMedicationName2": "Bitamina",
   "@screenshotMedicationName2": {
     "description": "薬の名前の例"
+  },
+  "notificationTitle": "Oras na para sa gamot",
+  "@notificationTitle": {
+    "description": "薬の通知のタイトル"
+  },
+  "notificationFollowupTitle": "Nakaligtaan mo bang itala ang iyong pag-inom ng gamot?",
+  "@notificationFollowupTitle": {
+    "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
   }
 }

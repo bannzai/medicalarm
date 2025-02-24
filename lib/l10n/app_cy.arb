@@ -755,5 +755,13 @@
   "screenshotMedicationName2": "Cynllediau fitamin",
   "@screenshotMedicationName2": {
     "description": "薬の名前の例"
+  },
+  "notificationTitle": "Mae'n amser y feddyginiaeth.",
+  "@notificationTitle": {
+    "description": "薬の通知のタイトル"
+  },
+  "notificationFollowupTitle": "Sdim yn anghofio cofrestru eich cyffuriau?",
+  "@notificationFollowupTitle": {
+    "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
   }
 }

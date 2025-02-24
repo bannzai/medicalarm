@@ -755,5 +755,13 @@
   "screenshotMedicationName2": "Witamina",
   "@screenshotMedicationName2": {
     "description": "薬の名前の例"
+  },
+  "notificationTitle": "Czas zażycia leku",
+  "@notificationTitle": {
+    "description": "薬の通知のタイトル"
+  },
+  "notificationFollowupTitle": "Czy nie zapomniałeś o zanotowaniu przyjmowania leku?",
+  "@notificationFollowupTitle": {
+    "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
   }
 }

@@ -755,5 +755,13 @@
   "screenshotMedicationName2": "قرص ویتامین",
   "@screenshotMedicationName2": {
     "description": "薬の名前の例"
+  },
+  "notificationTitle": "زمان مصرف دارو است",
+  "@notificationTitle": {
+    "description": "薬の通知のタイトル"
+  },
+  "notificationFollowupTitle": "آیا فراموش کرده‌اید که رکورد مصرف دارو را ثبت کنید؟",
+  "@notificationFollowupTitle": {
+    "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
   }
 }

@@ -755,5 +755,13 @@
   "screenshotMedicationName2": "Vitamin",
   "@screenshotMedicationName2": {
     "description": "薬の名前の例"
+  },
+  "notificationTitle": "Ini adalah masa untuk ubat",
+  "@notificationTitle": {
+    "description": "薬の通知のタイトル"
+  },
+  "notificationFollowupTitle": "Adakah anda terlupa untuk merekod pengambilan ubat?",
+  "@notificationFollowupTitle": {
+    "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
   }
 }

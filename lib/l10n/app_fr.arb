@@ -755,5 +755,13 @@
   "screenshotMedicationName2": "vitamine",
   "@screenshotMedicationName2": {
     "description": "薬の名前の例"
+  },
+  "notificationTitle": "C'est l'heure de votre médicament",
+  "@notificationTitle": {
+    "description": "薬の通知のタイトル"
+  },
+  "notificationFollowupTitle": "Avez-vous oublié d'enregistrer votre prise de médicaments ?",
+  "@notificationFollowupTitle": {
+    "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
   }
 }

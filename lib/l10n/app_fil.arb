@@ -755,5 +755,13 @@
   "screenshotMedicationName2": "Vitamin",
   "@screenshotMedicationName2": {
     "description": "薬の名前の例"
+  },
+  "notificationTitle": "Oras na ng iyong gamot",
+  "@notificationTitle": {
+    "description": "薬の通知のタイトル"
+  },
+  "notificationFollowupTitle": "Nakalimutan mo bang magtala ng iyong pag-inom ng gamot?",
+  "@notificationFollowupTitle": {
+    "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
   }
 }

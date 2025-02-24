@@ -755,5 +755,13 @@
   "screenshotMedicationName2": "విటమిన్ టాబ్లెట్లు",
   "@screenshotMedicationName2": {
     "description": "薬の名前の例"
+  },
+  "notificationTitle": "మీ ఔషధం తీసుకునే సమయము",
+  "@notificationTitle": {
+    "description": "薬の通知のタイトル"
+  },
+  "notificationFollowupTitle": "మీరు మందు తీసుకునే రికార్డును పెట్టడం మరిచిపోయారా?",
+  "@notificationFollowupTitle": {
+    "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
   }
 }

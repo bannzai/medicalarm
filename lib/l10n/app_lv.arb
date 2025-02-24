@@ -755,5 +755,13 @@
   "screenshotMedicationName2": "Vitamīni",
   "@screenshotMedicationName2": {
     "description": "薬の名前の例"
+  },
+  "notificationTitle": "Zāles laiks",
+  "@notificationTitle": {
+    "description": "薬の通知のタイトル"
+  },
+  "notificationFollowupTitle": "Vai jūs neesat aizmirsuši pierakstīt zāļu lietošanas ierakstu?",
+  "@notificationFollowupTitle": {
+    "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
   }
 }

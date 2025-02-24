@@ -755,5 +755,13 @@
   "screenshotMedicationName2": "විටමින් බලු",
   "@screenshotMedicationName2": {
     "description": "薬の名前の例"
+  },
+  "notificationTitle": "මෙය ඖෂධයේ කාලයයි",
+  "@notificationTitle": {
+    "description": "薬の通知のタイトル"
+  },
+  "notificationFollowupTitle": "ඔබට ඖෂධ භාවිතය සටහන් නොකළවද?",
+  "@notificationFollowupTitle": {
+    "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
   }
 }

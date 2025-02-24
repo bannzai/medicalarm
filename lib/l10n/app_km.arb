@@ -735,5 +735,23 @@
   "screenshotMedicationName2": "វីតាមីន",
   "@screenshotMedicationName2": {
     "description": "薬の名前の例"
+  },
+  "purchaseErrorReceiptInUse": "ហើយវាក៏បានទិញរួចហើយ។ ព័ត៌មានការទិញត្រូវបានប្រើដោយអ្នកប្រើប្រាស់ផ្សេងទៀត។ សូមពិនិត្យទិន្នន័យ {accountName}។",
+  "@purchaseErrorReceiptInUse": {
+    "description": "購入情報が他のユーザーで使用されている場合のエラーメッセージ",
+    "placeholders": {
+      "accountName": {
+        "type": "String",
+        "example": "Apple ID"
+      }
+    }
+  },
+  "notificationTitle": "នេះគឺជាពេលវេលារបស់ដ薬",
+  "@notificationTitle": {
+    "description": "薬の通知のタイトル"
+  },
+  "notificationFollowupTitle": "តើអ្នកបានភ្លេចផ្ដល់កំណត់ត្រាអំពីការប្រើប្រាស់ថ药ទេ?",
+  "@notificationFollowupTitle": {
+    "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
   }
 }

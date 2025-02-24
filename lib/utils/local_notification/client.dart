@@ -251,7 +251,7 @@ class RegisterReminderLocalNotification {
               try {
                 await localNotificationService.plugin.zonedSchedule(
                   notificationID,
-                  L.medicationTime,
+                  L.notificationTitle,
                   message,
                   reminderDateTime,
                   NotificationDetails(
@@ -314,7 +314,7 @@ class RegisterReminderLocalNotification {
               try {
                 await localNotificationService.plugin.zonedSchedule(
                   notificationID,
-                  L.medicationTimeFollowup,
+                  L.notificationFollowupTitle,
                   message,
                   reminderDateTime.add(const Duration(minutes: 30)),
                   NotificationDetails(

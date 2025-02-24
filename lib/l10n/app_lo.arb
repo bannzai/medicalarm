@@ -755,5 +755,13 @@
   "screenshotMedicationName2": "ບິທາມິນ",
   "@screenshotMedicationName2": {
     "description": "薬の名前の例"
+  },
+  "notificationTitle": "ແມ່ນເວລາອາກະຖິບ",
+  "@notificationTitle": {
+    "description": "薬の通知のタイトル"
+  },
+  "notificationFollowupTitle": "ທ່ານໄດ້ລືມບັນທຶກການຮັບຢາບໍ? ບັນທຶກມັກແມ່ນຂ໛ໍຟອລໍພາຍຫຼັງ ຈາກຄວາມຈິງຂອງຄວາມອິດລົງ ໃຈພາສາຂອງຢານີ້ຂອງທ່ານ.",
+  "@notificationFollowupTitle": {
+    "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
   }
 }
