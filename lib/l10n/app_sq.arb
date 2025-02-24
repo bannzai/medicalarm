@@ -755,5 +755,13 @@
   "screenshotMedicationName2": "vitamina",
   "@screenshotMedicationName2": {
     "description": "薬の名前の例"
+  },
+  "notificationTitle": "Koha e ila se si është koha e barnave",
+  "@notificationTitle": {
+    "description": "薬の通知のタイトル"
+  },
+  "notificationFollowupTitle": "A jeni harruar të regjistroni marrjen e barnave?",
+  "@notificationFollowupTitle": {
+    "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
   }
 }

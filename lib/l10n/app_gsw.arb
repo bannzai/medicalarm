@@ -755,5 +755,13 @@
   "screenshotMedicationName2": "Vitaminetabletten",
   "@screenshotMedicationName2": {
     "description": "薬の名前の例"
+  },
+  "notificationTitle": "Es is Zeit für d'Biecht",
+  "@notificationTitle": {
+    "description": "薬の通知のタイトル"
+  },
+  "notificationFollowupTitle": "Hesch du d'Medikament-record unde vergass? ",
+  "@notificationFollowupTitle": {
+    "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
   }
 }

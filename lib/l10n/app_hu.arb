@@ -755,5 +755,13 @@
   "screenshotMedicationName2": "vitaminok",
   "@screenshotMedicationName2": {
     "description": "薬の名前の例"
+  },
+  "notificationTitle": "Itt van a gyógyszer ideje",
+  "@notificationTitle": {
+    "description": "薬の通知のタイトル"
+  },
+  "notificationFollowupTitle": "Ne feledkezz meg a gyógyszerbevitelről!",
+  "@notificationFollowupTitle": {
+    "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
   }
 }

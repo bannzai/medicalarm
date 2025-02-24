@@ -755,5 +755,13 @@
   "screenshotMedicationName2": "Витамины",
   "@screenshotMedicationName2": {
     "description": "薬の名前の例"
+  },
+  "notificationTitle": "Время принимать лекарства",
+  "@notificationTitle": {
+    "description": "薬の通知のタイトル"
+  },
+  "notificationFollowupTitle": "Вы не забыли записать прием лекарств?",
+  "@notificationFollowupTitle": {
+    "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
   }
 }

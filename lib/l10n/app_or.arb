@@ -755,5 +755,13 @@
   "screenshotMedicationName2": "ଭିଟାମିନ ଗୋଲି",
   "@screenshotMedicationName2": {
     "description": "薬の名前の例"
+  },
+  "notificationTitle": "ଏହା ଔଷଧ ଗ୍ରହଣର ଏକ ସମୟ।",
+  "@notificationTitle": {
+    "description": "薬の通知のタイトル"
+  },
+  "notificationFollowupTitle": "¿No ha olvidado registrar la toma de medicamentos?",
+  "@notificationFollowupTitle": {
+    "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
   }
 }

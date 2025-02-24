@@ -755,5 +755,13 @@
   "screenshotMedicationName2": "Vitamin tablet",
   "@screenshotMedicationName2": {
     "description": "薬の名前の例"
+  },
+  "notificationTitle": "Dərman vaxtıdır",
+  "@notificationTitle": {
+    "description": "薬の通知のタイトル"
+  },
+  "notificationFollowupTitle": "İlaç qəbul etmə qeydi etməyi unutmadınızmı?",
+  "@notificationFollowupTitle": {
+    "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
   }
 }

@@ -755,5 +755,13 @@
   "screenshotMedicationName2": "ვიტამინის აბები",
   "@screenshotMedicationName2": {
     "description": "薬の名前の例"
+  },
+  "notificationTitle": "ეს მედიკამენტების მიღების დროა",
+  "@notificationTitle": {
+    "description": "薬の通知のタイトル"
+  },
+  "notificationFollowupTitle": "არ დამავიწყდება მედიკამენტების მიღების ჩანაწერის გაკეთება?",
+  "@notificationFollowupTitle": {
+    "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
   }
 }

@@ -755,5 +755,13 @@
   "screenshotMedicationName2": "Vítamín",
   "@screenshotMedicationName2": {
     "description": "薬の名前の例"
+  },
+  "notificationTitle": "Þetta er tíminn fyrir lyfin þín",
+  "@notificationTitle": {
+    "description": "薬の通知のタイトル"
+  },
+  "notificationFollowupTitle": "Ertu ekki að gleyma að skrá lyfjagjafir?",
+  "@notificationFollowupTitle": {
+    "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
   }
 }

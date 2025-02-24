@@ -755,5 +755,13 @@
   "screenshotMedicationName2": "vitamienpille",
   "@screenshotMedicationName2": {
     "description": "薬の名前の例"
+  },
+  "notificationTitle": "Dit is die tyd vir u medikasie",
+  "@notificationTitle": {
+    "description": "薬の通知のタイトル"
+  },
+  "notificationFollowupTitle": "Vergeet jy nie om jou medikasie rekords aan te teken nie?",
+  "@notificationFollowupTitle": {
+    "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
   }
 }

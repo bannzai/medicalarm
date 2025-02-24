@@ -755,5 +755,13 @@
   "screenshotMedicationName2": "vitamina",
   "@screenshotMedicationName2": {
     "description": "薬の名前の例"
+  },
+  "notificationTitle": "É hora de tomar a medicina.",
+  "@notificationTitle": {
+    "description": "薬の通知のタイトル"
+  },
+  "notificationFollowupTitle": "¿Es posible que olvidaras registrar tu toma de medicación?",
+  "@notificationFollowupTitle": {
+    "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
   }
 }

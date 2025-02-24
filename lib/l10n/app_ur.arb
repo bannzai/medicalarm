@@ -755,5 +755,13 @@
   "screenshotMedicationName2": "وٹامن کی گولیاں",
   "@screenshotMedicationName2": {
     "description": "薬の名前の例"
+  },
+  "notificationTitle": "یہ دوائی کا وقت ہے",
+  "@notificationTitle": {
+    "description": "薬の通知のタイトル"
+  },
+  "notificationFollowupTitle": "کیا آپ نے دوائی کا ریکارڈ ڈالنا بھول گئے ہیں؟",
+  "@notificationFollowupTitle": {
+    "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
   }
 }

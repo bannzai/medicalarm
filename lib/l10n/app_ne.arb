@@ -755,5 +755,13 @@
   "screenshotMedicationName2": "भिटामिन गोली",
   "@screenshotMedicationName2": {
     "description": "薬の名前の例"
+  },
+  "notificationTitle": "यो औषधिको समय हो",
+  "@notificationTitle": {
+    "description": "薬の通知のタイトル"
+  },
+  "notificationFollowupTitle": "तपाईंले औषधिको रेकर्ड राख्न बिर्सनुभएको छैन? ",
+  "@notificationFollowupTitle": {
+    "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
   }
 }

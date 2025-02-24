@@ -755,5 +755,13 @@
   "screenshotMedicationName2": "integratore di vitamine",
   "@screenshotMedicationName2": {
     "description": "薬の名前の例"
+  },
+  "notificationTitle": "È ora di prendere i farmaci",
+  "@notificationTitle": {
+    "description": "薬の通知のタイトル"
+  },
+  "notificationFollowupTitle": "Hai dimenticato di registrare la tua assunzione di farmaci?",
+  "@notificationFollowupTitle": {
+    "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
   }
 }

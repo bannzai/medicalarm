@@ -755,5 +755,13 @@
   "screenshotMedicationName2": "व्हिटॅमिन टॅब्लेट",
   "@screenshotMedicationName2": {
     "description": "薬の名前の例"
+  },
+  "notificationTitle": "औषधीनिश्‍चित वेळ आहे",
+  "@notificationTitle": {
+    "description": "薬の通知のタイトル"
+  },
+  "notificationFollowupTitle": "तुम्ही औषध घेत असलेल्या नोंदी ठेवणं विसरलात का?",
+  "@notificationFollowupTitle": {
+    "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
   }
 }
