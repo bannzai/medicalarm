@@ -711,5 +711,29 @@
         "example": "エラーの詳細"
       }
     }
+  },
+  "screenshotMedicationDoserReceiver1": "ខ្ញុំ",
+  "@screenshotMedicationDoserReceiver1": {
+    "description": "薬の服用者の例"
+  },
+  "screenshotMedicationDoserReceiver2": "ម៉ាណា ចាន់",
+  "@screenshotMedicationDoserReceiver2": {
+    "description": "薬の服用者の例"
+  },
+  "screenshotMedicationQuontityMemo1": "1 ក្បាល",
+  "@screenshotMedicationQuontityMemo1": {
+    "description": "薬の服用量の例"
+  },
+  "screenshotMedicationQuontityMemo2": "២តែ",
+  "@screenshotMedicationQuontityMemo2": {
+    "description": "薬の服用量の例"
+  },
+  "screenshotMedicationName1": "ថ្នាំបញ្ឈឺ",
+  "@screenshotMedicationName1": {
+    "description": "薬の名前の例"
+  },
+  "screenshotMedicationName2": "វីតាមីន",
+  "@screenshotMedicationName2": {
+    "description": "薬の名前の例"
   }
 }

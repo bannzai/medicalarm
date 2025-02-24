@@ -731,5 +731,29 @@
   "screenshotMedicationHistoriesMemo": "?দীর্ঘ সময় ঘুমিয়ে ছিলাম, তাই ঔষধ খাওয়ার সময় বেশি হয়ে গেছে.",
   "@screenshotMedicationHistoriesMemo": {
     "description": "薬のメモの例"
+  },
+  "screenshotMedicationDoserReceiver1": "নিজে",
+  "@screenshotMedicationDoserReceiver1": {
+    "description": "薬の服用者の例"
+  },
+  "screenshotMedicationDoserReceiver2": "মনা চাঁন",
+  "@screenshotMedicationDoserReceiver2": {
+    "description": "薬の服用者の例"
+  },
+  "screenshotMedicationQuontityMemo1": "1 পিল",
+  "@screenshotMedicationQuontityMemo1": {
+    "description": "薬の服用量の例"
+  },
+  "screenshotMedicationQuontityMemo2": "2 পিল",
+  "@screenshotMedicationQuontityMemo2": {
+    "description": "薬の服用量の例"
+  },
+  "screenshotMedicationName1": "মাথাব্যথার ওষুধ",
+  "@screenshotMedicationName1": {
+    "description": "薬の名前の例"
+  },
+  "screenshotMedicationName2": "ভিটামিন টেবলেট",
+  "@screenshotMedicationName2": {
+    "description": "薬の名前の例"
   }
 }

@@ -52,13 +52,13 @@ def translate_text(target_lang, ja_text):
             "name": "translated_app_store_description",
             "description": f"""
                 薬の飲み忘れの不安をなくす服薬管理モバイルアプリ・Medicalarmの開発をしています。
-                服薬の服用時刻にリマインド、服用履歴の管理・マナーモードでも届く通知機能を兼ね備えたアプリになっています
-                このアプリでローカライズをしたいです。AppStore上に表示するアプリ紹介のためのデスクリプションを翻訳したいです
+                服薬の服用時刻にリマインド、服用履歴の管理・マナーモードでも届く通知機能を兼ね備えたアプリになっています。
+                このアプリでローカライズをしたいです。AppStore上に表示するアプリ紹介のためのデスクリプションを翻訳したいです。
                 指定された言語が使われている文化圏に相応しいMedicalarmのアプリ上で表示するための翻訳を返してください。
-    """
-                "parameters": {
-                    "type": "object",
-                    "properties": {
+                """,
+            "parameters": {
+                "type": "object",
+                "properties": {
                     "text": {
                         "type": "string",
                         "description": "Translated release note on the App Store for {target_lang}",
@@ -112,9 +112,14 @@ def translate_with_retry(i, lang, ja_text):
         print(e)
         return translate_with_retry(i + 1, lang, ja_text)
 
+
 FASTLANE_METADATA_DIR = os.environ.get("FASTLANE_METADATA_DIR", "fastlane/metadata")
+
+
 def read_ja():
-    with open(os.path.join(FASTLANE_METADATA_DIR, "ja", "description.txt"), "r") as file:
+    with open(
+        os.path.join(FASTLANE_METADATA_DIR, "ja", "description.txt"), "r"
+    ) as file:
         return file.read()
 
 
@@ -127,7 +132,7 @@ for lang in langs:
     print(f"Start lang: {lang}")
 
     if file_is_exists(lang):
-        print(f'File is exists lang: {lang}')
+        print(f"File is exists lang: {lang}")
         continue
     if lang in ["ja"]:
         print(f"Skip {lang} because it is already localized")

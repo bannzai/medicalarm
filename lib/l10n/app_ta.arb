@@ -731,5 +731,29 @@
   "screenshotMedicationHistoriesMemo": "காலை விழித்துக்கொள்வதில் தாமதமாக உள்ளேன் எனினும் நான் அத்தியாவசியமாக எடுத்துக்கொள்ள வேண்டிய மருந்தை மறக்கினேன்.",
   "@screenshotMedicationHistoriesMemo": {
     "description": "薬のメモの例"
+  },
+  "screenshotMedicationDoserReceiver1": "என்",
+  "@screenshotMedicationDoserReceiver1": {
+    "description": "薬の服用者の例"
+  },
+  "screenshotMedicationDoserReceiver2": "மனா சந்தோசம்",
+  "@screenshotMedicationDoserReceiver2": {
+    "description": "薬の服用者の例"
+  },
+  "screenshotMedicationQuontityMemo1": "1 மாதம்",
+  "@screenshotMedicationQuontityMemo1": {
+    "description": "薬の服用量の例"
+  },
+  "screenshotMedicationQuontityMemo2": "2 டெப்ளெட்",
+  "@screenshotMedicationQuontityMemo2": {
+    "description": "薬の服用量の例"
+  },
+  "screenshotMedicationName1": "தலையுட்கரணம்",
+  "@screenshotMedicationName1": {
+    "description": "薬の名前の例"
+  },
+  "screenshotMedicationName2": "விடாமின் தாக்கங்கள்",
+  "@screenshotMedicationName2": {
+    "description": "薬の名前の例"
   }
 }

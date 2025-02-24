@@ -731,5 +731,29 @@
   "screenshotMedicationHistoriesMemo": "دوپہر کی نیند میں بہت وقت گزارنے کی وجہ سے دوائی لینے کا وقت لیٹ ہوگیا",
   "@screenshotMedicationHistoriesMemo": {
     "description": "薬のメモの例"
+  },
+  "screenshotMedicationDoserReceiver1": "اپنا",
+  "@screenshotMedicationDoserReceiver1": {
+    "description": "薬の服用者の例"
+  },
+  "screenshotMedicationDoserReceiver2": "مانا چان",
+  "@screenshotMedicationDoserReceiver2": {
+    "description": "薬の服用者の例"
+  },
+  "screenshotMedicationQuontityMemo1": "1 گولی",
+  "@screenshotMedicationQuontityMemo1": {
+    "description": "薬の服用量の例"
+  },
+  "screenshotMedicationQuontityMemo2": "2 گولیاں",
+  "@screenshotMedicationQuontityMemo2": {
+    "description": "薬の服用量の例"
+  },
+  "screenshotMedicationName1": "درد کی دوا",
+  "@screenshotMedicationName1": {
+    "description": "薬の名前の例"
+  },
+  "screenshotMedicationName2": "وٹامن کی گولیاں",
+  "@screenshotMedicationName2": {
+    "description": "薬の名前の例"
   }
 }

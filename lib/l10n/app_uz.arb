@@ -727,5 +727,33 @@
   "screenshotMedicationHistoriesMemo": "Kunduzgi uxlayman, dori ichish vaqti kechikdi.",
   "@screenshotMedicationHistoriesMemo": {
     "description": "薬のメモの例"
+  },
+  "purchaseErrorRestoreFailed": "Old purchase information could not be found. Please check your account and try again.",
+  "@purchaseErrorRestoreFailed": {
+    "description": "購入情報の復元に失敗した場合のエラーメッセージ"
+  },
+  "screenshotMedicationDoserReceiver1": "o'z zimmasida",
+  "@screenshotMedicationDoserReceiver1": {
+    "description": "薬の服用者の例"
+  },
+  "screenshotMedicationDoserReceiver2": "Mana-chan",
+  "@screenshotMedicationDoserReceiver2": {
+    "description": "薬の服用者の例"
+  },
+  "screenshotMedicationQuontityMemo1": "1 ta",
+  "@screenshotMedicationQuontityMemo1": {
+    "description": "薬の服用量の例"
+  },
+  "screenshotMedicationQuontityMemo2": "2 ta tablet",
+  "@screenshotMedicationQuontityMemo2": {
+    "description": "薬の服用量の例"
+  },
+  "screenshotMedicationName1": "og'riq dori",
+  "@screenshotMedicationName1": {
+    "description": "薬の名前の例"
+  },
+  "screenshotMedicationName2": "Vitamins",
+  "@screenshotMedicationName2": {
+    "description": "薬の名前の例"
   }
 }

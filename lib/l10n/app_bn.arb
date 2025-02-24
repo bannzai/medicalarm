@@ -731,5 +731,29 @@
   "screenshotMedicationHistoriesMemo": "দিবিথাকুর ঘুমিয়ে পড়ার কারণে ওষুধ নেওয়ার সময় দেরি হয়ে গেছে",
   "@screenshotMedicationHistoriesMemo": {
     "description": "薬のメモの例"
+  },
+  "screenshotMedicationDoserReceiver1": "আমি",
+  "@screenshotMedicationDoserReceiver1": {
+    "description": "薬の服用者の例"
+  },
+  "screenshotMedicationDoserReceiver2": "মানা চাঁন",
+  "@screenshotMedicationDoserReceiver2": {
+    "description": "薬の服用者の例"
+  },
+  "screenshotMedicationQuontityMemo1": "১টি ট্যাবলেট",
+  "@screenshotMedicationQuontityMemo1": {
+    "description": "薬の服用量の例"
+  },
+  "screenshotMedicationQuontityMemo2": "২টি ট্যাবলেট",
+  "@screenshotMedicationQuontityMemo2": {
+    "description": "薬の服用量の例"
+  },
+  "screenshotMedicationName1": "মাথাব্যাথার ওষুধ",
+  "@screenshotMedicationName1": {
+    "description": "薬の名前の例"
+  },
+  "screenshotMedicationName2": "ভিটামিন ট্যাবলেট",
+  "@screenshotMedicationName2": {
+    "description": "薬の名前の例"
   }
 }

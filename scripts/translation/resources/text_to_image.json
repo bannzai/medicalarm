@@ -1,0 +1,597 @@
+{
+    "ar-SA": [
+        {
+            "title": "Manage Multiple Meds",
+            "subtitle": "Assign Medication Takers",
+            "index": 0
+        },
+        {
+            "title": "Track Your History",
+            "subtitle": "No More Missed Doses",
+            "index": 1
+        },
+        {
+            "title": "Never Miss Alerts",
+            "subtitle": "إعادة التنبيهات حتى في وضع الصامت",
+            "index": 2
+        }
+    ],
+    "ca": [
+        {
+            "title": "Gestiona múltiples medicaments",
+            "subtitle": "Assign Medication Takers",
+            "index": 0
+        },
+        {
+            "title": "Track Your History",
+            "subtitle": "No More Missed Doses",
+            "index": 1
+        },
+        {
+            "title": "Never Miss Alerts",
+            "subtitle": "Repetiu les notificacions fins i tot en mode silenciós",
+            "index": 2
+        }
+    ],
+    "cs": [
+        {
+            "title": "Spravujte více léků",
+            "subtitle": "Assign Medication Takers",
+            "index": 0
+        },
+        {
+            "title": "Track Your History",
+            "subtitle": "No More Missed Doses",
+            "index": 1
+        },
+        {
+            "title": "Never Miss Alerts",
+            "subtitle": "Opakovat upozornění i v tichém režimu",
+            "index": 2
+        }
+    ],
+    "da": [
+        {
+            "title": "Administrer flere lægemidler",
+            "subtitle": "Assign Medication Takers",
+            "index": 0
+        },
+        {
+            "title": "Spor Din Historik",
+            "subtitle": "No More Missed Doses",
+            "index": 1
+        },
+        {
+            "title": "Never Miss Alerts",
+            "subtitle": "Gentag påmindelser selv i lydløs tilstand",
+            "index": 2
+        }
+    ],
+    "de-DE": [
+        {
+            "title": "Manage Multiple Meds",
+            "subtitle": "Assign Medication Takers",
+            "index": 0
+        },
+        {
+            "title": "Track Your History",
+            "subtitle": "No More Missed Doses",
+            "index": 1
+        },
+        {
+            "title": "Never Miss Alerts",
+            "subtitle": "Repeat Notifications Even on Silent Mode",
+            "index": 2
+        }
+    ],
+    "el": [
+        {
+            "title": "Manage Multiple Meds",
+            "subtitle": "Assign Medication Takers",
+            "index": 0
+        },
+        {
+            "title": "Track Your History",
+            "subtitle": "Ποτέ ξανά χαμένες δόσεις",
+            "index": 1
+        },
+        {
+            "title": "Never Miss Alerts",
+            "subtitle": "Repeat Notifications Even on Silent Mode",
+            "index": 2
+        }
+    ],
+    "en-AU": [
+        {
+            "title": "Manage Multiple Meds",
+            "subtitle": "Assign Medication Takers",
+            "index": 0
+        },
+        {
+            "title": "Track Your History",
+            "subtitle": "No More Missed Doses",
+            "index": 1
+        },
+        {
+            "title": "Never Miss Alerts",
+            "subtitle": "Repeat Notifications Even on Silent Mode",
+            "index": 2
+        }
+    ],
+    "en-CA": [
+        {
+            "title": "Manage Multiple Meds",
+            "subtitle": "Assign Medication Takers",
+            "index": 0
+        },
+        {
+            "title": "Track Your History",
+            "subtitle": "No More Missed Doses",
+            "index": 1
+        },
+        {
+            "title": "Never Miss Alerts",
+            "subtitle": "Repeat Notifications Even on Silent Mode",
+            "index": 2
+        }
+    ],
+    "en-GB": [
+        {
+            "title": "Manage Multiple Meds",
+            "subtitle": "Assign Medication Takers",
+            "index": 0
+        },
+        {
+            "title": "Track Your History",
+            "subtitle": "No More Missed Doses",
+            "index": 1
+        },
+        {
+            "title": "Never Miss Alerts",
+            "subtitle": "Repeat Notifications Even on Silent Mode",
+            "index": 2
+        }
+    ],
+    "en-US": [
+        {
+            "title": "Manage Multiple Meds",
+            "subtitle": "Assign Medication Takers",
+            "index": 0
+        },
+        {
+            "title": "Track Your History",
+            "subtitle": "No More Missed Doses",
+            "index": 1
+        },
+        {
+            "title": "Never Miss Alerts",
+            "subtitle": "Repeat Notifications Even on Silent Mode",
+            "index": 2
+        }
+    ],
+    "es-ES": [
+        {
+            "title": "Manage Multiple Meds",
+            "subtitle": "Assign Medication Takers",
+            "index": 0
+        },
+        {
+            "title": "Track Your History",
+            "subtitle": "No More Missed Doses",
+            "index": 1
+        },
+        {
+            "title": "Never Miss Alerts",
+            "subtitle": "Repeat Notifications Even on Silent Mode",
+            "index": 2
+        }
+    ],
+    "es-MX": [
+        {
+            "title": "Manage Multiple Meds",
+            "subtitle": "Assign Medication Takers",
+            "index": 0
+        },
+        {
+            "title": "Track Your History",
+            "subtitle": "No More Missed Doses",
+            "index": 1
+        },
+        {
+            "title": "Never Miss Alerts",
+            "subtitle": "Repeat Notifications Even on Silent Mode",
+            "index": 2
+        }
+    ],
+    "fi": [
+        {
+            "title": "Manage Multiple Meds",
+            "subtitle": "Assign Medication Takers",
+            "index": 0
+        },
+        {
+            "title": "Track Your History",
+            "subtitle": "No More Missed Doses",
+            "index": 1
+        },
+        {
+            "title": "Never Miss Alerts",
+            "subtitle": "Repeat Notifications Even on Silent Mode",
+            "index": 2
+        }
+    ],
+    "he": [
+        {
+            "title": "Manage Multiple Meds",
+            "subtitle": "הקצה מטפלים לתרופות",
+            "index": 0
+        },
+        {
+            "title": "Track Your History",
+            "subtitle": "No More Missed Doses",
+            "index": 1
+        },
+        {
+            "title": "Never Miss Alerts",
+            "subtitle": "הודעות חוזרות גם במצב שקט",
+            "index": 2
+        }
+    ],
+    "hi": [
+        {
+            "title": "Manage Multiple Meds",
+            "subtitle": "Assign Medication Takers",
+            "index": 0
+        },
+        {
+            "title": "Track Your History",
+            "subtitle": "No More Missed Doses",
+            "index": 1
+        },
+        {
+            "title": "Never Miss Alerts",
+            "subtitle": "Repeat Notifications Even on Silent Mode",
+            "index": 2
+        }
+    ],
+    "hr": [
+        {
+            "title": "Manage Multiple Meds",
+            "subtitle": "Assign Medication Takers",
+            "index": 0
+        },
+        {
+            "title": "Track Your History",
+            "subtitle": "No More Missed Doses",
+            "index": 1
+        },
+        {
+            "title": "Never Miss Alerts",
+            "subtitle": "Ponovi obavijesti čak i u tihom načinu",
+            "index": 2
+        }
+    ],
+    "hu": [
+        {
+            "title": "Manage Multiple Meds",
+            "subtitle": "Assign Medication Takers",
+            "index": 0
+        },
+        {
+            "title": "Track Your History",
+            "subtitle": "No More Missed Doses",
+            "index": 1
+        },
+        {
+            "title": "Soha ne maradj le emlékeztetőkről",
+            "subtitle": "Repeat Notifications Even on Silent Mode",
+            "index": 2
+        }
+    ],
+    "id": [
+        {
+            "title": "Manage Multiple Meds",
+            "subtitle": "Assign Medication Takers",
+            "index": 0
+        },
+        {
+            "title": "Track Your History",
+            "subtitle": "No More Missed Doses",
+            "index": 1
+        },
+        {
+            "title": "Never Miss Alerts",
+            "subtitle": "Repeat Notifications Even on Silent Mode",
+            "index": 2
+        }
+    ],
+    "it": [
+        {
+            "title": "Manage Multiple Meds",
+            "subtitle": "Assegna i Responsabili del Farmaco",
+            "index": 0
+        },
+        {
+            "title": "Track Your History",
+            "subtitle": "No More Missed Doses",
+            "index": 1
+        },
+        {
+            "title": "Never Miss Alerts",
+            "subtitle": "Ripeti le notifiche anche in modalità silenziosa",
+            "index": 2
+        }
+    ],
+    "ko": [
+        {
+            "title": "Manage Multiple Meds",
+            "subtitle": "Assign Medication Takers",
+            "index": 0
+        },
+        {
+            "title": "Track Your History",
+            "subtitle": "복용 잊지 마세요",
+            "index": 1
+        },
+        {
+            "title": "Never Miss Alerts",
+            "subtitle": "Repeat Notifications Even on Silent Mode",
+            "index": 2
+        }
+    ],
+    "ms": [
+        {
+            "title": "Manage Multiple Meds",
+            "subtitle": "Assign Medication Takers",
+            "index": 0
+        },
+        {
+            "title": "Track Your History",
+            "subtitle": "No More Missed Doses",
+            "index": 1
+        },
+        {
+            "title": "Never Miss Alerts",
+            "subtitle": "Ulang Pemberitahuan Walaupun pada Mod Senyap",
+            "index": 2
+        }
+    ],
+    "nl-NL": [
+        {
+            "title": "Manage Multiple Meds",
+            "subtitle": "Assign Medication Takers",
+            "index": 0
+        },
+        {
+            "title": "Track Your History",
+            "subtitle": "No More Missed Doses",
+            "index": 1
+        },
+        {
+            "title": "Nooit waarschuwingen missen",
+            "subtitle": "Herhaal meldingen, zelfs in stille modus",
+            "index": 2
+        }
+    ],
+    "no": [
+        {
+            "title": "Manage Multiple Meds",
+            "subtitle": "Assign Medication Takers",
+            "index": 0
+        },
+        {
+            "title": "Track Your History",
+            "subtitle": "No More Missed Doses",
+            "index": 1
+        },
+        {
+            "title": "Null oppdateringer som går deg forbi",
+            "subtitle": "Repeat Notifications Even on Silent Mode",
+            "index": 2
+        }
+    ],
+    "pl": [
+        {
+            "title": "Manage Multiple Meds",
+            "subtitle": "Assign Medication Takers",
+            "index": 0
+        },
+        {
+            "title": "Track Your History",
+            "subtitle": "No More Missed Doses",
+            "index": 1
+        },
+        {
+            "title": "Nigdy nie przegap powiadomień",
+            "subtitle": "Repeat Notifications Even on Silent Mode",
+            "index": 2
+        }
+    ],
+    "pt-BR": [
+        {
+            "title": "Manage Multiple Meds",
+            "subtitle": "Atribuir Responsáveis por Medicamentos",
+            "index": 0
+        },
+        {
+            "title": "Acompanhe seu Histórico",
+            "subtitle": "No More Missed Doses",
+            "index": 1
+        },
+        {
+            "title": "Never Miss Alerts",
+            "subtitle": "Repeat Notifications Even on Silent Mode",
+            "index": 2
+        }
+    ],
+    "pt-PT": [
+        {
+            "title": "Gerir Múltiplos Medicamentos",
+            "subtitle": "Assign Medication Takers",
+            "index": 0
+        },
+        {
+            "title": "Acompanhe o Seu Histórico",
+            "subtitle": "No More Missed Doses",
+            "index": 1
+        },
+        {
+            "title": "Nunca Perder Alertas",
+            "subtitle": "Repeat Notifications Even on Silent Mode",
+            "index": 2
+        }
+    ],
+    "ro": [
+        {
+            "title": "Manage Multiple Meds",
+            "subtitle": "Assign Medication Takers",
+            "index": 0
+        },
+        {
+            "title": "Track Your History",
+            "subtitle": "Nicio doză uitată",
+            "index": 1
+        },
+        {
+            "title": "Never Miss Alerts",
+            "subtitle": "Notificări repetate chiar și în modul silențios",
+            "index": 2
+        }
+    ],
+    "sk": [
+        {
+            "title": "Manage Multiple Meds",
+            "subtitle": "Priradiť užívateľov liekov",
+            "index": 0
+        },
+        {
+            "title": "Track Your History",
+            "subtitle": "No More Missed Doses",
+            "index": 1
+        },
+        {
+            "title": "Never Miss Alerts",
+            "subtitle": "Opakované upozornenia aj v tichom režime",
+            "index": 2
+        }
+    ],
+    "sv": [
+        {
+            "title": "Manage Multiple Meds",
+            "subtitle": "Tilldela läkemedelstagare",
+            "index": 0
+        },
+        {
+            "title": "Track Your History",
+            "subtitle": "No More Missed Doses",
+            "index": 1
+        },
+        {
+            "title": "Never Miss Alerts",
+            "subtitle": "Upprepa aviseringar även i tyst läge",
+            "index": 2
+        }
+    ],
+    "th": [
+        {
+            "title": "Manage Multiple Meds",
+            "subtitle": "Assign Medication Takers",
+            "index": 0
+        },
+        {
+            "title": "Track Your History",
+            "subtitle": "No More Missed Doses",
+            "index": 1
+        },
+        {
+            "title": "Never Miss Alerts",
+            "subtitle": "Repeat Notifications Even on Silent Mode",
+            "index": 2
+        }
+    ],
+    "tr": [
+        {
+            "title": "Birden Fazla İlacı Yönetin",
+            "subtitle": "İlaç Alanları Ata",
+            "index": 0
+        },
+        {
+            "title": "Track Your History",
+            "subtitle": "Doz Atlama Yok",
+            "index": 1
+        },
+        {
+            "title": "Never Miss Alerts",
+            "subtitle": "Sessiz Modda Bile Tekrar Eden Bildirimler",
+            "index": 2
+        }
+    ],
+    "uk": [
+        {
+            "title": "Керуйте кількома ліками",
+            "subtitle": "Призначити осіб для прийому ліків",
+            "index": 0
+        },
+        {
+            "title": "Track Your History",
+            "subtitle": "No More Missed Doses",
+            "index": 1
+        },
+        {
+            "title": "Ніколи не пропустіть нагадування",
+            "subtitle": "Повторювані сповіщення навіть у беззвучному режимі",
+            "index": 2
+        }
+    ],
+    "vi": [
+        {
+            "title": "Manage Multiple Meds",
+            "subtitle": "Assign Medication Takers",
+            "index": 0
+        },
+        {
+            "title": "Track Your History",
+            "subtitle": "No More Missed Doses",
+            "index": 1
+        },
+        {
+            "title": "Never Miss Alerts",
+            "subtitle": "Repeat Notifications Even on Silent Mode",
+            "index": 2
+        }
+    ],
+    "zh-Hans": [
+        {
+            "title": "Manage Multiple Meds",
+            "subtitle": "Assign Medication Takers",
+            "index": 0
+        },
+        {
+            "title": "Track Your History",
+            "subtitle": "No More Missed Doses",
+            "index": 1
+        },
+        {
+            "title": "Never Miss Alerts",
+            "subtitle": "即便在静音模式下也能重复通知",
+            "index": 2
+        }
+    ],
+    "zh-Hant": [
+        {
+            "title": "Manage Multiple Meds",
+            "subtitle": "Assign Medication Takers",
+            "index": 0
+        },
+        {
+            "title": "Track Your History",
+            "subtitle": "No More Missed Doses",
+            "index": 1
+        },
+        {
+            "title": "Never Miss Alerts",
+            "subtitle": "靜音模式下仍可重複通知",
+            "index": 2
+        }
+    ]
+}

@@ -247,19 +247,19 @@ List<Medicine> get medicines => [
       Medicine(
         id: '1',
         userID: '1',
-        name: '頭痛薬',
+        name: L.screenshotMedicationName1,
         beganDateTime: DateTime.now(),
         frequency: const DailyMedicationFrequency(),
-        doseReceiver: const DoseReceiver(id: '1', userID: '1', name: '自分'),
+        doseReceiver: DoseReceiver(id: '1', userID: '1', name: L.screenshotMedicationDoserReceiver1),
         memo: 'Memo 1',
         memoImageURL: 'https://example.com/memo.png',
         schedules: [
-          const MedicationSchedule(
+          MedicationSchedule(
             id: '1',
             hour: 10,
             minute: 0,
-            quantityMemo: '1錠',
-            notificationSetting: MedicineScheduleNotificationSetting(
+            quantityMemo: L.screenshotMedicationQuontityMemo1,
+            notificationSetting: const MedicineScheduleNotificationSetting(
               isReminderEnabled: true,
               isFollowupEnabled: true,
               useCriticalAlert: true,
@@ -270,19 +270,19 @@ List<Medicine> get medicines => [
       Medicine(
         id: '2',
         userID: '2',
-        name: 'ビタミン剤',
+        name: L.screenshotMedicationName2,
         beganDateTime: DateTime.now(),
         frequency: const DailyMedicationFrequency(),
-        doseReceiver: const DoseReceiver(id: '2', userID: '2', name: 'マナちゃん'),
+        doseReceiver: DoseReceiver(id: '2', userID: '2', name: L.screenshotMedicationDoserReceiver2),
         memo: 'Memo 2',
         memoImageURL: 'https://example.com/memo.png',
         schedules: [
-          const MedicationSchedule(
+          MedicationSchedule(
             id: '2',
             hour: 8,
             minute: 0,
-            quantityMemo: '2錠',
-            notificationSetting: MedicineScheduleNotificationSetting(
+            quantityMemo: L.screenshotMedicationQuontityMemo2,
+            notificationSetting: const MedicineScheduleNotificationSetting(
               isReminderEnabled: true,
               isFollowupEnabled: true,
               useCriticalAlert: true,

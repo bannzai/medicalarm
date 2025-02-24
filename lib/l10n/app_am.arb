@@ -731,5 +731,29 @@
   "screenshotMedicationHistoriesMemo": "በማለዳ በጣም የተቀመጥኩ ስለዚህ አይተማር ዝውውም ማድረግ አለብኝ",
   "@screenshotMedicationHistoriesMemo": {
     "description": "薬のメモの例"
+  },
+  "screenshotMedicationDoserReceiver1": "እንደዚህ ያለው የመዋቅር ተገንቢ ይመለከታል",
+  "@screenshotMedicationDoserReceiver1": {
+    "description": "薬の服用者の例"
+  },
+  "screenshotMedicationDoserReceiver2": "ማና ቻን",
+  "@screenshotMedicationDoserReceiver2": {
+    "description": "薬の服用者の例"
+  },
+  "screenshotMedicationQuontityMemo1": "1 አንድ",
+  "@screenshotMedicationQuontityMemo1": {
+    "description": "薬の服用量の例"
+  },
+  "screenshotMedicationQuontityMemo2": "2 በትርዓት",
+  "@screenshotMedicationQuontityMemo2": {
+    "description": "薬の服用量の例"
+  },
+  "screenshotMedicationName1": "የጭንቀት መድሃኒት",
+  "@screenshotMedicationName1": {
+    "description": "薬の名前の例"
+  },
+  "screenshotMedicationName2": "መሪዎች",
+  "@screenshotMedicationName2": {
+    "description": "薬の名前の例"
   }
 }
