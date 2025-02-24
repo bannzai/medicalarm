@@ -1,5 +1,6 @@
 import 'dart:async';
 
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_crashlytics/firebase_crashlytics.dart';
 import 'package:flutter/material.dart';
@@ -24,6 +25,7 @@ void main() async {
       MobileAds.instance.initialize(),
       Firebase.initializeApp(),
     ).wait;
+    FirebaseAuth.instance.setSettings(userAccessGroup: 'TQPN82UBBY.com.bannzai.medicalarm');
 
     // ignore: prefer_typing_uninitialized_variables
     final (_, sharedPreferences, _) = await (
