@@ -48,10 +48,6 @@ for screenshot in screenshots:
     lang = parts[1].replace(".png", "")
     lang = map_directory_name(lang)
 
-    if lang != "ja":
-        print(f"Skip {screenshot} because it is not Japanese")
-        continue
-
     print(f"test_function_name: {test_function_name}, lang: {lang}")
 
     screenshot_index = -1
