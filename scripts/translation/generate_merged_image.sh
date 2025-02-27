@@ -32,12 +32,11 @@ convert "${SCREENSHOT}" \
 echo 'Rounded image generated'
 
 if [ "$LANG" = 'ja' ]; then
-  # TODO: SUBTITLE
-  # \( "${SUBTITLE_65}" -gravity north -geometry +0+321 \) -composite \
   convert "${BACKGROUND_65}" \
     \( "$ROUNDED_FILE" -resize 947x2048 -gravity north -geometry +0+682 \) -composite \
     \( "${NOTCH_FRAME_65}" -gravity north -geometry +0+603 \) -composite \
     \( "${TITLE_65}" -gravity north -geometry +0+150 \) -composite \
+    \( "${SUBTITLE_65}" -gravity north -geometry +0+321 \) -composite \
     -alpha off $ARTIFACT65
   echo 'Generated 65 images for Japanese'
 else
