@@ -111,72 +111,72 @@ DateTimeRange _dateTimeRange(int page) {
   return DateTimeRange(start: first, end: last);
 }
 
-final List<Medicine> medicines = [
-  Medicine(
-    id: '1',
-    userID: '1',
-    name: L.screenshotMedicationName1,
-    beganDateTime: DateTime.now(),
-    frequency: const DailyMedicationFrequency(),
-    doseReceiver: DoseReceiver(id: '1', userID: '1', name: L.screenshotMedicationDoserReceiver1),
-    memo: 'Memo 1',
-    memoImageURL: 'https://example.com/memo.png',
-    schedules: [
-      MedicationSchedule(
+List<Medicine> get medicines => [
+      Medicine(
         id: '1',
-        hour: 10,
-        minute: 0,
-        quantityMemo: L.screenshotMedicationQuontityMemo1,
-        notificationSetting: const MedicineScheduleNotificationSetting(
-          isReminderEnabled: true,
-          isFollowupEnabled: true,
-          useCriticalAlert: true,
-        ),
+        userID: '1',
+        name: L.screenshotMedicationName1,
+        beganDateTime: DateTime.now(),
+        frequency: const DailyMedicationFrequency(),
+        doseReceiver: DoseReceiver(id: '1', userID: '1', name: L.screenshotMedicationDoserReceiver1),
+        memo: 'Memo 1',
+        memoImageURL: 'https://example.com/memo.png',
+        schedules: [
+          MedicationSchedule(
+            id: '1',
+            hour: 10,
+            minute: 0,
+            quantityMemo: L.screenshotMedicationQuontityMemo1,
+            notificationSetting: const MedicineScheduleNotificationSetting(
+              isReminderEnabled: true,
+              isFollowupEnabled: true,
+              useCriticalAlert: true,
+            ),
+          ),
+        ],
       ),
-    ],
-  ),
-  Medicine(
-    id: '2',
-    userID: '2',
-    name: L.screenshotMedicationName2,
-    beganDateTime: DateTime.now(),
-    frequency: const DailyMedicationFrequency(),
-    doseReceiver: DoseReceiver(id: '2', userID: '2', name: L.screenshotMedicationDoserReceiver2),
-    memo: 'Memo 2',
-    memoImageURL: 'https://example.com/memo.png',
-    schedules: [
-      MedicationSchedule(
+      Medicine(
         id: '2',
-        hour: 8,
-        minute: 0,
-        quantityMemo: L.screenshotMedicationQuontityMemo2,
-        notificationSetting: const MedicineScheduleNotificationSetting(
-          isReminderEnabled: true,
-          isFollowupEnabled: true,
-          useCriticalAlert: true,
-        ),
+        userID: '2',
+        name: L.screenshotMedicationName2,
+        beganDateTime: DateTime.now(),
+        frequency: const DailyMedicationFrequency(),
+        doseReceiver: DoseReceiver(id: '2', userID: '2', name: L.screenshotMedicationDoserReceiver2),
+        memo: 'Memo 2',
+        memoImageURL: 'https://example.com/memo.png',
+        schedules: [
+          MedicationSchedule(
+            id: '2',
+            hour: 8,
+            minute: 0,
+            quantityMemo: L.screenshotMedicationQuontityMemo2,
+            notificationSetting: const MedicineScheduleNotificationSetting(
+              isReminderEnabled: true,
+              isFollowupEnabled: true,
+              useCriticalAlert: true,
+            ),
+          ),
+        ],
       ),
-    ],
-  ),
-];
+    ];
 
-final List<MedicationHistory> medicationHistories = [
-  MedicationHistory(
-    id: '1',
-    userID: '1',
-    medicine: medicines[0],
-    actionKind: MedicationHistoryActionKind.take,
-    action: MedicationHistoryAction.take(
-      kind: MedicationHistoryActionKind.take,
-      medicationSchedule: medicines[0].schedules[0],
-      scheduledRecordedDate: DateTime.now(),
-    ),
-    memo: 'Memo 1',
-    recordedDateTime: DateTime.now(),
-    scheduledRecordedDate: DateTime.now(),
-    ttlExpiresDateTime: DateTime.now(),
-  ),
-];
+List<MedicationHistory> get medicationHistories => [
+      MedicationHistory(
+        id: '1',
+        userID: '1',
+        medicine: medicines[0],
+        actionKind: MedicationHistoryActionKind.take,
+        action: MedicationHistoryAction.take(
+          kind: MedicationHistoryActionKind.take,
+          medicationSchedule: medicines[0].schedules[0],
+          scheduledRecordedDate: DateTime.now(),
+        ),
+        memo: 'Memo 1',
+        recordedDateTime: DateTime.now(),
+        scheduledRecordedDate: DateTime.now(),
+        ttlExpiresDateTime: DateTime.now(),
+      ),
+    ];
 
 class MedicalAddFloatingActionButtonChild extends StatelessWidget {
   const MedicalAddFloatingActionButtonChild({

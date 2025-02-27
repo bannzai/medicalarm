@@ -291,20 +291,21 @@ List<Medicine> get medicines => [
         ],
       ),
     ];
-final List<MedicationHistory> medicationHistories = [
-  MedicationHistory(
-    id: '1',
-    userID: '1',
-    medicine: medicines[0],
-    actionKind: MedicationHistoryActionKind.take,
-    action: MedicationHistoryAction.take(
-      kind: MedicationHistoryActionKind.take,
-      medicationSchedule: medicines[0].schedules[0],
-      scheduledRecordedDate: DateTime.now(),
-    ),
-    memo: L.screenshotMedicationHistoriesMemo,
-    recordedDateTime: DateTime.now(),
-    scheduledRecordedDate: DateTime.now(),
-    ttlExpiresDateTime: DateTime.now(),
-  ),
-];
+
+List<MedicationHistory> get medicationHistories => [
+      MedicationHistory(
+        id: '1',
+        userID: '1',
+        medicine: medicines[0],
+        actionKind: MedicationHistoryActionKind.take,
+        action: MedicationHistoryAction.take(
+          kind: MedicationHistoryActionKind.take,
+          medicationSchedule: medicines[0].schedules[0],
+          scheduledRecordedDate: DateTime.now(),
+        ),
+        memo: L.screenshotMedicationHistoriesMemo,
+        recordedDateTime: DateTime.now(),
+        scheduledRecordedDate: DateTime.now(),
+        ttlExpiresDateTime: DateTime.now(),
+      ),
+    ];
