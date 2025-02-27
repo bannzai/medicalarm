@@ -15,7 +15,6 @@ mkdir -p "$ARTIFACT_DIR/$LANG"
 BACKGROUND_65="scripts/translation/resources/6.5inchi/$INDEX.png"
 TITLE_65="artifacts/text_to_image/$LANG/6.5inchi/title_$INDEX.png"
 # TODO: SUBTITLE
-# SUBTITLE_65="artifacts/text_to_image/$LANG/6.5inchi/subtitle_$INDEX.png"
 NOTCH_FRAME_65="scripts/translation/resources/6.5inchi/notch.png"
 ARTIFACT65="$ARTIFACT_DIR/$LANG/${INDEX}_APP_IPHONE_65_${INDEX}.png"
 
@@ -32,6 +31,7 @@ convert "${SCREENSHOT}" \
 echo 'Rounded image generated'
 
 if [ "$LANG" = 'ja' ]; then
+  SUBTITLE_65="artifacts/text_to_image/$LANG/6.5inchi/subtitle_$INDEX.png"
   convert "${BACKGROUND_65}" \
     \( "$ROUNDED_FILE" -resize 947x2048 -gravity north -geometry +0+682 \) -composite \
     \( "${NOTCH_FRAME_65}" -gravity north -geometry +0+603 \) -composite \
