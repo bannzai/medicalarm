@@ -1,4 +1,3 @@
-
 #!/bin/bash
 set -euo pipefail
 
@@ -23,7 +22,6 @@ mkdir -p "$ARTIFACTS/$LANGUAGE/6.5inchi"
 echo "BEGIN text-to-image TITLE:$TITLE, SUBTITLE:$SUBTITLE, LANGUAGE:$LANGUAGE"
 
 echo 'start 6.5inchi'
-# 6.7inchi
 if [ ! -d "$ARTIFACTS/$LANGUAGE/6.5inchi/title_$INDEX.png" ]; then
   if [ -z "$TITLE" ]; then
     # 空文字で生成できない&何かしらlabelが必要だったので、`a` で出力して fillをnoneにして透明にしている
@@ -33,10 +31,27 @@ if [ ! -d "$ARTIFACTS/$LANGUAGE/6.5inchi/title_$INDEX.png" ]; then
     # subtitleを一旦表示しないのでたかさを330にする
     # convert -size 1284x270 -background none -font '/Library/Fonts/Arial Unicode.ttf' -pointsize 120 -fill 'white' -gravity center label:"$TITLE" "$ARTIFACTS/$LANGUAGE/6.5inchi/title_$INDEX.png"
     # convert -size 1284x196 -background none -font '/Library/Fonts/Arial Unicode.ttf' -pointsize 70 -fill 'white' -gravity center label:"$SUBTITLE" "$ARTIFACTS/$LANGUAGE/6.5inchi/subtitle_$INDEX.png"
+    if [ "$LANG" = 'ja' ]; then
+    convert -size 1284x270 -background none -font '/Library/Fonts/Arial Unicode.ttf' -pointsize 120 -fill '#800080' -gravity center label:"$TITLE" "$ARTIFACTS/$LANGUAGE/6.5inchi/title_$INDEX.png"
+    else
     convert -size 1284x330 -background none -font '/Library/Fonts/Arial Unicode.ttf' -pointsize 120 -fill '#800080' -gravity center label:"$TITLE" "$ARTIFACTS/$LANGUAGE/6.5inchi/title_$INDEX.png"
+    fi
   fi
 else
   echo "Skipping 6.5inchi text for $LANGUAGE"
+fi
+
+# subtitleを生成する処理
+if [ ! -f "$ARTIFACTS/$LANGUAGE/6.5inchi/subtitle_$INDEX.png" ]; then
+  if [ -z "$SUBTITLE" ]; then
+    # サブタイトルが空の場合、透明な画像を生成
+    convert -size 1284x196 -background none -font '/Library/Fonts/Arial Unicode.ttf' -pointsize 70 -fill none -gravity center label:"a" "$ARTIFACTS/$LANGUAGE/6.5inchi/subtitle_$INDEX.png"
+  else
+    # サブタイトルがある場合、テキストを表示した画像を生成
+    convert -size 1284x196 -background none -font '/Library/Fonts/Arial Unicode.ttf' -pointsize 70 -fill '#800080' -gravity center label:"$SUBTITLE" "$ARTIFACTS/$LANGUAGE/6.5inchi/subtitle_$INDEX.png"
+  fi
+else
+  echo "Skipping subtitle generation for $LANGUAGE"
 fi
 
 echo "END text-to-image TITLE:$TITLE, SUBTITLE:$SUBTITLE, LANGUAGE:$LANGUAGE"
