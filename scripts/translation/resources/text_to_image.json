@@ -1,13 +1,13 @@
 {
-    "ar-SA": [
+    "ja": [
         {
-            "title": "Manage Multiple Meds",
-            "subtitle": "Assign Medication Takers",
+            "title": "複数の薬を管理",
+            "subtitle": "服用者も複数人登録できます",
             "index": 0
         },
         {
-            "title": "Track Your History",
-            "subtitle": "No More Missed Doses",
+            "title": "絶対に通知に気づけます",
+            "subtitle": "マナーモードでも届く通知に繰り返し設定",
             "index": 1
         },
         {
