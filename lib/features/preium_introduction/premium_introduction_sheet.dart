@@ -30,9 +30,16 @@ class PremiumIntroductionSheet extends HookConsumerWidget {
         ref.watch(customerInfoProvider),
         ref.watch(offeringsProvider),
       ).when(
-        data: (data) => _Body(
-          customerInfo: data.$1,
-          offerings: data.$2,
+        data: (data) => DraggableScrollableSheet(
+          initialChildSize: 1,
+          minChildSize: 1,
+          builder: (context, scrollController) {
+            return _Body(
+              customerInfo: data.$1,
+              offerings: data.$2,
+              scrollController: scrollController,
+            );
+          },
         ),
         error: (error, stackTrace) => RetryPage(exception: error),
         loading: () => const IndicatorPage(),
@@ -44,10 +51,12 @@ class PremiumIntroductionSheet extends HookConsumerWidget {
 class _Body extends HookConsumerWidget {
   final CustomerInfo customerInfo;
   final Offerings offerings;
+  final ScrollController scrollController;
 
   const _Body({
     required this.customerInfo,
     required this.offerings,
+    required this.scrollController,
   });
 
   @override
@@ -71,155 +80,160 @@ class _Body extends HookConsumerWidget {
         toolbarHeight: 0,
         elevation: 1,
       ),
-      body: Container(
-        color: Colors.white,
-        child: Column(
-          children: [
-            Container(
-              color: AppColors.primary,
-              child: const Stack(
-                children: [
-                  SizedBox(
-                    width: double.infinity,
-                    child: PremiumIntroductionHeader(),
-                  ),
-                  Positioned(
-                    left: 0,
-                    top: 0,
-                    child: CloseButton(
-                      color: Colors.white,
+      body: SafeArea(
+        child: Container(
+          color: Colors.white,
+          child: Column(
+            children: [
+              Container(
+                color: AppColors.primary,
+                child: const Stack(
+                  children: [
+                    SizedBox(
+                      width: double.infinity,
+                      child: PremiumIntroductionHeader(),
                     ),
-                  ),
-                ],
-              ),
-            ),
-            SingleChildScrollView(
-              padding: const EdgeInsets.only(bottom: 100, top: 20),
-              child: Column(
-                mainAxisSize: MainAxisSize.min,
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  if (customerInfo.activeSubscriptions.isNotEmpty) ...[
-                    const SizedBox(height: 32),
-                    const PremiumUserThanksRow(),
-                  ],
-                  if (customerInfo.activeSubscriptions.isEmpty) ...[
-                    Padding(
-                      padding: const EdgeInsets.symmetric(horizontal: 20),
-                      child: Container(
-                        padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 16),
-                        decoration: BoxDecoration(
-                          color: Colors.white,
-                          borderRadius: const BorderRadius.all(Radius.circular(8)),
-                          border: Border.all(
-                            width: 0.4,
-                            color: Colors.grey.shade500,
-                          ),
-                        ),
-                        child: DefaultTextStyle(
-                          style: const TextStyle(fontSize: 18, fontWeight: FontWeight.normal, color: Colors.black),
-                          child: Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: [
-                              Row(
-                                children: [
-                                  const Icon(Icons.remove_red_eye),
-                                  const SizedBox(width: 8),
-                                  Text(L.premiumFeatureAds),
-                                ],
-                              ),
-                              const SizedBox(height: 4),
-                              Row(
-                                children: [
-                                  const Icon(Icons.history),
-                                  const SizedBox(width: 8),
-                                  Text(L.premiumFeatureHistory),
-                                ],
-                              ),
-                              const SizedBox(height: 4),
-                              Row(
-                                children: [
-                                  const Icon(Icons.medication),
-                                  const SizedBox(width: 8),
-                                  Text.rich(
-                                    TextSpan(
-                                      children: [
-                                        TextSpan(
-                                          text: L.medicineRegistrationLimit,
-                                          style: const TextStyle(fontSize: 18, fontWeight: FontWeight.normal, color: Colors.black),
-                                        ),
-                                        TextSpan(
-                                          text: '${Medicine.maxCount(isPremium: false)} → ${Medicine.maxCount(isPremium: true)}',
-                                          style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold, color: Colors.black),
-                                        ),
-                                      ],
-                                    ),
-                                  ),
-                                ],
-                              ),
-                              const SizedBox(height: 4),
-                              Row(
-                                children: [
-                                  const Icon(Icons.schedule),
-                                  const SizedBox(width: 8),
-                                  Text.rich(
-                                    TextSpan(
-                                      children: [
-                                        TextSpan(
-                                          text: L.notificationScheduleLimit,
-                                          style: const TextStyle(fontSize: 18, fontWeight: FontWeight.normal, color: Colors.black),
-                                        ),
-                                        TextSpan(
-                                          text: '${MedicationSchedule.maxCount(isPremium: false)} → ${MedicationSchedule.maxCount(isPremium: true)}',
-                                          style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold, color: Colors.black),
-                                        ),
-                                      ],
-                                    ),
-                                  ),
-                                ],
-                              ),
-                              const SizedBox(height: 4),
-                              Row(
-                                children: [
-                                  const Icon(Icons.person),
-                                  const SizedBox(width: 8),
-                                  Text.rich(
-                                    TextSpan(
-                                      children: [
-                                        TextSpan(
-                                          text: L.doseReceiverRegistrationLimit,
-                                          style: const TextStyle(fontSize: 18, fontWeight: FontWeight.normal, color: Colors.black),
-                                        ),
-                                        TextSpan(
-                                          text: '${DoseReceiver.maxCount(isPremium: false)} → ${DoseReceiver.maxCount(isPremium: true)}',
-                                          style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold, color: Colors.black),
-                                        ),
-                                      ],
-                                    ),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                        ),
+                    Positioned(
+                      left: 0,
+                      top: 0,
+                      child: CloseButton(
+                        color: Colors.white,
                       ),
                     ),
-                    const SizedBox(height: 12),
-                    PurchaseButtons(
-                      offeringType: offeringType,
-                      monthlyPackage: monthlyPackage,
-                      annualPackage: annualPackage,
-                      isLoading: isLoading,
-                    ),
                   ],
-                  const SizedBox(height: 24),
-                  PremiumIntroductionFotter(
-                    isLoading: isLoading,
-                  ),
-                ],
+                ),
               ),
-            ),
-          ],
+              Expanded(
+                child: SingleChildScrollView(
+                  padding: const EdgeInsets.only(bottom: 100, top: 20),
+                  child: Column(
+                    mainAxisSize: MainAxisSize.min,
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      if (customerInfo.activeSubscriptions.isNotEmpty) ...[
+                        const SizedBox(height: 32),
+                        const PremiumUserThanksRow(),
+                      ],
+                      if (customerInfo.activeSubscriptions.isEmpty) ...[
+                        Padding(
+                          padding: const EdgeInsets.symmetric(horizontal: 20),
+                          child: Container(
+                            padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 16),
+                            decoration: BoxDecoration(
+                              color: Colors.white,
+                              borderRadius: const BorderRadius.all(Radius.circular(8)),
+                              border: Border.all(
+                                width: 0.4,
+                                color: Colors.grey.shade500,
+                              ),
+                            ),
+                            child: DefaultTextStyle(
+                              style: const TextStyle(fontSize: 18, fontWeight: FontWeight.normal, color: Colors.black),
+                              child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: [
+                                  Row(
+                                    children: [
+                                      const Icon(Icons.remove_red_eye),
+                                      const SizedBox(width: 8),
+                                      Text(L.premiumFeatureAds),
+                                    ],
+                                  ),
+                                  const SizedBox(height: 4),
+                                  Row(
+                                    children: [
+                                      const Icon(Icons.history),
+                                      const SizedBox(width: 8),
+                                      Text(L.premiumFeatureHistory),
+                                    ],
+                                  ),
+                                  const SizedBox(height: 4),
+                                  Row(
+                                    children: [
+                                      const Icon(Icons.medication),
+                                      const SizedBox(width: 8),
+                                      Text.rich(
+                                        TextSpan(
+                                          children: [
+                                            TextSpan(
+                                              text: L.medicineRegistrationLimit,
+                                              style: const TextStyle(fontSize: 18, fontWeight: FontWeight.normal, color: Colors.black),
+                                            ),
+                                            TextSpan(
+                                              text: '${Medicine.maxCount(isPremium: false)} → ${Medicine.maxCount(isPremium: true)}',
+                                              style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold, color: Colors.black),
+                                            ),
+                                          ],
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                  const SizedBox(height: 4),
+                                  Row(
+                                    children: [
+                                      const Icon(Icons.schedule),
+                                      const SizedBox(width: 8),
+                                      Text.rich(
+                                        TextSpan(
+                                          children: [
+                                            TextSpan(
+                                              text: L.notificationScheduleLimit,
+                                              style: const TextStyle(fontSize: 18, fontWeight: FontWeight.normal, color: Colors.black),
+                                            ),
+                                            TextSpan(
+                                              text:
+                                                  '${MedicationSchedule.maxCount(isPremium: false)} → ${MedicationSchedule.maxCount(isPremium: true)}',
+                                              style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold, color: Colors.black),
+                                            ),
+                                          ],
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                  const SizedBox(height: 4),
+                                  Row(
+                                    children: [
+                                      const Icon(Icons.person),
+                                      const SizedBox(width: 8),
+                                      Text.rich(
+                                        TextSpan(
+                                          children: [
+                                            TextSpan(
+                                              text: L.doseReceiverRegistrationLimit,
+                                              style: const TextStyle(fontSize: 18, fontWeight: FontWeight.normal, color: Colors.black),
+                                            ),
+                                            TextSpan(
+                                              text: '${DoseReceiver.maxCount(isPremium: false)} → ${DoseReceiver.maxCount(isPremium: true)}',
+                                              style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold, color: Colors.black),
+                                            ),
+                                          ],
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ),
+                        ),
+                        const SizedBox(height: 12),
+                        PurchaseButtons(
+                          offeringType: offeringType,
+                          monthlyPackage: monthlyPackage,
+                          annualPackage: annualPackage,
+                          isLoading: isLoading,
+                        ),
+                      ],
+                      const SizedBox(height: 24),
+                      PremiumIntroductionFotter(
+                        isLoading: isLoading,
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+            ],
+          ),
         ),
       ),
     );
