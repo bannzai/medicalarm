@@ -3,6 +3,7 @@ import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:medicalarm/entity/medicine.dart';
 import 'package:medicalarm/features/localization/l.dart';
+import 'package:medicalarm/features/medicine_form/components/schedule/focus_connect/section.dart';
 import 'package:medicalarm/features/medicine_form/components/schedule/notification_setting/section.dart';
 import 'package:medicalarm/theme/form.dart';
 
@@ -22,7 +23,7 @@ class MedicineScheduleSettingFormPage extends HookConsumerWidget {
     final isReminderEnabled = useState(schedule.notificationSetting.isReminderEnabled);
     final isFollowupEnabled = useState(schedule.notificationSetting.isFollowupEnabled);
     final useCriticalAlert = useState(schedule.notificationSetting.useCriticalAlert);
-    final primaryColor = Theme.of(context).colorScheme.primary;
+    final focusConnectSettingIsEnabled = useState(schedule.focusConnectSetting.isEnabled);
     isReminderEnabled.addListener(() {
       final copied = [...schedules.value];
       copied[index] = copied[index].copyWith(
@@ -44,6 +45,14 @@ class MedicineScheduleSettingFormPage extends HookConsumerWidget {
           copied[index].copyWith(notificationSetting: copied[index].notificationSetting.copyWith(useCriticalAlert: useCriticalAlert.value));
       schedules.value = copied;
     });
+    focusConnectSettingIsEnabled.addListener(() {
+      final copied = [...schedules.value];
+      copied[index] = copied[index].copyWith(
+        focusConnectSetting: copied[index].focusConnectSetting.copyWith(isEnabled: focusConnectSettingIsEnabled.value),
+      );
+      schedules.value = copied;
+    });
+    final primaryColor = Theme.of(context).colorScheme.primary;
 
     return GestureDetector(
       onTap: () {
@@ -62,6 +71,9 @@ class MedicineScheduleSettingFormPage extends HookConsumerWidget {
                     isReminderEnabled: isReminderEnabled,
                     isFollowupEnabled: isFollowupEnabled,
                     useCriticalAlert: useCriticalAlert,
+                  ),
+                  MedicineScheduleFocusConnectSettingSection(
+                    isEnabled: focusConnectSettingIsEnabled,
                   ),
                 ],
               ),
