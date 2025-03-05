@@ -31,7 +31,7 @@
 			<string>medicalarm</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>medicalarm://</string>
+				<string>medicalarm</string>
 			</array>
 		</dict>
 	</array>
