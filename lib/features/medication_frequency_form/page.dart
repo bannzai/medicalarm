@@ -5,9 +5,11 @@ import 'package:medicalarm/components/picker/number.dart';
 import 'package:medicalarm/features/medication_frequency_form/components/weekday_picker.dart';
 import 'package:medicalarm/entity/medication_frequency.dart';
 import 'package:medicalarm/features/medication_frequency_form/components/section_layout.dart';
+import 'package:medicalarm/style/color.dart';
 import 'package:medicalarm/theme/form.dart';
 import 'package:medicalarm/utils/date_time/weekday.dart';
 import 'package:medicalarm/features/localization/l.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class MedicationFrequencyFormPage extends HookConsumerWidget {
   final ValueNotifier<MedicationFrequency> frequency;
@@ -21,7 +23,7 @@ class MedicationFrequencyFormPage extends HookConsumerWidget {
     final primaryColor = Theme.of(context).colorScheme.primary;
 
     return DraggableScrollableSheet(
-      initialChildSize: 0.6,
+      initialChildSize: 0.8,
       maxChildSize: 0.8,
       builder: (context, scrollController) {
         return GestureDetector(
@@ -153,7 +155,58 @@ class MedicationFrequencyFormPage extends HookConsumerWidget {
                                     ),
                                   ],
                                 ),
-                            }
+                            },
+                            if (frequencyValue is CycleMedicationFrequency)
+                              MedicationFrequencyFormSectionLayout(
+                                icon: Icons.schedule,
+                                text: L.recommendedApp,
+                                children: [
+                                  Column(
+                                    children: [
+                                      Padding(
+                                        padding: const EdgeInsets.all(8.0),
+                                        child: Text(
+                                          L.pilllIntroduction,
+                                          style: const TextStyle(
+                                            fontSize: 12,
+                                            fontWeight: FontWeight.bold,
+                                            color: TextColor.gray,
+                                          ),
+                                        ),
+                                      ),
+                                      const Divider(),
+                                      GestureDetector(
+                                        onTap: () {
+                                          launchUrl(Uri.parse('https://apps.apple.com/jp/app/id1405931017'));
+                                        },
+                                        child: Padding(
+                                          padding: const EdgeInsets.all(8.0),
+                                          child: Row(
+                                            children: [
+                                              Image.asset(
+                                                'assets/pilll_icon.png',
+                                                width: 44,
+                                                height: 44,
+                                              ),
+                                              const SizedBox(width: 10),
+                                              Text(
+                                                L.installPilll,
+                                                style: const TextStyle(
+                                                  fontSize: 12,
+                                                  fontWeight: FontWeight.normal,
+                                                  color: TextColor.gray,
+                                                ),
+                                              ),
+                                              const Spacer(),
+                                              const Icon(Icons.chevron_right),
+                                            ],
+                                          ),
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                ],
+                              ),
                           ],
                         ),
                       ),
