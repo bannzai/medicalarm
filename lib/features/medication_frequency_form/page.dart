@@ -161,49 +161,19 @@ class MedicationFrequencyFormPage extends HookConsumerWidget {
                                 icon: Icons.schedule,
                                 text: L.recommendedApp,
                                 children: [
-                                  Column(
-                                    children: [
-                                      Padding(
-                                        padding: const EdgeInsets.all(8.0),
-                                        child: Text(
-                                          L.pilllIntroduction,
-                                          style: const TextStyle(
-                                            fontSize: 12,
-                                            fontWeight: FontWeight.bold,
-                                            color: TextColor.gray,
-                                          ),
-                                        ),
-                                      ),
-                                      const Divider(),
-                                      GestureDetector(
-                                        onTap: () {
-                                          launchUrl(Uri.parse('https://apps.apple.com/jp/app/id1405931017'));
-                                        },
-                                        child: Padding(
-                                          padding: const EdgeInsets.all(8.0),
-                                          child: Row(
-                                            children: [
-                                              Image.asset(
-                                                'assets/pilll_icon.png',
-                                                width: 44,
-                                                height: 44,
-                                              ),
-                                              const SizedBox(width: 10),
-                                              Text(
-                                                L.installPilll,
-                                                style: const TextStyle(
-                                                  fontSize: 12,
-                                                  fontWeight: FontWeight.normal,
-                                                  color: TextColor.gray,
-                                                ),
-                                              ),
-                                              const Spacer(),
-                                              const Icon(Icons.chevron_right),
-                                            ],
-                                          ),
-                                        ),
-                                      ),
-                                    ],
+                                  ListTile(
+                                    title: Text(L.installPilll),
+                                    subtitle: Text(L.pilllIntroduction,
+                                        style: const TextStyle(fontSize: 12, fontWeight: FontWeight.normal, color: TextColor.gray)),
+                                    leading: Image.asset(
+                                      'assets/pilll_icon.png',
+                                      width: 44,
+                                      height: 44,
+                                    ),
+                                    trailing: const Icon(Icons.chevron_right),
+                                    onTap: () {
+                                      launchUrl(Uri.parse('https://apps.apple.com/jp/app/id1405931017'));
+                                    },
                                   ),
                                 ],
                               ),
