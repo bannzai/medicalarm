@@ -763,5 +763,17 @@
   "notificationFollowupTitle": "服薬記録をつけ忘れていませんか？",
   "@notificationFollowupTitle": {
     "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
+  },
+  "recommendedApp": "おすすめアプリ",
+  "@recommendedApp": {
+    "description": "おすすめアプリのタイトル"
+  },
+  "pilllIntroduction": "もしかしてピルの管理ですか？より便利にピルの服用を管理しませんか？",
+  "@pilllIntroduction": {
+    "description": "ピルの管理の紹介"
+  },
+  "installPilll": "Pilllをインストール",
+  "@installPilll": {
+    "description": "Pilllをインストールするボタンのテキスト"
   }
 }
