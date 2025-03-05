@@ -23,8 +23,8 @@ class MedicationFrequencyFormPage extends HookConsumerWidget {
     final primaryColor = Theme.of(context).colorScheme.primary;
 
     return DraggableScrollableSheet(
-      initialChildSize: 0.8,
-      maxChildSize: 0.8,
+      initialChildSize: 1,
+      maxChildSize: 1,
       builder: (context, scrollController) {
         return GestureDetector(
           onTap: () {
