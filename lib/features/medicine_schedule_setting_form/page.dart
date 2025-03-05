@@ -6,11 +6,11 @@ import 'package:medicalarm/features/localization/l.dart';
 import 'package:medicalarm/features/medicine_form/components/schedule/notification_setting/section.dart';
 import 'package:medicalarm/theme/form.dart';
 
-class MedicineScheduleNotificationFormPage extends HookConsumerWidget {
+class MedicineScheduleSettingFormPage extends HookConsumerWidget {
   final MedicationSchedule schedule;
   final ValueNotifier<List<MedicationSchedule>> schedules;
   final int index;
-  const MedicineScheduleNotificationFormPage({
+  const MedicineScheduleSettingFormPage({
     super.key,
     required this.schedule,
     required this.schedules,
