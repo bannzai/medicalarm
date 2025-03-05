@@ -651,6 +651,153 @@ abstract class _MedicineScheduleNotificationSetting extends MedicineScheduleNoti
   _$$MedicineScheduleNotificationSettingImplCopyWith<_$MedicineScheduleNotificationSettingImpl> get copyWith => throw _privateConstructorUsedError;
 }
 
+MedicineScheduleFocusConnectSetting _$MedicineScheduleFocusConnectSettingFromJson(Map<String, dynamic> json) {
+  return _MedicineScheduleFocusConnectSetting.fromJson(json);
+}
+
+/// @nodoc
+mixin _$MedicineScheduleFocusConnectSetting {
+  bool get isEnabled => throw _privateConstructorUsedError;
+
+  /// Serializes this MedicineScheduleFocusConnectSetting to a JSON map.
+  Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
+
+  /// Create a copy of MedicineScheduleFocusConnectSetting
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  $MedicineScheduleFocusConnectSettingCopyWith<MedicineScheduleFocusConnectSetting> get copyWith => throw _privateConstructorUsedError;
+}
+
+/// @nodoc
+abstract class $MedicineScheduleFocusConnectSettingCopyWith<$Res> {
+  factory $MedicineScheduleFocusConnectSettingCopyWith(
+          MedicineScheduleFocusConnectSetting value, $Res Function(MedicineScheduleFocusConnectSetting) then) =
+      _$MedicineScheduleFocusConnectSettingCopyWithImpl<$Res, MedicineScheduleFocusConnectSetting>;
+  @useResult
+  $Res call({bool isEnabled});
+}
+
+/// @nodoc
+class _$MedicineScheduleFocusConnectSettingCopyWithImpl<$Res, $Val extends MedicineScheduleFocusConnectSetting>
+    implements $MedicineScheduleFocusConnectSettingCopyWith<$Res> {
+  _$MedicineScheduleFocusConnectSettingCopyWithImpl(this._value, this._then);
+
+  // ignore: unused_field
+  final $Val _value;
+  // ignore: unused_field
+  final $Res Function($Val) _then;
+
+  /// Create a copy of MedicineScheduleFocusConnectSetting
+  /// with the given fields replaced by the non-null parameter values.
+  @pragma('vm:prefer-inline')
+  @override
+  $Res call({
+    Object? isEnabled = null,
+  }) {
+    return _then(_value.copyWith(
+      isEnabled: null == isEnabled
+          ? _value.isEnabled
+          : isEnabled // ignore: cast_nullable_to_non_nullable
+              as bool,
+    ) as $Val);
+  }
+}
+
+/// @nodoc
+abstract class _$$MedicineScheduleFocusConnectSettingImplCopyWith<$Res> implements $MedicineScheduleFocusConnectSettingCopyWith<$Res> {
+  factory _$$MedicineScheduleFocusConnectSettingImplCopyWith(
+          _$MedicineScheduleFocusConnectSettingImpl value, $Res Function(_$MedicineScheduleFocusConnectSettingImpl) then) =
+      __$$MedicineScheduleFocusConnectSettingImplCopyWithImpl<$Res>;
+  @override
+  @useResult
+  $Res call({bool isEnabled});
+}
+
+/// @nodoc
+class __$$MedicineScheduleFocusConnectSettingImplCopyWithImpl<$Res>
+    extends _$MedicineScheduleFocusConnectSettingCopyWithImpl<$Res, _$MedicineScheduleFocusConnectSettingImpl>
+    implements _$$MedicineScheduleFocusConnectSettingImplCopyWith<$Res> {
+  __$$MedicineScheduleFocusConnectSettingImplCopyWithImpl(
+      _$MedicineScheduleFocusConnectSettingImpl _value, $Res Function(_$MedicineScheduleFocusConnectSettingImpl) _then)
+      : super(_value, _then);
+
+  /// Create a copy of MedicineScheduleFocusConnectSetting
+  /// with the given fields replaced by the non-null parameter values.
+  @pragma('vm:prefer-inline')
+  @override
+  $Res call({
+    Object? isEnabled = null,
+  }) {
+    return _then(_$MedicineScheduleFocusConnectSettingImpl(
+      isEnabled: null == isEnabled
+          ? _value.isEnabled
+          : isEnabled // ignore: cast_nullable_to_non_nullable
+              as bool,
+    ));
+  }
+}
+
+/// @nodoc
+
+@JsonSerializable(explicitToJson: true)
+class _$MedicineScheduleFocusConnectSettingImpl extends _MedicineScheduleFocusConnectSetting {
+  const _$MedicineScheduleFocusConnectSettingImpl({this.isEnabled = false}) : super._();
+
+  factory _$MedicineScheduleFocusConnectSettingImpl.fromJson(Map<String, dynamic> json) => _$$MedicineScheduleFocusConnectSettingImplFromJson(json);
+
+  @override
+  @JsonKey()
+  final bool isEnabled;
+
+  @override
+  String toString() {
+    return 'MedicineScheduleFocusConnectSetting(isEnabled: $isEnabled)';
+  }
+
+  @override
+  bool operator ==(Object other) {
+    return identical(this, other) ||
+        (other.runtimeType == runtimeType &&
+            other is _$MedicineScheduleFocusConnectSettingImpl &&
+            (identical(other.isEnabled, isEnabled) || other.isEnabled == isEnabled));
+  }
+
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  @override
+  int get hashCode => Object.hash(runtimeType, isEnabled);
+
+  /// Create a copy of MedicineScheduleFocusConnectSetting
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  @override
+  @pragma('vm:prefer-inline')
+  _$$MedicineScheduleFocusConnectSettingImplCopyWith<_$MedicineScheduleFocusConnectSettingImpl> get copyWith =>
+      __$$MedicineScheduleFocusConnectSettingImplCopyWithImpl<_$MedicineScheduleFocusConnectSettingImpl>(this, _$identity);
+
+  @override
+  Map<String, dynamic> toJson() {
+    return _$$MedicineScheduleFocusConnectSettingImplToJson(
+      this,
+    );
+  }
+}
+
+abstract class _MedicineScheduleFocusConnectSetting extends MedicineScheduleFocusConnectSetting {
+  const factory _MedicineScheduleFocusConnectSetting({final bool isEnabled}) = _$MedicineScheduleFocusConnectSettingImpl;
+  const _MedicineScheduleFocusConnectSetting._() : super._();
+
+  factory _MedicineScheduleFocusConnectSetting.fromJson(Map<String, dynamic> json) = _$MedicineScheduleFocusConnectSettingImpl.fromJson;
+
+  @override
+  bool get isEnabled;
+
+  /// Create a copy of MedicineScheduleFocusConnectSetting
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  _$$MedicineScheduleFocusConnectSettingImplCopyWith<_$MedicineScheduleFocusConnectSettingImpl> get copyWith => throw _privateConstructorUsedError;
+}
+
 MedicationSchedule _$MedicationScheduleFromJson(Map<String, dynamic> json) {
   return _MedicationSchedule.fromJson(json);
 }
@@ -662,6 +809,7 @@ mixin _$MedicationSchedule {
   int get minute => throw _privateConstructorUsedError;
   String get quantityMemo => throw _privateConstructorUsedError;
   MedicineScheduleNotificationSetting get notificationSetting => throw _privateConstructorUsedError;
+  MedicineScheduleFocusConnectSetting get focusConnectSetting => throw _privateConstructorUsedError;
 
   /// Serializes this MedicationSchedule to a JSON map.
   Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
@@ -677,9 +825,16 @@ abstract class $MedicationScheduleCopyWith<$Res> {
   factory $MedicationScheduleCopyWith(MedicationSchedule value, $Res Function(MedicationSchedule) then) =
       _$MedicationScheduleCopyWithImpl<$Res, MedicationSchedule>;
   @useResult
-  $Res call({String id, int hour, int minute, String quantityMemo, MedicineScheduleNotificationSetting notificationSetting});
+  $Res call(
+      {String id,
+      int hour,
+      int minute,
+      String quantityMemo,
+      MedicineScheduleNotificationSetting notificationSetting,
+      MedicineScheduleFocusConnectSetting focusConnectSetting});
 
   $MedicineScheduleNotificationSettingCopyWith<$Res> get notificationSetting;
+  $MedicineScheduleFocusConnectSettingCopyWith<$Res> get focusConnectSetting;
 }
 
 /// @nodoc
@@ -701,6 +856,7 @@ class _$MedicationScheduleCopyWithImpl<$Res, $Val extends MedicationSchedule> im
     Object? minute = null,
     Object? quantityMemo = null,
     Object? notificationSetting = null,
+    Object? focusConnectSetting = null,
   }) {
     return _then(_value.copyWith(
       id: null == id
@@ -723,6 +879,10 @@ class _$MedicationScheduleCopyWithImpl<$Res, $Val extends MedicationSchedule> im
           ? _value.notificationSetting
           : notificationSetting // ignore: cast_nullable_to_non_nullable
               as MedicineScheduleNotificationSetting,
+      focusConnectSetting: null == focusConnectSetting
+          ? _value.focusConnectSetting
+          : focusConnectSetting // ignore: cast_nullable_to_non_nullable
+              as MedicineScheduleFocusConnectSetting,
     ) as $Val);
   }
 
@@ -735,6 +895,16 @@ class _$MedicationScheduleCopyWithImpl<$Res, $Val extends MedicationSchedule> im
       return _then(_value.copyWith(notificationSetting: value) as $Val);
     });
   }
+
+  /// Create a copy of MedicationSchedule
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $MedicineScheduleFocusConnectSettingCopyWith<$Res> get focusConnectSetting {
+    return $MedicineScheduleFocusConnectSettingCopyWith<$Res>(_value.focusConnectSetting, (value) {
+      return _then(_value.copyWith(focusConnectSetting: value) as $Val);
+    });
+  }
 }
 
 /// @nodoc
@@ -743,10 +913,18 @@ abstract class _$$MedicationScheduleImplCopyWith<$Res> implements $MedicationSch
       __$$MedicationScheduleImplCopyWithImpl<$Res>;
   @override
   @useResult
-  $Res call({String id, int hour, int minute, String quantityMemo, MedicineScheduleNotificationSetting notificationSetting});
+  $Res call(
+      {String id,
+      int hour,
+      int minute,
+      String quantityMemo,
+      MedicineScheduleNotificationSetting notificationSetting,
+      MedicineScheduleFocusConnectSetting focusConnectSetting});
 
   @override
   $MedicineScheduleNotificationSettingCopyWith<$Res> get notificationSetting;
+  @override
+  $MedicineScheduleFocusConnectSettingCopyWith<$Res> get focusConnectSetting;
 }
 
 /// @nodoc
@@ -764,6 +942,7 @@ class __$$MedicationScheduleImplCopyWithImpl<$Res> extends _$MedicationScheduleC
     Object? minute = null,
     Object? quantityMemo = null,
     Object? notificationSetting = null,
+    Object? focusConnectSetting = null,
   }) {
     return _then(_$MedicationScheduleImpl(
       id: null == id
@@ -786,6 +965,10 @@ class __$$MedicationScheduleImplCopyWithImpl<$Res> extends _$MedicationScheduleC
           ? _value.notificationSetting
           : notificationSetting // ignore: cast_nullable_to_non_nullable
               as MedicineScheduleNotificationSetting,
+      focusConnectSetting: null == focusConnectSetting
+          ? _value.focusConnectSetting
+          : focusConnectSetting // ignore: cast_nullable_to_non_nullable
+              as MedicineScheduleFocusConnectSetting,
     ));
   }
 }
@@ -795,7 +978,12 @@ class __$$MedicationScheduleImplCopyWithImpl<$Res> extends _$MedicationScheduleC
 @JsonSerializable(explicitToJson: true)
 class _$MedicationScheduleImpl extends _MedicationSchedule {
   const _$MedicationScheduleImpl(
-      {required this.id, required this.hour, required this.minute, required this.quantityMemo, required this.notificationSetting})
+      {required this.id,
+      required this.hour,
+      required this.minute,
+      required this.quantityMemo,
+      required this.notificationSetting,
+      required this.focusConnectSetting = const MedicineScheduleFocusConnectSetting()})
       : super._();
 
   factory _$MedicationScheduleImpl.fromJson(Map<String, dynamic> json) => _$$MedicationScheduleImplFromJson(json);
@@ -810,10 +998,13 @@ class _$MedicationScheduleImpl extends _MedicationSchedule {
   final String quantityMemo;
   @override
   final MedicineScheduleNotificationSetting notificationSetting;
+  @override
+  @JsonKey()
+  final MedicineScheduleFocusConnectSetting focusConnectSetting;
 
   @override
   String toString() {
-    return 'MedicationSchedule(id: $id, hour: $hour, minute: $minute, quantityMemo: $quantityMemo, notificationSetting: $notificationSetting)';
+    return 'MedicationSchedule(id: $id, hour: $hour, minute: $minute, quantityMemo: $quantityMemo, notificationSetting: $notificationSetting, focusConnectSetting: $focusConnectSetting)';
   }
 
   @override
@@ -825,12 +1016,13 @@ class _$MedicationScheduleImpl extends _MedicationSchedule {
             (identical(other.hour, hour) || other.hour == hour) &&
             (identical(other.minute, minute) || other.minute == minute) &&
             (identical(other.quantityMemo, quantityMemo) || other.quantityMemo == quantityMemo) &&
-            (identical(other.notificationSetting, notificationSetting) || other.notificationSetting == notificationSetting));
+            (identical(other.notificationSetting, notificationSetting) || other.notificationSetting == notificationSetting) &&
+            (identical(other.focusConnectSetting, focusConnectSetting) || other.focusConnectSetting == focusConnectSetting));
   }
 
   @JsonKey(includeFromJson: false, includeToJson: false)
   @override
-  int get hashCode => Object.hash(runtimeType, id, hour, minute, quantityMemo, notificationSetting);
+  int get hashCode => Object.hash(runtimeType, id, hour, minute, quantityMemo, notificationSetting, focusConnectSetting);
 
   /// Create a copy of MedicationSchedule
   /// with the given fields replaced by the non-null parameter values.
@@ -854,7 +1046,8 @@ abstract class _MedicationSchedule extends MedicationSchedule {
       required final int hour,
       required final int minute,
       required final String quantityMemo,
-      required final MedicineScheduleNotificationSetting notificationSetting}) = _$MedicationScheduleImpl;
+      required final MedicineScheduleNotificationSetting notificationSetting,
+      required final MedicineScheduleFocusConnectSetting focusConnectSetting}) = _$MedicationScheduleImpl;
   const _MedicationSchedule._() : super._();
 
   factory _MedicationSchedule.fromJson(Map<String, dynamic> json) = _$MedicationScheduleImpl.fromJson;
@@ -869,6 +1062,8 @@ abstract class _MedicationSchedule extends MedicationSchedule {
   String get quantityMemo;
   @override
   MedicineScheduleNotificationSetting get notificationSetting;
+  @override
+  MedicineScheduleFocusConnectSetting get focusConnectSetting;
 
   /// Create a copy of MedicationSchedule
   /// with the given fields replaced by the non-null parameter values.
