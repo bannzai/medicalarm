@@ -809,7 +809,7 @@ mixin _$MedicationSchedule {
   int get minute => throw _privateConstructorUsedError;
   String get quantityMemo => throw _privateConstructorUsedError;
   MedicineScheduleNotificationSetting get notificationSetting => throw _privateConstructorUsedError;
-  MedicineScheduleFocusConnectSetting get focusConnectSetting => throw _privateConstructorUsedError;
+  MedicineScheduleFocusConnectSetting? get focusConnectSetting => throw _privateConstructorUsedError;
 
   /// Serializes this MedicationSchedule to a JSON map.
   Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
@@ -831,10 +831,10 @@ abstract class $MedicationScheduleCopyWith<$Res> {
       int minute,
       String quantityMemo,
       MedicineScheduleNotificationSetting notificationSetting,
-      MedicineScheduleFocusConnectSetting focusConnectSetting});
+      MedicineScheduleFocusConnectSetting? focusConnectSetting});
 
   $MedicineScheduleNotificationSettingCopyWith<$Res> get notificationSetting;
-  $MedicineScheduleFocusConnectSettingCopyWith<$Res> get focusConnectSetting;
+  $MedicineScheduleFocusConnectSettingCopyWith<$Res>? get focusConnectSetting;
 }
 
 /// @nodoc
@@ -856,7 +856,7 @@ class _$MedicationScheduleCopyWithImpl<$Res, $Val extends MedicationSchedule> im
     Object? minute = null,
     Object? quantityMemo = null,
     Object? notificationSetting = null,
-    Object? focusConnectSetting = null,
+    Object? focusConnectSetting = freezed,
   }) {
     return _then(_value.copyWith(
       id: null == id
@@ -879,10 +879,10 @@ class _$MedicationScheduleCopyWithImpl<$Res, $Val extends MedicationSchedule> im
           ? _value.notificationSetting
           : notificationSetting // ignore: cast_nullable_to_non_nullable
               as MedicineScheduleNotificationSetting,
-      focusConnectSetting: null == focusConnectSetting
+      focusConnectSetting: freezed == focusConnectSetting
           ? _value.focusConnectSetting
           : focusConnectSetting // ignore: cast_nullable_to_non_nullable
-              as MedicineScheduleFocusConnectSetting,
+              as MedicineScheduleFocusConnectSetting?,
     ) as $Val);
   }
 
@@ -900,8 +900,12 @@ class _$MedicationScheduleCopyWithImpl<$Res, $Val extends MedicationSchedule> im
   /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
-  $MedicineScheduleFocusConnectSettingCopyWith<$Res> get focusConnectSetting {
-    return $MedicineScheduleFocusConnectSettingCopyWith<$Res>(_value.focusConnectSetting, (value) {
+  $MedicineScheduleFocusConnectSettingCopyWith<$Res>? get focusConnectSetting {
+    if (_value.focusConnectSetting == null) {
+      return null;
+    }
+
+    return $MedicineScheduleFocusConnectSettingCopyWith<$Res>(_value.focusConnectSetting!, (value) {
       return _then(_value.copyWith(focusConnectSetting: value) as $Val);
     });
   }
@@ -919,12 +923,12 @@ abstract class _$$MedicationScheduleImplCopyWith<$Res> implements $MedicationSch
       int minute,
       String quantityMemo,
       MedicineScheduleNotificationSetting notificationSetting,
-      MedicineScheduleFocusConnectSetting focusConnectSetting});
+      MedicineScheduleFocusConnectSetting? focusConnectSetting});
 
   @override
   $MedicineScheduleNotificationSettingCopyWith<$Res> get notificationSetting;
   @override
-  $MedicineScheduleFocusConnectSettingCopyWith<$Res> get focusConnectSetting;
+  $MedicineScheduleFocusConnectSettingCopyWith<$Res>? get focusConnectSetting;
 }
 
 /// @nodoc
@@ -942,7 +946,7 @@ class __$$MedicationScheduleImplCopyWithImpl<$Res> extends _$MedicationScheduleC
     Object? minute = null,
     Object? quantityMemo = null,
     Object? notificationSetting = null,
-    Object? focusConnectSetting = null,
+    Object? focusConnectSetting = freezed,
   }) {
     return _then(_$MedicationScheduleImpl(
       id: null == id
@@ -965,10 +969,10 @@ class __$$MedicationScheduleImplCopyWithImpl<$Res> extends _$MedicationScheduleC
           ? _value.notificationSetting
           : notificationSetting // ignore: cast_nullable_to_non_nullable
               as MedicineScheduleNotificationSetting,
-      focusConnectSetting: null == focusConnectSetting
+      focusConnectSetting: freezed == focusConnectSetting
           ? _value.focusConnectSetting
           : focusConnectSetting // ignore: cast_nullable_to_non_nullable
-              as MedicineScheduleFocusConnectSetting,
+              as MedicineScheduleFocusConnectSetting?,
     ));
   }
 }
@@ -983,7 +987,7 @@ class _$MedicationScheduleImpl extends _MedicationSchedule {
       required this.minute,
       required this.quantityMemo,
       required this.notificationSetting,
-      required this.focusConnectSetting = const MedicineScheduleFocusConnectSetting()})
+      required this.focusConnectSetting})
       : super._();
 
   factory _$MedicationScheduleImpl.fromJson(Map<String, dynamic> json) => _$$MedicationScheduleImplFromJson(json);
@@ -999,8 +1003,7 @@ class _$MedicationScheduleImpl extends _MedicationSchedule {
   @override
   final MedicineScheduleNotificationSetting notificationSetting;
   @override
-  @JsonKey()
-  final MedicineScheduleFocusConnectSetting focusConnectSetting;
+  final MedicineScheduleFocusConnectSetting? focusConnectSetting;
 
   @override
   String toString() {
@@ -1047,7 +1050,7 @@ abstract class _MedicationSchedule extends MedicationSchedule {
       required final int minute,
       required final String quantityMemo,
       required final MedicineScheduleNotificationSetting notificationSetting,
-      required final MedicineScheduleFocusConnectSetting focusConnectSetting}) = _$MedicationScheduleImpl;
+      required final MedicineScheduleFocusConnectSetting? focusConnectSetting}) = _$MedicationScheduleImpl;
   const _MedicationSchedule._() : super._();
 
   factory _MedicationSchedule.fromJson(Map<String, dynamic> json) = _$MedicationScheduleImpl.fromJson;
@@ -1063,7 +1066,7 @@ abstract class _MedicationSchedule extends MedicationSchedule {
   @override
   MedicineScheduleNotificationSetting get notificationSetting;
   @override
-  MedicineScheduleFocusConnectSetting get focusConnectSetting;
+  MedicineScheduleFocusConnectSetting? get focusConnectSetting;
 
   /// Create a copy of MedicationSchedule
   /// with the given fields replaced by the non-null parameter values.

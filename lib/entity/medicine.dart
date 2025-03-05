@@ -73,7 +73,7 @@ class MedicationSchedule with _$MedicationSchedule {
     required int minute,
     required String quantityMemo,
     required MedicineScheduleNotificationSetting notificationSetting,
-    @Default(MedicineScheduleFocusConnectSetting()) required MedicineScheduleFocusConnectSetting focusConnectSetting,
+    required MedicineScheduleFocusConnectSetting? focusConnectSetting,
   }) = _MedicationSchedule;
   const MedicationSchedule._();
 

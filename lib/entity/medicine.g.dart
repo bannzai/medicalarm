@@ -69,7 +69,7 @@ _$MedicationScheduleImpl _$$MedicationScheduleImplFromJson(Map<String, dynamic> 
       quantityMemo: json['quantityMemo'] as String,
       notificationSetting: MedicineScheduleNotificationSetting.fromJson(json['notificationSetting'] as Map<String, dynamic>),
       focusConnectSetting: json['focusConnectSetting'] == null
-          ? const MedicineScheduleFocusConnectSetting()
+          ? null
           : MedicineScheduleFocusConnectSetting.fromJson(json['focusConnectSetting'] as Map<String, dynamic>),
     );
 
@@ -79,5 +79,5 @@ Map<String, dynamic> _$$MedicationScheduleImplToJson(_$MedicationScheduleImpl in
       'minute': instance.minute,
       'quantityMemo': instance.quantityMemo,
       'notificationSetting': instance.notificationSetting.toJson(),
-      'focusConnectSetting': instance.focusConnectSetting.toJson(),
+      'focusConnectSetting': instance.focusConnectSetting?.toJson(),
     };
