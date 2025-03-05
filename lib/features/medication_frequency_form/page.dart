@@ -172,7 +172,7 @@ class MedicationFrequencyFormPage extends HookConsumerWidget {
                                     ),
                                     trailing: const Icon(Icons.chevron_right),
                                     onTap: () {
-                                      launchUrl(Uri.parse('https://apps.apple.com/jp/app/id1405931017'));
+                                      launchUrl(Uri.parse('https://apps.apple.com/jp/app/id1405931017'), mode: LaunchMode.externalApplication);
                                     },
                                   ),
                                 ],
