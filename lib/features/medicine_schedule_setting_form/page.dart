@@ -23,7 +23,7 @@ class MedicineScheduleSettingFormPage extends HookConsumerWidget {
     final isReminderEnabled = useState(schedule.notificationSetting.isReminderEnabled);
     final isFollowupEnabled = useState(schedule.notificationSetting.isFollowupEnabled);
     final useCriticalAlert = useState(schedule.notificationSetting.useCriticalAlert);
-    final focusConnectSettingIsEnabled = useState(schedule.focusConnectSetting.isEnabled);
+    final focusConnectSettingIsEnabled = useState(schedule.focusConnectSetting?.isEnabled ?? false);
     isReminderEnabled.addListener(() {
       final copied = [...schedules.value];
       copied[index] = copied[index].copyWith(
@@ -47,9 +47,13 @@ class MedicineScheduleSettingFormPage extends HookConsumerWidget {
     });
     focusConnectSettingIsEnabled.addListener(() {
       final copied = [...schedules.value];
-      copied[index] = copied[index].copyWith(
-        focusConnectSetting: copied[index].focusConnectSetting.copyWith(isEnabled: focusConnectSettingIsEnabled.value),
-      );
+      final focusConnectSetting = copied[index].focusConnectSetting;
+      if (focusConnectSetting == null) {
+        copied[index] =
+            copied[index].copyWith(focusConnectSetting: MedicineScheduleFocusConnectSetting(isEnabled: focusConnectSettingIsEnabled.value));
+      } else {
+        copied[index] = copied[index].copyWith(focusConnectSetting: focusConnectSetting.copyWith(isEnabled: focusConnectSettingIsEnabled.value));
+      }
       schedules.value = copied;
     });
     final primaryColor = Theme.of(context).colorScheme.primary;
