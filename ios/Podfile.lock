@@ -1,4 +1,6 @@
 PODS:
+  - app_links (0.0.2):
+    - Flutter
   - cloud_firestore (5.6.0):
     - Firebase/Firestore (= 11.6.0)
     - firebase_core
@@ -281,6 +283,7 @@ PODS:
     - FlutterMacOS
 
 DEPENDENCIES:
+  - app_links (from `.symlinks/plugins/app_links/ios`)
   - cloud_firestore (from `.symlinks/plugins/cloud_firestore/ios`)
   - cloud_functions (from `.symlinks/plugins/cloud_functions/ios`)
   - firebase_analytics (from `.symlinks/plugins/firebase_analytics/ios`)
@@ -348,6 +351,8 @@ SPEC REPOS:
     - TOCropViewController
 
 EXTERNAL SOURCES:
+  app_links:
+    :path: ".symlinks/plugins/app_links/ios"
   cloud_firestore:
     :path: ".symlinks/plugins/cloud_firestore/ios"
   cloud_functions:
@@ -402,6 +407,7 @@ CHECKOUT OPTIONS:
     :tag: 11.6.0
 
 SPEC CHECKSUMS:
+  app_links: f3e17e4ee5e357b39d8b95290a9b2c299fca71c6
   cloud_firestore: 4e400e0609faca03c9654ce2e850f52b49388f82
   cloud_functions: 72a3c15c65c5b103a00b274ddc377b716ed2b8e9
   Firebase: 374a441a91ead896215703a674d58cdb3e9d772b
