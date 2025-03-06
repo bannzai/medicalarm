@@ -77,6 +77,7 @@ class MedicineScheduleSettingFormPage extends HookConsumerWidget {
                     useCriticalAlert: useCriticalAlert,
                   ),
                   MedicineScheduleFocusConnectSettingSection(
+                    schedule: schedule,
                     isEnabled: focusConnectSettingIsEnabled,
                   ),
                 ],
