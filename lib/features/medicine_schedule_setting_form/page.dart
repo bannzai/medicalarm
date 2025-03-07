@@ -23,7 +23,7 @@ class MedicineScheduleSettingFormPage extends HookConsumerWidget {
     final isReminderEnabled = useState(schedule.notificationSetting.isReminderEnabled);
     final isFollowupEnabled = useState(schedule.notificationSetting.isFollowupEnabled);
     final useCriticalAlert = useState(schedule.notificationSetting.useCriticalAlert);
-    final focusConnectSettingIsEnabled = useState(schedule.focusConnectSetting?.isEnabled ?? false);
+    final focusConnectID = useState(schedule.focusConnectSetting?.focusConnectID);
     isReminderEnabled.addListener(() {
       final copied = [...schedules.value];
       copied[index] = copied[index].copyWith(
@@ -45,14 +45,13 @@ class MedicineScheduleSettingFormPage extends HookConsumerWidget {
           copied[index].copyWith(notificationSetting: copied[index].notificationSetting.copyWith(useCriticalAlert: useCriticalAlert.value));
       schedules.value = copied;
     });
-    focusConnectSettingIsEnabled.addListener(() {
+    focusConnectID.addListener(() {
       final copied = [...schedules.value];
       final focusConnectSetting = copied[index].focusConnectSetting;
       if (focusConnectSetting == null) {
-        copied[index] =
-            copied[index].copyWith(focusConnectSetting: MedicineScheduleFocusConnectSetting(isEnabled: focusConnectSettingIsEnabled.value));
+        copied[index] = copied[index].copyWith(focusConnectSetting: MedicineScheduleFocusConnectSetting(focusConnectID: focusConnectID.value));
       } else {
-        copied[index] = copied[index].copyWith(focusConnectSetting: focusConnectSetting.copyWith(isEnabled: focusConnectSettingIsEnabled.value));
+        copied[index] = copied[index].copyWith(focusConnectSetting: focusConnectSetting.copyWith(focusConnectID: focusConnectID.value));
       }
       schedules.value = copied;
     });
@@ -78,7 +77,7 @@ class MedicineScheduleSettingFormPage extends HookConsumerWidget {
                   ),
                   MedicineScheduleFocusConnectSettingSection(
                     schedule: schedule,
-                    isEnabled: focusConnectSettingIsEnabled,
+                    focusConnectID: focusConnectID,
                   ),
                 ],
               ),
