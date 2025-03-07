@@ -55,11 +55,11 @@ Map<String, dynamic> _$$MedicineScheduleNotificationSettingImplToJson(_$Medicine
 
 _$MedicineScheduleFocusConnectSettingImpl _$$MedicineScheduleFocusConnectSettingImplFromJson(Map<String, dynamic> json) =>
     _$MedicineScheduleFocusConnectSettingImpl(
-      isEnabled: json['isEnabled'] as bool? ?? false,
+      focusConnectID: json['focusConnectID'] as String?,
     );
 
 Map<String, dynamic> _$$MedicineScheduleFocusConnectSettingImplToJson(_$MedicineScheduleFocusConnectSettingImpl instance) => <String, dynamic>{
-      'isEnabled': instance.isEnabled,
+      'focusConnectID': instance.focusConnectID,
     };
 
 _$MedicationScheduleImpl _$$MedicationScheduleImplFromJson(Map<String, dynamic> json) => _$MedicationScheduleImpl(

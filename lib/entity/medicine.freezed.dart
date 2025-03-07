@@ -657,7 +657,7 @@ MedicineScheduleFocusConnectSetting _$MedicineScheduleFocusConnectSettingFromJso
 
 /// @nodoc
 mixin _$MedicineScheduleFocusConnectSetting {
-  bool get isEnabled => throw _privateConstructorUsedError;
+  String? get focusConnectID => throw _privateConstructorUsedError;
 
   /// Serializes this MedicineScheduleFocusConnectSetting to a JSON map.
   Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
@@ -674,7 +674,7 @@ abstract class $MedicineScheduleFocusConnectSettingCopyWith<$Res> {
           MedicineScheduleFocusConnectSetting value, $Res Function(MedicineScheduleFocusConnectSetting) then) =
       _$MedicineScheduleFocusConnectSettingCopyWithImpl<$Res, MedicineScheduleFocusConnectSetting>;
   @useResult
-  $Res call({bool isEnabled});
+  $Res call({String? focusConnectID});
 }
 
 /// @nodoc
@@ -692,13 +692,13 @@ class _$MedicineScheduleFocusConnectSettingCopyWithImpl<$Res, $Val extends Medic
   @pragma('vm:prefer-inline')
   @override
   $Res call({
-    Object? isEnabled = null,
+    Object? focusConnectID = freezed,
   }) {
     return _then(_value.copyWith(
-      isEnabled: null == isEnabled
-          ? _value.isEnabled
-          : isEnabled // ignore: cast_nullable_to_non_nullable
-              as bool,
+      focusConnectID: freezed == focusConnectID
+          ? _value.focusConnectID
+          : focusConnectID // ignore: cast_nullable_to_non_nullable
+              as String?,
     ) as $Val);
   }
 }
@@ -710,7 +710,7 @@ abstract class _$$MedicineScheduleFocusConnectSettingImplCopyWith<$Res> implemen
       __$$MedicineScheduleFocusConnectSettingImplCopyWithImpl<$Res>;
   @override
   @useResult
-  $Res call({bool isEnabled});
+  $Res call({String? focusConnectID});
 }
 
 /// @nodoc
@@ -726,13 +726,13 @@ class __$$MedicineScheduleFocusConnectSettingImplCopyWithImpl<$Res>
   @pragma('vm:prefer-inline')
   @override
   $Res call({
-    Object? isEnabled = null,
+    Object? focusConnectID = freezed,
   }) {
     return _then(_$MedicineScheduleFocusConnectSettingImpl(
-      isEnabled: null == isEnabled
-          ? _value.isEnabled
-          : isEnabled // ignore: cast_nullable_to_non_nullable
-              as bool,
+      focusConnectID: freezed == focusConnectID
+          ? _value.focusConnectID
+          : focusConnectID // ignore: cast_nullable_to_non_nullable
+              as String?,
     ));
   }
 }
@@ -741,17 +741,16 @@ class __$$MedicineScheduleFocusConnectSettingImplCopyWithImpl<$Res>
 
 @JsonSerializable(explicitToJson: true)
 class _$MedicineScheduleFocusConnectSettingImpl extends _MedicineScheduleFocusConnectSetting {
-  const _$MedicineScheduleFocusConnectSettingImpl({this.isEnabled = false}) : super._();
+  const _$MedicineScheduleFocusConnectSettingImpl({this.focusConnectID}) : super._();
 
   factory _$MedicineScheduleFocusConnectSettingImpl.fromJson(Map<String, dynamic> json) => _$$MedicineScheduleFocusConnectSettingImplFromJson(json);
 
   @override
-  @JsonKey()
-  final bool isEnabled;
+  final String? focusConnectID;
 
   @override
   String toString() {
-    return 'MedicineScheduleFocusConnectSetting(isEnabled: $isEnabled)';
+    return 'MedicineScheduleFocusConnectSetting(focusConnectID: $focusConnectID)';
   }
 
   @override
@@ -759,12 +758,12 @@ class _$MedicineScheduleFocusConnectSettingImpl extends _MedicineScheduleFocusCo
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
             other is _$MedicineScheduleFocusConnectSettingImpl &&
-            (identical(other.isEnabled, isEnabled) || other.isEnabled == isEnabled));
+            (identical(other.focusConnectID, focusConnectID) || other.focusConnectID == focusConnectID));
   }
 
   @JsonKey(includeFromJson: false, includeToJson: false)
   @override
-  int get hashCode => Object.hash(runtimeType, isEnabled);
+  int get hashCode => Object.hash(runtimeType, focusConnectID);
 
   /// Create a copy of MedicineScheduleFocusConnectSetting
   /// with the given fields replaced by the non-null parameter values.
@@ -783,13 +782,13 @@ class _$MedicineScheduleFocusConnectSettingImpl extends _MedicineScheduleFocusCo
 }
 
 abstract class _MedicineScheduleFocusConnectSetting extends MedicineScheduleFocusConnectSetting {
-  const factory _MedicineScheduleFocusConnectSetting({final bool isEnabled}) = _$MedicineScheduleFocusConnectSettingImpl;
+  const factory _MedicineScheduleFocusConnectSetting({final String? focusConnectID}) = _$MedicineScheduleFocusConnectSettingImpl;
   const _MedicineScheduleFocusConnectSetting._() : super._();
 
   factory _MedicineScheduleFocusConnectSetting.fromJson(Map<String, dynamic> json) = _$MedicineScheduleFocusConnectSettingImpl.fromJson;
 
   @override
-  bool get isEnabled;
+  String? get focusConnectID;
 
   /// Create a copy of MedicineScheduleFocusConnectSetting
   /// with the given fields replaced by the non-null parameter values.
