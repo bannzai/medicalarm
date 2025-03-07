@@ -52,7 +52,7 @@ class MedicineScheduleFocusConnectSettingSection extends HookConsumerWidget {
               final end = '${schedule.hour + 3}:${schedule.minute}:00';
               launchUrl(
                 Uri.parse(
-                  'focus-connect://schedule?accessToken=$focusConnectAccessToken&intervalStartTimeOfDay=$start&intervalEndTimeOfDay=$end&repeats=true&authCode=${authCode.value}',
+                  'focus-connect://schedule/add?accessToken=$focusConnectAccessToken&intervalStartTimeOfDay=$start&intervalEndTimeOfDay=$end&repeats=true&authCode=${authCode.value}',
                 ),
               );
             }
