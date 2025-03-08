@@ -13,12 +13,12 @@ const focusConnectAccessToken = 'f6c5cc5d-248c-4ed4-accc-e8a74018d41d';
 
 class MedicineScheduleFocusConnectSettingSection extends HookConsumerWidget {
   final MedicationSchedule schedule;
-  final ValueNotifier<String?> focusConnectID;
+  final ValueNotifier<String?> focusConnectScheduleID;
 
   const MedicineScheduleFocusConnectSettingSection({
     super.key,
     required this.schedule,
-    required this.focusConnectID,
+    required this.focusConnectScheduleID,
   });
 
   @override
@@ -27,11 +27,12 @@ class MedicineScheduleFocusConnectSettingSection extends HookConsumerWidget {
     final appLinks = AppLinks();
     appLinks.uriLinkStream.listen((uri) {
       final returnedAuthCode = tryCast<String>(uri.queryParameters['authCode']);
+      debugPrint('returnedAuthCode: $returnedAuthCode, authCode: ${authCode.value}, uri: $uri, path: ${uri.path}');
       if (returnedAuthCode != authCode.value) {
         return;
       }
       if (uri.path == '/focus-connect/schedule') {
-        focusConnectID.value = tryCast<String>(uri.queryParameters['focusConnectID']);
+        focusConnectScheduleID.value = tryCast<String>(uri.queryParameters['focusConnectScheduleID']);
       }
     });
 
@@ -41,15 +42,15 @@ class MedicineScheduleFocusConnectSettingSection extends HookConsumerWidget {
       children: [
         ListTile(
           onTap: () {
-            if (focusConnectID.value != null) {
+            if (focusConnectScheduleID.value != null) {
               launchUrl(
                 Uri.parse(
-                  'focus-connect://schedule/delete?accessToken=$focusConnectAccessToken&focusConnectID=${focusConnectID.value}&authCode=${authCode.value}',
+                  'focus-connect://schedule/delete?accessToken=$focusConnectAccessToken&focusConnectScheduleID=${focusConnectScheduleID.value}&authCode=${authCode.value}',
                 ),
               );
             } else {
               final start = '${schedule.hour}:${schedule.minute}:30';
-              final end = '${schedule.hour + 3}:${schedule.minute}:00';
+              final end = '${schedule.hour + 4}:${schedule.minute}:00';
               launchUrl(
                 Uri.parse(
                   'focus-connect://schedule/add?accessToken=$focusConnectAccessToken&intervalStartTimeOfDay=$start&intervalEndTimeOfDay=$end&repeats=true&authCode=${authCode.value}',
@@ -59,7 +60,7 @@ class MedicineScheduleFocusConnectSettingSection extends HookConsumerWidget {
           },
           title: const Text('通知受信から服薬記録するまで他のアプリをブロックする'),
           subtitle: const Text('通知受信から服薬記録するまで他のアプリをブロックする機能が有効になります。'),
-          trailing: focusConnectID.value != null ? const Icon(Icons.check) : const Icon(Icons.check_box_outline_blank),
+          trailing: focusConnectScheduleID.value != null ? const Icon(Icons.check) : const Icon(Icons.check_box_outline_blank),
         ),
       ],
     );

@@ -23,7 +23,7 @@ class MedicineScheduleSettingFormPage extends HookConsumerWidget {
     final isReminderEnabled = useState(schedule.notificationSetting.isReminderEnabled);
     final isFollowupEnabled = useState(schedule.notificationSetting.isFollowupEnabled);
     final useCriticalAlert = useState(schedule.notificationSetting.useCriticalAlert);
-    final focusConnectID = useState(schedule.focusConnectSetting?.focusConnectID);
+    final focusConnectScheduleID = useState(schedule.focusConnectSetting?.focusConnectID);
     isReminderEnabled.addListener(() {
       final copied = [...schedules.value];
       copied[index] = copied[index].copyWith(
@@ -45,13 +45,15 @@ class MedicineScheduleSettingFormPage extends HookConsumerWidget {
           copied[index].copyWith(notificationSetting: copied[index].notificationSetting.copyWith(useCriticalAlert: useCriticalAlert.value));
       schedules.value = copied;
     });
-    focusConnectID.addListener(() {
+    focusConnectScheduleID.addListener(() {
       final copied = [...schedules.value];
       final focusConnectSetting = copied[index].focusConnectSetting;
       if (focusConnectSetting == null) {
-        copied[index] = copied[index].copyWith(focusConnectSetting: MedicineScheduleFocusConnectSetting(focusConnectID: focusConnectID.value));
+        copied[index] =
+            copied[index].copyWith(focusConnectSetting: MedicineScheduleFocusConnectSetting(focusConnectScheduleID: focusConnectScheduleID.value));
       } else {
-        copied[index] = copied[index].copyWith(focusConnectSetting: focusConnectSetting.copyWith(focusConnectID: focusConnectID.value));
+        copied[index] =
+            copied[index].copyWith(focusConnectSetting: focusConnectSetting.copyWith(focusConnectScheduleID: focusConnectScheduleID.value));
       }
       schedules.value = copied;
     });
@@ -77,7 +79,7 @@ class MedicineScheduleSettingFormPage extends HookConsumerWidget {
                   ),
                   MedicineScheduleFocusConnectSettingSection(
                     schedule: schedule,
-                    focusConnectID: focusConnectID,
+                    focusConnectScheduleID: focusConnectScheduleID,
                   ),
                 ],
               ),
