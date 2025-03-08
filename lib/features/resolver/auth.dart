@@ -63,7 +63,12 @@ class SignInResolver extends HookConsumerWidget {
     useEffect(() {
       void f() async {
         if (userValue == null) {
-          await FirebaseAuth.instance.signInAnonymously();
+          try {
+            final credential = await FirebaseAuth.instance.signInAnonymously();
+            user.value = credential.user;
+          } catch (e) {
+            debugPrint('error: $e');
+          }
         }
       }
 
@@ -74,6 +79,7 @@ class SignInResolver extends HookConsumerWidget {
     if (userValue == null) {
       return const IndicatorPage();
     } else {
+      debugPrint('userValue: ${userValue.uid}');
       return ProviderScope(
         overrides: [
           appUserIDProvider.overrideWithValue(userValue.uid),
