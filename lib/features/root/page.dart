@@ -18,30 +18,39 @@ class RootPage extends HookConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     return AppLocalizationResolver(builder: (context) {
+      debugPrint('Resolved: AppLocalizationResolver');
       return AuthResolver(builder: (_, user) {
-        return UserDatabaseResolver(builder: (context) {
-          return AppUserCreateResolver(builder: (context) {
-            return ForceUpdateResolver(builder: (context) {
-              return PurchaseSetupResolver(
-                userID: user.uid,
-                builder: (context) {
-                  return AppEntityPrepareResolver(
+        debugPrint('Resolved: AuthResolver');
+        return UserDatabaseResolver(
+            user: user,
+            builder: (context) {
+              debugPrint('Resolved: UserDatabaseResolver');
+              return AppUserCreateResolver(builder: (context) {
+                debugPrint('Resolved: AppUserCreateResolver');
+                return ForceUpdateResolver(builder: (context) {
+                  debugPrint('Resolved: ForceUpdateResolver');
+                  return PurchaseSetupResolver(
                     userID: user.uid,
                     builder: (context) {
-                      return Stack(
-                        children: [
-                          const InAppReviewResolver(),
-                          AppUserStreamResolver(stream: (user) => analyticsDebugIsEnabled = user.analyticsDebugIsEnabled),
-                          const HomePage(),
-                        ],
+                      debugPrint('Resolved: PurchaseSetupResolver');
+                      return AppEntityPrepareResolver(
+                        userID: user.uid,
+                        builder: (context) {
+                          debugPrint('Resolved: AppEntityPrepareResolver');
+                          return Stack(
+                            children: [
+                              const InAppReviewResolver(),
+                              AppUserStreamResolver(stream: (user) => analyticsDebugIsEnabled = user.analyticsDebugIsEnabled),
+                              const HomePage(),
+                            ],
+                          );
+                        },
                       );
                     },
                   );
-                },
-              );
+                });
+              });
             });
-          });
-        });
       });
     });
   }

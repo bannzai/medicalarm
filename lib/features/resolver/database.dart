@@ -106,30 +106,16 @@ class UserDatabase {
 }
 
 class UserDatabaseResolver extends HookConsumerWidget {
+  final User user;
   final Widget Function(BuildContext) builder;
 
-  const UserDatabaseResolver({super.key, required this.builder});
+  const UserDatabaseResolver({super.key, required this.user, required this.builder});
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final user = ref.watch(firebaseUserChangesProvider).asData?.value;
-
-    useEffect(() {
-      if (user == null) {
-        ref.invalidate(userDatabaseProvider);
-      }
-      return null;
-    }, [user]);
-
-    if (user != null) {
-      return ProviderScope(
-        overrides: [userDatabaseProvider.overrideWith((ref) => UserDatabase(userID: user.uid))],
-        child: Consumer(
-          builder: ((context, ref, child) => builder(context)),
-        ),
-      );
-    } else {
-      return const IndicatorPage();
-    }
+    return ProviderScope(
+      overrides: [userDatabaseProvider.overrideWith((ref) => UserDatabase(userID: user.uid))],
+      child: builder(context),
+    );
   }
 }

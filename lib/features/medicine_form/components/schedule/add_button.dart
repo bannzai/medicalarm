@@ -63,6 +63,7 @@ class MedicineScheduleAddButton extends HookConsumerWidget {
                         isFollowupEnabled: true,
                         useCriticalAlert: false,
                       ),
+                      focusConnectSetting: const MedicineScheduleFocusConnectSetting(),
                     ),
                   ];
                 },

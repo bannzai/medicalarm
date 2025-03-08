@@ -72,6 +72,7 @@ MedicationSchedule get schedule => const MedicationSchedule(
       minute: 0,
       quantityMemo: '1錠',
       notificationSetting: MedicineScheduleNotificationSetting(isReminderEnabled: true, isFollowupEnabled: true, useCriticalAlert: true),
+      focusConnectSetting: MedicineScheduleFocusConnectSetting(),
     );
 ValueNotifier<List<MedicationSchedule>> get schedules => ValueNotifier<List<MedicationSchedule>>([schedule]);
 int get index => 0;

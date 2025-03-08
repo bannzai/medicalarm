@@ -15,6 +15,7 @@ import 'package:medicalarm/entity/medicine.dart';
 import 'package:medicalarm/features/medications/components/add_button.dart';
 import 'package:medicalarm/components/calendar/day/today_badge.dart';
 import 'package:medicalarm/features/medications/entity/grouped.dart';
+import 'package:medicalarm/features/medicine_form/components/schedule/focus_connect/section.dart';
 import 'package:medicalarm/features/medicine_form/page.dart';
 import 'package:medicalarm/features/medicines/page.dart';
 import 'package:medicalarm/provider/medication_history.dart';
@@ -25,6 +26,7 @@ import 'package:medicalarm/features/localization/l.dart';
 import 'package:medicalarm/utils/local_notification/client.dart';
 import 'package:medicalarm/utils/purchase/purchase.dart';
 import 'package:purchases_flutter/models/customer_info_wrapper.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class MedicationsPage extends HookConsumerWidget {
   const MedicationsPage({super.key});
@@ -235,6 +237,15 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
           medicine: scheduleRow.medicine,
           medicationSchedule: scheduleRow.medicationSchedule,
         );
+
+        final focusConnectScheduleID = scheduleRow.medicationSchedule.focusConnectSetting?.focusConnectScheduleID;
+        if (focusConnectScheduleID != null) {
+          await launchUrl(
+            Uri.parse(
+              'focus-connect://schedule/unlock?focusConnectScheduleID=$focusConnectScheduleID&accessToken=$focusConnectAccessToken',
+            ),
+          );
+        }
       } else {
         await medicationHistoryDelete.call(scheduleRow.medicationHistory!);
       }

@@ -54,6 +54,17 @@ class MedicineScheduleNotificationSetting with _$MedicineScheduleNotificationSet
 }
 
 @freezed
+class MedicineScheduleFocusConnectSetting with _$MedicineScheduleFocusConnectSetting {
+  @JsonSerializable(explicitToJson: true)
+  const factory MedicineScheduleFocusConnectSetting({
+    String? focusConnectScheduleID,
+  }) = _MedicineScheduleFocusConnectSetting;
+  const MedicineScheduleFocusConnectSetting._();
+
+  factory MedicineScheduleFocusConnectSetting.fromJson(Map<String, dynamic> json) => _$MedicineScheduleFocusConnectSettingFromJson(json);
+}
+
+@freezed
 class MedicationSchedule with _$MedicationSchedule {
   @JsonSerializable(explicitToJson: true)
   const factory MedicationSchedule({
@@ -62,6 +73,7 @@ class MedicationSchedule with _$MedicationSchedule {
     required int minute,
     required String quantityMemo,
     required MedicineScheduleNotificationSetting notificationSetting,
+    required MedicineScheduleFocusConnectSetting? focusConnectSetting,
   }) = _MedicationSchedule;
   const MedicationSchedule._();
 

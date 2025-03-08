@@ -79,6 +79,7 @@ dependencies:
       ref: master
   timezone: 0.9.4
   flutter_local_notifications: ^17.2.2
+  app_links: ^6.4.0
 
 dev_dependencies:
   flutter_test:

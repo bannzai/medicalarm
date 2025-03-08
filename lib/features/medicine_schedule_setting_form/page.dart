@@ -3,14 +3,15 @@ import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:medicalarm/entity/medicine.dart';
 import 'package:medicalarm/features/localization/l.dart';
+import 'package:medicalarm/features/medicine_form/components/schedule/focus_connect/section.dart';
 import 'package:medicalarm/features/medicine_form/components/schedule/notification_setting/section.dart';
 import 'package:medicalarm/theme/form.dart';
 
-class MedicineScheduleNotificationFormPage extends HookConsumerWidget {
+class MedicineScheduleSettingFormPage extends HookConsumerWidget {
   final MedicationSchedule schedule;
   final ValueNotifier<List<MedicationSchedule>> schedules;
   final int index;
-  const MedicineScheduleNotificationFormPage({
+  const MedicineScheduleSettingFormPage({
     super.key,
     required this.schedule,
     required this.schedules,
@@ -22,7 +23,7 @@ class MedicineScheduleNotificationFormPage extends HookConsumerWidget {
     final isReminderEnabled = useState(schedule.notificationSetting.isReminderEnabled);
     final isFollowupEnabled = useState(schedule.notificationSetting.isFollowupEnabled);
     final useCriticalAlert = useState(schedule.notificationSetting.useCriticalAlert);
-    final primaryColor = Theme.of(context).colorScheme.primary;
+    final focusConnectScheduleID = useState(schedule.focusConnectSetting?.focusConnectScheduleID);
     isReminderEnabled.addListener(() {
       final copied = [...schedules.value];
       copied[index] = copied[index].copyWith(
@@ -44,6 +45,19 @@ class MedicineScheduleNotificationFormPage extends HookConsumerWidget {
           copied[index].copyWith(notificationSetting: copied[index].notificationSetting.copyWith(useCriticalAlert: useCriticalAlert.value));
       schedules.value = copied;
     });
+    focusConnectScheduleID.addListener(() {
+      final copied = [...schedules.value];
+      final focusConnectSetting = copied[index].focusConnectSetting;
+      if (focusConnectSetting == null) {
+        copied[index] =
+            copied[index].copyWith(focusConnectSetting: MedicineScheduleFocusConnectSetting(focusConnectScheduleID: focusConnectScheduleID.value));
+      } else {
+        copied[index] =
+            copied[index].copyWith(focusConnectSetting: focusConnectSetting.copyWith(focusConnectScheduleID: focusConnectScheduleID.value));
+      }
+      schedules.value = copied;
+    });
+    final primaryColor = Theme.of(context).colorScheme.primary;
 
     return GestureDetector(
       onTap: () {
@@ -62,6 +76,10 @@ class MedicineScheduleNotificationFormPage extends HookConsumerWidget {
                     isReminderEnabled: isReminderEnabled,
                     isFollowupEnabled: isFollowupEnabled,
                     useCriticalAlert: useCriticalAlert,
+                  ),
+                  MedicineScheduleFocusConnectSettingSection(
+                    schedule: schedule,
+                    focusConnectScheduleID: focusConnectScheduleID,
                   ),
                 ],
               ),

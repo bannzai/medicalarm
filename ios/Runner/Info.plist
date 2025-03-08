@@ -2,8 +2,12 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>NSUserTrackingUsageDescription</key>
-	<string>あなたに合わせた広告を表示するために利用します</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>focus-connect</string>
+	</array>
+	<key>FlutterDeepLinkingEnabled</key>
+	<true/>
 	<key>CADisableMinimumFrameDurationOnPhone</key>
 	<true/>
 	<key>CFBundleDevelopmentRegion</key>
@@ -24,18 +28,33 @@
 	<string>$(FLUTTER_BUILD_NAME)</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
-  <key>ITSAppUsesNonExemptEncryption</key>
-  <false/>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>medicalarm</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>medicalarm</string>
+			</array>
+		</dict>
+	</array>
 	<key>CFBundleVersion</key>
 	<string>$(FLUTTER_BUILD_NUMBER)</string>
 	<key>GADApplicationIdentifier</key>
 	<string>ca-app-pub-9127772965271297~5079143300</string>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSCameraUsageDescription</key>
 	<string>薬の情報を記録しておくためにカメラへのアクセスを許可してください</string>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>薬の情報を記録しておくために写真へのアクセスを許可してください</string>
+	<key>NSUserTrackingUsageDescription</key>
+	<string>あなたに合わせた広告を表示するために利用します</string>
 	<key>SKAdNetworkItems</key>
 	<array>
 		<dict>
