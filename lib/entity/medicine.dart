@@ -57,7 +57,7 @@ class MedicineScheduleNotificationSetting with _$MedicineScheduleNotificationSet
 class MedicineScheduleFocusConnectSetting with _$MedicineScheduleFocusConnectSetting {
   @JsonSerializable(explicitToJson: true)
   const factory MedicineScheduleFocusConnectSetting({
-    String? focusConnectID,
+    String? focusConnectScheduleID,
   }) = _MedicineScheduleFocusConnectSetting;
   const MedicineScheduleFocusConnectSetting._();
 
