@@ -2,6 +2,7 @@ import 'package:app_links/app_links.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
+import 'package:medicalarm/components/alert/ok.dart';
 import 'package:medicalarm/entity/medicine.dart';
 import 'package:medicalarm/features/localization/l.dart';
 import 'package:medicalarm/features/medicine_form/components/section_layout.dart';
@@ -32,7 +33,12 @@ class MedicineScheduleFocusConnectSettingSection extends HookConsumerWidget {
         return;
       }
       if (uri.path == '/focus-connect/schedule') {
-        focusConnectScheduleID.value = tryCast<String>(uri.queryParameters['focusConnectScheduleID']);
+        final connected = tryCast<String>(uri.queryParameters['connected']) == 'true';
+        if (connected == true) {
+          focusConnectScheduleID.value = tryCast<String>(uri.queryParameters['focusConnectScheduleID']);
+        } else {
+          focusConnectScheduleID.value = null;
+        }
       }
     });
 
@@ -41,7 +47,26 @@ class MedicineScheduleFocusConnectSettingSection extends HookConsumerWidget {
       text: L.notificationSetting,
       children: [
         ListTile(
-          onTap: () {
+          onTap: () async {
+            final canOpen = await canLaunchUrl(Uri.parse('focus-connect://'));
+            if (!canOpen) {
+              if (context.mounted) {
+                showOKDialog(
+                  context,
+                  icon: Icons.install_desktop,
+                  title: 'Focus Connectがインストールされていません',
+                  message: 'Focus Connectをインストールします。',
+                  ok: () async {
+                    await launchUrl(
+                      Uri.parse('https://apps.apple.com/app/id1663997320'),
+                      mode: LaunchMode.externalApplication,
+                    );
+                  },
+                );
+              }
+              return;
+            }
+
             if (focusConnectScheduleID.value != null) {
               launchUrl(
                 Uri.parse(
