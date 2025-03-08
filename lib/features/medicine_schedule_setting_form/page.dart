@@ -8,13 +8,11 @@ import 'package:medicalarm/features/medicine_form/components/schedule/notificati
 import 'package:medicalarm/theme/form.dart';
 
 class MedicineScheduleSettingFormPage extends HookConsumerWidget {
-  final Medicine? medicine;
   final MedicationSchedule schedule;
   final ValueNotifier<List<MedicationSchedule>> schedules;
   final int index;
   const MedicineScheduleSettingFormPage({
     super.key,
-    required this.medicine,
     required this.schedule,
     required this.schedules,
     required this.index,
@@ -79,13 +77,10 @@ class MedicineScheduleSettingFormPage extends HookConsumerWidget {
                     isFollowupEnabled: isFollowupEnabled,
                     useCriticalAlert: useCriticalAlert,
                   ),
-                  if (medicine != null) ...[
-                    // FocusConnectが途中編集で閉じられても困るので、すでに保存済みの場合に表示する
-                    MedicineScheduleFocusConnectSettingSection(
-                      schedule: schedule,
-                      focusConnectScheduleID: focusConnectScheduleID,
-                    ),
-                  ],
+                  MedicineScheduleFocusConnectSettingSection(
+                    schedule: schedule,
+                    focusConnectScheduleID: focusConnectScheduleID,
+                  ),
                 ],
               ),
             ),

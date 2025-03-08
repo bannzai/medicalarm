@@ -9,9 +9,8 @@ import 'package:medicalarm/features/medicine_form/components/section_layout.dart
 import 'package:medicalarm/features/localization/l.dart';
 
 class MedicineScheduleSection extends StatelessWidget {
-  final Medicine? medicine;
   final ValueNotifier<List<MedicationSchedule>> schedules;
-  const MedicineScheduleSection({super.key, required this.medicine, required this.schedules});
+  const MedicineScheduleSection({super.key, required this.schedules});
 
   @override
   Widget build(BuildContext context) {
