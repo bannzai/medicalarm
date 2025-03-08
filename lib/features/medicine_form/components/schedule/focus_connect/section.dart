@@ -54,8 +54,8 @@ class MedicineScheduleFocusConnectSettingSection extends HookConsumerWidget {
                 showOKDialog(
                   context,
                   icon: Icons.install_desktop,
-                  title: 'Focus Connectがインストールされていません',
-                  message: 'Focus Connectをインストールします。',
+                  title: 'Focusがインストールされていません',
+                  message: 'Focusをインストールします',
                   ok: () async {
                     await launchUrl(
                       Uri.parse('https://apps.apple.com/app/id1663997320'),
