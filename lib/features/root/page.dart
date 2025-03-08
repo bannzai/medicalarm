@@ -21,34 +21,36 @@ class RootPage extends HookConsumerWidget {
       debugPrint('Resolved: AppLocalizationResolver');
       return AuthResolver(builder: (_, user) {
         debugPrint('Resolved: AuthResolver');
-        return UserDatabaseResolver(builder: (context) {
-          debugPrint('Resolved: UserDatabaseResolver');
-          return AppUserCreateResolver(builder: (context) {
-            debugPrint('Resolved: AppUserCreateResolver');
-            return ForceUpdateResolver(builder: (context) {
-              debugPrint('Resolved: ForceUpdateResolver');
-              return PurchaseSetupResolver(
-                userID: user.uid,
-                builder: (context) {
-                  debugPrint('Resolved: PurchaseSetupResolver');
-                  return AppEntityPrepareResolver(
+        return UserDatabaseResolver(
+            user: user,
+            builder: (context) {
+              debugPrint('Resolved: UserDatabaseResolver');
+              return AppUserCreateResolver(builder: (context) {
+                debugPrint('Resolved: AppUserCreateResolver');
+                return ForceUpdateResolver(builder: (context) {
+                  debugPrint('Resolved: ForceUpdateResolver');
+                  return PurchaseSetupResolver(
                     userID: user.uid,
                     builder: (context) {
-                      debugPrint('Resolved: AppEntityPrepareResolver');
-                      return Stack(
-                        children: [
-                          const InAppReviewResolver(),
-                          AppUserStreamResolver(stream: (user) => analyticsDebugIsEnabled = user.analyticsDebugIsEnabled),
-                          const HomePage(),
-                        ],
+                      debugPrint('Resolved: PurchaseSetupResolver');
+                      return AppEntityPrepareResolver(
+                        userID: user.uid,
+                        builder: (context) {
+                          debugPrint('Resolved: AppEntityPrepareResolver');
+                          return Stack(
+                            children: [
+                              const InAppReviewResolver(),
+                              AppUserStreamResolver(stream: (user) => analyticsDebugIsEnabled = user.analyticsDebugIsEnabled),
+                              const HomePage(),
+                            ],
+                          );
+                        },
                       );
                     },
                   );
-                },
-              );
+                });
+              });
             });
-          });
-        });
       });
     });
   }
