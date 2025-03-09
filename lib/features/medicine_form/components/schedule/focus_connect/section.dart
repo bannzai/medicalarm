@@ -10,7 +10,7 @@ import 'package:medicalarm/utils/foundation/cast.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:uuid/uuid.dart';
 
-const focusConnectAccessToken = 'f6c5cc5d-248c-4ed4-accc-e8a74018d41d';
+const focusConnectAppID = 'jmHpoAiQQw0GqE9oFEEH';
 
 class MedicineScheduleFocusConnectSettingSection extends HookConsumerWidget {
   final MedicationSchedule schedule;
@@ -70,7 +70,7 @@ class MedicineScheduleFocusConnectSettingSection extends HookConsumerWidget {
             if (focusConnectScheduleID.value != null) {
               launchUrl(
                 Uri.parse(
-                  'focus-connect://schedule/delete?accessToken=$focusConnectAccessToken&focusConnectScheduleID=${focusConnectScheduleID.value}&authCode=${authCode.value}',
+                  'focus-connect://schedule/delete?focusConnectAppID=$focusConnectAppID&focusConnectScheduleID=${focusConnectScheduleID.value}&authCode=${authCode.value}',
                 ),
               );
             } else {
@@ -78,7 +78,7 @@ class MedicineScheduleFocusConnectSettingSection extends HookConsumerWidget {
               final end = '${schedule.hour + 4}:${schedule.minute}:00';
               launchUrl(
                 Uri.parse(
-                  'focus-connect://schedule/add?accessToken=$focusConnectAccessToken&intervalStartTimeOfDay=$start&intervalEndTimeOfDay=$end&repeats=true&authCode=${authCode.value}',
+                  'focus-connect://schedule/add?focusConnectAppID=$focusConnectAppID&intervalStartTimeOfDay=$start&intervalEndTimeOfDay=$end&repeats=true&authCode=${authCode.value}',
                 ),
               );
             }
