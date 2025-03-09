@@ -242,7 +242,7 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
         if (focusConnectScheduleID != null) {
           await launchUrl(
             Uri.parse(
-              'focus-connect://schedule/unlock?focusConnectScheduleID=$focusConnectScheduleID&accessToken=$focusConnectAccessToken',
+              'focus-connect://schedule/unlock?focusConnectScheduleID=$focusConnectScheduleID&focusConnectAppID=$focusConnectAppID',
             ),
           );
         }
