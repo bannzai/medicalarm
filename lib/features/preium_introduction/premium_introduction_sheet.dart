@@ -112,7 +112,7 @@ class _Body extends HookConsumerWidget {
                     children: [
                       if (customerInfo.activeSubscriptions.isNotEmpty) ...[
                         const SizedBox(height: 32),
-                        const PremiumUserThanksRow(),
+                        const Center(child: PremiumUserThanksRow()),
                       ],
                       if (customerInfo.activeSubscriptions.isEmpty) ...[
                         Padding(
