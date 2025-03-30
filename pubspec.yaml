@@ -78,7 +78,11 @@ dependencies:
       url: https://github.com/bannzai/flutter_native_timezone.git
       ref: master
   timezone: 0.9.4
-  flutter_local_notifications: ^17.2.2
+  flutter_local_notifications:
+    git:
+      url: https://github.com/bannzai/flutter_local_notifications.git
+      ref: add-ios-critical-alert-volume
+
   app_links: ^6.4.0
 
 dev_dependencies:
