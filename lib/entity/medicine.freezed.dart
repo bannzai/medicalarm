@@ -478,6 +478,7 @@ mixin _$MedicineScheduleNotificationSetting {
   bool get isReminderEnabled => throw _privateConstructorUsedError;
   bool get isFollowupEnabled => throw _privateConstructorUsedError;
   bool get useCriticalAlert => throw _privateConstructorUsedError;
+  double get criticalAlertVolume => throw _privateConstructorUsedError;
 
   /// Serializes this MedicineScheduleNotificationSetting to a JSON map.
   Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
@@ -494,7 +495,7 @@ abstract class $MedicineScheduleNotificationSettingCopyWith<$Res> {
           MedicineScheduleNotificationSetting value, $Res Function(MedicineScheduleNotificationSetting) then) =
       _$MedicineScheduleNotificationSettingCopyWithImpl<$Res, MedicineScheduleNotificationSetting>;
   @useResult
-  $Res call({bool isReminderEnabled, bool isFollowupEnabled, bool useCriticalAlert});
+  $Res call({bool isReminderEnabled, bool isFollowupEnabled, bool useCriticalAlert, double criticalAlertVolume});
 }
 
 /// @nodoc
@@ -515,6 +516,7 @@ class _$MedicineScheduleNotificationSettingCopyWithImpl<$Res, $Val extends Medic
     Object? isReminderEnabled = null,
     Object? isFollowupEnabled = null,
     Object? useCriticalAlert = null,
+    Object? criticalAlertVolume = null,
   }) {
     return _then(_value.copyWith(
       isReminderEnabled: null == isReminderEnabled
@@ -529,6 +531,10 @@ class _$MedicineScheduleNotificationSettingCopyWithImpl<$Res, $Val extends Medic
           ? _value.useCriticalAlert
           : useCriticalAlert // ignore: cast_nullable_to_non_nullable
               as bool,
+      criticalAlertVolume: null == criticalAlertVolume
+          ? _value.criticalAlertVolume
+          : criticalAlertVolume // ignore: cast_nullable_to_non_nullable
+              as double,
     ) as $Val);
   }
 }
@@ -540,7 +546,7 @@ abstract class _$$MedicineScheduleNotificationSettingImplCopyWith<$Res> implemen
       __$$MedicineScheduleNotificationSettingImplCopyWithImpl<$Res>;
   @override
   @useResult
-  $Res call({bool isReminderEnabled, bool isFollowupEnabled, bool useCriticalAlert});
+  $Res call({bool isReminderEnabled, bool isFollowupEnabled, bool useCriticalAlert, double criticalAlertVolume});
 }
 
 /// @nodoc
@@ -559,6 +565,7 @@ class __$$MedicineScheduleNotificationSettingImplCopyWithImpl<$Res>
     Object? isReminderEnabled = null,
     Object? isFollowupEnabled = null,
     Object? useCriticalAlert = null,
+    Object? criticalAlertVolume = null,
   }) {
     return _then(_$MedicineScheduleNotificationSettingImpl(
       isReminderEnabled: null == isReminderEnabled
@@ -573,6 +580,10 @@ class __$$MedicineScheduleNotificationSettingImplCopyWithImpl<$Res>
           ? _value.useCriticalAlert
           : useCriticalAlert // ignore: cast_nullable_to_non_nullable
               as bool,
+      criticalAlertVolume: null == criticalAlertVolume
+          ? _value.criticalAlertVolume
+          : criticalAlertVolume // ignore: cast_nullable_to_non_nullable
+              as double,
     ));
   }
 }
@@ -581,7 +592,8 @@ class __$$MedicineScheduleNotificationSettingImplCopyWithImpl<$Res>
 
 @JsonSerializable(explicitToJson: true)
 class _$MedicineScheduleNotificationSettingImpl extends _MedicineScheduleNotificationSetting {
-  const _$MedicineScheduleNotificationSettingImpl({required this.isReminderEnabled, required this.isFollowupEnabled, required this.useCriticalAlert})
+  const _$MedicineScheduleNotificationSettingImpl(
+      {required this.isReminderEnabled, required this.isFollowupEnabled, required this.useCriticalAlert, required this.criticalAlertVolume = 0.5})
       : super._();
 
   factory _$MedicineScheduleNotificationSettingImpl.fromJson(Map<String, dynamic> json) => _$$MedicineScheduleNotificationSettingImplFromJson(json);
@@ -592,10 +604,13 @@ class _$MedicineScheduleNotificationSettingImpl extends _MedicineScheduleNotific
   final bool isFollowupEnabled;
   @override
   final bool useCriticalAlert;
+  @override
+  @JsonKey()
+  final double criticalAlertVolume;
 
   @override
   String toString() {
-    return 'MedicineScheduleNotificationSetting(isReminderEnabled: $isReminderEnabled, isFollowupEnabled: $isFollowupEnabled, useCriticalAlert: $useCriticalAlert)';
+    return 'MedicineScheduleNotificationSetting(isReminderEnabled: $isReminderEnabled, isFollowupEnabled: $isFollowupEnabled, useCriticalAlert: $useCriticalAlert, criticalAlertVolume: $criticalAlertVolume)';
   }
 
   @override
@@ -605,12 +620,13 @@ class _$MedicineScheduleNotificationSettingImpl extends _MedicineScheduleNotific
             other is _$MedicineScheduleNotificationSettingImpl &&
             (identical(other.isReminderEnabled, isReminderEnabled) || other.isReminderEnabled == isReminderEnabled) &&
             (identical(other.isFollowupEnabled, isFollowupEnabled) || other.isFollowupEnabled == isFollowupEnabled) &&
-            (identical(other.useCriticalAlert, useCriticalAlert) || other.useCriticalAlert == useCriticalAlert));
+            (identical(other.useCriticalAlert, useCriticalAlert) || other.useCriticalAlert == useCriticalAlert) &&
+            (identical(other.criticalAlertVolume, criticalAlertVolume) || other.criticalAlertVolume == criticalAlertVolume));
   }
 
   @JsonKey(includeFromJson: false, includeToJson: false)
   @override
-  int get hashCode => Object.hash(runtimeType, isReminderEnabled, isFollowupEnabled, useCriticalAlert);
+  int get hashCode => Object.hash(runtimeType, isReminderEnabled, isFollowupEnabled, useCriticalAlert, criticalAlertVolume);
 
   /// Create a copy of MedicineScheduleNotificationSetting
   /// with the given fields replaced by the non-null parameter values.
@@ -632,7 +648,8 @@ abstract class _MedicineScheduleNotificationSetting extends MedicineScheduleNoti
   const factory _MedicineScheduleNotificationSetting(
       {required final bool isReminderEnabled,
       required final bool isFollowupEnabled,
-      required final bool useCriticalAlert}) = _$MedicineScheduleNotificationSettingImpl;
+      required final bool useCriticalAlert,
+      required final double criticalAlertVolume}) = _$MedicineScheduleNotificationSettingImpl;
   const _MedicineScheduleNotificationSetting._() : super._();
 
   factory _MedicineScheduleNotificationSetting.fromJson(Map<String, dynamic> json) = _$MedicineScheduleNotificationSettingImpl.fromJson;
@@ -643,6 +660,8 @@ abstract class _MedicineScheduleNotificationSetting extends MedicineScheduleNoti
   bool get isFollowupEnabled;
   @override
   bool get useCriticalAlert;
+  @override
+  double get criticalAlertVolume;
 
   /// Create a copy of MedicineScheduleNotificationSetting
   /// with the given fields replaced by the non-null parameter values.
