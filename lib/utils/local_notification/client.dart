@@ -232,6 +232,7 @@ class RegisterReminderLocalNotification {
         // continue群が抜けてからインクリメント
         badgeNumber += 1;
 
+        // 通知をまとめて送るので、スケジュールの中にcriticalAlertを使うものが一つでもある場合はcriticalAlertを使う
         final useCriticalAlert = group.scheduleRows.any((element) => element.medicationSchedule.notificationSetting.useCriticalAlert);
 
         final reminderEnabledScheduleRows = group.scheduleRows.where((element) => element.medicationSchedule.notificationSetting.isReminderEnabled);
