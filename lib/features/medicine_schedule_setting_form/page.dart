@@ -23,6 +23,7 @@ class MedicineScheduleSettingFormPage extends HookConsumerWidget {
     final isReminderEnabled = useState(schedule.notificationSetting.isReminderEnabled);
     final isFollowupEnabled = useState(schedule.notificationSetting.isFollowupEnabled);
     final useCriticalAlert = useState(schedule.notificationSetting.useCriticalAlert);
+    final criticalAlertVolume = useState(schedule.notificationSetting.criticalAlertVolume);
     final focusConnectScheduleID = useState(schedule.focusConnectSetting?.focusConnectScheduleID);
     isReminderEnabled.addListener(() {
       final copied = [...schedules.value];
@@ -41,8 +42,16 @@ class MedicineScheduleSettingFormPage extends HookConsumerWidget {
     });
     useCriticalAlert.addListener(() {
       final copied = [...schedules.value];
-      copied[index] =
-          copied[index].copyWith(notificationSetting: copied[index].notificationSetting.copyWith(useCriticalAlert: useCriticalAlert.value));
+      copied[index] = copied[index].copyWith(
+        notificationSetting: copied[index].notificationSetting.copyWith(useCriticalAlert: useCriticalAlert.value),
+      );
+      schedules.value = copied;
+    });
+    criticalAlertVolume.addListener(() {
+      final copied = [...schedules.value];
+      copied[index] = copied[index].copyWith(
+        notificationSetting: copied[index].notificationSetting.copyWith(criticalAlertVolume: criticalAlertVolume.value),
+      );
       schedules.value = copied;
     });
     focusConnectScheduleID.addListener(() {
@@ -76,6 +85,7 @@ class MedicineScheduleSettingFormPage extends HookConsumerWidget {
                     isReminderEnabled: isReminderEnabled,
                     isFollowupEnabled: isFollowupEnabled,
                     useCriticalAlert: useCriticalAlert,
+                    criticalAlertVolume: criticalAlertVolume,
                   ),
                   MedicineScheduleFocusConnectSettingSection(
                     schedule: schedule,

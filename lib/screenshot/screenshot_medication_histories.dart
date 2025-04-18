@@ -98,7 +98,7 @@ class MedicationsHistoryPageBody extends HookConsumerWidget {
                             BackdropFilter(
                               filter: ImageFilter.blur(sigmaX: 6, sigmaY: 6),
                               child: Container(
-                                color: Colors.black.withOpacity(0),
+                                color: Colors.black.withValues(alpha: 0),
                               ),
                             ),
                             Center(
@@ -164,7 +164,7 @@ class MedicationHistoryTile extends HookConsumerWidget {
           border: Border.all(color: AppColors.border),
           boxShadow: [
             BoxShadow(
-              color: Colors.black.withOpacity(0.1),
+              color: Colors.black.withValues(alpha: 0.1),
               spreadRadius: 2,
               blurRadius: 5,
               offset: const Offset(0, 3), // 影の位置を調整
@@ -263,6 +263,7 @@ List<Medicine> get medicines => [
               isReminderEnabled: true,
               isFollowupEnabled: true,
               useCriticalAlert: true,
+              criticalAlertVolume: 0.5,
             ),
             focusConnectSetting: const MedicineScheduleFocusConnectSetting(),
           ),
@@ -287,6 +288,7 @@ List<Medicine> get medicines => [
               isReminderEnabled: true,
               isFollowupEnabled: true,
               useCriticalAlert: true,
+              criticalAlertVolume: 0.5,
             ),
             focusConnectSetting: const MedicineScheduleFocusConnectSetting(),
           ),

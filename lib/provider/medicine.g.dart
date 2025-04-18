@@ -32,7 +32,7 @@ final medicineAddProvider = AutoDisposeProvider<MedicineAdd>.internal(
 );
 
 typedef MedicineAddRef = AutoDisposeProviderRef<MedicineAdd>;
-String _$medicineUpdateHash() => r'3983b5d639b08c244491b64ebff70eb8545ae77f';
+String _$medicineUpdateHash() => r'329a6604eb930e04d81feec5806abb2edaf8f8a3';
 
 /// See also [medicineUpdate].
 @ProviderFor(medicineUpdate)
@@ -45,7 +45,7 @@ final medicineUpdateProvider = AutoDisposeProvider<MedicineUpdate>.internal(
 );
 
 typedef MedicineUpdateRef = AutoDisposeProviderRef<MedicineUpdate>;
-String _$medicineDeleteHash() => r'39b6f8235707082d8ddf7c72ea33f9b38d79046b';
+String _$medicineDeleteHash() => r'fd5f83d72536a0410345765209fcfe9aa1b0080e';
 
 /// See also [medicineDelete].
 @ProviderFor(medicineDelete)

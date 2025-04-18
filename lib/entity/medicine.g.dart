@@ -45,12 +45,14 @@ _$MedicineScheduleNotificationSettingImpl _$$MedicineScheduleNotificationSetting
       isReminderEnabled: json['isReminderEnabled'] as bool,
       isFollowupEnabled: json['isFollowupEnabled'] as bool,
       useCriticalAlert: json['useCriticalAlert'] as bool,
+      criticalAlertVolume: (json['criticalAlertVolume'] as num?)?.toDouble() ?? 0.5,
     );
 
 Map<String, dynamic> _$$MedicineScheduleNotificationSettingImplToJson(_$MedicineScheduleNotificationSettingImpl instance) => <String, dynamic>{
       'isReminderEnabled': instance.isReminderEnabled,
       'isFollowupEnabled': instance.isFollowupEnabled,
       'useCriticalAlert': instance.useCriticalAlert,
+      'criticalAlertVolume': instance.criticalAlertVolume,
     };
 
 _$MedicineScheduleFocusConnectSettingImpl _$$MedicineScheduleFocusConnectSettingImplFromJson(Map<String, dynamic> json) =>

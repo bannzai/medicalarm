@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:medicalarm/features/localization/l.dart';
 import 'package:medicalarm/features/medicine_form/components/section_layout.dart';
@@ -8,16 +9,20 @@ class MedicineScheduleNotificationSettingSection extends HookConsumerWidget {
   final ValueNotifier<bool> isReminderEnabled;
   final ValueNotifier<bool> isFollowupEnabled;
   final ValueNotifier<bool> useCriticalAlert;
+  final ValueNotifier<double> criticalAlertVolume;
 
   const MedicineScheduleNotificationSettingSection({
     super.key,
     required this.isReminderEnabled,
     required this.isFollowupEnabled,
     required this.useCriticalAlert,
+    required this.criticalAlertVolume,
   });
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
+    // 親Componentで値の変化を監視しているので、UIが重くなるので、Internal stateを用意する
+    final criticalAlertVolume = useState(this.criticalAlertVolume.value);
     return MedicineFormSectionLayout(
       icon: Icons.notifications,
       text: L.notificationSetting,
@@ -58,6 +63,37 @@ class MedicineScheduleNotificationSettingSection extends HookConsumerWidget {
           },
           title: Text(L.enableNotificationInSilentMode),
           subtitle: Text(L.silentModeNotificationDescription),
+        ),
+        const SizedBox(height: 10),
+        Column(
+          mainAxisAlignment: MainAxisAlignment.start,
+          children: [
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 16),
+              child: Align(
+                alignment: Alignment.topLeft,
+                child: Text(
+                  L.criticalAlertVolume,
+                ),
+              ),
+            ),
+            Slider(
+              value: criticalAlertVolume.value,
+              min: 0,
+              max: 1,
+              label: criticalAlertVolume.value.toString(),
+              onChanged: useCriticalAlert.value
+                  ? (value) {
+                      criticalAlertVolume.value = value;
+                    }
+                  : null,
+              onChangeEnd: useCriticalAlert.value
+                  ? (value) {
+                      this.criticalAlertVolume.value = value;
+                    }
+                  : null,
+            ),
+          ],
         ),
       ],
     );

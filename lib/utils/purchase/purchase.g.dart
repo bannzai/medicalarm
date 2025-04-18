@@ -6,7 +6,7 @@ part of 'purchase.dart';
 // RiverpodGenerator
 // **************************************************************************
 
-String _$customerInfoHash() => r'99bc543824c0b462b41869d350044fd1978bdc6e';
+String _$customerInfoHash() => r'95362491215a91d0faca817d94b175846b87e9b3';
 
 /// See also [customerInfo].
 @ProviderFor(customerInfo)
@@ -19,7 +19,7 @@ final customerInfoProvider = AutoDisposeStreamProvider<CustomerInfo>.internal(
 );
 
 typedef CustomerInfoRef = AutoDisposeStreamProviderRef<CustomerInfo>;
-String _$offeringsHash() => r'06a7e9fadc8200b9115c16675938df040bc9dbb2';
+String _$offeringsHash() => r'a44517ca66731d95ed64ddb147c72567df8b12c7';
 
 /// See also [offerings].
 @ProviderFor(offerings)

@@ -1,5 +1,6 @@
 import 'dart:async';
 import 'dart:math';
+import 'package:collection/collection.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:medicalarm/entity/medication_history.dart';
 import 'package:medicalarm/entity/medicine.dart';
@@ -13,7 +14,7 @@ import 'package:medicalarm/features/localization/l.dart';
 import 'package:riverpod/riverpod.dart';
 import 'package:timezone/data/latest_all.dart' as tz;
 import 'package:timezone/timezone.dart' as tz;
-import 'package:flutter_native_timezone/flutter_native_timezone.dart';
+import 'package:flutter_timezone/flutter_timezone.dart';
 
 // Reminder Notification
 const actionIdentifier = 'RECORD_PILL';
@@ -32,7 +33,7 @@ class LocalNotificationService {
 
   static Future<void> setupTimeZone() async {
     tz.initializeTimeZones();
-    tz.setLocalLocation(tz.getLocation(await FlutterNativeTimezone.getLocalTimezone()));
+    tz.setLocalLocation(tz.getLocation(await FlutterTimezone.getLocalTimezone()));
   }
 
   Future<void> initialize() async {
@@ -85,9 +86,11 @@ class LocalNotificationService {
         iOS: DarwinNotificationDetails(
           presentBadge: true,
           presentSound: true,
+          interruptionLevel: InterruptionLevel.timeSensitive,
         ),
+        android: AndroidNotificationDetails('', ''),
       ),
-      uiLocalNotificationDateInterpretation: UILocalNotificationDateInterpretation.absoluteTime,
+      androidScheduleMode: AndroidScheduleMode.exactAllowWhileIdle,
     );
   }
 
@@ -230,7 +233,9 @@ class RegisterReminderLocalNotification {
         // continue群が抜けてからインクリメント
         badgeNumber += 1;
 
+        // 通知をまとめて送るので、スケジュールの中にcriticalAlertを使うものが一つでもある場合はcriticalAlertを使う
         final useCriticalAlert = group.scheduleRows.any((element) => element.medicationSchedule.notificationSetting.useCriticalAlert);
+        final largestCriticalAlertVolume = group.scheduleRows.map((e) => e.medicationSchedule.notificationSetting.criticalAlertVolume).max;
 
         final reminderEnabledScheduleRows = group.scheduleRows.where((element) => element.medicationSchedule.notificationSetting.isReminderEnabled);
         if (reminderEnabledScheduleRows.isNotEmpty) {
@@ -264,10 +269,12 @@ class RegisterReminderLocalNotification {
                       presentBanner: true,
                       presentList: true,
                       interruptionLevel: useCriticalAlert ? InterruptionLevel.critical : InterruptionLevel.timeSensitive,
+                      criticalSoundVolume: useCriticalAlert ? largestCriticalAlertVolume : null,
                       badgeNumber: badgeNumber,
                     ),
+                    android: const AndroidNotificationDetails('', ''),
                   ),
-                  uiLocalNotificationDateInterpretation: UILocalNotificationDateInterpretation.absoluteTime,
+                  androidScheduleMode: AndroidScheduleMode.exactAllowWhileIdle,
                 );
 
                 analytics.debug(name: 'rrrn_reminder', parameters: {
@@ -327,10 +334,12 @@ class RegisterReminderLocalNotification {
                       presentBanner: true,
                       presentList: true,
                       interruptionLevel: useCriticalAlert ? InterruptionLevel.critical : InterruptionLevel.timeSensitive,
+                      criticalSoundVolume: useCriticalAlert ? largestCriticalAlertVolume : null,
                       badgeNumber: badgeNumber,
                     ),
+                    android: AndroidNotificationDetails('', ''),
                   ),
-                  uiLocalNotificationDateInterpretation: UILocalNotificationDateInterpretation.absoluteTime,
+                  androidScheduleMode: AndroidScheduleMode.exactAllowWhileIdle,
                 );
 
                 analytics.debug(name: 'rrrn_followup', parameters: {

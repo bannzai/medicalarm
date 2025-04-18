@@ -3,6 +3,7 @@ import 'package:medicalarm/entity/dose_receiver.dart';
 import 'package:medicalarm/entity/medication_frequency.dart';
 import 'package:medicalarm/entity/medicine.dart';
 import 'package:medicalarm/features/resolver/database.dart';
+import 'package:riverpod/riverpod.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 
 part 'medicine.g.dart';
@@ -86,7 +87,7 @@ class MedicineUpdate {
 }
 
 @Riverpod(dependencies: [userDatabase])
-MedicineUpdate medicineUpdate(MedicineUpdateRef ref) {
+MedicineUpdate medicineUpdate(Ref ref) {
   final database = ref.watch(userDatabaseProvider);
   return MedicineUpdate(database: database);
 }
@@ -103,7 +104,7 @@ class MedicineDelete {
 }
 
 @Riverpod(dependencies: [userDatabase])
-MedicineDelete medicineDelete(MedicineDeleteRef ref) {
+MedicineDelete medicineDelete(Ref ref) {
   final database = ref.watch(userDatabaseProvider);
   return MedicineDelete(database: database);
 }

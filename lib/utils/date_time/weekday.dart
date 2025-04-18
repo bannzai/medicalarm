@@ -72,8 +72,6 @@ extension WeekdayFunctions on Weekday {
         return AppColors.weekday;
       case Weekday.Saturday:
         return AppColors.saturday;
-      default:
-        throw ArgumentError.notNull('');
     }
   }
 }
