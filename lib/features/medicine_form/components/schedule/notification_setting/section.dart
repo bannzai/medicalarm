@@ -82,6 +82,7 @@ class MedicineScheduleNotificationSettingSection extends HookConsumerWidget {
               onChanged: useCriticalAlert.value
                   ? (value) {
                       // set criticalAlertVolume onChangedEnd
+                      // 親Componentで値の変化を監視しているので、UIが重くなるのでここでは何もしない
                     }
                   : null,
               onChangeEnd: useCriticalAlert.value
