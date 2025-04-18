@@ -113,6 +113,11 @@ class App extends StatelessWidget {
             side: const BorderSide(),
           ),
         ),
+        sliderTheme: const SliderThemeData(
+          thumbColor: AppColors.primary,
+          overlayColor: AppColors.primary,
+          thumbShape: RoundSliderThumbShape(enabledThumbRadius: 10),
+        ),
         useMaterial3: false,
       ),
       home: const RootPage(),
