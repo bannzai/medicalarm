@@ -61,6 +61,7 @@ class MedicineScheduleNotificationSettingSection extends HookConsumerWidget {
           title: Text(L.enableNotificationInSilentMode),
           subtitle: Text(L.silentModeNotificationDescription),
         ),
+        const SizedBox(height: 10),
         Column(
           mainAxisAlignment: MainAxisAlignment.start,
           children: [
