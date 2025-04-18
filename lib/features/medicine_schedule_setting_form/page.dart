@@ -42,8 +42,16 @@ class MedicineScheduleSettingFormPage extends HookConsumerWidget {
     });
     useCriticalAlert.addListener(() {
       final copied = [...schedules.value];
-      copied[index] =
-          copied[index].copyWith(notificationSetting: copied[index].notificationSetting.copyWith(useCriticalAlert: useCriticalAlert.value));
+      copied[index] = copied[index].copyWith(
+        notificationSetting: copied[index].notificationSetting.copyWith(useCriticalAlert: useCriticalAlert.value),
+      );
+      schedules.value = copied;
+    });
+    criticalAlertVolume.addListener(() {
+      final copied = [...schedules.value];
+      copied[index] = copied[index].copyWith(
+        notificationSetting: copied[index].notificationSetting.copyWith(criticalAlertVolume: criticalAlertVolume.value),
+      );
       schedules.value = copied;
     });
     focusConnectScheduleID.addListener(() {
