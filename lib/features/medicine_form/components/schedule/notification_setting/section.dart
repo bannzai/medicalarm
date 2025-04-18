@@ -81,7 +81,7 @@ class MedicineScheduleNotificationSettingSection extends HookConsumerWidget {
               label: criticalAlertVolume.value.toString(),
               onChanged: useCriticalAlert.value
                   ? (value) {
-                      criticalAlertVolume.value = value;
+                      // set criticalAlertVolume onChangedEnd
                     }
                   : null,
               onChangeEnd: useCriticalAlert.value
