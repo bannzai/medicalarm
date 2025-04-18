@@ -73,11 +73,8 @@ dependencies:
   image_cropper: ^8.1.0
   uuid: ^4.5.1
   widget_arrows: ^0.6.0
-  flutter_native_timezone:
-    git:
-      url: https://github.com/bannzai/flutter_native_timezone.git
-      ref: master
-  timezone: 0.9.4
+  flutter_timezone: ^4.1.0
+  timezone: 0.10.0
   flutter_local_notifications: ^19.1.0
   app_links: ^6.4.0
 
