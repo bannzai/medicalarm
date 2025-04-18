@@ -7,6 +7,7 @@ import 'package:medicalarm/secret/secret.dart';
 import 'package:medicalarm/utils/analytics/analytics.dart';
 import 'package:medicalarm/utils/analytics/error.dart';
 import 'package:medicalarm/utils/purchase/error.dart';
+import 'package:riverpod/riverpod.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 import 'package:medicalarm/features/localization/l.dart';
 
@@ -30,7 +31,7 @@ extension OfferingTypeFunction on OfferingType {
 }
 
 @Riverpod(dependencies: [])
-Stream<CustomerInfo> customerInfo(CustomerInfoRef ref) {
+Stream<CustomerInfo> customerInfo(Ref ref) {
   final StreamController<CustomerInfo> stream = StreamController<CustomerInfo>();
   void listener(CustomerInfo customerInfo) {
     stream.sink.add(customerInfo);
@@ -102,7 +103,7 @@ extension CustomerInfoExtension on CustomerInfo {
 }
 
 @Riverpod()
-Future<Offerings> offerings(OfferingsRef ref) {
+Future<Offerings> offerings(Ref ref) {
   return Purchases.getOfferings();
 }
 
