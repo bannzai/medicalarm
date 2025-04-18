@@ -85,9 +85,11 @@ class LocalNotificationService {
         iOS: DarwinNotificationDetails(
           presentBadge: true,
           presentSound: true,
+          interruptionLevel: InterruptionLevel.timeSensitive,
         ),
+        android: AndroidNotificationDetails('', ''),
       ),
-      uiLocalNotificationDateInterpretation: UILocalNotificationDateInterpretation.absoluteTime,
+      androidScheduleMode: AndroidScheduleMode.exactAllowWhileIdle,
     );
   }
 
@@ -266,8 +268,9 @@ class RegisterReminderLocalNotification {
                       interruptionLevel: useCriticalAlert ? InterruptionLevel.critical : InterruptionLevel.timeSensitive,
                       badgeNumber: badgeNumber,
                     ),
+                    android: const AndroidNotificationDetails('', ''),
                   ),
-                  uiLocalNotificationDateInterpretation: UILocalNotificationDateInterpretation.absoluteTime,
+                  androidScheduleMode: AndroidScheduleMode.exactAllowWhileIdle,
                 );
 
                 analytics.debug(name: 'rrrn_reminder', parameters: {
@@ -329,8 +332,9 @@ class RegisterReminderLocalNotification {
                       interruptionLevel: useCriticalAlert ? InterruptionLevel.critical : InterruptionLevel.timeSensitive,
                       badgeNumber: badgeNumber,
                     ),
+                    android: AndroidNotificationDetails('', ''),
                   ),
-                  uiLocalNotificationDateInterpretation: UILocalNotificationDateInterpretation.absoluteTime,
+                  androidScheduleMode: AndroidScheduleMode.exactAllowWhileIdle,
                 );
 
                 analytics.debug(name: 'rrrn_followup', parameters: {
