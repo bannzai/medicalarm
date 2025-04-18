@@ -8,12 +8,14 @@ class MedicineScheduleNotificationSettingSection extends HookConsumerWidget {
   final ValueNotifier<bool> isReminderEnabled;
   final ValueNotifier<bool> isFollowupEnabled;
   final ValueNotifier<bool> useCriticalAlert;
+  final ValueNotifier<double> criticalAlertVolume;
 
   const MedicineScheduleNotificationSettingSection({
     super.key,
     required this.isReminderEnabled,
     required this.isFollowupEnabled,
     required this.useCriticalAlert,
+    required this.criticalAlertVolume,
   });
 
   @override
@@ -58,6 +60,32 @@ class MedicineScheduleNotificationSettingSection extends HookConsumerWidget {
           },
           title: Text(L.enableNotificationInSilentMode),
           subtitle: Text(L.silentModeNotificationDescription),
+        ),
+        Column(
+          mainAxisAlignment: MainAxisAlignment.start,
+          children: [
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 16),
+              child: Align(
+                alignment: Alignment.topLeft,
+                child: Text(
+                  L.criticalAlertVolume,
+                ),
+              ),
+            ),
+            Slider(
+              value: criticalAlertVolume.value,
+              min: 0,
+              max: 1,
+              label: criticalAlertVolume.value.toString(),
+              onChanged: (value) {
+                criticalAlertVolume.value = value;
+              },
+              onChangeEnd: (value) {
+                criticalAlertVolume.value = value;
+              },
+            ),
+          ],
         ),
       ],
     );

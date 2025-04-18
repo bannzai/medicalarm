@@ -775,5 +775,9 @@
   "installPilll": "Pilllをインストール",
   "@installPilll": {
     "description": "Pilllをインストールするボタンのテキスト"
+  },
+  "criticalAlertVolume": "音量",
+  "@criticalAlertVolume": {
+    "description": "緊急通知の音量の表示名"
   }
 }

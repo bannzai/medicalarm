@@ -47,6 +47,7 @@ class MedicineScheduleNotificationSetting with _$MedicineScheduleNotificationSet
     required bool isReminderEnabled,
     required bool isFollowupEnabled,
     required bool useCriticalAlert,
+    @Default(0.5) required double criticalAlertVolume,
   }) = _MedicineScheduleNotificationSetting;
   const MedicineScheduleNotificationSetting._();
 
