@@ -1,5 +1,6 @@
 import 'dart:async';
 import 'dart:math';
+import 'package:collection/collection.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:medicalarm/entity/medication_history.dart';
 import 'package:medicalarm/entity/medicine.dart';
@@ -234,6 +235,7 @@ class RegisterReminderLocalNotification {
 
         // 通知をまとめて送るので、スケジュールの中にcriticalAlertを使うものが一つでもある場合はcriticalAlertを使う
         final useCriticalAlert = group.scheduleRows.any((element) => element.medicationSchedule.notificationSetting.useCriticalAlert);
+        final largestCriticalAlertVolume = group.scheduleRows.map((e) => e.medicationSchedule.notificationSetting.criticalAlertVolume).max;
 
         final reminderEnabledScheduleRows = group.scheduleRows.where((element) => element.medicationSchedule.notificationSetting.isReminderEnabled);
         if (reminderEnabledScheduleRows.isNotEmpty) {
@@ -267,6 +269,7 @@ class RegisterReminderLocalNotification {
                       presentBanner: true,
                       presentList: true,
                       interruptionLevel: useCriticalAlert ? InterruptionLevel.critical : InterruptionLevel.timeSensitive,
+                      criticalSoundVolume: useCriticalAlert ? largestCriticalAlertVolume : null,
                       badgeNumber: badgeNumber,
                     ),
                     android: const AndroidNotificationDetails('', ''),
@@ -331,6 +334,7 @@ class RegisterReminderLocalNotification {
                       presentBanner: true,
                       presentList: true,
                       interruptionLevel: useCriticalAlert ? InterruptionLevel.critical : InterruptionLevel.timeSensitive,
+                      criticalSoundVolume: useCriticalAlert ? largestCriticalAlertVolume : null,
                       badgeNumber: badgeNumber,
                     ),
                     android: AndroidNotificationDetails('', ''),
