@@ -593,7 +593,7 @@ class __$$MedicineScheduleNotificationSettingImplCopyWithImpl<$Res>
 @JsonSerializable(explicitToJson: true)
 class _$MedicineScheduleNotificationSettingImpl extends _MedicineScheduleNotificationSetting {
   const _$MedicineScheduleNotificationSettingImpl(
-      {required this.isReminderEnabled, required this.isFollowupEnabled, required this.useCriticalAlert, required this.criticalAlertVolume = 0.5})
+      {required this.isReminderEnabled, required this.isFollowupEnabled, required this.useCriticalAlert, this.criticalAlertVolume = 0.5})
       : super._();
 
   factory _$MedicineScheduleNotificationSettingImpl.fromJson(Map<String, dynamic> json) => _$$MedicineScheduleNotificationSettingImplFromJson(json);
@@ -649,7 +649,7 @@ abstract class _MedicineScheduleNotificationSetting extends MedicineScheduleNoti
       {required final bool isReminderEnabled,
       required final bool isFollowupEnabled,
       required final bool useCriticalAlert,
-      required final double criticalAlertVolume}) = _$MedicineScheduleNotificationSettingImpl;
+      final double criticalAlertVolume}) = _$MedicineScheduleNotificationSettingImpl;
   const _MedicineScheduleNotificationSetting._() : super._();
 
   factory _MedicineScheduleNotificationSetting.fromJson(Map<String, dynamic> json) = _$MedicineScheduleNotificationSettingImpl.fromJson;
