@@ -11,7 +11,8 @@ import 'package:uuid/uuid.dart';
 part 'grouped.freezed.dart';
 
 @freezed
-// scheduleTime(id無し。値一致)とdoseReceiverごとのdosingRowsを管理する
+// 時間&服用者ごとに、服薬予定の薬が1:Nで紐づいている
+// scheduleTime(id無し。値一致)とdoseReceiverごとのscheduleRowsを管理する
 class MedicationGroup with _$MedicationGroup {
   const factory MedicationGroup({
     required String id,
