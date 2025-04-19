@@ -763,5 +763,21 @@
   "notificationFollowupTitle": "Vergeet jy nie om jou medikasie rekords aan te teken nie?",
   "@notificationFollowupTitle": {
     "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
+  },
+  "recommendedApp": "aanbevole toepassing",
+  "@recommendedApp": {
+    "description": "おすすめアプリのタイトル"
+  },
+  "pilllIntroduction": "Is this perhaps pill management? Would you like to manage your pill intake more conveniently?",
+  "@pilllIntroduction": {
+    "description": "ピルの管理の紹介"
+  },
+  "installPilll": "Installeer Pilll",
+  "@installPilll": {
+    "description": "Pilllをインストールするボタンのテキスト"
+  },
+  "criticalAlertVolume": "Volume",
+  "@criticalAlertVolume": {
+    "description": "緊急通知の音量の表示名"
   }
 }

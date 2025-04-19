@@ -763,5 +763,21 @@
   "notificationFollowupTitle": "Та эмчилгээний тэмдэглэлээ бичихээ мартсан уу?",
   "@notificationFollowupTitle": {
     "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
+  },
+  "recommendedApp": "Зөвлөсөн програм",
+  "@recommendedApp": {
+    "description": "おすすめアプリのタイトル"
+  },
+  "pilllIntroduction": "Би pill-ийг удирдахад хэрэгтэй гэж байна уу? Илүү удоб нарийн pill-ийг хэрэглэхийг удирдаарай.",
+  "@pilllIntroduction": {
+    "description": "ピルの管理の紹介"
+  },
+  "installPilll": "Pilll-ийг суулгах",
+  "@installPilll": {
+    "description": "Pilllをインストールするボタンのテキスト"
+  },
+  "criticalAlertVolume": "Дууний түвшин",
+  "@criticalAlertVolume": {
+    "description": "緊急通知の音量の表示名"
   }
 }

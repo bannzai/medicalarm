@@ -763,5 +763,21 @@
   "notificationFollowupTitle": "तपाईंले औषधिको रेकर्ड राख्न बिर्सनुभएको छैन? ",
   "@notificationFollowupTitle": {
     "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
+  },
+  "recommendedApp": "सिफारिस गरिएका अनुप्रयोगहरू",
+  "@recommendedApp": {
+    "description": "おすすめアプリのタイトル"
+  },
+  "pilllIntroduction": "केनिकलत सँगक गर्भनिरोधकको व्यवस्थापन? के तपाईंले गर्भनिरोधकको सेवनलाई सजिलो बनाउने कुरा गर्न चाहानुहुन्छ?",
+  "@pilllIntroduction": {
+    "description": "ピルの管理の紹介"
+  },
+  "installPilll": "Pilll स्थापना गर्नुहोस्",
+  "@installPilll": {
+    "description": "Pilllをインストールするボタンのテキスト"
+  },
+  "criticalAlertVolume": "ध्वनि स्तर",
+  "@criticalAlertVolume": {
+    "description": "緊急通知の音量の表示名"
   }
 }

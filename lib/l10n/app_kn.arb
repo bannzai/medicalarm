@@ -763,5 +763,21 @@
   "notificationFollowupTitle": "ನೀವು ಔಷಧಿ ದಾಖಲೆಗಳನ್ನು ಇನ್ಮುಂದೆ ಬಿಟ್ಟು ಹೋಗುತ್ತಿದಿರಾ?",
   "@notificationFollowupTitle": {
     "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
+  },
+  "recommendedApp": "ಯೋಜನೆನಗೊಳ್ಳದ ಆ್ಯಪ್",
+  "@recommendedApp": {
+    "description": "おすすめアプリのタイトル"
+  },
+  "pilllIntroduction": "ನೀವು ಶಾಯದ ನಿರ್ವಹಣೆಯ ಬಗ್ಗೆ ಮಾತನಾಡುತ್ತಿದ್ದೀರಾ? ನೀವು ಶಾಯವನ್ನು ನಿರ್ವಹಿಸಲು ಹೆಚ್ಚು ಸುಲಭವಾಗುವುದಕ್ಕೆ ಏನು ಮಾಡಲು ಬಯಸುತ್ತೀರಾ?",
+  "@pilllIntroduction": {
+    "description": "ピルの管理の紹介"
+  },
+  "installPilll": "Pilll ಅನ್ನು ಸ್ಥಾಪಿಸಿ",
+  "@installPilll": {
+    "description": "Pilllをインストールするボタンのテキスト"
+  },
+  "criticalAlertVolume": "ಶ್ರವಣ ಶ್ರಾವಣ",
+  "@criticalAlertVolume": {
+    "description": "緊急通知の音量の表示名"
   }
 }

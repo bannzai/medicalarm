@@ -753,5 +753,31 @@
   "notificationFollowupTitle": "តើអ្នកបានភ្លេចផ្ដល់កំណត់ត្រាអំពីការប្រើប្រាស់ថ药ទេ?",
   "@notificationFollowupTitle": {
     "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
+  },
+  "purchaseErrorTimeout": "បានចាកចេញដោយគ្មានការតភ្ជាប់។ សូមពិនិត្យមើលស្ថានភាពបណ្តាញរបស់អ្នក ហើយព្យាយាមម្តងទៀត។ ប្រសិនបើបញ្ហានេះមិនត្រូវបានដោះសោសូមចុច ការកំណត់ > សំណេរ។ ព័ត៌មានលម្អិត៖ {message}",
+  "@purchaseErrorTimeout": {
+    "description": "購入処理がタイムアウトした場合のエラーメッセージ",
+    "placeholders": {
+      "message": {
+        "type": "String",
+        "example": "エラーの詳細"
+      }
+    }
+  },
+  "recommendedApp": "កម្មវិធីដែលបានពេញនិយម",
+  "@recommendedApp": {
+    "description": "おすすめアプリのタイトル"
+  },
+  "pilllIntroduction": "តើអ្នកកំពុងគ្រប់គ្រងពិលមែនទេ? តើអ្នកចង់គ្រប់គ្រងការបរិច្ឆេទគ្រប់គ្រងពិលឱ្យមានភាពងាយស្រួលដែរឬទេ?",
+  "@pilllIntroduction": {
+    "description": "ピルの管理の紹介"
+  },
+  "installPilll": "ติดตั้ง Pilll",
+  "@installPilll": {
+    "description": "Pilllをインストールするボタンのテキスト"
+  },
+  "criticalAlertVolume": "ស្រេកសំឡេង",
+  "@criticalAlertVolume": {
+    "description": "緊急通知の音量の表示名"
   }
 }

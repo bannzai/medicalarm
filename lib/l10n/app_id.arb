@@ -763,5 +763,21 @@
   "notificationFollowupTitle": "Apakah Anda lupa mencatat rekapan penggunaan obat?",
   "@notificationFollowupTitle": {
     "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
+  },
+  "recommendedApp": "Aplikasi Rekomendasi",
+  "@recommendedApp": {
+    "description": "おすすめアプリのタイトル"
+  },
+  "pilllIntroduction": "Apakah ini tentang manajemen pil? Bagaimana jika kita mengelola penggunaan pil dengan lebih mudah?",
+  "@pilllIntroduction": {
+    "description": "ピルの管理の紹介"
+  },
+  "installPilll": "Instal Pilll",
+  "@installPilll": {
+    "description": "Pilllをインストールするボタンのテキスト"
+  },
+  "criticalAlertVolume": "Volume",
+  "@criticalAlertVolume": {
+    "description": "緊急通知の音量の表示名"
   }
 }

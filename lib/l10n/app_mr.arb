@@ -763,5 +763,21 @@
   "notificationFollowupTitle": "तुम्ही औषध घेत असलेल्या नोंदी ठेवणं विसरलात का?",
   "@notificationFollowupTitle": {
     "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
+  },
+  "recommendedApp": "सूचलेले अनुप्रयोग",
+  "@recommendedApp": {
+    "description": "おすすめアプリのタイトル"
+  },
+  "pilllIntroduction": "कृपया हे औषधांचे व्यवस्थापन आहे का? तुम्हाला औषधांचे सेवन अधिक सोयीने व्यवस्थापित करायचे आहे का?",
+  "@pilllIntroduction": {
+    "description": "ピルの管理の紹介"
+  },
+  "installPilll": "Pilll स्थापित करा",
+  "@installPilll": {
+    "description": "Pilllをインストールするボタンのテキスト"
+  },
+  "criticalAlertVolume": "आवाज वाढ",
+  "@criticalAlertVolume": {
+    "description": "緊急通知の音量の表示名"
   }
 }

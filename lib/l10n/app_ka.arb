@@ -763,5 +763,21 @@
   "notificationFollowupTitle": "არ დამავიწყდება მედიკამენტების მიღების ჩანაწერის გაკეთება?",
   "@notificationFollowupTitle": {
     "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
+  },
+  "recommendedApp": "გირჩევით აპლიკაციას",
+  "@recommendedApp": {
+    "description": "おすすめアプリのタイトル"
+  },
+  "pilllIntroduction": "გთხოვთ, მიმართოთ მედიკამენტების მართვაზე? არ ჭირდებათ თქვენთვის უფრო მოსახერხებელი მედიკამენტების მიღების მართვა?",
+  "@pilllIntroduction": {
+    "description": "ピルの管理の紹介"
+  },
+  "installPilll": "Pilll-ს ინსტალირება",
+  "@installPilll": {
+    "description": "Pilllをインストールするボタンのテキスト"
+  },
+  "criticalAlertVolume": "ხმაურის დონე",
+  "@criticalAlertVolume": {
+    "description": "緊急通知の音量の表示名"
   }
 }

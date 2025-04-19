@@ -763,5 +763,21 @@
   "notificationFollowupTitle": "آیا فراموش کرده‌اید که رکورد مصرف دارو را ثبت کنید؟",
   "@notificationFollowupTitle": {
     "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
+  },
+  "recommendedApp": "اپلیکیشن های پیشنهادی",
+  "@recommendedApp": {
+    "description": "おすすめアプリのタイトル"
+  },
+  "pilllIntroduction": "آیا مدیریت قرص است؟ چرا به راحتی مصرف قرص را مدیریت نکنید؟",
+  "@pilllIntroduction": {
+    "description": "ピルの管理の紹介"
+  },
+  "installPilll": "Pilll را نصب کنید",
+  "@installPilll": {
+    "description": "Pilllをインストールするボタンのテキスト"
+  },
+  "criticalAlertVolume": "صدا",
+  "@criticalAlertVolume": {
+    "description": "緊急通知の音量の表示名"
   }
 }

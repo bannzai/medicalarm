@@ -763,5 +763,21 @@
   "notificationFollowupTitle": "మీరు మందు తీసుకునే రికార్డును పెట్టడం మరిచిపోయారా?",
   "@notificationFollowupTitle": {
     "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
+  },
+  "recommendedApp": "అనుకూలమైన యాప్",
+  "@recommendedApp": {
+    "description": "おすすめアプリのタイトル"
+  },
+  "pilllIntroduction": "మీరు పిల్ నిర్వహణ గూర్చి ఆలోచిస్తున్నారా? మీ పిల్‌ను మరింత సౌకర్యవంతంగా నిర్వహించండి!",
+  "@pilllIntroduction": {
+    "description": "ピルの管理の紹介"
+  },
+  "installPilll": "పిల్ల్ను ఇన్‌స్టాల్ చేయండి",
+  "@installPilll": {
+    "description": "Pilllをインストールするボタンのテキスト"
+  },
+  "criticalAlertVolume": "శబ్దమట్టము",
+  "@criticalAlertVolume": {
+    "description": "緊急通知の音量の表示名"
   }
 }

@@ -763,5 +763,21 @@
   "notificationFollowupTitle": "Вы не забываеце запісваць запіс аб прыёме лекі?",
   "@notificationFollowupTitle": {
     "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
+  },
+  "recommendedApp": "Рэкамендаваныя прыкладанні",
+  "@recommendedApp": {
+    "description": "おすすめアプリのタイトル"
+  },
+  "pilllIntroduction": "Магчыма, гэта ўправленне таблеткамі? Ці не хацелі б вы зручней кіраваць прыёмам таблетак?",
+  "@pilllIntroduction": {
+    "description": "ピルの管理の紹介"
+  },
+  "installPilll": "Усталяваць Pilll",
+  "@installPilll": {
+    "description": "Pilllをインストールするボタンのテキスト"
+  },
+  "criticalAlertVolume": "Гучнасць",
+  "@criticalAlertVolume": {
+    "description": "緊急通知の音量の表示名"
   }
 }

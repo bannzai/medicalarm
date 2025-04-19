@@ -763,5 +763,21 @@
   "notificationFollowupTitle": "Hesch du d'Medikament-record unde vergass? ",
   "@notificationFollowupTitle": {
     "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
+  },
+  "recommendedApp": "Empfohlene App",
+  "@recommendedApp": {
+    "description": "おすすめアプリのタイトル"
+  },
+  "pilllIntroduction": "Viellecht isch das d'Verwaltig vo Pillen? Manage di Pillene eifacher?",
+  "@pilllIntroduction": {
+    "description": "ピルの管理の紹介"
+  },
+  "installPilll": "Pilll installieren",
+  "@installPilll": {
+    "description": "Pilllをインストールするボタンのテキスト"
+  },
+  "criticalAlertVolume": "Lautstärke",
+  "@criticalAlertVolume": {
+    "description": "緊急通知の音量の表示名"
   }
 }

@@ -763,5 +763,21 @@
   "notificationFollowupTitle": "Մոռացաք արդյոք դեղորայքի գրառումը տանել։",
   "@notificationFollowupTitle": {
     "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
+  },
+  "recommendedApp": "հարմարեցված ծրագիր",
+  "@recommendedApp": {
+    "description": "おすすめアプリのタイトル"
+  },
+  "pilllIntroduction": "Դուք, acaso, ի՞նչ եք անում խմելու մզկիթի կառավարումը: Շնորհավորում եմ, որ ավելի հարմարավետ եք մզկիթի ընդունելը կառավարելու։",
+  "@pilllIntroduction": {
+    "description": "ピルの管理の紹介"
+  },
+  "installPilll": "Պիլլը տեղադրել",
+  "@installPilll": {
+    "description": "Pilllをインストールするボタンのテキスト"
+  },
+  "criticalAlertVolume": "ԱՌԱՋՆՈՒՅԹ",
+  "@criticalAlertVolume": {
+    "description": "緊急通知の音量の表示名"
   }
 }

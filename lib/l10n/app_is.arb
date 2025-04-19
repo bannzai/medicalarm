@@ -763,5 +763,21 @@
   "notificationFollowupTitle": "Ertu ekki að gleyma að skrá lyfjagjafir?",
   "@notificationFollowupTitle": {
     "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
+  },
+  "recommendedApp": "Mælti forrit",
+  "@recommendedApp": {
+    "description": "おすすめアプリのタイトル"
+  },
+  "pilllIntroduction": "Kannski ertu að tala um pillustjórnun? Viltu ekki stýra pillu neyslu þínni á þægilegri hátt?",
+  "@pilllIntroduction": {
+    "description": "ピルの管理の紹介"
+  },
+  "installPilll": "Install Pilll",
+  "@installPilll": {
+    "description": "Pilllをインストールするボタンのテキスト"
+  },
+  "criticalAlertVolume": "Hljóðmagn",
+  "@criticalAlertVolume": {
+    "description": "緊急通知の音量の表示名"
   }
 }

@@ -763,5 +763,21 @@
   "notificationFollowupTitle": "Ingabe uwashiyanga amakhono okuphuziswa? ",
   "@notificationFollowupTitle": {
     "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
+  },
+  "recommendedApp": "Izinhlelo eziphakanyisiwe",
+  "@recommendedApp": {
+    "description": "おすすめアプリのタイトル"
+  },
+  "pilllIntroduction": "Ingabe lokhu kungokuphathwa kwepils? Kungani ungayiqhuba kahle ekuphatheni ukusetshenziswa kwepills?",
+  "@pilllIntroduction": {
+    "description": "ピルの管理の紹介"
+  },
+  "installPilll": "Faka i-Pilll",
+  "@installPilll": {
+    "description": "Pilllをインストールするボタンのテキスト"
+  },
+  "criticalAlertVolume": "Ithente yokukhumbuza",
+  "@criticalAlertVolume": {
+    "description": "緊急通知の音量の表示名"
   }
 }

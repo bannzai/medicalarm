@@ -763,5 +763,21 @@
   "notificationFollowupTitle": "আপনি কি ঔষধ গ্রহণের রেকর্ড করতে ভুলে গেছেন?",
   "@notificationFollowupTitle": {
     "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
+  },
+  "recommendedApp": "মおすすめ অ্যাপ",
+  "@recommendedApp": {
+    "description": "おすすめアプリのタイトル"
+  },
+  "pilllIntroduction": "আপনি কি সম্ভবত পিল ব্যবস্থাপনা সম্পর্কে কথা বলছেন? কি এমনভাবে পিল গ্রহণের সুবিধা নিতে চান?",
+  "@pilllIntroduction": {
+    "description": "ピルの管理の紹介"
+  },
+  "installPilll": "Pilll ইনস্টল করুন",
+  "@installPilll": {
+    "description": "Pilllをインストールするボタンのテキスト"
+  },
+  "criticalAlertVolume": "শব্দের মাত্রা",
+  "@criticalAlertVolume": {
+    "description": "緊急通知の音量の表示名"
   }
 }

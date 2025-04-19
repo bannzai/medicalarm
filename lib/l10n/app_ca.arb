@@ -763,5 +763,21 @@
   "notificationFollowupTitle": "Estas oblidant de registrar la presa de medicaments?",
   "@notificationFollowupTitle": {
     "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
+  },
+  "recommendedApp": "Aplicació recomanada",
+  "@recommendedApp": {
+    "description": "おすすめアプリのタイトル"
+  },
+  "pilllIntroduction": "Potser estàs buscant gestionar les pastilles? Per què no gestiones de manera més còmoda la presa de les teves pastilles?",
+  "@pilllIntroduction": {
+    "description": "ピルの管理の紹介"
+  },
+  "installPilll": "Instal·la Pilll",
+  "@installPilll": {
+    "description": "Pilllをインストールするボタンのテキスト"
+  },
+  "criticalAlertVolume": "Volum",
+  "@criticalAlertVolume": {
+    "description": "緊急通知の音量の表示名"
   }
 }

@@ -763,5 +763,21 @@
   "notificationFollowupTitle": "Nakalimutan mo bang magtala ng iyong pag-inom ng gamot?",
   "@notificationFollowupTitle": {
     "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
+  },
+  "recommendedApp": "Inirerekomendang App",
+  "@recommendedApp": {
+    "description": "おすすめアプリのタイトル"
+  },
+  "pilllIntroduction": "Baka naman ay pamamahala sa pills? Mas madali bang pamahalaan ang pag-inom ng pills?",
+  "@pilllIntroduction": {
+    "description": "ピルの管理の紹介"
+  },
+  "installPilll": "I-install ang Pilll",
+  "@installPilll": {
+    "description": "Pilllをインストールするボタンのテキスト"
+  },
+  "criticalAlertVolume": "Sukat ng tunog",
+  "@criticalAlertVolume": {
+    "description": "緊急通知の音量の表示名"
   }
 }

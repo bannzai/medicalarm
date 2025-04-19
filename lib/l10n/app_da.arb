@@ -763,5 +763,21 @@
   "notificationFollowupTitle": "Har du glemt at registrere din medicin? ",
   "@notificationFollowupTitle": {
     "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
+  },
+  "recommendedApp": "Anbefalede apps",
+  "@recommendedApp": {
+    "description": "おすすめアプリのタイトル"
+  },
+  "pilllIntroduction": "Måske er det styring af piller? Vil du ikke gøre det lettere at administrere din indtagelse af piller?",
+  "@pilllIntroduction": {
+    "description": "ピルの管理の紹介"
+  },
+  "installPilll": "Installer Pilll",
+  "@installPilll": {
+    "description": "Pilllをインストールするボタンのテキスト"
+  },
+  "criticalAlertVolume": "Lydstyrke",
+  "@criticalAlertVolume": {
+    "description": "緊急通知の音量の表示名"
   }
 }

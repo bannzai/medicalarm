@@ -763,5 +763,21 @@
   "notificationFollowupTitle": "Μήπως ξεχάσατε να καταγράψετε την λήψη φαρμάκων;",
   "@notificationFollowupTitle": {
     "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
+  },
+  "recommendedApp": "Προτεινόμενες εφαρμογές",
+  "@recommendedApp": {
+    "description": "おすすめアプリのタイトル"
+  },
+  "pilllIntroduction": "Είναι μήπως η διαχείριση των χαπιών; Μη χάσετε την ευκαιρία να διαχειριστείτε ευκολότερα τη λήψη των χαπιών σας!",
+  "@pilllIntroduction": {
+    "description": "ピルの管理の紹介"
+  },
+  "installPilll": "Εγκατάσταση του Pilll",
+  "@installPilll": {
+    "description": "Pilllをインストールするボタンのテキスト"
+  },
+  "criticalAlertVolume": "Όγκος",
+  "@criticalAlertVolume": {
+    "description": "緊急通知の音量の表示名"
   }
 }

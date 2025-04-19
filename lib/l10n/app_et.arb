@@ -763,5 +763,21 @@
   "notificationFollowupTitle": "Kas sa unustasid ravimite võtmise kirje tegemata?",
   "@notificationFollowupTitle": {
     "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
+  },
+  "recommendedApp": "Soovitatavad rakendused",
+  "@recommendedApp": {
+    "description": "おすすめアプリのタイトル"
+  },
+  "pilllIntroduction": "Kas sa mõtled pillide haldamisele? Kas sa ei tahaks pillide kasutamist mugavamalt hallata?",
+  "@pilllIntroduction": {
+    "description": "ピルの管理の紹介"
+  },
+  "installPilll": "Installeeri Pilll",
+  "@installPilll": {
+    "description": "Pilllをインストールするボタンのテキスト"
+  },
+  "criticalAlertVolume": "Heli",
+  "@criticalAlertVolume": {
+    "description": "緊急通知の音量の表示名"
   }
 }

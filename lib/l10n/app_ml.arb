@@ -763,5 +763,21 @@
   "notificationFollowupTitle": "നിങ്ങള്‍ മരുന്ന് കൈക്കുടുക്കാന്‍ മറക്കാറുണ്ടോ?",
   "@notificationFollowupTitle": {
     "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
+  },
+  "recommendedApp": "ശുപാർശ നടത്തിയ ആപ്ലിക്കേഷൻ",
+  "@recommendedApp": {
+    "description": "おすすめアプリのタイトル"
+  },
+  "pilllIntroduction": "ശയനം നമ്പറുകൾ പരിരക്ഷിക്കുമോ? കൂടുതൽ സുഖകരമായി ശയനങ്ങൾ പ്രയോജനപ്പെടുത്താൻ ആഗ്രഹിക്കുന്നുണ്ടോ?",
+  "@pilllIntroduction": {
+    "description": "ピルの管理の紹介"
+  },
+  "installPilll": "Pilll ന്യൂനംബർ",
+  "@installPilll": {
+    "description": "Pilllをインストールするボタンのテキスト"
+  },
+  "criticalAlertVolume": "ശബ്ദം",
+  "@criticalAlertVolume": {
+    "description": "緊急通知の音量の表示名"
   }
 }

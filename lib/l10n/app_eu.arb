@@ -763,5 +763,21 @@
   "notificationFollowupTitle": "Medikamentuen historiaz ez bazara ahaztu?",
   "@notificationFollowupTitle": {
     "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
+  },
+  "recommendedApp": "Eguneroko aplikazioak",
+  "@recommendedApp": {
+    "description": "おすすめアプリのタイトル"
+  },
+  "pilllIntroduction": "Agian ez aldagai kudeatu al da? Zergatik ez duzu pilulen kontsumoaren kudeaketa errazagoa egiten?",
+  "@pilllIntroduction": {
+    "description": "ピルの管理の紹介"
+  },
+  "installPilll": "Instalatu Pilll",
+  "@installPilll": {
+    "description": "Pilllをインストールするボタンのテキスト"
+  },
+  "criticalAlertVolume": "Hotsak",
+  "@criticalAlertVolume": {
+    "description": "緊急通知の音量の表示名"
   }
 }
