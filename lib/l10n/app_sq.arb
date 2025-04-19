@@ -763,5 +763,21 @@
   "notificationFollowupTitle": "A jeni harruar të regjistroni marrjen e barnave?",
   "@notificationFollowupTitle": {
     "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
+  },
+  "recommendedApp": "Aplikacionet e rekomanduara",
+  "@recommendedApp": {
+    "description": "おすすめアプリのタイトル"
+  },
+  "pilllIntroduction": "Mund të jetë menaxhimi i pilulave? A nuk do të donit ta menaxhonit marrjen e pilulave më lehtë?",
+  "@pilllIntroduction": {
+    "description": "ピルの管理の紹介"
+  },
+  "installPilll": "Instalo Pilll",
+  "@installPilll": {
+    "description": "Pilllをインストールするボタンのテキスト"
+  },
+  "criticalAlertVolume": "Toni",
+  "@criticalAlertVolume": {
+    "description": "緊急通知の音量の表示名"
   }
 }

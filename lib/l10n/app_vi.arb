@@ -763,5 +763,21 @@
   "notificationFollowupTitle": "Bạn có quên ghi lại lịch uống thuốc không?",
   "@notificationFollowupTitle": {
     "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
+  },
+  "recommendedApp": "Ứng dụng đề xuất",
+  "@recommendedApp": {
+    "description": "おすすめアプリのタイトル"
+  },
+  "pilllIntroduction": "Có phải bạn đang quản lý thuốc tránh thai không? Hãy quản lý việc dùng thuốc tránh thai một cách tiện lợi hơn!",
+  "@pilllIntroduction": {
+    "description": "ピルの管理の紹介"
+  },
+  "installPilll": "Cài đặt Pilll",
+  "@installPilll": {
+    "description": "Pilllをインストールするボタンのテキスト"
+  },
+  "criticalAlertVolume": "Âm lượng",
+  "@criticalAlertVolume": {
+    "description": "緊急通知の音量の表示名"
   }
 }

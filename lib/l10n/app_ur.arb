@@ -763,5 +763,21 @@
   "notificationFollowupTitle": "کیا آپ نے دوائی کا ریکارڈ ڈالنا بھول گئے ہیں؟",
   "@notificationFollowupTitle": {
     "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
+  },
+  "recommendedApp": "متفرق ایپ",
+  "@recommendedApp": {
+    "description": "おすすめアプリのタイトル"
+  },
+  "pilllIntroduction": "کیا یہ گولیوں کا انتظام ہے؟ کیا آپ گولیوں کے استعمال کا انتظام کرنے کے لئے مزید آسانی سے کام نہیں لینا چاہتے؟",
+  "@pilllIntroduction": {
+    "description": "ピルの管理の紹介"
+  },
+  "installPilll": "Pilll انسٹال کریں",
+  "@installPilll": {
+    "description": "Pilllをインストールするボタンのテキスト"
+  },
+  "criticalAlertVolume": "آواز کی شدت",
+  "@criticalAlertVolume": {
+    "description": "緊急通知の音量の表示名"
   }
 }

@@ -763,5 +763,21 @@
   "notificationFollowupTitle": "Zabudli ste pridať záznam o užití liekov?",
   "@notificationFollowupTitle": {
     "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
+  },
+  "recommendedApp": "Odporúčané aplikácie",
+  "@recommendedApp": {
+    "description": "おすすめアプリのタイトル"
+  },
+  "pilllIntroduction": "Možno spravujete svojich piluliek? Chcete efektívnejšie spravovať užívanie piluliek?",
+  "@pilllIntroduction": {
+    "description": "ピルの管理の紹介"
+  },
+  "installPilll": "Nainštalovať Pilll",
+  "@installPilll": {
+    "description": "Pilllをインストールするボタンのテキスト"
+  },
+  "criticalAlertVolume": "Hlasitosť",
+  "@criticalAlertVolume": {
+    "description": "緊急通知の音量の表示名"
   }
 }

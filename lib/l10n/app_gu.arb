@@ -763,5 +763,21 @@
   "notificationFollowupTitle": "શું તમે દવૈયનો રેકોર્ડ રાખવાનું ભૂલ્યા છો?",
   "@notificationFollowupTitle": {
     "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
+  },
+  "recommendedApp": "શ્રેષ્ઠ એપ્સ",
+  "@recommendedApp": {
+    "description": "おすすめアプリのタイトル"
+  },
+  "pilllIntroduction": "શા માટે નહીં, શું તમે પિલ્સનું સંચાલન કરી રહ્યા છો? શું તમે વધુ સરળતાથી પિલ્સના સેવનને વ્યવસ્થિત નથી કરવા માંગતા?",
+  "@pilllIntroduction": {
+    "description": "ピルの管理の紹介"
+  },
+  "installPilll": "પીલ્લલને ઇન્સ્ટોલ કરો",
+  "@installPilll": {
+    "description": "Pilllをインストールするボタンのテキスト"
+  },
+  "criticalAlertVolume": "ઘનત્મક અવાજ",
+  "@criticalAlertVolume": {
+    "description": "緊急通知の音量の表示名"
   }
 }

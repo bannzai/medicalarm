@@ -763,5 +763,21 @@
   "notificationFollowupTitle": "您是否忘记记录服药？",
   "@notificationFollowupTitle": {
     "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
+  },
+  "recommendedApp": "推荐应用",
+  "@recommendedApp": {
+    "description": "おすすめアプリのタイトル"
+  },
+  "pilllIntroduction": "这可能是药丸管理吗？要不要更方便地管理药丸的服用？",
+  "@pilllIntroduction": {
+    "description": "ピルの管理の紹介"
+  },
+  "installPilll": "安装Pilll",
+  "@installPilll": {
+    "description": "Pilllをインストールするボタンのテキスト"
+  },
+  "criticalAlertVolume": "音量",
+  "@criticalAlertVolume": {
+    "description": "緊急通知の音量の表示名"
   }
 }

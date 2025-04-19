@@ -763,5 +763,21 @@
   "notificationFollowupTitle": "Sdim yn anghofio cofrestru eich cyffuriau?",
   "@notificationFollowupTitle": {
     "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
+  },
+  "recommendedApp": "Apl argymhell",
+  "@recommendedApp": {
+    "description": "おすすめアプリのタイトル"
+  },
+  "pilllIntroduction": "A ydych yn rheoli piliau? Pam na wnewch chi reoli eich meddyginiaeth yn fwy cyfleus?",
+  "@pilllIntroduction": {
+    "description": "ピルの管理の紹介"
+  },
+  "installPilll": "Instalwch Pilll",
+  "@installPilll": {
+    "description": "Pilllをインストールするボタンのテキスト"
+  },
+  "criticalAlertVolume": "Lleisio",
+  "@criticalAlertVolume": {
+    "description": "緊急通知の音量の表示名"
   }
 }

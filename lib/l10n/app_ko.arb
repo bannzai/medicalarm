@@ -763,5 +763,21 @@
   "notificationFollowupTitle": "복용 기록을 잊지 않았나요?",
   "@notificationFollowupTitle": {
     "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
+  },
+  "recommendedApp": "추천 앱",
+  "@recommendedApp": {
+    "description": "おすすめアプリのタイトル"
+  },
+  "pilllIntroduction": "혹시 약의 관리를 말씀하시는 건가요? 보다 편리하게 약 복용을 관리해 보세요!",
+  "@pilllIntroduction": {
+    "description": "ピルの管理の紹介"
+  },
+  "installPilll": "Pilll을 설치",
+  "@installPilll": {
+    "description": "Pilllをインストールするボタンのテキスト"
+  },
+  "criticalAlertVolume": "소리 크기",
+  "@criticalAlertVolume": {
+    "description": "緊急通知の音量の表示名"
   }
 }

@@ -763,5 +763,21 @@
   "notificationFollowupTitle": "Nu ați uitat să înregistrați doza de medicamente?",
   "@notificationFollowupTitle": {
     "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
+  },
+  "recommendedApp": "Aplicații recomandate",
+  "@recommendedApp": {
+    "description": "おすすめアプリのタイトル"
+  },
+  "pilllIntroduction": "Poate că este vorba despre gestionarea pilulelor? De ce să nu gestionați mai convenabil administrarea pilulelor?",
+  "@pilllIntroduction": {
+    "description": "ピルの管理の紹介"
+  },
+  "installPilll": "Instalare Pilll",
+  "@installPilll": {
+    "description": "Pilllをインストールするボタンのテキスト"
+  },
+  "criticalAlertVolume": "Volum",
+  "@criticalAlertVolume": {
+    "description": "緊急通知の音量の表示名"
   }
 }

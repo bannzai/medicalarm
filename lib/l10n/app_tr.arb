@@ -763,5 +763,21 @@
   "notificationFollowupTitle": "İlaç alma kaydını unutmadınız mı?",
   "@notificationFollowupTitle": {
     "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
+  },
+  "recommendedApp": "Önerilen Uygulamalar",
+  "@recommendedApp": {
+    "description": "おすすめアプリのタイトル"
+  },
+  "pilllIntroduction": "Belki de ilaç yönetimidir? İlaç alımınızı daha pratik bir şekilde yönetmek istemez misiniz?",
+  "@pilllIntroduction": {
+    "description": "ピルの管理の紹介"
+  },
+  "installPilll": "Pilll'i yükleyin",
+  "@installPilll": {
+    "description": "Pilllをインストールするボタンのテキスト"
+  },
+  "criticalAlertVolume": "Ses seviyesi",
+  "@criticalAlertVolume": {
+    "description": "緊急通知の音量の表示名"
   }
 }

@@ -763,5 +763,21 @@
   "notificationFollowupTitle": "Ne feledkezz meg a gyógyszerbevitelről!",
   "@notificationFollowupTitle": {
     "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
+  },
+  "recommendedApp": "Ajánlott alkalmazás",
+  "@recommendedApp": {
+    "description": "おすすめアプリのタイトル"
+  },
+  "pilllIntroduction": "Talán a tabletták kezeléséről van szó? Miért ne kezelné kényelmesebben a tabletták szedését?",
+  "@pilllIntroduction": {
+    "description": "ピルの管理の紹介"
+  },
+  "installPilll": "Pilll telepítése",
+  "@installPilll": {
+    "description": "Pilllをインストールするボタンのテキスト"
+  },
+  "criticalAlertVolume": "Hangerő",
+  "@criticalAlertVolume": {
+    "description": "緊急通知の音量の表示名"
   }
 }

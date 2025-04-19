@@ -763,5 +763,21 @@
   "notificationFollowupTitle": "¿No olvidaste registrar tu toma de medicamentos?",
   "@notificationFollowupTitle": {
     "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
+  },
+  "recommendedApp": "Aplicación recomendada",
+  "@recommendedApp": {
+    "description": "おすすめアプリのタイトル"
+  },
+  "pilllIntroduction": "¿Quizás sea la gestión de píldoras? ¿Por qué no gestionar la toma de tus píldoras de manera más conveniente?",
+  "@pilllIntroduction": {
+    "description": "ピルの管理の紹介"
+  },
+  "installPilll": "Instalar Pilll",
+  "@installPilll": {
+    "description": "Pilllをインストールするボタンのテキスト"
+  },
+  "criticalAlertVolume": "Volumen",
+  "@criticalAlertVolume": {
+    "description": "緊急通知の音量の表示名"
   }
 }

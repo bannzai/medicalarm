@@ -763,5 +763,21 @@
   "notificationFollowupTitle": "நீங்கள் மருந்து எடுக்கும் பதிவுகளை மறந்துவிடவில்லை என்றால்?",
   "@notificationFollowupTitle": {
     "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
+  },
+  "recommendedApp": "முடுக்கப்பட்ட செயலிகள்",
+  "@recommendedApp": {
+    "description": "おすすめアプリのタイトル"
+  },
+  "pilllIntroduction": "ஒரு மாதிரியான மருந்துகளை கண்காணிக்கிறீர்களா? அதிக அளவாக மருந்துகளை எடுத்துக் கொள்ளவும்.",
+  "@pilllIntroduction": {
+    "description": "ピルの管理の紹介"
+  },
+  "installPilll": "Pilll வை நிறுவுங்கள்",
+  "@installPilll": {
+    "description": "Pilllをインストールするボタンのテキスト"
+  },
+  "criticalAlertVolume": "ஒٽو",
+  "@criticalAlertVolume": {
+    "description": "緊急通知の音量の表示名"
   }
 }

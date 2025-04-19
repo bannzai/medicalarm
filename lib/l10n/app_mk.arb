@@ -763,5 +763,21 @@
   "notificationFollowupTitle": "Дали сте заборавиле да запишете вашата терапија?",
   "@notificationFollowupTitle": {
     "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
+  },
+  "recommendedApp": "Препорачан апликации",
+  "@recommendedApp": {
+    "description": "おすすめアプリのタイトル"
+  },
+  "pilllIntroduction": "Можно ли тоа управување со таблети? Управувајте со вашето земање таблети поудобно.",
+  "@pilllIntroduction": {
+    "description": "ピルの管理の紹介"
+  },
+  "installPilll": "Инсталирајте Pilll",
+  "@installPilll": {
+    "description": "Pilllをインストールするボタンのテキスト"
+  },
+  "criticalAlertVolume": "Големина на звук",
+  "@criticalAlertVolume": {
+    "description": "緊急通知の音量の表示名"
   }
 }

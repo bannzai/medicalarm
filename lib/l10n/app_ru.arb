@@ -763,5 +763,17 @@
   "notificationFollowupTitle": "Вы не забыли записать прием лекарств?",
   "@notificationFollowupTitle": {
     "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
+  },
+  "recommendedApp": "Рекомендуемые приложения",
+  "@recommendedApp": {
+    "description": "おすすめアプリのタイトル"
+  },
+  "installPilll": "Установить Pilll",
+  "@installPilll": {
+    "description": "Pilllをインストールするボタンのテキスト"
+  },
+  "criticalAlertVolume": "Громкость",
+  "@criticalAlertVolume": {
+    "description": "緊急通知の音量の表示名"
   }
 }

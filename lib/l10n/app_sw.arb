@@ -763,5 +763,21 @@
   "notificationFollowupTitle": "Je, umekosa kuandika kumbukumbu ya dawa?",
   "@notificationFollowupTitle": {
     "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
+  },
+  "recommendedApp": "Orodha ya Programu",
+  "@recommendedApp": {
+    "description": "おすすめアプリのタイトル"
+  },
+  "pilllIntroduction": "Je, huenda unatafuta usimamizi wa vidonge? Kwa nini usimamie ulaji wa vidonge kwa urahisi zaidi?",
+  "@pilllIntroduction": {
+    "description": "ピルの管理の紹介"
+  },
+  "installPilll": "Sakinisha Pilll",
+  "@installPilll": {
+    "description": "Pilllをインストールするボタンのテキスト"
+  },
+  "criticalAlertVolume": "Kiasi cha sauti",
+  "@criticalAlertVolume": {
+    "description": "緊急通知の音量の表示名"
   }
 }

@@ -763,5 +763,21 @@
   "notificationFollowupTitle": "האם שכחת לרשום את ההיסטוריה של התרופות שלך?",
   "@notificationFollowupTitle": {
     "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
+  },
+  "recommendedApp": "אפליקציות מומלצות",
+  "@recommendedApp": {
+    "description": "おすすめアプリのタイトル"
+  },
+  "pilllIntroduction": "האם אתה מתכוון לניהול גלולות? מדוע לא לנהל את נטילת הגלולות בצורה נוחה יותר?",
+  "@pilllIntroduction": {
+    "description": "ピルの管理の紹介"
+  },
+  "installPilll": "התקן את Pilll",
+  "@installPilll": {
+    "description": "Pilllをインストールするボタンのテキスト"
+  },
+  "criticalAlertVolume": "עוצמת קול",
+  "@criticalAlertVolume": {
+    "description": "緊急通知の音量の表示名"
   }
 }

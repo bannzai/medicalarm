@@ -763,5 +763,21 @@
   "notificationFollowupTitle": "Дәрі қабылдау жазбасын ұмытқан жоқсыз ба?",
   "@notificationFollowupTitle": {
     "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
+  },
+  "recommendedApp": "Ұсынылатын қолданбалар",
+  "@recommendedApp": {
+    "description": "おすすめアプリのタイトル"
+  },
+  "pilllIntroduction": "Бұл дәрі-дәрмектердің басқаруы ма? Дәрі қабылдауды ыңғайлы түрде басқармайсыз ба?",
+  "@pilllIntroduction": {
+    "description": "ピルの管理の紹介"
+  },
+  "installPilll": "Pilll-ды орнату",
+  "@installPilll": {
+    "description": "Pilllをインストールするボタンのテキスト"
+  },
+  "criticalAlertVolume": "Дыбыс деңгейі",
+  "@criticalAlertVolume": {
+    "description": "緊急通知の音量の表示名"
   }
 }

@@ -763,5 +763,21 @@
   "notificationFollowupTitle": "Oletko unohtanut merkitä lääkityksesi muistiin?",
   "@notificationFollowupTitle": {
     "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
+  },
+  "recommendedApp": "Suositellut sovellukset",
+  "@recommendedApp": {
+    "description": "おすすめアプリのタイトル"
+  },
+  "pilllIntroduction": "Onko tämä ehkä pillerien hallintaa? Haluatko hallita pillerin käyttöä kätevämmin?",
+  "@pilllIntroduction": {
+    "description": "ピルの管理の紹介"
+  },
+  "installPilll": "Asenna Pilll",
+  "@installPilll": {
+    "description": "Pilllをインストールするボタンのテキスト"
+  },
+  "criticalAlertVolume": "Ääni",
+  "@criticalAlertVolume": {
+    "description": "緊急通知の音量の表示名"
   }
 }

@@ -763,5 +763,21 @@
   "notificationFollowupTitle": "คุณลืมบันทึกประวัติการใช้ยาใช่ไหม?",
   "@notificationFollowupTitle": {
     "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
+  },
+  "recommendedApp": "แอปแนะนำ",
+  "@recommendedApp": {
+    "description": "おすすめアプリのタイトル"
+  },
+  "pilllIntroduction": "คุณกำลังจัดการยาเม็ดหรือเปล่า? มาจัดการการใช้ยาเม็ดให้สะดวกยิ่งขึ้นกันเถอะ!",
+  "@pilllIntroduction": {
+    "description": "ピルの管理の紹介"
+  },
+  "installPilll": "ติดตั้ง Pilll",
+  "@installPilll": {
+    "description": "Pilllをインストールするボタンのテキスト"
+  },
+  "criticalAlertVolume": "ระดับเสียง",
+  "@criticalAlertVolume": {
+    "description": "緊急通知の音量の表示名"
   }
 }

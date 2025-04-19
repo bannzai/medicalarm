@@ -763,5 +763,21 @@
   "notificationFollowupTitle": "ਕੀ ਤੁਸੀਂ ਦਵਾਈਆਂ ਦੀ ਰਿਕਾਰਡ ਭੁੱਲ ਗਏ ਹੋ?",
   "@notificationFollowupTitle": {
     "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
+  },
+  "recommendedApp": "ਸੁਝਾਇਤ ਕੀਤੀਆਂ ਐਪਸ",
+  "@recommendedApp": {
+    "description": "おすすめアプリのタイトル"
+  },
+  "pilllIntroduction": "ਕੀ ਤੁਸੀਂ ਪਿਲ ਦਾ ਪ੍ਰਬੰਧਨ ਕਰ ਰਹੇ ਹੋ? ਕੀ ਤੁਸੀਂ ਪਿਲਾਂ ਦੇ ਉਪਯੋਗ ਨੂੰ ਹੋਰ ਸੁਖਦ ਬਣਾਉਣਾ ਚਾਹੁੰਦੇ ਹੋ?",
+  "@pilllIntroduction": {
+    "description": "ピルの管理の紹介"
+  },
+  "installPilll": "Pilll ਨੂੰ ਇੰਸਟਾਲ ਕਰੋ",
+  "@installPilll": {
+    "description": "Pilllをインストールするボタンのテキスト"
+  },
+  "criticalAlertVolume": "ਵੋਲਿਊਮ",
+  "@criticalAlertVolume": {
+    "description": "緊急通知の音量の表示名"
   }
 }

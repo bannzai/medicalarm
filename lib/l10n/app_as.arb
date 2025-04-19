@@ -763,5 +763,21 @@
   "notificationFollowupTitle": "¿Te has olvidado de registrar tu medicación?",
   "@notificationFollowupTitle": {
     "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
+  },
+  "recommendedApp": "স্বাস্থ্য পরামর্শ অ্যাপ",
+  "@recommendedApp": {
+    "description": "おすすめアプリのタイトル"
+  },
+  "pilllIntroduction": "ଆପଣ କି ପିଲ୍‌ର ପ୍ରବନ୍ଧନ କରୁଛନ୍ତି? ଅଧିକ ସୁବିଧାଜନକ ଭାବେ ପିଲ୍‌ ଦ୍ୱାରା ଗ୍ରହଣ କରାଯାଉନି!",
+  "@pilllIntroduction": {
+    "description": "ピルの管理の紹介"
+  },
+  "installPilll": "Pilll install karein",
+  "@installPilll": {
+    "description": "Pilllをインストールするボタンのテキスト"
+  },
+  "criticalAlertVolume": "ਵੋਲਿਊਮ",
+  "@criticalAlertVolume": {
+    "description": "緊急通知の音量の表示名"
   }
 }

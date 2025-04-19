@@ -763,5 +763,21 @@
   "notificationFollowupTitle": "هل نسيت تسجيل تناول الأدوية؟",
   "@notificationFollowupTitle": {
     "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
+  },
+  "recommendedApp": "أفضل تطبيق",
+  "@recommendedApp": {
+    "description": "おすすめアプリのタイトル"
+  },
+  "pilllIntroduction": "هل تديرون حبوب منع الحمل؟ لماذا لا تديرون تناول الحبوب بسهولة أكبر؟",
+  "@pilllIntroduction": {
+    "description": "ピルの管理の紹介"
+  },
+  "installPilll": "تثبيت Pilll",
+  "@installPilll": {
+    "description": "Pilllをインストールするボタンのテキスト"
+  },
+  "criticalAlertVolume": "حجم الصوت",
+  "@criticalAlertVolume": {
+    "description": "緊急通知の音量の表示名"
   }
 }

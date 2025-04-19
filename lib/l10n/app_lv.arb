@@ -763,5 +763,21 @@
   "notificationFollowupTitle": "Vai jūs neesat aizmirsuši pierakstīt zāļu lietošanas ierakstu?",
   "@notificationFollowupTitle": {
     "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
+  },
+  "recommendedApp": "Ieteicamās lietotnes",
+  "@recommendedApp": {
+    "description": "おすすめアプリのタイトル"
+  },
+  "pilllIntroduction": "Vai jums ir nepieciešama kontracepcijas tablešu pārvaldība? Vai vēlaties ērtāk pārvaldīt tablešu lietošanu?",
+  "@pilllIntroduction": {
+    "description": "ピルの管理の紹介"
+  },
+  "installPilll": "Instalēt Pilll",
+  "@installPilll": {
+    "description": "Pilllをインストールするボタンのテキスト"
+  },
+  "criticalAlertVolume": "Skaņas līmenis",
+  "@criticalAlertVolume": {
+    "description": "緊急通知の音量の表示名"
   }
 }

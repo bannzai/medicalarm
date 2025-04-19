@@ -763,5 +763,21 @@
   "notificationFollowupTitle": "Сиз дарылануу жазууларыңызды унутуп калбадыңызбы?",
   "@notificationFollowupTitle": {
     "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
+  },
+  "recommendedApp": "Таңдаулы тиркемелер",
+  "@recommendedApp": {
+    "description": "おすすめアプリのタイトル"
+  },
+  "pilllIntroduction": "Сиз, балким, таблеткаларды башкаруу жөнүндө айтып жатасызбы? Томаткаларды пайдаланууну оңойлатууну каалабайсызбы?",
+  "@pilllIntroduction": {
+    "description": "ピルの管理の紹介"
+  },
+  "installPilll": "Pilll орното",
+  "@installPilll": {
+    "description": "Pilllをインストールするボタンのテキスト"
+  },
+  "criticalAlertVolume": "Дыбыш",
+  "@criticalAlertVolume": {
+    "description": "緊急通知の音量の表示名"
   }
 }

@@ -763,5 +763,21 @@
   "notificationFollowupTitle": "ທ່ານໄດ້ລືມບັນທຶກການຮັບຢາບໍ? ບັນທຶກມັກແມ່ນຂ໛ໍຟອລໍພາຍຫຼັງ ຈາກຄວາມຈິງຂອງຄວາມອິດລົງ ໃຈພາສາຂອງຢານີ້ຂອງທ່ານ.",
   "@notificationFollowupTitle": {
     "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
+  },
+  "recommendedApp": "ການແອັບແນະນຳ",
+  "@recommendedApp": {
+    "description": "おすすめアプリのタイトル"
+  },
+  "pilllIntroduction": "ອາດຈະແມ່ນການຄິດແບບດີແກ່ການຄັກເອີຍແບບລັດສະໜັກໃສ່ບັນຊີອອນເທີງ? ມາແຊຈໄດ້ລັດສະຜະຈິງສໍາລັບການຄັມ{",
+  "@pilllIntroduction": {
+    "description": "ピルの管理の紹介"
+  },
+  "installPilll": "ติดตั้ง Pilll",
+  "@installPilll": {
+    "description": "Pilllをインストールするボタンのテキスト"
+  },
+  "criticalAlertVolume": "ສຽງເສຍ",
+  "@criticalAlertVolume": {
+    "description": "緊急通知の音量の表示名"
   }
 }

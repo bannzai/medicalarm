@@ -763,5 +763,21 @@
   "notificationFollowupTitle": "Ar jūs nepamiršote užsirašyti vaistų vartojimo?  \n",
   "@notificationFollowupTitle": {
     "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
+  },
+  "recommendedApp": "Rekomenduojama programa",
+  "@recommendedApp": {
+    "description": "おすすめアプリのタイトル"
+  },
+  "pilllIntroduction": "Ar jums reikia valdymo priemonių tabletėms? Ar nenorėtumėte patogiau valdyti tablečių vartojimą?",
+  "@pilllIntroduction": {
+    "description": "ピルの管理の紹介"
+  },
+  "installPilll": "Įdiekite Pilll",
+  "@installPilll": {
+    "description": "Pilllをインストールするボタンのテキスト"
+  },
+  "criticalAlertVolume": "Garsas",
+  "@criticalAlertVolume": {
+    "description": "緊急通知の音量の表示名"
   }
 }
