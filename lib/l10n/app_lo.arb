@@ -768,10 +768,6 @@
   "@recommendedApp": {
     "description": "おすすめアプリのタイトル"
   },
-  "pilllIntroduction": "ອາດຈະແມ່ນການຄິດແບບດີແກ່ການຄັກເອີຍແບບລັດສະໜັກໃສ່ບັນຊີອອນເທີງ? ມາແຊຈໄດ້ລັດສະຜະຈິງສໍາລັບການຄັມ{",
-  "@pilllIntroduction": {
-    "description": "ピルの管理の紹介"
-  },
   "installPilll": "ติดตั้ง Pilll",
   "@installPilll": {
     "description": "Pilllをインストールするボタンのテキスト"
