@@ -839,5 +839,9 @@
   "premiumFeaturesList": "プレミアム機能一覧",
   "@premiumFeaturesList": {
     "description": "プレミアム機能一覧のタイトル"
+  },
+  "currentlyInPremiumTrial": "現在プレミアムトライアル中です",
+  "@currentlyInPremiumTrial": {
+    "description": "プレミアムトライアル中の表示テキスト"
   }
 }

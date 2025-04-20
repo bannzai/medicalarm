@@ -18,6 +18,7 @@ import 'package:medicalarm/features/medications/entity/grouped.dart';
 import 'package:medicalarm/features/medicine_form/components/schedule/focus_connect/section.dart';
 import 'package:medicalarm/features/medicine_form/page.dart';
 import 'package:medicalarm/features/medicines/page.dart';
+import 'package:medicalarm/features/preium_introduction/premium_introduction_sheet.dart';
 import 'package:medicalarm/provider/medication_history.dart';
 import 'package:medicalarm/provider/medicine.dart';
 import 'package:medicalarm/style/color.dart';
@@ -139,6 +140,27 @@ class MedicationsPageBody extends HookConsumerWidget {
                             tileValue: tileValue,
                           ),
                           const SizedBox(height: 10),
+                        ],
+                        if (customerInfo.isInPromotion) ...[
+                          GestureDetector(
+                            onTap: () {
+                              showPremiumIntroductionSheet(context);
+                            },
+                            child: Container(
+                              width: double.infinity,
+                              padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
+                              color: Colors.purple,
+                              child: Text(
+                                L.currentlyInPremiumTrial,
+                                style: const TextStyle(
+                                  color: Colors.white,
+                                  fontWeight: FontWeight.bold,
+                                  decoration: TextDecoration.underline,
+                                ),
+                                textAlign: TextAlign.center,
+                              ),
+                            ),
+                          ),
                         ],
                       ],
                     ),
