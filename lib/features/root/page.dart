@@ -26,36 +26,38 @@ class RootPage extends HookConsumerWidget {
             user: user,
             builder: (context) {
               debugPrint('Resolved: UserDatabaseResolver');
-              return AppUserCreateResolver(builder: (context, appUser) {
-                debugPrint('Resolved: AppUserCreateResolver');
-                return ForceUpdateResolver(builder: (context) {
-                  debugPrint('Resolved: ForceUpdateResolver');
-                  return PurchaseSetupResolver(
-                    userID: user.uid,
-                    builder: (context) {
-                      debugPrint('Resolved: PurchaseSetupResolver');
-                      return AppEntityPrepareResolver(
+              return AppUserCreateResolver(
+                  firebaseUserID: user.uid,
+                  builder: (context, appUser) {
+                    debugPrint('Resolved: AppUserCreateResolver');
+                    return ForceUpdateResolver(builder: (context) {
+                      debugPrint('Resolved: ForceUpdateResolver');
+                      return PurchaseSetupResolver(
                         userID: user.uid,
                         builder: (context) {
-                          debugPrint('Resolved: AppEntityPrepareResolver');
-                          return PromotionStartResolver(
-                              appUser: appUser,
-                              builder: (context) {
-                                debugPrint('Resolved: PromotionStartResolver');
-                                return Stack(
-                                  children: [
-                                    const InAppReviewResolver(),
-                                    AppUserStreamResolver(stream: (user) => analyticsDebugIsEnabled = user.analyticsDebugIsEnabled),
-                                    const HomePage(),
-                                  ],
-                                );
-                              });
+                          debugPrint('Resolved: PurchaseSetupResolver');
+                          return AppEntityPrepareResolver(
+                            userID: user.uid,
+                            builder: (context) {
+                              debugPrint('Resolved: AppEntityPrepareResolver');
+                              return PromotionStartResolver(
+                                  appUser: appUser,
+                                  builder: (context) {
+                                    debugPrint('Resolved: PromotionStartResolver');
+                                    return Stack(
+                                      children: [
+                                        const InAppReviewResolver(),
+                                        AppUserStreamResolver(stream: (user) => analyticsDebugIsEnabled = user.analyticsDebugIsEnabled),
+                                        const HomePage(),
+                                      ],
+                                    );
+                                  });
+                            },
+                          );
                         },
                       );
-                    },
-                  );
-                });
-              });
+                    });
+                  });
             });
       });
     });
