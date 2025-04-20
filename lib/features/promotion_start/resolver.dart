@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
+import 'package:medicalarm/entity/app_user.dart';
 import 'package:medicalarm/features/promotion_start/page.dart';
+import 'package:medicalarm/features/resolver/database.dart';
 import 'package:medicalarm/provider/app_user.dart';
-import 'package:medicalarm/provider/shared_preferences.dart';
 import 'package:medicalarm/utils/config/environment.dart';
 import 'package:medicalarm/utils/purchase/purchase.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
@@ -35,13 +36,9 @@ class PromotionStartResolver extends HookConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final appUser = ref.watch(appUserProvider).asData?.value;
     final customerInfo = ref.watch(customerInfoProvider).asData?.value;
-    final promotionStartPageCancelButtonTappedDateTimeInterval = ref.watch(promotionStartPageCancelButtonTappedDateTimeIntervalProvider);
 
-    final promotionStartPageCancelButtonTappedDate =
-        DateTime.fromMillisecondsSinceEpoch((promotionStartPageCancelButtonTappedDateTimeInterval * 1000).toInt());
-
-    final promotionStartPageIsPresentedNotifier = useState(false);
-    final promotionStartPageIsPresented = promotionStartPageIsPresentedNotifier.value;
+    // useStateを使用して状態を管理
+    final promotionStartPageIsPresented = useState(false);
 
     // コンポーネントのマウント時に一度だけ実行
     useEffect(() {
@@ -53,24 +50,31 @@ class PromotionStartResolver extends HookConsumerWidget {
         return null;
       }
 
-      // 7日間キャンセルボタンを押さなかった場合
-      final cancelThresholdDate = promotionStartPageCancelButtonTappedDate.add(const Duration(days: 7));
-      if (cancelThresholdDate.isBefore(DateTime.now())) {
-        // trialDeadlineがnullの場合（有料版を使ったことがない場合）に表示
-        promotionStartPageIsPresentedNotifier.value = appUser?.maybeTrialDeadlineDate == null;
+      final cancelDateTime = appUser?.promotionStartPageCancelButtonTappedDateTime;
+
+      // キャンセルボタンが押されていない、または7日間以上経過している場合
+      if (cancelDateTime == null || cancelDateTime.add(const Duration(days: 7)).isBefore(DateTime.now())) {
+        // trialDeadlineDateがnullの場合（有料版を使ったことがない場合）に表示
+        promotionStartPageIsPresented.value = appUser?.trialDeadlineDate == null;
       }
 
       return null;
-    }, []);
+    }, [appUser, customerInfo]);
 
-    if (promotionStartPageIsPresented) {
+    if (promotionStartPageIsPresented.value) {
       return PromotionStartPage(
         onStartPromotion: () {
-          promotionStartPageIsPresentedNotifier.value = false;
+          promotionStartPageIsPresented.value = false;
+          // ここでユーザーにtrial期間を付与する処理を実装
         },
-        onCancel: () {
-          promotionStartPageIsPresentedNotifier.value = false;
-          ref.read(promotionStartPageCancelButtonTappedDateTimeIntervalProvider.notifier).update(DateTime.now().millisecondsSinceEpoch / 1000);
+        onCancel: () async {
+          promotionStartPageIsPresented.value = false;
+
+          // AppUserのpromotionStartPageCancelButtonTappedDateTimeを更新
+          final userDatabase = ref.read(userDatabaseProvider);
+          await userDatabase.userReference().update({
+            'promotionStartPageCancelButtonTappedDateTime': DateTime.now(),
+          });
         },
       );
     }
