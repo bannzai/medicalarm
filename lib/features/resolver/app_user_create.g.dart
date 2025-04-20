@@ -13,9 +13,14 @@ String _$appUserCreateHash() => r'5347e10fddf40fb2c852b6fe39caccd7d8b96058';
 final appUserCreateProvider = AutoDisposeProvider<AppUserCreate>.internal(
   appUserCreate,
   name: r'appUserCreateProvider',
-  debugGetCreateSourceHash: const bool.fromEnvironment('dart.vm.product') ? null : _$appUserCreateHash,
+  debugGetCreateSourceHash: const bool.fromEnvironment('dart.vm.product')
+      ? null
+      : _$appUserCreateHash,
   dependencies: <ProviderOrFamily>[userDatabaseProvider],
-  allTransitiveDependencies: <ProviderOrFamily>{userDatabaseProvider, ...?userDatabaseProvider.allTransitiveDependencies},
+  allTransitiveDependencies: <ProviderOrFamily>{
+    userDatabaseProvider,
+    ...?userDatabaseProvider.allTransitiveDependencies
+  },
 );
 
 typedef AppUserCreateRef = AutoDisposeProviderRef<AppUserCreate>;

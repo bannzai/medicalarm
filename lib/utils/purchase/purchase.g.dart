@@ -13,7 +13,8 @@ String _$customerInfoHash() => r'95362491215a91d0faca817d94b175846b87e9b3';
 final customerInfoProvider = AutoDisposeStreamProvider<CustomerInfo>.internal(
   customerInfo,
   name: r'customerInfoProvider',
-  debugGetCreateSourceHash: const bool.fromEnvironment('dart.vm.product') ? null : _$customerInfoHash,
+  debugGetCreateSourceHash:
+      const bool.fromEnvironment('dart.vm.product') ? null : _$customerInfoHash,
   dependencies: const <ProviderOrFamily>[],
   allTransitiveDependencies: const <ProviderOrFamily>{},
 );
@@ -26,22 +27,30 @@ String _$offeringsHash() => r'a44517ca66731d95ed64ddb147c72567df8b12c7';
 final offeringsProvider = AutoDisposeFutureProvider<Offerings>.internal(
   offerings,
   name: r'offeringsProvider',
-  debugGetCreateSourceHash: const bool.fromEnvironment('dart.vm.product') ? null : _$offeringsHash,
+  debugGetCreateSourceHash:
+      const bool.fromEnvironment('dart.vm.product') ? null : _$offeringsHash,
   dependencies: null,
   allTransitiveDependencies: null,
 );
 
 typedef OfferingsRef = AutoDisposeFutureProviderRef<Offerings>;
-String _$currentOfferingPackagesHash() => r'648dc186cc0f3dd97c71697f0dba73f21834a5f6';
+String _$currentOfferingPackagesHash() =>
+    r'648dc186cc0f3dd97c71697f0dba73f21834a5f6';
 
 /// See also [currentOfferingPackages].
 @ProviderFor(currentOfferingPackages)
-final currentOfferingPackagesProvider = AutoDisposeProvider<List<Package>>.internal(
+final currentOfferingPackagesProvider =
+    AutoDisposeProvider<List<Package>>.internal(
   currentOfferingPackages,
   name: r'currentOfferingPackagesProvider',
-  debugGetCreateSourceHash: const bool.fromEnvironment('dart.vm.product') ? null : _$currentOfferingPackagesHash,
+  debugGetCreateSourceHash: const bool.fromEnvironment('dart.vm.product')
+      ? null
+      : _$currentOfferingPackagesHash,
   dependencies: <ProviderOrFamily>[customerInfoProvider],
-  allTransitiveDependencies: <ProviderOrFamily>{customerInfoProvider, ...?customerInfoProvider.allTransitiveDependencies},
+  allTransitiveDependencies: <ProviderOrFamily>{
+    customerInfoProvider,
+    ...?customerInfoProvider.allTransitiveDependencies
+  },
 );
 
 typedef CurrentOfferingPackagesRef = AutoDisposeProviderRef<List<Package>>;
@@ -52,9 +61,14 @@ String _$weeklyPackageHash() => r'd8c57ae30ae72b9f75b0d9818af5433b1d7f4232';
 final weeklyPackageProvider = AutoDisposeProvider<Package?>.internal(
   weeklyPackage,
   name: r'weeklyPackageProvider',
-  debugGetCreateSourceHash: const bool.fromEnvironment('dart.vm.product') ? null : _$weeklyPackageHash,
+  debugGetCreateSourceHash: const bool.fromEnvironment('dart.vm.product')
+      ? null
+      : _$weeklyPackageHash,
   dependencies: <ProviderOrFamily>[currentOfferingPackagesProvider],
-  allTransitiveDependencies: <ProviderOrFamily>{currentOfferingPackagesProvider, ...?currentOfferingPackagesProvider.allTransitiveDependencies},
+  allTransitiveDependencies: <ProviderOrFamily>{
+    currentOfferingPackagesProvider,
+    ...?currentOfferingPackagesProvider.allTransitiveDependencies
+  },
 );
 
 typedef WeeklyPackageRef = AutoDisposeProviderRef<Package?>;
@@ -65,9 +79,14 @@ String _$monthlyPackageHash() => r'8d088c8a829e6aca119e35699a1be4045a053ba7';
 final monthlyPackageProvider = AutoDisposeProvider<Package?>.internal(
   monthlyPackage,
   name: r'monthlyPackageProvider',
-  debugGetCreateSourceHash: const bool.fromEnvironment('dart.vm.product') ? null : _$monthlyPackageHash,
+  debugGetCreateSourceHash: const bool.fromEnvironment('dart.vm.product')
+      ? null
+      : _$monthlyPackageHash,
   dependencies: <ProviderOrFamily>[currentOfferingPackagesProvider],
-  allTransitiveDependencies: <ProviderOrFamily>{currentOfferingPackagesProvider, ...?currentOfferingPackagesProvider.allTransitiveDependencies},
+  allTransitiveDependencies: <ProviderOrFamily>{
+    currentOfferingPackagesProvider,
+    ...?currentOfferingPackagesProvider.allTransitiveDependencies
+  },
 );
 
 typedef MonthlyPackageRef = AutoDisposeProviderRef<Package?>;
@@ -78,9 +97,14 @@ String _$sixMonthPackageHash() => r'e417483a34ad2622e2bbedfca167bb7fdf408ecd';
 final sixMonthPackageProvider = AutoDisposeProvider<Package?>.internal(
   sixMonthPackage,
   name: r'sixMonthPackageProvider',
-  debugGetCreateSourceHash: const bool.fromEnvironment('dart.vm.product') ? null : _$sixMonthPackageHash,
+  debugGetCreateSourceHash: const bool.fromEnvironment('dart.vm.product')
+      ? null
+      : _$sixMonthPackageHash,
   dependencies: <ProviderOrFamily>[currentOfferingPackagesProvider],
-  allTransitiveDependencies: <ProviderOrFamily>{currentOfferingPackagesProvider, ...?currentOfferingPackagesProvider.allTransitiveDependencies},
+  allTransitiveDependencies: <ProviderOrFamily>{
+    currentOfferingPackagesProvider,
+    ...?currentOfferingPackagesProvider.allTransitiveDependencies
+  },
 );
 
 typedef SixMonthPackageRef = AutoDisposeProviderRef<Package?>;
@@ -91,20 +115,28 @@ String _$annualPackageHash() => r'a0f73f340ef0ae6dc39f6866c85fd2b785ebb251';
 final annualPackageProvider = AutoDisposeProvider<Package?>.internal(
   annualPackage,
   name: r'annualPackageProvider',
-  debugGetCreateSourceHash: const bool.fromEnvironment('dart.vm.product') ? null : _$annualPackageHash,
+  debugGetCreateSourceHash: const bool.fromEnvironment('dart.vm.product')
+      ? null
+      : _$annualPackageHash,
   dependencies: <ProviderOrFamily>[currentOfferingPackagesProvider],
-  allTransitiveDependencies: <ProviderOrFamily>{currentOfferingPackagesProvider, ...?currentOfferingPackagesProvider.allTransitiveDependencies},
+  allTransitiveDependencies: <ProviderOrFamily>{
+    currentOfferingPackagesProvider,
+    ...?currentOfferingPackagesProvider.allTransitiveDependencies
+  },
 );
 
 typedef AnnualPackageRef = AutoDisposeProviderRef<Package?>;
-String _$monthlyPremiumPackageHash() => r'0ffcc9f632f99e229be32bf0cf19246f0e04f71c';
+String _$monthlyPremiumPackageHash() =>
+    r'0ffcc9f632f99e229be32bf0cf19246f0e04f71c';
 
 /// See also [monthlyPremiumPackage].
 @ProviderFor(monthlyPremiumPackage)
 final monthlyPremiumPackageProvider = AutoDisposeProvider<Package?>.internal(
   monthlyPremiumPackage,
   name: r'monthlyPremiumPackageProvider',
-  debugGetCreateSourceHash: const bool.fromEnvironment('dart.vm.product') ? null : _$monthlyPremiumPackageHash,
+  debugGetCreateSourceHash: const bool.fromEnvironment('dart.vm.product')
+      ? null
+      : _$monthlyPremiumPackageHash,
   dependencies: const <ProviderOrFamily>[],
   allTransitiveDependencies: const <ProviderOrFamily>{},
 );

@@ -6,7 +6,8 @@ part of 'diary.dart';
 // RiverpodGenerator
 // **************************************************************************
 
-String _$diariesForDateTimeRangeHash() => r'2727aaaf807f0aa8132fd9a35ba90a6815860e1e';
+String _$diariesForDateTimeRangeHash() =>
+    r'2727aaaf807f0aa8132fd9a35ba90a6815860e1e';
 
 /// Copied from Dart SDK
 class _SystemHash {
@@ -56,25 +57,30 @@ class DiariesForDateTimeRangeFamily extends Family<AsyncValue<List<Diary>>> {
     );
   }
 
-  static final Iterable<ProviderOrFamily> _dependencies = <ProviderOrFamily>[userDatabaseProvider];
+  static final Iterable<ProviderOrFamily> _dependencies = <ProviderOrFamily>[
+    userDatabaseProvider
+  ];
 
   @override
   Iterable<ProviderOrFamily>? get dependencies => _dependencies;
 
-  static final Iterable<ProviderOrFamily> _allTransitiveDependencies = <ProviderOrFamily>{
+  static final Iterable<ProviderOrFamily> _allTransitiveDependencies =
+      <ProviderOrFamily>{
     userDatabaseProvider,
     ...?userDatabaseProvider.allTransitiveDependencies
   };
 
   @override
-  Iterable<ProviderOrFamily>? get allTransitiveDependencies => _allTransitiveDependencies;
+  Iterable<ProviderOrFamily>? get allTransitiveDependencies =>
+      _allTransitiveDependencies;
 
   @override
   String? get name => r'diariesForDateTimeRangeProvider';
 }
 
 /// See also [diariesForDateTimeRange].
-class DiariesForDateTimeRangeProvider extends AutoDisposeStreamProvider<List<Diary>> {
+class DiariesForDateTimeRangeProvider
+    extends AutoDisposeStreamProvider<List<Diary>> {
   /// See also [diariesForDateTimeRange].
   DiariesForDateTimeRangeProvider({
     required DateTimeRange dateTimeRange,
@@ -85,9 +91,13 @@ class DiariesForDateTimeRangeProvider extends AutoDisposeStreamProvider<List<Dia
           ),
           from: diariesForDateTimeRangeProvider,
           name: r'diariesForDateTimeRangeProvider',
-          debugGetCreateSourceHash: const bool.fromEnvironment('dart.vm.product') ? null : _$diariesForDateTimeRangeHash,
+          debugGetCreateSourceHash:
+              const bool.fromEnvironment('dart.vm.product')
+                  ? null
+                  : _$diariesForDateTimeRangeHash,
           dependencies: DiariesForDateTimeRangeFamily._dependencies,
-          allTransitiveDependencies: DiariesForDateTimeRangeFamily._allTransitiveDependencies,
+          allTransitiveDependencies:
+              DiariesForDateTimeRangeFamily._allTransitiveDependencies,
           dateTimeRange: dateTimeRange,
         );
 
@@ -128,7 +138,8 @@ class DiariesForDateTimeRangeProvider extends AutoDisposeStreamProvider<List<Dia
 
   @override
   bool operator ==(Object other) {
-    return other is DiariesForDateTimeRangeProvider && other.dateTimeRange == dateTimeRange;
+    return other is DiariesForDateTimeRangeProvider &&
+        other.dateTimeRange == dateTimeRange;
   }
 
   @override
@@ -145,11 +156,14 @@ mixin DiariesForDateTimeRangeRef on AutoDisposeStreamProviderRef<List<Diary>> {
   DateTimeRange get dateTimeRange;
 }
 
-class _DiariesForDateTimeRangeProviderElement extends AutoDisposeStreamProviderElement<List<Diary>> with DiariesForDateTimeRangeRef {
+class _DiariesForDateTimeRangeProviderElement
+    extends AutoDisposeStreamProviderElement<List<Diary>>
+    with DiariesForDateTimeRangeRef {
   _DiariesForDateTimeRangeProviderElement(super.provider);
 
   @override
-  DateTimeRange get dateTimeRange => (origin as DiariesForDateTimeRangeProvider).dateTimeRange;
+  DateTimeRange get dateTimeRange =>
+      (origin as DiariesForDateTimeRangeProvider).dateTimeRange;
 }
 
 String _$diaryPostHash() => r'a19cc4271259369fbd8ac79b9f6e4895ecf4e6d4';
@@ -159,9 +173,13 @@ String _$diaryPostHash() => r'a19cc4271259369fbd8ac79b9f6e4895ecf4e6d4';
 final diaryPostProvider = AutoDisposeProvider<DiaryPost>.internal(
   diaryPost,
   name: r'diaryPostProvider',
-  debugGetCreateSourceHash: const bool.fromEnvironment('dart.vm.product') ? null : _$diaryPostHash,
+  debugGetCreateSourceHash:
+      const bool.fromEnvironment('dart.vm.product') ? null : _$diaryPostHash,
   dependencies: <ProviderOrFamily>[userDatabaseProvider],
-  allTransitiveDependencies: <ProviderOrFamily>{userDatabaseProvider, ...?userDatabaseProvider.allTransitiveDependencies},
+  allTransitiveDependencies: <ProviderOrFamily>{
+    userDatabaseProvider,
+    ...?userDatabaseProvider.allTransitiveDependencies
+  },
 );
 
 typedef DiaryPostRef = AutoDisposeProviderRef<DiaryPost>;
