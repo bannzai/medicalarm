@@ -7,6 +7,7 @@ import 'package:medicalarm/features/resolver/database.dart';
 import 'package:medicalarm/provider/remote_config_parameter.dart';
 import 'package:medicalarm/provider/start_promotion.dart';
 import 'package:medicalarm/utils/purchase/purchase.dart';
+import 'package:purchases_flutter/purchases_flutter.dart';
 
 class PromotionStartResolver extends HookConsumerWidget {
   final AppUser appUser;
@@ -31,10 +32,18 @@ class PromotionStartResolver extends HookConsumerWidget {
     if (promotionStartPageIsPresented.value) {
       return PromotionStartPage(
         onStartPromotion: () async {
-          promotionStartPageIsPresented.value = false;
           await ref.read(startPromotionProvider).call(promotionDayCount: remoteConfigParameter.promotionDayCount);
-          // サーバーからcustomerInfoを再取得して、promotionの状態を反映させる
+          // サーバーからcustomerInfoを再取得して、promotionの状態を反映させる。しかし、FlutterのRevenueCatのSDKでlistenerを設定し直しても(ref.invalidate)、内部のキャッシュが返ってくる
+          // なので、restorePurchasesを呼び出して、キャッシュを更新する。エラーは無視する
           ref.invalidate(customerInfoProvider);
+          try {
+            await Purchases.restorePurchases();
+          } catch (e) {
+            //
+            debugPrint(e.toString());
+          }
+
+          promotionStartPageIsPresented.value = false;
         },
         onCancel: () async {
           promotionStartPageIsPresented.value = false;
