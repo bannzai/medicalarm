@@ -1,11 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:hooks_riverpod/hooks_riverpod.dart';
-import 'package:medicalarm/features/localization/l.dart';
 import 'package:medicalarm/utils/analytics/analytics.dart';
 import 'package:medicalarm/utils/config/remote_config.dart';
 import 'package:medicalarm/provider/remote_config_parameter.dart';
 import 'package:url_launcher/url_launcher.dart';
-import 'package:in_app_review/in_app_review.dart';
 
 // アプリを開始時に、ストアレビューで星5つをつけたらアプリの有料機能を1週間試用できる機能をプレゼントするページ
 // 実際に星5をつけたかは検知できないが、PromotionStartButton を押した時点でその気があると判断することにする。アプリに戻ってきたらscenePhaseの検知により startPromotion 関数を実行して、試用期間をプレゼントする

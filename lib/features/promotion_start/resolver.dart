@@ -4,16 +4,10 @@ import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:medicalarm/entity/app_user.dart';
 import 'package:medicalarm/features/promotion_start/page.dart';
 import 'package:medicalarm/features/resolver/database.dart';
-import 'package:medicalarm/provider/app_user.dart';
 import 'package:medicalarm/provider/remote_config_parameter.dart';
 import 'package:medicalarm/provider/start_promotion.dart';
 import 'package:medicalarm/utils/config/environment.dart';
-import 'package:medicalarm/utils/config/remote_config.dart';
 import 'package:medicalarm/utils/purchase/purchase.dart';
-import 'package:riverpod_annotation/riverpod_annotation.dart';
-import 'package:shared_preferences/shared_preferences.dart';
-
-part 'resolver.g.dart';
 
 class PromotionStartResolver extends HookConsumerWidget {
   final AppUser appUser;
