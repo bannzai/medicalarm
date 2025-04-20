@@ -21,6 +21,7 @@ RemoteConfigParameter _$RemoteConfigParameterFromJson(Map<String, dynamic> json)
 /// @nodoc
 mixin _$RemoteConfigParameter {
   String get minimumAppVersion => throw _privateConstructorUsedError;
+  int get promotionDayCount => throw _privateConstructorUsedError;
 
   /// Serializes this RemoteConfigParameter to a JSON map.
   Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
@@ -36,7 +37,7 @@ abstract class $RemoteConfigParameterCopyWith<$Res> {
   factory $RemoteConfigParameterCopyWith(RemoteConfigParameter value, $Res Function(RemoteConfigParameter) then) =
       _$RemoteConfigParameterCopyWithImpl<$Res, RemoteConfigParameter>;
   @useResult
-  $Res call({String minimumAppVersion});
+  $Res call({String minimumAppVersion, int promotionDayCount});
 }
 
 /// @nodoc
@@ -54,12 +55,17 @@ class _$RemoteConfigParameterCopyWithImpl<$Res, $Val extends RemoteConfigParamet
   @override
   $Res call({
     Object? minimumAppVersion = null,
+    Object? promotionDayCount = null,
   }) {
     return _then(_value.copyWith(
       minimumAppVersion: null == minimumAppVersion
           ? _value.minimumAppVersion
           : minimumAppVersion // ignore: cast_nullable_to_non_nullable
               as String,
+      promotionDayCount: null == promotionDayCount
+          ? _value.promotionDayCount
+          : promotionDayCount // ignore: cast_nullable_to_non_nullable
+              as int,
     ) as $Val);
   }
 }
@@ -70,7 +76,7 @@ abstract class _$$RemoteConfigParameterImplCopyWith<$Res> implements $RemoteConf
       __$$RemoteConfigParameterImplCopyWithImpl<$Res>;
   @override
   @useResult
-  $Res call({String minimumAppVersion});
+  $Res call({String minimumAppVersion, int promotionDayCount});
 }
 
 /// @nodoc
@@ -85,12 +91,17 @@ class __$$RemoteConfigParameterImplCopyWithImpl<$Res> extends _$RemoteConfigPara
   @override
   $Res call({
     Object? minimumAppVersion = null,
+    Object? promotionDayCount = null,
   }) {
     return _then(_$RemoteConfigParameterImpl(
       minimumAppVersion: null == minimumAppVersion
           ? _value.minimumAppVersion
           : minimumAppVersion // ignore: cast_nullable_to_non_nullable
               as String,
+      promotionDayCount: null == promotionDayCount
+          ? _value.promotionDayCount
+          : promotionDayCount // ignore: cast_nullable_to_non_nullable
+              as int,
     ));
   }
 }
@@ -98,17 +109,23 @@ class __$$RemoteConfigParameterImplCopyWithImpl<$Res> extends _$RemoteConfigPara
 /// @nodoc
 @JsonSerializable()
 class _$RemoteConfigParameterImpl extends _RemoteConfigParameter {
-  _$RemoteConfigParameterImpl({this.minimumAppVersion = RemoteConfigParameterDefaultValues.minimumAppVersion}) : super._();
+  _$RemoteConfigParameterImpl(
+      {this.minimumAppVersion = RemoteConfigParameterDefaultValues.minimumAppVersion,
+      this.promotionDayCount = RemoteConfigParameterDefaultValues.promotionDayCount})
+      : super._();
 
   factory _$RemoteConfigParameterImpl.fromJson(Map<String, dynamic> json) => _$$RemoteConfigParameterImplFromJson(json);
 
   @override
   @JsonKey()
   final String minimumAppVersion;
+  @override
+  @JsonKey()
+  final int promotionDayCount;
 
   @override
   String toString() {
-    return 'RemoteConfigParameter(minimumAppVersion: $minimumAppVersion)';
+    return 'RemoteConfigParameter(minimumAppVersion: $minimumAppVersion, promotionDayCount: $promotionDayCount)';
   }
 
   @override
@@ -116,12 +133,13 @@ class _$RemoteConfigParameterImpl extends _RemoteConfigParameter {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
             other is _$RemoteConfigParameterImpl &&
-            (identical(other.minimumAppVersion, minimumAppVersion) || other.minimumAppVersion == minimumAppVersion));
+            (identical(other.minimumAppVersion, minimumAppVersion) || other.minimumAppVersion == minimumAppVersion) &&
+            (identical(other.promotionDayCount, promotionDayCount) || other.promotionDayCount == promotionDayCount));
   }
 
   @JsonKey(includeFromJson: false, includeToJson: false)
   @override
-  int get hashCode => Object.hash(runtimeType, minimumAppVersion);
+  int get hashCode => Object.hash(runtimeType, minimumAppVersion, promotionDayCount);
 
   /// Create a copy of RemoteConfigParameter
   /// with the given fields replaced by the non-null parameter values.
@@ -140,13 +158,15 @@ class _$RemoteConfigParameterImpl extends _RemoteConfigParameter {
 }
 
 abstract class _RemoteConfigParameter extends RemoteConfigParameter {
-  factory _RemoteConfigParameter({final String minimumAppVersion}) = _$RemoteConfigParameterImpl;
+  factory _RemoteConfigParameter({final String minimumAppVersion, final int promotionDayCount}) = _$RemoteConfigParameterImpl;
   _RemoteConfigParameter._() : super._();
 
   factory _RemoteConfigParameter.fromJson(Map<String, dynamic> json) = _$RemoteConfigParameterImpl.fromJson;
 
   @override
   String get minimumAppVersion;
+  @override
+  int get promotionDayCount;
 
   /// Create a copy of RemoteConfigParameter
   /// with the given fields replaced by the non-null parameter values.

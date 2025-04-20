@@ -6,14 +6,14 @@ import 'package:riverpod_annotation/riverpod_annotation.dart';
 part 'start_promotion.g.dart';
 
 @Riverpod(keepAlive: false, dependencies: [])
-Stream<User?> startPromotion(Ref ref) {
-  return FirebaseAuth.instance.userChanges();
+StartPromotion startPromotion(Ref ref) {
+  return StartPromotion();
 }
 
 class StartPromotion {
   // 返り値はisSuccess(=!isAlreadyExists)
-  Future<bool> call() async {
-    final isAlraedyExists = await functions.startPromotion(promotionDayCount: 3);
+  Future<bool> call({required int promotionDayCount}) async {
+    final isAlraedyExists = await functions.startPromotion(promotionDayCount: promotionDayCount);
     return !isAlraedyExists;
   }
 }

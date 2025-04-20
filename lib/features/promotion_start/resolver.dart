@@ -5,7 +5,10 @@ import 'package:medicalarm/entity/app_user.dart';
 import 'package:medicalarm/features/promotion_start/page.dart';
 import 'package:medicalarm/features/resolver/database.dart';
 import 'package:medicalarm/provider/app_user.dart';
+import 'package:medicalarm/provider/remote_config_parameter.dart';
+import 'package:medicalarm/provider/start_promotion.dart';
 import 'package:medicalarm/utils/config/environment.dart';
+import 'package:medicalarm/utils/config/remote_config.dart';
 import 'package:medicalarm/utils/purchase/purchase.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -13,15 +16,20 @@ import 'package:shared_preferences/shared_preferences.dart';
 part 'resolver.g.dart';
 
 class PromotionStartResolver extends HookConsumerWidget {
-  const PromotionStartResolver({Key? key}) : super(key: key);
+  final AppUser appUser;
+  const PromotionStartResolver({
+    super.key,
+    required this.appUser,
+  });
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final appUser = ref.watch(appUserProvider).asData?.value;
     final customerInfo = ref.watch(customerInfoProvider).asData?.value;
+    final promotionStartPageCancelButtonTappedDateTime = useState(appUser.promotionStartPageCancelButtonTappedDateTime);
 
     // useStateを使用して状態を管理
     final promotionStartPageIsPresented = useState(false);
+    final remoteConfigParameter = ref.watch(remoteConfigParameterProvider);
 
     // コンポーネントのマウント時に一度だけ実行
     useEffect(() {
@@ -33,12 +41,12 @@ class PromotionStartResolver extends HookConsumerWidget {
         return null;
       }
 
-      final cancelDateTime = appUser?.promotionStartPageCancelButtonTappedDateTime;
-
+      final promotionStartPageCancelButtonTappedDateTimeValue = promotionStartPageCancelButtonTappedDateTime.value;
       // キャンセルボタンが押されていない、または7日間以上経過している場合
-      if (cancelDateTime == null || cancelDateTime.add(const Duration(days: 7)).isBefore(DateTime.now())) {
+      if (promotionStartPageCancelButtonTappedDateTimeValue == null ||
+          promotionStartPageCancelButtonTappedDateTimeValue.add(const Duration(days: 7)).isBefore(DateTime.now())) {
         // trialDeadlineDateがnullの場合（有料版を使ったことがない場合）に表示
-        promotionStartPageIsPresented.value = appUser?.trialDeadlineDate == null;
+        promotionStartPageIsPresented.value = appUser.maybeTrialDeadlineDate == null;
       }
 
       return null;
@@ -46,9 +54,9 @@ class PromotionStartResolver extends HookConsumerWidget {
 
     if (promotionStartPageIsPresented.value) {
       return PromotionStartPage(
-        onStartPromotion: () {
+        onStartPromotion: () async {
+          await ref.read(startPromotionProvider).call(promotionDayCount: remoteConfigParameter.promotionDayCount);
           promotionStartPageIsPresented.value = false;
-          // ここでユーザーにtrial期間を付与する処理を実装
         },
         onCancel: () async {
           promotionStartPageIsPresented.value = false;
@@ -63,13 +71,5 @@ class PromotionStartResolver extends HookConsumerWidget {
     }
 
     return const SizedBox.shrink(); // 透明なウィジェットを返す
-  }
-}
-
-extension AppUserExtension on AppUser {
-  DateTime? get maybeTrialDeadlineDate {
-    // AppUserクラスに対して、trial期限を取得するメソッド
-    // 実際の実装はプロジェクトによりますが、ここではnullを返します
-    return null;
   }
 }

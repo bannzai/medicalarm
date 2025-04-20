@@ -9,7 +9,7 @@ part of 'app_user.dart';
 _$AppUserImpl _$$AppUserImplFromJson(Map<String, dynamic> json) => _$AppUserImpl(
       id: json['id'] as String?,
       analyticsDebugIsEnabled: json['analyticsDebugIsEnabled'] as bool? ?? false,
-      trialDeadlineDate: const NullableTimestampConverter().fromJson(json['trialDeadlineDate'] as Timestamp?),
+      maybeTrialDeadlineDate: const NullableTimestampConverter().fromJson(json['maybeTrialDeadlineDate'] as Timestamp?),
       promotionStartPageCancelButtonTappedDateTime:
           const NullableTimestampConverter().fromJson(json['promotionStartPageCancelButtonTappedDateTime'] as Timestamp?),
       createdDateTime: const ClientCreatedTimestamp().fromJson(json['createdDateTime'] as Timestamp?),
@@ -21,7 +21,7 @@ _$AppUserImpl _$$AppUserImplFromJson(Map<String, dynamic> json) => _$AppUserImpl
 Map<String, dynamic> _$$AppUserImplToJson(_$AppUserImpl instance) => <String, dynamic>{
       'id': instance.id,
       'analyticsDebugIsEnabled': instance.analyticsDebugIsEnabled,
-      'trialDeadlineDate': const NullableTimestampConverter().toJson(instance.trialDeadlineDate),
+      'maybeTrialDeadlineDate': const NullableTimestampConverter().toJson(instance.maybeTrialDeadlineDate),
       'promotionStartPageCancelButtonTappedDateTime':
           const NullableTimestampConverter().toJson(instance.promotionStartPageCancelButtonTappedDateTime),
       'createdDateTime': const ClientCreatedTimestamp().toJson(instance.createdDateTime),
