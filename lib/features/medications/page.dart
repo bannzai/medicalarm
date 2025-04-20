@@ -111,27 +111,48 @@ class MedicationsPageBody extends HookConsumerWidget {
       ),
       body: FloatingActionButtonLayout(
         scaffoldBody: SafeArea(
-          child: Column(
+          child: Stack(
             children: [
-              WeeklyCalendarPager(date: date, pageController: pageController),
-              const Divider(
-                height: 1,
-                color: Colors.black,
-              ),
-              TodayBadge(date: date),
-              Expanded(
-                child: SingleChildScrollView(
-                  physics: const AlwaysScrollableScrollPhysics(),
-                  child: Padding(
-                    padding: const EdgeInsets.only(top: 20.0, bottom: 100),
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.center,
-                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: [
-                        Column(
+              Column(
+                children: [
+                  WeeklyCalendarPager(date: date, pageController: pageController),
+                  const Divider(
+                    height: 1,
+                    color: Colors.black,
+                  ),
+                  TodayBadge(date: date),
+                  Expanded(
+                    child: SingleChildScrollView(
+                      physics: const AlwaysScrollableScrollPhysics(),
+                      child: Padding(
+                        padding: const EdgeInsets.only(top: 20.0, bottom: 100),
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.center,
                           children: [
                             if (!customerInfo.hasPremiumEntitlement) ...[
                               const AdMob(),
+                            ],
+                            if (customerInfo.isInPromotion) ...[
+                              GestureDetector(
+                                onTap: () {
+                                  showPremiumIntroductionSheet(context);
+                                },
+                                child: Container(
+                                  width: double.infinity,
+                                  padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
+                                  color: Colors.purple,
+                                  child: Text(
+                                    L.currentlyInPremiumTrial,
+                                    style: const TextStyle(
+                                      color: Colors.white,
+                                      fontWeight: FontWeight.bold,
+                                      decoration: TextDecoration.underline,
+                                    ),
+                                    textAlign: TextAlign.center,
+                                  ),
+                                ),
+                              ),
+                              const SizedBox(height: 20),
                             ],
                             for (final tileValue in medicationGroups(
                               medicines: medicines,
@@ -146,31 +167,10 @@ class MedicationsPageBody extends HookConsumerWidget {
                             ],
                           ],
                         ),
-                        if (customerInfo.isInPromotion) ...[
-                          GestureDetector(
-                            onTap: () {
-                              showPremiumIntroductionSheet(context);
-                            },
-                            child: Container(
-                              width: double.infinity,
-                              padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
-                              color: Colors.purple,
-                              child: Text(
-                                L.currentlyInPremiumTrial,
-                                style: const TextStyle(
-                                  color: Colors.white,
-                                  fontWeight: FontWeight.bold,
-                                  decoration: TextDecoration.underline,
-                                ),
-                                textAlign: TextAlign.center,
-                              ),
-                            ),
-                          ),
-                        ],
-                      ],
+                      ),
                     ),
                   ),
-                ),
+                ],
               ),
             ],
           ),
