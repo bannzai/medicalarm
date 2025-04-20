@@ -126,21 +126,26 @@ class MedicationsPageBody extends HookConsumerWidget {
                     padding: const EdgeInsets.only(top: 20.0, bottom: 100),
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.center,
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
-                        if (!customerInfo.hasPremiumEntitlement) ...[
-                          const AdMob(),
-                        ],
-                        for (final tileValue in medicationGroups(
-                          medicines: medicines,
-                          medicationHistories: medicationHistories,
-                          date: date.value,
-                        )) ...[
-                          MedicationGroupTile(
-                            key: ValueKey(tileValue.id),
-                            tileValue: tileValue,
-                          ),
-                          const SizedBox(height: 10),
-                        ],
+                        Column(
+                          children: [
+                            if (!customerInfo.hasPremiumEntitlement) ...[
+                              const AdMob(),
+                            ],
+                            for (final tileValue in medicationGroups(
+                              medicines: medicines,
+                              medicationHistories: medicationHistories,
+                              date: date.value,
+                            )) ...[
+                              MedicationGroupTile(
+                                key: ValueKey(tileValue.id),
+                                tileValue: tileValue,
+                              ),
+                              const SizedBox(height: 10),
+                            ],
+                          ],
+                        ),
                         if (customerInfo.isInPromotion) ...[
                           GestureDetector(
                             onTap: () {
