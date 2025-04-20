@@ -22,8 +22,8 @@ class MedicalAddFloatingActionButtonChild extends HookConsumerWidget {
       padding: const EdgeInsets.symmetric(horizontal: 16.0),
       child: Column(
         children: [
-          if (medicines.length >= Medicine.maxCount(isPremium: customerInfo?.hasPremiumEntitlement)) ...[
-            Text(L.medicineMaxCount(Medicine.maxCount(isPremium: customerInfo?.hasPremiumEntitlement)),
+          if (medicines.length >= Medicine.maxCount(hasPremiumEntitlement: customerInfo?.hasPremiumEntitlement)) ...[
+            Text(L.medicineMaxCount(Medicine.maxCount(hasPremiumEntitlement: customerInfo?.hasPremiumEntitlement)),
                 style: const TextStyle(color: TextColor.danger)),
             const SizedBox(height: 4),
             if (customerInfo?.hasPremiumEntitlement == false) ...[
@@ -32,7 +32,7 @@ class MedicalAddFloatingActionButtonChild extends HookConsumerWidget {
                   showPremiumIntroductionSheet(context);
                 },
                 child: Text(
-                  L.increaseMedicineLimitWithPremium(Medicine.maxCount(isPremium: true)),
+                  L.increaseMedicineLimitWithPremium(Medicine.maxCount(hasPremiumEntitlement: true)),
                   style: const TextStyle(
                     color: Colors.blue,
                     fontWeight: FontWeight.bold,
@@ -43,7 +43,7 @@ class MedicalAddFloatingActionButtonChild extends HookConsumerWidget {
             ],
           ],
           ElevatedButton.icon(
-            onPressed: medicines.length < Medicine.maxCount(isPremium: customerInfo?.hasPremiumEntitlement)
+            onPressed: medicines.length < Medicine.maxCount(hasPremiumEntitlement: customerInfo?.hasPremiumEntitlement)
                 ? () {
                     showMedicineForm(context, null);
                   }

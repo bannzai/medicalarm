@@ -138,8 +138,8 @@ class DoseReceiverAddButton extends HookConsumerWidget {
     final customerInfo = ref.watch(customerInfoProvider).asData?.value;
     return Column(
       children: [
-        if (doseReceivers.length >= DoseReceiver.maxCount(isPremium: customerInfo?.hasPremiumEntitlement)) ...[
-          Text(L.doseReceiverMaxCount(DoseReceiver.maxCount(isPremium: customerInfo?.hasPremiumEntitlement)),
+        if (doseReceivers.length >= DoseReceiver.maxCount(hasPremiumEntitlement: customerInfo?.hasPremiumEntitlement)) ...[
+          Text(L.doseReceiverMaxCount(DoseReceiver.maxCount(hasPremiumEntitlement: customerInfo?.hasPremiumEntitlement)),
               style: const TextStyle(color: Colors.red)),
           if (customerInfo?.hasPremiumEntitlement == false) ...[
             TextButton(
@@ -147,7 +147,7 @@ class DoseReceiverAddButton extends HookConsumerWidget {
                 showPremiumIntroductionSheet(context);
               },
               child: Text(
-                L.increaseLimitWithPremium(DoseReceiver.maxCount(isPremium: true)),
+                L.increaseLimitWithPremium(DoseReceiver.maxCount(hasPremiumEntitlement: true)),
                 style: const TextStyle(
                   color: Colors.blue,
                   fontWeight: FontWeight.bold,
@@ -158,7 +158,7 @@ class DoseReceiverAddButton extends HookConsumerWidget {
           ],
         ],
         TextButton.icon(
-          onPressed: doseReceivers.length < DoseReceiver.maxCount(isPremium: customerInfo?.hasPremiumEntitlement)
+          onPressed: doseReceivers.length < DoseReceiver.maxCount(hasPremiumEntitlement: customerInfo?.hasPremiumEntitlement)
               ? () {
                   doseReceiverAdd.call(name: L.newDoseReceiver);
                 }

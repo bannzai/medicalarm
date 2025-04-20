@@ -62,7 +62,7 @@ class PremiumFeatures extends StatelessWidget {
                             style: const TextStyle(fontSize: 18, fontWeight: FontWeight.normal, color: Colors.black),
                           ),
                           TextSpan(
-                            text: '${Medicine.maxCount(isPremium: false)} → ${Medicine.maxCount(isPremium: true)}',
+                            text: '${Medicine.maxCount(hasPremiumEntitlement: false)} → ${Medicine.maxCount(hasPremiumEntitlement: true)}',
                             style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold, color: Colors.black),
                           ),
                         ],
@@ -85,7 +85,8 @@ class PremiumFeatures extends StatelessWidget {
                             style: const TextStyle(fontSize: 18, fontWeight: FontWeight.normal, color: Colors.black),
                           ),
                           TextSpan(
-                            text: '${MedicationSchedule.maxCount(isPremium: false)} → ${MedicationSchedule.maxCount(isPremium: true)}',
+                            text:
+                                '${MedicationSchedule.maxCount(hasPremiumEntitlement: false)} → ${MedicationSchedule.maxCount(hasPremiumEntitlement: true)}',
                             style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold, color: Colors.black),
                           ),
                         ],
@@ -108,7 +109,7 @@ class PremiumFeatures extends StatelessWidget {
                             style: const TextStyle(fontSize: 18, fontWeight: FontWeight.normal, color: Colors.black),
                           ),
                           TextSpan(
-                            text: '${DoseReceiver.maxCount(isPremium: false)} → ${DoseReceiver.maxCount(isPremium: true)}',
+                            text: '${DoseReceiver.maxCount(hasPremiumEntitlement: false)} → ${DoseReceiver.maxCount(hasPremiumEntitlement: true)}',
                             style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold, color: Colors.black),
                           ),
                         ],
