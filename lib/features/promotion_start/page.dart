@@ -347,7 +347,7 @@ class PromotionStartButton extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Icon(
-            canStartPromotion ? Icons.card_giftcard : Icons.star,
+            canStartPromotion ? Icons.card_giftcard : Icons.rate_review,
             color: Colors.white,
           ),
           const SizedBox(width: 8),
