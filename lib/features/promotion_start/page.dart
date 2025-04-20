@@ -5,6 +5,7 @@ import 'package:medicalarm/components/premium/premium_features.dart';
 import 'package:medicalarm/utils/analytics/analytics.dart';
 import 'package:medicalarm/utils/config/remote_config.dart';
 import 'package:medicalarm/provider/remote_config_parameter.dart';
+import 'package:medicalarm/features/localization/l.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 // アプリを開始時に、ストアレビューで星5つをつけたらアプリの有料機能を1週間試用できる機能をプレゼントするページ
@@ -98,21 +99,21 @@ class PromotionStartPage extends HookConsumerWidget {
     // App Store アラートを構築
     Widget buildAppStoreAlert() {
       return AlertDialog(
-        title: const Text('App Storeを開く'),
-        content: const Text('レビューを書くためにApp Storeを開きますか？'),
+        title: Text(L.openAppStore),
+        content: Text(L.confirmOpenAppStore),
         actions: [
           TextButton(
             onPressed: () {
               showAppStoreAlert.value = false;
             },
-            child: const Text('キャンセル'),
+            child: Text(L.cancel),
           ),
           TextButton(
             onPressed: () {
               showAppStoreAlert.value = false;
               openAppStore();
             },
-            child: const Text('開く'),
+            child: Text(L.ok),
           ),
         ],
       );
@@ -152,7 +153,7 @@ class PromotionStartPage extends HookConsumerWidget {
                           const SizedBox(height: 15),
                           Center(
                             child: Text(
-                              '🎉 Special Gift 🎉',
+                              L.specialGift,
                               style: TextStyle(
                                 fontSize: 32,
                                 fontWeight: FontWeight.bold,
@@ -164,7 +165,7 @@ class PromotionStartPage extends HookConsumerWidget {
                           Padding(
                             padding: const EdgeInsets.symmetric(horizontal: 16),
                             child: Text(
-                              '試用期間が$promotionDayCount日間無料でプレゼントされます！',
+                              L.freePremiumTrialDays(promotionDayCount),
                               style: TextStyle(
                                 fontSize: 16,
                                 fontWeight: FontWeight.bold,
@@ -230,11 +231,11 @@ class PromotionStartPage extends HookConsumerWidget {
                                   },
                                 ),
                                 const SizedBox(height: 20),
-                                const FittedBox(
+                                FittedBox(
                                   fit: BoxFit.scaleDown,
                                   child: Text(
-                                    'Medicalarmへようこそ！',
-                                    style: TextStyle(
+                                    L.welcomeToMedicalarm,
+                                    style: const TextStyle(
                                       fontSize: 20,
                                       fontWeight: FontWeight.bold,
                                       color: Colors.black,
@@ -246,7 +247,7 @@ class PromotionStartPage extends HookConsumerWidget {
                                 Padding(
                                   padding: const EdgeInsets.symmetric(horizontal: 12),
                                   child: Text(
-                                    'App Storeで★5つの評価とレビューを書いて\n$promotionDayCount日間プレミアム機能を無料でお試しください！',
+                                    L.writeReviewFor5StarPromotion(promotionDayCount),
                                     style: const TextStyle(
                                       fontSize: 16,
                                       fontWeight: FontWeight.bold,
@@ -258,11 +259,11 @@ class PromotionStartPage extends HookConsumerWidget {
                                   ),
                                 ),
                                 const SizedBox(height: 12),
-                                const Padding(
-                                  padding: EdgeInsets.symmetric(horizontal: 12),
+                                Padding(
+                                  padding: const EdgeInsets.symmetric(horizontal: 12),
                                   child: Text(
-                                    'あなたの★5つ評価は開発者の大きな励みになります。\nより良いアプリづくりのため、応援よろしくお願いします！',
-                                    style: TextStyle(
+                                    L.rating5StarsEncouragement,
+                                    style: const TextStyle(
                                       fontSize: 14,
                                       color: Colors.black87,
                                     ),
@@ -274,11 +275,11 @@ class PromotionStartPage extends HookConsumerWidget {
                               ],
                             ),
                           ),
-                          const Padding(
-                            padding: EdgeInsets.symmetric(horizontal: 20, vertical: 10),
+                          Padding(
+                            padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
                             child: Text(
-                              '自動課金はされません。試用期間終了後は自動的に無料プランに戻ります。',
-                              style: TextStyle(
+                              L.noAutoCharge,
+                              style: const TextStyle(
                                 fontSize: 12,
                                 color: Colors.grey,
                               ),
@@ -395,7 +396,7 @@ class PromotionStartButton extends StatelessWidget {
             ),
             const SizedBox(width: 8),
             Text(
-              canStartPromotion ? '報酬を受け取る' : '★5つの評価を書く',
+              canStartPromotion ? L.receiveReward : L.write5StarReview,
               style: const TextStyle(
                 color: Colors.white,
                 fontWeight: FontWeight.bold,
@@ -424,9 +425,9 @@ class PromotionStartCancelButton extends StatelessWidget {
         analytics.logEvent(name: 'pressed_promotion_start_cancel');
         onCancel();
       },
-      child: const Text(
-        '今はしない',
-        style: TextStyle(
+      child: Text(
+        L.notNow,
+        style: const TextStyle(
           color: Colors.grey,
           fontSize: 14,
         ),
