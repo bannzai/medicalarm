@@ -25,8 +25,7 @@ mixin _$AppUser {
   @NullableTimestampConverter()
   DateTime? get trialDeadlineDate => throw _privateConstructorUsedError;
   @NullableTimestampConverter()
-  DateTime? get promotionStartPageCancelButtonTappedDateTime =>
-      throw _privateConstructorUsedError;
+  DateTime? get promotionStartPageCancelButtonTappedDateTime => throw _privateConstructorUsedError;
   @ClientCreatedTimestamp()
   DateTime? get createdDateTime => throw _privateConstructorUsedError;
   @ClientUpdatedTimestamp()
@@ -47,15 +46,13 @@ mixin _$AppUser {
 
 /// @nodoc
 abstract class $AppUserCopyWith<$Res> {
-  factory $AppUserCopyWith(AppUser value, $Res Function(AppUser) then) =
-      _$AppUserCopyWithImpl<$Res, AppUser>;
+  factory $AppUserCopyWith(AppUser value, $Res Function(AppUser) then) = _$AppUserCopyWithImpl<$Res, AppUser>;
   @useResult
   $Res call(
       {String? id,
       bool analyticsDebugIsEnabled,
       @NullableTimestampConverter() DateTime? trialDeadlineDate,
-      @NullableTimestampConverter()
-      DateTime? promotionStartPageCancelButtonTappedDateTime,
+      @NullableTimestampConverter() DateTime? promotionStartPageCancelButtonTappedDateTime,
       @ClientCreatedTimestamp() DateTime? createdDateTime,
       @ClientUpdatedTimestamp() DateTime? updatedDateTime,
       @ServerCreatedTimestamp() DateTime? serverCreatedDateTime,
@@ -63,8 +60,7 @@ abstract class $AppUserCopyWith<$Res> {
 }
 
 /// @nodoc
-class _$AppUserCopyWithImpl<$Res, $Val extends AppUser>
-    implements $AppUserCopyWith<$Res> {
+class _$AppUserCopyWithImpl<$Res, $Val extends AppUser> implements $AppUserCopyWith<$Res> {
   _$AppUserCopyWithImpl(this._value, this._then);
 
   // ignore: unused_field
@@ -99,8 +95,7 @@ class _$AppUserCopyWithImpl<$Res, $Val extends AppUser>
           ? _value.trialDeadlineDate
           : trialDeadlineDate // ignore: cast_nullable_to_non_nullable
               as DateTime?,
-      promotionStartPageCancelButtonTappedDateTime: freezed ==
-              promotionStartPageCancelButtonTappedDateTime
+      promotionStartPageCancelButtonTappedDateTime: freezed == promotionStartPageCancelButtonTappedDateTime
           ? _value.promotionStartPageCancelButtonTappedDateTime
           : promotionStartPageCancelButtonTappedDateTime // ignore: cast_nullable_to_non_nullable
               as DateTime?,
@@ -126,17 +121,14 @@ class _$AppUserCopyWithImpl<$Res, $Val extends AppUser>
 
 /// @nodoc
 abstract class _$$AppUserImplCopyWith<$Res> implements $AppUserCopyWith<$Res> {
-  factory _$$AppUserImplCopyWith(
-          _$AppUserImpl value, $Res Function(_$AppUserImpl) then) =
-      __$$AppUserImplCopyWithImpl<$Res>;
+  factory _$$AppUserImplCopyWith(_$AppUserImpl value, $Res Function(_$AppUserImpl) then) = __$$AppUserImplCopyWithImpl<$Res>;
   @override
   @useResult
   $Res call(
       {String? id,
       bool analyticsDebugIsEnabled,
       @NullableTimestampConverter() DateTime? trialDeadlineDate,
-      @NullableTimestampConverter()
-      DateTime? promotionStartPageCancelButtonTappedDateTime,
+      @NullableTimestampConverter() DateTime? promotionStartPageCancelButtonTappedDateTime,
       @ClientCreatedTimestamp() DateTime? createdDateTime,
       @ClientUpdatedTimestamp() DateTime? updatedDateTime,
       @ServerCreatedTimestamp() DateTime? serverCreatedDateTime,
@@ -144,12 +136,8 @@ abstract class _$$AppUserImplCopyWith<$Res> implements $AppUserCopyWith<$Res> {
 }
 
 /// @nodoc
-class __$$AppUserImplCopyWithImpl<$Res>
-    extends _$AppUserCopyWithImpl<$Res, _$AppUserImpl>
-    implements _$$AppUserImplCopyWith<$Res> {
-  __$$AppUserImplCopyWithImpl(
-      _$AppUserImpl _value, $Res Function(_$AppUserImpl) _then)
-      : super(_value, _then);
+class __$$AppUserImplCopyWithImpl<$Res> extends _$AppUserCopyWithImpl<$Res, _$AppUserImpl> implements _$$AppUserImplCopyWith<$Res> {
+  __$$AppUserImplCopyWithImpl(_$AppUserImpl _value, $Res Function(_$AppUserImpl) _then) : super(_value, _then);
 
   /// Create a copy of AppUser
   /// with the given fields replaced by the non-null parameter values.
@@ -178,8 +166,7 @@ class __$$AppUserImplCopyWithImpl<$Res>
           ? _value.trialDeadlineDate
           : trialDeadlineDate // ignore: cast_nullable_to_non_nullable
               as DateTime?,
-      promotionStartPageCancelButtonTappedDateTime: freezed ==
-              promotionStartPageCancelButtonTappedDateTime
+      promotionStartPageCancelButtonTappedDateTime: freezed == promotionStartPageCancelButtonTappedDateTime
           ? _value.promotionStartPageCancelButtonTappedDateTime
           : promotionStartPageCancelButtonTappedDateTime // ignore: cast_nullable_to_non_nullable
               as DateTime?,
@@ -211,16 +198,14 @@ class _$AppUserImpl extends _AppUser {
       {this.id,
       this.analyticsDebugIsEnabled = false,
       @NullableTimestampConverter() this.trialDeadlineDate,
-      @NullableTimestampConverter()
-      this.promotionStartPageCancelButtonTappedDateTime,
+      @NullableTimestampConverter() this.promotionStartPageCancelButtonTappedDateTime,
       @ClientCreatedTimestamp() this.createdDateTime,
       @ClientUpdatedTimestamp() this.updatedDateTime,
       @ServerCreatedTimestamp() this.serverCreatedDateTime,
       @ServerUpdatedTimestamp() this.serverUpdatedDateTime})
       : super._();
 
-  factory _$AppUserImpl.fromJson(Map<String, dynamic> json) =>
-      _$$AppUserImplFromJson(json);
+  factory _$AppUserImpl.fromJson(Map<String, dynamic> json) => _$$AppUserImplFromJson(json);
 
   @override
   final String? id;
@@ -257,45 +242,27 @@ class _$AppUserImpl extends _AppUser {
         (other.runtimeType == runtimeType &&
             other is _$AppUserImpl &&
             (identical(other.id, id) || other.id == id) &&
-            (identical(
-                    other.analyticsDebugIsEnabled, analyticsDebugIsEnabled) ||
-                other.analyticsDebugIsEnabled == analyticsDebugIsEnabled) &&
-            (identical(other.trialDeadlineDate, trialDeadlineDate) ||
-                other.trialDeadlineDate == trialDeadlineDate) &&
-            (identical(other.promotionStartPageCancelButtonTappedDateTime,
-                    promotionStartPageCancelButtonTappedDateTime) ||
-                other.promotionStartPageCancelButtonTappedDateTime ==
-                    promotionStartPageCancelButtonTappedDateTime) &&
-            (identical(other.createdDateTime, createdDateTime) ||
-                other.createdDateTime == createdDateTime) &&
-            (identical(other.updatedDateTime, updatedDateTime) ||
-                other.updatedDateTime == updatedDateTime) &&
-            (identical(other.serverCreatedDateTime, serverCreatedDateTime) ||
-                other.serverCreatedDateTime == serverCreatedDateTime) &&
-            (identical(other.serverUpdatedDateTime, serverUpdatedDateTime) ||
-                other.serverUpdatedDateTime == serverUpdatedDateTime));
+            (identical(other.analyticsDebugIsEnabled, analyticsDebugIsEnabled) || other.analyticsDebugIsEnabled == analyticsDebugIsEnabled) &&
+            (identical(other.trialDeadlineDate, trialDeadlineDate) || other.trialDeadlineDate == trialDeadlineDate) &&
+            (identical(other.promotionStartPageCancelButtonTappedDateTime, promotionStartPageCancelButtonTappedDateTime) ||
+                other.promotionStartPageCancelButtonTappedDateTime == promotionStartPageCancelButtonTappedDateTime) &&
+            (identical(other.createdDateTime, createdDateTime) || other.createdDateTime == createdDateTime) &&
+            (identical(other.updatedDateTime, updatedDateTime) || other.updatedDateTime == updatedDateTime) &&
+            (identical(other.serverCreatedDateTime, serverCreatedDateTime) || other.serverCreatedDateTime == serverCreatedDateTime) &&
+            (identical(other.serverUpdatedDateTime, serverUpdatedDateTime) || other.serverUpdatedDateTime == serverUpdatedDateTime));
   }
 
   @JsonKey(includeFromJson: false, includeToJson: false)
   @override
-  int get hashCode => Object.hash(
-      runtimeType,
-      id,
-      analyticsDebugIsEnabled,
-      trialDeadlineDate,
-      promotionStartPageCancelButtonTappedDateTime,
-      createdDateTime,
-      updatedDateTime,
-      serverCreatedDateTime,
-      serverUpdatedDateTime);
+  int get hashCode => Object.hash(runtimeType, id, analyticsDebugIsEnabled, trialDeadlineDate, promotionStartPageCancelButtonTappedDateTime,
+      createdDateTime, updatedDateTime, serverCreatedDateTime, serverUpdatedDateTime);
 
   /// Create a copy of AppUser
   /// with the given fields replaced by the non-null parameter values.
   @JsonKey(includeFromJson: false, includeToJson: false)
   @override
   @pragma('vm:prefer-inline')
-  _$$AppUserImplCopyWith<_$AppUserImpl> get copyWith =>
-      __$$AppUserImplCopyWithImpl<_$AppUserImpl>(this, _$identity);
+  _$$AppUserImplCopyWith<_$AppUserImpl> get copyWith => __$$AppUserImplCopyWithImpl<_$AppUserImpl>(this, _$identity);
 
   @override
   Map<String, dynamic> toJson() {
@@ -307,16 +274,14 @@ class _$AppUserImpl extends _AppUser {
 
 abstract class _AppUser extends AppUser {
   const factory _AppUser(
-          {final String? id,
-          final bool analyticsDebugIsEnabled,
-          @NullableTimestampConverter() final DateTime? trialDeadlineDate,
-          @NullableTimestampConverter()
-          final DateTime? promotionStartPageCancelButtonTappedDateTime,
-          @ClientCreatedTimestamp() final DateTime? createdDateTime,
-          @ClientUpdatedTimestamp() final DateTime? updatedDateTime,
-          @ServerCreatedTimestamp() final DateTime? serverCreatedDateTime,
-          @ServerUpdatedTimestamp() final DateTime? serverUpdatedDateTime}) =
-      _$AppUserImpl;
+      {final String? id,
+      final bool analyticsDebugIsEnabled,
+      @NullableTimestampConverter() final DateTime? trialDeadlineDate,
+      @NullableTimestampConverter() final DateTime? promotionStartPageCancelButtonTappedDateTime,
+      @ClientCreatedTimestamp() final DateTime? createdDateTime,
+      @ClientUpdatedTimestamp() final DateTime? updatedDateTime,
+      @ServerCreatedTimestamp() final DateTime? serverCreatedDateTime,
+      @ServerUpdatedTimestamp() final DateTime? serverUpdatedDateTime}) = _$AppUserImpl;
   const _AppUser._() : super._();
 
   factory _AppUser.fromJson(Map<String, dynamic> json) = _$AppUserImpl.fromJson;
@@ -348,6 +313,5 @@ abstract class _AppUser extends AppUser {
   /// with the given fields replaced by the non-null parameter values.
   @override
   @JsonKey(includeFromJson: false, includeToJson: false)
-  _$$AppUserImplCopyWith<_$AppUserImpl> get copyWith =>
-      throw _privateConstructorUsedError;
+  _$$AppUserImplCopyWith<_$AppUserImpl> get copyWith => throw _privateConstructorUsedError;
 }

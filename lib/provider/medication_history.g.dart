@@ -6,29 +6,20 @@ part of 'medication_history.dart';
 // RiverpodGenerator
 // **************************************************************************
 
-String _$medicationHistoriesHash() =>
-    r'338ece3194d2e01ae05cfc105daa688834ecab0a';
+String _$medicationHistoriesHash() => r'338ece3194d2e01ae05cfc105daa688834ecab0a';
 
 /// See also [medicationHistories].
 @ProviderFor(medicationHistories)
-final medicationHistoriesProvider =
-    AutoDisposeStreamProvider<List<MedicationHistory>>.internal(
+final medicationHistoriesProvider = AutoDisposeStreamProvider<List<MedicationHistory>>.internal(
   medicationHistories,
   name: r'medicationHistoriesProvider',
-  debugGetCreateSourceHash: const bool.fromEnvironment('dart.vm.product')
-      ? null
-      : _$medicationHistoriesHash,
+  debugGetCreateSourceHash: const bool.fromEnvironment('dart.vm.product') ? null : _$medicationHistoriesHash,
   dependencies: <ProviderOrFamily>[userDatabaseProvider],
-  allTransitiveDependencies: <ProviderOrFamily>{
-    userDatabaseProvider,
-    ...?userDatabaseProvider.allTransitiveDependencies
-  },
+  allTransitiveDependencies: <ProviderOrFamily>{userDatabaseProvider, ...?userDatabaseProvider.allTransitiveDependencies},
 );
 
-typedef MedicationHistoriesRef
-    = AutoDisposeStreamProviderRef<List<MedicationHistory>>;
-String _$medicationHistoriesByDateHash() =>
-    r'61b6a486b27f90399c2feba8727042fb501616fa';
+typedef MedicationHistoriesRef = AutoDisposeStreamProviderRef<List<MedicationHistory>>;
+String _$medicationHistoriesByDateHash() => r'61b6a486b27f90399c2feba8727042fb501616fa';
 
 /// Copied from Dart SDK
 class _SystemHash {
@@ -56,8 +47,7 @@ class _SystemHash {
 const medicationHistoriesByDateProvider = MedicationHistoriesByDateFamily();
 
 /// See also [medicationHistoriesByDate].
-class MedicationHistoriesByDateFamily
-    extends Family<AsyncValue<List<MedicationHistory>>> {
+class MedicationHistoriesByDateFamily extends Family<AsyncValue<List<MedicationHistory>>> {
   /// See also [medicationHistoriesByDate].
   const MedicationHistoriesByDateFamily();
 
@@ -79,30 +69,25 @@ class MedicationHistoriesByDateFamily
     );
   }
 
-  static final Iterable<ProviderOrFamily> _dependencies = <ProviderOrFamily>[
-    userDatabaseProvider
-  ];
+  static final Iterable<ProviderOrFamily> _dependencies = <ProviderOrFamily>[userDatabaseProvider];
 
   @override
   Iterable<ProviderOrFamily>? get dependencies => _dependencies;
 
-  static final Iterable<ProviderOrFamily> _allTransitiveDependencies =
-      <ProviderOrFamily>{
+  static final Iterable<ProviderOrFamily> _allTransitiveDependencies = <ProviderOrFamily>{
     userDatabaseProvider,
     ...?userDatabaseProvider.allTransitiveDependencies
   };
 
   @override
-  Iterable<ProviderOrFamily>? get allTransitiveDependencies =>
-      _allTransitiveDependencies;
+  Iterable<ProviderOrFamily>? get allTransitiveDependencies => _allTransitiveDependencies;
 
   @override
   String? get name => r'medicationHistoriesByDateProvider';
 }
 
 /// See also [medicationHistoriesByDate].
-class MedicationHistoriesByDateProvider
-    extends AutoDisposeStreamProvider<List<MedicationHistory>> {
+class MedicationHistoriesByDateProvider extends AutoDisposeStreamProvider<List<MedicationHistory>> {
   /// See also [medicationHistoriesByDate].
   MedicationHistoriesByDateProvider(
     DateTime date,
@@ -113,13 +98,9 @@ class MedicationHistoriesByDateProvider
           ),
           from: medicationHistoriesByDateProvider,
           name: r'medicationHistoriesByDateProvider',
-          debugGetCreateSourceHash:
-              const bool.fromEnvironment('dart.vm.product')
-                  ? null
-                  : _$medicationHistoriesByDateHash,
+          debugGetCreateSourceHash: const bool.fromEnvironment('dart.vm.product') ? null : _$medicationHistoriesByDateHash,
           dependencies: MedicationHistoriesByDateFamily._dependencies,
-          allTransitiveDependencies:
-              MedicationHistoriesByDateFamily._allTransitiveDependencies,
+          allTransitiveDependencies: MedicationHistoriesByDateFamily._allTransitiveDependencies,
           date: date,
         );
 
@@ -137,9 +118,7 @@ class MedicationHistoriesByDateProvider
 
   @override
   Override overrideWith(
-    Stream<List<MedicationHistory>> Function(
-            MedicationHistoriesByDateRef provider)
-        create,
+    Stream<List<MedicationHistory>> Function(MedicationHistoriesByDateRef provider) create,
   ) {
     return ProviderOverride(
       origin: this,
@@ -174,83 +153,56 @@ class MedicationHistoriesByDateProvider
   }
 }
 
-mixin MedicationHistoriesByDateRef
-    on AutoDisposeStreamProviderRef<List<MedicationHistory>> {
+mixin MedicationHistoriesByDateRef on AutoDisposeStreamProviderRef<List<MedicationHistory>> {
   /// The parameter `date` of this provider.
   DateTime get date;
 }
 
-class _MedicationHistoriesByDateProviderElement
-    extends AutoDisposeStreamProviderElement<List<MedicationHistory>>
-    with MedicationHistoriesByDateRef {
+class _MedicationHistoriesByDateProviderElement extends AutoDisposeStreamProviderElement<List<MedicationHistory>> with MedicationHistoriesByDateRef {
   _MedicationHistoriesByDateProviderElement(super.provider);
 
   @override
   DateTime get date => (origin as MedicationHistoriesByDateProvider).date;
 }
 
-String _$medicationHistoryTakeHash() =>
-    r'1875448b498368c05b7c415da62bcf0ca7a7a7a1';
+String _$medicationHistoryTakeHash() => r'1875448b498368c05b7c415da62bcf0ca7a7a7a1';
 
 /// See also [medicationHistoryTake].
 @ProviderFor(medicationHistoryTake)
-final medicationHistoryTakeProvider =
-    AutoDisposeProvider<MedicationHistoryTake>.internal(
+final medicationHistoryTakeProvider = AutoDisposeProvider<MedicationHistoryTake>.internal(
   medicationHistoryTake,
   name: r'medicationHistoryTakeProvider',
-  debugGetCreateSourceHash: const bool.fromEnvironment('dart.vm.product')
-      ? null
-      : _$medicationHistoryTakeHash,
+  debugGetCreateSourceHash: const bool.fromEnvironment('dart.vm.product') ? null : _$medicationHistoryTakeHash,
   dependencies: <ProviderOrFamily>[userDatabaseProvider],
-  allTransitiveDependencies: <ProviderOrFamily>{
-    userDatabaseProvider,
-    ...?userDatabaseProvider.allTransitiveDependencies
-  },
+  allTransitiveDependencies: <ProviderOrFamily>{userDatabaseProvider, ...?userDatabaseProvider.allTransitiveDependencies},
 );
 
-typedef MedicationHistoryTakeRef
-    = AutoDisposeProviderRef<MedicationHistoryTake>;
-String _$medicationHistoryDeleteHash() =>
-    r'd25eda5bb38097e3a1d3efad69fc21e23ae2f900';
+typedef MedicationHistoryTakeRef = AutoDisposeProviderRef<MedicationHistoryTake>;
+String _$medicationHistoryDeleteHash() => r'd25eda5bb38097e3a1d3efad69fc21e23ae2f900';
 
 /// See also [medicationHistoryDelete].
 @ProviderFor(medicationHistoryDelete)
-final medicationHistoryDeleteProvider =
-    AutoDisposeProvider<MedicationHistoryDelete>.internal(
+final medicationHistoryDeleteProvider = AutoDisposeProvider<MedicationHistoryDelete>.internal(
   medicationHistoryDelete,
   name: r'medicationHistoryDeleteProvider',
-  debugGetCreateSourceHash: const bool.fromEnvironment('dart.vm.product')
-      ? null
-      : _$medicationHistoryDeleteHash,
+  debugGetCreateSourceHash: const bool.fromEnvironment('dart.vm.product') ? null : _$medicationHistoryDeleteHash,
   dependencies: <ProviderOrFamily>[userDatabaseProvider],
-  allTransitiveDependencies: <ProviderOrFamily>{
-    userDatabaseProvider,
-    ...?userDatabaseProvider.allTransitiveDependencies
-  },
+  allTransitiveDependencies: <ProviderOrFamily>{userDatabaseProvider, ...?userDatabaseProvider.allTransitiveDependencies},
 );
 
-typedef MedicationHistoryDeleteRef
-    = AutoDisposeProviderRef<MedicationHistoryDelete>;
-String _$medicationHistoryMemoUpdateHash() =>
-    r'd21f6cce07538559bad771235fcec4a45e7c92ce';
+typedef MedicationHistoryDeleteRef = AutoDisposeProviderRef<MedicationHistoryDelete>;
+String _$medicationHistoryMemoUpdateHash() => r'd21f6cce07538559bad771235fcec4a45e7c92ce';
 
 /// See also [medicationHistoryMemoUpdate].
 @ProviderFor(medicationHistoryMemoUpdate)
-final medicationHistoryMemoUpdateProvider =
-    AutoDisposeProvider<MedicationHistoryMemoUpdate>.internal(
+final medicationHistoryMemoUpdateProvider = AutoDisposeProvider<MedicationHistoryMemoUpdate>.internal(
   medicationHistoryMemoUpdate,
   name: r'medicationHistoryMemoUpdateProvider',
-  debugGetCreateSourceHash: const bool.fromEnvironment('dart.vm.product')
-      ? null
-      : _$medicationHistoryMemoUpdateHash,
+  debugGetCreateSourceHash: const bool.fromEnvironment('dart.vm.product') ? null : _$medicationHistoryMemoUpdateHash,
   dependencies: <ProviderOrFamily>[userDatabaseProvider],
-  allTransitiveDependencies: <ProviderOrFamily>{
-    userDatabaseProvider,
-    ...?userDatabaseProvider.allTransitiveDependencies
-  },
+  allTransitiveDependencies: <ProviderOrFamily>{userDatabaseProvider, ...?userDatabaseProvider.allTransitiveDependencies},
 );
 
-typedef MedicationHistoryMemoUpdateRef
-    = AutoDisposeProviderRef<MedicationHistoryMemoUpdate>;
+typedef MedicationHistoryMemoUpdateRef = AutoDisposeProviderRef<MedicationHistoryMemoUpdate>;
 // ignore_for_file: type=lint
 // ignore_for_file: subtype_of_sealed_class, invalid_use_of_internal_member, invalid_use_of_visible_for_testing_member

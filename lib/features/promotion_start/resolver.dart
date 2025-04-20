@@ -12,23 +12,6 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 part 'resolver.g.dart';
 
-@Riverpod(dependencies: [sharedPreferences])
-class PromotionStartPageCancelButtonTappedDateTimeInterval extends _$PromotionStartPageCancelButtonTappedDateTimeInterval {
-  static const _key = 'PromotionStartPageCancelButtonTappedDateTimeInterval';
-
-  @override
-  double build() {
-    final sp = ref.watch(sharedPreferencesProvider);
-    return sp.getDouble(_key) ?? 0.0;
-  }
-
-  Future<void> update(double value) async {
-    final sp = ref.read(sharedPreferencesProvider);
-    await sp.setDouble(_key, value);
-    state = value;
-  }
-}
-
 class PromotionStartResolver extends HookConsumerWidget {
   const PromotionStartResolver({Key? key}) : super(key: key);
 
