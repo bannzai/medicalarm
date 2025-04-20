@@ -231,7 +231,7 @@ class PromotionStartPage extends HookConsumerWidget {
                                 FittedBox(
                                   fit: BoxFit.scaleDown,
                                   child: Text(
-                                    "Focusへようこそ！",
+                                    "Medicalarmへようこそ！",
                                     style: TextStyle(
                                       fontSize: 20,
                                       fontWeight: FontWeight.bold,
