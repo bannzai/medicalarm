@@ -108,11 +108,11 @@ class _Body extends HookConsumerWidget {
                     mainAxisSize: MainAxisSize.min,
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      if (customerInfo.activeSubscriptions.isNotEmpty) ...[
+                      if (customerInfo.isPremium) ...[
                         const SizedBox(height: 32),
                         const Center(child: PremiumUserThanksRow()),
                       ],
-                      if (customerInfo.activeSubscriptions.isEmpty) ...[
+                      if (!customerInfo.isPremium) ...[
                         const PremiumFeatures(),
                         const SizedBox(height: 12),
                         PurchaseButtons(
