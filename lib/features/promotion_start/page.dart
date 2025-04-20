@@ -35,6 +35,8 @@ class PromotionStartPage extends HookConsumerWidget {
     final showAppStoreAlert = useState(false);
     final error = useState<Exception?>(null);
 
+    final primaryColor = Theme.of(context).colorScheme.primary;
+
     // ライフサイクル検知のためのエフェクト
     useEffect(() {
       final observer = _AppLifecycleObserver(
@@ -120,7 +122,7 @@ class PromotionStartPage extends HookConsumerWidget {
       child: Stack(
         children: [
           Container(
-            color: Colors.blue.withValues(alpha: 0.1),
+            color: primaryColor.withOpacity(0.1),
             child: SafeArea(
               child: Column(
                 children: [
@@ -138,10 +140,10 @@ class PromotionStartPage extends HookConsumerWidget {
                               builder: (context, child) {
                                 return Transform.scale(
                                   scale: 1.0 + 0.1 * giftAnimationController.value,
-                                  child: const Icon(
+                                  child: Icon(
                                     Icons.card_giftcard,
                                     size: 70,
-                                    color: Colors.blue,
+                                    color: primaryColor,
                                   ),
                                 );
                               },
@@ -154,7 +156,7 @@ class PromotionStartPage extends HookConsumerWidget {
                               style: TextStyle(
                                 fontSize: 32,
                                 fontWeight: FontWeight.bold,
-                                color: Theme.of(context).textTheme.bodyLarge?.color,
+                                color: primaryColor,
                               ),
                             ),
                           ),
@@ -203,10 +205,10 @@ class PromotionStartPage extends HookConsumerWidget {
                                         final scale = 1.0 + (0.1 + index * 0.02) * starAnimationController.value;
                                         return Transform.scale(
                                           scale: scale,
-                                          child: const Icon(
+                                          child: Icon(
                                             Icons.star,
                                             size: 30,
-                                            color: Colors.yellow,
+                                            color: Colors.amber,
                                           ),
                                         );
                                       },
@@ -219,10 +221,10 @@ class PromotionStartPage extends HookConsumerWidget {
                                   builder: (context, child) {
                                     return Transform.scale(
                                       scale: 1.0 + 0.15 * starAnimationController.value,
-                                      child: const Icon(
+                                      child: Icon(
                                         Icons.star,
                                         size: 50,
-                                        color: Colors.yellow,
+                                        color: Colors.amber,
                                       ),
                                     );
                                   },
@@ -364,6 +366,8 @@ class PromotionStartButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final primaryColor = Theme.of(context).colorScheme.primary;
+
     return ElevatedButton(
       onPressed: () {
         analytics.logEvent(name: 'pressed_promotion_start');
@@ -376,7 +380,7 @@ class PromotionStartButton extends StatelessWidget {
         }
       },
       style: ElevatedButton.styleFrom(
-        backgroundColor: Colors.blue,
+        backgroundColor: primaryColor,
         shape: const StadiumBorder(),
         padding: const EdgeInsets.symmetric(vertical: 16),
       ),

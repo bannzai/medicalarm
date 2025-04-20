@@ -10,6 +10,8 @@ class PremiumFeatures extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final primaryColor = Theme.of(context).colorScheme.primary;
+
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 20),
       child: Container(
@@ -29,7 +31,7 @@ class PremiumFeatures extends StatelessWidget {
             children: [
               Row(
                 children: [
-                  const Icon(Icons.remove_red_eye),
+                  Icon(Icons.remove_red_eye, color: primaryColor),
                   const SizedBox(width: 8),
                   Expanded(
                     child: Text(L.premiumFeatureAds),
@@ -39,7 +41,7 @@ class PremiumFeatures extends StatelessWidget {
               const SizedBox(height: 4),
               Row(
                 children: [
-                  const Icon(Icons.history),
+                  Icon(Icons.history, color: primaryColor),
                   const SizedBox(width: 8),
                   Expanded(
                     child: Text(L.premiumFeatureHistory),
@@ -49,7 +51,7 @@ class PremiumFeatures extends StatelessWidget {
               const SizedBox(height: 4),
               Row(
                 children: [
-                  const Icon(Icons.medication),
+                  Icon(Icons.medication, color: primaryColor),
                   const SizedBox(width: 8),
                   Expanded(
                     child: Text.rich(
@@ -72,7 +74,7 @@ class PremiumFeatures extends StatelessWidget {
               const SizedBox(height: 4),
               Row(
                 children: [
-                  const Icon(Icons.schedule),
+                  Icon(Icons.schedule, color: primaryColor),
                   const SizedBox(width: 8),
                   Expanded(
                     child: Text.rich(
@@ -95,7 +97,7 @@ class PremiumFeatures extends StatelessWidget {
               const SizedBox(height: 4),
               Row(
                 children: [
-                  const Icon(Icons.person),
+                  Icon(Icons.person, color: primaryColor),
                   const SizedBox(width: 8),
                   Expanded(
                     child: Text.rich(
