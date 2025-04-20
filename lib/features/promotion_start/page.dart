@@ -14,10 +14,10 @@ class PromotionStartPage extends HookConsumerWidget {
   final VoidCallback onCancel;
 
   const PromotionStartPage({
-    Key? key,
+    super.key,
     required this.onStartPromotion,
     required this.onCancel,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
@@ -80,14 +80,14 @@ class PromotionStartPage extends HookConsumerWidget {
     // エラーアラートを構築
     Widget buildErrorAlert() {
       return AlertDialog(
-        title: Text("エラー"),
+        title: const Text('エラー'),
         content: Text(error.value.toString()),
         actions: [
           TextButton(
             onPressed: () {
               error.value = null;
             },
-            child: Text("OK"),
+            child: const Text('OK'),
           ),
         ],
       );
@@ -96,21 +96,21 @@ class PromotionStartPage extends HookConsumerWidget {
     // App Store アラートを構築
     Widget buildAppStoreAlert() {
       return AlertDialog(
-        title: Text("App Storeを開く"),
-        content: Text("レビューを書くためにApp Storeを開きますか？"),
+        title: const Text('App Storeを開く'),
+        content: const Text('レビューを書くためにApp Storeを開きますか？'),
         actions: [
           TextButton(
             onPressed: () {
               showAppStoreAlert.value = false;
             },
-            child: Text("キャンセル"),
+            child: const Text('キャンセル'),
           ),
           TextButton(
             onPressed: () {
               showAppStoreAlert.value = false;
               openAppStore();
             },
-            child: Text("開く"),
+            child: const Text('開く'),
           ),
         ],
       );
@@ -138,7 +138,7 @@ class PromotionStartPage extends HookConsumerWidget {
                               builder: (context, child) {
                                 return Transform.scale(
                                   scale: 1.0 + 0.1 * giftAnimationController.value,
-                                  child: Icon(
+                                  child: const Icon(
                                     Icons.card_giftcard,
                                     size: 70,
                                     color: Colors.blue,
@@ -150,7 +150,7 @@ class PromotionStartPage extends HookConsumerWidget {
                           const SizedBox(height: 15),
                           Center(
                             child: Text(
-                              "🎉 Special Gift 🎉",
+                              '🎉 Special Gift 🎉',
                               style: TextStyle(
                                 fontSize: 32,
                                 fontWeight: FontWeight.bold,
@@ -162,7 +162,7 @@ class PromotionStartPage extends HookConsumerWidget {
                           Padding(
                             padding: const EdgeInsets.symmetric(horizontal: 16),
                             child: Text(
-                              "試用期間が$promotionDayCount日間無料でプレゼントされます！",
+                              '試用期間が$promotionDayCount日間無料でプレゼントされます！',
                               style: TextStyle(
                                 fontSize: 16,
                                 fontWeight: FontWeight.bold,
@@ -203,7 +203,7 @@ class PromotionStartPage extends HookConsumerWidget {
                                         final scale = 1.0 + (0.1 + index * 0.02) * starAnimationController.value;
                                         return Transform.scale(
                                           scale: scale,
-                                          child: Icon(
+                                          child: const Icon(
                                             Icons.star,
                                             size: 30,
                                             color: Colors.yellow,
@@ -219,7 +219,7 @@ class PromotionStartPage extends HookConsumerWidget {
                                   builder: (context, child) {
                                     return Transform.scale(
                                       scale: 1.0 + 0.15 * starAnimationController.value,
-                                      child: Icon(
+                                      child: const Icon(
                                         Icons.star,
                                         size: 50,
                                         color: Colors.yellow,
@@ -228,10 +228,10 @@ class PromotionStartPage extends HookConsumerWidget {
                                   },
                                 ),
                                 const SizedBox(height: 20),
-                                FittedBox(
+                                const FittedBox(
                                   fit: BoxFit.scaleDown,
                                   child: Text(
-                                    "Medicalarmへようこそ！",
+                                    'Medicalarmへようこそ！',
                                     style: TextStyle(
                                       fontSize: 20,
                                       fontWeight: FontWeight.bold,
@@ -244,8 +244,8 @@ class PromotionStartPage extends HookConsumerWidget {
                                 Padding(
                                   padding: const EdgeInsets.symmetric(horizontal: 12),
                                   child: Text(
-                                    "App Storeで★5つの評価とレビューを書いて\n$promotionDayCount日間プレミアム機能を無料でお試しください！",
-                                    style: TextStyle(
+                                    'App Storeで★5つの評価とレビューを書いて\n$promotionDayCount日間プレミアム機能を無料でお試しください！',
+                                    style: const TextStyle(
                                       fontSize: 16,
                                       fontWeight: FontWeight.bold,
                                       color: Colors.black,
@@ -256,10 +256,10 @@ class PromotionStartPage extends HookConsumerWidget {
                                   ),
                                 ),
                                 const SizedBox(height: 12),
-                                Padding(
-                                  padding: const EdgeInsets.symmetric(horizontal: 12),
+                                const Padding(
+                                  padding: EdgeInsets.symmetric(horizontal: 12),
                                   child: Text(
-                                    "あなたの★5つ評価は開発者の大きな励みになります。\nより良いアプリづくりのため、応援よろしくお願いします！",
+                                    'あなたの★5つ評価は開発者の大きな励みになります。\nより良いアプリづくりのため、応援よろしくお願いします！',
                                     style: TextStyle(
                                       fontSize: 14,
                                       color: Colors.black87,
@@ -272,10 +272,10 @@ class PromotionStartPage extends HookConsumerWidget {
                               ],
                             ),
                           ),
-                          Padding(
-                            padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
+                          const Padding(
+                            padding: EdgeInsets.symmetric(horizontal: 20, vertical: 10),
                             child: Text(
-                              "自動課金はされません。試用期間終了後は自動的に無料プランに戻ります。",
+                              '自動課金はされません。試用期間終了後は自動的に無料プランに戻ります。',
                               style: TextStyle(
                                 fontSize: 12,
                                 color: Colors.grey,
@@ -356,22 +356,22 @@ class PromotionStartButton extends StatelessWidget {
   final VoidCallback onStartPromotion;
 
   const PromotionStartButton({
-    Key? key,
+    super.key,
     required this.canStartPromotion,
     required this.onShowAppStoreAlert,
     required this.onStartPromotion,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {
     return ElevatedButton(
       onPressed: () {
-        analytics.logEvent(name: "pressed_promotion_start");
+        analytics.logEvent(name: 'pressed_promotion_start');
         if (!canStartPromotion) {
-          analytics.logEvent(name: "promotion_start_show_app_store_dialog");
+          analytics.logEvent(name: 'promotion_start_show_app_store_dialog');
           onShowAppStoreAlert();
         } else {
-          analytics.logEvent(name: "promotion_start_run_start_promotion");
+          analytics.logEvent(name: 'promotion_start_run_start_promotion');
           onStartPromotion();
         }
       },
@@ -391,8 +391,8 @@ class PromotionStartButton extends StatelessWidget {
             ),
             const SizedBox(width: 8),
             Text(
-              canStartPromotion ? "報酬を受け取る" : "★5つの評価を書く",
-              style: TextStyle(
+              canStartPromotion ? '報酬を受け取る' : '★5つの評価を書く',
+              style: const TextStyle(
                 color: Colors.white,
                 fontWeight: FontWeight.bold,
                 fontSize: 16,
@@ -409,19 +409,19 @@ class PromotionStartCancelButton extends StatelessWidget {
   final VoidCallback onCancel;
 
   const PromotionStartCancelButton({
-    Key? key,
+    super.key,
     required this.onCancel,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {
     return TextButton(
       onPressed: () {
-        analytics.logEvent(name: "pressed_promotion_start_cancel");
+        analytics.logEvent(name: 'pressed_promotion_start_cancel');
         onCancel();
       },
-      child: Text(
-        "今はしない",
+      child: const Text(
+        '今はしない',
         style: TextStyle(
           color: Colors.grey,
           fontSize: 14,
