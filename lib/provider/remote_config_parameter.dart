@@ -6,6 +6,7 @@ import 'package:riverpod_annotation/riverpod_annotation.dart';
 
 part 'remote_config_parameter.g.dart';
 
+// [RemoteConfigDefaultValues] でgrepした場所に全て設定する
 @Riverpod()
 RemoteConfigParameter remoteConfigParameter(Ref ref) {
   // fetchAndActiveをentrypointで完了しているので値が取れる想定
@@ -17,6 +18,10 @@ RemoteConfigParameter remoteConfigParameter(Ref ref) {
     promotionDayCount: remoteConfig.getIntOrDefault(
       RemoteConfigKeys.promotionDayCount,
       RemoteConfigParameterDefaultValues.promotionDayCount,
+    ),
+    releasedVersion: remoteConfig.getStringOrDefault(
+      RemoteConfigKeys.releasedVersion,
+      RemoteConfigParameterDefaultValues.releasedVersion,
     ),
   );
 }
