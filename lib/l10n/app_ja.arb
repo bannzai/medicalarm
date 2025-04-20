@@ -835,5 +835,9 @@
   "confirmOpenAppStore": "レビューを書くためにApp Storeを開きますか？",
   "@confirmOpenAppStore": {
     "description": "App Storeを開く確認メッセージ"
+  },
+  "premiumFeaturesList": "プレミアム機能一覧",
+  "@premiumFeaturesList": {
+    "description": "プレミアム機能一覧のタイトル"
   }
 }

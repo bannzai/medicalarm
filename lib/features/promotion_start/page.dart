@@ -287,10 +287,19 @@ class PromotionStartPage extends HookConsumerWidget {
                               softWrap: true,
                             ),
                           ),
-                          // コンテンツの下部に余白を追加
-                          const Padding(
-                            padding: EdgeInsets.symmetric(horizontal: 16),
-                            child: PremiumFeatures(),
+                          Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Padding(
+                                padding: const EdgeInsets.symmetric(horizontal: 20),
+                                child: Text(
+                                  L.premiumFeaturesList,
+                                  style: const TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
+                                ),
+                              ),
+                              const SizedBox(height: 10),
+                              const PremiumFeatures(),
+                            ],
                           ),
                           const SizedBox(height: 40),
                         ],
