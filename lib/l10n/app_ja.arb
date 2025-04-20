@@ -779,5 +779,69 @@
   "criticalAlertVolume": "音量",
   "@criticalAlertVolume": {
     "description": "緊急通知の音量の表示名"
+  },
+  "specialGift": "🎉 Special Gift 🎉",
+  "@specialGift": {
+    "description": "プロモーション開始ページのタイトル"
+  },
+  "freePremiumTrialDays": "試用期間が{count}日間無料でプレゼントされます！",
+  "@freePremiumTrialDays": {
+    "description": "プレミアム機能の無料試用期間の案内",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  },
+  "welcomeToMedicalarm": "Medicalarmへようこそ！",
+  "@welcomeToMedicalarm": {
+    "description": "アプリへの歓迎メッセージ"
+  },
+  "writeReviewFor5StarPromotion": "App Storeで★5つの評価とレビューを書いて\n{count}日間プレミアム機能を無料でお試しください！",
+  "@writeReviewFor5StarPromotion": {
+    "description": "5つ星評価と引き換えにプレミアム機能を試用できることの案内",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  },
+  "rating5StarsEncouragement": "あなたの★5つ評価は開発者の大きな励みになります。\nより良いアプリづくりのため、応援よろしくお願いします！",
+  "@rating5StarsEncouragement": {
+    "description": "5つ星評価の重要性と励みになることの説明"
+  },
+  "noAutoCharge": "自動課金はされません。試用期間終了後は自動的に無料プランに戻ります。",
+  "@noAutoCharge": {
+    "description": "試用期間終了後に自動課金されないことの案内"
+  },
+  "write5StarReview": "★5つの評価を書く",
+  "@write5StarReview": {
+    "description": "レビューを書くボタンのテキスト"
+  },
+  "receiveReward": "報酬を受け取る",
+  "@receiveReward": {
+    "description": "報酬を受け取るボタンのテキスト"
+  },
+  "notNow": "今はしない",
+  "@notNow": {
+    "description": "プロモーションをキャンセルするボタンのテキスト"
+  },
+  "openAppStore": "App Storeを開く",
+  "@openAppStore": {
+    "description": "App Storeを開くダイアログのタイトル"
+  },
+  "confirmOpenAppStore": "レビューを書くためにApp Storeを開きますか？",
+  "@confirmOpenAppStore": {
+    "description": "App Storeを開く確認メッセージ"
+  },
+  "premiumFeaturesList": "プレミアム機能一覧",
+  "@premiumFeaturesList": {
+    "description": "プレミアム機能一覧のタイトル"
+  },
+  "currentlyInPremiumTrial": "現在プレミアムトライアル中です",
+  "@currentlyInPremiumTrial": {
+    "description": "プレミアムトライアル中の表示テキスト"
   }
 }

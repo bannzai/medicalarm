@@ -18,6 +18,7 @@ import 'package:medicalarm/features/medications/entity/grouped.dart';
 import 'package:medicalarm/features/medicine_form/components/schedule/focus_connect/section.dart';
 import 'package:medicalarm/features/medicine_form/page.dart';
 import 'package:medicalarm/features/medicines/page.dart';
+import 'package:medicalarm/features/preium_introduction/premium_introduction_sheet.dart';
 import 'package:medicalarm/provider/medication_history.dart';
 import 'package:medicalarm/provider/medicine.dart';
 import 'package:medicalarm/style/color.dart';
@@ -88,6 +89,8 @@ class MedicationsPageBody extends HookConsumerWidget {
       }
     });
 
+    final primaryColor = Theme.of(context).colorScheme.primary;
+
     return Scaffold(
       appBar: AppBar(
         title: Column(
@@ -110,40 +113,66 @@ class MedicationsPageBody extends HookConsumerWidget {
       ),
       body: FloatingActionButtonLayout(
         scaffoldBody: SafeArea(
-          child: Column(
+          child: Stack(
             children: [
-              WeeklyCalendarPager(date: date, pageController: pageController),
-              const Divider(
-                height: 1,
-                color: Colors.black,
-              ),
-              TodayBadge(date: date),
-              Expanded(
-                child: SingleChildScrollView(
-                  physics: const AlwaysScrollableScrollPhysics(),
-                  child: Padding(
-                    padding: const EdgeInsets.only(top: 20.0, bottom: 100),
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.center,
-                      children: [
-                        if (!customerInfo.isPremium) ...[
-                          const AdMob(),
-                        ],
-                        for (final tileValue in medicationGroups(
-                          medicines: medicines,
-                          medicationHistories: medicationHistories,
-                          date: date.value,
-                        )) ...[
-                          MedicationGroupTile(
-                            key: ValueKey(tileValue.id),
-                            tileValue: tileValue,
-                          ),
-                          const SizedBox(height: 10),
-                        ],
-                      ],
+              Column(
+                children: [
+                  WeeklyCalendarPager(date: date, pageController: pageController),
+                  const Divider(
+                    height: 1,
+                    color: Colors.black,
+                  ),
+                  TodayBadge(date: date),
+                  Expanded(
+                    child: SingleChildScrollView(
+                      physics: const AlwaysScrollableScrollPhysics(),
+                      child: Padding(
+                        padding: const EdgeInsets.only(top: 20.0, bottom: 100),
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.center,
+                          children: [
+                            if (!customerInfo.hasPremiumEntitlement) ...[
+                              const AdMob(),
+                            ],
+                            if (customerInfo.isInPromotion) ...[
+                              GestureDetector(
+                                onTap: () {
+                                  showPremiumIntroductionSheet(context);
+                                },
+                                child: Container(
+                                  width: double.infinity,
+                                  padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
+                                  color: primaryColor.withValues(alpha: 0.8),
+                                  child: Text(
+                                    L.currentlyInPremiumTrial,
+                                    style: const TextStyle(
+                                      color: Colors.white,
+                                      fontWeight: FontWeight.bold,
+                                      decoration: TextDecoration.underline,
+                                    ),
+                                    textAlign: TextAlign.center,
+                                  ),
+                                ),
+                              ),
+                              const SizedBox(height: 20),
+                            ],
+                            for (final tileValue in medicationGroups(
+                              medicines: medicines,
+                              medicationHistories: medicationHistories,
+                              date: date.value,
+                            )) ...[
+                              MedicationGroupTile(
+                                key: ValueKey(tileValue.id),
+                                tileValue: tileValue,
+                              ),
+                              const SizedBox(height: 10),
+                            ],
+                          ],
+                        ),
+                      ),
                     ),
                   ),
-                ),
+                ],
               ),
             ],
           ),

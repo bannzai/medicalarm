@@ -37,7 +37,7 @@ class Medicine with _$Medicine {
 
   factory Medicine.fromJson(Map<String, dynamic> json) => _$MedicineFromJson(json);
 
-  static int maxCount({required bool? isPremium}) => isPremium == true ? 10 : 2;
+  static int maxCount({required bool? hasPremiumEntitlement}) => hasPremiumEntitlement == true ? 10 : 2;
 }
 
 @freezed
@@ -88,5 +88,5 @@ class MedicationSchedule with _$MedicationSchedule {
     return TimeOfDay(hour: hour, minute: minute);
   }
 
-  static int maxCount({required bool? isPremium}) => isPremium == true ? 5 : 2;
+  static int maxCount({required bool? hasPremiumEntitlement}) => hasPremiumEntitlement == true ? 5 : 2;
 }

@@ -111,7 +111,7 @@ class MedicationsHistoryPageBody extends HookConsumerWidget {
                       ),
                     ),
                   ],
-                  if (customerInfo?.isPremium == false && date.value.isBefore(today())) ...[
+                  if (customerInfo?.hasPremiumEntitlement == false && date.value.isBefore(today())) ...[
                     Positioned.fill(
                       child: ClipRRect(
                         child: Stack(

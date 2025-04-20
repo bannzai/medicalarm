@@ -62,6 +62,7 @@ Future<String> debugInfo(String separator) async {
     'userID: $userID',
     'createdDateTime: ${user?.createdDateTime}',
     'isPremium: ${customerInfo?.isPremium}',
+    'isInPromotion: ${customerInfo?.isInPromotion}',
   ];
   return contents.join(separator);
 }

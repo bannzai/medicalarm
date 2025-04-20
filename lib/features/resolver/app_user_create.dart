@@ -17,13 +17,13 @@ class AppUserCreate {
 
   AppUserCreate({required this.userDatabase});
 
-  Future<void> call() async {
+  Future<void> call({required String firebaseUserID}) async {
     final document = await userDatabase.userReference().get();
     if (document.exists) {
       return;
     }
     await userDatabase.userReference().set(
-          const AppUser(),
+          AppUser(id: firebaseUserID),
           SetOptions(merge: true),
         );
   }
@@ -35,9 +35,14 @@ AppUserCreate appUserCreate(AppUserCreateRef ref) {
 }
 
 class AppUserCreateResolver extends HookConsumerWidget {
-  final Widget Function(BuildContext) builder;
+  final String firebaseUserID;
+  final Widget Function(BuildContext, AppUser) builder;
 
-  const AppUserCreateResolver({super.key, required this.builder});
+  const AppUserCreateResolver({
+    super.key,
+    required this.firebaseUserID,
+    required this.builder,
+  });
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
@@ -45,7 +50,7 @@ class AppUserCreateResolver extends HookConsumerWidget {
     final appUserCreate = ref.watch(appUserCreateProvider);
 
     useEffect(() {
-      appUserCreate();
+      appUserCreate(firebaseUserID: firebaseUserID);
       return null;
     }, []);
 
@@ -53,7 +58,7 @@ class AppUserCreateResolver extends HookConsumerWidget {
       retry: () => ref.invalidate(appUserProvider),
       child: () {
         return appUser.when(
-          data: (appUser) => builder(context),
+          data: (appUser) => builder(context, appUser),
           error: (e, st) => RetryPage(
             exception: e,
           ),

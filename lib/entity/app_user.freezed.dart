@@ -22,6 +22,10 @@ AppUser _$AppUserFromJson(Map<String, dynamic> json) {
 mixin _$AppUser {
   String? get id => throw _privateConstructorUsedError;
   bool get analyticsDebugIsEnabled => throw _privateConstructorUsedError;
+  @NullableTimestampConverter()
+  DateTime? get maybeTrialDeadlineDate => throw _privateConstructorUsedError;
+  @NullableTimestampConverter()
+  DateTime? get promotionStartPageCancelButtonTappedDateTime => throw _privateConstructorUsedError;
   @ClientCreatedTimestamp()
   DateTime? get createdDateTime => throw _privateConstructorUsedError;
   @ClientUpdatedTimestamp()
@@ -47,6 +51,8 @@ abstract class $AppUserCopyWith<$Res> {
   $Res call(
       {String? id,
       bool analyticsDebugIsEnabled,
+      @NullableTimestampConverter() DateTime? maybeTrialDeadlineDate,
+      @NullableTimestampConverter() DateTime? promotionStartPageCancelButtonTappedDateTime,
       @ClientCreatedTimestamp() DateTime? createdDateTime,
       @ClientUpdatedTimestamp() DateTime? updatedDateTime,
       @ServerCreatedTimestamp() DateTime? serverCreatedDateTime,
@@ -69,6 +75,8 @@ class _$AppUserCopyWithImpl<$Res, $Val extends AppUser> implements $AppUserCopyW
   $Res call({
     Object? id = freezed,
     Object? analyticsDebugIsEnabled = null,
+    Object? maybeTrialDeadlineDate = freezed,
+    Object? promotionStartPageCancelButtonTappedDateTime = freezed,
     Object? createdDateTime = freezed,
     Object? updatedDateTime = freezed,
     Object? serverCreatedDateTime = freezed,
@@ -83,6 +91,14 @@ class _$AppUserCopyWithImpl<$Res, $Val extends AppUser> implements $AppUserCopyW
           ? _value.analyticsDebugIsEnabled
           : analyticsDebugIsEnabled // ignore: cast_nullable_to_non_nullable
               as bool,
+      maybeTrialDeadlineDate: freezed == maybeTrialDeadlineDate
+          ? _value.maybeTrialDeadlineDate
+          : maybeTrialDeadlineDate // ignore: cast_nullable_to_non_nullable
+              as DateTime?,
+      promotionStartPageCancelButtonTappedDateTime: freezed == promotionStartPageCancelButtonTappedDateTime
+          ? _value.promotionStartPageCancelButtonTappedDateTime
+          : promotionStartPageCancelButtonTappedDateTime // ignore: cast_nullable_to_non_nullable
+              as DateTime?,
       createdDateTime: freezed == createdDateTime
           ? _value.createdDateTime
           : createdDateTime // ignore: cast_nullable_to_non_nullable
@@ -111,6 +127,8 @@ abstract class _$$AppUserImplCopyWith<$Res> implements $AppUserCopyWith<$Res> {
   $Res call(
       {String? id,
       bool analyticsDebugIsEnabled,
+      @NullableTimestampConverter() DateTime? maybeTrialDeadlineDate,
+      @NullableTimestampConverter() DateTime? promotionStartPageCancelButtonTappedDateTime,
       @ClientCreatedTimestamp() DateTime? createdDateTime,
       @ClientUpdatedTimestamp() DateTime? updatedDateTime,
       @ServerCreatedTimestamp() DateTime? serverCreatedDateTime,
@@ -128,6 +146,8 @@ class __$$AppUserImplCopyWithImpl<$Res> extends _$AppUserCopyWithImpl<$Res, _$Ap
   $Res call({
     Object? id = freezed,
     Object? analyticsDebugIsEnabled = null,
+    Object? maybeTrialDeadlineDate = freezed,
+    Object? promotionStartPageCancelButtonTappedDateTime = freezed,
     Object? createdDateTime = freezed,
     Object? updatedDateTime = freezed,
     Object? serverCreatedDateTime = freezed,
@@ -142,6 +162,14 @@ class __$$AppUserImplCopyWithImpl<$Res> extends _$AppUserCopyWithImpl<$Res, _$Ap
           ? _value.analyticsDebugIsEnabled
           : analyticsDebugIsEnabled // ignore: cast_nullable_to_non_nullable
               as bool,
+      maybeTrialDeadlineDate: freezed == maybeTrialDeadlineDate
+          ? _value.maybeTrialDeadlineDate
+          : maybeTrialDeadlineDate // ignore: cast_nullable_to_non_nullable
+              as DateTime?,
+      promotionStartPageCancelButtonTappedDateTime: freezed == promotionStartPageCancelButtonTappedDateTime
+          ? _value.promotionStartPageCancelButtonTappedDateTime
+          : promotionStartPageCancelButtonTappedDateTime // ignore: cast_nullable_to_non_nullable
+              as DateTime?,
       createdDateTime: freezed == createdDateTime
           ? _value.createdDateTime
           : createdDateTime // ignore: cast_nullable_to_non_nullable
@@ -169,6 +197,8 @@ class _$AppUserImpl extends _AppUser {
   const _$AppUserImpl(
       {this.id,
       this.analyticsDebugIsEnabled = false,
+      @NullableTimestampConverter() this.maybeTrialDeadlineDate,
+      @NullableTimestampConverter() this.promotionStartPageCancelButtonTappedDateTime,
       @ClientCreatedTimestamp() this.createdDateTime,
       @ClientUpdatedTimestamp() this.updatedDateTime,
       @ServerCreatedTimestamp() this.serverCreatedDateTime,
@@ -182,6 +212,12 @@ class _$AppUserImpl extends _AppUser {
   @override
   @JsonKey()
   final bool analyticsDebugIsEnabled;
+  @override
+  @NullableTimestampConverter()
+  final DateTime? maybeTrialDeadlineDate;
+  @override
+  @NullableTimestampConverter()
+  final DateTime? promotionStartPageCancelButtonTappedDateTime;
   @override
   @ClientCreatedTimestamp()
   final DateTime? createdDateTime;
@@ -197,7 +233,7 @@ class _$AppUserImpl extends _AppUser {
 
   @override
   String toString() {
-    return 'AppUser(id: $id, analyticsDebugIsEnabled: $analyticsDebugIsEnabled, createdDateTime: $createdDateTime, updatedDateTime: $updatedDateTime, serverCreatedDateTime: $serverCreatedDateTime, serverUpdatedDateTime: $serverUpdatedDateTime)';
+    return 'AppUser(id: $id, analyticsDebugIsEnabled: $analyticsDebugIsEnabled, maybeTrialDeadlineDate: $maybeTrialDeadlineDate, promotionStartPageCancelButtonTappedDateTime: $promotionStartPageCancelButtonTappedDateTime, createdDateTime: $createdDateTime, updatedDateTime: $updatedDateTime, serverCreatedDateTime: $serverCreatedDateTime, serverUpdatedDateTime: $serverUpdatedDateTime)';
   }
 
   @override
@@ -207,6 +243,9 @@ class _$AppUserImpl extends _AppUser {
             other is _$AppUserImpl &&
             (identical(other.id, id) || other.id == id) &&
             (identical(other.analyticsDebugIsEnabled, analyticsDebugIsEnabled) || other.analyticsDebugIsEnabled == analyticsDebugIsEnabled) &&
+            (identical(other.maybeTrialDeadlineDate, maybeTrialDeadlineDate) || other.maybeTrialDeadlineDate == maybeTrialDeadlineDate) &&
+            (identical(other.promotionStartPageCancelButtonTappedDateTime, promotionStartPageCancelButtonTappedDateTime) ||
+                other.promotionStartPageCancelButtonTappedDateTime == promotionStartPageCancelButtonTappedDateTime) &&
             (identical(other.createdDateTime, createdDateTime) || other.createdDateTime == createdDateTime) &&
             (identical(other.updatedDateTime, updatedDateTime) || other.updatedDateTime == updatedDateTime) &&
             (identical(other.serverCreatedDateTime, serverCreatedDateTime) || other.serverCreatedDateTime == serverCreatedDateTime) &&
@@ -215,8 +254,8 @@ class _$AppUserImpl extends _AppUser {
 
   @JsonKey(includeFromJson: false, includeToJson: false)
   @override
-  int get hashCode =>
-      Object.hash(runtimeType, id, analyticsDebugIsEnabled, createdDateTime, updatedDateTime, serverCreatedDateTime, serverUpdatedDateTime);
+  int get hashCode => Object.hash(runtimeType, id, analyticsDebugIsEnabled, maybeTrialDeadlineDate, promotionStartPageCancelButtonTappedDateTime,
+      createdDateTime, updatedDateTime, serverCreatedDateTime, serverUpdatedDateTime);
 
   /// Create a copy of AppUser
   /// with the given fields replaced by the non-null parameter values.
@@ -237,6 +276,8 @@ abstract class _AppUser extends AppUser {
   const factory _AppUser(
       {final String? id,
       final bool analyticsDebugIsEnabled,
+      @NullableTimestampConverter() final DateTime? maybeTrialDeadlineDate,
+      @NullableTimestampConverter() final DateTime? promotionStartPageCancelButtonTappedDateTime,
       @ClientCreatedTimestamp() final DateTime? createdDateTime,
       @ClientUpdatedTimestamp() final DateTime? updatedDateTime,
       @ServerCreatedTimestamp() final DateTime? serverCreatedDateTime,
@@ -249,6 +290,12 @@ abstract class _AppUser extends AppUser {
   String? get id;
   @override
   bool get analyticsDebugIsEnabled;
+  @override
+  @NullableTimestampConverter()
+  DateTime? get maybeTrialDeadlineDate;
+  @override
+  @NullableTimestampConverter()
+  DateTime? get promotionStartPageCancelButtonTappedDateTime;
   @override
   @ClientCreatedTimestamp()
   DateTime? get createdDateTime;

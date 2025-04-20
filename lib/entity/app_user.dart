@@ -12,6 +12,8 @@ class AppUser with _$AppUser {
   const factory AppUser({
     String? id,
     @Default(false) bool analyticsDebugIsEnabled,
+    @NullableTimestampConverter() DateTime? maybeTrialDeadlineDate,
+    @NullableTimestampConverter() DateTime? promotionStartPageCancelButtonTappedDateTime,
     @ClientCreatedTimestamp() DateTime? createdDateTime,
     @ClientUpdatedTimestamp() DateTime? updatedDateTime,
     @ServerCreatedTimestamp() DateTime? serverCreatedDateTime,

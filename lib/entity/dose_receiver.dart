@@ -32,5 +32,5 @@ class DoseReceiver with _$DoseReceiver {
         name: firstUserName,
       );
 
-  static int maxCount({required bool? isPremium}) => isPremium == true ? 10 : 2;
+  static int maxCount({required bool? hasPremiumEntitlement}) => hasPremiumEntitlement == true ? 10 : 2;
 }

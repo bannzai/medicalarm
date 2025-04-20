@@ -75,9 +75,12 @@ extension CustomerInfoExtension on CustomerInfo {
     return entitlements.active.containsKey(premiumEntitlementIdentifier);
   }
 
+  bool get hasPremiumEntitlement {
+    return isPremium || isInPromotion;
+  }
+
   bool get isInPromotion {
-    return false;
-    // return promotionExpirationDate?.isAfter(DateTime.now()) ?? false;
+    return promotionExpirationDate?.isAfter(DateTime.now()) ?? false;
   }
 
   DateTime? get discountDeadlineDate {

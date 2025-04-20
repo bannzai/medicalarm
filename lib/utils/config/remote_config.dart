@@ -2,6 +2,12 @@ import 'package:firebase_remote_config/firebase_remote_config.dart';
 import 'package:flutter/widgets.dart';
 import 'package:medicalarm/entity/remote_config_parameter.dart';
 import 'package:medicalarm/utils/analytics/error.dart';
+import 'package:medicalarm/utils/config/version.dart';
+import 'package:package_info_plus/package_info_plus.dart';
+import 'package:riverpod/riverpod.dart';
+import 'package:riverpod_annotation/riverpod_annotation.dart';
+
+part 'remote_config.g.dart';
 
 final remoteConfig = FirebaseRemoteConfig.instance;
 
@@ -12,8 +18,11 @@ Future<void> setupRemoteConfig() async {
         fetchTimeout: const Duration(minutes: 1),
         minimumFetchInterval: const Duration(hours: 1),
       )),
+      // [RemoteConfigDefaultValues] でgrepした場所に全て設定する
       remoteConfig.setDefaults({
         RemoteConfigKeys.minimumAppVersion: RemoteConfigParameterDefaultValues.minimumAppVersion,
+        RemoteConfigKeys.promotionDayCount: RemoteConfigParameterDefaultValues.promotionDayCount,
+        RemoteConfigKeys.releasedVersion: RemoteConfigParameterDefaultValues.releasedVersion,
       }),
       remoteConfig.fetchAndActivate()
     ).wait;
@@ -35,4 +44,12 @@ void debugPrintRemoteConfig() {
   for (final entry in remoteConfig.getAll().entries) {
     debugPrint('RemoteConfig: ${entry.key} ${entry.value.asString()}');
   }
+}
+
+@Riverpod()
+Future<bool> appIsReleased(Ref ref) async {
+  final releasedVersion = Version.parse(remoteConfig.getString(RemoteConfigKeys.releasedVersion));
+  final packageInfo = await PackageInfo.fromPlatform();
+  final appVersion = Version.parse(packageInfo.version);
+  return !appVersion.isGreaterThan(releasedVersion);
 }
