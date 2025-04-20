@@ -33,6 +33,8 @@ class PromotionStartResolver extends HookConsumerWidget {
         onStartPromotion: () async {
           promotionStartPageIsPresented.value = false;
           await ref.read(startPromotionProvider).call(promotionDayCount: remoteConfigParameter.promotionDayCount);
+          // サーバーからcustomerInfoを再取得して、promotionの状態を反映させる
+          ref.invalidate(customerInfoProvider);
         },
         onCancel: () async {
           promotionStartPageIsPresented.value = false;
