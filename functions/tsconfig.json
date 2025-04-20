@@ -1,8 +1,6 @@
 {
   "compilerOptions": {
-    "module": "NodeNext",
-    "esModuleInterop": true,
-    "moduleResolution": "nodenext",
+    "module": "commonjs",
     "noImplicitReturns": true,
     "noUnusedLocals": true,
     "outDir": "lib",
@@ -12,6 +10,9 @@
   },
   "compileOnSave": true,
   "include": [
-    "src"
+    "src/*.ts",
+    "src/**/*.ts",
+    "src/test/*.test.ts",
+    "src/test/**/*.test.ts"
   ]
 }
