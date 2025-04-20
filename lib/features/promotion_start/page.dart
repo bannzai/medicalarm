@@ -120,7 +120,7 @@ class PromotionStartPage extends HookConsumerWidget {
       child: Stack(
         children: [
           Container(
-            color: Colors.blue.withOpacity(0.1),
+            color: Colors.blue.withValues(alpha: 0.1),
             child: SafeArea(
               child: Column(
                 children: [
