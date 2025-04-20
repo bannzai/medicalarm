@@ -176,6 +176,31 @@ class PromotionStartPage extends HookConsumerWidget {
                     ),
                     child: Column(
                       children: [
+                        // 星5つのアイコン行を追加
+                        Row(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: List.generate(5, (index) {
+                            return AnimatedBuilder(
+                              animation: starAnimationController,
+                              builder: (context, child) {
+                                // インデックスが高いほど大きくアニメーションさせて注目を集める
+                                final scale = 1.0 + (0.1 + index * 0.02) * starAnimationController.value;
+                                return Padding(
+                                  padding: const EdgeInsets.symmetric(horizontal: 2),
+                                  child: Transform.scale(
+                                    scale: scale,
+                                    child: Icon(
+                                      Icons.star,
+                                      size: 30,
+                                      color: Colors.yellow,
+                                    ),
+                                  ),
+                                );
+                              },
+                            );
+                          }),
+                        ),
+                        const SizedBox(height: 20),
                         AnimatedBuilder(
                           animation: starAnimationController,
                           builder: (context, child) {
@@ -203,10 +228,23 @@ class PromotionStartPage extends HookConsumerWidget {
                         Padding(
                           padding: const EdgeInsets.symmetric(horizontal: 20),
                           child: Text(
-                            "App Storeでレビューを書いて\n$promotionDayCount日間プレミアム機能を無料でお試しください！",
+                            "App Storeで★5つの評価とレビューを書いて\n$promotionDayCount日間プレミアム機能を無料でお試しください！",
                             style: TextStyle(
                               fontSize: 16,
+                              fontWeight: FontWeight.bold,
                               color: Colors.black,
+                            ),
+                            textAlign: TextAlign.center,
+                          ),
+                        ),
+                        const SizedBox(height: 12),
+                        Padding(
+                          padding: const EdgeInsets.symmetric(horizontal: 16),
+                          child: Text(
+                            "あなたの★5つ評価は開発者の大きな励みになります。\nより良いアプリづくりのため、応援よろしくお願いします！",
+                            style: TextStyle(
+                              fontSize: 14,
+                              color: Colors.black87,
                             ),
                             textAlign: TextAlign.center,
                           ),
@@ -309,12 +347,12 @@ class PromotionStartButton extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Icon(
-            Icons.star_border,
+            canStartPromotion ? Icons.card_giftcard : Icons.star,
             color: Colors.white,
           ),
           const SizedBox(width: 8),
           Text(
-            canStartPromotion ? "報酬を受け取る" : "App Storeでレビューを書く",
+            canStartPromotion ? "報酬を受け取る" : "★5つの評価を書く",
             style: TextStyle(
               color: Colors.white,
               fontWeight: FontWeight.bold,
