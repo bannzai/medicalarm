@@ -6,7 +6,6 @@ import 'package:medicalarm/features/promotion_start/page.dart';
 import 'package:medicalarm/features/resolver/database.dart';
 import 'package:medicalarm/provider/remote_config_parameter.dart';
 import 'package:medicalarm/provider/start_promotion.dart';
-import 'package:medicalarm/utils/config/environment.dart';
 import 'package:medicalarm/utils/purchase/purchase.dart';
 
 class PromotionStartResolver extends HookConsumerWidget {
