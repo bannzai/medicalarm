@@ -71,7 +71,7 @@ class PromotionStartPage extends HookConsumerWidget {
 
     // App Store を開く
     Future<void> openAppStore() async {
-      final url = Uri.parse("https://apps.apple.com/app/id1663997320?mt=8&action=write-review");
+      final url = Uri.parse('https://apps.apple.com/app/id6740401642?mt=8&action=write-review');
       if (await canLaunchUrl(url)) {
         await launchUrl(url, mode: LaunchMode.externalApplication);
       }
