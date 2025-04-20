@@ -89,6 +89,8 @@ class MedicationsPageBody extends HookConsumerWidget {
       }
     });
 
+    final primaryColor = Theme.of(context).colorScheme.primary;
+
     return Scaffold(
       appBar: AppBar(
         title: Column(
@@ -140,7 +142,7 @@ class MedicationsPageBody extends HookConsumerWidget {
                                 child: Container(
                                   width: double.infinity,
                                   padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
-                                  color: Colors.purple,
+                                  color: primaryColor.withValues(alpha: 0.8),
                                   child: Text(
                                     L.currentlyInPremiumTrial,
                                     style: const TextStyle(
