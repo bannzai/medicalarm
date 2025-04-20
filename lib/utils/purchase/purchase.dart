@@ -80,8 +80,7 @@ extension CustomerInfoExtension on CustomerInfo {
   }
 
   bool get isInPromotion {
-    return false;
-    // return promotionExpirationDate?.isAfter(DateTime.now()) ?? false;
+    return promotionExpirationDate?.isAfter(DateTime.now()) ?? false;
   }
 
   DateTime? get discountDeadlineDate {

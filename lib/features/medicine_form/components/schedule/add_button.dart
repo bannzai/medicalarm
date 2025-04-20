@@ -26,11 +26,11 @@ class MedicineScheduleAddButton extends HookConsumerWidget {
 
     return Column(
       children: [
-        if (schedules.value.length >= MedicationSchedule.maxCount(isPremium: customerInfo?.isPremium)) ...[
-          Text(L.medicationScheduleLimit(MedicationSchedule.maxCount(isPremium: customerInfo?.isPremium)),
+        if (schedules.value.length >= MedicationSchedule.maxCount(isPremium: customerInfo?.hasPremiumEntitlement)) ...[
+          Text(L.medicationScheduleLimit(MedicationSchedule.maxCount(isPremium: customerInfo?.hasPremiumEntitlement)),
               style: const TextStyle(color: TextColor.danger)),
           const SizedBox(height: 4),
-          if (customerInfo?.isPremium == false) ...[
+          if (customerInfo?.hasPremiumEntitlement == false) ...[
             TextButton(
               onPressed: () {
                 showPremiumIntroductionSheet(context);
@@ -47,7 +47,7 @@ class MedicineScheduleAddButton extends HookConsumerWidget {
           ],
         ],
         TextButton.icon(
-          onPressed: schedules.value.length >= MedicationSchedule.maxCount(isPremium: customerInfo?.isPremium)
+          onPressed: schedules.value.length >= MedicationSchedule.maxCount(isPremium: customerInfo?.hasPremiumEntitlement)
               ? null
               : () {
                   unawaited(registerReminderLocalNotification());
