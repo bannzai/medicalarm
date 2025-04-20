@@ -21,38 +21,19 @@ class PromotionStartResolver extends HookConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final customerInfo = ref.watch(customerInfoProvider).asData?.value;
-    final promotionStartPageCancelButtonTappedDateTime = useState(appUser.promotionStartPageCancelButtonTappedDateTime);
+    final promotionStartPageCancelButtonTappedDateTime =
+        useState(appUser.promotionStartPageCancelButtonTappedDateTime ?? DateTime.fromMillisecondsSinceEpoch(0));
 
-    // useStateを使用して状態を管理
-    final promotionStartPageIsPresented = useState(false);
     final remoteConfigParameter = ref.watch(remoteConfigParameterProvider);
-
-    // コンポーネントのマウント時に一度だけ実行
-    useEffect(() {
-      if (!Environment.isProduction) {
-        return null;
-      }
-
-      if (customerInfo?.entitlements.all[premiumEntitlementIdentifier]?.isActive == true) {
-        return null;
-      }
-
-      final promotionStartPageCancelButtonTappedDateTimeValue = promotionStartPageCancelButtonTappedDateTime.value;
-      // キャンセルボタンが押されていない、または7日間以上経過している場合
-      if (promotionStartPageCancelButtonTappedDateTimeValue == null ||
-          promotionStartPageCancelButtonTappedDateTimeValue.add(const Duration(days: 7)).isBefore(DateTime.now())) {
-        // trialDeadlineDateがnullの場合（有料版を使ったことがない場合）に表示
-        promotionStartPageIsPresented.value = appUser.maybeTrialDeadlineDate == null;
-      }
-
-      return null;
-    }, [appUser, customerInfo]);
+    final promotionStartPageIsPresented = useState(customerInfo?.hasPremiumEntitlement != true &&
+        promotionStartPageCancelButtonTappedDateTime.value.add(const Duration(days: 7)).isBefore(DateTime.now()) &&
+        appUser.maybeTrialDeadlineDate == null);
 
     if (promotionStartPageIsPresented.value) {
       return PromotionStartPage(
         onStartPromotion: () async {
-          await ref.read(startPromotionProvider).call(promotionDayCount: remoteConfigParameter.promotionDayCount);
           promotionStartPageIsPresented.value = false;
+          await ref.read(startPromotionProvider).call(promotionDayCount: remoteConfigParameter.promotionDayCount);
         },
         onCancel: () async {
           promotionStartPageIsPresented.value = false;
