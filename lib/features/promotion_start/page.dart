@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
-import 'package:medicalarm/components/premium/premium_features.dart';
 import 'package:medicalarm/utils/analytics/analytics.dart';
 import 'package:medicalarm/utils/config/remote_config.dart';
 import 'package:medicalarm/provider/remote_config_parameter.dart';
@@ -124,195 +123,159 @@ class PromotionStartPage extends HookConsumerWidget {
             child: SafeArea(
               child: Column(
                 children: [
-                  Expanded(
-                    child: SingleChildScrollView(
-                      child: Column(
-                        // 全体の横幅を制限
-                        crossAxisAlignment: CrossAxisAlignment.stretch,
-                        children: [
-                          const SizedBox(height: 40),
-                          // ギフトアイコン
-                          Center(
-                            child: AnimatedBuilder(
-                              animation: giftAnimationController,
+                  const SizedBox(height: 40),
+                  // ギフトアイコン
+                  AnimatedBuilder(
+                    animation: giftAnimationController,
+                    builder: (context, child) {
+                      return Transform.scale(
+                        scale: 1.0 + 0.1 * giftAnimationController.value,
+                        child: Icon(
+                          Icons.card_giftcard,
+                          size: 70,
+                          color: Colors.blue,
+                        ),
+                      );
+                    },
+                  ),
+                  const SizedBox(height: 15),
+                  Text(
+                    "🎉 Special Gift 🎉",
+                    style: TextStyle(
+                      fontSize: 32,
+                      fontWeight: FontWeight.bold,
+                      color: Theme.of(context).textTheme.bodyLarge?.color,
+                    ),
+                  ),
+                  const SizedBox(height: 15),
+                  Text(
+                    "試用期間が$promotionDayCount日間無料でプレゼントされます！",
+                    style: TextStyle(
+                      fontSize: 16,
+                      fontWeight: FontWeight.bold,
+                      color: Theme.of(context).textTheme.bodyMedium?.color,
+                    ),
+                    textAlign: TextAlign.center,
+                  ),
+                  const SizedBox(height: 25),
+                  // 星アイコンとレビューの説明
+                  Container(
+                    margin: const EdgeInsets.symmetric(horizontal: 20),
+                    padding: const EdgeInsets.symmetric(vertical: 20),
+                    decoration: BoxDecoration(
+                      color: Colors.white,
+                      borderRadius: BorderRadius.circular(20),
+                      boxShadow: [
+                        BoxShadow(
+                          color: Colors.grey.withOpacity(0.2),
+                          spreadRadius: 5,
+                          blurRadius: 10,
+                          offset: const Offset(0, 3),
+                        ),
+                      ],
+                    ),
+                    child: Column(
+                      children: [
+                        // 星5つのアイコン行を追加
+                        Row(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: List.generate(5, (index) {
+                            return AnimatedBuilder(
+                              animation: starAnimationController,
                               builder: (context, child) {
-                                return Transform.scale(
-                                  scale: 1.0 + 0.1 * giftAnimationController.value,
-                                  child: Icon(
-                                    Icons.card_giftcard,
-                                    size: 70,
-                                    color: Colors.blue,
+                                // インデックスが高いほど大きくアニメーションさせて注目を集める
+                                final scale = 1.0 + (0.1 + index * 0.02) * starAnimationController.value;
+                                return Padding(
+                                  padding: const EdgeInsets.symmetric(horizontal: 2),
+                                  child: Transform.scale(
+                                    scale: scale,
+                                    child: Icon(
+                                      Icons.star,
+                                      size: 30,
+                                      color: Colors.yellow,
+                                    ),
                                   ),
                                 );
                               },
-                            ),
-                          ),
-                          const SizedBox(height: 15),
-                          Center(
-                            child: Text(
-                              "🎉 Special Gift 🎉",
-                              style: TextStyle(
-                                fontSize: 32,
-                                fontWeight: FontWeight.bold,
-                                color: Theme.of(context).textTheme.bodyLarge?.color,
-                              ),
-                            ),
-                          ),
-                          const SizedBox(height: 15),
-                          Padding(
-                            padding: const EdgeInsets.symmetric(horizontal: 16),
-                            child: Text(
-                              "試用期間が$promotionDayCount日間無料でプレゼントされます！",
-                              style: TextStyle(
-                                fontSize: 16,
-                                fontWeight: FontWeight.bold,
-                                color: Theme.of(context).textTheme.bodyMedium?.color,
-                              ),
-                              textAlign: TextAlign.center,
-                            ),
-                          ),
-                          const SizedBox(height: 25),
-                          // 星アイコンとレビューの説明
-                          Container(
-                            margin: const EdgeInsets.symmetric(horizontal: 20),
-                            padding: const EdgeInsets.symmetric(vertical: 20, horizontal: 10),
-                            decoration: BoxDecoration(
-                              color: Colors.white,
-                              borderRadius: BorderRadius.circular(20),
-                              boxShadow: [
-                                BoxShadow(
-                                  color: Colors.grey.withOpacity(0.2),
-                                  spreadRadius: 5,
-                                  blurRadius: 10,
-                                  offset: const Offset(0, 3),
-                                ),
-                              ],
-                            ),
-                            child: Column(
-                              crossAxisAlignment: CrossAxisAlignment.center,
-                              children: [
-                                // 星5つのアイコン行を追加
-                                Wrap(
-                                  alignment: WrapAlignment.center,
-                                  spacing: 4,
-                                  children: List.generate(5, (index) {
-                                    return AnimatedBuilder(
-                                      animation: starAnimationController,
-                                      builder: (context, child) {
-                                        // インデックスが高いほど大きくアニメーションさせて注目を集める
-                                        final scale = 1.0 + (0.1 + index * 0.02) * starAnimationController.value;
-                                        return Transform.scale(
-                                          scale: scale,
-                                          child: Icon(
-                                            Icons.star,
-                                            size: 30,
-                                            color: Colors.yellow,
-                                          ),
-                                        );
-                                      },
-                                    );
-                                  }),
-                                ),
-                                const SizedBox(height: 20),
-                                AnimatedBuilder(
-                                  animation: starAnimationController,
-                                  builder: (context, child) {
-                                    return Transform.scale(
-                                      scale: 1.0 + 0.15 * starAnimationController.value,
-                                      child: Icon(
-                                        Icons.star,
-                                        size: 50,
-                                        color: Colors.yellow,
-                                      ),
-                                    );
-                                  },
-                                ),
-                                const SizedBox(height: 20),
-                                FittedBox(
-                                  fit: BoxFit.scaleDown,
-                                  child: Text(
-                                    "Focusへようこそ！",
-                                    style: TextStyle(
-                                      fontSize: 20,
-                                      fontWeight: FontWeight.bold,
-                                      color: Colors.black,
-                                    ),
-                                    textAlign: TextAlign.center,
-                                  ),
-                                ),
-                                const SizedBox(height: 20),
-                                Padding(
-                                  padding: const EdgeInsets.symmetric(horizontal: 12),
-                                  child: Text(
-                                    "App Storeで★5つの評価とレビューを書いて\n$promotionDayCount日間プレミアム機能を無料でお試しください！",
-                                    style: TextStyle(
-                                      fontSize: 16,
-                                      fontWeight: FontWeight.bold,
-                                      color: Colors.black,
-                                    ),
-                                    textAlign: TextAlign.center,
-                                    softWrap: true,
-                                    overflow: TextOverflow.visible,
-                                  ),
-                                ),
-                                const SizedBox(height: 12),
-                                Padding(
-                                  padding: const EdgeInsets.symmetric(horizontal: 12),
-                                  child: Text(
-                                    "あなたの★5つ評価は開発者の大きな励みになります。\nより良いアプリづくりのため、応援よろしくお願いします！",
-                                    style: TextStyle(
-                                      fontSize: 14,
-                                      color: Colors.black87,
-                                    ),
-                                    textAlign: TextAlign.center,
-                                    softWrap: true,
-                                    overflow: TextOverflow.visible,
-                                  ),
-                                ),
-                              ],
-                            ),
-                          ),
-                          Padding(
-                            padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
-                            child: Text(
-                              "自動課金はされません。試用期間終了後は自動的に無料プランに戻ります。",
-                              style: TextStyle(
-                                fontSize: 12,
-                                color: Colors.grey,
-                              ),
-                              textAlign: TextAlign.center,
-                              softWrap: true,
-                            ),
-                          ),
-                          // コンテンツの下部に余白を追加
-                          const Padding(
-                            padding: EdgeInsets.symmetric(horizontal: 16),
-                            child: PremiumFeatures(),
-                          ),
-                          const SizedBox(height: 40),
-                        ],
-                      ),
-                    ),
-                  ),
-                  // 下部のボタン部分
-                  Container(
-                    padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 15),
-                    child: Column(
-                      mainAxisSize: MainAxisSize.min,
-                      children: [
-                        PromotionStartButton(
-                          canStartPromotion: canStartPromotion.value,
-                          onShowAppStoreAlert: () {
-                            showAppStoreAlert.value = true;
-                          },
-                          onStartPromotion: startPromotion,
+                            );
+                          }),
                         ),
-                        const SizedBox(height: 10),
-                        PromotionStartCancelButton(onCancel: onCancel),
-                        const SizedBox(height: 10),
+                        const SizedBox(height: 20),
+                        AnimatedBuilder(
+                          animation: starAnimationController,
+                          builder: (context, child) {
+                            return Transform.scale(
+                              scale: 1.0 + 0.15 * starAnimationController.value,
+                              child: Icon(
+                                Icons.star,
+                                size: 50,
+                                color: Colors.yellow,
+                              ),
+                            );
+                          },
+                        ),
+                        const SizedBox(height: 20),
+                        Text(
+                          "Focusへようこそ！",
+                          style: TextStyle(
+                            fontSize: 20,
+                            fontWeight: FontWeight.bold,
+                            color: Colors.black,
+                          ),
+                          textAlign: TextAlign.center,
+                        ),
+                        const SizedBox(height: 20),
+                        Padding(
+                          padding: const EdgeInsets.symmetric(horizontal: 20),
+                          child: Text(
+                            "App Storeで★5つの評価とレビューを書いて\n$promotionDayCount日間プレミアム機能を無料でお試しください！",
+                            style: TextStyle(
+                              fontSize: 16,
+                              fontWeight: FontWeight.bold,
+                              color: Colors.black,
+                            ),
+                            textAlign: TextAlign.center,
+                          ),
+                        ),
+                        const SizedBox(height: 12),
+                        Padding(
+                          padding: const EdgeInsets.symmetric(horizontal: 16),
+                          child: Text(
+                            "あなたの★5つ評価は開発者の大きな励みになります。\nより良いアプリづくりのため、応援よろしくお願いします！",
+                            style: TextStyle(
+                              fontSize: 14,
+                              color: Colors.black87,
+                            ),
+                            textAlign: TextAlign.center,
+                          ),
+                        ),
                       ],
                     ),
                   ),
+                  Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
+                    child: Text(
+                      "自動課金はされません。試用期間終了後は自動的に無料プランに戻ります。",
+                      style: TextStyle(
+                        fontSize: 12,
+                        color: Colors.grey,
+                      ),
+                      textAlign: TextAlign.center,
+                    ),
+                  ),
+                  const Spacer(),
+                  Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 15),
+                    child: PromotionStartButton(
+                      canStartPromotion: canStartPromotion.value,
+                      onShowAppStoreAlert: () {
+                        showAppStoreAlert.value = true;
+                      },
+                      onStartPromotion: startPromotion,
+                    ),
+                  ),
+                  PromotionStartCancelButton(onCancel: onCancel),
+                  const SizedBox(height: 40),
                 ],
               ),
             ),
@@ -380,26 +343,23 @@ class PromotionStartButton extends StatelessWidget {
         shape: const StadiumBorder(),
         padding: const EdgeInsets.symmetric(vertical: 16),
       ),
-      child: FittedBox(
-        fit: BoxFit.scaleDown,
-        child: Row(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Icon(
-              canStartPromotion ? Icons.card_giftcard : Icons.rate_review,
+      child: Row(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          Icon(
+            canStartPromotion ? Icons.card_giftcard : Icons.rate_review,
+            color: Colors.white,
+          ),
+          const SizedBox(width: 8),
+          Text(
+            canStartPromotion ? "報酬を受け取る" : "★5つの評価を書く",
+            style: TextStyle(
               color: Colors.white,
+              fontWeight: FontWeight.bold,
+              fontSize: 16,
             ),
-            const SizedBox(width: 8),
-            Text(
-              canStartPromotion ? "報酬を受け取る" : "★5つの評価を書く",
-              style: TextStyle(
-                color: Colors.white,
-                fontWeight: FontWeight.bold,
-                fontSize: 16,
-              ),
-            ),
-          ],
-        ),
+          ),
+        ],
       ),
     );
   }
