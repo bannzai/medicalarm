@@ -35,7 +35,7 @@ AppUserCreate appUserCreate(AppUserCreateRef ref) {
 }
 
 class AppUserCreateResolver extends HookConsumerWidget {
-  final Widget Function(BuildContext) builder;
+  final Widget Function(BuildContext, AppUser) builder;
 
   const AppUserCreateResolver({super.key, required this.builder});
 
@@ -53,7 +53,7 @@ class AppUserCreateResolver extends HookConsumerWidget {
       retry: () => ref.invalidate(appUserProvider),
       child: () {
         return appUser.when(
-          data: (appUser) => builder(context),
+          data: (appUser) => builder(context, appUser),
           error: (e, st) => RetryPage(
             exception: e,
           ),

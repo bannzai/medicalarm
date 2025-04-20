@@ -11,9 +11,11 @@ import 'package:medicalarm/utils/purchase/purchase.dart';
 
 class PromotionStartResolver extends HookConsumerWidget {
   final AppUser appUser;
+  final WidgetBuilder builder;
   const PromotionStartResolver({
     super.key,
     required this.appUser,
+    required this.builder,
   });
 
   @override
@@ -64,6 +66,6 @@ class PromotionStartResolver extends HookConsumerWidget {
       );
     }
 
-    return const SizedBox.shrink(); // 透明なウィジェットを返す
+    return builder(context);
   }
 }

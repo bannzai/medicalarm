@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:medicalarm/features/home/page.dart';
 import 'package:medicalarm/features/localization/resolver.dart';
+import 'package:medicalarm/features/promotion_start/resolver.dart';
 import 'package:medicalarm/features/resolver/app_entity_prepare.dart';
 import 'package:medicalarm/features/resolver/app_user.dart';
 import 'package:medicalarm/features/resolver/app_user_create.dart';
@@ -25,7 +26,7 @@ class RootPage extends HookConsumerWidget {
             user: user,
             builder: (context) {
               debugPrint('Resolved: UserDatabaseResolver');
-              return AppUserCreateResolver(builder: (context) {
+              return AppUserCreateResolver(builder: (context, appUser) {
                 debugPrint('Resolved: AppUserCreateResolver');
                 return ForceUpdateResolver(builder: (context) {
                   debugPrint('Resolved: ForceUpdateResolver');
@@ -37,13 +38,18 @@ class RootPage extends HookConsumerWidget {
                         userID: user.uid,
                         builder: (context) {
                           debugPrint('Resolved: AppEntityPrepareResolver');
-                          return Stack(
-                            children: [
-                              const InAppReviewResolver(),
-                              AppUserStreamResolver(stream: (user) => analyticsDebugIsEnabled = user.analyticsDebugIsEnabled),
-                              const HomePage(),
-                            ],
-                          );
+                          return PromotionStartResolver(
+                              appUser: appUser,
+                              builder: (context) {
+                                debugPrint('Resolved: PromotionStartResolver');
+                                return Stack(
+                                  children: [
+                                    const InAppReviewResolver(),
+                                    AppUserStreamResolver(stream: (user) => analyticsDebugIsEnabled = user.analyticsDebugIsEnabled),
+                                    const HomePage(),
+                                  ],
+                                );
+                              });
                         },
                       );
                     },
