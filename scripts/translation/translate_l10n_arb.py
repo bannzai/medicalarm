@@ -7,7 +7,7 @@ from openai import OpenAI
 client = OpenAI()
 client.organization = os.environ.get("OPENAI_ORGANIZATION")
 client.api_key = os.environ.get("OPENAI_API_KEY")
-model = "gpt-4o-2024-08-06"
+model = "gpt-4.1-mini"
 
 # Directory containing .arb files
 arb_directory = os.environ.get("L10N_DIR")

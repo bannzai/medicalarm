@@ -98,7 +98,7 @@ def translate_text(ja_text, lang, content_type, char_limit, content_type_note):
 
     try:
         response = client.responses.create(
-            model="gpt-4o-2024-08-06",
+            model="gpt-4.1-mini",
             input=[
                 {
                     "role": "system",
