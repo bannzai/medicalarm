@@ -125,7 +125,7 @@ def translate_text(ja_text, lang, content_type, char_limit, content_type_note):
                 """
 
             response = client.chat.completions.create(
-                model="gpt-4o-mini",
+                model="gpt-4.1-mini",
                 messages=[
                     {
                         "role": "user",
@@ -176,7 +176,7 @@ def main():
     print(f"Translation started at: {start_date}")
 
     # 生成前に存在していないファイルの一覧を出力
-    non_existent_files = [] 
+    non_existent_files = []
     for lang in LANGS:
         lang_dir = os.path.join(FASTLANE_METADATA_DIR, lang)
         for content_type, text in INPUT_TEXT.items():
