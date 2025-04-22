@@ -1,10 +1,10 @@
 import json
 import os
+from openai import OpenAI
 
-import openai
-
-openai.organization = os.environ.get("OPENAI_ORGANIZATION")
-openai.api_key = os.environ.get("OPENAI_API_KEY")
+client = OpenAI()
+client.organization = os.environ.get("OPENAI_ORGANIZATION")
+client.api_key = os.environ.get("OPENAI_API_KEY")
 
 langs = [
     "ar-SA",
@@ -47,55 +47,61 @@ langs = [
 
 
 def translate_text(target_lang, ja_text):
-    translated_app_store_description = [
-        {
-            "name": "translated_app_store_description",
-            "description": f"""
-                薬の飲み忘れの不安をなくす服薬管理モバイルアプリ・Medicalarmの開発をしています。
-                服薬の服用時刻にリマインド、服用履歴の管理・マナーモードでも届く通知機能を兼ね備えたアプリになっています。
-                このアプリでローカライズをしたいです。AppStore上に表示するアプリ紹介のためのデスクリプションを翻訳したいです。
-                指定された言語が使われている文化圏に相応しいMedicalarmのアプリ上で表示するための翻訳を返してください。
-                """,
-            "parameters": {
-                "type": "object",
-                "properties": {
-                    "text": {
-                        "type": "string",
-                        "description": "Translated release note on the App Store for {target_lang}",
-                    },
+    schema = {
+        "type": "object",
+        "properties": {
+            "text": {
+                "type": "string",
+                "description": f"Translated description on the App Store for {target_lang}",
+            }
+        },
+        "required": ["text"],
+        "additionalProperties": False,
+    }
+
+    try:
+        response = client.responses.create(
+            model="gpt-4o-2024-08-06",
+            input=[
+                {
+                    "role": "system",
+                    "content": f"""
+                        薬の飲み忘れの不安をなくす服薬管理モバイルアプリ・Medicalarmの開発をしています。
+                        服薬の服用時刻にリマインド、服用履歴の管理・マナーモードでも届く通知機能を兼ね備えたアプリになっています。
+                        このアプリでローカライズをしたいです。AppStore上に表示するアプリ紹介のためのデスクリプションを翻訳したいです。
+                        指定された言語が使われている文化圏に相応しいMedicalarmのアプリ上で表示するための翻訳を返してください。
+                    """,
                 },
-                "required": ["text"],
+                {
+                    "role": "user",
+                    "content": f"""
+                    AppStoreに表示されるリリースノートを `{target_lang}` に翻訳してください。
+                    `{target_lang}` はBCP 47言語コードにマッチしています。
+
+                    日本語のストアデスクリプションです
+                    -------
+                    {ja_text}
+                    --------
+                    """,
+                },
+            ],
+            text={
+                "format": {
+                    "type": "json_schema",
+                    "name": "translated_app_store_description",
+                    "schema": schema,
+                    "strict": True,
+                }
             },
-        }
-    ]
+        )
 
-    response = openai.chat.completions.create(
-        model="gpt-4o-mini",
-        messages=[
-            {
-                "role": "user",
-                "content": f"""
-             AppStoreに表示されるリリースノートを `{target_lang}` に翻訳してください。
-             `{target_lang}` はBCP 47言語コードにマッチしています。
+        if response.status == "completed":
+            result = json.loads(response.output_text)
+            return result["text"]
 
-             日本語のストアデスクリプションです
-             -------
-             {ja_text}
-             --------
-             """,
-            },
-        ],
-        max_tokens=10000,
-        n=1,
-        stop=None,
-        functions=translated_app_store_description,
-        function_call={"name": "translated_app_store_description"},
-    )
-
-    message = response.choices[0].message
-    if message.function_call:
-        arguments = json.loads(message.function_call.arguments)
-        return arguments["text"]
+    except Exception as e:
+        print(f"Error during translation: {e}")
+        return None
 
 
 def translate_with_retry(i, lang, ja_text):

@@ -1,10 +1,10 @@
 import json
 import os
+from openai import OpenAI
 
-import openai
-
-openai.organization = os.environ.get("OPENAI_ORGANIZATION")
-openai.api_key = os.environ.get("OPENAI_API_KEY")
+client = OpenAI()
+client.organization = os.environ.get("OPENAI_ORGANIZATION")
+client.api_key = os.environ.get("OPENAI_API_KEY")
 
 langs = [
     "ar-SA",
@@ -73,55 +73,53 @@ def create_lang_directory(lang):
 
 
 def translate_text(target_lang, text):
-    translated_localization_strings = [
-        {
-            "name": "translated_localization_strings",
-            # 飲み忘れの不安をなくす服薬管理モバイルアプリ・Medicalarmの開発をしています。
-            # 服薬の服用時刻にリマインド、服用履歴の管理・マナーモードでも届く通知機能を兼ね備えたアプリになっています。
-            # このアプリでローカライズをしたいです。
-            # 指定された言語が使われている文化圏に相応しいMedicalarmのアプリ上で表示するための翻訳を返してください。
-            # この文言はAppStore上に出るスクリーンショットで短いキャッチコピーとして使われます
-            "description": f"""
-            We are developing Medicalarm, a medication management mobile app that eliminates the anxiety of forgetting to take your meds. The app features medication time reminders, medication history tracking, and notifications that work even in silent mode.
-            We aim to localize this app.
-            Please provide translations for display on the Medicalarm app that are appropriate for the cultural context of the specified language. These phrases will be used as short, catchy copy on AppStore screenshots.
-            Please translation to `{target_lang}`. `{target_lang}` matches the BCP 47 language code.
-            """,
-            "parameters": {
-                "type": "object",
-                "properties": {
-                    "text": {
-                        "type": "string",
-                        "description": f"Translated App Store screenshot slogan for {target_lang}",
-                    },
+    schema = {
+        "type": "object",
+        "properties": {
+            "text": {
+                "type": "string",
+                "description": f"Translated App Store screenshot slogan for {target_lang}",
+            }
+        },
+        "required": ["text"],
+        "additionalProperties": False,
+    }
+
+    try:
+        response = client.responses.create(
+            model="gpt-4o-2024-08-06",
+            input=[
+                {
+                    "role": "system",
+                    "content": f"""
+                    We are developing Medicalarm, a medication management mobile app that eliminates the anxiety of forgetting to take your meds. The app features medication time reminders, medication history tracking, and notifications that work even in silent mode.
+                    We aim to localize this app.
+                    Please provide translations for display on the Medicalarm app that are appropriate for the cultural context of the specified language. These phrases will be used as short, catchy copy on AppStore screenshots.
+                    Please translation to `{target_lang}`. `{target_lang}` matches the BCP 47 language code.
+                    """,
                 },
-                "required": ["text"],
+                {
+                    "role": "user",
+                    "content": f"Please translate {text} to {target_lang}. {target_lang} matches the BCP 47 language code.",
+                },
+            ],
+            text={
+                "format": {
+                    "type": "json_schema",
+                    "name": "translated_localization_strings",
+                    "schema": schema,
+                    "strict": True,
+                }
             },
-        }
-    ]
+        )
 
-    response = openai.chat.completions.create(
-        model="gpt-4o",
-        messages=[
-            {
-                "role": "user",
-                "content": f"""
-             Please translate {text} to {target_lang}.
-             {target_lang} matches the BCP 47 language code.
-             """,
-            },
-        ],
-        max_tokens=100,
-        n=1,
-        stop=None,
-        functions=translated_localization_strings,
-        function_call={"name": "translated_localization_strings"},
-    )
+        if response.status == "completed":
+            result = json.loads(response.output_text)
+            return result
 
-    message = response.choices[0].message
-    if message.function_call:
-        arguments = json.loads(message.function_call.arguments)
-        return arguments
+    except Exception as e:
+        print(f"Error during translation: {e}")
+        return None
 
 
 def translate_with_retry(i, lang, title, subtitle, index):

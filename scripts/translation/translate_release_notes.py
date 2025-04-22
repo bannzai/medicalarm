@@ -1,10 +1,10 @@
 import json
 import os
+from openai import OpenAI
 
-import openai
-
-openai.organization = os.environ.get("OPENAI_ORGANIZATION")
-openai.api_key = os.environ.get("OPENAI_API_KEY")
+client = OpenAI()
+client.organization = os.environ.get("OPENAI_ORGANIZATION")
+client.api_key = os.environ.get("OPENAI_API_KEY")
 
 langs = [
     "ar-SA",
@@ -51,55 +51,61 @@ langs = [
 # このアプリでローカライズをしたいです。AppStore上に表示するリリースノートを翻訳したいです
 # 指定された言語が使われている文化圏に相応しいMedicalarmのアプリ上で表示するための翻訳を返してください。
 def translate_text(target_lang, ja_text):
-    translated_app_store_release_note = [
-        {
-            "name": "translated_app_store_release_note",
-            "description": f"""
-                飲み忘れの不安をなくす服薬管理モバイルアプリ・Medicalarmの開発をしています。
-                服薬の服用時刻にリマインド、服用履歴の管理・マナーモードでも届く通知機能を兼ね備えたアプリになっています。
-                このアプリでローカライズをしたいです。AppStore上に表示するリリースノートを翻訳したいです
-                指定された言語が使われている文化圏に相応しいMedicalarmのアプリ上で表示するための翻訳を返してください。
-            """,
-            "parameters": {
-                "type": "object",
-                "properties": {
-                    "text": {
-                        "type": "string",
-                        "description": "Translated release note on the App Store for {target_lang}",
-                    },
+    schema = {
+        "type": "object",
+        "properties": {
+            "text": {
+                "type": "string",
+                "description": f"Translated release note on the App Store for {target_lang}",
+            }
+        },
+        "required": ["text"],
+        "additionalProperties": False,
+    }
+
+    try:
+        response = client.responses.create(
+            model="gpt-4o-2024-08-06",
+            input=[
+                {
+                    "role": "system",
+                    "content": f"""
+                        飲み忘れの不安をなくす服薬管理モバイルアプリ・Medicalarmの開発をしています。
+                        服薬の服用時刻にリマインド、服用履歴の管理・マナーモードでも届く通知機能を兼ね備えたアプリになっています。
+                        このアプリでローカライズをしたいです。AppStore上に表示するリリースノートを翻訳したいです
+                        指定された言語が使われている文化圏に相応しいMedicalarmのアプリ上で表示するための翻訳を返してください。
+                    """,
                 },
-                "required": ["text"],
+                {
+                    "role": "user",
+                    "content": f"""
+                    `{target_lang}` はBCP 47言語コードです。
+                    日本語のリリースノートを `{target_lang}` に翻訳してください。
+
+                    日本語のリリースノートです
+                    -------
+                    {ja_text}
+                    --------
+                    """,
+                },
+            ],
+            text={
+                "format": {
+                    "type": "json_schema",
+                    "name": "translated_app_store_release_note",
+                    "schema": schema,
+                    "strict": True,
+                }
             },
-        }
-    ]
+        )
 
-    response = openai.chat.completions.create(
-        model="gpt-4o-mini",
-        messages=[
-            {
-                "role": "user",
-                "content": f"""
-             `{target_lang}` はBCP 47言語コードです。
-             日本語のリリースノートを `{target_lang}` に翻訳してください。
+        if response.status == "completed":
+            result = json.loads(response.output_text)
+            return result["text"]
 
-             日本語のリリースノートです
-             -------
-             {ja_text}
-             --------
-             """,
-            },
-        ],
-        max_tokens=10000,
-        n=1,
-        stop=None,
-        functions=translated_app_store_release_note,
-        function_call={"name": "translated_app_store_release_note"},
-    )
-
-    message = response.choices[0].message
-    if message.function_call:
-        arguments = json.loads(message.function_call.arguments)
-        return arguments["text"]
+    except Exception as e:
+        print(f"Error during translation: {e}")
+        return None
 
 
 def translate_with_retry(i, lang, ja_text):
@@ -117,16 +123,21 @@ def translate_with_retry(i, lang, ja_text):
         return translate_with_retry(i + 1, lang, ja_text)
 
 
-
 FASTLANE_METADATA_DIR = os.environ.get("FASTLANE_METADATA_DIR", "fastlane/metadata")
 
+
 def read_ja():
-    with open(os.path.join(FASTLANE_METADATA_DIR, "ja", "release_notes.txt"), "r") as file:
+    with open(
+        os.path.join(FASTLANE_METADATA_DIR, "ja", "release_notes.txt"), "r"
+    ) as file:
         return file.read()
 
 
 def file_is_exists(lang):
-    return os.path.isfile(os.path.join(FASTLANE_METADATA_DIR, lang, "release_notes.txt"))
+    return os.path.isfile(
+        os.path.join(FASTLANE_METADATA_DIR, lang, "release_notes.txt")
+    )
+
 
 ja_text = read_ja()
 for lang in langs:
