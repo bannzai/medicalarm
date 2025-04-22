@@ -84,77 +84,59 @@ def create_deliver_structure():
 # {content_type}の翻訳の注意点です: {content_type_note}
 # 指定された言語が使われている文化圏に相応しいMedicalarmのアプリ上で表示するための翻訳を返してください。
 def translate_text(ja_text, lang, content_type, char_limit, content_type_note):
-    translated_app_store_metadata = [
-        {
-            "name": "translated_app_store_metadata",
-            "description": f"""
-                薬の飲み忘れの不安をなくす服薬管理モバイルアプリ・Medicalarmの開発をしています。
-                服薬の服用時刻にリマインド、服用履歴の管理・マナーモードでも届く通知機能を兼ね備えたアプリになっています。
-                このアプリでローカライズをしたいです。AppStoreで設定するASOのためのメタデータを翻訳したいです。
-                {content_type}の翻訳をしてください。文字数は{char_limit}文字以内です。{lang}に翻訳してください。
-                {content_type}の翻訳の注意点です: {content_type_note}
-                指定された言語が使われている文化圏に相応しいMedicalarmのアプリ上で表示するための翻訳を返してください。
-            """,
-            "parameters": {
-                "type": "object",
-                "properties": {
-                    "text": {
-                        "type": "string",
-                        "description": "{lang}用のApp Store翻訳メタデータ",
-                    },
+    schema = {
+        "type": "object",
+        "properties": {
+            "text": {
+                "type": "string",
+                "description": f"{lang}用のApp Store翻訳メタデータ",
+            }
+        },
+        "required": ["text"],
+        "additionalProperties": False,
+    }
+
+    try:
+        response = client.responses.create(
+            model="gpt-4o-2024-08-06",
+            input=[
+                {
+                    "role": "system",
+                    "content": f"""
+                        薬の飲み忘れの不安をなくす服薬管理モバイルアプリ・Medicalarmの開発をしています。
+                        服薬の服用時刻にリマインド、服用履歴の管理・マナーモードでも届く通知機能を兼ね備えたアプリになっています。
+                        このアプリでローカライズをしたいです。AppStoreで設定するASOのためのメタデータを翻訳したいです。
+                        {content_type}の翻訳をしてください。文字数は{char_limit}文字以内です。{lang}に翻訳してください。
+                        {content_type}の翻訳の注意点です: {content_type_note}
+                        指定された言語が使われている文化圏に相応しいMedicalarmのアプリ上で表示するための翻訳を返してください。
+                    """,
                 },
-                "required": ["text"],
+                {"role": "user", "content": f"{ja_text}"},
+            ],
+            text={
+                "format": {
+                    "type": "json_schema",
+                    "name": "translated_app_store_metadata",
+                    "schema": schema,
+                    "strict": True,
+                }
             },
-        }
-    ]
-    previous_translation = None
-    for _ in range(RETRY_LIMIT):
-        try:
-            prompt_content = f"""
-                {lang} に翻訳してください。`{lang}` は BCP 47 の言語コードです
+        )
 
-                日本語の文章です
-                -------
-                {ja_text}
-                --------
-            """
-            if previous_translation:
-                prompt_content += f"""
-                前回の翻訳結果 {previous_translation}\n
-                この翻訳結果をもっと短くしたいので単語を削ってください
-                """
-
-            response = client.chat.completions.create(
-                model="gpt-4.1-mini",
-                messages=[
-                    {
-                        "role": "user",
-                        "content": prompt_content,
-                    },
-                ],
-                max_tokens=10000,
-                n=1,
-                stop=None,
-                functions=translated_app_store_metadata,
-                function_call={"name": "translated_app_store_metadata"},
+        if response.status == "completed":
+            result = json.loads(response.output_text)
+            translated_text = result["text"]
+            if len(translated_text) <= char_limit:
+                return translated_text
+            print(
+                f"Translation for {lang} {content_type} exceeds character limit. Retrying..."
             )
-
-            message = response.choices[0].message
-            if message.function_call:
-                arguments = json.loads(message.function_call.arguments)
-                text = arguments["text"]
-                print(f"Translated text: {text}")
-                if len(text) <= char_limit:
-                    return text
-                else:
-                    print(
-                        f"Translation for {lang} {content_type} exceeds character limit. Retrying..."
-                    )
-                    previous_translation = text
-
-        except Exception as e:
-            print(f"Error during translation for {lang} {content_type}: {e}")
             return None
+
+    except Exception as e:
+        print(f"Error during translation for {lang} {content_type}: {e}")
+        return None
+
     return None
 
 
