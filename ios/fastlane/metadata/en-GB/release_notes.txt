@@ -1,1 +1,1 @@
-We have released the "App Restriction Group" feature that allows you to group application restrictions. You can now choose App Restriction Groups based on different restriction methods. Additionally, two new options have been added for specifying App Restriction Groups: "Restrict Selected Apps" and "Restrict Unselected Apps." With this option, managing your App Restriction Groups becomes even easier.
+- Fixed an issue where the days of the week could not be saved for medication frequency.
