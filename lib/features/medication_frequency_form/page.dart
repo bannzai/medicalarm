@@ -186,8 +186,20 @@ class MedicationFrequencyFormPage extends HookConsumerWidget {
                           padding: const EdgeInsets.symmetric(horizontal: 12.0),
                           child: ElevatedButton(
                             onPressed: () {
-                              this.frequency.value = frequency.value;
-                              Navigator.pop(context);
+                              switch (frequency.value) {
+                                case DailyMedicationFrequency():
+                                  this.frequency.value = frequency.value;
+                                  Navigator.pop(context);
+                                case EveryXDaysMedicationFrequency():
+                                  this.frequency.value = frequency.value;
+                                  Navigator.pop(context);
+                                case SpecificWeekdaysMedicationFrequency():
+                                  this.frequency.value = MedicationFrequency.specificWeekdays(weekdays: weekdays.value);
+                                  Navigator.pop(context);
+                                case CycleMedicationFrequency():
+                                  this.frequency.value = frequency.value;
+                                  Navigator.pop(context);
+                              }
                             },
                             child: Text(L.save),
                           ),
