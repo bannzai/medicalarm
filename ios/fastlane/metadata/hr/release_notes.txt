@@ -1,1 +1,1 @@
-Objavili smo funkciju "Grupiranje ograničenja aplikacija" koja omogućava grupisanje ograničenja aplikacija. Sada možete odabrati grupu ograničenja aplikacija po načinu ograničenja. Takođe, dodate su mogućnosti "Ograničavanje odabranih aplikacija" i "Ograničavanje neodabranih aplikacija" za način određivanja grupe ograničenja aplikacija. Ova opcija olakšava upravljanje grupom ograničenja aplikacija.
+- Ispravljen je problem zbog kojeg se dani u tjednu nisu mogli spremiti prema učestalosti uzimanja lijekova.

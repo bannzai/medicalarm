@@ -1,1 +1,1 @@
-Vi har frigivet en funktion til "Appbegrænsningsgrupper", som gør det muligt at gruppere appbegrænsninger. Du kan vælge en appbegrænsningsgruppe baseret på, hvordan begrænsningerne anvendes. Derudover er der blevet tilføjet to nye metoder til at specificere appbegrænsningsgruppen: "Begræns valgte apps" og "Begræns ikke valgte apps". Med denne mulighed bliver det lettere at administrere dine appbegrænsningsgrupper.
+- Rettede et problem, hvor ugedage ikke kunne gemmes baseret på medicinens doseringsfrekvens.

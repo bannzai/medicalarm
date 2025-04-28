@@ -1,1 +1,1 @@
-Elindítottuk az "Alkalmazáskorlátozás-csoport" funkciót, amely lehetővé teszi az alkalmazáskorlátozások csoportosítását. Mostantól az alkalmazáskorlátozás-csoportokat a korlátozás módja szerint választhatja ki. Ezen kívül új lehetőségeket adtunk hozzá az alkalmazáskorlátozás-csoportok megadásához: "Korlátozott alkalmazások kiválasztása" és "Nem korlátozott alkalmazások kiválasztása". Ezzel a lehetőséggel sokkal könnyebbé válik az alkalmazáskorlátozás-csoportok kezelése.
+- Javítottuk a problémát, amely miatt a gyógyszeradagolás gyakorisága szerinti napok nem mentődtek el.

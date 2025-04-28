@@ -1,1 +1,1 @@
-Lançámos a funcionalidade "Grupo de Limitação de Aplicativos" que permite agrupar restrições de aplicativos. Agora é possível escolher um grupo de limitação de aplicativos com base em como as restrições são aplicadas. Além disso, foram adicionadas as opções "Limitar aplicativos selecionados" e "Limitar aplicativos não selecionados" para especificar o grupo de limitação de aplicativos. Com esta opção, será mais fácil gerenciar os grupos de limitação de aplicativos.
+- Corrigido um problema que impedia a gravação dos dias da semana para a frequência de toma de medicamentos.
