@@ -25,7 +25,7 @@ Medicalarmは薬の飲み忘れの不安をなくす。をコンセプトとし�
 - ValueNotifierのaddListenerは基本的にわかりづらいのでやらない。許容するケースは SharedPreferences と同期をしたい時
 - 関数、メソッドの引数は、{required} をつけましょう。引数ラベルがないとわかりづらいです
 
-### ケースうスタディ
+### ケーススタディ
 #### 一覧画面・マスター画面
 - 基本的にユースケースごとに Firestore からデータを取得するProviderを作成して、それをref.watchしてください
   * 参考画面: @lib/features/medicines/page.dart
