@@ -30,7 +30,9 @@ class PromotionStartResolver extends HookConsumerWidget {
     final remoteConfigParameter = ref.watch(remoteConfigParameterProvider);
     final promotionStartPageIsPresented = useState(customerInfo?.hasPremiumEntitlement != true &&
         promotionStartPageCancelButtonTappedDateTime.value.add(const Duration(days: 7)).isBefore(DateTime.now()) &&
-        appUser.maybeTrialDeadlineDate == null);
+        appUser.maybeTrialDeadlineDate == null &&
+        appUser.createdDateTime != null &&
+        appUser.createdDateTime!.add(const Duration(days: 1)).isBefore(DateTime.now()));
 
     if (promotionStartPageIsPresented.value) {
       return PromotionStartPage(
