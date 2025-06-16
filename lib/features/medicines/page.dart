@@ -9,6 +9,7 @@ import 'package:medicalarm/features/medicine_form/page.dart';
 import 'package:medicalarm/provider/medicine.dart';
 import 'package:medicalarm/style/color.dart';
 import 'package:medicalarm/features/localization/l.dart';
+import 'package:medicalarm/utils/analytics/analytics.dart';
 
 class MedicinesPage extends HookConsumerWidget {
   const MedicinesPage({super.key});
@@ -121,6 +122,7 @@ class MedicinesPageSection extends StatelessWidget {
           child: IconButton(
             padding: EdgeInsets.zero,
             onPressed: () {
+              analytics.logEvent(name: 'medicines_edit_pressed');
               showMedicineForm(context, medicine);
             },
             icon: const Icon(Icons.edit, size: 20),

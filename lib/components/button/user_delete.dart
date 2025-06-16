@@ -11,6 +11,7 @@ import 'package:medicalarm/features/localization/l.dart';
 import 'package:medicalarm/features/resolver/auth.dart';
 import 'package:medicalarm/style/color.dart';
 import 'package:medicalarm/utils/analytics/error.dart';
+import 'package:medicalarm/utils/analytics/analytics.dart';
 
 class DeleteUserButton extends HookConsumerWidget {
   const DeleteUserButton({super.key});
@@ -26,6 +27,7 @@ class DeleteUserButton extends HookConsumerWidget {
           alignment: Alignment.center,
           child: OutlinedButton(
             onPressed: () async {
+              analytics.logEvent(name: 'user_delete_btn_pressed');
               if (isLoading.value) {
                 return;
               }
@@ -49,6 +51,7 @@ class DeleteUserButton extends HookConsumerWidget {
                   ),
                   TextButton(
                     onPressed: () async {
+                      analytics.logEvent(name: 'user_delete_confirm_pressed');
                       if (!isLoading.value) {
                         isLoading.value = true;
                         await _delete(
@@ -110,6 +113,7 @@ class DeleteUserButton extends HookConsumerWidget {
             ),
             TextButton(
               onPressed: () async {
+                analytics.logEvent(name: 'user_delete_relogin_pressed');
                 final navigator = Navigator.of(context);
                 if (isAppleLinked) {
                   await appleReauthentification();
@@ -179,6 +183,7 @@ class _CompletedDialog extends StatelessWidget {
             width: 180,
             child: TextButton(
               onPressed: () async {
+                analytics.logEvent(name: 'user_delete_exit_pressed');
                 exit(0);
               },
               child: Text(

@@ -10,6 +10,7 @@ import 'package:medicalarm/theme/form.dart';
 import 'package:medicalarm/utils/date_time/weekday.dart';
 import 'package:medicalarm/features/localization/l.dart';
 import 'package:url_launcher/url_launcher.dart';
+import 'package:medicalarm/utils/analytics/analytics.dart';
 
 class MedicationFrequencyFormPage extends HookConsumerWidget {
   final ValueNotifier<MedicationFrequency> frequency;
@@ -51,6 +52,7 @@ class MedicationFrequencyFormPage extends HookConsumerWidget {
                                   title: Text(L.daily),
                                   trailing: frequency.value is DailyMedicationFrequency ? const Icon(Icons.check) : null,
                                   onTap: () {
+                                    analytics.logEvent(name: 'med_freq_daily_selected');
                                     frequency.value = const MedicationFrequency.daily();
                                   },
                                 ),
@@ -60,6 +62,7 @@ class MedicationFrequencyFormPage extends HookConsumerWidget {
                                   subtitle: Text(L.everyXDaysDescription),
                                   trailing: frequency.value is EveryXDaysMedicationFrequency ? const Icon(Icons.check) : null,
                                   onTap: () {
+                                    analytics.logEvent(name: 'med_freq_every_x_days_selected');
                                     frequency.value = const MedicationFrequency.everyXDays(interval: 1);
                                   },
                                 ),
@@ -69,6 +72,7 @@ class MedicationFrequencyFormPage extends HookConsumerWidget {
                                   subtitle: Text(L.specificWeekdaysDescription),
                                   trailing: frequency.value is SpecificWeekdaysMedicationFrequency ? const Icon(Icons.check) : null,
                                   onTap: () {
+                                    analytics.logEvent(name: 'med_freq_weekdays_selected');
                                     frequency.value = const MedicationFrequency.specificWeekdays(weekdays: Weekday.values);
                                   },
                                 ),
@@ -78,6 +82,7 @@ class MedicationFrequencyFormPage extends HookConsumerWidget {
                                   subtitle: Text(L.cycleDescription),
                                   trailing: frequency.value is CycleMedicationFrequency ? const Icon(Icons.check) : null,
                                   onTap: () {
+                                    analytics.logEvent(name: 'med_freq_cycle_selected');
                                     frequency.value = const MedicationFrequency.cycle(consecutiveDays: 21, restDays: 7);
                                   },
                                 ),
@@ -94,6 +99,7 @@ class MedicationFrequencyFormPage extends HookConsumerWidget {
                                       title: Text(L.everyXDaysFormat(frequencyValue.interval)),
                                       trailing: const Icon(Icons.chevron_right),
                                       onTap: () async {
+                                        analytics.logEvent(name: 'med_freq_interval_tap');
                                         final interval = await showModalBottomSheet<int>(
                                           context: context,
                                           useSafeArea: true,
@@ -122,6 +128,7 @@ class MedicationFrequencyFormPage extends HookConsumerWidget {
                                       title: Text(L.consecutiveDaysFormat(frequencyValue.consecutiveDays)),
                                       trailing: const Icon(Icons.chevron_right),
                                       onTap: () async {
+                                        analytics.logEvent(name: 'med_freq_consecutive_tap');
                                         final consecutiveDays = await showModalBottomSheet<int>(
                                           context: context,
                                           useSafeArea: true,
@@ -140,6 +147,7 @@ class MedicationFrequencyFormPage extends HookConsumerWidget {
                                       title: Text(L.restDaysFormat(frequencyValue.restDays)),
                                       trailing: const Icon(Icons.chevron_right),
                                       onTap: () async {
+                                        analytics.logEvent(name: 'med_freq_rest_days_tap');
                                         final restDays = await showModalBottomSheet<int>(
                                           context: context,
                                           useSafeArea: true,
@@ -172,6 +180,7 @@ class MedicationFrequencyFormPage extends HookConsumerWidget {
                                     ),
                                     trailing: const Icon(Icons.chevron_right),
                                     onTap: () {
+                                      analytics.logEvent(name: 'med_freq_pilll_install_tap');
                                       launchUrl(Uri.parse('https://apps.apple.com/jp/app/id1405931017'), mode: LaunchMode.externalApplication);
                                     },
                                   ),
@@ -186,6 +195,7 @@ class MedicationFrequencyFormPage extends HookConsumerWidget {
                           padding: const EdgeInsets.symmetric(horizontal: 12.0),
                           child: ElevatedButton(
                             onPressed: () {
+                              analytics.logEvent(name: 'med_freq_save_pressed');
                               switch (frequency.value) {
                                 case DailyMedicationFrequency():
                                   this.frequency.value = frequency.value;

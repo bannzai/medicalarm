@@ -9,6 +9,7 @@ import 'package:medicalarm/style/button.dart';
 import 'package:medicalarm/theme/form.dart';
 import 'package:medicalarm/utils/purchase/purchase.dart';
 import 'package:medicalarm/features/localization/l.dart';
+import 'package:medicalarm/utils/analytics/analytics.dart';
 
 class DoseReceiverFormPage extends HookConsumerWidget {
   final ValueNotifier<DoseReceiver?> doseReceiver;
@@ -103,6 +104,7 @@ class DoseReceiverTextField extends HookConsumerWidget {
             value: doseReceiver.id,
             groupValue: selectedDoseReceiver.value?.id,
             onChanged: (value) {
+              analytics.logEvent(name: 'dose_receiver_radio_selected');
               if (value != null) {
                 selectedDoseReceiver.value = doseReceiver;
               }
@@ -144,6 +146,7 @@ class DoseReceiverAddButton extends HookConsumerWidget {
           if (customerInfo?.hasPremiumEntitlement == false) ...[
             TextButton(
               onPressed: () {
+                analytics.logEvent(name: 'dose_rcvr_premium_btn_pressed');
                 showPremiumIntroductionSheet(context);
               },
               child: Text(
@@ -160,6 +163,7 @@ class DoseReceiverAddButton extends HookConsumerWidget {
         TextButton.icon(
           onPressed: doseReceivers.length < DoseReceiver.maxCount(hasPremiumEntitlement: customerInfo?.hasPremiumEntitlement)
               ? () {
+                  analytics.logEvent(name: 'dose_rcvr_add_btn_pressed');
                   doseReceiverAdd.call(name: L.newDoseReceiver);
                 }
               : null,
