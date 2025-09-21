@@ -6,9 +6,7 @@ import 'package:medicalarm/utils/alarm_kit_service.dart';
 import 'package:medicalarm/utils/analytics/analytics.dart';
 import 'package:medicalarm/utils/analytics/error.dart';
 import 'package:medicalarm/utils/date_time/date_time_ext.dart';
-import 'package:medicalarm/utils/shared_preferences/keys.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
-import 'package:shared_preferences/shared_preferences.dart';
 
 part 'medication_history.g.dart';
 
@@ -65,11 +63,7 @@ class MedicationHistoryTake {
     // 服用記録を保存
     await docRef.set(newMedicationHistory, SetOptions(merge: true));
 
-    // AlarmKitが有効な場合はアラームを停止
-    final sharedPreferences = await SharedPreferences.getInstance();
-    final useAlarmKit = sharedPreferences.getBool(BoolKey.useAlarmKit) ?? false;
-
-    if (useAlarmKit) {
+    if (medicationSchedule.notificationSetting.useAlarmKit) {
       try {
         await AlarmKitService.stopAllAlarms();
         analytics.debug(name: 'medication_history_take_alarm_kit_stopped');
