@@ -4,6 +4,7 @@ import 'package:medicalarm/components/button/inquiry.dart';
 import 'package:medicalarm/components/button/user_delete.dart';
 import 'package:medicalarm/features/settings/components/local_notifications.dart';
 import 'package:medicalarm/features/settings/components/premium_introduction.dart';
+import 'package:medicalarm/features/settings/components/rows/alarm_kit.dart';
 import 'package:medicalarm/features/settings/components/section.dart';
 import 'package:medicalarm/style/color.dart';
 import 'package:medicalarm/utils/analytics/analytics.dart';
@@ -24,6 +25,10 @@ class SettingPage extends StatelessWidget {
           children: [
             SettingSectionTitle(text: L.premiumPlan, children: const [
               PremiumIntroduction(),
+              _Divider(),
+            ]),
+            const SettingSectionTitle(text: '通知設定', children: [
+              AlarmKitSetting(),
               _Divider(),
             ]),
             SettingSectionTitle(text: L.aboutApp, children: [

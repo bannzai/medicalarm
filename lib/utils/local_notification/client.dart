@@ -7,11 +7,14 @@ import 'package:medicalarm/entity/medicine.dart';
 import 'package:medicalarm/features/medications/entity/grouped.dart';
 import 'package:medicalarm/provider/medication_history.dart';
 import 'package:medicalarm/provider/medicine.dart';
+import 'package:medicalarm/utils/alarm_kit_service.dart';
 import 'package:medicalarm/utils/analytics/analytics.dart';
 import 'package:medicalarm/utils/analytics/error.dart';
 import 'package:medicalarm/utils/date_time/date_time_ext.dart';
+import 'package:medicalarm/utils/shared_preferences/keys.dart';
 import 'package:medicalarm/features/localization/l.dart';
 import 'package:riverpod/riverpod.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 import 'package:timezone/data/latest_all.dart' as tz;
 import 'package:timezone/timezone.dart' as tz;
 import 'package:flutter_timezone/flutter_timezone.dart';
@@ -161,9 +164,14 @@ class RegisterReminderLocalNotification {
       ref.read(medicationHistoriesByDateProvider(today()).future),
     ).wait;
 
+    // AlarmKit使用判定
+    final sharedPreferences = await SharedPreferences.getInstance();
+    final useAlarmKit = sharedPreferences.getBool(BoolKey.useAlarmKit) ?? false;
+
     await run(
       medicines: medicines,
       medicationHistories: medicationHistories,
+      useAlarmKit: useAlarmKit,
       loopCount: 0,
     );
   }
@@ -172,6 +180,7 @@ class RegisterReminderLocalNotification {
   static Future<void> run({
     required List<Medicine> medicines,
     required List<MedicationHistory> medicationHistories,
+    required bool useAlarmKit,
     // NOTE: [LocalNotificationReminder] 例えば frequency が cycleで、consecutiveDaysよりも後ろで、restDaysの期間にいる場合の再評価が必要になる
     // ループをいっぱい回してfuturesが空にならない場合までを採用する。上限をloopCount==10としている
     required int loopCount,
@@ -254,6 +263,7 @@ class RegisterReminderLocalNotification {
           futures.add(
             Future(() async {
               try {
+                // Local Notificationを登録
                 await localNotificationService.plugin.zonedSchedule(
                   notificationID,
                   L.notificationTitle,
@@ -277,6 +287,29 @@ class RegisterReminderLocalNotification {
                   androidScheduleMode: AndroidScheduleMode.exactAllowWhileIdle,
                 );
 
+                // AlarmKitが有効な場合は並行してAlarmKitアラームも登録
+                if (useAlarmKit) {
+                  try {
+                    await AlarmKitService.scheduleMedicationReminder(
+                      localNotificationID: notificationID.toString(),
+                      title: message.trim(),
+                      reminderDateTime: reminderDateTime,
+                    );
+                    analytics.debug(name: 'rrrn_alarm_kit_reminder_registered', parameters: {
+                      'notificationID': notificationID,
+                      'message': message,
+                      'reminderDateTime': reminderDateTime,
+                    });
+                  } catch (e, st) {
+                    // AlarmKit登録に失敗してもLocal Notificationは継続
+                    errorLogger.recordError(e, st);
+                    analytics.debug(name: 'rrrn_alarm_kit_reminder_failed', parameters: {
+                      'notificationID': notificationID,
+                      'error': e.toString(),
+                    });
+                  }
+                }
+
                 analytics.debug(name: 'rrrn_reminder', parameters: {
                   'dayOffset': dayOffset,
                   'message': message,
@@ -284,6 +317,7 @@ class RegisterReminderLocalNotification {
                   'notificationID': notificationID,
                   'scheduleTimeHour': group.scheduleTime.hour,
                   'scheduleTimeMinute': group.scheduleTime.minute,
+                  'useAlarmKit': useAlarmKit,
                 });
               } catch (e, st) {
                 // NOTE: エラーが発生しても他の通知のスケジュールを続ける
@@ -319,11 +353,14 @@ class RegisterReminderLocalNotification {
           futures.add(
             Future(() async {
               try {
+                final followupDateTime = reminderDateTime.add(const Duration(minutes: 30));
+
+                // Local Notificationを登録
                 await localNotificationService.plugin.zonedSchedule(
                   notificationID,
                   L.notificationFollowupTitle,
                   message,
-                  reminderDateTime.add(const Duration(minutes: 30)),
+                  followupDateTime,
                   NotificationDetails(
                     iOS: DarwinNotificationDetails(
                       presentBadge: true,
@@ -342,6 +379,29 @@ class RegisterReminderLocalNotification {
                   androidScheduleMode: AndroidScheduleMode.exactAllowWhileIdle,
                 );
 
+                // AlarmKitが有効な場合は並行してAlarmKitアラームも登録
+                if (useAlarmKit) {
+                  try {
+                    await AlarmKitService.scheduleMedicationReminder(
+                      localNotificationID: notificationID.toString(),
+                      title: message.trim(),
+                      reminderDateTime: followupDateTime,
+                    );
+                    analytics.debug(name: 'rrrn_alarm_kit_followup_registered', parameters: {
+                      'notificationID': notificationID,
+                      'message': message,
+                      'followupDateTime': followupDateTime,
+                    });
+                  } catch (e, st) {
+                    // AlarmKit登録に失敗してもLocal Notificationは継続
+                    errorLogger.recordError(e, st);
+                    analytics.debug(name: 'rrrn_alarm_kit_followup_failed', parameters: {
+                      'notificationID': notificationID,
+                      'error': e.toString(),
+                    });
+                  }
+                }
+
                 analytics.debug(name: 'rrrn_followup', parameters: {
                   'dayOffset': dayOffset,
                   'message': message,
@@ -349,6 +409,7 @@ class RegisterReminderLocalNotification {
                   'notificationID': notificationID,
                   'scheduleTimeHour': group.scheduleTime.hour,
                   'scheduleTimeMinute': group.scheduleTime.minute,
+                  'useAlarmKit': useAlarmKit,
                 });
               } catch (e, st) {
                 // NOTE: エラーが発生しても他の通知のスケジュールを続ける
@@ -371,7 +432,7 @@ class RegisterReminderLocalNotification {
 
     if (futures.isEmpty) {
       // NOTE: [LocalNotificationReminder] 例えば frequency が cycleで、consecutiveDaysよりも後ろで、restDaysの期間にいる場合の再評価が必要になる
-      run(medicines: medicines, medicationHistories: medicationHistories, loopCount: loopCount + 1);
+      run(medicines: medicines, medicationHistories: medicationHistories, useAlarmKit: useAlarmKit, loopCount: loopCount + 1);
       return;
     }
     analytics.debug(name: 'rrrn_e_before_run', parameters: {
@@ -416,7 +477,26 @@ class CancelReminderLocalNotification {
       'length': pendingNotifications.length,
       'ids': pendingNotifications.map((e) => e.id).toList().toString(),
     });
+
+    // Local Notificationをキャンセル
     await Future.wait(pendingNotifications.map((p) => localNotificationService.cancelNotification(localNotificationID: p.id)));
+
+    // AlarmKitが有効な場合はAlarmKitアラームもキャンセル
+    final sharedPreferences = await SharedPreferences.getInstance();
+    final useAlarmKit = sharedPreferences.getBool(BoolKey.useAlarmKit) ?? false;
+
+    if (useAlarmKit) {
+      try {
+        await AlarmKitService.cancelAllMedicationReminders();
+        analytics.debug(name: 'cancel_alarm_kit_reminders_success');
+      } catch (e, st) {
+        // AlarmKitキャンセルに失敗してもLocal Notificationのキャンセルは成功しているので継続
+        errorLogger.recordError(e, st);
+        analytics.debug(name: 'cancel_alarm_kit_reminders_failed', parameters: {
+          'error': e.toString(),
+        });
+      }
+    }
   }
 }
 
