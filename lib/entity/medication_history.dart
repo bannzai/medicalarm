@@ -7,7 +7,7 @@ part 'medication_history.freezed.dart';
 part 'medication_history.g.dart';
 
 @freezed
-class MedicationHistory with _$MedicationHistory {
+abstract class MedicationHistory with _$MedicationHistory {
   const MedicationHistory._();
   @JsonSerializable(explicitToJson: true)
   const factory MedicationHistory({

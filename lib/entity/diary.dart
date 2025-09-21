@@ -10,7 +10,7 @@ abstract class DiaryFirestoreKey {
 }
 
 @freezed
-class Diary with _$Diary {
+abstract class Diary with _$Diary {
   @JsonSerializable(explicitToJson: true)
   factory Diary({
     required String id,

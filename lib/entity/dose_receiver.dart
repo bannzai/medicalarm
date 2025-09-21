@@ -9,7 +9,7 @@ part 'dose_receiver.freezed.dart';
 // [NOTE:DoseReceiver] DoseReceiver は削除不可にする。Medicine と 紐づいている。一覧表示のGroupBy処理時に DBに存在しない場合のことを考えると条件が大変になるからである
 // NOTE: [DoseReceiver:Exist] 必ず 1つ以上のDoseReceiverが存在する。AppEntityPrepareResolverで必ず存在するようにする
 @freezed
-class DoseReceiver with _$DoseReceiver {
+abstract class DoseReceiver with _$DoseReceiver {
   const DoseReceiver._();
   @JsonSerializable(explicitToJson: true)
   const factory DoseReceiver({
