@@ -4,12 +4,14 @@ import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:medicalarm/features/localization/l.dart';
 import 'package:medicalarm/features/medicine_form/components/section_layout.dart';
 import 'package:medicalarm/utils/local_notification/client.dart';
+import 'package:medicalarm/utils/alarm_kit_service.dart';
 
 class MedicineScheduleNotificationSettingSection extends HookConsumerWidget {
   final ValueNotifier<bool> isReminderEnabled;
   final ValueNotifier<bool> isFollowupEnabled;
   final ValueNotifier<bool> useCriticalAlert;
   final ValueNotifier<double> criticalAlertVolume;
+  final ValueNotifier<bool> useAlarmKit;
 
   const MedicineScheduleNotificationSettingSection({
     super.key,
@@ -17,12 +19,23 @@ class MedicineScheduleNotificationSettingSection extends HookConsumerWidget {
     required this.isFollowupEnabled,
     required this.useCriticalAlert,
     required this.criticalAlertVolume,
+    required this.useAlarmKit,
   });
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     // 親Componentで値の変化を監視しているので、UIが重くなるので、Internal stateを用意する
     final criticalAlertVolume = useState(this.criticalAlertVolume.value);
+    final isAlarmKitAvailable = useState<bool?>(null);
+
+    useEffect(() {
+      Future(() async {
+        final available = await AlarmKitService.isAvailable();
+        isAlarmKitAvailable.value = available;
+      });
+      return null;
+    }, []);
+
     return MedicineFormSectionLayout(
       icon: Icons.notifications,
       text: L.notificationSetting,
@@ -64,6 +77,26 @@ class MedicineScheduleNotificationSettingSection extends HookConsumerWidget {
           title: Text(L.enableNotificationInSilentMode),
           subtitle: Text(L.silentModeNotificationDescription),
         ),
+        if (isAlarmKitAvailable.value == true) ...[
+          SwitchListTile(
+            value: useAlarmKit.value,
+            onChanged: (value) async {
+              if (value) {
+                // AlarmKitの権限をリクエスト
+                final permission = await AlarmKitService.requestPermission();
+                if (permission) {
+                  useAlarmKit.value = value;
+                } else {
+                  useAlarmKit.value = false;
+                }
+              } else {
+                useAlarmKit.value = value;
+              }
+            },
+            title: const Text('AlarmKit使用'),
+            subtitle: const Text('iOS 26+で確実な通知表示（サイレントモード・フォーカスモード時も有効）'),
+          ),
+        ],
         const SizedBox(height: 10),
         Column(
           mainAxisAlignment: MainAxisAlignment.start,
