@@ -1,5 +1,5 @@
-// coverage:ignore-file
 // GENERATED CODE - DO NOT MODIFY BY HAND
+// coverage:ignore-file
 // ignore_for_file: type=lint
 // ignore_for_file: unused_element, deprecated_member_use, deprecated_member_use_from_same_package, use_function_type_syntax_for_parameters, unnecessary_const, avoid_init_to_null, invalid_override_different_default_values_named, prefer_expression_function_bodies, annotate_overrides, invalid_annotation_target, unnecessary_question_mark
 
@@ -9,50 +9,76 @@ part of 'medicine.dart';
 // FreezedGenerator
 // **************************************************************************
 
+// dart format off
 T _$identity<T>(T value) => value;
-
-final _privateConstructorUsedError = UnsupportedError(
-    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#adding-getters-and-methods-to-our-models');
-
-Medicine _$MedicineFromJson(Map<String, dynamic> json) {
-  return _Medicine.fromJson(json);
-}
 
 /// @nodoc
 mixin _$Medicine {
-  String get id => throw _privateConstructorUsedError;
-  String get userID => throw _privateConstructorUsedError;
-  String get name => throw _privateConstructorUsedError;
-  MedicationFrequency get frequency => throw _privateConstructorUsedError;
-  List<MedicationSchedule> get schedules => throw _privateConstructorUsedError;
-  DoseReceiver get doseReceiver => throw _privateConstructorUsedError;
-  String get memo => throw _privateConstructorUsedError;
-  String get memoImageURL => throw _privateConstructorUsedError;
+  String get id;
+  String get userID;
+  String get name;
+  MedicationFrequency get frequency;
+  List<MedicationSchedule> get schedules;
+  DoseReceiver get doseReceiver;
+  String get memo;
+  String get memoImageURL;
   @NullableTimestampConverter()
-  DateTime? get archivedDateTime => throw _privateConstructorUsedError;
+  DateTime? get archivedDateTime;
   @TimestampConverter()
-  DateTime get beganDateTime => throw _privateConstructorUsedError;
+  DateTime get beganDateTime;
   @ClientCreatedTimestamp()
-  DateTime? get createdDateTime => throw _privateConstructorUsedError;
+  DateTime? get createdDateTime;
   @ClientUpdatedTimestamp()
-  DateTime? get updatedDateTime => throw _privateConstructorUsedError;
+  DateTime? get updatedDateTime;
   @ServerCreatedTimestamp()
-  DateTime? get serverCreatedDateTime => throw _privateConstructorUsedError;
+  DateTime? get serverCreatedDateTime;
   @ServerUpdatedTimestamp()
-  DateTime? get serverUpdatedDateTime => throw _privateConstructorUsedError;
-
-  /// Serializes this Medicine to a JSON map.
-  Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
+  DateTime? get serverUpdatedDateTime;
 
   /// Create a copy of Medicine
   /// with the given fields replaced by the non-null parameter values.
   @JsonKey(includeFromJson: false, includeToJson: false)
-  $MedicineCopyWith<Medicine> get copyWith => throw _privateConstructorUsedError;
+  @pragma('vm:prefer-inline')
+  $MedicineCopyWith<Medicine> get copyWith => _$MedicineCopyWithImpl<Medicine>(this as Medicine, _$identity);
+
+  /// Serializes this Medicine to a JSON map.
+  Map<String, dynamic> toJson();
+
+  @override
+  bool operator ==(Object other) {
+    return identical(this, other) ||
+        (other.runtimeType == runtimeType &&
+            other is Medicine &&
+            (identical(other.id, id) || other.id == id) &&
+            (identical(other.userID, userID) || other.userID == userID) &&
+            (identical(other.name, name) || other.name == name) &&
+            (identical(other.frequency, frequency) || other.frequency == frequency) &&
+            const DeepCollectionEquality().equals(other.schedules, schedules) &&
+            (identical(other.doseReceiver, doseReceiver) || other.doseReceiver == doseReceiver) &&
+            (identical(other.memo, memo) || other.memo == memo) &&
+            (identical(other.memoImageURL, memoImageURL) || other.memoImageURL == memoImageURL) &&
+            (identical(other.archivedDateTime, archivedDateTime) || other.archivedDateTime == archivedDateTime) &&
+            (identical(other.beganDateTime, beganDateTime) || other.beganDateTime == beganDateTime) &&
+            (identical(other.createdDateTime, createdDateTime) || other.createdDateTime == createdDateTime) &&
+            (identical(other.updatedDateTime, updatedDateTime) || other.updatedDateTime == updatedDateTime) &&
+            (identical(other.serverCreatedDateTime, serverCreatedDateTime) || other.serverCreatedDateTime == serverCreatedDateTime) &&
+            (identical(other.serverUpdatedDateTime, serverUpdatedDateTime) || other.serverUpdatedDateTime == serverUpdatedDateTime));
+  }
+
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  @override
+  int get hashCode => Object.hash(runtimeType, id, userID, name, frequency, const DeepCollectionEquality().hash(schedules), doseReceiver, memo,
+      memoImageURL, archivedDateTime, beganDateTime, createdDateTime, updatedDateTime, serverCreatedDateTime, serverUpdatedDateTime);
+
+  @override
+  String toString() {
+    return 'Medicine(id: $id, userID: $userID, name: $name, frequency: $frequency, schedules: $schedules, doseReceiver: $doseReceiver, memo: $memo, memoImageURL: $memoImageURL, archivedDateTime: $archivedDateTime, beganDateTime: $beganDateTime, createdDateTime: $createdDateTime, updatedDateTime: $updatedDateTime, serverCreatedDateTime: $serverCreatedDateTime, serverUpdatedDateTime: $serverUpdatedDateTime)';
+  }
 }
 
 /// @nodoc
-abstract class $MedicineCopyWith<$Res> {
-  factory $MedicineCopyWith(Medicine value, $Res Function(Medicine) then) = _$MedicineCopyWithImpl<$Res, Medicine>;
+abstract mixin class $MedicineCopyWith<$Res> {
+  factory $MedicineCopyWith(Medicine value, $Res Function(Medicine) _then) = _$MedicineCopyWithImpl;
   @useResult
   $Res call(
       {String id,
@@ -75,13 +101,11 @@ abstract class $MedicineCopyWith<$Res> {
 }
 
 /// @nodoc
-class _$MedicineCopyWithImpl<$Res, $Val extends Medicine> implements $MedicineCopyWith<$Res> {
-  _$MedicineCopyWithImpl(this._value, this._then);
+class _$MedicineCopyWithImpl<$Res> implements $MedicineCopyWith<$Res> {
+  _$MedicineCopyWithImpl(this._self, this._then);
 
-  // ignore: unused_field
-  final $Val _value;
-  // ignore: unused_field
-  final $Res Function($Val) _then;
+  final Medicine _self;
+  final $Res Function(Medicine) _then;
 
   /// Create a copy of Medicine
   /// with the given fields replaced by the non-null parameter values.
@@ -103,64 +127,64 @@ class _$MedicineCopyWithImpl<$Res, $Val extends Medicine> implements $MedicineCo
     Object? serverCreatedDateTime = freezed,
     Object? serverUpdatedDateTime = freezed,
   }) {
-    return _then(_value.copyWith(
+    return _then(_self.copyWith(
       id: null == id
-          ? _value.id
+          ? _self.id
           : id // ignore: cast_nullable_to_non_nullable
               as String,
       userID: null == userID
-          ? _value.userID
+          ? _self.userID
           : userID // ignore: cast_nullable_to_non_nullable
               as String,
       name: null == name
-          ? _value.name
+          ? _self.name
           : name // ignore: cast_nullable_to_non_nullable
               as String,
       frequency: null == frequency
-          ? _value.frequency
+          ? _self.frequency
           : frequency // ignore: cast_nullable_to_non_nullable
               as MedicationFrequency,
       schedules: null == schedules
-          ? _value.schedules
+          ? _self.schedules
           : schedules // ignore: cast_nullable_to_non_nullable
               as List<MedicationSchedule>,
       doseReceiver: null == doseReceiver
-          ? _value.doseReceiver
+          ? _self.doseReceiver
           : doseReceiver // ignore: cast_nullable_to_non_nullable
               as DoseReceiver,
       memo: null == memo
-          ? _value.memo
+          ? _self.memo
           : memo // ignore: cast_nullable_to_non_nullable
               as String,
       memoImageURL: null == memoImageURL
-          ? _value.memoImageURL
+          ? _self.memoImageURL
           : memoImageURL // ignore: cast_nullable_to_non_nullable
               as String,
       archivedDateTime: freezed == archivedDateTime
-          ? _value.archivedDateTime
+          ? _self.archivedDateTime
           : archivedDateTime // ignore: cast_nullable_to_non_nullable
               as DateTime?,
       beganDateTime: null == beganDateTime
-          ? _value.beganDateTime
+          ? _self.beganDateTime
           : beganDateTime // ignore: cast_nullable_to_non_nullable
               as DateTime,
       createdDateTime: freezed == createdDateTime
-          ? _value.createdDateTime
+          ? _self.createdDateTime
           : createdDateTime // ignore: cast_nullable_to_non_nullable
               as DateTime?,
       updatedDateTime: freezed == updatedDateTime
-          ? _value.updatedDateTime
+          ? _self.updatedDateTime
           : updatedDateTime // ignore: cast_nullable_to_non_nullable
               as DateTime?,
       serverCreatedDateTime: freezed == serverCreatedDateTime
-          ? _value.serverCreatedDateTime
+          ? _self.serverCreatedDateTime
           : serverCreatedDateTime // ignore: cast_nullable_to_non_nullable
               as DateTime?,
       serverUpdatedDateTime: freezed == serverUpdatedDateTime
-          ? _value.serverUpdatedDateTime
+          ? _self.serverUpdatedDateTime
           : serverUpdatedDateTime // ignore: cast_nullable_to_non_nullable
               as DateTime?,
-    ) as $Val);
+    ));
   }
 
   /// Create a copy of Medicine
@@ -168,8 +192,8 @@ class _$MedicineCopyWithImpl<$Res, $Val extends Medicine> implements $MedicineCo
   @override
   @pragma('vm:prefer-inline')
   $MedicationFrequencyCopyWith<$Res> get frequency {
-    return $MedicationFrequencyCopyWith<$Res>(_value.frequency, (value) {
-      return _then(_value.copyWith(frequency: value) as $Val);
+    return $MedicationFrequencyCopyWith<$Res>(_self.frequency, (value) {
+      return _then(_self.copyWith(frequency: value));
     });
   }
 
@@ -178,129 +202,261 @@ class _$MedicineCopyWithImpl<$Res, $Val extends Medicine> implements $MedicineCo
   @override
   @pragma('vm:prefer-inline')
   $DoseReceiverCopyWith<$Res> get doseReceiver {
-    return $DoseReceiverCopyWith<$Res>(_value.doseReceiver, (value) {
-      return _then(_value.copyWith(doseReceiver: value) as $Val);
+    return $DoseReceiverCopyWith<$Res>(_self.doseReceiver, (value) {
+      return _then(_self.copyWith(doseReceiver: value));
     });
   }
 }
 
-/// @nodoc
-abstract class _$$MedicineImplCopyWith<$Res> implements $MedicineCopyWith<$Res> {
-  factory _$$MedicineImplCopyWith(_$MedicineImpl value, $Res Function(_$MedicineImpl) then) = __$$MedicineImplCopyWithImpl<$Res>;
-  @override
-  @useResult
-  $Res call(
-      {String id,
-      String userID,
-      String name,
-      MedicationFrequency frequency,
-      List<MedicationSchedule> schedules,
-      DoseReceiver doseReceiver,
-      String memo,
-      String memoImageURL,
-      @NullableTimestampConverter() DateTime? archivedDateTime,
-      @TimestampConverter() DateTime beganDateTime,
-      @ClientCreatedTimestamp() DateTime? createdDateTime,
-      @ClientUpdatedTimestamp() DateTime? updatedDateTime,
-      @ServerCreatedTimestamp() DateTime? serverCreatedDateTime,
-      @ServerUpdatedTimestamp() DateTime? serverUpdatedDateTime});
+/// Adds pattern-matching-related methods to [Medicine].
+extension MedicinePatterns on Medicine {
+  /// A variant of `map` that fallback to returning `orElse`.
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case final Subclass value:
+  ///     return ...;
+  ///   case _:
+  ///     return orElse();
+  /// }
+  /// ```
 
-  @override
-  $MedicationFrequencyCopyWith<$Res> get frequency;
-  @override
-  $DoseReceiverCopyWith<$Res> get doseReceiver;
-}
-
-/// @nodoc
-class __$$MedicineImplCopyWithImpl<$Res> extends _$MedicineCopyWithImpl<$Res, _$MedicineImpl> implements _$$MedicineImplCopyWith<$Res> {
-  __$$MedicineImplCopyWithImpl(_$MedicineImpl _value, $Res Function(_$MedicineImpl) _then) : super(_value, _then);
-
-  /// Create a copy of Medicine
-  /// with the given fields replaced by the non-null parameter values.
-  @pragma('vm:prefer-inline')
-  @override
-  $Res call({
-    Object? id = null,
-    Object? userID = null,
-    Object? name = null,
-    Object? frequency = null,
-    Object? schedules = null,
-    Object? doseReceiver = null,
-    Object? memo = null,
-    Object? memoImageURL = null,
-    Object? archivedDateTime = freezed,
-    Object? beganDateTime = null,
-    Object? createdDateTime = freezed,
-    Object? updatedDateTime = freezed,
-    Object? serverCreatedDateTime = freezed,
-    Object? serverUpdatedDateTime = freezed,
+  @optionalTypeArgs
+  TResult maybeMap<TResult extends Object?>(
+    TResult Function(_Medicine value)? $default, {
+    required TResult orElse(),
   }) {
-    return _then(_$MedicineImpl(
-      id: null == id
-          ? _value.id
-          : id // ignore: cast_nullable_to_non_nullable
-              as String,
-      userID: null == userID
-          ? _value.userID
-          : userID // ignore: cast_nullable_to_non_nullable
-              as String,
-      name: null == name
-          ? _value.name
-          : name // ignore: cast_nullable_to_non_nullable
-              as String,
-      frequency: null == frequency
-          ? _value.frequency
-          : frequency // ignore: cast_nullable_to_non_nullable
-              as MedicationFrequency,
-      schedules: null == schedules
-          ? _value._schedules
-          : schedules // ignore: cast_nullable_to_non_nullable
-              as List<MedicationSchedule>,
-      doseReceiver: null == doseReceiver
-          ? _value.doseReceiver
-          : doseReceiver // ignore: cast_nullable_to_non_nullable
-              as DoseReceiver,
-      memo: null == memo
-          ? _value.memo
-          : memo // ignore: cast_nullable_to_non_nullable
-              as String,
-      memoImageURL: null == memoImageURL
-          ? _value.memoImageURL
-          : memoImageURL // ignore: cast_nullable_to_non_nullable
-              as String,
-      archivedDateTime: freezed == archivedDateTime
-          ? _value.archivedDateTime
-          : archivedDateTime // ignore: cast_nullable_to_non_nullable
-              as DateTime?,
-      beganDateTime: null == beganDateTime
-          ? _value.beganDateTime
-          : beganDateTime // ignore: cast_nullable_to_non_nullable
-              as DateTime,
-      createdDateTime: freezed == createdDateTime
-          ? _value.createdDateTime
-          : createdDateTime // ignore: cast_nullable_to_non_nullable
-              as DateTime?,
-      updatedDateTime: freezed == updatedDateTime
-          ? _value.updatedDateTime
-          : updatedDateTime // ignore: cast_nullable_to_non_nullable
-              as DateTime?,
-      serverCreatedDateTime: freezed == serverCreatedDateTime
-          ? _value.serverCreatedDateTime
-          : serverCreatedDateTime // ignore: cast_nullable_to_non_nullable
-              as DateTime?,
-      serverUpdatedDateTime: freezed == serverUpdatedDateTime
-          ? _value.serverUpdatedDateTime
-          : serverUpdatedDateTime // ignore: cast_nullable_to_non_nullable
-              as DateTime?,
-    ));
+    final _that = this;
+    switch (_that) {
+      case _Medicine() when $default != null:
+        return $default(_that);
+      case _:
+        return orElse();
+    }
+  }
+
+  /// A `switch`-like method, using callbacks.
+  ///
+  /// Callbacks receives the raw object, upcasted.
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case final Subclass value:
+  ///     return ...;
+  ///   case final Subclass2 value:
+  ///     return ...;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult map<TResult extends Object?>(
+    TResult Function(_Medicine value) $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _Medicine():
+        return $default(_that);
+      case _:
+        throw StateError('Unexpected subclass');
+    }
+  }
+
+  /// A variant of `map` that fallback to returning `null`.
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case final Subclass value:
+  ///     return ...;
+  ///   case _:
+  ///     return null;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult? mapOrNull<TResult extends Object?>(
+    TResult? Function(_Medicine value)? $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _Medicine() when $default != null:
+        return $default(_that);
+      case _:
+        return null;
+    }
+  }
+
+  /// A variant of `when` that fallback to an `orElse` callback.
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case Subclass(:final field):
+  ///     return ...;
+  ///   case _:
+  ///     return orElse();
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult maybeWhen<TResult extends Object?>(
+    TResult Function(
+            String id,
+            String userID,
+            String name,
+            MedicationFrequency frequency,
+            List<MedicationSchedule> schedules,
+            DoseReceiver doseReceiver,
+            String memo,
+            String memoImageURL,
+            @NullableTimestampConverter() DateTime? archivedDateTime,
+            @TimestampConverter() DateTime beganDateTime,
+            @ClientCreatedTimestamp() DateTime? createdDateTime,
+            @ClientUpdatedTimestamp() DateTime? updatedDateTime,
+            @ServerCreatedTimestamp() DateTime? serverCreatedDateTime,
+            @ServerUpdatedTimestamp() DateTime? serverUpdatedDateTime)?
+        $default, {
+    required TResult orElse(),
+  }) {
+    final _that = this;
+    switch (_that) {
+      case _Medicine() when $default != null:
+        return $default(
+            _that.id,
+            _that.userID,
+            _that.name,
+            _that.frequency,
+            _that.schedules,
+            _that.doseReceiver,
+            _that.memo,
+            _that.memoImageURL,
+            _that.archivedDateTime,
+            _that.beganDateTime,
+            _that.createdDateTime,
+            _that.updatedDateTime,
+            _that.serverCreatedDateTime,
+            _that.serverUpdatedDateTime);
+      case _:
+        return orElse();
+    }
+  }
+
+  /// A `switch`-like method, using callbacks.
+  ///
+  /// As opposed to `map`, this offers destructuring.
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case Subclass(:final field):
+  ///     return ...;
+  ///   case Subclass2(:final field2):
+  ///     return ...;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult when<TResult extends Object?>(
+    TResult Function(
+            String id,
+            String userID,
+            String name,
+            MedicationFrequency frequency,
+            List<MedicationSchedule> schedules,
+            DoseReceiver doseReceiver,
+            String memo,
+            String memoImageURL,
+            @NullableTimestampConverter() DateTime? archivedDateTime,
+            @TimestampConverter() DateTime beganDateTime,
+            @ClientCreatedTimestamp() DateTime? createdDateTime,
+            @ClientUpdatedTimestamp() DateTime? updatedDateTime,
+            @ServerCreatedTimestamp() DateTime? serverCreatedDateTime,
+            @ServerUpdatedTimestamp() DateTime? serverUpdatedDateTime)
+        $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _Medicine():
+        return $default(
+            _that.id,
+            _that.userID,
+            _that.name,
+            _that.frequency,
+            _that.schedules,
+            _that.doseReceiver,
+            _that.memo,
+            _that.memoImageURL,
+            _that.archivedDateTime,
+            _that.beganDateTime,
+            _that.createdDateTime,
+            _that.updatedDateTime,
+            _that.serverCreatedDateTime,
+            _that.serverUpdatedDateTime);
+      case _:
+        throw StateError('Unexpected subclass');
+    }
+  }
+
+  /// A variant of `when` that fallback to returning `null`
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case Subclass(:final field):
+  ///     return ...;
+  ///   case _:
+  ///     return null;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult? whenOrNull<TResult extends Object?>(
+    TResult? Function(
+            String id,
+            String userID,
+            String name,
+            MedicationFrequency frequency,
+            List<MedicationSchedule> schedules,
+            DoseReceiver doseReceiver,
+            String memo,
+            String memoImageURL,
+            @NullableTimestampConverter() DateTime? archivedDateTime,
+            @TimestampConverter() DateTime beganDateTime,
+            @ClientCreatedTimestamp() DateTime? createdDateTime,
+            @ClientUpdatedTimestamp() DateTime? updatedDateTime,
+            @ServerCreatedTimestamp() DateTime? serverCreatedDateTime,
+            @ServerUpdatedTimestamp() DateTime? serverUpdatedDateTime)?
+        $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _Medicine() when $default != null:
+        return $default(
+            _that.id,
+            _that.userID,
+            _that.name,
+            _that.frequency,
+            _that.schedules,
+            _that.doseReceiver,
+            _that.memo,
+            _that.memoImageURL,
+            _that.archivedDateTime,
+            _that.beganDateTime,
+            _that.createdDateTime,
+            _that.updatedDateTime,
+            _that.serverCreatedDateTime,
+            _that.serverUpdatedDateTime);
+      case _:
+        return null;
+    }
   }
 }
 
 /// @nodoc
 
 @JsonSerializable(explicitToJson: true)
-class _$MedicineImpl extends _Medicine {
-  const _$MedicineImpl(
+class _Medicine extends Medicine {
+  const _Medicine(
       {required this.id,
       required this.userID,
       required this.name,
@@ -317,8 +473,7 @@ class _$MedicineImpl extends _Medicine {
       @ServerUpdatedTimestamp() this.serverUpdatedDateTime})
       : _schedules = schedules,
         super._();
-
-  factory _$MedicineImpl.fromJson(Map<String, dynamic> json) => _$$MedicineImplFromJson(json);
+  factory _Medicine.fromJson(Map<String, dynamic> json) => _$MedicineFromJson(json);
 
   @override
   final String id;
@@ -361,16 +516,25 @@ class _$MedicineImpl extends _Medicine {
   @ServerUpdatedTimestamp()
   final DateTime? serverUpdatedDateTime;
 
+  /// Create a copy of Medicine
+  /// with the given fields replaced by the non-null parameter values.
   @override
-  String toString() {
-    return 'Medicine(id: $id, userID: $userID, name: $name, frequency: $frequency, schedules: $schedules, doseReceiver: $doseReceiver, memo: $memo, memoImageURL: $memoImageURL, archivedDateTime: $archivedDateTime, beganDateTime: $beganDateTime, createdDateTime: $createdDateTime, updatedDateTime: $updatedDateTime, serverCreatedDateTime: $serverCreatedDateTime, serverUpdatedDateTime: $serverUpdatedDateTime)';
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  @pragma('vm:prefer-inline')
+  _$MedicineCopyWith<_Medicine> get copyWith => __$MedicineCopyWithImpl<_Medicine>(this, _$identity);
+
+  @override
+  Map<String, dynamic> toJson() {
+    return _$MedicineToJson(
+      this,
+    );
   }
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _$MedicineImpl &&
+            other is _Medicine &&
             (identical(other.id, id) || other.id == id) &&
             (identical(other.userID, userID) || other.userID == userID) &&
             (identical(other.name, name) || other.name == name) &&
@@ -392,170 +556,202 @@ class _$MedicineImpl extends _Medicine {
   int get hashCode => Object.hash(runtimeType, id, userID, name, frequency, const DeepCollectionEquality().hash(_schedules), doseReceiver, memo,
       memoImageURL, archivedDateTime, beganDateTime, createdDateTime, updatedDateTime, serverCreatedDateTime, serverUpdatedDateTime);
 
-  /// Create a copy of Medicine
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
   @override
-  @pragma('vm:prefer-inline')
-  _$$MedicineImplCopyWith<_$MedicineImpl> get copyWith => __$$MedicineImplCopyWithImpl<_$MedicineImpl>(this, _$identity);
-
-  @override
-  Map<String, dynamic> toJson() {
-    return _$$MedicineImplToJson(
-      this,
-    );
+  String toString() {
+    return 'Medicine(id: $id, userID: $userID, name: $name, frequency: $frequency, schedules: $schedules, doseReceiver: $doseReceiver, memo: $memo, memoImageURL: $memoImageURL, archivedDateTime: $archivedDateTime, beganDateTime: $beganDateTime, createdDateTime: $createdDateTime, updatedDateTime: $updatedDateTime, serverCreatedDateTime: $serverCreatedDateTime, serverUpdatedDateTime: $serverUpdatedDateTime)';
   }
 }
 
-abstract class _Medicine extends Medicine {
-  const factory _Medicine(
-      {required final String id,
-      required final String userID,
-      required final String name,
-      required final MedicationFrequency frequency,
-      required final List<MedicationSchedule> schedules,
-      required final DoseReceiver doseReceiver,
-      required final String memo,
-      required final String memoImageURL,
-      @NullableTimestampConverter() final DateTime? archivedDateTime,
-      @TimestampConverter() required final DateTime beganDateTime,
-      @ClientCreatedTimestamp() final DateTime? createdDateTime,
-      @ClientUpdatedTimestamp() final DateTime? updatedDateTime,
-      @ServerCreatedTimestamp() final DateTime? serverCreatedDateTime,
-      @ServerUpdatedTimestamp() final DateTime? serverUpdatedDateTime}) = _$MedicineImpl;
-  const _Medicine._() : super._();
+/// @nodoc
+abstract mixin class _$MedicineCopyWith<$Res> implements $MedicineCopyWith<$Res> {
+  factory _$MedicineCopyWith(_Medicine value, $Res Function(_Medicine) _then) = __$MedicineCopyWithImpl;
+  @override
+  @useResult
+  $Res call(
+      {String id,
+      String userID,
+      String name,
+      MedicationFrequency frequency,
+      List<MedicationSchedule> schedules,
+      DoseReceiver doseReceiver,
+      String memo,
+      String memoImageURL,
+      @NullableTimestampConverter() DateTime? archivedDateTime,
+      @TimestampConverter() DateTime beganDateTime,
+      @ClientCreatedTimestamp() DateTime? createdDateTime,
+      @ClientUpdatedTimestamp() DateTime? updatedDateTime,
+      @ServerCreatedTimestamp() DateTime? serverCreatedDateTime,
+      @ServerUpdatedTimestamp() DateTime? serverUpdatedDateTime});
 
-  factory _Medicine.fromJson(Map<String, dynamic> json) = _$MedicineImpl.fromJson;
+  @override
+  $MedicationFrequencyCopyWith<$Res> get frequency;
+  @override
+  $DoseReceiverCopyWith<$Res> get doseReceiver;
+}
 
-  @override
-  String get id;
-  @override
-  String get userID;
-  @override
-  String get name;
-  @override
-  MedicationFrequency get frequency;
-  @override
-  List<MedicationSchedule> get schedules;
-  @override
-  DoseReceiver get doseReceiver;
-  @override
-  String get memo;
-  @override
-  String get memoImageURL;
-  @override
-  @NullableTimestampConverter()
-  DateTime? get archivedDateTime;
-  @override
-  @TimestampConverter()
-  DateTime get beganDateTime;
-  @override
-  @ClientCreatedTimestamp()
-  DateTime? get createdDateTime;
-  @override
-  @ClientUpdatedTimestamp()
-  DateTime? get updatedDateTime;
-  @override
-  @ServerCreatedTimestamp()
-  DateTime? get serverCreatedDateTime;
-  @override
-  @ServerUpdatedTimestamp()
-  DateTime? get serverUpdatedDateTime;
+/// @nodoc
+class __$MedicineCopyWithImpl<$Res> implements _$MedicineCopyWith<$Res> {
+  __$MedicineCopyWithImpl(this._self, this._then);
+
+  final _Medicine _self;
+  final $Res Function(_Medicine) _then;
 
   /// Create a copy of Medicine
   /// with the given fields replaced by the non-null parameter values.
   @override
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  _$$MedicineImplCopyWith<_$MedicineImpl> get copyWith => throw _privateConstructorUsedError;
-}
+  @pragma('vm:prefer-inline')
+  $Res call({
+    Object? id = null,
+    Object? userID = null,
+    Object? name = null,
+    Object? frequency = null,
+    Object? schedules = null,
+    Object? doseReceiver = null,
+    Object? memo = null,
+    Object? memoImageURL = null,
+    Object? archivedDateTime = freezed,
+    Object? beganDateTime = null,
+    Object? createdDateTime = freezed,
+    Object? updatedDateTime = freezed,
+    Object? serverCreatedDateTime = freezed,
+    Object? serverUpdatedDateTime = freezed,
+  }) {
+    return _then(_Medicine(
+      id: null == id
+          ? _self.id
+          : id // ignore: cast_nullable_to_non_nullable
+              as String,
+      userID: null == userID
+          ? _self.userID
+          : userID // ignore: cast_nullable_to_non_nullable
+              as String,
+      name: null == name
+          ? _self.name
+          : name // ignore: cast_nullable_to_non_nullable
+              as String,
+      frequency: null == frequency
+          ? _self.frequency
+          : frequency // ignore: cast_nullable_to_non_nullable
+              as MedicationFrequency,
+      schedules: null == schedules
+          ? _self._schedules
+          : schedules // ignore: cast_nullable_to_non_nullable
+              as List<MedicationSchedule>,
+      doseReceiver: null == doseReceiver
+          ? _self.doseReceiver
+          : doseReceiver // ignore: cast_nullable_to_non_nullable
+              as DoseReceiver,
+      memo: null == memo
+          ? _self.memo
+          : memo // ignore: cast_nullable_to_non_nullable
+              as String,
+      memoImageURL: null == memoImageURL
+          ? _self.memoImageURL
+          : memoImageURL // ignore: cast_nullable_to_non_nullable
+              as String,
+      archivedDateTime: freezed == archivedDateTime
+          ? _self.archivedDateTime
+          : archivedDateTime // ignore: cast_nullable_to_non_nullable
+              as DateTime?,
+      beganDateTime: null == beganDateTime
+          ? _self.beganDateTime
+          : beganDateTime // ignore: cast_nullable_to_non_nullable
+              as DateTime,
+      createdDateTime: freezed == createdDateTime
+          ? _self.createdDateTime
+          : createdDateTime // ignore: cast_nullable_to_non_nullable
+              as DateTime?,
+      updatedDateTime: freezed == updatedDateTime
+          ? _self.updatedDateTime
+          : updatedDateTime // ignore: cast_nullable_to_non_nullable
+              as DateTime?,
+      serverCreatedDateTime: freezed == serverCreatedDateTime
+          ? _self.serverCreatedDateTime
+          : serverCreatedDateTime // ignore: cast_nullable_to_non_nullable
+              as DateTime?,
+      serverUpdatedDateTime: freezed == serverUpdatedDateTime
+          ? _self.serverUpdatedDateTime
+          : serverUpdatedDateTime // ignore: cast_nullable_to_non_nullable
+              as DateTime?,
+    ));
+  }
 
-MedicineScheduleNotificationSetting _$MedicineScheduleNotificationSettingFromJson(Map<String, dynamic> json) {
-  return _MedicineScheduleNotificationSetting.fromJson(json);
+  /// Create a copy of Medicine
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $MedicationFrequencyCopyWith<$Res> get frequency {
+    return $MedicationFrequencyCopyWith<$Res>(_self.frequency, (value) {
+      return _then(_self.copyWith(frequency: value));
+    });
+  }
+
+  /// Create a copy of Medicine
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $DoseReceiverCopyWith<$Res> get doseReceiver {
+    return $DoseReceiverCopyWith<$Res>(_self.doseReceiver, (value) {
+      return _then(_self.copyWith(doseReceiver: value));
+    });
+  }
 }
 
 /// @nodoc
 mixin _$MedicineScheduleNotificationSetting {
-  bool get isReminderEnabled => throw _privateConstructorUsedError;
-  bool get isFollowupEnabled => throw _privateConstructorUsedError;
-  bool get useCriticalAlert => throw _privateConstructorUsedError;
-  double get criticalAlertVolume => throw _privateConstructorUsedError;
-
-  /// Serializes this MedicineScheduleNotificationSetting to a JSON map.
-  Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
+  bool get isReminderEnabled;
+  bool get isFollowupEnabled;
+  bool get useCriticalAlert;
+  double get criticalAlertVolume;
+  bool get useAlarmKit;
 
   /// Create a copy of MedicineScheduleNotificationSetting
   /// with the given fields replaced by the non-null parameter values.
   @JsonKey(includeFromJson: false, includeToJson: false)
-  $MedicineScheduleNotificationSettingCopyWith<MedicineScheduleNotificationSetting> get copyWith => throw _privateConstructorUsedError;
-}
-
-/// @nodoc
-abstract class $MedicineScheduleNotificationSettingCopyWith<$Res> {
-  factory $MedicineScheduleNotificationSettingCopyWith(
-          MedicineScheduleNotificationSetting value, $Res Function(MedicineScheduleNotificationSetting) then) =
-      _$MedicineScheduleNotificationSettingCopyWithImpl<$Res, MedicineScheduleNotificationSetting>;
-  @useResult
-  $Res call({bool isReminderEnabled, bool isFollowupEnabled, bool useCriticalAlert, double criticalAlertVolume});
-}
-
-/// @nodoc
-class _$MedicineScheduleNotificationSettingCopyWithImpl<$Res, $Val extends MedicineScheduleNotificationSetting>
-    implements $MedicineScheduleNotificationSettingCopyWith<$Res> {
-  _$MedicineScheduleNotificationSettingCopyWithImpl(this._value, this._then);
-
-  // ignore: unused_field
-  final $Val _value;
-  // ignore: unused_field
-  final $Res Function($Val) _then;
-
-  /// Create a copy of MedicineScheduleNotificationSetting
-  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
+  $MedicineScheduleNotificationSettingCopyWith<MedicineScheduleNotificationSetting> get copyWith =>
+      _$MedicineScheduleNotificationSettingCopyWithImpl<MedicineScheduleNotificationSetting>(this as MedicineScheduleNotificationSetting, _$identity);
+
+  /// Serializes this MedicineScheduleNotificationSetting to a JSON map.
+  Map<String, dynamic> toJson();
+
   @override
-  $Res call({
-    Object? isReminderEnabled = null,
-    Object? isFollowupEnabled = null,
-    Object? useCriticalAlert = null,
-    Object? criticalAlertVolume = null,
-  }) {
-    return _then(_value.copyWith(
-      isReminderEnabled: null == isReminderEnabled
-          ? _value.isReminderEnabled
-          : isReminderEnabled // ignore: cast_nullable_to_non_nullable
-              as bool,
-      isFollowupEnabled: null == isFollowupEnabled
-          ? _value.isFollowupEnabled
-          : isFollowupEnabled // ignore: cast_nullable_to_non_nullable
-              as bool,
-      useCriticalAlert: null == useCriticalAlert
-          ? _value.useCriticalAlert
-          : useCriticalAlert // ignore: cast_nullable_to_non_nullable
-              as bool,
-      criticalAlertVolume: null == criticalAlertVolume
-          ? _value.criticalAlertVolume
-          : criticalAlertVolume // ignore: cast_nullable_to_non_nullable
-              as double,
-    ) as $Val);
+  bool operator ==(Object other) {
+    return identical(this, other) ||
+        (other.runtimeType == runtimeType &&
+            other is MedicineScheduleNotificationSetting &&
+            (identical(other.isReminderEnabled, isReminderEnabled) || other.isReminderEnabled == isReminderEnabled) &&
+            (identical(other.isFollowupEnabled, isFollowupEnabled) || other.isFollowupEnabled == isFollowupEnabled) &&
+            (identical(other.useCriticalAlert, useCriticalAlert) || other.useCriticalAlert == useCriticalAlert) &&
+            (identical(other.criticalAlertVolume, criticalAlertVolume) || other.criticalAlertVolume == criticalAlertVolume) &&
+            (identical(other.useAlarmKit, useAlarmKit) || other.useAlarmKit == useAlarmKit));
+  }
+
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  @override
+  int get hashCode => Object.hash(runtimeType, isReminderEnabled, isFollowupEnabled, useCriticalAlert, criticalAlertVolume, useAlarmKit);
+
+  @override
+  String toString() {
+    return 'MedicineScheduleNotificationSetting(isReminderEnabled: $isReminderEnabled, isFollowupEnabled: $isFollowupEnabled, useCriticalAlert: $useCriticalAlert, criticalAlertVolume: $criticalAlertVolume, useAlarmKit: $useAlarmKit)';
   }
 }
 
 /// @nodoc
-abstract class _$$MedicineScheduleNotificationSettingImplCopyWith<$Res> implements $MedicineScheduleNotificationSettingCopyWith<$Res> {
-  factory _$$MedicineScheduleNotificationSettingImplCopyWith(
-          _$MedicineScheduleNotificationSettingImpl value, $Res Function(_$MedicineScheduleNotificationSettingImpl) then) =
-      __$$MedicineScheduleNotificationSettingImplCopyWithImpl<$Res>;
-  @override
+abstract mixin class $MedicineScheduleNotificationSettingCopyWith<$Res> {
+  factory $MedicineScheduleNotificationSettingCopyWith(
+          MedicineScheduleNotificationSetting value, $Res Function(MedicineScheduleNotificationSetting) _then) =
+      _$MedicineScheduleNotificationSettingCopyWithImpl;
   @useResult
-  $Res call({bool isReminderEnabled, bool isFollowupEnabled, bool useCriticalAlert, double criticalAlertVolume});
+  $Res call({bool isReminderEnabled, bool isFollowupEnabled, bool useCriticalAlert, double criticalAlertVolume, bool useAlarmKit});
 }
 
 /// @nodoc
-class __$$MedicineScheduleNotificationSettingImplCopyWithImpl<$Res>
-    extends _$MedicineScheduleNotificationSettingCopyWithImpl<$Res, _$MedicineScheduleNotificationSettingImpl>
-    implements _$$MedicineScheduleNotificationSettingImplCopyWith<$Res> {
-  __$$MedicineScheduleNotificationSettingImplCopyWithImpl(
-      _$MedicineScheduleNotificationSettingImpl _value, $Res Function(_$MedicineScheduleNotificationSettingImpl) _then)
-      : super(_value, _then);
+class _$MedicineScheduleNotificationSettingCopyWithImpl<$Res> implements $MedicineScheduleNotificationSettingCopyWith<$Res> {
+  _$MedicineScheduleNotificationSettingCopyWithImpl(this._self, this._then);
+
+  final MedicineScheduleNotificationSetting _self;
+  final $Res Function(MedicineScheduleNotificationSetting) _then;
 
   /// Create a copy of MedicineScheduleNotificationSetting
   /// with the given fields replaced by the non-null parameter values.
@@ -566,37 +762,202 @@ class __$$MedicineScheduleNotificationSettingImplCopyWithImpl<$Res>
     Object? isFollowupEnabled = null,
     Object? useCriticalAlert = null,
     Object? criticalAlertVolume = null,
+    Object? useAlarmKit = null,
   }) {
-    return _then(_$MedicineScheduleNotificationSettingImpl(
+    return _then(_self.copyWith(
       isReminderEnabled: null == isReminderEnabled
-          ? _value.isReminderEnabled
+          ? _self.isReminderEnabled
           : isReminderEnabled // ignore: cast_nullable_to_non_nullable
               as bool,
       isFollowupEnabled: null == isFollowupEnabled
-          ? _value.isFollowupEnabled
+          ? _self.isFollowupEnabled
           : isFollowupEnabled // ignore: cast_nullable_to_non_nullable
               as bool,
       useCriticalAlert: null == useCriticalAlert
-          ? _value.useCriticalAlert
+          ? _self.useCriticalAlert
           : useCriticalAlert // ignore: cast_nullable_to_non_nullable
               as bool,
       criticalAlertVolume: null == criticalAlertVolume
-          ? _value.criticalAlertVolume
+          ? _self.criticalAlertVolume
           : criticalAlertVolume // ignore: cast_nullable_to_non_nullable
               as double,
+      useAlarmKit: null == useAlarmKit
+          ? _self.useAlarmKit
+          : useAlarmKit // ignore: cast_nullable_to_non_nullable
+              as bool,
     ));
+  }
+}
+
+/// Adds pattern-matching-related methods to [MedicineScheduleNotificationSetting].
+extension MedicineScheduleNotificationSettingPatterns on MedicineScheduleNotificationSetting {
+  /// A variant of `map` that fallback to returning `orElse`.
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case final Subclass value:
+  ///     return ...;
+  ///   case _:
+  ///     return orElse();
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult maybeMap<TResult extends Object?>(
+    TResult Function(_MedicineScheduleNotificationSetting value)? $default, {
+    required TResult orElse(),
+  }) {
+    final _that = this;
+    switch (_that) {
+      case _MedicineScheduleNotificationSetting() when $default != null:
+        return $default(_that);
+      case _:
+        return orElse();
+    }
+  }
+
+  /// A `switch`-like method, using callbacks.
+  ///
+  /// Callbacks receives the raw object, upcasted.
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case final Subclass value:
+  ///     return ...;
+  ///   case final Subclass2 value:
+  ///     return ...;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult map<TResult extends Object?>(
+    TResult Function(_MedicineScheduleNotificationSetting value) $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _MedicineScheduleNotificationSetting():
+        return $default(_that);
+      case _:
+        throw StateError('Unexpected subclass');
+    }
+  }
+
+  /// A variant of `map` that fallback to returning `null`.
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case final Subclass value:
+  ///     return ...;
+  ///   case _:
+  ///     return null;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult? mapOrNull<TResult extends Object?>(
+    TResult? Function(_MedicineScheduleNotificationSetting value)? $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _MedicineScheduleNotificationSetting() when $default != null:
+        return $default(_that);
+      case _:
+        return null;
+    }
+  }
+
+  /// A variant of `when` that fallback to an `orElse` callback.
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case Subclass(:final field):
+  ///     return ...;
+  ///   case _:
+  ///     return orElse();
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult maybeWhen<TResult extends Object?>(
+    TResult Function(bool isReminderEnabled, bool isFollowupEnabled, bool useCriticalAlert, double criticalAlertVolume, bool useAlarmKit)? $default, {
+    required TResult orElse(),
+  }) {
+    final _that = this;
+    switch (_that) {
+      case _MedicineScheduleNotificationSetting() when $default != null:
+        return $default(_that.isReminderEnabled, _that.isFollowupEnabled, _that.useCriticalAlert, _that.criticalAlertVolume, _that.useAlarmKit);
+      case _:
+        return orElse();
+    }
+  }
+
+  /// A `switch`-like method, using callbacks.
+  ///
+  /// As opposed to `map`, this offers destructuring.
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case Subclass(:final field):
+  ///     return ...;
+  ///   case Subclass2(:final field2):
+  ///     return ...;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult when<TResult extends Object?>(
+    TResult Function(bool isReminderEnabled, bool isFollowupEnabled, bool useCriticalAlert, double criticalAlertVolume, bool useAlarmKit) $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _MedicineScheduleNotificationSetting():
+        return $default(_that.isReminderEnabled, _that.isFollowupEnabled, _that.useCriticalAlert, _that.criticalAlertVolume, _that.useAlarmKit);
+      case _:
+        throw StateError('Unexpected subclass');
+    }
+  }
+
+  /// A variant of `when` that fallback to returning `null`
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case Subclass(:final field):
+  ///     return ...;
+  ///   case _:
+  ///     return null;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult? whenOrNull<TResult extends Object?>(
+    TResult? Function(bool isReminderEnabled, bool isFollowupEnabled, bool useCriticalAlert, double criticalAlertVolume, bool useAlarmKit)? $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _MedicineScheduleNotificationSetting() when $default != null:
+        return $default(_that.isReminderEnabled, _that.isFollowupEnabled, _that.useCriticalAlert, _that.criticalAlertVolume, _that.useAlarmKit);
+      case _:
+        return null;
+    }
   }
 }
 
 /// @nodoc
 
 @JsonSerializable(explicitToJson: true)
-class _$MedicineScheduleNotificationSettingImpl extends _MedicineScheduleNotificationSetting {
-  const _$MedicineScheduleNotificationSettingImpl(
-      {required this.isReminderEnabled, required this.isFollowupEnabled, required this.useCriticalAlert, this.criticalAlertVolume = 0.5})
+class _MedicineScheduleNotificationSetting extends MedicineScheduleNotificationSetting {
+  const _MedicineScheduleNotificationSetting(
+      {required this.isReminderEnabled,
+      required this.isFollowupEnabled,
+      required this.useCriticalAlert,
+      this.criticalAlertVolume = 0.5,
+      this.useAlarmKit = false})
       : super._();
-
-  factory _$MedicineScheduleNotificationSettingImpl.fromJson(Map<String, dynamic> json) => _$$MedicineScheduleNotificationSettingImplFromJson(json);
+  factory _MedicineScheduleNotificationSetting.fromJson(Map<String, dynamic> json) => _$MedicineScheduleNotificationSettingFromJson(json);
 
   @override
   final bool isReminderEnabled;
@@ -607,176 +968,119 @@ class _$MedicineScheduleNotificationSettingImpl extends _MedicineScheduleNotific
   @override
   @JsonKey()
   final double criticalAlertVolume;
+  @override
+  @JsonKey()
+  final bool useAlarmKit;
+
+  /// Create a copy of MedicineScheduleNotificationSetting
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  @pragma('vm:prefer-inline')
+  _$MedicineScheduleNotificationSettingCopyWith<_MedicineScheduleNotificationSetting> get copyWith =>
+      __$MedicineScheduleNotificationSettingCopyWithImpl<_MedicineScheduleNotificationSetting>(this, _$identity);
 
   @override
-  String toString() {
-    return 'MedicineScheduleNotificationSetting(isReminderEnabled: $isReminderEnabled, isFollowupEnabled: $isFollowupEnabled, useCriticalAlert: $useCriticalAlert, criticalAlertVolume: $criticalAlertVolume)';
+  Map<String, dynamic> toJson() {
+    return _$MedicineScheduleNotificationSettingToJson(
+      this,
+    );
   }
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _$MedicineScheduleNotificationSettingImpl &&
+            other is _MedicineScheduleNotificationSetting &&
             (identical(other.isReminderEnabled, isReminderEnabled) || other.isReminderEnabled == isReminderEnabled) &&
             (identical(other.isFollowupEnabled, isFollowupEnabled) || other.isFollowupEnabled == isFollowupEnabled) &&
             (identical(other.useCriticalAlert, useCriticalAlert) || other.useCriticalAlert == useCriticalAlert) &&
-            (identical(other.criticalAlertVolume, criticalAlertVolume) || other.criticalAlertVolume == criticalAlertVolume));
+            (identical(other.criticalAlertVolume, criticalAlertVolume) || other.criticalAlertVolume == criticalAlertVolume) &&
+            (identical(other.useAlarmKit, useAlarmKit) || other.useAlarmKit == useAlarmKit));
   }
 
   @JsonKey(includeFromJson: false, includeToJson: false)
   @override
-  int get hashCode => Object.hash(runtimeType, isReminderEnabled, isFollowupEnabled, useCriticalAlert, criticalAlertVolume);
-
-  /// Create a copy of MedicineScheduleNotificationSetting
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @override
-  @pragma('vm:prefer-inline')
-  _$$MedicineScheduleNotificationSettingImplCopyWith<_$MedicineScheduleNotificationSettingImpl> get copyWith =>
-      __$$MedicineScheduleNotificationSettingImplCopyWithImpl<_$MedicineScheduleNotificationSettingImpl>(this, _$identity);
+  int get hashCode => Object.hash(runtimeType, isReminderEnabled, isFollowupEnabled, useCriticalAlert, criticalAlertVolume, useAlarmKit);
 
   @override
-  Map<String, dynamic> toJson() {
-    return _$$MedicineScheduleNotificationSettingImplToJson(
-      this,
-    );
+  String toString() {
+    return 'MedicineScheduleNotificationSetting(isReminderEnabled: $isReminderEnabled, isFollowupEnabled: $isFollowupEnabled, useCriticalAlert: $useCriticalAlert, criticalAlertVolume: $criticalAlertVolume, useAlarmKit: $useAlarmKit)';
   }
 }
 
-abstract class _MedicineScheduleNotificationSetting extends MedicineScheduleNotificationSetting {
-  const factory _MedicineScheduleNotificationSetting(
-      {required final bool isReminderEnabled,
-      required final bool isFollowupEnabled,
-      required final bool useCriticalAlert,
-      final double criticalAlertVolume}) = _$MedicineScheduleNotificationSettingImpl;
-  const _MedicineScheduleNotificationSetting._() : super._();
+/// @nodoc
+abstract mixin class _$MedicineScheduleNotificationSettingCopyWith<$Res> implements $MedicineScheduleNotificationSettingCopyWith<$Res> {
+  factory _$MedicineScheduleNotificationSettingCopyWith(
+          _MedicineScheduleNotificationSetting value, $Res Function(_MedicineScheduleNotificationSetting) _then) =
+      __$MedicineScheduleNotificationSettingCopyWithImpl;
+  @override
+  @useResult
+  $Res call({bool isReminderEnabled, bool isFollowupEnabled, bool useCriticalAlert, double criticalAlertVolume, bool useAlarmKit});
+}
 
-  factory _MedicineScheduleNotificationSetting.fromJson(Map<String, dynamic> json) = _$MedicineScheduleNotificationSettingImpl.fromJson;
+/// @nodoc
+class __$MedicineScheduleNotificationSettingCopyWithImpl<$Res> implements _$MedicineScheduleNotificationSettingCopyWith<$Res> {
+  __$MedicineScheduleNotificationSettingCopyWithImpl(this._self, this._then);
 
-  @override
-  bool get isReminderEnabled;
-  @override
-  bool get isFollowupEnabled;
-  @override
-  bool get useCriticalAlert;
-  @override
-  double get criticalAlertVolume;
+  final _MedicineScheduleNotificationSetting _self;
+  final $Res Function(_MedicineScheduleNotificationSetting) _then;
 
   /// Create a copy of MedicineScheduleNotificationSetting
   /// with the given fields replaced by the non-null parameter values.
   @override
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  _$$MedicineScheduleNotificationSettingImplCopyWith<_$MedicineScheduleNotificationSettingImpl> get copyWith => throw _privateConstructorUsedError;
-}
-
-MedicineScheduleFocusConnectSetting _$MedicineScheduleFocusConnectSettingFromJson(Map<String, dynamic> json) {
-  return _MedicineScheduleFocusConnectSetting.fromJson(json);
-}
-
-/// @nodoc
-mixin _$MedicineScheduleFocusConnectSetting {
-  String? get focusConnectScheduleID => throw _privateConstructorUsedError;
-
-  /// Serializes this MedicineScheduleFocusConnectSetting to a JSON map.
-  Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
-
-  /// Create a copy of MedicineScheduleFocusConnectSetting
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  $MedicineScheduleFocusConnectSettingCopyWith<MedicineScheduleFocusConnectSetting> get copyWith => throw _privateConstructorUsedError;
-}
-
-/// @nodoc
-abstract class $MedicineScheduleFocusConnectSettingCopyWith<$Res> {
-  factory $MedicineScheduleFocusConnectSettingCopyWith(
-          MedicineScheduleFocusConnectSetting value, $Res Function(MedicineScheduleFocusConnectSetting) then) =
-      _$MedicineScheduleFocusConnectSettingCopyWithImpl<$Res, MedicineScheduleFocusConnectSetting>;
-  @useResult
-  $Res call({String? focusConnectScheduleID});
-}
-
-/// @nodoc
-class _$MedicineScheduleFocusConnectSettingCopyWithImpl<$Res, $Val extends MedicineScheduleFocusConnectSetting>
-    implements $MedicineScheduleFocusConnectSettingCopyWith<$Res> {
-  _$MedicineScheduleFocusConnectSettingCopyWithImpl(this._value, this._then);
-
-  // ignore: unused_field
-  final $Val _value;
-  // ignore: unused_field
-  final $Res Function($Val) _then;
-
-  /// Create a copy of MedicineScheduleFocusConnectSetting
-  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
-  @override
   $Res call({
-    Object? focusConnectScheduleID = freezed,
+    Object? isReminderEnabled = null,
+    Object? isFollowupEnabled = null,
+    Object? useCriticalAlert = null,
+    Object? criticalAlertVolume = null,
+    Object? useAlarmKit = null,
   }) {
-    return _then(_value.copyWith(
-      focusConnectScheduleID: freezed == focusConnectScheduleID
-          ? _value.focusConnectScheduleID
-          : focusConnectScheduleID // ignore: cast_nullable_to_non_nullable
-              as String?,
-    ) as $Val);
-  }
-}
-
-/// @nodoc
-abstract class _$$MedicineScheduleFocusConnectSettingImplCopyWith<$Res> implements $MedicineScheduleFocusConnectSettingCopyWith<$Res> {
-  factory _$$MedicineScheduleFocusConnectSettingImplCopyWith(
-          _$MedicineScheduleFocusConnectSettingImpl value, $Res Function(_$MedicineScheduleFocusConnectSettingImpl) then) =
-      __$$MedicineScheduleFocusConnectSettingImplCopyWithImpl<$Res>;
-  @override
-  @useResult
-  $Res call({String? focusConnectScheduleID});
-}
-
-/// @nodoc
-class __$$MedicineScheduleFocusConnectSettingImplCopyWithImpl<$Res>
-    extends _$MedicineScheduleFocusConnectSettingCopyWithImpl<$Res, _$MedicineScheduleFocusConnectSettingImpl>
-    implements _$$MedicineScheduleFocusConnectSettingImplCopyWith<$Res> {
-  __$$MedicineScheduleFocusConnectSettingImplCopyWithImpl(
-      _$MedicineScheduleFocusConnectSettingImpl _value, $Res Function(_$MedicineScheduleFocusConnectSettingImpl) _then)
-      : super(_value, _then);
-
-  /// Create a copy of MedicineScheduleFocusConnectSetting
-  /// with the given fields replaced by the non-null parameter values.
-  @pragma('vm:prefer-inline')
-  @override
-  $Res call({
-    Object? focusConnectScheduleID = freezed,
-  }) {
-    return _then(_$MedicineScheduleFocusConnectSettingImpl(
-      focusConnectScheduleID: freezed == focusConnectScheduleID
-          ? _value.focusConnectScheduleID
-          : focusConnectScheduleID // ignore: cast_nullable_to_non_nullable
-              as String?,
+    return _then(_MedicineScheduleNotificationSetting(
+      isReminderEnabled: null == isReminderEnabled
+          ? _self.isReminderEnabled
+          : isReminderEnabled // ignore: cast_nullable_to_non_nullable
+              as bool,
+      isFollowupEnabled: null == isFollowupEnabled
+          ? _self.isFollowupEnabled
+          : isFollowupEnabled // ignore: cast_nullable_to_non_nullable
+              as bool,
+      useCriticalAlert: null == useCriticalAlert
+          ? _self.useCriticalAlert
+          : useCriticalAlert // ignore: cast_nullable_to_non_nullable
+              as bool,
+      criticalAlertVolume: null == criticalAlertVolume
+          ? _self.criticalAlertVolume
+          : criticalAlertVolume // ignore: cast_nullable_to_non_nullable
+              as double,
+      useAlarmKit: null == useAlarmKit
+          ? _self.useAlarmKit
+          : useAlarmKit // ignore: cast_nullable_to_non_nullable
+              as bool,
     ));
   }
 }
 
 /// @nodoc
+mixin _$MedicineScheduleFocusConnectSetting {
+  String? get focusConnectScheduleID;
 
-@JsonSerializable(explicitToJson: true)
-class _$MedicineScheduleFocusConnectSettingImpl extends _MedicineScheduleFocusConnectSetting {
-  const _$MedicineScheduleFocusConnectSettingImpl({this.focusConnectScheduleID}) : super._();
+  /// Create a copy of MedicineScheduleFocusConnectSetting
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  @pragma('vm:prefer-inline')
+  $MedicineScheduleFocusConnectSettingCopyWith<MedicineScheduleFocusConnectSetting> get copyWith =>
+      _$MedicineScheduleFocusConnectSettingCopyWithImpl<MedicineScheduleFocusConnectSetting>(this as MedicineScheduleFocusConnectSetting, _$identity);
 
-  factory _$MedicineScheduleFocusConnectSettingImpl.fromJson(Map<String, dynamic> json) => _$$MedicineScheduleFocusConnectSettingImplFromJson(json);
-
-  @override
-  final String? focusConnectScheduleID;
-
-  @override
-  String toString() {
-    return 'MedicineScheduleFocusConnectSetting(focusConnectScheduleID: $focusConnectScheduleID)';
-  }
+  /// Serializes this MedicineScheduleFocusConnectSetting to a JSON map.
+  Map<String, dynamic> toJson();
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _$MedicineScheduleFocusConnectSettingImpl &&
+            other is MedicineScheduleFocusConnectSetting &&
             (identical(other.focusConnectScheduleID, focusConnectScheduleID) || other.focusConnectScheduleID == focusConnectScheduleID));
   }
 
@@ -784,64 +1088,322 @@ class _$MedicineScheduleFocusConnectSettingImpl extends _MedicineScheduleFocusCo
   @override
   int get hashCode => Object.hash(runtimeType, focusConnectScheduleID);
 
-  /// Create a copy of MedicineScheduleFocusConnectSetting
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
   @override
-  @pragma('vm:prefer-inline')
-  _$$MedicineScheduleFocusConnectSettingImplCopyWith<_$MedicineScheduleFocusConnectSettingImpl> get copyWith =>
-      __$$MedicineScheduleFocusConnectSettingImplCopyWithImpl<_$MedicineScheduleFocusConnectSettingImpl>(this, _$identity);
-
-  @override
-  Map<String, dynamic> toJson() {
-    return _$$MedicineScheduleFocusConnectSettingImplToJson(
-      this,
-    );
+  String toString() {
+    return 'MedicineScheduleFocusConnectSetting(focusConnectScheduleID: $focusConnectScheduleID)';
   }
 }
 
-abstract class _MedicineScheduleFocusConnectSetting extends MedicineScheduleFocusConnectSetting {
-  const factory _MedicineScheduleFocusConnectSetting({final String? focusConnectScheduleID}) = _$MedicineScheduleFocusConnectSettingImpl;
-  const _MedicineScheduleFocusConnectSetting._() : super._();
+/// @nodoc
+abstract mixin class $MedicineScheduleFocusConnectSettingCopyWith<$Res> {
+  factory $MedicineScheduleFocusConnectSettingCopyWith(
+          MedicineScheduleFocusConnectSetting value, $Res Function(MedicineScheduleFocusConnectSetting) _then) =
+      _$MedicineScheduleFocusConnectSettingCopyWithImpl;
+  @useResult
+  $Res call({String? focusConnectScheduleID});
+}
 
-  factory _MedicineScheduleFocusConnectSetting.fromJson(Map<String, dynamic> json) = _$MedicineScheduleFocusConnectSettingImpl.fromJson;
+/// @nodoc
+class _$MedicineScheduleFocusConnectSettingCopyWithImpl<$Res> implements $MedicineScheduleFocusConnectSettingCopyWith<$Res> {
+  _$MedicineScheduleFocusConnectSettingCopyWithImpl(this._self, this._then);
+
+  final MedicineScheduleFocusConnectSetting _self;
+  final $Res Function(MedicineScheduleFocusConnectSetting) _then;
+
+  /// Create a copy of MedicineScheduleFocusConnectSetting
+  /// with the given fields replaced by the non-null parameter values.
+  @pragma('vm:prefer-inline')
+  @override
+  $Res call({
+    Object? focusConnectScheduleID = freezed,
+  }) {
+    return _then(_self.copyWith(
+      focusConnectScheduleID: freezed == focusConnectScheduleID
+          ? _self.focusConnectScheduleID
+          : focusConnectScheduleID // ignore: cast_nullable_to_non_nullable
+              as String?,
+    ));
+  }
+}
+
+/// Adds pattern-matching-related methods to [MedicineScheduleFocusConnectSetting].
+extension MedicineScheduleFocusConnectSettingPatterns on MedicineScheduleFocusConnectSetting {
+  /// A variant of `map` that fallback to returning `orElse`.
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case final Subclass value:
+  ///     return ...;
+  ///   case _:
+  ///     return orElse();
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult maybeMap<TResult extends Object?>(
+    TResult Function(_MedicineScheduleFocusConnectSetting value)? $default, {
+    required TResult orElse(),
+  }) {
+    final _that = this;
+    switch (_that) {
+      case _MedicineScheduleFocusConnectSetting() when $default != null:
+        return $default(_that);
+      case _:
+        return orElse();
+    }
+  }
+
+  /// A `switch`-like method, using callbacks.
+  ///
+  /// Callbacks receives the raw object, upcasted.
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case final Subclass value:
+  ///     return ...;
+  ///   case final Subclass2 value:
+  ///     return ...;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult map<TResult extends Object?>(
+    TResult Function(_MedicineScheduleFocusConnectSetting value) $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _MedicineScheduleFocusConnectSetting():
+        return $default(_that);
+      case _:
+        throw StateError('Unexpected subclass');
+    }
+  }
+
+  /// A variant of `map` that fallback to returning `null`.
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case final Subclass value:
+  ///     return ...;
+  ///   case _:
+  ///     return null;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult? mapOrNull<TResult extends Object?>(
+    TResult? Function(_MedicineScheduleFocusConnectSetting value)? $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _MedicineScheduleFocusConnectSetting() when $default != null:
+        return $default(_that);
+      case _:
+        return null;
+    }
+  }
+
+  /// A variant of `when` that fallback to an `orElse` callback.
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case Subclass(:final field):
+  ///     return ...;
+  ///   case _:
+  ///     return orElse();
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult maybeWhen<TResult extends Object?>(
+    TResult Function(String? focusConnectScheduleID)? $default, {
+    required TResult orElse(),
+  }) {
+    final _that = this;
+    switch (_that) {
+      case _MedicineScheduleFocusConnectSetting() when $default != null:
+        return $default(_that.focusConnectScheduleID);
+      case _:
+        return orElse();
+    }
+  }
+
+  /// A `switch`-like method, using callbacks.
+  ///
+  /// As opposed to `map`, this offers destructuring.
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case Subclass(:final field):
+  ///     return ...;
+  ///   case Subclass2(:final field2):
+  ///     return ...;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult when<TResult extends Object?>(
+    TResult Function(String? focusConnectScheduleID) $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _MedicineScheduleFocusConnectSetting():
+        return $default(_that.focusConnectScheduleID);
+      case _:
+        throw StateError('Unexpected subclass');
+    }
+  }
+
+  /// A variant of `when` that fallback to returning `null`
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case Subclass(:final field):
+  ///     return ...;
+  ///   case _:
+  ///     return null;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult? whenOrNull<TResult extends Object?>(
+    TResult? Function(String? focusConnectScheduleID)? $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _MedicineScheduleFocusConnectSetting() when $default != null:
+        return $default(_that.focusConnectScheduleID);
+      case _:
+        return null;
+    }
+  }
+}
+
+/// @nodoc
+
+@JsonSerializable(explicitToJson: true)
+class _MedicineScheduleFocusConnectSetting extends MedicineScheduleFocusConnectSetting {
+  const _MedicineScheduleFocusConnectSetting({this.focusConnectScheduleID}) : super._();
+  factory _MedicineScheduleFocusConnectSetting.fromJson(Map<String, dynamic> json) => _$MedicineScheduleFocusConnectSettingFromJson(json);
 
   @override
-  String? get focusConnectScheduleID;
+  final String? focusConnectScheduleID;
 
   /// Create a copy of MedicineScheduleFocusConnectSetting
   /// with the given fields replaced by the non-null parameter values.
   @override
   @JsonKey(includeFromJson: false, includeToJson: false)
-  _$$MedicineScheduleFocusConnectSettingImplCopyWith<_$MedicineScheduleFocusConnectSettingImpl> get copyWith => throw _privateConstructorUsedError;
+  @pragma('vm:prefer-inline')
+  _$MedicineScheduleFocusConnectSettingCopyWith<_MedicineScheduleFocusConnectSetting> get copyWith =>
+      __$MedicineScheduleFocusConnectSettingCopyWithImpl<_MedicineScheduleFocusConnectSetting>(this, _$identity);
+
+  @override
+  Map<String, dynamic> toJson() {
+    return _$MedicineScheduleFocusConnectSettingToJson(
+      this,
+    );
+  }
+
+  @override
+  bool operator ==(Object other) {
+    return identical(this, other) ||
+        (other.runtimeType == runtimeType &&
+            other is _MedicineScheduleFocusConnectSetting &&
+            (identical(other.focusConnectScheduleID, focusConnectScheduleID) || other.focusConnectScheduleID == focusConnectScheduleID));
+  }
+
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  @override
+  int get hashCode => Object.hash(runtimeType, focusConnectScheduleID);
+
+  @override
+  String toString() {
+    return 'MedicineScheduleFocusConnectSetting(focusConnectScheduleID: $focusConnectScheduleID)';
+  }
 }
 
-MedicationSchedule _$MedicationScheduleFromJson(Map<String, dynamic> json) {
-  return _MedicationSchedule.fromJson(json);
+/// @nodoc
+abstract mixin class _$MedicineScheduleFocusConnectSettingCopyWith<$Res> implements $MedicineScheduleFocusConnectSettingCopyWith<$Res> {
+  factory _$MedicineScheduleFocusConnectSettingCopyWith(
+          _MedicineScheduleFocusConnectSetting value, $Res Function(_MedicineScheduleFocusConnectSetting) _then) =
+      __$MedicineScheduleFocusConnectSettingCopyWithImpl;
+  @override
+  @useResult
+  $Res call({String? focusConnectScheduleID});
+}
+
+/// @nodoc
+class __$MedicineScheduleFocusConnectSettingCopyWithImpl<$Res> implements _$MedicineScheduleFocusConnectSettingCopyWith<$Res> {
+  __$MedicineScheduleFocusConnectSettingCopyWithImpl(this._self, this._then);
+
+  final _MedicineScheduleFocusConnectSetting _self;
+  final $Res Function(_MedicineScheduleFocusConnectSetting) _then;
+
+  /// Create a copy of MedicineScheduleFocusConnectSetting
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $Res call({
+    Object? focusConnectScheduleID = freezed,
+  }) {
+    return _then(_MedicineScheduleFocusConnectSetting(
+      focusConnectScheduleID: freezed == focusConnectScheduleID
+          ? _self.focusConnectScheduleID
+          : focusConnectScheduleID // ignore: cast_nullable_to_non_nullable
+              as String?,
+    ));
+  }
 }
 
 /// @nodoc
 mixin _$MedicationSchedule {
-  String get id => throw _privateConstructorUsedError;
-  int get hour => throw _privateConstructorUsedError;
-  int get minute => throw _privateConstructorUsedError;
-  String get quantityMemo => throw _privateConstructorUsedError;
-  MedicineScheduleNotificationSetting get notificationSetting => throw _privateConstructorUsedError;
-  MedicineScheduleFocusConnectSetting? get focusConnectSetting => throw _privateConstructorUsedError;
-
-  /// Serializes this MedicationSchedule to a JSON map.
-  Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
+  String get id;
+  int get hour;
+  int get minute;
+  String get quantityMemo;
+  MedicineScheduleNotificationSetting get notificationSetting;
+  MedicineScheduleFocusConnectSetting? get focusConnectSetting;
 
   /// Create a copy of MedicationSchedule
   /// with the given fields replaced by the non-null parameter values.
   @JsonKey(includeFromJson: false, includeToJson: false)
-  $MedicationScheduleCopyWith<MedicationSchedule> get copyWith => throw _privateConstructorUsedError;
+  @pragma('vm:prefer-inline')
+  $MedicationScheduleCopyWith<MedicationSchedule> get copyWith =>
+      _$MedicationScheduleCopyWithImpl<MedicationSchedule>(this as MedicationSchedule, _$identity);
+
+  /// Serializes this MedicationSchedule to a JSON map.
+  Map<String, dynamic> toJson();
+
+  @override
+  bool operator ==(Object other) {
+    return identical(this, other) ||
+        (other.runtimeType == runtimeType &&
+            other is MedicationSchedule &&
+            (identical(other.id, id) || other.id == id) &&
+            (identical(other.hour, hour) || other.hour == hour) &&
+            (identical(other.minute, minute) || other.minute == minute) &&
+            (identical(other.quantityMemo, quantityMemo) || other.quantityMemo == quantityMemo) &&
+            (identical(other.notificationSetting, notificationSetting) || other.notificationSetting == notificationSetting) &&
+            (identical(other.focusConnectSetting, focusConnectSetting) || other.focusConnectSetting == focusConnectSetting));
+  }
+
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  @override
+  int get hashCode => Object.hash(runtimeType, id, hour, minute, quantityMemo, notificationSetting, focusConnectSetting);
+
+  @override
+  String toString() {
+    return 'MedicationSchedule(id: $id, hour: $hour, minute: $minute, quantityMemo: $quantityMemo, notificationSetting: $notificationSetting, focusConnectSetting: $focusConnectSetting)';
+  }
 }
 
 /// @nodoc
-abstract class $MedicationScheduleCopyWith<$Res> {
-  factory $MedicationScheduleCopyWith(MedicationSchedule value, $Res Function(MedicationSchedule) then) =
-      _$MedicationScheduleCopyWithImpl<$Res, MedicationSchedule>;
+abstract mixin class $MedicationScheduleCopyWith<$Res> {
+  factory $MedicationScheduleCopyWith(MedicationSchedule value, $Res Function(MedicationSchedule) _then) = _$MedicationScheduleCopyWithImpl;
   @useResult
   $Res call(
       {String id,
@@ -856,13 +1418,11 @@ abstract class $MedicationScheduleCopyWith<$Res> {
 }
 
 /// @nodoc
-class _$MedicationScheduleCopyWithImpl<$Res, $Val extends MedicationSchedule> implements $MedicationScheduleCopyWith<$Res> {
-  _$MedicationScheduleCopyWithImpl(this._value, this._then);
+class _$MedicationScheduleCopyWithImpl<$Res> implements $MedicationScheduleCopyWith<$Res> {
+  _$MedicationScheduleCopyWithImpl(this._self, this._then);
 
-  // ignore: unused_field
-  final $Val _value;
-  // ignore: unused_field
-  final $Res Function($Val) _then;
+  final MedicationSchedule _self;
+  final $Res Function(MedicationSchedule) _then;
 
   /// Create a copy of MedicationSchedule
   /// with the given fields replaced by the non-null parameter values.
@@ -876,32 +1436,32 @@ class _$MedicationScheduleCopyWithImpl<$Res, $Val extends MedicationSchedule> im
     Object? notificationSetting = null,
     Object? focusConnectSetting = freezed,
   }) {
-    return _then(_value.copyWith(
+    return _then(_self.copyWith(
       id: null == id
-          ? _value.id
+          ? _self.id
           : id // ignore: cast_nullable_to_non_nullable
               as String,
       hour: null == hour
-          ? _value.hour
+          ? _self.hour
           : hour // ignore: cast_nullable_to_non_nullable
               as int,
       minute: null == minute
-          ? _value.minute
+          ? _self.minute
           : minute // ignore: cast_nullable_to_non_nullable
               as int,
       quantityMemo: null == quantityMemo
-          ? _value.quantityMemo
+          ? _self.quantityMemo
           : quantityMemo // ignore: cast_nullable_to_non_nullable
               as String,
       notificationSetting: null == notificationSetting
-          ? _value.notificationSetting
+          ? _self.notificationSetting
           : notificationSetting // ignore: cast_nullable_to_non_nullable
               as MedicineScheduleNotificationSetting,
       focusConnectSetting: freezed == focusConnectSetting
-          ? _value.focusConnectSetting
+          ? _self.focusConnectSetting
           : focusConnectSetting // ignore: cast_nullable_to_non_nullable
               as MedicineScheduleFocusConnectSetting?,
-    ) as $Val);
+    ));
   }
 
   /// Create a copy of MedicationSchedule
@@ -909,8 +1469,8 @@ class _$MedicationScheduleCopyWithImpl<$Res, $Val extends MedicationSchedule> im
   @override
   @pragma('vm:prefer-inline')
   $MedicineScheduleNotificationSettingCopyWith<$Res> get notificationSetting {
-    return $MedicineScheduleNotificationSettingCopyWith<$Res>(_value.notificationSetting, (value) {
-      return _then(_value.copyWith(notificationSetting: value) as $Val);
+    return $MedicineScheduleNotificationSettingCopyWith<$Res>(_self.notificationSetting, (value) {
+      return _then(_self.copyWith(notificationSetting: value));
     });
   }
 
@@ -919,87 +1479,184 @@ class _$MedicationScheduleCopyWithImpl<$Res, $Val extends MedicationSchedule> im
   @override
   @pragma('vm:prefer-inline')
   $MedicineScheduleFocusConnectSettingCopyWith<$Res>? get focusConnectSetting {
-    if (_value.focusConnectSetting == null) {
+    if (_self.focusConnectSetting == null) {
       return null;
     }
 
-    return $MedicineScheduleFocusConnectSettingCopyWith<$Res>(_value.focusConnectSetting!, (value) {
-      return _then(_value.copyWith(focusConnectSetting: value) as $Val);
+    return $MedicineScheduleFocusConnectSettingCopyWith<$Res>(_self.focusConnectSetting!, (value) {
+      return _then(_self.copyWith(focusConnectSetting: value));
     });
   }
 }
 
-/// @nodoc
-abstract class _$$MedicationScheduleImplCopyWith<$Res> implements $MedicationScheduleCopyWith<$Res> {
-  factory _$$MedicationScheduleImplCopyWith(_$MedicationScheduleImpl value, $Res Function(_$MedicationScheduleImpl) then) =
-      __$$MedicationScheduleImplCopyWithImpl<$Res>;
-  @override
-  @useResult
-  $Res call(
-      {String id,
-      int hour,
-      int minute,
-      String quantityMemo,
-      MedicineScheduleNotificationSetting notificationSetting,
-      MedicineScheduleFocusConnectSetting? focusConnectSetting});
+/// Adds pattern-matching-related methods to [MedicationSchedule].
+extension MedicationSchedulePatterns on MedicationSchedule {
+  /// A variant of `map` that fallback to returning `orElse`.
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case final Subclass value:
+  ///     return ...;
+  ///   case _:
+  ///     return orElse();
+  /// }
+  /// ```
 
-  @override
-  $MedicineScheduleNotificationSettingCopyWith<$Res> get notificationSetting;
-  @override
-  $MedicineScheduleFocusConnectSettingCopyWith<$Res>? get focusConnectSetting;
-}
-
-/// @nodoc
-class __$$MedicationScheduleImplCopyWithImpl<$Res> extends _$MedicationScheduleCopyWithImpl<$Res, _$MedicationScheduleImpl>
-    implements _$$MedicationScheduleImplCopyWith<$Res> {
-  __$$MedicationScheduleImplCopyWithImpl(_$MedicationScheduleImpl _value, $Res Function(_$MedicationScheduleImpl) _then) : super(_value, _then);
-
-  /// Create a copy of MedicationSchedule
-  /// with the given fields replaced by the non-null parameter values.
-  @pragma('vm:prefer-inline')
-  @override
-  $Res call({
-    Object? id = null,
-    Object? hour = null,
-    Object? minute = null,
-    Object? quantityMemo = null,
-    Object? notificationSetting = null,
-    Object? focusConnectSetting = freezed,
+  @optionalTypeArgs
+  TResult maybeMap<TResult extends Object?>(
+    TResult Function(_MedicationSchedule value)? $default, {
+    required TResult orElse(),
   }) {
-    return _then(_$MedicationScheduleImpl(
-      id: null == id
-          ? _value.id
-          : id // ignore: cast_nullable_to_non_nullable
-              as String,
-      hour: null == hour
-          ? _value.hour
-          : hour // ignore: cast_nullable_to_non_nullable
-              as int,
-      minute: null == minute
-          ? _value.minute
-          : minute // ignore: cast_nullable_to_non_nullable
-              as int,
-      quantityMemo: null == quantityMemo
-          ? _value.quantityMemo
-          : quantityMemo // ignore: cast_nullable_to_non_nullable
-              as String,
-      notificationSetting: null == notificationSetting
-          ? _value.notificationSetting
-          : notificationSetting // ignore: cast_nullable_to_non_nullable
-              as MedicineScheduleNotificationSetting,
-      focusConnectSetting: freezed == focusConnectSetting
-          ? _value.focusConnectSetting
-          : focusConnectSetting // ignore: cast_nullable_to_non_nullable
-              as MedicineScheduleFocusConnectSetting?,
-    ));
+    final _that = this;
+    switch (_that) {
+      case _MedicationSchedule() when $default != null:
+        return $default(_that);
+      case _:
+        return orElse();
+    }
+  }
+
+  /// A `switch`-like method, using callbacks.
+  ///
+  /// Callbacks receives the raw object, upcasted.
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case final Subclass value:
+  ///     return ...;
+  ///   case final Subclass2 value:
+  ///     return ...;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult map<TResult extends Object?>(
+    TResult Function(_MedicationSchedule value) $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _MedicationSchedule():
+        return $default(_that);
+      case _:
+        throw StateError('Unexpected subclass');
+    }
+  }
+
+  /// A variant of `map` that fallback to returning `null`.
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case final Subclass value:
+  ///     return ...;
+  ///   case _:
+  ///     return null;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult? mapOrNull<TResult extends Object?>(
+    TResult? Function(_MedicationSchedule value)? $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _MedicationSchedule() when $default != null:
+        return $default(_that);
+      case _:
+        return null;
+    }
+  }
+
+  /// A variant of `when` that fallback to an `orElse` callback.
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case Subclass(:final field):
+  ///     return ...;
+  ///   case _:
+  ///     return orElse();
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult maybeWhen<TResult extends Object?>(
+    TResult Function(String id, int hour, int minute, String quantityMemo, MedicineScheduleNotificationSetting notificationSetting,
+            MedicineScheduleFocusConnectSetting? focusConnectSetting)?
+        $default, {
+    required TResult orElse(),
+  }) {
+    final _that = this;
+    switch (_that) {
+      case _MedicationSchedule() when $default != null:
+        return $default(_that.id, _that.hour, _that.minute, _that.quantityMemo, _that.notificationSetting, _that.focusConnectSetting);
+      case _:
+        return orElse();
+    }
+  }
+
+  /// A `switch`-like method, using callbacks.
+  ///
+  /// As opposed to `map`, this offers destructuring.
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case Subclass(:final field):
+  ///     return ...;
+  ///   case Subclass2(:final field2):
+  ///     return ...;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult when<TResult extends Object?>(
+    TResult Function(String id, int hour, int minute, String quantityMemo, MedicineScheduleNotificationSetting notificationSetting,
+            MedicineScheduleFocusConnectSetting? focusConnectSetting)
+        $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _MedicationSchedule():
+        return $default(_that.id, _that.hour, _that.minute, _that.quantityMemo, _that.notificationSetting, _that.focusConnectSetting);
+      case _:
+        throw StateError('Unexpected subclass');
+    }
+  }
+
+  /// A variant of `when` that fallback to returning `null`
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case Subclass(:final field):
+  ///     return ...;
+  ///   case _:
+  ///     return null;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult? whenOrNull<TResult extends Object?>(
+    TResult? Function(String id, int hour, int minute, String quantityMemo, MedicineScheduleNotificationSetting notificationSetting,
+            MedicineScheduleFocusConnectSetting? focusConnectSetting)?
+        $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _MedicationSchedule() when $default != null:
+        return $default(_that.id, _that.hour, _that.minute, _that.quantityMemo, _that.notificationSetting, _that.focusConnectSetting);
+      case _:
+        return null;
+    }
   }
 }
 
 /// @nodoc
 
 @JsonSerializable(explicitToJson: true)
-class _$MedicationScheduleImpl extends _MedicationSchedule {
-  const _$MedicationScheduleImpl(
+class _MedicationSchedule extends MedicationSchedule {
+  const _MedicationSchedule(
       {required this.id,
       required this.hour,
       required this.minute,
@@ -1007,8 +1664,7 @@ class _$MedicationScheduleImpl extends _MedicationSchedule {
       required this.notificationSetting,
       required this.focusConnectSetting})
       : super._();
-
-  factory _$MedicationScheduleImpl.fromJson(Map<String, dynamic> json) => _$$MedicationScheduleImplFromJson(json);
+  factory _MedicationSchedule.fromJson(Map<String, dynamic> json) => _$MedicationScheduleFromJson(json);
 
   @override
   final String id;
@@ -1023,16 +1679,25 @@ class _$MedicationScheduleImpl extends _MedicationSchedule {
   @override
   final MedicineScheduleFocusConnectSetting? focusConnectSetting;
 
+  /// Create a copy of MedicationSchedule
+  /// with the given fields replaced by the non-null parameter values.
   @override
-  String toString() {
-    return 'MedicationSchedule(id: $id, hour: $hour, minute: $minute, quantityMemo: $quantityMemo, notificationSetting: $notificationSetting, focusConnectSetting: $focusConnectSetting)';
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  @pragma('vm:prefer-inline')
+  _$MedicationScheduleCopyWith<_MedicationSchedule> get copyWith => __$MedicationScheduleCopyWithImpl<_MedicationSchedule>(this, _$identity);
+
+  @override
+  Map<String, dynamic> toJson() {
+    return _$MedicationScheduleToJson(
+      this,
+    );
   }
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _$MedicationScheduleImpl &&
+            other is _MedicationSchedule &&
             (identical(other.id, id) || other.id == id) &&
             (identical(other.hour, hour) || other.hour == hour) &&
             (identical(other.minute, minute) || other.minute == minute) &&
@@ -1045,50 +1710,101 @@ class _$MedicationScheduleImpl extends _MedicationSchedule {
   @override
   int get hashCode => Object.hash(runtimeType, id, hour, minute, quantityMemo, notificationSetting, focusConnectSetting);
 
-  /// Create a copy of MedicationSchedule
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
   @override
-  @pragma('vm:prefer-inline')
-  _$$MedicationScheduleImplCopyWith<_$MedicationScheduleImpl> get copyWith =>
-      __$$MedicationScheduleImplCopyWithImpl<_$MedicationScheduleImpl>(this, _$identity);
-
-  @override
-  Map<String, dynamic> toJson() {
-    return _$$MedicationScheduleImplToJson(
-      this,
-    );
+  String toString() {
+    return 'MedicationSchedule(id: $id, hour: $hour, minute: $minute, quantityMemo: $quantityMemo, notificationSetting: $notificationSetting, focusConnectSetting: $focusConnectSetting)';
   }
 }
 
-abstract class _MedicationSchedule extends MedicationSchedule {
-  const factory _MedicationSchedule(
-      {required final String id,
-      required final int hour,
-      required final int minute,
-      required final String quantityMemo,
-      required final MedicineScheduleNotificationSetting notificationSetting,
-      required final MedicineScheduleFocusConnectSetting? focusConnectSetting}) = _$MedicationScheduleImpl;
-  const _MedicationSchedule._() : super._();
+/// @nodoc
+abstract mixin class _$MedicationScheduleCopyWith<$Res> implements $MedicationScheduleCopyWith<$Res> {
+  factory _$MedicationScheduleCopyWith(_MedicationSchedule value, $Res Function(_MedicationSchedule) _then) = __$MedicationScheduleCopyWithImpl;
+  @override
+  @useResult
+  $Res call(
+      {String id,
+      int hour,
+      int minute,
+      String quantityMemo,
+      MedicineScheduleNotificationSetting notificationSetting,
+      MedicineScheduleFocusConnectSetting? focusConnectSetting});
 
-  factory _MedicationSchedule.fromJson(Map<String, dynamic> json) = _$MedicationScheduleImpl.fromJson;
+  @override
+  $MedicineScheduleNotificationSettingCopyWith<$Res> get notificationSetting;
+  @override
+  $MedicineScheduleFocusConnectSettingCopyWith<$Res>? get focusConnectSetting;
+}
 
-  @override
-  String get id;
-  @override
-  int get hour;
-  @override
-  int get minute;
-  @override
-  String get quantityMemo;
-  @override
-  MedicineScheduleNotificationSetting get notificationSetting;
-  @override
-  MedicineScheduleFocusConnectSetting? get focusConnectSetting;
+/// @nodoc
+class __$MedicationScheduleCopyWithImpl<$Res> implements _$MedicationScheduleCopyWith<$Res> {
+  __$MedicationScheduleCopyWithImpl(this._self, this._then);
+
+  final _MedicationSchedule _self;
+  final $Res Function(_MedicationSchedule) _then;
 
   /// Create a copy of MedicationSchedule
   /// with the given fields replaced by the non-null parameter values.
   @override
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  _$$MedicationScheduleImplCopyWith<_$MedicationScheduleImpl> get copyWith => throw _privateConstructorUsedError;
+  @pragma('vm:prefer-inline')
+  $Res call({
+    Object? id = null,
+    Object? hour = null,
+    Object? minute = null,
+    Object? quantityMemo = null,
+    Object? notificationSetting = null,
+    Object? focusConnectSetting = freezed,
+  }) {
+    return _then(_MedicationSchedule(
+      id: null == id
+          ? _self.id
+          : id // ignore: cast_nullable_to_non_nullable
+              as String,
+      hour: null == hour
+          ? _self.hour
+          : hour // ignore: cast_nullable_to_non_nullable
+              as int,
+      minute: null == minute
+          ? _self.minute
+          : minute // ignore: cast_nullable_to_non_nullable
+              as int,
+      quantityMemo: null == quantityMemo
+          ? _self.quantityMemo
+          : quantityMemo // ignore: cast_nullable_to_non_nullable
+              as String,
+      notificationSetting: null == notificationSetting
+          ? _self.notificationSetting
+          : notificationSetting // ignore: cast_nullable_to_non_nullable
+              as MedicineScheduleNotificationSetting,
+      focusConnectSetting: freezed == focusConnectSetting
+          ? _self.focusConnectSetting
+          : focusConnectSetting // ignore: cast_nullable_to_non_nullable
+              as MedicineScheduleFocusConnectSetting?,
+    ));
+  }
+
+  /// Create a copy of MedicationSchedule
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $MedicineScheduleNotificationSettingCopyWith<$Res> get notificationSetting {
+    return $MedicineScheduleNotificationSettingCopyWith<$Res>(_self.notificationSetting, (value) {
+      return _then(_self.copyWith(notificationSetting: value));
+    });
+  }
+
+  /// Create a copy of MedicationSchedule
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $MedicineScheduleFocusConnectSettingCopyWith<$Res>? get focusConnectSetting {
+    if (_self.focusConnectSetting == null) {
+      return null;
+    }
+
+    return $MedicineScheduleFocusConnectSettingCopyWith<$Res>(_self.focusConnectSetting!, (value) {
+      return _then(_self.copyWith(focusConnectSetting: value));
+    });
+  }
 }
+
+// dart format on

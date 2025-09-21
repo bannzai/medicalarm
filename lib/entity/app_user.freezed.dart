@@ -1,5 +1,5 @@
-// coverage:ignore-file
 // GENERATED CODE - DO NOT MODIFY BY HAND
+// coverage:ignore-file
 // ignore_for_file: type=lint
 // ignore_for_file: unused_element, deprecated_member_use, deprecated_member_use_from_same_package, use_function_type_syntax_for_parameters, unnecessary_const, avoid_init_to_null, invalid_override_different_default_values_named, prefer_expression_function_bodies, annotate_overrides, invalid_annotation_target, unnecessary_question_mark
 
@@ -9,120 +9,65 @@ part of 'app_user.dart';
 // FreezedGenerator
 // **************************************************************************
 
+// dart format off
 T _$identity<T>(T value) => value;
-
-final _privateConstructorUsedError = UnsupportedError(
-    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#adding-getters-and-methods-to-our-models');
-
-AppUser _$AppUserFromJson(Map<String, dynamic> json) {
-  return _AppUser.fromJson(json);
-}
 
 /// @nodoc
 mixin _$AppUser {
-  String? get id => throw _privateConstructorUsedError;
-  bool get analyticsDebugIsEnabled => throw _privateConstructorUsedError;
+  String? get id;
+  bool get analyticsDebugIsEnabled;
   @NullableTimestampConverter()
-  DateTime? get maybeTrialDeadlineDate => throw _privateConstructorUsedError;
+  DateTime? get maybeTrialDeadlineDate;
   @NullableTimestampConverter()
-  DateTime? get promotionStartPageCancelButtonTappedDateTime => throw _privateConstructorUsedError;
+  DateTime? get promotionStartPageCancelButtonTappedDateTime;
   @ClientCreatedTimestamp()
-  DateTime? get createdDateTime => throw _privateConstructorUsedError;
+  DateTime? get createdDateTime;
   @ClientUpdatedTimestamp()
-  DateTime? get updatedDateTime => throw _privateConstructorUsedError;
+  DateTime? get updatedDateTime;
   @ServerCreatedTimestamp()
-  DateTime? get serverCreatedDateTime => throw _privateConstructorUsedError;
+  DateTime? get serverCreatedDateTime;
   @ServerUpdatedTimestamp()
-  DateTime? get serverUpdatedDateTime => throw _privateConstructorUsedError;
-
-  /// Serializes this AppUser to a JSON map.
-  Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
+  DateTime? get serverUpdatedDateTime;
 
   /// Create a copy of AppUser
   /// with the given fields replaced by the non-null parameter values.
   @JsonKey(includeFromJson: false, includeToJson: false)
-  $AppUserCopyWith<AppUser> get copyWith => throw _privateConstructorUsedError;
-}
-
-/// @nodoc
-abstract class $AppUserCopyWith<$Res> {
-  factory $AppUserCopyWith(AppUser value, $Res Function(AppUser) then) = _$AppUserCopyWithImpl<$Res, AppUser>;
-  @useResult
-  $Res call(
-      {String? id,
-      bool analyticsDebugIsEnabled,
-      @NullableTimestampConverter() DateTime? maybeTrialDeadlineDate,
-      @NullableTimestampConverter() DateTime? promotionStartPageCancelButtonTappedDateTime,
-      @ClientCreatedTimestamp() DateTime? createdDateTime,
-      @ClientUpdatedTimestamp() DateTime? updatedDateTime,
-      @ServerCreatedTimestamp() DateTime? serverCreatedDateTime,
-      @ServerUpdatedTimestamp() DateTime? serverUpdatedDateTime});
-}
-
-/// @nodoc
-class _$AppUserCopyWithImpl<$Res, $Val extends AppUser> implements $AppUserCopyWith<$Res> {
-  _$AppUserCopyWithImpl(this._value, this._then);
-
-  // ignore: unused_field
-  final $Val _value;
-  // ignore: unused_field
-  final $Res Function($Val) _then;
-
-  /// Create a copy of AppUser
-  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
+  $AppUserCopyWith<AppUser> get copyWith => _$AppUserCopyWithImpl<AppUser>(this as AppUser, _$identity);
+
+  /// Serializes this AppUser to a JSON map.
+  Map<String, dynamic> toJson();
+
   @override
-  $Res call({
-    Object? id = freezed,
-    Object? analyticsDebugIsEnabled = null,
-    Object? maybeTrialDeadlineDate = freezed,
-    Object? promotionStartPageCancelButtonTappedDateTime = freezed,
-    Object? createdDateTime = freezed,
-    Object? updatedDateTime = freezed,
-    Object? serverCreatedDateTime = freezed,
-    Object? serverUpdatedDateTime = freezed,
-  }) {
-    return _then(_value.copyWith(
-      id: freezed == id
-          ? _value.id
-          : id // ignore: cast_nullable_to_non_nullable
-              as String?,
-      analyticsDebugIsEnabled: null == analyticsDebugIsEnabled
-          ? _value.analyticsDebugIsEnabled
-          : analyticsDebugIsEnabled // ignore: cast_nullable_to_non_nullable
-              as bool,
-      maybeTrialDeadlineDate: freezed == maybeTrialDeadlineDate
-          ? _value.maybeTrialDeadlineDate
-          : maybeTrialDeadlineDate // ignore: cast_nullable_to_non_nullable
-              as DateTime?,
-      promotionStartPageCancelButtonTappedDateTime: freezed == promotionStartPageCancelButtonTappedDateTime
-          ? _value.promotionStartPageCancelButtonTappedDateTime
-          : promotionStartPageCancelButtonTappedDateTime // ignore: cast_nullable_to_non_nullable
-              as DateTime?,
-      createdDateTime: freezed == createdDateTime
-          ? _value.createdDateTime
-          : createdDateTime // ignore: cast_nullable_to_non_nullable
-              as DateTime?,
-      updatedDateTime: freezed == updatedDateTime
-          ? _value.updatedDateTime
-          : updatedDateTime // ignore: cast_nullable_to_non_nullable
-              as DateTime?,
-      serverCreatedDateTime: freezed == serverCreatedDateTime
-          ? _value.serverCreatedDateTime
-          : serverCreatedDateTime // ignore: cast_nullable_to_non_nullable
-              as DateTime?,
-      serverUpdatedDateTime: freezed == serverUpdatedDateTime
-          ? _value.serverUpdatedDateTime
-          : serverUpdatedDateTime // ignore: cast_nullable_to_non_nullable
-              as DateTime?,
-    ) as $Val);
+  bool operator ==(Object other) {
+    return identical(this, other) ||
+        (other.runtimeType == runtimeType &&
+            other is AppUser &&
+            (identical(other.id, id) || other.id == id) &&
+            (identical(other.analyticsDebugIsEnabled, analyticsDebugIsEnabled) || other.analyticsDebugIsEnabled == analyticsDebugIsEnabled) &&
+            (identical(other.maybeTrialDeadlineDate, maybeTrialDeadlineDate) || other.maybeTrialDeadlineDate == maybeTrialDeadlineDate) &&
+            (identical(other.promotionStartPageCancelButtonTappedDateTime, promotionStartPageCancelButtonTappedDateTime) ||
+                other.promotionStartPageCancelButtonTappedDateTime == promotionStartPageCancelButtonTappedDateTime) &&
+            (identical(other.createdDateTime, createdDateTime) || other.createdDateTime == createdDateTime) &&
+            (identical(other.updatedDateTime, updatedDateTime) || other.updatedDateTime == updatedDateTime) &&
+            (identical(other.serverCreatedDateTime, serverCreatedDateTime) || other.serverCreatedDateTime == serverCreatedDateTime) &&
+            (identical(other.serverUpdatedDateTime, serverUpdatedDateTime) || other.serverUpdatedDateTime == serverUpdatedDateTime));
+  }
+
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  @override
+  int get hashCode => Object.hash(runtimeType, id, analyticsDebugIsEnabled, maybeTrialDeadlineDate, promotionStartPageCancelButtonTappedDateTime,
+      createdDateTime, updatedDateTime, serverCreatedDateTime, serverUpdatedDateTime);
+
+  @override
+  String toString() {
+    return 'AppUser(id: $id, analyticsDebugIsEnabled: $analyticsDebugIsEnabled, maybeTrialDeadlineDate: $maybeTrialDeadlineDate, promotionStartPageCancelButtonTappedDateTime: $promotionStartPageCancelButtonTappedDateTime, createdDateTime: $createdDateTime, updatedDateTime: $updatedDateTime, serverCreatedDateTime: $serverCreatedDateTime, serverUpdatedDateTime: $serverUpdatedDateTime)';
   }
 }
 
 /// @nodoc
-abstract class _$$AppUserImplCopyWith<$Res> implements $AppUserCopyWith<$Res> {
-  factory _$$AppUserImplCopyWith(_$AppUserImpl value, $Res Function(_$AppUserImpl) then) = __$$AppUserImplCopyWithImpl<$Res>;
-  @override
+abstract mixin class $AppUserCopyWith<$Res> {
+  factory $AppUserCopyWith(AppUser value, $Res Function(AppUser) _then) = _$AppUserCopyWithImpl;
   @useResult
   $Res call(
       {String? id,
@@ -136,8 +81,11 @@ abstract class _$$AppUserImplCopyWith<$Res> implements $AppUserCopyWith<$Res> {
 }
 
 /// @nodoc
-class __$$AppUserImplCopyWithImpl<$Res> extends _$AppUserCopyWithImpl<$Res, _$AppUserImpl> implements _$$AppUserImplCopyWith<$Res> {
-  __$$AppUserImplCopyWithImpl(_$AppUserImpl _value, $Res Function(_$AppUserImpl) _then) : super(_value, _then);
+class _$AppUserCopyWithImpl<$Res> implements $AppUserCopyWith<$Res> {
+  _$AppUserCopyWithImpl(this._self, this._then);
+
+  final AppUser _self;
+  final $Res Function(AppUser) _then;
 
   /// Create a copy of AppUser
   /// with the given fields replaced by the non-null parameter values.
@@ -153,48 +101,235 @@ class __$$AppUserImplCopyWithImpl<$Res> extends _$AppUserCopyWithImpl<$Res, _$Ap
     Object? serverCreatedDateTime = freezed,
     Object? serverUpdatedDateTime = freezed,
   }) {
-    return _then(_$AppUserImpl(
+    return _then(_self.copyWith(
       id: freezed == id
-          ? _value.id
+          ? _self.id
           : id // ignore: cast_nullable_to_non_nullable
               as String?,
       analyticsDebugIsEnabled: null == analyticsDebugIsEnabled
-          ? _value.analyticsDebugIsEnabled
+          ? _self.analyticsDebugIsEnabled
           : analyticsDebugIsEnabled // ignore: cast_nullable_to_non_nullable
               as bool,
       maybeTrialDeadlineDate: freezed == maybeTrialDeadlineDate
-          ? _value.maybeTrialDeadlineDate
+          ? _self.maybeTrialDeadlineDate
           : maybeTrialDeadlineDate // ignore: cast_nullable_to_non_nullable
               as DateTime?,
       promotionStartPageCancelButtonTappedDateTime: freezed == promotionStartPageCancelButtonTappedDateTime
-          ? _value.promotionStartPageCancelButtonTappedDateTime
+          ? _self.promotionStartPageCancelButtonTappedDateTime
           : promotionStartPageCancelButtonTappedDateTime // ignore: cast_nullable_to_non_nullable
               as DateTime?,
       createdDateTime: freezed == createdDateTime
-          ? _value.createdDateTime
+          ? _self.createdDateTime
           : createdDateTime // ignore: cast_nullable_to_non_nullable
               as DateTime?,
       updatedDateTime: freezed == updatedDateTime
-          ? _value.updatedDateTime
+          ? _self.updatedDateTime
           : updatedDateTime // ignore: cast_nullable_to_non_nullable
               as DateTime?,
       serverCreatedDateTime: freezed == serverCreatedDateTime
-          ? _value.serverCreatedDateTime
+          ? _self.serverCreatedDateTime
           : serverCreatedDateTime // ignore: cast_nullable_to_non_nullable
               as DateTime?,
       serverUpdatedDateTime: freezed == serverUpdatedDateTime
-          ? _value.serverUpdatedDateTime
+          ? _self.serverUpdatedDateTime
           : serverUpdatedDateTime // ignore: cast_nullable_to_non_nullable
               as DateTime?,
     ));
   }
 }
 
+/// Adds pattern-matching-related methods to [AppUser].
+extension AppUserPatterns on AppUser {
+  /// A variant of `map` that fallback to returning `orElse`.
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case final Subclass value:
+  ///     return ...;
+  ///   case _:
+  ///     return orElse();
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult maybeMap<TResult extends Object?>(
+    TResult Function(_AppUser value)? $default, {
+    required TResult orElse(),
+  }) {
+    final _that = this;
+    switch (_that) {
+      case _AppUser() when $default != null:
+        return $default(_that);
+      case _:
+        return orElse();
+    }
+  }
+
+  /// A `switch`-like method, using callbacks.
+  ///
+  /// Callbacks receives the raw object, upcasted.
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case final Subclass value:
+  ///     return ...;
+  ///   case final Subclass2 value:
+  ///     return ...;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult map<TResult extends Object?>(
+    TResult Function(_AppUser value) $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _AppUser():
+        return $default(_that);
+      case _:
+        throw StateError('Unexpected subclass');
+    }
+  }
+
+  /// A variant of `map` that fallback to returning `null`.
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case final Subclass value:
+  ///     return ...;
+  ///   case _:
+  ///     return null;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult? mapOrNull<TResult extends Object?>(
+    TResult? Function(_AppUser value)? $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _AppUser() when $default != null:
+        return $default(_that);
+      case _:
+        return null;
+    }
+  }
+
+  /// A variant of `when` that fallback to an `orElse` callback.
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case Subclass(:final field):
+  ///     return ...;
+  ///   case _:
+  ///     return orElse();
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult maybeWhen<TResult extends Object?>(
+    TResult Function(
+            String? id,
+            bool analyticsDebugIsEnabled,
+            @NullableTimestampConverter() DateTime? maybeTrialDeadlineDate,
+            @NullableTimestampConverter() DateTime? promotionStartPageCancelButtonTappedDateTime,
+            @ClientCreatedTimestamp() DateTime? createdDateTime,
+            @ClientUpdatedTimestamp() DateTime? updatedDateTime,
+            @ServerCreatedTimestamp() DateTime? serverCreatedDateTime,
+            @ServerUpdatedTimestamp() DateTime? serverUpdatedDateTime)?
+        $default, {
+    required TResult orElse(),
+  }) {
+    final _that = this;
+    switch (_that) {
+      case _AppUser() when $default != null:
+        return $default(_that.id, _that.analyticsDebugIsEnabled, _that.maybeTrialDeadlineDate, _that.promotionStartPageCancelButtonTappedDateTime,
+            _that.createdDateTime, _that.updatedDateTime, _that.serverCreatedDateTime, _that.serverUpdatedDateTime);
+      case _:
+        return orElse();
+    }
+  }
+
+  /// A `switch`-like method, using callbacks.
+  ///
+  /// As opposed to `map`, this offers destructuring.
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case Subclass(:final field):
+  ///     return ...;
+  ///   case Subclass2(:final field2):
+  ///     return ...;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult when<TResult extends Object?>(
+    TResult Function(
+            String? id,
+            bool analyticsDebugIsEnabled,
+            @NullableTimestampConverter() DateTime? maybeTrialDeadlineDate,
+            @NullableTimestampConverter() DateTime? promotionStartPageCancelButtonTappedDateTime,
+            @ClientCreatedTimestamp() DateTime? createdDateTime,
+            @ClientUpdatedTimestamp() DateTime? updatedDateTime,
+            @ServerCreatedTimestamp() DateTime? serverCreatedDateTime,
+            @ServerUpdatedTimestamp() DateTime? serverUpdatedDateTime)
+        $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _AppUser():
+        return $default(_that.id, _that.analyticsDebugIsEnabled, _that.maybeTrialDeadlineDate, _that.promotionStartPageCancelButtonTappedDateTime,
+            _that.createdDateTime, _that.updatedDateTime, _that.serverCreatedDateTime, _that.serverUpdatedDateTime);
+      case _:
+        throw StateError('Unexpected subclass');
+    }
+  }
+
+  /// A variant of `when` that fallback to returning `null`
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case Subclass(:final field):
+  ///     return ...;
+  ///   case _:
+  ///     return null;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult? whenOrNull<TResult extends Object?>(
+    TResult? Function(
+            String? id,
+            bool analyticsDebugIsEnabled,
+            @NullableTimestampConverter() DateTime? maybeTrialDeadlineDate,
+            @NullableTimestampConverter() DateTime? promotionStartPageCancelButtonTappedDateTime,
+            @ClientCreatedTimestamp() DateTime? createdDateTime,
+            @ClientUpdatedTimestamp() DateTime? updatedDateTime,
+            @ServerCreatedTimestamp() DateTime? serverCreatedDateTime,
+            @ServerUpdatedTimestamp() DateTime? serverUpdatedDateTime)?
+        $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _AppUser() when $default != null:
+        return $default(_that.id, _that.analyticsDebugIsEnabled, _that.maybeTrialDeadlineDate, _that.promotionStartPageCancelButtonTappedDateTime,
+            _that.createdDateTime, _that.updatedDateTime, _that.serverCreatedDateTime, _that.serverUpdatedDateTime);
+      case _:
+        return null;
+    }
+  }
+}
+
 /// @nodoc
 
 @JsonSerializable(explicitToJson: true)
-class _$AppUserImpl extends _AppUser {
-  const _$AppUserImpl(
+class _AppUser extends AppUser {
+  const _AppUser(
       {this.id,
       this.analyticsDebugIsEnabled = false,
       @NullableTimestampConverter() this.maybeTrialDeadlineDate,
@@ -204,8 +339,7 @@ class _$AppUserImpl extends _AppUser {
       @ServerCreatedTimestamp() this.serverCreatedDateTime,
       @ServerUpdatedTimestamp() this.serverUpdatedDateTime})
       : super._();
-
-  factory _$AppUserImpl.fromJson(Map<String, dynamic> json) => _$$AppUserImplFromJson(json);
+  factory _AppUser.fromJson(Map<String, dynamic> json) => _$AppUserFromJson(json);
 
   @override
   final String? id;
@@ -231,16 +365,25 @@ class _$AppUserImpl extends _AppUser {
   @ServerUpdatedTimestamp()
   final DateTime? serverUpdatedDateTime;
 
+  /// Create a copy of AppUser
+  /// with the given fields replaced by the non-null parameter values.
   @override
-  String toString() {
-    return 'AppUser(id: $id, analyticsDebugIsEnabled: $analyticsDebugIsEnabled, maybeTrialDeadlineDate: $maybeTrialDeadlineDate, promotionStartPageCancelButtonTappedDateTime: $promotionStartPageCancelButtonTappedDateTime, createdDateTime: $createdDateTime, updatedDateTime: $updatedDateTime, serverCreatedDateTime: $serverCreatedDateTime, serverUpdatedDateTime: $serverUpdatedDateTime)';
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  @pragma('vm:prefer-inline')
+  _$AppUserCopyWith<_AppUser> get copyWith => __$AppUserCopyWithImpl<_AppUser>(this, _$identity);
+
+  @override
+  Map<String, dynamic> toJson() {
+    return _$AppUserToJson(
+      this,
+    );
   }
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _$AppUserImpl &&
+            other is _AppUser &&
             (identical(other.id, id) || other.id == id) &&
             (identical(other.analyticsDebugIsEnabled, analyticsDebugIsEnabled) || other.analyticsDebugIsEnabled == analyticsDebugIsEnabled) &&
             (identical(other.maybeTrialDeadlineDate, maybeTrialDeadlineDate) || other.maybeTrialDeadlineDate == maybeTrialDeadlineDate) &&
@@ -257,61 +400,84 @@ class _$AppUserImpl extends _AppUser {
   int get hashCode => Object.hash(runtimeType, id, analyticsDebugIsEnabled, maybeTrialDeadlineDate, promotionStartPageCancelButtonTappedDateTime,
       createdDateTime, updatedDateTime, serverCreatedDateTime, serverUpdatedDateTime);
 
-  /// Create a copy of AppUser
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
   @override
-  @pragma('vm:prefer-inline')
-  _$$AppUserImplCopyWith<_$AppUserImpl> get copyWith => __$$AppUserImplCopyWithImpl<_$AppUserImpl>(this, _$identity);
-
-  @override
-  Map<String, dynamic> toJson() {
-    return _$$AppUserImplToJson(
-      this,
-    );
+  String toString() {
+    return 'AppUser(id: $id, analyticsDebugIsEnabled: $analyticsDebugIsEnabled, maybeTrialDeadlineDate: $maybeTrialDeadlineDate, promotionStartPageCancelButtonTappedDateTime: $promotionStartPageCancelButtonTappedDateTime, createdDateTime: $createdDateTime, updatedDateTime: $updatedDateTime, serverCreatedDateTime: $serverCreatedDateTime, serverUpdatedDateTime: $serverUpdatedDateTime)';
   }
 }
 
-abstract class _AppUser extends AppUser {
-  const factory _AppUser(
-      {final String? id,
-      final bool analyticsDebugIsEnabled,
-      @NullableTimestampConverter() final DateTime? maybeTrialDeadlineDate,
-      @NullableTimestampConverter() final DateTime? promotionStartPageCancelButtonTappedDateTime,
-      @ClientCreatedTimestamp() final DateTime? createdDateTime,
-      @ClientUpdatedTimestamp() final DateTime? updatedDateTime,
-      @ServerCreatedTimestamp() final DateTime? serverCreatedDateTime,
-      @ServerUpdatedTimestamp() final DateTime? serverUpdatedDateTime}) = _$AppUserImpl;
-  const _AppUser._() : super._();
+/// @nodoc
+abstract mixin class _$AppUserCopyWith<$Res> implements $AppUserCopyWith<$Res> {
+  factory _$AppUserCopyWith(_AppUser value, $Res Function(_AppUser) _then) = __$AppUserCopyWithImpl;
+  @override
+  @useResult
+  $Res call(
+      {String? id,
+      bool analyticsDebugIsEnabled,
+      @NullableTimestampConverter() DateTime? maybeTrialDeadlineDate,
+      @NullableTimestampConverter() DateTime? promotionStartPageCancelButtonTappedDateTime,
+      @ClientCreatedTimestamp() DateTime? createdDateTime,
+      @ClientUpdatedTimestamp() DateTime? updatedDateTime,
+      @ServerCreatedTimestamp() DateTime? serverCreatedDateTime,
+      @ServerUpdatedTimestamp() DateTime? serverUpdatedDateTime});
+}
 
-  factory _AppUser.fromJson(Map<String, dynamic> json) = _$AppUserImpl.fromJson;
+/// @nodoc
+class __$AppUserCopyWithImpl<$Res> implements _$AppUserCopyWith<$Res> {
+  __$AppUserCopyWithImpl(this._self, this._then);
 
-  @override
-  String? get id;
-  @override
-  bool get analyticsDebugIsEnabled;
-  @override
-  @NullableTimestampConverter()
-  DateTime? get maybeTrialDeadlineDate;
-  @override
-  @NullableTimestampConverter()
-  DateTime? get promotionStartPageCancelButtonTappedDateTime;
-  @override
-  @ClientCreatedTimestamp()
-  DateTime? get createdDateTime;
-  @override
-  @ClientUpdatedTimestamp()
-  DateTime? get updatedDateTime;
-  @override
-  @ServerCreatedTimestamp()
-  DateTime? get serverCreatedDateTime;
-  @override
-  @ServerUpdatedTimestamp()
-  DateTime? get serverUpdatedDateTime;
+  final _AppUser _self;
+  final $Res Function(_AppUser) _then;
 
   /// Create a copy of AppUser
   /// with the given fields replaced by the non-null parameter values.
   @override
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  _$$AppUserImplCopyWith<_$AppUserImpl> get copyWith => throw _privateConstructorUsedError;
+  @pragma('vm:prefer-inline')
+  $Res call({
+    Object? id = freezed,
+    Object? analyticsDebugIsEnabled = null,
+    Object? maybeTrialDeadlineDate = freezed,
+    Object? promotionStartPageCancelButtonTappedDateTime = freezed,
+    Object? createdDateTime = freezed,
+    Object? updatedDateTime = freezed,
+    Object? serverCreatedDateTime = freezed,
+    Object? serverUpdatedDateTime = freezed,
+  }) {
+    return _then(_AppUser(
+      id: freezed == id
+          ? _self.id
+          : id // ignore: cast_nullable_to_non_nullable
+              as String?,
+      analyticsDebugIsEnabled: null == analyticsDebugIsEnabled
+          ? _self.analyticsDebugIsEnabled
+          : analyticsDebugIsEnabled // ignore: cast_nullable_to_non_nullable
+              as bool,
+      maybeTrialDeadlineDate: freezed == maybeTrialDeadlineDate
+          ? _self.maybeTrialDeadlineDate
+          : maybeTrialDeadlineDate // ignore: cast_nullable_to_non_nullable
+              as DateTime?,
+      promotionStartPageCancelButtonTappedDateTime: freezed == promotionStartPageCancelButtonTappedDateTime
+          ? _self.promotionStartPageCancelButtonTappedDateTime
+          : promotionStartPageCancelButtonTappedDateTime // ignore: cast_nullable_to_non_nullable
+              as DateTime?,
+      createdDateTime: freezed == createdDateTime
+          ? _self.createdDateTime
+          : createdDateTime // ignore: cast_nullable_to_non_nullable
+              as DateTime?,
+      updatedDateTime: freezed == updatedDateTime
+          ? _self.updatedDateTime
+          : updatedDateTime // ignore: cast_nullable_to_non_nullable
+              as DateTime?,
+      serverCreatedDateTime: freezed == serverCreatedDateTime
+          ? _self.serverCreatedDateTime
+          : serverCreatedDateTime // ignore: cast_nullable_to_non_nullable
+              as DateTime?,
+      serverUpdatedDateTime: freezed == serverUpdatedDateTime
+          ? _self.serverUpdatedDateTime
+          : serverUpdatedDateTime // ignore: cast_nullable_to_non_nullable
+              as DateTime?,
+    ));
+  }
 }
+
+// dart format on

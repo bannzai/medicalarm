@@ -18,6 +18,8 @@ final customerInfoProvider = AutoDisposeStreamProvider<CustomerInfo>.internal(
   allTransitiveDependencies: const <ProviderOrFamily>{},
 );
 
+@Deprecated('Will be removed in 3.0. Use Ref instead')
+// ignore: unused_element
 typedef CustomerInfoRef = AutoDisposeStreamProviderRef<CustomerInfo>;
 String _$offeringsHash() => r'a44517ca66731d95ed64ddb147c72567df8b12c7';
 
@@ -31,6 +33,8 @@ final offeringsProvider = AutoDisposeFutureProvider<Offerings>.internal(
   allTransitiveDependencies: null,
 );
 
+@Deprecated('Will be removed in 3.0. Use Ref instead')
+// ignore: unused_element
 typedef OfferingsRef = AutoDisposeFutureProviderRef<Offerings>;
 String _$currentOfferingPackagesHash() => r'648dc186cc0f3dd97c71697f0dba73f21834a5f6';
 
@@ -44,6 +48,8 @@ final currentOfferingPackagesProvider = AutoDisposeProvider<List<Package>>.inter
   allTransitiveDependencies: <ProviderOrFamily>{customerInfoProvider, ...?customerInfoProvider.allTransitiveDependencies},
 );
 
+@Deprecated('Will be removed in 3.0. Use Ref instead')
+// ignore: unused_element
 typedef CurrentOfferingPackagesRef = AutoDisposeProviderRef<List<Package>>;
 String _$weeklyPackageHash() => r'd8c57ae30ae72b9f75b0d9818af5433b1d7f4232';
 
@@ -57,6 +63,8 @@ final weeklyPackageProvider = AutoDisposeProvider<Package?>.internal(
   allTransitiveDependencies: <ProviderOrFamily>{currentOfferingPackagesProvider, ...?currentOfferingPackagesProvider.allTransitiveDependencies},
 );
 
+@Deprecated('Will be removed in 3.0. Use Ref instead')
+// ignore: unused_element
 typedef WeeklyPackageRef = AutoDisposeProviderRef<Package?>;
 String _$monthlyPackageHash() => r'8d088c8a829e6aca119e35699a1be4045a053ba7';
 
@@ -70,6 +78,8 @@ final monthlyPackageProvider = AutoDisposeProvider<Package?>.internal(
   allTransitiveDependencies: <ProviderOrFamily>{currentOfferingPackagesProvider, ...?currentOfferingPackagesProvider.allTransitiveDependencies},
 );
 
+@Deprecated('Will be removed in 3.0. Use Ref instead')
+// ignore: unused_element
 typedef MonthlyPackageRef = AutoDisposeProviderRef<Package?>;
 String _$sixMonthPackageHash() => r'e417483a34ad2622e2bbedfca167bb7fdf408ecd';
 
@@ -83,6 +93,8 @@ final sixMonthPackageProvider = AutoDisposeProvider<Package?>.internal(
   allTransitiveDependencies: <ProviderOrFamily>{currentOfferingPackagesProvider, ...?currentOfferingPackagesProvider.allTransitiveDependencies},
 );
 
+@Deprecated('Will be removed in 3.0. Use Ref instead')
+// ignore: unused_element
 typedef SixMonthPackageRef = AutoDisposeProviderRef<Package?>;
 String _$annualPackageHash() => r'a0f73f340ef0ae6dc39f6866c85fd2b785ebb251';
 
@@ -96,6 +108,8 @@ final annualPackageProvider = AutoDisposeProvider<Package?>.internal(
   allTransitiveDependencies: <ProviderOrFamily>{currentOfferingPackagesProvider, ...?currentOfferingPackagesProvider.allTransitiveDependencies},
 );
 
+@Deprecated('Will be removed in 3.0. Use Ref instead')
+// ignore: unused_element
 typedef AnnualPackageRef = AutoDisposeProviderRef<Package?>;
 String _$monthlyPremiumPackageHash() => r'0ffcc9f632f99e229be32bf0cf19246f0e04f71c';
 
@@ -109,6 +123,8 @@ final monthlyPremiumPackageProvider = AutoDisposeProvider<Package?>.internal(
   allTransitiveDependencies: const <ProviderOrFamily>{},
 );
 
+@Deprecated('Will be removed in 3.0. Use Ref instead')
+// ignore: unused_element
 typedef MonthlyPremiumPackageRef = AutoDisposeProviderRef<Package?>;
 // ignore_for_file: type=lint
-// ignore_for_file: subtype_of_sealed_class, invalid_use_of_internal_member, invalid_use_of_visible_for_testing_member
+// ignore_for_file: subtype_of_sealed_class, invalid_use_of_internal_member, invalid_use_of_visible_for_testing_member, deprecated_member_use_from_same_package

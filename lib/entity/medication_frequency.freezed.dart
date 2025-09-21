@@ -1,5 +1,5 @@
-// coverage:ignore-file
 // GENERATED CODE - DO NOT MODIFY BY HAND
+// coverage:ignore-file
 // ignore_for_file: type=lint
 // ignore_for_file: unused_element, deprecated_member_use, deprecated_member_use_from_same_package, use_function_type_syntax_for_parameters, unnecessary_const, avoid_init_to_null, invalid_override_different_default_values_named, prefer_expression_function_bodies, annotate_overrides, invalid_annotation_target, unnecessary_question_mark
 
@@ -9,11 +9,8 @@ part of 'medication_frequency.dart';
 // FreezedGenerator
 // **************************************************************************
 
+// dart format off
 T _$identity<T>(T value) => value;
-
-final _privateConstructorUsedError = UnsupportedError(
-    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#adding-getters-and-methods-to-our-models');
-
 MedicationFrequency _$MedicationFrequencyFromJson(Map<String, dynamic> json) {
   switch (json['runtimeType']) {
     case 'daily':
@@ -32,117 +29,12 @@ MedicationFrequency _$MedicationFrequencyFromJson(Map<String, dynamic> json) {
 
 /// @nodoc
 mixin _$MedicationFrequency {
-  @optionalTypeArgs
-  TResult when<TResult extends Object?>({
-    required TResult Function() daily,
-    required TResult Function(int interval) everyXDays,
-    required TResult Function(List<Weekday> weekdays) specificWeekdays,
-    required TResult Function(int consecutiveDays, int restDays) cycle,
-  }) =>
-      throw _privateConstructorUsedError;
-  @optionalTypeArgs
-  TResult? whenOrNull<TResult extends Object?>({
-    TResult? Function()? daily,
-    TResult? Function(int interval)? everyXDays,
-    TResult? Function(List<Weekday> weekdays)? specificWeekdays,
-    TResult? Function(int consecutiveDays, int restDays)? cycle,
-  }) =>
-      throw _privateConstructorUsedError;
-  @optionalTypeArgs
-  TResult maybeWhen<TResult extends Object?>({
-    TResult Function()? daily,
-    TResult Function(int interval)? everyXDays,
-    TResult Function(List<Weekday> weekdays)? specificWeekdays,
-    TResult Function(int consecutiveDays, int restDays)? cycle,
-    required TResult orElse(),
-  }) =>
-      throw _privateConstructorUsedError;
-  @optionalTypeArgs
-  TResult map<TResult extends Object?>({
-    required TResult Function(DailyMedicationFrequency value) daily,
-    required TResult Function(EveryXDaysMedicationFrequency value) everyXDays,
-    required TResult Function(SpecificWeekdaysMedicationFrequency value) specificWeekdays,
-    required TResult Function(CycleMedicationFrequency value) cycle,
-  }) =>
-      throw _privateConstructorUsedError;
-  @optionalTypeArgs
-  TResult? mapOrNull<TResult extends Object?>({
-    TResult? Function(DailyMedicationFrequency value)? daily,
-    TResult? Function(EveryXDaysMedicationFrequency value)? everyXDays,
-    TResult? Function(SpecificWeekdaysMedicationFrequency value)? specificWeekdays,
-    TResult? Function(CycleMedicationFrequency value)? cycle,
-  }) =>
-      throw _privateConstructorUsedError;
-  @optionalTypeArgs
-  TResult maybeMap<TResult extends Object?>({
-    TResult Function(DailyMedicationFrequency value)? daily,
-    TResult Function(EveryXDaysMedicationFrequency value)? everyXDays,
-    TResult Function(SpecificWeekdaysMedicationFrequency value)? specificWeekdays,
-    TResult Function(CycleMedicationFrequency value)? cycle,
-    required TResult orElse(),
-  }) =>
-      throw _privateConstructorUsedError;
-
   /// Serializes this MedicationFrequency to a JSON map.
-  Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
-}
-
-/// @nodoc
-abstract class $MedicationFrequencyCopyWith<$Res> {
-  factory $MedicationFrequencyCopyWith(MedicationFrequency value, $Res Function(MedicationFrequency) then) =
-      _$MedicationFrequencyCopyWithImpl<$Res, MedicationFrequency>;
-}
-
-/// @nodoc
-class _$MedicationFrequencyCopyWithImpl<$Res, $Val extends MedicationFrequency> implements $MedicationFrequencyCopyWith<$Res> {
-  _$MedicationFrequencyCopyWithImpl(this._value, this._then);
-
-  // ignore: unused_field
-  final $Val _value;
-  // ignore: unused_field
-  final $Res Function($Val) _then;
-
-  /// Create a copy of MedicationFrequency
-  /// with the given fields replaced by the non-null parameter values.
-}
-
-/// @nodoc
-abstract class _$$DailyMedicationFrequencyImplCopyWith<$Res> {
-  factory _$$DailyMedicationFrequencyImplCopyWith(_$DailyMedicationFrequencyImpl value, $Res Function(_$DailyMedicationFrequencyImpl) then) =
-      __$$DailyMedicationFrequencyImplCopyWithImpl<$Res>;
-}
-
-/// @nodoc
-class __$$DailyMedicationFrequencyImplCopyWithImpl<$Res> extends _$MedicationFrequencyCopyWithImpl<$Res, _$DailyMedicationFrequencyImpl>
-    implements _$$DailyMedicationFrequencyImplCopyWith<$Res> {
-  __$$DailyMedicationFrequencyImplCopyWithImpl(_$DailyMedicationFrequencyImpl _value, $Res Function(_$DailyMedicationFrequencyImpl) _then)
-      : super(_value, _then);
-
-  /// Create a copy of MedicationFrequency
-  /// with the given fields replaced by the non-null parameter values.
-}
-
-/// @nodoc
-
-@JsonSerializable(explicitToJson: true)
-class _$DailyMedicationFrequencyImpl extends DailyMedicationFrequency {
-  const _$DailyMedicationFrequencyImpl({final String? $type})
-      : $type = $type ?? 'daily',
-        super._();
-
-  factory _$DailyMedicationFrequencyImpl.fromJson(Map<String, dynamic> json) => _$$DailyMedicationFrequencyImplFromJson(json);
-
-  @JsonKey(name: 'runtimeType')
-  final String $type;
-
-  @override
-  String toString() {
-    return 'MedicationFrequency.daily()';
-  }
+  Map<String, dynamic> toJson();
 
   @override
   bool operator ==(Object other) {
-    return identical(this, other) || (other.runtimeType == runtimeType && other is _$DailyMedicationFrequencyImpl);
+    return identical(this, other) || (other.runtimeType == runtimeType && other is MedicationFrequency);
   }
 
   @JsonKey(includeFromJson: false, includeToJson: false)
@@ -150,65 +42,30 @@ class _$DailyMedicationFrequencyImpl extends DailyMedicationFrequency {
   int get hashCode => runtimeType.hashCode;
 
   @override
-  @optionalTypeArgs
-  TResult when<TResult extends Object?>({
-    required TResult Function() daily,
-    required TResult Function(int interval) everyXDays,
-    required TResult Function(List<Weekday> weekdays) specificWeekdays,
-    required TResult Function(int consecutiveDays, int restDays) cycle,
-  }) {
-    return daily();
+  String toString() {
+    return 'MedicationFrequency()';
   }
+}
 
-  @override
-  @optionalTypeArgs
-  TResult? whenOrNull<TResult extends Object?>({
-    TResult? Function()? daily,
-    TResult? Function(int interval)? everyXDays,
-    TResult? Function(List<Weekday> weekdays)? specificWeekdays,
-    TResult? Function(int consecutiveDays, int restDays)? cycle,
-  }) {
-    return daily?.call();
-  }
+/// @nodoc
+class $MedicationFrequencyCopyWith<$Res> {
+  $MedicationFrequencyCopyWith(MedicationFrequency _, $Res Function(MedicationFrequency) __);
+}
 
-  @override
-  @optionalTypeArgs
-  TResult maybeWhen<TResult extends Object?>({
-    TResult Function()? daily,
-    TResult Function(int interval)? everyXDays,
-    TResult Function(List<Weekday> weekdays)? specificWeekdays,
-    TResult Function(int consecutiveDays, int restDays)? cycle,
-    required TResult orElse(),
-  }) {
-    if (daily != null) {
-      return daily();
-    }
-    return orElse();
-  }
+/// Adds pattern-matching-related methods to [MedicationFrequency].
+extension MedicationFrequencyPatterns on MedicationFrequency {
+  /// A variant of `map` that fallback to returning `orElse`.
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case final Subclass value:
+  ///     return ...;
+  ///   case _:
+  ///     return orElse();
+  /// }
+  /// ```
 
-  @override
-  @optionalTypeArgs
-  TResult map<TResult extends Object?>({
-    required TResult Function(DailyMedicationFrequency value) daily,
-    required TResult Function(EveryXDaysMedicationFrequency value) everyXDays,
-    required TResult Function(SpecificWeekdaysMedicationFrequency value) specificWeekdays,
-    required TResult Function(CycleMedicationFrequency value) cycle,
-  }) {
-    return daily(this);
-  }
-
-  @override
-  @optionalTypeArgs
-  TResult? mapOrNull<TResult extends Object?>({
-    TResult? Function(DailyMedicationFrequency value)? daily,
-    TResult? Function(EveryXDaysMedicationFrequency value)? everyXDays,
-    TResult? Function(SpecificWeekdaysMedicationFrequency value)? specificWeekdays,
-    TResult? Function(CycleMedicationFrequency value)? cycle,
-  }) {
-    return daily?.call(this);
-  }
-
-  @override
   @optionalTypeArgs
   TResult maybeMap<TResult extends Object?>({
     TResult Function(DailyMedicationFrequency value)? daily,
@@ -217,53 +74,295 @@ class _$DailyMedicationFrequencyImpl extends DailyMedicationFrequency {
     TResult Function(CycleMedicationFrequency value)? cycle,
     required TResult orElse(),
   }) {
-    if (daily != null) {
-      return daily(this);
+    final _that = this;
+    switch (_that) {
+      case DailyMedicationFrequency() when daily != null:
+        return daily(_that);
+      case EveryXDaysMedicationFrequency() when everyXDays != null:
+        return everyXDays(_that);
+      case SpecificWeekdaysMedicationFrequency() when specificWeekdays != null:
+        return specificWeekdays(_that);
+      case CycleMedicationFrequency() when cycle != null:
+        return cycle(_that);
+      case _:
+        return orElse();
     }
-    return orElse();
   }
 
-  @override
-  Map<String, dynamic> toJson() {
-    return _$$DailyMedicationFrequencyImplToJson(
-      this,
-    );
+  /// A `switch`-like method, using callbacks.
+  ///
+  /// Callbacks receives the raw object, upcasted.
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case final Subclass value:
+  ///     return ...;
+  ///   case final Subclass2 value:
+  ///     return ...;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult map<TResult extends Object?>({
+    required TResult Function(DailyMedicationFrequency value) daily,
+    required TResult Function(EveryXDaysMedicationFrequency value) everyXDays,
+    required TResult Function(SpecificWeekdaysMedicationFrequency value) specificWeekdays,
+    required TResult Function(CycleMedicationFrequency value) cycle,
+  }) {
+    final _that = this;
+    switch (_that) {
+      case DailyMedicationFrequency():
+        return daily(_that);
+      case EveryXDaysMedicationFrequency():
+        return everyXDays(_that);
+      case SpecificWeekdaysMedicationFrequency():
+        return specificWeekdays(_that);
+      case CycleMedicationFrequency():
+        return cycle(_that);
+    }
   }
-}
 
-abstract class DailyMedicationFrequency extends MedicationFrequency {
-  const factory DailyMedicationFrequency() = _$DailyMedicationFrequencyImpl;
-  const DailyMedicationFrequency._() : super._();
+  /// A variant of `map` that fallback to returning `null`.
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case final Subclass value:
+  ///     return ...;
+  ///   case _:
+  ///     return null;
+  /// }
+  /// ```
 
-  factory DailyMedicationFrequency.fromJson(Map<String, dynamic> json) = _$DailyMedicationFrequencyImpl.fromJson;
+  @optionalTypeArgs
+  TResult? mapOrNull<TResult extends Object?>({
+    TResult? Function(DailyMedicationFrequency value)? daily,
+    TResult? Function(EveryXDaysMedicationFrequency value)? everyXDays,
+    TResult? Function(SpecificWeekdaysMedicationFrequency value)? specificWeekdays,
+    TResult? Function(CycleMedicationFrequency value)? cycle,
+  }) {
+    final _that = this;
+    switch (_that) {
+      case DailyMedicationFrequency() when daily != null:
+        return daily(_that);
+      case EveryXDaysMedicationFrequency() when everyXDays != null:
+        return everyXDays(_that);
+      case SpecificWeekdaysMedicationFrequency() when specificWeekdays != null:
+        return specificWeekdays(_that);
+      case CycleMedicationFrequency() when cycle != null:
+        return cycle(_that);
+      case _:
+        return null;
+    }
+  }
+
+  /// A variant of `when` that fallback to an `orElse` callback.
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case Subclass(:final field):
+  ///     return ...;
+  ///   case _:
+  ///     return orElse();
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult maybeWhen<TResult extends Object?>({
+    TResult Function()? daily,
+    TResult Function(int interval)? everyXDays,
+    TResult Function(List<Weekday> weekdays)? specificWeekdays,
+    TResult Function(int consecutiveDays, int restDays)? cycle,
+    required TResult orElse(),
+  }) {
+    final _that = this;
+    switch (_that) {
+      case DailyMedicationFrequency() when daily != null:
+        return daily();
+      case EveryXDaysMedicationFrequency() when everyXDays != null:
+        return everyXDays(_that.interval);
+      case SpecificWeekdaysMedicationFrequency() when specificWeekdays != null:
+        return specificWeekdays(_that.weekdays);
+      case CycleMedicationFrequency() when cycle != null:
+        return cycle(_that.consecutiveDays, _that.restDays);
+      case _:
+        return orElse();
+    }
+  }
+
+  /// A `switch`-like method, using callbacks.
+  ///
+  /// As opposed to `map`, this offers destructuring.
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case Subclass(:final field):
+  ///     return ...;
+  ///   case Subclass2(:final field2):
+  ///     return ...;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult when<TResult extends Object?>({
+    required TResult Function() daily,
+    required TResult Function(int interval) everyXDays,
+    required TResult Function(List<Weekday> weekdays) specificWeekdays,
+    required TResult Function(int consecutiveDays, int restDays) cycle,
+  }) {
+    final _that = this;
+    switch (_that) {
+      case DailyMedicationFrequency():
+        return daily();
+      case EveryXDaysMedicationFrequency():
+        return everyXDays(_that.interval);
+      case SpecificWeekdaysMedicationFrequency():
+        return specificWeekdays(_that.weekdays);
+      case CycleMedicationFrequency():
+        return cycle(_that.consecutiveDays, _that.restDays);
+    }
+  }
+
+  /// A variant of `when` that fallback to returning `null`
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case Subclass(:final field):
+  ///     return ...;
+  ///   case _:
+  ///     return null;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult? whenOrNull<TResult extends Object?>({
+    TResult? Function()? daily,
+    TResult? Function(int interval)? everyXDays,
+    TResult? Function(List<Weekday> weekdays)? specificWeekdays,
+    TResult? Function(int consecutiveDays, int restDays)? cycle,
+  }) {
+    final _that = this;
+    switch (_that) {
+      case DailyMedicationFrequency() when daily != null:
+        return daily();
+      case EveryXDaysMedicationFrequency() when everyXDays != null:
+        return everyXDays(_that.interval);
+      case SpecificWeekdaysMedicationFrequency() when specificWeekdays != null:
+        return specificWeekdays(_that.weekdays);
+      case CycleMedicationFrequency() when cycle != null:
+        return cycle(_that.consecutiveDays, _that.restDays);
+      case _:
+        return null;
+    }
+  }
 }
 
 /// @nodoc
-abstract class _$$EveryXDaysMedicationFrequencyImplCopyWith<$Res> {
-  factory _$$EveryXDaysMedicationFrequencyImplCopyWith(
-          _$EveryXDaysMedicationFrequencyImpl value, $Res Function(_$EveryXDaysMedicationFrequencyImpl) then) =
-      __$$EveryXDaysMedicationFrequencyImplCopyWithImpl<$Res>;
+
+@JsonSerializable(explicitToJson: true)
+class DailyMedicationFrequency extends MedicationFrequency {
+  const DailyMedicationFrequency({final String? $type})
+      : $type = $type ?? 'daily',
+        super._();
+  factory DailyMedicationFrequency.fromJson(Map<String, dynamic> json) => _$DailyMedicationFrequencyFromJson(json);
+
+  @JsonKey(name: 'runtimeType')
+  final String $type;
+
+  @override
+  Map<String, dynamic> toJson() {
+    return _$DailyMedicationFrequencyToJson(
+      this,
+    );
+  }
+
+  @override
+  bool operator ==(Object other) {
+    return identical(this, other) || (other.runtimeType == runtimeType && other is DailyMedicationFrequency);
+  }
+
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  @override
+  int get hashCode => runtimeType.hashCode;
+
+  @override
+  String toString() {
+    return 'MedicationFrequency.daily()';
+  }
+}
+
+/// @nodoc
+
+@JsonSerializable(explicitToJson: true)
+class EveryXDaysMedicationFrequency extends MedicationFrequency {
+  const EveryXDaysMedicationFrequency({required this.interval, final String? $type})
+      : $type = $type ?? 'everyXDays',
+        super._();
+  factory EveryXDaysMedicationFrequency.fromJson(Map<String, dynamic> json) => _$EveryXDaysMedicationFrequencyFromJson(json);
+
+  final int interval;
+
+  @JsonKey(name: 'runtimeType')
+  final String $type;
+
+  /// Create a copy of MedicationFrequency
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  @pragma('vm:prefer-inline')
+  $EveryXDaysMedicationFrequencyCopyWith<EveryXDaysMedicationFrequency> get copyWith =>
+      _$EveryXDaysMedicationFrequencyCopyWithImpl<EveryXDaysMedicationFrequency>(this, _$identity);
+
+  @override
+  Map<String, dynamic> toJson() {
+    return _$EveryXDaysMedicationFrequencyToJson(
+      this,
+    );
+  }
+
+  @override
+  bool operator ==(Object other) {
+    return identical(this, other) ||
+        (other.runtimeType == runtimeType &&
+            other is EveryXDaysMedicationFrequency &&
+            (identical(other.interval, interval) || other.interval == interval));
+  }
+
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  @override
+  int get hashCode => Object.hash(runtimeType, interval);
+
+  @override
+  String toString() {
+    return 'MedicationFrequency.everyXDays(interval: $interval)';
+  }
+}
+
+/// @nodoc
+abstract mixin class $EveryXDaysMedicationFrequencyCopyWith<$Res> implements $MedicationFrequencyCopyWith<$Res> {
+  factory $EveryXDaysMedicationFrequencyCopyWith(EveryXDaysMedicationFrequency value, $Res Function(EveryXDaysMedicationFrequency) _then) =
+      _$EveryXDaysMedicationFrequencyCopyWithImpl;
   @useResult
   $Res call({int interval});
 }
 
 /// @nodoc
-class __$$EveryXDaysMedicationFrequencyImplCopyWithImpl<$Res> extends _$MedicationFrequencyCopyWithImpl<$Res, _$EveryXDaysMedicationFrequencyImpl>
-    implements _$$EveryXDaysMedicationFrequencyImplCopyWith<$Res> {
-  __$$EveryXDaysMedicationFrequencyImplCopyWithImpl(
-      _$EveryXDaysMedicationFrequencyImpl _value, $Res Function(_$EveryXDaysMedicationFrequencyImpl) _then)
-      : super(_value, _then);
+class _$EveryXDaysMedicationFrequencyCopyWithImpl<$Res> implements $EveryXDaysMedicationFrequencyCopyWith<$Res> {
+  _$EveryXDaysMedicationFrequencyCopyWithImpl(this._self, this._then);
+
+  final EveryXDaysMedicationFrequency _self;
+  final $Res Function(EveryXDaysMedicationFrequency) _then;
 
   /// Create a copy of MedicationFrequency
   /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
-  @override
   $Res call({
     Object? interval = null,
   }) {
-    return _then(_$EveryXDaysMedicationFrequencyImpl(
+    return _then(EveryXDaysMedicationFrequency(
       interval: null == interval
-          ? _value.interval
+          ? _self.interval
           : interval // ignore: cast_nullable_to_non_nullable
               as int,
     ));
@@ -273,186 +372,14 @@ class __$$EveryXDaysMedicationFrequencyImplCopyWithImpl<$Res> extends _$Medicati
 /// @nodoc
 
 @JsonSerializable(explicitToJson: true)
-class _$EveryXDaysMedicationFrequencyImpl extends EveryXDaysMedicationFrequency {
-  const _$EveryXDaysMedicationFrequencyImpl({required this.interval, final String? $type})
-      : $type = $type ?? 'everyXDays',
-        super._();
-
-  factory _$EveryXDaysMedicationFrequencyImpl.fromJson(Map<String, dynamic> json) => _$$EveryXDaysMedicationFrequencyImplFromJson(json);
-
-  @override
-  final int interval;
-
-  @JsonKey(name: 'runtimeType')
-  final String $type;
-
-  @override
-  String toString() {
-    return 'MedicationFrequency.everyXDays(interval: $interval)';
-  }
-
-  @override
-  bool operator ==(Object other) {
-    return identical(this, other) ||
-        (other.runtimeType == runtimeType &&
-            other is _$EveryXDaysMedicationFrequencyImpl &&
-            (identical(other.interval, interval) || other.interval == interval));
-  }
-
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @override
-  int get hashCode => Object.hash(runtimeType, interval);
-
-  /// Create a copy of MedicationFrequency
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @override
-  @pragma('vm:prefer-inline')
-  _$$EveryXDaysMedicationFrequencyImplCopyWith<_$EveryXDaysMedicationFrequencyImpl> get copyWith =>
-      __$$EveryXDaysMedicationFrequencyImplCopyWithImpl<_$EveryXDaysMedicationFrequencyImpl>(this, _$identity);
-
-  @override
-  @optionalTypeArgs
-  TResult when<TResult extends Object?>({
-    required TResult Function() daily,
-    required TResult Function(int interval) everyXDays,
-    required TResult Function(List<Weekday> weekdays) specificWeekdays,
-    required TResult Function(int consecutiveDays, int restDays) cycle,
-  }) {
-    return everyXDays(interval);
-  }
-
-  @override
-  @optionalTypeArgs
-  TResult? whenOrNull<TResult extends Object?>({
-    TResult? Function()? daily,
-    TResult? Function(int interval)? everyXDays,
-    TResult? Function(List<Weekday> weekdays)? specificWeekdays,
-    TResult? Function(int consecutiveDays, int restDays)? cycle,
-  }) {
-    return everyXDays?.call(interval);
-  }
-
-  @override
-  @optionalTypeArgs
-  TResult maybeWhen<TResult extends Object?>({
-    TResult Function()? daily,
-    TResult Function(int interval)? everyXDays,
-    TResult Function(List<Weekday> weekdays)? specificWeekdays,
-    TResult Function(int consecutiveDays, int restDays)? cycle,
-    required TResult orElse(),
-  }) {
-    if (everyXDays != null) {
-      return everyXDays(interval);
-    }
-    return orElse();
-  }
-
-  @override
-  @optionalTypeArgs
-  TResult map<TResult extends Object?>({
-    required TResult Function(DailyMedicationFrequency value) daily,
-    required TResult Function(EveryXDaysMedicationFrequency value) everyXDays,
-    required TResult Function(SpecificWeekdaysMedicationFrequency value) specificWeekdays,
-    required TResult Function(CycleMedicationFrequency value) cycle,
-  }) {
-    return everyXDays(this);
-  }
-
-  @override
-  @optionalTypeArgs
-  TResult? mapOrNull<TResult extends Object?>({
-    TResult? Function(DailyMedicationFrequency value)? daily,
-    TResult? Function(EveryXDaysMedicationFrequency value)? everyXDays,
-    TResult? Function(SpecificWeekdaysMedicationFrequency value)? specificWeekdays,
-    TResult? Function(CycleMedicationFrequency value)? cycle,
-  }) {
-    return everyXDays?.call(this);
-  }
-
-  @override
-  @optionalTypeArgs
-  TResult maybeMap<TResult extends Object?>({
-    TResult Function(DailyMedicationFrequency value)? daily,
-    TResult Function(EveryXDaysMedicationFrequency value)? everyXDays,
-    TResult Function(SpecificWeekdaysMedicationFrequency value)? specificWeekdays,
-    TResult Function(CycleMedicationFrequency value)? cycle,
-    required TResult orElse(),
-  }) {
-    if (everyXDays != null) {
-      return everyXDays(this);
-    }
-    return orElse();
-  }
-
-  @override
-  Map<String, dynamic> toJson() {
-    return _$$EveryXDaysMedicationFrequencyImplToJson(
-      this,
-    );
-  }
-}
-
-abstract class EveryXDaysMedicationFrequency extends MedicationFrequency {
-  const factory EveryXDaysMedicationFrequency({required final int interval}) = _$EveryXDaysMedicationFrequencyImpl;
-  const EveryXDaysMedicationFrequency._() : super._();
-
-  factory EveryXDaysMedicationFrequency.fromJson(Map<String, dynamic> json) = _$EveryXDaysMedicationFrequencyImpl.fromJson;
-
-  int get interval;
-
-  /// Create a copy of MedicationFrequency
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  _$$EveryXDaysMedicationFrequencyImplCopyWith<_$EveryXDaysMedicationFrequencyImpl> get copyWith => throw _privateConstructorUsedError;
-}
-
-/// @nodoc
-abstract class _$$SpecificWeekdaysMedicationFrequencyImplCopyWith<$Res> {
-  factory _$$SpecificWeekdaysMedicationFrequencyImplCopyWith(
-          _$SpecificWeekdaysMedicationFrequencyImpl value, $Res Function(_$SpecificWeekdaysMedicationFrequencyImpl) then) =
-      __$$SpecificWeekdaysMedicationFrequencyImplCopyWithImpl<$Res>;
-  @useResult
-  $Res call({List<Weekday> weekdays});
-}
-
-/// @nodoc
-class __$$SpecificWeekdaysMedicationFrequencyImplCopyWithImpl<$Res>
-    extends _$MedicationFrequencyCopyWithImpl<$Res, _$SpecificWeekdaysMedicationFrequencyImpl>
-    implements _$$SpecificWeekdaysMedicationFrequencyImplCopyWith<$Res> {
-  __$$SpecificWeekdaysMedicationFrequencyImplCopyWithImpl(
-      _$SpecificWeekdaysMedicationFrequencyImpl _value, $Res Function(_$SpecificWeekdaysMedicationFrequencyImpl) _then)
-      : super(_value, _then);
-
-  /// Create a copy of MedicationFrequency
-  /// with the given fields replaced by the non-null parameter values.
-  @pragma('vm:prefer-inline')
-  @override
-  $Res call({
-    Object? weekdays = null,
-  }) {
-    return _then(_$SpecificWeekdaysMedicationFrequencyImpl(
-      weekdays: null == weekdays
-          ? _value._weekdays
-          : weekdays // ignore: cast_nullable_to_non_nullable
-              as List<Weekday>,
-    ));
-  }
-}
-
-/// @nodoc
-
-@JsonSerializable(explicitToJson: true)
-class _$SpecificWeekdaysMedicationFrequencyImpl extends SpecificWeekdaysMedicationFrequency {
-  const _$SpecificWeekdaysMedicationFrequencyImpl({required final List<Weekday> weekdays, final String? $type})
+class SpecificWeekdaysMedicationFrequency extends MedicationFrequency {
+  const SpecificWeekdaysMedicationFrequency({required final List<Weekday> weekdays, final String? $type})
       : _weekdays = weekdays,
         $type = $type ?? 'specificWeekdays',
         super._();
-
-  factory _$SpecificWeekdaysMedicationFrequencyImpl.fromJson(Map<String, dynamic> json) => _$$SpecificWeekdaysMedicationFrequencyImplFromJson(json);
+  factory SpecificWeekdaysMedicationFrequency.fromJson(Map<String, dynamic> json) => _$SpecificWeekdaysMedicationFrequencyFromJson(json);
 
   final List<Weekday> _weekdays;
-  @override
   List<Weekday> get weekdays {
     if (_weekdays is EqualUnmodifiableListView) return _weekdays;
     // ignore: implicit_dynamic_type
@@ -462,16 +389,25 @@ class _$SpecificWeekdaysMedicationFrequencyImpl extends SpecificWeekdaysMedicati
   @JsonKey(name: 'runtimeType')
   final String $type;
 
+  /// Create a copy of MedicationFrequency
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  @pragma('vm:prefer-inline')
+  $SpecificWeekdaysMedicationFrequencyCopyWith<SpecificWeekdaysMedicationFrequency> get copyWith =>
+      _$SpecificWeekdaysMedicationFrequencyCopyWithImpl<SpecificWeekdaysMedicationFrequency>(this, _$identity);
+
   @override
-  String toString() {
-    return 'MedicationFrequency.specificWeekdays(weekdays: $weekdays)';
+  Map<String, dynamic> toJson() {
+    return _$SpecificWeekdaysMedicationFrequencyToJson(
+      this,
+    );
   }
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _$SpecificWeekdaysMedicationFrequencyImpl &&
+            other is SpecificWeekdaysMedicationFrequency &&
             const DeepCollectionEquality().equals(other._weekdays, _weekdays));
   }
 
@@ -479,141 +415,39 @@ class _$SpecificWeekdaysMedicationFrequencyImpl extends SpecificWeekdaysMedicati
   @override
   int get hashCode => Object.hash(runtimeType, const DeepCollectionEquality().hash(_weekdays));
 
-  /// Create a copy of MedicationFrequency
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
   @override
-  @pragma('vm:prefer-inline')
-  _$$SpecificWeekdaysMedicationFrequencyImplCopyWith<_$SpecificWeekdaysMedicationFrequencyImpl> get copyWith =>
-      __$$SpecificWeekdaysMedicationFrequencyImplCopyWithImpl<_$SpecificWeekdaysMedicationFrequencyImpl>(this, _$identity);
-
-  @override
-  @optionalTypeArgs
-  TResult when<TResult extends Object?>({
-    required TResult Function() daily,
-    required TResult Function(int interval) everyXDays,
-    required TResult Function(List<Weekday> weekdays) specificWeekdays,
-    required TResult Function(int consecutiveDays, int restDays) cycle,
-  }) {
-    return specificWeekdays(weekdays);
+  String toString() {
+    return 'MedicationFrequency.specificWeekdays(weekdays: $weekdays)';
   }
-
-  @override
-  @optionalTypeArgs
-  TResult? whenOrNull<TResult extends Object?>({
-    TResult? Function()? daily,
-    TResult? Function(int interval)? everyXDays,
-    TResult? Function(List<Weekday> weekdays)? specificWeekdays,
-    TResult? Function(int consecutiveDays, int restDays)? cycle,
-  }) {
-    return specificWeekdays?.call(weekdays);
-  }
-
-  @override
-  @optionalTypeArgs
-  TResult maybeWhen<TResult extends Object?>({
-    TResult Function()? daily,
-    TResult Function(int interval)? everyXDays,
-    TResult Function(List<Weekday> weekdays)? specificWeekdays,
-    TResult Function(int consecutiveDays, int restDays)? cycle,
-    required TResult orElse(),
-  }) {
-    if (specificWeekdays != null) {
-      return specificWeekdays(weekdays);
-    }
-    return orElse();
-  }
-
-  @override
-  @optionalTypeArgs
-  TResult map<TResult extends Object?>({
-    required TResult Function(DailyMedicationFrequency value) daily,
-    required TResult Function(EveryXDaysMedicationFrequency value) everyXDays,
-    required TResult Function(SpecificWeekdaysMedicationFrequency value) specificWeekdays,
-    required TResult Function(CycleMedicationFrequency value) cycle,
-  }) {
-    return specificWeekdays(this);
-  }
-
-  @override
-  @optionalTypeArgs
-  TResult? mapOrNull<TResult extends Object?>({
-    TResult? Function(DailyMedicationFrequency value)? daily,
-    TResult? Function(EveryXDaysMedicationFrequency value)? everyXDays,
-    TResult? Function(SpecificWeekdaysMedicationFrequency value)? specificWeekdays,
-    TResult? Function(CycleMedicationFrequency value)? cycle,
-  }) {
-    return specificWeekdays?.call(this);
-  }
-
-  @override
-  @optionalTypeArgs
-  TResult maybeMap<TResult extends Object?>({
-    TResult Function(DailyMedicationFrequency value)? daily,
-    TResult Function(EveryXDaysMedicationFrequency value)? everyXDays,
-    TResult Function(SpecificWeekdaysMedicationFrequency value)? specificWeekdays,
-    TResult Function(CycleMedicationFrequency value)? cycle,
-    required TResult orElse(),
-  }) {
-    if (specificWeekdays != null) {
-      return specificWeekdays(this);
-    }
-    return orElse();
-  }
-
-  @override
-  Map<String, dynamic> toJson() {
-    return _$$SpecificWeekdaysMedicationFrequencyImplToJson(
-      this,
-    );
-  }
-}
-
-abstract class SpecificWeekdaysMedicationFrequency extends MedicationFrequency {
-  const factory SpecificWeekdaysMedicationFrequency({required final List<Weekday> weekdays}) = _$SpecificWeekdaysMedicationFrequencyImpl;
-  const SpecificWeekdaysMedicationFrequency._() : super._();
-
-  factory SpecificWeekdaysMedicationFrequency.fromJson(Map<String, dynamic> json) = _$SpecificWeekdaysMedicationFrequencyImpl.fromJson;
-
-  List<Weekday> get weekdays;
-
-  /// Create a copy of MedicationFrequency
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  _$$SpecificWeekdaysMedicationFrequencyImplCopyWith<_$SpecificWeekdaysMedicationFrequencyImpl> get copyWith => throw _privateConstructorUsedError;
 }
 
 /// @nodoc
-abstract class _$$CycleMedicationFrequencyImplCopyWith<$Res> {
-  factory _$$CycleMedicationFrequencyImplCopyWith(_$CycleMedicationFrequencyImpl value, $Res Function(_$CycleMedicationFrequencyImpl) then) =
-      __$$CycleMedicationFrequencyImplCopyWithImpl<$Res>;
+abstract mixin class $SpecificWeekdaysMedicationFrequencyCopyWith<$Res> implements $MedicationFrequencyCopyWith<$Res> {
+  factory $SpecificWeekdaysMedicationFrequencyCopyWith(
+          SpecificWeekdaysMedicationFrequency value, $Res Function(SpecificWeekdaysMedicationFrequency) _then) =
+      _$SpecificWeekdaysMedicationFrequencyCopyWithImpl;
   @useResult
-  $Res call({int consecutiveDays, int restDays});
+  $Res call({List<Weekday> weekdays});
 }
 
 /// @nodoc
-class __$$CycleMedicationFrequencyImplCopyWithImpl<$Res> extends _$MedicationFrequencyCopyWithImpl<$Res, _$CycleMedicationFrequencyImpl>
-    implements _$$CycleMedicationFrequencyImplCopyWith<$Res> {
-  __$$CycleMedicationFrequencyImplCopyWithImpl(_$CycleMedicationFrequencyImpl _value, $Res Function(_$CycleMedicationFrequencyImpl) _then)
-      : super(_value, _then);
+class _$SpecificWeekdaysMedicationFrequencyCopyWithImpl<$Res> implements $SpecificWeekdaysMedicationFrequencyCopyWith<$Res> {
+  _$SpecificWeekdaysMedicationFrequencyCopyWithImpl(this._self, this._then);
+
+  final SpecificWeekdaysMedicationFrequency _self;
+  final $Res Function(SpecificWeekdaysMedicationFrequency) _then;
 
   /// Create a copy of MedicationFrequency
   /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
-  @override
   $Res call({
-    Object? consecutiveDays = null,
-    Object? restDays = null,
+    Object? weekdays = null,
   }) {
-    return _then(_$CycleMedicationFrequencyImpl(
-      consecutiveDays: null == consecutiveDays
-          ? _value.consecutiveDays
-          : consecutiveDays // ignore: cast_nullable_to_non_nullable
-              as int,
-      restDays: null == restDays
-          ? _value.restDays
-          : restDays // ignore: cast_nullable_to_non_nullable
-              as int,
+    return _then(SpecificWeekdaysMedicationFrequency(
+      weekdays: null == weekdays
+          ? _self._weekdays
+          : weekdays // ignore: cast_nullable_to_non_nullable
+              as List<Weekday>,
     ));
   }
 }
@@ -621,33 +455,39 @@ class __$$CycleMedicationFrequencyImplCopyWithImpl<$Res> extends _$MedicationFre
 /// @nodoc
 
 @JsonSerializable(explicitToJson: true)
-class _$CycleMedicationFrequencyImpl extends CycleMedicationFrequency {
-  const _$CycleMedicationFrequencyImpl({required this.consecutiveDays, required this.restDays, final String? $type})
+class CycleMedicationFrequency extends MedicationFrequency {
+  const CycleMedicationFrequency({required this.consecutiveDays, required this.restDays, final String? $type})
       : $type = $type ?? 'cycle',
         super._();
-
-  factory _$CycleMedicationFrequencyImpl.fromJson(Map<String, dynamic> json) => _$$CycleMedicationFrequencyImplFromJson(json);
+  factory CycleMedicationFrequency.fromJson(Map<String, dynamic> json) => _$CycleMedicationFrequencyFromJson(json);
 
 // 連続服用日数
-  @override
   final int consecutiveDays;
 // 休薬日数
-  @override
   final int restDays;
 
   @JsonKey(name: 'runtimeType')
   final String $type;
 
+  /// Create a copy of MedicationFrequency
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  @pragma('vm:prefer-inline')
+  $CycleMedicationFrequencyCopyWith<CycleMedicationFrequency> get copyWith =>
+      _$CycleMedicationFrequencyCopyWithImpl<CycleMedicationFrequency>(this, _$identity);
+
   @override
-  String toString() {
-    return 'MedicationFrequency.cycle(consecutiveDays: $consecutiveDays, restDays: $restDays)';
+  Map<String, dynamic> toJson() {
+    return _$CycleMedicationFrequencyToJson(
+      this,
+    );
   }
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _$CycleMedicationFrequencyImpl &&
+            other is CycleMedicationFrequency &&
             (identical(other.consecutiveDays, consecutiveDays) || other.consecutiveDays == consecutiveDays) &&
             (identical(other.restDays, restDays) || other.restDays == restDays));
   }
@@ -656,108 +496,45 @@ class _$CycleMedicationFrequencyImpl extends CycleMedicationFrequency {
   @override
   int get hashCode => Object.hash(runtimeType, consecutiveDays, restDays);
 
+  @override
+  String toString() {
+    return 'MedicationFrequency.cycle(consecutiveDays: $consecutiveDays, restDays: $restDays)';
+  }
+}
+
+/// @nodoc
+abstract mixin class $CycleMedicationFrequencyCopyWith<$Res> implements $MedicationFrequencyCopyWith<$Res> {
+  factory $CycleMedicationFrequencyCopyWith(CycleMedicationFrequency value, $Res Function(CycleMedicationFrequency) _then) =
+      _$CycleMedicationFrequencyCopyWithImpl;
+  @useResult
+  $Res call({int consecutiveDays, int restDays});
+}
+
+/// @nodoc
+class _$CycleMedicationFrequencyCopyWithImpl<$Res> implements $CycleMedicationFrequencyCopyWith<$Res> {
+  _$CycleMedicationFrequencyCopyWithImpl(this._self, this._then);
+
+  final CycleMedicationFrequency _self;
+  final $Res Function(CycleMedicationFrequency) _then;
+
   /// Create a copy of MedicationFrequency
   /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @override
   @pragma('vm:prefer-inline')
-  _$$CycleMedicationFrequencyImplCopyWith<_$CycleMedicationFrequencyImpl> get copyWith =>
-      __$$CycleMedicationFrequencyImplCopyWithImpl<_$CycleMedicationFrequencyImpl>(this, _$identity);
-
-  @override
-  @optionalTypeArgs
-  TResult when<TResult extends Object?>({
-    required TResult Function() daily,
-    required TResult Function(int interval) everyXDays,
-    required TResult Function(List<Weekday> weekdays) specificWeekdays,
-    required TResult Function(int consecutiveDays, int restDays) cycle,
+  $Res call({
+    Object? consecutiveDays = null,
+    Object? restDays = null,
   }) {
-    return cycle(consecutiveDays, restDays);
-  }
-
-  @override
-  @optionalTypeArgs
-  TResult? whenOrNull<TResult extends Object?>({
-    TResult? Function()? daily,
-    TResult? Function(int interval)? everyXDays,
-    TResult? Function(List<Weekday> weekdays)? specificWeekdays,
-    TResult? Function(int consecutiveDays, int restDays)? cycle,
-  }) {
-    return cycle?.call(consecutiveDays, restDays);
-  }
-
-  @override
-  @optionalTypeArgs
-  TResult maybeWhen<TResult extends Object?>({
-    TResult Function()? daily,
-    TResult Function(int interval)? everyXDays,
-    TResult Function(List<Weekday> weekdays)? specificWeekdays,
-    TResult Function(int consecutiveDays, int restDays)? cycle,
-    required TResult orElse(),
-  }) {
-    if (cycle != null) {
-      return cycle(consecutiveDays, restDays);
-    }
-    return orElse();
-  }
-
-  @override
-  @optionalTypeArgs
-  TResult map<TResult extends Object?>({
-    required TResult Function(DailyMedicationFrequency value) daily,
-    required TResult Function(EveryXDaysMedicationFrequency value) everyXDays,
-    required TResult Function(SpecificWeekdaysMedicationFrequency value) specificWeekdays,
-    required TResult Function(CycleMedicationFrequency value) cycle,
-  }) {
-    return cycle(this);
-  }
-
-  @override
-  @optionalTypeArgs
-  TResult? mapOrNull<TResult extends Object?>({
-    TResult? Function(DailyMedicationFrequency value)? daily,
-    TResult? Function(EveryXDaysMedicationFrequency value)? everyXDays,
-    TResult? Function(SpecificWeekdaysMedicationFrequency value)? specificWeekdays,
-    TResult? Function(CycleMedicationFrequency value)? cycle,
-  }) {
-    return cycle?.call(this);
-  }
-
-  @override
-  @optionalTypeArgs
-  TResult maybeMap<TResult extends Object?>({
-    TResult Function(DailyMedicationFrequency value)? daily,
-    TResult Function(EveryXDaysMedicationFrequency value)? everyXDays,
-    TResult Function(SpecificWeekdaysMedicationFrequency value)? specificWeekdays,
-    TResult Function(CycleMedicationFrequency value)? cycle,
-    required TResult orElse(),
-  }) {
-    if (cycle != null) {
-      return cycle(this);
-    }
-    return orElse();
-  }
-
-  @override
-  Map<String, dynamic> toJson() {
-    return _$$CycleMedicationFrequencyImplToJson(
-      this,
-    );
+    return _then(CycleMedicationFrequency(
+      consecutiveDays: null == consecutiveDays
+          ? _self.consecutiveDays
+          : consecutiveDays // ignore: cast_nullable_to_non_nullable
+              as int,
+      restDays: null == restDays
+          ? _self.restDays
+          : restDays // ignore: cast_nullable_to_non_nullable
+              as int,
+    ));
   }
 }
 
-abstract class CycleMedicationFrequency extends MedicationFrequency {
-  const factory CycleMedicationFrequency({required final int consecutiveDays, required final int restDays}) = _$CycleMedicationFrequencyImpl;
-  const CycleMedicationFrequency._() : super._();
-
-  factory CycleMedicationFrequency.fromJson(Map<String, dynamic> json) = _$CycleMedicationFrequencyImpl.fromJson;
-
-// 連続服用日数
-  int get consecutiveDays; // 休薬日数
-  int get restDays;
-
-  /// Create a copy of MedicationFrequency
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  _$$CycleMedicationFrequencyImplCopyWith<_$CycleMedicationFrequencyImpl> get copyWith => throw _privateConstructorUsedError;
-}
+// dart format on

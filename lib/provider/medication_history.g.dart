@@ -18,6 +18,8 @@ final medicationHistoriesProvider = AutoDisposeStreamProvider<List<MedicationHis
   allTransitiveDependencies: <ProviderOrFamily>{userDatabaseProvider, ...?userDatabaseProvider.allTransitiveDependencies},
 );
 
+@Deprecated('Will be removed in 3.0. Use Ref instead')
+// ignore: unused_element
 typedef MedicationHistoriesRef = AutoDisposeStreamProviderRef<List<MedicationHistory>>;
 String _$medicationHistoriesByDateHash() => r'61b6a486b27f90399c2feba8727042fb501616fa';
 
@@ -153,6 +155,8 @@ class MedicationHistoriesByDateProvider extends AutoDisposeStreamProvider<List<M
   }
 }
 
+@Deprecated('Will be removed in 3.0. Use Ref instead')
+// ignore: unused_element
 mixin MedicationHistoriesByDateRef on AutoDisposeStreamProviderRef<List<MedicationHistory>> {
   /// The parameter `date` of this provider.
   DateTime get date;
@@ -177,6 +181,8 @@ final medicationHistoryTakeProvider = AutoDisposeProvider<MedicationHistoryTake>
   allTransitiveDependencies: <ProviderOrFamily>{userDatabaseProvider, ...?userDatabaseProvider.allTransitiveDependencies},
 );
 
+@Deprecated('Will be removed in 3.0. Use Ref instead')
+// ignore: unused_element
 typedef MedicationHistoryTakeRef = AutoDisposeProviderRef<MedicationHistoryTake>;
 String _$medicationHistoryDeleteHash() => r'd25eda5bb38097e3a1d3efad69fc21e23ae2f900';
 
@@ -190,6 +196,8 @@ final medicationHistoryDeleteProvider = AutoDisposeProvider<MedicationHistoryDel
   allTransitiveDependencies: <ProviderOrFamily>{userDatabaseProvider, ...?userDatabaseProvider.allTransitiveDependencies},
 );
 
+@Deprecated('Will be removed in 3.0. Use Ref instead')
+// ignore: unused_element
 typedef MedicationHistoryDeleteRef = AutoDisposeProviderRef<MedicationHistoryDelete>;
 String _$medicationHistoryMemoUpdateHash() => r'd21f6cce07538559bad771235fcec4a45e7c92ce';
 
@@ -203,6 +211,8 @@ final medicationHistoryMemoUpdateProvider = AutoDisposeProvider<MedicationHistor
   allTransitiveDependencies: <ProviderOrFamily>{userDatabaseProvider, ...?userDatabaseProvider.allTransitiveDependencies},
 );
 
+@Deprecated('Will be removed in 3.0. Use Ref instead')
+// ignore: unused_element
 typedef MedicationHistoryMemoUpdateRef = AutoDisposeProviderRef<MedicationHistoryMemoUpdate>;
 // ignore_for_file: type=lint
-// ignore_for_file: subtype_of_sealed_class, invalid_use_of_internal_member, invalid_use_of_visible_for_testing_member
+// ignore_for_file: subtype_of_sealed_class, invalid_use_of_internal_member, invalid_use_of_visible_for_testing_member, deprecated_member_use_from_same_package

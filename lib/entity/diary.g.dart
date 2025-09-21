@@ -6,7 +6,7 @@ part of 'diary.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_$DiaryImpl _$$DiaryImplFromJson(Map<String, dynamic> json) => _$DiaryImpl(
+_Diary _$DiaryFromJson(Map<String, dynamic> json) => _Diary(
       id: json['id'] as String,
       userID: json['userID'] as String,
       memo: json['memo'] as String,
@@ -17,7 +17,7 @@ _$DiaryImpl _$$DiaryImplFromJson(Map<String, dynamic> json) => _$DiaryImpl(
       serverUpdatedDateTime: const ServerUpdatedTimestamp().fromJson(json['serverUpdatedDateTime']),
     );
 
-Map<String, dynamic> _$$DiaryImplToJson(_$DiaryImpl instance) => <String, dynamic>{
+Map<String, dynamic> _$DiaryToJson(_Diary instance) => <String, dynamic>{
       'id': instance.id,
       'userID': instance.userID,
       'memo': instance.memo,

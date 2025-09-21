@@ -6,7 +6,7 @@ part of 'app_user.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_$AppUserImpl _$$AppUserImplFromJson(Map<String, dynamic> json) => _$AppUserImpl(
+_AppUser _$AppUserFromJson(Map<String, dynamic> json) => _AppUser(
       id: json['id'] as String?,
       analyticsDebugIsEnabled: json['analyticsDebugIsEnabled'] as bool? ?? false,
       maybeTrialDeadlineDate: const NullableTimestampConverter().fromJson(json['maybeTrialDeadlineDate'] as Timestamp?),
@@ -18,7 +18,7 @@ _$AppUserImpl _$$AppUserImplFromJson(Map<String, dynamic> json) => _$AppUserImpl
       serverUpdatedDateTime: const ServerUpdatedTimestamp().fromJson(json['serverUpdatedDateTime']),
     );
 
-Map<String, dynamic> _$$AppUserImplToJson(_$AppUserImpl instance) => <String, dynamic>{
+Map<String, dynamic> _$AppUserToJson(_AppUser instance) => <String, dynamic>{
       'id': instance.id,
       'analyticsDebugIsEnabled': instance.analyticsDebugIsEnabled,
       'maybeTrialDeadlineDate': const NullableTimestampConverter().toJson(instance.maybeTrialDeadlineDate),

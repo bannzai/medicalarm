@@ -1,5 +1,5 @@
-// coverage:ignore-file
 // GENERATED CODE - DO NOT MODIFY BY HAND
+// coverage:ignore-file
 // ignore_for_file: type=lint
 // ignore_for_file: unused_element, deprecated_member_use, deprecated_member_use_from_same_package, use_function_type_syntax_for_parameters, unnecessary_const, avoid_init_to_null, invalid_override_different_default_values_named, prefer_expression_function_bodies, annotate_overrides, invalid_annotation_target, unnecessary_question_mark
 
@@ -9,111 +9,59 @@ part of 'dose_receiver.dart';
 // FreezedGenerator
 // **************************************************************************
 
+// dart format off
 T _$identity<T>(T value) => value;
-
-final _privateConstructorUsedError = UnsupportedError(
-    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#adding-getters-and-methods-to-our-models');
-
-DoseReceiver _$DoseReceiverFromJson(Map<String, dynamic> json) {
-  return _DoseReceiver.fromJson(json);
-}
 
 /// @nodoc
 mixin _$DoseReceiver {
-  String get id => throw _privateConstructorUsedError;
-  String get userID => throw _privateConstructorUsedError;
-  String get name => throw _privateConstructorUsedError;
+  String get id;
+  String get userID;
+  String get name;
   @ClientCreatedTimestamp()
-  DateTime? get createdDateTime => throw _privateConstructorUsedError;
+  DateTime? get createdDateTime;
   @ClientUpdatedTimestamp()
-  DateTime? get updatedDateTime => throw _privateConstructorUsedError;
+  DateTime? get updatedDateTime;
   @ServerCreatedTimestamp()
-  DateTime? get serverCreatedDateTime => throw _privateConstructorUsedError;
+  DateTime? get serverCreatedDateTime;
   @ServerUpdatedTimestamp()
-  DateTime? get serverUpdatedDateTime => throw _privateConstructorUsedError;
-
-  /// Serializes this DoseReceiver to a JSON map.
-  Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
+  DateTime? get serverUpdatedDateTime;
 
   /// Create a copy of DoseReceiver
   /// with the given fields replaced by the non-null parameter values.
   @JsonKey(includeFromJson: false, includeToJson: false)
-  $DoseReceiverCopyWith<DoseReceiver> get copyWith => throw _privateConstructorUsedError;
-}
-
-/// @nodoc
-abstract class $DoseReceiverCopyWith<$Res> {
-  factory $DoseReceiverCopyWith(DoseReceiver value, $Res Function(DoseReceiver) then) = _$DoseReceiverCopyWithImpl<$Res, DoseReceiver>;
-  @useResult
-  $Res call(
-      {String id,
-      String userID,
-      String name,
-      @ClientCreatedTimestamp() DateTime? createdDateTime,
-      @ClientUpdatedTimestamp() DateTime? updatedDateTime,
-      @ServerCreatedTimestamp() DateTime? serverCreatedDateTime,
-      @ServerUpdatedTimestamp() DateTime? serverUpdatedDateTime});
-}
-
-/// @nodoc
-class _$DoseReceiverCopyWithImpl<$Res, $Val extends DoseReceiver> implements $DoseReceiverCopyWith<$Res> {
-  _$DoseReceiverCopyWithImpl(this._value, this._then);
-
-  // ignore: unused_field
-  final $Val _value;
-  // ignore: unused_field
-  final $Res Function($Val) _then;
-
-  /// Create a copy of DoseReceiver
-  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
+  $DoseReceiverCopyWith<DoseReceiver> get copyWith => _$DoseReceiverCopyWithImpl<DoseReceiver>(this as DoseReceiver, _$identity);
+
+  /// Serializes this DoseReceiver to a JSON map.
+  Map<String, dynamic> toJson();
+
   @override
-  $Res call({
-    Object? id = null,
-    Object? userID = null,
-    Object? name = null,
-    Object? createdDateTime = freezed,
-    Object? updatedDateTime = freezed,
-    Object? serverCreatedDateTime = freezed,
-    Object? serverUpdatedDateTime = freezed,
-  }) {
-    return _then(_value.copyWith(
-      id: null == id
-          ? _value.id
-          : id // ignore: cast_nullable_to_non_nullable
-              as String,
-      userID: null == userID
-          ? _value.userID
-          : userID // ignore: cast_nullable_to_non_nullable
-              as String,
-      name: null == name
-          ? _value.name
-          : name // ignore: cast_nullable_to_non_nullable
-              as String,
-      createdDateTime: freezed == createdDateTime
-          ? _value.createdDateTime
-          : createdDateTime // ignore: cast_nullable_to_non_nullable
-              as DateTime?,
-      updatedDateTime: freezed == updatedDateTime
-          ? _value.updatedDateTime
-          : updatedDateTime // ignore: cast_nullable_to_non_nullable
-              as DateTime?,
-      serverCreatedDateTime: freezed == serverCreatedDateTime
-          ? _value.serverCreatedDateTime
-          : serverCreatedDateTime // ignore: cast_nullable_to_non_nullable
-              as DateTime?,
-      serverUpdatedDateTime: freezed == serverUpdatedDateTime
-          ? _value.serverUpdatedDateTime
-          : serverUpdatedDateTime // ignore: cast_nullable_to_non_nullable
-              as DateTime?,
-    ) as $Val);
+  bool operator ==(Object other) {
+    return identical(this, other) ||
+        (other.runtimeType == runtimeType &&
+            other is DoseReceiver &&
+            (identical(other.id, id) || other.id == id) &&
+            (identical(other.userID, userID) || other.userID == userID) &&
+            (identical(other.name, name) || other.name == name) &&
+            (identical(other.createdDateTime, createdDateTime) || other.createdDateTime == createdDateTime) &&
+            (identical(other.updatedDateTime, updatedDateTime) || other.updatedDateTime == updatedDateTime) &&
+            (identical(other.serverCreatedDateTime, serverCreatedDateTime) || other.serverCreatedDateTime == serverCreatedDateTime) &&
+            (identical(other.serverUpdatedDateTime, serverUpdatedDateTime) || other.serverUpdatedDateTime == serverUpdatedDateTime));
+  }
+
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  @override
+  int get hashCode => Object.hash(runtimeType, id, userID, name, createdDateTime, updatedDateTime, serverCreatedDateTime, serverUpdatedDateTime);
+
+  @override
+  String toString() {
+    return 'DoseReceiver(id: $id, userID: $userID, name: $name, createdDateTime: $createdDateTime, updatedDateTime: $updatedDateTime, serverCreatedDateTime: $serverCreatedDateTime, serverUpdatedDateTime: $serverUpdatedDateTime)';
   }
 }
 
 /// @nodoc
-abstract class _$$DoseReceiverImplCopyWith<$Res> implements $DoseReceiverCopyWith<$Res> {
-  factory _$$DoseReceiverImplCopyWith(_$DoseReceiverImpl value, $Res Function(_$DoseReceiverImpl) then) = __$$DoseReceiverImplCopyWithImpl<$Res>;
-  @override
+abstract mixin class $DoseReceiverCopyWith<$Res> {
+  factory $DoseReceiverCopyWith(DoseReceiver value, $Res Function(DoseReceiver) _then) = _$DoseReceiverCopyWithImpl;
   @useResult
   $Res call(
       {String id,
@@ -126,9 +74,11 @@ abstract class _$$DoseReceiverImplCopyWith<$Res> implements $DoseReceiverCopyWit
 }
 
 /// @nodoc
-class __$$DoseReceiverImplCopyWithImpl<$Res> extends _$DoseReceiverCopyWithImpl<$Res, _$DoseReceiverImpl>
-    implements _$$DoseReceiverImplCopyWith<$Res> {
-  __$$DoseReceiverImplCopyWithImpl(_$DoseReceiverImpl _value, $Res Function(_$DoseReceiverImpl) _then) : super(_value, _then);
+class _$DoseReceiverCopyWithImpl<$Res> implements $DoseReceiverCopyWith<$Res> {
+  _$DoseReceiverCopyWithImpl(this._self, this._then);
+
+  final DoseReceiver _self;
+  final $Res Function(DoseReceiver) _then;
 
   /// Create a copy of DoseReceiver
   /// with the given fields replaced by the non-null parameter values.
@@ -143,44 +93,228 @@ class __$$DoseReceiverImplCopyWithImpl<$Res> extends _$DoseReceiverCopyWithImpl<
     Object? serverCreatedDateTime = freezed,
     Object? serverUpdatedDateTime = freezed,
   }) {
-    return _then(_$DoseReceiverImpl(
+    return _then(_self.copyWith(
       id: null == id
-          ? _value.id
+          ? _self.id
           : id // ignore: cast_nullable_to_non_nullable
               as String,
       userID: null == userID
-          ? _value.userID
+          ? _self.userID
           : userID // ignore: cast_nullable_to_non_nullable
               as String,
       name: null == name
-          ? _value.name
+          ? _self.name
           : name // ignore: cast_nullable_to_non_nullable
               as String,
       createdDateTime: freezed == createdDateTime
-          ? _value.createdDateTime
+          ? _self.createdDateTime
           : createdDateTime // ignore: cast_nullable_to_non_nullable
               as DateTime?,
       updatedDateTime: freezed == updatedDateTime
-          ? _value.updatedDateTime
+          ? _self.updatedDateTime
           : updatedDateTime // ignore: cast_nullable_to_non_nullable
               as DateTime?,
       serverCreatedDateTime: freezed == serverCreatedDateTime
-          ? _value.serverCreatedDateTime
+          ? _self.serverCreatedDateTime
           : serverCreatedDateTime // ignore: cast_nullable_to_non_nullable
               as DateTime?,
       serverUpdatedDateTime: freezed == serverUpdatedDateTime
-          ? _value.serverUpdatedDateTime
+          ? _self.serverUpdatedDateTime
           : serverUpdatedDateTime // ignore: cast_nullable_to_non_nullable
               as DateTime?,
     ));
   }
 }
 
+/// Adds pattern-matching-related methods to [DoseReceiver].
+extension DoseReceiverPatterns on DoseReceiver {
+  /// A variant of `map` that fallback to returning `orElse`.
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case final Subclass value:
+  ///     return ...;
+  ///   case _:
+  ///     return orElse();
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult maybeMap<TResult extends Object?>(
+    TResult Function(_DoseReceiver value)? $default, {
+    required TResult orElse(),
+  }) {
+    final _that = this;
+    switch (_that) {
+      case _DoseReceiver() when $default != null:
+        return $default(_that);
+      case _:
+        return orElse();
+    }
+  }
+
+  /// A `switch`-like method, using callbacks.
+  ///
+  /// Callbacks receives the raw object, upcasted.
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case final Subclass value:
+  ///     return ...;
+  ///   case final Subclass2 value:
+  ///     return ...;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult map<TResult extends Object?>(
+    TResult Function(_DoseReceiver value) $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _DoseReceiver():
+        return $default(_that);
+      case _:
+        throw StateError('Unexpected subclass');
+    }
+  }
+
+  /// A variant of `map` that fallback to returning `null`.
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case final Subclass value:
+  ///     return ...;
+  ///   case _:
+  ///     return null;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult? mapOrNull<TResult extends Object?>(
+    TResult? Function(_DoseReceiver value)? $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _DoseReceiver() when $default != null:
+        return $default(_that);
+      case _:
+        return null;
+    }
+  }
+
+  /// A variant of `when` that fallback to an `orElse` callback.
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case Subclass(:final field):
+  ///     return ...;
+  ///   case _:
+  ///     return orElse();
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult maybeWhen<TResult extends Object?>(
+    TResult Function(
+            String id,
+            String userID,
+            String name,
+            @ClientCreatedTimestamp() DateTime? createdDateTime,
+            @ClientUpdatedTimestamp() DateTime? updatedDateTime,
+            @ServerCreatedTimestamp() DateTime? serverCreatedDateTime,
+            @ServerUpdatedTimestamp() DateTime? serverUpdatedDateTime)?
+        $default, {
+    required TResult orElse(),
+  }) {
+    final _that = this;
+    switch (_that) {
+      case _DoseReceiver() when $default != null:
+        return $default(_that.id, _that.userID, _that.name, _that.createdDateTime, _that.updatedDateTime, _that.serverCreatedDateTime,
+            _that.serverUpdatedDateTime);
+      case _:
+        return orElse();
+    }
+  }
+
+  /// A `switch`-like method, using callbacks.
+  ///
+  /// As opposed to `map`, this offers destructuring.
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case Subclass(:final field):
+  ///     return ...;
+  ///   case Subclass2(:final field2):
+  ///     return ...;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult when<TResult extends Object?>(
+    TResult Function(
+            String id,
+            String userID,
+            String name,
+            @ClientCreatedTimestamp() DateTime? createdDateTime,
+            @ClientUpdatedTimestamp() DateTime? updatedDateTime,
+            @ServerCreatedTimestamp() DateTime? serverCreatedDateTime,
+            @ServerUpdatedTimestamp() DateTime? serverUpdatedDateTime)
+        $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _DoseReceiver():
+        return $default(_that.id, _that.userID, _that.name, _that.createdDateTime, _that.updatedDateTime, _that.serverCreatedDateTime,
+            _that.serverUpdatedDateTime);
+      case _:
+        throw StateError('Unexpected subclass');
+    }
+  }
+
+  /// A variant of `when` that fallback to returning `null`
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case Subclass(:final field):
+  ///     return ...;
+  ///   case _:
+  ///     return null;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult? whenOrNull<TResult extends Object?>(
+    TResult? Function(
+            String id,
+            String userID,
+            String name,
+            @ClientCreatedTimestamp() DateTime? createdDateTime,
+            @ClientUpdatedTimestamp() DateTime? updatedDateTime,
+            @ServerCreatedTimestamp() DateTime? serverCreatedDateTime,
+            @ServerUpdatedTimestamp() DateTime? serverUpdatedDateTime)?
+        $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _DoseReceiver() when $default != null:
+        return $default(_that.id, _that.userID, _that.name, _that.createdDateTime, _that.updatedDateTime, _that.serverCreatedDateTime,
+            _that.serverUpdatedDateTime);
+      case _:
+        return null;
+    }
+  }
+}
+
 /// @nodoc
 
 @JsonSerializable(explicitToJson: true)
-class _$DoseReceiverImpl extends _DoseReceiver {
-  const _$DoseReceiverImpl(
+class _DoseReceiver extends DoseReceiver {
+  const _DoseReceiver(
       {required this.id,
       required this.userID,
       required this.name,
@@ -189,8 +323,7 @@ class _$DoseReceiverImpl extends _DoseReceiver {
       @ServerCreatedTimestamp() this.serverCreatedDateTime,
       @ServerUpdatedTimestamp() this.serverUpdatedDateTime})
       : super._();
-
-  factory _$DoseReceiverImpl.fromJson(Map<String, dynamic> json) => _$$DoseReceiverImplFromJson(json);
+  factory _DoseReceiver.fromJson(Map<String, dynamic> json) => _$DoseReceiverFromJson(json);
 
   @override
   final String id;
@@ -211,16 +344,25 @@ class _$DoseReceiverImpl extends _DoseReceiver {
   @ServerUpdatedTimestamp()
   final DateTime? serverUpdatedDateTime;
 
+  /// Create a copy of DoseReceiver
+  /// with the given fields replaced by the non-null parameter values.
   @override
-  String toString() {
-    return 'DoseReceiver(id: $id, userID: $userID, name: $name, createdDateTime: $createdDateTime, updatedDateTime: $updatedDateTime, serverCreatedDateTime: $serverCreatedDateTime, serverUpdatedDateTime: $serverUpdatedDateTime)';
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  @pragma('vm:prefer-inline')
+  _$DoseReceiverCopyWith<_DoseReceiver> get copyWith => __$DoseReceiverCopyWithImpl<_DoseReceiver>(this, _$identity);
+
+  @override
+  Map<String, dynamic> toJson() {
+    return _$DoseReceiverToJson(
+      this,
+    );
   }
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _$DoseReceiverImpl &&
+            other is _DoseReceiver &&
             (identical(other.id, id) || other.id == id) &&
             (identical(other.userID, userID) || other.userID == userID) &&
             (identical(other.name, name) || other.name == name) &&
@@ -234,56 +376,78 @@ class _$DoseReceiverImpl extends _DoseReceiver {
   @override
   int get hashCode => Object.hash(runtimeType, id, userID, name, createdDateTime, updatedDateTime, serverCreatedDateTime, serverUpdatedDateTime);
 
-  /// Create a copy of DoseReceiver
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
   @override
-  @pragma('vm:prefer-inline')
-  _$$DoseReceiverImplCopyWith<_$DoseReceiverImpl> get copyWith => __$$DoseReceiverImplCopyWithImpl<_$DoseReceiverImpl>(this, _$identity);
-
-  @override
-  Map<String, dynamic> toJson() {
-    return _$$DoseReceiverImplToJson(
-      this,
-    );
+  String toString() {
+    return 'DoseReceiver(id: $id, userID: $userID, name: $name, createdDateTime: $createdDateTime, updatedDateTime: $updatedDateTime, serverCreatedDateTime: $serverCreatedDateTime, serverUpdatedDateTime: $serverUpdatedDateTime)';
   }
 }
 
-abstract class _DoseReceiver extends DoseReceiver {
-  const factory _DoseReceiver(
-      {required final String id,
-      required final String userID,
-      required final String name,
-      @ClientCreatedTimestamp() final DateTime? createdDateTime,
-      @ClientUpdatedTimestamp() final DateTime? updatedDateTime,
-      @ServerCreatedTimestamp() final DateTime? serverCreatedDateTime,
-      @ServerUpdatedTimestamp() final DateTime? serverUpdatedDateTime}) = _$DoseReceiverImpl;
-  const _DoseReceiver._() : super._();
+/// @nodoc
+abstract mixin class _$DoseReceiverCopyWith<$Res> implements $DoseReceiverCopyWith<$Res> {
+  factory _$DoseReceiverCopyWith(_DoseReceiver value, $Res Function(_DoseReceiver) _then) = __$DoseReceiverCopyWithImpl;
+  @override
+  @useResult
+  $Res call(
+      {String id,
+      String userID,
+      String name,
+      @ClientCreatedTimestamp() DateTime? createdDateTime,
+      @ClientUpdatedTimestamp() DateTime? updatedDateTime,
+      @ServerCreatedTimestamp() DateTime? serverCreatedDateTime,
+      @ServerUpdatedTimestamp() DateTime? serverUpdatedDateTime});
+}
 
-  factory _DoseReceiver.fromJson(Map<String, dynamic> json) = _$DoseReceiverImpl.fromJson;
+/// @nodoc
+class __$DoseReceiverCopyWithImpl<$Res> implements _$DoseReceiverCopyWith<$Res> {
+  __$DoseReceiverCopyWithImpl(this._self, this._then);
 
-  @override
-  String get id;
-  @override
-  String get userID;
-  @override
-  String get name;
-  @override
-  @ClientCreatedTimestamp()
-  DateTime? get createdDateTime;
-  @override
-  @ClientUpdatedTimestamp()
-  DateTime? get updatedDateTime;
-  @override
-  @ServerCreatedTimestamp()
-  DateTime? get serverCreatedDateTime;
-  @override
-  @ServerUpdatedTimestamp()
-  DateTime? get serverUpdatedDateTime;
+  final _DoseReceiver _self;
+  final $Res Function(_DoseReceiver) _then;
 
   /// Create a copy of DoseReceiver
   /// with the given fields replaced by the non-null parameter values.
   @override
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  _$$DoseReceiverImplCopyWith<_$DoseReceiverImpl> get copyWith => throw _privateConstructorUsedError;
+  @pragma('vm:prefer-inline')
+  $Res call({
+    Object? id = null,
+    Object? userID = null,
+    Object? name = null,
+    Object? createdDateTime = freezed,
+    Object? updatedDateTime = freezed,
+    Object? serverCreatedDateTime = freezed,
+    Object? serverUpdatedDateTime = freezed,
+  }) {
+    return _then(_DoseReceiver(
+      id: null == id
+          ? _self.id
+          : id // ignore: cast_nullable_to_non_nullable
+              as String,
+      userID: null == userID
+          ? _self.userID
+          : userID // ignore: cast_nullable_to_non_nullable
+              as String,
+      name: null == name
+          ? _self.name
+          : name // ignore: cast_nullable_to_non_nullable
+              as String,
+      createdDateTime: freezed == createdDateTime
+          ? _self.createdDateTime
+          : createdDateTime // ignore: cast_nullable_to_non_nullable
+              as DateTime?,
+      updatedDateTime: freezed == updatedDateTime
+          ? _self.updatedDateTime
+          : updatedDateTime // ignore: cast_nullable_to_non_nullable
+              as DateTime?,
+      serverCreatedDateTime: freezed == serverCreatedDateTime
+          ? _self.serverCreatedDateTime
+          : serverCreatedDateTime // ignore: cast_nullable_to_non_nullable
+              as DateTime?,
+      serverUpdatedDateTime: freezed == serverUpdatedDateTime
+          ? _self.serverUpdatedDateTime
+          : serverUpdatedDateTime // ignore: cast_nullable_to_non_nullable
+              as DateTime?,
+    ));
+  }
 }
+
+// dart format on
