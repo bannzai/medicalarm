@@ -242,9 +242,8 @@ if (useAlarmKit) {
    - [ ] TakePill更新
 
 5. ✅ **Phase 5**: テスト・デバッグ
-   - [ ] 単体テスト
-   - [ ] 統合テスト
-   - [ ] 実機テスト
+   - [ ] ビルドが通るかをテスト: flutter build ios --no-codesign
+   - [ ] flutter test: flutter build ios --no-codesign
 
 ## 注意事項
 
