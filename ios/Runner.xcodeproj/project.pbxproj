@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		1498D2341E8E89220040F4C2 /* GeneratedPluginRegistrant.m in Sources */ = {isa = PBXBuildFile; fileRef = 1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */; };
+		2057C1F82E8029A400FDE215 /* AppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2057C1F72E8029A400FDE215 /* AppIntent.swift */; };
+		2057C1F92E8029A400FDE215 /* AlarmKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2057C1F62E8029A400FDE215 /* AlarmKitManager.swift */; };
 		2081AE962D448137009DACDB /* StoreKitConfiguration.storekit in Resources */ = {isa = PBXBuildFile; fileRef = 2081AE952D448137009DACDB /* StoreKitConfiguration.storekit */; };
 		2081AF402D448B84009DACDB /* StoreKitTestCertificate.cer in Resources */ = {isa = PBXBuildFile; fileRef = 2081AF3F2D448B84009DACDB /* StoreKitTestCertificate.cer */; };
 		20934BB32D313EF400B2D710 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 20934BB02D313EF400B2D710 /* GoogleService-Info.plist */; };
@@ -49,6 +51,8 @@
 		1498D2321E8E86230040F4C2 /* GeneratedPluginRegistrant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeneratedPluginRegistrant.h; sourceTree = "<group>"; };
 		1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneratedPluginRegistrant.m; sourceTree = "<group>"; };
 		200F75AF2D3F9F32004ADAC7 /* Runner.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Runner.entitlements; sourceTree = "<group>"; };
+		2057C1F62E8029A400FDE215 /* AlarmKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmKitManager.swift; sourceTree = "<group>"; };
+		2057C1F72E8029A400FDE215 /* AppIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntent.swift; sourceTree = "<group>"; };
 		2081AE952D448137009DACDB /* StoreKitConfiguration.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = StoreKitConfiguration.storekit; sourceTree = "<group>"; };
 		2081AF3F2D448B84009DACDB /* StoreKitTestCertificate.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = StoreKitTestCertificate.cer; sourceTree = "<group>"; };
 		20934BAF2D313EF400B2D710 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
@@ -165,6 +169,8 @@
 		97C146F01CF9000F007C117D /* Runner */ = {
 			isa = PBXGroup;
 			children = (
+				2057C1F62E8029A400FDE215 /* AlarmKitManager.swift */,
+				2057C1F72E8029A400FDE215 /* AppIntent.swift */,
 				200F75AF2D3F9F32004ADAC7 /* Runner.entitlements */,
 				97C146FA1CF9000F007C117D /* Main.storyboard */,
 				97C146FD1CF9000F007C117D /* Assets.xcassets */,
@@ -308,9 +314,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -325,9 +335,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -425,6 +439,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				20F9B8422D458B680009570A /* requestAppTrackingTransparency.swift in Sources */,
+				2057C1F82E8029A400FDE215 /* AppIntent.swift in Sources */,
+				2057C1F92E8029A400FDE215 /* AlarmKitManager.swift in Sources */,
 				74858FAF1ED2DC5600515810 /* AppDelegate.swift in Sources */,
 				1498D2341E8E89220040F4C2 /* GeneratedPluginRegistrant.m in Sources */,
 			);
