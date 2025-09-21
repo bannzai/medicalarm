@@ -11,10 +11,8 @@ import 'package:medicalarm/utils/alarm_kit_service.dart';
 import 'package:medicalarm/utils/analytics/analytics.dart';
 import 'package:medicalarm/utils/analytics/error.dart';
 import 'package:medicalarm/utils/date_time/date_time_ext.dart';
-import 'package:medicalarm/utils/shared_preferences/keys.dart';
 import 'package:medicalarm/features/localization/l.dart';
 import 'package:riverpod/riverpod.dart';
-import 'package:shared_preferences/shared_preferences.dart';
 import 'package:timezone/data/latest_all.dart' as tz;
 import 'package:timezone/timezone.dart' as tz;
 import 'package:flutter_timezone/flutter_timezone.dart';
@@ -164,14 +162,9 @@ class RegisterReminderLocalNotification {
       ref.read(medicationHistoriesByDateProvider(today()).future),
     ).wait;
 
-    // AlarmKit使用判定
-    final sharedPreferences = await SharedPreferences.getInstance();
-    final useAlarmKit = sharedPreferences.getBool(BoolKey.useAlarmKit) ?? false;
-
     await run(
       medicines: medicines,
       medicationHistories: medicationHistories,
-      useAlarmKit: useAlarmKit,
       loopCount: 0,
     );
   }
@@ -180,7 +173,6 @@ class RegisterReminderLocalNotification {
   static Future<void> run({
     required List<Medicine> medicines,
     required List<MedicationHistory> medicationHistories,
-    required bool useAlarmKit,
     // NOTE: [LocalNotificationReminder] 例えば frequency が cycleで、consecutiveDaysよりも後ろで、restDaysの期間にいる場合の再評価が必要になる
     // ループをいっぱい回してfuturesが空にならない場合までを採用する。上限をloopCount==10としている
     required int loopCount,
@@ -245,6 +237,9 @@ class RegisterReminderLocalNotification {
         // 通知をまとめて送るので、スケジュールの中にcriticalAlertを使うものが一つでもある場合はcriticalAlertを使う
         final useCriticalAlert = group.scheduleRows.any((element) => element.medicationSchedule.notificationSetting.useCriticalAlert);
         final largestCriticalAlertVolume = group.scheduleRows.map((e) => e.medicationSchedule.notificationSetting.criticalAlertVolume).max;
+
+        // 通知をまとめて送るので、スケジュールの中にAlarmKitを使うものが一つでもある場合はAlarmKitを使う
+        final useAlarmKit = group.scheduleRows.any((element) => element.medicationSchedule.notificationSetting.useAlarmKit);
 
         final reminderEnabledScheduleRows = group.scheduleRows.where((element) => element.medicationSchedule.notificationSetting.isReminderEnabled);
         if (reminderEnabledScheduleRows.isNotEmpty) {
@@ -432,7 +427,7 @@ class RegisterReminderLocalNotification {
 
     if (futures.isEmpty) {
       // NOTE: [LocalNotificationReminder] 例えば frequency が cycleで、consecutiveDaysよりも後ろで、restDaysの期間にいる場合の再評価が必要になる
-      run(medicines: medicines, medicationHistories: medicationHistories, useAlarmKit: useAlarmKit, loopCount: loopCount + 1);
+      run(medicines: medicines, medicationHistories: medicationHistories, loopCount: loopCount + 1);
       return;
     }
     analytics.debug(name: 'rrrn_e_before_run', parameters: {
@@ -481,21 +476,16 @@ class CancelReminderLocalNotification {
     // Local Notificationをキャンセル
     await Future.wait(pendingNotifications.map((p) => localNotificationService.cancelNotification(localNotificationID: p.id)));
 
-    // AlarmKitが有効な場合はAlarmKitアラームもキャンセル
-    final sharedPreferences = await SharedPreferences.getInstance();
-    final useAlarmKit = sharedPreferences.getBool(BoolKey.useAlarmKit) ?? false;
-
-    if (useAlarmKit) {
-      try {
-        await AlarmKitService.cancelAllMedicationReminders();
-        analytics.debug(name: 'cancel_alarm_kit_reminders_success');
-      } catch (e, st) {
-        // AlarmKitキャンセルに失敗してもLocal Notificationのキャンセルは成功しているので継続
-        errorLogger.recordError(e, st);
-        analytics.debug(name: 'cancel_alarm_kit_reminders_failed', parameters: {
-          'error': e.toString(),
-        });
-      }
+    // AlarmKitアラームもキャンセル（常に実行、iOS 26未満では何もしない）
+    try {
+      await AlarmKitService.cancelAllMedicationReminders();
+      analytics.debug(name: 'cancel_alarm_kit_reminders_success');
+    } catch (e, st) {
+      // AlarmKitキャンセルに失敗してもLocal Notificationのキャンセルは成功しているので継続
+      errorLogger.recordError(e, st);
+      analytics.debug(name: 'cancel_alarm_kit_reminders_failed', parameters: {
+        'error': e.toString(),
+      });
     }
   }
 }
