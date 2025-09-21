@@ -58,7 +58,7 @@ dependencies:
 
   url_launcher: ^6.3.0
   package_info_plus: ^9.0.0
-  mockito: ^5.3.2
+  mockito: ^5.4.6
   in_app_review: ^2.0.8
   async_value_group: ^1.0.0
 
