@@ -1,22 +1,17 @@
 PODS:
   - app_links (0.0.2):
     - Flutter
-  - cloud_firestore (5.6.6):
+  - cloud_firestore (6.0.1):
     - Firebase/Firestore (= 11.10.0)
     - firebase_core
     - Flutter
-  - cloud_functions (5.4.0):
+  - cloud_functions (6.0.1):
     - Firebase/Functions (= 11.10.0)
     - firebase_core
     - Flutter
-  - Firebase/Analytics (11.10.0):
-    - Firebase/Core
   - Firebase/Auth (11.10.0):
     - Firebase/CoreOnly
     - FirebaseAuth (~> 11.10.0)
-  - Firebase/Core (11.10.0):
-    - Firebase/CoreOnly
-    - FirebaseAnalytics (~> 11.10.0)
   - Firebase/CoreOnly (11.10.0):
     - FirebaseCore (~> 11.10.0)
   - Firebase/Crashlytics (11.10.0):
@@ -37,30 +32,30 @@ PODS:
   - Firebase/Storage (11.10.0):
     - Firebase/CoreOnly
     - FirebaseStorage (~> 11.10.0)
-  - firebase_analytics (11.4.5):
-    - Firebase/Analytics (= 11.10.0)
+  - firebase_analytics (12.0.1):
     - firebase_core
+    - FirebaseAnalytics (= 11.10.0)
     - Flutter
-  - firebase_auth (5.5.2):
+  - firebase_auth (6.0.2):
     - Firebase/Auth (= 11.10.0)
     - firebase_core
     - Flutter
-  - firebase_core (3.13.0):
+  - firebase_core (4.1.0):
     - Firebase/CoreOnly (= 11.10.0)
     - Flutter
-  - firebase_crashlytics (4.3.5):
+  - firebase_crashlytics (5.0.1):
     - Firebase/Crashlytics (= 11.10.0)
     - firebase_core
     - Flutter
-  - firebase_messaging (15.2.5):
+  - firebase_messaging (16.0.1):
     - Firebase/Messaging (= 11.10.0)
     - firebase_core
     - Flutter
-  - firebase_remote_config (5.4.3):
+  - firebase_remote_config (6.0.1):
     - Firebase/RemoteConfig (= 11.10.0)
     - firebase_core
     - Flutter
-  - firebase_storage (12.4.5):
+  - firebase_storage (13.0.1):
     - Firebase/Storage (= 11.10.0)
     - firebase_core
     - Flutter
@@ -265,13 +260,13 @@ PODS:
   - PromisesObjC (2.4.0)
   - PromisesSwift (2.4.0):
     - PromisesObjC (= 2.4.0)
-  - purchases_flutter (8.7.3):
+  - purchases_flutter (9.6.2):
     - Flutter
-    - PurchasesHybridCommon (= 13.28.1)
-  - PurchasesHybridCommon (13.28.1):
-    - RevenueCat (= 5.21.2)
+    - PurchasesHybridCommon (= 17.7.0)
+  - PurchasesHybridCommon (17.7.0):
+    - RevenueCat (= 5.39.0)
   - RecaptchaInterop (101.0.0)
-  - RevenueCat (5.21.2)
+  - RevenueCat (5.39.0)
   - shared_preferences_foundation (0.0.1):
     - Flutter
     - FlutterMacOS
@@ -408,16 +403,16 @@ CHECKOUT OPTIONS:
 
 SPEC CHECKSUMS:
   app_links: f3e17e4ee5e357b39d8b95290a9b2c299fca71c6
-  cloud_firestore: aef3217af294cd35afda47e63112d306f4c9a2e2
-  cloud_functions: 79ce7ce5c2e0fe46344a36b224beb09d5f15fd87
+  cloud_firestore: acfd234de0551fbbcd29c679c180e2d43670a612
+  cloud_functions: 5b91e88cdd0a75d07979baec1850ea84989257db
   Firebase: 1fe1c0a7d9aaea32efe01fbea5f0ebd8d70e53a2
-  firebase_analytics: 4b8609ce8d2e0c8928472bec8d9753a8f1835eb6
-  firebase_auth: e37065f3f80ff90580c13ad0e5a48e3bb8d2ad77
-  firebase_core: 432718558359a8c08762151b5f49bb0f093eb6e0
-  firebase_crashlytics: f3b2649ae73f440895f285021bf70bdf4d36dec4
-  firebase_messaging: 3b99522baf7480dfb4b7683d2b34e842d577c362
-  firebase_remote_config: d7b5f27d1e69e000c6b044f9a6f9a48864a928ef
-  firebase_storage: 11a326ee2116e122192f7b960db6f17ea8c18681
+  firebase_analytics: 8bcf633cb6b50db6c97aa60320a557a1d5d282dd
+  firebase_auth: c4bc14019334e6d0dd778f40fdd820050109c1c6
+  firebase_core: cefab90aeeb641d7a039e99800ce0614dd4e2e6c
+  firebase_crashlytics: 4397b7aa1b1d22e7599082c15786bdf62f77f07f
+  firebase_messaging: fb35939ef89d2526a7d41dddefd56dac763fd583
+  firebase_remote_config: 51b716243fd46f3dd66d39f6211e23ea860ef5ce
+  firebase_storage: b6aa15ac20f9a690212adc37e3e6c48f02993218
   FirebaseABTesting: dfc10eb6cc08fe3b391ac9e5aa40396d43ea6675
   FirebaseAnalytics: 4e42333f02cf78ed93703a5c36f36dd518aebdef
   FirebaseAppCheckInterop: f23709c9ce92d810aa53ff4ce12ad3e666a3c7be
@@ -443,7 +438,7 @@ SPEC CHECKSUMS:
   FirebaseSessions: 9b3b30947b97a15370e0902ee7a90f50ef60ead6
   FirebaseSharedSwift: 1baacae75939499b5def867cbe34129464536a38
   FirebaseStorage: e83d1b9c8a5318d46ccfb2955f0d98095e0bf598
-  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  Flutter: cabc95a1d2626b1b06e7179b784ebcf0c0cde467
   flutter_local_notifications: ff50f8405aaa0ccdc7dcfb9022ca192e8ad9688f
   flutter_timezone: ac3da59ac941ff1c98a2e1f0293420e020120282
   Google-Mobile-Ads-SDK: 14f57f2dc33532a24db288897e26494640810407
@@ -453,7 +448,7 @@ SPEC CHECKSUMS:
   GoogleUserMessagingPlatform: f8d0cdad3ca835406755d0a69aa634f00e76d576
   GoogleUtilities: 26a3abef001b6533cf678d3eb38fd3f614b7872d
   GTMSessionFetcher: 75b671f9e551e4c49153d4c4f8659ef4f559b970
-  image_cropper: 37d40f62177c101ff4c164906d259ea2c3aa70cf
+  image_cropper: e0bb0042e4404ff2ef134e5cf0492cbd892156cd
   image_picker_ios: c560581cceedb403a6ff17f2f816d7fea1421fc1
   in_app_review: a31b5257259646ea78e0e35fc914979b0031d011
   integration_test: 252f60fa39af5e17c3aa9899d35d908a0721b573
@@ -462,10 +457,10 @@ SPEC CHECKSUMS:
   package_info_plus: c0502532a26c7662a62a356cebe2692ec5fe4ec4
   PromisesObjC: f5707f49cb48b9636751c5b2e7d227e43fba9f47
   PromisesSwift: 9d77319bbe72ebf6d872900551f7eeba9bce2851
-  purchases_flutter: 8abf2713ef15d22c85a2c3a8ffea30dafdceea2c
-  PurchasesHybridCommon: bb4c1ddc8683a18859da35f45a0717379f889d94
+  purchases_flutter: 0b5c70044173dfe068865233be41db78723481b2
+  PurchasesHybridCommon: 6bc96162fb0c061e1980f474be618c088cfd1428
   RecaptchaInterop: 11e0b637842dfb48308d242afc3f448062325aba
-  RevenueCat: d8174cfd72fab33f3b877d38c9f033142dc87c60
+  RevenueCat: 4743a5eee0004e1c03eabeb3498818f902a5d622
   shared_preferences_foundation: fcdcbc04712aee1108ac7fda236f363274528f78
   TOCropViewController: 80b8985ad794298fb69d3341de183f33d1853654
   url_launcher_ios: 5334b05cef931de560670eeae103fd3e431ac3fe
