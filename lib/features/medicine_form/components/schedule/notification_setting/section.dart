@@ -26,15 +26,7 @@ class MedicineScheduleNotificationSettingSection extends HookConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     // 親Componentで値の変化を監視しているので、UIが重くなるので、Internal stateを用意する
     final criticalAlertVolume = useState(this.criticalAlertVolume.value);
-    final isAlarmKitAvailable = useState<bool?>(null);
-
-    useEffect(() {
-      Future(() async {
-        final available = await AlarmKitService.isAvailable();
-        isAlarmKitAvailable.value = available;
-      });
-      return null;
-    }, []);
+    final isAlarmKitAvailable = useFuture(AlarmKitService.isAvailable());
 
     return MedicineFormSectionLayout(
       icon: Icons.notifications,
@@ -77,7 +69,7 @@ class MedicineScheduleNotificationSettingSection extends HookConsumerWidget {
           title: Text(L.enableNotificationInSilentMode),
           subtitle: Text(L.silentModeNotificationDescription),
         ),
-        if (isAlarmKitAvailable.value == true) ...[
+        if (isAlarmKitAvailable.data == true) ...[
           SwitchListTile(
             value: useAlarmKit.value,
             onChanged: (value) async {
