@@ -174,7 +174,7 @@ class Purchase {
   Future<bool> call(Package package) async {
     try {
       final purchaserInfo = await Purchases.purchasePackage(package);
-      final premiumEntitlement = purchaserInfo.entitlements.all[premiumEntitlementIdentifier];
+      final premiumEntitlement = purchaserInfo.customerInfo.entitlements.all[premiumEntitlementIdentifier];
       if (premiumEntitlement == null) {
         throw AssertionError('unexpected premium entitlements is not exists');
       }
