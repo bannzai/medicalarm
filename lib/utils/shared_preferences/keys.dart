@@ -1,6 +1,4 @@
-extension BoolKey on String {
-  static const String useAlarmKit = 'useAlarmKit';
-}
+extension BoolKey on String {}
 
 extension StringKey on String {
   static const String lastSignInFirebaseAuthUserID = 'lastSignInFirebaseAuthUserID';
