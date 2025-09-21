@@ -249,7 +249,7 @@ extension RemoteConfigParameterPatterns on RemoteConfigParameter {
 /// @nodoc
 @JsonSerializable()
 class _RemoteConfigParameter extends RemoteConfigParameter {
-  _RemoteConfigParameter(
+  const _RemoteConfigParameter(
       {this.minimumAppVersion = RemoteConfigParameterDefaultValues.minimumAppVersion,
       this.promotionDayCount = RemoteConfigParameterDefaultValues.promotionDayCount,
       this.releasedVersion = RemoteConfigParameterDefaultValues.releasedVersion})
