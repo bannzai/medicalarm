@@ -1,190 +1,180 @@
 import Foundation
+import AppIntents
 import AlarmKit
-import UserNotifications
+import SwiftUI
 
-@available(iOS 18.0, *)
-class AlarmKitManager: NSObject {
-    
-    // AlarmKitが利用可能かどうかを確認
-    static func isAlarmKitAvailable() -> Bool {
-        if #available(iOS 18.0, *) {
-            return true
-        } else {
-            return false
-        }
+/// AlarmKit機能へのアクセスを提供するマネージャークラス
+///
+/// iOS 26+でのみ利用可能なAlarmKitの機能をネイティブ側で管理します。
+/// Medicalarmアプリの服薬リマインダーをサイレントモード・フォーカスモード時でも確実に表示するために使用します。
+class AlarmKitManager {
+  static let shared = AlarmKitManager()
+  private init() {}
+
+  @available(iOS 26.0, *)
+  typealias AlarmConfiguration = AlarmManager.AlarmConfiguration<AppAlarmMetadata>
+
+  /// AlarmKitが現在のOS版で利用可能かどうかを確認する
+  ///
+  /// Returns: iOS 26+でtrueを返します。それ以外のバージョンではfalseです。
+  func isAvailableForCurrentOS() -> Bool {
+    if #available(iOS 26.0, *) {
+      return true
+    } else {
+      return false
     }
-    
-    // AlarmKitの認証状態を取得
-    static func getAlarmKitAuthorizationStatus() async -> String {
-        guard #available(iOS 18.0, *) else {
-            return "unavailable"
-        }
-        
-        let status = await ALAlarmManager.authorizationStatus()
-        switch status {
-        case .notDetermined:
-            return "notDetermined"
-        case .denied:
-            return "denied"
-        case .authorized:
-            return "authorized"
-        @unknown default:
-            return "unknown"
-        }
+  }
+
+  /// AlarmKitの認証状態を取得する
+  ///
+  /// 現在のAlarmKitの認証状態を確認します。
+  /// UI表示に応じて適切な状態を返します。
+  ///
+  /// Returns: 現在の認証状態（"authorized", "denied", "notDetermined", "notAvailable"）
+  func getAuthorizationStatus() -> String {
+    guard #available(iOS 26.0, *) else {
+      return "notAvailable"
     }
-    
-    // AlarmKitの使用許可をリクエスト
-    static func requestAlarmKitPermission() async -> String {
-        guard #available(iOS 18.0, *) else {
-            return "unavailable"
-        }
-        
-        do {
-            let granted = try await ALAlarmManager.requestAuthorization()
-            return granted ? "authorized" : "denied"
-        } catch {
-            print("AlarmKit authorization request failed: \(error)")
-            return "denied"
-        }
+
+    switch AlarmManager.shared.authorizationState {
+    case .authorized:
+      return "authorized"
+    case .denied:
+      return "denied"
+    case .notDetermined:
+      return "notDetermined"
+    @unknown default:
+      return "notDetermined"
     }
-    
-    // AlarmKitでアラームをスケジュール
-    static func scheduleAlarmKitReminder(
-        identifier: String,
-        title: String,
-        body: String,
-        hour: Int,
-        minute: Int,
-        repeating: Bool,
-        criticalAlert: Bool
-    ) async -> Bool {
-        guard #available(iOS 18.0, *) else {
-            return false
-        }
-        
-        // 認証状態を確認
-        let authStatus = await ALAlarmManager.authorizationStatus()
-        guard authStatus == .authorized else {
-            print("AlarmKit not authorized")
-            return false
-        }
-        
-        do {
-            // アラーム時刻を設定
-            var dateComponents = DateComponents()
-            dateComponents.hour = hour
-            dateComponents.minute = minute
-            
-            // アラームの詳細設定
-            let sound: ALAlarmSound
-            if criticalAlert {
-                // Critical Alertの場合はシステムデフォルトの音量で
-                sound = .default
-            } else {
-                sound = .default
-            }
-            
-            // アラームを作成
-            let alarm = ALAlarm(
-                dateComponents: dateComponents,
-                title: title,
-                isEnabled: true,
-                repeating: repeating,
-                sound: sound
-            )
-            
-            // アラームをスケジュール
-            try await ALAlarmManager.shared.save(alarm)
-            
-            print("AlarmKit reminder scheduled successfully: \(identifier)")
-            return true
-            
-        } catch {
-            print("Failed to schedule AlarmKit reminder: \(error)")
-            return false
-        }
+  }
+
+  /// AlarmKitの権限をリクエストする
+  ///
+  /// iOS 26+でAlarmKitの使用許可をユーザーに求めます。
+  /// アラーム機能を初めて使用する際に呼び出す必要があります。
+  ///
+  /// Returns: 権限が許可された場合true、拒否された場合false
+  func requestPermission() async -> Bool {
+    guard #available(iOS 26.0, *) else {
+      return false
     }
-    
-    // 全てのAlarmKitアラームをキャンセル
-    static func cancelAllAlarmKitReminders() async -> Bool {
-        guard #available(iOS 18.0, *) else {
-            return false
-        }
-        
-        do {
-            let alarms = try await ALAlarmManager.shared.alarms()
-            
-            for alarm in alarms {
-                try await ALAlarmManager.shared.remove(alarm)
-            }
-            
-            print("All AlarmKit reminders cancelled successfully")
-            return true
-            
-        } catch {
-            print("Failed to cancel AlarmKit reminders: \(error)")
-            return false
-        }
+
+    do {
+      let authorization = try await AlarmManager.shared.requestAuthorization()
+      return authorization == .authorized
+    } catch {
+      print("AlarmKit permission request error: \(error)")
+      return false
     }
-    
-    // 全てのAlarmKitアラームを停止
-    static func stopAllAlarmKitAlarms() async -> Bool {
-        guard #available(iOS 18.0, *) else {
-            return false
-        }
-        
-        do {
-            let alarms = try await ALAlarmManager.shared.alarms()
-            
-            for alarm in alarms {
-                if alarm.isEnabled {
-                    let disabledAlarm = ALAlarm(
-                        dateComponents: alarm.dateComponents,
-                        title: alarm.title,
-                        isEnabled: false,
-                        repeating: alarm.repeating,
-                        sound: alarm.sound
-                    )
-                    try await ALAlarmManager.shared.save(disabledAlarm)
-                }
-            }
-            
-            print("All AlarmKit alarms stopped successfully")
-            return true
-            
-        } catch {
-            print("Failed to stop AlarmKit alarms: \(error)")
-            return false
-        }
+  }
+
+  /// 服薬リマインダーアラームを登録する
+  ///
+  /// AlarmKitを使用して指定時刻に服薬リマインダーを表示します。
+  /// サイレントモード・フォーカスモード時でも確実に表示されます。
+  ///
+  /// - Parameters:
+  ///   - id: アラームの一意識別子（通知IDと同じ形式）
+  ///   - title: アラームに表示するタイトル
+  ///   - scheduledTime: アラームを表示する日時
+  ///
+  /// - Throws: アラーム登録に失敗した場合Exception
+  func scheduleMedicationAlarm(
+    localNotificationID: String,
+    title: String,
+    scheduledTime: Date
+  ) async throws {
+    guard #available(iOS 26.0, *) else {
+      throw AlarmKitError.notAvailable
     }
-    
-    // 特定のアラームを取得
-    static func getScheduledAlarms() async -> [[String: Any]] {
-        guard #available(iOS 18.0, *) else {
-            return []
-        }
-        
-        do {
-            let alarms = try await ALAlarmManager.shared.alarms()
-            var result: [[String: Any]] = []
-            
-            for alarm in alarms {
-                let alarmDict: [String: Any] = [
-                    "id": alarm.identifier?.uuidString ?? "",
-                    "title": alarm.title,
-                    "hour": alarm.dateComponents.hour ?? 0,
-                    "minute": alarm.dateComponents.minute ?? 0,
-                    "isEnabled": alarm.isEnabled,
-                    "repeating": alarm.repeating
-                ]
-                result.append(alarmDict)
-            }
-            
-            return result
-            
-        } catch {
-            print("Failed to get scheduled alarms: \(error)")
-            return []
-        }
+
+    let alarmID = UUID()
+    let alertContent = AlarmPresentation.Alert(
+      title: LocalizedStringResource(stringLiteral: title),
+      stopButton: .openAppButton,
+      secondaryButton: nil,
+      secondaryButtonBehavior: nil,
+    )
+    let alarmPresentation = AlarmPresentation(alert: alertContent)
+
+    let attributes = AlarmAttributes(
+      presentation: alarmPresentation,
+      metadata: AppAlarmMetadata(localNotificationID: localNotificationID, title: title),
+      tintColor: Color(.systemBlue),
+    )
+
+    let configuration = AlarmConfiguration.alarm(
+      schedule: .fixed(scheduledTime),
+      attributes: attributes,
+      stopIntent: OpenAlarmAppIntent(alarmID: alarmID.uuidString),
+    )
+
+    _ = try await AlarmManager.shared.schedule(id: alarmID, configuration: configuration)
+  }
+
+  /// すべての服薬リマインダーアラームを解除する
+  ///
+  /// 現在登録されているすべてのAlarmKitアラームを解除します。
+  /// LocalNotificationと同様に全解除してから新規登録する方式で使用します。
+  ///
+  /// - Throws: アラーム解除に失敗した場合Exception
+  func cancelAllMedicationAlarms() async throws {
+    guard #available(iOS 26.0, *) else {
+      throw AlarmKitError.notAvailable
     }
+
+    for alarm in try AlarmManager.shared.alarms {
+      try AlarmManager.shared.cancel(id: alarm.id)
+    }
+  }
+
+  /// すべてのアラームを停止する
+  ///
+  /// 現在鳴っているすべてのAlarmKitアラームを停止します。
+  /// アラーム音を止めたい場合に使用します。
+  ///
+  /// - Throws: アラーム停止に失敗した場合Exception
+  func stopAllAlarms() async throws {
+    guard #available(iOS 26.0, *) else {
+      throw AlarmKitError.notAvailable
+    }
+
+    for alarm in try AlarmManager.shared.alarms {
+      try AlarmManager.shared.stop(id: alarm.id)
+    }
+  }
+}
+
+/// AlarmKit関連のエラー
+enum AlarmKitError: Error, LocalizedError {
+  case notAvailable
+  case permissionDenied
+  case schedulingFailed(String)
+  case cancellationFailed(String)
+
+  var errorDescription: String? {
+    switch self {
+    case .notAvailable:
+      return "AlarmKit is not available on this OS version"
+    case .permissionDenied:
+      return "AlarmKit permission was denied"
+    case .schedulingFailed(let reason):
+      return "Failed to schedule alarm: \(reason)"
+    case .cancellationFailed(let reason):
+      return "Failed to cancel alarm: \(reason)"
+    }
+  }
+}
+
+@available(iOS 26.0, *)
+extension AlarmButton {
+  static var openAppButton: Self {
+    AlarmButton(text: "Medicalarmを開く", textColor: Color(.systemBlue), systemImageName: "pills")
+  }
+}
+
+@available(iOS 26.0, *)
+struct AppAlarmMetadata: AlarmMetadata {
+  let localNotificationID: String
+  let title: String
 }

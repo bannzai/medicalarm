@@ -44,8 +44,8 @@ class AlarmKitService {
 
     try {
       final result = await _channel.invokeMethod<Map<dynamic, dynamic>>('isAlarmKitAvailable');
-      if (result?['success'] == true) {
-        return result?['data'] ?? false;
+      if (result?['result'] == 'success') {
+        return result?['isAlarmKitAvailable'] ?? false;
       }
       return false;
     } catch (e) {
@@ -68,8 +68,8 @@ class AlarmKitService {
 
     try {
       final result = await _channel.invokeMethod<Map<dynamic, dynamic>>('getAlarmKitAuthorizationStatus');
-      if (result?['success'] == true) {
-        final statusString = result?['data'] as String? ?? 'notAvailable';
+      if (result?['result'] == 'success') {
+        final statusString = result?['authorizationStatus'] as String? ?? 'notAvailable';
         return AlarmKitAuthorizationStatus.fromString(statusString);
       }
       return AlarmKitAuthorizationStatus.notAvailable;
@@ -92,9 +92,8 @@ class AlarmKitService {
 
     try {
       final result = await _channel.invokeMethod<Map<dynamic, dynamic>>('requestAlarmKitPermission');
-      if (result?['success'] == true) {
-        final statusString = result?['data'] as String? ?? 'denied';
-        return statusString == 'authorized';
+      if (result?['result'] == 'success') {
+        return result?['authorized'] ?? false;
       }
       return false;
     } catch (e) {
@@ -108,21 +107,15 @@ class AlarmKitService {
   /// AlarmKitを使用して指定時刻に服薬リマインダーを表示します。
   /// サイレントモード・フォーカスモード時でも確実に表示されます。
   ///
-  /// [localNotificationID]: アラームの一意識別子（通知IDと同じ形式）
+  /// [id]: アラームの一意識別子（通知IDと同じ形式）
   /// [title]: アラームに表示するタイトル
-  /// [body]: アラームの本文（省略可能）
-  /// [reminderDateTime]: アラームを表示する日時
-  /// [repeating]: 繰り返し設定（デフォルト: false）
-  /// [criticalAlert]: クリティカルアラート設定（デフォルト: false）
+  /// [scheduledTimeMs]: アラームを表示する日時
   ///
   /// Throws: アラーム登録に失敗した場合Exception
   static Future<void> scheduleMedicationReminder({
     required String localNotificationID,
     required String title,
-    String? body,
     required DateTime reminderDateTime,
-    bool repeating = false,
-    bool criticalAlert = false,
   }) async {
     if (!Platform.isIOS) {
       throw Exception('AlarmKit is only available on iOS 26+');
@@ -130,38 +123,26 @@ class AlarmKitService {
 
     try {
       final result = await _channel.invokeMethod<Map<dynamic, dynamic>>('scheduleAlarmKitReminder', {
-        'identifier': localNotificationID,
+        'localNotificationID': localNotificationID,
         'title': title,
-        'body': body ?? '',
-        'hour': reminderDateTime.hour,
-        'minute': reminderDateTime.minute,
-        'repeating': repeating,
-        'criticalAlert': criticalAlert,
+        'scheduledTimeMs': reminderDateTime.millisecondsSinceEpoch,
       });
 
-      if (result?['success'] != true) {
-        throw Exception(result?['error'] ?? 'Failed to schedule alarm');
+      if (result?['result'] != 'success') {
+        throw Exception(result?['message'] ?? 'Failed to schedule alarm');
       }
 
       analytics.debug(name: 'alarm_kit_reminder_scheduled', parameters: {
         'localNotificationID': localNotificationID,
         'title': title,
-        'body': body ?? '',
-        'hour': reminderDateTime.hour,
-        'minute': reminderDateTime.minute,
-        'repeating': repeating,
-        'criticalAlert': criticalAlert,
+        'scheduledTimeMs': reminderDateTime.millisecondsSinceEpoch,
       });
     } catch (e) {
       analytics.debug(name: 'alarm_kit_schedule_error', parameters: {
         'error': e.toString(),
         'localNotificationID': localNotificationID,
         'title': title,
-        'body': body ?? '',
-        'hour': reminderDateTime.hour,
-        'minute': reminderDateTime.minute,
-        'repeating': repeating,
-        'criticalAlert': criticalAlert,
+        'scheduledTimeMs': reminderDateTime.millisecondsSinceEpoch,
       });
       rethrow;
     }
@@ -181,8 +162,8 @@ class AlarmKitService {
     try {
       final result = await _channel.invokeMethod<Map<dynamic, dynamic>>('cancelAllAlarmKitReminders');
 
-      if (result?['success'] != true) {
-        throw Exception(result?['error'] ?? 'Failed to cancel all alarms');
+      if (result?['result'] != 'success') {
+        throw Exception(result?['message'] ?? 'Failed to cancel all alarms');
       }
 
       analytics.debug(name: 'alarm_kit_all_reminders_cancelled');
@@ -208,8 +189,8 @@ class AlarmKitService {
     try {
       final result = await _channel.invokeMethod<Map<dynamic, dynamic>>('stopAllAlarmKitAlarms');
 
-      if (result?['success'] != true) {
-        throw Exception(result?['error'] ?? 'Failed to stop all alarms');
+      if (result?['result'] != 'success') {
+        throw Exception(result?['message'] ?? 'Failed to stop all alarms');
       }
 
       analytics.debug(name: 'alarm_kit_all_alarms_stopped');

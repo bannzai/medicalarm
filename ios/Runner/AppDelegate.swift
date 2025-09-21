@@ -25,17 +25,118 @@ import AlarmKit
       case "requestAppTrackingTransparency":
         requestAppTrackingTransparency(completion: completionHandler)
       case "isAlarmKitAvailable":
-        self.isAlarmKitAvailable(completion: completionHandler)
+        completionHandler([
+          "result": "success",
+          "isAlarmKitAvailable": AlarmKitManager.shared.isAvailableForCurrentOS()
+        ])
       case "getAlarmKitAuthorizationStatus":
-        self.getAlarmKitAuthorizationStatus(completion: completionHandler)
+        let authStatus = AlarmKitManager.shared.getAuthorizationStatus()
+        completionHandler([
+          "result": "success",
+          "authorizationStatus": authStatus
+        ])
       case "requestAlarmKitPermission":
-        self.requestAlarmKitPermission(completion: completionHandler)
+        if #available(iOS 26.0, *) {
+          Task {
+            let authorized = await AlarmKitManager.shared.requestPermission()
+            await MainActor.run {
+              completionHandler([
+                "result": "success",
+                "authorized": authorized
+              ])
+            }
+          }
+        } else {
+          completionHandler([
+            "result": "failure",
+            "message": "AlarmKit is not available on this OS version"
+          ])
+        }
       case "scheduleAlarmKitReminder":
-        self.scheduleAlarmKitReminder(call: call, completion: completionHandler)
+        if let arguments = call.arguments as? [String: Any],
+           let localNotificationID = arguments["localNotificationID"] as? String,
+           let title = arguments["title"] as? String,
+           let scheduledTimeMs = arguments["scheduledTimeMs"] as? NSNumber {
+
+          if #available(iOS 26.0, *) {
+            let scheduledTime = dartTypeDate(nsNumber: scheduledTimeMs)
+            Task {
+              do {
+                try await AlarmKitManager.shared.scheduleMedicationAlarm(
+                  localNotificationID: localNotificationID,
+                  title: title,
+                  scheduledTime: scheduledTime
+                )
+                await MainActor.run {
+                  completionHandler(["result": "success"])
+                }
+              } catch {
+                await MainActor.run {
+                  completionHandler([
+                    "result": "failure",
+                    "message": error.localizedDescription
+                  ])
+                }
+              }
+            }
+          } else {
+            completionHandler([
+              "result": "failure",
+              "message": "AlarmKit is not available on this OS version"
+            ])
+          }
+        } else {
+          completionHandler([
+            "result": "failure",
+            "message": "Invalid arguments for scheduleAlarmKitReminder"
+          ])
+        }
       case "cancelAllAlarmKitReminders":
-        self.cancelAllAlarmKitReminders(completion: completionHandler)
+        if #available(iOS 26.0, *) {
+          Task {
+            do {
+              try await AlarmKitManager.shared.cancelAllMedicationAlarms()
+              await MainActor.run {
+                completionHandler(["result": "success"])
+              }
+            } catch {
+              await MainActor.run {
+                completionHandler([
+                  "result": "failure",
+                  "message": error.localizedDescription
+                ])
+              }
+            }
+          }
+        } else {
+          completionHandler([
+            "result": "failure",
+            "message": "AlarmKit is not available on this OS version"
+          ])
+        }
       case "stopAllAlarmKitAlarms":
-        self.stopAllAlarmKitAlarms(completion: completionHandler)
+        if #available(iOS 26.0, *) {
+          Task {
+            do {
+              try await AlarmKitManager.shared.stopAllAlarms()
+              await MainActor.run {
+                completionHandler(["result": "success"])
+              }
+            } catch {
+              await MainActor.run {
+                completionHandler([
+                  "result": "failure",
+                  "message": error.localizedDescription
+                ])
+              }
+            }
+          }
+        } else {
+          completionHandler([
+            "result": "failure",
+            "message": "AlarmKit is not available on this OS version"
+          ])
+        }
       default:
         return
       }
@@ -44,76 +145,9 @@ import AlarmKit
     GeneratedPluginRegistrant.register(with: self)
     return super.application(application, didFinishLaunchingWithOptions: launchOptions)
   }
-  
-  // MARK: - AlarmKit Methods
-  
-  private func isAlarmKitAvailable(completion: @escaping (Dictionary<String, Any>) -> Void) {
-    let isAvailable = AlarmKitManager.isAlarmKitAvailable()
-    completion(["success": true, "data": isAvailable])
-  }
-  
-  private func getAlarmKitAuthorizationStatus(completion: @escaping (Dictionary<String, Any>) -> Void) {
-    Task {
-      let status = await AlarmKitManager.getAlarmKitAuthorizationStatus()
-      DispatchQueue.main.async {
-        completion(["success": true, "data": status])
-      }
-    }
-  }
-  
-  private func requestAlarmKitPermission(completion: @escaping (Dictionary<String, Any>) -> Void) {
-    Task {
-      let result = await AlarmKitManager.requestAlarmKitPermission()
-      DispatchQueue.main.async {
-        completion(["success": true, "data": result])
-      }
-    }
-  }
-  
-  private func scheduleAlarmKitReminder(call: FlutterMethodCall, completion: @escaping (Dictionary<String, Any>) -> Void) {
-    guard let args = call.arguments as? [String: Any],
-          let identifier = args["identifier"] as? String,
-          let title = args["title"] as? String,
-          let body = args["body"] as? String,
-          let hour = args["hour"] as? Int,
-          let minute = args["minute"] as? Int,
-          let repeating = args["repeating"] as? Bool,
-          let criticalAlert = args["criticalAlert"] as? Bool else {
-      completion(["success": false, "error": "Invalid arguments"])
-      return
-    }
-    
-    Task {
-      let success = await AlarmKitManager.scheduleAlarmKitReminder(
-        identifier: identifier,
-        title: title,
-        body: body,
-        hour: hour,
-        minute: minute,
-        repeating: repeating,
-        criticalAlert: criticalAlert
-      )
-      DispatchQueue.main.async {
-        completion(["success": success, "data": success])
-      }
-    }
-  }
-  
-  private func cancelAllAlarmKitReminders(completion: @escaping (Dictionary<String, Any>) -> Void) {
-    Task {
-      let success = await AlarmKitManager.cancelAllAlarmKitReminders()
-      DispatchQueue.main.async {
-        completion(["success": success, "data": success])
-      }
-    }
-  }
-  
-  private func stopAllAlarmKitAlarms(completion: @escaping (Dictionary<String, Any>) -> Void) {
-    Task {
-      let success = await AlarmKitManager.stopAllAlarmKitAlarms()
-      DispatchQueue.main.async {
-        completion(["success": success, "data": success])
-      }
-    }
-  }
+}
+
+// Dartの日付のタイムスタンプはmillisecondsで渡ってくる。それをSwiftのDate型にマッピングする
+func dartTypeDate(nsNumber: NSNumber) -> Date {
+  Date(timeIntervalSince1970: nsNumber.doubleValue / 1000)
 }
