@@ -11,7 +11,8 @@ import SwiftUI
 @main
 struct WidgetExtensionBundle: WidgetBundle {
     var body: some Widget {
-        WidgetExtension()
-        WidgetExtensionLiveActivity()
+      if #available(iOS 26.0, *) {
+        AlarmLiveActivityWidget()
+      }
     }
 }
