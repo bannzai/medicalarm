@@ -15,6 +15,8 @@
 		208417F02E8163BE00FD04D3 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 208417EF2E8163BE00FD04D3 /* WidgetKit.framework */; };
 		208417F22E8163BE00FD04D3 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 208417F12E8163BE00FD04D3 /* SwiftUI.framework */; };
 		208418012E8163BF00FD04D3 /* WidgetExtensionExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 208417EE2E8163BE00FD04D3 /* WidgetExtensionExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2084180C2E817B7100FD04D3 /* AlarmKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2057C1F62E8029A400FDE215 /* AlarmKitManager.swift */; };
+		2084180D2E817BA700FD04D3 /* AppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2057C1F72E8029A400FDE215 /* AppIntent.swift */; };
 		20934BB32D313EF400B2D710 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 20934BB02D313EF400B2D710 /* GoogleService-Info.plist */; };
 		20F9B8422D458B680009570A /* requestAppTrackingTransparency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F9B8412D458B680009570A /* requestAppTrackingTransparency.swift */; };
 		288BC258B6CB3802C75782BD /* Pods_Runner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71C71B00FC9CF05791B1F725 /* Pods_Runner.framework */; };
@@ -517,6 +519,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2084180C2E817B7100FD04D3 /* AlarmKitManager.swift in Sources */,
+				2084180D2E817BA700FD04D3 /* AppIntent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
