@@ -85,8 +85,8 @@ class MedicineScheduleNotificationSettingSection extends HookConsumerWidget {
                 useAlarmKit.value = value;
               }
             },
-            title: const Text('AlarmKit使用'),
-            subtitle: const Text('iOS 26+で確実な通知表示（サイレントモード・フォーカスモード時も有効）'),
+            title: const Text('アラーム機能'),
+            subtitle: const Text('目覚まし同様の通知が鳴ります。サイレントモードや集中モード時でも確実に通知されます'),
           ),
         ],
         const SizedBox(height: 10),
