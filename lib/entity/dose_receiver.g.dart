@@ -6,7 +6,7 @@ part of 'dose_receiver.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_$DoseReceiverImpl _$$DoseReceiverImplFromJson(Map<String, dynamic> json) => _$DoseReceiverImpl(
+_DoseReceiver _$DoseReceiverFromJson(Map<String, dynamic> json) => _DoseReceiver(
       id: json['id'] as String,
       userID: json['userID'] as String,
       name: json['name'] as String,
@@ -16,7 +16,7 @@ _$DoseReceiverImpl _$$DoseReceiverImplFromJson(Map<String, dynamic> json) => _$D
       serverUpdatedDateTime: const ServerUpdatedTimestamp().fromJson(json['serverUpdatedDateTime']),
     );
 
-Map<String, dynamic> _$$DoseReceiverImplToJson(_$DoseReceiverImpl instance) => <String, dynamic>{
+Map<String, dynamic> _$DoseReceiverToJson(_DoseReceiver instance) => <String, dynamic>{
       'id': instance.id,
       'userID': instance.userID,
       'name': instance.name,

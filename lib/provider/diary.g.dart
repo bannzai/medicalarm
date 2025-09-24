@@ -40,7 +40,7 @@ class DiariesForDateTimeRangeFamily extends Family<AsyncValue<List<Diary>>> {
 
   /// See also [diariesForDateTimeRange].
   DiariesForDateTimeRangeProvider call({
-    required DateTimeRange dateTimeRange,
+    required DateTimeRange<DateTime> dateTimeRange,
   }) {
     return DiariesForDateTimeRangeProvider(
       dateTimeRange: dateTimeRange,
@@ -77,7 +77,7 @@ class DiariesForDateTimeRangeFamily extends Family<AsyncValue<List<Diary>>> {
 class DiariesForDateTimeRangeProvider extends AutoDisposeStreamProvider<List<Diary>> {
   /// See also [diariesForDateTimeRange].
   DiariesForDateTimeRangeProvider({
-    required DateTimeRange dateTimeRange,
+    required DateTimeRange<DateTime> dateTimeRange,
   }) : this._internal(
           (ref) => diariesForDateTimeRange(
             ref as DiariesForDateTimeRangeRef,
@@ -101,7 +101,7 @@ class DiariesForDateTimeRangeProvider extends AutoDisposeStreamProvider<List<Dia
     required this.dateTimeRange,
   }) : super.internal();
 
-  final DateTimeRange dateTimeRange;
+  final DateTimeRange<DateTime> dateTimeRange;
 
   @override
   Override overrideWith(
@@ -140,16 +140,18 @@ class DiariesForDateTimeRangeProvider extends AutoDisposeStreamProvider<List<Dia
   }
 }
 
+@Deprecated('Will be removed in 3.0. Use Ref instead')
+// ignore: unused_element
 mixin DiariesForDateTimeRangeRef on AutoDisposeStreamProviderRef<List<Diary>> {
   /// The parameter `dateTimeRange` of this provider.
-  DateTimeRange get dateTimeRange;
+  DateTimeRange<DateTime> get dateTimeRange;
 }
 
 class _DiariesForDateTimeRangeProviderElement extends AutoDisposeStreamProviderElement<List<Diary>> with DiariesForDateTimeRangeRef {
   _DiariesForDateTimeRangeProviderElement(super.provider);
 
   @override
-  DateTimeRange get dateTimeRange => (origin as DiariesForDateTimeRangeProvider).dateTimeRange;
+  DateTimeRange<DateTime> get dateTimeRange => (origin as DiariesForDateTimeRangeProvider).dateTimeRange;
 }
 
 String _$diaryPostHash() => r'a19cc4271259369fbd8ac79b9f6e4895ecf4e6d4';
@@ -164,6 +166,8 @@ final diaryPostProvider = AutoDisposeProvider<DiaryPost>.internal(
   allTransitiveDependencies: <ProviderOrFamily>{userDatabaseProvider, ...?userDatabaseProvider.allTransitiveDependencies},
 );
 
+@Deprecated('Will be removed in 3.0. Use Ref instead')
+// ignore: unused_element
 typedef DiaryPostRef = AutoDisposeProviderRef<DiaryPost>;
 // ignore_for_file: type=lint
-// ignore_for_file: subtype_of_sealed_class, invalid_use_of_internal_member, invalid_use_of_visible_for_testing_member
+// ignore_for_file: subtype_of_sealed_class, invalid_use_of_internal_member, invalid_use_of_visible_for_testing_member, deprecated_member_use_from_same_package

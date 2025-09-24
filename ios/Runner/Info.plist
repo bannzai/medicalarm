@@ -55,6 +55,8 @@
 	<string>薬の情報を記録しておくために写真へのアクセスを許可してください</string>
 	<key>NSUserTrackingUsageDescription</key>
 	<string>あなたに合わせた広告を表示するために利用します</string>
+	<key>NSAlarmKitUsageDescription</key>
+	<string>確実な服薬リマインダーを提供するために、アラーム機能へのアクセスを許可してください</string>
 	<key>SKAdNetworkItems</key>
 	<array>
 		<dict>

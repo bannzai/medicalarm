@@ -8,7 +8,7 @@ import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:intl/intl.dart';
 import 'package:medicalarm/features/root/page.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:medicalarm/l10n/app_localizations.dart';
 import 'package:medicalarm/provider/shared_preferences.dart';
 import 'package:medicalarm/style/color.dart';
 import 'package:medicalarm/utils/config/remote_config.dart';

@@ -6,7 +6,7 @@ part of 'medicine.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_$MedicineImpl _$$MedicineImplFromJson(Map<String, dynamic> json) => _$MedicineImpl(
+_Medicine _$MedicineFromJson(Map<String, dynamic> json) => _Medicine(
       id: json['id'] as String,
       userID: json['userID'] as String,
       name: json['name'] as String,
@@ -23,7 +23,7 @@ _$MedicineImpl _$$MedicineImplFromJson(Map<String, dynamic> json) => _$MedicineI
       serverUpdatedDateTime: const ServerUpdatedTimestamp().fromJson(json['serverUpdatedDateTime']),
     );
 
-Map<String, dynamic> _$$MedicineImplToJson(_$MedicineImpl instance) => <String, dynamic>{
+Map<String, dynamic> _$MedicineToJson(_Medicine instance) => <String, dynamic>{
       'id': instance.id,
       'userID': instance.userID,
       'name': instance.name,
@@ -40,31 +40,31 @@ Map<String, dynamic> _$$MedicineImplToJson(_$MedicineImpl instance) => <String, 
       'serverUpdatedDateTime': const ServerUpdatedTimestamp().toJson(instance.serverUpdatedDateTime),
     };
 
-_$MedicineScheduleNotificationSettingImpl _$$MedicineScheduleNotificationSettingImplFromJson(Map<String, dynamic> json) =>
-    _$MedicineScheduleNotificationSettingImpl(
+_MedicineScheduleNotificationSetting _$MedicineScheduleNotificationSettingFromJson(Map<String, dynamic> json) => _MedicineScheduleNotificationSetting(
       isReminderEnabled: json['isReminderEnabled'] as bool,
       isFollowupEnabled: json['isFollowupEnabled'] as bool,
       useCriticalAlert: json['useCriticalAlert'] as bool,
       criticalAlertVolume: (json['criticalAlertVolume'] as num?)?.toDouble() ?? 0.5,
+      useAlarmKit: json['useAlarmKit'] as bool? ?? false,
     );
 
-Map<String, dynamic> _$$MedicineScheduleNotificationSettingImplToJson(_$MedicineScheduleNotificationSettingImpl instance) => <String, dynamic>{
+Map<String, dynamic> _$MedicineScheduleNotificationSettingToJson(_MedicineScheduleNotificationSetting instance) => <String, dynamic>{
       'isReminderEnabled': instance.isReminderEnabled,
       'isFollowupEnabled': instance.isFollowupEnabled,
       'useCriticalAlert': instance.useCriticalAlert,
       'criticalAlertVolume': instance.criticalAlertVolume,
+      'useAlarmKit': instance.useAlarmKit,
     };
 
-_$MedicineScheduleFocusConnectSettingImpl _$$MedicineScheduleFocusConnectSettingImplFromJson(Map<String, dynamic> json) =>
-    _$MedicineScheduleFocusConnectSettingImpl(
+_MedicineScheduleFocusConnectSetting _$MedicineScheduleFocusConnectSettingFromJson(Map<String, dynamic> json) => _MedicineScheduleFocusConnectSetting(
       focusConnectScheduleID: json['focusConnectScheduleID'] as String?,
     );
 
-Map<String, dynamic> _$$MedicineScheduleFocusConnectSettingImplToJson(_$MedicineScheduleFocusConnectSettingImpl instance) => <String, dynamic>{
+Map<String, dynamic> _$MedicineScheduleFocusConnectSettingToJson(_MedicineScheduleFocusConnectSetting instance) => <String, dynamic>{
       'focusConnectScheduleID': instance.focusConnectScheduleID,
     };
 
-_$MedicationScheduleImpl _$$MedicationScheduleImplFromJson(Map<String, dynamic> json) => _$MedicationScheduleImpl(
+_MedicationSchedule _$MedicationScheduleFromJson(Map<String, dynamic> json) => _MedicationSchedule(
       id: json['id'] as String,
       hour: (json['hour'] as num).toInt(),
       minute: (json['minute'] as num).toInt(),
@@ -75,7 +75,7 @@ _$MedicationScheduleImpl _$$MedicationScheduleImplFromJson(Map<String, dynamic> 
           : MedicineScheduleFocusConnectSetting.fromJson(json['focusConnectSetting'] as Map<String, dynamic>),
     );
 
-Map<String, dynamic> _$$MedicationScheduleImplToJson(_$MedicationScheduleImpl instance) => <String, dynamic>{
+Map<String, dynamic> _$MedicationScheduleToJson(_MedicationSchedule instance) => <String, dynamic>{
       'id': instance.id,
       'hour': instance.hour,
       'minute': instance.minute,

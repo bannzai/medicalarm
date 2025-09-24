@@ -15,7 +15,7 @@ part 'grouped.freezed.dart';
 // [時間&服用者(scheduleTime&doseReceiver): [服薬予定の薬(scheduleRows)]]
 // scheduleTime(id無し。値一致)とdoseReceiverごとのscheduleRowsを管理する
 // NOTE: scheduleRowsは、もっと`薬`を表す構造体として命名し直しても良いかも
-class MedicationGroup with _$MedicationGroup {
+abstract class MedicationGroup with _$MedicationGroup {
   const factory MedicationGroup({
     required String id,
     required MedicationGroupScheduleTime scheduleTime,
@@ -25,7 +25,7 @@ class MedicationGroup with _$MedicationGroup {
 }
 
 @freezed
-class MedicationGroupScheduleRow with _$MedicationGroupScheduleRow {
+abstract class MedicationGroupScheduleRow with _$MedicationGroupScheduleRow {
   const factory MedicationGroupScheduleRow({
     required String id,
     required MedicationHistory? medicationHistory,
@@ -42,7 +42,7 @@ class MedicationGroupScheduleRow with _$MedicationGroupScheduleRow {
 }
 
 @freezed
-class MedicationGroupScheduleTime with _$MedicationGroupScheduleTime {
+abstract class MedicationGroupScheduleTime with _$MedicationGroupScheduleTime {
   const factory MedicationGroupScheduleTime({
     required int hour,
     required int minute,

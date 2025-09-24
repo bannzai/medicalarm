@@ -18,6 +18,8 @@ final appUserIDProvider = AutoDisposeProvider<String>.internal(
   allTransitiveDependencies: <ProviderOrFamily>{appUserProvider, ...?appUserProvider.allTransitiveDependencies},
 );
 
+@Deprecated('Will be removed in 3.0. Use Ref instead')
+// ignore: unused_element
 typedef AppUserIDRef = AutoDisposeProviderRef<String>;
 String _$appUserHash() => r'd4db768e8c250fd8a19d1bb85ead8d5df365a312';
 
@@ -31,6 +33,8 @@ final appUserProvider = AutoDisposeStreamProvider<AppUser>.internal(
   allTransitiveDependencies: <ProviderOrFamily>{userDatabaseProvider, ...?userDatabaseProvider.allTransitiveDependencies},
 );
 
+@Deprecated('Will be removed in 3.0. Use Ref instead')
+// ignore: unused_element
 typedef AppUserRef = AutoDisposeStreamProviderRef<AppUser>;
 // ignore_for_file: type=lint
-// ignore_for_file: subtype_of_sealed_class, invalid_use_of_internal_member, invalid_use_of_visible_for_testing_member
+// ignore_for_file: subtype_of_sealed_class, invalid_use_of_internal_member, invalid_use_of_visible_for_testing_member, deprecated_member_use_from_same_package

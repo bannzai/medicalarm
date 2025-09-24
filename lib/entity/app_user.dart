@@ -6,7 +6,7 @@ part 'app_user.g.dart';
 part 'app_user.freezed.dart';
 
 @freezed
-class AppUser with _$AppUser {
+abstract class AppUser with _$AppUser {
   const AppUser._();
   @JsonSerializable(explicitToJson: true)
   const factory AppUser({

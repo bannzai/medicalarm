@@ -17,14 +17,14 @@ abstract class RemoteConfigParameterDefaultValues {
 
 @freezed
 // [RemoteConfigDefaultValues] でgrepした場所に全て設定する
-class RemoteConfigParameter with _$RemoteConfigParameter {
-  factory RemoteConfigParameter({
+abstract class RemoteConfigParameter with _$RemoteConfigParameter {
+  const factory RemoteConfigParameter({
     @Default(RemoteConfigParameterDefaultValues.minimumAppVersion) String minimumAppVersion,
     @Default(RemoteConfigParameterDefaultValues.promotionDayCount) int promotionDayCount,
     @Default(RemoteConfigParameterDefaultValues.releasedVersion) String releasedVersion,
   }) = _RemoteConfigParameter;
 
-  RemoteConfigParameter._();
+  const RemoteConfigParameter._();
 
   factory RemoteConfigParameter.fromJson(Map<String, dynamic> json) => _$RemoteConfigParameterFromJson(json);
 }

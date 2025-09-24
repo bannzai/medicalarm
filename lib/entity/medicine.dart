@@ -15,7 +15,7 @@ part 'medicine.freezed.dart';
 // 服薬管理を主目的としたアプリで、薬の管理全般よりも服薬行為に焦点を当てている場合。
 
 @freezed
-class Medicine with _$Medicine {
+abstract class Medicine with _$Medicine {
   @JsonSerializable(explicitToJson: true)
   const factory Medicine({
     required String id,
@@ -41,13 +41,14 @@ class Medicine with _$Medicine {
 }
 
 @freezed
-class MedicineScheduleNotificationSetting with _$MedicineScheduleNotificationSetting {
+abstract class MedicineScheduleNotificationSetting with _$MedicineScheduleNotificationSetting {
   @JsonSerializable(explicitToJson: true)
   const factory MedicineScheduleNotificationSetting({
     required bool isReminderEnabled,
     required bool isFollowupEnabled,
     required bool useCriticalAlert,
     @Default(0.5) double criticalAlertVolume,
+    @Default(false) bool useAlarmKit,
   }) = _MedicineScheduleNotificationSetting;
   const MedicineScheduleNotificationSetting._();
 
@@ -55,7 +56,7 @@ class MedicineScheduleNotificationSetting with _$MedicineScheduleNotificationSet
 }
 
 @freezed
-class MedicineScheduleFocusConnectSetting with _$MedicineScheduleFocusConnectSetting {
+abstract class MedicineScheduleFocusConnectSetting with _$MedicineScheduleFocusConnectSetting {
   @JsonSerializable(explicitToJson: true)
   const factory MedicineScheduleFocusConnectSetting({
     String? focusConnectScheduleID,
@@ -66,7 +67,7 @@ class MedicineScheduleFocusConnectSetting with _$MedicineScheduleFocusConnectSet
 }
 
 @freezed
-class MedicationSchedule with _$MedicationSchedule {
+abstract class MedicationSchedule with _$MedicationSchedule {
   @JsonSerializable(explicitToJson: true)
   const factory MedicationSchedule({
     required String id,

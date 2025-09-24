@@ -18,6 +18,8 @@ final doseReceiversProvider = AutoDisposeStreamProvider<List<DoseReceiver>>.inte
   allTransitiveDependencies: <ProviderOrFamily>{userDatabaseProvider, ...?userDatabaseProvider.allTransitiveDependencies},
 );
 
+@Deprecated('Will be removed in 3.0. Use Ref instead')
+// ignore: unused_element
 typedef DoseReceiversRef = AutoDisposeStreamProviderRef<List<DoseReceiver>>;
 String _$doseReceiverAddHash() => r'73ac36014c5c0437977101d0a18ef136bfbd3b08';
 
@@ -31,6 +33,8 @@ final doseReceiverAddProvider = AutoDisposeProvider<DoseReceiverAdd>.internal(
   allTransitiveDependencies: <ProviderOrFamily>{userDatabaseProvider, ...?userDatabaseProvider.allTransitiveDependencies},
 );
 
+@Deprecated('Will be removed in 3.0. Use Ref instead')
+// ignore: unused_element
 typedef DoseReceiverAddRef = AutoDisposeProviderRef<DoseReceiverAdd>;
 String _$firstDoseReceiverAddHash() => r'ea2fc0bd1813362eb27434493b8833f2d1b25d4a';
 
@@ -44,6 +48,8 @@ final firstDoseReceiverAddProvider = AutoDisposeProvider<FirstDoseReceiverAdd>.i
   allTransitiveDependencies: <ProviderOrFamily>{userDatabaseProvider, ...?userDatabaseProvider.allTransitiveDependencies},
 );
 
+@Deprecated('Will be removed in 3.0. Use Ref instead')
+// ignore: unused_element
 typedef FirstDoseReceiverAddRef = AutoDisposeProviderRef<FirstDoseReceiverAdd>;
 String _$doseReceiverUpdateHash() => r'f3adc895dfec5d1e814131571096ec1c893e4fda';
 
@@ -57,6 +63,8 @@ final doseReceiverUpdateProvider = AutoDisposeProvider<DoseReceiverUpdate>.inter
   allTransitiveDependencies: <ProviderOrFamily>{userDatabaseProvider, ...?userDatabaseProvider.allTransitiveDependencies},
 );
 
+@Deprecated('Will be removed in 3.0. Use Ref instead')
+// ignore: unused_element
 typedef DoseReceiverUpdateRef = AutoDisposeProviderRef<DoseReceiverUpdate>;
 // ignore_for_file: type=lint
-// ignore_for_file: subtype_of_sealed_class, invalid_use_of_internal_member, invalid_use_of_visible_for_testing_member
+// ignore_for_file: subtype_of_sealed_class, invalid_use_of_internal_member, invalid_use_of_visible_for_testing_member, deprecated_member_use_from_same_package

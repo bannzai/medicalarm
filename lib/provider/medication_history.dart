@@ -2,6 +2,9 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:medicalarm/entity/medication_history.dart';
 import 'package:medicalarm/entity/medicine.dart';
 import 'package:medicalarm/features/resolver/database.dart';
+import 'package:medicalarm/utils/alarm_kit_service.dart';
+import 'package:medicalarm/utils/analytics/analytics.dart';
+import 'package:medicalarm/utils/analytics/error.dart';
 import 'package:medicalarm/utils/date_time/date_time_ext.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 
@@ -57,7 +60,22 @@ class MedicationHistoryTake {
           ttlExpiresDateTime: DateTime.now().addDays(365),
         );
 
+    // 服用記録を保存
     await docRef.set(newMedicationHistory, SetOptions(merge: true));
+
+    if (medicationSchedule.notificationSetting.useAlarmKit) {
+      try {
+        await AlarmKitService.stopAllAlarms();
+        analytics.debug(name: 'medication_history_take_alarm_kit_stopped');
+      } catch (e, st) {
+        // AlarmKit停止に失敗しても服用記録は成功しているので継続
+        errorLogger.recordError(e, st);
+        analytics.debug(name: 'medication_history_take_alarm_kit_stop_failed', parameters: {
+          'error': e.toString(),
+        });
+      }
+    }
+
     return newMedicationHistory;
   }
 }

@@ -18,6 +18,8 @@ final activeMedicinesProvider = AutoDisposeStreamProvider<List<Medicine>>.intern
   allTransitiveDependencies: <ProviderOrFamily>{userDatabaseProvider, ...?userDatabaseProvider.allTransitiveDependencies},
 );
 
+@Deprecated('Will be removed in 3.0. Use Ref instead')
+// ignore: unused_element
 typedef ActiveMedicinesRef = AutoDisposeStreamProviderRef<List<Medicine>>;
 String _$medicineAddHash() => r'fe3d4590db89f60df78f4df5944c9e27076c4652';
 
@@ -31,6 +33,8 @@ final medicineAddProvider = AutoDisposeProvider<MedicineAdd>.internal(
   allTransitiveDependencies: <ProviderOrFamily>{userDatabaseProvider, ...?userDatabaseProvider.allTransitiveDependencies},
 );
 
+@Deprecated('Will be removed in 3.0. Use Ref instead')
+// ignore: unused_element
 typedef MedicineAddRef = AutoDisposeProviderRef<MedicineAdd>;
 String _$medicineUpdateHash() => r'329a6604eb930e04d81feec5806abb2edaf8f8a3';
 
@@ -44,6 +48,8 @@ final medicineUpdateProvider = AutoDisposeProvider<MedicineUpdate>.internal(
   allTransitiveDependencies: <ProviderOrFamily>{userDatabaseProvider, ...?userDatabaseProvider.allTransitiveDependencies},
 );
 
+@Deprecated('Will be removed in 3.0. Use Ref instead')
+// ignore: unused_element
 typedef MedicineUpdateRef = AutoDisposeProviderRef<MedicineUpdate>;
 String _$medicineDeleteHash() => r'fd5f83d72536a0410345765209fcfe9aa1b0080e';
 
@@ -57,6 +63,8 @@ final medicineDeleteProvider = AutoDisposeProvider<MedicineDelete>.internal(
   allTransitiveDependencies: <ProviderOrFamily>{userDatabaseProvider, ...?userDatabaseProvider.allTransitiveDependencies},
 );
 
+@Deprecated('Will be removed in 3.0. Use Ref instead')
+// ignore: unused_element
 typedef MedicineDeleteRef = AutoDisposeProviderRef<MedicineDelete>;
 // ignore_for_file: type=lint
-// ignore_for_file: subtype_of_sealed_class, invalid_use_of_internal_member, invalid_use_of_visible_for_testing_member
+// ignore_for_file: subtype_of_sealed_class, invalid_use_of_internal_member, invalid_use_of_visible_for_testing_member, deprecated_member_use_from_same_package
