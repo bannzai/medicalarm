@@ -12,7 +12,7 @@ import AlarmKit
   ) -> Bool {
     let viewController = window?.rootViewController as! FlutterViewController
     channel = FlutterMethodChannel(
-      name: "method.channel.MizukiOhashi.Medicalarm",
+      name: "method.channel.bannzai.Medicalarm",
       binaryMessenger: viewController.binaryMessenger
     )
 

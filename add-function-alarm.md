@@ -94,7 +94,7 @@ enum AlarmKitAuthorizationStatus {
 }
 
 class AlarmKitService {
-  static const MethodChannel _channel = MethodChannel('method.channel.MizukiOhashi.Medicalarm');
+  static const MethodChannel _channel = MethodChannel('method.channel.bannzai.Medicalarm');
   
   // 利用可能性チェック
   static Future<bool> isAvailable()

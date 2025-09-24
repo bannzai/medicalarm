@@ -31,7 +31,7 @@ enum AlarmKitAuthorizationStatus {
 /// iOS 26+でのみ利用可能なAlarmKitの機能をFlutterから使用するためのラッパーです。
 /// Method Channelを通してiOSネイティブのAlarmKitManagerと通信します。
 class AlarmKitService {
-  static const MethodChannel _channel = MethodChannel('method.channel.MizukiOhashi.Medicalarm');
+  static const MethodChannel _channel = MethodChannel('method.channel.bannzai.Medicalarm');
 
   /// AlarmKitが利用可能かどうかを確認する
   ///
