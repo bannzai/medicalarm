@@ -66,6 +66,9 @@ List<MedicationGroup> medicationGroups({
   final groupedValues = <MedicationGroup>[];
   // scheduleTimeとdoseReceiverごとのtileValuesを構築する
   for (final medicine in medicines) {
+    if (medicine.pausedDateTime != null) {
+      continue;
+    }
     final doseReceiver = medicine.doseReceiver;
     if (medicine.beganDateTime.date().isAfter(date.date())) {
       continue;
@@ -107,6 +110,9 @@ List<MedicationGroup> medicationGroups({
 
   // dosingRowsを構築する
   for (final medicine in medicines) {
+    if (medicine.pausedDateTime != null) {
+      continue;
+    }
     final doseReceiver = medicine.doseReceiver;
     if (medicine.beganDateTime.date().isAfter(date.date())) {
       continue;

@@ -779,5 +779,21 @@
   "criticalAlertVolume": "Volume",
   "@criticalAlertVolume": {
     "description": "緊急通知の音量の表示名"
+  },
+  "medicationPause": "Pause",
+  "@medicationPause": {
+    "description": "薬の一時停止トグルのラベル"
+  },
+  "medicationPauseDescription": "While paused, this medicine is hidden from the daily list and notifications.",
+  "@medicationPauseDescription": {
+    "description": "薬の一時停止トグルの説明文"
+  },
+  "medicinePausedSnackbar": "Paused",
+  "@medicinePausedSnackbar": {
+    "description": "薬を一時停止したときに表示するSnackbarのメッセージ"
+  },
+  "medicineResumedSnackbar": "Resumed",
+  "@medicineResumedSnackbar": {
+    "description": "一時停止中の薬を再開したときに表示するSnackbarのメッセージ"
   }
 }

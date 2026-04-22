@@ -15,6 +15,7 @@ import 'package:medicalarm/features/medicine_form/components/additional_info/sec
 import 'package:medicalarm/features/medicine_form/components/begin/tile.dart';
 import 'package:medicalarm/features/medicine_form/components/medication_frequency/tile.dart';
 import 'package:medicalarm/features/medicine_form/components/name_text_field.dart';
+import 'package:medicalarm/features/medicine_form/components/pause/tile.dart';
 import 'package:medicalarm/features/medicine_form/components/schedule/section.dart';
 import 'package:medicalarm/provider/app_user.dart';
 import 'package:medicalarm/provider/medicine.dart';
@@ -134,6 +135,10 @@ class MedicineFormPage extends HookConsumerWidget {
                                           MedicationFrequencyTile(frequency: frequency),
                                           const SizedBox(height: 6),
                                           MedicationBeginTile(begin: begin),
+                                          if (medicine != null) ...[
+                                            const SizedBox(height: 6),
+                                            MedicinePauseTile(medicine: medicine!),
+                                          ],
                                         ],
                                       ),
                                     ),

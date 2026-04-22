@@ -24,6 +24,8 @@ mixin _$Medicine {
   String get memoImageURL;
   @NullableTimestampConverter()
   DateTime? get archivedDateTime;
+  @NullableTimestampConverter()
+  DateTime? get pausedDateTime;
   @TimestampConverter()
   DateTime get beganDateTime;
   @ClientCreatedTimestamp()
@@ -58,6 +60,7 @@ mixin _$Medicine {
             (identical(other.memo, memo) || other.memo == memo) &&
             (identical(other.memoImageURL, memoImageURL) || other.memoImageURL == memoImageURL) &&
             (identical(other.archivedDateTime, archivedDateTime) || other.archivedDateTime == archivedDateTime) &&
+            (identical(other.pausedDateTime, pausedDateTime) || other.pausedDateTime == pausedDateTime) &&
             (identical(other.beganDateTime, beganDateTime) || other.beganDateTime == beganDateTime) &&
             (identical(other.createdDateTime, createdDateTime) || other.createdDateTime == createdDateTime) &&
             (identical(other.updatedDateTime, updatedDateTime) || other.updatedDateTime == updatedDateTime) &&
@@ -68,11 +71,11 @@ mixin _$Medicine {
   @JsonKey(includeFromJson: false, includeToJson: false)
   @override
   int get hashCode => Object.hash(runtimeType, id, userID, name, frequency, const DeepCollectionEquality().hash(schedules), doseReceiver, memo,
-      memoImageURL, archivedDateTime, beganDateTime, createdDateTime, updatedDateTime, serverCreatedDateTime, serverUpdatedDateTime);
+      memoImageURL, archivedDateTime, pausedDateTime, beganDateTime, createdDateTime, updatedDateTime, serverCreatedDateTime, serverUpdatedDateTime);
 
   @override
   String toString() {
-    return 'Medicine(id: $id, userID: $userID, name: $name, frequency: $frequency, schedules: $schedules, doseReceiver: $doseReceiver, memo: $memo, memoImageURL: $memoImageURL, archivedDateTime: $archivedDateTime, beganDateTime: $beganDateTime, createdDateTime: $createdDateTime, updatedDateTime: $updatedDateTime, serverCreatedDateTime: $serverCreatedDateTime, serverUpdatedDateTime: $serverUpdatedDateTime)';
+    return 'Medicine(id: $id, userID: $userID, name: $name, frequency: $frequency, schedules: $schedules, doseReceiver: $doseReceiver, memo: $memo, memoImageURL: $memoImageURL, archivedDateTime: $archivedDateTime, pausedDateTime: $pausedDateTime, beganDateTime: $beganDateTime, createdDateTime: $createdDateTime, updatedDateTime: $updatedDateTime, serverCreatedDateTime: $serverCreatedDateTime, serverUpdatedDateTime: $serverUpdatedDateTime)';
   }
 }
 
@@ -90,6 +93,7 @@ abstract mixin class $MedicineCopyWith<$Res> {
       String memo,
       String memoImageURL,
       @NullableTimestampConverter() DateTime? archivedDateTime,
+      @NullableTimestampConverter() DateTime? pausedDateTime,
       @TimestampConverter() DateTime beganDateTime,
       @ClientCreatedTimestamp() DateTime? createdDateTime,
       @ClientUpdatedTimestamp() DateTime? updatedDateTime,
@@ -121,6 +125,7 @@ class _$MedicineCopyWithImpl<$Res> implements $MedicineCopyWith<$Res> {
     Object? memo = null,
     Object? memoImageURL = null,
     Object? archivedDateTime = freezed,
+    Object? pausedDateTime = freezed,
     Object? beganDateTime = null,
     Object? createdDateTime = freezed,
     Object? updatedDateTime = freezed,
@@ -163,6 +168,10 @@ class _$MedicineCopyWithImpl<$Res> implements $MedicineCopyWith<$Res> {
       archivedDateTime: freezed == archivedDateTime
           ? _self.archivedDateTime
           : archivedDateTime // ignore: cast_nullable_to_non_nullable
+              as DateTime?,
+      pausedDateTime: freezed == pausedDateTime
+          ? _self.pausedDateTime
+          : pausedDateTime // ignore: cast_nullable_to_non_nullable
               as DateTime?,
       beganDateTime: null == beganDateTime
           ? _self.beganDateTime
@@ -311,6 +320,7 @@ extension MedicinePatterns on Medicine {
             String memo,
             String memoImageURL,
             @NullableTimestampConverter() DateTime? archivedDateTime,
+            @NullableTimestampConverter() DateTime? pausedDateTime,
             @TimestampConverter() DateTime beganDateTime,
             @ClientCreatedTimestamp() DateTime? createdDateTime,
             @ClientUpdatedTimestamp() DateTime? updatedDateTime,
@@ -332,6 +342,7 @@ extension MedicinePatterns on Medicine {
             _that.memo,
             _that.memoImageURL,
             _that.archivedDateTime,
+            _that.pausedDateTime,
             _that.beganDateTime,
             _that.createdDateTime,
             _that.updatedDateTime,
@@ -367,6 +378,7 @@ extension MedicinePatterns on Medicine {
             String memo,
             String memoImageURL,
             @NullableTimestampConverter() DateTime? archivedDateTime,
+            @NullableTimestampConverter() DateTime? pausedDateTime,
             @TimestampConverter() DateTime beganDateTime,
             @ClientCreatedTimestamp() DateTime? createdDateTime,
             @ClientUpdatedTimestamp() DateTime? updatedDateTime,
@@ -387,6 +399,7 @@ extension MedicinePatterns on Medicine {
             _that.memo,
             _that.memoImageURL,
             _that.archivedDateTime,
+            _that.pausedDateTime,
             _that.beganDateTime,
             _that.createdDateTime,
             _that.updatedDateTime,
@@ -421,6 +434,7 @@ extension MedicinePatterns on Medicine {
             String memo,
             String memoImageURL,
             @NullableTimestampConverter() DateTime? archivedDateTime,
+            @NullableTimestampConverter() DateTime? pausedDateTime,
             @TimestampConverter() DateTime beganDateTime,
             @ClientCreatedTimestamp() DateTime? createdDateTime,
             @ClientUpdatedTimestamp() DateTime? updatedDateTime,
@@ -441,6 +455,7 @@ extension MedicinePatterns on Medicine {
             _that.memo,
             _that.memoImageURL,
             _that.archivedDateTime,
+            _that.pausedDateTime,
             _that.beganDateTime,
             _that.createdDateTime,
             _that.updatedDateTime,
@@ -466,6 +481,7 @@ class _Medicine extends Medicine {
       required this.memo,
       required this.memoImageURL,
       @NullableTimestampConverter() this.archivedDateTime,
+      @NullableTimestampConverter() this.pausedDateTime,
       @TimestampConverter() required this.beganDateTime,
       @ClientCreatedTimestamp() this.createdDateTime,
       @ClientUpdatedTimestamp() this.updatedDateTime,
@@ -500,6 +516,9 @@ class _Medicine extends Medicine {
   @override
   @NullableTimestampConverter()
   final DateTime? archivedDateTime;
+  @override
+  @NullableTimestampConverter()
+  final DateTime? pausedDateTime;
   @override
   @TimestampConverter()
   final DateTime beganDateTime;
@@ -544,6 +563,7 @@ class _Medicine extends Medicine {
             (identical(other.memo, memo) || other.memo == memo) &&
             (identical(other.memoImageURL, memoImageURL) || other.memoImageURL == memoImageURL) &&
             (identical(other.archivedDateTime, archivedDateTime) || other.archivedDateTime == archivedDateTime) &&
+            (identical(other.pausedDateTime, pausedDateTime) || other.pausedDateTime == pausedDateTime) &&
             (identical(other.beganDateTime, beganDateTime) || other.beganDateTime == beganDateTime) &&
             (identical(other.createdDateTime, createdDateTime) || other.createdDateTime == createdDateTime) &&
             (identical(other.updatedDateTime, updatedDateTime) || other.updatedDateTime == updatedDateTime) &&
@@ -554,11 +574,11 @@ class _Medicine extends Medicine {
   @JsonKey(includeFromJson: false, includeToJson: false)
   @override
   int get hashCode => Object.hash(runtimeType, id, userID, name, frequency, const DeepCollectionEquality().hash(_schedules), doseReceiver, memo,
-      memoImageURL, archivedDateTime, beganDateTime, createdDateTime, updatedDateTime, serverCreatedDateTime, serverUpdatedDateTime);
+      memoImageURL, archivedDateTime, pausedDateTime, beganDateTime, createdDateTime, updatedDateTime, serverCreatedDateTime, serverUpdatedDateTime);
 
   @override
   String toString() {
-    return 'Medicine(id: $id, userID: $userID, name: $name, frequency: $frequency, schedules: $schedules, doseReceiver: $doseReceiver, memo: $memo, memoImageURL: $memoImageURL, archivedDateTime: $archivedDateTime, beganDateTime: $beganDateTime, createdDateTime: $createdDateTime, updatedDateTime: $updatedDateTime, serverCreatedDateTime: $serverCreatedDateTime, serverUpdatedDateTime: $serverUpdatedDateTime)';
+    return 'Medicine(id: $id, userID: $userID, name: $name, frequency: $frequency, schedules: $schedules, doseReceiver: $doseReceiver, memo: $memo, memoImageURL: $memoImageURL, archivedDateTime: $archivedDateTime, pausedDateTime: $pausedDateTime, beganDateTime: $beganDateTime, createdDateTime: $createdDateTime, updatedDateTime: $updatedDateTime, serverCreatedDateTime: $serverCreatedDateTime, serverUpdatedDateTime: $serverUpdatedDateTime)';
   }
 }
 
@@ -577,6 +597,7 @@ abstract mixin class _$MedicineCopyWith<$Res> implements $MedicineCopyWith<$Res>
       String memo,
       String memoImageURL,
       @NullableTimestampConverter() DateTime? archivedDateTime,
+      @NullableTimestampConverter() DateTime? pausedDateTime,
       @TimestampConverter() DateTime beganDateTime,
       @ClientCreatedTimestamp() DateTime? createdDateTime,
       @ClientUpdatedTimestamp() DateTime? updatedDateTime,
@@ -610,6 +631,7 @@ class __$MedicineCopyWithImpl<$Res> implements _$MedicineCopyWith<$Res> {
     Object? memo = null,
     Object? memoImageURL = null,
     Object? archivedDateTime = freezed,
+    Object? pausedDateTime = freezed,
     Object? beganDateTime = null,
     Object? createdDateTime = freezed,
     Object? updatedDateTime = freezed,
@@ -652,6 +674,10 @@ class __$MedicineCopyWithImpl<$Res> implements _$MedicineCopyWith<$Res> {
       archivedDateTime: freezed == archivedDateTime
           ? _self.archivedDateTime
           : archivedDateTime // ignore: cast_nullable_to_non_nullable
+              as DateTime?,
+      pausedDateTime: freezed == pausedDateTime
+          ? _self.pausedDateTime
+          : pausedDateTime // ignore: cast_nullable_to_non_nullable
               as DateTime?,
       beganDateTime: null == beganDateTime
           ? _self.beganDateTime
