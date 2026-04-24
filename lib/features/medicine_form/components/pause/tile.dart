@@ -21,18 +21,18 @@ class MedicinePauseTile extends HookConsumerWidget {
         child: SwitchListTile(
           title: Text(L.medicationPause),
           subtitle: Text(L.medicationPauseDescription),
-          value: medicine.pausedDateTime != null,
+          value: medicine.pausedDateTime == null,
           onChanged: (value) async {
             try {
               await ref.read(medicineSetPausedProvider).call(
                     medicineID: medicine.id,
                     medicine: medicine,
-                    pausedDateTime: value ? DateTime.now() : null,
+                    pausedDateTime: value ? null : DateTime.now(),
                   );
               unawaited(ref.read(registerReminderLocalNotificationProvider).call());
               if (context.mounted) {
                 ScaffoldMessenger.of(context).showSnackBar(
-                  SnackBar(content: Text(value ? L.medicinePausedSnackbar : L.medicineResumedSnackbar)),
+                  SnackBar(content: Text(value ? L.medicineResumedSnackbar : L.medicinePausedSnackbar)),
                 );
               }
             } catch (e) {

@@ -844,13 +844,13 @@
   "@currentlyInPremiumTrial": {
     "description": "プレミアムトライアル中の表示テキスト"
   },
-  "medicationPause": "一時停止",
+  "medicationPause": "服薬を有効にする",
   "@medicationPause": {
-    "description": "薬の一時停止トグルのラベル"
+    "description": "薬の稼働/一時停止を切り替えるトグルのラベル（ON=稼働中 / OFF=一時停止）"
   },
-  "medicationPauseDescription": "停止中は服薬画面・通知から除外されます",
+  "medicationPauseDescription": "オフにすると服薬画面・通知から除外されます",
   "@medicationPauseDescription": {
-    "description": "薬の一時停止トグルの説明文"
+    "description": "薬の稼働/一時停止トグルの説明文"
   },
   "medicinePausedSnackbar": "一時停止しました",
   "@medicinePausedSnackbar": {

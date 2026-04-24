@@ -780,13 +780,13 @@
   "@criticalAlertVolume": {
     "description": "緊急通知の音量の表示名"
   },
-  "medicationPause": "Pause",
+  "medicationPause": "Enable medication",
   "@medicationPause": {
-    "description": "薬の一時停止トグルのラベル"
+    "description": "薬の稼働/一時停止を切り替えるトグルのラベル（ON=稼働中 / OFF=一時停止）"
   },
-  "medicationPauseDescription": "While paused, this medicine is hidden from the daily list and notifications.",
+  "medicationPauseDescription": "When off, this medicine is hidden from the daily list and notifications.",
   "@medicationPauseDescription": {
-    "description": "薬の一時停止トグルの説明文"
+    "description": "薬の稼働/一時停止トグルの説明文"
   },
   "medicinePausedSnackbar": "Paused",
   "@medicinePausedSnackbar": {
