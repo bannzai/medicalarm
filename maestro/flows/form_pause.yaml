@@ -2,8 +2,7 @@
 appId: com.bannzai.medicalarm
 ---
 - runFlow: full_pause_feature.yaml
-- tapOn:
-    point: "89%,17%"
+- tapOn: "薬を編集"
 - extendedWaitUntil:
     visible: "お薬登録画面"
     timeout: 5000

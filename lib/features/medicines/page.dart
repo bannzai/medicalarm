@@ -126,6 +126,7 @@ class MedicinesPageSection extends HookConsumerWidget {
           top: 0,
           child: IconButton(
             padding: EdgeInsets.zero,
+            tooltip: L.medicineEditTooltip,
             onPressed: () {
               showMedicineForm(context, medicine);
             },
