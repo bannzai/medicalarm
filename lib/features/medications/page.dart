@@ -101,6 +101,7 @@ class MedicationsPageBody extends HookConsumerWidget {
         ),
         actions: [
           IconButton(
+            tooltip: L.medicineEditTooltip,
             onPressed: () {
               Navigator.push(
                 context,

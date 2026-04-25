@@ -3,8 +3,8 @@
 appId: com.bannzai.medicalarm
 ---
 - runFlow: register_and_pause.yaml
-- tapOn:
-    point: "93%,8%"
+# 服薬画面 AppBar 右上の編集アイコン（IconButton tooltip "薬を編集"）
+- tapOn: "薬を編集"
 - extendedWaitUntil:
     visible: "お薬一覧"
     timeout: 5000
