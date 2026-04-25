@@ -136,27 +136,30 @@ class MedicinesPageSection extends HookConsumerWidget {
         Positioned(
           right: 24,
           bottom: 4,
-          child: Switch(
-            value: medicine.pausedDateTime == null,
-            onChanged: (value) async {
-              try {
-                await ref.read(medicineSetPausedProvider).call(
-                      medicineID: medicine.id,
-                      medicine: medicine,
-                      pausedDateTime: value ? null : DateTime.now(),
+          child: Semantics(
+            identifier: 'medicine_pause_switch',
+            child: Switch(
+              value: medicine.pausedDateTime == null,
+              onChanged: (value) async {
+                try {
+                  await ref.read(medicineSetPausedProvider).call(
+                        medicineID: medicine.id,
+                        medicine: medicine,
+                        pausedDateTime: value ? null : DateTime.now(),
+                      );
+                  unawaited(ref.read(registerReminderLocalNotificationProvider).call());
+                  if (context.mounted) {
+                    ScaffoldMessenger.of(context).showSnackBar(
+                      SnackBar(content: Text(value ? L.medicineResumedSnackbar : L.medicinePausedSnackbar)),
                     );
-                unawaited(ref.read(registerReminderLocalNotificationProvider).call());
-                if (context.mounted) {
-                  ScaffoldMessenger.of(context).showSnackBar(
-                    SnackBar(content: Text(value ? L.medicineResumedSnackbar : L.medicinePausedSnackbar)),
-                  );
+                  }
+                } catch (e) {
+                  if (context.mounted) {
+                    showErrorAlert(context, e.toString());
+                  }
                 }
-              } catch (e) {
-                if (context.mounted) {
-                  showErrorAlert(context, e.toString());
-                }
-              }
-            },
+              },
+            ),
           ),
         ),
       ],

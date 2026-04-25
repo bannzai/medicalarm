@@ -3,13 +3,13 @@
 appId: com.bannzai.medicalarm
 ---
 - runFlow: full_pause_feature.yaml
+# MedicinesPage カード右下の Switch（Semantics identifier "medicine_pause_switch"）
 - tapOn:
-    point: "87%,27%"
+    id: "medicine_pause_switch"
 - extendedWaitUntil:
     visible: "一時停止しました"
     timeout: 5000
-- tapOn:
-    point: "7%,8%"
+- tapOn: "戻る"
 - extendedWaitUntil:
     notVisible: "(?s).*テスト薬.*"
     timeout: 5000
