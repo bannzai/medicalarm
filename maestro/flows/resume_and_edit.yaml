@@ -10,8 +10,7 @@ appId: com.bannzai.medicalarm
 - extendedWaitUntil:
     visible: "再開しました"
     timeout: 5000
-- tapOn:
-    point: "7%,8%"
+- back
 - extendedWaitUntil:
     visible: "(?s).*テスト薬.*"
     timeout: 5000
