@@ -3,6 +3,10 @@
 appId: com.bannzai.medicalarm
 ---
 - runFlow: allow_notification.yaml
+# Firestore からの初回同期前に notVisible 判定が走ると、既存登録があっても
+# 二重登録されてしまうため、起動直後に少し待ってからフラグ判定する。
+- waitForAnimationToEnd:
+    timeout: 2000
 - runFlow:
     when:
       notVisible: "(?s).*テスト薬.*"
