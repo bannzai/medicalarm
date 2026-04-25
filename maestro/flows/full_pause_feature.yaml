@@ -1,0 +1,14 @@
+# 薬を登録した状態でお薬一覧画面（MedicinesPage）まで遷移する。
+# お薬一覧画面は服薬画面 AppBar 右上の編集アイコンから遷移する。
+appId: com.bannzai.medicalarm
+---
+- runFlow: register_and_pause.yaml
+- tapOn:
+    point: "93%,8%"
+- extendedWaitUntil:
+    visible: "お薬一覧"
+    timeout: 5000
+# MedicinesPageSection は Semantics 上 1 ノードに束ねられ accessibilityText が "テスト薬\n自分\n10:00" になるため、複数行を含む正規表現で検出する
+- extendedWaitUntil:
+    visible: "(?s).*テスト薬.*"
+    timeout: 5000
