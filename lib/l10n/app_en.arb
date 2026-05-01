@@ -799,5 +799,57 @@
   "medicineEditTooltip": "Edit medication",
   "@medicineEditTooltip": {
     "description": "お薬一覧カード右上の編集アイコンの tooltip"
+  },
+  "featureRequestTitle": "Feature Request",
+  "@featureRequestTitle": {
+    "description": "Title of the feature request form / settings menu item"
+  },
+  "featureRequestPromptTitle": "Would you like to send a feature request to Medicalarm?",
+  "@featureRequestPromptTitle": {
+    "description": "Title of the launch-time feature request dialog"
+  },
+  "featureRequestPromptMessage": "Tell us what you'd like to see in Medicalarm. You can also send requests anytime from Settings > Feature Request.",
+  "@featureRequestPromptMessage": {
+    "description": "Body of the launch-time dialog"
+  },
+  "featureRequestPromptCta": "Send Feature Request",
+  "@featureRequestPromptCta": {
+    "description": "Affirmative button of the launch-time dialog"
+  },
+  "later": "Later",
+  "@later": {
+    "description": "Dismiss button of the launch-time dialog"
+  },
+  "featureRequestContentLabel": "Your request",
+  "@featureRequestContentLabel": {
+    "description": "Label for the feature request body field"
+  },
+  "featureRequestContentHint": "What feature would you like?",
+  "@featureRequestContentHint": {
+    "description": "Placeholder for the feature request body field"
+  },
+  "featureRequestContentFooter": "It helps us if you describe how you'd use it in your daily routine.",
+  "@featureRequestContentFooter": {
+    "description": "Helper text under the body field"
+  },
+  "featureRequestEmailLabel": "Email address (optional)",
+  "@featureRequestEmailLabel": {
+    "description": "Label for the email field"
+  },
+  "featureRequestEmailFooter": "We may use it to ask for details, but we can't promise a reply.",
+  "@featureRequestEmailFooter": {
+    "description": "Helper text under the email field"
+  },
+  "featureRequestEmailInvalid": "Please enter a valid email address",
+  "@featureRequestEmailInvalid": {
+    "description": "Email validation error"
+  },
+  "featureRequestThanks": "Thanks for your feedback!",
+  "@featureRequestThanks": {
+    "description": "Success snackbar after sending a feature request"
+  },
+  "send": "Send",
+  "@send": {
+    "description": "Generic send button"
   }
 }

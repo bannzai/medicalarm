@@ -863,5 +863,57 @@
   "medicineEditTooltip": "薬を編集",
   "@medicineEditTooltip": {
     "description": "お薬一覧カード右上の編集アイコンの tooltip"
+  },
+  "featureRequestTitle": "機能要望",
+  "@featureRequestTitle": {
+    "description": "機能要望フォーム/設定画面メニューのタイトル"
+  },
+  "featureRequestPromptTitle": "Medicalarmに機能要望を送ってみませんか？",
+  "@featureRequestPromptTitle": {
+    "description": "起動時に表示する機能要望ダイアログのタイトル"
+  },
+  "featureRequestPromptMessage": "あったらうれしい機能や改善のアイデアを教えてください。設定画面の「機能要望」からいつでも送れます。",
+  "@featureRequestPromptMessage": {
+    "description": "起動時ダイアログの本文"
+  },
+  "featureRequestPromptCta": "要望を送る",
+  "@featureRequestPromptCta": {
+    "description": "起動時ダイアログの肯定ボタン"
+  },
+  "later": "あとで",
+  "@later": {
+    "description": "起動時ダイアログの否定ボタン"
+  },
+  "featureRequestContentLabel": "ご要望の内容",
+  "@featureRequestContentLabel": {
+    "description": "機能要望フォームの本文ラベル"
+  },
+  "featureRequestContentHint": "どんな機能が欲しいかご自由にお書きください",
+  "@featureRequestContentHint": {
+    "description": "機能要望フォーム本文のプレースホルダー"
+  },
+  "featureRequestContentFooter": "具体的にどのような場面で使いたいか書いていただけると検討の参考になります",
+  "@featureRequestContentFooter": {
+    "description": "機能要望フォーム本文の補足説明"
+  },
+  "featureRequestEmailLabel": "メールアドレス（任意）",
+  "@featureRequestEmailLabel": {
+    "description": "機能要望フォームのメール欄ラベル"
+  },
+  "featureRequestEmailFooter": "詳細を確認させていただく際に使用する場合があります。返信は約束できません",
+  "@featureRequestEmailFooter": {
+    "description": "機能要望フォームのメール欄補足"
+  },
+  "featureRequestEmailInvalid": "メールアドレスの形式が正しくありません",
+  "@featureRequestEmailInvalid": {
+    "description": "機能要望フォームのメール形式バリデーションエラー"
+  },
+  "featureRequestThanks": "ご要望をお送りしました。ありがとうございます",
+  "@featureRequestThanks": {
+    "description": "機能要望送信完了 SnackBar"
+  },
+  "send": "送信",
+  "@send": {
+    "description": "送信ボタン汎用"
   }
 }
