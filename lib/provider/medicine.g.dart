@@ -66,5 +66,20 @@ final medicineDeleteProvider = AutoDisposeProvider<MedicineDelete>.internal(
 @Deprecated('Will be removed in 3.0. Use Ref instead')
 // ignore: unused_element
 typedef MedicineDeleteRef = AutoDisposeProviderRef<MedicineDelete>;
+String _$medicineSetPausedHash() => r'd14d4d5540822dc53b3c36ee047648ca090083aa';
+
+/// See also [medicineSetPaused].
+@ProviderFor(medicineSetPaused)
+final medicineSetPausedProvider = AutoDisposeProvider<MedicineSetPaused>.internal(
+  medicineSetPaused,
+  name: r'medicineSetPausedProvider',
+  debugGetCreateSourceHash: const bool.fromEnvironment('dart.vm.product') ? null : _$medicineSetPausedHash,
+  dependencies: <ProviderOrFamily>[userDatabaseProvider],
+  allTransitiveDependencies: <ProviderOrFamily>{userDatabaseProvider, ...?userDatabaseProvider.allTransitiveDependencies},
+);
+
+@Deprecated('Will be removed in 3.0. Use Ref instead')
+// ignore: unused_element
+typedef MedicineSetPausedRef = AutoDisposeProviderRef<MedicineSetPaused>;
 // ignore_for_file: type=lint
 // ignore_for_file: subtype_of_sealed_class, invalid_use_of_internal_member, invalid_use_of_visible_for_testing_member, deprecated_member_use_from_same_package

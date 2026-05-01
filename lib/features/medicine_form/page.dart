@@ -1,5 +1,6 @@
 import 'dart:async';
 
+import 'package:collection/collection.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
@@ -15,6 +16,7 @@ import 'package:medicalarm/features/medicine_form/components/additional_info/sec
 import 'package:medicalarm/features/medicine_form/components/begin/tile.dart';
 import 'package:medicalarm/features/medicine_form/components/medication_frequency/tile.dart';
 import 'package:medicalarm/features/medicine_form/components/name_text_field.dart';
+import 'package:medicalarm/features/medicine_form/components/pause/tile.dart';
 import 'package:medicalarm/features/medicine_form/components/schedule/section.dart';
 import 'package:medicalarm/provider/app_user.dart';
 import 'package:medicalarm/provider/medicine.dart';
@@ -42,6 +44,11 @@ class MedicineFormPage extends HookConsumerWidget {
     final memoImageURL = useState(medicine?.memoImageURL ?? '');
     final doseReceiver = useState<DoseReceiver>(medicine?.doseReceiver ?? DoseReceiver.firstUser(userID: userID));
 
+    // MedicinePauseTile 等で編集中に外部から更新された pausedDateTime を保存処理に取り込むため、activeMedicinesProvider から最新の Medicine を解決する
+    final currentMedicine = medicine == null
+        ? null
+        : ref.watch(activeMedicinesProvider).valueOrNull?.firstWhereOrNull((m) => m.id == medicine!.id) ?? medicine;
+
     final medicineAdd = ref.watch(medicineAddProvider);
     final medicineUpdate = ref.watch(medicineUpdateProvider);
 
@@ -54,8 +61,7 @@ class MedicineFormPage extends HookConsumerWidget {
     final memoFocusNode = useFocusNode();
 
     Future<void> submit() async {
-      final medicine = this.medicine;
-      if (medicine == null) {
+      if (currentMedicine == null) {
         await medicineAdd(
           name: name.value,
           frequency: frequency.value,
@@ -67,8 +73,8 @@ class MedicineFormPage extends HookConsumerWidget {
         );
       } else {
         await medicineUpdate(
-          medicineID: medicine.id,
-          medicine: medicine,
+          medicineID: currentMedicine.id,
+          medicine: currentMedicine,
           name: name.value,
           frequency: frequency.value,
           schedules: schedules.value,
@@ -134,6 +140,10 @@ class MedicineFormPage extends HookConsumerWidget {
                                           MedicationFrequencyTile(frequency: frequency),
                                           const SizedBox(height: 6),
                                           MedicationBeginTile(begin: begin),
+                                          if (currentMedicine != null) ...[
+                                            const SizedBox(height: 6),
+                                            MedicinePauseTile(medicine: currentMedicine),
+                                          ],
                                         ],
                                       ),
                                     ),

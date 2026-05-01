@@ -1,5 +1,8 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
+import 'package:medicalarm/components/error/error_alert.dart';
 import 'package:medicalarm/components/fab/layout.dart';
 import 'package:medicalarm/components/loading/indicator.dart';
 import 'package:medicalarm/components/retry/page.dart';
@@ -8,6 +11,7 @@ import 'package:medicalarm/features/medications/components/add_button.dart';
 import 'package:medicalarm/features/medicine_form/page.dart';
 import 'package:medicalarm/provider/medicine.dart';
 import 'package:medicalarm/style/color.dart';
+import 'package:medicalarm/utils/local_notification/client.dart';
 import 'package:medicalarm/features/localization/l.dart';
 
 class MedicinesPage extends HookConsumerWidget {
@@ -58,12 +62,12 @@ class MedicinesPageBody extends HookConsumerWidget {
   }
 }
 
-class MedicinesPageSection extends StatelessWidget {
+class MedicinesPageSection extends HookConsumerWidget {
   final Medicine medicine;
   const MedicinesPageSection({super.key, required this.medicine});
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context, WidgetRef ref) {
     final primaryColor = Theme.of(context).colorScheme.primary;
 
     return Stack(
@@ -81,7 +85,7 @@ class MedicinesPageSection extends StatelessWidget {
                   color: Colors.black.withValues(alpha: 0.1),
                   spreadRadius: 2,
                   blurRadius: 5,
-                  offset: const Offset(0, 3), // 影の位置を調整
+                  offset: const Offset(0, 3),
                 ),
               ],
             ),
@@ -110,7 +114,9 @@ class MedicinesPageSection extends StatelessWidget {
                 ],
                 if (medicine.memo.isNotEmpty) ...[
                   Text(medicine.memo),
-                ]
+                ],
+                // カード右下に配置するSwitchと重ならないための下余白
+                const SizedBox(height: 28),
               ],
             ),
           ),
@@ -120,10 +126,40 @@ class MedicinesPageSection extends StatelessWidget {
           top: 0,
           child: IconButton(
             padding: EdgeInsets.zero,
+            tooltip: L.medicineEditTooltip,
             onPressed: () {
               showMedicineForm(context, medicine);
             },
             icon: const Icon(Icons.edit, size: 20),
+          ),
+        ),
+        Positioned(
+          right: 24,
+          bottom: 4,
+          child: Semantics(
+            identifier: 'medicine_pause_switch',
+            child: Switch(
+              value: medicine.pausedDateTime == null,
+              onChanged: (value) async {
+                try {
+                  await ref.read(medicineSetPausedProvider).call(
+                        medicineID: medicine.id,
+                        medicine: medicine,
+                        pausedDateTime: value ? null : DateTime.now(),
+                      );
+                  unawaited(ref.read(registerReminderLocalNotificationProvider).call());
+                  if (context.mounted) {
+                    ScaffoldMessenger.of(context).showSnackBar(
+                      SnackBar(content: Text(value ? L.medicineResumedSnackbar : L.medicinePausedSnackbar)),
+                    );
+                  }
+                } catch (e) {
+                  if (context.mounted) {
+                    showErrorAlert(context, e.toString());
+                  }
+                }
+              },
+            ),
           ),
         ),
       ],

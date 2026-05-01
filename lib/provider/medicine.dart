@@ -108,3 +108,27 @@ MedicineDelete medicineDelete(Ref ref) {
   final database = ref.watch(userDatabaseProvider);
   return MedicineDelete(database: database);
 }
+
+// 指定した薬の pausedDateTime のみを更新する。停止時は DateTime.now()、再開時は null を渡す
+class MedicineSetPaused {
+  final UserDatabase database;
+
+  MedicineSetPaused({required this.database});
+
+  Future<Medicine> call({
+    required String medicineID,
+    required Medicine medicine,
+    required DateTime? pausedDateTime,
+  }) async {
+    final docRef = database.medicineReference(medicineID: medicineID);
+    final newMedicine = medicine.copyWith(pausedDateTime: pausedDateTime);
+    await docRef.set(newMedicine, SetOptions(merge: true));
+    return newMedicine;
+  }
+}
+
+@Riverpod(dependencies: [userDatabase])
+MedicineSetPaused medicineSetPaused(Ref ref) {
+  final database = ref.watch(userDatabaseProvider);
+  return MedicineSetPaused(database: database);
+}

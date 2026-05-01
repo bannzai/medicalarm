@@ -1,0 +1,15 @@
+# お薬一覧カード右下の Switch を OFF にして、服薬画面からテスト薬が消えることを確認する。
+# Switch の Snackbar「一時停止しました」を検証。
+appId: com.bannzai.medicalarm
+---
+- runFlow: full_pause_feature.yaml
+# MedicinesPage カード右下の Switch（Semantics identifier "medicine_pause_switch"）
+- tapOn:
+    id: "medicine_pause_switch"
+- extendedWaitUntil:
+    visible: "一時停止しました"
+    timeout: 5000
+- tapOn: "戻る"
+- extendedWaitUntil:
+    notVisible: "(?s).*テスト薬.*"
+    timeout: 5000

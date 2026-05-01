@@ -1,0 +1,16 @@
+# MedicineFormPage 編集モード時に「服薬を有効にする」セクションが表示され、トグル操作で Snackbar が出ることを確認する。
+appId: com.bannzai.medicalarm
+---
+- runFlow: full_pause_feature.yaml
+- tapOn: "薬を編集"
+- extendedWaitUntil:
+    visible: "お薬登録画面"
+    timeout: 5000
+# SwitchListTile の title + subtitle は Semantics 上 1 ノードに束ねられ "服薬を有効にする\nオフにすると..." になるため正規表現で検出
+- extendedWaitUntil:
+    visible: "(?s).*服薬を有効にする.*"
+    timeout: 5000
+- tapOn: "(?s).*服薬を有効にする.*"
+- extendedWaitUntil:
+    visible: "一時停止しました"
+    timeout: 5000

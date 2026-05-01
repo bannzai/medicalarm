@@ -843,5 +843,25 @@
   "currentlyInPremiumTrial": "現在プレミアムトライアル中です",
   "@currentlyInPremiumTrial": {
     "description": "プレミアムトライアル中の表示テキスト"
+  },
+  "medicationPause": "服薬を有効にする",
+  "@medicationPause": {
+    "description": "薬の稼働/一時停止を切り替えるトグルのラベル（ON=稼働中 / OFF=一時停止）"
+  },
+  "medicationPauseDescription": "オフにすると服薬画面・通知から除外されます",
+  "@medicationPauseDescription": {
+    "description": "薬の稼働/一時停止トグルの説明文"
+  },
+  "medicinePausedSnackbar": "薬の服用を一時停止しました",
+  "@medicinePausedSnackbar": {
+    "description": "薬を一時停止したときに表示するSnackbarのメッセージ"
+  },
+  "medicineResumedSnackbar": "薬の服用を再開しました",
+  "@medicineResumedSnackbar": {
+    "description": "一時停止中の薬を再開したときに表示するSnackbarのメッセージ"
+  },
+  "medicineEditTooltip": "薬を編集",
+  "@medicineEditTooltip": {
+    "description": "お薬一覧カード右上の編集アイコンの tooltip"
   }
 }

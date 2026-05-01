@@ -1,0 +1,16 @@
+# 一時停止した状態から、カード Switch を再度 ON にして服薬画面にテスト薬が戻ることを確認する。
+# Snackbar「再開しました」を検証。
+appId: com.bannzai.medicalarm
+---
+- runFlow: toggle_switch.yaml
+- tapOn:
+    point: "93%,8%"
+- tapOn:
+    point: "87%,27%"
+- extendedWaitUntil:
+    visible: "再開しました"
+    timeout: 5000
+- tapOn: "戻る"
+- extendedWaitUntil:
+    visible: "(?s).*テスト薬.*"
+    timeout: 5000

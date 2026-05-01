@@ -779,5 +779,25 @@
   "criticalAlertVolume": "Volume",
   "@criticalAlertVolume": {
     "description": "緊急通知の音量の表示名"
+  },
+  "medicationPause": "Enable medication",
+  "@medicationPause": {
+    "description": "薬の稼働/一時停止を切り替えるトグルのラベル（ON=稼働中 / OFF=一時停止）"
+  },
+  "medicationPauseDescription": "When off, this medicine is hidden from the daily list and notifications.",
+  "@medicationPauseDescription": {
+    "description": "薬の稼働/一時停止トグルの説明文"
+  },
+  "medicinePausedSnackbar": "Paused this medication",
+  "@medicinePausedSnackbar": {
+    "description": "薬を一時停止したときに表示するSnackbarのメッセージ"
+  },
+  "medicineResumedSnackbar": "Resumed this medication",
+  "@medicineResumedSnackbar": {
+    "description": "一時停止中の薬を再開したときに表示するSnackbarのメッセージ"
+  },
+  "medicineEditTooltip": "Edit medication",
+  "@medicineEditTooltip": {
+    "description": "お薬一覧カード右上の編集アイコンの tooltip"
   }
 }
