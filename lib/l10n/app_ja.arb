@@ -852,11 +852,11 @@
   "@medicationPauseDescription": {
     "description": "薬の稼働/一時停止トグルの説明文"
   },
-  "medicinePausedSnackbar": "一時停止しました",
+  "medicinePausedSnackbar": "薬の服用を一時停止しました",
   "@medicinePausedSnackbar": {
     "description": "薬を一時停止したときに表示するSnackbarのメッセージ"
   },
-  "medicineResumedSnackbar": "再開しました",
+  "medicineResumedSnackbar": "薬の服用を再開しました",
   "@medicineResumedSnackbar": {
     "description": "一時停止中の薬を再開したときに表示するSnackbarのメッセージ"
   },

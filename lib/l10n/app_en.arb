@@ -788,11 +788,11 @@
   "@medicationPauseDescription": {
     "description": "薬の稼働/一時停止トグルの説明文"
   },
-  "medicinePausedSnackbar": "Paused",
+  "medicinePausedSnackbar": "Paused this medication",
   "@medicinePausedSnackbar": {
     "description": "薬を一時停止したときに表示するSnackbarのメッセージ"
   },
-  "medicineResumedSnackbar": "Resumed",
+  "medicineResumedSnackbar": "Resumed this medication",
   "@medicineResumedSnackbar": {
     "description": "一時停止中の薬を再開したときに表示するSnackbarのメッセージ"
   },
