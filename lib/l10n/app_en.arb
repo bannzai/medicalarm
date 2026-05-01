@@ -795,5 +795,9 @@
   "medicineResumedSnackbar": "Resumed",
   "@medicineResumedSnackbar": {
     "description": "一時停止中の薬を再開したときに表示するSnackbarのメッセージ"
+  },
+  "medicineEditTooltip": "Edit medication",
+  "@medicineEditTooltip": {
+    "description": "お薬一覧カード右上の編集アイコンの tooltip"
   }
 }

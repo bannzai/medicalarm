@@ -1,0 +1,22 @@
+# 起動直後のダイアログを閉じてから「テスト薬」を新規登録する。
+# 既に「テスト薬」が登録済みの環境（連続実行時や Firestore 残存時）は登録ステップをスキップする。
+appId: com.bannzai.medicalarm
+---
+- runFlow: allow_notification.yaml
+# Firestore からの初回同期前に notVisible 判定が走ると、既存登録があっても
+# 二重登録されてしまうため、起動直後に少し待ってからフラグ判定する。
+- waitForAnimationToEnd:
+    timeout: 2000
+- runFlow:
+    when:
+      notVisible: "(?s).*テスト薬.*"
+    commands:
+      - tapOn: "お薬を追加"
+      - tapOn: "薬の名前"
+      - inputText: "テスト薬"
+      - tapOn: "完了"
+      - tapOn: "服用スケジュールを追加"
+      - tapOn: "保存"
+- extendedWaitUntil:
+    visible: "(?s).*テスト薬.*"
+    timeout: 5000
