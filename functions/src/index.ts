@@ -9,3 +9,10 @@ if (
 ) {
   exports.startPromotion = require("./functions/startPromotion/function");
 }
+
+if (
+  !process.env.FUNCTION_NAME ||
+  process.env.FUNCTION_NAME === "submitFeatureRequest"
+) {
+  exports.submitFeatureRequest = require("./functions/submitFeatureRequest/function");
+}
