@@ -2,6 +2,7 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:medicalarm/components/button/inquiry.dart';
 import 'package:medicalarm/components/button/user_delete.dart';
+import 'package:medicalarm/features/feature_request/page.dart';
 import 'package:medicalarm/features/settings/components/local_notifications.dart';
 import 'package:medicalarm/features/settings/components/premium_introduction.dart';
 import 'package:medicalarm/features/settings/components/section.dart';
@@ -70,6 +71,15 @@ class SettingPage extends StatelessWidget {
                     launchUrl(Uri.parse('https://bannzai.github.io/medicalarm/SpecifiedCommercialTransactionAct'),
                         mode: LaunchMode.externalApplication);
                   }),
+              const _Divider(),
+              ListTile(
+                title: Text(L.featureRequestTitle),
+                trailing: const Icon(Icons.chevron_right),
+                onTap: () {
+                  analytics.logEvent(name: 'did_select_feature_request');
+                  showFeatureRequestForm(context);
+                },
+              ),
               const _Divider(),
               ListTile(
                 title: Text(L.inquiry),

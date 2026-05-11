@@ -15,6 +15,26 @@ extension FirebaseFunctionsExt on FirebaseFunctions {
     }
     return response['data']['isAlreadyExist'] as bool;
   }
+
+  /// 機能要望を Cloud Functions (submitFeatureRequest) 経由で Slack に通知する。
+  /// emailAddress は任意。空文字は呼び出し側で null に正規化してから渡す。
+  Future<void> submitFeatureRequest({
+    required String content,
+    required String? emailAddress,
+    required String appVersion,
+    required String platform,
+  }) async {
+    final result = await httpsCallable('submitFeatureRequest').call({
+      'content': content,
+      if (emailAddress != null && emailAddress.isNotEmpty) 'emailAddress': emailAddress,
+      'appVersion': appVersion,
+      'platform': platform,
+    });
+    final response = mapToJSON(result.data);
+    if (response['result'] != 'OK') {
+      throw Exception(response['error']['message']);
+    }
+  }
 }
 
 // Map<String, dynamic>.fromだけだとネストした子要素が_Map<Object? Object?>のままになる
