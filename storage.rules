@@ -1,0 +1,25 @@
+rules_version = '2';
+
+// 薬メモ画像 (lib/utils/storage/firebase_cloud_storage.dart の uploadImage が保存)。
+//
+// 重要 (デプロイ前に必ず確認):
+// medicalarm はこれまで storage.rules をリポジトリ管理しておらず、本ファイルは
+// 設計ドキュメント (documents/group-feature-design.md) に基づく新規作成である。現行
+// Console 上の rules と突き合わせ、差分がないことを確認してからデプロイすること。
+service firebase.storage {
+  match /b/{bucket}/o {
+    // 既存パス: 本人がアップロードした薬メモ画像。本人のみ read/write。
+    match /users/{userID}/medicines/{fileName} {
+      allow read, write: if request.auth != null && request.auth.uid == userID;
+    }
+
+    // 新規パス: グループ共有の薬メモ画像。Firestore の group ドキュメントを
+    // クロスサービス参照し、memberUserIDs に含まれるメンバーのみ read/write。
+    // 構文は公式ドキュメント (https://firebase.google.com/docs/storage/security/rules-conditions)
+    // に従い、パス変数は $(groupID) でエスケープする。
+    match /groups/{groupID}/medicines/{fileName} {
+      allow read, write: if request.auth != null
+        && request.auth.uid in firestore.get(/databases/(default)/documents/groups/$(groupID)).data.memberUserIDs;
+    }
+  }
+}

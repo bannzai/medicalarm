@@ -1,0 +1,155 @@
+const fs = require('fs');
+const path = require('path');
+const {
+  initializeTestEnvironment,
+  assertSucceeds,
+  assertFails,
+} = require('@firebase/rules-unit-testing');
+const { doc, getDoc, setDoc } = require('firebase/firestore');
+
+// demo- 接頭辞により Emulator が demo モード (実プロジェクト不要) で動作する。
+// package.json の `firebase emulators:exec --project demo-medicalarm` と一致させる。
+const PROJECT_ID = 'demo-medicalarm';
+const RULES_PATH = path.resolve(__dirname, '..', 'firestore.rules');
+
+// emulators:exec が子プロセスに設定する FIRESTORE_EMULATOR_HOST ("host:port") から接続先を得る。
+const [EMULATOR_HOST, EMULATOR_PORT] = (process.env.FIRESTORE_EMULATOR_HOST ?? '127.0.0.1:8080').split(':');
+
+// グループ g1 のメンバー。alice / bob がメンバー、charlie は非メンバー。
+const GROUP_ID = 'g1';
+const MEMBER_IDS = ['alice', 'bob'];
+
+// グループ配下のサブコレクション (すべてメンバーなら read/write 可能であること)。
+const GROUP_SUBCOLLECTIONS = [
+  'userProfiles',
+  'medicines',
+  'doseReceivers',
+  'medicationHistories',
+  'diaries',
+  'memberNotificationSettings',
+];
+
+let testEnv;
+
+beforeAll(async () => {
+  testEnv = await initializeTestEnvironment({
+    projectId: PROJECT_ID,
+    firestore: {
+      rules: fs.readFileSync(RULES_PATH, 'utf8'),
+      host: EMULATOR_HOST,
+      port: Number(EMULATOR_PORT),
+    },
+  });
+});
+
+afterAll(async () => {
+  await testEnv.cleanup();
+});
+
+// 各テストごとにデータをクリアし、rules を無効化した状態でグループ本体を seed する。
+// (isMember / isGroupMember は groups/{id} の memberUserIDs を参照するため本体が必須)
+beforeEach(async () => {
+  await testEnv.clearFirestore();
+  await testEnv.withSecurityRulesDisabled(async (ctx) => {
+    await setDoc(doc(ctx.firestore(), `groups/${GROUP_ID}`), {
+      id: GROUP_ID,
+      memberUserIDs: MEMBER_IDS,
+      name: 'テストグループ',
+    });
+  });
+});
+
+describe('groups: メンバーは本体と全サブコレクションを read/write できる', () => {
+  test('メンバー(alice)は groups/{id} 本体を read/update できる', async () => {
+    const db = testEnv.authenticatedContext('alice').firestore();
+    await assertSucceeds(getDoc(doc(db, `groups/${GROUP_ID}`)));
+    await assertSucceeds(
+      setDoc(doc(db, `groups/${GROUP_ID}`), { memberUserIDs: MEMBER_IDS, name: '更新後' }, { merge: true }),
+    );
+  });
+
+  test.each(GROUP_SUBCOLLECTIONS)('メンバー(alice)は groups/{id}/%s を read/write できる', async (subCollection) => {
+    const db = testEnv.authenticatedContext('alice').firestore();
+    await assertSucceeds(setDoc(doc(db, `groups/${GROUP_ID}/${subCollection}/x`), { foo: 'bar' }));
+    await assertSucceeds(getDoc(doc(db, `groups/${GROUP_ID}/${subCollection}/x`)));
+  });
+});
+
+describe('groups: 非メンバー・未認証は read/write とも拒否される', () => {
+  test('非メンバー(charlie)は groups/{id} 本体を read/write できない', async () => {
+    const db = testEnv.authenticatedContext('charlie').firestore();
+    await assertFails(getDoc(doc(db, `groups/${GROUP_ID}`)));
+    await assertFails(
+      setDoc(doc(db, `groups/${GROUP_ID}`), { memberUserIDs: MEMBER_IDS }, { merge: true }),
+    );
+  });
+
+  test.each(GROUP_SUBCOLLECTIONS)('非メンバー(charlie)は groups/{id}/%s を read/write できない', async (subCollection) => {
+    const db = testEnv.authenticatedContext('charlie').firestore();
+    await assertFails(getDoc(doc(db, `groups/${GROUP_ID}/${subCollection}/x`)));
+    await assertFails(setDoc(doc(db, `groups/${GROUP_ID}/${subCollection}/x`), { foo: 'bar' }));
+  });
+
+  test('未認証は groups/{id} を read/write できない', async () => {
+    const db = testEnv.unauthenticatedContext().firestore();
+    await assertFails(getDoc(doc(db, `groups/${GROUP_ID}`)));
+    await assertFails(getDoc(doc(db, `groups/${GROUP_ID}/medicines/x`)));
+  });
+});
+
+describe('groups create / groupInvitations: クライアント直アクセスは全面拒否', () => {
+  test('クライアントからの groups 作成は拒否される', async () => {
+    const db = testEnv.authenticatedContext('alice').firestore();
+    await assertFails(setDoc(doc(db, 'groups/newGroup'), { memberUserIDs: ['alice'] }));
+  });
+
+  test('groupInvitations は read も write も拒否される', async () => {
+    const db = testEnv.authenticatedContext('alice').firestore();
+    await assertFails(getDoc(doc(db, 'groupInvitations/i1')));
+    await assertFails(setDoc(doc(db, 'groupInvitations/i1'), { groupID: GROUP_ID }));
+  });
+});
+
+describe('users ツリー: 本人のみアクセス可能', () => {
+  test('本人(alice)は users/alice と privates を read/write できる', async () => {
+    const db = testEnv.authenticatedContext('alice').firestore();
+    await assertSucceeds(setDoc(doc(db, 'users/alice'), { name: 'Alice' }));
+    await assertSucceeds(getDoc(doc(db, 'users/alice')));
+    await assertSucceeds(setDoc(doc(db, 'users/alice/privates/alice'), { fcmToken: 't' }));
+    await assertSucceeds(getDoc(doc(db, 'users/alice/privates/alice')));
+  });
+
+  test('他人(bob)は users/alice を read/write できない', async () => {
+    const db = testEnv.authenticatedContext('bob').firestore();
+    await assertFails(getDoc(doc(db, 'users/alice')));
+    await assertFails(setDoc(doc(db, 'users/alice'), { name: 'Hacked' }));
+    await assertFails(getDoc(doc(db, 'users/alice/privates/alice')));
+  });
+
+  test('レガシー /users/alice/medicines 等は本人のみアクセス可能', async () => {
+    const aliceDB = testEnv.authenticatedContext('alice').firestore();
+    await assertSucceeds(setDoc(doc(aliceDB, 'users/alice/medicines/m1'), { name: '薬' }));
+    await assertSucceeds(getDoc(doc(aliceDB, 'users/alice/medicines/m1')));
+    await assertSucceeds(setDoc(doc(aliceDB, 'users/alice/medicationHistories/h1'), { at: 1 }));
+
+    const bobDB = testEnv.authenticatedContext('bob').firestore();
+    await assertFails(getDoc(doc(bobDB, 'users/alice/medicines/m1')));
+    await assertFails(setDoc(doc(bobDB, 'users/alice/medicines/m1'), { name: 'Hacked' }));
+  });
+});
+
+describe('デバッグユーザーパターン: {uid}_debug_[0-9]+', () => {
+  test('uid=alice は users/alice_debug_1 を read/write できる', async () => {
+    const db = testEnv.authenticatedContext('alice').firestore();
+    await assertSucceeds(setDoc(doc(db, 'users/alice_debug_1'), { name: 'AliceDebug' }));
+    await assertSucceeds(getDoc(doc(db, 'users/alice_debug_1')));
+    // レガシーサブコレクションもデバッグユーザー配下でアクセスできる。
+    await assertSucceeds(setDoc(doc(db, 'users/alice_debug_1/medicines/m1'), { name: '薬' }));
+  });
+
+  test('uid=alice は users/bob_debug_1 を read/write できない', async () => {
+    const db = testEnv.authenticatedContext('alice').firestore();
+    await assertFails(getDoc(doc(db, 'users/bob_debug_1')));
+    await assertFails(setDoc(doc(db, 'users/bob_debug_1'), { name: 'Hacked' }));
+  });
+});

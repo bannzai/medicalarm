@@ -1,0 +1,89 @@
+rules_version = '2';
+
+// 設計方針:
+// JWT (Firebase Auth) の本人認証 + リソース所有 (グループメンバー) 判定のみを行い、
+// データ内容に踏み込んだガード (プレミアム判定・期間判定・フィールド diff 等) は実装しない。
+//
+// 重要 (デプロイ前に必ず確認):
+// medicalarm はこれまで firestore.rules をリポジトリ管理しておらず、本ファイルは
+// 設計ドキュメント (documents/group-feature-design.md) に基づく新規作成である。現行
+// Console 上の rules は未エクスポートのため、デプロイ前にユーザーが `firebase init firestore`
+// 等で Console の現行 rules をダウンロードし、本ファイルとの差分がないことを突き合わせること。
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function isAuth() {
+      return request.auth != null;
+    }
+
+    function isUserAuth(id) {
+      return isAuth() && request.auth.uid == id;
+    }
+
+    // デバッグユーザーID ({uid}_debug_1 等) を実ユーザーが操作できるかチェック。
+    // 1 台の Simulator での複数ユーザー E2E 用 (shoppinglist 踏襲)。
+    function isDebugUserOf(userDocID) {
+      return isAuth() && userDocID.matches(request.auth.uid + '_debug_[0-9]+');
+    }
+
+    function isMember(memberUserIDs) {
+      return isAuth() && request.auth.uid in memberUserIDs;
+    }
+
+    match /users/{userID} {
+      allow read, write: if isUserAuth(userID) || isDebugUserOf(userID);
+
+      // fcmToken / apnsToken / fcmTokens 等の現行データ。
+      match /privates/{privateID} {
+        allow read, write: if isUserAuth(userID) || isDebugUserOf(userID);
+      }
+
+      // グループ移行後も /users/{userID} 配下に残置するレガシーデータ
+      // (medicines / doseReceivers / medicationHistories / diaries)。本人のみアクセス可能。
+      match /{legacyCollection}/{docID} {
+        allow read, write: if isUserAuth(userID) || isDebugUserOf(userID);
+      }
+    }
+
+    // グループ招待: クライアントから直接 read/write しない
+    // (createGroupInvitation / acceptGroupInvitation Function の Admin SDK 経由のみ)。
+    match /groupInvitations/{invitationID} {
+      allow read, write: if false;
+    }
+
+    match /groups/{groupID} {
+      allow read, update, delete: if isMember(resource.data.memberUserIDs);
+      // グループ作成は createGroup Function 経由でのみ許可する。
+      allow create: if false;
+
+      function isGroupMember() {
+        return isMember(get(/databases/$(database)/documents/groups/$(groupID)).data.memberUserIDs);
+      }
+
+      match /userProfiles/{profileID} {
+        allow read, write: if isGroupMember();
+      }
+
+      match /medicines/{medicineID} {
+        allow read, write: if isGroupMember();
+      }
+
+      match /doseReceivers/{doseReceiverID} {
+        allow read, write: if isGroupMember();
+      }
+
+      match /medicationHistories/{historyID} {
+        allow read, write: if isGroupMember();
+      }
+
+      match /diaries/{diaryID} {
+        allow read, write: if isGroupMember();
+      }
+
+      // メンバー個別通知設定。docID = userID だが、共有データと同様にメンバーなら誰でも
+      // read/write 可能とする (端末個人設定だがグループ内で参照する必要があるため)。
+      match /memberNotificationSettings/{memberUserID} {
+        allow read, write: if isGroupMember();
+      }
+    }
+  }
+}
