@@ -7,8 +7,10 @@ import 'package:medicalarm/features/resolver/app_entity_prepare.dart';
 import 'package:medicalarm/features/resolver/app_user.dart';
 import 'package:medicalarm/features/resolver/app_user_create.dart';
 import 'package:medicalarm/features/resolver/auth.dart';
+import 'package:medicalarm/features/resolver/current_group.dart';
 import 'package:medicalarm/features/resolver/database.dart';
 import 'package:medicalarm/features/resolver/force_update.dart';
+import 'package:medicalarm/features/resolver/group_migration.dart';
 import 'package:medicalarm/features/resolver/in_app_review.dart';
 import 'package:medicalarm/features/resolver/purchase_setup.dart';
 import 'package:medicalarm/utils/analytics/analytics.dart';
@@ -36,24 +38,30 @@ class RootPage extends HookConsumerWidget {
                         userID: user.uid,
                         builder: (context) {
                           debugPrint('Resolved: PurchaseSetupResolver');
-                          return AppEntityPrepareResolver(
-                            userID: user.uid,
-                            builder: (context) {
-                              debugPrint('Resolved: AppEntityPrepareResolver');
-                              return PromotionStartResolver(
-                                  appUser: appUser,
-                                  builder: (context) {
-                                    debugPrint('Resolved: PromotionStartResolver');
-                                    return Stack(
-                                      children: [
-                                        const InAppReviewResolver(),
-                                        AppUserStreamResolver(stream: (user) => analyticsDebugIsEnabled = user.analyticsDebugIsEnabled),
-                                        const HomePage(),
-                                      ],
-                                    );
-                                  });
-                            },
-                          );
+                          return GroupMigrationResolver(builder: (context) {
+                            debugPrint('Resolved: GroupMigrationResolver');
+                            return CurrentGroupResolver(builder: (context) {
+                              debugPrint('Resolved: CurrentGroupResolver');
+                              return AppEntityPrepareResolver(
+                                userID: user.uid,
+                                builder: (context) {
+                                  debugPrint('Resolved: AppEntityPrepareResolver');
+                                  return PromotionStartResolver(
+                                      appUser: appUser,
+                                      builder: (context) {
+                                        debugPrint('Resolved: PromotionStartResolver');
+                                        return Stack(
+                                          children: [
+                                            const InAppReviewResolver(),
+                                            AppUserStreamResolver(stream: (user) => analyticsDebugIsEnabled = user.analyticsDebugIsEnabled),
+                                            const HomePage(),
+                                          ],
+                                        );
+                                      });
+                                },
+                              );
+                            });
+                          });
                         },
                       );
                     });

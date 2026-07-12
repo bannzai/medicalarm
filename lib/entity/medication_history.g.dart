@@ -9,6 +9,7 @@ part of 'medication_history.dart';
 _MedicationHistory _$MedicationHistoryFromJson(Map<String, dynamic> json) => _MedicationHistory(
       id: json['id'] as String,
       userID: json['userID'] as String,
+      recordedByUserID: json['recordedByUserID'] as String?,
       medicine: Medicine.fromJson(json['medicine'] as Map<String, dynamic>),
       actionKind: $enumDecode(_$MedicationHistoryActionKindEnumMap, json['actionKind']),
       action: MedicationHistoryAction.fromJson(json['action'] as Map<String, dynamic>),
@@ -25,6 +26,7 @@ _MedicationHistory _$MedicationHistoryFromJson(Map<String, dynamic> json) => _Me
 Map<String, dynamic> _$MedicationHistoryToJson(_MedicationHistory instance) => <String, dynamic>{
       'id': instance.id,
       'userID': instance.userID,
+      'recordedByUserID': instance.recordedByUserID,
       'medicine': instance.medicine.toJson(),
       'actionKind': _$MedicationHistoryActionKindEnumMap[instance.actionKind]!,
       'action': instance.action.toJson(),

@@ -3,7 +3,7 @@
 // ignore_for_file: type=lint
 // ignore_for_file: unused_element, deprecated_member_use, deprecated_member_use_from_same_package, use_function_type_syntax_for_parameters, unnecessary_const, avoid_init_to_null, invalid_override_different_default_values_named, prefer_expression_function_bodies, annotate_overrides, invalid_annotation_target, unnecessary_question_mark
 
-part of 'dose_receiver.dart';
+part of 'group.dart';
 
 // **************************************************************************
 // FreezedGenerator
@@ -13,10 +13,23 @@ part of 'dose_receiver.dart';
 T _$identity<T>(T value) => value;
 
 /// @nodoc
-mixin _$DoseReceiver {
-  String get id; // 作成者(creator)の userID。グループ共有では他メンバーが閲覧することもあるため所有者ではなく作成者を表す。
-  String get userID;
-  String get name;
+mixin _$Group {
+  String get id;
+
+  /// グループに所属するユーザーの AppUser.id の配列。
+  List<String> get memberUserIDs;
+
+  /// グループ名。ソログループは null 許容。ユーザー作成グループは必須。
+  String? get name;
+
+  /// グループを作成したユーザーの AppUser.id。
+  /// NOTE: 既存のグループドキュメントにはこのフィールドが存在しない場合があるため nullable。
+  String? get ownerUserID;
+
+  /// グループに紐づくアイコンの識別子。
+  /// home / family / hospital / medication / elderly / favorite のいずれか。
+  /// 既存ドキュメントにはこのフィールドが存在しないため default で `home` を返す。
+  String get iconName;
   @ClientCreatedTimestamp()
   DateTime? get createdDateTime;
   @ClientUpdatedTimestamp()
@@ -26,23 +39,25 @@ mixin _$DoseReceiver {
   @ServerUpdatedTimestamp()
   DateTime? get serverUpdatedDateTime;
 
-  /// Create a copy of DoseReceiver
+  /// Create a copy of Group
   /// with the given fields replaced by the non-null parameter values.
   @JsonKey(includeFromJson: false, includeToJson: false)
   @pragma('vm:prefer-inline')
-  $DoseReceiverCopyWith<DoseReceiver> get copyWith => _$DoseReceiverCopyWithImpl<DoseReceiver>(this as DoseReceiver, _$identity);
+  $GroupCopyWith<Group> get copyWith => _$GroupCopyWithImpl<Group>(this as Group, _$identity);
 
-  /// Serializes this DoseReceiver to a JSON map.
+  /// Serializes this Group to a JSON map.
   Map<String, dynamic> toJson();
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is DoseReceiver &&
+            other is Group &&
             (identical(other.id, id) || other.id == id) &&
-            (identical(other.userID, userID) || other.userID == userID) &&
+            const DeepCollectionEquality().equals(other.memberUserIDs, memberUserIDs) &&
             (identical(other.name, name) || other.name == name) &&
+            (identical(other.ownerUserID, ownerUserID) || other.ownerUserID == ownerUserID) &&
+            (identical(other.iconName, iconName) || other.iconName == iconName) &&
             (identical(other.createdDateTime, createdDateTime) || other.createdDateTime == createdDateTime) &&
             (identical(other.updatedDateTime, updatedDateTime) || other.updatedDateTime == updatedDateTime) &&
             (identical(other.serverCreatedDateTime, serverCreatedDateTime) || other.serverCreatedDateTime == serverCreatedDateTime) &&
@@ -51,22 +66,25 @@ mixin _$DoseReceiver {
 
   @JsonKey(includeFromJson: false, includeToJson: false)
   @override
-  int get hashCode => Object.hash(runtimeType, id, userID, name, createdDateTime, updatedDateTime, serverCreatedDateTime, serverUpdatedDateTime);
+  int get hashCode => Object.hash(runtimeType, id, const DeepCollectionEquality().hash(memberUserIDs), name, ownerUserID, iconName, createdDateTime,
+      updatedDateTime, serverCreatedDateTime, serverUpdatedDateTime);
 
   @override
   String toString() {
-    return 'DoseReceiver(id: $id, userID: $userID, name: $name, createdDateTime: $createdDateTime, updatedDateTime: $updatedDateTime, serverCreatedDateTime: $serverCreatedDateTime, serverUpdatedDateTime: $serverUpdatedDateTime)';
+    return 'Group(id: $id, memberUserIDs: $memberUserIDs, name: $name, ownerUserID: $ownerUserID, iconName: $iconName, createdDateTime: $createdDateTime, updatedDateTime: $updatedDateTime, serverCreatedDateTime: $serverCreatedDateTime, serverUpdatedDateTime: $serverUpdatedDateTime)';
   }
 }
 
 /// @nodoc
-abstract mixin class $DoseReceiverCopyWith<$Res> {
-  factory $DoseReceiverCopyWith(DoseReceiver value, $Res Function(DoseReceiver) _then) = _$DoseReceiverCopyWithImpl;
+abstract mixin class $GroupCopyWith<$Res> {
+  factory $GroupCopyWith(Group value, $Res Function(Group) _then) = _$GroupCopyWithImpl;
   @useResult
   $Res call(
       {String id,
-      String userID,
-      String name,
+      List<String> memberUserIDs,
+      String? name,
+      String? ownerUserID,
+      String iconName,
       @ClientCreatedTimestamp() DateTime? createdDateTime,
       @ClientUpdatedTimestamp() DateTime? updatedDateTime,
       @ServerCreatedTimestamp() DateTime? serverCreatedDateTime,
@@ -74,20 +92,22 @@ abstract mixin class $DoseReceiverCopyWith<$Res> {
 }
 
 /// @nodoc
-class _$DoseReceiverCopyWithImpl<$Res> implements $DoseReceiverCopyWith<$Res> {
-  _$DoseReceiverCopyWithImpl(this._self, this._then);
+class _$GroupCopyWithImpl<$Res> implements $GroupCopyWith<$Res> {
+  _$GroupCopyWithImpl(this._self, this._then);
 
-  final DoseReceiver _self;
-  final $Res Function(DoseReceiver) _then;
+  final Group _self;
+  final $Res Function(Group) _then;
 
-  /// Create a copy of DoseReceiver
+  /// Create a copy of Group
   /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
     Object? id = null,
-    Object? userID = null,
-    Object? name = null,
+    Object? memberUserIDs = null,
+    Object? name = freezed,
+    Object? ownerUserID = freezed,
+    Object? iconName = null,
     Object? createdDateTime = freezed,
     Object? updatedDateTime = freezed,
     Object? serverCreatedDateTime = freezed,
@@ -98,13 +118,21 @@ class _$DoseReceiverCopyWithImpl<$Res> implements $DoseReceiverCopyWith<$Res> {
           ? _self.id
           : id // ignore: cast_nullable_to_non_nullable
               as String,
-      userID: null == userID
-          ? _self.userID
-          : userID // ignore: cast_nullable_to_non_nullable
-              as String,
-      name: null == name
+      memberUserIDs: null == memberUserIDs
+          ? _self.memberUserIDs
+          : memberUserIDs // ignore: cast_nullable_to_non_nullable
+              as List<String>,
+      name: freezed == name
           ? _self.name
           : name // ignore: cast_nullable_to_non_nullable
+              as String?,
+      ownerUserID: freezed == ownerUserID
+          ? _self.ownerUserID
+          : ownerUserID // ignore: cast_nullable_to_non_nullable
+              as String?,
+      iconName: null == iconName
+          ? _self.iconName
+          : iconName // ignore: cast_nullable_to_non_nullable
               as String,
       createdDateTime: freezed == createdDateTime
           ? _self.createdDateTime
@@ -126,8 +154,8 @@ class _$DoseReceiverCopyWithImpl<$Res> implements $DoseReceiverCopyWith<$Res> {
   }
 }
 
-/// Adds pattern-matching-related methods to [DoseReceiver].
-extension DoseReceiverPatterns on DoseReceiver {
+/// Adds pattern-matching-related methods to [Group].
+extension GroupPatterns on Group {
   /// A variant of `map` that fallback to returning `orElse`.
   ///
   /// It is equivalent to doing:
@@ -142,12 +170,12 @@ extension DoseReceiverPatterns on DoseReceiver {
 
   @optionalTypeArgs
   TResult maybeMap<TResult extends Object?>(
-    TResult Function(_DoseReceiver value)? $default, {
+    TResult Function(_Group value)? $default, {
     required TResult orElse(),
   }) {
     final _that = this;
     switch (_that) {
-      case _DoseReceiver() when $default != null:
+      case _Group() when $default != null:
         return $default(_that);
       case _:
         return orElse();
@@ -169,11 +197,11 @@ extension DoseReceiverPatterns on DoseReceiver {
 
   @optionalTypeArgs
   TResult map<TResult extends Object?>(
-    TResult Function(_DoseReceiver value) $default,
+    TResult Function(_Group value) $default,
   ) {
     final _that = this;
     switch (_that) {
-      case _DoseReceiver():
+      case _Group():
         return $default(_that);
       case _:
         throw StateError('Unexpected subclass');
@@ -194,11 +222,11 @@ extension DoseReceiverPatterns on DoseReceiver {
 
   @optionalTypeArgs
   TResult? mapOrNull<TResult extends Object?>(
-    TResult? Function(_DoseReceiver value)? $default,
+    TResult? Function(_Group value)? $default,
   ) {
     final _that = this;
     switch (_that) {
-      case _DoseReceiver() when $default != null:
+      case _Group() when $default != null:
         return $default(_that);
       case _:
         return null;
@@ -221,8 +249,10 @@ extension DoseReceiverPatterns on DoseReceiver {
   TResult maybeWhen<TResult extends Object?>(
     TResult Function(
             String id,
-            String userID,
-            String name,
+            List<String> memberUserIDs,
+            String? name,
+            String? ownerUserID,
+            String iconName,
             @ClientCreatedTimestamp() DateTime? createdDateTime,
             @ClientUpdatedTimestamp() DateTime? updatedDateTime,
             @ServerCreatedTimestamp() DateTime? serverCreatedDateTime,
@@ -232,9 +262,9 @@ extension DoseReceiverPatterns on DoseReceiver {
   }) {
     final _that = this;
     switch (_that) {
-      case _DoseReceiver() when $default != null:
-        return $default(_that.id, _that.userID, _that.name, _that.createdDateTime, _that.updatedDateTime, _that.serverCreatedDateTime,
-            _that.serverUpdatedDateTime);
+      case _Group() when $default != null:
+        return $default(_that.id, _that.memberUserIDs, _that.name, _that.ownerUserID, _that.iconName, _that.createdDateTime, _that.updatedDateTime,
+            _that.serverCreatedDateTime, _that.serverUpdatedDateTime);
       case _:
         return orElse();
     }
@@ -257,8 +287,10 @@ extension DoseReceiverPatterns on DoseReceiver {
   TResult when<TResult extends Object?>(
     TResult Function(
             String id,
-            String userID,
-            String name,
+            List<String> memberUserIDs,
+            String? name,
+            String? ownerUserID,
+            String iconName,
             @ClientCreatedTimestamp() DateTime? createdDateTime,
             @ClientUpdatedTimestamp() DateTime? updatedDateTime,
             @ServerCreatedTimestamp() DateTime? serverCreatedDateTime,
@@ -267,9 +299,9 @@ extension DoseReceiverPatterns on DoseReceiver {
   ) {
     final _that = this;
     switch (_that) {
-      case _DoseReceiver():
-        return $default(_that.id, _that.userID, _that.name, _that.createdDateTime, _that.updatedDateTime, _that.serverCreatedDateTime,
-            _that.serverUpdatedDateTime);
+      case _Group():
+        return $default(_that.id, _that.memberUserIDs, _that.name, _that.ownerUserID, _that.iconName, _that.createdDateTime, _that.updatedDateTime,
+            _that.serverCreatedDateTime, _that.serverUpdatedDateTime);
       case _:
         throw StateError('Unexpected subclass');
     }
@@ -291,8 +323,10 @@ extension DoseReceiverPatterns on DoseReceiver {
   TResult? whenOrNull<TResult extends Object?>(
     TResult? Function(
             String id,
-            String userID,
-            String name,
+            List<String> memberUserIDs,
+            String? name,
+            String? ownerUserID,
+            String iconName,
             @ClientCreatedTimestamp() DateTime? createdDateTime,
             @ClientUpdatedTimestamp() DateTime? updatedDateTime,
             @ServerCreatedTimestamp() DateTime? serverCreatedDateTime,
@@ -301,9 +335,9 @@ extension DoseReceiverPatterns on DoseReceiver {
   ) {
     final _that = this;
     switch (_that) {
-      case _DoseReceiver() when $default != null:
-        return $default(_that.id, _that.userID, _that.name, _that.createdDateTime, _that.updatedDateTime, _that.serverCreatedDateTime,
-            _that.serverUpdatedDateTime);
+      case _Group() when $default != null:
+        return $default(_that.id, _that.memberUserIDs, _that.name, _that.ownerUserID, _that.iconName, _that.createdDateTime, _that.updatedDateTime,
+            _that.serverCreatedDateTime, _that.serverUpdatedDateTime);
       case _:
         return null;
     }
@@ -313,25 +347,50 @@ extension DoseReceiverPatterns on DoseReceiver {
 /// @nodoc
 
 @JsonSerializable(explicitToJson: true)
-class _DoseReceiver extends DoseReceiver {
-  const _DoseReceiver(
+class _Group extends Group {
+  const _Group(
       {required this.id,
-      required this.userID,
+      required final List<String> memberUserIDs,
       required this.name,
+      required this.ownerUserID,
+      this.iconName = 'home',
       @ClientCreatedTimestamp() this.createdDateTime,
       @ClientUpdatedTimestamp() this.updatedDateTime,
       @ServerCreatedTimestamp() this.serverCreatedDateTime,
       @ServerUpdatedTimestamp() this.serverUpdatedDateTime})
-      : super._();
-  factory _DoseReceiver.fromJson(Map<String, dynamic> json) => _$DoseReceiverFromJson(json);
+      : _memberUserIDs = memberUserIDs,
+        super._();
+  factory _Group.fromJson(Map<String, dynamic> json) => _$GroupFromJson(json);
 
   @override
   final String id;
-// 作成者(creator)の userID。グループ共有では他メンバーが閲覧することもあるため所有者ではなく作成者を表す。
+
+  /// グループに所属するユーザーの AppUser.id の配列。
+  final List<String> _memberUserIDs;
+
+  /// グループに所属するユーザーの AppUser.id の配列。
   @override
-  final String userID;
+  List<String> get memberUserIDs {
+    if (_memberUserIDs is EqualUnmodifiableListView) return _memberUserIDs;
+    // ignore: implicit_dynamic_type
+    return EqualUnmodifiableListView(_memberUserIDs);
+  }
+
+  /// グループ名。ソログループは null 許容。ユーザー作成グループは必須。
   @override
-  final String name;
+  final String? name;
+
+  /// グループを作成したユーザーの AppUser.id。
+  /// NOTE: 既存のグループドキュメントにはこのフィールドが存在しない場合があるため nullable。
+  @override
+  final String? ownerUserID;
+
+  /// グループに紐づくアイコンの識別子。
+  /// home / family / hospital / medication / elderly / favorite のいずれか。
+  /// 既存ドキュメントにはこのフィールドが存在しないため default で `home` を返す。
+  @override
+  @JsonKey()
+  final String iconName;
   @override
   @ClientCreatedTimestamp()
   final DateTime? createdDateTime;
@@ -345,16 +404,16 @@ class _DoseReceiver extends DoseReceiver {
   @ServerUpdatedTimestamp()
   final DateTime? serverUpdatedDateTime;
 
-  /// Create a copy of DoseReceiver
+  /// Create a copy of Group
   /// with the given fields replaced by the non-null parameter values.
   @override
   @JsonKey(includeFromJson: false, includeToJson: false)
   @pragma('vm:prefer-inline')
-  _$DoseReceiverCopyWith<_DoseReceiver> get copyWith => __$DoseReceiverCopyWithImpl<_DoseReceiver>(this, _$identity);
+  _$GroupCopyWith<_Group> get copyWith => __$GroupCopyWithImpl<_Group>(this, _$identity);
 
   @override
   Map<String, dynamic> toJson() {
-    return _$DoseReceiverToJson(
+    return _$GroupToJson(
       this,
     );
   }
@@ -363,10 +422,12 @@ class _DoseReceiver extends DoseReceiver {
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _DoseReceiver &&
+            other is _Group &&
             (identical(other.id, id) || other.id == id) &&
-            (identical(other.userID, userID) || other.userID == userID) &&
+            const DeepCollectionEquality().equals(other._memberUserIDs, _memberUserIDs) &&
             (identical(other.name, name) || other.name == name) &&
+            (identical(other.ownerUserID, ownerUserID) || other.ownerUserID == ownerUserID) &&
+            (identical(other.iconName, iconName) || other.iconName == iconName) &&
             (identical(other.createdDateTime, createdDateTime) || other.createdDateTime == createdDateTime) &&
             (identical(other.updatedDateTime, updatedDateTime) || other.updatedDateTime == updatedDateTime) &&
             (identical(other.serverCreatedDateTime, serverCreatedDateTime) || other.serverCreatedDateTime == serverCreatedDateTime) &&
@@ -375,23 +436,26 @@ class _DoseReceiver extends DoseReceiver {
 
   @JsonKey(includeFromJson: false, includeToJson: false)
   @override
-  int get hashCode => Object.hash(runtimeType, id, userID, name, createdDateTime, updatedDateTime, serverCreatedDateTime, serverUpdatedDateTime);
+  int get hashCode => Object.hash(runtimeType, id, const DeepCollectionEquality().hash(_memberUserIDs), name, ownerUserID, iconName, createdDateTime,
+      updatedDateTime, serverCreatedDateTime, serverUpdatedDateTime);
 
   @override
   String toString() {
-    return 'DoseReceiver(id: $id, userID: $userID, name: $name, createdDateTime: $createdDateTime, updatedDateTime: $updatedDateTime, serverCreatedDateTime: $serverCreatedDateTime, serverUpdatedDateTime: $serverUpdatedDateTime)';
+    return 'Group(id: $id, memberUserIDs: $memberUserIDs, name: $name, ownerUserID: $ownerUserID, iconName: $iconName, createdDateTime: $createdDateTime, updatedDateTime: $updatedDateTime, serverCreatedDateTime: $serverCreatedDateTime, serverUpdatedDateTime: $serverUpdatedDateTime)';
   }
 }
 
 /// @nodoc
-abstract mixin class _$DoseReceiverCopyWith<$Res> implements $DoseReceiverCopyWith<$Res> {
-  factory _$DoseReceiverCopyWith(_DoseReceiver value, $Res Function(_DoseReceiver) _then) = __$DoseReceiverCopyWithImpl;
+abstract mixin class _$GroupCopyWith<$Res> implements $GroupCopyWith<$Res> {
+  factory _$GroupCopyWith(_Group value, $Res Function(_Group) _then) = __$GroupCopyWithImpl;
   @override
   @useResult
   $Res call(
       {String id,
-      String userID,
-      String name,
+      List<String> memberUserIDs,
+      String? name,
+      String? ownerUserID,
+      String iconName,
       @ClientCreatedTimestamp() DateTime? createdDateTime,
       @ClientUpdatedTimestamp() DateTime? updatedDateTime,
       @ServerCreatedTimestamp() DateTime? serverCreatedDateTime,
@@ -399,37 +463,47 @@ abstract mixin class _$DoseReceiverCopyWith<$Res> implements $DoseReceiverCopyWi
 }
 
 /// @nodoc
-class __$DoseReceiverCopyWithImpl<$Res> implements _$DoseReceiverCopyWith<$Res> {
-  __$DoseReceiverCopyWithImpl(this._self, this._then);
+class __$GroupCopyWithImpl<$Res> implements _$GroupCopyWith<$Res> {
+  __$GroupCopyWithImpl(this._self, this._then);
 
-  final _DoseReceiver _self;
-  final $Res Function(_DoseReceiver) _then;
+  final _Group _self;
+  final $Res Function(_Group) _then;
 
-  /// Create a copy of DoseReceiver
+  /// Create a copy of Group
   /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
   $Res call({
     Object? id = null,
-    Object? userID = null,
-    Object? name = null,
+    Object? memberUserIDs = null,
+    Object? name = freezed,
+    Object? ownerUserID = freezed,
+    Object? iconName = null,
     Object? createdDateTime = freezed,
     Object? updatedDateTime = freezed,
     Object? serverCreatedDateTime = freezed,
     Object? serverUpdatedDateTime = freezed,
   }) {
-    return _then(_DoseReceiver(
+    return _then(_Group(
       id: null == id
           ? _self.id
           : id // ignore: cast_nullable_to_non_nullable
               as String,
-      userID: null == userID
-          ? _self.userID
-          : userID // ignore: cast_nullable_to_non_nullable
-              as String,
-      name: null == name
+      memberUserIDs: null == memberUserIDs
+          ? _self._memberUserIDs
+          : memberUserIDs // ignore: cast_nullable_to_non_nullable
+              as List<String>,
+      name: freezed == name
           ? _self.name
           : name // ignore: cast_nullable_to_non_nullable
+              as String?,
+      ownerUserID: freezed == ownerUserID
+          ? _self.ownerUserID
+          : ownerUserID // ignore: cast_nullable_to_non_nullable
+              as String?,
+      iconName: null == iconName
+          ? _self.iconName
+          : iconName // ignore: cast_nullable_to_non_nullable
               as String,
       createdDateTime: freezed == createdDateTime
           ? _self.createdDateTime

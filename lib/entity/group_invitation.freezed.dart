@@ -3,7 +3,7 @@
 // ignore_for_file: type=lint
 // ignore_for_file: unused_element, deprecated_member_use, deprecated_member_use_from_same_package, use_function_type_syntax_for_parameters, unnecessary_const, avoid_init_to_null, invalid_override_different_default_values_named, prefer_expression_function_bodies, annotate_overrides, invalid_annotation_target, unnecessary_question_mark
 
-part of 'dose_receiver.dart';
+part of 'group_invitation.dart';
 
 // **************************************************************************
 // FreezedGenerator
@@ -13,10 +13,20 @@ part of 'dose_receiver.dart';
 T _$identity<T>(T value) => value;
 
 /// @nodoc
-mixin _$DoseReceiver {
-  String get id; // 作成者(creator)の userID。グループ共有では他メンバーが閲覧することもあるため所有者ではなく作成者を表す。
-  String get userID;
-  String get name;
+mixin _$GroupInvitation {
+  String get id;
+  String get groupID;
+
+  /// 招待コードを発行したユーザーの AppUser.id。
+  String get inviterUserID;
+
+  /// 被招待者が入力する招待コード。
+  String get invitationCode;
+  GroupInvitationStatus get status;
+
+  /// 招待コードの有効期限。
+  @NullableTimestampConverter()
+  DateTime? get expiresDateTime;
   @ClientCreatedTimestamp()
   DateTime? get createdDateTime;
   @ClientUpdatedTimestamp()
@@ -26,23 +36,26 @@ mixin _$DoseReceiver {
   @ServerUpdatedTimestamp()
   DateTime? get serverUpdatedDateTime;
 
-  /// Create a copy of DoseReceiver
+  /// Create a copy of GroupInvitation
   /// with the given fields replaced by the non-null parameter values.
   @JsonKey(includeFromJson: false, includeToJson: false)
   @pragma('vm:prefer-inline')
-  $DoseReceiverCopyWith<DoseReceiver> get copyWith => _$DoseReceiverCopyWithImpl<DoseReceiver>(this as DoseReceiver, _$identity);
+  $GroupInvitationCopyWith<GroupInvitation> get copyWith => _$GroupInvitationCopyWithImpl<GroupInvitation>(this as GroupInvitation, _$identity);
 
-  /// Serializes this DoseReceiver to a JSON map.
+  /// Serializes this GroupInvitation to a JSON map.
   Map<String, dynamic> toJson();
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is DoseReceiver &&
+            other is GroupInvitation &&
             (identical(other.id, id) || other.id == id) &&
-            (identical(other.userID, userID) || other.userID == userID) &&
-            (identical(other.name, name) || other.name == name) &&
+            (identical(other.groupID, groupID) || other.groupID == groupID) &&
+            (identical(other.inviterUserID, inviterUserID) || other.inviterUserID == inviterUserID) &&
+            (identical(other.invitationCode, invitationCode) || other.invitationCode == invitationCode) &&
+            (identical(other.status, status) || other.status == status) &&
+            (identical(other.expiresDateTime, expiresDateTime) || other.expiresDateTime == expiresDateTime) &&
             (identical(other.createdDateTime, createdDateTime) || other.createdDateTime == createdDateTime) &&
             (identical(other.updatedDateTime, updatedDateTime) || other.updatedDateTime == updatedDateTime) &&
             (identical(other.serverCreatedDateTime, serverCreatedDateTime) || other.serverCreatedDateTime == serverCreatedDateTime) &&
@@ -51,22 +64,26 @@ mixin _$DoseReceiver {
 
   @JsonKey(includeFromJson: false, includeToJson: false)
   @override
-  int get hashCode => Object.hash(runtimeType, id, userID, name, createdDateTime, updatedDateTime, serverCreatedDateTime, serverUpdatedDateTime);
+  int get hashCode => Object.hash(runtimeType, id, groupID, inviterUserID, invitationCode, status, expiresDateTime, createdDateTime, updatedDateTime,
+      serverCreatedDateTime, serverUpdatedDateTime);
 
   @override
   String toString() {
-    return 'DoseReceiver(id: $id, userID: $userID, name: $name, createdDateTime: $createdDateTime, updatedDateTime: $updatedDateTime, serverCreatedDateTime: $serverCreatedDateTime, serverUpdatedDateTime: $serverUpdatedDateTime)';
+    return 'GroupInvitation(id: $id, groupID: $groupID, inviterUserID: $inviterUserID, invitationCode: $invitationCode, status: $status, expiresDateTime: $expiresDateTime, createdDateTime: $createdDateTime, updatedDateTime: $updatedDateTime, serverCreatedDateTime: $serverCreatedDateTime, serverUpdatedDateTime: $serverUpdatedDateTime)';
   }
 }
 
 /// @nodoc
-abstract mixin class $DoseReceiverCopyWith<$Res> {
-  factory $DoseReceiverCopyWith(DoseReceiver value, $Res Function(DoseReceiver) _then) = _$DoseReceiverCopyWithImpl;
+abstract mixin class $GroupInvitationCopyWith<$Res> {
+  factory $GroupInvitationCopyWith(GroupInvitation value, $Res Function(GroupInvitation) _then) = _$GroupInvitationCopyWithImpl;
   @useResult
   $Res call(
       {String id,
-      String userID,
-      String name,
+      String groupID,
+      String inviterUserID,
+      String invitationCode,
+      GroupInvitationStatus status,
+      @NullableTimestampConverter() DateTime? expiresDateTime,
       @ClientCreatedTimestamp() DateTime? createdDateTime,
       @ClientUpdatedTimestamp() DateTime? updatedDateTime,
       @ServerCreatedTimestamp() DateTime? serverCreatedDateTime,
@@ -74,20 +91,23 @@ abstract mixin class $DoseReceiverCopyWith<$Res> {
 }
 
 /// @nodoc
-class _$DoseReceiverCopyWithImpl<$Res> implements $DoseReceiverCopyWith<$Res> {
-  _$DoseReceiverCopyWithImpl(this._self, this._then);
+class _$GroupInvitationCopyWithImpl<$Res> implements $GroupInvitationCopyWith<$Res> {
+  _$GroupInvitationCopyWithImpl(this._self, this._then);
 
-  final DoseReceiver _self;
-  final $Res Function(DoseReceiver) _then;
+  final GroupInvitation _self;
+  final $Res Function(GroupInvitation) _then;
 
-  /// Create a copy of DoseReceiver
+  /// Create a copy of GroupInvitation
   /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
     Object? id = null,
-    Object? userID = null,
-    Object? name = null,
+    Object? groupID = null,
+    Object? inviterUserID = null,
+    Object? invitationCode = null,
+    Object? status = null,
+    Object? expiresDateTime = freezed,
     Object? createdDateTime = freezed,
     Object? updatedDateTime = freezed,
     Object? serverCreatedDateTime = freezed,
@@ -98,14 +118,26 @@ class _$DoseReceiverCopyWithImpl<$Res> implements $DoseReceiverCopyWith<$Res> {
           ? _self.id
           : id // ignore: cast_nullable_to_non_nullable
               as String,
-      userID: null == userID
-          ? _self.userID
-          : userID // ignore: cast_nullable_to_non_nullable
+      groupID: null == groupID
+          ? _self.groupID
+          : groupID // ignore: cast_nullable_to_non_nullable
               as String,
-      name: null == name
-          ? _self.name
-          : name // ignore: cast_nullable_to_non_nullable
+      inviterUserID: null == inviterUserID
+          ? _self.inviterUserID
+          : inviterUserID // ignore: cast_nullable_to_non_nullable
               as String,
+      invitationCode: null == invitationCode
+          ? _self.invitationCode
+          : invitationCode // ignore: cast_nullable_to_non_nullable
+              as String,
+      status: null == status
+          ? _self.status
+          : status // ignore: cast_nullable_to_non_nullable
+              as GroupInvitationStatus,
+      expiresDateTime: freezed == expiresDateTime
+          ? _self.expiresDateTime
+          : expiresDateTime // ignore: cast_nullable_to_non_nullable
+              as DateTime?,
       createdDateTime: freezed == createdDateTime
           ? _self.createdDateTime
           : createdDateTime // ignore: cast_nullable_to_non_nullable
@@ -126,8 +158,8 @@ class _$DoseReceiverCopyWithImpl<$Res> implements $DoseReceiverCopyWith<$Res> {
   }
 }
 
-/// Adds pattern-matching-related methods to [DoseReceiver].
-extension DoseReceiverPatterns on DoseReceiver {
+/// Adds pattern-matching-related methods to [GroupInvitation].
+extension GroupInvitationPatterns on GroupInvitation {
   /// A variant of `map` that fallback to returning `orElse`.
   ///
   /// It is equivalent to doing:
@@ -142,12 +174,12 @@ extension DoseReceiverPatterns on DoseReceiver {
 
   @optionalTypeArgs
   TResult maybeMap<TResult extends Object?>(
-    TResult Function(_DoseReceiver value)? $default, {
+    TResult Function(_GroupInvitation value)? $default, {
     required TResult orElse(),
   }) {
     final _that = this;
     switch (_that) {
-      case _DoseReceiver() when $default != null:
+      case _GroupInvitation() when $default != null:
         return $default(_that);
       case _:
         return orElse();
@@ -169,11 +201,11 @@ extension DoseReceiverPatterns on DoseReceiver {
 
   @optionalTypeArgs
   TResult map<TResult extends Object?>(
-    TResult Function(_DoseReceiver value) $default,
+    TResult Function(_GroupInvitation value) $default,
   ) {
     final _that = this;
     switch (_that) {
-      case _DoseReceiver():
+      case _GroupInvitation():
         return $default(_that);
       case _:
         throw StateError('Unexpected subclass');
@@ -194,11 +226,11 @@ extension DoseReceiverPatterns on DoseReceiver {
 
   @optionalTypeArgs
   TResult? mapOrNull<TResult extends Object?>(
-    TResult? Function(_DoseReceiver value)? $default,
+    TResult? Function(_GroupInvitation value)? $default,
   ) {
     final _that = this;
     switch (_that) {
-      case _DoseReceiver() when $default != null:
+      case _GroupInvitation() when $default != null:
         return $default(_that);
       case _:
         return null;
@@ -221,8 +253,11 @@ extension DoseReceiverPatterns on DoseReceiver {
   TResult maybeWhen<TResult extends Object?>(
     TResult Function(
             String id,
-            String userID,
-            String name,
+            String groupID,
+            String inviterUserID,
+            String invitationCode,
+            GroupInvitationStatus status,
+            @NullableTimestampConverter() DateTime? expiresDateTime,
             @ClientCreatedTimestamp() DateTime? createdDateTime,
             @ClientUpdatedTimestamp() DateTime? updatedDateTime,
             @ServerCreatedTimestamp() DateTime? serverCreatedDateTime,
@@ -232,9 +267,9 @@ extension DoseReceiverPatterns on DoseReceiver {
   }) {
     final _that = this;
     switch (_that) {
-      case _DoseReceiver() when $default != null:
-        return $default(_that.id, _that.userID, _that.name, _that.createdDateTime, _that.updatedDateTime, _that.serverCreatedDateTime,
-            _that.serverUpdatedDateTime);
+      case _GroupInvitation() when $default != null:
+        return $default(_that.id, _that.groupID, _that.inviterUserID, _that.invitationCode, _that.status, _that.expiresDateTime,
+            _that.createdDateTime, _that.updatedDateTime, _that.serverCreatedDateTime, _that.serverUpdatedDateTime);
       case _:
         return orElse();
     }
@@ -257,8 +292,11 @@ extension DoseReceiverPatterns on DoseReceiver {
   TResult when<TResult extends Object?>(
     TResult Function(
             String id,
-            String userID,
-            String name,
+            String groupID,
+            String inviterUserID,
+            String invitationCode,
+            GroupInvitationStatus status,
+            @NullableTimestampConverter() DateTime? expiresDateTime,
             @ClientCreatedTimestamp() DateTime? createdDateTime,
             @ClientUpdatedTimestamp() DateTime? updatedDateTime,
             @ServerCreatedTimestamp() DateTime? serverCreatedDateTime,
@@ -267,9 +305,9 @@ extension DoseReceiverPatterns on DoseReceiver {
   ) {
     final _that = this;
     switch (_that) {
-      case _DoseReceiver():
-        return $default(_that.id, _that.userID, _that.name, _that.createdDateTime, _that.updatedDateTime, _that.serverCreatedDateTime,
-            _that.serverUpdatedDateTime);
+      case _GroupInvitation():
+        return $default(_that.id, _that.groupID, _that.inviterUserID, _that.invitationCode, _that.status, _that.expiresDateTime,
+            _that.createdDateTime, _that.updatedDateTime, _that.serverCreatedDateTime, _that.serverUpdatedDateTime);
       case _:
         throw StateError('Unexpected subclass');
     }
@@ -291,8 +329,11 @@ extension DoseReceiverPatterns on DoseReceiver {
   TResult? whenOrNull<TResult extends Object?>(
     TResult? Function(
             String id,
-            String userID,
-            String name,
+            String groupID,
+            String inviterUserID,
+            String invitationCode,
+            GroupInvitationStatus status,
+            @NullableTimestampConverter() DateTime? expiresDateTime,
             @ClientCreatedTimestamp() DateTime? createdDateTime,
             @ClientUpdatedTimestamp() DateTime? updatedDateTime,
             @ServerCreatedTimestamp() DateTime? serverCreatedDateTime,
@@ -301,9 +342,9 @@ extension DoseReceiverPatterns on DoseReceiver {
   ) {
     final _that = this;
     switch (_that) {
-      case _DoseReceiver() when $default != null:
-        return $default(_that.id, _that.userID, _that.name, _that.createdDateTime, _that.updatedDateTime, _that.serverCreatedDateTime,
-            _that.serverUpdatedDateTime);
+      case _GroupInvitation() when $default != null:
+        return $default(_that.id, _that.groupID, _that.inviterUserID, _that.invitationCode, _that.status, _that.expiresDateTime,
+            _that.createdDateTime, _that.updatedDateTime, _that.serverCreatedDateTime, _that.serverUpdatedDateTime);
       case _:
         return null;
     }
@@ -313,25 +354,40 @@ extension DoseReceiverPatterns on DoseReceiver {
 /// @nodoc
 
 @JsonSerializable(explicitToJson: true)
-class _DoseReceiver extends DoseReceiver {
-  const _DoseReceiver(
+class _GroupInvitation extends GroupInvitation {
+  const _GroupInvitation(
       {required this.id,
-      required this.userID,
-      required this.name,
+      required this.groupID,
+      required this.inviterUserID,
+      required this.invitationCode,
+      required this.status,
+      @NullableTimestampConverter() this.expiresDateTime,
       @ClientCreatedTimestamp() this.createdDateTime,
       @ClientUpdatedTimestamp() this.updatedDateTime,
       @ServerCreatedTimestamp() this.serverCreatedDateTime,
       @ServerUpdatedTimestamp() this.serverUpdatedDateTime})
       : super._();
-  factory _DoseReceiver.fromJson(Map<String, dynamic> json) => _$DoseReceiverFromJson(json);
+  factory _GroupInvitation.fromJson(Map<String, dynamic> json) => _$GroupInvitationFromJson(json);
 
   @override
   final String id;
-// 作成者(creator)の userID。グループ共有では他メンバーが閲覧することもあるため所有者ではなく作成者を表す。
   @override
-  final String userID;
+  final String groupID;
+
+  /// 招待コードを発行したユーザーの AppUser.id。
   @override
-  final String name;
+  final String inviterUserID;
+
+  /// 被招待者が入力する招待コード。
+  @override
+  final String invitationCode;
+  @override
+  final GroupInvitationStatus status;
+
+  /// 招待コードの有効期限。
+  @override
+  @NullableTimestampConverter()
+  final DateTime? expiresDateTime;
   @override
   @ClientCreatedTimestamp()
   final DateTime? createdDateTime;
@@ -345,16 +401,16 @@ class _DoseReceiver extends DoseReceiver {
   @ServerUpdatedTimestamp()
   final DateTime? serverUpdatedDateTime;
 
-  /// Create a copy of DoseReceiver
+  /// Create a copy of GroupInvitation
   /// with the given fields replaced by the non-null parameter values.
   @override
   @JsonKey(includeFromJson: false, includeToJson: false)
   @pragma('vm:prefer-inline')
-  _$DoseReceiverCopyWith<_DoseReceiver> get copyWith => __$DoseReceiverCopyWithImpl<_DoseReceiver>(this, _$identity);
+  _$GroupInvitationCopyWith<_GroupInvitation> get copyWith => __$GroupInvitationCopyWithImpl<_GroupInvitation>(this, _$identity);
 
   @override
   Map<String, dynamic> toJson() {
-    return _$DoseReceiverToJson(
+    return _$GroupInvitationToJson(
       this,
     );
   }
@@ -363,10 +419,13 @@ class _DoseReceiver extends DoseReceiver {
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _DoseReceiver &&
+            other is _GroupInvitation &&
             (identical(other.id, id) || other.id == id) &&
-            (identical(other.userID, userID) || other.userID == userID) &&
-            (identical(other.name, name) || other.name == name) &&
+            (identical(other.groupID, groupID) || other.groupID == groupID) &&
+            (identical(other.inviterUserID, inviterUserID) || other.inviterUserID == inviterUserID) &&
+            (identical(other.invitationCode, invitationCode) || other.invitationCode == invitationCode) &&
+            (identical(other.status, status) || other.status == status) &&
+            (identical(other.expiresDateTime, expiresDateTime) || other.expiresDateTime == expiresDateTime) &&
             (identical(other.createdDateTime, createdDateTime) || other.createdDateTime == createdDateTime) &&
             (identical(other.updatedDateTime, updatedDateTime) || other.updatedDateTime == updatedDateTime) &&
             (identical(other.serverCreatedDateTime, serverCreatedDateTime) || other.serverCreatedDateTime == serverCreatedDateTime) &&
@@ -375,23 +434,27 @@ class _DoseReceiver extends DoseReceiver {
 
   @JsonKey(includeFromJson: false, includeToJson: false)
   @override
-  int get hashCode => Object.hash(runtimeType, id, userID, name, createdDateTime, updatedDateTime, serverCreatedDateTime, serverUpdatedDateTime);
+  int get hashCode => Object.hash(runtimeType, id, groupID, inviterUserID, invitationCode, status, expiresDateTime, createdDateTime, updatedDateTime,
+      serverCreatedDateTime, serverUpdatedDateTime);
 
   @override
   String toString() {
-    return 'DoseReceiver(id: $id, userID: $userID, name: $name, createdDateTime: $createdDateTime, updatedDateTime: $updatedDateTime, serverCreatedDateTime: $serverCreatedDateTime, serverUpdatedDateTime: $serverUpdatedDateTime)';
+    return 'GroupInvitation(id: $id, groupID: $groupID, inviterUserID: $inviterUserID, invitationCode: $invitationCode, status: $status, expiresDateTime: $expiresDateTime, createdDateTime: $createdDateTime, updatedDateTime: $updatedDateTime, serverCreatedDateTime: $serverCreatedDateTime, serverUpdatedDateTime: $serverUpdatedDateTime)';
   }
 }
 
 /// @nodoc
-abstract mixin class _$DoseReceiverCopyWith<$Res> implements $DoseReceiverCopyWith<$Res> {
-  factory _$DoseReceiverCopyWith(_DoseReceiver value, $Res Function(_DoseReceiver) _then) = __$DoseReceiverCopyWithImpl;
+abstract mixin class _$GroupInvitationCopyWith<$Res> implements $GroupInvitationCopyWith<$Res> {
+  factory _$GroupInvitationCopyWith(_GroupInvitation value, $Res Function(_GroupInvitation) _then) = __$GroupInvitationCopyWithImpl;
   @override
   @useResult
   $Res call(
       {String id,
-      String userID,
-      String name,
+      String groupID,
+      String inviterUserID,
+      String invitationCode,
+      GroupInvitationStatus status,
+      @NullableTimestampConverter() DateTime? expiresDateTime,
       @ClientCreatedTimestamp() DateTime? createdDateTime,
       @ClientUpdatedTimestamp() DateTime? updatedDateTime,
       @ServerCreatedTimestamp() DateTime? serverCreatedDateTime,
@@ -399,38 +462,53 @@ abstract mixin class _$DoseReceiverCopyWith<$Res> implements $DoseReceiverCopyWi
 }
 
 /// @nodoc
-class __$DoseReceiverCopyWithImpl<$Res> implements _$DoseReceiverCopyWith<$Res> {
-  __$DoseReceiverCopyWithImpl(this._self, this._then);
+class __$GroupInvitationCopyWithImpl<$Res> implements _$GroupInvitationCopyWith<$Res> {
+  __$GroupInvitationCopyWithImpl(this._self, this._then);
 
-  final _DoseReceiver _self;
-  final $Res Function(_DoseReceiver) _then;
+  final _GroupInvitation _self;
+  final $Res Function(_GroupInvitation) _then;
 
-  /// Create a copy of DoseReceiver
+  /// Create a copy of GroupInvitation
   /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
   $Res call({
     Object? id = null,
-    Object? userID = null,
-    Object? name = null,
+    Object? groupID = null,
+    Object? inviterUserID = null,
+    Object? invitationCode = null,
+    Object? status = null,
+    Object? expiresDateTime = freezed,
     Object? createdDateTime = freezed,
     Object? updatedDateTime = freezed,
     Object? serverCreatedDateTime = freezed,
     Object? serverUpdatedDateTime = freezed,
   }) {
-    return _then(_DoseReceiver(
+    return _then(_GroupInvitation(
       id: null == id
           ? _self.id
           : id // ignore: cast_nullable_to_non_nullable
               as String,
-      userID: null == userID
-          ? _self.userID
-          : userID // ignore: cast_nullable_to_non_nullable
+      groupID: null == groupID
+          ? _self.groupID
+          : groupID // ignore: cast_nullable_to_non_nullable
               as String,
-      name: null == name
-          ? _self.name
-          : name // ignore: cast_nullable_to_non_nullable
+      inviterUserID: null == inviterUserID
+          ? _self.inviterUserID
+          : inviterUserID // ignore: cast_nullable_to_non_nullable
               as String,
+      invitationCode: null == invitationCode
+          ? _self.invitationCode
+          : invitationCode // ignore: cast_nullable_to_non_nullable
+              as String,
+      status: null == status
+          ? _self.status
+          : status // ignore: cast_nullable_to_non_nullable
+              as GroupInvitationStatus,
+      expiresDateTime: freezed == expiresDateTime
+          ? _self.expiresDateTime
+          : expiresDateTime // ignore: cast_nullable_to_non_nullable
+              as DateTime?,
       createdDateTime: freezed == createdDateTime
           ? _self.createdDateTime
           : createdDateTime // ignore: cast_nullable_to_non_nullable

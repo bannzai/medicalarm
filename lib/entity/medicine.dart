@@ -19,6 +19,7 @@ abstract class Medicine with _$Medicine {
   @JsonSerializable(explicitToJson: true)
   const factory Medicine({
     required String id,
+    // 作成者(creator)の userID。グループ共有では他メンバーが閲覧・記録することもあるため所有者ではなく作成者を表す。
     required String userID,
     required String name,
     required MedicationFrequency frequency,

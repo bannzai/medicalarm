@@ -45,9 +45,8 @@ class MedicineFormPage extends HookConsumerWidget {
     final doseReceiver = useState<DoseReceiver>(medicine?.doseReceiver ?? DoseReceiver.firstUser(userID: userID));
 
     // MedicinePauseTile 等で編集中に外部から更新された pausedDateTime を保存処理に取り込むため、activeMedicinesProvider から最新の Medicine を解決する
-    final currentMedicine = medicine == null
-        ? null
-        : ref.watch(activeMedicinesProvider).valueOrNull?.firstWhereOrNull((m) => m.id == medicine!.id) ?? medicine;
+    final currentMedicine =
+        medicine == null ? null : ref.watch(activeMedicinesProvider).valueOrNull?.firstWhereOrNull((m) => m.id == medicine!.id) ?? medicine;
 
     final medicineAdd = ref.watch(medicineAddProvider);
     final medicineUpdate = ref.watch(medicineUpdateProvider);

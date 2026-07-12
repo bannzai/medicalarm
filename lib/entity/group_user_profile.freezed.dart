@@ -3,7 +3,7 @@
 // ignore_for_file: type=lint
 // ignore_for_file: unused_element, deprecated_member_use, deprecated_member_use_from_same_package, use_function_type_syntax_for_parameters, unnecessary_const, avoid_init_to_null, invalid_override_different_default_values_named, prefer_expression_function_bodies, annotate_overrides, invalid_annotation_target, unnecessary_question_mark
 
-part of 'dose_receiver.dart';
+part of 'group_user_profile.dart';
 
 // **************************************************************************
 // FreezedGenerator
@@ -13,10 +13,13 @@ part of 'dose_receiver.dart';
 T _$identity<T>(T value) => value;
 
 /// @nodoc
-mixin _$DoseReceiver {
-  String get id; // 作成者(creator)の userID。グループ共有では他メンバーが閲覧することもあるため所有者ではなく作成者を表す。
+mixin _$GroupUserProfile {
+  String get id;
+  String get groupID;
   String get userID;
-  String get name;
+
+  /// グループ内での表示名。
+  String? get displayName;
   @ClientCreatedTimestamp()
   DateTime? get createdDateTime;
   @ClientUpdatedTimestamp()
@@ -26,23 +29,24 @@ mixin _$DoseReceiver {
   @ServerUpdatedTimestamp()
   DateTime? get serverUpdatedDateTime;
 
-  /// Create a copy of DoseReceiver
+  /// Create a copy of GroupUserProfile
   /// with the given fields replaced by the non-null parameter values.
   @JsonKey(includeFromJson: false, includeToJson: false)
   @pragma('vm:prefer-inline')
-  $DoseReceiverCopyWith<DoseReceiver> get copyWith => _$DoseReceiverCopyWithImpl<DoseReceiver>(this as DoseReceiver, _$identity);
+  $GroupUserProfileCopyWith<GroupUserProfile> get copyWith => _$GroupUserProfileCopyWithImpl<GroupUserProfile>(this as GroupUserProfile, _$identity);
 
-  /// Serializes this DoseReceiver to a JSON map.
+  /// Serializes this GroupUserProfile to a JSON map.
   Map<String, dynamic> toJson();
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is DoseReceiver &&
+            other is GroupUserProfile &&
             (identical(other.id, id) || other.id == id) &&
+            (identical(other.groupID, groupID) || other.groupID == groupID) &&
             (identical(other.userID, userID) || other.userID == userID) &&
-            (identical(other.name, name) || other.name == name) &&
+            (identical(other.displayName, displayName) || other.displayName == displayName) &&
             (identical(other.createdDateTime, createdDateTime) || other.createdDateTime == createdDateTime) &&
             (identical(other.updatedDateTime, updatedDateTime) || other.updatedDateTime == updatedDateTime) &&
             (identical(other.serverCreatedDateTime, serverCreatedDateTime) || other.serverCreatedDateTime == serverCreatedDateTime) &&
@@ -51,22 +55,24 @@ mixin _$DoseReceiver {
 
   @JsonKey(includeFromJson: false, includeToJson: false)
   @override
-  int get hashCode => Object.hash(runtimeType, id, userID, name, createdDateTime, updatedDateTime, serverCreatedDateTime, serverUpdatedDateTime);
+  int get hashCode =>
+      Object.hash(runtimeType, id, groupID, userID, displayName, createdDateTime, updatedDateTime, serverCreatedDateTime, serverUpdatedDateTime);
 
   @override
   String toString() {
-    return 'DoseReceiver(id: $id, userID: $userID, name: $name, createdDateTime: $createdDateTime, updatedDateTime: $updatedDateTime, serverCreatedDateTime: $serverCreatedDateTime, serverUpdatedDateTime: $serverUpdatedDateTime)';
+    return 'GroupUserProfile(id: $id, groupID: $groupID, userID: $userID, displayName: $displayName, createdDateTime: $createdDateTime, updatedDateTime: $updatedDateTime, serverCreatedDateTime: $serverCreatedDateTime, serverUpdatedDateTime: $serverUpdatedDateTime)';
   }
 }
 
 /// @nodoc
-abstract mixin class $DoseReceiverCopyWith<$Res> {
-  factory $DoseReceiverCopyWith(DoseReceiver value, $Res Function(DoseReceiver) _then) = _$DoseReceiverCopyWithImpl;
+abstract mixin class $GroupUserProfileCopyWith<$Res> {
+  factory $GroupUserProfileCopyWith(GroupUserProfile value, $Res Function(GroupUserProfile) _then) = _$GroupUserProfileCopyWithImpl;
   @useResult
   $Res call(
       {String id,
+      String groupID,
       String userID,
-      String name,
+      String? displayName,
       @ClientCreatedTimestamp() DateTime? createdDateTime,
       @ClientUpdatedTimestamp() DateTime? updatedDateTime,
       @ServerCreatedTimestamp() DateTime? serverCreatedDateTime,
@@ -74,20 +80,21 @@ abstract mixin class $DoseReceiverCopyWith<$Res> {
 }
 
 /// @nodoc
-class _$DoseReceiverCopyWithImpl<$Res> implements $DoseReceiverCopyWith<$Res> {
-  _$DoseReceiverCopyWithImpl(this._self, this._then);
+class _$GroupUserProfileCopyWithImpl<$Res> implements $GroupUserProfileCopyWith<$Res> {
+  _$GroupUserProfileCopyWithImpl(this._self, this._then);
 
-  final DoseReceiver _self;
-  final $Res Function(DoseReceiver) _then;
+  final GroupUserProfile _self;
+  final $Res Function(GroupUserProfile) _then;
 
-  /// Create a copy of DoseReceiver
+  /// Create a copy of GroupUserProfile
   /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
     Object? id = null,
+    Object? groupID = null,
     Object? userID = null,
-    Object? name = null,
+    Object? displayName = freezed,
     Object? createdDateTime = freezed,
     Object? updatedDateTime = freezed,
     Object? serverCreatedDateTime = freezed,
@@ -98,14 +105,18 @@ class _$DoseReceiverCopyWithImpl<$Res> implements $DoseReceiverCopyWith<$Res> {
           ? _self.id
           : id // ignore: cast_nullable_to_non_nullable
               as String,
+      groupID: null == groupID
+          ? _self.groupID
+          : groupID // ignore: cast_nullable_to_non_nullable
+              as String,
       userID: null == userID
           ? _self.userID
           : userID // ignore: cast_nullable_to_non_nullable
               as String,
-      name: null == name
-          ? _self.name
-          : name // ignore: cast_nullable_to_non_nullable
-              as String,
+      displayName: freezed == displayName
+          ? _self.displayName
+          : displayName // ignore: cast_nullable_to_non_nullable
+              as String?,
       createdDateTime: freezed == createdDateTime
           ? _self.createdDateTime
           : createdDateTime // ignore: cast_nullable_to_non_nullable
@@ -126,8 +137,8 @@ class _$DoseReceiverCopyWithImpl<$Res> implements $DoseReceiverCopyWith<$Res> {
   }
 }
 
-/// Adds pattern-matching-related methods to [DoseReceiver].
-extension DoseReceiverPatterns on DoseReceiver {
+/// Adds pattern-matching-related methods to [GroupUserProfile].
+extension GroupUserProfilePatterns on GroupUserProfile {
   /// A variant of `map` that fallback to returning `orElse`.
   ///
   /// It is equivalent to doing:
@@ -142,12 +153,12 @@ extension DoseReceiverPatterns on DoseReceiver {
 
   @optionalTypeArgs
   TResult maybeMap<TResult extends Object?>(
-    TResult Function(_DoseReceiver value)? $default, {
+    TResult Function(_GroupUserProfile value)? $default, {
     required TResult orElse(),
   }) {
     final _that = this;
     switch (_that) {
-      case _DoseReceiver() when $default != null:
+      case _GroupUserProfile() when $default != null:
         return $default(_that);
       case _:
         return orElse();
@@ -169,11 +180,11 @@ extension DoseReceiverPatterns on DoseReceiver {
 
   @optionalTypeArgs
   TResult map<TResult extends Object?>(
-    TResult Function(_DoseReceiver value) $default,
+    TResult Function(_GroupUserProfile value) $default,
   ) {
     final _that = this;
     switch (_that) {
-      case _DoseReceiver():
+      case _GroupUserProfile():
         return $default(_that);
       case _:
         throw StateError('Unexpected subclass');
@@ -194,11 +205,11 @@ extension DoseReceiverPatterns on DoseReceiver {
 
   @optionalTypeArgs
   TResult? mapOrNull<TResult extends Object?>(
-    TResult? Function(_DoseReceiver value)? $default,
+    TResult? Function(_GroupUserProfile value)? $default,
   ) {
     final _that = this;
     switch (_that) {
-      case _DoseReceiver() when $default != null:
+      case _GroupUserProfile() when $default != null:
         return $default(_that);
       case _:
         return null;
@@ -221,8 +232,9 @@ extension DoseReceiverPatterns on DoseReceiver {
   TResult maybeWhen<TResult extends Object?>(
     TResult Function(
             String id,
+            String groupID,
             String userID,
-            String name,
+            String? displayName,
             @ClientCreatedTimestamp() DateTime? createdDateTime,
             @ClientUpdatedTimestamp() DateTime? updatedDateTime,
             @ServerCreatedTimestamp() DateTime? serverCreatedDateTime,
@@ -232,9 +244,9 @@ extension DoseReceiverPatterns on DoseReceiver {
   }) {
     final _that = this;
     switch (_that) {
-      case _DoseReceiver() when $default != null:
-        return $default(_that.id, _that.userID, _that.name, _that.createdDateTime, _that.updatedDateTime, _that.serverCreatedDateTime,
-            _that.serverUpdatedDateTime);
+      case _GroupUserProfile() when $default != null:
+        return $default(_that.id, _that.groupID, _that.userID, _that.displayName, _that.createdDateTime, _that.updatedDateTime,
+            _that.serverCreatedDateTime, _that.serverUpdatedDateTime);
       case _:
         return orElse();
     }
@@ -257,8 +269,9 @@ extension DoseReceiverPatterns on DoseReceiver {
   TResult when<TResult extends Object?>(
     TResult Function(
             String id,
+            String groupID,
             String userID,
-            String name,
+            String? displayName,
             @ClientCreatedTimestamp() DateTime? createdDateTime,
             @ClientUpdatedTimestamp() DateTime? updatedDateTime,
             @ServerCreatedTimestamp() DateTime? serverCreatedDateTime,
@@ -267,9 +280,9 @@ extension DoseReceiverPatterns on DoseReceiver {
   ) {
     final _that = this;
     switch (_that) {
-      case _DoseReceiver():
-        return $default(_that.id, _that.userID, _that.name, _that.createdDateTime, _that.updatedDateTime, _that.serverCreatedDateTime,
-            _that.serverUpdatedDateTime);
+      case _GroupUserProfile():
+        return $default(_that.id, _that.groupID, _that.userID, _that.displayName, _that.createdDateTime, _that.updatedDateTime,
+            _that.serverCreatedDateTime, _that.serverUpdatedDateTime);
       case _:
         throw StateError('Unexpected subclass');
     }
@@ -291,8 +304,9 @@ extension DoseReceiverPatterns on DoseReceiver {
   TResult? whenOrNull<TResult extends Object?>(
     TResult? Function(
             String id,
+            String groupID,
             String userID,
-            String name,
+            String? displayName,
             @ClientCreatedTimestamp() DateTime? createdDateTime,
             @ClientUpdatedTimestamp() DateTime? updatedDateTime,
             @ServerCreatedTimestamp() DateTime? serverCreatedDateTime,
@@ -301,9 +315,9 @@ extension DoseReceiverPatterns on DoseReceiver {
   ) {
     final _that = this;
     switch (_that) {
-      case _DoseReceiver() when $default != null:
-        return $default(_that.id, _that.userID, _that.name, _that.createdDateTime, _that.updatedDateTime, _that.serverCreatedDateTime,
-            _that.serverUpdatedDateTime);
+      case _GroupUserProfile() when $default != null:
+        return $default(_that.id, _that.groupID, _that.userID, _that.displayName, _that.createdDateTime, _that.updatedDateTime,
+            _that.serverCreatedDateTime, _that.serverUpdatedDateTime);
       case _:
         return null;
     }
@@ -313,25 +327,29 @@ extension DoseReceiverPatterns on DoseReceiver {
 /// @nodoc
 
 @JsonSerializable(explicitToJson: true)
-class _DoseReceiver extends DoseReceiver {
-  const _DoseReceiver(
+class _GroupUserProfile extends GroupUserProfile {
+  const _GroupUserProfile(
       {required this.id,
+      required this.groupID,
       required this.userID,
-      required this.name,
+      required this.displayName,
       @ClientCreatedTimestamp() this.createdDateTime,
       @ClientUpdatedTimestamp() this.updatedDateTime,
       @ServerCreatedTimestamp() this.serverCreatedDateTime,
       @ServerUpdatedTimestamp() this.serverUpdatedDateTime})
       : super._();
-  factory _DoseReceiver.fromJson(Map<String, dynamic> json) => _$DoseReceiverFromJson(json);
+  factory _GroupUserProfile.fromJson(Map<String, dynamic> json) => _$GroupUserProfileFromJson(json);
 
   @override
   final String id;
-// 作成者(creator)の userID。グループ共有では他メンバーが閲覧することもあるため所有者ではなく作成者を表す。
+  @override
+  final String groupID;
   @override
   final String userID;
+
+  /// グループ内での表示名。
   @override
-  final String name;
+  final String? displayName;
   @override
   @ClientCreatedTimestamp()
   final DateTime? createdDateTime;
@@ -345,16 +363,16 @@ class _DoseReceiver extends DoseReceiver {
   @ServerUpdatedTimestamp()
   final DateTime? serverUpdatedDateTime;
 
-  /// Create a copy of DoseReceiver
+  /// Create a copy of GroupUserProfile
   /// with the given fields replaced by the non-null parameter values.
   @override
   @JsonKey(includeFromJson: false, includeToJson: false)
   @pragma('vm:prefer-inline')
-  _$DoseReceiverCopyWith<_DoseReceiver> get copyWith => __$DoseReceiverCopyWithImpl<_DoseReceiver>(this, _$identity);
+  _$GroupUserProfileCopyWith<_GroupUserProfile> get copyWith => __$GroupUserProfileCopyWithImpl<_GroupUserProfile>(this, _$identity);
 
   @override
   Map<String, dynamic> toJson() {
-    return _$DoseReceiverToJson(
+    return _$GroupUserProfileToJson(
       this,
     );
   }
@@ -363,10 +381,11 @@ class _DoseReceiver extends DoseReceiver {
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _DoseReceiver &&
+            other is _GroupUserProfile &&
             (identical(other.id, id) || other.id == id) &&
+            (identical(other.groupID, groupID) || other.groupID == groupID) &&
             (identical(other.userID, userID) || other.userID == userID) &&
-            (identical(other.name, name) || other.name == name) &&
+            (identical(other.displayName, displayName) || other.displayName == displayName) &&
             (identical(other.createdDateTime, createdDateTime) || other.createdDateTime == createdDateTime) &&
             (identical(other.updatedDateTime, updatedDateTime) || other.updatedDateTime == updatedDateTime) &&
             (identical(other.serverCreatedDateTime, serverCreatedDateTime) || other.serverCreatedDateTime == serverCreatedDateTime) &&
@@ -375,23 +394,25 @@ class _DoseReceiver extends DoseReceiver {
 
   @JsonKey(includeFromJson: false, includeToJson: false)
   @override
-  int get hashCode => Object.hash(runtimeType, id, userID, name, createdDateTime, updatedDateTime, serverCreatedDateTime, serverUpdatedDateTime);
+  int get hashCode =>
+      Object.hash(runtimeType, id, groupID, userID, displayName, createdDateTime, updatedDateTime, serverCreatedDateTime, serverUpdatedDateTime);
 
   @override
   String toString() {
-    return 'DoseReceiver(id: $id, userID: $userID, name: $name, createdDateTime: $createdDateTime, updatedDateTime: $updatedDateTime, serverCreatedDateTime: $serverCreatedDateTime, serverUpdatedDateTime: $serverUpdatedDateTime)';
+    return 'GroupUserProfile(id: $id, groupID: $groupID, userID: $userID, displayName: $displayName, createdDateTime: $createdDateTime, updatedDateTime: $updatedDateTime, serverCreatedDateTime: $serverCreatedDateTime, serverUpdatedDateTime: $serverUpdatedDateTime)';
   }
 }
 
 /// @nodoc
-abstract mixin class _$DoseReceiverCopyWith<$Res> implements $DoseReceiverCopyWith<$Res> {
-  factory _$DoseReceiverCopyWith(_DoseReceiver value, $Res Function(_DoseReceiver) _then) = __$DoseReceiverCopyWithImpl;
+abstract mixin class _$GroupUserProfileCopyWith<$Res> implements $GroupUserProfileCopyWith<$Res> {
+  factory _$GroupUserProfileCopyWith(_GroupUserProfile value, $Res Function(_GroupUserProfile) _then) = __$GroupUserProfileCopyWithImpl;
   @override
   @useResult
   $Res call(
       {String id,
+      String groupID,
       String userID,
-      String name,
+      String? displayName,
       @ClientCreatedTimestamp() DateTime? createdDateTime,
       @ClientUpdatedTimestamp() DateTime? updatedDateTime,
       @ServerCreatedTimestamp() DateTime? serverCreatedDateTime,
@@ -399,38 +420,43 @@ abstract mixin class _$DoseReceiverCopyWith<$Res> implements $DoseReceiverCopyWi
 }
 
 /// @nodoc
-class __$DoseReceiverCopyWithImpl<$Res> implements _$DoseReceiverCopyWith<$Res> {
-  __$DoseReceiverCopyWithImpl(this._self, this._then);
+class __$GroupUserProfileCopyWithImpl<$Res> implements _$GroupUserProfileCopyWith<$Res> {
+  __$GroupUserProfileCopyWithImpl(this._self, this._then);
 
-  final _DoseReceiver _self;
-  final $Res Function(_DoseReceiver) _then;
+  final _GroupUserProfile _self;
+  final $Res Function(_GroupUserProfile) _then;
 
-  /// Create a copy of DoseReceiver
+  /// Create a copy of GroupUserProfile
   /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
   $Res call({
     Object? id = null,
+    Object? groupID = null,
     Object? userID = null,
-    Object? name = null,
+    Object? displayName = freezed,
     Object? createdDateTime = freezed,
     Object? updatedDateTime = freezed,
     Object? serverCreatedDateTime = freezed,
     Object? serverUpdatedDateTime = freezed,
   }) {
-    return _then(_DoseReceiver(
+    return _then(_GroupUserProfile(
       id: null == id
           ? _self.id
           : id // ignore: cast_nullable_to_non_nullable
+              as String,
+      groupID: null == groupID
+          ? _self.groupID
+          : groupID // ignore: cast_nullable_to_non_nullable
               as String,
       userID: null == userID
           ? _self.userID
           : userID // ignore: cast_nullable_to_non_nullable
               as String,
-      name: null == name
-          ? _self.name
-          : name // ignore: cast_nullable_to_non_nullable
-              as String,
+      displayName: freezed == displayName
+          ? _self.displayName
+          : displayName // ignore: cast_nullable_to_non_nullable
+              as String?,
       createdDateTime: freezed == createdDateTime
           ? _self.createdDateTime
           : createdDateTime // ignore: cast_nullable_to_non_nullable

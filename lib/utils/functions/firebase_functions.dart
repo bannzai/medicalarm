@@ -15,6 +15,44 @@ extension FirebaseFunctionsExt on FirebaseFunctions {
     }
     return response['data']['isAlreadyExist'] as bool;
   }
+
+  // グループを作成する。auth uid をサーバー側で使用するため createUserID は渡さない。
+  // iconName は home / family / hospital / medication / elderly / favorite のいずれか。戻り値は作成されたグループの ID。
+  Future<String> createGroup({required String? name, required bool setAsDefault, required String iconName}) async {
+    final result = await httpsCallable('createGroup').call({
+      'name': name,
+      'setAsDefault': setAsDefault,
+      'iconName': iconName,
+    });
+    final response = mapToJSON(result.data);
+    if (response['result'] != 'OK') {
+      throw Exception(response['error']['message']);
+    }
+    return response['data']['groupID'] as String;
+  }
+
+  // 招待コードと有効期限を発行する。expiresDateTime は Functions が ISO8601 文字列で返す。
+  Future<({String invitationCode, DateTime expiresDateTime})> createGroupInvitation({required String groupID}) async {
+    final result = await httpsCallable('createGroupInvitation').call({'groupID': groupID});
+    final response = mapToJSON(result.data);
+    if (response['result'] != 'OK') {
+      throw Exception(response['error']['message']);
+    }
+    return (
+      invitationCode: response['data']['invitationCode'] as String,
+      expiresDateTime: DateTime.parse(response['data']['expiresDateTime'] as String),
+    );
+  }
+
+  // 招待コードを使ってグループに参加する。戻り値は参加したグループの ID。
+  Future<String> acceptGroupInvitation({required String invitationCode}) async {
+    final result = await httpsCallable('acceptGroupInvitation').call({'invitationCode': invitationCode});
+    final response = mapToJSON(result.data);
+    if (response['result'] != 'OK') {
+      throw Exception(response['error']['message']);
+    }
+    return response['data']['groupID'] as String;
+  }
 }
 
 // Map<String, dynamic>.fromだけだとネストした子要素が_Map<Object? Object?>のままになる

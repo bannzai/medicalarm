@@ -2,6 +2,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:medicalarm/entity/medication_history.dart';
 import 'package:medicalarm/entity/medicine.dart';
 import 'package:medicalarm/features/resolver/database.dart';
+import 'package:medicalarm/provider/app_user.dart';
 import 'package:medicalarm/utils/alarm_kit_service.dart';
 import 'package:medicalarm/utils/analytics/analytics.dart';
 import 'package:medicalarm/utils/analytics/error.dart';
@@ -10,15 +11,15 @@ import 'package:riverpod_annotation/riverpod_annotation.dart';
 
 part 'medication_history.g.dart';
 
-@Riverpod(dependencies: [userDatabase])
+@Riverpod(dependencies: [currentGroupDatabase])
 Stream<List<MedicationHistory>> medicationHistories(MedicationHistoriesRef ref) {
-  final database = ref.watch(userDatabaseProvider);
+  final database = ref.watch(currentGroupDatabaseProvider);
   return database.medicationHistoriesReference().snapshots().map((event) => event.docs.map((doc) => doc.data()).toList());
 }
 
-@Riverpod(dependencies: [userDatabase])
+@Riverpod(dependencies: [currentGroupDatabase])
 Stream<List<MedicationHistory>> medicationHistoriesByDate(MedicationHistoriesRef ref, DateTime date) {
-  final database = ref.watch(userDatabaseProvider);
+  final database = ref.watch(currentGroupDatabaseProvider);
   return database
       .medicationHistoriesReference()
       .where(
@@ -31,9 +32,11 @@ Stream<List<MedicationHistory>> medicationHistoriesByDate(MedicationHistoriesRef
 }
 
 class MedicationHistoryTake {
-  final UserDatabase database;
+  final GroupDatabase database;
+  // 記録者(自分)の uid。userID(作成者) と recordedByUserID(記録者) の両方に設定する。
+  final String userID;
 
-  MedicationHistoryTake(this.database);
+  MedicationHistoryTake({required this.database, required this.userID});
 
   Future<MedicationHistory> call({
     required MedicationHistory? medicationHistory,
@@ -47,7 +50,8 @@ class MedicationHistoryTake {
     final newMedicationHistory = medicationHistory ??
         MedicationHistory(
           id: docRef.id,
-          userID: database.userID,
+          userID: userID,
+          recordedByUserID: userID,
           medicine: medicine,
           actionKind: MedicationHistoryActionKind.take,
           action: MedicationHistoryAction.take(
@@ -80,13 +84,13 @@ class MedicationHistoryTake {
   }
 }
 
-@Riverpod(dependencies: [userDatabase])
+@Riverpod(dependencies: [currentGroupDatabase, appUserID])
 MedicationHistoryTake medicationHistoryTake(MedicationHistoryTakeRef ref) {
-  return MedicationHistoryTake(ref.watch(userDatabaseProvider));
+  return MedicationHistoryTake(database: ref.watch(currentGroupDatabaseProvider), userID: ref.watch(appUserIDProvider));
 }
 
 class MedicationHistoryDelete {
-  final UserDatabase database;
+  final GroupDatabase database;
 
   MedicationHistoryDelete(this.database);
 
@@ -95,13 +99,13 @@ class MedicationHistoryDelete {
   }
 }
 
-@Riverpod(dependencies: [userDatabase])
+@Riverpod(dependencies: [currentGroupDatabase])
 MedicationHistoryDelete medicationHistoryDelete(MedicationHistoryDeleteRef ref) {
-  return MedicationHistoryDelete(ref.watch(userDatabaseProvider));
+  return MedicationHistoryDelete(ref.watch(currentGroupDatabaseProvider));
 }
 
 class MedicationHistoryMemoUpdate {
-  final UserDatabase database;
+  final GroupDatabase database;
 
   MedicationHistoryMemoUpdate(this.database);
 
@@ -113,7 +117,7 @@ class MedicationHistoryMemoUpdate {
   }
 }
 
-@Riverpod(dependencies: [userDatabase])
+@Riverpod(dependencies: [currentGroupDatabase])
 MedicationHistoryMemoUpdate medicationHistoryMemoUpdate(MedicationHistoryMemoUpdateRef ref) {
-  return MedicationHistoryMemoUpdate(ref.watch(userDatabaseProvider));
+  return MedicationHistoryMemoUpdate(ref.watch(currentGroupDatabaseProvider));
 }

@@ -12,7 +12,10 @@ abstract class MedicationHistory with _$MedicationHistory {
   @JsonSerializable(explicitToJson: true)
   const factory MedicationHistory({
     required String id,
+    // 作成者(creator)の userID。グループ共有では記録した本人とは限らないため recordedByUserID を別途持つ。
     required String userID,
+    // この記録を実際に行ったユーザーの uid。旧データには存在しないため nullable。新規記録では userID と同じ値が入る。
+    String? recordedByUserID,
     required Medicine medicine,
     required MedicationHistoryActionKind actionKind,
     required MedicationHistoryAction action,

@@ -35,7 +35,12 @@ class RegisterRemotePushNotificationToken {
 
   Future<void> call({required String? fcmToken, required String? apnsToken}) {
     return database.userPrivateRawReference().set(
-      {'fcmToken': fcmToken, 'apnsToken': apnsToken},
+      {
+        'fcmToken': fcmToken,
+        'apnsToken': apnsToken,
+        // グループ内の複数端末へ push するため、Functions は fcmTokens[] を参照する。arrayUnion で重複なく追記する。
+        if (fcmToken != null) 'fcmTokens': FieldValue.arrayUnion([fcmToken]),
+      },
       SetOptions(merge: true),
     );
   }
