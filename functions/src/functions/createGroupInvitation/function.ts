@@ -1,6 +1,6 @@
 import { logger } from "firebase-functions";
 import { onCall } from "firebase-functions/v2/https";
-import { firestore } from "firebase-admin";
+import { FieldValue, Timestamp } from "firebase-admin/firestore";
 import * as crypto from "crypto";
 import { database } from "../../core/database";
 import { OnCallResponse } from "../../core/response";
@@ -98,8 +98,8 @@ async function createGroupInvitationHandler(req: {
       };
     }
 
-    const expiresDateTime = firestore.Timestamp.fromMillis(
-      firestore.Timestamp.now().toMillis() + day * INVITATION_EXPIRY_DAYS
+    const expiresDateTime = Timestamp.fromMillis(
+      Timestamp.now().toMillis() + day * INVITATION_EXPIRY_DAYS
     );
 
     const invitationRef = database.collection("groupInvitations").doc();
@@ -110,10 +110,10 @@ async function createGroupInvitationHandler(req: {
       invitationCode,
       status: "pending",
       expiresDateTime,
-      createdDateTime: firestore.FieldValue.serverTimestamp(),
-      updatedDateTime: firestore.FieldValue.serverTimestamp(),
-      serverCreatedDateTime: firestore.FieldValue.serverTimestamp(),
-      serverUpdatedDateTime: firestore.FieldValue.serverTimestamp(),
+      createdDateTime: FieldValue.serverTimestamp(),
+      updatedDateTime: FieldValue.serverTimestamp(),
+      serverCreatedDateTime: FieldValue.serverTimestamp(),
+      serverUpdatedDateTime: FieldValue.serverTimestamp(),
     });
 
     logger.info(

@@ -1,6 +1,6 @@
 import { logger } from "firebase-functions";
 import { onCall } from "firebase-functions/v2/https";
-import { firestore } from "firebase-admin";
+import { FieldValue } from "firebase-admin/firestore";
 import { database } from "../../core/database";
 import { OnCallResponse } from "../../core/response";
 import {
@@ -118,10 +118,10 @@ async function createGroupHandler(req: {
             memberUserIDs: [uid],
             name: normalizedName?.length ? normalizedName : null,
             iconName,
-            createdDateTime: firestore.FieldValue.serverTimestamp(),
-            updatedDateTime: firestore.FieldValue.serverTimestamp(),
-            serverCreatedDateTime: firestore.FieldValue.serverTimestamp(),
-            serverUpdatedDateTime: firestore.FieldValue.serverTimestamp(),
+            createdDateTime: FieldValue.serverTimestamp(),
+            updatedDateTime: FieldValue.serverTimestamp(),
+            serverCreatedDateTime: FieldValue.serverTimestamp(),
+            serverUpdatedDateTime: FieldValue.serverTimestamp(),
           },
           { merge: true }
         );
@@ -133,10 +133,10 @@ async function createGroupHandler(req: {
             groupID: groupRef.id,
             userID: uid,
             displayName: null,
-            createdDateTime: firestore.FieldValue.serverTimestamp(),
-            updatedDateTime: firestore.FieldValue.serverTimestamp(),
-            serverCreatedDateTime: firestore.FieldValue.serverTimestamp(),
-            serverUpdatedDateTime: firestore.FieldValue.serverTimestamp(),
+            createdDateTime: FieldValue.serverTimestamp(),
+            updatedDateTime: FieldValue.serverTimestamp(),
+            serverCreatedDateTime: FieldValue.serverTimestamp(),
+            serverUpdatedDateTime: FieldValue.serverTimestamp(),
           },
           { merge: true }
         );
@@ -146,7 +146,7 @@ async function createGroupHandler(req: {
             userRef,
             {
               defaultGroupID: groupRef.id,
-              serverUpdatedDateTime: firestore.FieldValue.serverTimestamp(),
+              serverUpdatedDateTime: FieldValue.serverTimestamp(),
             },
             { merge: true }
           );

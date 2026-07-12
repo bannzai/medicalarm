@@ -1,6 +1,6 @@
 import { logger } from "firebase-functions";
 import { onCall } from "firebase-functions/v2/https";
-import { firestore } from "firebase-admin";
+import { FieldValue } from "firebase-admin/firestore";
 import { database } from "../../core/database";
 import { OnCallResponse } from "../../core/response";
 import { groupUserProfileDocumentID } from "../../entity/group_user_profile";
@@ -58,8 +58,8 @@ async function acceptGroupInvitationHandler(req: {
     if (expiresDateTime && expiresDateTime < new Date()) {
       await invitationDoc.ref.update({
         status: "expired",
-        updatedDateTime: firestore.FieldValue.serverTimestamp(),
-        serverUpdatedDateTime: firestore.FieldValue.serverTimestamp(),
+        updatedDateTime: FieldValue.serverTimestamp(),
+        serverUpdatedDateTime: FieldValue.serverTimestamp(),
       });
       return {
         result: "NG",
@@ -97,14 +97,14 @@ async function acceptGroupInvitationHandler(req: {
       }
 
       transaction.update(groupRef, {
-        memberUserIDs: firestore.FieldValue.arrayUnion(uid),
-        updatedDateTime: firestore.FieldValue.serverTimestamp(),
-        serverUpdatedDateTime: firestore.FieldValue.serverTimestamp(),
+        memberUserIDs: FieldValue.arrayUnion(uid),
+        updatedDateTime: FieldValue.serverTimestamp(),
+        serverUpdatedDateTime: FieldValue.serverTimestamp(),
       });
       transaction.update(invitationDoc.ref, {
         status: "accepted",
-        updatedDateTime: firestore.FieldValue.serverTimestamp(),
-        serverUpdatedDateTime: firestore.FieldValue.serverTimestamp(),
+        updatedDateTime: FieldValue.serverTimestamp(),
+        serverUpdatedDateTime: FieldValue.serverTimestamp(),
       });
 
       // 参加ユーザーのプロフィールを作成。displayName はグループ設定 UI で本人が編集する。
@@ -114,10 +114,10 @@ async function acceptGroupInvitationHandler(req: {
         groupID,
         userID: uid,
         displayName: null,
-        createdDateTime: firestore.FieldValue.serverTimestamp(),
-        updatedDateTime: firestore.FieldValue.serverTimestamp(),
-        serverCreatedDateTime: firestore.FieldValue.serverTimestamp(),
-        serverUpdatedDateTime: firestore.FieldValue.serverTimestamp(),
+        createdDateTime: FieldValue.serverTimestamp(),
+        updatedDateTime: FieldValue.serverTimestamp(),
+        serverCreatedDateTime: FieldValue.serverTimestamp(),
+        serverUpdatedDateTime: FieldValue.serverTimestamp(),
       });
 
       return true;

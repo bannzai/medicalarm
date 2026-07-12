@@ -1,6 +1,7 @@
 import { logger } from "firebase-functions";
 import { onCall } from "firebase-functions/v2/https";
-import { firestore, messaging } from "firebase-admin";
+import { messaging } from "firebase-admin";
+import { FieldValue } from "firebase-admin/firestore";
 import { database } from "../../core/database";
 import { OnCallResponse } from "../../core/response";
 import { groupUserProfileDocumentID } from "../../entity/group_user_profile";
@@ -152,9 +153,9 @@ async function sendMedicationRecordNotificationHandler(req: {
           .collection("privates")
           .doc(userID)
           .update({
-            fcmTokens: firestore.FieldValue.arrayRemove(...tokens),
-            updatedDateTime: firestore.FieldValue.serverTimestamp(),
-            serverUpdatedDateTime: firestore.FieldValue.serverTimestamp(),
+            fcmTokens: FieldValue.arrayRemove(...tokens),
+            updatedDateTime: FieldValue.serverTimestamp(),
+            serverUpdatedDateTime: FieldValue.serverTimestamp(),
           });
       })
     );

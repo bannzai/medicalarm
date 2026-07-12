@@ -1,6 +1,6 @@
 import { logger } from "firebase-functions";
 import { onCall } from "firebase-functions/v2/https";
-import { firestore } from "firebase-admin";
+import { FieldValue, Timestamp } from "firebase-admin/firestore";
 import { database } from "../../core/database";
 import { OnCallResponse } from "../../core/response";
 import { groupUserProfileDocumentID } from "../../entity/group_user_profile";
@@ -9,7 +9,7 @@ import { groupUserProfileDocumentID } from "../../entity/group_user_profile";
 interface GroupData {
   memberUserIDs?: string[];
   ownerUserID?: string | null;
-  createdDateTime?: firestore.Timestamp;
+  createdDateTime?: Timestamp;
 }
 
 /**
@@ -130,9 +130,9 @@ async function removeGroupMemberHandler(req: {
       }
 
       transaction.update(groupRef, {
-        memberUserIDs: firestore.FieldValue.arrayRemove(targetUserID),
-        updatedDateTime: firestore.FieldValue.serverTimestamp(),
-        serverUpdatedDateTime: firestore.FieldValue.serverTimestamp(),
+        memberUserIDs: FieldValue.arrayRemove(targetUserID),
+        updatedDateTime: FieldValue.serverTimestamp(),
+        serverUpdatedDateTime: FieldValue.serverTimestamp(),
       });
 
       // 対象ユーザーのプロフィールを削除
@@ -146,8 +146,8 @@ async function removeGroupMemberHandler(req: {
       if (shouldReassignDefault) {
         transaction.update(userRef, {
           defaultGroupID: reassignedGroupID,
-          updatedDateTime: firestore.FieldValue.serverTimestamp(),
-          serverUpdatedDateTime: firestore.FieldValue.serverTimestamp(),
+          updatedDateTime: FieldValue.serverTimestamp(),
+          serverUpdatedDateTime: FieldValue.serverTimestamp(),
         });
       }
     });

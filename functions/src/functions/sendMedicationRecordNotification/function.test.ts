@@ -27,6 +27,10 @@ jest.mock("firebase-admin", () => ({
   messaging: mockMessaging,
 }));
 
+jest.mock("firebase-admin/firestore", () => ({
+  FieldValue: mockFirestore.FieldValue,
+}));
+
 jest.mock("firebase-functions/v2/https", () => ({
   onCall: (_opts: unknown, handler: unknown) => handler,
 }));

@@ -23,6 +23,10 @@ const mockFirestore = Object.assign(jest.fn(() => mockFirestoreInstance), {
 
 jest.mock("firebase-admin", () => ({ firestore: mockFirestore }));
 
+jest.mock("firebase-admin/firestore", () => ({
+  FieldValue: { serverTimestamp: jest.fn(() => "SERVER_TIMESTAMP") },
+}));
+
 jest.mock("firebase-functions/v2/https", () => ({
   onCall: (_opts: unknown, handler: unknown) => handler,
 }));
