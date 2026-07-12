@@ -2,6 +2,7 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:medicalarm/components/button/inquiry.dart';
 import 'package:medicalarm/components/button/user_delete.dart';
+import 'package:medicalarm/features/account_link/tiles.dart';
 import 'package:medicalarm/features/group_list/page.dart';
 import 'package:medicalarm/features/settings/components/local_notifications.dart';
 import 'package:medicalarm/features/settings/components/premium_introduction.dart';
@@ -44,6 +45,9 @@ class SettingPage extends StatelessWidget {
                   );
                 },
               ),
+            ]),
+            SettingSectionTitle(text: L.accountLink, children: const [
+              AccountLinkTiles(),
             ]),
             SettingSectionTitle(text: L.aboutApp, children: [
               ListTile(

@@ -6,6 +6,7 @@ import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:intl/intl.dart';
 import 'package:medicalarm/components/admob/admob.dart';
+import 'package:medicalarm/components/banner/account_link_banner.dart';
 import 'package:medicalarm/components/calendar/weekly/pager.dart';
 import 'package:medicalarm/components/fab/layout.dart';
 import 'package:medicalarm/components/loading/indicator.dart';
@@ -126,6 +127,7 @@ class MedicationsPageBody extends HookConsumerWidget {
               Column(
                 children: [
                   const GroupChipsBar(),
+                  const AccountLinkBanner(),
                   WeeklyCalendarPager(date: date, pageController: pageController),
                   const Divider(
                     height: 1,

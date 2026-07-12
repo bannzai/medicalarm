@@ -951,5 +951,37 @@
         "example": "Taro"
       }
     }
+  },
+  "accountLink": "Account transfer",
+  "@accountLink": {
+    "description": "設定画面・シートのアカウント引き継ぎセクションのタイトル"
+  },
+  "accountLinkDescription": "Link your Apple or Google account to keep your data when you change devices or reinstall the app.",
+  "@accountLinkDescription": {
+    "description": "アカウント引き継ぎシートの説明文"
+  },
+  "linkWithApple": "Transfer with Apple",
+  "@linkWithApple": {
+    "description": "Apple アカウントとリンクする行のラベル"
+  },
+  "linkWithGoogle": "Transfer with Google",
+  "@linkWithGoogle": {
+    "description": "Google アカウントとリンクする行のラベル"
+  },
+  "accountLinkedWithApple": "Linked with Apple",
+  "@accountLinkedWithApple": {
+    "description": "Apple アカウントとリンク済みの場合に表示するラベル"
+  },
+  "accountLinkedWithGoogle": "Linked with Google",
+  "@accountLinkedWithGoogle": {
+    "description": "Google アカウントとリンク済みの場合に表示するラベル"
+  },
+  "accountLinkedSnackbar": "Your account has been linked",
+  "@accountLinkedSnackbar": {
+    "description": "アカウント引き継ぎ(リンク)成功時に表示する SnackBar"
+  },
+  "accountLinkBannerText": "We strongly recommend setting up account transfer while sharing with a group",
+  "@accountLinkBannerText": {
+    "description": "グループ共有中かつ未リンクのときにホーム上部へ表示する推奨バナーの文言"
   }
 }

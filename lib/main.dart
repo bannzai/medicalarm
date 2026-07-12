@@ -5,6 +5,7 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_crashlytics/firebase_crashlytics.dart';
 import 'package:flutter/material.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
+import 'package:google_sign_in/google_sign_in.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:intl/intl.dart';
 import 'package:medicalarm/features/root/page.dart';
@@ -27,6 +28,15 @@ void main() async {
       Firebase.initializeApp(),
     ).wait;
     FirebaseAuth.instance.setSettings(userAccessGroup: 'TQPN82UBBY.com.bannzai.medicalarm');
+
+    // google_sign_in v7 は利用前に一度だけ initialize() が必要。
+    // GoogleService-Info.plist の CLIENT_ID / GIDClientID 未設定の環境でもアプリ起動を妨げないよう握りつぶす
+    // (Google リンク実行時に authenticate() 側で改めてエラー表示される)。
+    try {
+      await GoogleSignIn.instance.initialize();
+    } catch (e) {
+      debugPrint('GoogleSignIn.initialize failed: $e');
+    }
 
     // フォアグラウンドでの FCM 受信(服薬記録 push 等)を SnackBar 表示するハンドラを起動する
     fcmNotificationHandler.initialize();

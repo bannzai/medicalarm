@@ -1015,5 +1015,37 @@
         "example": "たろう"
       }
     }
+  },
+  "accountLink": "アカウント引き継ぎ",
+  "@accountLink": {
+    "description": "設定画面・シートのアカウント引き継ぎセクションのタイトル"
+  },
+  "accountLinkDescription": "Apple または Google と連携すると、機種変更やアプリの再インストール後もデータを引き継げます。",
+  "@accountLinkDescription": {
+    "description": "アカウント引き継ぎシートの説明文"
+  },
+  "linkWithApple": "Apple でアカウントを引き継ぐ",
+  "@linkWithApple": {
+    "description": "Apple アカウントとリンクする行のラベル"
+  },
+  "linkWithGoogle": "Google でアカウントを引き継ぐ",
+  "@linkWithGoogle": {
+    "description": "Google アカウントとリンクする行のラベル"
+  },
+  "accountLinkedWithApple": "Apple 連携済み",
+  "@accountLinkedWithApple": {
+    "description": "Apple アカウントとリンク済みの場合に表示するラベル"
+  },
+  "accountLinkedWithGoogle": "Google 連携済み",
+  "@accountLinkedWithGoogle": {
+    "description": "Google アカウントとリンク済みの場合に表示するラベル"
+  },
+  "accountLinkedSnackbar": "アカウントを引き継ぎました",
+  "@accountLinkedSnackbar": {
+    "description": "アカウント引き継ぎ(リンク)成功時に表示する SnackBar"
+  },
+  "accountLinkBannerText": "グループ共有中はアカウント引き継ぎ設定を強くおすすめします",
+  "@accountLinkBannerText": {
+    "description": "グループ共有中かつ未リンクのときにホーム上部へ表示する推奨バナーの文言"
   }
 }

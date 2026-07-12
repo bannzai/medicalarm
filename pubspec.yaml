@@ -78,6 +78,12 @@ dependencies:
   flutter_local_notifications: ^19.1.0
   app_links: ^6.4.0
 
+  # アカウント引き継ぎ(匿名認証 → Apple / Google リンク)用。
+  # firebase_auth 6 系と併用し currentUser.linkWithCredential にクレデンシャルを渡す。
+  sign_in_with_apple: ^7.0.1
+  google_sign_in: ^7.2.0
+  crypto: ^3.0.6
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
