@@ -99,7 +99,7 @@ abstract class MemberScheduleNotificationSetting with _$MemberScheduleNotificati
 **有効設定の解決規則**（`lib/utils/local_notification/` と通知設定 UI が共通で使う）:
 
 1. `memberSettings.settings[medicineID][scheduleID]` があればそれを使う
-2. なければテンプレート `schedule.notificationSetting` を使う。ただし自分がその薬の作成者（`medicine.userID == 自分の uid`）でない場合は `useCriticalAlert: false, useAlarmKit: false` に落とす（共有された薬の Critical Alert が勝手に鳴らないため）。focusConnect はテンプレートに含めない（作成者の端末固有設定のため他人に引き継がない）
+2. なければテンプレート `schedule.notificationSetting` を使う。ただし自分がその薬の作成者（`medicine.userID == 自分の uid`）でない場合は `useCriticalAlert: false, useAlarmKit: false` に落とす（共有された薬の Critical Alert が勝手に鳴らないため）。focusConnectScheduleID は**作成者本人に限り**テンプレート `schedule.focusConnectSetting` から引き継ぐ（グループ機能以前に Focus 連携を設定していた既存ユーザーの動作を移行後も維持するため）。他メンバーには引き継がない（端末固有設定のため）
 
 ### AppUser（変更 `lib/entity/app_user.dart`）
 

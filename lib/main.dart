@@ -13,6 +13,7 @@ import 'package:medicalarm/provider/shared_preferences.dart';
 import 'package:medicalarm/style/color.dart';
 import 'package:medicalarm/utils/config/remote_config.dart';
 import 'package:medicalarm/utils/local_notification/client.dart';
+import 'package:medicalarm/utils/push_notification/fcm_notification.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 void main() async {
@@ -26,6 +27,9 @@ void main() async {
       Firebase.initializeApp(),
     ).wait;
     FirebaseAuth.instance.setSettings(userAccessGroup: 'TQPN82UBBY.com.bannzai.medicalarm');
+
+    // フォアグラウンドでの FCM 受信(服薬記録 push 等)を SnackBar 表示するハンドラを起動する
+    fcmNotificationHandler.initialize();
 
     // ignore: prefer_typing_uninitialized_variables
     final (_, sharedPreferences, _) = await (
@@ -63,6 +67,7 @@ class App extends StatelessWidget {
     );
 
     return MaterialApp(
+      scaffoldMessengerKey: scaffoldMessengerKey,
       theme: ThemeData(
         colorScheme: colorScheme,
         dividerColor: Colors.black,

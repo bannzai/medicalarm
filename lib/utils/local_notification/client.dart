@@ -2,9 +2,12 @@ import 'dart:async';
 import 'dart:math';
 import 'package:collection/collection.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
+import 'package:medicalarm/entity/group_member_notification_settings.dart';
 import 'package:medicalarm/entity/medication_history.dart';
 import 'package:medicalarm/entity/medicine.dart';
 import 'package:medicalarm/features/medications/entity/grouped.dart';
+import 'package:medicalarm/provider/app_user.dart';
+import 'package:medicalarm/provider/group_member_notification_settings.dart';
 import 'package:medicalarm/provider/medication_history.dart';
 import 'package:medicalarm/provider/medicine.dart';
 import 'package:medicalarm/utils/alarm_kit_service.dart';
@@ -158,14 +161,17 @@ class RegisterReminderLocalNotification {
     await (Future.microtask(() => null), cancelReminderLocalNotification()).wait;
     analytics.debug(name: 'cancel_reminder_notification');
 
-    final (medicines, medicationHistories) = await (
+    final (medicines, medicationHistories, memberNotificationSettings) = await (
       ref.read(activeMedicinesProvider.future),
       ref.read(medicationHistoriesByDateProvider(today()).future),
+      ref.read(groupMemberNotificationSettingsProvider.future),
     ).wait;
 
     await run(
       medicines: medicines,
       medicationHistories: medicationHistories,
+      memberNotificationSettings: memberNotificationSettings,
+      currentUserID: ref.read(appUserIDProvider),
       loopCount: 0,
     );
   }
@@ -174,6 +180,10 @@ class RegisterReminderLocalNotification {
   static Future<void> run({
     required List<Medicine> medicines,
     required List<MedicationHistory> medicationHistories,
+    // 自分のメンバー個別通知設定。未作成なら null。有効設定の解決に使う
+    required GroupMemberNotificationSettings? memberNotificationSettings,
+    // 有効設定の解決で作成者判定に使う自分の uid
+    required String currentUserID,
     // NOTE: [LocalNotificationReminder] 例えば frequency が cycleで、consecutiveDaysよりも後ろで、restDaysの期間にいる場合の再評価が必要になる
     // ループをいっぱい回してfuturesが空にならない場合までを採用する。上限をloopCount==10としている
     required int loopCount,
@@ -235,14 +245,22 @@ class RegisterReminderLocalNotification {
         // continue群が抜けてからインクリメント
         badgeNumber += 1;
 
+        // メンバー個別設定 → テンプレートの順で、自分(currentUserID)にとって有効な通知設定を解決する
+        MemberScheduleNotificationSetting effectiveSettingOf(MedicationGroupScheduleRow row) => resolveEffectiveNotificationSetting(
+              medicine: row.medicine,
+              schedule: row.medicationSchedule,
+              memberSettings: memberNotificationSettings,
+              currentUserID: currentUserID,
+            );
+
         // 通知をまとめて送るので、スケジュールの中にcriticalAlertを使うものが一つでもある場合はcriticalAlertを使う
-        final useCriticalAlert = group.scheduleRows.any((element) => element.medicationSchedule.notificationSetting.useCriticalAlert);
-        final largestCriticalAlertVolume = group.scheduleRows.map((e) => e.medicationSchedule.notificationSetting.criticalAlertVolume).max;
+        final useCriticalAlert = group.scheduleRows.any((row) => effectiveSettingOf(row).useCriticalAlert);
+        final largestCriticalAlertVolume = group.scheduleRows.map((row) => effectiveSettingOf(row).criticalAlertVolume).max;
 
         // 通知をまとめて送るので、スケジュールの中にAlarmKitを使うものが一つでもある場合はAlarmKitを使う
-        final useAlarmKit = group.scheduleRows.any((element) => element.medicationSchedule.notificationSetting.useAlarmKit);
+        final useAlarmKit = group.scheduleRows.any((row) => effectiveSettingOf(row).useAlarmKit);
 
-        final reminderEnabledScheduleRows = group.scheduleRows.where((element) => element.medicationSchedule.notificationSetting.isReminderEnabled);
+        final reminderEnabledScheduleRows = group.scheduleRows.where((row) => effectiveSettingOf(row).isReminderEnabled);
         if (reminderEnabledScheduleRows.isNotEmpty) {
           var message = '';
           for (final scheduleRow in reminderEnabledScheduleRows) {
@@ -332,7 +350,7 @@ class RegisterReminderLocalNotification {
           );
         }
 
-        final followUpEnabledScheduleRows = group.scheduleRows.where((element) => element.medicationSchedule.notificationSetting.isFollowupEnabled);
+        final followUpEnabledScheduleRows = group.scheduleRows.where((row) => effectiveSettingOf(row).isFollowupEnabled);
         if (followUpEnabledScheduleRows.isNotEmpty) {
           var message = '';
           for (final scheduleRow in followUpEnabledScheduleRows) {
@@ -428,7 +446,13 @@ class RegisterReminderLocalNotification {
 
     if (futures.isEmpty) {
       // NOTE: [LocalNotificationReminder] 例えば frequency が cycleで、consecutiveDaysよりも後ろで、restDaysの期間にいる場合の再評価が必要になる
-      run(medicines: medicines, medicationHistories: medicationHistories, loopCount: loopCount + 1);
+      run(
+        medicines: medicines,
+        medicationHistories: medicationHistories,
+        memberNotificationSettings: memberNotificationSettings,
+        currentUserID: currentUserID,
+        loopCount: loopCount + 1,
+      );
       return;
     }
     analytics.debug(name: 'rrrn_e_before_run', parameters: {
