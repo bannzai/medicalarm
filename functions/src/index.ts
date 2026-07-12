@@ -9,3 +9,35 @@ if (
 ) {
   exports.startPromotion = require("./functions/startPromotion/function");
 }
+
+if (!process.env.FUNCTION_NAME || process.env.FUNCTION_NAME === "createGroup") {
+  exports.createGroup = require("./functions/createGroup/function");
+}
+
+if (
+  !process.env.FUNCTION_NAME ||
+  process.env.FUNCTION_NAME === "createGroupInvitation"
+) {
+  exports.createGroupInvitation = require("./functions/createGroupInvitation/function");
+}
+
+if (
+  !process.env.FUNCTION_NAME ||
+  process.env.FUNCTION_NAME === "acceptGroupInvitation"
+) {
+  exports.acceptGroupInvitation = require("./functions/acceptGroupInvitation/function");
+}
+
+if (
+  !process.env.FUNCTION_NAME ||
+  process.env.FUNCTION_NAME === "removeGroupMember"
+) {
+  exports.removeGroupMember = require("./functions/removeGroupMember/function");
+}
+
+if (
+  !process.env.FUNCTION_NAME ||
+  process.env.FUNCTION_NAME === "sendMedicationRecordNotification"
+) {
+  exports.sendMedicationRecordNotification = require("./functions/sendMedicationRecordNotification/function");
+}

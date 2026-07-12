@@ -11,8 +11,11 @@
   "compileOnSave": true,
   "include": [
     "src/*.ts",
-    "src/**/*.ts",
-    "src/test/*.test.ts",
-    "src/test/**/*.test.ts"
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "lib",
+    "src/**/*.test.ts"
   ]
 }
