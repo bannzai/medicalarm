@@ -147,7 +147,7 @@ class MedicineFormPage extends HookConsumerWidget {
                                       ),
                                     ),
                                     const Divider(color: Colors.black, height: 1),
-                                    MedicineScheduleSection(schedules: schedules),
+                                    MedicineScheduleSection(schedules: schedules, medicine: currentMedicine),
                                     const Divider(color: Colors.black, height: 1),
                                     MedicineAdditionalInfoSection(
                                       memo: memo,

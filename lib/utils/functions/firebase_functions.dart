@@ -74,6 +74,15 @@ extension FirebaseFunctionsExt on FirebaseFunctions {
     }
     return response['data']['groupID'] as String;
   }
+
+  // グループからメンバーを削除する。オーナーのみが実行でき、オーナー自身は削除できない。冪等（既に非メンバーなら何もしない）。
+  Future<void> removeGroupMember({required String groupID, required String targetUserID}) async {
+    final result = await httpsCallable('removeGroupMember').call({'groupID': groupID, 'targetUserID': targetUserID});
+    final response = mapToJSON(result.data);
+    if (response['result'] != 'OK') {
+      throw Exception(response['error']['message']);
+    }
+  }
 }
 
 // Map<String, dynamic>.fromだけだとネストした子要素が_Map<Object? Object?>のままになる

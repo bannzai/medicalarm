@@ -2,6 +2,7 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:medicalarm/components/button/inquiry.dart';
 import 'package:medicalarm/components/button/user_delete.dart';
+import 'package:medicalarm/features/group_list/page.dart';
 import 'package:medicalarm/features/settings/components/local_notifications.dart';
 import 'package:medicalarm/features/settings/components/premium_introduction.dart';
 import 'package:medicalarm/features/settings/components/section.dart';
@@ -25,6 +26,24 @@ class SettingPage extends StatelessWidget {
             SettingSectionTitle(text: L.premiumPlan, children: const [
               PremiumIntroduction(),
               _Divider(),
+            ]),
+            SettingSectionTitle(text: L.groups, children: [
+              ListTile(
+                title: Text(
+                  L.groupManagement,
+                  style: const TextStyle(
+                    fontWeight: FontWeight.w300,
+                    fontSize: 16,
+                  ),
+                ),
+                trailing: const Icon(Icons.chevron_right),
+                onTap: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => const GroupListPage()),
+                  );
+                },
+              ),
             ]),
             SettingSectionTitle(text: L.aboutApp, children: [
               ListTile(

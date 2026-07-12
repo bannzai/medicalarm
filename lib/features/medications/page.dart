@@ -15,6 +15,7 @@ import 'package:medicalarm/entity/medication_history.dart';
 import 'package:medicalarm/entity/medicine.dart';
 import 'package:medicalarm/features/medications/components/add_button.dart';
 import 'package:medicalarm/components/calendar/day/today_badge.dart';
+import 'package:medicalarm/features/medications/components/group_chips_bar.dart';
 import 'package:medicalarm/features/medications/entity/grouped.dart';
 import 'package:medicalarm/features/medicine_form/components/schedule/focus_connect/section.dart';
 import 'package:medicalarm/features/medicine_form/page.dart';
@@ -124,6 +125,7 @@ class MedicationsPageBody extends HookConsumerWidget {
             children: [
               Column(
                 children: [
+                  const GroupChipsBar(),
                   WeeklyCalendarPager(date: date, pageController: pageController),
                   const Divider(
                     height: 1,
