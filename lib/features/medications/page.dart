@@ -270,6 +270,12 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
       unawaited(registerReminderLocalNotification.call());
 
       if (isChecked.value) {
+        // 記録の書き込みで snapshot が更新されると、この widget は破棄され ref が使えなくなる。
+        // await をまたいで ref を触るとウィジェット破棄後アクセスで例外になるため、ref 依存値は await の前に読み出す。
+        final groupID = ref.read(currentGroupIDProvider);
+        final currentUserID = ref.read(appUserIDProvider);
+        final memberSettingsFuture = ref.read(groupMemberNotificationSettingsProvider.future);
+
         await medicationHistoryTake.call(
           medicationHistory: scheduleRow.medicationHistory,
           scheduledRecordedDate: scheduleRow.date,
@@ -280,7 +286,6 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
 
         // 同じグループの他メンバーへ服薬記録を push 通知する。失敗しても記録は成功扱いにするため unawaited + catch。
         // ソログループなど送信対象が 0 件の場合はサーバー側でスキップされる。
-        final groupID = ref.read(currentGroupIDProvider);
         if (groupID != null) {
           unawaited(
             functions
@@ -300,8 +305,8 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
         final focusConnectScheduleID = resolveEffectiveNotificationSetting(
           medicine: scheduleRow.medicine,
           schedule: scheduleRow.medicationSchedule,
-          memberSettings: await ref.read(groupMemberNotificationSettingsProvider.future),
-          currentUserID: ref.read(appUserIDProvider),
+          memberSettings: await memberSettingsFuture,
+          currentUserID: currentUserID,
         ).focusConnectScheduleID;
         if (focusConnectScheduleID != null) {
           await launchUrl(
