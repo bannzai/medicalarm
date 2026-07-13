@@ -34,11 +34,12 @@ async function acceptGroupInvitationHandler(req: {
       };
     }
 
-    // invitationCode + status == "pending" で招待を検索
+    // invitationCode のみで招待を検索 (status フィルタは付けない)。
+    // クライアントのリトライで defaultGroupID の切替が未完のまま再送された場合でも、
+    // accepted 済みの招待を拾って「既にメンバーなら成功」と判定できるようにするため。
     const invitationSnapshot = await database
       .collection("groupInvitations")
       .where("invitationCode", "==", invitationCode)
-      .where("status", "==", "pending")
       .limit(1)
       .get();
 
@@ -83,17 +84,27 @@ async function acceptGroupInvitationHandler(req: {
         throw new Error("グループが見つかりません");
       }
 
-      // トランザクション内で招待ステータスを再検証(同時利用によるレースコンディション対策)
+      // トランザクション内で招待を再読み込みする(同時利用によるレースコンディション対策)
       const currentInvitationData = invitationDocSnapshot.data();
-      if (!currentInvitationData || currentInvitationData.status !== "pending") {
+      if (!currentInvitationData) {
         throw new Error("この招待コードは既に使用されています");
       }
 
       const memberUserIDs: string[] = groupDoc.data()?.memberUserIDs ?? [];
 
-      // 冪等性: 既にメンバーの場合は何もしない
+      // 冪等性: 既にメンバーなら何もしない(accepted 済みのリトライでも成功として groupID を返す)
       if (memberUserIDs.includes(uid)) {
         return false;
+      }
+
+      // 呼び出し者が未参加なのに招待が pending でないなら、別ユーザーが使用済み
+      if (currentInvitationData.status !== "pending") {
+        throw new Error("この招待コードは既に使用されています");
+      }
+
+      // 招待者が現在もグループのメンバーであることを検証(発行後に除名されたメンバーの招待を無効化)
+      if (!memberUserIDs.includes(currentInvitationData.inviterUserID)) {
+        throw new Error("この招待コードは無効です");
       }
 
       transaction.update(groupRef, {

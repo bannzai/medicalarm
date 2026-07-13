@@ -292,8 +292,6 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
                 .sendMedicationRecordNotification(
               groupID: groupID,
               medicineID: scheduleRow.medicine.id,
-              medicineName: scheduleRow.medicine.name,
-              doseReceiverName: scheduleRow.medicine.doseReceiver.name,
             )
                 .catchError((Object e, StackTrace st) {
               errorLogger.recordError(e, st);

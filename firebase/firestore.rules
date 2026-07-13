@@ -1,8 +1,9 @@
 rules_version = '2';
 
 // 設計方針:
-// JWT (Firebase Auth) の本人認証 + リソース所有 (グループメンバー) 判定のみを行い、
-// データ内容に踏み込んだガード (プレミアム判定・期間判定・フィールド diff 等) は実装しない。
+// JWT (Firebase Auth) の本人認証 + リソース所有 (グループメンバー) 判定を基本とし、
+// グループ配下でも本人性が要る書き込み (自分の userProfile / memberNotificationSettings) は対象ユーザー本人に限定する。
+// 一方でデータ内容に踏み込んだガード (プレミアム判定・期間判定・フィールド diff 等) は実装しない。
 //
 // /users ツリーは medicalarm-prod にデプロイ済みだった旧ルール (#242 でエクスポート) の
 // 操作別許可 (privates は read 不可・users は delete 不可・doseReceivers は delete 不可) を維持し、
@@ -66,7 +67,8 @@ service cloud.firestore {
     }
 
     match /groups/{groupID} {
-      allow read, update, delete: if isMember(resource.data.memberUserIDs);
+      // グループ削除フローはクライアントに無いため delete は許可しない。update はグループ名編集で使う。
+      allow read, update: if isMember(resource.data.memberUserIDs);
       // グループ作成は createGroup Function 経由でのみ許可する。
       allow create: if false;
 
@@ -74,16 +76,20 @@ service cloud.firestore {
         return isMember(get(/databases/$(database)/documents/groups/$(groupID)).data.memberUserIDs);
       }
 
+      // read はメンバー全員。書き込みは自分の profile のみ (displayName 編集は本人だけが行う)。
       match /userProfiles/{profileID} {
-        allow read, write: if isGroupMember();
+        allow read: if isGroupMember();
+        allow create: if isGroupMember() && (isUserAuth(request.resource.data.userID) || isDebugUserOf(request.resource.data.userID));
+        allow update, delete: if isGroupMember() && (isUserAuth(resource.data.userID) || isDebugUserOf(resource.data.userID));
       }
 
       match /medicines/{medicineID} {
         allow read, write: if isGroupMember();
       }
 
+      // DoseReceiver は削除不可の設計をグループ側でも維持するため delete を許可しない。
       match /doseReceivers/{doseReceiverID} {
-        allow read, write: if isGroupMember();
+        allow read, create, update: if isGroupMember();
       }
 
       match /medicationHistories/{historyID} {
@@ -94,10 +100,11 @@ service cloud.firestore {
         allow read, write: if isGroupMember();
       }
 
-      // メンバー個別通知設定。docID = userID だが、共有データと同様にメンバーなら誰でも
-      // read/write 可能とする (端末個人設定だがグループ内で参照する必要があるため)。
+      // メンバー個別通知設定。docID = memberUserID。read はメンバー全員だが、
+      // write は本人のみ (端末個人設定を他メンバーに書き換えられないようにする)。
       match /memberNotificationSettings/{memberUserID} {
-        allow read, write: if isGroupMember();
+        allow read: if isGroupMember();
+        allow write: if isGroupMember() && (isUserAuth(memberUserID) || isDebugUserOf(memberUserID));
       }
     }
   }

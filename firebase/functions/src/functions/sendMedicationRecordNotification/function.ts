@@ -9,6 +9,9 @@ import { groupUserProfileDocumentID } from "../../entity/group_user_profile";
 /// FCM トークンのプレースホルダ。Simulator など push を受け取れない環境が登録するダミー値のため送信対象から除外する。
 const DEBUG_MODE_TOKEN = "debug_mode";
 
+/// sendEachForMulticast は 1 リクエストあたり最大 500 トークンのため、これを超える場合はチャンクに分割して送信する。
+const FCM_MULTICAST_TOKEN_LIMIT = 500;
+
 /**
  * 服薬記録を追加した際に、同じグループの他メンバーへ FCM push 通知を送る。
  * 呼び出し者はグループのメンバーである必要がある。送信対象は自分以外の全メンバー。
@@ -19,8 +22,6 @@ async function sendMedicationRecordNotificationHandler(req: {
   data?: {
     groupID?: string;
     medicineID?: string;
-    medicineName?: string;
-    doseReceiverName?: string;
   };
 }): Promise<OnCallResponse> {
   try {
@@ -42,9 +43,6 @@ async function sendMedicationRecordNotificationHandler(req: {
         error: { message: "groupID または medicineID が指定されていません" },
       };
     }
-    const medicineName = req.data?.medicineName ?? "";
-    const doseReceiverName = req.data?.doseReceiverName ?? "";
-
     const groupDoc = await database.collection("groups").doc(groupID).get();
     if (!groupDoc.exists) {
       return {
@@ -61,6 +59,23 @@ async function sendMedicationRecordNotificationHandler(req: {
         error: { message: "グループのメンバーではありません" },
       };
     }
+
+    // push 本文はクライアント引数を信用せず、対象の薬ドキュメントからサーバ側で導出する
+    const medicineDoc = await database
+      .collection("groups")
+      .doc(groupID)
+      .collection("medicines")
+      .doc(medicineID)
+      .get();
+    if (!medicineDoc.exists) {
+      return {
+        result: "NG",
+        statusCode: 404,
+        error: { message: "薬が見つかりません" },
+      };
+    }
+    const medicineName: string = medicineDoc.data()?.name ?? "";
+    const doseReceiverName: string = medicineDoc.data()?.doseReceiver?.name ?? "";
 
     // 送信者の表示名を userProfiles からサーバ側で解決する
     const senderProfileDoc = await database
@@ -104,42 +119,52 @@ async function sendMedicationRecordNotificationHandler(req: {
       };
     }
 
-    const message: messaging.MulticastMessage = {
-      tokens: allTokens,
-      notification: {
-        title: `${senderName}さんが服薬を記録しました`,
-        body: doseReceiverName.length
-          ? `${doseReceiverName}の「${medicineName.length ? medicineName : "お薬"}」を記録しました`
-          : `「${medicineName.length ? medicineName : "お薬"}」を記録しました`,
-      },
-      data: {
-        groupID,
-        medicineID,
-        type: "medicationRecord",
-      },
+    const notification = {
+      title: `${senderName}さんが服薬を記録しました`,
+      body: doseReceiverName.length
+        ? `${doseReceiverName}の「${medicineName.length ? medicineName : "お薬"}」を記録しました`
+        : `「${medicineName.length ? medicineName : "お薬"}」を記録しました`,
+    };
+    const data = {
+      groupID,
+      medicineID,
+      type: "medicationRecord",
     };
 
-    const response = await messaging().sendEachForMulticast(message);
-
-    // 無効トークンをユーザーごとに集約してクリーンアップ
+    // sendEachForMulticast の 500 トークン上限を超える場合に備え、チャンクごとに送信して結果を集約する。
+    let successCount = 0;
+    let failureCount = 0;
     const invalidTokensByUser = new Map<string, string[]>();
-    response.responses.forEach((resp, index) => {
-      if (
-        !resp.success &&
-        resp.error &&
-        (resp.error.code === "messaging/invalid-registration-token" ||
-          resp.error.code === "messaging/registration-token-not-registered")
-      ) {
-        const token = allTokens[index];
-        const userID = tokenToUserID.get(token);
-        if (userID) {
-          invalidTokensByUser.set(userID, [
-            ...(invalidTokensByUser.get(userID) ?? []),
-            token,
-          ]);
+    for (let start = 0; start < allTokens.length; start += FCM_MULTICAST_TOKEN_LIMIT) {
+      const chunkTokens = allTokens.slice(start, start + FCM_MULTICAST_TOKEN_LIMIT);
+      const message: messaging.MulticastMessage = {
+        tokens: chunkTokens,
+        notification,
+        data,
+      };
+      const response = await messaging().sendEachForMulticast(message);
+      successCount += response.successCount;
+      failureCount += response.failureCount;
+
+      // 無効トークンをユーザーごとに集約してクリーンアップ (index はチャンク内の相対位置)
+      response.responses.forEach((resp, index) => {
+        if (
+          !resp.success &&
+          resp.error &&
+          (resp.error.code === "messaging/invalid-registration-token" ||
+            resp.error.code === "messaging/registration-token-not-registered")
+        ) {
+          const token = chunkTokens[index];
+          const userID = tokenToUserID.get(token);
+          if (userID) {
+            invalidTokensByUser.set(userID, [
+              ...(invalidTokensByUser.get(userID) ?? []),
+              token,
+            ]);
+          }
         }
-      }
-    });
+      });
+    }
 
     // 無効トークンを並列削除(個別の失敗は無視して継続)
     const cleanupResults = await Promise.allSettled(
@@ -166,15 +191,15 @@ async function sendMedicationRecordNotificationHandler(req: {
     }
 
     logger.info(
-      `Sent notifications for group ${groupID}: success=${response.successCount}, failure=${response.failureCount}`
+      `Sent notifications for group ${groupID}: success=${successCount}, failure=${failureCount}`
     );
 
     return {
       result: "OK",
       statusCode: 200,
       data: {
-        successCount: response.successCount,
-        failureCount: response.failureCount,
+        successCount,
+        failureCount,
       },
     };
   } catch (error) {

@@ -19,7 +19,7 @@ const [EMULATOR_HOST, EMULATOR_PORT] = (process.env.FIRESTORE_EMULATOR_HOST ?? '
 const GROUP_ID = 'g1';
 const MEMBER_IDS = ['alice', 'bob'];
 
-// グループ配下のサブコレクション (すべてメンバーなら read/write 可能であること)。
+// グループ配下の全サブコレクション (非メンバーは read/write とも不可であること)。
 const GROUP_SUBCOLLECTIONS = [
   'userProfiles',
   'medicines',
@@ -28,6 +28,9 @@ const GROUP_SUBCOLLECTIONS = [
   'diaries',
   'memberNotificationSettings',
 ];
+
+// 全メンバーが自由に read/write できる共有サブコレクション (本人性チェック無し)。
+const FREE_WRITE_SUBCOLLECTIONS = ['medicines', 'medicationHistories', 'diaries'];
 
 let testEnv;
 
@@ -59,7 +62,7 @@ beforeEach(async () => {
   });
 });
 
-describe('groups: メンバーは本体と全サブコレクションを read/write できる', () => {
+describe('groups: メンバーは本体を read/update でき、共有サブコレクションを read/write できる', () => {
   test('メンバー(alice)は groups/{id} 本体を read/update できる', async () => {
     const db = testEnv.authenticatedContext('alice').firestore();
     await assertSucceeds(getDoc(doc(db, `groups/${GROUP_ID}`)));
@@ -68,10 +71,73 @@ describe('groups: メンバーは本体と全サブコレクションを read/wr
     );
   });
 
-  test.each(GROUP_SUBCOLLECTIONS)('メンバー(alice)は groups/{id}/%s を read/write できる', async (subCollection) => {
+  // グループ削除フローはクライアントに無いため、メンバーでも delete は拒否される。
+  test('メンバー(alice)でも groups/{id} 本体の delete は拒否される', async () => {
+    const db = testEnv.authenticatedContext('alice').firestore();
+    await assertFails(deleteDoc(doc(db, `groups/${GROUP_ID}`)));
+  });
+
+  test.each(FREE_WRITE_SUBCOLLECTIONS)('メンバー(alice)は groups/{id}/%s を read/write できる', async (subCollection) => {
     const db = testEnv.authenticatedContext('alice').firestore();
     await assertSucceeds(setDoc(doc(db, `groups/${GROUP_ID}/${subCollection}/x`), { foo: 'bar' }));
     await assertSucceeds(getDoc(doc(db, `groups/${GROUP_ID}/${subCollection}/x`)));
+  });
+});
+
+describe('groups/doseReceivers: メンバーは read/create/update できるが delete は不可', () => {
+  test('メンバー(alice)は doseReceivers を read/create/update できるが delete は拒否される', async () => {
+    const db = testEnv.authenticatedContext('alice').firestore();
+    await assertSucceeds(setDoc(doc(db, `groups/${GROUP_ID}/doseReceivers/r1`), { name: '本人' }));
+    await assertSucceeds(getDoc(doc(db, `groups/${GROUP_ID}/doseReceivers/r1`)));
+    await assertSucceeds(setDoc(doc(db, `groups/${GROUP_ID}/doseReceivers/r1`), { name: '更新後' }, { merge: true }));
+    // DoseReceiver は削除不可の設計をグループ側でも維持する。
+    await assertFails(deleteDoc(doc(db, `groups/${GROUP_ID}/doseReceivers/r1`)));
+  });
+});
+
+describe('groups/userProfiles: read はメンバー全員、write は自分の profile のみ', () => {
+  test('メンバー(alice)は自分の userProfile を create/update できる', async () => {
+    const db = testEnv.authenticatedContext('alice').firestore();
+    await assertSucceeds(setDoc(doc(db, `groups/${GROUP_ID}/userProfiles/p_alice`), { userID: 'alice', displayName: 'Alice' }));
+    await assertSucceeds(
+      setDoc(doc(db, `groups/${GROUP_ID}/userProfiles/p_alice`), { userID: 'alice', displayName: '更新後' }, { merge: true }),
+    );
+  });
+
+  test('メンバー(alice)は他人(bob)の userProfile を read できるが write はできない', async () => {
+    // bob の profile を rules 無効で seed する。
+    await testEnv.withSecurityRulesDisabled(async (ctx) => {
+      await setDoc(doc(ctx.firestore(), `groups/${GROUP_ID}/userProfiles/p_bob`), { userID: 'bob', displayName: 'Bob' });
+    });
+    const db = testEnv.authenticatedContext('alice').firestore();
+    // read はメンバーなら他人分も可。
+    await assertSucceeds(getDoc(doc(db, `groups/${GROUP_ID}/userProfiles/p_bob`)));
+    // 他人の profile への update は拒否。
+    await assertFails(
+      setDoc(doc(db, `groups/${GROUP_ID}/userProfiles/p_bob`), { userID: 'bob', displayName: 'Hacked' }, { merge: true }),
+    );
+    // userID を他人にした create も拒否。
+    await assertFails(setDoc(doc(db, `groups/${GROUP_ID}/userProfiles/p_new`), { userID: 'bob', displayName: 'Hacked' }));
+  });
+});
+
+describe('groups/memberNotificationSettings: read はメンバー全員、write は本人 docID のみ', () => {
+  test('メンバー(alice)は自分の docID を read/write でき、他人(bob)の docID には write できない', async () => {
+    const db = testEnv.authenticatedContext('alice').firestore();
+    // docID = 自分の uid なら write 可。
+    await assertSucceeds(setDoc(doc(db, `groups/${GROUP_ID}/memberNotificationSettings/alice`), { useCriticalAlert: true }));
+    await assertSucceeds(getDoc(doc(db, `groups/${GROUP_ID}/memberNotificationSettings/alice`)));
+    // docID = 他人の uid への write は拒否。
+    await assertFails(setDoc(doc(db, `groups/${GROUP_ID}/memberNotificationSettings/bob`), { useCriticalAlert: false }));
+  });
+
+  test('メンバー(alice)は他人(bob)の memberNotificationSettings を read できる', async () => {
+    // bob の設定を rules 無効で seed する。
+    await testEnv.withSecurityRulesDisabled(async (ctx) => {
+      await setDoc(doc(ctx.firestore(), `groups/${GROUP_ID}/memberNotificationSettings/bob`), { useCriticalAlert: true });
+    });
+    const db = testEnv.authenticatedContext('alice').firestore();
+    await assertSucceeds(getDoc(doc(db, `groups/${GROUP_ID}/memberNotificationSettings/bob`)));
   });
 });
 

@@ -1,4 +1,5 @@
-// sendMedicationRecordNotificationHandler のユニットテスト。debug_mode 除外・無効トークンのクリーンアップを検証する。
+// sendMedicationRecordNotificationHandler のユニットテスト。
+// debug_mode 除外・無効トークンのクリーンアップ・push 本文のサーバ導出・500 件チャンク分割を検証する。
 
 type OnCallResult = {
   result: "OK" | "NG";
@@ -45,9 +46,12 @@ const handler = require("./function") as Handler;
 type PrivateRef = { get: jest.Mock; update: jest.Mock };
 
 const senderProfileRef = { get: jest.fn() };
+const medicineRef = { get: jest.fn() };
 const groupDocRef = {
   get: jest.fn(),
-  collection: jest.fn(() => ({ doc: jest.fn(() => senderProfileRef) })),
+  collection: jest.fn((name: string) => ({
+    doc: jest.fn(() => (name === "medicines" ? medicineRef : senderProfileRef)),
+  })),
 };
 let privateRefs: Record<string, PrivateRef> = {};
 
@@ -65,12 +69,20 @@ function makePrivateRef(tokens: string[] | null): PrivateRef {
 function setup(args: {
   members: string[];
   senderDisplayName?: string | null;
+  medicineExists?: boolean;
+  medicineName?: string;
+  doseReceiverName?: string;
   tokensByUser: Record<string, string[] | null>;
 }): void {
   groupDocRef.get.mockResolvedValue({
     exists: true,
     data: () => ({ memberUserIDs: args.members }),
   });
+  medicineRef.get.mockResolvedValue(
+    args.medicineExists === false
+      ? { exists: false, data: () => undefined }
+      : { exists: true, data: () => ({ name: args.medicineName ?? "ロキソニン", doseReceiver: { name: args.doseReceiverName ?? "太郎" } }) }
+  );
   senderProfileRef.get.mockResolvedValue({
     data: () => ({ displayName: args.senderDisplayName ?? null }),
   });
@@ -114,12 +126,7 @@ describe("sendMedicationRecordNotification", () => {
 
     const result = await handler({
       auth: { uid: "me" },
-      data: {
-        groupID: "group-1",
-        medicineID: "med-1",
-        medicineName: "ロキソニン",
-        doseReceiverName: "太郎",
-      },
+      data: { groupID: "group-1", medicineID: "med-1" },
     });
 
     expect(result.result).toBe("OK");
@@ -134,6 +141,83 @@ describe("sendMedicationRecordNotification", () => {
         }),
       })
     );
+  });
+
+  test("push 本文は薬ドキュメントからサーバ側で導出する (クライアント引数は使わない)", async () => {
+    setup({
+      members: ["me", "other"],
+      senderDisplayName: "田中",
+      medicineName: "ロキソニン",
+      doseReceiverName: "太郎",
+      tokensByUser: { other: ["real-token"] },
+    });
+    mockSendEach.mockResolvedValue({
+      successCount: 1,
+      failureCount: 0,
+      responses: [{ success: true }],
+    });
+
+    // クライアントは groupID / medicineID のみを渡す
+    const result = await handler({
+      auth: { uid: "me" },
+      data: { groupID: "group-1", medicineID: "med-1" },
+    });
+
+    expect(result.result).toBe("OK");
+    expect(mockSendEach).toHaveBeenCalledWith(
+      expect.objectContaining({
+        notification: expect.objectContaining({
+          body: "太郎の「ロキソニン」を記録しました",
+        }),
+      })
+    );
+  });
+
+  test("薬が見つからない場合は 404", async () => {
+    setup({
+      members: ["me", "other"],
+      medicineExists: false,
+      tokensByUser: { other: ["real-token"] },
+    });
+
+    const result = await handler({
+      auth: { uid: "me" },
+      data: { groupID: "group-1", medicineID: "med-1" },
+    });
+
+    expect(result.result).toBe("NG");
+    expect(result.statusCode).toBe(404);
+    expect(mockSendEach).not.toHaveBeenCalled();
+  });
+
+  test("500 件を超えるトークンはチャンクに分割して送信し、件数を集約する", async () => {
+    // 501 件のトークンを 1 ユーザーに持たせる
+    const tokens = Array.from({ length: 501 }, (_, i) => `token-${i}`);
+    setup({
+      members: ["me", "other"],
+      tokensByUser: { other: tokens },
+    });
+    // チャンクごとにトークン数分の成功レスポンスを返す
+    mockSendEach.mockImplementation((message: { tokens: string[] }) =>
+      Promise.resolve({
+        successCount: message.tokens.length,
+        failureCount: 0,
+        responses: message.tokens.map(() => ({ success: true })),
+      })
+    );
+
+    const result = await handler({
+      auth: { uid: "me" },
+      data: { groupID: "group-1", medicineID: "med-1" },
+    });
+
+    expect(result.result).toBe("OK");
+    // 500 + 1 の 2 チャンクに分割される
+    expect(mockSendEach).toHaveBeenCalledTimes(2);
+    expect(mockSendEach.mock.calls[0][0].tokens).toHaveLength(500);
+    expect(mockSendEach.mock.calls[1][0].tokens).toHaveLength(1);
+    expect(result.data?.successCount).toBe(501);
+    expect(result.data?.failureCount).toBe(0);
   });
 
   test("無効トークンは arrayRemove でクリーンアップする", async () => {

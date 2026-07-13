@@ -14,4 +14,7 @@ class CurrentGroupID extends _$CurrentGroupID {
 
   /// 表示中グループを切り替える。
   void update(String groupID) => state = groupID;
+
+  /// 表示中グループの選択を解除する。所属グループが 1 つも無い等、有効な選択先が無い場合に使う。
+  void reset() => state = null;
 }

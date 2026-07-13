@@ -23,6 +23,8 @@ class GroupCreatePage extends HookConsumerWidget {
     final name = useState('');
     final iconName = useState('home');
     final isLoading = useState(false);
+    // createGroup は非冪等のため、成功後に招待発行が失敗した際の再試行で重複作成しないよう作成済み groupID を保持する。
+    final createdGroupID = useState<String?>(null);
     final createGroup = ref.watch(createGroupProvider);
     final createGroupInvitation = ref.watch(createGroupInvitationProvider);
     final canSubmit = name.value.trim().isNotEmpty;
@@ -34,7 +36,9 @@ class GroupCreatePage extends HookConsumerWidget {
       isLoading.value = true;
       try {
         // 作成しても表示中グループは切り替えない(shoppinglist 踏襲)。切替はグループ切替チップの責務。
-        final groupID = await createGroup.call(name: name.value.trim(), setAsDefault: false, iconName: iconName.value);
+        // 既に作成済み(招待発行だけ失敗して再試行)なら createGroup をスキップし、招待発行のみ再実行する。
+        final groupID = createdGroupID.value ?? await createGroup.call(name: name.value.trim(), setAsDefault: false, iconName: iconName.value);
+        createdGroupID.value = groupID;
         final invitation = await createGroupInvitation.call(groupID: groupID);
         if (context.mounted) {
           await showInvitationCodeDialog(context, invitationCode: invitation.invitationCode, expiresDateTime: invitation.expiresDateTime);

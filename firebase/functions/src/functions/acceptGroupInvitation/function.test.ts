@@ -1,4 +1,5 @@
-// acceptGroupInvitationHandler のユニットテスト。期限切れ / 使用済み / 既メンバー冪等を検証する。
+// acceptGroupInvitationHandler のユニットテスト。
+// 期限切れ / 使用済み / 既メンバー冪等 / accepted 済みリトライ / 招待者除名済みの無効化を検証する。
 
 type OnCallResult = {
   result: "OK" | "NG";
@@ -60,14 +61,21 @@ const mockTransaction = {
 function setup(args: {
   found: boolean;
   expiresOffsetMs?: number;
+  // 検索時 / トランザクション再読み込み時の招待ステータス
+  invitationStatus?: string;
   txInvitationStatus?: string;
+  // 招待者 (デフォルトはグループメンバーの owner)
+  inviterUserID?: string;
   groupMembers?: string[];
 }): void {
+  const inviterUserID = args.inviterUserID ?? "owner";
+  const invitationStatus = args.invitationStatus ?? "pending";
   const invitationDoc = {
     ref: invitationRefObj,
     data: () => ({
       groupID: "group-1",
-      status: "pending",
+      inviterUserID,
+      status: invitationStatus,
       expiresDateTime: {
         toDate: () => new Date(Date.now() + (args.expiresOffsetMs ?? DAY_MS)),
       },
@@ -75,16 +83,15 @@ function setup(args: {
   };
   mockCollection.mockImplementation((path: string) => {
     if (path === "groupInvitations") {
+      // invitationCode のみで検索する (status フィルタは付けない)
       return {
         where: jest.fn(() => ({
-          where: jest.fn(() => ({
-            limit: jest.fn(() => ({
-              get: jest.fn().mockResolvedValue(
-                args.found
-                  ? { empty: false, docs: [invitationDoc] }
-                  : { empty: true, docs: [] }
-              ),
-            })),
+          limit: jest.fn(() => ({
+            get: jest.fn().mockResolvedValue(
+              args.found
+                ? { empty: false, docs: [invitationDoc] }
+                : { empty: true, docs: [] }
+            ),
           })),
         })),
       };
@@ -103,7 +110,10 @@ function setup(args: {
     }
     if (ref === invitationRefObj) {
       return Promise.resolve({
-        data: () => ({ status: args.txInvitationStatus ?? "pending" }),
+        data: () => ({
+          status: args.txInvitationStatus ?? invitationStatus,
+          inviterUserID,
+        }),
       });
     }
     return Promise.resolve({ exists: false, data: () => undefined });
@@ -156,8 +166,13 @@ describe("acceptGroupInvitation", () => {
     expect(mockRunTransaction).not.toHaveBeenCalled();
   });
 
-  test("トランザクション内で使用済みに変わっていたら NG", async () => {
-    setup({ found: true, txInvitationStatus: "accepted" });
+  test("使用済み(accepted)で呼び出し者が未参加なら NG", async () => {
+    setup({
+      found: true,
+      invitationStatus: "accepted",
+      txInvitationStatus: "accepted",
+      groupMembers: ["owner"],
+    });
 
     const result = await handler({
       auth: { uid: "newbie" },
@@ -166,6 +181,26 @@ describe("acceptGroupInvitation", () => {
 
     expect(result.result).toBe("NG");
     expect(result.error?.message).toBe("この招待コードは既に使用されています");
+    expect(mockTransaction.update).not.toHaveBeenCalled();
+  });
+
+  test("accepted 済みでも呼び出し者が既にメンバーなら冪等に groupID を返す (リトライ対応)", async () => {
+    setup({
+      found: true,
+      invitationStatus: "accepted",
+      txInvitationStatus: "accepted",
+      groupMembers: ["owner", "newbie"],
+    });
+
+    const result = await handler({
+      auth: { uid: "newbie" },
+      data: { invitationCode: "ABCD3456" },
+    });
+
+    expect(result.result).toBe("OK");
+    expect(result.data?.groupID).toBe("group-1");
+    expect(mockTransaction.update).not.toHaveBeenCalled();
+    expect(mockTransaction.set).not.toHaveBeenCalled();
   });
 
   test("既にメンバーなら冪等にグループ ID を返し、書き込みを行わない", async () => {
@@ -178,6 +213,21 @@ describe("acceptGroupInvitation", () => {
 
     expect(result.result).toBe("OK");
     expect(result.data?.groupID).toBe("group-1");
+    expect(mockTransaction.update).not.toHaveBeenCalled();
+    expect(mockTransaction.set).not.toHaveBeenCalled();
+  });
+
+  test("招待者が既にグループから除名されている場合は無効な招待として NG", async () => {
+    // inviter "ghost" は現在のメンバー ["owner"] に含まれない
+    setup({ found: true, inviterUserID: "ghost", groupMembers: ["owner"] });
+
+    const result = await handler({
+      auth: { uid: "newbie" },
+      data: { invitationCode: "ABCD3456" },
+    });
+
+    expect(result.result).toBe("NG");
+    expect(result.error?.message).toBe("この招待コードは無効です");
     expect(mockTransaction.update).not.toHaveBeenCalled();
     expect(mockTransaction.set).not.toHaveBeenCalled();
   });

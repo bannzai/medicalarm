@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:medicalarm/components/loading/indicator.dart';
+import 'package:medicalarm/components/retry/page.dart';
 import 'package:medicalarm/features/resolver/database.dart';
 import 'package:medicalarm/provider/app_user.dart';
 import 'package:medicalarm/provider/group_create.dart';
@@ -82,6 +83,10 @@ class GroupMigrationResolver extends HookConsumerWidget {
     final userDatabase = ref.watch(userDatabaseProvider);
     final createGroup = ref.watch(createGroupProvider);
     final isMigrating = useState(false);
+    // 移行失敗を保持し、同一セッション内で Retry から再試行できるようにする。null なら失敗していない。
+    final migrationError = useState<Object?>(null);
+    // 再試行のトリガー。インクリメントで useEffect を再実行させる。
+    final retryCount = useState(0);
 
     useEffect(() {
       void f() async {
@@ -89,6 +94,7 @@ class GroupMigrationResolver extends HookConsumerWidget {
           return;
         }
         isMigrating.value = true;
+        migrationError.value = null;
         try {
           // 1. defaultGroupID があればそれを使い、無ければソログループを作成する。
           //    既に defaultGroupID がある(前回の途中失敗)なら手順 1 をスキップして 2 から再開される。
@@ -102,8 +108,9 @@ class GroupMigrationResolver extends HookConsumerWidget {
           // 3. 完了マーカーを最後に書く。ここまで到達して初めて移行済みとみなす。
           await userDatabase.userReference().update({'groupMigratedDateTime': FieldValue.serverTimestamp()});
         } catch (e, st) {
-          // 失敗しても例外を投げず、次回起動時に再試行する（defaultGroupID 済みなら手順 2 から再開）。
+          // 失敗しても例外を投げず記録し、Retry から再試行できるよう error を保持する（defaultGroupID 済みなら手順 2 から再開）。
           errorLogger.recordError(e, st);
+          migrationError.value = e;
         } finally {
           isMigrating.value = false;
         }
@@ -111,8 +118,14 @@ class GroupMigrationResolver extends HookConsumerWidget {
 
       f();
       return null;
-    }, [appUser]);
+    }, [appUser, retryCount.value]);
 
+    if (appUser != null && appUser.groupMigratedDateTime == null && !isMigrating.value && migrationError.value != null) {
+      return Retry(
+        retry: () => retryCount.value++,
+        child: RetryPage(exception: migrationError.value!),
+      );
+    }
     if (appUser == null || appUser.groupMigratedDateTime == null) {
       return const IndicatorPage();
     }
