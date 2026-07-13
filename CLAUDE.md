@@ -92,7 +92,7 @@ iOS,Androidアプリをサポートします。Firebase の設定ファイルは
 firebase/ ディレクトリ配下についてです。主にbackendで動くFirebase Functionsの設定です。
 
 #### ビルド・テスト・検証方法
-以下のコマンドは全て `firebase/functions/functions/` ディレクトリで実行する
+以下のコマンドは全て `firebase/functions/` ディレクトリで実行する
 
 - Linter (ESLint + Prettier): `npm run lint` (自動修正: `npm run lint:fix`)
 - ビルド: `npm run build` (内部で `tsc` を実行)
