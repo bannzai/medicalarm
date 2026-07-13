@@ -6,7 +6,7 @@ part 'group.g.dart';
 part 'group.freezed.dart';
 
 /// 無料ユーザーがソログループに加えて作成できるグループ数の上限。
-/// NOTE: サーバー側(functions/src/functions/createGroup/function.ts の FREE_ADDITIONAL_GROUP_CREATION_LIMIT)と同じ値を維持すること。
+/// NOTE: サーバー側(firebase/functions/src/functions/createGroup/function.ts の FREE_ADDITIONAL_GROUP_CREATION_LIMIT)と同じ値を維持すること。
 const int freeAdditionalGroupCreationLimit = 1;
 
 /// 服薬管理を共有するグループを表すエンティティ。

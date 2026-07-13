@@ -38,7 +38,7 @@
 
 ```dart
 /// 無料ユーザーがソログループに加えて作成できるグループ数の上限。
-/// NOTE: サーバー側(functions/src/functions/createGroup/function.ts の FREE_ADDITIONAL_GROUP_CREATION_LIMIT)と同じ値を維持すること。
+/// NOTE: サーバー側(firebase/functions/src/functions/createGroup/function.ts の FREE_ADDITIONAL_GROUP_CREATION_LIMIT)と同じ値を維持すること。
 const int freeAdditionalGroupCreationLimit = 1;
 
 @freezed
@@ -165,7 +165,7 @@ else:
 - 匿名認証のため 1 uid = 1 端末であり、旧クライアントとの並行書き込みによる分岐は実質発生しない
 - 実行中は既存の Launch ローディング表示
 
-## Cloud Functions（`functions/src/functions/` に追加）
+## Cloud Functions（`firebase/functions/src/functions/` に追加）
 
 既存 `startPromotion` と同じ構成: 素の `onCall`（v2）+ `region: "asia-northeast1"` + `FUNCTION_NAME` ガードで index.ts に登録 + `core/response.ts` の OK/NG レスポンス。shoppinglist は Genkit ラップだが**ロジックだけ移植して Genkit は使わない**。
 
@@ -176,7 +176,7 @@ else:
 | `acceptGroupInvitation` | pending 検索 → 期限切れなら status=expired にして NG → tx 内で再検証 + memberUserIDs arrayUnion + status=accepted + userProfile 作成。既メンバーは冪等スキップ。戻り値 groupID |
 | `removeGroupMember` | owner のみ。target == owner は拒否。tx: arrayRemove + userProfile 削除 + target の defaultGroupID がこのグループなら「target が owner の最古グループ」に付け替え（無ければ null。クライアント側は defaultGroupID null かつ移行済みなら再度ソログループを createGroup するフォールバックを持つ） |
 | `sendMedicationRecordNotification` | 引数 {groupID, medicineID, medicineName, doseReceiverName}。呼び出し者がメンバーであること。displayName は userProfiles からサーバ側で解決。対象 = 自分以外の全メンバーの `privates.fcmTokens[]`（`'debug_mode'` は除外）。`sendEachForMulticast` → invalid-registration-token / registration-token-not-registered を arrayRemove でクリーンアップ。0 件なら送信スキップ。通知文言は v1 は日本語固定 |
-| `utils/premium.ts` | `hasPremiumEntitlement(uid)`: GET `https://api.revenuecat.com/v1/subscribers/{uid}`、entitlement `Premium`、expires_date null は無期限、失敗時は false（fail-closed）。Secret は既存の `REVENUECAT_API_SECRET` を流用（startPromotion と同じ defineSecret 名にすること。実装前に `functions/src/functions/startPromotion/function.ts` で名前を確認） |
+| `utils/premium.ts` | `hasPremiumEntitlement(uid)`: GET `https://api.revenuecat.com/v1/subscribers/{uid}`、entitlement `Premium`、expires_date null は無期限、失敗時は false（fail-closed）。Secret は既存の `REVENUECAT_API_SECRET` を流用（startPromotion と同じ defineSecret 名にすること。実装前に `firebase/functions/src/functions/startPromotion/function.ts` で名前を確認） |
 
 テスト: `jest` + `ts-jest` を devDependencies に追加し `npm test` を新設（現状テスト基盤なし）。SL のテストは Genkit をモックしているが、素の onCall なのでハンドラ関数を直接テストする。
 

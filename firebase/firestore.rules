@@ -4,11 +4,13 @@ rules_version = '2';
 // JWT (Firebase Auth) の本人認証 + リソース所有 (グループメンバー) 判定のみを行い、
 // データ内容に踏み込んだガード (プレミアム判定・期間判定・フィールド diff 等) は実装しない。
 //
-// 重要 (デプロイ前に必ず確認):
-// medicalarm はこれまで firestore.rules をリポジトリ管理しておらず、本ファイルは
-// 設計ドキュメント (documents/group-feature-design.md) に基づく新規作成である。現行
-// Console 上の rules は未エクスポートのため、デプロイ前にユーザーが `firebase init firestore`
-// 等で Console の現行 rules をダウンロードし、本ファイルとの差分がないことを突き合わせること。
+// /users ツリーは medicalarm-prod にデプロイ済みだった旧ルール (#242 でエクスポート) の
+// 操作別許可 (privates は read 不可・users は delete 不可・doseReceivers は delete 不可) を維持し、
+// グループ機能 (#241) で以下を追加している:
+// - /groups ツリーと /groupInvitations
+// - デバッグユーザーパターン ({uid}_debug_N)
+// - /users/{userID}/diaries (旧ルールに match が無く deny だったが、グループ移行が読み取るため追加)
+// - users の create を本人 + デバッグユーザーに限定 (旧ルールは認証済みなら他人の uid でも作成可能だった)
 service cloud.firestore {
   match /databases/{database}/documents {
     function isAuth() {
@@ -30,17 +32,30 @@ service cloud.firestore {
     }
 
     match /users/{userID} {
-      allow read, write: if isUserAuth(userID) || isDebugUserOf(userID);
+      allow read, create, update: if isUserAuth(userID) || isDebugUserOf(userID);
 
-      // fcmToken / apnsToken / fcmTokens 等の現行データ。
+      // fcmToken / fcmTokens / apnsToken。旧ルールどおり read は許可しない (クライアントは書き込みのみ)。
       match /privates/{privateID} {
-        allow read, write: if isUserAuth(userID) || isDebugUserOf(userID);
+        allow create, update: if isUserAuth(userID) || isDebugUserOf(userID);
       }
 
-      // グループ移行後も /users/{userID} 配下に残置するレガシーデータ
-      // (medicines / doseReceivers / medicationHistories / diaries)。本人のみアクセス可能。
-      match /{legacyCollection}/{docID} {
-        allow read, write: if isUserAuth(userID) || isDebugUserOf(userID);
+      // グループ移行後も /users/{userID} 配下に残置するレガシーデータ。
+      match /medicines/{medicineID} {
+        allow read, create, update, delete: if isUserAuth(userID) || isDebugUserOf(userID);
+      }
+
+      match /medicationHistories/{medicationHistoryID} {
+        allow read, create, update, delete: if isUserAuth(userID) || isDebugUserOf(userID);
+      }
+
+      // 旧ルールどおり delete は許可しない (DoseReceiver は削除不可の設計)。
+      match /doseReceivers/{doseReceiverID} {
+        allow read, create, update: if isUserAuth(userID) || isDebugUserOf(userID);
+      }
+
+      // 旧ルールに match が無く deny だったが、グループ移行 (GroupMigration) が読み取るため追加。
+      match /diaries/{diaryID} {
+        allow read, create, update, delete: if isUserAuth(userID) || isDebugUserOf(userID);
       }
     }
 

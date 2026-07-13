@@ -1,6 +1,6 @@
 # firestore-rules-test
 
-リポジトリルートの `firestore.rules` を Firestore Emulator 上で検証する単体テスト。
+`firebase/firestore.rules` を Firestore Emulator 上で検証する単体テスト。
 `@firebase/rules-unit-testing` + Jest。medicalarm 本体 (Flutter) / `functions/` とは独立した npm パッケージ。
 
 ## 前提
@@ -12,7 +12,7 @@
 ## セットアップ
 
 ```sh
-cd firestore-rules-test
+cd firebase/firestore-rules-test
 npm install
 ```
 

@@ -5,7 +5,7 @@ const {
   assertSucceeds,
   assertFails,
 } = require('@firebase/rules-unit-testing');
-const { doc, getDoc, setDoc } = require('firebase/firestore');
+const { doc, getDoc, setDoc, deleteDoc } = require('firebase/firestore');
 
 // demo- 接頭辞により Emulator が demo モード (実プロジェクト不要) で動作する。
 // package.json の `firebase emulators:exec --project demo-medicalarm` と一致させる。
@@ -110,13 +110,16 @@ describe('groups create / groupInvitations: クライアント直アクセスは
   });
 });
 
-describe('users ツリー: 本人のみアクセス可能', () => {
-  test('本人(alice)は users/alice と privates を read/write できる', async () => {
+describe('users ツリー: 本人のみアクセス可能 (旧本番ルールの操作別許可を維持)', () => {
+  test('本人(alice)は users/alice を read/write でき、privates は書き込みのみできる', async () => {
     const db = testEnv.authenticatedContext('alice').firestore();
     await assertSucceeds(setDoc(doc(db, 'users/alice'), { name: 'Alice' }));
     await assertSucceeds(getDoc(doc(db, 'users/alice')));
     await assertSucceeds(setDoc(doc(db, 'users/alice/privates/alice'), { fcmToken: 't' }));
-    await assertSucceeds(getDoc(doc(db, 'users/alice/privates/alice')));
+    // 旧本番ルールどおり privates の read は本人でも不可 (クライアントは書き込みのみ)。
+    await assertFails(getDoc(doc(db, 'users/alice/privates/alice')));
+    // 旧本番ルールどおり users 本体の delete は不可。
+    await assertFails(deleteDoc(doc(db, 'users/alice')));
   });
 
   test('他人(bob)は users/alice を read/write できない', async () => {
@@ -131,6 +134,12 @@ describe('users ツリー: 本人のみアクセス可能', () => {
     await assertSucceeds(setDoc(doc(aliceDB, 'users/alice/medicines/m1'), { name: '薬' }));
     await assertSucceeds(getDoc(doc(aliceDB, 'users/alice/medicines/m1')));
     await assertSucceeds(setDoc(doc(aliceDB, 'users/alice/medicationHistories/h1'), { at: 1 }));
+    // diaries はグループ移行 (GroupMigration) が読むため #241 で match を追加した。
+    await assertSucceeds(setDoc(doc(aliceDB, 'users/alice/diaries/d1'), { memo: '日記' }));
+    await assertSucceeds(getDoc(doc(aliceDB, 'users/alice/diaries/d1')));
+    // 旧本番ルールどおり doseReceivers の delete は不可 (DoseReceiver は削除不可の設計)。
+    await assertSucceeds(setDoc(doc(aliceDB, 'users/alice/doseReceivers/r1'), { name: '本人' }));
+    await assertFails(deleteDoc(doc(aliceDB, 'users/alice/doseReceivers/r1')));
 
     const bobDB = testEnv.authenticatedContext('bob').firestore();
     await assertFails(getDoc(doc(bobDB, 'users/alice/medicines/m1')));
