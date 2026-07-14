@@ -46,15 +46,18 @@ extension FirebaseFunctionsExt on FirebaseFunctions {
 
   // 服薬記録を追加した際に、同じグループの他メンバーへ FCM push 通知を送る。
   // push 本文(薬名・記録者の表示名)はサーバー側が groupID / medicineID から解決するため渡さない。
+  // medicationHistoryID はサーバー側が「実際に書かれた履歴」を検証するために渡す。
   // 送信失敗は記録の成否に影響させないため、呼び出し側は unawaited で呼び catch する。
   // ソログループなど送信対象 0 件の場合はサーバー側でスキップされる。
   Future<void> sendMedicationRecordNotification({
     required String groupID,
     required String medicineID,
+    required String medicationHistoryID,
   }) async {
     final result = await httpsCallable('sendMedicationRecordNotification').call({
       'groupID': groupID,
       'medicineID': medicineID,
+      'medicationHistoryID': medicationHistoryID,
     });
     final response = mapToJSON(result.data);
     if (response['result'] != 'OK') {

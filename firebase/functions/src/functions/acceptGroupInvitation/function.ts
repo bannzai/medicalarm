@@ -54,9 +54,24 @@ async function acceptGroupInvitationHandler(req: {
     const invitationDoc = invitationSnapshot.docs[0];
     const invitationData = invitationDoc.data();
 
-    // 期限切れチェック
+    const groupID = invitationData.groupID;
+    const groupRef = database.collection("groups").doc(groupID);
+
+    // 期限切れチェックより先にメンバーシップを解決する。
+    // accepted 済みの招待でも 7 日経過後にクライアントがリトライすると 410 になる不具合を避けるため、
+    // 期限切れ扱い (status=expired への更新 + 410) は「呼び出し者がまだメンバーでない かつ status==pending」の
+    // 場合に限定する。既メンバーなら期限切れでも冪等に成功 (groupID 返却) とする (トランザクションで判定)。
+    const preGroupDoc = await groupRef.get();
+    const preMemberUserIDs: string[] = preGroupDoc.data()?.memberUserIDs ?? [];
+    const isAlreadyMember = preMemberUserIDs.includes(uid);
+
     const expiresDateTime = invitationData.expiresDateTime?.toDate();
-    if (expiresDateTime && expiresDateTime < new Date()) {
+    if (
+      expiresDateTime &&
+      expiresDateTime < new Date() &&
+      !isAlreadyMember &&
+      invitationData.status === "pending"
+    ) {
       await invitationDoc.ref.update({
         status: "expired",
         updatedDateTime: FieldValue.serverTimestamp(),
@@ -68,9 +83,6 @@ async function acceptGroupInvitationHandler(req: {
         error: { message: "招待の有効期限が切れています" },
       };
     }
-
-    const groupID = invitationData.groupID;
-    const groupRef = database.collection("groups").doc(groupID);
 
     // トランザクションでグループへの参加と招待ステータスの更新をアトミックに行う。
     // 招待ドキュメントもトランザクション内で再読み込みし、同時利用によるレースコンディションを防ぐ。

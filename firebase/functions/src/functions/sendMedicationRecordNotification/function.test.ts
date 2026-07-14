@@ -47,10 +47,15 @@ type PrivateRef = { get: jest.Mock; update: jest.Mock };
 
 const senderProfileRef = { get: jest.fn() };
 const medicineRef = { get: jest.fn() };
+const historyRef = { get: jest.fn() };
 const groupDocRef = {
   get: jest.fn(),
   collection: jest.fn((name: string) => ({
-    doc: jest.fn(() => (name === "medicines" ? medicineRef : senderProfileRef)),
+    doc: jest.fn(() => {
+      if (name === "medicines") return medicineRef;
+      if (name === "medicationHistories") return historyRef;
+      return senderProfileRef;
+    }),
   })),
 };
 let privateRefs: Record<string, PrivateRef> = {};
@@ -72,12 +77,29 @@ function setup(args: {
   medicineExists?: boolean;
   medicineName?: string;
   doseReceiverName?: string;
+  // 服薬記録ドキュメントのモック。既定は「呼び出し者 me が直近に記録した」有効な記録。
+  historyExists?: boolean;
+  historyRecordedByUserID?: string;
+  historyRecordedOffsetMs?: number;
   tokensByUser: Record<string, string[] | null>;
 }): void {
   groupDocRef.get.mockResolvedValue({
     exists: true,
     data: () => ({ memberUserIDs: args.members }),
   });
+  historyRef.get.mockResolvedValue(
+    args.historyExists === false
+      ? { exists: false, data: () => undefined }
+      : {
+        exists: true,
+        data: () => ({
+          recordedByUserID: args.historyRecordedByUserID ?? "me",
+          recordedDateTime: {
+            toMillis: () => Date.now() + (args.historyRecordedOffsetMs ?? 0),
+          },
+        }),
+      }
+  );
   medicineRef.get.mockResolvedValue(
     args.medicineExists === false
       ? { exists: false, data: () => undefined }
@@ -126,7 +148,7 @@ describe("sendMedicationRecordNotification", () => {
 
     const result = await handler({
       auth: { uid: "me" },
-      data: { groupID: "group-1", medicineID: "med-1" },
+      data: { groupID: "group-1", medicineID: "med-1", medicationHistoryID: "hist-1" },
     });
 
     expect(result.result).toBe("OK");
@@ -160,7 +182,7 @@ describe("sendMedicationRecordNotification", () => {
     // クライアントは groupID / medicineID のみを渡す
     const result = await handler({
       auth: { uid: "me" },
-      data: { groupID: "group-1", medicineID: "med-1" },
+      data: { groupID: "group-1", medicineID: "med-1", medicationHistoryID: "hist-1" },
     });
 
     expect(result.result).toBe("OK");
@@ -182,11 +204,63 @@ describe("sendMedicationRecordNotification", () => {
 
     const result = await handler({
       auth: { uid: "me" },
-      data: { groupID: "group-1", medicineID: "med-1" },
+      data: { groupID: "group-1", medicineID: "med-1", medicationHistoryID: "hist-1" },
     });
 
     expect(result.result).toBe("NG");
     expect(result.statusCode).toBe(404);
+    expect(mockSendEach).not.toHaveBeenCalled();
+  });
+
+  test("服薬記録が存在しない場合は 404 で送信しない", async () => {
+    setup({
+      members: ["me", "other"],
+      historyExists: false,
+      tokensByUser: { other: ["real-token"] },
+    });
+
+    const result = await handler({
+      auth: { uid: "me" },
+      data: { groupID: "group-1", medicineID: "med-1", medicationHistoryID: "hist-1" },
+    });
+
+    expect(result.result).toBe("NG");
+    expect(result.statusCode).toBe(404);
+    expect(mockSendEach).not.toHaveBeenCalled();
+  });
+
+  test("他人が記録した服薬記録では 403 で送信しない", async () => {
+    setup({
+      members: ["me", "other"],
+      historyRecordedByUserID: "other",
+      tokensByUser: { other: ["real-token"] },
+    });
+
+    const result = await handler({
+      auth: { uid: "me" },
+      data: { groupID: "group-1", medicineID: "med-1", medicationHistoryID: "hist-1" },
+    });
+
+    expect(result.result).toBe("NG");
+    expect(result.statusCode).toBe(403);
+    expect(mockSendEach).not.toHaveBeenCalled();
+  });
+
+  test("記録から 5 分以上経過している場合は 403 で送信しない", async () => {
+    setup({
+      members: ["me", "other"],
+      // 6 分前の記録は許容鮮度 (5 分) を超えるため拒否される。
+      historyRecordedOffsetMs: -6 * 60 * 1000,
+      tokensByUser: { other: ["real-token"] },
+    });
+
+    const result = await handler({
+      auth: { uid: "me" },
+      data: { groupID: "group-1", medicineID: "med-1", medicationHistoryID: "hist-1" },
+    });
+
+    expect(result.result).toBe("NG");
+    expect(result.statusCode).toBe(403);
     expect(mockSendEach).not.toHaveBeenCalled();
   });
 
@@ -208,7 +282,7 @@ describe("sendMedicationRecordNotification", () => {
 
     const result = await handler({
       auth: { uid: "me" },
-      data: { groupID: "group-1", medicineID: "med-1" },
+      data: { groupID: "group-1", medicineID: "med-1", medicationHistoryID: "hist-1" },
     });
 
     expect(result.result).toBe("OK");
@@ -239,7 +313,7 @@ describe("sendMedicationRecordNotification", () => {
 
     const result = await handler({
       auth: { uid: "me" },
-      data: { groupID: "group-1", medicineID: "med-1" },
+      data: { groupID: "group-1", medicineID: "med-1", medicationHistoryID: "hist-1" },
     });
 
     expect(result.result).toBe("OK");
@@ -257,7 +331,7 @@ describe("sendMedicationRecordNotification", () => {
 
     const result = await handler({
       auth: { uid: "me" },
-      data: { groupID: "group-1", medicineID: "med-1" },
+      data: { groupID: "group-1", medicineID: "med-1", medicationHistoryID: "hist-1" },
     });
 
     expect(result.result).toBe("OK");
@@ -270,7 +344,7 @@ describe("sendMedicationRecordNotification", () => {
 
     const result = await handler({
       auth: { uid: "outsider" },
-      data: { groupID: "group-1", medicineID: "med-1" },
+      data: { groupID: "group-1", medicineID: "med-1", medicationHistoryID: "hist-1" },
     });
 
     expect(result.result).toBe("NG");
@@ -280,7 +354,7 @@ describe("sendMedicationRecordNotification", () => {
   test("未認証は 401", async () => {
     const result = await handler({
       auth: null,
-      data: { groupID: "group-1", medicineID: "med-1" },
+      data: { groupID: "group-1", medicineID: "med-1", medicationHistoryID: "hist-1" },
     });
     expect(result.result).toBe("NG");
     expect(result.statusCode).toBe(401);

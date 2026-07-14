@@ -116,8 +116,9 @@ async function createGroupInvitationHandler(req: {
       serverUpdatedDateTime: FieldValue.serverTimestamp(),
     });
 
+    // 招待コードは秘匿情報のためログに出さない (invitation doc ID / groupID のみ)。
     logger.info(
-      `Created invitation for group ${groupID}: code=${invitationCode}`
+      `Created invitation ${invitationRef.id} for group ${groupID}`
     );
 
     return {

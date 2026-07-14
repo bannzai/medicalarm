@@ -42,12 +42,17 @@ jest.mock("firebase-functions", () => ({
 const handler = require("./function") as Handler;
 
 const profileRef = { __ref: "profileRef" };
+const notificationSettingRef = { __ref: "notificationSettingRef" };
 const groupRef = {
   get: jest.fn(),
-  collection: jest.fn(() => ({ doc: jest.fn(() => profileRef) })),
+  collection: jest.fn((name: string) => ({
+    doc: jest.fn(() =>
+      name === "memberNotificationSettings" ? notificationSettingRef : profileRef
+    ),
+  })),
 };
 const userRef = { __ref: "userRef" };
-const ownedGroupsQuery = { __ref: "ownedGroupsQuery" };
+const memberGroupsQuery = { __ref: "memberGroupsQuery" };
 
 const mockTransaction = {
   get: jest.fn(),
@@ -56,8 +61,8 @@ const mockTransaction = {
   delete: jest.fn(),
 };
 
-/** createdDateTime を持つ所有グループの QueryDocumentSnapshot 相当を作る。 */
-function ownedGroupDoc(id: string, createdMillis: number): unknown {
+/** createdDateTime を持つ所属グループの QueryDocumentSnapshot 相当を作る。 */
+function memberGroupDoc(id: string, createdMillis: number): unknown {
   return { id, data: () => ({ createdDateTime: { toMillis: () => createdMillis } }) };
 }
 
@@ -66,7 +71,7 @@ function setup(args: {
   members?: string[];
   targetExists?: boolean;
   targetDefaultGroupID?: string | null;
-  ownedDocs?: unknown[];
+  memberDocs?: unknown[];
 }): void {
   groupRef.get.mockResolvedValue({
     exists: true,
@@ -76,7 +81,7 @@ function setup(args: {
     if (path === "groups") {
       return {
         doc: jest.fn(() => groupRef),
-        where: jest.fn(() => ownedGroupsQuery),
+        where: jest.fn(() => memberGroupsQuery),
       };
     }
     if (path === "users") {
@@ -96,8 +101,8 @@ function setup(args: {
         data: () => ({ defaultGroupID: args.targetDefaultGroupID ?? null }),
       });
     }
-    if (ref === ownedGroupsQuery) {
-      return Promise.resolve({ docs: args.ownedDocs ?? [] });
+    if (ref === memberGroupsQuery) {
+      return Promise.resolve({ docs: args.memberDocs ?? [] });
     }
     return Promise.resolve({ exists: false, data: () => undefined });
   });
@@ -149,12 +154,26 @@ describe("removeGroupMember", () => {
     expect(mockTransaction.delete).not.toHaveBeenCalled();
   });
 
-  test("対象の defaultGroupID が当該グループなら最古の所有グループへ付け替える", async () => {
+  test("削除時に対象の userProfile と memberNotificationSettings を delete する", async () => {
+    setup({ ownerUserID: "owner", members: ["owner", "target"] });
+
+    const result = await handler({
+      auth: { uid: "owner" },
+      data: { groupID: "group-1", targetUserID: "target" },
+    });
+
+    expect(result.result).toBe("OK");
+    // userProfiles と memberNotificationSettings の両方を削除する
+    expect(mockTransaction.delete).toHaveBeenCalledWith(profileRef);
+    expect(mockTransaction.delete).toHaveBeenCalledWith(notificationSettingRef);
+  });
+
+  test("対象の defaultGroupID が当該グループなら最古の所属グループへ付け替える", async () => {
     setup({
       ownerUserID: "owner",
       members: ["owner", "target"],
       targetDefaultGroupID: "group-1",
-      ownedDocs: [ownedGroupDoc("g-new", 200), ownedGroupDoc("g-old", 100)],
+      memberDocs: [memberGroupDoc("g-new", 200), memberGroupDoc("g-old", 100)],
     });
 
     const result = await handler({
@@ -174,12 +193,34 @@ describe("removeGroupMember", () => {
     );
   });
 
-  test("対象が他に所有グループを持たなければ defaultGroupID は null にする", async () => {
+  test("付け替え先は所有ではなくメンバーとして所属する他グループでよい", async () => {
+    // 対象が owner でなくメンバーとしてのみ所属するグループ (g-member) が候補になる。
+    // 除外対象 (group-1) はクエリ結果に含まれても JS 側で除外される。
     setup({
       ownerUserID: "owner",
       members: ["owner", "target"],
       targetDefaultGroupID: "group-1",
-      ownedDocs: [],
+      memberDocs: [memberGroupDoc("group-1", 50), memberGroupDoc("g-member", 300)],
+    });
+
+    const result = await handler({
+      auth: { uid: "owner" },
+      data: { groupID: "group-1", targetUserID: "target" },
+    });
+
+    expect(result.result).toBe("OK");
+    expect(mockTransaction.update).toHaveBeenCalledWith(
+      userRef,
+      expect.objectContaining({ defaultGroupID: "g-member" })
+    );
+  });
+
+  test("対象が他に所属グループを持たなければ defaultGroupID は null にする", async () => {
+    setup({
+      ownerUserID: "owner",
+      members: ["owner", "target"],
+      targetDefaultGroupID: "group-1",
+      memberDocs: [],
     });
 
     const result = await handler({

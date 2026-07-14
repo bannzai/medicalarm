@@ -274,14 +274,16 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
         // await をまたいで ref を触るとウィジェット破棄後アクセスで例外になるため、ref 依存値は await の前に読み出す。
         final groupID = ref.read(currentGroupIDProvider);
         final currentUserID = ref.read(appUserIDProvider);
-        final memberSettingsFuture = ref.read(groupMemberNotificationSettingsProvider.future);
+        // memberSettings は take 内の AlarmKit 判定と Focus 連携の解決で共用するため、write より前に読み出して解決する。
+        final memberSettings = await ref.read(groupMemberNotificationSettingsProvider.future);
 
-        await medicationHistoryTake.call(
+        final medicationHistory = await medicationHistoryTake.call(
           medicationHistory: scheduleRow.medicationHistory,
           scheduledRecordedDate: scheduleRow.date,
           recordedDateTime: scheduleRow.medicationHistory?.recordedDateTime ?? DateTime.now(),
           medicine: scheduleRow.medicine,
           medicationSchedule: scheduleRow.medicationSchedule,
+          memberSettings: memberSettings,
         );
 
         // 同じグループの他メンバーへ服薬記録を push 通知する。失敗しても記録は成功扱いにするため unawaited + catch。
@@ -292,6 +294,7 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
                 .sendMedicationRecordNotification(
               groupID: groupID,
               medicineID: scheduleRow.medicine.id,
+              medicationHistoryID: medicationHistory.id,
             )
                 .catchError((Object e, StackTrace st) {
               errorLogger.recordError(e, st);
@@ -303,7 +306,7 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
         final focusConnectScheduleID = resolveEffectiveNotificationSetting(
           medicine: scheduleRow.medicine,
           schedule: scheduleRow.medicationSchedule,
-          memberSettings: await memberSettingsFuture,
+          memberSettings: memberSettings,
           currentUserID: currentUserID,
         ).focusConnectScheduleID;
         if (focusConnectScheduleID != null) {

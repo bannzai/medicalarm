@@ -1,4 +1,5 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:medicalarm/entity/group_member_notification_settings.dart';
 import 'package:medicalarm/entity/medication_history.dart';
 import 'package:medicalarm/entity/medicine.dart';
 import 'package:medicalarm/features/resolver/database.dart';
@@ -44,6 +45,8 @@ class MedicationHistoryTake {
     required DateTime scheduledRecordedDate,
     required Medicine medicine,
     required MedicationSchedule medicationSchedule,
+    // AlarmKit 停止判定を共有テンプレートではなく記録者に有効な設定で行うために解決に使う。
+    required GroupMemberNotificationSettings? memberSettings,
   }) async {
     final docRef = database.medicationHistoriesReference().doc();
 
@@ -67,7 +70,13 @@ class MedicationHistoryTake {
     // 服用記録を保存
     await docRef.set(newMedicationHistory, SetOptions(merge: true));
 
-    if (medicationSchedule.notificationSetting.useAlarmKit) {
+    // 共有テンプレート直読みではなく、記録者に有効な設定(メンバー個別設定で有効化した場合も含む)で AlarmKit 停止を判定する。
+    if (resolveEffectiveNotificationSetting(
+      medicine: medicine,
+      schedule: medicationSchedule,
+      memberSettings: memberSettings,
+      currentUserID: userID,
+    ).useAlarmKit) {
       try {
         await AlarmKitService.stopAllAlarms();
         analytics.debug(name: 'medication_history_take_alarm_kit_stopped');

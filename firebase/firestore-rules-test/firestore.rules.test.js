@@ -5,7 +5,7 @@ const {
   assertSucceeds,
   assertFails,
 } = require('@firebase/rules-unit-testing');
-const { doc, getDoc, setDoc, deleteDoc } = require('firebase/firestore');
+const { doc, getDoc, setDoc, deleteDoc, serverTimestamp } = require('firebase/firestore');
 
 // demo- 接頭辞により Emulator が demo モード (実プロジェクト不要) で動作する。
 // package.json の `firebase emulators:exec --project demo-medicalarm` と一致させる。
@@ -63,12 +63,69 @@ beforeEach(async () => {
 });
 
 describe('groups: メンバーは本体を read/update でき、共有サブコレクションを read/write できる', () => {
-  test('メンバー(alice)は groups/{id} 本体を read/update できる', async () => {
+  test('メンバー(alice)は groups/{id} 本体を read でき、name のみの update ができる', async () => {
     const db = testEnv.authenticatedContext('alice').firestore();
     await assertSucceeds(getDoc(doc(db, `groups/${GROUP_ID}`)));
+    // memberUserIDs は同値のため diff().affectedKeys() は {name} のみ → 許可される。
     await assertSucceeds(
       setDoc(doc(db, `groups/${GROUP_ID}`), { memberUserIDs: MEMBER_IDS, name: '更新後' }, { merge: true }),
     );
+  });
+
+  test('メンバー(alice)は name / iconName / serverUpdatedDateTime のみなら同時 update できる', async () => {
+    const db = testEnv.authenticatedContext('alice').firestore();
+    await assertSucceeds(
+      setDoc(
+        doc(db, `groups/${GROUP_ID}`),
+        { name: '新しい名前', iconName: 'family', serverUpdatedDateTime: serverTimestamp() },
+        { merge: true },
+      ),
+    );
+  });
+
+  test('GroupNameUpdate 相当: 全フィールドを同値で set(merge) しつつ name だけ変えると許可される', async () => {
+    // GroupNameUpdate は Group 全体を copyWith(name:) して set(merge) する。
+    // ownerUserID / iconName / createdDateTime 等を同値で再送しても diff には含まれないことを検証する。
+    await testEnv.withSecurityRulesDisabled(async (ctx) => {
+      await setDoc(doc(ctx.firestore(), `groups/${GROUP_ID}`), {
+        id: GROUP_ID,
+        memberUserIDs: MEMBER_IDS,
+        name: '元の名前',
+        ownerUserID: 'alice',
+        iconName: 'home',
+        createdDateTime: 1000,
+      });
+    });
+    const db = testEnv.authenticatedContext('alice').firestore();
+    await assertSucceeds(
+      setDoc(
+        doc(db, `groups/${GROUP_ID}`),
+        {
+          id: GROUP_ID,
+          memberUserIDs: MEMBER_IDS,
+          name: '変更後の名前',
+          ownerUserID: 'alice',
+          iconName: 'home',
+          createdDateTime: 1000,
+          serverUpdatedDateTime: serverTimestamp(),
+        },
+        { merge: true },
+      ),
+    );
+  });
+
+  test('メンバー(alice)でも memberUserIDs を変更する update は拒否される', async () => {
+    const db = testEnv.authenticatedContext('alice').firestore();
+    // 自分自身を含む新メンバーの追加でも、memberUserIDs が diff に含まれるため拒否される。
+    await assertFails(
+      setDoc(doc(db, `groups/${GROUP_ID}`), { memberUserIDs: [...MEMBER_IDS, 'charlie'] }, { merge: true }),
+    );
+  });
+
+  test('メンバー(alice)でも ownerUserID を変更する update は拒否される', async () => {
+    // seed には ownerUserID が無いため、付与は新規キーとして diff に含まれ拒否される。
+    const db = testEnv.authenticatedContext('alice').firestore();
+    await assertFails(setDoc(doc(db, `groups/${GROUP_ID}`), { ownerUserID: 'alice' }, { merge: true }));
   });
 
   // グループ削除フローはクライアントに無いため、メンバーでも delete は拒否される。
@@ -101,6 +158,22 @@ describe('groups/userProfiles: read はメンバー全員、write は自分の p
     await assertSucceeds(setDoc(doc(db, `groups/${GROUP_ID}/userProfiles/p_alice`), { userID: 'alice', displayName: 'Alice' }));
     await assertSucceeds(
       setDoc(doc(db, `groups/${GROUP_ID}/userProfiles/p_alice`), { userID: 'alice', displayName: '更新後' }, { merge: true }),
+    );
+  });
+
+  test('メンバー(alice)は自分の userProfile の userID を別人に書き換えられない', async () => {
+    // 自分の profile を seed してから userID を bob に変える update を試みる (成りすまし防止)。
+    await testEnv.withSecurityRulesDisabled(async (ctx) => {
+      await setDoc(doc(ctx.firestore(), `groups/${GROUP_ID}/userProfiles/p_alice`), { userID: 'alice', displayName: 'Alice' });
+    });
+    const db = testEnv.authenticatedContext('alice').firestore();
+    // displayName の変更は許可される。
+    await assertSucceeds(
+      setDoc(doc(db, `groups/${GROUP_ID}/userProfiles/p_alice`), { userID: 'alice', displayName: '更新後' }, { merge: true }),
+    );
+    // userID を別人に変える update は拒否される。
+    await assertFails(
+      setDoc(doc(db, `groups/${GROUP_ID}/userProfiles/p_alice`), { userID: 'bob' }, { merge: true }),
     );
   });
 

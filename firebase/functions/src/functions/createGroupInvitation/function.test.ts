@@ -46,6 +46,8 @@ jest.mock("firebase-functions", () => ({
 
 // eslint-disable-next-line @typescript-eslint/no-var-requires
 const handler = require("./function") as Handler;
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const mockLoggerInfo = require("firebase-functions").logger.info as jest.Mock;
 
 const invitationRef = { id: "invitation-1", set: jest.fn() };
 
@@ -114,6 +116,28 @@ describe("createGroupInvitation", () => {
     expect(result.result).toBe("OK");
     expect(result.data?.expiresDateTime).toBe(
       new Date(FIXED_NOW_MS + 7 * DAY_MS).toISOString()
+    );
+  });
+
+  test("ログに招待コードの実値を出力しない", async () => {
+    setupCollections(["user-1"]);
+
+    const result = await handler({
+      auth: { uid: "user-1" },
+      data: { groupID: "group-1" },
+    });
+
+    expect(result.result).toBe("OK");
+    const invitationCode = result.data?.invitationCode as string;
+    // 全 logger.info 呼び出しの引数に招待コードが含まれないこと。
+    for (const call of mockLoggerInfo.mock.calls) {
+      for (const arg of call) {
+        expect(String(arg)).not.toContain(invitationCode);
+      }
+    }
+    // doc ID と groupID はログに含めてよい。
+    expect(mockLoggerInfo).toHaveBeenCalledWith(
+      expect.stringContaining("invitation-1")
     );
   });
 

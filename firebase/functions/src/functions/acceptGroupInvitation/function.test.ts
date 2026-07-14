@@ -47,6 +47,7 @@ const handler = require("./function") as Handler;
 const invitationRefObj = { update: jest.fn() };
 const profileRef = { __ref: "profileRef" };
 const groupRef = {
+  get: jest.fn(),
   collection: jest.fn(() => ({ doc: jest.fn(() => profileRef) })),
 };
 
@@ -100,6 +101,11 @@ function setup(args: {
       return { doc: jest.fn(() => groupRef) };
     }
     return {};
+  });
+  // 期限切れ判定前の pre-read (groupRef.get) はトランザクション再読み込みと同じメンバー構成を返す。
+  groupRef.get.mockResolvedValue({
+    exists: true,
+    data: () => ({ memberUserIDs: args.groupMembers ?? ["owner"] }),
   });
   mockTransaction.get.mockImplementation((ref: unknown) => {
     if (ref === groupRef) {
@@ -201,6 +207,28 @@ describe("acceptGroupInvitation", () => {
     expect(result.data?.groupID).toBe("group-1");
     expect(mockTransaction.update).not.toHaveBeenCalled();
     expect(mockTransaction.set).not.toHaveBeenCalled();
+  });
+
+  test("accepted 済み + 期限切れでも既メンバーなら 410 でなく OK を返す", async () => {
+    // accepted 済みの招待が 7 日経過した後に、参加済みユーザーがリトライしても成功する。
+    setup({
+      found: true,
+      expiresOffsetMs: -DAY_MS,
+      invitationStatus: "accepted",
+      txInvitationStatus: "accepted",
+      groupMembers: ["owner", "newbie"],
+    });
+
+    const result = await handler({
+      auth: { uid: "newbie" },
+      data: { invitationCode: "ABCD3456" },
+    });
+
+    expect(result.result).toBe("OK");
+    expect(result.statusCode).toBe(200);
+    expect(result.data?.groupID).toBe("group-1");
+    // 期限切れ更新 (status=expired) は行わない
+    expect(invitationRefObj.update).not.toHaveBeenCalled();
   });
 
   test("既にメンバーなら冪等にグループ ID を返し、書き込みを行わない", async () => {

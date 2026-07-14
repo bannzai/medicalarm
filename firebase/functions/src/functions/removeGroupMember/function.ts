@@ -13,20 +13,20 @@ interface GroupData {
 }
 
 /**
- * 対象ユーザーが ownerUserID である最古(createdDateTime 昇順)のグループ ID を返す。
- * 除外対象(現在離脱するグループ)以外に所有グループが無ければ null を返す。
+ * 対象ユーザーがメンバーである最古(createdDateTime 昇順)のグループ ID を返す。
+ * 除外対象(現在離脱するグループ)以外に所属グループが無ければ null を返す。
  *
- * NOTE: 「ownerUserID == equality + createdDateTime orderBy」は複合インデックスを要求するため、
- * equality のみでクエリしてメモリ上で昇順ソートする(1 ユーザーの所有グループ数は少数のため許容)。
+ * NOTE: 「memberUserIDs array-contains + createdDateTime orderBy」は複合インデックスを要求するため、
+ * array-contains のみでクエリしてメモリ上で昇順ソートする(1 ユーザーの所属グループ数は少数のため許容)。
  */
-function oldestOwnedGroupID({
-  ownedGroupDocs,
+function oldestMemberGroupID({
+  memberGroupDocs,
   excludeGroupID,
 }: {
-  ownedGroupDocs: FirebaseFirestore.QueryDocumentSnapshot[];
+  memberGroupDocs: FirebaseFirestore.QueryDocumentSnapshot[];
   excludeGroupID: string;
 }): string | null {
-  const sorted = ownedGroupDocs
+  const sorted = memberGroupDocs
     .filter((doc) => doc.id !== excludeGroupID)
     .sort((a, b) => {
       const aMillis =
@@ -112,7 +112,7 @@ async function removeGroupMemberHandler(req: {
       }
 
       // Firestore トランザクションは全ての read を全ての write より前に実行する必要があるため、
-      // defaultGroupID 判定に使う対象ユーザーと、その付け替え先候補(対象ユーザーの所有グループ)の
+      // defaultGroupID 判定に使う対象ユーザーと、その付け替え先候補(対象ユーザーが所属する他グループ)の
       // read を書き込みより先に済ませる。
       const userRef = database.collection("users").doc(targetUserID);
       const userDoc = await transaction.get(userRef);
@@ -120,11 +120,13 @@ async function removeGroupMemberHandler(req: {
         userDoc.exists && userDoc.data()?.defaultGroupID === groupID;
       let reassignedGroupID: string | null = null;
       if (shouldReassignDefault) {
-        const ownedGroupsSnapshot = await transaction.get(
-          database.collection("groups").where("ownerUserID", "==", targetUserID)
+        const memberGroupsSnapshot = await transaction.get(
+          database
+            .collection("groups")
+            .where("memberUserIDs", "array-contains", targetUserID)
         );
-        reassignedGroupID = oldestOwnedGroupID({
-          ownedGroupDocs: ownedGroupsSnapshot.docs,
+        reassignedGroupID = oldestMemberGroupID({
+          memberGroupDocs: memberGroupsSnapshot.docs,
           excludeGroupID: groupID,
         });
       }
@@ -140,6 +142,12 @@ async function removeGroupMemberHandler(req: {
         groupRef
           .collection("userProfiles")
           .doc(groupUserProfileDocumentID({ groupID, userID: targetUserID }))
+      );
+
+      // 対象ユーザーの個別通知設定 (docID = memberUserID) を削除。
+      // 残置するとグループから外れた後も設定が read 可能なまま露出するため。
+      transaction.delete(
+        groupRef.collection("memberNotificationSettings").doc(targetUserID)
       );
 
       // 対象ユーザーの defaultGroupID が当該グループなら、対象ユーザーが所有する最古のグループに付け替える(無ければ null)

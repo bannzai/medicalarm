@@ -1,7 +1,7 @@
 import { logger } from "firebase-functions";
 import { onCall } from "firebase-functions/v2/https";
 import { messaging } from "firebase-admin";
-import { FieldValue } from "firebase-admin/firestore";
+import { FieldValue, Timestamp } from "firebase-admin/firestore";
 import { database } from "../../core/database";
 import { OnCallResponse } from "../../core/response";
 import { groupUserProfileDocumentID } from "../../entity/group_user_profile";
@@ -11,6 +11,11 @@ const DEBUG_MODE_TOKEN = "debug_mode";
 
 /// sendEachForMulticast は 1 リクエストあたり最大 500 トークンのため、これを超える場合はチャンクに分割して送信する。
 const FCM_MULTICAST_TOKEN_LIMIT = 500;
+
+/// 通知対象として許容する服薬記録の鮮度 (ミリ秒)。
+/// クライアントは記録直後に unawaited で本関数を呼ぶため、リトライやネットワーク遅延を吸収できる猶予として 5 分とする。
+/// 猶予を長くすると過去の記録を使った偽通知の再送に悪用されうるため、記録直後の呼び出しに必要な最小限に留める。
+const RECORDED_WITHIN_MS = 5 * 60 * 1000;
 
 /**
  * 服薬記録を追加した際に、同じグループの他メンバーへ FCM push 通知を送る。
@@ -22,6 +27,7 @@ async function sendMedicationRecordNotificationHandler(req: {
   data?: {
     groupID?: string;
     medicineID?: string;
+    medicationHistoryID?: string;
   };
 }): Promise<OnCallResponse> {
   try {
@@ -36,11 +42,15 @@ async function sendMedicationRecordNotificationHandler(req: {
 
     const groupID = req.data?.groupID;
     const medicineID = req.data?.medicineID;
-    if (groupID == null || medicineID == null) {
+    const medicationHistoryID = req.data?.medicationHistoryID;
+    if (groupID == null || medicineID == null || medicationHistoryID == null) {
       return {
         result: "NG",
         statusCode: 400,
-        error: { message: "groupID または medicineID が指定されていません" },
+        error: {
+          message:
+            "groupID / medicineID / medicationHistoryID が指定されていません",
+        },
       };
     }
     const groupDoc = await database.collection("groups").doc(groupID).get();
@@ -57,6 +67,41 @@ async function sendMedicationRecordNotificationHandler(req: {
         result: "NG",
         statusCode: 403,
         error: { message: "グループのメンバーではありません" },
+      };
+    }
+
+    // 偽の記録通知を防ぐため、実際の服薬記録と呼び出しを紐付けて検証する。
+    // (a) 記録が存在する (b) 記録者が呼び出し者本人である (c) 直近に記録されたものである、の全てを満たす場合のみ通知する。
+    const historyDoc = await database
+      .collection("groups")
+      .doc(groupID)
+      .collection("medicationHistories")
+      .doc(medicationHistoryID)
+      .get();
+    if (!historyDoc.exists) {
+      return {
+        result: "NG",
+        statusCode: 404,
+        error: { message: "服薬記録が見つかりません" },
+      };
+    }
+    if (historyDoc.data()?.recordedByUserID !== uid) {
+      return {
+        result: "NG",
+        statusCode: 403,
+        error: { message: "他人の服薬記録に対する通知はできません" },
+      };
+    }
+    const recordedDateTime: Timestamp | undefined =
+      historyDoc.data()?.recordedDateTime;
+    if (
+      recordedDateTime == null ||
+      Date.now() - recordedDateTime.toMillis() > RECORDED_WITHIN_MS
+    ) {
+      return {
+        result: "NG",
+        statusCode: 403,
+        error: { message: "記録直後以外の服薬記録に対する通知はできません" },
       };
     }
 

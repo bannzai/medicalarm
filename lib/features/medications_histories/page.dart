@@ -174,19 +174,22 @@ class MedicationHistoryTile extends HookConsumerWidget {
   final MedicationHistory history;
 
   /// 服薬記録の記録者が「自分以外のメンバー」の場合に表示名を返す。
-  /// 記録者が自分・不明・プロフィール未登録の場合は null を返し、記録者表示を出さない。
+  /// displayName が未登録・プロフィール不在でもフォールバック文言([L.memberFallbackName])を返し、記録者表示を必ず出す。
+  /// 記録者が自分・不明の場合は null を返し、記録者表示を出さない。
   String? _recorderDisplayName(WidgetRef ref) {
     final recordedByUserID = history.recordedByUserID;
-    final currentGroupID = ref.watch(currentGroupIDProvider);
-    if (recordedByUserID == null || recordedByUserID == ref.watch(appUserIDProvider) || currentGroupID == null) {
+    if (recordedByUserID == null || recordedByUserID == ref.watch(appUserIDProvider)) {
       return null;
     }
-    final displayName = ref
-        .watch(groupUserProfilesProvider(groupID: currentGroupID))
-        .valueOrNull
-        ?.firstWhereOrNull((profile) => profile.userID == recordedByUserID)
-        ?.displayName;
-    return (displayName?.isNotEmpty ?? false) ? displayName : null;
+    final currentGroupID = ref.watch(currentGroupIDProvider);
+    final displayName = currentGroupID == null
+        ? null
+        : ref
+            .watch(groupUserProfilesProvider(groupID: currentGroupID))
+            .valueOrNull
+            ?.firstWhereOrNull((profile) => profile.userID == recordedByUserID)
+            ?.displayName;
+    return (displayName?.isNotEmpty ?? false) ? displayName : L.memberFallbackName;
   }
 
   @override
