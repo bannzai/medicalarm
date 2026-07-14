@@ -1,11 +1,18 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:medicalarm/features/medications_histories/page.dart';
 import 'package:medicalarm/features/medications/page.dart';
 import 'package:medicalarm/features/settings/page.dart';
+import 'package:medicalarm/provider/group_member_notification_settings.dart';
+import 'package:medicalarm/provider/medication_history.dart';
+import 'package:medicalarm/provider/medicine.dart';
 import 'package:medicalarm/style/color.dart';
 import 'package:medicalarm/utils/analytics/analytics.dart';
+import 'package:medicalarm/utils/date_time/date_time_ext.dart';
+import 'package:medicalarm/utils/local_notification/client.dart';
 import 'package:medicalarm/utils/push_notification/request_permission.dart';
 import 'package:medicalarm/features/localization/l.dart';
 
@@ -42,6 +49,25 @@ class HomePage extends HookConsumerWidget {
       requestNotificationPermissions(registerRemotePushNotificationToken);
       return null;
     }, []);
+
+    // 他メンバーの薬変更・服薬記録が snapshot で届いたらローカル通知を再登録する。
+    // 再登録はローカル通知の操作のみで Firestore へ書き込まないため、この listen が無限ループになることはない。
+    ref.listen(activeMedicinesProvider, (previous, next) {
+      if (next is AsyncData) {
+        unawaited(ref.read(registerReminderLocalNotificationProvider).call());
+      }
+    });
+    ref.listen(medicationHistoriesByDateProvider(today()), (previous, next) {
+      if (next is AsyncData) {
+        unawaited(ref.read(registerReminderLocalNotificationProvider).call());
+      }
+    });
+    // 通知個別設定(Critical Alert / Focus 連携等)の変更は端末のローカル通知内容に影響するため、再登録する。
+    ref.listen(groupMemberNotificationSettingsProvider, (previous, next) {
+      if (next is AsyncData) {
+        unawaited(ref.read(registerReminderLocalNotificationProvider).call());
+      }
+    });
 
     return DefaultTabController(
       length: HomePageTabType.values.length,

@@ -4,9 +4,11 @@ import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:medicalarm/components/retry/page.dart';
 import 'package:medicalarm/entity/dose_receiver.dart';
 import 'package:medicalarm/features/preium_introduction/premium_introduction_sheet.dart';
+import 'package:medicalarm/provider/app_user.dart';
 import 'package:medicalarm/provider/dose_receiver.dart';
 import 'package:medicalarm/style/button.dart';
 import 'package:medicalarm/theme/form.dart';
+import 'package:medicalarm/utils/billing/created_count.dart';
 import 'package:medicalarm/utils/purchase/purchase.dart';
 import 'package:medicalarm/features/localization/l.dart';
 
@@ -136,9 +138,12 @@ class DoseReceiverAddButton extends HookConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final doseReceiverAdd = ref.watch(doseReceiverAddProvider);
     final customerInfo = ref.watch(customerInfoProvider).asData?.value;
+    final appUserID = ref.watch(appUserIDProvider);
+    final createdDoseReceiversCount =
+        countCreatedByUser(items: doseReceivers, userID: appUserID, creatorUserID: (doseReceiver) => doseReceiver.userID);
     return Column(
       children: [
-        if (doseReceivers.length >= DoseReceiver.maxCount(hasPremiumEntitlement: customerInfo?.hasPremiumEntitlement)) ...[
+        if (createdDoseReceiversCount >= DoseReceiver.maxCount(hasPremiumEntitlement: customerInfo?.hasPremiumEntitlement)) ...[
           Text(L.doseReceiverMaxCount(DoseReceiver.maxCount(hasPremiumEntitlement: customerInfo?.hasPremiumEntitlement)),
               style: const TextStyle(color: Colors.red)),
           if (customerInfo?.hasPremiumEntitlement == false) ...[
@@ -158,7 +163,7 @@ class DoseReceiverAddButton extends HookConsumerWidget {
           ],
         ],
         TextButton.icon(
-          onPressed: doseReceivers.length < DoseReceiver.maxCount(hasPremiumEntitlement: customerInfo?.hasPremiumEntitlement)
+          onPressed: createdDoseReceiversCount < DoseReceiver.maxCount(hasPremiumEntitlement: customerInfo?.hasPremiumEntitlement)
               ? () {
                   doseReceiverAdd.call(name: L.newDoseReceiver);
                 }

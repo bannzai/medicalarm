@@ -15,6 +15,74 @@ extension FirebaseFunctionsExt on FirebaseFunctions {
     }
     return response['data']['isAlreadyExist'] as bool;
   }
+
+  // グループを作成する。auth uid をサーバー側で使用するため createUserID は渡さない。
+  // iconName は home / family / hospital / medication / elderly / favorite のいずれか。戻り値は作成されたグループの ID。
+  Future<String> createGroup({required String? name, required bool setAsDefault, required String iconName}) async {
+    final result = await httpsCallable('createGroup').call({
+      'name': name,
+      'setAsDefault': setAsDefault,
+      'iconName': iconName,
+    });
+    final response = mapToJSON(result.data);
+    if (response['result'] != 'OK') {
+      throw Exception(response['error']['message']);
+    }
+    return response['data']['groupID'] as String;
+  }
+
+  // 招待コードと有効期限を発行する。expiresDateTime は Functions が ISO8601 文字列で返す。
+  Future<({String invitationCode, DateTime expiresDateTime})> createGroupInvitation({required String groupID}) async {
+    final result = await httpsCallable('createGroupInvitation').call({'groupID': groupID});
+    final response = mapToJSON(result.data);
+    if (response['result'] != 'OK') {
+      throw Exception(response['error']['message']);
+    }
+    return (
+      invitationCode: response['data']['invitationCode'] as String,
+      expiresDateTime: DateTime.parse(response['data']['expiresDateTime'] as String),
+    );
+  }
+
+  // 服薬記録を追加した際に、同じグループの他メンバーへ FCM push 通知を送る。
+  // push 本文(薬名・記録者の表示名)はサーバー側が groupID / medicineID から解決するため渡さない。
+  // medicationHistoryID はサーバー側が「実際に書かれた履歴」を検証するために渡す。
+  // 送信失敗は記録の成否に影響させないため、呼び出し側は unawaited で呼び catch する。
+  // ソログループなど送信対象 0 件の場合はサーバー側でスキップされる。
+  Future<void> sendMedicationRecordNotification({
+    required String groupID,
+    required String medicineID,
+    required String medicationHistoryID,
+  }) async {
+    final result = await httpsCallable('sendMedicationRecordNotification').call({
+      'groupID': groupID,
+      'medicineID': medicineID,
+      'medicationHistoryID': medicationHistoryID,
+    });
+    final response = mapToJSON(result.data);
+    if (response['result'] != 'OK') {
+      throw Exception(response['error']['message']);
+    }
+  }
+
+  // 招待コードを使ってグループに参加する。戻り値は参加したグループの ID。
+  Future<String> acceptGroupInvitation({required String invitationCode}) async {
+    final result = await httpsCallable('acceptGroupInvitation').call({'invitationCode': invitationCode});
+    final response = mapToJSON(result.data);
+    if (response['result'] != 'OK') {
+      throw Exception(response['error']['message']);
+    }
+    return response['data']['groupID'] as String;
+  }
+
+  // グループからメンバーを削除する。オーナーのみが実行でき、オーナー自身は削除できない。冪等（既に非メンバーなら何もしない）。
+  Future<void> removeGroupMember({required String groupID, required String targetUserID}) async {
+    final result = await httpsCallable('removeGroupMember').call({'groupID': groupID, 'targetUserID': targetUserID});
+    final response = mapToJSON(result.data);
+    if (response['result'] != 'OK') {
+      throw Exception(response['error']['message']);
+    }
+  }
 }
 
 // Map<String, dynamic>.fromだけだとネストした子要素が_Map<Object? Object?>のままになる

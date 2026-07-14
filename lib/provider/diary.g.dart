@@ -6,7 +6,7 @@ part of 'diary.dart';
 // RiverpodGenerator
 // **************************************************************************
 
-String _$diariesForDateTimeRangeHash() => r'2727aaaf807f0aa8132fd9a35ba90a6815860e1e';
+String _$diariesForDateTimeRangeHash() => r'ed98c022b269c0da1d74a05d06a178cc2f6c9f0b';
 
 /// Copied from Dart SDK
 class _SystemHash {
@@ -56,14 +56,14 @@ class DiariesForDateTimeRangeFamily extends Family<AsyncValue<List<Diary>>> {
     );
   }
 
-  static final Iterable<ProviderOrFamily> _dependencies = <ProviderOrFamily>[userDatabaseProvider];
+  static final Iterable<ProviderOrFamily> _dependencies = <ProviderOrFamily>[currentGroupDatabaseProvider];
 
   @override
   Iterable<ProviderOrFamily>? get dependencies => _dependencies;
 
   static final Iterable<ProviderOrFamily> _allTransitiveDependencies = <ProviderOrFamily>{
-    userDatabaseProvider,
-    ...?userDatabaseProvider.allTransitiveDependencies
+    currentGroupDatabaseProvider,
+    ...?currentGroupDatabaseProvider.allTransitiveDependencies
   };
 
   @override
@@ -154,7 +154,7 @@ class _DiariesForDateTimeRangeProviderElement extends AutoDisposeStreamProviderE
   DateTimeRange<DateTime> get dateTimeRange => (origin as DiariesForDateTimeRangeProvider).dateTimeRange;
 }
 
-String _$diaryPostHash() => r'a19cc4271259369fbd8ac79b9f6e4895ecf4e6d4';
+String _$diaryPostHash() => r'80b8c3255e0b177892e9913d50844537321d76e7';
 
 /// See also [diaryPost].
 @ProviderFor(diaryPost)
@@ -162,8 +162,13 @@ final diaryPostProvider = AutoDisposeProvider<DiaryPost>.internal(
   diaryPost,
   name: r'diaryPostProvider',
   debugGetCreateSourceHash: const bool.fromEnvironment('dart.vm.product') ? null : _$diaryPostHash,
-  dependencies: <ProviderOrFamily>[userDatabaseProvider],
-  allTransitiveDependencies: <ProviderOrFamily>{userDatabaseProvider, ...?userDatabaseProvider.allTransitiveDependencies},
+  dependencies: <ProviderOrFamily>[currentGroupDatabaseProvider, appUserIDProvider],
+  allTransitiveDependencies: <ProviderOrFamily>{
+    currentGroupDatabaseProvider,
+    ...?currentGroupDatabaseProvider.allTransitiveDependencies,
+    appUserIDProvider,
+    ...?appUserIDProvider.allTransitiveDependencies
+  },
 );
 
 @Deprecated('Will be removed in 3.0. Use Ref instead')

@@ -6,7 +6,7 @@ part of 'dose_receiver.dart';
 // RiverpodGenerator
 // **************************************************************************
 
-String _$doseReceiversHash() => r'bc4a5566bc53494fc386b8e5fe0564252e2dc9d6';
+String _$doseReceiversHash() => r'e064cc603158daa495cfbeee78db58f53f7dbe59';
 
 /// See also [doseReceivers].
 @ProviderFor(doseReceivers)
@@ -14,14 +14,14 @@ final doseReceiversProvider = AutoDisposeStreamProvider<List<DoseReceiver>>.inte
   doseReceivers,
   name: r'doseReceiversProvider',
   debugGetCreateSourceHash: const bool.fromEnvironment('dart.vm.product') ? null : _$doseReceiversHash,
-  dependencies: <ProviderOrFamily>[userDatabaseProvider],
-  allTransitiveDependencies: <ProviderOrFamily>{userDatabaseProvider, ...?userDatabaseProvider.allTransitiveDependencies},
+  dependencies: <ProviderOrFamily>[currentGroupDatabaseProvider],
+  allTransitiveDependencies: <ProviderOrFamily>{currentGroupDatabaseProvider, ...?currentGroupDatabaseProvider.allTransitiveDependencies},
 );
 
 @Deprecated('Will be removed in 3.0. Use Ref instead')
 // ignore: unused_element
 typedef DoseReceiversRef = AutoDisposeStreamProviderRef<List<DoseReceiver>>;
-String _$doseReceiverAddHash() => r'73ac36014c5c0437977101d0a18ef136bfbd3b08';
+String _$doseReceiverAddHash() => r'b169e0be5c492e68e137992262d45eeef07bca19';
 
 /// See also [doseReceiverAdd].
 @ProviderFor(doseReceiverAdd)
@@ -29,14 +29,19 @@ final doseReceiverAddProvider = AutoDisposeProvider<DoseReceiverAdd>.internal(
   doseReceiverAdd,
   name: r'doseReceiverAddProvider',
   debugGetCreateSourceHash: const bool.fromEnvironment('dart.vm.product') ? null : _$doseReceiverAddHash,
-  dependencies: <ProviderOrFamily>[userDatabaseProvider],
-  allTransitiveDependencies: <ProviderOrFamily>{userDatabaseProvider, ...?userDatabaseProvider.allTransitiveDependencies},
+  dependencies: <ProviderOrFamily>[currentGroupDatabaseProvider, appUserIDProvider],
+  allTransitiveDependencies: <ProviderOrFamily>{
+    currentGroupDatabaseProvider,
+    ...?currentGroupDatabaseProvider.allTransitiveDependencies,
+    appUserIDProvider,
+    ...?appUserIDProvider.allTransitiveDependencies
+  },
 );
 
 @Deprecated('Will be removed in 3.0. Use Ref instead')
 // ignore: unused_element
 typedef DoseReceiverAddRef = AutoDisposeProviderRef<DoseReceiverAdd>;
-String _$firstDoseReceiverAddHash() => r'ea2fc0bd1813362eb27434493b8833f2d1b25d4a';
+String _$firstDoseReceiverAddHash() => r'd4bc29455b7dd6abaa83131a2d0f1f61c16c0ce1';
 
 /// See also [firstDoseReceiverAdd].
 @ProviderFor(firstDoseReceiverAdd)
@@ -44,14 +49,19 @@ final firstDoseReceiverAddProvider = AutoDisposeProvider<FirstDoseReceiverAdd>.i
   firstDoseReceiverAdd,
   name: r'firstDoseReceiverAddProvider',
   debugGetCreateSourceHash: const bool.fromEnvironment('dart.vm.product') ? null : _$firstDoseReceiverAddHash,
-  dependencies: <ProviderOrFamily>[userDatabaseProvider],
-  allTransitiveDependencies: <ProviderOrFamily>{userDatabaseProvider, ...?userDatabaseProvider.allTransitiveDependencies},
+  dependencies: <ProviderOrFamily>[currentGroupDatabaseProvider, appUserIDProvider],
+  allTransitiveDependencies: <ProviderOrFamily>{
+    currentGroupDatabaseProvider,
+    ...?currentGroupDatabaseProvider.allTransitiveDependencies,
+    appUserIDProvider,
+    ...?appUserIDProvider.allTransitiveDependencies
+  },
 );
 
 @Deprecated('Will be removed in 3.0. Use Ref instead')
 // ignore: unused_element
 typedef FirstDoseReceiverAddRef = AutoDisposeProviderRef<FirstDoseReceiverAdd>;
-String _$doseReceiverUpdateHash() => r'f3adc895dfec5d1e814131571096ec1c893e4fda';
+String _$doseReceiverUpdateHash() => r'c9416d8f0d6f5ab2e7c79d8750a1f241dd892b0b';
 
 /// See also [doseReceiverUpdate].
 @ProviderFor(doseReceiverUpdate)
@@ -59,8 +69,8 @@ final doseReceiverUpdateProvider = AutoDisposeProvider<DoseReceiverUpdate>.inter
   doseReceiverUpdate,
   name: r'doseReceiverUpdateProvider',
   debugGetCreateSourceHash: const bool.fromEnvironment('dart.vm.product') ? null : _$doseReceiverUpdateHash,
-  dependencies: <ProviderOrFamily>[userDatabaseProvider],
-  allTransitiveDependencies: <ProviderOrFamily>{userDatabaseProvider, ...?userDatabaseProvider.allTransitiveDependencies},
+  dependencies: <ProviderOrFamily>[currentGroupDatabaseProvider],
+  allTransitiveDependencies: <ProviderOrFamily>{currentGroupDatabaseProvider, ...?currentGroupDatabaseProvider.allTransitiveDependencies},
 );
 
 @Deprecated('Will be removed in 3.0. Use Ref instead')

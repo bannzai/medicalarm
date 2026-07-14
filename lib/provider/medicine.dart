@@ -3,14 +3,15 @@ import 'package:medicalarm/entity/dose_receiver.dart';
 import 'package:medicalarm/entity/medication_frequency.dart';
 import 'package:medicalarm/entity/medicine.dart';
 import 'package:medicalarm/features/resolver/database.dart';
+import 'package:medicalarm/provider/app_user.dart';
 import 'package:riverpod/riverpod.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 
 part 'medicine.g.dart';
 
-@Riverpod(dependencies: [userDatabase])
+@Riverpod(dependencies: [currentGroupDatabase])
 Stream<List<Medicine>> activeMedicines(ActiveMedicinesRef ref) {
-  final database = ref.watch(userDatabaseProvider);
+  final database = ref.watch(currentGroupDatabaseProvider);
   return database
       .medicinesReference()
       .snapshots()
@@ -18,9 +19,11 @@ Stream<List<Medicine>> activeMedicines(ActiveMedicinesRef ref) {
 }
 
 class MedicineAdd {
-  final UserDatabase database;
+  final GroupDatabase database;
+  // 作成者(creator)の uid。Medicine.userID に設定する。
+  final String userID;
 
-  MedicineAdd({required this.database});
+  MedicineAdd({required this.database, required this.userID});
 
   Future<Medicine> call({
     required String name,
@@ -34,7 +37,7 @@ class MedicineAdd {
     final collectionRef = database.medicinesReference();
     final docRef = collectionRef.doc();
     final medicine = Medicine(
-      userID: database.userID,
+      userID: userID,
       id: docRef.id,
       name: name.trim(),
       frequency: frequency,
@@ -49,14 +52,13 @@ class MedicineAdd {
   }
 }
 
-@Riverpod(dependencies: [userDatabase])
+@Riverpod(dependencies: [currentGroupDatabase, appUserID])
 MedicineAdd medicineAdd(MedicineAddRef ref) {
-  final database = ref.watch(userDatabaseProvider);
-  return MedicineAdd(database: database);
+  return MedicineAdd(database: ref.watch(currentGroupDatabaseProvider), userID: ref.watch(appUserIDProvider));
 }
 
 class MedicineUpdate {
-  final UserDatabase database;
+  final GroupDatabase database;
 
   MedicineUpdate({required this.database});
 
@@ -86,14 +88,14 @@ class MedicineUpdate {
   }
 }
 
-@Riverpod(dependencies: [userDatabase])
+@Riverpod(dependencies: [currentGroupDatabase])
 MedicineUpdate medicineUpdate(Ref ref) {
-  final database = ref.watch(userDatabaseProvider);
+  final database = ref.watch(currentGroupDatabaseProvider);
   return MedicineUpdate(database: database);
 }
 
 class MedicineDelete {
-  final UserDatabase database;
+  final GroupDatabase database;
 
   MedicineDelete({required this.database});
 
@@ -103,15 +105,15 @@ class MedicineDelete {
   }
 }
 
-@Riverpod(dependencies: [userDatabase])
+@Riverpod(dependencies: [currentGroupDatabase])
 MedicineDelete medicineDelete(Ref ref) {
-  final database = ref.watch(userDatabaseProvider);
+  final database = ref.watch(currentGroupDatabaseProvider);
   return MedicineDelete(database: database);
 }
 
 // 指定した薬の pausedDateTime のみを更新する。停止時は DateTime.now()、再開時は null を渡す
 class MedicineSetPaused {
-  final UserDatabase database;
+  final GroupDatabase database;
 
   MedicineSetPaused({required this.database});
 
@@ -127,8 +129,8 @@ class MedicineSetPaused {
   }
 }
 
-@Riverpod(dependencies: [userDatabase])
+@Riverpod(dependencies: [currentGroupDatabase])
 MedicineSetPaused medicineSetPaused(Ref ref) {
-  final database = ref.watch(userDatabaseProvider);
+  final database = ref.watch(currentGroupDatabaseProvider);
   return MedicineSetPaused(database: database);
 }

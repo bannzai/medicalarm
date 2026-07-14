@@ -14,8 +14,9 @@ T _$identity<T>(T value) => value;
 
 /// @nodoc
 mixin _$MedicationHistory {
-  String get id;
-  String get userID;
+  String get id; // 作成者(creator)の userID。グループ共有では記録した本人とは限らないため recordedByUserID を別途持つ。
+  String get userID; // この記録を実際に行ったユーザーの uid。旧データには存在しないため nullable。新規記録では userID と同じ値が入る。
+  String? get recordedByUserID;
   Medicine get medicine;
   MedicationHistoryActionKind get actionKind;
   MedicationHistoryAction get action;
@@ -52,6 +53,7 @@ mixin _$MedicationHistory {
             other is MedicationHistory &&
             (identical(other.id, id) || other.id == id) &&
             (identical(other.userID, userID) || other.userID == userID) &&
+            (identical(other.recordedByUserID, recordedByUserID) || other.recordedByUserID == recordedByUserID) &&
             (identical(other.medicine, medicine) || other.medicine == medicine) &&
             (identical(other.actionKind, actionKind) || other.actionKind == actionKind) &&
             (identical(other.action, action) || other.action == action) &&
@@ -67,12 +69,12 @@ mixin _$MedicationHistory {
 
   @JsonKey(includeFromJson: false, includeToJson: false)
   @override
-  int get hashCode => Object.hash(runtimeType, id, userID, medicine, actionKind, action, memo, recordedDateTime, scheduledRecordedDate,
-      createdDateTime, updatedDateTime, serverCreatedDateTime, serverUpdatedDateTime, ttlExpiresDateTime);
+  int get hashCode => Object.hash(runtimeType, id, userID, recordedByUserID, medicine, actionKind, action, memo, recordedDateTime,
+      scheduledRecordedDate, createdDateTime, updatedDateTime, serverCreatedDateTime, serverUpdatedDateTime, ttlExpiresDateTime);
 
   @override
   String toString() {
-    return 'MedicationHistory(id: $id, userID: $userID, medicine: $medicine, actionKind: $actionKind, action: $action, memo: $memo, recordedDateTime: $recordedDateTime, scheduledRecordedDate: $scheduledRecordedDate, createdDateTime: $createdDateTime, updatedDateTime: $updatedDateTime, serverCreatedDateTime: $serverCreatedDateTime, serverUpdatedDateTime: $serverUpdatedDateTime, ttlExpiresDateTime: $ttlExpiresDateTime)';
+    return 'MedicationHistory(id: $id, userID: $userID, recordedByUserID: $recordedByUserID, medicine: $medicine, actionKind: $actionKind, action: $action, memo: $memo, recordedDateTime: $recordedDateTime, scheduledRecordedDate: $scheduledRecordedDate, createdDateTime: $createdDateTime, updatedDateTime: $updatedDateTime, serverCreatedDateTime: $serverCreatedDateTime, serverUpdatedDateTime: $serverUpdatedDateTime, ttlExpiresDateTime: $ttlExpiresDateTime)';
   }
 }
 
@@ -83,6 +85,7 @@ abstract mixin class $MedicationHistoryCopyWith<$Res> {
   $Res call(
       {String id,
       String userID,
+      String? recordedByUserID,
       Medicine medicine,
       MedicationHistoryActionKind actionKind,
       MedicationHistoryAction action,
@@ -113,6 +116,7 @@ class _$MedicationHistoryCopyWithImpl<$Res> implements $MedicationHistoryCopyWit
   $Res call({
     Object? id = null,
     Object? userID = null,
+    Object? recordedByUserID = freezed,
     Object? medicine = null,
     Object? actionKind = null,
     Object? action = null,
@@ -134,6 +138,10 @@ class _$MedicationHistoryCopyWithImpl<$Res> implements $MedicationHistoryCopyWit
           ? _self.userID
           : userID // ignore: cast_nullable_to_non_nullable
               as String,
+      recordedByUserID: freezed == recordedByUserID
+          ? _self.recordedByUserID
+          : recordedByUserID // ignore: cast_nullable_to_non_nullable
+              as String?,
       medicine: null == medicine
           ? _self.medicine
           : medicine // ignore: cast_nullable_to_non_nullable
@@ -298,6 +306,7 @@ extension MedicationHistoryPatterns on MedicationHistory {
     TResult Function(
             String id,
             String userID,
+            String? recordedByUserID,
             Medicine medicine,
             MedicationHistoryActionKind actionKind,
             MedicationHistoryAction action,
@@ -318,6 +327,7 @@ extension MedicationHistoryPatterns on MedicationHistory {
         return $default(
             _that.id,
             _that.userID,
+            _that.recordedByUserID,
             _that.medicine,
             _that.actionKind,
             _that.action,
@@ -352,6 +362,7 @@ extension MedicationHistoryPatterns on MedicationHistory {
     TResult Function(
             String id,
             String userID,
+            String? recordedByUserID,
             Medicine medicine,
             MedicationHistoryActionKind actionKind,
             MedicationHistoryAction action,
@@ -371,6 +382,7 @@ extension MedicationHistoryPatterns on MedicationHistory {
         return $default(
             _that.id,
             _that.userID,
+            _that.recordedByUserID,
             _that.medicine,
             _that.actionKind,
             _that.action,
@@ -404,6 +416,7 @@ extension MedicationHistoryPatterns on MedicationHistory {
     TResult? Function(
             String id,
             String userID,
+            String? recordedByUserID,
             Medicine medicine,
             MedicationHistoryActionKind actionKind,
             MedicationHistoryAction action,
@@ -423,6 +436,7 @@ extension MedicationHistoryPatterns on MedicationHistory {
         return $default(
             _that.id,
             _that.userID,
+            _that.recordedByUserID,
             _that.medicine,
             _that.actionKind,
             _that.action,
@@ -447,6 +461,7 @@ class _MedicationHistory extends MedicationHistory {
   const _MedicationHistory(
       {required this.id,
       required this.userID,
+      this.recordedByUserID,
       required this.medicine,
       required this.actionKind,
       required this.action,
@@ -463,8 +478,12 @@ class _MedicationHistory extends MedicationHistory {
 
   @override
   final String id;
+// 作成者(creator)の userID。グループ共有では記録した本人とは限らないため recordedByUserID を別途持つ。
   @override
   final String userID;
+// この記録を実際に行ったユーザーの uid。旧データには存在しないため nullable。新規記録では userID と同じ値が入る。
+  @override
+  final String? recordedByUserID;
   @override
   final Medicine medicine;
   @override
@@ -517,6 +536,7 @@ class _MedicationHistory extends MedicationHistory {
             other is _MedicationHistory &&
             (identical(other.id, id) || other.id == id) &&
             (identical(other.userID, userID) || other.userID == userID) &&
+            (identical(other.recordedByUserID, recordedByUserID) || other.recordedByUserID == recordedByUserID) &&
             (identical(other.medicine, medicine) || other.medicine == medicine) &&
             (identical(other.actionKind, actionKind) || other.actionKind == actionKind) &&
             (identical(other.action, action) || other.action == action) &&
@@ -532,12 +552,12 @@ class _MedicationHistory extends MedicationHistory {
 
   @JsonKey(includeFromJson: false, includeToJson: false)
   @override
-  int get hashCode => Object.hash(runtimeType, id, userID, medicine, actionKind, action, memo, recordedDateTime, scheduledRecordedDate,
-      createdDateTime, updatedDateTime, serverCreatedDateTime, serverUpdatedDateTime, ttlExpiresDateTime);
+  int get hashCode => Object.hash(runtimeType, id, userID, recordedByUserID, medicine, actionKind, action, memo, recordedDateTime,
+      scheduledRecordedDate, createdDateTime, updatedDateTime, serverCreatedDateTime, serverUpdatedDateTime, ttlExpiresDateTime);
 
   @override
   String toString() {
-    return 'MedicationHistory(id: $id, userID: $userID, medicine: $medicine, actionKind: $actionKind, action: $action, memo: $memo, recordedDateTime: $recordedDateTime, scheduledRecordedDate: $scheduledRecordedDate, createdDateTime: $createdDateTime, updatedDateTime: $updatedDateTime, serverCreatedDateTime: $serverCreatedDateTime, serverUpdatedDateTime: $serverUpdatedDateTime, ttlExpiresDateTime: $ttlExpiresDateTime)';
+    return 'MedicationHistory(id: $id, userID: $userID, recordedByUserID: $recordedByUserID, medicine: $medicine, actionKind: $actionKind, action: $action, memo: $memo, recordedDateTime: $recordedDateTime, scheduledRecordedDate: $scheduledRecordedDate, createdDateTime: $createdDateTime, updatedDateTime: $updatedDateTime, serverCreatedDateTime: $serverCreatedDateTime, serverUpdatedDateTime: $serverUpdatedDateTime, ttlExpiresDateTime: $ttlExpiresDateTime)';
   }
 }
 
@@ -549,6 +569,7 @@ abstract mixin class _$MedicationHistoryCopyWith<$Res> implements $MedicationHis
   $Res call(
       {String id,
       String userID,
+      String? recordedByUserID,
       Medicine medicine,
       MedicationHistoryActionKind actionKind,
       MedicationHistoryAction action,
@@ -581,6 +602,7 @@ class __$MedicationHistoryCopyWithImpl<$Res> implements _$MedicationHistoryCopyW
   $Res call({
     Object? id = null,
     Object? userID = null,
+    Object? recordedByUserID = freezed,
     Object? medicine = null,
     Object? actionKind = null,
     Object? action = null,
@@ -602,6 +624,10 @@ class __$MedicationHistoryCopyWithImpl<$Res> implements _$MedicationHistoryCopyW
           ? _self.userID
           : userID // ignore: cast_nullable_to_non_nullable
               as String,
+      recordedByUserID: freezed == recordedByUserID
+          ? _self.recordedByUserID
+          : recordedByUserID // ignore: cast_nullable_to_non_nullable
+              as String?,
       medicine: null == medicine
           ? _self.medicine
           : medicine // ignore: cast_nullable_to_non_nullable

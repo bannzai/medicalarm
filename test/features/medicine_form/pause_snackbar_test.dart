@@ -15,7 +15,7 @@ import 'package:medicalarm/utils/purchase/purchase.dart';
 
 /// Firestore に接続せず、pausedDateTime を反映した Medicine を返すだけのテスト用 MedicineSetPaused。
 class _FakeMedicineSetPaused extends MedicineSetPaused {
-  _FakeMedicineSetPaused() : super(database: UserDatabase(userID: 'test-user'));
+  _FakeMedicineSetPaused() : super(database: GroupDatabase(groupID: 'test-group'));
 
   @override
   Future<Medicine> call({
@@ -74,6 +74,8 @@ void main() {
       ProviderScope(
         overrides: [
           userDatabaseProvider.overrideWith((ref) => UserDatabase(userID: 'test-user')),
+          // グループ機能 (#241) で medicine 系 provider は currentGroupDatabase を参照するようになったため上書きする
+          currentGroupDatabaseProvider.overrideWith((ref) => GroupDatabase(groupID: 'test-group')),
           appUserIDProvider.overrideWith((ref) => 'test-user'),
           activeMedicinesProvider.overrideWith((ref) => Stream.value([medicine])),
           customerInfoProvider.overrideWith((ref) => const Stream.empty()),

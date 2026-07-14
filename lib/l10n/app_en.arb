@@ -799,5 +799,189 @@
   "medicineEditTooltip": "Edit medication",
   "@medicineEditTooltip": {
     "description": "お薬一覧カード右上の編集アイコンの tooltip"
+  },
+  "groups": "Groups",
+  "@groups": {
+    "description": "グループ一覧画面のタイトルおよび設定画面のグループセクション見出し"
+  },
+  "groupManagement": "Manage groups",
+  "@groupManagement": {
+    "description": "設定画面からグループ一覧画面へ遷移する項目のラベル"
+  },
+  "createGroup": "Create group",
+  "@createGroup": {
+    "description": "グループを新規作成するボタン・画面タイトルのラベル"
+  },
+  "groupName": "Group name",
+  "@groupName": {
+    "description": "グループ名入力フィールドのラベル"
+  },
+  "groupNameInputHint": "Enter a group name",
+  "@groupNameInputHint": {
+    "description": "グループ名入力フィールドのプレースホルダー"
+  },
+  "groupIcon": "Icon",
+  "@groupIcon": {
+    "description": "グループ作成画面のアイコン選択セクションのラベル"
+  },
+  "groupMemberCount": "{count} members",
+  "@groupMemberCount": {
+    "description": "グループのメンバー人数を表示するラベル",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "2"
+      }
+    }
+  },
+  "defaultGroupBadge": "Default",
+  "@defaultGroupBadge": {
+    "description": "既定グループであることを示すバッジのラベル"
+  },
+  "soloGroupName": "My group",
+  "@soloGroupName": {
+    "description": "名前が未設定のソログループを一覧・チップで表示する際のフォールバック名"
+  },
+  "joinWithInvitationCode": "Join with invitation code",
+  "@joinWithInvitationCode": {
+    "description": "招待コード入力画面へ遷移する項目のラベル"
+  },
+  "groupCreationLimitReached": "You can't create more groups on the free plan",
+  "@groupCreationLimitReached": {
+    "description": "グループ作成数の上限に達した際に表示する案内文"
+  },
+  "increaseGroupLimitWithPremium": "Create additional groups with Premium",
+  "@increaseGroupLimitWithPremium": {
+    "description": "プレミアムプランでグループ作成上限を増やせることを案内するリンクのラベル"
+  },
+  "invitationCode": "Invitation code",
+  "@invitationCode": {
+    "description": "招待コードを表示するダイアログのタイトル"
+  },
+  "invitationCodeShareDescription": "Share this code to invite members",
+  "@invitationCodeShareDescription": {
+    "description": "招待コードダイアログの説明文"
+  },
+  "invitationCodeExpiresAt": "Expires: {date}",
+  "@invitationCodeExpiresAt": {
+    "description": "招待コードの有効期限を表示するラベル",
+    "placeholders": {
+      "date": {
+        "type": "String",
+        "example": "2026/07/19 12:00"
+      }
+    }
+  },
+  "copyInvitationCode": "Copy code",
+  "@copyInvitationCode": {
+    "description": "招待コードをクリップボードにコピーするボタンのラベル"
+  },
+  "invitationCodeCopied": "Invitation code copied",
+  "@invitationCodeCopied": {
+    "description": "招待コードをコピーした際に表示するSnackbarのメッセージ"
+  },
+  "issueInvitationCode": "Issue invitation code",
+  "@issueInvitationCode": {
+    "description": "グループ設定画面で招待コードを発行するボタンのラベル"
+  },
+  "groupSettings": "Group settings",
+  "@groupSettings": {
+    "description": "グループ設定画面のタイトル"
+  },
+  "members": "Members",
+  "@members": {
+    "description": "グループ設定画面のメンバー一覧セクションの見出し"
+  },
+  "memberFallbackName": "Member",
+  "@memberFallbackName": {
+    "description": "表示名が未設定のメンバーを表示する際のフォールバック名"
+  },
+  "yourDisplayName": "Your display name",
+  "@yourDisplayName": {
+    "description": "グループ内の自分の表示名を編集するフィールドのラベル"
+  },
+  "displayNameInputHint": "Enter a display name",
+  "@displayNameInputHint": {
+    "description": "表示名入力フィールドのプレースホルダー"
+  },
+  "ownerLabel": "Owner",
+  "@ownerLabel": {
+    "description": "グループのオーナーであることを示すラベル"
+  },
+  "youLabel": "You",
+  "@youLabel": {
+    "description": "メンバー一覧で自分自身を示すラベル"
+  },
+  "removeMemberConfirmTitle": "Remove this member?",
+  "@removeMemberConfirmTitle": {
+    "description": "メンバー削除の確認ダイアログのタイトル"
+  },
+  "removeMemberConfirmMessage": "{name} will be removed from the group",
+  "@removeMemberConfirmMessage": {
+    "description": "メンバー削除の確認ダイアログの本文",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Taro"
+      }
+    }
+  },
+  "joinGroup": "Join a group",
+  "@joinGroup": {
+    "description": "招待コード入力画面のタイトル"
+  },
+  "invitationCodeInputLabel": "Invitation code (8 characters)",
+  "@invitationCodeInputLabel": {
+    "description": "招待コード入力フィールドのラベル"
+  },
+  "invitationCodeInputHint": "Enter the 8-character code",
+  "@invitationCodeInputHint": {
+    "description": "招待コード入力フィールドのプレースホルダー"
+  },
+  "join": "Join",
+  "@join": {
+    "description": "招待コードでグループに参加するボタンのラベル"
+  },
+  "recordedByMember": "Recorded by {name}",
+  "@recordedByMember": {
+    "description": "服薬記録を自分以外のメンバーが記録した場合に表示するラベル",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Taro"
+      }
+    }
+  },
+  "accountLink": "Account transfer",
+  "@accountLink": {
+    "description": "設定画面・シートのアカウント引き継ぎセクションのタイトル"
+  },
+  "accountLinkDescription": "Link your Apple or Google account to keep your data when you change devices or reinstall the app.",
+  "@accountLinkDescription": {
+    "description": "アカウント引き継ぎシートの説明文"
+  },
+  "linkWithApple": "Transfer with Apple",
+  "@linkWithApple": {
+    "description": "Apple アカウントとリンクする行のラベル"
+  },
+  "linkWithGoogle": "Transfer with Google",
+  "@linkWithGoogle": {
+    "description": "Google アカウントとリンクする行のラベル"
+  },
+  "accountLinkedWithApple": "Linked with Apple",
+  "@accountLinkedWithApple": {
+    "description": "Apple アカウントとリンク済みの場合に表示するラベル"
+  },
+  "accountLinkedWithGoogle": "Linked with Google",
+  "@accountLinkedWithGoogle": {
+    "description": "Google アカウントとリンク済みの場合に表示するラベル"
+  },
+  "accountLinkedSnackbar": "Your account has been linked",
+  "@accountLinkedSnackbar": {
+    "description": "アカウント引き継ぎ(リンク)成功時に表示する SnackBar"
+  },
+  "accountLinkBannerText": "We strongly recommend setting up account transfer while sharing with a group",
+  "@accountLinkBannerText": {
+    "description": "グループ共有中かつ未リンクのときにホーム上部へ表示する推奨バナーの文言"
   }
 }

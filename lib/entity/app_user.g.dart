@@ -8,6 +8,8 @@ part of 'app_user.dart';
 
 _AppUser _$AppUserFromJson(Map<String, dynamic> json) => _AppUser(
       id: json['id'] as String?,
+      defaultGroupID: json['defaultGroupID'] as String?,
+      groupMigratedDateTime: const NullableTimestampConverter().fromJson(json['groupMigratedDateTime'] as Timestamp?),
       analyticsDebugIsEnabled: json['analyticsDebugIsEnabled'] as bool? ?? false,
       maybeTrialDeadlineDate: const NullableTimestampConverter().fromJson(json['maybeTrialDeadlineDate'] as Timestamp?),
       promotionStartPageCancelButtonTappedDateTime:
@@ -20,6 +22,8 @@ _AppUser _$AppUserFromJson(Map<String, dynamic> json) => _AppUser(
 
 Map<String, dynamic> _$AppUserToJson(_AppUser instance) => <String, dynamic>{
       'id': instance.id,
+      'defaultGroupID': instance.defaultGroupID,
+      'groupMigratedDateTime': const NullableTimestampConverter().toJson(instance.groupMigratedDateTime),
       'analyticsDebugIsEnabled': instance.analyticsDebugIsEnabled,
       'maybeTrialDeadlineDate': const NullableTimestampConverter().toJson(instance.maybeTrialDeadlineDate),
       'promotionStartPageCancelButtonTappedDateTime':

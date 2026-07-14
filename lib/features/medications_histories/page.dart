@@ -1,5 +1,6 @@
 import 'dart:ui';
 
+import 'package:collection/collection.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
@@ -11,6 +12,9 @@ import 'package:medicalarm/components/retry/page.dart';
 import 'package:medicalarm/components/text/edit_sheet.dart';
 import 'package:medicalarm/entity/medication_history.dart';
 import 'package:medicalarm/features/preium_introduction/premium_introduction_sheet.dart';
+import 'package:medicalarm/provider/app_user.dart';
+import 'package:medicalarm/provider/current_group_id.dart';
+import 'package:medicalarm/provider/group_user_profile.dart';
 import 'package:medicalarm/provider/medication_history.dart';
 import 'package:medicalarm/style/color.dart';
 import 'package:medicalarm/utils/date_time/date_time_ext.dart';
@@ -169,12 +173,32 @@ class MedicationHistoryTile extends HookConsumerWidget {
 
   final MedicationHistory history;
 
+  /// 服薬記録の記録者が「自分以外のメンバー」の場合に表示名を返す。
+  /// displayName が未登録・プロフィール不在でもフォールバック文言([L.memberFallbackName])を返し、記録者表示を必ず出す。
+  /// 記録者が自分・不明の場合は null を返し、記録者表示を出さない。
+  String? _recorderDisplayName(WidgetRef ref) {
+    final recordedByUserID = history.recordedByUserID;
+    if (recordedByUserID == null || recordedByUserID == ref.watch(appUserIDProvider)) {
+      return null;
+    }
+    final currentGroupID = ref.watch(currentGroupIDProvider);
+    final displayName = currentGroupID == null
+        ? null
+        : ref
+            .watch(groupUserProfilesProvider(groupID: currentGroupID))
+            .valueOrNull
+            ?.firstWhereOrNull((profile) => profile.userID == recordedByUserID)
+            ?.displayName;
+    return (displayName?.isNotEmpty ?? false) ? displayName : L.memberFallbackName;
+  }
+
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final medicine = history.medicine;
     final schedule = history.action.medicationSchedule;
     final primaryColor = Theme.of(context).colorScheme.primary;
     final memoUpdate = ref.watch(medicationHistoryMemoUpdateProvider);
+    final recorderName = _recorderDisplayName(ref);
 
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 16.0),
@@ -208,6 +232,10 @@ class MedicationHistoryTile extends HookConsumerWidget {
             ),
             const SizedBox(height: 4),
             Text(medicine.doseReceiver.name, style: const TextStyle(fontSize: 16, fontWeight: FontWeight.bold)),
+            if (recorderName != null) ...[
+              const SizedBox(height: 4),
+              Text(L.recordedByMember(recorderName), style: const TextStyle(fontSize: 12, color: TextColor.gray)),
+            ],
             const SizedBox(height: 4),
             Column(
               children: [

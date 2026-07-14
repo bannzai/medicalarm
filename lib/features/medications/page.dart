@@ -6,24 +6,32 @@ import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:intl/intl.dart';
 import 'package:medicalarm/components/admob/admob.dart';
+import 'package:medicalarm/components/banner/account_link_banner.dart';
 import 'package:medicalarm/components/calendar/weekly/pager.dart';
 import 'package:medicalarm/components/fab/layout.dart';
 import 'package:medicalarm/components/loading/indicator.dart';
 import 'package:medicalarm/components/retry/page.dart';
+import 'package:medicalarm/entity/group_member_notification_settings.dart';
 import 'package:medicalarm/entity/medication_history.dart';
 import 'package:medicalarm/entity/medicine.dart';
 import 'package:medicalarm/features/medications/components/add_button.dart';
 import 'package:medicalarm/components/calendar/day/today_badge.dart';
+import 'package:medicalarm/features/medications/components/group_chips_bar.dart';
 import 'package:medicalarm/features/medications/entity/grouped.dart';
 import 'package:medicalarm/features/medicine_form/components/schedule/focus_connect/section.dart';
 import 'package:medicalarm/features/medicine_form/page.dart';
 import 'package:medicalarm/features/medicines/page.dart';
 import 'package:medicalarm/features/preium_introduction/premium_introduction_sheet.dart';
+import 'package:medicalarm/provider/app_user.dart';
+import 'package:medicalarm/provider/current_group_id.dart';
+import 'package:medicalarm/provider/group_member_notification_settings.dart';
 import 'package:medicalarm/provider/medication_history.dart';
 import 'package:medicalarm/provider/medicine.dart';
 import 'package:medicalarm/style/color.dart';
+import 'package:medicalarm/utils/analytics/error.dart';
 import 'package:medicalarm/utils/date_time/date_time_ext.dart';
 import 'package:medicalarm/features/localization/l.dart';
+import 'package:medicalarm/utils/functions/firebase_functions.dart';
 import 'package:medicalarm/utils/local_notification/client.dart';
 import 'package:medicalarm/utils/purchase/purchase.dart';
 import 'package:purchases_flutter/models/customer_info_wrapper.dart';
@@ -118,6 +126,8 @@ class MedicationsPageBody extends HookConsumerWidget {
             children: [
               Column(
                 children: [
+                  const GroupChipsBar(),
+                  const AccountLinkBanner(),
                   WeeklyCalendarPager(date: date, pageController: pageController),
                   const Divider(
                     height: 1,
@@ -260,15 +270,45 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
       unawaited(registerReminderLocalNotification.call());
 
       if (isChecked.value) {
-        await medicationHistoryTake.call(
+        // 記録の書き込みで snapshot が更新されると、この widget は破棄され ref が使えなくなる。
+        // await をまたいで ref を触るとウィジェット破棄後アクセスで例外になるため、ref 依存値は await の前に読み出す。
+        final groupID = ref.read(currentGroupIDProvider);
+        final currentUserID = ref.read(appUserIDProvider);
+        // memberSettings は take 内の AlarmKit 判定と Focus 連携の解決で共用するため、write より前に読み出して解決する。
+        final memberSettings = await ref.read(groupMemberNotificationSettingsProvider.future);
+
+        final medicationHistory = await medicationHistoryTake.call(
           medicationHistory: scheduleRow.medicationHistory,
           scheduledRecordedDate: scheduleRow.date,
           recordedDateTime: scheduleRow.medicationHistory?.recordedDateTime ?? DateTime.now(),
           medicine: scheduleRow.medicine,
           medicationSchedule: scheduleRow.medicationSchedule,
+          memberSettings: memberSettings,
         );
 
-        final focusConnectScheduleID = scheduleRow.medicationSchedule.focusConnectSetting?.focusConnectScheduleID;
+        // 同じグループの他メンバーへ服薬記録を push 通知する。失敗しても記録は成功扱いにするため unawaited + catch。
+        // ソログループなど送信対象が 0 件の場合はサーバー側でスキップされる。
+        if (groupID != null) {
+          unawaited(
+            functions
+                .sendMedicationRecordNotification(
+              groupID: groupID,
+              medicineID: scheduleRow.medicine.id,
+              medicationHistoryID: medicationHistory.id,
+            )
+                .catchError((Object e, StackTrace st) {
+              errorLogger.recordError(e, st);
+            }),
+          );
+        }
+
+        // Focus 連携は端末個人の設定のため、テンプレート直読みではなく有効設定の解決経由で取得する
+        final focusConnectScheduleID = resolveEffectiveNotificationSetting(
+          medicine: scheduleRow.medicine,
+          schedule: scheduleRow.medicationSchedule,
+          memberSettings: memberSettings,
+          currentUserID: currentUserID,
+        ).focusConnectScheduleID;
         if (focusConnectScheduleID != null) {
           await launchUrl(
             Uri.parse(

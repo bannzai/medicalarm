@@ -1,10 +1,13 @@
 import 'dart:async';
 
+import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:cloud_functions/cloud_functions.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_crashlytics/firebase_crashlytics.dart';
 import 'package:flutter/material.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
+import 'package:google_sign_in/google_sign_in.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:intl/intl.dart';
 import 'package:medicalarm/features/root/page.dart';
@@ -13,6 +16,7 @@ import 'package:medicalarm/provider/shared_preferences.dart';
 import 'package:medicalarm/style/color.dart';
 import 'package:medicalarm/utils/config/remote_config.dart';
 import 'package:medicalarm/utils/local_notification/client.dart';
+import 'package:medicalarm/utils/push_notification/fcm_notification.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 void main() async {
@@ -25,7 +29,29 @@ void main() async {
       MobileAds.instance.initialize(),
       Firebase.initializeApp(),
     ).wait;
+
+    // ローカルの Firebase Emulator に接続する開発用ゲート。
+    // `--dart-define=USE_FIREBASE_EMULATOR=true` を付けたビルドのみ有効で、デフォルト(未指定)では本番に接続する。
+    // Cloud Functions は instanceFor(region:) が (app, region) 単位でインスタンスをキャッシュするため、
+    // ここで接続したインスタンスは utils/functions/firebase_functions.dart のグローバル functions と同一で、そちらにも効く。
+    if (const bool.fromEnvironment('USE_FIREBASE_EMULATOR')) {
+      await FirebaseAuth.instance.useAuthEmulator('localhost', 9099);
+      FirebaseFirestore.instance.useFirestoreEmulator('localhost', 8080);
+      FirebaseFunctions.instanceFor(region: 'asia-northeast1').useFunctionsEmulator('localhost', 5001);
+    }
     FirebaseAuth.instance.setSettings(userAccessGroup: 'TQPN82UBBY.com.bannzai.medicalarm');
+
+    // google_sign_in v7 は利用前に一度だけ initialize() が必要。
+    // GoogleService-Info.plist の CLIENT_ID / GIDClientID 未設定の環境でもアプリ起動を妨げないよう握りつぶす
+    // (Google リンク実行時に authenticate() 側で改めてエラー表示される)。
+    try {
+      await GoogleSignIn.instance.initialize();
+    } catch (e) {
+      debugPrint('GoogleSignIn.initialize failed: $e');
+    }
+
+    // フォアグラウンドでの FCM 受信(服薬記録 push 等)を SnackBar 表示するハンドラを起動する
+    fcmNotificationHandler.initialize();
 
     // ignore: prefer_typing_uninitialized_variables
     final (_, sharedPreferences, _) = await (
@@ -63,6 +89,7 @@ class App extends StatelessWidget {
     );
 
     return MaterialApp(
+      scaffoldMessengerKey: scaffoldMessengerKey,
       theme: ThemeData(
         colorScheme: colorScheme,
         dividerColor: Colors.black,

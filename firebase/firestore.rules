@@ -1,22 +1,125 @@
 rules_version = '2';
 
+// 設計方針:
+// JWT (Firebase Auth) の本人認証 + リソース所有 (グループメンバー) 判定を基本とし、
+// グループ配下でも本人性が要る書き込み (自分の userProfile / memberNotificationSettings) は対象ユーザー本人に限定する。
+// 一方でデータ内容に踏み込んだガード (プレミアム判定・期間判定・フィールド diff 等) は原則実装しない。
+// 例外: groups 本体の update は変更フィールドを限定する (下記参照)。memberUserIDs / ownerUserID は
+// 全サブコレクションの認可の根幹であり、メンバーであっても書き換えを許すと成りすまし・不正参加につながるため、
+// この 1 箇所だけフィールド diff によるガードを設ける。招待/削除は Functions (Admin SDK) 経由のみ。
+//
+// /users ツリーは medicalarm-prod にデプロイ済みだった旧ルール (#242 でエクスポート) の
+// 操作別許可 (privates は read 不可・users は delete 不可・doseReceivers は delete 不可) を維持し、
+// グループ機能 (#241) で以下を追加している:
+// - /groups ツリーと /groupInvitations
+// - デバッグユーザーパターン ({uid}_debug_N)
+// - /users/{userID}/diaries (旧ルールに match が無く deny だったが、グループ移行が読み取るため追加)
+// - users の create を本人 + デバッグユーザーに限定 (旧ルールは認証済みなら他人の uid でも作成可能だった)
 service cloud.firestore {
   match /databases/{database}/documents {
-    match /users/{userId} {
-      allow read, update: if request.auth.uid == userId;
-      allow create: if request.auth.uid != null;
+    function isAuth() {
+      return request.auth != null;
     }
-    match /users/{userId}/privates/{privateId} {
-      allow create, update: if request.auth.uid == userId;
+
+    function isUserAuth(id) {
+      return isAuth() && request.auth.uid == id;
     }
-    match /users/{userId}/medicines/{medicineId} {
-      allow read, create, update, delete: if request.auth.uid == userId;
+
+    // デバッグユーザーID ({uid}_debug_1 等) を実ユーザーが操作できるかチェック。
+    // 1 台の Simulator での複数ユーザー E2E 用 (shoppinglist 踏襲)。
+    function isDebugUserOf(userDocID) {
+      return isAuth() && userDocID.matches(request.auth.uid + '_debug_[0-9]+');
     }
-    match /users/{userId}/medicationHistories/{medicationHistoryId} {
-      allow read, create, update, delete: if request.auth.uid == userId;
+
+    function isMember(memberUserIDs) {
+      return isAuth() && request.auth.uid in memberUserIDs;
     }
-    match /users/{userId}/doseReceivers/{doseReceiverId} {
-      allow read, create, update: if request.auth.uid == userId;
+
+    match /users/{userID} {
+      allow read, create, update: if isUserAuth(userID) || isDebugUserOf(userID);
+
+      // fcmToken / fcmTokens / apnsToken。旧ルールどおり read は許可しない (クライアントは書き込みのみ)。
+      match /privates/{privateID} {
+        allow create, update: if isUserAuth(userID) || isDebugUserOf(userID);
+      }
+
+      // グループ移行後も /users/{userID} 配下に残置するレガシーデータ。
+      match /medicines/{medicineID} {
+        allow read, create, update, delete: if isUserAuth(userID) || isDebugUserOf(userID);
+      }
+
+      match /medicationHistories/{medicationHistoryID} {
+        allow read, create, update, delete: if isUserAuth(userID) || isDebugUserOf(userID);
+      }
+
+      // 旧ルールどおり delete は許可しない (DoseReceiver は削除不可の設計)。
+      match /doseReceivers/{doseReceiverID} {
+        allow read, create, update: if isUserAuth(userID) || isDebugUserOf(userID);
+      }
+
+      // 旧ルールに match が無く deny だったが、グループ移行 (GroupMigration) が読み取るため追加。
+      match /diaries/{diaryID} {
+        allow read, create, update, delete: if isUserAuth(userID) || isDebugUserOf(userID);
+      }
+    }
+
+    // グループ招待: クライアントから直接 read/write しない
+    // (createGroupInvitation / acceptGroupInvitation Function の Admin SDK 経由のみ)。
+    match /groupInvitations/{invitationID} {
+      allow read, write: if false;
+    }
+
+    match /groups/{groupID} {
+      allow read: if isMember(resource.data.memberUserIDs);
+      // グループ削除フローはクライアントに無いため delete は許可しない。
+      // update はグループ名 (GroupNameUpdate) 等の安全なフィールドに限定する。
+      // memberUserIDs / ownerUserID を含む変更はメンバーでも拒否し、招待/削除は Functions 経由のみとする。
+      // 注: diff().affectedKeys() は「値が変わったキーのみ」を含むため、GroupNameUpdate が
+      // Group 全体を set(merge) しても同値フィールド (id / memberUserIDs / ownerUserID 等) は影響しない。
+      allow update: if isMember(resource.data.memberUserIDs)
+        && request.resource.data.diff(resource.data).affectedKeys()
+          .hasOnly(['name', 'iconName', 'updatedDateTime', 'serverUpdatedDateTime']);
+      // グループ作成は createGroup Function 経由でのみ許可する。
+      allow create: if false;
+
+      function isGroupMember() {
+        return isMember(get(/databases/$(database)/documents/groups/$(groupID)).data.memberUserIDs);
+      }
+
+      // read はメンバー全員。書き込みは自分の profile のみ (displayName 編集は本人だけが行う)。
+      match /userProfiles/{profileID} {
+        allow read: if isGroupMember();
+        allow create: if isGroupMember() && (isUserAuth(request.resource.data.userID) || isDebugUserOf(request.resource.data.userID));
+        // update は本人のみ。userID は不変とし、他人の userID への書き換え (成りすまし) を防ぐ。
+        allow update: if isGroupMember()
+          && (isUserAuth(resource.data.userID) || isDebugUserOf(resource.data.userID))
+          && request.resource.data.userID == resource.data.userID;
+        allow delete: if isGroupMember() && (isUserAuth(resource.data.userID) || isDebugUserOf(resource.data.userID));
+      }
+
+      match /medicines/{medicineID} {
+        allow read, write: if isGroupMember();
+      }
+
+      // DoseReceiver は削除不可の設計をグループ側でも維持するため delete を許可しない。
+      match /doseReceivers/{doseReceiverID} {
+        allow read, create, update: if isGroupMember();
+      }
+
+      match /medicationHistories/{historyID} {
+        allow read, write: if isGroupMember();
+      }
+
+      match /diaries/{diaryID} {
+        allow read, write: if isGroupMember();
+      }
+
+      // メンバー個別通知設定。docID = memberUserID。read はメンバー全員だが、
+      // write は本人のみ (端末個人設定を他メンバーに書き換えられないようにする)。
+      match /memberNotificationSettings/{memberUserID} {
+        allow read: if isGroupMember();
+        allow write: if isGroupMember() && (isUserAuth(memberUserID) || isDebugUserOf(memberUserID));
+      }
     }
   }
 }

@@ -14,7 +14,7 @@ T _$identity<T>(T value) => value;
 
 /// @nodoc
 mixin _$Medicine {
-  String get id;
+  String get id; // 作成者(creator)の userID。グループ共有では他メンバーが閲覧・記録することもあるため所有者ではなく作成者を表す。
   String get userID;
   String get name;
   MedicationFrequency get frequency;
@@ -493,6 +493,7 @@ class _Medicine extends Medicine {
 
   @override
   final String id;
+// 作成者(creator)の userID。グループ共有では他メンバーが閲覧・記録することもあるため所有者ではなく作成者を表す。
   @override
   final String userID;
   @override

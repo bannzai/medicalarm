@@ -14,7 +14,12 @@ T _$identity<T>(T value) => value;
 
 /// @nodoc
 mixin _$AppUser {
-  String? get id;
+  String? get id; // 起動時に表示・書き込み対象とするグループの ID。アプリ開始時点では未作成のため nullable。
+// 初回はグループ移行(GroupMigrationResolver)がソログループを作成してセットする。
+  String? get defaultGroupID; // グループ移行の完了マーカー。defaultGroupID とは別に持つことで、
+// 「グループは作成済みだがデータコピー途中で失敗」した状態を次回起動時に検知しリカバリできる。
+  @NullableTimestampConverter()
+  DateTime? get groupMigratedDateTime;
   bool get analyticsDebugIsEnabled;
   @NullableTimestampConverter()
   DateTime? get maybeTrialDeadlineDate;
@@ -44,6 +49,8 @@ mixin _$AppUser {
         (other.runtimeType == runtimeType &&
             other is AppUser &&
             (identical(other.id, id) || other.id == id) &&
+            (identical(other.defaultGroupID, defaultGroupID) || other.defaultGroupID == defaultGroupID) &&
+            (identical(other.groupMigratedDateTime, groupMigratedDateTime) || other.groupMigratedDateTime == groupMigratedDateTime) &&
             (identical(other.analyticsDebugIsEnabled, analyticsDebugIsEnabled) || other.analyticsDebugIsEnabled == analyticsDebugIsEnabled) &&
             (identical(other.maybeTrialDeadlineDate, maybeTrialDeadlineDate) || other.maybeTrialDeadlineDate == maybeTrialDeadlineDate) &&
             (identical(other.promotionStartPageCancelButtonTappedDateTime, promotionStartPageCancelButtonTappedDateTime) ||
@@ -56,12 +63,12 @@ mixin _$AppUser {
 
   @JsonKey(includeFromJson: false, includeToJson: false)
   @override
-  int get hashCode => Object.hash(runtimeType, id, analyticsDebugIsEnabled, maybeTrialDeadlineDate, promotionStartPageCancelButtonTappedDateTime,
-      createdDateTime, updatedDateTime, serverCreatedDateTime, serverUpdatedDateTime);
+  int get hashCode => Object.hash(runtimeType, id, defaultGroupID, groupMigratedDateTime, analyticsDebugIsEnabled, maybeTrialDeadlineDate,
+      promotionStartPageCancelButtonTappedDateTime, createdDateTime, updatedDateTime, serverCreatedDateTime, serverUpdatedDateTime);
 
   @override
   String toString() {
-    return 'AppUser(id: $id, analyticsDebugIsEnabled: $analyticsDebugIsEnabled, maybeTrialDeadlineDate: $maybeTrialDeadlineDate, promotionStartPageCancelButtonTappedDateTime: $promotionStartPageCancelButtonTappedDateTime, createdDateTime: $createdDateTime, updatedDateTime: $updatedDateTime, serverCreatedDateTime: $serverCreatedDateTime, serverUpdatedDateTime: $serverUpdatedDateTime)';
+    return 'AppUser(id: $id, defaultGroupID: $defaultGroupID, groupMigratedDateTime: $groupMigratedDateTime, analyticsDebugIsEnabled: $analyticsDebugIsEnabled, maybeTrialDeadlineDate: $maybeTrialDeadlineDate, promotionStartPageCancelButtonTappedDateTime: $promotionStartPageCancelButtonTappedDateTime, createdDateTime: $createdDateTime, updatedDateTime: $updatedDateTime, serverCreatedDateTime: $serverCreatedDateTime, serverUpdatedDateTime: $serverUpdatedDateTime)';
   }
 }
 
@@ -71,6 +78,8 @@ abstract mixin class $AppUserCopyWith<$Res> {
   @useResult
   $Res call(
       {String? id,
+      String? defaultGroupID,
+      @NullableTimestampConverter() DateTime? groupMigratedDateTime,
       bool analyticsDebugIsEnabled,
       @NullableTimestampConverter() DateTime? maybeTrialDeadlineDate,
       @NullableTimestampConverter() DateTime? promotionStartPageCancelButtonTappedDateTime,
@@ -93,6 +102,8 @@ class _$AppUserCopyWithImpl<$Res> implements $AppUserCopyWith<$Res> {
   @override
   $Res call({
     Object? id = freezed,
+    Object? defaultGroupID = freezed,
+    Object? groupMigratedDateTime = freezed,
     Object? analyticsDebugIsEnabled = null,
     Object? maybeTrialDeadlineDate = freezed,
     Object? promotionStartPageCancelButtonTappedDateTime = freezed,
@@ -106,6 +117,14 @@ class _$AppUserCopyWithImpl<$Res> implements $AppUserCopyWith<$Res> {
           ? _self.id
           : id // ignore: cast_nullable_to_non_nullable
               as String?,
+      defaultGroupID: freezed == defaultGroupID
+          ? _self.defaultGroupID
+          : defaultGroupID // ignore: cast_nullable_to_non_nullable
+              as String?,
+      groupMigratedDateTime: freezed == groupMigratedDateTime
+          ? _self.groupMigratedDateTime
+          : groupMigratedDateTime // ignore: cast_nullable_to_non_nullable
+              as DateTime?,
       analyticsDebugIsEnabled: null == analyticsDebugIsEnabled
           ? _self.analyticsDebugIsEnabled
           : analyticsDebugIsEnabled // ignore: cast_nullable_to_non_nullable
@@ -233,6 +252,8 @@ extension AppUserPatterns on AppUser {
   TResult maybeWhen<TResult extends Object?>(
     TResult Function(
             String? id,
+            String? defaultGroupID,
+            @NullableTimestampConverter() DateTime? groupMigratedDateTime,
             bool analyticsDebugIsEnabled,
             @NullableTimestampConverter() DateTime? maybeTrialDeadlineDate,
             @NullableTimestampConverter() DateTime? promotionStartPageCancelButtonTappedDateTime,
@@ -246,8 +267,17 @@ extension AppUserPatterns on AppUser {
     final _that = this;
     switch (_that) {
       case _AppUser() when $default != null:
-        return $default(_that.id, _that.analyticsDebugIsEnabled, _that.maybeTrialDeadlineDate, _that.promotionStartPageCancelButtonTappedDateTime,
-            _that.createdDateTime, _that.updatedDateTime, _that.serverCreatedDateTime, _that.serverUpdatedDateTime);
+        return $default(
+            _that.id,
+            _that.defaultGroupID,
+            _that.groupMigratedDateTime,
+            _that.analyticsDebugIsEnabled,
+            _that.maybeTrialDeadlineDate,
+            _that.promotionStartPageCancelButtonTappedDateTime,
+            _that.createdDateTime,
+            _that.updatedDateTime,
+            _that.serverCreatedDateTime,
+            _that.serverUpdatedDateTime);
       case _:
         return orElse();
     }
@@ -270,6 +300,8 @@ extension AppUserPatterns on AppUser {
   TResult when<TResult extends Object?>(
     TResult Function(
             String? id,
+            String? defaultGroupID,
+            @NullableTimestampConverter() DateTime? groupMigratedDateTime,
             bool analyticsDebugIsEnabled,
             @NullableTimestampConverter() DateTime? maybeTrialDeadlineDate,
             @NullableTimestampConverter() DateTime? promotionStartPageCancelButtonTappedDateTime,
@@ -282,8 +314,17 @@ extension AppUserPatterns on AppUser {
     final _that = this;
     switch (_that) {
       case _AppUser():
-        return $default(_that.id, _that.analyticsDebugIsEnabled, _that.maybeTrialDeadlineDate, _that.promotionStartPageCancelButtonTappedDateTime,
-            _that.createdDateTime, _that.updatedDateTime, _that.serverCreatedDateTime, _that.serverUpdatedDateTime);
+        return $default(
+            _that.id,
+            _that.defaultGroupID,
+            _that.groupMigratedDateTime,
+            _that.analyticsDebugIsEnabled,
+            _that.maybeTrialDeadlineDate,
+            _that.promotionStartPageCancelButtonTappedDateTime,
+            _that.createdDateTime,
+            _that.updatedDateTime,
+            _that.serverCreatedDateTime,
+            _that.serverUpdatedDateTime);
       case _:
         throw StateError('Unexpected subclass');
     }
@@ -305,6 +346,8 @@ extension AppUserPatterns on AppUser {
   TResult? whenOrNull<TResult extends Object?>(
     TResult? Function(
             String? id,
+            String? defaultGroupID,
+            @NullableTimestampConverter() DateTime? groupMigratedDateTime,
             bool analyticsDebugIsEnabled,
             @NullableTimestampConverter() DateTime? maybeTrialDeadlineDate,
             @NullableTimestampConverter() DateTime? promotionStartPageCancelButtonTappedDateTime,
@@ -317,8 +360,17 @@ extension AppUserPatterns on AppUser {
     final _that = this;
     switch (_that) {
       case _AppUser() when $default != null:
-        return $default(_that.id, _that.analyticsDebugIsEnabled, _that.maybeTrialDeadlineDate, _that.promotionStartPageCancelButtonTappedDateTime,
-            _that.createdDateTime, _that.updatedDateTime, _that.serverCreatedDateTime, _that.serverUpdatedDateTime);
+        return $default(
+            _that.id,
+            _that.defaultGroupID,
+            _that.groupMigratedDateTime,
+            _that.analyticsDebugIsEnabled,
+            _that.maybeTrialDeadlineDate,
+            _that.promotionStartPageCancelButtonTappedDateTime,
+            _that.createdDateTime,
+            _that.updatedDateTime,
+            _that.serverCreatedDateTime,
+            _that.serverUpdatedDateTime);
       case _:
         return null;
     }
@@ -331,6 +383,8 @@ extension AppUserPatterns on AppUser {
 class _AppUser extends AppUser {
   const _AppUser(
       {this.id,
+      this.defaultGroupID,
+      @NullableTimestampConverter() this.groupMigratedDateTime,
       this.analyticsDebugIsEnabled = false,
       @NullableTimestampConverter() this.maybeTrialDeadlineDate,
       @NullableTimestampConverter() this.promotionStartPageCancelButtonTappedDateTime,
@@ -343,6 +397,15 @@ class _AppUser extends AppUser {
 
   @override
   final String? id;
+// 起動時に表示・書き込み対象とするグループの ID。アプリ開始時点では未作成のため nullable。
+// 初回はグループ移行(GroupMigrationResolver)がソログループを作成してセットする。
+  @override
+  final String? defaultGroupID;
+// グループ移行の完了マーカー。defaultGroupID とは別に持つことで、
+// 「グループは作成済みだがデータコピー途中で失敗」した状態を次回起動時に検知しリカバリできる。
+  @override
+  @NullableTimestampConverter()
+  final DateTime? groupMigratedDateTime;
   @override
   @JsonKey()
   final bool analyticsDebugIsEnabled;
@@ -385,6 +448,8 @@ class _AppUser extends AppUser {
         (other.runtimeType == runtimeType &&
             other is _AppUser &&
             (identical(other.id, id) || other.id == id) &&
+            (identical(other.defaultGroupID, defaultGroupID) || other.defaultGroupID == defaultGroupID) &&
+            (identical(other.groupMigratedDateTime, groupMigratedDateTime) || other.groupMigratedDateTime == groupMigratedDateTime) &&
             (identical(other.analyticsDebugIsEnabled, analyticsDebugIsEnabled) || other.analyticsDebugIsEnabled == analyticsDebugIsEnabled) &&
             (identical(other.maybeTrialDeadlineDate, maybeTrialDeadlineDate) || other.maybeTrialDeadlineDate == maybeTrialDeadlineDate) &&
             (identical(other.promotionStartPageCancelButtonTappedDateTime, promotionStartPageCancelButtonTappedDateTime) ||
@@ -397,12 +462,12 @@ class _AppUser extends AppUser {
 
   @JsonKey(includeFromJson: false, includeToJson: false)
   @override
-  int get hashCode => Object.hash(runtimeType, id, analyticsDebugIsEnabled, maybeTrialDeadlineDate, promotionStartPageCancelButtonTappedDateTime,
-      createdDateTime, updatedDateTime, serverCreatedDateTime, serverUpdatedDateTime);
+  int get hashCode => Object.hash(runtimeType, id, defaultGroupID, groupMigratedDateTime, analyticsDebugIsEnabled, maybeTrialDeadlineDate,
+      promotionStartPageCancelButtonTappedDateTime, createdDateTime, updatedDateTime, serverCreatedDateTime, serverUpdatedDateTime);
 
   @override
   String toString() {
-    return 'AppUser(id: $id, analyticsDebugIsEnabled: $analyticsDebugIsEnabled, maybeTrialDeadlineDate: $maybeTrialDeadlineDate, promotionStartPageCancelButtonTappedDateTime: $promotionStartPageCancelButtonTappedDateTime, createdDateTime: $createdDateTime, updatedDateTime: $updatedDateTime, serverCreatedDateTime: $serverCreatedDateTime, serverUpdatedDateTime: $serverUpdatedDateTime)';
+    return 'AppUser(id: $id, defaultGroupID: $defaultGroupID, groupMigratedDateTime: $groupMigratedDateTime, analyticsDebugIsEnabled: $analyticsDebugIsEnabled, maybeTrialDeadlineDate: $maybeTrialDeadlineDate, promotionStartPageCancelButtonTappedDateTime: $promotionStartPageCancelButtonTappedDateTime, createdDateTime: $createdDateTime, updatedDateTime: $updatedDateTime, serverCreatedDateTime: $serverCreatedDateTime, serverUpdatedDateTime: $serverUpdatedDateTime)';
   }
 }
 
@@ -413,6 +478,8 @@ abstract mixin class _$AppUserCopyWith<$Res> implements $AppUserCopyWith<$Res> {
   @useResult
   $Res call(
       {String? id,
+      String? defaultGroupID,
+      @NullableTimestampConverter() DateTime? groupMigratedDateTime,
       bool analyticsDebugIsEnabled,
       @NullableTimestampConverter() DateTime? maybeTrialDeadlineDate,
       @NullableTimestampConverter() DateTime? promotionStartPageCancelButtonTappedDateTime,
@@ -435,6 +502,8 @@ class __$AppUserCopyWithImpl<$Res> implements _$AppUserCopyWith<$Res> {
   @pragma('vm:prefer-inline')
   $Res call({
     Object? id = freezed,
+    Object? defaultGroupID = freezed,
+    Object? groupMigratedDateTime = freezed,
     Object? analyticsDebugIsEnabled = null,
     Object? maybeTrialDeadlineDate = freezed,
     Object? promotionStartPageCancelButtonTappedDateTime = freezed,
@@ -448,6 +517,14 @@ class __$AppUserCopyWithImpl<$Res> implements _$AppUserCopyWith<$Res> {
           ? _self.id
           : id // ignore: cast_nullable_to_non_nullable
               as String?,
+      defaultGroupID: freezed == defaultGroupID
+          ? _self.defaultGroupID
+          : defaultGroupID // ignore: cast_nullable_to_non_nullable
+              as String?,
+      groupMigratedDateTime: freezed == groupMigratedDateTime
+          ? _self.groupMigratedDateTime
+          : groupMigratedDateTime // ignore: cast_nullable_to_non_nullable
+              as DateTime?,
       analyticsDebugIsEnabled: null == analyticsDebugIsEnabled
           ? _self.analyticsDebugIsEnabled
           : analyticsDebugIsEnabled // ignore: cast_nullable_to_non_nullable
