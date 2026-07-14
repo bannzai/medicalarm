@@ -1,0 +1,16 @@
+# QA証跡取得用flow。お薬一覧でSwitchを1回だけタップし、Snackbarが表示されることをtakeScreenshotで捕捉する。
+# 一時停止/再開のどちらの方向かは問わない設計（タップ対象カードの現在状態に依存するため）。
+# 方向を固定した検証は状態セットアップ込みの toggle_switch.yaml / resume_and_edit.yaml が担い、
+# 証跡として使う際は撮影画像の文言を確認してからどちらの項目に添付するか判断する。
+# full_pause_feature.yaml がテスト薬の登録〜お薬一覧への遷移まで行うため、クリーンな環境でも単体実行できる。
+# 注意: medicine_pause_switch の Semantics identifier はカードごとに重複するため、お薬一覧にテスト薬以外の薬があると意図しないカードを操作する可能性がある。
+# スクリーンショットは gitignore 済みの ./tmp/ に出力し、working tree を汚さない。
+appId: com.bannzai.medicalarm
+---
+- runFlow: full_pause_feature.yaml
+- tapOn:
+    id: "medicine_pause_switch"
+- extendedWaitUntil:
+    visible: "(?s).*(一時停止しました|再開しました).*"
+    timeout: 5000
+- takeScreenshot: tmp/qa_switch_single_tap
