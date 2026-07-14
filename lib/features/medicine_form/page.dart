@@ -45,9 +45,8 @@ class MedicineFormPage extends HookConsumerWidget {
     final doseReceiver = useState<DoseReceiver>(medicine?.doseReceiver ?? DoseReceiver.firstUser(userID: userID));
 
     // MedicinePauseTile 等で編集中に外部から更新された pausedDateTime を保存処理に取り込むため、activeMedicinesProvider から最新の Medicine を解決する
-    final currentMedicine = medicine == null
-        ? null
-        : ref.watch(activeMedicinesProvider).valueOrNull?.firstWhereOrNull((m) => m.id == medicine!.id) ?? medicine;
+    final currentMedicine =
+        medicine == null ? null : ref.watch(activeMedicinesProvider).valueOrNull?.firstWhereOrNull((m) => m.id == medicine!.id) ?? medicine;
 
     final medicineAdd = ref.watch(medicineAddProvider);
     final medicineUpdate = ref.watch(medicineUpdateProvider);
@@ -95,127 +94,131 @@ class MedicineFormPage extends HookConsumerWidget {
               FocusScope.of(context).unfocus();
             },
             child: FormTheme(
-              child: Scaffold(
-                appBar: AppBar(
-                  title: Text(L.medicineRegistration, style: TextStyle(color: primaryColor)),
-                  actions: [
-                    IconButton(
-                      onPressed: () async {
-                        final medicineID = medicine?.id;
-                        if (medicineID != null) {
-                          try {
-                            unawaited(ref.read(registerReminderLocalNotificationProvider).call());
-                            await ref.read(medicineDeleteProvider).call(medicineID: medicineID);
-                            if (context.mounted) {
-                              Navigator.of(context).pop();
-                            }
-                          } catch (e) {
-                            if (context.mounted) {
-                              showErrorAlert(context, e.toString());
+              // showModalBottomSheet 内では ScaffoldMessenger.of がルート側に解決され、
+              // 全画面モーダルの背後に SnackBar が表示されて見えないため、モーダル内に ScaffoldMessenger を持つ
+              child: ScaffoldMessenger(
+                child: Scaffold(
+                  appBar: AppBar(
+                    title: Text(L.medicineRegistration, style: TextStyle(color: primaryColor)),
+                    actions: [
+                      IconButton(
+                        onPressed: () async {
+                          final medicineID = medicine?.id;
+                          if (medicineID != null) {
+                            try {
+                              unawaited(ref.read(registerReminderLocalNotificationProvider).call());
+                              await ref.read(medicineDeleteProvider).call(medicineID: medicineID);
+                              if (context.mounted) {
+                                Navigator.of(context).pop();
+                              }
+                            } catch (e) {
+                              if (context.mounted) {
+                                showErrorAlert(context, e.toString());
+                              }
                             }
                           }
-                        }
-                      },
-                      icon: const Icon(Icons.delete),
-                    ),
-                  ],
-                ),
-                body: FloatingActionButtonLayout(
-                  scaffoldBody: SafeArea(
-                    child: Stack(
-                      children: [
-                        Column(
-                          children: [
-                            Expanded(
-                              child: SingleChildScrollView(
-                                padding: const EdgeInsets.only(bottom: 60.0),
-                                child: Column(
-                                  children: [
-                                    Padding(
-                                      padding: const EdgeInsets.symmetric(vertical: 16.0),
-                                      child: Column(
-                                        children: [
-                                          MedicineFormNameTextField(name: name, focusNode: nameFocusNode),
-                                          const SizedBox(height: 6),
-                                          MedicationFrequencyTile(frequency: frequency),
-                                          const SizedBox(height: 6),
-                                          MedicationBeginTile(begin: begin),
-                                          if (currentMedicine != null) ...[
-                                            const SizedBox(height: 6),
-                                            MedicinePauseTile(medicine: currentMedicine),
-                                          ],
-                                        ],
-                                      ),
-                                    ),
-                                    const Divider(color: Colors.black, height: 1),
-                                    MedicineScheduleSection(schedules: schedules),
-                                    const Divider(color: Colors.black, height: 1),
-                                    MedicineAdditionalInfoSection(
-                                      memo: memo,
-                                      memoImageURL: memoImageURL,
-                                      doseReceiver: doseReceiver,
-                                      memoFocusNode: memoFocusNode,
-                                    ),
-                                  ],
-                                ),
-                              ),
-                            ),
-                            if (nameFocusNode.hasFocus || memoFocusNode.hasFocus) ...[
-                              KeyboardToolbar(
-                                doneButton: AlertButton(
-                                  text: L.completed,
-                                  onPressed: () async {
-                                    analytics.logEvent(name: 'medicine_form_done_button_pressed');
-                                    nameFocusNode.unfocus();
-                                    memoFocusNode.unfocus();
-                                  },
-                                ),
-                              ),
-                            ],
-                          ],
-                        ),
-                      ],
-                    ),
+                        },
+                        icon: const Icon(Icons.delete),
+                      ),
+                    ],
                   ),
-                  floatingActionButton: Padding(
-                    padding: const EdgeInsets.symmetric(horizontal: 16.0),
-                    child: SizedBox(
-                      width: double.infinity,
-                      child: Column(
+                  body: FloatingActionButtonLayout(
+                    scaffoldBody: SafeArea(
+                      child: Stack(
                         children: [
-                          if (!canSubmit) ...[
-                            Text(L.medicineFormValidationError, style: const TextStyle(color: TextColor.danger, fontSize: 10.0)),
-                          ],
-                          ElevatedButton.icon(
-                            onPressed: canSubmit
-                                ? () async {
-                                    try {
-                                      if (isLoading.value) {
-                                        return;
-                                      }
-                                      isLoading.value = true;
-
-                                      await submit();
-                                      unawaited(registerReminderLocalNotification());
-
-                                      if (context.mounted) {
-                                        Navigator.pop(context);
-                                      }
-                                    } catch (e) {
-                                      if (context.mounted) {
-                                        showErrorAlert(context, e.toString());
-                                      }
-                                    } finally {
-                                      isLoading.value = false;
-                                    }
-                                  }
-                                : null,
-                            label: Loading(
-                              isLoading: isLoading.value,
-                              child: Text(L.save),
-                            ),
+                          Column(
+                            children: [
+                              Expanded(
+                                child: SingleChildScrollView(
+                                  padding: const EdgeInsets.only(bottom: 60.0),
+                                  child: Column(
+                                    children: [
+                                      Padding(
+                                        padding: const EdgeInsets.symmetric(vertical: 16.0),
+                                        child: Column(
+                                          children: [
+                                            MedicineFormNameTextField(name: name, focusNode: nameFocusNode),
+                                            const SizedBox(height: 6),
+                                            MedicationFrequencyTile(frequency: frequency),
+                                            const SizedBox(height: 6),
+                                            MedicationBeginTile(begin: begin),
+                                            if (currentMedicine != null) ...[
+                                              const SizedBox(height: 6),
+                                              MedicinePauseTile(medicine: currentMedicine),
+                                            ],
+                                          ],
+                                        ),
+                                      ),
+                                      const Divider(color: Colors.black, height: 1),
+                                      MedicineScheduleSection(schedules: schedules),
+                                      const Divider(color: Colors.black, height: 1),
+                                      MedicineAdditionalInfoSection(
+                                        memo: memo,
+                                        memoImageURL: memoImageURL,
+                                        doseReceiver: doseReceiver,
+                                        memoFocusNode: memoFocusNode,
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                              ),
+                              if (nameFocusNode.hasFocus || memoFocusNode.hasFocus) ...[
+                                KeyboardToolbar(
+                                  doneButton: AlertButton(
+                                    text: L.completed,
+                                    onPressed: () async {
+                                      analytics.logEvent(name: 'medicine_form_done_button_pressed');
+                                      nameFocusNode.unfocus();
+                                      memoFocusNode.unfocus();
+                                    },
+                                  ),
+                                ),
+                              ],
+                            ],
                           ),
                         ],
+                      ),
+                    ),
+                    floatingActionButton: Padding(
+                      padding: const EdgeInsets.symmetric(horizontal: 16.0),
+                      child: SizedBox(
+                        width: double.infinity,
+                        child: Column(
+                          children: [
+                            if (!canSubmit) ...[
+                              Text(L.medicineFormValidationError, style: const TextStyle(color: TextColor.danger, fontSize: 10.0)),
+                            ],
+                            ElevatedButton.icon(
+                              onPressed: canSubmit
+                                  ? () async {
+                                      try {
+                                        if (isLoading.value) {
+                                          return;
+                                        }
+                                        isLoading.value = true;
+
+                                        await submit();
+                                        unawaited(registerReminderLocalNotification());
+
+                                        if (context.mounted) {
+                                          Navigator.pop(context);
+                                        }
+                                      } catch (e) {
+                                        if (context.mounted) {
+                                          showErrorAlert(context, e.toString());
+                                        }
+                                      } finally {
+                                        isLoading.value = false;
+                                      }
+                                    }
+                                  : null,
+                              label: Loading(
+                                isLoading: isLoading.value,
+                                child: Text(L.save),
+                              ),
+                            ),
+                          ],
+                        ),
                       ),
                     ),
                   ),
