@@ -1,0 +1,15 @@
+# QA証跡取得用の一時flow。お薬一覧でSwitchを1回だけタップしSnackbarをtakeScreenshotで捕捉する。
+# 実行前提: お薬一覧に「テスト薬」のみが1件登録されていること（medicine_pause_switch identifierはカードごとに重複するため）。
+appId: com.bannzai.medicalarm
+---
+- runFlow: allow_notification.yaml
+- tapOn: "薬を編集"
+- extendedWaitUntil:
+    visible: "お薬一覧"
+    timeout: 5000
+- tapOn:
+    id: "medicine_pause_switch"
+- extendedWaitUntil:
+    visible: "(?s).*(一時停止しました|再開しました).*"
+    timeout: 5000
+- takeScreenshot: qa_switch_single_tap
