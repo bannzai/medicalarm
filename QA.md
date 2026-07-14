@@ -41,6 +41,11 @@ make secret  # 環境変数 FILE_FIREBASE_IOS / REVENUE_CAT_PUBLIC_API_KEY が�
 ### 再現が難しい操作の手順
 
 - 起動直後は通知許可 → ATT → 初回プロモーション（★5 レビュー訴求）→ AdMob validator 警告（開発ビルド）の順不同でダイアログが重なる。mobile-mcp で手動確認する場合も、まず `maestro test maestro/flows/allow_notification.yaml` で突破してから操作を始めるのが確実
+- `flutter build ios --simulator` + `xcrun simctl install/launch` でアプリを起動すると、`lib/main.dart` の `setupRemoteConfig()`（`fetchAndActivate()` の `fetchTimeout` が1分）が同期待ちのため、シミュレータのネットワーク到達性によっては最大60秒程度 LaunchImage（白画面）のまま初回フレームが描画されない。`mobile_list_elements_on_screen` で `LaunchImage` が居座っていないかを確認し、白画面でも即座に失敗と判断しない
+- 非対話実行でも `flutter run -d <UDID>` はプロセスが常駐し続けるため、`run_in_background: true` で起動し、ログファイルを `grep` でポーリングして起動完了（`Flutter run key commands.` の出力）を待つ必要がある（フォアグラウンドで実行すると turn がブロックされたまま完了しない）
+- AdMob native ad validator の警告（開発ビルドのみ表示）は `overlayWebView` 内の要素で `mobile_list_elements_on_screen` にテキストとして現れず、`Dismiss` ボタン座標の目視推定タップが当たりにくい。無理に閉じようとせず、下部タブバー操作は overlay の下でも独立して機能するためそのまま操作を継続してよい
+  - この overlay は画面座標 x:0-335 y:355-510 に固定表示され、この範囲に重なるチェックボックス・ボタン等へのタップを奪う（`mobile_list_elements_on_screen` にはアクセシビリティ要素として現れるが、実タップは overlay 側が受け取る）。回避策: (1) 対象要素がこの範囲外（y>510）に来るよう事前に他のスケジュール・データを追加して並び順をずらす、(2) 広告を表示する画面から直接開いたモーダルには overlay が残るので、広告のない画面（例: 服薬画面ではなくお薬一覧画面）経由でフォームを開く
+  - 上記の y:355-510 という座標は画面が未スクロール時の値であり、overlay はバナー広告と同様に **スクロール可能なコンテンツの一部**として配置されている（固定オーバーレイではない）。そのため「対象要素を y>510 まで下げたつもり」でも、要素追加でリスト全体の高さが変わるとバナー位置も一緒にずれ、y>510 に見えても実際には overlay の裏に隠れていることがある。確実な回避策は、対象のチェックボックス等が画面内に見える状態で一度 `mobile_swipe_on_screen`（direction: up）でリストをスクロールし、その後の `mobile_list_elements_on_screen` で `overlayWebView` の最新 y 座標と対象要素の y 座標を比較してから（overlay の y+height より対象要素の y が大きいことを確認してから）タップする
 
 ## 横断確認項目
 
