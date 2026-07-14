@@ -119,7 +119,7 @@ last_verified_at: 2026-07-14
 
 ## 3. 服薬の一時停止・再開（Switch）
 
-Snackbar はデフォルトの表示時間が短く、`tapOn` → `screenshot` を別々のツール呼び出し（mobile-mcp 等）で行うと往復のレイテンシで表示が消えてから撮影されることが多い。maestro flow 内で `tapOn` の直後に `takeScreenshot` を置く（アサーションを挟まない）と、ツール呼び出しの往復がないため確実に捕捉できる。`maestro/flows/qa_verify_switch_snackbar.yaml` に手順を残した（実行前提: お薬一覧に対象の薬が1件のみ登録されていること。`medicine_pause_switch` の Semantics identifier はカードごとに重複しており、複数カードがあると `tapOn: {id: ...}` が意図しないカードを操作する）。
+Snackbar はデフォルトの表示時間が短く、`tapOn` → `screenshot` を別々のツール呼び出し（mobile-mcp 等）で行うと往復のレイテンシで表示が消えてから撮影されることが多い。maestro flow 内で `tapOn` → `extendedWaitUntil`（Snackbar 文言の出現待ち。ポーリングのため出現した時点で即座に返る）→ `takeScreenshot` の順に置くと、Firestore 書き込み完了前の空振り撮影を避けつつ表示時間内に確実に捕捉できる。`maestro/flows/qa_verify_switch_snackbar.yaml` に手順を残した（テスト薬の登録〜お薬一覧への遷移は flow 内で行うため単体実行可。`medicine_pause_switch` の Semantics identifier はカードごとに重複しており、テスト薬以外のカードがあると `tapOn: {id: ...}` が意図しないカードを操作する）。
 
 - [x] **Switch を OFF**: カード右下の Switch を OFF にすると「薬の服用を一時停止しました」の Snackbar が表示され、服薬画面からその薬が消える (maestro/flows/toggle_switch.yaml でカバー)
 - [x] **Switch を ON**: 一時停止中の Switch を ON に戻すと「薬の服用を再開しました」の Snackbar が表示され、服薬画面に薬が戻る (maestro/flows/resume_and_edit.yaml でカバー)

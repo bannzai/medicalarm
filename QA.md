@@ -10,7 +10,7 @@ last_verified_at: null
 ## 対象環境
 
 - Firebase project: `medicalarm-prod`（firebase/.firebaserc の default。dev 環境はなく、QA も prod に対して行う）
-- 匿名認証で起動のたびに新規ユーザーを作れるため、QA データは匿名ユーザー配下に閉じる。既存ユーザーのデータには触れないこと
+- 認証は匿名認証。AuthResolver は FirebaseAuth に currentUser が無い時のみ `signInAnonymously` を呼ぶため、再起動しても同じ匿名ユーザーが維持される。iOS は Firebase Auth の認証情報を Keychain に保持するため、アプリ削除 → 再インストールでも同じ匿名ユーザーが復元される（2026-07-15 に再インストール後も既存データが表示されることを実機確認済み）。新規の匿名ユーザーから始めたい場合は `xcrun simctl erase` でシミュレータごと初期化する。QA データは QA 用シミュレータの匿名ユーザー配下に閉じ、既存ユーザーのデータには触れないこと
 - iOS アプリ（Bundle ID: `com.bannzai.medicalarm`）。QA は iOS Simulator 上で行う
 
 ## 起動方法

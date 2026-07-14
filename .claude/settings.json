@@ -20,7 +20,7 @@
       "Bash(SCRIPT_QUIET=1 sim-shutdown:*)",
       "Bash(xcrun simctl:*)",
       "Bash(maestro:*)",
-      "mcp__mobile",
+      "mcp__mobile__*",
       "Bash(flutter:*)",
       "Bash(dart:*)"
     ]
