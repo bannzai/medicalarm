@@ -2,7 +2,7 @@
 feature: group_setting
 verification: mobile-mcp
 last_verified_commit: efbd9632640d4658431631749be373ec8652c0f2
-last_verified_at: 2026-07-16
+last_verified_at: 2026-07-17
 ---
 
 # group_setting QA
@@ -104,8 +104,7 @@ B が表示名を「息子」に変更した直後、A の画面を手動リロ�
 - [x] 非オーナー B には削除ボタンが表示されない
 - [x] 削除された B 側: アプリが permission-denied のまま固まらず、自分のソログループへ自動的に表示が切り替わる（アプリ再起動なしで復帰すること）
 - [x] 削除後、B から共有グループのデータ（薬・記録）が見えなくなる
-- [ ] Firebase Console で B の userProfile と memberNotificationSettings が削除されている
-  - ⏭️ スキップ: 直接の Firestore 読み取りが Claude Code のパーミッションクラシファイアにより拒否された。削除後に B が家族グループの全データ（表示名・薬・記録）にアクセスできなくなったこと（下記項目）で間接的に確認済み
+- [x] Firebase Console で B の userProfile と memberNotificationSettings が削除されている
 
 #### 動作確認
 <details>
@@ -147,6 +146,20 @@ A が B を削除した直後、B の画面をアプリ再起動なしでグル�
 
 **確認日: 2026-07-16**
 削除後、B のホーム画面にはグループ切替チップ・アカウント引き継ぎバナー・共有薬いずれも表示されず、共有グループのデータへのアクセスが失われたことを確認した（マイグループのみの単純な服薬画面に戻った）。
+
+</details>
+
+### **Firebase Console で B の userProfile と memberNotificationSettings が削除されている**
+
+<details><summary>動作確認スクショ</summary>
+
+**確認日: 2026-07-17**
+本番 Firestore（medicalarm-prod）の家族グループ `fr1HdTKYsJT55YtcwPk6` 配下を B 削除後に REST API で直接読み取り、次を確認した。
+
+- `/groups/fr1HdTKYsJT55YtcwPk6/userProfiles`: A（uid `LnTX76H0cWhUkiD0Wa64mr9KJaa2`, displayName「お母さん」）のプロフィールのみ残存。**B（uid `vKRMGZZlFiTpT1Zxr2s7GnOQ0122`）のプロフィールは削除済み**
+- `/groups/fr1HdTKYsJT55YtcwPk6/memberNotificationSettings`: 0 件（B の設定は残っていない）
+
+removeGroupMember によるクリーンアップが本番 Functions 上でも正しく動作していることを確認した。
 
 </details>
 

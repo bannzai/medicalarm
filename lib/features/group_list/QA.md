@@ -2,7 +2,7 @@
 feature: group_list
 verification: mobile-mcp
 last_verified_commit: efbd9632640d4658431631749be373ec8652c0f2
-last_verified_at: 2026-07-16
+last_verified_at: 2026-07-17
 ---
 
 # group_list QA
@@ -16,10 +16,8 @@ last_verified_at: 2026-07-16
 
 - [x] 初回起動時にローディングを経てホームが表示される（移行が完了し、無限スピナーにならない）
 - [x] 移行後、既存の薬・服用者・服薬記録がすべてそのまま表示される（データ欠落・重複がない）
-- [ ] Firebase Console で `/groups/{groupID}` 配下に medicines / doseReceivers / medicationHistories がコピーされ、`/users/{uid}` 配下の旧データも残置されている
-  - ⏭️ スキップ: 直接の Firestore 読み取りが Claude Code のパーミッションクラシファイアにより拒否された（本番データへの直接クエリのため）。UI 上で移行後データが正しく表示されていること（上記項目）で間接的に確認済み
-- [ ] `users/{uid}` に `defaultGroupID` と `groupMigratedDateTime` が設定されている
-  - ⏭️ スキップ: 同上（Firestore 直接読み取り不可）。2 回目以降の起動で移行が再実行されないこと（下記項目）で間接的に確認済み
+- [x] Firebase Console で `/groups/{groupID}` 配下に medicines / doseReceivers / medicationHistories がコピーされ、`/users/{uid}` 配下の旧データも残置されている
+- [x] `users/{uid}` に `defaultGroupID` と `groupMigratedDateTime` が設定されている
 - [x] 2 回目以降の起動では移行が走らない（起動が通常速度・データが増殖しない）
 - [x] 新規ユーザー（データなし・シミュレータ erase 後）の初回起動でもソログループが自動作成されてホームに到達する
 
@@ -67,6 +65,34 @@ last_verified_at: 2026-07-16
 **確認日: 2026-07-16**
 2台目シミュレータ（新規匿名ユーザー）で初回起動し、設定 → グループの管理で「マイグループ / メンバー1人」のソログループが自動作成されていることを確認した（グループ参加前の状態）。
 <img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260716/49abe761-85ed-427e-bffd-34d3c1293646.png" width="380" />
+
+</details>
+
+### **Firebase Console で `/groups/{groupID}` 配下に medicines / doseReceivers / medicationHistories がコピーされ、`/users/{uid}` 配下の旧データも残置されている**
+
+<details><summary>動作確認スクショ</summary>
+
+**確認日: 2026-07-17**
+本番 Firestore（medicalarm-prod）を REST API で直接読み取り確認（ユーザーから本番 DB の READ を許可されたため）。移行を実行したユーザー A（uid `LnTX76H0cWhUkiD0Wa64mr9KJaa2`）、移行先ソログループ `rrcxqBJB1MB8UBRnrDZP`。
+
+- `/groups/rrcxqBJB1MB8UBRnrDZP/medicines`: 移行テスト薬A・移行テスト薬B の 2 件（コピー済み）
+- `/groups/rrcxqBJB1MB8UBRnrDZP/doseReceivers`: 「自分」1 件（コピー済み）
+- `/groups/rrcxqBJB1MB8UBRnrDZP/medicationHistories`: 移行テスト薬A の記録 1 件（`recordedByUserID` = A に設定済み）
+- `/users/LnTX76H0cWhUkiD0Wa64mr9KJaa2/medicines`: 移行テスト薬A・移行テスト薬B の 2 件が残置（旧データ削除なし）
+
+グループ配下・旧ユーザー配下ともに薬 2 件で一致し、重複（4 件化）や欠落がないことを確認した。
+
+</details>
+
+### **`users/{uid}` に `defaultGroupID` と `groupMigratedDateTime` が設定されている**
+
+<details><summary>動作確認スクショ</summary>
+
+**確認日: 2026-07-17**
+本番 Firestore の `/users/LnTX76H0cWhUkiD0Wa64mr9KJaa2` ドキュメントを直接読み取り、次を確認した。
+
+- `groupMigratedDateTime` = `2026-07-16T08:03:09.678Z`（移行完了マーカーが設定済み）
+- `defaultGroupID` = `fr1HdTKYsJT55YtcwPk6`（移行時はソログループが設定されるが、その後チップで家族グループを選択したためその ID に更新されている。フィールドが設定されている点を確認）
 
 </details>
 
