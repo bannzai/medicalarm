@@ -357,6 +357,9 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
               content: Text(L.medicationHistoryDeletedSnackbar),
               // Material の SnackBar 推奨表示時間 4〜10 秒の範囲で、他メンバーの記録も消しうる破壊的操作のため取り消し猶予を長めに取る
               duration: const Duration(seconds: 8),
+              // action 付き SnackBar は persist がデフォルト true になり自動クローズしない。
+              // 閉じないと遅延削除が永遠に確定しないため、duration で自動クローズさせる
+              persist: false,
               action: SnackBarAction(
                 label: L.undo,
                 // 取り消しの判定は closed の SnackBarClosedReason.action で行うため、ここでは何もしない

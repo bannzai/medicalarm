@@ -9,8 +9,7 @@ import 'package:cloud_firestore/cloud_firestore.dart' as _i2;
 import 'package:medicalarm/entity/diary.dart' as _i9;
 import 'package:medicalarm/entity/dose_receiver.dart' as _i7;
 import 'package:medicalarm/entity/group.dart' as _i5;
-import 'package:medicalarm/entity/group_member_notification_settings.dart'
-    as _i11;
+import 'package:medicalarm/entity/group_member_notification_settings.dart' as _i11;
 import 'package:medicalarm/entity/group_user_profile.dart' as _i10;
 import 'package:medicalarm/entity/medication_history.dart' as _i8;
 import 'package:medicalarm/entity/medicine.dart' as _i6;
@@ -32,8 +31,7 @@ import 'package:mockito/src/dummies.dart' as _i4;
 // ignore_for_file: camel_case_types
 // ignore_for_file: subtype_of_sealed_class
 
-class _FakeDocumentReference_0<T extends Object?> extends _i1.SmartFake
-    implements _i2.DocumentReference<T> {
+class _FakeDocumentReference_0<T extends Object?> extends _i1.SmartFake implements _i2.DocumentReference<T> {
   _FakeDocumentReference_0(
     Object parent,
     Invocation parentInvocation,
@@ -43,8 +41,7 @@ class _FakeDocumentReference_0<T extends Object?> extends _i1.SmartFake
         );
 }
 
-class _FakeCollectionReference_1<T extends Object?> extends _i1.SmartFake
-    implements _i2.CollectionReference<T> {
+class _FakeCollectionReference_1<T extends Object?> extends _i1.SmartFake implements _i2.CollectionReference<T> {
   _FakeCollectionReference_1(
     Object parent,
     Invocation parentInvocation,
@@ -54,8 +51,7 @@ class _FakeCollectionReference_1<T extends Object?> extends _i1.SmartFake
         );
 }
 
-class _FakeFirebaseFirestore_2 extends _i1.SmartFake
-    implements _i2.FirebaseFirestore {
+class _FakeFirebaseFirestore_2 extends _i1.SmartFake implements _i2.FirebaseFirestore {
   _FakeFirebaseFirestore_2(
     Object parent,
     Invocation parentInvocation,
@@ -65,8 +61,7 @@ class _FakeFirebaseFirestore_2 extends _i1.SmartFake
         );
 }
 
-class _FakeQuery_3<T extends Object?> extends _i1.SmartFake
-    implements _i2.Query<T> {
+class _FakeQuery_3<T extends Object?> extends _i1.SmartFake implements _i2.Query<T> {
   _FakeQuery_3(
     Object parent,
     Invocation parentInvocation,
@@ -76,8 +71,7 @@ class _FakeQuery_3<T extends Object?> extends _i1.SmartFake
         );
 }
 
-class _FakeQuerySnapshot_4<T extends Object?> extends _i1.SmartFake
-    implements _i2.QuerySnapshot<T> {
+class _FakeQuerySnapshot_4<T extends Object?> extends _i1.SmartFake implements _i2.QuerySnapshot<T> {
   _FakeQuerySnapshot_4(
     Object parent,
     Invocation parentInvocation,
@@ -87,8 +81,7 @@ class _FakeQuerySnapshot_4<T extends Object?> extends _i1.SmartFake
         );
 }
 
-class _FakeAggregateQuery_5 extends _i1.SmartFake
-    implements _i2.AggregateQuery {
+class _FakeAggregateQuery_5 extends _i1.SmartFake implements _i2.AggregateQuery {
   _FakeAggregateQuery_5(
     Object parent,
     Invocation parentInvocation,
@@ -98,8 +91,7 @@ class _FakeAggregateQuery_5 extends _i1.SmartFake
         );
 }
 
-class _FakeDocumentSnapshot_6<T extends Object?> extends _i1.SmartFake
-    implements _i2.DocumentSnapshot<T> {
+class _FakeDocumentSnapshot_6<T extends Object?> extends _i1.SmartFake implements _i2.DocumentSnapshot<T> {
   _FakeDocumentSnapshot_6(
     Object parent,
     Invocation parentInvocation,
@@ -149,8 +141,7 @@ class MockGroupDatabase extends _i1.Mock implements _i3.GroupDatabase {
       ) as _i2.DocumentReference<_i5.Group>);
 
   @override
-  _i2.CollectionReference<_i6.Medicine> medicinesReference() =>
-      (super.noSuchMethod(
+  _i2.CollectionReference<_i6.Medicine> medicinesReference() => (super.noSuchMethod(
         Invocation.method(
           #medicinesReference,
           [],
@@ -172,9 +163,7 @@ class MockGroupDatabase extends _i1.Mock implements _i3.GroupDatabase {
       ) as _i2.CollectionReference<_i6.Medicine>);
 
   @override
-  _i2.DocumentReference<_i6.Medicine> medicineReference(
-          {required String? medicineID}) =>
-      (super.noSuchMethod(
+  _i2.DocumentReference<_i6.Medicine> medicineReference({required String? medicineID}) => (super.noSuchMethod(
         Invocation.method(
           #medicineReference,
           [],
@@ -199,8 +188,7 @@ class MockGroupDatabase extends _i1.Mock implements _i3.GroupDatabase {
       ) as _i2.DocumentReference<_i6.Medicine>);
 
   @override
-  _i2.CollectionReference<_i7.DoseReceiver> doseReceiversReference() =>
-      (super.noSuchMethod(
+  _i2.CollectionReference<_i7.DoseReceiver> doseReceiversReference() => (super.noSuchMethod(
         Invocation.method(
           #doseReceiversReference,
           [],
@@ -222,9 +210,7 @@ class MockGroupDatabase extends _i1.Mock implements _i3.GroupDatabase {
       ) as _i2.CollectionReference<_i7.DoseReceiver>);
 
   @override
-  _i2.DocumentReference<_i7.DoseReceiver> doseReceiverReference(
-          {required String? doseReceiverID}) =>
-      (super.noSuchMethod(
+  _i2.DocumentReference<_i7.DoseReceiver> doseReceiverReference({required String? doseReceiverID}) => (super.noSuchMethod(
         Invocation.method(
           #doseReceiverReference,
           [],
@@ -249,28 +235,26 @@ class MockGroupDatabase extends _i1.Mock implements _i3.GroupDatabase {
       ) as _i2.DocumentReference<_i7.DoseReceiver>);
 
   @override
-  _i2.CollectionReference<_i8.MedicationHistory>
-      medicationHistoriesReference() => (super.noSuchMethod(
-            Invocation.method(
-              #medicationHistoriesReference,
-              [],
-            ),
-            returnValue: _FakeCollectionReference_1<_i8.MedicationHistory>(
-              this,
-              Invocation.method(
-                #medicationHistoriesReference,
-                [],
-              ),
-            ),
-            returnValueForMissingStub:
-                _FakeCollectionReference_1<_i8.MedicationHistory>(
-              this,
-              Invocation.method(
-                #medicationHistoriesReference,
-                [],
-              ),
-            ),
-          ) as _i2.CollectionReference<_i8.MedicationHistory>);
+  _i2.CollectionReference<_i8.MedicationHistory> medicationHistoriesReference() => (super.noSuchMethod(
+        Invocation.method(
+          #medicationHistoriesReference,
+          [],
+        ),
+        returnValue: _FakeCollectionReference_1<_i8.MedicationHistory>(
+          this,
+          Invocation.method(
+            #medicationHistoriesReference,
+            [],
+          ),
+        ),
+        returnValueForMissingStub: _FakeCollectionReference_1<_i8.MedicationHistory>(
+          this,
+          Invocation.method(
+            #medicationHistoriesReference,
+            [],
+          ),
+        ),
+      ) as _i2.CollectionReference<_i8.MedicationHistory>);
 
   @override
   _i2.CollectionReference<_i9.Diary> diariesReference() => (super.noSuchMethod(
@@ -295,8 +279,7 @@ class MockGroupDatabase extends _i1.Mock implements _i3.GroupDatabase {
       ) as _i2.CollectionReference<_i9.Diary>);
 
   @override
-  _i2.DocumentReference<_i9.Diary> diaryReference({required String? diaryID}) =>
-      (super.noSuchMethod(
+  _i2.DocumentReference<_i9.Diary> diaryReference({required String? diaryID}) => (super.noSuchMethod(
         Invocation.method(
           #diaryReference,
           [],
@@ -321,8 +304,7 @@ class MockGroupDatabase extends _i1.Mock implements _i3.GroupDatabase {
       ) as _i2.DocumentReference<_i9.Diary>);
 
   @override
-  _i2.CollectionReference<_i10.GroupUserProfile> userProfilesReference() =>
-      (super.noSuchMethod(
+  _i2.CollectionReference<_i10.GroupUserProfile> userProfilesReference() => (super.noSuchMethod(
         Invocation.method(
           #userProfilesReference,
           [],
@@ -334,8 +316,7 @@ class MockGroupDatabase extends _i1.Mock implements _i3.GroupDatabase {
             [],
           ),
         ),
-        returnValueForMissingStub:
-            _FakeCollectionReference_1<_i10.GroupUserProfile>(
+        returnValueForMissingStub: _FakeCollectionReference_1<_i10.GroupUserProfile>(
           this,
           Invocation.method(
             #userProfilesReference,
@@ -345,9 +326,7 @@ class MockGroupDatabase extends _i1.Mock implements _i3.GroupDatabase {
       ) as _i2.CollectionReference<_i10.GroupUserProfile>);
 
   @override
-  _i2.DocumentReference<_i10.GroupUserProfile> userProfileReference(
-          {required String? userID}) =>
-      (super.noSuchMethod(
+  _i2.DocumentReference<_i10.GroupUserProfile> userProfileReference({required String? userID}) => (super.noSuchMethod(
         Invocation.method(
           #userProfileReference,
           [],
@@ -361,8 +340,7 @@ class MockGroupDatabase extends _i1.Mock implements _i3.GroupDatabase {
             {#userID: userID},
           ),
         ),
-        returnValueForMissingStub:
-            _FakeDocumentReference_0<_i10.GroupUserProfile>(
+        returnValueForMissingStub: _FakeDocumentReference_0<_i10.GroupUserProfile>(
           this,
           Invocation.method(
             #userProfileReference,
@@ -373,41 +351,36 @@ class MockGroupDatabase extends _i1.Mock implements _i3.GroupDatabase {
       ) as _i2.DocumentReference<_i10.GroupUserProfile>);
 
   @override
-  _i2.DocumentReference<_i11.GroupMemberNotificationSettings>
-      memberNotificationSettingsReference({required String? userID}) =>
-          (super.noSuchMethod(
-            Invocation.method(
-              #memberNotificationSettingsReference,
-              [],
-              {#userID: userID},
-            ),
-            returnValue:
-                _FakeDocumentReference_0<_i11.GroupMemberNotificationSettings>(
-              this,
-              Invocation.method(
-                #memberNotificationSettingsReference,
-                [],
-                {#userID: userID},
-              ),
-            ),
-            returnValueForMissingStub:
-                _FakeDocumentReference_0<_i11.GroupMemberNotificationSettings>(
-              this,
-              Invocation.method(
-                #memberNotificationSettingsReference,
-                [],
-                {#userID: userID},
-              ),
-            ),
-          ) as _i2.DocumentReference<_i11.GroupMemberNotificationSettings>);
+  _i2.DocumentReference<_i11.GroupMemberNotificationSettings> memberNotificationSettingsReference({required String? userID}) => (super.noSuchMethod(
+        Invocation.method(
+          #memberNotificationSettingsReference,
+          [],
+          {#userID: userID},
+        ),
+        returnValue: _FakeDocumentReference_0<_i11.GroupMemberNotificationSettings>(
+          this,
+          Invocation.method(
+            #memberNotificationSettingsReference,
+            [],
+            {#userID: userID},
+          ),
+        ),
+        returnValueForMissingStub: _FakeDocumentReference_0<_i11.GroupMemberNotificationSettings>(
+          this,
+          Invocation.method(
+            #memberNotificationSettingsReference,
+            [],
+            {#userID: userID},
+          ),
+        ),
+      ) as _i2.DocumentReference<_i11.GroupMemberNotificationSettings>);
 }
 
 /// A class which mocks [CollectionReference].
 ///
 /// See the documentation for Mockito's code generation for more information.
 // ignore: must_be_immutable
-class MockMedicationHistoryCollectionReference extends _i1.Mock
-    implements _i2.CollectionReference<_i8.MedicationHistory> {
+class MockMedicationHistoryCollectionReference extends _i1.Mock implements _i2.CollectionReference<_i8.MedicationHistory> {
   @override
   String get id => (super.noSuchMethod(
         Invocation.getter(#id),
@@ -455,25 +428,19 @@ class MockMedicationHistoryCollectionReference extends _i1.Mock
       ) as Map<String, dynamic>);
 
   @override
-  _i12.Future<_i2.DocumentReference<_i8.MedicationHistory>> add(
-          _i8.MedicationHistory? data) =>
-      (super.noSuchMethod(
+  _i12.Future<_i2.DocumentReference<_i8.MedicationHistory>> add(_i8.MedicationHistory? data) => (super.noSuchMethod(
         Invocation.method(
           #add,
           [data],
         ),
-        returnValue:
-            _i12.Future<_i2.DocumentReference<_i8.MedicationHistory>>.value(
-                _FakeDocumentReference_0<_i8.MedicationHistory>(
+        returnValue: _i12.Future<_i2.DocumentReference<_i8.MedicationHistory>>.value(_FakeDocumentReference_0<_i8.MedicationHistory>(
           this,
           Invocation.method(
             #add,
             [data],
           ),
         )),
-        returnValueForMissingStub:
-            _i12.Future<_i2.DocumentReference<_i8.MedicationHistory>>.value(
-                _FakeDocumentReference_0<_i8.MedicationHistory>(
+        returnValueForMissingStub: _i12.Future<_i2.DocumentReference<_i8.MedicationHistory>>.value(_FakeDocumentReference_0<_i8.MedicationHistory>(
           this,
           Invocation.method(
             #add,
@@ -483,8 +450,7 @@ class MockMedicationHistoryCollectionReference extends _i1.Mock
       ) as _i12.Future<_i2.DocumentReference<_i8.MedicationHistory>>);
 
   @override
-  _i2.DocumentReference<_i8.MedicationHistory> doc([String? path]) =>
-      (super.noSuchMethod(
+  _i2.DocumentReference<_i8.MedicationHistory> doc([String? path]) => (super.noSuchMethod(
         Invocation.method(
           #doc,
           [path],
@@ -496,8 +462,7 @@ class MockMedicationHistoryCollectionReference extends _i1.Mock
             [path],
           ),
         ),
-        returnValueForMissingStub:
-            _FakeDocumentReference_0<_i8.MedicationHistory>(
+        returnValueForMissingStub: _FakeDocumentReference_0<_i8.MedicationHistory>(
           this,
           Invocation.method(
             #doc,
@@ -545,9 +510,7 @@ class MockMedicationHistoryCollectionReference extends _i1.Mock
       ) as _i2.CollectionReference<R>);
 
   @override
-  _i2.Query<_i8.MedicationHistory> endAtDocument(
-          _i2.DocumentSnapshot<Object?>? documentSnapshot) =>
-      (super.noSuchMethod(
+  _i2.Query<_i8.MedicationHistory> endAtDocument(_i2.DocumentSnapshot<Object?>? documentSnapshot) => (super.noSuchMethod(
         Invocation.method(
           #endAtDocument,
           [documentSnapshot],
@@ -569,8 +532,7 @@ class MockMedicationHistoryCollectionReference extends _i1.Mock
       ) as _i2.Query<_i8.MedicationHistory>);
 
   @override
-  _i2.Query<_i8.MedicationHistory> endAt(Iterable<Object?>? values) =>
-      (super.noSuchMethod(
+  _i2.Query<_i8.MedicationHistory> endAt(Iterable<Object?>? values) => (super.noSuchMethod(
         Invocation.method(
           #endAt,
           [values],
@@ -592,9 +554,7 @@ class MockMedicationHistoryCollectionReference extends _i1.Mock
       ) as _i2.Query<_i8.MedicationHistory>);
 
   @override
-  _i2.Query<_i8.MedicationHistory> endBeforeDocument(
-          _i2.DocumentSnapshot<Object?>? documentSnapshot) =>
-      (super.noSuchMethod(
+  _i2.Query<_i8.MedicationHistory> endBeforeDocument(_i2.DocumentSnapshot<Object?>? documentSnapshot) => (super.noSuchMethod(
         Invocation.method(
           #endBeforeDocument,
           [documentSnapshot],
@@ -616,8 +576,7 @@ class MockMedicationHistoryCollectionReference extends _i1.Mock
       ) as _i2.Query<_i8.MedicationHistory>);
 
   @override
-  _i2.Query<_i8.MedicationHistory> endBefore(Iterable<Object?>? values) =>
-      (super.noSuchMethod(
+  _i2.Query<_i8.MedicationHistory> endBefore(Iterable<Object?>? values) => (super.noSuchMethod(
         Invocation.method(
           #endBefore,
           [values],
@@ -639,25 +598,19 @@ class MockMedicationHistoryCollectionReference extends _i1.Mock
       ) as _i2.Query<_i8.MedicationHistory>);
 
   @override
-  _i12.Future<_i2.QuerySnapshot<_i8.MedicationHistory>> get(
-          [_i2.GetOptions? options]) =>
-      (super.noSuchMethod(
+  _i12.Future<_i2.QuerySnapshot<_i8.MedicationHistory>> get([_i2.GetOptions? options]) => (super.noSuchMethod(
         Invocation.method(
           #get,
           [options],
         ),
-        returnValue:
-            _i12.Future<_i2.QuerySnapshot<_i8.MedicationHistory>>.value(
-                _FakeQuerySnapshot_4<_i8.MedicationHistory>(
+        returnValue: _i12.Future<_i2.QuerySnapshot<_i8.MedicationHistory>>.value(_FakeQuerySnapshot_4<_i8.MedicationHistory>(
           this,
           Invocation.method(
             #get,
             [options],
           ),
         )),
-        returnValueForMissingStub:
-            _i12.Future<_i2.QuerySnapshot<_i8.MedicationHistory>>.value(
-                _FakeQuerySnapshot_4<_i8.MedicationHistory>(
+        returnValueForMissingStub: _i12.Future<_i2.QuerySnapshot<_i8.MedicationHistory>>.value(_FakeQuerySnapshot_4<_i8.MedicationHistory>(
           this,
           Invocation.method(
             #get,
@@ -689,8 +642,7 @@ class MockMedicationHistoryCollectionReference extends _i1.Mock
       ) as _i2.Query<_i8.MedicationHistory>);
 
   @override
-  _i2.Query<_i8.MedicationHistory> limitToLast(int? limit) =>
-      (super.noSuchMethod(
+  _i2.Query<_i8.MedicationHistory> limitToLast(int? limit) => (super.noSuchMethod(
         Invocation.method(
           #limitToLast,
           [limit],
@@ -725,10 +677,8 @@ class MockMedicationHistoryCollectionReference extends _i1.Mock
             #source: source,
           },
         ),
-        returnValue:
-            _i12.Stream<_i2.QuerySnapshot<_i8.MedicationHistory>>.empty(),
-        returnValueForMissingStub:
-            _i12.Stream<_i2.QuerySnapshot<_i8.MedicationHistory>>.empty(),
+        returnValue: _i12.Stream<_i2.QuerySnapshot<_i8.MedicationHistory>>.empty(),
+        returnValueForMissingStub: _i12.Stream<_i2.QuerySnapshot<_i8.MedicationHistory>>.empty(),
       ) as _i12.Stream<_i2.QuerySnapshot<_i8.MedicationHistory>>);
 
   @override
@@ -761,9 +711,7 @@ class MockMedicationHistoryCollectionReference extends _i1.Mock
       ) as _i2.Query<_i8.MedicationHistory>);
 
   @override
-  _i2.Query<_i8.MedicationHistory> startAfterDocument(
-          _i2.DocumentSnapshot<Object?>? documentSnapshot) =>
-      (super.noSuchMethod(
+  _i2.Query<_i8.MedicationHistory> startAfterDocument(_i2.DocumentSnapshot<Object?>? documentSnapshot) => (super.noSuchMethod(
         Invocation.method(
           #startAfterDocument,
           [documentSnapshot],
@@ -785,8 +733,7 @@ class MockMedicationHistoryCollectionReference extends _i1.Mock
       ) as _i2.Query<_i8.MedicationHistory>);
 
   @override
-  _i2.Query<_i8.MedicationHistory> startAfter(Iterable<Object?>? values) =>
-      (super.noSuchMethod(
+  _i2.Query<_i8.MedicationHistory> startAfter(Iterable<Object?>? values) => (super.noSuchMethod(
         Invocation.method(
           #startAfter,
           [values],
@@ -808,9 +755,7 @@ class MockMedicationHistoryCollectionReference extends _i1.Mock
       ) as _i2.Query<_i8.MedicationHistory>);
 
   @override
-  _i2.Query<_i8.MedicationHistory> startAtDocument(
-          _i2.DocumentSnapshot<Object?>? documentSnapshot) =>
-      (super.noSuchMethod(
+  _i2.Query<_i8.MedicationHistory> startAtDocument(_i2.DocumentSnapshot<Object?>? documentSnapshot) => (super.noSuchMethod(
         Invocation.method(
           #startAtDocument,
           [documentSnapshot],
@@ -832,8 +777,7 @@ class MockMedicationHistoryCollectionReference extends _i1.Mock
       ) as _i2.Query<_i8.MedicationHistory>);
 
   @override
-  _i2.Query<_i8.MedicationHistory> startAt(Iterable<Object?>? values) =>
-      (super.noSuchMethod(
+  _i2.Query<_i8.MedicationHistory> startAt(Iterable<Object?>? values) => (super.noSuchMethod(
         Invocation.method(
           #startAt,
           [values],
@@ -1103,8 +1047,7 @@ class MockMedicationHistoryCollectionReference extends _i1.Mock
 ///
 /// See the documentation for Mockito's code generation for more information.
 // ignore: must_be_immutable
-class MockMedicationHistoryDocumentReference extends _i1.Mock
-    implements _i2.DocumentReference<_i8.MedicationHistory> {
+class MockMedicationHistoryDocumentReference extends _i1.Mock implements _i2.DocumentReference<_i8.MedicationHistory> {
   @override
   _i2.FirebaseFirestore get firestore => (super.noSuchMethod(
         Invocation.getter(#firestore),
@@ -1132,15 +1075,13 @@ class MockMedicationHistoryDocumentReference extends _i1.Mock
       ) as String);
 
   @override
-  _i2.CollectionReference<_i8.MedicationHistory> get parent =>
-      (super.noSuchMethod(
+  _i2.CollectionReference<_i8.MedicationHistory> get parent => (super.noSuchMethod(
         Invocation.getter(#parent),
         returnValue: _FakeCollectionReference_1<_i8.MedicationHistory>(
           this,
           Invocation.getter(#parent),
         ),
-        returnValueForMissingStub:
-            _FakeCollectionReference_1<_i8.MedicationHistory>(
+        returnValueForMissingStub: _FakeCollectionReference_1<_i8.MedicationHistory>(
           this,
           Invocation.getter(#parent),
         ),
@@ -1160,9 +1101,7 @@ class MockMedicationHistoryDocumentReference extends _i1.Mock
       ) as String);
 
   @override
-  _i2.CollectionReference<Map<String, dynamic>> collection(
-          String? collectionPath) =>
-      (super.noSuchMethod(
+  _i2.CollectionReference<Map<String, dynamic>> collection(String? collectionPath) => (super.noSuchMethod(
         Invocation.method(
           #collection,
           [collectionPath],
@@ -1174,8 +1113,7 @@ class MockMedicationHistoryDocumentReference extends _i1.Mock
             [collectionPath],
           ),
         ),
-        returnValueForMissingStub:
-            _FakeCollectionReference_1<Map<String, dynamic>>(
+        returnValueForMissingStub: _FakeCollectionReference_1<Map<String, dynamic>>(
           this,
           Invocation.method(
             #collection,
@@ -1205,25 +1143,19 @@ class MockMedicationHistoryDocumentReference extends _i1.Mock
       ) as _i12.Future<void>);
 
   @override
-  _i12.Future<_i2.DocumentSnapshot<_i8.MedicationHistory>> get(
-          [_i2.GetOptions? options]) =>
-      (super.noSuchMethod(
+  _i12.Future<_i2.DocumentSnapshot<_i8.MedicationHistory>> get([_i2.GetOptions? options]) => (super.noSuchMethod(
         Invocation.method(
           #get,
           [options],
         ),
-        returnValue:
-            _i12.Future<_i2.DocumentSnapshot<_i8.MedicationHistory>>.value(
-                _FakeDocumentSnapshot_6<_i8.MedicationHistory>(
+        returnValue: _i12.Future<_i2.DocumentSnapshot<_i8.MedicationHistory>>.value(_FakeDocumentSnapshot_6<_i8.MedicationHistory>(
           this,
           Invocation.method(
             #get,
             [options],
           ),
         )),
-        returnValueForMissingStub:
-            _i12.Future<_i2.DocumentSnapshot<_i8.MedicationHistory>>.value(
-                _FakeDocumentSnapshot_6<_i8.MedicationHistory>(
+        returnValueForMissingStub: _i12.Future<_i2.DocumentSnapshot<_i8.MedicationHistory>>.value(_FakeDocumentSnapshot_6<_i8.MedicationHistory>(
           this,
           Invocation.method(
             #get,
@@ -1246,10 +1178,8 @@ class MockMedicationHistoryDocumentReference extends _i1.Mock
             #source: source,
           },
         ),
-        returnValue:
-            _i12.Stream<_i2.DocumentSnapshot<_i8.MedicationHistory>>.empty(),
-        returnValueForMissingStub:
-            _i12.Stream<_i2.DocumentSnapshot<_i8.MedicationHistory>>.empty(),
+        returnValue: _i12.Stream<_i2.DocumentSnapshot<_i8.MedicationHistory>>.empty(),
+        returnValueForMissingStub: _i12.Stream<_i2.DocumentSnapshot<_i8.MedicationHistory>>.empty(),
       ) as _i12.Stream<_i2.DocumentSnapshot<_i8.MedicationHistory>>);
 
   @override
