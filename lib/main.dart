@@ -16,7 +16,9 @@ import 'package:medicalarm/provider/shared_preferences.dart';
 import 'package:medicalarm/style/color.dart';
 import 'package:medicalarm/utils/config/remote_config.dart';
 import 'package:medicalarm/utils/local_notification/client.dart';
+import 'package:medicalarm/utils/purchase/purchase.dart';
 import 'package:medicalarm/utils/push_notification/fcm_notification.dart';
+import 'package:purchases_flutter/purchases_flutter.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 void main() async {
@@ -27,7 +29,19 @@ void main() async {
 
     await (
       MobileAds.instance.initialize(),
-      Firebase.initializeApp(),
+      // emulator 接続時は本番プロジェクト(GoogleService-Info.plist)に触れないよう demo プロジェクト ID で初期化する。
+      // demo-* プレフィックスは Firebase Emulator の完全オフラインモードで、非エミュレート API への到達を Emulator 側が遮断する。
+      const bool.fromEnvironment('USE_FIREBASE_EMULATOR')
+          ? Firebase.initializeApp(
+              options: const FirebaseOptions(
+                // FIRInstallations が API キーの形式(AIza 開頭 39 文字)を検証しクラッシュするため、形式だけ満たすダミー値にする
+                apiKey: 'AIzaSyDUMMYKEYFORDEMOEMULATOR0123456789',
+                appId: '1:123456789012:ios:1234567890abcdef',
+                messagingSenderId: '123456789012',
+                projectId: 'demo-medicalarm',
+              ),
+            )
+          : Firebase.initializeApp(),
     ).wait;
 
     // ローカルの Firebase Emulator に接続する開発用ゲート。
@@ -71,6 +85,23 @@ void main() async {
     runApp(ProviderScope(
       overrides: [
         sharedPreferencesProvider.overrideWith((ref) => sharedPreferences),
+        // emulator 環境では RevenueCat の実キー(lib/secret/secret.dart)が無くても動かせるよう、
+        // customerInfo に無課金状態の fake を流す。実キー無しだと customerInfo が永遠に emit されず
+        // MedicationsPage(group2 で customerInfo を待つ)が表示できないため。
+        if (const bool.fromEnvironment('USE_FIREBASE_EMULATOR'))
+          customerInfoProvider.overrideWith(
+            (ref) => Stream.value(CustomerInfo.fromJson({
+              'entitlements': {'all': <String, dynamic>{}, 'active': <String, dynamic>{}, 'verification': 'FAILED'},
+              'allPurchaseDates': <String, dynamic>{},
+              'activeSubscriptions': <String>[],
+              'allPurchasedProductIdentifiers': <String>[],
+              'nonSubscriptionTransactions': <dynamic>[],
+              'firstSeen': '2026-01-01T00:00:00Z',
+              'originalAppUserId': 'emulator_user',
+              'allExpirationDates': <String, dynamic>{},
+              'requestDate': '2026-01-01T00:00:00Z',
+            })),
+          ),
       ],
       child: const App(),
     ));
