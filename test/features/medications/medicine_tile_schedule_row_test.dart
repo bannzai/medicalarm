@@ -60,6 +60,26 @@ MedicationHistory buildMedicationHistory() {
   );
 }
 
+// buildMedicationHistory() の take を打ち消す revert ドキュメント。MedicationHistoryRevert.call の返り値を模す
+MedicationHistory buildRevertMedicationHistory() {
+  final takeMedicationHistory = buildMedicationHistory();
+  return MedicationHistory(
+    id: '${takeMedicationHistory.id}-revert',
+    userID: 'user-a',
+    recordedByUserID: 'user-a',
+    medicine: buildMedicine(),
+    actionKind: MedicationHistoryActionKind.revert,
+    action: MedicationHistoryAction.revert(
+      takeAction: takeMedicationHistory,
+      medicationSchedule: medicationSchedule,
+    ),
+    memo: '',
+    recordedDateTime: DateTime.now(),
+    scheduledRecordedDate: takeMedicationHistory.scheduledRecordedDate,
+    ttlExpiresDateTime: DateTime(2027, 7, 16),
+  );
+}
+
 // チェック済み(medicationHistory あり)の行。アンチェック系の動作検証に使う
 MedicationGroupScheduleRow buildCheckedScheduleRow() {
   return MedicationGroupScheduleRow(
@@ -74,18 +94,23 @@ MedicationGroupScheduleRow buildCheckedScheduleRow() {
 
 @GenerateNiceMocks([
   MockSpec<MedicationHistoryTake>(),
+  MockSpec<MedicationHistoryRevert>(),
   MockSpec<MedicationHistoryDelete>(),
   MockSpec<RegisterReminderLocalNotification>(),
 ])
 void main() {
   late MockMedicationHistoryTake medicationHistoryTake;
+  late MockMedicationHistoryRevert medicationHistoryRevert;
   late MockMedicationHistoryDelete medicationHistoryDelete;
   late MockRegisterReminderLocalNotification registerReminderLocalNotification;
 
   setUp(() {
     medicationHistoryTake = MockMedicationHistoryTake();
+    medicationHistoryRevert = MockMedicationHistoryRevert();
     medicationHistoryDelete = MockMedicationHistoryDelete();
     registerReminderLocalNotification = MockRegisterReminderLocalNotification();
+    when(medicationHistoryRevert.call(takeMedicationHistory: anyNamed('takeMedicationHistory')))
+        .thenAnswer((_) async => buildRevertMedicationHistory());
     when(medicationHistoryDelete.call(any)).thenAnswer((_) async {});
     when(registerReminderLocalNotification.call()).thenAnswer((_) async {});
   });
@@ -95,6 +120,7 @@ void main() {
       ProviderScope(
         overrides: [
           medicationHistoryTakeProvider.overrideWith((ref) => medicationHistoryTake),
+          medicationHistoryRevertProvider.overrideWith((ref) => medicationHistoryRevert),
           medicationHistoryDeleteProvider.overrideWith((ref) => medicationHistoryDelete),
           registerReminderLocalNotificationProvider.overrideWith((ref) => registerReminderLocalNotification),
         ],
@@ -107,10 +133,12 @@ void main() {
     );
   }
 
-  // #253: アンチェックは即時 UI 反映 + Undo つき SnackBar の遅延削除。SnackBar が閉じるまで Firestore の削除を発行しない
-  group('MedicineTileScheduleRow のアンチェック(遅延削除)', () {
-    testWidgets('アンチェック直後は SnackBar が表示され、削除はまだ発行されない', (tester) async {
-      await pumpScheduleRow(tester, scheduleRow: buildCheckedScheduleRow());
+  // #253: アンチェックは take ドキュメントを削除せず revert アクションを即時追記する論理削除。
+  // SnackBar の「元に戻す」は直前に書いた revert ドキュメントの物理削除で取り消す
+  group('MedicineTileScheduleRow のアンチェック(論理削除)', () {
+    testWidgets('アンチェックで revert が即時 1 回発行され、SnackBar が表示される', (tester) async {
+      final scheduleRow = buildCheckedScheduleRow();
+      await pumpScheduleRow(tester, scheduleRow: scheduleRow);
 
       await tester.tap(find.byType(Checkbox));
       await tester.pump();
@@ -120,29 +148,31 @@ void main() {
       expect(tester.widget<Checkbox>(find.byType(Checkbox)).value, false);
       expect(find.text('服薬記録を取り消しました'), findsOneWidget);
       expect(find.text('元に戻す'), findsOneWidget);
+
+      final captured = verify(medicationHistoryRevert.call(takeMedicationHistory: captureAnyNamed('takeMedicationHistory'))).captured;
+      expect(captured, hasLength(1));
+      expect((captured.single as MedicationHistory).id, scheduleRow.medicationHistory!.id);
+      // take ドキュメントの物理削除は発行されない
       verifyNever(medicationHistoryDelete.call(any));
     });
 
-    testWidgets('SnackBar を放置して閉じた後に削除が 1 回だけ発行される', (tester) async {
-      final scheduleRow = buildCheckedScheduleRow();
-      await pumpScheduleRow(tester, scheduleRow: scheduleRow);
+    testWidgets('SnackBar を放置して閉じても追加の書き込み・削除は発行されない', (tester) async {
+      await pumpScheduleRow(tester, scheduleRow: buildCheckedScheduleRow());
 
       await tester.tap(find.byType(Checkbox));
       await tester.pump();
       await tester.pump(const Duration(milliseconds: 750));
-      verifyNever(medicationHistoryDelete.call(any));
 
-      // SnackBar の表示時間(8 秒)を経過させ、退場アニメーションと delete の完了を待つ
+      // SnackBar の表示時間(8 秒)を経過させ、退場アニメーションの完了を待つ
       await tester.pump(const Duration(seconds: 9));
       await tester.pump(const Duration(milliseconds: 500));
       await tester.pump();
       await tester.pump();
       expect(find.text('服薬記録を取り消しました'), findsNothing);
 
-      final captured = verify(medicationHistoryDelete.call(captureAny)).captured;
-      expect(captured, hasLength(1));
-      expect((captured.single as MedicationHistory).id, scheduleRow.medicationHistory!.id);
+      verify(medicationHistoryRevert.call(takeMedicationHistory: anyNamed('takeMedicationHistory'))).called(1);
       verify(registerReminderLocalNotification.call()).called(1);
+      verifyNever(medicationHistoryDelete.call(any));
       verifyNever(medicationHistoryTake.call(
         medicationHistory: anyNamed('medicationHistory'),
         recordedDateTime: anyNamed('recordedDateTime'),
@@ -153,7 +183,7 @@ void main() {
       ));
     });
 
-    testWidgets('元に戻すをタップすると削除は発行されず、チェック済み表示に戻る', (tester) async {
+    testWidgets('元に戻すをタップすると revert ドキュメントの物理削除が発行され、チェック済み表示に戻る', (tester) async {
       await pumpScheduleRow(tester, scheduleRow: buildCheckedScheduleRow());
 
       await tester.tap(find.byType(Checkbox));
@@ -164,12 +194,22 @@ void main() {
       await tester.pumpAndSettle();
 
       expect(tester.widget<Checkbox>(find.byType(Checkbox)).value, true);
-      // Undo 後に放置時間が過ぎても削除されないこと
-      await tester.pump(const Duration(seconds: 10));
-      verifyNever(medicationHistoryDelete.call(any));
+      final captured = verify(medicationHistoryDelete.call(captureAny)).captured;
+      expect(captured, hasLength(1));
+      // 削除対象は take ではなく、直前に書いた revert ドキュメントであること
+      expect((captured.single as MedicationHistory).id, buildRevertMedicationHistory().id);
+      // undo は revert の物理削除で戻すため、take の再作成は発行されない
+      verifyNever(medicationHistoryTake.call(
+        medicationHistory: anyNamed('medicationHistory'),
+        recordedDateTime: anyNamed('recordedDateTime'),
+        scheduledRecordedDate: anyNamed('scheduledRecordedDate'),
+        medicine: anyNamed('medicine'),
+        medicationSchedule: anyNamed('medicationSchedule'),
+        memberSettings: anyNamed('memberSettings'),
+      ));
     });
 
-    testWidgets('SnackBar 表示中のチェックし直しは Undo と同義で、削除も再作成(take)も発行されない', (tester) async {
+    testWidgets('SnackBar 表示中のチェックし直しは元に戻すと同義で、revert の物理削除だけが発行される', (tester) async {
       await pumpScheduleRow(tester, scheduleRow: buildCheckedScheduleRow());
 
       await tester.tap(find.byType(Checkbox));
@@ -182,7 +222,9 @@ void main() {
       expect(tester.widget<Checkbox>(find.byType(Checkbox)).value, true);
       await tester.pump(const Duration(seconds: 10));
       await tester.pumpAndSettle();
-      verifyNever(medicationHistoryDelete.call(any));
+      final captured = verify(medicationHistoryDelete.call(captureAny)).captured;
+      expect(captured, hasLength(1));
+      expect((captured.single as MedicationHistory).id, buildRevertMedicationHistory().id);
       verifyNever(medicationHistoryTake.call(
         medicationHistory: anyNamed('medicationHistory'),
         recordedDateTime: anyNamed('recordedDateTime'),

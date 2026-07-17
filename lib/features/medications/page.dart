@@ -263,19 +263,18 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final isDisabled = scheduleRow.isDisabled;
     final isChecked = useState(scheduleRow.medicationHistory != null);
-    // アンチェックで遅延削除の対象になっている記録。SnackBar の Undo 猶予中のみ非 null
-    final pendingDeleteHistory = useRef<MedicationHistory?>(null);
+    // アンチェックで書き込んだ revert ドキュメント。SnackBar の「元に戻す」猶予中のみ非 null で、
+    // 猶予中のチェックし直しを take ではなく revert の物理削除(undo)として扱うために保持する
+    final pendingRevertHistory = useRef<MedicationHistory?>(null);
     final medicationHistoryTake = ref.watch(medicationHistoryTakeProvider);
+    final medicationHistoryRevert = ref.watch(medicationHistoryRevertProvider);
     final medicationHistoryDelete = ref.watch(medicationHistoryDeleteProvider);
     final registerReminderLocalNotification = ref.watch(registerReminderLocalNotificationProvider);
 
     // 行キーが安定化され snapshot 更新で widget が再生成されなくなったため、他メンバーの操作による
-    // 記録の増減をローカルの isChecked へ反映する。自分の遅延削除の猶予中はサーバー側に記録が
-    // 残っていてもアンチェック表示を保つため同期しない
+    // 記録の増減をローカルの isChecked へ反映する
     useEffect(() {
-      if (pendingDeleteHistory.value == null) {
-        isChecked.value = scheduleRow.medicationHistory != null;
-      }
+      isChecked.value = scheduleRow.medicationHistory != null;
       return null;
     }, [scheduleRow.medicationHistory?.id]);
 
@@ -340,59 +339,78 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
       }
     }
 
-    // アンチェック操作。UI は即時反映し、SnackBar の Undo 猶予が閉じてから初めて Firestore の削除を発行する。
-    // 誤タップ 1 回で他メンバーの記録が即時に物理削除される事故 (#253) への対策で、
-    // 失敗時に「削除されない」側へ倒れる遅延削除方式を採る
-    Future<void> uncheckWithUndo() async {
+    // 「元に戻す」操作。数秒前の自分の取消の undo なので、履歴に「取消 → 取消の取消」を連ねず
+    // 直前に書いた revert ドキュメント自体を物理削除してサーバーもチェック済み状態へ戻す
+    Future<void> undoRevert(MedicationHistory revertMedicationHistory) async {
+      try {
+        await medicationHistoryDelete.call(revertMedicationHistory);
+        unawaited(registerReminderLocalNotification.call());
+        if (context.mounted) {
+          isChecked.value = true;
+        }
+      } catch (e, st) {
+        // revert ドキュメントが残ったままなので、表示は未チェックのままにする
+        errorLogger.recordError(e, st);
+        if (context.mounted) {
+          isChecked.value = false;
+          showErrorAlert(context, e.toString());
+        }
+      }
+    }
+
+    // アンチェック操作。take ドキュメントは削除せず、取消(revert)アクションを即時追記する論理削除 (#253)。
+    // 誤タップでも他メンバーの記録は失われず、SnackBar の「元に戻す」で revert を物理削除して取り消せる
+    Future<void> revertWithUndo() async {
       final medicationHistory = scheduleRow.medicationHistory;
       if (medicationHistory == null) {
-        // 他メンバーの削除が先行して記録が既に無い場合。削除対象が無いので表示の同期だけに留める
+        // 他メンバーの取消が先行して未チェック扱いになっている場合。取消対象が無いので表示の同期だけに留める
         return;
       }
-      pendingDeleteHistory.value = medicationHistory;
 
+      final MedicationHistory revertMedicationHistory;
+      try {
+        revertMedicationHistory = await medicationHistoryRevert.call(takeMedicationHistory: medicationHistory);
+      } catch (e, st) {
+        // 取消が書けていないのに未チェック表示のままだと二重服用を誘発するため、表示を実状態へ戻す
+        errorLogger.recordError(e, st);
+        if (context.mounted) {
+          isChecked.value = scheduleRow.medicationHistory != null;
+          showErrorAlert(context, e.toString());
+        }
+        return;
+      }
+      unawaited(registerReminderLocalNotification.call());
+      pendingRevertHistory.value = revertMedicationHistory;
+
+      if (!context.mounted) {
+        return;
+      }
       final snackBarClosedReason = await ScaffoldMessenger.of(context)
           .showSnackBar(
             SnackBar(
               content: Text(L.medicationHistoryDeletedSnackbar),
-              // Material の SnackBar 推奨表示時間 4〜10 秒の範囲で、他メンバーの記録も消しうる破壊的操作のため取り消し猶予を長めに取る
+              // Material の SnackBar 推奨表示時間 4〜10 秒の範囲で、誤タップに気付いてから押せるよう取り消し猶予を長めに取る
               duration: const Duration(seconds: 8),
               // action 付き SnackBar は persist がデフォルト true になり自動クローズしない。
-              // 閉じないと遅延削除が永遠に確定しないため、duration で自動クローズさせる
+              // 閉じないと「元に戻す」の猶予が永遠に終わらないため、duration で自動クローズさせる
               persist: false,
               action: SnackBarAction(
                 label: L.undo,
-                // 取り消しの判定は closed の SnackBarClosedReason.action で行うため、ここでは何もしない
+                // undo の判定は closed の SnackBarClosedReason.action で行うため、ここでは何もしない
                 onPressed: () {},
               ),
             ),
           )
           .closed;
 
-      // SnackBar 表示中のチェックし直し(Undo と同義)で削除が取りやめ済みの場合は何もしない
-      if (pendingDeleteHistory.value == null) {
+      // SnackBar 表示中のチェックし直し(元に戻すと同義)で undo 済みの場合は何もしない
+      if (pendingRevertHistory.value == null) {
         return;
       }
-      pendingDeleteHistory.value = null;
+      pendingRevertHistory.value = null;
 
       if (snackBarClosedReason == SnackBarClosedReason.action) {
-        // Undo: 削除を発行していないので記録はサーバーに残ったまま。表示をチェック済みへ戻すだけでよい
-        if (context.mounted) {
-          isChecked.value = true;
-        }
-        return;
-      }
-
-      try {
-        await medicationHistoryDelete.call(medicationHistory);
-        unawaited(registerReminderLocalNotification.call());
-      } catch (e, st) {
-        // 削除に失敗した場合は記録が残っているため、表示をチェック済みへ戻す
-        errorLogger.recordError(e, st);
-        if (context.mounted) {
-          isChecked.value = true;
-          showErrorAlert(context, e.toString());
-        }
+        await undoRevert(revertMedicationHistory);
       }
     }
 
@@ -418,15 +436,17 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
                         }
                         isChecked.value = newValue;
                         if (newValue) {
-                          if (pendingDeleteHistory.value != null) {
-                            // 遅延削除の猶予中のチェックし直しは Undo と同義。記録はまだサーバーに残っているため take は不要
-                            pendingDeleteHistory.value = null;
+                          final revertMedicationHistory = pendingRevertHistory.value;
+                          if (revertMedicationHistory != null) {
+                            // 「元に戻す」猶予中のチェックし直しは undo と同義。take の追記ではなく revert の物理削除で戻す
+                            pendingRevertHistory.value = null;
                             ScaffoldMessenger.of(context).hideCurrentSnackBar();
+                            unawaited(undoRevert(revertMedicationHistory));
                           } else {
                             unawaited(take());
                           }
                         } else {
-                          unawaited(uncheckWithUndo());
+                          unawaited(revertWithUndo());
                         }
                       },
               ),

@@ -143,11 +143,19 @@ List<MedicationGroup> medicationGroups({
       final tile = groupedValues[tileIndex];
 
       final scheduleRows = [...tile.scheduleRows];
+      // revert アクション追記による論理削除 (#253) を考慮し、「take が存在し、それを打ち消す revert が
+      // 存在しない」場合のみチェック済み(medicationHistory 非 null)として扱う。
+      // revert ドキュメント自体も同じ medicine/schedule/date に一致するため、take 以外はチェック済みの根拠にしない
       final medicationHistory = medicationHistories.firstWhereOrNull(
         (history) =>
+            history.action is TakeMedicationHistoryAction &&
             history.medicine.id == medicine.id &&
             history.action.medicationSchedule.id == schedule.id &&
-            isSameDay(history.scheduledRecordedDate, date.date()),
+            isSameDay(history.scheduledRecordedDate, date.date()) &&
+            !medicationHistories.any((other) => switch (other.action) {
+                  RevertMedicationHistoryAction(takeAction: final takeAction) => takeAction.id == history.id,
+                  TakeMedicationHistoryAction() || SkipMedicationHistoryAction() => false,
+                }),
       );
       final row = MedicationGroupScheduleRow(
         // 行の Widget 状態(チェック表示・遅延削除の猶予)を snapshot 更新をまたいで維持するための安定キー。

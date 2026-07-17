@@ -107,7 +107,12 @@ class MedicationsHistoryPageBody extends HookConsumerWidget {
                           final history = histories[index];
                           return Column(
                             children: [
-                              MedicationHistoryTile(history: history),
+                              // 取消(revert)の記録も服薬記録と同じ一覧に行として表示する (#253)
+                              if (history.action is RevertMedicationHistoryAction) ...[
+                                MedicationHistoryRevertTile(history: history),
+                              ] else ...[
+                                MedicationHistoryTile(history: history),
+                              ],
                               const SizedBox(height: 10),
                             ],
                           );
@@ -165,6 +170,25 @@ class MedicationHistoryEmpty extends StatelessWidget {
   }
 }
 
+/// 服薬記録の操作者(記録者・取消者)が「自分以外のメンバー」の場合に表示名を返す。
+/// displayName が未登録・プロフィール不在でもフォールバック文言([L.memberFallbackName])を返し、操作者表示を必ず出す。
+/// 操作者が自分・不明の場合は null を返し、操作者表示を出さない。
+String? _operatorMemberDisplayName(WidgetRef ref, MedicationHistory history) {
+  final recordedByUserID = history.recordedByUserID;
+  if (recordedByUserID == null || recordedByUserID == ref.watch(appUserIDProvider)) {
+    return null;
+  }
+  final currentGroupID = ref.watch(currentGroupIDProvider);
+  final displayName = currentGroupID == null
+      ? null
+      : ref
+          .watch(groupUserProfilesProvider(groupID: currentGroupID))
+          .valueOrNull
+          ?.firstWhereOrNull((profile) => profile.userID == recordedByUserID)
+          ?.displayName;
+  return (displayName?.isNotEmpty ?? false) ? displayName : L.memberFallbackName;
+}
+
 class MedicationHistoryTile extends HookConsumerWidget {
   const MedicationHistoryTile({
     super.key,
@@ -173,32 +197,13 @@ class MedicationHistoryTile extends HookConsumerWidget {
 
   final MedicationHistory history;
 
-  /// 服薬記録の記録者が「自分以外のメンバー」の場合に表示名を返す。
-  /// displayName が未登録・プロフィール不在でもフォールバック文言([L.memberFallbackName])を返し、記録者表示を必ず出す。
-  /// 記録者が自分・不明の場合は null を返し、記録者表示を出さない。
-  String? _recorderDisplayName(WidgetRef ref) {
-    final recordedByUserID = history.recordedByUserID;
-    if (recordedByUserID == null || recordedByUserID == ref.watch(appUserIDProvider)) {
-      return null;
-    }
-    final currentGroupID = ref.watch(currentGroupIDProvider);
-    final displayName = currentGroupID == null
-        ? null
-        : ref
-            .watch(groupUserProfilesProvider(groupID: currentGroupID))
-            .valueOrNull
-            ?.firstWhereOrNull((profile) => profile.userID == recordedByUserID)
-            ?.displayName;
-    return (displayName?.isNotEmpty ?? false) ? displayName : L.memberFallbackName;
-  }
-
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final medicine = history.medicine;
     final schedule = history.action.medicationSchedule;
     final primaryColor = Theme.of(context).colorScheme.primary;
     final memoUpdate = ref.watch(medicationHistoryMemoUpdateProvider);
-    final recorderName = _recorderDisplayName(ref);
+    final recorderName = _operatorMemberDisplayName(ref, history);
 
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 16.0),
@@ -283,6 +288,87 @@ class MedicationHistoryTile extends HookConsumerWidget {
                     }
                   },
                   icon: const Icon(Icons.edit),
+                ),
+              ],
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+/// 取消(revert)の記録行。誰が・いつ服薬記録を取り消したかを表示する (#253)。
+/// 服薬記録(take)の行と違い、取消の記録にメモは付けないため編集ボタンは持たない。
+class MedicationHistoryRevertTile extends HookConsumerWidget {
+  const MedicationHistoryRevertTile({
+    super.key,
+    required this.history,
+  });
+
+  final MedicationHistory history;
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final medicine = history.medicine;
+    final schedule = history.action.medicationSchedule;
+    final reverterName = _operatorMemberDisplayName(ref, history);
+
+    return Padding(
+      padding: const EdgeInsets.symmetric(horizontal: 16.0),
+      child: Container(
+        padding: const EdgeInsets.symmetric(vertical: 10.0, horizontal: 10.0),
+        decoration: BoxDecoration(
+          color: Colors.white,
+          borderRadius: BorderRadius.circular(8),
+          border: Border.all(color: AppColors.border),
+          boxShadow: [
+            BoxShadow(
+              color: Colors.black.withValues(alpha: 0.1),
+              spreadRadius: 2,
+              blurRadius: 5,
+              offset: const Offset(0, 3), // 影の位置を調整
+            ),
+          ],
+        ),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Row(
+              children: [
+                Text(medicine.name, style: const TextStyle(fontSize: 16, fontWeight: FontWeight.bold, color: TextColor.gray)),
+                const Spacer(),
+                Text(L.medicationHistoryReverted, style: const TextStyle(fontSize: 12, fontWeight: FontWeight.bold, color: TextColor.danger)),
+              ],
+            ),
+            const SizedBox(height: 4),
+            Text(medicine.doseReceiver.name, style: const TextStyle(fontSize: 16, fontWeight: FontWeight.bold)),
+            if (reverterName != null) ...[
+              const SizedBox(height: 4),
+              Text(L.revertedByMember(reverterName), style: const TextStyle(fontSize: 12, color: TextColor.gray)),
+            ],
+            const SizedBox(height: 4),
+            Column(
+              children: [
+                Row(
+                  children: [
+                    Text(L.scheduledTime),
+                    const Spacer(),
+                    Text(
+                      '${DateFormat(DateFormat.MONTH_DAY).format(history.scheduledRecordedDate)} ${schedule.toTimeString()}',
+                      style: const TextStyle(fontWeight: FontWeight.bold, color: TextColor.gray),
+                    ),
+                  ],
+                ),
+                Row(
+                  children: [
+                    Text(L.revertedTime),
+                    const Spacer(),
+                    Text(
+                      '${DateFormat(DateFormat.MONTH_DAY).format(history.recordedDateTime)} ${DateFormat(DateFormat.HOUR24_MINUTE).format(history.recordedDateTime)}',
+                      style: const TextStyle(fontWeight: FontWeight.bold, color: TextColor.danger),
+                    ),
+                  ],
                 ),
               ],
             ),

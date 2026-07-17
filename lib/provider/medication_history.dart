@@ -100,6 +100,48 @@ MedicationHistoryTake medicationHistoryTake(MedicationHistoryTakeRef ref) {
   return MedicationHistoryTake(database: ref.watch(currentGroupDatabaseProvider), userID: ref.watch(appUserIDProvider));
 }
 
+/// 服薬記録(take)の取り消しを revert アクションの追記として保存する論理削除。
+/// take ドキュメントは削除せず残し、取り消し対象を [RevertMedicationHistoryAction.takeAction] に丸ごと内包した別ドキュメントを作成する (#253)
+class MedicationHistoryRevert {
+  final GroupDatabase database;
+  // 取消操作をした本人の uid。userID(作成者) と recordedByUserID(記録者) の両方に設定する。
+  final String userID;
+
+  MedicationHistoryRevert({required this.database, required this.userID});
+
+  Future<MedicationHistory> call({required MedicationHistory takeMedicationHistory}) async {
+    // take の id から決定的に導出したドキュメント ID を使う。多重呼び出しや複数メンバーの同時取消でも
+    // 同一 take への revert は 1 ドキュメントに収束し、冪等になる
+    final docRef = database.medicationHistoriesReference().doc('${takeMedicationHistory.id}-revert');
+    final revertMedicationHistory = MedicationHistory(
+      id: docRef.id,
+      userID: userID,
+      recordedByUserID: userID,
+      medicine: takeMedicationHistory.medicine,
+      actionKind: MedicationHistoryActionKind.revert,
+      action: MedicationHistoryAction.revert(
+        takeAction: takeMedicationHistory,
+        medicationSchedule: takeMedicationHistory.action.medicationSchedule,
+      ),
+      memo: '',
+      recordedDateTime: DateTime.now(),
+      // 取り消し対象と同じ日付軸に置き、medicationHistoriesByDate の日付範囲クエリで take と同じ日に取得されるようにする
+      scheduledRecordedDate: takeMedicationHistory.scheduledRecordedDate,
+      // take の記録と同じ保持期間に合わせる
+      ttlExpiresDateTime: DateTime.now().addDays(365),
+    );
+    await docRef.set(revertMedicationHistory, SetOptions(merge: true));
+    return revertMedicationHistory;
+  }
+}
+
+@Riverpod(dependencies: [currentGroupDatabase, appUserID])
+MedicationHistoryRevert medicationHistoryRevert(MedicationHistoryRevertRef ref) {
+  return MedicationHistoryRevert(database: ref.watch(currentGroupDatabaseProvider), userID: ref.watch(appUserIDProvider));
+}
+
+// アンチェックの「元に戻す」で直前に書いた revert ドキュメントを消す用途で使う物理削除。
+// 数秒前の自分の取消操作の undo のため、履歴に「取消 → 取消の取消」を連ねず revert ドキュメント自体を消す (#253)
 class MedicationHistoryDelete {
   final GroupDatabase database;
 
