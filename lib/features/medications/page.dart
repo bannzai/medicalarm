@@ -8,6 +8,7 @@ import 'package:intl/intl.dart';
 import 'package:medicalarm/components/admob/admob.dart';
 import 'package:medicalarm/components/banner/account_link_banner.dart';
 import 'package:medicalarm/components/calendar/weekly/pager.dart';
+import 'package:medicalarm/components/error/error_alert.dart';
 import 'package:medicalarm/components/fab/layout.dart';
 import 'package:medicalarm/components/loading/indicator.dart';
 import 'package:medicalarm/components/retry/page.dart';
@@ -262,22 +263,33 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final isDisabled = scheduleRow.isDisabled;
     final isChecked = useState(scheduleRow.medicationHistory != null);
+    // アンチェックで遅延削除の対象になっている記録。SnackBar の Undo 猶予中のみ非 null
+    final pendingDeleteHistory = useRef<MedicationHistory?>(null);
     final medicationHistoryTake = ref.watch(medicationHistoryTakeProvider);
     final medicationHistoryDelete = ref.watch(medicationHistoryDeleteProvider);
     final registerReminderLocalNotification = ref.watch(registerReminderLocalNotificationProvider);
 
-    isChecked.addListener(() async {
-      unawaited(registerReminderLocalNotification.call());
+    // 行キーが安定化され snapshot 更新で widget が再生成されなくなったため、他メンバーの操作による
+    // 記録の増減をローカルの isChecked へ反映する。自分の遅延削除の猶予中はサーバー側に記録が
+    // 残っていてもアンチェック表示を保つため同期しない
+    useEffect(() {
+      if (pendingDeleteHistory.value == null) {
+        isChecked.value = scheduleRow.medicationHistory != null;
+      }
+      return null;
+    }, [scheduleRow.medicationHistory?.id]);
 
-      if (isChecked.value) {
-        // 記録の書き込みで snapshot が更新されると、この widget は破棄され ref が使えなくなる。
-        // await をまたいで ref を触るとウィジェット破棄後アクセスで例外になるため、ref 依存値は await の前に読み出す。
-        final groupID = ref.read(currentGroupIDProvider);
-        final currentUserID = ref.read(appUserIDProvider);
-        // memberSettings は take 内の AlarmKit 判定と Focus 連携の解決で共用するため、write より前に読み出して解決する。
-        final memberSettings = await ref.read(groupMemberNotificationSettingsProvider.future);
+    Future<void> take() async {
+      // 記録の書き込みで snapshot が更新されると、この widget は再ビルドされる。
+      // await をまたいで ref を触るとウィジェット破棄後アクセスで例外になるため、ref 依存値は await の前に読み出す。
+      final groupID = ref.read(currentGroupIDProvider);
+      final currentUserID = ref.read(appUserIDProvider);
+      // memberSettings は take 内の AlarmKit 判定と Focus 連携の解決で共用するため、write より前に読み出して解決する。
+      final memberSettings = await ref.read(groupMemberNotificationSettingsProvider.future);
 
-        final medicationHistory = await medicationHistoryTake.call(
+      final MedicationHistory medicationHistory;
+      try {
+        medicationHistory = await medicationHistoryTake.call(
           medicationHistory: scheduleRow.medicationHistory,
           scheduledRecordedDate: scheduleRow.date,
           recordedDateTime: scheduleRow.medicationHistory?.recordedDateTime ?? DateTime.now(),
@@ -285,41 +297,101 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
           medicationSchedule: scheduleRow.medicationSchedule,
           memberSettings: memberSettings,
         );
-
-        // 同じグループの他メンバーへ服薬記録を push 通知する。失敗しても記録は成功扱いにするため unawaited + catch。
-        // ソログループなど送信対象が 0 件の場合はサーバー側でスキップされる。
-        if (groupID != null) {
-          unawaited(
-            functions
-                .sendMedicationRecordNotification(
-              groupID: groupID,
-              medicineID: scheduleRow.medicine.id,
-              medicationHistoryID: medicationHistory.id,
-            )
-                .catchError((Object e, StackTrace st) {
-              errorLogger.recordError(e, st);
-            }),
-          );
+      } catch (e, st) {
+        // 記録が作られていないのにチェック済み表示のままだと飲み忘れを誘発するため、表示を実状態へ戻す
+        errorLogger.recordError(e, st);
+        if (context.mounted) {
+          isChecked.value = scheduleRow.medicationHistory != null;
+          showErrorAlert(context, e.toString());
         }
-
-        // Focus 連携は端末個人の設定のため、テンプレート直読みではなく有効設定の解決経由で取得する
-        final focusConnectScheduleID = resolveEffectiveNotificationSetting(
-          medicine: scheduleRow.medicine,
-          schedule: scheduleRow.medicationSchedule,
-          memberSettings: memberSettings,
-          currentUserID: currentUserID,
-        ).focusConnectScheduleID;
-        if (focusConnectScheduleID != null) {
-          await launchUrl(
-            Uri.parse(
-              'focus-connect://schedule/unlock?focusConnectScheduleID=$focusConnectScheduleID&focusConnectAppID=$focusConnectAppID',
-            ),
-          );
-        }
-      } else {
-        await medicationHistoryDelete.call(scheduleRow.medicationHistory!);
+        return;
       }
-    });
+      unawaited(registerReminderLocalNotification.call());
+
+      // 同じグループの他メンバーへ服薬記録を push 通知する。失敗しても記録は成功扱いにするため unawaited + catch。
+      // ソログループなど送信対象が 0 件の場合はサーバー側でスキップされる。
+      if (groupID != null) {
+        unawaited(
+          functions
+              .sendMedicationRecordNotification(
+            groupID: groupID,
+            medicineID: scheduleRow.medicine.id,
+            medicationHistoryID: medicationHistory.id,
+          )
+              .catchError((Object e, StackTrace st) {
+            errorLogger.recordError(e, st);
+          }),
+        );
+      }
+
+      // Focus 連携は端末個人の設定のため、テンプレート直読みではなく有効設定の解決経由で取得する
+      final focusConnectScheduleID = resolveEffectiveNotificationSetting(
+        medicine: scheduleRow.medicine,
+        schedule: scheduleRow.medicationSchedule,
+        memberSettings: memberSettings,
+        currentUserID: currentUserID,
+      ).focusConnectScheduleID;
+      if (focusConnectScheduleID != null) {
+        await launchUrl(
+          Uri.parse(
+            'focus-connect://schedule/unlock?focusConnectScheduleID=$focusConnectScheduleID&focusConnectAppID=$focusConnectAppID',
+          ),
+        );
+      }
+    }
+
+    // アンチェック操作。UI は即時反映し、SnackBar の Undo 猶予が閉じてから初めて Firestore の削除を発行する。
+    // 誤タップ 1 回で他メンバーの記録が即時に物理削除される事故 (#253) への対策で、
+    // 失敗時に「削除されない」側へ倒れる遅延削除方式を採る
+    Future<void> uncheckWithUndo() async {
+      final medicationHistory = scheduleRow.medicationHistory;
+      if (medicationHistory == null) {
+        // 他メンバーの削除が先行して記録が既に無い場合。削除対象が無いので表示の同期だけに留める
+        return;
+      }
+      pendingDeleteHistory.value = medicationHistory;
+
+      final snackBarClosedReason = await ScaffoldMessenger.of(context)
+          .showSnackBar(
+            SnackBar(
+              content: Text(L.medicationHistoryDeletedSnackbar),
+              // Material の SnackBar 推奨表示時間 4〜10 秒の範囲で、他メンバーの記録も消しうる破壊的操作のため取り消し猶予を長めに取る
+              duration: const Duration(seconds: 8),
+              action: SnackBarAction(
+                label: L.undo,
+                // 取り消しの判定は closed の SnackBarClosedReason.action で行うため、ここでは何もしない
+                onPressed: () {},
+              ),
+            ),
+          )
+          .closed;
+
+      // SnackBar 表示中のチェックし直し(Undo と同義)で削除が取りやめ済みの場合は何もしない
+      if (pendingDeleteHistory.value == null) {
+        return;
+      }
+      pendingDeleteHistory.value = null;
+
+      if (snackBarClosedReason == SnackBarClosedReason.action) {
+        // Undo: 削除を発行していないので記録はサーバーに残ったまま。表示をチェック済みへ戻すだけでよい
+        if (context.mounted) {
+          isChecked.value = true;
+        }
+        return;
+      }
+
+      try {
+        await medicationHistoryDelete.call(medicationHistory);
+        unawaited(registerReminderLocalNotification.call());
+      } catch (e, st) {
+        // 削除に失敗した場合は記録が残っているため、表示をチェック済みへ戻す
+        errorLogger.recordError(e, st);
+        if (context.mounted) {
+          isChecked.value = true;
+          showErrorAlert(context, e.toString());
+        }
+      }
+    }
 
     return Column(
       crossAxisAlignment: CrossAxisAlignment.center,
@@ -328,14 +400,31 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             SizedBox(
-              width: 24,
-              height: 24,
+              // Apple HIG の最小タップターゲット 44pt。行の高さごと確保することで、
+              // 隣接行のチェックボックスとタップ領域が重ならないよう分離する (#253)
+              width: 44,
+              height: 44,
               child: Checkbox(
                 value: isDisabled ? false : isChecked.value,
                 onChanged: isDisabled
                     ? null
                     : (value) {
-                        isChecked.value = value ?? false;
+                        final newValue = value ?? false;
+                        if (newValue == isChecked.value) {
+                          return;
+                        }
+                        isChecked.value = newValue;
+                        if (newValue) {
+                          if (pendingDeleteHistory.value != null) {
+                            // 遅延削除の猶予中のチェックし直しは Undo と同義。記録はまだサーバーに残っているため take は不要
+                            pendingDeleteHistory.value = null;
+                            ScaffoldMessenger.of(context).hideCurrentSnackBar();
+                          } else {
+                            unawaited(take());
+                          }
+                        } else {
+                          unawaited(uncheckWithUndo());
+                        }
                       },
               ),
             ),
@@ -350,6 +439,14 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
               },
             ),
             const Spacer(),
+            // 同名・同時刻で並ぶ行を見分けるための識別情報として、チェック済みの行に記録時刻を表示する (#253)
+            if (isChecked.value && scheduleRow.medicationHistory != null) ...[
+              Text(
+                L.medicationTakenAtLabel(DateFormat.Hm().format(scheduleRow.medicationHistory!.recordedDateTime)),
+                style: const TextStyle(fontSize: 12, color: TextColor.gray),
+              ),
+              const SizedBox(width: 8),
+            ],
             if (scheduleRow.quantityMemo.isNotEmpty) ...[
               Text(scheduleRow.quantityMemo),
             ],

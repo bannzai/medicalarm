@@ -48,7 +48,9 @@ class MedicationHistoryTake {
     // AlarmKit 停止判定を共有テンプレートではなく記録者に有効な設定で行うために解決に使う。
     required GroupMemberNotificationSettings? memberSettings,
   }) async {
-    final docRef = database.medicationHistoriesReference().doc();
+    // 既存記録の再書き込みは同じドキュメントへ上書きする。常に新規 doc() を発行すると
+    // パスと id フィールドの食い違う複製ドキュメントが増殖する (#253)
+    final docRef = database.medicationHistoriesReference().doc(medicationHistory?.id);
 
     final newMedicationHistory = medicationHistory ??
         MedicationHistory(
