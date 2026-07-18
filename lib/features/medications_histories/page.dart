@@ -336,8 +336,15 @@ class MedicationHistoryRevertTile extends HookConsumerWidget {
           children: [
             Row(
               children: [
-                Text(medicine.name, style: const TextStyle(fontSize: 16, fontWeight: FontWeight.bold, color: TextColor.gray)),
-                const Spacer(),
+                // 取消ラベルと並ぶため、長い薬名は折り返さず省略して横幅あふれを防ぐ
+                Expanded(
+                  child: Text(
+                    medicine.name,
+                    style: const TextStyle(fontSize: 16, fontWeight: FontWeight.bold, color: TextColor.gray),
+                    overflow: TextOverflow.ellipsis,
+                  ),
+                ),
+                const SizedBox(width: 8),
                 Text(L.medicationHistoryReverted, style: const TextStyle(fontSize: 12, fontWeight: FontWeight.bold, color: TextColor.danger)),
               ],
             ),

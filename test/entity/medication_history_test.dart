@@ -98,4 +98,43 @@ void main() {
       expect(decoded.scheduledRecordedDate, DateTime(2026, 7, 16));
     });
   });
+
+  // #253: 「服用済みの記録があるか」の判定(レビュー訴求等)は revert に打ち消されていない take だけを数える
+  group('effectiveTakeMedicationHistories', () {
+    MedicationHistory buildRevertMedicationHistory({required MedicationHistory takeMedicationHistory}) {
+      return MedicationHistory(
+        id: '${takeMedicationHistory.id}-revert',
+        userID: 'user-a',
+        recordedByUserID: 'user-a',
+        medicine: buildMedicine(),
+        actionKind: MedicationHistoryActionKind.revert,
+        action: MedicationHistoryAction.revert(
+          takeAction: takeMedicationHistory,
+          medicationSchedule: medicationSchedule,
+        ),
+        memo: '',
+        recordedDateTime: DateTime(2026, 7, 16, 9, 5),
+        scheduledRecordedDate: takeMedicationHistory.scheduledRecordedDate,
+        ttlExpiresDateTime: takeMedicationHistory.ttlExpiresDateTime,
+      );
+    }
+
+    test('revert に打ち消された take と revert ドキュメント自体は含まれない(取消済みのみの日は空になる)', () {
+      final takeMedicationHistory = buildTakeMedicationHistory();
+
+      expect(
+        effectiveTakeMedicationHistories([takeMedicationHistory, buildRevertMedicationHistory(takeMedicationHistory: takeMedicationHistory)]),
+        isEmpty,
+      );
+    });
+
+    test('打ち消されていない take は含まれる', () {
+      final takeMedicationHistory = buildTakeMedicationHistory();
+
+      expect(
+        effectiveTakeMedicationHistories([takeMedicationHistory]).map((history) => history.id).toList(),
+        ['take-1'],
+      );
+    });
+  });
 }

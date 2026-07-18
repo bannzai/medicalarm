@@ -268,6 +268,9 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
     // 完了済みドキュメントではなく Future を持つのは、書き込み中(await 完了前)のチェックし直しが
     // take と誤解釈され、後から完了した revert に打ち消される競合を防ぐため
     final pendingRevertWrite = useRef<Future<MedicationHistory>?>(null);
+    // 実行中の undo(revert の取り下げ)。undo 完了前に再アンチェックされた場合に、
+    // 取り消し対象の take を undo の結果から引き継いで再アンチェックを破棄しないために保持する
+    final pendingUndoWrite = useRef<Future<MedicationHistory?>?>(null);
     final medicationHistoryTake = ref.watch(medicationHistoryTakeProvider);
     final medicationHistoryRevert = ref.watch(medicationHistoryRevertProvider);
     final medicationHistoryUndoRevert = ref.watch(medicationHistoryUndoRevertProvider);
@@ -342,8 +345,9 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
     }
 
     // 「元に戻す」操作。数秒前の自分の取消の undo なので、履歴に「取消 → 取消の取消」を連ねず
-    // 直前に書いた revert ドキュメント自体を取り下げてサーバーもチェック済み状態へ戻す
-    Future<void> undoRevert(Future<MedicationHistory> revertWrite) async {
+    // 直前に書いた revert ドキュメント自体を取り下げてサーバーもチェック済み状態へ戻す。
+    // undo が成立してチェック済みに戻った場合はその take を返し、不成立(別メンバーの取消が残っている・失敗)の場合は null を返す
+    Future<MedicationHistory?> undoRevert(Future<MedicationHistory> revertWrite) async {
       final MedicationHistory revertMedicationHistory;
       try {
         revertMedicationHistory = await revertWrite;
@@ -353,7 +357,7 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
         if (context.mounted) {
           isChecked.value = true;
         }
-        return;
+        return scheduleRow.medicationHistory;
       }
       try {
         final isUndone = await medicationHistoryUndoRevert.call(revertMedicationHistory: revertMedicationHistory);
@@ -362,6 +366,7 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
           // 別メンバーの取消が同じ take を上書きしている場合(isUndone = false)は取り下げず、未チェックのまま
           isChecked.value = isUndone;
         }
+        return isUndone ? (revertMedicationHistory.action as RevertMedicationHistoryAction).takeAction : null;
       } catch (e, st) {
         // revert ドキュメントが残ったままなので、表示は未チェックのままにする
         errorLogger.recordError(e, st);
@@ -369,16 +374,42 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
           isChecked.value = false;
           showErrorAlert(context, e.toString());
         }
+        return null;
       }
+    }
+
+    // undo を開始し、完了前の再アンチェックが取消対象(take)を引き継げるよう実行中の Future を保持する
+    Future<void> startUndo(Future<MedicationHistory> revertWrite) {
+      final undoWrite = undoRevert(revertWrite);
+      pendingUndoWrite.value = undoWrite;
+      return undoWrite.then((_) {}).whenComplete(() {
+        if (pendingUndoWrite.value == undoWrite) {
+          pendingUndoWrite.value = null;
+        }
+      });
     }
 
     // アンチェック操作。take ドキュメントは削除せず、取消(revert)アクションを即時追記する論理削除 (#253)。
     // 誤タップでも他メンバーの記録は失われず、SnackBar の「元に戻す」で revert を取り下げて戻せる
     Future<void> revertWithUndo() async {
-      final medicationHistory = scheduleRow.medicationHistory;
+      var medicationHistory = scheduleRow.medicationHistory;
       if (medicationHistory == null) {
-        // 他メンバーの取消が先行して未チェック扱いになっている場合。取消対象が無いので表示の同期だけに留める
-        return;
+        final undoWrite = pendingUndoWrite.value;
+        if (undoWrite == null) {
+          // 他メンバーの取消が先行して未チェック扱いになっている場合。取消対象が無いので表示の同期だけに留める
+          return;
+        }
+        // undo(チェック済みへ戻す)の実行中に再アンチェックされた場合。undo の完了を待ち、
+        // 復元された take を取消対象に引き継ぐ(ここで破棄すると undo 完了時に再アンチェックが巻き戻されて消える)
+        medicationHistory = await undoWrite;
+        if (medicationHistory == null) {
+          // undo 不成立 = 未チェックのままなので、取り消すべき take は無い
+          return;
+        }
+        if (context.mounted) {
+          // undo 成立時に isChecked が true へ戻されているため、この再アンチェックの意図(未チェック)を適用し直す
+          isChecked.value = false;
+        }
       }
 
       // await より前に猶予中マークを立てる。書き込み完了を待ってから立てると、
@@ -432,7 +463,7 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
       pendingRevertWrite.value = null;
 
       if (snackBarClosedReason == SnackBarClosedReason.action) {
-        await undoRevert(revertWrite);
+        await startUndo(revertWrite);
       }
     }
 
@@ -464,7 +495,7 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
                             // take の追記ではなく revert の取り下げで戻す
                             pendingRevertWrite.value = null;
                             ScaffoldMessenger.of(context).hideCurrentSnackBar();
-                            unawaited(undoRevert(revertWrite));
+                            unawaited(startUndo(revertWrite));
                           } else {
                             unawaited(take());
                           }

@@ -39,6 +39,20 @@ enum MedicationHistoryActionKind {
   skip,
 }
 
+/// 論理削除(revert アクションの追記)を考慮した「有効な服薬記録(take)」の一覧を返す (#253)。
+/// take のうち、それを打ち消す revert が存在しないものだけが「服用済み」の根拠になる。
+/// revert ドキュメント自体は同じコレクションに混在するため、take 以外は結果に含めない
+List<MedicationHistory> effectiveTakeMedicationHistories(List<MedicationHistory> medicationHistories) {
+  return medicationHistories
+      .where((history) =>
+          history.action is TakeMedicationHistoryAction &&
+          !medicationHistories.any((other) => switch (other.action) {
+                RevertMedicationHistoryAction(takeAction: final takeAction) => takeAction.id == history.id,
+                TakeMedicationHistoryAction() || SkipMedicationHistoryAction() => false,
+              }))
+      .toList();
+}
+
 @freezed
 sealed class MedicationHistoryAction with _$MedicationHistoryAction {
   // 服用

@@ -94,6 +94,18 @@ MedicationGroupScheduleRow buildCheckedScheduleRow() {
   );
 }
 
+// revert 追記の snapshot 反映後(take が打ち消された後)の未チェック状態の行
+MedicationGroupScheduleRow buildUncheckedScheduleRow() {
+  return MedicationGroupScheduleRow(
+    id: 'row-1',
+    medicationHistory: null,
+    medicine: buildMedicine(),
+    medicationSchedule: medicationSchedule,
+    quantityMemo: '',
+    date: DateTime.now(),
+  );
+}
+
 @GenerateNiceMocks([
   MockSpec<MedicationHistoryTake>(),
   MockSpec<MedicationHistoryRevert>(),
@@ -270,6 +282,36 @@ void main() {
       // undo が消化済みなので SnackBar は表示されない
       await tester.pump(const Duration(milliseconds: 750));
       expect(find.text('服薬記録を取り消しました'), findsNothing);
+    });
+
+    // チェックし直し(undo)の完了前に再アンチェックされた場合、破棄すると undo 完了時に
+    // チェック済みへ巻き戻されてユーザーの最新操作が消える。undo 完了後に取消を引き継いで発行すること
+    testWidgets('undo の実行中の再アンチェックは破棄されず、undo 完了後に取消(revert)として発行される', (tester) async {
+      final undoCompleter = Completer<bool>();
+      when(medicationHistoryUndoRevert.call(revertMedicationHistory: anyNamed('revertMedicationHistory'))).thenAnswer((_) => undoCompleter.future);
+      await pumpScheduleRow(tester, scheduleRow: buildCheckedScheduleRow());
+
+      // アンチェック → revert 追記の snapshot 反映で行の medicationHistory が null になる
+      await tester.tap(find.byType(Checkbox));
+      await tester.pump();
+      await tester.pump(const Duration(milliseconds: 750));
+      await pumpScheduleRow(tester, scheduleRow: buildUncheckedScheduleRow());
+
+      // SnackBar 猶予中にチェックし直し(undo 開始。完了は保留)、undo 完了前に再アンチェック
+      await tester.tap(find.byType(Checkbox));
+      await tester.pump();
+      await tester.tap(find.byType(Checkbox));
+      await tester.pump();
+
+      undoCompleter.complete(true);
+      await tester.pumpAndSettle();
+
+      // 再アンチェックが undo で復元された take への取消として発行される(1回目のアンチェックと合わせて計2回)
+      final captured = verify(medicationHistoryRevert.call(takeMedicationHistory: captureAnyNamed('takeMedicationHistory'))).captured;
+      expect(captured, hasLength(2));
+      expect((captured[1] as MedicationHistory).id, 'history-1');
+      // ユーザーの最新操作(アンチェック)が維持される
+      expect(tester.widget<Checkbox>(find.byType(Checkbox)).value, false);
     });
   });
 }
