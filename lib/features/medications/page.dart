@@ -263,12 +263,14 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final isDisabled = scheduleRow.isDisabled;
     final isChecked = useState(scheduleRow.medicationHistory != null);
-    // アンチェックで書き込んだ revert ドキュメント。SnackBar の「元に戻す」猶予中のみ非 null で、
-    // 猶予中のチェックし直しを take ではなく revert の物理削除(undo)として扱うために保持する
-    final pendingRevertHistory = useRef<MedicationHistory?>(null);
+    // アンチェックで発行した revert の書き込み。書き込み中〜SnackBar の「元に戻す」猶予中のみ非 null で、
+    // この間のチェックし直しを take ではなく undo(revert の取り下げ)として扱うために保持する。
+    // 完了済みドキュメントではなく Future を持つのは、書き込み中(await 完了前)のチェックし直しが
+    // take と誤解釈され、後から完了した revert に打ち消される競合を防ぐため
+    final pendingRevertWrite = useRef<Future<MedicationHistory>?>(null);
     final medicationHistoryTake = ref.watch(medicationHistoryTakeProvider);
     final medicationHistoryRevert = ref.watch(medicationHistoryRevertProvider);
-    final medicationHistoryDelete = ref.watch(medicationHistoryDeleteProvider);
+    final medicationHistoryUndoRevert = ref.watch(medicationHistoryUndoRevertProvider);
     final registerReminderLocalNotification = ref.watch(registerReminderLocalNotificationProvider);
 
     // 行キーが安定化され snapshot 更新で widget が再生成されなくなったため、他メンバーの操作による
@@ -340,13 +342,25 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
     }
 
     // 「元に戻す」操作。数秒前の自分の取消の undo なので、履歴に「取消 → 取消の取消」を連ねず
-    // 直前に書いた revert ドキュメント自体を物理削除してサーバーもチェック済み状態へ戻す
-    Future<void> undoRevert(MedicationHistory revertMedicationHistory) async {
+    // 直前に書いた revert ドキュメント自体を取り下げてサーバーもチェック済み状態へ戻す
+    Future<void> undoRevert(Future<MedicationHistory> revertWrite) async {
+      final MedicationHistory revertMedicationHistory;
       try {
-        await medicationHistoryDelete.call(revertMedicationHistory);
-        unawaited(registerReminderLocalNotification.call());
+        revertMedicationHistory = await revertWrite;
+      } catch (_) {
+        // revert の書き込み自体が失敗 = 取消は成立していない(エラー記録・表示は revertWithUndo 側で行う)。
+        // 記録はサーバーに残っているためチェック済みへ戻す
         if (context.mounted) {
           isChecked.value = true;
+        }
+        return;
+      }
+      try {
+        final isUndone = await medicationHistoryUndoRevert.call(revertMedicationHistory: revertMedicationHistory);
+        unawaited(registerReminderLocalNotification.call());
+        if (context.mounted) {
+          // 別メンバーの取消が同じ take を上書きしている場合(isUndone = false)は取り下げず、未チェックのまま
+          isChecked.value = isUndone;
         }
       } catch (e, st) {
         // revert ドキュメントが残ったままなので、表示は未チェックのままにする
@@ -359,7 +373,7 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
     }
 
     // アンチェック操作。take ドキュメントは削除せず、取消(revert)アクションを即時追記する論理削除 (#253)。
-    // 誤タップでも他メンバーの記録は失われず、SnackBar の「元に戻す」で revert を物理削除して取り消せる
+    // 誤タップでも他メンバーの記録は失われず、SnackBar の「元に戻す」で revert を取り下げて戻せる
     Future<void> revertWithUndo() async {
       final medicationHistory = scheduleRow.medicationHistory;
       if (medicationHistory == null) {
@@ -367,22 +381,30 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
         return;
       }
 
-      final MedicationHistory revertMedicationHistory;
+      // await より前に猶予中マークを立てる。書き込み完了を待ってから立てると、
+      // 書き込み中のチェックし直しが take と誤解釈され、後から完了した revert に打ち消されてしまう
+      final revertWrite = medicationHistoryRevert.call(takeMedicationHistory: medicationHistory);
+      pendingRevertWrite.value = revertWrite;
+
       try {
-        revertMedicationHistory = await medicationHistoryRevert.call(takeMedicationHistory: medicationHistory);
+        await revertWrite;
       } catch (e, st) {
-        // 取消が書けていないのに未チェック表示のままだと二重服用を誘発するため、表示を実状態へ戻す
         errorLogger.recordError(e, st);
         if (context.mounted) {
-          isChecked.value = scheduleRow.medicationHistory != null;
+          // 取消が書けていないのに未チェック表示のままだと二重服用を誘発するため、表示を実状態へ戻す。
+          // チェックし直しで undo が消化済みの場合の表示は undoRevert 側が戻している
+          if (pendingRevertWrite.value == revertWrite) {
+            pendingRevertWrite.value = null;
+            isChecked.value = scheduleRow.medicationHistory != null;
+          }
           showErrorAlert(context, e.toString());
         }
         return;
       }
       unawaited(registerReminderLocalNotification.call());
-      pendingRevertHistory.value = revertMedicationHistory;
 
-      if (!context.mounted) {
+      // 書き込み中のチェックし直しで undo が消化済みなら、SnackBar は表示しない
+      if (pendingRevertWrite.value != revertWrite || !context.mounted) {
         return;
       }
       final snackBarClosedReason = await ScaffoldMessenger.of(context)
@@ -404,13 +426,13 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
           .closed;
 
       // SnackBar 表示中のチェックし直し(元に戻すと同義)で undo 済みの場合は何もしない
-      if (pendingRevertHistory.value == null) {
+      if (pendingRevertWrite.value != revertWrite) {
         return;
       }
-      pendingRevertHistory.value = null;
+      pendingRevertWrite.value = null;
 
       if (snackBarClosedReason == SnackBarClosedReason.action) {
-        await undoRevert(revertMedicationHistory);
+        await undoRevert(revertWrite);
       }
     }
 
@@ -436,12 +458,13 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
                         }
                         isChecked.value = newValue;
                         if (newValue) {
-                          final revertMedicationHistory = pendingRevertHistory.value;
-                          if (revertMedicationHistory != null) {
-                            // 「元に戻す」猶予中のチェックし直しは undo と同義。take の追記ではなく revert の物理削除で戻す
-                            pendingRevertHistory.value = null;
+                          final revertWrite = pendingRevertWrite.value;
+                          if (revertWrite != null) {
+                            // 「元に戻す」猶予中(revert 書き込み中を含む)のチェックし直しは undo と同義。
+                            // take の追記ではなく revert の取り下げで戻す
+                            pendingRevertWrite.value = null;
                             ScaffoldMessenger.of(context).hideCurrentSnackBar();
-                            unawaited(undoRevert(revertMedicationHistory));
+                            unawaited(undoRevert(revertWrite));
                           } else {
                             unawaited(take());
                           }

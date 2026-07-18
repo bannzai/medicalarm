@@ -99,6 +99,8 @@ void main() {
       expect(result.recordedByUserID, 'user-b');
       // 日付範囲クエリ(medicationHistoriesByDate)で take と同じ日に取得されるよう、日付軸は take に合わせる
       expect(result.scheduledRecordedDate, takeMedicationHistory.scheduledRecordedDate);
+      // 取消時点から起算し直すと内包した take の医療データの保持期間が延びてしまうため、take の保持期限を引き継ぐ
+      expect(result.ttlExpiresDateTime, takeMedicationHistory.ttlExpiresDateTime);
       expect(verify(documentReference.set(captureAny, captureAny)).captured.first, result);
     });
   });

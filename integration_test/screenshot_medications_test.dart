@@ -33,7 +33,8 @@ void main() {
             overrides: [
               sharedPreferencesProvider.overrideWith((ref) => sharedPreferences),
               medicationHistoryTakeProvider.overrideWithValue(FakeMedicationHistoryTake()),
-              medicationHistoryDeleteProvider.overrideWithValue(FakeMedicationHistoryDelete()),
+              medicationHistoryRevertProvider.overrideWithValue(FakeMedicationHistoryRevert()),
+              medicationHistoryUndoRevertProvider.overrideWithValue(FakeMedicationHistoryUndoRevert()),
               registerReminderLocalNotificationProvider.overrideWithValue(FakeRegisterReminderLocalNotification()),
             ],
             child: MaterialApp(

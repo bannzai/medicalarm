@@ -209,21 +209,21 @@ final medicationHistoryRevertProvider = AutoDisposeProvider<MedicationHistoryRev
 @Deprecated('Will be removed in 3.0. Use Ref instead')
 // ignore: unused_element
 typedef MedicationHistoryRevertRef = AutoDisposeProviderRef<MedicationHistoryRevert>;
-String _$medicationHistoryDeleteHash() => r'88cec809291eb09c37a2877000b97f8dcd3d994a';
+String _$medicationHistoryUndoRevertHash() => r'4828f6f0d2bf42c57668c1b848a5e70d20679742';
 
-/// See also [medicationHistoryDelete].
-@ProviderFor(medicationHistoryDelete)
-final medicationHistoryDeleteProvider = AutoDisposeProvider<MedicationHistoryDelete>.internal(
-  medicationHistoryDelete,
-  name: r'medicationHistoryDeleteProvider',
-  debugGetCreateSourceHash: const bool.fromEnvironment('dart.vm.product') ? null : _$medicationHistoryDeleteHash,
+/// See also [medicationHistoryUndoRevert].
+@ProviderFor(medicationHistoryUndoRevert)
+final medicationHistoryUndoRevertProvider = AutoDisposeProvider<MedicationHistoryUndoRevert>.internal(
+  medicationHistoryUndoRevert,
+  name: r'medicationHistoryUndoRevertProvider',
+  debugGetCreateSourceHash: const bool.fromEnvironment('dart.vm.product') ? null : _$medicationHistoryUndoRevertHash,
   dependencies: <ProviderOrFamily>[currentGroupDatabaseProvider],
   allTransitiveDependencies: <ProviderOrFamily>{currentGroupDatabaseProvider, ...?currentGroupDatabaseProvider.allTransitiveDependencies},
 );
 
 @Deprecated('Will be removed in 3.0. Use Ref instead')
 // ignore: unused_element
-typedef MedicationHistoryDeleteRef = AutoDisposeProviderRef<MedicationHistoryDelete>;
+typedef MedicationHistoryUndoRevertRef = AutoDisposeProviderRef<MedicationHistoryUndoRevert>;
 String _$medicationHistoryMemoUpdateHash() => r'0c32208f61f5215d1ed56b415717aec94bbb3509';
 
 /// See also [medicationHistoryMemoUpdate].
