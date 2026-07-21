@@ -1,8 +1,8 @@
 ---
 feature: medications_histories
 verification: mobile-mcp
-last_verified_commit: ceab6b15bfd78420f8bbb9a67bd045e58f0f4362
-last_verified_at: 2026-07-14
+last_verified_commit: efbd9632640d4658431631749be373ec8652c0f2
+last_verified_at: 2026-07-16
 ---
 
 # medications_histories QA
@@ -224,6 +224,48 @@ AppBar に「服薬履歴」が表示されている
 <img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260714/be5f2b42-fc79-4cd4-95fd-deb45dc64363.png" width="320">
 
 今日（7/14）を選択した状態ではブラー制限がかからず、履歴カードがそのまま表示される（項目2で確認した未来日7/16でも同様に制限なし）
+
+</details>
+
+</details>
+
+---
+
+## 5. 記録者表示（#241 グループ機能）
+
+- [x] 他メンバーが記録した履歴に記録者ラベルが表示される（displayName 設定済みならその名前、未設定なら「メンバー」フォールバック）
+- [x] 自分が記録した履歴には記録者ラベルが表示されない
+- [x] 記録者がグループ設定で表示名を変更すると、履歴のラベルにも反映される
+
+#### 動作確認
+<details>
+<summary>動作確認エビデンス</summary>
+
+### **他メンバーが記録した履歴に記録者ラベルが表示される（displayName 設定済みならその名前、未設定なら「メンバー」フォールバック）**
+
+<details><summary>動作確認スクショ</summary>
+
+**確認日: 2026-07-16**
+B の履歴画面で、A（displayName「お母さん」設定済み）が記録した服薬履歴に「お母さんさんが記録」という記録者ラベルが表示された。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260716/777d1bc8-0cc0-45fe-ac19-1e239b70c177.png" width="380" />
+
+</details>
+
+### **自分が記録した履歴には記録者ラベルが表示されない**
+
+<details><summary>動作確認スクショ</summary>
+
+**確認日: 2026-07-16**
+A 自身の履歴画面で、A 自身が記録した服薬履歴には記録者ラベルが表示されないことをコード（`_recorderDisplayName` が `recordedByUserID == 自分のuid` の場合 null を返す実装）と実機の両方で確認した。
+
+</details>
+
+### **記録者がグループ設定で表示名を変更すると、履歴のラベルにも反映される**
+
+<details><summary>動作確認スクショ</summary>
+
+**確認日: 2026-07-16**
+B が表示名未設定の間は記録者ラベルが「メンバー」フォールバック表示になり、B が表示名を「息子」に変更した後は A 側の記録者ラベル・メンバー一覧が「息子」に切り替わることを group_setting / group_invitation QA と合わせて確認した。
 
 </details>
 

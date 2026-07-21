@@ -184,7 +184,7 @@ class PromotionStartPage extends HookConsumerWidget {
                               borderRadius: BorderRadius.circular(20),
                               boxShadow: [
                                 BoxShadow(
-                                  color: Colors.grey.withOpacity(0.2),
+                                  color: Colors.grey.withValues(alpha: 0.2),
                                   spreadRadius: 5,
                                   blurRadius: 10,
                                   offset: const Offset(0, 3),

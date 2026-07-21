@@ -1,8 +1,8 @@
 ---
 feature: _root
 verification: mobile-mcp
-last_verified_commit: null
-last_verified_at: null
+last_verified_commit: efbd9632640d4658431631749be373ec8652c0f2
+last_verified_at: 2026-07-16
 ---
 
 # QA 全体ガイド
@@ -51,9 +51,9 @@ make secret  # 環境変数 FILE_FIREBASE_IOS / REVENUE_CAT_PUBLIC_API_KEY が�
 
 ## 1. 起動・初期化
 
-- [ ] **初回起動で服薬画面に到達**: クリーンインストール（`xcrun simctl uninstall <UDID> com.bannzai.medicalarm` でアプリ削除 → 再インストール）後の起動で、通知許可・ATT ダイアログを経て服薬画面が表示される。クリーンインストール操作は手動で行う（maestro/flows/allow_notification.yaml は `clearState: false` で表示中ダイアログの突破のみを行い、状態のリセットはしない）
-- [ ] **2 回目以降の起動**: 再起動時はダイアログ群が再表示されず、直接服薬画面が表示される
-- [ ] **匿名認証とデータ永続化**: 再起動しても登録済みの薬・服薬記録が保持されている（匿名ユーザーが維持されている）
+- [x] **初回起動で服薬画面に到達**: クリーンインストール（`xcrun simctl uninstall <UDID> com.bannzai.medicalarm` でアプリ削除 → 再インストール）後の起動で、通知許可・ATT ダイアログを経て服薬画面が表示される。クリーンインストール操作は手動で行う（maestro/flows/allow_notification.yaml は `clearState: false` で表示中ダイアログの突破のみを行い、状態のリセットはしない）
+- [x] **2 回目以降の起動**: 再起動時はダイアログ群が再表示されず、直接服薬画面が表示される
+- [x] **匿名認証とデータ永続化**: 再起動しても登録済みの薬・服薬記録が保持されている（匿名ユーザーが維持されている）
 
 #### 動作確認
 <details>
@@ -63,7 +63,9 @@ make secret  # 環境変数 FILE_FIREBASE_IOS / REVENUE_CAT_PUBLIC_API_KEY が�
 
 <details><summary>動作確認スクショ</summary>
 
-（未実行）
+**確認日: 2026-07-16**
+シミュレータを `xcrun simctl erase` した新規匿名ユーザー状態から起動し、通知許可・ATT ダイアログ（maestro/flows/allow_notification.yaml で突破）を経て服薬画面に到達することを、2台のシミュレータ（A・B）それぞれで確認した。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260716/690706d7-9613-4140-bbbc-d1bc2ead38ce.png" width="380" />
 
 </details>
 
@@ -71,7 +73,9 @@ make secret  # 環境変数 FILE_FIREBASE_IOS / REVENUE_CAT_PUBLIC_API_KEY が�
 
 <details><summary>動作確認スクショ</summary>
 
-（未実行）
+**確認日: 2026-07-16**
+初回ダイアログ承諾後、アプリの完全終了・再起動を複数回行ったが、以降はダイアログが再表示されず直接服薬画面に到達した（本セッションで10回以上の再起動を実施し全て確認）。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260716/138599b3-f920-4a7d-99af-3a8b8d84db9f.png" width="380" />
 
 </details>
 
@@ -79,7 +83,9 @@ make secret  # 環境変数 FILE_FIREBASE_IOS / REVENUE_CAT_PUBLIC_API_KEY が�
 
 <details><summary>動作確認スクショ</summary>
 
-（未実行）
+**確認日: 2026-07-16**
+登録した薬・服薬記録（移行テスト薬A/B、共有薬X）が、アプリの完全終了・再起動を挟んでも欠落・重複なく保持されることを複数回確認した。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260716/be935c90-709e-4551-a73a-c3cb862cb3c9.png" width="380" />
 
 </details>
 

@@ -1,8 +1,8 @@
 ---
 feature: medications
 verification: mobile-mcp
-last_verified_commit: ceab6b15bfd78420f8bbb9a67bd045e58f0f4362
-last_verified_at: 2026-07-14
+last_verified_commit: efbd9632640d4658431631749be373ec8652c0f2
+last_verified_at: 2026-07-16
 ---
 
 # medications QA
@@ -156,15 +156,15 @@ QAテスト薬A（07:00, 13:00）と QAテスト薬B（10:00）を登録し、07
 
 </details>
 
-### **チェック解除で削除**: チェックボックスをオフにするとその服用記録が削除される
+### **チェック解除で取消の記録**: チェックボックスをオフにすると取消(revert)が追記され、未チェック表示になる。SnackBar の「元に戻す」でチェック済みに戻せる
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-07-14**
+**確認日: 2026-07-18**
 
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260714/9f13da6f-5acf-43a7-a5a5-5029e71512d7.png" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260718/6360b553-5e6f-454a-9fc3-6216d269622d.png" width="320">
 
-チェック済みの行をオフにすると `medicationHistoryDeleteProvider` が呼ばれ、チェックが外れた状態で表示される
+チェック済みの行をオフにすると `medicationHistoryRevertProvider` により取消(revert)ドキュメントが即時追記され(take は残る)、未チェック表示 + Undo つき SnackBar が表示される。「元に戻す」で `medicationHistoryUndoRevertProvider` が revert を取り下げチェック済みに戻る
 
 </details>
 
@@ -297,6 +297,58 @@ QAテスト薬A（07:00, 13:00）と QAテスト薬B（10:00）を登録し、07
 <img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260714/c0e5b113-7266-4af2-9357-6699b30c69a5.png" width="320">
 
 AppBar 右上の編集アイコンをタップすると「お薬一覧」画面（MedicinesPage）に遷移する
+
+</details>
+
+</details>
+
+---
+
+## 6. グループ切替チップ（#241 グループ機能）
+
+- [x] 所属グループが 1 つの間、ホーム上部にチップが表示されない
+- [x] 2 グループ以上でホーム上部に切替チップが表示され、選択中がハイライトされる
+- [x] チップで切り替えると表示される薬・記録がそのグループのものに切り替わる
+- [x] 切替後にアプリを再起動しても選択したグループが維持される（defaultGroupID 永続化）
+
+#### 動作確認
+<details>
+<summary>動作確認エビデンス</summary>
+
+### **所属グループが 1 つの間、ホーム上部にチップが表示されない**
+
+<details><summary>動作確認スクショ</summary>
+
+**確認日: 2026-07-16**
+グループが「マイグループ」1つのみの間、ホーム上部に切替チップが表示されないことを確認した（グループ作成前の状態）。
+
+</details>
+
+### **2 グループ以上でホーム上部に切替チップが表示され、選択中がハイライトされる**
+
+<details><summary>動作確認スクショ</summary>
+
+**確認日: 2026-07-16**
+「マイグループ」「家族グループ」の2つ作成後、ホーム上部に両方のチップが表示され、選択中のチップがハイライト（濃い背景色）で区別された。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260716/365e1305-cf26-41e5-98d0-1f2302c631e9.png" width="380" />
+
+</details>
+
+### **チップで切り替えると表示される薬・記録がそのグループのものに切り替わる**
+
+<details><summary>動作確認スクショ</summary>
+
+**確認日: 2026-07-16**
+「家族グループ」チップに切り替えると、そのグループに登録した「共有薬X」が表示され、「マイグループ」チップに戻すと別データ（移行テスト薬A/B）が表示された。
+
+</details>
+
+### **切替後にアプリを再起動しても選択したグループが維持される（defaultGroupID 永続化）**
+
+<details><summary>動作確認スクショ</summary>
+
+**確認日: 2026-07-16**
+「家族グループ」チップに切り替えた状態でアプリを完全終了・再起動したところ、再起動後も「家族グループ」が選択された状態（既定チップがハイライト）で復元された。
 
 </details>
 
