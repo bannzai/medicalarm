@@ -39,6 +39,6 @@ import 'package:mockito/mockito.dart';
 
 class FakeMedicationHistoryTake extends Mock implements MedicationHistoryTake {}
 
-class FakeMedicationHistoryDelete extends Mock implements MedicationHistoryDelete {}
+class FakeMedicationHistoryRevert extends Mock implements MedicationHistoryRevert {}
 
 class FakeRegisterReminderLocalNotification extends Mock implements RegisterReminderLocalNotification {}

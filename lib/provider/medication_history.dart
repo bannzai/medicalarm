@@ -100,19 +100,45 @@ MedicationHistoryTake medicationHistoryTake(MedicationHistoryTakeRef ref) {
   return MedicationHistoryTake(database: ref.watch(currentGroupDatabaseProvider), userID: ref.watch(appUserIDProvider));
 }
 
-class MedicationHistoryDelete {
+/// 服薬記録(take)の取り消しを revert アクションの追記として保存する論理削除。
+/// take ドキュメントは削除せず残し、取り消し対象を [RevertMedicationHistoryAction.takeAction] に丸ごと内包した別ドキュメントを作成する (#253)
+class MedicationHistoryRevert {
   final GroupDatabase database;
+  // 取消操作をした本人の uid。userID(作成者) と recordedByUserID(記録者) の両方に設定する。
+  final String userID;
 
-  MedicationHistoryDelete(this.database);
+  MedicationHistoryRevert({required this.database, required this.userID});
 
-  Future<void> call(MedicationHistory medicationHistory) async {
-    await database.medicationHistoriesReference().doc(medicationHistory.id).delete();
+  Future<MedicationHistory> call({required MedicationHistory takeMedicationHistory}) async {
+    // take の id から決定的に導出したドキュメント ID を使う。多重呼び出しや複数メンバーの同時取消でも
+    // 同一 take への revert は 1 ドキュメントに収束し、冪等になる
+    final docRef = database.medicationHistoriesReference().doc('${takeMedicationHistory.id}-revert');
+    final revertMedicationHistory = MedicationHistory(
+      id: docRef.id,
+      userID: userID,
+      recordedByUserID: userID,
+      medicine: takeMedicationHistory.medicine,
+      actionKind: MedicationHistoryActionKind.revert,
+      action: MedicationHistoryAction.revert(
+        takeAction: takeMedicationHistory,
+        medicationSchedule: takeMedicationHistory.action.medicationSchedule,
+      ),
+      memo: '',
+      recordedDateTime: DateTime.now(),
+      // 取り消し対象と同じ日付軸に置き、medicationHistoriesByDate の日付範囲クエリで take と同じ日に取得されるようにする
+      scheduledRecordedDate: takeMedicationHistory.scheduledRecordedDate,
+      // 取り消し対象の take と同じ保持期限を引き継ぐ。取消時点から起算し直すと、内包した take の医療データの
+      // 保持期間が元の記録の期限を超えて延びてしまうため
+      ttlExpiresDateTime: takeMedicationHistory.ttlExpiresDateTime,
+    );
+    await docRef.set(revertMedicationHistory, SetOptions(merge: true));
+    return revertMedicationHistory;
   }
 }
 
-@Riverpod(dependencies: [currentGroupDatabase])
-MedicationHistoryDelete medicationHistoryDelete(MedicationHistoryDeleteRef ref) {
-  return MedicationHistoryDelete(ref.watch(currentGroupDatabaseProvider));
+@Riverpod(dependencies: [currentGroupDatabase, appUserID])
+MedicationHistoryRevert medicationHistoryRevert(MedicationHistoryRevertRef ref) {
+  return MedicationHistoryRevert(database: ref.watch(currentGroupDatabaseProvider), userID: ref.watch(appUserIDProvider));
 }
 
 class MedicationHistoryMemoUpdate {

@@ -1,6 +1,7 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:medicalarm/entity/dose_receiver.dart';
 import 'package:medicalarm/entity/medication_frequency.dart';
+import 'package:medicalarm/entity/medication_history.dart';
 import 'package:medicalarm/entity/medicine.dart';
 import 'package:medicalarm/features/medications/entity/grouped.dart';
 
@@ -157,6 +158,100 @@ void main() {
             ),
         isEmpty,
       );
+    });
+  });
+
+  // #253: アンチェックは take の物理削除ではなく revert アクションの追記(論理削除)。
+  // 「take が存在し、それを打ち消す revert が存在しない」場合のみチェック済みとして導出する
+  group('medicationGroups は revert アクション追記による論理削除を考慮する', () {
+    final today = DateTime(2026, 4, 22);
+    final began = DateTime(2026, 4, 1);
+
+    MedicationHistory buildTakeHistory({required String id, required Medicine medicine}) {
+      return MedicationHistory(
+        id: id,
+        userID: 'user',
+        recordedByUserID: 'user',
+        medicine: medicine,
+        actionKind: MedicationHistoryActionKind.take,
+        action: MedicationHistoryAction.take(
+          medicationSchedule: medicine.schedules.first,
+          scheduledRecordedDate: today,
+        ),
+        memo: '',
+        recordedDateTime: DateTime(2026, 4, 22, 9, 2),
+        scheduledRecordedDate: today,
+        ttlExpiresDateTime: DateTime(2027, 4, 22),
+      );
+    }
+
+    MedicationHistory buildRevertHistory({required MedicationHistory takeHistory}) {
+      return MedicationHistory(
+        id: '${takeHistory.id}-revert',
+        userID: 'user',
+        recordedByUserID: 'user',
+        medicine: takeHistory.medicine,
+        actionKind: MedicationHistoryActionKind.revert,
+        action: MedicationHistoryAction.revert(
+          takeAction: takeHistory,
+          medicationSchedule: takeHistory.medicine.schedules.first,
+        ),
+        memo: '',
+        recordedDateTime: DateTime(2026, 4, 22, 9, 5),
+        scheduledRecordedDate: takeHistory.scheduledRecordedDate,
+        ttlExpiresDateTime: DateTime(2027, 4, 22),
+      );
+    }
+
+    test('take のみの日はチェック済み(medicationHistory 非 null)扱い', () {
+      final medicine = buildMedicine(id: 'medicine-1', beganDateTime: began);
+      final takeHistory = buildTakeHistory(id: 'take-1', medicine: medicine);
+
+      final groups = medicationGroups(medicines: [medicine], medicationHistories: [takeHistory], date: today);
+
+      expect(groups.first.scheduleRows.first.medicationHistory?.id, 'take-1');
+    });
+
+    test('take とそれを打ち消す revert が並ぶ日は未チェック扱い', () {
+      final medicine = buildMedicine(id: 'medicine-1', beganDateTime: began);
+      final takeHistory = buildTakeHistory(id: 'take-1', medicine: medicine);
+
+      final groups = medicationGroups(
+        medicines: [medicine],
+        medicationHistories: [takeHistory, buildRevertHistory(takeHistory: takeHistory)],
+        date: today,
+      );
+
+      expect(groups.first.scheduleRows.first.medicationHistory, isNull);
+    });
+
+    test('revert 後に再 take した日は、打ち消されていない take でチェック済み扱い', () {
+      final medicine = buildMedicine(id: 'medicine-1', beganDateTime: began);
+      final firstTakeHistory = buildTakeHistory(id: 'take-1', medicine: medicine);
+
+      final groups = medicationGroups(
+        medicines: [medicine],
+        medicationHistories: [
+          firstTakeHistory,
+          buildRevertHistory(takeHistory: firstTakeHistory),
+          buildTakeHistory(id: 'take-2', medicine: medicine),
+        ],
+        date: today,
+      );
+
+      expect(groups.first.scheduleRows.first.medicationHistory?.id, 'take-2');
+    });
+
+    test('revert ドキュメント単体はチェック済みの根拠にならない', () {
+      final medicine = buildMedicine(id: 'medicine-1', beganDateTime: began);
+
+      final groups = medicationGroups(
+        medicines: [medicine],
+        medicationHistories: [buildRevertHistory(takeHistory: buildTakeHistory(id: 'take-1', medicine: medicine))],
+        date: today,
+      );
+
+      expect(groups.first.scheduleRows.first.medicationHistory, isNull);
     });
   });
 }

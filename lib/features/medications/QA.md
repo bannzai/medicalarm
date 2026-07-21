@@ -156,15 +156,15 @@ QAテスト薬A（07:00, 13:00）と QAテスト薬B（10:00）を登録し、07
 
 </details>
 
-### **チェック解除で削除**: チェックボックスをオフにするとその服用記録が削除される
+### **チェック解除で取消の記録**: チェックボックスをオフにすると取消(revert)が追記され、未チェック表示になる。チェックし直すと新しい服薬記録として追記される
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-07-14**
+**確認日: 2026-07-18**
 
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260714/9f13da6f-5acf-43a7-a5a5-5029e71512d7.png" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260718/6360b553-5e6f-454a-9fc3-6216d269622d.png" width="320">
 
-チェック済みの行をオフにすると `medicationHistoryDeleteProvider` が呼ばれ、チェックが外れた状態で表示される
+チェック済みの行をオフにすると `medicationHistoryRevertProvider` により取消(revert)ドキュメントが即時追記され(take は残る)、未チェック表示 + SnackBar が表示される。チェックし直すと新しい take ドキュメントが追記されてチェック済みに戻る
 
 </details>
 

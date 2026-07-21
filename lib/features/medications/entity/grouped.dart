@@ -143,7 +143,9 @@ List<MedicationGroup> medicationGroups({
       final tile = groupedValues[tileIndex];
 
       final scheduleRows = [...tile.scheduleRows];
-      final medicationHistory = medicationHistories.firstWhereOrNull(
+      // revert アクション追記による論理削除 (#253) を考慮し、「take が存在し、それを打ち消す revert が
+      // 存在しない」場合のみチェック済み(medicationHistory 非 null)として扱う
+      final medicationHistory = effectiveTakeMedicationHistories(medicationHistories).firstWhereOrNull(
         (history) =>
             history.medicine.id == medicine.id &&
             history.action.medicationSchedule.id == schedule.id &&
