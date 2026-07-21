@@ -6,7 +6,6 @@ import 'package:medicalarm/entity/medication_history.dart';
 import 'package:medicalarm/entity/medicine.dart';
 import 'package:medicalarm/utils/date_time/date_time_ext.dart';
 import 'package:medicalarm/utils/date_time/weekday.dart';
-import 'package:uuid/uuid.dart';
 
 part 'grouped.freezed.dart';
 
@@ -98,7 +97,10 @@ List<MedicationGroup> medicationGroups({
       } else {
         groupedValues.add(
           MedicationGroup(
-            id: const Uuid().v4(),
+            // snapshot 更新のたびに変わらないよう内容から決定的に生成する安定キー。
+            // 毎回ランダムな id だと ValueKey 経由で全行の Widget 状態が破棄・再生成され、誤タップや stale クロージャの温床になる (#253)。
+            // 通知登録時の analytics パラメータ(groupID)にも使われる
+            id: [date.date().toIso8601String(), doseReceiver.id, scheduleTime.toTimeString()].join('/'),
             scheduleTime: scheduleTime,
             doseReceiver: doseReceiver,
             scheduleRows: [],
@@ -141,14 +143,18 @@ List<MedicationGroup> medicationGroups({
       final tile = groupedValues[tileIndex];
 
       final scheduleRows = [...tile.scheduleRows];
-      final medicationHistory = medicationHistories.firstWhereOrNull(
+      // revert アクション追記による論理削除 (#253) を考慮し、「take が存在し、それを打ち消す revert が
+      // 存在しない」場合のみチェック済み(medicationHistory 非 null)として扱う
+      final medicationHistory = effectiveTakeMedicationHistories(medicationHistories).firstWhereOrNull(
         (history) =>
             history.medicine.id == medicine.id &&
             history.action.medicationSchedule.id == schedule.id &&
             isSameDay(history.scheduledRecordedDate, date.date()),
       );
       final row = MedicationGroupScheduleRow(
-        id: const Uuid().v4(),
+        // 行の Widget 状態(チェック表示・遅延削除の猶予)を snapshot 更新をまたいで維持するための安定キー。
+        // 表示日付をまたいで状態を引き継がないよう date も含める (#253)
+        id: [date.date().toIso8601String(), medicine.id, schedule.id].join('/'),
         medicationHistory: medicationHistory,
         medicine: medicine,
         medicationSchedule: schedule,

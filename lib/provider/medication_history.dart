@@ -48,7 +48,9 @@ class MedicationHistoryTake {
     // AlarmKit 停止判定を共有テンプレートではなく記録者に有効な設定で行うために解決に使う。
     required GroupMemberNotificationSettings? memberSettings,
   }) async {
-    final docRef = database.medicationHistoriesReference().doc();
+    // 既存記録の再書き込みは同じドキュメントへ上書きする。常に新規 doc() を発行すると
+    // パスと id フィールドの食い違う複製ドキュメントが増殖する (#253)
+    final docRef = database.medicationHistoriesReference().doc(medicationHistory?.id);
 
     final newMedicationHistory = medicationHistory ??
         MedicationHistory(
@@ -98,19 +100,92 @@ MedicationHistoryTake medicationHistoryTake(MedicationHistoryTakeRef ref) {
   return MedicationHistoryTake(database: ref.watch(currentGroupDatabaseProvider), userID: ref.watch(appUserIDProvider));
 }
 
-class MedicationHistoryDelete {
+/// 服薬記録(take)の取り消しを revert アクションの追記として保存する論理削除。
+/// take ドキュメントは削除せず残し、取り消し対象を [RevertMedicationHistoryAction.takeAction] に丸ごと内包した別ドキュメントを作成する (#253)
+class MedicationHistoryRevert {
+  final GroupDatabase database;
+  // 取消操作をした本人の uid。userID(作成者) と recordedByUserID(記録者) の両方に設定する。
+  final String userID;
+
+  MedicationHistoryRevert({required this.database, required this.userID});
+
+  Future<MedicationHistory> call({required MedicationHistory takeMedicationHistory}) async {
+    // take の id から決定的に導出したドキュメント ID を使う。多重呼び出しや複数メンバーの同時取消でも
+    // 同一 take への revert は 1 ドキュメントに収束し、冪等になる
+    final docRef = database.medicationHistoriesReference().doc('${takeMedicationHistory.id}-revert');
+    final revertMedicationHistory = MedicationHistory(
+      id: docRef.id,
+      userID: userID,
+      recordedByUserID: userID,
+      medicine: takeMedicationHistory.medicine,
+      actionKind: MedicationHistoryActionKind.revert,
+      action: MedicationHistoryAction.revert(
+        takeAction: takeMedicationHistory,
+        medicationSchedule: takeMedicationHistory.action.medicationSchedule,
+      ),
+      memo: '',
+      recordedDateTime: DateTime.now(),
+      // 取り消し対象と同じ日付軸に置き、medicationHistoriesByDate の日付範囲クエリで take と同じ日に取得されるようにする
+      scheduledRecordedDate: takeMedicationHistory.scheduledRecordedDate,
+      // 取り消し対象の take と同じ保持期限を引き継ぐ。取消時点から起算し直すと、内包した take の医療データの
+      // 保持期間が元の記録の期限を超えて延びてしまうため
+      ttlExpiresDateTime: takeMedicationHistory.ttlExpiresDateTime,
+    );
+    await docRef.set(revertMedicationHistory, SetOptions(merge: true));
+    return revertMedicationHistory;
+  }
+}
+
+@Riverpod(dependencies: [currentGroupDatabase, appUserID])
+MedicationHistoryRevert medicationHistoryRevert(MedicationHistoryRevertRef ref) {
+  return MedicationHistoryRevert(database: ref.watch(currentGroupDatabaseProvider), userID: ref.watch(appUserIDProvider));
+}
+
+/// アンチェックの「元に戻す」。数秒前の自分の取消操作の undo のため、履歴に「取消 → 取消の取消」を
+/// 連ねず、直前に書いた revert ドキュメント自体を物理削除してチェック済み状態へ戻す (#253)。
+///
+/// 混在環境や複数メンバーの同時操作に備え、トランザクションで原子的に行う:
+/// - revert ドキュメントが別メンバーの取消で上書きされている場合は何もしない(false を返す)。
+///   他人の取消操作まで取り下げないため
+/// - 取り消し対象の take が旧クライアントに物理削除されている場合は take を復元してから revert を消す。
+///   「元に戻す = チェック済みに戻る」を表示だけでなくサーバー状態としても保証するため
+class MedicationHistoryUndoRevert {
   final GroupDatabase database;
 
-  MedicationHistoryDelete(this.database);
+  MedicationHistoryUndoRevert(this.database);
 
-  Future<void> call(MedicationHistory medicationHistory) async {
-    await database.medicationHistoriesReference().doc(medicationHistory.id).delete();
+  /// undo が成立した(チェック済み状態に戻った)場合は true、
+  /// 別メンバーの取消が残っていて取り下げなかった場合は false を返す。
+  Future<bool> call({required MedicationHistory revertMedicationHistory}) async {
+    final revertAction = revertMedicationHistory.action;
+    if (revertAction is! RevertMedicationHistoryAction) {
+      throw ArgumentError('revertMedicationHistory must have a revert action: ${revertMedicationHistory.actionKind}');
+    }
+    final collectionReference = database.medicationHistoriesReference();
+    final revertDocRef = collectionReference.doc(revertMedicationHistory.id);
+    final takeDocRef = collectionReference.doc(revertAction.takeAction.id);
+    return revertDocRef.firestore.runTransaction((transaction) async {
+      final storedRevert = (await transaction.get(revertDocRef)).data();
+      if (storedRevert != null &&
+          (storedRevert.recordedByUserID != revertMedicationHistory.recordedByUserID ||
+              storedRevert.recordedDateTime != revertMedicationHistory.recordedDateTime)) {
+        return false;
+      }
+      if (!(await transaction.get(takeDocRef)).exists) {
+        transaction.set(takeDocRef, revertAction.takeAction);
+      }
+      // storedRevert が null の場合は自分の別端末等で undo 済み。take の実在だけ保証して成立扱いにする
+      if (storedRevert != null) {
+        transaction.delete(revertDocRef);
+      }
+      return true;
+    });
   }
 }
 
 @Riverpod(dependencies: [currentGroupDatabase])
-MedicationHistoryDelete medicationHistoryDelete(MedicationHistoryDeleteRef ref) {
-  return MedicationHistoryDelete(ref.watch(currentGroupDatabaseProvider));
+MedicationHistoryUndoRevert medicationHistoryUndoRevert(MedicationHistoryUndoRevertRef ref) {
+  return MedicationHistoryUndoRevert(ref.watch(currentGroupDatabaseProvider));
 }
 
 class MedicationHistoryMemoUpdate {

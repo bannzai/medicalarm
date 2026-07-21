@@ -2,7 +2,8 @@ import axios from "axios";
 import { env } from "./env";
 import { defineString } from "firebase-functions/params";
 
-const errorReportSlackURL = defineString("SLACK_URL_ERROR").value();
+// default は Emulator 起動時の関数 discovery が未設定 param の対話プロンプトで停止するのを防ぐため(本番 deploy は .env の実値が優先)。
+const errorReportSlackURL = defineString("SLACK_URL_ERROR", { default: "https://example.com/dummy" }).value();
 export async function report(
   userID: string,
   functionName: string,
@@ -36,7 +37,8 @@ export async function report(
   }
 }
 
-const notificationSlackURL = defineString("SLACK_URL_NOTIFICATION").value();
+// default は Emulator 起動時の関数 discovery が未設定 param の対話プロンプトで停止するのを防ぐため(本番 deploy は .env の実値が優先)。
+const notificationSlackURL = defineString("SLACK_URL_NOTIFICATION", { default: "https://example.com/dummy" }).value();
 export async function notify(message: string): Promise<void> {
   //  if (isTest()) {
   //    return Promise.resolve();

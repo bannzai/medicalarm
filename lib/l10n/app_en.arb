@@ -792,6 +792,42 @@
   "@medicinePausedSnackbar": {
     "description": "薬を一時停止したときに表示するSnackbarのメッセージ"
   },
+  "medicationHistoryDeletedSnackbar": "Medication record removed",
+  "@medicationHistoryDeletedSnackbar": {
+    "description": "服薬チェックを外したときに表示する、Undo つき SnackBar のメッセージ"
+  },
+  "undo": "Undo",
+  "@undo": {
+    "description": "直前の操作を取り消す SnackBar のアクションラベル"
+  },
+  "medicationHistoryReverted": "Medication record canceled",
+  "@medicationHistoryReverted": {
+    "description": "服薬履歴タブで取消(revert)の記録行に表示するラベル"
+  },
+  "revertedTime": "Canceled at",
+  "@revertedTime": {
+    "description": "服薬履歴タブの取消行に表示する、取消操作をした日時のラベル"
+  },
+  "revertedByMember": "Canceled by {name}",
+  "@revertedByMember": {
+    "description": "服薬記録の取消を自分以外のメンバーが行った場合に表示するラベル",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Taro"
+      }
+    }
+  },
+  "medicationTakenAtLabel": "Taken at {time}",
+  "@medicationTakenAtLabel": {
+    "description": "チェック済みの服薬行に表示する記録時刻ラベル。同名・同時刻の行を見分ける識別情報",
+    "placeholders": {
+      "time": {
+        "type": "String",
+        "example": "10:02"
+      }
+    }
+  },
   "medicineResumedSnackbar": "Resumed this medication",
   "@medicineResumedSnackbar": {
     "description": "一時停止中の薬を再開したときに表示するSnackbarのメッセージ"

@@ -6,7 +6,7 @@ part of 'current_group_id.dart';
 // RiverpodGenerator
 // **************************************************************************
 
-String _$currentGroupIDHash() => r'249ca4f9127397143dc3d1b1e275770ac31987a6';
+String _$currentGroupIDHash() => r'558298717f956d2ba5099315ddd3240917e47776';
 
 /// 現在表示中のグループ ID。アプリ全体で 1 つだけ保持する選択状態。
 ///

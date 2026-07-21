@@ -189,21 +189,41 @@ final medicationHistoryTakeProvider = AutoDisposeProvider<MedicationHistoryTake>
 @Deprecated('Will be removed in 3.0. Use Ref instead')
 // ignore: unused_element
 typedef MedicationHistoryTakeRef = AutoDisposeProviderRef<MedicationHistoryTake>;
-String _$medicationHistoryDeleteHash() => r'88cec809291eb09c37a2877000b97f8dcd3d994a';
+String _$medicationHistoryRevertHash() => r'6a5e8d3043d28bd3fb9733fc6fb8aa09e5a4d48c';
 
-/// See also [medicationHistoryDelete].
-@ProviderFor(medicationHistoryDelete)
-final medicationHistoryDeleteProvider = AutoDisposeProvider<MedicationHistoryDelete>.internal(
-  medicationHistoryDelete,
-  name: r'medicationHistoryDeleteProvider',
-  debugGetCreateSourceHash: const bool.fromEnvironment('dart.vm.product') ? null : _$medicationHistoryDeleteHash,
+/// See also [medicationHistoryRevert].
+@ProviderFor(medicationHistoryRevert)
+final medicationHistoryRevertProvider = AutoDisposeProvider<MedicationHistoryRevert>.internal(
+  medicationHistoryRevert,
+  name: r'medicationHistoryRevertProvider',
+  debugGetCreateSourceHash: const bool.fromEnvironment('dart.vm.product') ? null : _$medicationHistoryRevertHash,
+  dependencies: <ProviderOrFamily>[currentGroupDatabaseProvider, appUserIDProvider],
+  allTransitiveDependencies: <ProviderOrFamily>{
+    currentGroupDatabaseProvider,
+    ...?currentGroupDatabaseProvider.allTransitiveDependencies,
+    appUserIDProvider,
+    ...?appUserIDProvider.allTransitiveDependencies
+  },
+);
+
+@Deprecated('Will be removed in 3.0. Use Ref instead')
+// ignore: unused_element
+typedef MedicationHistoryRevertRef = AutoDisposeProviderRef<MedicationHistoryRevert>;
+String _$medicationHistoryUndoRevertHash() => r'4828f6f0d2bf42c57668c1b848a5e70d20679742';
+
+/// See also [medicationHistoryUndoRevert].
+@ProviderFor(medicationHistoryUndoRevert)
+final medicationHistoryUndoRevertProvider = AutoDisposeProvider<MedicationHistoryUndoRevert>.internal(
+  medicationHistoryUndoRevert,
+  name: r'medicationHistoryUndoRevertProvider',
+  debugGetCreateSourceHash: const bool.fromEnvironment('dart.vm.product') ? null : _$medicationHistoryUndoRevertHash,
   dependencies: <ProviderOrFamily>[currentGroupDatabaseProvider],
   allTransitiveDependencies: <ProviderOrFamily>{currentGroupDatabaseProvider, ...?currentGroupDatabaseProvider.allTransitiveDependencies},
 );
 
 @Deprecated('Will be removed in 3.0. Use Ref instead')
 // ignore: unused_element
-typedef MedicationHistoryDeleteRef = AutoDisposeProviderRef<MedicationHistoryDelete>;
+typedef MedicationHistoryUndoRevertRef = AutoDisposeProviderRef<MedicationHistoryUndoRevert>;
 String _$medicationHistoryMemoUpdateHash() => r'0c32208f61f5215d1ed56b415717aec94bbb3509';
 
 /// See also [medicationHistoryMemoUpdate].
