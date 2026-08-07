@@ -4,6 +4,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:cloud_functions/cloud_functions.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:medicalarm/utils/firebase_app_check/firebase_app_check.dart';
 import 'package:firebase_crashlytics/firebase_crashlytics.dart';
 import 'package:flutter/material.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
@@ -43,6 +44,12 @@ void main() async {
             )
           : Firebase.initializeApp(),
     ).wait;
+
+    // App Check を有効化する。emulator 接続時は完全オフライン方針 (非エミュレート API に触れない)
+    // のため有効化しない (App Check のトークン交換 API はエミュレートされない)。
+    if (!const bool.fromEnvironment('USE_FIREBASE_EMULATOR')) {
+      await activateAppCheck();
+    }
 
     // ローカルの Firebase Emulator に接続する開発用ゲート。
     // `--dart-define=USE_FIREBASE_EMULATOR=true` を付けたビルドのみ有効で、デフォルト(未指定)では本番に接続する。
