@@ -46,6 +46,9 @@ dependencies:
   cloud_functions: 
   firebase_crashlytics: 
   firebase_storage:
+  # firebase_core 4.1.0 (lock 済み) と対になる版に固定する。最新へ上げると FlutterFire 全体が
+  # lockstep で上がり、invertase のプリコンパイル Firestore との不整合で iOS ビルドが壊れるため
+  firebase_app_check: 0.4.0+1
   google_mobile_ads: ^5.0.0
 
   freezed_annotation: ^3.1.0
