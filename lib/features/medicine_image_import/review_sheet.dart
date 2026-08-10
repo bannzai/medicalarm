@@ -149,12 +149,11 @@ class MedicineImageImportReviewSheet extends HookWidget {
                                             },
                                           ),
                                           Text(
-                                            candidate.schedules
-                                                .map(
+                                            // 画像インポートは頻度=毎日で登録するため、その前提をシートにも明示する
+                                            '${L.daily} ${candidate.schedules.map(
                                                   (schedule) =>
                                                       '${schedule.toTimeString()}${schedule.quantityMemo.isNotEmpty ? ' ${schedule.quantityMemo}' : ''}',
-                                                )
-                                                .join(' / '),
+                                                ).join(' / ')}',
                                             style: const TextStyle(fontSize: 12, color: TextColor.gray),
                                           ),
                                           if (candidate.isScheduleTimeFallback) ...[

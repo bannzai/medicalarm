@@ -138,7 +138,11 @@ class MedicineImageImportButton extends HookConsumerWidget {
           showErrorAlert(context, e.toString());
         }
       } finally {
-        isLoading.value = false;
+        // 画像圧縮・AI 呼び出し中に画面遷移で widget が dispose された後に
+        // useState の ValueNotifier へ書き込むと used-after-dispose になるためガードする
+        if (context.mounted) {
+          isLoading.value = false;
+        }
       }
     }
 

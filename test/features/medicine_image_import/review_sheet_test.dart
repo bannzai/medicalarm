@@ -68,10 +68,10 @@ void main() {
     );
 
     expect(find.text(L.medicineImageImportReviewTitle), findsOneWidget);
-    // 名前と、スケジュールの時刻・服用量が表示される
+    // 名前と、頻度(毎日固定)・スケジュールの時刻・服用量が表示される
     expect(find.text('ロキソニン'), findsOneWidget);
     expect(find.text('ガスター'), findsOneWidget);
-    expect(find.text('08:00 1錠'), findsNWidgets(2));
+    expect(find.text('${L.daily} 08:00 1錠'), findsNWidgets(2));
 
     await tester.tap(find.text(L.medicineImageImportAddCount(2)));
     await tester.pumpAndSettle();
