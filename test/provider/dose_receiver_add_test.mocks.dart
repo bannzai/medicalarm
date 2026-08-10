@@ -3,20 +3,22 @@
 // Do not manually edit this file.
 
 // ignore_for_file: no_leading_underscores_for_library_prefixes
-import 'dart:async' as _i12;
+import 'dart:async' as _i4;
+import 'dart:typed_data' as _i14;
 
 import 'package:cloud_firestore/cloud_firestore.dart' as _i2;
-import 'package:medicalarm/entity/diary.dart' as _i9;
-import 'package:medicalarm/entity/dose_receiver.dart' as _i7;
-import 'package:medicalarm/entity/group.dart' as _i5;
+import 'package:firebase_core/firebase_core.dart' as _i3;
+import 'package:medicalarm/entity/diary.dart' as _i11;
+import 'package:medicalarm/entity/dose_receiver.dart' as _i9;
+import 'package:medicalarm/entity/group.dart' as _i7;
 import 'package:medicalarm/entity/group_member_notification_settings.dart'
-    as _i11;
-import 'package:medicalarm/entity/group_user_profile.dart' as _i10;
-import 'package:medicalarm/entity/medication_history.dart' as _i8;
-import 'package:medicalarm/entity/medicine.dart' as _i6;
-import 'package:medicalarm/features/resolver/database.dart' as _i3;
+    as _i13;
+import 'package:medicalarm/entity/group_user_profile.dart' as _i12;
+import 'package:medicalarm/entity/medication_history.dart' as _i10;
+import 'package:medicalarm/entity/medicine.dart' as _i8;
+import 'package:medicalarm/features/resolver/database.dart' as _i5;
 import 'package:mockito/mockito.dart' as _i1;
-import 'package:mockito/src/dummies.dart' as _i4;
+import 'package:mockito/src/dummies.dart' as _i6;
 
 // ignore_for_file: type=lint
 // ignore_for_file: avoid_redundant_argument_values
@@ -109,70 +111,142 @@ class _FakeDocumentSnapshot_6<T extends Object?> extends _i1.SmartFake
         );
 }
 
+class _FakeSnapshotMetadata_7 extends _i1.SmartFake
+    implements _i2.SnapshotMetadata {
+  _FakeSnapshotMetadata_7(
+    Object parent,
+    Invocation parentInvocation,
+  ) : super(
+          parent,
+          parentInvocation,
+        );
+}
+
+class _FakeFirebaseApp_8 extends _i1.SmartFake implements _i3.FirebaseApp {
+  _FakeFirebaseApp_8(
+    Object parent,
+    Invocation parentInvocation,
+  ) : super(
+          parent,
+          parentInvocation,
+        );
+}
+
+class _FakeSettings_9 extends _i1.SmartFake implements _i2.Settings {
+  _FakeSettings_9(
+    Object parent,
+    Invocation parentInvocation,
+  ) : super(
+          parent,
+          parentInvocation,
+        );
+}
+
+class _FakeWriteBatch_10 extends _i1.SmartFake implements _i2.WriteBatch {
+  _FakeWriteBatch_10(
+    Object parent,
+    Invocation parentInvocation,
+  ) : super(
+          parent,
+          parentInvocation,
+        );
+}
+
+class _FakeLoadBundleTask_11 extends _i1.SmartFake
+    implements _i2.LoadBundleTask {
+  _FakeLoadBundleTask_11(
+    Object parent,
+    Invocation parentInvocation,
+  ) : super(
+          parent,
+          parentInvocation,
+        );
+}
+
+class _FakeFuture_12<T1> extends _i1.SmartFake implements _i4.Future<T1> {
+  _FakeFuture_12(
+    Object parent,
+    Invocation parentInvocation,
+  ) : super(
+          parent,
+          parentInvocation,
+        );
+}
+
+class _FakeTransaction_13 extends _i1.SmartFake implements _i2.Transaction {
+  _FakeTransaction_13(
+    Object parent,
+    Invocation parentInvocation,
+  ) : super(
+          parent,
+          parentInvocation,
+        );
+}
+
 /// A class which mocks [GroupDatabase].
 ///
 /// See the documentation for Mockito's code generation for more information.
-class MockGroupDatabase extends _i1.Mock implements _i3.GroupDatabase {
+class MockGroupDatabase extends _i1.Mock implements _i5.GroupDatabase {
   @override
   String get groupID => (super.noSuchMethod(
         Invocation.getter(#groupID),
-        returnValue: _i4.dummyValue<String>(
+        returnValue: _i6.dummyValue<String>(
           this,
           Invocation.getter(#groupID),
         ),
-        returnValueForMissingStub: _i4.dummyValue<String>(
+        returnValueForMissingStub: _i6.dummyValue<String>(
           this,
           Invocation.getter(#groupID),
         ),
       ) as String);
 
   @override
-  _i2.DocumentReference<_i5.Group> groupReference() => (super.noSuchMethod(
+  _i2.DocumentReference<_i7.Group> groupReference() => (super.noSuchMethod(
         Invocation.method(
           #groupReference,
           [],
         ),
-        returnValue: _FakeDocumentReference_0<_i5.Group>(
+        returnValue: _FakeDocumentReference_0<_i7.Group>(
           this,
           Invocation.method(
             #groupReference,
             [],
           ),
         ),
-        returnValueForMissingStub: _FakeDocumentReference_0<_i5.Group>(
+        returnValueForMissingStub: _FakeDocumentReference_0<_i7.Group>(
           this,
           Invocation.method(
             #groupReference,
             [],
           ),
         ),
-      ) as _i2.DocumentReference<_i5.Group>);
+      ) as _i2.DocumentReference<_i7.Group>);
 
   @override
-  _i2.CollectionReference<_i6.Medicine> medicinesReference() =>
+  _i2.CollectionReference<_i8.Medicine> medicinesReference() =>
       (super.noSuchMethod(
         Invocation.method(
           #medicinesReference,
           [],
         ),
-        returnValue: _FakeCollectionReference_1<_i6.Medicine>(
+        returnValue: _FakeCollectionReference_1<_i8.Medicine>(
           this,
           Invocation.method(
             #medicinesReference,
             [],
           ),
         ),
-        returnValueForMissingStub: _FakeCollectionReference_1<_i6.Medicine>(
+        returnValueForMissingStub: _FakeCollectionReference_1<_i8.Medicine>(
           this,
           Invocation.method(
             #medicinesReference,
             [],
           ),
         ),
-      ) as _i2.CollectionReference<_i6.Medicine>);
+      ) as _i2.CollectionReference<_i8.Medicine>);
 
   @override
-  _i2.DocumentReference<_i6.Medicine> medicineReference(
+  _i2.DocumentReference<_i8.Medicine> medicineReference(
           {required String? medicineID}) =>
       (super.noSuchMethod(
         Invocation.method(
@@ -180,7 +254,7 @@ class MockGroupDatabase extends _i1.Mock implements _i3.GroupDatabase {
           [],
           {#medicineID: medicineID},
         ),
-        returnValue: _FakeDocumentReference_0<_i6.Medicine>(
+        returnValue: _FakeDocumentReference_0<_i8.Medicine>(
           this,
           Invocation.method(
             #medicineReference,
@@ -188,7 +262,7 @@ class MockGroupDatabase extends _i1.Mock implements _i3.GroupDatabase {
             {#medicineID: medicineID},
           ),
         ),
-        returnValueForMissingStub: _FakeDocumentReference_0<_i6.Medicine>(
+        returnValueForMissingStub: _FakeDocumentReference_0<_i8.Medicine>(
           this,
           Invocation.method(
             #medicineReference,
@@ -196,33 +270,33 @@ class MockGroupDatabase extends _i1.Mock implements _i3.GroupDatabase {
             {#medicineID: medicineID},
           ),
         ),
-      ) as _i2.DocumentReference<_i6.Medicine>);
+      ) as _i2.DocumentReference<_i8.Medicine>);
 
   @override
-  _i2.CollectionReference<_i7.DoseReceiver> doseReceiversReference() =>
+  _i2.CollectionReference<_i9.DoseReceiver> doseReceiversReference() =>
       (super.noSuchMethod(
         Invocation.method(
           #doseReceiversReference,
           [],
         ),
-        returnValue: _FakeCollectionReference_1<_i7.DoseReceiver>(
+        returnValue: _FakeCollectionReference_1<_i9.DoseReceiver>(
           this,
           Invocation.method(
             #doseReceiversReference,
             [],
           ),
         ),
-        returnValueForMissingStub: _FakeCollectionReference_1<_i7.DoseReceiver>(
+        returnValueForMissingStub: _FakeCollectionReference_1<_i9.DoseReceiver>(
           this,
           Invocation.method(
             #doseReceiversReference,
             [],
           ),
         ),
-      ) as _i2.CollectionReference<_i7.DoseReceiver>);
+      ) as _i2.CollectionReference<_i9.DoseReceiver>);
 
   @override
-  _i2.DocumentReference<_i7.DoseReceiver> doseReceiverReference(
+  _i2.DocumentReference<_i9.DoseReceiver> doseReceiverReference(
           {required String? doseReceiverID}) =>
       (super.noSuchMethod(
         Invocation.method(
@@ -230,7 +304,7 @@ class MockGroupDatabase extends _i1.Mock implements _i3.GroupDatabase {
           [],
           {#doseReceiverID: doseReceiverID},
         ),
-        returnValue: _FakeDocumentReference_0<_i7.DoseReceiver>(
+        returnValue: _FakeDocumentReference_0<_i9.DoseReceiver>(
           this,
           Invocation.method(
             #doseReceiverReference,
@@ -238,7 +312,7 @@ class MockGroupDatabase extends _i1.Mock implements _i3.GroupDatabase {
             {#doseReceiverID: doseReceiverID},
           ),
         ),
-        returnValueForMissingStub: _FakeDocumentReference_0<_i7.DoseReceiver>(
+        returnValueForMissingStub: _FakeDocumentReference_0<_i9.DoseReceiver>(
           this,
           Invocation.method(
             #doseReceiverReference,
@@ -246,16 +320,16 @@ class MockGroupDatabase extends _i1.Mock implements _i3.GroupDatabase {
             {#doseReceiverID: doseReceiverID},
           ),
         ),
-      ) as _i2.DocumentReference<_i7.DoseReceiver>);
+      ) as _i2.DocumentReference<_i9.DoseReceiver>);
 
   @override
-  _i2.CollectionReference<_i8.MedicationHistory>
+  _i2.CollectionReference<_i10.MedicationHistory>
       medicationHistoriesReference() => (super.noSuchMethod(
             Invocation.method(
               #medicationHistoriesReference,
               [],
             ),
-            returnValue: _FakeCollectionReference_1<_i8.MedicationHistory>(
+            returnValue: _FakeCollectionReference_1<_i10.MedicationHistory>(
               this,
               Invocation.method(
                 #medicationHistoriesReference,
@@ -263,46 +337,47 @@ class MockGroupDatabase extends _i1.Mock implements _i3.GroupDatabase {
               ),
             ),
             returnValueForMissingStub:
-                _FakeCollectionReference_1<_i8.MedicationHistory>(
+                _FakeCollectionReference_1<_i10.MedicationHistory>(
               this,
               Invocation.method(
                 #medicationHistoriesReference,
                 [],
               ),
             ),
-          ) as _i2.CollectionReference<_i8.MedicationHistory>);
+          ) as _i2.CollectionReference<_i10.MedicationHistory>);
 
   @override
-  _i2.CollectionReference<_i9.Diary> diariesReference() => (super.noSuchMethod(
+  _i2.CollectionReference<_i11.Diary> diariesReference() => (super.noSuchMethod(
         Invocation.method(
           #diariesReference,
           [],
         ),
-        returnValue: _FakeCollectionReference_1<_i9.Diary>(
+        returnValue: _FakeCollectionReference_1<_i11.Diary>(
           this,
           Invocation.method(
             #diariesReference,
             [],
           ),
         ),
-        returnValueForMissingStub: _FakeCollectionReference_1<_i9.Diary>(
+        returnValueForMissingStub: _FakeCollectionReference_1<_i11.Diary>(
           this,
           Invocation.method(
             #diariesReference,
             [],
           ),
         ),
-      ) as _i2.CollectionReference<_i9.Diary>);
+      ) as _i2.CollectionReference<_i11.Diary>);
 
   @override
-  _i2.DocumentReference<_i9.Diary> diaryReference({required String? diaryID}) =>
+  _i2.DocumentReference<_i11.Diary> diaryReference(
+          {required String? diaryID}) =>
       (super.noSuchMethod(
         Invocation.method(
           #diaryReference,
           [],
           {#diaryID: diaryID},
         ),
-        returnValue: _FakeDocumentReference_0<_i9.Diary>(
+        returnValue: _FakeDocumentReference_0<_i11.Diary>(
           this,
           Invocation.method(
             #diaryReference,
@@ -310,7 +385,7 @@ class MockGroupDatabase extends _i1.Mock implements _i3.GroupDatabase {
             {#diaryID: diaryID},
           ),
         ),
-        returnValueForMissingStub: _FakeDocumentReference_0<_i9.Diary>(
+        returnValueForMissingStub: _FakeDocumentReference_0<_i11.Diary>(
           this,
           Invocation.method(
             #diaryReference,
@@ -318,16 +393,16 @@ class MockGroupDatabase extends _i1.Mock implements _i3.GroupDatabase {
             {#diaryID: diaryID},
           ),
         ),
-      ) as _i2.DocumentReference<_i9.Diary>);
+      ) as _i2.DocumentReference<_i11.Diary>);
 
   @override
-  _i2.CollectionReference<_i10.GroupUserProfile> userProfilesReference() =>
+  _i2.CollectionReference<_i12.GroupUserProfile> userProfilesReference() =>
       (super.noSuchMethod(
         Invocation.method(
           #userProfilesReference,
           [],
         ),
-        returnValue: _FakeCollectionReference_1<_i10.GroupUserProfile>(
+        returnValue: _FakeCollectionReference_1<_i12.GroupUserProfile>(
           this,
           Invocation.method(
             #userProfilesReference,
@@ -335,17 +410,17 @@ class MockGroupDatabase extends _i1.Mock implements _i3.GroupDatabase {
           ),
         ),
         returnValueForMissingStub:
-            _FakeCollectionReference_1<_i10.GroupUserProfile>(
+            _FakeCollectionReference_1<_i12.GroupUserProfile>(
           this,
           Invocation.method(
             #userProfilesReference,
             [],
           ),
         ),
-      ) as _i2.CollectionReference<_i10.GroupUserProfile>);
+      ) as _i2.CollectionReference<_i12.GroupUserProfile>);
 
   @override
-  _i2.DocumentReference<_i10.GroupUserProfile> userProfileReference(
+  _i2.DocumentReference<_i12.GroupUserProfile> userProfileReference(
           {required String? userID}) =>
       (super.noSuchMethod(
         Invocation.method(
@@ -353,7 +428,7 @@ class MockGroupDatabase extends _i1.Mock implements _i3.GroupDatabase {
           [],
           {#userID: userID},
         ),
-        returnValue: _FakeDocumentReference_0<_i10.GroupUserProfile>(
+        returnValue: _FakeDocumentReference_0<_i12.GroupUserProfile>(
           this,
           Invocation.method(
             #userProfileReference,
@@ -362,7 +437,7 @@ class MockGroupDatabase extends _i1.Mock implements _i3.GroupDatabase {
           ),
         ),
         returnValueForMissingStub:
-            _FakeDocumentReference_0<_i10.GroupUserProfile>(
+            _FakeDocumentReference_0<_i12.GroupUserProfile>(
           this,
           Invocation.method(
             #userProfileReference,
@@ -370,10 +445,10 @@ class MockGroupDatabase extends _i1.Mock implements _i3.GroupDatabase {
             {#userID: userID},
           ),
         ),
-      ) as _i2.DocumentReference<_i10.GroupUserProfile>);
+      ) as _i2.DocumentReference<_i12.GroupUserProfile>);
 
   @override
-  _i2.DocumentReference<_i11.GroupMemberNotificationSettings>
+  _i2.DocumentReference<_i13.GroupMemberNotificationSettings>
       memberNotificationSettingsReference({required String? userID}) =>
           (super.noSuchMethod(
             Invocation.method(
@@ -382,7 +457,7 @@ class MockGroupDatabase extends _i1.Mock implements _i3.GroupDatabase {
               {#userID: userID},
             ),
             returnValue:
-                _FakeDocumentReference_0<_i11.GroupMemberNotificationSettings>(
+                _FakeDocumentReference_0<_i13.GroupMemberNotificationSettings>(
               this,
               Invocation.method(
                 #memberNotificationSettingsReference,
@@ -391,7 +466,7 @@ class MockGroupDatabase extends _i1.Mock implements _i3.GroupDatabase {
               ),
             ),
             returnValueForMissingStub:
-                _FakeDocumentReference_0<_i11.GroupMemberNotificationSettings>(
+                _FakeDocumentReference_0<_i13.GroupMemberNotificationSettings>(
               this,
               Invocation.method(
                 #memberNotificationSettingsReference,
@@ -399,7 +474,7 @@ class MockGroupDatabase extends _i1.Mock implements _i3.GroupDatabase {
                 {#userID: userID},
               ),
             ),
-          ) as _i2.DocumentReference<_i11.GroupMemberNotificationSettings>);
+          ) as _i2.DocumentReference<_i13.GroupMemberNotificationSettings>);
 }
 
 /// A class which mocks [CollectionReference].
@@ -407,15 +482,15 @@ class MockGroupDatabase extends _i1.Mock implements _i3.GroupDatabase {
 /// See the documentation for Mockito's code generation for more information.
 // ignore: must_be_immutable
 class MockDoseReceiverCollectionReference extends _i1.Mock
-    implements _i2.CollectionReference<_i7.DoseReceiver> {
+    implements _i2.CollectionReference<_i9.DoseReceiver> {
   @override
   String get id => (super.noSuchMethod(
         Invocation.getter(#id),
-        returnValue: _i4.dummyValue<String>(
+        returnValue: _i6.dummyValue<String>(
           this,
           Invocation.getter(#id),
         ),
-        returnValueForMissingStub: _i4.dummyValue<String>(
+        returnValueForMissingStub: _i6.dummyValue<String>(
           this,
           Invocation.getter(#id),
         ),
@@ -424,11 +499,11 @@ class MockDoseReceiverCollectionReference extends _i1.Mock
   @override
   String get path => (super.noSuchMethod(
         Invocation.getter(#path),
-        returnValue: _i4.dummyValue<String>(
+        returnValue: _i6.dummyValue<String>(
           this,
           Invocation.getter(#path),
         ),
-        returnValueForMissingStub: _i4.dummyValue<String>(
+        returnValueForMissingStub: _i6.dummyValue<String>(
           this,
           Invocation.getter(#path),
         ),
@@ -455,15 +530,15 @@ class MockDoseReceiverCollectionReference extends _i1.Mock
       ) as Map<String, dynamic>);
 
   @override
-  _i12.Future<_i2.DocumentReference<_i7.DoseReceiver>> add(
-          _i7.DoseReceiver? data) =>
+  _i4.Future<_i2.DocumentReference<_i9.DoseReceiver>> add(
+          _i9.DoseReceiver? data) =>
       (super.noSuchMethod(
         Invocation.method(
           #add,
           [data],
         ),
-        returnValue: _i12.Future<_i2.DocumentReference<_i7.DoseReceiver>>.value(
-            _FakeDocumentReference_0<_i7.DoseReceiver>(
+        returnValue: _i4.Future<_i2.DocumentReference<_i9.DoseReceiver>>.value(
+            _FakeDocumentReference_0<_i9.DoseReceiver>(
           this,
           Invocation.method(
             #add,
@@ -471,38 +546,38 @@ class MockDoseReceiverCollectionReference extends _i1.Mock
           ),
         )),
         returnValueForMissingStub:
-            _i12.Future<_i2.DocumentReference<_i7.DoseReceiver>>.value(
-                _FakeDocumentReference_0<_i7.DoseReceiver>(
+            _i4.Future<_i2.DocumentReference<_i9.DoseReceiver>>.value(
+                _FakeDocumentReference_0<_i9.DoseReceiver>(
           this,
           Invocation.method(
             #add,
             [data],
           ),
         )),
-      ) as _i12.Future<_i2.DocumentReference<_i7.DoseReceiver>>);
+      ) as _i4.Future<_i2.DocumentReference<_i9.DoseReceiver>>);
 
   @override
-  _i2.DocumentReference<_i7.DoseReceiver> doc([String? path]) =>
+  _i2.DocumentReference<_i9.DoseReceiver> doc([String? path]) =>
       (super.noSuchMethod(
         Invocation.method(
           #doc,
           [path],
         ),
-        returnValue: _FakeDocumentReference_0<_i7.DoseReceiver>(
+        returnValue: _FakeDocumentReference_0<_i9.DoseReceiver>(
           this,
           Invocation.method(
             #doc,
             [path],
           ),
         ),
-        returnValueForMissingStub: _FakeDocumentReference_0<_i7.DoseReceiver>(
+        returnValueForMissingStub: _FakeDocumentReference_0<_i9.DoseReceiver>(
           this,
           Invocation.method(
             #doc,
             [path],
           ),
         ),
-      ) as _i2.DocumentReference<_i7.DoseReceiver>);
+      ) as _i2.DocumentReference<_i9.DoseReceiver>);
 
   @override
   _i2.CollectionReference<R> withConverter<R extends Object?>({
@@ -543,109 +618,109 @@ class MockDoseReceiverCollectionReference extends _i1.Mock
       ) as _i2.CollectionReference<R>);
 
   @override
-  _i2.Query<_i7.DoseReceiver> endAtDocument(
+  _i2.Query<_i9.DoseReceiver> endAtDocument(
           _i2.DocumentSnapshot<Object?>? documentSnapshot) =>
       (super.noSuchMethod(
         Invocation.method(
           #endAtDocument,
           [documentSnapshot],
         ),
-        returnValue: _FakeQuery_3<_i7.DoseReceiver>(
+        returnValue: _FakeQuery_3<_i9.DoseReceiver>(
           this,
           Invocation.method(
             #endAtDocument,
             [documentSnapshot],
           ),
         ),
-        returnValueForMissingStub: _FakeQuery_3<_i7.DoseReceiver>(
+        returnValueForMissingStub: _FakeQuery_3<_i9.DoseReceiver>(
           this,
           Invocation.method(
             #endAtDocument,
             [documentSnapshot],
           ),
         ),
-      ) as _i2.Query<_i7.DoseReceiver>);
+      ) as _i2.Query<_i9.DoseReceiver>);
 
   @override
-  _i2.Query<_i7.DoseReceiver> endAt(Iterable<Object?>? values) =>
+  _i2.Query<_i9.DoseReceiver> endAt(Iterable<Object?>? values) =>
       (super.noSuchMethod(
         Invocation.method(
           #endAt,
           [values],
         ),
-        returnValue: _FakeQuery_3<_i7.DoseReceiver>(
+        returnValue: _FakeQuery_3<_i9.DoseReceiver>(
           this,
           Invocation.method(
             #endAt,
             [values],
           ),
         ),
-        returnValueForMissingStub: _FakeQuery_3<_i7.DoseReceiver>(
+        returnValueForMissingStub: _FakeQuery_3<_i9.DoseReceiver>(
           this,
           Invocation.method(
             #endAt,
             [values],
           ),
         ),
-      ) as _i2.Query<_i7.DoseReceiver>);
+      ) as _i2.Query<_i9.DoseReceiver>);
 
   @override
-  _i2.Query<_i7.DoseReceiver> endBeforeDocument(
+  _i2.Query<_i9.DoseReceiver> endBeforeDocument(
           _i2.DocumentSnapshot<Object?>? documentSnapshot) =>
       (super.noSuchMethod(
         Invocation.method(
           #endBeforeDocument,
           [documentSnapshot],
         ),
-        returnValue: _FakeQuery_3<_i7.DoseReceiver>(
+        returnValue: _FakeQuery_3<_i9.DoseReceiver>(
           this,
           Invocation.method(
             #endBeforeDocument,
             [documentSnapshot],
           ),
         ),
-        returnValueForMissingStub: _FakeQuery_3<_i7.DoseReceiver>(
+        returnValueForMissingStub: _FakeQuery_3<_i9.DoseReceiver>(
           this,
           Invocation.method(
             #endBeforeDocument,
             [documentSnapshot],
           ),
         ),
-      ) as _i2.Query<_i7.DoseReceiver>);
+      ) as _i2.Query<_i9.DoseReceiver>);
 
   @override
-  _i2.Query<_i7.DoseReceiver> endBefore(Iterable<Object?>? values) =>
+  _i2.Query<_i9.DoseReceiver> endBefore(Iterable<Object?>? values) =>
       (super.noSuchMethod(
         Invocation.method(
           #endBefore,
           [values],
         ),
-        returnValue: _FakeQuery_3<_i7.DoseReceiver>(
+        returnValue: _FakeQuery_3<_i9.DoseReceiver>(
           this,
           Invocation.method(
             #endBefore,
             [values],
           ),
         ),
-        returnValueForMissingStub: _FakeQuery_3<_i7.DoseReceiver>(
+        returnValueForMissingStub: _FakeQuery_3<_i9.DoseReceiver>(
           this,
           Invocation.method(
             #endBefore,
             [values],
           ),
         ),
-      ) as _i2.Query<_i7.DoseReceiver>);
+      ) as _i2.Query<_i9.DoseReceiver>);
 
   @override
-  _i12.Future<_i2.QuerySnapshot<_i7.DoseReceiver>> get(
+  _i4.Future<_i2.QuerySnapshot<_i9.DoseReceiver>> get(
           [_i2.GetOptions? options]) =>
       (super.noSuchMethod(
         Invocation.method(
           #get,
           [options],
         ),
-        returnValue: _i12.Future<_i2.QuerySnapshot<_i7.DoseReceiver>>.value(
-            _FakeQuerySnapshot_4<_i7.DoseReceiver>(
+        returnValue: _i4.Future<_i2.QuerySnapshot<_i9.DoseReceiver>>.value(
+            _FakeQuerySnapshot_4<_i9.DoseReceiver>(
           this,
           Invocation.method(
             #get,
@@ -653,62 +728,62 @@ class MockDoseReceiverCollectionReference extends _i1.Mock
           ),
         )),
         returnValueForMissingStub:
-            _i12.Future<_i2.QuerySnapshot<_i7.DoseReceiver>>.value(
-                _FakeQuerySnapshot_4<_i7.DoseReceiver>(
+            _i4.Future<_i2.QuerySnapshot<_i9.DoseReceiver>>.value(
+                _FakeQuerySnapshot_4<_i9.DoseReceiver>(
           this,
           Invocation.method(
             #get,
             [options],
           ),
         )),
-      ) as _i12.Future<_i2.QuerySnapshot<_i7.DoseReceiver>>);
+      ) as _i4.Future<_i2.QuerySnapshot<_i9.DoseReceiver>>);
 
   @override
-  _i2.Query<_i7.DoseReceiver> limit(int? limit) => (super.noSuchMethod(
+  _i2.Query<_i9.DoseReceiver> limit(int? limit) => (super.noSuchMethod(
         Invocation.method(
           #limit,
           [limit],
         ),
-        returnValue: _FakeQuery_3<_i7.DoseReceiver>(
+        returnValue: _FakeQuery_3<_i9.DoseReceiver>(
           this,
           Invocation.method(
             #limit,
             [limit],
           ),
         ),
-        returnValueForMissingStub: _FakeQuery_3<_i7.DoseReceiver>(
+        returnValueForMissingStub: _FakeQuery_3<_i9.DoseReceiver>(
           this,
           Invocation.method(
             #limit,
             [limit],
           ),
         ),
-      ) as _i2.Query<_i7.DoseReceiver>);
+      ) as _i2.Query<_i9.DoseReceiver>);
 
   @override
-  _i2.Query<_i7.DoseReceiver> limitToLast(int? limit) => (super.noSuchMethod(
+  _i2.Query<_i9.DoseReceiver> limitToLast(int? limit) => (super.noSuchMethod(
         Invocation.method(
           #limitToLast,
           [limit],
         ),
-        returnValue: _FakeQuery_3<_i7.DoseReceiver>(
+        returnValue: _FakeQuery_3<_i9.DoseReceiver>(
           this,
           Invocation.method(
             #limitToLast,
             [limit],
           ),
         ),
-        returnValueForMissingStub: _FakeQuery_3<_i7.DoseReceiver>(
+        returnValueForMissingStub: _FakeQuery_3<_i9.DoseReceiver>(
           this,
           Invocation.method(
             #limitToLast,
             [limit],
           ),
         ),
-      ) as _i2.Query<_i7.DoseReceiver>);
+      ) as _i2.Query<_i9.DoseReceiver>);
 
   @override
-  _i12.Stream<_i2.QuerySnapshot<_i7.DoseReceiver>> snapshots({
+  _i4.Stream<_i2.QuerySnapshot<_i9.DoseReceiver>> snapshots({
     bool? includeMetadataChanges = false,
     _i2.ListenSource? source = _i2.ListenSource.defaultSource,
   }) =>
@@ -721,13 +796,13 @@ class MockDoseReceiverCollectionReference extends _i1.Mock
             #source: source,
           },
         ),
-        returnValue: _i12.Stream<_i2.QuerySnapshot<_i7.DoseReceiver>>.empty(),
+        returnValue: _i4.Stream<_i2.QuerySnapshot<_i9.DoseReceiver>>.empty(),
         returnValueForMissingStub:
-            _i12.Stream<_i2.QuerySnapshot<_i7.DoseReceiver>>.empty(),
-      ) as _i12.Stream<_i2.QuerySnapshot<_i7.DoseReceiver>>);
+            _i4.Stream<_i2.QuerySnapshot<_i9.DoseReceiver>>.empty(),
+      ) as _i4.Stream<_i2.QuerySnapshot<_i9.DoseReceiver>>);
 
   @override
-  _i2.Query<_i7.DoseReceiver> orderBy(
+  _i2.Query<_i9.DoseReceiver> orderBy(
     Object? field, {
     bool? descending = false,
   }) =>
@@ -737,7 +812,7 @@ class MockDoseReceiverCollectionReference extends _i1.Mock
           [field],
           {#descending: descending},
         ),
-        returnValue: _FakeQuery_3<_i7.DoseReceiver>(
+        returnValue: _FakeQuery_3<_i9.DoseReceiver>(
           this,
           Invocation.method(
             #orderBy,
@@ -745,7 +820,7 @@ class MockDoseReceiverCollectionReference extends _i1.Mock
             {#descending: descending},
           ),
         ),
-        returnValueForMissingStub: _FakeQuery_3<_i7.DoseReceiver>(
+        returnValueForMissingStub: _FakeQuery_3<_i9.DoseReceiver>(
           this,
           Invocation.method(
             #orderBy,
@@ -753,104 +828,104 @@ class MockDoseReceiverCollectionReference extends _i1.Mock
             {#descending: descending},
           ),
         ),
-      ) as _i2.Query<_i7.DoseReceiver>);
+      ) as _i2.Query<_i9.DoseReceiver>);
 
   @override
-  _i2.Query<_i7.DoseReceiver> startAfterDocument(
+  _i2.Query<_i9.DoseReceiver> startAfterDocument(
           _i2.DocumentSnapshot<Object?>? documentSnapshot) =>
       (super.noSuchMethod(
         Invocation.method(
           #startAfterDocument,
           [documentSnapshot],
         ),
-        returnValue: _FakeQuery_3<_i7.DoseReceiver>(
+        returnValue: _FakeQuery_3<_i9.DoseReceiver>(
           this,
           Invocation.method(
             #startAfterDocument,
             [documentSnapshot],
           ),
         ),
-        returnValueForMissingStub: _FakeQuery_3<_i7.DoseReceiver>(
+        returnValueForMissingStub: _FakeQuery_3<_i9.DoseReceiver>(
           this,
           Invocation.method(
             #startAfterDocument,
             [documentSnapshot],
           ),
         ),
-      ) as _i2.Query<_i7.DoseReceiver>);
+      ) as _i2.Query<_i9.DoseReceiver>);
 
   @override
-  _i2.Query<_i7.DoseReceiver> startAfter(Iterable<Object?>? values) =>
+  _i2.Query<_i9.DoseReceiver> startAfter(Iterable<Object?>? values) =>
       (super.noSuchMethod(
         Invocation.method(
           #startAfter,
           [values],
         ),
-        returnValue: _FakeQuery_3<_i7.DoseReceiver>(
+        returnValue: _FakeQuery_3<_i9.DoseReceiver>(
           this,
           Invocation.method(
             #startAfter,
             [values],
           ),
         ),
-        returnValueForMissingStub: _FakeQuery_3<_i7.DoseReceiver>(
+        returnValueForMissingStub: _FakeQuery_3<_i9.DoseReceiver>(
           this,
           Invocation.method(
             #startAfter,
             [values],
           ),
         ),
-      ) as _i2.Query<_i7.DoseReceiver>);
+      ) as _i2.Query<_i9.DoseReceiver>);
 
   @override
-  _i2.Query<_i7.DoseReceiver> startAtDocument(
+  _i2.Query<_i9.DoseReceiver> startAtDocument(
           _i2.DocumentSnapshot<Object?>? documentSnapshot) =>
       (super.noSuchMethod(
         Invocation.method(
           #startAtDocument,
           [documentSnapshot],
         ),
-        returnValue: _FakeQuery_3<_i7.DoseReceiver>(
+        returnValue: _FakeQuery_3<_i9.DoseReceiver>(
           this,
           Invocation.method(
             #startAtDocument,
             [documentSnapshot],
           ),
         ),
-        returnValueForMissingStub: _FakeQuery_3<_i7.DoseReceiver>(
+        returnValueForMissingStub: _FakeQuery_3<_i9.DoseReceiver>(
           this,
           Invocation.method(
             #startAtDocument,
             [documentSnapshot],
           ),
         ),
-      ) as _i2.Query<_i7.DoseReceiver>);
+      ) as _i2.Query<_i9.DoseReceiver>);
 
   @override
-  _i2.Query<_i7.DoseReceiver> startAt(Iterable<Object?>? values) =>
+  _i2.Query<_i9.DoseReceiver> startAt(Iterable<Object?>? values) =>
       (super.noSuchMethod(
         Invocation.method(
           #startAt,
           [values],
         ),
-        returnValue: _FakeQuery_3<_i7.DoseReceiver>(
+        returnValue: _FakeQuery_3<_i9.DoseReceiver>(
           this,
           Invocation.method(
             #startAt,
             [values],
           ),
         ),
-        returnValueForMissingStub: _FakeQuery_3<_i7.DoseReceiver>(
+        returnValueForMissingStub: _FakeQuery_3<_i9.DoseReceiver>(
           this,
           Invocation.method(
             #startAt,
             [values],
           ),
         ),
-      ) as _i2.Query<_i7.DoseReceiver>);
+      ) as _i2.Query<_i9.DoseReceiver>);
 
   @override
-  _i2.Query<_i7.DoseReceiver> where(
+  _i2.Query<_i9.DoseReceiver> where(
     Object? field, {
     Object? isEqualTo,
     Object? isNotEqualTo,
@@ -882,7 +957,7 @@ class MockDoseReceiverCollectionReference extends _i1.Mock
             #isNull: isNull,
           },
         ),
-        returnValue: _FakeQuery_3<_i7.DoseReceiver>(
+        returnValue: _FakeQuery_3<_i9.DoseReceiver>(
           this,
           Invocation.method(
             #where,
@@ -902,7 +977,7 @@ class MockDoseReceiverCollectionReference extends _i1.Mock
             },
           ),
         ),
-        returnValueForMissingStub: _FakeQuery_3<_i7.DoseReceiver>(
+        returnValueForMissingStub: _FakeQuery_3<_i9.DoseReceiver>(
           this,
           Invocation.method(
             #where,
@@ -922,7 +997,7 @@ class MockDoseReceiverCollectionReference extends _i1.Mock
             },
           ),
         ),
-      ) as _i2.Query<_i7.DoseReceiver>);
+      ) as _i2.Query<_i9.DoseReceiver>);
 
   @override
   _i2.AggregateQuery count() => (super.noSuchMethod(
@@ -1099,7 +1174,7 @@ class MockDoseReceiverCollectionReference extends _i1.Mock
 /// See the documentation for Mockito's code generation for more information.
 // ignore: must_be_immutable
 class MockDoseReceiverDocumentReference extends _i1.Mock
-    implements _i2.DocumentReference<_i7.DoseReceiver> {
+    implements _i2.DocumentReference<_i9.DoseReceiver> {
   @override
   _i2.FirebaseFirestore get firestore => (super.noSuchMethod(
         Invocation.getter(#firestore),
@@ -1116,37 +1191,37 @@ class MockDoseReceiverDocumentReference extends _i1.Mock
   @override
   String get id => (super.noSuchMethod(
         Invocation.getter(#id),
-        returnValue: _i4.dummyValue<String>(
+        returnValue: _i6.dummyValue<String>(
           this,
           Invocation.getter(#id),
         ),
-        returnValueForMissingStub: _i4.dummyValue<String>(
+        returnValueForMissingStub: _i6.dummyValue<String>(
           this,
           Invocation.getter(#id),
         ),
       ) as String);
 
   @override
-  _i2.CollectionReference<_i7.DoseReceiver> get parent => (super.noSuchMethod(
+  _i2.CollectionReference<_i9.DoseReceiver> get parent => (super.noSuchMethod(
         Invocation.getter(#parent),
-        returnValue: _FakeCollectionReference_1<_i7.DoseReceiver>(
+        returnValue: _FakeCollectionReference_1<_i9.DoseReceiver>(
           this,
           Invocation.getter(#parent),
         ),
-        returnValueForMissingStub: _FakeCollectionReference_1<_i7.DoseReceiver>(
+        returnValueForMissingStub: _FakeCollectionReference_1<_i9.DoseReceiver>(
           this,
           Invocation.getter(#parent),
         ),
-      ) as _i2.CollectionReference<_i7.DoseReceiver>);
+      ) as _i2.CollectionReference<_i9.DoseReceiver>);
 
   @override
   String get path => (super.noSuchMethod(
         Invocation.getter(#path),
-        returnValue: _i4.dummyValue<String>(
+        returnValue: _i6.dummyValue<String>(
           this,
           Invocation.getter(#path),
         ),
-        returnValueForMissingStub: _i4.dummyValue<String>(
+        returnValueForMissingStub: _i6.dummyValue<String>(
           this,
           Invocation.getter(#path),
         ),
@@ -1178,35 +1253,35 @@ class MockDoseReceiverDocumentReference extends _i1.Mock
       ) as _i2.CollectionReference<Map<String, dynamic>>);
 
   @override
-  _i12.Future<void> delete() => (super.noSuchMethod(
+  _i4.Future<void> delete() => (super.noSuchMethod(
         Invocation.method(
           #delete,
           [],
         ),
-        returnValue: _i12.Future<void>.value(),
-        returnValueForMissingStub: _i12.Future<void>.value(),
-      ) as _i12.Future<void>);
+        returnValue: _i4.Future<void>.value(),
+        returnValueForMissingStub: _i4.Future<void>.value(),
+      ) as _i4.Future<void>);
 
   @override
-  _i12.Future<void> update(Map<Object, Object?>? data) => (super.noSuchMethod(
+  _i4.Future<void> update(Map<Object, Object?>? data) => (super.noSuchMethod(
         Invocation.method(
           #update,
           [data],
         ),
-        returnValue: _i12.Future<void>.value(),
-        returnValueForMissingStub: _i12.Future<void>.value(),
-      ) as _i12.Future<void>);
+        returnValue: _i4.Future<void>.value(),
+        returnValueForMissingStub: _i4.Future<void>.value(),
+      ) as _i4.Future<void>);
 
   @override
-  _i12.Future<_i2.DocumentSnapshot<_i7.DoseReceiver>> get(
+  _i4.Future<_i2.DocumentSnapshot<_i9.DoseReceiver>> get(
           [_i2.GetOptions? options]) =>
       (super.noSuchMethod(
         Invocation.method(
           #get,
           [options],
         ),
-        returnValue: _i12.Future<_i2.DocumentSnapshot<_i7.DoseReceiver>>.value(
-            _FakeDocumentSnapshot_6<_i7.DoseReceiver>(
+        returnValue: _i4.Future<_i2.DocumentSnapshot<_i9.DoseReceiver>>.value(
+            _FakeDocumentSnapshot_6<_i9.DoseReceiver>(
           this,
           Invocation.method(
             #get,
@@ -1214,18 +1289,18 @@ class MockDoseReceiverDocumentReference extends _i1.Mock
           ),
         )),
         returnValueForMissingStub:
-            _i12.Future<_i2.DocumentSnapshot<_i7.DoseReceiver>>.value(
-                _FakeDocumentSnapshot_6<_i7.DoseReceiver>(
+            _i4.Future<_i2.DocumentSnapshot<_i9.DoseReceiver>>.value(
+                _FakeDocumentSnapshot_6<_i9.DoseReceiver>(
           this,
           Invocation.method(
             #get,
             [options],
           ),
         )),
-      ) as _i12.Future<_i2.DocumentSnapshot<_i7.DoseReceiver>>);
+      ) as _i4.Future<_i2.DocumentSnapshot<_i9.DoseReceiver>>);
 
   @override
-  _i12.Stream<_i2.DocumentSnapshot<_i7.DoseReceiver>> snapshots({
+  _i4.Stream<_i2.DocumentSnapshot<_i9.DoseReceiver>> snapshots({
     bool? includeMetadataChanges = false,
     _i2.ListenSource? source = _i2.ListenSource.defaultSource,
   }) =>
@@ -1238,15 +1313,14 @@ class MockDoseReceiverDocumentReference extends _i1.Mock
             #source: source,
           },
         ),
-        returnValue:
-            _i12.Stream<_i2.DocumentSnapshot<_i7.DoseReceiver>>.empty(),
+        returnValue: _i4.Stream<_i2.DocumentSnapshot<_i9.DoseReceiver>>.empty(),
         returnValueForMissingStub:
-            _i12.Stream<_i2.DocumentSnapshot<_i7.DoseReceiver>>.empty(),
-      ) as _i12.Stream<_i2.DocumentSnapshot<_i7.DoseReceiver>>);
+            _i4.Stream<_i2.DocumentSnapshot<_i9.DoseReceiver>>.empty(),
+      ) as _i4.Stream<_i2.DocumentSnapshot<_i9.DoseReceiver>>);
 
   @override
-  _i12.Future<void> set(
-    _i7.DoseReceiver? data, [
+  _i4.Future<void> set(
+    _i9.DoseReceiver? data, [
     _i2.SetOptions? options,
   ]) =>
       (super.noSuchMethod(
@@ -1257,9 +1331,9 @@ class MockDoseReceiverDocumentReference extends _i1.Mock
             options,
           ],
         ),
-        returnValue: _i12.Future<void>.value(),
-        returnValueForMissingStub: _i12.Future<void>.value(),
-      ) as _i12.Future<void>);
+        returnValue: _i4.Future<void>.value(),
+        returnValueForMissingStub: _i4.Future<void>.value(),
+      ) as _i4.Future<void>);
 
   @override
   _i2.DocumentReference<R> withConverter<R>({
@@ -1298,4 +1372,633 @@ class MockDoseReceiverDocumentReference extends _i1.Mock
           ),
         ),
       ) as _i2.DocumentReference<R>);
+}
+
+/// A class which mocks [DocumentSnapshot].
+///
+/// See the documentation for Mockito's code generation for more information.
+class MockDoseReceiverDocumentSnapshot extends _i1.Mock
+    implements _i2.DocumentSnapshot<_i9.DoseReceiver> {
+  @override
+  String get id => (super.noSuchMethod(
+        Invocation.getter(#id),
+        returnValue: _i6.dummyValue<String>(
+          this,
+          Invocation.getter(#id),
+        ),
+        returnValueForMissingStub: _i6.dummyValue<String>(
+          this,
+          Invocation.getter(#id),
+        ),
+      ) as String);
+
+  @override
+  _i2.DocumentReference<_i9.DoseReceiver> get reference => (super.noSuchMethod(
+        Invocation.getter(#reference),
+        returnValue: _FakeDocumentReference_0<_i9.DoseReceiver>(
+          this,
+          Invocation.getter(#reference),
+        ),
+        returnValueForMissingStub: _FakeDocumentReference_0<_i9.DoseReceiver>(
+          this,
+          Invocation.getter(#reference),
+        ),
+      ) as _i2.DocumentReference<_i9.DoseReceiver>);
+
+  @override
+  _i2.SnapshotMetadata get metadata => (super.noSuchMethod(
+        Invocation.getter(#metadata),
+        returnValue: _FakeSnapshotMetadata_7(
+          this,
+          Invocation.getter(#metadata),
+        ),
+        returnValueForMissingStub: _FakeSnapshotMetadata_7(
+          this,
+          Invocation.getter(#metadata),
+        ),
+      ) as _i2.SnapshotMetadata);
+
+  @override
+  bool get exists => (super.noSuchMethod(
+        Invocation.getter(#exists),
+        returnValue: false,
+        returnValueForMissingStub: false,
+      ) as bool);
+
+  @override
+  dynamic get(Object? field) => super.noSuchMethod(
+        Invocation.method(
+          #get,
+          [field],
+        ),
+        returnValueForMissingStub: null,
+      );
+
+  @override
+  dynamic operator [](Object? field) => super.noSuchMethod(
+        Invocation.method(
+          #[],
+          [field],
+        ),
+        returnValueForMissingStub: null,
+      );
+}
+
+/// A class which mocks [FirebaseFirestore].
+///
+/// See the documentation for Mockito's code generation for more information.
+class MockFirebaseFirestore extends _i1.Mock implements _i2.FirebaseFirestore {
+  @override
+  _i3.FirebaseApp get app => (super.noSuchMethod(
+        Invocation.getter(#app),
+        returnValue: _FakeFirebaseApp_8(
+          this,
+          Invocation.getter(#app),
+        ),
+        returnValueForMissingStub: _FakeFirebaseApp_8(
+          this,
+          Invocation.getter(#app),
+        ),
+      ) as _i3.FirebaseApp);
+
+  @override
+  String get databaseId => (super.noSuchMethod(
+        Invocation.getter(#databaseId),
+        returnValue: _i6.dummyValue<String>(
+          this,
+          Invocation.getter(#databaseId),
+        ),
+        returnValueForMissingStub: _i6.dummyValue<String>(
+          this,
+          Invocation.getter(#databaseId),
+        ),
+      ) as String);
+
+  @override
+  _i2.Settings get settings => (super.noSuchMethod(
+        Invocation.getter(#settings),
+        returnValue: _FakeSettings_9(
+          this,
+          Invocation.getter(#settings),
+        ),
+        returnValueForMissingStub: _FakeSettings_9(
+          this,
+          Invocation.getter(#settings),
+        ),
+      ) as _i2.Settings);
+
+  @override
+  set app(_i3.FirebaseApp? _app) => super.noSuchMethod(
+        Invocation.setter(
+          #app,
+          _app,
+        ),
+        returnValueForMissingStub: null,
+      );
+
+  @override
+  set databaseId(String? _databaseId) => super.noSuchMethod(
+        Invocation.setter(
+          #databaseId,
+          _databaseId,
+        ),
+        returnValueForMissingStub: null,
+      );
+
+  @override
+  set settings(_i2.Settings? settings) => super.noSuchMethod(
+        Invocation.setter(
+          #settings,
+          settings,
+        ),
+        returnValueForMissingStub: null,
+      );
+
+  @override
+  Map<dynamic, dynamic> get pluginConstants => (super.noSuchMethod(
+        Invocation.getter(#pluginConstants),
+        returnValue: <dynamic, dynamic>{},
+        returnValueForMissingStub: <dynamic, dynamic>{},
+      ) as Map<dynamic, dynamic>);
+
+  @override
+  _i2.CollectionReference<Map<String, dynamic>> collection(
+          String? collectionPath) =>
+      (super.noSuchMethod(
+        Invocation.method(
+          #collection,
+          [collectionPath],
+        ),
+        returnValue: _FakeCollectionReference_1<Map<String, dynamic>>(
+          this,
+          Invocation.method(
+            #collection,
+            [collectionPath],
+          ),
+        ),
+        returnValueForMissingStub:
+            _FakeCollectionReference_1<Map<String, dynamic>>(
+          this,
+          Invocation.method(
+            #collection,
+            [collectionPath],
+          ),
+        ),
+      ) as _i2.CollectionReference<Map<String, dynamic>>);
+
+  @override
+  _i2.WriteBatch batch() => (super.noSuchMethod(
+        Invocation.method(
+          #batch,
+          [],
+        ),
+        returnValue: _FakeWriteBatch_10(
+          this,
+          Invocation.method(
+            #batch,
+            [],
+          ),
+        ),
+        returnValueForMissingStub: _FakeWriteBatch_10(
+          this,
+          Invocation.method(
+            #batch,
+            [],
+          ),
+        ),
+      ) as _i2.WriteBatch);
+
+  @override
+  _i4.Future<void> clearPersistence() => (super.noSuchMethod(
+        Invocation.method(
+          #clearPersistence,
+          [],
+        ),
+        returnValue: _i4.Future<void>.value(),
+        returnValueForMissingStub: _i4.Future<void>.value(),
+      ) as _i4.Future<void>);
+
+  @override
+  _i2.LoadBundleTask loadBundle(_i14.Uint8List? bundle) => (super.noSuchMethod(
+        Invocation.method(
+          #loadBundle,
+          [bundle],
+        ),
+        returnValue: _FakeLoadBundleTask_11(
+          this,
+          Invocation.method(
+            #loadBundle,
+            [bundle],
+          ),
+        ),
+        returnValueForMissingStub: _FakeLoadBundleTask_11(
+          this,
+          Invocation.method(
+            #loadBundle,
+            [bundle],
+          ),
+        ),
+      ) as _i2.LoadBundleTask);
+
+  @override
+  void useFirestoreEmulator(
+    String? host,
+    int? port, {
+    bool? sslEnabled = false,
+    bool? automaticHostMapping = true,
+  }) =>
+      super.noSuchMethod(
+        Invocation.method(
+          #useFirestoreEmulator,
+          [
+            host,
+            port,
+          ],
+          {
+            #sslEnabled: sslEnabled,
+            #automaticHostMapping: automaticHostMapping,
+          },
+        ),
+        returnValueForMissingStub: null,
+      );
+
+  @override
+  _i4.Future<_i2.QuerySnapshot<T>> namedQueryWithConverterGet<T>(
+    String? name, {
+    _i2.GetOptions? options = const _i2.GetOptions(),
+    required _i2.FromFirestore<T>? fromFirestore,
+    required _i2.ToFirestore<T>? toFirestore,
+  }) =>
+      (super.noSuchMethod(
+        Invocation.method(
+          #namedQueryWithConverterGet,
+          [name],
+          {
+            #options: options,
+            #fromFirestore: fromFirestore,
+            #toFirestore: toFirestore,
+          },
+        ),
+        returnValue:
+            _i4.Future<_i2.QuerySnapshot<T>>.value(_FakeQuerySnapshot_4<T>(
+          this,
+          Invocation.method(
+            #namedQueryWithConverterGet,
+            [name],
+            {
+              #options: options,
+              #fromFirestore: fromFirestore,
+              #toFirestore: toFirestore,
+            },
+          ),
+        )),
+        returnValueForMissingStub:
+            _i4.Future<_i2.QuerySnapshot<T>>.value(_FakeQuerySnapshot_4<T>(
+          this,
+          Invocation.method(
+            #namedQueryWithConverterGet,
+            [name],
+            {
+              #options: options,
+              #fromFirestore: fromFirestore,
+              #toFirestore: toFirestore,
+            },
+          ),
+        )),
+      ) as _i4.Future<_i2.QuerySnapshot<T>>);
+
+  @override
+  _i4.Future<_i2.QuerySnapshot<Map<String, dynamic>>> namedQueryGet(
+    String? name, {
+    _i2.GetOptions? options = const _i2.GetOptions(),
+  }) =>
+      (super.noSuchMethod(
+        Invocation.method(
+          #namedQueryGet,
+          [name],
+          {#options: options},
+        ),
+        returnValue: _i4.Future<_i2.QuerySnapshot<Map<String, dynamic>>>.value(
+            _FakeQuerySnapshot_4<Map<String, dynamic>>(
+          this,
+          Invocation.method(
+            #namedQueryGet,
+            [name],
+            {#options: options},
+          ),
+        )),
+        returnValueForMissingStub:
+            _i4.Future<_i2.QuerySnapshot<Map<String, dynamic>>>.value(
+                _FakeQuerySnapshot_4<Map<String, dynamic>>(
+          this,
+          Invocation.method(
+            #namedQueryGet,
+            [name],
+            {#options: options},
+          ),
+        )),
+      ) as _i4.Future<_i2.QuerySnapshot<Map<String, dynamic>>>);
+
+  @override
+  _i2.Query<Map<String, dynamic>> collectionGroup(String? collectionPath) =>
+      (super.noSuchMethod(
+        Invocation.method(
+          #collectionGroup,
+          [collectionPath],
+        ),
+        returnValue: _FakeQuery_3<Map<String, dynamic>>(
+          this,
+          Invocation.method(
+            #collectionGroup,
+            [collectionPath],
+          ),
+        ),
+        returnValueForMissingStub: _FakeQuery_3<Map<String, dynamic>>(
+          this,
+          Invocation.method(
+            #collectionGroup,
+            [collectionPath],
+          ),
+        ),
+      ) as _i2.Query<Map<String, dynamic>>);
+
+  @override
+  _i4.Future<void> disableNetwork() => (super.noSuchMethod(
+        Invocation.method(
+          #disableNetwork,
+          [],
+        ),
+        returnValue: _i4.Future<void>.value(),
+        returnValueForMissingStub: _i4.Future<void>.value(),
+      ) as _i4.Future<void>);
+
+  @override
+  _i2.DocumentReference<Map<String, dynamic>> doc(String? documentPath) =>
+      (super.noSuchMethod(
+        Invocation.method(
+          #doc,
+          [documentPath],
+        ),
+        returnValue: _FakeDocumentReference_0<Map<String, dynamic>>(
+          this,
+          Invocation.method(
+            #doc,
+            [documentPath],
+          ),
+        ),
+        returnValueForMissingStub:
+            _FakeDocumentReference_0<Map<String, dynamic>>(
+          this,
+          Invocation.method(
+            #doc,
+            [documentPath],
+          ),
+        ),
+      ) as _i2.DocumentReference<Map<String, dynamic>>);
+
+  @override
+  _i4.Future<void> enableNetwork() => (super.noSuchMethod(
+        Invocation.method(
+          #enableNetwork,
+          [],
+        ),
+        returnValue: _i4.Future<void>.value(),
+        returnValueForMissingStub: _i4.Future<void>.value(),
+      ) as _i4.Future<void>);
+
+  @override
+  _i4.Stream<void> snapshotsInSync() => (super.noSuchMethod(
+        Invocation.method(
+          #snapshotsInSync,
+          [],
+        ),
+        returnValue: _i4.Stream<void>.empty(),
+        returnValueForMissingStub: _i4.Stream<void>.empty(),
+      ) as _i4.Stream<void>);
+
+  @override
+  _i4.Future<T> runTransaction<T>(
+    _i2.TransactionHandler<T>? transactionHandler, {
+    Duration? timeout = const Duration(seconds: 30),
+    int? maxAttempts = 5,
+  }) =>
+      (super.noSuchMethod(
+        Invocation.method(
+          #runTransaction,
+          [transactionHandler],
+          {
+            #timeout: timeout,
+            #maxAttempts: maxAttempts,
+          },
+        ),
+        returnValue: _i6.ifNotNull(
+              _i6.dummyValueOrNull<T>(
+                this,
+                Invocation.method(
+                  #runTransaction,
+                  [transactionHandler],
+                  {
+                    #timeout: timeout,
+                    #maxAttempts: maxAttempts,
+                  },
+                ),
+              ),
+              (T v) => _i4.Future<T>.value(v),
+            ) ??
+            _FakeFuture_12<T>(
+              this,
+              Invocation.method(
+                #runTransaction,
+                [transactionHandler],
+                {
+                  #timeout: timeout,
+                  #maxAttempts: maxAttempts,
+                },
+              ),
+            ),
+        returnValueForMissingStub: _i6.ifNotNull(
+              _i6.dummyValueOrNull<T>(
+                this,
+                Invocation.method(
+                  #runTransaction,
+                  [transactionHandler],
+                  {
+                    #timeout: timeout,
+                    #maxAttempts: maxAttempts,
+                  },
+                ),
+              ),
+              (T v) => _i4.Future<T>.value(v),
+            ) ??
+            _FakeFuture_12<T>(
+              this,
+              Invocation.method(
+                #runTransaction,
+                [transactionHandler],
+                {
+                  #timeout: timeout,
+                  #maxAttempts: maxAttempts,
+                },
+              ),
+            ),
+      ) as _i4.Future<T>);
+
+  @override
+  _i4.Future<void> terminate() => (super.noSuchMethod(
+        Invocation.method(
+          #terminate,
+          [],
+        ),
+        returnValue: _i4.Future<void>.value(),
+        returnValueForMissingStub: _i4.Future<void>.value(),
+      ) as _i4.Future<void>);
+
+  @override
+  _i4.Future<void> waitForPendingWrites() => (super.noSuchMethod(
+        Invocation.method(
+          #waitForPendingWrites,
+          [],
+        ),
+        returnValue: _i4.Future<void>.value(),
+        returnValueForMissingStub: _i4.Future<void>.value(),
+      ) as _i4.Future<void>);
+
+  @override
+  _i4.Future<void> setIndexConfigurationFromJSON(String? json) =>
+      (super.noSuchMethod(
+        Invocation.method(
+          #setIndexConfigurationFromJSON,
+          [json],
+        ),
+        returnValue: _i4.Future<void>.value(),
+        returnValueForMissingStub: _i4.Future<void>.value(),
+      ) as _i4.Future<void>);
+}
+
+/// A class which mocks [Transaction].
+///
+/// See the documentation for Mockito's code generation for more information.
+class MockTransaction extends _i1.Mock implements _i2.Transaction {
+  @override
+  _i4.Future<_i2.DocumentSnapshot<T>> get<T extends Object?>(
+          _i2.DocumentReference<T>? documentReference) =>
+      (super.noSuchMethod(
+        Invocation.method(
+          #get,
+          [documentReference],
+        ),
+        returnValue: _i4.Future<_i2.DocumentSnapshot<T>>.value(
+            _FakeDocumentSnapshot_6<T>(
+          this,
+          Invocation.method(
+            #get,
+            [documentReference],
+          ),
+        )),
+        returnValueForMissingStub: _i4.Future<_i2.DocumentSnapshot<T>>.value(
+            _FakeDocumentSnapshot_6<T>(
+          this,
+          Invocation.method(
+            #get,
+            [documentReference],
+          ),
+        )),
+      ) as _i4.Future<_i2.DocumentSnapshot<T>>);
+
+  @override
+  _i2.Transaction delete(_i2.DocumentReference<Object?>? documentReference) =>
+      (super.noSuchMethod(
+        Invocation.method(
+          #delete,
+          [documentReference],
+        ),
+        returnValue: _FakeTransaction_13(
+          this,
+          Invocation.method(
+            #delete,
+            [documentReference],
+          ),
+        ),
+        returnValueForMissingStub: _FakeTransaction_13(
+          this,
+          Invocation.method(
+            #delete,
+            [documentReference],
+          ),
+        ),
+      ) as _i2.Transaction);
+
+  @override
+  _i2.Transaction update(
+    _i2.DocumentReference<Object?>? documentReference,
+    Map<String, dynamic>? data,
+  ) =>
+      (super.noSuchMethod(
+        Invocation.method(
+          #update,
+          [
+            documentReference,
+            data,
+          ],
+        ),
+        returnValue: _FakeTransaction_13(
+          this,
+          Invocation.method(
+            #update,
+            [
+              documentReference,
+              data,
+            ],
+          ),
+        ),
+        returnValueForMissingStub: _FakeTransaction_13(
+          this,
+          Invocation.method(
+            #update,
+            [
+              documentReference,
+              data,
+            ],
+          ),
+        ),
+      ) as _i2.Transaction);
+
+  @override
+  _i2.Transaction set<T>(
+    _i2.DocumentReference<T>? documentReference,
+    T? data, [
+    _i2.SetOptions? options,
+  ]) =>
+      (super.noSuchMethod(
+        Invocation.method(
+          #set,
+          [
+            documentReference,
+            data,
+            options,
+          ],
+        ),
+        returnValue: _FakeTransaction_13(
+          this,
+          Invocation.method(
+            #set,
+            [
+              documentReference,
+              data,
+              options,
+            ],
+          ),
+        ),
+        returnValueForMissingStub: _FakeTransaction_13(
+          this,
+          Invocation.method(
+            #set,
+            [
+              documentReference,
+              data,
+              options,
+            ],
+          ),
+        ),
+      ) as _i2.Transaction);
 }

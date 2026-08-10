@@ -20,12 +20,11 @@ class DoseReceiverAdd {
   DoseReceiverAdd({required this.database, required this.userID});
 
   Future<DoseReceiver> call({
-    String? id,
     required String name,
   }) async {
     // add() はランダムなドキュメント ID を別途採番するため、id フィールドと実際のドキュメント ID が
-    // 食い違い、読み込み時の id 上書きで firstUser 等の参照が一致しなくなる。doc(id) への set で一致を保証する (#246)
-    final docRef = database.doseReceiversReference().doc(id);
+    // 食い違い、読み込み時の id 上書きで参照が一致しなくなる。doc() への set で一致を保証する (#246)
+    final docRef = database.doseReceiversReference().doc();
     final doseReceiver = DoseReceiver(
       id: docRef.id,
       userID: userID,
@@ -48,8 +47,17 @@ class FirstDoseReceiverAdd {
   FirstDoseReceiverAdd({required this.database, required this.userID});
 
   Future<void> call() async {
-    final doseReceiverAdd = DoseReceiverAdd(database: database, userID: userID);
-    await doseReceiverAdd.call(id: DoseReceiver.firstUserID, name: DoseReceiver.firstUserName);
+    // 空のキャッシュ snapshot や複数メンバーの同時初期化で呼ばれても既存の firstUser ドキュメント
+    // (編集済みの name・作成者 userID・タイムスタンプ)を上書きしないよう、サーバー読み取りを伴う
+    // トランザクションで「存在しない場合のみ作成」する
+    final docRef = database.doseReceiverReference(doseReceiverID: DoseReceiver.firstUserID);
+    await docRef.firestore.runTransaction<void>((transaction) async {
+      final snapshot = await transaction.get(docRef);
+      if (snapshot.exists) {
+        return;
+      }
+      transaction.set(docRef, DoseReceiver.firstUser(userID: userID));
+    });
   }
 }
 
