@@ -117,6 +117,9 @@ class App extends StatelessWidget {
     final colorScheme = ColorScheme.fromSeed(
       seedColor: AppColors.primary,
       primary: AppColors.primary,
+      // Material 2 (useMaterial3: false) では Switch/Checkbox/Radio のアクティブ色の既定値が
+      // colorScheme.secondary のため、ここに設定するだけで選択系コントロールがアクセントカラーになる
+      secondary: AppColors.secondary,
     );
 
     return MaterialApp(
@@ -161,6 +164,10 @@ class App extends StatelessWidget {
           ),
         ),
         floatingActionButtonTheme: const FloatingActionButtonThemeData(
+          // M2 の FAB 既定背景は colorScheme.secondary にフォールバックするため、
+          // 作成系の主要アクション(グループ作成 FAB 等)がアクセントカラーにならないようブランド色に固定する
+          backgroundColor: AppColors.primary,
+          foregroundColor: Colors.white,
           extendedTextStyle: TextStyle(fontSize: 16.0, fontWeight: FontWeight.bold),
         ),
         outlinedButtonTheme: OutlinedButtonThemeData(
