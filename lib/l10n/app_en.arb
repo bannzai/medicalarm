@@ -388,6 +388,10 @@
   "@writeDiary": {
     "description": "その日の日記がまだない場合に表示する日記投稿画面への導線ボタンテキスト"
   },
+  "editDiaryTooltip": "Edit diary",
+  "@editDiaryTooltip": {
+    "description": "カレンダーの日付詳細シートにある日記編集アイコンの tooltip"
+  },
   "medicineRegistrationLimit": "The number of registered medications",
   "@medicineRegistrationLimit": {
     "description": "薬の登録数の上限を説明するテキストの一部"

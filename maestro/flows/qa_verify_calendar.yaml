@@ -1,13 +1,16 @@
 # カレンダー機能の E2E (#62):
 # カレンダータブ → 月間カレンダー表示 → 今日の日付タップで日付詳細シート表示 →
-# 「日記を書く」から日記を保存 → シートに保存したメモが反映されることを確認する。
+# 日記を保存(未作成なら新規、作成済みなら編集) → シートに保存したメモが反映されることを確認する。
+# 日記の有無どちらの状態からでも同じ結果に収束するため、繰り返し実行できる(冪等)。
 appId: com.bannzai.medicalarm
 ---
 - runFlow: allow_notification.yaml
 # タブの accessibility ラベルは「カレンダー\nタブ: 3/4」のため、改行を跨いで前方一致させる
 - tapOn: "(?s)カレンダー.*"
 - takeScreenshot: tmp/maestro/calendar_page
-# 今日の日付タイルをタップする。日付は実行日に依存するため実行時に算出する
+# 今日の日付タイルをタップする。日付は実行日に依存するため実行時に算出する。
+# 既知の制約: 実行日が月末寄り(おおむね23日以降)だと、月初行に表示される前月のグレーアウトタイルと
+# 同じ数字が重複し、Maestro が前月側をタップしてフローが失敗することがある
 - evalScript: ${output.todayDay = String(new Date().getDate())}
 - tapOn: "${output.todayDay}"
 - extendedWaitUntil:
@@ -15,11 +18,24 @@ appId: com.bannzai.medicalarm
     timeout: 5000
 - assertVisible: "服薬履歴"
 - takeScreenshot: tmp/maestro/calendar_day_detail_sheet
-- tapOn: "日記を書く"
+# 日記が無い日は「日記を書く」、既にある日(再実行時)は編集アイコン(tooltip: 日記を編集)から開く
+- runFlow:
+    when:
+      visible: "日記を書く"
+    commands:
+      - tapOn: "日記を書く"
+- runFlow:
+    when:
+      notVisible: "日記を書く"
+    commands:
+      - tapOn: "日記を編集"
 - extendedWaitUntil:
     visible: "保存"
     timeout: 5000
-- tapOn: "メモ"
+- tapOn:
+    id: "diary_post_memo_field"
+# 編集導線で開いた場合の既存メモを消してから入力し、どちらの導線でも同じメモに収束させる
+- eraseText: 120
 - inputText: "今日の体調メモ E2E"
 - takeScreenshot: tmp/maestro/diary_post_page
 - tapOn: "保存"
