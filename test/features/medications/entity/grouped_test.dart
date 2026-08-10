@@ -34,6 +34,7 @@ Medicine buildMedicine({
     doseReceiver: const DoseReceiver(id: 'dose-receiver-1', userID: 'user', name: 'me'),
     memo: '',
     memoImageURL: '',
+    minimumDoseIntervalHours: null,
     beganDateTime: beganDateTime,
     pausedDateTime: pausedDateTime,
   );

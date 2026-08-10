@@ -5,8 +5,10 @@ import 'package:medicalarm/entity/timestamp.dart';
 part 'diary.freezed.dart';
 part 'diary.g.dart';
 
+/// Firestore クエリで where 句に渡す Diary ドキュメントのフィールド名。
+/// 値は diary.g.dart のシリアライズ結果のキーと一致させる必要がある
 abstract class DiaryFirestoreKey {
-  static const String date = 'date';
+  static const String diaryDate = 'diaryDate';
 }
 
 @freezed

@@ -14,6 +14,7 @@ import 'package:medicalarm/entity/medication_frequency.dart';
 import 'package:medicalarm/entity/medicine.dart';
 import 'package:medicalarm/features/medicine_form/components/additional_info/section.dart';
 import 'package:medicalarm/features/medicine_form/components/begin/tile.dart';
+import 'package:medicalarm/features/medicine_form/components/interval/tile.dart';
 import 'package:medicalarm/features/medicine_form/components/medication_frequency/tile.dart';
 import 'package:medicalarm/features/medicine_form/components/name_text_field.dart';
 import 'package:medicalarm/features/medicine_form/components/pause/tile.dart';
@@ -38,6 +39,7 @@ class MedicineFormPage extends HookConsumerWidget {
     final name = useState(medicine?.name ?? '');
     final frequency = useState(medicine?.frequency ?? const MedicationFrequency.daily());
     final begin = useState(medicine?.beganDateTime ?? today());
+    final minimumDoseIntervalHours = useState(medicine?.minimumDoseIntervalHours);
     final schedules = useState(medicine?.schedules ?? []);
     final primaryColor = Theme.of(context).colorScheme.primary;
     final memo = useState(medicine?.memo ?? '');
@@ -68,6 +70,7 @@ class MedicineFormPage extends HookConsumerWidget {
           memo: memo.value,
           memoImageURL: memoImageURL.value,
           doseReceiver: doseReceiver.value,
+          minimumDoseIntervalHours: minimumDoseIntervalHours.value,
           beganDateTime: begin.value,
         );
       } else {
@@ -80,6 +83,7 @@ class MedicineFormPage extends HookConsumerWidget {
           memo: memo.value,
           memoImageURL: memoImageURL.value,
           doseReceiver: doseReceiver.value,
+          minimumDoseIntervalHours: minimumDoseIntervalHours.value,
           beganDateTime: begin.value,
         );
       }
@@ -143,6 +147,8 @@ class MedicineFormPage extends HookConsumerWidget {
                                             MedicationFrequencyTile(frequency: frequency),
                                             const SizedBox(height: 6),
                                             MedicationBeginTile(begin: begin),
+                                            const SizedBox(height: 6),
+                                            MedicationIntervalTile(minimumDoseIntervalHours: minimumDoseIntervalHours),
                                             if (currentMedicine != null) ...[
                                               const SizedBox(height: 6),
                                               MedicinePauseTile(medicine: currentMedicine),

@@ -3,6 +3,7 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
+import 'package:medicalarm/features/calendar/page.dart';
 import 'package:medicalarm/features/medications_histories/page.dart';
 import 'package:medicalarm/features/medications/page.dart';
 import 'package:medicalarm/features/settings/page.dart';
@@ -16,7 +17,7 @@ import 'package:medicalarm/utils/local_notification/client.dart';
 import 'package:medicalarm/utils/push_notification/request_permission.dart';
 import 'package:medicalarm/features/localization/l.dart';
 
-enum HomePageTabType { medications, medicationHistories, settings }
+enum HomePageTabType { medications, medicationHistories, calendar, settings }
 
 extension HomePageTabFunctions on HomePageTabType {
   String get screenName {
@@ -25,6 +26,8 @@ extension HomePageTabFunctions on HomePageTabType {
         return 'MedicationsPage';
       case HomePageTabType.medicationHistories:
         return 'MedicationHistoriesPage';
+      case HomePageTabType.calendar:
+        return 'CalendarPage';
       case HomePageTabType.settings:
         return 'SettingsPage';
     }
@@ -92,6 +95,10 @@ class HomePage extends HookConsumerWidget {
                   icon: const Icon(Icons.list_alt_outlined),
                 ),
                 Tab(
+                  text: L.calendar,
+                  icon: const Icon(Icons.calendar_month_outlined),
+                ),
+                Tab(
                   text: L.settings,
                   icon: const Icon(Icons.settings_outlined),
                 ),
@@ -105,6 +112,7 @@ class HomePage extends HookConsumerWidget {
           children: const [
             MedicationsPage(),
             MedicationHistoriesPage(),
+            CalendarPage(),
             SettingPage(),
           ],
         ),

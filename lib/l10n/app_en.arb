@@ -376,6 +376,22 @@
   "@history": {
     "description": "履歴タブのタイトル"
   },
+  "calendar": "Calendar",
+  "@calendar": {
+    "description": "カレンダータブおよびカレンダー画面のタイトル"
+  },
+  "diary": "Diary",
+  "@diary": {
+    "description": "カレンダーの日付詳細に表示する日記セクションのタイトル"
+  },
+  "writeDiary": "Write a diary",
+  "@writeDiary": {
+    "description": "その日の日記がまだない場合に表示する日記投稿画面への導線ボタンテキスト"
+  },
+  "editDiaryTooltip": "Edit diary",
+  "@editDiaryTooltip": {
+    "description": "カレンダーの日付詳細シートにある日記編集アイコンの tooltip"
+  },
   "medicineRegistrationLimit": "The number of registered medications",
   "@medicineRegistrationLimit": {
     "description": "薬の登録数の上限を説明するテキストの一部"
@@ -1019,5 +1035,59 @@
   "accountLinkBannerText": "We strongly recommend setting up account transfer while sharing with a group",
   "@accountLinkBannerText": {
     "description": "グループ共有中かつ未リンクのときにホーム上部へ表示する推奨バナーの文言"
+  },
+  "minimumDoseInterval": "Dose interval",
+  "@minimumDoseInterval": {
+    "description": "薬フォームの最低服用間隔設定タイルのタイトル"
+  },
+  "minimumDoseIntervalDescription": "Minimum time to wait since the last dose",
+  "@minimumDoseIntervalDescription": {
+    "description": "薬フォームの最低服用間隔設定タイルの説明文"
+  },
+  "minimumDoseIntervalNone": "None",
+  "@minimumDoseIntervalNone": {
+    "description": "最低服用間隔が未設定の場合にタイルへ表示する値"
+  },
+  "minimumDoseIntervalHoursFormat": "At least {hours}h",
+  "@minimumDoseIntervalHoursFormat": {
+    "description": "設定済みの最低服用間隔をタイルへ表示する形式",
+    "placeholders": {
+      "hours": {
+        "type": "int",
+        "example": "6"
+      }
+    }
+  },
+  "doseIntervalWarningTitle": "Not enough time since the last dose",
+  "@doseIntervalWarningTitle": {
+    "description": "最低服用間隔が空いていない状態で服薬記録をつけようとした時の注意ダイアログのタイトル"
+  },
+  "doseIntervalWarningMessage": "Last taken at {latestTakeTime}. This medicine is set to require at least {minimumDoseIntervalHours} hours between doses. Record anyway?",
+  "@doseIntervalWarningMessage": {
+    "description": "最低服用間隔が空いていない状態で服薬記録をつけようとした時の注意ダイアログの本文",
+    "placeholders": {
+      "latestTakeTime": {
+        "type": "String",
+        "example": "10:02"
+      },
+      "minimumDoseIntervalHours": {
+        "type": "int",
+        "example": "6"
+      }
+    }
+  },
+  "doseIntervalWarningTakeAnyway": "Record",
+  "@doseIntervalWarningTakeAnyway": {
+    "description": "服用間隔の注意ダイアログで、注意を理解した上で記録を続行するボタン"
+  },
+  "doseIntervalNotificationWarning": "⚠️ Less than {minimumDoseIntervalHours} hours since the last dose",
+  "@doseIntervalNotificationWarning": {
+    "description": "通知が鳴る時点でも最低服用間隔が空いていない薬に対して、通知文面へ追記する注意文",
+    "placeholders": {
+      "minimumDoseIntervalHours": {
+        "type": "int",
+        "example": "6"
+      }
+    }
   }
 }

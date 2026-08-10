@@ -32,6 +32,7 @@ class MedicineAdd {
     required DoseReceiver doseReceiver,
     required String memo,
     required String memoImageURL,
+    required int? minimumDoseIntervalHours,
     required DateTime beganDateTime,
   }) async {
     final collectionRef = database.medicinesReference();
@@ -45,6 +46,7 @@ class MedicineAdd {
       doseReceiver: doseReceiver,
       memo: memo,
       memoImageURL: memoImageURL,
+      minimumDoseIntervalHours: minimumDoseIntervalHours,
       beganDateTime: beganDateTime,
     );
     await docRef.set(medicine, SetOptions(merge: true));
@@ -71,6 +73,7 @@ class MedicineUpdate {
     required DoseReceiver doseReceiver,
     required String memo,
     required String memoImageURL,
+    required int? minimumDoseIntervalHours,
     required DateTime beganDateTime,
   }) async {
     final docRef = database.medicineReference(medicineID: medicineID);
@@ -81,6 +84,7 @@ class MedicineUpdate {
       doseReceiver: doseReceiver,
       memo: memo,
       memoImageURL: memoImageURL,
+      minimumDoseIntervalHours: minimumDoseIntervalHours,
       beganDateTime: beganDateTime,
     );
     await docRef.set(newMedicine, SetOptions(merge: true));

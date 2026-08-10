@@ -99,6 +99,7 @@ make secret  # 環境変数 FILE_FIREBASE_IOS / REVENUE_CAT_PUBLIC_API_KEY が�
 - [medication_frequency_form](lib/features/medication_frequency_form/QA.md) — 服用頻度設定
 - [medications](lib/features/medications/QA.md) — 服薬画面（ホーム）
 - [medications_histories](lib/features/medications_histories/QA.md) — 服薬履歴
+- [calendar](lib/features/calendar/QA.md) — 月間カレンダー・服薬記録と日記の振り返り
 - [diary_post](lib/features/diary_post/QA.md) — 日記投稿
 - [dose_receiver_form](lib/features/dose_receiver_form/QA.md) — 服用者管理
 - [preium_introduction](lib/features/preium_introduction/QA.md) — プレミアム訴求・購入導線
