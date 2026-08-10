@@ -12,6 +12,7 @@ import 'package:medicalarm/features/medications_histories/page.dart';
 import 'package:medicalarm/features/preium_introduction/premium_introduction_sheet.dart';
 import 'package:medicalarm/provider/diary.dart';
 import 'package:medicalarm/provider/medication_history.dart';
+import 'package:medicalarm/style/color.dart';
 import 'package:medicalarm/theme/form.dart';
 import 'package:medicalarm/utils/analytics/analytics.dart';
 import 'package:medicalarm/utils/date_time/date_time_ext.dart';
@@ -92,7 +93,8 @@ class CalendarDayDetailSheet extends HookConsumerWidget {
                       ),
                     ),
                     const SizedBox(height: 16),
-                    const Divider(height: 1),
+                    // テーマの dividerColor (黒) を避け、カレンダーの罫線と揃えた薄い色にする
+                    const Divider(height: 1, color: AppColors.border),
                     const SizedBox(height: 16),
                     Padding(
                       padding: const EdgeInsets.symmetric(horizontal: 16.0),

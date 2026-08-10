@@ -4,6 +4,7 @@ import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:intl/intl.dart';
 import 'package:medicalarm/components/calendar/monthly/pager.dart';
 import 'package:medicalarm/features/localization/l.dart';
+import 'package:medicalarm/style/color.dart';
 import 'package:medicalarm/utils/analytics/analytics.dart';
 import 'package:medicalarm/utils/date_time/date_time_ext.dart';
 
@@ -55,7 +56,8 @@ class CalendarPage extends HookConsumerWidget {
                   ],
                 ),
               ),
-              const Divider(height: 1),
+              // テーマの dividerColor (黒) を避け、カレンダーの罫線と揃えた薄い色にする
+              const Divider(height: 1, color: AppColors.border),
               MonthCalendarPager(displayedMonth: displayedMonth.value),
             ],
           ),
