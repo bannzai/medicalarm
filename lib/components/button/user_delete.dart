@@ -185,7 +185,8 @@ class _CompletedDialog extends StatelessWidget {
             width: 180,
             child: TextButton(
               onPressed: () async {
-                analytics.logEvent(name: 'user_delete_exit_pressed');
+                // exit(0) でプロセスが即終了するため、イベントがネイティブ SDK へ渡るまで待ってから終了する
+                await analytics.logEvent(name: 'user_delete_exit_pressed');
                 exit(0);
               },
               child: Text(
