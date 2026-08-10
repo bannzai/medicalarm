@@ -20,11 +20,13 @@ MedicationSchedule schedule({required String id, required int hour, required int
 }
 
 /// テスト用の候補を作る。
-MedicineImageImportCandidate candidate({required String name}) {
+MedicineImageImportCandidate candidate({required String name, bool isScheduleTimeFallback = false, int droppedScheduleCount = 0}) {
   return MedicineImageImportCandidate(
     name: name,
     schedules: [schedule(id: 'schedule-$name', hour: 8, minute: 0, quantityMemo: '1錠')],
     selected: true,
+    isScheduleTimeFallback: isScheduleTimeFallback,
+    droppedScheduleCount: droppedScheduleCount,
   );
 }
 
@@ -149,6 +151,20 @@ void main() {
     await tester.pumpAndSettle();
 
     expect(readResult(), isNull);
+  });
+
+  testWidgets('仮時刻・上限で除外された服用時刻がある候補には注意書きが表示される', (tester) async {
+    await pumpAndOpenSheet(
+      tester,
+      candidates: [
+        candidate(name: 'ロキソニン', isScheduleTimeFallback: true),
+        candidate(name: 'ガスター', droppedScheduleCount: 1),
+      ],
+      maxSelectableCount: 10,
+    );
+
+    expect(find.text(L.medicineImageImportTimeFallbackCaption), findsOneWidget);
+    expect(find.text(L.medicineImageImportDroppedSchedulesCaption(1)), findsOneWidget);
   });
 
   testWidgets('キャンセルすると null が返る', (tester) async {

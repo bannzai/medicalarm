@@ -28,8 +28,11 @@ const premiumMonthlyImageRecognitionLimit = 50;
 const maxMedicinesPerImage = 20;
 const maxSchedulesPerMedicine = 10;
 
-/// AI 出力の文字列フィールドの足切り長。クライアントの表示・保存を壊さないための異常値ガード。
-const maxTextLength = 100;
+/// 薬名の足切り長。フォーム画面 (MedicineFormNameTextField) の maxLength = 50 と同じ値に揃える。
+const maxNameLength = 50;
+
+/// 服用量メモの足切り長。クライアントの表示・保存を壊さないための異常値ガード。
+const maxQuantityMemoLength = 100;
 
 /// 画像抽出に使う OpenAI モデル。リポジトリ既存の OpenAI 利用 (scripts/translation) と同じ
 /// gpt-4.1-mini に揃える。vision 入力と Structured Outputs (json_schema strict) をサポートし、
@@ -93,12 +96,12 @@ function sanitizeGeneratedMedicines(rawMedicines: unknown): GeneratedMedicine[] 
           minute,
           quantityMemo:
             typeof rawSchedule?.quantityMemo === "string"
-              ? rawSchedule.quantityMemo.trim().slice(0, maxTextLength)
+              ? rawSchedule.quantityMemo.trim().slice(0, maxQuantityMemoLength)
               : "",
         });
       }
     }
-    medicines.push({ name: name.slice(0, maxTextLength), schedules });
+    medicines.push({ name: name.slice(0, maxNameLength), schedules });
   }
   return medicines;
 }

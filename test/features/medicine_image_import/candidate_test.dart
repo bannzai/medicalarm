@@ -21,6 +21,8 @@ void main() {
     expect(candidate.selected, true);
     expect(candidate.schedules.map((schedule) => schedule.toTimeString()), ['08:00', '19:30']);
     expect(candidate.schedules.first.quantityMemo, '1錠');
+    expect(candidate.isScheduleTimeFallback, false);
+    expect(candidate.droppedScheduleCount, 0);
   });
 
   test('スケジュール数が上限を超える場合は変換時に切り捨てられ、シート表示と保存内容が一致する', () {
@@ -38,6 +40,8 @@ void main() {
     );
 
     expect(candidate.schedules.map((schedule) => schedule.toTimeString()), ['08:00', '12:00']);
+    // 除外された件数がシートの注意書き表示に使われる
+    expect(candidate.droppedScheduleCount, 1);
   });
 
   test('服用時刻を読み取れなかった薬はフォームの新規スケジュールと同じ 10:00 が既定になる', () {
@@ -48,5 +52,7 @@ void main() {
 
     expect(candidate.schedules.map((schedule) => schedule.toTimeString()), ['10:00']);
     expect(candidate.schedules.single.quantityMemo, '');
+    // 仮時刻であることがシートの注意書き表示に使われる
+    expect(candidate.isScheduleTimeFallback, true);
   });
 }

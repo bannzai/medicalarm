@@ -1061,5 +1061,19 @@
         "example": "3"
       }
     }
+  },
+  "medicineImageImportTimeFallbackCaption": "Dose time could not be detected, so a provisional time is set. You can edit it after registration",
+  "@medicineImageImportTimeFallbackCaption": {
+    "description": "服用時刻を抽出できず仮の時刻を設定した候補にレビューシートで表示する注意書き"
+  },
+  "medicineImageImportDroppedSchedulesCaption": "{count} dose times over the limit will not be registered",
+  "@medicineImageImportDroppedSchedulesCaption": {
+    "description": "スケジュール数の上限で除外された服用時刻がある候補にレビューシートで表示する注意書き",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "1"
+      }
+    }
   }
 }

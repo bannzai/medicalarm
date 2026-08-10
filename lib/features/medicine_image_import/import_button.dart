@@ -40,9 +40,13 @@ MedicineImageImportCandidate medicineImageImportCandidate({required Map<String, 
   return MedicineImageImportCandidate(
     name: generatedMedicine['name'] as String? ?? '',
     // 保存には 1 件以上のスケジュールが必要 (MedicineFormPage の canSubmit と同じ制約) なため、
-    // 服用時刻を読み取れなかった薬はフォームの新規スケジュールと同じ 10:00 を既定にする。
+    // 服用時刻を読み取れなかった薬はフォームの新規スケジュールと同じ 10:00 を仮設定し、
+    // 仮時刻であることをシートに表示する (isScheduleTimeFallback)。
     schedules: schedules.isEmpty ? [_newSchedule(hour: 10, minute: 0, quantityMemo: '')] : schedules.take(scheduleMaxCount).toList(),
     selected: true,
+    isScheduleTimeFallback: schedules.isEmpty,
+    // 上限で除外した件数はシートに表示し、服用時刻が黙って欠けないようにする
+    droppedScheduleCount: schedules.length > scheduleMaxCount ? schedules.length - scheduleMaxCount : 0,
   );
 }
 
@@ -91,9 +95,9 @@ class MedicineImageImportButton extends HookConsumerWidget {
       }
       isLoading.value = true;
       try {
-        final file = File(photo.path);
-        final base64Image = await base64CompressImage(file);
-        final generatedMedicines = await functions.generateMedicinesFromImage(mimeType: mimeType(file), base64Image: base64Image);
+        final base64Image = await base64CompressImage(File(photo.path));
+        // base64CompressImage は元画像の形式を問わず JPEG に再エンコードするため、元ファイルの拡張子ではなく JPEG 固定で送る
+        final generatedMedicines = await functions.generateMedicinesFromImage(mimeType: 'image/jpeg', base64Image: base64Image);
         if (!context.mounted) {
           return;
         }
@@ -108,19 +112,23 @@ class MedicineImageImportButton extends HookConsumerWidget {
         if (selectedCandidates == null || selectedCandidates.isEmpty) {
           return;
         }
-        for (final candidate in selectedCandidates) {
-          await medicineAdd(
-            name: candidate.name,
-            // スケジュール数の切り捨ては medicineImageImportCandidate (変換時) で適用済み。
-            // ここの take はプレミアム失効等で build 間に上限が変わった場合の保険。
-            frequency: const MedicationFrequency.daily(),
-            schedules: candidate.schedules.take(scheduleMaxCount).toList(),
-            doseReceiver: DoseReceiver.firstUser(userID: appUserID),
-            memo: '',
-            memoImageURL: '',
-            beganDateTime: today(),
-          );
-        }
+        // 複数件の登録は WriteBatch で原子的に行う (途中失敗による部分保存と、再実行時の重複登録を防ぐ)
+        await medicineAdd.callAll(
+          medicineInputs: [
+            for (final candidate in selectedCandidates)
+              (
+                name: candidate.name,
+                frequency: const MedicationFrequency.daily(),
+                // スケジュール数の切り捨ては medicineImageImportCandidate (変換時) で適用済み。
+                // ここの take はプレミアム失効等で build 間に上限が変わった場合の保険。
+                schedules: candidate.schedules.take(scheduleMaxCount).toList(),
+                doseReceiver: DoseReceiver.firstUser(userID: appUserID),
+                memo: '',
+                memoImageURL: '',
+                beganDateTime: today(),
+              ),
+          ],
+        );
         unawaited(registerReminderLocalNotification());
         if (context.mounted) {
           ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(L.medicineImageImportCompletedSnackbar(selectedCandidates.length))));

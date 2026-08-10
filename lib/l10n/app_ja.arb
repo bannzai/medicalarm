@@ -1125,5 +1125,19 @@
         "example": "3"
       }
     }
+  },
+  "medicineImageImportTimeFallbackCaption": "服用時刻を読み取れなかったため仮の時刻です。登録後に編集できます",
+  "@medicineImageImportTimeFallbackCaption": {
+    "description": "服用時刻を抽出できず仮の時刻を設定した候補にレビューシートで表示する注意書き"
+  },
+  "medicineImageImportDroppedSchedulesCaption": "上限を超えた服用時刻{count}件は登録されません",
+  "@medicineImageImportDroppedSchedulesCaption": {
+    "description": "スケジュール数の上限で除外された服用時刻がある候補にレビューシートで表示する注意書き",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "1"
+      }
+    }
   }
 }

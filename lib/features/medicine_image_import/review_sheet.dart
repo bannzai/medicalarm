@@ -18,10 +18,27 @@ class MedicineImageImportCandidate {
   /// シート上で登録対象として選択されているか。
   final bool selected;
 
-  MedicineImageImportCandidate({required this.name, required this.schedules, required this.selected});
+  /// 服用時刻を読み取れず仮の時刻を設定したか。シートで仮時刻である旨を表示する。
+  final bool isScheduleTimeFallback;
 
-  MedicineImageImportCandidate copyWith({String? name, bool? selected}) =>
-      MedicineImageImportCandidate(name: name ?? this.name, schedules: schedules, selected: selected ?? this.selected);
+  /// スケジュール数のプレミアム制限で除外された服用時刻の件数。シートで除外された旨を表示する。
+  final int droppedScheduleCount;
+
+  MedicineImageImportCandidate({
+    required this.name,
+    required this.schedules,
+    required this.selected,
+    required this.isScheduleTimeFallback,
+    required this.droppedScheduleCount,
+  });
+
+  MedicineImageImportCandidate copyWith({String? name, bool? selected}) => MedicineImageImportCandidate(
+        name: name ?? this.name,
+        schedules: schedules,
+        selected: selected ?? this.selected,
+        isScheduleTimeFallback: isScheduleTimeFallback,
+        droppedScheduleCount: droppedScheduleCount,
+      );
 }
 
 /// 画像から読み取った候補をユーザーが取捨選択・名前編集するシートを表示する。
@@ -123,6 +140,8 @@ class MedicineImageImportReviewSheet extends HookWidget {
                                         children: [
                                           TextFormField(
                                             initialValue: candidate.name,
+                                            // フォームの名前欄 (MedicineFormNameTextField) と同じ上限
+                                            maxLength: 50,
                                             onChanged: (value) {
                                               final copied = [...editedCandidates.value];
                                               copied[index] = candidate.copyWith(name: value);
@@ -138,6 +157,18 @@ class MedicineImageImportReviewSheet extends HookWidget {
                                                 .join(' / '),
                                             style: const TextStyle(fontSize: 12, color: TextColor.gray),
                                           ),
+                                          if (candidate.isScheduleTimeFallback) ...[
+                                            Text(
+                                              L.medicineImageImportTimeFallbackCaption,
+                                              style: const TextStyle(fontSize: 12, color: TextColor.danger),
+                                            ),
+                                          ],
+                                          if (candidate.droppedScheduleCount > 0) ...[
+                                            Text(
+                                              L.medicineImageImportDroppedSchedulesCaption(candidate.droppedScheduleCount),
+                                              style: const TextStyle(fontSize: 12, color: TextColor.danger),
+                                            ),
+                                          ],
                                           const SizedBox(height: 8),
                                         ],
                                       ),
