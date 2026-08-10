@@ -1,5 +1,3 @@
-import 'dart:ui';
-
 import 'package:collection/collection.dart';
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
@@ -101,79 +99,79 @@ class CalendarDayDetailSheet extends HookConsumerWidget {
                       child: Text(L.medicationHistory, style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold, color: primaryColor)),
                     ),
                     const SizedBox(height: 8),
-                    Stack(
-                      children: [
-                        // 課金状態が未解決(customerInfo が null)の間は過去日の服薬記録を描画しない(フェイルクローズ)。
-                        // 描画すると、課金状態の解決が遅い・失敗した場合にプレミアム制限を迂回して過去の記録を閲覧できてしまう
-                        if (date.isBefore(today()) && customerInfo == null) ...[
-                          const SizedBox(width: double.infinity, height: 120, child: Indicator()),
-                        ] else ...[
-                          medicationHistories.when(
-                            data: (histories) {
-                              if (histories.isEmpty) {
-                                return SizedBox(
-                                  width: double.infinity,
-                                  // プレミアム誘導のぼかしオーバーレイ(Positioned.fill)が潰れない程度の空表示エリアを確保する
-                                  height: 120,
-                                  child: const MedicationHistoryEmpty(),
-                                );
-                              }
-                              return Column(
-                                children: [
-                                  for (final history in histories) ...[
-                                    // 履歴画面と同様に、取消(revert)の記録も服薬記録と同じ一覧に行として表示する (#253)
-                                    if (history.action is RevertMedicationHistoryAction) ...[
-                                      MedicationHistoryRevertTile(history: history),
-                                    ] else ...[
-                                      MedicationHistoryTile(history: history),
-                                    ],
-                                    const SizedBox(height: 10),
-                                  ],
-                                ],
-                              );
-                            },
-                            error: (error, _) => Padding(
-                              padding: const EdgeInsets.symmetric(horizontal: 16.0),
-                              child: Text(error.toString()),
-                            ),
-                            loading: () => const SizedBox(width: double.infinity, height: 120, child: Indicator()),
+                    // 課金状態が未解決(customerInfo が null)の間は過去日の服薬記録を描画しない(フェイルクローズ)。
+                    // 描画すると、課金状態の解決が遅い・失敗した場合にプレミアム制限を迂回して過去の記録を閲覧できてしまう
+                    if (date.isBefore(today()) && customerInfo == null) ...[
+                      const SizedBox(width: double.infinity, height: 120, child: Indicator()),
+                    ] else if (customerInfo?.hasPremiumEntitlement == false && date.isBefore(today())) ...[
+                      // 履歴画面(medications_histories)と同じ条件で過去日の服薬記録の閲覧をプレミアム加入者に限定する。
+                      // 履歴画面の黒ぼかしは背後に記録カードがある前提の表現で、このシートでは暗い帯に見えるだけのため、
+                      // 記録は描画せず、既存のプレミアム訴求(PremiumFeatures の白カード + 服用者フォームの青下線リンク)に
+                      // 合わせた明るいカードに置き換えている
+                      Padding(
+                        padding: const EdgeInsets.symmetric(horizontal: 16.0),
+                        child: Container(
+                          width: double.infinity,
+                          padding: const EdgeInsets.symmetric(vertical: 16.0, horizontal: 10.0),
+                          decoration: BoxDecoration(
+                            color: Colors.white,
+                            borderRadius: BorderRadius.circular(8),
+                            border: Border.all(color: AppColors.border),
                           ),
-                        ],
-                        // 履歴画面(medications_histories)と同じ条件で過去日の服薬記録の閲覧をプレミアム加入者に限定し、
-                        // カレンダー経由で閲覧制限を迂回できないようにする
-                        if (customerInfo?.hasPremiumEntitlement == false && date.isBefore(today())) ...[
-                          Positioned.fill(
-                            child: ClipRRect(
-                              child: Stack(
-                                children: [
-                                  BackdropFilter(
-                                    filter: ImageFilter.blur(sigmaX: 6, sigmaY: 6),
-                                    child: Container(
-                                      color: Colors.black.withValues(alpha: 0.5),
-                                    ),
+                          child: Column(
+                            children: [
+                              Icon(Icons.lock_outline, size: 32, color: primaryColor),
+                              const SizedBox(height: 8),
+                              TextButton(
+                                onPressed: () {
+                                  showPremiumIntroductionSheet(context);
+                                },
+                                child: Text(
+                                  L.premiumRequired,
+                                  textAlign: TextAlign.center,
+                                  style: const TextStyle(
+                                    color: Colors.blue,
+                                    fontWeight: FontWeight.bold,
+                                    decoration: TextDecoration.underline,
                                   ),
-                                  Center(
-                                    child: TextButton(
-                                      onPressed: () {
-                                        showPremiumIntroductionSheet(context);
-                                      },
-                                      child: Text(
-                                        L.premiumRequired,
-                                        style: const TextStyle(
-                                          color: Colors.blue,
-                                          fontWeight: FontWeight.bold,
-                                          decoration: TextDecoration.underline,
-                                        ),
-                                      ),
-                                    ),
-                                  ),
-                                ],
+                                ),
                               ),
-                            ),
+                            ],
                           ),
-                        ],
-                      ],
-                    ),
+                        ),
+                      ),
+                    ] else ...[
+                      medicationHistories.when(
+                        data: (histories) {
+                          if (histories.isEmpty) {
+                            return SizedBox(
+                              width: double.infinity,
+                              // ローディング表示(Indicator)と高さを揃え、状態遷移時のレイアウトのガタつきを防ぐ
+                              height: 120,
+                              child: const MedicationHistoryEmpty(),
+                            );
+                          }
+                          return Column(
+                            children: [
+                              for (final history in histories) ...[
+                                // 履歴画面と同様に、取消(revert)の記録も服薬記録と同じ一覧に行として表示する (#253)
+                                if (history.action is RevertMedicationHistoryAction) ...[
+                                  MedicationHistoryRevertTile(history: history),
+                                ] else ...[
+                                  MedicationHistoryTile(history: history),
+                                ],
+                                const SizedBox(height: 10),
+                              ],
+                            ],
+                          );
+                        },
+                        error: (error, _) => Padding(
+                          padding: const EdgeInsets.symmetric(horizontal: 16.0),
+                          child: Text(error.toString()),
+                        ),
+                        loading: () => const SizedBox(width: double.infinity, height: 120, child: Indicator()),
+                      ),
+                    ],
                   ],
                 ),
               ),

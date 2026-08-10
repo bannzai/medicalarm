@@ -105,7 +105,7 @@ void main() {
       expect(find.text(L.premiumRequired), findsNothing);
     });
 
-    testWidgets('過去日で非プレミアムならプレミアム誘導を表示する', (tester) async {
+    testWidgets('過去日で非プレミアムなら服薬記録の代わりにプレミアム誘導カードを表示する', (tester) async {
       final date = today().addDays(-1);
       await tester.pumpWidget(buildSheet(date: date, overrides: [
         diariesForDateTimeRangeProvider(dateTimeRange: dayRange(date)).overrideWith((ref) => Stream.value(<Diary>[])),
@@ -116,6 +116,9 @@ void main() {
       await tester.pump();
 
       expect(find.text(L.premiumRequired), findsOneWidget);
+      expect(find.byIcon(Icons.lock_outline), findsOneWidget);
+      // 制限中は服薬記録セクション自体を描画しない(空表示も出さない)
+      expect(find.text(L.noMedicationHistory), findsNothing);
     });
   });
 }
