@@ -117,6 +117,9 @@ class App extends StatelessWidget {
     final colorScheme = ColorScheme.fromSeed(
       seedColor: AppColors.primary,
       primary: AppColors.primary,
+      // Material 2 (useMaterial3: false) では Switch/Checkbox/Radio のアクティブ色の既定値が
+      // colorScheme.secondary のため、ここに設定するだけで選択系コントロールがアクセントカラーになる
+      secondary: AppColors.secondary,
     );
 
     return MaterialApp(
