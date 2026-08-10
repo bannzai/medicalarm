@@ -22,9 +22,9 @@ jobs:
             echo "「## 人間が確認」セクションが無いためチェック対象外です"
             exit 0
           fi
-          unchecked=$(printf '%s\n' "$section" | grep -Ec '^[[:space:]]*([-*+]|[0-9]+[.)]) \[ \]' || true)
+          unchecked=$(printf '%s\n' "$section" | grep -Ec '^[[:space:]]*([-*+]|[0-9]+[.)])[[:space:]]+\[ \]' || true)
           if [ "$unchecked" -gt 0 ]; then
-            printf '%s\n' "$section" | grep -En '^[[:space:]]*([-*+]|[0-9]+[.)]) \[ \]'
+            printf '%s\n' "$section" | grep -En '^[[:space:]]*([-*+]|[0-9]+[.)])[[:space:]]+\[ \]'
             echo "::error::「## 人間が確認」に未チェック項目が ${unchecked} 件あります。人間が確認してチェックを入れてください"
             exit 1
           fi
