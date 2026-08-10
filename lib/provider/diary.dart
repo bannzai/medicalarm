@@ -34,7 +34,10 @@ class DiaryPost {
     required String memo,
     required DateTime diaryDate,
   }) async {
-    final docRef = database.diaryReference(diaryID: diary?.id);
+    // 新規作成は日付から決定したドキュメント ID を使う。複数メンバーが同じ日の空の日記を同時に作成しても
+    // 1 ドキュメントに収束させるため(auto-ID だと日記が重複し、表示・編集対象が不定になる)。
+    // 既存日記(auto-ID 時代の日記を含む)は diary.id をそのまま使い続ける
+    final docRef = database.diaryReference(diaryID: diary?.id ?? diaryDocumentID(diaryDate: diaryDate));
     // 既存日記の編集時も入力された memo を反映する。diary をそのまま書き戻すと編集内容が保存されない
     final newDiary = diary?.copyWith(memo: memo) ??
         Diary(
@@ -47,6 +50,11 @@ class DiaryPost {
     await docRef.set(newDiary, SetOptions(merge: true));
     return newDiary;
   }
+}
+
+/// 日付ごとに 1 つの日記ドキュメントへ収束させるための決定的なドキュメント ID(例: diary-20260810)
+String diaryDocumentID({required DateTime diaryDate}) {
+  return 'diary-${diaryDate.year}${diaryDate.month.toString().padLeft(2, '0')}${diaryDate.day.toString().padLeft(2, '0')}';
 }
 
 @Riverpod(dependencies: [currentGroupDatabase, appUserID])
