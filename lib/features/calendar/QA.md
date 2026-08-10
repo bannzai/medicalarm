@@ -1,7 +1,7 @@
 ---
 feature: calendar
 verification: maestro
-last_verified_commit: 4efe6f3d1d798a530da1f4272935cdc0995529a0
+last_verified_commit: 258bf23b3f31c54d3bb0374562dfc179160b04e7
 last_verified_at: 2026-08-10
 ---
 
@@ -47,9 +47,8 @@ AppBar「カレンダー」、月ナビゲーション「2026年8月」、曜日
 - [ ] **取消記録の表示**: 取消（revert）された記録も取消行として表示される
   - ⏭️ 未検証: 検証アカウントに取消記録が無く未確認（表示は履歴画面と同一の `MedicationHistoryRevertTile` を再利用）
 - [x] **記録なしの表示**: 服薬記録がない日は「服薬履歴がありません」が表示される
-- [x] **プレミアム制限（表示）**: 非課金ユーザーが過去日を開くと服薬記録一覧にぼかしと「プレミアムプランの加入で閲覧が可能です」が表示される
-- [ ] **プレミアム制限（導線）**: 上記リンクのタップでプレミアム紹介シートが開く
-  - ⏭️ 未検証: リンクタップまでは実施していない
+- [x] **プレミアム制限（表示）**: 非課金ユーザーが過去日を開くと、服薬記録一覧の代わりに鍵アイコン付きの白カードと「プレミアムプランの加入で閲覧が可能です」リンクが表示される（記録・空表示は描画されない）
+- [x] **プレミアム制限（導線）**: 上記リンクのタップでプレミアム紹介シート（プラン一覧）が開く
 
 <details><summary>動作確認エビデンス</summary>
 
@@ -59,9 +58,13 @@ AppBar「カレンダー」、月ナビゲーション「2026年8月」、曜日
 
 <img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260810/4dded448-d379-453e-85bf-387de1cb222e.png" width="320">
 
-非課金 × 過去日(8/9)のプレミアム制限ぼかし（日記は制限対象外のため「日記を書く」は表示される）:
+非課金 × 過去日(8/9)のプレミアム誘導カード（日記は制限対象外のためメモが表示されている）:
 
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260810/c7197934-d56c-4a67-af3a-b65a5946edee.png" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260810/b8ee57a4-49ce-4c97-935f-6e28287cfb16.png" width="320">
+
+リンクタップで開くプレミアム紹介シート:
+
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260810/79eb2377-7c04-414f-9107-51d4301b8a8b.png" width="320">
 
 </details>
 
