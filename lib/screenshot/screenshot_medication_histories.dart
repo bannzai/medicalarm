@@ -245,6 +245,7 @@ class MedicationHistoryTile extends HookConsumerWidget {
 
 List<Medicine> get medicines => [
       Medicine(
+        minimumDoseIntervalHours: null,
         id: '1',
         userID: '1',
         name: L.screenshotMedicationName1,
@@ -270,6 +271,7 @@ List<Medicine> get medicines => [
         ],
       ),
       Medicine(
+        minimumDoseIntervalHours: null,
         id: '2',
         userID: '2',
         name: L.screenshotMedicationName2,

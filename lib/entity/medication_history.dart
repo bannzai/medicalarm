@@ -1,4 +1,5 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:collection/collection.dart';
 import 'package:medicalarm/entity/timestamp.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:medicalarm/entity/medicine.dart';
@@ -51,6 +52,18 @@ List<MedicationHistory> effectiveTakeMedicationHistories(List<MedicationHistory>
                 TakeMedicationHistoryAction() || SkipMedicationHistoryAction() => false,
               }))
       .toList();
+}
+
+/// 指定した薬の直近の有効な服用(take)の記録日時を返す。有効な take が無い場合は null。
+/// 最低服用間隔([Medicine.minimumDoseIntervalHours])の判定に使う (#81)
+DateTime? latestEffectiveTakeRecordedDateTime({
+  required List<MedicationHistory> medicationHistories,
+  required String medicineID,
+}) {
+  return effectiveTakeMedicationHistories(medicationHistories)
+      .where((history) => history.medicine.id == medicineID)
+      .map((history) => history.recordedDateTime)
+      .maxOrNull;
 }
 
 @freezed

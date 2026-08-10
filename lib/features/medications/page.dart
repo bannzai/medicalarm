@@ -16,6 +16,7 @@ import 'package:medicalarm/entity/group_member_notification_settings.dart';
 import 'package:medicalarm/entity/medication_history.dart';
 import 'package:medicalarm/entity/medicine.dart';
 import 'package:medicalarm/features/medications/components/add_button.dart';
+import 'package:medicalarm/features/medications/components/dose_interval_warning_dialog.dart';
 import 'package:medicalarm/components/calendar/day/today_badge.dart';
 import 'package:medicalarm/features/medications/components/group_chips_bar.dart';
 import 'package:medicalarm/features/medications/entity/grouped.dart';
@@ -271,9 +272,13 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
     // 実行中の undo(revert の取り下げ)。undo 完了前に再アンチェックされた場合に、
     // 取り消し対象の take を undo の結果から引き継いで再アンチェックを破棄しないために保持する
     final pendingUndoWrite = useRef<Future<MedicationHistory?>?>(null);
+    // 実行中の間隔チェック(takeWithIntervalCheck)の世代。チェックのたびに進め、
+    // フェッチ・ダイアログ待ちの古い継続が最新の操作を追い越して記録しないようにする (#81)
+    final takeOperationGeneration = useRef(0);
     final medicationHistoryTake = ref.watch(medicationHistoryTakeProvider);
     final medicationHistoryRevert = ref.watch(medicationHistoryRevertProvider);
     final medicationHistoryUndoRevert = ref.watch(medicationHistoryUndoRevertProvider);
+    final recentMedicationHistoriesFetch = ref.watch(recentMedicationHistoriesFetchProvider);
     final registerReminderLocalNotification = ref.watch(registerReminderLocalNotificationProvider);
 
     // 行キーが安定化され snapshot 更新で widget が再生成されなくなったため、他メンバーの操作による
@@ -342,6 +347,56 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
           ),
         );
       }
+    }
+
+    // 最低服用間隔([Medicine.minimumDoseIntervalHours])が空いていない場合に注意ダイアログを挟んでから記録する (#81)。
+    // 記録は無効化せず、続行するかどうかはユーザーに委ねる
+    Future<void> takeWithIntervalCheck() async {
+      final minimumDoseIntervalHours = scheduleRow.medicine.minimumDoseIntervalHours;
+      // 服用間隔の警告は新規の服用記録にだけ出す。既存記録の再書き込み(取消競合からの復元)は服用の追加ではないため対象外
+      if (minimumDoseIntervalHours == null || scheduleRow.medicationHistory != null) {
+        return take();
+      }
+      final operationGeneration = ++takeOperationGeneration.value;
+      // フェッチ・ダイアログの待機中にアンチェックや新しいチェック操作が行われた場合、この継続が
+      // 最新のユーザー操作を追い越して記録しないよう、待機明けごとに意図を確認して破棄する
+      bool isStale() => takeOperationGeneration.value != operationGeneration || !isChecked.value;
+      final now = DateTime.now();
+      final DateTime? latestTakeRecordedDateTime;
+      try {
+        latestTakeRecordedDateTime = latestEffectiveTakeRecordedDateTime(
+          medicationHistories: await recentMedicationHistoriesFetch.call(
+            recordedSinceDateTime: now.subtract(Duration(hours: minimumDoseIntervalHours)),
+          ),
+          medicineID: scheduleRow.medicine.id,
+        );
+      } catch (e, st) {
+        // 間隔チェックは補助機能。取得に失敗しても記録自体は止めない
+        errorLogger.recordError(e, st);
+        if (context.mounted && !isStale()) {
+          await take();
+        }
+        return;
+      }
+      if (!context.mounted || isStale()) {
+        return;
+      }
+      if (latestTakeRecordedDateTime == null || !now.isBefore(latestTakeRecordedDateTime.add(Duration(hours: minimumDoseIntervalHours)))) {
+        return take();
+      }
+      final shouldTake = await showDoseIntervalWarningDialog(
+        context,
+        minimumDoseIntervalHours: minimumDoseIntervalHours,
+        latestTakeRecordedDateTime: latestTakeRecordedDateTime,
+      );
+      if (!context.mounted || isStale()) {
+        return;
+      }
+      if (shouldTake == true) {
+        return take();
+      }
+      // キャンセル(ダイアログ外タップで閉じた場合を含む)は記録しない。チェック表示を実状態へ戻す
+      isChecked.value = false;
     }
 
     // 「元に戻す」操作。数秒前の自分の取消の undo なので、履歴に「取消 → 取消の取消」を連ねず
@@ -497,7 +552,7 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
                             ScaffoldMessenger.of(context).hideCurrentSnackBar();
                             unawaited(startUndo(revertWrite));
                           } else {
-                            unawaited(take());
+                            unawaited(takeWithIntervalCheck());
                           }
                         } else {
                           unawaited(revertWithUndo());

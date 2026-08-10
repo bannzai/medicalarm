@@ -1083,5 +1083,59 @@
   "accountLinkBannerText": "グループ共有中はアカウント引き継ぎ設定を強くおすすめします",
   "@accountLinkBannerText": {
     "description": "グループ共有中かつ未リンクのときにホーム上部へ表示する推奨バナーの文言"
+  },
+  "minimumDoseInterval": "服用間隔",
+  "@minimumDoseInterval": {
+    "description": "薬フォームの最低服用間隔設定タイルのタイトル"
+  },
+  "minimumDoseIntervalDescription": "前回の服用から最低限空ける時間",
+  "@minimumDoseIntervalDescription": {
+    "description": "薬フォームの最低服用間隔設定タイルの説明文"
+  },
+  "minimumDoseIntervalNone": "なし",
+  "@minimumDoseIntervalNone": {
+    "description": "最低服用間隔が未設定の場合にタイルへ表示する値"
+  },
+  "minimumDoseIntervalHoursFormat": "{hours}時間以上",
+  "@minimumDoseIntervalHoursFormat": {
+    "description": "設定済みの最低服用間隔をタイルへ表示する形式",
+    "placeholders": {
+      "hours": {
+        "type": "int",
+        "example": "6"
+      }
+    }
+  },
+  "doseIntervalWarningTitle": "服用間隔が空いていません",
+  "@doseIntervalWarningTitle": {
+    "description": "最低服用間隔が空いていない状態で服薬記録をつけようとした時の注意ダイアログのタイトル"
+  },
+  "doseIntervalWarningMessage": "{latestTakeTime} に服用済みです。前回の服用から{minimumDoseIntervalHours}時間以上空ける設定になっています。それでも記録しますか？",
+  "@doseIntervalWarningMessage": {
+    "description": "最低服用間隔が空いていない状態で服薬記録をつけようとした時の注意ダイアログの本文",
+    "placeholders": {
+      "latestTakeTime": {
+        "type": "String",
+        "example": "10:02"
+      },
+      "minimumDoseIntervalHours": {
+        "type": "int",
+        "example": "6"
+      }
+    }
+  },
+  "doseIntervalWarningTakeAnyway": "記録する",
+  "@doseIntervalWarningTakeAnyway": {
+    "description": "服用間隔の注意ダイアログで、注意を理解した上で記録を続行するボタン"
+  },
+  "doseIntervalNotificationWarning": "⚠️ 前回の服用から{minimumDoseIntervalHours}時間空いていません",
+  "@doseIntervalNotificationWarning": {
+    "description": "通知が鳴る時点でも最低服用間隔が空いていない薬に対して、通知文面へ追記する注意文",
+    "placeholders": {
+      "minimumDoseIntervalHours": {
+        "type": "int",
+        "example": "6"
+      }
+    }
   }
 }
