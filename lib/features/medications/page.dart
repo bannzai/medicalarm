@@ -16,6 +16,7 @@ import 'package:medicalarm/entity/group_member_notification_settings.dart';
 import 'package:medicalarm/entity/medication_history.dart';
 import 'package:medicalarm/entity/medicine.dart';
 import 'package:medicalarm/features/medications/components/add_button.dart';
+import 'package:medicalarm/features/medications/components/dose_interval_warning_dialog.dart';
 import 'package:medicalarm/components/calendar/day/today_badge.dart';
 import 'package:medicalarm/features/medications/components/group_chips_bar.dart';
 import 'package:medicalarm/features/medications/entity/grouped.dart';
@@ -274,6 +275,7 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
     final medicationHistoryTake = ref.watch(medicationHistoryTakeProvider);
     final medicationHistoryRevert = ref.watch(medicationHistoryRevertProvider);
     final medicationHistoryUndoRevert = ref.watch(medicationHistoryUndoRevertProvider);
+    final recentMedicationHistoriesFetch = ref.watch(recentMedicationHistoriesFetchProvider);
     final registerReminderLocalNotification = ref.watch(registerReminderLocalNotificationProvider);
 
     // 行キーが安定化され snapshot 更新で widget が再生成されなくなったため、他メンバーの操作による
@@ -342,6 +344,52 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
           ),
         );
       }
+    }
+
+    // 最低服用間隔([Medicine.minimumDoseIntervalHours])が空いていない場合に注意ダイアログを挟んでから記録する (#81)。
+    // 記録は無効化せず、続行するかどうかはユーザーに委ねる
+    Future<void> takeWithIntervalCheck() async {
+      final minimumDoseIntervalHours = scheduleRow.medicine.minimumDoseIntervalHours;
+      // 服用間隔の警告は新規の服用記録にだけ出す。既存記録の再書き込み(取消競合からの復元)は服用の追加ではないため対象外
+      if (minimumDoseIntervalHours == null || scheduleRow.medicationHistory != null) {
+        return take();
+      }
+      final now = DateTime.now();
+      final DateTime? latestTakeRecordedDateTime;
+      try {
+        latestTakeRecordedDateTime = latestEffectiveTakeRecordedDateTime(
+          medicationHistories: await recentMedicationHistoriesFetch.call(
+            recordedSinceDateTime: now.subtract(Duration(hours: minimumDoseIntervalHours)),
+          ),
+          medicineID: scheduleRow.medicine.id,
+        );
+      } catch (e, st) {
+        // 間隔チェックは補助機能。取得に失敗しても記録自体は止めない
+        errorLogger.recordError(e, st);
+        if (context.mounted) {
+          await take();
+        }
+        return;
+      }
+      if (!context.mounted) {
+        return;
+      }
+      if (latestTakeRecordedDateTime == null || !now.isBefore(latestTakeRecordedDateTime.add(Duration(hours: minimumDoseIntervalHours)))) {
+        return take();
+      }
+      final shouldTake = await showDoseIntervalWarningDialog(
+        context,
+        minimumDoseIntervalHours: minimumDoseIntervalHours,
+        latestTakeRecordedDateTime: latestTakeRecordedDateTime,
+      );
+      if (!context.mounted) {
+        return;
+      }
+      if (shouldTake == true) {
+        return take();
+      }
+      // キャンセル(ダイアログ外タップで閉じた場合を含む)は記録しない。チェック表示を実状態へ戻す
+      isChecked.value = false;
     }
 
     // 「元に戻す」操作。数秒前の自分の取消の undo なので、履歴に「取消 → 取消の取消」を連ねず
@@ -497,7 +545,7 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
                             ScaffoldMessenger.of(context).hideCurrentSnackBar();
                             unawaited(startUndo(revertWrite));
                           } else {
-                            unawaited(take());
+                            unawaited(takeWithIntervalCheck());
                           }
                         } else {
                           unawaited(revertWithUndo());

@@ -169,6 +169,21 @@ class _MedicationHistoriesByDateProviderElement extends AutoDisposeStreamProvide
   DateTime get date => (origin as MedicationHistoriesByDateProvider).date;
 }
 
+String _$recentMedicationHistoriesFetchHash() => r'b00de1e6cdca7d7a3ba9662f5a00fef31f6a40b3';
+
+/// See also [recentMedicationHistoriesFetch].
+@ProviderFor(recentMedicationHistoriesFetch)
+final recentMedicationHistoriesFetchProvider = AutoDisposeProvider<RecentMedicationHistoriesFetch>.internal(
+  recentMedicationHistoriesFetch,
+  name: r'recentMedicationHistoriesFetchProvider',
+  debugGetCreateSourceHash: const bool.fromEnvironment('dart.vm.product') ? null : _$recentMedicationHistoriesFetchHash,
+  dependencies: <ProviderOrFamily>[currentGroupDatabaseProvider],
+  allTransitiveDependencies: <ProviderOrFamily>{currentGroupDatabaseProvider, ...?currentGroupDatabaseProvider.allTransitiveDependencies},
+);
+
+@Deprecated('Will be removed in 3.0. Use Ref instead')
+// ignore: unused_element
+typedef RecentMedicationHistoriesFetchRef = AutoDisposeProviderRef<RecentMedicationHistoriesFetch>;
 String _$medicationHistoryTakeHash() => r'ada635b681520377dfddf2c595dd910346c5d406';
 
 /// See also [medicationHistoryTake].

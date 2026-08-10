@@ -9,6 +9,8 @@ import 'package:medicalarm/entity/medication_history.dart';
 import 'package:medicalarm/entity/medicine.dart';
 import 'package:medicalarm/features/medications/entity/grouped.dart';
 import 'package:medicalarm/features/medications/page.dart';
+import 'package:medicalarm/provider/app_user.dart';
+import 'package:medicalarm/provider/group_member_notification_settings.dart';
 import 'package:medicalarm/provider/medication_history.dart';
 import 'package:medicalarm/utils/local_notification/client.dart';
 import 'package:mockito/annotations.dart';
@@ -30,7 +32,7 @@ const medicationSchedule = MedicationSchedule(
   focusConnectSetting: null,
 );
 
-Medicine buildMedicine() {
+Medicine buildMedicine({int? minimumDoseIntervalHours}) {
   return Medicine(
     id: 'medicine-1',
     userID: 'user-a',
@@ -40,6 +42,7 @@ Medicine buildMedicine() {
     doseReceiver: const DoseReceiver(id: 'dose-receiver-1', userID: 'user-a', name: '自分'),
     memo: '',
     memoImageURL: '',
+    minimumDoseIntervalHours: minimumDoseIntervalHours,
     beganDateTime: DateTime(2026, 7, 1),
   );
 }
@@ -95,11 +98,11 @@ MedicationGroupScheduleRow buildCheckedScheduleRow() {
 }
 
 // revert 追記の snapshot 反映後(take が打ち消された後)の未チェック状態の行
-MedicationGroupScheduleRow buildUncheckedScheduleRow() {
+MedicationGroupScheduleRow buildUncheckedScheduleRow({int? minimumDoseIntervalHours}) {
   return MedicationGroupScheduleRow(
     id: 'row-1',
     medicationHistory: null,
-    medicine: buildMedicine(),
+    medicine: buildMedicine(minimumDoseIntervalHours: minimumDoseIntervalHours),
     medicationSchedule: medicationSchedule,
     quantityMemo: '',
     date: DateTime.now(),
@@ -110,22 +113,34 @@ MedicationGroupScheduleRow buildUncheckedScheduleRow() {
   MockSpec<MedicationHistoryTake>(),
   MockSpec<MedicationHistoryRevert>(),
   MockSpec<MedicationHistoryUndoRevert>(),
+  MockSpec<RecentMedicationHistoriesFetch>(),
   MockSpec<RegisterReminderLocalNotification>(),
 ])
 void main() {
   late MockMedicationHistoryTake medicationHistoryTake;
   late MockMedicationHistoryRevert medicationHistoryRevert;
   late MockMedicationHistoryUndoRevert medicationHistoryUndoRevert;
+  late MockRecentMedicationHistoriesFetch recentMedicationHistoriesFetch;
   late MockRegisterReminderLocalNotification registerReminderLocalNotification;
 
   setUp(() {
     medicationHistoryTake = MockMedicationHistoryTake();
     medicationHistoryRevert = MockMedicationHistoryRevert();
     medicationHistoryUndoRevert = MockMedicationHistoryUndoRevert();
+    recentMedicationHistoriesFetch = MockRecentMedicationHistoriesFetch();
     registerReminderLocalNotification = MockRegisterReminderLocalNotification();
+    when(medicationHistoryTake.call(
+      medicationHistory: anyNamed('medicationHistory'),
+      recordedDateTime: anyNamed('recordedDateTime'),
+      scheduledRecordedDate: anyNamed('scheduledRecordedDate'),
+      medicine: anyNamed('medicine'),
+      medicationSchedule: anyNamed('medicationSchedule'),
+      memberSettings: anyNamed('memberSettings'),
+    )).thenAnswer((_) async => buildMedicationHistory());
     when(medicationHistoryRevert.call(takeMedicationHistory: anyNamed('takeMedicationHistory')))
         .thenAnswer((_) async => buildRevertMedicationHistory());
     when(medicationHistoryUndoRevert.call(revertMedicationHistory: anyNamed('revertMedicationHistory'))).thenAnswer((_) async => true);
+    when(recentMedicationHistoriesFetch.call(recordedSinceDateTime: anyNamed('recordedSinceDateTime'))).thenAnswer((_) async => []);
     when(registerReminderLocalNotification.call()).thenAnswer((_) async {});
   });
 
@@ -136,7 +151,11 @@ void main() {
           medicationHistoryTakeProvider.overrideWith((ref) => medicationHistoryTake),
           medicationHistoryRevertProvider.overrideWith((ref) => medicationHistoryRevert),
           medicationHistoryUndoRevertProvider.overrideWith((ref) => medicationHistoryUndoRevert),
+          recentMedicationHistoriesFetchProvider.overrideWith((ref) => recentMedicationHistoriesFetch),
           registerReminderLocalNotificationProvider.overrideWith((ref) => registerReminderLocalNotification),
+          // take の実行経路(#81 の間隔チェック後の記録)が読む依存。FirebaseAuth 等の実体へ触れないよう固定値にする
+          appUserIDProvider.overrideWith((ref) => 'user-a'),
+          groupMemberNotificationSettingsProvider.overrideWith((ref) => Stream.value(null)),
         ],
         child: MaterialApp(
           home: Scaffold(
@@ -312,6 +331,85 @@ void main() {
       expect((captured[1] as MedicationHistory).id, 'history-1');
       // ユーザーの最新操作(アンチェック)が維持される
       expect(tester.widget<Checkbox>(find.byType(Checkbox)).value, false);
+    });
+  });
+
+  // #81: 最低服用間隔が空いていない場合は注意ダイアログを挟む。記録自体は無効化しない
+  group('MedicineTileScheduleRow の服用間隔チェック', () {
+    void verifyTakeCalled(int count) {
+      final verification = verify(medicationHistoryTake.call(
+        medicationHistory: anyNamed('medicationHistory'),
+        recordedDateTime: anyNamed('recordedDateTime'),
+        scheduledRecordedDate: anyNamed('scheduledRecordedDate'),
+        medicine: anyNamed('medicine'),
+        medicationSchedule: anyNamed('medicationSchedule'),
+        memberSettings: anyNamed('memberSettings'),
+      ));
+      verification.called(count);
+    }
+
+    void verifyTakeNeverCalled() {
+      verifyNever(medicationHistoryTake.call(
+        medicationHistory: anyNamed('medicationHistory'),
+        recordedDateTime: anyNamed('recordedDateTime'),
+        scheduledRecordedDate: anyNamed('scheduledRecordedDate'),
+        medicine: anyNamed('medicine'),
+        medicationSchedule: anyNamed('medicationSchedule'),
+        memberSettings: anyNamed('memberSettings'),
+      ));
+    }
+
+    testWidgets('間隔内に直近の服用があると注意ダイアログが表示され、キャンセルで記録されない', (tester) async {
+      // buildMedicationHistory() の recordedDateTime は現在時刻 = 間隔(6時間)内の直近服用
+      when(recentMedicationHistoriesFetch.call(recordedSinceDateTime: anyNamed('recordedSinceDateTime')))
+          .thenAnswer((_) async => [buildMedicationHistory()]);
+      await pumpScheduleRow(tester, scheduleRow: buildUncheckedScheduleRow(minimumDoseIntervalHours: 6));
+
+      await tester.tap(find.byType(Checkbox));
+      await tester.pumpAndSettle();
+
+      expect(find.text('服用間隔が空いていません'), findsOneWidget);
+
+      await tester.tap(find.text('キャンセル'));
+      await tester.pumpAndSettle();
+
+      // 記録は作られず、チェック表示も実状態(未チェック)へ戻る
+      expect(tester.widget<Checkbox>(find.byType(Checkbox)).value, false);
+      verifyTakeNeverCalled();
+    });
+
+    testWidgets('注意ダイアログで記録するを選ぶと take が発行される(無効化されない)', (tester) async {
+      when(recentMedicationHistoriesFetch.call(recordedSinceDateTime: anyNamed('recordedSinceDateTime')))
+          .thenAnswer((_) async => [buildMedicationHistory()]);
+      await pumpScheduleRow(tester, scheduleRow: buildUncheckedScheduleRow(minimumDoseIntervalHours: 6));
+
+      await tester.tap(find.byType(Checkbox));
+      await tester.pumpAndSettle();
+      await tester.tap(find.text('記録する'));
+      await tester.pumpAndSettle();
+
+      expect(tester.widget<Checkbox>(find.byType(Checkbox)).value, true);
+      verifyTakeCalled(1);
+    });
+
+    testWidgets('間隔内に有効な服用が無ければダイアログなしで記録される', (tester) async {
+      await pumpScheduleRow(tester, scheduleRow: buildUncheckedScheduleRow(minimumDoseIntervalHours: 6));
+
+      await tester.tap(find.byType(Checkbox));
+      await tester.pumpAndSettle();
+
+      expect(find.text('服用間隔が空いていません'), findsNothing);
+      verifyTakeCalled(1);
+    });
+
+    testWidgets('間隔設定の無い薬は直近履歴の取得自体を行わずに記録される', (tester) async {
+      await pumpScheduleRow(tester, scheduleRow: buildUncheckedScheduleRow());
+
+      await tester.tap(find.byType(Checkbox));
+      await tester.pumpAndSettle();
+
+      verifyNever(recentMedicationHistoriesFetch.call(recordedSinceDateTime: anyNamed('recordedSinceDateTime')));
+      verifyTakeCalled(1);
     });
   });
 }
