@@ -167,9 +167,25 @@ class RegisterReminderLocalNotification {
       ref.read(groupMemberNotificationSettingsProvider.future),
     ).wait;
 
+    // 通知文面の間隔警告(#81)は日付をまたいだ直近の服用も対象にするため、当日分(medicationHistories)とは別に
+    // recordedDateTime 基準で取得する。間隔設定のある薬が無ければ読まない
+    final longestMinimumDoseIntervalHours = medicines.map((medicine) => medicine.minimumDoseIntervalHours).nonNulls.maxOrNull;
+    List<MedicationHistory> recentMedicationHistories = [];
+    if (longestMinimumDoseIntervalHours != null) {
+      try {
+        recentMedicationHistories = await ref
+            .read(recentMedicationHistoriesFetchProvider)
+            .call(recordedSinceDateTime: DateTime.now().subtract(Duration(hours: longestMinimumDoseIntervalHours)));
+      } catch (e, st) {
+        // 間隔警告は補助機能。取得に失敗しても通知の再登録自体は止めない(キャンセル済みの通知が消えたままになるのを防ぐ)
+        errorLogger.recordError(e, st);
+      }
+    }
+
     await run(
       medicines: medicines,
       medicationHistories: medicationHistories,
+      recentMedicationHistories: recentMedicationHistories,
       memberNotificationSettings: memberNotificationSettings,
       currentUserID: ref.read(appUserIDProvider),
       loopCount: 0,
@@ -180,6 +196,8 @@ class RegisterReminderLocalNotification {
   static Future<void> run({
     required List<Medicine> medicines,
     required List<MedicationHistory> medicationHistories,
+    // 間隔警告(#81)の判定専用。当日分に限らず、最低服用間隔の範囲内に記録された服薬記録を渡す
+    required List<MedicationHistory> recentMedicationHistories,
     // 自分のメンバー個別通知設定。未作成なら null。有効設定の解決に使う
     required GroupMemberNotificationSettings? memberNotificationSettings,
     // 有効設定の解決で作成者判定に使う自分の uid
@@ -194,6 +212,23 @@ class RegisterReminderLocalNotification {
 
     final List<Future<void>> futures = [];
     final tzNow = tz.TZDateTime.now(tz.local);
+
+    // 最低服用間隔が設定された薬で、通知が鳴る時点でも前回の服用から間隔が空いていない場合に付ける注意文 (#81)。
+    // 通知は無効化せず、文面への注意の追記だけを行う
+    String doseIntervalWarningLineOf({required MedicationGroupScheduleRow scheduleRow, required DateTime fireDateTime}) {
+      final minimumDoseIntervalHours = scheduleRow.medicine.minimumDoseIntervalHours;
+      if (minimumDoseIntervalHours == null) {
+        return '';
+      }
+      final latestTakeRecordedDateTime = latestEffectiveTakeRecordedDateTime(
+        medicationHistories: recentMedicationHistories,
+        medicineID: scheduleRow.medicine.id,
+      );
+      if (latestTakeRecordedDateTime == null || !fireDateTime.isBefore(latestTakeRecordedDateTime.add(Duration(hours: minimumDoseIntervalHours)))) {
+        return '';
+      }
+      return '${L.doseIntervalNotificationWarning(minimumDoseIntervalHours)}\n';
+    }
 
     final offset = loopCount * registerDays;
     var badgeNumber = 0;
@@ -265,6 +300,7 @@ class RegisterReminderLocalNotification {
           var message = '';
           for (final scheduleRow in reminderEnabledScheduleRows) {
             message += '${scheduleRow.medicine.doseReceiver.name} ${scheduleRow.medicine.name} ${scheduleRow.quantityMemo}\n';
+            message += doseIntervalWarningLineOf(scheduleRow: scheduleRow, fireDateTime: reminderDateTime);
           }
           final notificationID = _calcLocalNotificationID(
             isReminder: true,
@@ -352,9 +388,11 @@ class RegisterReminderLocalNotification {
 
         final followUpEnabledScheduleRows = group.scheduleRows.where((row) => effectiveSettingOf(row).isFollowupEnabled);
         if (followUpEnabledScheduleRows.isNotEmpty) {
+          final followupDateTime = reminderDateTime.add(const Duration(minutes: 30));
           var message = '';
           for (final scheduleRow in followUpEnabledScheduleRows) {
             message += '${scheduleRow.medicine.doseReceiver.name} ${scheduleRow.medicine.name} ${scheduleRow.quantityMemo}\n';
+            message += doseIntervalWarningLineOf(scheduleRow: scheduleRow, fireDateTime: followupDateTime);
           }
           final notificationID = _calcLocalNotificationID(
             isReminder: false,
@@ -367,8 +405,6 @@ class RegisterReminderLocalNotification {
           futures.add(
             Future(() async {
               try {
-                final followupDateTime = reminderDateTime.add(const Duration(minutes: 30));
-
                 // Local Notificationを登録
                 await localNotificationService.plugin.zonedSchedule(
                   notificationID,
@@ -449,6 +485,7 @@ class RegisterReminderLocalNotification {
       run(
         medicines: medicines,
         medicationHistories: medicationHistories,
+        recentMedicationHistories: recentMedicationHistories,
         memberNotificationSettings: memberNotificationSettings,
         currentUserID: currentUserID,
         loopCount: loopCount + 1,

@@ -32,6 +32,26 @@ Stream<List<MedicationHistory>> medicationHistoriesByDate(MedicationHistoriesRef
       .map((event) => event.docs.map((doc) => doc.data()).toList());
 }
 
+/// 最低服用間隔([Medicine.minimumDoseIntervalHours])の判定に使う、直近の服薬記録の取得 (#81)。
+/// タップ時・通知登録時の一回限りの判定にだけ使うため、snapshot listener ではなく get で読む。
+/// 判定対象は「間隔の起点(recordedSinceDateTime)以降に記録されたもの」だけで足りる。
+/// それより前の take は間隔違反になり得ず、take が範囲内なら打ち消す revert も必ず範囲内に入る(revert は take より後に記録されるため)
+class RecentMedicationHistoriesFetch {
+  final GroupDatabase database;
+
+  RecentMedicationHistoriesFetch({required this.database});
+
+  Future<List<MedicationHistory>> call({required DateTime recordedSinceDateTime}) async {
+    final snapshot = await database.medicationHistoriesReference().where('recordedDateTime', isGreaterThanOrEqualTo: recordedSinceDateTime).get();
+    return snapshot.docs.map((doc) => doc.data()).toList();
+  }
+}
+
+@Riverpod(dependencies: [currentGroupDatabase])
+RecentMedicationHistoriesFetch recentMedicationHistoriesFetch(RecentMedicationHistoriesFetchRef ref) {
+  return RecentMedicationHistoriesFetch(database: ref.watch(currentGroupDatabaseProvider));
+}
+
 class MedicationHistoryTake {
   final GroupDatabase database;
   // 記録者(自分)の uid。userID(作成者) と recordedByUserID(記録者) の両方に設定する。
