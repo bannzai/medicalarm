@@ -25,7 +25,10 @@ import 'package:uuid/uuid.dart';
 
 // Functions の抽出結果 (JSON) をレビューシート用の候補に変換する。
 // 通知設定はフォームの新規スケジュール (MedicineScheduleAddButton) と同じ既定値にする。
-MedicineImageImportCandidate _toCandidate(Map<String, dynamic> generatedMedicine) {
+// スケジュール数はフォーム画面 (MedicineScheduleAddButton) と同じプレミアム制限 (scheduleMaxCount) を
+// この時点で切り捨てる。登録時ではなく変換時に切り捨てるのは、レビューシートの表示と実際に保存される
+// 内容を一致させるため (表示された服用時刻が保存時に黙って消えると飲み忘れにつながる)。
+MedicineImageImportCandidate medicineImageImportCandidate({required Map<String, dynamic> generatedMedicine, required int scheduleMaxCount}) {
   final schedules = [
     for (final schedule in (generatedMedicine['schedules'] as List<dynamic>? ?? <dynamic>[]).cast<Map<String, dynamic>>())
       _newSchedule(
@@ -38,7 +41,7 @@ MedicineImageImportCandidate _toCandidate(Map<String, dynamic> generatedMedicine
     name: generatedMedicine['name'] as String? ?? '',
     // 保存には 1 件以上のスケジュールが必要 (MedicineFormPage の canSubmit と同じ制約) なため、
     // 服用時刻を読み取れなかった薬はフォームの新規スケジュールと同じ 10:00 を既定にする。
-    schedules: schedules.isEmpty ? [_newSchedule(hour: 10, minute: 0, quantityMemo: '')] : schedules,
+    schedules: schedules.isEmpty ? [_newSchedule(hour: 10, minute: 0, quantityMemo: '')] : schedules.take(scheduleMaxCount).toList(),
     selected: true,
   );
 }
@@ -96,7 +99,10 @@ class MedicineImageImportButton extends HookConsumerWidget {
         }
         final selectedCandidates = await showMedicineImageImportReviewSheet(
           context: context,
-          candidates: generatedMedicines.map(_toCandidate).toList(),
+          candidates: [
+            for (final generatedMedicine in generatedMedicines)
+              medicineImageImportCandidate(generatedMedicine: generatedMedicine, scheduleMaxCount: scheduleMaxCount),
+          ],
           maxSelectableCount: medicineMaxCount - createdMedicinesCount,
         );
         if (selectedCandidates == null || selectedCandidates.isEmpty) {
@@ -105,9 +111,9 @@ class MedicineImageImportButton extends HookConsumerWidget {
         for (final candidate in selectedCandidates) {
           await medicineAdd(
             name: candidate.name,
+            // スケジュール数の切り捨ては medicineImageImportCandidate (変換時) で適用済み。
+            // ここの take はプレミアム失効等で build 間に上限が変わった場合の保険。
             frequency: const MedicationFrequency.daily(),
-            // スケジュール数はフォーム画面 (MedicineScheduleAddButton) と同じプレミアム制限を適用する。
-            // 画像からの一括登録でフォームでは作れない件数の薬ができるのを防ぐため、超過分は切り捨てる。
             schedules: candidate.schedules.take(scheduleMaxCount).toList(),
             doseReceiver: DoseReceiver.firstUser(userID: appUserID),
             memo: '',
