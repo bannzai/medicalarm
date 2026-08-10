@@ -4,6 +4,7 @@ import 'package:medicalarm/components/button/user_delete.dart';
 import 'package:medicalarm/features/account_link/sheet.dart';
 import 'package:medicalarm/features/localization/l.dart';
 import 'package:medicalarm/provider/user_groups.dart';
+import 'package:medicalarm/utils/analytics/analytics.dart';
 
 /// グループ共有中(いずれかのグループの memberUserIDs が 2 人以上)かつ未リンク(Apple / Google のいずれも未連携)のとき、
 /// ホーム上部にアカウント引き継ぎを強く推奨するバナーを表示する。
@@ -22,7 +23,10 @@ class AccountLinkBanner extends ConsumerWidget {
 
     final primaryColor = Theme.of(context).colorScheme.primary;
     return GestureDetector(
-      onTap: () => showAccountLinkSheet(context),
+      onTap: () {
+        analytics.logEvent(name: 'account_link_banner_tapped');
+        showAccountLinkSheet(context);
+      },
       child: Container(
         width: double.infinity,
         padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
