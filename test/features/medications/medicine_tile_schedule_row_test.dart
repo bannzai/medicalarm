@@ -411,5 +411,26 @@ void main() {
       verifyNever(recentMedicationHistoriesFetch.call(recordedSinceDateTime: anyNamed('recordedSinceDateTime')));
       verifyTakeCalled(1);
     });
+
+    // 低速回線などで直近履歴の取得が遅延している間にアンチェックされた場合、取得完了後の継続が
+    // ユーザーの最新操作(未チェック)を追い越して記録してはならない
+    testWidgets('間隔チェックの取得中にアンチェックした場合、取得完了後も記録されない', (tester) async {
+      final fetchCompleter = Completer<List<MedicationHistory>>();
+      when(recentMedicationHistoriesFetch.call(recordedSinceDateTime: anyNamed('recordedSinceDateTime'))).thenAnswer((_) => fetchCompleter.future);
+      await pumpScheduleRow(tester, scheduleRow: buildUncheckedScheduleRow(minimumDoseIntervalHours: 6));
+
+      await tester.tap(find.byType(Checkbox));
+      await tester.pump();
+      // 取得完了前にアンチェック
+      await tester.tap(find.byType(Checkbox));
+      await tester.pump();
+
+      fetchCompleter.complete([]);
+      await tester.pumpAndSettle();
+
+      expect(tester.widget<Checkbox>(find.byType(Checkbox)).value, false);
+      verifyTakeNeverCalled();
+      expect(find.text('服用間隔が空いていません'), findsNothing);
+    });
   });
 }

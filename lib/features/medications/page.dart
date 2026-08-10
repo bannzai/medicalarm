@@ -272,6 +272,9 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
     // 実行中の undo(revert の取り下げ)。undo 完了前に再アンチェックされた場合に、
     // 取り消し対象の take を undo の結果から引き継いで再アンチェックを破棄しないために保持する
     final pendingUndoWrite = useRef<Future<MedicationHistory?>?>(null);
+    // 実行中の間隔チェック(takeWithIntervalCheck)の世代。チェックのたびに進め、
+    // フェッチ・ダイアログ待ちの古い継続が最新の操作を追い越して記録しないようにする (#81)
+    final takeOperationGeneration = useRef(0);
     final medicationHistoryTake = ref.watch(medicationHistoryTakeProvider);
     final medicationHistoryRevert = ref.watch(medicationHistoryRevertProvider);
     final medicationHistoryUndoRevert = ref.watch(medicationHistoryUndoRevertProvider);
@@ -354,6 +357,10 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
       if (minimumDoseIntervalHours == null || scheduleRow.medicationHistory != null) {
         return take();
       }
+      final operationGeneration = ++takeOperationGeneration.value;
+      // フェッチ・ダイアログの待機中にアンチェックや新しいチェック操作が行われた場合、この継続が
+      // 最新のユーザー操作を追い越して記録しないよう、待機明けごとに意図を確認して破棄する
+      bool isStale() => takeOperationGeneration.value != operationGeneration || !isChecked.value;
       final now = DateTime.now();
       final DateTime? latestTakeRecordedDateTime;
       try {
@@ -366,12 +373,12 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
       } catch (e, st) {
         // 間隔チェックは補助機能。取得に失敗しても記録自体は止めない
         errorLogger.recordError(e, st);
-        if (context.mounted) {
+        if (context.mounted && !isStale()) {
           await take();
         }
         return;
       }
-      if (!context.mounted) {
+      if (!context.mounted || isStale()) {
         return;
       }
       if (latestTakeRecordedDateTime == null || !now.isBefore(latestTakeRecordedDateTime.add(Duration(hours: minimumDoseIntervalHours)))) {
@@ -382,7 +389,7 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
         minimumDoseIntervalHours: minimumDoseIntervalHours,
         latestTakeRecordedDateTime: latestTakeRecordedDateTime,
       );
-      if (!context.mounted) {
+      if (!context.mounted || isStale()) {
         return;
       }
       if (shouldTake == true) {
