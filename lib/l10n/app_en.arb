@@ -1019,5 +1019,47 @@
   "accountLinkBannerText": "We strongly recommend setting up account transfer while sharing with a group",
   "@accountLinkBannerText": {
     "description": "グループ共有中かつ未リンクのときにホーム上部へ表示する推奨バナーの文言"
+  },
+  "medicineImageImport": "Add from image",
+  "@medicineImageImport": {
+    "description": "お薬手帳・処方箋などの画像から薬を登録するボタンのラベル"
+  },
+  "medicineImageImportReviewTitle": "Medicines from image",
+  "@medicineImageImportReviewTitle": {
+    "description": "画像から読み取った薬の候補を確認するシートのタイトル"
+  },
+  "medicineImageImportEmpty": "No medicines could be detected from the image",
+  "@medicineImageImportEmpty": {
+    "description": "画像から薬の候補を 1 件も読み取れなかった場合にシートへ表示する文言"
+  },
+  "medicineImageImportSelectableLimit": "Only {count} more can be registered",
+  "@medicineImageImportSelectableLimit": {
+    "description": "読み取った候補が薬の登録数制限の残り枠を超えている場合の注意書き",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "2"
+      }
+    }
+  },
+  "medicineImageImportAddCount": "Add {count}",
+  "@medicineImageImportAddCount": {
+    "description": "レビューシートで選択中の候補を登録する確定ボタンのラベル",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "3"
+      }
+    }
+  },
+  "medicineImageImportCompletedSnackbar": "Registered {count} medicines",
+  "@medicineImageImportCompletedSnackbar": {
+    "description": "画像から読み取った薬の登録完了時に表示する SnackBar",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "3"
+      }
+    }
   }
 }

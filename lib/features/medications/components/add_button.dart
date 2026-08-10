@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:medicalarm/entity/medicine.dart';
 import 'package:medicalarm/features/medicine_form/page.dart';
+import 'package:medicalarm/features/medicine_image_import/import_button.dart';
 import 'package:medicalarm/features/preium_introduction/premium_introduction_sheet.dart';
 import 'package:medicalarm/provider/app_user.dart';
 import 'package:medicalarm/style/color.dart';
@@ -10,10 +11,7 @@ import 'package:medicalarm/utils/purchase/purchase.dart';
 import 'package:medicalarm/features/localization/l.dart';
 
 class MedicalAddFloatingActionButtonChild extends HookConsumerWidget {
-  const MedicalAddFloatingActionButtonChild({
-    super.key,
-    required this.medicines,
-  });
+  const MedicalAddFloatingActionButtonChild({super.key, required this.medicines});
 
   final List<Medicine> medicines;
 
@@ -27,8 +25,10 @@ class MedicalAddFloatingActionButtonChild extends HookConsumerWidget {
       child: Column(
         children: [
           if (createdMedicinesCount >= Medicine.maxCount(hasPremiumEntitlement: customerInfo?.hasPremiumEntitlement)) ...[
-            Text(L.medicineMaxCount(Medicine.maxCount(hasPremiumEntitlement: customerInfo?.hasPremiumEntitlement)),
-                style: const TextStyle(color: TextColor.danger)),
+            Text(
+              L.medicineMaxCount(Medicine.maxCount(hasPremiumEntitlement: customerInfo?.hasPremiumEntitlement)),
+              style: const TextStyle(color: TextColor.danger),
+            ),
             const SizedBox(height: 4),
             if (customerInfo?.hasPremiumEntitlement == false) ...[
               TextButton(
@@ -37,11 +37,7 @@ class MedicalAddFloatingActionButtonChild extends HookConsumerWidget {
                 },
                 child: Text(
                   L.increaseMedicineLimitWithPremium(Medicine.maxCount(hasPremiumEntitlement: true)),
-                  style: const TextStyle(
-                    color: Colors.blue,
-                    fontWeight: FontWeight.bold,
-                    decoration: TextDecoration.underline,
-                  ),
+                  style: const TextStyle(color: Colors.blue, fontWeight: FontWeight.bold, decoration: TextDecoration.underline),
                 ),
               ),
             ],
@@ -55,6 +51,8 @@ class MedicalAddFloatingActionButtonChild extends HookConsumerWidget {
             icon: const Icon(Icons.add),
             label: Text(L.addMedicine),
           ),
+          const SizedBox(height: 8),
+          MedicineImageImportButton(medicines: medicines),
         ],
       ),
     );
