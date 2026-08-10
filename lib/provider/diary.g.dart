@@ -6,7 +6,7 @@ part of 'diary.dart';
 // RiverpodGenerator
 // **************************************************************************
 
-String _$diariesForDateTimeRangeHash() => r'ed98c022b269c0da1d74a05d06a178cc2f6c9f0b';
+String _$diariesForDateTimeRangeHash() => r'cecf66d62d14f76645287a7726466dd4c0c8cf0a';
 
 /// Copied from Dart SDK
 class _SystemHash {

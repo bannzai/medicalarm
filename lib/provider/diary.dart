@@ -13,7 +13,7 @@ Stream<List<Diary>> diariesForDateTimeRange(DiariesForDateTimeRangeRef ref, {req
   return database
       .diariesReference()
       .where(
-        DiaryFirestoreKey.date,
+        DiaryFirestoreKey.diaryDate,
         isGreaterThanOrEqualTo: dateTimeRange.start,
         isLessThanOrEqualTo: dateTimeRange.end,
       )
@@ -35,7 +35,8 @@ class DiaryPost {
     required DateTime diaryDate,
   }) async {
     final docRef = database.diaryReference(diaryID: diary?.id);
-    final newDiary = diary ??
+    // 既存日記の編集時も入力された memo を反映する。diary をそのまま書き戻すと編集内容が保存されない
+    final newDiary = diary?.copyWith(memo: memo) ??
         Diary(
           id: docRef.id,
           userID: userID,
