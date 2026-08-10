@@ -26,11 +26,9 @@ class CalendarDayDetailSheet extends HookConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     // DiaryPostPage で保存して戻った直後の内容をシートに反映するため、タップ時点の値を引き回さず provider を watch する
-    final diary = ref
-        .watch(diariesForDateTimeRangeProvider(
-            dateTimeRange: DateTimeRange(start: date.date(), end: date.date().add(const Duration(days: 1)).subtract(const Duration(seconds: 1)))))
-        .valueOrNull
-        ?.firstWhereOrNull((diary) => isSameDay(diary.diaryDate, date));
+    final diariesAsync = ref.watch(diariesForDateTimeRangeProvider(
+        dateTimeRange: DateTimeRange(start: date.date(), end: date.date().add(const Duration(days: 1)).subtract(const Duration(seconds: 1)))));
+    final diary = diariesAsync.valueOrNull?.firstWhereOrNull((diary) => isSameDay(diary.diaryDate, date));
     final medicationHistories = ref.watch(medicationHistoriesByDateProvider(date));
     final customerInfo = ref.watch(customerInfoProvider).asData?.value;
     final primaryColor = Theme.of(context).colorScheme.primary;
@@ -59,6 +57,7 @@ class CalendarDayDetailSheet extends HookConsumerWidget {
                           const Spacer(),
                           if (diary != null) ...[
                             IconButton(
+                              tooltip: L.editDiaryTooltip,
                               onPressed: () {
                                 analytics.logEvent(name: 'calendar_day_edit_diary_button_pressed');
                                 Navigator.of(context).push(DiaryPostPageRoute.route(date, diary));
@@ -69,24 +68,29 @@ class CalendarDayDetailSheet extends HookConsumerWidget {
                         ],
                       ),
                     ),
-                    if (diary == null) ...[
-                      Padding(
-                        padding: const EdgeInsets.symmetric(horizontal: 16.0),
-                        child: TextButton.icon(
-                          onPressed: () {
-                            analytics.logEvent(name: 'calendar_day_write_diary_button_pressed');
-                            Navigator.of(context).push(DiaryPostPageRoute.route(date, null));
-                          },
-                          icon: const Icon(Icons.add),
-                          label: Text(L.writeDiary, style: const TextStyle(fontWeight: FontWeight.bold)),
-                        ),
+                    // 日記が無いと取得完了後に確定するまで「日記を書く」を出さない。
+                    // ロード中に出すと、既存日記がある日にタップされた場合に別ドキュメントが重複作成されてしまう
+                    Padding(
+                      padding: const EdgeInsets.symmetric(horizontal: 16.0),
+                      child: diariesAsync.when(
+                        data: (diaries) {
+                          final loadedDiary = diaries.firstWhereOrNull((diary) => isSameDay(diary.diaryDate, date));
+                          if (loadedDiary == null) {
+                            return TextButton.icon(
+                              onPressed: () {
+                                analytics.logEvent(name: 'calendar_day_write_diary_button_pressed');
+                                Navigator.of(context).push(DiaryPostPageRoute.route(date, null));
+                              },
+                              icon: const Icon(Icons.add),
+                              label: Text(L.writeDiary, style: const TextStyle(fontWeight: FontWeight.bold)),
+                            );
+                          }
+                          return Text(loadedDiary.memo);
+                        },
+                        error: (error, _) => Text(error.toString()),
+                        loading: () => const SizedBox(width: double.infinity, height: 48, child: Indicator()),
                       ),
-                    ] else ...[
-                      Padding(
-                        padding: const EdgeInsets.symmetric(horizontal: 16.0),
-                        child: Text(diary.memo),
-                      ),
-                    ],
+                    ),
                     const SizedBox(height: 16),
                     const Divider(height: 1),
                     const SizedBox(height: 16),
@@ -97,36 +101,42 @@ class CalendarDayDetailSheet extends HookConsumerWidget {
                     const SizedBox(height: 8),
                     Stack(
                       children: [
-                        medicationHistories.when(
-                          data: (histories) {
-                            if (histories.isEmpty) {
-                              return SizedBox(
-                                width: double.infinity,
-                                // プレミアム誘導のぼかしオーバーレイ(Positioned.fill)が潰れない程度の空表示エリアを確保する
-                                height: 120,
-                                child: const MedicationHistoryEmpty(),
-                              );
-                            }
-                            return Column(
-                              children: [
-                                for (final history in histories) ...[
-                                  // 履歴画面と同様に、取消(revert)の記録も服薬記録と同じ一覧に行として表示する (#253)
-                                  if (history.action is RevertMedicationHistoryAction) ...[
-                                    MedicationHistoryRevertTile(history: history),
-                                  ] else ...[
-                                    MedicationHistoryTile(history: history),
+                        // 課金状態が未解決(customerInfo が null)の間は過去日の服薬記録を描画しない(フェイルクローズ)。
+                        // 描画すると、課金状態の解決が遅い・失敗した場合にプレミアム制限を迂回して過去の記録を閲覧できてしまう
+                        if (date.isBefore(today()) && customerInfo == null) ...[
+                          const SizedBox(width: double.infinity, height: 120, child: Indicator()),
+                        ] else ...[
+                          medicationHistories.when(
+                            data: (histories) {
+                              if (histories.isEmpty) {
+                                return SizedBox(
+                                  width: double.infinity,
+                                  // プレミアム誘導のぼかしオーバーレイ(Positioned.fill)が潰れない程度の空表示エリアを確保する
+                                  height: 120,
+                                  child: const MedicationHistoryEmpty(),
+                                );
+                              }
+                              return Column(
+                                children: [
+                                  for (final history in histories) ...[
+                                    // 履歴画面と同様に、取消(revert)の記録も服薬記録と同じ一覧に行として表示する (#253)
+                                    if (history.action is RevertMedicationHistoryAction) ...[
+                                      MedicationHistoryRevertTile(history: history),
+                                    ] else ...[
+                                      MedicationHistoryTile(history: history),
+                                    ],
+                                    const SizedBox(height: 10),
                                   ],
-                                  const SizedBox(height: 10),
                                 ],
-                              ],
-                            );
-                          },
-                          error: (error, _) => Padding(
-                            padding: const EdgeInsets.symmetric(horizontal: 16.0),
-                            child: Text(error.toString()),
+                              );
+                            },
+                            error: (error, _) => Padding(
+                              padding: const EdgeInsets.symmetric(horizontal: 16.0),
+                              child: Text(error.toString()),
+                            ),
+                            loading: () => const SizedBox(width: double.infinity, height: 120, child: Indicator()),
                           ),
-                          loading: () => const SizedBox(width: double.infinity, height: 120, child: Indicator()),
-                        ),
+                        ],
                         // 履歴画面(medications_histories)と同じ条件で過去日の服薬記録の閲覧をプレミアム加入者に限定し、
                         // カレンダー経由で閲覧制限を迂回できないようにする
                         if (customerInfo?.hasPremiumEntitlement == false && date.isBefore(today())) ...[
