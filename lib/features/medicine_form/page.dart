@@ -107,6 +107,7 @@ class MedicineFormPage extends HookConsumerWidget {
                     actions: [
                       IconButton(
                         onPressed: () async {
+                          analytics.logEvent(name: 'medicine_form_delete_pressed');
                           final medicineID = medicine?.id;
                           if (medicineID != null) {
                             try {
@@ -197,6 +198,7 @@ class MedicineFormPage extends HookConsumerWidget {
                             ElevatedButton.icon(
                               onPressed: canSubmit
                                   ? () async {
+                                      analytics.logEvent(name: 'medicine_form_save_pressed');
                                       try {
                                         if (isLoading.value) {
                                           return;

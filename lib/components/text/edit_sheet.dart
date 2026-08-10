@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:medicalarm/features/localization/l.dart';
+import 'package:medicalarm/utils/analytics/analytics.dart';
 
 class TextEditSheet extends HookWidget {
   final String text;
@@ -54,6 +55,7 @@ class TextEditSheet extends HookWidget {
                 right: 10,
                 child: TextButton(
                   onPressed: () {
+                    analytics.logEvent(name: 'text_edit_sheet_save_pressed');
                     Navigator.of(context).pop(text.value);
                   },
                   child: Text(L.save),

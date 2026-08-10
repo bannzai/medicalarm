@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:medicalarm/features/localization/l.dart';
+import 'package:medicalarm/utils/analytics/analytics.dart';
 
 class PremiumCompleteDialog extends StatelessWidget {
   final VoidCallback onClose;
@@ -41,6 +42,7 @@ class PremiumCompleteDialog extends StatelessWidget {
                 backgroundColor: Theme.of(context).primaryColor,
               ),
               onPressed: () async {
+                analytics.logEvent(name: 'premium_complete_close_pressed');
                 Navigator.of(context).pop();
                 onClose();
               },

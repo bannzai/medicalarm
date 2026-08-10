@@ -40,6 +40,7 @@ class SettingPage extends StatelessWidget {
                   ),
                   trailing: const Icon(Icons.chevron_right),
                   onTap: () {
+                    analytics.logEvent(name: 'settings_group_mgmt_tapped');
                     Navigator.push(
                       context,
                       MaterialPageRoute(builder: (context) => const GroupListPage()),
@@ -99,6 +100,7 @@ class SettingPage extends StatelessWidget {
                   title: Text(L.inquiry),
                   trailing: const Icon(Icons.chevron_right),
                   onTap: () {
+                    analytics.logEvent(name: 'settings_inquiry_tapped');
                     inquiry();
                   },
                 ),

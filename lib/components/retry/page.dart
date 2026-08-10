@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:medicalarm/features/localization/l.dart';
+import 'package:medicalarm/utils/analytics/analytics.dart';
 
 class Retry extends InheritedWidget {
   final VoidCallback retry;
@@ -48,6 +49,7 @@ class RetryPage extends HookConsumerWidget {
               padding: const EdgeInsets.symmetric(horizontal: 12.0),
               child: ElevatedButton(
                 onPressed: () {
+                  analytics.logEvent(name: 'retry_button_pressed');
                   Retry.of(context).retry();
                 },
                 child: Text(L.retry),

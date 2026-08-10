@@ -5,6 +5,7 @@ import 'package:medicalarm/features/medicine_form/page.dart';
 import 'package:medicalarm/features/preium_introduction/premium_introduction_sheet.dart';
 import 'package:medicalarm/provider/app_user.dart';
 import 'package:medicalarm/style/color.dart';
+import 'package:medicalarm/utils/analytics/analytics.dart';
 import 'package:medicalarm/utils/billing/created_count.dart';
 import 'package:medicalarm/utils/purchase/purchase.dart';
 import 'package:medicalarm/features/localization/l.dart';
@@ -33,6 +34,7 @@ class MedicalAddFloatingActionButtonChild extends HookConsumerWidget {
             if (customerInfo?.hasPremiumEntitlement == false) ...[
               TextButton(
                 onPressed: () {
+                  analytics.logEvent(name: 'medications_add_premium_pressed');
                   showPremiumIntroductionSheet(context);
                 },
                 child: Text(
@@ -49,6 +51,7 @@ class MedicalAddFloatingActionButtonChild extends HookConsumerWidget {
           ElevatedButton.icon(
             onPressed: createdMedicinesCount < Medicine.maxCount(hasPremiumEntitlement: customerInfo?.hasPremiumEntitlement)
                 ? () {
+                    analytics.logEvent(name: 'medications_add_pressed');
                     showMedicineForm(context, null);
                   }
                 : null,

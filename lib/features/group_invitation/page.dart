@@ -8,6 +8,7 @@ import 'package:medicalarm/features/localization/l.dart';
 import 'package:medicalarm/provider/current_group_id.dart';
 import 'package:medicalarm/provider/group_invitation.dart';
 import 'package:medicalarm/theme/form.dart';
+import 'package:medicalarm/utils/analytics/analytics.dart';
 import 'package:medicalarm/utils/invitation_code_validator.dart';
 
 /// 招待コードを入力してグループに参加する画面。
@@ -77,6 +78,7 @@ class GroupInvitationPage extends HookConsumerWidget {
                           invitationCode.value = value;
                         },
                         onFieldSubmitted: (_) {
+                          analytics.logEvent(name: 'group_invite_code_submitted');
                           if (canSubmit) {
                             submit();
                           }
@@ -84,7 +86,12 @@ class GroupInvitationPage extends HookConsumerWidget {
                       ),
                       const SizedBox(height: 24),
                       ElevatedButton(
-                        onPressed: canSubmit ? submit : null,
+                        onPressed: canSubmit
+                            ? () {
+                                analytics.logEvent(name: 'group_invite_join_pressed');
+                                submit();
+                              }
+                            : null,
                         child: Loading(
                           isLoading: isLoading.value,
                           child: Text(L.join),

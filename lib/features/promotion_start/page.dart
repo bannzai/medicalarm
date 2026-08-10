@@ -88,6 +88,7 @@ class PromotionStartPage extends HookConsumerWidget {
         actions: [
           TextButton(
             onPressed: () {
+              analytics.logEvent(name: 'promo_start_error_ok_pressed');
               error.value = null;
             },
             child: const Text('OK'),
@@ -104,12 +105,14 @@ class PromotionStartPage extends HookConsumerWidget {
         actions: [
           TextButton(
             onPressed: () {
+              analytics.logEvent(name: 'promo_start_appstore_cancel');
               showAppStoreAlert.value = false;
             },
             child: Text(L.cancel),
           ),
           TextButton(
             onPressed: () {
+              analytics.logEvent(name: 'promo_start_appstore_open');
               showAppStoreAlert.value = false;
               openAppStore();
             },

@@ -4,6 +4,7 @@ import 'package:intl/intl.dart';
 import 'package:medicalarm/components/button/buttons.dart';
 import 'package:medicalarm/features/localization/l.dart';
 import 'package:medicalarm/style/color.dart';
+import 'package:medicalarm/utils/analytics/analytics.dart';
 
 /// 発行済みの招待コードと有効期限を表示し、クリップボードへコピーできるダイアログ。
 ///
@@ -42,6 +43,7 @@ Future<void> showInvitationCodeDialog(
           AlertButton(
             text: L.copyInvitationCode,
             onPressed: () async {
+              analytics.logEvent(name: 'group_invite_code_copy_pressed');
               await Clipboard.setData(ClipboardData(text: invitationCode));
               if (context.mounted) {
                 ScaffoldMessenger.of(context).showSnackBar(
@@ -53,6 +55,7 @@ Future<void> showInvitationCodeDialog(
           AlertButton(
             text: L.close,
             onPressed: () async {
+              analytics.logEvent(name: 'group_invite_code_close_pressed');
               Navigator.of(context).pop();
             },
           ),

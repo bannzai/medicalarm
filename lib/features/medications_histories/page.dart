@@ -17,6 +17,7 @@ import 'package:medicalarm/provider/current_group_id.dart';
 import 'package:medicalarm/provider/group_user_profile.dart';
 import 'package:medicalarm/provider/medication_history.dart';
 import 'package:medicalarm/style/color.dart';
+import 'package:medicalarm/utils/analytics/analytics.dart';
 import 'package:medicalarm/utils/date_time/date_time_ext.dart';
 import 'package:medicalarm/utils/purchase/purchase.dart';
 import 'package:medicalarm/features/localization/l.dart';
@@ -134,6 +135,7 @@ class MedicationsHistoryPageBody extends HookConsumerWidget {
                             Center(
                               child: TextButton(
                                 onPressed: () {
+                                  analytics.logEvent(name: 'med_histories_premium_pressed');
                                   showPremiumIntroductionSheet(context);
                                 },
                                 child: Text(
@@ -282,6 +284,7 @@ class MedicationHistoryTile extends HookConsumerWidget {
                 ],
                 IconButton(
                   onPressed: () async {
+                    analytics.logEvent(name: 'med_histories_memo_edit_pressed');
                     final result = await showTextEditSheet(context, text: history.memo);
                     if (result != null) {
                       memoUpdate.call(medicationHistory: history, memo: result);
