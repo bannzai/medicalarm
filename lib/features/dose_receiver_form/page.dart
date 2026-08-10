@@ -9,6 +9,7 @@ import 'package:medicalarm/provider/app_user.dart';
 import 'package:medicalarm/provider/dose_receiver.dart';
 import 'package:medicalarm/style/button.dart';
 import 'package:medicalarm/theme/form.dart';
+import 'package:medicalarm/utils/analytics/analytics.dart';
 import 'package:medicalarm/utils/billing/created_count.dart';
 import 'package:medicalarm/utils/purchase/purchase.dart';
 import 'package:medicalarm/features/localization/l.dart';
@@ -54,6 +55,7 @@ class DoseReceiverFormPage extends HookConsumerWidget {
                           child: RadioGroup<String?>(
                             groupValue: selectedDoseReceiver.value?.id,
                             onChanged: (value) {
+                              analytics.logEvent(name: 'dose_rcvr_radio_selected');
                               final tappedDoseReceiver = doseReceivers.firstWhereOrNull((doseReceiver) => doseReceiver.id == value);
                               if (tappedDoseReceiver != null) {
                                 selectedDoseReceiver.value = tappedDoseReceiver;
@@ -120,6 +122,7 @@ class DoseReceiverTextField extends HookConsumerWidget {
               name.value = value;
             },
             onFieldSubmitted: (value) {
+              analytics.logEvent(name: 'dose_rcvr_name_submitted');
               doseReceiverUpdate.call(doseReceiver: doseReceiver, name: value);
             },
           ),
@@ -151,6 +154,7 @@ class DoseReceiverAddButton extends HookConsumerWidget {
           if (customerInfo?.hasPremiumEntitlement == false) ...[
             TextButton(
               onPressed: () {
+                analytics.logEvent(name: 'dose_rcvr_premium_pressed');
                 showPremiumIntroductionSheet(context);
               },
               child: Text(
@@ -167,6 +171,7 @@ class DoseReceiverAddButton extends HookConsumerWidget {
         TextButton.icon(
           onPressed: createdDoseReceiversCount < DoseReceiver.maxCount(hasPremiumEntitlement: customerInfo?.hasPremiumEntitlement)
               ? () {
+                  analytics.logEvent(name: 'dose_rcvr_add_pressed');
                   doseReceiverAdd.call(name: L.newDoseReceiver);
                 }
               : null,

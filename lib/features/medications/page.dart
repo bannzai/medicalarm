@@ -29,6 +29,7 @@ import 'package:medicalarm/provider/group_member_notification_settings.dart';
 import 'package:medicalarm/provider/medication_history.dart';
 import 'package:medicalarm/provider/medicine.dart';
 import 'package:medicalarm/style/color.dart';
+import 'package:medicalarm/utils/analytics/analytics.dart';
 import 'package:medicalarm/utils/analytics/error.dart';
 import 'package:medicalarm/utils/date_time/date_time_ext.dart';
 import 'package:medicalarm/features/localization/l.dart';
@@ -112,6 +113,7 @@ class MedicationsPageBody extends HookConsumerWidget {
           IconButton(
             tooltip: L.medicineEditTooltip,
             onPressed: () {
+              analytics.logEvent(name: 'medications_edit_list_pressed');
               Navigator.push(
                 context,
                 MaterialPageRoute(builder: (context) => const MedicinesPage()),
@@ -149,6 +151,7 @@ class MedicationsPageBody extends HookConsumerWidget {
                             if (customerInfo.isInPromotion) ...[
                               GestureDetector(
                                 onTap: () {
+                                  analytics.logEvent(name: 'medications_promo_banner_tapped');
                                   showPremiumIntroductionSheet(context);
                                 },
                                 child: Container(
@@ -449,8 +452,10 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
               persist: false,
               action: SnackBarAction(
                 label: L.undo,
-                // undo の判定は closed の SnackBarClosedReason.action で行うため、ここでは何もしない
-                onPressed: () {},
+                // undo の判定は closed の SnackBarClosedReason.action で行うため、ログ以外は何もしない
+                onPressed: () {
+                  analytics.logEvent(name: 'medications_undo_pressed');
+                },
               ),
             ),
           )
@@ -483,6 +488,7 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
                 onChanged: isDisabled
                     ? null
                     : (value) {
+                        analytics.logEvent(name: 'medications_check_changed');
                         final newValue = value ?? false;
                         if (newValue == isChecked.value) {
                           return;
@@ -512,6 +518,7 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
                 style: const TextStyle(fontSize: 16),
               ),
               onTap: () {
+                analytics.logEvent(name: 'medications_medicine_name_tapped');
                 showMedicineForm(context, scheduleRow.medicine);
               },
             ),

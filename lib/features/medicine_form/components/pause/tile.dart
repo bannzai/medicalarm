@@ -7,6 +7,7 @@ import 'package:medicalarm/components/error/error_alert.dart';
 import 'package:medicalarm/entity/medicine.dart';
 import 'package:medicalarm/features/localization/l.dart';
 import 'package:medicalarm/provider/medicine.dart';
+import 'package:medicalarm/utils/analytics/analytics.dart';
 import 'package:medicalarm/utils/local_notification/client.dart';
 
 class MedicinePauseTile extends HookConsumerWidget {
@@ -23,6 +24,7 @@ class MedicinePauseTile extends HookConsumerWidget {
           subtitle: Text(L.medicationPauseDescription),
           value: medicine.pausedDateTime == null,
           onChanged: (value) async {
+            analytics.logEvent(name: 'medicine_form_pause_changed');
             try {
               await ref.read(medicineSetPausedProvider).call(
                     medicineID: medicine.id,

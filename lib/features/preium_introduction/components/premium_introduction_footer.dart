@@ -42,6 +42,7 @@ class PremiumIntroductionFotter extends StatelessWidget {
                     style: const TextStyle(decoration: TextDecoration.underline),
                     recognizer: TapGestureRecognizer()
                       ..onTap = () {
+                        analytics.logEvent(name: 'premium_intro_privacy_tapped');
                         launchUrl(Uri.parse('https://bannzai.github.io/medicalarm/PrivacyPolicy'), mode: LaunchMode.inAppWebView);
                       },
                   ),
@@ -53,6 +54,7 @@ class PremiumIntroductionFotter extends StatelessWidget {
                     style: const TextStyle(decoration: TextDecoration.underline),
                     recognizer: TapGestureRecognizer()
                       ..onTap = () {
+                        analytics.logEvent(name: 'premium_intro_terms_tapped');
                         launchUrl(Uri.parse('https://bannzai.github.io/medicalarm/Terms'), mode: LaunchMode.inAppWebView);
                       },
                   ),
@@ -64,6 +66,7 @@ class PremiumIntroductionFotter extends StatelessWidget {
                     style: const TextStyle(decoration: TextDecoration.underline),
                     recognizer: TapGestureRecognizer()
                       ..onTap = () {
+                        analytics.logEvent(name: 'premium_intro_scta_tapped');
                         launchUrl(Uri.parse('https://bannzai.github.io/medicalarm/SpecifiedCommercialTransactionAct'), mode: LaunchMode.inAppWebView);
                       },
                   ),
@@ -83,6 +86,7 @@ class PremiumIntroductionFotter extends StatelessWidget {
           const SizedBox(height: 24),
           GestureDetector(
             onTap: () async {
+              analytics.logEvent(name: 'premium_intro_restore_tapped');
               try {
                 isLoading.value = true;
                 final messenger = ScaffoldMessenger.of(context);

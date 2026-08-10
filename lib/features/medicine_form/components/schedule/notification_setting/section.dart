@@ -3,6 +3,7 @@ import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:medicalarm/features/localization/l.dart';
 import 'package:medicalarm/features/medicine_form/components/section_layout.dart';
+import 'package:medicalarm/utils/analytics/analytics.dart';
 import 'package:medicalarm/utils/local_notification/client.dart';
 import 'package:medicalarm/utils/alarm_kit_service.dart';
 
@@ -35,6 +36,7 @@ class MedicineScheduleNotificationSettingSection extends HookConsumerWidget {
         SwitchListTile(
           value: isReminderEnabled.value,
           onChanged: (value) {
+            analytics.logEvent(name: 'med_sched_reminder_changed');
             isReminderEnabled.value = value;
 
             if (!value) {
@@ -47,6 +49,7 @@ class MedicineScheduleNotificationSettingSection extends HookConsumerWidget {
         SwitchListTile(
           value: isFollowupEnabled.value,
           onChanged: (value) {
+            analytics.logEvent(name: 'med_sched_followup_changed');
             if (!isReminderEnabled.value) {
               isFollowupEnabled.value = false;
             } else {
@@ -59,6 +62,7 @@ class MedicineScheduleNotificationSettingSection extends HookConsumerWidget {
         SwitchListTile(
           value: useCriticalAlert.value,
           onChanged: (value) async {
+            analytics.logEvent(name: 'med_sched_critical_changed');
             final grand = await localNotificationService.requestPermissionWithCriticalAlert();
             if (grand == true) {
               useCriticalAlert.value = value;
@@ -73,6 +77,7 @@ class MedicineScheduleNotificationSettingSection extends HookConsumerWidget {
           SwitchListTile(
             value: useAlarmKit.value,
             onChanged: (value) async {
+              analytics.logEvent(name: 'med_sched_alarmkit_changed');
               if (value) {
                 // AlarmKitの権限をリクエスト
                 final permission = await AlarmKitService.requestPermission();
@@ -112,8 +117,10 @@ class MedicineScheduleNotificationSettingSection extends HookConsumerWidget {
                       criticalAlertVolume.value = value;
                     }
                   : null,
+              // onChanged はドラッグ中に連続発火するため、確定タイミングの onChangeEnd でログを送る
               onChangeEnd: useCriticalAlert.value
                   ? (value) {
+                      analytics.logEvent(name: 'med_sched_volume_change_ended');
                       this.criticalAlertVolume.value = value;
                     }
                   : null,

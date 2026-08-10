@@ -4,6 +4,7 @@ import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:medicalarm/components/button/user_delete.dart';
 import 'package:medicalarm/components/error/error_alert.dart';
 import 'package:medicalarm/features/localization/l.dart';
+import 'package:medicalarm/utils/analytics/analytics.dart';
 import 'package:medicalarm/utils/auth/account_link.dart';
 import 'package:medicalarm/utils/push_notification/fcm_notification.dart';
 
@@ -23,13 +24,19 @@ class AccountLinkTiles extends ConsumerWidget {
           isLinked: ref.watch(isAppleLinkedProvider),
           linkedLabel: L.accountLinkedWithApple,
           linkLabel: L.linkWithApple,
-          onLink: () => ref.read(appleAccountLinkProvider).call(),
+          onLink: () {
+            analytics.logEvent(name: 'account_link_apple_tapped');
+            return ref.read(appleAccountLinkProvider).call();
+          },
         ),
         _AccountLinkTile(
           isLinked: ref.watch(isGoogleLinkedProvider),
           linkedLabel: L.accountLinkedWithGoogle,
           linkLabel: L.linkWithGoogle,
-          onLink: () => ref.read(googleAccountLinkProvider).call(),
+          onLink: () {
+            analytics.logEvent(name: 'account_link_google_tapped');
+            return ref.read(googleAccountLinkProvider).call();
+          },
         ),
       ],
     );
