@@ -376,6 +376,22 @@
   "@history": {
     "description": "履歴タブのタイトル"
   },
+  "calendar": "カレンダー",
+  "@calendar": {
+    "description": "カレンダータブおよびカレンダー画面のタイトル"
+  },
+  "diary": "日記",
+  "@diary": {
+    "description": "カレンダーの日付詳細に表示する日記セクションのタイトル"
+  },
+  "writeDiary": "日記を書く",
+  "@writeDiary": {
+    "description": "その日の日記がまだない場合に表示する日記投稿画面への導線ボタンテキスト"
+  },
+  "editDiaryTooltip": "日記を編集",
+  "@editDiaryTooltip": {
+    "description": "カレンダーの日付詳細シートにある日記編集アイコンの tooltip"
+  },
   "medicineRegistrationLimit": "薬の登録数を",
   "@medicineRegistrationLimit": {
     "description": "薬の登録数の上限を説明するテキストの一部"

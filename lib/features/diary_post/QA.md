@@ -7,7 +7,9 @@ last_verified_at: 2026-07-14
 
 # diary_post QA
 
-到達手順: 週カレンダーの日付をタップすると、その日付の日記投稿画面（DiaryPostPage）がフルスクリーンダイアログで開く**設計**。
+到達手順: カレンダータブの日付タイルをタップして開く日付詳細シート（CalendarDayDetailSheet）の「日記を書く」ボタンまたは編集アイコンをタップすると、その日付の日記投稿画面（DiaryPostPage）がフルスクリーンダイアログで開く。
+
+> ℹ️ 下記の注記は #62 のカレンダー機能追加（カレンダータブ → 日付詳細シート経由の導線接続）で解消済み。次回の QA 実行時に下記スキップ項目を検証すること。
 
 > ⚠️ **2026-07-14 時点で到達不能（未実装/未接続）**: `WeeklyCalendarPager`（`lib/components/calendar/weekly/pager.dart`）の日付タップは `date.value = date` で選択日を変えるのみで、`DiaryPostPage` へは遷移しない。`DiaryPostPage` へ遷移する `transitionWhenCalendarDayTapped`（`lib/components/calendar/weekly/line.dart`）は `MonthCalendarPager`（`lib/components/calendar/monthly/pager.dart`、2025-01-19 追加のWIPコミット「WIP add calendar"」以降どのページからも呼ばれていない）からしか呼ばれておらず、実質デッドコード。服薬画面（medications）・服薬履歴画面（medications_histories）のいずれの週カレンダーからも `DiaryPostPage` へ到達できないことを実機タップで確認済み（下記スクショ: 服薬履歴で日付 14 をタップしても選択日が変わるだけで日記投稿画面は開かない）。アプリ内に他の導線（設定・ディープリンク等）も存在しない
 >
