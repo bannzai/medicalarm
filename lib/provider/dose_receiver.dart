@@ -23,14 +23,15 @@ class DoseReceiverAdd {
     String? id,
     required String name,
   }) async {
-    final collectionRef = database.doseReceiversReference();
-    final docRef = collectionRef.doc();
+    // add() はランダムなドキュメント ID を別途採番するため、id フィールドと実際のドキュメント ID が
+    // 食い違い、読み込み時の id 上書きで firstUser 等の参照が一致しなくなる。doc(id) への set で一致を保証する (#246)
+    final docRef = database.doseReceiversReference().doc(id);
     final doseReceiver = DoseReceiver(
-      id: id ?? docRef.id,
+      id: docRef.id,
       userID: userID,
       name: name,
     );
-    await database.doseReceiversReference().add(doseReceiver);
+    await docRef.set(doseReceiver, SetOptions(merge: true));
     return doseReceiver;
   }
 }
