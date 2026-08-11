@@ -1,0 +1,23 @@
+{
+  "medicines": [
+    {
+      "name": "ロキソプロフェン錠 60mg",
+      "schedules": [
+        { "hour": 8, "minute": 0, "quantityMemo": "1錠" },
+        { "hour": 19, "minute": 0, "quantityMemo": "1錠" }
+      ]
+    },
+    {
+      "name": "レバミピド錠 100mg",
+      "schedules": [
+        { "hour": 8, "minute": 0, "quantityMemo": "1錠" },
+        { "hour": 12, "minute": 0, "quantityMemo": "1錠" },
+        { "hour": 19, "minute": 0, "quantityMemo": "1錠" }
+      ]
+    },
+    {
+      "name": "カルボシステイン錠 250mg",
+      "schedules": [{ "hour": 22, "minute": 0, "quantityMemo": "2錠" }]
+    }
+  ]
+}
