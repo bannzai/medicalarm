@@ -1,8 +1,8 @@
 ---
 feature: settings
 verification: mobile-mcp
-last_verified_commit: ceab6b15bfd78420f8bbb9a67bd045e58f0f4362
-last_verified_at: 2026-07-14
+last_verified_commit: 4d2291e65d9785265cc567936d65e75acc5ccae1
+last_verified_at: 2026-08-12
 ---
 
 # settings QA
@@ -37,6 +37,7 @@ last_verified_at: 2026-07-14
 - [x] **プライバシーポリシー**: 「プライバシーポリシー」行をタップするとプライバシーポリシーページが外部ブラウザで開く
 - [x] **特定商取引法に基づく表記**: 「特定商取引法に基づく表記」行をタップすると該当ページが外部ブラウザで開く
 - [x] **お問い合わせ**: 「お問い合わせ」行をタップすると問い合わせフォーム（Googleフォーム）が外部ブラウザで開く
+- [x] **OSSライセンス**: 「OSSライセンス」行をタップすると Flutter 標準のライセンス画面が開き、アプリ名とバージョン、依存パッケージの一覧が表示される。パッケージ行をタップするとライセンス本文が読める
 
 #### 動作確認
 <details>
@@ -79,6 +80,26 @@ last_verified_at: 2026-07-14
 **確認日: 2026-07-14**
 
 <img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260714/66fe90fd-c027-4b72-9993-e7ab2b349490.png" width="320">
+
+</details>
+
+### **OSSライセンス**: 「OSSライセンス」行をタップすると Flutter 標準のライセンス画面が開き、アプリ名とバージョン、依存パッケージの一覧が表示される。パッケージ行をタップするとライセンス本文が読める
+
+<details><summary>動作確認スクショ</summary>
+
+**確認日: 2026-08-12**
+
+設定画面の「アプリについて」セクションに「OSSライセンス」行が追加されている。
+
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260812/41121287-1b83-4416-806a-89825d8d24bc.png" width="320" />
+
+タップすると `showLicensePage` のライセンス画面が開き、`PackageInfo.fromPlatform()` から取得したアプリ名「Medicalarm」とバージョン「202607.15.102935」、依存パッケージの一覧（`_fe_analyzer_shared` / `_flutterfire_internals` / `abseil-cpp` など）が表示される。
+
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260812/55c21d34-d883-46f4-9fad-143f108445c0.png" width="320" />
+
+パッケージ行をタップするとライセンス本文が読める。
+
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260812/647bc214-ad39-46e9-bd5b-bfba5ad206ab.png" width="320" />
 
 </details>
 

@@ -1089,5 +1089,9 @@
         "example": "6"
       }
     }
+  },
+  "ossLicense": "Open Source Licenses",
+  "@ossLicense": {
+    "description": "設定画面から利用しているOSSのライセンス一覧を開く項目のテキスト"
   }
 }
