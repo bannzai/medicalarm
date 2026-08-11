@@ -97,6 +97,22 @@ class SettingPage extends StatelessWidget {
                     }),
                 const _Divider(),
                 ListTile(
+                  title: Text(
+                    L.ossLicense,
+                    style: const TextStyle(
+                      fontWeight: FontWeight.w300,
+                      fontSize: 16,
+                    ),
+                  ),
+                  trailing: const Icon(Icons.chevron_right),
+                  onTap: () {
+                    analytics.logEvent(name: 'settings_oss_license_tapped');
+                    // 一覧の中身は flutter build がパッケージの LICENSE から生成する NOTICES を LicenseRegistry が読むため、依存関係の増減に自動で追従する
+                    showLicensePage(context: context, applicationName: 'Medicalarm');
+                  },
+                ),
+                const _Divider(),
+                ListTile(
                   title: Text(L.inquiry),
                   trailing: const Icon(Icons.chevron_right),
                   onTap: () {
