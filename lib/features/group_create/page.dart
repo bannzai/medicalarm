@@ -10,6 +10,7 @@ import 'package:medicalarm/provider/group_create.dart';
 import 'package:medicalarm/provider/group_invitation.dart';
 import 'package:medicalarm/style/color.dart';
 import 'package:medicalarm/theme/form.dart';
+import 'package:medicalarm/utils/analytics/analytics.dart';
 
 /// グループを新規作成する画面。名前とアイコンを入力し、作成後に招待コードを発行して表示する。
 ///
@@ -96,6 +97,7 @@ class GroupCreatePage extends HookConsumerWidget {
                               iconName: selectableIconName,
                               isSelected: iconName.value == selectableIconName,
                               onTap: () {
+                                analytics.logEvent(name: 'group_create_icon_selected');
                                 iconName.value = selectableIconName;
                               },
                             ),
@@ -103,7 +105,12 @@ class GroupCreatePage extends HookConsumerWidget {
                       ),
                       const SizedBox(height: 32),
                       ElevatedButton(
-                        onPressed: canSubmit ? submit : null,
+                        onPressed: canSubmit
+                            ? () {
+                                analytics.logEvent(name: 'group_create_submit_pressed');
+                                submit();
+                              }
+                            : null,
                         child: Loading(
                           isLoading: isLoading.value,
                           child: Text(L.createGroup),

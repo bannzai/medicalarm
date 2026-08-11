@@ -32,6 +32,7 @@ Medicine _buildMedicine({required String creatorUserID}) {
     doseReceiver: DoseReceiver(id: 'dose-1', userID: creatorUserID, name: '本人'),
     memo: '',
     memoImageURL: '',
+    minimumDoseIntervalHours: null,
     beganDateTime: DateTime(2026, 1, 1),
   );
 }

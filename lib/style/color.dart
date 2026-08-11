@@ -3,7 +3,12 @@ import 'package:flutter/material.dart';
 // Ref: https://saruwakakun.com/design/gallery/palette
 abstract class AppColors {
   static const Color primary = Color(0xFFEE817B);
-  static const Color secondary = Color(0xFFF6AFAA);
+  // 画面がピンク一色になるのを避けるためのアクセントカラー (#265)。上記パレットにはピンク系以外の
+  // 同伴色がないため独自選定。高彩度の補色ティール案(#009688)は目に強すぎるため不採用となり、
+  // 低彩度4候補(グレー/ブルーグレー/スチールブルー/くすみティール)の実機比較でユーザーが Material Blue Grey 600 を選択した。
+  // 白とのコントラスト比約5.4:1 で、選択状態インジケーターの 3:1 (WCAG 1.4.11) と小サイズ見出しの 4.5:1 (WCAG AA) をともに満たす
+  // 用途: セクション見出しと選択系コントロール(Switch/Checkbox/Radio)。ブランド面(AppBar・主ボタン)は primary を維持する
+  static const Color secondary = Color(0xFF546E7A);
   static const Color background = Color(0xFFFCECEA);
   static const Color formBackground = Color(0xFFF5F5F5);
   static const Color border = Color(0xFFE0E0E0);

@@ -27,6 +27,9 @@ abstract class Medicine with _$Medicine {
     required DoseReceiver doseReceiver,
     required String memo,
     required String memoImageURL,
+    // 前回の服用から最低限空ける時間(時間単位)。null は間隔設定なし。
+    // 間隔が空いていない場合でも記録・通知は無効化せず、注意の表示だけを行う (#81)
+    required int? minimumDoseIntervalHours,
     @NullableTimestampConverter() DateTime? archivedDateTime,
     @NullableTimestampConverter() DateTime? pausedDateTime,
     @TimestampConverter() required DateTime beganDateTime,

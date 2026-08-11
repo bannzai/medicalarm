@@ -28,6 +28,7 @@ Medicine buildMedicine() {
     doseReceiver: const DoseReceiver(id: 'dose-receiver-1', userID: 'user-a', name: 'me'),
     memo: '',
     memoImageURL: '',
+    minimumDoseIntervalHours: null,
     beganDateTime: DateTime(2026, 7, 1),
   );
 }
@@ -134,6 +135,82 @@ void main() {
       expect(
         effectiveTakeMedicationHistories([takeMedicationHistory]).map((history) => history.id).toList(),
         ['take-1'],
+      );
+    });
+  });
+
+  // #81: 最低服用間隔の判定は「指定した薬の、revert に打ち消されていない直近の take」を基準にする
+  group('latestEffectiveTakeRecordedDateTime', () {
+    MedicationHistory buildTake({required String id, required String medicineID, required DateTime recordedDateTime}) {
+      return MedicationHistory(
+        id: id,
+        userID: 'user-a',
+        recordedByUserID: 'user-a',
+        medicine: buildMedicine().copyWith(id: medicineID),
+        actionKind: MedicationHistoryActionKind.take,
+        action: MedicationHistoryAction.take(
+          medicationSchedule: medicationSchedule,
+          scheduledRecordedDate: DateTime(2026, 7, 16),
+        ),
+        memo: '',
+        recordedDateTime: recordedDateTime,
+        scheduledRecordedDate: DateTime(2026, 7, 16),
+        ttlExpiresDateTime: DateTime(2027, 7, 16),
+      );
+    }
+
+    MedicationHistory buildRevert({required MedicationHistory takeMedicationHistory}) {
+      return MedicationHistory(
+        id: '${takeMedicationHistory.id}-revert',
+        userID: 'user-a',
+        recordedByUserID: 'user-a',
+        medicine: takeMedicationHistory.medicine,
+        actionKind: MedicationHistoryActionKind.revert,
+        action: MedicationHistoryAction.revert(
+          takeAction: takeMedicationHistory,
+          medicationSchedule: medicationSchedule,
+        ),
+        memo: '',
+        recordedDateTime: takeMedicationHistory.recordedDateTime.add(const Duration(minutes: 5)),
+        scheduledRecordedDate: takeMedicationHistory.scheduledRecordedDate,
+        ttlExpiresDateTime: takeMedicationHistory.ttlExpiresDateTime,
+      );
+    }
+
+    test('複数の take のうち最新の記録日時を返す', () {
+      final histories = [
+        buildTake(id: 'take-1', medicineID: 'medicine-1', recordedDateTime: DateTime(2026, 7, 16, 9, 0)),
+        buildTake(id: 'take-2', medicineID: 'medicine-1', recordedDateTime: DateTime(2026, 7, 16, 13, 0)),
+      ];
+
+      expect(
+        latestEffectiveTakeRecordedDateTime(medicationHistories: histories, medicineID: 'medicine-1'),
+        DateTime(2026, 7, 16, 13, 0),
+      );
+    });
+
+    test('revert に打ち消された take は基準にならず、残っている take の中の最新を返す', () {
+      final latestTake = buildTake(id: 'take-2', medicineID: 'medicine-1', recordedDateTime: DateTime(2026, 7, 16, 13, 0));
+      final histories = [
+        buildTake(id: 'take-1', medicineID: 'medicine-1', recordedDateTime: DateTime(2026, 7, 16, 9, 0)),
+        latestTake,
+        buildRevert(takeMedicationHistory: latestTake),
+      ];
+
+      expect(
+        latestEffectiveTakeRecordedDateTime(medicationHistories: histories, medicineID: 'medicine-1'),
+        DateTime(2026, 7, 16, 9, 0),
+      );
+    });
+
+    test('別の薬の take は対象外で、有効な take が無い場合は null を返す', () {
+      final histories = [
+        buildTake(id: 'take-1', medicineID: 'medicine-2', recordedDateTime: DateTime(2026, 7, 16, 9, 0)),
+      ];
+
+      expect(
+        latestEffectiveTakeRecordedDateTime(medicationHistories: histories, medicineID: 'medicine-1'),
+        isNull,
       );
     });
   });

@@ -229,6 +229,35 @@ class MockMedicationHistoryUndoRevert extends _i1.Mock implements _i5.Medication
       ) as _i7.Future<bool>);
 }
 
+/// A class which mocks [RecentMedicationHistoriesFetch].
+///
+/// See the documentation for Mockito's code generation for more information.
+class MockRecentMedicationHistoriesFetch extends _i1.Mock implements _i5.RecentMedicationHistoriesFetch {
+  @override
+  _i2.GroupDatabase get database => (super.noSuchMethod(
+        Invocation.getter(#database),
+        returnValue: _FakeGroupDatabase_0(
+          this,
+          Invocation.getter(#database),
+        ),
+        returnValueForMissingStub: _FakeGroupDatabase_0(
+          this,
+          Invocation.getter(#database),
+        ),
+      ) as _i2.GroupDatabase);
+
+  @override
+  _i7.Future<List<_i3.MedicationHistory>> call({required DateTime? recordedSinceDateTime}) => (super.noSuchMethod(
+        Invocation.method(
+          #call,
+          [],
+          {#recordedSinceDateTime: recordedSinceDateTime},
+        ),
+        returnValue: _i7.Future<List<_i3.MedicationHistory>>.value(<_i3.MedicationHistory>[]),
+        returnValueForMissingStub: _i7.Future<List<_i3.MedicationHistory>>.value(<_i3.MedicationHistory>[]),
+      ) as _i7.Future<List<_i3.MedicationHistory>>);
+}
+
 /// A class which mocks [RegisterReminderLocalNotification].
 ///
 /// See the documentation for Mockito's code generation for more information.

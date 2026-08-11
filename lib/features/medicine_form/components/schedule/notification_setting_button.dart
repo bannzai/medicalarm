@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:medicalarm/entity/medicine.dart';
 import 'package:medicalarm/features/medicine_schedule_setting_form/page.dart';
+import 'package:medicalarm/utils/analytics/analytics.dart';
 
 class MedicineScheduleNotificationSettingButton extends StatelessWidget {
   final MedicationSchedule schedule;
@@ -20,6 +21,7 @@ class MedicineScheduleNotificationSettingButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return IconButton(
       onPressed: () {
+        analytics.logEvent(name: 'med_schedule_notif_button_pressed');
         Navigator.push(
           context,
           MaterialPageRoute(

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:medicalarm/components/picker/time.dart';
 import 'package:medicalarm/entity/medicine.dart';
 import 'package:medicalarm/style/color.dart';
+import 'package:medicalarm/utils/analytics/analytics.dart';
 
 class MedicineScheduleReminderTime extends StatelessWidget {
   const MedicineScheduleReminderTime({
@@ -19,6 +20,7 @@ class MedicineScheduleReminderTime extends StatelessWidget {
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: () async {
+        analytics.logEvent(name: 'med_schedule_time_tapped');
         final result = await showAppTimePicker(
           context,
           initialTime: schedule.toTimeOfDay(),

@@ -67,6 +67,7 @@ void main() {
       doseReceiver: const DoseReceiver(id: 'firstUser', userID: 'test-user', name: '自分'),
       memo: '',
       memoImageURL: '',
+      minimumDoseIntervalHours: null,
       beganDateTime: DateTime(2026, 1, 1),
     );
 

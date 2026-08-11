@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:medicalarm/components/picker/toolbar.dart';
 import 'package:flutter/cupertino.dart';
+import 'package:medicalarm/utils/analytics/analytics.dart';
 
 class AppNumberPicker extends StatelessWidget {
   final int initialNumber;
@@ -27,6 +28,7 @@ class AppNumberPicker extends StatelessWidget {
           height: MediaQuery.of(context).size.height / 3,
           child: GestureDetector(
               onTap: () {
+                analytics.logEvent(name: 'number_picker_area_tapped');
                 Navigator.pop(context);
               },
               child: CupertinoPicker(

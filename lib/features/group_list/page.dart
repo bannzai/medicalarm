@@ -11,6 +11,7 @@ import 'package:medicalarm/features/localization/l.dart';
 import 'package:medicalarm/features/preium_introduction/premium_introduction_sheet.dart';
 import 'package:medicalarm/provider/app_user.dart';
 import 'package:medicalarm/provider/user_groups.dart';
+import 'package:medicalarm/utils/analytics/analytics.dart';
 import 'package:medicalarm/utils/purchase/purchase.dart';
 
 /// 所属グループの一覧画面。設定画面から遷移する。
@@ -51,7 +52,10 @@ class GroupListPageBody extends HookConsumerWidget {
       appBar: AppBar(title: Text(L.groups)),
       floatingActionButton: canCreateGroup
           ? FloatingActionButton.extended(
-              onPressed: () => showGroupCreateForm(context),
+              onPressed: () {
+                analytics.logEvent(name: 'group_list_create_pressed');
+                showGroupCreateForm(context);
+              },
               icon: const Icon(Icons.add),
               label: Text(L.createGroup),
             )
@@ -68,7 +72,10 @@ class GroupListPageBody extends HookConsumerWidget {
               leading: const Icon(Icons.login),
               title: Text(L.joinWithInvitationCode),
               trailing: const Icon(Icons.chevron_right),
-              onTap: () => showGroupInvitationForm(context),
+              onTap: () {
+                analytics.logEvent(name: 'group_list_join_tapped');
+                showGroupInvitationForm(context);
+              },
             ),
             if (!canCreateGroup) ...[
               const SizedBox(height: 16),
@@ -111,6 +118,7 @@ class GroupListTile extends StatelessWidget {
         ],
       ),
       onTap: () {
+        analytics.logEvent(name: 'group_list_group_tapped');
         Navigator.push(
           context,
           MaterialPageRoute(builder: (context) => GroupSettingPage(groupID: group.id)),
@@ -133,7 +141,10 @@ class _CreationLimitBanner extends ConsumerWidget {
           Text(L.groupCreationLimitReached, style: const TextStyle(color: Colors.red)),
           if (!hasPremiumEntitlement) ...[
             TextButton(
-              onPressed: () => showPremiumIntroductionSheet(context),
+              onPressed: () {
+                analytics.logEvent(name: 'group_list_premium_pressed');
+                showPremiumIntroductionSheet(context);
+              },
               child: Text(
                 L.increaseGroupLimitWithPremium,
                 style: const TextStyle(

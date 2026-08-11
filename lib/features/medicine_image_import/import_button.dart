@@ -125,6 +125,8 @@ class MedicineImageImportButton extends HookConsumerWidget {
                 doseReceiver: DoseReceiver.firstUser(userID: appUserID),
                 memo: '',
                 memoImageURL: '',
+                // 最低服用間隔は画像から抽出しないため未設定。登録後にフォームで設定できる
+                minimumDoseIntervalHours: null,
                 beganDateTime: today(),
               ),
           ],

@@ -11,6 +11,7 @@ import 'package:medicalarm/features/medications/components/add_button.dart';
 import 'package:medicalarm/features/medicine_form/page.dart';
 import 'package:medicalarm/provider/medicine.dart';
 import 'package:medicalarm/style/color.dart';
+import 'package:medicalarm/utils/analytics/analytics.dart';
 import 'package:medicalarm/utils/local_notification/client.dart';
 import 'package:medicalarm/features/localization/l.dart';
 
@@ -128,6 +129,7 @@ class MedicinesPageSection extends HookConsumerWidget {
             padding: EdgeInsets.zero,
             tooltip: L.medicineEditTooltip,
             onPressed: () {
+              analytics.logEvent(name: 'medicines_edit_pressed');
               showMedicineForm(context, medicine);
             },
             icon: const Icon(Icons.edit, size: 20),
@@ -141,6 +143,7 @@ class MedicinesPageSection extends HookConsumerWidget {
             child: Switch(
               value: medicine.pausedDateTime == null,
               onChanged: (value) async {
+                analytics.logEvent(name: 'medicines_pause_switch_changed');
                 try {
                   await ref.read(medicineSetPausedProvider).call(
                         medicineID: medicine.id,

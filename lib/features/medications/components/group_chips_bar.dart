@@ -7,6 +7,7 @@ import 'package:medicalarm/features/localization/l.dart';
 import 'package:medicalarm/provider/current_group_id.dart';
 import 'package:medicalarm/provider/default_group_update.dart';
 import 'package:medicalarm/provider/user_groups.dart';
+import 'package:medicalarm/utils/analytics/analytics.dart';
 
 /// 服薬一覧画面の上部に表示する、表示中グループを切り替えるチップの列。
 ///
@@ -37,6 +38,7 @@ class GroupChipsBar extends HookConsumerWidget {
                 label: Text(group.name ?? L.soloGroupName),
                 selected: group.id == currentGroupID,
                 onSelected: (_) {
+                  analytics.logEvent(name: 'group_chip_selected');
                   // 既に選択中のグループの再選択は無視する(冗長な書き込みを避ける)。
                   if (group.id == currentGroupID) {
                     return;

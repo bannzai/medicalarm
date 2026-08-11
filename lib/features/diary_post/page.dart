@@ -69,7 +69,10 @@ class DiaryPostPageBody extends HookConsumerWidget {
             elevation: 0.0,
             leading: IconButton(
               icon: const Icon(Icons.close, color: Colors.black),
-              onPressed: () => Navigator.of(context).pop(),
+              onPressed: () {
+                analytics.logEvent(name: 'diary_post_close_pressed');
+                Navigator.of(context).pop();
+              },
             ),
             actions: [
               AlertButton(

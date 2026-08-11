@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
+import 'package:medicalarm/utils/analytics/analytics.dart';
 
 class TodayBadge extends StatelessWidget {
   final ValueNotifier<DateTime> date;
@@ -15,6 +16,7 @@ class TodayBadge extends StatelessWidget {
         children: [
           IconButton(
             onPressed: () {
+              analytics.logEvent(name: 'today_badge_prev_day_pressed');
               date.value = date.value.subtract(const Duration(days: 1));
             },
             icon: const Icon(Icons.arrow_back),
@@ -29,6 +31,7 @@ class TodayBadge extends StatelessWidget {
           const Spacer(),
           IconButton(
             onPressed: () {
+              analytics.logEvent(name: 'today_badge_next_day_pressed');
               date.value = date.value.add(const Duration(days: 1));
             },
             icon: const Icon(Icons.arrow_forward),
