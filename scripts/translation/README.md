@@ -5,14 +5,14 @@
 - generate_metadata.py は generate_merged_image.sh を各言語ごとに逐次実行して、fastlane/metadata に配置する
 
 ## Translator
-- translate_l10n_arb.py: l10n/*.arb を OpenAI 経由で翻訳する
+- アプリ内文字列 (lib/l10n/*.arb) の翻訳は translate-app-arb skill で行う (`/translate-app-arb`)。設定はプロジェクトルートの `translate-app.config.json`。未翻訳キーのみの冪等な翻訳のほか、キー欠落・プレースホルダーの機械検査 (check) と品質レビュー (review) も同 skill が担う
 - translate_screenshot_text.py: スクリーンショットに載せる文字を翻訳して text_to_image.json を生成する
 
 ## UITest
 - ui_test_xxx は flutter drive を実行して ui_test をするために必要なスクリプト
 
 ## Usage
-- 何もない場合は Translator 系のスクリプトを実行して、必要な Resources を用意する。そのあとで Generator 系のスクリプトを実行する
+- 何もない場合は、アプリ内文字列を translate-app-arb skill で翻訳し、translate_screenshot_text.py で text_to_image.json を用意する。そのあとで Generator 系のスクリプトを実行する
 - 一度生成されてから変更する場合は、その場合は generator を適宜調整して実行する。ほとんどこのパターン
 
 ## Remake
