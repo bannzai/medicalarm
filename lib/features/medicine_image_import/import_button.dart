@@ -93,6 +93,11 @@ class MedicineImageImportButton extends HookConsumerWidget {
       if (photo == null) {
         return;
       }
+      // ピッカー表示中に画面遷移で widget が dispose されると、useState の ValueNotifier への
+      // 書き込みが used-after-dispose になるため、try に入る前にここでも打ち切る
+      if (!context.mounted) {
+        return;
+      }
       isLoading.value = true;
       try {
         final base64Image = await base64CompressImage(File(photo.path));

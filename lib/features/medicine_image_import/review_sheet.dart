@@ -73,7 +73,13 @@ class MedicineImageImportReviewSheet extends HookWidget {
     final editedCandidates = useState([
       for (final (index, candidate) in candidates.indexed) candidate.copyWith(selected: index < maxSelectableCount),
     ]);
-    final selectedCount = editedCandidates.value.where((candidate) => candidate.selected).length;
+    // 名前が空の候補は確定時に登録対象から外れるため、選択枠の判定・表示件数・確定結果を
+    // 実際に登録される候補で揃える(残り枠を空名の候補が占有して他を選べなくなるのを防ぐ)。
+    final submittableCandidates = [
+      for (final candidate in editedCandidates.value)
+        if (candidate.selected && candidate.name.trim().isNotEmpty) candidate.copyWith(name: candidate.name.trim()),
+    ];
+    final selectedCount = submittableCandidates.length;
     final primaryColor = Theme.of(context).colorScheme.primary;
 
     return DraggableScrollableSheet(
@@ -191,11 +197,7 @@ class MedicineImageImportReviewSheet extends HookWidget {
                                 ElevatedButton(
                                   onPressed: selectedCount > 0
                                       ? () {
-                                          Navigator.of(context).pop([
-                                            for (final candidate in editedCandidates.value)
-                                              if (candidate.selected && candidate.name.trim().isNotEmpty)
-                                                candidate.copyWith(name: candidate.name.trim()),
-                                          ]);
+                                          Navigator.of(context).pop(submittableCandidates);
                                         }
                                       : null,
                                   child: Text(L.medicineImageImportAddCount(selectedCount)),

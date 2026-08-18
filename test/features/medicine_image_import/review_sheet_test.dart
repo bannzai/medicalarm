@@ -136,7 +136,8 @@ void main() {
     await tester.enterText(find.byType(TextFormField).at(1), '  ');
     await tester.pumpAndSettle();
 
-    await tester.tap(find.text(L.medicineImageImportAddCount(2)));
+    // 空にした候補は登録対象から外れるため、確定ボタンの件数も 1 件に減る
+    await tester.tap(find.text(L.medicineImageImportAddCount(1)));
     await tester.pumpAndSettle();
 
     expect(readResult()?.map((candidate) => candidate.name), ['ロキソニンS']);
@@ -165,6 +166,29 @@ void main() {
 
     expect(find.text(L.medicineImageImportTimeFallbackCaption), findsOneWidget);
     expect(find.text(L.medicineImageImportDroppedSchedulesCaption(1)), findsOneWidget);
+  });
+
+  testWidgets('名前を空にした候補は選択枠を占有せず、確定件数からも外れる', (tester) async {
+    final readResult = await pumpAndOpenSheet(
+      tester,
+      candidates: [candidate(name: 'ロキソニン'), candidate(name: 'ガスター'), candidate(name: 'ムコダイン')],
+      maxSelectableCount: 2,
+    );
+
+    // 枠 2 を使い切っているため 3 件目は選択できない
+    expect(tester.widget<Checkbox>(find.byType(Checkbox).at(2)).onChanged, isNull);
+
+    // 選択済み候補の名前を空にすると、その候補は登録対象から外れて枠が空く
+    await tester.enterText(find.byType(TextFormField).at(0), '');
+    await tester.pumpAndSettle();
+
+    expect(find.text(L.medicineImageImportAddCount(1)), findsOneWidget);
+    expect(tester.widget<Checkbox>(find.byType(Checkbox).at(2)).onChanged, isNotNull);
+
+    await tester.tap(find.text(L.medicineImageImportAddCount(1)));
+    await tester.pumpAndSettle();
+
+    expect(readResult()?.map((candidate) => candidate.name), ['ガスター']);
   });
 
   testWidgets('キャンセルすると null が返る', (tester) async {

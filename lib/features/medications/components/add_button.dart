@@ -11,6 +11,13 @@ import 'package:medicalarm/utils/billing/created_count.dart';
 import 'package:medicalarm/utils/purchase/purchase.dart';
 import 'package:medicalarm/features/localization/l.dart';
 
+/// [MedicalAddFloatingActionButtonChild] を FloatingActionButtonLayout に載せた時に、
+/// スクロール内容の下端が隠れないよう各画面が確保する余白。
+/// 内訳は「お薬を追加」ボタン(ElevatedButton の minimumSize 48) + ボタン間 8 +
+/// 「画像から登録」ボタン(TextButton.icon の縦 padding 12x2 + テキスト 24 で約 48) +
+/// FloatingActionButtonLayout が末尾に足す 20 + 余裕 16。
+const double medicalAddFloatingActionButtonBottomInset = 140;
+
 class MedicalAddFloatingActionButtonChild extends HookConsumerWidget {
   const MedicalAddFloatingActionButtonChild({super.key, required this.medicines});
 

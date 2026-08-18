@@ -34,6 +34,12 @@ const maxNameLength = 50;
 /// 服用量メモの足切り長。クライアントの表示・保存を壊さないための異常値ガード。
 const maxQuantityMemoLength = 100;
 
+/// 出力トークンの上限。maxMedicinesPerImage x maxSchedulesPerMedicine を満たす応答
+/// (薬 20 件 x スケジュール 10 件) の実測でも 4000 トークンに満たないため、暴走時のコスト・
+/// レイテンシの歯止めとして 4096 を上限にする。上限に当たった応答は JSON が途中で切れるため、
+/// finish_reason を見てエラーにする。
+const maxCompletionTokens = 4096;
+
 /// 画像抽出に使う OpenAI モデル。リポジトリ既存の OpenAI 利用 (scripts/translation) と同じ
 /// gpt-4.1-mini に揃える。vision 入力と Structured Outputs (json_schema strict) をサポートし、
 /// 処方箋 1 枚のテキスト抽出には十分な性能で単価が安い。
@@ -207,6 +213,7 @@ async function generateMedicinesFromImageHandler(req: {
     const openai = new OpenAI({ apiKey: openAIApiKey.value() });
     const completion = await openai.chat.completions.create({
       model: openAIModel,
+      max_completion_tokens: maxCompletionTokens,
       messages: [
         {
           role: "user",
@@ -230,12 +237,14 @@ async function generateMedicinesFromImageHandler(req: {
             properties: {
               medicines: {
                 type: "array",
+                maxItems: maxMedicinesPerImage,
                 items: {
                   type: "object",
                   properties: {
                     name: { type: "string", description: "薬の名前" },
                     schedules: {
                       type: "array",
+                      maxItems: maxSchedulesPerMedicine,
                       items: {
                         type: "object",
                         properties: {
@@ -269,6 +278,12 @@ async function generateMedicinesFromImageHandler(req: {
       },
     });
 
+    // 上限で打ち切られた応答は JSON が途中で切れており、パースすると不正確な結果になる
+    if (completion.choices[0]?.finish_reason === "length") {
+      throw new Error(
+        "画像に含まれる情報が多く、読み取り結果が長すぎました。薬の部分を分けて撮影してください"
+      );
+    }
     const message = completion.choices[0]?.message;
     if (message?.refusal != null) {
       throw new Error(message.refusal);
