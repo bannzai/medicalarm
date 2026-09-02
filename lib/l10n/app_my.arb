@@ -249,5 +249,6 @@
   "onboardingValueReminderBody": "ဆေးသောက်ချိန်ရောက်သောအခါ Medicalarm က အကြောင်းကြားချက်ပို့ပေးသည်။\nအသံတိတ်မုဒ်တွင်ပင် Critical Alert ဖြင့် သတိပြုမိနိုင်သည်။",
   "onboardingCareTargetTitle": "ဘယ်သူ့ဆေးသောက်မှုကို စီမံမလဲ",
   "onboardingCareTargetSubtitle": "သင့်အဖြေများအပေါ် အခြေခံ၍ အစီအစဉ်တစ်ခု ဖန်တီးပေးပါမည်",
-  "onboardingCareTargetSelf": "မိမိအတွက်"
+  "onboardingCareTargetSelf": "မိမိအတွက်",
+  "onboardingCareTargetFamily": "မိသားစု"
 }

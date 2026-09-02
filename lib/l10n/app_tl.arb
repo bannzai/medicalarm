@@ -249,5 +249,6 @@
   "onboardingValueReminderBody": "Nagpapadala ang Medicalarm ng notification kapag oras na para inumin ang gamot.\nMapapansin mo ito gamit ang Critical Alert kahit naka-silent mode.",
   "onboardingCareTargetTitle": "Kaninong pag-inom ng gamot ang pamamahalaan mo?",
   "onboardingCareTargetSubtitle": "Gagawa kami ng plano batay sa iyong mga sagot",
-  "onboardingCareTargetSelf": "Para sa akin"
+  "onboardingCareTargetSelf": "Para sa akin",
+  "onboardingCareTargetFamily": "Pamilya"
 }

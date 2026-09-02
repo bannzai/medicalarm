@@ -249,5 +249,6 @@
   "onboardingValueReminderBody": "Medicalarm sender en notifikation, når det er tid til at tage din medicin.\nDu kan bemærke den via Critical Alert, selv når lydløs tilstand er slået til.",
   "onboardingCareTargetTitle": "Hvem skal du holde styr på medicinen for?",
   "onboardingCareTargetSubtitle": "Vi laver en plan ud fra dine svar",
-  "onboardingCareTargetSelf": "Mig selv"
+  "onboardingCareTargetSelf": "Mig selv",
+  "onboardingCareTargetFamily": "Familie"
 }

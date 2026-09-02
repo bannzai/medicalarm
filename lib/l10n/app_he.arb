@@ -249,5 +249,6 @@
   "onboardingValueReminderBody": "Medicalarm שולחת התראה כשהגיע הזמן לקחת את התרופה.\nאפשר להבחין בה באמצעות Critical Alert גם במצב שקט.",
   "onboardingCareTargetTitle": "נטילת התרופות של מי תנוהל?",
   "onboardingCareTargetSubtitle": "ניצור תוכנית בהתאם לתשובות שלך",
-  "onboardingCareTargetSelf": "לעצמי"
+  "onboardingCareTargetSelf": "לעצמי",
+  "onboardingCareTargetFamily": "משפחה"
 }

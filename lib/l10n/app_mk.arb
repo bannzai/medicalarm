@@ -249,5 +249,6 @@
   "onboardingValueReminderBody": "Medicalarm испраќа известување кога е време да го земете лекот.\nМожете да го забележите преку Critical Alert дури и во тивок режим.",
   "onboardingCareTargetTitle": "Чие земање лекови ќе го следите?",
   "onboardingCareTargetSubtitle": "Ќе направиме план според вашите одговори",
-  "onboardingCareTargetSelf": "За себе"
+  "onboardingCareTargetSelf": "За себе",
+  "onboardingCareTargetFamily": "Семејство"
 }

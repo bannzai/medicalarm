@@ -249,5 +249,6 @@
   "onboardingValueReminderBody": "Medicalarm pošlje obvestilo, ko je čas vzeti zdravilo.\nZahvaljujoč funkciji Critical Alert ga opazite tudi v tihem načinu.",
   "onboardingCareTargetTitle": "Čigavo jemanje zdravil boste upravljali?",
   "onboardingCareTargetSubtitle": "Na podlagi vaših odgovorov bomo pripravili načrt",
-  "onboardingCareTargetSelf": "Zase"
+  "onboardingCareTargetSelf": "Zase",
+  "onboardingCareTargetFamily": "Družina"
 }

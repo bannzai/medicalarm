@@ -249,5 +249,6 @@
   "onboardingValueReminderBody": "Medicalarm هنگام زمان مصرف دارو به شما اعلان می‌دهد.\nحتی در حالت بی‌صدا نیز می‌توانید آن را با Critical Alert متوجه شوید.",
   "onboardingCareTargetTitle": "مصرف داروی چه کسی را مدیریت می‌کنید؟",
   "onboardingCareTargetSubtitle": "بر اساس پاسخ‌های شما یک برنامه ایجاد می‌کنیم",
-  "onboardingCareTargetSelf": "برای خودم"
+  "onboardingCareTargetSelf": "برای خودم",
+  "onboardingCareTargetFamily": "خانواده"
 }

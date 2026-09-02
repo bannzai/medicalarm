@@ -249,5 +249,6 @@
   "onboardingValueReminderBody": "Medicalarm औषध घेण्याची वेळ झाल्यावर सूचना पाठवते.\nसायलेंट मोडमध्येही Critical Alert द्वारे ती लक्षात येऊ शकते.",
   "onboardingCareTargetTitle": "तुम्ही कोणाची औषधे घेण्याचे व्यवस्थापन कराल?",
   "onboardingCareTargetSubtitle": "तुमच्या उत्तरांनुसार आम्ही एक योजना तयार करू",
-  "onboardingCareTargetSelf": "स्वतःसाठी"
+  "onboardingCareTargetSelf": "स्वतःसाठी",
+  "onboardingCareTargetFamily": "कुटुंब"
 }

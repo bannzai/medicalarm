@@ -249,5 +249,6 @@
   "onboardingValueReminderBody": "Medicalarm-ek jakinarazpena bidaltzen du botika hartzeko unea denean.\nCritical Alert bidez oharra jaso dezakezu modu isilean ere.",
   "onboardingCareTargetTitle": "Noren botiken hartzea kudeatuko duzu?",
   "onboardingCareTargetSubtitle": "Zure erantzunen arabera plana sortuko dugu",
-  "onboardingCareTargetSelf": "Niretzat"
+  "onboardingCareTargetSelf": "Niretzat",
+  "onboardingCareTargetFamily": "Familia"
 }

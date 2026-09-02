@@ -249,5 +249,6 @@
   "onboardingValueReminderBody": "Medicalarm te envía una notificación cuando llega la hora de tomar tu medicamento.\nPuedes percibirla mediante Critical Alert incluso en modo silencio.",
   "onboardingCareTargetTitle": "¿De quién gestionarás la medicación?",
   "onboardingCareTargetSubtitle": "Crearemos un plan según tus respuestas",
-  "onboardingCareTargetSelf": "Para mí"
+  "onboardingCareTargetSelf": "Para mí",
+  "onboardingCareTargetFamily": "Familia"
 }

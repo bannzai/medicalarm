@@ -249,5 +249,6 @@
   "onboardingValueReminderBody": "Το Medicalarm στέλνει ειδοποίηση όταν είναι ώρα να πάρετε το φάρμακό σας.\nΜπορείτε να την αντιληφθείτε μέσω του Critical Alert ακόμη και σε αθόρυβη λειτουργία.",
   "onboardingCareTargetTitle": "Ποιανού τη φαρμακευτική αγωγή θα διαχειρίζεστε;",
   "onboardingCareTargetSubtitle": "Θα δημιουργήσουμε ένα σχέδιο με βάση τις απαντήσεις σας",
-  "onboardingCareTargetSelf": "Για εμένα"
+  "onboardingCareTargetSelf": "Για εμένα",
+  "onboardingCareTargetFamily": "Οικογένεια"
 }

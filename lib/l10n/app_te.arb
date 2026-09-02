@@ -249,5 +249,6 @@
   "onboardingValueReminderBody": "ఔషధం తీసుకునే సమయం వచ్చినప్పుడు Medicalarm నోటిఫికేషన్ పంపుతుంది.\nసైలెంట్ మోడ్‌లో కూడా Critical Alert ద్వారా దాన్ని గమనించవచ్చు.",
   "onboardingCareTargetTitle": "మీరు ఎవరి మందుల వినియోగాన్ని నిర్వహిస్తారు?",
   "onboardingCareTargetSubtitle": "మీ సమాధానాల ఆధారంగా మేము ఒక ప్రణాళికను రూపొందిస్తాము",
-  "onboardingCareTargetSelf": "నా కోసం"
+  "onboardingCareTargetSelf": "నా కోసం",
+  "onboardingCareTargetFamily": "కుటుంబం"
 }

@@ -249,5 +249,6 @@
   "onboardingValueReminderBody": "Mae Medicalarm yn anfon hysbysiad pan fydd hi’n amser cymryd eich meddyginiaeth.\nGallwch sylwi arno drwy Critical Alert hyd yn oed yn y modd distaw.",
   "onboardingCareTargetTitle": "Pwy sy’n cymryd meddyginiaeth y byddwch yn ei reoli?",
   "onboardingCareTargetSubtitle": "Byddwn yn creu cynllun yn seiliedig ar eich atebion",
-  "onboardingCareTargetSelf": "Fi fy hun"
+  "onboardingCareTargetSelf": "Fi fy hun",
+  "onboardingCareTargetFamily": "Teulu"
 }

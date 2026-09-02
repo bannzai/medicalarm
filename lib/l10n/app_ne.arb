@@ -249,5 +249,6 @@
   "onboardingValueReminderBody": "औषधि खाने समय हुँदा Medicalarm ले सूचना पठाउँछ।\nसाइलेन्ट मोडमा पनि Critical Alert मार्फत यसलाई थाहा पाउन सकिन्छ।",
   "onboardingCareTargetTitle": "तपाईं कसको औषधि सेवन व्यवस्थापन गर्नुहुन्छ?",
   "onboardingCareTargetSubtitle": "तपाईंका उत्तरका आधारमा हामी योजना बनाउनेछौँ",
-  "onboardingCareTargetSelf": "आफ्नो लागि"
+  "onboardingCareTargetSelf": "आफ्नो लागि",
+  "onboardingCareTargetFamily": "परिवार"
 }

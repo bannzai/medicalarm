@@ -249,5 +249,6 @@
   "onboardingValueReminderBody": "ଔଷଧ ଖାଇବା ସମୟ ହେଲେ Medicalarm ବିଜ୍ଞପ୍ତି ପଠାଏ।\nସାଇଲେଣ୍ଟ ମୋଡ୍‌ରେ ମଧ୍ୟ Critical Alert ମାଧ୍ୟମରେ ଏହା ଜାଣିପାରିବେ।",
   "onboardingCareTargetTitle": "ଆପଣ କାହାର ଔଷଧ ସେବନ ପରିଚାଳନା କରିବେ?",
   "onboardingCareTargetSubtitle": "ଆପଣଙ୍କ ଉତ୍ତର ଅନୁଯାୟୀ ଆମେ ଏକ ଯୋଜନା ପ୍ରସ୍ତୁତ କରିବୁ",
-  "onboardingCareTargetSelf": "ନିଜ ପାଇଁ"
+  "onboardingCareTargetSelf": "ନିଜ ପାଇଁ",
+  "onboardingCareTargetFamily": "ପରିବାର"
 }

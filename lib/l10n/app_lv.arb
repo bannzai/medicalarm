@@ -249,5 +249,6 @@
   "onboardingValueReminderBody": "Medicalarm nosūta paziņojumu, kad ir pienācis laiks lietot zāles.\nPateicoties Critical Alert, to varat pamanīt arī klusuma režīmā.",
   "onboardingCareTargetTitle": "Kuru medikamentu lietošanu jūs pārvaldīsiet?",
   "onboardingCareTargetSubtitle": "Izveidosim plānu, pamatojoties uz jūsu atbildēm",
-  "onboardingCareTargetSelf": "Sev"
+  "onboardingCareTargetSelf": "Sev",
+  "onboardingCareTargetFamily": "Ģimene"
 }

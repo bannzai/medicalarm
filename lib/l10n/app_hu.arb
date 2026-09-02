@@ -249,5 +249,6 @@
   "onboardingValueReminderBody": "A Medicalarm értesítést küld, amikor eljön a gyógyszer bevételének ideje.\nA Critical Alert segítségével néma módban is észreveheti.",
   "onboardingCareTargetTitle": "Kinek a gyógyszerszedését fogja kezelni?",
   "onboardingCareTargetSubtitle": "A válaszai alapján tervet készítünk",
-  "onboardingCareTargetSelf": "Magamnak"
+  "onboardingCareTargetSelf": "Magamnak",
+  "onboardingCareTargetFamily": "Család"
 }

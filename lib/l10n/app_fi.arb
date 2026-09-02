@@ -249,5 +249,6 @@
   "onboardingValueReminderBody": "Medicalarm ilmoittaa, kun on aika ottaa lääkkeesi.\nHuomaat ilmoituksen Critical Alert -toiminnon avulla myös äänettömässä tilassa.",
   "onboardingCareTargetTitle": "Kenen lääkitystä hallinnoit?",
   "onboardingCareTargetSubtitle": "Laadimme vastaustesi perusteella suunnitelman",
-  "onboardingCareTargetSelf": "Itselleni"
+  "onboardingCareTargetSelf": "Itselleni",
+  "onboardingCareTargetFamily": "Perhe"
 }

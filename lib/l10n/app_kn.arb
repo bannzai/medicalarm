@@ -249,5 +249,6 @@
   "onboardingValueReminderBody": "Medicalarm ಔಷಧಿ ತೆಗೆದುಕೊಳ್ಳುವ ಸಮಯವಾದಾಗ ಅಧಿಸೂಚನೆ ಕಳುಹಿಸುತ್ತದೆ.\nಸೈಲೆಂಟ್ ಮೋಡ್‌ನಲ್ಲಿಯೂ Critical Alert ಮೂಲಕ ಅದನ್ನು ಗಮನಿಸಬಹುದು.",
   "onboardingCareTargetTitle": "ನೀವು ಯಾರ ಔಷಧ ಸೇವನೆಯನ್ನು ನಿರ್ವಹಿಸುತ್ತೀರಿ?",
   "onboardingCareTargetSubtitle": "ನಿಮ್ಮ ಉತ್ತರಗಳ ಆಧಾರದ ಮೇಲೆ ನಾವು ಯೋಜನೆಯನ್ನು ರೂಪಿಸುತ್ತೇವೆ",
-  "onboardingCareTargetSelf": "ನನಗಾಗಿ"
+  "onboardingCareTargetSelf": "ನನಗಾಗಿ",
+  "onboardingCareTargetFamily": "ಕುಟುಂಬ"
 }
