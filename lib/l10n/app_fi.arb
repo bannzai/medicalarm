@@ -168,5 +168,6 @@
   "receiveReward": "Vastaanota palkinto",
   "notNow": "Ei nyt",
   "openAppStore": "Avaa App Store",
-  "confirmOpenAppStore": "Haluatko avata App Storen arvostelun kirjoittamista varten?"
+  "confirmOpenAppStore": "Haluatko avata App Storen arvostelun kirjoittamista varten?",
+  "premiumFeaturesList": "Premium-ominaisuudet"
 }

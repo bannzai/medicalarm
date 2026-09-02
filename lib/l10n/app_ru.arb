@@ -168,5 +168,6 @@
   "receiveReward": "Получить награду",
   "notNow": "Не сейчас",
   "openAppStore": "Открыть App Store",
-  "confirmOpenAppStore": "Открыть App Store, чтобы написать отзыв?"
+  "confirmOpenAppStore": "Открыть App Store, чтобы написать отзыв?",
+  "premiumFeaturesList": "Список премиум-функций"
 }

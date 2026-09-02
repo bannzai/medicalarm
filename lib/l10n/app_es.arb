@@ -168,5 +168,6 @@
   "receiveReward": "Recibir recompensa",
   "notNow": "Ahora no",
   "openAppStore": "Abrir el App Store",
-  "confirmOpenAppStore": "¿Quieres abrir el App Store para escribir una reseña?"
+  "confirmOpenAppStore": "¿Quieres abrir el App Store para escribir una reseña?",
+  "premiumFeaturesList": "Lista de funciones premium"
 }
