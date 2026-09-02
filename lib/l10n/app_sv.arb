@@ -237,5 +237,6 @@
   "onboardingWelcomeFeatureCriticalAlert": "Critical Alert som låter även i tyst läge",
   "onboardingWelcomeFeatureFamily": "Hantera även hela familjens medicinering på ett ställe",
   "onboardingStart": "Kom igång",
-  "onboardingNext": "Nästa"
+  "onboardingNext": "Nästa",
+  "onboardingBack": "Tillbaka"
 }

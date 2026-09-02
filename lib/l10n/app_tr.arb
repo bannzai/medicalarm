@@ -237,5 +237,6 @@
   "onboardingWelcomeFeatureCriticalAlert": "Sessiz modda bile çalan Critical Alert",
   "onboardingWelcomeFeatureFamily": "Ailenizin ilaçlarını da tek bir yerden yönetin",
   "onboardingStart": "Başla",
-  "onboardingNext": "İleri"
+  "onboardingNext": "İleri",
+  "onboardingBack": "Geri"
 }

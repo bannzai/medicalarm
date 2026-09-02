@@ -237,5 +237,6 @@
   "onboardingWelcomeFeatureCriticalAlert": "Critical Alert يرن حتى في الوضع الصامت",
   "onboardingWelcomeFeatureFamily": "إدارة أدوية عائلتك أيضًا في مكان واحد",
   "onboardingStart": "ابدأ",
-  "onboardingNext": "التالي"
+  "onboardingNext": "التالي",
+  "onboardingBack": "رجوع"
 }

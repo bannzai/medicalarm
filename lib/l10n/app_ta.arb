@@ -237,5 +237,6 @@
   "onboardingWelcomeFeatureCriticalAlert": "சைலண்ட் பயன்முறையிலும் ஒலிக்கும் Critical Alert",
   "onboardingWelcomeFeatureFamily": "உங்கள் குடும்பத்தின் மருந்துகளையும் ஒரே இடத்தில் நிர்வகிக்கவும்",
   "onboardingStart": "தொடங்கவும்",
-  "onboardingNext": "அடுத்து"
+  "onboardingNext": "அடுத்து",
+  "onboardingBack": "பின்செல்"
 }

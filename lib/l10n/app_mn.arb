@@ -237,5 +237,6 @@
   "onboardingWelcomeFeatureCriticalAlert": "Чимээгүй горимд ч дуугарах Critical Alert",
   "onboardingWelcomeFeatureFamily": "Гэр бүлийнхээ эмийн хэрэглээг ч нэг дор хянаарай",
   "onboardingStart": "Эхлэх",
-  "onboardingNext": "Дараах"
+  "onboardingNext": "Дараах",
+  "onboardingBack": "Буцах"
 }

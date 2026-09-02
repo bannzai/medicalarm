@@ -237,5 +237,6 @@
   "onboardingWelcomeFeatureCriticalAlert": "Critical Alert, kas skan arī klusuma režīmā",
   "onboardingWelcomeFeatureFamily": "Pārvaldiet arī visas ģimenes medikamentu lietošanu vienuviet",
   "onboardingStart": "Sākt",
-  "onboardingNext": "Nākamais"
+  "onboardingNext": "Nākamais",
+  "onboardingBack": "Atpakaļ"
 }

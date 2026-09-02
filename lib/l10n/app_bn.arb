@@ -237,5 +237,6 @@
   "onboardingWelcomeFeatureCriticalAlert": "নিরব মোডেও বেজে ওঠে Critical Alert",
   "onboardingWelcomeFeatureFamily": "পরিবারের ওষুধও একসঙ্গে পরিচালনা করুন",
   "onboardingStart": "শুরু করুন",
-  "onboardingNext": "পরবর্তী"
+  "onboardingNext": "পরবর্তী",
+  "onboardingBack": "পিছনে যান"
 }

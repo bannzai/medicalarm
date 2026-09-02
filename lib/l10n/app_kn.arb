@@ -237,5 +237,6 @@
   "onboardingWelcomeFeatureCriticalAlert": "ಸೈಲೆಂಟ್ ಮೋಡ್‌ನಲ್ಲಿಯೂ ಧ್ವನಿಸುವ Critical Alert",
   "onboardingWelcomeFeatureFamily": "ನಿಮ್ಮ ಕುಟುಂಬದ ಔಷಧಿಗಳನ್ನೂ ಒಂದೇ ಸ್ಥಳದಲ್ಲಿ ನಿರ್ವಹಿಸಿ",
   "onboardingStart": "ಪ್ರಾರಂಭಿಸಿ",
-  "onboardingNext": "ಮುಂದೆ"
+  "onboardingNext": "ಮುಂದೆ",
+  "onboardingBack": "ಹಿಂದಕ್ಕೆ"
 }

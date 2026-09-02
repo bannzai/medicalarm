@@ -237,5 +237,6 @@
   "onboardingWelcomeFeatureCriticalAlert": "Critical Alert, der auch im Lautlosmodus ertönt",
   "onboardingWelcomeFeatureFamily": "Verwalte auch die Medikamente deiner Familie an einem Ort",
   "onboardingStart": "Loslegen",
-  "onboardingNext": "Weiter"
+  "onboardingNext": "Weiter",
+  "onboardingBack": "Zurück"
 }

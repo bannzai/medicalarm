@@ -237,5 +237,6 @@
   "onboardingWelcomeFeatureCriticalAlert": "Səssiz rejimdə belə səslənən Critical Alert",
   "onboardingWelcomeFeatureFamily": "Ailənizin dərmanlarını da bir yerdən idarə edin",
   "onboardingStart": "Başlayın",
-  "onboardingNext": "Növbəti"
+  "onboardingNext": "Növbəti",
+  "onboardingBack": "Geri"
 }

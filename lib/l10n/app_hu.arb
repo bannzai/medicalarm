@@ -237,5 +237,6 @@
   "onboardingWelcomeFeatureCriticalAlert": "Critical Alert, amely néma módban is megszólal",
   "onboardingWelcomeFeatureFamily": "Családja gyógyszereit is kezelheti egy helyen",
   "onboardingStart": "Kezdjük el",
-  "onboardingNext": "Következő"
+  "onboardingNext": "Következő",
+  "onboardingBack": "Vissza"
 }

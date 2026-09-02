@@ -237,5 +237,6 @@
   "onboardingWelcomeFeatureCriticalAlert": "Critical Alert, który działa także w trybie cichym",
   "onboardingWelcomeFeatureFamily": "Zarządzaj także lekami całej rodziny w jednym miejscu",
   "onboardingStart": "Zacznij",
-  "onboardingNext": "Dalej"
+  "onboardingNext": "Dalej",
+  "onboardingBack": "Wstecz"
 }

@@ -237,5 +237,6 @@
   "onboardingWelcomeFeatureCriticalAlert": "Critical Alert die ook in de stille modus klinkt",
   "onboardingWelcomeFeatureFamily": "Beheer ook de medicatie van je gezin op één plek",
   "onboardingStart": "Aan de slag",
-  "onboardingNext": "Volgende"
+  "onboardingNext": "Volgende",
+  "onboardingBack": "Terug"
 }

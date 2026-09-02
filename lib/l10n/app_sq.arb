@@ -237,5 +237,6 @@
   "onboardingWelcomeFeatureCriticalAlert": "Critical Alert që bie edhe në modalitetin pa zë",
   "onboardingWelcomeFeatureFamily": "Menaxhoni edhe ilaçet e familjes në një vend",
   "onboardingStart": "Fillo",
-  "onboardingNext": "Tjetër"
+  "onboardingNext": "Tjetër",
+  "onboardingBack": "Prapa"
 }

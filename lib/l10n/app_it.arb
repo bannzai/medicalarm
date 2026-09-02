@@ -237,5 +237,6 @@
   "onboardingWelcomeFeatureCriticalAlert": "Critical Alert che suona anche in modalità silenziosa",
   "onboardingWelcomeFeatureFamily": "Gestisci anche i farmaci della tua famiglia in un unico posto",
   "onboardingStart": "Inizia",
-  "onboardingNext": "Avanti"
+  "onboardingNext": "Avanti",
+  "onboardingBack": "Indietro"
 }

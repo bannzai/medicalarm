@@ -237,5 +237,6 @@
   "onboardingWelcomeFeatureCriticalAlert": "무음 모드에서도 울리는 Critical Alert",
   "onboardingWelcomeFeatureFamily": "가족의 복약도 한곳에서 관리하세요",
   "onboardingStart": "시작하기",
-  "onboardingNext": "다음"
+  "onboardingNext": "다음",
+  "onboardingBack": "뒤로"
 }

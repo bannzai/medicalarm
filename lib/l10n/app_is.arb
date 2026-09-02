@@ -237,5 +237,6 @@
   "onboardingWelcomeFeatureCriticalAlert": "Critical Alert sem hringir jafnvel í hljóðlausri stillingu",
   "onboardingWelcomeFeatureFamily": "Haltu einnig utan um lyf fjölskyldunnar á einum stað",
   "onboardingStart": "Byrja",
-  "onboardingNext": "Næsta"
+  "onboardingNext": "Næsta",
+  "onboardingBack": "Til baka"
 }

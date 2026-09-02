@@ -237,5 +237,6 @@
   "onboardingWelcomeFeatureCriticalAlert": "Critical Alert koji zvoni i u tihom načinu rada",
   "onboardingWelcomeFeatureFamily": "Upravljajte i lijekovima svoje obitelji na jednom mjestu",
   "onboardingStart": "Započni",
-  "onboardingNext": "Sljedeće"
+  "onboardingNext": "Sljedeće",
+  "onboardingBack": "Natrag"
 }

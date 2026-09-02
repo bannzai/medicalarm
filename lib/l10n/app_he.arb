@@ -237,5 +237,6 @@
   "onboardingWelcomeFeatureCriticalAlert": "Critical Alert שנשמע גם במצב שקט",
   "onboardingWelcomeFeatureFamily": "נהלו גם את התרופות של בני המשפחה במקום אחד",
   "onboardingStart": "התחל",
-  "onboardingNext": "הבא"
+  "onboardingNext": "הבא",
+  "onboardingBack": "חזרה"
 }

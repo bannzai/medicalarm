@@ -237,5 +237,6 @@
   "onboardingWelcomeFeatureCriticalAlert": "Дыбыссыз режимде де шығатын Critical Alert",
   "onboardingWelcomeFeatureFamily": "Отбасыңыздың дәрі қабылдауын да бір жерден басқарыңыз",
   "onboardingStart": "Бастау",
-  "onboardingNext": "Келесі"
+  "onboardingNext": "Келесі",
+  "onboardingBack": "Артқа"
 }

@@ -237,5 +237,6 @@
   "onboardingWelcomeFeatureCriticalAlert": "Critical Alert, який звучить навіть у беззвучному режимі",
   "onboardingWelcomeFeatureFamily": "Керуйте прийомом ліків усієї родини в одному місці",
   "onboardingStart": "Почати",
-  "onboardingNext": "Далі"
+  "onboardingNext": "Далі",
+  "onboardingBack": "Назад"
 }

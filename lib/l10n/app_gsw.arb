@@ -237,5 +237,6 @@
   "onboardingWelcomeFeatureCriticalAlert": "Critical Alert, wo au im Stummmodus tönt",
   "onboardingWelcomeFeatureFamily": "Verwalte au d’Medikamente vo de Familie a eim Ort",
   "onboardingStart": "Starten",
-  "onboardingNext": "Wyter"
+  "onboardingNext": "Wyter",
+  "onboardingBack": "Zurück"
 }

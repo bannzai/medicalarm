@@ -237,5 +237,6 @@
   "onboardingWelcomeFeatureCriticalAlert": "නිහඬ ප්‍රකාරයේදී පවා නාද වන Critical Alert",
   "onboardingWelcomeFeatureFamily": "ඔබේ පවුලේ ඖෂධ භාවිතයත් එකම ස්ථානයක කළමනාකරණය කරන්න",
   "onboardingStart": "ආරම්භ කරන්න",
-  "onboardingNext": "ඊළඟ"
+  "onboardingNext": "ඊළඟ",
+  "onboardingBack": "ආපසු"
 }

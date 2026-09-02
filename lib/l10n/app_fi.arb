@@ -237,5 +237,6 @@
   "onboardingWelcomeFeatureCriticalAlert": "Critical Alert, joka kuuluu myös äänettömässä tilassa",
   "onboardingWelcomeFeatureFamily": "Hallitse myös perheesi lääkityksiä yhdessä paikassa",
   "onboardingStart": "Aloita",
-  "onboardingNext": "Seuraava"
+  "onboardingNext": "Seuraava",
+  "onboardingBack": "Takaisin"
 }

@@ -237,5 +237,6 @@
   "onboardingWelcomeFeatureCriticalAlert": "I-Critical Alert ekhala ngisho ikumodi ethulile",
   "onboardingWelcomeFeatureFamily": "Phatha nemithi yomndeni wakho endaweni eyodwa",
   "onboardingStart": "Qalisa",
-  "onboardingNext": "Okulandelayo"
+  "onboardingNext": "Okulandelayo",
+  "onboardingBack": "Emuva"
 }

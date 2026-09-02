@@ -237,5 +237,6 @@
   "onboardingWelcomeFeatureCriticalAlert": "Critical Alert, който звучи дори в безшумен режим",
   "onboardingWelcomeFeatureFamily": "Управлявайте и приема на лекарства от цялото семейство на едно място",
   "onboardingStart": "Започнете",
-  "onboardingNext": "Напред"
+  "onboardingNext": "Напред",
+  "onboardingBack": "Назад"
 }

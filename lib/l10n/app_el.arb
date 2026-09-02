@@ -237,5 +237,6 @@
   "onboardingWelcomeFeatureCriticalAlert": "Critical Alert που χτυπά ακόμη και σε αθόρυβη λειτουργία",
   "onboardingWelcomeFeatureFamily": "Διαχειριστείτε και τα φάρμακα της οικογένειάς σας σε ένα μέρος",
   "onboardingStart": "Ξεκινήστε",
-  "onboardingNext": "Επόμενο"
+  "onboardingNext": "Επόμενο",
+  "onboardingBack": "Πίσω"
 }

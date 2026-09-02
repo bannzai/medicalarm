@@ -237,5 +237,6 @@
   "onboardingWelcomeFeatureCriticalAlert": "Ovozsiz rejimda ham chalinadigan Critical Alert",
   "onboardingWelcomeFeatureFamily": "Oilangizning dori-darmonlarini ham bir joyda boshqaring",
   "onboardingStart": "Boshlash",
-  "onboardingNext": "Keyingi"
+  "onboardingNext": "Keyingi",
+  "onboardingBack": "Orqaga"
 }

@@ -237,5 +237,6 @@
   "onboardingWelcomeFeatureCriticalAlert": "સાઇલન્ટ મોડમાં પણ વાગતું Critical Alert",
   "onboardingWelcomeFeatureFamily": "તમારા પરિવારની દવાઓનું પણ એક જ જગ્યાએ સંચાલન કરો",
   "onboardingStart": "શરૂ કરો",
-  "onboardingNext": "આગળ"
+  "onboardingNext": "આગળ",
+  "onboardingBack": "પાછા જાઓ"
 }

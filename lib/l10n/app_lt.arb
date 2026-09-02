@@ -237,5 +237,6 @@
   "onboardingWelcomeFeatureCriticalAlert": "Critical Alert, kuris skamba net įjungus tylųjį režimą",
   "onboardingWelcomeFeatureFamily": "Tvarkykite ir visos šeimos vaistų vartojimą vienoje vietoje",
   "onboardingStart": "Pradėti",
-  "onboardingNext": "Kitas"
+  "onboardingNext": "Kitas",
+  "onboardingBack": "Atgal"
 }

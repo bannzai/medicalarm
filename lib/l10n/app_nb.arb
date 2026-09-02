@@ -237,5 +237,6 @@
   "onboardingWelcomeFeatureCriticalAlert": "Critical Alert som varsler selv i lydløs modus",
   "onboardingWelcomeFeatureFamily": "Administrer også familiens medisiner på ett sted",
   "onboardingStart": "Kom i gang",
-  "onboardingNext": "Neste"
+  "onboardingNext": "Neste",
+  "onboardingBack": "Tilbake"
 }

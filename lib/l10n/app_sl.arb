@@ -237,5 +237,6 @@
   "onboardingWelcomeFeatureCriticalAlert": "Critical Alert, ki zazvoni tudi v tihem načinu",
   "onboardingWelcomeFeatureFamily": "Upravljajte tudi jemanjem zdravil celotne družine na enem mestu",
   "onboardingStart": "Začni",
-  "onboardingNext": "Naprej"
+  "onboardingNext": "Naprej",
+  "onboardingBack": "Nazaj"
 }

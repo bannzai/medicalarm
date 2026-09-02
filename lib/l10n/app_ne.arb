@@ -237,5 +237,6 @@
   "onboardingWelcomeFeatureCriticalAlert": "साइलेन्ट मोडमा पनि बज्ने Critical Alert",
   "onboardingWelcomeFeatureFamily": "आफ्नो परिवारका औषधिहरू पनि एउटै ठाउँमा व्यवस्थापन गर्नुहोस्",
   "onboardingStart": "सुरु गर्नुहोस्",
-  "onboardingNext": "अर्को"
+  "onboardingNext": "अर्को",
+  "onboardingBack": "पछाडि"
 }

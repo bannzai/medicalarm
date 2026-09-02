@@ -237,5 +237,6 @@
   "onboardingWelcomeFeatureCriticalAlert": "सायलेंट मोडमध्येही वाजणारा Critical Alert",
   "onboardingWelcomeFeatureFamily": "तुमच्या कुटुंबाची औषधेही एकाच ठिकाणी व्यवस्थापित करा",
   "onboardingStart": "सुरू करा",
-  "onboardingNext": "पुढे"
+  "onboardingNext": "पुढे",
+  "onboardingBack": "मागे"
 }

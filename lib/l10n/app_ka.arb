@@ -237,5 +237,6 @@
   "onboardingWelcomeFeatureCriticalAlert": "Critical Alert, რომელიც უხმო რეჟიმშიც ჟღერს",
   "onboardingWelcomeFeatureFamily": "მართეთ თქვენი ოჯახის მედიკამენტების მიღებაც ერთ ადგილას",
   "onboardingStart": "დაწყება",
-  "onboardingNext": "შემდეგი"
+  "onboardingNext": "შემდეგი",
+  "onboardingBack": "უკან"
 }

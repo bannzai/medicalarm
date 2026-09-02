@@ -237,5 +237,6 @@
   "onboardingWelcomeFeatureCriticalAlert": "Critical Alert na tumutunog kahit naka-silent mode",
   "onboardingWelcomeFeatureFamily": "Pamahalaan din ang pag-inom ng gamot ng iyong pamilya sa iisang lugar",
   "onboardingStart": "Magsimula",
-  "onboardingNext": "Susunod"
+  "onboardingNext": "Susunod",
+  "onboardingBack": "Bumalik"
 }
