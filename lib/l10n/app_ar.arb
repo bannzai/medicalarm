@@ -264,5 +264,6 @@
   "onboardingBeforeAfterTitle": "ما الذي سيتغير مع Medicalarm",
   "onboardingBeforeLabel": "حتى الآن",
   "onboardingAfterLabel": "من الآن فصاعدًا",
-  "onboardingBeforeItemForgot": "اكتشفت أنني نسيت تناول دوائي"
+  "onboardingBeforeItemForgot": "اكتشفت أنني نسيت تناول دوائي",
+  "onboardingBeforeItemUnsure": "لا أتذكر ما إذا كنت قد تناولته"
 }

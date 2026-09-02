@@ -264,5 +264,6 @@
   "onboardingBeforeAfterTitle": "Што зменіцца з Medicalarm",
   "onboardingBeforeLabel": "Да гэтага часу",
   "onboardingAfterLabel": "З гэтага часу",
-  "onboardingBeforeItemForgot": "Я заўважыў(ла), што забыўся(лася) прыняць лекі"
+  "onboardingBeforeItemForgot": "Я заўважыў(ла), што забыўся(лася) прыняць лекі",
+  "onboardingBeforeItemUnsure": "Не памятаю, ці прымаў(ла) я яго"
 }

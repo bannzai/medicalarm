@@ -264,5 +264,6 @@
   "onboardingBeforeAfterTitle": "Kas mainās, lietojot Medicalarm",
   "onboardingBeforeLabel": "Līdz šim",
   "onboardingAfterLabel": "No šī brīža",
-  "onboardingBeforeItemForgot": "Sapratu, ka zāles nav iedzertas"
+  "onboardingBeforeItemForgot": "Sapratu, ka zāles nav iedzertas",
+  "onboardingBeforeItemUnsure": "Neatceros, vai to iedzēru"
 }

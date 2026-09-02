@@ -264,5 +264,6 @@
   "onboardingBeforeAfterTitle": "Beth sy’n newid gyda Medicalarm",
   "onboardingBeforeLabel": "Hyd yma",
   "onboardingAfterLabel": "O hyn ymlaen",
-  "onboardingBeforeItemForgot": "Sylweddolais fy mod wedi anghofio cymryd fy meddyginiaeth"
+  "onboardingBeforeItemForgot": "Sylweddolais fy mod wedi anghofio cymryd fy meddyginiaeth",
+  "onboardingBeforeItemUnsure": "Methu ddim cofio a wnes i ei gymryd"
 }

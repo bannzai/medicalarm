@@ -264,5 +264,6 @@
   "onboardingBeforeAfterTitle": "Medicalarm ile neler değişir",
   "onboardingBeforeLabel": "Şimdiye kadar",
   "onboardingAfterLabel": "Bundan sonra",
-  "onboardingBeforeItemForgot": "İlacımı almayı unuttuğumu fark ettim"
+  "onboardingBeforeItemForgot": "İlacımı almayı unuttuğumu fark ettim",
+  "onboardingBeforeItemUnsure": "Alıp almadığımı hatırlamıyorum"
 }

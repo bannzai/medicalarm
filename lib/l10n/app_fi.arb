@@ -264,5 +264,6 @@
   "onboardingBeforeAfterTitle": "Mitä Medicalarm muuttaa",
   "onboardingBeforeLabel": "Tähän asti",
   "onboardingAfterLabel": "Tästä eteenpäin",
-  "onboardingBeforeItemForgot": "Huomasin unohtaneeni ottaa lääkkeeni"
+  "onboardingBeforeItemForgot": "Huomasin unohtaneeni ottaa lääkkeeni",
+  "onboardingBeforeItemUnsure": "En muista, otinko sen"
 }

@@ -264,5 +264,6 @@
   "onboardingBeforeAfterTitle": "Okuzoshintsha nge-Medicalarm",
   "onboardingBeforeLabel": "Kuze kube manje",
   "onboardingAfterLabel": "Kusukela manje",
-  "onboardingBeforeItemForgot": "Ngabona ukuthi ngangikhohliwe ukuphuza umuthi wami"
+  "onboardingBeforeItemForgot": "Ngabona ukuthi ngangikhohliwe ukuphuza umuthi wami",
+  "onboardingBeforeItemUnsure": "Angikhumbuli ukuthi ngiwuphuzile yini"
 }

@@ -264,5 +264,6 @@
   "onboardingBeforeAfterTitle": "Medicalarm으로 달라지는 점",
   "onboardingBeforeLabel": "지금까지",
   "onboardingAfterLabel": "이제부터",
-  "onboardingBeforeItemForgot": "약 먹는 것을 잊었다는 걸 깨달았어요"
+  "onboardingBeforeItemForgot": "약 먹는 것을 잊었다는 걸 깨달았어요",
+  "onboardingBeforeItemUnsure": "복용했는지 기억나지 않아요"
 }

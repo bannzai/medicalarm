@@ -264,5 +264,6 @@
   "onboardingBeforeAfterTitle": "Hva som endrer seg med Medicalarm",
   "onboardingBeforeLabel": "Hittil",
   "onboardingAfterLabel": "Fra nå av",
-  "onboardingBeforeItemForgot": "Jeg oppdaget at jeg hadde glemt å ta medisinen min"
+  "onboardingBeforeItemForgot": "Jeg oppdaget at jeg hadde glemt å ta medisinen min",
+  "onboardingBeforeItemUnsure": "Jeg husker ikke om jeg tok den"
 }

@@ -264,5 +264,6 @@
   "onboardingBeforeAfterTitle": "Ce se schimbă cu Medicalarm",
   "onboardingBeforeLabel": "Până acum",
   "onboardingAfterLabel": "De acum înainte",
-  "onboardingBeforeItemForgot": "Mi-am dat seama că am uitat să-mi iau medicamentul"
+  "onboardingBeforeItemForgot": "Mi-am dat seama că am uitat să-mi iau medicamentul",
+  "onboardingBeforeItemUnsure": "Nu-mi amintesc dacă am luat medicamentul"
 }

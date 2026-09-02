@@ -264,5 +264,6 @@
   "onboardingBeforeAfterTitle": "ສິ່ງທີ່ປ່ຽນໄປດ້ວຍ Medicalarm",
   "onboardingBeforeLabel": "ຈົນເຖິງຕອນນີ້",
   "onboardingAfterLabel": "ຈາກນີ້ໄປ",
-  "onboardingBeforeItemForgot": "ຮູ້ຕົວວ່າລືມກິນຢາ"
+  "onboardingBeforeItemForgot": "ຮູ້ຕົວວ່າລືມກິນຢາ",
+  "onboardingBeforeItemUnsure": "ຈື່ບໍ່ໄດ້ວ່າໄດ້ກິນຢາແລ້ວຫຼືຍັງ"
 }

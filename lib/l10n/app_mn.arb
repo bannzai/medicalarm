@@ -264,5 +264,6 @@
   "onboardingBeforeAfterTitle": "Medicalarm-тэй хамт юу өөрчлөгдөх вэ",
   "onboardingBeforeLabel": "Одоог хүртэл",
   "onboardingAfterLabel": "Одооноос",
-  "onboardingBeforeItemForgot": "Эмээ уухаа мартсанаа мэдлээ"
+  "onboardingBeforeItemForgot": "Эмээ уухаа мартсанаа мэдлээ",
+  "onboardingBeforeItemUnsure": "Уусан эсэхээ санахгүй байна"
 }

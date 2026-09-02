@@ -264,5 +264,6 @@
   "onboardingBeforeAfterTitle": "Medicalarm bilan nimalar o‘zgaradi",
   "onboardingBeforeLabel": "Hozirgacha",
   "onboardingAfterLabel": "Bundan buyon",
-  "onboardingBeforeItemForgot": "Dorini ichishni unutganimni angladim"
+  "onboardingBeforeItemForgot": "Dorini ichishni unutganimni angladim",
+  "onboardingBeforeItemUnsure": "Uni qabul qilganimni eslay olmayapman"
 }

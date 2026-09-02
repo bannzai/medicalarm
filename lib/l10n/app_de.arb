@@ -264,5 +264,6 @@
   "onboardingBeforeAfterTitle": "Was sich mit Medicalarm ändert",
   "onboardingBeforeLabel": "Bisher",
   "onboardingAfterLabel": "Ab jetzt",
-  "onboardingBeforeItemForgot": "Ich habe bemerkt, dass ich vergessen hatte, meine Medikamente einzunehmen"
+  "onboardingBeforeItemForgot": "Ich habe bemerkt, dass ich vergessen hatte, meine Medikamente einzunehmen",
+  "onboardingBeforeItemUnsure": "Ich weiß nicht mehr, ob ich es eingenommen habe"
 }

@@ -264,5 +264,6 @@
   "onboardingBeforeAfterTitle": "Šta se menja uz Medicalarm",
   "onboardingBeforeLabel": "Do sada",
   "onboardingAfterLabel": "Od sada",
-  "onboardingBeforeItemForgot": "Shvatio/la sam da sam zaboravio/la uzeti lijek"
+  "onboardingBeforeItemForgot": "Shvatio/la sam da sam zaboravio/la uzeti lijek",
+  "onboardingBeforeItemUnsure": "Ne sjećam se da li sam ga uzeo/la"
 }

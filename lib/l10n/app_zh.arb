@@ -264,5 +264,6 @@
   "onboardingBeforeAfterTitle": "Medicalarm 带来的改变",
   "onboardingBeforeLabel": "目前为止",
   "onboardingAfterLabel": "从现在开始",
-  "onboardingBeforeItemForgot": "意识到自己忘记服药了"
+  "onboardingBeforeItemForgot": "意识到自己忘记服药了",
+  "onboardingBeforeItemUnsure": "不记得有没有服用"
 }

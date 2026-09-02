@@ -264,5 +264,6 @@
   "onboardingBeforeAfterTitle": "Ce qui change avec Medicalarm",
   "onboardingBeforeLabel": "Jusqu’à présent",
   "onboardingAfterLabel": "À partir de maintenant",
-  "onboardingBeforeItemForgot": "Je me suis rendu compte que j’avais oublié de prendre mon médicament"
+  "onboardingBeforeItemForgot": "Je me suis rendu compte que j’avais oublié de prendre mon médicament",
+  "onboardingBeforeItemUnsure": "Je ne me souviens pas l’avoir pris"
 }

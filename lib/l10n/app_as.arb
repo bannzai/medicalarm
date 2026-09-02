@@ -264,5 +264,6 @@
   "onboardingBeforeAfterTitle": "Medicalarm-ৰ সৈতে যি সলনি হয়",
   "onboardingBeforeLabel": "এতিয়ালৈকে",
   "onboardingAfterLabel": "এতিয়াৰ পৰা",
-  "onboardingBeforeItemForgot": "মই ঔষধ খাবলৈ পাহৰিছিলোঁ বুলি গম পালোঁ"
+  "onboardingBeforeItemForgot": "মই ঔষধ খাবলৈ পাহৰিছিলোঁ বুলি গম পালোঁ",
+  "onboardingBeforeItemUnsure": "ঔষধটো খালোঁ নে নাই মনত পেলাব পৰা নাই"
 }

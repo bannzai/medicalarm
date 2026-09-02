@@ -264,5 +264,6 @@
   "onboardingBeforeAfterTitle": "በMedicalarm የሚቀየረው",
   "onboardingBeforeLabel": "እስካሁን",
   "onboardingAfterLabel": "ከአሁን ጀምሮ",
-  "onboardingBeforeItemForgot": "መድኃኒቴን መውሰድ እንደረሳሁ ተገነዘብኩ"
+  "onboardingBeforeItemForgot": "መድኃኒቴን መውሰድ እንደረሳሁ ተገነዘብኩ",
+  "onboardingBeforeItemUnsure": "መውሰዴን አላስታውስም"
 }

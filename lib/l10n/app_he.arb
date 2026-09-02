@@ -264,5 +264,6 @@
   "onboardingBeforeAfterTitle": "מה משתנה עם Medicalarm",
   "onboardingBeforeLabel": "עד עכשיו",
   "onboardingAfterLabel": "מעכשיו",
-  "onboardingBeforeItemForgot": "שמתי לב ששכחתי לקחת את התרופה שלי"
+  "onboardingBeforeItemForgot": "שמתי לב ששכחתי לקחת את התרופה שלי",
+  "onboardingBeforeItemUnsure": "אני לא זוכר/ת אם לקחתי את זה"
 }

@@ -264,5 +264,6 @@
   "onboardingBeforeAfterTitle": "Што се менува со Medicalarm",
   "onboardingBeforeLabel": "Досега",
   "onboardingAfterLabel": "Отсега",
-  "onboardingBeforeItemForgot": "Сфатив дека сум заборавил/а да го земам лекот"
+  "onboardingBeforeItemForgot": "Сфатив дека сум заборавил/а да го земам лекот",
+  "onboardingBeforeItemUnsure": "Не се сеќавам дали го земав"
 }

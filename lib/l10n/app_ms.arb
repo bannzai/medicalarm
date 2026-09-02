@@ -264,5 +264,6 @@
   "onboardingBeforeAfterTitle": "Perubahan dengan Medicalarm",
   "onboardingBeforeLabel": "Setakat ini",
   "onboardingAfterLabel": "Mulai sekarang",
-  "onboardingBeforeItemForgot": "Saya sedar bahawa saya terlupa mengambil ubat"
+  "onboardingBeforeItemForgot": "Saya sedar bahawa saya terlupa mengambil ubat",
+  "onboardingBeforeItemUnsure": "Saya tidak ingat sama ada sudah mengambilnya"
 }

@@ -264,5 +264,6 @@
   "onboardingBeforeAfterTitle": "Co se změní s Medicalarm",
   "onboardingBeforeLabel": "Dosud",
   "onboardingAfterLabel": "Odteď",
-  "onboardingBeforeItemForgot": "Zjistil(a) jsem, že jsem si zapomněl(a) vzít lék"
+  "onboardingBeforeItemForgot": "Zjistil(a) jsem, že jsem si zapomněl(a) vzít lék",
+  "onboardingBeforeItemUnsure": "Nepamatuji si, jestli jsem ho užil/a"
 }

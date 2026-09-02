@@ -264,5 +264,6 @@
   "onboardingBeforeAfterTitle": "Kas pasikeičia naudojant Medicalarm",
   "onboardingBeforeLabel": "Iki šiol",
   "onboardingAfterLabel": "Nuo šiol",
-  "onboardingBeforeItemForgot": "Pastebėjau, kad pamiršau išgerti vaistus"
+  "onboardingBeforeItemForgot": "Pastebėjau, kad pamiršau išgerti vaistus",
+  "onboardingBeforeItemUnsure": "Neprisimenu, ar jį išgėriau"
 }

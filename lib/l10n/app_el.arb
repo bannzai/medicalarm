@@ -264,5 +264,6 @@
   "onboardingBeforeAfterTitle": "Τι αλλάζει με το Medicalarm",
   "onboardingBeforeLabel": "Μέχρι τώρα",
   "onboardingAfterLabel": "Από εδώ και πέρα",
-  "onboardingBeforeItemForgot": "Συνειδητοποίησα ότι είχα ξεχάσει να πάρω το φάρμακό μου"
+  "onboardingBeforeItemForgot": "Συνειδητοποίησα ότι είχα ξεχάσει να πάρω το φάρμακό μου",
+  "onboardingBeforeItemUnsure": "Δεν θυμάμαι αν το πήρα"
 }

@@ -264,5 +264,6 @@
   "onboardingBeforeAfterTitle": "Cosa cambia con Medicalarm",
   "onboardingBeforeLabel": "Finora",
   "onboardingAfterLabel": "D'ora in poi",
-  "onboardingBeforeItemForgot": "Mi sono accorto/a di aver dimenticato di prendere il farmaco"
+  "onboardingBeforeItemForgot": "Mi sono accorto/a di aver dimenticato di prendere il farmaco",
+  "onboardingBeforeItemUnsure": "Non ricordo se l’ho preso"
 }

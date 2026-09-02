@@ -264,5 +264,6 @@
   "onboardingBeforeAfterTitle": "Ինչ է փոխվում Medicalarm-ի միջոցով",
   "onboardingBeforeLabel": "Մինչև հիմա",
   "onboardingAfterLabel": "Այսուհետ",
-  "onboardingBeforeItemForgot": "Հասկացա, որ մոռացել էի ընդունել դեղս"
+  "onboardingBeforeItemForgot": "Հասկացա, որ մոռացել էի ընդունել դեղս",
+  "onboardingBeforeItemUnsure": "Չեմ հիշում՝ ընդունե՞լ եմ, թե ոչ"
 }

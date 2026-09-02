@@ -264,5 +264,6 @@
   "onboardingBeforeAfterTitle": "Medicalarm-ekin aldatzen dena",
   "onboardingBeforeLabel": "Orain arte",
   "onboardingAfterLabel": "Hemendik aurrera",
-  "onboardingBeforeItemForgot": "Konturatu naiz sendagaia hartzea ahaztu zaidala"
+  "onboardingBeforeItemForgot": "Konturatu naiz sendagaia hartzea ahaztu zaidala",
+  "onboardingBeforeItemUnsure": "Ez dut gogoratzen hartu dudan ala ez"
 }

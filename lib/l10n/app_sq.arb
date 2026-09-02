@@ -264,5 +264,6 @@
   "onboardingBeforeAfterTitle": "Çfarë ndryshon me Medicalarm",
   "onboardingBeforeLabel": "Deri tani",
   "onboardingAfterLabel": "Që tani",
-  "onboardingBeforeItemForgot": "E kuptova se kisha harruar të merrja ilaçin"
+  "onboardingBeforeItemForgot": "E kuptova se kisha harruar të merrja ilaçin",
+  "onboardingBeforeItemUnsure": "Nuk mbaj mend nëse e kam marrë"
 }

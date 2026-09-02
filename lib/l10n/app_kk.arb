@@ -264,5 +264,6 @@
   "onboardingBeforeAfterTitle": "Medicalarm көмегімен не өзгереді",
   "onboardingBeforeLabel": "Осы уақытқа дейін",
   "onboardingAfterLabel": "Бұдан былай",
-  "onboardingBeforeItemForgot": "Дәрімді қабылдауды ұмытып кеткенімді байқадым"
+  "onboardingBeforeItemForgot": "Дәрімді қабылдауды ұмытып кеткенімді байқадым",
+  "onboardingBeforeItemUnsure": "Қабылдаған-қабылдамағанымды есіме түсіре алмаймын"
 }

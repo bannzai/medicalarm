@@ -264,5 +264,6 @@
   "onboardingBeforeAfterTitle": "Mi változik a Medicalarm használatával",
   "onboardingBeforeLabel": "Eddig",
   "onboardingAfterLabel": "Mostantól",
-  "onboardingBeforeItemForgot": "Rájöttem, hogy elfelejtettem bevenni a gyógyszeremet"
+  "onboardingBeforeItemForgot": "Rájöttem, hogy elfelejtettem bevenni a gyógyszeremet",
+  "onboardingBeforeItemUnsure": "Nem emlékszem, hogy bevettem-e"
 }

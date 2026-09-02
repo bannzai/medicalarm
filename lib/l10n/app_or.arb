@@ -264,5 +264,6 @@
   "onboardingBeforeAfterTitle": "Medicalarm ସହିତ କ’ଣ ବଦଳିବ",
   "onboardingBeforeLabel": "ଏପର୍ଯ୍ୟନ୍ତ",
   "onboardingAfterLabel": "ବର୍ତ୍ତମାନଠାରୁ",
-  "onboardingBeforeItemForgot": "ଔଷଧ ଖାଇବାକୁ ଭୁଲିଯାଇଛି ବୋଲି ଜାଣିଲି"
+  "onboardingBeforeItemForgot": "ଔଷଧ ଖାଇବାକୁ ଭୁଲିଯାଇଛି ବୋଲି ଜାଣିଲି",
+  "onboardingBeforeItemUnsure": "ମୁଁ ଔଷଧ ନେଇଥିଲି କି ନାହିଁ ମନେ ପଡ଼ୁନାହିଁ"
 }

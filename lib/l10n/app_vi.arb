@@ -264,5 +264,6 @@
   "onboardingBeforeAfterTitle": "Những thay đổi với Medicalarm",
   "onboardingBeforeLabel": "Cho đến nay",
   "onboardingAfterLabel": "Từ bây giờ",
-  "onboardingBeforeItemForgot": "Tôi nhận ra mình đã quên uống thuốc"
+  "onboardingBeforeItemForgot": "Tôi nhận ra mình đã quên uống thuốc",
+  "onboardingBeforeItemUnsure": "Không nhớ mình đã uống thuốc hay chưa"
 }

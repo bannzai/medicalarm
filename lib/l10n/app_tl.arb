@@ -264,5 +264,6 @@
   "onboardingBeforeAfterTitle": "Ang magbabago sa paggamit ng Medicalarm",
   "onboardingBeforeLabel": "Hanggang ngayon",
   "onboardingAfterLabel": "Mula ngayon",
-  "onboardingBeforeItemForgot": "Napansin kong nakalimutan kong inumin ang gamot ko"
+  "onboardingBeforeItemForgot": "Napansin kong nakalimutan kong inumin ang gamot ko",
+  "onboardingBeforeItemUnsure": "Hindi ko maalala kung nainom ko na ito"
 }

@@ -264,5 +264,6 @@
   "onboardingBeforeAfterTitle": "Medicalarm के साथ क्या बदलेगा",
   "onboardingBeforeLabel": "अब तक",
   "onboardingAfterLabel": "अब से",
-  "onboardingBeforeItemForgot": "मुझे पता चला कि मैं अपनी दवा लेना भूल गया/गई था/थी"
+  "onboardingBeforeItemForgot": "मुझे पता चला कि मैं अपनी दवा लेना भूल गया/गई था/थी",
+  "onboardingBeforeItemUnsure": "याद नहीं कि मैंने दवा ली थी या नहीं"
 }

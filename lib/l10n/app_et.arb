@@ -264,5 +264,6 @@
   "onboardingBeforeAfterTitle": "Mis muutub Medicalarmiga",
   "onboardingBeforeLabel": "Seni",
   "onboardingAfterLabel": "Nüüdsest",
-  "onboardingBeforeItemForgot": "Sain aru, et olin unustanud ravimit võtta"
+  "onboardingBeforeItemForgot": "Sain aru, et olin unustanud ravimit võtta",
+  "onboardingBeforeItemUnsure": "Ma ei mäleta, kas võtsin selle"
 }

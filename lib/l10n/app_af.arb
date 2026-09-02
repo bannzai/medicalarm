@@ -264,5 +264,6 @@
   "onboardingBeforeAfterTitle": "Wat met Medicalarm verander",
   "onboardingBeforeLabel": "Tot dusver",
   "onboardingAfterLabel": "Van nou af",
-  "onboardingBeforeItemForgot": "Ek het besef ek het vergeet om my medikasie te neem"
+  "onboardingBeforeItemForgot": "Ek het besef ek het vergeet om my medikasie te neem",
+  "onboardingBeforeItemUnsure": "Kan nie onthou of ek dit geneem het nie"
 }

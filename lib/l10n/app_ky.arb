@@ -264,5 +264,6 @@
   "onboardingBeforeAfterTitle": "Medicalarm менен эмне өзгөрөт",
   "onboardingBeforeLabel": "Буга чейин",
   "onboardingAfterLabel": "Мындан ары",
-  "onboardingBeforeItemForgot": "Дары ичүүнү унутуп калганымды байкадым"
+  "onboardingBeforeItemForgot": "Дары ичүүнү унутуп калганымды байкадым",
+  "onboardingBeforeItemUnsure": "Дары ичкен-ичпегеним эсимде жок"
 }

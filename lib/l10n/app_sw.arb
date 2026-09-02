@@ -264,5 +264,6 @@
   "onboardingBeforeAfterTitle": "Kinachobadilika ukiwa na Medicalarm",
   "onboardingBeforeLabel": "Hadi sasa",
   "onboardingAfterLabel": "Kuanzia sasa",
-  "onboardingBeforeItemForgot": "Niligundua kuwa nilikuwa nimesahau kunywa dawa yangu"
+  "onboardingBeforeItemForgot": "Niligundua kuwa nilikuwa nimesahau kunywa dawa yangu",
+  "onboardingBeforeItemUnsure": "Sikumbuki kama nilimeza"
 }
