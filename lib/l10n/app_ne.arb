@@ -245,5 +245,6 @@
   "onboardingFrequencyRarely": "प्रायः कहिल्यै होइन",
   "onboardingFrequencyNever": "कहिल्यै पनि होइन",
   "onboardingPainWorryTitle": "तपाईंले औषधि खानुभएको थियो कि थिएन भन्ने सम्झन नसकेर कहिल्यै चिन्तित हुनुभएको छ?",
-  "onboardingValueReminderTitle": "औषधिको मात्रा छुटेको\nथाहा पाउँदासम्म धेरै ढिला भइसकेको हुन्छ"
+  "onboardingValueReminderTitle": "औषधिको मात्रा छुटेको\nथाहा पाउँदासम्म धेरै ढिला भइसकेको हुन्छ",
+  "onboardingValueReminderBody": "औषधि खाने समय हुँदा Medicalarm ले सूचना पठाउँछ।\nसाइलेन्ट मोडमा पनि Critical Alert मार्फत यसलाई थाहा पाउन सकिन्छ।"
 }

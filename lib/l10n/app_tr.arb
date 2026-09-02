@@ -245,5 +245,6 @@
   "onboardingFrequencyRarely": "Neredeyse hiç",
   "onboardingFrequencyNever": "Hiçbir zaman",
   "onboardingPainWorryTitle": "İlacınızı alıp almadığınızı hatırlamadığınız için hiç endişelendiniz mi?",
-  "onboardingValueReminderTitle": "Atlanan dozu fark ettiğinizde,\nartık çok geçtir"
+  "onboardingValueReminderTitle": "Atlanan dozu fark ettiğinizde,\nartık çok geçtir",
+  "onboardingValueReminderBody": "Medicalarm, ilacınızı almanız gereken saatte bildirim gönderir.\nSessiz modda bile Critical Alert sayesinde fark edebilirsiniz."
 }

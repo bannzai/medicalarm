@@ -245,5 +245,6 @@
   "onboardingFrequencyRarely": "ស្ទើរតែមិនដែល",
   "onboardingFrequencyNever": "មិនដែល",
   "onboardingPainWorryTitle": "តើអ្នកធ្លាប់មានអារម្មណ៍បារម្ភ ដោយសារមិនចាំថាបានលេបថ្នាំឬអត់ទេ?",
-  "onboardingValueReminderTitle": "នៅពេលដឹងថាអ្នកបានភ្លេចលេបថ្នាំ\nវាយឺតពេលទៅហើយ"
+  "onboardingValueReminderTitle": "នៅពេលដឹងថាអ្នកបានភ្លេចលេបថ្នាំ\nវាយឺតពេលទៅហើយ",
+  "onboardingValueReminderBody": "Medicalarm ផ្ញើការជូនដំណឹងនៅពេលដល់ពេលលេបថ្នាំ។\nអ្នកអាចសម្គាល់ឃើញវាតាមរយៈ Critical Alert ទោះបីជាស្ថិតក្នុងរបៀបស្ងាត់ក៏ដោយ។"
 }

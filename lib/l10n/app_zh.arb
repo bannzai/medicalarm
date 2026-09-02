@@ -245,5 +245,6 @@
   "onboardingFrequencyRarely": "几乎从不",
   "onboardingFrequencyNever": "从不",
   "onboardingPainWorryTitle": "您是否曾因想不起自己是否吃过药而感到不安？",
-  "onboardingValueReminderTitle": "发现漏服时\n已经太晚了"
+  "onboardingValueReminderTitle": "发现漏服时\n已经太晚了",
+  "onboardingValueReminderBody": "Medicalarm 会在服药时间发送通知。\n即使处于静音模式，也能通过 Critical Alert 及时注意到。"
 }

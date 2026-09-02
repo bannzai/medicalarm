@@ -245,5 +245,6 @@
   "onboardingFrequencyRarely": "கிட்டத்தட்ட ஒருபோதும் இல்லை",
   "onboardingFrequencyNever": "ஒருபோதும் இல்லை",
   "onboardingPainWorryTitle": "மருந்தை எடுத்தீர்களா இல்லையா என்பது நினைவில் இல்லாமல் எப்போதாவது கவலைப்பட்டிருக்கிறீர்களா?",
-  "onboardingValueReminderTitle": "மருந்தின் ஒரு டோஸ் தவறியதை\nஉணரும்போது மிகவும் தாமதமாகிவிடும்"
+  "onboardingValueReminderTitle": "மருந்தின் ஒரு டோஸ் தவறியதை\nஉணரும்போது மிகவும் தாமதமாகிவிடும்",
+  "onboardingValueReminderBody": "மருந்தை உட்கொள்ளும் நேரம் வந்ததும் Medicalarm அறிவிப்பை அனுப்பும்.\nஅமைதிப் பயன்முறையிலும் Critical Alert மூலம் அதை கவனிக்கலாம்."
 }

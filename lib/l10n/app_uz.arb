@@ -245,5 +245,6 @@
   "onboardingFrequencyRarely": "Deyarli hech qachon",
   "onboardingFrequencyNever": "Hech qachon",
   "onboardingPainWorryTitle": "Doringizni ichgan-ichmaganligingizni eslay olmay, hech xavotirlanganmisiz?",
-  "onboardingValueReminderTitle": "O‘tkazib yuborilgan dozani\nsezganingizda, allaqachon kech bo‘ladi"
+  "onboardingValueReminderTitle": "O‘tkazib yuborilgan dozani\nsezganingizda, allaqachon kech bo‘ladi",
+  "onboardingValueReminderBody": "Medicalarm dori qabul qilish vaqti kelganda bildirishnoma yuboradi.\nOvozsiz rejimda ham Critical Alert orqali uni sezishingiz mumkin."
 }

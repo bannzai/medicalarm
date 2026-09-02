@@ -245,5 +245,6 @@
   "onboardingFrequencyRarely": "Hầu như không bao giờ",
   "onboardingFrequencyNever": "Không bao giờ",
   "onboardingPainWorryTitle": "Bạn đã bao giờ lo lắng vì không nhớ mình đã uống thuốc hay chưa chưa?",
-  "onboardingValueReminderTitle": "Khi nhận ra mình đã quên một liều,\nthì đã quá muộn"
+  "onboardingValueReminderTitle": "Khi nhận ra mình đã quên một liều,\nthì đã quá muộn",
+  "onboardingValueReminderBody": "Medicalarm sẽ gửi thông báo khi đến giờ uống thuốc.\nBạn vẫn có thể nhận biết thông báo qua Critical Alert ngay cả khi đang ở chế độ im lặng."
 }

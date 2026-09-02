@@ -245,5 +245,6 @@
   "onboardingFrequencyRarely": "Готово никад",
   "onboardingFrequencyNever": "Никада",
   "onboardingPainWorryTitle": "Да ли сте се икада осећали узнемирено јер се нисте сећали да ли сте узели лек?",
-  "onboardingValueReminderTitle": "Пропуштену дозу\nприметите тек када буде прекасно"
+  "onboardingValueReminderTitle": "Пропуштену дозу\nприметите тек када буде прекасно",
+  "onboardingValueReminderBody": "Medicalarm šalje obaveštenje kada je vreme da uzmete lek.\nMožete ga primetiti putem Critical Alert funkcije čak i u nečujnom režimu."
 }

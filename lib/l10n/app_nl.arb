@@ -245,5 +245,6 @@
   "onboardingFrequencyRarely": "Bijna nooit",
   "onboardingFrequencyNever": "Nooit",
   "onboardingPainWorryTitle": "Heb je je ooit zorgen gemaakt omdat je niet meer wist of je je medicijn had ingenomen?",
-  "onboardingValueReminderTitle": "Als je merkt dat je een dosis bent vergeten,\nis het al te laat"
+  "onboardingValueReminderTitle": "Als je merkt dat je een dosis bent vergeten,\nis het al te laat",
+  "onboardingValueReminderBody": "Medicalarm stuurt een melding wanneer het tijd is om je medicijn in te nemen.\nDankzij Critical Alert merk je deze ook op in de stille modus."
 }

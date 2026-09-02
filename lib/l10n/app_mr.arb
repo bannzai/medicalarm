@@ -245,5 +245,6 @@
   "onboardingFrequencyRarely": "जवळजवळ कधीच नाही",
   "onboardingFrequencyNever": "कधीच नाही",
   "onboardingPainWorryTitle": "तुम्ही औषध घेतले होते की नाही हे आठवत नसल्यामुळे तुम्हाला कधी चिंता वाटली आहे का?",
-  "onboardingValueReminderTitle": "औषधाचा डोस चुकल्याचे\nलक्षात येईपर्यंत उशीर झालेला असतो"
+  "onboardingValueReminderTitle": "औषधाचा डोस चुकल्याचे\nलक्षात येईपर्यंत उशीर झालेला असतो",
+  "onboardingValueReminderBody": "Medicalarm औषध घेण्याची वेळ झाल्यावर सूचना पाठवते.\nसायलेंट मोडमध्येही Critical Alert द्वारे ती लक्षात येऊ शकते."
 }

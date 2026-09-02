@@ -245,5 +245,6 @@
   "onboardingFrequencyRarely": "Σχεδόν ποτέ",
   "onboardingFrequencyNever": "Ποτέ",
   "onboardingPainWorryTitle": "Έχετε νιώσει ποτέ άγχος επειδή δεν θυμόσασταν αν είχατε πάρει το φάρμακό σας;",
-  "onboardingValueReminderTitle": "Όταν συνειδητοποιήσεις\nότι ξέχασες μια δόση,\nείναι πλέον αργά"
+  "onboardingValueReminderTitle": "Όταν συνειδητοποιήσεις\nότι ξέχασες μια δόση,\nείναι πλέον αργά",
+  "onboardingValueReminderBody": "Το Medicalarm στέλνει ειδοποίηση όταν είναι ώρα να πάρετε το φάρμακό σας.\nΜπορείτε να την αντιληφθείτε μέσω του Critical Alert ακόμη και σε αθόρυβη λειτουργία."
 }

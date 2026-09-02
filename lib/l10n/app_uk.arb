@@ -245,5 +245,6 @@
   "onboardingFrequencyRarely": "Майже ніколи",
   "onboardingFrequencyNever": "Ніколи",
   "onboardingPainWorryTitle": "Ви коли-небудь хвилювалися, бо не пам’ятали, чи прийняли ліки?",
-  "onboardingValueReminderTitle": "Про пропущену дозу\nви дізнаєтеся, коли вже запізно"
+  "onboardingValueReminderTitle": "Про пропущену дозу\nви дізнаєтеся, коли вже запізно",
+  "onboardingValueReminderBody": "Medicalarm надсилає сповіщення, коли настає час прийняти ліки.\nЗавдяки Critical Alert ви помітите його навіть у беззвучному режимі."
 }

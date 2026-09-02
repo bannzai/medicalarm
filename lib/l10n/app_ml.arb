@@ -245,5 +245,6 @@
   "onboardingFrequencyRarely": "ഏതാണ്ട് ഒരിക്കലും ഇല്ല",
   "onboardingFrequencyNever": "ഒരിക്കലും ഇല്ല",
   "onboardingPainWorryTitle": "മരുന്ന് കഴിച്ചോ ഇല്ലയോ എന്ന് ഓർമ്മയില്ലാതെ നിങ്ങൾക്ക് എപ്പോഴെങ്കിലും ഉത്കണ്ഠ തോന്നിയിട്ടുണ്ടോ?",
-  "onboardingValueReminderTitle": "മരുന്നിന്റെ ഡോസ് വിട്ടുപോയെന്ന്\nഅറിയുമ്പോഴേക്കും വൈകിയിരിക്കും"
+  "onboardingValueReminderTitle": "മരുന്നിന്റെ ഡോസ് വിട്ടുപോയെന്ന്\nഅറിയുമ്പോഴേക്കും വൈകിയിരിക്കും",
+  "onboardingValueReminderBody": "മരുന്ന് കഴിക്കേണ്ട സമയമാകുമ്പോൾ Medicalarm അറിയിപ്പ് അയയ്ക്കുന്നു.\nസൈലന്റ് മോഡിലും Critical Alert വഴി അത് ശ്രദ്ധിക്കാനാകും."
 }

@@ -245,5 +245,6 @@
   "onboardingFrequencyRarely": "เกือบไม่เคย",
   "onboardingFrequencyNever": "ไม่เคย",
   "onboardingPainWorryTitle": "คุณเคยกังวลเพราะจำไม่ได้ไหมว่าได้กินยาแล้วหรือยัง",
-  "onboardingValueReminderTitle": "กว่าจะรู้ว่าลืมกินยา\nก็สายเกินไปแล้ว"
+  "onboardingValueReminderTitle": "กว่าจะรู้ว่าลืมกินยา\nก็สายเกินไปแล้ว",
+  "onboardingValueReminderBody": "Medicalarm จะแจ้งเตือนเมื่อถึงเวลารับประทานยา\nแม้อยู่ในโหมดเงียบ ก็ยังสังเกตเห็นได้ด้วย Critical Alert"
 }

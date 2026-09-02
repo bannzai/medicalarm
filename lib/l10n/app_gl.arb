@@ -245,5 +245,6 @@
   "onboardingFrequencyRarely": "Case nunca",
   "onboardingFrequencyNever": "Nunca",
   "onboardingPainWorryTitle": "Algunha vez te sentiches intranquilo porque non lembrabas se tomaras o teu medicamento?",
-  "onboardingValueReminderTitle": "Cando te decatas de que esqueciches unha dose,\nya é demasiado tarde"
+  "onboardingValueReminderTitle": "Cando te decatas de que esqueciches unha dose,\nya é demasiado tarde",
+  "onboardingValueReminderBody": "Medicalarm envía unha notificación cando é hora de tomar o medicamento.\nPodes decatarte dela mediante Critical Alert mesmo en modo silencioso."
 }

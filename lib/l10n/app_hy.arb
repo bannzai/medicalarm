@@ -245,5 +245,6 @@
   "onboardingFrequencyRarely": "Գրեթե երբեք",
   "onboardingFrequencyNever": "Երբեք",
   "onboardingPainWorryTitle": "Երբևէ անհանգստացե՞լ եք, քանի որ չեք հիշել՝ ընդունե՞լ եք ձեր դեղը, թե՞ ոչ։",
-  "onboardingValueReminderTitle": "Երբ հասկանում ես, որ բաց ես թողել դեղաչափը,\nարդեն ուշ է"
+  "onboardingValueReminderTitle": "Երբ հասկանում ես, որ բաց ես թողել դեղաչափը,\nարդեն ուշ է",
+  "onboardingValueReminderBody": "Medicalarm-ը ծանուցում է ուղարկում դեղն ընդունելու ժամանակ։\nԴուք կարող եք նկատել այն Critical Alert-ի միջոցով նույնիսկ անձայն ռեժիմում։"
 }

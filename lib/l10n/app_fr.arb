@@ -245,5 +245,6 @@
   "onboardingFrequencyRarely": "Presque jamais",
   "onboardingFrequencyNever": "Jamais",
   "onboardingPainWorryTitle": "Vous est-il déjà arrivé de vous sentir anxieux parce que vous ne vous souveniez plus si vous aviez pris votre médicament ?",
-  "onboardingValueReminderTitle": "Quand vous vous rendez compte\nque vous avez oublié une dose,\nil est déjà trop tard"
+  "onboardingValueReminderTitle": "Quand vous vous rendez compte\nque vous avez oublié une dose,\nil est déjà trop tard",
+  "onboardingValueReminderBody": "Medicalarm vous envoie une notification lorsqu’il est temps de prendre votre médicament.\nVous pouvez la remarquer grâce à Critical Alert, même en mode silencieux."
 }

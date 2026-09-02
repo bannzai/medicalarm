@@ -245,5 +245,6 @@
   "onboardingFrequencyRarely": "Почти никога",
   "onboardingFrequencyNever": "Никога",
   "onboardingPainWorryTitle": "Случвало ли ви се е да се тревожите, защото не помните дали сте приели лекарството си?",
-  "onboardingValueReminderTitle": "Пропуснатата доза\nсе забелязва, когато вече е късно"
+  "onboardingValueReminderTitle": "Пропуснатата доза\nсе забелязва, когато вече е късно",
+  "onboardingValueReminderBody": "Medicalarm изпраща известие, когато е време да приемете лекарството си.\nМожете да го забележите чрез Critical Alert дори в безшумен режим."
 }

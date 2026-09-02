@@ -245,5 +245,6 @@
   "onboardingFrequencyRarely": "ເກືອບບໍ່ເຄີຍ",
   "onboardingFrequencyNever": "ບໍ່ເຄີຍ",
   "onboardingPainWorryTitle": "ທ່ານເຄີຍກັງວົນເພາະຈື່ບໍ່ໄດ້ບໍວ່າໄດ້ກິນຢາແລ້ວຫຼືບໍ່?",
-  "onboardingValueReminderTitle": "ເມື່ອຮູ້ວ່າລືມກິນຢາ\nກໍສາຍເກີນໄປແລ້ວ"
+  "onboardingValueReminderTitle": "ເມື່ອຮູ້ວ່າລືມກິນຢາ\nກໍສາຍເກີນໄປແລ້ວ",
+  "onboardingValueReminderBody": "Medicalarm ຈະສົ່ງການແຈ້ງເຕືອນເມື່ອເຖິງເວລາກິນຢາ.\nແມ່ນຢູ່ໃນໂໝດງຽບ ທ່ານກໍສາມາດຮັບຮູ້ໄດ້ຜ່ານ Critical Alert."
 }

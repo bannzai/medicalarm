@@ -245,5 +245,6 @@
   "onboardingFrequencyRarely": "Hampir tidak pernah",
   "onboardingFrequencyNever": "Tidak pernah",
   "onboardingPainWorryTitle": "Pernahkah anda berasa bimbang kerana tidak ingat sama ada anda sudah mengambil ubat?",
-  "onboardingValueReminderTitle": "Apabila tersedar anda terlepas dos,\nsudah terlambat"
+  "onboardingValueReminderTitle": "Apabila tersedar anda terlepas dos,\nsudah terlambat",
+  "onboardingValueReminderBody": "Medicalarm menghantar pemberitahuan apabila tiba masa untuk mengambil ubat.\nAnda boleh menyedarinya melalui Critical Alert walaupun dalam mod senyap."
 }

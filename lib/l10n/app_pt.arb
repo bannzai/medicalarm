@@ -245,5 +245,6 @@
   "onboardingFrequencyRarely": "Quase nunca",
   "onboardingFrequencyNever": "Nunca",
   "onboardingPainWorryTitle": "Já se sentiu ansioso por não se lembrar se tinha tomado o medicamento?",
-  "onboardingValueReminderTitle": "Quando percebe que se esqueceu de uma dose,\njá é demasiado tarde"
+  "onboardingValueReminderTitle": "Quando percebe que se esqueceu de uma dose,\njá é demasiado tarde",
+  "onboardingValueReminderBody": "O Medicalarm envia uma notificação quando está na hora de tomar o medicamento.\nPode notá-la através do Critical Alert mesmo no modo silencioso."
 }

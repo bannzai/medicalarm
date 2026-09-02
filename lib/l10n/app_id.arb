@@ -245,5 +245,6 @@
   "onboardingFrequencyRarely": "Hampir tidak pernah",
   "onboardingFrequencyNever": "Tidak pernah",
   "onboardingPainWorryTitle": "Pernahkah Anda merasa cemas karena tidak ingat apakah sudah minum obat?",
-  "onboardingValueReminderTitle": "Saat menyadari dosis terlewat,\nsudah terlambat"
+  "onboardingValueReminderTitle": "Saat menyadari dosis terlewat,\nsudah terlambat",
+  "onboardingValueReminderBody": "Medicalarm mengirimkan notifikasi saat tiba waktu minum obat.\nAnda tetap dapat menyadarinya melalui Critical Alert meskipun dalam mode hening."
 }

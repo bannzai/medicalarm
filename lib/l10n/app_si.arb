@@ -245,5 +245,6 @@
   "onboardingFrequencyRarely": "ඉතා කලාතුරකින්",
   "onboardingFrequencyNever": "කිසිදා නැත",
   "onboardingPainWorryTitle": "ඔබ ඖෂධය ගත්තාද නැද්ද යන්න මතක නැතිව කනස්සල්ලට පත්වී තිබේද?",
-  "onboardingValueReminderTitle": "ඖෂධ මාත්‍රාවක් මඟහැරුණු බව\nදැනගන්නා විට ප්‍රමාද වැඩියි"
+  "onboardingValueReminderTitle": "ඖෂධ මාත්‍රාවක් මඟහැරුණු බව\nදැනගන්නා විට ප්‍රමාද වැඩියි",
+  "onboardingValueReminderBody": "ඖෂධය ගැනීමට වේලාව වූ විට Medicalarm දැනුම්දීමක් යවයි.\nනිහඬ ප්‍රකාරයේදී පවා Critical Alert හරහා එය දැකගත හැකියි."
 }

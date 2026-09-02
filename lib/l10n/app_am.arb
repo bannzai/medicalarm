@@ -245,5 +245,6 @@
   "onboardingFrequencyRarely": "በጣም አልፎ አልፎ",
   "onboardingFrequencyNever": "Երբեք",
   "onboardingPainWorryTitle": "መድኃኒትዎን መውሰድዎን ስላላስታወሱ የተጨነቁበት ጊዜ አለ?",
-  "onboardingValueReminderTitle": "መድኃኒት መውሰድዎን እንደረሱ ሲያውቁ\nበጣም ዘግይቷል"
+  "onboardingValueReminderTitle": "መድኃኒት መውሰድዎን እንደረሱ ሲያውቁ\nበጣም ዘግይቷል",
+  "onboardingValueReminderBody": "Medicalarm መድሃኒትዎን ለመውሰድ ጊዜው ሲደርስ ማሳወቂያ ይልካል።\nበጸጥታ ሁነታም በ Critical Alert ማስተዋል ይችላሉ።"
 }

@@ -245,5 +245,6 @@
   "onboardingFrequencyRarely": "Fast nie",
   "onboardingFrequencyNever": "Nie",
   "onboardingPainWorryTitle": "Haben Sie sich schon einmal Sorgen gemacht, weil Sie sich nicht erinnern konnten, ob Sie Ihr Medikament eingenommen hatten?",
-  "onboardingValueReminderTitle": "Wenn du bemerkst,\ndass du eine Dosis vergessen hast,\nist es zu spät"
+  "onboardingValueReminderTitle": "Wenn du bemerkst,\ndass du eine Dosis vergessen hast,\nist es zu spät",
+  "onboardingValueReminderBody": "Medicalarm benachrichtigt Sie, wenn es Zeit ist, Ihr Medikament einzunehmen.\nDank Critical Alert bemerken Sie die Benachrichtigung auch im Lautlosmodus."
 }

@@ -245,5 +245,6 @@
   "onboardingFrequencyRarely": "Nästan aldrig",
   "onboardingFrequencyNever": "Aldrig",
   "onboardingPainWorryTitle": "Har du någon gång känt dig orolig för att du inte kom ihåg om du hade tagit din medicin?",
-  "onboardingValueReminderTitle": "När du upptäcker att du har glömt en dos,\när det redan för sent"
+  "onboardingValueReminderTitle": "När du upptäcker att du har glömt en dos,\när det redan för sent",
+  "onboardingValueReminderBody": "Medicalarm skickar en notis när det är dags att ta din medicin.\nMed Critical Alert kan du märka den även i ljudlöst läge."
 }

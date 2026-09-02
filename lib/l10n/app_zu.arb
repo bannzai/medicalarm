@@ -245,5 +245,6 @@
   "onboardingFrequencyRarely": "Cishe akukaze",
   "onboardingFrequencyNever": "Angikaze",
   "onboardingPainWorryTitle": "Wake wakhathazeka yini ngoba ungakhumbuli ukuthi uwuphuzile yini umuthi wakho?",
-  "onboardingValueReminderTitle": "Uma uqaphela ukuthi\nuphuthelwe umthamo,\nsekwephuze kakhulu"
+  "onboardingValueReminderTitle": "Uma uqaphela ukuthi\nuphuthelwe umthamo,\nsekwephuze kakhulu",
+  "onboardingValueReminderBody": "I-Medicalarm ithumela isaziso uma sekuyisikhathi sokuphuza umuthi wakho.\nUngasibona nge-Critical Alert ngisho noma imodi yokuthula ivuliwe."
 }
