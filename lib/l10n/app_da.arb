@@ -240,5 +240,6 @@
   "onboardingNext": "Næste",
   "onboardingBack": "Tilbage",
   "onboardingPainForgotTitle": "Har du nogensinde glemt at tage din medicin?",
-  "onboardingFrequencyOften": "Ofte"
+  "onboardingFrequencyOften": "Ofte",
+  "onboardingFrequencySometimes": "En gang imellem"
 }

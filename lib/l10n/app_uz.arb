@@ -240,5 +240,6 @@
   "onboardingNext": "Keyingi",
   "onboardingBack": "Orqaga",
   "onboardingPainForgotTitle": "Doringizni qabul qilishni hech unutganmisiz?",
-  "onboardingFrequencyOften": "Tez-tez"
+  "onboardingFrequencyOften": "Tez-tez",
+  "onboardingFrequencySometimes": "Ba’zan"
 }

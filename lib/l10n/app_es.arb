@@ -240,5 +240,6 @@
   "onboardingNext": "Siguiente",
   "onboardingBack": "Atrás",
   "onboardingPainForgotTitle": "¿Alguna vez has olvidado tomar tu medicamento?",
-  "onboardingFrequencyOften": "A menudo"
+  "onboardingFrequencyOften": "A menudo",
+  "onboardingFrequencySometimes": "A veces"
 }

@@ -240,5 +240,6 @@
   "onboardingNext": "Далее",
   "onboardingBack": "Назад",
   "onboardingPainForgotTitle": "Вы когда-нибудь забывали принять лекарство?",
-  "onboardingFrequencyOften": "Часто"
+  "onboardingFrequencyOften": "Часто",
+  "onboardingFrequencySometimes": "Иногда"
 }

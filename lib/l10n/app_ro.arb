@@ -240,5 +240,6 @@
   "onboardingNext": "Înainte",
   "onboardingBack": "Înapoi",
   "onboardingPainForgotTitle": "Ați uitat vreodată să vă luați medicamentul?",
-  "onboardingFrequencyOften": "Des"
+  "onboardingFrequencyOften": "Des",
+  "onboardingFrequencySometimes": "Uneori"
 }

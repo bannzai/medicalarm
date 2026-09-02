@@ -240,5 +240,6 @@
   "onboardingNext": "Næsta",
   "onboardingBack": "Til baka",
   "onboardingPainForgotTitle": "Hefurðu einhvern tíma gleymt að taka lyfið þitt?",
-  "onboardingFrequencyOften": "Oft"
+  "onboardingFrequencyOften": "Oft",
+  "onboardingFrequencySometimes": "Stundum"
 }

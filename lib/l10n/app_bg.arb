@@ -240,5 +240,6 @@
   "onboardingNext": "Напред",
   "onboardingBack": "Назад",
   "onboardingPainForgotTitle": "Случвало ли ви се е да забравите да си вземете лекарството?",
-  "onboardingFrequencyOften": "Често"
+  "onboardingFrequencyOften": "Често",
+  "onboardingFrequencySometimes": "Понякога"
 }

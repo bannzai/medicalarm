@@ -240,5 +240,6 @@
   "onboardingNext": "Nästa",
   "onboardingBack": "Tillbaka",
   "onboardingPainForgotTitle": "Har du någon gång glömt att ta din medicin?",
-  "onboardingFrequencyOften": "Ofta"
+  "onboardingFrequencyOften": "Ofta",
+  "onboardingFrequencySometimes": "Ibland"
 }

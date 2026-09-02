@@ -240,5 +240,6 @@
   "onboardingNext": "ถัดไป",
   "onboardingBack": "ย้อนกลับ",
   "onboardingPainForgotTitle": "คุณเคยลืมกินยาหรือไม่",
-  "onboardingFrequencyOften": "บ่อย"
+  "onboardingFrequencyOften": "บ่อย",
+  "onboardingFrequencySometimes": "บางครั้ง"
 }
