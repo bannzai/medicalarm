@@ -222,5 +222,6 @@
   "accountLinkedWithGoogle": "បានភ្ជាប់ជាមួយ Google",
   "accountLinkedSnackbar": "គណនីត្រូវបានផ្ទេរ",
   "accountLinkBannerText": "នៅពេលចែករំលែកក្រុម យើងសូមណែនាំយ៉ាងខ្លាំងឱ្យអ្នករៀបចំការផ្ទេរគណនី។",
-  "minimumDoseInterval": "ចន្លោះពេលរវាងដូស"
+  "minimumDoseInterval": "ចន្លោះពេលរវាងដូស",
+  "minimumDoseIntervalDescription": "រយៈពេលអប្បបរមារវាងដូស ចាប់ពីដូសមុន"
 }

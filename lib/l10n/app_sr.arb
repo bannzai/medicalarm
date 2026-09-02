@@ -222,5 +222,6 @@
   "accountLinkedWithGoogle": "Повезано са Google-ом",
   "accountLinkedSnackbar": "Налог је пренет",
   "accountLinkBannerText": "Током дељења групе снажно препоручујемо да подесите пренос налога.",
-  "minimumDoseInterval": "Размак између доза"
+  "minimumDoseInterval": "Размак између доза",
+  "minimumDoseIntervalDescription": "Минимални размак између доза од претходне дозе"
 }

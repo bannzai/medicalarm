@@ -222,5 +222,6 @@
   "accountLinkedWithGoogle": "Terhubung dengan Google",
   "accountLinkedSnackbar": "Akun telah dipindahkan",
   "accountLinkBannerText": "Saat berbagi grup, kami sangat menyarankan Anda menyiapkan pengalihan akun.",
-  "minimumDoseInterval": "Jarak antar dosis"
+  "minimumDoseInterval": "Jarak antar dosis",
+  "minimumDoseIntervalDescription": "Jeda minimum antar dosis sejak dosis terakhir"
 }

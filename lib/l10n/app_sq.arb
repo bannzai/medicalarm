@@ -222,5 +222,6 @@
   "accountLinkedWithGoogle": "Lidhur me Google",
   "accountLinkedSnackbar": "Llogaria u transferua",
   "accountLinkBannerText": "Gjatë ndarjes së një grupi, rekomandojmë fuqimisht të konfiguroni transferimin e llogarisë.",
-  "minimumDoseInterval": "Intervali midis dozave"
+  "minimumDoseInterval": "Intervali midis dozave",
+  "minimumDoseIntervalDescription": "Koha minimale ndërmjet dozave nga doza e mëparshme"
 }

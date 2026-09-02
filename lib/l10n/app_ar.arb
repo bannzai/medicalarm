@@ -222,5 +222,6 @@
   "accountLinkedWithGoogle": "مرتبط بـ Google",
   "accountLinkedSnackbar": "تم نقل الحساب",
   "accountLinkBannerText": "أثناء مشاركة المجموعة، نوصي بشدة بإعداد نقل الحساب.",
-  "minimumDoseInterval": "الفاصل بين الجرعات"
+  "minimumDoseInterval": "الفاصل بين الجرعات",
+  "minimumDoseIntervalDescription": "الحد الأدنى للوقت بين الجرعات منذ الجرعة السابقة"
 }

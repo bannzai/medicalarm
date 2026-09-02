@@ -222,5 +222,6 @@
   "accountLinkedWithGoogle": "Aan Google gekoppel",
   "accountLinkedSnackbar": "Rekening oorgedra",
   "accountLinkBannerText": "Terwyl jy ’n groep deel, beveel ons sterk aan dat jy rekeningoorplasing instel.",
-  "minimumDoseInterval": "Dosisinterval"
+  "minimumDoseInterval": "Dosisinterval",
+  "minimumDoseIntervalDescription": "Minimum tyd tussen dosisse sedert die vorige dosis"
 }

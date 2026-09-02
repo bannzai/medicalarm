@@ -222,5 +222,6 @@
   "accountLinkedWithGoogle": "Đã liên kết với Google",
   "accountLinkedSnackbar": "Đã chuyển tài khoản",
   "accountLinkBannerText": "Khi chia sẻ nhóm, chúng tôi đặc biệt khuyên bạn thiết lập chuyển tài khoản.",
-  "minimumDoseInterval": "Khoảng cách giữa các liều"
+  "minimumDoseInterval": "Khoảng cách giữa các liều",
+  "minimumDoseIntervalDescription": "Khoảng thời gian tối thiểu giữa các liều kể từ liều trước"
 }

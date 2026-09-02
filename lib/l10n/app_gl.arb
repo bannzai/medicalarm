@@ -222,5 +222,6 @@
   "accountLinkedWithGoogle": "Vinculado con Google",
   "accountLinkedSnackbar": "Conta transferida",
   "accountLinkBannerText": "Mentres compartes un grupo, recomendámosche encarecidamente que configures a transferencia da conta.",
-  "minimumDoseInterval": "Intervalo entre doses"
+  "minimumDoseInterval": "Intervalo entre doses",
+  "minimumDoseIntervalDescription": "Tempo mínimo entre doses desde a última toma"
 }

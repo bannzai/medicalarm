@@ -222,5 +222,6 @@
   "accountLinkedWithGoogle": "Google bilan bog‘langan",
   "accountLinkedSnackbar": "Hisob ko‘chirildi",
   "accountLinkBannerText": "Guruhni ulashayotganingizda, hisobni ko‘chirishni sozlashni qat’iy tavsiya qilamiz.",
-  "minimumDoseInterval": "Dozalar orasidagi interval"
+  "minimumDoseInterval": "Dozalar orasidagi interval",
+  "minimumDoseIntervalDescription": "Oldingi dozadan keyin dozalar orasidagi minimal vaqt"
 }

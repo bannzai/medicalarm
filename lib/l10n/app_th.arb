@@ -222,5 +222,6 @@
   "accountLinkedWithGoogle": "เชื่อมโยงกับ Google แล้ว",
   "accountLinkedSnackbar": "โอนบัญชีแล้ว",
   "accountLinkBannerText": "ขณะใช้กลุ่มร่วมกัน เราขอแนะนำอย่างยิ่งให้ตั้งค่าการโอนบัญชี",
-  "minimumDoseInterval": "ช่วงห่างระหว่างการรับประทานยา"
+  "minimumDoseInterval": "ช่วงห่างระหว่างการรับประทานยา",
+  "minimumDoseIntervalDescription": "ระยะห่างขั้นต่ำระหว่างการรับประทานยาแต่ละครั้งจากครั้งก่อน"
 }

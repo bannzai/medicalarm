@@ -222,5 +222,6 @@
   "accountLinkedWithGoogle": "Пов’язано з Google",
   "accountLinkedSnackbar": "Обліковий запис перенесено",
   "accountLinkBannerText": "Під час спільного використання групи наполегливо рекомендуємо налаштувати перенесення облікового запису.",
-  "minimumDoseInterval": "Інтервал між прийомами"
+  "minimumDoseInterval": "Інтервал між прийомами",
+  "minimumDoseIntervalDescription": "Мінімальний інтервал між прийомами після попередньої дози"
 }

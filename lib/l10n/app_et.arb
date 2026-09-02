@@ -222,5 +222,6 @@
   "accountLinkedWithGoogle": "Google'iga ühendatud",
   "accountLinkedSnackbar": "Konto on üle kantud",
   "accountLinkBannerText": "Grupi jagamise ajal soovitame tungivalt seadistada konto ülekandmise.",
-  "minimumDoseInterval": "Annustamisintervall"
+  "minimumDoseInterval": "Annustamisintervall",
+  "minimumDoseIntervalDescription": "Minimaalne aeg annuste vahel alates eelmisest annusest"
 }

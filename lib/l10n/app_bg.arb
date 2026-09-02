@@ -222,5 +222,6 @@
   "accountLinkedWithGoogle": "Свързано с Google",
   "accountLinkedSnackbar": "Акаунтът е прехвърлен",
   "accountLinkBannerText": "Докато споделяте група, горещо препоръчваме да настроите прехвърлянето на акаунта.",
-  "minimumDoseInterval": "Интервал между приемите"
+  "minimumDoseInterval": "Интервал между приемите",
+  "minimumDoseIntervalDescription": "Минимално време между приемите от последния прием"
 }

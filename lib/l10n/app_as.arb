@@ -222,5 +222,6 @@
   "accountLinkedWithGoogle": "Google-ৰ সৈতে সংযুক্ত",
   "accountLinkedSnackbar": "একাউণ্ট স্থানান্তৰ কৰা হৈছে",
   "accountLinkBannerText": "গোট শ্বেয়াৰ কৰি থাকিলে একাউণ্ট হস্তান্তৰৰ ছেটিংছ ছেট আপ কৰাটো আমি জোৰ দি পৰামৰ্শ দিওঁ।",
-  "minimumDoseInterval": "ঔষধ সেৱনৰ ব্যৱধান"
+  "minimumDoseInterval": "ঔষধ সেৱনৰ ব্যৱধান",
+  "minimumDoseIntervalDescription": "আগৰ পালিৰ পিছত ন্যূনতম বিৰতিৰ সময়"
 }

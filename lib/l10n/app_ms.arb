@@ -222,5 +222,6 @@
   "accountLinkedWithGoogle": "Dipautkan dengan Google",
   "accountLinkedSnackbar": "Akaun telah dipindahkan",
   "accountLinkBannerText": "Semasa berkongsi kumpulan, kami amat mengesyorkan anda menyediakan pemindahan akaun.",
-  "minimumDoseInterval": "Jarak antara dos"
+  "minimumDoseInterval": "Jarak antara dos",
+  "minimumDoseIntervalDescription": "Tempoh minimum antara dos sejak dos terakhir"
 }

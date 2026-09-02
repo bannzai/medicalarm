@@ -222,5 +222,6 @@
   "accountLinkedWithGoogle": "ከGoogle ጋር ተገናኝቷል",
   "accountLinkedSnackbar": "መለያው ተላልፏል",
   "accountLinkBannerText": "ቡድን በሚያጋሩበት ጊዜ የመለያ ማስተላለፊያ ቅንብርን እንዲያዘጋጁ በጥብቅ እንመክራለን።",
-  "minimumDoseInterval": "የመውሰጃ ክፍተት"
+  "minimumDoseInterval": "የመውሰጃ ክፍተት",
+  "minimumDoseIntervalDescription": "ከቀደመው የመድኃኒት መውሰድ በኋላ ቢያንስ የሚቆይ ጊዜ"
 }

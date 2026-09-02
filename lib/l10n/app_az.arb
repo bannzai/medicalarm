@@ -222,5 +222,6 @@
   "accountLinkedWithGoogle": "Google ilə əlaqələndirilib",
   "accountLinkedSnackbar": "Hesab köçürüldü",
   "accountLinkBannerText": "Qrup paylaşımı zamanı hesabın ötürülməsi ayarlarını qurmağınızı şiddətlə tövsiyə edirik.",
-  "minimumDoseInterval": "Doza intervalı"
+  "minimumDoseInterval": "Doza intervalı",
+  "minimumDoseIntervalDescription": "Əvvəlki dozadan sonra keçməli olan minimum vaxt"
 }

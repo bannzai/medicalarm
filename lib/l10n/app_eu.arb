@@ -222,5 +222,6 @@
   "accountLinkedWithGoogle": "Google-rekin lotuta",
   "accountLinkedSnackbar": "Kontua transferitu da",
   "accountLinkBannerText": "Talde bat partekatzen duzun bitartean, kontuaren transferentzia konfiguratzea gomendatzen dizugu.",
-  "minimumDoseInterval": "Dosi arteko tartea"
+  "minimumDoseInterval": "Dosi arteko tartea",
+  "minimumDoseIntervalDescription": "Aurreko dositik gutxienez igaro beharreko denbora"
 }

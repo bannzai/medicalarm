@@ -222,5 +222,6 @@
   "accountLinkedWithGoogle": "Google સાથે લિંક થયેલ",
   "accountLinkedSnackbar": "એકાઉન્ટ ટ્રાન્સફર થયું",
   "accountLinkBannerText": "ગ્રુપ શેર કરતી વખતે એકાઉન્ટ ટ્રાન્સફર સેટિંગ સેટ કરવાની અમે સખત ભલામણ કરીએ છીએ.",
-  "minimumDoseInterval": "દવા લેવાના અંતરાલ"
+  "minimumDoseInterval": "દવા લેવાના અંતરાલ",
+  "minimumDoseIntervalDescription": "પહેલી માત્રા લીધા પછીનો ડોઝ વચ્ચેનો લઘુત્તમ સમય"
 }

@@ -222,5 +222,6 @@
   "accountLinkedWithGoogle": "Propojeno s Googlem",
   "accountLinkedSnackbar": "Účet byl převeden",
   "accountLinkBannerText": "Při sdílení skupiny důrazně doporučujeme nastavit převod účtu.",
-  "minimumDoseInterval": "Interval mezi dávkami"
+  "minimumDoseInterval": "Interval mezi dávkami",
+  "minimumDoseIntervalDescription": "Minimální odstup mezi dávkami od poslední dávky"
 }

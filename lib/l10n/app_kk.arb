@@ -222,5 +222,6 @@
   "accountLinkedWithGoogle": "Google-мен байланыстырылды",
   "accountLinkedSnackbar": "Тіркелгі ауыстырылды",
   "accountLinkBannerText": "Топты ортақ пайдаланған кезде есептік жазбаны тасымалдауды баптауды қатаң ұсынамыз.",
-  "minimumDoseInterval": "Дозалар арасындағы аралық"
+  "minimumDoseInterval": "Дозалар арасындағы аралық",
+  "minimumDoseIntervalDescription": "Алдыңғы дозадан кейін өтуі тиіс ең аз уақыт"
 }

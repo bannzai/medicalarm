@@ -222,5 +222,6 @@
   "accountLinkedWithGoogle": "Googleకు లింక్ చేయబడింది",
   "accountLinkedSnackbar": "ఖాతా బదిలీ చేయబడింది",
   "accountLinkBannerText": "గ్రూప్‌ను షేర్ చేస్తున్నప్పుడు, ఖాతా బదిలీని సెటప్ చేయాలని మేము గట్టిగా సిఫార్సు చేస్తున్నాము.",
-  "minimumDoseInterval": "మోతాదుల మధ్య విరామం"
+  "minimumDoseInterval": "మోతాదుల మధ్య విరామం",
+  "minimumDoseIntervalDescription": "మునుపటి మోతాదు తర్వాత మోతాదుల మధ్య కనీస సమయం"
 }

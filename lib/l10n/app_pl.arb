@@ -222,5 +222,6 @@
   "accountLinkedWithGoogle": "Połączono z Google",
   "accountLinkedSnackbar": "Konto zostało przeniesione",
   "accountLinkBannerText": "Podczas udostępniania grupy zdecydowanie zalecamy skonfigurowanie przenoszenia konta.",
-  "minimumDoseInterval": "Odstęp między dawkami"
+  "minimumDoseInterval": "Odstęp między dawkami",
+  "minimumDoseIntervalDescription": "Minimalny odstęp między dawkami od poprzedniej dawki"
 }

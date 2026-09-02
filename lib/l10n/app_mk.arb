@@ -222,5 +222,6 @@
   "accountLinkedWithGoogle": "Поврзано со Google",
   "accountLinkedSnackbar": "Сметката е пренесена",
   "accountLinkBannerText": "Додека споделувате група, силно ви препорачуваме да го поставите преносот на сметката.",
-  "minimumDoseInterval": "Интервал помеѓу дози"
+  "minimumDoseInterval": "Интервал помеѓу дози",
+  "minimumDoseIntervalDescription": "Минимално време помеѓу дозите од претходната доза"
 }

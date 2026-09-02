@@ -222,5 +222,6 @@
   "accountLinkedWithGoogle": "Wedi'i gysylltu â Google",
   "accountLinkedSnackbar": "Trosglwyddwyd y cyfrif",
   "accountLinkBannerText": "Wrth rannu grŵp, rydym yn argymell yn gryf eich bod yn sefydlu trosglwyddo cyfrif.",
-  "minimumDoseInterval": "Cyfwng rhwng dosau"
+  "minimumDoseInterval": "Cyfwng rhwng dosau",
+  "minimumDoseIntervalDescription": "Yr amser lleiaf rhwng dosau ers y dos blaenorol"
 }

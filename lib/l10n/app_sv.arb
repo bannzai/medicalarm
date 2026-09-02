@@ -222,5 +222,6 @@
   "accountLinkedWithGoogle": "Länkat till Google",
   "accountLinkedSnackbar": "Kontot har överförts",
   "accountLinkBannerText": "När du delar en grupp rekommenderar vi starkt att du konfigurerar kontoöverföring.",
-  "minimumDoseInterval": "Doseringsintervall"
+  "minimumDoseInterval": "Doseringsintervall",
+  "minimumDoseIntervalDescription": "Minsta tid mellan doser sedan den senaste dosen"
 }

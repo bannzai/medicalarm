@@ -222,5 +222,6 @@
   "accountLinkedWithGoogle": "Google سے منسلک ہے",
   "accountLinkedSnackbar": "اکاؤنٹ منتقل کر دیا گیا",
   "accountLinkBannerText": "گروپ شیئر کرتے وقت، ہم اکاؤنٹ کی منتقلی ترتیب دینے کی پُرزور تجویز دیتے ہیں۔",
-  "minimumDoseInterval": "خوراکوں کے درمیان وقفہ"
+  "minimumDoseInterval": "خوراکوں کے درمیان وقفہ",
+  "minimumDoseIntervalDescription": "پچھلی خوراک کے بعد خوراکوں کے درمیان کم از کم وقفہ"
 }

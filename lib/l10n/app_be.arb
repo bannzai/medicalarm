@@ -222,5 +222,6 @@
   "accountLinkedWithGoogle": "Звязана з Google",
   "accountLinkedSnackbar": "Акаўнт перанесены",
   "accountLinkBannerText": "Падчас абагульвання групы настойліва рэкамендуем наладзіць перанос уліковага запісу.",
-  "minimumDoseInterval": "Інтэрвал паміж прыёмамі"
+  "minimumDoseInterval": "Інтэрвал паміж прыёмамі",
+  "minimumDoseIntervalDescription": "Мінімальны інтэрвал паміж прыёмамі пасля папярэдняга прыёму"
 }

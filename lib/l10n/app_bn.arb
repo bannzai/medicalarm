@@ -222,5 +222,6 @@
   "accountLinkedWithGoogle": "Google-এর সঙ্গে সংযুক্ত",
   "accountLinkedSnackbar": "অ্যাকাউন্ট স্থানান্তর করা হয়েছে",
   "accountLinkBannerText": "গ্রুপ শেয়ার করার সময় অ্যাকাউন্ট স্থানান্তর সেটিংস সেট আপ করার জন্য আমরা জোরালোভাবে পরামর্শ দিই।",
-  "minimumDoseInterval": "ওষুধ গ্রহণের ব্যবধান"
+  "minimumDoseInterval": "ওষুধ গ্রহণের ব্যবধান",
+  "minimumDoseIntervalDescription": "আগের ডোজের পর ন্যূনতম বিরতির সময়"
 }
