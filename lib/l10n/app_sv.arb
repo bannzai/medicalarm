@@ -248,5 +248,6 @@
   "onboardingValueReminderTitle": "När du upptäcker att du har glömt en dos,\när det redan för sent",
   "onboardingValueReminderBody": "Medicalarm skickar en notis när det är dags att ta din medicin.\nMed Critical Alert kan du märka den även i ljudlöst läge.",
   "onboardingCareTargetTitle": "Vems medicinering ska du hantera?",
-  "onboardingCareTargetSubtitle": "Vi skapar en plan utifrån dina svar"
+  "onboardingCareTargetSubtitle": "Vi skapar en plan utifrån dina svar",
+  "onboardingCareTargetSelf": "Mig själv"
 }

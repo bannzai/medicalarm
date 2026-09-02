@@ -248,5 +248,6 @@
   "onboardingValueReminderTitle": "Quando ti accorgi di aver saltato una dose,\nè già troppo tardi",
   "onboardingValueReminderBody": "Medicalarm invia una notifica quando è il momento di prendere il medicinale.\nPuoi accorgertene tramite Critical Alert anche in modalità silenziosa.",
   "onboardingCareTargetTitle": "Di chi gestirai l’assunzione dei farmaci?",
-  "onboardingCareTargetSubtitle": "Creeremo un piano in base alle tue risposte"
+  "onboardingCareTargetSubtitle": "Creeremo un piano in base alle tue risposte",
+  "onboardingCareTargetSelf": "Per me"
 }

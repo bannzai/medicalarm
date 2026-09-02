@@ -248,5 +248,6 @@
   "onboardingValueReminderTitle": "መድኃኒት መውሰድዎን እንደረሱ ሲያውቁ\nበጣም ዘግይቷል",
   "onboardingValueReminderBody": "Medicalarm መድሃኒትዎን ለመውሰድ ጊዜው ሲደርስ ማሳወቂያ ይልካል።\nበጸጥታ ሁነታም በ Critical Alert ማስተዋል ይችላሉ።",
   "onboardingCareTargetTitle": "የማንን መድኃኒት መውሰድ ያስተዳድራሉ?",
-  "onboardingCareTargetSubtitle": "በመልሶችዎ መሠረት ዕቅድ እናዘጋጃለን"
+  "onboardingCareTargetSubtitle": "በመልሶችዎ መሠረት ዕቅድ እናዘጋጃለን",
+  "onboardingCareTargetSelf": "ለራሴ"
 }

@@ -248,5 +248,6 @@
   "onboardingValueReminderTitle": "Quando percebe que se esqueceu de uma dose,\njá é demasiado tarde",
   "onboardingValueReminderBody": "O Medicalarm envia uma notificação quando está na hora de tomar o medicamento.\nPode notá-la através do Critical Alert mesmo no modo silencioso.",
   "onboardingCareTargetTitle": "De quem você vai gerenciar a medicação?",
-  "onboardingCareTargetSubtitle": "Vamos criar um plano com base nas suas respostas"
+  "onboardingCareTargetSubtitle": "Vamos criar um plano com base nas suas respostas",
+  "onboardingCareTargetSelf": "Para mim"
 }

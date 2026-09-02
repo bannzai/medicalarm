@@ -248,5 +248,6 @@
   "onboardingValueReminderTitle": "Als je merkt dat je een dosis bent vergeten,\nis het al te laat",
   "onboardingValueReminderBody": "Medicalarm stuurt een melding wanneer het tijd is om je medicijn in te nemen.\nDankzij Critical Alert merk je deze ook op in de stille modus.",
   "onboardingCareTargetTitle": "Wiens medicijngebruik gaat u beheren?",
-  "onboardingCareTargetSubtitle": "We maken een plan op basis van je antwoorden"
+  "onboardingCareTargetSubtitle": "We maken een plan op basis van je antwoorden",
+  "onboardingCareTargetSelf": "Voor mezelf"
 }

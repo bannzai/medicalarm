@@ -248,5 +248,6 @@
   "onboardingValueReminderTitle": "O pominiętej dawce\norientujesz się, gdy jest już za późno",
   "onboardingValueReminderBody": "Medicalarm wysyła powiadomienie, gdy nadejdzie pora przyjęcia leku.\nDzięki Critical Alert zauważysz je nawet w trybie cichym.",
   "onboardingCareTargetTitle": "Czyje przyjmowanie leków chcesz monitorować?",
-  "onboardingCareTargetSubtitle": "Przygotujemy plan na podstawie Twoich odpowiedzi"
+  "onboardingCareTargetSubtitle": "Przygotujemy plan na podstawie Twoich odpowiedzi",
+  "onboardingCareTargetSelf": "Dla siebie"
 }

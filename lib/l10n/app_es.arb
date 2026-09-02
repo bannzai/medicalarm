@@ -248,5 +248,6 @@
   "onboardingValueReminderTitle": "Cuando te das cuenta\nde que has olvidado una dosis,\nya es demasiado tarde",
   "onboardingValueReminderBody": "Medicalarm te envía una notificación cuando llega la hora de tomar tu medicamento.\nPuedes percibirla mediante Critical Alert incluso en modo silencio.",
   "onboardingCareTargetTitle": "¿De quién gestionarás la medicación?",
-  "onboardingCareTargetSubtitle": "Crearemos un plan según tus respuestas"
+  "onboardingCareTargetSubtitle": "Crearemos un plan según tus respuestas",
+  "onboardingCareTargetSelf": "Para mí"
 }

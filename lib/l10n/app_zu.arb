@@ -248,5 +248,6 @@
   "onboardingValueReminderTitle": "Uma uqaphela ukuthi\nuphuthelwe umthamo,\nsekwephuze kakhulu",
   "onboardingValueReminderBody": "I-Medicalarm ithumela isaziso uma sekuyisikhathi sokuphuza umuthi wakho.\nUngasibona nge-Critical Alert ngisho noma imodi yokuthula ivuliwe.",
   "onboardingCareTargetTitle": "Uzophatha imithi kabani?",
-  "onboardingCareTargetSubtitle": "Sizosebenzisa izimpendulo zakho ukwenza uhlelo"
+  "onboardingCareTargetSubtitle": "Sizosebenzisa izimpendulo zakho ukwenza uhlelo",
+  "onboardingCareTargetSelf": "Okwami"
 }

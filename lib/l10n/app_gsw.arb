@@ -248,5 +248,6 @@
   "onboardingValueReminderTitle": "Wenn du merksch, dass du e Dosis verpasst hesch,\nisch es scho z’spät",
   "onboardingValueReminderBody": "Medicalarm schickt e Benachrichtigung, wenn’s Ziit isch, dis Medikament z näh.\nMit Critical Alert merkisch sie au im Stummmodus.",
   "onboardingCareTargetTitle": "Wesse Medikamentenäinnahm wänd Sie verwalte?",
-  "onboardingCareTargetSubtitle": "Mir erstelle anhand vo dine Antwortä en Plan"
+  "onboardingCareTargetSubtitle": "Mir erstelle anhand vo dine Antwortä en Plan",
+  "onboardingCareTargetSelf": "Für mich"
 }

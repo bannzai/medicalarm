@@ -248,5 +248,6 @@
   "onboardingValueReminderTitle": "Propuštenu dozu\nprimijetite tek kada bude prekasno",
   "onboardingValueReminderBody": "Medicalarm šalje obavijest kada je vrijeme da uzmete lijek.\nMožete je primijetiti putem Critical Alert funkcije čak i u tihom režimu.",
   "onboardingCareTargetTitle": "Čije ćete uzimanje lijekova pratiti?",
-  "onboardingCareTargetSubtitle": "Napravit ćemo plan na osnovu vaših odgovora"
+  "onboardingCareTargetSubtitle": "Napravit ćemo plan na osnovu vaših odgovora",
+  "onboardingCareTargetSelf": "Sebe"
 }

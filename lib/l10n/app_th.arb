@@ -248,5 +248,6 @@
   "onboardingValueReminderTitle": "กว่าจะรู้ว่าลืมกินยา\nก็สายเกินไปแล้ว",
   "onboardingValueReminderBody": "Medicalarm จะแจ้งเตือนเมื่อถึงเวลารับประทานยา\nแม้อยู่ในโหมดเงียบ ก็ยังสังเกตเห็นได้ด้วย Critical Alert",
   "onboardingCareTargetTitle": "คุณจะจัดการการรับประทานยาของใคร",
-  "onboardingCareTargetSubtitle": "เราจะสร้างแผนตามคำตอบของคุณ"
+  "onboardingCareTargetSubtitle": "เราจะสร้างแผนตามคำตอบของคุณ",
+  "onboardingCareTargetSelf": "สำหรับตัวเอง"
 }

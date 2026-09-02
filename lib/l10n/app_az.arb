@@ -248,5 +248,6 @@
   "onboardingValueReminderTitle": "Buraxılan dozanı\nxatırladıqda artıq gec olur",
   "onboardingValueReminderBody": "Medicalarm dərman qəbul etmə vaxtı bildiriş göndərir.\nSəssiz rejimdə belə Critical Alert ilə xəbərdar ola bilərsiniz.",
   "onboardingCareTargetTitle": "Kimin dərman qəbulunu idarə edəcəksiniz?",
-  "onboardingCareTargetSubtitle": "Cavablarınıza əsasən plan hazırlayacağıq"
+  "onboardingCareTargetSubtitle": "Cavablarınıza əsasən plan hazırlayacağıq",
+  "onboardingCareTargetSelf": "Özüm"
 }

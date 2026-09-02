@@ -248,5 +248,6 @@
   "onboardingValueReminderTitle": "जब तक पता चलता है कि\nदवा की एक खुराक छूट गई,\nतब तक बहुत देर हो चुकी होती है",
   "onboardingValueReminderBody": "Medicalarm दवा लेने के समय आपको सूचना भेजता है।\nसाइलेंट मोड में भी Critical Alert से आपको इसका पता चल सकता है।",
   "onboardingCareTargetTitle": "आप किसकी दवा लेने का प्रबंधन करेंगे?",
-  "onboardingCareTargetSubtitle": "आपके जवाबों के आधार पर हम एक योजना बनाएँगे"
+  "onboardingCareTargetSubtitle": "आपके जवाबों के आधार पर हम एक योजना बनाएँगे",
+  "onboardingCareTargetSelf": "अपने लिए"
 }

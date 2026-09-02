@@ -248,5 +248,6 @@
   "onboardingValueReminderTitle": "Saat menyadari dosis terlewat,\nsudah terlambat",
   "onboardingValueReminderBody": "Medicalarm mengirimkan notifikasi saat tiba waktu minum obat.\nAnda tetap dapat menyadarinya melalui Critical Alert meskipun dalam mode hening.",
   "onboardingCareTargetTitle": "Konsumsi obat siapa yang akan Anda kelola?",
-  "onboardingCareTargetSubtitle": "Kami akan membuat rencana berdasarkan jawaban Anda"
+  "onboardingCareTargetSubtitle": "Kami akan membuat rencana berdasarkan jawaban Anda",
+  "onboardingCareTargetSelf": "Diri sendiri"
 }

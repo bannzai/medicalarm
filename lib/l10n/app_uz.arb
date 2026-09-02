@@ -248,5 +248,6 @@
   "onboardingValueReminderTitle": "O‘tkazib yuborilgan dozani\nsezganingizda, allaqachon kech bo‘ladi",
   "onboardingValueReminderBody": "Medicalarm dori qabul qilish vaqti kelganda bildirishnoma yuboradi.\nOvozsiz rejimda ham Critical Alert orqali uni sezishingiz mumkin.",
   "onboardingCareTargetTitle": "Kimning dori qabul qilishini boshqarasiz?",
-  "onboardingCareTargetSubtitle": "Javoblaringiz asosida reja tuzamiz"
+  "onboardingCareTargetSubtitle": "Javoblaringiz asosida reja tuzamiz",
+  "onboardingCareTargetSelf": "O‘zim uchun"
 }

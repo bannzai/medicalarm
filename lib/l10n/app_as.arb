@@ -248,5 +248,6 @@
   "onboardingValueReminderTitle": "ঔষধৰ পালি\nমনত পৰোঁতে বহু দেৰি হৈ যায়",
   "onboardingValueReminderBody": "Medicalarm-এ ঔষধ খোৱাৰ সময়ত জাননী দিয়ে।\nছাইলেণ্ট মোডতো Critical Alert-ৰ জৰিয়তে জানিব পাৰিব।",
   "onboardingCareTargetTitle": "আপুনি কাৰ ঔষধ সেৱন পৰিচালনা কৰিব?",
-  "onboardingCareTargetSubtitle": "আপোনাৰ উত্তৰৰ ভিত্তিত আমি এটা পৰিকল্পনা প্ৰস্তুত কৰিম"
+  "onboardingCareTargetSubtitle": "আপোনাৰ উত্তৰৰ ভিত্তিত আমি এটা পৰিকল্পনা প্ৰস্তুত কৰিম",
+  "onboardingCareTargetSelf": "নিজৰ বাবে"
 }

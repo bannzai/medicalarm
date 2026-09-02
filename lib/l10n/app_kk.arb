@@ -248,5 +248,6 @@
   "onboardingValueReminderTitle": "Өткізіп алған дозаны\nбайқаған кезде, тым кеш болады",
   "onboardingValueReminderBody": "Medicalarm дәрі қабылдау уақыты келгенде хабарландыру жібереді.\nДыбыссыз режимде де Critical Alert арқылы оны байқай аласыз.",
   "onboardingCareTargetTitle": "Кімнің дәрі қабылдауын басқарасыз?",
-  "onboardingCareTargetSubtitle": "Жауаптарыңызға сәйкес жоспар жасаймыз"
+  "onboardingCareTargetSubtitle": "Жауаптарыңызға сәйкес жоспар жасаймыз",
+  "onboardingCareTargetSelf": "Өзім үшін"
 }

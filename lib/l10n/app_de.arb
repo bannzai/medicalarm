@@ -248,5 +248,6 @@
   "onboardingValueReminderTitle": "Wenn du bemerkst,\ndass du eine Dosis vergessen hast,\nist es zu spät",
   "onboardingValueReminderBody": "Medicalarm benachrichtigt Sie, wenn es Zeit ist, Ihr Medikament einzunehmen.\nDank Critical Alert bemerken Sie die Benachrichtigung auch im Lautlosmodus.",
   "onboardingCareTargetTitle": "Für wen möchten Sie die Medikamenteneinnahme verwalten?",
-  "onboardingCareTargetSubtitle": "Wir erstellen anhand deiner Antworten einen Plan"
+  "onboardingCareTargetSubtitle": "Wir erstellen anhand deiner Antworten einen Plan",
+  "onboardingCareTargetSelf": "Für mich"
 }

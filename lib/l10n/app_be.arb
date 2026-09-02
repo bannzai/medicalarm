@@ -248,5 +248,6 @@
   "onboardingValueReminderTitle": "Прапушчаную дозу\nвы заўважаеце, калі ўжо позна",
   "onboardingValueReminderBody": "Medicalarm дасылае апавяшчэнне, калі надыходзіць час прыняць лекі.\nНават у бязгучным рэжыме вы заўважыце яго дзякуючы Critical Alert.",
   "onboardingCareTargetTitle": "Чый прыём лекаў вы будзеце кантраляваць?",
-  "onboardingCareTargetSubtitle": "Мы складзём план на аснове вашых адказаў"
+  "onboardingCareTargetSubtitle": "Мы складзём план на аснове вашых адказаў",
+  "onboardingCareTargetSelf": "Для сябе"
 }

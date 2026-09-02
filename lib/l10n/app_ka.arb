@@ -248,5 +248,6 @@
   "onboardingValueReminderTitle": "გამოტოვებულ დოზას მაშინ ამჩნევ,\nროცა უკვე გვიანია",
   "onboardingValueReminderBody": "Medicalarm შეტყობინებას აგზავნის, როცა წამლის მიღების დროა.\nCritical Alert-ის წყალობით მას ჩუმ რეჟიმშიც შეამჩნევთ.",
   "onboardingCareTargetTitle": "ვისი მედიკამენტების მიღებას მართავთ?",
-  "onboardingCareTargetSubtitle": "თქვენი პასუხების საფუძველზე გეგმას შევქმნით"
+  "onboardingCareTargetSubtitle": "თქვენი პასუხების საფუძველზე გეგმას შევქმნით",
+  "onboardingCareTargetSelf": "ჩემთვის"
 }

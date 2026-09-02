@@ -248,5 +248,6 @@
   "onboardingValueReminderTitle": "Kur kupton se ke harruar një dozë,\nështë tepër vonë",
   "onboardingValueReminderBody": "Medicalarm dërgon një njoftim kur është koha për të marrë ilaçin.\nMund ta vini re përmes Critical Alert edhe në modalitetin pa zë.",
   "onboardingCareTargetTitle": "Marrjen e ilaçeve të kujt do të menaxhoni?",
-  "onboardingCareTargetSubtitle": "Do të krijojmë një plan bazuar në përgjigjet tuaja"
+  "onboardingCareTargetSubtitle": "Do të krijojmë një plan bazuar në përgjigjet tuaja",
+  "onboardingCareTargetSelf": "Për vete"
 }

@@ -248,5 +248,6 @@
   "onboardingValueReminderTitle": "Пропуснатата доза\nсе забелязва, когато вече е късно",
   "onboardingValueReminderBody": "Medicalarm изпраща известие, когато е време да приемете лекарството си.\nМожете да го забележите чрез Critical Alert дори в безшумен режим.",
   "onboardingCareTargetTitle": "Чий прием на лекарства ще управлявате?",
-  "onboardingCareTargetSubtitle": "Ще създадем план според отговорите ви"
+  "onboardingCareTargetSubtitle": "Ще създадем план според отговорите ви",
+  "onboardingCareTargetSelf": "За себе си"
 }

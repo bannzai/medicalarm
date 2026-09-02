@@ -248,5 +248,6 @@
   "onboardingValueReminderTitle": "Na vynechanou dávku\npřijdete, až když je pozdě",
   "onboardingValueReminderBody": "Medicalarm vás upozorní, když je čas užít lék.\nDíky Critical Alert si upozornění všimnete i v tichém režimu.",
   "onboardingCareTargetTitle": "Čí užívání léků budete spravovat?",
-  "onboardingCareTargetSubtitle": "Vytvoříme plán podle vašich odpovědí"
+  "onboardingCareTargetSubtitle": "Vytvoříme plán podle vašich odpovědí",
+  "onboardingCareTargetSelf": "Pro sebe"
 }

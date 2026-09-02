@@ -248,5 +248,6 @@
   "onboardingValueReminderTitle": "ඖෂධ මාත්‍රාවක් මඟහැරුණු බව\nදැනගන්නා විට ප්‍රමාද වැඩියි",
   "onboardingValueReminderBody": "ඖෂධය ගැනීමට වේලාව වූ විට Medicalarm දැනුම්දීමක් යවයි.\nනිහඬ ප්‍රකාරයේදී පවා Critical Alert හරහා එය දැකගත හැකියි.",
   "onboardingCareTargetTitle": "ඔබ කළමනාකරණය කරන්නේ කාගේ ඖෂධ ගැනීමද?",
-  "onboardingCareTargetSubtitle": "ඔබේ පිළිතුරු අනුව අපි සැලැස්මක් සකස් කරන්නෙමු"
+  "onboardingCareTargetSubtitle": "ඔබේ පිළිතුරු අනුව අපි සැලැස්මක් සකස් කරන්නෙමු",
+  "onboardingCareTargetSelf": "මටම"
 }

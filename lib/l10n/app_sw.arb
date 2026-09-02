@@ -248,5 +248,6 @@
   "onboardingValueReminderTitle": "Unapogundua kuwa umekosa dozi,\nni kuchelewa sana",
   "onboardingValueReminderBody": "Medicalarm hutuma arifa unapofika wakati wa kutumia dawa.\nUnaweza kuiona kupitia Critical Alert hata katika hali ya kimya.",
   "onboardingCareTargetTitle": "Utasimamia unywaji wa dawa wa nani?",
-  "onboardingCareTargetSubtitle": "Tutaunda mpango kulingana na majibu yako"
+  "onboardingCareTargetSubtitle": "Tutaunda mpango kulingana na majibu yako",
+  "onboardingCareTargetSelf": "Mimi mwenyewe"
 }

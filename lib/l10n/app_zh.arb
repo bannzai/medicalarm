@@ -248,5 +248,6 @@
   "onboardingValueReminderTitle": "发现漏服时\n已经太晚了",
   "onboardingValueReminderBody": "Medicalarm 会在服药时间发送通知。\n即使处于静音模式，也能通过 Critical Alert 及时注意到。",
   "onboardingCareTargetTitle": "您要管理谁的用药？",
-  "onboardingCareTargetSubtitle": "我们会根据您的回答制定计划"
+  "onboardingCareTargetSubtitle": "我们会根据您的回答制定计划",
+  "onboardingCareTargetSelf": "自己"
 }

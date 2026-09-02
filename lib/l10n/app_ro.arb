@@ -248,5 +248,6 @@
   "onboardingValueReminderTitle": "Când îți dai seama că ai omis o doză,\neste deja prea târziu",
   "onboardingValueReminderBody": "Medicalarm trimite o notificare când este timpul să iei medicamentul.\nO poți observa prin Critical Alert chiar și în modul silențios.",
   "onboardingCareTargetTitle": "A cui administrare a medicamentelor o veți gestiona?",
-  "onboardingCareTargetSubtitle": "Vom crea un plan pe baza răspunsurilor dvs."
+  "onboardingCareTargetSubtitle": "Vom crea un plan pe baza răspunsurilor dvs.",
+  "onboardingCareTargetSelf": "Pentru mine"
 }

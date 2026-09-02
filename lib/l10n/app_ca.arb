@@ -248,5 +248,6 @@
   "onboardingValueReminderTitle": "Quan t’adones que has oblidat una dosi,\nja és massa tard",
   "onboardingValueReminderBody": "Medicalarm t’envia una notificació quan és l’hora de prendre el medicament.\nPots adonar-te’n amb Critical Alert fins i tot en mode silenciós.",
   "onboardingCareTargetTitle": "De qui gestionaràs la medicació?",
-  "onboardingCareTargetSubtitle": "Crearem un pla segons les teves respostes"
+  "onboardingCareTargetSubtitle": "Crearem un pla segons les teves respostes",
+  "onboardingCareTargetSelf": "Per a mi"
 }

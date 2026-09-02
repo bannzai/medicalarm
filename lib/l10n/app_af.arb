@@ -248,5 +248,6 @@
   "onboardingValueReminderTitle": "Wanneer jy besef\ndat jy ’n dosis gemis het,\nis dit reeds te laat",
   "onboardingValueReminderBody": "Medicalarm stuur kennisgewings wanneer dit tyd is om jou medisyne te neem.\nSelfs in stilmodus kan jy dit met ’n Critical Alert opmerk.",
   "onboardingCareTargetTitle": "Wie se medikasie gaan jy bestuur?",
-  "onboardingCareTargetSubtitle": "Ons stel ’n plan op volgens jou antwoorde"
+  "onboardingCareTargetSubtitle": "Ons stel ’n plan op volgens jou antwoorde",
+  "onboardingCareTargetSelf": "Vir myself"
 }

@@ -248,5 +248,6 @@
   "onboardingValueReminderTitle": "Երբ հասկանում ես, որ բաց ես թողել դեղաչափը,\nարդեն ուշ է",
   "onboardingValueReminderBody": "Medicalarm-ը ծանուցում է ուղարկում դեղն ընդունելու ժամանակ։\nԴուք կարող եք նկատել այն Critical Alert-ի միջոցով նույնիսկ անձայն ռեժիմում։",
   "onboardingCareTargetTitle": "Ո՞ւմ դեղորայքի ընդունումն եք կառավարելու։",
-  "onboardingCareTargetSubtitle": "Ձեր պատասխանների հիման վրա ծրագիր կստեղծենք"
+  "onboardingCareTargetSubtitle": "Ձեր պատասխանների հիման վրա ծրագիր կստեղծենք",
+  "onboardingCareTargetSelf": "Ինձ համար"
 }

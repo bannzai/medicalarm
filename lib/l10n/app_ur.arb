@@ -248,5 +248,6 @@
   "onboardingValueReminderTitle": "جب تک احساس ہوتا ہے کہ\nدوا کی خوراک رہ گئی ہے،\nتب تک بہت دیر ہو چکی ہوتی ہے",
   "onboardingValueReminderBody": "Medicalarm دوا لینے کے وقت اطلاع بھیجتا ہے۔\nخاموش موڈ میں بھی Critical Alert کے ذریعے آپ اسے محسوس کر سکتے ہیں۔",
   "onboardingCareTargetTitle": "آپ کس کی ادویات لینے کا انتظام کریں گے؟",
-  "onboardingCareTargetSubtitle": "ہم آپ کے جوابات کی بنیاد پر ایک منصوبہ بنائیں گے"
+  "onboardingCareTargetSubtitle": "ہم آپ کے جوابات کی بنیاد پر ایک منصوبہ بنائیں گے",
+  "onboardingCareTargetSelf": "اپنے لیے"
 }
