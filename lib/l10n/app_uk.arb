@@ -188,5 +188,6 @@
   "groupName": "Назва групи",
   "groupNameInputHint": "Введіть назву групи",
   "groupIcon": "Піктограма",
-  "groupMemberCount": "{count} учасників"
+  "groupMemberCount": "{count} учасників",
+  "defaultGroupBadge": "За замовчуванням"
 }

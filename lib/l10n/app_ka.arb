@@ -188,5 +188,6 @@
   "groupName": "ჯგუფის სახელი",
   "groupNameInputHint": "შეიყვანეთ ჯგუფის სახელი",
   "groupIcon": "ხატულა",
-  "groupMemberCount": "{count} წევრი"
+  "groupMemberCount": "{count} წევრი",
+  "defaultGroupBadge": "ნაგულისხმევი"
 }

@@ -188,5 +188,6 @@
   "groupName": "그룹 이름",
   "groupNameInputHint": "그룹 이름 입력",
   "groupIcon": "아이콘",
-  "groupMemberCount": "멤버 {count}명"
+  "groupMemberCount": "멤버 {count}명",
+  "defaultGroupBadge": "기본"
 }

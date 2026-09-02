@@ -188,5 +188,6 @@
   "groupName": "Jina la kikundi",
   "groupNameInputHint": "Weka jina la kikundi",
   "groupIcon": "Ikoni",
-  "groupMemberCount": "{count} wanachama"
+  "groupMemberCount": "{count} wanachama",
+  "defaultGroupBadge": "Chaguomsingi"
 }

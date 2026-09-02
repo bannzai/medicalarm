@@ -188,5 +188,6 @@
   "groupName": "ഗ്രൂപ്പിന്റെ പേര്",
   "groupNameInputHint": "ഗ്രൂപ്പിന്റെ പേര് നൽകുക",
   "groupIcon": "ഐക്കൺ",
-  "groupMemberCount": "{count} അംഗങ്ങൾ"
+  "groupMemberCount": "{count} അംഗങ്ങൾ",
+  "defaultGroupBadge": "ഡിഫോൾട്ട്"
 }

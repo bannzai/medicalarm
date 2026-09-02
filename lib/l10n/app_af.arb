@@ -188,5 +188,6 @@
   "groupName": "Groepnaam",
   "groupNameInputHint": "Voer groepnaam in",
   "groupIcon": "Ikoon",
-  "groupMemberCount": "{count} lede"
+  "groupMemberCount": "{count} lede",
+  "defaultGroupBadge": "Verstek"
 }

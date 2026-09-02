@@ -188,5 +188,6 @@
   "groupName": "Grupi nimi",
   "groupNameInputHint": "Sisestage rühma nimi",
   "groupIcon": "Ikoon",
-  "groupMemberCount": "{count} liiget"
+  "groupMemberCount": "{count} liiget",
+  "defaultGroupBadge": "Vaikimisi"
 }

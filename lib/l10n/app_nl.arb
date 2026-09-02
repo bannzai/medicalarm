@@ -188,5 +188,6 @@
   "groupName": "Groepsnaam",
   "groupNameInputHint": "Groepsnaam invoeren",
   "groupIcon": "Icoon",
-  "groupMemberCount": "{count} leden"
+  "groupMemberCount": "{count} leden",
+  "defaultGroupBadge": "Standaard"
 }

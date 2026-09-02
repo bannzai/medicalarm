@@ -188,5 +188,6 @@
   "groupName": "ଗୋଷ୍ଠୀର ନାମ",
   "groupNameInputHint": "ଗୋଷ୍ଠୀର ନାମ ଲେଖନ୍ତୁ",
   "groupIcon": "ଆଇକନ୍",
-  "groupMemberCount": "{count} ଜଣ ସଦସ୍ୟ"
+  "groupMemberCount": "{count} ଜଣ ସଦସ୍ୟ",
+  "defaultGroupBadge": "ଡିଫଲ୍ଟ"
 }

@@ -188,5 +188,6 @@
   "groupName": "Топ атауы",
   "groupNameInputHint": "Топ атауын енгізіңіз",
   "groupIcon": "Белгіше",
-  "groupMemberCount": "{count} мүше"
+  "groupMemberCount": "{count} мүше",
+  "defaultGroupBadge": "Әдепкі"
 }

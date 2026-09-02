@@ -188,5 +188,6 @@
   "groupName": "කණ්ඩායමේ නම",
   "groupNameInputHint": "කණ්ඩායමේ නම ඇතුළත් කරන්න",
   "groupIcon": "නිරූපකය",
-  "groupMemberCount": "{count} සාමාජිකයන්"
+  "groupMemberCount": "{count} සාමාජිකයන්",
+  "defaultGroupBadge": "පෙරනිමි"
 }

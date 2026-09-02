@@ -188,5 +188,6 @@
   "groupName": "Gruppenname",
   "groupNameInputHint": "Gruppenname eingeben",
   "groupIcon": "Symbol",
-  "groupMemberCount": "{count} Mitglieder"
+  "groupMemberCount": "{count} Mitglieder",
+  "defaultGroupBadge": "Standard"
 }

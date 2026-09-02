@@ -188,5 +188,6 @@
   "groupName": "የቡድን ስም",
   "groupNameInputHint": "የቡድን ስም ያስገቡ",
   "groupIcon": "አይኮን",
-  "groupMemberCount": "አባላት: {count}"
+  "groupMemberCount": "አባላት: {count}",
+  "defaultGroupBadge": "ነባሪ"
 }

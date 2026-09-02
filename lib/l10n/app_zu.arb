@@ -188,5 +188,6 @@
   "groupName": "Igama leqembu",
   "groupNameInputHint": "Faka igama leqembu",
   "groupIcon": "Isithonjana",
-  "groupMemberCount": "{count} amalungu"
+  "groupMemberCount": "{count} amalungu",
+  "defaultGroupBadge": "Okuzenzakalelayo"
 }

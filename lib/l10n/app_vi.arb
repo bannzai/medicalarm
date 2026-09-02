@@ -188,5 +188,6 @@
   "groupName": "Tên nhóm",
   "groupNameInputHint": "Nhập tên nhóm",
   "groupIcon": "Biểu tượng",
-  "groupMemberCount": "{count} thành viên"
+  "groupMemberCount": "{count} thành viên",
+  "defaultGroupBadge": "Mặc định"
 }

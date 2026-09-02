@@ -188,5 +188,6 @@
   "groupName": "群组名称",
   "groupNameInputHint": "输入群组名称",
   "groupIcon": "图标",
-  "groupMemberCount": "{count}名成员"
+  "groupMemberCount": "{count}名成员",
+  "defaultGroupBadge": "默认"
 }

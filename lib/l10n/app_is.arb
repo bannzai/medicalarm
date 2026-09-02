@@ -188,5 +188,6 @@
   "groupName": "Heiti hóps",
   "groupNameInputHint": "Sláðu inn heiti hópsins",
   "groupIcon": "Tákn",
-  "groupMemberCount": "{count} meðlimir"
+  "groupMemberCount": "{count} meðlimir",
+  "defaultGroupBadge": "Sjálfgefið"
 }

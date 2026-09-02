@@ -188,5 +188,6 @@
   "groupName": "Enw'r grŵp",
   "groupNameInputHint": "Rhowch enw'r grŵp",
   "groupIcon": "Eicon",
-  "groupMemberCount": "{count} aelod"
+  "groupMemberCount": "{count} aelod",
+  "defaultGroupBadge": "Rhagosodedig"
 }

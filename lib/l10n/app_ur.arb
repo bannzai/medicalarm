@@ -188,5 +188,6 @@
   "groupName": "گروپ کا نام",
   "groupNameInputHint": "گروپ کا نام درج کریں",
   "groupIcon": "آئیکن",
-  "groupMemberCount": "{count} اراکین"
+  "groupMemberCount": "{count} اراکین",
+  "defaultGroupBadge": "پہلے سے طے شدہ"
 }

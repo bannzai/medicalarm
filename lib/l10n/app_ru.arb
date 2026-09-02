@@ -188,5 +188,6 @@
   "groupName": "Название группы",
   "groupNameInputHint": "Введите название группы",
   "groupIcon": "Значок",
-  "groupMemberCount": "{count} участников"
+  "groupMemberCount": "{count} участников",
+  "defaultGroupBadge": "По умолчанию"
 }

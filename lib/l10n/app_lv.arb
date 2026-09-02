@@ -188,5 +188,6 @@
   "groupName": "Grupas nosaukums",
   "groupNameInputHint": "Ievadiet grupas nosaukumu",
   "groupIcon": "Ikona",
-  "groupMemberCount": "{count} dalībnieki"
+  "groupMemberCount": "{count} dalībnieki",
+  "defaultGroupBadge": "Noklusējuma"
 }

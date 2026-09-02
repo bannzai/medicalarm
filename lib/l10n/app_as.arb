@@ -188,5 +188,6 @@
   "groupName": "গোটৰ নাম",
   "groupNameInputHint": "গোটৰ নাম লিখক",
   "groupIcon": "আইকন",
-  "groupMemberCount": "{count} জন সদস্য"
+  "groupMemberCount": "{count} জন সদস্য",
+  "defaultGroupBadge": "ডিফল্ট"
 }

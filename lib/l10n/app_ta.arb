@@ -188,5 +188,6 @@
   "groupName": "குழுவின் பெயர்",
   "groupNameInputHint": "குழுவின் பெயரை உள்ளிடவும்",
   "groupIcon": "ஐகான்",
-  "groupMemberCount": "{count} உறுப்பினர்கள்"
+  "groupMemberCount": "{count} உறுப்பினர்கள்",
+  "defaultGroupBadge": "இயல்புநிலை"
 }

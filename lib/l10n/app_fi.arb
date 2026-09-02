@@ -188,5 +188,6 @@
   "groupName": "Ryhmän nimi",
   "groupNameInputHint": "Anna ryhmän nimi",
   "groupIcon": "Kuvake",
-  "groupMemberCount": "{count} jäsentä"
+  "groupMemberCount": "{count} jäsentä",
+  "defaultGroupBadge": "Oletus"
 }

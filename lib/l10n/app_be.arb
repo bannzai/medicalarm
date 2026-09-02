@@ -188,5 +188,6 @@
   "groupName": "Назва групы",
   "groupNameInputHint": "Увядзіце назву групы",
   "groupIcon": "Значок",
-  "groupMemberCount": "{count} удзельнікаў"
+  "groupMemberCount": "{count} удзельнікаў",
+  "defaultGroupBadge": "Па змаўчанні"
 }

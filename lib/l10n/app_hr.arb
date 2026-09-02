@@ -188,5 +188,6 @@
   "groupName": "Naziv grupe",
   "groupNameInputHint": "Unesite naziv grupe",
   "groupIcon": "Ikona",
-  "groupMemberCount": "{count} članova"
+  "groupMemberCount": "{count} članova",
+  "defaultGroupBadge": "Zadano"
 }

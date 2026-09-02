@@ -188,5 +188,6 @@
   "groupName": "సమూహం పేరు",
   "groupNameInputHint": "సమూహం పేరును నమోదు చేయండి",
   "groupIcon": "చిహ్నం",
-  "groupMemberCount": "{count} మంది సభ్యులు"
+  "groupMemberCount": "{count} మంది సభ్యులు",
+  "defaultGroupBadge": "డిఫాల్ట్"
 }

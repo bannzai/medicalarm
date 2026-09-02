@@ -188,5 +188,6 @@
   "groupName": "Csoport neve",
   "groupNameInputHint": "Adja meg a csoport nevét",
   "groupIcon": "Ikon",
-  "groupMemberCount": "{count} tag"
+  "groupMemberCount": "{count} tag",
+  "defaultGroupBadge": "Alapértelmezett"
 }

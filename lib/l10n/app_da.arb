@@ -188,5 +188,6 @@
   "groupName": "Gruppenavn",
   "groupNameInputHint": "Indtast gruppenavn",
   "groupIcon": "Ikon",
-  "groupMemberCount": "{count} medlemmer"
+  "groupMemberCount": "{count} medlemmer",
+  "defaultGroupBadge": "Standard"
 }

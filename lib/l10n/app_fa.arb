@@ -188,5 +188,6 @@
   "groupName": "نام گروه",
   "groupNameInputHint": "نام گروه را وارد کنید",
   "groupIcon": "نماد",
-  "groupMemberCount": "{count} عضو"
+  "groupMemberCount": "{count} عضو",
+  "defaultGroupBadge": "پیش‌فرض"
 }

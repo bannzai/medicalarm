@@ -188,5 +188,6 @@
   "groupName": "Ime skupine",
   "groupNameInputHint": "Vnesite ime skupine",
   "groupIcon": "Ikona",
-  "groupMemberCount": "{count} članov"
+  "groupMemberCount": "{count} članov",
+  "defaultGroupBadge": "Privzeto"
 }

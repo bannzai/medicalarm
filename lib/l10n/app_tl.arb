@@ -188,5 +188,6 @@
   "groupName": "Pangalan ng grupo",
   "groupNameInputHint": "Ilagay ang pangalan ng grupo",
   "groupIcon": "Icon",
-  "groupMemberCount": "{count} miyembro"
+  "groupMemberCount": "{count} miyembro",
+  "defaultGroupBadge": "Default"
 }

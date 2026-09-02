@@ -188,5 +188,6 @@
   "groupName": "Назив групе",
   "groupNameInputHint": "Унесите назив групе",
   "groupIcon": "Икона",
-  "groupMemberCount": "{count} чланова"
+  "groupMemberCount": "{count} чланова",
+  "defaultGroupBadge": "Подразумевано"
 }

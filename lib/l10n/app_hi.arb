@@ -188,5 +188,6 @@
   "groupName": "समूह का नाम",
   "groupNameInputHint": "समूह का नाम दर्ज करें",
   "groupIcon": "आइकन",
-  "groupMemberCount": "{count} सदस्य"
+  "groupMemberCount": "{count} सदस्य",
+  "defaultGroupBadge": "डिफ़ॉल्ट"
 }

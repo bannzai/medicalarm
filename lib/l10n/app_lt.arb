@@ -188,5 +188,6 @@
   "groupName": "Grupės pavadinimas",
   "groupNameInputHint": "Įveskite grupės pavadinimą",
   "groupIcon": "Piktograma",
-  "groupMemberCount": "{count} nariai"
+  "groupMemberCount": "{count} nariai",
+  "defaultGroupBadge": "Numatytoji"
 }

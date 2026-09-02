@@ -188,5 +188,6 @@
   "groupName": "Taldearen izena",
   "groupNameInputHint": "Sartu taldearen izena",
   "groupIcon": "Ikonoa",
-  "groupMemberCount": "{count} kide"
+  "groupMemberCount": "{count} kide",
+  "defaultGroupBadge": "Lehenetsia"
 }
