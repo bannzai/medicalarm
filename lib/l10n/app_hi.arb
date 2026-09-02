@@ -205,5 +205,6 @@
   "memberFallbackName": "सदस्य",
   "yourDisplayName": "आपका प्रदर्शन नाम",
   "displayNameInputHint": "प्रदर्शन नाम दर्ज करें",
-  "ownerLabel": "मालिक"
+  "ownerLabel": "मालिक",
+  "youLabel": "आप"
 }

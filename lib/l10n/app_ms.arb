@@ -205,5 +205,6 @@
   "memberFallbackName": "Ahli",
   "yourDisplayName": "Nama paparan anda",
   "displayNameInputHint": "Masukkan nama paparan",
-  "ownerLabel": "Pemilik"
+  "ownerLabel": "Pemilik",
+  "youLabel": "Anda"
 }

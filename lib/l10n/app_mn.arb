@@ -205,5 +205,6 @@
   "memberFallbackName": "Гишүүн",
   "yourDisplayName": "Таны дэлгэцийн нэр",
   "displayNameInputHint": "Дэлгэцийн нэр оруулна уу",
-  "ownerLabel": "Эзэмшигч"
+  "ownerLabel": "Эзэмшигч",
+  "youLabel": "Та"
 }

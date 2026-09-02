@@ -205,5 +205,6 @@
   "memberFallbackName": "Membre",
   "yourDisplayName": "El vostre nom de visualització",
   "displayNameInputHint": "Introduïu el nom visible",
-  "ownerLabel": "Propietari"
+  "ownerLabel": "Propietari",
+  "youLabel": "Tu"
 }

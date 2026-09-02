@@ -205,5 +205,6 @@
   "memberFallbackName": "Dalībnieks",
   "yourDisplayName": "Jūsu parādāmais vārds",
   "displayNameInputHint": "Ievadiet parādāmo vārdu",
-  "ownerLabel": "Īpašnieks"
+  "ownerLabel": "Īpašnieks",
+  "youLabel": "Jūs"
 }

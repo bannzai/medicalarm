@@ -205,5 +205,6 @@
   "memberFallbackName": "Անդամ",
   "yourDisplayName": "Ձեր ցուցադրվող անունը",
   "displayNameInputHint": "Մուտքագրեք ցուցադրվող անունը",
-  "ownerLabel": "Սեփականատեր"
+  "ownerLabel": "Սեփականատեր",
+  "youLabel": "Դուք"
 }

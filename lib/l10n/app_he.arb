@@ -205,5 +205,6 @@
   "memberFallbackName": "חבר",
   "yourDisplayName": "שם התצוגה שלך",
   "displayNameInputHint": "הזן שם תצוגה",
-  "ownerLabel": "בעלים"
+  "ownerLabel": "בעלים",
+  "youLabel": "את/ה"
 }

@@ -205,5 +205,6 @@
   "memberFallbackName": "Membru",
   "yourDisplayName": "Numele dvs. afișat",
   "displayNameInputHint": "Introduceți numele afișat",
-  "ownerLabel": "Proprietar"
+  "ownerLabel": "Proprietar",
+  "youLabel": "Tu"
 }

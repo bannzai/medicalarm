@@ -205,5 +205,6 @@
   "memberFallbackName": "Członek",
   "yourDisplayName": "Twoja nazwa wyświetlana",
   "displayNameInputHint": "Wpisz nazwę wyświetlaną",
-  "ownerLabel": "Właściciel"
+  "ownerLabel": "Właściciel",
+  "youLabel": "Ty"
 }

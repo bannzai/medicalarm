@@ -205,5 +205,6 @@
   "memberFallbackName": "Μέλος",
   "yourDisplayName": "Το όνομα εμφάνισής σας",
   "displayNameInputHint": "Εισαγάγετε εμφανιζόμενο όνομα",
-  "ownerLabel": "Ιδιοκτήτης"
+  "ownerLabel": "Ιδιοκτήτης",
+  "youLabel": "Εσείς"
 }

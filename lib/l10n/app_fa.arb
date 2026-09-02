@@ -205,5 +205,6 @@
   "memberFallbackName": "عضو",
   "yourDisplayName": "نام نمایشی شما",
   "displayNameInputHint": "نام نمایشی را وارد کنید",
-  "ownerLabel": "مالک"
+  "ownerLabel": "مالک",
+  "youLabel": "شما"
 }

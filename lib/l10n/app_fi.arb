@@ -205,5 +205,6 @@
   "memberFallbackName": "Jäsen",
   "yourDisplayName": "Näyttönimesi",
   "displayNameInputHint": "Anna näyttönimi",
-  "ownerLabel": "Omistaja"
+  "ownerLabel": "Omistaja",
+  "youLabel": "Sinä"
 }

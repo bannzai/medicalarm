@@ -205,5 +205,6 @@
   "memberFallbackName": "Мүше",
   "yourDisplayName": "Көрсетілетін атыңыз",
   "displayNameInputHint": "Көрсетілетін атты енгізіңіз",
-  "ownerLabel": "Иесі"
+  "ownerLabel": "Иесі",
+  "youLabel": "Сіз"
 }

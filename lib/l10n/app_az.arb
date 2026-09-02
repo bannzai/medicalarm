@@ -205,5 +205,6 @@
   "memberFallbackName": "Üzv",
   "yourDisplayName": "Göstərilən adınız",
   "displayNameInputHint": "Göstərilən adı daxil edin",
-  "ownerLabel": "Sahib"
+  "ownerLabel": "Sahib",
+  "youLabel": "Siz"
 }

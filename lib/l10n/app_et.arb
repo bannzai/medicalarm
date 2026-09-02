@@ -205,5 +205,6 @@
   "memberFallbackName": "Liige",
   "yourDisplayName": "Teie kuvatav nimi",
   "displayNameInputHint": "Sisestage kuvatav nimi",
-  "ownerLabel": "Omanik"
+  "ownerLabel": "Omanik",
+  "youLabel": "Sina"
 }

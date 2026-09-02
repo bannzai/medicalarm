@@ -205,5 +205,6 @@
   "memberFallbackName": "അംഗം",
   "yourDisplayName": "നിങ്ങളുടെ പ്രദർശന നാമം",
   "displayNameInputHint": "പ്രദർശന നാമം നൽകുക",
-  "ownerLabel": "ഉടമ"
+  "ownerLabel": "ഉടമ",
+  "youLabel": "നിങ്ങൾ"
 }

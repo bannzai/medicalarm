@@ -205,5 +205,6 @@
   "memberFallbackName": "Medlem",
   "yourDisplayName": "Visningsnavnet ditt",
   "displayNameInputHint": "Skriv inn visningsnavn",
-  "ownerLabel": "Eier"
+  "ownerLabel": "Eier",
+  "youLabel": "Du"
 }

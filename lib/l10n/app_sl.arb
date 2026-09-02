@@ -205,5 +205,6 @@
   "memberFallbackName": "Član",
   "yourDisplayName": "Vaše prikazno ime",
   "displayNameInputHint": "Vnesite prikazano ime",
-  "ownerLabel": "Lastnik"
+  "ownerLabel": "Lastnik",
+  "youLabel": "Vi"
 }

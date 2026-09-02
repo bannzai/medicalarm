@@ -205,5 +205,6 @@
   "memberFallbackName": "عضو",
   "yourDisplayName": "اسم العرض الخاص بك",
   "displayNameInputHint": "أدخل اسم العرض",
-  "ownerLabel": "المالك"
+  "ownerLabel": "المالك",
+  "youLabel": "أنت"
 }

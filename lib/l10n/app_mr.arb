@@ -205,5 +205,6 @@
   "memberFallbackName": "सदस्य",
   "yourDisplayName": "तुमचे प्रदर्शित नाव",
   "displayNameInputHint": "डिस्प्ले नाव प्रविष्ट करा",
-  "ownerLabel": "मालक"
+  "ownerLabel": "मालक",
+  "youLabel": "तुम्ही"
 }

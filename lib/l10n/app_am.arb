@@ -205,5 +205,6 @@
   "memberFallbackName": "አባል",
   "yourDisplayName": "የእርስዎ የማሳያ ስም",
   "displayNameInputHint": "የሚታይ ስም ያስገቡ",
-  "ownerLabel": "ባለቤት"
+  "ownerLabel": "ባለቤት",
+  "youLabel": "እርስዎ"
 }
