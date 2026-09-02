@@ -186,5 +186,6 @@
   "groupManagement": "Taldeen kudeaketa",
   "createGroup": "Sortu taldea",
   "groupName": "Taldearen izena",
-  "groupNameInputHint": "Sartu taldearen izena"
+  "groupNameInputHint": "Sartu taldearen izena",
+  "groupIcon": "Ikonoa"
 }

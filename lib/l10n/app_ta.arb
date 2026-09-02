@@ -186,5 +186,6 @@
   "groupManagement": "குழு மேலாண்மை",
   "createGroup": "குழுவை உருவாக்கு",
   "groupName": "குழுவின் பெயர்",
-  "groupNameInputHint": "குழுவின் பெயரை உள்ளிடவும்"
+  "groupNameInputHint": "குழுவின் பெயரை உள்ளிடவும்",
+  "groupIcon": "ஐகான்"
 }

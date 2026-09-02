@@ -186,5 +186,6 @@
   "groupManagement": "ഗ്രൂപ്പുകൾ നിയന്ത്രിക്കുക",
   "createGroup": "ഗ്രൂപ്പ് സൃഷ്ടിക്കുക",
   "groupName": "ഗ്രൂപ്പിന്റെ പേര്",
-  "groupNameInputHint": "ഗ്രൂപ്പിന്റെ പേര് നൽകുക"
+  "groupNameInputHint": "ഗ്രൂപ്പിന്റെ പേര് നൽകുക",
+  "groupIcon": "ഐക്കൺ"
 }

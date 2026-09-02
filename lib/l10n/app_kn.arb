@@ -186,5 +186,6 @@
   "groupManagement": "ಗುಂಪು ನಿರ್ವಹಣೆ",
   "createGroup": "ಗುಂಪನ್ನು ರಚಿಸಿ",
   "groupName": "ಗುಂಪಿನ ಹೆಸರು",
-  "groupNameInputHint": "ಗುಂಪಿನ ಹೆಸರನ್ನು ನಮೂದಿಸಿ"
+  "groupNameInputHint": "ಗುಂಪಿನ ಹೆಸರನ್ನು ನಮೂದಿಸಿ",
+  "groupIcon": "ಐಕಾನ್"
 }

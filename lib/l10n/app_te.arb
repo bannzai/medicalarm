@@ -186,5 +186,6 @@
   "groupManagement": "సమూహ నిర్వహణ",
   "createGroup": "సమూహాన్ని సృష్టించండి",
   "groupName": "సమూహం పేరు",
-  "groupNameInputHint": "సమూహం పేరును నమోదు చేయండి"
+  "groupNameInputHint": "సమూహం పేరును నమోదు చేయండి",
+  "groupIcon": "చిహ్నం"
 }

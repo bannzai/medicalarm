@@ -186,5 +186,6 @@
   "groupManagement": "Grupphantering",
   "createGroup": "Skapa grupp",
   "groupName": "Gruppnamn",
-  "groupNameInputHint": "Ange gruppnamn"
+  "groupNameInputHint": "Ange gruppnamn",
+  "groupIcon": "Ikon"
 }

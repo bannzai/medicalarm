@@ -186,5 +186,6 @@
   "groupManagement": "Guruhlarni boshqarish",
   "createGroup": "Guruh yaratish",
   "groupName": "Guruh nomi",
-  "groupNameInputHint": "Guruh nomini kiriting"
+  "groupNameInputHint": "Guruh nomini kiriting",
+  "groupIcon": "Belgi"
 }

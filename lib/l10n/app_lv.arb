@@ -186,5 +186,6 @@
   "groupManagement": "Grupu pārvaldība",
   "createGroup": "Izveidot grupu",
   "groupName": "Grupas nosaukums",
-  "groupNameInputHint": "Ievadiet grupas nosaukumu"
+  "groupNameInputHint": "Ievadiet grupas nosaukumu",
+  "groupIcon": "Ikona"
 }

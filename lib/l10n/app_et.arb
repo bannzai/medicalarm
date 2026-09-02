@@ -186,5 +186,6 @@
   "groupManagement": "Rühmade haldamine",
   "createGroup": "Loo rühm",
   "groupName": "Grupi nimi",
-  "groupNameInputHint": "Sisestage rühma nimi"
+  "groupNameInputHint": "Sisestage rühma nimi",
+  "groupIcon": "Ikoon"
 }

@@ -186,5 +186,6 @@
   "groupManagement": "የቡድኖች አስተዳደር",
   "createGroup": "ቡድን ይፍጠሩ",
   "groupName": "የቡድን ስም",
-  "groupNameInputHint": "የቡድን ስም ያስገቡ"
+  "groupNameInputHint": "የቡድን ስም ያስገቡ",
+  "groupIcon": "አይኮን"
 }

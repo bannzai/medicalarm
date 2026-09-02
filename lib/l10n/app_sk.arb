@@ -186,5 +186,6 @@
   "groupManagement": "Správa skupín",
   "createGroup": "Vytvoriť skupinu",
   "groupName": "Názov skupiny",
-  "groupNameInputHint": "Zadajte názov skupiny"
+  "groupNameInputHint": "Zadajte názov skupiny",
+  "groupIcon": "Ikona"
 }

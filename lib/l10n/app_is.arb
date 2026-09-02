@@ -186,5 +186,6 @@
   "groupManagement": "Hópastjórnun",
   "createGroup": "Búa til hóp",
   "groupName": "Heiti hóps",
-  "groupNameInputHint": "Sláðu inn heiti hópsins"
+  "groupNameInputHint": "Sláðu inn heiti hópsins",
+  "groupIcon": "Tákn"
 }

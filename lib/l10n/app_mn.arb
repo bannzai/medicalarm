@@ -186,5 +186,6 @@
   "groupManagement": "Бүлгийн удирдлага",
   "createGroup": "Бүлэг үүсгэх",
   "groupName": "Бүлгийн нэр",
-  "groupNameInputHint": "Бүлгийн нэрийг оруулна уу"
+  "groupNameInputHint": "Бүлгийн нэрийг оруулна уу",
+  "groupIcon": "Дүрс"
 }

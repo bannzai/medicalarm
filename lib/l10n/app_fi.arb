@@ -186,5 +186,6 @@
   "groupManagement": "Ryhmien hallinta",
   "createGroup": "Luo ryhmä",
   "groupName": "Ryhmän nimi",
-  "groupNameInputHint": "Anna ryhmän nimi"
+  "groupNameInputHint": "Anna ryhmän nimi",
+  "groupIcon": "Kuvake"
 }

@@ -186,5 +186,6 @@
   "groupManagement": "ჯგუფების მართვა",
   "createGroup": "ჯგუფის შექმნა",
   "groupName": "ჯგუფის სახელი",
-  "groupNameInputHint": "შეიყვანეთ ჯგუფის სახელი"
+  "groupNameInputHint": "შეიყვანეთ ჯგუფის სახელი",
+  "groupIcon": "ხატულა"
 }

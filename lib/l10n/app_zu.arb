@@ -186,5 +186,6 @@
   "groupManagement": "Ukuphathwa kwamaqembu",
   "createGroup": "Dala iqembu",
   "groupName": "Igama leqembu",
-  "groupNameInputHint": "Faka igama leqembu"
+  "groupNameInputHint": "Faka igama leqembu",
+  "groupIcon": "Isithonjana"
 }

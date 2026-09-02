@@ -186,5 +186,6 @@
   "groupManagement": "Groepen beheren",
   "createGroup": "Groep maken",
   "groupName": "Groepsnaam",
-  "groupNameInputHint": "Groepsnaam invoeren"
+  "groupNameInputHint": "Groepsnaam invoeren",
+  "groupIcon": "Icoon"
 }

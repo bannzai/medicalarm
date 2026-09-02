@@ -186,5 +186,6 @@
   "groupManagement": "Управление группами",
   "createGroup": "Создать группу",
   "groupName": "Название группы",
-  "groupNameInputHint": "Введите название группы"
+  "groupNameInputHint": "Введите название группы",
+  "groupIcon": "Значок"
 }

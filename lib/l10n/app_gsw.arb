@@ -186,5 +186,6 @@
   "groupManagement": "Gruppenverwaltung",
   "createGroup": "Gruppe erstellen",
   "groupName": "Gruppenname",
-  "groupNameInputHint": "Gruppenname eingeben"
+  "groupNameInputHint": "Gruppenname eingeben",
+  "groupIcon": "Symbol"
 }

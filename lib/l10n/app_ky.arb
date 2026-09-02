@@ -186,5 +186,6 @@
   "groupManagement": "Топторду башкаруу",
   "createGroup": "Топ түзүү",
   "groupName": "Топтун аты",
-  "groupNameInputHint": "Топтун атын киргизиңиз"
+  "groupNameInputHint": "Топтун атын киргизиңиз",
+  "groupIcon": "Белги"
 }

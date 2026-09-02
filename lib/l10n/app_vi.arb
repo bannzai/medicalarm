@@ -186,5 +186,6 @@
   "groupManagement": "Quản lý nhóm",
   "createGroup": "Tạo nhóm",
   "groupName": "Tên nhóm",
-  "groupNameInputHint": "Nhập tên nhóm"
+  "groupNameInputHint": "Nhập tên nhóm",
+  "groupIcon": "Biểu tượng"
 }

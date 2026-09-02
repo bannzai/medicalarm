@@ -186,5 +186,6 @@
   "groupManagement": "Menaxhimi i grupeve",
   "createGroup": "Krijo grup",
   "groupName": "Emri i grupit",
-  "groupNameInputHint": "Shkruani emrin e grupit"
+  "groupNameInputHint": "Shkruani emrin e grupit",
+  "groupIcon": "Ikonë"
 }

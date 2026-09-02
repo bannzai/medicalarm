@@ -186,5 +186,6 @@
   "groupManagement": "그룹 관리",
   "createGroup": "그룹 만들기",
   "groupName": "그룹 이름",
-  "groupNameInputHint": "그룹 이름 입력"
+  "groupNameInputHint": "그룹 이름 입력",
+  "groupIcon": "아이콘"
 }

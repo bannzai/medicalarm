@@ -186,5 +186,6 @@
   "groupManagement": "Rheoli grwpiau",
   "createGroup": "Creu grŵp",
   "groupName": "Enw'r grŵp",
-  "groupNameInputHint": "Rhowch enw'r grŵp"
+  "groupNameInputHint": "Rhowch enw'r grŵp",
+  "groupIcon": "Eicon"
 }

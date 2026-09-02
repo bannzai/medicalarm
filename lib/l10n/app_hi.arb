@@ -186,5 +186,6 @@
   "groupManagement": "समूह प्रबंधन",
   "createGroup": "समूह बनाएं",
   "groupName": "समूह का नाम",
-  "groupNameInputHint": "समूह का नाम दर्ज करें"
+  "groupNameInputHint": "समूह का नाम दर्ज करें",
+  "groupIcon": "आइकन"
 }

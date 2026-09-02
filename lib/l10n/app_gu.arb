@@ -186,5 +186,6 @@
   "groupManagement": "જૂથ વ્યવસ્થાપન",
   "createGroup": "ગ્રુપ બનાવો",
   "groupName": "જૂથનું નામ",
-  "groupNameInputHint": "જૂથનું નામ દાખલ કરો"
+  "groupNameInputHint": "જૂથનું નામ દાખલ કરો",
+  "groupIcon": "આઇકન"
 }

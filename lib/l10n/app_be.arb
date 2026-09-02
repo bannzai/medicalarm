@@ -186,5 +186,6 @@
   "groupManagement": "Кіраванне групамі",
   "createGroup": "Стварыць групу",
   "groupName": "Назва групы",
-  "groupNameInputHint": "Увядзіце назву групы"
+  "groupNameInputHint": "Увядзіце назву групы",
+  "groupIcon": "Значок"
 }

@@ -186,5 +186,6 @@
   "groupManagement": "Qrupların idarə edilməsi",
   "createGroup": "Qrup yarat",
   "groupName": "Qrup adı",
-  "groupNameInputHint": "Qrup adını daxil edin"
+  "groupNameInputHint": "Qrup adını daxil edin",
+  "groupIcon": "İkon"
 }
