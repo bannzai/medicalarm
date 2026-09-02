@@ -84,6 +84,7 @@
   "calendar": "ปฏิทิน",
   "diary": "ไดอารี่",
   "writeDiary": "เขียนไดอารี",
+  "editDiaryTooltip": "แก้ไขไดอารี",
   "medicineRegistrationLimit": "จำนวนการลงทะเบียนยา",
   "doseReceiverRegistrationLimit": "จำนวนผู้ใช้ที่ลงทะเบียน",
   "notificationScheduleLimit": "จำนวนตารางเวลาการแจ้งเตือน",

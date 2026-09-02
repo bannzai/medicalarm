@@ -84,6 +84,7 @@
   "calendar": "Kalender",
   "diary": "Dagbok",
   "writeDiary": "Skriv dagbok",
+  "editDiaryTooltip": "Rediger dagbok",
   "medicineRegistrationLimit": "antall registrerte medisiner",
   "doseReceiverRegistrationLimit": "Antall registrerte brukere",
   "notificationScheduleLimit": "Antall planlagte varsler",

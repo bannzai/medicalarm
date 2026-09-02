@@ -84,6 +84,7 @@
   "calendar": "Kalendarz",
   "diary": "Dziennik",
   "writeDiary": "Napisz dziennik",
+  "editDiaryTooltip": "Edytuj dziennik",
   "medicineRegistrationLimit": "Liczba zarejestrowanych leków",
   "doseReceiverRegistrationLimit": "Liczba zarejestrowanych osób przyjmujących leki",
   "notificationScheduleLimit": "Liczba harmonogramów powiadomień",

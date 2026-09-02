@@ -84,6 +84,7 @@
   "calendar": "Ημερολόγιο",
   "diary": "Ημερολόγιο",
   "writeDiary": "Γράψτε ημερολόγιο",
+  "editDiaryTooltip": "Επεξεργασία ημερολογίου",
   "medicineRegistrationLimit": "Ο αριθμός των καταχωρήσεων φαρμάκων",
   "doseReceiverRegistrationLimit": "Ο αριθμός των εγγεγραμμένων χρηστών",
   "notificationScheduleLimit": "Πλήθος προγραμματισμένων ειδοποιήσεων",

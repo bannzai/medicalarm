@@ -84,6 +84,7 @@
   "calendar": "Жылнаама",
   "diary": "Күндөлүк",
   "writeDiary": "Күндөлүк жазуу",
+  "editDiaryTooltip": "Күндөлүктү түзөтүү",
   "medicineRegistrationLimit": "Дарылардын каттоосунун санына",
   "doseReceiverRegistrationLimit": "Кабарлашуучу адамдын каттоо саны",
   "notificationScheduleLimit": "кабинеттин саны",

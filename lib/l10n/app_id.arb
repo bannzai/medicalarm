@@ -84,6 +84,7 @@
   "calendar": "Kalender",
   "diary": "Jurnal",
   "writeDiary": "Tulis jurnal",
+  "editDiaryTooltip": "Edit jurnal",
   "medicineRegistrationLimit": "Jumlah obat yang terdaftar",
   "doseReceiverRegistrationLimit": "Jumlah pendaftar pengguna",
   "notificationScheduleLimit": "Jumlah jadwal notifikasi",

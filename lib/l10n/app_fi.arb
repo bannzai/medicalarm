@@ -84,6 +84,7 @@
   "calendar": "Kalenteri",
   "diary": "Päiväkirja",
   "writeDiary": "Kirjoita päiväkirja",
+  "editDiaryTooltip": "Muokkaa päiväkirjaa",
   "medicineRegistrationLimit": "Huumeiden rekisteröintimäärä",
   "doseReceiverRegistrationLimit": "rekisteröityneiden lääkkeiden käyttäjien määrä",
   "notificationScheduleLimit": "ilmoitusajan aikataulujen määrä",

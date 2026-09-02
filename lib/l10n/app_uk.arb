@@ -84,6 +84,7 @@
   "calendar": "Календар",
   "diary": "Щоденник",
   "writeDiary": "Написати щоденник",
+  "editDiaryTooltip": "Редагувати щоденник",
   "medicineRegistrationLimit": "The number of registered medications",
   "doseReceiverRegistrationLimit": "the number of registered users",
   "notificationScheduleLimit": "the number of notification schedules",

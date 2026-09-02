@@ -84,6 +84,7 @@
   "calendar": "Calendrier",
   "diary": "Journal",
   "writeDiary": "Écrire dans le journal",
+  "editDiaryTooltip": "Modifier le journal",
   "medicineRegistrationLimit": "Le nombre d'enregistrements de médicaments",
   "doseReceiverRegistrationLimit": "Nombre maximum d'utilisateurs enregistrés",
   "notificationScheduleLimit": "Nombre de schedules de notification",

@@ -84,6 +84,7 @@
   "calendar": "კალენდარი",
   "diary": "დღიური",
   "writeDiary": "დღიურის დაწერა",
+  "editDiaryTooltip": "დღიურის რედაქტირება",
   "medicineRegistrationLimit": "წამლის რეგისტრაციის რაოდენობა",
   "doseReceiverRegistrationLimit": "წამლებს მომხმარებლების რეგისტრირებულ რაოდენობას",
   "notificationScheduleLimit": "შეტყობინების განრიგის რაოდენობა",

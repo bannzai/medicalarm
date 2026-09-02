@@ -84,6 +84,7 @@
   "calendar": "تقویم",
   "diary": "یادداشت روزانه",
   "writeDiary": "نوشتن یادداشت روزانه",
+  "editDiaryTooltip": "ویرایش دفتر خاطرات",
   "medicineRegistrationLimit": "تعداد داروهای ثبت شده",
   "doseReceiverRegistrationLimit": "تعداد ثبت نام کنندگان دارو",
   "notificationScheduleLimit": "تعداد برنامه‌ریزی‌های اعلان",

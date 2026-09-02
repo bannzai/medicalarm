@@ -84,6 +84,7 @@
   "calendar": "日历",
   "diary": "日记",
   "writeDiary": "写日记",
+  "editDiaryTooltip": "编辑日记",
   "medicineRegistrationLimit": "药物注册数量",
   "doseReceiverRegistrationLimit": "药物使用者注册数量",
   "notificationScheduleLimit": "通知计划的数量上限",

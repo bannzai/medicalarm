@@ -84,6 +84,7 @@
   "calendar": "Takvim",
   "diary": "Günlük",
   "writeDiary": "Günlük yaz",
+  "editDiaryTooltip": "Günlüğü düzenle",
   "medicineRegistrationLimit": "ilaç kaydı sayısı",
   "doseReceiverRegistrationLimit": "Kullanıcıların kayıt sayısını",
   "notificationScheduleLimit": "Bildirim programı sayısı",

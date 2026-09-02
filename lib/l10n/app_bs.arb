@@ -84,6 +84,7 @@
   "calendar": "Kalendar",
   "diary": "Dnevnik",
   "writeDiary": "Napišite dnevnik",
+  "editDiaryTooltip": "Uredi dnevnik",
   "medicineRegistrationLimit": "Broj registriranih lijekova",
   "doseReceiverRegistrationLimit": "Registracija korisnika za uzimanje lijekova",
   "notificationScheduleLimit": "Broj zakazanih obavijesti je",

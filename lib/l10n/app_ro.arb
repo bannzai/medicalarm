@@ -84,6 +84,7 @@
   "calendar": "Calendar",
   "diary": "Jurnal",
   "writeDiary": "Scrie un jurnal",
+  "editDiaryTooltip": "Editează jurnalul",
   "medicineRegistrationLimit": "Numărul de medicamente înregistrate",
   "doseReceiverRegistrationLimit": "Numărul maxim de utilizatori înregistrați.",
   "notificationScheduleLimit": "Numărul programărilor de notificare",
