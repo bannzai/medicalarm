@@ -198,5 +198,6 @@
   "invitationCodeShareDescription": "Kongsi kod ini untuk menjemput ahli",
   "invitationCodeExpiresAt": "Sah sehingga: {date}",
   "copyInvitationCode": "Salin kod",
-  "invitationCodeCopied": "Kod jemputan disalin"
+  "invitationCodeCopied": "Kod jemputan disalin",
+  "issueInvitationCode": "Jana kod jemputan"
 }

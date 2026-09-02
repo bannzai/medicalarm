@@ -198,5 +198,6 @@
   "invitationCodeShareDescription": "Pots compartir aquest codi per convidar membres",
   "invitationCodeExpiresAt": "Caduca el: {date}",
   "copyInvitationCode": "Copia el codi",
-  "invitationCodeCopied": "Codi d’invitació copiat"
+  "invitationCodeCopied": "Codi d’invitació copiat",
+  "issueInvitationCode": "Genera un codi d’invitació"
 }

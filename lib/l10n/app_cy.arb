@@ -198,5 +198,6 @@
   "invitationCodeShareDescription": "Gallwch rannu'r cod hwn i wahodd aelodau",
   "invitationCodeExpiresAt": "Daw i ben: {date}",
   "copyInvitationCode": "Copïo cod",
-  "invitationCodeCopied": "Cod gwahoddiad wedi’i gopïo"
+  "invitationCodeCopied": "Cod gwahoddiad wedi’i gopïo",
+  "issueInvitationCode": "Cyhoeddi cod gwahoddiad"
 }

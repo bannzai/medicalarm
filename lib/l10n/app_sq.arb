@@ -198,5 +198,6 @@
   "invitationCodeShareDescription": "Ndajeni këtë kod për të ftuar anëtarë",
   "invitationCodeExpiresAt": "Skadon më: {date}",
   "copyInvitationCode": "Kopjo kodin",
-  "invitationCodeCopied": "Kodi i ftesës u kopjua"
+  "invitationCodeCopied": "Kodi i ftesës u kopjua",
+  "issueInvitationCode": "Gjenero kodin e ftesës"
 }

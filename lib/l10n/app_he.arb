@@ -198,5 +198,6 @@
   "invitationCodeShareDescription": "אפשר לשתף את הקוד הזה כדי להזמין חברים",
   "invitationCodeExpiresAt": "בתוקף עד: {date}",
   "copyInvitationCode": "העתקת קוד",
-  "invitationCodeCopied": "קוד ההזמנה הועתק"
+  "invitationCodeCopied": "קוד ההזמנה הועתק",
+  "issueInvitationCode": "יצירת קוד הזמנה"
 }

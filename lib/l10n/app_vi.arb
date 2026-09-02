@@ -198,5 +198,6 @@
   "invitationCodeShareDescription": "Chia sẻ mã này để mời thành viên",
   "invitationCodeExpiresAt": "Có hiệu lực đến: {date}",
   "copyInvitationCode": "Sao chép mã",
-  "invitationCodeCopied": "Đã sao chép mã lời mời"
+  "invitationCodeCopied": "Đã sao chép mã lời mời",
+  "issueInvitationCode": "Tạo mã mời"
 }

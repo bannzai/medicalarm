@@ -198,5 +198,6 @@
   "invitationCodeShareDescription": "ይህን ኮድ በማጋራት አባላትን መጋበዝ ይችላሉ",
   "invitationCodeExpiresAt": "የሚያበቃበት ቀን፦ {date}",
   "copyInvitationCode": "ኮዱን ቅዳ",
-  "invitationCodeCopied": "የግብዣ ኮዱ ተቀድቷል"
+  "invitationCodeCopied": "የግብዣ ኮዱ ተቀድቷል",
+  "issueInvitationCode": "የግብዣ ኮድ አውጣ"
 }

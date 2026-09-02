@@ -198,5 +198,6 @@
   "invitationCodeShareDescription": "உறுப்பினர்களை அழைக்க இந்தக் குறியீட்டைப் பகிரவும்",
   "invitationCodeExpiresAt": "காலாவதி தேதி: {date}",
   "copyInvitationCode": "குறியீட்டை நகலெடுக்கவும்",
-  "invitationCodeCopied": "அழைப்புக் குறியீடு நகலெடுக்கப்பட்டது"
+  "invitationCodeCopied": "அழைப்புக் குறியீடு நகலெடுக்கப்பட்டது",
+  "issueInvitationCode": "அழைப்புக் குறியீட்டை உருவாக்கு"
 }

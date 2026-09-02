@@ -198,5 +198,6 @@
   "invitationCodeShareDescription": "Liikmete kutsumiseks jaga seda koodi",
   "invitationCodeExpiresAt": "Kehtiv kuni: {date}",
   "copyInvitationCode": "Kopeeri kood",
-  "invitationCodeCopied": "Kutsekood kopeeritud"
+  "invitationCodeCopied": "Kutsekood kopeeritud",
+  "issueInvitationCode": "Loo kutsekood"
 }

@@ -198,5 +198,6 @@
   "invitationCodeShareDescription": "Jaa tämä koodi kutsuaksesi jäseniä",
   "invitationCodeExpiresAt": "Voimassa asti: {date}",
   "copyInvitationCode": "Kopioi koodi",
-  "invitationCodeCopied": "Kutsukoodi kopioitu"
+  "invitationCodeCopied": "Kutsukoodi kopioitu",
+  "issueInvitationCode": "Luo kutsukoodi"
 }

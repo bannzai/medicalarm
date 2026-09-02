@@ -198,5 +198,6 @@
   "invitationCodeShareDescription": "Поділіться цим кодом, щоб запросити учасників",
   "invitationCodeExpiresAt": "Дійсний до: {date}",
   "copyInvitationCode": "Копіювати код",
-  "invitationCodeCopied": "Код запрошення скопійовано"
+  "invitationCodeCopied": "Код запрошення скопійовано",
+  "issueInvitationCode": "Створити код запрошення"
 }

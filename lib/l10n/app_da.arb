@@ -198,5 +198,6 @@
   "invitationCodeShareDescription": "Del denne kode for at invitere medlemmer",
   "invitationCodeExpiresAt": "Udløber: {date}",
   "copyInvitationCode": "Kopiér kode",
-  "invitationCodeCopied": "Invitationskode kopieret"
+  "invitationCodeCopied": "Invitationskode kopieret",
+  "issueInvitationCode": "Opret invitationskode"
 }

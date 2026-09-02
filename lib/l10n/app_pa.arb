@@ -198,5 +198,6 @@
   "invitationCodeShareDescription": "ਮੈਂਬਰਾਂ ਨੂੰ ਸੱਦਾ ਦੇਣ ਲਈ ਇਹ ਕੋਡ ਸਾਂਝਾ ਕਰੋ",
   "invitationCodeExpiresAt": "ਮਿਆਦ ਪੁੱਗਣ ਦੀ ਮਿਤੀ: {date}",
   "copyInvitationCode": "ਕੋਡ ਕਾਪੀ ਕਰੋ",
-  "invitationCodeCopied": "ਸੱਦਾ ਕੋਡ ਕਾਪੀ ਕੀਤਾ ਗਿਆ"
+  "invitationCodeCopied": "ਸੱਦਾ ਕੋਡ ਕਾਪੀ ਕੀਤਾ ਗਿਆ",
+  "issueInvitationCode": "ਸੱਦਾ ਕੋਡ ਬਣਾਓ"
 }

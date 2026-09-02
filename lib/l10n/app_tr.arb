@@ -198,5 +198,6 @@
   "invitationCodeShareDescription": "Üyeleri davet etmek için bu kodu paylaşabilirsiniz",
   "invitationCodeExpiresAt": "Son geçerlilik tarihi: {date}",
   "copyInvitationCode": "Kodu kopyala",
-  "invitationCodeCopied": "Davet kodu kopyalandı"
+  "invitationCodeCopied": "Davet kodu kopyalandı",
+  "issueInvitationCode": "Davet kodu oluştur"
 }

@@ -198,5 +198,6 @@
   "invitationCodeShareDescription": "Oszd meg ezt a kódot tagok meghívásához",
   "invitationCodeExpiresAt": "Lejárat: {date}",
   "copyInvitationCode": "Kód másolása",
-  "invitationCodeCopied": "Meghívókód kimásolva"
+  "invitationCodeCopied": "Meghívókód kimásolva",
+  "issueInvitationCode": "Meghívókód létrehozása"
 }

@@ -198,5 +198,6 @@
   "invitationCodeShareDescription": "Shiriki msimbo huu ili kuwaalika wanachama",
   "invitationCodeExpiresAt": "Inaisha: {date}",
   "copyInvitationCode": "Nakili msimbo",
-  "invitationCodeCopied": "Msimbo wa mwaliko umenakiliwa"
+  "invitationCodeCopied": "Msimbo wa mwaliko umenakiliwa",
+  "issueInvitationCode": "Unda msimbo wa mwaliko"
 }

@@ -198,5 +198,6 @@
   "invitationCodeShareDescription": "Distribuiți acest cod pentru a invita membri",
   "invitationCodeExpiresAt": "Valabil până la: {date}",
   "copyInvitationCode": "Copiază codul",
-  "invitationCodeCopied": "Codul de invitație a fost copiat"
+  "invitationCodeCopied": "Codul de invitație a fost copiat",
+  "issueInvitationCode": "Generează cod de invitație"
 }

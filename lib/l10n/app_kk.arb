@@ -198,5 +198,6 @@
   "invitationCodeShareDescription": "Мүшелерді шақыру үшін осы кодты бөлісіңіз",
   "invitationCodeExpiresAt": "Жарамдылық мерзімі: {date}",
   "copyInvitationCode": "Кодты көшіру",
-  "invitationCodeCopied": "Шақыру коды көшірілді"
+  "invitationCodeCopied": "Шақыру коды көшірілді",
+  "issueInvitationCode": "Шақыру кодын жасау"
 }

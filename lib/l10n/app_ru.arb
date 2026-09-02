@@ -198,5 +198,6 @@
   "invitationCodeShareDescription": "Поделитесь этим кодом, чтобы пригласить участников",
   "invitationCodeExpiresAt": "Действителен до: {date}",
   "copyInvitationCode": "Скопировать код",
-  "invitationCodeCopied": "Код приглашения скопирован"
+  "invitationCodeCopied": "Код приглашения скопирован",
+  "issueInvitationCode": "Создать код приглашения"
 }

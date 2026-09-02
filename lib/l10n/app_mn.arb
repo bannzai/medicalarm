@@ -198,5 +198,6 @@
   "invitationCodeShareDescription": "Гишүүдийг урих бол энэ кодыг хуваалцаарай",
   "invitationCodeExpiresAt": "Хүчинтэй хугацаа: {date}",
   "copyInvitationCode": "Код хуулах",
-  "invitationCodeCopied": "Урилгын кодыг хууллаа"
+  "invitationCodeCopied": "Урилгын кодыг хууллаа",
+  "issueInvitationCode": "Урилгын код үүсгэх"
 }

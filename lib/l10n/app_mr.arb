@@ -198,5 +198,6 @@
   "invitationCodeShareDescription": "सदस्यांना आमंत्रित करण्यासाठी हा कोड शेअर करा",
   "invitationCodeExpiresAt": "कालबाह्यता: {date}",
   "copyInvitationCode": "कोड कॉपी करा",
-  "invitationCodeCopied": "आमंत्रण कोड कॉपी केला"
+  "invitationCodeCopied": "आमंत्रण कोड कॉपी केला",
+  "issueInvitationCode": "आमंत्रण कोड तयार करा"
 }

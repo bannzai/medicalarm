@@ -198,5 +198,6 @@
   "invitationCodeShareDescription": "Ibahagi ang code na ito para mag-imbita ng mga miyembro",
   "invitationCodeExpiresAt": "May bisa hanggang: {date}",
   "copyInvitationCode": "Kopyahin ang code",
-  "invitationCodeCopied": "Nakopya ang invitation code"
+  "invitationCodeCopied": "Nakopya ang invitation code",
+  "issueInvitationCode": "Gumawa ng code ng imbitasyon"
 }

@@ -198,5 +198,6 @@
   "invitationCodeShareDescription": "ແບ່ງປັນລະຫັດນີ້ເພື່ອເຊີນສະມາຊິກ",
   "invitationCodeExpiresAt": "ໝົດອາຍຸ: {date}",
   "copyInvitationCode": "ສຳເນົາລະຫັດ",
-  "invitationCodeCopied": "ຄັດລອກລະຫັດເຊີນແລ້ວ"
+  "invitationCodeCopied": "ຄັດລອກລະຫັດເຊີນແລ້ວ",
+  "issueInvitationCode": "ສ້າງລະຫັດເຊີນ"
 }

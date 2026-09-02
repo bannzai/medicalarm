@@ -198,5 +198,6 @@
   "invitationCodeShareDescription": "Kode hau parteka dezakezu kideak gonbidatzeko",
   "invitationCodeExpiresAt": "Iraungitze-data: {date}",
   "copyInvitationCode": "Kopiatu kodea",
-  "invitationCodeCopied": "Gonbidapen-kodea kopiatu da"
+  "invitationCodeCopied": "Gonbidapen-kodea kopiatu da",
+  "issueInvitationCode": "Sortu gonbidapen-kodea"
 }

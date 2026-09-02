@@ -198,5 +198,6 @@
   "invitationCodeShareDescription": "Μπορείτε να μοιραστείτε αυτόν τον κωδικό για να προσκαλέσετε μέλη",
   "invitationCodeExpiresAt": "Λήξη: {date}",
   "copyInvitationCode": "Αντιγραφή κωδικού",
-  "invitationCodeCopied": "Ο κωδικός πρόσκλησης αντιγράφηκε"
+  "invitationCodeCopied": "Ο κωδικός πρόσκλησης αντιγράφηκε",
+  "issueInvitationCode": "Έκδοση κωδικού πρόσκλησης"
 }

@@ -198,5 +198,6 @@
   "invitationCodeShareDescription": "સભ્યોને આમંત્રિત કરવા માટે આ કોડ શેર કરો",
   "invitationCodeExpiresAt": "સમાપ્ત થવાની તારીખ: {date}",
   "copyInvitationCode": "કોડ કૉપિ કરો",
-  "invitationCodeCopied": "આમંત્રણ કોડ કૉપિ કરવામાં આવ્યો"
+  "invitationCodeCopied": "આમંત્રણ કોડ કૉપિ કરવામાં આવ્યો",
+  "issueInvitationCode": "આમંત્રણ કોડ બનાવો"
 }

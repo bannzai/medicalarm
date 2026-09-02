@@ -198,5 +198,6 @@
   "invitationCodeShareDescription": "Udostępnij ten kod, aby zaprosić członków",
   "invitationCodeExpiresAt": "Ważne do: {date}",
   "copyInvitationCode": "Kopiuj kod",
-  "invitationCodeCopied": "Skopiowano kod zaproszenia"
+  "invitationCodeCopied": "Skopiowano kod zaproszenia",
+  "issueInvitationCode": "Wygeneruj kod zaproszenia"
 }

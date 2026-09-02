@@ -198,5 +198,6 @@
   "invitationCodeShareDescription": "ممبرز کو مدعو کرنے کے لیے یہ کوڈ شیئر کریں",
   "invitationCodeExpiresAt": "میعاد ختم ہونے کی تاریخ: {date}",
   "copyInvitationCode": "کوڈ کاپی کریں",
-  "invitationCodeCopied": "دعوتی کوڈ کاپی ہو گیا"
+  "invitationCodeCopied": "دعوتی کوڈ کاپی ہو گیا",
+  "issueInvitationCode": "دعوتی کوڈ بنائیں"
 }

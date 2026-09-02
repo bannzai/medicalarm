@@ -198,5 +198,6 @@
   "invitationCodeShareDescription": "Kopīgojiet šo kodu, lai uzaicinātu dalībniekus",
   "invitationCodeExpiresAt": "Derīgs līdz: {date}",
   "copyInvitationCode": "Kopēt kodu",
-  "invitationCodeCopied": "Uzaicinājuma kods nokopēts"
+  "invitationCodeCopied": "Uzaicinājuma kods nokopēts",
+  "issueInvitationCode": "Izveidot ielūguma kodu"
 }
