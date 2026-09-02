@@ -1,783 +1,234 @@
 {
   "@@locale": "bs",
   "retry": "Ponovno pokušaj",
-  "@retry": {
-    "description": "エラーが発生した際やデータの読み込みに失敗した際に、再度処理を実行するためのボタンテキスト"
-  },
   "save": "Spremi",
-  "@save": {
-    "description": "フォームやエディタで入力したデータを保存する際に使用するボタンテキスト"
-  },
   "memo": "Bilješka",
-  "@memo": {
-    "description": "服薬記録や日記などで追加情報を入力するためのテキストフィールドのプレースホルダー"
-  },
   "completed": "Završeno",
-  "@completed": {
-    "description": "フォームの入力や設定の変更などの操作が完了した際に使用するボタンテキスト"
-  },
   "medicineRegistration": "Ekran za registraciju lijekova",
-  "@medicineRegistration": {
-    "description": "お薬の新規登録・編集画面のタイトル"
-  },
   "medicineName": "Ime lijeka",
-  "@medicineName": {
-    "description": "お薬登録フォームでの薬の名前を入力するフィールドのプレースホルダー"
-  },
   "medicineList": "Popis lijekova",
-  "@medicineList": {
-    "description": "登録されているお薬の一覧を表示する画面のタイトル"
-  },
   "medicationSchedule": "Raspored uzimanja",
-  "@medicationSchedule": {
-    "description": "服用スケジュールのセクションタイトル"
-  },
   "medicationTime": "Omogući obavijesti o uzimanju lijekova",
-  "@medicationTime": {
-    "description": "服用時刻の通知設定を有効にするためのスイッチのラベル"
-  },
   "medicationTimeDescription": "Obavijestiće vas na osnovu vremena uzimanja.",
-  "@medicationTimeDescription": {
-    "description": "服用時刻の通知設定の説明文"
-  },
   "close": "Zatvori",
-  "@close": {
-    "description": "ダイアログやモーダルを閉じるためのボタンテキスト"
-  },
   "settings": "Podešavanja",
-  "@settings": {
-    "description": "設定画面のタイトル"
-  },
   "camera": "Kamera",
-  "@camera": {
-    "description": "カメラを起動するためのメニュー項目"
-  },
   "photoLibrary": "Fototeka",
-  "@photoLibrary": {
-    "description": "フォトライブラリを開くためのメニュー項目"
-  },
   "medicationHistory": "Istorija uzimanja lijekova",
-  "@medicationHistory": {
-    "description": "服薬履歴を表示する画面のタイトル"
-  },
   "noMedicationHistory": "Nema istorije uzimanja lijekova",
-  "@noMedicationHistory": {
-    "description": "服薬履歴が存在しない場合に表示するメッセージ"
-  },
   "scheduledTime": "Planirano vrijeme",
-  "@scheduledTime": {
-    "description": "服薬予定時刻のラベル"
-  },
   "recordedTime": "Vrijeme unosa",
-  "@recordedTime": {
-    "description": "実際に服薬を記録した時間のラベル"
-  },
   "noMemo": "Nema bilješki",
-  "@noMemo": {
-    "description": "メモが存在しない場合に表示するテキスト"
-  },
   "premiumPlan": "Premium plan",
-  "@premiumPlan": {
-    "description": "プレミアムプランの名称"
-  },
   "premiumFeatureAds": "Sakrivanje oglasa",
-  "@premiumFeatureAds": {
-    "description": "プレミアム機能の広告非表示の説明"
-  },
   "premiumFeatureHistory": "Prikaži cijelu historiju uzimanja lijekova",
-  "@premiumFeatureHistory": {
-    "description": "プレミアム機能の履歴表示の説明"
-  },
   "premiumRegistrationComplete": "Medicalarm premium registracija završena",
-  "@premiumRegistrationComplete": {
-    "description": "プレミアム登録完了時のタイトル"
-  },
   "premiumRegistrationThanks": "Hvala što ste se registrirali. Sada su vam dostupne sve funkcije!",
-  "@premiumRegistrationThanks": {
-    "description": "プレミアム登録完了時のメッセージ"
-  },
   "unknownError": "Došlo je do nepoznate greške.",
-  "@unknownError": {
-    "description": "予期せぬエラーが発生した際のエラーメッセージ"
-  },
   "error": "Došlo je do greške",
-  "@error": {
-    "description": "一般的なエラーメッセージ"
-  },
   "unexpectedError": "Došlo je do neočekivane greške.",
-  "@unexpectedError": {
-    "description": "予期せぬエラーが発生した際のエラーメッセージ"
-  },
   "cancel": "Otkaži",
-  "@cancel": {
-    "description": "操作をキャンセルするためのボタンテキスト"
-  },
   "delete": "Izbriši",
-  "@delete": {
-    "description": "削除操作を実行するためのボタンテキスト"
-  },
   "deleteAccount": "Izbriši račun",
-  "@deleteAccount": {
-    "description": "アカウント削除ボタンのテキスト"
-  },
   "deleteAccountConfirm": "Izbrišite korisničke informacije",
-  "@deleteAccountConfirm": {
-    "description": "アカウント削除確認ダイアログのタイトル"
-  },
   "deleteAccountMessage": "Brisanjem računa, sve korisničke informacije će biti obrisane.",
-  "@deleteAccountMessage": {
-    "description": "アカウント削除確認ダイアログのメッセージ"
-  },
   "medicationFrequency": "Učestalost uzimanja",
-  "@medicationFrequency": {
-    "description": "服用頻度の設定セクションのタイトル"
-  },
   "daily": "Svaki dan",
-  "@daily": {
-    "description": "毎日服用する頻度設定"
-  },
   "everyXDays": "Na svakih X dana",
-  "@everyXDays": {
-    "description": "X日ごとに服用する頻度設定"
-  },
   "specificWeekdays": "Posebni dani",
-  "@specificWeekdays": {
-    "description": "特定の曜日に服用する頻度設定"
-  },
   "cycle": "Period",
-  "@cycle": {
-    "description": "周期で服用する頻度設定"
-  },
   "cycleDescription": "Primjer) 21 dana uzimanja/7 dana pauze",
-  "@cycleDescription": {
-    "description": "周期での服用頻度の説明文"
-  },
   "everyXDaysDescription": "svakih 2 dana, svakih 3 dana",
-  "@everyXDaysDescription": {
-    "description": "X日ごとの服用頻度の説明文"
-  },
   "specificWeekdaysDescription": "Ponedjeljak samo, srijeda i petak",
-  "@specificWeekdaysDescription": {
-    "description": "特定の曜日の服用頻度の説明文"
-  },
   "medicineFormValidationError": "Unesite ime i raspored uzimanja lijekova",
-  "@medicineFormValidationError": {
-    "description": "お薬登録フォームでの入力バリデーションエラーメッセージ"
-  },
   "quantity": "Količina",
-  "@quantity": {
-    "description": "服用量を入力するフィールドのラベル"
-  },
   "quantityExample": "Primjer: 1 tableta, 100mg",
-  "@quantityExample": {
-    "description": "服用量入力フィールドのプレースホルダー"
-  },
   "medicationStartDate": "Datum početka uzimanja",
-  "@medicationStartDate": {
-    "description": "服用開始日を選択するフィールドのラベル"
-  },
   "otherInformation": "Ostalo",
-  "@otherInformation": {
-    "description": "その他の情報を入力するセクションのタイトル"
-  },
   "doseReceiver": "Osoba koja uzima lijekove",
-  "@doseReceiver": {
-    "description": "服用者を選択するフィールドのラベル"
-  },
   "defaultDoseReceiver": "ja",
-  "@defaultDoseReceiver": {
-    "description": "デフォルトの服用者名"
-  },
   "doseReceiverMaxCount": "Možete registrovati do {count} korisnika.",
-  "@doseReceiverMaxCount": {
-    "description": "服用者の最大登録数を表示するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "2"
-      }
-    }
-  },
   "increaseLimitWithPremium": "Povećajte limit na {count} s premium planom",
-  "@increaseLimitWithPremium": {
-    "description": "プレミアムプランでの上限増加を案内するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "10"
-      }
-    }
-  },
   "addDoseReceiver": "Dodajte korisnika za uzimanje",
-  "@addDoseReceiver": {
-    "description": "服用者を追加するボタンのテキスト"
-  },
   "newDoseReceiver": "Novi korisnik",
-  "@newDoseReceiver": {
-    "description": "新規追加時のデフォルトの服用者名"
-  },
   "reloginRequired": "Ponovo se prijavite",
-  "@reloginRequired": {
-    "description": "アカウント削除時に再ログインが必要な場合のダイアログタイトル"
-  },
   "reloginMessage": "Da biste obrisali račun, ponovo se prijavite.",
-  "@reloginMessage": {
-    "description": "アカウント削除時の再ログイン要求メッセージ"
-  },
   "relogin": "Ponovno prijavite se",
-  "@relogin": {
-    "description": "再ログインを実行するためのボタンテキスト"
-  },
   "accountDeleted": "Račun je uklonjen.",
-  "@accountDeleted": {
-    "description": "アカウント削除完了時のメッセージ"
-  },
   "confirmExit": "Da li želite zatvoriti aplikaciju?",
-  "@confirmExit": {
-    "description": "アプリ終了確認のメッセージ"
-  },
   "exit": "Završi",
-  "@exit": {
-    "description": "アプリを終了するためのボタンテキスト"
-  },
   "viewFaq": "Pogledajte FAQ",
-  "@viewFaq": {
-    "description": "FAQページを表示するためのボタンテキスト"
-  },
   "medicine": "Lijekovi",
-  "@medicine": {
-    "description": "お薬タブのタイトル"
-  },
   "inquiry": "Kontaktirajte nas",
-  "@inquiry": {
-    "description": "お問い合わせボタンのテキスト"
-  },
   "ok": "U redu",
-  "@ok": {
-    "description": "確認ダイアログのOKボタンのテキスト"
-  },
   "medicationScheduleLimit": "Možete registrovati do {count} rasporeda uzimanja.",
-  "@medicationScheduleLimit": {
-    "description": "服用スケジュールの登録上限を表示するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "3"
-      }
-    }
-  },
   "increaseMedicationScheduleLimit": "Povećajte gornju granicu na {count} sa premium planom",
-  "@increaseMedicationScheduleLimit": {
-    "description": "服用スケジュールの上限をプレミアムプランで増やすことを案内するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "10"
-      }
-    }
-  },
   "addMedicationSchedule": "Dodaj raspored uzimanja",
-  "@addMedicationSchedule": {
-    "description": "服用スケジュールを追加するボタンのテキスト"
-  },
   "medicationScheduleNotificationSetting": "Postavke obavijesti o rasporedu uzimanja lijekova",
-  "@medicationScheduleNotificationSetting": {
-    "description": "服用スケジュールの通知設定画面のタイトル"
-  },
   "notificationSetting": "Postavke obavijesti",
-  "@notificationSetting": {
-    "description": "通知設定セクションのタイトル"
-  },
   "enableFollowupNotification": "Omogući obavijesti o praćenju",
-  "@enableFollowupNotification": {
-    "description": "フォローアップ通知を有効にするスイッチのラベル"
-  },
   "followupNotificationDescription": "Ako ne zabilježite uzimanje lijekova u roku od 30 minuta od prvog obavještenja, biće vam poslata dodatna obavještenja.",
-  "@followupNotificationDescription": {
-    "description": "フォローアップ通知の説明文"
-  },
   "enableNotificationInSilentMode": "Obavještava čak i kada je u tihom režimu",
-  "@enableNotificationInSilentMode": {
-    "description": "マナーモード時の通知を有効にするスイッチのラベル"
-  },
   "silentModeNotificationDescription": "Važne obavijesti će se prikazivati na zaključanom ekranu, čak i kada je fokus mod uključen ili je uređaj na tiho.",
-  "@silentModeNotificationDescription": {
-    "description": "マナーモード時の通知の説明文"
-  },
   "everyXDaysFormat": "{count} dana",
-  "@everyXDaysFormat": {
-    "description": "X日ごとの服用頻度を表示する際のフォーマット",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "2"
-      }
-    }
-  },
   "cycleDaysFormat": "{consecutiveDays} dana uzimanja/{restDays} dana pauze",
-  "@cycleDaysFormat": {
-    "description": "服用周期を表示する際のフォーマット",
-    "placeholders": {
-      "consecutiveDays": {
-        "type": "int",
-        "example": "21"
-      },
-      "restDays": {
-        "type": "int",
-        "example": "7"
-      }
-    }
-  },
   "consecutiveDaysFormat": "{count} dana uzimanja",
-  "@consecutiveDaysFormat": {
-    "description": "連続服用日数を表示する際のフォーマット",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "21"
-      }
-    }
-  },
   "restDaysFormat": "{count} dana bez terapije",
-  "@restDaysFormat": {
-    "description": "休薬日数を表示する際のフォーマット",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "7"
-      }
-    }
-  },
   "limitedTimeDiscount": "Sada imate priliku da koristite po sniženoj cijeni.",
-  "@limitedTimeDiscount": {
-    "description": "プレミアムプランの限定価格キャンペーンを案内するメッセージ"
-  },
   "monthlyPlan": "Mjesečni plan",
-  "@monthlyPlan": {
-    "description": "月額プランの名称"
-  },
   "annualPlan": "Godišnji plan",
-  "@annualPlan": {
-    "description": "年額プランの名称"
-  },
   "weeklyPlan": "Tjedni plan",
-  "@weeklyPlan": {
-    "description": "週額プランの名称"
-  },
   "premiumRequired": "Može se pristupiti uz članstvo u premium planu.",
-  "@premiumRequired": {
-    "description": "プレミアムプラン加入が必要な機能へのアクセス時のメッセージ"
-  },
   "medication": "Lijekovi",
-  "@medication": {
-    "description": "服薬タブのタイトル"
-  },
   "history": "Istorija",
-  "@history": {
-    "description": "履歴タブのタイトル"
-  },
+  "calendar": "Kalendar",
+  "diary": "Dnevnik",
+  "writeDiary": "Napišite dnevnik",
+  "editDiaryTooltip": "Uredi dnevnik",
   "medicineRegistrationLimit": "Broj registriranih lijekova",
-  "@medicineRegistrationLimit": {
-    "description": "薬の登録数の上限を説明するテキストの一部"
-  },
   "doseReceiverRegistrationLimit": "Registracija korisnika za uzimanje lijekova",
-  "@doseReceiverRegistrationLimit": {
-    "description": "服用者の登録数の上限を説明するテキストの一部"
-  },
   "notificationScheduleLimit": "Broj zakazanih obavijesti je",
-  "@notificationScheduleLimit": {
-    "description": "通知スケジュールの上限を説明するテキストの一部"
-  },
   "addMedicine": "Dodaj lijek",
-  "@addMedicine": {
-    "description": "お薬を追加するボタンのテキスト"
-  },
   "medicineMaxCount": "Možete registrovati do {count} lijekova.",
-  "@medicineMaxCount": {
-    "description": "お薬の最大登録数を表示するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "5"
-      }
-    }
-  },
   "increaseMedicineLimitWithPremium": "Povećajte limit na {count} sa premium planom",
-  "@increaseMedicineLimitWithPremium": {
-    "description": "お薬の登録上限をプレミアムプランで増やすことを案内するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "10"
-      }
-    }
-  },
   "aboutApp": "O aplikaciji",
-  "@aboutApp": {
-    "description": "アプリについてのセクションタイトル"
-  },
   "viewPremiumPlan": "Pogledajte premium plan",
-  "@viewPremiumPlan": {
-    "description": "プレミアムプランの詳細を表示するためのボタンテキスト"
-  },
   "cancelSubscriptionInstruction": "Nakon kupovine, otkazivanje automatskog obnavljanja može se izvršiti u postavkama računa {storeName} aplikacije. (Otkazivanje automatskog obnavljanja nije moguće izvršiti unutar aplikacije).",
-  "@cancelSubscriptionInstruction": {
-    "description": "自動更新の解約方法の説明",
-    "placeholders": {
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "headache": "Glavobolja",
-  "@headache": {
-    "description": "症状の選択肢：頭痛"
-  },
   "stomachache": "Bolovi u stomaku",
-  "@stomachache": {
-    "description": "症状の選択肢：腹痛"
-  },
   "nausea": "Mučnina",
-  "@nausea": {
-    "description": "症状の選択肢：吐き気"
-  },
   "anemia": "Anemija",
-  "@anemia": {
-    "description": "症状の選択肢：貧血"
-  },
   "diarrhea": "Proljev",
-  "@diarrhea": {
-    "description": "症状の選択肢：下痢"
-  },
   "constipation": "Constipacija",
-  "@constipation": {
-    "description": "症状の選択肢：便秘"
-  },
   "hotFlash": "osipanje",
-  "@hotFlash": {
-    "description": "症状の選択肢：ほてり"
-  },
   "drowsiness": "Pospanost",
-  "@drowsiness": {
-    "description": "症状の選択肢：眠気"
-  },
   "backPain": "Bolovi u donjem dijelu leđa",
-  "@backPain": {
-    "description": "症状の選択肢：腰痛"
-  },
   "palpitation": "srcevanje srca",
-  "@palpitation": {
-    "description": "症状の選択肢：動悸"
-  },
   "abnormalBleeding": "Nepravilno krvarenje",
-  "@abnormalBleeding": {
-    "description": "症状の選択肢：不正出血"
-  },
   "lossOfAppetite": "Gubitak apetita",
-  "@lossOfAppetite": {
-    "description": "症状の選択肢：食欲不振"
-  },
   "chestTightness": "Punoće u grudima",
-  "@chestTightness": {
-    "description": "症状の選択肢：胸の張り"
-  },
   "insomnia": "Nesanic",
-  "@insomnia": {
-    "description": "症状の選択肢：不眠"
-  },
   "monthlyPlanDiscountFormat": "Popust od {percent}% na mjesečnu cijenu",
-  "@monthlyPlanDiscountFormat": {
-    "description": "月額プランからの割引率を表示するフォーマット",
-    "placeholders": {
-      "percent": {
-        "type": "int",
-        "example": "50"
-      }
-    }
-  },
   "purchaseErrorUnknown": "Dogodila se greška nepoznatog uzroka. Molimo pokušajte ponovo nakon nekoliko minuta. Ako se problem ne reši, kontaktirajte nas putem Podešavanja > Upit. Detalji: {message}",
-  "@purchaseErrorUnknown": {
-    "description": "購入時の不明なエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorStoreProblem": "Dogodila se greška u {storeName}. Molimo pokušajte ponovo za nekoliko minuta.",
-  "@purchaseErrorStoreProblem": {
-    "description": "ストアでのエラーメッセージ",
-    "placeholders": {
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "purchaseErrorInvalidPayment": "Plaćanje je neuspjelo. Molimo provjerite da li je metoda plaćanja važeća i pokušajte ponovo.",
-  "@purchaseErrorInvalidPayment": {
-    "description": "支払い方法が無効な場合のエラーメッセージ"
-  },
   "purchaseErrorProductUnavailable": "Trenutni plan nije dostupan za prodaju. Molimo vas da ponovo pokrenete aplikaciju i pokušate ponovo.",
-  "@purchaseErrorProductUnavailable": {
-    "description": "商品が利用できない場合のエラーメッセージ"
-  },
   "purchaseErrorAlreadyPurchased": "Već ste kupili plan. Ako želite da povratite informacije o kupovini na ovom uređaju, molimo vas da odete na 'Oni koji su prethodno kupili, ovdje'.",
-  "@purchaseErrorAlreadyPurchased": {
-    "description": "すでに購入済みの場合のエラーメッセージ"
-  },
   "purchaseErrorReceiptInUse": "Već je kupljeno. Informacije o kupovini se koriste za drugog korisnika. Provjerite {accountName}.",
-  "@purchaseErrorReceiptInUse": {
-    "description": "購入情報が他のユーザーで使用されている場合のエラーメッセージ",
-    "placeholders": {
-      "accountName": {
-        "type": "String",
-        "example": "Apple ID"
-      }
-    }
-  },
   "purchaseErrorInvalidReceipt": "Nevažeće informacije o kupovini. Molimo provjerite informacije o kupovini.",
-  "@purchaseErrorInvalidReceipt": {
-    "description": "購入情報が無効な場合のエラーメッセージ"
-  },
   "purchaseErrorMissingReceipt": "Informacije o kupcu ne postoje. Molimo prijavite se na uređaj s {accountName} i pokušajte ponovo.",
-  "@purchaseErrorMissingReceipt": {
-    "description": "購入情報が見つからない場合のエラーメッセージ",
-    "placeholders": {
-      "accountName": {
-        "type": "String",
-        "example": "Apple ID"
-      }
-    }
-  },
   "purchaseErrorNetwork": "Stanje mreže je nestabilno. Molimo provjerite svoju vezu i pokušajte ponovo.",
-  "@purchaseErrorNetwork": {
-    "description": "ネットワークエラーの場合のエラーメッセージ"
-  },
   "purchaseNotAllowed": "Kupovina nije dozvoljena na ovom uređaju.",
-  "@purchaseNotAllowed": {
-    "description": "デバイスでの購入が許可されていない場合のエラーメッセージ"
-  },
   "purchaseErrorInvalidCredentials": "Kupovina nije uspjela. Molimo pokušajte ponovo nakon nekog vremena. Ako problem nije riješen, kontaktirajte nas putem Postavke > Upit. Detalji: {message}",
-  "@purchaseErrorInvalidCredentials": {
-    "description": "認証情報が無効な場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorUnexpectedBackend": "Trenutno nije moguće izvršiti kupovinu. Pokušajte ponovo kasnije. Ako to ne reši problem, kontaktirajte nas putem Postavke > Upit. Detalji: {message}",
-  "@purchaseErrorUnexpectedBackend": {
-    "description": "バックエンドで予期せぬエラーが発生した場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorOperationInProgress": "Kupovina se trenutno obrađuje. Molimo da sačekate i ponovo proverite.",
-  "@purchaseErrorOperationInProgress": {
-    "description": "購入処理が既に進行中の場合のエラーメッセージ"
-  },
   "purchaseErrorInsufficientPermissions": "Na vašem {accountName} nije moguće pridružiti se planu. Molimo provjerite svoje informacije o plaćanju i pokušajte ponovo.",
-  "@purchaseErrorInsufficientPermissions": {
-    "description": "権限が不足している場合のエラーメッセージ",
-    "placeholders": {
-      "accountName": {
-        "type": "String",
-        "example": "Apple ID"
-      }
-    }
-  },
   "purchaseErrorPaymentPending": "Plaćanje je prekinuto. Provjerite {storeName} sa {accountName}.",
-  "@purchaseErrorPaymentPending": {
-    "description": "支払いが保留中の場合のエラーメッセージ",
-    "placeholders": {
-      "accountName": {
-        "type": "String",
-        "example": "Apple ID"
-      },
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "premiumUserThanksTitle": "Premium član",
-  "@premiumUserThanksTitle": {
-    "description": "プレミアムユーザーへの感謝を示すタイトル"
-  },
   "premiumUserThanksMessage": "Hvala vam što koristite našu aplikaciju. Zahvaljujući vama, možemo nastaviti s vođenjem Medicalarm-a.",
-  "@premiumUserThanksMessage": {
-    "description": "プレミアムユーザーへの感謝メッセージ"
-  },
   "premiumPricePerMonth": "({price}/mjesečno)",
-  "@premiumPricePerMonth": {
-    "description": "月額料金の表示フォーマット",
-    "placeholders": {
-      "price": {
-        "type": "String",
-        "example": "¥500"
-      }
-    }
-  },
   "premiumCancelDescription": "• Nakon kupovine, otkazivanje automatske obnove može se obaviti u postavkama računa {storeName} aplikacije. (Otkazivanje automatske obnove nije moguće izvršiti unutar aplikacije).",
-  "@premiumCancelDescription": {
-    "description": "プレミアムプランの解約方法の説明",
-    "placeholders": {
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "purchaseErrorRestoreFailed": "Nije pronađena prethodna informacija o kupovini. Molimo provjerite svoj račun i pokušajte ponovo.",
-  "@purchaseErrorRestoreFailed": {
-    "description": "購入情報の復元に失敗した場合のエラーメッセージ"
-  },
   "purchaseErrorUserNotFound": "Korisnik nije mogao biti potvrđen. Ponovno pokrenite aplikaciju i pokušajte ponovo. Detalji: {message}",
-  "@purchaseErrorUserNotFound": {
-    "description": "ユーザーが見つからない場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorActivationPending": "Aktivacija naplate nije završena. Molimo vas da proverite nakon nekog vremena.",
-  "@purchaseErrorActivationPending": {
-    "description": "課金の有効化が完了していない場合のエラーメッセージ"
-  },
   "purchaseErrorTimeout": "Isteklo je vreme. Proverite vaše komunikacijsko okruženje i pokušajte ponovo. Ako se problem ne reši, kontaktirajte nas putem Podešavanja > Upit. Detalji: {message}",
-  "@purchaseErrorTimeout": {
-    "description": "購入処理がタイムアウトした場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorNetworkError": "Došlo je do greške u komunikaciji. Provjerite svoje komunikacijsko okruženje i pokušajte ponovo. Ako se problem ne riješi, obratite se putem Postavke > Upit. Detalji: {message}",
-  "@purchaseErrorNetworkError": {
-    "description": "ネットワークエラーが発生した場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "sixMonthPlan": "6-mjesečni plan",
-  "@sixMonthPlan": {
-    "description": "6ヶ月プランの表示名"
-  },
   "premiumContractPeriod": "Ugovor je na snazi od datuma kupovine na period od 1 mjeseca.",
-  "@premiumContractPeriod": {
-    "description": "プレミアムプランの契約期間の説明"
-  },
   "privacyPolicy": "Politika privatnosti",
-  "@privacyPolicy": {
-    "description": "プライバシーポリシーのリンクテキスト"
-  },
   "termsOfService": "Uslovi korištenja",
-  "@termsOfService": {
-    "description": "利用規約のリンクテキスト"
-  },
   "specifiedCommercialTransactionAct": "Izjava u skladu sa Zakonom o posebnoj trgovini",
-  "@specifiedCommercialTransactionAct": {
-    "description": "特定商取引法に基づく表記のリンクテキスト"
-  },
   "confirmBeforeRegistration": "Molimo vas da provjerite i registrujete se.",
-  "@confirmBeforeRegistration": {
-    "description": "各種規約確認を促すメッセージ"
-  },
   "autoRenewalNotice": "Nakon isteka ugovornog razdoblja dolazi do automatske obnove.",
-  "@autoRenewalNotice": {
-    "description": "自動更新に関する注意事項"
-  },
   "restorePurchase": "Naručite ovdje ako ste već kupili",
-  "@restorePurchase": {
-    "description": "購入情報の復元リンクのテキスト"
-  },
   "purchaseRestored": "Obnovljene su informacije o kupovini.",
-  "@purchaseRestored": {
-    "description": "購入情報の復元が完了した際のメッセージ"
-  },
   "medicationTimeFollowup": "Praćenje vremena uzimanja",
-  "@medicationTimeFollowup": {
-    "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
-  },
   "updateRequired": "Ažuriranje je potrebno",
-  "@updateRequired": {
-    "description": "強制アップデートが必要な場合のダイアログタイトル"
-  },
   "updateRequiredMessage": "Molimo vas da ažurirate na najnoviju verziju iz {storeName}.",
-  "@updateRequiredMessage": {
-    "description": "強制アップデートが必要な場合のダイアログメッセージ",
-    "placeholders": {
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "screenshotMedicationHistoriesMemo": "Preskočio sam vrijeme uzimanja lijeka zbog predugog drijemanja.",
-  "@screenshotMedicationHistoriesMemo": {
-    "description": "薬のメモの例"
-  },
   "screenshotMedicationDoserReceiver1": "Ja",
-  "@screenshotMedicationDoserReceiver1": {
-    "description": "薬の服用者の例"
-  },
   "screenshotMedicationDoserReceiver2": "Mala chan",
-  "@screenshotMedicationDoserReceiver2": {
-    "description": "薬の服用者の例"
-  },
   "screenshotMedicationQuontityMemo1": "1 tableta",
-  "@screenshotMedicationQuontityMemo1": {
-    "description": "薬の服用量の例"
-  },
   "screenshotMedicationQuontityMemo2": "2 tablete",
-  "@screenshotMedicationQuontityMemo2": {
-    "description": "薬の服用量の例"
-  },
   "screenshotMedicationName1": "tableta protiv bolova",
-  "@screenshotMedicationName1": {
-    "description": "薬の名前の例"
-  },
   "screenshotMedicationName2": "Vitamin",
-  "@screenshotMedicationName2": {
-    "description": "薬の名前の例"
-  },
   "notificationTitle": "Vrijeme za lijekove",
-  "@notificationTitle": {
-    "description": "薬の通知のタイトル"
-  },
   "notificationFollowupTitle": "Jeste li zaboravili da zabilježite svoju terapiju?",
-  "@notificationFollowupTitle": {
-    "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
-  },
   "recommendedApp": "Preporučena aplikacija",
-  "@recommendedApp": {
-    "description": "おすすめアプリのタイトル"
-  },
   "pilllIntroduction": "Možda se radi o upravljanju pilulama? Da li želite lakše upravljati uzimanjem pilula?",
-  "@pilllIntroduction": {
-    "description": "ピルの管理の紹介"
-  },
   "installPilll": "Instaliraj Pilll",
-  "@installPilll": {
-    "description": "Pilllをインストールするボタンのテキスト"
-  },
   "criticalAlertVolume": "Zvuk",
-  "@criticalAlertVolume": {
-    "description": "緊急通知の音量の表示名"
-  }
+  "specialGift": "🎉 Poseban poklon 🎉",
+  "freePremiumTrialDays": "Na poklon dobijate besplatni probni period od {count} dana!",
+  "welcomeToMedicalarm": "Dobro došli u Medicalarm!",
+  "writeReviewFor5StarPromotion": "Napišite ocjenu od 5 zvjezdica i recenziju u App Storeu te besplatno isprobajte premium funkcije tokom {count} dana!",
+  "rating5StarsEncouragement": "Vaša ocjena s ★5 zvjezdica velika je motivacija za programere.\nPodržite nas kako bismo napravili još bolju aplikaciju!",
+  "noAutoCharge": "Neće biti automatske naplate. Nakon isteka probnog perioda automatski ćete se vratiti na besplatni plan.",
+  "write5StarReview": "Napišite recenziju s 5 zvjezdica",
+  "receiveReward": "Preuzmite nagradu",
+  "notNow": "Ne sada",
+  "openAppStore": "Otvori App Store",
+  "confirmOpenAppStore": "Želite li otvoriti App Store da biste napisali recenziju?",
+  "premiumFeaturesList": "Lista premium funkcija",
+  "currentlyInPremiumTrial": "Trenutno koristite Premium probni period.",
+  "medicationPause": "Omogući lijek",
+  "medicationPauseDescription": "Kada se isključi, lijek se uklanja sa ekrana lijekova i iz obavijesti.",
+  "medicinePausedSnackbar": "Uzimanje lijeka je privremeno obustavljeno",
+  "medicationHistoryDeletedSnackbar": "Zapis o uzimanju lijeka je poništen",
+  "undo": "Poništi",
+  "medicationHistoryReverted": "Otkazivanje zapisa o uzimanju lijeka",
+  "revertedTime": "Vrijeme otkazivanja",
+  "revertedByMember": "Otkazano od člana {name}",
+  "medicationTakenAtLabel": "Uzeto u {time}",
+  "medicineResumedSnackbar": "Uzimanje lijeka je nastavljeno",
+  "medicineEditTooltip": "Uredi lijek",
+  "groups": "Grupe",
+  "groupManagement": "Upravljanje grupama",
+  "createGroup": "Kreiraj grupu",
+  "groupName": "Naziv grupe",
+  "groupNameInputHint": "Unesite naziv grupe",
+  "groupIcon": "Ikona",
+  "groupMemberCount": "{count} članova",
+  "defaultGroupBadge": "Zadano",
+  "soloGroupName": "Moje grupe",
+  "joinWithInvitationCode": "Pridruži se pomoću pozivnog koda",
+  "groupCreationLimitReached": "Na besplatnom planu ne možete kreirati više grupa.",
+  "increaseGroupLimitWithPremium": "Kreirajte više grupa uz Premium plan",
+  "invitationCode": "Kod za pozivnicu",
+  "invitationCodeShareDescription": "Podijelite ovaj kôd da biste pozvali članove",
+  "invitationCodeExpiresAt": "Važi do: {date}",
+  "copyInvitationCode": "Kopiraj kôd",
+  "invitationCodeCopied": "Kod pozivnice je kopiran",
+  "issueInvitationCode": "Generiši kod pozivnice",
+  "groupSettings": "Postavke grupe",
+  "members": "Članovi",
+  "memberFallbackName": "Član",
+  "yourDisplayName": "Vaše ime za prikaz",
+  "displayNameInputHint": "Unesite prikazano ime",
+  "ownerLabel": "Vlasnik",
+  "youLabel": "Vi",
+  "removeMemberConfirmTitle": "Želite li ukloniti člana?",
+  "removeMemberConfirmMessage": "Uklanjanje člana {name} iz grupe",
+  "joinGroup": "Pridruži se grupi",
+  "invitationCodeInputLabel": "Pozivni kod (8 znakova)",
+  "invitationCodeInputHint": "Unesite kôd od 8 znakova",
+  "join": "Pridruži se",
+  "recordedByMember": "Evidentirao/la {name}",
+  "accountLink": "Prenos računa",
+  "accountLinkDescription": "Povezivanjem sa uslugom Apple ili Google možete prenijeti svoje podatke čak i nakon promjene uređaja ili ponovne instalacije aplikacije.",
+  "linkWithApple": "Prenesite račun pomoću Apple-a",
+  "linkWithGoogle": "Prenesite račun pomoću Google-a",
+  "accountLinkedWithApple": "Povezano s Appleom",
+  "accountLinkedWithGoogle": "Povezano s Googleom",
+  "accountLinkedSnackbar": "Račun je prenesen",
+  "accountLinkBannerText": "Tokom dijeljenja grupe toplo preporučujemo da podesite prenos računa.",
+  "minimumDoseInterval": "Razmak između doza",
+  "minimumDoseIntervalDescription": "Minimalno vrijeme između doza od prethodne doze",
+  "minimumDoseIntervalNone": "Nema",
+  "minimumDoseIntervalHoursFormat": "Najmanje {hours} sati",
+  "doseIntervalWarningTitle": "Nije prošao dovoljan razmak između doza",
+  "doseIntervalWarningMessage": "Lijek ste već uzeli u {latestTakeTime}. Postavljeno je da između doza mora proći najmanje {minimumDoseIntervalHours} sati. Želite li ga ipak zabilježiti?",
+  "doseIntervalWarningTakeAnyway": "Zabilježi",
+  "doseIntervalNotificationWarning": "⚠️ Od prethodne doze nije prošlo {minimumDoseIntervalHours} sati",
+  "ossLicense": "OSS licence"
 }

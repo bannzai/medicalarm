@@ -1,783 +1,234 @@
 {
   "@@locale": "nl",
   "retry": "Opnieuw proberen",
-  "@retry": {
-    "description": "エラーが発生した際やデータの読み込みに失敗した際に、再度処理を実行するためのボタンテキスト"
-  },
   "save": "Opslaan",
-  "@save": {
-    "description": "フォームやエディタで入力したデータを保存する際に使用するボタンテキスト"
-  },
   "memo": "Notitie",
-  "@memo": {
-    "description": "服薬記録や日記などで追加情報を入力するためのテキストフィールドのプレースホルダー"
-  },
   "completed": "Voltooid",
-  "@completed": {
-    "description": "フォームの入力や設定の変更などの操作が完了した際に使用するボタンテキスト"
-  },
   "medicineRegistration": "Geneesmiddel registratie scherm",
-  "@medicineRegistration": {
-    "description": "お薬の新規登録・編集画面のタイトル"
-  },
   "medicineName": "Naam van het medicijn",
-  "@medicineName": {
-    "description": "お薬登録フォームでの薬の名前を入力するフィールドのプレースホルダー"
-  },
   "medicineList": "Medicijnlijst",
-  "@medicineList": {
-    "description": "登録されているお薬の一覧を表示する画面のタイトル"
-  },
   "medicationSchedule": "Medicatieschema",
-  "@medicationSchedule": {
-    "description": "服用スケジュールのセクションタイトル"
-  },
   "medicationTime": "Herinnering voor het innemen van medicatie inschakelen",
-  "@medicationTime": {
-    "description": "服用時刻の通知設定を有効にするためのスイッチのラベル"
-  },
   "medicationTimeDescription": "Stuur een melding op basis van het innamemoment.",
-  "@medicationTimeDescription": {
-    "description": "服用時刻の通知設定の説明文"
-  },
   "close": "Sluiten",
-  "@close": {
-    "description": "ダイアログやモーダルを閉じるためのボタンテキスト"
-  },
   "settings": "Instellingen",
-  "@settings": {
-    "description": "設定画面のタイトル"
-  },
   "camera": "Camera",
-  "@camera": {
-    "description": "カメラを起動するためのメニュー項目"
-  },
   "photoLibrary": "Fotobibliotheek",
-  "@photoLibrary": {
-    "description": "フォトライブラリを開くためのメニュー項目"
-  },
   "medicationHistory": "Medicatiegeschiedenis",
-  "@medicationHistory": {
-    "description": "服薬履歴を表示する画面のタイトル"
-  },
   "noMedicationHistory": "Er is geen medicijninnamegeschiedenis",
-  "@noMedicationHistory": {
-    "description": "服薬履歴が存在しない場合に表示するメッセージ"
-  },
   "scheduledTime": "Geplande tijd",
-  "@scheduledTime": {
-    "description": "服薬予定時刻のラベル"
-  },
   "recordedTime": "Opnametijd",
-  "@recordedTime": {
-    "description": "実際に服薬を記録した時間のラベル"
-  },
   "noMemo": "Geen notitie",
-  "@noMemo": {
-    "description": "メモが存在しない場合に表示するテキスト"
-  },
   "premiumPlan": "Premiumplan",
-  "@premiumPlan": {
-    "description": "プレミアムプランの名称"
-  },
   "premiumFeatureAds": "Advertentie verbergen",
-  "@premiumFeatureAds": {
-    "description": "プレミアム機能の広告非表示の説明"
-  },
   "premiumFeatureHistory": "Toon alle innames",
-  "@premiumFeatureHistory": {
-    "description": "プレミアム機能の履歴表示の説明"
-  },
   "premiumRegistrationComplete": "Medicalarm Premium registratie voltooid",
-  "@premiumRegistrationComplete": {
-    "description": "プレミアム登録完了時のタイトル"
-  },
   "premiumRegistrationThanks": "Bedankt voor uw registratie. U heeft nu toegang tot alle functies!",
-  "@premiumRegistrationThanks": {
-    "description": "プレミアム登録完了時のメッセージ"
-  },
   "unknownError": "Er is een onbekende fout opgetreden.",
-  "@unknownError": {
-    "description": "予期せぬエラーが発生した際のエラーメッセージ"
-  },
   "error": "Er is een fout opgetreden.",
-  "@error": {
-    "description": "一般的なエラーメッセージ"
-  },
   "unexpectedError": "Er is een onverwachte fout opgetreden",
-  "@unexpectedError": {
-    "description": "予期せぬエラーが発生した際のエラーメッセージ"
-  },
   "cancel": "Annuleren",
-  "@cancel": {
-    "description": "操作をキャンセルするためのボタンテキスト"
-  },
   "delete": "Verwijderen",
-  "@delete": {
-    "description": "削除操作を実行するためのボタンテキスト"
-  },
   "deleteAccount": "Verwijder account",
-  "@deleteAccount": {
-    "description": "アカウント削除ボタンのテキスト"
-  },
   "deleteAccountConfirm": "Verwijder gebruikersinformatie",
-  "@deleteAccountConfirm": {
-    "description": "アカウント削除確認ダイアログのタイトル"
-  },
   "deleteAccountMessage": "Wanneer u uw account verwijdert, worden alle gebruikersgegevens verwijderd.",
-  "@deleteAccountMessage": {
-    "description": "アカウント削除確認ダイアログのメッセージ"
-  },
   "medicationFrequency": "Medicatiefrequentie",
-  "@medicationFrequency": {
-    "description": "服用頻度の設定セクションのタイトル"
-  },
   "daily": "Elke dag",
-  "@daily": {
-    "description": "毎日服用する頻度設定"
-  },
   "everyXDays": " elke X dagen",
-  "@everyXDays": {
-    "description": "X日ごとに服用する頻度設定"
-  },
   "specificWeekdays": "Specifieke dagen",
-  "@specificWeekdays": {
-    "description": "特定の曜日に服用する頻度設定"
-  },
   "cycle": "cyclus",
-  "@cycle": {
-    "description": "周期で服用する頻度設定"
-  },
   "cycleDescription": "Bijvoorbeeld) 21 dagen inname / 7 dagen pauze",
-  "@cycleDescription": {
-    "description": "周期での服用頻度の説明文"
-  },
   "everyXDaysDescription": "Bijvoorbeeld) Om de 2 dagen, om de 3 dagen",
-  "@everyXDaysDescription": {
-    "description": "X日ごとの服用頻度の説明文"
-  },
   "specificWeekdaysDescription": "Bijvoorbeeld) Alleen maandag, woensdag en vrijdag",
-  "@specificWeekdaysDescription": {
-    "description": "特定の曜日の服用頻度の説明文"
-  },
   "medicineFormValidationError": "Voer uw naam en medicatieschema in",
-  "@medicineFormValidationError": {
-    "description": "お薬登録フォームでの入力バリデーションエラーメッセージ"
-  },
   "quantity": "Aantal",
-  "@quantity": {
-    "description": "服用量を入力するフィールドのラベル"
-  },
   "quantityExample": "Bijv: 1 tablet, 100 mg",
-  "@quantityExample": {
-    "description": "服用量入力フィールドのプレースホルダー"
-  },
   "medicationStartDate": "Startdatum van medicatie",
-  "@medicationStartDate": {
-    "description": "服用開始日を選択するフィールドのラベル"
-  },
   "otherInformation": "Overige",
-  "@otherInformation": {
-    "description": "その他の情報を入力するセクションのタイトル"
-  },
   "doseReceiver": "Medicijngebruiker",
-  "@doseReceiver": {
-    "description": "服用者を選択するフィールドのラベル"
-  },
   "defaultDoseReceiver": "Ikzelf",
-  "@defaultDoseReceiver": {
-    "description": "デフォルトの服用者名"
-  },
   "doseReceiverMaxCount": "Tot {count} gebruikers kunnen worden geregistreerd.",
-  "@doseReceiverMaxCount": {
-    "description": "服用者の最大登録数を表示するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "2"
-      }
-    }
-  },
   "increaseLimitWithPremium": "Verhoog de limiet naar {count} met het premiumplan.",
-  "@increaseLimitWithPremium": {
-    "description": "プレミアムプランでの上限増加を案内するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "10"
-      }
-    }
-  },
   "addDoseReceiver": "Voeg gebruiker toe",
-  "@addDoseReceiver": {
-    "description": "服用者を追加するボタンのテキスト"
-  },
   "newDoseReceiver": "Nieuwe gebruiker",
-  "@newDoseReceiver": {
-    "description": "新規追加時のデフォルトの服用者名"
-  },
   "reloginRequired": "Gelieve opnieuw in te loggen",
-  "@reloginRequired": {
-    "description": "アカウント削除時に再ログインが必要な場合のダイアログタイトル"
-  },
   "reloginMessage": "Om uw account te verwijderen, log alstublieft opnieuw in.",
-  "@reloginMessage": {
-    "description": "アカウント削除時の再ログイン要求メッセージ"
-  },
   "relogin": "Opnieuw inloggen",
-  "@relogin": {
-    "description": "再ログインを実行するためのボタンテキスト"
-  },
   "accountDeleted": "Account is verwijderd",
-  "@accountDeleted": {
-    "description": "アカウント削除完了時のメッセージ"
-  },
   "confirmExit": "Wilt u de app afsluiten?",
-  "@confirmExit": {
-    "description": "アプリ終了確認のメッセージ"
-  },
   "exit": "Afsluiten",
-  "@exit": {
-    "description": "アプリを終了するためのボタンテキスト"
-  },
   "viewFaq": "FAQ bekijken",
-  "@viewFaq": {
-    "description": "FAQページを表示するためのボタンテキスト"
-  },
   "medicine": "Medicijnen",
-  "@medicine": {
-    "description": "お薬タブのタイトル"
-  },
   "inquiry": "Contact",
-  "@inquiry": {
-    "description": "お問い合わせボタンのテキスト"
-  },
   "ok": "OK",
-  "@ok": {
-    "description": "確認ダイアログのOKボタンのテキスト"
-  },
   "medicationScheduleLimit": "U kunt tot {count} innameschema's registreren.",
-  "@medicationScheduleLimit": {
-    "description": "服用スケジュールの登録上限を表示するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "3"
-      }
-    }
-  },
   "increaseMedicationScheduleLimit": "Verhoog het limiet naar {count} met het premiumplan",
-  "@increaseMedicationScheduleLimit": {
-    "description": "服用スケジュールの上限をプレミアムプランで増やすことを案内するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "10"
-      }
-    }
-  },
   "addMedicationSchedule": "Schema toevoegen",
-  "@addMedicationSchedule": {
-    "description": "服用スケジュールを追加するボタンのテキスト"
-  },
   "medicationScheduleNotificationSetting": "Medicatietijdschema-notificatie-instellingen",
-  "@medicationScheduleNotificationSetting": {
-    "description": "服用スケジュールの通知設定画面のタイトル"
-  },
   "notificationSetting": "Meldingsinstellingen",
-  "@notificationSetting": {
-    "description": "通知設定セクションのタイトル"
-  },
   "enableFollowupNotification": "Volg-notificaties inschakelen",
-  "@enableFollowupNotification": {
-    "description": "フォローアップ通知を有効にするスイッチのラベル"
-  },
   "followupNotificationDescription": "Als je binnen 30 minuten na de eerste herinnering geen medicatie registreert, wordt er een follow-up herinnering verzonden.",
-  "@followupNotificationDescription": {
-    "description": "フォローアップ通知の説明文"
-  },
   "enableNotificationInSilentMode": "Meldingen in stille modus",
-  "@enableNotificationInSilentMode": {
-    "description": "マナーモード時の通知を有効にするスイッチのラベル"
-  },
   "silentModeNotificationDescription": "Belangrijke meldingen worden weergegeven op het vergrendelscherm en het geluid wordt afgespeeld, zelfs wanneer de Focus-modus is ingeschakeld of het apparaat op stil staat.",
-  "@silentModeNotificationDescription": {
-    "description": "マナーモード時の通知の説明文"
-  },
   "everyXDaysFormat": "{count} dagen",
-  "@everyXDaysFormat": {
-    "description": "X日ごとの服用頻度を表示する際のフォーマット",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "2"
-      }
-    }
-  },
   "cycleDaysFormat": "{consecutiveDays} dagen innemen/{restDays} dagen pauze",
-  "@cycleDaysFormat": {
-    "description": "服用周期を表示する際のフォーマット",
-    "placeholders": {
-      "consecutiveDays": {
-        "type": "int",
-        "example": "21"
-      },
-      "restDays": {
-        "type": "int",
-        "example": "7"
-      }
-    }
-  },
   "consecutiveDaysFormat": "{count} dagen inname",
-  "@consecutiveDaysFormat": {
-    "description": "連続服用日数を表示する際のフォーマット",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "21"
-      }
-    }
-  },
   "restDaysFormat": "{count} dagen zonder medicatie",
-  "@restDaysFormat": {
-    "description": "休薬日数を表示する際のフォーマット",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "7"
-      }
-    }
-  },
   "limitedTimeDiscount": "Nu voor een beperkte tijd beschikbaar voor een speciale prijs die je voor altijd kunt gebruiken.",
-  "@limitedTimeDiscount": {
-    "description": "プレミアムプランの限定価格キャンペーンを案内するメッセージ"
-  },
   "monthlyPlan": "Maandelijkse abonnementsplan",
-  "@monthlyPlan": {
-    "description": "月額プランの名称"
-  },
   "annualPlan": "Jaarplan",
-  "@annualPlan": {
-    "description": "年額プランの名称"
-  },
   "weeklyPlan": "wekelijks abonnement",
-  "@weeklyPlan": {
-    "description": "週額プランの名称"
-  },
   "premiumRequired": "Toegang is mogelijk met een premium abonnement.",
-  "@premiumRequired": {
-    "description": "プレミアムプラン加入が必要な機能へのアクセス時のメッセージ"
-  },
   "medication": "Medicatie",
-  "@medication": {
-    "description": "服薬タブのタイトル"
-  },
   "history": "Geschiedenis",
-  "@history": {
-    "description": "履歴タブのタイトル"
-  },
+  "calendar": "Kalender",
+  "diary": "Dagboek",
+  "writeDiary": "Dagboek schrijven",
+  "editDiaryTooltip": "Dagboek bewerken",
   "medicineRegistrationLimit": "Het aantal geregistreerde medicijnen",
-  "@medicineRegistrationLimit": {
-    "description": "薬の登録数の上限を説明するテキストの一部"
-  },
   "doseReceiverRegistrationLimit": "Het aantal geregistreerde gebruikers",
-  "@doseReceiverRegistrationLimit": {
-    "description": "服用者の登録数の上限を説明するテキストの一部"
-  },
   "notificationScheduleLimit": "aantal meldingen in de planning",
-  "@notificationScheduleLimit": {
-    "description": "通知スケジュールの上限を説明するテキストの一部"
-  },
   "addMedicine": "Geneesmiddel toevoegen",
-  "@addMedicine": {
-    "description": "お薬を追加するボタンのテキスト"
-  },
   "medicineMaxCount": "U kunt tot {count} medicijnen registreren.",
-  "@medicineMaxCount": {
-    "description": "お薬の最大登録数を表示するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "5"
-      }
-    }
-  },
   "increaseMedicineLimitWithPremium": "Verhoog de limiet naar {count} met het premium abonnement.",
-  "@increaseMedicineLimitWithPremium": {
-    "description": "お薬の登録上限をプレミアムプランで増やすことを案内するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "10"
-      }
-    }
-  },
   "aboutApp": "Over de app",
-  "@aboutApp": {
-    "description": "アプリについてのセクションタイトル"
-  },
   "viewPremiumPlan": "Bekijk premiumplan",
-  "@viewPremiumPlan": {
-    "description": "プレミアムプランの詳細を表示するためのボタンテキスト"
-  },
   "cancelSubscriptionInstruction": "Na aankoop kunt u de automatische verlenging annuleren in de accountinstellingen van de {storeName} app. (Automatische verlenging kan niet vanuit de app zelf worden geannuleerd).",
-  "@cancelSubscriptionInstruction": {
-    "description": "自動更新の解約方法の説明",
-    "placeholders": {
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "headache": "Hoofdpijn",
-  "@headache": {
-    "description": "症状の選択肢：頭痛"
-  },
   "stomachache": "buikpijn",
-  "@stomachache": {
-    "description": "症状の選択肢：腹痛"
-  },
   "nausea": "misselijkheid",
-  "@nausea": {
-    "description": "症状の選択肢：吐き気"
-  },
   "anemia": "bloedarmoede",
-  "@anemia": {
-    "description": "症状の選択肢：貧血"
-  },
   "diarrhea": "diarree",
-  "@diarrhea": {
-    "description": "症状の選択肢：下痢"
-  },
   "constipation": "Obstipatie",
-  "@constipation": {
-    "description": "症状の選択肢：便秘"
-  },
   "hotFlash": "opvliegers",
-  "@hotFlash": {
-    "description": "症状の選択肢：ほてり"
-  },
   "drowsiness": "slaperigheid",
-  "@drowsiness": {
-    "description": "症状の選択肢：眠気"
-  },
   "backPain": "Lage rugpijn",
-  "@backPain": {
-    "description": "症状の選択肢：腰痛"
-  },
   "palpitation": "hartkloppingen",
-  "@palpitation": {
-    "description": "症状の選択肢：動悸"
-  },
   "abnormalBleeding": "onregelmatige bloeding",
-  "@abnormalBleeding": {
-    "description": "症状の選択肢：不正出血"
-  },
   "lossOfAppetite": "verlies van eetlust",
-  "@lossOfAppetite": {
-    "description": "症状の選択肢：食欲不振"
-  },
   "chestTightness": "Pijn op de borst",
-  "@chestTightness": {
-    "description": "症状の選択肢：胸の張り"
-  },
   "insomnia": "slaapproblemen",
-  "@insomnia": {
-    "description": "症状の選択肢：不眠"
-  },
   "monthlyPlanDiscountFormat": "{percent}% KORTING op maandelijkse abonnementsprijs",
-  "@monthlyPlanDiscountFormat": {
-    "description": "月額プランからの割引率を表示するフォーマット",
-    "placeholders": {
-      "percent": {
-        "type": "int",
-        "example": "50"
-      }
-    }
-  },
   "purchaseErrorUnknown": "Er is een onbekende fout opgetreden. Probeer het later opnieuw. Als het probleem zich blijft voordoen, neem dan contact met ons op via Instellingen > Neem contact op. Details: {message}",
-  "@purchaseErrorUnknown": {
-    "description": "購入時の不明なエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorStoreProblem": "Er is een fout opgetreden bij {storeName}. Probeer het over een tijdje opnieuw.",
-  "@purchaseErrorStoreProblem": {
-    "description": "ストアでのエラーメッセージ",
-    "placeholders": {
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "purchaseErrorInvalidPayment": "De betaling is mislukt. Controleer of uw betaalmethode geldig is en probeer het opnieuw.",
-  "@purchaseErrorInvalidPayment": {
-    "description": "支払い方法が無効な場合のエラーメッセージ"
-  },
   "purchaseErrorProductUnavailable": "Het geselecteerde abonnement is momenteel niet beschikbaar. Onze excuses voor het ongemak, maar probeer de app opnieuw op te starten.",
-  "@purchaseErrorProductUnavailable": {
-    "description": "商品が利用できない場合のエラーメッセージ"
-  },
   "purchaseErrorAlreadyPurchased": "U heeft al een abonnement gekocht. Als u de aankoopgegevens op dit apparaat wilt herstellen, kunt u de aankoopgegevens herstellen door op \"Al eerder gekocht? Klik hier\" te klikken.",
-  "@purchaseErrorAlreadyPurchased": {
-    "description": "すでに購入済みの場合のエラーメッセージ"
-  },
   "purchaseErrorReceiptInUse": "Al gekocht. De aankoopgegevens worden gebruikt door een andere gebruiker. Controleer {accountName}.",
-  "@purchaseErrorReceiptInUse": {
-    "description": "購入情報が他のユーザーで使用されている場合のエラーメッセージ",
-    "placeholders": {
-      "accountName": {
-        "type": "String",
-        "example": "Apple ID"
-      }
-    }
-  },
   "purchaseErrorInvalidReceipt": "Ongeldige aankoopinformatie. Controleer de aankoopinformatie.",
-  "@purchaseErrorInvalidReceipt": {
-    "description": "購入情報が無効な場合のエラーメッセージ"
-  },
   "purchaseErrorMissingReceipt": "Er zijn geen koperinformatie gevonden. Probeer in te loggen op het apparaat met {accountName}.",
-  "@purchaseErrorMissingReceipt": {
-    "description": "購入情報が見つからない場合のエラーメッセージ",
-    "placeholders": {
-      "accountName": {
-        "type": "String",
-        "example": "Apple ID"
-      }
-    }
-  },
   "purchaseErrorNetwork": "De netwerkstatus is instabiel. Controleer de verbindingsstatus en probeer het opnieuw.",
-  "@purchaseErrorNetwork": {
-    "description": "ネットワークエラーの場合のエラーメッセージ"
-  },
   "purchaseNotAllowed": "Aankoop is niet toegestaan op dit apparaat.",
-  "@purchaseNotAllowed": {
-    "description": "デバイスでの購入が許可されていない場合のエラーメッセージ"
-  },
   "purchaseErrorInvalidCredentials": "De aankoop is mislukt. Probeer het opnieuw na een tijdje. Als het probleem aanhoudt, neem dan contact met ons op via Instellingen > Contact. Details: {message}",
-  "@purchaseErrorInvalidCredentials": {
-    "description": "認証情報が無効な場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorUnexpectedBackend": "Momenteel kunt u geen aankoop doen. Probeert u het later nog eens. Als het probleem aanhoudt, neem dan contact met ons op via Instellingen > Contact. Details: {message}",
-  "@purchaseErrorUnexpectedBackend": {
-    "description": "バックエンドで予期せぬエラーが発生した場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorOperationInProgress": "De aankoopverwerking is al aan de gang. Controleer het later opnieuw.",
-  "@purchaseErrorOperationInProgress": {
-    "description": "購入処理が既に進行中の場合のエラーメッセージ"
-  },
   "purchaseErrorInsufficientPermissions": "Met uw {accountName} kunt u zich niet aanmelden voor het plan. Controleer uw betalingsinformatie en probeer het opnieuw.",
-  "@purchaseErrorInsufficientPermissions": {
-    "description": "権限が不足している場合のエラーメッセージ",
-    "placeholders": {
-      "accountName": {
-        "type": "String",
-        "example": "Apple ID"
-      }
-    }
-  },
   "purchaseErrorPaymentPending": "Betaling is onderbroken. Controleer {storeName} met het ingelogde account {accountName}.",
-  "@purchaseErrorPaymentPending": {
-    "description": "支払いが保留中の場合のエラーメッセージ",
-    "placeholders": {
-      "accountName": {
-        "type": "String",
-        "example": "Apple ID"
-      },
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "premiumUserThanksTitle": "Premium lid",
-  "@premiumUserThanksTitle": {
-    "description": "プレミアムユーザーへの感謝を示すタイトル"
-  },
   "premiumUserThanksMessage": "Bedankt voor uw gebruik. Dankzij u kunnen we Medicalarm blijven runnen.",
-  "@premiumUserThanksMessage": {
-    "description": "プレミアムユーザーへの感謝メッセージ"
-  },
   "premiumPricePerMonth": "({price}/maand)",
-  "@premiumPricePerMonth": {
-    "description": "月額料金の表示フォーマット",
-    "placeholders": {
-      "price": {
-        "type": "String",
-        "example": "¥500"
-      }
-    }
-  },
   "premiumCancelDescription": "• Na aankoop kunt u de automatische verlenging annuleren via de accountinstellingen van de {storeName} app. (Automatische verlenging kan niet vanuit de app worden geannuleerd).",
-  "@premiumCancelDescription": {
-    "description": "プレミアムプランの解約方法の説明",
-    "placeholders": {
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "purchaseErrorRestoreFailed": "Geen eerdere aankoopinformatie gevonden. Controleer uw account en probeer het opnieuw.",
-  "@purchaseErrorRestoreFailed": {
-    "description": "購入情報の復元に失敗した場合のエラーメッセージ"
-  },
   "purchaseErrorUserNotFound": "De gebruiker kon niet worden gevonden. Probeer het opnieuw nadat u de app opnieuw hebt opgestart. Details: {message}",
-  "@purchaseErrorUserNotFound": {
-    "description": "ユーザーが見つからない場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorActivationPending": "De activatie van de betaling is nog niet voltooid. Controleer het over een tijdje opnieuw.",
-  "@purchaseErrorActivationPending": {
-    "description": "課金の有効化が完了していない場合のエラーメッセージ"
-  },
   "purchaseErrorTimeout": "De time-out is opgetreden. Controleer uw netwerkverbinding en probeer het opnieuw. Als het probleem zich blijft voordoen, neem dan contact met ons op via Instellingen > Vraag. Details: {message}",
-  "@purchaseErrorTimeout": {
-    "description": "購入処理がタイムアウトした場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorNetworkError": "Er is een verbindingsprobleem. Controleer uw netwerkverbinding en probeer het opnieuw. Als het probleem aanhoudt, neem dan contact op via Instellingen > Neem contact op. Details: {message}",
-  "@purchaseErrorNetworkError": {
-    "description": "ネットワークエラーが発生した場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "sixMonthPlan": "6 maanden plan",
-  "@sixMonthPlan": {
-    "description": "6ヶ月プランの表示名"
-  },
   "premiumContractPeriod": "De contractperiode is 1 maand vanaf de aankoopdatum.",
-  "@premiumContractPeriod": {
-    "description": "プレミアムプランの契約期間の説明"
-  },
   "privacyPolicy": "Privacybeleid",
-  "@privacyPolicy": {
-    "description": "プライバシーポリシーのリンクテキスト"
-  },
   "termsOfService": "Gebruiksvoorwaarden",
-  "@termsOfService": {
-    "description": "利用規約のリンクテキスト"
-  },
   "specifiedCommercialTransactionAct": "Vermelding op basis van de wet op de specifieke handelspraktijken",
-  "@specifiedCommercialTransactionAct": {
-    "description": "特定商取引法に基づく表記のリンクテキスト"
-  },
   "confirmBeforeRegistration": "Controleer en registreer jezelf",
-  "@confirmBeforeRegistration": {
-    "description": "各種規約確認を促すメッセージ"
-  },
   "autoRenewalNotice": "Na het verstrijken van de contractperiode wordt automatisch verlengd.",
-  "@autoRenewalNotice": {
-    "description": "自動更新に関する注意事項"
-  },
   "restorePurchase": "Koop hier als u eerder hebt gekocht.",
-  "@restorePurchase": {
-    "description": "購入情報の復元リンクのテキスト"
-  },
   "purchaseRestored": "U koopt informatie is hersteld.",
-  "@purchaseRestored": {
-    "description": "購入情報の復元が完了した際のメッセージ"
-  },
   "medicationTimeFollowup": "Opvolging van de inname tijd",
-  "@medicationTimeFollowup": {
-    "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
-  },
   "updateRequired": "Er is een update nodig",
-  "@updateRequired": {
-    "description": "強制アップデートが必要な場合のダイアログタイトル"
-  },
   "updateRequiredMessage": "Update naar de nieuwste versie van {storeName}",
-  "@updateRequiredMessage": {
-    "description": "強制アップデートが必要な場合のダイアログメッセージ",
-    "placeholders": {
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "screenshotMedicationHistoriesMemo": "Te lang geslapen, waardoor ik te laat ben met het innemen van mijn medicijnen.",
-  "@screenshotMedicationHistoriesMemo": {
-    "description": "薬のメモの例"
-  },
   "screenshotMedicationDoserReceiver1": "zelf",
-  "@screenshotMedicationDoserReceiver1": {
-    "description": "薬の服用者の例"
-  },
   "screenshotMedicationDoserReceiver2": "Mana-chan",
-  "@screenshotMedicationDoserReceiver2": {
-    "description": "薬の服用者の例"
-  },
   "screenshotMedicationQuontityMemo1": "1 tablet",
-  "@screenshotMedicationQuontityMemo1": {
-    "description": "薬の服用量の例"
-  },
   "screenshotMedicationQuontityMemo2": "2 tabletten",
-  "@screenshotMedicationQuontityMemo2": {
-    "description": "薬の服用量の例"
-  },
   "screenshotMedicationName1": "hoofdpijnpil",
-  "@screenshotMedicationName1": {
-    "description": "薬の名前の例"
-  },
   "screenshotMedicationName2": "vitamines",
-  "@screenshotMedicationName2": {
-    "description": "薬の名前の例"
-  },
   "notificationTitle": "Het is tijd om je medicatie in te nemen.",
-  "@notificationTitle": {
-    "description": "薬の通知のタイトル"
-  },
   "notificationFollowupTitle": "Vergeet je geen medicatie-opname bij te houden?",
-  "@notificationFollowupTitle": {
-    "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
-  },
   "recommendedApp": "Aanbevolen apps",
-  "@recommendedApp": {
-    "description": "おすすめアプリのタイトル"
-  },
   "pilllIntroduction": "Misschien bent u op zoek naar pillenbeheer? Beheer uw medicatie-inname gemakkelijker!",
-  "@pilllIntroduction": {
-    "description": "ピルの管理の紹介"
-  },
   "installPilll": "Installeer Pilll",
-  "@installPilll": {
-    "description": "Pilllをインストールするボタンのテキスト"
-  },
   "criticalAlertVolume": "volume",
-  "@criticalAlertVolume": {
-    "description": "緊急通知の音量の表示名"
-  }
+  "specialGift": "🎉 Speciaal cadeau 🎉",
+  "freePremiumTrialDays": "Je krijgt een gratis proefperiode van {count} dagen cadeau!",
+  "welcomeToMedicalarm": "Welkom bij Medicalarm!",
+  "writeReviewFor5StarPromotion": "Schrijf een beoordeling van 5 sterren en een review in de App Store en probeer premiumfuncties {count} dagen gratis uit!",
+  "rating5StarsEncouragement": "Jouw ★5-beoordeling is een enorme stimulans voor de ontwikkelaars.\nSteun ons om een nog betere app te maken!",
+  "noAutoCharge": "Er worden geen automatische kosten in rekening gebracht. Na afloop van de proefperiode ga je automatisch terug naar het gratis abonnement.",
+  "write5StarReview": "Schrijf een 5-sterrenreview",
+  "receiveReward": "Beloning ontvangen",
+  "notNow": "Niet nu",
+  "openAppStore": "App Store openen",
+  "confirmOpenAppStore": "Wil je de App Store openen om een review te schrijven?",
+  "premiumFeaturesList": "Lijst met premiumfuncties",
+  "currentlyInPremiumTrial": "Je gebruikt momenteel de Premium-proefperiode.",
+  "medicationPause": "Medicatie inschakelen",
+  "medicationPauseDescription": "Wanneer dit wordt uitgeschakeld, wordt het uitgesloten van het medicijnenscherm en de meldingen.",
+  "medicinePausedSnackbar": "Het innemen van het medicijn is tijdelijk gepauzeerd",
+  "medicationHistoryDeletedSnackbar": "De registratie van de medicatie-inname is ongedaan gemaakt",
+  "undo": "Ongedaan maken",
+  "medicationHistoryReverted": "Medicatie-inname ongedaan maken",
+  "revertedTime": "Annuleertijd",
+  "revertedByMember": "Geannuleerd door {name}",
+  "medicationTakenAtLabel": "Ingenomen om {time}",
+  "medicineResumedSnackbar": "Het innemen van het medicijn is hervat",
+  "medicineEditTooltip": "Medicijn bewerken",
+  "groups": "Groepen",
+  "groupManagement": "Groepen beheren",
+  "createGroup": "Groep maken",
+  "groupName": "Groepsnaam",
+  "groupNameInputHint": "Groepsnaam invoeren",
+  "groupIcon": "Icoon",
+  "groupMemberCount": "{count} leden",
+  "defaultGroupBadge": "Standaard",
+  "soloGroupName": "Mijn groepen",
+  "joinWithInvitationCode": "Deelnemen met uitnodigingscode",
+  "groupCreationLimitReached": "Met het gratis abonnement kunt u geen groepen meer maken.",
+  "increaseGroupLimitWithPremium": "Maak meer groepen aan met het Premium-abonnement",
+  "invitationCode": "Uitnodigingscode",
+  "invitationCodeShareDescription": "Deel deze code om leden uit te nodigen",
+  "invitationCodeExpiresAt": "Geldig tot: {date}",
+  "copyInvitationCode": "Code kopiëren",
+  "invitationCodeCopied": "Uitnodigingscode gekopieerd",
+  "issueInvitationCode": "Uitnodigingscode genereren",
+  "groupSettings": "Groepsinstellingen",
+  "members": "Leden",
+  "memberFallbackName": "Lid",
+  "yourDisplayName": "Je weergavenaam",
+  "displayNameInputHint": "Voer weergavenaam in",
+  "ownerLabel": "Eigenaar",
+  "youLabel": "Jij",
+  "removeMemberConfirmTitle": "Lid verwijderen?",
+  "removeMemberConfirmMessage": "{name} uit de groep verwijderen",
+  "joinGroup": "Deelnemen aan een groep",
+  "invitationCodeInputLabel": "Uitnodigingscode (8 tekens)",
+  "invitationCodeInputHint": "Voer de code van 8 tekens in",
+  "join": "Deelnemen",
+  "recordedByMember": "Geregistreerd door {name}",
+  "accountLink": "Account overzetten",
+  "accountLinkDescription": "Door Apple of Google te koppelen, kun je je gegevens ook overzetten nadat je van apparaat bent gewisseld of de app opnieuw hebt geïnstalleerd.",
+  "linkWithApple": "Account overzetten met Apple",
+  "linkWithGoogle": "Account overzetten met Google",
+  "accountLinkedWithApple": "Gekoppeld aan Apple",
+  "accountLinkedWithGoogle": "Gekoppeld aan Google",
+  "accountLinkedSnackbar": "Account overgedragen",
+  "accountLinkBannerText": "Als je een groep deelt, raden we je sterk aan om accountoverdracht in te stellen.",
+  "minimumDoseInterval": "Tussenpoos tussen doses",
+  "minimumDoseIntervalDescription": "Minimale tijd tussen doses sinds de vorige dosis",
+  "minimumDoseIntervalNone": "Geen",
+  "minimumDoseIntervalHoursFormat": "Minstens {hours} uur",
+  "doseIntervalWarningTitle": "Het vereiste tijdsinterval tussen de innames is nog niet verstreken",
+  "doseIntervalWarningMessage": "U heeft het medicijn al ingenomen om {latestTakeTime}. De instelling vereist minimaal {minimumDoseIntervalHours} uur tussen innames. Wilt u het toch registreren?",
+  "doseIntervalWarningTakeAnyway": "Registreren",
+  "doseIntervalNotificationWarning": "⚠️ Er zijn nog geen {minimumDoseIntervalHours} uur verstreken sinds de vorige dosis",
+  "ossLicense": "OSS-licenties"
 }

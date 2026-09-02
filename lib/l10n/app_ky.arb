@@ -1,783 +1,234 @@
 {
   "@@locale": "ky",
   "retry": "Кайра аракет кылуу",
-  "@retry": {
-    "description": "エラーが発生した際やデータの読み込みに失敗した際に、再度処理を実行するためのボタンテキスト"
-  },
   "save": "сакталуу",
-  "@save": {
-    "description": "フォームやエディタで入力したデータを保存する際に使用するボタンテキスト"
-  },
   "memo": "Эскертүү",
-  "@memo": {
-    "description": "服薬記録や日記などで追加情報を入力するためのテキストフィールドのプレースホルダー"
-  },
   "completed": "Туурду",
-  "@completed": {
-    "description": "フォームの入力や設定の変更などの操作が完了した際に使用するボタンテキスト"
-  },
   "medicineRegistration": "Дарыя каттоо экраны",
-  "@medicineRegistration": {
-    "description": "お薬の新規登録・編集画面のタイトル"
-  },
   "medicineName": "Дарынын аты",
-  "@medicineName": {
-    "description": "お薬登録フォームでの薬の名前を入力するフィールドのプレースホルダー"
-  },
   "medicineList": "Препараттардын тизмеси",
-  "@medicineList": {
-    "description": "登録されているお薬の一覧を表示する画面のタイトル"
-  },
   "medicationSchedule": "Дарыя графиги",
-  "@medicationSchedule": {
-    "description": "服用スケジュールのセクションタイトル"
-  },
   "medicationTime": "Дарыны кабыл алуу учурунда маалымдаманы кошууга мүмкіндік берүү",
-  "@medicationTime": {
-    "description": "服用時刻の通知設定を有効にするためのスイッチのラベル"
-  },
   "medicationTimeDescription": "Дары кабыл алуу убагына негизделген маалымдоо жөнөтүү.",
-  "@medicationTimeDescription": {
-    "description": "服用時刻の通知設定の説明文"
-  },
   "close": "Жабыруу",
-  "@close": {
-    "description": "ダイアログやモーダルを閉じるためのボタンテキスト"
-  },
   "settings": "Буурул",
-  "@settings": {
-    "description": "設定画面のタイトル"
-  },
   "camera": "Камера",
-  "@camera": {
-    "description": "カメラを起動するためのメニュー項目"
-  },
   "photoLibrary": "Сүрөттүн китепканасы",
-  "@photoLibrary": {
-    "description": "フォトライブラリを開くためのメニュー項目"
-  },
   "medicationHistory": "Дарыянын тарыхы",
-  "@medicationHistory": {
-    "description": "服薬履歴を表示する画面のタイトル"
-  },
   "noMedicationHistory": "Дарыя колдонулган тарыхы жок",
-  "@noMedicationHistory": {
-    "description": "服薬履歴が存在しない場合に表示するメッセージ"
-  },
   "scheduledTime": "пландаш убактысы",
-  "@scheduledTime": {
-    "description": "服薬予定時刻のラベル"
-  },
   "recordedTime": "Тасцічак убактысы",
-  "@recordedTime": {
-    "description": "実際に服薬を記録した時間のラベル"
-  },
   "noMemo": "Эскертүү жок",
-  "@noMemo": {
-    "description": "メモが存在しない場合に表示するテキスト"
-  },
   "premiumPlan": "Премиум план",
-  "@premiumPlan": {
-    "description": "プレミアムプランの名称"
-  },
   "premiumFeatureAds": "Жарнамаларды көрсөтпөө",
-  "@premiumFeatureAds": {
-    "description": "プレミアム機能の広告非表示の説明"
-  },
   "premiumFeatureHistory": "Бардык кабыл алуу тарыхын көрсөтүү",
-  "@premiumFeatureHistory": {
-    "description": "プレミアム機能の履歴表示の説明"
-  },
   "premiumRegistrationComplete": "Medicalarm премиум катто турулду",
-  "@premiumRegistrationComplete": {
-    "description": "プレミアム登録完了時のタイトル"
-  },
   "premiumRegistrationThanks": "Рахмат каттоо үчүн. Бардык функциялар жеткиликтүү болду!",
-  "@premiumRegistrationThanks": {
-    "description": "プレミアム登録完了時のメッセージ"
-  },
   "unknownError": "Белгисиз каталар пайда болду",
-  "@unknownError": {
-    "description": "予期せぬエラーが発生した際のエラーメッセージ"
-  },
   "error": "Катастрофа болду",
-  "@error": {
-    "description": "一般的なエラーメッセージ"
-  },
   "unexpectedError": "Күтүлбөгөн ката чыкты",
-  "@unexpectedError": {
-    "description": "予期せぬエラーが発生した際のエラーメッセージ"
-  },
   "cancel": "Бас тартуу",
-  "@cancel": {
-    "description": "操作をキャンセルするためのボタンテキスト"
-  },
   "delete": "Жою",
-  "@delete": {
-    "description": "削除操作を実行するためのボタンテキスト"
-  },
   "deleteAccount": "Аккаунтту жок кылуу",
-  "@deleteAccount": {
-    "description": "アカウント削除ボタンのテキスト"
-  },
   "deleteAccountConfirm": "Колдонучунун маалыматтарын жок кылат",
-  "@deleteAccountConfirm": {
-    "description": "アカウント削除確認ダイアログのタイトル"
-  },
   "deleteAccountMessage": "Эсептиканы өчүрсөңүз, колдонуучунун маалыматтары толугу менен өчүрүлөт.",
-  "@deleteAccountMessage": {
-    "description": "アカウント削除確認ダイアログのメッセージ"
-  },
   "medicationFrequency": "Дозасы өтүү频度",
-  "@medicationFrequency": {
-    "description": "服用頻度の設定セクションのタイトル"
-  },
   "daily": "Күн сайын",
-  "@daily": {
-    "description": "毎日服用する頻度設定"
-  },
   "everyXDays": "күн сайын",
-  "@everyXDays": {
-    "description": "X日ごとに服用する頻度設定"
-  },
   "specificWeekdays": "Белгилүү бир күнү",
-  "@specificWeekdays": {
-    "description": "特定の曜日に服用する頻度設定"
-  },
   "cycle": "Цикл",
-  "@cycle": {
-    "description": "周期で服用する頻度設定"
-  },
   "cycleDescription": "21-но куну кабыл алуу/7-кун дарыны токтотуу",
-  "@cycleDescription": {
-    "description": "周期での服用頻度の説明文"
-  },
   "everyXDaysDescription": "(2 күндө, 3 күндө)",
-  "@everyXDaysDescription": {
-    "description": "X日ごとの服用頻度の説明文"
-  },
   "specificWeekdaysDescription": "Мисалы) Дүйшөмбү гана, Шаршемби жана Бейшенби",
-  "@specificWeekdaysDescription": {
-    "description": "特定の曜日の服用頻度の説明文"
-  },
   "medicineFormValidationError": "Аты жана дарыларды кабыл алуу графигин киргизиңиз",
-  "@medicineFormValidationError": {
-    "description": "お薬登録フォームでの入力バリデーションエラーメッセージ"
-  },
   "quantity": "Капаситет",
-  "@quantity": {
-    "description": "服用量を入力するフィールドのラベル"
-  },
   "quantityExample": "Мисал: 1 таблетка, 100мг",
-  "@quantityExample": {
-    "description": "服用量入力フィールドのプレースホルダー"
-  },
   "medicationStartDate": "Дары кабыл алуунун башталыш күнү",
-  "@medicationStartDate": {
-    "description": "服用開始日を選択するフィールドのラベル"
-  },
   "otherInformation": "Башка маалымат",
-  "@otherInformation": {
-    "description": "その他の情報を入力するセクションのタイトル"
-  },
   "doseReceiver": "Дарынычылар",
-  "@doseReceiver": {
-    "description": "服用者を選択するフィールドのラベル"
-  },
   "defaultDoseReceiver": "өзүм",
-  "@defaultDoseReceiver": {
-    "description": "デフォルトの服用者名"
-  },
   "doseReceiverMaxCount": "Дарынып ыракканына {count} адамга чейин катталса болот",
-  "@doseReceiverMaxCount": {
-    "description": "服用者の最大登録数を表示するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "2"
-      }
-    }
-  },
   "increaseLimitWithPremium": "Премиум план боюнча чектөөнү {count} га жогорулатуу",
-  "@increaseLimitWithPremium": {
-    "description": "プレミアムプランでの上限増加を案内するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "10"
-      }
-    }
-  },
   "addDoseReceiver": "Дарыкерди кошуу",
-  "@addDoseReceiver": {
-    "description": "服用者を追加するボタンのテキスト"
-  },
   "newDoseReceiver": "Жаңы дары ичүүчү",
-  "@newDoseReceiver": {
-    "description": "新規追加時のデフォルトの服用者名"
-  },
   "reloginRequired": "Кайталанған киришиңиз",
-  "@reloginRequired": {
-    "description": "アカウント削除時に再ログインが必要な場合のダイアログタイトル"
-  },
   "reloginMessage": "Эсептиканы жок кылуу үчүн, кайра кирүү керек.",
-  "@reloginMessage": {
-    "description": "アカウント削除時の再ログイン要求メッセージ"
-  },
   "relogin": "Кайра кирүү",
-  "@relogin": {
-    "description": "再ログインを実行するためのボタンテキスト"
-  },
   "accountDeleted": "Сиздин аккаунтуңуз ийгиликтүү жок кылынды.",
-  "@accountDeleted": {
-    "description": "アカウント削除完了時のメッセージ"
-  },
   "confirmExit": "Сиз тиркеме жабылат деп эсептейсизби?",
-  "@confirmExit": {
-    "description": "アプリ終了確認のメッセージ"
-  },
   "exit": "Токтото",
-  "@exit": {
-    "description": "アプリを終了するためのボタンテキスト"
-  },
   "viewFaq": "FAQ көрсөткөн",
-  "@viewFaq": {
-    "description": "FAQページを表示するためのボタンテキスト"
-  },
   "medicine": "Дары",
-  "@medicine": {
-    "description": "お薬タブのタイトル"
-  },
   "inquiry": "Байланыш",
-  "@inquiry": {
-    "description": "お問い合わせボタンのテキスト"
-  },
   "ok": "ОК",
-  "@ok": {
-    "description": "確認ダイアログのOKボタンのテキスト"
-  },
   "medicationScheduleLimit": "Дозаны пландо {count} дарыяларды каттоого киргизүүгө болот.",
-  "@medicationScheduleLimit": {
-    "description": "服用スケジュールの登録上限を表示するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "3"
-      }
-    }
-  },
   "increaseMedicationScheduleLimit": "Премиум план аркылуу чектөө {count} га өйдөтүү",
-  "@increaseMedicationScheduleLimit": {
-    "description": "服用スケジュールの上限をプレミアムプランで増やすことを案内するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "10"
-      }
-    }
-  },
   "addMedicationSchedule": "Дозаны пландын кошуу",
-  "@addMedicationSchedule": {
-    "description": "服用スケジュールを追加するボタンのテキスト"
-  },
   "medicationScheduleNotificationSetting": "Дарыя графигин нотациясы",
-  "@medicationScheduleNotificationSetting": {
-    "description": "服用スケジュールの通知設定画面のタイトル"
-  },
   "notificationSetting": "Эскертүү орнотулуулары",
-  "@notificationSetting": {
-    "description": "通知設定セクションのタイトル"
-  },
   "enableFollowupNotification": "Келтирүү эскертүүлөрүн иштетүү",
-  "@enableFollowupNotification": {
-    "description": "フォローアップ通知を有効にするスイッチのラベル"
-  },
   "followupNotificationDescription": "Эгер биринчи билдирүүдөн 30 мүнөттүн ичинде дары ичкиликтин жазылышы болмосо, кошумча билдирүү жөнөтүлөт.",
-  "@followupNotificationDescription": {
-    "description": "フォローアップ通知の説明文"
-  },
   "enableNotificationInSilentMode": "Тынч режимде да билдирүүлөрдү көрсөтүү",
-  "@enableNotificationInSilentMode": {
-    "description": "マナーモード時の通知を有効にするスイッチのラベル"
-  },
   "silentModeNotificationDescription": "Кыйналган режимде же коймондо (муздоо) болсо да, маанилүү билдирүүлөр жабык экранда көрсөтүлөт, үн ойнотулат.",
-  "@silentModeNotificationDescription": {
-    "description": "マナーモード時の通知の説明文"
-  },
   "everyXDaysFormat": "{count} күнү",
-  "@everyXDaysFormat": {
-    "description": "X日ごとの服用頻度を表示する際のフォーマット",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "2"
-      }
-    }
-  },
   "cycleDaysFormat": "{consecutiveDays} күн кабыл алуу/{restDays} күн эс алуу",
-  "@cycleDaysFormat": {
-    "description": "服用周期を表示する際のフォーマット",
-    "placeholders": {
-      "consecutiveDays": {
-        "type": "int",
-        "example": "21"
-      },
-      "restDays": {
-        "type": "int",
-        "example": "7"
-      }
-    }
-  },
   "consecutiveDaysFormat": "{count} күн иче",
-  "@consecutiveDaysFormat": {
-    "description": "連続服用日数を表示する際のフォーマット",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "21"
-      }
-    }
-  },
   "restDaysFormat": "{count} күн дарылоону токтотуу",
-  "@restDaysFormat": {
-    "description": "休薬日数を表示する際のフォーマット",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "7"
-      }
-    }
-  },
   "limitedTimeDiscount": "Азыр чектелген баада дайым колдонсоңуз болот",
-  "@limitedTimeDiscount": {
-    "description": "プレミアムプランの限定価格キャンペーンを案内するメッセージ"
-  },
   "monthlyPlan": "Ай сайынгы план",
-  "@monthlyPlan": {
-    "description": "月額プランの名称"
-  },
   "annualPlan": "Жылдык план",
-  "@annualPlan": {
-    "description": "年額プランの名称"
-  },
   "weeklyPlan": "аптанын планы",
-  "@weeklyPlan": {
-    "description": "週額プランの名称"
-  },
   "premiumRequired": "Премиум пландын жазылышы менен карап чыгууга болот.",
-  "@premiumRequired": {
-    "description": "プレミアムプラン加入が必要な機能へのアクセス時のメッセージ"
-  },
   "medication": "Дары",
-  "@medication": {
-    "description": "服薬タブのタイトル"
-  },
   "history": "Тарых",
-  "@history": {
-    "description": "履歴タブのタイトル"
-  },
+  "calendar": "Жылнаама",
+  "diary": "Күндөлүк",
+  "writeDiary": "Күндөлүк жазуу",
+  "editDiaryTooltip": "Күндөлүктү түзөтүү",
   "medicineRegistrationLimit": "Дарылардын каттоосунун санына",
-  "@medicineRegistrationLimit": {
-    "description": "薬の登録数の上限を説明するテキストの一部"
-  },
   "doseReceiverRegistrationLimit": "Кабарлашуучу адамдын каттоо саны",
-  "@doseReceiverRegistrationLimit": {
-    "description": "服用者の登録数の上限を説明するテキストの一部"
-  },
   "notificationScheduleLimit": "кабинеттин саны",
-  "@notificationScheduleLimit": {
-    "description": "通知スケジュールの上限を説明するテキストの一部"
-  },
   "addMedicine": "Дары кошуу",
-  "@addMedicine": {
-    "description": "お薬を追加するボタンのテキスト"
-  },
   "medicineMaxCount": "Дары {count} жыттен катталса болот.",
-  "@medicineMaxCount": {
-    "description": "お薬の最大登録数を表示するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "5"
-      }
-    }
-  },
   "increaseMedicineLimitWithPremium": "Премиум планына катышуу менен максимумду {count} га жакындатуу",
-  "@increaseMedicineLimitWithPremium": {
-    "description": "お薬の登録上限をプレミアムプランで増やすことを案内するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "10"
-      }
-    }
-  },
   "aboutApp": "Килемчилик",
-  "@aboutApp": {
-    "description": "アプリについてのセクションタイトル"
-  },
   "viewPremiumPlan": "Премиум пландарын көрүү",
-  "@viewPremiumPlan": {
-    "description": "プレミアムプランの詳細を表示するためのボタンテキスト"
-  },
   "cancelSubscriptionInstruction": "Сатып алгандан кийин, автоматтык жаңыртууну токтотуу {storeName} тиркемесинин аккарштуулук жөндөөлөрүндө жүргүзүлөт. (Тиркемеден автоматтык жаңыртууну токтотуу жүргүзүлбөйт).",
-  "@cancelSubscriptionInstruction": {
-    "description": "自動更新の解約方法の説明",
-    "placeholders": {
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "headache": "Баш疼үү",
-  "@headache": {
-    "description": "症状の選択肢：頭痛"
-  },
   "stomachache": "бөйрөк оорусу",
-  "@stomachache": {
-    "description": "症状の選択肢：腹痛"
-  },
   "nausea": "ыртың",
-  "@nausea": {
-    "description": "症状の選択肢：吐き気"
-  },
   "anemia": "Кандуу",
-  "@anemia": {
-    "description": "症状の選択肢：貧血"
-  },
   "diarrhea": "Ич катуу",
-  "@diarrhea": {
-    "description": "症状の選択肢：下痢"
-  },
   "constipation": "ймей",
-  "@constipation": {
-    "description": "症状の選択肢：便秘"
-  },
   "hotFlash": "жыпар",
-  "@hotFlash": {
-    "description": "症状の選択肢：ほてり"
-  },
   "drowsiness": "унем",
-  "@drowsiness": {
-    "description": "症状の選択肢：眠気"
-  },
   "backPain": "Бел оор",
-  "@backPain": {
-    "description": "症状の選択肢：腰痛"
-  },
   "palpitation": "жүрөктүн согушу",
-  "@palpitation": {
-    "description": "症状の選択肢：動悸"
-  },
   "abnormalBleeding": "Болбосузу",
-  "@abnormalBleeding": {
-    "description": "症状の選択肢：不正出血"
-  },
   "lossOfAppetite": "жаратылыштын жоктугу",
-  "@lossOfAppetite": {
-    "description": "症状の選択肢：食欲不振"
-  },
   "chestTightness": "Кеңештин чыгыны",
-  "@chestTightness": {
-    "description": "症状の選択肢：胸の張り"
-  },
   "insomnia": "Уйку жок",
-  "@insomnia": {
-    "description": "症状の選択肢：不眠"
-  },
   "monthlyPlanDiscountFormat": "{percent}% ТУУШП ПОСОТ",
-  "@monthlyPlanDiscountFormat": {
-    "description": "月額プランからの割引率を表示するフォーマット",
-    "placeholders": {
-      "percent": {
-        "type": "int",
-        "example": "50"
-      }
-    }
-  },
   "purchaseErrorUnknown": "Белгисиз ката пайда болду. Бир аз убакыттан кийин кайра аракет кылыңыз. Эгер чечилбесе, \"Билдирүүлөр > Сураныч\" аркылуу бизге кайрылыңыз. Деталдары: {message}",
-  "@purchaseErrorUnknown": {
-    "description": "購入時の不明なエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorStoreProblem": "{storeName} менен каталар болуп жатат. Бир аз убакыт өткөндөн кийин кайра аракет кылып туруңуз.",
-  "@purchaseErrorStoreProblem": {
-    "description": "ストアでのエラーメッセージ",
-    "placeholders": {
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "purchaseErrorInvalidPayment": "Төлөмдү ийгиликке жеткирүү мүмкүн болбоду. Жарактуу төлөм ыкмасы бар-жогун текшерип, кайрадан аракет кылыңыз.",
-  "@purchaseErrorInvalidPayment": {
-    "description": "支払い方法が無効な場合のエラーメッセージ"
-  },
   "purchaseErrorProductUnavailable": "Тие пландуу азыр сатылууда. Извините, бирок акылыңыз жардамы менен тиркемени кайра иштетип, кайрадан аракет кылыңыз.",
-  "@purchaseErrorProductUnavailable": {
-    "description": "商品が利用できない場合のエラーメッセージ"
-  },
   "purchaseErrorAlreadyPurchased": "Сиз пландын сатып алууну чечкенсиз. Эгер бул аппаратта сатып алуу маалыматтарын калыбына келтирүүнү кааласаңыз, \"Тилекке каршы, мурда сатып алгандар мында\" баракчасынан сатып алуу маалыматтарын калыбына келтириңиз.",
-  "@purchaseErrorAlreadyPurchased": {
-    "description": "すでに購入済みの場合のエラーメッセージ"
-  },
   "purchaseErrorReceiptInUse": "Алдын ала сатып алынган. {accountName} боюнча сатып алуу маалыматы башка колдонуучуда колдонулууда. Әрекеттешиңиз.",
-  "@purchaseErrorReceiptInUse": {
-    "description": "購入情報が他のユーザーで使用されている場合のエラーメッセージ",
-    "placeholders": {
-      "accountName": {
-        "type": "String",
-        "example": "Apple ID"
-      }
-    }
-  },
   "purchaseErrorInvalidReceipt": "Бул сатып алуу маалыматы туура эмес. Сатып алуу маалыматыңызды текшериңиз.",
-  "@purchaseErrorInvalidReceipt": {
-    "description": "購入情報が無効な場合のエラーメッセージ"
-  },
   "purchaseErrorMissingReceipt": "Сатып алу чагылдыруу маалыматы жок. {accountName} менен түзмөгүңүзгө кирип көрүңүз.",
-  "@purchaseErrorMissingReceipt": {
-    "description": "購入情報が見つからない場合のエラーメッセージ",
-    "placeholders": {
-      "accountName": {
-        "type": "String",
-        "example": "Apple ID"
-      }
-    }
-  },
   "purchaseErrorNetwork": "Тармак абалынан конулуңуз азырынча туруксуз. Лиге катнашын текшерип, кайталап көрүңүз.",
-  "@purchaseErrorNetwork": {
-    "description": "ネットワークエラーの場合のエラーメッセージ"
-  },
   "purchaseNotAllowed": "Бул устройство аркылуу сатып алуу уруксат берилген эмес",
-  "@purchaseNotAllowed": {
-    "description": "デバイスでの購入が許可されていない場合のエラーメッセージ"
-  },
   "purchaseErrorInvalidCredentials": "Сатылып алу мурда болду. Убакыт өткөрүп, кайрадан аракет кылыңыз. Эгер чечилбесе, \"Бөөктөө\" > \"Сураныч\" аркылуу бизге кайрылыңыз. Тасма: {message}",
-  "@purchaseErrorInvalidCredentials": {
-    "description": "認証情報が無効な場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorUnexpectedBackend": "Азыр сатып алууга мүмкүнчүлүк жок. Бири аз убакыт өткөндөн кийин кайрадан аракет кылыңыз. Эгер маселе чечилбесе, жөнөтүүлөр > Суроолор бөлүмүнө өтүңүз. Тагыраак маалымат: {message}",
-  "@purchaseErrorUnexpectedBackend": {
-    "description": "バックエンドで予期せぬエラーが発生した場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorOperationInProgress": "Сатып алуу процесси өзүнчө жүрүп жатат. Убакыт бөлүп, кайрадан текшерип коюңуз.",
-  "@purchaseErrorOperationInProgress": {
-    "description": "購入処理が既に進行中の場合のエラーメッセージ"
-  },
   "purchaseErrorInsufficientPermissions": "Сиздин {accountName} үстүндө пландын кошулушу мүмкүн эмес. Төлөм маалыматтарыңызды текшерип, кайрадан аракет кылыңыз",
-  "@purchaseErrorInsufficientPermissions": {
-    "description": "権限が不足している場合のエラーメッセージ",
-    "placeholders": {
-      "accountName": {
-        "type": "String",
-        "example": "Apple ID"
-      }
-    }
-  },
   "purchaseErrorPaymentPending": "Төлөм убагында токтоп калды. Кирүүдө турган {accountName} менен {storeName} сурамжылоосун текшериңиз.",
-  "@purchaseErrorPaymentPending": {
-    "description": "支払いが保留中の場合のエラーメッセージ",
-    "placeholders": {
-      "accountName": {
-        "type": "String",
-        "example": "Apple ID"
-      },
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "premiumUserThanksTitle": "Премиум мүчөсү",
-  "@premiumUserThanksTitle": {
-    "description": "プレミアムユーザーへの感謝を示すタイトル"
-  },
   "premiumUserThanksMessage": "Рахмат сизге! Medicalarm'ды иштетүүгө уланта алабыз, сиздин жардамыңыз менен.",
-  "@premiumUserThanksMessage": {
-    "description": "プレミアムユーザーへの感謝メッセージ"
-  },
   "premiumPricePerMonth": "({price}/айына)",
-  "@premiumPricePerMonth": {
-    "description": "月額料金の表示フォーマット",
-    "placeholders": {
-      "price": {
-        "type": "String",
-        "example": "¥500"
-      }
-    }
-  },
   "premiumCancelDescription": "- Сатып алгандан кийин, автоматтык жаңыртылганды токтотуу {storeName} колдонмосунун эсептөө параметрлеринде жүргүзүлөт. (Колдонмону колдонуп автоматтык жаңыртууну токтотууга болбойт).",
-  "@premiumCancelDescription": {
-    "description": "プレミアムプランの解約方法の説明",
-    "placeholders": {
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "purchaseErrorRestoreFailed": "Эрип алынган маалымат табылбедi. Сураныч, аккаунтуңузду текшерип, кайра аракет кылыңыз.",
-  "@purchaseErrorRestoreFailed": {
-    "description": "購入情報の復元に失敗した場合のエラーメッセージ"
-  },
   "purchaseErrorUserNotFound": "Колдонуучу тапкан жок. Программаны кайра иштетип, кайра аракет кылыңыз. Тейлөөчү маалымат: {message}",
-  "@purchaseErrorUserNotFound": {
-    "description": "ユーザーが見つからない場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorActivationPending": "Төлөмдү активдештирүү аякталган жок. Бир аз убакыттан кийин текшериңиз.",
-  "@purchaseErrorActivationPending": {
-    "description": "課金の有効化が完了していない場合のエラーメッセージ"
-  },
   "purchaseErrorTimeout": "Убакыттын узуусу болду. Байланыш чөйрөнү текшерип, кайра аракет кылып көрүңүз. Түзүлбөсө, Ностальгия > Жортуул аркылуу биз менен байланышсаңыз болот. Далил: {message}",
-  "@purchaseErrorTimeout": {
-    "description": "購入処理がタイムアウトした場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorNetworkError": "Торго күйдү. Торуучу чөйрөнү текшерип, кайрадан аракет кылыңыз. Эгерде проблема чечилбесе, Бапкалар > Билдирүү аркылуу бизге кайрылыңыз. Толук маалымат: {message}",
-  "@purchaseErrorNetworkError": {
-    "description": "ネットワークエラーが発生した場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "sixMonthPlan": "6 айлык план",
-  "@sixMonthPlan": {
-    "description": "6ヶ月プランの表示名"
-  },
   "premiumContractPeriod": "Келишим мөөнөтү сатып алынган күндөн баштап 1 ай.",
-  "@premiumContractPeriod": {
-    "description": "プレミアムプランの契約期間の説明"
-  },
   "privacyPolicy": "Жеке маалыматтарды коргоо саясаты",
-  "@privacyPolicy": {
-    "description": "プライバシーポリシーのリンクテキスト"
-  },
   "termsOfService": "Колдонуу эрежелери",
-  "@termsOfService": {
-    "description": "利用規約のリンクテキスト"
-  },
   "specifiedCommercialTransactionAct": "Түпкү соода келишими мыйзамдарына ылайык жазылган маалымат",
-  "@specifiedCommercialTransactionAct": {
-    "description": "特定商取引法に基づく表記のリンクテキスト"
-  },
   "confirmBeforeRegistration": "Тексты текшерип, катталыңыздар",
-  "@confirmBeforeRegistration": {
-    "description": "各種規約確認を促すメッセージ"
-  },
   "autoRenewalNotice": "Келишим мезгили бүтсө, автоматтык түрдө жаңыланат.",
-  "@autoRenewalNotice": {
-    "description": "自動更新に関する注意事項"
-  },
   "restorePurchase": "Мурда сатып алган адамдар мында",
-  "@restorePurchase": {
-    "description": "購入情報の復元リンクのテキスト"
-  },
   "purchaseRestored": "Сатып алуу маалыматын калыбына келтирди",
-  "@purchaseRestored": {
-    "description": "購入情報の復元が完了した際のメッセージ"
-  },
   "medicationTimeFollowup": "Дарынын убактысы боюнча кийинки жакындатуу",
-  "@medicationTimeFollowup": {
-    "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
-  },
   "updateRequired": "Жаңыртуу талап кылынат",
-  "@updateRequired": {
-    "description": "強制アップデートが必要な場合のダイアログタイトル"
-  },
   "updateRequiredMessage": "{storeName}дан акыркы версиясына жаңыртыңыз",
-  "@updateRequiredMessage": {
-    "description": "強制アップデートが必要な場合のダイアログメッセージ",
-    "placeholders": {
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "screenshotMedicationHistoriesMemo": "Күнüllүк четин көп уканымдан дарыны ичкен убактым кечигип калды.",
-  "@screenshotMedicationHistoriesMemo": {
-    "description": "薬のメモの例"
-  },
   "screenshotMedicationDoserReceiver1": "Өзүм",
-  "@screenshotMedicationDoserReceiver1": {
-    "description": "薬の服用者の例"
-  },
   "screenshotMedicationDoserReceiver2": "Мана-чан",
-  "@screenshotMedicationDoserReceiver2": {
-    "description": "薬の服用者の例"
-  },
   "screenshotMedicationQuontityMemo1": "1 таблетка",
-  "@screenshotMedicationQuontityMemo1": {
-    "description": "薬の服用量の例"
-  },
   "screenshotMedicationQuontityMemo2": "2 таблетка",
-  "@screenshotMedicationQuontityMemo2": {
-    "description": "薬の服用量の例"
-  },
   "screenshotMedicationName1": "Баш оору үчүн дары",
-  "@screenshotMedicationName1": {
-    "description": "薬の名前の例"
-  },
   "screenshotMedicationName2": "Витаминдер",
-  "@screenshotMedicationName2": {
-    "description": "薬の名前の例"
-  },
   "notificationTitle": "Эмчилгээний цаг боллоо",
-  "@notificationTitle": {
-    "description": "薬の通知のタイトル"
-  },
   "notificationFollowupTitle": "Сиз дарылануу жазууларыңызды унутуп калбадыңызбы?",
-  "@notificationFollowupTitle": {
-    "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
-  },
   "recommendedApp": "Таңдаулы тиркемелер",
-  "@recommendedApp": {
-    "description": "おすすめアプリのタイトル"
-  },
   "pilllIntroduction": "Сиз, балким, таблеткаларды башкаруу жөнүндө айтып жатасызбы? Томаткаларды пайдаланууну оңойлатууну каалабайсызбы?",
-  "@pilllIntroduction": {
-    "description": "ピルの管理の紹介"
-  },
   "installPilll": "Pilll орното",
-  "@installPilll": {
-    "description": "Pilllをインストールするボタンのテキスト"
-  },
   "criticalAlertVolume": "Дыбыш",
-  "@criticalAlertVolume": {
-    "description": "緊急通知の音量の表示名"
-  }
+  "specialGift": "🎉 Өзгөчө белек 🎉",
+  "freePremiumTrialDays": "Сизге белек катары {count} күндүк акысыз сыноо мөөнөтү берилет!",
+  "welcomeToMedicalarm": "Medicalarm'га кош келиңиз!",
+  "writeReviewFor5StarPromotion": "App Store'до 5 жылдыздуу баа берип, пикир калтырыңыз да, премиум функцияларды {count} күн акысыз колдонуп көрүңүз!",
+  "rating5StarsEncouragement": "Сиздин ★5 бааңыз иштеп чыгуучулар үчүн чоң дем берет.\nМындан да мыкты колдонмо түзүшүбүзгө колдоо көрсөтүңүз!",
+  "noAutoCharge": "Автоматтык төлөм алынбайт. Сыноо мөөнөтү аяктагандан кийин автоматтык түрдө акысыз планга кайрыласыз.",
+  "write5StarReview": "5 жылдыздуу пикир жазуу",
+  "receiveReward": "Сыйлык алуу",
+  "notNow": "Азыр эмес",
+  "openAppStore": "App Store ачуу",
+  "confirmOpenAppStore": "Сын-пикир жазуу үчүн App Store ачылсынбы?",
+  "premiumFeaturesList": "Премиум функциялардын тизмеси",
+  "currentlyInPremiumTrial": "Учурда Premium сынамык мөөнөтүн колдонуп жатасыз.",
+  "medicationPause": "Дарыны иштетүү",
+  "medicationPauseDescription": "Өчүрүлгөндө, дары-дармектер экранынан жана эскертмелерден чыгарылат.",
+  "medicinePausedSnackbar": "Дарыны ичүү убактылуу токтотулду",
+  "medicationHistoryDeletedSnackbar": "Дары ичүү жазмасы жокко чыгарылды",
+  "undo": "Артка кайтаруу",
+  "medicationHistoryReverted": "Дары ичүү жазуусун жокко чыгаруу",
+  "revertedTime": "Жокко чыгаруу убактысы",
+  "revertedByMember": "{name} жокко чыгарды",
+  "medicationTakenAtLabel": "{time} кабыл алынды",
+  "medicineResumedSnackbar": "Дарыны кабыл алуу кайра башталды",
+  "medicineEditTooltip": "Дарыны түзөтүү",
+  "groups": "Топтор",
+  "groupManagement": "Топторду башкаруу",
+  "createGroup": "Топ түзүү",
+  "groupName": "Топтун аты",
+  "groupNameInputHint": "Топтун атын киргизиңиз",
+  "groupIcon": "Белги",
+  "groupMemberCount": "{count} мүчө",
+  "defaultGroupBadge": "Демейки",
+  "soloGroupName": "Менин топторум",
+  "joinWithInvitationCode": "Чакыруу коду менен кошулуу",
+  "groupCreationLimitReached": "Акысыз планда мындан ары топ түзө албайсыз.",
+  "increaseGroupLimitWithPremium": "Premium планы менен көбүрөөк топ түзүңүз",
+  "invitationCode": "Чакыруу коду",
+  "invitationCodeShareDescription": "Мүчөлөрдү чакыруу үчүн бул кодду бөлүшүңүз",
+  "invitationCodeExpiresAt": "Жарактуулук мөөнөтү: {date}",
+  "copyInvitationCode": "Кодду көчүрүү",
+  "invitationCodeCopied": "Чакыруу коду көчүрүлдү",
+  "issueInvitationCode": "Чакыруу кодун түзүү",
+  "groupSettings": "Топ жөндөөлөрү",
+  "members": "Мүчөлөр",
+  "memberFallbackName": "Мүчө",
+  "yourDisplayName": "Көрсөтүлүүчү атыңыз",
+  "displayNameInputHint": "Көрүнүүчү атты киргизиңиз",
+  "ownerLabel": "Ээси",
+  "youLabel": "Сиз",
+  "removeMemberConfirmTitle": "Мүчөнү өчүрөсүзбү?",
+  "removeMemberConfirmMessage": "{name} топтон чыгарылат",
+  "joinGroup": "Топко кошулуу",
+  "invitationCodeInputLabel": "Чакыруу коду (8 белги)",
+  "invitationCodeInputHint": "8 белгиден турган кодду киргизиңиз",
+  "join": "Кошулуу",
+  "recordedByMember": "Жазып алган: {name}",
+  "accountLink": "Каттоо эсебин өткөрүү",
+  "accountLinkDescription": "Apple же Google менен байланыштырып койсоңуз, түзмөктү алмаштыргандан же колдонмону кайра орноткондон кийин да дайындарыңызды өткөрүп ала аласыз.",
+  "linkWithApple": "Каттоо эсебин Apple аркылуу өткөрүү",
+  "linkWithGoogle": "Каттоо эсебин Google аркылуу өткөрүү",
+  "accountLinkedWithApple": "Apple менен байланыштырылды",
+  "accountLinkedWithGoogle": "Google менен байланыштырылган",
+  "accountLinkedSnackbar": "Каттоо эсеби өткөрүлдү",
+  "accountLinkBannerText": "Топту бөлүшүп жатканда, аккаунтту өткөрүп берүү жөндөөлөрүн орнотууну абдан сунуштайбыз.",
+  "minimumDoseInterval": "Дозалардын ортосундагы аралык",
+  "minimumDoseIntervalDescription": "Мурунку дозадан кийинки минималдуу аралык",
+  "minimumDoseIntervalNone": "Жок",
+  "minimumDoseIntervalHoursFormat": "Кеминде {hours} саат",
+  "doseIntervalWarningTitle": "Дозалардын ортосундагы керектүү убакыт али өтө элек",
+  "doseIntervalWarningMessage": "Сиз дарыны {latestTakeTime} убактысында мурун эле ичкенсиз. Жөндөөлөр боюнча дозалардын ортосунда кеминде {minimumDoseIntervalHours} саат болушу керек. Ошого карабай жаздырасызбы?",
+  "doseIntervalWarningTakeAnyway": "Каттоо",
+  "doseIntervalNotificationWarning": "⚠️ Акыркы дозадан бери {minimumDoseIntervalHours} саат өткөн жок",
+  "ossLicense": "OSS лицензиялары"
 }

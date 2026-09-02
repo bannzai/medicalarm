@@ -1,783 +1,234 @@
 {
   "@@locale": "sw",
   "retry": "Jaribu tena",
-  "@retry": {
-    "description": "エラーが発生した際やデータの読み込みに失敗した際に、再度処理を実行するためのボタンテキスト"
-  },
   "save": "Hifadhi",
-  "@save": {
-    "description": "フォームやエディタで入力したデータを保存する際に使用するボタンテキスト"
-  },
   "memo": "Kumbuka",
-  "@memo": {
-    "description": "服薬記録や日記などで追加情報を入力するためのテキストフィールドのプレースホルダー"
-  },
   "completed": "Imeisha",
-  "@completed": {
-    "description": "フォームの入力や設定の変更などの操作が完了した際に使用するボタンテキスト"
-  },
   "medicineRegistration": "Taarifa ya Usajili wa Dawa",
-  "@medicineRegistration": {
-    "description": "お薬の新規登録・編集画面のタイトル"
-  },
   "medicineName": "Jina la dawa",
-  "@medicineName": {
-    "description": "お薬登録フォームでの薬の名前を入力するフィールドのプレースホルダー"
-  },
   "medicineList": "Orodha ya Dawa",
-  "@medicineList": {
-    "description": "登録されているお薬の一覧を表示する画面のタイトル"
-  },
   "medicationSchedule": "Ratiba ya matumizi",
-  "@medicationSchedule": {
-    "description": "服用スケジュールのセクションタイトル"
-  },
   "medicationTime": "Washa arifa za wakati wa kutumia dawa",
-  "@medicationTime": {
-    "description": "服用時刻の通知設定を有効にするためのスイッチのラベル"
-  },
   "medicationTimeDescription": "Itasambaza arifa ikiwa ni pamoja na muda wa kuchukua dawa.",
-  "@medicationTimeDescription": {
-    "description": "服用時刻の通知設定の説明文"
-  },
   "close": "Funga",
-  "@close": {
-    "description": "ダイアログやモーダルを閉じるためのボタンテキスト"
-  },
   "settings": "Mipangilio",
-  "@settings": {
-    "description": "設定画面のタイトル"
-  },
   "camera": "kamera",
-  "@camera": {
-    "description": "カメラを起動するためのメニュー項目"
-  },
   "photoLibrary": "Maktaba ya picha",
-  "@photoLibrary": {
-    "description": "フォトライブラリを開くためのメニュー項目"
-  },
   "medicationHistory": "Historia ya Matibabu",
-  "@medicationHistory": {
-    "description": "服薬履歴を表示する画面のタイトル"
-  },
   "noMedicationHistory": "Hakuna rekodi ya madawa ya kulevya.",
-  "@noMedicationHistory": {
-    "description": "服薬履歴が存在しない場合に表示するメッセージ"
-  },
   "scheduledTime": "Muda wa mpango",
-  "@scheduledTime": {
-    "description": "服薬予定時刻のラベル"
-  },
   "recordedTime": "Wakati wa Rekodi",
-  "@recordedTime": {
-    "description": "実際に服薬を記録した時間のラベル"
-  },
   "noMemo": "Hakuna maelezo",
-  "@noMemo": {
-    "description": "メモが存在しない場合に表示するテキスト"
-  },
   "premiumPlan": "Mpango wa Kihisia",
-  "@premiumPlan": {
-    "description": "プレミアムプランの名称"
-  },
   "premiumFeatureAds": "Kuondoa matangazo",
-  "@premiumFeatureAds": {
-    "description": "プレミアム機能の広告非表示の説明"
-  },
   "premiumFeatureHistory": "Onyesha historia ya matumizi yote",
-  "@premiumFeatureHistory": {
-    "description": "プレミアム機能の履歴表示の説明"
-  },
   "premiumRegistrationComplete": "Malipo ya Medicalarm Premium yamekamilika",
-  "@premiumRegistrationComplete": {
-    "description": "プレミアム登録完了時のタイトル"
-  },
   "premiumRegistrationThanks": "Asante kwa kujisajili.\nSasa hutumika kila kipengele!",
-  "@premiumRegistrationThanks": {
-    "description": "プレミアム登録完了時のメッセージ"
-  },
   "unknownError": "Kukosekana kwa makosa kumetokea",
-  "@unknownError": {
-    "description": "予期せぬエラーが発生した際のエラーメッセージ"
-  },
   "error": "Kosa ilitokea",
-  "@error": {
-    "description": "一般的なエラーメッセージ"
-  },
   "unexpectedError": "Makosa yasiyotarajiwa yamekitokea",
-  "@unexpectedError": {
-    "description": "予期せぬエラーが発生した際のエラーメッセージ"
-  },
   "cancel": "Ghairi",
-  "@cancel": {
-    "description": "操作をキャンセルするためのボタンテキスト"
-  },
   "delete": "Futa",
-  "@delete": {
-    "description": "削除操作を実行するためのボタンテキスト"
-  },
   "deleteAccount": "Futa akaunti",
-  "@deleteAccount": {
-    "description": "アカウント削除ボタンのテキスト"
-  },
   "deleteAccountConfirm": "Kufuta taarifa za mtumiaji",
-  "@deleteAccountConfirm": {
-    "description": "アカウント削除確認ダイアログのタイトル"
-  },
   "deleteAccountMessage": "Kufuta akaunti kutasafisha taarifa za mtumiaji zote.",
-  "@deleteAccountMessage": {
-    "description": "アカウント削除確認ダイアログのメッセージ"
-  },
   "medicationFrequency": "Mara ya matumizi",
-  "@medicationFrequency": {
-    "description": "服用頻度の設定セクションのタイトル"
-  },
   "daily": "Kila siku",
-  "@daily": {
-    "description": "毎日服用する頻度設定"
-  },
   "everyXDays": "Kila X siku",
-  "@everyXDays": {
-    "description": "X日ごとに服用する頻度設定"
-  },
   "specificWeekdays": "siku maalum",
-  "@specificWeekdays": {
-    "description": "特定の曜日に服用する頻度設定"
-  },
   "cycle": "mzunguko",
-  "@cycle": {
-    "description": "周期で服用する頻度設定"
-  },
   "cycleDescription": " Mfano) Kunywa tarehe 21/ Kupumzika tarehe 7",
-  "@cycleDescription": {
-    "description": "周期での服用頻度の説明文"
-  },
   "everyXDaysDescription": "Mfano) Kila siku 2, Kila siku 3",
-  "@everyXDaysDescription": {
-    "description": "X日ごとの服用頻度の説明文"
-  },
   "specificWeekdaysDescription": "Mfano) Jumatatu pekee, Jumatano na Ijumaa",
-  "@specificWeekdaysDescription": {
-    "description": "特定の曜日の服用頻度の説明文"
-  },
   "medicineFormValidationError": "Tafadhali ingiza jina na ratiba ya matumizi.",
-  "@medicineFormValidationError": {
-    "description": "お薬登録フォームでの入力バリデーションエラーメッセージ"
-  },
   "quantity": "Kiasi",
-  "@quantity": {
-    "description": "服用量を入力するフィールドのラベル"
-  },
   "quantityExample": "mfano: 1 kibao, 100mg",
-  "@quantityExample": {
-    "description": "服用量入力フィールドのプレースホルダー"
-  },
   "medicationStartDate": "Tarehe ya kuanza kutumia",
-  "@medicationStartDate": {
-    "description": "服用開始日を選択するフィールドのラベル"
-  },
   "otherInformation": "Mengine",
-  "@otherInformation": {
-    "description": "その他の情報を入力するセクションのタイトル"
-  },
   "doseReceiver": "Mgonjwa",
-  "@doseReceiver": {
-    "description": "服用者を選択するフィールドのラベル"
-  },
   "defaultDoseReceiver": "mimi",
-  "@defaultDoseReceiver": {
-    "description": "デフォルトの服用者名"
-  },
   "doseReceiverMaxCount": "Waweza kujiandikisha hadi watu {count} katika matumizi ya dawa.",
-  "@doseReceiverMaxCount": {
-    "description": "服用者の最大登録数を表示するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "2"
-      }
-    }
-  },
   "increaseLimitWithPremium": "Pandua ya Premium inaongeza kikomo hadi {count}",
-  "@increaseLimitWithPremium": {
-    "description": "プレミアムプランでの上限増加を案内するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "10"
-      }
-    }
-  },
   "addDoseReceiver": "Ongeza mtumiaji wa dawa",
-  "@addDoseReceiver": {
-    "description": "服用者を追加するボタンのテキスト"
-  },
   "newDoseReceiver": "Mtu mpya wa kutumia dawa",
-  "@newDoseReceiver": {
-    "description": "新規追加時のデフォルトの服用者名"
-  },
   "reloginRequired": "Tafadhali ingia tena",
-  "@reloginRequired": {
-    "description": "アカウント削除時に再ログインが必要な場合のダイアログタイトル"
-  },
   "reloginMessage": "Ili ufute akaunti, tafadhali ingia tena.",
-  "@reloginMessage": {
-    "description": "アカウント削除時の再ログイン要求メッセージ"
-  },
   "relogin": "Fanya kuingia tena",
-  "@relogin": {
-    "description": "再ログインを実行するためのボタンテキスト"
-  },
   "accountDeleted": "Umetoa akaunti",
-  "@accountDeleted": {
-    "description": "アカウント削除完了時のメッセージ"
-  },
   "confirmExit": "Je, unataka kufunga programu?",
-  "@confirmExit": {
-    "description": "アプリ終了確認のメッセージ"
-  },
   "exit": "Kumaliza",
-  "@exit": {
-    "description": "アプリを終了するためのボタンテキスト"
-  },
   "viewFaq": "Tazama FAQ",
-  "@viewFaq": {
-    "description": "FAQページを表示するためのボタンテキスト"
-  },
   "medicine": "Dawa",
-  "@medicine": {
-    "description": "お薬タブのタイトル"
-  },
   "inquiry": "Wasiliana",
-  "@inquiry": {
-    "description": "お問い合わせボタンのテキスト"
-  },
   "ok": "Sawa",
-  "@ok": {
-    "description": "確認ダイアログのOKボタンのテキスト"
-  },
   "medicationScheduleLimit": "Muda wa matumizi inaweza kuandikwa hadi {count}.",
-  "@medicationScheduleLimit": {
-    "description": "服用スケジュールの登録上限を表示するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "3"
-      }
-    }
-  },
   "increaseMedicationScheduleLimit": "Ongezeko la juu ya {count} kwenye mpango wa Premium.",
-  "@increaseMedicationScheduleLimit": {
-    "description": "服用スケジュールの上限をプレミアムプランで増やすことを案内するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "10"
-      }
-    }
-  },
   "addMedicationSchedule": "Ongeza ratiba ya matumizi",
-  "@addMedicationSchedule": {
-    "description": "服用スケジュールを追加するボタンのテキスト"
-  },
   "medicationScheduleNotificationSetting": "Mipango ya arifa ya matumizi",
-  "@medicationScheduleNotificationSetting": {
-    "description": "服用スケジュールの通知設定画面のタイトル"
-  },
   "notificationSetting": "Mipangilio ya arifa",
-  "@notificationSetting": {
-    "description": "通知設定セクションのタイトル"
-  },
   "enableFollowupNotification": "Washa notisi za ufuatiliaji kuwa hai",
-  "@enableFollowupNotification": {
-    "description": "フォローアップ通知を有効にするスイッチのラベル"
-  },
   "followupNotificationDescription": "Ikiwa haujarekodi matumizi ya dawa katika dakika 30 baada ya notifikesheni ya mwanzo, notifikesheni ya kufuatilia itatumwa.",
-  "@followupNotificationDescription": {
-    "description": "フォローアップ通知の説明文"
-  },
   "enableNotificationInSilentMode": "Taarifa hata ukiwa kwenye hali ya kimya",
-  "@enableNotificationInSilentMode": {
-    "description": "マナーモード時の通知を有効にするスイッチのラベル"
-  },
   "silentModeNotificationDescription": "Ikiwa Msimbo wa Kuzungumza au kifaa kiko kimya, ilani muhimu bado zinaweza kuonyeshwa kwenye skrini ya kufuli na sauti itatungiwa.",
-  "@silentModeNotificationDescription": {
-    "description": "マナーモード時の通知の説明文"
-  },
   "everyXDaysFormat": "kila {count} siku",
-  "@everyXDaysFormat": {
-    "description": "X日ごとの服用頻度を表示する際のフォーマット",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "2"
-      }
-    }
-  },
   "cycleDaysFormat": "{consecutiveDays} siku za matumizi/{restDays} siku za kupumzika",
-  "@cycleDaysFormat": {
-    "description": "服用周期を表示する際のフォーマット",
-    "placeholders": {
-      "consecutiveDays": {
-        "type": "int",
-        "example": "21"
-      },
-      "restDays": {
-        "type": "int",
-        "example": "7"
-      }
-    }
-  },
   "consecutiveDaysFormat": "{count} siku za kutumia",
-  "@consecutiveDaysFormat": {
-    "description": "連続服用日数を表示する際のフォーマット",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "21"
-      }
-    }
-  },
   "restDaysFormat": "{count} siku za kukosa dawa",
-  "@restDaysFormat": {
-    "description": "休薬日数を表示する際のフォーマット",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "7"
-      }
-    }
-  },
   "limitedTimeDiscount": "Sasa unaweza kuendelea kutumia kwa bei ya kipekee",
-  "@limitedTimeDiscount": {
-    "description": "プレミアムプランの限定価格キャンペーンを案内するメッセージ"
-  },
   "monthlyPlan": "Mpango wa kila mwezi",
-  "@monthlyPlan": {
-    "description": "月額プランの名称"
-  },
   "annualPlan": "Mpango wa mwaka",
-  "@annualPlan": {
-    "description": "年額プランの名称"
-  },
   "weeklyPlan": "Mipango ya kila wiki",
-  "@weeklyPlan": {
-    "description": "週額プランの名称"
-  },
   "premiumRequired": "Inapatikana kwa kukatika kwa mpango wa premium",
-  "@premiumRequired": {
-    "description": "プレミアムプラン加入が必要な機能へのアクセス時のメッセージ"
-  },
   "medication": "Kuchoma",
-  "@medication": {
-    "description": "服薬タブのタイトル"
-  },
   "history": "Historia",
-  "@history": {
-    "description": "履歴タブのタイトル"
-  },
+  "calendar": "Kalenda",
+  "diary": "Shajara",
+  "writeDiary": "Andika shajara",
+  "editDiaryTooltip": "Hariri shajara",
   "medicineRegistrationLimit": "Idadi ya usajili wa dawa",
-  "@medicineRegistrationLimit": {
-    "description": "薬の登録数の上限を説明するテキストの一部"
-  },
   "doseReceiverRegistrationLimit": "Idadi ya wasajiliwa wa watumiaji",
-  "@doseReceiverRegistrationLimit": {
-    "description": "服用者の登録数の上限を説明するテキストの一部"
-  },
   "notificationScheduleLimit": "idadi ya ratiba ya arifa",
-  "@notificationScheduleLimit": {
-    "description": "通知スケジュールの上限を説明するテキストの一部"
-  },
   "addMedicine": "Ongeza dawa",
-  "@addMedicine": {
-    "description": "お薬を追加するボタンのテキスト"
-  },
   "medicineMaxCount": "Unaweza kujiandikisha madawa {count} pekee.",
-  "@medicineMaxCount": {
-    "description": "お薬の最大登録数を表示するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "5"
-      }
-    }
-  },
   "increaseMedicineLimitWithPremium": "Ongezeko la mpaka hadi {count} katika mpango wa Premium",
-  "@increaseMedicineLimitWithPremium": {
-    "description": "お薬の登録上限をプレミアムプランで増やすことを案内するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "10"
-      }
-    }
-  },
   "aboutApp": "Kuhusu programu",
-  "@aboutApp": {
-    "description": "アプリについてのセクションタイトル"
-  },
   "viewPremiumPlan": "Tazama mpango wa Premium",
-  "@viewPremiumPlan": {
-    "description": "プレミアムプランの詳細を表示するためのボタンテキスト"
-  },
   "cancelSubscriptionInstruction": "Baada ya kununua, unaweza kusitisha uwazi wa kiotomatiki kupitia mipangilio ya akaunti ya {storeName} kwenye programu. (Haiwezekani kusitisha uwazi wa kiotomatiki kutoka ndani ya programu.)",
-  "@cancelSubscriptionInstruction": {
-    "description": "自動更新の解約方法の説明",
-    "placeholders": {
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "headache": "kichwa",
-  "@headache": {
-    "description": "症状の選択肢：頭痛"
-  },
   "stomachache": "maumivu ya tumbo",
-  "@stomachache": {
-    "description": "症状の選択肢：腹痛"
-  },
   "nausea": "kichefu",
-  "@nausea": {
-    "description": "症状の選択肢：吐き気"
-  },
   "anemia": "anemia",
-  "@anemia": {
-    "description": "症状の選択肢：貧血"
-  },
   "diarrhea": "kuenda mavi",
-  "@diarrhea": {
-    "description": "症状の選択肢：下痢"
-  },
   "constipation": "Kukosekana",
-  "@constipation": {
-    "description": "症状の選択肢：便秘"
-  },
   "hotFlash": "moto",
-  "@hotFlash": {
-    "description": "症状の選択肢：ほてり"
-  },
   "drowsiness": "usingi",
-  "@drowsiness": {
-    "description": "症状の選択肢：眠気"
-  },
   "backPain": "maumivu ya mgongo",
-  "@backPain": {
-    "description": "症状の選択肢：腰痛"
-  },
   "palpitation": "kupiga moyo",
-  "@palpitation": {
-    "description": "症状の選択肢：動悸"
-  },
   "abnormalBleeding": "Damu zisizohitajika",
-  "@abnormalBleeding": {
-    "description": "症状の選択肢：不正出血"
-  },
   "lossOfAppetite": "Upungufu wa hamu ya chakula",
-  "@lossOfAppetite": {
-    "description": "症状の選択肢：食欲不振"
-  },
   "chestTightness": "Kutoa kwa kifua",
-  "@chestTightness": {
-    "description": "症状の選択肢：胸の張り"
-  },
   "insomnia": "Using the correct format, we translate the Japanese term '不眠' to Swahili as 'ukosefu wa usingizi'. This term is used as a symptom option within the app.",
-  "@insomnia": {
-    "description": "症状の選択肢：不眠"
-  },
   "monthlyPlanDiscountFormat": "Punguzo la {percent}% KUTOKA kwenye mpango wa kila mwezi",
-  "@monthlyPlanDiscountFormat": {
-    "description": "月額プランからの割引率を表示するフォーマット",
-    "placeholders": {
-      "percent": {
-        "type": "int",
-        "example": "50"
-      }
-    }
-  },
   "purchaseErrorUnknown": "Kumetendeka hapa kuna kosa lisilo na sababu. Tafadhali jaribu tena baada ya muda. Ikiwa haionekani kutatuliwa, tafadhali wasiliana nasi kupitia Mipangilio > Mawasiliano. Maelezo: {message}",
-  "@purchaseErrorUnknown": {
-    "description": "購入時の不明なエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorStoreProblem": "Kuna makosa katika {storeName}. Tafadhali subiri kidogo na ujaribu tena.",
-  "@purchaseErrorStoreProblem": {
-    "description": "ストアでのエラーメッセージ",
-    "placeholders": {
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "purchaseErrorInvalidPayment": "Malipo yamefeli. Tafadhali thibitisha ikiwa njia yako ya malipo ni halali kisha ujaribu tena.",
-  "@purchaseErrorInvalidPayment": {
-    "description": "支払い方法が無効な場合のエラーメッセージ"
-  },
   "purchaseErrorProductUnavailable": "Mpango unaolenga sasa hivi haupo sokoni. Tafadhali jaribu tena baada ya kuzindua upya programu.",
-  "@purchaseErrorProductUnavailable": {
-    "description": "商品が利用できない場合のエラーメッセージ"
-  },
   "purchaseErrorAlreadyPurchased": "Umefanya kununua mpango tayari. Ikiwa unataka kurejesha taarifa za ununuzi kwenye kifaa hiki, tafadhali nenda kwenye \"Wale walio nunua hapo awali hapa\" ili kurejesha taarifa za ununuzi.",
-  "@purchaseErrorAlreadyPurchased": {
-    "description": "すでに購入済みの場合のエラーメッセージ"
-  },
   "purchaseErrorReceiptInUse": "Tayari umenunua. Taarifa ya ununuzi inatumika na mtumiaji mwingine. Tafadhali angalia {accountName}.",
-  "@purchaseErrorReceiptInUse": {
-    "description": "購入情報が他のユーザーで使用されている場合のエラーメッセージ",
-    "placeholders": {
-      "accountName": {
-        "type": "String",
-        "example": "Apple ID"
-      }
-    }
-  },
   "purchaseErrorInvalidReceipt": "Taarifa ya ununuzi isiyo sahihi. Tafadhali thibitisha taarifa za ununuzi.",
-  "@purchaseErrorInvalidReceipt": {
-    "description": "購入情報が無効な場合のエラーメッセージ"
-  },
   "purchaseErrorMissingReceipt": "Hakuna taarifa ya mnunuzi. Tafadhali jaribu kuingia kwenye kifaa chako kwa kutumia {accountName}.",
-  "@purchaseErrorMissingReceipt": {
-    "description": "購入情報が見つからない場合のエラーメッセージ",
-    "placeholders": {
-      "accountName": {
-        "type": "String",
-        "example": "Apple ID"
-      }
-    }
-  },
   "purchaseErrorNetwork": "Hali ya mtandao si yenye kuaminika. Tafadhali thibitisha hali ya muunganisho kabla ya kujaribu tena.",
-  "@purchaseErrorNetwork": {
-    "description": "ネットワークエラーの場合のエラーメッセージ"
-  },
   "purchaseNotAllowed": "Ununu na kifaa hiki hakiruhusiwi kununua",
-  "@purchaseNotAllowed": {
-    "description": "デバイスでの購入が許可されていない場合のエラーメッセージ"
-  },
   "purchaseErrorInvalidCredentials": "Ununuzi umeshindwa. Tafadhali subiri muda na ujaribu tena. Ikiwa haujaweza kutatua tatizo hili, tafadhali wasiliana nasi kupitia mipangilio > Maswali. Maelezo: {message}",
-  "@purchaseErrorInvalidCredentials": {
-    "description": "認証情報が無効な場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorUnexpectedBackend": "Kwa sasa huwezi kununua. Tafadhali jaribu tena baada ya muda. Ikiwa shida haitatatuka, tafadhali wasiliana nasi kupitia Mipangilio > Maswali. Maelezo: {message}",
-  "@purchaseErrorUnexpectedBackend": {
-    "description": "バックエンドで予期せぬエラーが発生した場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorOperationInProgress": "Ununuzi unafanyika tofauti. Tafadhali subiri kidogo na uangalie tena.",
-  "@purchaseErrorOperationInProgress": {
-    "description": "購入処理が既に進行中の場合のエラーメッセージ"
-  },
   "purchaseErrorInsufficientPermissions": "Hauna uwezo wa kujiunga na mpango na {accountName} yako. Tafadhali angalia habari za malipo yako kisha jaribu tena.",
-  "@purchaseErrorInsufficientPermissions": {
-    "description": "権限が不足している場合のエラーメッセージ",
-    "placeholders": {
-      "accountName": {
-        "type": "String",
-        "example": "Apple ID"
-      }
-    }
-  },
   "purchaseErrorPaymentPending": "Malipo yamesimama katikati. Tafadhali angalia {storeName} na {accountName} zilizomo kwenye akaunti yako.",
-  "@purchaseErrorPaymentPending": {
-    "description": "支払いが保留中の場合のエラーメッセージ",
-    "placeholders": {
-      "accountName": {
-        "type": "String",
-        "example": "Apple ID"
-      },
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "premiumUserThanksTitle": "Mwanachama wa Premium",
-  "@premiumUserThanksTitle": {
-    "description": "プレミアムユーザーへの感謝を示すタイトル"
-  },
   "premiumUserThanksMessage": "Asante kwa kutumia huduma zetu.\nKwa bantuan yako, tunaweza kuendelea na uendeshaji wa Medicalarm.",
-  "@premiumUserThanksMessage": {
-    "description": "プレミアムユーザーへの感謝メッセージ"
-  },
   "premiumPricePerMonth": "({price}/mwezi)",
-  "@premiumPricePerMonth": {
-    "description": "月額料金の表示フォーマット",
-    "placeholders": {
-      "price": {
-        "type": "String",
-        "example": "¥500"
-      }
-    }
-  },
   "premiumCancelDescription": "Baada ya kununua, unaweza kufuta usajili wa kujisajili kwenye mipangilio ya akaunti ya {storeName} kwenye programu. (Haiwezekani kufuta usajili wa kujisajili ndani ya programu.)",
-  "@premiumCancelDescription": {
-    "description": "プレミアムプランの解約方法の説明",
-    "placeholders": {
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "purchaseErrorRestoreFailed": "Habari ya zamani za ununuzi haipatikani. Tafadhali angalia akaunti yako na ujaribu tena.",
-  "@purchaseErrorRestoreFailed": {
-    "description": "購入情報の復元に失敗した場合のエラーメッセージ"
-  },
   "purchaseErrorUserNotFound": "Mtumiaji hakuweza kupatikana. Tafadhali anzisha upya programu na ujaribu tena. Maelezo: {message}",
-  "@purchaseErrorUserNotFound": {
-    "description": "ユーザーが見つからない場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorActivationPending": "Malipo hayajawezeshwa bado. Tafadhali subiri kwa muda kabla ya kuangalia tena.",
-  "@purchaseErrorActivationPending": {
-    "description": "課金の有効化が完了していない場合のエラーメッセージ"
-  },
   "purchaseErrorTimeout": "Timu ya muda imemalizika. Tafadhali hakikisha mazingira ya mawasiliano kabla ya kujaribu tena. Ikiwa tatizo halitatuli, tafadhali wasiliana nasi kupitia mipangilio > Maswali. Maelezo zaidi: {message}",
-  "@purchaseErrorTimeout": {
-    "description": "購入処理がタイムアウトした場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorNetworkError": "Kuwa na uhusiano mbaya. Tafadhali angalia mazingira yako ya mtandao kisha jaribu tena. Ikiwa huwezi kutatua shida hiyo, tafadhali wasiliana nasi kupitia Mpangilio > Maswali. Maelezo zaidi: {message}",
-  "@purchaseErrorNetworkError": {
-    "description": "ネットワークエラーが発生した場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "sixMonthPlan": "mpango wa miezi 6",
-  "@sixMonthPlan": {
-    "description": "6ヶ月プランの表示名"
-  },
   "premiumContractPeriod": "Muda wa mkataba ni mwezi mmoja kuanzia tarehe ya oduka.",
-  "@premiumContractPeriod": {
-    "description": "プレミアムプランの契約期間の説明"
-  },
   "privacyPolicy": "Sera ya Faragha",
-  "@privacyPolicy": {
-    "description": "プライバシーポリシーのリンクテキスト"
-  },
   "termsOfService": "Masharti ya matumizi",
-  "@termsOfService": {
-    "description": "利用規約のリンクテキスト"
-  },
   "specifiedCommercialTransactionAct": "Taarifa kulingana na Sheria ya Biashara Maalum",
-  "@specifiedCommercialTransactionAct": {
-    "description": "特定商取引法に基づく表記のリンクテキスト"
-  },
   "confirmBeforeRegistration": "Tafadhali angalia na ujiandikishe",
-  "@confirmBeforeRegistration": {
-    "description": "各種規約確認を促すメッセージ"
-  },
   "autoRenewalNotice": "Baada ya kumalizika kwa mkataba, itajirudia kiotomatiki.",
-  "@autoRenewalNotice": {
-    "description": "自動更新に関する注意事項"
-  },
   "restorePurchase": "Watu walionunua awali hapa",
-  "@restorePurchase": {
-    "description": "購入情報の復元リンクのテキスト"
-  },
   "purchaseRestored": "Umerete nakala za ununuzi",
-  "@purchaseRestored": {
-    "description": "購入情報の復元が完了した際のメッセージ"
-  },
   "medicationTimeFollowup": "Ufuatiliaji wa wakati wa matumizi",
-  "@medicationTimeFollowup": {
-    "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
-  },
   "updateRequired": "Inahitajika sasisho",
-  "@updateRequired": {
-    "description": "強制アップデートが必要な場合のダイアログタイトル"
-  },
   "updateRequiredMessage": "Tafadhali sasisha kutoka kwa {storeName}.",
-  "@updateRequiredMessage": {
-    "description": "強制アップデートが必要な場合のダイアログメッセージ",
-    "placeholders": {
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "screenshotMedicationHistoriesMemo": "Nililala sana muda wa kuchukua dawa kwa kuchelewa",
-  "@screenshotMedicationHistoriesMemo": {
-    "description": "薬のメモの例"
-  },
   "screenshotMedicationDoserReceiver1": "mimi",
-  "@screenshotMedicationDoserReceiver1": {
-    "description": "薬の服用者の例"
-  },
   "screenshotMedicationDoserReceiver2": "Mana",
-  "@screenshotMedicationDoserReceiver2": {
-    "description": "薬の服用者の例"
-  },
   "screenshotMedicationQuontityMemo1": "1 kidonge",
-  "@screenshotMedicationQuontityMemo1": {
-    "description": "薬の服用量の例"
-  },
   "screenshotMedicationQuontityMemo2": "vidonge 2",
-  "@screenshotMedicationQuontityMemo2": {
-    "description": "薬の服用量の例"
-  },
   "screenshotMedicationName1": "vidonge vya kichwa",
-  "@screenshotMedicationName1": {
-    "description": "薬の名前の例"
-  },
   "screenshotMedicationName2": "Vidomini",
-  "@screenshotMedicationName2": {
-    "description": "薬の名前の例"
-  },
   "notificationTitle": "Ni wakati wa dawa",
-  "@notificationTitle": {
-    "description": "薬の通知のタイトル"
-  },
   "notificationFollowupTitle": "Je, umekosa kuandika kumbukumbu ya dawa?",
-  "@notificationFollowupTitle": {
-    "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
-  },
   "recommendedApp": "Orodha ya Programu",
-  "@recommendedApp": {
-    "description": "おすすめアプリのタイトル"
-  },
   "pilllIntroduction": "Je, huenda unatafuta usimamizi wa vidonge? Kwa nini usimamie ulaji wa vidonge kwa urahisi zaidi?",
-  "@pilllIntroduction": {
-    "description": "ピルの管理の紹介"
-  },
   "installPilll": "Sakinisha Pilll",
-  "@installPilll": {
-    "description": "Pilllをインストールするボタンのテキスト"
-  },
   "criticalAlertVolume": "Kiasi cha sauti",
-  "@criticalAlertVolume": {
-    "description": "緊急通知の音量の表示名"
-  }
+  "specialGift": "🎉 Zawadi maalum 🎉",
+  "freePremiumTrialDays": "Utapokea kipindi cha majaribio bila malipo cha siku {count} kama zawadi!",
+  "welcomeToMedicalarm": "Karibu Medicalarm!",
+  "writeReviewFor5StarPromotion": "Andika ukadiriaji wa nyota 5 na maoni kwenye App Store ili kujaribu vipengele vya Premium bila malipo kwa siku {count}!",
+  "rating5StarsEncouragement": "Ukadiriaji wako wa ★5 ni motisha kubwa kwa wasanidi programu.\nTafadhali tuunge mkono ili tuunde programu bora zaidi!",
+  "noAutoCharge": "Hutatozwa kiotomatiki. Baada ya kipindi cha majaribio kuisha, utarejea kiotomatiki kwenye mpango wa bila malipo.",
+  "write5StarReview": "Andika ukaguzi wa nyota 5",
+  "receiveReward": "Pokea zawadi",
+  "notNow": "Sio sasa",
+  "openAppStore": "Fungua App Store",
+  "confirmOpenAppStore": "Je, ungependa kufungua App Store ili kuandika ukaguzi?",
+  "premiumFeaturesList": "Orodha ya vipengele vya Premium",
+  "currentlyInPremiumTrial": "Kwa sasa uko kwenye kipindi cha majaribio cha Premium.",
+  "medicationPause": "Washa dawa",
+  "medicationPauseDescription": "Ikizimwa, itaondolewa kwenye skrini ya dawa na arifa.",
+  "medicinePausedSnackbar": "Unywaji wa dawa umesitishwa kwa muda",
+  "medicationHistoryDeletedSnackbar": "Rekodi ya unywaji wa dawa imebatilishwa",
+  "undo": "Tendua",
+  "medicationHistoryReverted": "Kughairi rekodi ya matumizi ya dawa",
+  "revertedTime": "Muda wa kughairi",
+  "revertedByMember": "{name} amefuta",
+  "medicationTakenAtLabel": "Imetumiwa saa {time}",
+  "medicineResumedSnackbar": "Unywaji wa dawa umeanza tena",
+  "medicineEditTooltip": "Hariri dawa",
+  "groups": "Vikundi",
+  "groupManagement": "Usimamizi wa vikundi",
+  "createGroup": "Unda kikundi",
+  "groupName": "Jina la kikundi",
+  "groupNameInputHint": "Weka jina la kikundi",
+  "groupIcon": "Ikoni",
+  "groupMemberCount": "{count} wanachama",
+  "defaultGroupBadge": "Chaguomsingi",
+  "soloGroupName": "Vikundi vyangu",
+  "joinWithInvitationCode": "Jiunge kwa kutumia msimbo wa mwaliko",
+  "groupCreationLimitReached": "Huwezi kuunda vikundi zaidi kwenye mpango wa bila malipo.",
+  "increaseGroupLimitWithPremium": "Unda vikundi zaidi kwa mpango wa Premium",
+  "invitationCode": "Msimbo wa mwaliko",
+  "invitationCodeShareDescription": "Shiriki msimbo huu ili kuwaalika wanachama",
+  "invitationCodeExpiresAt": "Inaisha: {date}",
+  "copyInvitationCode": "Nakili msimbo",
+  "invitationCodeCopied": "Msimbo wa mwaliko umenakiliwa",
+  "issueInvitationCode": "Unda msimbo wa mwaliko",
+  "groupSettings": "Mipangilio ya kikundi",
+  "members": "Wanachama",
+  "memberFallbackName": "Mwanachama",
+  "yourDisplayName": "Jina lako la kuonyesha",
+  "displayNameInputHint": "Weka jina la kuonyeshwa",
+  "ownerLabel": "Mmiliki",
+  "youLabel": "Wewe",
+  "removeMemberConfirmTitle": "Ungependa kumwondoa mwanachama?",
+  "removeMemberConfirmMessage": "Ondoa {name} kwenye kikundi",
+  "joinGroup": "Jiunge na kikundi",
+  "invitationCodeInputLabel": "Msimbo wa mwaliko (herufi 8)",
+  "invitationCodeInputHint": "Weka msimbo wa herufi 8",
+  "join": "Jiunge",
+  "recordedByMember": "Imerekodiwa na {name}",
+  "accountLink": "Kuhamisha akaunti",
+  "accountLinkDescription": "Kwa kuunganisha na Apple au Google, unaweza kuhamisha data zako hata baada ya kubadilisha kifaa au kusakinisha upya programu.",
+  "linkWithApple": "Hamisha akaunti kwa Apple",
+  "linkWithGoogle": "Hamisha akaunti kwa kutumia Google",
+  "accountLinkedWithApple": "Imeunganishwa na Apple",
+  "accountLinkedWithGoogle": "Imeunganishwa na Google",
+  "accountLinkedSnackbar": "Akaunti imehamishwa",
+  "accountLinkBannerText": "Unaposhiriki kikundi, tunapendekeza sana uweke mipangilio ya kuhamisha akaunti.",
+  "minimumDoseInterval": "Muda kati ya dozi",
+  "minimumDoseIntervalDescription": "Muda wa chini kati ya dozi tangu dozi ya awali",
+  "minimumDoseIntervalNone": "Hakuna",
+  "minimumDoseIntervalHoursFormat": "Angalau saa {hours}",
+  "doseIntervalWarningTitle": "Muda unaohitajika kati ya dozi bado haujapita",
+  "doseIntervalWarningMessage": "Umeshakunywa dawa saa {latestTakeTime}. Mipangilio inahitaji kuwe na angalau saa {minimumDoseIntervalHours} kati ya dozi. Unataka kuirekodi hata hivyo?",
+  "doseIntervalWarningTakeAnyway": "Rekodi",
+  "doseIntervalNotificationWarning": "⚠️ Haijapita saa {minimumDoseIntervalHours} tangu dozi ya mwisho",
+  "ossLicense": "Leseni za OSS"
 }

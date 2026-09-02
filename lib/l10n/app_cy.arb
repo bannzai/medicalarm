@@ -1,783 +1,234 @@
 {
   "@@locale": "cy",
   "retry": "Ail-oli",
-  "@retry": {
-    "description": "エラーが発生した際やデータの読み込みに失敗した際に、再度処理を実行するためのボタンテキスト"
-  },
   "save": "Cadw",
-  "@save": {
-    "description": "フォームやエディタで入力したデータを保存する際に使用するボタンテキスト"
-  },
   "memo": "Nodyn",
-  "@memo": {
-    "description": "服薬記録や日記などで追加情報を入力するためのテキストフィールドのプレースホルダー"
-  },
   "completed": "Cwblhau",
-  "@completed": {
-    "description": "フォームの入力や設定の変更などの操作が完了した際に使用するボタンテキスト"
-  },
   "medicineRegistration": "Golygu Meddyginiaeth",
-  "@medicineRegistration": {
-    "description": "お薬の新規登録・編集画面のタイトル"
-  },
   "medicineName": "Enw'r feddyginiaeth",
-  "@medicineName": {
-    "description": "お薬登録フォームでの薬の名前を入力するフィールドのプレースホルダー"
-  },
   "medicineList": "Rhestr Meddyginiaeth",
-  "@medicineList": {
-    "description": "登録されているお薬の一覧を表示する画面のタイトル"
-  },
   "medicationSchedule": "Cynllun Cymryd Meddyginiaeth",
-  "@medicationSchedule": {
-    "description": "服用スケジュールのセクションタイトル"
-  },
   "medicationTime": "Gwahardd notifications am amser cymryd meddyginiaeth",
-  "@medicationTime": {
-    "description": "服用時刻の通知設定を有効にするためのスイッチのラベル"
-  },
   "medicationTimeDescription": "Anfonir hysbysiadau ar sail yr amser cyflwyno meddyginiaeth",
-  "@medicationTimeDescription": {
-    "description": "服用時刻の通知設定の説明文"
-  },
   "close": "Cau",
-  "@close": {
-    "description": "ダイアログやモーダルを閉じるためのボタンテキスト"
-  },
   "settings": "Gosodiadau",
-  "@settings": {
-    "description": "設定画面のタイトル"
-  },
   "camera": "Camera",
-  "@camera": {
-    "description": "カメラを起動するためのメニュー項目"
-  },
   "photoLibrary": "Llyfrgell llun",
-  "@photoLibrary": {
-    "description": "フォトライブラリを開くためのメニュー項目"
-  },
   "medicationHistory": "Hanesydd Meddyginiaeth",
-  "@medicationHistory": {
-    "description": "服薬履歴を表示する画面のタイトル"
-  },
   "noMedicationHistory": "Does dim llawes meddyginiaeth.",
-  "@noMedicationHistory": {
-    "description": "服薬履歴が存在しない場合に表示するメッセージ"
-  },
   "scheduledTime": "Amserlen",
-  "@scheduledTime": {
-    "description": "服薬予定時刻のラベル"
-  },
   "recordedTime": "Amser cofrestru",
-  "@recordedTime": {
-    "description": "実際に服薬を記録した時間のラベル"
-  },
   "noMemo": "Dim nodyn ar gael",
-  "@noMemo": {
-    "description": "メモが存在しない場合に表示するテキスト"
-  },
   "premiumPlan": "Cynllun premiwm",
-  "@premiumPlan": {
-    "description": "プレミアムプランの名称"
-  },
   "premiumFeatureAds": "Cuddio hysbysiadau",
-  "@premiumFeatureAds": {
-    "description": "プレミアム機能の広告非表示の説明"
-  },
   "premiumFeatureHistory": "Dangos y gosod cyfan o gymhwyso",
-  "@premiumFeatureHistory": {
-    "description": "プレミアム機能の履歴表示の説明"
-  },
   "premiumRegistrationComplete": "Cofrestriad premium Medicalarm wedi'i chwblhau",
-  "@premiumRegistrationComplete": {
-    "description": "プレミアム登録完了時のタイトル"
-  },
   "premiumRegistrationThanks": "Diolch am gofrestru. Mae pob funcsiwn bellach ar gael!",
-  "@premiumRegistrationThanks": {
-    "description": "プレミアム登録完了時のメッセージ"
-  },
   "unknownError": "Digwyddodd gwall anhysbys.",
-  "@unknownError": {
-    "description": "予期せぬエラーが発生した際のエラーメッセージ"
-  },
   "error": "Mae gwall wedi digwydd",
-  "@error": {
-    "description": "一般的なエラーメッセージ"
-  },
   "unexpectedError": "Dechreuodd gwall annisgwyl.",
-  "@unexpectedError": {
-    "description": "予期せぬエラーが発生した際のエラーメッセージ"
-  },
   "cancel": "Canslo",
-  "@cancel": {
-    "description": "操作をキャンセルするためのボタンテキスト"
-  },
   "delete": "Dileu",
-  "@delete": {
-    "description": "削除操作を実行するためのボタンテキスト"
-  },
   "deleteAccount": "Dileu cyfrif",
-  "@deleteAccount": {
-    "description": "アカウント削除ボタンのテキスト"
-  },
   "deleteAccountConfirm": "Dileu gwybodaeth y defnyddiwr",
-  "@deleteAccountConfirm": {
-    "description": "アカウント削除確認ダイアログのタイトル"
-  },
   "deleteAccountMessage": "Os yw'r cyfrif yn cael ei ddileu, bydd gwybodaeth y defnyddiwr i gyd yn cael ei dileu.",
-  "@deleteAccountMessage": {
-    "description": "アカウント削除確認ダイアログのメッセージ"
-  },
   "medicationFrequency": "Ffrequency cymryd",
-  "@medicationFrequency": {
-    "description": "服用頻度の設定セクションのタイトル"
-  },
   "daily": "bob dydd",
-  "@daily": {
-    "description": "毎日服用する頻度設定"
-  },
   "everyXDays": "bob dydd X",
-  "@everyXDays": {
-    "description": "X日ごとに服用する頻度設定"
-  },
   "specificWeekdays": "diwrnod penodol",
-  "@specificWeekdays": {
-    "description": "特定の曜日に服用する頻度設定"
-  },
   "cycle": "Cyfnod",
-  "@cycle": {
-    "description": "周期で服用する頻度設定"
-  },
   "cycleDescription": "Enghraifft) Cyffuriau ar 21ain / 7 ni fyddai cyffuriau",
-  "@cycleDescription": {
-    "description": "周期での服用頻度の説明文"
-  },
   "everyXDaysDescription": "enghraifft) bob 2 ddiwrnod, bob 3 diwrnod",
-  "@everyXDaysDescription": {
-    "description": "X日ごとの服用頻度の説明文"
-  },
   "specificWeekdaysDescription": "er enghraifft) Dim ond ddydd Llun, Dydd Mercher a Dydd Gwener",
-  "@specificWeekdaysDescription": {
-    "description": "特定の曜日の服用頻度の説明文"
-  },
   "medicineFormValidationError": "Rhowch eich enw a'ch amserlen gymryd meddyginiaeth",
-  "@medicineFormValidationError": {
-    "description": "お薬登録フォームでの入力バリデーションエラーメッセージ"
-  },
   "quantity": "capasiti",
-  "@quantity": {
-    "description": "服用量を入力するフィールドのラベル"
-  },
   "quantityExample": "enghraifft: 1 tabled, 100mg",
-  "@quantityExample": {
-    "description": "服用量入力フィールドのプレースホルダー"
-  },
   "medicationStartDate": "Dyddiad cychwyn cymryd",
-  "@medicationStartDate": {
-    "description": "服用開始日を選択するフィールドのラベル"
-  },
   "otherInformation": "Eraill",
-  "@otherInformation": {
-    "description": "その他の情報を入力するセクションのタイトル"
-  },
   "doseReceiver": "Cyffwrdd",
-  "@doseReceiver": {
-    "description": "服用者を選択するフィールドのラベル"
-  },
   "defaultDoseReceiver": "fy nghyda",
-  "@defaultDoseReceiver": {
-    "description": "デフォルトの服用者名"
-  },
   "doseReceiverMaxCount": "Gallir cofrestredig hyd at {count} o ddefnyddwyr.",
-  "@doseReceiverMaxCount": {
-    "description": "服用者の最大登録数を表示するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "2"
-      }
-    }
-  },
   "increaseLimitWithPremium": "Cynyddu'r terfyn i {count} gyda'r cynllun premiwm",
-  "@increaseLimitWithPremium": {
-    "description": "プレミアムプランでの上限増加を案内するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "10"
-      }
-    }
-  },
   "addDoseReceiver": "Ychwanegwch y defnyddiwr",
-  "@addDoseReceiver": {
-    "description": "服用者を追加するボタンのテキスト"
-  },
   "newDoseReceiver": "Defnyddiwr newydd",
-  "@newDoseReceiver": {
-    "description": "新規追加時のデフォルトの服用者名"
-  },
   "reloginRequired": "Ailwch i fewngofnodi",
-  "@reloginRequired": {
-    "description": "アカウント削除時に再ログインが必要な場合のダイアログタイトル"
-  },
   "reloginMessage": "I ddylid dileu cyfri, gofynnwch i ail-logged.",
-  "@reloginMessage": {
-    "description": "アカウント削除時の再ログイン要求メッセージ"
-  },
   "relogin": "Ailgychwi",
-  "@relogin": {
-    "description": "再ログインを実行するためのボタンテキスト"
-  },
   "accountDeleted": "Wydw i wedi dileu'r cyfrif.",
-  "@accountDeleted": {
-    "description": "アカウント削除完了時のメッセージ"
-  },
   "confirmExit": "A ydych chi eisiau gadael yr app?",
-  "@confirmExit": {
-    "description": "アプリ終了確認のメッセージ"
-  },
   "exit": "Diweddariad",
-  "@exit": {
-    "description": "アプリを終了するためのボタンテキスト"
-  },
   "viewFaq": "Gweler y Cwestiynau Poyntu",
-  "@viewFaq": {
-    "description": "FAQページを表示するためのボタンテキスト"
-  },
   "medicine": "Eich Meddyginiaeth",
-  "@medicine": {
-    "description": "お薬タブのタイトル"
-  },
   "inquiry": "Cysylltwch â ni",
-  "@inquiry": {
-    "description": "お問い合わせボタンのテキスト"
-  },
   "ok": "Iawn",
-  "@ok": {
-    "description": "確認ダイアログのOKボタンのテキスト"
-  },
   "medicationScheduleLimit": "Mae cynlluniau meddyginiaeth yn gallu cael eu cofrestru hyd at {count} o weithiau.",
-  "@medicationScheduleLimit": {
-    "description": "服用スケジュールの登録上限を表示するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "3"
-      }
-    }
-  },
   "increaseMedicationScheduleLimit": "Cynyddwch y terfyn i {count} gyda'r cynllun premium.",
-  "@increaseMedicationScheduleLimit": {
-    "description": "服用スケジュールの上限をプレミアムプランで増やすことを案内するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "10"
-      }
-    }
-  },
   "addMedicationSchedule": "Ychwanegu amserlen meddyginiaeth",
-  "@addMedicationSchedule": {
-    "description": "服用スケジュールを追加するボタンのテキスト"
-  },
   "medicationScheduleNotificationSetting": "Gosodiad Hysbysiadau Amserlen Meddyginiaeth",
-  "@medicationScheduleNotificationSetting": {
-    "description": "服用スケジュールの通知設定画面のタイトル"
-  },
   "notificationSetting": "Gosodiad Hysbysiadau",
-  "@notificationSetting": {
-    "description": "通知設定セクションのタイトル"
-  },
   "enableFollowupNotification": "Galluogi hysbysiadau dilyniant",
-  "@enableFollowupNotification": {
-    "description": "フォローアップ通知を有効にするスイッチのラベル"
-  },
   "followupNotificationDescription": "Os yw defnyddiwr yn methu â chofrestru cymryd meddyginiaeth o fewn 30 munud i'r hysbysiad cyntaf, bydd notification dilynol yn cael ei anfon.",
-  "@followupNotificationDescription": {
-    "description": "フォローアップ通知の説明文"
-  },
   "enableNotificationInSilentMode": "Hysbysu hyd yn oed ar fodd peidiog",
-  "@enableNotificationInSilentMode": {
-    "description": "マナーモード時の通知を有効にするスイッチのラベル"
-  },
   "silentModeNotificationDescription": "Mae negesau pwysig yn ymddangos ar y sgrin clo a bydd sain yn chwarae, hyd yn oed pan fydd y modd canolbwyntio wedi'i actifadu neu pan fo'r dyfais ar dawel.",
-  "@silentModeNotificationDescription": {
-    "description": "マナーモード時の通知の説明文"
-  },
   "everyXDaysFormat": "cada {count} diwrnod",
-  "@everyXDaysFormat": {
-    "description": "X日ごとの服用頻度を表示する際のフォーマット",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "2"
-      }
-    }
-  },
   "cycleDaysFormat": "{consecutiveDays} diwrnod yn cymryd / {restDays} diwrnod yn seibiant",
-  "@cycleDaysFormat": {
-    "description": "服用周期を表示する際のフォーマット",
-    "placeholders": {
-      "consecutiveDays": {
-        "type": "int",
-        "example": "21"
-      },
-      "restDays": {
-        "type": "int",
-        "example": "7"
-      }
-    }
-  },
   "consecutiveDaysFormat": "{count} diwrnod o feddiant",
-  "@consecutiveDaysFormat": {
-    "description": "連続服用日数を表示する際のフォーマット",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "21"
-      }
-    }
-  },
   "restDaysFormat": "{count} diwrnod heb gymryd meddyginiaeth",
-  "@restDaysFormat": {
-    "description": "休薬日数を表示する際のフォーマット",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "7"
-      }
-    }
-  },
   "limitedTimeDiscount": "Rydych yn gallu defnyddio am bris cyfyngedig nawr",
-  "@limitedTimeDiscount": {
-    "description": "プレミアムプランの限定価格キャンペーンを案内するメッセージ"
-  },
   "monthlyPlan": "Cynllun misol",
-  "@monthlyPlan": {
-    "description": "月額プランの名称"
-  },
   "annualPlan": "Cynllun blynyddol",
-  "@annualPlan": {
-    "description": "年額プランの名称"
-  },
   "weeklyPlan": "Cynllun Wythnosol",
-  "@weeklyPlan": {
-    "description": "週額プランの名称"
-  },
   "premiumRequired": "Mae'r neges hon yn ymddangos pan fydd angen cyrchu nodwedd sy'n gofyn am y cynllun breifat.",
-  "@premiumRequired": {
-    "description": "プレミアムプラン加入が必要な機能へのアクセス時のメッセージ"
-  },
   "medication": "Medlyniad",
-  "@medication": {
-    "description": "服薬タブのタイトル"
-  },
   "history": "Hanes",
-  "@history": {
-    "description": "履歴タブのタイトル"
-  },
+  "calendar": "Calendr",
+  "diary": "Dyddiadur",
+  "writeDiary": "Ysgrifennu dyddiadur",
+  "editDiaryTooltip": "Golygu dyddiadur",
   "medicineRegistrationLimit": "Nifer o feddyginiaethau wedi'u cofrestru",
-  "@medicineRegistrationLimit": {
-    "description": "薬の登録数の上限を説明するテキストの一部"
-  },
   "doseReceiverRegistrationLimit": "y nifer o gofrestriadau defnyddwyr",
-  "@doseReceiverRegistrationLimit": {
-    "description": "服用者の登録数の上限を説明するテキストの一部"
-  },
   "notificationScheduleLimit": "y nifer o amserlenni hysbysiadau",
-  "@notificationScheduleLimit": {
-    "description": "通知スケジュールの上限を説明するテキストの一部"
-  },
   "addMedicine": "Ychwanegu meddyginiaeth",
-  "@addMedicine": {
-    "description": "お薬を追加するボタンのテキスト"
-  },
   "medicineMaxCount": "Gallwch gofrestru hyd at {count} o feddyginiaethau.",
-  "@medicineMaxCount": {
-    "description": "お薬の最大登録数を表示するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "5"
-      }
-    }
-  },
   "increaseMedicineLimitWithPremium": "Cynyddu cyfyngiad i {count} gyda'r cynllun premiwm",
-  "@increaseMedicineLimitWithPremium": {
-    "description": "お薬の登録上限をプレミアムプランで増やすことを案内するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "10"
-      }
-    }
-  },
   "aboutApp": "Ynglŷn â'r ap",
-  "@aboutApp": {
-    "description": "アプリについてのセクションタイトル"
-  },
   "viewPremiumPlan": "Gweld y cynllun premiwm",
-  "@viewPremiumPlan": {
-    "description": "プレミアムプランの詳細を表示するためのボタンテキスト"
-  },
   "cancelSubscriptionInstruction": "Ar ôl prynu, gallwch ddod o hyd i ddirwystriad awtomatig yn gosodiadau cyfrif yr ap {storeName}. (Ni ellir ddirwyn y broses adnewyddu awtomatig o fewn yr ap).",
-  "@cancelSubscriptionInstruction": {
-    "description": "自動更新の解約方法の説明",
-    "placeholders": {
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "headache": "poen",
-  "@headache": {
-    "description": "症状の選択肢：頭痛"
-  },
   "stomachache": "bolchder",
-  "@stomachache": {
-    "description": "症状の選択肢：腹痛"
-  },
   "nausea": "gwenyw",
-  "@nausea": {
-    "description": "症状の選択肢：吐き気"
-  },
   "anemia": "anemia",
-  "@anemia": {
-    "description": "症状の選択肢：貧血"
-  },
   "diarrhea": "diarhoea",
-  "@diarrhea": {
-    "description": "症状の選択肢：下痢"
-  },
   "constipation": "constipasi",
-  "@constipation": {
-    "description": "症状の選択肢：便秘"
-  },
   "hotFlash": "poeth",
-  "@hotFlash": {
-    "description": "症状の選択肢：ほてり"
-  },
   "drowsiness": "gwybodaeth",
-  "@drowsiness": {
-    "description": "症状の選択肢：眠気"
-  },
   "backPain": "poen cefn",
-  "@backPain": {
-    "description": "症状の選択肢：腰痛"
-  },
   "palpitation": "curiad",
-  "@palpitation": {
-    "description": "症状の選択肢：動悸"
-  },
   "abnormalBleeding": "Achos draffigol",
-  "@abnormalBleeding": {
-    "description": "症状の選択肢：不正出血"
-  },
   "lossOfAppetite": "Diffyg archwaed",
-  "@lossOfAppetite": {
-    "description": "症状の選択肢：食欲不振"
-  },
   "chestTightness": "pethyn ar y frest",
-  "@chestTightness": {
-    "description": "症状の選択肢：胸の張り"
-  },
   "insomnia": "Methiant",
-  "@insomnia": {
-    "description": "症状の選択肢：不眠"
-  },
   "monthlyPlanDiscountFormat": "{percent}% IFF YN BLAEN",
-  "@monthlyPlanDiscountFormat": {
-    "description": "月額プランからの割引率を表示するフォーマット",
-    "placeholders": {
-      "percent": {
-        "type": "int",
-        "example": "50"
-      }
-    }
-  },
   "purchaseErrorUnknown": "Mae gwall anhysbys wedi digwydd. Os gwelwch yn dda rhowch amser a phrofwch eto. Os nad yw'n cael ei ddatrys, cysylltwch â ni trwy fynd i Ddewisiadau > Cysylltiad. Manylion: {message}",
-  "@purchaseErrorUnknown": {
-    "description": "購入時の不明なエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorStoreProblem": "Mae gwall wedi digwydd yn {storeName}. Os gwelwch yn dda, aroswch am ychydig a cheisiwch eto.",
-  "@purchaseErrorStoreProblem": {
-    "description": "ストアでのエラーメッセージ",
-    "placeholders": {
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "purchaseErrorInvalidPayment": "Methiant y talu. Gwiriwch a yw'r dull talu a ddefnyddiwch yn ddilys cyn trio eto.",
-  "@purchaseErrorInvalidPayment": {
-    "description": "支払い方法が無効な場合のエラーメッセージ"
-  },
   "purchaseErrorProductUnavailable": "Nid yw'r cynllun penodol ar gael ar hyn o bryd. Mae'n ddrwg gennyf, ond rhowch gynnig arno ar ôl ailgychwyn yr ap.",
-  "@purchaseErrorProductUnavailable": {
-    "description": "商品が利用できない場合のエラーメッセージ"
-  },
   "purchaseErrorAlreadyPurchased": "Mae cynllun wedi cael ei brynu eisoes. Os ydych am adfer gwybodaeth brynu ar y dyfais hon, ple উদ্যোগiwch \"Mae'r rhai a brynodd cyn hyn yma\" i adfer gwybodaeth brynu.",
-  "@purchaseErrorAlreadyPurchased": {
-    "description": "すでに購入済みの場合のエラーメッセージ"
-  },
   "purchaseErrorReceiptInUse": "Eisoel wedi'i brynu eisoes. Mae'r gwybodaeth brynu yn cael ei defnyddio gan ddefnyddiwr arall. Gofynnwch am {accountName}.",
-  "@purchaseErrorReceiptInUse": {
-    "description": "購入情報が他のユーザーで使用されている場合のエラーメッセージ",
-    "placeholders": {
-      "accountName": {
-        "type": "String",
-        "example": "Apple ID"
-      }
-    }
-  },
   "purchaseErrorInvalidReceipt": "Gwybodaeth gaffael annilys. Gwiriwch y wybodaeth gaffael.",
-  "@purchaseErrorInvalidReceipt": {
-    "description": "購入情報が無効な場合のエラーメッセージ"
-  },
   "purchaseErrorMissingReceipt": "Nid oes gwybodaeth am y prynwr. Pleserwch fewngofnodi i'r dyfais gyda {accountName} ac ymarferwch.",
-  "@purchaseErrorMissingReceipt": {
-    "description": "購入情報が見つからない場合のエラーメッセージ",
-    "placeholders": {
-      "accountName": {
-        "type": "String",
-        "example": "Apple ID"
-      }
-    }
-  },
   "purchaseErrorNetwork": "Mae'r cyflwr rhwydweithio'n afreolaidd. Gwiriwch y statws cysylltu cyn ceisio eto.",
-  "@purchaseErrorNetwork": {
-    "description": "ネットワークエラーの場合のエラーメッセージ"
-  },
   "purchaseNotAllowed": "Nid yw prynu ar y ddyfais hon wedi'i ganiatáu.",
-  "@purchaseNotAllowed": {
-    "description": "デバイスでの購入が許可されていない場合のエラーメッセージ"
-  },
   "purchaseErrorInvalidCredentials": "Buynwyd yn anwastad. Mynnwch ailgynnig ar ôl amser. Os nad yw'n cael ei ddatrys, cysylltwch â ni trwy fynd i Gosodiadau > Cysylltu â ni. Manylion: {message}",
-  "@purchaseErrorInvalidCredentials": {
-    "description": "認証情報が無効な場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorUnexpectedBackend": "Ar hyn o bryd, ni ellir prynu. Os gwelwch yn dda, rhowch amser i mewn a cheisiwch eto. Os na fydd hyn yn ei datrys, cysylltwch drwy fynd i Ddewisiadau > Cysylltiad. Manylion: {message}",
-  "@purchaseErrorUnexpectedBackend": {
-    "description": "バックエンドで予期せぬエラーが発生した場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorOperationInProgress": "Mae'r broses brynu yn parhau yn arbenig. Byddwch yn garedig yn aros ychydig cyn i chi wirio eto.",
-  "@purchaseErrorOperationInProgress": {
-    "description": "購入処理が既に進行中の場合のエラーメッセージ"
-  },
   "purchaseErrorInsufficientPermissions": "Mae'n ddrwg gennyf, ond ni ellir ymuno â'r cynllun gydag eich {accountName}. Aroswch i wirio eich gwybodaeth talu a cheisio eto.",
-  "@purchaseErrorInsufficientPermissions": {
-    "description": "権限が不足している場合のエラーメッセージ",
-    "placeholders": {
-      "accountName": {
-        "type": "String",
-        "example": "Apple ID"
-      }
-    }
-  },
   "purchaseErrorPaymentPending": "Mae'r taliad wedi ei stopio ar hyn o bryd. Gwiriwch {storeName} gyda {accountName} a ydych yn mewngofnodi.",
-  "@purchaseErrorPaymentPending": {
-    "description": "支払いが保留中の場合のエラーメッセージ",
-    "placeholders": {
-      "accountName": {
-        "type": "String",
-        "example": "Apple ID"
-      },
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "premiumUserThanksTitle": "Member o'r Premiwm",
-  "@premiumUserThanksTitle": {
-    "description": "プレミアムユーザーへの感謝を示すタイトル"
-  },
   "premiumUserThanksMessage": "Diolch am ddefnyddio ein gwasanaeth. Oherwydd eich cefnogaeth, gallwn barhau i redeg Medicalarm.",
-  "@premiumUserThanksMessage": {
-    "description": "プレミアムユーザーへの感謝メッセージ"
-  },
   "premiumPricePerMonth": "({price}/mis)}",
-  "@premiumPricePerMonth": {
-    "description": "月額料金の表示フォーマット",
-    "placeholders": {
-      "price": {
-        "type": "String",
-        "example": "¥500"
-      }
-    }
-  },
   "premiumCancelDescription": "Ar ôl prynu, gellir darparu'r taleb a ddirwyn awtomatig drwy osodiadau cyfrif yr ap {storeName}. (Ni ellir dudalen ddirwyn awtomatig o fewn yr ap).",
-  "@premiumCancelDescription": {
-    "description": "プレミアムプランの解約方法の説明",
-    "placeholders": {
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "purchaseErrorRestoreFailed": "Nid yw gwybodaeth am brynu cynharach yn cael ei chanfod. Gwiriwch eich cyfrif a cheisiwch eto.",
-  "@purchaseErrorRestoreFailed": {
-    "description": "購入情報の復元に失敗した場合のエラーメッセージ"
-  },
   "purchaseErrorUserNotFound": "Ni allodd y defnyddiwr wirio. Ailgychwynwch y cais a rhowch gynnig arno unwaith eto. Manylion: {message}",
-  "@purchaseErrorUserNotFound": {
-    "description": "ユーザーが見つからない場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorActivationPending": "Nid yw gwaith activadu taliadau wedi'i gwblhau. Aroswch ychydig i wirio eto.",
-  "@purchaseErrorActivationPending": {
-    "description": "課金の有効化が完了していない場合のエラーメッセージ"
-  },
   "purchaseErrorTimeout": "Mae'r amser yn dod i ben. Gwiriwch y cyflyrau cyfathrebu ac rhowch cynnig arall. Os nad yw'n cael ei datrys, cysylltwch â ni drwy Ddewislen > Cwestiynau. Manylion: {message}",
-  "@purchaseErrorTimeout": {
-    "description": "購入処理がタイムアウトした場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorNetworkError": "Mae nameth gysylltiad. Gwiriwch y sefyllfa gysylltu a chymhwyswch eto. Os nad yw hyn yn datrys y broblem, cysylltwch drwy fynd i Ddewisiadau > Cysylltu. Manylion: {message}",
-  "@purchaseErrorNetworkError": {
-    "description": "ネットワークエラーが発生した場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "sixMonthPlan": "Cynllun 6 mis",
-  "@sixMonthPlan": {
-    "description": "6ヶ月プランの表示名"
-  },
   "premiumContractPeriod": "Mae cyfnod y cytundeb yn un mis o'r diwrnod prynu.",
-  "@premiumContractPeriod": {
-    "description": "プレミアムプランの契約期間の説明"
-  },
   "privacyPolicy": "Polisi Preifatrwydd",
-  "@privacyPolicy": {
-    "description": "プライバシーポリシーのリンクテキスト"
-  },
   "termsOfService": "Telerau Ddefnyddio",
-  "@termsOfService": {
-    "description": "利用規約のリンクテキスト"
-  },
   "specifiedCommercialTransactionAct": "Nodyn ynghylch y Gyfraith Masnach arbennig",
-  "@specifiedCommercialTransactionAct": {
-    "description": "特定商取引法に基づく表記のリンクテキスト"
-  },
   "confirmBeforeRegistration": "Gofynnwch i wirio a gofrestru.",
-  "@confirmBeforeRegistration": {
-    "description": "各種規約確認を促すメッセージ"
-  },
   "autoRenewalNotice": "Ar ôl diwedd y cyfnod cytundeb, bydd yn adnewyddu'n awtomatig.",
-  "@autoRenewalNotice": {
-    "description": "自動更新に関する注意事項"
-  },
   "restorePurchase": "Mae'r rheolwr meddyginiaeth yn cais arloesol sydd wedi'i ddylunio i helpu pobl i gofio cymryd eu meddyginiaeth. Mae hyn yn cynnwys dolen i adfer gwybodaeth brynu ar gyfer defnyddwyr sydd eisoes wedi prynu.",
-  "@restorePurchase": {
-    "description": "購入情報の復元リンクのテキスト"
-  },
   "purchaseRestored": "Adferwyd gwybodaeth brynu.",
-  "@purchaseRestored": {
-    "description": "購入情報の復元が完了した際のメッセージ"
-  },
   "medicationTimeFollowup": "Dilyniant Amser Meddyginiaeth",
-  "@medicationTimeFollowup": {
-    "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
-  },
   "updateRequired": "Mae angen diweddariad.",
-  "@updateRequired": {
-    "description": "強制アップデートが必要な場合のダイアログタイトル"
-  },
   "updateRequiredMessage": "Diupdate i'r fersiwn ddiweddaraf o {storeName}",
-  "@updateRequiredMessage": {
-    "description": "強制アップデートが必要な場合のダイアログメッセージ",
-    "placeholders": {
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "screenshotMedicationHistoriesMemo": "Gorwennais wedi diweddaru'r amser ymgynnull oherwydd cysgu gormod yn ystod y dydd.",
-  "@screenshotMedicationHistoriesMemo": {
-    "description": "薬のメモの例"
-  },
   "screenshotMedicationDoserReceiver1": "ei hun",
-  "@screenshotMedicationDoserReceiver1": {
-    "description": "薬の服用者の例"
-  },
   "screenshotMedicationDoserReceiver2": "Mana-chan",
-  "@screenshotMedicationDoserReceiver2": {
-    "description": "薬の服用者の例"
-  },
   "screenshotMedicationQuontityMemo1": "1 tabled",
-  "@screenshotMedicationQuontityMemo1": {
-    "description": "薬の服用量の例"
-  },
   "screenshotMedicationQuontityMemo2": "dau feddygin",
-  "@screenshotMedicationQuontityMemo2": {
-    "description": "薬の服用量の例"
-  },
   "screenshotMedicationName1": "meddygin pen-ba",
-  "@screenshotMedicationName1": {
-    "description": "薬の名前の例"
-  },
   "screenshotMedicationName2": "Cynllediau fitamin",
-  "@screenshotMedicationName2": {
-    "description": "薬の名前の例"
-  },
   "notificationTitle": "Mae'n amser y feddyginiaeth.",
-  "@notificationTitle": {
-    "description": "薬の通知のタイトル"
-  },
   "notificationFollowupTitle": "Sdim yn anghofio cofrestru eich cyffuriau?",
-  "@notificationFollowupTitle": {
-    "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
-  },
   "recommendedApp": "Apl argymhell",
-  "@recommendedApp": {
-    "description": "おすすめアプリのタイトル"
-  },
   "pilllIntroduction": "A ydych yn rheoli piliau? Pam na wnewch chi reoli eich meddyginiaeth yn fwy cyfleus?",
-  "@pilllIntroduction": {
-    "description": "ピルの管理の紹介"
-  },
   "installPilll": "Instalwch Pilll",
-  "@installPilll": {
-    "description": "Pilllをインストールするボタンのテキスト"
-  },
   "criticalAlertVolume": "Lleisio",
-  "@criticalAlertVolume": {
-    "description": "緊急通知の音量の表示名"
-  }
+  "specialGift": "🎉 Anrheg arbennig 🎉",
+  "freePremiumTrialDays": "Byddwch yn cael cyfnod prawf am ddim o {count} diwrnod yn anrheg!",
+  "welcomeToMedicalarm": "Croeso i Medicalarm!",
+  "writeReviewFor5StarPromotion": "Ysgrifennwch sgôr o 5 seren ac adolygiad yn yr App Store i roi cynnig ar nodweddion premiwm am ddim am {count} diwrnod!",
+  "rating5StarsEncouragement": "Mae eich sgôr ★5 yn anogaeth fawr i’r datblygwyr.\nCefnogwch ni os gwelwch yn dda i greu ap gwell fyth!",
+  "noAutoCharge": "Ni chodir tâl awtomatig. Ar ôl i’r cyfnod prawf ddod i ben, byddwch yn dychwelyd yn awtomatig i’r cynllun am ddim.",
+  "write5StarReview": "Ysgrifennu adolygiad 5 seren",
+  "receiveReward": "Derbyn gwobr",
+  "notNow": "Nid nawr",
+  "openAppStore": "Agor yr App Store",
+  "confirmOpenAppStore": "Agor App Store i ysgrifennu adolygiad?",
+  "premiumFeaturesList": "Rhestr o nodweddion premiwm",
+  "currentlyInPremiumTrial": "Rydych ar hyn o bryd yn defnyddio treial Premium.",
+  "medicationPause": "Galluogi meddyginiaeth",
+  "medicationPauseDescription": "Pan gaiff ei ddiffodd, caiff ei dynnu o sgrin meddyginiaethau a hysbysiadau.",
+  "medicinePausedSnackbar": "Mae cymryd y feddyginiaeth wedi’i oedi dros dro",
+  "medicationHistoryDeletedSnackbar": "Mae cofnod cymryd y feddyginiaeth wedi'i ddadwneud",
+  "undo": "Dadwneud",
+  "medicationHistoryReverted": "Canslo cofnod cymryd meddyginiaeth",
+  "revertedTime": "Amser canslo",
+  "revertedByMember": "Wedi’i ganslo gan {name}",
+  "medicationTakenAtLabel": "Wedi’i gymryd am {time}",
+  "medicineResumedSnackbar": "Ailddechreuwyd cymryd y feddyginiaeth",
+  "medicineEditTooltip": "Golygu meddyginiaeth",
+  "groups": "Grwpiau",
+  "groupManagement": "Rheoli grwpiau",
+  "createGroup": "Creu grŵp",
+  "groupName": "Enw'r grŵp",
+  "groupNameInputHint": "Rhowch enw'r grŵp",
+  "groupIcon": "Eicon",
+  "groupMemberCount": "{count} aelod",
+  "defaultGroupBadge": "Rhagosodedig",
+  "soloGroupName": "Fy ngrwpiau",
+  "joinWithInvitationCode": "Ymuno â chod gwahoddiad",
+  "groupCreationLimitReached": "Ni allwch greu rhagor o grwpiau ar y cynllun am ddim.",
+  "increaseGroupLimitWithPremium": "Crëwch ragor o grwpiau gyda'r cynllun Premium",
+  "invitationCode": "Cod gwahoddiad",
+  "invitationCodeShareDescription": "Gallwch rannu'r cod hwn i wahodd aelodau",
+  "invitationCodeExpiresAt": "Daw i ben: {date}",
+  "copyInvitationCode": "Copïo cod",
+  "invitationCodeCopied": "Cod gwahoddiad wedi’i gopïo",
+  "issueInvitationCode": "Cyhoeddi cod gwahoddiad",
+  "groupSettings": "Gosodiadau grŵp",
+  "members": "Aelodau",
+  "memberFallbackName": "Aelod",
+  "yourDisplayName": "Eich enw arddangos",
+  "displayNameInputHint": "Rhowch enw arddangos",
+  "ownerLabel": "Perchennog",
+  "youLabel": "Chi",
+  "removeMemberConfirmTitle": "Dileu dileu’r aelod?",
+  "removeMemberConfirmMessage": "Tynnu {name} o'r grŵp",
+  "joinGroup": "Ymuno â grŵp",
+  "invitationCodeInputLabel": "Cod gwahoddiad (8 nod)",
+  "invitationCodeInputHint": "Rhowch y cod 8 nod",
+  "join": "Ymuno",
+  "recordedByMember": "Cofnodwyd gan {name}",
+  "accountLink": "Trosglwyddo cyfrif",
+  "accountLinkDescription": "Drwy gysylltu ag Apple neu Google, gallwch drosglwyddo’ch data hyd yn oed ar ôl newid dyfais neu ailosod yr ap.",
+  "linkWithApple": "Trosglwyddo'r cyfrif gyda Apple",
+  "linkWithGoogle": "Trosglwyddo'r cyfrif gyda Google",
+  "accountLinkedWithApple": "Wedi’i gysylltu ag Apple",
+  "accountLinkedWithGoogle": "Wedi'i gysylltu â Google",
+  "accountLinkedSnackbar": "Trosglwyddwyd y cyfrif",
+  "accountLinkBannerText": "Wrth rannu grŵp, rydym yn argymell yn gryf eich bod yn sefydlu trosglwyddo cyfrif.",
+  "minimumDoseInterval": "Cyfwng rhwng dosau",
+  "minimumDoseIntervalDescription": "Yr amser lleiaf rhwng dosau ers y dos blaenorol",
+  "minimumDoseIntervalNone": "Dim",
+  "minimumDoseIntervalHoursFormat": "O leiaf {hours} awr",
+  "doseIntervalWarningTitle": "Nid yw’r cyfnod rhwng dosau wedi mynd heibio",
+  "doseIntervalWarningMessage": "Rydych eisoes wedi cymryd y dos ar {latestTakeTime}. Mae’r gosodiad yn gofyn am o leiaf {minimumDoseIntervalHours} awr rhwng dosau. A ydych am ei gofnodi beth bynnag?",
+  "doseIntervalWarningTakeAnyway": "Cofnodi",
+  "doseIntervalNotificationWarning": "⚠️ Nid oes {minimumDoseIntervalHours} awr wedi mynd heibio ers y dos diwethaf",
+  "ossLicense": "Trwyddedau OSS"
 }

@@ -1,783 +1,234 @@
 {
   "@@locale": "el",
   "retry": "Αναδοχή",
-  "@retry": {
-    "description": "エラーが発生した際やデータの読み込みに失敗した際に、再度処理を実行するためのボタンテキスト"
-  },
   "save": "Αποθήκευση",
-  "@save": {
-    "description": "フォームやエディタで入力したデータを保存する際に使用するボタンテキスト"
-  },
   "memo": "Σημείωση",
-  "@memo": {
-    "description": "服薬記録や日記などで追加情報を入力するためのテキストフィールドのプレースホルダー"
-  },
   "completed": "Ολοκληρώθηκε",
-  "@completed": {
-    "description": "フォームの入力や設定の変更などの操作が完了した際に使用するボタンテキスト"
-  },
   "medicineRegistration": "Οθόνη καταχώρισης φαρμάκου",
-  "@medicineRegistration": {
-    "description": "お薬の新規登録・編集画面のタイトル"
-  },
   "medicineName": "Όνομα φαρμάκου",
-  "@medicineName": {
-    "description": "お薬登録フォームでの薬の名前を入力するフィールドのプレースホルダー"
-  },
   "medicineList": "Λίστα φαρμάκων",
-  "@medicineList": {
-    "description": "登録されているお薬の一覧を表示する画面のタイトル"
-  },
   "medicationSchedule": "Πρόγραμμα λήψης φαρμάκων",
-  "@medicationSchedule": {
-    "description": "服用スケジュールのセクションタイトル"
-  },
   "medicationTime": "Ενεργοποίηση ειδοποιήσεων κατά τη λήψη φαρμάκου",
-  "@medicationTime": {
-    "description": "服用時刻の通知設定を有効にするためのスイッチのラベル"
-  },
   "medicationTimeDescription": "Θα στείλει ειδοποίηση με βάση την ώρα χορήγησης.",
-  "@medicationTimeDescription": {
-    "description": "服用時刻の通知設定の説明文"
-  },
   "close": "Κλείσιμο",
-  "@close": {
-    "description": "ダイアログやモーダルを閉じるためのボタンテキスト"
-  },
   "settings": "Ρυθμίσεις",
-  "@settings": {
-    "description": "設定画面のタイトル"
-  },
   "camera": "Κάμερα",
-  "@camera": {
-    "description": "カメラを起動するためのメニュー項目"
-  },
   "photoLibrary": "Φωτογραφική βιβλιοθήκη",
-  "@photoLibrary": {
-    "description": "フォトライブラリを開くためのメニュー項目"
-  },
   "medicationHistory": "Ιστορικό Φαρμακευτικής Αγωγής",
-  "@medicationHistory": {
-    "description": "服薬履歴を表示する画面のタイトル"
-  },
   "noMedicationHistory": "Δεν υπάρχουν ιστορικά φαρμακευτικής αγωγής",
-  "@noMedicationHistory": {
-    "description": "服薬履歴が存在しない場合に表示するメッセージ"
-  },
   "scheduledTime": "προγραμματισμένη ώρα",
-  "@scheduledTime": {
-    "description": "服薬予定時刻のラベル"
-  },
   "recordedTime": "Ώρα καταγραφής",
-  "@recordedTime": {
-    "description": "実際に服薬を記録した時間のラベル"
-  },
   "noMemo": "Χωρίς σημειώσεις",
-  "@noMemo": {
-    "description": "メモが存在しない場合に表示するテキスト"
-  },
   "premiumPlan": "Προνομιακός Σχεδιασμός",
-  "@premiumPlan": {
-    "description": "プレミアムプランの名称"
-  },
   "premiumFeatureAds": "Απόκρυψη διαφημίσεων",
-  "@premiumFeatureAds": {
-    "description": "プレミアム機能の広告非表示の説明"
-  },
   "premiumFeatureHistory": "Εμφάνιση όλων των ιστορικών λήψης",
-  "@premiumFeatureHistory": {
-    "description": "プレミアム機能の履歴表示の説明"
-  },
   "premiumRegistrationComplete": "Ολοκλήρωση της εγγραφής στο Medicalarm Premium",
-  "@premiumRegistrationComplete": {
-    "description": "プレミアム登録完了時のタイトル"
-  },
   "premiumRegistrationThanks": "Σας ευχαριστούμε για την εγγραφή σας.\nΌλες οι δυνατότητες είναι τώρα διαθέσιμες!",
-  "@premiumRegistrationThanks": {
-    "description": "プレミアム登録完了時のメッセージ"
-  },
   "unknownError": "Παρουσιάστηκε ένα άγνωστο σφάλμα.",
-  "@unknownError": {
-    "description": "予期せぬエラーが発生した際のエラーメッセージ"
-  },
   "error": "Παρουσιάστηκε σφάλμα",
-  "@error": {
-    "description": "一般的なエラーメッセージ"
-  },
   "unexpectedError": "Παρουσιάστηκε μια απρόβλεπτη σφάλμα",
-  "@unexpectedError": {
-    "description": "予期せぬエラーが発生した際のエラーメッセージ"
-  },
   "cancel": "Ακύρωση",
-  "@cancel": {
-    "description": "操作をキャンセルするためのボタンテキスト"
-  },
   "delete": "Διαγραφή",
-  "@delete": {
-    "description": "削除操作を実行するためのボタンテキスト"
-  },
   "deleteAccount": "Διαγραφή λογαριασμού",
-  "@deleteAccount": {
-    "description": "アカウント削除ボタンのテキスト"
-  },
   "deleteAccountConfirm": "Θα διαγράψετε τις πληροφορίες χρήστη.",
-  "@deleteAccountConfirm": {
-    "description": "アカウント削除確認ダイアログのタイトル"
-  },
   "deleteAccountMessage": "Αν διαγράψετε τον λογαριασμό σας, όλες οι πληροφορίες χρήστη θα διαγραφούν.",
-  "@deleteAccountMessage": {
-    "description": "アカウント削除確認ダイアログのメッセージ"
-  },
   "medicationFrequency": "Συχνότητα λήψης",
-  "@medicationFrequency": {
-    "description": "服用頻度の設定セクションのタイトル"
-  },
   "daily": "κάθε μέρα",
-  "@daily": {
-    "description": "毎日服用する頻度設定"
-  },
   "everyXDays": "Κάθε X ημέρες",
-  "@everyXDays": {
-    "description": "X日ごとに服用する頻度設定"
-  },
   "specificWeekdays": "Συγκεκριμένες ημέρες",
-  "@specificWeekdays": {
-    "description": "特定の曜日に服用する頻度設定"
-  },
   "cycle": "κύκλος",
-  "@cycle": {
-    "description": "周期で服用する頻度設定"
-  },
   "cycleDescription": "Παράδειγμα) 21η ημέρα λήψης/7η ημέρα διακοπής",
-  "@cycleDescription": {
-    "description": "周期での服用頻度の説明文"
-  },
   "everyXDaysDescription": "κάθε 2 ημέρες, κάθε 3 ημέρες",
-  "@everyXDaysDescription": {
-    "description": "X日ごとの服用頻度の説明文"
-  },
   "specificWeekdaysDescription": "π.χ. Δευτέρα μόνο, Τετάρτη και Παρασκευή",
-  "@specificWeekdaysDescription": {
-    "description": "特定の曜日の服用頻度の説明文"
-  },
   "medicineFormValidationError": "Παρακαλώ εισαγάγετε το όνομα και το πρόγραμμα λήψης.",
-  "@medicineFormValidationError": {
-    "description": "お薬登録フォームでの入力バリデーションエラーメッセージ"
-  },
   "quantity": "Δοσολογία",
-  "@quantity": {
-    "description": "服用量を入力するフィールドのラベル"
-  },
   "quantityExample": "παράδειγμα: 1 δισκίο, 100mg",
-  "@quantityExample": {
-    "description": "服用量入力フィールドのプレースホルダー"
-  },
   "medicationStartDate": "Ημερομηνία έναρξης λήψης",
-  "@medicationStartDate": {
-    "description": "服用開始日を選択するフィールドのラベル"
-  },
   "otherInformation": "Άλλα",
-  "@otherInformation": {
-    "description": "その他の情報を入力するセクションのタイトル"
-  },
   "doseReceiver": "Χρήστης φαρμάκου",
-  "@doseReceiver": {
-    "description": "服用者を選択するフィールドのラベル"
-  },
   "defaultDoseReceiver": "Εγώ",
-  "@defaultDoseReceiver": {
-    "description": "デフォルトの服用者名"
-  },
   "doseReceiverMaxCount": "Μπορούν να εγγραφούν έως {count} άτομα.",
-  "@doseReceiverMaxCount": {
-    "description": "服用者の最大登録数を表示するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "2"
-      }
-    }
-  },
   "increaseLimitWithPremium": "Αυξήστε το όριο σε {count} με το πρόγραμμα Premium.",
-  "@increaseLimitWithPremium": {
-    "description": "プレミアムプランでの上限増加を案内するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "10"
-      }
-    }
-  },
   "addDoseReceiver": "Προσθήκη λήπτη",
-  "@addDoseReceiver": {
-    "description": "服用者を追加するボタンのテキスト"
-  },
   "newDoseReceiver": "Νέος χρήστης",
-  "@newDoseReceiver": {
-    "description": "新規追加時のデフォルトの服用者名"
-  },
   "reloginRequired": "Παρακαλώ συνδεθείте ξανά",
-  "@reloginRequired": {
-    "description": "アカウント削除時に再ログインが必要な場合のダイアログタイトル"
-  },
   "reloginMessage": "Για να διαγράψετε τον λογαριασμό σας, παρακαλώ συνδεθείτε ξανά.",
-  "@reloginMessage": {
-    "description": "アカウント削除時の再ログイン要求メッセージ"
-  },
   "relogin": "Επανασύνδεση",
-  "@relogin": {
-    "description": "再ログインを実行するためのボタンテキスト"
-  },
   "accountDeleted": "Έχετε διαγράψει τον λογαριασμό σας.",
-  "@accountDeleted": {
-    "description": "アカウント削除完了時のメッセージ"
-  },
   "confirmExit": "Θα κλείσετε την εφαρμογή;",
-  "@confirmExit": {
-    "description": "アプリ終了確認のメッセージ"
-  },
   "exit": "Τερματισμός",
-  "@exit": {
-    "description": "アプリを終了するためのボタンテキスト"
-  },
   "viewFaq": "Δείτε τις Συχνές Ερωτήσεις",
-  "@viewFaq": {
-    "description": "FAQページを表示するためのボタンテキスト"
-  },
   "medicine": "Φάρμακο",
-  "@medicine": {
-    "description": "お薬タブのタイトル"
-  },
   "inquiry": "Επικοινωνία",
-  "@inquiry": {
-    "description": "お問い合わせボタンのテキスト"
-  },
   "ok": "ΟΚ",
-  "@ok": {
-    "description": "確認ダイアログのOKボタンのテキスト"
-  },
   "medicationScheduleLimit": "Μπορείτε να καταχωρίσετε έως {count} προγράμματα φαρμακευτικής αγωγής.",
-  "@medicationScheduleLimit": {
-    "description": "服用スケジュールの登録上限を表示するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "3"
-      }
-    }
-  },
   "increaseMedicationScheduleLimit": "Αυξήστε το όριο σε {count} με το πρόγραμμα Premium.",
-  "@increaseMedicationScheduleLimit": {
-    "description": "服用スケジュールの上限をプレミアムプランで増やすことを案内するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "10"
-      }
-    }
-  },
   "addMedicationSchedule": "Προσθήκη προγράμματος λήψης",
-  "@addMedicationSchedule": {
-    "description": "服用スケジュールを追加するボタンのテキスト"
-  },
   "medicationScheduleNotificationSetting": "Ρύθμιση ειδοποιήσεων προγράμματος φαρμακευτικής αγωγής",
-  "@medicationScheduleNotificationSetting": {
-    "description": "服用スケジュールの通知設定画面のタイトル"
-  },
   "notificationSetting": "Ρυθμίσεις ειδοποιήσεων",
-  "@notificationSetting": {
-    "description": "通知設定セクションのタイトル"
-  },
   "enableFollowupNotification": "Ενεργοποίηση της ειδοποίησης παρακολούθησης",
-  "@enableFollowupNotification": {
-    "description": "フォローアップ通知を有効にするスイッチのラベル"
-  },
   "followupNotificationDescription": "Εάν δεν καταγράψετε τη λήψη του φαρμάκου εντός 30 λεπτών από την πρώτη ειδοποίηση, θα σταλεί ειδοποίηση παρακολούθησης.",
-  "@followupNotificationDescription": {
-    "description": "フォローアップ通知の説明文"
-  },
   "enableNotificationInSilentMode": "Ειδοποιεί ακόμα και σε αθόρυβη λειτουργία",
-  "@enableNotificationInSilentMode": {
-    "description": "マナーモード時の通知を有効にするスイッチのラベル"
-  },
   "silentModeNotificationDescription": "Ακόμη και όταν είναι ενεργοποιημένη η Λειτουργία συγκέντρωσης ή όταν η συσκευή είναι σε σίγαση, οι σημαντικές ειδοποιήσεις εμφανίζονται στην οθόνη κλειδώματος και αναπαράγεται ήχος.",
-  "@silentModeNotificationDescription": {
-    "description": "マナーモード時の通知の説明文"
-  },
   "everyXDaysFormat": "{count} ημέρες",
-  "@everyXDaysFormat": {
-    "description": "X日ごとの服用頻度を表示する際のフォーマット",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "2"
-      }
-    }
-  },
   "cycleDaysFormat": "{consecutiveDays} ημέρες λήψης/{restDays} ημέρες παύσης",
-  "@cycleDaysFormat": {
-    "description": "服用周期を表示する際のフォーマット",
-    "placeholders": {
-      "consecutiveDays": {
-        "type": "int",
-        "example": "21"
-      },
-      "restDays": {
-        "type": "int",
-        "example": "7"
-      }
-    }
-  },
   "consecutiveDaysFormat": "{count} ημέρες λήψης",
-  "@consecutiveDaysFormat": {
-    "description": "連続服用日数を表示する際のフォーマット",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "21"
-      }
-    }
-  },
   "restDaysFormat": "{count} ημέρες απουσίας από τη φαρμακευτική αγωγή",
-  "@restDaysFormat": {
-    "description": "休薬日数を表示する際のフォーマット",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "7"
-      }
-    }
-  },
   "limitedTimeDiscount": "Τώρα μπορείτε να το χρησιμοποιήσετε σε περιορισμένη τιμή για πάντα.",
-  "@limitedTimeDiscount": {
-    "description": "プレミアムプランの限定価格キャンペーンを案内するメッセージ"
-  },
   "monthlyPlan": "Μηνιαίο πρόγραμμα",
-  "@monthlyPlan": {
-    "description": "月額プランの名称"
-  },
   "annualPlan": "Ετήσιο σχέδιο",
-  "@annualPlan": {
-    "description": "年額プランの名称"
-  },
   "weeklyPlan": "Εβδομαδιαίο σχέδιο",
-  "@weeklyPlan": {
-    "description": "週額プランの名称"
-  },
   "premiumRequired": "Η πρόσβαση είναι διαθέσιμη με την εγγραφή στο πρόγραμμα Premium.",
-  "@premiumRequired": {
-    "description": "プレミアムプラン加入が必要な機能へのアクセス時のメッセージ"
-  },
   "medication": "Φαρμακευτική αγωγή",
-  "@medication": {
-    "description": "服薬タブのタイトル"
-  },
   "history": "Ιστορικό",
-  "@history": {
-    "description": "履歴タブのタイトル"
-  },
+  "calendar": "Ημερολόγιο",
+  "diary": "Ημερολόγιο",
+  "writeDiary": "Γράψτε ημερολόγιο",
+  "editDiaryTooltip": "Επεξεργασία ημερολογίου",
   "medicineRegistrationLimit": "Ο αριθμός των καταχωρήσεων φαρμάκων",
-  "@medicineRegistrationLimit": {
-    "description": "薬の登録数の上限を説明するテキストの一部"
-  },
   "doseReceiverRegistrationLimit": "Ο αριθμός των εγγεγραμμένων χρηστών",
-  "@doseReceiverRegistrationLimit": {
-    "description": "服用者の登録数の上限を説明するテキストの一部"
-  },
   "notificationScheduleLimit": "Πλήθος προγραμματισμένων ειδοποιήσεων",
-  "@notificationScheduleLimit": {
-    "description": "通知スケジュールの上限を説明するテキストの一部"
-  },
   "addMedicine": "Προσθήκη φαρμάκου",
-  "@addMedicine": {
-    "description": "お薬を追加するボタンのテキスト"
-  },
   "medicineMaxCount": "Μπορείτε να καταχωρήσετε έως {count} φάρμακα.",
-  "@medicineMaxCount": {
-    "description": "お薬の最大登録数を表示するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "5"
-      }
-    }
-  },
   "increaseMedicineLimitWithPremium": "Αυξήστε το όριο στα {count} με το πρόγραμμα Premium",
-  "@increaseMedicineLimitWithPremium": {
-    "description": "お薬の登録上限をプレミアムプランで増やすことを案内するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "10"
-      }
-    }
-  },
   "aboutApp": "Σχετικά με την εφαρμογή",
-  "@aboutApp": {
-    "description": "アプリについてのセクションタイトル"
-  },
   "viewPremiumPlan": "Δείτε το premium σχέδιο",
-  "@viewPremiumPlan": {
-    "description": "プレミアムプランの詳細を表示するためのボタンテキスト"
-  },
   "cancelSubscriptionInstruction": "Μετά την αγορά, η ακύρωση της αυτόματης ανανέωσης μπορεί να γίνει στις ρυθμίσεις του λογαριασμού της εφαρμογής {storeName}. (Δεν μπορείτε να ακυρώσετε την αυτόματη ανανέωση από μέσα στην εφαρμογή).",
-  "@cancelSubscriptionInstruction": {
-    "description": "自動更新の解約方法の説明",
-    "placeholders": {
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "headache": "πονοκέφαλος",
-  "@headache": {
-    "description": "症状の選択肢：頭痛"
-  },
   "stomachache": "κοιλιακός πόνος",
-  "@stomachache": {
-    "description": "症状の選択肢：腹痛"
-  },
   "nausea": "ναυτία",
-  "@nausea": {
-    "description": "症状の選択肢：吐き気"
-  },
   "anemia": "αναιμία",
-  "@anemia": {
-    "description": "症状の選択肢：貧血"
-  },
   "diarrhea": "Διάρροια",
-  "@diarrhea": {
-    "description": "症状の選択肢：下痢"
-  },
   "constipation": "Δυσκοιλιότητα",
-  "@constipation": {
-    "description": "症状の選択肢：便秘"
-  },
   "hotFlash": "κοκκινίλα",
-  "@hotFlash": {
-    "description": "症状の選択肢：ほてり"
-  },
   "drowsiness": "Κούραση",
-  "@drowsiness": {
-    "description": "症状の選択肢：眠気"
-  },
   "backPain": "Πόνος στην πλάτη",
-  "@backPain": {
-    "description": "症状の選択肢：腰痛"
-  },
   "palpitation": "ταχυκαρδία",
-  "@palpitation": {
-    "description": "症状の選択肢：動悸"
-  },
   "abnormalBleeding": "Ακατάλληλη αιμορραγία",
-  "@abnormalBleeding": {
-    "description": "症状の選択肢：不正出血"
-  },
   "lossOfAppetite": "Απώλεια όρεξης",
-  "@lossOfAppetite": {
-    "description": "症状の選択肢：食欲不振"
-  },
   "chestTightness": "πόνος στο στήθος",
-  "@chestTightness": {
-    "description": "症状の選択肢：胸の張り"
-  },
   "insomnia": "Αϋπνία",
-  "@insomnia": {
-    "description": "症状の選択肢：不眠"
-  },
   "monthlyPlanDiscountFormat": "Έκπτωση {percent}% από την μηνιαία συνδρομή",
-  "@monthlyPlanDiscountFormat": {
-    "description": "月額プランからの割引率を表示するフォーマット",
-    "placeholders": {
-      "percent": {
-        "type": "int",
-        "example": "50"
-      }
-    }
-  },
   "purchaseErrorUnknown": "Ένα άγνωστο σφάλμα έχει προκύψει. Δοκιμάστε ξανά μετά από λίγο. Εάν το πρόβλημα δεν λυθεί, παρακαλούμε επικοινωνήστε μέσω Ρυθμίσεις > Επικοινωνία. Λεπτομέρειες: {message}",
-  "@purchaseErrorUnknown": {
-    "description": "購入時の不明なエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorStoreProblem": "Σφάλμα συνέβη στο {storeName}. Παρακαλώ περιμένετε λίγο και δοκιμάστε ξανά.",
-  "@purchaseErrorStoreProblem": {
-    "description": "ストアでのエラーメッセージ",
-    "placeholders": {
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "purchaseErrorInvalidPayment": "Η πληρωμή απέτυχε. Ελέγξτε αν η μέθοδος πληρωμής είναι έγκυρη και προσπαθήστε ξανά.",
-  "@purchaseErrorInvalidPayment": {
-    "description": "支払い方法が無効な場合のエラーメッセージ"
-  },
   "purchaseErrorProductUnavailable": "Το συγκεκριμένο σχέδιο δεν είναι διαθέσιμο προς πώληση αυτή τη στιγμή. Παρακαλούμε επανεκκινήστε την εφαρμογή και δοκιμάστε ξανά.",
-  "@purchaseErrorProductUnavailable": {
-    "description": "商品が利用できない場合のエラーメッセージ"
-  },
   "purchaseErrorAlreadyPurchased": "Έχετε ήδη αγοράσει ένα σχέδιο. Εάν θέλετε να επαναφέρετε τις πληροφορίες αγοράς σε αυτή τη συσκευή, παρακαλώ κάντε κλικ στο «Εδώ για να επαναφέρετε τις πληροφορίες αγοράς σας».",
-  "@purchaseErrorAlreadyPurchased": {
-    "description": "すでに購入済みの場合のエラーメッセージ"
-  },
   "purchaseErrorReceiptInUse": "Έχει ήδη αγοραστεί. Οι πληροφορίες αγοράς χρησιμοποιούνται από άλλο χρήστη. Παρακαλώ ελέγξτε το {accountName}.",
-  "@purchaseErrorReceiptInUse": {
-    "description": "購入情報が他のユーザーで使用されている場合のエラーメッセージ",
-    "placeholders": {
-      "accountName": {
-        "type": "String",
-        "example": "Apple ID"
-      }
-    }
-  },
   "purchaseErrorInvalidReceipt": "Οι πληροφορίες αγοράς είναι μη έγκυρες. Παρακαλώ ελέγξτε τις πληροφορίες αγοράς.",
-  "@purchaseErrorInvalidReceipt": {
-    "description": "購入情報が無効な場合のエラーメッセージ"
-  },
   "purchaseErrorMissingReceipt": "Δεν υπάρχουν πληροφορίες για τον αγοραστή. Παρακαλώ δοκιμάστε να συνδεθείτε στη συσκευή με το {accountName}.",
-  "@purchaseErrorMissingReceipt": {
-    "description": "購入情報が見つからない場合のエラーメッセージ",
-    "placeholders": {
-      "accountName": {
-        "type": "String",
-        "example": "Apple ID"
-      }
-    }
-  },
   "purchaseErrorNetwork": "Η κατάσταση του δικτύου είναι ασταθής. Ελέγξτε την κατάσταση της σύνδεσης πριν δοκιμάσετε ξανά.",
-  "@purchaseErrorNetwork": {
-    "description": "ネットワークエラーの場合のエラーメッセージ"
-  },
   "purchaseNotAllowed": "Η αγορά σε αυτή τη συσκευή δεν επιτρέπεται.",
-  "@purchaseNotAllowed": {
-    "description": "デバイスでの購入が許可されていない場合のエラーメッセージ"
-  },
   "purchaseErrorInvalidCredentials": "Η αγορά απέτυχε. Παρακαλώ περιμένετε λίγο και δοκιμάστε ξανά. Εάν το πρόβλημα επιμένει, παρακαλώ επικοινωνήστε μέσω Ρυθμίσεις > Επικοινωνία. Λεπτομέρειες: {message}",
-  "@purchaseErrorInvalidCredentials": {
-    "description": "認証情報が無効な場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorUnexpectedBackend": "Αυτή τη στιγμή δεν είναι δυνατή η αγορά. Παρακαλώ προσπαθήστε ξανά αργότερα. Εάν το πρόβλημα παραμένει, παρακαλώ επικοινωνήστε μέσω Ρυθμίσεις > Επικοινωνία. Λεπτομέρειες: {message}",
-  "@purchaseErrorUnexpectedBackend": {
-    "description": "バックエンドで予期せぬエラーが発生した場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorOperationInProgress": "Η διαδικασία αγοράς προχωράει χωριστά. Παρακαλούμε περιμένετε λίγο και ελέγξτε ξανά.",
-  "@purchaseErrorOperationInProgress": {
-    "description": "購入処理が既に進行中の場合のエラーメッセージ"
-  },
   "purchaseErrorInsufficientPermissions": "Δεν μπορείτε να εγγραφείτε στο σχέδιο με το {accountName} που χρησιμοποιείτε. Παρακαλώ ελέγξτε τις πληροφορίες πληρωμής σας και δοκιμάστε ξανά.",
-  "@purchaseErrorInsufficientPermissions": {
-    "description": "権限が不足している場合のエラーメッセージ",
-    "placeholders": {
-      "accountName": {
-        "type": "String",
-        "example": "Apple ID"
-      }
-    }
-  },
   "purchaseErrorPaymentPending": "Η πληρωμή σας έχει σταματήσει κατά τη διάρκεια της διαδικασίας. Παρακαλώ ελέγξτε το {storeName} με τον λογαριασμό σας {accountName}.",
-  "@purchaseErrorPaymentPending": {
-    "description": "支払いが保留中の場合のエラーメッセージ",
-    "placeholders": {
-      "accountName": {
-        "type": "String",
-        "example": "Apple ID"
-      },
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "premiumUserThanksTitle": "Είστε μέλος premium",
-  "@premiumUserThanksTitle": {
-    "description": "プレミアムユーザーへの感謝を示すタイトル"
-  },
   "premiumUserThanksMessage": "Σας ευχαριστούμε για τη χρήση μας. Χάρη σε εσάς, μπορούμε να συνεχίσουμε τη λειτουργία του Medicalarm.",
-  "@premiumUserThanksMessage": {
-    "description": "プレミアムユーザーへの感謝メッセージ"
-  },
   "premiumPricePerMonth": "({price}/μήνα)",
-  "@premiumPricePerMonth": {
-    "description": "月額料金の表示フォーマット",
-    "placeholders": {
-      "price": {
-        "type": "String",
-        "example": "¥500"
-      }
-    }
-  },
   "premiumCancelDescription": "Αμέσως μετά την αγορά, η ακύρωση της αυτόματης ανανέωσης μπορεί να γίνει από τις ρυθμίσεις του λογαριασμού στην εφαρμογή {storeName}. (Η ακύρωση της αυτόματης ανανέωσης δεν μπορεί να γίνει εντός της εφαρμογής).",
-  "@premiumCancelDescription": {
-    "description": "プレミアムプランの解約方法の説明",
-    "placeholders": {
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "purchaseErrorRestoreFailed": "Δεν βρέθηκαν προηγούμενες πληροφορίες αγοράς. Ελέγξτε τον λογαριασμό σας και δοκιμάστε ξανά.",
-  "@purchaseErrorRestoreFailed": {
-    "description": "購入情報の復元に失敗した場合のエラーメッセージ"
-  },
   "purchaseErrorUserNotFound": "Ο χρήστης δεν μπόρεσε να επιβεβαιώσει. Παρακαλώ επανεκκινήστε την εφαρμογή και δοκιμάστε ξανά. Λεπτομέρειες: {message}",
-  "@purchaseErrorUserNotFound": {
-    "description": "ユーザーが見つからない場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorActivationPending": "Η ενεργοποίηση της χρέωσης δεν έχει ολοκληρωθεί. Παρακαλώ περιμένετε λίγο και ελέγξτε ξανά.",
-  "@purchaseErrorActivationPending": {
-    "description": "課金の有効化が完了していない場合のエラーメッセージ"
-  },
   "purchaseErrorTimeout": "Έχει παρέλθει χρόνος αναμονής. Ελέγξτε το περιβάλλον επικοινωνίας και δοκιμάστε ξανά. Αν το πρόβλημα παραμείνει, επικοινωνήστε μέσω Ρυθμίσεις > Επικοινωνία. Λεπτομέρειες: {message}",
-  "@purchaseErrorTimeout": {
-    "description": "購入処理がタイムアウトした場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorNetworkError": "Υπάρχει πρόβλημα σύνδεσης. Ελέγξτε το περιβάλλον σύνδεσης και δοκιμάστε ξανά. Αν το πρόβλημα δεν λυθεί, παρακαλώ επικοινωνήστε μέσω Ρυθμίσεις > Επικοινωνία. Λεπτομέρειες: {message}",
-  "@purchaseErrorNetworkError": {
-    "description": "ネットワークエラーが発生した場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "sixMonthPlan": "6 μηνών πρόγραμμα",
-  "@sixMonthPlan": {
-    "description": "6ヶ月プランの表示名"
-  },
   "premiumContractPeriod": "Η διάρκεια της σύμβασης είναι 1 μήνας από την ημερομηνία αγοράς.",
-  "@premiumContractPeriod": {
-    "description": "プレミアムプランの契約期間の説明"
-  },
   "privacyPolicy": "Πολιτική απορρήτου",
-  "@privacyPolicy": {
-    "description": "プライバシーポリシーのリンクテキスト"
-  },
   "termsOfService": "Όροι Χρήσης",
-  "@termsOfService": {
-    "description": "利用規約のリンクテキスト"
-  },
   "specifiedCommercialTransactionAct": "Στοιχεία σύμφωνα με το νόμο περί εμπορικών συναλλαγών",
-  "@specifiedCommercialTransactionAct": {
-    "description": "特定商取引法に基づく表記のリンクテキスト"
-  },
   "confirmBeforeRegistration": "Παρακαλώ ελέγξτε και εγγραφείτε.",
-  "@confirmBeforeRegistration": {
-    "description": "各種規約確認を促すメッセージ"
-  },
   "autoRenewalNotice": "Μετά την λήξη της συμβατικής περιόδου, θα γίνει αυτόματη ανανέωση.",
-  "@autoRenewalNotice": {
-    "description": "自動更新に関する注意事項"
-  },
   "restorePurchase": "Αυτοί που έχουν αγοράσει προηγουμένως εδώ",
-  "@restorePurchase": {
-    "description": "購入情報の復元リンクのテキスト"
-  },
   "purchaseRestored": "Ανακτήθηκαν οι πληροφορίες αγοράς.",
-  "@purchaseRestored": {
-    "description": "購入情報の復元が完了した際のメッセージ"
-  },
   "medicationTimeFollowup": "Παρακολούθηση Πορείας Λήψης Φαρμάκων",
-  "@medicationTimeFollowup": {
-    "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
-  },
   "updateRequired": "Απαιτείται ενημέρωση",
-  "@updateRequired": {
-    "description": "強制アップデートが必要な場合のダイアログタイトル"
-  },
   "updateRequiredMessage": "Παρακαλούμε ενημερώστε την εφαρμογή σας στην τελευταία έκδοση από το {storeName}.",
-  "@updateRequiredMessage": {
-    "description": "強制アップデートが必要な場合のダイアログメッセージ",
-    "placeholders": {
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "screenshotMedicationHistoriesMemo": "Ξέχασα να πάρω το φάρμακό μου επειδή κοιμήθηκα πολύ.",
-  "@screenshotMedicationHistoriesMemo": {
-    "description": "薬のメモの例"
-  },
   "screenshotMedicationDoserReceiver1": "εαυτός",
-  "@screenshotMedicationDoserReceiver1": {
-    "description": "薬の服用者の例"
-  },
   "screenshotMedicationDoserReceiver2": "Μάνα (Mάna)",
-  "@screenshotMedicationDoserReceiver2": {
-    "description": "薬の服用者の例"
-  },
   "screenshotMedicationQuontityMemo1": "1 δισκίο",
-  "@screenshotMedicationQuontityMemo1": {
-    "description": "薬の服用量の例"
-  },
   "screenshotMedicationQuontityMemo2": "2 δισκία",
-  "@screenshotMedicationQuontityMemo2": {
-    "description": "薬の服用量の例"
-  },
   "screenshotMedicationName1": "παυσίπονο",
-  "@screenshotMedicationName1": {
-    "description": "薬の名前の例"
-  },
   "screenshotMedicationName2": "Βιταμίνες",
-  "@screenshotMedicationName2": {
-    "description": "薬の名前の例"
-  },
   "notificationTitle": "Ώρα για φάρμακα",
-  "@notificationTitle": {
-    "description": "薬の通知のタイトル"
-  },
   "notificationFollowupTitle": "Μήπως ξεχάσατε να καταγράψετε την λήψη φαρμάκων;",
-  "@notificationFollowupTitle": {
-    "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
-  },
   "recommendedApp": "Προτεινόμενες εφαρμογές",
-  "@recommendedApp": {
-    "description": "おすすめアプリのタイトル"
-  },
   "pilllIntroduction": "Είναι μήπως η διαχείριση των χαπιών; Μη χάσετε την ευκαιρία να διαχειριστείτε ευκολότερα τη λήψη των χαπιών σας!",
-  "@pilllIntroduction": {
-    "description": "ピルの管理の紹介"
-  },
   "installPilll": "Εγκατάσταση του Pilll",
-  "@installPilll": {
-    "description": "Pilllをインストールするボタンのテキスト"
-  },
   "criticalAlertVolume": "Όγκος",
-  "@criticalAlertVolume": {
-    "description": "緊急通知の音量の表示名"
-  }
+  "specialGift": "🎉 Ειδικό δώρο 🎉",
+  "freePremiumTrialDays": "Θα λάβετε δωρεάν δοκιμαστική περίοδο {count} ημερών ως δώρο!",
+  "welcomeToMedicalarm": "Καλώς ήρθατε στο Medicalarm!",
+  "writeReviewFor5StarPromotion": "Γράψτε αξιολόγηση 5 αστέρων και κριτική στο App Store και δοκιμάστε δωρεάν τις premium λειτουργίες για {count} ημέρες!",
+  "rating5StarsEncouragement": "Η αξιολόγησή σας με ★5 είναι μεγάλη ενθάρρυνση για τους προγραμματιστές.\nΣας παρακαλούμε να μας υποστηρίξετε, ώστε να δημιουργήσουμε μια ακόμη καλύτερη εφαρμογή!",
+  "noAutoCharge": "Δεν θα γίνει αυτόματη χρέωση. Μετά τη λήξη της δοκιμαστικής περιόδου, θα επιστρέψετε αυτόματα στο δωρεάν πρόγραμμα.",
+  "write5StarReview": "Γράψτε μια κριτική 5 αστέρων",
+  "receiveReward": "Λάβετε την ανταμοιβή",
+  "notNow": "Όχι τώρα",
+  "openAppStore": "Άνοιγμα App Store",
+  "confirmOpenAppStore": "Θέλετε να ανοίξετε το App Store για να γράψετε μια κριτική;",
+  "premiumFeaturesList": "Λίστα premium λειτουργιών",
+  "currentlyInPremiumTrial": "Αυτήν τη στιγμή χρησιμοποιείτε τη δοκιμαστική περίοδο Premium.",
+  "medicationPause": "Ενεργοποίηση φαρμάκου",
+  "medicationPauseDescription": "Όταν απενεργοποιηθεί, θα εξαιρεθεί από την οθόνη φαρμάκων και τις ειδοποιήσεις.",
+  "medicinePausedSnackbar": "Η λήψη του φαρμάκου διακόπηκε προσωρινά",
+  "medicationHistoryDeletedSnackbar": "Η καταγραφή λήψης του φαρμάκου αναιρέθηκε",
+  "undo": "Αναίρεση",
+  "medicationHistoryReverted": "Αναίρεση καταγραφής λήψης φαρμάκου",
+  "revertedTime": "Ώρα ακύρωσης",
+  "revertedByMember": "Ακύρωση από: {name}",
+  "medicationTakenAtLabel": "Λήφθηκε στις {time}",
+  "medicineResumedSnackbar": "Η λήψη του φαρμάκου συνεχίστηκε",
+  "medicineEditTooltip": "Επεξεργασία φαρμάκου",
+  "groups": "Ομάδες",
+  "groupManagement": "Διαχείριση ομάδων",
+  "createGroup": "Δημιουργία ομάδας",
+  "groupName": "Όνομα ομάδας",
+  "groupNameInputHint": "Εισαγάγετε το όνομα της ομάδας",
+  "groupIcon": "Εικονίδιο",
+  "groupMemberCount": "{count} μέλη",
+  "defaultGroupBadge": "Προεπιλεγμένο",
+  "soloGroupName": "Οι ομάδες μου",
+  "joinWithInvitationCode": "Συμμετοχή με κωδικό πρόσκλησης",
+  "groupCreationLimitReached": "Δεν μπορείτε να δημιουργήσετε άλλες ομάδες στο δωρεάν πρόγραμμα.",
+  "increaseGroupLimitWithPremium": "Δημιουργήστε περισσότερες ομάδες με το πρόγραμμα Premium",
+  "invitationCode": "Κωδικός πρόσκλησης",
+  "invitationCodeShareDescription": "Μπορείτε να μοιραστείτε αυτόν τον κωδικό για να προσκαλέσετε μέλη",
+  "invitationCodeExpiresAt": "Λήξη: {date}",
+  "copyInvitationCode": "Αντιγραφή κωδικού",
+  "invitationCodeCopied": "Ο κωδικός πρόσκλησης αντιγράφηκε",
+  "issueInvitationCode": "Έκδοση κωδικού πρόσκλησης",
+  "groupSettings": "Ρυθμίσεις ομάδας",
+  "members": "Μέλη",
+  "memberFallbackName": "Μέλος",
+  "yourDisplayName": "Το όνομα εμφάνισής σας",
+  "displayNameInputHint": "Εισαγάγετε εμφανιζόμενο όνομα",
+  "ownerLabel": "Ιδιοκτήτης",
+  "youLabel": "Εσείς",
+  "removeMemberConfirmTitle": "Θέλετε να καταργήσετε το μέλος;",
+  "removeMemberConfirmMessage": "Αφαίρεση του {name} από την ομάδα",
+  "joinGroup": "Συμμετοχή σε ομάδα",
+  "invitationCodeInputLabel": "Κωδικός πρόσκλησης (8 χαρακτήρες)",
+  "invitationCodeInputHint": "Εισαγάγετε τον κωδικό 8 χαρακτήρων",
+  "join": "Συμμετοχή",
+  "recordedByMember": "Καταγράφηκε από {name}",
+  "accountLink": "Μεταφορά λογαριασμού",
+  "accountLinkDescription": "Συνδέοντας το Apple ή το Google, μπορείτε να μεταφέρετε τα δεδομένα σας ακόμη και μετά την αλλαγή συσκευής ή την επανεγκατάσταση της εφαρμογής.",
+  "linkWithApple": "Μεταφορά λογαριασμού με Apple",
+  "linkWithGoogle": "Μεταφορά λογαριασμού με Google",
+  "accountLinkedWithApple": "Συνδεδεμένο με Apple",
+  "accountLinkedWithGoogle": "Συνδεδεμένο με Google",
+  "accountLinkedSnackbar": "Ο λογαριασμός μεταφέρθηκε",
+  "accountLinkBannerText": "Κατά την κοινή χρήση μιας ομάδας, συνιστούμε ανεπιφύλακτα να ρυθμίσετε τη μεταφορά λογαριασμού.",
+  "minimumDoseInterval": "Διάστημα μεταξύ δόσεων",
+  "minimumDoseIntervalDescription": "Ελάχιστο χρονικό διάστημα μεταξύ δόσεων από την προηγούμενη δόση",
+  "minimumDoseIntervalNone": "Κανένα",
+  "minimumDoseIntervalHoursFormat": "Τουλάχιστον {hours} ώρες",
+  "doseIntervalWarningTitle": "Δεν έχει περάσει το απαιτούμενο διάστημα μεταξύ των δόσεων",
+  "doseIntervalWarningMessage": "Έχετε ήδη πάρει τη δόση στις {latestTakeTime}. Η ρύθμιση απαιτεί να μεσολαβούν τουλάχιστον {minimumDoseIntervalHours} ώρες μεταξύ των δόσεων. Θέλετε να την καταγράψετε ούτως ή άλλως;",
+  "doseIntervalWarningTakeAnyway": "Καταγραφή",
+  "doseIntervalNotificationWarning": "⚠️ Δεν έχουν περάσει {minimumDoseIntervalHours} ώρες από την τελευταία λήψη",
+  "ossLicense": "Άδειες OSS"
 }

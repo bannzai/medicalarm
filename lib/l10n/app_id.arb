@@ -1,783 +1,234 @@
 {
   "@@locale": "id",
   "retry": "Coba lagi",
-  "@retry": {
-    "description": "エラーが発生した際やデータの読み込みに失敗した際に、再度処理を実行するためのボタンテキスト"
-  },
   "save": "Simpan",
-  "@save": {
-    "description": "フォームやエディタで入力したデータを保存する際に使用するボタンテキスト"
-  },
   "memo": "Catatan",
-  "@memo": {
-    "description": "服薬記録や日記などで追加情報を入力するためのテキストフィールドのプレースホルダー"
-  },
   "completed": "Selesai",
-  "@completed": {
-    "description": "フォームの入力や設定の変更などの操作が完了した際に使用するボタンテキスト"
-  },
   "medicineRegistration": "Layar Pendaftaran Obat",
-  "@medicineRegistration": {
-    "description": "お薬の新規登録・編集画面のタイトル"
-  },
   "medicineName": "Nama Obat",
-  "@medicineName": {
-    "description": "お薬登録フォームでの薬の名前を入力するフィールドのプレースホルダー"
-  },
   "medicineList": "Daftar Obat",
-  "@medicineList": {
-    "description": "登録されているお薬の一覧を表示する画面のタイトル"
-  },
   "medicationSchedule": "Jadwal Penggunaan",
-  "@medicationSchedule": {
-    "description": "服用スケジュールのセクションタイトル"
-  },
   "medicationTime": "Aktifkan pemberitahuan saat minum obat",
-  "@medicationTime": {
-    "description": "服用時刻の通知設定を有効にするためのスイッチのラベル"
-  },
   "medicationTimeDescription": "Mengirimkan notifikasi berdasarkan waktu pengobatan",
-  "@medicationTimeDescription": {
-    "description": "服用時刻の通知設定の説明文"
-  },
   "close": "Tutup",
-  "@close": {
-    "description": "ダイアログやモーダルを閉じるためのボタンテキスト"
-  },
   "settings": "Pengaturan",
-  "@settings": {
-    "description": "設定画面のタイトル"
-  },
   "camera": "Kamera",
-  "@camera": {
-    "description": "カメラを起動するためのメニュー項目"
-  },
   "photoLibrary": "Perpustakaan Foto",
-  "@photoLibrary": {
-    "description": "フォトライブラリを開くためのメニュー項目"
-  },
   "medicationHistory": "Riwayat Pengobatan",
-  "@medicationHistory": {
-    "description": "服薬履歴を表示する画面のタイトル"
-  },
   "noMedicationHistory": "Tidak ada riwayat penggunaan obat",
-  "@noMedicationHistory": {
-    "description": "服薬履歴が存在しない場合に表示するメッセージ"
-  },
   "scheduledTime": "Waktu yang Dijadwalkan",
-  "@scheduledTime": {
-    "description": "服薬予定時刻のラベル"
-  },
   "recordedTime": "Waktu Pencatatan",
-  "@recordedTime": {
-    "description": "実際に服薬を記録した時間のラベル"
-  },
   "noMemo": "Tanpa catatan",
-  "@noMemo": {
-    "description": "メモが存在しない場合に表示するテキスト"
-  },
   "premiumPlan": "Rencana Premium",
-  "@premiumPlan": {
-    "description": "プレミアムプランの名称"
-  },
   "premiumFeatureAds": "Menampilkan iklan tidak",
-  "@premiumFeatureAds": {
-    "description": "プレミアム機能の広告非表示の説明"
-  },
   "premiumFeatureHistory": "Tampilkan semua riwayat pengobatan",
-  "@premiumFeatureHistory": {
-    "description": "プレミアム機能の履歴表示の説明"
-  },
   "premiumRegistrationComplete": "Pendaftaran Premium Medicalarm Selesai",
-  "@premiumRegistrationComplete": {
-    "description": "プレミアム登録完了時のタイトル"
-  },
   "premiumRegistrationThanks": "Terima kasih telah mendaftar. Semua fitur telah dapat digunakan!",
-  "@premiumRegistrationThanks": {
-    "description": "プレミアム登録完了時のメッセージ"
-  },
   "unknownError": "Terjadi kesalahan yang tidak diketahui",
-  "@unknownError": {
-    "description": "予期せぬエラーが発生した際のエラーメッセージ"
-  },
   "error": "Terjadi kesalahan",
-  "@error": {
-    "description": "一般的なエラーメッセージ"
-  },
   "unexpectedError": "Kesalahan yang tidak terduga telah terjadi.",
-  "@unexpectedError": {
-    "description": "予期せぬエラーが発生した際のエラーメッセージ"
-  },
   "cancel": "Batal",
-  "@cancel": {
-    "description": "操作をキャンセルするためのボタンテキスト"
-  },
   "delete": "Hapus",
-  "@delete": {
-    "description": "削除操作を実行するためのボタンテキスト"
-  },
   "deleteAccount": "Hapus akun",
-  "@deleteAccount": {
-    "description": "アカウント削除ボタンのテキスト"
-  },
   "deleteAccountConfirm": "Menghapus informasi pengguna",
-  "@deleteAccountConfirm": {
-    "description": "アカウント削除確認ダイアログのタイトル"
-  },
   "deleteAccountMessage": "Menghapus akun akan menghapus semua informasi pengguna.",
-  "@deleteAccountMessage": {
-    "description": "アカウント削除確認ダイアログのメッセージ"
-  },
   "medicationFrequency": "Frekuensi pengobatan",
-  "@medicationFrequency": {
-    "description": "服用頻度の設定セクションのタイトル"
-  },
   "daily": "Setelan frekuensi untuk penggunaan setiap hari",
-  "@daily": {
-    "description": "毎日服用する頻度設定"
-  },
   "everyXDays": "Setiap X hari",
-  "@everyXDays": {
-    "description": "X日ごとに服用する頻度設定"
-  },
   "specificWeekdays": "Hari tertentu",
-  "@specificWeekdays": {
-    "description": "特定の曜日に服用する頻度設定"
-  },
   "cycle": "Frekuensi",
-  "@cycle": {
-    "description": "周期で服用する頻度設定"
-  },
   "cycleDescription": "Contoh) 21 hari minum/7 hari tidak minum",
-  "@cycleDescription": {
-    "description": "周期での服用頻度の説明文"
-  },
   "everyXDaysDescription": "Setiap X hari",
-  "@everyXDaysDescription": {
-    "description": "X日ごとの服用頻度の説明文"
-  },
   "specificWeekdaysDescription": "contoh) hanya hari Senin, Rabu dan Jumat",
-  "@specificWeekdaysDescription": {
-    "description": "特定の曜日の服用頻度の説明文"
-  },
   "medicineFormValidationError": "Silakan masukkan nama dan jadwal konsumsi obat",
-  "@medicineFormValidationError": {
-    "description": "お薬登録フォームでの入力バリデーションエラーメッセージ"
-  },
   "quantity": "Kapasitas",
-  "@quantity": {
-    "description": "服用量を入力するフィールドのラベル"
-  },
   "quantityExample": "Contoh: 1 tablet, 100mg",
-  "@quantityExample": {
-    "description": "服用量入力フィールドのプレースホルダー"
-  },
   "medicationStartDate": "Tanggal Mulai Pengobatan",
-  "@medicationStartDate": {
-    "description": "服用開始日を選択するフィールドのラベル"
-  },
   "otherInformation": "Lainnya",
-  "@otherInformation": {
-    "description": "その他の情報を入力するセクションのタイトル"
-  },
   "doseReceiver": "Pemberi obat",
-  "@doseReceiver": {
-    "description": "服用者を選択するフィールドのラベル"
-  },
   "defaultDoseReceiver": "Diri sendiri",
-  "@defaultDoseReceiver": {
-    "description": "デフォルトの服用者名"
-  },
   "doseReceiverMaxCount": "Pengguna dapat mendaftar hingga {count} orang.",
-  "@doseReceiverMaxCount": {
-    "description": "服用者の最大登録数を表示するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "2"
-      }
-    }
-  },
   "increaseLimitWithPremium": "Tingkatkan batas menjadi {count} dengan rencana premium",
-  "@increaseLimitWithPremium": {
-    "description": "プレミアムプランでの上限増加を案内するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "10"
-      }
-    }
-  },
   "addDoseReceiver": "Tambahkan pengambil obat",
-  "@addDoseReceiver": {
-    "description": "服用者を追加するボタンのテキスト"
-  },
   "newDoseReceiver": "Pengguna baru",
-  "@newDoseReceiver": {
-    "description": "新規追加時のデフォルトの服用者名"
-  },
   "reloginRequired": "Silakan masuk kembali",
-  "@reloginRequired": {
-    "description": "アカウント削除時に再ログインが必要な場合のダイアログタイトル"
-  },
   "reloginMessage": "Untuk menghapus akun, silakan masuk kembali.",
-  "@reloginMessage": {
-    "description": "アカウント削除時の再ログイン要求メッセージ"
-  },
   "relogin": "Masuk kembali",
-  "@relogin": {
-    "description": "再ログインを実行するためのボタンテキスト"
-  },
   "accountDeleted": "Akun telah dihapus",
-  "@accountDeleted": {
-    "description": "アカウント削除完了時のメッセージ"
-  },
   "confirmExit": "Apakah Anda akan keluar dari aplikasi?",
-  "@confirmExit": {
-    "description": "アプリ終了確認のメッセージ"
-  },
   "exit": "Akhiri",
-  "@exit": {
-    "description": "アプリを終了するためのボタンテキスト"
-  },
   "viewFaq": "Lihat FAQ",
-  "@viewFaq": {
-    "description": "FAQページを表示するためのボタンテキスト"
-  },
   "medicine": "Obat",
-  "@medicine": {
-    "description": "お薬タブのタイトル"
-  },
   "inquiry": "Kontak Kami",
-  "@inquiry": {
-    "description": "お問い合わせボタンのテキスト"
-  },
   "ok": "OK",
-  "@ok": {
-    "description": "確認ダイアログのOKボタンのテキスト"
-  },
   "medicationScheduleLimit": "Jadwal minum obat dapat didaftarkan hingga {count}.",
-  "@medicationScheduleLimit": {
-    "description": "服用スケジュールの登録上限を表示するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "3"
-      }
-    }
-  },
   "increaseMedicationScheduleLimit": "Tingkatkan batas hingga {count} dengan rencana premium",
-  "@increaseMedicationScheduleLimit": {
-    "description": "服用スケジュールの上限をプレミアムプランで増やすことを案内するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "10"
-      }
-    }
-  },
   "addMedicationSchedule": "Tambah Jadwal Minum",
-  "@addMedicationSchedule": {
-    "description": "服用スケジュールを追加するボタンのテキスト"
-  },
   "medicationScheduleNotificationSetting": "Pengaturan Pemberitahuan Jadwal Penggunaan",
-  "@medicationScheduleNotificationSetting": {
-    "description": "服用スケジュールの通知設定画面のタイトル"
-  },
   "notificationSetting": "Pengaturan Notifikasi",
-  "@notificationSetting": {
-    "description": "通知設定セクションのタイトル"
-  },
   "enableFollowupNotification": "Aktifkan pemberitahuan tindak lanjut",
-  "@enableFollowupNotification": {
-    "description": "フォローアップ通知を有効にするスイッチのラベル"
-  },
   "followupNotificationDescription": "Jika Anda tidak mencatat pengobatan dalam waktu 30 menit setelah pemberitahuan pertama, notifikasi tindak lanjut akan dikirim.",
-  "@followupNotificationDescription": {
-    "description": "フォローアップ通知の説明文"
-  },
   "enableNotificationInSilentMode": "Aktifkan notifikasi bahkan saat dalam mode senyap",
-  "@enableNotificationInSilentMode": {
-    "description": "マナーモード時の通知を有効にするスイッチのラベル"
-  },
   "silentModeNotificationDescription": "Pemberitahuan penting akan ditampilkan di layar kunci dan suara akan diputar meskipun Mode Fokus aktif atau perangkat dalam keadaan bisu.",
-  "@silentModeNotificationDescription": {
-    "description": "マナーモード時の通知の説明文"
-  },
   "everyXDaysFormat": "setiap {count} hari",
-  "@everyXDaysFormat": {
-    "description": "X日ごとの服用頻度を表示する際のフォーマット",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "2"
-      }
-    }
-  },
   "cycleDaysFormat": "{consecutiveDays} hari pemakaian/{restDays} hari berhenti",
-  "@cycleDaysFormat": {
-    "description": "服用周期を表示する際のフォーマット",
-    "placeholders": {
-      "consecutiveDays": {
-        "type": "int",
-        "example": "21"
-      },
-      "restDays": {
-        "type": "int",
-        "example": "7"
-      }
-    }
-  },
   "consecutiveDaysFormat": "{count} hari minum",
-  "@consecutiveDaysFormat": {
-    "description": "連続服用日数を表示する際のフォーマット",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "21"
-      }
-    }
-  },
   "restDaysFormat": "{count} hari tidak minum obat",
-  "@restDaysFormat": {
-    "description": "休薬日数を表示する際のフォーマット",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "7"
-      }
-    }
-  },
   "limitedTimeDiscount": "Sekarang tersedia dengan harga terbatas yang dapat digunakan selamanya",
-  "@limitedTimeDiscount": {
-    "description": "プレミアムプランの限定価格キャンペーンを案内するメッセージ"
-  },
   "monthlyPlan": "Rencana bulanan",
-  "@monthlyPlan": {
-    "description": "月額プランの名称"
-  },
   "annualPlan": "Rencana tahunan",
-  "@annualPlan": {
-    "description": "年額プランの名称"
-  },
   "weeklyPlan": "Rencana mingguan",
-  "@weeklyPlan": {
-    "description": "週額プランの名称"
-  },
   "premiumRequired": "Akses hanya tersedia dengan bergabung pada paket premium",
-  "@premiumRequired": {
-    "description": "プレミアムプラン加入が必要な機能へのアクセス時のメッセージ"
-  },
   "medication": "Pengobatan",
-  "@medication": {
-    "description": "服薬タブのタイトル"
-  },
   "history": "Riwayat",
-  "@history": {
-    "description": "履歴タブのタイトル"
-  },
+  "calendar": "Kalender",
+  "diary": "Jurnal",
+  "writeDiary": "Tulis jurnal",
+  "editDiaryTooltip": "Edit jurnal",
   "medicineRegistrationLimit": "Jumlah obat yang terdaftar",
-  "@medicineRegistrationLimit": {
-    "description": "薬の登録数の上限を説明するテキストの一部"
-  },
   "doseReceiverRegistrationLimit": "Jumlah pendaftar pengguna",
-  "@doseReceiverRegistrationLimit": {
-    "description": "服用者の登録数の上限を説明するテキストの一部"
-  },
   "notificationScheduleLimit": "Jumlah jadwal notifikasi",
-  "@notificationScheduleLimit": {
-    "description": "通知スケジュールの上限を説明するテキストの一部"
-  },
   "addMedicine": "Tambah Obat",
-  "@addMedicine": {
-    "description": "お薬を追加するボタンのテキスト"
-  },
   "medicineMaxCount": "Anda dapat mendaftar hingga {count} obat.",
-  "@medicineMaxCount": {
-    "description": "お薬の最大登録数を表示するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "5"
-      }
-    }
-  },
   "increaseMedicineLimitWithPremium": "Tingkatkan batas pendaftaran obat Anda menjadi {count} dengan paket premium.",
-  "@increaseMedicineLimitWithPremium": {
-    "description": "お薬の登録上限をプレミアムプランで増やすことを案内するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "10"
-      }
-    }
-  },
   "aboutApp": "Tentang Aplikasi",
-  "@aboutApp": {
-    "description": "アプリについてのセクションタイトル"
-  },
   "viewPremiumPlan": "Lihat Rencana Premium",
-  "@viewPremiumPlan": {
-    "description": "プレミアムプランの詳細を表示するためのボタンテキスト"
-  },
   "cancelSubscriptionInstruction": "Setelah pembelian, pembatalan pembaruan otomatis dapat dilakukan melalui pengaturan akun aplikasi {storeName}. (Pembaruan otomatis tidak dapat dibatalkan dari dalam aplikasi).",
-  "@cancelSubscriptionInstruction": {
-    "description": "自動更新の解約方法の説明",
-    "placeholders": {
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "headache": "Sakit kepala",
-  "@headache": {
-    "description": "症状の選択肢：頭痛"
-  },
   "stomachache": "nyeri perut",
-  "@stomachache": {
-    "description": "症状の選択肢：腹痛"
-  },
   "nausea": "Mual",
-  "@nausea": {
-    "description": "症状の選択肢：吐き気"
-  },
   "anemia": "Anemia",
-  "@anemia": {
-    "description": "症状の選択肢：貧血"
-  },
   "diarrhea": "Diare",
-  "@diarrhea": {
-    "description": "症状の選択肢：下痢"
-  },
   "constipation": "Sembelit",
-  "@constipation": {
-    "description": "症状の選択肢：便秘"
-  },
   "hotFlash": "merah",
-  "@hotFlash": {
-    "description": "症状の選択肢：ほてり"
-  },
   "drowsiness": "Kantuk",
-  "@drowsiness": {
-    "description": "症状の選択肢：眠気"
-  },
   "backPain": "Nyeri Punggung",
-  "@backPain": {
-    "description": "症状の選択肢：腰痛"
-  },
   "palpitation": "Jantung berdebar",
-  "@palpitation": {
-    "description": "症状の選択肢：動悸"
-  },
   "abnormalBleeding": "Perdarahan tidak normal",
-  "@abnormalBleeding": {
-    "description": "症状の選択肢：不正出血"
-  },
   "lossOfAppetite": "ketidaknafsuan makan",
-  "@lossOfAppetite": {
-    "description": "症状の選択肢：食欲不振"
-  },
   "chestTightness": "Pembengkakan Dada",
-  "@chestTightness": {
-    "description": "症状の選択肢：胸の張り"
-  },
   "insomnia": "Insomnia",
-  "@insomnia": {
-    "description": "症状の選択肢：不眠"
-  },
   "monthlyPlanDiscountFormat": "Diskon {percent}% dari paket bulanan",
-  "@monthlyPlanDiscountFormat": {
-    "description": "月額プランからの割引率を表示するフォーマット",
-    "placeholders": {
-      "percent": {
-        "type": "int",
-        "example": "50"
-      }
-    }
-  },
   "purchaseErrorUnknown": "Terjadi kesalahan yang tidak diketahui. Silakan coba lagi setelah beberapa saat. Jika masalah tidak teratasi, silakan hubungi kami melalui Pengaturan > Kontak. Rincian: {message}",
-  "@purchaseErrorUnknown": {
-    "description": "購入時の不明なエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorStoreProblem": "Terjadi kesalahan di {storeName}. Silakan tunggu sebentar dan coba lagi.",
-  "@purchaseErrorStoreProblem": {
-    "description": "ストアでのエラーメッセージ",
-    "placeholders": {
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "purchaseErrorInvalidPayment": "Pembayaran gagal. Silakan periksa apakah metode pembayaran valid dan coba lagi.",
-  "@purchaseErrorInvalidPayment": {
-    "description": "支払い方法が無効な場合のエラーメッセージ"
-  },
   "purchaseErrorProductUnavailable": "Rencana yang dimaksud saat ini tidak tersedia untuk dijual. Kami mohon maaf, tetapi silakan coba lagi setelah memulai ulang aplikasi.",
-  "@purchaseErrorProductUnavailable": {
-    "description": "商品が利用できない場合のエラーメッセージ"
-  },
   "purchaseErrorAlreadyPurchased": "Anda sudah membeli rencana. Jika Anda ingin memulihkan informasi pembelian di perangkat ini, silakan pulihkan informasi pembelian melalui \"Klik di sini jika Anda telah membeli sebelumnya\"",
-  "@purchaseErrorAlreadyPurchased": {
-    "description": "すでに購入済みの場合のエラーメッセージ"
-  },
   "purchaseErrorReceiptInUse": "Sudah dibeli. Informasi pembelian telah digunakan oleh pengguna lain. Harap periksa {accountName}.",
-  "@purchaseErrorReceiptInUse": {
-    "description": "購入情報が他のユーザーで使用されている場合のエラーメッセージ",
-    "placeholders": {
-      "accountName": {
-        "type": "String",
-        "example": "Apple ID"
-      }
-    }
-  },
   "purchaseErrorInvalidReceipt": "Informasi pembelian tidak valid. Silakan periksa informasi pembelian.",
-  "@purchaseErrorInvalidReceipt": {
-    "description": "購入情報が無効な場合のエラーメッセージ"
-  },
   "purchaseErrorMissingReceipt": "Informasi pembeli tidak ditemukan. Silakan coba masuk ke perangkat dengan {accountName}.",
-  "@purchaseErrorMissingReceipt": {
-    "description": "購入情報が見つからない場合のエラーメッセージ",
-    "placeholders": {
-      "accountName": {
-        "type": "String",
-        "example": "Apple ID"
-      }
-    }
-  },
   "purchaseErrorNetwork": "Kondisi jaringan tidak stabil. Silakan periksa keadaan koneksi Anda sebelum mencoba lagi.",
-  "@purchaseErrorNetwork": {
-    "description": "ネットワークエラーの場合のエラーメッセージ"
-  },
   "purchaseNotAllowed": "Pembelian di perangkat ini tidak diizinkan.",
-  "@purchaseNotAllowed": {
-    "description": "デバイスでの購入が許可されていない場合のエラーメッセージ"
-  },
   "purchaseErrorInvalidCredentials": "Pembelian gagal. Silakan coba lagi setelah beberapa saat. Jika masalah tetap tidak teratasi, silakan hubungi kami melalui Pengaturan > Kontak. Detail: {message}",
-  "@purchaseErrorInvalidCredentials": {
-    "description": "認証情報が無効な場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorUnexpectedBackend": "Saat ini tidak dapat melakukan pembelian. Silakan coba lagi setelah beberapa saat. Jika masalah ini tidak teratasi, silakan hubungi kami melalui Pengaturan > Kontak. Detail: {message}",
-  "@purchaseErrorUnexpectedBackend": {
-    "description": "バックエンドで予期せぬエラーが発生した場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorOperationInProgress": "Proses pembelian sedang berlangsung. Silakan tunggu beberapa saat dan periksa kembali.",
-  "@purchaseErrorOperationInProgress": {
-    "description": "購入処理が既に進行中の場合のエラーメッセージ"
-  },
   "purchaseErrorInsufficientPermissions": "Akun {accountName} Anda tidak dapat bergabung dengan rencana. Silakan periksa informasi pembayaran Anda dan coba lagi.",
-  "@purchaseErrorInsufficientPermissions": {
-    "description": "権限が不足している場合のエラーメッセージ",
-    "placeholders": {
-      "accountName": {
-        "type": "String",
-        "example": "Apple ID"
-      }
-    }
-  },
   "purchaseErrorPaymentPending": "Pembayaran sedang terhenti. Silakan periksa {storeName} dengan akun {accountName} yang sedang login.",
-  "@purchaseErrorPaymentPending": {
-    "description": "支払いが保留中の場合のエラーメッセージ",
-    "placeholders": {
-      "accountName": {
-        "type": "String",
-        "example": "Apple ID"
-      },
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "premiumUserThanksTitle": "Anggota premium",
-  "@premiumUserThanksTitle": {
-    "description": "プレミアムユーザーへの感謝を示すタイトル"
-  },
   "premiumUserThanksMessage": "Terima kasih telah menggunakan layanan kami.\nBerkat Anda, kami dapat terus menjalankan Medicalarm.",
-  "@premiumUserThanksMessage": {
-    "description": "プレミアムユーザーへの感謝メッセージ"
-  },
   "premiumPricePerMonth": "({price}/bulan)",
-  "@premiumPricePerMonth": {
-    "description": "月額料金の表示フォーマット",
-    "placeholders": {
-      "price": {
-        "type": "String",
-        "example": "¥500"
-      }
-    }
-  },
   "premiumCancelDescription": "• Setelah pembelian, pembatalan pembaruan otomatis dapat dilakukan di pengaturan akun {storeName} aplikasi. (Pembatalan pembaruan otomatis tidak dapat dilakukan dari dalam aplikasi).",
-  "@premiumCancelDescription": {
-    "description": "プレミアムプランの解約方法の説明",
-    "placeholders": {
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "purchaseErrorRestoreFailed": "Informasi pembelian sebelumnya tidak dapat ditemukan. Silakan periksa akun Anda dan coba lagi.",
-  "@purchaseErrorRestoreFailed": {
-    "description": "購入情報の復元に失敗した場合のエラーメッセージ"
-  },
   "purchaseErrorUserNotFound": "Pengguna tidak dapat ditemukan. Silakan restart aplikasi dan coba lagi. Rincian: {message}",
-  "@purchaseErrorUserNotFound": {
-    "description": "ユーザーが見つからない場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorActivationPending": "Aktivasi pembayaran belum selesai. Silakan coba lagi setelah beberapa saat.",
-  "@purchaseErrorActivationPending": {
-    "description": "課金の有効化が完了していない場合のエラーメッセージ"
-  },
   "purchaseErrorTimeout": "Waktu habis. Silakan periksa kondisi jaringan Anda dan coba lagi. Jika masalah belum teratasi, silakan kontak melalui Pengaturan > Pertanyaan. Rincian: {message}",
-  "@purchaseErrorTimeout": {
-    "description": "購入処理がタイムアウトした場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorNetworkError": " Ini adalah pesan kesalahan yang muncul ketika terjadi masalah jaringan. Silakan periksa lingkungan jaringan Anda dan coba lagi. Jika masalah tidak teratasi, silakan hubungi melalui Pengaturan > Kontak. Rincian: {message}",
-  "@purchaseErrorNetworkError": {
-    "description": "ネットワークエラーが発生した場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "sixMonthPlan": "Rencana 6 bulan",
-  "@sixMonthPlan": {
-    "description": "6ヶ月プランの表示名"
-  },
   "premiumContractPeriod": "Periode kontrak adalah 1 bulan dari tanggal pembelian.",
-  "@premiumContractPeriod": {
-    "description": "プレミアムプランの契約期間の説明"
-  },
   "privacyPolicy": "Kebijakan Privasi",
-  "@privacyPolicy": {
-    "description": "プライバシーポリシーのリンクテキスト"
-  },
   "termsOfService": "Ketentuan Penggunaan",
-  "@termsOfService": {
-    "description": "利用規約のリンクテキスト"
-  },
   "specifiedCommercialTransactionAct": "Pernyataan Berdasarkan Undang-Undang Perdagangan Tertentu",
-  "@specifiedCommercialTransactionAct": {
-    "description": "特定商取引法に基づく表記のリンクテキスト"
-  },
   "confirmBeforeRegistration": "Silakan periksa dan daftarkan diri Anda.",
-  "@confirmBeforeRegistration": {
-    "description": "各種規約確認を促すメッセージ"
-  },
   "autoRenewalNotice": "Setelah periode kontrak berakhir, akan dilakukan pembaruan otomatis.",
-  "@autoRenewalNotice": {
-    "description": "自動更新に関する注意事項"
-  },
   "restorePurchase": "Jika Anda sudah membeli sebelumnya",
-  "@restorePurchase": {
-    "description": "購入情報の復元リンクのテキスト"
-  },
   "purchaseRestored": "Informasi pembelian telah dipulihkan.",
-  "@purchaseRestored": {
-    "description": "購入情報の復元が完了した際のメッセージ"
-  },
   "medicationTimeFollowup": "Tindak Lanjut Waktu Penggunaan",
-  "@medicationTimeFollowup": {
-    "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
-  },
   "updateRequired": "Pembaruan diperlukan",
-  "@updateRequired": {
-    "description": "強制アップデートが必要な場合のダイアログタイトル"
-  },
   "updateRequiredMessage": "Harap perbarui ke versi terbaru dari {storeName}",
-  "@updateRequiredMessage": {
-    "description": "強制アップデートが必要な場合のダイアログメッセージ",
-    "placeholders": {
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "screenshotMedicationHistoriesMemo": "Saya terlalu banyak tidur siang sehingga terlambat untuk minum obat",
-  "@screenshotMedicationHistoriesMemo": {
-    "description": "薬のメモの例"
-  },
   "screenshotMedicationDoserReceiver1": "diri sendiri",
-  "@screenshotMedicationDoserReceiver1": {
-    "description": "薬の服用者の例"
-  },
   "screenshotMedicationDoserReceiver2": "Mana-chan",
-  "@screenshotMedicationDoserReceiver2": {
-    "description": "薬の服用者の例"
-  },
   "screenshotMedicationQuontityMemo1": "1 tablet",
-  "@screenshotMedicationQuontityMemo1": {
-    "description": "薬の服用量の例"
-  },
   "screenshotMedicationQuontityMemo2": "2 tablet",
-  "@screenshotMedicationQuontityMemo2": {
-    "description": "薬の服用量の例"
-  },
   "screenshotMedicationName1": "obat sakit kepala",
-  "@screenshotMedicationName1": {
-    "description": "薬の名前の例"
-  },
   "screenshotMedicationName2": "Vitamin",
-  "@screenshotMedicationName2": {
-    "description": "薬の名前の例"
-  },
   "notificationTitle": "Ini adalah waktu obat",
-  "@notificationTitle": {
-    "description": "薬の通知のタイトル"
-  },
   "notificationFollowupTitle": "Apakah Anda lupa mencatat rekapan penggunaan obat?",
-  "@notificationFollowupTitle": {
-    "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
-  },
   "recommendedApp": "Aplikasi Rekomendasi",
-  "@recommendedApp": {
-    "description": "おすすめアプリのタイトル"
-  },
   "pilllIntroduction": "Apakah ini tentang manajemen pil? Bagaimana jika kita mengelola penggunaan pil dengan lebih mudah?",
-  "@pilllIntroduction": {
-    "description": "ピルの管理の紹介"
-  },
   "installPilll": "Instal Pilll",
-  "@installPilll": {
-    "description": "Pilllをインストールするボタンのテキスト"
-  },
   "criticalAlertVolume": "Volume",
-  "@criticalAlertVolume": {
-    "description": "緊急通知の音量の表示名"
-  }
+  "specialGift": "🎉 Hadiah spesial 🎉",
+  "freePremiumTrialDays": "Anda akan mendapatkan masa uji coba gratis selama {count} hari sebagai hadiah!",
+  "welcomeToMedicalarm": "Selamat datang di Medicalarm!",
+  "writeReviewFor5StarPromotion": "Tulis rating 5 bintang dan ulasan di App Store untuk mencoba fitur premium gratis selama {count} hari!",
+  "rating5StarsEncouragement": "Rating ★5 Anda merupakan dorongan besar bagi para pengembang.\nDukung kami untuk membuat aplikasi yang lebih baik!",
+  "noAutoCharge": "Tidak ada tagihan otomatis. Setelah masa uji coba berakhir, Anda akan otomatis kembali ke paket gratis.",
+  "write5StarReview": "Tulis ulasan bintang 5",
+  "receiveReward": "Terima hadiah",
+  "notNow": "Jangan sekarang",
+  "openAppStore": "Buka App Store",
+  "confirmOpenAppStore": "Buka App Store untuk menulis ulasan?",
+  "premiumFeaturesList": "Daftar fitur premium",
+  "currentlyInPremiumTrial": "Saat ini Anda sedang menggunakan uji coba Premium.",
+  "medicationPause": "Aktifkan obat",
+  "medicationPauseDescription": "Jika dinonaktifkan, obat ini akan dikecualikan dari layar obat dan notifikasi.",
+  "medicinePausedSnackbar": "Konsumsi obat dihentikan sementara",
+  "medicationHistoryDeletedSnackbar": "Catatan minum obat dibatalkan",
+  "undo": "Urungkan",
+  "medicationHistoryReverted": "Pembatalan catatan minum obat",
+  "revertedTime": "Waktu pembatalan",
+  "revertedByMember": "{name} membatalkan",
+  "medicationTakenAtLabel": "Diminum pada {time}",
+  "medicineResumedSnackbar": "Konsumsi obat dilanjutkan",
+  "medicineEditTooltip": "Edit obat",
+  "groups": "Grup",
+  "groupManagement": "Kelola grup",
+  "createGroup": "Buat grup",
+  "groupName": "Nama grup",
+  "groupNameInputHint": "Masukkan nama grup",
+  "groupIcon": "Ikon",
+  "groupMemberCount": "{count} anggota",
+  "defaultGroupBadge": "Bawaan",
+  "soloGroupName": "Grup saya",
+  "joinWithInvitationCode": "Gabung dengan kode undangan",
+  "groupCreationLimitReached": "Anda tidak dapat membuat grup lagi dalam paket gratis.",
+  "increaseGroupLimitWithPremium": "Buat grup tambahan dengan paket Premium",
+  "invitationCode": "Kode undangan",
+  "invitationCodeShareDescription": "Bagikan kode ini untuk mengundang anggota",
+  "invitationCodeExpiresAt": "Berlaku hingga: {date}",
+  "copyInvitationCode": "Salin kode",
+  "invitationCodeCopied": "Kode undangan disalin",
+  "issueInvitationCode": "Buat kode undangan",
+  "groupSettings": "Pengaturan grup",
+  "members": "Anggota",
+  "memberFallbackName": "Anggota",
+  "yourDisplayName": "Nama tampilan Anda",
+  "displayNameInputHint": "Masukkan nama tampilan",
+  "ownerLabel": "Pemilik",
+  "youLabel": "Anda",
+  "removeMemberConfirmTitle": "Hapus anggota?",
+  "removeMemberConfirmMessage": "Hapus {name} dari grup",
+  "joinGroup": "Bergabung ke grup",
+  "invitationCodeInputLabel": "Kode undangan (8 karakter)",
+  "invitationCodeInputHint": "Masukkan kode 8 karakter",
+  "join": "Gabung",
+  "recordedByMember": "Dicatat oleh {name}",
+  "accountLink": "Transfer akun",
+  "accountLinkDescription": "Dengan menghubungkan ke Apple atau Google, Anda dapat memindahkan data meskipun berganti perangkat atau menginstal ulang aplikasi.",
+  "linkWithApple": "Pindahkan akun dengan Apple",
+  "linkWithGoogle": "Pindahkan akun dengan Google",
+  "accountLinkedWithApple": "Tertaut ke Apple",
+  "accountLinkedWithGoogle": "Terhubung dengan Google",
+  "accountLinkedSnackbar": "Akun telah dipindahkan",
+  "accountLinkBannerText": "Saat berbagi grup, kami sangat menyarankan Anda menyiapkan pengalihan akun.",
+  "minimumDoseInterval": "Jarak antar dosis",
+  "minimumDoseIntervalDescription": "Jeda minimum antar dosis sejak dosis terakhir",
+  "minimumDoseIntervalNone": "Tidak ada",
+  "minimumDoseIntervalHoursFormat": "Minimal {hours} jam",
+  "doseIntervalWarningTitle": "Jarak waktu antar dosis belum terpenuhi",
+  "doseIntervalWarningMessage": "Anda sudah meminumnya pada {latestTakeTime}. Pengaturan menetapkan jeda minimal {minimumDoseIntervalHours} jam antara setiap dosis. Tetap catat dosis ini?",
+  "doseIntervalWarningTakeAnyway": "Catat",
+  "doseIntervalNotificationWarning": "⚠️ Belum {minimumDoseIntervalHours} jam berlalu sejak dosis terakhir",
+  "ossLicense": "Lisensi OSS"
 }

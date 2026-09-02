@@ -1,783 +1,234 @@
 {
   "@@locale": "he",
   "retry": "נסה שוב",
-  "@retry": {
-    "description": "エラーが発生した際やデータの読み込みに失敗した際に、再度処理を実行するためのボタンテキスト"
-  },
   "save": "שמור",
-  "@save": {
-    "description": "フォームやエディタで入力したデータを保存する際に使用するボタンテキスト"
-  },
   "memo": "הערה",
-  "@memo": {
-    "description": "服薬記録や日記などで追加情報を入力するためのテキストフィールドのプレースホルダー"
-  },
   "completed": "הושלם",
-  "@completed": {
-    "description": "フォームの入力や設定の変更などの操作が完了した際に使用するボタンテキスト"
-  },
   "medicineRegistration": "מסך רישום תרופות",
-  "@medicineRegistration": {
-    "description": "お薬の新規登録・編集画面のタイトル"
-  },
   "medicineName": "שם תרופה",
-  "@medicineName": {
-    "description": "お薬登録フォームでの薬の名前を入力するフィールドのプレースホルダー"
-  },
   "medicineList": "רשימת תרופות",
-  "@medicineList": {
-    "description": "登録されているお薬の一覧を表示する画面のタイトル"
-  },
   "medicationSchedule": "לו\"ז נטילה",
-  "@medicationSchedule": {
-    "description": "服用スケジュールのセクションタイトル"
-  },
   "medicationTime": "אפעיל התראות בזמן נטילה",
-  "@medicationTime": {
-    "description": "服用時刻の通知設定を有効にするためのスイッチのラベル"
-  },
   "medicationTimeDescription": "ישלחו התראות על סמך זמני הנטילה",
-  "@medicationTimeDescription": {
-    "description": "服用時刻の通知設定の説明文"
-  },
   "close": "סגור",
-  "@close": {
-    "description": "ダイアログやモーダルを閉じるためのボタンテキスト"
-  },
   "settings": "הגדרות",
-  "@settings": {
-    "description": "設定画面のタイトル"
-  },
   "camera": "מצלמה",
-  "@camera": {
-    "description": "カメラを起動するためのメニュー項目"
-  },
   "photoLibrary": "ספריית תמונות",
-  "@photoLibrary": {
-    "description": "フォトライブラリを開くためのメニュー項目"
-  },
   "medicationHistory": "היסטוריה של תרופות",
-  "@medicationHistory": {
-    "description": "服薬履歴を表示する画面のタイトル"
-  },
   "noMedicationHistory": "אין היסטוריית נטילה",
-  "@noMedicationHistory": {
-    "description": "服薬履歴が存在しない場合に表示するメッセージ"
-  },
   "scheduledTime": "זמן מתוכנן",
-  "@scheduledTime": {
-    "description": "服薬予定時刻のラベル"
-  },
   "recordedTime": "שעת רישום",
-  "@recordedTime": {
-    "description": "実際に服薬を記録した時間のラベル"
-  },
   "noMemo": "ללא הערות",
-  "@noMemo": {
-    "description": "メモが存在しない場合に表示するテキスト"
-  },
   "premiumPlan": "תוכנית פרימיום",
-  "@premiumPlan": {
-    "description": "プレミアムプランの名称"
-  },
   "premiumFeatureAds": "הסתרת פרסומות",
-  "@premiumFeatureAds": {
-    "description": "プレミアム機能の広告非表示の説明"
-  },
   "premiumFeatureHistory": "הצג את כל היסטוריית השימוש",
-  "@premiumFeatureHistory": {
-    "description": "プレミアム機能の履歴表示の説明"
-  },
   "premiumRegistrationComplete": "הרשמה למדיקלארם פרימיום הושלמה",
-  "@premiumRegistrationComplete": {
-    "description": "プレミアム登録完了時のタイトル"
-  },
   "premiumRegistrationThanks": "תודה על ההרשמה! כל התכונות זמינות כעת!",
-  "@premiumRegistrationThanks": {
-    "description": "プレミアム登録完了時のメッセージ"
-  },
   "unknownError": "שגיאה לא ידועה התרחשה",
-  "@unknownError": {
-    "description": "予期せぬエラーが発生した際のエラーメッセージ"
-  },
   "error": "נפלה שגיאה",
-  "@error": {
-    "description": "一般的なエラーメッセージ"
-  },
   "unexpectedError": "שגיאה לא צפויה התרחשה",
-  "@unexpectedError": {
-    "description": "予期せぬエラーが発生した際のエラーメッセージ"
-  },
   "cancel": "ביטול",
-  "@cancel": {
-    "description": "操作をキャンセルするためのボタンテキスト"
-  },
   "delete": "מחק",
-  "@delete": {
-    "description": "削除操作を実行するためのボタンテキスト"
-  },
   "deleteAccount": "מחק חשבון",
-  "@deleteAccount": {
-    "description": "アカウント削除ボタンのテキスト"
-  },
   "deleteAccountConfirm": "מקדימה את המידע של המשתמש",
-  "@deleteAccountConfirm": {
-    "description": "アカウント削除確認ダイアログのタイトル"
-  },
   "deleteAccountMessage": "אם תסיר את החשבון, כל המידע של המשתמש יימחק.",
-  "@deleteAccountMessage": {
-    "description": "アカウント削除確認ダイアログのメッセージ"
-  },
   "medicationFrequency": "תדירות השימוש",
-  "@medicationFrequency": {
-    "description": "服用頻度の設定セクションのタイトル"
-  },
   "daily": "כל יום",
-  "@daily": {
-    "description": "毎日服用する頻度設定"
-  },
   "everyXDays": "כל X ימים",
-  "@everyXDays": {
-    "description": "X日ごとに服用する頻度設定"
-  },
   "specificWeekdays": "יום ספציפי",
-  "@specificWeekdays": {
-    "description": "特定の曜日に服用する頻度設定"
-  },
   "cycle": "מחזור",
-  "@cycle": {
-    "description": "周期で服用する頻度設定"
-  },
   "cycleDescription": "דוגמה) 21 ימים של נטילה/7 ימי הפסקה",
-  "@cycleDescription": {
-    "description": "周期での服用頻度の説明文"
-  },
   "everyXDaysDescription": "למשל) כל יומיים, כל שלושה ימים",
-  "@everyXDaysDescription": {
-    "description": "X日ごとの服用頻度の説明文"
-  },
   "specificWeekdaysDescription": "דוגמה) ביום שני בלבד, ביום רביעי וביום שישי",
-  "@specificWeekdaysDescription": {
-    "description": "特定の曜日の服用頻度の説明文"
-  },
   "medicineFormValidationError": "אנא הזן את השם ולוח הזמנים של התרופה",
-  "@medicineFormValidationError": {
-    "description": "お薬登録フォームでの入力バリデーションエラーメッセージ"
-  },
   "quantity": "קיבולת",
-  "@quantity": {
-    "description": "服用量を入力するフィールドのラベル"
-  },
   "quantityExample": "דוגמה: 1 כדור, 100 מ\"ג",
-  "@quantityExample": {
-    "description": "服用量入力フィールドのプレースホルダー"
-  },
   "medicationStartDate": "תאריך התחלת טיפול",
-  "@medicationStartDate": {
-    "description": "服用開始日を選択するフィールドのラベル"
-  },
   "otherInformation": "אחר",
-  "@otherInformation": {
-    "description": "その他の情報を入力するセクションのタイトル"
-  },
   "doseReceiver": "נוטל תרופות",
-  "@doseReceiver": {
-    "description": "服用者を選択するフィールドのラベル"
-  },
   "defaultDoseReceiver": "אני",
-  "@defaultDoseReceiver": {
-    "description": "デフォルトの服用者名"
-  },
   "doseReceiverMaxCount": "ניתן לרשום עד {count} נוטלים.",
-  "@doseReceiverMaxCount": {
-    "description": "服用者の最大登録数を表示するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "2"
-      }
-    }
-  },
   "increaseLimitWithPremium": "העלה את הגבול ל-{count} בתוכנית פרימיום",
-  "@increaseLimitWithPremium": {
-    "description": "プレミアムプランでの上限増加を案内するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "10"
-      }
-    }
-  },
   "addDoseReceiver": "הוסף נוטל תרופות",
-  "@addDoseReceiver": {
-    "description": "服用者を追加するボタンのテキスト"
-  },
   "newDoseReceiver": "משתמש חדש",
-  "@newDoseReceiver": {
-    "description": "新規追加時のデフォルトの服用者名"
-  },
   "reloginRequired": "אנא התחבר שוב",
-  "@reloginRequired": {
-    "description": "アカウント削除時に再ログインが必要な場合のダイアログタイトル"
-  },
   "reloginMessage": "כדי למחוק את החשבון, אנא התחבר מחדש.",
-  "@reloginMessage": {
-    "description": "アカウント削除時の再ログイン要求メッセージ"
-  },
   "relogin": "התחברות מחדש",
-  "@relogin": {
-    "description": "再ログインを実行するためのボタンテキスト"
-  },
   "accountDeleted": "החשבון נמחק",
-  "@accountDeleted": {
-    "description": "アカウント削除完了時のメッセージ"
-  },
   "confirmExit": "האם אתה רוצה לסגור את האפליקציה?",
-  "@confirmExit": {
-    "description": "アプリ終了確認のメッセージ"
-  },
   "exit": "להפסיק",
-  "@exit": {
-    "description": "アプリを終了するためのボタンテキスト"
-  },
   "viewFaq": "ראה שאלות נפוצות",
-  "@viewFaq": {
-    "description": "FAQページを表示するためのボタンテキスト"
-  },
   "medicine": "תרופות",
-  "@medicine": {
-    "description": "お薬タブのタイトル"
-  },
   "inquiry": "יצירת קשר",
-  "@inquiry": {
-    "description": "お問い合わせボタンのテキスト"
-  },
   "ok": "אוקי",
-  "@ok": {
-    "description": "確認ダイアログのOKボタンのテキスト"
-  },
   "medicationScheduleLimit": "ניתן לרשום עד {count} לוחות זמנים לשימוש.",
-  "@medicationScheduleLimit": {
-    "description": "服用スケジュールの登録上限を表示するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "3"
-      }
-    }
-  },
   "increaseMedicationScheduleLimit": "הגדל את הגבול ל-{count} בתוכנית פרימיום",
-  "@increaseMedicationScheduleLimit": {
-    "description": "服用スケジュールの上限をプレミアムプランで増やすことを案内するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "10"
-      }
-    }
-  },
   "addMedicationSchedule": "הוסף לוח זמנים ללקיחה",
-  "@addMedicationSchedule": {
-    "description": "服用スケジュールを追加するボタンのテキスト"
-  },
   "medicationScheduleNotificationSetting": "הגדרת התראות על לוח הזמנים של התרופות",
-  "@medicationScheduleNotificationSetting": {
-    "description": "服用スケジュールの通知設定画面のタイトル"
-  },
   "notificationSetting": "הגדרות התראות",
-  "@notificationSetting": {
-    "description": "通知設定セクションのタイトル"
-  },
   "enableFollowupNotification": "הפעל התראות מעקב",
-  "@enableFollowupNotification": {
-    "description": "フォローアップ通知を有効にするスイッチのラベル"
-  },
   "followupNotificationDescription": "אם לא תתעד את התרופה שלך תוך 30 דקות מההודעה הראשונה, תישלח הודעת מעקב.",
-  "@followupNotificationDescription": {
-    "description": "フォローアップ通知の説明文"
-  },
   "enableNotificationInSilentMode": "מקרי הודעות גם במצב שקט",
-  "@enableNotificationInSilentMode": {
-    "description": "マナーモード時の通知を有効にするスイッチのラベル"
-  },
   "silentModeNotificationDescription": "במצב ריכוז שהוא דולק או כאשר המכשיר במצב שקט, התראות חשובות מוצגות על מסך הנעילה ומושמעות צלילים.",
-  "@silentModeNotificationDescription": {
-    "description": "マナーモード時の通知の説明文"
-  },
   "everyXDaysFormat": "{count} ימים",
-  "@everyXDaysFormat": {
-    "description": "X日ごとの服用頻度を表示する際のフォーマット",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "2"
-      }
-    }
-  },
   "cycleDaysFormat": "{consecutiveDays} ימי נטילה/{restDays} ימי הפסקה",
-  "@cycleDaysFormat": {
-    "description": "服用周期を表示する際のフォーマット",
-    "placeholders": {
-      "consecutiveDays": {
-        "type": "int",
-        "example": "21"
-      },
-      "restDays": {
-        "type": "int",
-        "example": "7"
-      }
-    }
-  },
   "consecutiveDaysFormat": "{count} ימי נטילה",
-  "@consecutiveDaysFormat": {
-    "description": "連続服用日数を表示する際のフォーマット",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "21"
-      }
-    }
-  },
   "restDaysFormat": "{count} ימי הפסקת תרופות",
-  "@restDaysFormat": {
-    "description": "休薬日数を表示する際のフォーマット",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "7"
-      }
-    }
-  },
   "limitedTimeDiscount": "עכשיו במחיר מוגבל לשימוש קבוע",
-  "@limitedTimeDiscount": {
-    "description": "プレミアムプランの限定価格キャンペーンを案内するメッセージ"
-  },
   "monthlyPlan": "מנוי חודשי",
-  "@monthlyPlan": {
-    "description": "月額プランの名称"
-  },
   "annualPlan": "תכנית שנתית",
-  "@annualPlan": {
-    "description": "年額プランの名称"
-  },
   "weeklyPlan": "תוכנית שבועית",
-  "@weeklyPlan": {
-    "description": "週額プランの名称"
-  },
   "premiumRequired": "המנוי לתוכנית פרימיום נדרש כדי לגשת לתוכן זה",
-  "@premiumRequired": {
-    "description": "プレミアムプラン加入が必要な機能へのアクセス時のメッセージ"
-  },
   "medication": "נטילה",
-  "@medication": {
-    "description": "服薬タブのタイトル"
-  },
   "history": "היסטוריה",
-  "@history": {
-    "description": "履歴タブのタイトル"
-  },
+  "calendar": "לוח שנה",
+  "diary": "יומן",
+  "writeDiary": "כתיבת יומן",
+  "editDiaryTooltip": "עריכת יומן",
   "medicineRegistrationLimit": "מספר הרשמות לתרופות",
-  "@medicineRegistrationLimit": {
-    "description": "薬の登録数の上限を説明するテキストの一部"
-  },
   "doseReceiverRegistrationLimit": "מספר המתקבלים של משתמשים",
-  "@doseReceiverRegistrationLimit": {
-    "description": "服用者の登録数の上限を説明するテキストの一部"
-  },
   "notificationScheduleLimit": "מספר לוחות הזמנים להודעות",
-  "@notificationScheduleLimit": {
-    "description": "通知スケジュールの上限を説明するテキストの一部"
-  },
   "addMedicine": "הוסף תרופה",
-  "@addMedicine": {
-    "description": "お薬を追加するボタンのテキスト"
-  },
   "medicineMaxCount": "ניתן לרשום עד {count} תרופות.",
-  "@medicineMaxCount": {
-    "description": "お薬の最大登録数を表示するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "5"
-      }
-    }
-  },
   "increaseMedicineLimitWithPremium": "לְהַגְדִּיל אֶת הַמַּשָּׂא מִבַּטּוּחַ לְ-{count} בִּתְכּוּנַת פְּרֵימִיּוּם",
-  "@increaseMedicineLimitWithPremium": {
-    "description": "お薬の登録上限をプレミアムプランで増やすことを案内するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "10"
-      }
-    }
-  },
   "aboutApp": "אודות האפליקציה",
-  "@aboutApp": {
-    "description": "アプリについてのセクションタイトル"
-  },
   "viewPremiumPlan": "לראות את התוכנית המפנקת",
-  "@viewPremiumPlan": {
-    "description": "プレミアムプランの詳細を表示するためのボタンテキスト"
-  },
   "cancelSubscriptionInstruction": "לאחר הרכישה, ניתן לבצע ביטול של חידוש אוטומטי בהגדרות החשבון ב-{storeName} אפליקציה. (לא ניתן לבטל חידוש אוטומטי מתוך האפליקציה).",
-  "@cancelSubscriptionInstruction": {
-    "description": "自動更新の解約方法の説明",
-    "placeholders": {
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "headache": "כאבי ראש",
-  "@headache": {
-    "description": "症状の選択肢：頭痛"
-  },
   "stomachache": "כאב בטן",
-  "@stomachache": {
-    "description": "症状の選択肢：腹痛"
-  },
   "nausea": "בחילה",
-  "@nausea": {
-    "description": "症状の選択肢：吐き気"
-  },
   "anemia": "אנמיה",
-  "@anemia": {
-    "description": "症状の選択肢：貧血"
-  },
   "diarrhea": "שלשול",
-  "@diarrhea": {
-    "description": "症状の選択肢：下痢"
-  },
   "constipation": "עצירות",
-  "@constipation": {
-    "description": "症状の選択肢：便秘"
-  },
   "hotFlash": "חום",
-  "@hotFlash": {
-    "description": "症状の選択肢：ほてり"
-  },
   "drowsiness": "עייפות",
-  "@drowsiness": {
-    "description": "症状の選択肢：眠気"
-  },
   "backPain": "כאבי גב",
-  "@backPain": {
-    "description": "症状の選択肢：腰痛"
-  },
   "palpitation": "דופק",
-  "@palpitation": {
-    "description": "症状の選択肢：動悸"
-  },
   "abnormalBleeding": "דימומים לא סדירים",
-  "@abnormalBleeding": {
-    "description": "症状の選択肢：不正出血"
-  },
   "lossOfAppetite": "חוסר תיאבון",
-  "@lossOfAppetite": {
-    "description": "症状の選択肢：食欲不振"
-  },
   "chestTightness": "לחץ בחזה",
-  "@chestTightness": {
-    "description": "症状の選択肢：胸の張り"
-  },
   "insomnia": "נדודי שינה",
-  "@insomnia": {
-    "description": "症状の選択肢：不眠"
-  },
   "monthlyPlanDiscountFormat": "הנחה של {percent}% על התוכנית החודשית",
-  "@monthlyPlanDiscountFormat": {
-    "description": "月額プランからの割引率を表示するフォーマット",
-    "placeholders": {
-      "percent": {
-        "type": "int",
-        "example": "50"
-      }
-    }
-  },
   "purchaseErrorUnknown": "אירעה שגיאה בלתי ידועה. אנא המתן מעט ונסה שוב. אם הבעיה לא נפתרת, פנה אלינו דרך הגדרות > פנייה. פרטים: {message}",
-  "@purchaseErrorUnknown": {
-    "description": "購入時の不明なエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorStoreProblem": "שגיאה מתרחשת ב-{storeName}. אנא המתן זמן מה ונסו שוב.",
-  "@purchaseErrorStoreProblem": {
-    "description": "ストアでのエラーメッセージ",
-    "placeholders": {
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "purchaseErrorInvalidPayment": "שילוב התשלום נכשל. אנא ודא שזהו אמצעי תשלום תקף ונסה שוב.",
-  "@purchaseErrorInvalidPayment": {
-    "description": "支払い方法が無効な場合のエラーメッセージ"
-  },
   "purchaseErrorProductUnavailable": "המסלול המיועד אינו זמין כרגע. אנו מתנצלים, אנא נסה מחדש על ידי הפעלת האפליקציה מחדש.",
-  "@purchaseErrorProductUnavailable": {
-    "description": "商品が利用できない場合のエラーメッセージ"
-  },
   "purchaseErrorAlreadyPurchased": "כבר רכשת את התכנית. אם ברצונך לשחזר את פרטי הרכישה במכשיר זה, אנא לחץ על \"הכוונה לרוכשים הקודמים\" כדי לשחזר את פרטי הרכישה.",
-  "@purchaseErrorAlreadyPurchased": {
-    "description": "すでに購入済みの場合のエラーメッセージ"
-  },
   "purchaseErrorReceiptInUse": "כבר נרכש. המידע על רכישה נמצא בשימוש על ידי משתמש אחר. נא לבדוק את {accountName}.",
-  "@purchaseErrorReceiptInUse": {
-    "description": "購入情報が他のユーザーで使用されている場合のエラーメッセージ",
-    "placeholders": {
-      "accountName": {
-        "type": "String",
-        "example": "Apple ID"
-      }
-    }
-  },
   "purchaseErrorInvalidReceipt": "פרטי רכישה לא חוקיים. אנא בדוק את פרטי הרכישה שלך",
-  "@purchaseErrorInvalidReceipt": {
-    "description": "購入情報が無効な場合のエラーメッセージ"
-  },
   "purchaseErrorMissingReceipt": "אין מידע על הרוכש. אנא התחבר למכשיר באמצעות {accountName} ונסה שוב.",
-  "@purchaseErrorMissingReceipt": {
-    "description": "購入情報が見つからない場合のエラーメッセージ",
-    "placeholders": {
-      "accountName": {
-        "type": "String",
-        "example": "Apple ID"
-      }
-    }
-  },
   "purchaseErrorNetwork": "מצב הרשת אינו יציב. אנא בדוק את מצב החיבור שלך לפני שתנסה שוב.",
-  "@purchaseErrorNetwork": {
-    "description": "ネットワークエラーの場合のエラーメッセージ"
-  },
   "purchaseNotAllowed": "אינך מורשה לרכוש במכשיר הזה",
-  "@purchaseNotAllowed": {
-    "description": "デバイスでの購入が許可されていない場合のエラーメッセージ"
-  },
   "purchaseErrorInvalidCredentials": "לא הצלחנו לבצע את הרכישה. אנא המתן קצת ונסה שוב. אם הבעיה לא נפתרת, פנה אלינו דרך הגדרות > שאלות. פרטים: {message}",
-  "@purchaseErrorInvalidCredentials": {
-    "description": "認証情報が無効な場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorUnexpectedBackend": "הקנייה לא אפשרית כרגע. אנא חכה והנסה שוב מאוחר יותר. אם זה לא נפתר, צור קשר דרך הגדרות > פניות. פרטים: {message}",
-  "@purchaseErrorUnexpectedBackend": {
-    "description": "バックエンドで予期せぬエラーが発生した場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorOperationInProgress": "תהליך הרכישה מתקדם בנפרד. אנא המתן זמן מה על מנת לבדוק שוב.",
-  "@purchaseErrorOperationInProgress": {
-    "description": "購入処理が既に進行中の場合のエラーメッセージ"
-  },
   "purchaseErrorInsufficientPermissions": "בחשבון {accountName} שלך אין אפשרות להצטרף לתוכנית. אנא בדוק את פרטי התשלום שלך וניסיון שוב.",
-  "@purchaseErrorInsufficientPermissions": {
-    "description": "権限が不足している場合のエラーメッセージ",
-    "placeholders": {
-      "accountName": {
-        "type": "String",
-        "example": "Apple ID"
-      }
-    }
-  },
   "purchaseErrorPaymentPending": "התשלום הוקפא. אנא בדוק את {storeName} באמצעות {accountName} שלך.",
-  "@purchaseErrorPaymentPending": {
-    "description": "支払いが保留中の場合のエラーメッセージ",
-    "placeholders": {
-      "accountName": {
-        "type": "String",
-        "example": "Apple ID"
-      },
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "premiumUserThanksTitle": "אתה חבר פרימיום",
-  "@premiumUserThanksTitle": {
-    "description": "プレミアムユーザーへの感謝を示すタイトル"
-  },
   "premiumUserThanksMessage": "תודה על השימוש שלכם.\nבזכותכם, אנו יכולים להמשיך להפעיל את Medicalarm.",
-  "@premiumUserThanksMessage": {
-    "description": "プレミアムユーザーへの感謝メッセージ"
-  },
   "premiumPricePerMonth": "({price}/חודש)",
-  "@premiumPricePerMonth": {
-    "description": "月額料金の表示フォーマット",
-    "placeholders": {
-      "price": {
-        "type": "String",
-        "example": "¥500"
-      }
-    }
-  },
   "premiumCancelDescription": "לאחר הרכישה, ניתן לבטל את חידוש המנוי בהגדרות החשבון של אפליקציית {storeName}. (לא ניתן לבטל את חידוש המנוי מתוך האפליקציה).",
-  "@premiumCancelDescription": {
-    "description": "プレミアムプランの解約方法の説明",
-    "placeholders": {
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "purchaseErrorRestoreFailed": "לא נמצאה מידע רכישה קודם. אנא בדוק את החשבון שלך ומנסה שוב.",
-  "@purchaseErrorRestoreFailed": {
-    "description": "購入情報の復元に失敗した場合のエラーメッセージ"
-  },
   "purchaseErrorUserNotFound": "המשתמש לא נמצא. אנא סגור ופתח את האפליקציה מחדש והנסה שוב. פרטים: {message}",
-  "@purchaseErrorUserNotFound": {
-    "description": "ユーザーが見つからない場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorActivationPending": "לא הושלמה הפעלת המנוי. אנא המתן מעט לפני שתחזור לבדוק.",
-  "@purchaseErrorActivationPending": {
-    "description": "課金の有効化が完了していない場合のエラーメッセージ"
-  },
   "purchaseErrorTimeout": "היה חוסר פעולה. אנא בדוק את סביבת התקשורת שלך ונסה שוב. אם הבעיה נמשכת, צור קשר דרך הגדרות > יצירת קשר. פרטים: {message}",
-  "@purchaseErrorTimeout": {
-    "description": "購入処理がタイムアウトした場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorNetworkError": "יש בעיית תקשורת. אנא בדוק את סביבת התקשורת שלך ונסה שוב. אם הבעיה נמשכת, אנא פנה אלינו דרך הגדרות > שאלות. פרטים: {message}",
-  "@purchaseErrorNetworkError": {
-    "description": "ネットワークエラーが発生した場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "sixMonthPlan": "תוכנית של 6 חודשים",
-  "@sixMonthPlan": {
-    "description": "6ヶ月プランの表示名"
-  },
   "premiumContractPeriod": "ש期間 ההתקשרות הוא חודש אחד מיום הרכישה.",
-  "@premiumContractPeriod": {
-    "description": "プレミアムプランの契約期間の説明"
-  },
   "privacyPolicy": "מדיניות פרטיות",
-  "@privacyPolicy": {
-    "description": "プライバシーポリシーのリンクテキスト"
-  },
   "termsOfService": "תנאי שימוש",
-  "@termsOfService": {
-    "description": "利用規約のリンクテキスト"
-  },
   "specifiedCommercialTransactionAct": "הצהרת לפי החוק לסחר מוצרים",
-  "@specifiedCommercialTransactionAct": {
-    "description": "特定商取引法に基づく表記のリンクテキスト"
-  },
   "confirmBeforeRegistration": "אנא אשרו את ההסכמים וירשמו",
-  "@confirmBeforeRegistration": {
-    "description": "各種規約確認を促すメッセージ"
-  },
   "autoRenewalNotice": "בתום תקופת ההסכם, הוא יתחדש באופן אוטומטי.",
-  "@autoRenewalNotice": {
-    "description": "自動更新に関する注意事項"
-  },
   "restorePurchase": "כאן לרוכשים קודמים",
-  "@restorePurchase": {
-    "description": "購入情報の復元リンクのテキスト"
-  },
   "purchaseRestored": "שחזרנו את פרטי הרכישה",
-  "@purchaseRestored": {
-    "description": "購入情報の復元が完了した際のメッセージ"
-  },
   "medicationTimeFollowup": "מעקב בזמן נטילה",
-  "@medicationTimeFollowup": {
-    "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
-  },
   "updateRequired": "דרושה עדכון",
-  "@updateRequired": {
-    "description": "強制アップデートが必要な場合のダイアログタイトル"
-  },
   "updateRequiredMessage": "אנא עדכן לגרסה האחרונה מ-{storeName}",
-  "@updateRequiredMessage": {
-    "description": "強制アップデートが必要な場合のダイアログメッセージ",
-    "placeholders": {
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "screenshotMedicationHistoriesMemo": "שכבתי יותר מדי והזמן של לקיחת התרופה התעכב",
-  "@screenshotMedicationHistoriesMemo": {
-    "description": "薬のメモの例"
-  },
   "screenshotMedicationDoserReceiver1": "עצמי",
-  "@screenshotMedicationDoserReceiver1": {
-    "description": "薬の服用者の例"
-  },
   "screenshotMedicationDoserReceiver2": "מאנה צ'ן",
-  "@screenshotMedicationDoserReceiver2": {
-    "description": "薬の服用者の例"
-  },
   "screenshotMedicationQuontityMemo1": "1 כדור",
-  "@screenshotMedicationQuontityMemo1": {
-    "description": "薬の服用量の例"
-  },
   "screenshotMedicationQuontityMemo2": "2 טבליות",
-  "@screenshotMedicationQuontityMemo2": {
-    "description": "薬の服用量の例"
-  },
   "screenshotMedicationName1": "כאב ראש",
-  "@screenshotMedicationName1": {
-    "description": "薬の名前の例"
-  },
   "screenshotMedicationName2": "ויטמינים",
-  "@screenshotMedicationName2": {
-    "description": "薬の名前の例"
-  },
   "notificationTitle": "זה הזמן שלך לקחת את התרופה",
-  "@notificationTitle": {
-    "description": "薬の通知のタイトル"
-  },
   "notificationFollowupTitle": "האם שכחת לרשום את ההיסטוריה של התרופות שלך?",
-  "@notificationFollowupTitle": {
-    "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
-  },
   "recommendedApp": "אפליקציות מומלצות",
-  "@recommendedApp": {
-    "description": "おすすめアプリのタイトル"
-  },
   "pilllIntroduction": "האם אתה מתכוון לניהול גלולות? מדוע לא לנהל את נטילת הגלולות בצורה נוחה יותר?",
-  "@pilllIntroduction": {
-    "description": "ピルの管理の紹介"
-  },
   "installPilll": "התקן את Pilll",
-  "@installPilll": {
-    "description": "Pilllをインストールするボタンのテキスト"
-  },
   "criticalAlertVolume": "עוצמת קול",
-  "@criticalAlertVolume": {
-    "description": "緊急通知の音量の表示名"
-  }
+  "specialGift": "🎉 מתנה מיוחדת 🎉",
+  "freePremiumTrialDays": "תקבלו תקופת ניסיון בחינם למשך {count} ימים במתנה!",
+  "welcomeToMedicalarm": "ברוכים הבאים ל‑Medicalarm!",
+  "writeReviewFor5StarPromotion": "כתבו דירוג של 5 כוכבים וביקורת ב-App Store, ונסו את תכונות הפרימיום בחינם למשך {count} ימים!",
+  "rating5StarsEncouragement": "הדירוג שלך ב־★5 הוא עידוד גדול למפתחים.\nנשמח לתמיכתך כדי שנוכל ליצור אפליקציה טובה עוד יותר!",
+  "noAutoCharge": "לא יתבצע חיוב אוטומטי. לאחר סיום תקופת הניסיון, תחזרו אוטומטית למסלול החינמי.",
+  "write5StarReview": "כתיבת ביקורת של 5 כוכבים",
+  "receiveReward": "קבלו את התגמול",
+  "notNow": "לא עכשיו",
+  "openAppStore": "פתיחת App Store",
+  "confirmOpenAppStore": "לפתוח את App Store כדי לכתוב ביקורת?",
+  "premiumFeaturesList": "רשימת תכונות הפרימיום",
+  "currentlyInPremiumTrial": "אתם נמצאים כרגע בתקופת ניסיון של Premium.",
+  "medicationPause": "הפעלת התרופה",
+  "medicationPauseDescription": "בעת כיבוי, התרופה לא תוצג במסך התרופות ולא תישלח בהתראות.",
+  "medicinePausedSnackbar": "נטילת התרופה הושהתה זמנית",
+  "medicationHistoryDeletedSnackbar": "רישום נטילת התרופה בוטל",
+  "undo": "בטל",
+  "medicationHistoryReverted": "ביטול רישום נטילת תרופה",
+  "revertedTime": "זמן הביטול",
+  "revertedByMember": "בוטל על ידי {name}",
+  "medicationTakenAtLabel": "נלקח ב־{time}",
+  "medicineResumedSnackbar": "נטילת התרופה חודשה",
+  "medicineEditTooltip": "עריכת תרופה",
+  "groups": "קבוצות",
+  "groupManagement": "ניהול קבוצות",
+  "createGroup": "יצירת קבוצה",
+  "groupName": "שם הקבוצה",
+  "groupNameInputHint": "הזן את שם הקבוצה",
+  "groupIcon": "סמל",
+  "groupMemberCount": "{count} חברים",
+  "defaultGroupBadge": "ברירת מחדל",
+  "soloGroupName": "הקבוצות שלי",
+  "joinWithInvitationCode": "הצטרפות באמצעות קוד הזמנה",
+  "groupCreationLimitReached": "לא ניתן ליצור קבוצות נוספות במסגרת התוכנית החינמית.",
+  "increaseGroupLimitWithPremium": "צרו קבוצות נוספות עם תוכנית Premium",
+  "invitationCode": "קוד הזמנה",
+  "invitationCodeShareDescription": "אפשר לשתף את הקוד הזה כדי להזמין חברים",
+  "invitationCodeExpiresAt": "בתוקף עד: {date}",
+  "copyInvitationCode": "העתקת קוד",
+  "invitationCodeCopied": "קוד ההזמנה הועתק",
+  "issueInvitationCode": "יצירת קוד הזמנה",
+  "groupSettings": "הגדרות הקבוצה",
+  "members": "חברים",
+  "memberFallbackName": "חבר",
+  "yourDisplayName": "שם התצוגה שלך",
+  "displayNameInputHint": "הזן שם תצוגה",
+  "ownerLabel": "בעלים",
+  "youLabel": "את/ה",
+  "removeMemberConfirmTitle": "להסיר את החבר?",
+  "removeMemberConfirmMessage": "הסרת {name} מהקבוצה",
+  "joinGroup": "הצטרפות לקבוצה",
+  "invitationCodeInputLabel": "קוד הזמנה (8 תווים)",
+  "invitationCodeInputHint": "הזינו את הקוד בן 8 התווים",
+  "join": "הצטרפות",
+  "recordedByMember": "נרשם על ידי {name}",
+  "accountLink": "העברת חשבון",
+  "accountLinkDescription": "בחיבור ל‑Apple או ל‑Google, תוכלו להעביר את הנתונים שלכם גם לאחר החלפת מכשיר או התקנה מחדש של האפליקציה.",
+  "linkWithApple": "העברת החשבון באמצעות Apple",
+  "linkWithGoogle": "העברת החשבון באמצעות Google",
+  "accountLinkedWithApple": "מקושר ל‑Apple",
+  "accountLinkedWithGoogle": "מקושר ל-Google",
+  "accountLinkedSnackbar": "החשבון הועבר",
+  "accountLinkBannerText": "בזמן שיתוף קבוצה, אנו ממליצים בחום להגדיר העברת חשבון.",
+  "minimumDoseInterval": "מרווח בין מנות",
+  "minimumDoseIntervalDescription": "הזמן המינימלי בין מנות מהמנה הקודמת",
+  "minimumDoseIntervalNone": "אין",
+  "minimumDoseIntervalHoursFormat": "לפחות {hours} שעות",
+  "doseIntervalWarningTitle": "המרווח הנדרש בין המנות עדיין לא עבר",
+  "doseIntervalWarningMessage": "כבר נטלת את התרופה ב־{latestTakeTime}. בהגדרות נקבע מרווח של לפחות {minimumDoseIntervalHours} שעות בין מנות. האם לתעד זאת בכל זאת?",
+  "doseIntervalWarningTakeAnyway": "תיעוד",
+  "doseIntervalNotificationWarning": "⚠️ לא עברו {minimumDoseIntervalHours} שעות מאז המנה הקודמת",
+  "ossLicense": "רישיונות OSS"
 }
