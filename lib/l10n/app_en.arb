@@ -1092,6 +1092,10 @@
       }
     }
   },
+  "medicineImageImportGroupChangedError": "Import was cancelled because the current group changed",
+  "@medicineImageImportGroupChangedError": {
+    "description": "画像からの登録処理中に表示中のグループが切り替わり、登録を中止した場合に表示するエラー"
+  },
   "minimumDoseInterval": "Dose interval",
   "@minimumDoseInterval": {
     "description": "薬フォームの最低服用間隔設定タイルのタイトル"

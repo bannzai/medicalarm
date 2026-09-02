@@ -13,6 +13,7 @@ import 'package:medicalarm/entity/medicine.dart';
 import 'package:medicalarm/features/localization/l.dart';
 import 'package:medicalarm/features/medicine_image_import/review_sheet.dart';
 import 'package:medicalarm/provider/app_user.dart';
+import 'package:medicalarm/provider/current_group_id.dart';
 import 'package:medicalarm/provider/medicine.dart';
 import 'package:medicalarm/style/button.dart';
 import 'package:medicalarm/utils/billing/created_count.dart';
@@ -79,8 +80,8 @@ class MedicineImageImportButton extends HookConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final customerInfo = ref.watch(customerInfoProvider).asData?.value;
     final appUserID = ref.watch(appUserIDProvider);
-    // レビューシート表示中に本 widget が unmount されても登録処理を継続できるよう、
-    // build 時に確保した provider の値を使い、await 後に ref へ触らない。
+    // build 時に確保した provider の値を使うのは、await 後の ref 参照が unmount 時に例外になるため。
+    // unmount 時やグループ切替時は登録前に中止する (importFromImage 内のガードを参照)。
     final medicineAdd = ref.watch(medicineAddProvider);
     final registerReminderLocalNotification = ref.watch(registerReminderLocalNotificationProvider);
     final isLoading = useState(false);
@@ -98,12 +99,18 @@ class MedicineImageImportButton extends HookConsumerWidget {
       if (!context.mounted) {
         return;
       }
+      // インポート開始時点のグループ。処理中にグループが切り替わった場合は登録を中止し、旧グループへの書き込みを防ぐ
+      final importGroupID = medicineAdd.database.groupID;
       isLoading.value = true;
       try {
         final base64Image = await base64CompressImage(File(photo.path));
         // base64CompressImage は元画像の形式を問わず JPEG に再エンコードするため、元ファイルの拡張子ではなく JPEG 固定で送る
         final generatedMedicines = await functions.generateMedicinesFromImage(mimeType: 'image/jpeg', base64Image: base64Image);
         if (!context.mounted) {
+          return;
+        }
+        if (ref.read(currentGroupIDProvider) != importGroupID) {
+          showErrorAlert(context, L.medicineImageImportGroupChangedError);
           return;
         }
         final selectedCandidates = await showMedicineImageImportReviewSheet(
@@ -115,6 +122,14 @@ class MedicineImageImportButton extends HookConsumerWidget {
           maxSelectableCount: medicineMaxCount - createdMedicinesCount,
         );
         if (selectedCandidates == null || selectedCandidates.isEmpty) {
+          return;
+        }
+        // unmount 時は現在のグループを検証できないため、旧グループへの誤登録を防ぐ目的で登録自体を中止する
+        if (!context.mounted) {
+          return;
+        }
+        if (ref.read(currentGroupIDProvider) != importGroupID) {
+          showErrorAlert(context, L.medicineImageImportGroupChangedError);
           return;
         }
         // 複数件の登録は WriteBatch で原子的に行う (途中失敗による部分保存と、再実行時の重複登録を防ぐ)

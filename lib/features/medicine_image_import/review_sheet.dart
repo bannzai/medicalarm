@@ -150,7 +150,19 @@ class MedicineImageImportReviewSheet extends HookWidget {
                                             maxLength: 50,
                                             onChanged: (value) {
                                               final copied = [...editedCandidates.value];
-                                              copied[index] = candidate.copyWith(name: value);
+                                              var edited = candidate.copyWith(name: value);
+                                              // 空名で登録対象から外れていた候補に名前を入れ直した時、他の候補で残り枠が埋まっていれば
+                                              // 選択を解除し、確定件数が上限 (maxSelectableCount) を超えないようにする
+                                              if (edited.selected && edited.name.trim().isNotEmpty) {
+                                                final otherSubmittableCount = [
+                                                  for (final (i, c) in copied.indexed)
+                                                    if (i != index && c.selected && c.name.trim().isNotEmpty) c,
+                                                ].length;
+                                                if (otherSubmittableCount >= maxSelectableCount) {
+                                                  edited = edited.copyWith(selected: false);
+                                                }
+                                              }
+                                              copied[index] = edited;
                                               editedCandidates.value = copied;
                                             },
                                           ),

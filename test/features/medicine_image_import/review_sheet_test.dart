@@ -191,6 +191,58 @@ void main() {
     expect(readResult()?.map((candidate) => candidate.name), ['ガスター']);
   });
 
+  testWidgets('上限まで選択済みの状態で、名前を空にした候補に名前を入れ直すと選択が外れ確定件数が上限を超えない', (tester) async {
+    await pumpAndOpenSheet(
+      tester,
+      candidates: [candidate(name: 'ロキソニン'), candidate(name: 'ガスター')],
+      maxSelectableCount: 1,
+    );
+
+    // 枠 1 をロキソニンが使い切っているためガスターは選択できない
+    expect(tester.widget<Checkbox>(find.byType(Checkbox).at(1)).onChanged, isNull);
+
+    // ロキソニンの名前を空にすると登録対象から外れ、ガスターを選択できるようになる
+    await tester.enterText(find.byType(TextFormField).at(0), '');
+    await tester.pumpAndSettle();
+    expect(tester.widget<Checkbox>(find.byType(Checkbox).at(1)).onChanged, isNotNull);
+
+    await tester.tap(find.byType(Checkbox).at(1));
+    await tester.pumpAndSettle();
+    expect(find.text(L.medicineImageImportAddCount(1)), findsOneWidget);
+
+    // ロキソニンに名前を入れ直しても、枠はガスターが埋めているため選択が外れる
+    await tester.enterText(find.byType(TextFormField).at(0), 'ロキソニン');
+    await tester.pumpAndSettle();
+
+    expect(tester.widget<Checkbox>(find.byType(Checkbox).at(0)).value, false);
+    expect(tester.widget<Checkbox>(find.byType(Checkbox).at(1)).value, true);
+    expect(find.text(L.medicineImageImportAddCount(1)), findsOneWidget);
+  });
+
+  testWidgets('選択済みかつ名前が空の候補に、枠が埋まった後から名前を入力しても確定件数が上限を超えない', (tester) async {
+    await pumpAndOpenSheet(
+      tester,
+      candidates: [candidate(name: ''), candidate(name: 'ガスター')],
+      maxSelectableCount: 1,
+    );
+
+    // 初期選択は 1 件目のみだが名前が空で登録対象外のため、ガスターを選択できる
+    expect(tester.widget<Checkbox>(find.byType(Checkbox).at(0)).value, true);
+    expect(tester.widget<Checkbox>(find.byType(Checkbox).at(1)).onChanged, isNotNull);
+
+    await tester.tap(find.byType(Checkbox).at(1));
+    await tester.pumpAndSettle();
+    expect(find.text(L.medicineImageImportAddCount(1)), findsOneWidget);
+
+    // 名前を入力しても、枠はガスターが埋めているため選択が外れる
+    await tester.enterText(find.byType(TextFormField).at(0), 'ロキソニン');
+    await tester.pumpAndSettle();
+
+    expect(tester.widget<Checkbox>(find.byType(Checkbox).at(0)).value, false);
+    expect(tester.widget<Checkbox>(find.byType(Checkbox).at(1)).value, true);
+    expect(find.text(L.medicineImageImportAddCount(1)), findsOneWidget);
+  });
+
   testWidgets('キャンセルすると null が返る', (tester) async {
     final readResult = await pumpAndOpenSheet(tester, candidates: [candidate(name: 'ロキソニン')], maxSelectableCount: 10);
 
