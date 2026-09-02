@@ -252,5 +252,6 @@
   "onboardingCareTargetSelf": "నా కోసం",
   "onboardingCareTargetFamily": "కుటుంబం",
   "onboardingCareTargetSelfAndFamily": "నేను మరియు నా కుటుంబం",
-  "onboardingDailyDoseCountTitle": "మీరు రోజుకు ఎన్నిసార్లు మందులు తీసుకుంటారు?"
+  "onboardingDailyDoseCountTitle": "మీరు రోజుకు ఎన్నిసార్లు మందులు తీసుకుంటారు?",
+  "onboardingDailyDoseCountSubtitle": "నోటిఫికేషన్‌ల సంఖ్యను నిర్ణయించడానికి ఉపయోగించబడుతుంది."
 }

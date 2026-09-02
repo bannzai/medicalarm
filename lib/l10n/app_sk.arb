@@ -252,5 +252,6 @@
   "onboardingCareTargetSelf": "Pre seba",
   "onboardingCareTargetFamily": "Rodina",
   "onboardingCareTargetSelfAndFamily": "Ja a moja rodina",
-  "onboardingDailyDoseCountTitle": "Koľkokrát denne užívate lieky?"
+  "onboardingDailyDoseCountTitle": "Koľkokrát denne užívate lieky?",
+  "onboardingDailyDoseCountSubtitle": "Slúži na určenie počtu upozornení."
 }

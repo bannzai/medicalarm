@@ -252,5 +252,6 @@
   "onboardingCareTargetSelf": "Vir myself",
   "onboardingCareTargetFamily": "Familie",
   "onboardingCareTargetSelfAndFamily": "Ek en my gesin",
-  "onboardingDailyDoseCountTitle": "Hoeveel keer per dag neem u medisyne?"
+  "onboardingDailyDoseCountTitle": "Hoeveel keer per dag neem u medisyne?",
+  "onboardingDailyDoseCountSubtitle": "Dit word gebruik om die aantal kennisgewings te bepaal."
 }

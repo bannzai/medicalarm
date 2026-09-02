@@ -252,5 +252,6 @@
   "onboardingCareTargetSelf": "Fi fy hun",
   "onboardingCareTargetFamily": "Teulu",
   "onboardingCareTargetSelfAndFamily": "Fi a fy nheulu",
-  "onboardingDailyDoseCountTitle": "Sawl gwaith y dydd ydych chi'n cymryd meddyginiaeth?"
+  "onboardingDailyDoseCountTitle": "Sawl gwaith y dydd ydych chi'n cymryd meddyginiaeth?",
+  "onboardingDailyDoseCountSubtitle": "Fe'i defnyddir i bennu nifer yr hysbysiadau."
 }

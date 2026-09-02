@@ -252,5 +252,6 @@
   "onboardingCareTargetSelf": "Endale",
   "onboardingCareTargetFamily": "Perekond",
   "onboardingCareTargetSelfAndFamily": "Mina ja mu pere",
-  "onboardingDailyDoseCountTitle": "Mitu korda päevas te ravimeid võtate?"
+  "onboardingDailyDoseCountTitle": "Mitu korda päevas te ravimeid võtate?",
+  "onboardingDailyDoseCountSubtitle": "Kasutatakse märguannete arvu määramiseks."
 }

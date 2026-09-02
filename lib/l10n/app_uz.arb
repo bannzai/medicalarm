@@ -252,5 +252,6 @@
   "onboardingCareTargetSelf": "O‘zim uchun",
   "onboardingCareTargetFamily": "Oila",
   "onboardingCareTargetSelfAndFamily": "Men va oilam",
-  "onboardingDailyDoseCountTitle": "Kuniga necha marta dori qabul qilasiz?"
+  "onboardingDailyDoseCountTitle": "Kuniga necha marta dori qabul qilasiz?",
+  "onboardingDailyDoseCountSubtitle": "Bildirishnomalar sonini aniqlash uchun ishlatiladi."
 }

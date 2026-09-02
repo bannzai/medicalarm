@@ -252,5 +252,6 @@
   "onboardingCareTargetSelf": "Për vete",
   "onboardingCareTargetFamily": "Familja",
   "onboardingCareTargetSelfAndFamily": "Unë dhe familja ime",
-  "onboardingDailyDoseCountTitle": "Sa herë në ditë merrni ilaçe?"
+  "onboardingDailyDoseCountTitle": "Sa herë në ditë merrni ilaçe?",
+  "onboardingDailyDoseCountSubtitle": "Përdoret për të përcaktuar numrin e njoftimeve."
 }

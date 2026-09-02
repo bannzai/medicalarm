@@ -252,5 +252,6 @@
   "onboardingCareTargetSelf": "ჩემთვის",
   "onboardingCareTargetFamily": "ოჯახი",
   "onboardingCareTargetSelfAndFamily": "მე და ჩემი ოჯახი",
-  "onboardingDailyDoseCountTitle": "დღეში რამდენჯერ იღებთ წამალს?"
+  "onboardingDailyDoseCountTitle": "დღეში რამდენჯერ იღებთ წამალს?",
+  "onboardingDailyDoseCountSubtitle": "გამოიყენება შეტყობინებების რაოდენობის დასადგენად."
 }

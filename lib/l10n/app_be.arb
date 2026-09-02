@@ -252,5 +252,6 @@
   "onboardingCareTargetSelf": "Для сябе",
   "onboardingCareTargetFamily": "Сям'я",
   "onboardingCareTargetSelfAndFamily": "Я і мая сям'я",
-  "onboardingDailyDoseCountTitle": "Колькі разоў на дзень вы прымаеце лекі?"
+  "onboardingDailyDoseCountTitle": "Колькі разоў на дзень вы прымаеце лекі?",
+  "onboardingDailyDoseCountSubtitle": "Выкарыстоўваецца для вызначэння колькасці апавяшчэнняў."
 }

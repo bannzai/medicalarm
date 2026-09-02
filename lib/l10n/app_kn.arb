@@ -252,5 +252,6 @@
   "onboardingCareTargetSelf": "ನನಗಾಗಿ",
   "onboardingCareTargetFamily": "ಕುಟುಂಬ",
   "onboardingCareTargetSelfAndFamily": "ನಾನು ಮತ್ತು ನನ್ನ ಕುಟುಂಬ",
-  "onboardingDailyDoseCountTitle": "ನೀವು ದಿನಕ್ಕೆ ಎಷ್ಟು ಬಾರಿ ಔಷಧಿ ತೆಗೆದುಕೊಳ್ಳುತ್ತೀರಿ?"
+  "onboardingDailyDoseCountTitle": "ನೀವು ದಿನಕ್ಕೆ ಎಷ್ಟು ಬಾರಿ ಔಷಧಿ ತೆಗೆದುಕೊಳ್ಳುತ್ತೀರಿ?",
+  "onboardingDailyDoseCountSubtitle": "ಅಧಿಸೂಚನೆಗಳ ಸಂಖ್ಯೆಯನ್ನು ನಿರ್ಧರಿಸಲು ಬಳಸಲಾಗುತ್ತದೆ."
 }

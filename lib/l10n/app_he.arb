@@ -252,5 +252,6 @@
   "onboardingCareTargetSelf": "לעצמי",
   "onboardingCareTargetFamily": "משפחה",
   "onboardingCareTargetSelfAndFamily": "אני ומשפחתי",
-  "onboardingDailyDoseCountTitle": "כמה פעמים ביום אתם נוטלים תרופות?"
+  "onboardingDailyDoseCountTitle": "כמה פעמים ביום אתם נוטלים תרופות?",
+  "onboardingDailyDoseCountSubtitle": "משמש לקביעת מספר ההתראות."
 }

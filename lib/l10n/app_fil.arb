@@ -252,5 +252,6 @@
   "onboardingCareTargetSelf": "Para sa sarili ko",
   "onboardingCareTargetFamily": "Pamilya",
   "onboardingCareTargetSelfAndFamily": "Ako at ang aking pamilya",
-  "onboardingDailyDoseCountTitle": "Ilang beses sa isang araw ka umiinom ng gamot?"
+  "onboardingDailyDoseCountTitle": "Ilang beses sa isang araw ka umiinom ng gamot?",
+  "onboardingDailyDoseCountSubtitle": "Ginagamit ito upang tukuyin ang bilang ng mga notification."
 }

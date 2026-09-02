@@ -252,5 +252,6 @@
   "onboardingCareTargetSelf": "За себе",
   "onboardingCareTargetFamily": "Породица",
   "onboardingCareTargetSelfAndFamily": "Ја и моја породица",
-  "onboardingDailyDoseCountTitle": "Колико пута дневно узимате лекове?"
+  "onboardingDailyDoseCountTitle": "Колико пута дневно узимате лекове?",
+  "onboardingDailyDoseCountSubtitle": "Користи се за одређивање броја обавештења."
 }

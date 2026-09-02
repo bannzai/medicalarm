@@ -252,5 +252,6 @@
   "onboardingCareTargetSelf": "ለራሴ",
   "onboardingCareTargetFamily": "ቤተሰብ",
   "onboardingCareTargetSelfAndFamily": "እኔ እና ቤተሰቤ",
-  "onboardingDailyDoseCountTitle": "በቀን ስንት ጊዜ መድኃኒት ይወስዳሉ?"
+  "onboardingDailyDoseCountTitle": "በቀን ስንት ጊዜ መድኃኒት ይወስዳሉ?",
+  "onboardingDailyDoseCountSubtitle": "የማሳወቂያዎችን ብዛት ለመወሰን ይጠቀማል።"
 }

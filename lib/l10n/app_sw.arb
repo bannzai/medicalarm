@@ -252,5 +252,6 @@
   "onboardingCareTargetSelf": "Mimi mwenyewe",
   "onboardingCareTargetFamily": "Familia",
   "onboardingCareTargetSelfAndFamily": "Mimi na familia yangu",
-  "onboardingDailyDoseCountTitle": "Unatumia dawa mara ngapi kwa siku?"
+  "onboardingDailyDoseCountTitle": "Unatumia dawa mara ngapi kwa siku?",
+  "onboardingDailyDoseCountSubtitle": "Hutumika kubainisha idadi ya arifa."
 }

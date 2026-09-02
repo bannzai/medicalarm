@@ -252,5 +252,6 @@
   "onboardingCareTargetSelf": "Itselleni",
   "onboardingCareTargetFamily": "Perhe",
   "onboardingCareTargetSelfAndFamily": "Minä ja perheeni",
-  "onboardingDailyDoseCountTitle": "Kuinka monta kertaa päivässä otat lääkettä?"
+  "onboardingDailyDoseCountTitle": "Kuinka monta kertaa päivässä otat lääkettä?",
+  "onboardingDailyDoseCountSubtitle": "Käytetään ilmoitusten määrän määrittämiseen."
 }

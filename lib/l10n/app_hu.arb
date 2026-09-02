@@ -252,5 +252,6 @@
   "onboardingCareTargetSelf": "Magamnak",
   "onboardingCareTargetFamily": "Család",
   "onboardingCareTargetSelfAndFamily": "Én és a családom",
-  "onboardingDailyDoseCountTitle": "Naponta hányszor szed gyógyszert?"
+  "onboardingDailyDoseCountTitle": "Naponta hányszor szed gyógyszert?",
+  "onboardingDailyDoseCountSubtitle": "Az értesítések számának meghatározására szolgál."
 }

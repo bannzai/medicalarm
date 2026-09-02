@@ -252,5 +252,6 @@
   "onboardingCareTargetSelf": "自己",
   "onboardingCareTargetFamily": "家庭",
   "onboardingCareTargetSelfAndFamily": "我和家人",
-  "onboardingDailyDoseCountTitle": "您每天服用几次药？"
+  "onboardingDailyDoseCountTitle": "您每天服用几次药？",
+  "onboardingDailyDoseCountSubtitle": "用于确定通知次数。"
 }

@@ -252,5 +252,6 @@
   "onboardingCareTargetSelf": "မိမိအတွက်",
   "onboardingCareTargetFamily": "မိသားစု",
   "onboardingCareTargetSelfAndFamily": "ကျွန်ုပ်နှင့် မိသားစု",
-  "onboardingDailyDoseCountTitle": "တစ်နေ့လျှင် ဆေးကို ဘယ်နှစ်ကြိမ် သောက်ပါသလဲ။"
+  "onboardingDailyDoseCountTitle": "တစ်နေ့လျှင် ဆေးကို ဘယ်နှစ်ကြိမ် သောက်ပါသလဲ။",
+  "onboardingDailyDoseCountSubtitle": "အသိပေးချက်အရေအတွက်ကို သတ်မှတ်ရန် အသုံးပြုသည်။"
 }

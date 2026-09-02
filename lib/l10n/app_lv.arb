@@ -252,5 +252,6 @@
   "onboardingCareTargetSelf": "Sev",
   "onboardingCareTargetFamily": "Ģimene",
   "onboardingCareTargetSelfAndFamily": "Es un mana ģimene",
-  "onboardingDailyDoseCountTitle": "Cik reizes dienā jūs lietojat zāles?"
+  "onboardingDailyDoseCountTitle": "Cik reizes dienā jūs lietojat zāles?",
+  "onboardingDailyDoseCountSubtitle": "Izmanto paziņojumu skaita noteikšanai."
 }

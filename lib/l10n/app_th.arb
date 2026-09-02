@@ -252,5 +252,6 @@
   "onboardingCareTargetSelf": "สำหรับตัวเอง",
   "onboardingCareTargetFamily": "ครอบครัว",
   "onboardingCareTargetSelfAndFamily": "ฉันและครอบครัว",
-  "onboardingDailyDoseCountTitle": "คุณรับประทานยาวันละกี่ครั้ง"
+  "onboardingDailyDoseCountTitle": "คุณรับประทานยาวันละกี่ครั้ง",
+  "onboardingDailyDoseCountSubtitle": "ใช้เพื่อกำหนดจำนวนการแจ้งเตือน"
 }

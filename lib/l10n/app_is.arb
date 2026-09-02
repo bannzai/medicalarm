@@ -252,5 +252,6 @@
   "onboardingCareTargetSelf": "Fyrir mig",
   "onboardingCareTargetFamily": "Fjölskylda",
   "onboardingCareTargetSelfAndFamily": "Ég og fjölskylda mín",
-  "onboardingDailyDoseCountTitle": "Hversu oft á dag tekur þú lyf?"
+  "onboardingDailyDoseCountTitle": "Hversu oft á dag tekur þú lyf?",
+  "onboardingDailyDoseCountSubtitle": "Notað til að ákvarða fjölda tilkynninga."
 }

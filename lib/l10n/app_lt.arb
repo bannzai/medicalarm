@@ -252,5 +252,6 @@
   "onboardingCareTargetSelf": "Sau",
   "onboardingCareTargetFamily": "Šeima",
   "onboardingCareTargetSelfAndFamily": "Aš ir mano šeima",
-  "onboardingDailyDoseCountTitle": "Kiek kartų per dieną vartojate vaistus?"
+  "onboardingDailyDoseCountTitle": "Kiek kartų per dieną vartojate vaistus?",
+  "onboardingDailyDoseCountSubtitle": "Naudojama pranešimų skaičiui nustatyti."
 }

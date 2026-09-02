@@ -252,5 +252,6 @@
   "onboardingCareTargetSelf": "Cho bản thân",
   "onboardingCareTargetFamily": "Gia đình",
   "onboardingCareTargetSelfAndFamily": "Tôi và gia đình",
-  "onboardingDailyDoseCountTitle": "Bạn uống thuốc mấy lần một ngày?"
+  "onboardingDailyDoseCountTitle": "Bạn uống thuốc mấy lần một ngày?",
+  "onboardingDailyDoseCountSubtitle": "Dùng để xác định số lần thông báo."
 }

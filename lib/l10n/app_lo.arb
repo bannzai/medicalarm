@@ -252,5 +252,6 @@
   "onboardingCareTargetSelf": "ສຳລັບຕົນເອງ",
   "onboardingCareTargetFamily": "ຄອບຄົວ",
   "onboardingCareTargetSelfAndFamily": "ຂ້ອຍ ແລະ ຄອບຄົວຂອງຂ້ອຍ",
-  "onboardingDailyDoseCountTitle": "ທ່ານກິນຢາມື້ລະຈັກເທື່ອ?"
+  "onboardingDailyDoseCountTitle": "ທ່ານກິນຢາມື້ລະຈັກເທື່ອ?",
+  "onboardingDailyDoseCountSubtitle": "ໃຊ້ເພື່ອກຳນົດຈຳນວນການແຈ້ງເຕືອນ."
 }

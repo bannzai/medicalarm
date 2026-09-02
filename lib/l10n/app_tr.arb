@@ -252,5 +252,6 @@
   "onboardingCareTargetSelf": "Kendim",
   "onboardingCareTargetFamily": "Aile",
   "onboardingCareTargetSelfAndFamily": "Ben ve ailem",
-  "onboardingDailyDoseCountTitle": "Günde kaç kez ilaç alıyorsunuz?"
+  "onboardingDailyDoseCountTitle": "Günde kaç kez ilaç alıyorsunuz?",
+  "onboardingDailyDoseCountSubtitle": "Bildirim sayısını belirlemek için kullanılır."
 }

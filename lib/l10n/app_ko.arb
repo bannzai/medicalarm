@@ -252,5 +252,6 @@
   "onboardingCareTargetSelf": "나",
   "onboardingCareTargetFamily": "가족",
   "onboardingCareTargetSelfAndFamily": "나와 가족",
-  "onboardingDailyDoseCountTitle": "하루에 몇 번 약을 복용하시나요?"
+  "onboardingDailyDoseCountTitle": "하루에 몇 번 약을 복용하시나요?",
+  "onboardingDailyDoseCountSubtitle": "알림 횟수를 정하는 데 사용됩니다."
 }

@@ -252,5 +252,6 @@
   "onboardingCareTargetSelf": "Okwami",
   "onboardingCareTargetFamily": "Umndeni",
   "onboardingCareTargetSelfAndFamily": "Mina nomndeni wami",
-  "onboardingDailyDoseCountTitle": "Uwuphuza kangaki umuthi ngosuku?"
+  "onboardingDailyDoseCountTitle": "Uwuphuza kangaki umuthi ngosuku?",
+  "onboardingDailyDoseCountSubtitle": "Isetshenziselwa ukunquma inani lezaziso."
 }
