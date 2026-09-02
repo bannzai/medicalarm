@@ -570,16 +570,6 @@
       }
     }
   },
-  "purchaseErrorUnexpectedBackend": "Одоогоор худалдаа хийх боломжгүй байна. Цаг хугацаа х待 х待 х待 х待下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下фт.",
-  "@purchaseErrorUnexpectedBackend": {
-    "description": "バックエンドで予期せぬエラーが発生した場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorOperationInProgress": "Тохиролын боловсруулалт нэмэлтээр явагдаж байна. Цаг зарцуулаад дахин шалгана уу.",
   "@purchaseErrorOperationInProgress": {
     "description": "購入処理が既に進行中の場合のエラーメッセージ"

@@ -654,16 +654,6 @@
   "@purchaseErrorActivationPending": {
     "description": "課金の有効化が完了していない場合のエラーメッセージ"
   },
-  "purchaseErrorTimeout": "ලයින් පිටුව ඉක්මවා ගියේය. කරුණාකර ඔබේ සන්නිවේදන පරිසරය සහතික කර නැවත උත්සාහ කරන්න. විසඳුමක් නැත්නම් සකසන්න > ප්‍රශ್ನා කරන්න යන්න.",
-  "@purchaseErrorTimeout": {
-    "description": "購入処理がタイムアウトした場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorNetworkError": "සන්නිවේදන දෝෂයක් වේ. කරුණාකර සන්නිවේදන පරිසරය ඔයාගේ පරික්ෂා කර ඉඩදී නැවත උත්සාහ කරන්න. ප්‍රතිසමපිඩු වෙන්නේ නැත්නම්, සැකසීම් > විමසීම් හරහා විමසන්න. විශේෂාංගය: {message}",
   "@purchaseErrorNetworkError": {
     "description": "ネットワークエラーが発生した場合のエラーメッセージ",

@@ -266,16 +266,6 @@
       }
     }
   },
-  "increaseMedicationScheduleLimit": "Արժեքավոր պլանում `count`-ը ավելացնելու մասին",
-  "@increaseMedicationScheduleLimit": {
-    "description": "服用スケジュールの上限をプレミアムプランで増やすことを案内するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "10"
-      }
-    }
-  },
   "addMedicationSchedule": "Ավելացնել դեղամիջոցի դավաճանության գրաֆիկ",
   "@addMedicationSchedule": {
     "description": "服用スケジュールを追加するボタンのテキスト"
@@ -559,16 +549,6 @@
   "purchaseNotAllowed": "Այս կտDeviceպտ, գնումներ թույլ չեն տրվում",
   "@purchaseNotAllowed": {
     "description": "デバイスでの購入が許可されていない場合のエラーメッセージ"
-  },
-  "purchaseErrorInvalidCredentials": "Գնումը հաջողությամբ չի ավարտվել։ Խնդրում ենք սպասել և փորձել նորից։ Եթե խնդիրը չլուծվի, խնդրում ենք կապվել՝ Einstellungen > Kontaktní informace:",
-  "@purchaseErrorInvalidCredentials": {
-    "description": "認証情報が無効な場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
   },
   "purchaseErrorUnexpectedBackend": "Հիմա գնումներ կատարել հնարավոր չէ։ Խնդրում ենք փորձել կրկին որոշ ժամանակ անց։ Եթե լուծում չեք գտնում, խնդրում ենք կապվել մեզ՝ Ցուցակ > Հարցում բաժնից։ Մանրամասն տեղեկություն՝ {message}",
   "@purchaseErrorUnexpectedBackend": {

@@ -398,16 +398,6 @@
       }
     }
   },
-  "increaseMedicineLimitWithPremium": "បញ្ចូលផលិតផលបុគ្គលិកផ្គត់ផ្គង់លើហត្ថកម្មអនុញ្ញាតឲ្យយកយន្តភាចបញ្ចូលម៉ាញ៉ិតនៃប្រព័ន្ធនៅលើក្នុហ្មងអ្នកនៅលើអ្នកគឺជួយប្រសិទ្ធិតិអាសយដ្ឋានតាមផ្លូវអន្ដរាគមន៍ដែលមានផ្លាំផ្លែ។",
-  "@increaseMedicineLimitWithPremium": {
-    "description": "お薬の登録上限をプレミアムプランで増やすことを案内するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "10"
-      }
-    }
-  },
   "aboutApp": "អំពីកម្មវិធី",
   "@aboutApp": {
     "description": "アプリについてのセクションタイトル"
@@ -597,16 +587,6 @@
   "premiumUserThanksMessage": "សូមអរគុណសម្រាប់ការប្រើប្រាស់របស់អ្នក។ ដោយសារតែអ្នក ពួកយើងអាចបន្តអនុវត្តកម្មវិធី Medicalarm បាន។",
   "@premiumUserThanksMessage": {
     "description": "プレミアムユーザーへの感謝メッセージ"
-  },
-  "premiumPricePerMonth": "(ឈิด/ខែ)",
-  "@premiumPricePerMonth": {
-    "description": "月額料金の表示フォーマット",
-    "placeholders": {
-      "price": {
-        "type": "String",
-        "example": "¥500"
-      }
-    }
   },
   "premiumCancelDescription": "• ក្រោយពីការជាវនិងទិញសូមចំណាំថាការលើកយល់ដល់កំណត់ឌីសក្រុមហ៊ុន {storeName} អាចធ្វើតាមការកំណត់កម្រិតគណនី។ (ការលុបជាគម្រោងការផ្លាស់ប្តូរដោយផ្ទាល់នៅក្នុងកម្មវិធីមិនអាចធ្វើបាន)។",
   "@premiumCancelDescription": {

@@ -584,16 +584,6 @@
   "@purchaseErrorOperationInProgress": {
     "description": "購入処理が既に進行中の場合のエラーメッセージ"
   },
-  "purchaseErrorInsufficientPermissions": "በዚህ ይዘው የተነሱት {accountName} ወይም ይህ ይህ ይዘው የዕቅድ ወርሃዊ እንደ እንነ እነፃፋው እንደ እንነም ወይም ይህ ይህ ይዘው ይዘው የተነሱት {accountName} ወይም ይህ ይህ ይዘው የዕቅድ ወርሃዊ እንደ አረቤወስ ልኩህ እኔን ለምነት እኔን ወይስ ይጨምሯል እኔ ዓላማን ለወር ወይ እኅታቱን በአከ ወረዳ። ነገር ይታወን አሁንም በአከ እንደ ትባል እኔ የሳዕይቱ ከሆነ፣ ትዝለሳለቅ አነሁ ኦታየሁ? መጻኢ ውውየታው ኦታይዋ ዘነሱት ባዱሻሽ ሽምጢ ወየታው ግምን ያልኦታይ፣ መለከቍ የሰርዕው ልምዕዋው እዋነትዎች እንዳውች ይህ ይህ ይዘው የተነሱት {accountName} ወይም ይህ ይህ ይዘው የዕቅድ ወርሃዊ እንዳውመርዖዋ ክበ በይስ መተምቁን ይ አምለፈ ቤትው መላከፖች እንደ ሚሆኑ የሠዋቡ እንዳይፈቃድ የእኔን",
-  "@purchaseErrorInsufficientPermissions": {
-    "description": "権限が不足している場合のエラーメッセージ",
-    "placeholders": {
-      "accountName": {
-        "type": "String",
-        "example": "Apple ID"
-      }
-    }
-  },
   "purchaseErrorPaymentPending": "እቅፍ ይቆሞታል። በምንጩ {accountName} የተመዘገበውን {storeName} ይወቅ።",
   "@purchaseErrorPaymentPending": {
     "description": "支払いが保留中の場合のエラーメッセージ",
