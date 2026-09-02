@@ -233,5 +233,6 @@
   "ossLicense": "Licence OSS",
   "onboardingWelcomeTitle": "Zbavme se obav z toho,\nže zapomeneme užít lék",
   "onboardingWelcomeBody": "Zaregistrujte své léky a dostávejte upozornění\nProhlédněte si záznamy o užívání léků.",
-  "onboardingWelcomeFeatureReminder": "Upozornění v čase užití léku"
+  "onboardingWelcomeFeatureReminder": "Upozornění v čase užití léku",
+  "onboardingWelcomeFeatureCriticalAlert": "Critical Alert, který zazní i v tichém režimu"
 }

@@ -233,5 +233,6 @@
   "ossLicense": "OSS licences",
   "onboardingWelcomeTitle": "Atbrīvosimies no raizēm,\nka aizmirsīsim iedzert zāles",
   "onboardingWelcomeBody": "Reģistrējiet savas zāles un saņemiet paziņojumus\nPārskatiet zāļu lietošanas ierakstus.",
-  "onboardingWelcomeFeatureReminder": "Paziņojums zāļu lietošanas laikā"
+  "onboardingWelcomeFeatureReminder": "Paziņojums zāļu lietošanas laikā",
+  "onboardingWelcomeFeatureCriticalAlert": "Critical Alert, kas skan arī klusuma režīmā"
 }

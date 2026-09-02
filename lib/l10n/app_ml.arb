@@ -233,5 +233,6 @@
   "ossLicense": "OSS ലൈസൻസുകൾ",
   "onboardingWelcomeTitle": "മരുന്ന് കഴിക്കാൻ മറന്നുപോകുമെന്ന\nആശങ്ക ഒഴിവാക്കാം",
   "onboardingWelcomeBody": "നിങ്ങളുടെ മരുന്നുകൾ രജിസ്റ്റർ ചെയ്ത് അറിയിപ്പുകൾ സ്വീകരിക്കുക\nമരുന്ന് കഴിച്ച രേഖ പരിശോധിക്കുക.",
-  "onboardingWelcomeFeatureReminder": "മരുന്ന് കഴിക്കേണ്ട സമയത്ത് അറിയിപ്പ്"
+  "onboardingWelcomeFeatureReminder": "മരുന്ന് കഴിക്കേണ്ട സമയത്ത് അറിയിപ്പ്",
+  "onboardingWelcomeFeatureCriticalAlert": "സൈലന്റ് മോഡിലും മുഴങ്ങുന്ന Critical Alert"
 }

@@ -233,5 +233,6 @@
   "ossLicense": "OSS litsenziyalari",
   "onboardingWelcomeTitle": "Dori ichishni unutib qo‘yish\nxavotiridan xalos bo‘laylik",
   "onboardingWelcomeBody": "Dori-darmonlaringizni ro‘yxatdan o‘tkazing va bildirishnomalar oling\nDori qabul qilish tarixini ko‘rib chiqing.",
-  "onboardingWelcomeFeatureReminder": "Dori qabul qilish vaqtidagi bildirishnoma"
+  "onboardingWelcomeFeatureReminder": "Dori qabul qilish vaqtidagi bildirishnoma",
+  "onboardingWelcomeFeatureCriticalAlert": "Ovozsiz rejimda ham chalinadigan Critical Alert"
 }

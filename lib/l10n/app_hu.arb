@@ -233,5 +233,6 @@
   "ossLicense": "OSS-licencek",
   "onboardingWelcomeTitle": "Ne aggódjunk többé,\nhogy elfelejtjük bevenni a gyógyszert",
   "onboardingWelcomeBody": "Rögzítse gyógyszereit, és kapjon értesítéseket\nTekintse át gyógyszerszedési előzményeit.",
-  "onboardingWelcomeFeatureReminder": "Értesítés a gyógyszer bevételének idején"
+  "onboardingWelcomeFeatureReminder": "Értesítés a gyógyszer bevételének idején",
+  "onboardingWelcomeFeatureCriticalAlert": "Critical Alert, amely néma módban is megszólal"
 }

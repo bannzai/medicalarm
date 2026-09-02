@@ -233,5 +233,6 @@
   "ossLicense": "OSS 라이선스",
   "onboardingWelcomeTitle": "약 복용을 잊을까 봐\n걱정하지 마세요",
   "onboardingWelcomeBody": "약을 등록하고 알림을 받으세요\n복약 기록을 돌아보세요.",
-  "onboardingWelcomeFeatureReminder": "복용 시간 알림"
+  "onboardingWelcomeFeatureReminder": "복용 시간 알림",
+  "onboardingWelcomeFeatureCriticalAlert": "무음 모드에서도 울리는 Critical Alert"
 }

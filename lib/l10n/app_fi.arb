@@ -233,5 +233,6 @@
   "ossLicense": "OSS-lisenssit",
   "onboardingWelcomeTitle": "Päästään eroon huolesta,\nettä lääkkeen ottaminen unohtuu",
   "onboardingWelcomeBody": "Rekisteröi lääkkeesi ja vastaanota ilmoituksia\nTarkista lääkkeiden ottamisen historia.",
-  "onboardingWelcomeFeatureReminder": "Ilmoitus lääkkeenottoaikana"
+  "onboardingWelcomeFeatureReminder": "Ilmoitus lääkkeenottoaikana",
+  "onboardingWelcomeFeatureCriticalAlert": "Critical Alert, joka kuuluu myös äänettömässä tilassa"
 }

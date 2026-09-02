@@ -233,5 +233,6 @@
   "ossLicense": "Mga Lisensya ng OSS",
   "onboardingWelcomeTitle": "Alisin ang pag-aalalang\nmakalimutang uminom ng gamot",
   "onboardingWelcomeBody": "Irehistro ang iyong mga gamot at tumanggap ng mga notification\nSuriin ang talaan ng pag-inom ng gamot.",
-  "onboardingWelcomeFeatureReminder": "Abiso sa oras ng pag-inom ng gamot"
+  "onboardingWelcomeFeatureReminder": "Abiso sa oras ng pag-inom ng gamot",
+  "onboardingWelcomeFeatureCriticalAlert": "Critical Alert na tumutunog kahit naka-silent mode"
 }

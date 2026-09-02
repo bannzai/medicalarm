@@ -233,5 +233,6 @@
   "ossLicense": "OSS-lisensies",
   "onboardingWelcomeTitle": "Geen bekommernis meer\nom jou medisyne te vergeet",
   "onboardingWelcomeBody": "Registreer jou medisyne en ontvang kennisgewings\nSien jou medikasiegeskiedenis na.",
-  "onboardingWelcomeFeatureReminder": "Kennisgewing op medikasietyd"
+  "onboardingWelcomeFeatureReminder": "Kennisgewing op medikasietyd",
+  "onboardingWelcomeFeatureCriticalAlert": "Critical Alert wat selfs in stilmodus klink"
 }

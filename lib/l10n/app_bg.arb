@@ -233,5 +233,6 @@
   "ossLicense": "Лицензи на OSS",
   "onboardingWelcomeTitle": "Нека премахнем тревогата,\nче ще забравим лекарството си",
   "onboardingWelcomeBody": "Регистрирайте лекарствата си и получавайте известия\nПреглеждайте историята на приема на лекарствата.",
-  "onboardingWelcomeFeatureReminder": "Известие в часа за прием на лекарството"
+  "onboardingWelcomeFeatureReminder": "Известие в часа за прием на лекарството",
+  "onboardingWelcomeFeatureCriticalAlert": "Critical Alert, който звучи дори в безшумен режим"
 }

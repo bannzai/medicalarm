@@ -233,5 +233,6 @@
   "ossLicense": "OSS licence",
   "onboardingWelcomeTitle": "Riješimo se brige\nda ćemo zaboraviti uzeti lijek",
   "onboardingWelcomeBody": "Registrirajte svoje lijekove i primajte obavijesti\nPregledajte evidenciju uzimanja lijekova.",
-  "onboardingWelcomeFeatureReminder": "Obavijest u vrijeme uzimanja lijeka"
+  "onboardingWelcomeFeatureReminder": "Obavijest u vrijeme uzimanja lijeka",
+  "onboardingWelcomeFeatureCriticalAlert": "Critical Alert koji zvoni i u tihom načinu rada"
 }

@@ -233,5 +233,6 @@
   "ossLicense": "Lisensi OSS",
   "onboardingWelcomeTitle": "Hilangkan kekhawatiran\nlupa minum obat",
   "onboardingWelcomeBody": "Daftarkan obat Anda dan terima notifikasi\nTinjau catatan konsumsi obat Anda.",
-  "onboardingWelcomeFeatureReminder": "Notifikasi pada waktu minum obat"
+  "onboardingWelcomeFeatureReminder": "Notifikasi pada waktu minum obat",
+  "onboardingWelcomeFeatureCriticalAlert": "Critical Alert yang berbunyi bahkan dalam mode senyap"
 }

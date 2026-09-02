@@ -233,5 +233,6 @@
   "ossLicense": "OSS лицензүүд",
   "onboardingWelcomeTitle": "Эмээ уухаа мартах\nсанаа зовнилыг арилгая",
   "onboardingWelcomeBody": "Эмээ бүртгүүлж, мэдэгдэл хүлээн аваарай\nЭм уусан бүртгэлээ эргэн хараарай.",
-  "onboardingWelcomeFeatureReminder": "Эм уух цагийн мэдэгдэл"
+  "onboardingWelcomeFeatureReminder": "Эм уух цагийн мэдэгдэл",
+  "onboardingWelcomeFeatureCriticalAlert": "Чимээгүй горимд ч дуугарах Critical Alert"
 }

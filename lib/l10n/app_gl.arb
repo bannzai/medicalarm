@@ -233,5 +233,6 @@
   "ossLicense": "Licenzas OSS",
   "onboardingWelcomeTitle": "Elimina a preocupación\npor esquecer tomar a medicación",
   "onboardingWelcomeBody": "Rexistra os teus medicamentos e recibe notificacións\nRevisa o rexistro das tomas.",
-  "onboardingWelcomeFeatureReminder": "Notificación á hora de tomar o medicamento"
+  "onboardingWelcomeFeatureReminder": "Notificación á hora de tomar o medicamento",
+  "onboardingWelcomeFeatureCriticalAlert": "Critical Alert que soa mesmo en modo silencioso"
 }

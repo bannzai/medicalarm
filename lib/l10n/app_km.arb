@@ -233,5 +233,6 @@
   "ossLicense": "អាជ្ញាប័ណ្ណ OSS",
   "onboardingWelcomeTitle": "បំបាត់ការព្រួយបារម្ភ\nពីការភ្លេចលេបថ្នាំ",
   "onboardingWelcomeBody": "ចុះបញ្ជីថ្នាំរបស់អ្នក និងទទួលការជូនដំណឹង\nពិនិត្យមើលកំណត់ត្រានៃការលេបថ្នាំរបស់អ្នក។",
-  "onboardingWelcomeFeatureReminder": "ការជូនដំណឹងនៅពេលលេបថ្នាំ"
+  "onboardingWelcomeFeatureReminder": "ការជូនដំណឹងនៅពេលលេបថ្នាំ",
+  "onboardingWelcomeFeatureCriticalAlert": "Critical Alert ដែលរោទ៍សូម្បីតែនៅក្នុងរបៀបស្ងាត់"
 }

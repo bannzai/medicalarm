@@ -233,5 +233,6 @@
   "ossLicense": "OSS परवाने",
   "onboardingWelcomeTitle": "औषध घेण्याचे विसरून जाण्याची\nचिंता दूर करूया",
   "onboardingWelcomeBody": "तुमची औषधे नोंदवा आणि सूचना मिळवा\nऔषधे घेतल्याच्या नोंदींचा आढावा घ्या.",
-  "onboardingWelcomeFeatureReminder": "औषध घेण्याच्या वेळी सूचना"
+  "onboardingWelcomeFeatureReminder": "औषध घेण्याच्या वेळी सूचना",
+  "onboardingWelcomeFeatureCriticalAlert": "सायलेंट मोडमध्येही वाजणारा Critical Alert"
 }

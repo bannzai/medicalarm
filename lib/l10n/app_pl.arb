@@ -233,5 +233,6 @@
   "ossLicense": "Licencje OSS",
   "onboardingWelcomeTitle": "Pozbądźmy się obaw,\nże zapomnimy wziąć lek",
   "onboardingWelcomeBody": "Zarejestruj leki i otrzymuj powiadomienia\nPrzejrzyj historię przyjmowania leków.",
-  "onboardingWelcomeFeatureReminder": "Powiadomienie o porze przyjęcia leku"
+  "onboardingWelcomeFeatureReminder": "Powiadomienie o porze przyjęcia leku",
+  "onboardingWelcomeFeatureCriticalAlert": "Critical Alert, który działa także w trybie cichym"
 }

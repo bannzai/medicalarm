@@ -233,5 +233,6 @@
   "ossLicense": "OSS-Lizänze",
   "onboardingWelcomeTitle": "D Sorge loswerde,\nd Medikament z näh",
   "onboardingWelcomeBody": "Medikamente registriere und Benachrichtigunge erhalte\nD Medikamenten-Einnahme überprüefe.",
-  "onboardingWelcomeFeatureReminder": "Benachrichtigung zur Einnahmezyt"
+  "onboardingWelcomeFeatureReminder": "Benachrichtigung zur Einnahmezyt",
+  "onboardingWelcomeFeatureCriticalAlert": "Critical Alert, wo au im Stummmodus tönt"
 }

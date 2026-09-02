@@ -233,5 +233,6 @@
   "ossLicense": "مجوزهای OSS",
   "onboardingWelcomeTitle": "نگرانیِ فراموش‌کردن مصرف دارو را\nاز بین ببریم",
   "onboardingWelcomeBody": "داروهای خود را ثبت کنید و اعلان‌ها را دریافت کنید\nسوابق مصرف داروهایتان را مرور کنید.",
-  "onboardingWelcomeFeatureReminder": "اعلان در زمان مصرف دارو"
+  "onboardingWelcomeFeatureReminder": "اعلان در زمان مصرف دارو",
+  "onboardingWelcomeFeatureCriticalAlert": "Critical Alert که حتی در حالت بی‌صدا هم زنگ می‌زند"
 }

@@ -233,5 +233,6 @@
   "ossLicense": "Licences OSS",
   "onboardingWelcomeTitle": "Fini l’inquiétude\nd’oublier de prendre ses médicaments",
   "onboardingWelcomeBody": "Enregistrez vos médicaments et recevez des notifications\nConsultez votre historique de prise de médicaments.",
-  "onboardingWelcomeFeatureReminder": "Notification à l’heure de la prise du médicament"
+  "onboardingWelcomeFeatureReminder": "Notification à l’heure de la prise du médicament",
+  "onboardingWelcomeFeatureCriticalAlert": "Critical Alert qui sonne même en mode silencieux"
 }

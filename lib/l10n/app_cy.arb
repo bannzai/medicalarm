@@ -233,5 +233,6 @@
   "ossLicense": "Trwyddedau OSS",
   "onboardingWelcomeTitle": "Gadewch i ni gael gwared ar y pryder\nam anghofio cymryd meddyginiaeth",
   "onboardingWelcomeBody": "Cofrestrwch eich meddyginiaethau a derbyn hysbysiadau\nAdolygwch eich cofnodion cymryd meddyginiaeth.",
-  "onboardingWelcomeFeatureReminder": "Hysbysiad ar amser cymryd meddyginiaeth"
+  "onboardingWelcomeFeatureReminder": "Hysbysiad ar amser cymryd meddyginiaeth",
+  "onboardingWelcomeFeatureCriticalAlert": "Critical Alert sy'n canu hyd yn oed yn y modd distaw"
 }

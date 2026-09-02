@@ -233,5 +233,6 @@
   "ossLicense": "רישיונות OSS",
   "onboardingWelcomeTitle": "בואו נפטר מהדאגה\nלשכוח לקחת את התרופה",
   "onboardingWelcomeBody": "רשמו את התרופות שלכם וקבלו התראות\nעיינו ברישום נטילת התרופות שלכם.",
-  "onboardingWelcomeFeatureReminder": "התראה בזמן נטילת התרופה"
+  "onboardingWelcomeFeatureReminder": "התראה בזמן נטילת התרופה",
+  "onboardingWelcomeFeatureCriticalAlert": "Critical Alert שנשמע גם במצב שקט"
 }

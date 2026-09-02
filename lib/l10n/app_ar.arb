@@ -233,5 +233,6 @@
   "ossLicense": "تراخيص OSS",
   "onboardingWelcomeTitle": "لنتخلّص من القلق\nبشأن نسيان تناول الدواء",
   "onboardingWelcomeBody": "سجّل أدويتك وتلقَّ الإشعارات\nراجع سجل تناول أدويتك.",
-  "onboardingWelcomeFeatureReminder": "إشعار في وقت تناول الدواء"
+  "onboardingWelcomeFeatureReminder": "إشعار في وقت تناول الدواء",
+  "onboardingWelcomeFeatureCriticalAlert": "Critical Alert يرن حتى في الوضع الصامت"
 }

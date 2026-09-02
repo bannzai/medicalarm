@@ -233,5 +233,6 @@
   "ossLicense": "OSS-licenties",
   "onboardingWelcomeTitle": "Geen zorgen meer\nover het vergeten van je medicatie",
   "onboardingWelcomeBody": "Registreer je medicijnen en ontvang meldingen\nBekijk je medicatieoverzicht.",
-  "onboardingWelcomeFeatureReminder": "Melding op het tijdstip van medicijninname"
+  "onboardingWelcomeFeatureReminder": "Melding op het tijdstip van medicijninname",
+  "onboardingWelcomeFeatureCriticalAlert": "Critical Alert die ook in de stille modus klinkt"
 }

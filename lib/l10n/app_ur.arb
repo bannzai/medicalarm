@@ -233,5 +233,6 @@
   "ossLicense": "OSS لائسنس",
   "onboardingWelcomeTitle": "دوائی لینا بھول جانے کی فکر\nختم کریں",
   "onboardingWelcomeBody": "اپنی ادویات رجسٹر کریں اور اطلاعات موصول کریں\nاپنی ادویات لینے کا ریکارڈ دیکھیں۔",
-  "onboardingWelcomeFeatureReminder": "دوا لینے کے وقت اطلاع"
+  "onboardingWelcomeFeatureReminder": "دوا لینے کے وقت اطلاع",
+  "onboardingWelcomeFeatureCriticalAlert": "Critical Alert جو خاموش موڈ میں بھی بجتا ہے"
 }

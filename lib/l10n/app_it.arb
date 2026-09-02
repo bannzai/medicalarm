@@ -233,5 +233,6 @@
   "ossLicense": "Licenze OSS",
   "onboardingWelcomeTitle": "Niente più ansia\ndi dimenticare di prendere i farmaci",
   "onboardingWelcomeBody": "Registra i tuoi farmaci e ricevi notifiche\nControlla il registro delle assunzioni.",
-  "onboardingWelcomeFeatureReminder": "Notifica all’ora di assumere il farmaco"
+  "onboardingWelcomeFeatureReminder": "Notifica all’ora di assumere il farmaco",
+  "onboardingWelcomeFeatureCriticalAlert": "Critical Alert che suona anche in modalità silenziosa"
 }

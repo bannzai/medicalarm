@@ -233,5 +233,6 @@
   "ossLicense": "OSS-licenser",
   "onboardingWelcomeTitle": "Slipp oron\nför att glömma ta medicinen",
   "onboardingWelcomeBody": "Registrera dina läkemedel och få notiser\nSe över din läkemedelshistorik.",
-  "onboardingWelcomeFeatureReminder": "Avisering vid tidpunkten för medicinintag"
+  "onboardingWelcomeFeatureReminder": "Avisering vid tidpunkten för medicinintag",
+  "onboardingWelcomeFeatureCriticalAlert": "Critical Alert som låter även i tyst läge"
 }

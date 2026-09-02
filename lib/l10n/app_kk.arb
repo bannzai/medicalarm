@@ -233,5 +233,6 @@
   "ossLicense": "OSS лицензиялары",
   "onboardingWelcomeTitle": "Дәрі қабылдауды ұмытып кету\nуайымын сейілтейік",
   "onboardingWelcomeBody": "Дәрілеріңізді тіркеп, хабарландырулар алыңыз\nДәрі қабылдау жазбаларын қарап шығыңыз.",
-  "onboardingWelcomeFeatureReminder": "Дәрі қабылдау уақытында хабарландыру"
+  "onboardingWelcomeFeatureReminder": "Дәрі қабылдау уақытында хабарландыру",
+  "onboardingWelcomeFeatureCriticalAlert": "Дыбыссыз режимде де шығатын Critical Alert"
 }

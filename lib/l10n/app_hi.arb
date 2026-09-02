@@ -233,5 +233,6 @@
   "ossLicense": "OSS लाइसेंस",
   "onboardingWelcomeTitle": "दवा लेना भूल जाने की चिंता\nदूर करें",
   "onboardingWelcomeBody": "अपनी दवाएँ दर्ज करें और सूचनाएँ पाएँ\nदवा लेने का अपना रिकॉर्ड देखें।",
-  "onboardingWelcomeFeatureReminder": "दवा लेने के समय सूचना"
+  "onboardingWelcomeFeatureReminder": "दवा लेने के समय सूचना",
+  "onboardingWelcomeFeatureCriticalAlert": "साइलेंट मोड में भी बजने वाला Critical Alert"
 }

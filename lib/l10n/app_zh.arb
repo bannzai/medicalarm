@@ -233,5 +233,6 @@
   "ossLicense": "OSS 许可证",
   "onboardingWelcomeTitle": "不再担心\n忘记服药",
   "onboardingWelcomeBody": "登记药物并接收提醒\n回顾服药记录。",
-  "onboardingWelcomeFeatureReminder": "服药时间通知"
+  "onboardingWelcomeFeatureReminder": "服药时间通知",
+  "onboardingWelcomeFeatureCriticalAlert": "静音模式下也会响起的 Critical Alert"
 }

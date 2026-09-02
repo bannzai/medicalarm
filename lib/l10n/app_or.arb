@@ -233,5 +233,6 @@
   "ossLicense": "OSS ଲାଇସେନ୍ସ",
   "onboardingWelcomeTitle": "ଔଷଧ ଖାଇବାକୁ ଭୁଲିଯିବାର ଚିନ୍ତା\nଦୂର କରିବା",
   "onboardingWelcomeBody": "ଆପଣଙ୍କ ଔଷଧ ପଞ୍ଜିକରଣ କରନ୍ତୁ ଏବଂ ବିଜ୍ଞପ୍ତି ପାଆନ୍ତୁ\nଔଷଧ ସେବନର ରେକର୍ଡ ସମୀକ୍ଷା କରନ୍ତୁ।",
-  "onboardingWelcomeFeatureReminder": "ଔଷଧ ଖାଇବା ସମୟରେ ବିଜ୍ଞପ୍ତି"
+  "onboardingWelcomeFeatureReminder": "ଔଷଧ ଖାଇବା ସମୟରେ ବିଜ୍ଞପ୍ତି",
+  "onboardingWelcomeFeatureCriticalAlert": "ନିରବ ମୋଡ୍‌ରେ ମଧ୍ୟ ବାଜୁଥିବା Critical Alert"
 }

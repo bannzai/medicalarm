@@ -233,5 +233,6 @@
   "ossLicense": "OSS-Lizenzen",
   "onboardingWelcomeTitle": "Schluss mit der Sorge,\ndie Einnahme zu vergessen",
   "onboardingWelcomeBody": "Registrieren Sie Ihre Medikamente und erhalten Sie Benachrichtigungen\nÜberprüfen Sie Ihr Einnahmeprotokoll.",
-  "onboardingWelcomeFeatureReminder": "Benachrichtigung zur Einnahmezeit"
+  "onboardingWelcomeFeatureReminder": "Benachrichtigung zur Einnahmezeit",
+  "onboardingWelcomeFeatureCriticalAlert": "Critical Alert, der auch im Lautlosmodus ertönt"
 }

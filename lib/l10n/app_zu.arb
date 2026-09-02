@@ -233,5 +233,6 @@
   "ossLicense": "Amalayisense e-OSS",
   "onboardingWelcomeTitle": "Susa ukuqeda ukukhathazeka\nkokukhohlwa ukuphuza umuthi",
   "onboardingWelcomeBody": "Bhalisa imithi yakho futhi uthole izaziso\nBuyekeza umlando wokuphuza imithi yakho.",
-  "onboardingWelcomeFeatureReminder": "Isaziso ngesikhathi sokuphuza umuthi"
+  "onboardingWelcomeFeatureReminder": "Isaziso ngesikhathi sokuphuza umuthi",
+  "onboardingWelcomeFeatureCriticalAlert": "I-Critical Alert ekhala ngisho ikumodi ethulile"
 }

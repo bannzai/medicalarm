@@ -233,5 +233,6 @@
   "ossLicense": "Leseni za OSS",
   "onboardingWelcomeTitle": "Tuondoe wasiwasi\nwa kusahau kutumia dawa",
   "onboardingWelcomeBody": "Sajili dawa zako na upokee arifa\nKagua rekodi yako ya unywaji wa dawa.",
-  "onboardingWelcomeFeatureReminder": "Arifa wakati wa kutumia dawa"
+  "onboardingWelcomeFeatureReminder": "Arifa wakati wa kutumia dawa",
+  "onboardingWelcomeFeatureCriticalAlert": "Critical Alert inayolia hata katika hali ya kimya"
 }

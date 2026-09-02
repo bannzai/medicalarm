@@ -233,5 +233,6 @@
   "ossLicense": "Άδειες OSS",
   "onboardingWelcomeTitle": "Ας απαλλαγούμε από το άγχος\nμήπως ξεχάσουμε να πάρουμε το φάρμακό μας",
   "onboardingWelcomeBody": "Καταχωρίστε τα φάρμακά σας και λάβετε ειδοποιήσεις\nΑνατρέξτε στο ιστορικό λήψης των φαρμάκων σας.",
-  "onboardingWelcomeFeatureReminder": "Ειδοποίηση την ώρα λήψης του φαρμάκου"
+  "onboardingWelcomeFeatureReminder": "Ειδοποίηση την ώρα λήψης του φαρμάκου",
+  "onboardingWelcomeFeatureCriticalAlert": "Critical Alert που χτυπά ακόμη και σε αθόρυβη λειτουργία"
 }

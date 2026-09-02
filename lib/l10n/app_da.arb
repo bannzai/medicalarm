@@ -233,5 +233,6 @@
   "ossLicense": "OSS-licenser",
   "onboardingWelcomeTitle": "Slip for bekymringen\nover at glemme din medicin",
   "onboardingWelcomeBody": "Registrer din medicin, og modtag notifikationer\nSe din historik over medicinindtagelse.",
-  "onboardingWelcomeFeatureReminder": "Notifikation på medicintidspunktet"
+  "onboardingWelcomeFeatureReminder": "Notifikation på medicintidspunktet",
+  "onboardingWelcomeFeatureCriticalAlert": "Critical Alert, der lyder selv i lydløs tilstand"
 }
