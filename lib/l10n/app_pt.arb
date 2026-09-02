@@ -191,5 +191,6 @@
   "groupMemberCount": "{count} membros",
   "defaultGroupBadge": "Predefinido",
   "soloGroupName": "Os meus grupos",
-  "joinWithInvitationCode": "Participar com código de convite"
+  "joinWithInvitationCode": "Participar com código de convite",
+  "groupCreationLimitReached": "Não pode criar mais grupos no plano gratuito."
 }

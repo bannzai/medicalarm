@@ -191,5 +191,6 @@
   "groupMemberCount": "{count} اراکین",
   "defaultGroupBadge": "پہلے سے طے شدہ",
   "soloGroupName": "میرے گروپس",
-  "joinWithInvitationCode": "دعوتی کوڈ کے ساتھ شامل ہوں"
+  "joinWithInvitationCode": "دعوتی کوڈ کے ساتھ شامل ہوں",
+  "groupCreationLimitReached": "مفت پلان میں آپ مزید گروپس نہیں بنا سکتے۔"
 }

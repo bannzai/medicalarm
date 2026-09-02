@@ -191,5 +191,6 @@
   "groupMemberCount": "멤버 {count}명",
   "defaultGroupBadge": "기본",
   "soloGroupName": "내 그룹",
-  "joinWithInvitationCode": "초대 코드로 참여"
+  "joinWithInvitationCode": "초대 코드로 참여",
+  "groupCreationLimitReached": "무료 요금제에서는 더 이상 그룹을 만들 수 없습니다."
 }

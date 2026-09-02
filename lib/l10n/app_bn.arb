@@ -191,5 +191,6 @@
   "groupMemberCount": "{count} জন সদস্য",
   "defaultGroupBadge": "ডিফল্ট",
   "soloGroupName": "আমার গ্রুপ",
-  "joinWithInvitationCode": "আমন্ত্রণ কোড দিয়ে যোগ দিন"
+  "joinWithInvitationCode": "আমন্ত্রণ কোড দিয়ে যোগ দিন",
+  "groupCreationLimitReached": "বিনামূল্যের প্ল্যানে আপনি আর কোনো গ্রুপ তৈরি করতে পারবেন না।"
 }

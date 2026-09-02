@@ -191,5 +191,6 @@
   "groupMemberCount": "{count} üye",
   "defaultGroupBadge": "Varsayılan",
   "soloGroupName": "Gruplarım",
-  "joinWithInvitationCode": "Davet koduyla katıl"
+  "joinWithInvitationCode": "Davet koduyla katıl",
+  "groupCreationLimitReached": "Ücretsiz planda daha fazla grup oluşturamazsınız."
 }

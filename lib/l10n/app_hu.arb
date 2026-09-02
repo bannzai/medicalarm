@@ -191,5 +191,6 @@
   "groupMemberCount": "{count} tag",
   "defaultGroupBadge": "Alapértelmezett",
   "soloGroupName": "Csoportjaim",
-  "joinWithInvitationCode": "Csatlakozás meghívókóddal"
+  "joinWithInvitationCode": "Csatlakozás meghívókóddal",
+  "groupCreationLimitReached": "Az ingyenes csomagban nem hozhat létre több csoportot."
 }

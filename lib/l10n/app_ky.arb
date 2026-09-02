@@ -191,5 +191,6 @@
   "groupMemberCount": "{count} мүчө",
   "defaultGroupBadge": "Демейки",
   "soloGroupName": "Менин топторум",
-  "joinWithInvitationCode": "Чакыруу коду менен кошулуу"
+  "joinWithInvitationCode": "Чакыруу коду менен кошулуу",
+  "groupCreationLimitReached": "Акысыз планда мындан ары топ түзө албайсыз."
 }

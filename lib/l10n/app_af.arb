@@ -191,5 +191,6 @@
   "groupMemberCount": "{count} lede",
   "defaultGroupBadge": "Verstek",
   "soloGroupName": "My groepe",
-  "joinWithInvitationCode": "Neem deel met uitnodigingskode"
+  "joinWithInvitationCode": "Neem deel met uitnodigingskode",
+  "groupCreationLimitReached": "Jy kan nie meer groepe met die gratis plan skep nie."
 }

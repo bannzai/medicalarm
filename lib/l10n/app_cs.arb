@@ -191,5 +191,6 @@
   "groupMemberCount": "{count} členů",
   "defaultGroupBadge": "Výchozí",
   "soloGroupName": "Moje skupiny",
-  "joinWithInvitationCode": "Připojit se pomocí zvacího kódu"
+  "joinWithInvitationCode": "Připojit se pomocí zvacího kódu",
+  "groupCreationLimitReached": "V bezplatném tarifu už nemůžete vytvářet další skupiny."
 }

@@ -191,5 +191,6 @@
   "groupMemberCount": "{count} aelod",
   "defaultGroupBadge": "Rhagosodedig",
   "soloGroupName": "Fy ngrwpiau",
-  "joinWithInvitationCode": "Ymuno â chod gwahoddiad"
+  "joinWithInvitationCode": "Ymuno â chod gwahoddiad",
+  "groupCreationLimitReached": "Ni allwch greu rhagor o grwpiau ar y cynllun am ddim."
 }

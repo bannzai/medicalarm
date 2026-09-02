@@ -191,5 +191,6 @@
   "groupMemberCount": "{count} සාමාජිකයන්",
   "defaultGroupBadge": "පෙරනිමි",
   "soloGroupName": "මගේ කණ්ඩායම්",
-  "joinWithInvitationCode": "ආරාධනා කේතය සමඟ එක්වන්න"
+  "joinWithInvitationCode": "ආරාධනා කේතය සමඟ එක්වන්න",
+  "groupCreationLimitReached": "නොමිලේ සැලසුම තුළ ඔබට තවත් කණ්ඩායම් සෑදිය නොහැක."
 }

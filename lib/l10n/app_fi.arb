@@ -191,5 +191,6 @@
   "groupMemberCount": "{count} jäsentä",
   "defaultGroupBadge": "Oletus",
   "soloGroupName": "Omat ryhmäni",
-  "joinWithInvitationCode": "Liity kutsukoodilla"
+  "joinWithInvitationCode": "Liity kutsukoodilla",
+  "groupCreationLimitReached": "Et voi luoda enempää ryhmiä ilmaisella tilauksella."
 }

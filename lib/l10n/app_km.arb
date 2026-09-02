@@ -191,5 +191,6 @@
   "groupMemberCount": "{count} សមាជិក",
   "defaultGroupBadge": "លំនាំដើម",
   "soloGroupName": "ក្រុមរបស់ខ្ញុំ",
-  "joinWithInvitationCode": "ចូលរួមដោយប្រើលេខកូដអញ្ជើញ"
+  "joinWithInvitationCode": "ចូលរួមដោយប្រើលេខកូដអញ្ជើញ",
+  "groupCreationLimitReached": "អ្នកមិនអាចបង្កើតក្រុមបន្ថែមទៀតក្នុងគម្រោងឥតគិតថ្លៃបានទេ។"
 }

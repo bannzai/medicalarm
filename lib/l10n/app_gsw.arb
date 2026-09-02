@@ -191,5 +191,6 @@
   "groupMemberCount": "{count} Mitglieder",
   "defaultGroupBadge": "Standard",
   "soloGroupName": "Mini Gruppe",
-  "joinWithInvitationCode": "Mit Einladungscode beitreten"
+  "joinWithInvitationCode": "Mit Einladungscode beitreten",
+  "groupCreationLimitReached": "Im Gratis-Abo chönd Sie kei wiiteri Gruppe erstelle."
 }

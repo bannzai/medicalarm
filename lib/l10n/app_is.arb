@@ -191,5 +191,6 @@
   "groupMemberCount": "{count} meðlimir",
   "defaultGroupBadge": "Sjálfgefið",
   "soloGroupName": "Mínir hópar",
-  "joinWithInvitationCode": "Taka þátt með boðskóða"
+  "joinWithInvitationCode": "Taka þátt með boðskóða",
+  "groupCreationLimitReached": "Þú getur ekki búið til fleiri hópa með ókeypis áskriftinni."
 }

@@ -191,5 +191,6 @@
   "groupMemberCount": "{count} জন সদস্য",
   "defaultGroupBadge": "ডিফল্ট",
   "soloGroupName": "মোৰ গোটসমূহ",
-  "joinWithInvitationCode": "আমন্ত্ৰণ ক'ডেৰে যোগদান কৰক"
+  "joinWithInvitationCode": "আমন্ত্ৰণ ক'ডেৰে যোগদান কৰক",
+  "groupCreationLimitReached": "বিনামূলীয়া পৰিকল্পনাত আপুনি আৰু গোট সৃষ্টি কৰিব নোৱাৰে।"
 }

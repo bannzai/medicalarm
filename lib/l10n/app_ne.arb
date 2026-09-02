@@ -191,5 +191,6 @@
   "groupMemberCount": "{count} सदस्य",
   "defaultGroupBadge": "पूर्वनिर्धारित",
   "soloGroupName": "मेरा समूहहरू",
-  "joinWithInvitationCode": "आमन्त्रण कोड प्रयोग गरेर सहभागी हुनुहोस्"
+  "joinWithInvitationCode": "आमन्त्रण कोड प्रयोग गरेर सहभागी हुनुहोस्",
+  "groupCreationLimitReached": "निःशुल्क योजनामा तपाईं थप समूहहरू बनाउन सक्नुहुन्न।"
 }

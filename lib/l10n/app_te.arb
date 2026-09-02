@@ -191,5 +191,6 @@
   "groupMemberCount": "{count} మంది సభ్యులు",
   "defaultGroupBadge": "డిఫాల్ట్",
   "soloGroupName": "నా సమూహాలు",
-  "joinWithInvitationCode": "ఆహ్వాన కోడ్‌తో చేరండి"
+  "joinWithInvitationCode": "ఆహ్వాన కోడ్‌తో చేరండి",
+  "groupCreationLimitReached": "ఉచిత ప్లాన్‌లో మీరు ఇకపై మరిన్ని సమూహాలను సృష్టించలేరు."
 }

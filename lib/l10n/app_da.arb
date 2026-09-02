@@ -191,5 +191,6 @@
   "groupMemberCount": "{count} medlemmer",
   "defaultGroupBadge": "Standard",
   "soloGroupName": "Mine grupper",
-  "joinWithInvitationCode": "Deltag med invitationskode"
+  "joinWithInvitationCode": "Deltag med invitationskode",
+  "groupCreationLimitReached": "Du kan ikke oprette flere grupper med gratisplanen."
 }

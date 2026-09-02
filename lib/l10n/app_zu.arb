@@ -191,5 +191,6 @@
   "groupMemberCount": "{count} amalungu",
   "defaultGroupBadge": "Okuzenzakalelayo",
   "soloGroupName": "Amaqembu ami",
-  "joinWithInvitationCode": "Joyina ngekhodi yesimemo"
+  "joinWithInvitationCode": "Joyina ngekhodi yesimemo",
+  "groupCreationLimitReached": "Awusakwazi ukudala amanye amaqembu ohlelweni lwamahhala."
 }

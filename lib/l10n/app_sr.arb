@@ -191,5 +191,6 @@
   "groupMemberCount": "{count} чланова",
   "defaultGroupBadge": "Подразумевано",
   "soloGroupName": "Моје групе",
-  "joinWithInvitationCode": "Придружи се помоћу позивног кода"
+  "joinWithInvitationCode": "Придружи се помоћу позивног кода",
+  "groupCreationLimitReached": "На бесплатном плану не можете да креирате више група."
 }

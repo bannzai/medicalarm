@@ -191,5 +191,6 @@
   "groupMemberCount": "{count} гишүүн",
   "defaultGroupBadge": "Өгөгдмөл",
   "soloGroupName": "Миний бүлгүүд",
-  "joinWithInvitationCode": "Урилгын кодоор нэгдэх"
+  "joinWithInvitationCode": "Урилгын кодоор нэгдэх",
+  "groupCreationLimitReached": "Үнэгүй багцаар дахин бүлэг үүсгэх боломжгүй."
 }

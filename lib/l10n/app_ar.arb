@@ -191,5 +191,6 @@
   "groupMemberCount": "{count} أعضاء",
   "defaultGroupBadge": "افتراضي",
   "soloGroupName": "مجموعاتي",
-  "joinWithInvitationCode": "الانضمام باستخدام رمز الدعوة"
+  "joinWithInvitationCode": "الانضمام باستخدام رمز الدعوة",
+  "groupCreationLimitReached": "لا يمكنك إنشاء المزيد من المجموعات ضمن الخطة المجانية."
 }

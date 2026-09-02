@@ -191,5 +191,6 @@
   "groupMemberCount": "{count} miyembro",
   "defaultGroupBadge": "Default",
   "soloGroupName": "Aking mga grupo",
-  "joinWithInvitationCode": "Sumali gamit ang code ng imbitasyon"
+  "joinWithInvitationCode": "Sumali gamit ang code ng imbitasyon",
+  "groupCreationLimitReached": "Hindi ka na makakagawa ng higit pang grupo sa libreng plano."
 }

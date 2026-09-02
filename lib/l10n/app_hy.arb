@@ -191,5 +191,6 @@
   "groupMemberCount": "{count} անդամ",
   "defaultGroupBadge": "Լռելյայն",
   "soloGroupName": "Իմ խմբերը",
-  "joinWithInvitationCode": "Միանալ հրավերի կոդով"
+  "joinWithInvitationCode": "Միանալ հրավերի կոդով",
+  "groupCreationLimitReached": "Անվճար պլանում այլևս չեք կարող խմբեր ստեղծել։"
 }

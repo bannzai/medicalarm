@@ -191,5 +191,6 @@
   "groupMemberCount": "{count} a'zo",
   "defaultGroupBadge": "Standart",
   "soloGroupName": "Guruhlarim",
-  "joinWithInvitationCode": "Taklif kodi bilan qo‘shilish"
+  "joinWithInvitationCode": "Taklif kodi bilan qo‘shilish",
+  "groupCreationLimitReached": "Bepul tarifda boshqa guruhlar yarata olmaysiz."
 }

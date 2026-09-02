@@ -191,5 +191,6 @@
   "groupMemberCount": "{count} सदस्य",
   "defaultGroupBadge": "डीफॉल्ट",
   "soloGroupName": "माझे गट",
-  "joinWithInvitationCode": "आमंत्रण कोड वापरून सामील व्हा"
+  "joinWithInvitationCode": "आमंत्रण कोड वापरून सामील व्हा",
+  "groupCreationLimitReached": "मोफत प्लॅनमध्ये तुम्ही आणखी गट तयार करू शकत नाही."
 }

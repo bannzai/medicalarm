@@ -191,5 +191,6 @@
   "groupMemberCount": "{count} üzv",
   "defaultGroupBadge": "Defolt",
   "soloGroupName": "Qruplarım",
-  "joinWithInvitationCode": "Dəvət kodu ilə qoşulun"
+  "joinWithInvitationCode": "Dəvət kodu ilə qoşulun",
+  "groupCreationLimitReached": "Pulsuz planda artıq qrup yarada bilməzsiniz."
 }

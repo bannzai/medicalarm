@@ -191,5 +191,6 @@
   "groupMemberCount": "{count} членове",
   "defaultGroupBadge": "По подразбиране",
   "soloGroupName": "Моите групи",
-  "joinWithInvitationCode": "Присъединяване с код за покана"
+  "joinWithInvitationCode": "Присъединяване с код за покана",
+  "groupCreationLimitReached": "В безплатния план не можете да създавате повече групи."
 }

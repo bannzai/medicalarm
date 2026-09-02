@@ -191,5 +191,6 @@
   "groupMemberCount": "{count} dalībnieki",
   "defaultGroupBadge": "Noklusējuma",
   "soloGroupName": "Manas grupas",
-  "joinWithInvitationCode": "Pievienoties ar ielūguma kodu"
+  "joinWithInvitationCode": "Pievienoties ar ielūguma kodu",
+  "groupCreationLimitReached": "Bezmaksas plānā vairs nevarat izveidot grupas."
 }

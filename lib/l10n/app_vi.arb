@@ -191,5 +191,6 @@
   "groupMemberCount": "{count} thành viên",
   "defaultGroupBadge": "Mặc định",
   "soloGroupName": "Nhóm của tôi",
-  "joinWithInvitationCode": "Tham gia bằng mã lời mời"
+  "joinWithInvitationCode": "Tham gia bằng mã lời mời",
+  "groupCreationLimitReached": "Bạn không thể tạo thêm nhóm trong gói miễn phí."
 }

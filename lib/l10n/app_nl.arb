@@ -191,5 +191,6 @@
   "groupMemberCount": "{count} leden",
   "defaultGroupBadge": "Standaard",
   "soloGroupName": "Mijn groepen",
-  "joinWithInvitationCode": "Deelnemen met uitnodigingscode"
+  "joinWithInvitationCode": "Deelnemen met uitnodigingscode",
+  "groupCreationLimitReached": "Met het gratis abonnement kunt u geen groepen meer maken."
 }

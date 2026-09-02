@@ -191,5 +191,6 @@
   "groupMemberCount": "{count} ਮੈਂਬਰ",
   "defaultGroupBadge": "ਡਿਫੌਲਟ",
   "soloGroupName": "ਮੇਰੇ ਗਰੁੱਪ",
-  "joinWithInvitationCode": "ਸੱਦਾ ਕੋਡ ਨਾਲ ਸ਼ਾਮਲ ਹੋਵੋ"
+  "joinWithInvitationCode": "ਸੱਦਾ ਕੋਡ ਨਾਲ ਸ਼ਾਮਲ ਹੋਵੋ",
+  "groupCreationLimitReached": "ਮੁਫ਼ਤ ਪਲਾਨ ਵਿੱਚ ਤੁਸੀਂ ਹੋਰ ਗਰੁੱਪ ਨਹੀਂ ਬਣਾ ਸਕਦੇ।"
 }

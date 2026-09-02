@@ -191,5 +191,6 @@
   "groupMemberCount": "{count} חברים",
   "defaultGroupBadge": "ברירת מחדל",
   "soloGroupName": "הקבוצות שלי",
-  "joinWithInvitationCode": "הצטרפות באמצעות קוד הזמנה"
+  "joinWithInvitationCode": "הצטרפות באמצעות קוד הזמנה",
+  "groupCreationLimitReached": "לא ניתן ליצור קבוצות נוספות במסגרת התוכנית החינמית."
 }

@@ -191,5 +191,6 @@
   "groupMemberCount": "{count} мүше",
   "defaultGroupBadge": "Әдепкі",
   "soloGroupName": "Менің топтарым",
-  "joinWithInvitationCode": "Шақыру кодымен қосылу"
+  "joinWithInvitationCode": "Шақыру кодымен қосылу",
+  "groupCreationLimitReached": "Тегін жоспарда бұдан артық топ жасай алмайсыз."
 }

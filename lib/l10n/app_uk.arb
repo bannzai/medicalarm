@@ -191,5 +191,6 @@
   "groupMemberCount": "{count} учасників",
   "defaultGroupBadge": "За замовчуванням",
   "soloGroupName": "Мої групи",
-  "joinWithInvitationCode": "Приєднатися за кодом запрошення"
+  "joinWithInvitationCode": "Приєднатися за кодом запрошення",
+  "groupCreationLimitReached": "У безкоштовному плані не можна створювати більше груп."
 }

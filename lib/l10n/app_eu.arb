@@ -191,5 +191,6 @@
   "groupMemberCount": "{count} kide",
   "defaultGroupBadge": "Lehenetsia",
   "soloGroupName": "Nire taldeak",
-  "joinWithInvitationCode": "Gonbidapen-kodearekin bat egin"
+  "joinWithInvitationCode": "Gonbidapen-kodearekin bat egin",
+  "groupCreationLimitReached": "Ezin duzu talde gehiago sortu doako planean."
 }
