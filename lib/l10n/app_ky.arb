@@ -258,5 +258,6 @@
   "onboardingDailyDoseTwice": "2 жолу",
   "onboardingDailyDoseThreeOrMore": "3 жолу же андан көп",
   "onboardingMedicineCountTitle": "Канча дары-дармекти көзөмөлдөйсүз?",
-  "onboardingMedicineCountOneToTwo": "1–2 түрү"
+  "onboardingMedicineCountOneToTwo": "1–2 түрү",
+  "onboardingMedicineCountThreeToFive": "3–5 түрү"
 }

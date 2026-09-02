@@ -258,5 +258,6 @@
   "onboardingDailyDoseTwice": "2 ጊዜ",
   "onboardingDailyDoseThreeOrMore": "3 ጊዜ ወይም ከዚያ በላይ",
   "onboardingMedicineCountTitle": "የሚያስተዳድሯቸው መድኃኒቶች ስንት ናቸው?",
-  "onboardingMedicineCountOneToTwo": "1–2 ዓይነት"
+  "onboardingMedicineCountOneToTwo": "1–2 ዓይነት",
+  "onboardingMedicineCountThreeToFive": "3–5 ዓይነት"
 }

@@ -258,5 +258,6 @@
   "onboardingDailyDoseTwice": "2 անգամ",
   "onboardingDailyDoseThreeOrMore": "3 անգամ կամ ավելի",
   "onboardingMedicineCountTitle": "Քանի՞ դեղամիջոց եք կառավարում։",
-  "onboardingMedicineCountOneToTwo": "1–2 տեսակ"
+  "onboardingMedicineCountOneToTwo": "1–2 տեսակ",
+  "onboardingMedicineCountThreeToFive": "3–5 տեսակ"
 }

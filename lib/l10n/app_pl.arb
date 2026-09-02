@@ -258,5 +258,6 @@
   "onboardingDailyDoseTwice": "2 razy",
   "onboardingDailyDoseThreeOrMore": "3 razy lub więcej",
   "onboardingMedicineCountTitle": "Iloma lekami zarządzasz?",
-  "onboardingMedicineCountOneToTwo": "1–2 rodzaje"
+  "onboardingMedicineCountOneToTwo": "1–2 rodzaje",
+  "onboardingMedicineCountThreeToFive": "3–5 rodzajów"
 }

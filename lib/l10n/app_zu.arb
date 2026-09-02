@@ -258,5 +258,6 @@
   "onboardingDailyDoseTwice": "izikhathi ezi-2",
   "onboardingDailyDoseThreeOrMore": "Izikhathi ezi-3 noma ngaphezulu",
   "onboardingMedicineCountTitle": "Ulawula imithi emingaki?",
-  "onboardingMedicineCountOneToTwo": "izinhlobo ezingu-1–2"
+  "onboardingMedicineCountOneToTwo": "izinhlobo ezingu-1–2",
+  "onboardingMedicineCountThreeToFive": "izinhlobo ezi-3–5"
 }

@@ -258,5 +258,6 @@
   "onboardingDailyDoseTwice": "2 φορές",
   "onboardingDailyDoseThreeOrMore": "3 φορές ή περισσότερες",
   "onboardingMedicineCountTitle": "Πόσα φάρμακα διαχειρίζεστε;",
-  "onboardingMedicineCountOneToTwo": "1–2 είδη"
+  "onboardingMedicineCountOneToTwo": "1–2 είδη",
+  "onboardingMedicineCountThreeToFive": "3–5 είδη"
 }

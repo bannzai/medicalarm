@@ -258,5 +258,6 @@
   "onboardingDailyDoseTwice": "2 marta",
   "onboardingDailyDoseThreeOrMore": "3 marta yoki undan ko‘p",
   "onboardingMedicineCountTitle": "Nechta dori vositasini boshqarasiz?",
-  "onboardingMedicineCountOneToTwo": "1–2 tur"
+  "onboardingMedicineCountOneToTwo": "1–2 tur",
+  "onboardingMedicineCountThreeToFive": "3–5 tur"
 }

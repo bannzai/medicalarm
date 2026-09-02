@@ -258,5 +258,6 @@
   "onboardingDailyDoseTwice": "2 gånger",
   "onboardingDailyDoseThreeOrMore": "3 gånger eller fler",
   "onboardingMedicineCountTitle": "Hur många läkemedel hanterar du?",
-  "onboardingMedicineCountOneToTwo": "1–2 typer"
+  "onboardingMedicineCountOneToTwo": "1–2 typer",
+  "onboardingMedicineCountThreeToFive": "3–5 typer"
 }

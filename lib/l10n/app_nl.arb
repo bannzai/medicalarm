@@ -258,5 +258,6 @@
   "onboardingDailyDoseTwice": "2 keer",
   "onboardingDailyDoseThreeOrMore": "3 keer of meer",
   "onboardingMedicineCountTitle": "Hoeveel medicijnen beheert u?",
-  "onboardingMedicineCountOneToTwo": "1–2 soorten"
+  "onboardingMedicineCountOneToTwo": "1–2 soorten",
+  "onboardingMedicineCountThreeToFive": "3–5 soorten"
 }

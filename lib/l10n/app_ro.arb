@@ -258,5 +258,6 @@
   "onboardingDailyDoseTwice": "de 2 ori",
   "onboardingDailyDoseThreeOrMore": "De 3 ori sau mai mult",
   "onboardingMedicineCountTitle": "Câte medicamente gestionați?",
-  "onboardingMedicineCountOneToTwo": "1–2 tipuri"
+  "onboardingMedicineCountOneToTwo": "1–2 tipuri",
+  "onboardingMedicineCountThreeToFive": "3–5 tipuri"
 }

@@ -258,5 +258,6 @@
   "onboardingDailyDoseTwice": "2 пъти",
   "onboardingDailyDoseThreeOrMore": "3 или повече пъти",
   "onboardingMedicineCountTitle": "За колко лекарства се грижите?",
-  "onboardingMedicineCountOneToTwo": "1–2 вида"
+  "onboardingMedicineCountOneToTwo": "1–2 вида",
+  "onboardingMedicineCountThreeToFive": "3–5 вида"
 }

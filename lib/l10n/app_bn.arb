@@ -258,5 +258,6 @@
   "onboardingDailyDoseTwice": "২ বার",
   "onboardingDailyDoseThreeOrMore": "৩ বার বা তার বেশি",
   "onboardingMedicineCountTitle": "আপনি কতটি ওষুধ পরিচালনা করেন?",
-  "onboardingMedicineCountOneToTwo": "১–২ ধরনের"
+  "onboardingMedicineCountOneToTwo": "১–২ ধরনের",
+  "onboardingMedicineCountThreeToFive": "৩–৫ ধরনের"
 }

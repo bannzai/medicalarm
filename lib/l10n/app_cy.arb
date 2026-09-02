@@ -258,5 +258,6 @@
   "onboardingDailyDoseTwice": "2 waith",
   "onboardingDailyDoseThreeOrMore": "3 gwaith neu fwy",
   "onboardingMedicineCountTitle": "Faint o feddyginiaethau ydych chi'n eu rheoli?",
-  "onboardingMedicineCountOneToTwo": "1–2 fath"
+  "onboardingMedicineCountOneToTwo": "1–2 fath",
+  "onboardingMedicineCountThreeToFive": "3–5 math"
 }

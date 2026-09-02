@@ -258,5 +258,6 @@
   "onboardingDailyDoseTwice": "مرتين",
   "onboardingDailyDoseThreeOrMore": "3 مرات أو أكثر",
   "onboardingMedicineCountTitle": "كم دواءً تدير؟",
-  "onboardingMedicineCountOneToTwo": "1–2 نوع"
+  "onboardingMedicineCountOneToTwo": "1–2 نوع",
+  "onboardingMedicineCountThreeToFive": "3–5 أنواع"
 }

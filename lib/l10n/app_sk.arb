@@ -258,5 +258,6 @@
   "onboardingDailyDoseTwice": "2-krát",
   "onboardingDailyDoseThreeOrMore": "3-krát alebo viac",
   "onboardingMedicineCountTitle": "Koľko liekov spravujete?",
-  "onboardingMedicineCountOneToTwo": "1–2 druhy"
+  "onboardingMedicineCountOneToTwo": "1–2 druhy",
+  "onboardingMedicineCountThreeToFive": "3–5 druhov"
 }

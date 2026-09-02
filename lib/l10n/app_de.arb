@@ -258,5 +258,6 @@
   "onboardingDailyDoseTwice": "2-mal",
   "onboardingDailyDoseThreeOrMore": "3-mal oder öfter",
   "onboardingMedicineCountTitle": "Wie viele Medikamente verwalten Sie?",
-  "onboardingMedicineCountOneToTwo": "1–2 Arten"
+  "onboardingMedicineCountOneToTwo": "1–2 Arten",
+  "onboardingMedicineCountThreeToFive": "3–5 Arten"
 }

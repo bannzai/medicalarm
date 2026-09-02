@@ -258,5 +258,6 @@
   "onboardingDailyDoseTwice": "2 முறை",
   "onboardingDailyDoseThreeOrMore": "3 முறை அல்லது அதற்கு மேல்",
   "onboardingMedicineCountTitle": "எத்தனை மருந்துகளை நிர்வகிக்கிறீர்கள்?",
-  "onboardingMedicineCountOneToTwo": "1–2 வகைகள்"
+  "onboardingMedicineCountOneToTwo": "1–2 வகைகள்",
+  "onboardingMedicineCountThreeToFive": "3–5 வகைகள்"
 }

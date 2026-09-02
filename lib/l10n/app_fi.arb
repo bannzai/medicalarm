@@ -258,5 +258,6 @@
   "onboardingDailyDoseTwice": "2 kertaa",
   "onboardingDailyDoseThreeOrMore": "3 kertaa tai useammin",
   "onboardingMedicineCountTitle": "Kuinka monta lääkettä hallinnoit?",
-  "onboardingMedicineCountOneToTwo": "1–2 tyyppiä"
+  "onboardingMedicineCountOneToTwo": "1–2 tyyppiä",
+  "onboardingMedicineCountThreeToFive": "3–5 tyyppiä"
 }

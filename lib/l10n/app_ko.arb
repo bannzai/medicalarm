@@ -258,5 +258,6 @@
   "onboardingDailyDoseTwice": "2회",
   "onboardingDailyDoseThreeOrMore": "3회 이상",
   "onboardingMedicineCountTitle": "관리하는 약이 몇 개 있나요?",
-  "onboardingMedicineCountOneToTwo": "1~2종"
+  "onboardingMedicineCountOneToTwo": "1~2종",
+  "onboardingMedicineCountThreeToFive": "3~5가지"
 }
