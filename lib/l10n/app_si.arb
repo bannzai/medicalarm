@@ -266,5 +266,6 @@
   "onboardingAfterLabel": "මෙතැන් සිට",
   "onboardingBeforeItemForgot": "ඖෂධය ගැනීමට අමතක වූ බව මට වැටහුණා",
   "onboardingBeforeItemUnsure": "මම එය ගත්තද නැද්ද මතක නැහැ",
-  "onboardingBeforeItemFamily": "මුළු පවුලේම ඖෂධ ගැන විමසිල්ලෙන් සිටිය නොහැක"
+  "onboardingBeforeItemFamily": "මුළු පවුලේම ඖෂධ ගැන විමසිල්ලෙන් සිටිය නොහැක",
+  "onboardingAfterItemReminder": "ඖෂධය ගත යුතු වේලාවට ඔබට දැනුම්දීමක් ලැබේ."
 }

@@ -266,5 +266,6 @@
   "onboardingAfterLabel": "Відтепер",
   "onboardingBeforeItemForgot": "Я зрозумів(ла), що забув(ла) прийняти ліки",
   "onboardingBeforeItemUnsure": "Не пам’ятаю, чи прийняв(ла) я його",
-  "onboardingBeforeItemFamily": "Не можу стежити за прийомом ліків усієї родини"
+  "onboardingBeforeItemFamily": "Не можу стежити за прийомом ліків усієї родини",
+  "onboardingAfterItemReminder": "Ви отримаєте сповіщення, коли настане час прийняти ліки."
 }

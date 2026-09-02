@@ -266,5 +266,6 @@
   "onboardingAfterLabel": "Ab jetzt",
   "onboardingBeforeItemForgot": "Ich ha gmerkt, dass ich mini Medizin vergässe ha",
   "onboardingBeforeItemUnsure": "Ich weiss nümme, öb ich es gno ha",
-  "onboardingBeforeItemFamily": "Cha d Medikation vo de ganze Familie nöd im Blick bhalte"
+  "onboardingBeforeItemFamily": "Cha d Medikation vo de ganze Familie nöd im Blick bhalte",
+  "onboardingAfterItemReminder": "Du überchunsch e Benachrichtigung, wenn’s Zyt isch, dini Medikament z näh."
 }

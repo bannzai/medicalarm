@@ -266,5 +266,6 @@
   "onboardingAfterLabel": "Από εδώ και πέρα",
   "onboardingBeforeItemForgot": "Συνειδητοποίησα ότι είχα ξεχάσει να πάρω το φάρμακό μου",
   "onboardingBeforeItemUnsure": "Δεν θυμάμαι αν το πήρα",
-  "onboardingBeforeItemFamily": "Δεν μπορώ να παρακολουθώ τα φάρμακα όλης της οικογένειας"
+  "onboardingBeforeItemFamily": "Δεν μπορώ να παρακολουθώ τα φάρμακα όλης της οικογένειας",
+  "onboardingAfterItemReminder": "Θα λάβετε ειδοποίηση όταν έρθει η ώρα να πάρετε το φάρμακό σας."
 }

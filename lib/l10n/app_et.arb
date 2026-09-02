@@ -266,5 +266,6 @@
   "onboardingAfterLabel": "Nüüdsest",
   "onboardingBeforeItemForgot": "Sain aru, et olin unustanud ravimit võtta",
   "onboardingBeforeItemUnsure": "Ma ei mäleta, kas võtsin selle",
-  "onboardingBeforeItemFamily": "Ei suuda kogu pere ravimite üle arvet pidada"
+  "onboardingBeforeItemFamily": "Ei suuda kogu pere ravimite üle arvet pidada",
+  "onboardingAfterItemReminder": "Saad teate, kui on aeg ravimit võtta."
 }

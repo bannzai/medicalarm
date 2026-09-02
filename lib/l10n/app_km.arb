@@ -266,5 +266,6 @@
   "onboardingAfterLabel": "ចាប់ពីពេលនេះតទៅ",
   "onboardingBeforeItemForgot": "ខ្ញុំទើបដឹងថាខ្ញុំភ្លេចលេបថ្នាំ",
   "onboardingBeforeItemUnsure": "ខ្ញុំមិនចាំថាបានលេបវាឬអត់ទេ",
-  "onboardingBeforeItemFamily": "មិនអាចតាមដានថ្នាំរបស់គ្រួសារទាំងមូលបានទេ"
+  "onboardingBeforeItemFamily": "មិនអាចតាមដានថ្នាំរបស់គ្រួសារទាំងមូលបានទេ",
+  "onboardingAfterItemReminder": "អ្នកនឹងទទួលបានការជូនដំណឹងនៅពេលដល់ពេលលេបថ្នាំ។"
 }

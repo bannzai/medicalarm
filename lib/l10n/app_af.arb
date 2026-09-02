@@ -266,5 +266,6 @@
   "onboardingAfterLabel": "Van nou af",
   "onboardingBeforeItemForgot": "Ek het besef ek het vergeet om my medikasie te neem",
   "onboardingBeforeItemUnsure": "Kan nie onthou of ek dit geneem het nie",
-  "onboardingBeforeItemFamily": "Kan nie die hele gesin se medikasie dophou nie"
+  "onboardingBeforeItemFamily": "Kan nie die hele gesin se medikasie dophou nie",
+  "onboardingAfterItemReminder": "Jy kry ’n kennisgewing wanneer dit tyd is om jou medikasie te neem."
 }

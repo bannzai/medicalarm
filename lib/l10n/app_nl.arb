@@ -266,5 +266,6 @@
   "onboardingAfterLabel": "Vanaf nu",
   "onboardingBeforeItemForgot": "Ik kwam erachter dat ik was vergeten mijn medicijn in te nemen",
   "onboardingBeforeItemUnsure": "Ik weet niet meer of ik het heb ingenomen",
-  "onboardingBeforeItemFamily": "Kan de medicatie van het hele gezin niet bijhouden"
+  "onboardingBeforeItemFamily": "Kan de medicatie van het hele gezin niet bijhouden",
+  "onboardingAfterItemReminder": "Je krijgt een melding wanneer het tijd is om je medicijn in te nemen."
 }

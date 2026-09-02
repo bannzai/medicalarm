@@ -266,5 +266,6 @@
   "onboardingAfterLabel": "A partir de agora",
   "onboardingBeforeItemForgot": "Percebi que tinha esquecido de tomar o medicamento",
   "onboardingBeforeItemUnsure": "Não me lembro se tomei",
-  "onboardingBeforeItemFamily": "Não consigo acompanhar a medicação de toda a família"
+  "onboardingBeforeItemFamily": "Não consigo acompanhar a medicação de toda a família",
+  "onboardingAfterItemReminder": "Você receberá uma notificação quando for hora de tomar o medicamento."
 }

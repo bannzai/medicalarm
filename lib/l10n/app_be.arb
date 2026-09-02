@@ -266,5 +266,6 @@
   "onboardingAfterLabel": "З гэтага часу",
   "onboardingBeforeItemForgot": "Я заўважыў(ла), што забыўся(лася) прыняць лекі",
   "onboardingBeforeItemUnsure": "Не памятаю, ці прымаў(ла) я яго",
-  "onboardingBeforeItemFamily": "Не магу сачыць за прыёмам лекаў усёй сям’і"
+  "onboardingBeforeItemFamily": "Не магу сачыць за прыёмам лекаў усёй сям’і",
+  "onboardingAfterItemReminder": "Вы атрымаеце апавяшчэнне, калі настане час прыняць лекі."
 }

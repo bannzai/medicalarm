@@ -266,5 +266,6 @@
   "onboardingAfterLabel": "Tästä eteenpäin",
   "onboardingBeforeItemForgot": "Huomasin unohtaneeni ottaa lääkkeeni",
   "onboardingBeforeItemUnsure": "En muista, otinko sen",
-  "onboardingBeforeItemFamily": "En pysty seuraamaan koko perheen lääkitystä"
+  "onboardingBeforeItemFamily": "En pysty seuraamaan koko perheen lääkitystä",
+  "onboardingAfterItemReminder": "Saat ilmoituksen, kun on aika ottaa lääkkeesi."
 }

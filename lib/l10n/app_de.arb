@@ -266,5 +266,6 @@
   "onboardingAfterLabel": "Ab jetzt",
   "onboardingBeforeItemForgot": "Ich habe bemerkt, dass ich vergessen hatte, meine Medikamente einzunehmen",
   "onboardingBeforeItemUnsure": "Ich weiß nicht mehr, ob ich es eingenommen habe",
-  "onboardingBeforeItemFamily": "Kann die Medikamente der ganzen Familie nicht im Blick behalten"
+  "onboardingBeforeItemFamily": "Kann die Medikamente der ganzen Familie nicht im Blick behalten",
+  "onboardingAfterItemReminder": "Du erhältst eine Benachrichtigung, wenn es Zeit ist, dein Medikament einzunehmen."
 }

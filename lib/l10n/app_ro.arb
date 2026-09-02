@@ -266,5 +266,6 @@
   "onboardingAfterLabel": "De acum înainte",
   "onboardingBeforeItemForgot": "Mi-am dat seama că am uitat să-mi iau medicamentul",
   "onboardingBeforeItemUnsure": "Nu-mi amintesc dacă am luat medicamentul",
-  "onboardingBeforeItemFamily": "Nu pot ține evidența medicamentelor întregii familii"
+  "onboardingBeforeItemFamily": "Nu pot ține evidența medicamentelor întregii familii",
+  "onboardingAfterItemReminder": "Vei primi o notificare când este timpul să iei medicamentul."
 }

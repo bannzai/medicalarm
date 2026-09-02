@@ -266,5 +266,6 @@
   "onboardingAfterLabel": "अबदेखि",
   "onboardingBeforeItemForgot": "मैले औषध खान बिर्सिएको थाहा पाएँ",
   "onboardingBeforeItemUnsure": "मैले औषधि लिएँ कि लिइनँ, याद छैन",
-  "onboardingBeforeItemFamily": "सम्पूर्ण परिवारका औषधिको विवरण राख्न सकिँदैन"
+  "onboardingBeforeItemFamily": "सम्पूर्ण परिवारका औषधिको विवरण राख्न सकिँदैन",
+  "onboardingAfterItemReminder": "औषधि खाने समय हुँदा तपाईंले सूचना पाउनुहुनेछ।"
 }

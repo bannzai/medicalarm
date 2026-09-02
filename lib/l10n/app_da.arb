@@ -266,5 +266,6 @@
   "onboardingAfterLabel": "Fra nu af",
   "onboardingBeforeItemForgot": "Jeg opdagede, at jeg havde glemt at tage min medicin",
   "onboardingBeforeItemUnsure": "Jeg kan ikke huske, om jeg har taget det",
-  "onboardingBeforeItemFamily": "Kan ikke holde styr på hele familiens medicin"
+  "onboardingBeforeItemFamily": "Kan ikke holde styr på hele familiens medicin",
+  "onboardingAfterItemReminder": "Du får en notifikation, når det er tid til at tage din medicin."
 }

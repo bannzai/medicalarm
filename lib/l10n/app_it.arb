@@ -266,5 +266,6 @@
   "onboardingAfterLabel": "D'ora in poi",
   "onboardingBeforeItemForgot": "Mi sono accorto/a di aver dimenticato di prendere il farmaco",
   "onboardingBeforeItemUnsure": "Non ricordo se l’ho preso",
-  "onboardingBeforeItemFamily": "Non riesco a tenere sotto controllo i farmaci di tutta la famiglia"
+  "onboardingBeforeItemFamily": "Non riesco a tenere sotto controllo i farmaci di tutta la famiglia",
+  "onboardingAfterItemReminder": "Riceverai una notifica quando sarà il momento di assumere il farmaco."
 }

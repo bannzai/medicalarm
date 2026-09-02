@@ -266,5 +266,6 @@
   "onboardingAfterLabel": "Od teraz",
   "onboardingBeforeItemForgot": "Zorientowałem(-am) się, że zapomniałem(-am) zażyć lek",
   "onboardingBeforeItemUnsure": "Nie pamiętam, czy ją przyjąłem/przyjęłam",
-  "onboardingBeforeItemFamily": "Nie mogę kontrolować przyjmowania leków przez całą rodzinę"
+  "onboardingBeforeItemFamily": "Nie mogę kontrolować przyjmowania leków przez całą rodzinę",
+  "onboardingAfterItemReminder": "Otrzymasz powiadomienie, gdy nadejdzie pora przyjęcia leku."
 }

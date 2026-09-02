@@ -266,5 +266,6 @@
   "onboardingAfterLabel": "आतापासून",
   "onboardingBeforeItemForgot": "माझे औषध घेणे विसरले असल्याचे लक्षात आले",
   "onboardingBeforeItemUnsure": "औषध घेतले की नाही ते आठवत नाही",
-  "onboardingBeforeItemFamily": "संपूर्ण कुटुंबाच्या औषधांचा मागोवा ठेवता येत नाही"
+  "onboardingBeforeItemFamily": "संपूर्ण कुटुंबाच्या औषधांचा मागोवा ठेवता येत नाही",
+  "onboardingAfterItemReminder": "औषध घेण्याची वेळ झाल्यावर तुम्हाला सूचना मिळेल."
 }

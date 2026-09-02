@@ -266,5 +266,6 @@
   "onboardingAfterLabel": "Mula ngayon",
   "onboardingBeforeItemForgot": "Napansin kong nakalimutan kong inumin ang gamot ko",
   "onboardingBeforeItemUnsure": "Hindi ko maalala kung nainom ko na ito",
-  "onboardingBeforeItemFamily": "Hindi masubaybayan ang pag-inom ng gamot ng buong pamilya"
+  "onboardingBeforeItemFamily": "Hindi masubaybayan ang pag-inom ng gamot ng buong pamilya",
+  "onboardingAfterItemReminder": "Makakatanggap ka ng abiso kapag oras na para inumin ang iyong gamot."
 }

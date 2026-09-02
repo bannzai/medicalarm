@@ -266,5 +266,6 @@
   "onboardingAfterLabel": "Отсега",
   "onboardingBeforeItemForgot": "Сфатив дека сум заборавил/а да го земам лекот",
   "onboardingBeforeItemUnsure": "Не се сеќавам дали го земав",
-  "onboardingBeforeItemFamily": "Не можам да го следам земањето лекови на целото семејство"
+  "onboardingBeforeItemFamily": "Не можам да го следам земањето лекови на целото семејство",
+  "onboardingAfterItemReminder": "Ќе добиете известување кога ќе дојде време да го земете лекот."
 }

@@ -266,5 +266,6 @@
   "onboardingAfterLabel": "ఇక నుంచి",
   "onboardingBeforeItemForgot": "మందు వేసుకోవడం మర్చిపోయానని గుర్తించాను",
   "onboardingBeforeItemUnsure": "మందు తీసుకున్నానో లేదో గుర్తులేదు",
-  "onboardingBeforeItemFamily": "మొత్తం కుటుంబం మందుల వివరాలను గమనించలేకపోతున్నాను"
+  "onboardingBeforeItemFamily": "మొత్తం కుటుంబం మందుల వివరాలను గమనించలేకపోతున్నాను",
+  "onboardingAfterItemReminder": "మందు తీసుకునే సమయం వచ్చినప్పుడు మీకు నోటిఫికేషన్ వస్తుంది."
 }

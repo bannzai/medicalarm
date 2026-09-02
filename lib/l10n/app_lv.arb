@@ -266,5 +266,6 @@
   "onboardingAfterLabel": "No šī brīža",
   "onboardingBeforeItemForgot": "Sapratu, ka zāles nav iedzertas",
   "onboardingBeforeItemUnsure": "Neatceros, vai to iedzēru",
-  "onboardingBeforeItemFamily": "Nevaru pārraudzīt visas ģimenes medikamentu lietošanu"
+  "onboardingBeforeItemFamily": "Nevaru pārraudzīt visas ģimenes medikamentu lietošanu",
+  "onboardingAfterItemReminder": "Saņemsi paziņojumu, kad būs pienācis laiks lietot zāles."
 }

@@ -266,5 +266,6 @@
   "onboardingAfterLabel": "अब से",
   "onboardingBeforeItemForgot": "मुझे पता चला कि मैं अपनी दवा लेना भूल गया/गई था/थी",
   "onboardingBeforeItemUnsure": "याद नहीं कि मैंने दवा ली थी या नहीं",
-  "onboardingBeforeItemFamily": "पूरे परिवार की दवाओं पर नज़र रखना संभव नहीं"
+  "onboardingBeforeItemFamily": "पूरे परिवार की दवाओं पर नज़र रखना संभव नहीं",
+  "onboardingAfterItemReminder": "दवा लेने का समय होने पर आपको सूचना मिलेगी।"
 }

@@ -266,5 +266,6 @@
   "onboardingAfterLabel": "Nuo šiol",
   "onboardingBeforeItemForgot": "Pastebėjau, kad pamiršau išgerti vaistus",
   "onboardingBeforeItemUnsure": "Neprisimenu, ar jį išgėriau",
-  "onboardingBeforeItemFamily": "Negaliu sekti visos šeimos vaistų vartojimo"
+  "onboardingBeforeItemFamily": "Negaliu sekti visos šeimos vaistų vartojimo",
+  "onboardingAfterItemReminder": "Gausite pranešimą, kai ateis laikas išgerti vaistus."
 }

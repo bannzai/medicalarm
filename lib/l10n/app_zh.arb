@@ -266,5 +266,6 @@
   "onboardingAfterLabel": "从现在开始",
   "onboardingBeforeItemForgot": "意识到自己忘记服药了",
   "onboardingBeforeItemUnsure": "不记得有没有服用",
-  "onboardingBeforeItemFamily": "无法掌握全家人的用药情况"
+  "onboardingBeforeItemFamily": "无法掌握全家人的用药情况",
+  "onboardingAfterItemReminder": "服药时间到了，您会收到通知。"
 }

@@ -266,5 +266,6 @@
   "onboardingAfterLabel": "اب سے",
   "onboardingBeforeItemForgot": "مجھے احساس ہوا کہ میں اپنی دوا لینا بھول گیا/گئی تھا/تھی",
   "onboardingBeforeItemUnsure": "یاد نہیں کہ دوا لی تھی یا نہیں",
-  "onboardingBeforeItemFamily": "پورے خاندان کی ادویات کا ریکارڈ رکھنا ممکن نہیں"
+  "onboardingBeforeItemFamily": "پورے خاندان کی ادویات کا ریکارڈ رکھنا ممکن نہیں",
+  "onboardingAfterItemReminder": "جب دوا لینے کا وقت ہوگا، آپ کو اطلاع موصول ہوگی۔"
 }

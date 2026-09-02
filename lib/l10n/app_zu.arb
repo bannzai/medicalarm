@@ -266,5 +266,6 @@
   "onboardingAfterLabel": "Kusukela manje",
   "onboardingBeforeItemForgot": "Ngabona ukuthi ngangikhohliwe ukuphuza umuthi wami",
   "onboardingBeforeItemUnsure": "Angikhumbuli ukuthi ngiwuphuzile yini",
-  "onboardingBeforeItemFamily": "Angikwazi ukulandelela imithi yomndeni wonke"
+  "onboardingBeforeItemFamily": "Angikwazi ukulandelela imithi yomndeni wonke",
+  "onboardingAfterItemReminder": "Uzothola isaziso lapho sekuyisikhathi sokuphuza umuthi wakho."
 }

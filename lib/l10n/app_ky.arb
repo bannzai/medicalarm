@@ -266,5 +266,6 @@
   "onboardingAfterLabel": "Мындан ары",
   "onboardingBeforeItemForgot": "Дары ичүүнү унутуп калганымды байкадым",
   "onboardingBeforeItemUnsure": "Дары ичкен-ичпегеним эсимде жок",
-  "onboardingBeforeItemFamily": "Бүт үй-бүлөнүн дары-дармегин көзөмөлдөй албайм"
+  "onboardingBeforeItemFamily": "Бүт үй-бүлөнүн дары-дармегин көзөмөлдөй албайм",
+  "onboardingAfterItemReminder": "Дары ичүү убактысы келгенде, сизге эскертме келет."
 }

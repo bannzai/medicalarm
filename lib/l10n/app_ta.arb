@@ -266,5 +266,6 @@
   "onboardingAfterLabel": "இனிமேல்",
   "onboardingBeforeItemForgot": "மருந்து எடுத்துக்கொள்ள மறந்துவிட்டதை உணர்ந்தேன்",
   "onboardingBeforeItemUnsure": "மருந்தை எடுத்தேனா இல்லையா என்று நினைவில்லை",
-  "onboardingBeforeItemFamily": "முழு குடும்பத்தின் மருந்துகளையும் கண்காணிக்க முடியவில்லை"
+  "onboardingBeforeItemFamily": "முழு குடும்பத்தின் மருந்துகளையும் கண்காணிக்க முடியவில்லை",
+  "onboardingAfterItemReminder": "மருந்து உட்கொள்ளும் நேரத்தில் உங்களுக்கு அறிவிப்பு வரும்."
 }

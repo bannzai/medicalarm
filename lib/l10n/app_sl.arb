@@ -266,5 +266,6 @@
   "onboardingAfterLabel": "Odslej",
   "onboardingBeforeItemForgot": "Ugotovil(a) sem, da sem pozabil(a) vzeti zdravilo",
   "onboardingBeforeItemUnsure": "Ne spomnim se, ali sem ga vzel/a",
-  "onboardingBeforeItemFamily": "Ne morem spremljati zdravil celotne družine"
+  "onboardingBeforeItemFamily": "Ne morem spremljati zdravil celotne družine",
+  "onboardingAfterItemReminder": "Ko bo čas za zaužitje zdravila, boste prejeli obvestilo."
 }

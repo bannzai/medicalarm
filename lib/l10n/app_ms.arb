@@ -266,5 +266,6 @@
   "onboardingAfterLabel": "Mulai sekarang",
   "onboardingBeforeItemForgot": "Saya sedar bahawa saya terlupa mengambil ubat",
   "onboardingBeforeItemUnsure": "Saya tidak ingat sama ada sudah mengambilnya",
-  "onboardingBeforeItemFamily": "Tidak dapat memantau pengambilan ubat seluruh keluarga"
+  "onboardingBeforeItemFamily": "Tidak dapat memantau pengambilan ubat seluruh keluarga",
+  "onboardingAfterItemReminder": "Anda akan menerima pemberitahuan apabila tiba masa untuk mengambil ubat."
 }

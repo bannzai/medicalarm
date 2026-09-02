@@ -266,5 +266,6 @@
   "onboardingAfterLabel": "Mostantól",
   "onboardingBeforeItemForgot": "Rájöttem, hogy elfelejtettem bevenni a gyógyszeremet",
   "onboardingBeforeItemUnsure": "Nem emlékszem, hogy bevettem-e",
-  "onboardingBeforeItemFamily": "Nem tudom nyomon követni az egész család gyógyszereit"
+  "onboardingBeforeItemFamily": "Nem tudom nyomon követni az egész család gyógyszereit",
+  "onboardingAfterItemReminder": "Értesítést kapsz, amikor eljön a gyógyszer bevételének ideje."
 }

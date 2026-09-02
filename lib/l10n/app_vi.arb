@@ -266,5 +266,6 @@
   "onboardingAfterLabel": "Từ bây giờ",
   "onboardingBeforeItemForgot": "Tôi nhận ra mình đã quên uống thuốc",
   "onboardingBeforeItemUnsure": "Không nhớ mình đã uống thuốc hay chưa",
-  "onboardingBeforeItemFamily": "Không thể theo dõi việc dùng thuốc của cả gia đình"
+  "onboardingBeforeItemFamily": "Không thể theo dõi việc dùng thuốc của cả gia đình",
+  "onboardingAfterItemReminder": "Bạn sẽ nhận được thông báo khi đến giờ uống thuốc."
 }

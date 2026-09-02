@@ -266,5 +266,6 @@
   "onboardingAfterLabel": "ამიერიდან",
   "onboardingBeforeItemForgot": "მივხვდი, რომ წამლის მიღება დამავიწყდა",
   "onboardingBeforeItemUnsure": "არ მახსოვს, მივიღე თუ არა",
-  "onboardingBeforeItemFamily": "მთელი ოჯახის მედიკამენტებს ვერ ვადევნებ თვალს"
+  "onboardingBeforeItemFamily": "მთელი ოჯახის მედიკამენტებს ვერ ვადევნებ თვალს",
+  "onboardingAfterItemReminder": "მიიღებთ შეტყობინებას, როდესაც წამლის მიღების დრო დადგება."
 }

@@ -266,5 +266,6 @@
   "onboardingAfterLabel": "Që tani",
   "onboardingBeforeItemForgot": "E kuptova se kisha harruar të merrja ilaçin",
   "onboardingBeforeItemUnsure": "Nuk mbaj mend nëse e kam marrë",
-  "onboardingBeforeItemFamily": "Nuk mund të mbaj nën kontroll barnat e gjithë familjes"
+  "onboardingBeforeItemFamily": "Nuk mund të mbaj nën kontroll barnat e gjithë familjes",
+  "onboardingAfterItemReminder": "Do të marrësh një njoftim kur të jetë koha për të marrë ilaçin."
 }
