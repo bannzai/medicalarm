@@ -253,5 +253,6 @@
   "onboardingCareTargetFamily": "Familia",
   "onboardingCareTargetSelfAndFamily": "Eu e a miña familia",
   "onboardingDailyDoseCountTitle": "Cantas veces ao día tomas medicamentos?",
-  "onboardingDailyDoseCountSubtitle": "Utilízase para determinar o número de notificacións."
+  "onboardingDailyDoseCountSubtitle": "Utilízase para determinar o número de notificacións.",
+  "onboardingDailyDoseOnce": "Unha vez"
 }

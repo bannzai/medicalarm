@@ -253,5 +253,6 @@
   "onboardingCareTargetFamily": "കുടുംബം",
   "onboardingCareTargetSelfAndFamily": "ഞാനും എന്റെ കുടുംബവും",
   "onboardingDailyDoseCountTitle": "ദിവസത്തിൽ എത്ര തവണ നിങ്ങൾ മരുന്ന് കഴിക്കുന്നു?",
-  "onboardingDailyDoseCountSubtitle": "അറിയിപ്പുകളുടെ എണ്ണം നിർണ്ണയിക്കാൻ ഉപയോഗിക്കുന്നു."
+  "onboardingDailyDoseCountSubtitle": "അറിയിപ്പുകളുടെ എണ്ണം നിർണ്ണയിക്കാൻ ഉപയോഗിക്കുന്നു.",
+  "onboardingDailyDoseOnce": "ഒരിക്കൽ"
 }

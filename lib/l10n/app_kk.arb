@@ -253,5 +253,6 @@
   "onboardingCareTargetFamily": "Отбасы",
   "onboardingCareTargetSelfAndFamily": "Мен және отбасым",
   "onboardingDailyDoseCountTitle": "Күніне неше рет дәрі қабылдайсыз?",
-  "onboardingDailyDoseCountSubtitle": "Хабарландырулар санын анықтау үшін пайдаланылады."
+  "onboardingDailyDoseCountSubtitle": "Хабарландырулар санын анықтау үшін пайдаланылады.",
+  "onboardingDailyDoseOnce": "Бір рет"
 }

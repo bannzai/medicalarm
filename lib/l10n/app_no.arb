@@ -253,5 +253,6 @@
   "onboardingCareTargetFamily": "Familie",
   "onboardingCareTargetSelfAndFamily": "Meg selv og familien min",
   "onboardingDailyDoseCountTitle": "Hvor mange ganger om dagen tar du medisiner?",
-  "onboardingDailyDoseCountSubtitle": "Brukes til å bestemme antallet varsler."
+  "onboardingDailyDoseCountSubtitle": "Brukes til å bestemme antallet varsler.",
+  "onboardingDailyDoseOnce": "En gang"
 }

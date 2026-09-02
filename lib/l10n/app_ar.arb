@@ -253,5 +253,6 @@
   "onboardingCareTargetFamily": "العائلة",
   "onboardingCareTargetSelfAndFamily": "أنا وعائلتي",
   "onboardingDailyDoseCountTitle": "كم مرة تتناول الدواء يوميًا؟",
-  "onboardingDailyDoseCountSubtitle": "يُستخدم لتحديد عدد الإشعارات."
+  "onboardingDailyDoseCountSubtitle": "يُستخدم لتحديد عدد الإشعارات.",
+  "onboardingDailyDoseOnce": "مرة واحدة"
 }

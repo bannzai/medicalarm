@@ -253,5 +253,6 @@
   "onboardingCareTargetFamily": "Семья",
   "onboardingCareTargetSelfAndFamily": "Я и моя семья",
   "onboardingDailyDoseCountTitle": "Сколько раз в день вы принимаете лекарства?",
-  "onboardingDailyDoseCountSubtitle": "Используется для определения количества уведомлений."
+  "onboardingDailyDoseCountSubtitle": "Используется для определения количества уведомлений.",
+  "onboardingDailyDoseOnce": "Один раз"
 }

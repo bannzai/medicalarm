@@ -253,5 +253,6 @@
   "onboardingCareTargetFamily": "Гэр бүл",
   "onboardingCareTargetSelfAndFamily": "Би болон миний гэр бүл",
   "onboardingDailyDoseCountTitle": "Та өдөрт хэдэн удаа эм уудаг вэ?",
-  "onboardingDailyDoseCountSubtitle": "Мэдэгдлийн тоог тодорхойлоход ашиглана."
+  "onboardingDailyDoseCountSubtitle": "Мэдэгдлийн тоог тодорхойлоход ашиглана.",
+  "onboardingDailyDoseOnce": "Нэг удаа"
 }

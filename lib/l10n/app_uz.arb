@@ -253,5 +253,6 @@
   "onboardingCareTargetFamily": "Oila",
   "onboardingCareTargetSelfAndFamily": "Men va oilam",
   "onboardingDailyDoseCountTitle": "Kuniga necha marta dori qabul qilasiz?",
-  "onboardingDailyDoseCountSubtitle": "Bildirishnomalar sonini aniqlash uchun ishlatiladi."
+  "onboardingDailyDoseCountSubtitle": "Bildirishnomalar sonini aniqlash uchun ishlatiladi.",
+  "onboardingDailyDoseOnce": "Bir marta"
 }

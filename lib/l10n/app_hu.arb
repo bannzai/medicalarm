@@ -253,5 +253,6 @@
   "onboardingCareTargetFamily": "Család",
   "onboardingCareTargetSelfAndFamily": "Én és a családom",
   "onboardingDailyDoseCountTitle": "Naponta hányszor szed gyógyszert?",
-  "onboardingDailyDoseCountSubtitle": "Az értesítések számának meghatározására szolgál."
+  "onboardingDailyDoseCountSubtitle": "Az értesítések számának meghatározására szolgál.",
+  "onboardingDailyDoseOnce": "Egyszer"
 }

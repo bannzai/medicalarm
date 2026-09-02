@@ -253,5 +253,6 @@
   "onboardingCareTargetFamily": "Ailə",
   "onboardingCareTargetSelfAndFamily": "Mən və ailəm",
   "onboardingDailyDoseCountTitle": "Gündə neçə dəfə dərman qəbul edirsiniz?",
-  "onboardingDailyDoseCountSubtitle": "Bildirişlərin sayını müəyyən etmək üçün istifadə olunur."
+  "onboardingDailyDoseCountSubtitle": "Bildirişlərin sayını müəyyən etmək üçün istifadə olunur.",
+  "onboardingDailyDoseOnce": "1 dəfə"
 }

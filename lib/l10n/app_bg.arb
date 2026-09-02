@@ -253,5 +253,6 @@
   "onboardingCareTargetFamily": "Семейство",
   "onboardingCareTargetSelfAndFamily": "Аз и семейството ми",
   "onboardingDailyDoseCountTitle": "Колко пъти на ден приемате лекарства?",
-  "onboardingDailyDoseCountSubtitle": "Използва се за определяне на броя известия."
+  "onboardingDailyDoseCountSubtitle": "Използва се за определяне на броя известия.",
+  "onboardingDailyDoseOnce": "Веднъж"
 }

@@ -253,5 +253,6 @@
   "onboardingCareTargetFamily": "משפחה",
   "onboardingCareTargetSelfAndFamily": "אני ומשפחתי",
   "onboardingDailyDoseCountTitle": "כמה פעמים ביום אתם נוטלים תרופות?",
-  "onboardingDailyDoseCountSubtitle": "משמש לקביעת מספר ההתראות."
+  "onboardingDailyDoseCountSubtitle": "משמש לקביעת מספר ההתראות.",
+  "onboardingDailyDoseOnce": "פעם אחת"
 }

@@ -253,5 +253,6 @@
   "onboardingCareTargetFamily": "خانواده",
   "onboardingCareTargetSelfAndFamily": "من و خانواده‌ام",
   "onboardingDailyDoseCountTitle": "روزی چند بار دارو مصرف می‌کنید؟",
-  "onboardingDailyDoseCountSubtitle": "برای تعیین تعداد اعلان‌ها استفاده می‌شود."
+  "onboardingDailyDoseCountSubtitle": "برای تعیین تعداد اعلان‌ها استفاده می‌شود.",
+  "onboardingDailyDoseOnce": "یک بار"
 }

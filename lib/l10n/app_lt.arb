@@ -253,5 +253,6 @@
   "onboardingCareTargetFamily": "Šeima",
   "onboardingCareTargetSelfAndFamily": "Aš ir mano šeima",
   "onboardingDailyDoseCountTitle": "Kiek kartų per dieną vartojate vaistus?",
-  "onboardingDailyDoseCountSubtitle": "Naudojama pranešimų skaičiui nustatyti."
+  "onboardingDailyDoseCountSubtitle": "Naudojama pranešimų skaičiui nustatyti.",
+  "onboardingDailyDoseOnce": "Vieną kartą"
 }
