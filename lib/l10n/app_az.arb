@@ -174,5 +174,6 @@
   "medicationPause": "Dərmanı aktivləşdirin",
   "medicationPauseDescription": "Söndürüldükdə, dərman ekranından və bildirişlərdən çıxarılır.",
   "medicinePausedSnackbar": "Dərmanın qəbulu müvəqqəti dayandırıldı",
-  "medicationHistoryDeletedSnackbar": "Dərman qəbulu qeydi geri alındı"
+  "medicationHistoryDeletedSnackbar": "Dərman qəbulu qeydi geri alındı",
+  "undo": "Geri al"
 }

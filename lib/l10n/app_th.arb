@@ -174,5 +174,6 @@
   "medicationPause": "เปิดใช้งานยา",
   "medicationPauseDescription": "เมื่อปิดใช้งาน ยานี้จะไม่แสดงในหน้าจอยาและการแจ้งเตือน",
   "medicinePausedSnackbar": "หยุดรับประทานยาชั่วคราวแล้ว",
-  "medicationHistoryDeletedSnackbar": "ยกเลิกบันทึกการรับประทานยาแล้ว"
+  "medicationHistoryDeletedSnackbar": "ยกเลิกบันทึกการรับประทานยาแล้ว",
+  "undo": "เลิกทำ"
 }

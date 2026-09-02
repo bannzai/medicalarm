@@ -174,5 +174,6 @@
   "medicationPause": "Ativar medicamento",
   "medicationPauseDescription": "Ao desativar, será excluído da tela de medicamentos e das notificações.",
   "medicinePausedSnackbar": "A toma do medicamento foi pausada temporariamente",
-  "medicationHistoryDeletedSnackbar": "O registo da toma do medicamento foi anulado"
+  "medicationHistoryDeletedSnackbar": "O registo da toma do medicamento foi anulado",
+  "undo": "Desfazer"
 }

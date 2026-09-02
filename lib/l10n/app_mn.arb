@@ -174,5 +174,6 @@
   "medicationPause": "Эмийг идэвхжүүлэх",
   "medicationPauseDescription": "Унтраахад эмийн дэлгэц болон мэдэгдлээс хасагдана.",
   "medicinePausedSnackbar": "Эм уухыг түр хугацаагаар зогсоолоо",
-  "medicationHistoryDeletedSnackbar": "Эм уусан бүртгэлийг цуцаллаа"
+  "medicationHistoryDeletedSnackbar": "Эм уусан бүртгэлийг цуцаллаа",
+  "undo": "Буцаах"
 }

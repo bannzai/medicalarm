@@ -174,5 +174,6 @@
   "medicationPause": "Washa dawa",
   "medicationPauseDescription": "Ikizimwa, itaondolewa kwenye skrini ya dawa na arifa.",
   "medicinePausedSnackbar": "Unywaji wa dawa umesitishwa kwa muda",
-  "medicationHistoryDeletedSnackbar": "Rekodi ya unywaji wa dawa imebatilishwa"
+  "medicationHistoryDeletedSnackbar": "Rekodi ya unywaji wa dawa imebatilishwa",
+  "undo": "Tendua"
 }

@@ -174,5 +174,6 @@
   "medicationPause": "Vumela umuthi",
   "medicationPauseDescription": "Uma kuvalwa, izokhishwa esikrinini semithi nasezazisweni.",
   "medicinePausedSnackbar": "Ukuphuza umuthi kumisiwe okwesikhashana",
-  "medicationHistoryDeletedSnackbar": "Irekhodi lokuphuza umuthi lihoxisiwe"
+  "medicationHistoryDeletedSnackbar": "Irekhodi lokuphuza umuthi lihoxisiwe",
+  "undo": "Hlehlisa"
 }

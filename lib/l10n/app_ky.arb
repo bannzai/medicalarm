@@ -174,5 +174,6 @@
   "medicationPause": "Дарыны иштетүү",
   "medicationPauseDescription": "Өчүрүлгөндө, дары-дармектер экранынан жана эскертмелерден чыгарылат.",
   "medicinePausedSnackbar": "Дарыны ичүү убактылуу токтотулду",
-  "medicationHistoryDeletedSnackbar": "Дары ичүү жазмасы жокко чыгарылды"
+  "medicationHistoryDeletedSnackbar": "Дары ичүү жазмасы жокко чыгарылды",
+  "undo": "Артка кайтаруу"
 }

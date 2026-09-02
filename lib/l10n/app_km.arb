@@ -174,5 +174,6 @@
   "medicationPause": "បើកដំណើរការថ្នាំ",
   "medicationPauseDescription": "នៅពេលបិទ វានឹងត្រូវដកចេញពីអេក្រង់ថ្នាំ និងការជូនដំណឹង។",
   "medicinePausedSnackbar": "ការលេបថ្នាំត្រូវបានផ្អាកជាបណ្តោះអាសន្ន",
-  "medicationHistoryDeletedSnackbar": "កំណត់ត្រាការលេបថ្នាំត្រូវបានលុបចោល"
+  "medicationHistoryDeletedSnackbar": "កំណត់ត្រាការលេបថ្នាំត្រូវបានលុបចោល",
+  "undo": "មិនធ្វើវិញ"
 }

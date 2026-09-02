@@ -174,5 +174,6 @@
   "medicationPause": "ঔষধ সক্ৰিয় কৰক",
   "medicationPauseDescription": "বন্ধ কৰিলে, ইয়াক ঔষধৰ পৰ্দা আৰু জাননীৰ পৰা বাদ দিয়া হ’ব।",
   "medicinePausedSnackbar": "ঔষধ সেৱন সাময়িকভাৱে স্থগিত কৰা হৈছে",
-  "medicationHistoryDeletedSnackbar": "ঔষধ সেৱনৰ ৰেকৰ্ড বাতিল কৰা হৈছে"
+  "medicationHistoryDeletedSnackbar": "ঔষধ সেৱনৰ ৰেকৰ্ড বাতিল কৰা হৈছে",
+  "undo": "পূৰ্বাৱস্থালৈ নিন"
 }

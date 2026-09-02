@@ -174,5 +174,6 @@
   "medicationPause": "Ակտիվացնել դեղորայքը",
   "medicationPauseDescription": "Անջատելու դեպքում այն կհեռացվի դեղերի էկրանից և ծանուցումներից։",
   "medicinePausedSnackbar": "Դեղամիջոցի ընդունումը ժամանակավորապես դադարեցվել է",
-  "medicationHistoryDeletedSnackbar": "Դեղամիջոցի ընդունման գրառումը չեղարկվեց"
+  "medicationHistoryDeletedSnackbar": "Դեղամիջոցի ընդունման գրառումը չեղարկվեց",
+  "undo": "Հետարկել"
 }

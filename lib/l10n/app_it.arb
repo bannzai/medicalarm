@@ -174,5 +174,6 @@
   "medicationPause": "Attiva farmaco",
   "medicationPauseDescription": "Quando viene disattivato, il farmaco viene escluso dalla schermata dei farmaci e dalle notifiche.",
   "medicinePausedSnackbar": "L’assunzione del farmaco è stata sospesa temporaneamente",
-  "medicationHistoryDeletedSnackbar": "La registrazione dell’assunzione del farmaco è stata annullata"
+  "medicationHistoryDeletedSnackbar": "La registrazione dell’assunzione del farmaco è stata annullata",
+  "undo": "Annulla"
 }

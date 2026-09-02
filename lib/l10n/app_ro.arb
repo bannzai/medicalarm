@@ -174,5 +174,6 @@
   "medicationPause": "Activează medicamentul",
   "medicationPauseDescription": "Când este dezactivat, medicamentul va fi exclus de pe ecranul medicamentelor și din notificări.",
   "medicinePausedSnackbar": "Administrarea medicamentului a fost întreruptă temporar",
-  "medicationHistoryDeletedSnackbar": "Înregistrarea administrării medicamentului a fost anulată"
+  "medicationHistoryDeletedSnackbar": "Înregistrarea administrării medicamentului a fost anulată",
+  "undo": "Anulează"
 }

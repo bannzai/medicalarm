@@ -174,5 +174,6 @@
   "medicationPause": "Bật thuốc",
   "medicationPauseDescription": "Khi tắt, thuốc sẽ bị loại khỏi màn hình thuốc và thông báo.",
   "medicinePausedSnackbar": "Đã tạm dừng uống thuốc",
-  "medicationHistoryDeletedSnackbar": "Đã hủy bản ghi uống thuốc"
+  "medicationHistoryDeletedSnackbar": "Đã hủy bản ghi uống thuốc",
+  "undo": "Hoàn tác"
 }

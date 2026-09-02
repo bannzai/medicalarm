@@ -174,5 +174,6 @@
   "medicationPause": "Luba ravim",
   "medicationPauseDescription": "Väljalülitamisel eemaldatakse see ravimite ekraanilt ja märguannetest.",
   "medicinePausedSnackbar": "Ravimi võtmine on ajutiselt peatatud",
-  "medicationHistoryDeletedSnackbar": "Ravimi võtmise märge tühistati"
+  "medicationHistoryDeletedSnackbar": "Ravimi võtmise märge tühistati",
+  "undo": "Võta tagasi"
 }

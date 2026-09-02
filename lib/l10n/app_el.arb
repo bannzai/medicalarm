@@ -174,5 +174,6 @@
   "medicationPause": "Ενεργοποίηση φαρμάκου",
   "medicationPauseDescription": "Όταν απενεργοποιηθεί, θα εξαιρεθεί από την οθόνη φαρμάκων και τις ειδοποιήσεις.",
   "medicinePausedSnackbar": "Η λήψη του φαρμάκου διακόπηκε προσωρινά",
-  "medicationHistoryDeletedSnackbar": "Η καταγραφή λήψης του φαρμάκου αναιρέθηκε"
+  "medicationHistoryDeletedSnackbar": "Η καταγραφή λήψης του φαρμάκου αναιρέθηκε",
+  "undo": "Αναίρεση"
 }

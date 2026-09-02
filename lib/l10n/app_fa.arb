@@ -174,5 +174,6 @@
   "medicationPause": "فعال‌کردن دارو",
   "medicationPauseDescription": "با خاموش کردن آن، از صفحه داروها و اعلان‌ها حذف می‌شود.",
   "medicinePausedSnackbar": "مصرف دارو موقتاً متوقف شد",
-  "medicationHistoryDeletedSnackbar": "ثبت مصرف دارو لغو شد"
+  "medicationHistoryDeletedSnackbar": "ثبت مصرف دارو لغو شد",
+  "undo": "واگردانی"
 }

@@ -174,5 +174,6 @@
   "medicationPause": "Medikament aktivieren",
   "medicationPauseDescription": "Wenn es usgschaltet wird, wird es us em Medikamentebildschirm und us de Benachrichtigunge entfernt.",
   "medicinePausedSnackbar": "D Medikamenteneinnahm isch vorübergehend pausiert worde",
-  "medicationHistoryDeletedSnackbar": "D Medikament-Itrag isch rückgängig gmacht worde"
+  "medicationHistoryDeletedSnackbar": "D Medikament-Itrag isch rückgängig gmacht worde",
+  "undo": "Rückgängig"
 }

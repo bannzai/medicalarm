@@ -174,5 +174,6 @@
   "medicationPause": "ওষুধ চালু করুন",
   "medicationPauseDescription": "বন্ধ করলে এটি ওষুধের স্ক্রিন ও বিজ্ঞপ্তি থেকে বাদ যাবে।",
   "medicinePausedSnackbar": "ওষুধ খাওয়া সাময়িকভাবে স্থগিত করা হয়েছে",
-  "medicationHistoryDeletedSnackbar": "ওষুধ সেবনের রেকর্ড বাতিল করা হয়েছে"
+  "medicationHistoryDeletedSnackbar": "ওষুধ সেবনের রেকর্ড বাতিল করা হয়েছে",
+  "undo": "পূর্বাবস্থায় ফেরান"
 }

@@ -174,5 +174,6 @@
   "medicationPause": "दवा चालू करें",
   "medicationPauseDescription": "बंद करने पर, इसे दवाओं की स्क्रीन और सूचनाओं से हटा दिया जाएगा।",
   "medicinePausedSnackbar": "दवा लेना अस्थायी रूप से रोक दिया गया है",
-  "medicationHistoryDeletedSnackbar": "दवा लेने का रिकॉर्ड रद्द कर दिया गया है"
+  "medicationHistoryDeletedSnackbar": "दवा लेने का रिकॉर्ड रद्द कर दिया गया है",
+  "undo": "पूर्ववत करें"
 }

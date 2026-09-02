@@ -174,5 +174,6 @@
   "medicationPause": "Omogoči zdravilo",
   "medicationPauseDescription": "Ob izklopu bo zdravilo odstranjeno z zaslona z zdravili in iz obvestil.",
   "medicinePausedSnackbar": "Jemanje zdravila je začasno zaustavljeno",
-  "medicationHistoryDeletedSnackbar": "Zapis o zaužitju zdravila je preklican"
+  "medicationHistoryDeletedSnackbar": "Zapis o zaužitju zdravila je preklican",
+  "undo": "Razveljavi"
 }

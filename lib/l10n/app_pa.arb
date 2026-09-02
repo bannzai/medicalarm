@@ -174,5 +174,6 @@
   "medicationPause": "ਦਵਾਈ ਚਾਲੂ ਕਰੋ",
   "medicationPauseDescription": "ਬੰਦ ਕਰਨ 'ਤੇ, ਇਸਨੂੰ ਦਵਾਈਆਂ ਦੀ ਸਕ੍ਰੀਨ ਅਤੇ ਸੂਚਨਾਵਾਂ ਤੋਂ ਹਟਾ ਦਿੱਤਾ ਜਾਵੇਗਾ।",
   "medicinePausedSnackbar": "ਦਵਾਈ ਲੈਣਾ ਅਸਥਾਈ ਤੌਰ 'ਤੇ ਰੋਕ ਦਿੱਤਾ ਗਿਆ ਹੈ",
-  "medicationHistoryDeletedSnackbar": "ਦਵਾਈ ਲੈਣ ਦਾ ਰਿਕਾਰਡ ਰੱਦ ਕਰ ਦਿੱਤਾ ਗਿਆ ਹੈ"
+  "medicationHistoryDeletedSnackbar": "ਦਵਾਈ ਲੈਣ ਦਾ ਰਿਕਾਰਡ ਰੱਦ ਕਰ ਦਿੱਤਾ ਗਿਆ ਹੈ",
+  "undo": "ਵਾਪਸ ਕਰੋ"
 }

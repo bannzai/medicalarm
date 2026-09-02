@@ -174,5 +174,6 @@
   "medicationPause": "ଔଷଧ ସକ୍ରିୟ କରନ୍ତୁ",
   "medicationPauseDescription": "ବନ୍ଦ କଲେ, ଏହାକୁ ଔଷଧ ସ୍କ୍ରିନ୍ ଏବଂ ବିଜ୍ଞପ୍ତିରୁ ବାଦ ଦିଆଯିବ।",
   "medicinePausedSnackbar": "ଔଷଧ ସେବନ ସାମୟିକ ଭାବେ ବନ୍ଦ କରାଯାଇଛି",
-  "medicationHistoryDeletedSnackbar": "ଔଷଧ ସେବନର ରେକର୍ଡ ବାତିଲ କରାଯାଇଛି"
+  "medicationHistoryDeletedSnackbar": "ଔଷଧ ସେବନର ରେକର୍ଡ ବାତିଲ କରାଯାଇଛି",
+  "undo": "ପୂର୍ବାବସ୍ଥାକୁ ଫେରାନ୍ତୁ"
 }

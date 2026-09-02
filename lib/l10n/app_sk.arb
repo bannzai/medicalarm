@@ -174,5 +174,6 @@
   "medicationPause": "Povoliť liek",
   "medicationPauseDescription": "Po vypnutí bude liek vynechaný z obrazovky liekov a z upozornení.",
   "medicinePausedSnackbar": "Užívanie lieku bolo dočasne pozastavené",
-  "medicationHistoryDeletedSnackbar": "Záznam o užití lieku bol zrušený"
+  "medicationHistoryDeletedSnackbar": "Záznam o užití lieku bol zrušený",
+  "undo": "Späť"
 }
