@@ -228,5 +228,6 @@
   "minimumDoseIntervalHoursFormat": "Mindestens {hours} Stunden",
   "doseIntervalWarningTitle": "Dr erforderlig Abstand zwüsche de Dosis isch no nid verstriche",
   "doseIntervalWarningMessage": "Sie hän d'Dosis bereits um {latestTakeTime} iignoh. I de Iistellige isch en Mindestabstand vo {minimumDoseIntervalHours} Stund zwüsche de Einnahme vorgseh. Wänd Sie d'Einnahm trotzdem erfasse?",
-  "doseIntervalWarningTakeAnyway": "Aufzeichne"
+  "doseIntervalWarningTakeAnyway": "Aufzeichne",
+  "doseIntervalNotificationWarning": "⚠️ Syt dr letschte Iinah si no kei {minimumDoseIntervalHours} Stunde vergaa"
 }

@@ -228,5 +228,6 @@
   "minimumDoseIntervalHoursFormat": "Не менше ніж {hours} годин",
   "doseIntervalWarningTitle": "Необхідний інтервал між прийомами ще не минув",
   "doseIntervalWarningMessage": "Ви вже прийняли ліки о {latestTakeTime}. Налаштування передбачає інтервал між прийомами щонайменше {minimumDoseIntervalHours} годин. Усе одно записати прийом?",
-  "doseIntervalWarningTakeAnyway": "Записати"
+  "doseIntervalWarningTakeAnyway": "Записати",
+  "doseIntervalNotificationWarning": "⚠️ Від останнього прийому не минуло {minimumDoseIntervalHours} годин"
 }

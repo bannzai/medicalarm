@@ -228,5 +228,6 @@
   "minimumDoseIntervalHoursFormat": "Minstens {hours} uur",
   "doseIntervalWarningTitle": "Het vereiste tijdsinterval tussen de innames is nog niet verstreken",
   "doseIntervalWarningMessage": "U heeft het medicijn al ingenomen om {latestTakeTime}. De instelling vereist minimaal {minimumDoseIntervalHours} uur tussen innames. Wilt u het toch registreren?",
-  "doseIntervalWarningTakeAnyway": "Registreren"
+  "doseIntervalWarningTakeAnyway": "Registreren",
+  "doseIntervalNotificationWarning": "⚠️ Er zijn nog geen {minimumDoseIntervalHours} uur verstreken sinds de vorige dosis"
 }

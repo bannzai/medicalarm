@@ -228,5 +228,6 @@
   "minimumDoseIntervalHoursFormat": "Të paktën {hours} orë",
   "doseIntervalWarningTitle": "Koha e nevojshme ndërmjet dozave nuk ka kaluar ende",
   "doseIntervalWarningMessage": "E keni marrë ilaçin në {latestTakeTime}. Cilësimi kërkon të paktën {minimumDoseIntervalHours} orë ndërmjet dozave. Dëshironi ta regjistroni gjithsesi?",
-  "doseIntervalWarningTakeAnyway": "Regjistro"
+  "doseIntervalWarningTakeAnyway": "Regjistro",
+  "doseIntervalNotificationWarning": "⚠️ Nuk kanë kaluar {minimumDoseIntervalHours} orë nga doza e fundit"
 }

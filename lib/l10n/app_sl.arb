@@ -228,5 +228,6 @@
   "minimumDoseIntervalHoursFormat": "Najmanj {hours} ur",
   "doseIntervalWarningTitle": "Potreben časovni razmik med odmerkoma še ni pretekel",
   "doseIntervalWarningMessage": "Zdravilo ste že vzeli ob {latestTakeTime}. Nastavljeno je, da mora biti med odmerkoma vsaj {minimumDoseIntervalHours} ur. Ali ga vseeno zabeležite?",
-  "doseIntervalWarningTakeAnyway": "Zabeleži"
+  "doseIntervalWarningTakeAnyway": "Zabeleži",
+  "doseIntervalNotificationWarning": "⚠️ Od zadnjega odmerka še ni minilo {minimumDoseIntervalHours} ur"
 }

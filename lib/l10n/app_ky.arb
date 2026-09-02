@@ -228,5 +228,6 @@
   "minimumDoseIntervalHoursFormat": "Кеминде {hours} саат",
   "doseIntervalWarningTitle": "Дозалардын ортосундагы керектүү убакыт али өтө элек",
   "doseIntervalWarningMessage": "Сиз дарыны {latestTakeTime} убактысында мурун эле ичкенсиз. Жөндөөлөр боюнча дозалардын ортосунда кеминде {minimumDoseIntervalHours} саат болушу керек. Ошого карабай жаздырасызбы?",
-  "doseIntervalWarningTakeAnyway": "Каттоо"
+  "doseIntervalWarningTakeAnyway": "Каттоо",
+  "doseIntervalNotificationWarning": "⚠️ Акыркы дозадан бери {minimumDoseIntervalHours} саат өткөн жок"
 }

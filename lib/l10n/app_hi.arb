@@ -228,5 +228,6 @@
   "minimumDoseIntervalHoursFormat": "कम से कम {hours} घंटे",
   "doseIntervalWarningTitle": "खुराकों के बीच आवश्यक समय अभी पूरा नहीं हुआ है",
   "doseIntervalWarningMessage": "आपने {latestTakeTime} पर दवा ले ली है। सेटिंग के अनुसार खुराकों के बीच कम से कम {minimumDoseIntervalHours} घंटे का अंतर होना चाहिए। फिर भी इसे रिकॉर्ड करें?",
-  "doseIntervalWarningTakeAnyway": "रिकॉर्ड करें"
+  "doseIntervalWarningTakeAnyway": "रिकॉर्ड करें",
+  "doseIntervalNotificationWarning": "⚠️ पिछली खुराक के बाद {minimumDoseIntervalHours} घंटे पूरे नहीं हुए हैं"
 }

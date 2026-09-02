@@ -228,5 +228,6 @@
   "minimumDoseIntervalHoursFormat": "Okungenani amahora angu-{hours}",
   "doseIntervalWarningTitle": "Isikhawu esidingekayo phakathi kwemithamo asikapheli",
   "doseIntervalWarningMessage": "Usuwuthathile lo muthi ngo-{latestTakeTime}. Izilungiselelo zidinga ukuthi kube nesikhawu okungenani esingu-{minimumDoseIntervalHours} amahora phakathi kwemithamo. Usafuna ukukurekhoda?",
-  "doseIntervalWarningTakeAnyway": "Qopha"
+  "doseIntervalWarningTakeAnyway": "Qopha",
+  "doseIntervalNotificationWarning": "⚠️ Akukadluleki amahora angu-{minimumDoseIntervalHours} kusukela ekuphuzeni umthamo wokugcina"
 }

@@ -228,5 +228,6 @@
   "minimumDoseIntervalHoursFormat": "ଅତିକମରେ {hours} ଘଣ୍ଟା",
   "doseIntervalWarningTitle": "ଡୋଜ୍‌ ମଧ୍ୟରେ ଆବଶ୍ୟକ ସମୟ ଏପର୍ଯ୍ୟନ୍ତ ପୂରଣ ହୋଇନାହିଁ",
   "doseIntervalWarningMessage": "ଆପଣ {latestTakeTime} ସମୟରେ ଔଷଧ ଖାଇସାରିଛନ୍ତି। ସେଟିଂ ଅନୁଯାୟୀ ଡୋଜ୍‌ଗୁଡ଼ିକ ମଧ୍ୟରେ ଅତି କମ୍‌ରେ {minimumDoseIntervalHours} ଘଣ୍ଟା ବ୍ୟବଧାନ ରହିବା ଆବଶ୍ୟକ। ତଥାପି ରେକର୍ଡ କରିବେ କି?",
-  "doseIntervalWarningTakeAnyway": "ରେକର୍ଡ କରନ୍ତୁ"
+  "doseIntervalWarningTakeAnyway": "ରେକର୍ଡ କରନ୍ତୁ",
+  "doseIntervalNotificationWarning": "⚠️ ପୂର୍ବ ଡୋଜ୍ ନେବା ପରେ {minimumDoseIntervalHours} ଘଣ୍ଟା ବିତିନାହିଁ"
 }

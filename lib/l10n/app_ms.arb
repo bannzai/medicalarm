@@ -228,5 +228,6 @@
   "minimumDoseIntervalHoursFormat": "Sekurang-kurangnya {hours} jam",
   "doseIntervalWarningTitle": "Selang masa yang diperlukan antara dos masih belum berlalu",
   "doseIntervalWarningMessage": "Anda telah mengambil ubat pada {latestTakeTime}. Tetapan menetapkan selang sekurang-kurangnya {minimumDoseIntervalHours} jam antara dos. Tetap rekodkan?",
-  "doseIntervalWarningTakeAnyway": "Rekod"
+  "doseIntervalWarningTakeAnyway": "Rekod",
+  "doseIntervalNotificationWarning": "⚠️ Belum {minimumDoseIntervalHours} jam berlalu sejak dos terakhir"
 }

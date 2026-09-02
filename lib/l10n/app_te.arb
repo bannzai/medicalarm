@@ -228,5 +228,6 @@
   "minimumDoseIntervalHoursFormat": "కనీసం {hours} గంటలు",
   "doseIntervalWarningTitle": "మోతాదుల మధ్య అవసరమైన సమయం ఇంకా పూర్తికాలేదు",
   "doseIntervalWarningMessage": "మీరు ఇప్పటికే {latestTakeTime}కు మందు తీసుకున్నారు. సెట్టింగ్ ప్రకారం మోతాదుల మధ్య కనీసం {minimumDoseIntervalHours} గంటల విరామం ఉండాలి. అయినప్పటికీ రికార్డ్ చేయాలా?",
-  "doseIntervalWarningTakeAnyway": "రికార్డ్ చేయండి"
+  "doseIntervalWarningTakeAnyway": "రికార్డ్ చేయండి",
+  "doseIntervalNotificationWarning": "⚠️ చివరి మోతాదు తీసుకుని {minimumDoseIntervalHours} గంటలు కాలేదు"
 }

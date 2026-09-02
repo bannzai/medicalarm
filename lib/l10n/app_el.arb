@@ -228,5 +228,6 @@
   "minimumDoseIntervalHoursFormat": "Τουλάχιστον {hours} ώρες",
   "doseIntervalWarningTitle": "Δεν έχει περάσει το απαιτούμενο διάστημα μεταξύ των δόσεων",
   "doseIntervalWarningMessage": "Έχετε ήδη πάρει τη δόση στις {latestTakeTime}. Η ρύθμιση απαιτεί να μεσολαβούν τουλάχιστον {minimumDoseIntervalHours} ώρες μεταξύ των δόσεων. Θέλετε να την καταγράψετε ούτως ή άλλως;",
-  "doseIntervalWarningTakeAnyway": "Καταγραφή"
+  "doseIntervalWarningTakeAnyway": "Καταγραφή",
+  "doseIntervalNotificationWarning": "⚠️ Δεν έχουν περάσει {minimumDoseIntervalHours} ώρες από την τελευταία λήψη"
 }

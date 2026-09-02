@@ -228,5 +228,6 @@
   "minimumDoseIntervalHoursFormat": "Cel puțin {hours} ore",
   "doseIntervalWarningTitle": "Intervalul necesar dintre doze nu a trecut încă",
   "doseIntervalWarningMessage": "Ați luat deja medicamentul la {latestTakeTime}. Setarea impune un interval de cel puțin {minimumDoseIntervalHours} ore între doze. Doriți să îl înregistrați oricum?",
-  "doseIntervalWarningTakeAnyway": "Înregistrează"
+  "doseIntervalWarningTakeAnyway": "Înregistrează",
+  "doseIntervalNotificationWarning": "⚠️ Nu au trecut {minimumDoseIntervalHours} ore de la ultima doză"
 }
