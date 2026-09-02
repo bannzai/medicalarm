@@ -234,5 +234,6 @@
   "onboardingWelcomeTitle": "Да се ослободиме од грижата\nдека ќе заборавиме да го земеме лекот",
   "onboardingWelcomeBody": "Регистрирајте ги лековите и добивајте известувања\nПрегледајте ја евиденцијата за земање лекови.",
   "onboardingWelcomeFeatureReminder": "Известување во времето за земање лек",
-  "onboardingWelcomeFeatureCriticalAlert": "Critical Alert што ѕвони и во тивок режим"
+  "onboardingWelcomeFeatureCriticalAlert": "Critical Alert што ѕвони и во тивок режим",
+  "onboardingWelcomeFeatureFamily": "Управувајте и со лековите на целото семејство на едно место"
 }

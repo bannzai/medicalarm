@@ -234,5 +234,6 @@
   "onboardingWelcomeTitle": "Позбудьмося тривоги,\nщо можемо забути прийняти ліки",
   "onboardingWelcomeBody": "Зареєструйте ліки й отримуйте сповіщення\nПереглядайте історію прийому ліків.",
   "onboardingWelcomeFeatureReminder": "Сповіщення під час прийому ліків",
-  "onboardingWelcomeFeatureCriticalAlert": "Critical Alert, який звучить навіть у беззвучному режимі"
+  "onboardingWelcomeFeatureCriticalAlert": "Critical Alert, який звучить навіть у беззвучному режимі",
+  "onboardingWelcomeFeatureFamily": "Керуйте прийомом ліків усієї родини в одному місці"
 }

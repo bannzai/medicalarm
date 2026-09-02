@@ -234,5 +234,6 @@
   "onboardingWelcomeTitle": "Slipp bekymringen\nfor å glemme å ta medisinen",
   "onboardingWelcomeBody": "Registrer medisinen din og motta varsler\nSe gjennom historikken for medisininntak.",
   "onboardingWelcomeFeatureReminder": "Varsel når medisinen skal tas",
-  "onboardingWelcomeFeatureCriticalAlert": "Critical Alert som varsler selv i lydløs modus"
+  "onboardingWelcomeFeatureCriticalAlert": "Critical Alert som varsler selv i lydløs modus",
+  "onboardingWelcomeFeatureFamily": "Administrer også familiens medisiner på ett sted"
 }

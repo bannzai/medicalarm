@@ -234,5 +234,6 @@
   "onboardingWelcomeTitle": "බෙහෙත් ගැනීමට අමතක වේ යැයි\nඇති බිය නැති කරගනිමු",
   "onboardingWelcomeBody": "ඔබේ ඖෂධ ලියාපදිංචි කර දැනුම්දීම් ලබාගන්න\nඖෂධ ගැනීමේ වාර්තා සමාලෝචනය කරන්න.",
   "onboardingWelcomeFeatureReminder": "ඖෂධ ගැනීමට වේලාවේ දැනුම්දීම",
-  "onboardingWelcomeFeatureCriticalAlert": "නිහඬ ප්‍රකාරයේදී පවා නාද වන Critical Alert"
+  "onboardingWelcomeFeatureCriticalAlert": "නිහඬ ප්‍රකාරයේදී පවා නාද වන Critical Alert",
+  "onboardingWelcomeFeatureFamily": "ඔබේ පවුලේ ඖෂධ භාවිතයත් එකම ස්ථානයක කළමනාකරණය කරන්න"
 }

@@ -234,5 +234,6 @@
   "onboardingWelcomeTitle": "İlaç almayı unutma\nendişesini ortadan kaldıralım",
   "onboardingWelcomeBody": "İlaçlarınızı kaydedin ve bildirimler alın\nİlaç alma kayıtlarınızı gözden geçirin.",
   "onboardingWelcomeFeatureReminder": "İlaç alma zamanında bildirim",
-  "onboardingWelcomeFeatureCriticalAlert": "Sessiz modda bile çalan Critical Alert"
+  "onboardingWelcomeFeatureCriticalAlert": "Sessiz modda bile çalan Critical Alert",
+  "onboardingWelcomeFeatureFamily": "Ailenizin ilaçlarını da tek bir yerden yönetin"
 }

@@ -234,5 +234,6 @@
   "onboardingWelcomeTitle": "Alisin ang pag-aalalang\nmakalimutang uminom ng gamot",
   "onboardingWelcomeBody": "Irehistro ang iyong mga gamot at tumanggap ng mga abiso\nSuriin ang talaan ng pag-inom ng iyong gamot.",
   "onboardingWelcomeFeatureReminder": "Abiso sa oras ng pag-inom ng gamot",
-  "onboardingWelcomeFeatureCriticalAlert": "Critical Alert na tumutunog kahit naka-silent mode"
+  "onboardingWelcomeFeatureCriticalAlert": "Critical Alert na tumutunog kahit naka-silent mode",
+  "onboardingWelcomeFeatureFamily": "Pamahalaan din ang pag-inom ng gamot ng iyong pamilya sa iisang lugar"
 }

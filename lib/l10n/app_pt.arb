@@ -234,5 +234,6 @@
   "onboardingWelcomeTitle": "Acabemos com a preocupação\nde nos esquecermos de tomar os medicamentos",
   "onboardingWelcomeBody": "Registe os seus medicamentos e receba notificações\nReveja o seu registo de toma de medicamentos.",
   "onboardingWelcomeFeatureReminder": "Notificação no horário de tomar o medicamento",
-  "onboardingWelcomeFeatureCriticalAlert": "Critical Alert que toca mesmo no modo silencioso"
+  "onboardingWelcomeFeatureCriticalAlert": "Critical Alert que toca mesmo no modo silencioso",
+  "onboardingWelcomeFeatureFamily": "Gerencie também a medicação da sua família em um só lugar"
 }

@@ -234,5 +234,6 @@
   "onboardingWelcomeTitle": "Дәрі қабылдауды ұмытып кету\nуайымын сейілтейік",
   "onboardingWelcomeBody": "Дәрілеріңізді тіркеп, хабарландырулар алыңыз\nДәрі қабылдау жазбаларын қарап шығыңыз.",
   "onboardingWelcomeFeatureReminder": "Дәрі қабылдау уақытында хабарландыру",
-  "onboardingWelcomeFeatureCriticalAlert": "Дыбыссыз режимде де шығатын Critical Alert"
+  "onboardingWelcomeFeatureCriticalAlert": "Дыбыссыз режимде де шығатын Critical Alert",
+  "onboardingWelcomeFeatureFamily": "Отбасыңыздың дәрі қабылдауын да бір жерден басқарыңыз"
 }

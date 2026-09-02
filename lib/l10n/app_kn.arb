@@ -234,5 +234,6 @@
   "onboardingWelcomeTitle": "ಔಷಧಿ ತೆಗೆದುಕೊಳ್ಳುವುದನ್ನು ಮರೆತುಬಿಡುವ\nಚಿಂತೆಯನ್ನು ದೂರ ಮಾಡೋಣ",
   "onboardingWelcomeBody": "ನಿಮ್ಮ ಔಷಧಿಗಳನ್ನು ನೋಂದಾಯಿಸಿ ಮತ್ತು ಅಧಿಸೂಚನೆಗಳನ್ನು ಪಡೆಯಿರಿ\nನಿಮ್ಮ ಔಷಧಿ ಸೇವನೆಯ ದಾಖಲೆಗಳನ್ನು ಪರಿಶೀಲಿಸಿ.",
   "onboardingWelcomeFeatureReminder": "ಔಷಧಿ ತೆಗೆದುಕೊಳ್ಳುವ ಸಮಯದಲ್ಲಿ ಅಧಿಸೂಚನೆ",
-  "onboardingWelcomeFeatureCriticalAlert": "ಸೈಲೆಂಟ್ ಮೋಡ್‌ನಲ್ಲಿಯೂ ಧ್ವನಿಸುವ Critical Alert"
+  "onboardingWelcomeFeatureCriticalAlert": "ಸೈಲೆಂಟ್ ಮೋಡ್‌ನಲ್ಲಿಯೂ ಧ್ವನಿಸುವ Critical Alert",
+  "onboardingWelcomeFeatureFamily": "ನಿಮ್ಮ ಕುಟುಂಬದ ಔಷಧಿಗಳನ್ನೂ ಒಂದೇ ಸ್ಥಳದಲ್ಲಿ ನಿರ್ವಹಿಸಿ"
 }

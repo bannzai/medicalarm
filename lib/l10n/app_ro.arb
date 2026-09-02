@@ -234,5 +234,6 @@
   "onboardingWelcomeTitle": "Scapă de grija\ncă vei uita să iei medicamentele",
   "onboardingWelcomeBody": "Înregistrați-vă medicamentele și primiți notificări\nConsultați istoricul administrării medicamentelor.",
   "onboardingWelcomeFeatureReminder": "Notificare la ora administrării medicamentului",
-  "onboardingWelcomeFeatureCriticalAlert": "Critical Alert care sună chiar și în modul silențios"
+  "onboardingWelcomeFeatureCriticalAlert": "Critical Alert care sună chiar și în modul silențios",
+  "onboardingWelcomeFeatureFamily": "Gestionează și medicația familiei tale într-un singur loc"
 }

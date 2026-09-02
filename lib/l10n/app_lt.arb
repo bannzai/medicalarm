@@ -234,5 +234,6 @@
   "onboardingWelcomeTitle": "Atsikratykime nerimo,\nkad pamiršime išgerti vaistus",
   "onboardingWelcomeBody": "Užregistruokite vaistus ir gaukite pranešimus\nPeržiūrėkite vaistų vartojimo įrašus.",
   "onboardingWelcomeFeatureReminder": "Pranešimas vaistų vartojimo metu",
-  "onboardingWelcomeFeatureCriticalAlert": "Critical Alert, kuris skamba net įjungus tylųjį režimą"
+  "onboardingWelcomeFeatureCriticalAlert": "Critical Alert, kuris skamba net įjungus tylųjį režimą",
+  "onboardingWelcomeFeatureFamily": "Tvarkykite ir visos šeimos vaistų vartojimą vienoje vietoje"
 }

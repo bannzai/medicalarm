@@ -234,5 +234,6 @@
   "onboardingWelcomeTitle": "ওষুধ খেতে ভুলে যাওয়ার দুশ্চিন্তা\nদূর করি",
   "onboardingWelcomeBody": "আপনার ওষুধ নিবন্ধন করুন এবং বিজ্ঞপ্তি পান\nওষুধ সেবনের রেকর্ড পর্যালোচনা করুন।",
   "onboardingWelcomeFeatureReminder": "ওষুধ খাওয়ার সময় বিজ্ঞপ্তি",
-  "onboardingWelcomeFeatureCriticalAlert": "নিরব মোডেও বেজে ওঠে Critical Alert"
+  "onboardingWelcomeFeatureCriticalAlert": "নিরব মোডেও বেজে ওঠে Critical Alert",
+  "onboardingWelcomeFeatureFamily": "পরিবারের ওষুধও একসঙ্গে পরিচালনা করুন"
 }

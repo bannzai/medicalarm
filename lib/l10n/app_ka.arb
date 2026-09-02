@@ -234,5 +234,6 @@
   "onboardingWelcomeTitle": "მოვიშოროთ წამლის მიღების დავიწყების\nშიში",
   "onboardingWelcomeBody": "დაარეგისტრირეთ მედიკამენტები და მიიღეთ შეტყობინებები\nგადახედეთ მედიკამენტების მიღების ჩანაწერებს.",
   "onboardingWelcomeFeatureReminder": "შეტყობინება წამლის მიღების დროს",
-  "onboardingWelcomeFeatureCriticalAlert": "Critical Alert, რომელიც უხმო რეჟიმშიც ჟღერს"
+  "onboardingWelcomeFeatureCriticalAlert": "Critical Alert, რომელიც უხმო რეჟიმშიც ჟღერს",
+  "onboardingWelcomeFeatureFamily": "მართეთ თქვენი ოჯახის მედიკამენტების მიღებაც ერთ ადგილას"
 }

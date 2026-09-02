@@ -234,5 +234,6 @@
   "onboardingWelcomeTitle": "Վերացնենք դեղորայքն ընդունելը մոռանալու\nանհանգստությունը",
   "onboardingWelcomeBody": "Գրանցեք ձեր դեղերը և ստացեք ծանուցումներ\nՎերանայեք դեղերի ընդունման ձեր գրանցումները։",
   "onboardingWelcomeFeatureReminder": "Դեղորայքն ընդունելու ժամին ծանուցում",
-  "onboardingWelcomeFeatureCriticalAlert": "Critical Alert, որը հնչում է նույնիսկ լուռ ռեժիմում"
+  "onboardingWelcomeFeatureCriticalAlert": "Critical Alert, որը հնչում է նույնիսկ լուռ ռեժիմում",
+  "onboardingWelcomeFeatureFamily": "Կառավարեք նաև ձեր ընտանիքի դեղորայքը մեկ վայրում"
 }

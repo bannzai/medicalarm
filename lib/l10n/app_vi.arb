@@ -234,5 +234,6 @@
   "onboardingWelcomeTitle": "Không còn lo lắng\nvề việc quên uống thuốc",
   "onboardingWelcomeBody": "Đăng ký thuốc và nhận thông báo\nXem lại lịch sử dùng thuốc.",
   "onboardingWelcomeFeatureReminder": "Thông báo vào giờ uống thuốc",
-  "onboardingWelcomeFeatureCriticalAlert": "Critical Alert vẫn phát âm thanh ở chế độ im lặng"
+  "onboardingWelcomeFeatureCriticalAlert": "Critical Alert vẫn phát âm thanh ở chế độ im lặng",
+  "onboardingWelcomeFeatureFamily": "Quản lý thuốc của cả gia đình ở một nơi"
 }

@@ -234,5 +234,6 @@
   "onboardingWelcomeTitle": "Atbrīvosimies no raizēm,\nka aizmirsīsim iedzert zāles",
   "onboardingWelcomeBody": "Reģistrējiet savas zāles un saņemiet paziņojumus\nPārskatiet zāļu lietošanas ierakstus.",
   "onboardingWelcomeFeatureReminder": "Paziņojums zāļu lietošanas laikā",
-  "onboardingWelcomeFeatureCriticalAlert": "Critical Alert, kas skan arī klusuma režīmā"
+  "onboardingWelcomeFeatureCriticalAlert": "Critical Alert, kas skan arī klusuma režīmā",
+  "onboardingWelcomeFeatureFamily": "Pārvaldiet arī visas ģimenes medikamentu lietošanu vienuviet"
 }

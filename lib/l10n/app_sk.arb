@@ -234,5 +234,6 @@
   "onboardingWelcomeTitle": "Zbavme sa obáv,\nže zabudneme užiť liek",
   "onboardingWelcomeBody": "Zaregistrujte si lieky a dostávajte upozornenia\nPrezrite si záznamy o užívaní liekov.",
   "onboardingWelcomeFeatureReminder": "Upozornenie v čase užitia lieku",
-  "onboardingWelcomeFeatureCriticalAlert": "Critical Alert, ktorý zaznie aj v tichom režime"
+  "onboardingWelcomeFeatureCriticalAlert": "Critical Alert, ktorý zaznie aj v tichom režime",
+  "onboardingWelcomeFeatureFamily": "Spravujte aj užívanie liekov celej rodiny na jednom mieste"
 }

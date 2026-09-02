@@ -234,5 +234,6 @@
   "onboardingWelcomeTitle": "Vabaneme murest,\net unustame ravimit võtta",
   "onboardingWelcomeBody": "Registreerige oma ravimid ja saage teavitusi\nVaadake üle oma ravimite võtmise ajalugu.",
   "onboardingWelcomeFeatureReminder": "Teavitus ravimi võtmise ajal",
-  "onboardingWelcomeFeatureCriticalAlert": "Critical Alert, mis kõlab ka hääletus režiimis"
+  "onboardingWelcomeFeatureCriticalAlert": "Critical Alert, mis kõlab ka hääletus režiimis",
+  "onboardingWelcomeFeatureFamily": "Halda ka oma pere ravimite võtmist ühes kohas"
 }

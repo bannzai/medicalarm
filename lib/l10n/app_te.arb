@@ -234,5 +234,6 @@
   "onboardingWelcomeTitle": "మందు వేసుకోవడం మర్చిపోతామనే\nఆందోళనను తొలగించుకుందాం",
   "onboardingWelcomeBody": "మీ మందులను నమోదు చేసుకుని నోటిఫికేషన్‌లు పొందండి\nమీ మందులు తీసుకున్న రికార్డును సమీక్షించండి.",
   "onboardingWelcomeFeatureReminder": "మందు తీసుకునే సమయంలో నోటిఫికేషన్",
-  "onboardingWelcomeFeatureCriticalAlert": "సైలెంట్ మోడ్‌లో కూడా మోగే Critical Alert"
+  "onboardingWelcomeFeatureCriticalAlert": "సైలెంట్ మోడ్‌లో కూడా మోగే Critical Alert",
+  "onboardingWelcomeFeatureFamily": "మీ కుటుంబ సభ్యుల మందులను కూడా ఒకే చోట నిర్వహించండి"
 }

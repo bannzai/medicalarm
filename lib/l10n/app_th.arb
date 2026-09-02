@@ -234,5 +234,6 @@
   "onboardingWelcomeTitle": "หมดกังวล\nเรื่องลืมกินยา",
   "onboardingWelcomeBody": "ลงทะเบียนยาและรับการแจ้งเตือน\nทบทวนประวัติการรับประทานยา",
   "onboardingWelcomeFeatureReminder": "การแจ้งเตือนเมื่อถึงเวลารับประทานยา",
-  "onboardingWelcomeFeatureCriticalAlert": "Critical Alert ที่ดังแม้อยู่ในโหมดเงียบ"
+  "onboardingWelcomeFeatureCriticalAlert": "Critical Alert ที่ดังแม้อยู่ในโหมดเงียบ",
+  "onboardingWelcomeFeatureFamily": "จัดการยาของทุกคนในครอบครัวได้ในที่เดียว"
 }

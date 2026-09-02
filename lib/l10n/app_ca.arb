@@ -234,5 +234,6 @@
   "onboardingWelcomeTitle": "Eliminem la preocupació\nd’oblidar-te de prendre la medicació",
   "onboardingWelcomeBody": "Registra els teus medicaments i rep notificacions\nRevisa el registre de les teves preses.",
   "onboardingWelcomeFeatureReminder": "Notificació a l’hora de prendre el medicament",
-  "onboardingWelcomeFeatureCriticalAlert": "Critical Alert que sona fins i tot en mode silenciós"
+  "onboardingWelcomeFeatureCriticalAlert": "Critical Alert que sona fins i tot en mode silenciós",
+  "onboardingWelcomeFeatureFamily": "Gestiona també la medicació de la família en un sol lloc"
 }
