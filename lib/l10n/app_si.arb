@@ -196,5 +196,6 @@
   "increaseGroupLimitWithPremium": "Premium සැලසුම සමඟ තවත් කණ්ඩායම් සාදන්න",
   "invitationCode": "ආරාධනා කේතය",
   "invitationCodeShareDescription": "සාමාජිකයන්ට ආරාධනා කිරීමට මෙම කේතය බෙදාගන්න",
-  "invitationCodeExpiresAt": "කල් ඉකුත්වන දිනය: {date}"
+  "invitationCodeExpiresAt": "කල් ඉකුත්වන දිනය: {date}",
+  "copyInvitationCode": "කේතය පිටපත් කරන්න"
 }

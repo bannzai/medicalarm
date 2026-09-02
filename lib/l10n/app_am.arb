@@ -196,5 +196,6 @@
   "increaseGroupLimitWithPremium": "በPremium ዕቅድ ተጨማሪ ቡድኖችን ይፍጠሩ",
   "invitationCode": "የግብዣ ኮድ",
   "invitationCodeShareDescription": "ይህን ኮድ በማጋራት አባላትን መጋበዝ ይችላሉ",
-  "invitationCodeExpiresAt": "የሚያበቃበት ቀን፦ {date}"
+  "invitationCodeExpiresAt": "የሚያበቃበት ቀን፦ {date}",
+  "copyInvitationCode": "ኮዱን ቅዳ"
 }

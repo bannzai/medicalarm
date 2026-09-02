@@ -196,5 +196,6 @@
   "increaseGroupLimitWithPremium": "با طرح Premium گروه‌های بیشتری ایجاد کنید",
   "invitationCode": "کد دعوت",
   "invitationCodeShareDescription": "می‌توانید این کد را برای دعوت از اعضا به اشتراک بگذارید",
-  "invitationCodeExpiresAt": "تاریخ انقضا: {date}"
+  "invitationCodeExpiresAt": "تاریخ انقضا: {date}",
+  "copyInvitationCode": "کپی کد"
 }

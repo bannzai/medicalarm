@@ -196,5 +196,6 @@
   "increaseGroupLimitWithPremium": "Hozzon létre további csoportokat Premium csomaggal",
   "invitationCode": "Meghívókód",
   "invitationCodeShareDescription": "Oszd meg ezt a kódot tagok meghívásához",
-  "invitationCodeExpiresAt": "Lejárat: {date}"
+  "invitationCodeExpiresAt": "Lejárat: {date}",
+  "copyInvitationCode": "Kód másolása"
 }

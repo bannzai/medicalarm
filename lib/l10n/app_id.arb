@@ -196,5 +196,6 @@
   "increaseGroupLimitWithPremium": "Buat grup tambahan dengan paket Premium",
   "invitationCode": "Kode undangan",
   "invitationCodeShareDescription": "Bagikan kode ini untuk mengundang anggota",
-  "invitationCodeExpiresAt": "Berlaku hingga: {date}"
+  "invitationCodeExpiresAt": "Berlaku hingga: {date}",
+  "copyInvitationCode": "Salin kode"
 }

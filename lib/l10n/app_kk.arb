@@ -196,5 +196,6 @@
   "increaseGroupLimitWithPremium": "Premium жоспарымен көбірек топ жасаңыз",
   "invitationCode": "Шақыру коды",
   "invitationCodeShareDescription": "Мүшелерді шақыру үшін осы кодты бөлісіңіз",
-  "invitationCodeExpiresAt": "Жарамдылық мерзімі: {date}"
+  "invitationCodeExpiresAt": "Жарамдылық мерзімі: {date}",
+  "copyInvitationCode": "Кодты көшіру"
 }

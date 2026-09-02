@@ -196,5 +196,6 @@
   "increaseGroupLimitWithPremium": "Dala amanye amaqembu ngohlelo lwe-Premium",
   "invitationCode": "Ikhodi yesimemo",
   "invitationCodeShareDescription": "Yabelana ngale khodi ukuze umeme amalungu",
-  "invitationCodeExpiresAt": "Kuphelelwa yisikhathi: {date}"
+  "invitationCodeExpiresAt": "Kuphelelwa yisikhathi: {date}",
+  "copyInvitationCode": "Kopisha ikhodi"
 }

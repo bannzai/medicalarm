@@ -196,5 +196,6 @@
   "increaseGroupLimitWithPremium": "Vytvárajte ďalšie skupiny s programom Premium",
   "invitationCode": "Kód pozvánky",
   "invitationCodeShareDescription": "Zdieľajte tento kód a pozvite členov",
-  "invitationCodeExpiresAt": "Platnosť do: {date}"
+  "invitationCodeExpiresAt": "Platnosť do: {date}",
+  "copyInvitationCode": "Kopírovať kód"
 }

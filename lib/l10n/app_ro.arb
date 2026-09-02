@@ -196,5 +196,6 @@
   "increaseGroupLimitWithPremium": "Creează mai multe grupuri cu planul Premium",
   "invitationCode": "Cod de invitație",
   "invitationCodeShareDescription": "Distribuiți acest cod pentru a invita membri",
-  "invitationCodeExpiresAt": "Valabil până la: {date}"
+  "invitationCodeExpiresAt": "Valabil până la: {date}",
+  "copyInvitationCode": "Copiază codul"
 }

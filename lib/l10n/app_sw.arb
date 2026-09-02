@@ -196,5 +196,6 @@
   "increaseGroupLimitWithPremium": "Unda vikundi zaidi kwa mpango wa Premium",
   "invitationCode": "Msimbo wa mwaliko",
   "invitationCodeShareDescription": "Shiriki msimbo huu ili kuwaalika wanachama",
-  "invitationCodeExpiresAt": "Inaisha: {date}"
+  "invitationCodeExpiresAt": "Inaisha: {date}",
+  "copyInvitationCode": "Nakili msimbo"
 }

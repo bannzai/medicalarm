@@ -196,5 +196,6 @@
   "increaseGroupLimitWithPremium": "Crea més grups amb el pla Premium",
   "invitationCode": "Codi d'invitació",
   "invitationCodeShareDescription": "Pots compartir aquest codi per convidar membres",
-  "invitationCodeExpiresAt": "Caduca el: {date}"
+  "invitationCodeExpiresAt": "Caduca el: {date}",
+  "copyInvitationCode": "Copia el codi"
 }

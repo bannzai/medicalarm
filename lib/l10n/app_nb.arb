@@ -196,5 +196,6 @@
   "increaseGroupLimitWithPremium": "Opprett flere grupper med Premium-planen",
   "invitationCode": "Invitasjonskode",
   "invitationCodeShareDescription": "Del denne koden for å invitere medlemmer",
-  "invitationCodeExpiresAt": "Utløper: {date}"
+  "invitationCodeExpiresAt": "Utløper: {date}",
+  "copyInvitationCode": "Kopier kode"
 }

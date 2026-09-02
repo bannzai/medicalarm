@@ -196,5 +196,6 @@
   "increaseGroupLimitWithPremium": "Luo lisää ryhmiä Premium-tilauksella",
   "invitationCode": "Kutsukoodi",
   "invitationCodeShareDescription": "Jaa tämä koodi kutsuaksesi jäseniä",
-  "invitationCodeExpiresAt": "Voimassa asti: {date}"
+  "invitationCodeExpiresAt": "Voimassa asti: {date}",
+  "copyInvitationCode": "Kopioi koodi"
 }

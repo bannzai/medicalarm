@@ -196,5 +196,6 @@
   "increaseGroupLimitWithPremium": "Mit em Premium-Abo wiiteri Gruppe erschtelle",
   "invitationCode": "Einladungscode",
   "invitationCodeShareDescription": "Teile dä Code, zum Mitglieder iizlade",
-  "invitationCodeExpiresAt": "Gültig bis: {date}"
+  "invitationCodeExpiresAt": "Gültig bis: {date}",
+  "copyInvitationCode": "Code kopiere"
 }

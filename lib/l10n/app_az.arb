@@ -196,5 +196,6 @@
   "increaseGroupLimitWithPremium": "Premium planı ilə daha çox qrup yaradın",
   "invitationCode": "Dəvət kodu",
   "invitationCodeShareDescription": "Bu kodu paylaşaraq üzvləri dəvət edə bilərsiniz",
-  "invitationCodeExpiresAt": "Etibarlılıq müddəti: {date}"
+  "invitationCodeExpiresAt": "Etibarlılıq müddəti: {date}",
+  "copyInvitationCode": "Kodu kopyala"
 }

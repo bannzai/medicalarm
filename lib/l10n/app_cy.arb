@@ -196,5 +196,6 @@
   "increaseGroupLimitWithPremium": "Crëwch ragor o grwpiau gyda'r cynllun Premium",
   "invitationCode": "Cod gwahoddiad",
   "invitationCodeShareDescription": "Gallwch rannu'r cod hwn i wahodd aelodau",
-  "invitationCodeExpiresAt": "Daw i ben: {date}"
+  "invitationCodeExpiresAt": "Daw i ben: {date}",
+  "copyInvitationCode": "Copïo cod"
 }

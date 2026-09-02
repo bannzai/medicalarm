@@ -196,5 +196,6 @@
   "increaseGroupLimitWithPremium": "Premium योजनासँग थप समूहहरू सिर्जना गर्नुहोस्",
   "invitationCode": "निमन्त्रणा कोड",
   "invitationCodeShareDescription": "सदस्यहरूलाई आमन्त्रण गर्न यो कोड साझा गर्नुहोस्",
-  "invitationCodeExpiresAt": "म्याद सकिने मिति: {date}"
+  "invitationCodeExpiresAt": "म्याद सकिने मिति: {date}",
+  "copyInvitationCode": "कोड प्रतिलिपि गर्नुहोस्"
 }

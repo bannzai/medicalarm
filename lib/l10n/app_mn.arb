@@ -196,5 +196,6 @@
   "increaseGroupLimitWithPremium": "Premium багцаар илүү олон бүлэг үүсгээрэй",
   "invitationCode": "Урилгын код",
   "invitationCodeShareDescription": "Гишүүдийг урих бол энэ кодыг хуваалцаарай",
-  "invitationCodeExpiresAt": "Хүчинтэй хугацаа: {date}"
+  "invitationCodeExpiresAt": "Хүчинтэй хугацаа: {date}",
+  "copyInvitationCode": "Код хуулах"
 }

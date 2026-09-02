@@ -196,5 +196,6 @@
   "increaseGroupLimitWithPremium": "Búðu til fleiri hópa með Premium-áskrift",
   "invitationCode": "Boðskóði",
   "invitationCodeShareDescription": "Deildu þessum kóða til að bjóða meðlimum",
-  "invitationCodeExpiresAt": "Gildir til: {date}"
+  "invitationCodeExpiresAt": "Gildir til: {date}",
+  "copyInvitationCode": "Afrita kóða"
 }

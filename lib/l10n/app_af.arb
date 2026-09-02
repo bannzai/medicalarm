@@ -196,5 +196,6 @@
   "increaseGroupLimitWithPremium": "Skep meer groepe met die Premium-plan",
   "invitationCode": "Uitnodigingskode",
   "invitationCodeShareDescription": "Deel hierdie kode om lede uit te nooi",
-  "invitationCodeExpiresAt": "Geldig tot: {date}"
+  "invitationCodeExpiresAt": "Geldig tot: {date}",
+  "copyInvitationCode": "Kopieer kode"
 }

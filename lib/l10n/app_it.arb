@@ -196,5 +196,6 @@
   "increaseGroupLimitWithPremium": "Crea più gruppi con il piano Premium",
   "invitationCode": "Codice invito",
   "invitationCodeShareDescription": "Condividi questo codice per invitare i membri",
-  "invitationCodeExpiresAt": "Scade il: {date}"
+  "invitationCodeExpiresAt": "Scade il: {date}",
+  "copyInvitationCode": "Copia codice"
 }

@@ -196,5 +196,6 @@
   "increaseGroupLimitWithPremium": "Premium planıyla daha fazla grup oluşturun",
   "invitationCode": "Davet kodu",
   "invitationCodeShareDescription": "Üyeleri davet etmek için bu kodu paylaşabilirsiniz",
-  "invitationCodeExpiresAt": "Son geçerlilik tarihi: {date}"
+  "invitationCodeExpiresAt": "Son geçerlilik tarihi: {date}",
+  "copyInvitationCode": "Kodu kopyala"
 }

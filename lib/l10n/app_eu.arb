@@ -196,5 +196,6 @@
   "increaseGroupLimitWithPremium": "Sortu talde gehiago Premium planarekin",
   "invitationCode": "Gonbidapen-kodea",
   "invitationCodeShareDescription": "Kode hau parteka dezakezu kideak gonbidatzeko",
-  "invitationCodeExpiresAt": "Iraungitze-data: {date}"
+  "invitationCodeExpiresAt": "Iraungitze-data: {date}",
+  "copyInvitationCode": "Kopiatu kodea"
 }

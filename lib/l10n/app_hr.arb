@@ -196,5 +196,6 @@
   "increaseGroupLimitWithPremium": "Izradite više grupa uz Premium plan",
   "invitationCode": "Kod pozivnice",
   "invitationCodeShareDescription": "Podijelite ovaj kôd kako biste pozvali članove",
-  "invitationCodeExpiresAt": "Vrijedi do: {date}"
+  "invitationCodeExpiresAt": "Vrijedi do: {date}",
+  "copyInvitationCode": "Kopiraj kôd"
 }

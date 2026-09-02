@@ -196,5 +196,6 @@
   "increaseGroupLimitWithPremium": "Premium પ્લાન સાથે વધુ જૂથો બનાવો",
   "invitationCode": "આમંત્રણ કોડ",
   "invitationCodeShareDescription": "સભ્યોને આમંત્રિત કરવા માટે આ કોડ શેર કરો",
-  "invitationCodeExpiresAt": "સમાપ્ત થવાની તારીખ: {date}"
+  "invitationCodeExpiresAt": "સમાપ્ત થવાની તારીખ: {date}",
+  "copyInvitationCode": "કોડ કૉપિ કરો"
 }

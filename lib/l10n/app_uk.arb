@@ -196,5 +196,6 @@
   "increaseGroupLimitWithPremium": "Створюйте більше груп із планом Premium",
   "invitationCode": "Код запрошення",
   "invitationCodeShareDescription": "Поділіться цим кодом, щоб запросити учасників",
-  "invitationCodeExpiresAt": "Дійсний до: {date}"
+  "invitationCodeExpiresAt": "Дійсний до: {date}",
+  "copyInvitationCode": "Копіювати код"
 }

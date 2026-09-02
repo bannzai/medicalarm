@@ -196,5 +196,6 @@
   "increaseGroupLimitWithPremium": "Looge Premium-paketiga rohkem gruppe",
   "invitationCode": "Kutsekood",
   "invitationCodeShareDescription": "Liikmete kutsumiseks jaga seda koodi",
-  "invitationCodeExpiresAt": "Kehtiv kuni: {date}"
+  "invitationCodeExpiresAt": "Kehtiv kuni: {date}",
+  "copyInvitationCode": "Kopeeri kood"
 }

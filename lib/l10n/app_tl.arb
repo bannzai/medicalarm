@@ -196,5 +196,6 @@
   "increaseGroupLimitWithPremium": "Gumawa ng higit pang grupo gamit ang Premium plan",
   "invitationCode": "Code ng imbitasyon",
   "invitationCodeShareDescription": "Ibahagi ang code na ito para mag-imbita ng mga miyembro",
-  "invitationCodeExpiresAt": "May bisa hanggang: {date}"
+  "invitationCodeExpiresAt": "May bisa hanggang: {date}",
+  "copyInvitationCode": "Kopyahin ang code"
 }

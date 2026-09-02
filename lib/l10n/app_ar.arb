@@ -196,5 +196,6 @@
   "increaseGroupLimitWithPremium": "أنشئ مجموعات إضافية مع خطة Premium",
   "invitationCode": "رمز الدعوة",
   "invitationCodeShareDescription": "يمكنك مشاركة هذا الرمز لدعوة الأعضاء",
-  "invitationCodeExpiresAt": "تاريخ الانتهاء: {date}"
+  "invitationCodeExpiresAt": "تاريخ الانتهاء: {date}",
+  "copyInvitationCode": "نسخ الرمز"
 }

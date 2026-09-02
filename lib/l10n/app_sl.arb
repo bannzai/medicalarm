@@ -196,5 +196,6 @@
   "increaseGroupLimitWithPremium": "Ustvarite več skupin s paketom Premium",
   "invitationCode": "Koda za povabilo",
   "invitationCodeShareDescription": "Delite to kodo, da povabite člane",
-  "invitationCodeExpiresAt": "Velja do: {date}"
+  "invitationCodeExpiresAt": "Velja do: {date}",
+  "copyInvitationCode": "Kopiraj kodo"
 }

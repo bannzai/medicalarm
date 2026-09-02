@@ -196,5 +196,6 @@
   "increaseGroupLimitWithPremium": "Cipta lebih banyak kumpulan dengan pelan Premium",
   "invitationCode": "Kod jemputan",
   "invitationCodeShareDescription": "Kongsi kod ini untuk menjemput ahli",
-  "invitationCodeExpiresAt": "Sah sehingga: {date}"
+  "invitationCodeExpiresAt": "Sah sehingga: {date}",
+  "copyInvitationCode": "Salin kod"
 }

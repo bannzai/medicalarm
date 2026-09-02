@@ -196,5 +196,6 @@
   "increaseGroupLimitWithPremium": "Ստեղծեք ավելի շատ խմբեր Premium պլանով",
   "invitationCode": "Հրավերի կոդ",
   "invitationCodeShareDescription": "Կիսվեք այս կոդով՝ անդամներին հրավիրելու համար",
-  "invitationCodeExpiresAt": "Վավեր է մինչև՝ {date}"
+  "invitationCodeExpiresAt": "Վավեր է մինչև՝ {date}",
+  "copyInvitationCode": "Պատճենել կոդը"
 }

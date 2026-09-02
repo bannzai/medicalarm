@@ -196,5 +196,6 @@
   "increaseGroupLimitWithPremium": "Krijoni më shumë grupe me planin Premium",
   "invitationCode": "Kodi i ftesës",
   "invitationCodeShareDescription": "Ndajeni këtë kod për të ftuar anëtarë",
-  "invitationCodeExpiresAt": "Skadon më: {date}"
+  "invitationCodeExpiresAt": "Skadon më: {date}",
+  "copyInvitationCode": "Kopjo kodin"
 }

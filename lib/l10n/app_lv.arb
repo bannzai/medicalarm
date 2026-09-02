@@ -196,5 +196,6 @@
   "increaseGroupLimitWithPremium": "Izveidojiet vairāk grupu ar Premium plānu",
   "invitationCode": "Uzaicinājuma kods",
   "invitationCodeShareDescription": "Kopīgojiet šo kodu, lai uzaicinātu dalībniekus",
-  "invitationCodeExpiresAt": "Derīgs līdz: {date}"
+  "invitationCodeExpiresAt": "Derīgs līdz: {date}",
+  "copyInvitationCode": "Kopēt kodu"
 }
