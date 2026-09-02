@@ -281,5 +281,6 @@
   "onboardingPlanGeneratingReady": "Ja està preparat.",
   "onboardingPlanResultTitle": "El teu pla personalitzat",
   "onboardingPlanResultGoalFormat": "Objectiu: {goal}",
-  "onboardingPlanDoseReceivers": "Persona que pren la medicació"
+  "onboardingPlanDoseReceivers": "Persona que pren la medicació",
+  "onboardingPlanDailyReminders": "Notificacions diàries"
 }

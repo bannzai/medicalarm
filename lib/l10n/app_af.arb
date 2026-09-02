@@ -281,5 +281,6 @@
   "onboardingPlanGeneratingReady": "Alles is gereed.",
   "onboardingPlanResultTitle": "Jou persoonlike plan",
   "onboardingPlanResultGoalFormat": "Doel: {goal}",
-  "onboardingPlanDoseReceivers": "Persoon wat medikasie neem"
+  "onboardingPlanDoseReceivers": "Persoon wat medikasie neem",
+  "onboardingPlanDailyReminders": "Daaglikse kennisgewings"
 }

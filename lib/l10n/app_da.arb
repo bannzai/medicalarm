@@ -281,5 +281,6 @@
   "onboardingPlanGeneratingReady": "Det er klar.",
   "onboardingPlanResultTitle": "Din personlige plan",
   "onboardingPlanResultGoalFormat": "Mål: {goal}",
-  "onboardingPlanDoseReceivers": "Person, der tager medicin"
+  "onboardingPlanDoseReceivers": "Person, der tager medicin",
+  "onboardingPlanDailyReminders": "Daglige påmindelser"
 }

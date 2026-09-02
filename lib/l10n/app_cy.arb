@@ -281,5 +281,6 @@
   "onboardingPlanGeneratingReady": "Mae popeth yn barod.",
   "onboardingPlanResultTitle": "Eich cynllun personol",
   "onboardingPlanResultGoalFormat": "Nod: {goal}",
-  "onboardingPlanDoseReceivers": "Person sy’n cymryd meddyginiaeth"
+  "onboardingPlanDoseReceivers": "Person sy’n cymryd meddyginiaeth",
+  "onboardingPlanDailyReminders": "Hysbysiadau dyddiol"
 }

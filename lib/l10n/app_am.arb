@@ -281,5 +281,6 @@
   "onboardingPlanGeneratingReady": "ተዘጋጅቷል።",
   "onboardingPlanResultTitle": "ለእርስዎ የተዘጋጀ ዕቅድ",
   "onboardingPlanResultGoalFormat": "Նպատակ: {goal}",
-  "onboardingPlanDoseReceivers": "መድሃኒት የሚወስድ ሰው"
+  "onboardingPlanDoseReceivers": "መድሃኒት የሚወስድ ሰው",
+  "onboardingPlanDailyReminders": "የዕለት ማሳወቂያዎች"
 }

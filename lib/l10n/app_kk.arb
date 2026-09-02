@@ -281,5 +281,6 @@
   "onboardingPlanGeneratingReady": "Дайын.",
   "onboardingPlanResultTitle": "Сізге арналған жеке жоспар",
   "onboardingPlanResultGoalFormat": "Мақсат: {goal}",
-  "onboardingPlanDoseReceivers": "Дәрі қабылдайтын адам"
+  "onboardingPlanDoseReceivers": "Дәрі қабылдайтын адам",
+  "onboardingPlanDailyReminders": "Күнделікті хабарландырулар"
 }

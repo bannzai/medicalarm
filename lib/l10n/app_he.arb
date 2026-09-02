@@ -281,5 +281,6 @@
   "onboardingPlanGeneratingReady": "הכול מוכן.",
   "onboardingPlanResultTitle": "התוכנית האישית שלך",
   "onboardingPlanResultGoalFormat": "מטרה: {goal}",
-  "onboardingPlanDoseReceivers": "נוטל התרופה"
+  "onboardingPlanDoseReceivers": "נוטל התרופה",
+  "onboardingPlanDailyReminders": "התראות יומיות"
 }

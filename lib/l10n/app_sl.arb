@@ -281,5 +281,6 @@
   "onboardingPlanGeneratingReady": "Pripravljeno.",
   "onboardingPlanResultTitle": "Vaš osebni načrt",
   "onboardingPlanResultGoalFormat": "Cilj: {goal}",
-  "onboardingPlanDoseReceivers": "Oseba, ki jemlje zdravila"
+  "onboardingPlanDoseReceivers": "Oseba, ki jemlje zdravila",
+  "onboardingPlanDailyReminders": "Dnevni opomniki"
 }

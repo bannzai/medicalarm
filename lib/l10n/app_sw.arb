@@ -281,5 +281,6 @@
   "onboardingPlanGeneratingReady": "Iko tayari.",
   "onboardingPlanResultTitle": "Mpango wako binafsi",
   "onboardingPlanResultGoalFormat": "Lengo: {goal}",
-  "onboardingPlanDoseReceivers": "Mtu anayekunywa dawa"
+  "onboardingPlanDoseReceivers": "Mtu anayekunywa dawa",
+  "onboardingPlanDailyReminders": "Vikumbusho vya kila siku"
 }

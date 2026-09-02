@@ -281,5 +281,6 @@
   "onboardingPlanGeneratingReady": "Xa está listo.",
   "onboardingPlanResultTitle": "O teu plan personalizado",
   "onboardingPlanResultGoalFormat": "Obxectivo: {goal}",
-  "onboardingPlanDoseReceivers": "Persoa que toma a medicación"
+  "onboardingPlanDoseReceivers": "Persoa que toma a medicación",
+  "onboardingPlanDailyReminders": "Recordatorios diarios"
 }

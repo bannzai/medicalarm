@@ -281,5 +281,6 @@
   "onboardingPlanGeneratingReady": "Պատրաստ է։",
   "onboardingPlanResultTitle": "Ձեր անհատական ծրագիրը",
   "onboardingPlanResultGoalFormat": "Նպատակ՝ {goal}",
-  "onboardingPlanDoseReceivers": "Դեղորայք ընդունող անձ"
+  "onboardingPlanDoseReceivers": "Դեղորայք ընդունող անձ",
+  "onboardingPlanDailyReminders": "Ամենօրյա հիշեցումներ"
 }

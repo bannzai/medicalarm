@@ -281,5 +281,6 @@
   "onboardingPlanGeneratingReady": "Tayyor.",
   "onboardingPlanResultTitle": "Siz uchun shaxsiy reja",
   "onboardingPlanResultGoalFormat": "Maqsad: {goal}",
-  "onboardingPlanDoseReceivers": "Dori qabul qiluvchi shaxs"
+  "onboardingPlanDoseReceivers": "Dori qabul qiluvchi shaxs",
+  "onboardingPlanDailyReminders": "Kundalik eslatmalar"
 }

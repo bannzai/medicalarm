@@ -281,5 +281,6 @@
   "onboardingPlanGeneratingReady": "მზადაა.",
   "onboardingPlanResultTitle": "თქვენი პერსონალური გეგმა",
   "onboardingPlanResultGoalFormat": "მიზანი: {goal}",
-  "onboardingPlanDoseReceivers": "ადამიანი, რომელიც წამალს იღებს"
+  "onboardingPlanDoseReceivers": "ადამიანი, რომელიც წამალს იღებს",
+  "onboardingPlanDailyReminders": "ყოველდღიური შეტყობინებები"
 }

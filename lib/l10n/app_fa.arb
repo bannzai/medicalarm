@@ -281,5 +281,6 @@
   "onboardingPlanGeneratingReady": "آماده است.",
   "onboardingPlanResultTitle": "برنامه شخصی شما",
   "onboardingPlanResultGoalFormat": "هدف: {goal}",
-  "onboardingPlanDoseReceivers": "فردی که دارو مصرف می‌کند"
+  "onboardingPlanDoseReceivers": "فردی که دارو مصرف می‌کند",
+  "onboardingPlanDailyReminders": "اعلان‌های روزانه"
 }

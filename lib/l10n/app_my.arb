@@ -281,5 +281,6 @@
   "onboardingPlanGeneratingReady": "အသင့်ဖြစ်ပါပြီ။",
   "onboardingPlanResultTitle": "သင့်အတွက် ကိုယ်ပိုင်အစီအစဉ်",
   "onboardingPlanResultGoalFormat": "ပန်းတိုင်: {goal}",
-  "onboardingPlanDoseReceivers": "ဆေးသောက်သူ"
+  "onboardingPlanDoseReceivers": "ဆေးသောက်သူ",
+  "onboardingPlanDailyReminders": "နေ့စဉ်သတိပေးချက်များ"
 }

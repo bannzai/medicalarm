@@ -281,5 +281,6 @@
   "onboardingPlanGeneratingReady": "Konke sekumi ngomumo.",
   "onboardingPlanResultTitle": "Uhlelo lwakho lomuntu siqu",
   "onboardingPlanResultGoalFormat": "Umgomo: {goal}",
-  "onboardingPlanDoseReceivers": "Umuntu ophuza umuthi"
+  "onboardingPlanDoseReceivers": "Umuntu ophuza umuthi",
+  "onboardingPlanDailyReminders": "Izikhumbuzi zansuku zonke"
 }

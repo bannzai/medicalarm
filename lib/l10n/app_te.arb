@@ -281,5 +281,6 @@
   "onboardingPlanGeneratingReady": "సిద్ధంగా ఉంది.",
   "onboardingPlanResultTitle": "మీ కోసం వ్యక్తిగతీకరించిన ప్లాన్",
   "onboardingPlanResultGoalFormat": "లక్ష్యం: {goal}",
-  "onboardingPlanDoseReceivers": "మందులు తీసుకునే వ్యక్తి"
+  "onboardingPlanDoseReceivers": "మందులు తీసుకునే వ్యక్తి",
+  "onboardingPlanDailyReminders": "రోజువారీ రిమైండర్‌లు"
 }

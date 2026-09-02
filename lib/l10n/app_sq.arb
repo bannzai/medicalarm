@@ -281,5 +281,6 @@
   "onboardingPlanGeneratingReady": "Gati.",
   "onboardingPlanResultTitle": "Plani juaj personal",
   "onboardingPlanResultGoalFormat": "Qëllimi: {goal}",
-  "onboardingPlanDoseReceivers": "Personi që merr ilaçe"
+  "onboardingPlanDoseReceivers": "Personi që merr ilaçe",
+  "onboardingPlanDailyReminders": "Njoftimet ditore"
 }

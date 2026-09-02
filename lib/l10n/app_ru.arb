@@ -281,5 +281,6 @@
   "onboardingPlanGeneratingReady": "Готово.",
   "onboardingPlanResultTitle": "Ваш персональный план",
   "onboardingPlanResultGoalFormat": "Цель: {goal}",
-  "onboardingPlanDoseReceivers": "Человек, принимающий лекарства"
+  "onboardingPlanDoseReceivers": "Человек, принимающий лекарства",
+  "onboardingPlanDailyReminders": "Ежедневные напоминания"
 }

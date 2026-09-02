@@ -281,5 +281,6 @@
   "onboardingPlanGeneratingReady": "Alles bereit.",
   "onboardingPlanResultTitle": "Ihr persönlicher Plan",
   "onboardingPlanResultGoalFormat": "Ziel: {goal}",
-  "onboardingPlanDoseReceivers": "Person, wo Medikament iinimmt"
+  "onboardingPlanDoseReceivers": "Person, wo Medikament iinimmt",
+  "onboardingPlanDailyReminders": "Tägliche Erinnerige"
 }

@@ -281,5 +281,6 @@
   "onboardingPlanGeneratingReady": "Hazırdır.",
   "onboardingPlanResultTitle": "Sizə özəl plan",
   "onboardingPlanResultGoalFormat": "Məqsəd: {goal}",
-  "onboardingPlanDoseReceivers": "Dərman qəbul edən şəxs"
+  "onboardingPlanDoseReceivers": "Dərman qəbul edən şəxs",
+  "onboardingPlanDailyReminders": "Gündəlik bildirişlər"
 }

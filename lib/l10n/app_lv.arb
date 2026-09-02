@@ -281,5 +281,6 @@
   "onboardingPlanGeneratingReady": "Gatavs.",
   "onboardingPlanResultTitle": "Jums pielāgots plāns",
   "onboardingPlanResultGoalFormat": "Mērķis: {goal}",
-  "onboardingPlanDoseReceivers": "Persona, kas lieto zāles"
+  "onboardingPlanDoseReceivers": "Persona, kas lieto zāles",
+  "onboardingPlanDailyReminders": "Ikdienas atgādinājumi"
 }

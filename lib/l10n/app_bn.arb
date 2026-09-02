@@ -281,5 +281,6 @@
   "onboardingPlanGeneratingReady": "প্রস্তুত হয়ে গেছে",
   "onboardingPlanResultTitle": "আপনার জন্য ব্যক্তিগত পরিকল্পনা",
   "onboardingPlanResultGoalFormat": "লক্ষ্য: {goal}",
-  "onboardingPlanDoseReceivers": "ওষুধ সেবনকারী"
+  "onboardingPlanDoseReceivers": "ওষুধ সেবনকারী",
+  "onboardingPlanDailyReminders": "দৈনিক নোটিফিকেশন"
 }

@@ -281,5 +281,6 @@
   "onboardingPlanGeneratingReady": "Бэлэн боллоо.",
   "onboardingPlanResultTitle": "Танд зориулсан хувийн төлөвлөгөө",
   "onboardingPlanResultGoalFormat": "Зорилго: {goal}",
-  "onboardingPlanDoseReceivers": "Эм уудаг хүн"
+  "onboardingPlanDoseReceivers": "Эм уудаг хүн",
+  "onboardingPlanDailyReminders": "Өдөр тутмын мэдэгдэл"
 }

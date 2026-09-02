@@ -281,5 +281,6 @@
   "onboardingPlanGeneratingReady": "തയ്യാറായി.",
   "onboardingPlanResultTitle": "നിങ്ങൾക്കായി വ്യക്തിഗതമാക്കിയ പ്ലാൻ",
   "onboardingPlanResultGoalFormat": "ലക്ഷ്യം: {goal}",
-  "onboardingPlanDoseReceivers": "മരുന്ന് കഴിക്കുന്ന വ്യക്തി"
+  "onboardingPlanDoseReceivers": "മരുന്ന് കഴിക്കുന്ന വ്യക്തി",
+  "onboardingPlanDailyReminders": "പ്രതിദിന അറിയിപ്പുകൾ"
 }

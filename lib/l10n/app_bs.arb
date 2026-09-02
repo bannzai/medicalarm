@@ -281,5 +281,6 @@
   "onboardingPlanGeneratingReady": "Spremno je.",
   "onboardingPlanResultTitle": "Vaš lični plan",
   "onboardingPlanResultGoalFormat": "Cilj: {goal}",
-  "onboardingPlanDoseReceivers": "Osoba koja uzima lijek"
+  "onboardingPlanDoseReceivers": "Osoba koja uzima lijek",
+  "onboardingPlanDailyReminders": "Dnevne obavijesti"
 }

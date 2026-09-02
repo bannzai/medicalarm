@@ -281,5 +281,6 @@
   "onboardingPlanGeneratingReady": "तैयार है।",
   "onboardingPlanResultTitle": "आपके लिए व्यक्तिगत योजना",
   "onboardingPlanResultGoalFormat": "लक्ष्य: {goal}",
-  "onboardingPlanDoseReceivers": "दवा लेने वाला व्यक्ति"
+  "onboardingPlanDoseReceivers": "दवा लेने वाला व्यक्ति",
+  "onboardingPlanDailyReminders": "दैनिक सूचनाएँ"
 }
