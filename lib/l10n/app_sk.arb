@@ -183,5 +183,6 @@
   "medicineResumedSnackbar": "Užívanie lieku bolo obnovené",
   "medicineEditTooltip": "Upraviť liek",
   "groups": "Skupiny",
-  "groupManagement": "Správa skupín"
+  "groupManagement": "Správa skupín",
+  "createGroup": "Vytvoriť skupinu"
 }

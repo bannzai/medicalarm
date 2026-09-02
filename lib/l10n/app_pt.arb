@@ -183,5 +183,6 @@
   "medicineResumedSnackbar": "A toma do medicamento foi retomada",
   "medicineEditTooltip": "Editar medicamento",
   "groups": "Grupos",
-  "groupManagement": "Gestão de grupos"
+  "groupManagement": "Gestão de grupos",
+  "createGroup": "Criar grupo"
 }

@@ -183,5 +183,6 @@
   "medicineResumedSnackbar": "Прийом ліків відновлено",
   "medicineEditTooltip": "Редагувати ліки",
   "groups": "Групи",
-  "groupManagement": "Керування групами"
+  "groupManagement": "Керування групами",
+  "createGroup": "Створити групу"
 }

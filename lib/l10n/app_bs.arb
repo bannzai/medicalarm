@@ -183,5 +183,6 @@
   "medicineResumedSnackbar": "Uzimanje lijeka je nastavljeno",
   "medicineEditTooltip": "Uredi lijek",
   "groups": "Grupe",
-  "groupManagement": "Upravljanje grupama"
+  "groupManagement": "Upravljanje grupama",
+  "createGroup": "Kreiraj grupu"
 }

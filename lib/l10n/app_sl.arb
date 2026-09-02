@@ -183,5 +183,6 @@
   "medicineResumedSnackbar": "Jemanje zdravila se je nadaljevalo",
   "medicineEditTooltip": "Uredi zdravilo",
   "groups": "Skupine",
-  "groupManagement": "Upravljanje skupin"
+  "groupManagement": "Upravljanje skupin",
+  "createGroup": "Ustvari skupino"
 }

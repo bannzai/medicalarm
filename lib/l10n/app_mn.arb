@@ -183,5 +183,6 @@
   "medicineResumedSnackbar": "Эм уухыг дахин эхлүүллээ",
   "medicineEditTooltip": "Эмийг засах",
   "groups": "Бүлгүүд",
-  "groupManagement": "Бүлгийн удирдлага"
+  "groupManagement": "Бүлгийн удирдлага",
+  "createGroup": "Бүлэг үүсгэх"
 }

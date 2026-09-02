@@ -183,5 +183,6 @@
   "medicineResumedSnackbar": "Приемът на лекарството е възобновен",
   "medicineEditTooltip": "Редактиране на лекарство",
   "groups": "Групи",
-  "groupManagement": "Управление на групи"
+  "groupManagement": "Управление на групи",
+  "createGroup": "Създаване на група"
 }

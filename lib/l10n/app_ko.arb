@@ -183,5 +183,6 @@
   "medicineResumedSnackbar": "약 복용을 재개했습니다",
   "medicineEditTooltip": "약 편집",
   "groups": "그룹",
-  "groupManagement": "그룹 관리"
+  "groupManagement": "그룹 관리",
+  "createGroup": "그룹 만들기"
 }

@@ -183,5 +183,6 @@
   "medicineResumedSnackbar": "Die Medikamenteneinnahme wurde fortgesetzt",
   "medicineEditTooltip": "Medikament bearbeiten",
   "groups": "Gruppen",
-  "groupManagement": "Gruppenverwaltung"
+  "groupManagement": "Gruppenverwaltung",
+  "createGroup": "Gruppe erstellen"
 }

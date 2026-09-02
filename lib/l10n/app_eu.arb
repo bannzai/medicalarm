@@ -183,5 +183,6 @@
   "medicineResumedSnackbar": "Sendagaiaren hartzea berrabiarazi da",
   "medicineEditTooltip": "Editatu sendagaia",
   "groups": "Taldeak",
-  "groupManagement": "Taldeen kudeaketa"
+  "groupManagement": "Taldeen kudeaketa",
+  "createGroup": "Sortu taldea"
 }

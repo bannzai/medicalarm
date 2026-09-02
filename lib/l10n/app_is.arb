@@ -183,5 +183,6 @@
   "medicineResumedSnackbar": "Lyfjatöku hefur verið haldið áfram",
   "medicineEditTooltip": "Breyta lyfi",
   "groups": "Hópar",
-  "groupManagement": "Hópastjórnun"
+  "groupManagement": "Hópastjórnun",
+  "createGroup": "Búa til hóp"
 }

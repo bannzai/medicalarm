@@ -183,5 +183,6 @@
   "medicineResumedSnackbar": "La prise du médicament a repris",
   "medicineEditTooltip": "Modifier le médicament",
   "groups": "Groupes",
-  "groupManagement": "Gestion des groupes"
+  "groupManagement": "Gestion des groupes",
+  "createGroup": "Créer un groupe"
 }

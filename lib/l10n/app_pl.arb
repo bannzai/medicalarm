@@ -183,5 +183,6 @@
   "medicineResumedSnackbar": "Wznowiono przyjmowanie leku",
   "medicineEditTooltip": "Edytuj lek",
   "groups": "Grupy",
-  "groupManagement": "Zarządzanie grupami"
+  "groupManagement": "Zarządzanie grupami",
+  "createGroup": "Utwórz grupę"
 }

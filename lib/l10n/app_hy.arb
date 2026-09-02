@@ -183,5 +183,6 @@
   "medicineResumedSnackbar": "Դեղամիջոցի ընդունումը վերսկսվել է",
   "medicineEditTooltip": "Խմբագրել դեղը",
   "groups": "Խմբեր",
-  "groupManagement": "Խմբերի կառավարում"
+  "groupManagement": "Խմբերի կառավարում",
+  "createGroup": "Ստեղծել խումբ"
 }

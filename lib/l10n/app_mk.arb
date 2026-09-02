@@ -183,5 +183,6 @@
   "medicineResumedSnackbar": "Земањето на лекот е продолжено",
   "medicineEditTooltip": "Уреди лек",
   "groups": "Групи",
-  "groupManagement": "Управување со групи"
+  "groupManagement": "Управување со групи",
+  "createGroup": "Креирај група"
 }

@@ -183,5 +183,6 @@
   "medicineResumedSnackbar": "Medicinen er genoptaget",
   "medicineEditTooltip": "Rediger medicin",
   "groups": "Grupper",
-  "groupManagement": "Gruppeadministration"
+  "groupManagement": "Gruppeadministration",
+  "createGroup": "Opret gruppe"
 }

@@ -183,5 +183,6 @@
   "medicineResumedSnackbar": "İlacın kullanımına yeniden başlandı",
   "medicineEditTooltip": "İlacı düzenle",
   "groups": "Gruplar",
-  "groupManagement": "Grup yönetimi"
+  "groupManagement": "Grup yönetimi",
+  "createGroup": "Grup oluştur"
 }

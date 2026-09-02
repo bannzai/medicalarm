@@ -183,5 +183,6 @@
   "medicineResumedSnackbar": "Zāļu lietošana ir atsākta",
   "medicineEditTooltip": "Rediģēt zāles",
   "groups": "Grupas",
-  "groupManagement": "Grupu pārvaldība"
+  "groupManagement": "Grupu pārvaldība",
+  "createGroup": "Izveidot grupu"
 }

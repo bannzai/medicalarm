@@ -183,5 +183,6 @@
   "medicineResumedSnackbar": "D Medikamenteneinnahm isch wieder ufgnuu worde",
   "medicineEditTooltip": "Medikament bearbeite",
   "groups": "Gruppen",
-  "groupManagement": "Gruppenverwaltung"
+  "groupManagement": "Gruppenverwaltung",
+  "createGroup": "Gruppe erstellen"
 }

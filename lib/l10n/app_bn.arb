@@ -183,5 +183,6 @@
   "medicineResumedSnackbar": "ওষুধ খাওয়া আবার শুরু হয়েছে",
   "medicineEditTooltip": "ওষুধ সম্পাদনা করুন",
   "groups": "গ্রুপ",
-  "groupManagement": "গ্রুপ পরিচালনা"
+  "groupManagement": "গ্রুপ পরিচালনা",
+  "createGroup": "গ্রুপ তৈরি করুন"
 }

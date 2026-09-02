@@ -183,5 +183,6 @@
   "medicineResumedSnackbar": "Lääkkeen ottamista jatkettiin",
   "medicineEditTooltip": "Muokkaa lääkettä",
   "groups": "Ryhmät",
-  "groupManagement": "Ryhmien hallinta"
+  "groupManagement": "Ryhmien hallinta",
+  "createGroup": "Luo ryhmä"
 }

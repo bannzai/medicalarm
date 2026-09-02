@@ -183,5 +183,6 @@
   "medicineResumedSnackbar": "Dorini qabul qilish qayta boshlandi",
   "medicineEditTooltip": "Dorini tahrirlash",
   "groups": "Guruhlar",
-  "groupManagement": "Guruhlarni boshqarish"
+  "groupManagement": "Guruhlarni boshqarish",
+  "createGroup": "Guruh yaratish"
 }

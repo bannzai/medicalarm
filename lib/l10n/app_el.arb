@@ -183,5 +183,6 @@
   "medicineResumedSnackbar": "Η λήψη του φαρμάκου συνεχίστηκε",
   "medicineEditTooltip": "Επεξεργασία φαρμάκου",
   "groups": "Ομάδες",
-  "groupManagement": "Διαχείριση ομάδων"
+  "groupManagement": "Διαχείριση ομάδων",
+  "createGroup": "Δημιουργία ομάδας"
 }

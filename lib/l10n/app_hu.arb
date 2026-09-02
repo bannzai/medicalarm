@@ -183,5 +183,6 @@
   "medicineResumedSnackbar": "A gyógyszer szedése folytatódik",
   "medicineEditTooltip": "Gyógyszer szerkesztése",
   "groups": "Csoportok",
-  "groupManagement": "Csoportok kezelése"
+  "groupManagement": "Csoportok kezelése",
+  "createGroup": "Csoport létrehozása"
 }

@@ -183,5 +183,6 @@
   "medicineResumedSnackbar": "Đã tiếp tục dùng thuốc",
   "medicineEditTooltip": "Chỉnh sửa thuốc",
   "groups": "Nhóm",
-  "groupManagement": "Quản lý nhóm"
+  "groupManagement": "Quản lý nhóm",
+  "createGroup": "Tạo nhóm"
 }

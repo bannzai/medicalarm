@@ -183,5 +183,6 @@
   "medicineResumedSnackbar": "ඖෂධ ගැනීම නැවත ආරම්භ කර ඇත",
   "medicineEditTooltip": "ඖෂධය සංස්කරණය කරන්න",
   "groups": "කණ්ඩායම්",
-  "groupManagement": "කණ්ඩායම් කළමනාකරණය"
+  "groupManagement": "කණ්ඩායම් කළමනාකරණය",
+  "createGroup": "කණ්ඩායම සාදන්න"
 }

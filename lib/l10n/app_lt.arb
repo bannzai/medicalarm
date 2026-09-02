@@ -183,5 +183,6 @@
   "medicineResumedSnackbar": "Vaistų vartojimas atnaujintas",
   "medicineEditTooltip": "Redaguoti vaistą",
   "groups": "Grupės",
-  "groupManagement": "Grupės valdymas"
+  "groupManagement": "Grupės valdymas",
+  "createGroup": "Sukurti grupę"
 }

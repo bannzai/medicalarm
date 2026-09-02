@@ -183,5 +183,6 @@
   "medicineResumedSnackbar": "S'ha reprès la presa del medicament",
   "medicineEditTooltip": "Edita el medicament",
   "groups": "Grups",
-  "groupManagement": "Gestió de grups"
+  "groupManagement": "Gestió de grups",
+  "createGroup": "Crea un grup"
 }

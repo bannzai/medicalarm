@@ -183,5 +183,6 @@
   "medicineResumedSnackbar": "Дәрі қабылдау қайта басталды",
   "medicineEditTooltip": "Дәріні өңдеу",
   "groups": "Топтар",
-  "groupManagement": "Топтарды басқару"
+  "groupManagement": "Топтарды басқару",
+  "createGroup": "Топ құру"
 }

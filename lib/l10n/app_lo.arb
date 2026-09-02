@@ -183,5 +183,6 @@
   "medicineResumedSnackbar": "ໄດ້ເລີ່ມກິນຢາຄືນໃໝ່ແລ້ວ",
   "medicineEditTooltip": "ແກ້ໄຂຢາ",
   "groups": "ກຸ່ມ",
-  "groupManagement": "ການຈັດການກຸ່ມ"
+  "groupManagement": "ການຈັດການກຸ່ມ",
+  "createGroup": "ສ້າງກຸ່ມ"
 }

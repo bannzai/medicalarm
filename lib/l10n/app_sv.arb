@@ -183,5 +183,6 @@
   "medicineResumedSnackbar": "Intaget av medicinen har återupptagits",
   "medicineEditTooltip": "Redigera medicin",
   "groups": "Grupper",
-  "groupManagement": "Grupphantering"
+  "groupManagement": "Grupphantering",
+  "createGroup": "Skapa grupp"
 }

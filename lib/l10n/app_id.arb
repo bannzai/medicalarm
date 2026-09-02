@@ -183,5 +183,6 @@
   "medicineResumedSnackbar": "Konsumsi obat dilanjutkan",
   "medicineEditTooltip": "Edit obat",
   "groups": "Grup",
-  "groupManagement": "Kelola grup"
+  "groupManagement": "Kelola grup",
+  "createGroup": "Buat grup"
 }

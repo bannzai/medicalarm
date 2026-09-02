@@ -183,5 +183,6 @@
   "medicineResumedSnackbar": "تم استئناف تناول الدواء",
   "medicineEditTooltip": "تعديل الدواء",
   "groups": "المجموعات",
-  "groupManagement": "إدارة المجموعات"
+  "groupManagement": "إدارة المجموعات",
+  "createGroup": "إنشاء مجموعة"
 }

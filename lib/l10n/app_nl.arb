@@ -183,5 +183,6 @@
   "medicineResumedSnackbar": "Het innemen van het medicijn is hervat",
   "medicineEditTooltip": "Medicijn bewerken",
   "groups": "Groepen",
-  "groupManagement": "Groepen beheren"
+  "groupManagement": "Groepen beheren",
+  "createGroup": "Groep maken"
 }

@@ -183,5 +183,6 @@
   "medicineResumedSnackbar": "दवा लेना फिर से शुरू किया गया",
   "medicineEditTooltip": "दवा संपादित करें",
   "groups": "समूह",
-  "groupManagement": "समूह प्रबंधन"
+  "groupManagement": "समूह प्रबंधन",
+  "createGroup": "समूह बनाएं"
 }

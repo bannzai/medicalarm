@@ -183,5 +183,6 @@
   "medicineResumedSnackbar": "เริ่มรับประทานยาอีกครั้งแล้ว",
   "medicineEditTooltip": "แก้ไขยา",
   "groups": "กลุ่ม",
-  "groupManagement": "การจัดการกลุ่ม"
+  "groupManagement": "การจัดการกลุ่ม",
+  "createGroup": "สร้างกลุ่ม"
 }
