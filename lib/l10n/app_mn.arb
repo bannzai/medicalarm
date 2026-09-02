@@ -238,5 +238,6 @@
   "onboardingWelcomeFeatureFamily": "Гэр бүлийнхээ эмийн хэрэглээг ч нэг дор хянаарай",
   "onboardingStart": "Эхлэх",
   "onboardingNext": "Дараах",
-  "onboardingBack": "Буцах"
+  "onboardingBack": "Буцах",
+  "onboardingPainForgotTitle": "Та эм уухаа хэзээ нэгэн цагт мартсан уу?"
 }

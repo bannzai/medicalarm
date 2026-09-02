@@ -238,5 +238,6 @@
   "onboardingWelcomeFeatureFamily": "Oilangizning dori-darmonlarini ham bir joyda boshqaring",
   "onboardingStart": "Boshlash",
   "onboardingNext": "Keyingi",
-  "onboardingBack": "Orqaga"
+  "onboardingBack": "Orqaga",
+  "onboardingPainForgotTitle": "Doringizni qabul qilishni hech unutganmisiz?"
 }

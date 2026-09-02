@@ -238,5 +238,6 @@
   "onboardingWelcomeFeatureFamily": "Halda ka oma pere ravimite võtmist ühes kohas",
   "onboardingStart": "Alusta",
   "onboardingNext": "Järgmine",
-  "onboardingBack": "Tagasi"
+  "onboardingBack": "Tagasi",
+  "onboardingPainForgotTitle": "Kas olete kunagi unustanud oma ravimit võtta?"
 }

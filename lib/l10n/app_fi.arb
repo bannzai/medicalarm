@@ -238,5 +238,6 @@
   "onboardingWelcomeFeatureFamily": "Hallitse myös perheesi lääkityksiä yhdessä paikassa",
   "onboardingStart": "Aloita",
   "onboardingNext": "Seuraava",
-  "onboardingBack": "Takaisin"
+  "onboardingBack": "Takaisin",
+  "onboardingPainForgotTitle": "Oletko joskus unohtanut ottaa lääkkeesi?"
 }

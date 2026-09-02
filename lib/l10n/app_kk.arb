@@ -238,5 +238,6 @@
   "onboardingWelcomeFeatureFamily": "Отбасыңыздың дәрі қабылдауын да бір жерден басқарыңыз",
   "onboardingStart": "Бастау",
   "onboardingNext": "Келесі",
-  "onboardingBack": "Артқа"
+  "onboardingBack": "Артқа",
+  "onboardingPainForgotTitle": "Дәрі қабылдауды ұмытып кеткен кезіңіз болды ма?"
 }

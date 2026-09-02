@@ -238,5 +238,6 @@
   "onboardingWelcomeFeatureFamily": "Gérez aussi les médicaments de votre famille au même endroit",
   "onboardingStart": "Commencer",
   "onboardingNext": "Suivant",
-  "onboardingBack": "Retour"
+  "onboardingBack": "Retour",
+  "onboardingPainForgotTitle": "Avez-vous déjà oublié de prendre votre médicament ?"
 }

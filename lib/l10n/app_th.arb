@@ -238,5 +238,6 @@
   "onboardingWelcomeFeatureFamily": "จัดการยาของทุกคนในครอบครัวได้ในที่เดียว",
   "onboardingStart": "เริ่มต้น",
   "onboardingNext": "ถัดไป",
-  "onboardingBack": "ย้อนกลับ"
+  "onboardingBack": "ย้อนกลับ",
+  "onboardingPainForgotTitle": "คุณเคยลืมกินยาหรือไม่"
 }

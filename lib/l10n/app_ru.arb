@@ -238,5 +238,6 @@
   "onboardingWelcomeFeatureFamily": "Управляйте приёмом лекарств всей семьи в одном месте",
   "onboardingStart": "Начать",
   "onboardingNext": "Далее",
-  "onboardingBack": "Назад"
+  "onboardingBack": "Назад",
+  "onboardingPainForgotTitle": "Вы когда-нибудь забывали принять лекарство?"
 }

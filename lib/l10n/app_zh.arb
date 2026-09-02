@@ -238,5 +238,6 @@
   "onboardingWelcomeFeatureFamily": "集中管理全家人的用药",
   "onboardingStart": "开始",
   "onboardingNext": "下一步",
-  "onboardingBack": "返回"
+  "onboardingBack": "返回",
+  "onboardingPainForgotTitle": "您曾忘记服药吗？"
 }

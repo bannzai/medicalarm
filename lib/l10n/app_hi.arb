@@ -238,5 +238,6 @@
   "onboardingWelcomeFeatureFamily": "अपने परिवार की दवाओं का भी एक ही जगह प्रबंधन करें",
   "onboardingStart": "शुरू करें",
   "onboardingNext": "अगला",
-  "onboardingBack": "वापस"
+  "onboardingBack": "वापस",
+  "onboardingPainForgotTitle": "क्या आप कभी अपनी दवा लेना भूल गए हैं?"
 }
