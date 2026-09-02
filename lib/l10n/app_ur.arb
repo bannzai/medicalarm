@@ -176,5 +176,6 @@
   "medicinePausedSnackbar": "دوا لینا عارضی طور پر روک دیا گیا ہے",
   "medicationHistoryDeletedSnackbar": "دوا لینے کا ریکارڈ منسوخ کر دیا گیا ہے",
   "undo": "واپس کریں",
-  "medicationHistoryReverted": "دوا لینے کا ریکارڈ منسوخ کرنا"
+  "medicationHistoryReverted": "دوا لینے کا ریکارڈ منسوخ کرنا",
+  "revertedTime": "منسوخی کا وقت"
 }

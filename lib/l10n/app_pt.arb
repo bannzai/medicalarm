@@ -176,5 +176,6 @@
   "medicinePausedSnackbar": "A toma do medicamento foi pausada temporariamente",
   "medicationHistoryDeletedSnackbar": "O registo da toma do medicamento foi anulado",
   "undo": "Desfazer",
-  "medicationHistoryReverted": "Cancelamento do registro de tomada do medicamento"
+  "medicationHistoryReverted": "Cancelamento do registro de tomada do medicamento",
+  "revertedTime": "Hora do cancelamento"
 }

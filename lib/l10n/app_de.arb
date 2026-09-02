@@ -176,5 +176,6 @@
   "medicinePausedSnackbar": "Die Einnahme des Medikaments wurde vorübergehend pausiert",
   "medicationHistoryDeletedSnackbar": "Medikamenteneintrag rückgängig gemacht",
   "undo": "Rückgängig",
-  "medicationHistoryReverted": "Medikamenteneinnahme rückgängig gemacht"
+  "medicationHistoryReverted": "Medikamenteneinnahme rückgängig gemacht",
+  "revertedTime": "Stornierungszeit"
 }

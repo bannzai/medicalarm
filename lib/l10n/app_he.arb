@@ -176,5 +176,6 @@
   "medicinePausedSnackbar": "נטילת התרופה הושהתה זמנית",
   "medicationHistoryDeletedSnackbar": "רישום נטילת התרופה בוטל",
   "undo": "בטל",
-  "medicationHistoryReverted": "ביטול רישום נטילת תרופה"
+  "medicationHistoryReverted": "ביטול רישום נטילת תרופה",
+  "revertedTime": "זמן הביטול"
 }

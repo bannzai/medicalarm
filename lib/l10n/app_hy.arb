@@ -176,5 +176,6 @@
   "medicinePausedSnackbar": "Դեղամիջոցի ընդունումը ժամանակավորապես դադարեցվել է",
   "medicationHistoryDeletedSnackbar": "Դեղամիջոցի ընդունման գրառումը չեղարկվեց",
   "undo": "Հետարկել",
-  "medicationHistoryReverted": "Դեղորայքի ընդունման գրառման չեղարկում"
+  "medicationHistoryReverted": "Դեղորայքի ընդունման գրառման չեղարկում",
+  "revertedTime": "Չեղարկման ժամանակը"
 }

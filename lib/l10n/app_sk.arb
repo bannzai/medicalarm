@@ -176,5 +176,6 @@
   "medicinePausedSnackbar": "Užívanie lieku bolo dočasne pozastavené",
   "medicationHistoryDeletedSnackbar": "Záznam o užití lieku bol zrušený",
   "undo": "Späť",
-  "medicationHistoryReverted": "Zrušenie záznamu o užití lieku"
+  "medicationHistoryReverted": "Zrušenie záznamu o užití lieku",
+  "revertedTime": "Čas zrušenia"
 }

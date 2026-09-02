@@ -176,5 +176,6 @@
   "medicinePausedSnackbar": "மருந்து உட்கொள்வது தற்காலிகமாக இடைநிறுத்தப்பட்டது",
   "medicationHistoryDeletedSnackbar": "மருந்து உட்கொண்ட பதிவு ரத்துசெய்யப்பட்டது",
   "undo": "செயல்தவிர்",
-  "medicationHistoryReverted": "மருந்து உட்கொண்ட பதிவு ரத்து"
+  "medicationHistoryReverted": "மருந்து உட்கொண்ட பதிவு ரத்து",
+  "revertedTime": "ரத்து செய்த நேரம்"
 }

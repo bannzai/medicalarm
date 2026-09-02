@@ -176,5 +176,6 @@
   "medicinePausedSnackbar": "已暂时暂停服药",
   "medicationHistoryDeletedSnackbar": "已撤销服药记录",
   "undo": "撤销",
-  "medicationHistoryReverted": "撤销服药记录"
+  "medicationHistoryReverted": "撤销服药记录",
+  "revertedTime": "取消时间"
 }

@@ -176,5 +176,6 @@
   "medicinePausedSnackbar": "მედიკამენტის მიღება დროებით შეჩერდა",
   "medicationHistoryDeletedSnackbar": "მედიკამენტის მიღების ჩანაწერი გაუქმდა",
   "undo": "გაუქმება",
-  "medicationHistoryReverted": "მედიკამენტის მიღების ჩანაწერის გაუქმება"
+  "medicationHistoryReverted": "მედიკამენტის მიღების ჩანაწერის გაუქმება",
+  "revertedTime": "გაუქმების დრო"
 }

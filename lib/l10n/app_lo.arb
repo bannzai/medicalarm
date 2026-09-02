@@ -176,5 +176,6 @@
   "medicinePausedSnackbar": "ການກິນຢາຖືກຢຸດຊົ່ວຄາວ",
   "medicationHistoryDeletedSnackbar": "ບັນທຶກການກິນຢາຖືກຍົກເລີກແລ້ວ",
   "undo": "ກັບຄືນ",
-  "medicationHistoryReverted": "ຍົກເລີກບັນທຶກການກິນຢາ"
+  "medicationHistoryReverted": "ຍົກເລີກບັນທຶກການກິນຢາ",
+  "revertedTime": "ເວລາຍົກເລີກ"
 }

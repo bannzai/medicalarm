@@ -176,5 +176,6 @@
   "medicinePausedSnackbar": "Dərmanın qəbulu müvəqqəti dayandırıldı",
   "medicationHistoryDeletedSnackbar": "Dərman qəbulu qeydi geri alındı",
   "undo": "Geri al",
-  "medicationHistoryReverted": "Dərman qəbulu qeydinin ləğvi"
+  "medicationHistoryReverted": "Dərman qəbulu qeydinin ləğvi",
+  "revertedTime": "Ləğv edilmə vaxtı"
 }

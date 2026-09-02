@@ -176,5 +176,6 @@
   "medicinePausedSnackbar": "Дарыны ичүү убактылуу токтотулду",
   "medicationHistoryDeletedSnackbar": "Дары ичүү жазмасы жокко чыгарылды",
   "undo": "Артка кайтаруу",
-  "medicationHistoryReverted": "Дары ичүү жазуусун жокко чыгаруу"
+  "medicationHistoryReverted": "Дары ичүү жазуусун жокко чыгаруу",
+  "revertedTime": "Жокко чыгаруу убактысы"
 }

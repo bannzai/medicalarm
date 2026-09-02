@@ -176,5 +176,6 @@
   "medicinePausedSnackbar": "Ukuphuza umuthi kumisiwe okwesikhashana",
   "medicationHistoryDeletedSnackbar": "Irekhodi lokuphuza umuthi lihoxisiwe",
   "undo": "Hlehlisa",
-  "medicationHistoryReverted": "Ukukhanselwa kwerekhodi lokuphuza umuthi"
+  "medicationHistoryReverted": "Ukukhanselwa kwerekhodi lokuphuza umuthi",
+  "revertedTime": "Isikhathi sokukhansela"
 }

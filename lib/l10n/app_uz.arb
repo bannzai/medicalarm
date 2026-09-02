@@ -176,5 +176,6 @@
   "medicinePausedSnackbar": "Dori qabul qilish vaqtincha to‘xtatildi",
   "medicationHistoryDeletedSnackbar": "Dori qabul qilish qaydi bekor qilindi",
   "undo": "Bekor qilish",
-  "medicationHistoryReverted": "Dori qabul qilish yozuvini bekor qilish"
+  "medicationHistoryReverted": "Dori qabul qilish yozuvini bekor qilish",
+  "revertedTime": "Bekor qilingan vaqt"
 }

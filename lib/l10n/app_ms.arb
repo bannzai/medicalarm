@@ -176,5 +176,6 @@
   "medicinePausedSnackbar": "Pengambilan ubat dijeda buat sementara",
   "medicationHistoryDeletedSnackbar": "Rekod pengambilan ubat telah dibatalkan",
   "undo": "Buat asal",
-  "medicationHistoryReverted": "Pembatalan rekod pengambilan ubat"
+  "medicationHistoryReverted": "Pembatalan rekod pengambilan ubat",
+  "revertedTime": "Masa pembatalan"
 }

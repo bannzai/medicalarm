@@ -176,5 +176,6 @@
   "medicinePausedSnackbar": "تم إيقاف تناول الدواء مؤقتًا",
   "medicationHistoryDeletedSnackbar": "تم التراجع عن سجل تناول الدواء",
   "undo": "تراجع",
-  "medicationHistoryReverted": "إلغاء سجل تناول الدواء"
+  "medicationHistoryReverted": "إلغاء سجل تناول الدواء",
+  "revertedTime": "وقت الإلغاء"
 }

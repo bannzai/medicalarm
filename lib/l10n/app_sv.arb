@@ -176,5 +176,6 @@
   "medicinePausedSnackbar": "Intaget av läkemedlet har pausats tillfälligt",
   "medicationHistoryDeletedSnackbar": "Läkemedelsintaget har ångrats",
   "undo": "Ångra",
-  "medicationHistoryReverted": "Ångra läkemedelsregistrering"
+  "medicationHistoryReverted": "Ångra läkemedelsregistrering",
+  "revertedTime": "Tidpunkt för avbokning"
 }

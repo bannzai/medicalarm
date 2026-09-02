@@ -176,5 +176,6 @@
   "medicinePausedSnackbar": "Jemanje zdravila je začasno zaustavljeno",
   "medicationHistoryDeletedSnackbar": "Zapis o zaužitju zdravila je preklican",
   "undo": "Razveljavi",
-  "medicationHistoryReverted": "Preklic zapisa o zaužitju zdravila"
+  "medicationHistoryReverted": "Preklic zapisa o zaužitju zdravila",
+  "revertedTime": "Čas preklica"
 }

@@ -176,5 +176,6 @@
   "medicinePausedSnackbar": "औषध सेवन अस्थायी रूपमा रोकिएको छ",
   "medicationHistoryDeletedSnackbar": "औषधि सेवनको रेकर्ड रद्द गरिएको छ",
   "undo": "पूर्ववत गर्नुहोस्",
-  "medicationHistoryReverted": "औषध सेवनको रेकर्ड रद्द"
+  "medicationHistoryReverted": "औषध सेवनको रेकर्ड रद्द",
+  "revertedTime": "रद्द गरिएको समय"
 }

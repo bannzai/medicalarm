@@ -176,5 +176,6 @@
   "medicinePausedSnackbar": "Administrarea medicamentului a fost întreruptă temporar",
   "medicationHistoryDeletedSnackbar": "Înregistrarea administrării medicamentului a fost anulată",
   "undo": "Anulează",
-  "medicationHistoryReverted": "Anularea înregistrării administrării medicamentului"
+  "medicationHistoryReverted": "Anularea înregistrării administrării medicamentului",
+  "revertedTime": "Ora anulării"
 }

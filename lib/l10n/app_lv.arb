@@ -176,5 +176,6 @@
   "medicinePausedSnackbar": "Zāļu lietošana uz laiku apturēta",
   "medicationHistoryDeletedSnackbar": "Zāļu lietošanas ieraksts ir atcelts",
   "undo": "Atsaukt",
-  "medicationHistoryReverted": "Medikamentu lietošanas ieraksta atcelšana"
+  "medicationHistoryReverted": "Medikamentu lietošanas ieraksta atcelšana",
+  "revertedTime": "Atcelšanas laiks"
 }

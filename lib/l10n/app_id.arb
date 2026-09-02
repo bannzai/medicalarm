@@ -176,5 +176,6 @@
   "medicinePausedSnackbar": "Konsumsi obat dihentikan sementara",
   "medicationHistoryDeletedSnackbar": "Catatan minum obat dibatalkan",
   "undo": "Urungkan",
-  "medicationHistoryReverted": "Pembatalan catatan minum obat"
+  "medicationHistoryReverted": "Pembatalan catatan minum obat",
+  "revertedTime": "Waktu pembatalan"
 }

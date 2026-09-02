@@ -176,5 +176,6 @@
   "medicinePausedSnackbar": "Đã tạm dừng uống thuốc",
   "medicationHistoryDeletedSnackbar": "Đã hủy bản ghi uống thuốc",
   "undo": "Hoàn tác",
-  "medicationHistoryReverted": "Hủy bản ghi uống thuốc"
+  "medicationHistoryReverted": "Hủy bản ghi uống thuốc",
+  "revertedTime": "Thời gian hủy"
 }

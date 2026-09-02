@@ -176,5 +176,6 @@
   "medicinePausedSnackbar": "A gyógyszer szedése ideiglenesen szünetel",
   "medicationHistoryDeletedSnackbar": "A gyógyszerbevétel rögzítése visszavonva",
   "undo": "Visszavonás",
-  "medicationHistoryReverted": "Gyógyszerbevétel rögzítésének visszavonása"
+  "medicationHistoryReverted": "Gyógyszerbevétel rögzítésének visszavonása",
+  "revertedTime": "A lemondás időpontja"
 }

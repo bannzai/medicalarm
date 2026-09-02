@@ -176,5 +176,6 @@
   "medicinePausedSnackbar": "દવા લેવાનું અસ્થાયી રૂપે થોભાવવામાં આવ્યું છે",
   "medicationHistoryDeletedSnackbar": "દવા લેવાનો રેકોર્ડ રદ કરવામાં આવ્યો છે",
   "undo": "પૂર્વવત્ કરો",
-  "medicationHistoryReverted": "દવા લેવાનો રેકોર્ડ રદ"
+  "medicationHistoryReverted": "દવા લેવાનો રેકોર્ડ રદ",
+  "revertedTime": "રદ કરવાનો સમય"
 }

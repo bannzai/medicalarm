@@ -176,5 +176,6 @@
   "medicinePausedSnackbar": "Прыём прэпарата часова прыпынены",
   "medicationHistoryDeletedSnackbar": "Запіс аб прыёме лекі адменены",
   "undo": "Адмяніць",
-  "medicationHistoryReverted": "Адмена запісу пра прыём лекаў"
+  "medicationHistoryReverted": "Адмена запісу пра прыём лекаў",
+  "revertedTime": "Час адмены"
 }

@@ -176,5 +176,6 @@
   "medicinePausedSnackbar": "Земањето на лекот е привремено прекинато",
   "medicationHistoryDeletedSnackbar": "Записот за земање лек е откажан",
   "undo": "Врати",
-  "medicationHistoryReverted": "Откажување на записот за земање лек"
+  "medicationHistoryReverted": "Откажување на записот за земање лек",
+  "revertedTime": "Време на откажување"
 }

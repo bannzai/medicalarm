@@ -176,5 +176,6 @@
   "medicinePausedSnackbar": "Het innemen van het medicijn is tijdelijk gepauzeerd",
   "medicationHistoryDeletedSnackbar": "De registratie van de medicatie-inname is ongedaan gemaakt",
   "undo": "Ongedaan maken",
-  "medicationHistoryReverted": "Medicatie-inname ongedaan maken"
+  "medicationHistoryReverted": "Medicatie-inname ongedaan maken",
+  "revertedTime": "Annuleertijd"
 }

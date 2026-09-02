@@ -176,5 +176,6 @@
   "medicinePausedSnackbar": "दवा लेना अस्थायी रूप से रोक दिया गया है",
   "medicationHistoryDeletedSnackbar": "दवा लेने का रिकॉर्ड रद्द कर दिया गया है",
   "undo": "पूर्ववत करें",
-  "medicationHistoryReverted": "दवा लेने का रिकॉर्ड रद्द"
+  "medicationHistoryReverted": "दवा लेने का रिकॉर्ड रद्द",
+  "revertedTime": "रद्द करने का समय"
 }

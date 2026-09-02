@@ -176,5 +176,6 @@
   "medicinePausedSnackbar": "Przyjmowanie leku zostało tymczasowo wstrzymane",
   "medicationHistoryDeletedSnackbar": "Cofnięto zapis przyjęcia leku",
   "undo": "Cofnij",
-  "medicationHistoryReverted": "Anulowanie wpisu o przyjęciu leku"
+  "medicationHistoryReverted": "Anulowanie wpisu o przyjęciu leku",
+  "revertedTime": "Czas anulowania"
 }

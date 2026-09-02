@@ -176,5 +176,6 @@
   "medicinePausedSnackbar": "หยุดรับประทานยาชั่วคราวแล้ว",
   "medicationHistoryDeletedSnackbar": "ยกเลิกบันทึกการรับประทานยาแล้ว",
   "undo": "เลิกทำ",
-  "medicationHistoryReverted": "ยกเลิกบันทึกการรับประทานยา"
+  "medicationHistoryReverted": "ยกเลิกบันทึกการรับประทานยา",
+  "revertedTime": "เวลาที่ยกเลิก"
 }

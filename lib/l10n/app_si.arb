@@ -176,5 +176,6 @@
   "medicinePausedSnackbar": "ඖෂධ ගැනීම තාවකාලිකව නතර කරන ලදී",
   "medicationHistoryDeletedSnackbar": "ඖෂධ ගැනීමේ වාර්තාව අවලංගු කරන ලදී",
   "undo": "අහෝසි කරන්න",
-  "medicationHistoryReverted": "ඖෂධ ගැනීමේ වාර්තාව අවලංගු කිරීම"
+  "medicationHistoryReverted": "ඖෂධ ගැනීමේ වාර්තාව අවලංගු කිරීම",
+  "revertedTime": "අවලංගු කළ වේලාව"
 }

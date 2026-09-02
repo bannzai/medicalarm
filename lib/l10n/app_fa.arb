@@ -176,5 +176,6 @@
   "medicinePausedSnackbar": "مصرف دارو موقتاً متوقف شد",
   "medicationHistoryDeletedSnackbar": "ثبت مصرف دارو لغو شد",
   "undo": "واگردانی",
-  "medicationHistoryReverted": "لغو ثبت مصرف دارو"
+  "medicationHistoryReverted": "لغو ثبت مصرف دارو",
+  "revertedTime": "زمان لغو"
 }
