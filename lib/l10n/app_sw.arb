@@ -162,5 +162,6 @@
   "freePremiumTrialDays": "Utapokea kipindi cha majaribio bila malipo cha siku {count} kama zawadi!",
   "welcomeToMedicalarm": "Karibu Medicalarm!",
   "writeReviewFor5StarPromotion": "Andika ukadiriaji wa nyota 5 na maoni kwenye App Store ili kujaribu vipengele vya Premium bila malipo kwa siku {count}!",
-  "rating5StarsEncouragement": "Ukadiriaji wako wa ★5 ni motisha kubwa kwa wasanidi programu.\nTafadhali tuunge mkono ili tuunde programu bora zaidi!"
+  "rating5StarsEncouragement": "Ukadiriaji wako wa ★5 ni motisha kubwa kwa wasanidi programu.\nTafadhali tuunge mkono ili tuunde programu bora zaidi!",
+  "noAutoCharge": "Hutatozwa kiotomatiki. Baada ya kipindi cha majaribio kuisha, utarejea kiotomatiki kwenye mpango wa bila malipo."
 }

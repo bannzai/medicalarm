@@ -162,5 +162,6 @@
   "freePremiumTrialDays": "Dovanų gausite nemokamą {count} dienų bandomąjį laikotarpį!",
   "welcomeToMedicalarm": "Sveiki atvykę į Medicalarm!",
   "writeReviewFor5StarPromotion": "Parašykite 5 žvaigždučių įvertinimą ir atsiliepimą „App Store“, kad galėtumėte {count} dienų nemokamai išbandyti aukščiausios klasės funkcijas!",
-  "rating5StarsEncouragement": "Jūsų ★5 įvertinimas yra didelis paskatinimas kūrėjams.\nPalaikykite mus, kad galėtume sukurti dar geresnę programėlę!"
+  "rating5StarsEncouragement": "Jūsų ★5 įvertinimas yra didelis paskatinimas kūrėjams.\nPalaikykite mus, kad galėtume sukurti dar geresnę programėlę!",
+  "noAutoCharge": "Automatinis mokestis nebus taikomas. Pasibaigus bandomajam laikotarpiui, automatiškai grįšite į nemokamą planą."
 }

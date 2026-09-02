@@ -162,5 +162,6 @@
   "freePremiumTrialDays": "Dāvanā saņemsiet bezmaksas {count} dienu izmēģinājuma periodu!",
   "welcomeToMedicalarm": "Laipni lūdzam Medicalarm!",
   "writeReviewFor5StarPromotion": "Uzrakstiet 5 zvaigžņu vērtējumu un atsauksmi App Store, lai {count} dienas bez maksas izmēģinātu premium funkcijas!",
-  "rating5StarsEncouragement": "Jūsu ★5 vērtējums ir liels iedrošinājums izstrādātājiem.\nAtbalstiet mūs, lai varētu izveidot vēl labāku lietotni!"
+  "rating5StarsEncouragement": "Jūsu ★5 vērtējums ir liels iedrošinājums izstrādātājiem.\nAtbalstiet mūs, lai varētu izveidot vēl labāku lietotni!",
+  "noAutoCharge": "Automātiska maksa netiks iekasēta. Pēc izmēģinājuma perioda beigām jūs automātiski atgriezīsieties bezmaksas plānā."
 }

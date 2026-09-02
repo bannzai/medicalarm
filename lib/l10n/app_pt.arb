@@ -162,5 +162,6 @@
   "freePremiumTrialDays": "Você receberá um período de teste gratuito de {count} dias de presente!",
   "welcomeToMedicalarm": "Boas-vindas à Medicalarm!",
   "writeReviewFor5StarPromotion": "Escreva uma avaliação de 5 estrelas e uma crítica na App Store para experimentar gratuitamente os recursos premium por {count} dias!",
-  "rating5StarsEncouragement": "A sua avaliação de ★5 é um grande incentivo para os desenvolvedores.\nApoie-nos para ajudarmos a criar uma aplicação ainda melhor!"
+  "rating5StarsEncouragement": "A sua avaliação de ★5 é um grande incentivo para os desenvolvedores.\nApoie-nos para ajudarmos a criar uma aplicação ainda melhor!",
+  "noAutoCharge": "Não será feita nenhuma cobrança automática. Após o fim do período de avaliação, você retornará automaticamente ao plano gratuito."
 }
