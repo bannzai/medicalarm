@@ -211,5 +211,6 @@
   "removeMemberConfirmMessage": "Удалить {name} из группы",
   "joinGroup": "Присоединиться к группе",
   "invitationCodeInputLabel": "Код приглашения (8 символов)",
-  "invitationCodeInputHint": "Введите 8-символьный код"
+  "invitationCodeInputHint": "Введите 8-символьный код",
+  "join": "Присоединиться"
 }

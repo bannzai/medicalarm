@@ -211,5 +211,6 @@
   "removeMemberConfirmMessage": "{name} को समूह से हटाएं",
   "joinGroup": "समूह में शामिल हों",
   "invitationCodeInputLabel": "आमंत्रण कोड (8 अक्षर)",
-  "invitationCodeInputHint": "8 अक्षरों वाला कोड दर्ज करें"
+  "invitationCodeInputHint": "8 अक्षरों वाला कोड दर्ज करें",
+  "join": "शामिल हों"
 }

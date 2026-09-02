@@ -211,5 +211,6 @@
   "removeMemberConfirmMessage": "{name} gruptan kaldırılacak",
   "joinGroup": "Gruba katıl",
   "invitationCodeInputLabel": "Davet kodu (8 karakter)",
-  "invitationCodeInputHint": "8 karakterli kodu girin"
+  "invitationCodeInputHint": "8 karakterli kodu girin",
+  "join": "Katıl"
 }

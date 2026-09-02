@@ -211,5 +211,6 @@
   "removeMemberConfirmMessage": "{name}ን ከቡድኑ ያስወግዱ",
   "joinGroup": "ቡድኑን ይቀላቀሉ",
   "invitationCodeInputLabel": "የግብዣ ኮድ (8 ቁምፊዎች)",
-  "invitationCodeInputHint": "8 ቁምፊ ያለውን ኮድ ያስገቡ"
+  "invitationCodeInputHint": "8 ቁምፊ ያለውን ኮድ ያስገቡ",
+  "join": "ይቀላቀሉ"
 }

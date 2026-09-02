@@ -211,5 +211,6 @@
   "removeMemberConfirmMessage": "{name}-നെ ഗ്രൂപ്പിൽ നിന്ന് നീക്കം ചെയ്യുക",
   "joinGroup": "ഗ്രൂപ്പിൽ ചേരുക",
   "invitationCodeInputLabel": "ക്ഷണ കോഡ് (8 അക്ഷരങ്ങൾ)",
-  "invitationCodeInputHint": "8 അക്ഷരങ്ങളുള്ള കോഡ് നൽകുക"
+  "invitationCodeInputHint": "8 അക്ഷരങ്ങളുള്ള കോഡ് നൽകുക",
+  "join": "ചേരുക"
 }

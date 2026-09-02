@@ -211,5 +211,6 @@
   "removeMemberConfirmMessage": "{name} taldetik kentzea",
   "joinGroup": "Taldearekin bat egin",
   "invitationCodeInputLabel": "Gonbidapen-kodea (8 karaktere)",
-  "invitationCodeInputHint": "Sartu 8 karaktereko kodea"
+  "invitationCodeInputHint": "Sartu 8 karaktereko kodea",
+  "join": "Batu"
 }

@@ -211,5 +211,6 @@
   "removeMemberConfirmMessage": "Elimină {name} din grup",
   "joinGroup": "Alătură-te unui grup",
   "invitationCodeInputLabel": "Cod de invitație (8 caractere)",
-  "invitationCodeInputHint": "Introduceți codul din 8 caractere"
+  "invitationCodeInputHint": "Introduceți codul din 8 caractere",
+  "join": "Alătură-te"
 }

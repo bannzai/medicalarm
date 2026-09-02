@@ -211,5 +211,6 @@
   "removeMemberConfirmMessage": "إزالة {name} من المجموعة",
   "joinGroup": "الانضمام إلى مجموعة",
   "invitationCodeInputLabel": "رمز الدعوة (8 أحرف)",
-  "invitationCodeInputHint": "أدخل الرمز المكوّن من 8 أحرف"
+  "invitationCodeInputHint": "أدخل الرمز المكوّن من 8 أحرف",
+  "join": "انضمام"
 }

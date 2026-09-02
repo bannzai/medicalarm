@@ -211,5 +211,6 @@
   "removeMemberConfirmMessage": "{name} qrupdan silinəcək",
   "joinGroup": "Qrupa qoşul",
   "invitationCodeInputLabel": "Dəvət kodu (8 simvol)",
-  "invitationCodeInputHint": "8 simvolluq kodu daxil edin"
+  "invitationCodeInputHint": "8 simvolluq kodu daxil edin",
+  "join": "Qoşulun"
 }

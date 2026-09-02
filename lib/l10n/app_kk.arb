@@ -211,5 +211,6 @@
   "removeMemberConfirmMessage": "{name} топтан жойылады",
   "joinGroup": "Топқа қосылу",
   "invitationCodeInputLabel": "Шақыру коды (8 таңба)",
-  "invitationCodeInputHint": "8 таңбалы кодты енгізіңіз"
+  "invitationCodeInputHint": "8 таңбалы кодты енгізіңіз",
+  "join": "Қосылу"
 }

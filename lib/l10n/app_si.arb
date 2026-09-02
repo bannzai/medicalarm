@@ -211,5 +211,6 @@
   "removeMemberConfirmMessage": "{name} කණ්ඩායමෙන් ඉවත් කරන්න",
   "joinGroup": "සමූහයට එක්වන්න",
   "invitationCodeInputLabel": "ආරාධනා කේතය (අක්ෂර 8යි)",
-  "invitationCodeInputHint": "අක්ෂර 8ක කේතය ඇතුළත් කරන්න"
+  "invitationCodeInputHint": "අක්ෂර 8ක කේතය ඇතුළත් කරන්න",
+  "join": "එක්වන්න"
 }

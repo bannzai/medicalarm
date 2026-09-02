@@ -211,5 +211,6 @@
   "removeMemberConfirmMessage": "{name} guruhdan olib tashlanadi",
   "joinGroup": "Guruhga qo‘shilish",
   "invitationCodeInputLabel": "Taklif kodi (8 ta belgi)",
-  "invitationCodeInputHint": "8 belgidan iborat kodni kiriting"
+  "invitationCodeInputHint": "8 belgidan iborat kodni kiriting",
+  "join": "Qo‘shilish"
 }

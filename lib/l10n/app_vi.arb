@@ -211,5 +211,6 @@
   "removeMemberConfirmMessage": "Xóa {name} khỏi nhóm",
   "joinGroup": "Tham gia nhóm",
   "invitationCodeInputLabel": "Mã lời mời (8 ký tự)",
-  "invitationCodeInputHint": "Nhập mã gồm 8 ký tự"
+  "invitationCodeInputHint": "Nhập mã gồm 8 ký tự",
+  "join": "Tham gia"
 }

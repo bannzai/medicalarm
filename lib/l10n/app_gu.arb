@@ -211,5 +211,6 @@
   "removeMemberConfirmMessage": "{name}ને ગ્રુપમાંથી દૂર કરવામાં આવશે",
   "joinGroup": "જૂથમાં જોડાઓ",
   "invitationCodeInputLabel": "આમંત્રણ કોડ (8 અક્ષરો)",
-  "invitationCodeInputHint": "8 અક્ષરનો કોડ દાખલ કરો"
+  "invitationCodeInputHint": "8 અક્ષરનો કોડ દાખલ કરો",
+  "join": "જોડાઓ"
 }

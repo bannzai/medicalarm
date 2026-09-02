@@ -211,5 +211,6 @@
   "removeMemberConfirmMessage": "{name} aus der Gruppe entfernen",
   "joinGroup": "Einer Gruppe beitreten",
   "invitationCodeInputLabel": "Einladungscode (8 Zeichen)",
-  "invitationCodeInputHint": "Geben Sie den 8-stelligen Code ein"
+  "invitationCodeInputHint": "Geben Sie den 8-stelligen Code ein",
+  "join": "Beitreten"
 }

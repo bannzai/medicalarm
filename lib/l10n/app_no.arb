@@ -211,5 +211,6 @@
   "removeMemberConfirmMessage": "Fjern {name} fra gruppen",
   "joinGroup": "Bli med i en gruppe",
   "invitationCodeInputLabel": "Invitasjonskode (8 tegn)",
-  "invitationCodeInputHint": "Skriv inn koden med 8 tegn"
+  "invitationCodeInputHint": "Skriv inn koden med 8 tegn",
+  "join": "Bli med"
 }

@@ -211,5 +211,6 @@
   "removeMemberConfirmMessage": "הסרת {name} מהקבוצה",
   "joinGroup": "הצטרפות לקבוצה",
   "invitationCodeInputLabel": "קוד הזמנה (8 תווים)",
-  "invitationCodeInputHint": "הזינו את הקוד בן 8 התווים"
+  "invitationCodeInputHint": "הזינו את הקוד בן 8 התווים",
+  "join": "הצטרפות"
 }

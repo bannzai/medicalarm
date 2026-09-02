@@ -211,5 +211,6 @@
   "removeMemberConfirmMessage": "Suprimir {name} del grup",
   "joinGroup": "Uneix-te a un grup",
   "invitationCodeInputLabel": "Codi d'invitació (8 caràcters)",
-  "invitationCodeInputHint": "Introduïu el codi de 8 caràcters"
+  "invitationCodeInputHint": "Introduïu el codi de 8 caràcters",
+  "join": "Unir-se"
 }

@@ -211,5 +211,6 @@
   "removeMemberConfirmMessage": "{name} us de Gruppe entferne",
   "joinGroup": "Einer Gruppe beitrete",
   "invitationCodeInputLabel": "Iiladigscode (8 Zeiche)",
-  "invitationCodeInputHint": "Gänd Sie dä 8-stellig Code ii"
+  "invitationCodeInputHint": "Gänd Sie dä 8-stellig Code ii",
+  "join": "Biitrete"
 }

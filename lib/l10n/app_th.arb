@@ -211,5 +211,6 @@
   "removeMemberConfirmMessage": "นำ {name} ออกจากกลุ่ม",
   "joinGroup": "เข้าร่วมกลุ่ม",
   "invitationCodeInputLabel": "รหัสคำเชิญ (8 อักขระ)",
-  "invitationCodeInputHint": "ป้อนรหัส 8 ตัวอักษร"
+  "invitationCodeInputHint": "ป้อนรหัส 8 ตัวอักษร",
+  "join": "เข้าร่วม"
 }

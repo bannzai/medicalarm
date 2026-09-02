@@ -211,5 +211,6 @@
   "removeMemberConfirmMessage": "Poistetaan {name} ryhmästä",
   "joinGroup": "Liity ryhmään",
   "invitationCodeInputLabel": "Kutsukoodi (8 merkkiä)",
-  "invitationCodeInputHint": "Syötä 8-merkkinen koodi"
+  "invitationCodeInputHint": "Syötä 8-merkkinen koodi",
+  "join": "Liity"
 }

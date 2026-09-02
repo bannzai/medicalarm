@@ -211,5 +211,6 @@
   "removeMemberConfirmMessage": "{name} ला ग्रुपमधून काढले जाईल",
   "joinGroup": "गटात सामील व्हा",
   "invitationCodeInputLabel": "आमंत्रण कोड (८ अक्षरे)",
-  "invitationCodeInputHint": "८ अक्षरांचा कोड प्रविष्ट करा"
+  "invitationCodeInputHint": "८ अक्षरांचा कोड प्रविष्ट करा",
+  "join": "सामील व्हा"
 }

@@ -211,5 +211,6 @@
   "removeMemberConfirmMessage": "{name} eltávolítása a csoportból",
   "joinGroup": "Csatlakozás csoporthoz",
   "invitationCodeInputLabel": "Meghívókód (8 karakter)",
-  "invitationCodeInputHint": "Adja meg a 8 karakterből álló kódot"
+  "invitationCodeInputHint": "Adja meg a 8 karakterből álló kódot",
+  "join": "Csatlakozás"
 }
