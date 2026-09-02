@@ -268,5 +268,6 @@
   "onboardingBeforeItemUnsure": "ਯਾਦ ਨਹੀਂ ਕਿ ਦਵਾਈ ਲਈ ਸੀ ਜਾਂ ਨਹੀਂ",
   "onboardingBeforeItemFamily": "ਪੂਰੇ ਪਰਿਵਾਰ ਦੀਆਂ ਦਵਾਈਆਂ ਦਾ ਰਿਕਾਰਡ ਨਹੀਂ ਰੱਖਿਆ ਜਾ ਸਕਦਾ",
   "onboardingAfterItemReminder": "ਦਵਾਈ ਲੈਣ ਦਾ ਸਮਾਂ ਹੋਣ 'ਤੇ ਤੁਹਾਨੂੰ ਸੂਚਨਾ ਮਿਲੇਗੀ।",
-  "onboardingAfterItemRecord": "ਰਿਕਾਰਡ ਸੁਰੱਖਿਅਤ ਰਹਿੰਦੇ ਹਨ ਅਤੇ ਤੁਰੰਤ ਜਾਂਚੇ ਜਾ ਸਕਦੇ ਹਨ"
+  "onboardingAfterItemRecord": "ਰਿਕਾਰਡ ਸੁਰੱਖਿਅਤ ਰਹਿੰਦੇ ਹਨ ਅਤੇ ਤੁਰੰਤ ਜਾਂਚੇ ਜਾ ਸਕਦੇ ਹਨ",
+  "onboardingAfterItemFamily": "ਆਪਣੇ ਪਰਿਵਾਰ ਦੀ ਦਵਾਈ ਲੈਣ ਦੀ ਸਥਿਤੀ ਵੀ ਇੱਕ ਨਜ਼ਰ ਵਿੱਚ ਵੇਖੋ"
 }

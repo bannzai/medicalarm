@@ -268,5 +268,6 @@
   "onboardingBeforeItemUnsure": "Не се сеќавам дали го земав",
   "onboardingBeforeItemFamily": "Не можам да го следам земањето лекови на целото семејство",
   "onboardingAfterItemReminder": "Ќе добиете известување кога ќе дојде време да го земете лекот.",
-  "onboardingAfterItemRecord": "Записите се зачувуваат и може веднаш да ги проверите"
+  "onboardingAfterItemRecord": "Записите се зачувуваат и може веднаш да ги проверите",
+  "onboardingAfterItemFamily": "На прв поглед видете ја и состојбата со земањето лекови на вашето семејство"
 }

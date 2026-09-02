@@ -268,5 +268,6 @@
   "onboardingBeforeItemUnsure": "መውሰዴን አላስታውስም",
   "onboardingBeforeItemFamily": "የመላው ቤተሰብን መድኃኒት መከታተል አልችልም",
   "onboardingAfterItemReminder": "መድሃኒትዎን ለመውሰድ ጊዜው ሲደርስ ማሳወቂያ ይደርስዎታል።",
-  "onboardingAfterItemRecord": "መዝገቦች ይቀመጣሉ እና ወዲያውኑ ማረጋገጥ ይችላሉ"
+  "onboardingAfterItemRecord": "መዝገቦች ይቀመጣሉ እና ወዲያውኑ ማረጋገጥ ይችላሉ",
+  "onboardingAfterItemFamily": "የቤተሰብዎን የመድኃኒት አጠቃቀም ሁኔታም በአንድ እይታ ይወቁ"
 }

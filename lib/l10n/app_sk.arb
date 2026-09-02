@@ -268,5 +268,6 @@
   "onboardingBeforeItemUnsure": "Nepamätám si, či som ho užil/a",
   "onboardingBeforeItemFamily": "Nedokážem sledovať lieky celej rodiny",
   "onboardingAfterItemReminder": "Keď bude čas užiť liek, dostanete upozornenie.",
-  "onboardingAfterItemRecord": "Záznamy zostanú uložené a môžete ich hneď skontrolovať"
+  "onboardingAfterItemRecord": "Záznamy zostanú uložené a môžete ich hneď skontrolovať",
+  "onboardingAfterItemFamily": "Majte prehľad aj o užívaní liekov vašej rodiny na prvý pohľad"
 }

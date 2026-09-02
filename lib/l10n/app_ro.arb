@@ -268,5 +268,6 @@
   "onboardingBeforeItemUnsure": "Nu-mi amintesc dacă am luat medicamentul",
   "onboardingBeforeItemFamily": "Nu pot ține evidența medicamentelor întregii familii",
   "onboardingAfterItemReminder": "Vei primi o notificare când este timpul să iei medicamentul.",
-  "onboardingAfterItemRecord": "Înregistrările se păstrează și pot fi verificate imediat"
+  "onboardingAfterItemRecord": "Înregistrările se păstrează și pot fi verificate imediat",
+  "onboardingAfterItemFamily": "Vedeți dintr-o privire și situația administrării medicamentelor de către familie"
 }

@@ -268,5 +268,6 @@
   "onboardingBeforeItemUnsure": "மருந்தை எடுத்தேனா இல்லையா என்று நினைவில்லை",
   "onboardingBeforeItemFamily": "முழு குடும்பத்தின் மருந்துகளையும் கண்காணிக்க முடியவில்லை",
   "onboardingAfterItemReminder": "மருந்து உட்கொள்ளும் நேரத்தில் உங்களுக்கு அறிவிப்பு வரும்.",
-  "onboardingAfterItemRecord": "பதிவுகள் சேமிக்கப்பட்டு உடனடியாகச் சரிபார்க்கலாம்"
+  "onboardingAfterItemRecord": "பதிவுகள் சேமிக்கப்பட்டு உடனடியாகச் சரிபார்க்கலாம்",
+  "onboardingAfterItemFamily": "உங்கள் குடும்பத்தினரின் மருந்து உட்கொள்ளும் நிலையும் ஒரே பார்வையில் தெரியும்"
 }

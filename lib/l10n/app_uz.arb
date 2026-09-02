@@ -268,5 +268,6 @@
   "onboardingBeforeItemUnsure": "Uni qabul qilganimni eslay olmayapman",
   "onboardingBeforeItemFamily": "Butun oilaning dori-darmonlarini kuzatib bora olmayman",
   "onboardingAfterItemReminder": "Dori qabul qilish vaqti kelganda, sizga bildirishnoma keladi.",
-  "onboardingAfterItemRecord": "Qaydlar saqlanadi va ularni darhol tekshirish mumkin"
+  "onboardingAfterItemRecord": "Qaydlar saqlanadi va ularni darhol tekshirish mumkin",
+  "onboardingAfterItemFamily": "Oilangizning dori qabul qilish holatini ham bir qarashda ko‘ring"
 }

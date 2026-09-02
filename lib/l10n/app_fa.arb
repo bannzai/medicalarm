@@ -268,5 +268,6 @@
   "onboardingBeforeItemUnsure": "یادم نیست آن را مصرف کرده‌ام یا نه",
   "onboardingBeforeItemFamily": "نمی‌توانم داروهای تمام اعضای خانواده را پیگیری کنم",
   "onboardingAfterItemReminder": "وقتی زمان مصرف دارو برسد، اعلان دریافت می‌کنید.",
-  "onboardingAfterItemRecord": "سوابق ذخیره می‌شوند و می‌توانید فوراً آن‌ها را بررسی کنید"
+  "onboardingAfterItemRecord": "سوابق ذخیره می‌شوند و می‌توانید فوراً آن‌ها را بررسی کنید",
+  "onboardingAfterItemFamily": "وضعیت مصرف داروی اعضای خانواده‌تان را هم در یک نگاه ببینید"
 }

@@ -268,5 +268,6 @@
   "onboardingBeforeItemUnsure": "Nuk mbaj mend nëse e kam marrë",
   "onboardingBeforeItemFamily": "Nuk mund të mbaj nën kontroll barnat e gjithë familjes",
   "onboardingAfterItemReminder": "Do të marrësh një njoftim kur të jetë koha për të marrë ilaçin.",
-  "onboardingAfterItemRecord": "Regjistrimet ruhen dhe mund t’i kontrolloni menjëherë"
+  "onboardingAfterItemRecord": "Regjistrimet ruhen dhe mund t’i kontrolloni menjëherë",
+  "onboardingAfterItemFamily": "Shikoni me një vështrim edhe gjendjen e marrjes së ilaçeve nga familja juaj"
 }

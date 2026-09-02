@@ -268,5 +268,6 @@
   "onboardingBeforeItemUnsure": "Не пам’ятаю, чи прийняв(ла) я його",
   "onboardingBeforeItemFamily": "Не можу стежити за прийомом ліків усієї родини",
   "onboardingAfterItemReminder": "Ви отримаєте сповіщення, коли настане час прийняти ліки.",
-  "onboardingAfterItemRecord": "Записи зберігаються, і їх можна одразу перевірити"
+  "onboardingAfterItemRecord": "Записи зберігаються, і їх можна одразу перевірити",
+  "onboardingAfterItemFamily": "Одним поглядом дізнавайтеся і про стан прийому ліків членами сім’ї"
 }

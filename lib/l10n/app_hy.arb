@@ -268,5 +268,6 @@
   "onboardingBeforeItemUnsure": "Չեմ հիշում՝ ընդունե՞լ եմ, թե ոչ",
   "onboardingBeforeItemFamily": "Չեմ կարող հետևել ամբողջ ընտանիքի դեղորայքին",
   "onboardingAfterItemReminder": "Դեղն ընդունելու ժամանակը հասնելուն պես ծանուցում կստանաք։",
-  "onboardingAfterItemRecord": "Գրառումները պահպանվում են և անմիջապես ստուգելի են"
+  "onboardingAfterItemRecord": "Գրառումները պահպանվում են և անմիջապես ստուգելի են",
+  "onboardingAfterItemFamily": "Մի հայացքով տեսեք նաև ձեր ընտանիքի դեղերի ընդունման վիճակը"
 }

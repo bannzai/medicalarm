@@ -268,5 +268,6 @@
   "onboardingBeforeItemUnsure": "Ik weet niet meer of ik het heb ingenomen",
   "onboardingBeforeItemFamily": "Kan de medicatie van het hele gezin niet bijhouden",
   "onboardingAfterItemReminder": "Je krijgt een melding wanneer het tijd is om je medicijn in te nemen.",
-  "onboardingAfterItemRecord": "Registraties blijven bewaard en zijn direct te bekijken"
+  "onboardingAfterItemRecord": "Registraties blijven bewaard en zijn direct te bekijken",
+  "onboardingAfterItemFamily": "Bekijk ook in één oogopslag de medicatiestatus van uw familie"
 }

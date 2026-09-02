@@ -268,5 +268,6 @@
   "onboardingBeforeItemUnsure": "याद नहीं कि मैंने दवा ली थी या नहीं",
   "onboardingBeforeItemFamily": "पूरे परिवार की दवाओं पर नज़र रखना संभव नहीं",
   "onboardingAfterItemReminder": "दवा लेने का समय होने पर आपको सूचना मिलेगी।",
-  "onboardingAfterItemRecord": "रिकॉर्ड सुरक्षित रहते हैं और तुरंत देखे जा सकते हैं"
+  "onboardingAfterItemRecord": "रिकॉर्ड सुरक्षित रहते हैं और तुरंत देखे जा सकते हैं",
+  "onboardingAfterItemFamily": "परिवार के सदस्यों की दवा लेने की स्थिति भी एक नज़र में देखें"
 }

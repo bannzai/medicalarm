@@ -268,5 +268,6 @@
   "onboardingBeforeItemUnsure": "මම එය ගත්තද නැද්ද මතක නැහැ",
   "onboardingBeforeItemFamily": "මුළු පවුලේම ඖෂධ ගැන විමසිල්ලෙන් සිටිය නොහැක",
   "onboardingAfterItemReminder": "ඖෂධය ගත යුතු වේලාවට ඔබට දැනුම්දීමක් ලැබේ.",
-  "onboardingAfterItemRecord": "වාර්තා සුරැකිව තබාගෙන වහාම පරීක්ෂා කළ හැකියි"
+  "onboardingAfterItemRecord": "වාර්තා සුරැකිව තබාගෙන වහාම පරීක්ෂා කළ හැකියි",
+  "onboardingAfterItemFamily": "ඔබේ පවුලේ ඖෂධ ගැනීමේ තත්ත්වයත් එක බැල්මකින් බලන්න"
 }

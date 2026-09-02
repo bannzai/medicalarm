@@ -268,5 +268,6 @@
   "onboardingBeforeItemUnsure": "মনে নেই ওষুধটি খেয়েছি কি না",
   "onboardingBeforeItemFamily": "পুরো পরিবারের ওষুধের হিসাব রাখতে পারি না",
   "onboardingAfterItemReminder": "ওষুধ খাওয়ার সময় হলে আপনি একটি বিজ্ঞপ্তি পাবেন।",
-  "onboardingAfterItemRecord": "রেকর্ড সংরক্ষিত থাকে এবং সঙ্গে সঙ্গে দেখা যায়"
+  "onboardingAfterItemRecord": "রেকর্ড সংরক্ষিত থাকে এবং সঙ্গে সঙ্গে দেখা যায়",
+  "onboardingAfterItemFamily": "এক নজরে পরিবারের সদস্যদের ওষুধ সেবনের অবস্থা দেখুন"
 }

@@ -268,5 +268,6 @@
   "onboardingBeforeItemUnsure": "Ich weiß nicht mehr, ob ich es eingenommen habe",
   "onboardingBeforeItemFamily": "Kann die Medikamente der ganzen Familie nicht im Blick behalten",
   "onboardingAfterItemReminder": "Du erhältst eine Benachrichtigung, wenn es Zeit ist, dein Medikament einzunehmen.",
-  "onboardingAfterItemRecord": "Aufzeichnungen bleiben erhalten und sind sofort einsehbar"
+  "onboardingAfterItemRecord": "Aufzeichnungen bleiben erhalten und sind sofort einsehbar",
+  "onboardingAfterItemFamily": "Den Medikamentenstatus Ihrer Familie auf einen Blick sehen"
 }

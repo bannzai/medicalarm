@@ -268,5 +268,6 @@
   "onboardingBeforeItemUnsure": "Je ne me souviens pas l’avoir pris",
   "onboardingBeforeItemFamily": "Impossible de suivre les médicaments de toute la famille",
   "onboardingAfterItemReminder": "Vous recevrez une notification lorsqu’il sera temps de prendre votre médicament.",
-  "onboardingAfterItemRecord": "Les enregistrements sont conservés et consultables immédiatement"
+  "onboardingAfterItemRecord": "Les enregistrements sont conservés et consultables immédiatement",
+  "onboardingAfterItemFamily": "Consultez en un clin d’œil la prise de médicaments de votre famille"
 }

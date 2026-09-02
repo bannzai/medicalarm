@@ -268,5 +268,6 @@
   "onboardingBeforeItemUnsure": "ମୁଁ ଔଷଧ ନେଇଥିଲି କି ନାହିଁ ମନେ ପଡ଼ୁନାହିଁ",
   "onboardingBeforeItemFamily": "ସମ୍ପୂର୍ଣ୍ଣ ପରିବାରର ଔଷଧ ଉପରେ ନଜର ରଖିପାରୁନାହିଁ",
   "onboardingAfterItemReminder": "ଔଷଧ ଖାଇବା ସମୟ ହେଲେ ଆପଣଙ୍କୁ ବିଜ୍ଞପ୍ତି ମିଳିବ।",
-  "onboardingAfterItemRecord": "ରେକର୍ଡ ସଂରକ୍ଷିତ ରହେ ଏବଂ ତୁରନ୍ତ ଯାଞ୍ଚ କରିହେବ"
+  "onboardingAfterItemRecord": "ରେକର୍ଡ ସଂରକ୍ଷିତ ରହେ ଏବଂ ତୁରନ୍ତ ଯାଞ୍ଚ କରିହେବ",
+  "onboardingAfterItemFamily": "ଆପଣଙ୍କ ପରିବାରର ଔଷଧ ସେବନ ସ୍ଥିତି ମଧ୍ୟ ଗୋଟିଏ ନଜରରେ ଦେଖନ୍ତୁ"
 }

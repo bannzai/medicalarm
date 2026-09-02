@@ -268,5 +268,6 @@
   "onboardingBeforeItemUnsure": "Не помня дали съм го приел/а",
   "onboardingBeforeItemFamily": "Не мога да следя лекарствата на цялото семейство",
   "onboardingAfterItemReminder": "Ще получите известие, когато настъпи време да приемете лекарството си.",
-  "onboardingAfterItemRecord": "Записите се запазват и могат да бъдат проверени веднага"
+  "onboardingAfterItemRecord": "Записите се запазват и могат да бъдат проверени веднага",
+  "onboardingAfterItemFamily": "Виждайте и състоянието на приема на лекарства от семейството си с един поглед"
 }

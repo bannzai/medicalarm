@@ -268,5 +268,6 @@
   "onboardingBeforeItemUnsure": "Δεν θυμάμαι αν το πήρα",
   "onboardingBeforeItemFamily": "Δεν μπορώ να παρακολουθώ τα φάρμακα όλης της οικογένειας",
   "onboardingAfterItemReminder": "Θα λάβετε ειδοποίηση όταν έρθει η ώρα να πάρετε το φάρμακό σας.",
-  "onboardingAfterItemRecord": "Οι καταγραφές αποθηκεύονται και μπορείτε να τις ελέγξετε αμέσως"
+  "onboardingAfterItemRecord": "Οι καταγραφές αποθηκεύονται και μπορείτε να τις ελέγξετε αμέσως",
+  "onboardingAfterItemFamily": "Δείτε με μια ματιά την κατάσταση λήψης φαρμάκων της οικογένειάς σας"
 }

@@ -268,5 +268,6 @@
   "onboardingBeforeItemUnsure": "En muista, otinko sen",
   "onboardingBeforeItemFamily": "En pysty seuraamaan koko perheen lääkitystä",
   "onboardingAfterItemReminder": "Saat ilmoituksen, kun on aika ottaa lääkkeesi.",
-  "onboardingAfterItemRecord": "Tiedot säilyvät ja voit tarkistaa ne heti"
+  "onboardingAfterItemRecord": "Tiedot säilyvät ja voit tarkistaa ne heti",
+  "onboardingAfterItemFamily": "Näe myös perheesi lääkkeiden ottamisen tilanne yhdellä silmäyksellä"
 }

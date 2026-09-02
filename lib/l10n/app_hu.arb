@@ -268,5 +268,6 @@
   "onboardingBeforeItemUnsure": "Nem emlékszem, hogy bevettem-e",
   "onboardingBeforeItemFamily": "Nem tudom nyomon követni az egész család gyógyszereit",
   "onboardingAfterItemReminder": "Értesítést kapsz, amikor eljön a gyógyszer bevételének ideje.",
-  "onboardingAfterItemRecord": "A feljegyzések megmaradnak, és azonnal ellenőrizhetők"
+  "onboardingAfterItemRecord": "A feljegyzések megmaradnak, és azonnal ellenőrizhetők",
+  "onboardingAfterItemFamily": "Egy pillantással láthatja családja gyógyszerszedési állapotát"
 }

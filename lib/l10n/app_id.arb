@@ -268,5 +268,6 @@
   "onboardingBeforeItemUnsure": "Saya tidak ingat apakah sudah meminumnya",
   "onboardingBeforeItemFamily": "Tidak bisa memantau obat seluruh keluarga",
   "onboardingAfterItemReminder": "Anda akan menerima notifikasi saat waktunya minum obat.",
-  "onboardingAfterItemRecord": "Catatan tersimpan dan dapat segera diperiksa"
+  "onboardingAfterItemRecord": "Catatan tersimpan dan dapat segera diperiksa",
+  "onboardingAfterItemFamily": "Lihat juga status minum obat keluarga Anda sekilas"
 }

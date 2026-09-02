@@ -268,5 +268,6 @@
   "onboardingBeforeItemUnsure": "Ich weiss nümme, öb ich es gno ha",
   "onboardingBeforeItemFamily": "Cha d Medikation vo de ganze Familie nöd im Blick bhalte",
   "onboardingAfterItemReminder": "Du überchunsch e Benachrichtigung, wenn’s Zyt isch, dini Medikament z näh.",
-  "onboardingAfterItemRecord": "D’Ufzeichnige bliibe gspeicheret und chöi sofort überprüeft werde"
+  "onboardingAfterItemRecord": "D’Ufzeichnige bliibe gspeicheret und chöi sofort überprüeft werde",
+  "onboardingAfterItemFamily": "D’Medikamentenstatus vo Ihrer Familie uf e Blick gseh"
 }

@@ -268,5 +268,6 @@
   "onboardingBeforeItemUnsure": "औषध घेतले की नाही ते आठवत नाही",
   "onboardingBeforeItemFamily": "संपूर्ण कुटुंबाच्या औषधांचा मागोवा ठेवता येत नाही",
   "onboardingAfterItemReminder": "औषध घेण्याची वेळ झाल्यावर तुम्हाला सूचना मिळेल.",
-  "onboardingAfterItemRecord": "नोंदी जतन राहतात आणि लगेच तपासता येतात"
+  "onboardingAfterItemRecord": "नोंदी जतन राहतात आणि लगेच तपासता येतात",
+  "onboardingAfterItemFamily": "कुटुंबातील सदस्यांच्या औषध घेण्याची स्थितीही एका नजरेत पाहा"
 }

@@ -268,5 +268,6 @@
   "onboardingBeforeItemUnsure": "Уусан эсэхээ санахгүй байна",
   "onboardingBeforeItemFamily": "Бүх гэр бүлийн эмийн хэрэглээг хянаж чаддаггүй",
   "onboardingAfterItemReminder": "Эм уух цаг болоход танд мэдэгдэл ирнэ.",
-  "onboardingAfterItemRecord": "Бүртгэл хадгалагдаж, шууд шалгах боломжтой"
+  "onboardingAfterItemRecord": "Бүртгэл хадгалагдаж, шууд шалгах боломжтой",
+  "onboardingAfterItemFamily": "Гэр бүлийнхнийхээ эм уусан байдлыг ч нэг дороос хараарай"
 }

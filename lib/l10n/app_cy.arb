@@ -268,5 +268,6 @@
   "onboardingBeforeItemUnsure": "Methu ddim cofio a wnes i ei gymryd",
   "onboardingBeforeItemFamily": "Methu gadw golwg ar feddyginiaeth y teulu cyfan",
   "onboardingAfterItemReminder": "Byddwch yn cael hysbysiad pan fydd hi'n amser cymryd eich meddyginiaeth.",
-  "onboardingAfterItemRecord": "Mae cofnodion yn cael eu cadw a gellir eu gwirio ar unwaith"
+  "onboardingAfterItemRecord": "Mae cofnodion yn cael eu cadw a gellir eu gwirio ar unwaith",
+  "onboardingAfterItemFamily": "Gweld statws cymryd meddyginiaeth eich teulu ar unwaith"
 }
