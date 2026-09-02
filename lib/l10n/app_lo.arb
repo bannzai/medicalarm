@@ -170,5 +170,6 @@
   "openAppStore": "ເປີດ App Store",
   "confirmOpenAppStore": "ທ່ານຕ້ອງການເປີດ App Store ເພື່ອຂຽນຣີວິວບໍ?",
   "premiumFeaturesList": "ລາຍການຟັງຊັນພິເສດ",
-  "currentlyInPremiumTrial": "ປັດຈຸບັນ ທ່ານຢູ່ໃນໄລຍະທົດລອງ Premium."
+  "currentlyInPremiumTrial": "ປັດຈຸບັນ ທ່ານຢູ່ໃນໄລຍະທົດລອງ Premium.",
+  "medicationPause": "ເປີດໃຊ້ຢາ"
 }

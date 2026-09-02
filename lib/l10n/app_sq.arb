@@ -170,5 +170,6 @@
   "openAppStore": "Hap App Store",
   "confirmOpenAppStore": "Dëshiron të hapësh App Store për të shkruar një vlerësim?",
   "premiumFeaturesList": "Lista e veçorive premium",
-  "currentlyInPremiumTrial": "Aktualisht jeni në periudhën e provës Premium."
+  "currentlyInPremiumTrial": "Aktualisht jeni në periudhën e provës Premium.",
+  "medicationPause": "Aktivizo medikamentin"
 }

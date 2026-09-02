@@ -170,5 +170,6 @@
   "openAppStore": "App Store megnyitása",
   "confirmOpenAppStore": "Megnyitod az App Store-t, hogy értékelést írj?",
   "premiumFeaturesList": "Prémiumfunkciók listája",
-  "currentlyInPremiumTrial": "Jelenleg a Premium próbaidőszakát használja."
+  "currentlyInPremiumTrial": "Jelenleg a Premium próbaidőszakát használja.",
+  "medicationPause": "Gyógyszer aktiválása"
 }

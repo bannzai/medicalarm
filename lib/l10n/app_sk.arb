@@ -170,5 +170,6 @@
   "openAppStore": "Otvoriť App Store",
   "confirmOpenAppStore": "Chcete otvoriť App Store a napísať recenziu?",
   "premiumFeaturesList": "Zoznam prémiových funkcií",
-  "currentlyInPremiumTrial": "Momentálne využívate skúšobnú verziu Premium."
+  "currentlyInPremiumTrial": "Momentálne využívate skúšobnú verziu Premium.",
+  "medicationPause": "Povoliť liek"
 }

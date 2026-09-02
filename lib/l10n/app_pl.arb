@@ -170,5 +170,6 @@
   "openAppStore": "Otwórz App Store",
   "confirmOpenAppStore": "Czy chcesz otworzyć App Store, aby napisać recenzję?",
   "premiumFeaturesList": "Lista funkcji premium",
-  "currentlyInPremiumTrial": "Obecnie korzystasz z wersji próbnej Premium."
+  "currentlyInPremiumTrial": "Obecnie korzystasz z wersji próbnej Premium.",
+  "medicationPause": "Włącz lek"
 }

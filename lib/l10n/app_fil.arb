@@ -170,5 +170,6 @@
   "openAppStore": "Buksan ang App Store",
   "confirmOpenAppStore": "Gusto mo bang buksan ang App Store para magsulat ng review?",
   "premiumFeaturesList": "Listahan ng mga premium na feature",
-  "currentlyInPremiumTrial": "Kasalukuyan kang nasa Premium trial."
+  "currentlyInPremiumTrial": "Kasalukuyan kang nasa Premium trial.",
+  "medicationPause": "Paganahin ang gamot"
 }

@@ -170,5 +170,6 @@
   "openAppStore": "App Store খুলুন",
   "confirmOpenAppStore": "রিভিউ লিখতে App Store খুলবেন?",
   "premiumFeaturesList": "প্রিমিয়াম ফিচারের তালিকা",
-  "currentlyInPremiumTrial": "আপনি বর্তমানে Premium ট্রায়াল ব্যবহার করছেন।"
+  "currentlyInPremiumTrial": "আপনি বর্তমানে Premium ট্রায়াল ব্যবহার করছেন।",
+  "medicationPause": "ওষুধ চালু করুন"
 }

@@ -170,5 +170,6 @@
   "openAppStore": "App Store’ni ochish",
   "confirmOpenAppStore": "Sharh yozish uchun App Store ochilsinmi?",
   "premiumFeaturesList": "Premium funksiyalar ro‘yxati",
-  "currentlyInPremiumTrial": "Hozirda Premium sinov muddatidasiz."
+  "currentlyInPremiumTrial": "Hozirda Premium sinov muddatidasiz.",
+  "medicationPause": "Dorini faollashtirish"
 }

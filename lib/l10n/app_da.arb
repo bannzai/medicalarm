@@ -170,5 +170,6 @@
   "openAppStore": "Åbn App Store",
   "confirmOpenAppStore": "Vil du åbne App Store for at skrive en anmeldelse?",
   "premiumFeaturesList": "Liste over premiumfunktioner",
-  "currentlyInPremiumTrial": "Du er i øjeblikket på Premium-prøveperioden."
+  "currentlyInPremiumTrial": "Du er i øjeblikket på Premium-prøveperioden.",
+  "medicationPause": "Aktivér medicin"
 }

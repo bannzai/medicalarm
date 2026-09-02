@@ -170,5 +170,6 @@
   "openAppStore": "Opna App Store",
   "confirmOpenAppStore": "Viltu opna App Store til að skrifa umsögn?",
   "premiumFeaturesList": "Listi yfir úrvalsaðgerðir",
-  "currentlyInPremiumTrial": "Þú ert núna í Premium-prufutímabili."
+  "currentlyInPremiumTrial": "Þú ert núna í Premium-prufutímabili.",
+  "medicationPause": "Virkja lyf"
 }

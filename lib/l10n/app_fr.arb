@@ -170,5 +170,6 @@
   "openAppStore": "Ouvrir l’App Store",
   "confirmOpenAppStore": "Voulez-vous ouvrir l’App Store pour rédiger un avis ?",
   "premiumFeaturesList": "Liste des fonctionnalités premium",
-  "currentlyInPremiumTrial": "Vous êtes actuellement en période d’essai Premium."
+  "currentlyInPremiumTrial": "Vous êtes actuellement en période d’essai Premium.",
+  "medicationPause": "Activer le médicament"
 }

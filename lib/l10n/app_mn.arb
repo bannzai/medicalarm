@@ -170,5 +170,6 @@
   "openAppStore": "App Store-ийг нээх",
   "confirmOpenAppStore": "Сэтгэгдэл бичихийн тулд App Store-ыг нээх үү?",
   "premiumFeaturesList": "Премиум функцүүдийн жагсаалт",
-  "currentlyInPremiumTrial": "Та одоогоор Premium туршилтын хувилбарыг ашиглаж байна."
+  "currentlyInPremiumTrial": "Та одоогоор Premium туршилтын хувилбарыг ашиглаж байна.",
+  "medicationPause": "Эмийг идэвхжүүлэх"
 }

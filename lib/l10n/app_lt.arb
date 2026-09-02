@@ -170,5 +170,6 @@
   "openAppStore": "Atidaryti App Store",
   "confirmOpenAppStore": "Ar norite atidaryti „App Store“ ir parašyti atsiliepimą?",
   "premiumFeaturesList": "Premium funkcijų sąrašas",
-  "currentlyInPremiumTrial": "Šiuo metu naudojate „Premium“ bandomąjį laikotarpį."
+  "currentlyInPremiumTrial": "Šiuo metu naudojate „Premium“ bandomąjį laikotarpį.",
+  "medicationPause": "Įjungti vaistą"
 }

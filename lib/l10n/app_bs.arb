@@ -170,5 +170,6 @@
   "openAppStore": "Otvori App Store",
   "confirmOpenAppStore": "Želite li otvoriti App Store da biste napisali recenziju?",
   "premiumFeaturesList": "Lista premium funkcija",
-  "currentlyInPremiumTrial": "Trenutno koristite Premium probni period."
+  "currentlyInPremiumTrial": "Trenutno koristite Premium probni period.",
+  "medicationPause": "Omogući lijek"
 }
