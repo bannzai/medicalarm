@@ -256,5 +256,6 @@
   "onboardingDailyDoseCountSubtitle": "Kasutatakse märguannete arvu määramiseks.",
   "onboardingDailyDoseOnce": "Üks kord",
   "onboardingDailyDoseTwice": "2 korda",
-  "onboardingDailyDoseThreeOrMore": "3 korda või rohkem"
+  "onboardingDailyDoseThreeOrMore": "3 korda või rohkem",
+  "onboardingMedicineCountTitle": "Mitut ravimit te haldate?"
 }

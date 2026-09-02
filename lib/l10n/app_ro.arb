@@ -256,5 +256,6 @@
   "onboardingDailyDoseCountSubtitle": "Este folosit pentru a determina numărul de notificări.",
   "onboardingDailyDoseOnce": "O dată",
   "onboardingDailyDoseTwice": "de 2 ori",
-  "onboardingDailyDoseThreeOrMore": "De 3 ori sau mai mult"
+  "onboardingDailyDoseThreeOrMore": "De 3 ori sau mai mult",
+  "onboardingMedicineCountTitle": "Câte medicamente gestionați?"
 }

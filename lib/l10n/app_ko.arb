@@ -256,5 +256,6 @@
   "onboardingDailyDoseCountSubtitle": "알림 횟수를 정하는 데 사용됩니다.",
   "onboardingDailyDoseOnce": "1회",
   "onboardingDailyDoseTwice": "2회",
-  "onboardingDailyDoseThreeOrMore": "3회 이상"
+  "onboardingDailyDoseThreeOrMore": "3회 이상",
+  "onboardingMedicineCountTitle": "관리하는 약이 몇 개 있나요?"
 }

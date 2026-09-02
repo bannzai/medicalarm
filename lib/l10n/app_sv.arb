@@ -256,5 +256,6 @@
   "onboardingDailyDoseCountSubtitle": "Används för att bestämma antalet aviseringar.",
   "onboardingDailyDoseOnce": "En gång",
   "onboardingDailyDoseTwice": "2 gånger",
-  "onboardingDailyDoseThreeOrMore": "3 gånger eller fler"
+  "onboardingDailyDoseThreeOrMore": "3 gånger eller fler",
+  "onboardingMedicineCountTitle": "Hur många läkemedel hanterar du?"
 }

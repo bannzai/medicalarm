@@ -256,5 +256,6 @@
   "onboardingDailyDoseCountSubtitle": "അറിയിപ്പുകളുടെ എണ്ണം നിർണ്ണയിക്കാൻ ഉപയോഗിക്കുന്നു.",
   "onboardingDailyDoseOnce": "ഒരിക്കൽ",
   "onboardingDailyDoseTwice": "2 തവണ",
-  "onboardingDailyDoseThreeOrMore": "3 തവണയോ അതിലധികമോ"
+  "onboardingDailyDoseThreeOrMore": "3 തവണയോ അതിലധികമോ",
+  "onboardingMedicineCountTitle": "നിങ്ങൾ എത്ര മരുന്നുകളാണ് നിയന്ത്രിക്കുന്നത്?"
 }

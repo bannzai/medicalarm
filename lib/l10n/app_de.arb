@@ -256,5 +256,6 @@
   "onboardingDailyDoseCountSubtitle": "Wird verwendet, um die Anzahl der Benachrichtigungen festzulegen.",
   "onboardingDailyDoseOnce": "Einmal",
   "onboardingDailyDoseTwice": "2-mal",
-  "onboardingDailyDoseThreeOrMore": "3-mal oder öfter"
+  "onboardingDailyDoseThreeOrMore": "3-mal oder öfter",
+  "onboardingMedicineCountTitle": "Wie viele Medikamente verwalten Sie?"
 }

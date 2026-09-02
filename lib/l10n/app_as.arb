@@ -256,5 +256,6 @@
   "onboardingDailyDoseCountSubtitle": "জাননীৰ সংখ্যা নিৰ্ধাৰণ কৰিবলৈ ব্যৱহাৰ কৰা হয়।",
   "onboardingDailyDoseOnce": "এবাৰ",
   "onboardingDailyDoseTwice": "২ বাৰ",
-  "onboardingDailyDoseThreeOrMore": "৩ বাৰ বা তাতকৈ অধিক"
+  "onboardingDailyDoseThreeOrMore": "৩ বাৰ বা তাতকৈ অধিক",
+  "onboardingMedicineCountTitle": "আপুনি কিমানটা ঔষধ পৰিচালনা কৰে?"
 }

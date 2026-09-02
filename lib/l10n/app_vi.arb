@@ -256,5 +256,6 @@
   "onboardingDailyDoseCountSubtitle": "Dùng để xác định số lần thông báo.",
   "onboardingDailyDoseOnce": "Một lần",
   "onboardingDailyDoseTwice": "2 lần",
-  "onboardingDailyDoseThreeOrMore": "3 lần trở lên"
+  "onboardingDailyDoseThreeOrMore": "3 lần trở lên",
+  "onboardingMedicineCountTitle": "Bạn đang quản lý bao nhiêu loại thuốc?"
 }

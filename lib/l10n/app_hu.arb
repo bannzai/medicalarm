@@ -256,5 +256,6 @@
   "onboardingDailyDoseCountSubtitle": "Az értesítések számának meghatározására szolgál.",
   "onboardingDailyDoseOnce": "Egyszer",
   "onboardingDailyDoseTwice": "2 alkalommal",
-  "onboardingDailyDoseThreeOrMore": "3-szor vagy többször"
+  "onboardingDailyDoseThreeOrMore": "3-szor vagy többször",
+  "onboardingMedicineCountTitle": "Hány gyógyszert kezel?"
 }

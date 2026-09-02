@@ -256,5 +256,6 @@
   "onboardingDailyDoseCountSubtitle": "Օգտագործվում է ծանուցումների քանակը որոշելու համար։",
   "onboardingDailyDoseOnce": "Մեկ անգամ",
   "onboardingDailyDoseTwice": "2 անգամ",
-  "onboardingDailyDoseThreeOrMore": "3 անգամ կամ ավելի"
+  "onboardingDailyDoseThreeOrMore": "3 անգամ կամ ավելի",
+  "onboardingMedicineCountTitle": "Քանի՞ դեղամիջոց եք կառավարում։"
 }

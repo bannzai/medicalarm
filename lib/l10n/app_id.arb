@@ -256,5 +256,6 @@
   "onboardingDailyDoseCountSubtitle": "Digunakan untuk menentukan jumlah notifikasi.",
   "onboardingDailyDoseOnce": "Satu kali",
   "onboardingDailyDoseTwice": "2 kali",
-  "onboardingDailyDoseThreeOrMore": "3 kali atau lebih"
+  "onboardingDailyDoseThreeOrMore": "3 kali atau lebih",
+  "onboardingMedicineCountTitle": "Berapa banyak obat yang Anda kelola?"
 }

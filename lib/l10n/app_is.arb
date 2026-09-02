@@ -256,5 +256,6 @@
   "onboardingDailyDoseCountSubtitle": "Notað til að ákvarða fjölda tilkynninga.",
   "onboardingDailyDoseOnce": "Einu sinni",
   "onboardingDailyDoseTwice": "2 sinnum",
-  "onboardingDailyDoseThreeOrMore": "3 sinnum eða oftar"
+  "onboardingDailyDoseThreeOrMore": "3 sinnum eða oftar",
+  "onboardingMedicineCountTitle": "Hversu mörg lyf hefur þú umsjón með?"
 }

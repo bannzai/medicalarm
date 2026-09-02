@@ -256,5 +256,6 @@
   "onboardingDailyDoseCountSubtitle": "Χρησιμοποιείται για τον καθορισμό του αριθμού των ειδοποιήσεων.",
   "onboardingDailyDoseOnce": "Μία φορά",
   "onboardingDailyDoseTwice": "2 φορές",
-  "onboardingDailyDoseThreeOrMore": "3 φορές ή περισσότερες"
+  "onboardingDailyDoseThreeOrMore": "3 φορές ή περισσότερες",
+  "onboardingMedicineCountTitle": "Πόσα φάρμακα διαχειρίζεστε;"
 }

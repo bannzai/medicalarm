@@ -256,5 +256,6 @@
   "onboardingDailyDoseCountSubtitle": "ใช้เพื่อกำหนดจำนวนการแจ้งเตือน",
   "onboardingDailyDoseOnce": "1 ครั้ง",
   "onboardingDailyDoseTwice": "2 ครั้ง",
-  "onboardingDailyDoseThreeOrMore": "3 ครั้งขึ้นไป"
+  "onboardingDailyDoseThreeOrMore": "3 ครั้งขึ้นไป",
+  "onboardingMedicineCountTitle": "คุณจัดการยากี่รายการ?"
 }

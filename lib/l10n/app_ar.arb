@@ -256,5 +256,6 @@
   "onboardingDailyDoseCountSubtitle": "يُستخدم لتحديد عدد الإشعارات.",
   "onboardingDailyDoseOnce": "مرة واحدة",
   "onboardingDailyDoseTwice": "مرتين",
-  "onboardingDailyDoseThreeOrMore": "3 مرات أو أكثر"
+  "onboardingDailyDoseThreeOrMore": "3 مرات أو أكثر",
+  "onboardingMedicineCountTitle": "كم دواءً تدير؟"
 }

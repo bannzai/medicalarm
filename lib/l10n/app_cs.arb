@@ -256,5 +256,6 @@
   "onboardingDailyDoseCountSubtitle": "Slouží k určení počtu oznámení.",
   "onboardingDailyDoseOnce": "Jednou",
   "onboardingDailyDoseTwice": "2krát",
-  "onboardingDailyDoseThreeOrMore": "3krát nebo více"
+  "onboardingDailyDoseThreeOrMore": "3krát nebo více",
+  "onboardingMedicineCountTitle": "O kolik léků se staráte?"
 }

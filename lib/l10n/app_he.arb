@@ -256,5 +256,6 @@
   "onboardingDailyDoseCountSubtitle": "משמש לקביעת מספר ההתראות.",
   "onboardingDailyDoseOnce": "פעם אחת",
   "onboardingDailyDoseTwice": "פעמיים",
-  "onboardingDailyDoseThreeOrMore": "3 פעמים או יותר"
+  "onboardingDailyDoseThreeOrMore": "3 פעמים או יותר",
+  "onboardingMedicineCountTitle": "כמה תרופות אתם מנהלים?"
 }

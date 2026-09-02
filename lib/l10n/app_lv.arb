@@ -256,5 +256,6 @@
   "onboardingDailyDoseCountSubtitle": "Izmanto paziņojumu skaita noteikšanai.",
   "onboardingDailyDoseOnce": "Vienreiz",
   "onboardingDailyDoseTwice": "2 reizes",
-  "onboardingDailyDoseThreeOrMore": "3 reizes vai vairāk"
+  "onboardingDailyDoseThreeOrMore": "3 reizes vai vairāk",
+  "onboardingMedicineCountTitle": "Cik medikamentu jūs pārvaldāt?"
 }

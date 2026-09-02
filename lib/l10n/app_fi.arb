@@ -256,5 +256,6 @@
   "onboardingDailyDoseCountSubtitle": "Käytetään ilmoitusten määrän määrittämiseen.",
   "onboardingDailyDoseOnce": "Kerran",
   "onboardingDailyDoseTwice": "2 kertaa",
-  "onboardingDailyDoseThreeOrMore": "3 kertaa tai useammin"
+  "onboardingDailyDoseThreeOrMore": "3 kertaa tai useammin",
+  "onboardingMedicineCountTitle": "Kuinka monta lääkettä hallinnoit?"
 }

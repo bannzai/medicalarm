@@ -256,5 +256,6 @@
   "onboardingDailyDoseCountSubtitle": "Wordt gebruikt om het aantal meldingen te bepalen.",
   "onboardingDailyDoseOnce": "Een keer",
   "onboardingDailyDoseTwice": "2 keer",
-  "onboardingDailyDoseThreeOrMore": "3 keer of meer"
+  "onboardingDailyDoseThreeOrMore": "3 keer of meer",
+  "onboardingMedicineCountTitle": "Hoeveel medicijnen beheert u?"
 }

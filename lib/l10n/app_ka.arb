@@ -256,5 +256,6 @@
   "onboardingDailyDoseCountSubtitle": "გამოიყენება შეტყობინებების რაოდენობის დასადგენად.",
   "onboardingDailyDoseOnce": "ერთხელ",
   "onboardingDailyDoseTwice": "2-ჯერ",
-  "onboardingDailyDoseThreeOrMore": "3-ჯერ ან მეტჯერ"
+  "onboardingDailyDoseThreeOrMore": "3-ჯერ ან მეტჯერ",
+  "onboardingMedicineCountTitle": "რამდენ მედიკამენტს მართავთ?"
 }

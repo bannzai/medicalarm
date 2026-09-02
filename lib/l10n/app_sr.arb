@@ -256,5 +256,6 @@
   "onboardingDailyDoseCountSubtitle": "Користи се за одређивање броја обавештења.",
   "onboardingDailyDoseOnce": "Једном",
   "onboardingDailyDoseTwice": "2 пута",
-  "onboardingDailyDoseThreeOrMore": "3 или више пута"
+  "onboardingDailyDoseThreeOrMore": "3 или више пута",
+  "onboardingMedicineCountTitle": "Колико лекова пратите?"
 }

@@ -256,5 +256,6 @@
   "onboardingDailyDoseCountSubtitle": "Bruges til at bestemme antallet af notifikationer.",
   "onboardingDailyDoseOnce": "Én gang",
   "onboardingDailyDoseTwice": "2 gange",
-  "onboardingDailyDoseThreeOrMore": "3 gange eller mere"
+  "onboardingDailyDoseThreeOrMore": "3 gange eller mere",
+  "onboardingMedicineCountTitle": "Hvor mange lægemidler holder du styr på?"
 }

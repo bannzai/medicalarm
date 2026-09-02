@@ -256,5 +256,6 @@
   "onboardingDailyDoseCountSubtitle": "Используется для определения количества уведомлений.",
   "onboardingDailyDoseOnce": "Один раз",
   "onboardingDailyDoseTwice": "2 раза",
-  "onboardingDailyDoseThreeOrMore": "3 раза или больше"
+  "onboardingDailyDoseThreeOrMore": "3 раза или больше",
+  "onboardingMedicineCountTitle": "За сколькими лекарствами вы следите?"
 }

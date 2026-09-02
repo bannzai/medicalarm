@@ -256,5 +256,6 @@
   "onboardingDailyDoseCountSubtitle": "Bildirim sayısını belirlemek için kullanılır.",
   "onboardingDailyDoseOnce": "Bir kez",
   "onboardingDailyDoseTwice": "2 kez",
-  "onboardingDailyDoseThreeOrMore": "3 kez veya daha fazla"
+  "onboardingDailyDoseThreeOrMore": "3 kez veya daha fazla",
+  "onboardingMedicineCountTitle": "Kaç ilaç yönetiyorsunuz?"
 }

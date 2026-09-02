@@ -256,5 +256,6 @@
   "onboardingDailyDoseCountSubtitle": "برای تعیین تعداد اعلان‌ها استفاده می‌شود.",
   "onboardingDailyDoseOnce": "یک بار",
   "onboardingDailyDoseTwice": "۲ بار",
-  "onboardingDailyDoseThreeOrMore": "۳ بار یا بیشتر"
+  "onboardingDailyDoseThreeOrMore": "۳ بار یا بیشتر",
+  "onboardingMedicineCountTitle": "چند دارو را مدیریت می‌کنید؟"
 }

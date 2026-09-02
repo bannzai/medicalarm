@@ -256,5 +256,6 @@
   "onboardingDailyDoseCountSubtitle": "Ginagamit ito upang tukuyin ang bilang ng mga notification.",
   "onboardingDailyDoseOnce": "Isang beses",
   "onboardingDailyDoseTwice": "2 beses",
-  "onboardingDailyDoseThreeOrMore": "3 beses o higit pa"
+  "onboardingDailyDoseThreeOrMore": "3 beses o higit pa",
+  "onboardingMedicineCountTitle": "Ilang gamot ang pinamamahalaan mo?"
 }

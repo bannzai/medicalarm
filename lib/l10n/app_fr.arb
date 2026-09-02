@@ -256,5 +256,6 @@
   "onboardingDailyDoseCountSubtitle": "Sert à déterminer le nombre de notifications.",
   "onboardingDailyDoseOnce": "Une fois",
   "onboardingDailyDoseTwice": "2 fois",
-  "onboardingDailyDoseThreeOrMore": "3 fois ou plus"
+  "onboardingDailyDoseThreeOrMore": "3 fois ou plus",
+  "onboardingMedicineCountTitle": "Combien de médicaments gérez-vous ?"
 }

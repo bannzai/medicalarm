@@ -256,5 +256,6 @@
   "onboardingDailyDoseCountSubtitle": "Хабарландырулар санын анықтау үшін пайдаланылады.",
   "onboardingDailyDoseOnce": "Бір рет",
   "onboardingDailyDoseTwice": "2 рет",
-  "onboardingDailyDoseThreeOrMore": "3 рет немесе одан көп"
+  "onboardingDailyDoseThreeOrMore": "3 рет немесе одан көп",
+  "onboardingMedicineCountTitle": "Қанша дәрі-дәрмекті басқарасыз?"
 }

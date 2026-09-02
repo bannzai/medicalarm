@@ -256,5 +256,6 @@
   "onboardingDailyDoseCountSubtitle": "அறிவிப்புகளின் எண்ணிக்கையைத் தீர்மானிக்கப் பயன்படுகிறது.",
   "onboardingDailyDoseOnce": "ஒருமுறை",
   "onboardingDailyDoseTwice": "2 முறை",
-  "onboardingDailyDoseThreeOrMore": "3 முறை அல்லது அதற்கு மேல்"
+  "onboardingDailyDoseThreeOrMore": "3 முறை அல்லது அதற்கு மேல்",
+  "onboardingMedicineCountTitle": "எத்தனை மருந்துகளை நிர்வகிக்கிறீர்கள்?"
 }

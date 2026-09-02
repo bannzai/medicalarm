@@ -256,5 +256,6 @@
   "onboardingDailyDoseCountSubtitle": "Використовується для визначення кількості сповіщень.",
   "onboardingDailyDoseOnce": "Один раз",
   "onboardingDailyDoseTwice": "2 рази",
-  "onboardingDailyDoseThreeOrMore": "3 рази або більше"
+  "onboardingDailyDoseThreeOrMore": "3 рази або більше",
+  "onboardingMedicineCountTitle": "Скількома ліками ви керуєте?"
 }

@@ -256,5 +256,6 @@
   "onboardingDailyDoseCountSubtitle": "Jakinarazpen kopurua zehazteko erabiltzen da.",
   "onboardingDailyDoseOnce": "Behin",
   "onboardingDailyDoseTwice": "2 aldiz",
-  "onboardingDailyDoseThreeOrMore": "3 aldiz edo gehiago"
+  "onboardingDailyDoseThreeOrMore": "3 aldiz edo gehiago",
+  "onboardingMedicineCountTitle": "Zenbat botika kudeatzen dituzu?"
 }

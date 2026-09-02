@@ -256,5 +256,6 @@
   "onboardingDailyDoseCountSubtitle": "सूचनाओं की संख्या तय करने के लिए उपयोग किया जाता है।",
   "onboardingDailyDoseOnce": "एक बार",
   "onboardingDailyDoseTwice": "2 बार",
-  "onboardingDailyDoseThreeOrMore": "3 बार या उससे अधिक"
+  "onboardingDailyDoseThreeOrMore": "3 बार या उससे अधिक",
+  "onboardingMedicineCountTitle": "आप कितनी दवाइयों का प्रबंधन करते हैं?"
 }

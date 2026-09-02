@@ -256,5 +256,6 @@
   "onboardingDailyDoseCountSubtitle": "Naudojama pranešimų skaičiui nustatyti.",
   "onboardingDailyDoseOnce": "Vieną kartą",
   "onboardingDailyDoseTwice": "2 kartus",
-  "onboardingDailyDoseThreeOrMore": "3 kartus ar daugiau"
+  "onboardingDailyDoseThreeOrMore": "3 kartus ar daugiau",
+  "onboardingMedicineCountTitle": "Kiek vaistų tvarkote?"
 }

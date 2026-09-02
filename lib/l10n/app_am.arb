@@ -256,5 +256,6 @@
   "onboardingDailyDoseCountSubtitle": "የማሳወቂያዎችን ብዛት ለመወሰን ይጠቀማል።",
   "onboardingDailyDoseOnce": "አንድ ጊዜ",
   "onboardingDailyDoseTwice": "2 ጊዜ",
-  "onboardingDailyDoseThreeOrMore": "3 ጊዜ ወይም ከዚያ በላይ"
+  "onboardingDailyDoseThreeOrMore": "3 ጊዜ ወይም ከዚያ በላይ",
+  "onboardingMedicineCountTitle": "የሚያስተዳድሯቸው መድኃኒቶች ስንት ናቸው?"
 }

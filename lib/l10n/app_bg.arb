@@ -256,5 +256,6 @@
   "onboardingDailyDoseCountSubtitle": "Използва се за определяне на броя известия.",
   "onboardingDailyDoseOnce": "Веднъж",
   "onboardingDailyDoseTwice": "2 пъти",
-  "onboardingDailyDoseThreeOrMore": "3 или повече пъти"
+  "onboardingDailyDoseThreeOrMore": "3 или повече пъти",
+  "onboardingMedicineCountTitle": "За колко лекарства се грижите?"
 }
