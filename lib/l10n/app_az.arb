@@ -189,5 +189,6 @@
   "groupNameInputHint": "Qrup adını daxil edin",
   "groupIcon": "İkon",
   "groupMemberCount": "{count} üzv",
-  "defaultGroupBadge": "Defolt"
+  "defaultGroupBadge": "Defolt",
+  "soloGroupName": "Qruplarım"
 }

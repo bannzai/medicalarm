@@ -189,5 +189,6 @@
   "groupNameInputHint": "Guruh nomini kiriting",
   "groupIcon": "Belgi",
   "groupMemberCount": "{count} a'zo",
-  "defaultGroupBadge": "Standart"
+  "defaultGroupBadge": "Standart",
+  "soloGroupName": "Guruhlarim"
 }

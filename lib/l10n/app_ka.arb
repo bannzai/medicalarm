@@ -189,5 +189,6 @@
   "groupNameInputHint": "შეიყვანეთ ჯგუფის სახელი",
   "groupIcon": "ხატულა",
   "groupMemberCount": "{count} წევრი",
-  "defaultGroupBadge": "ნაგულისხმევი"
+  "defaultGroupBadge": "ნაგულისხმევი",
+  "soloGroupName": "ჩემი ჯგუფები"
 }

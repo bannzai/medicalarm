@@ -189,5 +189,6 @@
   "groupNameInputHint": "Masukkan nama kumpulan",
   "groupIcon": "Ikon",
   "groupMemberCount": "{count} ahli",
-  "defaultGroupBadge": "Lalai"
+  "defaultGroupBadge": "Lalai",
+  "soloGroupName": "Kumpulan saya"
 }

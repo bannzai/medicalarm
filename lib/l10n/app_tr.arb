@@ -189,5 +189,6 @@
   "groupNameInputHint": "Grup adını girin",
   "groupIcon": "Simge",
   "groupMemberCount": "{count} üye",
-  "defaultGroupBadge": "Varsayılan"
+  "defaultGroupBadge": "Varsayılan",
+  "soloGroupName": "Gruplarım"
 }

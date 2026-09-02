@@ -189,5 +189,6 @@
   "groupNameInputHint": "အဖွဲ့အမည်ကို ထည့်ပါ",
   "groupIcon": "အိုင်ကွန်",
   "groupMemberCount": "အဖွဲ့ဝင် {count} ဦး",
-  "defaultGroupBadge": "မူရင်း"
+  "defaultGroupBadge": "မူရင်း",
+  "soloGroupName": "ကျွန်ုပ်၏အဖွဲ့များ"
 }

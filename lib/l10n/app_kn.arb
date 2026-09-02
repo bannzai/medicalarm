@@ -189,5 +189,6 @@
   "groupNameInputHint": "ಗುಂಪಿನ ಹೆಸರನ್ನು ನಮೂದಿಸಿ",
   "groupIcon": "ಐಕಾನ್",
   "groupMemberCount": "{count} ಸದಸ್ಯರು",
-  "defaultGroupBadge": "ಡೀಫಾಲ್ಟ್"
+  "defaultGroupBadge": "ಡೀಫಾಲ್ಟ್",
+  "soloGroupName": "ನನ್ನ ಗುಂಪುಗಳು"
 }

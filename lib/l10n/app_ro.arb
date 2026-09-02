@@ -189,5 +189,6 @@
   "groupNameInputHint": "Introduceți numele grupului",
   "groupIcon": "Pictogramă",
   "groupMemberCount": "{count} membri",
-  "defaultGroupBadge": "Implicit"
+  "defaultGroupBadge": "Implicit",
+  "soloGroupName": "Grupurile mele"
 }

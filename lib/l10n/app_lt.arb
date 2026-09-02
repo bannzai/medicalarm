@@ -189,5 +189,6 @@
   "groupNameInputHint": "Įveskite grupės pavadinimą",
   "groupIcon": "Piktograma",
   "groupMemberCount": "{count} nariai",
-  "defaultGroupBadge": "Numatytoji"
+  "defaultGroupBadge": "Numatytoji",
+  "soloGroupName": "Mano grupės"
 }

@@ -189,5 +189,6 @@
   "groupNameInputHint": "Մուտքագրեք խմբի անունը",
   "groupIcon": "Պատկերակ",
   "groupMemberCount": "{count} անդամ",
-  "defaultGroupBadge": "Լռելյայն"
+  "defaultGroupBadge": "Լռելյայն",
+  "soloGroupName": "Իմ խմբերը"
 }

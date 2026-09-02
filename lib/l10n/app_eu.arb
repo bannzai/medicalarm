@@ -189,5 +189,6 @@
   "groupNameInputHint": "Sartu taldearen izena",
   "groupIcon": "Ikonoa",
   "groupMemberCount": "{count} kide",
-  "defaultGroupBadge": "Lehenetsia"
+  "defaultGroupBadge": "Lehenetsia",
+  "soloGroupName": "Nire taldeak"
 }

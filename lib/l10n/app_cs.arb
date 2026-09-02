@@ -189,5 +189,6 @@
   "groupNameInputHint": "Zadejte název skupiny",
   "groupIcon": "Ikona",
   "groupMemberCount": "{count} členů",
-  "defaultGroupBadge": "Výchozí"
+  "defaultGroupBadge": "Výchozí",
+  "soloGroupName": "Moje skupiny"
 }

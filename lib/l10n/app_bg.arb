@@ -189,5 +189,6 @@
   "groupNameInputHint": "Въведете име на групата",
   "groupIcon": "Икона",
   "groupMemberCount": "{count} членове",
-  "defaultGroupBadge": "По подразбиране"
+  "defaultGroupBadge": "По подразбиране",
+  "soloGroupName": "Моите групи"
 }

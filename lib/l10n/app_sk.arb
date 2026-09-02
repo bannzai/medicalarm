@@ -189,5 +189,6 @@
   "groupNameInputHint": "Zadajte názov skupiny",
   "groupIcon": "Ikona",
   "groupMemberCount": "{count} členov",
-  "defaultGroupBadge": "Predvolené"
+  "defaultGroupBadge": "Predvolené",
+  "soloGroupName": "Moje skupiny"
 }

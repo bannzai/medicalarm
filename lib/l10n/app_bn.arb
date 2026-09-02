@@ -189,5 +189,6 @@
   "groupNameInputHint": "গ্রুপের নাম লিখুন",
   "groupIcon": "আইকন",
   "groupMemberCount": "{count} জন সদস্য",
-  "defaultGroupBadge": "ডিফল্ট"
+  "defaultGroupBadge": "ডিফল্ট",
+  "soloGroupName": "আমার গ্রুপ"
 }

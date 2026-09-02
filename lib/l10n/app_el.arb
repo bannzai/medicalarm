@@ -189,5 +189,6 @@
   "groupNameInputHint": "Εισαγάγετε το όνομα της ομάδας",
   "groupIcon": "Εικονίδιο",
   "groupMemberCount": "{count} μέλη",
-  "defaultGroupBadge": "Προεπιλεγμένο"
+  "defaultGroupBadge": "Προεπιλεγμένο",
+  "soloGroupName": "Οι ομάδες μου"
 }

@@ -189,5 +189,6 @@
   "groupNameInputHint": "ഗ്രൂപ്പിന്റെ പേര് നൽകുക",
   "groupIcon": "ഐക്കൺ",
   "groupMemberCount": "{count} അംഗങ്ങൾ",
-  "defaultGroupBadge": "ഡിഫോൾട്ട്"
+  "defaultGroupBadge": "ഡിഫോൾട്ട്",
+  "soloGroupName": "എന്റെ ഗ്രൂപ്പുകൾ"
 }

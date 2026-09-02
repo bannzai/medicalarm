@@ -189,5 +189,6 @@
   "groupNameInputHint": "Топ атауын енгізіңіз",
   "groupIcon": "Белгіше",
   "groupMemberCount": "{count} мүше",
-  "defaultGroupBadge": "Әдепкі"
+  "defaultGroupBadge": "Әдепкі",
+  "soloGroupName": "Менің топтарым"
 }

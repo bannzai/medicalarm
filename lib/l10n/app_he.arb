@@ -189,5 +189,6 @@
   "groupNameInputHint": "הזן את שם הקבוצה",
   "groupIcon": "סמל",
   "groupMemberCount": "{count} חברים",
-  "defaultGroupBadge": "ברירת מחדל"
+  "defaultGroupBadge": "ברירת מחדל",
+  "soloGroupName": "הקבוצות שלי"
 }

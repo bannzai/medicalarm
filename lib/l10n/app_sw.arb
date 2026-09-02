@@ -189,5 +189,6 @@
   "groupNameInputHint": "Weka jina la kikundi",
   "groupIcon": "Ikoni",
   "groupMemberCount": "{count} wanachama",
-  "defaultGroupBadge": "Chaguomsingi"
+  "defaultGroupBadge": "Chaguomsingi",
+  "soloGroupName": "Vikundi vyangu"
 }

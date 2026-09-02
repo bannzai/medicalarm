@@ -189,5 +189,6 @@
   "groupNameInputHint": "ປ້ອນຊື່ກຸ່ມ",
   "groupIcon": "ໄອຄອນ",
   "groupMemberCount": "{count} ສະມາຊິກ",
-  "defaultGroupBadge": "ຄ່າເລີ່ມຕົ້ນ"
+  "defaultGroupBadge": "ຄ່າເລີ່ມຕົ້ນ",
+  "soloGroupName": "ກຸ່ມຂອງຂ້ອຍ"
 }

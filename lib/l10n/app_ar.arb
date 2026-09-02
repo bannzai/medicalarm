@@ -189,5 +189,6 @@
   "groupNameInputHint": "أدخل اسم المجموعة",
   "groupIcon": "الأيقونة",
   "groupMemberCount": "{count} أعضاء",
-  "defaultGroupBadge": "افتراضي"
+  "defaultGroupBadge": "افتراضي",
+  "soloGroupName": "مجموعاتي"
 }

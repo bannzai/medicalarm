@@ -189,5 +189,6 @@
   "groupNameInputHint": "Introduce el nombre del grupo",
   "groupIcon": "Icono",
   "groupMemberCount": "{count} miembros",
-  "defaultGroupBadge": "Predeterminado"
+  "defaultGroupBadge": "Predeterminado",
+  "soloGroupName": "Mis grupos"
 }

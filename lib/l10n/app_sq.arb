@@ -189,5 +189,6 @@
   "groupNameInputHint": "Shkruani emrin e grupit",
   "groupIcon": "Ikonë",
   "groupMemberCount": "{count} anëtarë",
-  "defaultGroupBadge": "Parazgjedhje"
+  "defaultGroupBadge": "Parazgjedhje",
+  "soloGroupName": "Grupet e mia"
 }

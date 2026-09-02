@@ -189,5 +189,6 @@
   "groupNameInputHint": "Ange gruppnamn",
   "groupIcon": "Ikon",
   "groupMemberCount": "{count} medlemmar",
-  "defaultGroupBadge": "Standard"
+  "defaultGroupBadge": "Standard",
+  "soloGroupName": "Mina grupper"
 }

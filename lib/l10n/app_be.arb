@@ -189,5 +189,6 @@
   "groupNameInputHint": "Увядзіце назву групы",
   "groupIcon": "Значок",
   "groupMemberCount": "{count} удзельнікаў",
-  "defaultGroupBadge": "Па змаўчанні"
+  "defaultGroupBadge": "Па змаўчанні",
+  "soloGroupName": "Мае групы"
 }

@@ -189,5 +189,6 @@
   "groupNameInputHint": "Anna ryhmän nimi",
   "groupIcon": "Kuvake",
   "groupMemberCount": "{count} jäsentä",
-  "defaultGroupBadge": "Oletus"
+  "defaultGroupBadge": "Oletus",
+  "soloGroupName": "Omat ryhmäni"
 }

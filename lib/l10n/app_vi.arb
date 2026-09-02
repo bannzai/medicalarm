@@ -189,5 +189,6 @@
   "groupNameInputHint": "Nhập tên nhóm",
   "groupIcon": "Biểu tượng",
   "groupMemberCount": "{count} thành viên",
-  "defaultGroupBadge": "Mặc định"
+  "defaultGroupBadge": "Mặc định",
+  "soloGroupName": "Nhóm của tôi"
 }

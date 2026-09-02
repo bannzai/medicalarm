@@ -189,5 +189,6 @@
   "groupNameInputHint": "गटाचे नाव प्रविष्ट करा",
   "groupIcon": "आयकॉन",
   "groupMemberCount": "{count} सदस्य",
-  "defaultGroupBadge": "डीफॉल्ट"
+  "defaultGroupBadge": "डीफॉल्ट",
+  "soloGroupName": "माझे गट"
 }

@@ -189,5 +189,6 @@
   "groupNameInputHint": "කණ්ඩායමේ නම ඇතුළත් කරන්න",
   "groupIcon": "නිරූපකය",
   "groupMemberCount": "{count} සාමාජිකයන්",
-  "defaultGroupBadge": "පෙරනිමි"
+  "defaultGroupBadge": "පෙරනිමි",
+  "soloGroupName": "මගේ කණ්ඩායම්"
 }

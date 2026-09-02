@@ -189,5 +189,6 @@
   "groupNameInputHint": "የቡድን ስም ያስገቡ",
   "groupIcon": "አይኮን",
   "groupMemberCount": "አባላት: {count}",
-  "defaultGroupBadge": "ነባሪ"
+  "defaultGroupBadge": "ነባሪ",
+  "soloGroupName": "የእኔ ቡድኖች"
 }

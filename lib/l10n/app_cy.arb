@@ -189,5 +189,6 @@
   "groupNameInputHint": "Rhowch enw'r grŵp",
   "groupIcon": "Eicon",
   "groupMemberCount": "{count} aelod",
-  "defaultGroupBadge": "Rhagosodedig"
+  "defaultGroupBadge": "Rhagosodedig",
+  "soloGroupName": "Fy ngrwpiau"
 }

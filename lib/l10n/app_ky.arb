@@ -189,5 +189,6 @@
   "groupNameInputHint": "Топтун атын киргизиңиз",
   "groupIcon": "Белги",
   "groupMemberCount": "{count} мүчө",
-  "defaultGroupBadge": "Демейки"
+  "defaultGroupBadge": "Демейки",
+  "soloGroupName": "Менин топторум"
 }

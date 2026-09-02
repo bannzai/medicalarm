@@ -189,5 +189,6 @@
   "groupNameInputHint": "Бүлгийн нэрийг оруулна уу",
   "groupIcon": "Дүрс",
   "groupMemberCount": "{count} гишүүн",
-  "defaultGroupBadge": "Өгөгдмөл"
+  "defaultGroupBadge": "Өгөгдмөл",
+  "soloGroupName": "Миний бүлгүүд"
 }

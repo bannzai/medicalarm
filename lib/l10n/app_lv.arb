@@ -189,5 +189,6 @@
   "groupNameInputHint": "Ievadiet grupas nosaukumu",
   "groupIcon": "Ikona",
   "groupMemberCount": "{count} dalībnieki",
-  "defaultGroupBadge": "Noklusējuma"
+  "defaultGroupBadge": "Noklusējuma",
+  "soloGroupName": "Manas grupas"
 }
