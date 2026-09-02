@@ -231,5 +231,6 @@
   "doseIntervalWarningTakeAnyway": "Įrašyti",
   "doseIntervalNotificationWarning": "⚠️ Nuo paskutinės dozės nepraėjo {minimumDoseIntervalHours} val.",
   "ossLicense": "OSS licencijos",
-  "onboardingWelcomeTitle": "Atsikratykime nerimo,\nkad pamiršime išgerti vaistus"
+  "onboardingWelcomeTitle": "Atsikratykime nerimo,\nkad pamiršime išgerti vaistus",
+  "onboardingWelcomeBody": "Užregistruokite vaistus ir gaukite pranešimus\nPeržiūrėkite vaistų vartojimo įrašus."
 }

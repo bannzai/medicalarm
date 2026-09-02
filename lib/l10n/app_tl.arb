@@ -231,5 +231,6 @@
   "doseIntervalWarningTakeAnyway": "Itala",
   "doseIntervalNotificationWarning": "⚠️ Hindi pa lumilipas ang {minimumDoseIntervalHours} oras mula sa huling pag-inom",
   "ossLicense": "Mga Lisensya ng OSS",
-  "onboardingWelcomeTitle": "Alisin ang pag-aalalang\nmakalimutang uminom ng gamot"
+  "onboardingWelcomeTitle": "Alisin ang pag-aalalang\nmakalimutang uminom ng gamot",
+  "onboardingWelcomeBody": "Irehistro ang iyong mga gamot at tumanggap ng mga abiso\nSuriin ang talaan ng pag-inom ng iyong gamot."
 }

@@ -231,5 +231,6 @@
   "doseIntervalWarningTakeAnyway": "Salvesta",
   "doseIntervalNotificationWarning": "⚠️ Viimasest annusest ei ole möödunud {minimumDoseIntervalHours} tundi",
   "ossLicense": "OSS-litsentsid",
-  "onboardingWelcomeTitle": "Vabaneme murest,\net unustame ravimit võtta"
+  "onboardingWelcomeTitle": "Vabaneme murest,\net unustame ravimit võtta",
+  "onboardingWelcomeBody": "Registreerige oma ravimid ja saage teavitusi\nVaadake üle oma ravimite võtmise ajalugu."
 }

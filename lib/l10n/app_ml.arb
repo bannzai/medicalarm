@@ -231,5 +231,6 @@
   "doseIntervalWarningTakeAnyway": "രേഖപ്പെടുത്തുക",
   "doseIntervalNotificationWarning": "⚠️ അവസാന ഡോസ് കഴിച്ചതിന് ശേഷം {minimumDoseIntervalHours} മണിക്കൂർ കഴിഞ്ഞിട്ടില്ല",
   "ossLicense": "OSS ലൈസൻസുകൾ",
-  "onboardingWelcomeTitle": "മരുന്ന് കഴിക്കാൻ മറന്നുപോകുമെന്ന\nആശങ്ക ഒഴിവാക്കാം"
+  "onboardingWelcomeTitle": "മരുന്ന് കഴിക്കാൻ മറന്നുപോകുമെന്ന\nആശങ്ക ഒഴിവാക്കാം",
+  "onboardingWelcomeBody": "നിങ്ങളുടെ മരുന്നുകൾ രജിസ്റ്റർ ചെയ്ത് അറിയിപ്പുകൾ സ്വീകരിക്കുക\nമരുന്ന് കഴിച്ച രേഖ പരിശോധിക്കുക."
 }

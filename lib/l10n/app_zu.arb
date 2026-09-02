@@ -231,5 +231,6 @@
   "doseIntervalWarningTakeAnyway": "Qopha",
   "doseIntervalNotificationWarning": "⚠️ Akukadluleki amahora angu-{minimumDoseIntervalHours} kusukela ekuphuzeni umthamo wokugcina",
   "ossLicense": "Amalayisense e-OSS",
-  "onboardingWelcomeTitle": "Susa ukuqeda ukukhathazeka\nkokukhohlwa ukuphuza umuthi"
+  "onboardingWelcomeTitle": "Susa ukuqeda ukukhathazeka\nkokukhohlwa ukuphuza umuthi",
+  "onboardingWelcomeBody": "Bhalisa imithi yakho futhi uthole izaziso\nBuyekeza umlando wokuphuza imithi yakho."
 }

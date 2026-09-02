@@ -231,5 +231,6 @@
   "doseIntervalWarningTakeAnyway": "রেকর্ড করুন",
   "doseIntervalNotificationWarning": "⚠️ শেষবার ওষুধ খাওয়ার পর {minimumDoseIntervalHours} ঘণ্টা পার হয়নি",
   "ossLicense": "OSS লাইসেন্স",
-  "onboardingWelcomeTitle": "ওষুধ খেতে ভুলে যাওয়ার দুশ্চিন্তা\nদূর করি"
+  "onboardingWelcomeTitle": "ওষুধ খেতে ভুলে যাওয়ার দুশ্চিন্তা\nদূর করি",
+  "onboardingWelcomeBody": "আপনার ওষুধ নিবন্ধন করুন এবং বিজ্ঞপ্তি পান\nওষুধ সেবনের রেকর্ড পর্যালোচনা করুন।"
 }

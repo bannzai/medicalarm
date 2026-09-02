@@ -231,5 +231,6 @@
   "doseIntervalWarningTakeAnyway": "ჩაწერა",
   "doseIntervalNotificationWarning": "⚠️ ბოლო დოზის მიღებიდან {minimumDoseIntervalHours} საათი არ გასულა",
   "ossLicense": "OSS ლიცენზიები",
-  "onboardingWelcomeTitle": "მოვიშოროთ წამლის მიღების დავიწყების\nშიში"
+  "onboardingWelcomeTitle": "მოვიშოროთ წამლის მიღების დავიწყების\nშიში",
+  "onboardingWelcomeBody": "დაარეგისტრირეთ მედიკამენტები და მიიღეთ შეტყობინებები\nგადახედეთ მედიკამენტების მიღების ჩანაწერებს."
 }

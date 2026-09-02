@@ -231,5 +231,6 @@
   "doseIntervalWarningTakeAnyway": "नोंद करा",
   "doseIntervalNotificationWarning": "⚠️ शेवटचा डोस घेतल्यापासून {minimumDoseIntervalHours} तास झालेले नाहीत",
   "ossLicense": "OSS परवाने",
-  "onboardingWelcomeTitle": "औषध घेण्याचे विसरून जाण्याची\nचिंता दूर करूया"
+  "onboardingWelcomeTitle": "औषध घेण्याचे विसरून जाण्याची\nचिंता दूर करूया",
+  "onboardingWelcomeBody": "तुमची औषधे नोंदवा आणि सूचना मिळवा\nऔषधे घेतल्याच्या नोंदींचा आढावा घ्या."
 }

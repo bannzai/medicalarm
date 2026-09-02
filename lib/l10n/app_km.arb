@@ -231,5 +231,6 @@
   "doseIntervalWarningTakeAnyway": "កត់ត្រា",
   "doseIntervalNotificationWarning": "⚠️ មិនទាន់បានកន្លងផុត {minimumDoseIntervalHours} ម៉ោង ចាប់តាំងពីលើកចុងក្រោយដែលបានលេបថ្នាំ",
   "ossLicense": "អាជ្ញាប័ណ្ណ OSS",
-  "onboardingWelcomeTitle": "បំបាត់ការព្រួយបារម្ភ\nពីការភ្លេចលេបថ្នាំ"
+  "onboardingWelcomeTitle": "បំបាត់ការព្រួយបារម្ភ\nពីការភ្លេចលេបថ្នាំ",
+  "onboardingWelcomeBody": "ចុះបញ្ជីថ្នាំរបស់អ្នក និងទទួលការជូនដំណឹង\nពិនិត្យមើលកំណត់ត្រានៃការលេបថ្នាំរបស់អ្នក។"
 }

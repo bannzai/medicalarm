@@ -231,5 +231,6 @@
   "doseIntervalWarningTakeAnyway": "မှတ်တမ်းတင်ရန်",
   "doseIntervalNotificationWarning": "⚠️ နောက်ဆုံးဆေးသောက်ပြီးနောက် {minimumDoseIntervalHours} နာရီ မပြည့်သေးပါ",
   "ossLicense": "OSS လိုင်စင်များ",
-  "onboardingWelcomeTitle": "ဆေးသောက်ရန် မေ့လျော့မည်ကို\nစိုးရိမ်ပူပန်မှု ကင်းဝေးကြပါစို့"
+  "onboardingWelcomeTitle": "ဆေးသောက်ရန် မေ့လျော့မည်ကို\nစိုးရိမ်ပူပန်မှု ကင်းဝေးကြပါစို့",
+  "onboardingWelcomeBody": "သင့်ဆေးများကို မှတ်ပုံတင်ပြီး အကြောင်းကြားချက်များ ရယူပါ\nဆေးသောက်မှတ်တမ်းကို ပြန်လည်ကြည့်ရှုပါ။"
 }

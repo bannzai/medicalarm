@@ -231,5 +231,6 @@
   "doseIntervalWarningTakeAnyway": "Qayd etish",
   "doseIntervalNotificationWarning": "⚠️ Oxirgi dozani qabul qilganingizdan beri {minimumDoseIntervalHours} soat o‘tmadi",
   "ossLicense": "OSS litsenziyalari",
-  "onboardingWelcomeTitle": "Dori ichishni unutib qo‘yish\nxavotiridan xalos bo‘laylik"
+  "onboardingWelcomeTitle": "Dori ichishni unutib qo‘yish\nxavotiridan xalos bo‘laylik",
+  "onboardingWelcomeBody": "Dori-darmonlaringizni ro‘yxatdan o‘tkazing va bildirishnomalar oling\nDori qabul qilish tarixini ko‘rib chiqing."
 }

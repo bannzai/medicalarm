@@ -231,5 +231,6 @@
   "doseIntervalWarningTakeAnyway": "Registreren",
   "doseIntervalNotificationWarning": "⚠️ Er zijn nog geen {minimumDoseIntervalHours} uur verstreken sinds de vorige dosis",
   "ossLicense": "OSS-licenties",
-  "onboardingWelcomeTitle": "Geen zorgen meer\nover het vergeten van je medicatie"
+  "onboardingWelcomeTitle": "Geen zorgen meer\nover het vergeten van je medicatie",
+  "onboardingWelcomeBody": "Registreer je medicijnen en ontvang meldingen\nBekijk je medicatieoverzicht."
 }

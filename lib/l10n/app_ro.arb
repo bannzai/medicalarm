@@ -231,5 +231,6 @@
   "doseIntervalWarningTakeAnyway": "Înregistrează",
   "doseIntervalNotificationWarning": "⚠️ Nu au trecut {minimumDoseIntervalHours} ore de la ultima doză",
   "ossLicense": "Licențe OSS",
-  "onboardingWelcomeTitle": "Scapă de grija\ncă vei uita să iei medicamentele"
+  "onboardingWelcomeTitle": "Scapă de grija\ncă vei uita să iei medicamentele",
+  "onboardingWelcomeBody": "Înregistrați-vă medicamentele și primiți notificări\nConsultați istoricul administrării medicamentelor."
 }

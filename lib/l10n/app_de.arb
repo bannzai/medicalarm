@@ -231,5 +231,6 @@
   "doseIntervalWarningTakeAnyway": "Aufzeichnen",
   "doseIntervalNotificationWarning": "⚠️ Seit der letzten Einnahme sind noch keine {minimumDoseIntervalHours} Stunden vergangen",
   "ossLicense": "OSS-Lizenzen",
-  "onboardingWelcomeTitle": "Schluss mit der Sorge,\ndie Einnahme zu vergessen"
+  "onboardingWelcomeTitle": "Schluss mit der Sorge,\ndie Einnahme zu vergessen",
+  "onboardingWelcomeBody": "Registrieren Sie Ihre Medikamente und erhalten Sie Benachrichtigungen\nÜberprüfen Sie Ihr Einnahmeprotokoll."
 }

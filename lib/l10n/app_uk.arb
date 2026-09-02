@@ -231,5 +231,6 @@
   "doseIntervalWarningTakeAnyway": "Записати",
   "doseIntervalNotificationWarning": "⚠️ Від останнього прийому не минуло {minimumDoseIntervalHours} годин",
   "ossLicense": "Ліцензії OSS",
-  "onboardingWelcomeTitle": "Позбудьмося тривоги,\nщо можемо забути прийняти ліки"
+  "onboardingWelcomeTitle": "Позбудьмося тривоги,\nщо можемо забути прийняти ліки",
+  "onboardingWelcomeBody": "Зареєструйте ліки й отримуйте сповіщення\nПереглядайте історію прийому ліків."
 }

@@ -231,5 +231,6 @@
   "doseIntervalWarningTakeAnyway": "Registrar",
   "doseIntervalNotificationWarning": "⚠️ No han pasado {minimumDoseIntervalHours} horas desde la última toma",
   "ossLicense": "Licencias de OSS",
-  "onboardingWelcomeTitle": "Dejemos atrás la preocupación\nde olvidar tomar la medicación"
+  "onboardingWelcomeTitle": "Dejemos atrás la preocupación\nde olvidar tomar la medicación",
+  "onboardingWelcomeBody": "Registra tus medicamentos y recibe notificaciones\nConsulta tu registro de tomas."
 }

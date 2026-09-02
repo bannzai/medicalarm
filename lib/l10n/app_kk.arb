@@ -231,5 +231,6 @@
   "doseIntervalWarningTakeAnyway": "Жазу",
   "doseIntervalNotificationWarning": "⚠️ Соңғы қабылдаудан бері {minimumDoseIntervalHours} сағат өткен жоқ",
   "ossLicense": "OSS лицензиялары",
-  "onboardingWelcomeTitle": "Дәрі қабылдауды ұмытып кету\nуайымын сейілтейік"
+  "onboardingWelcomeTitle": "Дәрі қабылдауды ұмытып кету\nуайымын сейілтейік",
+  "onboardingWelcomeBody": "Дәрілеріңізді тіркеп, хабарландырулар алыңыз\nДәрі қабылдау жазбаларын қарап шығыңыз."
 }

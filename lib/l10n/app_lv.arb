@@ -231,5 +231,6 @@
   "doseIntervalWarningTakeAnyway": "Ierakstīt",
   "doseIntervalNotificationWarning": "⚠️ Kopš pēdējās devas nav pagājušas {minimumDoseIntervalHours} stundas",
   "ossLicense": "OSS licences",
-  "onboardingWelcomeTitle": "Atbrīvosimies no raizēm,\nka aizmirsīsim iedzert zāles"
+  "onboardingWelcomeTitle": "Atbrīvosimies no raizēm,\nka aizmirsīsim iedzert zāles",
+  "onboardingWelcomeBody": "Reģistrējiet savas zāles un saņemiet paziņojumus\nPārskatiet zāļu lietošanas ierakstus."
 }

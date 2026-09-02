@@ -231,5 +231,6 @@
   "doseIntervalWarningTakeAnyway": "Rekodi",
   "doseIntervalNotificationWarning": "⚠️ Haijapita saa {minimumDoseIntervalHours} tangu dozi ya mwisho",
   "ossLicense": "Leseni za OSS",
-  "onboardingWelcomeTitle": "Tuondoe wasiwasi\nwa kusahau kutumia dawa"
+  "onboardingWelcomeTitle": "Tuondoe wasiwasi\nwa kusahau kutumia dawa",
+  "onboardingWelcomeBody": "Sajili dawa zako na upokee arifa\nKagua rekodi yako ya unywaji wa dawa."
 }

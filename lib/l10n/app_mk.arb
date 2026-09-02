@@ -231,5 +231,6 @@
   "doseIntervalWarningTakeAnyway": "Забележи",
   "doseIntervalNotificationWarning": "⚠️ Не поминале {minimumDoseIntervalHours} часа од последната доза",
   "ossLicense": "OSS лиценци",
-  "onboardingWelcomeTitle": "Да се ослободиме од грижата\nдека ќе заборавиме да го земеме лекот"
+  "onboardingWelcomeTitle": "Да се ослободиме од грижата\nдека ќе заборавиме да го земеме лекот",
+  "onboardingWelcomeBody": "Регистрирајте ги лековите и добивајте известувања\nПрегледајте ја евиденцијата за земање лекови."
 }

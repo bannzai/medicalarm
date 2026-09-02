@@ -231,5 +231,6 @@
   "doseIntervalWarningTakeAnyway": "રેકોર્ડ કરો",
   "doseIntervalNotificationWarning": "⚠️ છેલ્લી દવા લીધા પછી {minimumDoseIntervalHours} કલાક થયા નથી",
   "ossLicense": "OSS લાઇસન્સ",
-  "onboardingWelcomeTitle": "દવા લેવાનું ભૂલી જવાની ચિંતા\nદૂર કરીએ"
+  "onboardingWelcomeTitle": "દવા લેવાનું ભૂલી જવાની ચિંતા\nદૂર કરીએ",
+  "onboardingWelcomeBody": "તમારી દવાઓ રજિસ્ટર કરો અને સૂચનાઓ મેળવો\nદવા લેવાનો તમારો રેકોર્ડ જુઓ."
 }

@@ -231,5 +231,6 @@
   "doseIntervalWarningTakeAnyway": "Catat",
   "doseIntervalNotificationWarning": "⚠️ Belum {minimumDoseIntervalHours} jam berlalu sejak dosis terakhir",
   "ossLicense": "Lisensi OSS",
-  "onboardingWelcomeTitle": "Hilangkan kekhawatiran\nlupa minum obat"
+  "onboardingWelcomeTitle": "Hilangkan kekhawatiran\nlupa minum obat",
+  "onboardingWelcomeBody": "Daftarkan obat Anda dan terima notifikasi\nTinjau catatan konsumsi obat Anda."
 }

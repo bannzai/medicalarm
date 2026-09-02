@@ -231,5 +231,6 @@
   "doseIntervalWarningTakeAnyway": "Cofnodi",
   "doseIntervalNotificationWarning": "⚠️ Nid oes {minimumDoseIntervalHours} awr wedi mynd heibio ers y dos diwethaf",
   "ossLicense": "Trwyddedau OSS",
-  "onboardingWelcomeTitle": "Gadewch i ni gael gwared ar y pryder\nam anghofio cymryd meddyginiaeth"
+  "onboardingWelcomeTitle": "Gadewch i ni gael gwared ar y pryder\nam anghofio cymryd meddyginiaeth",
+  "onboardingWelcomeBody": "Cofrestrwch eich meddyginiaethau a derbyn hysbysiadau\nAdolygwch eich cofnodion cymryd meddyginiaeth."
 }

@@ -231,5 +231,6 @@
   "doseIntervalWarningTakeAnyway": "תיעוד",
   "doseIntervalNotificationWarning": "⚠️ לא עברו {minimumDoseIntervalHours} שעות מאז המנה הקודמת",
   "ossLicense": "רישיונות OSS",
-  "onboardingWelcomeTitle": "בואו נפטר מהדאגה\nלשכוח לקחת את התרופה"
+  "onboardingWelcomeTitle": "בואו נפטר מהדאגה\nלשכוח לקחת את התרופה",
+  "onboardingWelcomeBody": "רשמו את התרופות שלכם וקבלו התראות\nעיינו ברישום נטילת התרופות שלכם."
 }

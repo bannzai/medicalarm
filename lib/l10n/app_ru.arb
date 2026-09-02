@@ -231,5 +231,6 @@
   "doseIntervalWarningTakeAnyway": "Записать",
   "doseIntervalNotificationWarning": "⚠️ С момента последнего приема прошло менее {minimumDoseIntervalHours} часов",
   "ossLicense": "Лицензии OSS",
-  "onboardingWelcomeTitle": "Избавимся от тревоги,\nчто можно забыть принять лекарство"
+  "onboardingWelcomeTitle": "Избавимся от тревоги,\nчто можно забыть принять лекарство",
+  "onboardingWelcomeBody": "Зарегистрируйте лекарства и получайте уведомления\nПросматривайте историю приёма лекарств."
 }

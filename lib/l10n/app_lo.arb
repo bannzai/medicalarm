@@ -231,5 +231,6 @@
   "doseIntervalWarningTakeAnyway": "ບັນທຶກ",
   "doseIntervalNotificationWarning": "⚠️ ຍັງບໍ່ຄົບ {minimumDoseIntervalHours} ຊົ່ວໂມງນັບຈາກຄັ້ງຫຼ້າສຸດທີ່ກິນຢາ",
   "ossLicense": "ໃບອະນຸຍາດ OSS",
-  "onboardingWelcomeTitle": "ຂຈັດຄວາມກັງວົນ\nວ່າຈະລືມກິນຢາ"
+  "onboardingWelcomeTitle": "ຂຈັດຄວາມກັງວົນ\nວ່າຈະລືມກິນຢາ",
+  "onboardingWelcomeBody": "ລົງທະບຽນຢາຂອງທ່ານ ແລະ ຮັບການແຈ້ງເຕືອນ\nທົບທວນບັນທຶກການກິນຢາຂອງທ່ານ."
 }

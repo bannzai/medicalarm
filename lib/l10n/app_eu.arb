@@ -231,5 +231,6 @@
   "doseIntervalWarningTakeAnyway": "Erregistratu",
   "doseIntervalNotificationWarning": "⚠️ Azken dosia hartu zenuenetik ez dira {minimumDoseIntervalHours} ordu igaro",
   "ossLicense": "OSS lizentziak",
-  "onboardingWelcomeTitle": "Esan agur sendagaia hartzea\nahazteko kezkari"
+  "onboardingWelcomeTitle": "Esan agur sendagaia hartzea\nahazteko kezkari",
+  "onboardingWelcomeBody": "Erregistratu sendagaiak eta jaso jakinarazpenak\nBerrikusi sendagaiak hartzeko erregistroa."
 }

@@ -231,5 +231,6 @@
   "doseIntervalWarningTakeAnyway": "Skrá",
   "doseIntervalNotificationWarning": "⚠️ Ekki eru liðnir {minimumDoseIntervalHours} klukkustundir frá síðasta skammti",
   "ossLicense": "OSS-leyfi",
-  "onboardingWelcomeTitle": "Engar áhyggjur af því\nað gleyma að taka lyfin"
+  "onboardingWelcomeTitle": "Engar áhyggjur af því\nað gleyma að taka lyfin",
+  "onboardingWelcomeBody": "Skráðu lyfin þín og fáðu tilkynningar\nSkoðaðu skrá yfir lyfjatöku þína."
 }

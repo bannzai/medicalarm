@@ -231,5 +231,6 @@
   "doseIntervalWarningTakeAnyway": "ରେକର୍ଡ କରନ୍ତୁ",
   "doseIntervalNotificationWarning": "⚠️ ପୂର୍ବ ଡୋଜ୍ ନେବା ପରେ {minimumDoseIntervalHours} ଘଣ୍ଟା ବିତିନାହିଁ",
   "ossLicense": "OSS ଲାଇସେନ୍ସ",
-  "onboardingWelcomeTitle": "ଔଷଧ ଖାଇବାକୁ ଭୁଲିଯିବାର ଚିନ୍ତା\nଦୂର କରିବା"
+  "onboardingWelcomeTitle": "ଔଷଧ ଖାଇବାକୁ ଭୁଲିଯିବାର ଚିନ୍ତା\nଦୂର କରିବା",
+  "onboardingWelcomeBody": "ଆପଣଙ୍କ ଔଷଧ ପଞ୍ଜିକରଣ କରନ୍ତୁ ଏବଂ ବିଜ୍ଞପ୍ତି ପାଆନ୍ତୁ\nଔଷଧ ସେବନର ରେକର୍ଡ ସମୀକ୍ଷା କରନ୍ତୁ।"
 }

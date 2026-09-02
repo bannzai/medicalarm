@@ -231,5 +231,6 @@
   "doseIntervalWarningTakeAnyway": "రికార్డ్ చేయండి",
   "doseIntervalNotificationWarning": "⚠️ చివరి మోతాదు తీసుకుని {minimumDoseIntervalHours} గంటలు కాలేదు",
   "ossLicense": "OSS లైసెన్సులు",
-  "onboardingWelcomeTitle": "మందు వేసుకోవడం మర్చిపోతామనే\nఆందోళనను తొలగించుకుందాం"
+  "onboardingWelcomeTitle": "మందు వేసుకోవడం మర్చిపోతామనే\nఆందోళనను తొలగించుకుందాం",
+  "onboardingWelcomeBody": "మీ మందులను నమోదు చేసుకుని నోటిఫికేషన్‌లు పొందండి\nమీ మందులు తీసుకున్న రికార్డును సమీక్షించండి."
 }

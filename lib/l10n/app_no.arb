@@ -231,5 +231,6 @@
   "doseIntervalWarningTakeAnyway": "Registrer",
   "doseIntervalNotificationWarning": "⚠️ Det har ikke gått {minimumDoseIntervalHours} timer siden forrige dose",
   "ossLicense": "OSS-lisenser",
-  "onboardingWelcomeTitle": "Slipp bekymringen\nfor å glemme å ta medisinen"
+  "onboardingWelcomeTitle": "Slipp bekymringen\nfor å glemme å ta medisinen",
+  "onboardingWelcomeBody": "Registrer medisinen din og motta varsler\nSe gjennom historikken for medisininntak."
 }

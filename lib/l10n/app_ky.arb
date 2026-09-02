@@ -231,5 +231,6 @@
   "doseIntervalWarningTakeAnyway": "Каттоо",
   "doseIntervalNotificationWarning": "⚠️ Акыркы дозадан бери {minimumDoseIntervalHours} саат өткөн жок",
   "ossLicense": "OSS лицензиялары",
-  "onboardingWelcomeTitle": "Дары ичүүнү унутуп калам деген\nкабатырланууну жоёлу"
+  "onboardingWelcomeTitle": "Дары ичүүнү унутуп калам деген\nкабатырланууну жоёлу",
+  "onboardingWelcomeBody": "Дары-дармектериңизди каттап, эскертмелерди алыңыз\nДары ичүү таржымалыңызды карап чыгыңыз."
 }

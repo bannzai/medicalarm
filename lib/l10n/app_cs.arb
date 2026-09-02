@@ -231,5 +231,6 @@
   "doseIntervalWarningTakeAnyway": "Zaznamenat",
   "doseIntervalNotificationWarning": "⚠️ Od poslední dávky neuplynulo {minimumDoseIntervalHours} hodin",
   "ossLicense": "Licence OSS",
-  "onboardingWelcomeTitle": "Zbavme se obav z toho,\nže zapomeneme užít lék"
+  "onboardingWelcomeTitle": "Zbavme se obav z toho,\nže zapomeneme užít lék",
+  "onboardingWelcomeBody": "Zaregistrujte své léky a dostávejte upozornění\nProhlédněte si záznamy o užívání léků."
 }

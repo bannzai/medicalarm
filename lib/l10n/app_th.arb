@@ -231,5 +231,6 @@
   "doseIntervalWarningTakeAnyway": "บันทึก",
   "doseIntervalNotificationWarning": "⚠️ ยังไม่ครบ {minimumDoseIntervalHours} ชั่วโมงนับจากครั้งที่รับประทานยาครั้งล่าสุด",
   "ossLicense": "ใบอนุญาต OSS",
-  "onboardingWelcomeTitle": "หมดกังวล\nเรื่องลืมกินยา"
+  "onboardingWelcomeTitle": "หมดกังวล\nเรื่องลืมกินยา",
+  "onboardingWelcomeBody": "ลงทะเบียนยาและรับการแจ้งเตือน\nทบทวนประวัติการรับประทานยา"
 }

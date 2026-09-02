@@ -231,5 +231,6 @@
   "doseIntervalWarningTakeAnyway": "تسجيل",
   "doseIntervalNotificationWarning": "⚠️ لم تمر {minimumDoseIntervalHours} ساعة منذ الجرعة السابقة",
   "ossLicense": "تراخيص OSS",
-  "onboardingWelcomeTitle": "لنتخلّص من القلق\nبشأن نسيان تناول الدواء"
+  "onboardingWelcomeTitle": "لنتخلّص من القلق\nبشأن نسيان تناول الدواء",
+  "onboardingWelcomeBody": "سجّل أدويتك وتلقَّ الإشعارات\nراجع سجل تناول أدويتك."
 }
