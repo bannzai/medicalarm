@@ -235,5 +235,6 @@
   "onboardingWelcomeBody": "Registreer je medicijnen en ontvang meldingen\nBekijk je medicatieoverzicht.",
   "onboardingWelcomeFeatureReminder": "Melding op het tijdstip van medicijninname",
   "onboardingWelcomeFeatureCriticalAlert": "Critical Alert die ook in de stille modus klinkt",
-  "onboardingWelcomeFeatureFamily": "Beheer ook de medicatie van je gezin op één plek"
+  "onboardingWelcomeFeatureFamily": "Beheer ook de medicatie van je gezin op één plek",
+  "onboardingStart": "Aan de slag"
 }

@@ -235,5 +235,6 @@
   "onboardingWelcomeBody": "Cofrestrwch eich meddyginiaethau a derbyn hysbysiadau\nAdolygwch eich cofnodion cymryd meddyginiaeth.",
   "onboardingWelcomeFeatureReminder": "Hysbysiad ar amser cymryd meddyginiaeth",
   "onboardingWelcomeFeatureCriticalAlert": "Critical Alert sy'n canu hyd yn oed yn y modd distaw",
-  "onboardingWelcomeFeatureFamily": "Rheolwch feddyginiaeth eich teulu hefyd mewn un lle"
+  "onboardingWelcomeFeatureFamily": "Rheolwch feddyginiaeth eich teulu hefyd mewn un lle",
+  "onboardingStart": "Dechrau"
 }

@@ -235,5 +235,6 @@
   "onboardingWelcomeBody": "Rexistra os teus medicamentos e recibe notificacións\nRevisa o rexistro das tomas.",
   "onboardingWelcomeFeatureReminder": "Notificación á hora de tomar o medicamento",
   "onboardingWelcomeFeatureCriticalAlert": "Critical Alert que soa mesmo en modo silencioso",
-  "onboardingWelcomeFeatureFamily": "Xestiona tamén a medicación da túa familia nun só lugar"
+  "onboardingWelcomeFeatureFamily": "Xestiona tamén a medicación da túa familia nun só lugar",
+  "onboardingStart": "Comezar"
 }

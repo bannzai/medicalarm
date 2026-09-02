@@ -235,5 +235,6 @@
   "onboardingWelcomeBody": "Înregistrați-vă medicamentele și primiți notificări\nConsultați istoricul administrării medicamentelor.",
   "onboardingWelcomeFeatureReminder": "Notificare la ora administrării medicamentului",
   "onboardingWelcomeFeatureCriticalAlert": "Critical Alert care sună chiar și în modul silențios",
-  "onboardingWelcomeFeatureFamily": "Gestionează și medicația familiei tale într-un singur loc"
+  "onboardingWelcomeFeatureFamily": "Gestionează și medicația familiei tale într-un singur loc",
+  "onboardingStart": "Începe"
 }

@@ -235,5 +235,6 @@
   "onboardingWelcomeBody": "Registrera dina läkemedel och få notiser\nSe över din läkemedelshistorik.",
   "onboardingWelcomeFeatureReminder": "Avisering vid tidpunkten för medicinintag",
   "onboardingWelcomeFeatureCriticalAlert": "Critical Alert som låter även i tyst läge",
-  "onboardingWelcomeFeatureFamily": "Hantera även hela familjens medicinering på ett ställe"
+  "onboardingWelcomeFeatureFamily": "Hantera även hela familjens medicinering på ett ställe",
+  "onboardingStart": "Kom igång"
 }

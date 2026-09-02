@@ -235,5 +235,6 @@
   "onboardingWelcomeBody": "Rögzítse gyógyszereit, és kapjon értesítéseket\nTekintse át gyógyszerszedési előzményeit.",
   "onboardingWelcomeFeatureReminder": "Értesítés a gyógyszer bevételének idején",
   "onboardingWelcomeFeatureCriticalAlert": "Critical Alert, amely néma módban is megszólal",
-  "onboardingWelcomeFeatureFamily": "Családja gyógyszereit is kezelheti egy helyen"
+  "onboardingWelcomeFeatureFamily": "Családja gyógyszereit is kezelheti egy helyen",
+  "onboardingStart": "Kezdjük el"
 }

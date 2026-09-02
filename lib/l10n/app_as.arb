@@ -235,5 +235,6 @@
   "onboardingWelcomeBody": "আপোনাৰ ঔষধ পঞ্জীয়ন কৰক আৰু জাননী লাভ কৰক\nঔষধ গ্ৰহণৰ ৰেকৰ্ড পৰ্যালোচনা কৰক।",
   "onboardingWelcomeFeatureReminder": "ঔষধ খোৱাৰ সময়ত জাননী",
   "onboardingWelcomeFeatureCriticalAlert": "নিস্তব্ধ মোডতো বাজে Critical Alert",
-  "onboardingWelcomeFeatureFamily": "আপোনাৰ পৰিয়ালৰ ঔষধো একে ঠাইতে পৰিচালনা কৰক"
+  "onboardingWelcomeFeatureFamily": "আপোনাৰ পৰিয়ালৰ ঔষধো একে ঠাইতে পৰিচালনা কৰক",
+  "onboardingStart": "আৰম্ভ কৰক"
 }

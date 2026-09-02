@@ -235,5 +235,6 @@
   "onboardingWelcomeBody": "သင့်ဆေးများကို မှတ်ပုံတင်ပြီး အကြောင်းကြားချက်များ ရယူပါ\nဆေးသောက်မှတ်တမ်းကို ပြန်လည်ကြည့်ရှုပါ။",
   "onboardingWelcomeFeatureReminder": "ဆေးသောက်ချိန်တွင် အသိပေးချက်",
   "onboardingWelcomeFeatureCriticalAlert": "အသံတိတ်မုဒ်တွင်ပင် မြည်သည့် Critical Alert",
-  "onboardingWelcomeFeatureFamily": "မိသားစု၏ ဆေးဝါးများကိုလည်း တစ်နေရာတည်းတွင် စီမံခန့်ခွဲပါ"
+  "onboardingWelcomeFeatureFamily": "မိသားစု၏ ဆေးဝါးများကိုလည်း တစ်နေရာတည်းတွင် စီမံခန့်ခွဲပါ",
+  "onboardingStart": "စတင်ပါ"
 }

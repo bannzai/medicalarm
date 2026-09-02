@@ -235,5 +235,6 @@
   "onboardingWelcomeBody": "Registreerige oma ravimid ja saage teavitusi\nVaadake üle oma ravimite võtmise ajalugu.",
   "onboardingWelcomeFeatureReminder": "Teavitus ravimi võtmise ajal",
   "onboardingWelcomeFeatureCriticalAlert": "Critical Alert, mis kõlab ka hääletus režiimis",
-  "onboardingWelcomeFeatureFamily": "Halda ka oma pere ravimite võtmist ühes kohas"
+  "onboardingWelcomeFeatureFamily": "Halda ka oma pere ravimite võtmist ühes kohas",
+  "onboardingStart": "Alusta"
 }

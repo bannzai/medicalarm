@@ -235,5 +235,6 @@
   "onboardingWelcomeBody": "רשמו את התרופות שלכם וקבלו התראות\nעיינו ברישום נטילת התרופות שלכם.",
   "onboardingWelcomeFeatureReminder": "התראה בזמן נטילת התרופה",
   "onboardingWelcomeFeatureCriticalAlert": "Critical Alert שנשמע גם במצב שקט",
-  "onboardingWelcomeFeatureFamily": "נהלו גם את התרופות של בני המשפחה במקום אחד"
+  "onboardingWelcomeFeatureFamily": "נהלו גם את התרופות של בני המשפחה במקום אחד",
+  "onboardingStart": "התחל"
 }

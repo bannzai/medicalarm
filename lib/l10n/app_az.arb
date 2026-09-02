@@ -235,5 +235,6 @@
   "onboardingWelcomeBody": "Dərmanlarınızı qeydiyyatdan keçirin və bildirişlər alın\nDərman qəbulunuzun tarixçəsinə nəzər salın.",
   "onboardingWelcomeFeatureReminder": "Dərman qəbul etmə vaxtı bildiriş",
   "onboardingWelcomeFeatureCriticalAlert": "Səssiz rejimdə belə səslənən Critical Alert",
-  "onboardingWelcomeFeatureFamily": "Ailənizin dərmanlarını da bir yerdən idarə edin"
+  "onboardingWelcomeFeatureFamily": "Ailənizin dərmanlarını da bir yerdən idarə edin",
+  "onboardingStart": "Başlayın"
 }

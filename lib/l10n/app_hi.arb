@@ -235,5 +235,6 @@
   "onboardingWelcomeBody": "अपनी दवाएँ दर्ज करें और सूचनाएँ पाएँ\nदवा लेने का अपना रिकॉर्ड देखें।",
   "onboardingWelcomeFeatureReminder": "दवा लेने के समय सूचना",
   "onboardingWelcomeFeatureCriticalAlert": "साइलेंट मोड में भी बजने वाला Critical Alert",
-  "onboardingWelcomeFeatureFamily": "अपने परिवार की दवाओं का भी एक ही जगह प्रबंधन करें"
+  "onboardingWelcomeFeatureFamily": "अपने परिवार की दवाओं का भी एक ही जगह प्रबंधन करें",
+  "onboardingStart": "शुरू करें"
 }

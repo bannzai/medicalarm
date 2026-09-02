@@ -235,5 +235,6 @@
   "onboardingWelcomeBody": "Erregistratu sendagaiak eta jaso jakinarazpenak\nBerrikusi sendagaiak hartzeko erregistroa.",
   "onboardingWelcomeFeatureReminder": "Jakinarazpena botika hartzeko orduan",
   "onboardingWelcomeFeatureCriticalAlert": "Critical Alert, modu isilean ere jotzen duena",
-  "onboardingWelcomeFeatureFamily": "Kudeatu zure familiaren medikazioa ere leku bakar batean"
+  "onboardingWelcomeFeatureFamily": "Kudeatu zure familiaren medikazioa ere leku bakar batean",
+  "onboardingStart": "Hasi"
 }

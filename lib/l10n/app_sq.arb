@@ -235,5 +235,6 @@
   "onboardingWelcomeBody": "Regjistroni barnat tuaja dhe merrni njoftime\nShikoni regjistrin e marrjes së barnave.",
   "onboardingWelcomeFeatureReminder": "Njoftim në kohën e marrjes së ilaçit",
   "onboardingWelcomeFeatureCriticalAlert": "Critical Alert që bie edhe në modalitetin pa zë",
-  "onboardingWelcomeFeatureFamily": "Menaxhoni edhe ilaçet e familjes në një vend"
+  "onboardingWelcomeFeatureFamily": "Menaxhoni edhe ilaçet e familjes në një vend",
+  "onboardingStart": "Fillo"
 }

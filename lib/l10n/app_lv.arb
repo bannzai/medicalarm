@@ -235,5 +235,6 @@
   "onboardingWelcomeBody": "Reģistrējiet savas zāles un saņemiet paziņojumus\nPārskatiet zāļu lietošanas ierakstus.",
   "onboardingWelcomeFeatureReminder": "Paziņojums zāļu lietošanas laikā",
   "onboardingWelcomeFeatureCriticalAlert": "Critical Alert, kas skan arī klusuma režīmā",
-  "onboardingWelcomeFeatureFamily": "Pārvaldiet arī visas ģimenes medikamentu lietošanu vienuviet"
+  "onboardingWelcomeFeatureFamily": "Pārvaldiet arī visas ģimenes medikamentu lietošanu vienuviet",
+  "onboardingStart": "Sākt"
 }

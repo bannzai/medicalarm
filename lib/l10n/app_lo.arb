@@ -235,5 +235,6 @@
   "onboardingWelcomeBody": "ລົງທະບຽນຢາຂອງທ່ານ ແລະ ຮັບການແຈ້ງເຕືອນ\nທົບທວນບັນທຶກການກິນຢາຂອງທ່ານ.",
   "onboardingWelcomeFeatureReminder": "ການແຈ້ງເຕືອນໃນເວລາກິນຢາ",
   "onboardingWelcomeFeatureCriticalAlert": "Critical Alert ທີ່ດັງແມ່ນໃນໂໝດງຽບ",
-  "onboardingWelcomeFeatureFamily": "ຈັດການການກິນຢາຂອງຄອບຄົວທັງໝົດໄດ້ໃນບ່ອນດຽວ"
+  "onboardingWelcomeFeatureFamily": "ຈັດການການກິນຢາຂອງຄອບຄົວທັງໝົດໄດ້ໃນບ່ອນດຽວ",
+  "onboardingStart": "ເລີ່ມຕົ້ນ"
 }

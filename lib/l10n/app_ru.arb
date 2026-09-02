@@ -235,5 +235,6 @@
   "onboardingWelcomeBody": "Зарегистрируйте лекарства и получайте уведомления\nПросматривайте историю приёма лекарств.",
   "onboardingWelcomeFeatureReminder": "Уведомление во время приёма лекарства",
   "onboardingWelcomeFeatureCriticalAlert": "Critical Alert, который звучит даже в беззвучном режиме",
-  "onboardingWelcomeFeatureFamily": "Управляйте приёмом лекарств всей семьи в одном месте"
+  "onboardingWelcomeFeatureFamily": "Управляйте приёмом лекарств всей семьи в одном месте",
+  "onboardingStart": "Начать"
 }

@@ -235,5 +235,6 @@
   "onboardingWelcomeBody": "Zaregistrujte své léky a dostávejte upozornění\nProhlédněte si záznamy o užívání léků.",
   "onboardingWelcomeFeatureReminder": "Upozornění v čase užití léku",
   "onboardingWelcomeFeatureCriticalAlert": "Critical Alert, který zazní i v tichém režimu",
-  "onboardingWelcomeFeatureFamily": "Spravujte také užívání léků celé rodiny na jednom místě"
+  "onboardingWelcomeFeatureFamily": "Spravujte také užívání léků celé rodiny na jednom místě",
+  "onboardingStart": "Začít"
 }

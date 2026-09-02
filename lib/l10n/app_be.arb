@@ -235,5 +235,6 @@
   "onboardingWelcomeBody": "Зарэгіструйце лекі і атрымлівайце апавяшчэнні\nПраглядайце гісторыю прыёму лекаў.",
   "onboardingWelcomeFeatureReminder": "Апавяшчэнне ў час прыёму лекаў",
   "onboardingWelcomeFeatureCriticalAlert": "Critical Alert, які гучыць нават у бязгучным рэжыме",
-  "onboardingWelcomeFeatureFamily": "Кіруйце прыёмам лекаў усёй сям’і ў адным месцы"
+  "onboardingWelcomeFeatureFamily": "Кіруйце прыёмам лекаў усёй сям’і ў адным месцы",
+  "onboardingStart": "Пачаць"
 }

@@ -235,5 +235,6 @@
   "onboardingWelcomeBody": "Daftarkan obat Anda dan terima notifikasi\nTinjau catatan konsumsi obat Anda.",
   "onboardingWelcomeFeatureReminder": "Notifikasi pada waktu minum obat",
   "onboardingWelcomeFeatureCriticalAlert": "Critical Alert yang berbunyi bahkan dalam mode senyap",
-  "onboardingWelcomeFeatureFamily": "Kelola juga obat keluarga dalam satu tempat"
+  "onboardingWelcomeFeatureFamily": "Kelola juga obat keluarga dalam satu tempat",
+  "onboardingStart": "Mulai"
 }

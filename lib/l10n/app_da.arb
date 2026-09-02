@@ -235,5 +235,6 @@
   "onboardingWelcomeBody": "Registrer din medicin, og modtag notifikationer\nSe din historik over medicinindtagelse.",
   "onboardingWelcomeFeatureReminder": "Notifikation på medicintidspunktet",
   "onboardingWelcomeFeatureCriticalAlert": "Critical Alert, der lyder selv i lydløs tilstand",
-  "onboardingWelcomeFeatureFamily": "Administrer også familiens medicin samlet"
+  "onboardingWelcomeFeatureFamily": "Administrer også familiens medicin samlet",
+  "onboardingStart": "Kom i gang"
 }

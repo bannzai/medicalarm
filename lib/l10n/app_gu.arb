@@ -235,5 +235,6 @@
   "onboardingWelcomeBody": "તમારી દવાઓ રજિસ્ટર કરો અને સૂચનાઓ મેળવો\nદવા લેવાનો તમારો રેકોર્ડ જુઓ.",
   "onboardingWelcomeFeatureReminder": "દવા લેવાના સમયે સૂચના",
   "onboardingWelcomeFeatureCriticalAlert": "સાઇલન્ટ મોડમાં પણ વાગતું Critical Alert",
-  "onboardingWelcomeFeatureFamily": "તમારા પરિવારની દવાઓનું પણ એક જ જગ્યાએ સંચાલન કરો"
+  "onboardingWelcomeFeatureFamily": "તમારા પરિવારની દવાઓનું પણ એક જ જગ્યાએ સંચાલન કરો",
+  "onboardingStart": "શરૂ કરો"
 }

@@ -235,5 +235,6 @@
   "onboardingWelcomeBody": "Дары-дармектериңизди каттап, эскертмелерди алыңыз\nДары ичүү таржымалыңызды карап чыгыңыз.",
   "onboardingWelcomeFeatureReminder": "Дары ичүү убагында билдирүү",
   "onboardingWelcomeFeatureCriticalAlert": "Үнсүз режимде да үн чыгаруучу Critical Alert",
-  "onboardingWelcomeFeatureFamily": "Үй-бүлөңүздүн дары ичүүсүн да бир жерден башкарыңыз"
+  "onboardingWelcomeFeatureFamily": "Үй-бүлөңүздүн дары ичүүсүн да бир жерден башкарыңыз",
+  "onboardingStart": "Баштоо"
 }

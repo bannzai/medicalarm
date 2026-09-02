@@ -235,5 +235,6 @@
   "onboardingWelcomeBody": "سجّل أدويتك وتلقَّ الإشعارات\nراجع سجل تناول أدويتك.",
   "onboardingWelcomeFeatureReminder": "إشعار في وقت تناول الدواء",
   "onboardingWelcomeFeatureCriticalAlert": "Critical Alert يرن حتى في الوضع الصامت",
-  "onboardingWelcomeFeatureFamily": "إدارة أدوية عائلتك أيضًا في مكان واحد"
+  "onboardingWelcomeFeatureFamily": "إدارة أدوية عائلتك أيضًا في مكان واحد",
+  "onboardingStart": "ابدأ"
 }

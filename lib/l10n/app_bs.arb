@@ -235,5 +235,6 @@
   "onboardingWelcomeBody": "Registrujte lijekove i primajte obavijesti\nPregledajte evidenciju uzimanja lijekova.",
   "onboardingWelcomeFeatureReminder": "Obavijest u vrijeme uzimanja lijeka",
   "onboardingWelcomeFeatureCriticalAlert": "Critical Alert koji zvoni i u nečujnom režimu",
-  "onboardingWelcomeFeatureFamily": "Upravljajte i lijekovima svoje porodice na jednom mjestu"
+  "onboardingWelcomeFeatureFamily": "Upravljajte i lijekovima svoje porodice na jednom mjestu",
+  "onboardingStart": "Započnite"
 }

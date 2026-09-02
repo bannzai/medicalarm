@@ -235,5 +235,6 @@
   "onboardingWelcomeBody": "Dori-darmonlaringizni ro‘yxatdan o‘tkazing va bildirishnomalar oling\nDori qabul qilish tarixini ko‘rib chiqing.",
   "onboardingWelcomeFeatureReminder": "Dori qabul qilish vaqtidagi bildirishnoma",
   "onboardingWelcomeFeatureCriticalAlert": "Ovozsiz rejimda ham chalinadigan Critical Alert",
-  "onboardingWelcomeFeatureFamily": "Oilangizning dori-darmonlarini ham bir joyda boshqaring"
+  "onboardingWelcomeFeatureFamily": "Oilangizning dori-darmonlarini ham bir joyda boshqaring",
+  "onboardingStart": "Boshlash"
 }

@@ -235,5 +235,6 @@
   "onboardingWelcomeBody": "Medikamente registriere und Benachrichtigunge erhalte\nD Medikamenten-Einnahme überprüefe.",
   "onboardingWelcomeFeatureReminder": "Benachrichtigung zur Einnahmezyt",
   "onboardingWelcomeFeatureCriticalAlert": "Critical Alert, wo au im Stummmodus tönt",
-  "onboardingWelcomeFeatureFamily": "Verwalte au d’Medikamente vo de Familie a eim Ort"
+  "onboardingWelcomeFeatureFamily": "Verwalte au d’Medikamente vo de Familie a eim Ort",
+  "onboardingStart": "Starten"
 }

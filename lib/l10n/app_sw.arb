@@ -235,5 +235,6 @@
   "onboardingWelcomeBody": "Sajili dawa zako na upokee arifa\nKagua rekodi yako ya unywaji wa dawa.",
   "onboardingWelcomeFeatureReminder": "Arifa wakati wa kutumia dawa",
   "onboardingWelcomeFeatureCriticalAlert": "Critical Alert inayolia hata katika hali ya kimya",
-  "onboardingWelcomeFeatureFamily": "Dhibiti pia dawa za familia yako mahali pamoja"
+  "onboardingWelcomeFeatureFamily": "Dhibiti pia dawa za familia yako mahali pamoja",
+  "onboardingStart": "Anza"
 }

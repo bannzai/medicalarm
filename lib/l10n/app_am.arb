@@ -235,5 +235,6 @@
   "onboardingWelcomeBody": "መድኃኒቶችዎን ይመዝግቡ እና ማሳወቂያዎችን ይቀበሉ\nየመድኃኒት አወሳሰድ መዝገብዎን ይገምግሙ።",
   "onboardingWelcomeFeatureReminder": "በመድኃኒት መውሰጃ ጊዜ ማሳወቂያ",
   "onboardingWelcomeFeatureCriticalAlert": "Critical Alert በዝምታ ሁነታም ይጮሃል",
-  "onboardingWelcomeFeatureFamily": "የቤተሰብዎን መድኃኒቶችም በአንድ ቦታ ያስተዳድሩ"
+  "onboardingWelcomeFeatureFamily": "የቤተሰብዎን መድኃኒቶችም በአንድ ቦታ ያስተዳድሩ",
+  "onboardingStart": "መጀመር"
 }

@@ -235,5 +235,6 @@
   "onboardingWelcomeBody": "Эмээ бүртгүүлж, мэдэгдэл хүлээн аваарай\nЭм уусан бүртгэлээ эргэн хараарай.",
   "onboardingWelcomeFeatureReminder": "Эм уух цагийн мэдэгдэл",
   "onboardingWelcomeFeatureCriticalAlert": "Чимээгүй горимд ч дуугарах Critical Alert",
-  "onboardingWelcomeFeatureFamily": "Гэр бүлийнхээ эмийн хэрэглээг ч нэг дор хянаарай"
+  "onboardingWelcomeFeatureFamily": "Гэр бүлийнхээ эмийн хэрэглээг ч нэг дор хянаарай",
+  "onboardingStart": "Эхлэх"
 }

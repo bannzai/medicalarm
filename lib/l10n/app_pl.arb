@@ -235,5 +235,6 @@
   "onboardingWelcomeBody": "Zarejestruj leki i otrzymuj powiadomienia\nPrzejrzyj historię przyjmowania leków.",
   "onboardingWelcomeFeatureReminder": "Powiadomienie o porze przyjęcia leku",
   "onboardingWelcomeFeatureCriticalAlert": "Critical Alert, który działa także w trybie cichym",
-  "onboardingWelcomeFeatureFamily": "Zarządzaj także lekami całej rodziny w jednym miejscu"
+  "onboardingWelcomeFeatureFamily": "Zarządzaj także lekami całej rodziny w jednym miejscu",
+  "onboardingStart": "Zacznij"
 }

@@ -235,5 +235,6 @@
   "onboardingWelcomeBody": "Registrieren Sie Ihre Medikamente und erhalten Sie Benachrichtigungen\nÜberprüfen Sie Ihr Einnahmeprotokoll.",
   "onboardingWelcomeFeatureReminder": "Benachrichtigung zur Einnahmezeit",
   "onboardingWelcomeFeatureCriticalAlert": "Critical Alert, der auch im Lautlosmodus ertönt",
-  "onboardingWelcomeFeatureFamily": "Verwalte auch die Medikamente deiner Familie an einem Ort"
+  "onboardingWelcomeFeatureFamily": "Verwalte auch die Medikamente deiner Familie an einem Ort",
+  "onboardingStart": "Loslegen"
 }

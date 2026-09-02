@@ -235,5 +235,6 @@
   "onboardingWelcomeBody": "登记药物并接收提醒\n回顾服药记录。",
   "onboardingWelcomeFeatureReminder": "服药时间通知",
   "onboardingWelcomeFeatureCriticalAlert": "静音模式下也会响起的 Critical Alert",
-  "onboardingWelcomeFeatureFamily": "集中管理全家人的用药"
+  "onboardingWelcomeFeatureFamily": "集中管理全家人的用药",
+  "onboardingStart": "开始"
 }

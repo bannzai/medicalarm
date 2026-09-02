@@ -235,5 +235,6 @@
   "onboardingWelcomeBody": "Skráðu lyfin þín og fáðu tilkynningar\nSkoðaðu skrá yfir lyfjatöku þína.",
   "onboardingWelcomeFeatureReminder": "Tilkynning á þeim tíma sem lyf á að taka",
   "onboardingWelcomeFeatureCriticalAlert": "Critical Alert sem hringir jafnvel í hljóðlausri stillingu",
-  "onboardingWelcomeFeatureFamily": "Haltu einnig utan um lyf fjölskyldunnar á einum stað"
+  "onboardingWelcomeFeatureFamily": "Haltu einnig utan um lyf fjölskyldunnar á einum stað",
+  "onboardingStart": "Byrja"
 }

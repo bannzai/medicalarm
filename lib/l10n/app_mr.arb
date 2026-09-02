@@ -235,5 +235,6 @@
   "onboardingWelcomeBody": "तुमची औषधे नोंदवा आणि सूचना मिळवा\nऔषधे घेतल्याच्या नोंदींचा आढावा घ्या.",
   "onboardingWelcomeFeatureReminder": "औषध घेण्याच्या वेळी सूचना",
   "onboardingWelcomeFeatureCriticalAlert": "सायलेंट मोडमध्येही वाजणारा Critical Alert",
-  "onboardingWelcomeFeatureFamily": "तुमच्या कुटुंबाची औषधेही एकाच ठिकाणी व्यवस्थापित करा"
+  "onboardingWelcomeFeatureFamily": "तुमच्या कुटुंबाची औषधेही एकाच ठिकाणी व्यवस्थापित करा",
+  "onboardingStart": "सुरू करा"
 }

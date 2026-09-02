@@ -235,5 +235,6 @@
   "onboardingWelcomeBody": "உங்கள் மருந்துகளைப் பதிவு செய்து அறிவிப்புகளைப் பெறுங்கள்\nமருந்து உட்கொண்ட பதிவை மதிப்பாய்வு செய்யுங்கள்.",
   "onboardingWelcomeFeatureReminder": "மருந்து உட்கொள்ளும் நேரத்தில் அறிவிப்பு",
   "onboardingWelcomeFeatureCriticalAlert": "சைலண்ட் பயன்முறையிலும் ஒலிக்கும் Critical Alert",
-  "onboardingWelcomeFeatureFamily": "உங்கள் குடும்பத்தின் மருந்துகளையும் ஒரே இடத்தில் நிர்வகிக்கவும்"
+  "onboardingWelcomeFeatureFamily": "உங்கள் குடும்பத்தின் மருந்துகளையும் ஒரே இடத்தில் நிர்வகிக்கவும்",
+  "onboardingStart": "தொடங்கவும்"
 }
