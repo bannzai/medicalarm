@@ -169,5 +169,6 @@
   "notNow": "暂时不",
   "openAppStore": "打开 App Store",
   "confirmOpenAppStore": "要打开 App Store 撰写评价吗？",
-  "premiumFeaturesList": "高级功能列表"
+  "premiumFeaturesList": "高级功能列表",
+  "currentlyInPremiumTrial": "您目前正在试用 Premium。"
 }

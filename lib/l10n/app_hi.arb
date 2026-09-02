@@ -169,5 +169,6 @@
   "notNow": "अभी नहीं",
   "openAppStore": "App Store खोलें",
   "confirmOpenAppStore": "क्या आप समीक्षा लिखने के लिए App Store खोलना चाहते हैं?",
-  "premiumFeaturesList": "प्रीमियम सुविधाओं की सूची"
+  "premiumFeaturesList": "प्रीमियम सुविधाओं की सूची",
+  "currentlyInPremiumTrial": "आप फ़िलहाल Premium ट्रायल पर हैं।"
 }

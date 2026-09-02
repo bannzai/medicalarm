@@ -169,5 +169,6 @@
   "notNow": "ယခုမလုပ်ပါ",
   "openAppStore": "App Store ဖွင့်ရန်",
   "confirmOpenAppStore": "သုံးသပ်ချက်ရေးရန် App Store ကို ဖွင့်မလား?",
-  "premiumFeaturesList": "ပရီမီယံ လုပ်ဆောင်ချက်များစာရင်း"
+  "premiumFeaturesList": "ပရီမီယံ လုပ်ဆောင်ချက်များစာရင်း",
+  "currentlyInPremiumTrial": "လက်ရှိတွင် Premium အစမ်းသုံးကာလကို အသုံးပြုနေပါသည်။"
 }

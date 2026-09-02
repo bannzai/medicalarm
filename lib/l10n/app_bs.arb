@@ -169,5 +169,6 @@
   "notNow": "Ne sada",
   "openAppStore": "Otvori App Store",
   "confirmOpenAppStore": "Želite li otvoriti App Store da biste napisali recenziju?",
-  "premiumFeaturesList": "Lista premium funkcija"
+  "premiumFeaturesList": "Lista premium funkcija",
+  "currentlyInPremiumTrial": "Trenutno koristite Premium probni period."
 }

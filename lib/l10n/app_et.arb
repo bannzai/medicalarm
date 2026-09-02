@@ -169,5 +169,6 @@
   "notNow": "Mitte praegu",
   "openAppStore": "Ava App Store",
   "confirmOpenAppStore": "Kas soovid avada App Store’i, et arvustust kirjutada?",
-  "premiumFeaturesList": "Premiumfunktsioonide loend"
+  "premiumFeaturesList": "Premiumfunktsioonide loend",
+  "currentlyInPremiumTrial": "Sul on praegu Premiumi prooviperiood."
 }

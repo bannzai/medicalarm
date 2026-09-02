@@ -169,5 +169,6 @@
   "notNow": "Şimdi değil",
   "openAppStore": "App Store’u Aç",
   "confirmOpenAppStore": "İnceleme yazmak için App Store açılsın mı?",
-  "premiumFeaturesList": "Premium özellikler listesi"
+  "premiumFeaturesList": "Premium özellikler listesi",
+  "currentlyInPremiumTrial": "Şu anda Premium deneme sürümündesiniz."
 }

@@ -169,5 +169,6 @@
   "notNow": "ഇപ്പോൾ വേണ്ട",
   "openAppStore": "App Store തുറക്കുക",
   "confirmOpenAppStore": "ഒരു അവലോകനം എഴുതാൻ App Store തുറക്കണോ?",
-  "premiumFeaturesList": "പ്രീമിയം ഫീച്ചറുകളുടെ പട്ടിക"
+  "premiumFeaturesList": "പ്രീമിയം ഫീച്ചറുകളുടെ പട്ടിക",
+  "currentlyInPremiumTrial": "നിങ്ങൾ നിലവിൽ Premium ട്രയലിലാണ്."
 }

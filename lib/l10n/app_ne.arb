@@ -169,5 +169,6 @@
   "notNow": "अहिले होइन",
   "openAppStore": "App Store खोल्नुहोस्",
   "confirmOpenAppStore": "समीक्षा लेख्न App Store खोल्ने हो?",
-  "premiumFeaturesList": "प्रिमियम सुविधाहरूको सूची"
+  "premiumFeaturesList": "प्रिमियम सुविधाहरूको सूची",
+  "currentlyInPremiumTrial": "तपाईं अहिले Premium परीक्षण अवधिमा हुनुहुन्छ।"
 }

@@ -169,5 +169,6 @@
   "notNow": "Ei nyt",
   "openAppStore": "Avaa App Store",
   "confirmOpenAppStore": "Haluatko avata App Storen arvostelun kirjoittamista varten?",
-  "premiumFeaturesList": "Premium-ominaisuudet"
+  "premiumFeaturesList": "Premium-ominaisuudet",
+  "currentlyInPremiumTrial": "Käytät parhaillaan Premium-kokeilujaksoa."
 }

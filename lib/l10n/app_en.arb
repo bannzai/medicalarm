@@ -170,6 +170,7 @@
   "openAppStore": "Open the App Store",
   "confirmOpenAppStore": "Would you like to open the App Store to write a review?",
   "premiumFeaturesList": "Premium Features",
+  "currentlyInPremiumTrial": "You’re currently on a Premium trial.",
   "medicationPause": "Enable medication",
   "medicationPauseDescription": "When off, this medicine is hidden from the daily list and notifications.",
   "medicinePausedSnackbar": "Paused this medication",

@@ -169,5 +169,6 @@
   "notNow": "ليس الآن",
   "openAppStore": "فتح App Store",
   "confirmOpenAppStore": "هل تريد فتح App Store لكتابة مراجعة؟",
-  "premiumFeaturesList": "قائمة الميزات المميزة"
+  "premiumFeaturesList": "قائمة الميزات المميزة",
+  "currentlyInPremiumTrial": "أنت تستخدم النسخة التجريبية المميزة حاليًا."
 }

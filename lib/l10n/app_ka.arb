@@ -169,5 +169,6 @@
   "notNow": "ახლა არა",
   "openAppStore": "App Store-ის გახსნა",
   "confirmOpenAppStore": "გსურთ App Store-ის გახსნა მიმოხილვის დასაწერად?",
-  "premiumFeaturesList": "პრემიუმ ფუნქციების სია"
+  "premiumFeaturesList": "პრემიუმ ფუნქციების სია",
+  "currentlyInPremiumTrial": "ამჟამად Premium-ის საცდელ პერიოდზე ხართ."
 }

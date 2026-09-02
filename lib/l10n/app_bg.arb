@@ -169,5 +169,6 @@
   "notNow": "Не сега",
   "openAppStore": "Отваряне на App Store",
   "confirmOpenAppStore": "Да отворим ли App Store, за да напишете отзив?",
-  "premiumFeaturesList": "Списък с премиум функции"
+  "premiumFeaturesList": "Списък с премиум функции",
+  "currentlyInPremiumTrial": "В момента сте в пробен период на Premium."
 }

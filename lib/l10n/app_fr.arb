@@ -169,5 +169,6 @@
   "notNow": "Pas maintenant",
   "openAppStore": "Ouvrir l’App Store",
   "confirmOpenAppStore": "Voulez-vous ouvrir l’App Store pour rédiger un avis ?",
-  "premiumFeaturesList": "Liste des fonctionnalités premium"
+  "premiumFeaturesList": "Liste des fonctionnalités premium",
+  "currentlyInPremiumTrial": "Vous êtes actuellement en période d’essai Premium."
 }

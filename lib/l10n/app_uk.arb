@@ -169,5 +169,6 @@
   "notNow": "Не зараз",
   "openAppStore": "Відкрити App Store",
   "confirmOpenAppStore": "Відкрити App Store, щоб написати відгук?",
-  "premiumFeaturesList": "Список преміум-функцій"
+  "premiumFeaturesList": "Список преміум-функцій",
+  "currentlyInPremiumTrial": "Наразі ви користуєтеся пробним періодом Premium."
 }

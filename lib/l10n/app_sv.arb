@@ -169,5 +169,6 @@
   "notNow": "Inte nu",
   "openAppStore": "Öppna App Store",
   "confirmOpenAppStore": "Vill du öppna App Store för att skriva en recension?",
-  "premiumFeaturesList": "Lista över premiumfunktioner"
+  "premiumFeaturesList": "Lista över premiumfunktioner",
+  "currentlyInPremiumTrial": "Du använder för närvarande Premium-provperioden."
 }

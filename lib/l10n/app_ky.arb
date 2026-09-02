@@ -169,5 +169,6 @@
   "notNow": "Азыр эмес",
   "openAppStore": "App Store ачуу",
   "confirmOpenAppStore": "Сын-пикир жазуу үчүн App Store ачылсынбы?",
-  "premiumFeaturesList": "Премиум функциялардын тизмеси"
+  "premiumFeaturesList": "Премиум функциялардын тизмеси",
+  "currentlyInPremiumTrial": "Учурда Premium сынамык мөөнөтүн колдонуп жатасыз."
 }
