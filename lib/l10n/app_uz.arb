@@ -227,5 +227,6 @@
   "minimumDoseIntervalNone": "Yo‘q",
   "minimumDoseIntervalHoursFormat": "Kamida {hours} soat",
   "doseIntervalWarningTitle": "Dozalar orasidagi zarur vaqt hali o‘tmagan",
-  "doseIntervalWarningMessage": "Siz dorini {latestTakeTime} da allaqachon qabul qilgansiz. Sozlamaga ko‘ra, dozalar orasida kamida {minimumDoseIntervalHours} soatlik tanaffus bo‘lishi kerak. Shunday bo‘lsa ham qayd etilsinmi?"
+  "doseIntervalWarningMessage": "Siz dorini {latestTakeTime} da allaqachon qabul qilgansiz. Sozlamaga ko‘ra, dozalar orasida kamida {minimumDoseIntervalHours} soatlik tanaffus bo‘lishi kerak. Shunday bo‘lsa ham qayd etilsinmi?",
+  "doseIntervalWarningTakeAnyway": "Qayd etish"
 }

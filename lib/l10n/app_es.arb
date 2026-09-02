@@ -227,5 +227,6 @@
   "minimumDoseIntervalNone": "Ninguno",
   "minimumDoseIntervalHoursFormat": "Al menos {hours} horas",
   "doseIntervalWarningTitle": "Aún no ha transcurrido el intervalo entre las dosis",
-  "doseIntervalWarningMessage": "Ya has tomado la dosis a las {latestTakeTime}. La configuración establece un intervalo mínimo de {minimumDoseIntervalHours} horas entre dosis. ¿Quieres registrarla de todos modos?"
+  "doseIntervalWarningMessage": "Ya has tomado la dosis a las {latestTakeTime}. La configuración establece un intervalo mínimo de {minimumDoseIntervalHours} horas entre dosis. ¿Quieres registrarla de todos modos?",
+  "doseIntervalWarningTakeAnyway": "Registrar"
 }

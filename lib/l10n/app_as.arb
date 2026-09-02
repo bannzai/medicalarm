@@ -227,5 +227,6 @@
   "minimumDoseIntervalNone": "নাই",
   "minimumDoseIntervalHoursFormat": "অন্তত {hours} ঘণ্টা",
   "doseIntervalWarningTitle": "পৰৱৰ্তী ড’জ লোৱাৰ বাবে প্ৰয়োজনীয় সময় হোৱা নাই",
-  "doseIntervalWarningMessage": "{latestTakeTime}-ত ইতিমধ্যে ঔষধ সেৱন কৰা হৈছে। ছেটিঙত প্ৰতিটো সেৱনৰ মাজত কমেও {minimumDoseIntervalHours} ঘণ্টাৰ ব্যৱধান ৰখা হৈছে। তথাপিও ৰেকৰ্ড কৰিবনে?"
+  "doseIntervalWarningMessage": "{latestTakeTime}-ত ইতিমধ্যে ঔষধ সেৱন কৰা হৈছে। ছেটিঙত প্ৰতিটো সেৱনৰ মাজত কমেও {minimumDoseIntervalHours} ঘণ্টাৰ ব্যৱধান ৰখা হৈছে। তথাপিও ৰেকৰ্ড কৰিবনে?",
+  "doseIntervalWarningTakeAnyway": "ৰেকৰ্ড কৰক"
 }

@@ -227,5 +227,6 @@
   "minimumDoseIntervalNone": "የለም",
   "minimumDoseIntervalHoursFormat": "ቢያንስ {hours} ሰዓታት",
   "doseIntervalWarningTitle": "በመድኃኒት መውሰጃዎች መካከል በቂ ጊዜ አልፏልም",
-  "doseIntervalWarningMessage": "በ{latestTakeTime} ላይ መድሃኒቱን እንደወሰዱ ተመዝግቧል። በሁለት መድሃኒት መውሰዶች መካከል ቢያንስ {minimumDoseIntervalHours} ሰዓታት እንዲሆኑ ተዘጋጅቷል። አሁንም መመዝገብ ይፈልጋሉ?"
+  "doseIntervalWarningMessage": "በ{latestTakeTime} ላይ መድሃኒቱን እንደወሰዱ ተመዝግቧል። በሁለት መድሃኒት መውሰዶች መካከል ቢያንስ {minimumDoseIntervalHours} ሰዓታት እንዲሆኑ ተዘጋጅቷል። አሁንም መመዝገብ ይፈልጋሉ?",
+  "doseIntervalWarningTakeAnyway": "መዝግብ"
 }

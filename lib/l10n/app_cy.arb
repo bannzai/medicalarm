@@ -227,5 +227,6 @@
   "minimumDoseIntervalNone": "Dim",
   "minimumDoseIntervalHoursFormat": "O leiaf {hours} awr",
   "doseIntervalWarningTitle": "Nid yw’r cyfnod rhwng dosau wedi mynd heibio",
-  "doseIntervalWarningMessage": "Rydych eisoes wedi cymryd y dos ar {latestTakeTime}. Mae’r gosodiad yn gofyn am o leiaf {minimumDoseIntervalHours} awr rhwng dosau. A ydych am ei gofnodi beth bynnag?"
+  "doseIntervalWarningMessage": "Rydych eisoes wedi cymryd y dos ar {latestTakeTime}. Mae’r gosodiad yn gofyn am o leiaf {minimumDoseIntervalHours} awr rhwng dosau. A ydych am ei gofnodi beth bynnag?",
+  "doseIntervalWarningTakeAnyway": "Cofnodi"
 }

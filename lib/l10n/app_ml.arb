@@ -227,5 +227,6 @@
   "minimumDoseIntervalNone": "ഇല്ല",
   "minimumDoseIntervalHoursFormat": "കുറഞ്ഞത് {hours} മണിക്കൂർ",
   "doseIntervalWarningTitle": "ഡോസുകൾക്കിടയിലെ ആവശ്യമായ സമയം ഇതുവരെ കഴിഞ്ഞിട്ടില്ല",
-  "doseIntervalWarningMessage": "{latestTakeTime}-ന് നിങ്ങൾ മരുന്ന് കഴിച്ചുകഴിഞ്ഞു. ഡോസുകൾക്കിടയിൽ കുറഞ്ഞത് {minimumDoseIntervalHours} മണിക്കൂർ ഇടവേള വേണമെന്ന് സജ്ജീകരിച്ചിരിക്കുന്നു. എന്നിരുന്നാലും രേഖപ്പെടുത്തണോ?"
+  "doseIntervalWarningMessage": "{latestTakeTime}-ന് നിങ്ങൾ മരുന്ന് കഴിച്ചുകഴിഞ്ഞു. ഡോസുകൾക്കിടയിൽ കുറഞ്ഞത് {minimumDoseIntervalHours} മണിക്കൂർ ഇടവേള വേണമെന്ന് സജ്ജീകരിച്ചിരിക്കുന്നു. എന്നിരുന്നാലും രേഖപ്പെടുത്തണോ?",
+  "doseIntervalWarningTakeAnyway": "രേഖപ്പെടുത്തുക"
 }

@@ -227,5 +227,6 @@
   "minimumDoseIntervalNone": "គ្មាន",
   "minimumDoseIntervalHoursFormat": "យ៉ាងហោចណាស់ {hours} ម៉ោង",
   "doseIntervalWarningTitle": "ចន្លោះពេលចាំបាច់រវាងការលេបថ្នាំមិនទាន់កន្លងផុតទេ",
-  "doseIntervalWarningMessage": "អ្នកបានលេបថ្នាំរួចហើយនៅម៉ោង {latestTakeTime}។ ការកំណត់តម្រូវឱ្យមានចន្លោះយ៉ាងហោចណាស់ {minimumDoseIntervalHours} ម៉ោងរវាងការលេបថ្នាំ។ តើនៅតែចង់កត់ត្រាឬទេ?"
+  "doseIntervalWarningMessage": "អ្នកបានលេបថ្នាំរួចហើយនៅម៉ោង {latestTakeTime}។ ការកំណត់តម្រូវឱ្យមានចន្លោះយ៉ាងហោចណាស់ {minimumDoseIntervalHours} ម៉ោងរវាងការលេបថ្នាំ។ តើនៅតែចង់កត់ត្រាឬទេ?",
+  "doseIntervalWarningTakeAnyway": "កត់ត្រា"
 }

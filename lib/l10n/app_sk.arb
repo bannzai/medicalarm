@@ -227,5 +227,6 @@
   "minimumDoseIntervalNone": "Žiadne",
   "minimumDoseIntervalHoursFormat": "Minimálne {hours} hodín",
   "doseIntervalWarningTitle": "Medzi dávkami ešte neuplynul potrebný čas",
-  "doseIntervalWarningMessage": "Liek ste užili o {latestTakeTime}. Nastavenie vyžaduje medzi dávkami odstup aspoň {minimumDoseIntervalHours} hodín. Chcete ho napriek tomu zaznamenať?"
+  "doseIntervalWarningMessage": "Liek ste užili o {latestTakeTime}. Nastavenie vyžaduje medzi dávkami odstup aspoň {minimumDoseIntervalHours} hodín. Chcete ho napriek tomu zaznamenať?",
+  "doseIntervalWarningTakeAnyway": "Zaznamenať"
 }

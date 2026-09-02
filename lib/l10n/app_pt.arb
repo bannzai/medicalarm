@@ -227,5 +227,6 @@
   "minimumDoseIntervalNone": "Nenhum",
   "minimumDoseIntervalHoursFormat": "Pelo menos {hours} horas",
   "doseIntervalWarningTitle": "O intervalo entre as doses ainda não terminou",
-  "doseIntervalWarningMessage": "Já tomou o medicamento às {latestTakeTime}. A definição exige um intervalo mínimo de {minimumDoseIntervalHours} horas entre as doses. Quer registá-lo mesmo assim?"
+  "doseIntervalWarningMessage": "Já tomou o medicamento às {latestTakeTime}. A definição exige um intervalo mínimo de {minimumDoseIntervalHours} horas entre as doses. Quer registá-lo mesmo assim?",
+  "doseIntervalWarningTakeAnyway": "Registar"
 }

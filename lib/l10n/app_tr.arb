@@ -227,5 +227,6 @@
   "minimumDoseIntervalNone": "Yok",
   "minimumDoseIntervalHoursFormat": "En az {hours} saat",
   "doseIntervalWarningTitle": "Dozlar arasındaki gerekli süre henüz geçmedi",
-  "doseIntervalWarningMessage": "İlacı {latestTakeTime} tarihinde zaten aldınız. Ayarlara göre dozlar arasında en az {minimumDoseIntervalHours} saat olmalıdır. Yine de kaydetmek istiyor musunuz?"
+  "doseIntervalWarningMessage": "İlacı {latestTakeTime} tarihinde zaten aldınız. Ayarlara göre dozlar arasında en az {minimumDoseIntervalHours} saat olmalıdır. Yine de kaydetmek istiyor musunuz?",
+  "doseIntervalWarningTakeAnyway": "Kaydet"
 }

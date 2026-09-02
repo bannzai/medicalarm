@@ -227,5 +227,6 @@
   "minimumDoseIntervalNone": "නැත",
   "minimumDoseIntervalHoursFormat": "අවම වශයෙන් පැය {hours}ක්",
   "doseIntervalWarningTitle": "මාත්‍රා අතර අවශ්‍ය කාලය තවම ගත වී නැත",
-  "doseIntervalWarningMessage": "ඔබ {latestTakeTime} ට ඖෂධය ලබාගෙන ඇත. සැකසීම අනුව මාත්‍රා අතර අවම වශයෙන් {minimumDoseIntervalHours} පැය කාල පරතරයක් තිබිය යුතුය. එසේ වුවත් වාර්තා කරන්නද?"
+  "doseIntervalWarningMessage": "ඔබ {latestTakeTime} ට ඖෂධය ලබාගෙන ඇත. සැකසීම අනුව මාත්‍රා අතර අවම වශයෙන් {minimumDoseIntervalHours} පැය කාල පරතරයක් තිබිය යුතුය. එසේ වුවත් වාර්තා කරන්නද?",
+  "doseIntervalWarningTakeAnyway": "වාර්තා කරන්න"
 }

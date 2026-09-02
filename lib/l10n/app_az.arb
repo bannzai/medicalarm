@@ -227,5 +227,6 @@
   "minimumDoseIntervalNone": "Yoxdur",
   "minimumDoseIntervalHoursFormat": "Ən azı {hours} saat",
   "doseIntervalWarningTitle": "Qəbul etmələr arasındakı vaxt tamamlanmayıb",
-  "doseIntervalWarningMessage": "Dərmanı {latestTakeTime} tarixində qəbul etmisiniz. Parametrlər əvvəlki qəbuldan ən azı {minimumDoseIntervalHours} saat keçməsini tələb edir. Buna baxmayaraq qeyd etmək istəyirsiniz?"
+  "doseIntervalWarningMessage": "Dərmanı {latestTakeTime} tarixində qəbul etmisiniz. Parametrlər əvvəlki qəbuldan ən azı {minimumDoseIntervalHours} saat keçməsini tələb edir. Buna baxmayaraq qeyd etmək istəyirsiniz?",
+  "doseIntervalWarningTakeAnyway": "Qeyd et"
 }
