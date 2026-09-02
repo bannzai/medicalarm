@@ -199,5 +199,6 @@
   "invitationCodeExpiresAt": "Дійсний до: {date}",
   "copyInvitationCode": "Копіювати код",
   "invitationCodeCopied": "Код запрошення скопійовано",
-  "issueInvitationCode": "Створити код запрошення"
+  "issueInvitationCode": "Створити код запрошення",
+  "groupSettings": "Налаштування групи"
 }

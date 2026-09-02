@@ -199,5 +199,6 @@
   "invitationCodeExpiresAt": "May bisa hanggang: {date}",
   "copyInvitationCode": "Kopyahin ang code",
   "invitationCodeCopied": "Nakopya ang invitation code",
-  "issueInvitationCode": "Gumawa ng code ng imbitasyon"
+  "issueInvitationCode": "Gumawa ng code ng imbitasyon",
+  "groupSettings": "Mga setting ng grupo"
 }

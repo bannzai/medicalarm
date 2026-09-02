@@ -199,5 +199,6 @@
   "invitationCodeExpiresAt": "Galioja iki: {date}",
   "copyInvitationCode": "Kopijuoti kodą",
   "invitationCodeCopied": "Kvietimo kodas nukopijuotas",
-  "issueInvitationCode": "Sukurti kvietimo kodą"
+  "issueInvitationCode": "Sukurti kvietimo kodą",
+  "groupSettings": "Grupės nustatymai"
 }

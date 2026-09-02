@@ -199,5 +199,6 @@
   "invitationCodeExpiresAt": "تاریخ انقضا: {date}",
   "copyInvitationCode": "کپی کد",
   "invitationCodeCopied": "کد دعوت کپی شد",
-  "issueInvitationCode": "ایجاد کد دعوت"
+  "issueInvitationCode": "ایجاد کد دعوت",
+  "groupSettings": "تنظیمات گروه"
 }

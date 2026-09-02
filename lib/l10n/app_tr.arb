@@ -199,5 +199,6 @@
   "invitationCodeExpiresAt": "Son geçerlilik tarihi: {date}",
   "copyInvitationCode": "Kodu kopyala",
   "invitationCodeCopied": "Davet kodu kopyalandı",
-  "issueInvitationCode": "Davet kodu oluştur"
+  "issueInvitationCode": "Davet kodu oluştur",
+  "groupSettings": "Grup ayarları"
 }

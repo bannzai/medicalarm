@@ -199,5 +199,6 @@
   "invitationCodeExpiresAt": "만료일: {date}",
   "copyInvitationCode": "코드 복사",
   "invitationCodeCopied": "초대 코드가 복사되었습니다",
-  "issueInvitationCode": "초대 코드 발급"
+  "issueInvitationCode": "초대 코드 발급",
+  "groupSettings": "그룹 설정"
 }

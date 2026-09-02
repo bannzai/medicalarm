@@ -199,5 +199,6 @@
   "invitationCodeExpiresAt": "Vrijedi do: {date}",
   "copyInvitationCode": "Kopiraj kôd",
   "invitationCodeCopied": "Kôd pozivnice kopiran",
-  "issueInvitationCode": "Izradi pozivni kôd"
+  "issueInvitationCode": "Izradi pozivni kôd",
+  "groupSettings": "Postavke grupe"
 }

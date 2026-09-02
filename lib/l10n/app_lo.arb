@@ -199,5 +199,6 @@
   "invitationCodeExpiresAt": "ໝົດອາຍຸ: {date}",
   "copyInvitationCode": "ສຳເນົາລະຫັດ",
   "invitationCodeCopied": "ຄັດລອກລະຫັດເຊີນແລ້ວ",
-  "issueInvitationCode": "ສ້າງລະຫັດເຊີນ"
+  "issueInvitationCode": "ສ້າງລະຫັດເຊີນ",
+  "groupSettings": "ການຕັ້ງຄ່າກຸ່ມ"
 }

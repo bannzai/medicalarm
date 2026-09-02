@@ -199,5 +199,6 @@
   "invitationCodeExpiresAt": "ମିଆଦ ଶେଷ: {date}",
   "copyInvitationCode": "କୋଡ୍ କପି କରନ୍ତୁ",
   "invitationCodeCopied": "ନିମନ୍ତ୍ରଣ କୋଡ୍ କପି ହୋଇଛି",
-  "issueInvitationCode": "ନିମନ୍ତ୍ରଣ କୋଡ୍ ତିଆରି କରନ୍ତୁ"
+  "issueInvitationCode": "ନିମନ୍ତ୍ରଣ କୋଡ୍ ତିଆରି କରନ୍ତୁ",
+  "groupSettings": "ଗ୍ରୁପ୍ ସେଟିଂସ୍"
 }

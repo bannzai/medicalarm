@@ -199,5 +199,6 @@
   "invitationCodeExpiresAt": "Iraungitze-data: {date}",
   "copyInvitationCode": "Kopiatu kodea",
   "invitationCodeCopied": "Gonbidapen-kodea kopiatu da",
-  "issueInvitationCode": "Sortu gonbidapen-kodea"
+  "issueInvitationCode": "Sortu gonbidapen-kodea",
+  "groupSettings": "Taldearen ezarpenak"
 }

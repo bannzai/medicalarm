@@ -199,5 +199,6 @@
   "invitationCodeExpiresAt": "Kehtiv kuni: {date}",
   "copyInvitationCode": "Kopeeri kood",
   "invitationCodeCopied": "Kutsekood kopeeritud",
-  "issueInvitationCode": "Loo kutsekood"
+  "issueInvitationCode": "Loo kutsekood",
+  "groupSettings": "Grupi seaded"
 }

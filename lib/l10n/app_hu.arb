@@ -199,5 +199,6 @@
   "invitationCodeExpiresAt": "Lejárat: {date}",
   "copyInvitationCode": "Kód másolása",
   "invitationCodeCopied": "Meghívókód kimásolva",
-  "issueInvitationCode": "Meghívókód létrehozása"
+  "issueInvitationCode": "Meghívókód létrehozása",
+  "groupSettings": "Csoportbeállítások"
 }

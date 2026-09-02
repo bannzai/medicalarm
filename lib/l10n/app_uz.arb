@@ -199,5 +199,6 @@
   "invitationCodeExpiresAt": "Amal qilish muddati: {date}",
   "copyInvitationCode": "Kodni nusxalash",
   "invitationCodeCopied": "Taklif kodi nusxalandi",
-  "issueInvitationCode": "Taklif kodini yaratish"
+  "issueInvitationCode": "Taklif kodini yaratish",
+  "groupSettings": "Guruh sozlamalari"
 }

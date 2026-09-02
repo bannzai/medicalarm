@@ -199,5 +199,6 @@
   "invitationCodeExpiresAt": "သက်တမ်းကုန်ဆုံးမည့်ရက်: {date}",
   "copyInvitationCode": "ကုဒ်ကို ကူးယူရန်",
   "invitationCodeCopied": "ဖိတ်ကြားကုဒ်ကို ကူးယူပြီးပါပြီ",
-  "issueInvitationCode": "ဖိတ်ကြားကုဒ် ထုတ်ပါ"
+  "issueInvitationCode": "ဖိတ်ကြားကုဒ် ထုတ်ပါ",
+  "groupSettings": "အဖွဲ့ဆက်တင်များ"
 }

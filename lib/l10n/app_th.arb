@@ -199,5 +199,6 @@
   "invitationCodeExpiresAt": "หมดอายุ: {date}",
   "copyInvitationCode": "คัดลอกรหัส",
   "invitationCodeCopied": "คัดลอกรหัสคำเชิญแล้ว",
-  "issueInvitationCode": "สร้างรหัสเชิญ"
+  "issueInvitationCode": "สร้างรหัสเชิญ",
+  "groupSettings": "การตั้งค่ากลุ่ม"
 }

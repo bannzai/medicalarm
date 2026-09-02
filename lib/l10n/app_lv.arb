@@ -199,5 +199,6 @@
   "invitationCodeExpiresAt": "Derīgs līdz: {date}",
   "copyInvitationCode": "Kopēt kodu",
   "invitationCodeCopied": "Uzaicinājuma kods nokopēts",
-  "issueInvitationCode": "Izveidot ielūguma kodu"
+  "issueInvitationCode": "Izveidot ielūguma kodu",
+  "groupSettings": "Grupas iestatījumi"
 }

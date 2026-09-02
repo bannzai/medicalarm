@@ -199,5 +199,6 @@
   "invitationCodeExpiresAt": "בתוקף עד: {date}",
   "copyInvitationCode": "העתקת קוד",
   "invitationCodeCopied": "קוד ההזמנה הועתק",
-  "issueInvitationCode": "יצירת קוד הזמנה"
+  "issueInvitationCode": "יצירת קוד הזמנה",
+  "groupSettings": "הגדרות הקבוצה"
 }

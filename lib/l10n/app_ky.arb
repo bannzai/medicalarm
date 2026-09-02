@@ -199,5 +199,6 @@
   "invitationCodeExpiresAt": "Жарактуулук мөөнөтү: {date}",
   "copyInvitationCode": "Кодду көчүрүү",
   "invitationCodeCopied": "Чакыруу коду көчүрүлдү",
-  "issueInvitationCode": "Чакыруу кодун түзүү"
+  "issueInvitationCode": "Чакыруу кодун түзүү",
+  "groupSettings": "Топ жөндөөлөрү"
 }

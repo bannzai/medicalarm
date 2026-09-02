@@ -199,5 +199,6 @@
   "invitationCodeExpiresAt": "Válido até: {date}",
   "copyInvitationCode": "Copiar código",
   "invitationCodeCopied": "Código de convite copiado",
-  "issueInvitationCode": "Gerar código de convite"
+  "issueInvitationCode": "Gerar código de convite",
+  "groupSettings": "Configurações do grupo"
 }

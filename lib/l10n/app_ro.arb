@@ -199,5 +199,6 @@
   "invitationCodeExpiresAt": "Valabil până la: {date}",
   "copyInvitationCode": "Copiază codul",
   "invitationCodeCopied": "Codul de invitație a fost copiat",
-  "issueInvitationCode": "Generează cod de invitație"
+  "issueInvitationCode": "Generează cod de invitație",
+  "groupSettings": "Setările grupului"
 }

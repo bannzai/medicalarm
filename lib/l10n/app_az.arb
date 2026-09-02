@@ -199,5 +199,6 @@
   "invitationCodeExpiresAt": "Etibarlılıq müddəti: {date}",
   "copyInvitationCode": "Kodu kopyala",
   "invitationCodeCopied": "Dəvət kodu kopyalandı",
-  "issueInvitationCode": "Dəvət kodu yaradın"
+  "issueInvitationCode": "Dəvət kodu yaradın",
+  "groupSettings": "Qrup ayarları"
 }

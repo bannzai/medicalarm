@@ -199,5 +199,6 @@
   "invitationCodeExpiresAt": "म्याद सकिने मिति: {date}",
   "copyInvitationCode": "कोड प्रतिलिपि गर्नुहोस्",
   "invitationCodeCopied": "निमन्त्रणा कोड प्रतिलिपि गरियो",
-  "issueInvitationCode": "आमन्त्रण कोड सिर्जना गर्नुहोस्"
+  "issueInvitationCode": "आमन्त्रण कोड सिर्जना गर्नुहोस्",
+  "groupSettings": "समूह सेटिङहरू"
 }

@@ -199,5 +199,6 @@
   "invitationCodeExpiresAt": "Udløber: {date}",
   "copyInvitationCode": "Kopiér kode",
   "invitationCodeCopied": "Invitationskode kopieret",
-  "issueInvitationCode": "Opret invitationskode"
+  "issueInvitationCode": "Opret invitationskode",
+  "groupSettings": "Gruppeindstillinger"
 }

@@ -199,5 +199,6 @@
   "invitationCodeExpiresAt": "მოქმედების ვადა: {date}",
   "copyInvitationCode": "კოდის კოპირება",
   "invitationCodeCopied": "მოწვევის კოდი დაკოპირდა",
-  "issueInvitationCode": "მოსაწვევი კოდის შექმნა"
+  "issueInvitationCode": "მოსაწვევი კოდის შექმნა",
+  "groupSettings": "ჯგუფის პარამეტრები"
 }

@@ -199,5 +199,6 @@
   "invitationCodeExpiresAt": "Platnost do: {date}",
   "copyInvitationCode": "Kopírovat kód",
   "invitationCodeCopied": "Kód pozvánky byl zkopírován",
-  "issueInvitationCode": "Vygenerovat zvací kód"
+  "issueInvitationCode": "Vygenerovat zvací kód",
+  "groupSettings": "Nastavení skupiny"
 }

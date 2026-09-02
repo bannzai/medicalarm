@@ -199,5 +199,6 @@
   "invitationCodeExpiresAt": "Kuphelelwa yisikhathi: {date}",
   "copyInvitationCode": "Kopisha ikhodi",
   "invitationCodeCopied": "Ikhodi yesimemo ikopishiwe",
-  "issueInvitationCode": "Dala ikhodi yesimemo"
+  "issueInvitationCode": "Dala ikhodi yesimemo",
+  "groupSettings": "Izilungiselelo zeqembu"
 }

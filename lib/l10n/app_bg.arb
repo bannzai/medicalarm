@@ -199,5 +199,6 @@
   "invitationCodeExpiresAt": "Валиден до: {date}",
   "copyInvitationCode": "Копиране на кода",
   "invitationCodeCopied": "Кодът за покана е копиран",
-  "issueInvitationCode": "Генериране на код за покана"
+  "issueInvitationCode": "Генериране на код за покана",
+  "groupSettings": "Настройки на групата"
 }

@@ -199,5 +199,6 @@
   "invitationCodeExpiresAt": "Berlaku hingga: {date}",
   "copyInvitationCode": "Salin kode",
   "invitationCodeCopied": "Kode undangan disalin",
-  "issueInvitationCode": "Buat kode undangan"
+  "issueInvitationCode": "Buat kode undangan",
+  "groupSettings": "Pengaturan grup"
 }

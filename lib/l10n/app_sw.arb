@@ -199,5 +199,6 @@
   "invitationCodeExpiresAt": "Inaisha: {date}",
   "copyInvitationCode": "Nakili msimbo",
   "invitationCodeCopied": "Msimbo wa mwaliko umenakiliwa",
-  "issueInvitationCode": "Unda msimbo wa mwaliko"
+  "issueInvitationCode": "Unda msimbo wa mwaliko",
+  "groupSettings": "Mipangilio ya kikundi"
 }

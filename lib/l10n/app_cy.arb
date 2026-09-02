@@ -199,5 +199,6 @@
   "invitationCodeExpiresAt": "Daw i ben: {date}",
   "copyInvitationCode": "Copïo cod",
   "invitationCodeCopied": "Cod gwahoddiad wedi’i gopïo",
-  "issueInvitationCode": "Cyhoeddi cod gwahoddiad"
+  "issueInvitationCode": "Cyhoeddi cod gwahoddiad",
+  "groupSettings": "Gosodiadau grŵp"
 }

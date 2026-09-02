@@ -199,5 +199,6 @@
   "invitationCodeExpiresAt": "ផុតកំណត់៖ {date}",
   "copyInvitationCode": "ចម្លងកូដ",
   "invitationCodeCopied": "លេខកូដអញ្ជើញត្រូវបានចម្លង",
-  "issueInvitationCode": "បង្កើតលេខកូដអញ្ជើញ"
+  "issueInvitationCode": "បង្កើតលេខកូដអញ្ជើញ",
+  "groupSettings": "ការកំណត់ក្រុម"
 }

@@ -199,5 +199,6 @@
   "invitationCodeExpiresAt": "Voimassa asti: {date}",
   "copyInvitationCode": "Kopioi koodi",
   "invitationCodeCopied": "Kutsukoodi kopioitu",
-  "issueInvitationCode": "Luo kutsukoodi"
+  "issueInvitationCode": "Luo kutsukoodi",
+  "groupSettings": "Ryhmän asetukset"
 }

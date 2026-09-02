@@ -199,5 +199,6 @@
   "invitationCodeExpiresAt": "ম্যাদ উকলাৰ তাৰিখ: {date}",
   "copyInvitationCode": "ক'ড কপি কৰক",
   "invitationCodeCopied": "আমন্ত্ৰণ ক'ড কপি কৰা হৈছে",
-  "issueInvitationCode": "আমন্ত্ৰণ কোড জাৰি কৰক"
+  "issueInvitationCode": "আমন্ত্ৰণ কোড জাৰি কৰক",
+  "groupSettings": "গোটৰ ছেটিংসমূহ"
 }

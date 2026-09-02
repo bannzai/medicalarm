@@ -199,5 +199,6 @@
   "invitationCodeExpiresAt": "Geldig tot: {date}",
   "copyInvitationCode": "Kopieer kode",
   "invitationCodeCopied": "Uitnodigingskode gekopieer",
-  "issueInvitationCode": "Genereer uitnodigingskode"
+  "issueInvitationCode": "Genereer uitnodigingskode",
+  "groupSettings": "Groepinstellings"
 }

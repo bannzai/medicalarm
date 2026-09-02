@@ -199,5 +199,6 @@
   "invitationCodeExpiresAt": "Gildir til: {date}",
   "copyInvitationCode": "Afrita kóða",
   "invitationCodeCopied": "Boðskortskóði afritaður",
-  "issueInvitationCode": "Búa til boðskóða"
+  "issueInvitationCode": "Búa til boðskóða",
+  "groupSettings": "Stillingar hóps"
 }

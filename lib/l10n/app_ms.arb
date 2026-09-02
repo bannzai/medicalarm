@@ -199,5 +199,6 @@
   "invitationCodeExpiresAt": "Sah sehingga: {date}",
   "copyInvitationCode": "Salin kod",
   "invitationCodeCopied": "Kod jemputan disalin",
-  "issueInvitationCode": "Jana kod jemputan"
+  "issueInvitationCode": "Jana kod jemputan",
+  "groupSettings": "Tetapan kumpulan"
 }

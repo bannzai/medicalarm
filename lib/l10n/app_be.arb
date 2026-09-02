@@ -199,5 +199,6 @@
   "invitationCodeExpiresAt": "Тэрмін дзеяння: {date}",
   "copyInvitationCode": "Капіяваць код",
   "invitationCodeCopied": "Код запрашэння скапіяваны",
-  "issueInvitationCode": "Стварыць код запрашэння"
+  "issueInvitationCode": "Стварыць код запрашэння",
+  "groupSettings": "Налады групы"
 }

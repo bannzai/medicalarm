@@ -199,5 +199,6 @@
   "invitationCodeExpiresAt": "የሚያበቃበት ቀን፦ {date}",
   "copyInvitationCode": "ኮዱን ቅዳ",
   "invitationCodeCopied": "የግብዣ ኮዱ ተቀድቷል",
-  "issueInvitationCode": "የግብዣ ኮድ አውጣ"
+  "issueInvitationCode": "የግብዣ ኮድ አውጣ",
+  "groupSettings": "የቡድን ቅንብሮች"
 }

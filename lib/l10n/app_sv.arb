@@ -199,5 +199,6 @@
   "invitationCodeExpiresAt": "Giltig till: {date}",
   "copyInvitationCode": "Kopiera kod",
   "invitationCodeCopied": "Inbjudningskoden har kopierats",
-  "issueInvitationCode": "Skapa inbjudningskod"
+  "issueInvitationCode": "Skapa inbjudningskod",
+  "groupSettings": "Gruppinställningar"
 }

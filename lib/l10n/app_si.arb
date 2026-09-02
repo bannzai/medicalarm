@@ -199,5 +199,6 @@
   "invitationCodeExpiresAt": "කල් ඉකුත්වන දිනය: {date}",
   "copyInvitationCode": "කේතය පිටපත් කරන්න",
   "invitationCodeCopied": "ආරාධනා කේතය පිටපත් කරන ලදී",
-  "issueInvitationCode": "ආරාධනා කේතය සාදන්න"
+  "issueInvitationCode": "ආරාධනා කේතය සාදන්න",
+  "groupSettings": "කණ්ඩායම් සැකසීම්"
 }
