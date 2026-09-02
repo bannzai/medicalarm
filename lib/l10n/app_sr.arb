@@ -181,5 +181,6 @@
   "revertedByMember": "Otkazano od strane člana {name}",
   "medicationTakenAtLabel": "Узето у {time}",
   "medicineResumedSnackbar": "Узимање лека је настављено",
-  "medicineEditTooltip": "Измени лек"
+  "medicineEditTooltip": "Измени лек",
+  "groups": "Групе"
 }

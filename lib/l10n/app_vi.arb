@@ -181,5 +181,6 @@
   "revertedByMember": "{name} đã hủy",
   "medicationTakenAtLabel": "Đã uống lúc {time}",
   "medicineResumedSnackbar": "Đã tiếp tục dùng thuốc",
-  "medicineEditTooltip": "Chỉnh sửa thuốc"
+  "medicineEditTooltip": "Chỉnh sửa thuốc",
+  "groups": "Nhóm"
 }

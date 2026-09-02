@@ -181,5 +181,6 @@
   "revertedByMember": "Cancel·lat per {name}",
   "medicationTakenAtLabel": "Pres a les {time}",
   "medicineResumedSnackbar": "S'ha reprès la presa del medicament",
-  "medicineEditTooltip": "Edita el medicament"
+  "medicineEditTooltip": "Edita el medicament",
+  "groups": "Grups"
 }

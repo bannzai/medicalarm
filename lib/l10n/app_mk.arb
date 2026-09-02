@@ -181,5 +181,6 @@
   "revertedByMember": "Откажано од {name}",
   "medicationTakenAtLabel": "Земено во {time}",
   "medicineResumedSnackbar": "Земањето на лекот е продолжено",
-  "medicineEditTooltip": "Уреди лек"
+  "medicineEditTooltip": "Уреди лек",
+  "groups": "Групи"
 }

@@ -181,5 +181,6 @@
   "revertedByMember": "Preklicano s strani uporabnika {name}",
   "medicationTakenAtLabel": "Vzeto ob {time}",
   "medicineResumedSnackbar": "Jemanje zdravila se je nadaljevalo",
-  "medicineEditTooltip": "Uredi zdravilo"
+  "medicineEditTooltip": "Uredi zdravilo",
+  "groups": "Skupine"
 }

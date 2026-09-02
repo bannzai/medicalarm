@@ -181,5 +181,6 @@
   "revertedByMember": "Kansellert av {name}",
   "medicationTakenAtLabel": "Tatt kl. {time}",
   "medicineResumedSnackbar": "Medisininntaket er gjenopptatt",
-  "medicineEditTooltip": "Rediger medisin"
+  "medicineEditTooltip": "Rediger medisin",
+  "groups": "Grupper"
 }

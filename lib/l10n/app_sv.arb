@@ -181,5 +181,6 @@
   "revertedByMember": "Avbrutet av {name}",
   "medicationTakenAtLabel": "Tagen kl. {time}",
   "medicineResumedSnackbar": "Intaget av medicinen har återupptagits",
-  "medicineEditTooltip": "Redigera medicin"
+  "medicineEditTooltip": "Redigera medicin",
+  "groups": "Grupper"
 }

@@ -181,5 +181,6 @@
   "revertedByMember": "{name}已取消",
   "medicationTakenAtLabel": "{time} 已服用",
   "medicineResumedSnackbar": "已恢复服药",
-  "medicineEditTooltip": "编辑药物"
+  "medicineEditTooltip": "编辑药物",
+  "groups": "群组"
 }

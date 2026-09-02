@@ -181,5 +181,6 @@
   "revertedByMember": "{name} বাতিল করেছেন",
   "medicationTakenAtLabel": "{time}-এ সেবন করা হয়েছে",
   "medicineResumedSnackbar": "ওষুধ খাওয়া আবার শুরু হয়েছে",
-  "medicineEditTooltip": "ওষুধ সম্পাদনা করুন"
+  "medicineEditTooltip": "ওষুধ সম্পাদনা করুন",
+  "groups": "গ্রুপ"
 }

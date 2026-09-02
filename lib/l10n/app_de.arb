@@ -181,5 +181,6 @@
   "revertedByMember": "Von {name} storniert",
   "medicationTakenAtLabel": "Um {time} eingenommen",
   "medicineResumedSnackbar": "Die Medikamenteneinnahme wurde fortgesetzt",
-  "medicineEditTooltip": "Medikament bearbeiten"
+  "medicineEditTooltip": "Medikament bearbeiten",
+  "groups": "Gruppen"
 }

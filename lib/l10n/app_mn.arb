@@ -181,5 +181,6 @@
   "revertedByMember": "{name} цуцалсан",
   "medicationTakenAtLabel": "{time}-д уусан",
   "medicineResumedSnackbar": "Эм уухыг дахин эхлүүллээ",
-  "medicineEditTooltip": "Эмийг засах"
+  "medicineEditTooltip": "Эмийг засах",
+  "groups": "Бүлгүүд"
 }

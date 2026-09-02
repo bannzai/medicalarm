@@ -181,5 +181,6 @@
   "revertedByMember": "Vo {name} annulliert",
   "medicationTakenAtLabel": "Um {time} gnoh",
   "medicineResumedSnackbar": "D Medikamenteneinnahm isch wieder ufgnuu worde",
-  "medicineEditTooltip": "Medikament bearbeite"
+  "medicineEditTooltip": "Medikament bearbeite",
+  "groups": "Gruppen"
 }

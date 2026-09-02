@@ -181,5 +181,6 @@
   "revertedByMember": "{name} විසින් අවලංගු කරන ලදී",
   "medicationTakenAtLabel": "{time} ට ගත්තා",
   "medicineResumedSnackbar": "ඖෂධ ගැනීම නැවත ආරම්භ කර ඇත",
-  "medicineEditTooltip": "ඖෂධය සංස්කරණය කරන්න"
+  "medicineEditTooltip": "ඖෂධය සංස්කරණය කරන්න",
+  "groups": "කණ්ඩායම්"
 }

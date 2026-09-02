@@ -181,5 +181,6 @@
   "revertedByMember": "Запіс скасаваны карыстальнікам {name}",
   "medicationTakenAtLabel": "Прынята ў {time}",
   "medicineResumedSnackbar": "Прыём прэпарата адноўлены",
-  "medicineEditTooltip": "Рэдагаваць лекі"
+  "medicineEditTooltip": "Рэдагаваць лекі",
+  "groups": "Групы"
 }

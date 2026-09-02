@@ -181,5 +181,6 @@
   "revertedByMember": "Annullato da {name}",
   "medicationTakenAtLabel": "Assunto alle {time}",
   "medicineResumedSnackbar": "L'assunzione del farmaco è ripresa",
-  "medicineEditTooltip": "Modifica farmaco"
+  "medicineEditTooltip": "Modifica farmaco",
+  "groups": "Gruppi"
 }

@@ -181,5 +181,6 @@
   "revertedByMember": "{name} ರದ್ದುಪಡಿಸಿದ್ದಾರೆ",
   "medicationTakenAtLabel": "{time}ಕ್ಕೆ ತೆಗೆದುಕೊಳ್ಳಲಾಗಿದೆ",
   "medicineResumedSnackbar": "ಔಷಧಿ ಸೇವನೆಯನ್ನು ಪುನರಾರಂಭಿಸಲಾಗಿದೆ",
-  "medicineEditTooltip": "ಔಷಧ ಸಂಪಾದಿಸಿ"
+  "medicineEditTooltip": "ಔಷಧ ಸಂಪಾದಿಸಿ",
+  "groups": "ಗುಂಪುಗಳು"
 }

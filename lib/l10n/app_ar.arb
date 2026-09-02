@@ -181,5 +181,6 @@
   "revertedByMember": "ألغى {name} السجل",
   "medicationTakenAtLabel": "تم تناوله في {time}",
   "medicineResumedSnackbar": "تم استئناف تناول الدواء",
-  "medicineEditTooltip": "تعديل الدواء"
+  "medicineEditTooltip": "تعديل الدواء",
+  "groups": "المجموعات"
 }

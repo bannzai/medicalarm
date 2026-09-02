@@ -181,5 +181,6 @@
   "revertedByMember": "Cancelado por {name}",
   "medicationTakenAtLabel": "Tomado ás {time}",
   "medicineResumedSnackbar": "Retomouse a toma do medicamento",
-  "medicineEditTooltip": "Editar medicamento"
+  "medicineEditTooltip": "Editar medicamento",
+  "groups": "Grupos"
 }

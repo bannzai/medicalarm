@@ -181,5 +181,6 @@
   "revertedByMember": "Visszavonta: {name}",
   "medicationTakenAtLabel": "Bevéve: {time}",
   "medicineResumedSnackbar": "A gyógyszer szedése folytatódik",
-  "medicineEditTooltip": "Gyógyszer szerkesztése"
+  "medicineEditTooltip": "Gyógyszer szerkesztése",
+  "groups": "Csoportok"
 }

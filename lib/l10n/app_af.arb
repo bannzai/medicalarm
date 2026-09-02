@@ -181,5 +181,6 @@
   "revertedByMember": "{name} het gekanselleer",
   "medicationTakenAtLabel": "{time} Ingeneem",
   "medicineResumedSnackbar": "Medikasie hervat",
-  "medicineEditTooltip": "Wysig medisyne"
+  "medicineEditTooltip": "Wysig medisyne",
+  "groups": "Groepe"
 }

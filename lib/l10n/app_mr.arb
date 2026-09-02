@@ -181,5 +181,6 @@
   "revertedByMember": "{name} यांनी रद्द केले",
   "medicationTakenAtLabel": "{time} वाजता घेतले",
   "medicineResumedSnackbar": "औषध घेणे पुन्हा सुरू केले",
-  "medicineEditTooltip": "औषध संपादित करा"
+  "medicineEditTooltip": "औषध संपादित करा",
+  "groups": "गट"
 }

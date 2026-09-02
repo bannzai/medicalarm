@@ -181,5 +181,6 @@
   "revertedByMember": "Atcēla {name}",
   "medicationTakenAtLabel": "Lietots plkst. {time}",
   "medicineResumedSnackbar": "Zāļu lietošana ir atsākta",
-  "medicineEditTooltip": "Rediģēt zāles"
+  "medicineEditTooltip": "Rediģēt zāles",
+  "groups": "Grupas"
 }

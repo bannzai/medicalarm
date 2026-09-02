@@ -181,5 +181,6 @@
   "revertedByMember": "Tühistas {name}",
   "medicationTakenAtLabel": "Võetud kell {time}",
   "medicineResumedSnackbar": "Ravimi võtmist jätkati",
-  "medicineEditTooltip": "Muuda ravimit"
+  "medicineEditTooltip": "Muuda ravimit",
+  "groups": "Rühmad"
 }

@@ -181,5 +181,6 @@
   "revertedByMember": "{name} ləğv etdi",
   "medicationTakenAtLabel": "{time} Qəbul edilib",
   "medicineResumedSnackbar": "Dərmanın qəbulu bərpa edildi",
-  "medicineEditTooltip": "Dərmanı redaktə et"
+  "medicineEditTooltip": "Dərmanı redaktə et",
+  "groups": "Qruplar"
 }

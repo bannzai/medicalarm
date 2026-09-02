@@ -181,5 +181,6 @@
   "revertedByMember": "Zrušeno uživatelem {name}",
   "medicationTakenAtLabel": "Užito v {time}",
   "medicineResumedSnackbar": "Užívání léku bylo obnoveno",
-  "medicineEditTooltip": "Upravit lék"
+  "medicineEditTooltip": "Upravit lék",
+  "groups": "Skupiny"
 }

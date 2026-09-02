@@ -181,5 +181,6 @@
   "revertedByMember": "{name} ยกเลิกแล้ว",
   "medicationTakenAtLabel": "รับประทานแล้วเวลา {time}",
   "medicineResumedSnackbar": "เริ่มรับประทานยาอีกครั้งแล้ว",
-  "medicineEditTooltip": "แก้ไขยา"
+  "medicineEditTooltip": "แก้ไขยา",
+  "groups": "กลุ่ม"
 }

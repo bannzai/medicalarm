@@ -181,5 +181,6 @@
   "revertedByMember": "{name} ரத்து செய்தார்",
   "medicationTakenAtLabel": "{time} மணிக்கு எடுத்துக்கொள்ளப்பட்டது",
   "medicineResumedSnackbar": "மருந்து உட்கொள்வது மீண்டும் தொடங்கப்பட்டது",
-  "medicineEditTooltip": "மருந்தைத் திருத்து"
+  "medicineEditTooltip": "மருந்தைத் திருத்து",
+  "groups": "குழுக்கள்"
 }

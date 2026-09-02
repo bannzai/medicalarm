@@ -181,5 +181,6 @@
   "revertedByMember": "Wedi’i ganslo gan {name}",
   "medicationTakenAtLabel": "Wedi’i gymryd am {time}",
   "medicineResumedSnackbar": "Ailddechreuwyd cymryd y feddyginiaeth",
-  "medicineEditTooltip": "Golygu meddyginiaeth"
+  "medicineEditTooltip": "Golygu meddyginiaeth",
+  "groups": "Grwpiau"
 }

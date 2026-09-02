@@ -181,5 +181,6 @@
   "revertedByMember": "Отменено пользователем {name}",
   "medicationTakenAtLabel": "Принято в {time}",
   "medicineResumedSnackbar": "Приём лекарства возобновлён",
-  "medicineEditTooltip": "Редактировать лекарство"
+  "medicineEditTooltip": "Редактировать лекарство",
+  "groups": "Группы"
 }

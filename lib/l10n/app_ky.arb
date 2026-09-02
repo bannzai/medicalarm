@@ -181,5 +181,6 @@
   "revertedByMember": "{name} жокко чыгарды",
   "medicationTakenAtLabel": "{time} кабыл алынды",
   "medicineResumedSnackbar": "Дарыны кабыл алуу кайра башталды",
-  "medicineEditTooltip": "Дарыны түзөтүү"
+  "medicineEditTooltip": "Дарыны түзөтүү",
+  "groups": "Топтор"
 }

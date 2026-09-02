@@ -181,5 +181,6 @@
   "revertedByMember": "{name} membatalkan",
   "medicationTakenAtLabel": "Diminum pada {time}",
   "medicineResumedSnackbar": "Konsumsi obat dilanjutkan",
-  "medicineEditTooltip": "Edit obat"
+  "medicineEditTooltip": "Edit obat",
+  "groups": "Grup"
 }

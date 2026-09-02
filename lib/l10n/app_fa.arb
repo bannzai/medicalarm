@@ -181,5 +181,6 @@
   "revertedByMember": "{name} لغو کرد",
   "medicationTakenAtLabel": "در {time} مصرف شد",
   "medicineResumedSnackbar": "مصرف دارو از سر گرفته شد",
-  "medicineEditTooltip": "ویرایش دارو"
+  "medicineEditTooltip": "ویرایش دارو",
+  "groups": "گروه‌ها"
 }

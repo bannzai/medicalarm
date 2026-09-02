@@ -181,5 +181,6 @@
   "revertedByMember": "{name} ने रद्द किया",
   "medicationTakenAtLabel": "{time} पर लिया गया",
   "medicineResumedSnackbar": "दवा लेना फिर से शुरू किया गया",
-  "medicineEditTooltip": "दवा संपादित करें"
+  "medicineEditTooltip": "दवा संपादित करें",
+  "groups": "समूह"
 }

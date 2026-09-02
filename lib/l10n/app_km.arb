@@ -181,5 +181,6 @@
   "revertedByMember": "{name} បានបោះបង់",
   "medicationTakenAtLabel": "បានលេបនៅម៉ោង {time}",
   "medicineResumedSnackbar": "ការលេបថ្នាំត្រូវបានចាប់ផ្តើមឡើងវិញ",
-  "medicineEditTooltip": "កែសម្រួលថ្នាំ"
+  "medicineEditTooltip": "កែសម្រួលថ្នាំ",
+  "groups": "ក្រុម"
 }

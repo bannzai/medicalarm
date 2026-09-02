@@ -181,5 +181,6 @@
   "revertedByMember": "Скасовано користувачем {name}",
   "medicationTakenAtLabel": "Прийнято о {time}",
   "medicineResumedSnackbar": "Прийом ліків відновлено",
-  "medicineEditTooltip": "Редагувати ліки"
+  "medicineEditTooltip": "Редагувати ліки",
+  "groups": "Групи"
 }
