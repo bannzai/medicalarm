@@ -164,5 +164,6 @@
   "writeReviewFor5StarPromotion": "Laissez une note de 5 étoiles et un avis sur l’App Store pour essayer gratuitement les fonctionnalités premium pendant {count} jours !",
   "rating5StarsEncouragement": "Votre note de ★5 est un grand encouragement pour les développeurs.\nSoutenez-nous pour nous aider à créer une application encore meilleure !",
   "noAutoCharge": "Aucun prélèvement automatique ne sera effectué. À la fin de la période d’essai, vous reviendrez automatiquement au forfait gratuit.",
-  "write5StarReview": "Écrire un avis 5 étoiles"
+  "write5StarReview": "Écrire un avis 5 étoiles",
+  "receiveReward": "Recevoir la récompense"
 }

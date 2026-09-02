@@ -164,5 +164,6 @@
   "writeReviewFor5StarPromotion": "Shkruani një vlerësim me 5 yje dhe një koment në App Store për t’i provuar falas veçoritë premium për {count} ditë!",
   "rating5StarsEncouragement": "Vlerësimi juaj me ★5 është një nxitje e madhe për zhvilluesit.\nNa mbështesni që të krijojmë një aplikacion edhe më të mirë!",
   "noAutoCharge": "Nuk do të kryhet asnjë tarifim automatik. Pas përfundimit të periudhës së provës, do të ktheheni automatikisht te plani falas.",
-  "write5StarReview": "Shkruani një koment me 5 yje"
+  "write5StarReview": "Shkruani një koment me 5 yje",
+  "receiveReward": "Merr shpërblimin"
 }

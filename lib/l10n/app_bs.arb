@@ -164,5 +164,6 @@
   "writeReviewFor5StarPromotion": "Napišite ocjenu od 5 zvjezdica i recenziju u App Storeu te besplatno isprobajte premium funkcije tokom {count} dana!",
   "rating5StarsEncouragement": "Vaša ocjena s ★5 zvjezdica velika je motivacija za programere.\nPodržite nas kako bismo napravili još bolju aplikaciju!",
   "noAutoCharge": "Neće biti automatske naplate. Nakon isteka probnog perioda automatski ćete se vratiti na besplatni plan.",
-  "write5StarReview": "Napišite recenziju s 5 zvjezdica"
+  "write5StarReview": "Napišite recenziju s 5 zvjezdica",
+  "receiveReward": "Preuzmite nagradu"
 }

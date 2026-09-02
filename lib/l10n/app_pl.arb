@@ -164,5 +164,6 @@
   "writeReviewFor5StarPromotion": "Napisz w App Store opinię i wystaw ocenę 5 gwiazdek, aby bezpłatnie wypróbować funkcje premium przez {count} dni!",
   "rating5StarsEncouragement": "Twoja ocena ★5 jest ogromną zachętą dla twórców.\nWesprzyj nas, abyśmy mogli tworzyć jeszcze lepszą aplikację!",
   "noAutoCharge": "Nie zostanie pobrana żadna automatyczna opłata. Po zakończeniu okresu próbnego automatycznie wrócisz do bezpłatnego planu.",
-  "write5StarReview": "Napisz 5-gwiazdkową recenzję"
+  "write5StarReview": "Napisz 5-gwiazdkową recenzję",
+  "receiveReward": "Odbierz nagrodę"
 }

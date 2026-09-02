@@ -164,5 +164,6 @@
   "writeReviewFor5StarPromotion": "V App Storu napišite oceno s 5 zvezdicami in mnenje ter brezplačno preizkusite premijske funkcije za {count} dni!",
   "rating5StarsEncouragement": "Vaša ocena ★5 je za razvijalce velika spodbuda.\nPodprite nas, da bomo lahko ustvarili še boljšo aplikacijo!",
   "noAutoCharge": "Samodejno plačilo ne bo zaračunano. Po koncu preizkusnega obdobja se boste samodejno vrnili na brezplačni paket.",
-  "write5StarReview": "Napišite oceno s 5 zvezdicami"
+  "write5StarReview": "Napišite oceno s 5 zvezdicami",
+  "receiveReward": "Prejmite nagrado"
 }

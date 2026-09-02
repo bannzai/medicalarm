@@ -164,5 +164,6 @@
   "writeReviewFor5StarPromotion": "App Store’da 5 yıldızlı bir puan ve inceleme yazın, premium özellikleri {count} gün boyunca ücretsiz deneyin!",
   "rating5StarsEncouragement": "★5 puanınız geliştiriciler için büyük bir teşviktir.\nDaha iyi bir uygulama geliştirmemize destek olun!",
   "noAutoCharge": "Otomatik olarak ücret alınmaz. Deneme süresi sona erdikten sonra otomatik olarak ücretsiz plana dönersiniz.",
-  "write5StarReview": "5 yıldızlı yorum yazın"
+  "write5StarReview": "5 yıldızlı yorum yazın",
+  "receiveReward": "Ödülü al"
 }

@@ -164,5 +164,6 @@
   "writeReviewFor5StarPromotion": "Schreiben Sie im App Store eine 5-Sterne-Bewertung und Rezension und testen Sie die Premiumfunktionen {count} Tage kostenlos!",
   "rating5StarsEncouragement": "Deine ★5-Bewertung ist eine große Ermutigung für die Entwickler.\nBitte unterstütze uns dabei, eine noch bessere App zu entwickeln!",
   "noAutoCharge": "Es wird keine automatische Zahlung berechnet. Nach Ablauf des Testzeitraums wechseln Sie automatisch zurück zum kostenlosen Tarif.",
-  "write5StarReview": "5-Sterne-Bewertung schreiben"
+  "write5StarReview": "5-Sterne-Bewertung schreiben",
+  "receiveReward": "Belohnung erhalten"
 }
