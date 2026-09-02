@@ -203,5 +203,6 @@
   "groupSettings": "Mipangilio ya kikundi",
   "members": "Wanachama",
   "memberFallbackName": "Mwanachama",
-  "yourDisplayName": "Jina lako la kuonyesha"
+  "yourDisplayName": "Jina lako la kuonyesha",
+  "displayNameInputHint": "Weka jina la kuonyeshwa"
 }

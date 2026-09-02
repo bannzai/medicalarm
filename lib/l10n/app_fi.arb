@@ -203,5 +203,6 @@
   "groupSettings": "Ryhmän asetukset",
   "members": "Jäsenet",
   "memberFallbackName": "Jäsen",
-  "yourDisplayName": "Näyttönimesi"
+  "yourDisplayName": "Näyttönimesi",
+  "displayNameInputHint": "Anna näyttönimi"
 }

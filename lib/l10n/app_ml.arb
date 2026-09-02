@@ -203,5 +203,6 @@
   "groupSettings": "ഗ്രൂപ്പ് ക്രമീകരണങ്ങൾ",
   "members": "അംഗങ്ങൾ",
   "memberFallbackName": "അംഗം",
-  "yourDisplayName": "നിങ്ങളുടെ പ്രദർശന നാമം"
+  "yourDisplayName": "നിങ്ങളുടെ പ്രദർശന നാമം",
+  "displayNameInputHint": "പ്രദർശന നാമം നൽകുക"
 }

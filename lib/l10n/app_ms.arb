@@ -203,5 +203,6 @@
   "groupSettings": "Tetapan kumpulan",
   "members": "Ahli",
   "memberFallbackName": "Ahli",
-  "yourDisplayName": "Nama paparan anda"
+  "yourDisplayName": "Nama paparan anda",
+  "displayNameInputHint": "Masukkan nama paparan"
 }

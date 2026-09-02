@@ -203,5 +203,6 @@
   "groupSettings": "ਗਰੁੱਪ ਸੈਟਿੰਗਾਂ",
   "members": "ਮੈਂਬਰ",
   "memberFallbackName": "ਮੈਂਬਰ",
-  "yourDisplayName": "ਤੁਹਾਡਾ ਡਿਸਪਲੇ ਨਾਮ"
+  "yourDisplayName": "ਤੁਹਾਡਾ ਡਿਸਪਲੇ ਨਾਮ",
+  "displayNameInputHint": "ਡਿਸਪਲੇ ਨਾਮ ਦਰਜ ਕਰੋ"
 }

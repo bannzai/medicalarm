@@ -203,5 +203,6 @@
   "groupSettings": "Топ жөндөөлөрү",
   "members": "Мүчөлөр",
   "memberFallbackName": "Мүчө",
-  "yourDisplayName": "Көрсөтүлүүчү атыңыз"
+  "yourDisplayName": "Көрсөтүлүүчү атыңыз",
+  "displayNameInputHint": "Көрүнүүчү атты киргизиңиз"
 }

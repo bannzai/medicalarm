@@ -203,5 +203,6 @@
   "groupSettings": "የቡድን ቅንብሮች",
   "members": "አባላት",
   "memberFallbackName": "አባል",
-  "yourDisplayName": "የእርስዎ የማሳያ ስም"
+  "yourDisplayName": "የእርስዎ የማሳያ ስም",
+  "displayNameInputHint": "የሚታይ ስም ያስገቡ"
 }

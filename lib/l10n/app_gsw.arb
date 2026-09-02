@@ -203,5 +203,6 @@
   "groupSettings": "Gruppeneinstellungen",
   "members": "Mitglieder",
   "memberFallbackName": "Mitglied",
-  "yourDisplayName": "Din Aazeigname"
+  "yourDisplayName": "Din Aazeigname",
+  "displayNameInputHint": "Anzeigename eingeben"
 }

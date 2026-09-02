@@ -203,5 +203,6 @@
   "groupSettings": "Pengaturan grup",
   "members": "Anggota",
   "memberFallbackName": "Anggota",
-  "yourDisplayName": "Nama tampilan Anda"
+  "yourDisplayName": "Nama tampilan Anda",
+  "displayNameInputHint": "Masukkan nama tampilan"
 }

@@ -203,5 +203,6 @@
   "groupSettings": "Խմբի կարգավորումներ",
   "members": "Անդամներ",
   "memberFallbackName": "Անդամ",
-  "yourDisplayName": "Ձեր ցուցադրվող անունը"
+  "yourDisplayName": "Ձեր ցուցադրվող անունը",
+  "displayNameInputHint": "Մուտքագրեք ցուցադրվող անունը"
 }

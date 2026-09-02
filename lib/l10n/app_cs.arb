@@ -203,5 +203,6 @@
   "groupSettings": "Nastavení skupiny",
   "members": "Členové",
   "memberFallbackName": "Člen",
-  "yourDisplayName": "Vaše zobrazované jméno"
+  "yourDisplayName": "Vaše zobrazované jméno",
+  "displayNameInputHint": "Zadejte zobrazované jméno"
 }

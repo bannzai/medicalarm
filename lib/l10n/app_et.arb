@@ -203,5 +203,6 @@
   "groupSettings": "Grupi seaded",
   "members": "Liikmed",
   "memberFallbackName": "Liige",
-  "yourDisplayName": "Teie kuvatav nimi"
+  "yourDisplayName": "Teie kuvatav nimi",
+  "displayNameInputHint": "Sisestage kuvatav nimi"
 }

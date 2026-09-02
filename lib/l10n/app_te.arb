@@ -203,5 +203,6 @@
   "groupSettings": "గ్రూప్ సెట్టింగ్‌లు",
   "members": "సభ్యులు",
   "memberFallbackName": "సభ్యుడు",
-  "yourDisplayName": "మీ ప్రదర్శన పేరు"
+  "yourDisplayName": "మీ ప్రదర్శన పేరు",
+  "displayNameInputHint": "ప్రదర్శన పేరును నమోదు చేయండి"
 }

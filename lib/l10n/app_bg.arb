@@ -203,5 +203,6 @@
   "groupSettings": "Настройки на групата",
   "members": "Членове",
   "memberFallbackName": "Член",
-  "yourDisplayName": "Вашето показвано име"
+  "yourDisplayName": "Вашето показвано име",
+  "displayNameInputHint": "Въведете показвано име"
 }

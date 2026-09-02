@@ -203,5 +203,6 @@
   "groupSettings": "Подешавања групе",
   "members": "Чланови",
   "memberFallbackName": "Члан",
-  "yourDisplayName": "Ваше име за приказ"
+  "yourDisplayName": "Ваше име за приказ",
+  "displayNameInputHint": "Унесите приказано име"
 }

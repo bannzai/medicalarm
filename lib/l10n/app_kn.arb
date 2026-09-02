@@ -203,5 +203,6 @@
   "groupSettings": "ಗುಂಪಿನ ಸೆಟ್ಟಿಂಗ್‌ಗಳು",
   "members": "ಸದಸ್ಯರು",
   "memberFallbackName": "ಸದಸ್ಯ",
-  "yourDisplayName": "ನಿಮ್ಮ ಪ್ರದರ್ಶನ ಹೆಸರು"
+  "yourDisplayName": "ನಿಮ್ಮ ಪ್ರದರ್ಶನ ಹೆಸರು",
+  "displayNameInputHint": "ಪ್ರದರ್ಶನ ಹೆಸರನ್ನು ನಮೂದಿಸಿ"
 }

@@ -203,5 +203,6 @@
   "groupSettings": "Cilësimet e grupit",
   "members": "Anëtarët",
   "memberFallbackName": "Anëtar",
-  "yourDisplayName": "Emri juaj i shfaqur"
+  "yourDisplayName": "Emri juaj i shfaqur",
+  "displayNameInputHint": "Futni emrin e shfaqur"
 }

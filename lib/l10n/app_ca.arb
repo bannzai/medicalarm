@@ -203,5 +203,6 @@
   "groupSettings": "Configuració del grup",
   "members": "Membres",
   "memberFallbackName": "Membre",
-  "yourDisplayName": "El vostre nom de visualització"
+  "yourDisplayName": "El vostre nom de visualització",
+  "displayNameInputHint": "Introduïu el nom visible"
 }

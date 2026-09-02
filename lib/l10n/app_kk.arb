@@ -203,5 +203,6 @@
   "groupSettings": "Топ параметрлері",
   "members": "Мүшелер",
   "memberFallbackName": "Мүше",
-  "yourDisplayName": "Көрсетілетін атыңыз"
+  "yourDisplayName": "Көрсетілетін атыңыз",
+  "displayNameInputHint": "Көрсетілетін атты енгізіңіз"
 }

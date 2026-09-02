@@ -203,5 +203,6 @@
   "groupSettings": "Налады групы",
   "members": "Удзельнікі",
   "memberFallbackName": "Удзельнік",
-  "yourDisplayName": "Вашае адлюстраванае імя"
+  "yourDisplayName": "Вашае адлюстраванае імя",
+  "displayNameInputHint": "Увядзіце адлюстравальнае імя"
 }

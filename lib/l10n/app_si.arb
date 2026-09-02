@@ -203,5 +203,6 @@
   "groupSettings": "කණ්ඩායම් සැකසීම්",
   "members": "සාමාජිකයින්",
   "memberFallbackName": "සාමාජිකයා",
-  "yourDisplayName": "ඔබේ සංදර්ශන නාමය"
+  "yourDisplayName": "ඔබේ සංදර්ශන නාමය",
+  "displayNameInputHint": "සංදර්ශන නාමය ඇතුළත් කරන්න"
 }

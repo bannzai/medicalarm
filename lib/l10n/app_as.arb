@@ -203,5 +203,6 @@
   "groupSettings": "গোটৰ ছেটিংসমূহ",
   "members": "সদস্যসকল",
   "memberFallbackName": "সদস্য",
-  "yourDisplayName": "আপোনাৰ প্ৰদৰ্শনৰ নাম"
+  "yourDisplayName": "আপোনাৰ প্ৰদৰ্শনৰ নাম",
+  "displayNameInputHint": "প্ৰদৰ্শন নাম লিখক"
 }

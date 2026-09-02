@@ -203,5 +203,6 @@
   "groupSettings": "Groepinstellings",
   "members": "Lede",
   "memberFallbackName": "Lid",
-  "yourDisplayName": "Jou vertoonnaam"
+  "yourDisplayName": "Jou vertoonnaam",
+  "displayNameInputHint": "Voer vertoonnaam in"
 }

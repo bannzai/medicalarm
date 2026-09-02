@@ -203,5 +203,6 @@
   "groupSettings": "הגדרות הקבוצה",
   "members": "חברים",
   "memberFallbackName": "חבר",
-  "yourDisplayName": "שם התצוגה שלך"
+  "yourDisplayName": "שם התצוגה שלך",
+  "displayNameInputHint": "הזן שם תצוגה"
 }

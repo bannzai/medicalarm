@@ -203,5 +203,6 @@
   "groupSettings": "Qrup ayarları",
   "members": "Üzvlər",
   "memberFallbackName": "Üzv",
-  "yourDisplayName": "Göstərilən adınız"
+  "yourDisplayName": "Göstərilən adınız",
+  "displayNameInputHint": "Göstərilən adı daxil edin"
 }

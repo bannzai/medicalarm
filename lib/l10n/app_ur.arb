@@ -203,5 +203,6 @@
   "groupSettings": "گروپ کی ترتیبات",
   "members": "اراکین",
   "memberFallbackName": "رکن",
-  "yourDisplayName": "آپ کا ڈسپلے نام"
+  "yourDisplayName": "آپ کا ڈسپلے نام",
+  "displayNameInputHint": "ڈسپلے نام درج کریں"
 }

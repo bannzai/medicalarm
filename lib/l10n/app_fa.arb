@@ -203,5 +203,6 @@
   "groupSettings": "تنظیمات گروه",
   "members": "اعضا",
   "memberFallbackName": "عضو",
-  "yourDisplayName": "نام نمایشی شما"
+  "yourDisplayName": "نام نمایشی شما",
+  "displayNameInputHint": "نام نمایشی را وارد کنید"
 }

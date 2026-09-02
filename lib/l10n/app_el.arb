@@ -203,5 +203,6 @@
   "groupSettings": "Ρυθμίσεις ομάδας",
   "members": "Μέλη",
   "memberFallbackName": "Μέλος",
-  "yourDisplayName": "Το όνομα εμφάνισής σας"
+  "yourDisplayName": "Το όνομα εμφάνισής σας",
+  "displayNameInputHint": "Εισαγάγετε εμφανιζόμενο όνομα"
 }

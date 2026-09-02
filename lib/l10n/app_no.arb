@@ -203,5 +203,6 @@
   "groupSettings": "Gruppeinnstillinger",
   "members": "Medlemmer",
   "memberFallbackName": "Medlem",
-  "yourDisplayName": "Visningsnavnet ditt"
+  "yourDisplayName": "Visningsnavnet ditt",
+  "displayNameInputHint": "Skriv inn visningsnavn"
 }

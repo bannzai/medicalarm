@@ -203,5 +203,6 @@
   "groupSettings": "Grupės nustatymai",
   "members": "Nariai",
   "memberFallbackName": "Narys",
-  "yourDisplayName": "Jūsų rodomas vardas"
+  "yourDisplayName": "Jūsų rodomas vardas",
+  "displayNameInputHint": "Įveskite rodomą vardą"
 }

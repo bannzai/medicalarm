@@ -203,5 +203,6 @@
   "groupSettings": "Csoportbeállítások",
   "members": "Tagok",
   "memberFallbackName": "Tag",
-  "yourDisplayName": "Megjelenített neve"
+  "yourDisplayName": "Megjelenített neve",
+  "displayNameInputHint": "Adja meg a megjelenítendő nevet"
 }

@@ -203,5 +203,6 @@
   "groupSettings": "Grup ayarları",
   "members": "Üyeler",
   "memberFallbackName": "Üye",
-  "yourDisplayName": "Görünen adınız"
+  "yourDisplayName": "Görünen adınız",
+  "displayNameInputHint": "Görünen adı girin"
 }

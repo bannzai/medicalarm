@@ -203,5 +203,6 @@
   "groupSettings": "Izilungiselelo zeqembu",
   "members": "Amalungu",
   "memberFallbackName": "Ilungu",
-  "yourDisplayName": "Igama lakho lokubonisa"
+  "yourDisplayName": "Igama lakho lokubonisa",
+  "displayNameInputHint": "Faka igama eliboniswayo"
 }

@@ -203,5 +203,6 @@
   "groupSettings": "Taldearen ezarpenak",
   "members": "Kideak",
   "memberFallbackName": "Kidea",
-  "yourDisplayName": "Zure bistaratzeko izena"
+  "yourDisplayName": "Zure bistaratzeko izena",
+  "displayNameInputHint": "Sartu bistaratzeko izena"
 }

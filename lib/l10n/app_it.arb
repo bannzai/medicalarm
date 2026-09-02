@@ -203,5 +203,6 @@
   "groupSettings": "Impostazioni del gruppo",
   "members": "Membri",
   "memberFallbackName": "Membro",
-  "yourDisplayName": "Il tuo nome visualizzato"
+  "yourDisplayName": "Il tuo nome visualizzato",
+  "displayNameInputHint": "Inserisci il nome visualizzato"
 }

@@ -203,5 +203,6 @@
   "groupSettings": "Cài đặt nhóm",
   "members": "Thành viên",
   "memberFallbackName": "Thành viên",
-  "yourDisplayName": "Tên hiển thị của bạn"
+  "yourDisplayName": "Tên hiển thị của bạn",
+  "displayNameInputHint": "Nhập tên hiển thị"
 }

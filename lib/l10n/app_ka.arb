@@ -203,5 +203,6 @@
   "groupSettings": "ჯგუფის პარამეტრები",
   "members": "წევრები",
   "memberFallbackName": "წევრი",
-  "yourDisplayName": "თქვენი საჩვენებელი სახელი"
+  "yourDisplayName": "თქვენი საჩვენებელი სახელი",
+  "displayNameInputHint": "შეიყვანეთ საჩვენებელი სახელი"
 }

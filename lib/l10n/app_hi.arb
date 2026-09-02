@@ -203,5 +203,6 @@
   "groupSettings": "ग्रुप सेटिंग",
   "members": "सदस्य",
   "memberFallbackName": "सदस्य",
-  "yourDisplayName": "आपका प्रदर्शन नाम"
+  "yourDisplayName": "आपका प्रदर्शन नाम",
+  "displayNameInputHint": "प्रदर्शन नाम दर्ज करें"
 }

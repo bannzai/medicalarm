@@ -203,5 +203,6 @@
   "groupSettings": "Guruh sozlamalari",
   "members": "A'zolar",
   "memberFallbackName": "Aʼzo",
-  "yourDisplayName": "Ko‘rsatiladigan nomingiz"
+  "yourDisplayName": "Ko‘rsatiladigan nomingiz",
+  "displayNameInputHint": "Ko‘rsatiladigan ismni kiriting"
 }

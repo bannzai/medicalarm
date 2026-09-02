@@ -203,5 +203,6 @@
   "groupSettings": "Grupas iestatījumi",
   "members": "Dalībnieki",
   "memberFallbackName": "Dalībnieks",
-  "yourDisplayName": "Jūsu parādāmais vārds"
+  "yourDisplayName": "Jūsu parādāmais vārds",
+  "displayNameInputHint": "Ievadiet parādāmo vārdu"
 }

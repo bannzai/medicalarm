@@ -203,5 +203,6 @@
   "groupSettings": "Stillingar hóps",
   "members": "Meðlimir",
   "memberFallbackName": "Meðlimur",
-  "yourDisplayName": "Birtingarnafnið þitt"
+  "yourDisplayName": "Birtingarnafnið þitt",
+  "displayNameInputHint": "Sláðu inn birtingarnafn"
 }
