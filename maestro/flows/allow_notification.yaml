@@ -4,6 +4,7 @@
 #   2. ATT ダイアログ（"アプリにトラッキングしないように要求"）
 #   3. 初回の Special Gift（★5レビュー）プロモーション（"今はしない"）
 #   4. 開発ビルドで出る AdMob native ad validator 警告（"Dismiss"）
+#   5. 新規ユーザーの初回起動で出るオンボーディング（"はじめる" が見えたら onboarding.yaml で完走する）
 # `runFlow: allow_notification.yaml` で他フローから呼び出して使用する。
 appId: com.bannzai.medicalarm
 ---
@@ -32,3 +33,8 @@ appId: com.bannzai.medicalarm
             visible: "Dismiss"
           commands:
             - tapOn: "Dismiss"
+      - runFlow:
+          when:
+            visible: "はじめる"
+          commands:
+            - runFlow: onboarding.yaml
