@@ -208,5 +208,6 @@
   "ownerLabel": "मालक",
   "youLabel": "तुम्ही",
   "removeMemberConfirmTitle": "सदस्य काढायचा का?",
-  "removeMemberConfirmMessage": "{name} ला ग्रुपमधून काढले जाईल"
+  "removeMemberConfirmMessage": "{name} ला ग्रुपमधून काढले जाईल",
+  "joinGroup": "गटात सामील व्हा"
 }

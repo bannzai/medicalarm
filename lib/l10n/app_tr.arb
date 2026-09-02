@@ -208,5 +208,6 @@
   "ownerLabel": "Sahip",
   "youLabel": "Siz",
   "removeMemberConfirmTitle": "Üye kaldırılsın mı?",
-  "removeMemberConfirmMessage": "{name} gruptan kaldırılacak"
+  "removeMemberConfirmMessage": "{name} gruptan kaldırılacak",
+  "joinGroup": "Gruba katıl"
 }

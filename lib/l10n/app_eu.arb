@@ -208,5 +208,6 @@
   "ownerLabel": "Jabea",
   "youLabel": "Zu",
   "removeMemberConfirmTitle": "Kidea kendu nahi duzu?",
-  "removeMemberConfirmMessage": "{name} taldetik kentzea"
+  "removeMemberConfirmMessage": "{name} taldetik kentzea",
+  "joinGroup": "Taldearekin bat egin"
 }

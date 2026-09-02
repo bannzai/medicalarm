@@ -208,5 +208,6 @@
   "ownerLabel": "Besitzer",
   "youLabel": "Du",
   "removeMemberConfirmTitle": "Möchten Sie das Mitglied entfernen?",
-  "removeMemberConfirmMessage": "{name} us de Gruppe entferne"
+  "removeMemberConfirmMessage": "{name} us de Gruppe entferne",
+  "joinGroup": "Einer Gruppe beitrete"
 }

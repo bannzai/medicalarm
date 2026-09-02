@@ -208,5 +208,6 @@
   "ownerLabel": "Собственик",
   "youLabel": "Вие",
   "removeMemberConfirmTitle": "Да се премахне ли членът?",
-  "removeMemberConfirmMessage": "Премахване на {name} от групата"
+  "removeMemberConfirmMessage": "Премахване на {name} от групата",
+  "joinGroup": "Присъединяване към група"
 }

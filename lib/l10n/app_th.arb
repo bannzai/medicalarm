@@ -208,5 +208,6 @@
   "ownerLabel": "เจ้าของ",
   "youLabel": "คุณ",
   "removeMemberConfirmTitle": "ต้องการลบสมาชิกหรือไม่",
-  "removeMemberConfirmMessage": "นำ {name} ออกจากกลุ่ม"
+  "removeMemberConfirmMessage": "นำ {name} ออกจากกลุ่ม",
+  "joinGroup": "เข้าร่วมกลุ่ม"
 }

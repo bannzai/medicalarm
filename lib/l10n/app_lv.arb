@@ -208,5 +208,6 @@
   "ownerLabel": "Īpašnieks",
   "youLabel": "Jūs",
   "removeMemberConfirmTitle": "Vai noņemt dalībnieku?",
-  "removeMemberConfirmMessage": "Noņemt {name} no grupas"
+  "removeMemberConfirmMessage": "Noņemt {name} no grupas",
+  "joinGroup": "Pievienoties grupai"
 }

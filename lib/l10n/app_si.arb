@@ -208,5 +208,6 @@
   "ownerLabel": "හිමිකරු",
   "youLabel": "ඔබ",
   "removeMemberConfirmTitle": "සාමාජිකයා ඉවත් කරන්නද?",
-  "removeMemberConfirmMessage": "{name} කණ්ඩායමෙන් ඉවත් කරන්න"
+  "removeMemberConfirmMessage": "{name} කණ්ඩායමෙන් ඉවත් කරන්න",
+  "joinGroup": "සමූහයට එක්වන්න"
 }

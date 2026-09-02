@@ -208,5 +208,6 @@
   "ownerLabel": "Ээси",
   "youLabel": "Сиз",
   "removeMemberConfirmTitle": "Мүчөнү өчүрөсүзбү?",
-  "removeMemberConfirmMessage": "{name} топтон чыгарылат"
+  "removeMemberConfirmMessage": "{name} топтон чыгарылат",
+  "joinGroup": "Топко кошулуу"
 }

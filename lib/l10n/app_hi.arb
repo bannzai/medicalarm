@@ -208,5 +208,6 @@
   "ownerLabel": "मालिक",
   "youLabel": "आप",
   "removeMemberConfirmTitle": "क्या आप सदस्य को हटाना चाहते हैं?",
-  "removeMemberConfirmMessage": "{name} को समूह से हटाएं"
+  "removeMemberConfirmMessage": "{name} को समूह से हटाएं",
+  "joinGroup": "समूह में शामिल हों"
 }

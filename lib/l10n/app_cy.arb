@@ -208,5 +208,6 @@
   "ownerLabel": "Perchennog",
   "youLabel": "Chi",
   "removeMemberConfirmTitle": "Dileu dileu’r aelod?",
-  "removeMemberConfirmMessage": "Tynnu {name} o'r grŵp"
+  "removeMemberConfirmMessage": "Tynnu {name} o'r grŵp",
+  "joinGroup": "Ymuno â grŵp"
 }

@@ -208,5 +208,6 @@
   "ownerLabel": "May-ari",
   "youLabel": "Ikaw",
   "removeMemberConfirmTitle": "Alisin ang miyembro?",
-  "removeMemberConfirmMessage": "Alisin si {name} sa grupo"
+  "removeMemberConfirmMessage": "Alisin si {name} sa grupo",
+  "joinGroup": "Sumali sa grupo"
 }

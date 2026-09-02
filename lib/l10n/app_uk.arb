@@ -208,5 +208,6 @@
   "ownerLabel": "Власник",
   "youLabel": "Ви",
   "removeMemberConfirmTitle": "Видалити учасника?",
-  "removeMemberConfirmMessage": "Видалити {name} з групи"
+  "removeMemberConfirmMessage": "Видалити {name} з групи",
+  "joinGroup": "Приєднатися до групи"
 }

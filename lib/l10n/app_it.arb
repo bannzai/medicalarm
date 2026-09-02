@@ -208,5 +208,6 @@
   "ownerLabel": "Proprietario",
   "youLabel": "Tu",
   "removeMemberConfirmTitle": "Vuoi rimuovere il membro?",
-  "removeMemberConfirmMessage": "Rimuovere {name} dal gruppo"
+  "removeMemberConfirmMessage": "Rimuovere {name} dal gruppo",
+  "joinGroup": "Unisciti a un gruppo"
 }

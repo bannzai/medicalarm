@@ -208,5 +208,6 @@
   "ownerLabel": "المالك",
   "youLabel": "أنت",
   "removeMemberConfirmTitle": "هل تريد إزالة العضو؟",
-  "removeMemberConfirmMessage": "إزالة {name} من المجموعة"
+  "removeMemberConfirmMessage": "إزالة {name} من المجموعة",
+  "joinGroup": "الانضمام إلى مجموعة"
 }

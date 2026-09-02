@@ -208,5 +208,6 @@
   "ownerLabel": "მფლობელი",
   "youLabel": "თქვენ",
   "removeMemberConfirmTitle": "წავშალოთ წევრი?",
-  "removeMemberConfirmMessage": "{name}-ის ჯგუფიდან წაშლა"
+  "removeMemberConfirmMessage": "{name}-ის ჯგუფიდან წაშლა",
+  "joinGroup": "ჯგუფში გაწევრიანება"
 }

@@ -208,5 +208,6 @@
   "ownerLabel": "માલિક",
   "youLabel": "તમે",
   "removeMemberConfirmTitle": "સભ્યને દૂર કરવા માંગો છો?",
-  "removeMemberConfirmMessage": "{name}ને ગ્રુપમાંથી દૂર કરવામાં આવશે"
+  "removeMemberConfirmMessage": "{name}ને ગ્રુપમાંથી દૂર કરવામાં આવશે",
+  "joinGroup": "જૂથમાં જોડાઓ"
 }

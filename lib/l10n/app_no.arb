@@ -208,5 +208,6 @@
   "ownerLabel": "Eier",
   "youLabel": "Du",
   "removeMemberConfirmTitle": "Vil du fjerne medlemmet?",
-  "removeMemberConfirmMessage": "Fjern {name} fra gruppen"
+  "removeMemberConfirmMessage": "Fjern {name} fra gruppen",
+  "joinGroup": "Bli med i en gruppe"
 }

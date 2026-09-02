@@ -208,5 +208,6 @@
   "ownerLabel": "Savininkas",
   "youLabel": "Jūs",
   "removeMemberConfirmTitle": "Pašalinti narį?",
-  "removeMemberConfirmMessage": "Pašalinti {name} iš grupės"
+  "removeMemberConfirmMessage": "Pašalinti {name} iš grupės",
+  "joinGroup": "Prisijungti prie grupės"
 }

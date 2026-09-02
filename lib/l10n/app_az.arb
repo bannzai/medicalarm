@@ -208,5 +208,6 @@
   "ownerLabel": "Sahib",
   "youLabel": "Siz",
   "removeMemberConfirmTitle": "Üzv silinsin?",
-  "removeMemberConfirmMessage": "{name} qrupdan silinəcək"
+  "removeMemberConfirmMessage": "{name} qrupdan silinəcək",
+  "joinGroup": "Qrupa qoşul"
 }

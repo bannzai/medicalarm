@@ -208,5 +208,6 @@
   "ownerLabel": "Սեփականատեր",
   "youLabel": "Դուք",
   "removeMemberConfirmTitle": "Հեռացնե՞լ անդամին։",
-  "removeMemberConfirmMessage": "{name}-ը կհեռացվի խմբից"
+  "removeMemberConfirmMessage": "{name}-ը կհեռացվի խմբից",
+  "joinGroup": "Միանալ խմբին"
 }

@@ -208,5 +208,6 @@
   "ownerLabel": "Уладальнік",
   "youLabel": "Вы",
   "removeMemberConfirmTitle": "Выдаліць удзельніка?",
-  "removeMemberConfirmMessage": "{name} будзе выдалены з групы"
+  "removeMemberConfirmMessage": "{name} будзе выдалены з групы",
+  "joinGroup": "Далучыцца да групы"
 }

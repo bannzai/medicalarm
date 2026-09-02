@@ -208,5 +208,6 @@
   "ownerLabel": "Omistaja",
   "youLabel": "Sinä",
   "removeMemberConfirmTitle": "Poistetaanko jäsen?",
-  "removeMemberConfirmMessage": "Poistetaan {name} ryhmästä"
+  "removeMemberConfirmMessage": "Poistetaan {name} ryhmästä",
+  "joinGroup": "Liity ryhmään"
 }

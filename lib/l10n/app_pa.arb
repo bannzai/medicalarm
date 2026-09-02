@@ -208,5 +208,6 @@
   "ownerLabel": "ਮਾਲਕ",
   "youLabel": "ਤੁਸੀਂ",
   "removeMemberConfirmTitle": "ਮੈਂਬਰ ਨੂੰ ਹਟਾਉਣਾ ਹੈ?",
-  "removeMemberConfirmMessage": "{name} ਨੂੰ ਗਰੁੱਪ ਵਿੱਚੋਂ ਹਟਾਓ"
+  "removeMemberConfirmMessage": "{name} ਨੂੰ ਗਰੁੱਪ ਵਿੱਚੋਂ ਹਟਾਓ",
+  "joinGroup": "ਗਰੁੱਪ ਵਿੱਚ ਸ਼ਾਮਲ ਹੋਵੋ"
 }

@@ -208,5 +208,6 @@
   "ownerLabel": "உரிமையாளர்",
   "youLabel": "நீங்கள்",
   "removeMemberConfirmTitle": "உறுப்பினரை அகற்றவா?",
-  "removeMemberConfirmMessage": "குழுவிலிருந்து {name} ஐ அகற்றவும்"
+  "removeMemberConfirmMessage": "குழுவிலிருந்து {name} ஐ அகற்றவும்",
+  "joinGroup": "குழுவில் சேரவும்"
 }

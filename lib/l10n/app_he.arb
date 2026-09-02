@@ -208,5 +208,6 @@
   "ownerLabel": "בעלים",
   "youLabel": "את/ה",
   "removeMemberConfirmTitle": "להסיר את החבר?",
-  "removeMemberConfirmMessage": "הסרת {name} מהקבוצה"
+  "removeMemberConfirmMessage": "הסרת {name} מהקבוצה",
+  "joinGroup": "הצטרפות לקבוצה"
 }

@@ -208,5 +208,6 @@
   "ownerLabel": "Omanik",
   "youLabel": "Sina",
   "removeMemberConfirmTitle": "Kas eemaldada liige?",
-  "removeMemberConfirmMessage": "Eemalda {name} grupist"
+  "removeMemberConfirmMessage": "Eemalda {name} grupist",
+  "joinGroup": "Liitu grupiga"
 }

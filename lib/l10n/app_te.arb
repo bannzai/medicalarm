@@ -208,5 +208,6 @@
   "ownerLabel": "యజమాని",
   "youLabel": "మీరు",
   "removeMemberConfirmTitle": "సభ్యుడిని తీసివేయాలా?",
-  "removeMemberConfirmMessage": "గ్రూప్ నుండి {name}ని తీసివేయండి"
+  "removeMemberConfirmMessage": "గ్రూప్ నుండి {name}ని తీసివేయండి",
+  "joinGroup": "సమూహంలో చేరండి"
 }

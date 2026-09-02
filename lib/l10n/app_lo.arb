@@ -208,5 +208,6 @@
   "ownerLabel": "ເຈົ້າຂອງ",
   "youLabel": "ທ່ານ",
   "removeMemberConfirmTitle": "ຕ້ອງການລຶບສະມາຊິກບໍ?",
-  "removeMemberConfirmMessage": "ລຶບ {name} ອອກຈາກກຸ່ມ"
+  "removeMemberConfirmMessage": "ລຶບ {name} ອອກຈາກກຸ່ມ",
+  "joinGroup": "ເຂົ້າຮ່ວມກຸ່ມ"
 }

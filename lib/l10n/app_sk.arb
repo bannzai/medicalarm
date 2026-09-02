@@ -208,5 +208,6 @@
   "ownerLabel": "Vlastník",
   "youLabel": "Vy",
   "removeMemberConfirmTitle": "Chcete odstrániť člena?",
-  "removeMemberConfirmMessage": "Odstrániť {name} zo skupiny"
+  "removeMemberConfirmMessage": "Odstrániť {name} zo skupiny",
+  "joinGroup": "Pripojiť sa k skupine"
 }

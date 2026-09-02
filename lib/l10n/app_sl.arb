@@ -208,5 +208,6 @@
   "ownerLabel": "Lastnik",
   "youLabel": "Vi",
   "removeMemberConfirmTitle": "Želite odstraniti člana?",
-  "removeMemberConfirmMessage": "Odstrani {name} iz skupine"
+  "removeMemberConfirmMessage": "Odstrani {name} iz skupine",
+  "joinGroup": "Pridruži se skupini"
 }

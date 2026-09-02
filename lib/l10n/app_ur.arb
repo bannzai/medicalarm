@@ -208,5 +208,6 @@
   "ownerLabel": "مالک",
   "youLabel": "آپ",
   "removeMemberConfirmTitle": "کیا رکن کو ہٹانا ہے؟",
-  "removeMemberConfirmMessage": "{name} کو گروپ سے ہٹا دیں"
+  "removeMemberConfirmMessage": "{name} کو گروپ سے ہٹا دیں",
+  "joinGroup": "گروپ میں شامل ہوں"
 }

@@ -208,5 +208,6 @@
   "ownerLabel": "Mmiliki",
   "youLabel": "Wewe",
   "removeMemberConfirmTitle": "Ungependa kumwondoa mwanachama?",
-  "removeMemberConfirmMessage": "Ondoa {name} kwenye kikundi"
+  "removeMemberConfirmMessage": "Ondoa {name} kwenye kikundi",
+  "joinGroup": "Jiunge na kikundi"
 }

@@ -208,5 +208,6 @@
   "ownerLabel": "Иесі",
   "youLabel": "Сіз",
   "removeMemberConfirmTitle": "Мүшені жою керек пе?",
-  "removeMemberConfirmMessage": "{name} топтан жойылады"
+  "removeMemberConfirmMessage": "{name} топтан жойылады",
+  "joinGroup": "Топқа қосылу"
 }

@@ -208,5 +208,6 @@
   "ownerLabel": "ಮಾಲೀಕ",
   "youLabel": "ನೀವು",
   "removeMemberConfirmTitle": "ಸದಸ್ಯರನ್ನು ತೆಗೆದುಹಾಕಲು ಬಯಸುವಿರಾ?",
-  "removeMemberConfirmMessage": "{name} ಅವರನ್ನು ಗುಂಪಿನಿಂದ ತೆಗೆದುಹಾಕಿ"
+  "removeMemberConfirmMessage": "{name} ಅವರನ್ನು ಗುಂಪಿನಿಂದ ತೆಗೆದುಹಾಕಿ",
+  "joinGroup": "ಗುಂಪಿಗೆ ಸೇರಿ"
 }

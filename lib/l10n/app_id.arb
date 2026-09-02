@@ -208,5 +208,6 @@
   "ownerLabel": "Pemilik",
   "youLabel": "Anda",
   "removeMemberConfirmTitle": "Hapus anggota?",
-  "removeMemberConfirmMessage": "Hapus {name} dari grup"
+  "removeMemberConfirmMessage": "Hapus {name} dari grup",
+  "joinGroup": "Bergabung ke grup"
 }

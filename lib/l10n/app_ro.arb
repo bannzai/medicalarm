@@ -208,5 +208,6 @@
   "ownerLabel": "Proprietar",
   "youLabel": "Tu",
   "removeMemberConfirmTitle": "Doriți să eliminați membrul?",
-  "removeMemberConfirmMessage": "Elimină {name} din grup"
+  "removeMemberConfirmMessage": "Elimină {name} din grup",
+  "joinGroup": "Alătură-te unui grup"
 }

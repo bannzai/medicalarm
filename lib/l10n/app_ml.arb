@@ -208,5 +208,6 @@
   "ownerLabel": "ഉടമ",
   "youLabel": "നിങ്ങൾ",
   "removeMemberConfirmTitle": "അംഗത്തെ നീക്കം ചെയ്യണോ?",
-  "removeMemberConfirmMessage": "{name}-നെ ഗ്രൂപ്പിൽ നിന്ന് നീക്കം ചെയ്യുക"
+  "removeMemberConfirmMessage": "{name}-നെ ഗ്രൂപ്പിൽ നിന്ന് നീക്കം ചെയ്യുക",
+  "joinGroup": "ഗ്രൂപ്പിൽ ചേരുക"
 }

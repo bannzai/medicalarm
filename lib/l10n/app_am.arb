@@ -208,5 +208,6 @@
   "ownerLabel": "ባለቤት",
   "youLabel": "እርስዎ",
   "removeMemberConfirmTitle": "አባሉን ማስወገድ ይፈልጋሉ?",
-  "removeMemberConfirmMessage": "{name}ን ከቡድኑ ያስወግዱ"
+  "removeMemberConfirmMessage": "{name}ን ከቡድኑ ያስወግዱ",
+  "joinGroup": "ቡድኑን ይቀላቀሉ"
 }

@@ -208,5 +208,6 @@
   "ownerLabel": "Ägare",
   "youLabel": "Du",
   "removeMemberConfirmTitle": "Vill du ta bort medlemmen?",
-  "removeMemberConfirmMessage": "Ta bort {name} från gruppen"
+  "removeMemberConfirmMessage": "Ta bort {name} från gruppen",
+  "joinGroup": "Gå med i en grupp"
 }

@@ -208,5 +208,6 @@
   "ownerLabel": "مالک",
   "youLabel": "شما",
   "removeMemberConfirmTitle": "عضو حذف شود؟",
-  "removeMemberConfirmMessage": "حذف {name} از گروه"
+  "removeMemberConfirmMessage": "حذف {name} از گروه",
+  "joinGroup": "پیوستن به گروه"
 }

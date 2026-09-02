@@ -208,5 +208,6 @@
   "ownerLabel": "গৰাকী",
   "youLabel": "আপুনি",
   "removeMemberConfirmTitle": "সদস্যজনক আঁতৰাব বিচাৰেনে?",
-  "removeMemberConfirmMessage": "{name}ক গোটৰ পৰা আঁতৰোৱা হ’ব"
+  "removeMemberConfirmMessage": "{name}ক গোটৰ পৰা আঁতৰোৱা হ’ব",
+  "joinGroup": "গোটত যোগদান কৰক"
 }

@@ -208,5 +208,6 @@
   "ownerLabel": "Eigenaar",
   "youLabel": "Jij",
   "removeMemberConfirmTitle": "Lid verwijderen?",
-  "removeMemberConfirmMessage": "{name} uit de groep verwijderen"
+  "removeMemberConfirmMessage": "{name} uit de groep verwijderen",
+  "joinGroup": "Deelnemen aan een groep"
 }

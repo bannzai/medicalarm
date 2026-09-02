@@ -208,5 +208,6 @@
   "ownerLabel": "所有者",
   "youLabel": "我",
   "removeMemberConfirmTitle": "要删除成员吗？",
-  "removeMemberConfirmMessage": "将{name}从群组中移除"
+  "removeMemberConfirmMessage": "将{name}从群组中移除",
+  "joinGroup": "加入群组"
 }
