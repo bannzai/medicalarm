@@ -273,5 +273,6 @@
   "onboardingGoalTitle": "Sea oma eesmärk",
   "onboardingGoalSubtitle": "Sinu eesmärk kajastub sinu plaanis",
   "onboardingGoalZeroMissed": "Mitte unustada ühtegi annust",
-  "onboardingGoalKeepRecording": "Jätka ravimite võtmise registreerimist"
+  "onboardingGoalKeepRecording": "Jätka ravimite võtmise registreerimist",
+  "onboardingGoalWatchFamily": "Jälgida pereliikmete ravimite võtmist"
 }

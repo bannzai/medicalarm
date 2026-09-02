@@ -273,5 +273,6 @@
   "onboardingGoalTitle": "กำหนดเป้าหมายของคุณ",
   "onboardingGoalSubtitle": "เป้าหมายของคุณจะสะท้อนอยู่ในแผนของคุณ",
   "onboardingGoalZeroMissed": "ไม่ลืมรับประทานยาแม้แต่ครั้งเดียว",
-  "onboardingGoalKeepRecording": "บันทึกการรับประทานยาต่อไป"
+  "onboardingGoalKeepRecording": "บันทึกการรับประทานยาต่อไป",
+  "onboardingGoalWatchFamily": "ติดตามการรับประทานยาของคนในครอบครัว"
 }

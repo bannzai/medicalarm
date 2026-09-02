@@ -273,5 +273,6 @@
   "onboardingGoalTitle": "Определите свою цель",
   "onboardingGoalSubtitle": "Ваша цель будет учтена в вашем плане",
   "onboardingGoalZeroMissed": "Не пропускать ни одной дозы",
-  "onboardingGoalKeepRecording": "Продолжать записывать прием лекарств"
+  "onboardingGoalKeepRecording": "Продолжать записывать прием лекарств",
+  "onboardingGoalWatchFamily": "Следить за приёмом лекарств членами семьи"
 }
