@@ -177,5 +177,6 @@
   "medicationHistoryDeletedSnackbar": "Záznam o užití léku byl zrušen",
   "undo": "Zpět",
   "medicationHistoryReverted": "Zrušení záznamu o užití léku",
-  "revertedTime": "Čas zrušení"
+  "revertedTime": "Čas zrušení",
+  "revertedByMember": "Zrušeno uživatelem {name}"
 }

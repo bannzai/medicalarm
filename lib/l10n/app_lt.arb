@@ -177,5 +177,6 @@
   "medicationHistoryDeletedSnackbar": "Vaistų vartojimo įrašas atšauktas",
   "undo": "Anuliuoti",
   "medicationHistoryReverted": "Vaistų vartojimo įrašo atšaukimas",
-  "revertedTime": "Atšaukimo laikas"
+  "revertedTime": "Atšaukimo laikas",
+  "revertedByMember": "Atšaukė {name}"
 }

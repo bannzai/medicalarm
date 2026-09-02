@@ -177,5 +177,6 @@
   "medicationHistoryDeletedSnackbar": "ยกเลิกบันทึกการรับประทานยาแล้ว",
   "undo": "เลิกทำ",
   "medicationHistoryReverted": "ยกเลิกบันทึกการรับประทานยา",
-  "revertedTime": "เวลาที่ยกเลิก"
+  "revertedTime": "เวลาที่ยกเลิก",
+  "revertedByMember": "{name} ยกเลิกแล้ว"
 }

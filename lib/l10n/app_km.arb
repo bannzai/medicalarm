@@ -177,5 +177,6 @@
   "medicationHistoryDeletedSnackbar": "កំណត់ត្រាការលេបថ្នាំត្រូវបានលុបចោល",
   "undo": "មិនធ្វើវិញ",
   "medicationHistoryReverted": "បោះបង់កំណត់ត្រាការលេបថ្នាំ",
-  "revertedTime": "ពេលវេលាលុបចោល"
+  "revertedTime": "ពេលវេលាលុបចោល",
+  "revertedByMember": "{name} បានបោះបង់"
 }

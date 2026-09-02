@@ -177,5 +177,6 @@
   "medicationHistoryDeletedSnackbar": "تم التراجع عن سجل تناول الدواء",
   "undo": "تراجع",
   "medicationHistoryReverted": "إلغاء سجل تناول الدواء",
-  "revertedTime": "وقت الإلغاء"
+  "revertedTime": "وقت الإلغاء",
+  "revertedByMember": "ألغى {name} السجل"
 }

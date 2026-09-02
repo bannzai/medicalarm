@@ -177,5 +177,6 @@
   "medicationHistoryDeletedSnackbar": "औषधि सेवनको रेकर्ड रद्द गरिएको छ",
   "undo": "पूर्ववत गर्नुहोस्",
   "medicationHistoryReverted": "औषध सेवनको रेकर्ड रद्द",
-  "revertedTime": "रद्द गरिएको समय"
+  "revertedTime": "रद्द गरिएको समय",
+  "revertedByMember": "{name} ले रद्द गर्नुभयो"
 }

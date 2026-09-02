@@ -177,5 +177,6 @@
   "medicationHistoryDeletedSnackbar": "Medikamenteneintrag rückgängig gemacht",
   "undo": "Rückgängig",
   "medicationHistoryReverted": "Medikamenteneinnahme rückgängig gemacht",
-  "revertedTime": "Stornierungszeit"
+  "revertedTime": "Stornierungszeit",
+  "revertedByMember": "Von {name} storniert"
 }

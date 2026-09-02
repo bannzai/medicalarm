@@ -177,5 +177,6 @@
   "medicationHistoryDeletedSnackbar": "Lääkkeenottotietue kumottiin",
   "undo": "Kumoa",
   "medicationHistoryReverted": "Lääkkeenoton kirjaus peruttu",
-  "revertedTime": "Peruutusaika"
+  "revertedTime": "Peruutusaika",
+  "revertedByMember": "{name} perui"
 }

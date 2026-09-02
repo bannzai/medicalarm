@@ -177,5 +177,6 @@
   "medicationHistoryDeletedSnackbar": "Skráning lyfjatöku hefur verið afturkölluð",
   "undo": "Afturkalla",
   "medicationHistoryReverted": "Skráning lyfjatöku afturkölluð",
-  "revertedTime": "Tími afturköllunar"
+  "revertedTime": "Tími afturköllunar",
+  "revertedByMember": "Hætt við af {name}"
 }

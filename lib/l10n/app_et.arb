@@ -177,5 +177,6 @@
   "medicationHistoryDeletedSnackbar": "Ravimi võtmise märge tühistati",
   "undo": "Võta tagasi",
   "medicationHistoryReverted": "Ravimi võtmise kirje tühistamine",
-  "revertedTime": "Tühistamise aeg"
+  "revertedTime": "Tühistamise aeg",
+  "revertedByMember": "Tühistas {name}"
 }

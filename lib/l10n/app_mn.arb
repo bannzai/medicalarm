@@ -177,5 +177,6 @@
   "medicationHistoryDeletedSnackbar": "Эм уусан бүртгэлийг цуцаллаа",
   "undo": "Буцаах",
   "medicationHistoryReverted": "Эм уусан бүртгэлийг цуцлах",
-  "revertedTime": "Цуцалсан цаг"
+  "revertedTime": "Цуцалсан цаг",
+  "revertedByMember": "{name} цуцалсан"
 }

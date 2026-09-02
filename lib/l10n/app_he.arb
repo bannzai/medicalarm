@@ -177,5 +177,6 @@
   "medicationHistoryDeletedSnackbar": "רישום נטילת התרופה בוטל",
   "undo": "בטל",
   "medicationHistoryReverted": "ביטול רישום נטילת תרופה",
-  "revertedTime": "זמן הביטול"
+  "revertedTime": "זמן הביטול",
+  "revertedByMember": "בוטל על ידי {name}"
 }

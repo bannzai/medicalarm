@@ -177,5 +177,6 @@
   "medicationHistoryDeletedSnackbar": "മരുന്ന് കഴിച്ചതിന്റെ രേഖ റദ്ദാക്കി",
   "undo": "പഴയപടിയാക്കുക",
   "medicationHistoryReverted": "മരുന്ന് കഴിച്ചതിന്റെ രേഖ റദ്ദാക്കൽ",
-  "revertedTime": "റദ്ദാക്കിയ സമയം"
+  "revertedTime": "റദ്ദാക്കിയ സമയം",
+  "revertedByMember": "{name} റദ്ദാക്കി"
 }

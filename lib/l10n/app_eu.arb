@@ -177,5 +177,6 @@
   "medicationHistoryDeletedSnackbar": "Botikaren hartze-erregistroa desegin da",
   "undo": "Desegin",
   "medicationHistoryReverted": "Botika hartzearen erregistroa ezeztatuta",
-  "revertedTime": "Ezeztapen-ordua"
+  "revertedTime": "Ezeztapen-ordua",
+  "revertedByMember": "Bertan behera utzita: {name}"
 }

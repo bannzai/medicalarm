@@ -177,5 +177,6 @@
   "medicationHistoryDeletedSnackbar": "Dori qabul qilish qaydi bekor qilindi",
   "undo": "Bekor qilish",
   "medicationHistoryReverted": "Dori qabul qilish yozuvini bekor qilish",
-  "revertedTime": "Bekor qilingan vaqt"
+  "revertedTime": "Bekor qilingan vaqt",
+  "revertedByMember": "{name} bekor qildi"
 }

@@ -177,5 +177,6 @@
   "medicationHistoryDeletedSnackbar": "Na-undo ang tala ng pag-inom ng gamot",
   "undo": "I-undo",
   "medicationHistoryReverted": "Kinanselang tala ng pag-inom ng gamot",
-  "revertedTime": "Oras ng pagkansela"
+  "revertedTime": "Oras ng pagkansela",
+  "revertedByMember": "Kinansela ni {name}"
 }

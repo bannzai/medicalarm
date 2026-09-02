@@ -177,5 +177,6 @@
   "medicationHistoryDeletedSnackbar": "ঔষধ সেৱনৰ ৰেকৰ্ড বাতিল কৰা হৈছে",
   "undo": "পূৰ্বাৱস্থালৈ নিন",
   "medicationHistoryReverted": "ঔষধ সেবনৰ ৰেকৰ্ড বাতিল",
-  "revertedTime": "বাতিল কৰাৰ সময়"
+  "revertedTime": "বাতিল কৰাৰ সময়",
+  "revertedByMember": "{name}-এ বাতিল কৰিছে"
 }

@@ -177,5 +177,6 @@
   "medicationHistoryDeletedSnackbar": "Cofnięto zapis przyjęcia leku",
   "undo": "Cofnij",
   "medicationHistoryReverted": "Anulowanie wpisu o przyjęciu leku",
-  "revertedTime": "Czas anulowania"
+  "revertedTime": "Czas anulowania",
+  "revertedByMember": "Anulowano przez {name}"
 }

@@ -177,5 +177,6 @@
   "medicationHistoryDeletedSnackbar": "Registreringen av medisininntaket er angret",
   "undo": "Angre",
   "medicationHistoryReverted": "Angre medisinregistrering",
-  "revertedTime": "Kanselleringstid"
+  "revertedTime": "Kanselleringstid",
+  "revertedByMember": "Kansellert av {name}"
 }

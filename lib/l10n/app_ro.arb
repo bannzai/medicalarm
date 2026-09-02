@@ -177,5 +177,6 @@
   "medicationHistoryDeletedSnackbar": "Înregistrarea administrării medicamentului a fost anulată",
   "undo": "Anulează",
   "medicationHistoryReverted": "Anularea înregistrării administrării medicamentului",
-  "revertedTime": "Ora anulării"
+  "revertedTime": "Ora anulării",
+  "revertedByMember": "Anulat de {name}"
 }

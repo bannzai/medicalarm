@@ -177,5 +177,6 @@
   "medicationHistoryDeletedSnackbar": "복약 기록을 취소했습니다",
   "undo": "실행 취소",
   "medicationHistoryReverted": "복약 기록 취소",
-  "revertedTime": "취소 시간"
+  "revertedTime": "취소 시간",
+  "revertedByMember": "{name}님이 취소함"
 }

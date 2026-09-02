@@ -177,5 +177,6 @@
   "medicationHistoryDeletedSnackbar": "Dərman qəbulu qeydi geri alındı",
   "undo": "Geri al",
   "medicationHistoryReverted": "Dərman qəbulu qeydinin ləğvi",
-  "revertedTime": "Ləğv edilmə vaxtı"
+  "revertedTime": "Ləğv edilmə vaxtı",
+  "revertedByMember": "{name} ləğv etdi"
 }

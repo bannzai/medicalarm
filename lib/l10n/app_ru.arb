@@ -177,5 +177,6 @@
   "medicationHistoryDeletedSnackbar": "Запись о приёме лекарства отменена",
   "undo": "Отменить",
   "medicationHistoryReverted": "Отмена записи о приёме лекарства",
-  "revertedTime": "Время отмены"
+  "revertedTime": "Время отмены",
+  "revertedByMember": "Отменено пользователем {name}"
 }

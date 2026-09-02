@@ -177,5 +177,6 @@
   "medicationHistoryDeletedSnackbar": "మందు తీసుకున్న రికార్డు రద్దు చేయబడింది",
   "undo": "రద్దు చేయి",
   "medicationHistoryReverted": "మందు తీసుకున్న రికార్డును రద్దు చేయడం",
-  "revertedTime": "రద్దు చేసిన సమయం"
+  "revertedTime": "రద్దు చేసిన సమయం",
+  "revertedByMember": "{name} రద్దు చేశారు"
 }

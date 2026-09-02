@@ -177,5 +177,6 @@
   "medicationHistoryDeletedSnackbar": "Zapis o zaužitju zdravila je preklican",
   "undo": "Razveljavi",
   "medicationHistoryReverted": "Preklic zapisa o zaužitju zdravila",
-  "revertedTime": "Čas preklica"
+  "revertedTime": "Čas preklica",
+  "revertedByMember": "Preklicano s strani uporabnika {name}"
 }

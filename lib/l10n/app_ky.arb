@@ -177,5 +177,6 @@
   "medicationHistoryDeletedSnackbar": "Дары ичүү жазмасы жокко чыгарылды",
   "undo": "Артка кайтаруу",
   "medicationHistoryReverted": "Дары ичүү жазуусун жокко чыгаруу",
-  "revertedTime": "Жокко чыгаруу убактысы"
+  "revertedTime": "Жокко чыгаруу убактысы",
+  "revertedByMember": "{name} жокко чыгарды"
 }

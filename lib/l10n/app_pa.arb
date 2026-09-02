@@ -177,5 +177,6 @@
   "medicationHistoryDeletedSnackbar": "ਦਵਾਈ ਲੈਣ ਦਾ ਰਿਕਾਰਡ ਰੱਦ ਕਰ ਦਿੱਤਾ ਗਿਆ ਹੈ",
   "undo": "ਵਾਪਸ ਕਰੋ",
   "medicationHistoryReverted": "ਦਵਾਈ ਲੈਣ ਦਾ ਰਿਕਾਰਡ ਰੱਦ",
-  "revertedTime": "ਰੱਦ ਕਰਨ ਦਾ ਸਮਾਂ"
+  "revertedTime": "ਰੱਦ ਕਰਨ ਦਾ ਸਮਾਂ",
+  "revertedByMember": "{name} ਨੇ ਰੱਦ ਕੀਤਾ"
 }

@@ -177,5 +177,6 @@
   "medicationHistoryDeletedSnackbar": "İlaç alma kaydı geri alındı",
   "undo": "Geri al",
   "medicationHistoryReverted": "İlaç alma kaydını iptal etme",
-  "revertedTime": "İptal zamanı"
+  "revertedTime": "İptal zamanı",
+  "revertedByMember": "{name} iptal etti"
 }

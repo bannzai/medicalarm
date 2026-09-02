@@ -177,5 +177,6 @@
   "medicationHistoryDeletedSnackbar": "Rekod pengambilan ubat telah dibatalkan",
   "undo": "Buat asal",
   "medicationHistoryReverted": "Pembatalan rekod pengambilan ubat",
-  "revertedTime": "Masa pembatalan"
+  "revertedTime": "Masa pembatalan",
+  "revertedByMember": "{name} membatalkan"
 }

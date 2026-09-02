@@ -177,5 +177,6 @@
   "medicationHistoryDeletedSnackbar": "ଔଷଧ ସେବନର ରେକର୍ଡ ବାତିଲ କରାଯାଇଛି",
   "undo": "ପୂର୍ବାବସ୍ଥାକୁ ଫେରାନ୍ତୁ",
   "medicationHistoryReverted": "ଔଷଧ ସେବନ ରେକର୍ଡ ବାତିଲ",
-  "revertedTime": "ବାତିଲ ସମୟ"
+  "revertedTime": "ବାତିଲ ସମୟ",
+  "revertedByMember": "{name} ବାତିଲ କରିଛନ୍ତି"
 }

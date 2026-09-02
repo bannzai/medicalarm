@@ -177,5 +177,6 @@
   "medicationHistoryDeletedSnackbar": "Η καταγραφή λήψης του φαρμάκου αναιρέθηκε",
   "undo": "Αναίρεση",
   "medicationHistoryReverted": "Αναίρεση καταγραφής λήψης φαρμάκου",
-  "revertedTime": "Ώρα ακύρωσης"
+  "revertedTime": "Ώρα ακύρωσης",
+  "revertedByMember": "Ακύρωση από: {name}"
 }

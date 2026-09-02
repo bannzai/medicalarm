@@ -177,5 +177,6 @@
   "medicationHistoryDeletedSnackbar": "Запис о узимању лека је отказан",
   "undo": "Опозови",
   "medicationHistoryReverted": "Otkazivanje zapisa o uzimanju leka",
-  "revertedTime": "Време отказивања"
+  "revertedTime": "Време отказивања",
+  "revertedByMember": "Otkazano od strane člana {name}"
 }

@@ -177,5 +177,6 @@
   "medicationHistoryDeletedSnackbar": "Дәрі қабылдау жазбасы кері қайтарылды",
   "undo": "Болдырмау",
   "medicationHistoryReverted": "Дәрі қабылдау жазбасын болдырмау",
-  "revertedTime": "Болдырмау уақыты"
+  "revertedTime": "Болдырмау уақыты",
+  "revertedByMember": "{name} күшін жойды"
 }

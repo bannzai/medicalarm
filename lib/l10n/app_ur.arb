@@ -177,5 +177,6 @@
   "medicationHistoryDeletedSnackbar": "دوا لینے کا ریکارڈ منسوخ کر دیا گیا ہے",
   "undo": "واپس کریں",
   "medicationHistoryReverted": "دوا لینے کا ریکارڈ منسوخ کرنا",
-  "revertedTime": "منسوخی کا وقت"
+  "revertedTime": "منسوخی کا وقت",
+  "revertedByMember": "{name} نے منسوخ کیا"
 }

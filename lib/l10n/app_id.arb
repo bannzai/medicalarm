@@ -177,5 +177,6 @@
   "medicationHistoryDeletedSnackbar": "Catatan minum obat dibatalkan",
   "undo": "Urungkan",
   "medicationHistoryReverted": "Pembatalan catatan minum obat",
-  "revertedTime": "Waktu pembatalan"
+  "revertedTime": "Waktu pembatalan",
+  "revertedByMember": "{name} membatalkan"
 }

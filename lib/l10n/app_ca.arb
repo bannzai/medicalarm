@@ -177,5 +177,6 @@
   "medicationHistoryDeletedSnackbar": "S'ha desfet el registre de presa del medicament",
   "undo": "Desfés",
   "medicationHistoryReverted": "Cancel·lació del registre de presa de medicació",
-  "revertedTime": "Hora de cancel·lació"
+  "revertedTime": "Hora de cancel·lació",
+  "revertedByMember": "Cancel·lat per {name}"
 }

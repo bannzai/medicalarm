@@ -177,5 +177,6 @@
   "medicationHistoryDeletedSnackbar": "Đã hủy bản ghi uống thuốc",
   "undo": "Hoàn tác",
   "medicationHistoryReverted": "Hủy bản ghi uống thuốc",
-  "revertedTime": "Thời gian hủy"
+  "revertedTime": "Thời gian hủy",
+  "revertedByMember": "{name} đã hủy"
 }

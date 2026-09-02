@@ -177,5 +177,6 @@
   "medicationHistoryDeletedSnackbar": "Запіс аб прыёме лекі адменены",
   "undo": "Адмяніць",
   "medicationHistoryReverted": "Адмена запісу пра прыём лекаў",
-  "revertedTime": "Час адмены"
+  "revertedTime": "Час адмены",
+  "revertedByMember": "Запіс скасаваны карыстальнікам {name}"
 }

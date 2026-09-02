@@ -177,5 +177,6 @@
   "medicationHistoryDeletedSnackbar": "ບັນທຶກການກິນຢາຖືກຍົກເລີກແລ້ວ",
   "undo": "ກັບຄືນ",
   "medicationHistoryReverted": "ຍົກເລີກບັນທຶກການກິນຢາ",
-  "revertedTime": "ເວລາຍົກເລີກ"
+  "revertedTime": "ເວລາຍົກເລີກ",
+  "revertedByMember": "{name} ໄດ້ຍົກເລີກ"
 }

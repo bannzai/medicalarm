@@ -177,5 +177,6 @@
   "medicationHistoryDeletedSnackbar": "D Medikament-Itrag isch rückgängig gmacht worde",
   "undo": "Rückgängig",
   "medicationHistoryReverted": "Medikamenteneinnahme rückgängig gemacht",
-  "revertedTime": "Stornierzyt"
+  "revertedTime": "Stornierzyt",
+  "revertedByMember": "Vo {name} annulliert"
 }

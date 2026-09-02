@@ -177,5 +177,6 @@
   "medicationHistoryDeletedSnackbar": "ಔಷಧ ಸೇವನೆಯ ದಾಖಲೆಯನ್ನು ರದ್ದುಗೊಳಿಸಲಾಗಿದೆ",
   "undo": "ರದ್ದುಗೊಳಿಸಿ",
   "medicationHistoryReverted": "ಔಷಧ ಸೇವನೆಯ ದಾಖಲೆಯನ್ನು ರದ್ದುಗೊಳಿಸಲಾಗಿದೆ",
-  "revertedTime": "ರದ್ದತಿ ಸಮಯ"
+  "revertedTime": "ರದ್ದತಿ ಸಮಯ",
+  "revertedByMember": "{name} ರದ್ದುಪಡಿಸಿದ್ದಾರೆ"
 }

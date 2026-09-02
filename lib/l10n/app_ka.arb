@@ -177,5 +177,6 @@
   "medicationHistoryDeletedSnackbar": "მედიკამენტის მიღების ჩანაწერი გაუქმდა",
   "undo": "გაუქმება",
   "medicationHistoryReverted": "მედიკამენტის მიღების ჩანაწერის გაუქმება",
-  "revertedTime": "გაუქმების დრო"
+  "revertedTime": "გაუქმების დრო",
+  "revertedByMember": "{name}-მა გააუქმა"
 }

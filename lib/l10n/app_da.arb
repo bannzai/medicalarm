@@ -177,5 +177,6 @@
   "medicationHistoryDeletedSnackbar": "Medicinregistreringen er annulleret",
   "undo": "Fortryd",
   "medicationHistoryReverted": "Annullering af medicinregistrering",
-  "revertedTime": "Annulleringstid"
+  "revertedTime": "Annulleringstid",
+  "revertedByMember": "Annulleret af {name}"
 }

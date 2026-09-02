@@ -177,5 +177,6 @@
   "medicationHistoryDeletedSnackbar": "दवा लेने का रिकॉर्ड रद्द कर दिया गया है",
   "undo": "पूर्ववत करें",
   "medicationHistoryReverted": "दवा लेने का रिकॉर्ड रद्द",
-  "revertedTime": "रद्द करने का समय"
+  "revertedTime": "रद्द करने का समय",
+  "revertedByMember": "{name} ने रद्द किया"
 }

@@ -177,5 +177,6 @@
   "medicationHistoryDeletedSnackbar": "Regjistrimi i marrjes së ilaçit u anulua",
   "undo": "Zhbëj",
   "medicationHistoryReverted": "Anulimi i regjistrimit të marrjes së ilaçit",
-  "revertedTime": "Koha e anulimit"
+  "revertedTime": "Koha e anulimit",
+  "revertedByMember": "Anuluar nga {name}"
 }
