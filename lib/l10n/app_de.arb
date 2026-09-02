@@ -239,5 +239,6 @@
   "onboardingStart": "Loslegen",
   "onboardingNext": "Weiter",
   "onboardingBack": "Zurück",
-  "onboardingPainForgotTitle": "Haben Sie schon einmal vergessen, Ihre Medikamente einzunehmen?"
+  "onboardingPainForgotTitle": "Haben Sie schon einmal vergessen, Ihre Medikamente einzunehmen?",
+  "onboardingFrequencyOften": "Oft"
 }

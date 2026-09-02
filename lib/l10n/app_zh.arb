@@ -239,5 +239,6 @@
   "onboardingStart": "开始",
   "onboardingNext": "下一步",
   "onboardingBack": "返回",
-  "onboardingPainForgotTitle": "您曾忘记服药吗？"
+  "onboardingPainForgotTitle": "您曾忘记服药吗？",
+  "onboardingFrequencyOften": "经常"
 }

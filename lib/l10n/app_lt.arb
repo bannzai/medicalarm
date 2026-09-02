@@ -239,5 +239,6 @@
   "onboardingStart": "Pradėti",
   "onboardingNext": "Kitas",
   "onboardingBack": "Atgal",
-  "onboardingPainForgotTitle": "Ar kada nors pamiršote išgerti vaistus?"
+  "onboardingPainForgotTitle": "Ar kada nors pamiršote išgerti vaistus?",
+  "onboardingFrequencyOften": "Dažnai"
 }

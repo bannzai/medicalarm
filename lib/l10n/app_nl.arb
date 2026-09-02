@@ -239,5 +239,6 @@
   "onboardingStart": "Aan de slag",
   "onboardingNext": "Volgende",
   "onboardingBack": "Terug",
-  "onboardingPainForgotTitle": "Bent u ooit vergeten uw medicijn in te nemen?"
+  "onboardingPainForgotTitle": "Bent u ooit vergeten uw medicijn in te nemen?",
+  "onboardingFrequencyOften": "Vaak"
 }

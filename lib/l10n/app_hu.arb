@@ -239,5 +239,6 @@
   "onboardingStart": "Kezdjük el",
   "onboardingNext": "Következő",
   "onboardingBack": "Vissza",
-  "onboardingPainForgotTitle": "Előfordult már, hogy elfelejtette bevenni a gyógyszerét?"
+  "onboardingPainForgotTitle": "Előfordult már, hogy elfelejtette bevenni a gyógyszerét?",
+  "onboardingFrequencyOften": "Gyakran"
 }

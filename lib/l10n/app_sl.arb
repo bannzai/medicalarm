@@ -239,5 +239,6 @@
   "onboardingStart": "Začni",
   "onboardingNext": "Naprej",
   "onboardingBack": "Nazaj",
-  "onboardingPainForgotTitle": "Ste kdaj pozabili vzeti zdravilo?"
+  "onboardingPainForgotTitle": "Ste kdaj pozabili vzeti zdravilo?",
+  "onboardingFrequencyOften": "Pogosto"
 }

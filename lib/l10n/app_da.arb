@@ -239,5 +239,6 @@
   "onboardingStart": "Kom i gang",
   "onboardingNext": "Næste",
   "onboardingBack": "Tilbage",
-  "onboardingPainForgotTitle": "Har du nogensinde glemt at tage din medicin?"
+  "onboardingPainForgotTitle": "Har du nogensinde glemt at tage din medicin?",
+  "onboardingFrequencyOften": "Ofte"
 }

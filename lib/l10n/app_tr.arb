@@ -239,5 +239,6 @@
   "onboardingStart": "Başla",
   "onboardingNext": "İleri",
   "onboardingBack": "Geri",
-  "onboardingPainForgotTitle": "İlacınızı almayı hiç unuttunuz mu?"
+  "onboardingPainForgotTitle": "İlacınızı almayı hiç unuttunuz mu?",
+  "onboardingFrequencyOften": "Sık sık"
 }

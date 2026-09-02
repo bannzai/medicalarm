@@ -239,5 +239,6 @@
   "onboardingStart": "เริ่มต้น",
   "onboardingNext": "ถัดไป",
   "onboardingBack": "ย้อนกลับ",
-  "onboardingPainForgotTitle": "คุณเคยลืมกินยาหรือไม่"
+  "onboardingPainForgotTitle": "คุณเคยลืมกินยาหรือไม่",
+  "onboardingFrequencyOften": "บ่อย"
 }

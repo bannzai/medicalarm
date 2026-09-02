@@ -239,5 +239,6 @@
   "onboardingStart": "Alusta",
   "onboardingNext": "Järgmine",
   "onboardingBack": "Tagasi",
-  "onboardingPainForgotTitle": "Kas olete kunagi unustanud oma ravimit võtta?"
+  "onboardingPainForgotTitle": "Kas olete kunagi unustanud oma ravimit võtta?",
+  "onboardingFrequencyOften": "Sageli"
 }
