@@ -1,783 +1,158 @@
 {
   "@@locale": "te",
   "retry": "పునరుద్ధరణ",
-  "@retry": {
-    "description": "エラーが発生した際やデータの読み込みに失敗した際に、再度処理を実行するためのボタンテキスト"
-  },
   "save": "సేవ్",
-  "@save": {
-    "description": "フォームやエディタで入力したデータを保存する際に使用するボタンテキスト"
-  },
   "memo": "మెమో",
-  "@memo": {
-    "description": "服薬記録や日記などで追加情報を入力するためのテキストフィールドのプレースホルダー"
-  },
   "completed": "పూర్తి",
-  "@completed": {
-    "description": "フォームの入力や設定の変更などの操作が完了した際に使用するボタンテキスト"
-  },
   "medicineRegistration": "మందులు నమోదు పేజీ",
-  "@medicineRegistration": {
-    "description": "お薬の新規登録・編集画面のタイトル"
-  },
   "medicineName": "మరియు ఆ మందు పేరు",
-  "@medicineName": {
-    "description": "お薬登録フォームでの薬の名前を入力するフィールドのプレースホルダー"
-  },
   "medicineList": "మందులు జాబితా",
-  "@medicineList": {
-    "description": "登録されているお薬の一覧を表示する画面のタイトル"
-  },
   "medicationSchedule": "మెడిసిన్ షెడ్యూల్",
-  "@medicationSchedule": {
-    "description": "服用スケジュールのセクションタイトル"
-  },
   "medicationTime": "పోతు సమయంలో నోటిఫికేషన్లు సజీవం చేయండి",
-  "@medicationTime": {
-    "description": "服用時刻の通知設定を有効にするためのスイッチのラベル"
-  },
   "medicationTimeDescription": "ఆధారంగా నోటిఫికేషన్‌లను పంపిస్తుంది",
-  "@medicationTimeDescription": {
-    "description": "服用時刻の通知設定の説明文"
-  },
   "close": "తొలగండి",
-  "@close": {
-    "description": "ダイアログやモーダルを閉じるためのボタンテキスト"
-  },
   "settings": "సెట్టింగులు",
-  "@settings": {
-    "description": "設定画面のタイトル"
-  },
   "camera": "కెమెరా",
-  "@camera": {
-    "description": "カメラを起動するためのメニュー項目"
-  },
   "photoLibrary": "ఫోటోలైబ్రరీ",
-  "@photoLibrary": {
-    "description": "フォトライブラリを開くためのメニュー項目"
-  },
   "medicationHistory": "మందు తీసుకోవడానికి సంబంధించిన చరిత్ర",
-  "@medicationHistory": {
-    "description": "服薬履歴を表示する画面のタイトル"
-  },
   "noMedicationHistory": "మీరు ఔషధం తీసుకున్న చరిత్ర లేదు",
-  "@noMedicationHistory": {
-    "description": "服薬履歴が存在しない場合に表示するメッセージ"
-  },
   "scheduledTime": "యొక్క సమయము",
-  "@scheduledTime": {
-    "description": "服薬予定時刻のラベル"
-  },
   "recordedTime": "రికార్డు సమయం",
-  "@recordedTime": {
-    "description": "実際に服薬を記録した時間のラベル"
-  },
   "noMemo": "గుర్తింపులు లేవు",
-  "@noMemo": {
-    "description": "メモが存在しない場合に表示するテキスト"
-  },
   "premiumPlan": "ప్రీమియం ప్లాన్",
-  "@premiumPlan": {
-    "description": "プレミアムプランの名称"
-  },
   "premiumFeatureAds": "విజ్యాపనలను చూపించకుండా",
-  "@premiumFeatureAds": {
-    "description": "プレミアム機能の広告非表示の説明"
-  },
   "premiumFeatureHistory": "అన్ని మందుల తీసుకునే చరిత్రను చూపించు",
-  "@premiumFeatureHistory": {
-    "description": "プレミアム機能の履歴表示の説明"
-  },
   "premiumRegistrationComplete": "Medicalarm ప్రీమియం నమోదు పూర్తి",
-  "@premiumRegistrationComplete": {
-    "description": "プレミアム登録完了時のタイトル"
-  },
   "premiumRegistrationThanks": "ధన్యవాదాలు, మీరు నమోదు చేసుకున్నారు. సేకరణలో లభించే అన్ని ఫీచర్లను ఉపయోగించడానికి సిద్ధంగా ఉన్నారు!",
-  "@premiumRegistrationThanks": {
-    "description": "プレミアム登録完了時のメッセージ"
-  },
   "unknownError": "తెలియని పొరపాటు జరిగింది",
-  "@unknownError": {
-    "description": "予期せぬエラーが発生した際のエラーメッセージ"
-  },
   "error": "తప్పిదం ఏర్పడింది",
-  "@error": {
-    "description": "一般的なエラーメッセージ"
-  },
   "unexpectedError": "అనుకోని లోపం జరిగింది.",
-  "@unexpectedError": {
-    "description": "予期せぬエラーが発生した際のエラーメッセージ"
-  },
   "cancel": "రద్దు",
-  "@cancel": {
-    "description": "操作をキャンセルするためのボタンテキスト"
-  },
   "delete": "తొలగించండి",
-  "@delete": {
-    "description": "削除操作を実行するためのボタンテキスト"
-  },
   "deleteAccount": "ఖాతాను తొలగించు",
-  "@deleteAccount": {
-    "description": "アカウント削除ボタンのテキスト"
-  },
   "deleteAccountConfirm": "యూజర్ సమాచారం తొలిగించండి ",
-  "@deleteAccountConfirm": {
-    "description": "アカウント削除確認ダイアログのタイトル"
-  },
   "deleteAccountMessage": "ఖాతా తొలగించినప్పుడు, అన్ని వినియోగదారు సమాచారది తొలగించబడుతుంది.",
-  "@deleteAccountMessage": {
-    "description": "アカウント削除確認ダイアログのメッセージ"
-  },
   "medicationFrequency": "మందు తీసుకునేందుకు తరచితనం",
-  "@medicationFrequency": {
-    "description": "服用頻度の設定セクションのタイトル"
-  },
   "daily": "ప్రతిరోజు",
-  "@daily": {
-    "description": "毎日服用する頻度設定"
-  },
   "everyXDays": "దినాల వ్యత్యాసం",
-  "@everyXDays": {
-    "description": "X日ごとに服用する頻度設定"
-  },
   "specificWeekdays": "ఓ ప్రత్యేక రోజు",
-  "@specificWeekdays": {
-    "description": "特定の曜日に服用する頻度設定"
-  },
   "cycle": "సైకిల్",
-  "@cycle": {
-    "description": "周期で服用する頻度設定"
-  },
   "cycleDescription": "ఉదాహరణ) 21వ రోజున తీసుకోవడం/7వ రోజున అర్థం",
-  "@cycleDescription": {
-    "description": "周期での服用頻度の説明文"
-  },
   "everyXDaysDescription": "దినాలకో అందులో, దినాలకో",
-  "@everyXDaysDescription": {
-    "description": "X日ごとの服用頻度の説明文"
-  },
   "specificWeekdaysDescription": "ఉదాహరణకు) సోమవారం మాత్రమే, బుధవారం మరియు శుక్రవారం",
-  "@specificWeekdaysDescription": {
-    "description": "特定の曜日の服用頻度の説明文"
-  },
   "medicineFormValidationError": "మీరు పేరు మరియు మందు ఉపయోగపు షెడ్యూల్‌ను నమోదు చేయండి",
-  "@medicineFormValidationError": {
-    "description": "お薬登録フォームでの入力バリデーションエラーメッセージ"
-  },
   "quantity": "పరిధి",
-  "@quantity": {
-    "description": "服用量を入力するフィールドのラベル"
-  },
   "quantityExample": "ఉదా: 1 మాత్ర, 100mg",
-  "@quantityExample": {
-    "description": "服用量入力フィールドのプレースホルダー"
-  },
   "medicationStartDate": "మందు తీసుకోవడం ప్రారంభించే తేది",
-  "@medicationStartDate": {
-    "description": "服用開始日を選択するフィールドのラベル"
-  },
   "otherInformation": "ఇతర",
-  "@otherInformation": {
-    "description": "その他の情報を入力するセクションのタイトル"
-  },
   "doseReceiver": "పోతు వివాదం",
-  "@doseReceiver": {
-    "description": "服用者を選択するフィールドのラベル"
-  },
   "defaultDoseReceiver": "నా",
-  "@defaultDoseReceiver": {
-    "description": "デフォルトの服用者名"
-  },
   "doseReceiverMaxCount": "ఓవరు పుష్కలంగా {count} మందిని నమోదు చేయవచ్చు.",
-  "@doseReceiverMaxCount": {
-    "description": "服用者の最大登録数を表示するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "2"
-      }
-    }
-  },
   "increaseLimitWithPremium": "ప్రీమియం ప్రణాళికతో పరిమితిని {count} కు పెంచండి",
-  "@increaseLimitWithPremium": {
-    "description": "プレミアムプランでの上限増加を案内するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "10"
-      }
-    }
-  },
   "addDoseReceiver": "సేవనం సమర్పకుడిని చేర్చండి",
-  "@addDoseReceiver": {
-    "description": "服用者を追加するボタンのテキスト"
-  },
   "newDoseReceiver": "కొత్త ఉపయోగం",
-  "@newDoseReceiver": {
-    "description": "新規追加時のデフォルトの服用者名"
-  },
   "reloginRequired": "తర్వాతి రిజిస్ట్రేషన్ చేయండి",
-  "@reloginRequired": {
-    "description": "アカウント削除時に再ログインが必要な場合のダイアログタイトル"
-  },
   "reloginMessage": "ఖాతాను తొలగించడానికి, దయచేసి మళ్లీ లాగిన్ అవ్వండి.",
-  "@reloginMessage": {
-    "description": "アカウント削除時の再ログイン要求メッセージ"
-  },
   "relogin": "మళ్లీ లాగిన్ అవ్వండి",
-  "@relogin": {
-    "description": "再ログインを実行するためのボタンテキスト"
-  },
   "accountDeleted": "ఖాతా తొలగించబడింది",
-  "@accountDeleted": {
-    "description": "アカウント削除完了時のメッセージ"
-  },
   "confirmExit": "మీరు యాప్‌ను ముగించాలనుకుంటున్నారా?",
-  "@confirmExit": {
-    "description": "アプリ終了確認のメッセージ"
-  },
   "exit": "ముగించు",
-  "@exit": {
-    "description": "アプリを終了するためのボタンテキスト"
-  },
   "viewFaq": "FAQని చూడండి",
-  "@viewFaq": {
-    "description": "FAQページを表示するためのボタンテキスト"
-  },
   "medicine": "మీకు మందులు",
-  "@medicine": {
-    "description": "お薬タブのタイトル"
-  },
   "inquiry": "సంప్రదించండి",
-  "@inquiry": {
-    "description": "お問い合わせボタンのテキスト"
-  },
   "ok": "సరే",
-  "@ok": {
-    "description": "確認ダイアログのOKボタンのテキスト"
-  },
   "medicationScheduleLimit": "మీరు{count} మందుల షెడ్యూల్ నమోదు చేయడానికి వరకు నమోదు చేయవచ్చు.",
-  "@medicationScheduleLimit": {
-    "description": "服用スケジュールの登録上限を表示するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "3"
-      }
-    }
-  },
   "increaseMedicationScheduleLimit": "ప్రీమియం పథకం ద్వారా పరిమితిని {count} కు పెంచండి",
-  "@increaseMedicationScheduleLimit": {
-    "description": "服用スケジュールの上限をプレミアムプランで増やすことを案内するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "10"
-      }
-    }
-  },
   "addMedicationSchedule": "షెడ్యూల్‌లో టాబ్లెట్ చేర్చండి",
-  "@addMedicationSchedule": {
-    "description": "服用スケジュールを追加するボタンのテキスト"
-  },
   "medicationScheduleNotificationSetting": "మందులు తీసుకునే షెడ్యూల్ నోటిఫికేషన్ సెటప్",
-  "@medicationScheduleNotificationSetting": {
-    "description": "服用スケジュールの通知設定画面のタイトル"
-  },
   "notificationSetting": "అంచనా ప్రణాళిక",
-  "@notificationSetting": {
-    "description": "通知設定セクションのタイトル"
-  },
   "enableFollowupNotification": "ఫాలోఅప్ నోటిఫికేషన్‌లను ప్రారంభించు",
-  "@enableFollowupNotification": {
-    "description": "フォローアップ通知を有効にするスイッチのラベル"
-  },
   "followupNotificationDescription": "మీరు మొదటి సంకేతం పంపిన 30 నిమిషాల్లోవైద్యాన్ని నమోదు చేయకపోతే, అనుకూలిత సంకేతం పంపబడుతుంది.",
-  "@followupNotificationDescription": {
-    "description": "フォローアップ通知の説明文"
-  },
   "enableNotificationInSilentMode": "మణా మోడ్‌లోనూ నోటిఫికేషన్‌లు",
-  "@enableNotificationInSilentMode": {
-    "description": "マナーモード時の通知を有効にするスイッチのラベル"
-  },
   "silentModeNotificationDescription": "కేంద్రిత మోడ్ ON అయి ఉండగా లేదా పరికరం మిన్నలో ఉన్నప్పుడు కూడా, ప్రముఖ సమాచారాలు లాక్ స్క్రీన్ పై ప్రదర్శించబడతాయి, శబ్దం ప్రసారం చేయబడుతుంది.",
-  "@silentModeNotificationDescription": {
-    "description": "マナーモード時の通知の説明文"
-  },
   "everyXDaysFormat": "{count}రోజుల క్రమంలో",
-  "@everyXDaysFormat": {
-    "description": "X日ごとの服用頻度を表示する際のフォーマット",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "2"
-      }
-    }
-  },
   "cycleDaysFormat": "{consecutiveDays} రోజులు మందు తాగే/{restDays} రోజులు మందు విరమించు",
-  "@cycleDaysFormat": {
-    "description": "服用周期を表示する際のフォーマット",
-    "placeholders": {
-      "consecutiveDays": {
-        "type": "int",
-        "example": "21"
-      },
-      "restDays": {
-        "type": "int",
-        "example": "7"
-      }
-    }
-  },
   "consecutiveDaysFormat": "{count} రోజుల మోతాదు",
-  "@consecutiveDaysFormat": {
-    "description": "連続服用日数を表示する際のフォーマット",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "21"
-      }
-    }
-  },
   "restDaysFormat": "{count} రోజులు మందు తీసుకోలేదు",
-  "@restDaysFormat": {
-    "description": "休薬日数を表示する際のフォーマット",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "7"
-      }
-    }
-  },
   "limitedTimeDiscount": "ఇప్పుడు ప్రత్యేక ధరతో ఎప్పటికీ ఉపయోగించండి",
-  "@limitedTimeDiscount": {
-    "description": "プレミアムプランの限定価格キャンペーンを案内するメッセージ"
-  },
   "monthlyPlan": "మాసిక పథకం",
-  "@monthlyPlan": {
-    "description": "月額プランの名称"
-  },
   "annualPlan": "సంవత్సరానికి ఉపయోక్తా పథకం",
-  "@annualPlan": {
-    "description": "年額プランの名称"
-  },
   "weeklyPlan": "అవకాశం పథకం",
-  "@weeklyPlan": {
-    "description": "週額プランの名称"
-  },
   "premiumRequired": "ప్రీమియం పథకానికి చేరడం ద్వారా మిమ్మల్ని వీక్షించగలరు",
-  "@premiumRequired": {
-    "description": "プレミアムプラン加入が必要な機能へのアクセス時のメッセージ"
-  },
   "medication": "దవాఖాన",
-  "@medication": {
-    "description": "服薬タブのタイトル"
-  },
   "history": "చరిత్ర",
-  "@history": {
-    "description": "履歴タブのタイトル"
-  },
+  "calendar": "క్యాలెండర్",
   "medicineRegistrationLimit": "మందుల నమోదు సంఖ్య",
-  "@medicineRegistrationLimit": {
-    "description": "薬の登録数の上限を説明するテキストの一部"
-  },
   "doseReceiverRegistrationLimit": "వ్యవసాయ దివంగతుల నమోదుకు గరిష్ట సంఖ్య",
-  "@doseReceiverRegistrationLimit": {
-    "description": "服用者の登録数の上限を説明するテキストの一部"
-  },
   "notificationScheduleLimit": "నోటిఫికేషన్ షెడ్యూల్ సంఖ్య",
-  "@notificationScheduleLimit": {
-    "description": "通知スケジュールの上限を説明するテキストの一部"
-  },
   "addMedicine": "మందు జోడించు",
-  "@addMedicine": {
-    "description": "お薬を追加するボタンのテキスト"
-  },
   "medicineMaxCount": "మీరు {count} మందులు నమోదుచేయవచ్చు.",
-  "@medicineMaxCount": {
-    "description": "お薬の最大登録数を表示するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "5"
-      }
-    }
-  },
   "increaseMedicineLimitWithPremium": "ప్రీమియం ప్లాన్‌లో పరిమితిని {count} వరకు పెంచండి",
-  "@increaseMedicineLimitWithPremium": {
-    "description": "お薬の登録上限をプレミアムプランで増やすことを案内するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "10"
-      }
-    }
-  },
   "aboutApp": "యాప్ గురించి",
-  "@aboutApp": {
-    "description": "アプリについてのセクションタイトル"
-  },
   "viewPremiumPlan": "ప్రెమియం ప్లాన్‌ని చూడండి",
-  "@viewPremiumPlan": {
-    "description": "プレミアムプランの詳細を表示するためのボタンテキスト"
-  },
   "cancelSubscriptionInstruction": "కొనుగోలు చేసిన తరువాత, స్వయంచాలకంగా నవీకరించినన్ని రద్దు చేయడానికి {storeName} యాప్ యొక్క ఖాతా సెట్టింగ్స్ లో చేయవచ్చు. (యాప్ లో నుండి స్వయంచాలక నవీకరణని రద్దు చేయడం సాధ్యం లేదు).",
-  "@cancelSubscriptionInstruction": {
-    "description": "自動更新の解約方法の説明",
-    "placeholders": {
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "headache": "తల నొప్పి",
-  "@headache": {
-    "description": "症状の選択肢：頭痛"
-  },
   "stomachache": "కడుపు నొప్పి",
-  "@stomachache": {
-    "description": "症状の選択肢：腹痛"
-  },
   "nausea": "అస్వస్థత",
-  "@nausea": {
-    "description": "症状の選択肢：吐き気"
-  },
   "anemia": "అవిస్సం",
-  "@anemia": {
-    "description": "症状の選択肢：貧血"
-  },
   "diarrhea": "దస్తర",
-  "@diarrhea": {
-    "description": "症状の選択肢：下痢"
-  },
   "constipation": "మలబద్దకం",
-  "@constipation": {
-    "description": "症状の選択肢：便秘"
-  },
   "hotFlash": "ఉష్ణత",
-  "@hotFlash": {
-    "description": "症状の選択肢：ほてり"
-  },
   "drowsiness": "శ్రద్ధకు లోటు",
-  "@drowsiness": {
-    "description": "症状の選択肢：眠気"
-  },
   "backPain": "కమర్ల నొప్పి",
-  "@backPain": {
-    "description": "症状の選択肢：腰痛"
-  },
   "palpitation": "గుండె బీటింగ్",
-  "@palpitation": {
-    "description": "症状の選択肢：動悸"
-  },
   "abnormalBleeding": "అసాధారణ రక్తస్రావం",
-  "@abnormalBleeding": {
-    "description": "症状の選択肢：不正出血"
-  },
   "lossOfAppetite": "ఆహారాశ్యం లోపం",
-  "@lossOfAppetite": {
-    "description": "症状の選択肢：食欲不振"
-  },
   "chestTightness": "స్థనవృత్తి",
-  "@chestTightness": {
-    "description": "症状の選択肢：胸の張り"
-  },
   "insomnia": "అనిద్ర",
-  "@insomnia": {
-    "description": "症状の選択肢：不眠"
-  },
   "monthlyPlanDiscountFormat": "నెలవారీ {percent}% తగ్గింపు",
-  "@monthlyPlanDiscountFormat": {
-    "description": "月額プランからの割引率を表示するフォーマット",
-    "placeholders": {
-      "percent": {
-        "type": "int",
-        "example": "50"
-      }
-    }
-  },
   "purchaseErrorUnknown": "అర్ధం కాని లోపం జరిగింది. కొద్ది క్షణాల తరువాత మళ్ళీ ప్రయత్నించండి. పరిష్కారమైతే  సెట్టింగ్స్ > సంప్రదించండి ద్వారా మాకు సంప్రదించండి. వివరాలు: {message}",
-  "@purchaseErrorUnknown": {
-    "description": "購入時の不明なエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorStoreProblem": "{storeName}లో పొరపాటు జరుగుతోంది. కొద్ది కాలం వేచి ఉండండి మరియు మళ్లీ ప్రయత్నించండి.",
-  "@purchaseErrorStoreProblem": {
-    "description": "ストアでのエラーメッセージ",
-    "placeholders": {
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "purchaseErrorInvalidPayment": "మీ చెల్లింపు విఫలమైంది. దయచేసి మీ చెల్లింపు విధానం చెల్లుబాటూ ఉందా అని నిర్ధారించుకోండి మరియు పునరాశ్రయించండి.",
-  "@purchaseErrorInvalidPayment": {
-    "description": "支払い方法が無効な場合のエラーメッセージ"
-  },
   "purchaseErrorProductUnavailable": "ఈ ప్లాన్ ప్రస్తుతం అందుబాటులో లేదు. దయచేసి యాప్‌ను మళ్ళీ ఆరంభించి ప్రయత్నించండి.",
-  "@purchaseErrorProductUnavailable": {
-    "description": "商品が利用できない場合のエラーメッセージ"
-  },
   "purchaseErrorAlreadyPurchased": "మీరు ఇప్పటికే ప్లాన్ కొనుగోలు చేసారు. ఈ డివైస్ లో కొనుగోళ్ల సమాచారాన్ని పున restored చేయాలని అనుకుంటే, \"మీరు ఇప్పటికే కొనుగోలు చేసినవి ఇక్కడ\" నుండి కొనుగోలు సమాచారాన్ని పున restored చేయండి.",
-  "@purchaseErrorAlreadyPurchased": {
-    "description": "すでに購入済みの場合のエラーメッセージ"
-  },
   "purchaseErrorReceiptInUse": "నంతి కొనుగోలు చేసారు. ఈ కొనుగోళ్లు {accountName} నందు వేరే వినియోగదారుతో ఉపయోగించబడుతున్నాయి.",
-  "@purchaseErrorReceiptInUse": {
-    "description": "購入情報が他のユーザーで使用されている場合のエラーメッセージ",
-    "placeholders": {
-      "accountName": {
-        "type": "String",
-        "example": "Apple ID"
-      }
-    }
-  },
   "purchaseErrorInvalidReceipt": "నాన్ వాలిడ్ కొనుగోలు సమాచారం ఉంది. దయచేసి కొనుగోలు సమాచారం నిర్ధారించండి.",
-  "@purchaseErrorInvalidReceipt": {
-    "description": "購入情報が無効な場合のエラーメッセージ"
-  },
   "purchaseErrorMissingReceipt": "కొనుగోలుదారుని సమాచారం లేదు. {accountName}తో పరికరానికి సైన్ ఇన్ చేసి ప్రయత్నించండి.",
-  "@purchaseErrorMissingReceipt": {
-    "description": "購入情報が見つからない場合のエラーメッセージ",
-    "placeholders": {
-      "accountName": {
-        "type": "String",
-        "example": "Apple ID"
-      }
-    }
-  },
   "purchaseErrorNetwork": "నెట్‌వర్క్ స్థితి అస్థిరమైనది. దయచేసి కనెక్షన్ స్థితిని సరిచూసి మళ్లీ ప్రయత్నించండి.",
-  "@purchaseErrorNetwork": {
-    "description": "ネットワークエラーの場合のエラーメッセージ"
-  },
   "purchaseNotAllowed": "ఈ డివైస్‌లో కొనుగోలు చేయడం అనుమతించబడ లేదు",
-  "@purchaseNotAllowed": {
-    "description": "デバイスでの購入が許可されていない場合のエラーメッセージ"
-  },
   "purchaseErrorInvalidCredentials": "కొనుగోలు విఫలమైంది. కొంత సమయం వెనక్కి వెళ్ళి మళ్ళీ ప్రయత్నించండి. పరిస్కారమవకపోతే, 'సెట్టింగ్స్ > సంప్రదించండి' నుండి సంప్రదించండి. వివరాలు: {message}",
-  "@purchaseErrorInvalidCredentials": {
-    "description": "認証情報が無効な場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorUnexpectedBackend": "ఇప్పుడు కొనుగోలు చేయలేము. దయచేసి కొంత సమయం ఆగి మళ్లీ ప్రయత్నించండి. సమస్య బ IRS కి వెళ్ళి సమస్యను పరిష్కరించకపోతే, సెట్టింగ్ > సంప్రదించండి మీతో తీసుకుంటారు. వివరాలు: {message}",
-  "@purchaseErrorUnexpectedBackend": {
-    "description": "バックエンドで予期せぬエラーが発生した場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorOperationInProgress": "కొనుగోలు ప్రక్రియ వేరు గా కొనసాగుతోంది. కొద్దిగా సమయం కరిగిన తరువాత, దయచేసి మళ్ళీ తనిఖీ చేయండి.",
-  "@purchaseErrorOperationInProgress": {
-    "description": "購入処理が既に進行中の場合のエラーメッセージ"
-  },
   "purchaseErrorInsufficientPermissions": "మీ {accountName} వద్ద ప్రణాళికకు సభ్యత్వం కలిగించలేము. దయచేసి మీ చెల్లింపు సమాచారాన్ని ధృవీకరించి మళ్లీ ప్రయత్నించండి.",
-  "@purchaseErrorInsufficientPermissions": {
-    "description": "権限が不足している場合のエラーメッセージ",
-    "placeholders": {
-      "accountName": {
-        "type": "String",
-        "example": "Apple ID"
-      }
-    }
-  },
   "purchaseErrorPaymentPending": "భుజగులు మధ్యలో ఆపివేయబడ్డాయి. లాగిన్ చేసుకునే {accountName} ద్వారా {storeName}ని నిర్ధారించుకోండి.",
-  "@purchaseErrorPaymentPending": {
-    "description": "支払いが保留中の場合のエラーメッセージ",
-    "placeholders": {
-      "accountName": {
-        "type": "String",
-        "example": "Apple ID"
-      },
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "premiumUserThanksTitle": "ప్రిమియం సభ్యులు",
-  "@premiumUserThanksTitle": {
-    "description": "プレミアムユーザーへの感謝を示すタイトル"
-  },
   "premiumUserThanksMessage": "మీరు ఉపయోగించినందుకు ధన్యవాదాలు. మీ మద్ధతుతో Medicalarm నిర్వహణ కొనసాగించగలుగుతున్నాము.",
-  "@premiumUserThanksMessage": {
-    "description": "プレミアムユーザーへの感謝メッセージ"
-  },
   "premiumPricePerMonth": "({price}/మాసం)",
-  "@premiumPricePerMonth": {
-    "description": "月額料金の表示フォーマット",
-    "placeholders": {
-      "price": {
-        "type": "String",
-        "example": "¥500"
-      }
-    }
-  },
   "premiumCancelDescription": "• కొనుగోలు చేసిన తర్వాత, {storeName} అప్లికేషన్ అకౌంట్ సెట్టింగ్స్‌లో స్వయంచాలక నవీకరణను రద్దు చేయవచ్చు.(ప్రయోగంలో స్వయంచాలక నవీకరణలను రద్దు చేయలేరు).",
-  "@premiumCancelDescription": {
-    "description": "プレミアムプランの解約方法の説明",
-    "placeholders": {
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "purchaseErrorRestoreFailed": "మునుపటి కొనుగోలు సమాచారాన్ని కనుగొనలేకపోతున్నాము. దయచేసి మీ ఖాతాను చూసి మళ్ళీ ప్రయత్నించండి.",
-  "@purchaseErrorRestoreFailed": {
-    "description": "購入情報の復元に失敗した場合のエラーメッセージ"
-  },
   "purchaseErrorUserNotFound": "యూజర్‌ను కనుగొనలేకపోయారు. దయచేసి ఆప్‌ను మళ్లీ ఆరంభించి మరల ప్రయత్నించండి. వివరాలు: {message}",
-  "@purchaseErrorUserNotFound": {
-    "description": "ユーザーが見つからない場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorActivationPending": "మంచి ఉన్నతి సంవత్సరము దాటలేదు. కొద్ది సేపు వేచి ఉన్న తర్వాత దయచేసి తనిఖీ చేయండి.",
-  "@purchaseErrorActivationPending": {
-    "description": "課金の有効化が完了していない場合のエラーメッセージ"
-  },
   "purchaseErrorTimeout": "సమయం ముగిసింది. దయచేసి మీ కమ్యూనికేషన్ పర్యావరణాన్ని తనిఖీ చేసి మళ్లీ ప్రయత్నించండి. సమస్యలు కొనసాగితే, సెటింగ్స్ > సంప్రదింపు ద్వారా మమ్మల్ని సంప్రదించండి. వివరాలు: {message}",
-  "@purchaseErrorTimeout": {
-    "description": "購入処理がタイムアウトした場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorNetworkError": "నెట్‌వర్క్ పొరపాటు ఉంది. మీ కమ్యూనికేషన్ వాతావరణాన్ని ధృవీకరించి మళ్ళీ ప్రయత్నించండి. సమస్య పరిష్కారమైతే సేవలు > సంప్రదించండి ద్వారా సంప్రదించగలరు. వివరాలు: {message}",
-  "@purchaseErrorNetworkError": {
-    "description": "ネットワークエラーが発生した場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "sixMonthPlan": "6 నెలలు ప్రణాళిక",
-  "@sixMonthPlan": {
-    "description": "6ヶ月プランの表示名"
-  },
   "premiumContractPeriod": "ఈ ఒప్పందం కాలం కొనుగోలు తేదీ నుంచి 1 నెల జరిగినది.",
-  "@premiumContractPeriod": {
-    "description": "プレミアムプランの契約期間の説明"
-  },
   "privacyPolicy": "ప్రైవసీ పాలసీ",
-  "@privacyPolicy": {
-    "description": "プライバシーポリシーのリンクテキスト"
-  },
   "termsOfService": "వినియోగానికి సంబంధించిన నిబంధనలు",
-  "@termsOfService": {
-    "description": "利用規約のリンクテキスト"
-  },
   "specifiedCommercialTransactionAct": "స్పష్టమైన వాణిజ్య చట్టానికి అనుగుణమైన గణనలు",
-  "@specifiedCommercialTransactionAct": {
-    "description": "特定商取引法に基づく表記のリンクテキスト"
-  },
   "confirmBeforeRegistration": "దయచేసి ధృవీకరించిన తర్వాత నమోదు చేసుకోండి",
-  "@confirmBeforeRegistration": {
-    "description": "各種規約確認を促すメッセージ"
-  },
   "autoRenewalNotice": "ఒక ఒప్పంద కాలంపాటు ముగిసిన తర్వాత ఆటో-రీన్యువల్ గా ఉంటుంది.",
-  "@autoRenewalNotice": {
-    "description": "自動更新に関する注意事項"
-  },
   "restorePurchase": "ముందు కొనుగోలు చేసినవారు ఇక్కడ",
-  "@restorePurchase": {
-    "description": "購入情報の復元リンクのテキスト"
-  },
   "purchaseRestored": "మీ కొనుగోలు సమాచారాన్ని పునరుద్ధరించబడింది",
-  "@purchaseRestored": {
-    "description": "購入情報の復元が完了した際のメッセージ"
-  },
   "medicationTimeFollowup": "వైద్యానికి సమయానికి అనుసరించడం",
-  "@medicationTimeFollowup": {
-    "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
-  },
   "updateRequired": "అప్‌డేట్ అవసరం",
-  "@updateRequired": {
-    "description": "強制アップデートが必要な場合のダイアログタイトル"
-  },
   "updateRequiredMessage": "దయచేసి {storeName} నుండి తాజా సంచికకు అప్‌డేట్ చేయండి.",
-  "@updateRequiredMessage": {
-    "description": "強制アップデートが必要な場合のダイアログメッセージ",
-    "placeholders": {
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "screenshotMedicationHistoriesMemo": "రోజులో మందు తీసుకునే సమయం ఆలస్యమైంది",
-  "@screenshotMedicationHistoriesMemo": {
-    "description": "薬のメモの例"
-  },
   "screenshotMedicationDoserReceiver1": "నేను",
-  "@screenshotMedicationDoserReceiver1": {
-    "description": "薬の服用者の例"
-  },
   "screenshotMedicationDoserReceiver2": "మనా చాన్",
-  "@screenshotMedicationDoserReceiver2": {
-    "description": "薬の服用者の例"
-  },
   "screenshotMedicationQuontityMemo1": "1 మోతాదు",
-  "@screenshotMedicationQuontityMemo1": {
-    "description": "薬の服用量の例"
-  },
   "screenshotMedicationQuontityMemo2": "2 మాత్రలు",
-  "@screenshotMedicationQuontityMemo2": {
-    "description": "薬の服用量の例"
-  },
   "screenshotMedicationName1": "థ్రస్సింగ్ పాతరుడు",
-  "@screenshotMedicationName1": {
-    "description": "薬の名前の例"
-  },
   "screenshotMedicationName2": "విటమిన్ టాబ్లెట్లు",
-  "@screenshotMedicationName2": {
-    "description": "薬の名前の例"
-  },
   "notificationTitle": "మీ ఔషధం తీసుకునే సమయము",
-  "@notificationTitle": {
-    "description": "薬の通知のタイトル"
-  },
   "notificationFollowupTitle": "మీరు మందు తీసుకునే రికార్డును పెట్టడం మరిచిపోయారా?",
-  "@notificationFollowupTitle": {
-    "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
-  },
   "recommendedApp": "అనుకూలమైన యాప్",
-  "@recommendedApp": {
-    "description": "おすすめアプリのタイトル"
-  },
   "pilllIntroduction": "మీరు పిల్ నిర్వహణ గూర్చి ఆలోచిస్తున్నారా? మీ పిల్‌ను మరింత సౌకర్యవంతంగా నిర్వహించండి!",
-  "@pilllIntroduction": {
-    "description": "ピルの管理の紹介"
-  },
   "installPilll": "పిల్ల్ను ఇన్‌స్టాల్ చేయండి",
-  "@installPilll": {
-    "description": "Pilllをインストールするボタンのテキスト"
-  },
-  "criticalAlertVolume": "శబ్దమట్టము",
-  "@criticalAlertVolume": {
-    "description": "緊急通知の音量の表示名"
-  }
+  "criticalAlertVolume": "శబ్దమట్టము"
 }

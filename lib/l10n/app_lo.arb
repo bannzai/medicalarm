@@ -1,779 +1,157 @@
 {
   "@@locale": "lo",
   "retry": "ກັງຄືນ",
-  "@retry": {
-    "description": "エラーが発生した際やデータの読み込みに失敗した際に、再度処理を実行するためのボタンテキスト"
-  },
   "save": "ບັນທຶກ",
-  "@save": {
-    "description": "フォームやエディタで入力したデータを保存する際に使用するボタンテキスト"
-  },
   "memo": "ບັນທຶກ",
-  "@memo": {
-    "description": "服薬記録や日記などで追加情報を入力するためのテキストフィールドのプレースホルダー"
-  },
   "completed": "ສຳເລັດ",
-  "@completed": {
-    "description": "フォームの入力や設定の変更などの操作が完了した際に使用するボタンテキスト"
-  },
   "medicineRegistration": "ສະແດງເຂົ້າໃສ່ຢາ",
-  "@medicineRegistration": {
-    "description": "お薬の新規登録・編集画面のタイトル"
-  },
   "medicineName": "ຊື່ຢາ",
-  "@medicineName": {
-    "description": "お薬登録フォームでの薬の名前を入力するフィールドのプレースホルダー"
-  },
   "medicineList": "ລາຍການຢາ",
-  "@medicineList": {
-    "description": "登録されているお薬の一覧を表示する画面のタイトル"
-  },
   "medicationSchedule": "ກຳປົດສຽງເຮືອນຕຳແນວ",
-  "@medicationSchedule": {
-    "description": "服用スケジュールのセクションタイトル"
-  },
   "medicationTime": "ເປີດໃຊ້ການແຈ້ງເຕືອນໃນເທີມທີ່ສຽງແບບໃນເວລາຮັບສິ່ງທີ່ສໍາລັບກຽດໃຈ",
-  "@medicationTime": {
-    "description": "服用時刻の通知設定を有効にするためのスイッチのラベル"
-  },
   "medicationTimeDescription": "ຈະສົ່ງການແຈ້ງເຕື່ອນຕາມເວລາການໃຊ້ສິນຄ້າ.",
-  "@medicationTimeDescription": {
-    "description": "服用時刻の通知設定の説明文"
-  },
   "close": "ປິດ",
-  "@close": {
-    "description": "ダイアログやモーダルを閉じるためのボタンテキスト"
-  },
   "settings": "ການຕັ້ງຄ່າ",
-  "@settings": {
-    "description": "設定画面のタイトル"
-  },
   "camera": "ຄາແມ່ລາດ",
-  "@camera": {
-    "description": "カメラを起動するためのメニュー項目"
-  },
   "photoLibrary": "ສູນລວມຮູບຖ່າຍ",
-  "@photoLibrary": {
-    "description": "フォトライブラリを開くためのメニュー項目"
-  },
   "medicationHistory": "ບັນທຶກສູດແພດ",
-  "@medicationHistory": {
-    "description": "服薬履歴を表示する画面のタイトル"
-  },
   "noMedicationHistory": "ບໍ່ມີເບິ່ງບັນທິກການແມ່ນລະບຽບໃນດ້ານການຮັບແບບໃບການຂະບວນສຸລະພາບໃນການນຳສານ.",
-  "@noMedicationHistory": {
-    "description": "服薬履歴が存在しない場合に表示するメッセージ"
-  },
   "scheduledTime": "ແບບແຜນເຕັມເທີດ",
-  "@scheduledTime": {
-    "description": "服薬予定時刻のラベル"
-  },
   "recordedTime": "ປະມານເວລາໃຊ້ງານ",
-  "@recordedTime": {
-    "description": "実際に服薬を記録した時間のラベル"
-  },
   "noMemo": "ບໍ່ມີຄໍາລົງເບິ່ງ",
-  "@noMemo": {
-    "description": "メモが存在しない場合に表示するテキスト"
-  },
   "premiumPlan": "ວິເຊັນພຣິເມີອບລະບົບ",
-  "@premiumPlan": {
-    "description": "プレミアムプランの名称"
-  },
   "premiumFeatureAds": "ບໍ່ໃຫ້ສະແດງປ່າແທງ",
-  "@premiumFeatureAds": {
-    "description": "プレミアム機能の広告非表示の説明"
-  },
   "premiumFeatureHistory": "ສະແດງປະຫວັດການໃຊ້ບັດດີທັງໝົດ",
-  "@premiumFeatureHistory": {
-    "description": "プレミアム機能の履歴表示の説明"
-  },
   "premiumRegistrationComplete": "ສົມບູນການເຂົ້າໄປສູ່ Medicalarm ພຣີເມຍມ",
-  "@premiumRegistrationComplete": {
-    "description": "プレミアム登録完了時のタイトル"
-  },
   "premiumRegistrationThanks": "ຂອບໃຈສໍາລັບການລົງລຽງຂອງທ່ານ。ທຸກຟັງຊັນຖືກໃຊ້ງານແລ້ວ! ",
-  "@premiumRegistrationThanks": {
-    "description": "プレミアム登録完了時のメッセージ"
-  },
   "unknownError": "ມີຄວາมຜິດພາບບໍ່ຊັດເຈນ",
-  "@unknownError": {
-    "description": "予期せぬエラーが発生した際のエラーメッセージ"
-  },
   "error": "ມີການລົບລູບໃນສະຖານທີ່ປະຕິບັດ",
-  "@error": {
-    "description": "一般的なエラーメッセージ"
-  },
   "unexpectedError": "ມີບັດສິດສະກົດທີ່ບໍ່ຄາດຄິດປິເສດ",
-  "@unexpectedError": {
-    "description": "予期せぬエラーが発生した際のエラーメッセージ"
-  },
   "cancel": "ຍົກເລີກ",
-  "@cancel": {
-    "description": "操作をキャンセルするためのボタンテキスト"
-  },
   "delete": "ລົບ",
-  "@delete": {
-    "description": "削除操作を実行するためのボタンテキスト"
-  },
   "deleteAccount": "ລບລູບບັນຊີ",
-  "@deleteAccount": {
-    "description": "アカウント削除ボタンのテキスト"
-  },
   "deleteAccountConfirm": "ລົບຂໍໍ່ມູນຜູ້ໃຊ້",
-  "@deleteAccountConfirm": {
-    "description": "アカウント削除確認ダイアログのタイトル"
-  },
   "deleteAccountMessage": "ໃນການລຶບບັນຊີ ຂໍເອົາຄະແນນຂອງຜູ້ໃຊ້ທັງໝົດໄປໃສ່ຈິ່ນ.",
-  "@deleteAccountMessage": {
-    "description": "アカウント削除確認ダイアログのメッセージ"
-  },
   "medicationFrequency": "ຄວາມບໍ່ບັນດານການເຮັດພາຍໃນການອາກາດສິດສິລງ",
-  "@medicationFrequency": {
-    "description": "服用頻度の設定セクションのタイトル"
-  },
   "daily": "ທຸກໆມື້",
-  "@daily": {
-    "description": "毎日服用する頻度設定"
-  },
   "everyXDays": "例) 2 ມື້",
-  "@everyXDays": {
-    "description": "X日ごとに服用する頻度設定"
-  },
   "specificWeekdays": "ວັນທີ່ຈິງ ສໍາລັບການຕັ້ງໃຈສໍາລັບການຮັບບຳລຸງ",
-  "@specificWeekdays": {
-    "description": "特定の曜日に服用する頻度設定"
-  },
   "cycle": "ວົງຈອນ",
-  "@cycle": {
-    "description": "周期で服用する頻度設定"
-  },
   "cycleDescription": "ຕົວຢ່າງ) 21 ມື້ ສ່ອນສະແດງ/7 ມື້ ພັກໃຈ",
-  "@cycleDescription": {
-    "description": "周期での服用頻度の説明文"
-  },
   "everyXDaysDescription": "ຕົວຢ່າງ) ທຸກ 2 ມື້, ທຸກ 3 ມື້",
-  "@everyXDaysDescription": {
-    "description": "X日ごとの服用頻度の説明文"
-  },
   "specificWeekdaysDescription": "ແບບດັ່ງນີ້ແມ່ນຄຳອະທິບາຍກ່ຽວກັບຄວາມບໍ່ວ່າງຕໍາຫນ່ວຍປະຈຸບັນໃນວັນທີນິຍົກກັບນູ່ຂອງ ແຕ່ລາຍບັດສາຕົວຕໍ່ເລືອກໃນວັນທີນິຍົກຫ່າງປະຈຸບັນ.",
-  "@specificWeekdaysDescription": {
-    "description": "特定の曜日の服用頻度の説明文"
-  },
   "medicineFormValidationError": "ກະລຸນາເຂົ້າໃສ່ຊື່ແລະແຜນການໃຊ້ບໍລິສະດອນ.",
-  "@medicineFormValidationError": {
-    "description": "お薬登録フォームでの入力バリデーションエラーメッセージ"
-  },
   "quantity": "ຄວາມໃຫຍ່",
-  "@quantity": {
-    "description": "服用量を入力するフィールドのラベル"
-  },
   "quantityExample": "ແບບຢ່າງ: 1 ຊີດ, 100mg",
-  "@quantityExample": {
-    "description": "服用量入力フィールドのプレースホルダー"
-  },
   "medicationStartDate": "ວັນເລິ່ມໃຊ້ສຽງ",
-  "@medicationStartDate": {
-    "description": "服用開始日を選択するフィールドのラベル"
-  },
   "otherInformation": "ອື່ນໆ",
-  "@otherInformation": {
-    "description": "その他の情報を入力するセクションのタイトル"
-  },
   "doseReceiver": "ຄວາມສົນທະນາ",
-  "@doseReceiver": {
-    "description": "服用者を選択するフィールドのラベル"
-  },
   "defaultDoseReceiver": "ຕົນเอง",
-  "@defaultDoseReceiver": {
-    "description": "デフォルトの服用者名"
-  },
   "doseReceiverMaxCount": "ສະມາດສາມາດລົງຄະແນນສົກສະດຸດສານໃນລະບົບສົກສະນິຄັນສາເພື່ອບລົບ ໃຈ{count} ຄົນໃນເກດີເວທິໄວດ່ມສວຜູປັບຈະໃທ",
-  "@doseReceiverMaxCount": {
-    "description": "服用者の最大登録数を表示するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "2"
-      }
-    }
-  },
   "increaseLimitWithPremium": "ເພີ່ມຂອບເຂດໃນແຜນພໍ່ແບບພໍ່ເພີ່ມຂະແໜນແບບຍຸ່ງແລະສູງໃຫ້ເພີ່ມເຂດຈິງສູງເປັນ {count}.",
-  "@increaseLimitWithPremium": {
-    "description": "プレミアムプランでの上限増加を案内するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "10"
-      }
-    }
-  },
   "addDoseReceiver": "ພິເສດຄົນຮັບບຳລຸງ",
-  "@addDoseReceiver": {
-    "description": "服用者を追加するボタンのテキスト"
-  },
   "newDoseReceiver": "ຜູ້ໃຊ້ໃໝ່",
-  "@newDoseReceiver": {
-    "description": "新規追加時のデフォルトの服用者名"
-  },
   "reloginRequired": "ກະລຸນາໍ ລັອກອິນໄວໆໃໝ່",
-  "@reloginRequired": {
-    "description": "アカウント削除時に再ログインが必要な場合のダイアログタイトル"
-  },
   "reloginMessage": "ເພື່ອລົບບັດທີ່ບນທະບຽນ ຂອບດອດໃຫ້ລົງໃໝ່.",
-  "@reloginMessage": {
-    "description": "アカウント削除時の再ログイン要求メッセージ"
-  },
   "relogin": "ລົງລະບົບອີກຄັ້ງ",
-  "@relogin": {
-    "description": "再ログインを実行するためのボタンテキスト"
-  },
   "accountDeleted": "ໄດ້ລົບເອກະສານ",
-  "@accountDeleted": {
-    "description": "アカウント削除完了時のメッセージ"
-  },
   "confirmExit": "ອະທິບາຍອະບົດໃນແອັບຫຼືບໍ່?",
-  "@confirmExit": {
-    "description": "アプリ終了確認のメッセージ"
-  },
   "exit": "ເສັຽສິນ",
-  "@exit": {
-    "description": "アプリを終了するためのボタンテキスト"
-  },
   "viewFaq": "ເບິ່ງ FAQ",
-  "@viewFaq": {
-    "description": "FAQページを表示するためのボタンテキスト"
-  },
   "medicine": "ຍາ",
-  "@medicine": {
-    "description": "お薬タブのタイトル"
-  },
   "inquiry": "ສະແດງຄວາມສົນໃຈ",
-  "@inquiry": {
-    "description": "お問い合わせボタンのテキスト"
-  },
   "ok": "ຕົກລົງ",
-  "@ok": {
-    "description": "確認ダイアログのOKボタンのテキスト"
-  },
   "medicationScheduleLimit": "ສາມາດເລືອກຕາຕະລາງສໍາລັບການຮັກສາສະດຸນຄັນຄັນລົດລູນບັນທຶກຟາສິນຂອງທ່ານໄດ້ຫຼາຍກວ່າ {count} ຄັນ.",
-  "@medicationScheduleLimit": {
-    "description": "服用スケジュールの登録上限を表示するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "3"
-      }
-    }
-  },
   "increaseMedicationScheduleLimit": "ເພີ່ນຂະບວນສໍາລັບຄວາມຈິງ {count} ສູງສິດໃນແພນສົດທີ່ສາມັດໃນພວກເຂົ້າໃນຊ້າດຮັບ",
-  "@increaseMedicationScheduleLimit": {
-    "description": "服用スケジュールの上限をプレミアムプランで増やすことを案内するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "10"
-      }
-    }
-  },
   "addMedicationSchedule": "ເພິ່ນເພີ່ມເຕີມຕາຕະລາງການໃຊ້ເສັງໃນແອບ",
-  "@addMedicationSchedule": {
-    "description": "服用スケジュールを追加するボタンのテキスト"
-  },
   "medicationScheduleNotificationSetting": "ການຕັ້ງຄ່າການແຈ້ງໃນແບບລະບຽບສຽງສໍາລັບການເຮັດວຽນສະຖານການໃຊ້ເສັ້ນໃນແອັບ",
-  "@medicationScheduleNotificationSetting": {
-    "description": "服用スケジュールの通知設定画面のタイトル"
-  },
   "notificationSetting": "ການຕັ້ງຄ່າແຈ້ງ",
-  "@notificationSetting": {
-    "description": "通知設定セクションのタイトル"
-  },
   "enableFollowupNotification": "ເປີເດີ້ບົດແຈ້ງຕາມທີ່ຈະໃຊ້ດັບໃຊ່",
-  "@enableFollowupNotification": {
-    "description": "フォローアップ通知を有効にするスイッチのラベル"
-  },
   "followupNotificationDescription": "ຖ້າບໍ່ມີການບັນທຶກການເຮັດດັ່ງສຽງຈາກການແຈ້ງແນະໃນ30ນາທີສຳລັບການລົບຄວາມງາມປະຕິເສດການທີ່ຖືກສົ່ງອອກໃສ່ຕົຕລວມກັນ.",
-  "@followupNotificationDescription": {
-    "description": "フォローアップ通知の説明文"
-  },
   "enableNotificationInSilentMode": "ສະແດງການແຈ້ງໃນເວລາແບບບໍ່ສຽງສໍາລັບແນວທາງໃນແອັບ ອັບອີຈັນຈໍ່ແກັດ",
-  "@enableNotificationInSilentMode": {
-    "description": "マナーモード時の通知を有効にするスイッチのラベル"
-  },
   "silentModeNotificationDescription": "ໃນແບບສະຖານທີ່ປ່ອນແອບ ຄວາມແຈ້ງແນວຖານທີ່ສໍາຄັນຈະສະແດ່ຢູ່ໃນຈໍລອດ, ເຊົາ ສຽງຈະຖືກເປີດໃຊ້ນິດໃນໃນເວລາທີ່ຄວາມໂທ ສາກັດ ສໍາລັບການເຂົ້າແອບ.",
-  "@silentModeNotificationDescription": {
-    "description": "マナーモード時の通知の説明文"
-  },
   "everyXDaysFormat": "{count} ວັນໃນທຸກໆ",
-  "@everyXDaysFormat": {
-    "description": "X日ごとの服用頻度を表示する際のフォーマット",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "2"
-      }
-    }
-  },
   "cycleDaysFormat": "{consecutiveDays} ວັນ ຮັບບິດ / {restDays} ວັນ ພັກຮັບບິດ",
-  "@cycleDaysFormat": {
-    "description": "服用周期を表示する際のフォーマット",
-    "placeholders": {
-      "consecutiveDays": {
-        "type": "int",
-        "example": "21"
-      },
-      "restDays": {
-        "type": "int",
-        "example": "7"
-      }
-    }
-  },
   "consecutiveDaysFormat": "{count} ວັນ ສຽງດັງການໃຊ້",
-  "@consecutiveDaysFormat": {
-    "description": "連続服用日数を表示する際のフォーマット",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "21"
-      }
-    }
-  },
   "restDaysFormat": "{count} ມື້ ບໍ່ ດື່ມ",
-  "@restDaysFormat": {
-    "description": "休薬日数を表示する際のフォーマット",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "7"
-      }
-    }
-  },
   "limitedTimeDiscount": "ໃນໄຕ້ແລະຄຸນສະທໍາການອະດີດ  ດຽວນີ້ໃນລາຄາຈິດສະຖິດທີ່ຣັງຄິດນຄວາມສອບຮ່ວງແຜ່ນໃບສະທໍາການຮ່ອໄປແລະຫລາຍລາຄາຍິຈ୧ຈອຊ.  ແຈ້ກ່ຽວກັບຊວັງຮ໌ຕ່ສະສາທິອາຊານາເນບດັ້ກເັຍອ໊!  ແຈ້ຈະຊັຊຊຳນສອອກຕຈ! ວ່າສານກັຝຊາລັຄິດຖອນຄະແນນອົນມິດກັນໄປຮົຑສິຂໍສະທັບຊະ在線觀看.  ນັ່ນຊແສຫວາມຈິຊັດກໄວ!  ແງດທະຳນັ່ນໄຕ່ນມໄລະ*******.",
-  "@limitedTimeDiscount": {
-    "description": "プレミアムプランの限定価格キャンペーンを案内するメッセージ"
-  },
   "monthlyPlan": "ພະລະທັດປະຈໍາເດືອນ",
-  "@monthlyPlan": {
-    "description": "月額プランの名称"
-  },
   "annualPlan": "ບົດແລງປະຈຳປີ",
-  "@annualPlan": {
-    "description": "年額プランの名称"
-  },
   "weeklyPlan": "ລະບຽບປະຈໍາອາທິດ",
-  "@weeklyPlan": {
-    "description": "週額プランの名称"
-  },
   "premiumRequired": "ຕອນລັດທີ່ຈະເຂົ້າໄປສໍາລັບຄຸນສາມາດຂອບໃຈໃນລະບົບດາບທັດສະນະທັນທີ່ໃຊ້ໄດ້.",
-  "@premiumRequired": {
-    "description": "プレミアムプラン加入が必要な機能へのアクセス時のメッセージ"
-  },
   "medication": "ການຮັບຢາ",
-  "@medication": {
-    "description": "服薬タブのタイトル"
-  },
   "history": "ບັນທຶກ",
-  "@history": {
-    "description": "履歴タブのタイトル"
-  },
+  "calendar": "ປະຕິທິນ",
   "medicineRegistrationLimit": "ຈຳນວນສິນຄ້າແທນທີ່ຈະລົງບັດເຊື່ອງຢູ່",
-  "@medicineRegistrationLimit": {
-    "description": "薬の登録数の上限を説明するテキストの一部"
-  },
   "doseReceiverRegistrationLimit": "ຈຳນວນສະຖານທີ່ບັດທັບສົງສູງ ສໍາລັບຜູ້ຮັບສິນໃບຄົນຕ່າງໆ",
-  "@doseReceiverRegistrationLimit": {
-    "description": "服用者の登録数の上限を説明するテキストの一部"
-  },
   "notificationScheduleLimit": "ຈຳນວນຕາຕິດໃຫ້ດັດແດນຕົວແລະຈັດການແບບທຸກສິ່ງລາວສູງສິຄືບຫຍໍ່ອຸດສາຫະກິດ ଗ",
-  "@notificationScheduleLimit": {
-    "description": "通知スケジュールの上限を説明するテキストの一部"
-  },
   "addMedicine": "ເພີ່ມຢາ",
-  "@addMedicine": {
-    "description": "お薬を追加するボタンのテキスト"
-  },
   "medicineMaxCount": "ຍາໃສ່ໄດ້ແຕ່ {count} ຊິ່ນ.",
-  "@medicineMaxCount": {
-    "description": "お薬の最大登録数を表示するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "5"
-      }
-    }
-  },
   "increaseMedicineLimitWithPremium": "ເພີ່ມຂອບເຂດໃນແຜນບໍ່ລາຄາສູງເປັນ {count}",
-  "@increaseMedicineLimitWithPremium": {
-    "description": "お薬の登録上限をプレミアムプランで増やすことを案内するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "10"
-      }
-    }
-  },
   "aboutApp": "ແອບແມ່ນກ່ຽວກັບ",
-  "@aboutApp": {
-    "description": "アプリについてのセクションタイトル"
-  },
   "viewPremiumPlan": "ເບິ່ງບັດແພນພຣີເມີນ",
-  "@viewPremiumPlan": {
-    "description": "プレミアムプランの詳細を表示するためのボタンテキスト"
-  },
   "cancelSubscriptionInstruction": "購入後、自動更新の解約は{storeName}アプリのアカウント設定で行えます。(アプリ内から自動更新の解約は行なえません)。",
-  "@cancelSubscriptionInstruction": {
-    "description": "自動更新の解約方法の説明",
-    "placeholders": {
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "headache": "ປວດເຮັດ",
-  "@headache": {
-    "description": "症状の選択肢：頭痛"
-  },
   "stomachache": "ແບບຕົວງາມໃນບອດການໃຊ້ງານ: ບໍ່ອາດຈະສາມາດລະວັງຫຼຸດຝາຍແມ່ນ",
-  "@stomachache": {
-    "description": "症状の選択肢：腹痛"
-  },
   "nausea": "ອັບອະຍູ່",
-  "@nausea": {
-    "description": "症状の選択肢：吐き気"
-  },
   "anemia": "ປະເທດທີ່ອ່ອນແອນ",
-  "@anemia": {
-    "description": "症状の選択肢：貧血"
-  },
   "diarrhea": "ລົບເຊື່ອນ",
-  "@diarrhea": {
-    "description": "症状の選択肢：下痢"
-  },
   "constipation": "ບັງຄັບ",
-  "@constipation": {
-    "description": "症状の選択肢：便秘"
-  },
   "hotFlash": "ແວ່ນ",
-  "@hotFlash": {
-    "description": "症状の選択肢：ほてり"
-  },
   "drowsiness": "ຄວາມງົວງາຍ",
-  "@drowsiness": {
-    "description": "症状の選択肢：眠気"
-  },
   "backPain": "ອາການປໍ່ແຫ້ນ",
-  "@backPain": {
-    "description": "症状の選択肢：腰痛"
-  },
   "palpitation": "ການຕະຫົນ",
-  "@palpitation": {
-    "description": "症状の選択肢：動悸"
-  },
   "abnormalBleeding": "ພາສຽງບໍ່ແມ່ນ",
-  "@abnormalBleeding": {
-    "description": "症状の選択肢：不正出血"
-  },
   "lossOfAppetite": "ບໍ່ມີຄວາມຮູ້ສຶກກ່ຽວກັບອາຫານ",
-  "@lossOfAppetite": {
-    "description": "症状の選択肢：食欲不振"
-  },
   "chestTightness": "ອະການທີ່ເລືອກ: ອັນເຄັດໃນໃຈ",
-  "@chestTightness": {
-    "description": "症状の選択肢：胸の張り"
-  },
   "insomnia": "ບໍ່ນໍານາ",
-  "@insomnia": {
-    "description": "症状の選択肢：不眠"
-  },
   "monthlyPlanDiscountFormat": "ຫຼຸດ{percent}%ຈາກຄ່າໃນເດືອນ",
-  "@monthlyPlanDiscountFormat": {
-    "description": "月額プランからの割引率を表示するフォーマット",
-    "placeholders": {
-      "percent": {
-        "type": "int",
-        "example": "50"
-      }
-    }
-  },
   "purchaseErrorUnknown": "ມີຄວາมຜິດພາດທີ່ບໍ່ສາມາດອະທານເບິ່ງໄດ້. ກະລຸນາໃຫ້ມີເວລາໃຫ້ແລ້ວລອງໃໝ່ອີກຄັ້ງ. ຖ້າບໍ່ແກ້ໄຂໄດ້, ກະລຸນາຕິດຕໍ່ຜ່ານ ການຕັ້ງ > ສອບຖາມ. ລາຍລະອຽດ: {message}",
-  "@purchaseErrorUnknown": {
-    "description": "購入時の不明なエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorStoreProblem": "ມີຄວາມຜິດພາດໃນ {storeName} . ຂໍໃຫ້ເວລາແທ້ແລະລອດກັບໄປລອງໃໝ່.",
-  "@purchaseErrorStoreProblem": {
-    "description": "ストアでのエラーメッセージ",
-    "placeholders": {
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "purchaseErrorInvalidPayment": "ບໍ່ສໍາເລັດການຈ່າຍເງິນ. ກະລຸນາກວດເບິ່ງວ່າມີວິທີຈ່າຍເງິນທີ່ຈິງບໍ່ ແລະລອງໃໝ່ອີກຄັ້ງ.",
-  "@purchaseErrorInvalidPayment": {
-    "description": "支払い方法が無効な場合のエラーメッセージ"
-  },
   "purchaseErrorProductUnavailable": "ຕອນນີ້ແຜນທີ່ປ່ອນເປັນສໍາລັບລາຍການຕອນນີ້ບໍ່ມີປະລິມານຈິງ. ຂໍອະນຸຍາດໃຫ້ລອງໃຊ້ແອັບໃໝ່ອີກຄັ້ງແລ້ວ.",
-  "@purchaseErrorProductUnavailable": {
-    "description": "商品が利用できない場合のエラーメッセージ"
-  },
   "purchaseErrorAlreadyPurchased": "ທ່ານໄດ້ຊື້ແລ້ວແລະເປັນຜູ້ໃຊ້ສິນ ສິນຄ້ານີ້. ຖ້າທ່ານຕ້ອງການຟື້ນແຟງຂໍໍວນສິນຄ້າ ຄະບົວຄວາມທ່ານສາມາດປ່ອນຂໍໄປທີ່ \"ສຽງສົນສຽງກ່ຽວກັບຜູ້ເຊື່ອມ\" ສໍາລັບຟື້ນຂໍໍວນສິນຄ້ານີ້.",
-  "@purchaseErrorAlreadyPurchased": {
-    "description": "すでに購入済みの場合のエラーメッセージ"
-  },
   "purchaseErrorReceiptInUse": "ການຊໍາລະເຂົ້າເປັນຄ່າແລ້ວ ຂໍອະໄພ ຂໍກະລຸນາເຊັກຊອອກຂໍໍາລະຫັດ {accountName} ເພາະວ່າ ຂໍໍາລະທໍານີ້ຖືກໃຊ້ງານໂດຍຜູ້ໃຊ້ອື່ນ.",
-  "@purchaseErrorReceiptInUse": {
-    "description": "購入情報が他のユーザーで使用されている場合のエラーメッセージ",
-    "placeholders": {
-      "accountName": {
-        "type": "String",
-        "example": "Apple ID"
-      }
-    }
-  },
   "purchaseErrorInvalidReceipt": "ຂໍແອບຂຍອນບັນດົວແທນຄວາມຈິງ ກະລຸນາກວດແກ້ຂໍໍານວນເພື່ອທົດສອບຄວາມບໍ່ຖືກຕາມຂອບເຂດແນບແພຄໍາສັ່ງ ໅",
-  "@purchaseErrorInvalidReceipt": {
-    "description": "購入情報が無効な場合のエラーメッセージ"
-  },
   "purchaseErrorMissingReceipt": "ບໍ່ມີຂໍໍໍສາລະບຽບຂອງລາຍລະອຽດຂອງຜູ້ຊື້. ຂໍໃຫ້ລະບິດໃສ່ຄວາມບັນທຶກຂອງ {accountName} ກ່ຽວກັບອຸປະກອນກ່ຽວກັບຕົວບິນ.",
-  "@purchaseErrorMissingReceipt": {
-    "description": "購入情報が見つからない場合のエラーメッセージ",
-    "placeholders": {
-      "accountName": {
-        "type": "String",
-        "example": "Apple ID"
-      }
-    }
-  },
   "purchaseErrorNetwork": "ສະຖານະເຄືອງເຂຕິສຸດດາວດໍ້ກ່ານພິຈາລະນາເກີນແລ້ວ. ນະແບບຕໍ່ສູງເວົ່າງານສະຖານະ.",
-  "@purchaseErrorNetwork": {
-    "description": "ネットワークエラーの場合のエラーメッセージ"
-  },
   "purchaseNotAllowed": "ບໍ່ເອົາໃຊ້ໄດ້ໃນເດວາສ໌ນີ້",
-  "@purchaseNotAllowed": {
-    "description": "デバイスでの購入が許可されていない場合のエラーメッセージ"
-  },
   "purchaseErrorInvalidCredentials": "ບໍ່ສາມາດເຊື່ອມຕໍ່ໄດ້ສເເດມັນ ກະລຸນາລໍຖ້າແລະລອງໃໝ່ອີກຄັ້ງ. ຖ່າບໍ່ແກ້ໄຂໄດ້, ກະລຸນາເຂົ້າໄປທີ່ ການຕັ້ງ > ຕິດຕໍ່ ເພື່ອຕິດຕໍ່ພວກເຮົາ. ເລື່ອງລາຍລະອຽດ: {message}",
-  "@purchaseErrorInvalidCredentials": {
-    "description": "認証情報が無効な場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorUnexpectedBackend": "ບັດໃນປັດຈຸບັນບໍ່ສາມາດຊື້ໄດ້ ກະລຸນາລອຍໄວໃນສິ່ງທີ່ສະເໜີໄດ້ປຽນຄືນ ແລ້ວລອງສຽງໃໝ່ ຖ້າເອກເຂົ້າ ແນະນຳໃຫ້ເຂົ້າໄປທີ່ ການຕັ້ງ > ສຽງສືກ ເພື່ອຕິດຕໍ່. ເລີຍເພີ່ມເຕີມ: {message}",
-  "@purchaseErrorUnexpectedBackend": {
-    "description": "バックエンドで予期せぬエラーが発生した場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorOperationInProgress": "ກະປຸກຊື້ກຳລັງເປີດຢູ່ໃນຂະບວນການ. ກະລຸນາລໍຖ້າແລະກວດເບິ່ງອີກເທື່ອ.",
-  "@purchaseErrorOperationInProgress": {
-    "description": "購入処理が既に進行中の場合のエラーメッセージ"
-  },
   "purchaseErrorInsufficientPermissions": "ບໍ່ສາມາດລົງຄະແນນໃນແຜນທີ່ຈິງສໍາລັບ {accountName} ຂອງເອກະສານຂອງທ່ານ ກະລຸນາເຊັກສະຖານທີ່ຈ່າຍແລະພະຍາຍາມສາມາດລົງຄະແນນອີກຄັ້ງ.",
-  "@purchaseErrorInsufficientPermissions": {
-    "description": "権限が不足している場合のエラーメッセージ",
-    "placeholders": {
-      "accountName": {
-        "type": "String",
-        "example": "Apple ID"
-      }
-    }
-  },
   "purchaseErrorPaymentPending": "ການຊຳລະໄດ້ຖືກພິບິນໃນການອະນຸຍາດເວັບ ກະລຸນາແຈ້ງກັບ {accountName} ສໍາລັບ {storeName}.",
-  "@purchaseErrorPaymentPending": {
-    "description": "支払いが保留中の場合のエラーメッセージ",
-    "placeholders": {
-      "accountName": {
-        "type": "String",
-        "example": "Apple ID"
-      },
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "premiumUserThanksTitle": "ປະເພດພິເສດ",
-  "@premiumUserThanksTitle": {
-    "description": "プレミアムユーザーへの感謝を示すタイトル"
-  },
   "premiumUserThanksMessage": "ຂอบຄຸນສໍາລັບການໃຊ້ງານຂອງທ່ານ.\nອີກທັງສໍາລັບຄວາມຊ່ວຍເຫລືອທີ່ບໍລິສັດ Medicalarm ສາມາດບຳລຸງງານໄດ້ເລັດດໍາລັງ.",
-  "@premiumUserThanksMessage": {
-    "description": "プレミアムユーザーへの感謝メッセージ"
-  },
   "premiumPricePerMonth": "({price}/ດືນ)",
-  "@premiumPricePerMonth": {
-    "description": "月額料金の表示フォーマット",
-    "placeholders": {
-      "price": {
-        "type": "String",
-        "example": "¥500"
-      }
-    }
-  },
   "premiumCancelDescription": "・ຫຼັງຈາກຊື້, ສາມາດຍົກເລີກການອັບເດດເອີ້ນສິນຄ້າໄດ້ທີ່ການຕັ້ງບັນຊີຂອງ{storeName} (ບໍ່ສາມາດຍົກເລີກໃນແອບເອັບ) 。",
-  "@premiumCancelDescription": {
-    "description": "プレミアムプランの解約方法の説明",
-    "placeholders": {
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "purchaseErrorRestoreFailed": "ບໍ່ພົບຂໍໍ່ອນການຊື້ກ່ຽວກັບກໍ໑ດການໃຊ້າລາຍລະອຽດ. ກະລຸນາກວດສອບບັດສິບທີ່ອາສາບູລິຄິດຫຼືລອຍພິມລອດເກີນໄປໃໝ່.",
-  "@purchaseErrorRestoreFailed": {
-    "description": "購入情報の復元に失敗した場合のエラーメッセージ"
-  },
   "purchaseErrorUserNotFound": "ບັນດາຜູ້ໃຊ້ບໍ່ສາມາດຍືນຢືນບໍ່ໄດ້. ຂໍແລະໃຊ້ໄອເມວອີນໃໝ່ ແລະ ລອງໃໝ່ເອົາບໍ່ໄດ້. ລາຍລະອຽດ: {message}",
-  "@purchaseErrorUserNotFound": {
-    "description": "ユーザーが見つからない場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorActivationPending": "ການເປີ້ນບັດບໍ່ໄດ້ສໍາເລັດ. ກະລຸນາລໍຖໍາໃຫ້ມີເວລາສັງຖາມເພື່ອກວດແລ້ວ.",
-  "@purchaseErrorActivationPending": {
-    "description": "課金の有効化が完了していない場合のエラーメッセージ"
-  },
   "purchaseErrorTimeout": "ມີຄວາມສົບສະຕ່ຳ ກະລຸນາເຊັກສະຖານທີ່ສໍາລັບການສື່ສານ ແລະລອງໃຊ້ໃໝ່ອີກຄັ້ງ. ຖ້າບໍ່ແກ້ໄຂ, ກະລຸນາເຂົ້າໄປທີ່ ຕັ້ງຄ່າ > ສອບຖາມ ແລະຕິດຕາມເພື່ອຕິດຕໍ່. ລະລຸຍສະຖານທີ່: {message}",
-  "@purchaseErrorTimeout": {
-    "description": "購入処理がタイムアウトした場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorNetworkError": "ມີບັກຄະຕິໃນການສື່ສານ. ຂໍ່ສະແດງແນະນຳໃຫ້ແກ່ສະຖານທີ່ສື່ສານບໍລິການທ່ານຈະເຮັດບັດດຳແນະໃສ່ໃໝ່. ຖ້າບັກຄະຕິເຮັດບໍ່ຊິແກ່ມັນດ້ວຍ ການກໍໃຊ້ປັດແກ່ເນື່ອງ > ຄໍາໄຂຂໍໃຫ້ຕິດຕໍ່ລາຍລະອຽດ: {message}",
-  "@purchaseErrorNetworkError": {
-    "description": "ネットワークエラーが発生した場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "sixMonthPlan": "ແຜນຮອບສິດ 6 ເດືອນ",
-  "@sixMonthPlan": {
-    "description": "6ヶ月プランの表示名"
-  },
   "premiumContractPeriod": "ສະຖານບັນຍາຍກໍ່ຕັ້ງ 1 ເດືອນນັບຈາກວັນທີ່ຊໍາລະເງິນ.",
-  "@premiumContractPeriod": {
-    "description": "プレミアムプランの契約期間の説明"
-  },
   "privacyPolicy": "ກົດໂຕຍສ໌ສວນ",
-  "@privacyPolicy": {
-    "description": "プライバシーポリシーのリンクテキスト"
-  },
   "termsOfService": "ຂໍແຈ້ງການໃຊ້ແບບ",
-  "@termsOfService": {
-    "description": "利用規約のリンクテキスト"
-  },
   "specifiedCommercialTransactionAct": "ການແບ່ງແບບຕາມກົດໝາຍໃນການຄໍາແນະນຳ.",
-  "@specifiedCommercialTransactionAct": {
-    "description": "特定商取引法に基づく表記のリンクテキスト"
-  },
   "confirmBeforeRegistration": "โปรดยืนยันก่อนทำการลงทะเบียน",
-  "@confirmBeforeRegistration": {
-    "description": "各種規約確認を促すメッセージ"
-  },
   "autoRenewalNotice": "ຫຼັງຈາກສິໍ່ລະບຽບສຽງສົບເຄິຍລະບຸນຄຸນສັດສິດການແບ່ງແກ່ສອງອັດຕະລະຢພາບ",
-  "@autoRenewalNotice": {
-    "description": "自動更新に関する注意事項"
-  },
   "restorePurchase": "ຄົນທີ່ຊື້ໃນອາຊີບເຮັດດຽວນີ້",
-  "@restorePurchase": {
-    "description": "購入情報の復元リンクのテキスト"
-  },
   "purchaseRestored": "ການແລກປ່ອນຂໍ້ມູນການຊື້ແລ້ວແລ້ວ",
-  "@purchaseRestored": {
-    "description": "購入情報の復元が完了した際のメッセージ"
-  },
   "medicationTimeFollowup": "ການຕິດຕາມເວລາຮັບບຳລຸງ",
-  "@medicationTimeFollowup": {
-    "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
-  },
   "updateRequired": "ຈະຕ້ອງປ່ອນແອບໃໝ່",
-  "@updateRequired": {
-    "description": "強制アップデートが必要な場合のダイアログタイトル"
-  },
   "updateRequiredMessage": "{storeName}ແຕ່ອັບເດດໃໝ່ສຸດໃໝ່",
-  "@updateRequiredMessage": {
-    "description": "強制アップデートが必要な場合のダイアログメッセージ",
-    "placeholders": {
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "screenshotMedicationHistoriesMemo": "ຂໍແອວໃຊໃຈຫຼາຍເກີນໄປ ບໍ່ໃສເວລາດື່ມຢາໃຫ້ແລະມັນຕໍ່ມາຊໍາໃຫ້ທ່ານ.",
-  "@screenshotMedicationHistoriesMemo": {
-    "description": "薬のメモの例"
-  },
   "screenshotMedicationDoserReceiver1": "ຕົວທ່ານ",
-  "@screenshotMedicationDoserReceiver1": {
-    "description": "薬の服用者の例"
-  },
   "screenshotMedicationDoserReceiver2": "ມານາຈານ",
-  "@screenshotMedicationDoserReceiver2": {
-    "description": "薬の服用者の例"
-  },
   "screenshotMedicationQuontityMemo1": "1 ອິນດາ",
-  "@screenshotMedicationQuontityMemo1": {
-    "description": "薬の服用量の例"
-  },
   "screenshotMedicationQuontityMemo2": "2 ຊ່ວນ",
-  "@screenshotMedicationQuontityMemo2": {
-    "description": "薬の服用量の例"
-  },
   "screenshotMedicationName1": "ຢາບໍ່ສູນ",
-  "@screenshotMedicationName1": {
-    "description": "薬の名前の例"
-  },
   "screenshotMedicationName2": "ບິທາມິນ",
-  "@screenshotMedicationName2": {
-    "description": "薬の名前の例"
-  },
   "notificationTitle": "ແມ່ນເວລາອາກະຖິບ",
-  "@notificationTitle": {
-    "description": "薬の通知のタイトル"
-  },
   "notificationFollowupTitle": "ທ່ານໄດ້ລືມບັນທຶກການຮັບຢາບໍ? ບັນທຶກມັກແມ່ນຂ໛ໍຟອລໍພາຍຫຼັງ ຈາກຄວາມຈິງຂອງຄວາມອິດລົງ ໃຈພາສາຂອງຢານີ້ຂອງທ່ານ.",
-  "@notificationFollowupTitle": {
-    "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
-  },
   "recommendedApp": "ການແອັບແນະນຳ",
-  "@recommendedApp": {
-    "description": "おすすめアプリのタイトル"
-  },
   "installPilll": "ติดตั้ง Pilll",
-  "@installPilll": {
-    "description": "Pilllをインストールするボタンのテキスト"
-  },
-  "criticalAlertVolume": "ສຽງເສຍ",
-  "@criticalAlertVolume": {
-    "description": "緊急通知の音量の表示名"
-  }
+  "criticalAlertVolume": "ສຽງເສຍ"
 }

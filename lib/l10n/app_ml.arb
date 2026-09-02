@@ -1,783 +1,158 @@
 {
   "@@locale": "ml",
   "retry": "പുനരാഖ്യാനം",
-  "@retry": {
-    "description": "エラーが発生した際やデータの読み込みに失敗した際に、再度処理を実行するためのボタンテキスト"
-  },
   "save": "സംരക്ഷിക്കുക",
-  "@save": {
-    "description": "フォームやエディタで入力したデータを保存する際に使用するボタンテキスト"
-  },
   "memo": "മെമ്മോ",
-  "@memo": {
-    "description": "服薬記録や日記などで追加情報を入力するためのテキストフィールドのプレースホルダー"
-  },
   "completed": "സംപൂര്‍ണമായ",
-  "@completed": {
-    "description": "フォームの入力や設定の変更などの操作が完了した際に使用するボタンテキスト"
-  },
   "medicineRegistration": "മരുന്നു രജിസ്റ്റർ ചെയ്യാനുള്ള സ്‌ക്രീൻ",
-  "@medicineRegistration": {
-    "description": "お薬の新規登録・編集画面のタイトル"
-  },
   "medicineName": "മരുന്നിന്റെ നാമം",
-  "@medicineName": {
-    "description": "お薬登録フォームでの薬の名前を入力するフィールドのプレースホルダー"
-  },
   "medicineList": "മരുന്നുകളുടെ പട്ടിക",
-  "@medicineList": {
-    "description": "登録されているお薬の一覧を表示する画面のタイトル"
-  },
   "medicationSchedule": "മരുന്ന് സ്വീകരിക്കുന്ന സമയക്രമം",
-  "@medicationSchedule": {
-    "description": "服用スケジュールのセクションタイトル"
-  },
   "medicationTime": "മരുന്നുകൊള്ളൽ സമയത്ത് അറിയിപ്പുകൾ പ്രവർത്തനക്ഷമമാക്കുക",
-  "@medicationTime": {
-    "description": "服用時刻の通知設定を有効にするためのスイッチのラベル"
-  },
   "medicationTimeDescription": "മുസ്തിരമായ ഇരുന്നു നോട്ടീസ് അയവു ചെയ്യുന്നതിന് അടിസ്ഥാനമായിരിക്കണം",
-  "@medicationTimeDescription": {
-    "description": "服用時刻の通知設定の説明文"
-  },
   "close": "അടയ്ക്കുക",
-  "@close": {
-    "description": "ダイアログやモーダルを閉じるためのボタンテキスト"
-  },
   "settings": "സജ്ജീകരണം",
-  "@settings": {
-    "description": "設定画面のタイトル"
-  },
   "camera": "കാമറ",
-  "@camera": {
-    "description": "カメラを起動するためのメニュー項目"
-  },
   "photoLibrary": "ഫോട്ടോ ലൈബ്രറി",
-  "@photoLibrary": {
-    "description": "フォトライブラリを開くためのメニュー項目"
-  },
   "medicationHistory": "മരുന്ന് ഉപയോഗത്തിന്റെ ചരിത്രം",
-  "@medicationHistory": {
-    "description": "服薬履歴を表示する画面のタイトル"
-  },
   "noMedicationHistory": "മരുന്നിറുക്കാനുള്ള ചരിത്രം ഇല്ല",
-  "@noMedicationHistory": {
-    "description": "服薬履歴が存在しない場合に表示するメッセージ"
-  },
   "scheduledTime": "ക്രമ യൂണിറ്റിന്റെ സമയസൂചന",
-  "@scheduledTime": {
-    "description": "服薬予定時刻のラベル"
-  },
   "recordedTime": "തിഥി രേഖപ്പെടുത്തുക",
-  "@recordedTime": {
-    "description": "実際に服薬を記録した時間のラベル"
-  },
   "noMemo": "ശ്രോണികൾ ഇല്ല",
-  "@noMemo": {
-    "description": "メモが存在しない場合に表示するテキスト"
-  },
   "premiumPlan": "പ്രിമിയം പ്ലാൻ",
-  "@premiumPlan": {
-    "description": "プレミアムプランの名称"
-  },
   "premiumFeatureAds": "അന്വേഷണങ്ങൾ ഇല്ലാത്ത പ്രീമിയം ഫീച്ചർ",
-  "@premiumFeatureAds": {
-    "description": "プレミアム機能の広告非表示の説明"
-  },
   "premiumFeatureHistory": "എല്ലാ പത്തിലിന്റെ ചരിത്രം പ്രദർശിപ്പിക്കുക",
-  "@premiumFeatureHistory": {
-    "description": "プレミアム機能の履歴表示の説明"
-  },
   "premiumRegistrationComplete": "Medicalarm പ്രീമിയം രജിസ്ട്രേഷൻ പൂർത്തിയായി",
-  "@premiumRegistrationComplete": {
-    "description": "プレミアム登録完了時のタイトル"
-  },
   "premiumRegistrationThanks": "നിങ്ങളുടെ രജാപ്രക്രിയയ്ക്ക് നന്ദി. എല്ലാ ഫീച്ചറുകളും ഉപയോഗിക്കാൻ ലഭ്യമാണ്!",
-  "@premiumRegistrationThanks": {
-    "description": "プレミアム登録完了時のメッセージ"
-  },
   "unknownError": "അജ്ഞാത പിശക് ഉണ്ടായിരിക്കുന്നു",
-  "@unknownError": {
-    "description": "予期せぬエラーが発生した際のエラーメッセージ"
-  },
   "error": "ഒരു പിശക് ഉണ്ട oldu",
-  "@error": {
-    "description": "一般的なエラーメッセージ"
-  },
   "unexpectedError": "അനുമാനിക്കാവുന്ന തെറ്റ് സംഭവിച്ചു",
-  "@unexpectedError": {
-    "description": "予期せぬエラーが発生した際のエラーメッセージ"
-  },
   "cancel": "റദ്ദാക്കുക",
-  "@cancel": {
-    "description": "操作をキャンセルするためのボタンテキスト"
-  },
   "delete": "വ്യത്യസ്ഥം",
-  "@delete": {
-    "description": "削除操作を実行するためのボタンテキスト"
-  },
   "deleteAccount": "അക്കൗണ്ട് നീക്കം ചെയ്യുക",
-  "@deleteAccount": {
-    "description": "アカウント削除ボタンのテキスト"
-  },
   "deleteAccountConfirm": "ഉപയോക്തൃ വിവരങ്ങൾ നീക്കം ചെയ്യും",
-  "@deleteAccountConfirm": {
-    "description": "アカウント削除確認ダイアログのタイトル"
-  },
   "deleteAccountMessage": "അക്കൗണ്ട് നീക്കംചെയ്താൽ, ഉപയോക്തൃ വിവരങ്ങൾ മുഴുവൻ നീക്കം ചെയ്യപ്പെടും.",
-  "@deleteAccountMessage": {
-    "description": "アカウント削除確認ダイアログのメッセージ"
-  },
   "medicationFrequency": "മരിക്കുന്ന സമയത്ത് സംസാരിച്ചു",
-  "@medicationFrequency": {
-    "description": "服用頻度の設定セクションのタイトル"
-  },
   "daily": "പ്രതിദിനം",
-  "@daily": {
-    "description": "毎日服用する頻度設定"
-  },
   "everyXDays": "ദിനം마다",
-  "@everyXDays": {
-    "description": "X日ごとに服用する頻度設定"
-  },
   "specificWeekdays": "നിശ്ചിത ദിവസങ്ങൾ",
-  "@specificWeekdays": {
-    "description": "特定の曜日に服用する頻度設定"
-  },
   "cycle": "സൈകിള്‍",
-  "@cycle": {
-    "description": "周期で服用する頻度設定"
-  },
   "cycleDescription": "ഉദാഹരണം) 21-ാം ദിവസവും ഉപയോഗിക്കുക/7-ാം ദിവസവും മരുന്ന് ഒഴിവാക്കുക",
-  "@cycleDescription": {
-    "description": "周期での服用頻度の説明文"
-  },
   "everyXDaysDescription": "ഉദാഹരണം) 2 ദിവസം കൂടി, 3 ദിവസം കൂടി",
-  "@everyXDaysDescription": {
-    "description": "X日ごとの服用頻度の説明文"
-  },
   "specificWeekdaysDescription": "ഉദാഹരണം) തിങ്കളാഴ്ച മാത്രവും, ബുധനാഴ്ചയും വെള്ളിയാഴ്ചയും",
-  "@specificWeekdaysDescription": {
-    "description": "特定の曜日の服用頻度の説明文"
-  },
   "medicineFormValidationError": "ദയവായി നിങ്ങളുടെ പേര് നല്കുക കൂടാതെ ഔഷധ ഉപയോഗയുടെ സമയക്രമം.",
-  "@medicineFormValidationError": {
-    "description": "お薬登録フォームでの入力バリデーションエラーメッセージ"
-  },
   "quantity": "ക്ഷമത",
-  "@quantity": {
-    "description": "服用量を入力するフィールドのラベル"
-  },
   "quantityExample": "ഉദാഹരണം: 1 ഗുളിക, 100mg",
-  "@quantityExample": {
-    "description": "服用量入力フィールドのプレースホルダー"
-  },
   "medicationStartDate": "മരുന്നു തുടങ്ങുന്ന തീയതി",
-  "@medicationStartDate": {
-    "description": "服用開始日を選択するフィールドのラベル"
-  },
   "otherInformation": "മറ്റുള്ളവ",
-  "@otherInformation": {
-    "description": "その他の情報を入力するセクションのタイトル"
-  },
   "doseReceiver": "മരുന്ന് എടുത്തുവരുന്നവന്",
-  "@doseReceiver": {
-    "description": "服用者を選択するフィールドのラベル"
-  },
   "defaultDoseReceiver": "എനിക്കു",
-  "@defaultDoseReceiver": {
-    "description": "デフォルトの服用者名"
-  },
   "doseReceiverMaxCount": "എല്ലാ മരുന്നുപയോഗിക്കവർക്കും {count} ആളുകളെ വരെ രജിസ്റ്റർ ചെയ്തത് സാധ്യമാണ്",
-  "@doseReceiverMaxCount": {
-    "description": "服用者の最大登録数を表示するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "2"
-      }
-    }
-  },
   "increaseLimitWithPremium": "പ്രീമിയം പ്ലാനില്‍ പരിധിയെ {count} ആക്കുന്നു",
-  "@increaseLimitWithPremium": {
-    "description": "プレミアムプランでの上限増加を案内するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "10"
-      }
-    }
-  },
   "addDoseReceiver": "വൈദ്യുതി ഉപയോഗരുടെ കൂടി ചേർക്കുക",
-  "@addDoseReceiver": {
-    "description": "服用者を追加するボタンのテキスト"
-  },
   "newDoseReceiver": "പുതിയ മരുന്ന് ഉപയോഗിച്ചത്",
-  "@newDoseReceiver": {
-    "description": "新規追加時のデフォルトの服用者名"
-  },
   "reloginRequired": "ദയവായി വീണ്ടും ലോഗിന് ചെയ്യുക",
-  "@reloginRequired": {
-    "description": "アカウント削除時に再ログインが必要な場合のダイアログタイトル"
-  },
   "reloginMessage": "അക്കൗണ്ട് നീക്കം ചെയ്യാൻ, വീണ്ടും ലോഗിൻ ചെയ്യുക.",
-  "@reloginMessage": {
-    "description": "アカウント削除時の再ログイン要求メッセージ"
-  },
   "relogin": "മറ്റൊരു തവണ ലോഗിൻ ചെയ്യുക",
-  "@relogin": {
-    "description": "再ログインを実行するためのボタンテキスト"
-  },
   "accountDeleted": "അക്കൗണ്ട് ഇല്ലാതാക്കി.",
-  "@accountDeleted": {
-    "description": "アカウント削除完了時のメッセージ"
-  },
   "confirmExit": "ആപ്ലിക്കേഷൻ അവസാനിപ്പിക്കുമോ?",
-  "@confirmExit": {
-    "description": "アプリ終了確認のメッセージ"
-  },
   "exit": "അവസാനിക്കുക",
-  "@exit": {
-    "description": "アプリを終了するためのボタンテキスト"
-  },
   "viewFaq": "FAQ കാണാൻ",
-  "@viewFaq": {
-    "description": "FAQページを表示するためのボタンテキスト"
-  },
   "medicine": "മയക്കുമരുന്ന്",
-  "@medicine": {
-    "description": "お薬タブのタイトル"
-  },
   "inquiry": "റിയലിംഗുകൾ",
-  "@inquiry": {
-    "description": "お問い合わせボタンのテキスト"
-  },
   "ok": "ശരി",
-  "@ok": {
-    "description": "確認ダイアログのOKボタンのテキスト"
-  },
   "medicationScheduleLimit": "മരുന്നുതിന്റെ ഷെഡ്യൂളുകൾ {count} വരെയുള്ളതായി രജിസ്റ്റർ ചെയ്യാം.",
-  "@medicationScheduleLimit": {
-    "description": "服用スケジュールの登録上限を表示するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "3"
-      }
-    }
-  },
   "increaseMedicationScheduleLimit": "പ്രൈമിയം പദ്ധതിയിൽ കണക്കിനെ {count} ആക്കുക",
-  "@increaseMedicationScheduleLimit": {
-    "description": "服用スケジュールの上限をプレミアムプランで増やすことを案内するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "10"
-      }
-    }
-  },
   "addMedicationSchedule": "ഉപയോഗം ശേഖരത്തിൽ ചേർക്കുക",
-  "@addMedicationSchedule": {
-    "description": "服用スケジュールを追加するボタンのテキスト"
-  },
   "medicationScheduleNotificationSetting": "ചികിത്സ സംവിധാനം അറിയിപ്പ് ക്രമീകരിക്കൽ",
-  "@medicationScheduleNotificationSetting": {
-    "description": "服用スケジュールの通知設定画面のタイトル"
-  },
   "notificationSetting": "നോട്ടിഫിക്കേഷൻ ക്രമീകരണങ്ങൾ",
-  "@notificationSetting": {
-    "description": "通知設定セクションのタイトル"
-  },
   "enableFollowupNotification": "ഫോളോപ്‌അപ്പ് വിജ്ഞാപനങ്ങൾ সক্ষমമാക്കുക",
-  "@enableFollowupNotification": {
-    "description": "フォローアップ通知を有効にするスイッチのラベル"
-  },
   "followupNotificationDescription": "നിങ്ങളുടെ ആദ്യത്തെ അറിയിപ്പിൽ നിന്ന് 30 മിനുട്ടുകൾക്കുള്ളിൽ മരുന്ന് രേഖപ്പെടുത്താത്തതെങ്കിൽ, ഫോളോ അപ് അറിയിപ്പ് അയച്ച 됩니다.",
-  "@followupNotificationDescription": {
-    "description": "フォローアップ通知の説明文"
-  },
   "enableNotificationInSilentMode": "മാനർ മോഡിലും അറിയിപ്പ് നൽകുക",
-  "@enableNotificationInSilentMode": {
-    "description": "マナーモード時の通知を有効にするスイッチのラベル"
-  },
   "silentModeNotificationDescription": "കേന്ദ്രിത മോഡ് ON ആണെങ്കിൽ അല്ലെങ്കിൽ ഉപകരണം ശ്വാസകോശത്തിലായിരിക്കുമ്പോഴും, പ്രധാന അറിയിപ്പുകൾ ലോക്ക് സ്ക്രീനിൽ കാഴ്ചവെക്കപ്പെടും ശബ്ദം പ്ലേഡ് ചെയ്യപ്പെടും.",
-  "@silentModeNotificationDescription": {
-    "description": "マナーモード時の通知の説明文"
-  },
   "everyXDaysFormat": "{count} ദിവസം ഒന്നിച്ചു",
-  "@everyXDaysFormat": {
-    "description": "X日ごとの服用頻度を表示する際のフォーマット",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "2"
-      }
-    }
-  },
   "cycleDaysFormat": "{consecutiveDays} ദിവസങ്ങൾ മരുന്നു വാങ്ങുന്നു / {restDays} ദിവസങ്ങൾ വിശ്രമിക്കുന്നു",
-  "@cycleDaysFormat": {
-    "description": "服用周期を表示する際のフォーマット",
-    "placeholders": {
-      "consecutiveDays": {
-        "type": "int",
-        "example": "21"
-      },
-      "restDays": {
-        "type": "int",
-        "example": "7"
-      }
-    }
-  },
   "consecutiveDaysFormat": "{count} ദിവസങ്ങളായിരുന്നു_taken",
-  "@consecutiveDaysFormat": {
-    "description": "連続服用日数を表示する際のフォーマット",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "21"
-      }
-    }
-  },
   "restDaysFormat": "{count} ദിവസങ്ങൾ മരുന്നില്ല",
-  "@restDaysFormat": {
-    "description": "休薬日数を表示する際のフォーマット",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "7"
-      }
-    }
-  },
   "limitedTimeDiscount": "അടുത്ത കാലത്തെ പരിമിതിച്ച നിരക്കിൽ സ്ഥിരമായി ഉപയോഗിക്കാൻ കഴിയും",
-  "@limitedTimeDiscount": {
-    "description": "プレミアムプランの限定価格キャンペーンを案内するメッセージ"
-  },
   "monthlyPlan": "മാസികമായ പദ്ധതി",
-  "@monthlyPlan": {
-    "description": "月額プランの名称"
-  },
   "annualPlan": "വർഷിക പദ്ധതി",
-  "@annualPlan": {
-    "description": "年額プランの名称"
-  },
   "weeklyPlan": "സപ്താഹിക പദ്ധതി",
-  "@weeklyPlan": {
-    "description": "週額プランの名称"
-  },
   "premiumRequired": "പ്രിമിയം പ്ലാനിലേക്ക് చేరുന്നത് മേഖല കാണാൻ ആണ്",
-  "@premiumRequired": {
-    "description": "プレミアムプラン加入が必要な機能へのアクセス時のメッセージ"
-  },
   "medication": "മരുന്നെടുത്തു",
-  "@medication": {
-    "description": "服薬タブのタイトル"
-  },
   "history": "ചരിത്രം",
-  "@history": {
-    "description": "履歴タブのタイトル"
-  },
+  "calendar": "കലണ്ടർ",
   "medicineRegistrationLimit": "മരുന്നുകൾ രജിസ്റ്റർ ചെയ്യേണ്ട എണ്ണം",
-  "@medicineRegistrationLimit": {
-    "description": "薬の登録数の上限を説明するテキストの一部"
-  },
   "doseReceiverRegistrationLimit": "ഉപയോഗകരുടെ രജിസ്റ്റർ ചെയ്ത നമ്പർ",
-  "@doseReceiverRegistrationLimit": {
-    "description": "服用者の登録数の上限を説明するテキストの一部"
-  },
   "notificationScheduleLimit": "നോട്ടിഫിക്കേഷനുകളുടെ ക്രമീകരണങ്ങളുടെ എണ്ണം",
-  "@notificationScheduleLimit": {
-    "description": "通知スケジュールの上限を説明するテキストの一部"
-  },
   "addMedicine": "ঔষধ যোগ কর",
-  "@addMedicine": {
-    "description": "お薬を追加するボタンのテキスト"
-  },
   "medicineMaxCount": "നിങ്ങള്‍ക്ക് {count} എണ്ണം മരുന്നുകള്‍ രജിസ്റ്റര്‍ ചെയ്യാം.",
-  "@medicineMaxCount": {
-    "description": "お薬の最大登録数を表示するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "5"
-      }
-    }
-  },
   "increaseMedicineLimitWithPremium": "പ്രീമിയം പ്ലാനിൽ പരമാവധി {count} ആധികാരികമാക്കുക",
-  "@increaseMedicineLimitWithPremium": {
-    "description": "お薬の登録上限をプレミアムプランで増やすことを案内するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "10"
-      }
-    }
-  },
   "aboutApp": "ആപ്പിന്റെ കുറിച്ച്",
-  "@aboutApp": {
-    "description": "アプリについてのセクションタイトル"
-  },
   "viewPremiumPlan": "പ്രിമിയം പ്ലാൻ കാണുക",
-  "@viewPremiumPlan": {
-    "description": "プレミアムプランの詳細を表示するためのボタンテキスト"
-  },
   "cancelSubscriptionInstruction": " വാങ്ങിയതിന് ശേഷം, സ്വയം പുതുക്കലിന്റെ ബിരീടം {storeName} ആപ്ലിക്കേഷന്റെ അക്കൗണ്ട് ക്രിയേഫാകലിൽ നടത്താം.(ആപ്ലിക്കേഷനിൽ നിന്ന് സ്വയം പുതുക്കലിന്റെ ബിരീടം നടത്താത്തതാണ്).",
-  "@cancelSubscriptionInstruction": {
-    "description": "自動更新の解約方法の説明",
-    "placeholders": {
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "headache": "തലവേദന",
-  "@headache": {
-    "description": "症状の選択肢：頭痛"
-  },
   "stomachache": "ബുക്ക് മുറിയുടെ",
-  "@stomachache": {
-    "description": "症状の選択肢：腹痛"
-  },
   "nausea": "മയി",
-  "@nausea": {
-    "description": "症状の選択肢：吐き気"
-  },
   "anemia": "അവസാന",
-  "@anemia": {
-    "description": "症状の選択肢：貧血"
-  },
   "diarrhea": "ഡയരിയ",
-  "@diarrhea": {
-    "description": "症状の選択肢：下痢"
-  },
   "constipation": "ശേഷിപ്പ്",
-  "@constipation": {
-    "description": "症状の選択肢：便秘"
-  },
   "hotFlash": "ത നീറ്റലിന്",
-  "@hotFlash": {
-    "description": "症状の選択肢：ほてり"
-  },
   "drowsiness": "ഉറക്കമന്ന്",
-  "@drowsiness": {
-    "description": "症状の選択肢：眠気"
-  },
   "backPain": "पीठदुखी",
-  "@backPain": {
-    "description": "症状の選択肢：腰痛"
-  },
   "palpitation": "മനോഹരമായ",
-  "@palpitation": {
-    "description": "症状の選択肢：動悸"
-  },
   "abnormalBleeding": "അനുചിത രക്തസ്രാവം",
-  "@abnormalBleeding": {
-    "description": "症状の選択肢：不正出血"
-  },
   "lossOfAppetite": "ഭക്ഷണാപേക്ഷയില്ലാത്തത്",
-  "@lossOfAppetite": {
-    "description": "症状の選択肢：食欲不振"
-  },
   "chestTightness": "മേസ്ത്രവേദന",
-  "@chestTightness": {
-    "description": "症状の選択肢：胸の張り"
-  },
   "insomnia": "അജ്ഞാത",
-  "@insomnia": {
-    "description": "症状の選択肢：不眠"
-  },
   "monthlyPlanDiscountFormat": "മാസിക നിരക്കിൽ നിന്നുള്ള {percent}%OFF",
-  "@monthlyPlanDiscountFormat": {
-    "description": "月額プランからの割引率を表示するフォーマット",
-    "placeholders": {
-      "percent": {
-        "type": "int",
-        "example": "50"
-      }
-    }
-  },
   "purchaseErrorUnknown": "ഒരു കാരണം അറിയാത്ത പിശക് സംഭവിച്ചിരിക്കണം. ദയവായി കുറച്ച് സമയം കാത്തിരിക്കുന്നു കൂടാതെ വീണ്ടും ശ്രമിക്കുക. എങ്കിലും ഞാനിലവറായാൽ, ക്രമീകരണം > ചോദ്യം വഴി ഞങ്ങളോട് ബന്ധപ്പെടുക. വിശദാംശങ്ങൾ: {message}",
-  "@purchaseErrorUnknown": {
-    "description": "購入時の不明なエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorStoreProblem": "{storeName}ൽ പിശക് സംഭവിക്കുന്നു. കുറച്ചു നേരം കാത്തിരിക്കുക, വീണ്ടും ശ്രമിക്കുക.",
-  "@purchaseErrorStoreProblem": {
-    "description": "ストアでのエラーメッセージ",
-    "placeholders": {
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "purchaseErrorInvalidPayment": "പേയ്മെന്റിൽ പരാജയപ്പെട്ടു. നിയമാനുസൃതമായ പേയ്മെന്റ് രീതി ആണോ എന്ന് പരിശോധിച്ച് വീണ്ടും ശ്രമിക്കുക.",
-  "@purchaseErrorInvalidPayment": {
-    "description": "支払い方法が無効な場合のエラーメッセージ"
-  },
   "purchaseErrorProductUnavailable": "നിശ്ചിത പദ്ധതിയിലേയ്ക്ക് ഇപ്പോൾ വിറ്റയില്ല. ദയവായി ആപ്ലിക്കേഷൻ വീണ്ടും തുടങ്ങുകയും പരിശ്രമിക്കുന്നതിൽ നിങ്ങൾക്ക് ബുദ്ധിമുട്ട് ഉണ്ടായാൽ.",
-  "@purchaseErrorProductUnavailable": {
-    "description": "商品が利用できない場合のエラーメッセージ"
-  },
   "purchaseErrorAlreadyPurchased": "നിങ്ങൾ ഇതിനകം പ്ലാൻ വാങ്ങി. ഈ ഉപകരണത്തിൽ വാങ്ങലിന്റെ വിവരങ്ങൾ വീണ്ടെടുക്കേണ്ട হলে, \"മുന്പ് വാങ്ങിയവർക്ക് ഇവിടെ\" എന്നതിൽ ക്ലിക്ക് ചെയ്ത് വാങ്ങലിന്റെ വിവരങ്ങൾ വീണ്ടെടുക്കുക.",
-  "@purchaseErrorAlreadyPurchased": {
-    "description": "すでに購入済みの場合のエラーメッセージ"
-  },
   "purchaseErrorReceiptInUse": "എന്നAlready വാങ്ങിത്തിരക്കിയിട്ടുള്ളത്. വാങ്ങിയത് വിവരങ്ങള്‍ മറ്റൊരു ഉപയോക്താവിനൊപ്പം ഉപയോഗിക്കുന്നു. {accountName} പരിശോധിക്കുക.",
-  "@purchaseErrorReceiptInUse": {
-    "description": "購入情報が他のユーザーで使用されている場合のエラーメッセージ",
-    "placeholders": {
-      "accountName": {
-        "type": "String",
-        "example": "Apple ID"
-      }
-    }
-  },
   "purchaseErrorInvalidReceipt": "അസാധുവായ വാങ്ങൽ വിവരം. വാങ്ങൽ വിവരങ്ങൾ പരിശോധിക്കുക.",
-  "@purchaseErrorInvalidReceipt": {
-    "description": "購入情報が無効な場合のエラーメッセージ"
-  },
   "purchaseErrorMissingReceipt": " വാങ്ങുന്നവരുടെ വിവരങ്ങൾ നിലവിലില്ല. {accountName} എന്നിവയോടെ ഉപകരണം സൈൻ ഇൻ ചെയ്യുക.",
-  "@purchaseErrorMissingReceipt": {
-    "description": "購入情報が見つからない場合のエラーメッセージ",
-    "placeholders": {
-      "accountName": {
-        "type": "String",
-        "example": "Apple ID"
-      }
-    }
-  },
   "purchaseErrorNetwork": "നമുക്ക് നെറ്റ്വർക്ക് നില അനിശ്ചിതമാണ്. കണക്ഷൻ സ്ഥിതിക്ക് ഒരു നോക്ക് വച്ച് ശ്രമിക്കുക.",
-  "@purchaseErrorNetwork": {
-    "description": "ネットワークエラーの場合のエラーメッセージ"
-  },
   "purchaseNotAllowed": "ഈ ഉപകരണത്തിൽ വാങ്ങുന്നത് അനുവദിച്ചിട്ടില്ല",
-  "@purchaseNotAllowed": {
-    "description": "デバイスでの購入が許可されていない場合のエラーメッセージ"
-  },
   "purchaseErrorInvalidCredentials": "വിൽപ്പന പരാജയപ്പെട്ടിട്ടുണ്ട്. കുറെ നേരം കഴിഞ്ഞ് വീണ്ടും ശ്രമിക്കുക. തീർച്ചയായും പരിഹരിക്കാത്ത സാഹചര്യത്തിൽ ക്രമീകരണം > സംശയങ്ങൾ വഴിയോരാനുകൂല്യം ചെയ്യുക. വിശദാംശങ്ങൾ: {message}",
-  "@purchaseErrorInvalidCredentials": {
-    "description": "認証情報が無効な場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorUnexpectedBackend": "ഇപ്പോൾ വാങ്ങാൻ കഴിയുന്നില്ല. ദയവായി കുറേ സമയം കാത്തിരിക്കുവാൻ ശ്രമിക്കുക. പ്രശ്നം പരിഹരിക്കാത്ത പക്ഷം ക്രമീകരണങ്ങൾ > ചോദ്യങ്ങൾക്ക് സമ്ബർക്കം വഴി ബന്ധപ്പെടുക. വിശദാംശങ്ങൾ: {message}",
-  "@purchaseErrorUnexpectedBackend": {
-    "description": "バックエンドで予期せぬエラーが発生した場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorOperationInProgress": "ഇന്നത്തെ വാങ്ങലിന്റെ പ്രക്രിയ വേറെ ഏത് സംവരണം ചെയ്യാനിരിക്കുന്നതും പുരോഗമനത്തിലുണ്ട്. ദയവായി കുറച്ച് വിപരീതമായി വീണ്ടും പരിശോധിക്കൂ",
-  "@purchaseErrorOperationInProgress": {
-    "description": "購入処理が既に進行中の場合のエラーメッセージ"
-  },
   "purchaseErrorInsufficientPermissions": "നിങ്ങളുടെ {accountName} പ്ലാനിലേക്ക് ചേരാൻ കഴിയുന്നില്ല. ദയവായി您的支付信息确认后再试。",
-  "@purchaseErrorInsufficientPermissions": {
-    "description": "権限が不足している場合のエラーメッセージ",
-    "placeholders": {
-      "accountName": {
-        "type": "String",
-        "example": "Apple ID"
-      }
-    }
-  },
   "purchaseErrorPaymentPending": "നിങ്ങളുടെ പേയ്‌മെന്റ് അന്തിമമായില്ല. {accountName} എന്നെലും {storeName} പരിശോധിക്കുക.",
-  "@purchaseErrorPaymentPending": {
-    "description": "支払いが保留中の場合のエラーメッセージ",
-    "placeholders": {
-      "accountName": {
-        "type": "String",
-        "example": "Apple ID"
-      },
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "premiumUserThanksTitle": "പ്രീമിയം അംഗമാണ്",
-  "@premiumUserThanksTitle": {
-    "description": "プレミアムユーザーへの感謝を示すタイトル"
-  },
   "premiumUserThanksMessage": "നിങ്ങളുടെ ഉപയോഗത്തിന് നന്ദി. നിങ്ങളുടെ സഹായത്തിലൂടെ Medicalarmത്തിന്റെ പ്രവർത്തനം തുടരാൻ ഞങ്ങൾക്കും കഴിഞ്ഞിട്ടുണ്ട്.",
-  "@premiumUserThanksMessage": {
-    "description": "プレミアムユーザーへの感謝メッセージ"
-  },
   "premiumPricePerMonth": "({price}/മാസം)",
-  "@premiumPricePerMonth": {
-    "description": "月額料金の表示フォーマット",
-    "placeholders": {
-      "price": {
-        "type": "String",
-        "example": "¥500"
-      }
-    }
-  },
   "premiumCancelDescription": "· സ്വന്തമാറ്റുന്നതിന് ശേഷം, സ്വത:autoനവായന കാണിക്കുന്ന വിദ്യയുടെ ഗുണനിലവാരം പരിഷ്ക്കരിക്കുന്നതിനായി {storeName} ആപ്പിന്റെ അക്കൗണ്ട് ക്രമീകരണത്തിലൂടെ ചെയ്യാവുന്നതാണ്. (ആപ്പില്‍നിന്നു സ്വത:autoനവായനയുടെ വിഹിതം ചെയ്യാവുന്നതല്ല).",
-  "@premiumCancelDescription": {
-    "description": "プレミアムプランの解約方法の説明",
-    "placeholders": {
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "purchaseErrorRestoreFailed": "മുൻപ് നടത്തിയ വാങ്ങല്‍ വിവരങ്ങള്‍ ലഭ്യമല്ല. നിങ്ങളുടെ അക്കൗണ്ടിനെ പരിശോധിച്ച് വീണ്ടും ശ്രമിക്കുക.",
-  "@purchaseErrorRestoreFailed": {
-    "description": "購入情報の復元に失敗した場合のエラーメッセージ"
-  },
   "purchaseErrorUserNotFound": "ഉപയോക്താക്കളെ കണ്ടെത്താൻ സാധിച്ചില്ല. ആപ്പിനെ പുനരാരംഭിച്ച് വീണ്ടും ശ്രമിക്കൂ. വിശദാംശം: {message}",
-  "@purchaseErrorUserNotFound": {
-    "description": "ユーザーが見つからない場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorActivationPending": "പരിശോധനയ്ക്ക് കുറച്ചു സമയം വിട്ടുകൊടുക്കുക",
-  "@purchaseErrorActivationPending": {
-    "description": "課金の有効化が完了していない場合のエラーメッセージ"
-  },
   "purchaseErrorTimeout": "ടൈംഔട്ട്യായി. ദയവായി നിങ്ങളുടെ കമ്യൂണിക്കേഷൻ പരിസരത്തെ പരിശോധിച്ച് വീണ്ടും ശ്രമിക്കുക. പരിഹരിക്കപ്പെടാത്ത പക്ഷം ക്രമീകരണം > ചോദങ്ങൾ വഴി ഞങ്ങളെ ബന്ധപ്പെടുക. വിശദാംശങ്ങൾ: {message}",
-  "@purchaseErrorTimeout": {
-    "description": "購入処理がタイムアウトした場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorNetworkError": "സമ്പർക്കം അശ്രദ്ധമാണ്. സമ്പർക്ക സാഹചര്യത്തെ സ്ഥിരീകരിച്ച ശേഷം വീണ്ടും ശ്രമിക്കുക. പരിഹരിക്കണമെങ്കിൽ ക്രമീകരണം > അന്വേഷിക്കുക എന്ന വഴി ബന്ധപ്പെടുക. വിശദാംശങ്ങൾ: {message}",
-  "@purchaseErrorNetworkError": {
-    "description": "ネットワークエラーが発生した場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "sixMonthPlan": "6 മാസ പദ്ധതി",
-  "@sixMonthPlan": {
-    "description": "6ヶ月プランの表示名"
-  },
   "premiumContractPeriod": "ഒഴിയ്ക്കനിടക്ക് 1 മാസം വാങ്ങിയ ദിവസം മുതൽ കരാർ കാലയളവ്.",
-  "@premiumContractPeriod": {
-    "description": "プレミアムプランの契約期間の説明"
-  },
   "privacyPolicy": "പ്രൈവസിയുടെ നയം",
-  "@privacyPolicy": {
-    "description": "プライバシーポリシーのリンクテキスト"
-  },
   "termsOfService": "ഉപയോഗം എന്ന വ്യവസ്ഥ",
-  "@termsOfService": {
-    "description": "利用規約のリンクテキスト"
-  },
   "specifiedCommercialTransactionAct": "പ്രത്യേക വാണിജ്യ ഇടപാട് നിയമം പ്രകാരം നടത്ത കാട്ടുന്നത്",
-  "@specifiedCommercialTransactionAct": {
-    "description": "特定商取引法に基づく表記のリンクテキスト"
-  },
   "confirmBeforeRegistration": "ദയവായി നിങ്ങളുടെ ദൃഢീകരണങ്ങൾ പരിശോധിച്ച് രജിസ്റ്റർ ചെയ്യുക",
-  "@confirmBeforeRegistration": {
-    "description": "各種規約確認を促すメッセージ"
-  },
   "autoRenewalNotice": "അവസാനമായ കരാറു കാലാവധി ശേഷം, ഇത് സ്വയം പുതുക്കാൻ തിരിച്ചുപോകും.",
-  "@autoRenewalNotice": {
-    "description": "自動更新に関する注意事項"
-  },
   "restorePurchase": "മുൻപ് വാങ്ങിയവർ ഇവിടെ",
-  "@restorePurchase": {
-    "description": "購入情報の復元リンクのテキスト"
-  },
   "purchaseRestored": "നിങ്ങളുടെ വാങ്ങലുകളുടെ വിവരങ്ങൾ തിരിച്ചുപിടിച്ചിരുന്നു",
-  "@purchaseRestored": {
-    "description": "購入情報の復元が完了した際のメッセージ"
-  },
   "medicationTimeFollowup": "മഞ്ഞെത്തുമ്പോൾ മുടിവാക്കുന്നത്",
-  "@medicationTimeFollowup": {
-    "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
-  },
   "updateRequired": "അപ്ഡേറ്റ് ആവശ്യമുണ്ട്",
-  "@updateRequired": {
-    "description": "強制アップデートが必要な場合のダイアログタイトル"
-  },
   "updateRequiredMessage": "{storeName}നിന്ന് ഏറ്റവും പുതിയ പതിപ്പിലേക്ക് പുതുക്കുക.",
-  "@updateRequiredMessage": {
-    "description": "強制アップデートが必要な場合のダイアログメッセージ",
-    "placeholders": {
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "screenshotMedicationHistoriesMemo": "ഞാൻ നിദ്രയെടുത്തതുകൊണ്ട് മരുന്ന് കഴിക്കാനുള്ള സമയം പ്രായാസമായി കഴിഞ്ഞു.",
-  "@screenshotMedicationHistoriesMemo": {
-    "description": "薬のメモの例"
-  },
   "screenshotMedicationDoserReceiver1": "എനിക്ക്",
-  "@screenshotMedicationDoserReceiver1": {
-    "description": "薬の服用者の例"
-  },
   "screenshotMedicationDoserReceiver2": "മാന ചാൻ",
-  "@screenshotMedicationDoserReceiver2": {
-    "description": "薬の服用者の例"
-  },
   "screenshotMedicationQuontityMemo1": "1 ഡോസ്",
-  "@screenshotMedicationQuontityMemo1": {
-    "description": "薬の服用量の例"
-  },
   "screenshotMedicationQuontityMemo2": "2 പിൽക്കണങ്ങൾ",
-  "@screenshotMedicationQuontityMemo2": {
-    "description": "薬の服用量の例"
-  },
   "screenshotMedicationName1": "തലവേദന മരുന്ന്",
-  "@screenshotMedicationName1": {
-    "description": "薬の名前の例"
-  },
   "screenshotMedicationName2": "വിറ്റമിനുകൾ",
-  "@screenshotMedicationName2": {
-    "description": "薬の名前の例"
-  },
   "notificationTitle": "ദ്വാരത്തിലേക്ക് പോകുന്നു",
-  "@notificationTitle": {
-    "description": "薬の通知のタイトル"
-  },
   "notificationFollowupTitle": "നിങ്ങള്‍ മരുന്ന് കൈക്കുടുക്കാന്‍ മറക്കാറുണ്ടോ?",
-  "@notificationFollowupTitle": {
-    "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
-  },
   "recommendedApp": "ശുപാർശ നടത്തിയ ആപ്ലിക്കേഷൻ",
-  "@recommendedApp": {
-    "description": "おすすめアプリのタイトル"
-  },
   "pilllIntroduction": "ശയനം നമ്പറുകൾ പരിരക്ഷിക്കുമോ? കൂടുതൽ സുഖകരമായി ശയനങ്ങൾ പ്രയോജനപ്പെടുത്താൻ ആഗ്രഹിക്കുന്നുണ്ടോ?",
-  "@pilllIntroduction": {
-    "description": "ピルの管理の紹介"
-  },
   "installPilll": "Pilll ന്യൂനംബർ",
-  "@installPilll": {
-    "description": "Pilllをインストールするボタンのテキスト"
-  },
-  "criticalAlertVolume": "ശബ്ദം",
-  "@criticalAlertVolume": {
-    "description": "緊急通知の音量の表示名"
-  }
+  "criticalAlertVolume": "ശബ്ദം"
 }

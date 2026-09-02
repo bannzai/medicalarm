@@ -1,783 +1,158 @@
 {
   "@@locale": "kn",
   "retry": "ಮರುಪ್ರಯತ್ನ",
-  "@retry": {
-    "description": "エラーが発生した際やデータの読み込みに失敗した際に、再度処理を実行するためのボタンテキスト"
-  },
   "save": "ಉಳಿತಾಯ",
-  "@save": {
-    "description": "フォームやエディタで入力したデータを保存する際に使用するボタンテキスト"
-  },
   "memo": "ಮಾನಂದ",
-  "@memo": {
-    "description": "服薬記録や日記などで追加情報を入力するためのテキストフィールドのプレースホルダー"
-  },
   "completed": "ಪೂರ್ಣವಾಗಿದೆ",
-  "@completed": {
-    "description": "フォームの入力や設定の変更などの操作が完了した際に使用するボタンテキスト"
-  },
   "medicineRegistration": "ಮೂತೆ ಔಷಧ ನೋಂದಣಿ ವೀಳವಾದ",
-  "@medicineRegistration": {
-    "description": "お薬の新規登録・編集画面のタイトル"
-  },
   "medicineName": "ಮದ್ದು ಹೆಸರ",
-  "@medicineName": {
-    "description": "お薬登録フォームでの薬の名前を入力するフィールドのプレースホルダー"
-  },
   "medicineList": "ಔಷಧಗಳ ಪಟ್ಟಿಯು",
-  "@medicineList": {
-    "description": "登録されているお薬の一覧を表示する画面のタイトル"
-  },
   "medicationSchedule": "ಮದ್ದುಗಳನ್ನು ತೆಗೆದುಕೊಳ್ಳುವ ವೇಳಾಪಟ್ಟಿ",
-  "@medicationSchedule": {
-    "description": "服用スケジュールのセクションタイトル"
-  },
   "medicationTime": "ಔಷಧ ಸೇವನೆಯಾಗುವಾಗ ಸೂಚನೆಗಳನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಲು",
-  "@medicationTime": {
-    "description": "服用時刻の通知設定を有効にするためのスイッチのラベル"
-  },
   "medicationTimeDescription": "ಷರೀರ್‌ದ ಆವಶ್ಯಕತೆಗೆ ಆಧಾರಿತವಾಗಿ ತಿಳಿಸಲು ನೋಟಿಫಿಕೇಶನ್‌ಗಳನ್ನು ಕಳುಹಿಸುತ್ತದೆ",
-  "@medicationTimeDescription": {
-    "description": "服用時刻の通知設定の説明文"
-  },
   "close": "ಮುಚ್ಚು",
-  "@close": {
-    "description": "ダイアログやモーダルを閉じるためのボタンテキスト"
-  },
   "settings": "ಸೆಟಿಂಗ್",
-  "@settings": {
-    "description": "設定画面のタイトル"
-  },
   "camera": "ಕ್ಯಾಮೆರಾ",
-  "@camera": {
-    "description": "カメラを起動するためのメニュー項目"
-  },
   "photoLibrary": "ಫೋಟೋ ಲೈಬ್ರರಿ",
-  "@photoLibrary": {
-    "description": "フォトライブラリを開くためのメニュー項目"
-  },
   "medicationHistory": "ಔಷಧ ಸೇವನೆಯ ಐತಿಹಾಸಿಕ",
-  "@medicationHistory": {
-    "description": "服薬履歴を表示する画面のタイトル"
-  },
   "noMedicationHistory": "ಊಷಜಿ ಇತಿಹಾಸ ಇಲ್ಲ",
-  "@noMedicationHistory": {
-    "description": "服薬履歴が存在しない場合に表示するメッセージ"
-  },
   "scheduledTime": "ನಿಯೋಜಿತ ಸಮಯ",
-  "@scheduledTime": {
-    "description": "服薬予定時刻のラベル"
-  },
   "recordedTime": "ಅಭಿವೃದ್ಧಿ ಸಮಯ",
-  "@recordedTime": {
-    "description": "実際に服薬を記録した時間のラベル"
-  },
   "noMemo": "ನೋಟ್ ಇಲ್ಲ",
-  "@noMemo": {
-    "description": "メモが存在しない場合に表示するテキスト"
-  },
   "premiumPlan": "ಪ್ರೀಮಿಯಂ ಯೋಜನೆ",
-  "@premiumPlan": {
-    "description": "プレミアムプランの名称"
-  },
   "premiumFeatureAds": "ವಿತರಣೆಯ ಮೃದುಗೊಳಿಸಲು",
-  "@premiumFeatureAds": {
-    "description": "プレミアム機能の広告非表示の説明"
-  },
   "premiumFeatureHistory": "ಎಲ್ಲಾ ಮುದ್ದು ಉತ್ಪನ್ನಗಳನ್ನು ತೋರಿಸಲು",
-  "@premiumFeatureHistory": {
-    "description": "プレミアム機能の履歴表示の説明"
-  },
   "premiumRegistrationComplete": "Medicalarm ಪ್ರೀಮಿಯಮ್ ನೋಂದಣಿಯನ್ನು ಸಂಪೂರ್ಣಗೊಂಡಿತು",
-  "@premiumRegistrationComplete": {
-    "description": "プレミアム登録完了時のタイトル"
-  },
   "premiumRegistrationThanks": "您登记感谢。\n所有功能都可以使用！",
-  "@premiumRegistrationThanks": {
-    "description": "プレミアム登録完了時のメッセージ"
-  },
   "unknownError": "ಅಜ್ಞಾನ ದೋಷ ಸಂಭವಿಸಿದೆ",
-  "@unknownError": {
-    "description": "予期せぬエラーが発生した際のエラーメッセージ"
-  },
   "error": "ನೊಂದಣಿಯಲ್ಲಿದೆ",
-  "@error": {
-    "description": "一般的なエラーメッセージ"
-  },
   "unexpectedError": "ಅನಾನುಕೂಲ ತೊಂದರೆ ಉಂಟಾಯಿತು",
-  "@unexpectedError": {
-    "description": "予期せぬエラーが発生した際のエラーメッセージ"
-  },
   "cancel": "ರದ್ದುಗೊಳಿಸಿ",
-  "@cancel": {
-    "description": "操作をキャンセルするためのボタンテキスト"
-  },
   "delete": "ಅಳಿಸು",
-  "@delete": {
-    "description": "削除操作を実行するためのボタンテキスト"
-  },
   "deleteAccount": "ಖಾತೆ ತೆಗೆದುಹಾಕಿ",
-  "@deleteAccount": {
-    "description": "アカウント削除ボタンのテキスト"
-  },
   "deleteAccountConfirm": "ಬಳಕೆದಾರ ಮಾಹಿತಿ ಅಳಿಸಲಾಗಿದೆ",
-  "@deleteAccountConfirm": {
-    "description": "アカウント削除確認ダイアログのタイトル"
-  },
   "deleteAccountMessage": "ಖಾತೆಯನ್ನು ಅಳಿಸಿಡುವುದಾದರೆ, ಬಳಕೆದಾರ ಮಾಹಿತಿಯ ಎಲ್ಲಾ ಅಂಶಗಳು ಅಳಿಸುರುಳಾಗುತ್ತದೆ.",
-  "@deleteAccountMessage": {
-    "description": "アカウント削除確認ダイアログのメッセージ"
-  },
   "medicationFrequency": "ಮರೆಯುವಿಕೆಯ ಉಲ್ಲಂಘನೆಯ ಆತಂಕವನ್ನು ವಿರಾಮಿಸಲು ಔಷಧಿ ನಿರ್ವಹಣಾ ಮೊಬೈಲ್ ಆಪ್ Medicalarm ಅನ್ನು ಅಭಿವೃದ್ಧಿಪಡಿಸುತ್ತಿದ್ದೇವೆ.\nಔಷಧಿ ಸೇವನೆಯ ಸಮಯದಲ್ಲಿ ರಿಮೈಂಡರ್, ಸೇವನಾ ಐತಿಹಾಸಿಕ ನಿರ್ವಹಣೆ - ಶಂತ್ರ ಮೋಡ್ ನಲ್ಲಿ ಸಹ ಬಂದ ಪಾಲನೆ ಆಯ್ಕೆಗಳನ್ನು ಹೊಂದಿರುವ ಆಪ್ ಆಗಿದೆ.\n\n服用頻度",
-  "@medicationFrequency": {
-    "description": "服用頻度の設定セクションのタイトル"
-  },
   "daily": "ಪ್ರತಿ ದಿನ",
-  "@daily": {
-    "description": "毎日服用する頻度設定"
-  },
   "everyXDays": "ದಿನಗಳಲ್ಲಿ",
-  "@everyXDays": {
-    "description": "X日ごとに服用する頻度設定"
-  },
   "specificWeekdays": "ಕೋಷ್ಟಕದ ವಾರದ ವಿಶೇಷ ದಿನಗಳು",
-  "@specificWeekdays": {
-    "description": "特定の曜日に服用する頻度設定"
-  },
   "cycle": "ಪರಿಕ್ರಮ",
-  "@cycle": {
-    "description": "周期で服用する頻度設定"
-  },
   "cycleDescription": "例) 21ನೇ ದಿನವನ್ನು ತೆಗೆದುಕೊಳ್ಳಿ/7ನೇ ದಿನವನ್ನು ವಿಶ್ರಾಂತಿ ಮಾಡಲು",
-  "@cycleDescription": {
-    "description": "周期での服用頻度の説明文"
-  },
   "everyXDaysDescription": "ಉದಾಹರಣೆ) 2 ದಿನಗಳ ಅಂತರದಲ್ಲಿ, 3 ದಿನಗಳ ಅಂತರದಲ್ಲಿ",
-  "@everyXDaysDescription": {
-    "description": "X日ごとの服用頻度の説明文"
-  },
   "specificWeekdaysDescription": "ಉದಾಹರಣೆ) ಸೋಮವಾರ ಮಾತ್ರ, ಬುಧವಾರ ಮತ್ತು ಶುಕ್ರವಾರ",
-  "@specificWeekdaysDescription": {
-    "description": "特定の曜日の服用頻度の説明文"
-  },
   "medicineFormValidationError": "ಚೇತನ ಮತ್ತು ಔಷಧ ಸೇವನೆಯ ವೇಳಾಪಟ್ಟೀ ನಮೂದಿಸಿ",
-  "@medicineFormValidationError": {
-    "description": "お薬登録フォームでの入力バリデーションエラーメッセージ"
-  },
   "quantity": "ಒತ್ತಡ",
-  "@quantity": {
-    "description": "服用量を入力するフィールドのラベル"
-  },
   "quantityExample": "ಉದಾಹರಣೆಗೆ: 1 ಗೊಲು, 100mg",
-  "@quantityExample": {
-    "description": "服用量入力フィールドのプレースホルダー"
-  },
   "medicationStartDate": "ಮೆಡಿಸಿನ್ ತೆಕಲು ಪ್ರಾರಂಭದ ದಿನ",
-  "@medicationStartDate": {
-    "description": "服用開始日を選択するフィールドのラベル"
-  },
   "otherInformation": "ಇತರ",
-  "@otherInformation": {
-    "description": "その他の情報を入力するセクションのタイトル"
-  },
   "doseReceiver": "ಔಷಧ ಸೇವಕ",
-  "@doseReceiver": {
-    "description": "服用者を選択するフィールドのラベル"
-  },
   "defaultDoseReceiver": "ನಾನು",
-  "@defaultDoseReceiver": {
-    "description": "デフォルトの服用者名"
-  },
   "doseReceiverMaxCount": "ಊರಿಗೂ {count} ಜನರ ತನಕ ನೋಂದಾಯಿಸಬಹುದು",
-  "@doseReceiverMaxCount": {
-    "description": "服用者の最大登録数を表示するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "2"
-      }
-    }
-  },
   "increaseLimitWithPremium": "ಪ್ರೀಮಿಯಮ್ ಯೋಜನೆಯಲ್ಲಿ ಗೆರನೆಯನ್ನು {count} ಗೆ ಹೆಚ್ಚಿಸಲು",
-  "@increaseLimitWithPremium": {
-    "description": "プレミアムプランでの上限増加を案内するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "10"
-      }
-    }
-  },
   "addDoseReceiver": "ಮದ್ದುಕೋರನನ್ನು ಸೇರ್ಪಡೆಗೊಳಿಸು",
-  "@addDoseReceiver": {
-    "description": "服用者を追加するボタンのテキスト"
-  },
   "newDoseReceiver": "ಹೊಸ ಬಳಕೆದಾರ",
-  "@newDoseReceiver": {
-    "description": "新規追加時のデフォルトの服用者名"
-  },
   "reloginRequired": "ಪುನಃ ಲಾಗಿನ್ ಮಾಡಿ",
-  "@reloginRequired": {
-    "description": "アカウント削除時に再ログインが必要な場合のダイアログタイトル"
-  },
   "reloginMessage": "ಅಕೌಂಟ್ ಅನ್ನು ಅಳಿಸಲು, ಮರುಲಾಗ್ ಇನ್ ಮಾಡಿ.",
-  "@reloginMessage": {
-    "description": "アカウント削除時の再ログイン要求メッセージ"
-  },
   "relogin": "ಮರು ನಿಕಾಸು",
-  "@relogin": {
-    "description": "再ログインを実行するためのボタンテキスト"
-  },
   "accountDeleted": "ಖಾತೆ ಅಳಿಸಲಾಗುತ್ತಿದೆ",
-  "@accountDeleted": {
-    "description": "アカウント削除完了時のメッセージ"
-  },
   "confirmExit": "ನೀವು ಅಪ್ಲಿಕೇಶನ್ ಅನ್ನು ಮುಕ್ತಾಯಗೊಳಿಸುತ್ತಿವೆಯೆ?",
-  "@confirmExit": {
-    "description": "アプリ終了確認のメッセージ"
-  },
   "exit": "ಅಂತ್ಯ",
-  "@exit": {
-    "description": "アプリを終了するためのボタンテキスト"
-  },
   "viewFaq": "FAQ ಅನ್ನು ನೋಡಿ",
-  "@viewFaq": {
-    "description": "FAQページを表示するためのボタンテキスト"
-  },
   "medicine": "ಮಾಡುಗ",
-  "@medicine": {
-    "description": "お薬タブのタイトル"
-  },
   "inquiry": "ಸಂಪರ್ಕಿಸಿ",
-  "@inquiry": {
-    "description": "お問い合わせボタンのテキスト"
-  },
   "ok": "ಓಕೆ",
-  "@ok": {
-    "description": "確認ダイアログのOKボタンのテキスト"
-  },
   "medicationScheduleLimit": "ಮಾರ್ಗಸೂಚಿಯ ನಿಗದಿಯನ್ನು {count}ಗೂ ನೊಂದಾಯಿಸಬಹುದು.",
-  "@medicationScheduleLimit": {
-    "description": "服用スケジュールの登録上限を表示するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "3"
-      }
-    }
-  },
   "increaseMedicationScheduleLimit": "ಪ್ರೀಮಿಯಮ್ ಯೋಜನೆಯೊಂದಿಗೆ ಹದಿನಾರು {count} ಗೆ ಹೆಚ್ಚಿಸಲಾಗುತ್ತದೆ",
-  "@increaseMedicationScheduleLimit": {
-    "description": "服用スケジュールの上限をプレミアムプランで増やすことを案内するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "10"
-      }
-    }
-  },
   "addMedicationSchedule": "ಔಷಧ ತೆಗೆದುಕೊಳ್ಳುವ ವೇಳಾಪಟ್ಟಿಯನ್ನು ಸೇರಿಸಿ",
-  "@addMedicationSchedule": {
-    "description": "服用スケジュールを追加するボタンのテキスト"
-  },
   "medicationScheduleNotificationSetting": "ಔಷಧೇಳುವ ವೇಳಾಪಟ್ಟಿಗೆ ಸೂಚನೆಗಳನ್ನು ಹೊಂದಿಸಲು",
-  "@medicationScheduleNotificationSetting": {
-    "description": "服用スケジュールの通知設定画面のタイトル"
-  },
   "notificationSetting": "ಅಚ್ಚುಕಟ್ಟಾದ ಸೂಚನೆಗಳು",
-  "@notificationSetting": {
-    "description": "通知設定セクションのタイトル"
-  },
   "enableFollowupNotification": "ನಿಕ್ಕುವದನ್ನು ಅನುಗುಣಪಡಿಸಲು",
-  "@enableFollowupNotification": {
-    "description": "フォローアップ通知を有効にするスイッチのラベル"
-  },
   "followupNotificationDescription": "ಮೊದಲ ನೋಟಿಫಿಕೇಶನಿನಿಂದ 30 ನಿಮಿಷಗಳನ್ನು ಒಳಗೊಂಡಂತೆ ಕುಡಿಯಲು ದಾಖಲೆ ಮಾಡಲು ಮೇಲ್ಮಟ್ಟದ ನೋಟಿಫಿಕೇಶನ್ ಕಳುಹಿಸಲಾಗುತ್ತದೆ.",
-  "@followupNotificationDescription": {
-    "description": "フォローアップ通知の説明文"
-  },
   "enableNotificationInSilentMode": "ಮನರಿಂಗ್ ಮೋಡ್‌ನಲ್ಲಿ ಸೂಚನೆ ನೀಡುವುದು",
-  "@enableNotificationInSilentMode": {
-    "description": "マナーモード時の通知を有効にするスイッチのラベル"
-  },
   "silentModeNotificationDescription": "ಕೇಂದ್ರಿತ ಮೋಡ್ ಓನ್ ಆಗಿರುವಾಗ ಅಥವಾ ಸಾಧನ ಘೋಷಣೆಸ್ಥಿತಿಯಲ್ಲಿ ಇರೋದಾದರೂ, ಪ್ರಮುಖ ಅಧಿಸೂಚನೆಗಳು ತೀವ್ರ ಆಡಿಯೋವು ವರ್ಣಾತ್ಮಕ ಸಂತಸದ ಸಹಿತ ಕಡ್ಡಾಯವಾಗಿ ತೋರಿಸಲಾಗುತ್ತದೆ",
-  "@silentModeNotificationDescription": {
-    "description": "マナーモード時の通知の説明文"
-  },
   "everyXDaysFormat": "{count}ದಿನಕ್ಕೊಮ್ಮೆ",
-  "@everyXDaysFormat": {
-    "description": "X日ごとの服用頻度を表示する際のフォーマット",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "2"
-      }
-    }
-  },
   "cycleDaysFormat": "{consecutiveDays} ದಿನಗಳ ಎತ್ತುವಿಕೆ/{restDays} ದಿನಗಳ ವಿಶ್ರಾಂತಿ",
-  "@cycleDaysFormat": {
-    "description": "服用周期を表示する際のフォーマット",
-    "placeholders": {
-      "consecutiveDays": {
-        "type": "int",
-        "example": "21"
-      },
-      "restDays": {
-        "type": "int",
-        "example": "7"
-      }
-    }
-  },
   "consecutiveDaysFormat": "{count}ದಿನಗಳಿಗೂ",
-  "@consecutiveDaysFormat": {
-    "description": "連続服用日数を表示する際のフォーマット",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "21"
-      }
-    }
-  },
   "restDaysFormat": "{count}ದಿನ ಔಷಧ ತೆಗೆದುಕೊಳ್ಳುವಿಕೆ ತಪ್ಪಿಸಿ",
-  "@restDaysFormat": {
-    "description": "休薬日数を表示する際のフォーマット",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "7"
-      }
-    }
-  },
   "limitedTimeDiscount": "ಈಗ ಮಾತ್ರ ವಿಶೇಷ ದರದಲ್ಲಿ ಸದಾಕಾಲ ಬಳಸಲು ಸಾಧ್ಯ",
-  "@limitedTimeDiscount": {
-    "description": "プレミアムプランの限定価格キャンペーンを案内するメッセージ"
-  },
   "monthlyPlan": "ದಿನಾಂಕ ಪ್ಲಾನ್",
-  "@monthlyPlan": {
-    "description": "月額プランの名称"
-  },
   "annualPlan": "ವಾರ್ಷಿಕ ಯೋಜನೆ",
-  "@annualPlan": {
-    "description": "年額プランの名称"
-  },
   "weeklyPlan": "ವಾರಾಂತ್ಯ ಯೋಜನೆ",
-  "@weeklyPlan": {
-    "description": "週額プランの名称"
-  },
   "premiumRequired": "ಪ್ರೀಮಿಯಂ ಯೋಜನೆಯೊಂದಿಗೆ ಸೇರಲು ನೀವು ವೀಕ್ಷಣಾ ಹಕ್ಕು ಪಡೆಯುತ್ತೀರಿ",
-  "@premiumRequired": {
-    "description": "プレミアムプラン加入が必要な機能へのアクセス時のメッセージ"
-  },
   "medication": "ಊಜಿಯ",
-  "@medication": {
-    "description": "服薬タブのタイトル"
-  },
   "history": "ಇತಿಹಾಸ",
-  "@history": {
-    "description": "履歴タブのタイトル"
-  },
+  "calendar": "ಕ್ಯಾಲೆಂಡರ್",
   "medicineRegistrationLimit": "ಮ್ರಿಯೆ ದಾಖಲೆಯ ಸಂಖ್ಯೆಯನ್ನು",
-  "@medicineRegistrationLimit": {
-    "description": "薬の登録数の上限を説明するテキストの一部"
-  },
   "doseReceiverRegistrationLimit": "ಊರ್ಮೆಗಳ ಸಂಖ್ಯೆಯನ್ನು",
-  "@doseReceiverRegistrationLimit": {
-    "description": "服用者の登録数の上限を説明するテキストの一部"
-  },
   "notificationScheduleLimit": "ಅನುದಾಹಕ ಶೆಡ್ ನಷ್ಟು",
-  "@notificationScheduleLimit": {
-    "description": "通知スケジュールの上限を説明するテキストの一部"
-  },
   "addMedicine": "ಊಟಕ್ಕೆ ಎಲ್ಲವನ್ನು ಸೇರಿಸಿ",
-  "@addMedicine": {
-    "description": "お薬を追加するボタンのテキスト"
-  },
   "medicineMaxCount": "ನಿಮ್ಮಲ್ಲಿ {count} ಔಷದಿಗಳಷ್ಟು ನೋಂದಾಯಿಸಲು ಸಾಧ್ಯವಾಗಿದೆ.",
-  "@medicineMaxCount": {
-    "description": "お薬の最大登録数を表示するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "5"
-      }
-    }
-  },
   "increaseMedicineLimitWithPremium": "ಪ್ರೀಮಿಯಂ ಯೋಜನೆಯೊಂದಿಗೆ ಅತಿ ಹೆಚ್ಚು {count} ಗೆ ಹೆಚ್ಚಿಸಿ",
-  "@increaseMedicineLimitWithPremium": {
-    "description": "お薬の登録上限をプレミアムプランで増やすことを案内するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "10"
-      }
-    }
-  },
   "aboutApp": "ಆಪ್ ಬಗ್ಗೆ",
-  "@aboutApp": {
-    "description": "アプリについてのセクションタイトル"
-  },
   "viewPremiumPlan": "ಪ್ರೀಮಿಯಮ್ ಯೋಜನೆ ನೋಡಿ",
-  "@viewPremiumPlan": {
-    "description": "プレミアムプランの詳細を表示するためのボタンテキスト"
-  },
   "cancelSubscriptionInstruction": "ಖರೀದಿಸಿದ ನಂತರ, ಸ್ವಾಯತ್ತ ನವೀಕರಣವನ್ನು {storeName} ಅಪ್ಲಿಕೇಶನ್ ಅಕೌಂಟ್ ಸೆಟಿಂಗ್‌ನಲ್ಲಿ ಖಾತೆ ವಿಮೋಚನೆಯನ್ನು ಮಾಡಬಹುದು. (ಅಪ್ಲಿಕೇಶನ್‌ನಿಂದ ಸ್ವಾಯತ್ತ ನವೀಕರಣವನ್ನು ನಿರಾಕರಿಸಲು ಸಾಧ್ಯವಾಗದು).",
-  "@cancelSubscriptionInstruction": {
-    "description": "自動更新の解約方法の説明",
-    "placeholders": {
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "headache": "ಮಲತ 옮",
-  "@headache": {
-    "description": "症状の選択肢：頭痛"
-  },
   "stomachache": "ಈ ಬಾಯಮನ",
-  "@stomachache": {
-    "description": "症状の選択肢：腹痛"
-  },
   "nausea": "ಅಸ್ಪಷ್ಟತೆ",
-  "@nausea": {
-    "description": "症状の選択肢：吐き気"
-  },
   "anemia": "ಅನemia",
-  "@anemia": {
-    "description": "症状の選択肢：貧血"
-  },
   "diarrhea": "ಅಧೋವೃತ್ತ",
-  "@diarrhea": {
-    "description": "症状の選択肢：下痢"
-  },
   "constipation": "ಶೀತಲೀಲ",
-  "@constipation": {
-    "description": "症状の選択肢：便秘"
-  },
   "hotFlash": "ಅನುರಣನೆ",
-  "@hotFlash": {
-    "description": "症状の選択肢：ほてり"
-  },
   "drowsiness": "ನಿದ್ರಾಸಕ್ತ",
-  "@drowsiness": {
-    "description": "症状の選択肢：眠気"
-  },
   "backPain": "ಕೋಶೋತ್",
-  "@backPain": {
-    "description": "症状の選択肢：腰痛"
-  },
   "palpitation": "ಹೃದಯಘಾತ",
-  "@palpitation": {
-    "description": "症状の選択肢：動悸"
-  },
   "abnormalBleeding": "ಅಕ್ರಮೀಯ ರಕ್ತಸ್ಟ್ರೋತ",
-  "@abnormalBleeding": {
-    "description": "症状の選択肢：不正出血"
-  },
   "lossOfAppetite": "ಆಹಾರದ ಆಸಕ್ತಿ ಕೊರತೆಯಾದರೂ",
-  "@lossOfAppetite": {
-    "description": "症状の選択肢：食欲不振"
-  },
   "chestTightness": "ಕ胸ದ ಹೊಟ್ಟೆ",
-  "@chestTightness": {
-    "description": "症状の選択肢：胸の張り"
-  },
   "insomnia": "ಅನುಸುಚನೆ",
-  "@insomnia": {
-    "description": "症状の選択肢：不眠"
-  },
   "monthlyPlanDiscountFormat": "ಮಾಸಿಕದ ಹೆಚ್ಚಿನದರಲ್ಲಿ {percent}% ಕಡಿತ",
-  "@monthlyPlanDiscountFormat": {
-    "description": "月額プランからの割引率を表示するフォーマット",
-    "placeholders": {
-      "percent": {
-        "type": "int",
-        "example": "50"
-      }
-    }
-  },
   "purchaseErrorUnknown": "ಅಣೆಕಟ್ಟಿದ ಸದಸ್ಯರಿಗಾಗಿ ಕಾರಣವಿಲ್ಲದ ದೋಷ ಸಂಭವಿಸಿದೆ. ದಯವಿಟ್ಟು ಕೆಲವು ಸಮಯ ನಂತರ ಪುನಃ ಪ್ರಯತ್ನಿಸಿ. ಸಮಸ್ಯೆ ಪರಿಹಾರಗೊಳ್ಳದೇ ಇದ್ದರೆ, ತಮ್ಮ ಸಂಪರ್ಕವನ್ನು ಹೊಂದಲು ಸಮಾರಂಭ > ಸಂಪರ್ಕವಿುಂಡು ಅಥವಾ ಸಂಪರ್ಕಿಸಿ. ವಿವರಗಳು: {message}",
-  "@purchaseErrorUnknown": {
-    "description": "購入時の不明なエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorStoreProblem": "{storeName}ಗೆ ದೋಷ ಉಂಟಾಗಿದೆ. ದಯವಿಟ್ಟು ಅತೀ ಸ್ಟಾಲ್ ಸಮಯವನ್ನು ಕಾಯಿರಿ ಮತ್ತು ಪುನಃ ಪ್ರಯತ್ನಿಸಿ.",
-  "@purchaseErrorStoreProblem": {
-    "description": "ストアでのエラーメッセージ",
-    "placeholders": {
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "purchaseErrorInvalidPayment": "ಊರನ್ ಮಾಡಿದ ಹಣಕಾಸು ವಿಫಲವಾಗಿದೆ. ದಯವಿಟ್ಟು ಕಾರ್ಯಗತ ಶ್ರೇಣೀಬದ್ಧವಾಗಿ ಮತ್ತೊಮ್ಮೆ ಪರಿಶೀಲಿಸಿ.",
-  "@purchaseErrorInvalidPayment": {
-    "description": "支払い方法が無効な場合のエラーメッセージ"
-  },
   "purchaseErrorProductUnavailable": "ದೊಡ್ಡ ಯೋಜನೆ ಇದೀಗ ಲಭ್ಯವಿಲ್ಲ. ದಯವಿಟ್ಟು ಅಪ್ಲಿಕೇಶನ್ ಅನ್ನು ಪುನರಾರಂಭಿಸಿ ಪ್ರಯತ್ನಿಸುತ್ತೀರಿ.",
-  "@purchaseErrorProductUnavailable": {
-    "description": "商品が利用できない場合のエラーメッセージ"
-  },
   "purchaseErrorAlreadyPurchased": "ನೀವು ಈಗಾಗಲೇ ಯೋಜನೆಯನ್ನು ಖರೀದಿಸಿದ್ದೀರಿ. ಈ ಸಾಧನದಲ್ಲಿ ಖರೀದಿಸಿದ ಮಾಹಿತಿ ಹಿಂತ ಪ್ರದರ್ಶಿಸಲು \"ನೀವು ಮುಂಚ已有 ಖರೀದಿಸಿರುವವರಿಗಾಗಿಯBob ಮರುಸ್ಥಾಪನೆಯನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿ.",
-  "@purchaseErrorAlreadyPurchased": {
-    "description": "すでに購入済みの場合のエラーメッセージ"
-  },
   "purchaseErrorReceiptInUse": "ಈಗಾಗಲೇ ಖರೀದಿಸಲಾಗಿದೆ. ಖರೀದಿ ಮಾಹಿತಿಯನ್ನು ಇನ್ನೊಬ್ಬ ಬಳಕೆದಾರರಿಂದ ಬಳಸಲಾಗುತ್ತಿದೆ. {accountName} ಅನ್ನು ಪರಿಶೀಲಿಸಿ.",
-  "@purchaseErrorReceiptInUse": {
-    "description": "購入情報が他のユーザーで使用されている場合のエラーメッセージ",
-    "placeholders": {
-      "accountName": {
-        "type": "String",
-        "example": "Apple ID"
-      }
-    }
-  },
   "purchaseErrorInvalidReceipt": "ಅಸಮಾನ್ಯ kopen ವಿಷಯವಾಗಿದೆ. ದಯವಿಟ್ಟು koop ವಿಷಯವನ್ನು ಖಚಿತಪಡಿಸಿ.",
-  "@purchaseErrorInvalidReceipt": {
-    "description": "購入情報が無効な場合のエラーメッセージ"
-  },
   "purchaseErrorMissingReceipt": "ಖರೀದಿದಾರರ ಮಾಹಿತಿ ಅಸ್ತಿತ್ವದಲ್ಲಿಲ್ಲ. {accountName} ಅನ್ನು ಸಾಧನದಲ್ಲಿ ಕಚೇರಿಯಾಗಿ ಪರಿಶೀಲಿಸಿ.",
-  "@purchaseErrorMissingReceipt": {
-    "description": "購入情報が見つからない場合のエラーメッセージ",
-    "placeholders": {
-      "accountName": {
-        "type": "String",
-        "example": "Apple ID"
-      }
-    }
-  },
   "purchaseErrorNetwork": "ನಿಕ್‌ಮೈನ್‌ಗಾತ ಟ್ರಾನ್‌ನೆಟ್‌ನರನ್ನು ದೃಢೀಕರಿಸಿ. ಮತ್ತೊಮ್ಮೆ ಪ್ರಯತ್ನಿಸಿ.",
-  "@purchaseErrorNetwork": {
-    "description": "ネットワークエラーの場合のエラーメッセージ"
-  },
   "purchaseNotAllowed": "ಈ ಸಾಧನವಲ್ಲಿಯೇ ಖರೀದಿ ಮಾಡಲು ಅನುಮತಿಸಲಾಗುವುದಿಲ್ಲ",
-  "@purchaseNotAllowed": {
-    "description": "デバイスでの購入が許可されていない場合のエラーメッセージ"
-  },
   "purchaseErrorInvalidCredentials": "ಖರೀದಿಯಲ್ಲಿ ವಿಫಲವಾಗಿದೆ. ದಯವಿಟ್ಟು ಹೊಸದಾಗಿ ಪ್ರಯತ್ನಿಸಲು ಕೆಲವು ಸಮಯ ಕಳೆಯಿರಿ. ಸಮಸ್ಯೆ ಪರಿಹಾರವಾಗದಿದ್ದಲ್ಲಿ, ಕೋರಿಕೆ > ಸಂಪರ್ಕದಿಂದ ಸಂಪರ್ಕದಲ್ಲಿ ಚಂದಾದಾರ ಇರಿಸಿಕೊಳ್ಳಿ. ವಿವರ: {message}",
-  "@purchaseErrorInvalidCredentials": {
-    "description": "認証情報が無効な場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorUnexpectedBackend": "ಈ ಸಮಯದಲ್ಲಿ ಖರೀದಿಸಲು ಸಾಧ್ಯವಾಗುತ್ತಿಲ್ಲ. ದಯವಿಟ್ಟು ಕೆಲವು ಸಮಯದ ನಂತರ ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ. ಸಮಸ್ಯೆ ಪರಿಹಾರವಾಗದರೆ, настройките > 문의 > ಸಂಪರ್ಕಲು ಸಂಪರ್ಕಿಸಲಾದಿಕೆಗೆ ಸಂಪರ್ಕಿಸಿ. ವಿವರಗಳಿಗಾಗಿ: {message}",
-  "@purchaseErrorUnexpectedBackend": {
-    "description": "バックエンドで予期せぬエラーが発生した場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorOperationInProgress": "ಖರೀದಿಯ ಪ್ರಕ್ರಿಯೆ ವೈಜನ್ಯದಲ್ಲಿ ನಡೆಯುತ್ತಿದೆ. ದಯವಿಟ್ಟು ಕೆಲವು ಸಮಯದ ನಂತರ ಪುನಃ ತಲುಪಿಸಿ",
-  "@purchaseErrorOperationInProgress": {
-    "description": "購入処理が既に進行中の場合のエラーメッセージ"
-  },
   "purchaseErrorInsufficientPermissions": "ನೀವು ಬಳಸುತ್ತಿರುವ {accountName} ಯಲ್ಲಿ ಪ್ಲಾನ್ ಗೆ ಸೇರುವುದಕ್ಕೆ ಅನುಮತಿ ಇಲ್ಲ. ದಯವಿಟ್ಟು ನಿಮ್ಮ ಪಾವತಿ ಮಾಹಿತಿಯನ್ನು ಪರಿಶೀಲಿಸಿ, ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.",
-  "@purchaseErrorInsufficientPermissions": {
-    "description": "権限が不足している場合のエラーメッセージ",
-    "placeholders": {
-      "accountName": {
-        "type": "String",
-        "example": "Apple ID"
-      }
-    }
-  },
   "purchaseErrorPaymentPending": "ಪಾವತಿ ಮಧ್ಯದಲ್ಲಿ ನಿಲ್ಲಿಸಲಾಗಿದೆ. ಲಾಕ್ ಆಭದ {accountName} ಬಳಸಿಕೊಂಡು {storeName} ಅನ್ನು ಪರಿಶೀಲಿಸಿ.",
-  "@purchaseErrorPaymentPending": {
-    "description": "支払いが保留中の場合のエラーメッセージ",
-    "placeholders": {
-      "accountName": {
-        "type": "String",
-        "example": "Apple ID"
-      },
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "premiumUserThanksTitle": "ಪ್ರೀಮಿಯಮ್ ಸದಸ್ಯ",
-  "@premiumUserThanksTitle": {
-    "description": "プレミアムユーザーへの感謝を示すタイトル"
-  },
   "premiumUserThanksMessage": "ನಿಮ್ಮ ಬಳಸಣೆಗಾಗಿ ಧನ್ಯವಾದಗಳು.\nನಿಮ್ಮ ನೆರವು ಅರ್ಥಶಾಸ್ತ್ರವನ್ನು ಮುಂದುವರಿಸಲು Medicalarm ಅನ್ನು ನಿರ್ವಹಿಸಲು ಸಾಧ್ಯವಾಗಿದೆ.",
-  "@premiumUserThanksMessage": {
-    "description": "プレミアムユーザーへの感謝メッセージ"
-  },
   "premiumPricePerMonth": "({price}/महिना)",
-  "@premiumPricePerMonth": {
-    "description": "月額料金の表示フォーマット",
-    "placeholders": {
-      "price": {
-        "type": "String",
-        "example": "¥500"
-      }
-    }
-  },
   "premiumCancelDescription": "• ಖರೀದಿಯ ನಂತರ, ಸ್ವಯಂಚಾಲಿತ ನವೀಕರಣವನ್ನು {storeName} ಆಪ್‌ನ ಖಾತಾ ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಬಳಸಿಕೊಂಡು ರದ್ದು ಮಾಡಬಹುದು。(ಆಪ್‌ ಒಳತಂಡಗಳಿಂದ ಸ್ವಯಂಚಾಲಿತ ನವೀಕರಣವನ್ನು ರದ್ದು ಮಾಡಲಾಗುವುದಿಲ್ಲ)।",
-  "@premiumCancelDescription": {
-    "description": "プレミアムプランの解約方法の説明",
-    "placeholders": {
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "purchaseErrorRestoreFailed": "ಹಿಂದಿನ ಖರೀದಿ ಮಾಹಿತಿಯು ಕಂಡುಬಂದಿಲ್ಲ. ದಯವಿಟ್ಟು ನಿಮ್ಮ ಖಾತೆಯನ್ನು ಪರಿಶೀಲಿಸಿ ಮತ್ತು ಪುನಃ ಪ್ರಯತ್ನಿಸಿ.",
-  "@purchaseErrorRestoreFailed": {
-    "description": "購入情報の復元に失敗した場合のエラーメッセージ"
-  },
   "purchaseErrorUserNotFound": "ಬಳಕೆದಾರರನ್ನು ಶೋಧಿಸಲು ಸಾಧ್ಯವಾಗುತ್ತಿಲ್ಲ. ದಯವಿಟ್ಟು ಆ್ಯಪ್ ಅನ್ನು ಪುನಾರಂಭಿಸಿ ಪುನಃ ಪ್ರಯತ್ನಿಸಿ. ವಿವರ: {message}",
-  "@purchaseErrorUserNotFound": {
-    "description": "ユーザーが見つからない場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorActivationPending": "ಚಾಚಿಕೆ ಖಾತೆಯ ಕ್ರಿಯೆಗೊಳ್ಳುವಿಕೆ ಸಂಪೂರ್ಣವಾಗಿ ಆಗಿಲ್ಲ. ದಯವಿಟ್ಟು ಕೆಲವು ಸಮಯದ ಬಳಿಕ ಪರೀಕ್ಷಿಸಿ.",
-  "@purchaseErrorActivationPending": {
-    "description": "課金の有効化が完了していない場合のエラーメッセージ"
-  },
   "purchaseErrorTimeout": "ಟೈಮ್‌ಔಟ್ ಆಯಿತು. ದಯವಿಟ್ಟು ಸಂಪರ್ಕ ಪರಿಸ್ಥಿತಿಯನ್ನು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ ಮತ್ತು ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ. ಗುರುತಿಸುತ್ತದೆಯೆಂದರೆ, ಸೆಟಿಂಗ್ಸ್ > ಸಂಪರ್ಕ ಮೇರೆ ಸಂಪರ್ಕಿಸಲು ದಯವಿಟ್ಟು ಸಂಪರ್ಕ ಬೆಣೆಗಳಲ್ಲಿ ಕಳುಹಿಸಿ. ವಿಪರ್ಯಯಗಳು: {message}",
-  "@purchaseErrorTimeout": {
-    "description": "購入処理がタイムアウトした場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorNetworkError": "ಕಮ್ಮರ್ಷಿಯ ಅಪಘಾತವಾಗಿದೆ. ದಯವಿಟ್ಟು ನಿಮ್ಮ ಸಂಪರ್ಕ ಪರಿಸ್ಥಿತಿಯನ್ನು ಖಚಿತವಾಗಿ ಪರಿಶೀಲಿಸಿ ಮತ್ತು ಪುನಃ ಪ್ರಯತ್ನಿಸಿ. ಸಮಸ್ಯೆ ಪರಿಹಾರವಾದರೆ ಸೆಟ್ಟಿಂಗ್ಗಳು > ಸಂಪರ್ಕ ದಿಂದ ಸಂಪರ್ಕಿಸಬಹುದು. ವಿವರ: {message}",
-  "@purchaseErrorNetworkError": {
-    "description": "ネットワークエラーが発生した場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "sixMonthPlan": "ಆರು ತಿಂಗಳ ಯೋಜನೆ",
-  "@sixMonthPlan": {
-    "description": "6ヶ月プランの表示名"
-  },
   "premiumContractPeriod": "ಒಟ್ಟು ಒಪ್ಪಂದಾವಧಿ ಖರೀದಿ ದಿನಾಂಕದಿಂದ 1 ತಿಂಗಳ ಕಾಲವಿದೆಯು.",
-  "@premiumContractPeriod": {
-    "description": "プレミアムプランの契約期間の説明"
-  },
   "privacyPolicy": "ಗೋಪ್ಯತಾ ನೀತಿ",
-  "@privacyPolicy": {
-    "description": "プライバシーポリシーのリンクテキスト"
-  },
   "termsOfService": "ಬಳಕೆ ಕಾಯ್ದೆ",
-  "@termsOfService": {
-    "description": "利用規約のリンクテキスト"
-  },
   "specifiedCommercialTransactionAct": "ನಿಖರ ವ್ಯಾಪಾರ ವ್ಯವಹಾರ ಕಾನೂನು ಆಧಾರಿತ ಚಿತ್ರಣ",
-  "@specifiedCommercialTransactionAct": {
-    "description": "特定商取引法に基づく表記のリンクテキスト"
-  },
   "confirmBeforeRegistration": "ದಯವಿಟ್ಟು ಎಲ್ಲಾ ನಿಯಮಗಳಿಗೆ ಸಂಬಂಧಿಸಿದ ಮಾಹಿತಿಯನ್ನು ಪರಿಶೀಲಿಸಿ, ನಂತರ ನೋಂದಾಯಿಸಿ.",
-  "@confirmBeforeRegistration": {
-    "description": "各種規約確認を促すメッセージ"
-  },
   "autoRenewalNotice": "ಒಪ್ಪಂದಾವಧಿಯ ಕೊನೆಗೆ ಆತ್ಮೀಯ ನವೀಕರಣವಾಗಲಿದೆ.",
-  "@autoRenewalNotice": {
-    "description": "自動更新に関する注意事項"
-  },
   "restorePurchase": "ಹಿಂದೆ ಖರೀದಿಸಿದವರು ಇಲ್ಲಿ",
-  "@restorePurchase": {
-    "description": "購入情報の復元リンクのテキスト"
-  },
   "purchaseRestored": "ಖರಿದಾ ಮಾಹಿತಿಯನ್ನು ಪುನರ್‌കಳಿಸುತ್ತಿದೆ",
-  "@purchaseRestored": {
-    "description": "購入情報の復元が完了した際のメッセージ"
-  },
   "medicationTimeFollowup": "ಮೂರ್ತಿ ಕ್ಕೆ ಸಂಬಂಧಿಸಿದ ಬೆಂಬಲ",
-  "@medicationTimeFollowup": {
-    "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
-  },
   "updateRequired": "ಅಪ್ಡೇಟ್ ಅಗತ್ಯವಿದೆ",
-  "@updateRequired": {
-    "description": "強制アップデートが必要な場合のダイアログタイトル"
-  },
   "updateRequiredMessage": "{storeName} ನಿಂದ ನವೀಕೃತ ಆವೃತ್ತಿಗೆ ಅಪ್‌ಡೇಟ್ ಮಾಡಿ",
-  "@updateRequiredMessage": {
-    "description": "強制アップデートが必要な場合のダイアログメッセージ",
-    "placeholders": {
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "screenshotMedicationHistoriesMemo": "ನಾಪಾಲೆ ಹೆಚ್ಚು ತಿಂದು медикаमेंट್  ತೆಗೆದುಕೊಳ್ಳುವ ಸಮಯ ತುರೆಗೂ ಹೋದಿತು",
-  "@screenshotMedicationHistoriesMemo": {
-    "description": "薬のメモの例"
-  },
   "screenshotMedicationDoserReceiver1": "ನಾನು",
-  "@screenshotMedicationDoserReceiver1": {
-    "description": "薬の服用者の例"
-  },
   "screenshotMedicationDoserReceiver2": "ಮಾನಾ ಚಾನ್",
-  "@screenshotMedicationDoserReceiver2": {
-    "description": "薬の服用者の例"
-  },
   "screenshotMedicationQuontityMemo1": "1 ಟ್ಯಾಬ್ಲೆಟ್",
-  "@screenshotMedicationQuontityMemo1": {
-    "description": "薬の服用量の例"
-  },
   "screenshotMedicationQuontityMemo2": "2 ಟ್ಯಾಬ್ಲೆಟ್",
-  "@screenshotMedicationQuontityMemo2": {
-    "description": "薬の服用量の例"
-  },
   "screenshotMedicationName1": "ಹೆಡ್‌Ache ಗೊಳಿಸುವಿಕೆಯು",
-  "@screenshotMedicationName1": {
-    "description": "薬の名前の例"
-  },
   "screenshotMedicationName2": "ವಿಟಮಿನ್ ಡ್ರಾಗ್",
-  "@screenshotMedicationName2": {
-    "description": "薬の名前の例"
-  },
   "notificationTitle": "ಊಪದಾವು ಸಮಯವಾಗಿದೆ",
-  "@notificationTitle": {
-    "description": "薬の通知のタイトル"
-  },
   "notificationFollowupTitle": "ನೀವು ಔಷಧಿ ದಾಖಲೆಗಳನ್ನು ಇನ್ಮುಂದೆ ಬಿಟ್ಟು ಹೋಗುತ್ತಿದಿರಾ?",
-  "@notificationFollowupTitle": {
-    "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
-  },
   "recommendedApp": "ಯೋಜನೆನಗೊಳ್ಳದ ಆ್ಯಪ್",
-  "@recommendedApp": {
-    "description": "おすすめアプリのタイトル"
-  },
   "pilllIntroduction": "ನೀವು ಶಾಯದ ನಿರ್ವಹಣೆಯ ಬಗ್ಗೆ ಮಾತನಾಡುತ್ತಿದ್ದೀರಾ? ನೀವು ಶಾಯವನ್ನು ನಿರ್ವಹಿಸಲು ಹೆಚ್ಚು ಸುಲಭವಾಗುವುದಕ್ಕೆ ಏನು ಮಾಡಲು ಬಯಸುತ್ತೀರಾ?",
-  "@pilllIntroduction": {
-    "description": "ピルの管理の紹介"
-  },
   "installPilll": "Pilll ಅನ್ನು ಸ್ಥಾಪಿಸಿ",
-  "@installPilll": {
-    "description": "Pilllをインストールするボタンのテキスト"
-  },
-  "criticalAlertVolume": "ಶ್ರವಣ ಶ್ರಾವಣ",
-  "@criticalAlertVolume": {
-    "description": "緊急通知の音量の表示名"
-  }
+  "criticalAlertVolume": "ಶ್ರವಣ ಶ್ರಾವಣ"
 }

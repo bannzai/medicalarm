@@ -1,773 +1,157 @@
 {
   "@@locale": "am",
   "retry": "መደገፍ",
-  "@retry": {
-    "description": "エラーが発生した際やデータの読み込みに失敗した際に、再度処理を実行するためのボタンテキスト"
-  },
   "save": "ይቀመጥ",
-  "@save": {
-    "description": "フォームやエディタで入力したデータを保存する際に使用するボタンテキスト"
-  },
   "memo": "መዝገብ",
-  "@memo": {
-    "description": "服薬記録や日記などで追加情報を入力するためのテキストフィールドのプレースホルダー"
-  },
   "completed": "የተጠናቀቀ",
-  "@completed": {
-    "description": "フォームの入力や設定の変更などの操作が完了した際に使用するボタンテキスト"
-  },
   "medicineRegistration": "መድኃኒት ዝርዝር ማስገቢያ ገፅ",
-  "@medicineRegistration": {
-    "description": "お薬の新規登録・編集画面のタイトル"
-  },
   "medicineName": "የመድህን ስም",
-  "@medicineName": {
-    "description": "お薬登録フォームでの薬の名前を入力するフィールドのプレースホルダー"
-  },
   "medicineList": "መድኃኒቶች ዝርዝር",
-  "@medicineList": {
-    "description": "登録されているお薬の一覧を表示する画面のタイトル"
-  },
   "medicationSchedule": "የታንክ ስታት",
-  "@medicationSchedule": {
-    "description": "服用スケジュールのセクションタイトル"
-  },
   "medicationTime": "የጤና እንቀበልን ወቅት ማስታወቂያ እንዲሆን ይታወቅ",
-  "@medicationTime": {
-    "description": "服用時刻の通知設定を有効にするためのスイッチのラベル"
-  },
   "medicationTimeDescription": "እንደ መወዳድር ጊዜ ማስታወሻ ይላክ ይሆናል",
-  "@medicationTimeDescription": {
-    "description": "服用時刻の通知設定の説明文"
-  },
   "close": "ዝግመ ይወጣ",
-  "@close": {
-    "description": "ダイアログやモーダルを閉じるためのボタンテキスト"
-  },
   "settings": "ማቅነብ",
-  "@settings": {
-    "description": "設定画面のタイトル"
-  },
   "camera": "ካሜራ",
-  "@camera": {
-    "description": "カメラを起動するためのメニュー項目"
-  },
   "photoLibrary": "ፎቶ ላይብራሪ",
-  "@photoLibrary": {
-    "description": "フォトライブラリを開くためのメニュー項目"
-  },
   "medicationHistory": "የመድኃኒት መገናኛ",
-  "@medicationHistory": {
-    "description": "服薬履歴を表示する画面のタイトル"
-  },
   "noMedicationHistory": "የመድሃኒታት ታሪክ የለም",
-  "@noMedicationHistory": {
-    "description": "服薬履歴が存在しない場合に表示するメッセージ"
-  },
   "scheduledTime": "መወዳደር ወቅት",
-  "@scheduledTime": {
-    "description": "服薬予定時刻のラベル"
-  },
   "recordedTime": "የመዝግብ ጊዜ",
-  "@recordedTime": {
-    "description": "実際に服薬を記録した時間のラベル"
-  },
   "noMemo": "እንደ ተመዘገበው ማህበራዊ ነው።",
-  "@noMemo": {
-    "description": "メモが存在しない場合に表示するテキスト"
-  },
   "premiumPlan": "ፕሪሚየም እቅድ",
-  "@premiumPlan": {
-    "description": "プレミアムプランの名称"
-  },
   "premiumFeatureAds": "ግምባር የለም",
-  "@premiumFeatureAds": {
-    "description": "プレミアム機能の広告非表示の説明"
-  },
   "premiumFeatureHistory": "እንደ ፕሪሚየም ፊት ስለሚለው የታተመ የታጠብ እንቀበለ ዕውቅ ዝርዝር ይሰራ ይኖር",
-  "@premiumFeatureHistory": {
-    "description": "プレミアム機能の履歴表示の説明"
-  },
   "premiumRegistrationComplete": "Medicalarm ፕሪምየም መዝግብ ተጠናቋል",
-  "@premiumRegistrationComplete": {
-    "description": "プレミアム登録完了時のタイトル"
-  },
   "premiumRegistrationThanks": "እንኳን ወደ ድርጅታችን በሰላም መጡ። ሁሉንም መለያያዎች በሙሉ ማግኘት ይቻላል!",
-  "@premiumRegistrationThanks": {
-    "description": "プレミアム登録完了時のメッセージ"
-  },
   "unknownError": "መገኛ እንደምጽአል ተገኝነው የማይታወቅ ድርጊት ተከስቷ አይደሉም።",
-  "@unknownError": {
-    "description": "予期せぬエラーが発生した際のエラーメッセージ"
-  },
   "error": "እንቀሳቃሽ ተከስቷል",
-  "@error": {
-    "description": "一般的なエラーメッセージ"
-  },
   "unexpectedError": "በጥይት የማይሰጥ አደጋ ተከስቷል",
-  "@unexpectedError": {
-    "description": "予期せぬエラーが発生した際のエラーメッセージ"
-  },
   "cancel": "ይዝው ለመግዛት ይዝየውም",
-  "@cancel": {
-    "description": "操作をキャンセルするためのボタンテキスト"
-  },
   "delete": "ይዘው ይሰርዙ",
-  "@delete": {
-    "description": "削除操作を実行するためのボタンテキスト"
-  },
   "deleteAccount": "አካውንት ማጥፋት",
-  "@deleteAccount": {
-    "description": "アカウント削除ボタンのテキスト"
-  },
   "deleteAccountConfirm": "የተጠቃሚ መረጃ ይሰረዝ",
-  "@deleteAccountConfirm": {
-    "description": "アカウント削除確認ダイアログのタイトル"
-  },
   "deleteAccountMessage": "አካውንትዎን ማጥፋት ከሚወዱ ጊዜ የተጠቃሚ ዝርዝር ሁሉ ይሰረየዋል።",
-  "@deleteAccountMessage": {
-    "description": "アカウント削除確認ダイアログのメッセージ"
-  },
   "medicationFrequency": "የምግባት እንቅስቃሴ",
-  "@medicationFrequency": {
-    "description": "服用頻度の設定セクションのタイトル"
-  },
   "daily": "የዕለቱ ትንቢት።",
-  "@daily": {
-    "description": "毎日服用する頻度設定"
-  },
   "everyXDays": "ቀን ባይሆን ወይም ማህበራዊ ሠርተር አላዊ ነን እገባ፣ ስለዚያ እንግዲት ይቆይ",
-  "@everyXDays": {
-    "description": "X日ごとに服用する頻度設定"
-  },
   "specificWeekdays": "ጠቅላላ ቀን",
-  "@specificWeekdays": {
-    "description": "特定の曜日に服用する頻度設定"
-  },
   "cycle": "ጊዜ",
-  "@cycle": {
-    "description": "周期で服用する頻度設定"
-  },
   "cycleDescription": "21ኛ ቀን መጠጣት/7ኛ ቀን አንቀሳቅስ",
-  "@cycleDescription": {
-    "description": "周期での服用頻度の説明文"
-  },
   "everyXDaysDescription": "ምሳሌ) በ2 ቀን እና በ3 ቀን",
-  "@everyXDaysDescription": {
-    "description": "X日ごとの服用頻度の説明文"
-  },
   "specificWeekdaysDescription": "እንደ ምሳሌ) እሑዳይ ብቻ, ነሐሴ እና ቅዳሜ",
-  "@specificWeekdaysDescription": {
-    "description": "特定の曜日の服用頻度の説明文"
-  },
   "medicineFormValidationError": "እባክዎ እባክዎ የሚጠቀሙትን ስም እና የማስታወቂያ ጊዜዎችን ያስገቡ",
-  "@medicineFormValidationError": {
-    "description": "お薬登録フォームでの入力バリデーションエラーメッセージ"
-  },
   "quantity": "መጠን",
-  "@quantity": {
-    "description": "服用量を入力するフィールドのラベル"
-  },
   "quantityExample": "ምሳሌ: 1 ዱቄት, 100mg",
-  "@quantityExample": {
-    "description": "服用量入力フィールドのプレースホルダー"
-  },
   "medicationStartDate": "መውጣት መነሻ ቀን",
-  "@medicationStartDate": {
-    "description": "服用開始日を選択するフィールドのラベル"
-  },
   "otherInformation": "ከሌላ በላይ",
-  "@otherInformation": {
-    "description": "その他の情報を入力するセクションのタイトル"
-  },
   "doseReceiver": "የመጠጣት ተጠቃሚ",
-  "@doseReceiver": {
-    "description": "服用者を選択するフィールドのラベル"
-  },
   "defaultDoseReceiver": "እኔ",
-  "@defaultDoseReceiver": {
-    "description": "デフォルトの服用者名"
-  },
   "doseReceiverMaxCount": "እንደ ተመለከተ ታዋቂ {count} ሰዎች ወይም ወይም ወይም ወይም ወይም ወይም ወይም.",
-  "@doseReceiverMaxCount": {
-    "description": "服用者の最大登録数を表示するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "2"
-      }
-    }
-  },
   "increaseLimitWithPremium": "ከፕሪሚየም እቅፍ ጋር ወደ አንድ አዋቂ {count} ይጨምር",
-  "@increaseLimitWithPremium": {
-    "description": "プレミアムプランでの上限増加を案内するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "10"
-      }
-    }
-  },
   "addDoseReceiver": "መድረሻን አክል",
-  "@addDoseReceiver": {
-    "description": "服用者を追加するボタンのテキスト"
-  },
   "newDoseReceiver": "አዲስ የመውለድ ተጠቃሚ",
-  "@newDoseReceiver": {
-    "description": "新規追加時のデフォルトの服用者名"
-  },
   "reloginRequired": "እባክዎን ወደ ድረ-ገጹ ይቀጥሉ",
-  "@reloginRequired": {
-    "description": "アカウント削除時に再ログインが必要な場合のダイアログタイトル"
-  },
   "reloginMessage": "የአካውንት ማዝረብ እንዲሆን፣ እባክዎን ወደ ቀዳሚው እንደገና ይግቡ።",
-  "@reloginMessage": {
-    "description": "アカウント削除時の再ログイン要求メッセージ"
-  },
   "relogin": "ወደ ውስጥ ለመመለስ",
-  "@relogin": {
-    "description": "再ログインを実行するためのボタンテキスト"
-  },
   "accountDeleted": "አካൗንት ሰርዝ ወደ ኋላ ይሄዳል",
-  "@accountDeleted": {
-    "description": "アカウント削除完了時のメッセージ"
-  },
   "confirmExit": "እቅፍ ወይም መታገር እንደሚጠቀም ይፈልጉ? ከአፕ ይወደዳሉ?",
-  "@confirmExit": {
-    "description": "アプリ終了確認のメッセージ"
-  },
   "exit": "መዝጊያ",
-  "@exit": {
-    "description": "アプリを終了するためのボタンテキスト"
-  },
   "viewFaq": "ፈቃዶችን ይመልከቱ",
-  "@viewFaq": {
-    "description": "FAQページを表示するためのボタンテキスト"
-  },
   "medicine": "መድሐኒት",
-  "@medicine": {
-    "description": "お薬タブのタイトル"
-  },
   "inquiry": "እቅፍ አድርግ",
-  "@inquiry": {
-    "description": "お問い合わせボタンのテキスト"
-  },
   "ok": "እሺ",
-  "@ok": {
-    "description": "確認ダイアログのOKボタンのテキスト"
-  },
   "medicationScheduleLimit": "አንድ ወቅት የተመዘገቡ አንዳንድ አረጋዊ ጊዜ ላይ ኦብረግክ{count} እንድያወጡ ወይም ላይ ይወዳዳሉ።",
-  "@medicationScheduleLimit": {
-    "description": "服用スケジュールの登録上限を表示するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "3"
-      }
-    }
-  },
   "increaseMedicationScheduleLimit": "በፕሪምየም እቅድ ውስጥ እንዲሆን ገደብዎን ወደ {count} ያስገነባ",
-  "@increaseMedicationScheduleLimit": {
-    "description": "服用スケジュールの上限をプレミアムプランで増やすことを案内するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "10"
-      }
-    }
-  },
   "addMedicationSchedule": "መድህን ቀን ወቅት ይጨምሩ",
-  "@addMedicationSchedule": {
-    "description": "服用スケジュールを追加するボタンのテキスト"
-  },
   "medicationScheduleNotificationSetting": "የመይነት ጊዜ ማሳወቅ መቅጣት አስተዳደር",
-  "@medicationScheduleNotificationSetting": {
-    "description": "服用スケジュールの通知設定画面のタイトル"
-  },
   "notificationSetting": "መረጃ መስመር ይቀንሱ",
-  "@notificationSetting": {
-    "description": "通知設定セクションのタイトル"
-  },
   "enableFollowupNotification": "እንከፍከፍ ማሳያ ማስታወቂያ ማንበብ አስቀድመን እንደሚለው እንደ ምርጥ አይቻልም",
-  "@enableFollowupNotification": {
-    "description": "フォローアップ通知を有効にするスイッチのラベル"
-  },
   "followupNotificationDescription": "ከመጀመሪያ ማሳያ በ30 ደቂቀ ምልክት ውስጥ መድሃኒትን ያከብዱ አለመሆን አንቀጽ አርደው ይገኛል።",
-  "@followupNotificationDescription": {
-    "description": "フォローアップ通知の説明文"
-  },
   "enableNotificationInSilentMode": "መነሻ ሞዴ ቢሆንም የማስታወሻ መልእክት ይላካል",
-  "@enableNotificationInSilentMode": {
-    "description": "マナーモード時の通知を有効にするスイッチのラベル"
-  },
   "silentModeNotificationDescription": "እንኳን ወደ ከፍተኛ መረጃ ገጽ አልቀርባለሁ፡፡ እንኳን ወደ ከፍተኛ መረጃ ገጽ እንኳን ወደ ከፍተኛ መረጃ ገጽ እንኳን ወደ ከፍተኛ መረጃ ገጽ አልቀርባለሁ፡፡ እንኳን ወደ ከፍተኛ መረጃ ገጽ እንኳን ወደ ከፍተኛ መረጃ ገጽ እንኳን ወደ ከፍተኛ መረጃ ገጽ እንኳን ወደ ከፍተኛ መረጃ ገጽ እንኳን ወደ ከፍተኛ መረጃ ገጽ እንኳን ወደ ከፍተኛ መረጃ ገጽ እንኳን ወደ ከፍተኛ መረጃ ገጽ እንኳን ወደ ከፍተኛ መረጃ ገጽ እንኳን ወደ ከፍተኛ መረጃ ገጽ እንኳን ወደ ከፍተኛ መረጃ ገጽ እንኳን ወደ ከፍተኛ መረጃ ገጽ እንኳን ወደ ከፍተኛ መረጃ ገጽ እንኳን ወደ ከፍተኛ መረጃ ገጽ አልቀርባለሁ፡፡ እንኳን ወደ መረጃ ገጽ እንኳን ወደ ገጽ ውይይቶች ምርጥ ይዘት ነው፡፡ እንኳን ወደ ከፍተኛ መረጃ ገጽ አልቀርባለሁ፡፡ እንኳን ወደ ወይይቶች ምርጥ ይዘት ነው፡፡ እንኳን ወደ ገጽ ውይይቶች ወይይቶች ከን ይሀይይ ነው፡፡ እንኳን ወደ ከፍተኛ መረጃ ገጽ አልቀርባለሁ፡፡ እንኳን ወደ ወይይቶች ምርጥ ይዘት ነው፡፡ እንኳን ወደ ከፍተኛ መረጃ ገጽ አልቀርባለሁ፡፡ እንኳን ወደ ወይይቶች ምርጥ ይዘት ነው፡፡ እንኳን ወደ ከፍተኛ መረጃ ገጽ አልቀርባለሁ፡፡ ሉህሁን፡፡ እንኳን ወደ ወይይቶች ምርጥ ይዘት ነው፡፡ እንኳን ወደ ወይይቶች ምርጥ ይዘት ነው፡፡ እንኳን ወደ ወይይቶች ምርጥ ይዘት ነው፡፡ እንኳን ወደ ወይይቶች ምርጥ ይዘት ነው፡፡ እንኳን ወደ እነኮነ ድርዕ፡፡ እንኳን ወደ ወይይቶች ምርጥ ይዘት ነው፡፡ ድርዕ፡፡ ሉህሁን፡፡ እንኳን ወደ ወይይቶች ምርጥ ይዘት ነው፡፡ ድርዕ፡፡ ሉህሁን፡፡ እንኳን ወደ ወይይቶች ምርጥ ይዘት ነው፡፡ ድርዕ፡፡ ሉህሁን ዝን፣ ሉህሁን ዝን፣ ሉህሁን ዝን፣ ሉህሁን ዝን፣ ሉህሁን ዝን፣ ሉህሁን ዝን፣ ሉህሁን ዝን፣ ሉህሁን ዝን፣ ሉህሁን ዝን፣ ሉህሁን ዝን፣ ዝን፡፡ ዝን፣ ዝን፡፡ ዝን፡፡ ዝን፡፡ ዝን፡፡ ዝን፡፡ ዝን፡፡ ዝን፡፡ ዝን፡፡ ዝን፡፡ ዝን፡፡ ዝን፡፡ ዝን፡፡ ዝን፡፡ ዝን፡፡ ዝን፡፡ ዝን፡፡ ዝን፡፡ ዝን፡፡ ዝን፡፡ ዝን፡፡ ዝን፡፡ ዝን፡፡ ዝን፡፡ ዝን፡፡ ዝን፡፡ ዝን፡፡ ዝን፡፡ ዝን፡፡ ዝን፡፡ ዝን፡፡ ዝን፡፡ ዝን፡፡ ዝን፡፡ ዝን፡፡ ዝን፡፡ ዝን፡፡ ዝን፡፡ ዝን፡፡ ዝን፡፡ ዝን፡፡ ዝን፡፡ ዝን፡፡ ዝን፡፡ ዝን፡፡ ዝን፡፡ ዝን፡፡ ዝን፡፡ ዝን፡፡ ዝን፡፡ ዝን፡፡ ዝን፡ፉሉ!",
-  "@silentModeNotificationDescription": {
-    "description": "マナーモード時の通知の説明文"
-  },
   "everyXDaysFormat": "{count} ጊዜ በእለት",
-  "@everyXDaysFormat": {
-    "description": "X日ごとの服用頻度を表示する際のフォーマット",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "2"
-      }
-    }
-  },
   "cycleDaysFormat": "{consecutiveDays} ዕለት መውሰድ / {restDays} ዕለት ፈተን",
-  "@cycleDaysFormat": {
-    "description": "服用周期を表示する際のフォーマット",
-    "placeholders": {
-      "consecutiveDays": {
-        "type": "int",
-        "example": "21"
-      },
-      "restDays": {
-        "type": "int",
-        "example": "7"
-      }
-    }
-  },
   "consecutiveDaysFormat": "{count} ቀን እንዲያይ",
-  "@consecutiveDaysFormat": {
-    "description": "連続服用日数を表示する際のフォーマット",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "21"
-      }
-    }
-  },
   "restDaysFormat": "{count} ቀን ወቅታውን ይወስዳል",
-  "@restDaysFormat": {
-    "description": "休薬日数を表示する際のフォーマット",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "7"
-      }
-    }
-  },
   "limitedTimeDiscount": "አሁን ለምዕባለ ዋጋ በተወሰነ ይጠቀሙ",
-  "@limitedTimeDiscount": {
-    "description": "プレミアムプランの限定価格キャンペーンを案内するメッセージ"
-  },
   "monthlyPlan": "ወርሃዊ እቃ",
-  "@monthlyPlan": {
-    "description": "月額プランの名称"
-  },
   "annualPlan": "አመታዊ እቅድ",
-  "@annualPlan": {
-    "description": "年額プランの名称"
-  },
   "weeklyPlan": "ሳምንታዊ ዕቅድ",
-  "@weeklyPlan": {
-    "description": "週額プランの名称"
-  },
   "premiumRequired": "ከፕሬሚየም እቅድ ጋር መግባባት ይቻላል በማለት ይታወቃል።",
-  "@premiumRequired": {
-    "description": "プレミアムプラン加入が必要な機能へのアクセス時のメッセージ"
-  },
   "medication": "መድኃኒታት",
-  "@medication": {
-    "description": "服薬タブのタイトル"
-  },
   "history": "ታሪክ",
-  "@history": {
-    "description": "履歴タブのタイトル"
-  },
+  "calendar": "ቀን መቁጠሪያ",
   "medicineRegistrationLimit": "የመድኃኒት ተመዝግቦች",
-  "@medicineRegistrationLimit": {
-    "description": "薬の登録数の上限を説明するテキストの一部"
-  },
   "doseReceiverRegistrationLimit": "ተይዞ የተመዘገበ ጥቅም ተጠቃሚዎች ብዛት",
-  "@doseReceiverRegistrationLimit": {
-    "description": "服用者の登録数の上限を説明するテキストの一部"
-  },
   "notificationScheduleLimit": "የማሳያ ጊዜ በብዛት",
-  "@notificationScheduleLimit": {
-    "description": "通知スケジュールの上限を説明するテキストの一部"
-  },
   "addMedicine": "የመድኃኒት ዝርዝር ወይም ከታሪክ ማዕከል ወይም ከታሪክ የመድኃኒት ምርጥ እቅድ ይመርጡ።",
-  "@addMedicine": {
-    "description": "お薬を追加するボタンのテキスト"
-  },
   "medicineMaxCount": "እባብ {count} ወቅታት ማስመዘግብ ይቻላል።",
-  "@medicineMaxCount": {
-    "description": "お薬の最大登録数を表示するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "5"
-      }
-    }
-  },
   "increaseMedicineLimitWithPremium": "{count} እምቅዳም ፕሪሚየም እባብ",
-  "@increaseMedicineLimitWithPremium": {
-    "description": "お薬の登録上限をプレミアムプランで増やすことを案内するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "10"
-      }
-    }
-  },
   "aboutApp": "የመተግበሪያ ስለ ይህ",
-  "@aboutApp": {
-    "description": "アプリについてのセクションタイトル"
-  },
   "viewPremiumPlan": "ፕሪምየም ትኬትን ይመልከቱ",
-  "@viewPremiumPlan": {
-    "description": "プレミアムプランの詳細を表示するためのボタンテキスト"
-  },
   "cancelSubscriptionInstruction": "ከመግዛት በኋላ፣ የአገልግሎት እንደገና ዝግጅት ማውጣት በ{storeName} አፕ ውስጥ የመለያ እቅፍ ማቅረብ ይቻላል። (በአፕ ውስጥ የእንደገና ዝግጅት ማውጣት አይቻልም)።",
-  "@cancelSubscriptionInstruction": {
-    "description": "自動更新の解約方法の説明",
-    "placeholders": {
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "headache": "የራስ ወለድ",
-  "@headache": {
-    "description": "症状の選択肢：頭痛"
-  },
   "stomachache": "የዱርጭት",
-  "@stomachache": {
-    "description": "症状の選択肢：腹痛"
-  },
   "nausea": "ወይምም",
-  "@nausea": {
-    "description": "症状の選択肢：吐き気"
-  },
   "anemia": "አንገብ",
-  "@anemia": {
-    "description": "症状の選択肢：貧血"
-  },
   "diarrhea": "በሰርተው ጌጥ ይሳተፋል",
-  "@diarrhea": {
-    "description": "症状の選択肢：下痢"
-  },
   "constipation": "ዝምድነት",
-  "@constipation": {
-    "description": "症状の選択肢：便秘"
-  },
   "hotFlash": "ከመውረድ",
-  "@hotFlash": {
-    "description": "症状の選択肢：ほてり"
-  },
   "drowsiness": "መሃል ገድለ",
-  "@drowsiness": {
-    "description": "症状の選択肢：眠気"
-  },
   "backPain": "የእንቅልፍ መዋቅር",
-  "@backPain": {
-    "description": "症状の選択肢：腰痛"
-  },
   "palpitation": "አቅም",
-  "@palpitation": {
-    "description": "症状の選択肢：動悸"
-  },
   "abnormalBleeding": "የአልባ ወይን ውሃ",
-  "@abnormalBleeding": {
-    "description": "症状の選択肢：不正出血"
-  },
   "lossOfAppetite": "እርግዝና የወፍራህ",
-  "@lossOfAppetite": {
-    "description": "症状の選択肢：食欲不振"
-  },
   "chestTightness": "ከሃይማኖት የተወሰነ ምርጫ፡ ከሃይማኖት የተወሰነ አይነት",
-  "@chestTightness": {
-    "description": "症状の選択肢：胸の張り"
-  },
   "insomnia": "የእንቅልት ጉዳት",
-  "@insomnia": {
-    "description": "症状の選択肢：不眠"
-  },
   "monthlyPlanDiscountFormat": "ወርሃዊ በ{percent}% ቅነስ",
-  "@monthlyPlanDiscountFormat": {
-    "description": "月額プランからの割引率を表示するフォーマット",
-    "placeholders": {
-      "percent": {
-        "type": "int",
-        "example": "50"
-      }
-    }
-  },
   "purchaseErrorUnknown": "በዚህ የተደረገ የመረጃ እቅፍ ይኖርበታል። ጊዜውን እና እንደገና ይሞክሩ። እንደሚታይ ያልተፈጸመ ከሆነ እባኮትን ወደ ቅንብር > እንደገና መግለጫ ይደርሱ። ዝርዝር: {message}",
-  "@purchaseErrorUnknown": {
-    "description": "購入時の不明なエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorStoreProblem": "{storeName} ውስጥ ግድም ተከስቷል። እ παρα አነሰ ጊዜ ይቀይሩና እንደገና ይሞክሩ።",
-  "@purchaseErrorStoreProblem": {
-    "description": "ストアでのエラーメッセージ",
-    "placeholders": {
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "purchaseErrorInvalidPayment": "እቅፍ ያልተደረገባት ነው። እባኮትን የተጠቃሚ አስተዳደር እና የቅዱስ ሰነድ የሚጠቀም የወንድም እቅፍ ያልተደረገባት ማስጠንቀቅ ይፈቅድ።",
-  "@purchaseErrorInvalidPayment": {
-    "description": "支払い方法が無効な場合のエラーメッセージ"
-  },
   "purchaseErrorProductUnavailable": "እቅፍ የሚታይ እቅፍ አሁን የሚሸጥ አይደለም። እቅፍ ይድረስ ማለት እባክህ አፕ ድግግሞ አሟላ ይሞከሩ።",
-  "@purchaseErrorProductUnavailable": {
-    "description": "商品が利用できない場合のエラーメッセージ"
-  },
   "purchaseErrorAlreadyPurchased": "ይህ የተገዙባቸው ትክክለኛ ነው። በዚህ መሣሪያ ላይ የተገዙባቸውን መረጃ ለመሥረዝ \"ቀደመ የተገዙ ግን እንደዚህ\" ይጠቀሙ።",
-  "@purchaseErrorAlreadyPurchased": {
-    "description": "すでに購入済みの場合のエラーメッセージ"
-  },
   "purchaseErrorReceiptInUse": "እቅድ ያላየው ነው። የግዢ መረጃ በሌላ ተጠቃሚ ውስጥ ተጠቃሚ ነው። {accountName}ን መረጃ ይመልከቱ።",
-  "@purchaseErrorReceiptInUse": {
-    "description": "購入情報が他のユーザーで使用されている場合のエラーメッセージ",
-    "placeholders": {
-      "accountName": {
-        "type": "String",
-        "example": "Apple ID"
-      }
-    }
-  },
   "purchaseErrorInvalidReceipt": "ይኸው ከተሳሳተ ግዢ መረጃ ነው። እባኮትን ግዢ መረጃዎን ይረጋጉ።",
-  "@purchaseErrorInvalidReceipt": {
-    "description": "購入情報が無効な場合のエラーメッセージ"
-  },
   "purchaseErrorMissingReceipt": "ተግዳሮች መረጃ አልተገኘም። {accountName} ጋር በመርከብ ላይ ይግቡ እና ይሞክሩ።",
-  "@purchaseErrorMissingReceipt": {
-    "description": "購入情報が見つからない場合のエラーメッセージ",
-    "placeholders": {
-      "accountName": {
-        "type": "String",
-        "example": "Apple ID"
-      }
-    }
-  },
   "purchaseErrorNetwork": "መርምሮች በተቀየሩ ገንዘብ እድል እንዳለ ይመርምሩ። ለመጨረሻ ለእቅፍ ይሞክሩ።",
-  "@purchaseErrorNetwork": {
-    "description": "ネットワークエラーの場合のエラーメッセージ"
-  },
   "purchaseNotAllowed": "ይህ የመሣሪያ ላይ ግዢ መፈቀድ የተከለከለ አይደለም",
-  "@purchaseNotAllowed": {
-    "description": "デバイスでの購入が許可されていない場合のエラーメッセージ"
-  },
   "purchaseErrorInvalidCredentials": "ውድ ግዜ ተወውቀው ይሞክሩ። የግዢ ቅርጷት የተላከ ይቅርታ። ይህ ቅርጷው አካል በተጓዙ እና እንደገና እንደ ተደረገ ይሰማኙ። ኣንዳንድ ዝግባ እንደሆነ ፍጥነት እንዲዉለው። ዝምድን በላይ ምዕንቱች ጥናት ይሰፍን ድህዩ ተወላጅ ወተይቅዋትን ገቝት ይህ ይኖር ወንደን ተቀባ ይወድድ ይህ {message} ቅድም በነጥብ የኔትርክ የ኉ሌዪ ብላዋ ሳይለወድር እንዳወኝ።",
-  "@purchaseErrorInvalidCredentials": {
-    "description": "認証情報が無効な場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorUnexpectedBackend": "አሁን ግዢ ይሰርዮናል። እባኮትን ጊዜ ይወጣና ዳግመ ይሞክሩ። እንዲያውም አስቸኳይ አይሆን እንደገና ይጠይቁ እንደ {message} ይችላሉ።",
-  "@purchaseErrorUnexpectedBackend": {
-    "description": "バックエンドで予期せぬエラーが発生した場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorOperationInProgress": "የግዥ ሂደት በተለይ ቀጥመዋል። እባኮትን አንድ ጊዜ ይታይ ይመልከቱ እንደ ቀድሞ ይወዳድሩ።",
-  "@purchaseErrorOperationInProgress": {
-    "description": "購入処理が既に進行中の場合のエラーメッセージ"
-  },
   "purchaseErrorPaymentPending": "እቅፍ ይቆሞታል። በምንጩ {accountName} የተመዘገበውን {storeName} ይወቅ።",
-  "@purchaseErrorPaymentPending": {
-    "description": "支払いが保留中の場合のエラーメッセージ",
-    "placeholders": {
-      "accountName": {
-        "type": "String",
-        "example": "Apple ID"
-      },
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "premiumUserThanksTitle": "ፕሪምየም አባል ነው",
-  "@premiumUserThanksTitle": {
-    "description": "プレミアムユーザーへの感謝を示すタイトル"
-  },
   "premiumUserThanksMessage": "እናመሰግናለን በእርግጥ የMedicalarm አውጪ ማስተናገድ ለማጽናት እንደምን እንደምታምሩን ተመለከት",
-  "@premiumUserThanksMessage": {
-    "description": "プレミアムユーザーへの感謝メッセージ"
-  },
   "premiumPricePerMonth": "({price}/ወር)",
-  "@premiumPricePerMonth": {
-    "description": "月額料金の表示フォーマット",
-    "placeholders": {
-      "price": {
-        "type": "String",
-        "example": "¥500"
-      }
-    }
-  },
   "premiumCancelDescription": "• ግዥ በኋላ፣ የእቃ መለወጥ መስፈርት በ{storeName} አፕ አካውንት ማቅረብ ላይ ይቀጥላል። (ከዚህ በተለያዩ መንገዶች እዚህ ቀጥለት ይቀጥላል አለመፈጠር)።",
-  "@premiumCancelDescription": {
-    "description": "プレミアムプランの解約方法の説明",
-    "placeholders": {
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "purchaseErrorRestoreFailed": "እቅፍ ግድብ መረጃ የተቀናበረ አለም ይገኛል። እባክዎን ወደ እንግዴ ክፍል ይመለከቱ እና እባክዎን ይሞክሩ።",
-  "@purchaseErrorRestoreFailed": {
-    "description": "購入情報の復元に失敗した場合のエラーメッセージ"
-  },
   "purchaseErrorUserNotFound": "እቅፍ ይላል የተጠቃሚው ይፈግር አይቻልም። እባኮትን ፕሮግራም ይቀይሩና ይሞክሩት አንደኡ። ዝርዝር: {message}",
-  "@purchaseErrorUserNotFound": {
-    "description": "ユーザーが見つからない場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorActivationPending": "ንብረት ማስተካከያ አልተጠቃለም። ጥቂት ጊዜ በኋላ ይመለከቱ እባኮት።",
-  "@purchaseErrorActivationPending": {
-    "description": "課金の有効化が完了していない場合のエラーメッセージ"
-  },
   "purchaseErrorTimeout": "መውደቅ ሆኖ እንዲሁ ይደግፍ። የኮምፒዩተር አንድ እድል፣ እባክህ አንድ ምንጭ ይመለከቱ እና ይደጋግስ ይዞሉ። ከዚያ በሁለተኛ ይሞክሩ እባክህ። የተገኘውን ደግሞ ያስቀድሞ የአዘና ደረሰኝ በማድረግ እንዲሁም እባክህ ዝርዝሩን ይመልከቱ። ዝርዝር: {message}",
-  "@purchaseErrorTimeout": {
-    "description": "購入処理がタイムアウトした場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorNetworkError": "የመረጃ መስመር ችግር አለ። እባኮትን የመረጃ ሁኔታዎን ያረጋግጡ እና እንደገና ይሞክሩ። አልተፈታም ከሆነ በቅንብር > ጥያቄ ይገኙ። ዝርዝር: {message}",
-  "@purchaseErrorNetworkError": {
-    "description": "ネットワークエラーが発生した場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "sixMonthPlan": "6 ወር እቅድ",
-  "@sixMonthPlan": {
-    "description": "6ヶ月プランの表示名"
-  },
   "premiumContractPeriod": "ኮንትራት ወቅት ከግዢ ቀን 1 ወር ነው።",
-  "@premiumContractPeriod": {
-    "description": "プレミアムプランの契約期間の説明"
-  },
   "privacyPolicy": "የግል ፖሊሲ",
-  "@privacyPolicy": {
-    "description": "プライバシーポリシーのリンクテキスト"
-  },
   "termsOfService": "መጠቀም ይወዳድር",
-  "@termsOfService": {
-    "description": "利用規約のリンクテキスト"
-  },
   "specifiedCommercialTransactionAct": "የተለያዩ የንግድ ሥርዓቶች መረጃ መታወቂያ",
-  "@specifiedCommercialTransactionAct": {
-    "description": "特定商取引法に基づく表記のリンクテキスト"
-  },
   "confirmBeforeRegistration": "እባክዎ ያሳምኑ እና ይመዘገቡ",
-  "@confirmBeforeRegistration": {
-    "description": "各種規約確認を促すメッセージ"
-  },
   "autoRenewalNotice": "ኮነር ወር ወይና ወንበር ማለት ነው።",
-  "@autoRenewalNotice": {
-    "description": "自動更新に関する注意事項"
-  },
   "restorePurchase": "ከዚህ በፊት ገንዘብ ያዝነው እባኮትን ይመልሱ",
-  "@restorePurchase": {
-    "description": "購入情報の復元リンクのテキスト"
-  },
   "purchaseRestored": "የግዥ መረጃ ተዳዳሪ ተመልሷል",
-  "@purchaseRestored": {
-    "description": "購入情報の復元が完了した際のメッセージ"
-  },
   "medicationTimeFollowup": "መውጣት ሰዓት የመከታቻ ዝርዝር",
-  "@medicationTimeFollowup": {
-    "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
-  },
   "updateRequired": "አውርድ አለባት",
-  "@updateRequired": {
-    "description": "強制アップデートが必要な場合のダイアログタイトル"
-  },
   "updateRequiredMessage": "እቅፍ አውታረ ድር {storeName} ወደ ምርጥ አማራጭ ይቀይሩ።",
-  "@updateRequiredMessage": {
-    "description": "強制アップデートが必要な場合のダイアログメッセージ",
-    "placeholders": {
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "screenshotMedicationHistoriesMemo": "በማለዳ በጣም የተቀመጥኩ ስለዚህ አይተማር ዝውውም ማድረግ አለብኝ",
-  "@screenshotMedicationHistoriesMemo": {
-    "description": "薬のメモの例"
-  },
   "screenshotMedicationDoserReceiver1": "እንደዚህ ያለው የመዋቅር ተገንቢ ይመለከታል",
-  "@screenshotMedicationDoserReceiver1": {
-    "description": "薬の服用者の例"
-  },
   "screenshotMedicationDoserReceiver2": "ማና ቻን",
-  "@screenshotMedicationDoserReceiver2": {
-    "description": "薬の服用者の例"
-  },
   "screenshotMedicationQuontityMemo1": "1 አንድ",
-  "@screenshotMedicationQuontityMemo1": {
-    "description": "薬の服用量の例"
-  },
   "screenshotMedicationQuontityMemo2": "2 በትርዓት",
-  "@screenshotMedicationQuontityMemo2": {
-    "description": "薬の服用量の例"
-  },
   "screenshotMedicationName1": "የጭንቀት መድሃኒት",
-  "@screenshotMedicationName1": {
-    "description": "薬の名前の例"
-  },
   "screenshotMedicationName2": "መሪዎች",
-  "@screenshotMedicationName2": {
-    "description": "薬の名前の例"
-  },
   "notificationTitle": "የመድሃኒታት ሰዓታት ነው",
-  "@notificationTitle": {
-    "description": "薬の通知のタイトル"
-  },
   "notificationFollowupTitle": "እባኮትን የመድኃኒት እንዲወሰን በታች ላይ የተገኙትን ምስክር እባክዎን ይመልከቱ? እባክዎን ይረዳው!",
-  "@notificationFollowupTitle": {
-    "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
-  },
   "recommendedApp": "የሚመከር 애플리케이션",
-  "@recommendedApp": {
-    "description": "おすすめアプリのタイトル"
-  },
   "pilllIntroduction": "የመነሻ እና ማቀናበሪያ ይኖሩበት ነው? የእንቅልፍ ቁልጣላችሁን ቀላል እንዲኖር ወይም ወይም ተጋባብር ትኬትን ይቀበሉ!",
-  "@pilllIntroduction": {
-    "description": "ピルの管理の紹介"
-  },
   "installPilll": "Pilll እንዲጭነቅ ይጫኑ",
-  "@installPilll": {
-    "description": "Pilllをインストールするボタンのテキスト"
-  },
-  "criticalAlertVolume": "ድምፅ ያማል",
-  "@criticalAlertVolume": {
-    "description": "緊急通知の音量の表示名"
-  }
+  "criticalAlertVolume": "ድምፅ ያማል"
 }

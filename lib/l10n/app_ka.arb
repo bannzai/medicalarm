@@ -1,783 +1,158 @@
 {
   "@@locale": "ka",
   "retry": "აერტად მოსმენა",
-  "@retry": {
-    "description": "エラーが発生した際やデータの読み込みに失敗した際に、再度処理を実行するためのボタンテキスト"
-  },
   "save": "შენახვა",
-  "@save": {
-    "description": "フォームやエディタで入力したデータを保存する際に使用するボタンテキスト"
-  },
   "memo": "მოახსენე",
-  "@memo": {
-    "description": "服薬記録や日記などで追加情報を入力するためのテキストフィールドのプレースホルダー"
-  },
   "completed": "დასრულდა",
-  "@completed": {
-    "description": "フォームの入力や設定の変更などの操作が完了した際に使用するボタンテキスト"
-  },
   "medicineRegistration": "მედიკამენტების რეგისტრაციის ეკრანი",
-  "@medicineRegistration": {
-    "description": "お薬の新規登録・編集画面のタイトル"
-  },
   "medicineName": "წამლის სახელი",
-  "@medicineName": {
-    "description": "お薬登録フォームでの薬の名前を入力するフィールドのプレースホルダー"
-  },
   "medicineList": "მედიკამენტების სიაზე",
-  "@medicineList": {
-    "description": "登録されているお薬の一覧を表示する画面のタイトル"
-  },
   "medicationSchedule": "მკურნალობის განრიგი",
-  "@medicationSchedule": {
-    "description": "服用スケジュールのセクションタイトル"
-  },
   "medicationTime": "ᲡᲕᲐᲓᲔᲑᲐᲒᲔᲓᲘ ᲐᲜᲐᲛᲒᲘ ᲘᲓᲝᲓᲐᲚᲘ",
-  "@medicationTime": {
-    "description": "服用時刻の通知設定を有効にするためのスイッチのラベル"
-  },
   "medicationTimeDescription": "შეტყობინებებს გაგზავნის მიღების საათებზე დაყრდნობით",
-  "@medicationTimeDescription": {
-    "description": "服用時刻の通知設定の説明文"
-  },
   "close": "დახურვა",
-  "@close": {
-    "description": "ダイアログやモーダルを閉じるためのボタンテキスト"
-  },
   "settings": "მიუნდო",
-  "@settings": {
-    "description": "設定画面のタイトル"
-  },
   "camera": "კამერა",
-  "@camera": {
-    "description": "カメラを起動するためのメニュー項目"
-  },
   "photoLibrary": "ფოტო ბიბლიოთეკა",
-  "@photoLibrary": {
-    "description": "フォトライブラリを開くためのメニュー項目"
-  },
   "medicationHistory": "გახსოვების ისტორია",
-  "@medicationHistory": {
-    "description": "服薬履歴を表示する画面のタイトル"
-  },
   "noMedicationHistory": "არ არის წამლის მიღების ისტორია",
-  "@noMedicationHistory": {
-    "description": "服薬履歴が存在しない場合に表示するメッセージ"
-  },
   "scheduledTime": "დაცხრომის დრო",
-  "@scheduledTime": {
-    "description": "服薬予定時刻のラベル"
-  },
   "recordedTime": "რეგისტრაციის დრო",
-  "@recordedTime": {
-    "description": "実際に服薬を記録した時間のラベル"
-  },
   "noMemo": "შენიშვნა არ არის",
-  "@noMemo": {
-    "description": "メモが存在しない場合に表示するテキスト"
-  },
   "premiumPlan": "პრემიუმი ჩანაწერი",
-  "@premiumPlan": {
-    "description": "プレミアムプランの名称"
-  },
   "premiumFeatureAds": "реклама აღარ გამოჩნდება",
-  "@premiumFeatureAds": {
-    "description": "プレミアム機能の広告非表示の説明"
-  },
   "premiumFeatureHistory": "ყველა მიღების ისტორიის ჩვენება",
-  "@premiumFeatureHistory": {
-    "description": "プレミアム機能の履歴表示の説明"
-  },
   "premiumRegistrationComplete": "Medicalarm პრემიაუდან რეგისტრირებაზე წარმატებით!",
-  "@premiumRegistrationComplete": {
-    "description": "プレミアム登録完了時のタイトル"
-  },
   "premiumRegistrationThanks": "გმადლობთ რეგისტრაციისთვის.\nყველა ფუნქცია ხელმისაწვდომია!",
-  "@premiumRegistrationThanks": {
-    "description": "プレミアム登録完了時のメッセージ"
-  },
   "unknownError": "აღიარებული შეცდომა მოხდა",
-  "@unknownError": {
-    "description": "予期せぬエラーが発生した際のエラーメッセージ"
-  },
   "error": "შეცდომა მოხდა",
-  "@error": {
-    "description": "一般的なエラーメッセージ"
-  },
   "unexpectedError": "მოლოდინგარეშე შეცდომა მოხდა",
-  "@unexpectedError": {
-    "description": "予期せぬエラーが発生した際のエラーメッセージ"
-  },
   "cancel": "შეჩერება",
-  "@cancel": {
-    "description": "操作をキャンセルするためのボタンテキスト"
-  },
   "delete": "წაშლა",
-  "@delete": {
-    "description": "削除操作を実行するためのボタンテキスト"
-  },
   "deleteAccount": "შედეგად აკაუნტის წაშლა",
-  "@deleteAccount": {
-    "description": "アカウント削除ボタンのテキスト"
-  },
   "deleteAccountConfirm": "მომხმარებლის ინფორმაციის წაშლა",
-  "@deleteAccountConfirm": {
-    "description": "アカウント削除確認ダイアログのタイトル"
-  },
   "deleteAccountMessage": "თუ თქვენ წაშლით ანგარიშს, ყველა მომხმარებლის ინფორმაცია წაიშლება.",
-  "@deleteAccountMessage": {
-    "description": "アカウント削除確認ダイアログのメッセージ"
-  },
   "medicationFrequency": "გავლენის სიხშირე",
-  "@medicationFrequency": {
-    "description": "服用頻度の設定セクションのタイトル"
-  },
   "daily": "ყოველ დღე",
-  "@daily": {
-    "description": "毎日服用する頻度設定"
-  },
   "everyXDays": "X ימים",
-  "@everyXDays": {
-    "description": "X日ごとに服用する頻度設定"
-  },
   "specificWeekdays": "특정 요일",
-  "@specificWeekdays": {
-    "description": "特定の曜日に服用する頻度設定"
-  },
   "cycle": "周期",
-  "@cycle": {
-    "description": "周期で服用する頻度設定"
-  },
   "cycleDescription": "მაგალითი) 21 დღის განმავლობაში მიღება/7 დღის განმავლობაში შესვენება",
-  "@cycleDescription": {
-    "description": "周期での服用頻度の説明文"
-  },
   "everyXDaysDescription": "მაგალითად) 2 დღეში ერთხელ, 3 დღეში ერთხელ",
-  "@everyXDaysDescription": {
-    "description": "X日ごとの服用頻度の説明文"
-  },
   "specificWeekdaysDescription": "მაგალითად) მხოლოდ ორშაბათი, ოთხშაბათისა და პარასკევის",
-  "@specificWeekdaysDescription": {
-    "description": "特定の曜日の服用頻度の説明文"
-  },
   "medicineFormValidationError": "გთხოვთ შეიყვანოთ სახელი და მედიკამენტების გამოყენების განრიგი.",
-  "@medicineFormValidationError": {
-    "description": "お薬登録フォームでの入力バリデーションエラーメッセージ"
-  },
   "quantity": "ტევადობა",
-  "@quantity": {
-    "description": "服用量を入力するフィールドのラベル"
-  },
   "quantityExample": "მაგ: 1 ტაბლეტი, 100მგ",
-  "@quantityExample": {
-    "description": "服用量入力フィールドのプレースホルダー"
-  },
   "medicationStartDate": "მკურნალობის დაწყების თარიღი",
-  "@medicationStartDate": {
-    "description": "服用開始日を選択するフィールドのラベル"
-  },
   "otherInformation": "სხვა",
-  "@otherInformation": {
-    "description": "その他の情報を入力するセクションのタイトル"
-  },
   "doseReceiver": "მიმართვის მფლობელი",
-  "@doseReceiver": {
-    "description": "服用者を選択するフィールドのラベル"
-  },
   "defaultDoseReceiver": "ჩემი",
-  "@defaultDoseReceiver": {
-    "description": "デフォルトの服用者名"
-  },
   "doseReceiverMaxCount": "მკურნალების რეგისტრირებული最大 {count} ადამიანამდე შეიძლება",
-  "@doseReceiverMaxCount": {
-    "description": "服用者の最大登録数を表示するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "2"
-      }
-    }
-  },
   "increaseLimitWithPremium": "პრემიუმ გეგმით ლიმიტის ზრდა {count} მდე",
-  "@increaseLimitWithPremium": {
-    "description": "プレミアムプランでの上限増加を案内するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "10"
-      }
-    }
-  },
   "addDoseReceiver": "გამხდელის დამატება",
-  "@addDoseReceiver": {
-    "description": "服用者を追加するボタンのテキスト"
-  },
   "newDoseReceiver": "ახალი მიმწვდელი",
-  "@newDoseReceiver": {
-    "description": "新規追加時のデフォルトの服用者名"
-  },
   "reloginRequired": "გთხოვთ თავიდან შეხვიდეთ",
-  "@reloginRequired": {
-    "description": "アカウント削除時に再ログインが必要な場合のダイアログタイトル"
-  },
   "reloginMessage": "თქვენი ანგარიშის წაშლისთვის, გადააკეთეთ შესვლა.",
-  "@reloginMessage": {
-    "description": "アカウント削除時の再ログイン要求メッセージ"
-  },
   "relogin": " ხელახლა შესვლა",
-  "@relogin": {
-    "description": "再ログインを実行するためのボタンテキスト"
-  },
   "accountDeleted": "თქვენი ანგარიში წაიშალა.",
-  "@accountDeleted": {
-    "description": "アカウント削除完了時のメッセージ"
-  },
   "confirmExit": "გსურთ აპლიკაციის დახურვა?",
-  "@confirmExit": {
-    "description": "アプリ終了確認のメッセージ"
-  },
   "exit": "დასრულება",
-  "@exit": {
-    "description": "アプリを終了するためのボタンテキスト"
-  },
   "viewFaq": "ხშირად დასმული კითხვების ნახვა",
-  "@viewFaq": {
-    "description": "FAQページを表示するためのボタンテキスト"
-  },
   "medicine": "მედიკამენტი",
-  "@medicine": {
-    "description": "お薬タブのタイトル"
-  },
   "inquiry": "კონტაქტი",
-  "@inquiry": {
-    "description": "お問い合わせボタンのテキスト"
-  },
   "ok": "კარგი",
-  "@ok": {
-    "description": "確認ダイアログのOKボタンのテキスト"
-  },
   "medicationScheduleLimit": "გახსოვდეს, რომ თქვენ შეგიძლიათ რეგისტრიროთ შეწვდომის განრიგი {count} ჯერ.",
-  "@medicationScheduleLimit": {
-    "description": "服用スケジュールの登録上限を表示するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "3"
-      }
-    }
-  },
   "increaseMedicationScheduleLimit": "პრემიუმ გეგმაში ლიმიტის გაზრდა {count}-ზე",
-  "@increaseMedicationScheduleLimit": {
-    "description": "服用スケジュールの上限をプレミアムプランで増やすことを案内するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "10"
-      }
-    }
-  },
   "addMedicationSchedule": "მედიკამენტების გრაფიკის დამატება",
-  "@addMedicationSchedule": {
-    "description": "服用スケジュールを追加するボタンのテキスト"
-  },
   "medicationScheduleNotificationSetting": "მკურნალობის განრიგის შეტყობინების პარამეტრები",
-  "@medicationScheduleNotificationSetting": {
-    "description": "服用スケジュールの通知設定画面のタイトル"
-  },
   "notificationSetting": "შეტყობინების პარამეტრები",
-  "@notificationSetting": {
-    "description": "通知設定セクションのタイトル"
-  },
   "enableFollowupNotification": "შეფასების შეტყობინების აქტივაცია",
-  "@enableFollowupNotification": {
-    "description": "フォローアップ通知を有効にするスイッチのラベル"
-  },
   "followupNotificationDescription": "თუ პირველ შეტყობინებამდე 30 წუთი არ გაქვთ წამლის რეგისტრირებული, გაგზავნილ იქნება შემდგომი შეტყობინება.",
-  "@followupNotificationDescription": {
-    "description": "フォローアップ通知の説明文"
-  },
   "enableNotificationInSilentMode": "ცSilent რეჟიმშიც შეტყობინება",
-  "@enableNotificationInSilentMode": {
-    "description": "マナーモード時の通知を有効にするスイッチのラベル"
-  },
   "silentModeNotificationDescription": "კონცენტრაციის რეჟიმი ჩართული ყოფნისას ან მოწყობილობამ ხმამაღლა მიღებას, კრიტიკული შეტყობინებები ლოქ ინტერეფეისზე გამოჩნდება, ხოლო ზარები დაიწერება.",
-  "@silentModeNotificationDescription": {
-    "description": "マナーモード時の通知の説明文"
-  },
   "everyXDaysFormat": "{count} დღის საფუძველზე",
-  "@everyXDaysFormat": {
-    "description": "X日ごとの服用頻度を表示する際のフォーマット",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "2"
-      }
-    }
-  },
   "cycleDaysFormat": "{consecutiveDays} დღის მიღება/{restDays} დღის შესვენება",
-  "@cycleDaysFormat": {
-    "description": "服用周期を表示する際のフォーマット",
-    "placeholders": {
-      "consecutiveDays": {
-        "type": "int",
-        "example": "21"
-      },
-      "restDays": {
-        "type": "int",
-        "example": "7"
-      }
-    }
-  },
   "consecutiveDaysFormat": "{count} დღის აღების",
-  "@consecutiveDaysFormat": {
-    "description": "連続服用日数を表示する際のフォーマット",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "21"
-      }
-    }
-  },
   "restDaysFormat": "{count} დღის განმავლობაში მედიკამენტების მიღება შეწყვეტილია",
-  "@restDaysFormat": {
-    "description": "休薬日数を表示する際のフォーマット",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "7"
-      }
-    }
-  },
   "limitedTimeDiscount": "ახლა შეზღუდული ფასით შეგიძლიათ გამოიყენოთ მუდმივად",
-  "@limitedTimeDiscount": {
-    "description": "プレミアムプランの限定価格キャンペーンを案内するメッセージ"
-  },
   "monthlyPlan": "მოსაკრებელი გეგმა",
-  "@monthlyPlan": {
-    "description": "月額プランの名称"
-  },
   "annualPlan": "წელიურად გამოწერა",
-  "@annualPlan": {
-    "description": "年額プランの名称"
-  },
   "weeklyPlan": "კვირის გეგმა",
-  "@weeklyPlan": {
-    "description": "週額プランの名称"
-  },
   "premiumRequired": "ადამიანის დახმარების პროგრამაში დასაწერად საჭიროება პრემიალური დაგეგმარების რეგისტრაციის განსაზღვრით",
-  "@premiumRequired": {
-    "description": "プレミアムプラン加入が必要な機能へのアクセス時のメッセージ"
-  },
   "medication": "მედიკამენტების მიღება",
-  "@medication": {
-    "description": "服薬タブのタイトル"
-  },
   "history": "ისტორია",
-  "@history": {
-    "description": "履歴タブのタイトル"
-  },
+  "calendar": "კალენდარი",
   "medicineRegistrationLimit": "წამლის რეგისტრაციის რაოდენობა",
-  "@medicineRegistrationLimit": {
-    "description": "薬の登録数の上限を説明するテキストの一部"
-  },
   "doseReceiverRegistrationLimit": "წამლებს მომხმარებლების რეგისტრირებულ რაოდენობას",
-  "@doseReceiverRegistrationLimit": {
-    "description": "服用者の登録数の上限を説明するテキストの一部"
-  },
   "notificationScheduleLimit": "შეტყობინების განრიგის რაოდენობა",
-  "@notificationScheduleLimit": {
-    "description": "通知スケジュールの上限を説明するテキストの一部"
-  },
   "addMedicine": "საშუალების დამატება",
-  "@addMedicine": {
-    "description": "お薬を追加するボタンのテキスト"
-  },
   "medicineMaxCount": "წ薬ები შეგიძლიათ რეგისტრირდეთ {count} ცალამდე.",
-  "@medicineMaxCount": {
-    "description": "お薬の最大登録数を表示するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "5"
-      }
-    }
-  },
   "increaseMedicineLimitWithPremium": "პრემიუმ გეგმით ზღვარი გაზარდეთ {count} მარშრუტზე.",
-  "@increaseMedicineLimitWithPremium": {
-    "description": "お薬の登録上限をプレミアムプランで増やすことを案内するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "10"
-      }
-    }
-  },
   "aboutApp": "წარმოგიდგენთ აპლიკაციას",
-  "@aboutApp": {
-    "description": "アプリについてのセクションタイトル"
-  },
   "viewPremiumPlan": "პრემიუმ გეგმას შეხედეთ",
-  "@viewPremiumPlan": {
-    "description": "プレミアムプランの詳細を表示するためのボタンテキスト"
-  },
   "cancelSubscriptionInstruction": "შიძინთქავთ მისი გაწვდილიებას, ავტომატური განახლების გაწვდილიება შეგიძლიათ {storeName} აპლიკაციის ანგარიშის პარამეტრებში. (აპლიკაციიდან ავტომატური განახლებების გაწვდილიება არ შეიძლება).",
-  "@cancelSubscriptionInstruction": {
-    "description": "自動更新の解約方法の説明",
-    "placeholders": {
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "headache": "თავის ტკივილი",
-  "@headache": {
-    "description": "症状の選択肢：頭痛"
-  },
   "stomachache": "ღვიძები",
-  "@stomachache": {
-    "description": "症状の選択肢：腹痛"
-  },
   "nausea": "წამლის მომხვდურობა",
-  "@nausea": {
-    "description": "症状の選択肢：吐き気"
-  },
   "anemia": "ანემია",
-  "@anemia": {
-    "description": "症状の選択肢：貧血"
-  },
   "diarrhea": "დირეა",
-  "@diarrhea": {
-    "description": "症状の選択肢：下痢"
-  },
   "constipation": "დეფიციტი",
-  "@constipation": {
-    "description": "症状の選択肢：便秘"
-  },
   "hotFlash": "ცხელება",
-  "@hotFlash": {
-    "description": "症状の選択肢：ほてり"
-  },
   "drowsiness": "დედუქება",
-  "@drowsiness": {
-    "description": "症状の選択肢：眠気"
-  },
   "backPain": "PEP",
-  "@backPain": {
-    "description": "症状の選択肢：腰痛"
-  },
   "palpitation": "გულ Palpitations",
-  "@palpitation": {
-    "description": "症状の選択肢：動悸"
-  },
   "abnormalBleeding": "არანორმალური სისხლდენა",
-  "@abnormalBleeding": {
-    "description": "症状の選択肢：不正出血"
-  },
   "lossOfAppetite": "ჭამაზე უინტერესო",
-  "@lossOfAppetite": {
-    "description": "症状の選択肢：食欲不振"
-  },
   "chestTightness": "ცემლის იმყოფება",
-  "@chestTightness": {
-    "description": "症状の選択肢：胸の張り"
-  },
   "insomnia": "შესაძლებელია",
-  "@insomnia": {
-    "description": "症状の選択肢：不眠"
-  },
   "monthlyPlanDiscountFormat": "თვეში {percent}% ჩათვლით",
-  "@monthlyPlanDiscountFormat": {
-    "description": "月額プランからの割引率を表示するフォーマット",
-    "placeholders": {
-      "percent": {
-        "type": "int",
-        "example": "50"
-      }
-    }
-  },
   "purchaseErrorUnknown": "ვერ დაზუსტებული შეცდომა მოხდა. გთხოვთ შეჩერება და ხელახლა სცადოთ. თუ პრობლემა არ გადაჭრილა, დააჭირეთ პარამეტრი >問い合わせ  და დაგვიკავშირდით. დეტალები: {message}",
-  "@purchaseErrorUnknown": {
-    "description": "購入時の不明なエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorStoreProblem": "{storeName}-ში შეცდომა მოხდა. გთხოვთ, ცოტა ხანი დაელოდოთ და სცადოთ კვლავ.",
-  "@purchaseErrorStoreProblem": {
-    "description": "ストアでのエラーメッセージ",
-    "placeholders": {
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "purchaseErrorInvalidPayment": "გადახდამ ჩაშალა. გთხოვთ გაიგოთ, არის თუ არა მოქმედი გადახდის მეთოდი და სცადეთ ისევ.",
-  "@purchaseErrorInvalidPayment": {
-    "description": "支払い方法が無効な場合のエラーメッセージ"
-  },
   "purchaseErrorProductUnavailable": "შერჩეული გეგმა ამჟამად ხელმისაწვდომი არაა. გთხოვთ, კვლავ სცადოთ აპლიკაციის გადატვირთვის შემდეგ.",
-  "@purchaseErrorProductUnavailable": {
-    "description": "商品が利用できない場合のエラーメッセージ"
-  },
   "purchaseErrorAlreadyPurchased": "თქვენ უკვე შეიძინეთ გეგმა. თუ ამ მოწყობილობაზე შეძენილი ინფორმაციის აღდგენა გსურთ, გამოიძახეთ „თუ ადრე შეიძინეთ, დააკლიკეთ აქ“.",
-  "@purchaseErrorAlreadyPurchased": {
-    "description": "すでに購入済みの場合のエラーメッセージ"
-  },
   "purchaseErrorReceiptInUse": "წAlready purchased. The purchase information is being used by another user. Please check {accountName}.",
-  "@purchaseErrorReceiptInUse": {
-    "description": "購入情報が他のユーザーで使用されている場合のエラーメッセージ",
-    "placeholders": {
-      "accountName": {
-        "type": "String",
-        "example": "Apple ID"
-      }
-    }
-  },
   "purchaseErrorInvalidReceipt": "არასწორი შემოსავლის ინფორმაციაა. გთხოვთ, გადაამოწმოთ შემოსავლის ინფორმაცია.",
-  "@purchaseErrorInvalidReceipt": {
-    "description": "購入情報が無効な場合のエラーメッセージ"
-  },
   "purchaseErrorMissingReceipt": "ძალიან გთხოვთ, რომ შეიტანოთ მონაცემები. იმარჯვისთვის საჭიროა, რომ შეწვდოთ {accountName} ანგარიშზე.",
-  "@purchaseErrorMissingReceipt": {
-    "description": "購入情報が見つからない場合のエラーメッセージ",
-    "placeholders": {
-      "accountName": {
-        "type": "String",
-        "example": "Apple ID"
-      }
-    }
-  },
   "purchaseErrorNetwork": "რამგებიანი ქსელის მდგომარეობა. დაადასტურეთ კავშირის სტატუსი და თავიდან სცადეთ.",
-  "@purchaseErrorNetwork": {
-    "description": "ネットワークエラーの場合のエラーメッセージ"
-  },
   "purchaseNotAllowed": "ეს მოწყობილობით შეძენა დაუშვებელია",
-  "@purchaseNotAllowed": {
-    "description": "デバイスでの購入が許可されていない場合のエラーメッセージ"
-  },
   "purchaseErrorInvalidCredentials": "ყიდვა ვერ მოხერხდა. გთხოვთ გამოიცადოთ ცოტა ხნის შემდეგ კიდევ ერთხელ. თუ ეს ვერაგება ვერ გადაიჭრება, გთხოვთ მოგვმართოთ პარამეტრები > კომუნიკაცია. დეტალები: {message}",
-  "@purchaseErrorInvalidCredentials": {
-    "description": "認証情報が無効な場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorUnexpectedBackend": "ამჟამად შეძენა ვერ ხერხდება. გთხოვთ დროით გადაიზარდოთ და კიდევ ერთხელ სცადოთ. თუ პრობლემა არ მოგვარდება, დააკლიკეთ პარამეტრები > კონტაქტი, რათა დაგვიკავშირდეთ. დეტალები: {message}",
-  "@purchaseErrorUnexpectedBackend": {
-    "description": "バックエンドで予期せぬエラーが発生した場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorOperationInProgress": "შეკვეთის გადახდის პროცესი ცალკე გრძელდება. გთხოვთ დრო მიიღოთ და კვლავ შეამოწმოთ.",
-  "@purchaseErrorOperationInProgress": {
-    "description": "購入処理が既に進行中の場合のエラーメッセージ"
-  },
   "purchaseErrorInsufficientPermissions": "თქვენი {accountName} არ იძლევა უნდა გააქტიუროთ პაკეტი. გთხოვთ გადახედოთ გადახდის ინფორმაციას და ხელახლა სცადეთ.",
-  "@purchaseErrorInsufficientPermissions": {
-    "description": "権限が不足している場合のエラーメッセージ",
-    "placeholders": {
-      "accountName": {
-        "type": "String",
-        "example": "Apple ID"
-      }
-    }
-  },
   "purchaseErrorPaymentPending": "გადახდა შეჩერებულია. გთხოვთ გადაამოწმოთ {storeName} თქვენი {accountName} ანგარიშით.",
-  "@purchaseErrorPaymentPending": {
-    "description": "支払いが保留中の場合のエラーメッセージ",
-    "placeholders": {
-      "accountName": {
-        "type": "String",
-        "example": "Apple ID"
-      },
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "premiumUserThanksTitle": "პრემიუმ წევრი ხართ",
-  "@premiumUserThanksTitle": {
-    "description": "プレミアムユーザーへの感謝を示すタイトル"
-  },
   "premiumUserThanksMessage": "მადლობთ, რომ იყენებთ ჩვენს აპლიკაციას. მადლობა თქვენ, ჩვენ შეგვიძლია განვაგრძოთ Medicalarm-ის მართვა.",
-  "@premiumUserThanksMessage": {
-    "description": "プレミアムユーザーへの感謝メッセージ"
-  },
   "premiumPricePerMonth": "({price}/თვეში)",
-  "@premiumPricePerMonth": {
-    "description": "月額料金の表示フォーマット",
-    "placeholders": {
-      "price": {
-        "type": "String",
-        "example": "¥500"
-      }
-    }
-  },
   "premiumCancelDescription": "• ყიდვის შემდეგ, თვითმხილველის ავტომატურად განახლების გაწყვეტა შეგიძლიათ {storeName} აპლიკაციის ანგარიში და დაბრუნების პარამეტრებში.(აპლიკაციის შიგნით თვითმხილველის ავტომატურად განახლების გაწყვეტა შეუძლებელია).",
-  "@premiumCancelDescription": {
-    "description": "プレミアムプランの解約方法の説明",
-    "placeholders": {
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "purchaseErrorRestoreFailed": "წინამორბედ მყიდველობის ინფორმაცია ვერ მოიძებნა. გამდინარე ანგარიშზე გადაამოწმეთ და ისევ სცადეთ.",
-  "@purchaseErrorRestoreFailed": {
-    "description": "購入情報の復元に失敗した場合のエラーメッセージ"
-  },
   "purchaseErrorUserNotFound": "მომხმარებელი ვერ მოიძებნა. გთხოვთ კვლავ სცადოთ აპლიკაციის ხელახლა პენტრანარით. დეტალები: {message}",
-  "@purchaseErrorUserNotFound": {
-    "description": "ユーザーが見つからない場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorActivationPending": "გადახდის აქტივაცია არ დასრულებულა. გთხოვთ, რამდენიმე ხნით შეამოწმოთ.",
-  "@purchaseErrorActivationPending": {
-    "description": "課金の有効化が完了していない場合のエラーメッセージ"
-  },
   "purchaseErrorTimeout": "დროით გასული დროა. დაადასტურეთ კომუნიკაციის გარემო და კვლავ სცადეთ. თუ პრობლემა არ მოგვარდება, მიმართეთ პარამეტრები > კითხვის დასმის გავლის მეშვეობით. დეტალები: {message}",
-  "@purchaseErrorTimeout": {
-    "description": "購入処理がタイムアウトした場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorNetworkError": "კავშირის დაკარგვაა. დაისკვათ თქვენი კავშირის გარემო და სცადეთ კიდევ ერთხელ. თუ პრობლემა არ მოგვარდება, შეგიძლიათ მიაწვდოთ ჩვენს დახმარებას სახეზე: პარამეტრები > გამოკითხვა. დეტალები: {message}",
-  "@purchaseErrorNetworkError": {
-    "description": "ネットワークエラーが発生した場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "sixMonthPlan": "6 თვეიანი გეგმა",
-  "@sixMonthPlan": {
-    "description": "6ヶ月プランの表示名"
-  },
   "premiumContractPeriod": "ხელშეკრულების ვადა შეძენის დღიდან 1 თვეა.",
-  "@premiumContractPeriod": {
-    "description": "プレミアムプランの契約期間の説明"
-  },
   "privacyPolicy": "პრივატულობის პოლიტიკა",
-  "@privacyPolicy": {
-    "description": "プライバシーポリシーのリンクテキスト"
-  },
   "termsOfService": "წესები",
-  "@termsOfService": {
-    "description": "利用規約のリンクテキスト"
-  },
   "specifiedCommercialTransactionAct": "სპეციფიური სავაჭრო გარიგების კანონის შესაბამისად წარმოდგენილი ინფორმაცია",
-  "@specifiedCommercialTransactionAct": {
-    "description": "特定商取引法に基づく表記のリンクテキスト"
-  },
   "confirmBeforeRegistration": "გთხოვთ გადავამოწმოთ და რეგისტრირდეთ",
-  "@confirmBeforeRegistration": {
-    "description": "各種規約確認を促すメッセージ"
-  },
   "autoRenewalNotice": "გაწვდილი ვადების გასვლის შემდეგ ავტომატურად განახლდება.",
-  "@autoRenewalNotice": {
-    "description": "自動更新に関する注意事項"
-  },
   "restorePurchase": "წარმოგიდგინებთ იმ მომხმარებლებს, ვინც ადრე შეიძინა",
-  "@restorePurchase": {
-    "description": "購入情報の復元リンクのテキスト"
-  },
   "purchaseRestored": "შExceptional ყიდვის ინფორმაცია აღდგენილი",
-  "@purchaseRestored": {
-    "description": "購入情報の復元が完了した際のメッセージ"
-  },
   "medicationTimeFollowup": "მკურნალობის დროის კვალი",
-  "@medicationTimeFollowup": {
-    "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
-  },
   "updateRequired": "გართული აწარმოებს",
-  "@updateRequired": {
-    "description": "強制アップデートが必要な場合のダイアログタイトル"
-  },
   "updateRequiredMessage": "განახლება საჭიროა {storeName}-დან.",
-  "@updateRequiredMessage": {
-    "description": "強制アップデートが必要な場合のダイアログメッセージ",
-    "placeholders": {
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "screenshotMedicationHistoriesMemo": "მოიწამლეთ, რომ გადამწყვეტი დროები დაგროვდეს",
-  "@screenshotMedicationHistoriesMemo": {
-    "description": "薬のメモの例"
-  },
   "screenshotMedicationDoserReceiver1": "ჩემი",
-  "@screenshotMedicationDoserReceiver1": {
-    "description": "薬の服用者の例"
-  },
   "screenshotMedicationDoserReceiver2": "მანაუა",
-  "@screenshotMedicationDoserReceiver2": {
-    "description": "薬の服用者の例"
-  },
   "screenshotMedicationQuontityMemo1": "1 ტაბლეტი",
-  "@screenshotMedicationQuontityMemo1": {
-    "description": "薬の服用量の例"
-  },
   "screenshotMedicationQuontityMemo2": "2 ცალი",
-  "@screenshotMedicationQuontityMemo2": {
-    "description": "薬の服用量の例"
-  },
   "screenshotMedicationName1": "თავზე მოცემული საშუალება",
-  "@screenshotMedicationName1": {
-    "description": "薬の名前の例"
-  },
   "screenshotMedicationName2": "ვიტამინის აბები",
-  "@screenshotMedicationName2": {
-    "description": "薬の名前の例"
-  },
   "notificationTitle": "ეს მედიკამენტების მიღების დროა",
-  "@notificationTitle": {
-    "description": "薬の通知のタイトル"
-  },
   "notificationFollowupTitle": "არ დამავიწყდება მედიკამენტების მიღების ჩანაწერის გაკეთება?",
-  "@notificationFollowupTitle": {
-    "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
-  },
   "recommendedApp": "გირჩევით აპლიკაციას",
-  "@recommendedApp": {
-    "description": "おすすめアプリのタイトル"
-  },
   "pilllIntroduction": "გთხოვთ, მიმართოთ მედიკამენტების მართვაზე? არ ჭირდებათ თქვენთვის უფრო მოსახერხებელი მედიკამენტების მიღების მართვა?",
-  "@pilllIntroduction": {
-    "description": "ピルの管理の紹介"
-  },
   "installPilll": "Pilll-ს ინსტალირება",
-  "@installPilll": {
-    "description": "Pilllをインストールするボタンのテキスト"
-  },
-  "criticalAlertVolume": "ხმაურის დონე",
-  "@criticalAlertVolume": {
-    "description": "緊急通知の音量の表示名"
-  }
+  "criticalAlertVolume": "ხმაურის დონე"
 }
