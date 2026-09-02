@@ -283,5 +283,6 @@
   "onboardingPlanResultGoalFormat": "Markmið: {goal}",
   "onboardingPlanDoseReceivers": "Sá sem tekur lyf",
   "onboardingPlanDailyReminders": "Daglegar áminningar",
-  "onboardingPlanMedicines": "Lyf til að hafa umsjón með"
+  "onboardingPlanMedicines": "Lyf til að hafa umsjón með",
+  "onboardingPlanCriticalAlert": "Critical Alert"
 }

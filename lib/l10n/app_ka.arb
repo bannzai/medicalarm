@@ -283,5 +283,6 @@
   "onboardingPlanResultGoalFormat": "მიზანი: {goal}",
   "onboardingPlanDoseReceivers": "ადამიანი, რომელიც წამალს იღებს",
   "onboardingPlanDailyReminders": "ყოველდღიური შეტყობინებები",
-  "onboardingPlanMedicines": "სამართავი მედიკამენტები"
+  "onboardingPlanMedicines": "სამართავი მედიკამენტები",
+  "onboardingPlanCriticalAlert": "Critical Alert"
 }

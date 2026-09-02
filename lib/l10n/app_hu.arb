@@ -283,5 +283,6 @@
   "onboardingPlanResultGoalFormat": "Cél: {goal}",
   "onboardingPlanDoseReceivers": "Gyógyszert szedő személy",
   "onboardingPlanDailyReminders": "Napi emlékeztetők",
-  "onboardingPlanMedicines": "Kezelendő gyógyszerek"
+  "onboardingPlanMedicines": "Kezelendő gyógyszerek",
+  "onboardingPlanCriticalAlert": "Critical Alert"
 }

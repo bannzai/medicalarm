@@ -283,5 +283,6 @@
   "onboardingPlanResultGoalFormat": "Layunin: {goal}",
   "onboardingPlanDoseReceivers": "Taong umiinom ng gamot",
   "onboardingPlanDailyReminders": "Mga pang-araw-araw na paalala",
-  "onboardingPlanMedicines": "Mga gamot na pamamahalaan"
+  "onboardingPlanMedicines": "Mga gamot na pamamahalaan",
+  "onboardingPlanCriticalAlert": "Critical Alert"
 }

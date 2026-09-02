@@ -283,5 +283,6 @@
   "onboardingPlanResultGoalFormat": "Цел: {goal}",
   "onboardingPlanDoseReceivers": "Приемащ лекарството",
   "onboardingPlanDailyReminders": "Дневни известия",
-  "onboardingPlanMedicines": "Лекарства за управление"
+  "onboardingPlanMedicines": "Лекарства за управление",
+  "onboardingPlanCriticalAlert": "Critical Alert"
 }

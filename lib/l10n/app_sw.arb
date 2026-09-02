@@ -283,5 +283,6 @@
   "onboardingPlanResultGoalFormat": "Lengo: {goal}",
   "onboardingPlanDoseReceivers": "Mtu anayekunywa dawa",
   "onboardingPlanDailyReminders": "Vikumbusho vya kila siku",
-  "onboardingPlanMedicines": "Dawa za kudhibiti"
+  "onboardingPlanMedicines": "Dawa za kudhibiti",
+  "onboardingPlanCriticalAlert": "Critical Alert"
 }

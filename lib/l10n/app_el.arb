@@ -283,5 +283,6 @@
   "onboardingPlanResultGoalFormat": "Στόχος: {goal}",
   "onboardingPlanDoseReceivers": "Άτομο που λαμβάνει φάρμακα",
   "onboardingPlanDailyReminders": "Καθημερινές υπενθυμίσεις",
-  "onboardingPlanMedicines": "Φάρμακα προς διαχείριση"
+  "onboardingPlanMedicines": "Φάρμακα προς διαχείριση",
+  "onboardingPlanCriticalAlert": "Critical Alert"
 }

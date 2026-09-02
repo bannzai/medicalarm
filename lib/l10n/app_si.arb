@@ -283,5 +283,6 @@
   "onboardingPlanResultGoalFormat": "ඉලක්කය: {goal}",
   "onboardingPlanDoseReceivers": "ඖෂධ ගන්නා පුද්ගලයා",
   "onboardingPlanDailyReminders": "දෛනික දැනුම්දීම්",
-  "onboardingPlanMedicines": "කළමනාකරණය කළ යුතු ඖෂධ"
+  "onboardingPlanMedicines": "කළමනාකරණය කළ යුතු ඖෂධ",
+  "onboardingPlanCriticalAlert": "Critical Alert"
 }

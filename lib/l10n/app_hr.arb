@@ -283,5 +283,6 @@
   "onboardingPlanResultGoalFormat": "Cilj: {goal}",
   "onboardingPlanDoseReceivers": "Osoba koja uzima lijek",
   "onboardingPlanDailyReminders": "Dnevne obavijesti",
-  "onboardingPlanMedicines": "Lijekovi za upravljanje"
+  "onboardingPlanMedicines": "Lijekovi za upravljanje",
+  "onboardingPlanCriticalAlert": "Critical Alert"
 }

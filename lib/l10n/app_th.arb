@@ -283,5 +283,6 @@
   "onboardingPlanResultGoalFormat": "เป้าหมาย: {goal}",
   "onboardingPlanDoseReceivers": "ผู้รับประทานยา",
   "onboardingPlanDailyReminders": "การแจ้งเตือนรายวัน",
-  "onboardingPlanMedicines": "ยาที่ต้องจัดการ"
+  "onboardingPlanMedicines": "ยาที่ต้องจัดการ",
+  "onboardingPlanCriticalAlert": "Critical Alert"
 }

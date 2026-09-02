@@ -283,5 +283,6 @@
   "onboardingPlanResultGoalFormat": "Նպատակ՝ {goal}",
   "onboardingPlanDoseReceivers": "Դեղորայք ընդունող անձ",
   "onboardingPlanDailyReminders": "Ամենօրյա հիշեցումներ",
-  "onboardingPlanMedicines": "Կառավարվող դեղեր"
+  "onboardingPlanMedicines": "Կառավարվող դեղեր",
+  "onboardingPlanCriticalAlert": "Critical Alert"
 }

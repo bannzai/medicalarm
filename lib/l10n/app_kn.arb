@@ -283,5 +283,6 @@
   "onboardingPlanResultGoalFormat": "ಗುರಿ: {goal}",
   "onboardingPlanDoseReceivers": "ಔಷಧಿ ತೆಗೆದುಕೊಳ್ಳುವ ವ್ಯಕ್ತಿ",
   "onboardingPlanDailyReminders": "ದೈನಂದಿನ ಅಧಿಸೂಚನೆಗಳು",
-  "onboardingPlanMedicines": "ನಿರ್ವಹಿಸಬೇಕಾದ ಔಷಧಿಗಳು"
+  "onboardingPlanMedicines": "ನಿರ್ವಹಿಸಬೇಕಾದ ಔಷಧಿಗಳು",
+  "onboardingPlanCriticalAlert": "Critical Alert"
 }

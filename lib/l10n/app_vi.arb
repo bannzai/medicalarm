@@ -283,5 +283,6 @@
   "onboardingPlanResultGoalFormat": "Mục tiêu: {goal}",
   "onboardingPlanDoseReceivers": "Người dùng thuốc",
   "onboardingPlanDailyReminders": "Lời nhắc hằng ngày",
-  "onboardingPlanMedicines": "Thuốc cần quản lý"
+  "onboardingPlanMedicines": "Thuốc cần quản lý",
+  "onboardingPlanCriticalAlert": "Critical Alert"
 }

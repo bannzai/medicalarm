@@ -283,5 +283,6 @@
   "onboardingPlanResultGoalFormat": "লক্ষ্য: {goal}",
   "onboardingPlanDoseReceivers": "ঔষধ সেৱনকাৰী",
   "onboardingPlanDailyReminders": "দৈনিক জাননী",
-  "onboardingPlanMedicines": "পৰিচালনা কৰিবলগীয়া ঔষধ"
+  "onboardingPlanMedicines": "পৰিচালনা কৰিবলগীয়া ঔষধ",
+  "onboardingPlanCriticalAlert": "Critical Alert"
 }

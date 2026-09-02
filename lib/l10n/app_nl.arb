@@ -283,5 +283,6 @@
   "onboardingPlanResultGoalFormat": "Doel: {goal}",
   "onboardingPlanDoseReceivers": "Persoon die medicijnen inneemt",
   "onboardingPlanDailyReminders": "Dagelijkse herinneringen",
-  "onboardingPlanMedicines": "Te beheren medicijnen"
+  "onboardingPlanMedicines": "Te beheren medicijnen",
+  "onboardingPlanCriticalAlert": "Critical Alert"
 }

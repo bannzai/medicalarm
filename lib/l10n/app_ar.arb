@@ -283,5 +283,6 @@
   "onboardingPlanResultGoalFormat": "الهدف: {goal}",
   "onboardingPlanDoseReceivers": "متناول الدواء",
   "onboardingPlanDailyReminders": "الإشعارات اليومية",
-  "onboardingPlanMedicines": "الأدوية المُدارة"
+  "onboardingPlanMedicines": "الأدوية المُدارة",
+  "onboardingPlanCriticalAlert": "Critical Alert"
 }

@@ -283,5 +283,6 @@
   "onboardingPlanResultGoalFormat": "Cíl: {goal}",
   "onboardingPlanDoseReceivers": "Osoba užívající léky",
   "onboardingPlanDailyReminders": "Denní upozornění",
-  "onboardingPlanMedicines": "Spravované léky"
+  "onboardingPlanMedicines": "Spravované léky",
+  "onboardingPlanCriticalAlert": "Critical Alert"
 }

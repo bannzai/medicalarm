@@ -283,5 +283,6 @@
   "onboardingPlanResultGoalFormat": "Hedef: {goal}",
   "onboardingPlanDoseReceivers": "İlaç kullanan kişi",
   "onboardingPlanDailyReminders": "Günlük hatırlatıcılar",
-  "onboardingPlanMedicines": "Yönetilecek ilaçlar"
+  "onboardingPlanMedicines": "Yönetilecek ilaçlar",
+  "onboardingPlanCriticalAlert": "Critical Alert"
 }

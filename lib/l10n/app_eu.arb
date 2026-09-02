@@ -283,5 +283,6 @@
   "onboardingPlanResultGoalFormat": "Helburua: {goal}",
   "onboardingPlanDoseReceivers": "Sendagaia hartzen duen pertsona",
   "onboardingPlanDailyReminders": "Eguneroko jakinarazpenak",
-  "onboardingPlanMedicines": "Kudeatu beharreko sendagaiak"
+  "onboardingPlanMedicines": "Kudeatu beharreko sendagaiak",
+  "onboardingPlanCriticalAlert": "Critical Alert"
 }

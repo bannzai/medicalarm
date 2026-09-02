@@ -283,5 +283,6 @@
   "onboardingPlanResultGoalFormat": "ਟੀਚਾ: {goal}",
   "onboardingPlanDoseReceivers": "ਦਵਾਈ ਲੈਣ ਵਾਲਾ ਵਿਅਕਤੀ",
   "onboardingPlanDailyReminders": "ਰੋਜ਼ਾਨਾ ਸੂਚਨਾਵਾਂ",
-  "onboardingPlanMedicines": "ਪ੍ਰਬੰਧਿਤ ਕਰਨ ਵਾਲੀਆਂ ਦਵਾਈਆਂ"
+  "onboardingPlanMedicines": "ਪ੍ਰਬੰਧਿਤ ਕਰਨ ਵਾਲੀਆਂ ਦਵਾਈਆਂ",
+  "onboardingPlanCriticalAlert": "Critical Alert"
 }

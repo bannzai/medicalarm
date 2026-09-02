@@ -283,5 +283,6 @@
   "onboardingPlanResultGoalFormat": "Qëllimi: {goal}",
   "onboardingPlanDoseReceivers": "Personi që merr ilaçe",
   "onboardingPlanDailyReminders": "Njoftimet ditore",
-  "onboardingPlanMedicines": "Medikamente për menaxhim"
+  "onboardingPlanMedicines": "Medikamente për menaxhim",
+  "onboardingPlanCriticalAlert": "Critical Alert"
 }

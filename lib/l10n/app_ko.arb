@@ -283,5 +283,6 @@
   "onboardingPlanResultGoalFormat": "목표: {goal}",
   "onboardingPlanDoseReceivers": "약을 복용하는 사람",
   "onboardingPlanDailyReminders": "일일 알림",
-  "onboardingPlanMedicines": "관리할 약"
+  "onboardingPlanMedicines": "관리할 약",
+  "onboardingPlanCriticalAlert": "Critical Alert"
 }

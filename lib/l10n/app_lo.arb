@@ -283,5 +283,6 @@
   "onboardingPlanResultGoalFormat": "ເປົ້າໝາຍ: {goal}",
   "onboardingPlanDoseReceivers": "ຜູ້ທີ່ກິນຢາ",
   "onboardingPlanDailyReminders": "ການແຈ້ງເຕືອນປະຈຳວັນ",
-  "onboardingPlanMedicines": "ຢາທີ່ຕ້ອງຈັດການ"
+  "onboardingPlanMedicines": "ຢາທີ່ຕ້ອງຈັດການ",
+  "onboardingPlanCriticalAlert": "Critical Alert"
 }

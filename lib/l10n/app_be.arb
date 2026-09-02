@@ -283,5 +283,6 @@
   "onboardingPlanResultGoalFormat": "Мэта: {goal}",
   "onboardingPlanDoseReceivers": "Той, хто прымае лекі",
   "onboardingPlanDailyReminders": "Штодзённыя апавяшчэнні",
-  "onboardingPlanMedicines": "Лекі для кантролю"
+  "onboardingPlanMedicines": "Лекі для кантролю",
+  "onboardingPlanCriticalAlert": "Critical Alert"
 }

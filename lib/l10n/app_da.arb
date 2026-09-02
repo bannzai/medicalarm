@@ -283,5 +283,6 @@
   "onboardingPlanResultGoalFormat": "Mål: {goal}",
   "onboardingPlanDoseReceivers": "Person, der tager medicin",
   "onboardingPlanDailyReminders": "Daglige påmindelser",
-  "onboardingPlanMedicines": "Medicin at administrere"
+  "onboardingPlanMedicines": "Medicin at administrere",
+  "onboardingPlanCriticalAlert": "Critical Alert"
 }

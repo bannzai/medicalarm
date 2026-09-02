@@ -283,5 +283,6 @@
   "onboardingPlanResultGoalFormat": "Tujuan: {goal}",
   "onboardingPlanDoseReceivers": "Orang yang minum obat",
   "onboardingPlanDailyReminders": "Notifikasi harian",
-  "onboardingPlanMedicines": "Obat yang dikelola"
+  "onboardingPlanMedicines": "Obat yang dikelola",
+  "onboardingPlanCriticalAlert": "Critical Alert"
 }

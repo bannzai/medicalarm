@@ -283,5 +283,6 @@
   "onboardingPlanResultGoalFormat": "ہدف: {goal}",
   "onboardingPlanDoseReceivers": "دوا لینے والا شخص",
   "onboardingPlanDailyReminders": "روزانہ یاد دہانیاں",
-  "onboardingPlanMedicines": "انتظام کرنے والی ادویات"
+  "onboardingPlanMedicines": "انتظام کرنے والی ادویات",
+  "onboardingPlanCriticalAlert": "Critical Alert"
 }

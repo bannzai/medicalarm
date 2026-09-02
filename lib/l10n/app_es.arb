@@ -283,5 +283,6 @@
   "onboardingPlanResultGoalFormat": "Objetivo: {goal}",
   "onboardingPlanDoseReceivers": "Persona que toma la medicación",
   "onboardingPlanDailyReminders": "Recordatorios diarios",
-  "onboardingPlanMedicines": "Medicamentos a gestionar"
+  "onboardingPlanMedicines": "Medicamentos a gestionar",
+  "onboardingPlanCriticalAlert": "Critical Alert"
 }

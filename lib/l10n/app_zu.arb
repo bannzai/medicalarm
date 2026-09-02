@@ -283,5 +283,6 @@
   "onboardingPlanResultGoalFormat": "Umgomo: {goal}",
   "onboardingPlanDoseReceivers": "Umuntu ophuza umuthi",
   "onboardingPlanDailyReminders": "Izikhumbuzi zansuku zonke",
-  "onboardingPlanMedicines": "Imithi ezophathwa"
+  "onboardingPlanMedicines": "Imithi ezophathwa",
+  "onboardingPlanCriticalAlert": "Critical Alert"
 }

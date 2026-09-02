@@ -283,5 +283,6 @@
   "onboardingPlanResultGoalFormat": "Məqsəd: {goal}",
   "onboardingPlanDoseReceivers": "Dərman qəbul edən şəxs",
   "onboardingPlanDailyReminders": "Gündəlik bildirişlər",
-  "onboardingPlanMedicines": "İdarə olunacaq dərmanlar"
+  "onboardingPlanMedicines": "İdarə olunacaq dərmanlar",
+  "onboardingPlanCriticalAlert": "Critical Alert"
 }

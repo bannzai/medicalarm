@@ -283,5 +283,6 @@
   "onboardingPlanResultGoalFormat": "Objectiu: {goal}",
   "onboardingPlanDoseReceivers": "Persona que pren la medicació",
   "onboardingPlanDailyReminders": "Notificacions diàries",
-  "onboardingPlanMedicines": "Medicaments a gestionar"
+  "onboardingPlanMedicines": "Medicaments a gestionar",
+  "onboardingPlanCriticalAlert": "Critical Alert"
 }

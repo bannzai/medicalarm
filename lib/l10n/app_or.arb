@@ -283,5 +283,6 @@
   "onboardingPlanResultGoalFormat": "ଲକ୍ଷ୍ୟ: {goal}",
   "onboardingPlanDoseReceivers": "ଔଷଧ ସେବନକାରୀ",
   "onboardingPlanDailyReminders": "ଦୈନିକ ବିଜ୍ଞପ୍ତି",
-  "onboardingPlanMedicines": "ପରିଚାଳନା କରିବାକୁ ଥିବା ଔଷଧ"
+  "onboardingPlanMedicines": "ପରିଚାଳନା କରିବାକୁ ଥିବା ଔଷଧ",
+  "onboardingPlanCriticalAlert": "Critical Alert"
 }

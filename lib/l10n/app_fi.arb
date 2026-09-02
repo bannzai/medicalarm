@@ -283,5 +283,6 @@
   "onboardingPlanResultGoalFormat": "Tavoite: {goal}",
   "onboardingPlanDoseReceivers": "Lääkettä käyttävä henkilö",
   "onboardingPlanDailyReminders": "Päivittäiset muistutukset",
-  "onboardingPlanMedicines": "Hallittavat lääkkeet"
+  "onboardingPlanMedicines": "Hallittavat lääkkeet",
+  "onboardingPlanCriticalAlert": "Critical Alert"
 }

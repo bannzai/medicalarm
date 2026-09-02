@@ -283,5 +283,6 @@
   "onboardingPlanResultGoalFormat": "लक्ष्य: {goal}",
   "onboardingPlanDoseReceivers": "दवा लेने वाला व्यक्ति",
   "onboardingPlanDailyReminders": "दैनिक सूचनाएँ",
-  "onboardingPlanMedicines": "प्रबंधित की जाने वाली दवाएँ"
+  "onboardingPlanMedicines": "प्रबंधित की जाने वाली दवाएँ",
+  "onboardingPlanCriticalAlert": "Critical Alert"
 }

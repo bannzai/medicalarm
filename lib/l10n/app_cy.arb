@@ -283,5 +283,6 @@
   "onboardingPlanResultGoalFormat": "Nod: {goal}",
   "onboardingPlanDoseReceivers": "Person sy’n cymryd meddyginiaeth",
   "onboardingPlanDailyReminders": "Hysbysiadau dyddiol",
-  "onboardingPlanMedicines": "Meddyginiaethau i'w rheoli"
+  "onboardingPlanMedicines": "Meddyginiaethau i'w rheoli",
+  "onboardingPlanCriticalAlert": "Critical Alert"
 }

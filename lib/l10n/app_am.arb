@@ -283,5 +283,6 @@
   "onboardingPlanResultGoalFormat": "Նպատակ: {goal}",
   "onboardingPlanDoseReceivers": "መድሃኒት የሚወስድ ሰው",
   "onboardingPlanDailyReminders": "የዕለት ማሳወቂያዎች",
-  "onboardingPlanMedicines": "ለማስተዳደር የሚገባቸው መድኃኒቶች"
+  "onboardingPlanMedicines": "ለማስተዳደር የሚገባቸው መድኃኒቶች",
+  "onboardingPlanCriticalAlert": "Critical Alert"
 }

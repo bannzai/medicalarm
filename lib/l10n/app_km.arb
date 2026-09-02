@@ -283,5 +283,6 @@
   "onboardingPlanResultGoalFormat": "គោលដៅ៖ {goal}",
   "onboardingPlanDoseReceivers": "អ្នកប្រើថ្នាំ",
   "onboardingPlanDailyReminders": "ការជូនដំណឹងប្រចាំថ្ងៃ",
-  "onboardingPlanMedicines": "ថ្នាំដែលត្រូវគ្រប់គ្រង"
+  "onboardingPlanMedicines": "ថ្នាំដែលត្រូវគ្រប់គ្រង",
+  "onboardingPlanCriticalAlert": "Critical Alert"
 }

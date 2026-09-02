@@ -283,5 +283,6 @@
   "onboardingPlanResultGoalFormat": "Максат: {goal}",
   "onboardingPlanDoseReceivers": "Дары ичүүчү адам",
   "onboardingPlanDailyReminders": "Күнүмдүк эскертмелер",
-  "onboardingPlanMedicines": "Башкарыла турган дарылар"
+  "onboardingPlanMedicines": "Башкарыла турган дарылар",
+  "onboardingPlanCriticalAlert": "Critical Alert"
 }

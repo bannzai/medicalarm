@@ -283,5 +283,6 @@
   "onboardingPlanResultGoalFormat": "Цел: {goal}",
   "onboardingPlanDoseReceivers": "Лице кое зема лекови",
   "onboardingPlanDailyReminders": "Дневни известувања",
-  "onboardingPlanMedicines": "Лекови за управување"
+  "onboardingPlanMedicines": "Лекови за управување",
+  "onboardingPlanCriticalAlert": "Critical Alert"
 }

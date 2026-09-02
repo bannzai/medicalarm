@@ -283,5 +283,6 @@
   "onboardingPlanResultGoalFormat": "Obiectiv: {goal}",
   "onboardingPlanDoseReceivers": "Persoana care ia medicamente",
   "onboardingPlanDailyReminders": "Mementouri zilnice",
-  "onboardingPlanMedicines": "Medicamente de gestionat"
+  "onboardingPlanMedicines": "Medicamente de gestionat",
+  "onboardingPlanCriticalAlert": "Critical Alert"
 }

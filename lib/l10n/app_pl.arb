@@ -283,5 +283,6 @@
   "onboardingPlanResultGoalFormat": "Cel: {goal}",
   "onboardingPlanDoseReceivers": "Osoba przyjmująca leki",
   "onboardingPlanDailyReminders": "Codzienne przypomnienia",
-  "onboardingPlanMedicines": "Leki do monitorowania"
+  "onboardingPlanMedicines": "Leki do monitorowania",
+  "onboardingPlanCriticalAlert": "Critical Alert"
 }

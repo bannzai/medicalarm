@@ -283,5 +283,6 @@
   "onboardingPlanResultGoalFormat": "Mērķis: {goal}",
   "onboardingPlanDoseReceivers": "Persona, kas lieto zāles",
   "onboardingPlanDailyReminders": "Ikdienas atgādinājumi",
-  "onboardingPlanMedicines": "Pārvaldāmās zāles"
+  "onboardingPlanMedicines": "Pārvaldāmās zāles",
+  "onboardingPlanCriticalAlert": "Critical Alert"
 }

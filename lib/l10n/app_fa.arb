@@ -283,5 +283,6 @@
   "onboardingPlanResultGoalFormat": "هدف: {goal}",
   "onboardingPlanDoseReceivers": "فردی که دارو مصرف می‌کند",
   "onboardingPlanDailyReminders": "اعلان‌های روزانه",
-  "onboardingPlanMedicines": "داروهای تحت مدیریت"
+  "onboardingPlanMedicines": "داروهای تحت مدیریت",
+  "onboardingPlanCriticalAlert": "Critical Alert"
 }

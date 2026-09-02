@@ -283,5 +283,6 @@
   "onboardingPlanResultGoalFormat": "Eesmärk: {goal}",
   "onboardingPlanDoseReceivers": "Ravimi tarvitaja",
   "onboardingPlanDailyReminders": "Igapäevased meeldetuletused",
-  "onboardingPlanMedicines": "Hallatavad ravimid"
+  "onboardingPlanMedicines": "Hallatavad ravimid",
+  "onboardingPlanCriticalAlert": "Critical Alert"
 }

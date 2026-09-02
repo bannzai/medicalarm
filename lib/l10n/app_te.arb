@@ -283,5 +283,6 @@
   "onboardingPlanResultGoalFormat": "లక్ష్యం: {goal}",
   "onboardingPlanDoseReceivers": "మందులు తీసుకునే వ్యక్తి",
   "onboardingPlanDailyReminders": "రోజువారీ రిమైండర్‌లు",
-  "onboardingPlanMedicines": "నిర్వహించాల్సిన మందులు"
+  "onboardingPlanMedicines": "నిర్వహించాల్సిన మందులు",
+  "onboardingPlanCriticalAlert": "Critical Alert"
 }

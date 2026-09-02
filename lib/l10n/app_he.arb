@@ -283,5 +283,6 @@
   "onboardingPlanResultGoalFormat": "מטרה: {goal}",
   "onboardingPlanDoseReceivers": "נוטל התרופה",
   "onboardingPlanDailyReminders": "התראות יומיות",
-  "onboardingPlanMedicines": "תרופות לניהול"
+  "onboardingPlanMedicines": "תרופות לניהול",
+  "onboardingPlanCriticalAlert": "Critical Alert"
 }

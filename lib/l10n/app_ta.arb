@@ -283,5 +283,6 @@
   "onboardingPlanResultGoalFormat": "இலக்கு: {goal}",
   "onboardingPlanDoseReceivers": "மருந்து உட்கொள்ளும் நபர்",
   "onboardingPlanDailyReminders": "தினசரி நினைவூட்டல்கள்",
-  "onboardingPlanMedicines": "நிர்வகிக்க வேண்டிய மருந்துகள்"
+  "onboardingPlanMedicines": "நிர்வகிக்க வேண்டிய மருந்துகள்",
+  "onboardingPlanCriticalAlert": "Critical Alert"
 }

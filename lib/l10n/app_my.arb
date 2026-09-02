@@ -283,5 +283,6 @@
   "onboardingPlanResultGoalFormat": "ပန်းတိုင်: {goal}",
   "onboardingPlanDoseReceivers": "ဆေးသောက်သူ",
   "onboardingPlanDailyReminders": "နေ့စဉ်သတိပေးချက်များ",
-  "onboardingPlanMedicines": "စီမံရန်ဆေးများ"
+  "onboardingPlanMedicines": "စီမံရန်ဆေးများ",
+  "onboardingPlanCriticalAlert": "Critical Alert"
 }
