@@ -197,5 +197,6 @@
   "invitationCode": "邀请码",
   "invitationCodeShareDescription": "分享此代码即可邀请成员",
   "invitationCodeExpiresAt": "有效期：{date}",
-  "copyInvitationCode": "复制代码"
+  "copyInvitationCode": "复制代码",
+  "invitationCodeCopied": "邀请码已复制"
 }

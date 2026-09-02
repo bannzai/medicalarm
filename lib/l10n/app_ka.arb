@@ -197,5 +197,6 @@
   "invitationCode": "მოწვევის კოდი",
   "invitationCodeShareDescription": "გააზიარეთ ეს კოდი წევრების მოსაწვევად",
   "invitationCodeExpiresAt": "მოქმედების ვადა: {date}",
-  "copyInvitationCode": "კოდის კოპირება"
+  "copyInvitationCode": "კოდის კოპირება",
+  "invitationCodeCopied": "მოწვევის კოდი დაკოპირდა"
 }

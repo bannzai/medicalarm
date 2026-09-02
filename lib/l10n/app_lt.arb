@@ -197,5 +197,6 @@
   "invitationCode": "Pakvietimo kodas",
   "invitationCodeShareDescription": "Pasidalykite šiuo kodu, kad pakviestumėte narius",
   "invitationCodeExpiresAt": "Galioja iki: {date}",
-  "copyInvitationCode": "Kopijuoti kodą"
+  "copyInvitationCode": "Kopijuoti kodą",
+  "invitationCodeCopied": "Kvietimo kodas nukopijuotas"
 }

@@ -197,5 +197,6 @@
   "invitationCode": "ക്ഷണ കോഡ്",
   "invitationCodeShareDescription": "അംഗങ്ങളെ ക്ഷണിക്കാൻ ഈ കോഡ് പങ്കിടുക",
   "invitationCodeExpiresAt": "കാലഹരണപ്പെടുന്ന തീയതി: {date}",
-  "copyInvitationCode": "കോഡ് പകർത്തുക"
+  "copyInvitationCode": "കോഡ് പകർത്തുക",
+  "invitationCodeCopied": "ക്ഷണ കോഡ് പകർത്തി"
 }

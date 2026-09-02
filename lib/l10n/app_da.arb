@@ -197,5 +197,6 @@
   "invitationCode": "Invitationskode",
   "invitationCodeShareDescription": "Del denne kode for at invitere medlemmer",
   "invitationCodeExpiresAt": "Udløber: {date}",
-  "copyInvitationCode": "Kopiér kode"
+  "copyInvitationCode": "Kopiér kode",
+  "invitationCodeCopied": "Invitationskode kopieret"
 }

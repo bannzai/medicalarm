@@ -197,5 +197,6 @@
   "invitationCode": "کد دعوت",
   "invitationCodeShareDescription": "می‌توانید این کد را برای دعوت از اعضا به اشتراک بگذارید",
   "invitationCodeExpiresAt": "تاریخ انقضا: {date}",
-  "copyInvitationCode": "کپی کد"
+  "copyInvitationCode": "کپی کد",
+  "invitationCodeCopied": "کد دعوت کپی شد"
 }

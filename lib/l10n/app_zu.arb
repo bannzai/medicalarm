@@ -197,5 +197,6 @@
   "invitationCode": "Ikhodi yesimemo",
   "invitationCodeShareDescription": "Yabelana ngale khodi ukuze umeme amalungu",
   "invitationCodeExpiresAt": "Kuphelelwa yisikhathi: {date}",
-  "copyInvitationCode": "Kopisha ikhodi"
+  "copyInvitationCode": "Kopisha ikhodi",
+  "invitationCodeCopied": "Ikhodi yesimemo ikopishiwe"
 }

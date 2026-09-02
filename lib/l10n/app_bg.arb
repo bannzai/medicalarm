@@ -197,5 +197,6 @@
   "invitationCode": "Код за покана",
   "invitationCodeShareDescription": "Споделете този код, за да поканите членове",
   "invitationCodeExpiresAt": "Валиден до: {date}",
-  "copyInvitationCode": "Копиране на кода"
+  "copyInvitationCode": "Копиране на кода",
+  "invitationCodeCopied": "Кодът за покана е копиран"
 }

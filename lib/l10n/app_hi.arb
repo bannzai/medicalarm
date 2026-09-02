@@ -197,5 +197,6 @@
   "invitationCode": "आमंत्रण कोड",
   "invitationCodeShareDescription": "सदस्यों को आमंत्रित करने के लिए यह कोड साझा करें",
   "invitationCodeExpiresAt": "समाप्ति तिथि: {date}",
-  "copyInvitationCode": "कोड कॉपी करें"
+  "copyInvitationCode": "कोड कॉपी करें",
+  "invitationCodeCopied": "आमंत्रण कोड कॉपी किया गया"
 }

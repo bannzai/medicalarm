@@ -197,5 +197,6 @@
   "invitationCode": "Код запрашэння",
   "invitationCodeShareDescription": "Падзяліцеся гэтым кодам, каб запрасіць удзельнікаў",
   "invitationCodeExpiresAt": "Тэрмін дзеяння: {date}",
-  "copyInvitationCode": "Капіяваць код"
+  "copyInvitationCode": "Капіяваць код",
+  "invitationCodeCopied": "Код запрашэння скапіяваны"
 }

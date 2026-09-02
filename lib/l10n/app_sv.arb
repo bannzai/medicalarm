@@ -197,5 +197,6 @@
   "invitationCode": "Inbjudningskod",
   "invitationCodeShareDescription": "Dela den här koden för att bjuda in medlemmar",
   "invitationCodeExpiresAt": "Giltig till: {date}",
-  "copyInvitationCode": "Kopiera kod"
+  "copyInvitationCode": "Kopiera kod",
+  "invitationCodeCopied": "Inbjudningskoden har kopierats"
 }

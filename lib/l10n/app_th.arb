@@ -197,5 +197,6 @@
   "invitationCode": "รหัสเชิญ",
   "invitationCodeShareDescription": "แชร์รหัสนี้เพื่อเชิญสมาชิก",
   "invitationCodeExpiresAt": "หมดอายุ: {date}",
-  "copyInvitationCode": "คัดลอกรหัส"
+  "copyInvitationCode": "คัดลอกรหัส",
+  "invitationCodeCopied": "คัดลอกรหัสคำเชิญแล้ว"
 }

@@ -197,5 +197,6 @@
   "invitationCode": "Taklif kodi",
   "invitationCodeShareDescription": "Aʼzolarni taklif qilish uchun ushbu kodni ulashing",
   "invitationCodeExpiresAt": "Amal qilish muddati: {date}",
-  "copyInvitationCode": "Kodni nusxalash"
+  "copyInvitationCode": "Kodni nusxalash",
+  "invitationCodeCopied": "Taklif kodi nusxalandi"
 }

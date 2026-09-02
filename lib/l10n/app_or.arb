@@ -197,5 +197,6 @@
   "invitationCode": "ନିମନ୍ତ୍ରଣ କୋଡ୍",
   "invitationCodeShareDescription": "ସଦସ୍ୟମାନଙ୍କୁ ଆମନ୍ତ୍ରଣ କରିବାକୁ ଏହି କୋଡ୍‌ ସେୟାର୍‌ କରନ୍ତୁ",
   "invitationCodeExpiresAt": "ମିଆଦ ଶେଷ: {date}",
-  "copyInvitationCode": "କୋଡ୍ କପି କରନ୍ତୁ"
+  "copyInvitationCode": "କୋଡ୍ କପି କରନ୍ତୁ",
+  "invitationCodeCopied": "ନିମନ୍ତ୍ରଣ କୋଡ୍ କପି ହୋଇଛି"
 }

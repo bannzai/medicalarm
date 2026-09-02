@@ -197,5 +197,6 @@
   "invitationCode": "Kod pozivnice",
   "invitationCodeShareDescription": "Podijelite ovaj kôd kako biste pozvali članove",
   "invitationCodeExpiresAt": "Vrijedi do: {date}",
-  "copyInvitationCode": "Kopiraj kôd"
+  "copyInvitationCode": "Kopiraj kôd",
+  "invitationCodeCopied": "Kôd pozivnice kopiran"
 }

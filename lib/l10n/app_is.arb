@@ -197,5 +197,6 @@
   "invitationCode": "Boðskóði",
   "invitationCodeShareDescription": "Deildu þessum kóða til að bjóða meðlimum",
   "invitationCodeExpiresAt": "Gildir til: {date}",
-  "copyInvitationCode": "Afrita kóða"
+  "copyInvitationCode": "Afrita kóða",
+  "invitationCodeCopied": "Boðskortskóði afritaður"
 }

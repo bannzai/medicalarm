@@ -197,5 +197,6 @@
   "invitationCode": "Чакыруу коду",
   "invitationCodeShareDescription": "Мүчөлөрдү чакыруу үчүн бул кодду бөлүшүңүз",
   "invitationCodeExpiresAt": "Жарактуулук мөөнөтү: {date}",
-  "copyInvitationCode": "Кодду көчүрүү"
+  "copyInvitationCode": "Кодду көчүрүү",
+  "invitationCodeCopied": "Чакыруу коду көчүрүлдү"
 }

@@ -197,5 +197,6 @@
   "invitationCode": "Kode undangan",
   "invitationCodeShareDescription": "Bagikan kode ini untuk mengundang anggota",
   "invitationCodeExpiresAt": "Berlaku hingga: {date}",
-  "copyInvitationCode": "Salin kode"
+  "copyInvitationCode": "Salin kode",
+  "invitationCodeCopied": "Kode undangan disalin"
 }

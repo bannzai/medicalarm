@@ -197,5 +197,6 @@
   "invitationCode": "Uitnodigingskode",
   "invitationCodeShareDescription": "Deel hierdie kode om lede uit te nooi",
   "invitationCodeExpiresAt": "Geldig tot: {date}",
-  "copyInvitationCode": "Kopieer kode"
+  "copyInvitationCode": "Kopieer kode",
+  "invitationCodeCopied": "Uitnodigingskode gekopieer"
 }

@@ -197,5 +197,6 @@
   "invitationCode": "លេខកូដអញ្ជើញ",
   "invitationCodeShareDescription": "ចែករំលែកកូដនេះ ដើម្បីអញ្ជើញសមាជិក",
   "invitationCodeExpiresAt": "ផុតកំណត់៖ {date}",
-  "copyInvitationCode": "ចម្លងកូដ"
+  "copyInvitationCode": "ចម្លងកូដ",
+  "invitationCodeCopied": "លេខកូដអញ្ជើញត្រូវបានចម្លង"
 }

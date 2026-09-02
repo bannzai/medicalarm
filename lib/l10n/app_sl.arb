@@ -197,5 +197,6 @@
   "invitationCode": "Koda za povabilo",
   "invitationCodeShareDescription": "Delite to kodo, da povabite člane",
   "invitationCodeExpiresAt": "Velja do: {date}",
-  "copyInvitationCode": "Kopiraj kodo"
+  "copyInvitationCode": "Kopiraj kodo",
+  "invitationCodeCopied": "Koda povabila je kopirana"
 }

@@ -197,5 +197,6 @@
   "invitationCode": "Einladungscode",
   "invitationCodeShareDescription": "Teile dä Code, zum Mitglieder iizlade",
   "invitationCodeExpiresAt": "Gültig bis: {date}",
-  "copyInvitationCode": "Code kopiere"
+  "copyInvitationCode": "Code kopiere",
+  "invitationCodeCopied": "Iiladigscode kopiert"
 }

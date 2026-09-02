@@ -197,5 +197,6 @@
   "invitationCode": "Kód pozvánky",
   "invitationCodeShareDescription": "Sdílením tohoto kódu můžete pozvat členy",
   "invitationCodeExpiresAt": "Platnost do: {date}",
-  "copyInvitationCode": "Kopírovat kód"
+  "copyInvitationCode": "Kopírovat kód",
+  "invitationCodeCopied": "Kód pozvánky byl zkopírován"
 }

@@ -197,5 +197,6 @@
   "invitationCode": "Հրավերի կոդ",
   "invitationCodeShareDescription": "Կիսվեք այս կոդով՝ անդամներին հրավիրելու համար",
   "invitationCodeExpiresAt": "Վավեր է մինչև՝ {date}",
-  "copyInvitationCode": "Պատճենել կոդը"
+  "copyInvitationCode": "Պատճենել կոդը",
+  "invitationCodeCopied": "Հրավերի կոդը պատճենվել է"
 }

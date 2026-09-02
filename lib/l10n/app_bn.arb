@@ -197,5 +197,6 @@
   "invitationCode": "আমন্ত্রণ কোড",
   "invitationCodeShareDescription": "এই কোড শেয়ার করে সদস্যদের আমন্ত্রণ জানাতে পারেন",
   "invitationCodeExpiresAt": "মেয়াদ শেষের তারিখ: {date}",
-  "copyInvitationCode": "কোড কপি করুন"
+  "copyInvitationCode": "কোড কপি করুন",
+  "invitationCodeCopied": "আমন্ত্রণ কোড কপি করা হয়েছে"
 }

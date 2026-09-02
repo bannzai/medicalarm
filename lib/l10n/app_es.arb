@@ -197,5 +197,6 @@
   "invitationCode": "Código de invitación",
   "invitationCodeShareDescription": "Puedes compartir este código para invitar a miembros",
   "invitationCodeExpiresAt": "Caduca: {date}",
-  "copyInvitationCode": "Copiar código"
+  "copyInvitationCode": "Copiar código",
+  "invitationCodeCopied": "Código de invitación copiado"
 }

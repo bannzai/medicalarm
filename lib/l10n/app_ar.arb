@@ -197,5 +197,6 @@
   "invitationCode": "رمز الدعوة",
   "invitationCodeShareDescription": "يمكنك مشاركة هذا الرمز لدعوة الأعضاء",
   "invitationCodeExpiresAt": "تاريخ الانتهاء: {date}",
-  "copyInvitationCode": "نسخ الرمز"
+  "copyInvitationCode": "نسخ الرمز",
+  "invitationCodeCopied": "تم نسخ رمز الدعوة"
 }
