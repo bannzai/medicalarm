@@ -195,5 +195,6 @@
   "groupCreationLimitReached": "Անվճար պլանում այլևս չեք կարող խմբեր ստեղծել։",
   "increaseGroupLimitWithPremium": "Ստեղծեք ավելի շատ խմբեր Premium պլանով",
   "invitationCode": "Հրավերի կոդ",
-  "invitationCodeShareDescription": "Կիսվեք այս կոդով՝ անդամներին հրավիրելու համար"
+  "invitationCodeShareDescription": "Կիսվեք այս կոդով՝ անդամներին հրավիրելու համար",
+  "invitationCodeExpiresAt": "Վավեր է մինչև՝ {date}"
 }

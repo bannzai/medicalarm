@@ -195,5 +195,6 @@
   "groupCreationLimitReached": "বিনামূল্যের প্ল্যানে আপনি আর কোনো গ্রুপ তৈরি করতে পারবেন না।",
   "increaseGroupLimitWithPremium": "Premium প্ল্যানে আরও গ্রুপ তৈরি করুন",
   "invitationCode": "আমন্ত্রণ কোড",
-  "invitationCodeShareDescription": "এই কোড শেয়ার করে সদস্যদের আমন্ত্রণ জানাতে পারেন"
+  "invitationCodeShareDescription": "এই কোড শেয়ার করে সদস্যদের আমন্ত্রণ জানাতে পারেন",
+  "invitationCodeExpiresAt": "মেয়াদ শেষের তারিখ: {date}"
 }

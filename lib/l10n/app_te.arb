@@ -195,5 +195,6 @@
   "groupCreationLimitReached": "ఉచిత ప్లాన్‌లో మీరు ఇకపై మరిన్ని సమూహాలను సృష్టించలేరు.",
   "increaseGroupLimitWithPremium": "Premium ప్లాన్‌తో మరిన్ని గ్రూప్‌లను సృష్టించండి",
   "invitationCode": "ఆహ్వాన కోడ్",
-  "invitationCodeShareDescription": "సభ్యులను ఆహ్వానించడానికి ఈ కోడ్‌ను షేర్ చేయండి"
+  "invitationCodeShareDescription": "సభ్యులను ఆహ్వానించడానికి ఈ కోడ్‌ను షేర్ చేయండి",
+  "invitationCodeExpiresAt": "గడువు ముగిసే తేదీ: {date}"
 }

@@ -195,5 +195,6 @@
   "groupCreationLimitReached": "Tasuta paketiga ei saa rohkem rühmi luua.",
   "increaseGroupLimitWithPremium": "Looge Premium-paketiga rohkem gruppe",
   "invitationCode": "Kutsekood",
-  "invitationCodeShareDescription": "Liikmete kutsumiseks jaga seda koodi"
+  "invitationCodeShareDescription": "Liikmete kutsumiseks jaga seda koodi",
+  "invitationCodeExpiresAt": "Kehtiv kuni: {date}"
 }

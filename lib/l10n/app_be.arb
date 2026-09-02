@@ -195,5 +195,6 @@
   "groupCreationLimitReached": "На бясплатным плане нельга ствараць больш груп.",
   "increaseGroupLimitWithPremium": "Стварайце больш груп з планам Premium",
   "invitationCode": "Код запрашэння",
-  "invitationCodeShareDescription": "Падзяліцеся гэтым кодам, каб запрасіць удзельнікаў"
+  "invitationCodeShareDescription": "Падзяліцеся гэтым кодам, каб запрасіць удзельнікаў",
+  "invitationCodeExpiresAt": "Тэрмін дзеяння: {date}"
 }

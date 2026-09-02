@@ -195,5 +195,6 @@
   "groupCreationLimitReached": "لا يمكنك إنشاء المزيد من المجموعات ضمن الخطة المجانية.",
   "increaseGroupLimitWithPremium": "أنشئ مجموعات إضافية مع خطة Premium",
   "invitationCode": "رمز الدعوة",
-  "invitationCodeShareDescription": "يمكنك مشاركة هذا الرمز لدعوة الأعضاء"
+  "invitationCodeShareDescription": "يمكنك مشاركة هذا الرمز لدعوة الأعضاء",
+  "invitationCodeExpiresAt": "تاريخ الانتهاء: {date}"
 }

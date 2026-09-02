@@ -195,5 +195,6 @@
   "groupCreationLimitReached": "Non podes crear máis grupos co plan gratuíto.",
   "increaseGroupLimitWithPremium": "Crea máis grupos co plan Premium",
   "invitationCode": "Código de invitación",
-  "invitationCodeShareDescription": "Podes compartir este código para convidar membros"
+  "invitationCodeShareDescription": "Podes compartir este código para convidar membros",
+  "invitationCodeExpiresAt": "Caduca o: {date}"
 }

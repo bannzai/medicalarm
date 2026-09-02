@@ -195,5 +195,6 @@
   "groupCreationLimitReached": "V bezplatném tarifu už nemůžete vytvářet další skupiny.",
   "increaseGroupLimitWithPremium": "Vytvářejte další skupiny s tarifem Premium",
   "invitationCode": "Kód pozvánky",
-  "invitationCodeShareDescription": "Sdílením tohoto kódu můžete pozvat členy"
+  "invitationCodeShareDescription": "Sdílením tohoto kódu můžete pozvat členy",
+  "invitationCodeExpiresAt": "Platnost do: {date}"
 }

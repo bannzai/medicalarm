@@ -195,5 +195,6 @@
   "groupCreationLimitReached": "मुफ़्त प्लान में आप और समूह नहीं बना सकते।",
   "increaseGroupLimitWithPremium": "Premium प्लान के साथ और ग्रुप बनाएं",
   "invitationCode": "आमंत्रण कोड",
-  "invitationCodeShareDescription": "सदस्यों को आमंत्रित करने के लिए यह कोड साझा करें"
+  "invitationCodeShareDescription": "सदस्यों को आमंत्रित करने के लिए यह कोड साझा करें",
+  "invitationCodeExpiresAt": "समाप्ति तिथि: {date}"
 }

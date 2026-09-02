@@ -195,5 +195,6 @@
   "groupCreationLimitReached": "मोफत प्लॅनमध्ये तुम्ही आणखी गट तयार करू शकत नाही.",
   "increaseGroupLimitWithPremium": "Premium प्लॅनसह अधिक गट तयार करा",
   "invitationCode": "आमंत्रण कोड",
-  "invitationCodeShareDescription": "सदस्यांना आमंत्रित करण्यासाठी हा कोड शेअर करा"
+  "invitationCodeShareDescription": "सदस्यांना आमंत्रित करण्यासाठी हा कोड शेअर करा",
+  "invitationCodeExpiresAt": "कालबाह्यता: {date}"
 }

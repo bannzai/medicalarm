@@ -195,5 +195,6 @@
   "groupCreationLimitReached": "Bezmaksas plānā vairs nevarat izveidot grupas.",
   "increaseGroupLimitWithPremium": "Izveidojiet vairāk grupu ar Premium plānu",
   "invitationCode": "Uzaicinājuma kods",
-  "invitationCodeShareDescription": "Kopīgojiet šo kodu, lai uzaicinātu dalībniekus"
+  "invitationCodeShareDescription": "Kopīgojiet šo kodu, lai uzaicinātu dalībniekus",
+  "invitationCodeExpiresAt": "Derīgs līdz: {date}"
 }

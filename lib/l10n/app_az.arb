@@ -195,5 +195,6 @@
   "groupCreationLimitReached": "Pulsuz planda artıq qrup yarada bilməzsiniz.",
   "increaseGroupLimitWithPremium": "Premium planı ilə daha çox qrup yaradın",
   "invitationCode": "Dəvət kodu",
-  "invitationCodeShareDescription": "Bu kodu paylaşaraq üzvləri dəvət edə bilərsiniz"
+  "invitationCodeShareDescription": "Bu kodu paylaşaraq üzvləri dəvət edə bilərsiniz",
+  "invitationCodeExpiresAt": "Etibarlılıq müddəti: {date}"
 }

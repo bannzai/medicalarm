@@ -195,5 +195,6 @@
   "groupCreationLimitReached": "Et voi luoda enempää ryhmiä ilmaisella tilauksella.",
   "increaseGroupLimitWithPremium": "Luo lisää ryhmiä Premium-tilauksella",
   "invitationCode": "Kutsukoodi",
-  "invitationCodeShareDescription": "Jaa tämä koodi kutsuaksesi jäseniä"
+  "invitationCodeShareDescription": "Jaa tämä koodi kutsuaksesi jäseniä",
+  "invitationCodeExpiresAt": "Voimassa asti: {date}"
 }

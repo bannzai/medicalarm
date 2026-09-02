@@ -195,5 +195,6 @@
   "groupCreationLimitReached": "Со бесплатниот план не можете да создавате повеќе групи.",
   "increaseGroupLimitWithPremium": "Создавајте повеќе групи со Premium планот",
   "invitationCode": "Код за покана",
-  "invitationCodeShareDescription": "Споделете го овој код за да поканите членови"
+  "invitationCodeShareDescription": "Споделете го овој код за да поканите членови",
+  "invitationCodeExpiresAt": "Важи до: {date}"
 }

@@ -195,5 +195,6 @@
   "groupCreationLimitReached": "ໃນແຜນຟຣີ ທ່ານບໍ່ສາມາດສ້າງກຸ່ມເພີ່ມເຕີມໄດ້.",
   "increaseGroupLimitWithPremium": "ສ້າງກຸ່ມເພີ່ມເຕີມດ້ວຍແຜນ Premium",
   "invitationCode": "ລະຫັດເຊີນ",
-  "invitationCodeShareDescription": "ແບ່ງປັນລະຫັດນີ້ເພື່ອເຊີນສະມາຊິກ"
+  "invitationCodeShareDescription": "ແບ່ງປັນລະຫັດນີ້ເພື່ອເຊີນສະມາຊິກ",
+  "invitationCodeExpiresAt": "ໝົດອາຍຸ: {date}"
 }

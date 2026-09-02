@@ -195,5 +195,6 @@
   "groupCreationLimitReached": "Naudodami nemokamą planą nebegalite kurti daugiau grupių.",
   "increaseGroupLimitWithPremium": "Kurkite daugiau grupių su Premium planu",
   "invitationCode": "Pakvietimo kodas",
-  "invitationCodeShareDescription": "Pasidalykite šiuo kodu, kad pakviestumėte narius"
+  "invitationCodeShareDescription": "Pasidalykite šiuo kodu, kad pakviestumėte narius",
+  "invitationCodeExpiresAt": "Galioja iki: {date}"
 }

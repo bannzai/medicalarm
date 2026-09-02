@@ -195,5 +195,6 @@
   "groupCreationLimitReached": "مفت پلان میں آپ مزید گروپس نہیں بنا سکتے۔",
   "increaseGroupLimitWithPremium": "Premium پلان کے ساتھ مزید گروپس بنائیں",
   "invitationCode": "دعوتی کوڈ",
-  "invitationCodeShareDescription": "ممبرز کو مدعو کرنے کے لیے یہ کوڈ شیئر کریں"
+  "invitationCodeShareDescription": "ممبرز کو مدعو کرنے کے لیے یہ کوڈ شیئر کریں",
+  "invitationCodeExpiresAt": "میعاد ختم ہونے کی تاریخ: {date}"
 }

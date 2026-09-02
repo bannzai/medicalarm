@@ -195,5 +195,6 @@
   "groupCreationLimitReached": "免费方案无法再创建更多群组。",
   "increaseGroupLimitWithPremium": "使用 Premium 方案创建更多群组",
   "invitationCode": "邀请码",
-  "invitationCodeShareDescription": "分享此代码即可邀请成员"
+  "invitationCodeShareDescription": "分享此代码即可邀请成员",
+  "invitationCodeExpiresAt": "有效期：{date}"
 }

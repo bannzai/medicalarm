@@ -195,5 +195,6 @@
   "groupCreationLimitReached": "អ្នកមិនអាចបង្កើតក្រុមបន្ថែមទៀតក្នុងគម្រោងឥតគិតថ្លៃបានទេ។",
   "increaseGroupLimitWithPremium": "បង្កើតក្រុមបន្ថែមជាមួយគម្រោង Premium",
   "invitationCode": "លេខកូដអញ្ជើញ",
-  "invitationCodeShareDescription": "ចែករំលែកកូដនេះ ដើម្បីអញ្ជើញសមាជិក"
+  "invitationCodeShareDescription": "ចែករំលែកកូដនេះ ដើម្បីអញ្ជើញសមាជិក",
+  "invitationCodeExpiresAt": "ផុតកំណត់៖ {date}"
 }

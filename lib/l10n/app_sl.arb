@@ -195,5 +195,6 @@
   "groupCreationLimitReached": "V brezplačnem paketu ne morete ustvariti več skupin.",
   "increaseGroupLimitWithPremium": "Ustvarite več skupin s paketom Premium",
   "invitationCode": "Koda za povabilo",
-  "invitationCodeShareDescription": "Delite to kodo, da povabite člane"
+  "invitationCodeShareDescription": "Delite to kodo, da povabite člane",
+  "invitationCodeExpiresAt": "Velja do: {date}"
 }

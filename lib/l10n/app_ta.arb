@@ -195,5 +195,6 @@
   "groupCreationLimitReached": "இலவசத் திட்டத்தில் இனி குழுக்களை உருவாக்க முடியாது.",
   "increaseGroupLimitWithPremium": "Premium திட்டத்தில் மேலும் குழுக்களை உருவாக்குங்கள்",
   "invitationCode": "அழைப்புக் குறியீடு",
-  "invitationCodeShareDescription": "உறுப்பினர்களை அழைக்க இந்தக் குறியீட்டைப் பகிரவும்"
+  "invitationCodeShareDescription": "உறுப்பினர்களை அழைக்க இந்தக் குறியீட்டைப் பகிரவும்",
+  "invitationCodeExpiresAt": "காலாவதி தேதி: {date}"
 }

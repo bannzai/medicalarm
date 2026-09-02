@@ -195,5 +195,6 @@
   "groupCreationLimitReached": "Na besplatnom planu ne možete izraditi više grupa.",
   "increaseGroupLimitWithPremium": "Izradite više grupa uz Premium plan",
   "invitationCode": "Kod pozivnice",
-  "invitationCodeShareDescription": "Podijelite ovaj kôd kako biste pozvali članove"
+  "invitationCodeShareDescription": "Podijelite ovaj kôd kako biste pozvali članove",
+  "invitationCodeExpiresAt": "Vrijedi do: {date}"
 }

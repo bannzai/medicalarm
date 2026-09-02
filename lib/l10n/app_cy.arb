@@ -195,5 +195,6 @@
   "groupCreationLimitReached": "Ni allwch greu rhagor o grwpiau ar y cynllun am ddim.",
   "increaseGroupLimitWithPremium": "Crëwch ragor o grwpiau gyda'r cynllun Premium",
   "invitationCode": "Cod gwahoddiad",
-  "invitationCodeShareDescription": "Gallwch rannu'r cod hwn i wahodd aelodau"
+  "invitationCodeShareDescription": "Gallwch rannu'r cod hwn i wahodd aelodau",
+  "invitationCodeExpiresAt": "Daw i ben: {date}"
 }

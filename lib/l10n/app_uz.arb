@@ -195,5 +195,6 @@
   "groupCreationLimitReached": "Bepul tarifda boshqa guruhlar yarata olmaysiz.",
   "increaseGroupLimitWithPremium": "Premium rejasi bilan ko‘proq guruh yarating",
   "invitationCode": "Taklif kodi",
-  "invitationCodeShareDescription": "Aʼzolarni taklif qilish uchun ushbu kodni ulashing"
+  "invitationCodeShareDescription": "Aʼzolarni taklif qilish uchun ushbu kodni ulashing",
+  "invitationCodeExpiresAt": "Amal qilish muddati: {date}"
 }

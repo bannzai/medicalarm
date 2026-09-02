@@ -195,5 +195,6 @@
   "groupCreationLimitReached": "Huwezi kuunda vikundi zaidi kwenye mpango wa bila malipo.",
   "increaseGroupLimitWithPremium": "Unda vikundi zaidi kwa mpango wa Premium",
   "invitationCode": "Msimbo wa mwaliko",
-  "invitationCodeShareDescription": "Shiriki msimbo huu ili kuwaalika wanachama"
+  "invitationCodeShareDescription": "Shiriki msimbo huu ili kuwaalika wanachama",
+  "invitationCodeExpiresAt": "Inaisha: {date}"
 }

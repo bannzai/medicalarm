@@ -195,5 +195,6 @@
   "groupCreationLimitReached": "Anda tidak boleh membuat kumpulan lagi dengan pelan percuma.",
   "increaseGroupLimitWithPremium": "Cipta lebih banyak kumpulan dengan pelan Premium",
   "invitationCode": "Kod jemputan",
-  "invitationCodeShareDescription": "Kongsi kod ini untuk menjemput ahli"
+  "invitationCodeShareDescription": "Kongsi kod ini untuk menjemput ahli",
+  "invitationCodeExpiresAt": "Sah sehingga: {date}"
 }

@@ -195,5 +195,6 @@
   "groupCreationLimitReached": "Du kan inte skapa fler grupper med gratisplanen.",
   "increaseGroupLimitWithPremium": "Skapa fler grupper med Premium-planen",
   "invitationCode": "Inbjudningskod",
-  "invitationCodeShareDescription": "Dela den här koden för att bjuda in medlemmar"
+  "invitationCodeShareDescription": "Dela den här koden för att bjuda in medlemmar",
+  "invitationCodeExpiresAt": "Giltig till: {date}"
 }

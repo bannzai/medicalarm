@@ -195,5 +195,6 @@
   "groupCreationLimitReached": "უფასო გეგმაში მეტ ჯგუფს ვეღარ შექმნით.",
   "increaseGroupLimitWithPremium": "შექმენით მეტი ჯგუფი Premium გეგმით",
   "invitationCode": "მოწვევის კოდი",
-  "invitationCodeShareDescription": "გააზიარეთ ეს კოდი წევრების მოსაწვევად"
+  "invitationCodeShareDescription": "გააზიარეთ ეს კოდი წევრების მოსაწვევად",
+  "invitationCodeExpiresAt": "მოქმედების ვადა: {date}"
 }

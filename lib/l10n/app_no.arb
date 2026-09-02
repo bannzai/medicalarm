@@ -195,5 +195,6 @@
   "groupCreationLimitReached": "Du kan ikke opprette flere grupper med gratisabonnementet.",
   "increaseGroupLimitWithPremium": "Opprett flere grupper med Premium-planen",
   "invitationCode": "Invitasjonskode",
-  "invitationCodeShareDescription": "Del denne koden for å invitere medlemmer"
+  "invitationCodeShareDescription": "Del denne koden for å invitere medlemmer",
+  "invitationCodeExpiresAt": "Utløper: {date}"
 }

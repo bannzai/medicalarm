@@ -195,5 +195,6 @@
   "groupCreationLimitReached": "സൗജന്യ പ്ലാനിൽ ഇനി കൂടുതൽ ഗ്രൂപ്പുകൾ സൃഷ്ടിക്കാനാകില്ല.",
   "increaseGroupLimitWithPremium": "Premium പ്ലാനിൽ കൂടുതൽ ഗ്രൂപ്പുകൾ സൃഷ്ടിക്കാം",
   "invitationCode": "ക്ഷണ കോഡ്",
-  "invitationCodeShareDescription": "അംഗങ്ങളെ ക്ഷണിക്കാൻ ഈ കോഡ് പങ്കിടുക"
+  "invitationCodeShareDescription": "അംഗങ്ങളെ ക്ഷണിക്കാൻ ഈ കോഡ് പങ്കിടുക",
+  "invitationCodeExpiresAt": "കാലഹരണപ്പെടുന്ന തീയതി: {date}"
 }

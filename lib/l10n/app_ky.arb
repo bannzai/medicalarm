@@ -195,5 +195,6 @@
   "groupCreationLimitReached": "Акысыз планда мындан ары топ түзө албайсыз.",
   "increaseGroupLimitWithPremium": "Premium планы менен көбүрөөк топ түзүңүз",
   "invitationCode": "Чакыруу коду",
-  "invitationCodeShareDescription": "Мүчөлөрдү чакыруу үчүн бул кодду бөлүшүңүз"
+  "invitationCodeShareDescription": "Мүчөлөрдү чакыруу үчүн бул кодду бөлүшүңүз",
+  "invitationCodeExpiresAt": "Жарактуулук мөөнөтү: {date}"
 }
