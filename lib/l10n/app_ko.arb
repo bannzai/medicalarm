@@ -285,5 +285,6 @@
   "onboardingPlanDailyReminders": "일일 알림",
   "onboardingPlanMedicines": "관리할 약",
   "onboardingPlanCriticalAlert": "Critical Alert",
-  "onboardingPlanCriticalAlertValue": "무음 모드에서도 알림"
+  "onboardingPlanCriticalAlertValue": "무음 모드에서도 알림",
+  "onboardingPremiumRecommendedTitle": "프리미엄 요금제를 추천합니다"
 }

@@ -285,5 +285,6 @@
   "onboardingPlanDailyReminders": "দৈনিক নোটিফিকেশন",
   "onboardingPlanMedicines": "পরিচালনা করার ওষুধ",
   "onboardingPlanCriticalAlert": "Critical Alert",
-  "onboardingPlanCriticalAlertValue": "সাইলেন্ট মোডেও বিজ্ঞপ্তি"
+  "onboardingPlanCriticalAlertValue": "সাইলেন্ট মোডেও বিজ্ঞপ্তি",
+  "onboardingPremiumRecommendedTitle": "প্রিমিয়াম প্ল্যান প্রস্তাবিত"
 }

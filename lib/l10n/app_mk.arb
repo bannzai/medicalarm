@@ -285,5 +285,6 @@
   "onboardingPlanDailyReminders": "Дневни известувања",
   "onboardingPlanMedicines": "Лекови за управување",
   "onboardingPlanCriticalAlert": "Critical Alert",
-  "onboardingPlanCriticalAlertValue": "Известувања и во тивок режим"
+  "onboardingPlanCriticalAlertValue": "Известувања и во тивок режим",
+  "onboardingPremiumRecommendedTitle": "Се препорачува Premium-планот"
 }

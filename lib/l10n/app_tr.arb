@@ -285,5 +285,6 @@
   "onboardingPlanDailyReminders": "Günlük hatırlatıcılar",
   "onboardingPlanMedicines": "Yönetilecek ilaçlar",
   "onboardingPlanCriticalAlert": "Critical Alert",
-  "onboardingPlanCriticalAlertValue": "Sessiz modda bile bildirimler"
+  "onboardingPlanCriticalAlertValue": "Sessiz modda bile bildirimler",
+  "onboardingPremiumRecommendedTitle": "Premium plan önerilir"
 }

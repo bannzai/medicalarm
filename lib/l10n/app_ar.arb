@@ -285,5 +285,6 @@
   "onboardingPlanDailyReminders": "الإشعارات اليومية",
   "onboardingPlanMedicines": "الأدوية المُدارة",
   "onboardingPlanCriticalAlert": "Critical Alert",
-  "onboardingPlanCriticalAlertValue": "إشعارات حتى في الوضع الصامت"
+  "onboardingPlanCriticalAlertValue": "إشعارات حتى في الوضع الصامت",
+  "onboardingPremiumRecommendedTitle": "نوصي بالخطة المميزة"
 }

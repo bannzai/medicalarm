@@ -285,5 +285,6 @@
   "onboardingPlanDailyReminders": "Daglige påmindelser",
   "onboardingPlanMedicines": "Medicin at administrere",
   "onboardingPlanCriticalAlert": "Critical Alert",
-  "onboardingPlanCriticalAlertValue": "Notifikationer selv i lydløs tilstand"
+  "onboardingPlanCriticalAlertValue": "Notifikationer selv i lydløs tilstand",
+  "onboardingPremiumRecommendedTitle": "Premium-planen anbefales"
 }

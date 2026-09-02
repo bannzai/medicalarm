@@ -285,5 +285,6 @@
   "onboardingPlanDailyReminders": "Notificacions diàries",
   "onboardingPlanMedicines": "Medicaments a gestionar",
   "onboardingPlanCriticalAlert": "Critical Alert",
-  "onboardingPlanCriticalAlertValue": "Notificacions fins i tot en mode silenciós"
+  "onboardingPlanCriticalAlertValue": "Notificacions fins i tot en mode silenciós",
+  "onboardingPremiumRecommendedTitle": "Es recomana el pla Premium"
 }

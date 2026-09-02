@@ -285,5 +285,6 @@
   "onboardingPlanDailyReminders": "每日提醒",
   "onboardingPlanMedicines": "需要管理的药物",
   "onboardingPlanCriticalAlert": "Critical Alert",
-  "onboardingPlanCriticalAlertValue": "静音模式下也能收到通知"
+  "onboardingPlanCriticalAlertValue": "静音模式下也能收到通知",
+  "onboardingPremiumRecommendedTitle": "推荐 Premium 套餐"
 }

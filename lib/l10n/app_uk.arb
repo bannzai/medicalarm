@@ -285,5 +285,6 @@
   "onboardingPlanDailyReminders": "Щоденні нагадування",
   "onboardingPlanMedicines": "Ліки для контролю",
   "onboardingPlanCriticalAlert": "Critical Alert",
-  "onboardingPlanCriticalAlertValue": "Сповіщення навіть у беззвучному режимі"
+  "onboardingPlanCriticalAlertValue": "Сповіщення навіть у беззвучному режимі",
+  "onboardingPremiumRecommendedTitle": "Рекомендуємо преміум-план"
 }

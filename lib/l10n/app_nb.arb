@@ -285,5 +285,6 @@
   "onboardingPlanDailyReminders": "Daglige påminnelser",
   "onboardingPlanMedicines": "Medisiner å følge opp",
   "onboardingPlanCriticalAlert": "Critical Alert",
-  "onboardingPlanCriticalAlertValue": "Varsler også i lydløsmodus"
+  "onboardingPlanCriticalAlertValue": "Varsler også i lydløsmodus",
+  "onboardingPremiumRecommendedTitle": "Premium-abonnementet anbefales"
 }

@@ -285,5 +285,6 @@
   "onboardingPlanDailyReminders": "Өдөр тутмын мэдэгдэл",
   "onboardingPlanMedicines": "Удирдах эмүүд",
   "onboardingPlanCriticalAlert": "Critical Alert",
-  "onboardingPlanCriticalAlertValue": "Чимээгүй горимд ч мэдэгдэл"
+  "onboardingPlanCriticalAlertValue": "Чимээгүй горимд ч мэдэгдэл",
+  "onboardingPremiumRecommendedTitle": "Premium багцыг санал болгож байна"
 }

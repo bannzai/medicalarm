@@ -285,5 +285,6 @@
   "onboardingPlanDailyReminders": "Tägliche Erinnerungen",
   "onboardingPlanMedicines": "Zu verwaltende Medikamente",
   "onboardingPlanCriticalAlert": "Critical Alert",
-  "onboardingPlanCriticalAlertValue": "Benachrichtigungen auch im Stummmodus"
+  "onboardingPlanCriticalAlertValue": "Benachrichtigungen auch im Stummmodus",
+  "onboardingPremiumRecommendedTitle": "Der Premium-Tarif wird empfohlen"
 }

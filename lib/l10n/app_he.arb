@@ -285,5 +285,6 @@
   "onboardingPlanDailyReminders": "התראות יומיות",
   "onboardingPlanMedicines": "תרופות לניהול",
   "onboardingPlanCriticalAlert": "Critical Alert",
-  "onboardingPlanCriticalAlertValue": "התראות גם במצב שקט"
+  "onboardingPlanCriticalAlertValue": "התראות גם במצב שקט",
+  "onboardingPremiumRecommendedTitle": "מומלץ לבחור בתוכנית Premium"
 }

@@ -285,5 +285,6 @@
   "onboardingPlanDailyReminders": "പ്രതിദിന അറിയിപ്പുകൾ",
   "onboardingPlanMedicines": "നിയന്ത്രിക്കേണ്ട മരുന്നുകൾ",
   "onboardingPlanCriticalAlert": "Critical Alert",
-  "onboardingPlanCriticalAlertValue": "സൈലന്റ് മോഡിലും അറിയിപ്പുകൾ"
+  "onboardingPlanCriticalAlertValue": "സൈലന്റ് മോഡിലും അറിയിപ്പുകൾ",
+  "onboardingPremiumRecommendedTitle": "പ്രീമിയം പ്ലാൻ ശുപാർശ ചെയ്യുന്നു"
 }

@@ -285,5 +285,6 @@
   "onboardingPlanDailyReminders": "Dagliga påminnelser",
   "onboardingPlanMedicines": "Läkemedel att hantera",
   "onboardingPlanCriticalAlert": "Critical Alert",
-  "onboardingPlanCriticalAlertValue": "Notiser även i tyst läge"
+  "onboardingPlanCriticalAlertValue": "Notiser även i tyst läge",
+  "onboardingPremiumRecommendedTitle": "Premiumplanen rekommenderas"
 }

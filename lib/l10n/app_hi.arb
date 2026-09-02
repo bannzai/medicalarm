@@ -285,5 +285,6 @@
   "onboardingPlanDailyReminders": "दैनिक सूचनाएँ",
   "onboardingPlanMedicines": "प्रबंधित की जाने वाली दवाएँ",
   "onboardingPlanCriticalAlert": "Critical Alert",
-  "onboardingPlanCriticalAlertValue": "साइलेंट मोड में भी सूचनाएँ"
+  "onboardingPlanCriticalAlertValue": "साइलेंट मोड में भी सूचनाएँ",
+  "onboardingPremiumRecommendedTitle": "प्रीमियम प्लान की अनुशंसा की जाती है"
 }

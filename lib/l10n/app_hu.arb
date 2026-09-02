@@ -285,5 +285,6 @@
   "onboardingPlanDailyReminders": "Napi emlékeztetők",
   "onboardingPlanMedicines": "Kezelendő gyógyszerek",
   "onboardingPlanCriticalAlert": "Critical Alert",
-  "onboardingPlanCriticalAlertValue": "Értesítések néma módban is"
+  "onboardingPlanCriticalAlertValue": "Értesítések néma módban is",
+  "onboardingPremiumRecommendedTitle": "A Prémium csomagot ajánljuk"
 }

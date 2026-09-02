@@ -285,5 +285,6 @@
   "onboardingPlanDailyReminders": "Notifikasi harian",
   "onboardingPlanMedicines": "Obat yang dikelola",
   "onboardingPlanCriticalAlert": "Critical Alert",
-  "onboardingPlanCriticalAlertValue": "Notifikasi bahkan dalam mode senyap"
+  "onboardingPlanCriticalAlertValue": "Notifikasi bahkan dalam mode senyap",
+  "onboardingPremiumRecommendedTitle": "Paket Premium direkomendasikan"
 }

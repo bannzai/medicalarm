@@ -285,5 +285,6 @@
   "onboardingPlanDailyReminders": "Igapäevased meeldetuletused",
   "onboardingPlanMedicines": "Hallatavad ravimid",
   "onboardingPlanCriticalAlert": "Critical Alert",
-  "onboardingPlanCriticalAlertValue": "Märguanded ka hääletus režiimis"
+  "onboardingPlanCriticalAlertValue": "Märguanded ka hääletus režiimis",
+  "onboardingPremiumRecommendedTitle": "Soovitame Premium-paketti"
 }

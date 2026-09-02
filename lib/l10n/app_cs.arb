@@ -285,5 +285,6 @@
   "onboardingPlanDailyReminders": "Denní upozornění",
   "onboardingPlanMedicines": "Spravované léky",
   "onboardingPlanCriticalAlert": "Critical Alert",
-  "onboardingPlanCriticalAlertValue": "Oznámení i v tichém režimu"
+  "onboardingPlanCriticalAlertValue": "Oznámení i v tichém režimu",
+  "onboardingPremiumRecommendedTitle": "Doporučujeme prémiový plán"
 }

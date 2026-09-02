@@ -285,5 +285,6 @@
   "onboardingPlanDailyReminders": "Mga pang-araw-araw na paalala",
   "onboardingPlanMedicines": "Mga gamot na pamamahalaan",
   "onboardingPlanCriticalAlert": "Critical Alert",
-  "onboardingPlanCriticalAlertValue": "Mga notification kahit nasa silent mode"
+  "onboardingPlanCriticalAlertValue": "Mga notification kahit nasa silent mode",
+  "onboardingPremiumRecommendedTitle": "Inirerekomenda ang Premium plan"
 }

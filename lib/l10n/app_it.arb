@@ -285,5 +285,6 @@
   "onboardingPlanDailyReminders": "Promemoria giornalieri",
   "onboardingPlanMedicines": "Farmaci da gestire",
   "onboardingPlanCriticalAlert": "Critical Alert",
-  "onboardingPlanCriticalAlertValue": "Notifiche anche in modalità silenziosa"
+  "onboardingPlanCriticalAlertValue": "Notifiche anche in modalità silenziosa",
+  "onboardingPremiumRecommendedTitle": "Ti consigliamo il piano Premium"
 }

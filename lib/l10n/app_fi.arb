@@ -285,5 +285,6 @@
   "onboardingPlanDailyReminders": "Päivittäiset muistutukset",
   "onboardingPlanMedicines": "Hallittavat lääkkeet",
   "onboardingPlanCriticalAlert": "Critical Alert",
-  "onboardingPlanCriticalAlertValue": "Ilmoitukset myös äänettömässä tilassa"
+  "onboardingPlanCriticalAlertValue": "Ilmoitukset myös äänettömässä tilassa",
+  "onboardingPremiumRecommendedTitle": "Premium-pakettia suositellaan"
 }

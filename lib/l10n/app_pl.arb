@@ -285,5 +285,6 @@
   "onboardingPlanDailyReminders": "Codzienne przypomnienia",
   "onboardingPlanMedicines": "Leki do monitorowania",
   "onboardingPlanCriticalAlert": "Critical Alert",
-  "onboardingPlanCriticalAlertValue": "Powiadomienia nawet w trybie cichym"
+  "onboardingPlanCriticalAlertValue": "Powiadomienia nawet w trybie cichym",
+  "onboardingPremiumRecommendedTitle": "Polecamy plan Premium"
 }

@@ -285,5 +285,6 @@
   "onboardingPlanDailyReminders": "Ikdienas atgādinājumi",
   "onboardingPlanMedicines": "Pārvaldāmās zāles",
   "onboardingPlanCriticalAlert": "Critical Alert",
-  "onboardingPlanCriticalAlertValue": "Paziņojumi arī klusuma režīmā"
+  "onboardingPlanCriticalAlertValue": "Paziņojumi arī klusuma režīmā",
+  "onboardingPremiumRecommendedTitle": "Ieteicams Premium plāns"
 }

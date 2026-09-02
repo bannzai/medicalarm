@@ -285,5 +285,6 @@
   "onboardingPlanDailyReminders": "Njoftimet ditore",
   "onboardingPlanMedicines": "Medikamente për menaxhim",
   "onboardingPlanCriticalAlert": "Critical Alert",
-  "onboardingPlanCriticalAlertValue": "Njoftime edhe në modalitetin pa zë"
+  "onboardingPlanCriticalAlertValue": "Njoftime edhe në modalitetin pa zë",
+  "onboardingPremiumRecommendedTitle": "Rekomandohet plani Premium"
 }

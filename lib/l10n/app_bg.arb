@@ -285,5 +285,6 @@
   "onboardingPlanDailyReminders": "Дневни известия",
   "onboardingPlanMedicines": "Лекарства за управление",
   "onboardingPlanCriticalAlert": "Critical Alert",
-  "onboardingPlanCriticalAlertValue": "Известия дори в безшумен режим"
+  "onboardingPlanCriticalAlertValue": "Известия дори в безшумен режим",
+  "onboardingPremiumRecommendedTitle": "Препоръчваме премиум плана"
 }

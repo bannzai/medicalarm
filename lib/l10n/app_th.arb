@@ -285,5 +285,6 @@
   "onboardingPlanDailyReminders": "การแจ้งเตือนรายวัน",
   "onboardingPlanMedicines": "ยาที่ต้องจัดการ",
   "onboardingPlanCriticalAlert": "Critical Alert",
-  "onboardingPlanCriticalAlertValue": "การแจ้งเตือนแม้อยู่ในโหมดเงียบ"
+  "onboardingPlanCriticalAlertValue": "การแจ้งเตือนแม้อยู่ในโหมดเงียบ",
+  "onboardingPremiumRecommendedTitle": "แนะนำแผน Premium"
 }
