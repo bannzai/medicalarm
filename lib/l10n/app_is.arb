@@ -242,5 +242,6 @@
   "onboardingPainForgotTitle": "Hefurðu einhvern tíma gleymt að taka lyfið þitt?",
   "onboardingFrequencyOften": "Oft",
   "onboardingFrequencySometimes": "Stundum",
-  "onboardingFrequencyRarely": "Nánast aldrei"
+  "onboardingFrequencyRarely": "Nánast aldrei",
+  "onboardingFrequencyNever": "Aldrei"
 }

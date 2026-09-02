@@ -242,5 +242,6 @@
   "onboardingPainForgotTitle": "Дәрі қабылдауды ұмытып кеткен кезіңіз болды ма?",
   "onboardingFrequencyOften": "Жиі",
   "onboardingFrequencySometimes": "Кейде",
-  "onboardingFrequencyRarely": "Дерлік ешқашан"
+  "onboardingFrequencyRarely": "Дерлік ешқашан",
+  "onboardingFrequencyNever": "Ешқашан"
 }

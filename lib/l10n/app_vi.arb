@@ -242,5 +242,6 @@
   "onboardingPainForgotTitle": "Bạn đã bao giờ quên uống thuốc chưa?",
   "onboardingFrequencyOften": "Thường xuyên",
   "onboardingFrequencySometimes": "Thỉnh thoảng",
-  "onboardingFrequencyRarely": "Hầu như không bao giờ"
+  "onboardingFrequencyRarely": "Hầu như không bao giờ",
+  "onboardingFrequencyNever": "Không bao giờ"
 }

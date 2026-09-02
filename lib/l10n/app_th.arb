@@ -242,5 +242,6 @@
   "onboardingPainForgotTitle": "คุณเคยลืมกินยาหรือไม่",
   "onboardingFrequencyOften": "บ่อย",
   "onboardingFrequencySometimes": "บางครั้ง",
-  "onboardingFrequencyRarely": "เกือบไม่เคย"
+  "onboardingFrequencyRarely": "เกือบไม่เคย",
+  "onboardingFrequencyNever": "ไม่เคย"
 }

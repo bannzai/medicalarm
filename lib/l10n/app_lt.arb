@@ -242,5 +242,6 @@
   "onboardingPainForgotTitle": "Ar kada nors pamiršote išgerti vaistus?",
   "onboardingFrequencyOften": "Dažnai",
   "onboardingFrequencySometimes": "Kartais",
-  "onboardingFrequencyRarely": "Beveik niekada"
+  "onboardingFrequencyRarely": "Beveik niekada",
+  "onboardingFrequencyNever": "Niekada"
 }

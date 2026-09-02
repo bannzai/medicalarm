@@ -242,5 +242,6 @@
   "onboardingPainForgotTitle": "Дали некогаш сте заборавиле да го земете лекот?",
   "onboardingFrequencyOften": "Често",
   "onboardingFrequencySometimes": "Понекогаш",
-  "onboardingFrequencyRarely": "Речиси никогаш"
+  "onboardingFrequencyRarely": "Речиси никогаш",
+  "onboardingFrequencyNever": "Никогаш"
 }

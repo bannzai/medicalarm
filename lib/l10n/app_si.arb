@@ -242,5 +242,6 @@
   "onboardingPainForgotTitle": "ඔබට කවදා හෝ ඖෂධ ගැනීමට අමතක වී තිබේද?",
   "onboardingFrequencyOften": "නිතර",
   "onboardingFrequencySometimes": "සමහර විට",
-  "onboardingFrequencyRarely": "ඉතා කලාතුරකින්"
+  "onboardingFrequencyRarely": "ඉතා කලාතුරකින්",
+  "onboardingFrequencyNever": "කිසිදා නැත"
 }

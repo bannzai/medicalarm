@@ -242,5 +242,6 @@
   "onboardingPainForgotTitle": "Kas olete kunagi unustanud oma ravimit võtta?",
   "onboardingFrequencyOften": "Sageli",
   "onboardingFrequencySometimes": "Mõnikord",
-  "onboardingFrequencyRarely": "Peaaegu mitte kunagi"
+  "onboardingFrequencyRarely": "Peaaegu mitte kunagi",
+  "onboardingFrequencyNever": "Mitte kunagi"
 }

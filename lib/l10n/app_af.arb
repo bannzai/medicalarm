@@ -242,5 +242,6 @@
   "onboardingPainForgotTitle": "Het jy al ooit vergeet om jou medisyne te neem?",
   "onboardingFrequencyOften": "Dikwels",
   "onboardingFrequencySometimes": "Soms",
-  "onboardingFrequencyRarely": "Byna nooit"
+  "onboardingFrequencyRarely": "Byna nooit",
+  "onboardingFrequencyNever": "Nooit"
 }

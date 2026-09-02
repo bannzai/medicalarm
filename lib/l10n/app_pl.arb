@@ -242,5 +242,6 @@
   "onboardingPainForgotTitle": "Czy zdarzyło Ci się kiedyś zapomnieć o zażyciu leku?",
   "onboardingFrequencyOften": "Często",
   "onboardingFrequencySometimes": "Czasami",
-  "onboardingFrequencyRarely": "Prawie nigdy"
+  "onboardingFrequencyRarely": "Prawie nigdy",
+  "onboardingFrequencyNever": "Nigdy"
 }

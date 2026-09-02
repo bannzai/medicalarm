@@ -242,5 +242,6 @@
   "onboardingPainForgotTitle": "¿Alguna vez has olvidado tomar tu medicamento?",
   "onboardingFrequencyOften": "A menudo",
   "onboardingFrequencySometimes": "A veces",
-  "onboardingFrequencyRarely": "Casi nunca"
+  "onboardingFrequencyRarely": "Casi nunca",
+  "onboardingFrequencyNever": "Nunca"
 }

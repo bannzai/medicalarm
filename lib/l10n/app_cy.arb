@@ -242,5 +242,6 @@
   "onboardingPainForgotTitle": "Ydych chi erioed wedi anghofio cymryd eich meddyginiaeth?",
   "onboardingFrequencyOften": "Yn aml",
   "onboardingFrequencySometimes": "Weithiau",
-  "onboardingFrequencyRarely": "Bron byth"
+  "onboardingFrequencyRarely": "Bron byth",
+  "onboardingFrequencyNever": "Byth"
 }

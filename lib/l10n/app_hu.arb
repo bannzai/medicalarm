@@ -242,5 +242,6 @@
   "onboardingPainForgotTitle": "Előfordult már, hogy elfelejtette bevenni a gyógyszerét?",
   "onboardingFrequencyOften": "Gyakran",
   "onboardingFrequencySometimes": "Néha",
-  "onboardingFrequencyRarely": "Szinte soha"
+  "onboardingFrequencyRarely": "Szinte soha",
+  "onboardingFrequencyNever": "Soha"
 }

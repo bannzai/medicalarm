@@ -242,5 +242,6 @@
   "onboardingPainForgotTitle": "Pernahkah anda terlupa untuk mengambil ubat?",
   "onboardingFrequencyOften": "Kerap",
   "onboardingFrequencySometimes": "Kadang-kadang",
-  "onboardingFrequencyRarely": "Hampir tidak pernah"
+  "onboardingFrequencyRarely": "Hampir tidak pernah",
+  "onboardingFrequencyNever": "Tidak pernah"
 }

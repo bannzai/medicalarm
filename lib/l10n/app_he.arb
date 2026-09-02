@@ -242,5 +242,6 @@
   "onboardingPainForgotTitle": "האם אי פעם שכחת ליטול את התרופה שלך?",
   "onboardingFrequencyOften": "לעיתים קרובות",
   "onboardingFrequencySometimes": "לפעמים",
-  "onboardingFrequencyRarely": "כמעט אף פעם"
+  "onboardingFrequencyRarely": "כמעט אף פעם",
+  "onboardingFrequencyNever": "אף פעם לא"
 }

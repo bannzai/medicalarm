@@ -242,5 +242,6 @@
   "onboardingPainForgotTitle": "Heç dərmanınızı qəbul etməyi unutmusunuz?",
   "onboardingFrequencyOften": "Tez-tez",
   "onboardingFrequencySometimes": "Bəzən",
-  "onboardingFrequencyRarely": "Demək olar ki, heç vaxt"
+  "onboardingFrequencyRarely": "Demək olar ki, heç vaxt",
+  "onboardingFrequencyNever": "Heç vaxt"
 }

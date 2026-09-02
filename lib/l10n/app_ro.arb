@@ -242,5 +242,6 @@
   "onboardingPainForgotTitle": "Ați uitat vreodată să vă luați medicamentul?",
   "onboardingFrequencyOften": "Des",
   "onboardingFrequencySometimes": "Uneori",
-  "onboardingFrequencyRarely": "Aproape niciodată"
+  "onboardingFrequencyRarely": "Aproape niciodată",
+  "onboardingFrequencyNever": "Niciodată"
 }

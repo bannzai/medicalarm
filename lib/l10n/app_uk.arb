@@ -242,5 +242,6 @@
   "onboardingPainForgotTitle": "Ви коли-небудь забували прийняти ліки?",
   "onboardingFrequencyOften": "Часто",
   "onboardingFrequencySometimes": "Іноді",
-  "onboardingFrequencyRarely": "Майже ніколи"
+  "onboardingFrequencyRarely": "Майже ніколи",
+  "onboardingFrequencyNever": "Ніколи"
 }

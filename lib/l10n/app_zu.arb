@@ -242,5 +242,6 @@
   "onboardingPainForgotTitle": "Wake wakhohlwa ukuphuza umuthi wakho?",
   "onboardingFrequencyOften": "Kaningi",
   "onboardingFrequencySometimes": "Ngezinye izikhathi",
-  "onboardingFrequencyRarely": "Cishe akukaze"
+  "onboardingFrequencyRarely": "Cishe akukaze",
+  "onboardingFrequencyNever": "Angikaze"
 }

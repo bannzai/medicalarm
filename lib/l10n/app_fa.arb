@@ -242,5 +242,6 @@
   "onboardingPainForgotTitle": "آیا تا به حال مصرف دارویتان را فراموش کرده‌اید؟",
   "onboardingFrequencyOften": "اغلب",
   "onboardingFrequencySometimes": "گاهی",
-  "onboardingFrequencyRarely": "تقریباً هرگز"
+  "onboardingFrequencyRarely": "تقریباً هرگز",
+  "onboardingFrequencyNever": "هرگز"
 }

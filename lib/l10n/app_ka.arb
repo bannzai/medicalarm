@@ -242,5 +242,6 @@
   "onboardingPainForgotTitle": "ოდესმე დაგვიწყებიათ წამლის მიღება?",
   "onboardingFrequencyOften": "ხშირად",
   "onboardingFrequencySometimes": "ზოგჯერ",
-  "onboardingFrequencyRarely": "თითქმის არასდროს"
+  "onboardingFrequencyRarely": "თითქმის არასდროს",
+  "onboardingFrequencyNever": "არასოდეს"
 }

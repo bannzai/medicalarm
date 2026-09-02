@@ -242,5 +242,6 @@
   "onboardingPainForgotTitle": "Ці здаралася вам забываць прымаць лекі?",
   "onboardingFrequencyOften": "Часта",
   "onboardingFrequencySometimes": "Часам",
-  "onboardingFrequencyRarely": "Амаль ніколі"
+  "onboardingFrequencyRarely": "Амаль ніколі",
+  "onboardingFrequencyNever": "Ніколі"
 }

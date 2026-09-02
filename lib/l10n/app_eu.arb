@@ -242,5 +242,6 @@
   "onboardingPainForgotTitle": "Inoiz ahaztu al zaizu botika hartzea?",
   "onboardingFrequencyOften": "Sarritan",
   "onboardingFrequencySometimes": "Batzuetan",
-  "onboardingFrequencyRarely": "Ia inoiz ez"
+  "onboardingFrequencyRarely": "Ia inoiz ez",
+  "onboardingFrequencyNever": "Inoiz ez"
 }

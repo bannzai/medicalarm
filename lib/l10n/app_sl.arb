@@ -242,5 +242,6 @@
   "onboardingPainForgotTitle": "Ste kdaj pozabili vzeti zdravilo?",
   "onboardingFrequencyOften": "Pogosto",
   "onboardingFrequencySometimes": "Včasih",
-  "onboardingFrequencyRarely": "Skoraj nikoli"
+  "onboardingFrequencyRarely": "Skoraj nikoli",
+  "onboardingFrequencyNever": "Nikoli"
 }

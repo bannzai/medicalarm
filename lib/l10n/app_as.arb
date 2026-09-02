@@ -242,5 +242,6 @@
   "onboardingPainForgotTitle": "আপুনি কেতিয়াবা ঔষধ খাবলৈ পাহৰিছেনে?",
   "onboardingFrequencyOften": "সঘনাই",
   "onboardingFrequencySometimes": "কেতিয়াবা",
-  "onboardingFrequencyRarely": "প্ৰায় কেতিয়াও নহয়"
+  "onboardingFrequencyRarely": "প্ৰায় কেতিয়াও নহয়",
+  "onboardingFrequencyNever": "কেতিয়াও নহয়"
 }

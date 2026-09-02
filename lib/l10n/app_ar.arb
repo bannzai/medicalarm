@@ -242,5 +242,6 @@
   "onboardingPainForgotTitle": "هل سبق أن نسيت تناول دوائك؟",
   "onboardingFrequencyOften": "غالبًا",
   "onboardingFrequencySometimes": "أحيانًا",
-  "onboardingFrequencyRarely": "نادرًا جدًا"
+  "onboardingFrequencyRarely": "نادرًا جدًا",
+  "onboardingFrequencyNever": "أبدًا"
 }

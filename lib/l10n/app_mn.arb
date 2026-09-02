@@ -242,5 +242,6 @@
   "onboardingPainForgotTitle": "Та эм уухаа хэзээ нэгэн цагт мартсан уу?",
   "onboardingFrequencyOften": "Ихэнхдээ",
   "onboardingFrequencySometimes": "Заримдаа",
-  "onboardingFrequencyRarely": "Бараг хэзээ ч үгүй"
+  "onboardingFrequencyRarely": "Бараг хэзээ ч үгүй",
+  "onboardingFrequencyNever": "Хэзээ ч үгүй"
 }

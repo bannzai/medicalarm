@@ -242,5 +242,6 @@
   "onboardingPainForgotTitle": "Apakah Anda pernah lupa minum obat?",
   "onboardingFrequencyOften": "Sering",
   "onboardingFrequencySometimes": "Kadang-kadang",
-  "onboardingFrequencyRarely": "Hampir tidak pernah"
+  "onboardingFrequencyRarely": "Hampir tidak pernah",
+  "onboardingFrequencyNever": "Tidak pernah"
 }

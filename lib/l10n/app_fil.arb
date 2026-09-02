@@ -242,5 +242,6 @@
   "onboardingPainForgotTitle": "Nakalimutan mo na bang uminom ng gamot?",
   "onboardingFrequencyOften": "Madalas",
   "onboardingFrequencySometimes": "Minsan",
-  "onboardingFrequencyRarely": "Halos hindi kailanman"
+  "onboardingFrequencyRarely": "Halos hindi kailanman",
+  "onboardingFrequencyNever": "Hindi kailanman"
 }

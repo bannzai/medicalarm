@@ -242,5 +242,6 @@
   "onboardingPainForgotTitle": "Zapomněli jste někdy užít svůj lék?",
   "onboardingFrequencyOften": "Často",
   "onboardingFrequencySometimes": "Někdy",
-  "onboardingFrequencyRarely": "Téměř nikdy"
+  "onboardingFrequencyRarely": "Téměř nikdy",
+  "onboardingFrequencyNever": "Nikdy"
 }

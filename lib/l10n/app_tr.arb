@@ -242,5 +242,6 @@
   "onboardingPainForgotTitle": "İlacınızı almayı hiç unuttunuz mu?",
   "onboardingFrequencyOften": "Sık sık",
   "onboardingFrequencySometimes": "Bazen",
-  "onboardingFrequencyRarely": "Neredeyse hiç"
+  "onboardingFrequencyRarely": "Neredeyse hiç",
+  "onboardingFrequencyNever": "Hiçbir zaman"
 }

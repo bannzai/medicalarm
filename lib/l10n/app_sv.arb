@@ -242,5 +242,6 @@
   "onboardingPainForgotTitle": "Har du någon gång glömt att ta din medicin?",
   "onboardingFrequencyOften": "Ofta",
   "onboardingFrequencySometimes": "Ibland",
-  "onboardingFrequencyRarely": "Nästan aldrig"
+  "onboardingFrequencyRarely": "Nästan aldrig",
+  "onboardingFrequencyNever": "Aldrig"
 }

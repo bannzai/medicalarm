@@ -242,5 +242,6 @@
   "onboardingPainForgotTitle": "A keni harruar ndonjëherë të merrni ilaçin?",
   "onboardingFrequencyOften": "Shpesh",
   "onboardingFrequencySometimes": "Ndonjëherë",
-  "onboardingFrequencyRarely": "Pothuajse kurrë"
+  "onboardingFrequencyRarely": "Pothuajse kurrë",
+  "onboardingFrequencyNever": "Asnjëherë"
 }
