@@ -224,5 +224,6 @@
   "accountLinkBannerText": "အဖွဲ့ကို မျှဝေနေစဉ် အကောင့်လွှဲပြောင်းမှုကို စနစ်ထည့်သွင်းရန် အထူးအကြံပြုပါသည်။",
   "minimumDoseInterval": "ဆေးသောက်ချိန်ကြားကာလ",
   "minimumDoseIntervalDescription": "ယခင်ဆေးသောက်ပြီးနောက် ဆေးပမာဏများကြား အနည်းဆုံးကြာချိန်",
-  "minimumDoseIntervalNone": "မရှိပါ"
+  "minimumDoseIntervalNone": "မရှိပါ",
+  "minimumDoseIntervalHoursFormat": "အနည်းဆုံး {hours} နာရီ"
 }

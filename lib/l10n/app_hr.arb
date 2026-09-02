@@ -224,5 +224,6 @@
   "accountLinkBannerText": "Tijekom dijeljenja grupe toplo preporučujemo da postavite prijenos računa.",
   "minimumDoseInterval": "Razmak između doza",
   "minimumDoseIntervalDescription": "Minimalni razmak između doza od prethodne doze",
-  "minimumDoseIntervalNone": "Nema"
+  "minimumDoseIntervalNone": "Nema",
+  "minimumDoseIntervalHoursFormat": "Najmanje {hours} sati"
 }

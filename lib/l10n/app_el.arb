@@ -224,5 +224,6 @@
   "accountLinkBannerText": "Κατά την κοινή χρήση μιας ομάδας, συνιστούμε ανεπιφύλακτα να ρυθμίσετε τη μεταφορά λογαριασμού.",
   "minimumDoseInterval": "Διάστημα μεταξύ δόσεων",
   "minimumDoseIntervalDescription": "Ελάχιστο χρονικό διάστημα μεταξύ δόσεων από την προηγούμενη δόση",
-  "minimumDoseIntervalNone": "Κανένα"
+  "minimumDoseIntervalNone": "Κανένα",
+  "minimumDoseIntervalHoursFormat": "Τουλάχιστον {hours} ώρες"
 }

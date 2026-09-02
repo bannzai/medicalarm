@@ -224,5 +224,6 @@
   "accountLinkBannerText": "ໃນຂະນະແບ່ງປັນກຸ່ມ ພວກເຮົາຂໍແນະນຳຢ່າງຍິ່ງໃຫ້ຕັ້ງຄ່າການໂອນບັນຊີ.",
   "minimumDoseInterval": "ໄລຍະຫ່າງລະຫວ່າງການກິນຢາ",
   "minimumDoseIntervalDescription": "ໄລຍະເວລາຂັ້ນຕ່ຳລະຫວ່າງການກິນຢາ ຫຼັງຈາກຄັ້ງກ່ອນ",
-  "minimumDoseIntervalNone": "ບໍ່ມີ"
+  "minimumDoseIntervalNone": "ບໍ່ມີ",
+  "minimumDoseIntervalHoursFormat": "ຢ່າງໜ້ອຍ {hours} ຊົ່ວໂມງ"
 }

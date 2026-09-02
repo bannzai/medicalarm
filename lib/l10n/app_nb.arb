@@ -224,5 +224,6 @@
   "accountLinkBannerText": "Når du deler en gruppe, anbefaler vi på det sterkeste at du konfigurerer kontooverføring.",
   "minimumDoseInterval": "Doseringsintervall",
   "minimumDoseIntervalDescription": "Minste tid mellom doser siden forrige dose",
-  "minimumDoseIntervalNone": "Ingen"
+  "minimumDoseIntervalNone": "Ingen",
+  "minimumDoseIntervalHoursFormat": "Minst {hours} timer"
 }

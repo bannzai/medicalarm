@@ -224,5 +224,6 @@
   "accountLinkBannerText": "ಗುಂಪನ್ನು ಹಂಚಿಕೊಳ್ಳುವಾಗ, ಖಾತೆ ವರ್ಗಾವಣೆಯನ್ನು ಸೆಟಪ್ ಮಾಡಲು ನಾವು ಬಲವಾಗಿ ಶಿಫಾರಸು ಮಾಡುತ್ತೇವೆ.",
   "minimumDoseInterval": "ಡೋಸ್‌ಗಳ ನಡುವಿನ ಅಂತರ",
   "minimumDoseIntervalDescription": "ಹಿಂದಿನ ಡೋಸ್‌ನಿಂದ ಡೋಸ್‌ಗಳ ನಡುವಿನ ಕನಿಷ್ಠ ಸಮಯ",
-  "minimumDoseIntervalNone": "ಯಾವುದೂ ಇಲ್ಲ"
+  "minimumDoseIntervalNone": "ಯಾವುದೂ ಇಲ್ಲ",
+  "minimumDoseIntervalHoursFormat": "ಕನಿಷ್ಠ {hours} ಗಂಟೆಗಳು"
 }

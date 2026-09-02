@@ -224,5 +224,6 @@
   "accountLinkBannerText": "أثناء مشاركة المجموعة، نوصي بشدة بإعداد نقل الحساب.",
   "minimumDoseInterval": "الفاصل بين الجرعات",
   "minimumDoseIntervalDescription": "الحد الأدنى للوقت بين الجرعات منذ الجرعة السابقة",
-  "minimumDoseIntervalNone": "لا يوجد"
+  "minimumDoseIntervalNone": "لا يوجد",
+  "minimumDoseIntervalHoursFormat": "{hours} ساعة على الأقل"
 }

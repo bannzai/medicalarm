@@ -224,5 +224,6 @@
   "accountLinkBannerText": "Wenn du e Gruppe teilsch, empfehle mir dir dringend, d Kontoübertragung iizrichte.",
   "minimumDoseInterval": "Einnahmeabstand",
   "minimumDoseIntervalDescription": "Mindestabstand zwüsche de Dosis sit em letschte Iinah",
-  "minimumDoseIntervalNone": "Keine"
+  "minimumDoseIntervalNone": "Keine",
+  "minimumDoseIntervalHoursFormat": "Mindestens {hours} Stunden"
 }

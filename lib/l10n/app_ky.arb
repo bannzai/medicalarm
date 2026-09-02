@@ -224,5 +224,6 @@
   "accountLinkBannerText": "Топту бөлүшүп жатканда, аккаунтту өткөрүп берүү жөндөөлөрүн орнотууну абдан сунуштайбыз.",
   "minimumDoseInterval": "Дозалардын ортосундагы аралык",
   "minimumDoseIntervalDescription": "Мурунку дозадан кийинки минималдуу аралык",
-  "minimumDoseIntervalNone": "Жок"
+  "minimumDoseIntervalNone": "Жок",
+  "minimumDoseIntervalHoursFormat": "Кеминде {hours} саат"
 }

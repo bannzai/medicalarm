@@ -224,5 +224,6 @@
   "accountLinkBannerText": "При совместном использовании группы настоятельно рекомендуем настроить перенос аккаунта.",
   "minimumDoseInterval": "Интервал между приёмами",
   "minimumDoseIntervalDescription": "Минимальный интервал между приёмами после предыдущей дозы",
-  "minimumDoseIntervalNone": "Нет"
+  "minimumDoseIntervalNone": "Нет",
+  "minimumDoseIntervalHoursFormat": "Не менее {hours} часов"
 }

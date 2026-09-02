@@ -224,5 +224,6 @@
   "accountLinkBannerText": "Habang nagbabahagi ng grupo, lubos naming inirerekomendang i-set up ang paglilipat ng account.",
   "minimumDoseInterval": "Agwat ng pag-inom",
   "minimumDoseIntervalDescription": "Minimum na pagitan ng mga dosis mula sa huling pag-inom",
-  "minimumDoseIntervalNone": "Wala"
+  "minimumDoseIntervalNone": "Wala",
+  "minimumDoseIntervalHoursFormat": "Hindi bababa sa {hours} oras"
 }

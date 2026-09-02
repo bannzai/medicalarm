@@ -224,5 +224,6 @@
   "accountLinkBannerText": "ग्रुप शेअर करताना खाते हस्तांतरण सेट अप करण्याची आम्ही ठामपणे शिफारस करतो.",
   "minimumDoseInterval": "डोसांमधील अंतर",
   "minimumDoseIntervalDescription": "मागील डोसनंतर डोसांमधील किमान अंतर",
-  "minimumDoseIntervalNone": "काहीही नाही"
+  "minimumDoseIntervalNone": "काहीही नाही",
+  "minimumDoseIntervalHoursFormat": "किमान {hours} तास"
 }

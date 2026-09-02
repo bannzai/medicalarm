@@ -224,5 +224,6 @@
   "accountLinkBannerText": "Khi chia sẻ nhóm, chúng tôi đặc biệt khuyên bạn thiết lập chuyển tài khoản.",
   "minimumDoseInterval": "Khoảng cách giữa các liều",
   "minimumDoseIntervalDescription": "Khoảng thời gian tối thiểu giữa các liều kể từ liều trước",
-  "minimumDoseIntervalNone": "Không có"
+  "minimumDoseIntervalNone": "Không có",
+  "minimumDoseIntervalHoursFormat": "Ít nhất {hours} giờ"
 }

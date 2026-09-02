@@ -224,5 +224,6 @@
   "accountLinkBannerText": "Semasa berkongsi kumpulan, kami amat mengesyorkan anda menyediakan pemindahan akaun.",
   "minimumDoseInterval": "Jarak antara dos",
   "minimumDoseIntervalDescription": "Tempoh minimum antara dos sejak dos terakhir",
-  "minimumDoseIntervalNone": "Tiada"
+  "minimumDoseIntervalNone": "Tiada",
+  "minimumDoseIntervalHoursFormat": "Sekurang-kurangnya {hours} jam"
 }

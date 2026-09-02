@@ -224,5 +224,6 @@
   "accountLinkBannerText": "Podczas udostępniania grupy zdecydowanie zalecamy skonfigurowanie przenoszenia konta.",
   "minimumDoseInterval": "Odstęp między dawkami",
   "minimumDoseIntervalDescription": "Minimalny odstęp między dawkami od poprzedniej dawki",
-  "minimumDoseIntervalNone": "Brak"
+  "minimumDoseIntervalNone": "Brak",
+  "minimumDoseIntervalHoursFormat": "Co najmniej {hours} godzin"
 }

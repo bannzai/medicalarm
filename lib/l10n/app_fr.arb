@@ -224,5 +224,6 @@
   "accountLinkBannerText": "Lorsque vous partagez un groupe, nous vous recommandons vivement de configurer le transfert du compte.",
   "minimumDoseInterval": "Intervalle entre les prises",
   "minimumDoseIntervalDescription": "Délai minimum entre les prises depuis la dernière prise",
-  "minimumDoseIntervalNone": "Aucun"
+  "minimumDoseIntervalNone": "Aucun",
+  "minimumDoseIntervalHoursFormat": "Au moins {hours} heures"
 }

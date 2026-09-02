@@ -224,5 +224,6 @@
   "accountLinkBannerText": "Під час спільного використання групи наполегливо рекомендуємо налаштувати перенесення облікового запису.",
   "minimumDoseInterval": "Інтервал між прийомами",
   "minimumDoseIntervalDescription": "Мінімальний інтервал між прийомами після попередньої дози",
-  "minimumDoseIntervalNone": "Немає"
+  "minimumDoseIntervalNone": "Немає",
+  "minimumDoseIntervalHoursFormat": "Не менше ніж {hours} годин"
 }

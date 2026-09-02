@@ -224,5 +224,6 @@
   "accountLinkBannerText": "Terwyl jy ’n groep deel, beveel ons sterk aan dat jy rekeningoorplasing instel.",
   "minimumDoseInterval": "Dosisinterval",
   "minimumDoseIntervalDescription": "Minimum tyd tussen dosisse sedert die vorige dosis",
-  "minimumDoseIntervalNone": "Geen"
+  "minimumDoseIntervalNone": "Geen",
+  "minimumDoseIntervalHoursFormat": "Minstens {hours} uur"
 }

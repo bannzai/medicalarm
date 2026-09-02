@@ -224,5 +224,6 @@
   "accountLinkBannerText": "هنگام اشتراک‌گذاری گروه، اکیداً توصیه می‌کنیم انتقال حساب را تنظیم کنید.",
   "minimumDoseInterval": "فاصله بین دوزها",
   "minimumDoseIntervalDescription": "حداقل فاصله زمانی بین دوزها از آخرین دوز",
-  "minimumDoseIntervalNone": "هیچ‌کدام"
+  "minimumDoseIntervalNone": "هیچ‌کدام",
+  "minimumDoseIntervalHoursFormat": "حداقل {hours} ساعت"
 }

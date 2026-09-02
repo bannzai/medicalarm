@@ -224,5 +224,6 @@
   "accountLinkBannerText": "Топты ортақ пайдаланған кезде есептік жазбаны тасымалдауды баптауды қатаң ұсынамыз.",
   "minimumDoseInterval": "Дозалар арасындағы аралық",
   "minimumDoseIntervalDescription": "Алдыңғы дозадан кейін өтуі тиіс ең аз уақыт",
-  "minimumDoseIntervalNone": "Жоқ"
+  "minimumDoseIntervalNone": "Жоқ",
+  "minimumDoseIntervalHoursFormat": "Кемінде {hours} сағат"
 }

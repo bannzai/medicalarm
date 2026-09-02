@@ -224,5 +224,6 @@
   "accountLinkBannerText": "Mentres compartes un grupo, recomendámosche encarecidamente que configures a transferencia da conta.",
   "minimumDoseInterval": "Intervalo entre doses",
   "minimumDoseIntervalDescription": "Tempo mínimo entre doses desde a última toma",
-  "minimumDoseIntervalNone": "Ningún"
+  "minimumDoseIntervalNone": "Ningún",
+  "minimumDoseIntervalHoursFormat": "Polo menos {hours} horas"
 }

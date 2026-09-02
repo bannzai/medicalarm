@@ -224,5 +224,6 @@
   "accountLinkBannerText": "Atunci când partajați un grup, vă recomandăm insistent să configurați transferul contului.",
   "minimumDoseInterval": "Intervalul dintre doze",
   "minimumDoseIntervalDescription": "Intervalul minim dintre doze de la doza anterioară",
-  "minimumDoseIntervalNone": "Niciunul"
+  "minimumDoseIntervalNone": "Niciunul",
+  "minimumDoseIntervalHoursFormat": "Cel puțin {hours} ore"
 }

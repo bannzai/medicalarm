@@ -224,5 +224,6 @@
   "accountLinkBannerText": "Při sdílení skupiny důrazně doporučujeme nastavit převod účtu.",
   "minimumDoseInterval": "Interval mezi dávkami",
   "minimumDoseIntervalDescription": "Minimální odstup mezi dávkami od poslední dávky",
-  "minimumDoseIntervalNone": "Žádné"
+  "minimumDoseIntervalNone": "Žádné",
+  "minimumDoseIntervalHoursFormat": "Nejméně {hours} hodin"
 }

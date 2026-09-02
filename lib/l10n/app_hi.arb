@@ -224,5 +224,6 @@
   "accountLinkBannerText": "ग्रुप शेयर करते समय, हम अकाउंट ट्रांसफ़र सेट अप करने की पुरज़ोर सलाह देते हैं।",
   "minimumDoseInterval": "खुराकों के बीच अंतराल",
   "minimumDoseIntervalDescription": "पिछली खुराक के बाद खुराकों के बीच न्यूनतम अंतराल",
-  "minimumDoseIntervalNone": "कोई नहीं"
+  "minimumDoseIntervalNone": "कोई नहीं",
+  "minimumDoseIntervalHoursFormat": "कम से कम {hours} घंटे"
 }

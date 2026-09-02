@@ -224,5 +224,6 @@
   "accountLinkBannerText": "গ্রুপ শেয়ার করার সময় অ্যাকাউন্ট স্থানান্তর সেটিংস সেট আপ করার জন্য আমরা জোরালোভাবে পরামর্শ দিই।",
   "minimumDoseInterval": "ওষুধ গ্রহণের ব্যবধান",
   "minimumDoseIntervalDescription": "আগের ডোজের পর ন্যূনতম বিরতির সময়",
-  "minimumDoseIntervalNone": "নেই"
+  "minimumDoseIntervalNone": "নেই",
+  "minimumDoseIntervalHoursFormat": "কমপক্ষে {hours} ঘণ্টা"
 }

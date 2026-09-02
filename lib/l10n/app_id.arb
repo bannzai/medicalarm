@@ -224,5 +224,6 @@
   "accountLinkBannerText": "Saat berbagi grup, kami sangat menyarankan Anda menyiapkan pengalihan akun.",
   "minimumDoseInterval": "Jarak antar dosis",
   "minimumDoseIntervalDescription": "Jeda minimum antar dosis sejak dosis terakhir",
-  "minimumDoseIntervalNone": "Tidak ada"
+  "minimumDoseIntervalNone": "Tidak ada",
+  "minimumDoseIntervalHoursFormat": "Minimal {hours} jam"
 }

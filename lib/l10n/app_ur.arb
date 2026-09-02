@@ -224,5 +224,6 @@
   "accountLinkBannerText": "گروپ شیئر کرتے وقت، ہم اکاؤنٹ کی منتقلی ترتیب دینے کی پُرزور تجویز دیتے ہیں۔",
   "minimumDoseInterval": "خوراکوں کے درمیان وقفہ",
   "minimumDoseIntervalDescription": "پچھلی خوراک کے بعد خوراکوں کے درمیان کم از کم وقفہ",
-  "minimumDoseIntervalNone": "کوئی نہیں"
+  "minimumDoseIntervalNone": "کوئی نہیں",
+  "minimumDoseIntervalHoursFormat": "کم از کم {hours} گھنٹے"
 }

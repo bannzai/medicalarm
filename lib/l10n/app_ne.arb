@@ -224,5 +224,6 @@
   "accountLinkBannerText": "समूह साझेदारी गर्दा खाता स्थानान्तरण सेटअप गर्न हामी दृढतापूर्वक सिफारिस गर्छौँ।",
   "minimumDoseInterval": "खुराकबीचको अन्तराल",
   "minimumDoseIntervalDescription": "अघिल्लो मात्रा लिएपछि मात्राहरूबीचको न्यूनतम समय",
-  "minimumDoseIntervalNone": "छैन"
+  "minimumDoseIntervalNone": "छैन",
+  "minimumDoseIntervalHoursFormat": "कम्तीमा {hours} घण्टा"
 }

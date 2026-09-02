@@ -224,5 +224,6 @@
   "accountLinkBannerText": "Während du eine Gruppe teilst, empfehlen wir dringend, die Kontoübertragung einzurichten.",
   "minimumDoseInterval": "Einnahmeabstand",
   "minimumDoseIntervalDescription": "Mindestabstand zwischen den Einnahmen seit der letzten Einnahme",
-  "minimumDoseIntervalNone": "Keine"
+  "minimumDoseIntervalNone": "Keine",
+  "minimumDoseIntervalHoursFormat": "Mindestens {hours} Stunden"
 }

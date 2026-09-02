@@ -224,5 +224,6 @@
   "accountLinkBannerText": "Kun jaat ryhmän, suosittelemme vahvasti tilin siirron määrittämistä.",
   "minimumDoseInterval": "Annosväli",
   "minimumDoseIntervalDescription": "Annosten välinen vähimmäisaika edellisestä annoksesta",
-  "minimumDoseIntervalNone": "Ei mitään"
+  "minimumDoseIntervalNone": "Ei mitään",
+  "minimumDoseIntervalHoursFormat": "Vähintään {hours} tuntia"
 }

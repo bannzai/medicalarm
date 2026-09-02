@@ -224,5 +224,6 @@
   "accountLinkBannerText": "Guruhni ulashayotganingizda, hisobni ko‘chirishni sozlashni qat’iy tavsiya qilamiz.",
   "minimumDoseInterval": "Dozalar orasidagi interval",
   "minimumDoseIntervalDescription": "Oldingi dozadan keyin dozalar orasidagi minimal vaqt",
-  "minimumDoseIntervalNone": "Yo‘q"
+  "minimumDoseIntervalNone": "Yo‘q",
+  "minimumDoseIntervalHoursFormat": "Kamida {hours} soat"
 }
