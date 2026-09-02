@@ -274,5 +274,6 @@
   "onboardingGoalSubtitle": "Hedefiniz planınıza yansıtılacak",
   "onboardingGoalZeroMissed": "Hiçbir dozu atlamamak",
   "onboardingGoalKeepRecording": "İlaç alımını kaydetmeye devam edin",
-  "onboardingGoalWatchFamily": "Ailenin ilaç kullanımını takip etmek"
+  "onboardingGoalWatchFamily": "Ailenin ilaç kullanımını takip etmek",
+  "onboardingPlanGeneratingTitle": "Kişiselleştirilmiş planınız oluşturuluyor"
 }

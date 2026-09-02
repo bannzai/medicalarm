@@ -274,5 +274,6 @@
   "onboardingGoalSubtitle": "თქვენი მიზანი აისახება თქვენს გეგმაში",
   "onboardingGoalZeroMissed": "არცერთი დოზის გამოტოვება",
   "onboardingGoalKeepRecording": "მედიკამენტების მიღების ჩაწერის გაგრძელება",
-  "onboardingGoalWatchFamily": "ოჯახის წევრების მიერ მედიკამენტების მიღების კონტროლი"
+  "onboardingGoalWatchFamily": "ოჯახის წევრების მიერ მედიკამენტების მიღების კონტროლი",
+  "onboardingPlanGeneratingTitle": "თქვენთვის პერსონალურ გეგმას ვქმნით"
 }

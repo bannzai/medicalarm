@@ -274,5 +274,6 @@
   "onboardingGoalSubtitle": "Ο στόχος σας θα αντικατοπτρίζεται στο πλάνο σας",
   "onboardingGoalZeroMissed": "Να μην ξεχνάω καμία δόση",
   "onboardingGoalKeepRecording": "Συνεχίστε να καταγράφετε τη λήψη φαρμάκων",
-  "onboardingGoalWatchFamily": "Παρακολούθηση της φαρμακευτικής αγωγής της οικογένειας"
+  "onboardingGoalWatchFamily": "Παρακολούθηση της φαρμακευτικής αγωγής της οικογένειας",
+  "onboardingPlanGeneratingTitle": "Δημιουργούμε το εξατομικευμένο σας πλάνο"
 }

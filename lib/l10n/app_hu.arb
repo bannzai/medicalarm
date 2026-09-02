@@ -274,5 +274,6 @@
   "onboardingGoalSubtitle": "Célja megjelenik a tervében",
   "onboardingGoalZeroMissed": "Egyetlen adag sem maradjon ki",
   "onboardingGoalKeepRecording": "A gyógyszerszedés folytatása",
-  "onboardingGoalWatchFamily": "A család gyógyszerszedésének nyomon követése"
+  "onboardingGoalWatchFamily": "A család gyógyszerszedésének nyomon követése",
+  "onboardingPlanGeneratingTitle": "Személyre szabott tervének létrehozása folyamatban"
 }

@@ -274,5 +274,6 @@
   "onboardingGoalSubtitle": "तपाईंको लक्ष्य तपाईंको योजनामा समावेश गरिनेछ",
   "onboardingGoalZeroMissed": "कुनै पनि मात्रा नछुटाउनु",
   "onboardingGoalKeepRecording": "औषध सेवनको रेकर्ड राखिरहनुहोस्",
-  "onboardingGoalWatchFamily": "परिवारका सदस्यहरूको औषधि सेवनको निगरानी गर्नुहोस्"
+  "onboardingGoalWatchFamily": "परिवारका सदस्यहरूको औषधि सेवनको निगरानी गर्नुहोस्",
+  "onboardingPlanGeneratingTitle": "तपाईंको व्यक्तिगत योजना तयार गरिँदै छ"
 }

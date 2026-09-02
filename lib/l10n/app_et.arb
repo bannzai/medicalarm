@@ -274,5 +274,6 @@
   "onboardingGoalSubtitle": "Sinu eesmärk kajastub sinu plaanis",
   "onboardingGoalZeroMissed": "Mitte unustada ühtegi annust",
   "onboardingGoalKeepRecording": "Jätka ravimite võtmise registreerimist",
-  "onboardingGoalWatchFamily": "Jälgida pereliikmete ravimite võtmist"
+  "onboardingGoalWatchFamily": "Jälgida pereliikmete ravimite võtmist",
+  "onboardingPlanGeneratingTitle": "Koostame sinu isiklikku plaani"
 }

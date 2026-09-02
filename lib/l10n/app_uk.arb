@@ -274,5 +274,6 @@
   "onboardingGoalSubtitle": "Ваша мета буде відображена у вашому плані",
   "onboardingGoalZeroMissed": "Не пропускати жодної дози",
   "onboardingGoalKeepRecording": "Продовжувати записувати прийом ліків",
-  "onboardingGoalWatchFamily": "Стежити за прийомом ліків членами сім’ї"
+  "onboardingGoalWatchFamily": "Стежити за прийомом ліків членами сім’ї",
+  "onboardingPlanGeneratingTitle": "Створюємо ваш персоналізований план"
 }

@@ -274,5 +274,6 @@
   "onboardingGoalSubtitle": "គោលដៅរបស់អ្នកនឹងត្រូវបានបញ្ចូលក្នុងគម្រោងរបស់អ្នក",
   "onboardingGoalZeroMissed": "មិនភ្លេចលេបថ្នាំសូម្បីតែមួយដូស",
   "onboardingGoalKeepRecording": "បន្តកត់ត្រាការប្រើថ្នាំ",
-  "onboardingGoalWatchFamily": "តាមដានការលេបថ្នាំរបស់សមាជិកគ្រួសារ"
+  "onboardingGoalWatchFamily": "តាមដានការលេបថ្នាំរបស់សមាជិកគ្រួសារ",
+  "onboardingPlanGeneratingTitle": "កំពុងបង្កើតផែនការផ្ទាល់ខ្លួនរបស់អ្នក"
 }

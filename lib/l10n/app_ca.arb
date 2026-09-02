@@ -274,5 +274,6 @@
   "onboardingGoalSubtitle": "El vostre objectiu es veurà reflectit en el vostre pla",
   "onboardingGoalZeroMissed": "No oblidar cap dosi",
   "onboardingGoalKeepRecording": "Continua registrant les preses",
-  "onboardingGoalWatchFamily": "Supervisar la medicació de la família"
+  "onboardingGoalWatchFamily": "Supervisar la medicació de la família",
+  "onboardingPlanGeneratingTitle": "S'està creant el teu pla personalitzat"
 }

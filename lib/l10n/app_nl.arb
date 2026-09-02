@@ -274,5 +274,6 @@
   "onboardingGoalSubtitle": "Je doel wordt verwerkt in je plan",
   "onboardingGoalZeroMissed": "Geen enkele dosis vergeten",
   "onboardingGoalKeepRecording": "Blijf medicijninname registreren",
-  "onboardingGoalWatchFamily": "De medicatie van familieleden bijhouden"
+  "onboardingGoalWatchFamily": "De medicatie van familieleden bijhouden",
+  "onboardingPlanGeneratingTitle": "Je persoonlijke plan wordt aangemaakt"
 }

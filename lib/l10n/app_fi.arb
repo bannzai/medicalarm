@@ -274,5 +274,6 @@
   "onboardingGoalSubtitle": "Tavoitteesi huomioidaan suunnitelmassasi",
   "onboardingGoalZeroMissed": "Yhtäkään annosta ei unohdeta",
   "onboardingGoalKeepRecording": "Jatka lääkkeiden ottamisen kirjaamista",
-  "onboardingGoalWatchFamily": "Seurata perheen lääkkeiden käyttöä"
+  "onboardingGoalWatchFamily": "Seurata perheen lääkkeiden käyttöä",
+  "onboardingPlanGeneratingTitle": "Luomme henkilökohtaisen suunnitelmasi"
 }

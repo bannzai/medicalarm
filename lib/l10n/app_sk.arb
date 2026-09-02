@@ -274,5 +274,6 @@
   "onboardingGoalSubtitle": "Váš cieľ sa premietne do vášho plánu",
   "onboardingGoalZeroMissed": "Nezmeškať žiadnu dávku",
   "onboardingGoalKeepRecording": "Pokračovať v zaznamenávaní užívania liekov",
-  "onboardingGoalWatchFamily": "Dohliadať na užívanie liekov v rodine"
+  "onboardingGoalWatchFamily": "Dohliadať na užívanie liekov v rodine",
+  "onboardingPlanGeneratingTitle": "Vytvárame váš osobný plán"
 }

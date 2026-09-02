@@ -274,5 +274,6 @@
   "onboardingGoalSubtitle": "Ваш циљ ће бити укључен у ваш план",
   "onboardingGoalZeroMissed": "Не пропустити ниједну дозу",
   "onboardingGoalKeepRecording": "Наставите да бележите узимање лекова",
-  "onboardingGoalWatchFamily": "Пратити узимање лекова чланова породице"
+  "onboardingGoalWatchFamily": "Пратити узимање лекова чланова породице",
+  "onboardingPlanGeneratingTitle": "Креирамо ваш персонализовани план"
 }

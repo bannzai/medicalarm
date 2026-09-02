@@ -274,5 +274,6 @@
   "onboardingGoalSubtitle": "Votre objectif sera pris en compte dans votre plan",
   "onboardingGoalZeroMissed": "Ne manquer aucune dose",
   "onboardingGoalKeepRecording": "Continuer à enregistrer les prises",
-  "onboardingGoalWatchFamily": "Suivre la prise de médicaments de la famille"
+  "onboardingGoalWatchFamily": "Suivre la prise de médicaments de la famille",
+  "onboardingPlanGeneratingTitle": "Création de votre plan personnalisé"
 }
