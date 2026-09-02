@@ -77,13 +77,6 @@ bool isShortFormOnboarding({required String languageCode}) {
   return languageCode == 'ja';
 }
 
-/// オンボーディングの文言 (onboarding* キー) が翻訳済みの言語。translate-app-arb で翻訳した言語をここに追加する。
-/// 未翻訳の言語ではテンプレート (ja) の文言にフォールバックしてしまうため、この集合に無い言語では表示しない
-const onboardingSupportedLanguageCodes = {'ja', 'en'};
-
-/// 端末の言語でオンボーディングを表示してよいか (文言が翻訳済みか)
-bool isOnboardingAvailable({required String languageCode}) => onboardingSupportedLanguageCodes.contains(languageCode);
-
 /// 「薬を飲み忘れたことはありますか」の回答
 enum OnboardingForgotFrequency { often, sometimes, rarely }
 

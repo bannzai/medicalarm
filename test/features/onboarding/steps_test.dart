@@ -52,30 +52,22 @@ void main() {
     });
   });
 
-  group('isOnboardingAvailable', () {
-    test('翻訳済みの言語 (ja / en) は表示できる', () {
-      expect(isOnboardingAvailable(languageCode: 'ja'), isTrue);
-      expect(isOnboardingAvailable(languageCode: 'en'), isTrue);
-    });
-
-    test('未翻訳の言語は表示できない', () {
-      expect(isOnboardingAvailable(languageCode: 'de'), isFalse);
-    });
-  });
-
-  // onboardingSupportedLanguageCodes に挙げた言語の arb に、テンプレート (ja) の onboarding* キーが揃っていることを検証する。
-  // 揃っていないとテンプレートの日本語にフォールバックした画面が出てしまう
+  // 全言語の arb に、テンプレート (ja) の onboarding* キーが揃っていることを検証する。
+  // 揃っていない言語ではテンプレートの日本語にフォールバックした画面が出てしまうため、キーを追加したら translate-app-arb で全言語を翻訳してから通す
   // (flutter test のカレントはプロジェクトルートである前提。test/utils/analytics/log_event_names_test.dart と同じ)
-  group('onboardingSupportedLanguageCodes', () {
+  group('オンボーディング文言の翻訳', () {
     Set<String> onboardingKeys({required String languageCode}) {
       final arb = jsonDecode(File('lib/l10n/app_$languageCode.arb').readAsStringSync()) as Map<String, dynamic>;
       return arb.keys.where((key) => !key.startsWith('@') && key.startsWith('onboarding')).toSet();
     }
 
-    test('挙げた言語の arb にテンプレート (ja) の onboarding* キーがすべて存在する', () {
+    test('全言語の arb にテンプレート (ja) の onboarding* キーがすべて存在する', () {
       final templateKeys = onboardingKeys(languageCode: 'ja');
       expect(templateKeys, isNotEmpty);
-      for (final languageCode in onboardingSupportedLanguageCodes) {
+      final languageCodes =
+          Directory('lib/l10n').listSync().map((entity) => RegExp(r'app_(.+)\.arb$').firstMatch(entity.path)?.group(1)).nonNulls.toList();
+      expect(languageCodes.length, greaterThan(70));
+      for (final languageCode in languageCodes) {
         expect(onboardingKeys(languageCode: languageCode), containsAll(templateKeys), reason: 'app_$languageCode.arb に未翻訳の onboarding* キーがある');
       }
     });

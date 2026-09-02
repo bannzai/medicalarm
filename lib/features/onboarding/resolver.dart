@@ -14,7 +14,6 @@ import 'package:medicalarm/utils/analytics/error.dart';
 import 'package:medicalarm/utils/purchase/purchase.dart';
 
 /// 初回起動時にオンボーディングを表示する条件。
-/// - 端末の言語で文言が翻訳済み ([isOnboardingAvailable])
 /// - 完了記録 (onboardingCompletedDateTime) が無い
 /// - プレミアム (トライアル含む) でない
 /// - AppUser 作成から 1 日以内 (既存ユーザーにはこの機能のリリース後も表示しない。再インストールでも匿名ユーザーは Keychain から復元されるため再表示されない)
@@ -22,11 +21,7 @@ bool shouldPresentOnboarding({
   required AppUser appUser,
   required bool? hasPremiumEntitlement,
   required DateTime now,
-  required bool isAvailable,
 }) {
-  if (!isAvailable) {
-    return false;
-  }
   if (appUser.onboardingCompletedDateTime != null) {
     return false;
   }
@@ -46,7 +41,7 @@ bool shouldPresentOnboarding({
 /// 条件を満たす間 [OnboardingPage] を表示し、結果画面の CTA でペイウォール (既存のプレミアム紹介シート) を開く。
 /// シートが閉じられたら完了として Firestore に記録し、[builder] (ホーム画面) へ進む。
 ///
-/// 表示判定は entitlement 以外の条件 (未対応ロケール・完了記録あり・既存ユーザー) を先に評価し、
+/// 表示判定は entitlement 以外の条件 (完了記録あり・既存ユーザー) を先に評価し、
 /// 表示候補にならない場合は customerInfo を待たずに確定する。表示候補の場合だけ customerInfo の到着を
 /// [customerInfoWaitTimeout] まで待ち、届かなければ非プレミアム扱いで判定する
 class OnboardingResolver extends HookConsumerWidget {
@@ -82,13 +77,12 @@ class OnboardingResolver extends HookConsumerWidget {
     final languageCode = Localizations.localeOf(context).languageCode;
 
     if (decision.value == null) {
-      // entitlement 以外の条件だけで表示しないと決まる (未対応ロケール・完了記録あり・既存ユーザー) 場合は
+      // entitlement 以外の条件だけで表示しないと決まる (完了記録あり・既存ユーザー) 場合は
       // customerInfo を待たずに確定する。待つとオフライン起動で customerInfo が届かず起動がブロックされるため
       final isCandidate = shouldPresentOnboarding(
         appUser: appUser,
         hasPremiumEntitlement: null,
         now: DateTime.now(),
-        isAvailable: isOnboardingAvailable(languageCode: languageCode),
       );
       if (!isCandidate) {
         decision.value = false;
@@ -101,7 +95,6 @@ class OnboardingResolver extends HookConsumerWidget {
           appUser: appUser,
           hasPremiumEntitlement: customerInfoAsync.asData?.value.hasPremiumEntitlement,
           now: DateTime.now(),
-          isAvailable: isOnboardingAvailable(languageCode: languageCode),
         );
       }
     }

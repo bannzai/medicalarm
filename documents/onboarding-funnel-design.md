@@ -12,11 +12,12 @@
 - `AppUser.onboardingCompletedDateTime` が null (未完了)
 - プレミアム (トライアル含む) でない
 - `AppUser.createdDateTime` から 1 日以内。この機能のリリース前からの既存ユーザーには表示しない。匿名ユーザーは再インストールでも Keychain から復元されるため、再インストールで再表示されることもない
-- 端末の言語が `onboardingSupportedLanguageCodes` (翻訳済み: ja / en) に含まれる。未翻訳の言語ではテンプレート (ja) の文言にフォールバックしてしまうため表示しない
 
 完了はペイウォール (既存の `PremiumIntroductionSheet`) を閉じた時点とし、`OnboardingComplete` (`lib/provider/onboarding.dart`) が `onboardingCompletedDateTime` を書き込む。
 
 既存の `promotion_start` (登録 1 日後以降のトライアル未設定ユーザーへの再エンゲージメント訴求) とは役割を分ける。本ファネルは初回起動直後の 1 回だけの導線で、再エンゲージメントは従来どおり `PromotionStartResolver` が担う。
+
+文言 (arb の `onboarding*` キー) は対応する全言語に翻訳済みで、`test/features/onboarding/steps_test.dart` が全 arb にキーが揃っていることを検証する (未翻訳の言語があるとテンプレートの日本語にフォールバックした画面が出るため)。キーを追加したら translate-app-arb で全言語を翻訳する。
 
 ## ファネル構成
 
