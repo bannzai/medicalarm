@@ -261,5 +261,6 @@
   "onboardingMedicineCountOneToTwo": "1–2种",
   "onboardingMedicineCountThreeToFive": "3–5种",
   "onboardingMedicineCountSixOrMore": "6种以上",
-  "onboardingBeforeAfterTitle": "Medicalarm 带来的改变"
+  "onboardingBeforeAfterTitle": "Medicalarm 带来的改变",
+  "onboardingBeforeLabel": "目前为止"
 }

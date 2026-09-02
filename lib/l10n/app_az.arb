@@ -261,5 +261,6 @@
   "onboardingMedicineCountOneToTwo": "1–2 növ",
   "onboardingMedicineCountThreeToFive": "3–5 növ",
   "onboardingMedicineCountSixOrMore": "6 və ya daha çox",
-  "onboardingBeforeAfterTitle": "Medicalarm ilə nələr dəyişir"
+  "onboardingBeforeAfterTitle": "Medicalarm ilə nələr dəyişir",
+  "onboardingBeforeLabel": "İndiyədək"
 }

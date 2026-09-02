@@ -261,5 +261,6 @@
   "onboardingMedicineCountOneToTwo": "1–2 mota",
   "onboardingMedicineCountThreeToFive": "3–5 mota",
   "onboardingMedicineCountSixOrMore": "6 edo gehiago",
-  "onboardingBeforeAfterTitle": "Medicalarm-ekin aldatzen dena"
+  "onboardingBeforeAfterTitle": "Medicalarm-ekin aldatzen dena",
+  "onboardingBeforeLabel": "Orain arte"
 }

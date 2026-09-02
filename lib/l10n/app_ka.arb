@@ -261,5 +261,6 @@
   "onboardingMedicineCountOneToTwo": "1–2 სახეობა",
   "onboardingMedicineCountThreeToFive": "3–5 სახეობა",
   "onboardingMedicineCountSixOrMore": "6 ან მეტი",
-  "onboardingBeforeAfterTitle": "რა იცვლება Medicalarm-თან ერთად"
+  "onboardingBeforeAfterTitle": "რა იცვლება Medicalarm-თან ერთად",
+  "onboardingBeforeLabel": "აქამდე"
 }

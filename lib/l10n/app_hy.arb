@@ -261,5 +261,6 @@
   "onboardingMedicineCountOneToTwo": "1–2 տեսակ",
   "onboardingMedicineCountThreeToFive": "3–5 տեսակ",
   "onboardingMedicineCountSixOrMore": "6 կամ ավելի",
-  "onboardingBeforeAfterTitle": "Ինչ է փոխվում Medicalarm-ի միջոցով"
+  "onboardingBeforeAfterTitle": "Ինչ է փոխվում Medicalarm-ի միջոցով",
+  "onboardingBeforeLabel": "Մինչև հիմա"
 }

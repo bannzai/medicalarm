@@ -261,5 +261,6 @@
   "onboardingMedicineCountOneToTwo": "1–2 rūšys",
   "onboardingMedicineCountThreeToFive": "3–5 rūšys",
   "onboardingMedicineCountSixOrMore": "6 ar daugiau",
-  "onboardingBeforeAfterTitle": "Kas pasikeičia naudojant Medicalarm"
+  "onboardingBeforeAfterTitle": "Kas pasikeičia naudojant Medicalarm",
+  "onboardingBeforeLabel": "Iki šiol"
 }

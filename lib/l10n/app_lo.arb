@@ -261,5 +261,6 @@
   "onboardingMedicineCountOneToTwo": "1–2 ປະເພດ",
   "onboardingMedicineCountThreeToFive": "3–5 ປະເພດ",
   "onboardingMedicineCountSixOrMore": "6 ຫຼືຫຼາຍກວ່າ",
-  "onboardingBeforeAfterTitle": "ສິ່ງທີ່ປ່ຽນໄປດ້ວຍ Medicalarm"
+  "onboardingBeforeAfterTitle": "ສິ່ງທີ່ປ່ຽນໄປດ້ວຍ Medicalarm",
+  "onboardingBeforeLabel": "ຈົນເຖິງຕອນນີ້"
 }

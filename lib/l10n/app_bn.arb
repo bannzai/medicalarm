@@ -261,5 +261,6 @@
   "onboardingMedicineCountOneToTwo": "১–২ ধরনের",
   "onboardingMedicineCountThreeToFive": "৩–৫ ধরনের",
   "onboardingMedicineCountSixOrMore": "৬ বা তার বেশি",
-  "onboardingBeforeAfterTitle": "Medicalarm-এর সঙ্গে যা বদলাবে"
+  "onboardingBeforeAfterTitle": "Medicalarm-এর সঙ্গে যা বদলাবে",
+  "onboardingBeforeLabel": "এতদিন"
 }

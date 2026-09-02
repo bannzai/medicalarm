@@ -261,5 +261,6 @@
   "onboardingMedicineCountOneToTwo": "1–2 typer",
   "onboardingMedicineCountThreeToFive": "3–5 slags",
   "onboardingMedicineCountSixOrMore": "6 eller flere",
-  "onboardingBeforeAfterTitle": "Hvad ændrer sig med Medicalarm"
+  "onboardingBeforeAfterTitle": "Hvad ændrer sig med Medicalarm",
+  "onboardingBeforeLabel": "Indtil nu"
 }

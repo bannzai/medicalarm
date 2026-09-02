@@ -261,5 +261,6 @@
   "onboardingMedicineCountOneToTwo": "1–2 tipus",
   "onboardingMedicineCountThreeToFive": "3–5 tipus",
   "onboardingMedicineCountSixOrMore": "6 o més",
-  "onboardingBeforeAfterTitle": "El que canvia amb Medicalarm"
+  "onboardingBeforeAfterTitle": "El que canvia amb Medicalarm",
+  "onboardingBeforeLabel": "Fins ara"
 }

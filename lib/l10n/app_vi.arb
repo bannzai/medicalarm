@@ -261,5 +261,6 @@
   "onboardingMedicineCountOneToTwo": "1–2 loại",
   "onboardingMedicineCountThreeToFive": "3–5 loại",
   "onboardingMedicineCountSixOrMore": "6 trở lên",
-  "onboardingBeforeAfterTitle": "Những thay đổi với Medicalarm"
+  "onboardingBeforeAfterTitle": "Những thay đổi với Medicalarm",
+  "onboardingBeforeLabel": "Cho đến nay"
 }

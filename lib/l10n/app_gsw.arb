@@ -261,5 +261,6 @@
   "onboardingMedicineCountOneToTwo": "1–2 Sorte",
   "onboardingMedicineCountThreeToFive": "3–5 Sorte",
   "onboardingMedicineCountSixOrMore": "6 oder meh",
-  "onboardingBeforeAfterTitle": "Was sich mit Medicalarm ändert"
+  "onboardingBeforeAfterTitle": "Was sich mit Medicalarm ändert",
+  "onboardingBeforeLabel": "Bis jetzt"
 }

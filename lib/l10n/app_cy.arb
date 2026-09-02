@@ -261,5 +261,6 @@
   "onboardingMedicineCountOneToTwo": "1–2 fath",
   "onboardingMedicineCountThreeToFive": "3–5 math",
   "onboardingMedicineCountSixOrMore": "6 neu fwy",
-  "onboardingBeforeAfterTitle": "Beth sy’n newid gyda Medicalarm"
+  "onboardingBeforeAfterTitle": "Beth sy’n newid gyda Medicalarm",
+  "onboardingBeforeLabel": "Hyd yma"
 }

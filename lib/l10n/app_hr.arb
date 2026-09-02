@@ -261,5 +261,6 @@
   "onboardingMedicineCountOneToTwo": "1–2 vrste",
   "onboardingMedicineCountThreeToFive": "3–5 vrsta",
   "onboardingMedicineCountSixOrMore": "6 ili više",
-  "onboardingBeforeAfterTitle": "Što se mijenja uz Medicalarm"
+  "onboardingBeforeAfterTitle": "Što se mijenja uz Medicalarm",
+  "onboardingBeforeLabel": "Dosad"
 }

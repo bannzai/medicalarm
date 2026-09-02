@@ -261,5 +261,6 @@
   "onboardingMedicineCountOneToTwo": "1–2 soorten",
   "onboardingMedicineCountThreeToFive": "3–5 soorten",
   "onboardingMedicineCountSixOrMore": "6 of meer",
-  "onboardingBeforeAfterTitle": "Wat er verandert met Medicalarm"
+  "onboardingBeforeAfterTitle": "Wat er verandert met Medicalarm",
+  "onboardingBeforeLabel": "Tot nu toe"
 }

@@ -261,5 +261,6 @@
   "onboardingMedicineCountOneToTwo": "အမျိုးအစား ၁–၂ မျိုး",
   "onboardingMedicineCountThreeToFive": "၃–၅ မျိုး",
   "onboardingMedicineCountSixOrMore": "၆ မျိုးနှင့်အထက်",
-  "onboardingBeforeAfterTitle": "Medicalarm ဖြင့် ပြောင်းလဲလာမည့်အရာများ"
+  "onboardingBeforeAfterTitle": "Medicalarm ဖြင့် ပြောင်းလဲလာမည့်အရာများ",
+  "onboardingBeforeLabel": "ယခုအချိန်အထိ"
 }

@@ -261,5 +261,6 @@
   "onboardingMedicineCountOneToTwo": "1–2 ವಿಧಗಳು",
   "onboardingMedicineCountThreeToFive": "3–5 ವಿಧಗಳು",
   "onboardingMedicineCountSixOrMore": "6 ಅಥವಾ ಹೆಚ್ಚು",
-  "onboardingBeforeAfterTitle": "Medicalarm ನೊಂದಿಗೆ ಬದಲಾಗುವುದು"
+  "onboardingBeforeAfterTitle": "Medicalarm ನೊಂದಿಗೆ ಬದಲಾಗುವುದು",
+  "onboardingBeforeLabel": "ಇಲ್ಲಿಯವರೆಗೆ"
 }

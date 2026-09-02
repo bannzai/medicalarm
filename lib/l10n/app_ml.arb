@@ -261,5 +261,6 @@
   "onboardingMedicineCountOneToTwo": "1–2 തരം",
   "onboardingMedicineCountThreeToFive": "3–5 തരം",
   "onboardingMedicineCountSixOrMore": "6 അല്ലെങ്കിൽ അതിലധികം",
-  "onboardingBeforeAfterTitle": "Medicalarm ഉപയോഗിച്ച് മാറുന്ന കാര്യങ്ങൾ"
+  "onboardingBeforeAfterTitle": "Medicalarm ഉപയോഗിച്ച് മാറുന്ന കാര്യങ്ങൾ",
+  "onboardingBeforeLabel": "ഇതുവരെ"
 }

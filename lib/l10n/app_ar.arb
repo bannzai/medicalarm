@@ -261,5 +261,6 @@
   "onboardingMedicineCountOneToTwo": "1–2 نوع",
   "onboardingMedicineCountThreeToFive": "3–5 أنواع",
   "onboardingMedicineCountSixOrMore": "6 أو أكثر",
-  "onboardingBeforeAfterTitle": "ما الذي سيتغير مع Medicalarm"
+  "onboardingBeforeAfterTitle": "ما الذي سيتغير مع Medicalarm",
+  "onboardingBeforeLabel": "حتى الآن"
 }
