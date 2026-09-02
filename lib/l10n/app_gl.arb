@@ -276,5 +276,6 @@
   "onboardingGoalKeepRecording": "Seguir rexistrando as tomas",
   "onboardingGoalWatchFamily": "Supervisar a medicación da familia",
   "onboardingPlanGeneratingTitle": "Estase a crear o teu plan personalizado",
-  "onboardingPlanGeneratingAnalyzing": "Estamos a analizar as túas respostas"
+  "onboardingPlanGeneratingAnalyzing": "Estamos a analizar as túas respostas",
+  "onboardingPlanGeneratingSchedule": "Estamos creando o teu plan de notificacións"
 }

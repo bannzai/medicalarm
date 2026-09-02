@@ -276,5 +276,6 @@
   "onboardingGoalKeepRecording": "Blijf medicijninname registreren",
   "onboardingGoalWatchFamily": "De medicatie van familieleden bijhouden",
   "onboardingPlanGeneratingTitle": "Je persoonlijke plan wordt aangemaakt",
-  "onboardingPlanGeneratingAnalyzing": "Je antwoorden worden geanalyseerd"
+  "onboardingPlanGeneratingAnalyzing": "Je antwoorden worden geanalyseerd",
+  "onboardingPlanGeneratingSchedule": "We stellen je meldingenplan samen"
 }

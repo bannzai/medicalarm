@@ -276,5 +276,6 @@
   "onboardingGoalKeepRecording": "Nastavite bilježiti uzimanje lijekova",
   "onboardingGoalWatchFamily": "Pratiti uzimanje lijekova članova porodice",
   "onboardingPlanGeneratingTitle": "Kreiramo vaš personalizovani plan",
-  "onboardingPlanGeneratingAnalyzing": "Analiziramo vaše odgovore"
+  "onboardingPlanGeneratingAnalyzing": "Analiziramo vaše odgovore",
+  "onboardingPlanGeneratingSchedule": "Sastavljamo vaš plan obavijesti"
 }

@@ -276,5 +276,6 @@
   "onboardingGoalKeepRecording": "继续记录服药情况",
   "onboardingGoalWatchFamily": "关注家人的用药情况",
   "onboardingPlanGeneratingTitle": "正在为你制定专属计划",
-  "onboardingPlanGeneratingAnalyzing": "正在分析您的回答"
+  "onboardingPlanGeneratingAnalyzing": "正在分析您的回答",
+  "onboardingPlanGeneratingSchedule": "正在制定您的通知计划"
 }

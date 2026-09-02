@@ -276,5 +276,6 @@
   "onboardingGoalKeepRecording": "บันทึกการรับประทานยาต่อไป",
   "onboardingGoalWatchFamily": "ติดตามการรับประทานยาของคนในครอบครัว",
   "onboardingPlanGeneratingTitle": "กำลังสร้างแผนเฉพาะบุคคลของคุณ",
-  "onboardingPlanGeneratingAnalyzing": "กำลังวิเคราะห์คำตอบของคุณ"
+  "onboardingPlanGeneratingAnalyzing": "กำลังวิเคราะห์คำตอบของคุณ",
+  "onboardingPlanGeneratingSchedule": "กำลังจัดทำแผนการแจ้งเตือนของคุณ"
 }

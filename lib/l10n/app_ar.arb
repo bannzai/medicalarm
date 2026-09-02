@@ -276,5 +276,6 @@
   "onboardingGoalKeepRecording": "الاستمرار في تسجيل الجرعات",
   "onboardingGoalWatchFamily": "متابعة أدوية أفراد العائلة",
   "onboardingPlanGeneratingTitle": "جارٍ إعداد خطتك الشخصية",
-  "onboardingPlanGeneratingAnalyzing": "جارٍ تحليل إجاباتك"
+  "onboardingPlanGeneratingAnalyzing": "جارٍ تحليل إجاباتك",
+  "onboardingPlanGeneratingSchedule": "جارٍ إعداد خطة الإشعارات"
 }

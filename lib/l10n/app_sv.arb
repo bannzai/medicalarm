@@ -276,5 +276,6 @@
   "onboardingGoalKeepRecording": "Fortsätt registrera läkemedelsintag",
   "onboardingGoalWatchFamily": "Följa familjens medicinering",
   "onboardingPlanGeneratingTitle": "Skapar din personliga plan",
-  "onboardingPlanGeneratingAnalyzing": "Dina svar analyseras"
+  "onboardingPlanGeneratingAnalyzing": "Dina svar analyseras",
+  "onboardingPlanGeneratingSchedule": "Vi skapar din aviseringsplan"
 }

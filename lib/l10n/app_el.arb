@@ -276,5 +276,6 @@
   "onboardingGoalKeepRecording": "Συνεχίστε να καταγράφετε τη λήψη φαρμάκων",
   "onboardingGoalWatchFamily": "Παρακολούθηση της φαρμακευτικής αγωγής της οικογένειας",
   "onboardingPlanGeneratingTitle": "Δημιουργούμε το εξατομικευμένο σας πλάνο",
-  "onboardingPlanGeneratingAnalyzing": "Αναλύουμε τις απαντήσεις σας"
+  "onboardingPlanGeneratingAnalyzing": "Αναλύουμε τις απαντήσεις σας",
+  "onboardingPlanGeneratingSchedule": "Δημιουργούμε το πλάνο ειδοποιήσεών σας"
 }

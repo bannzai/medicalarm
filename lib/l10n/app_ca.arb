@@ -276,5 +276,6 @@
   "onboardingGoalKeepRecording": "Continua registrant les preses",
   "onboardingGoalWatchFamily": "Supervisar la medicació de la família",
   "onboardingPlanGeneratingTitle": "S'està creant el teu pla personalitzat",
-  "onboardingPlanGeneratingAnalyzing": "S'estan analitzant les teves respostes"
+  "onboardingPlanGeneratingAnalyzing": "S'estan analitzant les teves respostes",
+  "onboardingPlanGeneratingSchedule": "Estem preparant el teu pla de notificacions"
 }

@@ -276,5 +276,6 @@
   "onboardingGoalKeepRecording": "Continuer à enregistrer les prises",
   "onboardingGoalWatchFamily": "Suivre la prise de médicaments de la famille",
   "onboardingPlanGeneratingTitle": "Création de votre plan personnalisé",
-  "onboardingPlanGeneratingAnalyzing": "Analyse de vos réponses"
+  "onboardingPlanGeneratingAnalyzing": "Analyse de vos réponses",
+  "onboardingPlanGeneratingSchedule": "Nous préparons votre plan de notifications"
 }

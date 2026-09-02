@@ -276,5 +276,6 @@
   "onboardingGoalKeepRecording": "Jätka ravimite võtmise registreerimist",
   "onboardingGoalWatchFamily": "Jälgida pereliikmete ravimite võtmist",
   "onboardingPlanGeneratingTitle": "Koostame sinu isiklikku plaani",
-  "onboardingPlanGeneratingAnalyzing": "Teie vastuseid analüüsitakse"
+  "onboardingPlanGeneratingAnalyzing": "Teie vastuseid analüüsitakse",
+  "onboardingPlanGeneratingSchedule": "Koostame sinu teavitusplaani"
 }

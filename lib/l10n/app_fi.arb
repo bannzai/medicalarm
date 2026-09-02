@@ -276,5 +276,6 @@
   "onboardingGoalKeepRecording": "Jatka lääkkeiden ottamisen kirjaamista",
   "onboardingGoalWatchFamily": "Seurata perheen lääkkeiden käyttöä",
   "onboardingPlanGeneratingTitle": "Luomme henkilökohtaisen suunnitelmasi",
-  "onboardingPlanGeneratingAnalyzing": "Vastauksiasi analysoidaan"
+  "onboardingPlanGeneratingAnalyzing": "Vastauksiasi analysoidaan",
+  "onboardingPlanGeneratingSchedule": "Luomme ilmoitussuunnitelmaasi"
 }
