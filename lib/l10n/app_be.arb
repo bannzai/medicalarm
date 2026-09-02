@@ -216,5 +216,6 @@
   "recordedByMember": "Запісана {name}",
   "accountLink": "Перадача ўліковага запісу",
   "accountLinkDescription": "Падключыўшы Apple або Google, вы зможаце перанесці свае даныя нават пасля змены прылады або паўторнай устаноўкі праграмы.",
-  "linkWithApple": "Перанесці ўліковы запіс з дапамогай Apple"
+  "linkWithApple": "Перанесці ўліковы запіс з дапамогай Apple",
+  "linkWithGoogle": "Перанесці ўліковы запіс праз Google"
 }

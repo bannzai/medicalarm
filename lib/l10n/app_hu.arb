@@ -216,5 +216,6 @@
   "recordedByMember": "{name} rögzítette",
   "accountLink": "Fiók átvitele",
   "accountLinkDescription": "Az Apple-lel vagy a Google-lel való összekapcsolással az eszköz cseréje vagy az alkalmazás újratelepítése után is átviheti adatait.",
-  "linkWithApple": "Fiók átvitele az Apple segítségével"
+  "linkWithApple": "Fiók átvitele az Apple segítségével",
+  "linkWithGoogle": "Fiók átvitele a Google-lel"
 }

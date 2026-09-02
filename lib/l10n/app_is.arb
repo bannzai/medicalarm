@@ -216,5 +216,6 @@
   "recordedByMember": "Skráð af {name}",
   "accountLink": "Flutningur reiknings",
   "accountLinkDescription": "Með því að tengja við Apple eða Google geturðu flutt gögnin þín jafnvel eftir að þú skiptir um tæki eða setur forritið upp aftur.",
-  "linkWithApple": "Flytja reikning með Apple"
+  "linkWithApple": "Flytja reikning með Apple",
+  "linkWithGoogle": "Flytja reikning með Google"
 }

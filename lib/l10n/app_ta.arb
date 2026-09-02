@@ -216,5 +216,6 @@
   "recordedByMember": "{name} பதிவு செய்தார்",
   "accountLink": "கணக்கை மாற்றுதல்",
   "accountLinkDescription": "Apple அல்லது Google உடன் இணைத்தால், சாதனத்தை மாற்றிய பிறகும் அல்லது செயலியை மீண்டும் நிறுவிய பிறகும் உங்கள் தரவை மாற்றிக்கொள்ளலாம்.",
-  "linkWithApple": "Apple மூலம் கணக்கை மாற்றவும்"
+  "linkWithApple": "Apple மூலம் கணக்கை மாற்றவும்",
+  "linkWithGoogle": "Google மூலம் கணக்கை மாற்றவும்"
 }

@@ -216,5 +216,6 @@
   "recordedByMember": "{name} tarafından kaydedildi",
   "accountLink": "Hesap aktarımı",
   "accountLinkDescription": "Apple veya Google'a bağlanarak cihazınızı değiştirdikten veya uygulamayı yeniden yükledikten sonra da verilerinizi aktarabilirsiniz.",
-  "linkWithApple": "Apple ile hesabı aktarın"
+  "linkWithApple": "Apple ile hesabı aktarın",
+  "linkWithGoogle": "Google ile hesabı aktar"
 }

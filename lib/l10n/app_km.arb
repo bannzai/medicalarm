@@ -216,5 +216,6 @@
   "recordedByMember": "បានកត់ត្រាដោយ {name}",
   "accountLink": "ផ្ទេរគណនី",
   "accountLinkDescription": "ការភ្ជាប់ជាមួយ Apple ឬ Google អនុញ្ញាតឱ្យអ្នកផ្ទេរទិន្នន័យរបស់អ្នក ទោះបីជាបានប្តូរឧបករណ៍ ឬដំឡើងកម្មវិធីឡើងវិញក៏ដោយ។",
-  "linkWithApple": "ផ្ទេរគណនីដោយប្រើ Apple"
+  "linkWithApple": "ផ្ទេរគណនីដោយប្រើ Apple",
+  "linkWithGoogle": "ផ្ទេរគណនីដោយប្រើ Google"
 }

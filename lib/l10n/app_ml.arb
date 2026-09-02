@@ -216,5 +216,6 @@
   "recordedByMember": "{name} രേഖപ്പെടുത്തി",
   "accountLink": "അക്കൗണ്ട് കൈമാറ്റം",
   "accountLinkDescription": "Apple-യുമായോ Google-ുമായോ കണക്‌റ്റ് ചെയ്താൽ, ഉപകരണം മാറ്റിയ ശേഷമോ ആപ്പ് വീണ്ടും ഇൻസ്റ്റാൾ ചെയ്ത ശേഷമോ നിങ്ങളുടെ ഡാറ്റ കൈമാറാനാകും.",
-  "linkWithApple": "Apple ഉപയോഗിച്ച് അക്കൗണ്ട് കൈമാറുക"
+  "linkWithApple": "Apple ഉപയോഗിച്ച് അക്കൗണ്ട് കൈമാറുക",
+  "linkWithGoogle": "Google ഉപയോഗിച്ച് അക്കൗണ്ട് കൈമാറുക"
 }

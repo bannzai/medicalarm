@@ -216,5 +216,6 @@
   "recordedByMember": "{name}-ի կողմից գրանցված",
   "accountLink": "Հաշվի փոխանցում",
   "accountLinkDescription": "Apple-ին կամ Google-ին միանալով՝ կարող եք փոխանցել ձեր տվյալները նույնիսկ սարքը փոխելուց կամ հավելվածը վերատեղադրելուց հետո։",
-  "linkWithApple": "Հաշիվը փոխանցել Apple-ի միջոցով"
+  "linkWithApple": "Հաշիվը փոխանցել Apple-ի միջոցով",
+  "linkWithGoogle": "Փոխանցել հաշիվը Google-ի միջոցով"
 }

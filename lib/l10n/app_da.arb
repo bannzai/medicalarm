@@ -216,5 +216,6 @@
   "recordedByMember": "Registreret af {name}",
   "accountLink": "Kontooverførsel",
   "accountLinkDescription": "Når du opretter forbindelse til Apple eller Google, kan du overføre dine data, selv efter at du har skiftet enhed eller geninstalleret appen.",
-  "linkWithApple": "Overfør konto med Apple"
+  "linkWithApple": "Overfør konto med Apple",
+  "linkWithGoogle": "Overfør konto med Google"
 }

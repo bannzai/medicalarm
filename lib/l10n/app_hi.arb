@@ -216,5 +216,6 @@
   "recordedByMember": "{name} ने दर्ज किया",
   "accountLink": "अकाउंट ट्रांसफ़र",
   "accountLinkDescription": "Apple या Google से कनेक्ट करने पर, डिवाइस बदलने या ऐप को फिर से इंस्टॉल करने के बाद भी आप अपना डेटा ट्रांसफ़र कर सकते हैं।",
-  "linkWithApple": "Apple के ज़रिए अकाउंट ट्रांसफ़र करें"
+  "linkWithApple": "Apple के ज़रिए अकाउंट ट्रांसफ़र करें",
+  "linkWithGoogle": "Google से अकाउंट ट्रांसफ़र करें"
 }

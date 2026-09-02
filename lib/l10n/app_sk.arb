@@ -216,5 +216,6 @@
   "recordedByMember": "Zaznamenal(a) {name}",
   "accountLink": "Prenos účtu",
   "accountLinkDescription": "Po prepojení s Apple alebo Google môžete preniesť svoje údaje aj po zmene zariadenia alebo opätovnej inštalácii aplikácie.",
-  "linkWithApple": "Preniesť účet pomocou Apple"
+  "linkWithApple": "Preniesť účet pomocou Apple",
+  "linkWithGoogle": "Preniesť účet pomocou Googlu"
 }

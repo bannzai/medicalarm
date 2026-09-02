@@ -216,5 +216,6 @@
   "recordedByMember": "Записано от {name}",
   "accountLink": "Прехвърляне на акаунт",
   "accountLinkDescription": "Като свържете Apple или Google, можете да прехвърлите данните си дори след смяна на устройството или повторно инсталиране на приложението.",
-  "linkWithApple": "Прехвърлете акаунта с Apple"
+  "linkWithApple": "Прехвърлете акаунта с Apple",
+  "linkWithGoogle": "Прехвърлете акаунта с Google"
 }

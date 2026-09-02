@@ -216,5 +216,6 @@
   "recordedByMember": "Regjistruar nga {name}",
   "accountLink": "Transferimi i llogarisë",
   "accountLinkDescription": "Duke u lidhur me Apple ose Google, mund t’i transferoni të dhënat tuaja edhe pasi të ndërroni pajisjen ose të riinstaloni aplikacionin.",
-  "linkWithApple": "Transfero llogarinë me Apple"
+  "linkWithApple": "Transfero llogarinë me Apple",
+  "linkWithGoogle": "Transfero llogarinë me Google"
 }

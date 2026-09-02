@@ -216,5 +216,6 @@
   "recordedByMember": "Evidentirao/la {name}",
   "accountLink": "Prenos računa",
   "accountLinkDescription": "Povezivanjem sa uslugom Apple ili Google možete prenijeti svoje podatke čak i nakon promjene uređaja ili ponovne instalacije aplikacije.",
-  "linkWithApple": "Prenesite račun pomoću Apple-a"
+  "linkWithApple": "Prenesite račun pomoću Apple-a",
+  "linkWithGoogle": "Prenesite račun pomoću Google-a"
 }
