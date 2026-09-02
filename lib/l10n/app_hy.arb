@@ -221,5 +221,6 @@
   "accountLinkedWithApple": "Կապված է Apple-ի հետ",
   "accountLinkedWithGoogle": "Կապված է Google-ի հետ",
   "accountLinkedSnackbar": "Հաշիվը փոխանցվեց",
-  "accountLinkBannerText": "Խմբով կիսվելու ընթացքում խստորեն խորհուրդ ենք տալիս կարգավորել հաշվի փոխանցումը։"
+  "accountLinkBannerText": "Խմբով կիսվելու ընթացքում խստորեն խորհուրդ ենք տալիս կարգավորել հաշվի փոխանցումը։",
+  "minimumDoseInterval": "Դեղաչափերի միջև ընդմիջում"
 }

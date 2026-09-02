@@ -221,5 +221,6 @@
   "accountLinkedWithApple": "Apple ile bağlantılı",
   "accountLinkedWithGoogle": "Google ile bağlandı",
   "accountLinkedSnackbar": "Hesap aktarıldı",
-  "accountLinkBannerText": "Grup paylaşımı sırasında hesap aktarımını ayarlamanızı önemle öneririz."
+  "accountLinkBannerText": "Grup paylaşımı sırasında hesap aktarımını ayarlamanızı önemle öneririz.",
+  "minimumDoseInterval": "Doz aralığı"
 }

@@ -221,5 +221,6 @@
   "accountLinkedWithApple": "Поврзано со Apple",
   "accountLinkedWithGoogle": "Поврзано со Google",
   "accountLinkedSnackbar": "Сметката е пренесена",
-  "accountLinkBannerText": "Додека споделувате група, силно ви препорачуваме да го поставите преносот на сметката."
+  "accountLinkBannerText": "Додека споделувате група, силно ви препорачуваме да го поставите преносот на сметката.",
+  "minimumDoseInterval": "Интервал помеѓу дози"
 }

@@ -221,5 +221,6 @@
   "accountLinkedWithApple": "Tengt Apple",
   "accountLinkedWithGoogle": "Tengt við Google",
   "accountLinkedSnackbar": "Reikningur fluttur",
-  "accountLinkBannerText": "Þegar hópi er deilt mælum við eindregið með því að þú setjir upp flutning reiknings."
+  "accountLinkBannerText": "Þegar hópi er deilt mælum við eindregið með því að þú setjir upp flutning reiknings.",
+  "minimumDoseInterval": "Tímabil milli skammta"
 }

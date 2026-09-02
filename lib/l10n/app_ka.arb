@@ -221,5 +221,6 @@
   "accountLinkedWithApple": "დაკავშირებულია Apple-თან",
   "accountLinkedWithGoogle": "დაკავშირებულია Google-თან",
   "accountLinkedSnackbar": "ანგარიში გადმოიტანეს",
-  "accountLinkBannerText": "ჯგუფის გაზიარებისას გირჩევთ, აუცილებლად დააყენოთ ანგარიშის გადატანა."
+  "accountLinkBannerText": "ჯგუფის გაზიარებისას გირჩევთ, აუცილებლად დააყენოთ ანგარიშის გადატანა.",
+  "minimumDoseInterval": "დოზებს შორის ინტერვალი"
 }

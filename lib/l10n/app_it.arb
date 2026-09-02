@@ -221,5 +221,6 @@
   "accountLinkedWithApple": "Collegato ad Apple",
   "accountLinkedWithGoogle": "Collegato a Google",
   "accountLinkedSnackbar": "Account trasferito",
-  "accountLinkBannerText": "Quando condividi un gruppo, ti consigliamo vivamente di configurare il trasferimento dell’account."
+  "accountLinkBannerText": "Quando condividi un gruppo, ti consigliamo vivamente di configurare il trasferimento dell’account.",
+  "minimumDoseInterval": "Intervallo tra le dosi"
 }

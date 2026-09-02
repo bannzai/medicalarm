@@ -221,5 +221,6 @@
   "accountLinkedWithApple": "Vinculado con Apple",
   "accountLinkedWithGoogle": "Vinculado con Google",
   "accountLinkedSnackbar": "Cuenta transferida",
-  "accountLinkBannerText": "Mientras compartes un grupo, te recomendamos encarecidamente configurar la transferencia de la cuenta."
+  "accountLinkBannerText": "Mientras compartes un grupo, te recomendamos encarecidamente configurar la transferencia de la cuenta.",
+  "minimumDoseInterval": "Intervalo entre dosis"
 }

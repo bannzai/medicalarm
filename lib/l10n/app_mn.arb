@@ -221,5 +221,6 @@
   "accountLinkedWithApple": "Apple-тай холбогдсон",
   "accountLinkedWithGoogle": "Google-тэй холбогдсон",
   "accountLinkedSnackbar": "Бүртгэл шилжлээ",
-  "accountLinkBannerText": "Бүлэг хуваалцаж байгаа бол бүртгэл шилжүүлэх тохиргоог хийхийг бид настойно зөвлөж байна."
+  "accountLinkBannerText": "Бүлэг хуваалцаж байгаа бол бүртгэл шилжүүлэх тохиргоог хийхийг бид настойно зөвлөж байна.",
+  "minimumDoseInterval": "Тун хоорондын зай"
 }

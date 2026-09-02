@@ -221,5 +221,6 @@
   "accountLinkedWithApple": "Apple-höz kapcsolva",
   "accountLinkedWithGoogle": "Összekapcsolva a Google-lel",
   "accountLinkedSnackbar": "A fiók átkerült",
-  "accountLinkBannerText": "Csoportmegosztás esetén nyomatékosan javasoljuk a fiókátvitel beállítását."
+  "accountLinkBannerText": "Csoportmegosztás esetén nyomatékosan javasoljuk a fiókátvitel beállítását.",
+  "minimumDoseInterval": "Adagolási időköz"
 }

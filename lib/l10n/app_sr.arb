@@ -221,5 +221,6 @@
   "accountLinkedWithApple": "Повезано са Apple-ом",
   "accountLinkedWithGoogle": "Повезано са Google-ом",
   "accountLinkedSnackbar": "Налог је пренет",
-  "accountLinkBannerText": "Током дељења групе снажно препоручујемо да подесите пренос налога."
+  "accountLinkBannerText": "Током дељења групе снажно препоручујемо да подесите пренос налога.",
+  "minimumDoseInterval": "Размак између доза"
 }

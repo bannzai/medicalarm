@@ -221,5 +221,6 @@
   "accountLinkedWithApple": "Povezano z Apple",
   "accountLinkedWithGoogle": "Povezano z Googlom",
   "accountLinkedSnackbar": "Račun je prenesen",
-  "accountLinkBannerText": "Pri skupni rabi močno priporočamo, da nastavite prenos računa."
+  "accountLinkBannerText": "Pri skupni rabi močno priporočamo, da nastavite prenos računa.",
+  "minimumDoseInterval": "Razmik med odmerkoma"
 }

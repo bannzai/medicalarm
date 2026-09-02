@@ -221,5 +221,6 @@
   "accountLinkedWithApple": "Gekoppeld aan Apple",
   "accountLinkedWithGoogle": "Gekoppeld aan Google",
   "accountLinkedSnackbar": "Account overgedragen",
-  "accountLinkBannerText": "Als je een groep deelt, raden we je sterk aan om accountoverdracht in te stellen."
+  "accountLinkBannerText": "Als je een groep deelt, raden we je sterk aan om accountoverdracht in te stellen.",
+  "minimumDoseInterval": "Tussenpoos tussen doses"
 }

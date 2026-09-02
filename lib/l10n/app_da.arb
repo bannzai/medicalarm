@@ -221,5 +221,6 @@
   "accountLinkedWithApple": "Forbundet med Apple",
   "accountLinkedWithGoogle": "Forbundet med Google",
   "accountLinkedSnackbar": "Konto overført",
-  "accountLinkBannerText": "Når du deler en gruppe, anbefaler vi på det kraftigste, at du konfigurerer kontooverførsel."
+  "accountLinkBannerText": "Når du deler en gruppe, anbefaler vi på det kraftigste, at du konfigurerer kontooverførsel.",
+  "minimumDoseInterval": "Doseringsinterval"
 }

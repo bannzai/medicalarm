@@ -221,5 +221,6 @@
   "accountLinkedWithApple": "Povezano s Appleom",
   "accountLinkedWithGoogle": "Povezano s Googleom",
   "accountLinkedSnackbar": "Račun je prenesen",
-  "accountLinkBannerText": "Tijekom dijeljenja grupe toplo preporučujemo da postavite prijenos računa."
+  "accountLinkBannerText": "Tijekom dijeljenja grupe toplo preporučujemo da postavite prijenos računa.",
+  "minimumDoseInterval": "Razmak između doza"
 }

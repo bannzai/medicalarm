@@ -221,5 +221,6 @@
   "accountLinkedWithApple": "Apple’iga seotud",
   "accountLinkedWithGoogle": "Google'iga ühendatud",
   "accountLinkedSnackbar": "Konto on üle kantud",
-  "accountLinkBannerText": "Grupi jagamise ajal soovitame tungivalt seadistada konto ülekandmise."
+  "accountLinkBannerText": "Grupi jagamise ajal soovitame tungivalt seadistada konto ülekandmise.",
+  "minimumDoseInterval": "Annustamisintervall"
 }

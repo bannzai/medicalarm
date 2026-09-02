@@ -221,5 +221,6 @@
   "accountLinkedWithApple": "Połączono z Apple",
   "accountLinkedWithGoogle": "Połączono z Google",
   "accountLinkedSnackbar": "Konto zostało przeniesione",
-  "accountLinkBannerText": "Podczas udostępniania grupy zdecydowanie zalecamy skonfigurowanie przenoszenia konta."
+  "accountLinkBannerText": "Podczas udostępniania grupy zdecydowanie zalecamy skonfigurowanie przenoszenia konta.",
+  "minimumDoseInterval": "Odstęp między dawkami"
 }

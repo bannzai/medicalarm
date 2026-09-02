@@ -221,5 +221,6 @@
   "accountLinkedWithApple": "Mit Apple verknüpft",
   "accountLinkedWithGoogle": "Mit Google verknüpft",
   "accountLinkedSnackbar": "Konto übertragen",
-  "accountLinkBannerText": "Während du eine Gruppe teilst, empfehlen wir dringend, die Kontoübertragung einzurichten."
+  "accountLinkBannerText": "Während du eine Gruppe teilst, empfehlen wir dringend, die Kontoübertragung einzurichten.",
+  "minimumDoseInterval": "Einnahmeabstand"
 }

@@ -221,5 +221,6 @@
   "accountLinkedWithApple": "Apple bilan bog‘langan",
   "accountLinkedWithGoogle": "Google bilan bog‘langan",
   "accountLinkedSnackbar": "Hisob ko‘chirildi",
-  "accountLinkBannerText": "Guruhni ulashayotganingizda, hisobni ko‘chirishni sozlashni qat’iy tavsiya qilamiz."
+  "accountLinkBannerText": "Guruhni ulashayotganingizda, hisobni ko‘chirishni sozlashni qat’iy tavsiya qilamiz.",
+  "minimumDoseInterval": "Dozalar orasidagi interval"
 }

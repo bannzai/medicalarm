@@ -221,5 +221,6 @@
   "accountLinkedWithApple": "ከApple ጋር ተገናኝቷል",
   "accountLinkedWithGoogle": "ከGoogle ጋር ተገናኝቷል",
   "accountLinkedSnackbar": "መለያው ተላልፏል",
-  "accountLinkBannerText": "ቡድን በሚያጋሩበት ጊዜ የመለያ ማስተላለፊያ ቅንብርን እንዲያዘጋጁ በጥብቅ እንመክራለን።"
+  "accountLinkBannerText": "ቡድን በሚያጋሩበት ጊዜ የመለያ ማስተላለፊያ ቅንብርን እንዲያዘጋጁ በጥብቅ እንመክራለን።",
+  "minimumDoseInterval": "የመውሰጃ ክፍተት"
 }

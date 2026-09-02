@@ -221,5 +221,6 @@
   "accountLinkedWithApple": "Apple-мен байланыстырылған",
   "accountLinkedWithGoogle": "Google-мен байланыстырылды",
   "accountLinkedSnackbar": "Тіркелгі ауыстырылды",
-  "accountLinkBannerText": "Топты ортақ пайдаланған кезде есептік жазбаны тасымалдауды баптауды қатаң ұсынамыз."
+  "accountLinkBannerText": "Топты ортақ пайдаланған кезде есептік жазбаны тасымалдауды баптауды қатаң ұсынамыз.",
+  "minimumDoseInterval": "Дозалар арасындағы аралық"
 }

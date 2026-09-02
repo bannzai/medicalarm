@@ -221,5 +221,6 @@
   "accountLinkedWithApple": "Wedi’i gysylltu ag Apple",
   "accountLinkedWithGoogle": "Wedi'i gysylltu â Google",
   "accountLinkedSnackbar": "Trosglwyddwyd y cyfrif",
-  "accountLinkBannerText": "Wrth rannu grŵp, rydym yn argymell yn gryf eich bod yn sefydlu trosglwyddo cyfrif."
+  "accountLinkBannerText": "Wrth rannu grŵp, rydym yn argymell yn gryf eich bod yn sefydlu trosglwyddo cyfrif.",
+  "minimumDoseInterval": "Cyfwng rhwng dosau"
 }

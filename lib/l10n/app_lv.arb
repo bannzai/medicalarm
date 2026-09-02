@@ -221,5 +221,6 @@
   "accountLinkedWithApple": "Saistīts ar Apple",
   "accountLinkedWithGoogle": "Saistīts ar Google",
   "accountLinkedSnackbar": "Konts pārsūtīts",
-  "accountLinkBannerText": "Kopīgojot grupu, mēs ļoti iesakām iestatīt konta pārsūtīšanu."
+  "accountLinkBannerText": "Kopīgojot grupu, mēs ļoti iesakām iestatīt konta pārsūtīšanu.",
+  "minimumDoseInterval": "Devu lietošanas intervāls"
 }

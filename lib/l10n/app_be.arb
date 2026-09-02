@@ -221,5 +221,6 @@
   "accountLinkedWithApple": "Звязана з Apple",
   "accountLinkedWithGoogle": "Звязана з Google",
   "accountLinkedSnackbar": "Акаўнт перанесены",
-  "accountLinkBannerText": "Падчас абагульвання групы настойліва рэкамендуем наладзіць перанос уліковага запісу."
+  "accountLinkBannerText": "Падчас абагульвання групы настойліва рэкамендуем наладзіць перанос уліковага запісу.",
+  "minimumDoseInterval": "Інтэрвал паміж прыёмамі"
 }

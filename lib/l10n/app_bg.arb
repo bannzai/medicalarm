@@ -221,5 +221,6 @@
   "accountLinkedWithApple": "Свързано с Apple",
   "accountLinkedWithGoogle": "Свързано с Google",
   "accountLinkedSnackbar": "Акаунтът е прехвърлен",
-  "accountLinkBannerText": "Докато споделяте група, горещо препоръчваме да настроите прехвърлянето на акаунта."
+  "accountLinkBannerText": "Докато споделяте група, горещо препоръчваме да настроите прехвърлянето на акаунта.",
+  "minimumDoseInterval": "Интервал между приемите"
 }

@@ -221,5 +221,6 @@
   "accountLinkedWithApple": "Conectat la Apple",
   "accountLinkedWithGoogle": "Conectat la Google",
   "accountLinkedSnackbar": "Cont transferat",
-  "accountLinkBannerText": "Atunci când partajați un grup, vă recomandăm insistent să configurați transferul contului."
+  "accountLinkBannerText": "Atunci când partajați un grup, vă recomandăm insistent să configurați transferul contului.",
+  "minimumDoseInterval": "Intervalul dintre doze"
 }
