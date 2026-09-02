@@ -187,5 +187,6 @@
   "createGroup": "Krijo grup",
   "groupName": "Emri i grupit",
   "groupNameInputHint": "Shkruani emrin e grupit",
-  "groupIcon": "Ikonë"
+  "groupIcon": "Ikonë",
+  "groupMemberCount": "{count} anëtarë"
 }

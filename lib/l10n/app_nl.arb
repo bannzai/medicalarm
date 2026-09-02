@@ -187,5 +187,6 @@
   "createGroup": "Groep maken",
   "groupName": "Groepsnaam",
   "groupNameInputHint": "Groepsnaam invoeren",
-  "groupIcon": "Icoon"
+  "groupIcon": "Icoon",
+  "groupMemberCount": "{count} leden"
 }

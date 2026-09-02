@@ -187,5 +187,6 @@
   "createGroup": "ଗୋଷ୍ଠୀ ସୃଷ୍ଟି କରନ୍ତୁ",
   "groupName": "ଗୋଷ୍ଠୀର ନାମ",
   "groupNameInputHint": "ଗୋଷ୍ଠୀର ନାମ ଲେଖନ୍ତୁ",
-  "groupIcon": "ଆଇକନ୍"
+  "groupIcon": "ଆଇକନ୍",
+  "groupMemberCount": "{count} ଜଣ ସଦସ୍ୟ"
 }

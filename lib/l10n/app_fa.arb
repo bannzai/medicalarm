@@ -187,5 +187,6 @@
   "createGroup": "ایجاد گروه",
   "groupName": "نام گروه",
   "groupNameInputHint": "نام گروه را وارد کنید",
-  "groupIcon": "نماد"
+  "groupIcon": "نماد",
+  "groupMemberCount": "{count} عضو"
 }

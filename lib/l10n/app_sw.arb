@@ -187,5 +187,6 @@
   "createGroup": "Unda kikundi",
   "groupName": "Jina la kikundi",
   "groupNameInputHint": "Weka jina la kikundi",
-  "groupIcon": "Ikoni"
+  "groupIcon": "Ikoni",
+  "groupMemberCount": "{count} wanachama"
 }

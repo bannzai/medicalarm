@@ -187,5 +187,6 @@
   "createGroup": "Qrup yarat",
   "groupName": "Qrup adı",
   "groupNameInputHint": "Qrup adını daxil edin",
-  "groupIcon": "İkon"
+  "groupIcon": "İkon",
+  "groupMemberCount": "{count} üzv"
 }

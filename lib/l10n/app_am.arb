@@ -187,5 +187,6 @@
   "createGroup": "ቡድን ይፍጠሩ",
   "groupName": "የቡድን ስም",
   "groupNameInputHint": "የቡድን ስም ያስገቡ",
-  "groupIcon": "አይኮን"
+  "groupIcon": "አይኮን",
+  "groupMemberCount": "አባላት: {count}"
 }

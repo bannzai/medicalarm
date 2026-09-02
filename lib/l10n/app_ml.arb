@@ -187,5 +187,6 @@
   "createGroup": "ഗ്രൂപ്പ് സൃഷ്ടിക്കുക",
   "groupName": "ഗ്രൂപ്പിന്റെ പേര്",
   "groupNameInputHint": "ഗ്രൂപ്പിന്റെ പേര് നൽകുക",
-  "groupIcon": "ഐക്കൺ"
+  "groupIcon": "ഐക്കൺ",
+  "groupMemberCount": "{count} അംഗങ്ങൾ"
 }

@@ -187,5 +187,6 @@
   "createGroup": "အဖွဲ့ဖန်တီးရန်",
   "groupName": "အဖွဲ့အမည်",
   "groupNameInputHint": "အဖွဲ့အမည်ကို ထည့်ပါ",
-  "groupIcon": "အိုင်ကွန်"
+  "groupIcon": "အိုင်ကွန်",
+  "groupMemberCount": "အဖွဲ့ဝင် {count} ဦး"
 }

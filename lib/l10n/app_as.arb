@@ -187,5 +187,6 @@
   "createGroup": "গোট সৃষ্টি কৰক",
   "groupName": "গোটৰ নাম",
   "groupNameInputHint": "গোটৰ নাম লিখক",
-  "groupIcon": "আইকন"
+  "groupIcon": "আইকন",
+  "groupMemberCount": "{count} জন সদস্য"
 }

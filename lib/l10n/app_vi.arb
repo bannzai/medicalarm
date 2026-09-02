@@ -187,5 +187,6 @@
   "createGroup": "Tạo nhóm",
   "groupName": "Tên nhóm",
   "groupNameInputHint": "Nhập tên nhóm",
-  "groupIcon": "Biểu tượng"
+  "groupIcon": "Biểu tượng",
+  "groupMemberCount": "{count} thành viên"
 }

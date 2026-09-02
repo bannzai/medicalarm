@@ -187,5 +187,6 @@
   "createGroup": "Creează un grup",
   "groupName": "Numele grupului",
   "groupNameInputHint": "Introduceți numele grupului",
-  "groupIcon": "Pictogramă"
+  "groupIcon": "Pictogramă",
+  "groupMemberCount": "{count} membri"
 }

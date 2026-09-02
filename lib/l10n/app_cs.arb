@@ -187,5 +187,6 @@
   "createGroup": "Vytvořit skupinu",
   "groupName": "Název skupiny",
   "groupNameInputHint": "Zadejte název skupiny",
-  "groupIcon": "Ikona"
+  "groupIcon": "Ikona",
+  "groupMemberCount": "{count} členů"
 }

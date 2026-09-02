@@ -187,5 +187,6 @@
   "createGroup": "Создать группу",
   "groupName": "Название группы",
   "groupNameInputHint": "Введите название группы",
-  "groupIcon": "Значок"
+  "groupIcon": "Значок",
+  "groupMemberCount": "{count} участников"
 }

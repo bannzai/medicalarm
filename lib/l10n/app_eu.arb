@@ -187,5 +187,6 @@
   "createGroup": "Sortu taldea",
   "groupName": "Taldearen izena",
   "groupNameInputHint": "Sartu taldearen izena",
-  "groupIcon": "Ikonoa"
+  "groupIcon": "Ikonoa",
+  "groupMemberCount": "{count} kide"
 }

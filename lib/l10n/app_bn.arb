@@ -187,5 +187,6 @@
   "createGroup": "গ্রুপ তৈরি করুন",
   "groupName": "গোষ্ঠীর নাম",
   "groupNameInputHint": "গ্রুপের নাম লিখুন",
-  "groupIcon": "আইকন"
+  "groupIcon": "আইকন",
+  "groupMemberCount": "{count} জন সদস্য"
 }

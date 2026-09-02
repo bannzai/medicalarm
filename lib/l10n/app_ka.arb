@@ -187,5 +187,6 @@
   "createGroup": "ჯგუფის შექმნა",
   "groupName": "ჯგუფის სახელი",
   "groupNameInputHint": "შეიყვანეთ ჯგუფის სახელი",
-  "groupIcon": "ხატულა"
+  "groupIcon": "ხატულა",
+  "groupMemberCount": "{count} წევრი"
 }

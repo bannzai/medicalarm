@@ -187,5 +187,6 @@
   "createGroup": "יצירת קבוצה",
   "groupName": "שם הקבוצה",
   "groupNameInputHint": "הזן את שם הקבוצה",
-  "groupIcon": "סמל"
+  "groupIcon": "סמל",
+  "groupMemberCount": "{count} חברים"
 }

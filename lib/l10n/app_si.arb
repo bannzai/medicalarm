@@ -187,5 +187,6 @@
   "createGroup": "කණ්ඩායම සාදන්න",
   "groupName": "කණ්ඩායමේ නම",
   "groupNameInputHint": "කණ්ඩායමේ නම ඇතුළත් කරන්න",
-  "groupIcon": "නිරූපකය"
+  "groupIcon": "නිරූපකය",
+  "groupMemberCount": "{count} සාමාජිකයන්"
 }

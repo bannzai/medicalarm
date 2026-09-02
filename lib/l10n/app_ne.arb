@@ -187,5 +187,6 @@
   "createGroup": "समूह सिर्जना गर्नुहोस्",
   "groupName": "समूहको नाम",
   "groupNameInputHint": "समूहको नाम प्रविष्ट गर्नुहोस्",
-  "groupIcon": "आइकन"
+  "groupIcon": "आइकन",
+  "groupMemberCount": "{count} सदस्य"
 }

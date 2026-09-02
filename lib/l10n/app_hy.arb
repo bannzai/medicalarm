@@ -187,5 +187,6 @@
   "createGroup": "Ստեղծել խումբ",
   "groupName": "Խմբի անունը",
   "groupNameInputHint": "Մուտքագրեք խմբի անունը",
-  "groupIcon": "Պատկերակ"
+  "groupIcon": "Պատկերակ",
+  "groupMemberCount": "{count} անդամ"
 }

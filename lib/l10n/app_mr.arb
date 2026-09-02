@@ -187,5 +187,6 @@
   "createGroup": "गट तयार करा",
   "groupName": "गटाचे नाव",
   "groupNameInputHint": "गटाचे नाव प्रविष्ट करा",
-  "groupIcon": "आयकॉन"
+  "groupIcon": "आयकॉन",
+  "groupMemberCount": "{count} सदस्य"
 }

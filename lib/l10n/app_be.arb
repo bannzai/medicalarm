@@ -187,5 +187,6 @@
   "createGroup": "Стварыць групу",
   "groupName": "Назва групы",
   "groupNameInputHint": "Увядзіце назву групы",
-  "groupIcon": "Значок"
+  "groupIcon": "Значок",
+  "groupMemberCount": "{count} удзельнікаў"
 }

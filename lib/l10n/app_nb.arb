@@ -187,5 +187,6 @@
   "createGroup": "Opprett gruppe",
   "groupName": "Gruppenavn",
   "groupNameInputHint": "Skriv inn gruppenavn",
-  "groupIcon": "Ikon"
+  "groupIcon": "Ikon",
+  "groupMemberCount": "{count} medlemmer"
 }

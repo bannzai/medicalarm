@@ -187,5 +187,6 @@
   "createGroup": "Búa til hóp",
   "groupName": "Heiti hóps",
   "groupNameInputHint": "Sláðu inn heiti hópsins",
-  "groupIcon": "Tákn"
+  "groupIcon": "Tákn",
+  "groupMemberCount": "{count} meðlimir"
 }

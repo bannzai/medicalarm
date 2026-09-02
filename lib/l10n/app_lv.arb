@@ -187,5 +187,6 @@
   "createGroup": "Izveidot grupu",
   "groupName": "Grupas nosaukums",
   "groupNameInputHint": "Ievadiet grupas nosaukumu",
-  "groupIcon": "Ikona"
+  "groupIcon": "Ikona",
+  "groupMemberCount": "{count} dalībnieki"
 }

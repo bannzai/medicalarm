@@ -187,5 +187,6 @@
   "createGroup": "సమూహాన్ని సృష్టించండి",
   "groupName": "సమూహం పేరు",
   "groupNameInputHint": "సమూహం పేరును నమోదు చేయండి",
-  "groupIcon": "చిహ్నం"
+  "groupIcon": "చిహ్నం",
+  "groupMemberCount": "{count} మంది సభ్యులు"
 }

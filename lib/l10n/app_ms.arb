@@ -187,5 +187,6 @@
   "createGroup": "Cipta kumpulan",
   "groupName": "Nama kumpulan",
   "groupNameInputHint": "Masukkan nama kumpulan",
-  "groupIcon": "Ikon"
+  "groupIcon": "Ikon",
+  "groupMemberCount": "{count} ahli"
 }

@@ -187,5 +187,6 @@
   "createGroup": "Δημιουργία ομάδας",
   "groupName": "Όνομα ομάδας",
   "groupNameInputHint": "Εισαγάγετε το όνομα της ομάδας",
-  "groupIcon": "Εικονίδιο"
+  "groupIcon": "Εικονίδιο",
+  "groupMemberCount": "{count} μέλη"
 }

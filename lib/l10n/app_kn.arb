@@ -187,5 +187,6 @@
   "createGroup": "ಗುಂಪನ್ನು ರಚಿಸಿ",
   "groupName": "ಗುಂಪಿನ ಹೆಸರು",
   "groupNameInputHint": "ಗುಂಪಿನ ಹೆಸರನ್ನು ನಮೂದಿಸಿ",
-  "groupIcon": "ಐಕಾನ್"
+  "groupIcon": "ಐಕಾನ್",
+  "groupMemberCount": "{count} ಸದಸ್ಯರು"
 }

@@ -187,5 +187,6 @@
   "createGroup": "Топ түзүү",
   "groupName": "Топтун аты",
   "groupNameInputHint": "Топтун атын киргизиңиз",
-  "groupIcon": "Белги"
+  "groupIcon": "Белги",
+  "groupMemberCount": "{count} мүчө"
 }

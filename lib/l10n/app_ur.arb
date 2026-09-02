@@ -187,5 +187,6 @@
   "createGroup": "گروپ بنائیں",
   "groupName": "گروپ کا نام",
   "groupNameInputHint": "گروپ کا نام درج کریں",
-  "groupIcon": "آئیکن"
+  "groupIcon": "آئیکن",
+  "groupMemberCount": "{count} اراکین"
 }

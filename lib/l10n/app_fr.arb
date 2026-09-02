@@ -187,5 +187,6 @@
   "createGroup": "Créer un groupe",
   "groupName": "Nom du groupe",
   "groupNameInputHint": "Saisissez le nom du groupe",
-  "groupIcon": "Icône"
+  "groupIcon": "Icône",
+  "groupMemberCount": "{count} membres"
 }

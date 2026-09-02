@@ -187,5 +187,6 @@
   "createGroup": "Бүлэг үүсгэх",
   "groupName": "Бүлгийн нэр",
   "groupNameInputHint": "Бүлгийн нэрийг оруулна уу",
-  "groupIcon": "Дүрс"
+  "groupIcon": "Дүрс",
+  "groupMemberCount": "{count} гишүүн"
 }

@@ -187,5 +187,6 @@
   "createGroup": "Sukurti grupę",
   "groupName": "Grupės pavadinimas",
   "groupNameInputHint": "Įveskite grupės pavadinimą",
-  "groupIcon": "Piktograma"
+  "groupIcon": "Piktograma",
+  "groupMemberCount": "{count} nariai"
 }

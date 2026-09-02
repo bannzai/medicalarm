@@ -187,5 +187,6 @@
   "createGroup": "Dala iqembu",
   "groupName": "Igama leqembu",
   "groupNameInputHint": "Faka igama leqembu",
-  "groupIcon": "Isithonjana"
+  "groupIcon": "Isithonjana",
+  "groupMemberCount": "{count} amalungu"
 }

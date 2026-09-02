@@ -187,5 +187,6 @@
   "createGroup": "Skep groep",
   "groupName": "Groepnaam",
   "groupNameInputHint": "Voer groepnaam in",
-  "groupIcon": "Ikoon"
+  "groupIcon": "Ikoon",
+  "groupMemberCount": "{count} lede"
 }

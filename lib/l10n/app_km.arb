@@ -187,5 +187,6 @@
   "createGroup": "បង្កើតក្រុម",
   "groupName": "ឈ្មោះក្រុម",
   "groupNameInputHint": "បញ្ចូលឈ្មោះក្រុម",
-  "groupIcon": "រូបតំណាង"
+  "groupIcon": "រូបតំណាង",
+  "groupMemberCount": "{count} សមាជិក"
 }

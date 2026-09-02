@@ -187,5 +187,6 @@
   "createGroup": "Buat grup",
   "groupName": "Nama grup",
   "groupNameInputHint": "Masukkan nama grup",
-  "groupIcon": "Ikon"
+  "groupIcon": "Ikon",
+  "groupMemberCount": "{count} anggota"
 }

@@ -187,5 +187,6 @@
   "createGroup": "Izradi grupu",
   "groupName": "Naziv grupe",
   "groupNameInputHint": "Unesite naziv grupe",
-  "groupIcon": "Ikona"
+  "groupIcon": "Ikona",
+  "groupMemberCount": "{count} članova"
 }

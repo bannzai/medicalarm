@@ -187,5 +187,6 @@
   "createGroup": "Створити групу",
   "groupName": "Назва групи",
   "groupNameInputHint": "Введіть назву групи",
-  "groupIcon": "Піктограма"
+  "groupIcon": "Піктограма",
+  "groupMemberCount": "{count} учасників"
 }

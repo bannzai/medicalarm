@@ -187,5 +187,6 @@
   "createGroup": "إنشاء مجموعة",
   "groupName": "اسم المجموعة",
   "groupNameInputHint": "أدخل اسم المجموعة",
-  "groupIcon": "الأيقونة"
+  "groupIcon": "الأيقونة",
+  "groupMemberCount": "{count} أعضاء"
 }

@@ -187,5 +187,6 @@
   "createGroup": "Skapa grupp",
   "groupName": "Gruppnamn",
   "groupNameInputHint": "Ange gruppnamn",
-  "groupIcon": "Ikon"
+  "groupIcon": "Ikon",
+  "groupMemberCount": "{count} medlemmar"
 }

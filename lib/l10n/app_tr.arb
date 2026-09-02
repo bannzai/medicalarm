@@ -187,5 +187,6 @@
   "createGroup": "Grup oluştur",
   "groupName": "Grup adı",
   "groupNameInputHint": "Grup adını girin",
-  "groupIcon": "Simge"
+  "groupIcon": "Simge",
+  "groupMemberCount": "{count} üye"
 }

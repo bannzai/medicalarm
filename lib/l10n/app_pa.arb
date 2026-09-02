@@ -187,5 +187,6 @@
   "createGroup": "ਗਰੁੱਪ ਬਣਾਓ",
   "groupName": "ਗਰੁੱਪ ਦਾ ਨਾਮ",
   "groupNameInputHint": "ਗਰੁੱਪ ਦਾ ਨਾਮ ਦਰਜ ਕਰੋ",
-  "groupIcon": "ਆਈਕਨ"
+  "groupIcon": "ਆਈਕਨ",
+  "groupMemberCount": "{count} ਮੈਂਬਰ"
 }

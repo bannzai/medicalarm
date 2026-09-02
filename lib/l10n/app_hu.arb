@@ -187,5 +187,6 @@
   "createGroup": "Csoport létrehozása",
   "groupName": "Csoport neve",
   "groupNameInputHint": "Adja meg a csoport nevét",
-  "groupIcon": "Ikon"
+  "groupIcon": "Ikon",
+  "groupMemberCount": "{count} tag"
 }
