@@ -214,5 +214,6 @@
   "invitationCodeInputHint": "8 حروفی کوڈ درج کریں",
   "join": "شامل ہوں",
   "recordedByMember": "{name} نے درج کیا",
-  "accountLink": "اکاؤنٹ کی منتقلی"
+  "accountLink": "اکاؤنٹ کی منتقلی",
+  "accountLinkDescription": "Apple یا Google سے منسلک ہونے پر، آپ ڈیوائس تبدیل کرنے یا ایپ دوبارہ انسٹال کرنے کے بعد بھی اپنا ڈیٹا منتقل کر سکتے ہیں۔"
 }

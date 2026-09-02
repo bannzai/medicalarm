@@ -214,5 +214,6 @@
   "invitationCodeInputHint": "ປ້ອນລະຫັດ 8 ຕົວອັກສອນ",
   "join": "ເຂົ້າຮ່ວມ",
   "recordedByMember": "ບັນທຶກໂດຍ {name}",
-  "accountLink": "ການໂອນບັນຊີ"
+  "accountLink": "ການໂອນບັນຊີ",
+  "accountLinkDescription": "ເມື່ອເຊື່ອມຕໍ່ກັບ Apple ຫຼື Google ທ່ານຈະສາມາດໂອນຂໍ້ມູນຂອງທ່ານໄດ້ ແມ່ນແຕ່ຫຼັງຈາກປ່ຽນອຸປະກອນ ຫຼືຕິດຕັ້ງແອັບຄືນໃໝ່."
 }

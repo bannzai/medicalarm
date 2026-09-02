@@ -214,5 +214,6 @@
   "invitationCodeInputHint": "Skriv inn koden med 8 tegn",
   "join": "Bli med",
   "recordedByMember": "Registrert av {name}",
-  "accountLink": "Kontooverføring"
+  "accountLink": "Kontooverføring",
+  "accountLinkDescription": "Når du kobler til Apple eller Google, kan du overføre dataene dine selv etter at du har byttet enhet eller installert appen på nytt."
 }

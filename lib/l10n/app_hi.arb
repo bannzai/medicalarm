@@ -214,5 +214,6 @@
   "invitationCodeInputHint": "8 अक्षरों वाला कोड दर्ज करें",
   "join": "शामिल हों",
   "recordedByMember": "{name} ने दर्ज किया",
-  "accountLink": "अकाउंट ट्रांसफ़र"
+  "accountLink": "अकाउंट ट्रांसफ़र",
+  "accountLinkDescription": "Apple या Google से कनेक्ट करने पर, डिवाइस बदलने या ऐप को फिर से इंस्टॉल करने के बाद भी आप अपना डेटा ट्रांसफ़र कर सकते हैं।"
 }

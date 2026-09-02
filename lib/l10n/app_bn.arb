@@ -214,5 +214,6 @@
   "invitationCodeInputHint": "৮ অক্ষরের কোড লিখুন",
   "join": "যোগ দিন",
   "recordedByMember": "{name} রেকর্ড করেছেন",
-  "accountLink": "অ্যাকাউন্ট স্থানান্তর"
+  "accountLink": "অ্যাকাউন্ট স্থানান্তর",
+  "accountLinkDescription": "Apple বা Google-এর সঙ্গে সংযুক্ত করলে, ডিভাইস পরিবর্তন বা অ্যাপটি পুনরায় ইনস্টল করার পরও আপনার ডেটা স্থানান্তর করতে পারবেন।"
 }

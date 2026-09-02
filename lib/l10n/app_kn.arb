@@ -214,5 +214,6 @@
   "invitationCodeInputHint": "8 ಅಕ್ಷರಗಳ ಕೋಡ್ ನಮೂದಿಸಿ",
   "join": "ಸೇರಿ",
   "recordedByMember": "{name} ದಾಖಲಿಸಿದ್ದಾರೆ",
-  "accountLink": "ಖಾತೆ ವರ್ಗಾವಣೆ"
+  "accountLink": "ಖಾತೆ ವರ್ಗಾವಣೆ",
+  "accountLinkDescription": "Apple ಅಥವಾ Google ಗೆ ಸಂಪರ್ಕಿಸಿದರೆ, ಸಾಧನವನ್ನು ಬದಲಾಯಿಸಿದ ನಂತರ ಅಥವಾ ಆ್ಯಪ್ ಅನ್ನು ಮರುಸ್ಥಾಪಿಸಿದ ನಂತರವೂ ನಿಮ್ಮ ಡೇಟಾವನ್ನು ವರ್ಗಾಯಿಸಬಹುದು."
 }

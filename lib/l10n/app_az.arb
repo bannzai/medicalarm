@@ -214,5 +214,6 @@
   "invitationCodeInputHint": "8 simvolluq kodu daxil edin",
   "join": "Qoşulun",
   "recordedByMember": "{name} tərəfindən qeyd edilib",
-  "accountLink": "Hesabın köçürülməsi"
+  "accountLink": "Hesabın köçürülməsi",
+  "accountLinkDescription": "Apple və ya Google ilə əlaqə yaratdıqda, cihazınızı dəyişdikdən və ya tətbiqi yenidən quraşdırdıqdan sonra da məlumatlarınızı köçürə bilərsiniz."
 }

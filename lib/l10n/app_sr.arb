@@ -214,5 +214,6 @@
   "invitationCodeInputHint": "Унесите код од 8 знакова",
   "join": "Придружи се",
   "recordedByMember": "Забележио/ла {name}",
-  "accountLink": "Пренос налога"
+  "accountLink": "Пренос налога",
+  "accountLinkDescription": "Povezivanjem sa Apple-om ili Google-om možete preneti svoje podatke čak i nakon promene uređaja ili ponovne instalacije aplikacije."
 }

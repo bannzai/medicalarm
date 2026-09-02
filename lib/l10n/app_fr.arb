@@ -214,5 +214,6 @@
   "invitationCodeInputHint": "Saisissez le code à 8 caractères",
   "join": "Rejoindre",
   "recordedByMember": "Enregistré par {name}",
-  "accountLink": "Transfert de compte"
+  "accountLink": "Transfert de compte",
+  "accountLinkDescription": "En associant votre compte à Apple ou Google, vous pouvez récupérer vos données même après avoir changé d’appareil ou réinstallé l’application."
 }

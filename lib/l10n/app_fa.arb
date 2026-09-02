@@ -214,5 +214,6 @@
   "invitationCodeInputHint": "کد ۸ نویسه‌ای را وارد کنید",
   "join": "پیوستن",
   "recordedByMember": "ثبت‌شده توسط {name}",
-  "accountLink": "انتقال حساب"
+  "accountLink": "انتقال حساب",
+  "accountLinkDescription": "با اتصال به Apple یا Google، می‌توانید حتی پس از تعویض دستگاه یا نصب مجدد برنامه، داده‌های خود را منتقل کنید."
 }

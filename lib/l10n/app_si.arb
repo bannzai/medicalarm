@@ -214,5 +214,6 @@
   "invitationCodeInputHint": "අක්ෂර 8ක කේතය ඇතුළත් කරන්න",
   "join": "එක්වන්න",
   "recordedByMember": "{name} විසින් සටහන් කරන ලදී",
-  "accountLink": "ගිණුම මාරු කිරීම"
+  "accountLink": "ගිණුම මාරු කිරීම",
+  "accountLinkDescription": "Apple හෝ Google සමඟ සම්බන්ධ කිරීමෙන්, උපාංගය වෙනස් කළ පසුව හෝ යෙදුම නැවත ස්ථාපනය කළ පසුව වුවද ඔබේ දත්ත මාරු කරගත හැකිය."
 }

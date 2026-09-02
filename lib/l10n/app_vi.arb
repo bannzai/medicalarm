@@ -214,5 +214,6 @@
   "invitationCodeInputHint": "Nhập mã gồm 8 ký tự",
   "join": "Tham gia",
   "recordedByMember": "Được {name} ghi lại",
-  "accountLink": "Chuyển tài khoản"
+  "accountLink": "Chuyển tài khoản",
+  "accountLinkDescription": "Bằng cách liên kết với Apple hoặc Google, bạn có thể chuyển dữ liệu ngay cả sau khi đổi thiết bị hoặc cài đặt lại ứng dụng."
 }

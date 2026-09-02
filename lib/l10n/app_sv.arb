@@ -214,5 +214,6 @@
   "invitationCodeInputHint": "Ange den 8 tecken långa koden",
   "join": "Gå med",
   "recordedByMember": "Registrerat av {name}",
-  "accountLink": "Kontoöverföring"
+  "accountLink": "Kontoöverföring",
+  "accountLinkDescription": "Genom att ansluta till Apple eller Google kan du överföra dina data även efter att du har bytt enhet eller installerat om appen."
 }

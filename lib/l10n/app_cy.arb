@@ -214,5 +214,6 @@
   "invitationCodeInputHint": "Rhowch y cod 8 nod",
   "join": "Ymuno",
   "recordedByMember": "Cofnodwyd gan {name}",
-  "accountLink": "Trosglwyddo cyfrif"
+  "accountLink": "Trosglwyddo cyfrif",
+  "accountLinkDescription": "Drwy gysylltu ag Apple neu Google, gallwch drosglwyddo’ch data hyd yn oed ar ôl newid dyfais neu ailosod yr ap."
 }

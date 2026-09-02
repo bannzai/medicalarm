@@ -214,5 +214,6 @@
   "invitationCodeInputHint": "Unesite kôd od 8 znakova",
   "join": "Pridruži se",
   "recordedByMember": "Evidentirao/la {name}",
-  "accountLink": "Prenos računa"
+  "accountLink": "Prenos računa",
+  "accountLinkDescription": "Povezivanjem sa uslugom Apple ili Google možete prenijeti svoje podatke čak i nakon promjene uređaja ili ponovne instalacije aplikacije."
 }

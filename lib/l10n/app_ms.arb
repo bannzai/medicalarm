@@ -214,5 +214,6 @@
   "invitationCodeInputHint": "Masukkan kod 8 aksara",
   "join": "Sertai",
   "recordedByMember": "Direkodkan oleh {name}",
-  "accountLink": "Pemindahan akaun"
+  "accountLink": "Pemindahan akaun",
+  "accountLinkDescription": "Dengan memautkan Apple atau Google, anda boleh memindahkan data anda walaupun selepas menukar peranti atau memasang semula apl."
 }

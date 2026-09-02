@@ -214,5 +214,6 @@
   "invitationCodeInputHint": "Futni kodin me 8 karaktere",
   "join": "Bashkohu",
   "recordedByMember": "Regjistruar nga {name}",
-  "accountLink": "Transferimi i llogarisë"
+  "accountLink": "Transferimi i llogarisë",
+  "accountLinkDescription": "Duke u lidhur me Apple ose Google, mund t’i transferoni të dhënat tuaja edhe pasi të ndërroni pajisjen ose të riinstaloni aplikacionin."
 }

@@ -214,5 +214,6 @@
   "invitationCodeInputHint": "Sláðu inn 8 stafa kóðann",
   "join": "Taka þátt",
   "recordedByMember": "Skráð af {name}",
-  "accountLink": "Flutningur reiknings"
+  "accountLink": "Flutningur reiknings",
+  "accountLinkDescription": "Með því að tengja við Apple eða Google geturðu flutt gögnin þín jafnvel eftir að þú skiptir um tæki eða setur forritið upp aftur."
 }

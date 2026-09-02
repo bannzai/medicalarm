@@ -214,5 +214,6 @@
   "invitationCodeInputHint": "Введите 8-символьный код",
   "join": "Присоединиться",
   "recordedByMember": "Записано: {name}",
-  "accountLink": "Перенос аккаунта"
+  "accountLink": "Перенос аккаунта",
+  "accountLinkDescription": "Подключив Apple или Google, вы сможете перенести свои данные даже после смены устройства или переустановки приложения."
 }

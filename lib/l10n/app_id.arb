@@ -214,5 +214,6 @@
   "invitationCodeInputHint": "Masukkan kode 8 karakter",
   "join": "Gabung",
   "recordedByMember": "Dicatat oleh {name}",
-  "accountLink": "Transfer akun"
+  "accountLink": "Transfer akun",
+  "accountLinkDescription": "Dengan menghubungkan ke Apple atau Google, Anda dapat memindahkan data meskipun berganti perangkat atau menginstal ulang aplikasi."
 }

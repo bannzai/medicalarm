@@ -214,5 +214,6 @@
   "invitationCodeInputHint": "Įveskite 8 simbolių kodą",
   "join": "Prisijungti",
   "recordedByMember": "Užregistravo {name}",
-  "accountLink": "Paskyros perkėlimas"
+  "accountLink": "Paskyros perkėlimas",
+  "accountLinkDescription": "Susieję su Apple arba Google galėsite perkelti savo duomenis net pakeitę įrenginį ar iš naujo įdiegę programėlę."
 }

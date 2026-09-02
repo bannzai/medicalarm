@@ -214,5 +214,6 @@
   "invitationCodeInputHint": "8 karakterli kodu girin",
   "join": "Katıl",
   "recordedByMember": "{name} tarafından kaydedildi",
-  "accountLink": "Hesap aktarımı"
+  "accountLink": "Hesap aktarımı",
+  "accountLinkDescription": "Apple veya Google'a bağlanarak cihazınızı değiştirdikten veya uygulamayı yeniden yükledikten sonra da verilerinizi aktarabilirsiniz."
 }

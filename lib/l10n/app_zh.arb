@@ -214,5 +214,6 @@
   "invitationCodeInputHint": "输入 8 位代码",
   "join": "加入",
   "recordedByMember": "由{name}记录",
-  "accountLink": "账号迁移"
+  "accountLink": "账号迁移",
+  "accountLinkDescription": "关联 Apple 或 Google 后，即使更换设备或重新安装应用，也可以迁移数据。"
 }

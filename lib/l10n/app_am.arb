@@ -214,5 +214,6 @@
   "invitationCodeInputHint": "8 ቁምፊ ያለውን ኮድ ያስገቡ",
   "join": "ይቀላቀሉ",
   "recordedByMember": "በ{name} የተመዘገበ",
-  "accountLink": "የመለያ ማስተላለፍ"
+  "accountLink": "የመለያ ማስተላለፍ",
+  "accountLinkDescription": "ከApple ወይም Google ጋር በማገናኘት መሣሪያ ከቀየሩ ወይም መተግበሪያውን እንደገና ከጫኑ በኋላም ውሂብዎን ማስቀጠል ይችላሉ።"
 }

@@ -214,5 +214,6 @@
   "invitationCodeInputHint": "8자리 코드 입력",
   "join": "참여하기",
   "recordedByMember": "{name}님이 기록함",
-  "accountLink": "계정 이전"
+  "accountLink": "계정 이전",
+  "accountLinkDescription": "Apple 또는 Google에 연결하면 기기를 변경하거나 앱을 다시 설치한 후에도 데이터를 이어받을 수 있습니다."
 }

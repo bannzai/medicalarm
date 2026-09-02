@@ -214,5 +214,6 @@
   "invitationCodeInputHint": "Sisestage 8-märgiline kood",
   "join": "Liitu",
   "recordedByMember": "Salvestaja: {name}",
-  "accountLink": "Konto ülekandmine"
+  "accountLink": "Konto ülekandmine",
+  "accountLinkDescription": "Apple'i või Google'iga ühendades saate oma andmed üle kanda ka pärast seadme vahetamist või rakenduse uuesti installimist."
 }

@@ -214,5 +214,6 @@
   "invitationCodeInputHint": "הזינו את הקוד בן 8 התווים",
   "join": "הצטרפות",
   "recordedByMember": "נרשם על ידי {name}",
-  "accountLink": "העברת חשבון"
+  "accountLink": "העברת חשבון",
+  "accountLinkDescription": "בחיבור ל‑Apple או ל‑Google, תוכלו להעביר את הנתונים שלכם גם לאחר החלפת מכשיר או התקנה מחדש של האפליקציה."
 }

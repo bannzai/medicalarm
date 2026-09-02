@@ -214,5 +214,6 @@
   "invitationCodeInputHint": "Adja meg a 8 karakterből álló kódot",
   "join": "Csatlakozás",
   "recordedByMember": "{name} rögzítette",
-  "accountLink": "Fiók átvitele"
+  "accountLink": "Fiók átvitele",
+  "accountLinkDescription": "Az Apple-lel vagy a Google-lel való összekapcsolással az eszköz cseréje vagy az alkalmazás újratelepítése után is átviheti adatait."
 }

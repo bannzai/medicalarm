@@ -214,5 +214,6 @@
   "invitationCodeInputHint": "८ अक्षरांचा कोड प्रविष्ट करा",
   "join": "सामील व्हा",
   "recordedByMember": "{name} यांनी नोंदवले",
-  "accountLink": "खाते हस्तांतरण"
+  "accountLink": "खाते हस्तांतरण",
+  "accountLinkDescription": "Apple किंवा Google शी कनेक्ट केल्यास, डिव्हाइस बदलल्यानंतर किंवा ॲप पुन्हा इंस्टॉल केल्यानंतरही तुमचा डेटा हस्तांतरित करू शकता."
 }

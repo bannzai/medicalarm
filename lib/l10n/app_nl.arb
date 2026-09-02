@@ -214,5 +214,6 @@
   "invitationCodeInputHint": "Voer de code van 8 tekens in",
   "join": "Deelnemen",
   "recordedByMember": "Geregistreerd door {name}",
-  "accountLink": "Account overzetten"
+  "accountLink": "Account overzetten",
+  "accountLinkDescription": "Door Apple of Google te koppelen, kun je je gegevens ook overzetten nadat je van apparaat bent gewisseld of de app opnieuw hebt geïnstalleerd."
 }

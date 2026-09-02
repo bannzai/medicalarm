@@ -214,5 +214,6 @@
   "invitationCodeInputHint": "৮ আখৰৰ ক'ড লিখক",
   "join": "যোগদান কৰক",
   "recordedByMember": "ৰেকৰ্ড কৰিছে: {name}",
-  "accountLink": "একাউণ্ট স্থানান্তৰ"
+  "accountLink": "একাউণ্ট স্থানান্তৰ",
+  "accountLinkDescription": "Apple বা Google-ৰ সৈতে সংযোগ কৰিলে, ফোন সলনি কৰিলেও বা এপটো পুনৰ ইনষ্টল কৰিলেও আপোনাৰ ডেটা স্থানান্তৰ কৰিব পাৰিব।"
 }

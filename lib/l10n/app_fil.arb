@@ -214,5 +214,6 @@
   "invitationCodeInputHint": "Ilagay ang 8-character na code",
   "join": "Sumali",
   "recordedByMember": "Itinala ni {name}",
-  "accountLink": "Paglilipat ng account"
+  "accountLink": "Paglilipat ng account",
+  "accountLinkDescription": "Kapag ikinonekta mo ang Apple o Google, maililipat mo ang iyong data kahit magpalit ka ng device o muling i-install ang app."
 }

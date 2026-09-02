@@ -214,5 +214,6 @@
   "invitationCodeInputHint": "Մուտքագրեք 8 նիշանոց կոդը",
   "join": "Միանալ",
   "recordedByMember": "{name}-ի կողմից գրանցված",
-  "accountLink": "Հաշվի փոխանցում"
+  "accountLink": "Հաշվի փոխանցում",
+  "accountLinkDescription": "Apple-ին կամ Google-ին միանալով՝ կարող եք փոխանցել ձեր տվյալները նույնիսկ սարքը փոխելուց կամ հավելվածը վերատեղադրելուց հետո։"
 }

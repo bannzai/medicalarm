@@ -214,5 +214,6 @@
   "invitationCodeInputHint": "បញ្ចូលលេខកូដ ៨ តួអក្សរ",
   "join": "ចូលរួម",
   "recordedByMember": "បានកត់ត្រាដោយ {name}",
-  "accountLink": "ផ្ទេរគណនី"
+  "accountLink": "ផ្ទេរគណនី",
+  "accountLinkDescription": "ការភ្ជាប់ជាមួយ Apple ឬ Google អនុញ្ញាតឱ្យអ្នកផ្ទេរទិន្នន័យរបស់អ្នក ទោះបីជាបានប្តូរឧបករណ៍ ឬដំឡើងកម្មវិធីឡើងវិញក៏ដោយ។"
 }

@@ -214,5 +214,6 @@
   "invitationCodeInputHint": "8 belgidan iborat kodni kiriting",
   "join": "Qo‘shilish",
   "recordedByMember": "{name} qayd etdi",
-  "accountLink": "Hisobni ko‘chirish"
+  "accountLink": "Hisobni ko‘chirish",
+  "accountLinkDescription": "Apple yoki Google bilan bog‘lasangiz, qurilmani almashtirgandan yoki ilovani qayta o‘rnatgandan keyin ham ma’lumotlaringizni ko‘chirishingiz mumkin."
 }

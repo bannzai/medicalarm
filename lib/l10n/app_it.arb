@@ -214,5 +214,6 @@
   "invitationCodeInputHint": "Inserisci il codice di 8 caratteri",
   "join": "Partecipa",
   "recordedByMember": "Registrato da {name}",
-  "accountLink": "Trasferimento dell’account"
+  "accountLink": "Trasferimento dell’account",
+  "accountLinkDescription": "Collegando Apple o Google, puoi trasferire i tuoi dati anche dopo aver cambiato dispositivo o reinstallato l’app."
 }

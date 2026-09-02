@@ -214,5 +214,6 @@
   "invitationCodeInputHint": "8 тэмдэгттэй кодыг оруулна уу",
   "join": "Нэгдэх",
   "recordedByMember": "{name} бүртгэсэн",
-  "accountLink": "Бүртгэл шилжүүлэх"
+  "accountLink": "Бүртгэл шилжүүлэх",
+  "accountLinkDescription": "Apple эсвэл Google-тэй холбосноор төхөөрөмжөө сольсон эсвэл апп-ыг дахин суулгасны дараа ч өгөгдлөө шилжүүлэх боломжтой."
 }

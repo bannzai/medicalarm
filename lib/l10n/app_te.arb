@@ -214,5 +214,6 @@
   "invitationCodeInputHint": "8 అక్షరాల కోడ్‌ను నమోదు చేయండి",
   "join": "చేరండి",
   "recordedByMember": "{name} నమోదు చేశారు",
-  "accountLink": "ఖాతా బదిలీ"
+  "accountLink": "ఖాతా బదిలీ",
+  "accountLinkDescription": "Apple లేదా Googleకి కనెక్ట్ చేస్తే, పరికరాన్ని మార్చిన తర్వాత లేదా యాప్‌ను మళ్లీ ఇన్‌స్టాల్ చేసిన తర్వాత కూడా మీ డేటాను బదిలీ చేసుకోవచ్చు."
 }

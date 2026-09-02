@@ -214,5 +214,6 @@
   "invitationCodeInputHint": "Weka msimbo wa herufi 8",
   "join": "Jiunge",
   "recordedByMember": "Imerekodiwa na {name}",
-  "accountLink": "Kuhamisha akaunti"
+  "accountLink": "Kuhamisha akaunti",
+  "accountLinkDescription": "Kwa kuunganisha na Apple au Google, unaweza kuhamisha data zako hata baada ya kubadilisha kifaa au kusakinisha upya programu."
 }

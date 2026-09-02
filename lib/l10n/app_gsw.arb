@@ -214,5 +214,6 @@
   "invitationCodeInputHint": "Gänd Sie dä 8-stellig Code ii",
   "join": "Biitrete",
   "recordedByMember": "Ufgzeichnet vo {name}",
-  "accountLink": "Kontoübertragung"
+  "accountLink": "Kontoübertragung",
+  "accountLinkDescription": "Wenn Sie Apple oder Google verknüpfe, chönd Sie Ihre Date au nach eme Gerätewechsel oder ere Neuinstallation vo de App überneh."
 }

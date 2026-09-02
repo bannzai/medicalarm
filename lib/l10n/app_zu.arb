@@ -214,5 +214,6 @@
   "invitationCodeInputHint": "Faka ikhodi enezinhlamvu eziyi-8",
   "join": "Joyina",
   "recordedByMember": "Kuqoshwe ngu-{name}",
-  "accountLink": "Ukudluliselwa kwe-akhawunti"
+  "accountLink": "Ukudluliselwa kwe-akhawunti",
+  "accountLinkDescription": "Ngokuxhumanisa ne-Apple noma ne-Google, ungadlulisela idatha yakho ngisho nangemva kokushintsha idivayisi noma ukufaka kabusha uhlelo lokusebenza。"
 }

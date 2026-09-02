@@ -214,5 +214,6 @@
   "invitationCodeInputHint": "Увядзіце код з 8 сімвалаў",
   "join": "Далучыцца",
   "recordedByMember": "Запісана {name}",
-  "accountLink": "Перадача ўліковага запісу"
+  "accountLink": "Перадача ўліковага запісу",
+  "accountLinkDescription": "Падключыўшы Apple або Google, вы зможаце перанесці свае даныя нават пасля змены прылады або паўторнай устаноўкі праграмы."
 }

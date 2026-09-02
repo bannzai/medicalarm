@@ -214,5 +214,6 @@
   "invitationCodeInputHint": "Zadajte 8-znakový kód",
   "join": "Pripojiť sa",
   "recordedByMember": "Zaznamenal(a) {name}",
-  "accountLink": "Prenos účtu"
+  "accountLink": "Prenos účtu",
+  "accountLinkDescription": "Po prepojení s Apple alebo Google môžete preniesť svoje údaje aj po zmene zariadenia alebo opätovnej inštalácii aplikácie."
 }

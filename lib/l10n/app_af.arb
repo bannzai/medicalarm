@@ -214,5 +214,6 @@
   "invitationCodeInputHint": "Voer die 8-karakterkode in",
   "join": "Sluit aan",
   "recordedByMember": "Geregistreer deur {name}",
-  "accountLink": "Rekeningoordrag"
+  "accountLink": "Rekeningoordrag",
+  "accountLinkDescription": "Deur Apple of Google te koppel, kan jy jou data behou selfs nadat jy van toestel verander of die app herinstalleer het."
 }

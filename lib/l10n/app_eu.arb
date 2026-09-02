@@ -214,5 +214,6 @@
   "invitationCodeInputHint": "Sartu 8 karaktereko kodea",
   "join": "Batu",
   "recordedByMember": "{name}(e)k erregistratu du",
-  "accountLink": "Kontu-transferentzia"
+  "accountLink": "Kontu-transferentzia",
+  "accountLinkDescription": "Apple edo Google-rekin lotuz gero, zure datuak transferi ditzakezu gailua aldatu edo aplikazioa berriro instalatu ondoren ere."
 }

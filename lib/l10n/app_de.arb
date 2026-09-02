@@ -214,5 +214,6 @@
   "invitationCodeInputHint": "Geben Sie den 8-stelligen Code ein",
   "join": "Beitreten",
   "recordedByMember": "Aufgezeichnet von {name}",
-  "accountLink": "Kontoübertragung"
+  "accountLink": "Kontoübertragung",
+  "accountLinkDescription": "Wenn Sie Apple oder Google verknüpfen, können Sie Ihre Daten auch nach einem Gerätewechsel oder einer Neuinstallation der App übernehmen."
 }
