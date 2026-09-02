@@ -257,5 +257,6 @@
   "onboardingDailyDoseOnce": "Jednom",
   "onboardingDailyDoseTwice": "2 puta",
   "onboardingDailyDoseThreeOrMore": "3 ili više puta",
-  "onboardingMedicineCountTitle": "Koliko lijekova pratite?"
+  "onboardingMedicineCountTitle": "Koliko lijekova pratite?",
+  "onboardingMedicineCountOneToTwo": "1–2 vrste"
 }

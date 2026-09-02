@@ -257,5 +257,6 @@
   "onboardingDailyDoseOnce": "ໜຶ່ງຄັ້ງ",
   "onboardingDailyDoseTwice": "2 ເທື່ອ",
   "onboardingDailyDoseThreeOrMore": "3 ເທື່ອຂຶ້ນໄປ",
-  "onboardingMedicineCountTitle": "ທ່ານຈັດການຢາຈັກລາຍການ?"
+  "onboardingMedicineCountTitle": "ທ່ານຈັດການຢາຈັກລາຍການ?",
+  "onboardingMedicineCountOneToTwo": "1–2 ປະເພດ"
 }

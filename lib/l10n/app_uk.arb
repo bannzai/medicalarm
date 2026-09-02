@@ -257,5 +257,6 @@
   "onboardingDailyDoseOnce": "Один раз",
   "onboardingDailyDoseTwice": "2 рази",
   "onboardingDailyDoseThreeOrMore": "3 рази або більше",
-  "onboardingMedicineCountTitle": "Скількома ліками ви керуєте?"
+  "onboardingMedicineCountTitle": "Скількома ліками ви керуєте?",
+  "onboardingMedicineCountOneToTwo": "1–2 види"
 }

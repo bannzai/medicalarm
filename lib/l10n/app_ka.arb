@@ -257,5 +257,6 @@
   "onboardingDailyDoseOnce": "ერთხელ",
   "onboardingDailyDoseTwice": "2-ჯერ",
   "onboardingDailyDoseThreeOrMore": "3-ჯერ ან მეტჯერ",
-  "onboardingMedicineCountTitle": "რამდენ მედიკამენტს მართავთ?"
+  "onboardingMedicineCountTitle": "რამდენ მედიკამენტს მართავთ?",
+  "onboardingMedicineCountOneToTwo": "1–2 სახეობა"
 }

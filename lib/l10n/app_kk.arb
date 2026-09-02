@@ -257,5 +257,6 @@
   "onboardingDailyDoseOnce": "Бір рет",
   "onboardingDailyDoseTwice": "2 рет",
   "onboardingDailyDoseThreeOrMore": "3 рет немесе одан көп",
-  "onboardingMedicineCountTitle": "Қанша дәрі-дәрмекті басқарасыз?"
+  "onboardingMedicineCountTitle": "Қанша дәрі-дәрмекті басқарасыз?",
+  "onboardingMedicineCountOneToTwo": "1–2 түрі"
 }

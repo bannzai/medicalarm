@@ -257,5 +257,6 @@
   "onboardingDailyDoseOnce": "Bir kez",
   "onboardingDailyDoseTwice": "2 kez",
   "onboardingDailyDoseThreeOrMore": "3 kez veya daha fazla",
-  "onboardingMedicineCountTitle": "Kaç ilaç yönetiyorsunuz?"
+  "onboardingMedicineCountTitle": "Kaç ilaç yönetiyorsunuz?",
+  "onboardingMedicineCountOneToTwo": "1–2 tür"
 }

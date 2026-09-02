@@ -257,5 +257,6 @@
   "onboardingDailyDoseOnce": "Một lần",
   "onboardingDailyDoseTwice": "2 lần",
   "onboardingDailyDoseThreeOrMore": "3 lần trở lên",
-  "onboardingMedicineCountTitle": "Bạn đang quản lý bao nhiêu loại thuốc?"
+  "onboardingMedicineCountTitle": "Bạn đang quản lý bao nhiêu loại thuốc?",
+  "onboardingMedicineCountOneToTwo": "1–2 loại"
 }

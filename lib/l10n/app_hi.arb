@@ -257,5 +257,6 @@
   "onboardingDailyDoseOnce": "एक बार",
   "onboardingDailyDoseTwice": "2 बार",
   "onboardingDailyDoseThreeOrMore": "3 बार या उससे अधिक",
-  "onboardingMedicineCountTitle": "आप कितनी दवाइयों का प्रबंधन करते हैं?"
+  "onboardingMedicineCountTitle": "आप कितनी दवाइयों का प्रबंधन करते हैं?",
+  "onboardingMedicineCountOneToTwo": "1–2 प्रकार"
 }

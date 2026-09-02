@@ -257,5 +257,6 @@
   "onboardingDailyDoseOnce": "Satu kali",
   "onboardingDailyDoseTwice": "2 kali",
   "onboardingDailyDoseThreeOrMore": "3 kali atau lebih",
-  "onboardingMedicineCountTitle": "Berapa banyak obat yang Anda kelola?"
+  "onboardingMedicineCountTitle": "Berapa banyak obat yang Anda kelola?",
+  "onboardingMedicineCountOneToTwo": "1–2 jenis"
 }

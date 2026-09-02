@@ -257,5 +257,6 @@
   "onboardingDailyDoseOnce": "En gang",
   "onboardingDailyDoseTwice": "2 ganger",
   "onboardingDailyDoseThreeOrMore": "3 ganger eller mer",
-  "onboardingMedicineCountTitle": "Hvor mange medisiner holder du styr på?"
+  "onboardingMedicineCountTitle": "Hvor mange medisiner holder du styr på?",
+  "onboardingMedicineCountOneToTwo": "1–2 typer"
 }

@@ -257,5 +257,6 @@
   "onboardingDailyDoseOnce": "Une fois",
   "onboardingDailyDoseTwice": "2 fois",
   "onboardingDailyDoseThreeOrMore": "3 fois ou plus",
-  "onboardingMedicineCountTitle": "Combien de médicaments gérez-vous ?"
+  "onboardingMedicineCountTitle": "Combien de médicaments gérez-vous ?",
+  "onboardingMedicineCountOneToTwo": "1 à 2 types"
 }

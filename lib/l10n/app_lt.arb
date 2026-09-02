@@ -257,5 +257,6 @@
   "onboardingDailyDoseOnce": "Vieną kartą",
   "onboardingDailyDoseTwice": "2 kartus",
   "onboardingDailyDoseThreeOrMore": "3 kartus ar daugiau",
-  "onboardingMedicineCountTitle": "Kiek vaistų tvarkote?"
+  "onboardingMedicineCountTitle": "Kiek vaistų tvarkote?",
+  "onboardingMedicineCountOneToTwo": "1–2 rūšys"
 }

@@ -257,5 +257,6 @@
   "onboardingDailyDoseOnce": "一次",
   "onboardingDailyDoseTwice": "2 次",
   "onboardingDailyDoseThreeOrMore": "3次以上",
-  "onboardingMedicineCountTitle": "您要管理几种药物？"
+  "onboardingMedicineCountTitle": "您要管理几种药物？",
+  "onboardingMedicineCountOneToTwo": "1–2种"
 }

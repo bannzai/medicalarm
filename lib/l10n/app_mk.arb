@@ -257,5 +257,6 @@
   "onboardingDailyDoseOnce": "Еднаш",
   "onboardingDailyDoseTwice": "2 пати",
   "onboardingDailyDoseThreeOrMore": "3 или повеќе пати",
-  "onboardingMedicineCountTitle": "Со колку лекови управувате?"
+  "onboardingMedicineCountTitle": "Со колку лекови управувате?",
+  "onboardingMedicineCountOneToTwo": "1–2 видови"
 }
