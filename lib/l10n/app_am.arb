@@ -122,6 +122,7 @@
   "purchaseErrorInvalidCredentials": "ውድ ግዜ ተወውቀው ይሞክሩ። የግዢ ቅርጷት የተላከ ይቅርታ። ይህ ቅርጷው አካል በተጓዙ እና እንደገና እንደ ተደረገ ይሰማኙ። ኣንዳንድ ዝግባ እንደሆነ ፍጥነት እንዲዉለው። ዝምድን በላይ ምዕንቱች ጥናት ይሰፍን ድህዩ ተወላጅ ወተይቅዋትን ገቝት ይህ ይኖር ወንደን ተቀባ ይወድድ ይህ {message} ቅድም በነጥብ የኔትርክ የ኉ሌዪ ብላዋ ሳይለወድር እንዳወኝ።",
   "purchaseErrorUnexpectedBackend": "አሁን ግዢ ይሰርዮናል። እባኮትን ጊዜ ይወጣና ዳግመ ይሞክሩ። እንዲያውም አስቸኳይ አይሆን እንደገና ይጠይቁ እንደ {message} ይችላሉ።",
   "purchaseErrorOperationInProgress": "የግዥ ሂደት በተለይ ቀጥመዋል። እባኮትን አንድ ጊዜ ይታይ ይመልከቱ እንደ ቀድሞ ይወዳድሩ።",
+  "purchaseErrorInsufficientPermissions": "በ{accountName} መለያዎ ዕቅዱን መመዝገብ አይችሉም። እባክዎ የክፍያ መረጃዎን ያረጋግጡና እንደገና ይሞክሩ።",
   "purchaseErrorPaymentPending": "እቅፍ ይቆሞታል። በምንጩ {accountName} የተመዘገበውን {storeName} ይወቅ።",
   "premiumUserThanksTitle": "ፕሪምየም አባል ነው",
   "premiumUserThanksMessage": "እናመሰግናለን በእርግጥ የMedicalarm አውጪ ማስተናገድ ለማጽናት እንደምን እንደምታምሩን ተመለከት",
