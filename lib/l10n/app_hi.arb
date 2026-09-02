@@ -219,5 +219,6 @@
   "linkWithApple": "Apple के ज़रिए अकाउंट ट्रांसफ़र करें",
   "linkWithGoogle": "Google से अकाउंट ट्रांसफ़र करें",
   "accountLinkedWithApple": "Apple से लिंक है",
-  "accountLinkedWithGoogle": "Google से लिंक है"
+  "accountLinkedWithGoogle": "Google से लिंक है",
+  "accountLinkedSnackbar": "अकाउंट ट्रांसफ़र हो गया"
 }

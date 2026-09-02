@@ -219,5 +219,6 @@
   "linkWithApple": "Перенести аккаунт с помощью Apple",
   "linkWithGoogle": "Перенести аккаунт с помощью Google",
   "accountLinkedWithApple": "Связано с Apple",
-  "accountLinkedWithGoogle": "Связано с Google"
+  "accountLinkedWithGoogle": "Связано с Google",
+  "accountLinkedSnackbar": "Аккаунт перенесён"
 }

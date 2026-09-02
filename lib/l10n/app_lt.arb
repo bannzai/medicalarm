@@ -219,5 +219,6 @@
   "linkWithApple": "Perkelti paskyrą naudojant Apple",
   "linkWithGoogle": "Perkelti paskyrą naudojant „Google“",
   "accountLinkedWithApple": "Susieta su Apple",
-  "accountLinkedWithGoogle": "Susieta su „Google“"
+  "accountLinkedWithGoogle": "Susieta su „Google“",
+  "accountLinkedSnackbar": "Paskyra perkelta"
 }

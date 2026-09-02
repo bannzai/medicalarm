@@ -219,5 +219,6 @@
   "linkWithApple": "Account overzetten met Apple",
   "linkWithGoogle": "Account overzetten met Google",
   "accountLinkedWithApple": "Gekoppeld aan Apple",
-  "accountLinkedWithGoogle": "Gekoppeld aan Google"
+  "accountLinkedWithGoogle": "Gekoppeld aan Google",
+  "accountLinkedSnackbar": "Account overgedragen"
 }

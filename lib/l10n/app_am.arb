@@ -219,5 +219,6 @@
   "linkWithApple": "መለያዎን በApple ያስተላልፉ",
   "linkWithGoogle": "መለያዎን በGoogle ያስተላልፉ",
   "accountLinkedWithApple": "ከApple ጋር ተገናኝቷል",
-  "accountLinkedWithGoogle": "ከGoogle ጋር ተገናኝቷል"
+  "accountLinkedWithGoogle": "ከGoogle ጋር ተገናኝቷል",
+  "accountLinkedSnackbar": "መለያው ተላልፏል"
 }

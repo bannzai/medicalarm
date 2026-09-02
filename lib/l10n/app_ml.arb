@@ -219,5 +219,6 @@
   "linkWithApple": "Apple ഉപയോഗിച്ച് അക്കൗണ്ട് കൈമാറുക",
   "linkWithGoogle": "Google ഉപയോഗിച്ച് അക്കൗണ്ട് കൈമാറുക",
   "accountLinkedWithApple": "Apple-മായി ലിങ്ക് ചെയ്‌തു",
-  "accountLinkedWithGoogle": "Google-മായി ലിങ്ക് ചെയ്തു"
+  "accountLinkedWithGoogle": "Google-മായി ലിങ്ക് ചെയ്തു",
+  "accountLinkedSnackbar": "അക്കൗണ്ട് കൈമാറി"
 }

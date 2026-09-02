@@ -219,5 +219,6 @@
   "linkWithApple": "ផ្ទេរគណនីដោយប្រើ Apple",
   "linkWithGoogle": "ផ្ទេរគណនីដោយប្រើ Google",
   "accountLinkedWithApple": "បានភ្ជាប់ជាមួយ Apple",
-  "accountLinkedWithGoogle": "បានភ្ជាប់ជាមួយ Google"
+  "accountLinkedWithGoogle": "បានភ្ជាប់ជាមួយ Google",
+  "accountLinkedSnackbar": "គណនីត្រូវបានផ្ទេរ"
 }

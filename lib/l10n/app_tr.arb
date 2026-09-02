@@ -219,5 +219,6 @@
   "linkWithApple": "Apple ile hesabı aktarın",
   "linkWithGoogle": "Google ile hesabı aktar",
   "accountLinkedWithApple": "Apple ile bağlantılı",
-  "accountLinkedWithGoogle": "Google ile bağlandı"
+  "accountLinkedWithGoogle": "Google ile bağlandı",
+  "accountLinkedSnackbar": "Hesap aktarıldı"
 }

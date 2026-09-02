@@ -219,5 +219,6 @@
   "linkWithApple": "Pārsūtīt kontu, izmantojot Apple",
   "linkWithGoogle": "Pārsūtīt kontu, izmantojot Google",
   "accountLinkedWithApple": "Saistīts ar Apple",
-  "accountLinkedWithGoogle": "Saistīts ar Google"
+  "accountLinkedWithGoogle": "Saistīts ar Google",
+  "accountLinkedSnackbar": "Konts pārsūtīts"
 }

@@ -219,5 +219,6 @@
   "linkWithApple": "Apple کے ذریعے اکاؤنٹ منتقل کریں",
   "linkWithGoogle": "Google کے ذریعے اکاؤنٹ منتقل کریں",
   "accountLinkedWithApple": "Apple سے منسلک ہے",
-  "accountLinkedWithGoogle": "Google سے منسلک ہے"
+  "accountLinkedWithGoogle": "Google سے منسلک ہے",
+  "accountLinkedSnackbar": "اکاؤنٹ منتقل کر دیا گیا"
 }

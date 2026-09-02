@@ -219,5 +219,6 @@
   "linkWithApple": "Հաշիվը փոխանցել Apple-ի միջոցով",
   "linkWithGoogle": "Փոխանցել հաշիվը Google-ի միջոցով",
   "accountLinkedWithApple": "Կապված է Apple-ի հետ",
-  "accountLinkedWithGoogle": "Կապված է Google-ի հետ"
+  "accountLinkedWithGoogle": "Կապված է Google-ի հետ",
+  "accountLinkedSnackbar": "Հաշիվը փոխանցվեց"
 }

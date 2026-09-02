@@ -219,5 +219,6 @@
   "linkWithApple": "Каттоо эсебин Apple аркылуу өткөрүү",
   "linkWithGoogle": "Каттоо эсебин Google аркылуу өткөрүү",
   "accountLinkedWithApple": "Apple менен байланыштырылды",
-  "accountLinkedWithGoogle": "Google менен байланыштырылган"
+  "accountLinkedWithGoogle": "Google менен байланыштырылган",
+  "accountLinkedSnackbar": "Каттоо эсеби өткөрүлдү"
 }

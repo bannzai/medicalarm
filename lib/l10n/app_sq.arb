@@ -219,5 +219,6 @@
   "linkWithApple": "Transfero llogarinë me Apple",
   "linkWithGoogle": "Transfero llogarinë me Google",
   "accountLinkedWithApple": "Lidhur me Apple",
-  "accountLinkedWithGoogle": "Lidhur me Google"
+  "accountLinkedWithGoogle": "Lidhur me Google",
+  "accountLinkedSnackbar": "Llogaria u transferua"
 }

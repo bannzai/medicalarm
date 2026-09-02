@@ -219,5 +219,6 @@
   "linkWithApple": "Ilipat ang account gamit ang Apple",
   "linkWithGoogle": "Ilipat ang account gamit ang Google",
   "accountLinkedWithApple": "Naka-link sa Apple",
-  "accountLinkedWithGoogle": "Naka-link sa Google"
+  "accountLinkedWithGoogle": "Naka-link sa Google",
+  "accountLinkedSnackbar": "Na-transfer ang account"
 }

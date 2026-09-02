@@ -219,5 +219,6 @@
   "linkWithApple": "ანგარიშის გადატანა Apple-ის გამოყენებით",
   "linkWithGoogle": "გადაიტანეთ ანგარიში Google-ით",
   "accountLinkedWithApple": "დაკავშირებულია Apple-თან",
-  "accountLinkedWithGoogle": "დაკავშირებულია Google-თან"
+  "accountLinkedWithGoogle": "დაკავშირებულია Google-თან",
+  "accountLinkedSnackbar": "ანგარიში გადმოიტანეს"
 }

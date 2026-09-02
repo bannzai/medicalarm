@@ -219,5 +219,6 @@
   "linkWithApple": "Apple மூலம் கணக்கை மாற்றவும்",
   "linkWithGoogle": "Google மூலம் கணக்கை மாற்றவும்",
   "accountLinkedWithApple": "Apple உடன் இணைக்கப்பட்டுள்ளது",
-  "accountLinkedWithGoogle": "Google உடன் இணைக்கப்பட்டது"
+  "accountLinkedWithGoogle": "Google உடன் இணைக்கப்பட்டது",
+  "accountLinkedSnackbar": "கணக்கு மாற்றப்பட்டது"
 }

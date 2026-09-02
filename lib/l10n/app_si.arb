@@ -219,5 +219,6 @@
   "linkWithApple": "Apple භාවිතයෙන් ගිණුම මාරු කරන්න",
   "linkWithGoogle": "Google භාවිතයෙන් ගිණුම මාරු කරන්න",
   "accountLinkedWithApple": "Apple වෙත සම්බන්ධ කර ඇත",
-  "accountLinkedWithGoogle": "Google සමඟ සම්බන්ධ කර ඇත"
+  "accountLinkedWithGoogle": "Google සමඟ සම්බන්ධ කර ඇත",
+  "accountLinkedSnackbar": "ගිණුම මාරු කරන ලදී"
 }

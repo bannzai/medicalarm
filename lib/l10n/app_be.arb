@@ -219,5 +219,6 @@
   "linkWithApple": "Перанесці ўліковы запіс з дапамогай Apple",
   "linkWithGoogle": "Перанесці ўліковы запіс праз Google",
   "accountLinkedWithApple": "Звязана з Apple",
-  "accountLinkedWithGoogle": "Звязана з Google"
+  "accountLinkedWithGoogle": "Звязана з Google",
+  "accountLinkedSnackbar": "Акаўнт перанесены"
 }

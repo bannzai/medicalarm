@@ -219,5 +219,6 @@
   "linkWithApple": "Префрлете ја сметката со Apple",
   "linkWithGoogle": "Пренесете ја сметката со Google",
   "accountLinkedWithApple": "Поврзано со Apple",
-  "accountLinkedWithGoogle": "Поврзано со Google"
+  "accountLinkedWithGoogle": "Поврзано со Google",
+  "accountLinkedSnackbar": "Сметката е пренесена"
 }

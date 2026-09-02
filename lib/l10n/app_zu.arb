@@ -219,5 +219,6 @@
   "linkWithApple": "Dlulisela i-akhawunti nge-Apple",
   "linkWithGoogle": "Dlulisela i-akhawunti nge-Google",
   "accountLinkedWithApple": "Ixhunywe ne-Apple",
-  "accountLinkedWithGoogle": "Kuxhunywe ku-Google"
+  "accountLinkedWithGoogle": "Kuxhunywe ku-Google",
+  "accountLinkedSnackbar": "I-akhawunti idlulisiwe"
 }

@@ -219,5 +219,6 @@
   "linkWithApple": "Pindahkan akun dengan Apple",
   "linkWithGoogle": "Pindahkan akun dengan Google",
   "accountLinkedWithApple": "Tertaut ke Apple",
-  "accountLinkedWithGoogle": "Terhubung dengan Google"
+  "accountLinkedWithGoogle": "Terhubung dengan Google",
+  "accountLinkedSnackbar": "Akun telah dipindahkan"
 }

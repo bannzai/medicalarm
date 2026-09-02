@@ -219,5 +219,6 @@
   "linkWithApple": "Apple-এর মাধ্যমে অ্যাকাউন্ট স্থানান্তর করুন",
   "linkWithGoogle": "Google দিয়ে অ্যাকাউন্ট স্থানান্তর করুন",
   "accountLinkedWithApple": "Apple-এর সাথে লিঙ্ক করা হয়েছে",
-  "accountLinkedWithGoogle": "Google-এর সঙ্গে সংযুক্ত"
+  "accountLinkedWithGoogle": "Google-এর সঙ্গে সংযুক্ত",
+  "accountLinkedSnackbar": "অ্যাকাউন্ট স্থানান্তর করা হয়েছে"
 }

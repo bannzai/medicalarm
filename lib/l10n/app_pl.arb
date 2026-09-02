@@ -219,5 +219,6 @@
   "linkWithApple": "Przenieś konto za pomocą Apple",
   "linkWithGoogle": "Przenieś konto za pomocą Google",
   "accountLinkedWithApple": "Połączono z Apple",
-  "accountLinkedWithGoogle": "Połączono z Google"
+  "accountLinkedWithGoogle": "Połączono z Google",
+  "accountLinkedSnackbar": "Konto zostało przeniesione"
 }

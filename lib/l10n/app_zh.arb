@@ -219,5 +219,6 @@
   "linkWithApple": "使用 Apple 转移账户",
   "linkWithGoogle": "使用 Google 转移账户",
   "accountLinkedWithApple": "已关联 Apple",
-  "accountLinkedWithGoogle": "已关联 Google"
+  "accountLinkedWithGoogle": "已关联 Google",
+  "accountLinkedSnackbar": "账号已迁移"
 }

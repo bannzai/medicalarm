@@ -219,5 +219,6 @@
   "linkWithApple": "Hisobni Apple orqali o‘tkazing",
   "linkWithGoogle": "Hisobni Google orqali ko‘chirish",
   "accountLinkedWithApple": "Apple bilan bog‘langan",
-  "accountLinkedWithGoogle": "Google bilan bog‘langan"
+  "accountLinkedWithGoogle": "Google bilan bog‘langan",
+  "accountLinkedSnackbar": "Hisob ko‘chirildi"
 }

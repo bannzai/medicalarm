@@ -219,5 +219,6 @@
   "linkWithApple": "Dra rekening oor met Apple",
   "linkWithGoogle": "Neem jou rekening oor met Google",
   "accountLinkedWithApple": "Aan Apple gekoppel",
-  "accountLinkedWithGoogle": "Aan Google gekoppel"
+  "accountLinkedWithGoogle": "Aan Google gekoppel",
+  "accountLinkedSnackbar": "Rekening oorgedra"
 }

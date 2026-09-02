@@ -219,5 +219,6 @@
   "linkWithApple": "Hesabı Apple ilə köçürün",
   "linkWithGoogle": "Google ilə hesabı köçürün",
   "accountLinkedWithApple": "Apple ilə əlaqələndirilib",
-  "accountLinkedWithGoogle": "Google ilə əlaqələndirilib"
+  "accountLinkedWithGoogle": "Google ilə əlaqələndirilib",
+  "accountLinkedSnackbar": "Hesab köçürüldü"
 }

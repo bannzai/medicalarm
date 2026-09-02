@@ -219,5 +219,6 @@
   "linkWithApple": "Transferitu kontua Apple bidez",
   "linkWithGoogle": "Google erabiliz kontua transferitu",
   "accountLinkedWithApple": "Apple-rekin lotuta",
-  "accountLinkedWithGoogle": "Google-rekin lotuta"
+  "accountLinkedWithGoogle": "Google-rekin lotuta",
+  "accountLinkedSnackbar": "Kontua transferitu da"
 }

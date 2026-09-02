@@ -219,5 +219,6 @@
   "linkWithApple": "Apple ဖြင့် အကောင့်လွှဲပြောင်းရန်",
   "linkWithGoogle": "Google ဖြင့် အကောင့်ကို လွှဲပြောင်းပါ",
   "accountLinkedWithApple": "Apple နှင့် ချိတ်ဆက်ထားသည်",
-  "accountLinkedWithGoogle": "Google နှင့် ချိတ်ဆက်ထားသည်"
+  "accountLinkedWithGoogle": "Google နှင့် ချိတ်ဆက်ထားသည်",
+  "accountLinkedSnackbar": "အကောင့်ကို လွှဲပြောင်းပြီးပါပြီ"
 }

@@ -219,5 +219,6 @@
   "linkWithApple": "Chuyển tài khoản bằng Apple",
   "linkWithGoogle": "Chuyển tài khoản bằng Google",
   "accountLinkedWithApple": "Đã liên kết với Apple",
-  "accountLinkedWithGoogle": "Đã liên kết với Google"
+  "accountLinkedWithGoogle": "Đã liên kết với Google",
+  "accountLinkedSnackbar": "Đã chuyển tài khoản"
 }

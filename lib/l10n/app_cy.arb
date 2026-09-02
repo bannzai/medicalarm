@@ -219,5 +219,6 @@
   "linkWithApple": "Trosglwyddo'r cyfrif gyda Apple",
   "linkWithGoogle": "Trosglwyddo'r cyfrif gyda Google",
   "accountLinkedWithApple": "Wedi’i gysylltu ag Apple",
-  "accountLinkedWithGoogle": "Wedi'i gysylltu â Google"
+  "accountLinkedWithGoogle": "Wedi'i gysylltu â Google",
+  "accountLinkedSnackbar": "Trosglwyddwyd y cyfrif"
 }

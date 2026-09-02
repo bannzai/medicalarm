@@ -219,5 +219,6 @@
   "linkWithApple": "نقل الحساب باستخدام Apple",
   "linkWithGoogle": "نقل الحساب باستخدام Google",
   "accountLinkedWithApple": "مرتبط بـ Apple",
-  "accountLinkedWithGoogle": "مرتبط بـ Google"
+  "accountLinkedWithGoogle": "مرتبط بـ Google",
+  "accountLinkedSnackbar": "تم نقل الحساب"
 }

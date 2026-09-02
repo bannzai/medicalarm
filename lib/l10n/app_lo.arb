@@ -219,5 +219,6 @@
   "linkWithApple": "ໂອນບັນຊີດ້ວຍ Apple",
   "linkWithGoogle": "ໂອນບັນຊີດ້ວຍ Google",
   "accountLinkedWithApple": "ເຊື່ອມຕໍ່ກັບ Apple ແລ້ວ",
-  "accountLinkedWithGoogle": "ເຊື່ອມຕໍ່ກັບ Google ແລ້ວ"
+  "accountLinkedWithGoogle": "ເຊື່ອມຕໍ່ກັບ Google ແລ້ວ",
+  "accountLinkedSnackbar": "ໂອນບັນຊີແລ້ວ"
 }

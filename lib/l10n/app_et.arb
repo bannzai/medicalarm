@@ -219,5 +219,6 @@
   "linkWithApple": "Edasta konto Apple’i abil",
   "linkWithGoogle": "Kanna konto üle Google'i abil",
   "accountLinkedWithApple": "Apple’iga seotud",
-  "accountLinkedWithGoogle": "Google'iga ühendatud"
+  "accountLinkedWithGoogle": "Google'iga ühendatud",
+  "accountLinkedSnackbar": "Konto on üle kantud"
 }

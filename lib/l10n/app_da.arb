@@ -219,5 +219,6 @@
   "linkWithApple": "Overfør konto med Apple",
   "linkWithGoogle": "Overfør konto med Google",
   "accountLinkedWithApple": "Forbundet med Apple",
-  "accountLinkedWithGoogle": "Forbundet med Google"
+  "accountLinkedWithGoogle": "Forbundet med Google",
+  "accountLinkedSnackbar": "Konto overført"
 }

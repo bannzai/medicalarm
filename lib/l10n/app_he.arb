@@ -219,5 +219,6 @@
   "linkWithApple": "העברת החשבון באמצעות Apple",
   "linkWithGoogle": "העברת החשבון באמצעות Google",
   "accountLinkedWithApple": "מקושר ל‑Apple",
-  "accountLinkedWithGoogle": "מקושר ל-Google"
+  "accountLinkedWithGoogle": "מקושר ל-Google",
+  "accountLinkedSnackbar": "החשבון הועבר"
 }

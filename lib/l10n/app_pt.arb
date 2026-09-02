@@ -219,5 +219,6 @@
   "linkWithApple": "Transferir a conta com a Apple",
   "linkWithGoogle": "Transferir a conta com o Google",
   "accountLinkedWithApple": "Associado à Apple",
-  "accountLinkedWithGoogle": "Vinculado ao Google"
+  "accountLinkedWithGoogle": "Vinculado ao Google",
+  "accountLinkedSnackbar": "Conta transferida"
 }

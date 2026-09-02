@@ -219,5 +219,6 @@
   "linkWithApple": "Apple ద్వారా ఖాతాను బదిలీ చేయండి",
   "linkWithGoogle": "Googleతో ఖాతాను బదిలీ చేయండి",
   "accountLinkedWithApple": "Appleకి లింక్ చేయబడింది",
-  "accountLinkedWithGoogle": "Googleకు లింక్ చేయబడింది"
+  "accountLinkedWithGoogle": "Googleకు లింక్ చేయబడింది",
+  "accountLinkedSnackbar": "ఖాతా బదిలీ చేయబడింది"
 }

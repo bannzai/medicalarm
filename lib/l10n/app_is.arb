@@ -219,5 +219,6 @@
   "linkWithApple": "Flytja reikning með Apple",
   "linkWithGoogle": "Flytja reikning með Google",
   "accountLinkedWithApple": "Tengt Apple",
-  "accountLinkedWithGoogle": "Tengt við Google"
+  "accountLinkedWithGoogle": "Tengt við Google",
+  "accountLinkedSnackbar": "Reikningur fluttur"
 }

@@ -219,5 +219,6 @@
   "linkWithApple": "Μεταφορά λογαριασμού με Apple",
   "linkWithGoogle": "Μεταφορά λογαριασμού με Google",
   "accountLinkedWithApple": "Συνδεδεμένο με Apple",
-  "accountLinkedWithGoogle": "Συνδεδεμένο με Google"
+  "accountLinkedWithGoogle": "Συνδεδεμένο με Google",
+  "accountLinkedSnackbar": "Ο λογαριασμός μεταφέρθηκε"
 }

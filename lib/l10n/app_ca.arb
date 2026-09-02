@@ -219,5 +219,6 @@
   "linkWithApple": "Transfereix el compte amb Apple",
   "linkWithGoogle": "Transferir el compte amb Google",
   "accountLinkedWithApple": "Enllaçat amb Apple",
-  "accountLinkedWithGoogle": "Enllaçat amb Google"
+  "accountLinkedWithGoogle": "Enllaçat amb Google",
+  "accountLinkedSnackbar": "Compte transferit"
 }

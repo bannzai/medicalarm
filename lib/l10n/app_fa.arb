@@ -219,5 +219,6 @@
   "linkWithApple": "انتقال حساب با Apple",
   "linkWithGoogle": "انتقال حساب با Google",
   "accountLinkedWithApple": "به Apple متصل است",
-  "accountLinkedWithGoogle": "به Google متصل است"
+  "accountLinkedWithGoogle": "به Google متصل است",
+  "accountLinkedSnackbar": "حساب منتقل شد"
 }

@@ -219,5 +219,6 @@
   "linkWithApple": "Transferă contul cu Apple",
   "linkWithGoogle": "Transferă contul cu Google",
   "accountLinkedWithApple": "Conectat la Apple",
-  "accountLinkedWithGoogle": "Conectat la Google"
+  "accountLinkedWithGoogle": "Conectat la Google",
+  "accountLinkedSnackbar": "Cont transferat"
 }

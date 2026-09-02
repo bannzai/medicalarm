@@ -219,5 +219,6 @@
   "linkWithApple": "Перенести обліковий запис за допомогою Apple",
   "linkWithGoogle": "Перенести обліковий запис через Google",
   "accountLinkedWithApple": "Пов’язано з Apple",
-  "accountLinkedWithGoogle": "Пов’язано з Google"
+  "accountLinkedWithGoogle": "Пов’язано з Google",
+  "accountLinkedSnackbar": "Обліковий запис перенесено"
 }

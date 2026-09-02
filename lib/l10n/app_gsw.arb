@@ -219,5 +219,6 @@
   "linkWithApple": "Konto mit Apple übertragen",
   "linkWithGoogle": "S Konto mit Google übertrage",
   "accountLinkedWithApple": "Mit Apple verknüpft",
-  "accountLinkedWithGoogle": "Mit Google verknüpft"
+  "accountLinkedWithGoogle": "Mit Google verknüpft",
+  "accountLinkedSnackbar": "Konto überträit"
 }

@@ -219,5 +219,6 @@
   "linkWithApple": "Apple ашиглан бүртгэлээ шилжүүлэх",
   "linkWithGoogle": "Google ашиглан бүртгэлээ шилжүүлэх",
   "accountLinkedWithApple": "Apple-тай холбогдсон",
-  "accountLinkedWithGoogle": "Google-тэй холбогдсон"
+  "accountLinkedWithGoogle": "Google-тэй холбогдсон",
+  "accountLinkedSnackbar": "Бүртгэл шилжлээ"
 }

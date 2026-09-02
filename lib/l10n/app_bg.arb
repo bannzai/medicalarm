@@ -219,5 +219,6 @@
   "linkWithApple": "Прехвърлете акаунта с Apple",
   "linkWithGoogle": "Прехвърлете акаунта с Google",
   "accountLinkedWithApple": "Свързано с Apple",
-  "accountLinkedWithGoogle": "Свързано с Google"
+  "accountLinkedWithGoogle": "Свързано с Google",
+  "accountLinkedSnackbar": "Акаунтът е прехвърлен"
 }

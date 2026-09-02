@@ -219,5 +219,6 @@
   "linkWithApple": "Apple ಮೂಲಕ ಖಾತೆಯನ್ನು ವರ್ಗಾಯಿಸಿ",
   "linkWithGoogle": "Google ಮೂಲಕ ಖಾತೆಯನ್ನು ವರ್ಗಾಯಿಸಿ",
   "accountLinkedWithApple": "Apple ಗೆ ಲಿಂಕ್ ಮಾಡಲಾಗಿದೆ",
-  "accountLinkedWithGoogle": "Google ಗೆ ಲಿಂಕ್ ಮಾಡಲಾಗಿದೆ"
+  "accountLinkedWithGoogle": "Google ಗೆ ಲಿಂಕ್ ಮಾಡಲಾಗಿದೆ",
+  "accountLinkedSnackbar": "ಖಾತೆಯನ್ನು ವರ್ಗಾಯಿಸಲಾಗಿದೆ"
 }

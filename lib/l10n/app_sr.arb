@@ -219,5 +219,6 @@
   "linkWithApple": "Пренесите налог помоћу Apple-а",
   "linkWithGoogle": "Пренесите налог помоћу Google-а",
   "accountLinkedWithApple": "Повезано са Apple-ом",
-  "accountLinkedWithGoogle": "Повезано са Google-ом"
+  "accountLinkedWithGoogle": "Повезано са Google-ом",
+  "accountLinkedSnackbar": "Налог је пренет"
 }

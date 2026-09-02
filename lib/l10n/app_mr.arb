@@ -219,5 +219,6 @@
   "linkWithApple": "Apple द्वारे खाते हस्तांतरित करा",
   "linkWithGoogle": "Google वापरून खाते हस्तांतरित करा",
   "accountLinkedWithApple": "Apple शी लिंक केलेले",
-  "accountLinkedWithGoogle": "Google शी लिंक केलेले"
+  "accountLinkedWithGoogle": "Google शी लिंक केलेले",
+  "accountLinkedSnackbar": "खाते हस्तांतरित झाले"
 }

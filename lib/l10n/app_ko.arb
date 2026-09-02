@@ -219,5 +219,6 @@
   "linkWithApple": "Apple로 계정 이전하기",
   "linkWithGoogle": "Google로 계정 이전하기",
   "accountLinkedWithApple": "Apple 연결됨",
-  "accountLinkedWithGoogle": "Google 연동됨"
+  "accountLinkedWithGoogle": "Google 연동됨",
+  "accountLinkedSnackbar": "계정이 이전되었습니다"
 }

@@ -219,5 +219,6 @@
   "linkWithApple": "Siirrä tili Applella",
   "linkWithGoogle": "Siirrä tili Googlella",
   "accountLinkedWithApple": "Yhdistetty Appleen",
-  "accountLinkedWithGoogle": "Yhdistetty Googleen"
+  "accountLinkedWithGoogle": "Yhdistetty Googleen",
+  "accountLinkedSnackbar": "Tili siirretty"
 }

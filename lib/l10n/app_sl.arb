@@ -219,5 +219,6 @@
   "linkWithApple": "Prenos računa z Apple",
   "linkWithGoogle": "Prenesite račun z Googlom",
   "accountLinkedWithApple": "Povezano z Apple",
-  "accountLinkedWithGoogle": "Povezano z Googlom"
+  "accountLinkedWithGoogle": "Povezano z Googlom",
+  "accountLinkedSnackbar": "Račun je prenesen"
 }
