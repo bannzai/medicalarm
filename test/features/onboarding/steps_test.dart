@@ -1,3 +1,6 @@
+import 'dart:convert';
+import 'dart:io';
+
 import 'package:flutter_test/flutter_test.dart';
 import 'package:medicalarm/features/onboarding/steps.dart';
 
@@ -46,6 +49,35 @@ void main() {
     test('日本語以外は US 長尺', () {
       expect(isShortFormOnboarding(languageCode: 'en'), isFalse);
       expect(isShortFormOnboarding(languageCode: 'de'), isFalse);
+    });
+  });
+
+  group('isOnboardingAvailable', () {
+    test('翻訳済みの言語 (ja / en) は表示できる', () {
+      expect(isOnboardingAvailable(languageCode: 'ja'), isTrue);
+      expect(isOnboardingAvailable(languageCode: 'en'), isTrue);
+    });
+
+    test('未翻訳の言語は表示できない', () {
+      expect(isOnboardingAvailable(languageCode: 'de'), isFalse);
+    });
+  });
+
+  // onboardingSupportedLanguageCodes に挙げた言語の arb に、テンプレート (ja) の onboarding* キーが揃っていることを検証する。
+  // 揃っていないとテンプレートの日本語にフォールバックした画面が出てしまう
+  // (flutter test のカレントはプロジェクトルートである前提。test/utils/analytics/log_event_names_test.dart と同じ)
+  group('onboardingSupportedLanguageCodes', () {
+    Set<String> onboardingKeys({required String languageCode}) {
+      final arb = jsonDecode(File('lib/l10n/app_$languageCode.arb').readAsStringSync()) as Map<String, dynamic>;
+      return arb.keys.where((key) => !key.startsWith('@') && key.startsWith('onboarding')).toSet();
+    }
+
+    test('挙げた言語の arb にテンプレート (ja) の onboarding* キーがすべて存在する', () {
+      final templateKeys = onboardingKeys(languageCode: 'ja');
+      expect(templateKeys, isNotEmpty);
+      for (final languageCode in onboardingSupportedLanguageCodes) {
+        expect(onboardingKeys(languageCode: languageCode), containsAll(templateKeys), reason: 'app_$languageCode.arb に未翻訳の onboarding* キーがある');
+      }
     });
   });
 

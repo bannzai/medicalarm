@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
+import 'package:medicalarm/components/loading/indicator.dart';
 import 'package:medicalarm/entity/app_user.dart';
 import 'package:medicalarm/features/onboarding/page.dart';
 import 'package:medicalarm/features/onboarding/steps.dart';
@@ -11,6 +12,7 @@ import 'package:medicalarm/utils/analytics/error.dart';
 import 'package:medicalarm/utils/purchase/purchase.dart';
 
 /// 初回起動時にオンボーディングを表示する条件。
+/// - 端末の言語で文言が翻訳済み ([isOnboardingAvailable])
 /// - 完了記録 (onboardingCompletedDateTime) が無い
 /// - プレミアム (トライアル含む) でない
 /// - AppUser 作成から 1 日以内 (既存ユーザーにはこの機能のリリース後も表示しない。再インストールでも匿名ユーザーは Keychain から復元されるため再表示されない)
@@ -18,7 +20,11 @@ bool shouldPresentOnboarding({
   required AppUser appUser,
   required bool? hasPremiumEntitlement,
   required DateTime now,
+  required bool isAvailable,
 }) {
+  if (!isAvailable) {
+    return false;
+  }
   if (appUser.onboardingCompletedDateTime != null) {
     return false;
   }
@@ -46,19 +52,32 @@ class OnboardingResolver extends HookConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final customerInfo = ref.watch(customerInfoProvider).asData?.value;
-    // PromotionStartResolver と同じく初回 build で判定を固定し、完了書き込みによる appUser の更新で再判定しない
-    final isPresented = useState(shouldPresentOnboarding(
-      appUser: appUser,
-      hasPremiumEntitlement: customerInfo?.hasPremiumEntitlement,
-      now: DateTime.now(),
-    ));
+    final customerInfoAsync = ref.watch(customerInfoProvider);
+    // 表示判定は customerInfo の初回取得を待ってから固定する。以後 appUser・customerInfo が更新されても再判定しない。
+    // build 中に代入するため useState (setState during build になる) ではなく useRef に保持する
+    final decision = useRef<bool?>(null);
+    // 完了 (ペイウォールを閉じた) 後にホームへ進めるためのフラグ。判定自体は変えない
+    final isCompleted = useState(false);
+    final languageCode = Localizations.localeOf(context).languageCode;
 
-    if (!isPresented.value) {
+    // customerInfo が取得中の間は判定できないためローディングを出す。エラー時は非プレミアム (null) 扱いで判定する
+    if (decision.value == null) {
+      if (customerInfoAsync.isLoading) {
+        return const IndicatorPage();
+      }
+      decision.value = shouldPresentOnboarding(
+        appUser: appUser,
+        hasPremiumEntitlement: customerInfoAsync.asData?.value.hasPremiumEntitlement,
+        now: DateTime.now(),
+        isAvailable: isOnboardingAvailable(languageCode: languageCode),
+      );
+    }
+
+    if (decision.value != true || isCompleted.value) {
       return builder(context);
     }
 
-    final isShortForm = isShortFormOnboarding(languageCode: Localizations.localeOf(context).languageCode);
+    final isShortForm = isShortFormOnboarding(languageCode: languageCode);
     return OnboardingPage(
       isShortForm: isShortForm,
       onPlanStartPressed: () async {
@@ -67,7 +86,7 @@ class OnboardingResolver extends HookConsumerWidget {
         await showPremiumIntroductionSheet(context);
         analytics.logEvent(name: 'onboarding_paywall_closed');
         analytics.logEvent(name: 'onboarding_completed', parameters: {'form': isShortForm ? 'short' : 'long'});
-        isPresented.value = false;
+        isCompleted.value = true;
         try {
           await onboardingComplete();
         } catch (error, stackTrace) {

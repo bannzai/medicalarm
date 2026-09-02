@@ -12,6 +12,7 @@
 - `AppUser.onboardingCompletedDateTime` が null (未完了)
 - プレミアム (トライアル含む) でない
 - `AppUser.createdDateTime` から 1 日以内。この機能のリリース前からの既存ユーザーには表示しない。匿名ユーザーは再インストールでも Keychain から復元されるため、再インストールで再表示されることもない
+- 端末の言語が `onboardingSupportedLanguageCodes` (翻訳済み: ja / en) に含まれる。未翻訳の言語ではテンプレート (ja) の文言にフォールバックしてしまうため表示しない
 
 完了はペイウォール (既存の `PremiumIntroductionSheet`) を閉じた時点とし、`OnboardingComplete` (`lib/provider/onboarding.dart`) が `onboardingCompletedDateTime` を書き込む。
 

@@ -9,14 +9,14 @@ void main() {
   group('shouldPresentOnboarding', () {
     test('作成直後で完了記録が無い非プレミアムユーザーには表示する', () {
       expect(
-        shouldPresentOnboarding(appUser: AppUser(createdDateTime: now), hasPremiumEntitlement: false, now: now),
+        shouldPresentOnboarding(appUser: AppUser(createdDateTime: now), hasPremiumEntitlement: false, now: now, isAvailable: true),
         isTrue,
       );
     });
 
-    test('customerInfo 未取得 (null) でも表示する', () {
+    test('customerInfo がエラー等で取得できない (null) 時は非プレミアム扱いで表示する', () {
       expect(
-        shouldPresentOnboarding(appUser: AppUser(createdDateTime: now), hasPremiumEntitlement: null, now: now),
+        shouldPresentOnboarding(appUser: AppUser(createdDateTime: now), hasPremiumEntitlement: null, now: now, isAvailable: true),
         isTrue,
       );
     });
@@ -27,6 +27,7 @@ void main() {
           appUser: AppUser(createdDateTime: now, onboardingCompletedDateTime: now),
           hasPremiumEntitlement: false,
           now: now,
+          isAvailable: true,
         ),
         isFalse,
       );
@@ -34,7 +35,7 @@ void main() {
 
     test('プレミアム (トライアル含む) には表示しない', () {
       expect(
-        shouldPresentOnboarding(appUser: AppUser(createdDateTime: now), hasPremiumEntitlement: true, now: now),
+        shouldPresentOnboarding(appUser: AppUser(createdDateTime: now), hasPremiumEntitlement: true, now: now, isAvailable: true),
         isFalse,
       );
     });
@@ -45,6 +46,7 @@ void main() {
           appUser: AppUser(createdDateTime: now.subtract(const Duration(days: 1))),
           hasPremiumEntitlement: false,
           now: now,
+          isAvailable: true,
         ),
         isFalse,
       );
@@ -56,6 +58,7 @@ void main() {
           appUser: AppUser(createdDateTime: now.subtract(const Duration(hours: 23))),
           hasPremiumEntitlement: false,
           now: now,
+          isAvailable: true,
         ),
         isTrue,
       );
@@ -63,7 +66,14 @@ void main() {
 
     test('createdDateTime が無ければ表示しない', () {
       expect(
-        shouldPresentOnboarding(appUser: const AppUser(), hasPremiumEntitlement: false, now: now),
+        shouldPresentOnboarding(appUser: const AppUser(), hasPremiumEntitlement: false, now: now, isAvailable: true),
+        isFalse,
+      );
+    });
+
+    test('文言が未翻訳のロケールには表示しない', () {
+      expect(
+        shouldPresentOnboarding(appUser: AppUser(createdDateTime: now), hasPremiumEntitlement: false, now: now, isAvailable: false),
         isFalse,
       );
     });
