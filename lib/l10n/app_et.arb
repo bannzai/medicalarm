@@ -259,5 +259,6 @@
   "onboardingDailyDoseThreeOrMore": "3 korda või rohkem",
   "onboardingMedicineCountTitle": "Mitut ravimit te haldate?",
   "onboardingMedicineCountOneToTwo": "1–2 tüüpi",
-  "onboardingMedicineCountThreeToFive": "3–5 liiki"
+  "onboardingMedicineCountThreeToFive": "3–5 liiki",
+  "onboardingMedicineCountSixOrMore": "6 või rohkem"
 }

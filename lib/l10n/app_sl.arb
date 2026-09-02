@@ -259,5 +259,6 @@
   "onboardingDailyDoseThreeOrMore": "3-krat ali več",
   "onboardingMedicineCountTitle": "Koliko zdravil upravljate?",
   "onboardingMedicineCountOneToTwo": "1–2 vrsti",
-  "onboardingMedicineCountThreeToFive": "3–5 vrst"
+  "onboardingMedicineCountThreeToFive": "3–5 vrst",
+  "onboardingMedicineCountSixOrMore": "6 ali več"
 }

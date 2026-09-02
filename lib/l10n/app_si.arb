@@ -259,5 +259,6 @@
   "onboardingDailyDoseThreeOrMore": "3 වරක් හෝ ඊට වැඩි",
   "onboardingMedicineCountTitle": "ඔබ කළමනාකරණය කරන ඖෂධ ගණන කීයද?",
   "onboardingMedicineCountOneToTwo": "වර්ග 1–2",
-  "onboardingMedicineCountThreeToFive": "3–5 වර්ග"
+  "onboardingMedicineCountThreeToFive": "3–5 වර්ග",
+  "onboardingMedicineCountSixOrMore": "6ක් හෝ ඊට වැඩි"
 }

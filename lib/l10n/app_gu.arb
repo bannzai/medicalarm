@@ -259,5 +259,6 @@
   "onboardingDailyDoseThreeOrMore": "3 વાર કે તેથી વધુ",
   "onboardingMedicineCountTitle": "તમે કેટલી દવાઓનું સંચાલન કરો છો?",
   "onboardingMedicineCountOneToTwo": "૧–૨ પ્રકાર",
-  "onboardingMedicineCountThreeToFive": "૩–૫ પ્રકાર"
+  "onboardingMedicineCountThreeToFive": "૩–૫ પ્રકાર",
+  "onboardingMedicineCountSixOrMore": "૬ કે વધુ"
 }

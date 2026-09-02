@@ -259,5 +259,6 @@
   "onboardingDailyDoseThreeOrMore": "3 ครั้งขึ้นไป",
   "onboardingMedicineCountTitle": "คุณจัดการยากี่รายการ?",
   "onboardingMedicineCountOneToTwo": "1–2 ชนิด",
-  "onboardingMedicineCountThreeToFive": "3–5 ชนิด"
+  "onboardingMedicineCountThreeToFive": "3–5 ชนิด",
+  "onboardingMedicineCountSixOrMore": "6 ชนิดขึ้นไป"
 }

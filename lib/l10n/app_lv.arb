@@ -259,5 +259,6 @@
   "onboardingDailyDoseThreeOrMore": "3 reizes vai vairāk",
   "onboardingMedicineCountTitle": "Cik medikamentu jūs pārvaldāt?",
   "onboardingMedicineCountOneToTwo": "1–2 veidi",
-  "onboardingMedicineCountThreeToFive": "3–5 veidi"
+  "onboardingMedicineCountThreeToFive": "3–5 veidi",
+  "onboardingMedicineCountSixOrMore": "6 vai vairāk"
 }

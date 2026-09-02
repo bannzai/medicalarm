@@ -259,5 +259,6 @@
   "onboardingDailyDoseThreeOrMore": "3 തവണയോ അതിലധികമോ",
   "onboardingMedicineCountTitle": "നിങ്ങൾ എത്ര മരുന്നുകളാണ് നിയന്ത്രിക്കുന്നത്?",
   "onboardingMedicineCountOneToTwo": "1–2 തരം",
-  "onboardingMedicineCountThreeToFive": "3–5 തരം"
+  "onboardingMedicineCountThreeToFive": "3–5 തരം",
+  "onboardingMedicineCountSixOrMore": "6 അല്ലെങ്കിൽ അതിലധികം"
 }

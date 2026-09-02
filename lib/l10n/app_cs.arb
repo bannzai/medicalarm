@@ -259,5 +259,6 @@
   "onboardingDailyDoseThreeOrMore": "3krát nebo více",
   "onboardingMedicineCountTitle": "O kolik léků se staráte?",
   "onboardingMedicineCountOneToTwo": "1–2 druhy",
-  "onboardingMedicineCountThreeToFive": "3–5 druhů"
+  "onboardingMedicineCountThreeToFive": "3–5 druhů",
+  "onboardingMedicineCountSixOrMore": "6 nebo více"
 }

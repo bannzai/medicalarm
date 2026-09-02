@@ -259,5 +259,6 @@
   "onboardingDailyDoseThreeOrMore": "3 beses o higit pa",
   "onboardingMedicineCountTitle": "Ilang gamot ang pinamamahalaan mo?",
   "onboardingMedicineCountOneToTwo": "1–2 uri",
-  "onboardingMedicineCountThreeToFive": "3–5 uri"
+  "onboardingMedicineCountThreeToFive": "3–5 uri",
+  "onboardingMedicineCountSixOrMore": "6 o higit pa"
 }

@@ -259,5 +259,6 @@
   "onboardingDailyDoseThreeOrMore": "3-szor vagy többször",
   "onboardingMedicineCountTitle": "Hány gyógyszert kezel?",
   "onboardingMedicineCountOneToTwo": "1–2 féle",
-  "onboardingMedicineCountThreeToFive": "3–5 féle"
+  "onboardingMedicineCountThreeToFive": "3–5 féle",
+  "onboardingMedicineCountSixOrMore": "6 vagy több"
 }

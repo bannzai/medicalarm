@@ -259,5 +259,6 @@
   "onboardingDailyDoseThreeOrMore": "3-mal oder meh",
   "onboardingMedicineCountTitle": "Wie vieli Medikament verwaltsch?",
   "onboardingMedicineCountOneToTwo": "1–2 Sorte",
-  "onboardingMedicineCountThreeToFive": "3–5 Sorte"
+  "onboardingMedicineCountThreeToFive": "3–5 Sorte",
+  "onboardingMedicineCountSixOrMore": "6 oder meh"
 }

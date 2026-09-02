@@ -259,5 +259,6 @@
   "onboardingDailyDoseThreeOrMore": "၃ ကြိမ်နှင့်အထက်",
   "onboardingMedicineCountTitle": "သင် စီမံခန့်ခွဲနေသော ဆေးဝါး ဘယ်နှစ်မျိုး ရှိပါသလဲ။",
   "onboardingMedicineCountOneToTwo": "အမျိုးအစား ၁–၂ မျိုး",
-  "onboardingMedicineCountThreeToFive": "၃–၅ မျိုး"
+  "onboardingMedicineCountThreeToFive": "၃–၅ မျိုး",
+  "onboardingMedicineCountSixOrMore": "၆ မျိုးနှင့်အထက်"
 }
