@@ -202,5 +202,6 @@
   "issueInvitationCode": "יצירת קוד הזמנה",
   "groupSettings": "הגדרות הקבוצה",
   "members": "חברים",
-  "memberFallbackName": "חבר"
+  "memberFallbackName": "חבר",
+  "yourDisplayName": "שם התצוגה שלך"
 }

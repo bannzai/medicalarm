@@ -202,5 +202,6 @@
   "issueInvitationCode": "Izveidot ielūguma kodu",
   "groupSettings": "Grupas iestatījumi",
   "members": "Dalībnieki",
-  "memberFallbackName": "Dalībnieks"
+  "memberFallbackName": "Dalībnieks",
+  "yourDisplayName": "Jūsu parādāmais vārds"
 }

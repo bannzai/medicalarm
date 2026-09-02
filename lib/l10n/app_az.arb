@@ -202,5 +202,6 @@
   "issueInvitationCode": "Dəvət kodu yaradın",
   "groupSettings": "Qrup ayarları",
   "members": "Üzvlər",
-  "memberFallbackName": "Üzv"
+  "memberFallbackName": "Üzv",
+  "yourDisplayName": "Göstərilən adınız"
 }

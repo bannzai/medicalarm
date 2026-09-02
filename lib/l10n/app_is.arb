@@ -202,5 +202,6 @@
   "issueInvitationCode": "Búa til boðskóða",
   "groupSettings": "Stillingar hóps",
   "members": "Meðlimir",
-  "memberFallbackName": "Meðlimur"
+  "memberFallbackName": "Meðlimur",
+  "yourDisplayName": "Birtingarnafnið þitt"
 }

@@ -202,5 +202,6 @@
   "issueInvitationCode": "Έκδοση κωδικού πρόσκλησης",
   "groupSettings": "Ρυθμίσεις ομάδας",
   "members": "Μέλη",
-  "memberFallbackName": "Μέλος"
+  "memberFallbackName": "Μέλος",
+  "yourDisplayName": "Το όνομα εμφάνισής σας"
 }

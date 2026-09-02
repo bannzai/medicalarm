@@ -202,5 +202,6 @@
   "issueInvitationCode": "Gjenero kodin e ftesës",
   "groupSettings": "Cilësimet e grupit",
   "members": "Anëtarët",
-  "memberFallbackName": "Anëtar"
+  "memberFallbackName": "Anëtar",
+  "yourDisplayName": "Emri juaj i shfaqur"
 }

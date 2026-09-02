@@ -202,5 +202,6 @@
   "issueInvitationCode": "إصدار رمز دعوة",
   "groupSettings": "إعدادات المجموعة",
   "members": "الأعضاء",
-  "memberFallbackName": "عضو"
+  "memberFallbackName": "عضو",
+  "yourDisplayName": "اسم العرض الخاص بك"
 }

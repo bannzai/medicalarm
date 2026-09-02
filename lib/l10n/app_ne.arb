@@ -202,5 +202,6 @@
   "issueInvitationCode": "आमन्त्रण कोड सिर्जना गर्नुहोस्",
   "groupSettings": "समूह सेटिङहरू",
   "members": "सदस्यहरू",
-  "memberFallbackName": "सदस्य"
+  "memberFallbackName": "सदस्य",
+  "yourDisplayName": "तपाईंको प्रदर्शन नाम"
 }

@@ -202,5 +202,6 @@
   "issueInvitationCode": "Vygenerovat zvací kód",
   "groupSettings": "Nastavení skupiny",
   "members": "Členové",
-  "memberFallbackName": "Člen"
+  "memberFallbackName": "Člen",
+  "yourDisplayName": "Vaše zobrazované jméno"
 }

@@ -202,5 +202,6 @@
   "issueInvitationCode": "आमंत्रण कोड तयार करा",
   "groupSettings": "ग्रुप सेटिंग्ज",
   "members": "सदस्य",
-  "memberFallbackName": "सदस्य"
+  "memberFallbackName": "सदस्य",
+  "yourDisplayName": "तुमचे प्रदर्शित नाव"
 }

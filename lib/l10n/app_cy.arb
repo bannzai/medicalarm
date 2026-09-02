@@ -202,5 +202,6 @@
   "issueInvitationCode": "Cyhoeddi cod gwahoddiad",
   "groupSettings": "Gosodiadau grŵp",
   "members": "Aelodau",
-  "memberFallbackName": "Aelod"
+  "memberFallbackName": "Aelod",
+  "yourDisplayName": "Eich enw arddangos"
 }

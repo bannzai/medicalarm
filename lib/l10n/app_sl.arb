@@ -202,5 +202,6 @@
   "issueInvitationCode": "Ustvari kodo za povabilo",
   "groupSettings": "Nastavitve skupine",
   "members": "Člani",
-  "memberFallbackName": "Član"
+  "memberFallbackName": "Član",
+  "yourDisplayName": "Vaše prikazno ime"
 }

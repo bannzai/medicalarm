@@ -202,5 +202,6 @@
   "issueInvitationCode": "Стварыць код запрашэння",
   "groupSettings": "Налады групы",
   "members": "Удзельнікі",
-  "memberFallbackName": "Удзельнік"
+  "memberFallbackName": "Удзельнік",
+  "yourDisplayName": "Вашае адлюстраванае імя"
 }

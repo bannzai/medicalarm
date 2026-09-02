@@ -202,5 +202,6 @@
   "issueInvitationCode": "Урилгын код үүсгэх",
   "groupSettings": "Бүлгийн тохиргоо",
   "members": "Гишүүд",
-  "memberFallbackName": "Гишүүн"
+  "memberFallbackName": "Гишүүн",
+  "yourDisplayName": "Таны дэлгэцийн нэр"
 }

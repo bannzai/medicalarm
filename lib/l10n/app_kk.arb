@@ -202,5 +202,6 @@
   "issueInvitationCode": "Шақыру кодын жасау",
   "groupSettings": "Топ параметрлері",
   "members": "Мүшелер",
-  "memberFallbackName": "Мүше"
+  "memberFallbackName": "Мүше",
+  "yourDisplayName": "Көрсетілетін атыңыз"
 }

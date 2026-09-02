@@ -202,5 +202,6 @@
   "issueInvitationCode": "Unda msimbo wa mwaliko",
   "groupSettings": "Mipangilio ya kikundi",
   "members": "Wanachama",
-  "memberFallbackName": "Mwanachama"
+  "memberFallbackName": "Mwanachama",
+  "yourDisplayName": "Jina lako la kuonyesha"
 }

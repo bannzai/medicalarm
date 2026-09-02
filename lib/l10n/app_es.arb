@@ -202,5 +202,6 @@
   "issueInvitationCode": "Generar código de invitación",
   "groupSettings": "Configuración del grupo",
   "members": "Miembros",
-  "memberFallbackName": "Miembro"
+  "memberFallbackName": "Miembro",
+  "yourDisplayName": "Tu nombre para mostrar"
 }

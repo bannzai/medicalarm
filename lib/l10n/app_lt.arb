@@ -202,5 +202,6 @@
   "issueInvitationCode": "Sukurti kvietimo kodą",
   "groupSettings": "Grupės nustatymai",
   "members": "Nariai",
-  "memberFallbackName": "Narys"
+  "memberFallbackName": "Narys",
+  "yourDisplayName": "Jūsų rodomas vardas"
 }

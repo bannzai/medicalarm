@@ -202,5 +202,6 @@
   "issueInvitationCode": "Чакыруу кодун түзүү",
   "groupSettings": "Топ жөндөөлөрү",
   "members": "Мүчөлөр",
-  "memberFallbackName": "Мүчө"
+  "memberFallbackName": "Мүчө",
+  "yourDisplayName": "Көрсөтүлүүчү атыңыз"
 }

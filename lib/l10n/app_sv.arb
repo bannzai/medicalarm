@@ -202,5 +202,6 @@
   "issueInvitationCode": "Skapa inbjudningskod",
   "groupSettings": "Gruppinställningar",
   "members": "Medlemmar",
-  "memberFallbackName": "Medlem"
+  "memberFallbackName": "Medlem",
+  "yourDisplayName": "Ditt visningsnamn"
 }

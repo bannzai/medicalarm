@@ -202,5 +202,6 @@
   "issueInvitationCode": "生成邀请代码",
   "groupSettings": "群组设置",
   "members": "成员",
-  "memberFallbackName": "成员"
+  "memberFallbackName": "成员",
+  "yourDisplayName": "你的显示名称"
 }

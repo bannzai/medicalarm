@@ -202,5 +202,6 @@
   "issueInvitationCode": "Lag invitasjonskode",
   "groupSettings": "Gruppeinnstillinger",
   "members": "Medlemmer",
-  "memberFallbackName": "Medlem"
+  "memberFallbackName": "Medlem",
+  "yourDisplayName": "Visningsnavnet ditt"
 }

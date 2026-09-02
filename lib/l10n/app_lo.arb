@@ -202,5 +202,6 @@
   "issueInvitationCode": "ສ້າງລະຫັດເຊີນ",
   "groupSettings": "ການຕັ້ງຄ່າກຸ່ມ",
   "members": "ສະມາຊິກ",
-  "memberFallbackName": "ສະມາຊິກ"
+  "memberFallbackName": "ສະມາຊິກ",
+  "yourDisplayName": "ຊື່ສະແດງຂອງທ່ານ"
 }

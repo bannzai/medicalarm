@@ -202,5 +202,6 @@
   "issueInvitationCode": "ಆಹ್ವಾನ ಕೋಡ್ ರಚಿಸಿ",
   "groupSettings": "ಗುಂಪಿನ ಸೆಟ್ಟಿಂಗ್‌ಗಳು",
   "members": "ಸದಸ್ಯರು",
-  "memberFallbackName": "ಸದಸ್ಯ"
+  "memberFallbackName": "ಸದಸ್ಯ",
+  "yourDisplayName": "ನಿಮ್ಮ ಪ್ರದರ್ಶನ ಹೆಸರು"
 }

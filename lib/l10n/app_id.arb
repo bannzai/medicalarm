@@ -202,5 +202,6 @@
   "issueInvitationCode": "Buat kode undangan",
   "groupSettings": "Pengaturan grup",
   "members": "Anggota",
-  "memberFallbackName": "Anggota"
+  "memberFallbackName": "Anggota",
+  "yourDisplayName": "Nama tampilan Anda"
 }

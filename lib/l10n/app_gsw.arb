@@ -202,5 +202,6 @@
   "issueInvitationCode": "Einladungscode erstellen",
   "groupSettings": "Gruppeneinstellungen",
   "members": "Mitglieder",
-  "memberFallbackName": "Mitglied"
+  "memberFallbackName": "Mitglied",
+  "yourDisplayName": "Din Aazeigname"
 }

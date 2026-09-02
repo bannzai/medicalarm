@@ -202,5 +202,6 @@
   "issueInvitationCode": "Створити код запрошення",
   "groupSettings": "Налаштування групи",
   "members": "Учасники",
-  "memberFallbackName": "Учасник"
+  "memberFallbackName": "Учасник",
+  "yourDisplayName": "Ваше відображуване ім’я"
 }

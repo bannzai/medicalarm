@@ -202,5 +202,6 @@
   "issueInvitationCode": "Generează cod de invitație",
   "groupSettings": "Setările grupului",
   "members": "Membri",
-  "memberFallbackName": "Membru"
+  "memberFallbackName": "Membru",
+  "yourDisplayName": "Numele dvs. afișat"
 }

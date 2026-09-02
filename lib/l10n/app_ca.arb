@@ -202,5 +202,6 @@
   "issueInvitationCode": "Genera un codi d’invitació",
   "groupSettings": "Configuració del grup",
   "members": "Membres",
-  "memberFallbackName": "Membre"
+  "memberFallbackName": "Membre",
+  "yourDisplayName": "El vostre nom de visualització"
 }

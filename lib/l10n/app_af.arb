@@ -202,5 +202,6 @@
   "issueInvitationCode": "Genereer uitnodigingskode",
   "groupSettings": "Groepinstellings",
   "members": "Lede",
-  "memberFallbackName": "Lid"
+  "memberFallbackName": "Lid",
+  "yourDisplayName": "Jou vertoonnaam"
 }

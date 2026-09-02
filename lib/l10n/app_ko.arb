@@ -202,5 +202,6 @@
   "issueInvitationCode": "초대 코드 발급",
   "groupSettings": "그룹 설정",
   "members": "멤버",
-  "memberFallbackName": "멤버"
+  "memberFallbackName": "멤버",
+  "yourDisplayName": "표시 이름"
 }

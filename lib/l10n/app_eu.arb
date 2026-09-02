@@ -202,5 +202,6 @@
   "issueInvitationCode": "Sortu gonbidapen-kodea",
   "groupSettings": "Taldearen ezarpenak",
   "members": "Kideak",
-  "memberFallbackName": "Kidea"
+  "memberFallbackName": "Kidea",
+  "yourDisplayName": "Zure bistaratzeko izena"
 }

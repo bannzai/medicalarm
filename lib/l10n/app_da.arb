@@ -202,5 +202,6 @@
   "issueInvitationCode": "Opret invitationskode",
   "groupSettings": "Gruppeindstillinger",
   "members": "Medlemmer",
-  "memberFallbackName": "Medlem"
+  "memberFallbackName": "Medlem",
+  "yourDisplayName": "Dit visningsnavn"
 }

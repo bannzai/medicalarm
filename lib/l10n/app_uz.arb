@@ -202,5 +202,6 @@
   "issueInvitationCode": "Taklif kodini yaratish",
   "groupSettings": "Guruh sozlamalari",
   "members": "A'zolar",
-  "memberFallbackName": "Aʼzo"
+  "memberFallbackName": "Aʼzo",
+  "yourDisplayName": "Ko‘rsatiladigan nomingiz"
 }

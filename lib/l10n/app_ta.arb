@@ -202,5 +202,6 @@
   "issueInvitationCode": "அழைப்புக் குறியீட்டை உருவாக்கு",
   "groupSettings": "குழு அமைப்புகள்",
   "members": "உறுப்பினர்கள்",
-  "memberFallbackName": "உறுப்பினர்"
+  "memberFallbackName": "உறுப்பினர்",
+  "yourDisplayName": "உங்கள் காட்சிப் பெயர்"
 }

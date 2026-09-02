@@ -202,5 +202,6 @@
   "issueInvitationCode": "Gumawa ng code ng imbitasyon",
   "groupSettings": "Mga setting ng grupo",
   "members": "Mga miyembro",
-  "memberFallbackName": "Miyembro"
+  "memberFallbackName": "Miyembro",
+  "yourDisplayName": "Iyong pangalan sa display"
 }

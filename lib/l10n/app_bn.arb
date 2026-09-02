@@ -202,5 +202,6 @@
   "issueInvitationCode": "আমন্ত্রণ কোড তৈরি করুন",
   "groupSettings": "গ্রুপ সেটিংস",
   "members": "সদস্যরা",
-  "memberFallbackName": "সদস্য"
+  "memberFallbackName": "সদস্য",
+  "yourDisplayName": "আপনার প্রদর্শন নাম"
 }

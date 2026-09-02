@@ -202,5 +202,6 @@
   "issueInvitationCode": "Генерирај код за покана",
   "groupSettings": "Поставки на групата",
   "members": "Членови",
-  "memberFallbackName": "Член"
+  "memberFallbackName": "Член",
+  "yourDisplayName": "Вашето прикажано име"
 }

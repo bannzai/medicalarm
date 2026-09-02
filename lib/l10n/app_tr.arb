@@ -202,5 +202,6 @@
   "issueInvitationCode": "Davet kodu oluştur",
   "groupSettings": "Grup ayarları",
   "members": "Üyeler",
-  "memberFallbackName": "Üye"
+  "memberFallbackName": "Üye",
+  "yourDisplayName": "Görünen adınız"
 }

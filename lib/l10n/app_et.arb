@@ -202,5 +202,6 @@
   "issueInvitationCode": "Loo kutsekood",
   "groupSettings": "Grupi seaded",
   "members": "Liikmed",
-  "memberFallbackName": "Liige"
+  "memberFallbackName": "Liige",
+  "yourDisplayName": "Teie kuvatav nimi"
 }

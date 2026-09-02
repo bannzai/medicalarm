@@ -202,5 +202,6 @@
   "issueInvitationCode": "ආරාධනා කේතය සාදන්න",
   "groupSettings": "කණ්ඩායම් සැකසීම්",
   "members": "සාමාජිකයින්",
-  "memberFallbackName": "සාමාජිකයා"
+  "memberFallbackName": "සාමාජිකයා",
+  "yourDisplayName": "ඔබේ සංදර්ශන නාමය"
 }

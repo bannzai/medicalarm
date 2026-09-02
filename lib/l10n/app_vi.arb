@@ -202,5 +202,6 @@
   "issueInvitationCode": "Tạo mã mời",
   "groupSettings": "Cài đặt nhóm",
   "members": "Thành viên",
-  "memberFallbackName": "Thành viên"
+  "memberFallbackName": "Thành viên",
+  "yourDisplayName": "Tên hiển thị của bạn"
 }

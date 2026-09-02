@@ -202,5 +202,6 @@
   "issueInvitationCode": "Meghívókód létrehozása",
   "groupSettings": "Csoportbeállítások",
   "members": "Tagok",
-  "memberFallbackName": "Tag"
+  "memberFallbackName": "Tag",
+  "yourDisplayName": "Megjelenített neve"
 }

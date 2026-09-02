@@ -202,5 +202,6 @@
   "issueInvitationCode": "Luo kutsukoodi",
   "groupSettings": "Ryhmän asetukset",
   "members": "Jäsenet",
-  "memberFallbackName": "Jäsen"
+  "memberFallbackName": "Jäsen",
+  "yourDisplayName": "Näyttönimesi"
 }

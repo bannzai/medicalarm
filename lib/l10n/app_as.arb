@@ -202,5 +202,6 @@
   "issueInvitationCode": "আমন্ত্ৰণ কোড জাৰি কৰক",
   "groupSettings": "গোটৰ ছেটিংসমূহ",
   "members": "সদস্যসকল",
-  "memberFallbackName": "সদস্য"
+  "memberFallbackName": "সদস্য",
+  "yourDisplayName": "আপোনাৰ প্ৰদৰ্শনৰ নাম"
 }

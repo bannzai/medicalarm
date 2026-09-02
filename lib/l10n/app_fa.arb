@@ -202,5 +202,6 @@
   "issueInvitationCode": "ایجاد کد دعوت",
   "groupSettings": "تنظیمات گروه",
   "members": "اعضا",
-  "memberFallbackName": "عضو"
+  "memberFallbackName": "عضو",
+  "yourDisplayName": "نام نمایشی شما"
 }

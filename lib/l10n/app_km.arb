@@ -202,5 +202,6 @@
   "issueInvitationCode": "បង្កើតលេខកូដអញ្ជើញ",
   "groupSettings": "ការកំណត់ក្រុម",
   "members": "សមាជិក",
-  "memberFallbackName": "សមាជិក"
+  "memberFallbackName": "សមាជិក",
+  "yourDisplayName": "ឈ្មោះបង្ហាញរបស់អ្នក"
 }

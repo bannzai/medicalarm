@@ -202,5 +202,6 @@
   "issueInvitationCode": "สร้างรหัสเชิญ",
   "groupSettings": "การตั้งค่ากลุ่ม",
   "members": "สมาชิก",
-  "memberFallbackName": "สมาชิก"
+  "memberFallbackName": "สมาชิก",
+  "yourDisplayName": "ชื่อที่แสดงของคุณ"
 }

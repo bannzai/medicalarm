@@ -202,5 +202,6 @@
   "issueInvitationCode": "მოსაწვევი კოდის შექმნა",
   "groupSettings": "ჯგუფის პარამეტრები",
   "members": "წევრები",
-  "memberFallbackName": "წევრი"
+  "memberFallbackName": "წევრი",
+  "yourDisplayName": "თქვენი საჩვენებელი სახელი"
 }

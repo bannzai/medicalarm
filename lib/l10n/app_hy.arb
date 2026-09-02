@@ -202,5 +202,6 @@
   "issueInvitationCode": "Ստեղծել հրավերի կոդ",
   "groupSettings": "Խմբի կարգավորումներ",
   "members": "Անդամներ",
-  "memberFallbackName": "Անդամ"
+  "memberFallbackName": "Անդամ",
+  "yourDisplayName": "Ձեր ցուցադրվող անունը"
 }

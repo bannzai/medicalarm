@@ -202,5 +202,6 @@
   "issueInvitationCode": "የግብዣ ኮድ አውጣ",
   "groupSettings": "የቡድን ቅንብሮች",
   "members": "አባላት",
-  "memberFallbackName": "አባል"
+  "memberFallbackName": "አባል",
+  "yourDisplayName": "የእርስዎ የማሳያ ስም"
 }
