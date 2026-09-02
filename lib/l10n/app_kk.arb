@@ -287,5 +287,6 @@
   "onboardingPlanCriticalAlert": "Critical Alert",
   "onboardingPlanCriticalAlertValue": "Дыбыссыз режимде де хабарландырулар",
   "onboardingPremiumRecommendedTitle": "Premium жоспары ұсынылады",
-  "onboardingPremiumRecommendedBody": "Бұл жоспар тегін жоспардың тіркеу лимитінен асып кетеді\nPremium жоспарымен бәрін тіркей аласыз"
+  "onboardingPremiumRecommendedBody": "Бұл жоспар тегін жоспардың тіркеу лимитінен асып кетеді\nPremium жоспарымен бәрін тіркей аласыз",
+  "onboardingPlanStart": "Жоспарыңызды бастаңыз"
 }

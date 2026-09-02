@@ -287,5 +287,6 @@
   "onboardingPlanCriticalAlert": "Critical Alert",
   "onboardingPlanCriticalAlertValue": "Thông báo ngay cả khi ở chế độ im lặng",
   "onboardingPremiumRecommendedTitle": "Nên chọn gói Premium",
-  "onboardingPremiumRecommendedBody": "Gói này vượt quá giới hạn đăng ký của gói miễn phí\nVới gói Premium, bạn có thể đăng ký mọi thứ"
+  "onboardingPremiumRecommendedBody": "Gói này vượt quá giới hạn đăng ký của gói miễn phí\nVới gói Premium, bạn có thể đăng ký mọi thứ",
+  "onboardingPlanStart": "Bắt đầu gói của bạn"
 }

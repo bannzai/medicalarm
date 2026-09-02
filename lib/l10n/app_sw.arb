@@ -287,5 +287,6 @@
   "onboardingPlanCriticalAlert": "Critical Alert",
   "onboardingPlanCriticalAlertValue": "Arifa hata katika hali ya kimya",
   "onboardingPremiumRecommendedTitle": "Mpango wa Premium unapendekezwa",
-  "onboardingPremiumRecommendedBody": "Mpango huu unazidi kikomo cha usajili cha mpango wa bila malipo\nUkiwa na mpango wa Premium, unaweza kusajili kila kitu"
+  "onboardingPremiumRecommendedBody": "Mpango huu unazidi kikomo cha usajili cha mpango wa bila malipo\nUkiwa na mpango wa Premium, unaweza kusajili kila kitu",
+  "onboardingPlanStart": "Anza mpango wako"
 }

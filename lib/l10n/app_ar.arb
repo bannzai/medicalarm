@@ -287,5 +287,6 @@
   "onboardingPlanCriticalAlert": "Critical Alert",
   "onboardingPlanCriticalAlertValue": "إشعارات حتى في الوضع الصامت",
   "onboardingPremiumRecommendedTitle": "نوصي بالخطة المميزة",
-  "onboardingPremiumRecommendedBody": "تتجاوز هذه الخطة حد التسجيل في الخطة المجانية\nمع الخطة Premium، يمكنك تسجيل كل شيء"
+  "onboardingPremiumRecommendedBody": "تتجاوز هذه الخطة حد التسجيل في الخطة المجانية\nمع الخطة Premium، يمكنك تسجيل كل شيء",
+  "onboardingPlanStart": "ابدأ خطتك"
 }

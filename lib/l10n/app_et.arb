@@ -287,5 +287,6 @@
   "onboardingPlanCriticalAlert": "Critical Alert",
   "onboardingPlanCriticalAlertValue": "Märguanded ka hääletus režiimis",
   "onboardingPremiumRecommendedTitle": "Soovitame Premium-paketti",
-  "onboardingPremiumRecommendedBody": "See plaan ületab tasuta paketi registreerimislimiiti\nPremium-paketiga saate registreerida kõik"
+  "onboardingPremiumRecommendedBody": "See plaan ületab tasuta paketi registreerimislimiiti\nPremium-paketiga saate registreerida kõik",
+  "onboardingPlanStart": "Alusta oma plaaniga"
 }

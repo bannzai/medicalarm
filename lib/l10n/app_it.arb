@@ -287,5 +287,6 @@
   "onboardingPlanCriticalAlert": "Critical Alert",
   "onboardingPlanCriticalAlertValue": "Notifiche anche in modalità silenziosa",
   "onboardingPremiumRecommendedTitle": "Ti consigliamo il piano Premium",
-  "onboardingPremiumRecommendedBody": "Questo piano supera il limite di registrazioni del piano gratuito\nCon il piano Premium puoi registrare tutto"
+  "onboardingPremiumRecommendedBody": "Questo piano supera il limite di registrazioni del piano gratuito\nCon il piano Premium puoi registrare tutto",
+  "onboardingPlanStart": "Inizia il tuo piano"
 }

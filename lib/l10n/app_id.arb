@@ -287,5 +287,6 @@
   "onboardingPlanCriticalAlert": "Critical Alert",
   "onboardingPlanCriticalAlertValue": "Notifikasi bahkan dalam mode senyap",
   "onboardingPremiumRecommendedTitle": "Paket Premium direkomendasikan",
-  "onboardingPremiumRecommendedBody": "Paket ini melebihi batas pendaftaran paket gratis\nDengan paket Premium, Anda dapat mendaftarkan semuanya"
+  "onboardingPremiumRecommendedBody": "Paket ini melebihi batas pendaftaran paket gratis\nDengan paket Premium, Anda dapat mendaftarkan semuanya",
+  "onboardingPlanStart": "Mulai rencana Anda"
 }

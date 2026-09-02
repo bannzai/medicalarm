@@ -287,5 +287,6 @@
   "onboardingPlanCriticalAlert": "Critical Alert",
   "onboardingPlanCriticalAlertValue": "Səssiz rejimdə belə bildirişlər",
   "onboardingPremiumRecommendedTitle": "Premium plan tövsiyə olunur",
-  "onboardingPremiumRecommendedBody": "Bu plan pulsuz planda qeydiyyat limitini aşır\nPremium planla hər şeyi qeydiyyatdan keçirə bilərsiniz"
+  "onboardingPremiumRecommendedBody": "Bu plan pulsuz planda qeydiyyat limitini aşır\nPremium planla hər şeyi qeydiyyatdan keçirə bilərsiniz",
+  "onboardingPlanStart": "Planınıza başlayın"
 }

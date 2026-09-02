@@ -287,5 +287,6 @@
   "onboardingPlanCriticalAlert": "Critical Alert",
   "onboardingPlanCriticalAlertValue": "Ovozsiz rejimda ham bildirishnomalar",
   "onboardingPremiumRecommendedTitle": "Premium tarif tavsiya etiladi",
-  "onboardingPremiumRecommendedBody": "Bu tarif bepul tarifdagi roʻyxatdan oʻtkazish limitidan oshadi\nPremium tarifda hamma narsani roʻyxatdan oʻtkazishingiz mumkin"
+  "onboardingPremiumRecommendedBody": "Bu tarif bepul tarifdagi roʻyxatdan oʻtkazish limitidan oshadi\nPremium tarifda hamma narsani roʻyxatdan oʻtkazishingiz mumkin",
+  "onboardingPlanStart": "Rejangizni boshlang"
 }

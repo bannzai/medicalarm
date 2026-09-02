@@ -287,5 +287,6 @@
   "onboardingPlanCriticalAlert": "Critical Alert",
   "onboardingPlanCriticalAlertValue": "Ilmoitukset myös äänettömässä tilassa",
   "onboardingPremiumRecommendedTitle": "Premium-pakettia suositellaan",
-  "onboardingPremiumRecommendedBody": "Tämä paketti ylittää ilmaispaketin rekisteröintirajan\nPremium-paketilla voit rekisteröidä kaiken"
+  "onboardingPremiumRecommendedBody": "Tämä paketti ylittää ilmaispaketin rekisteröintirajan\nPremium-paketilla voit rekisteröidä kaiken",
+  "onboardingPlanStart": "Aloita suunnitelmasi"
 }

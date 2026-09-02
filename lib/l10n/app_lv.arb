@@ -287,5 +287,6 @@
   "onboardingPlanCriticalAlert": "Critical Alert",
   "onboardingPlanCriticalAlertValue": "Paziņojumi arī klusuma režīmā",
   "onboardingPremiumRecommendedTitle": "Ieteicams Premium plāns",
-  "onboardingPremiumRecommendedBody": "Šis plāns pārsniedz bezmaksas plāna reģistrācijas ierobežojumu\nIzmantojot Premium plānu, varat reģistrēt visu"
+  "onboardingPremiumRecommendedBody": "Šis plāns pārsniedz bezmaksas plāna reģistrācijas ierobežojumu\nIzmantojot Premium plānu, varat reģistrēt visu",
+  "onboardingPlanStart": "Sāciet savu plānu"
 }

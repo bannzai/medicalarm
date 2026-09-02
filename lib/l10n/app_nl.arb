@@ -287,5 +287,6 @@
   "onboardingPlanCriticalAlert": "Critical Alert",
   "onboardingPlanCriticalAlertValue": "Meldingen, zelfs in stille modus",
   "onboardingPremiumRecommendedTitle": "Het Premium-abonnement wordt aanbevolen",
-  "onboardingPremiumRecommendedBody": "Dit abonnement overschrijdt de registratielimiet van het gratis abonnement\nMet het Premium-abonnement kun je alles registreren"
+  "onboardingPremiumRecommendedBody": "Dit abonnement overschrijdt de registratielimiet van het gratis abonnement\nMet het Premium-abonnement kun je alles registreren",
+  "onboardingPlanStart": "Start je plan"
 }

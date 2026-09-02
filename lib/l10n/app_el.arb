@@ -287,5 +287,6 @@
   "onboardingPlanCriticalAlert": "Critical Alert",
   "onboardingPlanCriticalAlertValue": "Ειδοποιήσεις ακόμη και σε αθόρυβη λειτουργία",
   "onboardingPremiumRecommendedTitle": "Συνιστάται το πρόγραμμα Premium",
-  "onboardingPremiumRecommendedBody": "Αυτό το πρόγραμμα υπερβαίνει το όριο εγγραφών του δωρεάν προγράμματος\nΜε το Premium πρόγραμμα μπορείτε να καταχωρίσετε τα πάντα"
+  "onboardingPremiumRecommendedBody": "Αυτό το πρόγραμμα υπερβαίνει το όριο εγγραφών του δωρεάν προγράμματος\nΜε το Premium πρόγραμμα μπορείτε να καταχωρίσετε τα πάντα",
+  "onboardingPlanStart": "Ξεκινήστε το πλάνο σας"
 }

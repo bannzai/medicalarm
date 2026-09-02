@@ -287,5 +287,6 @@
   "onboardingPlanCriticalAlert": "Critical Alert",
   "onboardingPlanCriticalAlertValue": "התראות גם במצב שקט",
   "onboardingPremiumRecommendedTitle": "מומלץ לבחור בתוכנית Premium",
-  "onboardingPremiumRecommendedBody": "תוכנית זו חורגת ממגבלת הרישום של התוכנית החינמית\nבתוכנית Premium אפשר לרשום הכול"
+  "onboardingPremiumRecommendedBody": "תוכנית זו חורגת ממגבלת הרישום של התוכנית החינמית\nבתוכנית Premium אפשר לרשום הכול",
+  "onboardingPlanStart": "התחלת התוכנית שלך"
 }

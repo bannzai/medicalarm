@@ -287,5 +287,6 @@
   "onboardingPlanCriticalAlert": "Critical Alert",
   "onboardingPlanCriticalAlertValue": "Mga notification kahit naka-silent mode",
   "onboardingPremiumRecommendedTitle": "Inirerekomenda ang Premium plan",
-  "onboardingPremiumRecommendedBody": "Lumalagpas ang planong ito sa limitasyon ng pagpaparehistro ng libreng plano\nSa Premium plan, maaari mong irehistro ang lahat"
+  "onboardingPremiumRecommendedBody": "Lumalagpas ang planong ito sa limitasyon ng pagpaparehistro ng libreng plano\nSa Premium plan, maaari mong irehistro ang lahat",
+  "onboardingPlanStart": "Simulan ang iyong plano"
 }

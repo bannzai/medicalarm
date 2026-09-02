@@ -287,5 +287,6 @@
   "onboardingPlanCriticalAlert": "Critical Alert",
   "onboardingPlanCriticalAlertValue": "Notiser även i tyst läge",
   "onboardingPremiumRecommendedTitle": "Premiumplanen rekommenderas",
-  "onboardingPremiumRecommendedBody": "Det här abonnemanget överskrider registreringsgränsen för gratisabonnemanget\nMed Premium-abonnemanget kan du registrera allt"
+  "onboardingPremiumRecommendedBody": "Det här abonnemanget överskrider registreringsgränsen för gratisabonnemanget\nMed Premium-abonnemanget kan du registrera allt",
+  "onboardingPlanStart": "Starta din plan"
 }

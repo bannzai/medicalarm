@@ -287,5 +287,6 @@
   "onboardingPlanCriticalAlert": "Critical Alert",
   "onboardingPlanCriticalAlertValue": "Oznámenia aj v tichom režime",
   "onboardingPremiumRecommendedTitle": "Odporúčame prémiový plán",
-  "onboardingPremiumRecommendedBody": "Tento plán prekračuje registračný limit bezplatného plánu\nS plánom Premium môžete zaregistrovať všetko"
+  "onboardingPremiumRecommendedBody": "Tento plán prekračuje registračný limit bezplatného plánu\nS plánom Premium môžete zaregistrovať všetko",
+  "onboardingPlanStart": "Začať svoj plán"
 }

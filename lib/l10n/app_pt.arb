@@ -287,5 +287,6 @@
   "onboardingPlanCriticalAlert": "Critical Alert",
   "onboardingPlanCriticalAlertValue": "Notificações mesmo no modo silencioso",
   "onboardingPremiumRecommendedTitle": "Recomendamos o plano Premium",
-  "onboardingPremiumRecommendedBody": "Este plano excede o limite de registos do plano gratuito\nCom o plano Premium, pode registar tudo"
+  "onboardingPremiumRecommendedBody": "Este plano excede o limite de registos do plano gratuito\nCom o plano Premium, pode registar tudo",
+  "onboardingPlanStart": "Começar o seu plano"
 }

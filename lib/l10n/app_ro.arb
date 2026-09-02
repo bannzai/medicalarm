@@ -287,5 +287,6 @@
   "onboardingPlanCriticalAlert": "Critical Alert",
   "onboardingPlanCriticalAlertValue": "Notificări chiar și în modul silențios",
   "onboardingPremiumRecommendedTitle": "Planul Premium este recomandat",
-  "onboardingPremiumRecommendedBody": "Acest plan depășește limita de înregistrări a planului gratuit\nCu planul Premium, puteți înregistra totul"
+  "onboardingPremiumRecommendedBody": "Acest plan depășește limita de înregistrări a planului gratuit\nCu planul Premium, puteți înregistra totul",
+  "onboardingPlanStart": "Începeți planul"
 }

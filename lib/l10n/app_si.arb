@@ -287,5 +287,6 @@
   "onboardingPlanCriticalAlert": "Critical Alert",
   "onboardingPlanCriticalAlertValue": "නිහඬ ප්‍රකාරයේදී පවා දැනුම්දීම්",
   "onboardingPremiumRecommendedTitle": "Premium සැලසුම නිර්දේශ කෙරේ",
-  "onboardingPremiumRecommendedBody": "මෙම සැලසුම නොමිලේ සැලසුමේ ලියාපදිංචි සීමාව ඉක්මවයි\nPremium සැලසුම සමඟ සියල්ල ලියාපදිංචි කළ හැකිය"
+  "onboardingPremiumRecommendedBody": "මෙම සැලසුම නොමිලේ සැලසුමේ ලියාපදිංචි සීමාව ඉක්මවයි\nPremium සැලසුම සමඟ සියල්ල ලියාපදිංචි කළ හැකිය",
+  "onboardingPlanStart": "ඔබේ සැලසුම ආරම්භ කරන්න"
 }

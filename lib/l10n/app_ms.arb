@@ -287,5 +287,6 @@
   "onboardingPlanCriticalAlert": "Critical Alert",
   "onboardingPlanCriticalAlertValue": "Pemberitahuan walaupun dalam mod senyap",
   "onboardingPremiumRecommendedTitle": "Pelan Premium disyorkan",
-  "onboardingPremiumRecommendedBody": "Pelan ini melebihi had pendaftaran pelan percuma\nDengan pelan Premium, anda boleh mendaftarkan semuanya"
+  "onboardingPremiumRecommendedBody": "Pelan ini melebihi had pendaftaran pelan percuma\nDengan pelan Premium, anda boleh mendaftarkan semuanya",
+  "onboardingPlanStart": "Mulakan pelan anda"
 }

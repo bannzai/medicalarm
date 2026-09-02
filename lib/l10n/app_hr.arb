@@ -287,5 +287,6 @@
   "onboardingPlanCriticalAlert": "Critical Alert",
   "onboardingPlanCriticalAlertValue": "Obavijesti čak i u tihom načinu rada",
   "onboardingPremiumRecommendedTitle": "Preporučuje se Premium plan",
-  "onboardingPremiumRecommendedBody": "Ovaj plan premašuje ograničenje registracije besplatnog plana\nUz Premium plan možete registrirati sve"
+  "onboardingPremiumRecommendedBody": "Ovaj plan premašuje ograničenje registracije besplatnog plana\nUz Premium plan možete registrirati sve",
+  "onboardingPlanStart": "Započnite svoj plan"
 }
