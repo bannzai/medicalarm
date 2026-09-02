@@ -265,5 +265,6 @@
   "onboardingBeforeLabel": "Hittil",
   "onboardingAfterLabel": "Fra nå av",
   "onboardingBeforeItemForgot": "Jeg oppdaget at jeg hadde glemt å ta medisinen min",
-  "onboardingBeforeItemUnsure": "Jeg husker ikke om jeg tok den"
+  "onboardingBeforeItemUnsure": "Jeg husker ikke om jeg tok den",
+  "onboardingBeforeItemFamily": "Klarer ikke å holde oversikt over hele familiens medisiner"
 }

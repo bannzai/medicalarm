@@ -265,5 +265,6 @@
   "onboardingBeforeLabel": "Şimdiye kadar",
   "onboardingAfterLabel": "Bundan sonra",
   "onboardingBeforeItemForgot": "İlacımı almayı unuttuğumu fark ettim",
-  "onboardingBeforeItemUnsure": "Alıp almadığımı hatırlamıyorum"
+  "onboardingBeforeItemUnsure": "Alıp almadığımı hatırlamıyorum",
+  "onboardingBeforeItemFamily": "Tüm ailenin ilaçlarını takip edemiyorum"
 }

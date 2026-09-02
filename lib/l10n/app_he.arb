@@ -265,5 +265,6 @@
   "onboardingBeforeLabel": "עד עכשיו",
   "onboardingAfterLabel": "מעכשיו",
   "onboardingBeforeItemForgot": "שמתי לב ששכחתי לקחת את התרופה שלי",
-  "onboardingBeforeItemUnsure": "אני לא זוכר/ת אם לקחתי את זה"
+  "onboardingBeforeItemUnsure": "אני לא זוכר/ת אם לקחתי את זה",
+  "onboardingBeforeItemFamily": "לא ניתן לעקוב אחר התרופות של כל המשפחה"
 }

@@ -265,5 +265,6 @@
   "onboardingBeforeLabel": "Ata agora",
   "onboardingAfterLabel": "A partir de agora",
   "onboardingBeforeItemForgot": "Decateime de que esquecera tomar o meu medicamento",
-  "onboardingBeforeItemUnsure": "Non lembro se o tomei"
+  "onboardingBeforeItemUnsure": "Non lembro se o tomei",
+  "onboardingBeforeItemFamily": "Non podo controlar a medicación de toda a familia"
 }

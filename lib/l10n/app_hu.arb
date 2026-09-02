@@ -265,5 +265,6 @@
   "onboardingBeforeLabel": "Eddig",
   "onboardingAfterLabel": "Mostantól",
   "onboardingBeforeItemForgot": "Rájöttem, hogy elfelejtettem bevenni a gyógyszeremet",
-  "onboardingBeforeItemUnsure": "Nem emlékszem, hogy bevettem-e"
+  "onboardingBeforeItemUnsure": "Nem emlékszem, hogy bevettem-e",
+  "onboardingBeforeItemFamily": "Nem tudom nyomon követni az egész család gyógyszereit"
 }

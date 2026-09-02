@@ -265,5 +265,6 @@
   "onboardingBeforeLabel": "تاکنون",
   "onboardingAfterLabel": "از این به بعد",
   "onboardingBeforeItemForgot": "متوجه شدم که مصرف دارویم را فراموش کرده‌ام",
-  "onboardingBeforeItemUnsure": "یادم نیست آن را مصرف کرده‌ام یا نه"
+  "onboardingBeforeItemUnsure": "یادم نیست آن را مصرف کرده‌ام یا نه",
+  "onboardingBeforeItemFamily": "نمی‌توانم داروهای تمام اعضای خانواده را پیگیری کنم"
 }

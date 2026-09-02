@@ -265,5 +265,6 @@
   "onboardingBeforeLabel": "এতদিন",
   "onboardingAfterLabel": "এখন থেকে",
   "onboardingBeforeItemForgot": "বুঝতে পারলাম যে ওষুধ খেতে ভুলে গেছি",
-  "onboardingBeforeItemUnsure": "মনে নেই ওষুধটি খেয়েছি কি না"
+  "onboardingBeforeItemUnsure": "মনে নেই ওষুধটি খেয়েছি কি না",
+  "onboardingBeforeItemFamily": "পুরো পরিবারের ওষুধের হিসাব রাখতে পারি না"
 }

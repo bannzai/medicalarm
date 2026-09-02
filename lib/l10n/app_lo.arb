@@ -265,5 +265,6 @@
   "onboardingBeforeLabel": "ຈົນເຖິງຕອນນີ້",
   "onboardingAfterLabel": "ຈາກນີ້ໄປ",
   "onboardingBeforeItemForgot": "ຮູ້ຕົວວ່າລືມກິນຢາ",
-  "onboardingBeforeItemUnsure": "ຈື່ບໍ່ໄດ້ວ່າໄດ້ກິນຢາແລ້ວຫຼືຍັງ"
+  "onboardingBeforeItemUnsure": "ຈື່ບໍ່ໄດ້ວ່າໄດ້ກິນຢາແລ້ວຫຼືຍັງ",
+  "onboardingBeforeItemFamily": "ບໍ່ສາມາດຕິດຕາມການກິນຢາຂອງຄອບຄົວທັງໝົດໄດ້"
 }

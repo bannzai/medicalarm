@@ -265,5 +265,6 @@
   "onboardingBeforeLabel": "Jusqu’à présent",
   "onboardingAfterLabel": "À partir de maintenant",
   "onboardingBeforeItemForgot": "Je me suis rendu compte que j’avais oublié de prendre mon médicament",
-  "onboardingBeforeItemUnsure": "Je ne me souviens pas l’avoir pris"
+  "onboardingBeforeItemUnsure": "Je ne me souviens pas l’avoir pris",
+  "onboardingBeforeItemFamily": "Impossible de suivre les médicaments de toute la famille"
 }

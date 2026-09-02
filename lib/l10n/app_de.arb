@@ -265,5 +265,6 @@
   "onboardingBeforeLabel": "Bisher",
   "onboardingAfterLabel": "Ab jetzt",
   "onboardingBeforeItemForgot": "Ich habe bemerkt, dass ich vergessen hatte, meine Medikamente einzunehmen",
-  "onboardingBeforeItemUnsure": "Ich weiß nicht mehr, ob ich es eingenommen habe"
+  "onboardingBeforeItemUnsure": "Ich weiß nicht mehr, ob ich es eingenommen habe",
+  "onboardingBeforeItemFamily": "Kann die Medikamente der ganzen Familie nicht im Blick behalten"
 }

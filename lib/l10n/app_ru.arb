@@ -265,5 +265,6 @@
   "onboardingBeforeLabel": "До сих пор",
   "onboardingAfterLabel": "С этого момента",
   "onboardingBeforeItemForgot": "Я понял(а), что забыл(а) принять лекарство",
-  "onboardingBeforeItemUnsure": "Не помню, принял(а) ли я его"
+  "onboardingBeforeItemUnsure": "Не помню, принял(а) ли я его",
+  "onboardingBeforeItemFamily": "Не могу следить за приёмом лекарств всей семьи"
 }

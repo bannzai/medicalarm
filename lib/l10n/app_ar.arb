@@ -265,5 +265,6 @@
   "onboardingBeforeLabel": "حتى الآن",
   "onboardingAfterLabel": "من الآن فصاعدًا",
   "onboardingBeforeItemForgot": "اكتشفت أنني نسيت تناول دوائي",
-  "onboardingBeforeItemUnsure": "لا أتذكر ما إذا كنت قد تناولته"
+  "onboardingBeforeItemUnsure": "لا أتذكر ما إذا كنت قد تناولته",
+  "onboardingBeforeItemFamily": "لا أستطيع متابعة أدوية جميع أفراد العائلة"
 }

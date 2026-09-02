@@ -265,5 +265,6 @@
   "onboardingBeforeLabel": "Orain arte",
   "onboardingAfterLabel": "Hemendik aurrera",
   "onboardingBeforeItemForgot": "Konturatu naiz sendagaia hartzea ahaztu zaidala",
-  "onboardingBeforeItemUnsure": "Ez dut gogoratzen hartu dudan ala ez"
+  "onboardingBeforeItemUnsure": "Ez dut gogoratzen hartu dudan ala ez",
+  "onboardingBeforeItemFamily": "Ezin dut familia osoaren medikazioa kontrolatu"
 }

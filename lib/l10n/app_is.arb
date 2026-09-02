@@ -265,5 +265,6 @@
   "onboardingBeforeLabel": "Hingað til",
   "onboardingAfterLabel": "Héðan í frá",
   "onboardingBeforeItemForgot": "Ég áttaði mig á því að ég hafði gleymt að taka lyfið mitt",
-  "onboardingBeforeItemUnsure": "Ég man ekki hvort ég tók það"
+  "onboardingBeforeItemUnsure": "Ég man ekki hvort ég tók það",
+  "onboardingBeforeItemFamily": "Get ekki fylgst með lyfjum allrar fjölskyldunnar"
 }

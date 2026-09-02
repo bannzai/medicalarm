@@ -265,5 +265,6 @@
   "onboardingBeforeLabel": "እስካሁን",
   "onboardingAfterLabel": "ከአሁን ጀምሮ",
   "onboardingBeforeItemForgot": "መድኃኒቴን መውሰድ እንደረሳሁ ተገነዘብኩ",
-  "onboardingBeforeItemUnsure": "መውሰዴን አላስታውስም"
+  "onboardingBeforeItemUnsure": "መውሰዴን አላስታውስም",
+  "onboardingBeforeItemFamily": "የመላው ቤተሰብን መድኃኒት መከታተል አልችልም"
 }

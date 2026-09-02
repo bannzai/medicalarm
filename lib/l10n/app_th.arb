@@ -265,5 +265,6 @@
   "onboardingBeforeLabel": "จนถึงตอนนี้",
   "onboardingAfterLabel": "ตั้งแต่นี้ไป",
   "onboardingBeforeItemForgot": "เพิ่งรู้ตัวว่าลืมกินยา",
-  "onboardingBeforeItemUnsure": "จำไม่ได้ว่ากินยาไปแล้วหรือยัง"
+  "onboardingBeforeItemUnsure": "จำไม่ได้ว่ากินยาไปแล้วหรือยัง",
+  "onboardingBeforeItemFamily": "ไม่สามารถติดตามการรับประทานยาของทั้งครอบครัวได้"
 }

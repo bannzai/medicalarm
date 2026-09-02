@@ -265,5 +265,6 @@
   "onboardingBeforeLabel": "Kuze kube manje",
   "onboardingAfterLabel": "Kusukela manje",
   "onboardingBeforeItemForgot": "Ngabona ukuthi ngangikhohliwe ukuphuza umuthi wami",
-  "onboardingBeforeItemUnsure": "Angikhumbuli ukuthi ngiwuphuzile yini"
+  "onboardingBeforeItemUnsure": "Angikhumbuli ukuthi ngiwuphuzile yini",
+  "onboardingBeforeItemFamily": "Angikwazi ukulandelela imithi yomndeni wonke"
 }

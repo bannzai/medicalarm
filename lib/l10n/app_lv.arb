@@ -265,5 +265,6 @@
   "onboardingBeforeLabel": "Līdz šim",
   "onboardingAfterLabel": "No šī brīža",
   "onboardingBeforeItemForgot": "Sapratu, ka zāles nav iedzertas",
-  "onboardingBeforeItemUnsure": "Neatceros, vai to iedzēru"
+  "onboardingBeforeItemUnsure": "Neatceros, vai to iedzēru",
+  "onboardingBeforeItemFamily": "Nevaru pārraudzīt visas ģimenes medikamentu lietošanu"
 }

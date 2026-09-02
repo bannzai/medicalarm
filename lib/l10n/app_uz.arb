@@ -265,5 +265,6 @@
   "onboardingBeforeLabel": "Hozirgacha",
   "onboardingAfterLabel": "Bundan buyon",
   "onboardingBeforeItemForgot": "Dorini ichishni unutganimni angladim",
-  "onboardingBeforeItemUnsure": "Uni qabul qilganimni eslay olmayapman"
+  "onboardingBeforeItemUnsure": "Uni qabul qilganimni eslay olmayapman",
+  "onboardingBeforeItemFamily": "Butun oilaning dori-darmonlarini kuzatib bora olmayman"
 }

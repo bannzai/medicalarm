@@ -265,5 +265,6 @@
   "onboardingBeforeLabel": "Selama ini",
   "onboardingAfterLabel": "Mulai sekarang",
   "onboardingBeforeItemForgot": "Saya baru sadar bahwa saya lupa minum obat",
-  "onboardingBeforeItemUnsure": "Saya tidak ingat apakah sudah meminumnya"
+  "onboardingBeforeItemUnsure": "Saya tidak ingat apakah sudah meminumnya",
+  "onboardingBeforeItemFamily": "Tidak bisa memantau obat seluruh keluarga"
 }

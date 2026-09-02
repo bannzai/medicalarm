@@ -265,5 +265,6 @@
   "onboardingBeforeLabel": "Dosud",
   "onboardingAfterLabel": "Odteď",
   "onboardingBeforeItemForgot": "Zjistil(a) jsem, že jsem si zapomněl(a) vzít lék",
-  "onboardingBeforeItemUnsure": "Nepamatuji si, jestli jsem ho užil/a"
+  "onboardingBeforeItemUnsure": "Nepamatuji si, jestli jsem ho užil/a",
+  "onboardingBeforeItemFamily": "Nedokážu sledovat léky celé rodiny"
 }

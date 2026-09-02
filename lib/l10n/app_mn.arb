@@ -265,5 +265,6 @@
   "onboardingBeforeLabel": "Одоог хүртэл",
   "onboardingAfterLabel": "Одооноос",
   "onboardingBeforeItemForgot": "Эмээ уухаа мартсанаа мэдлээ",
-  "onboardingBeforeItemUnsure": "Уусан эсэхээ санахгүй байна"
+  "onboardingBeforeItemUnsure": "Уусан эсэхээ санахгүй байна",
+  "onboardingBeforeItemFamily": "Бүх гэр бүлийн эмийн хэрэглээг хянаж чаддаггүй"
 }

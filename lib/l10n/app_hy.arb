@@ -265,5 +265,6 @@
   "onboardingBeforeLabel": "Մինչև հիմա",
   "onboardingAfterLabel": "Այսուհետ",
   "onboardingBeforeItemForgot": "Հասկացա, որ մոռացել էի ընդունել դեղս",
-  "onboardingBeforeItemUnsure": "Չեմ հիշում՝ ընդունե՞լ եմ, թե ոչ"
+  "onboardingBeforeItemUnsure": "Չեմ հիշում՝ ընդունե՞լ եմ, թե ոչ",
+  "onboardingBeforeItemFamily": "Չեմ կարող հետևել ամբողջ ընտանիքի դեղորայքին"
 }

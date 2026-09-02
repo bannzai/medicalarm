@@ -265,5 +265,6 @@
   "onboardingBeforeLabel": "Hyd yma",
   "onboardingAfterLabel": "O hyn ymlaen",
   "onboardingBeforeItemForgot": "Sylweddolais fy mod wedi anghofio cymryd fy meddyginiaeth",
-  "onboardingBeforeItemUnsure": "Methu ddim cofio a wnes i ei gymryd"
+  "onboardingBeforeItemUnsure": "Methu ddim cofio a wnes i ei gymryd",
+  "onboardingBeforeItemFamily": "Methu gadw golwg ar feddyginiaeth y teulu cyfan"
 }

@@ -265,5 +265,6 @@
   "onboardingBeforeLabel": "Dati",
   "onboardingAfterLabel": "Mula ngayon",
   "onboardingBeforeItemForgot": "Napansin kong nakalimutan kong inumin ang gamot ko",
-  "onboardingBeforeItemUnsure": "Hindi ko maalala kung nainom ko na ito"
+  "onboardingBeforeItemUnsure": "Hindi ko maalala kung nainom ko na ito",
+  "onboardingBeforeItemFamily": "Hindi ko kayang subaybayan ang gamot ng buong pamilya"
 }

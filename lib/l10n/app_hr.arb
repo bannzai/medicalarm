@@ -265,5 +265,6 @@
   "onboardingBeforeLabel": "Dosad",
   "onboardingAfterLabel": "Od sada",
   "onboardingBeforeItemForgot": "Shvatio/la sam da sam zaboravio/la uzeti lijek",
-  "onboardingBeforeItemUnsure": "Ne sjećam se jesam li ga uzeo/la"
+  "onboardingBeforeItemUnsure": "Ne sjećam se jesam li ga uzeo/la",
+  "onboardingBeforeItemFamily": "Ne mogu pratiti lijekove cijele obitelji"
 }

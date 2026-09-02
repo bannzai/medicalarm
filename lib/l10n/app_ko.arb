@@ -265,5 +265,6 @@
   "onboardingBeforeLabel": "지금까지",
   "onboardingAfterLabel": "이제부터",
   "onboardingBeforeItemForgot": "약 먹는 것을 잊었다는 걸 깨달았어요",
-  "onboardingBeforeItemUnsure": "복용했는지 기억나지 않아요"
+  "onboardingBeforeItemUnsure": "복용했는지 기억나지 않아요",
+  "onboardingBeforeItemFamily": "가족 전체의 복약을 관리할 수 없음"
 }

@@ -265,5 +265,6 @@
   "onboardingBeforeLabel": "İndiyədək",
   "onboardingAfterLabel": "Bundan sonra",
   "onboardingBeforeItemForgot": "Dərmanımı qəbul etməyi unutduğumu fərq etdim",
-  "onboardingBeforeItemUnsure": "Onu qəbul edib-etmədiyimi xatırlamıram"
+  "onboardingBeforeItemUnsure": "Onu qəbul edib-etmədiyimi xatırlamıram",
+  "onboardingBeforeItemFamily": "Bütün ailənin dərmanlarını izləyə bilmirəm"
 }
