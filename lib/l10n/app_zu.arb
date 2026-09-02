@@ -1,783 +1,234 @@
 {
   "@@locale": "zu",
   "retry": "Phindezela",
-  "@retry": {
-    "description": "エラーが発生した際やデータの読み込みに失敗した際に、再度処理を実行するためのボタンテキスト"
-  },
   "save": "Gcina",
-  "@save": {
-    "description": "フォームやエディタで入力したデータを保存する際に使用するボタンテキスト"
-  },
   "memo": "Memorandum",
-  "@memo": {
-    "description": "服薬記録や日記などで追加情報を入力するためのテキストフィールドのプレースホルダー"
-  },
   "completed": "Qedile",
-  "@completed": {
-    "description": "フォームの入力や設定の変更などの操作が完了した際に使用するボタンテキスト"
-  },
   "medicineRegistration": "Umgqugquzelo lokubhalisela imithi",
-  "@medicineRegistration": {
-    "description": "お薬の新規登録・編集画面のタイトル"
-  },
   "medicineName": "Igama lempilo",
-  "@medicineName": {
-    "description": "お薬登録フォームでの薬の名前を入力するフィールドのプレースホルダー"
-  },
   "medicineList": "Uhlu lwezidakamizwa",
-  "@medicineList": {
-    "description": "登録されているお薬の一覧を表示する画面のタイトル"
-  },
   "medicationSchedule": "Uhlelo Lokuthatha Imithi",
-  "@medicationSchedule": {
-    "description": "服用スケジュールのセクションタイトル"
-  },
   "medicationTime": "Vula izaziso zokwabelana ngesikhathi sokuphakama",
-  "@medicationTime": {
-    "description": "服用時刻の通知設定を有効にするためのスイッチのラベル"
-  },
   "medicationTimeDescription": "Sizothumela izaziso ngokuya ngalesi sikhathi sokuthatha.",
-  "@medicationTimeDescription": {
-    "description": "服用時刻の通知設定の説明文"
-  },
   "close": "vala",
-  "@close": {
-    "description": "ダイアログやモーダルを閉じるためのボタンテキスト"
-  },
   "settings": "Izilungiselelo",
-  "@settings": {
-    "description": "設定画面のタイトル"
-  },
   "camera": "Ikhamera",
-  "@camera": {
-    "description": "カメラを起動するためのメニュー項目"
-  },
   "photoLibrary": "Igalari leMifanekiso",
-  "@photoLibrary": {
-    "description": "フォトライブラリを開くためのメニュー項目"
-  },
   "medicationHistory": "Imiphumela Yokuphila",
-  "@medicationHistory": {
-    "description": "服薬履歴を表示する画面のタイトル"
-  },
   "noMedicationHistory": "Akukho zinkumbulo zokuphatheka",
-  "@noMedicationHistory": {
-    "description": "服薬履歴が存在しない場合に表示するメッセージ"
-  },
   "scheduledTime": "Isikhathi esihleliwe",
-  "@scheduledTime": {
-    "description": "服薬予定時刻のラベル"
-  },
   "recordedTime": "Isikhathi sokurekhoda",
-  "@recordedTime": {
-    "description": "実際に服薬を記録した時間のラベル"
-  },
   "noMemo": "Ayikho imemo",
-  "@noMemo": {
-    "description": "メモが存在しない場合に表示するテキスト"
-  },
   "premiumPlan": "Iphakheji yePremium",
-  "@premiumPlan": {
-    "description": "プレミアムプランの名称"
-  },
   "premiumFeatureAds": "Ukufihla izikhangiso",
-  "@premiumFeatureAds": {
-    "description": "プレミアム機能の広告非表示の説明"
-  },
   "premiumFeatureHistory": "Bonke umlando wokusebenzisa",
-  "@premiumFeatureHistory": {
-    "description": "プレミアム機能の履歴表示の説明"
-  },
   "premiumRegistrationComplete": "Ukwazisa kwe-Medicalarm kuphumelele",
-  "@premiumRegistrationComplete": {
-    "description": "プレミアム登録完了時のタイトル"
-  },
   "premiumRegistrationThanks": "Ngiyabonga ngokubhalisela. \nZonke izici seziyatholakala!",
-  "@premiumRegistrationThanks": {
-    "description": "プレミアム登録完了時のメッセージ"
-  },
   "unknownError": "Kwenzeka iphutha engaziwa",
-  "@unknownError": {
-    "description": "予期せぬエラーが発生した際のエラーメッセージ"
-  },
   "error": "Kwenzekile iphutha.",
-  "@error": {
-    "description": "一般的なエラーメッセージ"
-  },
   "unexpectedError": "Iphutha elingalindelekile lenzekile.",
-  "@unexpectedError": {
-    "description": "予期せぬエラーが発生した際のエラーメッセージ"
-  },
   "cancel": "Khansela",
-  "@cancel": {
-    "description": "操作をキャンセルするためのボタンテキスト"
-  },
   "delete": "Susa",
-  "@delete": {
-    "description": "削除操作を実行するためのボタンテキスト"
-  },
   "deleteAccount": "Susa i-akhawunti",
-  "@deleteAccount": {
-    "description": "アカウント削除ボタンのテキスト"
-  },
   "deleteAccountConfirm": "Susa ulwazi lomsebenzisi",
-  "@deleteAccountConfirm": {
-    "description": "アカウント削除確認ダイアログのタイトル"
-  },
   "deleteAccountMessage": "Uma umahluko uzoqedwa, yonke imininingwane yomsebenzisi izosulwa.",
-  "@deleteAccountMessage": {
-    "description": "アカウント削除確認ダイアログのメッセージ"
-  },
   "medicationFrequency": "I-frequency",
-  "@medicationFrequency": {
-    "description": "服用頻度の設定セクションのタイトル"
-  },
   "daily": "nsukuzayo",
-  "@daily": {
-    "description": "毎日服用する頻度設定"
-  },
   "everyXDays": "Ngày X",
-  "@everyXDays": {
-    "description": "X日ごとに服用する頻度設定"
-  },
   "specificWeekdays": "usuku oluthile",
-  "@specificWeekdays": {
-    "description": "特定の曜日に服用する頻度設定"
-  },
   "cycle": "Isikhathi",
-  "@cycle": {
-    "description": "周期で服用する頻度設定"
-  },
   "cycleDescription": "isigaba sokuqala/7 usuku lokuphumula",
-  "@cycleDescription": {
-    "description": "周期での服用頻度の説明文"
-  },
   "everyXDaysDescription": "isikhathi sokuthatha imithi njalo emavikini amabili, njalo emavikini amathathu",
-  "@everyXDaysDescription": {
-    "description": "X日ごとの服用頻度の説明文"
-  },
   "specificWeekdaysDescription": "isibonelo) NgoMsombuluko kuphela, UMsombuluko noMgqibelo",
-  "@specificWeekdaysDescription": {
-    "description": "特定の曜日の服用頻度の説明文"
-  },
   "medicineFormValidationError": "Sicela ufake igama nenguqulo yokusebenzisa.",
-  "@medicineFormValidationError": {
-    "description": "お薬登録フォームでの入力バリデーションエラーメッセージ"
-  },
   "quantity": "Umthamo",
-  "@quantity": {
-    "description": "服用量を入力するフィールドのラベル"
-  },
   "quantityExample": "isibonelo: 1 ithablethi, 100mg",
-  "@quantityExample": {
-    "description": "服用量入力フィールドのプレースホルダー"
-  },
   "medicationStartDate": "Usuku lokuqala lokudlula",
-  "@medicationStartDate": {
-    "description": "服用開始日を選択するフィールドのラベル"
-  },
   "otherInformation": "Kweminye",
-  "@otherInformation": {
-    "description": "その他の情報を入力するセクションのタイトル"
-  },
   "doseReceiver": "Umthathisi",
-  "@doseReceiver": {
-    "description": "服用者を選択するフィールドのラベル"
-  },
   "defaultDoseReceiver": "mina",
-  "@defaultDoseReceiver": {
-    "description": "デフォルトの服用者名"
-  },
   "doseReceiverMaxCount": "Abasebenzisi bangabhalisela abantu abangama{count} kuphela.",
-  "@doseReceiverMaxCount": {
-    "description": "服用者の最大登録数を表示するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "2"
-      }
-    }
-  },
   "increaseLimitWithPremium": "Phakela phezulu ku-premium plan ukuze wandise umkhawulo u-{count}",
-  "@increaseLimitWithPremium": {
-    "description": "プレミアムプランでの上限増加を案内するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "10"
-      }
-    }
-  },
   "addDoseReceiver": "Faka umsebenzisi",
-  "@addDoseReceiver": {
-    "description": "服用者を追加するボタンのテキスト"
-  },
   "newDoseReceiver": "Umsebenzisi omusha",
-  "@newDoseReceiver": {
-    "description": "新規追加時のデフォルトの服用者名"
-  },
   "reloginRequired": "Sicela ungene kabusha",
-  "@reloginRequired": {
-    "description": "アカウント削除時に再ログインが必要な場合のダイアログタイトル"
-  },
   "reloginMessage": "Ukukhansela i-akhawunti, sicela ungene ngemvume futhi.",
-  "@reloginMessage": {
-    "description": "アカウント削除時の再ログイン要求メッセージ"
-  },
   "relogin": "Phinda ungene",
-  "@relogin": {
-    "description": "再ログインを実行するためのボタンテキスト"
-  },
   "accountDeleted": "Ubugcino bugcina balukhuni",
-  "@accountDeleted": {
-    "description": "アカウント削除完了時のメッセージ"
-  },
   "confirmExit": "Uyayeka uhlelo lokusebenza?",
-  "@confirmExit": {
-    "description": "アプリ終了確認のメッセージ"
-  },
   "exit": "Qeda",
-  "@exit": {
-    "description": "アプリを終了するためのボタンテキスト"
-  },
   "viewFaq": "Bheka i-FAQ",
-  "@viewFaq": {
-    "description": "FAQページを表示するためのボタンテキスト"
-  },
   "medicine": "Imithi",
-  "@medicine": {
-    "description": "お薬タブのタイトル"
-  },
   "inquiry": "Xhumana",
-  "@inquiry": {
-    "description": "お問い合わせボタンのテキスト"
-  },
   "ok": "Kuhle",
-  "@ok": {
-    "description": "確認ダイアログのOKボタンのテキスト"
-  },
   "medicationScheduleLimit": "Ungqongqoshe lokuphathwa kwezokwelapha lungabhaliswa izikhumbuzo zokuthatha imithi eziyi{count}.",
-  "@medicationScheduleLimit": {
-    "description": "服用スケジュールの登録上限を表示するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "3"
-      }
-    }
-  },
   "increaseMedicationScheduleLimit": "Khuphula umkhawulo ku-{count} ngephakheji ye-Premium",
-  "@increaseMedicationScheduleLimit": {
-    "description": "服用スケジュールの上限をプレミアムプランで増やすことを案内するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "10"
-      }
-    }
-  },
   "addMedicationSchedule": "Faka amandla uhlelo lokusebenzisa",
-  "@addMedicationSchedule": {
-    "description": "服用スケジュールを追加するボタンのテキスト"
-  },
   "medicationScheduleNotificationSetting": "Izilungiselelo zokusazisa ngesikhathi sokuthatha imishanguzo",
-  "@medicationScheduleNotificationSetting": {
-    "description": "服用スケジュールの通知設定画面のタイトル"
-  },
   "notificationSetting": "Ukucushwa kwezaziso",
-  "@notificationSetting": {
-    "description": "通知設定セクションのタイトル"
-  },
   "enableFollowupNotification": "Vula izaziso zokulandela",
-  "@enableFollowupNotification": {
-    "description": "フォローアップ通知を有効にするスイッチのラベル"
-  },
   "followupNotificationDescription": "Uma i-Notification yokulandela izothunyelwa uma ungakabhalisi ukuthatha imithi phakathi kuka-30 imizuzu kusukela i-Notification yokuqala.",
-  "@followupNotificationDescription": {
-    "description": "フォローアップ通知の説明文"
-  },
   "enableNotificationInSilentMode": "Vula izaziso ngisho uma kusemodeshi yokuthula",
-  "@enableNotificationInSilentMode": {
-    "description": "マナーモード時の通知を有効にするスイッチのラベル"
-  },
   "silentModeNotificationDescription": "Izaziso ezisemqoka zikhonjiswa esikrinini se-lock nangesikhathi imodi yokugxila ivuliwe noma umshini uvumile.",
-  "@silentModeNotificationDescription": {
-    "description": "マナーモード時の通知の説明文"
-  },
   "everyXDaysFormat": "{count} ngosuku",
-  "@everyXDaysFormat": {
-    "description": "X日ごとの服用頻度を表示する際のフォーマット",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "2"
-      }
-    }
-  },
   "cycleDaysFormat": "{consecutiveDays} usuku sebenzisa/{restDays} usuku ukuphumula",
-  "@cycleDaysFormat": {
-    "description": "服用周期を表示する際のフォーマット",
-    "placeholders": {
-      "consecutiveDays": {
-        "type": "int",
-        "example": "21"
-      },
-      "restDays": {
-        "type": "int",
-        "example": "7"
-      }
-    }
-  },
   "consecutiveDaysFormat": "{count} izinsuku zokusebenzisa",
-  "@consecutiveDaysFormat": {
-    "description": "連続服用日数を表示する際のフォーマット",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "21"
-      }
-    }
-  },
   "restDaysFormat": "{count} usuku sokuphumula",
-  "@restDaysFormat": {
-    "description": "休薬日数を表示する際のフォーマット",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "7"
-      }
-    }
-  },
   "limitedTimeDiscount": "Manje ungu- premium plan yokukhokha elinganiselwe engapheli.",
-  "@limitedTimeDiscount": {
-    "description": "プレミアムプランの限定価格キャンペーンを案内するメッセージ"
-  },
   "monthlyPlan": "uHlelo lweNyanga",
-  "@monthlyPlan": {
-    "description": "月額プランの名称"
-  },
   "annualPlan": "Uhlelo lweNyanga",
-  "@annualPlan": {
-    "description": "年額プランの名称"
-  },
   "weeklyPlan": "uHlelo lweviki",
-  "@weeklyPlan": {
-    "description": "週額プランの名称"
-  },
   "premiumRequired": "Le ukhetho lwephakethe yePremium lutholakala lapho ungena ngemvume.",
-  "@premiumRequired": {
-    "description": "プレミアムプラン加入が必要な機能へのアクセス時のメッセージ"
-  },
   "medication": "Ukuphatha imithi",
-  "@medication": {
-    "description": "服薬タブのタイトル"
-  },
   "history": "Imibhalo",
-  "@history": {
-    "description": "履歴タブのタイトル"
-  },
+  "calendar": "Ikhalenda",
+  "diary": "Idayari",
+  "writeDiary": "Bhala idayari",
+  "editDiaryTooltip": "Hlela idayari",
   "medicineRegistrationLimit": "Inombolo yokubhaliswa kwemithi",
-  "@medicineRegistrationLimit": {
-    "description": "薬の登録数の上限を説明するテキストの一部"
-  },
   "doseReceiverRegistrationLimit": "Inani yokubhaliswa kwabathathi bamakhemikhali",
-  "@doseReceiverRegistrationLimit": {
-    "description": "服用者の登録数の上限を説明するテキストの一部"
-  },
   "notificationScheduleLimit": "Inani yesikhumbuzo sokuhlelwa",
-  "@notificationScheduleLimit": {
-    "description": "通知スケジュールの上限を説明するテキストの一部"
-  },
   "addMedicine": "Faka elixir",
-  "@addMedicine": {
-    "description": "お薬を追加するボタンのテキスト"
-  },
   "medicineMaxCount": "Ungaphezulu kwemithi {count} ungayibhalisa.",
-  "@medicineMaxCount": {
-    "description": "お薬の最大登録数を表示するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "5"
-      }
-    }
-  },
   "increaseMedicineLimitWithPremium": "Phakanyiswa uhlelo lwe-Premium ukuze wandise umkhawulo ukuze u-{count}",
-  "@increaseMedicineLimitWithPremium": {
-    "description": "お薬の登録上限をプレミアムプランで増やすことを案内するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "10"
-      }
-    }
-  },
   "aboutApp": "Mayelana ne-app",
-  "@aboutApp": {
-    "description": "アプリについてのセクションタイトル"
-  },
   "viewPremiumPlan": "Buka uHlelo lwePremium",
-  "@viewPremiumPlan": {
-    "description": "プレミアムプランの詳細を表示するためのボタンテキスト"
-  },
   "cancelSubscriptionInstruction": "Ngemuva kokuthenga, ungayeka ukuvuselelwa ngokuzenzakalela ezilungiselelweni ze-akhawunti ye-{storeName} app. (Ungakwazi ukuhoxisa ukuvuselelwa okuzenzakalelayo ngaphakathi kwesoftware.)",
-  "@cancelSubscriptionInstruction": {
-    "description": "自動更新の解約方法の説明",
-    "placeholders": {
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "headache": "Ikhanda",
-  "@headache": {
-    "description": "症状の選択肢：頭痛"
-  },
   "stomachache": "Ubuhlungu bendle",
-  "@stomachache": {
-    "description": "症状の選択肢：腹痛"
-  },
   "nausea": "ukuthukuthela",
-  "@nausea": {
-    "description": "症状の選択肢：吐き気"
-  },
   "anemia": "ughaq",
-  "@anemia": {
-    "description": "症状の選択肢：貧血"
-  },
   "diarrhea": "ukuhlanza",
-  "@diarrhea": {
-    "description": "症状の選択肢：下痢"
-  },
   "constipation": "ukuhlupheka",
-  "@constipation": {
-    "description": "症状の選択肢：便秘"
-  },
   "hotFlash": "ukushisa",
-  "@hotFlash": {
-    "description": "症状の選択肢：ほてり"
-  },
   "drowsiness": "ukulala",
-  "@drowsiness": {
-    "description": "症状の選択肢：眠気"
-  },
   "backPain": "Ubuhlungu bendololwane",
-  "@backPain": {
-    "description": "症状の選択肢：腰痛"
-  },
   "palpitation": "ukuphazamiseka komoya",
-  "@palpitation": {
-    "description": "症状の選択肢：動悸"
-  },
   "abnormalBleeding": "ukuphuma kwezitho",
-  "@abnormalBleeding": {
-    "description": "症状の選択肢：不正出血"
-  },
   "lossOfAppetite": "ukudlalwa kokudla",
-  "@lossOfAppetite": {
-    "description": "症状の選択肢：食欲不振"
-  },
   "chestTightness": "Ukuphuma kwesifuba",
-  "@chestTightness": {
-    "description": "症状の選択肢：胸の張り"
-  },
   "insomnia": "ukungaphumuli",
-  "@insomnia": {
-    "description": "症状の選択肢：不眠"
-  },
   "monthlyPlanDiscountFormat": "{percent}% UKHISHO ukusuka ephetheni yenyanga",
-  "@monthlyPlanDiscountFormat": {
-    "description": "月額プランからの割引率を表示するフォーマット",
-    "placeholders": {
-      "percent": {
-        "type": "int",
-        "example": "50"
-      }
-    }
-  },
   "purchaseErrorUnknown": "Kukhona iphutha elingaziwa okwamanje. Sicela ulinde kancane bese uzama futhi. Uma kungakabi khona isixazululo, sicela uxhumane nathi ngokusebenzisa Izilungiselelo > Xhumana nathi. Imininingwane: {message}",
-  "@purchaseErrorUnknown": {
-    "description": "購入時の不明なエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorStoreProblem": "Kukhona iphutha ku-{storeName}. Sicela ulinde umzuzu bese uzama futhi.",
-  "@purchaseErrorStoreProblem": {
-    "description": "ストアでのエラーメッセージ",
-    "placeholders": {
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "purchaseErrorInvalidPayment": "Ukuphatha kwezezimali kwehluleka. Sicela uqinisekise ukuthi indlela yokukhokha iyasebenza, bese uzama futhi.",
-  "@purchaseErrorInvalidPayment": {
-    "description": "支払い方法が無効な場合のエラーメッセージ"
-  },
   "purchaseErrorProductUnavailable": "Le phakheji engamukeliwa okwamanje ayithengiswa. Siyacela ukuthi uqale kabusha uhlelo lokusebenza bese uzama futhi.",
-  "@purchaseErrorProductUnavailable": {
-    "description": "商品が利用できない場合のエラーメッセージ"
-  },
   "purchaseErrorAlreadyPurchased": "Usukhumbula ukuthi usuthenge iphakheji. Uma uhlela ukuvuselela imininingwane yokuthenga kule ndawo, sicela uthinte \"Abathenge phambilini nansi.\" ukuze uvuselele imininingwane yokuthenga.",
-  "@purchaseErrorAlreadyPurchased": {
-    "description": "すでに購入済みの場合のエラーメッセージ"
-  },
   "purchaseErrorReceiptInUse": "Uthengela ngaphambili. Ulwazi lokuthenga lusetshenziswa omunye umsebenzisi. Sicela uhlole {accountName}.",
-  "@purchaseErrorReceiptInUse": {
-    "description": "購入情報が他のユーザーで使用されている場合のエラーメッセージ",
-    "placeholders": {
-      "accountName": {
-        "type": "String",
-        "example": "Apple ID"
-      }
-    }
-  },
   "purchaseErrorInvalidReceipt": "Lolu ulwazi lokuthenga alusemthethweni. Sicela uqinisekise ulwazi lokuthenga.",
-  "@purchaseErrorInvalidReceipt": {
-    "description": "購入情報が無効な場合のエラーメッセージ"
-  },
   "purchaseErrorMissingReceipt": "Azikho izinkcukacha zomthengi. Sicela ungene kwi-device yakho usebenzisa {accountName} ukuze uzame.",
-  "@purchaseErrorMissingReceipt": {
-    "description": "購入情報が見つからない場合のエラーメッセージ",
-    "placeholders": {
-      "accountName": {
-        "type": "String",
-        "example": "Apple ID"
-      }
-    }
-  },
   "purchaseErrorNetwork": "Isimo senethiwekhi asiqinile. Sicela uhlole isimo sokuxhumana ngaphambi kokuzama.",
-  "@purchaseErrorNetwork": {
-    "description": "ネットワークエラーの場合のエラーメッセージ"
-  },
   "purchaseNotAllowed": "Le ukuthenga kule divayisi akuvumelekile.",
-  "@purchaseNotAllowed": {
-    "description": "デバイスでの購入が許可されていない場合のエラーメッセージ"
-  },
   "purchaseErrorInvalidCredentials": "Thengiso abelwanga. Ngicela uzame futhi emva kwesikhashana. Uma ingaxazululeki, sicela uxhumane nathi ngokusebenzisa Izilungiselelo > Ukuxhumana. Imininingwane: {message}",
-  "@purchaseErrorInvalidCredentials": {
-    "description": "認証情報が無効な場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorUnexpectedBackend": "Okwamanje awukwazi ukwenza ukuthenga. Sicela uphumule kancane bese uzama futhi. Uma inkinga ingaxazululeki, sicela uxhumane nathi ngezinketho > Xhumana. Imininingwane: {message}",
-  "@purchaseErrorUnexpectedBackend": {
-    "description": "バックエンドで予期せぬエラーが発生した場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorOperationInProgress": "Ukunyakaza ukuthengwa kuphakathi kokuphathwa. Sicela ufake isikhathi futhi uphephe isigaba sokukhipha.",
-  "@purchaseErrorOperationInProgress": {
-    "description": "購入処理が既に進行中の場合のエラーメッセージ"
-  },
   "purchaseErrorInsufficientPermissions": "U {accountName} akhawulelwe ukufaka isicwangciso. Sicela uqinisekise ulwazi lokukhokha bese uzama futhi.",
-  "@purchaseErrorInsufficientPermissions": {
-    "description": "権限が不足している場合のエラーメッセージ",
-    "placeholders": {
-      "accountName": {
-        "type": "String",
-        "example": "Apple ID"
-      }
-    }
-  },
   "purchaseErrorPaymentPending": "Ukukhokha kuhlelwe. Sicela uqinisekise {storeName} ngalesi sikhathi se-akhawunti {accountName} esilogwini.",
-  "@purchaseErrorPaymentPending": {
-    "description": "支払いが保留中の場合のエラーメッセージ",
-    "placeholders": {
-      "accountName": {
-        "type": "String",
-        "example": "Apple ID"
-      },
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "premiumUserThanksTitle": "Ngum member yePremium",
-  "@premiumUserThanksTitle": {
-    "description": "プレミアムユーザーへの感謝を示すタイトル"
-  },
   "premiumUserThanksMessage": "Ngiyabonga ngokusebenzisa i-app yethu. Ngenxa yenu, sikwazile ukuqhubeka nokusebenzisa iMedicalarm.",
-  "@premiumUserThanksMessage": {
-    "description": "プレミアムユーザーへの感謝メッセージ"
-  },
   "premiumPricePerMonth": "(R {price}/inyanga)",
-  "@premiumPricePerMonth": {
-    "description": "月額料金の表示フォーマット",
-    "placeholders": {
-      "price": {
-        "type": "String",
-        "example": "¥500"
-      }
-    }
-  },
   "premiumCancelDescription": "Ngemuva kokuthenga, ungayeka ukuvuselela ngokuzenzakalelayo kuzilungiselelo ze-akhawunti ye-{storeName} app. (Akukwazi ukwehla ukuvuselelwa ngokuzenzakalelayo kusuka ngaphakathi kwesoftware).",
-  "@premiumCancelDescription": {
-    "description": "プレミアムプランの解約方法の説明",
-    "placeholders": {
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "purchaseErrorRestoreFailed": "Awukho ulwazi lokuthenga olwandulele. Sicela uqinisekise i-akhawunti yakho bese uzama futhi.",
-  "@purchaseErrorRestoreFailed": {
-    "description": "購入情報の復元に失敗した場合のエラーメッセージ"
-  },
   "purchaseErrorUserNotFound": "Umsebenzisi akakwazi ukusithola. Sicela uqale kabusha uhlelo lokusebenza bese uzama futhi. Imininingwane: {message}",
-  "@purchaseErrorUserNotFound": {
-    "description": "ユーザーが見つからない場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorActivationPending": "Ukusebenza kokukhokhela akukapheli. Sicela uqinisekise kamuva.",
-  "@purchaseErrorActivationPending": {
-    "description": "課金の有効化が完了していない場合のエラーメッセージ"
-  },
   "purchaseErrorTimeout": "kwesikhathi sekuphumula kulindelekile. Sicela uqinisekise indawo yokuxhumana ngaphambi kokuzama futhi. Uma kungaxazululwa, sicela uthumele okuthunyelwe kusetshenziswa Izilungiselelo > Ukuxhumana. Imininingwane: {message}",
-  "@purchaseErrorTimeout": {
-    "description": "購入処理がタイムアウトした場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorNetworkError": "Kukhona iphutha lokuxhumana. Sicela uqinisekise ukuthi imvelo yokuxhumana iyavuma bese uzama futhi. Uma lokhu kungaxazululeki, sicela uthintane nathi ngalesi sixhumanisi: Izilungiselelo > Ukuxhumana. Imininingwane: {message}",
-  "@purchaseErrorNetworkError": {
-    "description": "ネットワークエラーが発生した場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "sixMonthPlan": "uHlelo lweNyanga eziyi-6",
-  "@sixMonthPlan": {
-    "description": "6ヶ月プランの表示名"
-  },
   "premiumContractPeriod": "Isikhathi sokuvumelana si-Premium siqala ezinsukwini ezingu-30 kusukela ngosuku lokuthenga.",
-  "@premiumContractPeriod": {
-    "description": "プレミアムプランの契約期間の説明"
-  },
   "privacyPolicy": "uMthetho Wobumfihlo",
-  "@privacyPolicy": {
-    "description": "プライバシーポリシーのリンクテキスト"
-  },
   "termsOfService": "imigomo yokusebenzisa",
-  "@termsOfService": {
-    "description": "利用規約のリンクテキスト"
-  },
   "specifiedCommercialTransactionAct": " ukubekwa kwemigomo yeMithetho Yokuhweba Ethile",
-  "@specifiedCommercialTransactionAct": {
-    "description": "特定商取引法に基づく表記のリンクテキスト"
-  },
   "confirmBeforeRegistration": "Sicela uqinisekise lokhu bese ubhalisela i-akhawunti.",
-  "@confirmBeforeRegistration": {
-    "description": "各種規約確認を促すメッセージ"
-  },
   "autoRenewalNotice": "Ngemuva kwesikhathi sokuphumelela, kuzoba nokuvuselelwa ngokuzenzakalelayo.",
-  "@autoRenewalNotice": {
-    "description": "自動更新に関する注意事項"
-  },
   "restorePurchase": "Ngabe uthenge ngaphambili, hamba lapha",
-  "@restorePurchase": {
-    "description": "購入情報の復元リンクのテキスト"
-  },
   "purchaseRestored": "Ubuyiswe ulwazi lokuthenga.",
-  "@purchaseRestored": {
-    "description": "購入情報の復元が完了した際のメッセージ"
-  },
   "medicationTimeFollowup": "Ukulandela isikhathi sokuthola umuthi",
-  "@medicationTimeFollowup": {
-    "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
-  },
   "updateRequired": "Iya, udinga ukuthuthukiswa",
-  "@updateRequired": {
-    "description": "強制アップデートが必要な場合のダイアログタイトル"
-  },
   "updateRequiredMessage": "Sicela uvuselele ku-{storeName} ukuze uthole inguqulo yakamuva.",
-  "@updateRequiredMessage": {
-    "description": "強制アップデートが必要な場合のダイアログメッセージ",
-    "placeholders": {
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "screenshotMedicationHistoriesMemo": "Ngizidle kakhulu ngesikhathi sokuphumula okukhulu ngakho isikhathi sokuthatha imithi sihamba phambili.",
-  "@screenshotMedicationHistoriesMemo": {
-    "description": "薬のメモの例"
-  },
   "screenshotMedicationDoserReceiver1": "mngane",
-  "@screenshotMedicationDoserReceiver1": {
-    "description": "薬の服用者の例"
-  },
   "screenshotMedicationDoserReceiver2": "UManaka",
-  "@screenshotMedicationDoserReceiver2": {
-    "description": "薬の服用者の例"
-  },
   "screenshotMedicationQuontityMemo1": "1 tablet",
-  "@screenshotMedicationQuontityMemo1": {
-    "description": "薬の服用量の例"
-  },
   "screenshotMedicationQuontityMemo2": "2 amakhambi",
-  "@screenshotMedicationQuontityMemo2": {
-    "description": "薬の服用量の例"
-  },
   "screenshotMedicationName1": "Iphilisi ye-hlabo",
-  "@screenshotMedicationName1": {
-    "description": "薬の名前の例"
-  },
   "screenshotMedicationName2": "I-Vitamin",
-  "@screenshotMedicationName2": {
-    "description": "薬の名前の例"
-  },
   "notificationTitle": "Ithuba lokuthola imithi",
-  "@notificationTitle": {
-    "description": "薬の通知のタイトル"
-  },
   "notificationFollowupTitle": "Ingabe uwashiyanga amakhono okuphuziswa? ",
-  "@notificationFollowupTitle": {
-    "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
-  },
   "recommendedApp": "Izinhlelo eziphakanyisiwe",
-  "@recommendedApp": {
-    "description": "おすすめアプリのタイトル"
-  },
   "pilllIntroduction": "Ingabe lokhu kungokuphathwa kwepils? Kungani ungayiqhuba kahle ekuphatheni ukusetshenziswa kwepills?",
-  "@pilllIntroduction": {
-    "description": "ピルの管理の紹介"
-  },
   "installPilll": "Faka i-Pilll",
-  "@installPilll": {
-    "description": "Pilllをインストールするボタンのテキスト"
-  },
   "criticalAlertVolume": "Ithente yokukhumbuza",
-  "@criticalAlertVolume": {
-    "description": "緊急通知の音量の表示名"
-  }
+  "specialGift": "🎉 Isipho esikhethekile 🎉",
+  "freePremiumTrialDays": "Uzonikezwa isikhathi sesilingo samahhala sezinsuku ezingu-{count}!",
+  "welcomeToMedicalarm": "Siyakwamukela ku-Medicalarm!",
+  "writeReviewFor5StarPromotion": "Bhala isilingan izinkanyezi ezi-5 nombono wakho ku-App Store ukuze uzame izici ze-premium mahhala izinsuku ezingu-{count}!",
+  "rating5StarsEncouragement": "Isilinganiso sakho sezinkanyezi ezingu-★5 siyisikhuthazo esikhulu kubathuthukisi.\nSisekele ukuze sakhe uhlelo lokusebenza olungcono nakakhulu!",
+  "noAutoCharge": "Ngeke ukhokhiswe ngokuzenzakalelayo. Ngemva kokuphela kwesikhathi sesivivinyo, uzobuyela ngokuzenzakalelayo ohlelweni lwamahhala.",
+  "write5StarReview": "Bhala isibuyekezo sezinkanyezi ezi-5",
+  "receiveReward": "Thola umvuzo",
+  "notNow": "Hhayi manje",
+  "openAppStore": "Vula i-App Store",
+  "confirmOpenAppStore": "Ungathanda ukuvula i-App Store ukuze ubhale isibuyekezo?",
+  "premiumFeaturesList": "Uhlu lwezici ze-premium",
+  "currentlyInPremiumTrial": "Okwamanje usekusesikhathini sesilingo se-Premium.",
+  "medicationPause": "Vumela umuthi",
+  "medicationPauseDescription": "Uma kuvalwa, izokhishwa esikrinini semithi nasezazisweni.",
+  "medicinePausedSnackbar": "Ukuphuza umuthi kumisiwe okwesikhashana",
+  "medicationHistoryDeletedSnackbar": "Irekhodi lokuphuza umuthi lihoxisiwe",
+  "undo": "Hlehlisa",
+  "medicationHistoryReverted": "Ukukhanselwa kwerekhodi lokuphuza umuthi",
+  "revertedTime": "Isikhathi sokukhansela",
+  "revertedByMember": "{name} ukhansele",
+  "medicationTakenAtLabel": "Iphuzwe ngo-{time}",
+  "medicineResumedSnackbar": "Ukuqaliswe kabusha ukuphuza umuthi",
+  "medicineEditTooltip": "Hlela umuthi",
+  "groups": "Amaqembu",
+  "groupManagement": "Ukuphathwa kwamaqembu",
+  "createGroup": "Dala iqembu",
+  "groupName": "Igama leqembu",
+  "groupNameInputHint": "Faka igama leqembu",
+  "groupIcon": "Isithonjana",
+  "groupMemberCount": "{count} amalungu",
+  "defaultGroupBadge": "Okuzenzakalelayo",
+  "soloGroupName": "Amaqembu ami",
+  "joinWithInvitationCode": "Joyina ngekhodi yesimemo",
+  "groupCreationLimitReached": "Awusakwazi ukudala amanye amaqembu ohlelweni lwamahhala.",
+  "increaseGroupLimitWithPremium": "Dala amanye amaqembu ngohlelo lwe-Premium",
+  "invitationCode": "Ikhodi yesimemo",
+  "invitationCodeShareDescription": "Yabelana ngale khodi ukuze umeme amalungu",
+  "invitationCodeExpiresAt": "Kuphelelwa yisikhathi: {date}",
+  "copyInvitationCode": "Kopisha ikhodi",
+  "invitationCodeCopied": "Ikhodi yesimemo ikopishiwe",
+  "issueInvitationCode": "Dala ikhodi yesimemo",
+  "groupSettings": "Izilungiselelo zeqembu",
+  "members": "Amalungu",
+  "memberFallbackName": "Ilungu",
+  "yourDisplayName": "Igama lakho lokubonisa",
+  "displayNameInputHint": "Faka igama eliboniswayo",
+  "ownerLabel": "Umnikazi",
+  "youLabel": "Wena",
+  "removeMemberConfirmTitle": "Uyafuna ukususa ilungu?",
+  "removeMemberConfirmMessage": "Susa u-{name} eqenjini",
+  "joinGroup": "Joyina iqembu",
+  "invitationCodeInputLabel": "Ikhodi yesimemo (izinhlamvu ezingu-8)",
+  "invitationCodeInputHint": "Faka ikhodi enezinhlamvu eziyi-8",
+  "join": "Joyina",
+  "recordedByMember": "Kuqoshwe ngu-{name}",
+  "accountLink": "Ukudluliselwa kwe-akhawunti",
+  "accountLinkDescription": "Ngokuxhumanisa ne-Apple noma ne-Google, ungadlulisela idatha yakho ngisho nangemva kokushintsha idivayisi noma ukufaka kabusha uhlelo lokusebenza。",
+  "linkWithApple": "Dlulisela i-akhawunti nge-Apple",
+  "linkWithGoogle": "Dlulisela i-akhawunti nge-Google",
+  "accountLinkedWithApple": "Ixhunywe ne-Apple",
+  "accountLinkedWithGoogle": "Kuxhunywe ku-Google",
+  "accountLinkedSnackbar": "I-akhawunti idlulisiwe",
+  "accountLinkBannerText": "Ngesikhathi wabelana ngeqembu, sincoma kakhulu ukuthi usethe ukudluliswa kwe-akhawunti.",
+  "minimumDoseInterval": "Isikhawu phakathi kwemithamo",
+  "minimumDoseIntervalDescription": "Isikhathi esincane phakathi kwemithamo kusukela emthamo odlule",
+  "minimumDoseIntervalNone": "Akukho",
+  "minimumDoseIntervalHoursFormat": "Okungenani amahora angu-{hours}",
+  "doseIntervalWarningTitle": "Isikhawu esidingekayo phakathi kwemithamo asikapheli",
+  "doseIntervalWarningMessage": "Usuwuthathile lo muthi ngo-{latestTakeTime}. Izilungiselelo zidinga ukuthi kube nesikhawu okungenani esingu-{minimumDoseIntervalHours} amahora phakathi kwemithamo. Usafuna ukukurekhoda?",
+  "doseIntervalWarningTakeAnyway": "Qopha",
+  "doseIntervalNotificationWarning": "⚠️ Akukadluleki amahora angu-{minimumDoseIntervalHours} kusukela ekuphuzeni umthamo wokugcina",
+  "ossLicense": "Amalayisense e-OSS"
 }

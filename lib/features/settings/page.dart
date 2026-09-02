@@ -9,6 +9,7 @@ import 'package:medicalarm/features/settings/components/premium_introduction.dar
 import 'package:medicalarm/features/settings/components/section.dart';
 import 'package:medicalarm/style/color.dart';
 import 'package:medicalarm/utils/analytics/analytics.dart';
+import 'package:package_info_plus/package_info_plus.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:medicalarm/features/localization/l.dart';
 
@@ -95,6 +96,30 @@ class SettingPage extends StatelessWidget {
                       launchUrl(Uri.parse('https://bannzai.github.io/medicalarm/SpecifiedCommercialTransactionAct'),
                           mode: LaunchMode.externalApplication);
                     }),
+                const _Divider(),
+                ListTile(
+                  title: Text(
+                    L.ossLicense,
+                    style: const TextStyle(
+                      fontWeight: FontWeight.w300,
+                      fontSize: 16,
+                    ),
+                  ),
+                  trailing: const Icon(Icons.chevron_right),
+                  onTap: () async {
+                    analytics.logEvent(name: 'settings_oss_license_tapped');
+                    final packageInfo = await PackageInfo.fromPlatform();
+                    if (!context.mounted) {
+                      return;
+                    }
+                    // 一覧の中身は flutter build がパッケージの LICENSE から生成する NOTICES を LicenseRegistry が読むため、依存関係の増減に自動で追従する
+                    showLicensePage(
+                      context: context,
+                      applicationName: packageInfo.appName,
+                      applicationVersion: packageInfo.version,
+                    );
+                  },
+                ),
                 const _Divider(),
                 ListTile(
                   title: Text(L.inquiry),

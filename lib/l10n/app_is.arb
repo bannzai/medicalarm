@@ -1,783 +1,234 @@
 {
   "@@locale": "is",
   "retry": "Reattempt",
-  "@retry": {
-    "description": "エラーが発生した際やデータの読み込みに失敗した際に、再度処理を実行するためのボタンテキスト"
-  },
   "save": "Vista",
-  "@save": {
-    "description": "フォームやエディタで入力したデータを保存する際に使用するボタンテキスト"
-  },
   "memo": "Athugasemd",
-  "@memo": {
-    "description": "服薬記録や日記などで追加情報を入力するためのテキストフィールドのプレースホルダー"
-  },
   "completed": "Lokið",
-  "@completed": {
-    "description": "フォームの入力や設定の変更などの操作が完了した際に使用するボタンテキスト"
-  },
   "medicineRegistration": "Lyfjaskráningarskjár",
-  "@medicineRegistration": {
-    "description": "お薬の新規登録・編集画面のタイトル"
-  },
   "medicineName": "Nafn lyfs",
-  "@medicineName": {
-    "description": "お薬登録フォームでの薬の名前を入力するフィールドのプレースホルダー"
-  },
   "medicineList": "Lyfjaskrá",
-  "@medicineList": {
-    "description": "登録されているお薬の一覧を表示する画面のタイトル"
-  },
   "medicationSchedule": "Lyfjaskáti",
-  "@medicationSchedule": {
-    "description": "服用スケジュールのセクションタイトル"
-  },
   "medicationTime": "Virkja tilkynningar á töku tíma",
-  "@medicationTime": {
-    "description": "服用時刻の通知設定を有効にするためのスイッチのラベル"
-  },
   "medicationTimeDescription": "Send notifications based on the medication time.",
-  "@medicationTimeDescription": {
-    "description": "服用時刻の通知設定の説明文"
-  },
   "close": "Loka",
-  "@close": {
-    "description": "ダイアログやモーダルを閉じるためのボタンテキスト"
-  },
   "settings": "Stillingar",
-  "@settings": {
-    "description": "設定画面のタイトル"
-  },
   "camera": "Myndavél",
-  "@camera": {
-    "description": "カメラを起動するためのメニュー項目"
-  },
   "photoLibrary": "Myndasafn",
-  "@photoLibrary": {
-    "description": "フォトライブラリを開くためのメニュー項目"
-  },
   "medicationHistory": "Lyfjaskrá",
-  "@medicationHistory": {
-    "description": "服薬履歴を表示する画面のタイトル"
-  },
   "noMedicationHistory": "Engin lyfjanotur.",
-  "@noMedicationHistory": {
-    "description": "服薬履歴が存在しない場合に表示するメッセージ"
-  },
   "scheduledTime": "Áætlaður tími",
-  "@scheduledTime": {
-    "description": "服薬予定時刻のラベル"
-  },
   "recordedTime": "skráningartími",
-  "@recordedTime": {
-    "description": "実際に服薬を記録した時間のラベル"
-  },
   "noMemo": "Engin anmerkningar",
-  "@noMemo": {
-    "description": "メモが存在しない場合に表示するテキスト"
-  },
   "premiumPlan": "Fyrirgefðu áætlun",
-  "@premiumPlan": {
-    "description": "プレミアムプランの名称"
-  },
   "premiumFeatureAds": "Auglýsingum fellt út",
-  "@premiumFeatureAds": {
-    "description": "プレミアム機能の広告非表示の説明"
-  },
   "premiumFeatureHistory": "Sýning á öllum skammtarháttum",
-  "@premiumFeatureHistory": {
-    "description": "プレミアム機能の履歴表示の説明"
-  },
   "premiumRegistrationComplete": "Nýskráning Medicalarm Premium lokið",
-  "@premiumRegistrationComplete": {
-    "description": "プレミアム登録完了時のタイトル"
-  },
   "premiumRegistrationThanks": "Takk fyrir skráninguna.\nAllar aðgerðir eru nú aðgengilegar!",
-  "@premiumRegistrationThanks": {
-    "description": "プレミアム登録完了時のメッセージ"
-  },
   "unknownError": "Óviss fejlilið kom upp",
-  "@unknownError": {
-    "description": "予期せぬエラーが発生した際のエラーメッセージ"
-  },
   "error": "Villa varð villa.",
-  "@error": {
-    "description": "一般的なエラーメッセージ"
-  },
   "unexpectedError": "Óvænt villa kom upp",
-  "@unexpectedError": {
-    "description": "予期せぬエラーが発生した際のエラーメッセージ"
-  },
   "cancel": "Óf",
-  "@cancel": {
-    "description": "操作をキャンセルするためのボタンテキスト"
-  },
   "delete": "Fjarlægja",
-  "@delete": {
-    "description": "削除操作を実行するためのボタンテキスト"
-  },
   "deleteAccount": "Eyða reikningi",
-  "@deleteAccount": {
-    "description": "アカウント削除ボタンのテキスト"
-  },
   "deleteAccountConfirm": "Eyða notendaupplýsingum",
-  "@deleteAccountConfirm": {
-    "description": "アカウント削除確認ダイアログのタイトル"
-  },
   "deleteAccountMessage": "Þegar þú eyðir reikningnum þínum verður öll notendaupplýsingin eytt.",
-  "@deleteAccountMessage": {
-    "description": "アカウント削除確認ダイアログのメッセージ"
-  },
   "medicationFrequency": "Lyfjatíðni",
-  "@medicationFrequency": {
-    "description": "服用頻度の設定セクションのタイトル"
-  },
   "daily": "Hver dag",
-  "@daily": {
-    "description": "毎日服用する頻度設定"
-  },
   "everyXDays": "daga",
-  "@everyXDays": {
-    "description": "X日ごとに服用する頻度設定"
-  },
   "specificWeekdays": "sérstakur vikudagur",
-  "@specificWeekdays": {
-    "description": "特定の曜日に服用する頻度設定"
-  },
   "cycle": "Tími",
-  "@cycle": {
-    "description": "周期で服用する頻度設定"
-  },
   "cycleDescription": "Dæmi) 21 daga inntaka/7 daga frí",
-  "@cycleDescription": {
-    "description": "周期での服用頻度の説明文"
-  },
   "everyXDaysDescription": "tveggja daga fresti, þriggja daga fresti",
-  "@everyXDaysDescription": {
-    "description": "X日ごとの服用頻度の説明文"
-  },
   "specificWeekdaysDescription": "Dæmi) Aðeins mánudagar, miðvikudagar og föstudagar",
-  "@specificWeekdaysDescription": {
-    "description": "特定の曜日の服用頻度の説明文"
-  },
   "medicineFormValidationError": "Vinsamlegast sláðu inn nafn og skammtatíma.",
-  "@medicineFormValidationError": {
-    "description": "お薬登録フォームでの入力バリデーションエラーメッセージ"
-  },
   "quantity": "skammtur",
-  "@quantity": {
-    "description": "服用量を入力するフィールドのラベル"
-  },
   "quantityExample": "Dæmi: 1 tafla, 100 mg",
-  "@quantityExample": {
-    "description": "服用量入力フィールドのプレースホルダー"
-  },
   "medicationStartDate": "Upphafsdagur lyfjameðferðar",
-  "@medicationStartDate": {
-    "description": "服用開始日を選択するフィールドのラベル"
-  },
   "otherInformation": "Aðrir",
-  "@otherInformation": {
-    "description": "その他の情報を入力するセクションのタイトル"
-  },
   "doseReceiver": "Notandi",
-  "@doseReceiver": {
-    "description": "服用者を選択するフィールドのラベル"
-  },
   "defaultDoseReceiver": "sjálfur",
-  "@defaultDoseReceiver": {
-    "description": "デフォルトの服用者名"
-  },
   "doseReceiverMaxCount": "Hægt er að skrá að hámarki {count} notendur.",
-  "@doseReceiverMaxCount": {
-    "description": "服用者の最大登録数を表示するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "2"
-      }
-    }
-  },
   "increaseLimitWithPremium": "Auka efri mörk fyrir {count} í premium áætlun",
-  "@increaseLimitWithPremium": {
-    "description": "プレミアムプランでの上限増加を案内するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "10"
-      }
-    }
-  },
   "addDoseReceiver": "Bæta við notanda",
-  "@addDoseReceiver": {
-    "description": "服用者を追加するボタンのテキスト"
-  },
   "newDoseReceiver": "Nýr notandi",
-  "@newDoseReceiver": {
-    "description": "新規追加時のデフォルトの服用者名"
-  },
   "reloginRequired": "Vinsamlegast skráðu þig inn aftur",
-  "@reloginRequired": {
-    "description": "アカウント削除時に再ログインが必要な場合のダイアログタイトル"
-  },
   "reloginMessage": "Til að eyða reikningnum þarftu að skrá þig inn aftur.",
-  "@reloginMessage": {
-    "description": "アカウント削除時の再ログイン要求メッセージ"
-  },
   "relogin": "Endurr innskráningu",
-  "@relogin": {
-    "description": "再ログインを実行するためのボタンテキスト"
-  },
   "accountDeleted": "Þú hefur eytt reikningnum þínum.",
-  "@accountDeleted": {
-    "description": "アカウント削除完了時のメッセージ"
-  },
   "confirmExit": "Ertu að loka appinu?",
-  "@confirmExit": {
-    "description": "アプリ終了確認のメッセージ"
-  },
   "exit": "Loka",
-  "@exit": {
-    "description": "アプリを終了するためのボタンテキスト"
-  },
   "viewFaq": "Sjá FAQ",
-  "@viewFaq": {
-    "description": "FAQページを表示するためのボタンテキスト"
-  },
   "medicine": "Lyf",
-  "@medicine": {
-    "description": "お薬タブのタイトル"
-  },
   "inquiry": "Samband við okkur",
-  "@inquiry": {
-    "description": "お問い合わせボタンのテキスト"
-  },
   "ok": "Í order",
-  "@ok": {
-    "description": "確認ダイアログのOKボタンのテキスト"
-  },
   "medicationScheduleLimit": "Þú getur skráð allt að {count} skammtatímaskipulag.",
-  "@medicationScheduleLimit": {
-    "description": "服用スケジュールの登録上限を表示するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "3"
-      }
-    }
-  },
   "increaseMedicationScheduleLimit": "Auka hámarkið í {count} með Premium áætlun.",
-  "@increaseMedicationScheduleLimit": {
-    "description": "服用スケジュールの上限をプレミアムプランで増やすことを案内するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "10"
-      }
-    }
-  },
   "addMedicationSchedule": "Bæta við lyfjaskráningu",
-  "@addMedicationSchedule": {
-    "description": "服用スケジュールを追加するボタンのテキスト"
-  },
   "medicationScheduleNotificationSetting": "Skilgreining á tilkynningum um skammtatímasetningu",
-  "@medicationScheduleNotificationSetting": {
-    "description": "服用スケジュールの通知設定画面のタイトル"
-  },
   "notificationSetting": "Tilkynningarstilla",
-  "@notificationSetting": {
-    "description": "通知設定セクションのタイトル"
-  },
   "enableFollowupNotification": "Virkja eftirfylgni tilkynningar",
-  "@enableFollowupNotification": {
-    "description": "フォローアップ通知を有効にするスイッチのラベル"
-  },
   "followupNotificationDescription": "Efnisráðning verður send ef þú skráir ekki inntöku innan 30 mínútna frá fyrstu tilkynningu.",
-  "@followupNotificationDescription": {
-    "description": "フォローアップ通知の説明文"
-  },
   "enableNotificationInSilentMode": "Tilkynna jafnvel í hljóðlágu máli",
-  "@enableNotificationInSilentMode": {
-    "description": "マナーモード時の通知を有効にするスイッチのラベル"
-  },
   "silentModeNotificationDescription": "Alvar þess að ekki er hægt að hindra mikilvægar tilkynningar á lásaskjánum, jafnvel þegar einbeitingarmóður er virkur eða þegar tækið er hljóðlaust.",
-  "@silentModeNotificationDescription": {
-    "description": "マナーモード時の通知の説明文"
-  },
   "everyXDaysFormat": "{count} daga frekvens",
-  "@everyXDaysFormat": {
-    "description": "X日ごとの服用頻度を表示する際のフォーマット",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "2"
-      }
-    }
-  },
   "cycleDaysFormat": "{consecutiveDays} dagar í notkun/{restDays} daga í hvíld",
-  "@cycleDaysFormat": {
-    "description": "服用周期を表示する際のフォーマット",
-    "placeholders": {
-      "consecutiveDays": {
-        "type": "int",
-        "example": "21"
-      },
-      "restDays": {
-        "type": "int",
-        "example": "7"
-      }
-    }
-  },
   "consecutiveDaysFormat": "{count} dagar tekið",
-  "@consecutiveDaysFormat": {
-    "description": "連続服用日数を表示する際のフォーマット",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "21"
-      }
-    }
-  },
   "restDaysFormat": "{count} daga frí",
-  "@restDaysFormat": {
-    "description": "休薬日数を表示する際のフォーマット",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "7"
-      }
-    }
-  },
   "limitedTimeDiscount": "Núna geturðu notað það á takmörkuðu verði að eilífu.",
-  "@limitedTimeDiscount": {
-    "description": "プレミアムプランの限定価格キャンペーンを案内するメッセージ"
-  },
   "monthlyPlan": "Mánaðaráskrift",
-  "@monthlyPlan": {
-    "description": "月額プランの名称"
-  },
   "annualPlan": "Ársgjald áætlun",
-  "@annualPlan": {
-    "description": "年額プランの名称"
-  },
   "weeklyPlan": "Viku áætlun",
-  "@weeklyPlan": {
-    "description": "週額プランの名称"
-  },
   "premiumRequired": "Þú þarft að skrá þig í Premium áætlun til að fá aðgang.",
-  "@premiumRequired": {
-    "description": "プレミアムプラン加入が必要な機能へのアクセス時のメッセージ"
-  },
   "medication": "Lyfjagjöf",
-  "@medication": {
-    "description": "服薬タブのタイトル"
-  },
   "history": "Saganir",
-  "@history": {
-    "description": "履歴タブのタイトル"
-  },
+  "calendar": "Dagatal",
+  "diary": "Dagbók",
+  "writeDiary": "Skrifa dagbók",
+  "editDiaryTooltip": "Breyta dagbók",
   "medicineRegistrationLimit": "fjöldi skráðra lyfja",
-  "@medicineRegistrationLimit": {
-    "description": "薬の登録数の上限を説明するテキストの一部"
-  },
   "doseReceiverRegistrationLimit": "Fjöldi skráðra notenda",
-  "@doseReceiverRegistrationLimit": {
-    "description": "服用者の登録数の上限を説明するテキストの一部"
-  },
   "notificationScheduleLimit": "fjöldi tilkynningaskipulags",
-  "@notificationScheduleLimit": {
-    "description": "通知スケジュールの上限を説明するテキストの一部"
-  },
   "addMedicine": "Bæta við lyf",
-  "@addMedicine": {
-    "description": "お薬を追加するボタンのテキスト"
-  },
   "medicineMaxCount": "Þú getur skráð allt að {count} lyf.",
-  "@medicineMaxCount": {
-    "description": "お薬の最大登録数を表示するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "5"
-      }
-    }
-  },
   "increaseMedicineLimitWithPremium": "Auka takmarkið í {count} með Premium áætlun",
-  "@increaseMedicineLimitWithPremium": {
-    "description": "お薬の登録上限をプレミアムプランで増やすことを案内するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "10"
-      }
-    }
-  },
   "aboutApp": "Um app um upplýsingum um appið",
-  "@aboutApp": {
-    "description": "アプリについてのセクションタイトル"
-  },
   "viewPremiumPlan": "Skoða Premium áætlun",
-  "@viewPremiumPlan": {
-    "description": "プレミアムプランの詳細を表示するためのボタンテキスト"
-  },
   "cancelSubscriptionInstruction": "Eftir kaup geturðu sagt upp sjálfvirkum endurnýjun í {storeName} appinu í aðgangsstillingum. (Ekki er hægt að segja upp sjálfvirkri endurnýjun innan appsins).",
-  "@cancelSubscriptionInstruction": {
-    "description": "自動更新の解約方法の説明",
-    "placeholders": {
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "headache": "höfuðverkur",
-  "@headache": {
-    "description": "症状の選択肢：頭痛"
-  },
   "stomachache": "kviðverkur",
-  "@stomachache": {
-    "description": "症状の選択肢：腹痛"
-  },
   "nausea": "óþekja",
-  "@nausea": {
-    "description": "症状の選択肢：吐き気"
-  },
   "anemia": "blóðleysi",
-  "@anemia": {
-    "description": "症状の選択肢：貧血"
-  },
   "diarrhea": "niðurgangur",
-  "@diarrhea": {
-    "description": "症状の選択肢：下痢"
-  },
   "constipation": "Loku",
-  "@constipation": {
-    "description": "症状の選択肢：便秘"
-  },
   "hotFlash": "bruna",
-  "@hotFlash": {
-    "description": "症状の選択肢：ほてり"
-  },
   "drowsiness": "Þreyta",
-  "@drowsiness": {
-    "description": "症状の選択肢：眠気"
-  },
   "backPain": "lumbarverkjandi",
-  "@backPain": {
-    "description": "症状の選択肢：腰痛"
-  },
   "palpitation": "Hjartsláttur",
-  "@palpitation": {
-    "description": "症状の選択肢：動悸"
-  },
   "abnormalBleeding": "ótrúleg blæðing",
-  "@abnormalBleeding": {
-    "description": "症状の選択肢：不正出血"
-  },
   "lossOfAppetite": "matarskjúkdómur",
-  "@lossOfAppetite": {
-    "description": "症状の選択肢：食欲不振"
-  },
   "chestTightness": "Brjóstsviði",
-  "@chestTightness": {
-    "description": "症状の選択肢：胸の張り"
-  },
   "insomnia": "Ór",
-  "@insomnia": {
-    "description": "症状の選択肢：不眠"
-  },
   "monthlyPlanDiscountFormat": "{percent}% afsláttur frá mánaðarlega áætlun",
-  "@monthlyPlanDiscountFormat": {
-    "description": "月額プランからの割引率を表示するフォーマット",
-    "placeholders": {
-      "percent": {
-        "type": "int",
-        "example": "50"
-      }
-    }
-  },
   "purchaseErrorUnknown": "Ókunnugur villa hefur komið fram. Vinsamlegast reyndu aftur síðar. Ef vandamálið er ekki leyst skaltu hafa samband í gegnum Stillingar > Fregnir. Nánar: {message}",
-  "@purchaseErrorUnknown": {
-    "description": "購入時の不明なエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorStoreProblem": "Villa {storeName} er villur. Vinsamlegast reyndu aftur síðar.",
-  "@purchaseErrorStoreProblem": {
-    "description": "ストアでのエラーメッセージ",
-    "placeholders": {
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "purchaseErrorInvalidPayment": "Greiðslan mistókst. Vinsamlegast skaltu athuga hvort greiðsluaðferðin sé gild og reyndu aftur.",
-  "@purchaseErrorInvalidPayment": {
-    "description": "支払い方法が無効な場合のエラーメッセージ"
-  },
   "purchaseErrorProductUnavailable": "Áætlunin er ekki til sölu núna. Vinsamlegast endurræstu appið og reyndu aftur.",
-  "@purchaseErrorProductUnavailable": {
-    "description": "商品が利用できない場合のエラーメッセージ"
-  },
   "purchaseErrorAlreadyPurchased": "Þú hefur þegar keypt áætlunina. Ef þú vilt endurreisa kaupin þín á þessu tæki skaltu smella á \"Smelltu hér ef þú hefur áður keypt\" til að endurreisa kaupaupplýsingar.",
-  "@purchaseErrorAlreadyPurchased": {
-    "description": "すでに購入済みの場合のエラーメッセージ"
-  },
   "purchaseErrorReceiptInUse": "Þú ert þegar búinn að kaupa. Kaupin eru nú þegar notuð af öðrum notanda. Vinsamlegast athugaðu {accountName}.",
-  "@purchaseErrorReceiptInUse": {
-    "description": "購入情報が他のユーザーで使用されている場合のエラーメッセージ",
-    "placeholders": {
-      "accountName": {
-        "type": "String",
-        "example": "Apple ID"
-      }
-    }
-  },
   "purchaseErrorInvalidReceipt": "Rangmál kaupsins er ólöglegt. Vinsamlegast staðfestu kaupin.",
-  "@purchaseErrorInvalidReceipt": {
-    "description": "購入情報が無効な場合のエラーメッセージ"
-  },
   "purchaseErrorMissingReceipt": "Engin kaupandans upplýsingarnar eru ekki til. Vinsamlegast skráðu þig inn á tækið með {accountName} og reyndu aftur.",
-  "@purchaseErrorMissingReceipt": {
-    "description": "購入情報が見つからない場合のエラーメッセージ",
-    "placeholders": {
-      "accountName": {
-        "type": "String",
-        "example": "Apple ID"
-      }
-    }
-  },
   "purchaseErrorNetwork": "Netvörfustaða er óstöðug. Vinsamlegast athugaðu tengimynstrið áður en þú reynir aftur.",
-  "@purchaseErrorNetwork": {
-    "description": "ネットワークエラーの場合のエラーメッセージ"
-  },
   "purchaseNotAllowed": "Þessi tæki hefur ekki heimild til að kaupa.",
-  "@purchaseNotAllowed": {
-    "description": "デバイスでの購入が許可されていない場合のエラーメッセージ"
-  },
   "purchaseErrorInvalidCredentials": "Kaupinn mistókst. Vinsamlegast reyndu aftur síðar. Ef vandamálið leysist ekki skaltu hafa samband við okkur í Stillingar > Fyrirspurnir. Nánari upplýsingar: {message}",
-  "@purchaseErrorInvalidCredentials": {
-    "description": "認証情報が無効な場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorUnexpectedBackend": "Ekkert hægt að kaupa núna. Vinsamlegast reyndu aftur síðar. Ef vandamálið er ekki leyst skaltu hafa samband við okkur í Stillingar > Fyrirspurn. Nánari upplýsingar: {message}",
-  "@purchaseErrorUnexpectedBackend": {
-    "description": "バックエンドで予期せぬエラーが発生した場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorOperationInProgress": "Kaupjafarþjónusta er að öðrum kosti í gangi. Vinsamlegast athugaðu aftur síðar",
-  "@purchaseErrorOperationInProgress": {
-    "description": "購入処理が既に進行中の場合のエラーメッセージ"
-  },
   "purchaseErrorInsufficientPermissions": "Með {accountName} þínu er ekki hægt að skrá sig í áætlunina. Vinsamlegast athugaðu greiðsluinformationið þitt og reyndu aftur.",
-  "@purchaseErrorInsufficientPermissions": {
-    "description": "権限が不足している場合のエラーメッセージ",
-    "placeholders": {
-      "accountName": {
-        "type": "String",
-        "example": "Apple ID"
-      }
-    }
-  },
   "purchaseErrorPaymentPending": "Greiðslunni hefur verið stoppað. Vinsamlegast athugið {storeName} með {accountName} innskráð.",
-  "@purchaseErrorPaymentPending": {
-    "description": "支払いが保留中の場合のエラーメッセージ",
-    "placeholders": {
-      "accountName": {
-        "type": "String",
-        "example": "Apple ID"
-      },
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "premiumUserThanksTitle": "Premium meðlimur",
-  "@premiumUserThanksTitle": {
-    "description": "プレミアムユーザーへの感謝を示すタイトル"
-  },
   "premiumUserThanksMessage": "Takk fyrir að nota okkur.\nMeð hjálp þinni getum við haldið áfram að reka Medicalarm.",
-  "@premiumUserThanksMessage": {
-    "description": "プレミアムユーザーへの感謝メッセージ"
-  },
   "premiumPricePerMonth": "({price}/mánuði)",
-  "@premiumPricePerMonth": {
-    "description": "月額料金の表示フォーマット",
-    "placeholders": {
-      "price": {
-        "type": "String",
-        "example": "¥500"
-      }
-    }
-  },
   "premiumCancelDescription": "Eftir kaup geturðu sagt upp sjálfvirkri endurnýjun í {storeName} appinu í reikningastillingunum. (Ekki er hægt að segja upp sjálfvirkri endurnýjun frá appinu.)",
-  "@premiumCancelDescription": {
-    "description": "プレミアムプランの解約方法の説明",
-    "placeholders": {
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "purchaseErrorRestoreFailed": "Ekki fannst fyrri kaupaupplýsingar. Vinsamlegast athugaðu reikninginn þinn og reyndu aftur.",
-  "@purchaseErrorRestoreFailed": {
-    "description": "購入情報の復元に失敗した場合のエラーメッセージ"
-  },
   "purchaseErrorUserNotFound": "Notandi fannst ekki. Vinsamlegast endurræstu appið og reyndu aftur. Nánar: {message}",
-  "@purchaseErrorUserNotFound": {
-    "description": "ユーザーが見つからない場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorActivationPending": "Fyrirgefðu, greiðslan hefur ekki verið virkjuð. Vinsamlegast athugaðu aftur eftir smá stund.",
-  "@purchaseErrorActivationPending": {
-    "description": "課金の有効化が完了していない場合のエラーメッセージ"
-  },
   "purchaseErrorTimeout": "Tími rann út. Vinsamlegast athugaðu tengingarvæði þitt og reyndu aftur. Ef vandamálið er ekki leyst skaltu hafa samband við okkur í Stillingar > Fyrirspurn. Nánari upplýsingar: {message}",
-  "@purchaseErrorTimeout": {
-    "description": "購入処理がタイムアウトした場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorNetworkError": "Tengingarvillur. Vinsamlegast athugaðu tengingarumhverfið þitt og reyndu aftur. Ef vandamálið leysist ekki vinsamlegast hafðu samband við okkur í Stillingar > Fyrirspurn. Nánari upplýsingar: {message}",
-  "@purchaseErrorNetworkError": {
-    "description": "ネットワークエラーが発生した場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "sixMonthPlan": "6 mánaáætlun",
-  "@sixMonthPlan": {
-    "description": "6ヶ月プランの表示名"
-  },
   "premiumContractPeriod": "Samningstíminn er einn mánuður frá kaupdegi.",
-  "@premiumContractPeriod": {
-    "description": "プレミアムプランの契約期間の説明"
-  },
   "privacyPolicy": "Persónuverndarstefna",
-  "@privacyPolicy": {
-    "description": "プライバシーポリシーのリンクテキスト"
-  },
   "termsOfService": "Skilmál",
-  "@termsOfService": {
-    "description": "利用規約のリンクテキスト"
-  },
   "specifiedCommercialTransactionAct": "Upplýsingar samkvæmt lögum um sérstakar viðskiptakannanir",
-  "@specifiedCommercialTransactionAct": {
-    "description": "特定商取引法に基づく表記のリンクテキスト"
-  },
   "confirmBeforeRegistration": "Vinsamlegast athugaðu áður en þú skráir þig.",
-  "@confirmBeforeRegistration": {
-    "description": "各種規約確認を促すメッセージ"
-  },
   "autoRenewalNotice": "Eftir að samningstímabili lýkur mun sjálfvirk endurnýjun eiga sér stað.",
-  "@autoRenewalNotice": {
-    "description": "自動更新に関する注意事項"
-  },
   "restorePurchase": "Fyrri kaupandi skaltu fara hér",
-  "@restorePurchase": {
-    "description": "購入情報の復元リンクのテキスト"
-  },
   "purchaseRestored": "Kaupinformasjon hefur verið endurheimt.",
-  "@purchaseRestored": {
-    "description": "購入情報の復元が完了した際のメッセージ"
-  },
   "medicationTimeFollowup": "Eftirlit á skammtatímum",
-  "@medicationTimeFollowup": {
-    "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
-  },
   "updateRequired": "Uppfærslan er nauðsynleg",
-  "@updateRequired": {
-    "description": "強制アップデートが必要な場合のダイアログタイトル"
-  },
   "updateRequiredMessage": "Vinsamlegast uppfærðu í nýjustu útgáfu frá {storeName}",
-  "@updateRequiredMessage": {
-    "description": "強制アップデートが必要な場合のダイアログメッセージ",
-    "placeholders": {
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "screenshotMedicationHistoriesMemo": "Ég tók of mikið siestu og tók lyfið of seint.",
-  "@screenshotMedicationHistoriesMemo": {
-    "description": "薬のメモの例"
-  },
   "screenshotMedicationDoserReceiver1": "Ég",
-  "@screenshotMedicationDoserReceiver1": {
-    "description": "薬の服用者の例"
-  },
   "screenshotMedicationDoserReceiver2": "Mona",
-  "@screenshotMedicationDoserReceiver2": {
-    "description": "薬の服用者の例"
-  },
   "screenshotMedicationQuontityMemo1": "1 tafla",
-  "@screenshotMedicationQuontityMemo1": {
-    "description": "薬の服用量の例"
-  },
   "screenshotMedicationQuontityMemo2": "2 töflur",
-  "@screenshotMedicationQuontityMemo2": {
-    "description": "薬の服用量の例"
-  },
   "screenshotMedicationName1": "höfuðverkur",
-  "@screenshotMedicationName1": {
-    "description": "薬の名前の例"
-  },
   "screenshotMedicationName2": "Vítamín",
-  "@screenshotMedicationName2": {
-    "description": "薬の名前の例"
-  },
   "notificationTitle": "Þetta er tíminn fyrir lyfin þín",
-  "@notificationTitle": {
-    "description": "薬の通知のタイトル"
-  },
   "notificationFollowupTitle": "Ertu ekki að gleyma að skrá lyfjagjafir?",
-  "@notificationFollowupTitle": {
-    "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
-  },
   "recommendedApp": "Mælti forrit",
-  "@recommendedApp": {
-    "description": "おすすめアプリのタイトル"
-  },
   "pilllIntroduction": "Kannski ertu að tala um pillustjórnun? Viltu ekki stýra pillu neyslu þínni á þægilegri hátt?",
-  "@pilllIntroduction": {
-    "description": "ピルの管理の紹介"
-  },
   "installPilll": "Install Pilll",
-  "@installPilll": {
-    "description": "Pilllをインストールするボタンのテキスト"
-  },
   "criticalAlertVolume": "Hljóðmagn",
-  "@criticalAlertVolume": {
-    "description": "緊急通知の音量の表示名"
-  }
+  "specialGift": "🎉 Sérstök gjöf 🎉",
+  "freePremiumTrialDays": "Þú færð {count} daga ókeypis prufutímabil í gjöf!",
+  "welcomeToMedicalarm": "Velkomin í Medicalarm!",
+  "writeReviewFor5StarPromotion": "Skrifaðu 5 stjörnu einkunn og umsögn í App Store og prófaðu úrvals eiginleika ókeypis í {count} daga!",
+  "rating5StarsEncouragement": "★5-einkunnin þín er mikill hvatning fyrir þróunarteymið.\nVinsamlegast styðjið okkur við að búa til enn betra app!",
+  "noAutoCharge": "Engin sjálfvirk gjöld verða innheimt. Eftir að prufutímabilinu lýkur ferðu sjálfkrafa aftur í ókeypis áskriftina.",
+  "write5StarReview": "Skrifa 5 stjörnu umsögn",
+  "receiveReward": "Fá verðlaun",
+  "notNow": "Ekki núna",
+  "openAppStore": "Opna App Store",
+  "confirmOpenAppStore": "Viltu opna App Store til að skrifa umsögn?",
+  "premiumFeaturesList": "Listi yfir úrvalsaðgerðir",
+  "currentlyInPremiumTrial": "Þú ert núna í Premium-prufutímabili.",
+  "medicationPause": "Virkja lyf",
+  "medicationPauseDescription": "Þegar slökkt er á þessu er það tekið af lyfjaskjánum og úr tilkynningum.",
+  "medicinePausedSnackbar": "Taka lyfsins hefur verið stöðvuð tímabundið",
+  "medicationHistoryDeletedSnackbar": "Skráning lyfjatöku hefur verið afturkölluð",
+  "undo": "Afturkalla",
+  "medicationHistoryReverted": "Skráning lyfjatöku afturkölluð",
+  "revertedTime": "Tími afturköllunar",
+  "revertedByMember": "Hætt við af {name}",
+  "medicationTakenAtLabel": "Tekið kl. {time}",
+  "medicineResumedSnackbar": "Lyfjatöku hefur verið haldið áfram",
+  "medicineEditTooltip": "Breyta lyfi",
+  "groups": "Hópar",
+  "groupManagement": "Hópastjórnun",
+  "createGroup": "Búa til hóp",
+  "groupName": "Heiti hóps",
+  "groupNameInputHint": "Sláðu inn heiti hópsins",
+  "groupIcon": "Tákn",
+  "groupMemberCount": "{count} meðlimir",
+  "defaultGroupBadge": "Sjálfgefið",
+  "soloGroupName": "Mínir hópar",
+  "joinWithInvitationCode": "Taka þátt með boðskóða",
+  "groupCreationLimitReached": "Þú getur ekki búið til fleiri hópa með ókeypis áskriftinni.",
+  "increaseGroupLimitWithPremium": "Búðu til fleiri hópa með Premium-áskrift",
+  "invitationCode": "Boðskóði",
+  "invitationCodeShareDescription": "Deildu þessum kóða til að bjóða meðlimum",
+  "invitationCodeExpiresAt": "Gildir til: {date}",
+  "copyInvitationCode": "Afrita kóða",
+  "invitationCodeCopied": "Boðskortskóði afritaður",
+  "issueInvitationCode": "Búa til boðskóða",
+  "groupSettings": "Stillingar hóps",
+  "members": "Meðlimir",
+  "memberFallbackName": "Meðlimur",
+  "yourDisplayName": "Birtingarnafnið þitt",
+  "displayNameInputHint": "Sláðu inn birtingarnafn",
+  "ownerLabel": "Eigandi",
+  "youLabel": "Þú",
+  "removeMemberConfirmTitle": "Fjarlægja meðlim?",
+  "removeMemberConfirmMessage": "Fjarlægja {name} úr hópnum",
+  "joinGroup": "Skrá sig í hóp",
+  "invitationCodeInputLabel": "Boðskóði (8 stafir)",
+  "invitationCodeInputHint": "Sláðu inn 8 stafa kóðann",
+  "join": "Taka þátt",
+  "recordedByMember": "Skráð af {name}",
+  "accountLink": "Flutningur reiknings",
+  "accountLinkDescription": "Með því að tengja við Apple eða Google geturðu flutt gögnin þín jafnvel eftir að þú skiptir um tæki eða setur forritið upp aftur.",
+  "linkWithApple": "Flytja reikning með Apple",
+  "linkWithGoogle": "Flytja reikning með Google",
+  "accountLinkedWithApple": "Tengt Apple",
+  "accountLinkedWithGoogle": "Tengt við Google",
+  "accountLinkedSnackbar": "Reikningur fluttur",
+  "accountLinkBannerText": "Þegar hópi er deilt mælum við eindregið með því að þú setjir upp flutning reiknings.",
+  "minimumDoseInterval": "Tímabil milli skammta",
+  "minimumDoseIntervalDescription": "Lágmarkstími á milli skammta frá síðasta skammti",
+  "minimumDoseIntervalNone": "Ekkert",
+  "minimumDoseIntervalHoursFormat": "Að minnsta kosti {hours} klukkustundir",
+  "doseIntervalWarningTitle": "Nauðsynlegt bil milli skammta er ekki liðið",
+  "doseIntervalWarningMessage": "Þú hefur þegar tekið lyfið kl. {latestTakeTime}. Stillingin krefst að minnsta kosti {minimumDoseIntervalHours} klukkustunda á milli skammta. Viltu samt skrá það?",
+  "doseIntervalWarningTakeAnyway": "Skrá",
+  "doseIntervalNotificationWarning": "⚠️ Ekki eru liðnir {minimumDoseIntervalHours} klukkustundir frá síðasta skammti",
+  "ossLicense": "OSS-leyfi"
 }

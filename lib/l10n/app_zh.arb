@@ -1,783 +1,234 @@
 {
   "@@locale": "zh",
   "retry": "重试",
-  "@retry": {
-    "description": "エラーが発生した際やデータの読み込みに失敗した際に、再度処理を実行するためのボタンテキスト"
-  },
   "save": "保存",
-  "@save": {
-    "description": "フォームやエディタで入力したデータを保存する際に使用するボタンテキスト"
-  },
   "memo": "备注",
-  "@memo": {
-    "description": "服薬記録や日記などで追加情報を入力するためのテキストフィールドのプレースホルダー"
-  },
   "completed": "完成",
-  "@completed": {
-    "description": "フォームの入力や設定の変更などの操作が完了した際に使用するボタンテキスト"
-  },
   "medicineRegistration": "药物注册画面",
-  "@medicineRegistration": {
-    "description": "お薬の新規登録・編集画面のタイトル"
-  },
   "medicineName": "药物名称",
-  "@medicineName": {
-    "description": "お薬登録フォームでの薬の名前を入力するフィールドのプレースホルダー"
-  },
   "medicineList": "药物列表",
-  "@medicineList": {
-    "description": "登録されているお薬の一覧を表示する画面のタイトル"
-  },
   "medicationSchedule": "服用时间表",
-  "@medicationSchedule": {
-    "description": "服用スケジュールのセクションタイトル"
-  },
   "medicationTime": "启用服药时的通知",
-  "@medicationTime": {
-    "description": "服用時刻の通知設定を有効にするためのスイッチのラベル"
-  },
   "medicationTimeDescription": "根据服用时间发送通知",
-  "@medicationTimeDescription": {
-    "description": "服用時刻の通知設定の説明文"
-  },
   "close": "关闭",
-  "@close": {
-    "description": "ダイアログやモーダルを閉じるためのボタンテキスト"
-  },
   "settings": "设置",
-  "@settings": {
-    "description": "設定画面のタイトル"
-  },
   "camera": "相机",
-  "@camera": {
-    "description": "カメラを起動するためのメニュー項目"
-  },
   "photoLibrary": "照片库",
-  "@photoLibrary": {
-    "description": "フォトライブラリを開くためのメニュー項目"
-  },
   "medicationHistory": "服药历史",
-  "@medicationHistory": {
-    "description": "服薬履歴を表示する画面のタイトル"
-  },
   "noMedicationHistory": "没有服药记录",
-  "@noMedicationHistory": {
-    "description": "服薬履歴が存在しない場合に表示するメッセージ"
-  },
   "scheduledTime": "预定时间",
-  "@scheduledTime": {
-    "description": "服薬予定時刻のラベル"
-  },
   "recordedTime": "记录时间",
-  "@recordedTime": {
-    "description": "実際に服薬を記録した時間のラベル"
-  },
   "noMemo": "没有备注",
-  "@noMemo": {
-    "description": "メモが存在しない場合に表示するテキスト"
-  },
   "premiumPlan": "高级计划",
-  "@premiumPlan": {
-    "description": "プレミアムプランの名称"
-  },
   "premiumFeatureAds": "隐藏广告",
-  "@premiumFeatureAds": {
-    "description": "プレミアム機能の広告非表示の説明"
-  },
   "premiumFeatureHistory": "显示所有服药记录",
-  "@premiumFeatureHistory": {
-    "description": "プレミアム機能の履歴表示の説明"
-  },
   "premiumRegistrationComplete": "Medicalarm Premium 注册完成",
-  "@premiumRegistrationComplete": {
-    "description": "プレミアム登録完了時のタイトル"
-  },
   "premiumRegistrationThanks": "感谢您的注册。\n您现在可以使用所有功能！",
-  "@premiumRegistrationThanks": {
-    "description": "プレミアム登録完了時のメッセージ"
-  },
   "unknownError": "发生了未知错误",
-  "@unknownError": {
-    "description": "予期せぬエラーが発生した際のエラーメッセージ"
-  },
   "error": "发生错误",
-  "@error": {
-    "description": "一般的なエラーメッセージ"
-  },
   "unexpectedError": "发生意外错误",
-  "@unexpectedError": {
-    "description": "予期せぬエラーが発生した際のエラーメッセージ"
-  },
   "cancel": "取消",
-  "@cancel": {
-    "description": "操作をキャンセルするためのボタンテキスト"
-  },
   "delete": "删除",
-  "@delete": {
-    "description": "削除操作を実行するためのボタンテキスト"
-  },
   "deleteAccount": "删除账户",
-  "@deleteAccount": {
-    "description": "アカウント削除ボタンのテキスト"
-  },
   "deleteAccountConfirm": "删除用户信息",
-  "@deleteAccountConfirm": {
-    "description": "アカウント削除確認ダイアログのタイトル"
-  },
   "deleteAccountMessage": "删除账户将删除所有用户信息。",
-  "@deleteAccountMessage": {
-    "description": "アカウント削除確認ダイアログのメッセージ"
-  },
   "medicationFrequency": "服用频率",
-  "@medicationFrequency": {
-    "description": "服用頻度の設定セクションのタイトル"
-  },
   "daily": "每天",
-  "@daily": {
-    "description": "毎日服用する頻度設定"
-  },
   "everyXDays": "每X天",
-  "@everyXDays": {
-    "description": "X日ごとに服用する頻度設定"
-  },
   "specificWeekdays": "特定的星期",
-  "@specificWeekdays": {
-    "description": "特定の曜日に服用する頻度設定"
-  },
   "cycle": "周期",
-  "@cycle": {
-    "description": "周期で服用する頻度設定"
-  },
   "cycleDescription": "例如）21日服用/7日休药",
-  "@cycleDescription": {
-    "description": "周期での服用頻度の説明文"
-  },
   "everyXDaysDescription": "每隔X天服用的频率说明",
-  "@everyXDaysDescription": {
-    "description": "X日ごとの服用頻度の説明文"
-  },
   "specificWeekdaysDescription": "例如）仅在星期一，星期三和星期五",
-  "@specificWeekdaysDescription": {
-    "description": "特定の曜日の服用頻度の説明文"
-  },
   "medicineFormValidationError": "请输入名称和服用计划",
-  "@medicineFormValidationError": {
-    "description": "お薬登録フォームでの入力バリデーションエラーメッセージ"
-  },
   "quantity": "容量",
-  "@quantity": {
-    "description": "服用量を入力するフィールドのラベル"
-  },
   "quantityExample": "例: 1片，100毫克",
-  "@quantityExample": {
-    "description": "服用量入力フィールドのプレースホルダー"
-  },
   "medicationStartDate": "服用开始日期",
-  "@medicationStartDate": {
-    "description": "服用開始日を選択するフィールドのラベル"
-  },
   "otherInformation": "其他",
-  "@otherInformation": {
-    "description": "その他の情報を入力するセクションのタイトル"
-  },
   "doseReceiver": "服用者",
-  "@doseReceiver": {
-    "description": "服用者を選択するフィールドのラベル"
-  },
   "defaultDoseReceiver": "自己",
-  "@defaultDoseReceiver": {
-    "description": "デフォルトの服用者名"
-  },
   "doseReceiverMaxCount": "最多可注册{count}名服用者",
-  "@doseReceiverMaxCount": {
-    "description": "服用者の最大登録数を表示するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "2"
-      }
-    }
-  },
   "increaseLimitWithPremium": "在高级计划中将上限增加到{count}",
-  "@increaseLimitWithPremium": {
-    "description": "プレミアムプランでの上限増加を案内するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "10"
-      }
-    }
-  },
   "addDoseReceiver": "添加服用者",
-  "@addDoseReceiver": {
-    "description": "服用者を追加するボタンのテキスト"
-  },
   "newDoseReceiver": "新服用者",
-  "@newDoseReceiver": {
-    "description": "新規追加時のデフォルトの服用者名"
-  },
   "reloginRequired": "请重新登录",
-  "@reloginRequired": {
-    "description": "アカウント削除時に再ログインが必要な場合のダイアログタイトル"
-  },
   "reloginMessage": "要删除账户，请重新登录。",
-  "@reloginMessage": {
-    "description": "アカウント削除時の再ログイン要求メッセージ"
-  },
   "relogin": "重新登录",
-  "@relogin": {
-    "description": "再ログインを実行するためのボタンテキスト"
-  },
   "accountDeleted": "已删除账户",
-  "@accountDeleted": {
-    "description": "アカウント削除完了時のメッセージ"
-  },
   "confirmExit": "您要结束应用程序吗？",
-  "@confirmExit": {
-    "description": "アプリ終了確認のメッセージ"
-  },
   "exit": "结束",
-  "@exit": {
-    "description": "アプリを終了するためのボタンテキスト"
-  },
   "viewFaq": "查看常见问题解答",
-  "@viewFaq": {
-    "description": "FAQページを表示するためのボタンテキスト"
-  },
   "medicine": "药品",
-  "@medicine": {
-    "description": "お薬タブのタイトル"
-  },
   "inquiry": "联系我们",
-  "@inquiry": {
-    "description": "お問い合わせボタンのテキスト"
-  },
   "ok": "好的",
-  "@ok": {
-    "description": "確認ダイアログのOKボタンのテキスト"
-  },
   "medicationScheduleLimit": "服用时间表最多可以注册{count}个。",
-  "@medicationScheduleLimit": {
-    "description": "服用スケジュールの登録上限を表示するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "3"
-      }
-    }
-  },
   "increaseMedicationScheduleLimit": "在高级计划中将上限增加到{count}",
-  "@increaseMedicationScheduleLimit": {
-    "description": "服用スケジュールの上限をプレミアムプランで増やすことを案内するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "10"
-      }
-    }
-  },
   "addMedicationSchedule": "添加服用计划",
-  "@addMedicationSchedule": {
-    "description": "服用スケジュールを追加するボタンのテキスト"
-  },
   "medicationScheduleNotificationSetting": "服药计划通知设置",
-  "@medicationScheduleNotificationSetting": {
-    "description": "服用スケジュールの通知設定画面のタイトル"
-  },
   "notificationSetting": "通知设置",
-  "@notificationSetting": {
-    "description": "通知設定セクションのタイトル"
-  },
   "enableFollowupNotification": "启用跟进通知",
-  "@enableFollowupNotification": {
-    "description": "フォローアップ通知を有効にするスイッチのラベル"
-  },
   "followupNotificationDescription": "如果在第一次通知后的30分钟内未记录服药，则会发送后续通知。",
-  "@followupNotificationDescription": {
-    "description": "フォローアップ通知の説明文"
-  },
   "enableNotificationInSilentMode": "在静音模式下也会通知",
-  "@enableNotificationInSilentMode": {
-    "description": "マナーモード時の通知を有効にするスイッチのラベル"
-  },
   "silentModeNotificationDescription": "即使集中模式开启或设备处于静音状态，重要通知仍会显示在锁屏上，并且会播放声音。",
-  "@silentModeNotificationDescription": {
-    "description": "マナーモード時の通知の説明文"
-  },
   "everyXDaysFormat": "每{count}天",
-  "@everyXDaysFormat": {
-    "description": "X日ごとの服用頻度を表示する際のフォーマット",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "2"
-      }
-    }
-  },
   "cycleDaysFormat": "{consecutiveDays}天服用/{restDays}天休薬",
-  "@cycleDaysFormat": {
-    "description": "服用周期を表示する際のフォーマット",
-    "placeholders": {
-      "consecutiveDays": {
-        "type": "int",
-        "example": "21"
-      },
-      "restDays": {
-        "type": "int",
-        "example": "7"
-      }
-    }
-  },
   "consecutiveDaysFormat": "{count}天服用",
-  "@consecutiveDaysFormat": {
-    "description": "連続服用日数を表示する際のフォーマット",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "21"
-      }
-    }
-  },
   "restDaysFormat": "{count}天未服用",
-  "@restDaysFormat": {
-    "description": "休薬日数を表示する際のフォーマット",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "7"
-      }
-    }
-  },
   "limitedTimeDiscount": "现在以限时优惠的价格无限使用",
-  "@limitedTimeDiscount": {
-    "description": "プレミアムプランの限定価格キャンペーンを案内するメッセージ"
-  },
   "monthlyPlan": "每月计划",
-  "@monthlyPlan": {
-    "description": "月額プランの名称"
-  },
   "annualPlan": "年费计划",
-  "@annualPlan": {
-    "description": "年額プランの名称"
-  },
   "weeklyPlan": "每周计划",
-  "@weeklyPlan": {
-    "description": "週額プランの名称"
-  },
   "premiumRequired": "通过加入高级计划可以访问",
-  "@premiumRequired": {
-    "description": "プレミアムプラン加入が必要な機能へのアクセス時のメッセージ"
-  },
   "medication": "服药",
-  "@medication": {
-    "description": "服薬タブのタイトル"
-  },
   "history": "历史",
-  "@history": {
-    "description": "履歴タブのタイトル"
-  },
+  "calendar": "日历",
+  "diary": "日记",
+  "writeDiary": "写日记",
+  "editDiaryTooltip": "编辑日记",
   "medicineRegistrationLimit": "药物注册数量",
-  "@medicineRegistrationLimit": {
-    "description": "薬の登録数の上限を説明するテキストの一部"
-  },
   "doseReceiverRegistrationLimit": "药物使用者注册数量",
-  "@doseReceiverRegistrationLimit": {
-    "description": "服用者の登録数の上限を説明するテキストの一部"
-  },
   "notificationScheduleLimit": "通知计划的数量上限",
-  "@notificationScheduleLimit": {
-    "description": "通知スケジュールの上限を説明するテキストの一部"
-  },
   "addMedicine": "添加药物",
-  "@addMedicine": {
-    "description": "お薬を追加するボタンのテキスト"
-  },
   "medicineMaxCount": "最多可以注册{count}种药物。",
-  "@medicineMaxCount": {
-    "description": "お薬の最大登録数を表示するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "5"
-      }
-    }
-  },
   "increaseMedicineLimitWithPremium": "在高级计划中将上限增加至{count}",
-  "@increaseMedicineLimitWithPremium": {
-    "description": "お薬の登録上限をプレミアムプランで増やすことを案内するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "10"
-      }
-    }
-  },
   "aboutApp": "关于应用",
-  "@aboutApp": {
-    "description": "アプリについてのセクションタイトル"
-  },
   "viewPremiumPlan": "查看高级计划",
-  "@viewPremiumPlan": {
-    "description": "プレミアムプランの詳細を表示するためのボタンテキスト"
-  },
   "cancelSubscriptionInstruction": "在購買後，您可以在{storeName}應用的帳戶設置中取消自動續訂。（無法通過應用內操作取消自動續訂。）",
-  "@cancelSubscriptionInstruction": {
-    "description": "自動更新の解約方法の説明",
-    "placeholders": {
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "headache": "头痛",
-  "@headache": {
-    "description": "症状の選択肢：頭痛"
-  },
   "stomachache": "腹痛",
-  "@stomachache": {
-    "description": "症状の選択肢：腹痛"
-  },
   "nausea": "恶心",
-  "@nausea": {
-    "description": "症状の選択肢：吐き気"
-  },
   "anemia": "贫血",
-  "@anemia": {
-    "description": "症状の選択肢：貧血"
-  },
   "diarrhea": "腹泻",
-  "@diarrhea": {
-    "description": "症状の選択肢：下痢"
-  },
   "constipation": "便秘",
-  "@constipation": {
-    "description": "症状の選択肢：便秘"
-  },
   "hotFlash": "潮热",
-  "@hotFlash": {
-    "description": "症状の選択肢：ほてり"
-  },
   "drowsiness": "困倦",
-  "@drowsiness": {
-    "description": "症状の選択肢：眠気"
-  },
   "backPain": "腰痛",
-  "@backPain": {
-    "description": "症状の選択肢：腰痛"
-  },
   "palpitation": "心悸亢進",
-  "@palpitation": {
-    "description": "症状の選択肢：動悸"
-  },
   "abnormalBleeding": "不正常出血",
-  "@abnormalBleeding": {
-    "description": "症状の選択肢：不正出血"
-  },
   "lossOfAppetite": "食欲不振",
-  "@lossOfAppetite": {
-    "description": "症状の選択肢：食欲不振"
-  },
   "chestTightness": "胸部胀痛",
-  "@chestTightness": {
-    "description": "症状の選択肢：胸の張り"
-  },
   "insomnia": "失眠",
-  "@insomnia": {
-    "description": "症状の選択肢：不眠"
-  },
   "monthlyPlanDiscountFormat": "月订购 {percent}% 折扣",
-  "@monthlyPlanDiscountFormat": {
-    "description": "月額プランからの割引率を表示するフォーマット",
-    "placeholders": {
-      "percent": {
-        "type": "int",
-        "example": "50"
-      }
-    }
-  },
   "purchaseErrorUnknown": "发生了未知错误。请稍后再试。如果问题仍然存在，请通过设置 > 联系我们与我们联系。详细信息：{message}",
-  "@purchaseErrorUnknown": {
-    "description": "購入時の不明なエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorStoreProblem": "{storeName}发生错误。请稍后再试。",
-  "@purchaseErrorStoreProblem": {
-    "description": "ストアでのエラーメッセージ",
-    "placeholders": {
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "purchaseErrorInvalidPayment": "支付失败。请检查是否为有效的支付方式，并重新尝试。",
-  "@purchaseErrorInvalidPayment": {
-    "description": "支払い方法が無効な場合のエラーメッセージ"
-  },
   "purchaseErrorProductUnavailable": "当前未销售该计划。请您重新启动应用后再试。",
-  "@purchaseErrorProductUnavailable": {
-    "description": "商品が利用できない場合のエラーメッセージ"
-  },
   "purchaseErrorAlreadyPurchased": "您已经购买了计划。如果您想在此设备上恢复购买信息，请点击“以前购买的用户请点击这里”恢复购买信息。",
-  "@purchaseErrorAlreadyPurchased": {
-    "description": "すでに購入済みの場合のエラーメッセージ"
-  },
   "purchaseErrorReceiptInUse": "已购买。购买信息已被其他用户使用。请检查{accountName}。",
-  "@purchaseErrorReceiptInUse": {
-    "description": "購入情報が他のユーザーで使用されている場合のエラーメッセージ",
-    "placeholders": {
-      "accountName": {
-        "type": "String",
-        "example": "Apple ID"
-      }
-    }
-  },
   "purchaseErrorInvalidReceipt": "无效的购买信息。请确认购买信息。",
-  "@purchaseErrorInvalidReceipt": {
-    "description": "購入情報が無効な場合のエラーメッセージ"
-  },
   "purchaseErrorMissingReceipt": "不存在购买者信息。请使用 {accountName} 在设备上登录后重试。",
-  "@purchaseErrorMissingReceipt": {
-    "description": "購入情報が見つからない場合のエラーメッセージ",
-    "placeholders": {
-      "accountName": {
-        "type": "String",
-        "example": "Apple ID"
-      }
-    }
-  },
   "purchaseErrorNetwork": "网络状态不稳定。请确认连接情况后再试。",
-  "@purchaseErrorNetwork": {
-    "description": "ネットワークエラーの場合のエラーメッセージ"
-  },
   "purchaseNotAllowed": "此设备不允许进行购买",
-  "@purchaseNotAllowed": {
-    "description": "デバイスでの購入が許可されていない場合のエラーメッセージ"
-  },
   "purchaseErrorInvalidCredentials": "购买失败。请稍后再试。如果问题仍然存在，请通过 设置 > 联系我们 进行联系。详情: {message}",
-  "@purchaseErrorInvalidCredentials": {
-    "description": "認証情報が無効な場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorUnexpectedBackend": "当前无法进行购买。请稍后再试。如果问题仍然存在，请通过设置 > 联系我们与我们联系。详情：{message}",
-  "@purchaseErrorUnexpectedBackend": {
-    "description": "バックエンドで予期せぬエラーが発生した場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorOperationInProgress": "您的购买处理正在进行中。请稍等片刻后再重新确认。",
-  "@purchaseErrorOperationInProgress": {
-    "description": "購入処理が既に進行中の場合のエラーメッセージ"
-  },
   "purchaseErrorInsufficientPermissions": "您无法在 {accountName} 上订阅计划。请检查您的支付信息，然后重试。",
-  "@purchaseErrorInsufficientPermissions": {
-    "description": "権限が不足している場合のエラーメッセージ",
-    "placeholders": {
-      "accountName": {
-        "type": "String",
-        "example": "Apple ID"
-      }
-    }
-  },
   "purchaseErrorPaymentPending": "支付已暂停。请检查登录中的{accountName}的{storeName}。",
-  "@purchaseErrorPaymentPending": {
-    "description": "支払いが保留中の場合のエラーメッセージ",
-    "placeholders": {
-      "accountName": {
-        "type": "String",
-        "example": "Apple ID"
-      },
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "premiumUserThanksTitle": "您是高级会员",
-  "@premiumUserThanksTitle": {
-    "description": "プレミアムユーザーへの感謝を示すタイトル"
-  },
   "premiumUserThanksMessage": "感谢您的使用。多亏了您，我们能够继续运营Medicalarm。",
-  "@premiumUserThanksMessage": {
-    "description": "プレミアムユーザーへの感謝メッセージ"
-  },
   "premiumPricePerMonth": "（{price}元/月）",
-  "@premiumPricePerMonth": {
-    "description": "月額料金の表示フォーマット",
-    "placeholders": {
-      "price": {
-        "type": "String",
-        "example": "¥500"
-      }
-    }
-  },
   "premiumCancelDescription": "・在购买后，您可以在{storeName}应用的账户设置中取消自动续订。(应用内无法取消自动续订)。",
-  "@premiumCancelDescription": {
-    "description": "プレミアムプランの解約方法の説明",
-    "placeholders": {
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "purchaseErrorRestoreFailed": "未找到之前的购买信息。请确认您的帐户，然后再试一次。",
-  "@purchaseErrorRestoreFailed": {
-    "description": "購入情報の復元に失敗した場合のエラーメッセージ"
-  },
   "purchaseErrorUserNotFound": "无法找到用户。请重启应用程序，并重试。详细信息：{message}",
-  "@purchaseErrorUserNotFound": {
-    "description": "ユーザーが見つからない場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorActivationPending": "尚未完成付費激活。請稍後再確認。",
-  "@purchaseErrorActivationPending": {
-    "description": "課金の有効化が完了していない場合のエラーメッセージ"
-  },
   "purchaseErrorTimeout": "操作超时。请检查您的网络环境，然后重试。如果问题仍然存在，请通过设置 > 联系我们与我们联系。详细信息：{message}",
-  "@purchaseErrorTimeout": {
-    "description": "購入処理がタイムアウトした場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorNetworkError": "网络故障。请确认您的通信环境，然后再试一次。如果问题仍未解决，请通过 设置 > 联系我们 进行查询。详细信息：{message}",
-  "@purchaseErrorNetworkError": {
-    "description": "ネットワークエラーが発生した場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "sixMonthPlan": "6个月计划",
-  "@sixMonthPlan": {
-    "description": "6ヶ月プランの表示名"
-  },
   "premiumContractPeriod": "合同期限是从购买之日起一个月。",
-  "@premiumContractPeriod": {
-    "description": "プレミアムプランの契約期間の説明"
-  },
   "privacyPolicy": "隐私政策",
-  "@privacyPolicy": {
-    "description": "プライバシーポリシーのリンクテキスト"
-  },
   "termsOfService": "服务条款",
-  "@termsOfService": {
-    "description": "利用規約のリンクテキスト"
-  },
   "specifiedCommercialTransactionAct": "根据特定商业交易法的声明",
-  "@specifiedCommercialTransactionAct": {
-    "description": "特定商取引法に基づく表記のリンクテキスト"
-  },
   "confirmBeforeRegistration": "请确认并注册",
-  "@confirmBeforeRegistration": {
-    "description": "各種規約確認を促すメッセージ"
-  },
   "autoRenewalNotice": "合同期满后将自动续订。",
-  "@autoRenewalNotice": {
-    "description": "自動更新に関する注意事項"
-  },
   "restorePurchase": "之前购买的用户请点击这里",
-  "@restorePurchase": {
-    "description": "購入情報の復元リンクのテキスト"
-  },
   "purchaseRestored": "已恢复购买信息",
-  "@purchaseRestored": {
-    "description": "購入情報の復元が完了した際のメッセージ"
-  },
   "medicationTimeFollowup": "服药时间的后续跟进",
-  "@medicationTimeFollowup": {
-    "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
-  },
   "updateRequired": "需要更新",
-  "@updateRequired": {
-    "description": "強制アップデートが必要な場合のダイアログタイトル"
-  },
   "updateRequiredMessage": "请从{storeName}更新到最新版本",
-  "@updateRequiredMessage": {
-    "description": "強制アップデートが必要な場合のダイアログメッセージ",
-    "placeholders": {
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "screenshotMedicationHistoriesMemo": "因为午睡过久，导致吃药时间延迟",
-  "@screenshotMedicationHistoriesMemo": {
-    "description": "薬のメモの例"
-  },
   "screenshotMedicationDoserReceiver1": "自己",
-  "@screenshotMedicationDoserReceiver1": {
-    "description": "薬の服用者の例"
-  },
   "screenshotMedicationDoserReceiver2": "玛娜",
-  "@screenshotMedicationDoserReceiver2": {
-    "description": "薬の服用者の例"
-  },
   "screenshotMedicationQuontityMemo1": "1片",
-  "@screenshotMedicationQuontityMemo1": {
-    "description": "薬の服用量の例"
-  },
   "screenshotMedicationQuontityMemo2": "2粒",
-  "@screenshotMedicationQuontityMemo2": {
-    "description": "薬の服用量の例"
-  },
   "screenshotMedicationName1": "头痛药",
-  "@screenshotMedicationName1": {
-    "description": "薬の名前の例"
-  },
   "screenshotMedicationName2": "维生素",
-  "@screenshotMedicationName2": {
-    "description": "薬の名前の例"
-  },
   "notificationTitle": "现在是用药时间",
-  "@notificationTitle": {
-    "description": "薬の通知のタイトル"
-  },
   "notificationFollowupTitle": "您是否忘记记录服药？",
-  "@notificationFollowupTitle": {
-    "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
-  },
   "recommendedApp": "推荐应用",
-  "@recommendedApp": {
-    "description": "おすすめアプリのタイトル"
-  },
   "pilllIntroduction": "这可能是药丸管理吗？要不要更方便地管理药丸的服用？",
-  "@pilllIntroduction": {
-    "description": "ピルの管理の紹介"
-  },
   "installPilll": "安装Pilll",
-  "@installPilll": {
-    "description": "Pilllをインストールするボタンのテキスト"
-  },
   "criticalAlertVolume": "音量",
-  "@criticalAlertVolume": {
-    "description": "緊急通知の音量の表示名"
-  }
+  "specialGift": "🎉 特别礼物 🎉",
+  "freePremiumTrialDays": "您将获赠 {count} 天免费试用期！",
+  "welcomeToMedicalarm": "欢迎使用 Medicalarm！",
+  "writeReviewFor5StarPromotion": "在 App Store 撰写五星评价和评论，即可免费试用高级功能 {count} 天！",
+  "rating5StarsEncouragement": "您的★5评价是对开发者极大的鼓励。\n请支持我们，一起打造更好的应用！",
+  "noAutoCharge": "不会自动扣费。试用期结束后，系统会自动切换回免费方案。",
+  "write5StarReview": "撰写五星评价",
+  "receiveReward": "领取奖励",
+  "notNow": "暂时不",
+  "openAppStore": "打开 App Store",
+  "confirmOpenAppStore": "要打开 App Store 撰写评价吗？",
+  "premiumFeaturesList": "高级功能列表",
+  "currentlyInPremiumTrial": "您目前正在试用 Premium。",
+  "medicationPause": "启用药物",
+  "medicationPauseDescription": "关闭后，该药物将从用药页面和通知中移除。",
+  "medicinePausedSnackbar": "已暂时暂停服药",
+  "medicationHistoryDeletedSnackbar": "已撤销服药记录",
+  "undo": "撤销",
+  "medicationHistoryReverted": "撤销服药记录",
+  "revertedTime": "取消时间",
+  "revertedByMember": "{name}已取消",
+  "medicationTakenAtLabel": "{time} 已服用",
+  "medicineResumedSnackbar": "已恢复服药",
+  "medicineEditTooltip": "编辑药物",
+  "groups": "群组",
+  "groupManagement": "群组管理",
+  "createGroup": "创建群组",
+  "groupName": "群组名称",
+  "groupNameInputHint": "输入群组名称",
+  "groupIcon": "图标",
+  "groupMemberCount": "{count}名成员",
+  "defaultGroupBadge": "默认",
+  "soloGroupName": "我的群组",
+  "joinWithInvitationCode": "使用邀请码加入",
+  "groupCreationLimitReached": "免费方案无法再创建更多群组。",
+  "increaseGroupLimitWithPremium": "使用 Premium 方案创建更多群组",
+  "invitationCode": "邀请码",
+  "invitationCodeShareDescription": "分享此代码即可邀请成员",
+  "invitationCodeExpiresAt": "有效期：{date}",
+  "copyInvitationCode": "复制代码",
+  "invitationCodeCopied": "邀请码已复制",
+  "issueInvitationCode": "生成邀请代码",
+  "groupSettings": "群组设置",
+  "members": "成员",
+  "memberFallbackName": "成员",
+  "yourDisplayName": "你的显示名称",
+  "displayNameInputHint": "输入显示名称",
+  "ownerLabel": "所有者",
+  "youLabel": "我",
+  "removeMemberConfirmTitle": "要删除成员吗？",
+  "removeMemberConfirmMessage": "将{name}从群组中移除",
+  "joinGroup": "加入群组",
+  "invitationCodeInputLabel": "邀请码（8个字符）",
+  "invitationCodeInputHint": "输入 8 位代码",
+  "join": "加入",
+  "recordedByMember": "由{name}记录",
+  "accountLink": "账号迁移",
+  "accountLinkDescription": "关联 Apple 或 Google 后，即使更换设备或重新安装应用，也可以迁移数据。",
+  "linkWithApple": "使用 Apple 转移账户",
+  "linkWithGoogle": "使用 Google 转移账户",
+  "accountLinkedWithApple": "已关联 Apple",
+  "accountLinkedWithGoogle": "已关联 Google",
+  "accountLinkedSnackbar": "账号已迁移",
+  "accountLinkBannerText": "共享群组时，强烈建议您设置账号转移。",
+  "minimumDoseInterval": "服药间隔",
+  "minimumDoseIntervalDescription": "两次服用之间的最短间隔时间",
+  "minimumDoseIntervalNone": "无",
+  "minimumDoseIntervalHoursFormat": "至少 {hours}小时",
+  "doseIntervalWarningTitle": "用药间隔尚未达到要求",
+  "doseIntervalWarningMessage": "您已于 {latestTakeTime} 服用过该药。设置的两次服药间隔至少为 {minimumDoseIntervalHours} 小时。仍要记录吗？",
+  "doseIntervalWarningTakeAnyway": "记录",
+  "doseIntervalNotificationWarning": "⚠️ 距离上次服用还未满{minimumDoseIntervalHours}小时",
+  "ossLicense": "OSS 许可证"
 }

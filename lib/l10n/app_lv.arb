@@ -1,783 +1,234 @@
 {
   "@@locale": "lv",
   "retry": "Mēģināt vēlreiz",
-  "@retry": {
-    "description": "エラーが発生した際やデータの読み込みに失敗した際に、再度処理を実行するためのボタンテキスト"
-  },
   "save": "Saglabāt",
-  "@save": {
-    "description": "フォームやエディタで入力したデータを保存する際に使用するボタンテキスト"
-  },
   "memo": "Piezīme",
-  "@memo": {
-    "description": "服薬記録や日記などで追加情報を入力するためのテキストフィールドのプレースホルダー"
-  },
   "completed": "Pabeigts",
-  "@completed": {
-    "description": "フォームの入力や設定の変更などの操作が完了した際に使用するボタンテキスト"
-  },
   "medicineRegistration": "Zāļu reģistrācijas ekrāns",
-  "@medicineRegistration": {
-    "description": "お薬の新規登録・編集画面のタイトル"
-  },
   "medicineName": "Zāļu nosaukums",
-  "@medicineName": {
-    "description": "お薬登録フォームでの薬の名前を入力するフィールドのプレースホルダー"
-  },
   "medicineList": "Zāļu saraksts",
-  "@medicineList": {
-    "description": "登録されているお薬の一覧を表示する画面のタイトル"
-  },
   "medicationSchedule": "Zāļu lietošanas grafiks",
-  "@medicationSchedule": {
-    "description": "服用スケジュールのセクションタイトル"
-  },
   "medicationTime": "Ieslēgt paziņojumus par zāļu lietošanas laiku",
-  "@medicationTime": {
-    "description": "服用時刻の通知設定を有効にするためのスイッチのラベル"
-  },
   "medicationTimeDescription": "Tiks noteikts brīdinājums saskaņā ar zāļu lietošanas laiku.",
-  "@medicationTimeDescription": {
-    "description": "服用時刻の通知設定の説明文"
-  },
   "close": "Aizvērt",
-  "@close": {
-    "description": "ダイアログやモーダルを閉じるためのボタンテキスト"
-  },
   "settings": "Iestatījumi",
-  "@settings": {
-    "description": "設定画面のタイトル"
-  },
   "camera": "Kamera",
-  "@camera": {
-    "description": "カメラを起動するためのメニュー項目"
-  },
   "photoLibrary": "Foto bibliotēka",
-  "@photoLibrary": {
-    "description": "フォトライブラリを開くためのメニュー項目"
-  },
   "medicationHistory": "Zāļu lietošanas vēsture",
-  "@medicationHistory": {
-    "description": "服薬履歴を表示する画面のタイトル"
-  },
   "noMedicationHistory": "Nav nav zāļu lietošanas vēstures",
-  "@noMedicationHistory": {
-    "description": "服薬履歴が存在しない場合に表示するメッセージ"
-  },
   "scheduledTime": "Plānotais laiks",
-  "@scheduledTime": {
-    "description": "服薬予定時刻のラベル"
-  },
   "recordedTime": "Pieraksta laiks",
-  "@recordedTime": {
-    "description": "実際に服薬を記録した時間のラベル"
-  },
   "noMemo": "Bez piezīmēm",
-  "@noMemo": {
-    "description": "メモが存在しない場合に表示するテキスト"
-  },
   "premiumPlan": "Premjumu plāns",
-  "@premiumPlan": {
-    "description": "プレミアムプランの名称"
-  },
   "premiumFeatureAds": "Reklāmu izslēgšana",
-  "@premiumFeatureAds": {
-    "description": "プレミアム機能の広告非表示の説明"
-  },
   "premiumFeatureHistory": "Rādīt visu lietošanas vēsturi",
-  "@premiumFeatureHistory": {
-    "description": "プレミアム機能の履歴表示の説明"
-  },
   "premiumRegistrationComplete": "Medicalarm premium reģistrācija pabeigta",
-  "@premiumRegistrationComplete": {
-    "description": "プレミアム登録完了時のタイトル"
-  },
   "premiumRegistrationThanks": "Paldies par reģistrāciju!\nJums ir pieejamas visas funkcijas!",
-  "@premiumRegistrationThanks": {
-    "description": "プレミアム登録完了時のメッセージ"
-  },
   "unknownError": "Notikusi nezināma kļūda.",
-  "@unknownError": {
-    "description": "予期せぬエラーが発生した際のエラーメッセージ"
-  },
   "error": "Kļūda notika",
-  "@error": {
-    "description": "一般的なエラーメッセージ"
-  },
   "unexpectedError": "Notika par negaidītu kļūdu ir radusies.",
-  "@unexpectedError": {
-    "description": "予期せぬエラーが発生した際のエラーメッセージ"
-  },
   "cancel": "Atcelt",
-  "@cancel": {
-    "description": "操作をキャンセルするためのボタンテキスト"
-  },
   "delete": "Izdzēst",
-  "@delete": {
-    "description": "削除操作を実行するためのボタンテキスト"
-  },
   "deleteAccount": "Dzēst kontu",
-  "@deleteAccount": {
-    "description": "アカウント削除ボタンのテキスト"
-  },
   "deleteAccountConfirm": "Izmantotāja informāciju dzēst.",
-  "@deleteAccountConfirm": {
-    "description": "アカウント削除確認ダイアログのタイトル"
-  },
   "deleteAccountMessage": "Dzēšot kontu, visi lietotāja dati tiks izdzēsti.",
-  "@deleteAccountMessage": {
-    "description": "アカウント削除確認ダイアログのメッセージ"
-  },
   "medicationFrequency": "Zāļu lietošanas biežums",
-  "@medicationFrequency": {
-    "description": "服用頻度の設定セクションのタイトル"
-  },
   "daily": "katru dienu",
-  "@daily": {
-    "description": "毎日服用する頻度設定"
-  },
   "everyXDays": "X dienu intervāls",
-  "@everyXDays": {
-    "description": "X日ごとに服用する頻度設定"
-  },
   "specificWeekdays": "Noteikti specifiska diena",
-  "@specificWeekdays": {
-    "description": "特定の曜日に服用する頻度設定"
-  },
   "cycle": "Cikls",
-  "@cycle": {
-    "description": "周期で服用する頻度設定"
-  },
   "cycleDescription": "21. diena lietošanas / 7. diena pārtraukums",
-  "@cycleDescription": {
-    "description": "周期での服用頻度の説明文"
-  },
   "everyXDaysDescription": "piemēram) ik pēc 2 dienām, ik pēc 3 dienām",
-  "@everyXDaysDescription": {
-    "description": "X日ごとの服用頻度の説明文"
-  },
   "specificWeekdaysDescription": "Piemēram) tikai pirmdienās, trešdienās un piektdienās",
-  "@specificWeekdaysDescription": {
-    "description": "特定の曜日の服用頻度の説明文"
-  },
   "medicineFormValidationError": "Lūdzu, ievadiet vārdu un zāļu lietošanas grafiku.",
-  "@medicineFormValidationError": {
-    "description": "お薬登録フォームでの入力バリデーションエラーメッセージ"
-  },
   "quantity": "Iespēja",
-  "@quantity": {
-    "description": "服用量を入力するフィールドのラベル"
-  },
   "quantityExample": "Piemērs: 1 tablete, 100 mg",
-  "@quantityExample": {
-    "description": "服用量入力フィールドのプレースホルダー"
-  },
   "medicationStartDate": "Zāļu lietošanas sākuma datums",
-  "@medicationStartDate": {
-    "description": "服用開始日を選択するフィールドのラベル"
-  },
   "otherInformation": "Cits cits",
-  "@otherInformation": {
-    "description": "その他の情報を入力するセクションのタイトル"
-  },
   "doseReceiver": "Lietotājs",
-  "@doseReceiver": {
-    "description": "服用者を選択するフィールドのラベル"
-  },
   "defaultDoseReceiver": "Seņģis",
-  "@defaultDoseReceiver": {
-    "description": "デフォルトの服用者名"
-  },
   "doseReceiverMaxCount": "Lietotājiem var reģistrēt līdz {count} personām.",
-  "@doseReceiverMaxCount": {
-    "description": "服用者の最大登録数を表示するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "2"
-      }
-    }
-  },
   "increaseLimitWithPremium": "Palieliniet limitu uz {count} ar premium plānu",
-  "@increaseLimitWithPremium": {
-    "description": "プレミアムプランでの上限増加を案内するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "10"
-      }
-    }
-  },
   "addDoseReceiver": "Pievienot lietotāju",
-  "@addDoseReceiver": {
-    "description": "服用者を追加するボタンのテキスト"
-  },
   "newDoseReceiver": "Jauni lietotāji",
-  "@newDoseReceiver": {
-    "description": "新規追加時のデフォルトの服用者名"
-  },
   "reloginRequired": "Lūdzu, pierakstieties vēlreiz",
-  "@reloginRequired": {
-    "description": "アカウント削除時に再ログインが必要な場合のダイアログタイトル"
-  },
   "reloginMessage": "Lai dzēstu kontu, lūdzu, pārreģistrējieties.",
-  "@reloginMessage": {
-    "description": "アカウント削除時の再ログイン要求メッセージ"
-  },
   "relogin": "Piesakieties vēlreiz",
-  "@relogin": {
-    "description": "再ログインを実行するためのボタンテキスト"
-  },
   "accountDeleted": "Jūsu konts ir izdzēsts.",
-  "@accountDeleted": {
-    "description": "アカウント削除完了時のメッセージ"
-  },
   "confirmExit": "Vai vēlaties iziet no lietotnes?",
-  "@confirmExit": {
-    "description": "アプリ終了確認のメッセージ"
-  },
   "exit": "Beigt",
-  "@exit": {
-    "description": "アプリを終了するためのボタンテキスト"
-  },
   "viewFaq": "Skatīt FAQ",
-  "@viewFaq": {
-    "description": "FAQページを表示するためのボタンテキスト"
-  },
   "medicine": "Zāles",
-  "@medicine": {
-    "description": "お薬タブのタイトル"
-  },
   "inquiry": "Sazināties",
-  "@inquiry": {
-    "description": "お問い合わせボタンのテキスト"
-  },
   "ok": "Labi",
-  "@ok": {
-    "description": "確認ダイアログのOKボタンのテキスト"
-  },
   "medicationScheduleLimit": "Zāles lietošanas grafiku var reģistrēt līdz {count} reizēm.",
-  "@medicationScheduleLimit": {
-    "description": "服用スケジュールの登録上限を表示するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "3"
-      }
-    }
-  },
   "increaseMedicationScheduleLimit": "Palieliniet limita, izmantojot premium plānu, līdz {count}",
-  "@increaseMedicationScheduleLimit": {
-    "description": "服用スケジュールの上限をプレミアムプランで増やすことを案内するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "10"
-      }
-    }
-  },
   "addMedicationSchedule": "Pievienot medikamentu grafiku",
-  "@addMedicationSchedule": {
-    "description": "服用スケジュールを追加するボタンのテキスト"
-  },
   "medicationScheduleNotificationSetting": "Zāļu lietošanas grafika paziņojumu iestatīšana",
-  "@medicationScheduleNotificationSetting": {
-    "description": "服用スケジュールの通知設定画面のタイトル"
-  },
   "notificationSetting": "Paziņojumu iestatījumi",
-  "@notificationSetting": {
-    "description": "通知設定セクションのタイトル"
-  },
   "enableFollowupNotification": "Ieslēgt sekošanas paziņojumus",
-  "@enableFollowupNotification": {
-    "description": "フォローアップ通知を有効にするスイッチのラベル"
-  },
   "followupNotificationDescription": "Jauni sekojošais paziņojums tiks nosūtīts, ja zāļu lietošanu neierakstīsiet 30 minūšu laikā pēc pirmā paziņojuma.",
-  "@followupNotificationDescription": {
-    "description": "フォローアップ通知の説明文"
-  },
   "enableNotificationInSilentMode": "Paziņot pat klusajā režīmā",
-  "@enableNotificationInSilentMode": {
-    "description": "マナーモード時の通知を有効にするスイッチのラベル"
-  },
   "silentModeNotificationDescription": "Patiesi nozīmīgas ziņojumi tiks parādīti uz bloķēšanas ekrāna un atskaņoti krītoša skaņa, pat ja koncentrēšanās režīms ir ieslēgts vai ierīce ir izslēgta.",
-  "@silentModeNotificationDescription": {
-    "description": "マナーモード時の通知の説明文"
-  },
   "everyXDaysFormat": "{count} dienu intervāls",
-  "@everyXDaysFormat": {
-    "description": "X日ごとの服用頻度を表示する際のフォーマット",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "2"
-      }
-    }
-  },
   "cycleDaysFormat": "{consecutiveDays} dienas lietošanas / {restDays} dienas pārtraukuma",
-  "@cycleDaysFormat": {
-    "description": "服用周期を表示する際のフォーマット",
-    "placeholders": {
-      "consecutiveDays": {
-        "type": "int",
-        "example": "21"
-      },
-      "restDays": {
-        "type": "int",
-        "example": "7"
-      }
-    }
-  },
   "consecutiveDaysFormat": "{count} dienas lietošana",
-  "@consecutiveDaysFormat": {
-    "description": "連続服用日数を表示する際のフォーマット",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "21"
-      }
-    }
-  },
   "restDaysFormat": "{count} dienas bez zālēm",
-  "@restDaysFormat": {
-    "description": "休薬日数を表示する際のフォーマット",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "7"
-      }
-    }
-  },
   "limitedTimeDiscount": "Tagad varat izmantot ierobežotu cenu uz visiem laikiem",
-  "@limitedTimeDiscount": {
-    "description": "プレミアムプランの限定価格キャンペーンを案内するメッセージ"
-  },
   "monthlyPlan": "Mēneša abonēšanas plāns",
-  "@monthlyPlan": {
-    "description": "月額プランの名称"
-  },
   "annualPlan": "Gada plāns",
-  "@annualPlan": {
-    "description": "年額プランの名称"
-  },
   "weeklyPlan": "nedēļas plāns",
-  "@weeklyPlan": {
-    "description": "週額プランの名称"
-  },
   "premiumRequired": "Piekļuve ir iespējama, piesakoties uz Premium plānu.",
-  "@premiumRequired": {
-    "description": "プレミアムプラン加入が必要な機能へのアクセス時のメッセージ"
-  },
   "medication": "Zāļu ievadīšana",
-  "@medication": {
-    "description": "服薬タブのタイトル"
-  },
   "history": "Vēsture",
-  "@history": {
-    "description": "履歴タブのタイトル"
-  },
+  "calendar": "Kalendārs",
+  "diary": "Dienasgrāmata",
+  "writeDiary": "Rakstīt dienasgrāmatu",
+  "editDiaryTooltip": "Rediģēt dienasgrāmatu",
   "medicineRegistrationLimit": "zāļu reģistrācijas skaits",
-  "@medicineRegistrationLimit": {
-    "description": "薬の登録数の上限を説明するテキストの一部"
-  },
   "doseReceiverRegistrationLimit": "Reģistrēto lietotāju skaits",
-  "@doseReceiverRegistrationLimit": {
-    "description": "服用者の登録数の上限を説明するテキストの一部"
-  },
   "notificationScheduleLimit": "paziņojumu plānošanas skaits, kurš var būt",
-  "@notificationScheduleLimit": {
-    "description": "通知スケジュールの上限を説明するテキストの一部"
-  },
   "addMedicine": "Pievienot medikamentus",
-  "@addMedicine": {
-    "description": "お薬を追加するボタンのテキスト"
-  },
   "medicineMaxCount": "Zāles var reģistrēt līdz {count} gabaliem.",
-  "@medicineMaxCount": {
-    "description": "お薬の最大登録数を表示するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "5"
-      }
-    }
-  },
   "increaseMedicineLimitWithPremium": "Palieliniet augšējo robežu līdz {count} ar premium plānu.",
-  "@increaseMedicineLimitWithPremium": {
-    "description": "お薬の登録上限をプレミアムプランで増やすことを案内するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "10"
-      }
-    }
-  },
   "aboutApp": "Par lietotni",
-  "@aboutApp": {
-    "description": "アプリについてのセクションタイトル"
-  },
   "viewPremiumPlan": "Apskatīt premium plānu",
-  "@viewPremiumPlan": {
-    "description": "プレミアムプランの詳細を表示するためのボタンテキスト"
-  },
   "cancelSubscriptionInstruction": "Pēc pirkuma automātiskās atjaunināšanas atcelšanu var veikt {storeName} lietotnes konta iestatījumos. (Automātiskās atjaunināšanas atcelšana lietotnē nav iespējama.)",
-  "@cancelSubscriptionInstruction": {
-    "description": "自動更新の解約方法の説明",
-    "placeholders": {
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "headache": "galvassāpes",
-  "@headache": {
-    "description": "症状の選択肢：頭痛"
-  },
   "stomachache": "vēdera sāpes",
-  "@stomachache": {
-    "description": "症状の選択肢：腹痛"
-  },
   "nausea": "Slikko",
-  "@nausea": {
-    "description": "症状の選択肢：吐き気"
-  },
   "anemia": "anēmija",
-  "@anemia": {
-    "description": "症状の選択肢：貧血"
-  },
   "diarrhea": "caureja",
-  "@diarrhea": {
-    "description": "症状の選択肢：下痢"
-  },
   "constipation": "aizcietējums",
-  "@constipation": {
-    "description": "症状の選択肢：便秘"
-  },
   "hotFlash": "karstums",
-  "@hotFlash": {
-    "description": "症状の選択肢：ほてり"
-  },
   "drowsiness": "miegainība",
-  "@drowsiness": {
-    "description": "症状の選択肢：眠気"
-  },
   "backPain": "jostas sāpes",
-  "@backPain": {
-    "description": "症状の選択肢：腰痛"
-  },
   "palpitation": "sirdsdēšana",
-  "@palpitation": {
-    "description": "症状の選択肢：動悸"
-  },
   "abnormalBleeding": "Neregulāra asiņošana",
-  "@abnormalBleeding": {
-    "description": "症状の選択肢：不正出血"
-  },
   "lossOfAppetite": "ēstgribas trūkums",
-  "@lossOfAppetite": {
-    "description": "症状の選択肢：食欲不振"
-  },
   "chestTightness": "Krūšu piepampums",
-  "@chestTightness": {
-    "description": "症状の選択肢：胸の張り"
-  },
   "insomnia": "Miega traucējumi",
-  "@insomnia": {
-    "description": "症状の選択肢：不眠"
-  },
   "monthlyPlanDiscountFormat": "{percent}% ATLAIDE no mēneša plāna",
-  "@monthlyPlanDiscountFormat": {
-    "description": "月額プランからの割引率を表示するフォーマット",
-    "placeholders": {
-      "percent": {
-        "type": "int",
-        "example": "50"
-      }
-    }
-  },
   "purchaseErrorUnknown": "Radās nezināma kļūda. Lūdzu, mēģiniet vēlreiz pēc kāda laika. Ja problēma joprojām pastāv, sazinieties ar mums, dodoties uz Iestatījumi > Jautājumi. Detalizēti: {message}",
-  "@purchaseErrorUnknown": {
-    "description": "購入時の不明なエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorStoreProblem": "{storeName} ir radusies kļūda. Lūdzu, pagaidiet brīdi un mēģiniet vēlreiz.",
-  "@purchaseErrorStoreProblem": {
-    "description": "ストアでのエラーメッセージ",
-    "placeholders": {
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "purchaseErrorInvalidPayment": "Maksājums neizdevās. Lūdzu, pārbaudiet, vai maksājuma veids ir derīgs, un mēģiniet vēlreiz.",
-  "@purchaseErrorInvalidPayment": {
-    "description": "支払い方法が無効な場合のエラーメッセージ"
-  },
   "purchaseErrorProductUnavailable": "Norādītais plāns šobrīd netiek pārdots. Lūdzu, restartējiet lietotni un mēģiniet vēlreiz.",
-  "@purchaseErrorProductUnavailable": {
-    "description": "商品が利用できない場合のエラーメッセージ"
-  },
   "purchaseErrorAlreadyPurchased": "Jūs jau esat iegādājušies plānu. Ja vēlaties atjaunot pirkuma informāciju šajā ierīcē, lūdzu, izmantojiet saiti \"Iepriekš iegādājušies, noklikšķiniet šeit\", lai atjaunotu pirkuma informāciju.",
-  "@purchaseErrorAlreadyPurchased": {
-    "description": "すでに購入済みの場合のエラーメッセージ"
-  },
   "purchaseErrorReceiptInUse": "Jau iegādāts. Iegādes informācija tiek izmantota citam lietotājam. Lūdzu, pārbaudiet {accountName}.",
-  "@purchaseErrorReceiptInUse": {
-    "description": "購入情報が他のユーザーで使用されている場合のエラーメッセージ",
-    "placeholders": {
-      "accountName": {
-        "type": "String",
-        "example": "Apple ID"
-      }
-    }
-  },
   "purchaseErrorInvalidReceipt": "Nepareiza iegādes informācija. Lūdzu, pārbaudiet iegādes informāciju.",
-  "@purchaseErrorInvalidReceipt": {
-    "description": "購入情報が無効な場合のエラーメッセージ"
-  },
   "purchaseErrorMissingReceipt": "Pircēja informācija neeksistē. Lūdzu, pierakstieties ierīcē, izmantojot {accountName}, un mēģiniet vēlreiz.",
-  "@purchaseErrorMissingReceipt": {
-    "description": "購入情報が見つからない場合のエラーメッセージ",
-    "placeholders": {
-      "accountName": {
-        "type": "String",
-        "example": "Apple ID"
-      }
-    }
-  },
   "purchaseErrorNetwork": "Tīklošanas stāvoklis ir nestabils. Lūdzu, pārbaudiet savienojuma stāvokli un mēģiniet vēlreiz.",
-  "@purchaseErrorNetwork": {
-    "description": "ネットワークエラーの場合のエラーメッセージ"
-  },
   "purchaseNotAllowed": "Šis ierīces pirkums nav atļauts.",
-  "@purchaseNotAllowed": {
-    "description": "デバイスでの購入が許可されていない場合のエラーメッセージ"
-  },
   "purchaseErrorInvalidCredentials": "Iegāde neizdevās. Lūdzu, ņemiet pārtraukumu un mēģiniet vēlreiz. Ja problēma joprojām pastāv, sazinieties ar mums, izmantojot Iestatījumi > Kontakti. Detalizēti: {message}",
-  "@purchaseErrorInvalidCredentials": {
-    "description": "認証情報が無効な場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorUnexpectedBackend": "Pašreiz nav iespējams veikt pirkumu. Lūdzu, pēc kāda laika mēģiniet vēlreiz. Ja problēma nepazūd, sazinieties ar mums, dodoties uz Iestatījumi > Jautājumi. Sīkāka informācija: {message}",
-  "@purchaseErrorUnexpectedBackend": {
-    "description": "バックエンドで予期せぬエラーが発生した場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorOperationInProgress": "Pirkšanas process tiek veikts atsevišķi. Lūdzu, pagaidiet un pārbaudiet vēlreiz.",
-  "@purchaseErrorOperationInProgress": {
-    "description": "購入処理が既に進行中の場合のエラーメッセージ"
-  },
   "purchaseErrorInsufficientPermissions": "Jūsu kontā {accountName} nav iespējams pievienoties plānam. Lūdzu, pārbaudiet maksājuma informāciju un mēģiniet vēlreiz.",
-  "@purchaseErrorInsufficientPermissions": {
-    "description": "権限が不足している場合のエラーメッセージ",
-    "placeholders": {
-      "accountName": {
-        "type": "String",
-        "example": "Apple ID"
-      }
-    }
-  },
   "purchaseErrorPaymentPending": "Maksājums ir pārtraukts. Lūdzu, pārbaudiet {storeName} ar {accountName} kontu.",
-  "@purchaseErrorPaymentPending": {
-    "description": "支払いが保留中の場合のエラーメッセージ",
-    "placeholders": {
-      "accountName": {
-        "type": "String",
-        "example": "Apple ID"
-      },
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "premiumUserThanksTitle": "Premium biedrs",
-  "@premiumUserThanksTitle": {
-    "description": "プレミアムユーザーへの感謝を示すタイトル"
-  },
   "premiumUserThanksMessage": "Paldies, ka izmantojat mūs. Pateicoties jums, mēs varam turpināt Medicalarm darbināšanu.",
-  "@premiumUserThanksMessage": {
-    "description": "プレミアムユーザーへの感謝メッセージ"
-  },
   "premiumPricePerMonth": "({price}/mēnesī)",
-  "@premiumPricePerMonth": {
-    "description": "月額料金の表示フォーマット",
-    "placeholders": {
-      "price": {
-        "type": "String",
-        "example": "¥500"
-      }
-    }
-  },
   "premiumCancelDescription": "• Pirkuma veikšanas pēc automātiskās atjaunošanas atcelšana var tikt veikta {storeName} lietotnes konta iestatījumos. (Automātiskās atjaunošanas atcelšana nevar tikt veikta no lietotnes.)",
-  "@premiumCancelDescription": {
-    "description": "プレミアムプランの解約方法の説明",
-    "placeholders": {
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "purchaseErrorRestoreFailed": "Iepriekšējā pirkuma informācija netika atrasta. Lūdzu, pārbaudiet savu kontu un mēģiniet vēlreiz.",
-  "@purchaseErrorRestoreFailed": {
-    "description": "購入情報の復元に失敗した場合のエラーメッセージ"
-  },
   "purchaseErrorUserNotFound": "Lietotājs nevarēja tikt apstiprināts. Lūdzu, restartējiet lietotni un mēģiniet vēlreiz. Sīkāka informācija: {message}",
-  "@purchaseErrorUserNotFound": {
-    "description": "ユーザーが見つからない場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorActivationPending": "Abonēšanas aktivizācija nav pabeigta. Lūdzu, pagaidiet kādu laiku un pārbaudiet vēlreiz.",
-  "@purchaseErrorActivationPending": {
-    "description": "課金の有効化が完了していない場合のエラーメッセージ"
-  },
   "purchaseErrorTimeout": "Laika ir beattie tikmēr. Lūdzu, pārbaudiet savus sakarus un mēģiniet vēlreiz. Ja problēma joprojām pastāv, lūdzu, sazinieties ar mums, dodoties uz Iestatījumi > Kontakti. Detalizēta informācija: {message}",
-  "@purchaseErrorTimeout": {
-    "description": "購入処理がタイムアウトした場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorNetworkError": "Ir irģestrēts savienojuma traucējums. Lūdzu, pārbaudiet savienojuma vidi un mēģiniet vēlreiz. Ja tas neatrisina problēmu, lūdzu, sazinieties ar mums, izmantojot Iestatījumi > Kontakti. Detalizēta informācija: {message}",
-  "@purchaseErrorNetworkError": {
-    "description": "ネットワークエラーが発生した場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "sixMonthPlan": "6 mēnešu plāns",
-  "@sixMonthPlan": {
-    "description": "6ヶ月プランの表示名"
-  },
   "premiumContractPeriod": "Līguma termiņš ir 1 mēnesis no iegādes datuma.",
-  "@premiumContractPeriod": {
-    "description": "プレミアムプランの契約期間の説明"
-  },
   "privacyPolicy": "Privātuma politika",
-  "@privacyPolicy": {
-    "description": "プライバシーポリシーのリンクテキスト"
-  },
   "termsOfService": "Lietošanas noteikumi",
-  "@termsOfService": {
-    "description": "利用規約のリンクテキスト"
-  },
   "specifiedCommercialTransactionAct": "Informācija saskaņā ar Noteikumiem par īpašiem tirdzniecības darījumiem",
-  "@specifiedCommercialTransactionAct": {
-    "description": "特定商取引法に基づく表記のリンクテキスト"
-  },
   "confirmBeforeRegistration": "Lūdzu, pārbaudiet un reģistrējieties.",
-  "@confirmBeforeRegistration": {
-    "description": "各種規約確認を促すメッセージ"
-  },
   "autoRenewalNotice": "Pēc līguma termiņa beigām tiks veikta automātiska atjaunošana.",
-  "@autoRenewalNotice": {
-    "description": "自動更新に関する注意事項"
-  },
   "restorePurchase": "Iepriekš iegādātajām personām šeit",
-  "@restorePurchase": {
-    "description": "購入情報の復元リンクのテキスト"
-  },
   "purchaseRestored": "Iegūta pirkuma informācija",
-  "@purchaseRestored": {
-    "description": "購入情報の復元が完了した際のメッセージ"
-  },
   "medicationTimeFollowup": "Zāļu lietošanas laika sekošana",
-  "@medicationTimeFollowup": {
-    "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
-  },
   "updateRequired": "Jums ir nepieciešams atjauninājums",
-  "@updateRequired": {
-    "description": "強制アップデートが必要な場合のダイアログタイトル"
-  },
   "updateRequiredMessage": "Lūdzu, atjaunojiet uz jaunāko versiju no {storeName}.",
-  "@updateRequiredMessage": {
-    "description": "強制アップデートが必要な場合のダイアログメッセージ",
-    "placeholders": {
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "screenshotMedicationHistoriesMemo": "Pārāk ilgi gulēju pa dienu, tāpēc zāļu dzeršanas laiks kavējās.",
-  "@screenshotMedicationHistoriesMemo": {
-    "description": "薬のメモの例"
-  },
   "screenshotMedicationDoserReceiver1": "Es",
-  "@screenshotMedicationDoserReceiver1": {
-    "description": "薬の服用者の例"
-  },
   "screenshotMedicationDoserReceiver2": "Mana-chan",
-  "@screenshotMedicationDoserReceiver2": {
-    "description": "薬の服用者の例"
-  },
   "screenshotMedicationQuontityMemo1": "1 tablete",
-  "@screenshotMedicationQuontityMemo1": {
-    "description": "薬の服用量の例"
-  },
   "screenshotMedicationQuontityMemo2": "2 tabletes",
-  "@screenshotMedicationQuontityMemo2": {
-    "description": "薬の服用量の例"
-  },
   "screenshotMedicationName1": "Galvassāpes zāles",
-  "@screenshotMedicationName1": {
-    "description": "薬の名前の例"
-  },
   "screenshotMedicationName2": "Vitamīni",
-  "@screenshotMedicationName2": {
-    "description": "薬の名前の例"
-  },
   "notificationTitle": "Zāles laiks",
-  "@notificationTitle": {
-    "description": "薬の通知のタイトル"
-  },
   "notificationFollowupTitle": "Vai jūs neesat aizmirsuši pierakstīt zāļu lietošanas ierakstu?",
-  "@notificationFollowupTitle": {
-    "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
-  },
   "recommendedApp": "Ieteicamās lietotnes",
-  "@recommendedApp": {
-    "description": "おすすめアプリのタイトル"
-  },
   "pilllIntroduction": "Vai jums ir nepieciešama kontracepcijas tablešu pārvaldība? Vai vēlaties ērtāk pārvaldīt tablešu lietošanu?",
-  "@pilllIntroduction": {
-    "description": "ピルの管理の紹介"
-  },
   "installPilll": "Instalēt Pilll",
-  "@installPilll": {
-    "description": "Pilllをインストールするボタンのテキスト"
-  },
   "criticalAlertVolume": "Skaņas līmenis",
-  "@criticalAlertVolume": {
-    "description": "緊急通知の音量の表示名"
-  }
+  "specialGift": "🎉 Īpaša dāvana 🎉",
+  "freePremiumTrialDays": "Dāvanā saņemsiet bezmaksas {count} dienu izmēģinājuma periodu!",
+  "welcomeToMedicalarm": "Laipni lūdzam Medicalarm!",
+  "writeReviewFor5StarPromotion": "Uzrakstiet 5 zvaigžņu vērtējumu un atsauksmi App Store, lai {count} dienas bez maksas izmēģinātu premium funkcijas!",
+  "rating5StarsEncouragement": "Jūsu ★5 vērtējums ir liels iedrošinājums izstrādātājiem.\nAtbalstiet mūs, lai varētu izveidot vēl labāku lietotni!",
+  "noAutoCharge": "Automātiska maksa netiks iekasēta. Pēc izmēģinājuma perioda beigām jūs automātiski atgriezīsieties bezmaksas plānā.",
+  "write5StarReview": "Uzrakstiet 5 zvaigžņu atsauksmi",
+  "receiveReward": "Saņemt atlīdzību",
+  "notNow": "Ne tagad",
+  "openAppStore": "Atvērt App Store",
+  "confirmOpenAppStore": "Vai vēlaties atvērt App Store, lai uzrakstītu atsauksmi?",
+  "premiumFeaturesList": "Premium funkciju saraksts",
+  "currentlyInPremiumTrial": "Pašlaik izmantojat Premium izmēģinājuma periodu.",
+  "medicationPause": "Aktivizēt zāles",
+  "medicationPauseDescription": "Izslēdzot, tas tiks noņemts no zāļu ekrāna un paziņojumiem.",
+  "medicinePausedSnackbar": "Zāļu lietošana uz laiku apturēta",
+  "medicationHistoryDeletedSnackbar": "Zāļu lietošanas ieraksts ir atcelts",
+  "undo": "Atsaukt",
+  "medicationHistoryReverted": "Medikamentu lietošanas ieraksta atcelšana",
+  "revertedTime": "Atcelšanas laiks",
+  "revertedByMember": "Atcēla {name}",
+  "medicationTakenAtLabel": "Lietots plkst. {time}",
+  "medicineResumedSnackbar": "Zāļu lietošana ir atsākta",
+  "medicineEditTooltip": "Rediģēt zāles",
+  "groups": "Grupas",
+  "groupManagement": "Grupu pārvaldība",
+  "createGroup": "Izveidot grupu",
+  "groupName": "Grupas nosaukums",
+  "groupNameInputHint": "Ievadiet grupas nosaukumu",
+  "groupIcon": "Ikona",
+  "groupMemberCount": "{count} dalībnieki",
+  "defaultGroupBadge": "Noklusējuma",
+  "soloGroupName": "Manas grupas",
+  "joinWithInvitationCode": "Pievienoties ar ielūguma kodu",
+  "groupCreationLimitReached": "Bezmaksas plānā vairs nevarat izveidot grupas.",
+  "increaseGroupLimitWithPremium": "Izveidojiet vairāk grupu ar Premium plānu",
+  "invitationCode": "Uzaicinājuma kods",
+  "invitationCodeShareDescription": "Kopīgojiet šo kodu, lai uzaicinātu dalībniekus",
+  "invitationCodeExpiresAt": "Derīgs līdz: {date}",
+  "copyInvitationCode": "Kopēt kodu",
+  "invitationCodeCopied": "Uzaicinājuma kods nokopēts",
+  "issueInvitationCode": "Izveidot ielūguma kodu",
+  "groupSettings": "Grupas iestatījumi",
+  "members": "Dalībnieki",
+  "memberFallbackName": "Dalībnieks",
+  "yourDisplayName": "Jūsu parādāmais vārds",
+  "displayNameInputHint": "Ievadiet parādāmo vārdu",
+  "ownerLabel": "Īpašnieks",
+  "youLabel": "Jūs",
+  "removeMemberConfirmTitle": "Vai noņemt dalībnieku?",
+  "removeMemberConfirmMessage": "Noņemt {name} no grupas",
+  "joinGroup": "Pievienoties grupai",
+  "invitationCodeInputLabel": "Uzaicinājuma kods (8 rakstzīmes)",
+  "invitationCodeInputHint": "Ievadiet 8 rakstzīmju kodu",
+  "join": "Pievienoties",
+  "recordedByMember": "Ierakstīja {name}",
+  "accountLink": "Konta pārsūtīšana",
+  "accountLinkDescription": "Savienojot ar Apple vai Google, varēsiet pārsūtīt savus datus arī pēc ierīces maiņas vai lietotnes atkārtotas instalēšanas.",
+  "linkWithApple": "Pārsūtīt kontu, izmantojot Apple",
+  "linkWithGoogle": "Pārsūtīt kontu, izmantojot Google",
+  "accountLinkedWithApple": "Saistīts ar Apple",
+  "accountLinkedWithGoogle": "Saistīts ar Google",
+  "accountLinkedSnackbar": "Konts pārsūtīts",
+  "accountLinkBannerText": "Kopīgojot grupu, mēs ļoti iesakām iestatīt konta pārsūtīšanu.",
+  "minimumDoseInterval": "Devu lietošanas intervāls",
+  "minimumDoseIntervalDescription": "Minimālais laiks starp devām kopš iepriekšējās devas",
+  "minimumDoseIntervalNone": "Nav",
+  "minimumDoseIntervalHoursFormat": "Vismaz {hours} stundas",
+  "doseIntervalWarningTitle": "Nepieciešamais laiks starp devām vēl nav pagājis",
+  "doseIntervalWarningMessage": "Jūs jau lietojāt zāles plkst. {latestTakeTime}. Iestatījumos noteikts, ka starp devām jābūt vismaz {minimumDoseIntervalHours} stundu intervālam. Vai tomēr reģistrēt šo devu?",
+  "doseIntervalWarningTakeAnyway": "Ierakstīt",
+  "doseIntervalNotificationWarning": "⚠️ Kopš pēdējās devas nav pagājušas {minimumDoseIntervalHours} stundas",
+  "ossLicense": "OSS licences"
 }

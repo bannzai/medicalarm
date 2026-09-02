@@ -1,783 +1,234 @@
 {
   "@@locale": "no",
   "retry": "Prøv igjen",
-  "@retry": {
-    "description": "エラーが発生した際やデータの読み込みに失敗した際に、再度処理を実行するためのボタンテキスト"
-  },
   "save": "Lagre",
-  "@save": {
-    "description": "フォームやエディタで入力したデータを保存する際に使用するボタンテキスト"
-  },
   "memo": "Notat",
-  "@memo": {
-    "description": "服薬記録や日記などで追加情報を入力するためのテキストフィールドのプレースホルダー"
-  },
   "completed": "Ferdig",
-  "@completed": {
-    "description": "フォームの入力や設定の変更などの操作が完了した際に使用するボタンテキスト"
-  },
   "medicineRegistration": "Legemiddelinntastingsskjerm",
-  "@medicineRegistration": {
-    "description": "お薬の新規登録・編集画面のタイトル"
-  },
   "medicineName": "Legemiddelnavn",
-  "@medicineName": {
-    "description": "お薬登録フォームでの薬の名前を入力するフィールドのプレースホルダー"
-  },
   "medicineList": "Liste over medisiner",
-  "@medicineList": {
-    "description": "登録されているお薬の一覧を表示する画面のタイトル"
-  },
   "medicationSchedule": "Medisinplan",
-  "@medicationSchedule": {
-    "description": "服用スケジュールのセクションタイトル"
-  },
   "medicationTime": "Slå på varsling for inntakstid",
-  "@medicationTime": {
-    "description": "服用時刻の通知設定を有効にするためのスイッチのラベル"
-  },
   "medicationTimeDescription": "Vi sender varsler basert på tidspunktet for inntak.",
-  "@medicationTimeDescription": {
-    "description": "服用時刻の通知設定の説明文"
-  },
   "close": "Lukk",
-  "@close": {
-    "description": "ダイアログやモーダルを閉じるためのボタンテキスト"
-  },
   "settings": "Innstillinger",
-  "@settings": {
-    "description": "設定画面のタイトル"
-  },
   "camera": "Kamera",
-  "@camera": {
-    "description": "カメラを起動するためのメニュー項目"
-  },
   "photoLibrary": "Fotobibliotek",
-  "@photoLibrary": {
-    "description": "フォトライブラリを開くためのメニュー項目"
-  },
   "medicationHistory": "Medisinhistorikk",
-  "@medicationHistory": {
-    "description": "服薬履歴を表示する画面のタイトル"
-  },
   "noMedicationHistory": "Ingen medikamenthistorikk tilgjengelig",
-  "@noMedicationHistory": {
-    "description": "服薬履歴が存在しない場合に表示するメッセージ"
-  },
   "scheduledTime": "Planlagt tidspunkt",
-  "@scheduledTime": {
-    "description": "服薬予定時刻のラベル"
-  },
   "recordedTime": "Registreringstid",
-  "@recordedTime": {
-    "description": "実際に服薬を記録した時間のラベル"
-  },
   "noMemo": "Ingen merknad",
-  "@noMemo": {
-    "description": "メモが存在しない場合に表示するテキスト"
-  },
   "premiumPlan": "Premiumplan",
-  "@premiumPlan": {
-    "description": "プレミアムプランの名称"
-  },
   "premiumFeatureAds": "Skjuling av annonser",
-  "@premiumFeatureAds": {
-    "description": "プレミアム機能の広告非表示の説明"
-  },
   "premiumFeatureHistory": "Vis alle doseringshistorikk",
-  "@premiumFeatureHistory": {
-    "description": "プレミアム機能の履歴表示の説明"
-  },
   "premiumRegistrationComplete": "Medicalarm premium registrering fullført",
-  "@premiumRegistrationComplete": {
-    "description": "プレミアム登録完了時のタイトル"
-  },
   "premiumRegistrationThanks": "Takk for registreringen din.\nAlle funksjoner er nå tilgjengelige!",
-  "@premiumRegistrationThanks": {
-    "description": "プレミアム登録完了時のメッセージ"
-  },
   "unknownError": "Det oppsto en ukjent feil.",
-  "@unknownError": {
-    "description": "予期せぬエラーが発生した際のエラーメッセージ"
-  },
   "error": "Det oppstod en feil",
-  "@error": {
-    "description": "一般的なエラーメッセージ"
-  },
   "unexpectedError": "En uventet feil har oppstått",
-  "@unexpectedError": {
-    "description": "予期せぬエラーが発生した際のエラーメッセージ"
-  },
   "cancel": "Avbryt",
-  "@cancel": {
-    "description": "操作をキャンセルするためのボタンテキスト"
-  },
   "delete": "Slett",
-  "@delete": {
-    "description": "削除操作を実行するためのボタンテキスト"
-  },
   "deleteAccount": "Slette konto",
-  "@deleteAccount": {
-    "description": "アカウント削除ボタンのテキスト"
-  },
   "deleteAccountConfirm": "Sletter brukeropplysninger",
-  "@deleteAccountConfirm": {
-    "description": "アカウント削除確認ダイアログのタイトル"
-  },
   "deleteAccountMessage": "Når du sletter kontoen, vil all brukerinfo bli slettet.",
-  "@deleteAccountMessage": {
-    "description": "アカウント削除確認ダイアログのメッセージ"
-  },
   "medicationFrequency": "Medisineringsfrekvens",
-  "@medicationFrequency": {
-    "description": "服用頻度の設定セクションのタイトル"
-  },
   "daily": "Hver dag",
-  "@daily": {
-    "description": "毎日服用する頻度設定"
-  },
   "everyXDays": "Hver X. dag",
-  "@everyXDays": {
-    "description": "X日ごとに服用する頻度設定"
-  },
   "specificWeekdays": "Bestemte uker",
-  "@specificWeekdays": {
-    "description": "特定の曜日に服用する頻度設定"
-  },
   "cycle": "Syklus",
-  "@cycle": {
-    "description": "周期で服用する頻度設定"
-  },
   "cycleDescription": "Eksempel) 21 dager med medisinering / 7 dager uten medisinering",
-  "@cycleDescription": {
-    "description": "周期での服用頻度の説明文"
-  },
   "everyXDaysDescription": "Hver dag",
-  "@everyXDaysDescription": {
-    "description": "X日ごとの服用頻度の説明文"
-  },
   "specificWeekdaysDescription": "Eksempel) Bare mandag, Onsdag og fredag",
-  "@specificWeekdaysDescription": {
-    "description": "特定の曜日の服用頻度の説明文"
-  },
   "medicineFormValidationError": "Vennligst skriv inn navn og inntaksplan.",
-  "@medicineFormValidationError": {
-    "description": "お薬登録フォームでの入力バリデーションエラーメッセージ"
-  },
   "quantity": "Kapacitet",
-  "@quantity": {
-    "description": "服用量を入力するフィールドのラベル"
-  },
   "quantityExample": "Eksempel: 1 tablett, 100mg",
-  "@quantityExample": {
-    "description": "服用量入力フィールドのプレースホルダー"
-  },
   "medicationStartDate": "Start date for medication",
-  "@medicationStartDate": {
-    "description": "服用開始日を選択するフィールドのラベル"
-  },
   "otherInformation": "Annet",
-  "@otherInformation": {
-    "description": "その他の情報を入力するセクションのタイトル"
-  },
   "doseReceiver": "Medisiner",
-  "@doseReceiver": {
-    "description": "服用者を選択するフィールドのラベル"
-  },
   "defaultDoseReceiver": "meg selv",
-  "@defaultDoseReceiver": {
-    "description": "デフォルトの服用者名"
-  },
   "doseReceiverMaxCount": "Det kan registreres opptil {count} brukere.",
-  "@doseReceiverMaxCount": {
-    "description": "服用者の最大登録数を表示するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "2"
-      }
-    }
-  },
   "increaseLimitWithPremium": "Øk grensen til {count} med premiumplanen",
-  "@increaseLimitWithPremium": {
-    "description": "プレミアムプランでの上限増加を案内するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "10"
-      }
-    }
-  },
   "addDoseReceiver": "Legemiddelbruker legges til",
-  "@addDoseReceiver": {
-    "description": "服用者を追加するボタンのテキスト"
-  },
   "newDoseReceiver": "Ny bruker",
-  "@newDoseReceiver": {
-    "description": "新規追加時のデフォルトの服用者名"
-  },
   "reloginRequired": "Vennligst logg inn igjen",
-  "@reloginRequired": {
-    "description": "アカウント削除時に再ログインが必要な場合のダイアログタイトル"
-  },
   "reloginMessage": "For å slette kontoen, vennligst logg inn igjen.",
-  "@reloginMessage": {
-    "description": "アカウント削除時の再ログイン要求メッセージ"
-  },
   "relogin": "Logg inn igjen",
-  "@relogin": {
-    "description": "再ログインを実行するためのボタンテキスト"
-  },
   "accountDeleted": "Kontoet er slettet",
-  "@accountDeleted": {
-    "description": "アカウント削除完了時のメッセージ"
-  },
   "confirmExit": "Vil du avslutte appen?",
-  "@confirmExit": {
-    "description": "アプリ終了確認のメッセージ"
-  },
   "exit": "Avslutt",
-  "@exit": {
-    "description": "アプリを終了するためのボタンテキスト"
-  },
   "viewFaq": "Se vanlige spørsmål",
-  "@viewFaq": {
-    "description": "FAQページを表示するためのボタンテキスト"
-  },
   "medicine": "Medisin",
-  "@medicine": {
-    "description": "お薬タブのタイトル"
-  },
   "inquiry": "Kontakt oss",
-  "@inquiry": {
-    "description": "お問い合わせボタンのテキスト"
-  },
   "ok": "OK",
-  "@ok": {
-    "description": "確認ダイアログのOKボタンのテキスト"
-  },
   "medicationScheduleLimit": "Du kan registrere opptil {count} medisineringsplaner.",
-  "@medicationScheduleLimit": {
-    "description": "服用スケジュールの登録上限を表示するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "3"
-      }
-    }
-  },
   "increaseMedicationScheduleLimit": "Øk grensen til {count} med premiumplanen",
-  "@increaseMedicationScheduleLimit": {
-    "description": "服用スケジュールの上限をプレミアムプランで増やすことを案内するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "10"
-      }
-    }
-  },
   "addMedicationSchedule": "Legg til medisineringstidspunkt",
-  "@addMedicationSchedule": {
-    "description": "服用スケジュールを追加するボタンのテキスト"
-  },
   "medicationScheduleNotificationSetting": "Innstilling av påminnelse for medisinering",
-  "@medicationScheduleNotificationSetting": {
-    "description": "服用スケジュールの通知設定画面のタイトル"
-  },
   "notificationSetting": "Varselinnstillinger",
-  "@notificationSetting": {
-    "description": "通知設定セクションのタイトル"
-  },
   "enableFollowupNotification": "Aktiver oppfølgingsvarsler",
-  "@enableFollowupNotification": {
-    "description": "フォローアップ通知を有効にするスイッチのラベル"
-  },
   "followupNotificationDescription": "Hvis du ikke registrerer medisineringen innen 30 minutter etter den første varslingen, sendes en oppfølgingsvarsling.",
-  "@followupNotificationDescription": {
-    "description": "フォローアップ通知の説明文"
-  },
   "enableNotificationInSilentMode": "Varsler i stille modus",
-  "@enableNotificationInSilentMode": {
-    "description": "マナーモード時の通知を有効にするスイッチのラベル"
-  },
   "silentModeNotificationDescription": "Selv om konsentrasjonsmodus er PÅ eller enheten er i stille modus, vil viktige varsler vises på låseskjermen, og lyd vil bli spilt av.",
-  "@silentModeNotificationDescription": {
-    "description": "マナーモード時の通知の説明文"
-  },
   "everyXDaysFormat": "hver {count} dag",
-  "@everyXDaysFormat": {
-    "description": "X日ごとの服用頻度を表示する際のフォーマット",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "2"
-      }
-    }
-  },
   "cycleDaysFormat": "{consecutiveDays} dager med medisinering / {restDays} dager uten medisinering",
-  "@cycleDaysFormat": {
-    "description": "服用周期を表示する際のフォーマット",
-    "placeholders": {
-      "consecutiveDays": {
-        "type": "int",
-        "example": "21"
-      },
-      "restDays": {
-        "type": "int",
-        "example": "7"
-      }
-    }
-  },
   "consecutiveDaysFormat": "{count} dager med medisinering",
-  "@consecutiveDaysFormat": {
-    "description": "連続服用日数を表示する際のフォーマット",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "21"
-      }
-    }
-  },
   "restDaysFormat": "{count} dager uten medisin",
-  "@restDaysFormat": {
-    "description": "休薬日数を表示する際のフォーマット",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "7"
-      }
-    }
-  },
   "limitedTimeDiscount": "Nå får du en begrenset tidspris som du kan bruke for alltid",
-  "@limitedTimeDiscount": {
-    "description": "プレミアムプランの限定価格キャンペーンを案内するメッセージ"
-  },
   "monthlyPlan": "Månedlig plan",
-  "@monthlyPlan": {
-    "description": "月額プランの名称"
-  },
   "annualPlan": "Årsplan",
-  "@annualPlan": {
-    "description": "年額プランの名称"
-  },
   "weeklyPlan": "Ukentlig plan",
-  "@weeklyPlan": {
-    "description": "週額プランの名称"
-  },
   "premiumRequired": "Du kan få tilgang til dette ved å bli med i premiumplanen.",
-  "@premiumRequired": {
-    "description": "プレミアムプラン加入が必要な機能へのアクセス時のメッセージ"
-  },
   "medication": "Medisin",
-  "@medication": {
-    "description": "服薬タブのタイトル"
-  },
   "history": "Historikk",
-  "@history": {
-    "description": "履歴タブのタイトル"
-  },
+  "calendar": "Kalender",
+  "diary": "Dagbok",
+  "writeDiary": "Skriv dagbok",
+  "editDiaryTooltip": "Rediger dagbok",
   "medicineRegistrationLimit": "Antall registrerte legemidler",
-  "@medicineRegistrationLimit": {
-    "description": "薬の登録数の上限を説明するテキストの一部"
-  },
   "doseReceiverRegistrationLimit": "antall registrerte brukere",
-  "@doseReceiverRegistrationLimit": {
-    "description": "服用者の登録数の上限を説明するテキストの一部"
-  },
   "notificationScheduleLimit": "antall varsler for tidsplanen",
-  "@notificationScheduleLimit": {
-    "description": "通知スケジュールの上限を説明するテキストの一部"
-  },
   "addMedicine": "Legemidler legge til",
-  "@addMedicine": {
-    "description": "お薬を追加するボタンのテキスト"
-  },
   "medicineMaxCount": "Du kan registrere opptil {count} medisiner.",
-  "@medicineMaxCount": {
-    "description": "お薬の最大登録数を表示するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "5"
-      }
-    }
-  },
   "increaseMedicineLimitWithPremium": "Øk grensen til {count} med premiumplanen",
-  "@increaseMedicineLimitWithPremium": {
-    "description": "お薬の登録上限をプレミアムプランで増やすことを案内するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "10"
-      }
-    }
-  },
   "aboutApp": "Om appen",
-  "@aboutApp": {
-    "description": "アプリについてのセクションタイトル"
-  },
   "viewPremiumPlan": "Se premiumplanen",
-  "@viewPremiumPlan": {
-    "description": "プレミアムプランの詳細を表示するためのボタンテキスト"
-  },
   "cancelSubscriptionInstruction": "Etter kjøp kan du avbryte automatisk fornyelse i {storeName} appens kontoinnstillinger. (Automatisk fornyelse kan ikke avbrytes fra appen.)",
-  "@cancelSubscriptionInstruction": {
-    "description": "自動更新の解約方法の説明",
-    "placeholders": {
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "headache": "Hodepine",
-  "@headache": {
-    "description": "症状の選択肢：頭痛"
-  },
   "stomachache": "magesmerter",
-  "@stomachache": {
-    "description": "症状の選択肢：腹痛"
-  },
   "nausea": "Kvalme",
-  "@nausea": {
-    "description": "症状の選択肢：吐き気"
-  },
   "anemia": "anemi",
-  "@anemia": {
-    "description": "症状の選択肢：貧血"
-  },
   "diarrhea": "Diaré",
-  "@diarrhea": {
-    "description": "症状の選択肢：下痢"
-  },
   "constipation": "forstoppelse",
-  "@constipation": {
-    "description": "症状の選択肢：便秘"
-  },
   "hotFlash": "hete",
-  "@hotFlash": {
-    "description": "症状の選択肢：ほてり"
-  },
   "drowsiness": "Søvnighet",
-  "@drowsiness": {
-    "description": "症状の選択肢：眠気"
-  },
   "backPain": "Lumbago",
-  "@backPain": {
-    "description": "症状の選択肢：腰痛"
-  },
   "palpitation": "hjertebank",
-  "@palpitation": {
-    "description": "症状の選択肢：動悸"
-  },
   "abnormalBleeding": "Unormal blødning",
-  "@abnormalBleeding": {
-    "description": "症状の選択肢：不正出血"
-  },
   "lossOfAppetite": "nedsatt appetitt",
-  "@lossOfAppetite": {
-    "description": "症状の選択肢：食欲不振"
-  },
   "chestTightness": "Brystspenning",
-  "@chestTightness": {
-    "description": "症状の選択肢：胸の張り"
-  },
   "insomnia": "Søvnproblem",
-  "@insomnia": {
-    "description": "症状の選択肢：不眠"
-  },
   "monthlyPlanDiscountFormat": "{percent}% AV MÅNEDLIG ABONNEMENT",
-  "@monthlyPlanDiscountFormat": {
-    "description": "月額プランからの割引率を表示するフォーマット",
-    "placeholders": {
-      "percent": {
-        "type": "int",
-        "example": "50"
-      }
-    }
-  },
   "purchaseErrorUnknown": "Det oppstod en ukjent feil. Vennligst prøv igjen senere. Hvis problemet vedvarer, vennligst kontakt oss via Innstillinger > Henvendelser. Detaljer: {message}",
-  "@purchaseErrorUnknown": {
-    "description": "購入時の不明なエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorStoreProblem": "Det oppstod en feil i {storeName}. Vennligst vent en stund og prøv igjen.",
-  "@purchaseErrorStoreProblem": {
-    "description": "ストアでのエラーメッセージ",
-    "placeholders": {
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "purchaseErrorInvalidPayment": "Betaling feilet. Vennligst sjekk om betalingsmetoden din er gyldig og prøv igjen.",
-  "@purchaseErrorInvalidPayment": {
-    "description": "支払い方法が無効な場合のエラーメッセージ"
-  },
   "purchaseErrorProductUnavailable": "Den aktuelle planen er ikke tilgjengelig for salg. Vennligst start appen på nytt og prøv igjen.",
-  "@purchaseErrorProductUnavailable": {
-    "description": "商品が利用できない場合のエラーメッセージ"
-  },
   "purchaseErrorAlreadyPurchased": "Du har allerede kjøpt planen. Hvis du vil gjenopprette kjøpsinformasjonen på denne enheten, vennligst gå til \"Tidligere kjøpte her\" for å gjenopprette kjøpsinformasjonen.",
-  "@purchaseErrorAlreadyPurchased": {
-    "description": "すでに購入済みの場合のエラーメッセージ"
-  },
   "purchaseErrorReceiptInUse": "Allerede kjøpt. Kjøpsinformasjonen brukes av en annen bruker. Vennligst sjekk {accountName}.",
-  "@purchaseErrorReceiptInUse": {
-    "description": "購入情報が他のユーザーで使用されている場合のエラーメッセージ",
-    "placeholders": {
-      "accountName": {
-        "type": "String",
-        "example": "Apple ID"
-      }
-    }
-  },
   "purchaseErrorInvalidReceipt": "Ugyldig kjøpsinformasjon. Vennligst sjekk kjøpsinformasjonen din.",
-  "@purchaseErrorInvalidReceipt": {
-    "description": "購入情報が無効な場合のエラーメッセージ"
-  },
   "purchaseErrorMissingReceipt": "Ingen informasjon om kjøperen finnes. Vennligst logg inn på enheten med {accountName} for å prøve det.",
-  "@purchaseErrorMissingReceipt": {
-    "description": "購入情報が見つからない場合のエラーメッセージ",
-    "placeholders": {
-      "accountName": {
-        "type": "String",
-        "example": "Apple ID"
-      }
-    }
-  },
   "purchaseErrorNetwork": "Nettverksstatusen er ustabil. Vennligst kontroller tilkoblingen før du prøver igjen.",
-  "@purchaseErrorNetwork": {
-    "description": "ネットワークエラーの場合のエラーメッセージ"
-  },
   "purchaseNotAllowed": "Kjøp er ikke tillatt på denne enheten.",
-  "@purchaseNotAllowed": {
-    "description": "デバイスでの購入が許可されていない場合のエラーメッセージ"
-  },
   "purchaseErrorInvalidCredentials": "Kjøpet mislyktes. Vennligst vent en stund og prøv igjen. Hvis problemet vedvarer, vennligst kontakt oss via Innstillinger > Kontakt oss. Detaljer: {message}",
-  "@purchaseErrorInvalidCredentials": {
-    "description": "認証情報が無効な場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorUnexpectedBackend": "Kjøp er for øyeblikket ikke tilgjengelig. Vennligst prøv igjen senere. Hvis problemet vedvarer, vennligst kontakt oss via Innstillinger > Forespørsel. Detaljer: {message}",
-  "@purchaseErrorUnexpectedBackend": {
-    "description": "バックエンドで予期せぬエラーが発生した場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorOperationInProgress": "Kjøpsprosessen pågår allerede. Vennligst vent litt og sjekk igjen.",
-  "@purchaseErrorOperationInProgress": {
-    "description": "購入処理が既に進行中の場合のエラーメッセージ"
-  },
   "purchaseErrorInsufficientPermissions": "Din {accountName} kan ikke bli med i planen. Vennligst sjekk betalingsinformasjonen din og prøv igjen.",
-  "@purchaseErrorInsufficientPermissions": {
-    "description": "権限が不足している場合のエラーメッセージ",
-    "placeholders": {
-      "accountName": {
-        "type": "String",
-        "example": "Apple ID"
-      }
-    }
-  },
   "purchaseErrorPaymentPending": "Betalingen er stoppet. Vennligst sjekk {storeName} med {accountName} som er logget inn.",
-  "@purchaseErrorPaymentPending": {
-    "description": "支払いが保留中の場合のエラーメッセージ",
-    "placeholders": {
-      "accountName": {
-        "type": "String",
-        "example": "Apple ID"
-      },
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "premiumUserThanksTitle": "Premium-medlem",
-  "@premiumUserThanksTitle": {
-    "description": "プレミアムユーザーへの感謝を示すタイトル"
-  },
   "premiumUserThanksMessage": "Takk for at du bruker tjenesten vår. Takket være deg kan vi fortsette driften av Medicalarm.",
-  "@premiumUserThanksMessage": {
-    "description": "プレミアムユーザーへの感謝メッセージ"
-  },
   "premiumPricePerMonth": "({price}/måned)",
-  "@premiumPricePerMonth": {
-    "description": "月額料金の表示フォーマット",
-    "placeholders": {
-      "price": {
-        "type": "String",
-        "example": "¥500"
-      }
-    }
-  },
   "premiumCancelDescription": "• Etter kjøp kan oppsigelse av automatisk fornyelse gjøres i kontoinnstillingene i {storeName}-appen. (Oppsigelse av automatisk fornyelse kan ikke gjøres fra appen).",
-  "@premiumCancelDescription": {
-    "description": "プレミアムプランの解約方法の説明",
-    "placeholders": {
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "purchaseErrorRestoreFailed": "Ingen tidligere kjøpsinformasjon ble funnet. Vennligst sjekk kontoen din og prøv igjen.",
-  "@purchaseErrorRestoreFailed": {
-    "description": "購入情報の復元に失敗した場合のエラーメッセージ"
-  },
   "purchaseErrorUserNotFound": "Brukeren kunne ikke bekreftes. Vennligst start appen på nytt og prøv igjen. Detaljer: {message}",
-  "@purchaseErrorUserNotFound": {
-    "description": "ユーザーが見つからない場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorActivationPending": "Aktiveringen av betalingen er ikke fullført. Vennligst sjekk igjen etter en stund.",
-  "@purchaseErrorActivationPending": {
-    "description": "課金の有効化が完了していない場合のエラーメッセージ"
-  },
   "purchaseErrorTimeout": "Tiden er ute. Vennligst sjekk kommunikasjonsmiljøet ditt og prøv igjen. Hvis det ikke løser seg, vennligst kontakt oss via Innstillinger > Spørsmål. Detaljer: {message}",
-  "@purchaseErrorTimeout": {
-    "description": "購入処理がタイムアウトした場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorNetworkError": "Det er et nettverksproblem. Vennligst sjekk nettverksforholdene dine og prøv igjen. Hvis problemet vedvarer, vennligst kontakt oss via Innstillinger > Forespørsel. Detaljer: {message}",
-  "@purchaseErrorNetworkError": {
-    "description": "ネットワークエラーが発生した場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "sixMonthPlan": "6 måneders plan",
-  "@sixMonthPlan": {
-    "description": "6ヶ月プランの表示名"
-  },
   "premiumContractPeriod": "Kontraktsperioden varer i 1 måned fra kjøpsdato.",
-  "@premiumContractPeriod": {
-    "description": "プレミアムプランの契約期間の説明"
-  },
   "privacyPolicy": "Personvernerklæring",
-  "@privacyPolicy": {
-    "description": "プライバシーポリシーのリンクテキスト"
-  },
   "termsOfService": "Bruksvilkår",
-  "@termsOfService": {
-    "description": "利用規約のリンクテキスト"
-  },
   "specifiedCommercialTransactionAct": "Informasjon i henhold til lov om spesifikke handelsforhold",
-  "@specifiedCommercialTransactionAct": {
-    "description": "特定商取引法に基づく表記のリンクテキスト"
-  },
   "confirmBeforeRegistration": "Vennligst bekreft dette før du registrerer deg.",
-  "@confirmBeforeRegistration": {
-    "description": "各種規約確認を促すメッセージ"
-  },
   "autoRenewalNotice": "Etter at kontraktsperioden er over, vil den bli automatisk fornyet.",
-  "@autoRenewalNotice": {
-    "description": "自動更新に関する注意事項"
-  },
   "restorePurchase": "Tidligere kjøpte personer, klikk her",
-  "@restorePurchase": {
-    "description": "購入情報の復元リンクのテキスト"
-  },
   "purchaseRestored": "Kjøpsinformasjonen er gjenopprettet.",
-  "@purchaseRestored": {
-    "description": "購入情報の復元が完了した際のメッセージ"
-  },
   "medicationTimeFollowup": "Oppfølging av medikamentinntakstid",
-  "@medicationTimeFollowup": {
-    "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
-  },
   "updateRequired": "Oppdatering er nødvendig",
-  "@updateRequired": {
-    "description": "強制アップデートが必要な場合のダイアログタイトル"
-  },
   "updateRequiredMessage": "Vennligst oppdater til den nyeste versjonen fra {storeName}",
-  "@updateRequiredMessage": {
-    "description": "強制アップデートが必要な場合のダイアログメッセージ",
-    "placeholders": {
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "screenshotMedicationHistoriesMemo": "Sov for lenge og forsinket legemiddeltid",
-  "@screenshotMedicationHistoriesMemo": {
-    "description": "薬のメモの例"
-  },
   "screenshotMedicationDoserReceiver1": "Deg selv",
-  "@screenshotMedicationDoserReceiver1": {
-    "description": "薬の服用者の例"
-  },
   "screenshotMedicationDoserReceiver2": "Mina",
-  "@screenshotMedicationDoserReceiver2": {
-    "description": "薬の服用者の例"
-  },
   "screenshotMedicationQuontityMemo1": "1 tablett",
-  "@screenshotMedicationQuontityMemo1": {
-    "description": "薬の服用量の例"
-  },
   "screenshotMedicationQuontityMemo2": "2 tabletter",
-  "@screenshotMedicationQuontityMemo2": {
-    "description": "薬の服用量の例"
-  },
   "screenshotMedicationName1": "Hodepinepiller",
-  "@screenshotMedicationName1": {
-    "description": "薬の名前の例"
-  },
   "screenshotMedicationName2": "Vitaminer",
-  "@screenshotMedicationName2": {
-    "description": "薬の名前の例"
-  },
   "notificationTitle": "Det er tid for medisinen din",
-  "@notificationTitle": {
-    "description": "薬の通知のタイトル"
-  },
   "notificationFollowupTitle": "Har du glemt å registrere medisineringen din?",
-  "@notificationFollowupTitle": {
-    "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
-  },
   "recommendedApp": "Anbefalte apper",
-  "@recommendedApp": {
-    "description": "おすすめアプリのタイトル"
-  },
   "pilllIntroduction": "Er det kanskje pilleadministrasjon? Vil du administrere pilleinntaket mer praktisk?",
-  "@pilllIntroduction": {
-    "description": "ピルの管理の紹介"
-  },
   "installPilll": "Installer Pilll",
-  "@installPilll": {
-    "description": "Pilllをインストールするボタンのテキスト"
-  },
   "criticalAlertVolume": "Lydnivå",
-  "@criticalAlertVolume": {
-    "description": "緊急通知の音量の表示名"
-  }
+  "specialGift": "🎉 Spesiell gave 🎉",
+  "freePremiumTrialDays": "Du får en gratis prøveperiode på {count} dager i gave!",
+  "welcomeToMedicalarm": "Velkommen til Medicalarm!",
+  "writeReviewFor5StarPromotion": "Skriv en 5-stjerners vurdering og anmeldelse i App Store, og prøv premiumfunksjonene gratis i {count} dager!",
+  "rating5StarsEncouragement": "Di ★5-vurdering er ei stor oppmuntring for utviklarane.\nStøtt oss gjerne, så vi kan lage ein endå betre app!",
+  "noAutoCharge": "Du blir ikke belastet automatisk. Når prøveperioden er over, går du automatisk tilbake til gratisplanen.",
+  "write5StarReview": "Skriv en anmeldelse med 5 stjerner",
+  "receiveReward": "Motta belønning",
+  "notNow": "Ikke nå",
+  "openAppStore": "Åpne App Store",
+  "confirmOpenAppStore": "Vil du åpne App Store for å skrive en anmeldelse?",
+  "premiumFeaturesList": "Liste over premiumfunksjoner",
+  "currentlyInPremiumTrial": "Du er for øyeblikket i Premium-prøveperioden.",
+  "medicationPause": "Aktiver medisin",
+  "medicationPauseDescription": "Når den slås av, fjernes den fra medisinskjermen og varslingene.",
+  "medicinePausedSnackbar": "Medisininntaket er midlertidig satt på pause",
+  "medicationHistoryDeletedSnackbar": "Registreringen av medisininntaket er angret",
+  "undo": "Angre",
+  "medicationHistoryReverted": "Angre registrering av medisininntak",
+  "revertedTime": "Kanselleringstid",
+  "revertedByMember": "Kansellert av {name}",
+  "medicationTakenAtLabel": "Tatt kl. {time}",
+  "medicineResumedSnackbar": "Medisininntaket er gjenopptatt",
+  "medicineEditTooltip": "Rediger medisin",
+  "groups": "Grupper",
+  "groupManagement": "Gruppeadministrasjon",
+  "createGroup": "Opprett gruppe",
+  "groupName": "Gruppenavn",
+  "groupNameInputHint": "Skriv inn gruppenavn",
+  "groupIcon": "Ikon",
+  "groupMemberCount": "{count} medlemmer",
+  "defaultGroupBadge": "Standard",
+  "soloGroupName": "Mine grupper",
+  "joinWithInvitationCode": "Bli med med invitasjonskode",
+  "groupCreationLimitReached": "Du kan ikke opprette flere grupper med gratisabonnementet.",
+  "increaseGroupLimitWithPremium": "Opprett flere grupper med Premium-planen",
+  "invitationCode": "Invitasjonskode",
+  "invitationCodeShareDescription": "Del denne koden for å invitere medlemmer",
+  "invitationCodeExpiresAt": "Utløper: {date}",
+  "copyInvitationCode": "Kopier kode",
+  "invitationCodeCopied": "Invitasjonskoden er kopiert",
+  "issueInvitationCode": "Lag invitasjonskode",
+  "groupSettings": "Gruppeinnstillinger",
+  "members": "Medlemmer",
+  "memberFallbackName": "Medlem",
+  "yourDisplayName": "Visningsnavnet ditt",
+  "displayNameInputHint": "Skriv inn visningsnavn",
+  "ownerLabel": "Eier",
+  "youLabel": "Du",
+  "removeMemberConfirmTitle": "Vil du fjerne medlemmet?",
+  "removeMemberConfirmMessage": "Fjern {name} fra gruppen",
+  "joinGroup": "Bli med i en gruppe",
+  "invitationCodeInputLabel": "Invitasjonskode (8 tegn)",
+  "invitationCodeInputHint": "Skriv inn koden med 8 tegn",
+  "join": "Bli med",
+  "recordedByMember": "Registrert av {name}",
+  "accountLink": "Kontooverføring",
+  "accountLinkDescription": "Når du kobler til Apple eller Google, kan du overføre dataene dine selv etter at du har byttet enhet eller installert appen på nytt.",
+  "linkWithApple": "Overfør konto med Apple",
+  "linkWithGoogle": "Overfør konto med Google",
+  "accountLinkedWithApple": "Koblet til Apple",
+  "accountLinkedWithGoogle": "Tilkoblet Google",
+  "accountLinkedSnackbar": "Kontoen er overført",
+  "accountLinkBannerText": "Når du deler en gruppe, anbefaler vi på det sterkeste at du konfigurerer kontooverføring.",
+  "minimumDoseInterval": "Doseringsintervall",
+  "minimumDoseIntervalDescription": "Minste tid mellom doser siden forrige dose",
+  "minimumDoseIntervalNone": "Ingen",
+  "minimumDoseIntervalHoursFormat": "Minst {hours} timer",
+  "doseIntervalWarningTitle": "Det nødvendige tidsintervallet mellom dosene har ikke gått ennå",
+  "doseIntervalWarningMessage": "Du har allerede tatt dosen kl. {latestTakeTime}. Innstillingen krever et intervall på minst {minimumDoseIntervalHours} timer mellom dosene. Vil du registrere den likevel?",
+  "doseIntervalWarningTakeAnyway": "Registrer",
+  "doseIntervalNotificationWarning": "⚠️ Det har ikke gått {minimumDoseIntervalHours} timer siden forrige dose",
+  "ossLicense": "OSS-lisenser"
 }

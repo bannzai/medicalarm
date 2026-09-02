@@ -1,783 +1,234 @@
 {
   "@@locale": "ro",
   "retry": "Reîncercați",
-  "@retry": {
-    "description": "エラーが発生した際やデータの読み込みに失敗した際に、再度処理を実行するためのボタンテキスト"
-  },
   "save": "Salvează",
-  "@save": {
-    "description": "フォームやエディタで入力したデータを保存する際に使用するボタンテキスト"
-  },
   "memo": "Notă",
-  "@memo": {
-    "description": "服薬記録や日記などで追加情報を入力するためのテキストフィールドのプレースホルダー"
-  },
   "completed": "Finalizat",
-  "@completed": {
-    "description": "フォームの入力や設定の変更などの操作が完了した際に使用するボタンテキスト"
-  },
   "medicineRegistration": "Ecran de înregistrare a medicamentelor",
-  "@medicineRegistration": {
-    "description": "お薬の新規登録・編集画面のタイトル"
-  },
   "medicineName": "Numele medicamentului",
-  "@medicineName": {
-    "description": "お薬登録フォームでの薬の名前を入力するフィールドのプレースホルダー"
-  },
   "medicineList": "Lista medicamentelor",
-  "@medicineList": {
-    "description": "登録されているお薬の一覧を表示する画面のタイトル"
-  },
   "medicationSchedule": "Programarea administrării",
-  "@medicationSchedule": {
-    "description": "服用スケジュールのセクションタイトル"
-  },
   "medicationTime": "Activare notificările pentru momentul administrării",
-  "@medicationTime": {
-    "description": "服用時刻の通知設定を有効にするためのスイッチのラベル"
-  },
   "medicationTimeDescription": "Va trimite notificări pe baza orei de administrare.",
-  "@medicationTimeDescription": {
-    "description": "服用時刻の通知設定の説明文"
-  },
   "close": "Închide",
-  "@close": {
-    "description": "ダイアログやモーダルを閉じるためのボタンテキスト"
-  },
   "settings": "Setări",
-  "@settings": {
-    "description": "設定画面のタイトル"
-  },
   "camera": "Cameră",
-  "@camera": {
-    "description": "カメラを起動するためのメニュー項目"
-  },
   "photoLibrary": "Biblioteca foto",
-  "@photoLibrary": {
-    "description": "フォトライブラリを開くためのメニュー項目"
-  },
   "medicationHistory": "Istoric de medicamente",
-  "@medicationHistory": {
-    "description": "服薬履歴を表示する画面のタイトル"
-  },
   "noMedicationHistory": "Nu există istoric de medicație",
-  "@noMedicationHistory": {
-    "description": "服薬履歴が存在しない場合に表示するメッセージ"
-  },
   "scheduledTime": "Timp programat",
-  "@scheduledTime": {
-    "description": "服薬予定時刻のラベル"
-  },
   "recordedTime": "Timpul înregistrării",
-  "@recordedTime": {
-    "description": "実際に服薬を記録した時間のラベル"
-  },
   "noMemo": "Fără notițe",
-  "@noMemo": {
-    "description": "メモが存在しない場合に表示するテキスト"
-  },
   "premiumPlan": "Plan premium",
-  "@premiumPlan": {
-    "description": "プレミアムプランの名称"
-  },
   "premiumFeatureAds": "Ascunderea anunțurilor",
-  "@premiumFeatureAds": {
-    "description": "プレミアム機能の広告非表示の説明"
-  },
   "premiumFeatureHistory": "Afișați toate istoricul administrării",
-  "@premiumFeatureHistory": {
-    "description": "プレミアム機能の履歴表示の説明"
-  },
   "premiumRegistrationComplete": "Înregistrare Premium Medicalarm completă",
-  "@premiumRegistrationComplete": {
-    "description": "プレミアム登録完了時のタイトル"
-  },
   "premiumRegistrationThanks": "Vă mulțumim pentru înregistrare.\nToate funcționalitățile sunt acum disponibile!",
-  "@premiumRegistrationThanks": {
-    "description": "プレミアム登録完了時のメッセージ"
-  },
   "unknownError": "A apărut o eroare necunoscută.",
-  "@unknownError": {
-    "description": "予期せぬエラーが発生した際のエラーメッセージ"
-  },
   "error": "A apărut o eroare",
-  "@error": {
-    "description": "一般的なエラーメッセージ"
-  },
   "unexpectedError": "A apărut o eroare neașteptată",
-  "@unexpectedError": {
-    "description": "予期せぬエラーが発生した際のエラーメッセージ"
-  },
   "cancel": "Anulează",
-  "@cancel": {
-    "description": "操作をキャンセルするためのボタンテキスト"
-  },
   "delete": "Șterge",
-  "@delete": {
-    "description": "削除操作を実行するためのボタンテキスト"
-  },
   "deleteAccount": "Șterge contul",
-  "@deleteAccount": {
-    "description": "アカウント削除ボタンのテキスト"
-  },
   "deleteAccountConfirm": "Șterge informațiile utilizatorului",
-  "@deleteAccountConfirm": {
-    "description": "アカウント削除確認ダイアログのタイトル"
-  },
   "deleteAccountMessage": "Când ștergeți contul, toate informațiile utilizatorului vor fi șterse.",
-  "@deleteAccountMessage": {
-    "description": "アカウント削除確認ダイアログのメッセージ"
-  },
   "medicationFrequency": "Frecvența de administrare",
-  "@medicationFrequency": {
-    "description": "服用頻度の設定セクションのタイトル"
-  },
   "daily": "Zilnic",
-  "@daily": {
-    "description": "毎日服用する頻度設定"
-  },
   "everyXDays": "la fiecare X zile",
-  "@everyXDays": {
-    "description": "X日ごとに服用する頻度設定"
-  },
   "specificWeekdays": "Zile specifice",
-  "@specificWeekdays": {
-    "description": "特定の曜日に服用する頻度設定"
-  },
   "cycle": "Cicluri",
-  "@cycle": {
-    "description": "周期で服用する頻度設定"
-  },
   "cycleDescription": "Exemplu) 21 de zile de utilizare/7 zile de pauză",
-  "@cycleDescription": {
-    "description": "周期での服用頻度の説明文"
-  },
   "everyXDaysDescription": "Exemplu) La fiecare 2 zile, la fiecare 3 zile",
-  "@everyXDaysDescription": {
-    "description": "X日ごとの服用頻度の説明文"
-  },
   "specificWeekdaysDescription": "Exemplu) Numai luni, miercuri și vineri",
-  "@specificWeekdaysDescription": {
-    "description": "特定の曜日の服用頻度の説明文"
-  },
   "medicineFormValidationError": "Vă rugăm să introduceți numele și programul de administrare a medicamentelor.",
-  "@medicineFormValidationError": {
-    "description": "お薬登録フォームでの入力バリデーションエラーメッセージ"
-  },
   "quantity": "Cantitate",
-  "@quantity": {
-    "description": "服用量を入力するフィールドのラベル"
-  },
   "quantityExample": "ex: 1 tablet, 100mg",
-  "@quantityExample": {
-    "description": "服用量入力フィールドのプレースホルダー"
-  },
   "medicationStartDate": "Data de început a administrării",
-  "@medicationStartDate": {
-    "description": "服用開始日を選択するフィールドのラベル"
-  },
   "otherInformation": "Altele",
-  "@otherInformation": {
-    "description": "その他の情報を入力するセクションのタイトル"
-  },
   "doseReceiver": "Persoana care ia medicamente",
-  "@doseReceiver": {
-    "description": "服用者を選択するフィールドのラベル"
-  },
   "defaultDoseReceiver": "eu",
-  "@defaultDoseReceiver": {
-    "description": "デフォルトの服用者名"
-  },
   "doseReceiverMaxCount": "Numărul maxim de utilizatori care pot fi înregistrați este {count}.",
-  "@doseReceiverMaxCount": {
-    "description": "服用者の最大登録数を表示するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "2"
-      }
-    }
-  },
   "increaseLimitWithPremium": "Crește limita la {count} cu planul premium",
-  "@increaseLimitWithPremium": {
-    "description": "プレミアムプランでの上限増加を案内するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "10"
-      }
-    }
-  },
   "addDoseReceiver": "Adaugă utilizator",
-  "@addDoseReceiver": {
-    "description": "服用者を追加するボタンのテキスト"
-  },
   "newDoseReceiver": "Utilizator nou",
-  "@newDoseReceiver": {
-    "description": "新規追加時のデフォルトの服用者名"
-  },
   "reloginRequired": "Vă rugăm să vă reconectați",
-  "@reloginRequired": {
-    "description": "アカウント削除時に再ログインが必要な場合のダイアログタイトル"
-  },
   "reloginMessage": "Pentru a șterge contul, vă rugăm să vă reconectați.",
-  "@reloginMessage": {
-    "description": "アカウント削除時の再ログイン要求メッセージ"
-  },
   "relogin": "Reautentificare",
-  "@relogin": {
-    "description": "再ログインを実行するためのボタンテキスト"
-  },
   "accountDeleted": "Contul a fost șters.",
-  "@accountDeleted": {
-    "description": "アカウント削除完了時のメッセージ"
-  },
   "confirmExit": "Doriți să închideți aplicația?",
-  "@confirmExit": {
-    "description": "アプリ終了確認のメッセージ"
-  },
   "exit": "Ieși",
-  "@exit": {
-    "description": "アプリを終了するためのボタンテキスト"
-  },
   "viewFaq": "Vezi FAQ",
-  "@viewFaq": {
-    "description": "FAQページを表示するためのボタンテキスト"
-  },
   "medicine": "Medicament",
-  "@medicine": {
-    "description": "お薬タブのタイトル"
-  },
   "inquiry": "Contact",
-  "@inquiry": {
-    "description": "お問い合わせボタンのテキスト"
-  },
   "ok": "OK",
-  "@ok": {
-    "description": "確認ダイアログのOKボタンのテキスト"
-  },
   "medicationScheduleLimit": "Puteți înregistra până la {count} programări pentru medicație.",
-  "@medicationScheduleLimit": {
-    "description": "服用スケジュールの登録上限を表示するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "3"
-      }
-    }
-  },
   "increaseMedicationScheduleLimit": "Crește limita la {count} cu planul premium.",
-  "@increaseMedicationScheduleLimit": {
-    "description": "服用スケジュールの上限をプレミアムプランで増やすことを案内するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "10"
-      }
-    }
-  },
   "addMedicationSchedule": "Adăugați programul de administrare",
-  "@addMedicationSchedule": {
-    "description": "服用スケジュールを追加するボタンのテキスト"
-  },
   "medicationScheduleNotificationSetting": "Setări notificare program de administrare",
-  "@medicationScheduleNotificationSetting": {
-    "description": "服用スケジュールの通知設定画面のタイトル"
-  },
   "notificationSetting": "Setări notificări",
-  "@notificationSetting": {
-    "description": "通知設定セクションのタイトル"
-  },
   "enableFollowupNotification": "Activați notificările de urmărire",
-  "@enableFollowupNotification": {
-    "description": "フォローアップ通知を有効にするスイッチのラベル"
-  },
   "followupNotificationDescription": "Dacă nu înregistrați administrarea medicamentului în termen de 30 de minute de la prima notificare, va fi trimisă o notificare de urmărire.",
-  "@followupNotificationDescription": {
-    "description": "フォローアップ通知の説明文"
-  },
   "enableNotificationInSilentMode": "Notificare în modul silentios",
-  "@enableNotificationInSilentMode": {
-    "description": "マナーモード時の通知を有効にするスイッチのラベル"
-  },
   "silentModeNotificationDescription": "Notificările importante vor fi afișate pe ecranul de blocare și se va reda sunetul, chiar dacă modul de concentrare este activat sau dispozitivul este în modul silențios.",
-  "@silentModeNotificationDescription": {
-    "description": "マナーモード時の通知の説明文"
-  },
   "everyXDaysFormat": "la fiecare {count} zile",
-  "@everyXDaysFormat": {
-    "description": "X日ごとの服用頻度を表示する際のフォーマット",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "2"
-      }
-    }
-  },
   "cycleDaysFormat": "{consecutiveDays} zile de administrare/{restDays} zile de pauză",
-  "@cycleDaysFormat": {
-    "description": "服用周期を表示する際のフォーマット",
-    "placeholders": {
-      "consecutiveDays": {
-        "type": "int",
-        "example": "21"
-      },
-      "restDays": {
-        "type": "int",
-        "example": "7"
-      }
-    }
-  },
   "consecutiveDaysFormat": "{count} zile de utilizare",
-  "@consecutiveDaysFormat": {
-    "description": "連続服用日数を表示する際のフォーマット",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "21"
-      }
-    }
-  },
   "restDaysFormat": "{count} zile fără medicamente",
-  "@restDaysFormat": {
-    "description": "休薬日数を表示する際のフォーマット",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "7"
-      }
-    }
-  },
   "limitedTimeDiscount": "Acum, la un preț redus, îl poți folosi fără limită",
-  "@limitedTimeDiscount": {
-    "description": "プレミアムプランの限定価格キャンペーンを案内するメッセージ"
-  },
   "monthlyPlan": "Plan lunar",
-  "@monthlyPlan": {
-    "description": "月額プランの名称"
-  },
   "annualPlan": "Plan anual",
-  "@annualPlan": {
-    "description": "年額プランの名称"
-  },
   "weeklyPlan": "Plan săptămânal",
-  "@weeklyPlan": {
-    "description": "週額プランの名称"
-  },
   "premiumRequired": "Accesibilitate prin aderarea la planul premium.",
-  "@premiumRequired": {
-    "description": "プレミアムプラン加入が必要な機能へのアクセス時のメッセージ"
-  },
   "medication": "Medicație",
-  "@medication": {
-    "description": "服薬タブのタイトル"
-  },
   "history": "Istoric",
-  "@history": {
-    "description": "履歴タブのタイトル"
-  },
+  "calendar": "Calendar",
+  "diary": "Jurnal",
+  "writeDiary": "Scrie un jurnal",
+  "editDiaryTooltip": "Editează jurnalul",
   "medicineRegistrationLimit": "Numărul de medicamente înregistrate",
-  "@medicineRegistrationLimit": {
-    "description": "薬の登録数の上限を説明するテキストの一部"
-  },
   "doseReceiverRegistrationLimit": "Numărul maxim de utilizatori înregistrați.",
-  "@doseReceiverRegistrationLimit": {
-    "description": "服用者の登録数の上限を説明するテキストの一部"
-  },
   "notificationScheduleLimit": "Numărul programărilor de notificare",
-  "@notificationScheduleLimit": {
-    "description": "通知スケジュールの上限を説明するテキストの一部"
-  },
   "addMedicine": "Adaugă medicamentul",
-  "@addMedicine": {
-    "description": "お薬を追加するボタンのテキスト"
-  },
   "medicineMaxCount": "Puteți înregistra până la {count} medicamente.",
-  "@medicineMaxCount": {
-    "description": "お薬の最大登録数を表示するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "5"
-      }
-    }
-  },
   "increaseMedicineLimitWithPremium": "Crește limita la {count} cu planul premium",
-  "@increaseMedicineLimitWithPremium": {
-    "description": "お薬の登録上限をプレミアムプランで増やすことを案内するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "10"
-      }
-    }
-  },
   "aboutApp": "Despre aplicație",
-  "@aboutApp": {
-    "description": "アプリについてのセクションタイトル"
-  },
   "viewPremiumPlan": "Vezi planul premium",
-  "@viewPremiumPlan": {
-    "description": "プレミアムプランの詳細を表示するためのボタンテキスト"
-  },
   "cancelSubscriptionInstruction": "După achiziție, anularea actualizării automate se poate face din setările contului {storeName} din aplicație. (Anularea actualizării automate nu se poate face din interiorul aplicației).",
-  "@cancelSubscriptionInstruction": {
-    "description": "自動更新の解約方法の説明",
-    "placeholders": {
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "headache": "dureri de cap",
-  "@headache": {
-    "description": "症状の選択肢：頭痛"
-  },
   "stomachache": "durere abdominala",
-  "@stomachache": {
-    "description": "症状の選択肢：腹痛"
-  },
   "nausea": "greață",
-  "@nausea": {
-    "description": "症状の選択肢：吐き気"
-  },
   "anemia": "anemie",
-  "@anemia": {
-    "description": "症状の選択肢：貧血"
-  },
   "diarrhea": "diaree",
-  "@diarrhea": {
-    "description": "症状の選択肢：下痢"
-  },
   "constipation": "const int constipation = 0;",
-  "@constipation": {
-    "description": "症状の選択肢：便秘"
-  },
   "hotFlash": "fierbinte",
-  "@hotFlash": {
-    "description": "症状の選択肢：ほてり"
-  },
   "drowsiness": "Somnolență",
-  "@drowsiness": {
-    "description": "症状の選択肢：眠気"
-  },
   "backPain": "dureri de spate",
-  "@backPain": {
-    "description": "症状の選択肢：腰痛"
-  },
   "palpitation": "palpitații",
-  "@palpitation": {
-    "description": "症状の選択肢：動悸"
-  },
   "abnormalBleeding": "sângerare anormală",
-  "@abnormalBleeding": {
-    "description": "症状の選択肢：不正出血"
-  },
   "lossOfAppetite": "apetit scăzut",
-  "@lossOfAppetite": {
-    "description": "症状の選択肢：食欲不振"
-  },
   "chestTightness": "Umflarea pieptului",
-  "@chestTightness": {
-    "description": "症状の選択肢：胸の張り"
-  },
   "insomnia": "Insomnie",
-  "@insomnia": {
-    "description": "症状の選択肢：不眠"
-  },
   "monthlyPlanDiscountFormat": "{percent}% DISCOUNT față de planul lunar",
-  "@monthlyPlanDiscountFormat": {
-    "description": "月額プランからの割引率を表示するフォーマット",
-    "placeholders": {
-      "percent": {
-        "type": "int",
-        "example": "50"
-      }
-    }
-  },
   "purchaseErrorUnknown": "A apărut o eroare necunoscută. Vă rugăm să așteptați și să încercați din nou. Dacă problema persistă, vă rugăm să ne contactați din Setări > Întrebare. Detalii: {message}",
-  "@purchaseErrorUnknown": {
-    "description": "購入時の不明なエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorStoreProblem": "A apărut o eroare la {storeName}. Te rugăm să aștepți câteva momente și să încerci din nou.",
-  "@purchaseErrorStoreProblem": {
-    "description": "ストアでのエラーメッセージ",
-    "placeholders": {
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "purchaseErrorInvalidPayment": "Plata a eșuat. Verificați dacă metoda de plată este validă și încercați din nou.",
-  "@purchaseErrorInvalidPayment": {
-    "description": "支払い方法が無効な場合のエラーメッセージ"
-  },
   "purchaseErrorProductUnavailable": "Planul vizat nu este disponibil în prezent. Vă rugăm să reporniți aplicația și să încercați din nou.",
-  "@purchaseErrorProductUnavailable": {
-    "description": "商品が利用できない場合のエラーメッセージ"
-  },
   "purchaseErrorAlreadyPurchased": "Ați achiziționat deja planul. Dacă doriți să restaurați informațiile de achiziție pe acest dispozitiv, vă rugăm să utilizați opțiunea „Cei care au cumpărat anterior, faceți clic aici” pentru a restabili informațiile de achiziție.",
-  "@purchaseErrorAlreadyPurchased": {
-    "description": "すでに購入済みの場合のエラーメッセージ"
-  },
   "purchaseErrorReceiptInUse": "Deja achiziționat. Informațiile de achiziție sunt utilizate de un alt utilizator. Vă rugăm să verificați {accountName}.",
-  "@purchaseErrorReceiptInUse": {
-    "description": "購入情報が他のユーザーで使用されている場合のエラーメッセージ",
-    "placeholders": {
-      "accountName": {
-        "type": "String",
-        "example": "Apple ID"
-      }
-    }
-  },
   "purchaseErrorInvalidReceipt": "Informații de achiziție nevalide. Vă rugăm să verificați informațiile de achiziție.",
-  "@purchaseErrorInvalidReceipt": {
-    "description": "購入情報が無効な場合のエラーメッセージ"
-  },
   "purchaseErrorMissingReceipt": "Informațiile despre cumpărător nu există. Vă rugăm să vă conectați la dispozitiv cu {accountName} și să încercați din nou.",
-  "@purchaseErrorMissingReceipt": {
-    "description": "購入情報が見つからない場合のエラーメッセージ",
-    "placeholders": {
-      "accountName": {
-        "type": "String",
-        "example": "Apple ID"
-      }
-    }
-  },
   "purchaseErrorNetwork": "Starea rețelei este instabilă. Vă rugăm să verificați starea conexiunii și să încercați din nou.",
-  "@purchaseErrorNetwork": {
-    "description": "ネットワークエラーの場合のエラーメッセージ"
-  },
   "purchaseNotAllowed": "Achizițiile nu sunt permise pe acest dispozitiv",
-  "@purchaseNotAllowed": {
-    "description": "デバイスでの購入が許可されていない場合のエラーメッセージ"
-  },
   "purchaseErrorInvalidCredentials": "Achiziția a eșuat. Vă rugăm să așteptați un timp și să încercați din nou. Dacă problema persistă, vă rugăm să ne contactați prin Setări > Întrebări frecvente. Detalii: {message}",
-  "@purchaseErrorInvalidCredentials": {
-    "description": "認証情報が無効な場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorUnexpectedBackend": "În prezent, achiziția nu este disponibilă. Vă rugăm să încercați din nou mai târziu. Dacă problema persistă, contactați-ne din Setări > Întrebări frecvente. Detalii: {message}",
-  "@purchaseErrorUnexpectedBackend": {
-    "description": "バックエンドで予期せぬエラーが発生した場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorOperationInProgress": "Procesul de achiziție este în curs de desfășurare. Vă rugăm să așteptați și să verificați din nou.",
-  "@purchaseErrorOperationInProgress": {
-    "description": "購入処理が既に進行中の場合のエラーメッセージ"
-  },
   "purchaseErrorInsufficientPermissions": "Nu puteți să vă abonați la plan cu {accountName}. Vă rugăm să verificați informațiile de plată și să încercați din nou.",
-  "@purchaseErrorInsufficientPermissions": {
-    "description": "権限が不足している場合のエラーメッセージ",
-    "placeholders": {
-      "accountName": {
-        "type": "String",
-        "example": "Apple ID"
-      }
-    }
-  },
   "purchaseErrorPaymentPending": "Plata a fost oprită în timpul procesului. Vă rugăm să verificați {storeName} cu contul {accountName}.",
-  "@purchaseErrorPaymentPending": {
-    "description": "支払いが保留中の場合のエラーメッセージ",
-    "placeholders": {
-      "accountName": {
-        "type": "String",
-        "example": "Apple ID"
-      },
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "premiumUserThanksTitle": "Sunteți membru premium",
-  "@premiumUserThanksTitle": {
-    "description": "プレミアムユーザーへの感謝を示すタイトル"
-  },
   "premiumUserThanksMessage": "Vă mulțumim pentru utilizare. Datorită dumneavoastră, putem continua administrarea Medicalarm.",
-  "@premiumUserThanksMessage": {
-    "description": "プレミアムユーザーへの感謝メッセージ"
-  },
   "premiumPricePerMonth": "({price}/luna)",
-  "@premiumPricePerMonth": {
-    "description": "月額料金の表示フォーマット",
-    "placeholders": {
-      "price": {
-        "type": "String",
-        "example": "¥500"
-      }
-    }
-  },
   "premiumCancelDescription": "• După achiziție, anularea reînnoirii automate se poate face din setările contului din aplicația {storeName}. (Anularea reînnoirii automate nu poate fi făcută din interiorul aplicației).",
-  "@premiumCancelDescription": {
-    "description": "プレミアムプランの解約方法の説明",
-    "placeholders": {
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "purchaseErrorRestoreFailed": "Informațiile anterioare de achiziție nu au fost găsite. Vă rugăm să verificați contul și să încercați din nou.",
-  "@purchaseErrorRestoreFailed": {
-    "description": "購入情報の復元に失敗した場合のエラーメッセージ"
-  },
   "purchaseErrorUserNotFound": "Utilizatorul nu a fost găsit. Vă rugăm să reporniți aplicația și să încercați din nou. Detalii: {message}",
-  "@purchaseErrorUserNotFound": {
-    "description": "ユーザーが見つからない場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorActivationPending": "Activarea plății nu a fost finalizată. Vă rugăm să așteptați puțin timp și să verificați din nou.",
-  "@purchaseErrorActivationPending": {
-    "description": "課金の有効化が完了していない場合のエラーメッセージ"
-  },
   "purchaseErrorTimeout": "A expirat timpul de așteptare. Vă rugăm să verificați condițiile de conectare și să încercați din nou. Dacă problema persistă, contactați-ne prin Settings > Inquiry. Detalii: {message}",
-  "@purchaseErrorTimeout": {
-    "description": "購入処理がタイムアウトした場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorNetworkError": "Există o problemă de conectivitate. Vă rugăm să verificați condițiile de rețea și să încercați din nou. Dacă problema persistă, contactați-ne accesând Setări > Întrebări. Detalii: {message}",
-  "@purchaseErrorNetworkError": {
-    "description": "ネットワークエラーが発生した場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "sixMonthPlan": "Plan de 6 luni",
-  "@sixMonthPlan": {
-    "description": "6ヶ月プランの表示名"
-  },
   "premiumContractPeriod": "Perioada contractuală este de o lună de la data achiziției.",
-  "@premiumContractPeriod": {
-    "description": "プレミアムプランの契約期間の説明"
-  },
   "privacyPolicy": "Politica de confidențialitate",
-  "@privacyPolicy": {
-    "description": "プライバシーポリシーのリンクテキスト"
-  },
   "termsOfService": "Termeni și condiții",
-  "@termsOfService": {
-    "description": "利用規約のリンクテキスト"
-  },
   "specifiedCommercialTransactionAct": "Informații conform legii comerțului electronic",
-  "@specifiedCommercialTransactionAct": {
-    "description": "特定商取引法に基づく表記のリンクテキスト"
-  },
   "confirmBeforeRegistration": "Vă rugăm să verificați și să vă înregistrați.",
-  "@confirmBeforeRegistration": {
-    "description": "各種規約確認を促すメッセージ"
-  },
   "autoRenewalNotice": "După încheierea perioadei de contract, se va face o actualizare automată.",
-  "@autoRenewalNotice": {
-    "description": "自動更新に関する注意事項"
-  },
   "restorePurchase": "Cei care au achiziționat anterior",
-  "@restorePurchase": {
-    "description": "購入情報の復元リンクのテキスト"
-  },
   "purchaseRestored": "Informațiile despre achiziție au fost restaurați.",
-  "@purchaseRestored": {
-    "description": "購入情報の復元が完了した際のメッセージ"
-  },
   "medicationTimeFollowup": "Urmărirea orei de administrare",
-  "@medicationTimeFollowup": {
-    "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
-  },
   "updateRequired": "Actualizare necesară",
-  "@updateRequired": {
-    "description": "強制アップデートが必要な場合のダイアログタイトル"
-  },
   "updateRequiredMessage": "Vă rugăm să actualizați la ultima versiune de la {storeName}",
-  "@updateRequiredMessage": {
-    "description": "強制アップデートが必要な場合のダイアログメッセージ",
-    "placeholders": {
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "screenshotMedicationHistoriesMemo": "Am făcut prea multe sieste și am întârziat să iau medicamentele.",
-  "@screenshotMedicationHistoriesMemo": {
-    "description": "薬のメモの例"
-  },
   "screenshotMedicationDoserReceiver1": "eu însumi",
-  "@screenshotMedicationDoserReceiver1": {
-    "description": "薬の服用者の例"
-  },
   "screenshotMedicationDoserReceiver2": "Mana-chan",
-  "@screenshotMedicationDoserReceiver2": {
-    "description": "薬の服用者の例"
-  },
   "screenshotMedicationQuontityMemo1": "1 tablet",
-  "@screenshotMedicationQuontityMemo1": {
-    "description": "薬の服用量の例"
-  },
   "screenshotMedicationQuontityMemo2": "2 tablete",
-  "@screenshotMedicationQuontityMemo2": {
-    "description": "薬の服用量の例"
-  },
   "screenshotMedicationName1": "medicament împotriva durerilor de cap",
-  "@screenshotMedicationName1": {
-    "description": "薬の名前の例"
-  },
   "screenshotMedicationName2": "Vitamina",
-  "@screenshotMedicationName2": {
-    "description": "薬の名前の例"
-  },
   "notificationTitle": "Este timpul pentru medicamente",
-  "@notificationTitle": {
-    "description": "薬の通知のタイトル"
-  },
   "notificationFollowupTitle": "Nu ați uitat să înregistrați doza de medicamente?",
-  "@notificationFollowupTitle": {
-    "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
-  },
   "recommendedApp": "Aplicații recomandate",
-  "@recommendedApp": {
-    "description": "おすすめアプリのタイトル"
-  },
   "pilllIntroduction": "Poate că este vorba despre gestionarea pilulelor? De ce să nu gestionați mai convenabil administrarea pilulelor?",
-  "@pilllIntroduction": {
-    "description": "ピルの管理の紹介"
-  },
   "installPilll": "Instalare Pilll",
-  "@installPilll": {
-    "description": "Pilllをインストールするボタンのテキスト"
-  },
   "criticalAlertVolume": "Volum",
-  "@criticalAlertVolume": {
-    "description": "緊急通知の音量の表示名"
-  }
+  "specialGift": "🎉 Cadou special 🎉",
+  "freePremiumTrialDays": "Vei primi cadou o perioadă de probă gratuită de {count} zile!",
+  "welcomeToMedicalarm": "Bine ați venit în Medicalarm!",
+  "writeReviewFor5StarPromotion": "Scrieți o evaluare de 5 stele și o recenzie în App Store pentru a încerca gratuit funcțiile premium timp de {count} zile!",
+  "rating5StarsEncouragement": "Evaluarea ta de ★5 este o mare încurajare pentru dezvoltatori.\nSusține-ne pentru a crea o aplicație și mai bună!",
+  "noAutoCharge": "Nu se va efectua nicio plată automată. După încheierea perioadei de probă, veți reveni automat la planul gratuit.",
+  "write5StarReview": "Scrie o recenzie de 5 stele",
+  "receiveReward": "Primește recompensa",
+  "notNow": "Nu acum",
+  "openAppStore": "Deschide App Store",
+  "confirmOpenAppStore": "Doriți să deschideți App Store pentru a scrie o recenzie?",
+  "premiumFeaturesList": "Lista funcțiilor premium",
+  "currentlyInPremiumTrial": "În prezent utilizați perioada de probă Premium.",
+  "medicationPause": "Activează medicamentul",
+  "medicationPauseDescription": "Când este dezactivat, medicamentul va fi exclus de pe ecranul medicamentelor și din notificări.",
+  "medicinePausedSnackbar": "Administrarea medicamentului a fost întreruptă temporar",
+  "medicationHistoryDeletedSnackbar": "Înregistrarea administrării medicamentului a fost anulată",
+  "undo": "Anulează",
+  "medicationHistoryReverted": "Anularea înregistrării administrării medicamentului",
+  "revertedTime": "Ora anulării",
+  "revertedByMember": "Anulat de {name}",
+  "medicationTakenAtLabel": "{time} Administrat",
+  "medicineResumedSnackbar": "Administrarea medicamentului a fost reluată",
+  "medicineEditTooltip": "Editează medicamentul",
+  "groups": "Grupuri",
+  "groupManagement": "Gestionarea grupurilor",
+  "createGroup": "Creează un grup",
+  "groupName": "Numele grupului",
+  "groupNameInputHint": "Introduceți numele grupului",
+  "groupIcon": "Pictogramă",
+  "groupMemberCount": "{count} membri",
+  "defaultGroupBadge": "Implicit",
+  "soloGroupName": "Grupurile mele",
+  "joinWithInvitationCode": "Alătură-te cu un cod de invitație",
+  "groupCreationLimitReached": "Nu mai puteți crea grupuri în planul gratuit.",
+  "increaseGroupLimitWithPremium": "Creează mai multe grupuri cu planul Premium",
+  "invitationCode": "Cod de invitație",
+  "invitationCodeShareDescription": "Distribuiți acest cod pentru a invita membri",
+  "invitationCodeExpiresAt": "Valabil până la: {date}",
+  "copyInvitationCode": "Copiază codul",
+  "invitationCodeCopied": "Codul de invitație a fost copiat",
+  "issueInvitationCode": "Generează cod de invitație",
+  "groupSettings": "Setările grupului",
+  "members": "Membri",
+  "memberFallbackName": "Membru",
+  "yourDisplayName": "Numele dvs. afișat",
+  "displayNameInputHint": "Introduceți numele afișat",
+  "ownerLabel": "Proprietar",
+  "youLabel": "Tu",
+  "removeMemberConfirmTitle": "Doriți să eliminați membrul?",
+  "removeMemberConfirmMessage": "Elimină {name} din grup",
+  "joinGroup": "Alătură-te unui grup",
+  "invitationCodeInputLabel": "Cod de invitație (8 caractere)",
+  "invitationCodeInputHint": "Introduceți codul din 8 caractere",
+  "join": "Alătură-te",
+  "recordedByMember": "Înregistrat de {name}",
+  "accountLink": "Transferul contului",
+  "accountLinkDescription": "Conectându-vă la Apple sau Google, vă puteți transfera datele chiar și după schimbarea dispozitivului sau reinstalarea aplicației.",
+  "linkWithApple": "Transferă contul cu Apple",
+  "linkWithGoogle": "Transferă contul cu Google",
+  "accountLinkedWithApple": "Conectat la Apple",
+  "accountLinkedWithGoogle": "Conectat la Google",
+  "accountLinkedSnackbar": "Cont transferat",
+  "accountLinkBannerText": "Atunci când partajați un grup, vă recomandăm insistent să configurați transferul contului.",
+  "minimumDoseInterval": "Intervalul dintre doze",
+  "minimumDoseIntervalDescription": "Intervalul minim dintre doze de la doza anterioară",
+  "minimumDoseIntervalNone": "Niciunul",
+  "minimumDoseIntervalHoursFormat": "Cel puțin {hours} ore",
+  "doseIntervalWarningTitle": "Intervalul necesar dintre doze nu a trecut încă",
+  "doseIntervalWarningMessage": "Ați luat deja medicamentul la {latestTakeTime}. Setarea impune un interval de cel puțin {minimumDoseIntervalHours} ore între doze. Doriți să îl înregistrați oricum?",
+  "doseIntervalWarningTakeAnyway": "Înregistrează",
+  "doseIntervalNotificationWarning": "⚠️ Nu au trecut {minimumDoseIntervalHours} ore de la ultima doză",
+  "ossLicense": "Licențe OSS"
 }

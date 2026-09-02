@@ -1,783 +1,234 @@
 {
   "@@locale": "fi",
   "retry": "Uudelleenyritys",
-  "@retry": {
-    "description": "エラーが発生した際やデータの読み込みに失敗した際に、再度処理を実行するためのボタンテキスト"
-  },
   "save": "Tallenna",
-  "@save": {
-    "description": "フォームやエディタで入力したデータを保存する際に使用するボタンテキスト"
-  },
   "memo": "Muistio",
-  "@memo": {
-    "description": "服薬記録や日記などで追加情報を入力するためのテキストフィールドのプレースホルダー"
-  },
   "completed": "Valmis",
-  "@completed": {
-    "description": "フォームの入力や設定の変更などの操作が完了した際に使用するボタンテキスト"
-  },
   "medicineRegistration": "Lääkkeen rekisteröintisivu",
-  "@medicineRegistration": {
-    "description": "お薬の新規登録・編集画面のタイトル"
-  },
   "medicineName": "Lääkkeen nimi",
-  "@medicineName": {
-    "description": "お薬登録フォームでの薬の名前を入力するフィールドのプレースホルダー"
-  },
   "medicineList": "Lääkkeet",
-  "@medicineList": {
-    "description": "登録されているお薬の一覧を表示する画面のタイトル"
-  },
   "medicationSchedule": "Lääkitys aikataulu",
-  "@medicationSchedule": {
-    "description": "服用スケジュールのセクションタイトル"
-  },
   "medicationTime": "Ota käyttöön ilmoitukset lääkkeen ottamiseen",
-  "@medicationTime": {
-    "description": "服用時刻の通知設定を有効にするためのスイッチのラベル"
-  },
   "medicationTimeDescription": "Lähetämme ilmoituksia lääkkeiden ottamiseen liittyen aikataulun mukaan.",
-  "@medicationTimeDescription": {
-    "description": "服用時刻の通知設定の説明文"
-  },
   "close": "Sulje",
-  "@close": {
-    "description": "ダイアログやモーダルを閉じるためのボタンテキスト"
-  },
   "settings": "Asetukset",
-  "@settings": {
-    "description": "設定画面のタイトル"
-  },
   "camera": "Kamera",
-  "@camera": {
-    "description": "カメラを起動するためのメニュー項目"
-  },
   "photoLibrary": "Kuvakirjasto",
-  "@photoLibrary": {
-    "description": "フォトライブラリを開くためのメニュー項目"
-  },
   "medicationHistory": "LääkitysHistoria",
-  "@medicationHistory": {
-    "description": "服薬履歴を表示する画面のタイトル"
-  },
   "noMedicationHistory": "Ei lääkitysrekisteriä.",
-  "@noMedicationHistory": {
-    "description": "服薬履歴が存在しない場合に表示するメッセージ"
-  },
   "scheduledTime": "Suunniteltu aika",
-  "@scheduledTime": {
-    "description": "服薬予定時刻のラベル"
-  },
   "recordedTime": "Kirjaamisaika",
-  "@recordedTime": {
-    "description": "実際に服薬を記録した時間のラベル"
-  },
   "noMemo": "Ei muistiinpanoja",
-  "@noMemo": {
-    "description": "メモが存在しない場合に表示するテキスト"
-  },
   "premiumPlan": "Premium-suunnitelma",
-  "@premiumPlan": {
-    "description": "プレミアムプランの名称"
-  },
   "premiumFeatureAds": "Mainokset pois päältä",
-  "@premiumFeatureAds": {
-    "description": "プレミアム機能の広告非表示の説明"
-  },
   "premiumFeatureHistory": "Näytä kaikki annoshistoria",
-  "@premiumFeatureHistory": {
-    "description": "プレミアム機能の履歴表示の説明"
-  },
   "premiumRegistrationComplete": "Medicalarm-premiumrekisteröinti valmis",
-  "@premiumRegistrationComplete": {
-    "description": "プレミアム登録完了時のタイトル"
-  },
   "premiumRegistrationThanks": "Kiitos rekisteröitymisestäsi. Kaikki ominaisuudet ovat nyt käytettävissä!",
-  "@premiumRegistrationThanks": {
-    "description": "プレミアム登録完了時のメッセージ"
-  },
   "unknownError": "Tuntematon virhe tapahtui.",
-  "@unknownError": {
-    "description": "予期せぬエラーが発生した際のエラーメッセージ"
-  },
   "error": "Virhe on tapahtunut",
-  "@error": {
-    "description": "一般的なエラーメッセージ"
-  },
   "unexpectedError": "Tapahtui odottamaton virhe",
-  "@unexpectedError": {
-    "description": "予期せぬエラーが発生した際のエラーメッセージ"
-  },
   "cancel": "Peruuta",
-  "@cancel": {
-    "description": "操作をキャンセルするためのボタンテキスト"
-  },
   "delete": "Poista",
-  "@delete": {
-    "description": "削除操作を実行するためのボタンテキスト"
-  },
   "deleteAccount": "Poista tili",
-  "@deleteAccount": {
-    "description": "アカウント削除ボタンのテキスト"
-  },
   "deleteAccountConfirm": "Poistetaan käyttäjätiedot",
-  "@deleteAccountConfirm": {
-    "description": "アカウント削除確認ダイアログのタイトル"
-  },
   "deleteAccountMessage": "Kun poistat tilin, kaikki käyttäjätiedot poistetaan.",
-  "@deleteAccountMessage": {
-    "description": "アカウント削除確認ダイアログのメッセージ"
-  },
   "medicationFrequency": "Lääkkeen ottotiheys",
-  "@medicationFrequency": {
-    "description": "服用頻度の設定セクションのタイトル"
-  },
   "daily": "Joka päivä",
-  "@daily": {
-    "description": "毎日服用する頻度設定"
-  },
   "everyXDays": "päivän välein",
-  "@everyXDays": {
-    "description": "X日ごとに服用する頻度設定"
-  },
   "specificWeekdays": "Tietty viikonpäivä",
-  "@specificWeekdays": {
-    "description": "特定の曜日に服用する頻度設定"
-  },
   "cycle": "jakso",
-  "@cycle": {
-    "description": "周期で服用する頻度設定"
-  },
   "cycleDescription": "Esimerkki) 21 päivän käyttö/7 päivän tauko",
-  "@cycleDescription": {
-    "description": "周期での服用頻度の説明文"
-  },
   "everyXDaysDescription": "Esimerkki) 2 päivän välein, 3 päivän välein",
-  "@everyXDaysDescription": {
-    "description": "X日ごとの服用頻度の説明文"
-  },
   "specificWeekdaysDescription": "esim) vain maanantaisin, keskiviikkoisin ja perjantaisin",
-  "@specificWeekdaysDescription": {
-    "description": "特定の曜日の服用頻度の説明文"
-  },
   "medicineFormValidationError": "Anna nimesi ja lääkkeesi aikataulu.",
-  "@medicineFormValidationError": {
-    "description": "お薬登録フォームでの入力バリデーションエラーメッセージ"
-  },
   "quantity": "Kapasiteetti",
-  "@quantity": {
-    "description": "服用量を入力するフィールドのラベル"
-  },
   "quantityExample": "Esim: 1 tabletti, 100mg",
-  "@quantityExample": {
-    "description": "服用量入力フィールドのプレースホルダー"
-  },
   "medicationStartDate": "Aloituspäivä",
-  "@medicationStartDate": {
-    "description": "服用開始日を選択するフィールドのラベル"
-  },
   "otherInformation": "Muut",
-  "@otherInformation": {
-    "description": "その他の情報を入力するセクションのタイトル"
-  },
   "doseReceiver": "Käyttäjä",
-  "@doseReceiver": {
-    "description": "服用者を選択するフィールドのラベル"
-  },
   "defaultDoseReceiver": "itse",
-  "@defaultDoseReceiver": {
-    "description": "デフォルトの服用者名"
-  },
   "doseReceiverMaxCount": "Käyttäjiä voi rekisteröidä enimmillään {count} henkilöä",
-  "@doseReceiverMaxCount": {
-    "description": "服用者の最大登録数を表示するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "2"
-      }
-    }
-  },
   "increaseLimitWithPremium": "Lisäät ylärajaa {count} premium-suunnitelmassa.",
-  "@increaseLimitWithPremium": {
-    "description": "プレミアムプランでの上限増加を案内するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "10"
-      }
-    }
-  },
   "addDoseReceiver": "Lisää käytön käyttäjä",
-  "@addDoseReceiver": {
-    "description": "服用者を追加するボタンのテキスト"
-  },
   "newDoseReceiver": "Uusi käyttäjä",
-  "@newDoseReceiver": {
-    "description": "新規追加時のデフォルトの服用者名"
-  },
   "reloginRequired": "Ole hyvä ja kirjaudu uudelleen",
-  "@reloginRequired": {
-    "description": "アカウント削除時に再ログインが必要な場合のダイアログタイトル"
-  },
   "reloginMessage": "Poistaaksesi tilin, kirjaudu sisään uudelleen.",
-  "@reloginMessage": {
-    "description": "アカウント削除時の再ログイン要求メッセージ"
-  },
   "relogin": "Kirjaudu sisään uudelleen",
-  "@relogin": {
-    "description": "再ログインを実行するためのボタンテキスト"
-  },
   "accountDeleted": "Olet poistanut tilin.",
-  "@accountDeleted": {
-    "description": "アカウント削除完了時のメッセージ"
-  },
   "confirmExit": "Haluatko sulkea sovelluksen?",
-  "@confirmExit": {
-    "description": "アプリ終了確認のメッセージ"
-  },
   "exit": "Lopeta",
-  "@exit": {
-    "description": "アプリを終了するためのボタンテキスト"
-  },
   "viewFaq": "Katso FAQ",
-  "@viewFaq": {
-    "description": "FAQページを表示するためのボタンテキスト"
-  },
   "medicine": "Lääke",
-  "@medicine": {
-    "description": "お薬タブのタイトル"
-  },
   "inquiry": "Ota yhteyttä",
-  "@inquiry": {
-    "description": "お問い合わせボタンのテキスト"
-  },
   "ok": "Hyväksyä",
-  "@ok": {
-    "description": "確認ダイアログのOKボタンのテキスト"
-  },
   "medicationScheduleLimit": "Voit rekisteröidä jopa {count} annosteluaikataulua.",
-  "@medicationScheduleLimit": {
-    "description": "服用スケジュールの登録上限を表示するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "3"
-      }
-    }
-  },
   "increaseMedicationScheduleLimit": "Lisää rajoitus premium-suunnitelmalla arvoon {count}",
-  "@increaseMedicationScheduleLimit": {
-    "description": "服用スケジュールの上限をプレミアムプランで増やすことを案内するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "10"
-      }
-    }
-  },
   "addMedicationSchedule": "Lisää lääkitys aikataulu",
-  "@addMedicationSchedule": {
-    "description": "服用スケジュールを追加するボタンのテキスト"
-  },
   "medicationScheduleNotificationSetting": "Lääkkeiden ottosuunnitelman ilmoitusasetukset",
-  "@medicationScheduleNotificationSetting": {
-    "description": "服用スケジュールの通知設定画面のタイトル"
-  },
   "notificationSetting": "Ilmoitusasetukset",
-  "@notificationSetting": {
-    "description": "通知設定セクションのタイトル"
-  },
   "enableFollowupNotification": "Ota seurantailmoitukset käyttöön",
-  "@enableFollowupNotification": {
-    "description": "フォローアップ通知を有効にするスイッチのラベル"
-  },
   "followupNotificationDescription": "Jos et kirjaa lääkkeitäsi ensimmäisen ilmoituksen jälkeen 30 minuutin kuluessa, seurantailmoitus lähetetään.",
-  "@followupNotificationDescription": {
-    "description": "フォローアップ通知の説明文"
-  },
   "enableNotificationInSilentMode": "Ilmoita myös äänettömässä tilassa",
-  "@enableNotificationInSilentMode": {
-    "description": "マナーモード時の通知を有効にするスイッチのラベル"
-  },
   "silentModeNotificationDescription": "Vaikka keskittymismoodi on päällä tai laite on äänettömällä, tärkeät ilmoitukset näkyvät lukitusnäytöllä ja ääni toistetaan.",
-  "@silentModeNotificationDescription": {
-    "description": "マナーモード時の通知の説明文"
-  },
   "everyXDaysFormat": "{count} päivän välein",
-  "@everyXDaysFormat": {
-    "description": "X日ごとの服用頻度を表示する際のフォーマット",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "2"
-      }
-    }
-  },
   "cycleDaysFormat": "{consecutiveDays} päivän käyttö/{restDays} päivän tauko",
-  "@cycleDaysFormat": {
-    "description": "服用周期を表示する際のフォーマット",
-    "placeholders": {
-      "consecutiveDays": {
-        "type": "int",
-        "example": "21"
-      },
-      "restDays": {
-        "type": "int",
-        "example": "7"
-      }
-    }
-  },
   "consecutiveDaysFormat": "{count} päivää otettu",
-  "@consecutiveDaysFormat": {
-    "description": "連続服用日数を表示する際のフォーマット",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "21"
-      }
-    }
-  },
   "restDaysFormat": "{count} päivää ilman lääkitystä",
-  "@restDaysFormat": {
-    "description": "休薬日数を表示する際のフォーマット",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "7"
-      }
-    }
-  },
   "limitedTimeDiscount": "Nyt saat rajoitetun hinnan, jota voit käyttää loputtomiin.",
-  "@limitedTimeDiscount": {
-    "description": "プレミアムプランの限定価格キャンペーンを案内するメッセージ"
-  },
   "monthlyPlan": "Kuukausittainen suunnitelma",
-  "@monthlyPlan": {
-    "description": "月額プランの名称"
-  },
   "annualPlan": "Vuotuiset suunnitelmat",
-  "@annualPlan": {
-    "description": "年額プランの名称"
-  },
   "weeklyPlan": "Viikkosuunnitelma",
-  "@weeklyPlan": {
-    "description": "週額プランの名称"
-  },
   "premiumRequired": "Pääsymaksua varten tarvitaan premium-suunnitelman liittyminen.",
-  "@premiumRequired": {
-    "description": "プレミアムプラン加入が必要な機能へのアクセス時のメッセージ"
-  },
   "medication": "Lääkitys",
-  "@medication": {
-    "description": "服薬タブのタイトル"
-  },
   "history": "Historia",
-  "@history": {
-    "description": "履歴タブのタイトル"
-  },
+  "calendar": "Kalenteri",
+  "diary": "Päiväkirja",
+  "writeDiary": "Kirjoita päiväkirja",
+  "editDiaryTooltip": "Muokkaa päiväkirjaa",
   "medicineRegistrationLimit": "Huumeiden rekisteröintimäärä",
-  "@medicineRegistrationLimit": {
-    "description": "薬の登録数の上限を説明するテキストの一部"
-  },
   "doseReceiverRegistrationLimit": "rekisteröityneiden lääkkeiden käyttäjien määrä",
-  "@doseReceiverRegistrationLimit": {
-    "description": "服用者の登録数の上限を説明するテキストの一部"
-  },
   "notificationScheduleLimit": "ilmoitusajan aikataulujen määrä",
-  "@notificationScheduleLimit": {
-    "description": "通知スケジュールの上限を説明するテキストの一部"
-  },
   "addMedicine": "Lisää lääke",
-  "@addMedicine": {
-    "description": "お薬を追加するボタンのテキスト"
-  },
   "medicineMaxCount": "Voit rekisteröidä enintään {count} lääkettä.",
-  "@medicineMaxCount": {
-    "description": "お薬の最大登録数を表示するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "5"
-      }
-    }
-  },
   "increaseMedicineLimitWithPremium": "Lisää lääkkeiden rekisteröintiraja premium-suunnitelmalla {count}:iin",
-  "@increaseMedicineLimitWithPremium": {
-    "description": "お薬の登録上限をプレミアムプランで増やすことを案内するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "10"
-      }
-    }
-  },
   "aboutApp": "Tietoa sovelluksesta",
-  "@aboutApp": {
-    "description": "アプリについてのセクションタイトル"
-  },
   "viewPremiumPlan": "Näytä premium-suunnitelma",
-  "@viewPremiumPlan": {
-    "description": "プレミアムプランの詳細を表示するためのボタンテキスト"
-  },
   "cancelSubscriptionInstruction": "Oston jälkeen voit peruuttaa automaattisen uusimisen {storeName}-sovelluksen tiliasetuksissa. (Sovelluksen sisäisestä automaattisen uusimisen peruutuksesta ei voi suorittaa).",
-  "@cancelSubscriptionInstruction": {
-    "description": "自動更新の解約方法の説明",
-    "placeholders": {
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "headache": "Päänsärky",
-  "@headache": {
-    "description": "症状の選択肢：頭痛"
-  },
   "stomachache": "Vatsakipu",
-  "@stomachache": {
-    "description": "症状の選択肢：腹痛"
-  },
   "nausea": "pahoinvointi",
-  "@nausea": {
-    "description": "症状の選択肢：吐き気"
-  },
   "anemia": "anemia",
-  "@anemia": {
-    "description": "症状の選択肢：貧血"
-  },
   "diarrhea": "ripuli",
-  "@diarrhea": {
-    "description": "症状の選択肢：下痢"
-  },
   "constipation": "Ummetus",
-  "@constipation": {
-    "description": "症状の選択肢：便秘"
-  },
   "hotFlash": "kuumotus",
-  "@hotFlash": {
-    "description": "症状の選択肢：ほてり"
-  },
   "drowsiness": "uneliaisuus",
-  "@drowsiness": {
-    "description": "症状の選択肢：眠気"
-  },
   "backPain": "Lanner",
-  "@backPain": {
-    "description": "症状の選択肢：腰痛"
-  },
   "palpitation": "sydämentykytys",
-  "@palpitation": {
-    "description": "症状の選択肢：動悸"
-  },
   "abnormalBleeding": "Epäselvä verenvuoto",
-  "@abnormalBleeding": {
-    "description": "症状の選択肢：不正出血"
-  },
   "lossOfAppetite": " ruokahaluttomuus",
-  "@lossOfAppetite": {
-    "description": "症状の選択肢：食欲不振"
-  },
   "chestTightness": "Rinta-alueen täyteys",
-  "@chestTightness": {
-    "description": "症状の選択肢：胸の張り"
-  },
   "insomnia": "Unihäiriö",
-  "@insomnia": {
-    "description": "症状の選択肢：不眠"
-  },
   "monthlyPlanDiscountFormat": "{percent}% alennus kuukausihinnasta",
-  "@monthlyPlanDiscountFormat": {
-    "description": "月額プランからの割引率を表示するフォーマット",
-    "placeholders": {
-      "percent": {
-        "type": "int",
-        "example": "50"
-      }
-    }
-  },
   "purchaseErrorUnknown": "Tuntematon virhe on tapahtunut. Yritä uudelleen myöhemmin. Jos ongelma ei ratkea, ota yhteyttä kohdasta Asetukset > Ota yhteyttä. Yksityiskohdat: {message}",
-  "@purchaseErrorUnknown": {
-    "description": "購入時の不明なエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorStoreProblem": "Virhe esiintyy kaupassa {storeName}. Odota hetki ja yritä uudelleen.",
-  "@purchaseErrorStoreProblem": {
-    "description": "ストアでのエラーメッセージ",
-    "placeholders": {
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "purchaseErrorInvalidPayment": "Maksaminen epäonnistui. Varmista, että maksutapa on voimassa, ja yritä uudelleen.",
-  "@purchaseErrorInvalidPayment": {
-    "description": "支払い方法が無効な場合のエラーメッセージ"
-  },
   "purchaseErrorProductUnavailable": "Valittua suunnitelmaa ei ole tällä hetkellä myynnissä. Pahoittelemme vaivannäköä, mutta kokeilethän sovelluksen uudelleenkäynnistystä.",
-  "@purchaseErrorProductUnavailable": {
-    "description": "商品が利用できない場合のエラーメッセージ"
-  },
   "purchaseErrorAlreadyPurchased": "Olet jo ostanut suunnitelman. Jos haluat palauttaa ostotiedot tältä laitteelta, voit palauttaa ostotiedot valitsemalla \"Palauta aiemmin ostettu\".",
-  "@purchaseErrorAlreadyPurchased": {
-    "description": "すでに購入済みの場合のエラーメッセージ"
-  },
   "purchaseErrorReceiptInUse": "Olet jo ostanut. Ostotiedot käytetään toisella käyttäjällä. Tarkista {accountName}.",
-  "@purchaseErrorReceiptInUse": {
-    "description": "購入情報が他のユーザーで使用されている場合のエラーメッセージ",
-    "placeholders": {
-      "accountName": {
-        "type": "String",
-        "example": "Apple ID"
-      }
-    }
-  },
   "purchaseErrorInvalidReceipt": "Virheellinen ostopaikkatieto. Varmista ostopaikkatiedot.",
-  "@purchaseErrorInvalidReceipt": {
-    "description": "購入情報が無効な場合のエラーメッセージ"
-  },
   "purchaseErrorMissingReceipt": "Ostajan tietoja ei ole olemassa. Yritä kirjautua laitteeseen tilillä {accountName}.",
-  "@purchaseErrorMissingReceipt": {
-    "description": "購入情報が見つからない場合のエラーメッセージ",
-    "placeholders": {
-      "accountName": {
-        "type": "String",
-        "example": "Apple ID"
-      }
-    }
-  },
   "purchaseErrorNetwork": "Verkkoyhteys on epävakaa. Tarkista yhteyden tila ja kokeile uudelleen.",
-  "@purchaseErrorNetwork": {
-    "description": "ネットワークエラーの場合のエラーメッセージ"
-  },
   "purchaseNotAllowed": "Tätä laitetta ei ole sallittu ostamaan.",
-  "@purchaseNotAllowed": {
-    "description": "デバイスでの購入が許可されていない場合のエラーメッセージ"
-  },
   "purchaseErrorInvalidCredentials": "Osto epäonnistui. Odota hetki ja yritä uudelleen. Jos ongelma ei ratkea, ota yhteyttä valitsemalla Asetukset > Ota yhteyttä. Yksityiskohtaiset tiedot: {message}",
-  "@purchaseErrorInvalidCredentials": {
-    "description": "認証情報が無効な場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorUnexpectedBackend": "Tällä hetkellä osto ei ole mahdollista. Yritä myöhemmin uudelleen. Jos ongelma ei ratkea, ota yhteyttä kohta asetukset > Yhteydenotto. Lisätiedot: {message}",
-  "@purchaseErrorUnexpectedBackend": {
-    "description": "バックエンドで予期せぬエラーが発生した場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorOperationInProgress": "Ostoprocessi on käynnissä erikseen. Odota hetki ja tarkista uudelleen.",
-  "@purchaseErrorOperationInProgress": {
-    "description": "購入処理が既に進行中の場合のエラーメッセージ"
-  },
   "purchaseErrorInsufficientPermissions": "Tililläsi {accountName} ei voi liittyä suunnitelmaan. Tarkista maksutietosi ja yritä uudelleen.",
-  "@purchaseErrorInsufficientPermissions": {
-    "description": "権限が不足している場合のエラーメッセージ",
-    "placeholders": {
-      "accountName": {
-        "type": "String",
-        "example": "Apple ID"
-      }
-    }
-  },
   "purchaseErrorPaymentPending": "Maksu on keskeytynyt. Tarkista {storeName} sisäänkirjautuneella tililläsi {accountName}.",
-  "@purchaseErrorPaymentPending": {
-    "description": "支払いが保留中の場合のエラーメッセージ",
-    "placeholders": {
-      "accountName": {
-        "type": "String",
-        "example": "Apple ID"
-      },
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "premiumUserThanksTitle": "Olet premium-jäsen",
-  "@premiumUserThanksTitle": {
-    "description": "プレミアムユーザーへの感謝を示すタイトル"
-  },
   "premiumUserThanksMessage": "Kiitos käytöstäsi.\nSen ansiosta voimme jatkaa Medicalarm-sovelluksen ylläpitoa.",
-  "@premiumUserThanksMessage": {
-    "description": "プレミアムユーザーへの感謝メッセージ"
-  },
   "premiumPricePerMonth": "({price}/kk)",
-  "@premiumPricePerMonth": {
-    "description": "月額料金の表示フォーマット",
-    "placeholders": {
-      "price": {
-        "type": "String",
-        "example": "¥500"
-      }
-    }
-  },
   "premiumCancelDescription": "• Ostamisen jälkeen voit peruuttaa automaattisen tilauksen {storeName}-sovelluksen tiliasetuksista. (Automaattista tilausten peruutusta ei voi tehdä sovelluksen sisällä).",
-  "@premiumCancelDescription": {
-    "description": "プレミアムプランの解約方法の説明",
-    "placeholders": {
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "purchaseErrorRestoreFailed": "Aikaisempia ostotietoja ei löytynyt. Tarkista tili ja yritä uudelleen.",
-  "@purchaseErrorRestoreFailed": {
-    "description": "購入情報の復元に失敗した場合のエラーメッセージ"
-  },
   "purchaseErrorUserNotFound": "Käyttäjää ei löytynyt. Käynnistä sovellus uudelleen ja yritä uudelleen. Lisätiedot: {message}",
-  "@purchaseErrorUserNotFound": {
-    "description": "ユーザーが見つからない場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorActivationPending": "Ostoprosessin aktivointi ei ole vielä valmis. Odota hetki ja tarkista uudelleen.",
-  "@purchaseErrorActivationPending": {
-    "description": "課金の有効化が完了していない場合のエラーメッセージ"
-  },
   "purchaseErrorTimeout": "Aikakatkaisu tapahtui. Tarkista verkkoyhteytesi ja yritä uudelleen. Jos ongelma ei ratkeudu, ota yhteyttä kohtaan Asetukset > Ota yhteyttä. Yksityiskohdat: {message}",
-  "@purchaseErrorTimeout": {
-    "description": "購入処理がタイムアウトした場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorNetworkError": "Verkkoyhteys on huono. Tarkista internet-yhteytesi ja yritä uudelleen. Jos ongelma ei ratkea, ota yhteyttä asetusten kautta > Ota yhteyttä. Yksityiskohdat: {message}",
-  "@purchaseErrorNetworkError": {
-    "description": "ネットワークエラーが発生した場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "sixMonthPlan": "6 kuukauden suunnitelma",
-  "@sixMonthPlan": {
-    "description": "6ヶ月プランの表示名"
-  },
   "premiumContractPeriod": "Sopimuskausi on ostopäivästä yksi kuukausi.",
-  "@premiumContractPeriod": {
-    "description": "プレミアムプランの契約期間の説明"
-  },
   "privacyPolicy": "Tietosuojakäytäntö",
-  "@privacyPolicy": {
-    "description": "プライバシーポリシーのリンクテキスト"
-  },
   "termsOfService": "Käyttöehdot",
-  "@termsOfService": {
-    "description": "利用規約のリンクテキスト"
-  },
   "specifiedCommercialTransactionAct": "Sisältää tietoja, jotka perustuvat erityiseen kaupankäyntilakiin",
-  "@specifiedCommercialTransactionAct": {
-    "description": "特定商取引法に基づく表記のリンクテキスト"
-  },
   "confirmBeforeRegistration": "Ole hyvä ja tarkista tämä ennen rekisteröitymistäsi.",
-  "@confirmBeforeRegistration": {
-    "description": "各種規約確認を促すメッセージ"
-  },
   "autoRenewalNotice": "Sopimuskauden päätyttyä se uusiutuu automaattisesti.",
-  "@autoRenewalNotice": {
-    "description": "自動更新に関する注意事項"
-  },
   "restorePurchase": "Ostaneille aiemmin",
-  "@restorePurchase": {
-    "description": "購入情報の復元リンクのテキスト"
-  },
   "purchaseRestored": "Osto tiedot on palautettu",
-  "@purchaseRestored": {
-    "description": "購入情報の復元が完了した際のメッセージ"
-  },
   "medicationTimeFollowup": "Lääkkeenottoajan seurantamuistutus",
-  "@medicationTimeFollowup": {
-    "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
-  },
   "updateRequired": "Päivitys on tarpeen",
-  "@updateRequired": {
-    "description": "強制アップデートが必要な場合のダイアログタイトル"
-  },
   "updateRequiredMessage": "Ole hyvä ja päivitä {storeName} uuteen versioon.",
-  "@updateRequiredMessage": {
-    "description": "強制アップデートが必要な場合のダイアログメッセージ",
-    "placeholders": {
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "screenshotMedicationHistoriesMemo": "Nukuin liian pitkään, ja lääkeannoksen ottaminen viivästyi.",
-  "@screenshotMedicationHistoriesMemo": {
-    "description": "薬のメモの例"
-  },
   "screenshotMedicationDoserReceiver1": "itsenäinen",
-  "@screenshotMedicationDoserReceiver1": {
-    "description": "薬の服用者の例"
-  },
   "screenshotMedicationDoserReceiver2": "Mana-chan",
-  "@screenshotMedicationDoserReceiver2": {
-    "description": "薬の服用者の例"
-  },
   "screenshotMedicationQuontityMemo1": "1 tabletti",
-  "@screenshotMedicationQuontityMemo1": {
-    "description": "薬の服用量の例"
-  },
   "screenshotMedicationQuontityMemo2": "2 tablettia",
-  "@screenshotMedicationQuontityMemo2": {
-    "description": "薬の服用量の例"
-  },
   "screenshotMedicationName1": "päänsärkytabletti",
-  "@screenshotMedicationName1": {
-    "description": "薬の名前の例"
-  },
   "screenshotMedicationName2": "vitamiinit",
-  "@screenshotMedicationName2": {
-    "description": "薬の名前の例"
-  },
   "notificationTitle": "Lääkkeen aika",
-  "@notificationTitle": {
-    "description": "薬の通知のタイトル"
-  },
   "notificationFollowupTitle": "Oletko unohtanut merkitä lääkityksesi muistiin?",
-  "@notificationFollowupTitle": {
-    "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
-  },
   "recommendedApp": "Suositellut sovellukset",
-  "@recommendedApp": {
-    "description": "おすすめアプリのタイトル"
-  },
   "pilllIntroduction": "Onko tämä ehkä pillerien hallintaa? Haluatko hallita pillerin käyttöä kätevämmin?",
-  "@pilllIntroduction": {
-    "description": "ピルの管理の紹介"
-  },
   "installPilll": "Asenna Pilll",
-  "@installPilll": {
-    "description": "Pilllをインストールするボタンのテキスト"
-  },
   "criticalAlertVolume": "Ääni",
-  "@criticalAlertVolume": {
-    "description": "緊急通知の音量の表示名"
-  }
+  "specialGift": "🎉 Erityislahja 🎉",
+  "freePremiumTrialDays": "Saat lahjaksi ilmaisen {count} päivän kokeilujakson!",
+  "welcomeToMedicalarm": "Tervetuloa Medicalarmiin!",
+  "writeReviewFor5StarPromotion": "Kirjoita App Storeen 5 tähden arvio ja arvostelu, niin voit kokeilla premium-ominaisuuksia ilmaiseksi {count} päivän ajan!",
+  "rating5StarsEncouragement": "★5-arviosi on kehittäjille suuri kannustus.\nTue meitä, jotta voimme tehdä entistä paremman sovelluksen!",
+  "noAutoCharge": "Sinulta ei veloiteta automaattisesti. Kokeilujakson päätyttyä palaat automaattisesti ilmaiseen tilaukseen.",
+  "write5StarReview": "Kirjoita 5 tähden arvostelu",
+  "receiveReward": "Vastaanota palkinto",
+  "notNow": "Ei nyt",
+  "openAppStore": "Avaa App Store",
+  "confirmOpenAppStore": "Haluatko avata App Storen arvostelun kirjoittamista varten?",
+  "premiumFeaturesList": "Premium-ominaisuudet",
+  "currentlyInPremiumTrial": "Käytät parhaillaan Premium-kokeilujaksoa.",
+  "medicationPause": "Ota lääkitys käyttöön",
+  "medicationPauseDescription": "Kun se poistetaan käytöstä, se poistetaan lääkkeiden näytöstä ja ilmoituksista.",
+  "medicinePausedSnackbar": "Lääkkeen ottaminen on keskeytetty väliaikaisesti",
+  "medicationHistoryDeletedSnackbar": "Lääkkeenottotietue kumottiin",
+  "undo": "Kumoa",
+  "medicationHistoryReverted": "Lääkkeenoton kirjaus peruttu",
+  "revertedTime": "Peruutusaika",
+  "revertedByMember": "{name} perui",
+  "medicationTakenAtLabel": "Otettu klo {time}",
+  "medicineResumedSnackbar": "Lääkkeen ottamista jatkettiin",
+  "medicineEditTooltip": "Muokkaa lääkettä",
+  "groups": "Ryhmät",
+  "groupManagement": "Ryhmien hallinta",
+  "createGroup": "Luo ryhmä",
+  "groupName": "Ryhmän nimi",
+  "groupNameInputHint": "Anna ryhmän nimi",
+  "groupIcon": "Kuvake",
+  "groupMemberCount": "{count} jäsentä",
+  "defaultGroupBadge": "Oletus",
+  "soloGroupName": "Omat ryhmäni",
+  "joinWithInvitationCode": "Liity kutsukoodilla",
+  "groupCreationLimitReached": "Et voi luoda enempää ryhmiä ilmaisella tilauksella.",
+  "increaseGroupLimitWithPremium": "Luo lisää ryhmiä Premium-tilauksella",
+  "invitationCode": "Kutsukoodi",
+  "invitationCodeShareDescription": "Jaa tämä koodi kutsuaksesi jäseniä",
+  "invitationCodeExpiresAt": "Voimassa asti: {date}",
+  "copyInvitationCode": "Kopioi koodi",
+  "invitationCodeCopied": "Kutsukoodi kopioitu",
+  "issueInvitationCode": "Luo kutsukoodi",
+  "groupSettings": "Ryhmän asetukset",
+  "members": "Jäsenet",
+  "memberFallbackName": "Jäsen",
+  "yourDisplayName": "Näyttönimesi",
+  "displayNameInputHint": "Anna näyttönimi",
+  "ownerLabel": "Omistaja",
+  "youLabel": "Sinä",
+  "removeMemberConfirmTitle": "Poistetaanko jäsen?",
+  "removeMemberConfirmMessage": "Poistetaan {name} ryhmästä",
+  "joinGroup": "Liity ryhmään",
+  "invitationCodeInputLabel": "Kutsukoodi (8 merkkiä)",
+  "invitationCodeInputHint": "Syötä 8-merkkinen koodi",
+  "join": "Liity",
+  "recordedByMember": "{name} kirjasi",
+  "accountLink": "Tilin siirto",
+  "accountLinkDescription": "Yhdistämällä Appleen tai Googleen voit siirtää tietosi myös laitteen vaihtamisen tai sovelluksen uudelleenasennuksen jälkeen.",
+  "linkWithApple": "Siirrä tili Applella",
+  "linkWithGoogle": "Siirrä tili Googlella",
+  "accountLinkedWithApple": "Yhdistetty Appleen",
+  "accountLinkedWithGoogle": "Yhdistetty Googleen",
+  "accountLinkedSnackbar": "Tili siirretty",
+  "accountLinkBannerText": "Kun jaat ryhmän, suosittelemme vahvasti tilin siirron määrittämistä.",
+  "minimumDoseInterval": "Annosväli",
+  "minimumDoseIntervalDescription": "Annosten välinen vähimmäisaika edellisestä annoksesta",
+  "minimumDoseIntervalNone": "Ei mitään",
+  "minimumDoseIntervalHoursFormat": "Vähintään {hours} tuntia",
+  "doseIntervalWarningTitle": "Annosvälien vähimmäisaika ei ole vielä kulunut",
+  "doseIntervalWarningMessage": "Olet ottanut annoksen jo klo {latestTakeTime}. Asetuksissa annosten väliksi on määritetty vähintään {minimumDoseIntervalHours} tuntia. Haluatko kirjata sen silti?",
+  "doseIntervalWarningTakeAnyway": "Kirjaa",
+  "doseIntervalNotificationWarning": "⚠️ Edellisestä annoksesta ei ole kulunut {minimumDoseIntervalHours} tuntia",
+  "ossLicense": "OSS-lisenssit"
 }

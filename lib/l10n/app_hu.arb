@@ -1,783 +1,234 @@
 {
   "@@locale": "hu",
   "retry": "Újrapróbálás",
-  "@retry": {
-    "description": "エラーが発生した際やデータの読み込みに失敗した際に、再度処理を実行するためのボタンテキスト"
-  },
   "save": "Mentés",
-  "@save": {
-    "description": "フォームやエディタで入力したデータを保存する際に使用するボタンテキスト"
-  },
   "memo": "Megjegyzés",
-  "@memo": {
-    "description": "服薬記録や日記などで追加情報を入力するためのテキストフィールドのプレースホルダー"
-  },
   "completed": "Befejeződött",
-  "@completed": {
-    "description": "フォームの入力や設定の変更などの操作が完了した際に使用するボタンテキスト"
-  },
   "medicineRegistration": "Gyógyszerregisztráló képernyő",
-  "@medicineRegistration": {
-    "description": "お薬の新規登録・編集画面のタイトル"
-  },
   "medicineName": "Gyógyszer neve",
-  "@medicineName": {
-    "description": "お薬登録フォームでの薬の名前を入力するフィールドのプレースホルダー"
-  },
   "medicineList": "Gyógyszerek listája",
-  "@medicineList": {
-    "description": "登録されているお薬の一覧を表示する画面のタイトル"
-  },
   "medicationSchedule": "Gyógyszerszedési ütemterv",
-  "@medicationSchedule": {
-    "description": "服用スケジュールのセクションタイトル"
-  },
   "medicationTime": "Értesítés engedélyezése a gyógyszeres szedés időpontjában",
-  "@medicationTime": {
-    "description": "服用時刻の通知設定を有効にするためのスイッチのラベル"
-  },
   "medicationTimeDescription": "Értesítést küld az adagolási időpontnak megfelelően.",
-  "@medicationTimeDescription": {
-    "description": "服用時刻の通知設定の説明文"
-  },
   "close": "Bezárás",
-  "@close": {
-    "description": "ダイアログやモーダルを閉じるためのボタンテキスト"
-  },
   "settings": "Beállítások",
-  "@settings": {
-    "description": "設定画面のタイトル"
-  },
   "camera": "Kamera",
-  "@camera": {
-    "description": "カメラを起動するためのメニュー項目"
-  },
   "photoLibrary": "Fotókönyvtár",
-  "@photoLibrary": {
-    "description": "フォトライブラリを開くためのメニュー項目"
-  },
   "medicationHistory": "Gyógyszerszedési előzmények",
-  "@medicationHistory": {
-    "description": "服薬履歴を表示する画面のタイトル"
-  },
   "noMedicationHistory": "Nincs gyógyszerszedési előzménye",
-  "@noMedicationHistory": {
-    "description": "服薬履歴が存在しない場合に表示するメッセージ"
-  },
   "scheduledTime": "tervezett időpont",
-  "@scheduledTime": {
-    "description": "服薬予定時刻のラベル"
-  },
   "recordedTime": "Felvételi idő",
-  "@recordedTime": {
-    "description": "実際に服薬を記録した時間のラベル"
-  },
   "noMemo": "Nincs megjegyzés",
-  "@noMemo": {
-    "description": "メモが存在しない場合に表示するテキスト"
-  },
   "premiumPlan": "Prémium terv",
-  "@premiumPlan": {
-    "description": "プレミアムプランの名称"
-  },
   "premiumFeatureAds": "Hirdetések elrejtése",
-  "@premiumFeatureAds": {
-    "description": "プレミアム機能の広告非表示の説明"
-  },
   "premiumFeatureHistory": "Minden gyógyszerszedési előzmény megjelenítése",
-  "@premiumFeatureHistory": {
-    "description": "プレミアム機能の履歴表示の説明"
-  },
   "premiumRegistrationComplete": "Medicalarm prémium regisztráció befejezve",
-  "@premiumRegistrationComplete": {
-    "description": "プレミアム登録完了時のタイトル"
-  },
   "premiumRegistrationThanks": "Köszönjük a regisztrációt.\nMostantól elérheti az összes funkciót!",
-  "@premiumRegistrationThanks": {
-    "description": "プレミアム登録完了時のメッセージ"
-  },
   "unknownError": "Ismeretlen hiba történt.",
-  "@unknownError": {
-    "description": "予期せぬエラーが発生した際のエラーメッセージ"
-  },
   "error": "Hiba történt",
-  "@error": {
-    "description": "一般的なエラーメッセージ"
-  },
   "unexpectedError": "Váratlan hiba történt",
-  "@unexpectedError": {
-    "description": "予期せぬエラーが発生した際のエラーメッセージ"
-  },
   "cancel": "Mégse",
-  "@cancel": {
-    "description": "操作をキャンセルするためのボタンテキスト"
-  },
   "delete": "Törlés",
-  "@delete": {
-    "description": "削除操作を実行するためのボタンテキスト"
-  },
   "deleteAccount": "Fiók törlése",
-  "@deleteAccount": {
-    "description": "アカウント削除ボタンのテキスト"
-  },
   "deleteAccountConfirm": "Felhasználói adatok törlése",
-  "@deleteAccountConfirm": {
-    "description": "アカウント削除確認ダイアログのタイトル"
-  },
   "deleteAccountMessage": "Ha törli a fiókját, az összes felhasználói információ törlésre kerül.",
-  "@deleteAccountMessage": {
-    "description": "アカウント削除確認ダイアログのメッセージ"
-  },
   "medicationFrequency": "Adagolás gyakoriság",
-  "@medicationFrequency": {
-    "description": "服用頻度の設定セクションのタイトル"
-  },
   "daily": "Minden nap",
-  "@daily": {
-    "description": "毎日服用する頻度設定"
-  },
   "everyXDays": "X naponként",
-  "@everyXDays": {
-    "description": "X日ごとに服用する頻度設定"
-  },
   "specificWeekdays": "heti napok",
-  "@specificWeekdays": {
-    "description": "特定の曜日に服用する頻度設定"
-  },
   "cycle": "Ciklus",
-  "@cycle": {
-    "description": "周期で服用する頻度設定"
-  },
   "cycleDescription": "példa) 21 nap szedés/7 nap szünet",
-  "@cycleDescription": {
-    "description": "周期での服用頻度の説明文"
-  },
   "everyXDaysDescription": "például 2 naponta, 3 naponta",
-  "@everyXDaysDescription": {
-    "description": "X日ごとの服用頻度の説明文"
-  },
   "specificWeekdaysDescription": "Hétfőn csak, szerdán és pénteken",
-  "@specificWeekdaysDescription": {
-    "description": "特定の曜日の服用頻度の説明文"
-  },
   "medicineFormValidationError": "Kérjük, adja meg a nevét és a gyógyszer szedési ütemezését.",
-  "@medicineFormValidationError": {
-    "description": "お薬登録フォームでの入力バリデーションエラーメッセージ"
-  },
   "quantity": "Kapacitás",
-  "@quantity": {
-    "description": "服用量を入力するフィールドのラベル"
-  },
   "quantityExample": "Példa: 1 tabletta, 100mg",
-  "@quantityExample": {
-    "description": "服用量入力フィールドのプレースホルダー"
-  },
   "medicationStartDate": "Kezdési dátum",
-  "@medicationStartDate": {
-    "description": "服用開始日を選択するフィールドのラベル"
-  },
   "otherInformation": "Egyéb",
-  "@otherInformation": {
-    "description": "その他の情報を入力するセクションのタイトル"
-  },
   "doseReceiver": "Gyógyszerszedő",
-  "@doseReceiver": {
-    "description": "服用者を選択するフィールドのラベル"
-  },
   "defaultDoseReceiver": "saját",
-  "@defaultDoseReceiver": {
-    "description": "デフォルトの服用者名"
-  },
   "doseReceiverMaxCount": "A felhasználók maximálisan {count} főig regisztrálhatók.",
-  "@doseReceiverMaxCount": {
-    "description": "服用者の最大登録数を表示するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "2"
-      }
-    }
-  },
   "increaseLimitWithPremium": "Növelje a korlátot {count} prémium tervvel",
-  "@increaseLimitWithPremium": {
-    "description": "プレミアムプランでの上限増加を案内するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "10"
-      }
-    }
-  },
   "addDoseReceiver": "Felhasználó hozzáadása",
-  "@addDoseReceiver": {
-    "description": "服用者を追加するボタンのテキスト"
-  },
   "newDoseReceiver": "Új szedő",
-  "@newDoseReceiver": {
-    "description": "新規追加時のデフォルトの服用者名"
-  },
   "reloginRequired": "Kérjük, jelentkezzen be újra",
-  "@reloginRequired": {
-    "description": "アカウント削除時に再ログインが必要な場合のダイアログタイトル"
-  },
   "reloginMessage": "A fiók törléséhez kérjük, jelentkezzen be újra.",
-  "@reloginMessage": {
-    "description": "アカウント削除時の再ログイン要求メッセージ"
-  },
   "relogin": "Újra bejelentkezés",
-  "@relogin": {
-    "description": "再ログインを実行するためのボタンテキスト"
-  },
   "accountDeleted": "A fiók törlése sikerült.",
-  "@accountDeleted": {
-    "description": "アカウント削除完了時のメッセージ"
-  },
   "confirmExit": "Kilép a programból?",
-  "@confirmExit": {
-    "description": "アプリ終了確認のメッセージ"
-  },
   "exit": "Kilépés",
-  "@exit": {
-    "description": "アプリを終了するためのボタンテキスト"
-  },
   "viewFaq": "GYIK megtekintése",
-  "@viewFaq": {
-    "description": "FAQページを表示するためのボタンテキスト"
-  },
   "medicine": "Gyógyszer",
-  "@medicine": {
-    "description": "お薬タブのタイトル"
-  },
   "inquiry": "Kapcsolat",
-  "@inquiry": {
-    "description": "お問い合わせボタンのテキスト"
-  },
   "ok": " rendben",
-  "@ok": {
-    "description": "確認ダイアログのOKボタンのテキスト"
-  },
   "medicationScheduleLimit": "A medication schedule can be registered up to {count} times.",
-  "@medicationScheduleLimit": {
-    "description": "服用スケジュールの登録上限を表示するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "3"
-      }
-    }
-  },
   "increaseMedicationScheduleLimit": "Növelje a maximális mennyiséget {count} -ra prémium csomaggal.",
-  "@increaseMedicationScheduleLimit": {
-    "description": "服用スケジュールの上限をプレミアムプランで増やすことを案内するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "10"
-      }
-    }
-  },
   "addMedicationSchedule": "Gyógyszerszedési ütemterv hozzáadása",
-  "@addMedicationSchedule": {
-    "description": "服用スケジュールを追加するボタンのテキスト"
-  },
   "medicationScheduleNotificationSetting": "Gyógyszeres ütemezés értesítési beállítás",
-  "@medicationScheduleNotificationSetting": {
-    "description": "服用スケジュールの通知設定画面のタイトル"
-  },
   "notificationSetting": "Értesítési beállítások",
-  "@notificationSetting": {
-    "description": "通知設定セクションのタイトル"
-  },
   "enableFollowupNotification": "Kövesse nyomon az értesítéseket",
-  "@enableFollowupNotification": {
-    "description": "フォローアップ通知を有効にするスイッチのラベル"
-  },
   "followupNotificationDescription": "Ha az első értesítéstől számított 30 percen belül nem rögzíti a gyógyszerszedést, akkor követő értesítést kap.",
-  "@followupNotificationDescription": {
-    "description": "フォローアップ通知の説明文"
-  },
   "enableNotificationInSilentMode": "Értesítések a néma módban is",
-  "@enableNotificationInSilentMode": {
-    "description": "マナーモード時の通知を有効にするスイッチのラベル"
-  },
   "silentModeNotificationDescription": "A fontos értesítések megjelennek a zárolt képernyőn, még ha a fókusz mód be van kapcsolva, vagy az eszköz némítva is van, a hangok is lejátszásra kerülnek.",
-  "@silentModeNotificationDescription": {
-    "description": "マナーモード時の通知の説明文"
-  },
   "everyXDaysFormat": "{count} naponta",
-  "@everyXDaysFormat": {
-    "description": "X日ごとの服用頻度を表示する際のフォーマット",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "2"
-      }
-    }
-  },
   "cycleDaysFormat": "{consecutiveDays} nap gyógyszerszedés/{restDays} nap szünet",
-  "@cycleDaysFormat": {
-    "description": "服用周期を表示する際のフォーマット",
-    "placeholders": {
-      "consecutiveDays": {
-        "type": "int",
-        "example": "21"
-      },
-      "restDays": {
-        "type": "int",
-        "example": "7"
-      }
-    }
-  },
   "consecutiveDaysFormat": "{count} napja szedve",
-  "@consecutiveDaysFormat": {
-    "description": "連続服用日数を表示する際のフォーマット",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "21"
-      }
-    }
-  },
   "restDaysFormat": "{count} nap gyógyszerszedés kihagyás",
-  "@restDaysFormat": {
-    "description": "休薬日数を表示する際のフォーマット",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "7"
-      }
-    }
-  },
   "limitedTimeDiscount": "Most már korlátozott áron örökre használható",
-  "@limitedTimeDiscount": {
-    "description": "プレミアムプランの限定価格キャンペーンを案内するメッセージ"
-  },
   "monthlyPlan": "Havi előfizetés",
-  "@monthlyPlan": {
-    "description": "月額プランの名称"
-  },
   "annualPlan": "Éves előfizetés",
-  "@annualPlan": {
-    "description": "年額プランの名称"
-  },
   "weeklyPlan": "Heti terv",
-  "@weeklyPlan": {
-    "description": "週額プランの名称"
-  },
   "premiumRequired": "A prémium tervhez való csatlakozással elérhető.",
-  "@premiumRequired": {
-    "description": "プレミアムプラン加入が必要な機能へのアクセス時のメッセージ"
-  },
   "medication": "Gyógyszerszedés",
-  "@medication": {
-    "description": "服薬タブのタイトル"
-  },
   "history": "Előzmények",
-  "@history": {
-    "description": "履歴タブのタイトル"
-  },
+  "calendar": "Naptár",
+  "diary": "Napló",
+  "writeDiary": "Napló írása",
+  "editDiaryTooltip": "Napló szerkesztése",
   "medicineRegistrationLimit": "A gyógyszerek nyilvántartásának számát",
-  "@medicineRegistrationLimit": {
-    "description": "薬の登録数の上限を説明するテキストの一部"
-  },
   "doseReceiverRegistrationLimit": "A felhasználók számát",
-  "@doseReceiverRegistrationLimit": {
-    "description": "服用者の登録数の上限を説明するテキストの一部"
-  },
   "notificationScheduleLimit": "Értesítési tervek száma",
-  "@notificationScheduleLimit": {
-    "description": "通知スケジュールの上限を説明するテキストの一部"
-  },
   "addMedicine": "Gyógyszer hozzáadása",
-  "@addMedicine": {
-    "description": "お薬を追加するボタンのテキスト"
-  },
   "medicineMaxCount": "Legjobb, ha legfeljebb {count} gyógyszert tud regisztrálni.",
-  "@medicineMaxCount": {
-    "description": "お薬の最大登録数を表示するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "5"
-      }
-    }
-  },
   "increaseMedicineLimitWithPremium": "A prémium tervvel növelheti a regisztrált gyógyszerek számát {count}-ra.",
-  "@increaseMedicineLimitWithPremium": {
-    "description": "お薬の登録上限をプレミアムプランで増やすことを案内するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "10"
-      }
-    }
-  },
   "aboutApp": "Az alkalmazásról",
-  "@aboutApp": {
-    "description": "アプリについてのセクションタイトル"
-  },
   "viewPremiumPlan": "Nézd meg a prèmium tervet",
-  "@viewPremiumPlan": {
-    "description": "プレミアムプランの詳細を表示するためのボタンテキスト"
-  },
   "cancelSubscriptionInstruction": "A vásárlás után az automatikus megújítást a {storeName} alkalmazás fiókbeállításaiban lehet lemondani. (Az alkalmazáson belül nem lehet lemondani az automatikus megújítást.)",
-  "@cancelSubscriptionInstruction": {
-    "description": "自動更新の解約方法の説明",
-    "placeholders": {
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "headache": "fejfájás",
-  "@headache": {
-    "description": "症状の選択肢：頭痛"
-  },
   "stomachache": "gyomorfájás",
-  "@stomachache": {
-    "description": "症状の選択肢：腹痛"
-  },
   "nausea": "Hányinger",
-  "@nausea": {
-    "description": "症状の選択肢：吐き気"
-  },
   "anemia": "vérszegénység",
-  "@anemia": {
-    "description": "症状の選択肢：貧血"
-  },
   "diarrhea": "Hasmenés",
-  "@diarrhea": {
-    "description": "症状の選択肢：下痢"
-  },
   "constipation": "székrekedés",
-  "@constipation": {
-    "description": "症状の選択肢：便秘"
-  },
   "hotFlash": "izzadás",
-  "@hotFlash": {
-    "description": "症状の選択肢：ほてり"
-  },
   "drowsiness": "álmosság",
-  "@drowsiness": {
-    "description": "症状の選択肢：眠気"
-  },
   "backPain": "derékfájás",
-  "@backPain": {
-    "description": "症状の選択肢：腰痛"
-  },
   "palpitation": "szívdobogás",
-  "@palpitation": {
-    "description": "症状の選択肢：動悸"
-  },
   "abnormalBleeding": "vérzékenység",
-  "@abnormalBleeding": {
-    "description": "症状の選択肢：不正出血"
-  },
   "lossOfAppetite": "étvágytalanság",
-  "@lossOfAppetite": {
-    "description": "症状の選択肢：食欲不振"
-  },
   "chestTightness": "Mellkasi feszülés",
-  "@chestTightness": {
-    "description": "症状の選択肢：胸の張り"
-  },
   "insomnia": "insomnia",
-  "@insomnia": {
-    "description": "症状の選択肢：不眠"
-  },
   "monthlyPlanDiscountFormat": "{percent}% kedvezmény a havi díjból",
-  "@monthlyPlanDiscountFormat": {
-    "description": "月額プランからの割引率を表示するフォーマット",
-    "placeholders": {
-      "percent": {
-        "type": "int",
-        "example": "50"
-      }
-    }
-  },
   "purchaseErrorUnknown": "Okkalmatlan hiba történt. Kérem, próbálja újra egy későbbi időpontban. Ha a probléma továbbra is fennáll, kérjük, lépjen kapcsolatba velünk a Beállítások > Kapcsolatfelvétel menüpont alatt. Részletek: {message}",
-  "@purchaseErrorUnknown": {
-    "description": "購入時の不明なエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorStoreProblem": "Hiba történt a {storeName} alkalmazásban. Kérjük, várjon egy kicsit, és próbálja meg újra.",
-  "@purchaseErrorStoreProblem": {
-    "description": "ストアでのエラーメッセージ",
-    "placeholders": {
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "purchaseErrorInvalidPayment": "A fizetés nem sikerült. Kérjük, ellenőrizze, hogy érvényes-e a fizetési mód, majd próbálja újra.",
-  "@purchaseErrorInvalidPayment": {
-    "description": "支払い方法が無効な場合のエラーメッセージ"
-  },
   "purchaseErrorProductUnavailable": "A kiválasztott terv jelenleg nem elérhető. Kérjük, indítsa újra az alkalmazást, és próbálja meg újra.",
-  "@purchaseErrorProductUnavailable": {
-    "description": "商品が利用できない場合のエラーメッセージ"
-  },
   "purchaseErrorAlreadyPurchased": "Már megvásárolta a tervet. Ha meg szeretné őrizni a vásárlási információkat ezen az eszközön, kérjük, használja a \"Kérjük, kattanjon ide, ha korábban vásárolt\" lehetőséget a vásárlási információk helyreállításához.",
-  "@purchaseErrorAlreadyPurchased": {
-    "description": "すでに購入済みの場合のエラーメッセージ"
-  },
   "purchaseErrorReceiptInUse": "Már megvásárolva. A vásárlási információ egy másik felhasználóhoz tartozik. Kérjük, ellenőrizze {accountName}-t.",
-  "@purchaseErrorReceiptInUse": {
-    "description": "購入情報が他のユーザーで使用されている場合のエラーメッセージ",
-    "placeholders": {
-      "accountName": {
-        "type": "String",
-        "example": "Apple ID"
-      }
-    }
-  },
   "purchaseErrorInvalidReceipt": "Érvénytelen vásárlási információ. Kérjük, ellenőrizze a vásárlási információkat.",
-  "@purchaseErrorInvalidReceipt": {
-    "description": "購入情報が無効な場合のエラーメッセージ"
-  },
   "purchaseErrorMissingReceipt": "Nincs vásárlói információ. Kérjük, jelentkezzen be a {accountName} fiókjába a készüléken, és próbálja meg újra.",
-  "@purchaseErrorMissingReceipt": {
-    "description": "購入情報が見つからない場合のエラーメッセージ",
-    "placeholders": {
-      "accountName": {
-        "type": "String",
-        "example": "Apple ID"
-      }
-    }
-  },
   "purchaseErrorNetwork": "A hálózati állapot instabil. Kérjük, ellenőrizze a kapcsolatot, majd próbálja meg újra.",
-  "@purchaseErrorNetwork": {
-    "description": "ネットワークエラーの場合のエラーメッセージ"
-  },
   "purchaseNotAllowed": "A vásárlás nem engedélyezett ezen az eszközön.",
-  "@purchaseNotAllowed": {
-    "description": "デバイスでの購入が許可されていない場合のエラーメッセージ"
-  },
   "purchaseErrorInvalidCredentials": "A vásárlás nem sikerült. Kérjük, próbálja meg újra később. Ha a probléma továbbra is fennáll, kérjük, lépjen kapcsolatba velünk a Beállítások > Kapcsolatfelvétel menüpont alatt. Részletek: {message}",
-  "@purchaseErrorInvalidCredentials": {
-    "description": "認証情報が無効な場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorUnexpectedBackend": "Jelenleg nem lehet vásárolni. Kérjük, várjon egy kicsit, és próbálja meg újra. Ha a probléma továbbra is fennáll, kérjük, lépjen kapcsolatba velünk a Beállítások > Kapcsolatfelvétel menüben. Részletek: {message}.",
-  "@purchaseErrorUnexpectedBackend": {
-    "description": "バックエンドで予期せぬエラーが発生した場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorOperationInProgress": "A vásárlási folyamat külön eljárásban zajlik. Kérjük, várjon egy kicsit, és ellenőrizze újra.",
-  "@purchaseErrorOperationInProgress": {
-    "description": "購入処理が既に進行中の場合のエラーメッセージ"
-  },
   "purchaseErrorInsufficientPermissions": "A kiválasztott {accountName} nem jogosult a tervre való előfizetésre. Kérjük, ellenőrizze a fizetési információit, majd próbálja újra.",
-  "@purchaseErrorInsufficientPermissions": {
-    "description": "権限が不足している場合のエラーメッセージ",
-    "placeholders": {
-      "accountName": {
-        "type": "String",
-        "example": "Apple ID"
-      }
-    }
-  },
   "purchaseErrorPaymentPending": "A fizetés folyamatban van. Kérjük, ellenőrizze a(z) {storeName} a {accountName} fiókjában.",
-  "@purchaseErrorPaymentPending": {
-    "description": "支払いが保留中の場合のエラーメッセージ",
-    "placeholders": {
-      "accountName": {
-        "type": "String",
-        "example": "Apple ID"
-      },
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "premiumUserThanksTitle": "Prémium tagja van.",
-  "@premiumUserThanksTitle": {
-    "description": "プレミアムユーザーへの感謝を示すタイトル"
-  },
   "premiumUserThanksMessage": "Köszönjük, hogy használja az alkalmazást. Hála Önnek, folytathatjuk a Medicalarm üzemeltetését.",
-  "@premiumUserThanksMessage": {
-    "description": "プレミアムユーザーへの感謝メッセージ"
-  },
   "premiumPricePerMonth": "({price}/hónap)",
-  "@premiumPricePerMonth": {
-    "description": "月額料金の表示フォーマット",
-    "placeholders": {
-      "price": {
-        "type": "String",
-        "example": "¥500"
-      }
-    }
-  },
   "premiumCancelDescription": "A vásárlás után a {storeName} alkalmazás fiókbeállításaiban lemondhatja az automatikus megújítást. (Az alkalmazáson belül nem lehet lemondani az automatikus megújítást.)",
-  "@premiumCancelDescription": {
-    "description": "プレミアムプランの解約方法の説明",
-    "placeholders": {
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "purchaseErrorRestoreFailed": "Nem található korábbi vásárlási információ. Kérjük, ellenőrizze a fiókját, és próbálja meg újra.",
-  "@purchaseErrorRestoreFailed": {
-    "description": "購入情報の復元に失敗した場合のエラーメッセージ"
-  },
   "purchaseErrorUserNotFound": "A felhasználó nem található. Kérjük, indítsa újra az alkalmazást, és próbálkozzon újra. Részletek: {message}",
-  "@purchaseErrorUserNotFound": {
-    "description": "ユーザーが見つからない場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorActivationPending": "A díjbekérési aktiválás még nem fejeződött be. Kérjük, ellenőrizze később.",
-  "@purchaseErrorActivationPending": {
-    "description": "課金の有効化が完了していない場合のエラーメッセージ"
-  },
   "purchaseErrorTimeout": "Időkorlát lejárt. Kérjük, ellenőrizze a hálózati környezetét, és próbálja meg újra. Ha a probléma továbbra is fennáll, lépjen kapcsolatba velünk a Beállítások > Kapcsolatfelvétel menüből. Részletek: {message}",
-  "@purchaseErrorTimeout": {
-    "description": "購入処理がタイムアウトした場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorNetworkError": "Hálózati hiba történt. Kérem, ellenőrizze a hálózati környezetet, majd próbálja újra. Ha a probléma továbbra is fennáll, kérjük, lépjen kapcsolatba velünk a Beállítások > Kapcsolatfelvétel menüpont alatt. Részletek: {message}",
-  "@purchaseErrorNetworkError": {
-    "description": "ネットワークエラーが発生した場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "sixMonthPlan": "6 hónapos terv",
-  "@sixMonthPlan": {
-    "description": "6ヶ月プランの表示名"
-  },
   "premiumContractPeriod": "A szerződés időtartama a vásárlás dátumától számított 1 hónap.",
-  "@premiumContractPeriod": {
-    "description": "プレミアムプランの契約期間の説明"
-  },
   "privacyPolicy": "Adatvédelmi irányelvek",
-  "@privacyPolicy": {
-    "description": "プライバシーポリシーのリンクテキスト"
-  },
   "termsOfService": "Felhasználási feltételek",
-  "@termsOfService": {
-    "description": "利用規約のリンクテキスト"
-  },
   "specifiedCommercialTransactionAct": "A speciális kereskedelmi törvény alapján készített nyilatkozat",
-  "@specifiedCommercialTransactionAct": {
-    "description": "特定商取引法に基づく表記のリンクテキスト"
-  },
   "confirmBeforeRegistration": "Kérjük, ellenőrizze és regisztráljon.",
-  "@confirmBeforeRegistration": {
-    "description": "各種規約確認を促すメッセージ"
-  },
   "autoRenewalNotice": "A szerződés időtartamának lejárta után automatikus megújítás lép életbe.",
-  "@autoRenewalNotice": {
-    "description": "自動更新に関する注意事項"
-  },
   "restorePurchase": "Itt már megvásárolták",
-  "@restorePurchase": {
-    "description": "購入情報の復元リンクのテキスト"
-  },
   "purchaseRestored": "A vásárlási információk helyreállítása megtörtént.",
-  "@purchaseRestored": {
-    "description": "購入情報の復元が完了した際のメッセージ"
-  },
   "medicationTimeFollowup": "Gyógyszerszedési időpont utánkövetése",
-  "@medicationTimeFollowup": {
-    "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
-  },
   "updateRequired": "Frissítés szükséges",
-  "@updateRequired": {
-    "description": "強制アップデートが必要な場合のダイアログタイトル"
-  },
   "updateRequiredMessage": "Kérjük, frissítse a legújabb verzióra a(z) {storeName} alkalmazásból.",
-  "@updateRequiredMessage": {
-    "description": "強制アップデートが必要な場合のダイアログメッセージ",
-    "placeholders": {
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "screenshotMedicationHistoriesMemo": "Túl sokáig aludtam a napközbeni szunyókálás közben, így késlekedtem a gyógyszer bevételével.",
-  "@screenshotMedicationHistoriesMemo": {
-    "description": "薬のメモの例"
-  },
   "screenshotMedicationDoserReceiver1": "saját magam",
-  "@screenshotMedicationDoserReceiver1": {
-    "description": "薬の服用者の例"
-  },
   "screenshotMedicationDoserReceiver2": "Mana-chan",
-  "@screenshotMedicationDoserReceiver2": {
-    "description": "薬の服用者の例"
-  },
   "screenshotMedicationQuontityMemo1": "1 tabletta",
-  "@screenshotMedicationQuontityMemo1": {
-    "description": "薬の服用量の例"
-  },
   "screenshotMedicationQuontityMemo2": "2 tabletta",
-  "@screenshotMedicationQuontityMemo2": {
-    "description": "薬の服用量の例"
-  },
   "screenshotMedicationName1": "fejfájás elleni gyógyszer",
-  "@screenshotMedicationName1": {
-    "description": "薬の名前の例"
-  },
   "screenshotMedicationName2": "vitaminok",
-  "@screenshotMedicationName2": {
-    "description": "薬の名前の例"
-  },
   "notificationTitle": "Itt van a gyógyszer ideje",
-  "@notificationTitle": {
-    "description": "薬の通知のタイトル"
-  },
   "notificationFollowupTitle": "Ne feledkezz meg a gyógyszerbevitelről!",
-  "@notificationFollowupTitle": {
-    "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
-  },
   "recommendedApp": "Ajánlott alkalmazás",
-  "@recommendedApp": {
-    "description": "おすすめアプリのタイトル"
-  },
   "pilllIntroduction": "Talán a tabletták kezeléséről van szó? Miért ne kezelné kényelmesebben a tabletták szedését?",
-  "@pilllIntroduction": {
-    "description": "ピルの管理の紹介"
-  },
   "installPilll": "Pilll telepítése",
-  "@installPilll": {
-    "description": "Pilllをインストールするボタンのテキスト"
-  },
   "criticalAlertVolume": "Hangerő",
-  "@criticalAlertVolume": {
-    "description": "緊急通知の音量の表示名"
-  }
+  "specialGift": "🎉 Különleges ajándék 🎉",
+  "freePremiumTrialDays": "Ajándékba kapsz egy {count} napos ingyenes próbaidőszakot!",
+  "welcomeToMedicalarm": "Üdvözöljük a Medicalarmban!",
+  "writeReviewFor5StarPromotion": "Írjon 5 csillagos értékelést és véleményt az App Store-ban, és próbálja ki ingyen a prémium funkciókat {count} napig!",
+  "rating5StarsEncouragement": "Az Ön ★5 értékelése nagy ösztönzést jelent a fejlesztők számára.\nKérjük, támogasson minket, hogy még jobb alkalmazást készíthessünk!",
+  "noAutoCharge": "Nem történik automatikus terhelés. A próbaidőszak lejárta után automatikusan visszatér az ingyenes csomagra.",
+  "write5StarReview": "Írjon 5 csillagos értékelést",
+  "receiveReward": "Jutalom átvétele",
+  "notNow": "Most nem",
+  "openAppStore": "App Store megnyitása",
+  "confirmOpenAppStore": "Megnyitod az App Store-t, hogy értékelést írj?",
+  "premiumFeaturesList": "Prémiumfunkciók listája",
+  "currentlyInPremiumTrial": "Jelenleg a Premium próbaidőszakát használja.",
+  "medicationPause": "Gyógyszer aktiválása",
+  "medicationPauseDescription": "Kikapcsoláskor a gyógyszer kikerül a gyógyszerek képernyőjéről és az értesítésekből.",
+  "medicinePausedSnackbar": "A gyógyszer szedése ideiglenesen szünetel",
+  "medicationHistoryDeletedSnackbar": "A gyógyszerbevétel rögzítése visszavonva",
+  "undo": "Visszavonás",
+  "medicationHistoryReverted": "Gyógyszerbevétel rögzítésének visszavonása",
+  "revertedTime": "A lemondás időpontja",
+  "revertedByMember": "Visszavonta: {name}",
+  "medicationTakenAtLabel": "Bevéve: {time}",
+  "medicineResumedSnackbar": "A gyógyszer szedése folytatódik",
+  "medicineEditTooltip": "Gyógyszer szerkesztése",
+  "groups": "Csoportok",
+  "groupManagement": "Csoportok kezelése",
+  "createGroup": "Csoport létrehozása",
+  "groupName": "Csoport neve",
+  "groupNameInputHint": "Adja meg a csoport nevét",
+  "groupIcon": "Ikon",
+  "groupMemberCount": "{count} tag",
+  "defaultGroupBadge": "Alapértelmezett",
+  "soloGroupName": "Csoportjaim",
+  "joinWithInvitationCode": "Csatlakozás meghívókóddal",
+  "groupCreationLimitReached": "Az ingyenes csomagban nem hozhat létre több csoportot.",
+  "increaseGroupLimitWithPremium": "Hozzon létre további csoportokat Premium csomaggal",
+  "invitationCode": "Meghívókód",
+  "invitationCodeShareDescription": "Oszd meg ezt a kódot tagok meghívásához",
+  "invitationCodeExpiresAt": "Lejárat: {date}",
+  "copyInvitationCode": "Kód másolása",
+  "invitationCodeCopied": "Meghívókód kimásolva",
+  "issueInvitationCode": "Meghívókód létrehozása",
+  "groupSettings": "Csoportbeállítások",
+  "members": "Tagok",
+  "memberFallbackName": "Tag",
+  "yourDisplayName": "Megjelenített neve",
+  "displayNameInputHint": "Adja meg a megjelenítendő nevet",
+  "ownerLabel": "Tulajdonos",
+  "youLabel": "Ön",
+  "removeMemberConfirmTitle": "Eltávolítja a tagot?",
+  "removeMemberConfirmMessage": "{name} eltávolítása a csoportból",
+  "joinGroup": "Csatlakozás csoporthoz",
+  "invitationCodeInputLabel": "Meghívókód (8 karakter)",
+  "invitationCodeInputHint": "Adja meg a 8 karakterből álló kódot",
+  "join": "Csatlakozás",
+  "recordedByMember": "{name} rögzítette",
+  "accountLink": "Fiók átvitele",
+  "accountLinkDescription": "Az Apple-lel vagy a Google-lel való összekapcsolással az eszköz cseréje vagy az alkalmazás újratelepítése után is átviheti adatait.",
+  "linkWithApple": "Fiók átvitele az Apple segítségével",
+  "linkWithGoogle": "Fiók átvitele a Google-lel",
+  "accountLinkedWithApple": "Apple-höz kapcsolva",
+  "accountLinkedWithGoogle": "Összekapcsolva a Google-lel",
+  "accountLinkedSnackbar": "A fiók átkerült",
+  "accountLinkBannerText": "Csoportmegosztás esetén nyomatékosan javasoljuk a fiókátvitel beállítását.",
+  "minimumDoseInterval": "Adagolási időköz",
+  "minimumDoseIntervalDescription": "Az előző adag óta eltelő minimális idő a következő adagig",
+  "minimumDoseIntervalNone": "Nincs",
+  "minimumDoseIntervalHoursFormat": "Legalább {hours} óra",
+  "doseIntervalWarningTitle": "A gyógyszeradagok közötti szükséges idő még nem telt el",
+  "doseIntervalWarningMessage": "A gyógyszert már bevette ekkor: {latestTakeTime}. A beállítás szerint a bevételek között legalább {minimumDoseIntervalHours} órának kell eltelnie. Ennek ellenére rögzíti?",
+  "doseIntervalWarningTakeAnyway": "Rögzítés",
+  "doseIntervalNotificationWarning": "⚠️ Az előző adag óta még nem telt el {minimumDoseIntervalHours} óra",
+  "ossLicense": "OSS-licencek"
 }

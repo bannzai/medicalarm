@@ -1,783 +1,234 @@
 {
   "@@locale": "uz",
   "retry": "Qayta urinish",
-  "@retry": {
-    "description": "エラーが発生した際やデータの読み込みに失敗した際に、再度処理を実行するためのボタンテキスト"
-  },
   "save": "Saqlash",
-  "@save": {
-    "description": "フォームやエディタで入力したデータを保存する際に使用するボタンテキスト"
-  },
   "memo": "Esdalik",
-  "@memo": {
-    "description": "服薬記録や日記などで追加情報を入力するためのテキストフィールドのプレースホルダー"
-  },
   "completed": "Tugadi",
-  "@completed": {
-    "description": "フォームの入力や設定の変更などの操作が完了した際に使用するボタンテキスト"
-  },
   "medicineRegistration": "Dori ro’yxatga olish ekran",
-  "@medicineRegistration": {
-    "description": "お薬の新規登録・編集画面のタイトル"
-  },
   "medicineName": "Dori nomi",
-  "@medicineName": {
-    "description": "お薬登録フォームでの薬の名前を入力するフィールドのプレースホルダー"
-  },
   "medicineList": "Dori ro'yxati",
-  "@medicineList": {
-    "description": "登録されているお薬の一覧を表示する画面のタイトル"
-  },
   "medicationSchedule": "Qabul qilish jadvali",
-  "@medicationSchedule": {
-    "description": "服用スケジュールのセクションタイトル"
-  },
   "medicationTime": "Doriq vaqtida xabarnomalarni yoqish",
-  "@medicationTime": {
-    "description": "服用時刻の通知設定を有効にするためのスイッチのラベル"
-  },
   "medicationTimeDescription": "David davri belgilangan vaqtga qarab bildirishnoma yuboriladi",
-  "@medicationTimeDescription": {
-    "description": "服用時刻の通知設定の説明文"
-  },
   "close": "Yopish",
-  "@close": {
-    "description": "ダイアログやモーダルを閉じるためのボタンテキスト"
-  },
   "settings": "Sozlamalar",
-  "@settings": {
-    "description": "設定画面のタイトル"
-  },
   "camera": "Kamera",
-  "@camera": {
-    "description": "カメラを起動するためのメニュー項目"
-  },
   "photoLibrary": "Fotografiya kutubxonasi",
-  "@photoLibrary": {
-    "description": "フォトライブラリを開くためのメニュー項目"
-  },
   "medicationHistory": "Dori tarixi",
-  "@medicationHistory": {
-    "description": "服薬履歴を表示する画面のタイトル"
-  },
   "noMedicationHistory": "Dori ichiga oid hech qanday tarix yo'q",
-  "@noMedicationHistory": {
-    "description": "服薬履歴が存在しない場合に表示するメッセージ"
-  },
   "scheduledTime": "Reja qilingan vaqt",
-  "@scheduledTime": {
-    "description": "服薬予定時刻のラベル"
-  },
   "recordedTime": "Doriq vaqt",
-  "@recordedTime": {
-    "description": "実際に服薬を記録した時間のラベル"
-  },
   "noMemo": "Esda yo'q",
-  "@noMemo": {
-    "description": "メモが存在しない場合に表示するテキスト"
-  },
   "premiumPlan": "Premium reja",
-  "@premiumPlan": {
-    "description": "プレミアムプランの名称"
-  },
   "premiumFeatureAds": "Reklamalarning ko'rsatilmasligi",
-  "@premiumFeatureAds": {
-    "description": "プレミアム機能の広告非表示の説明"
-  },
   "premiumFeatureHistory": "Barcha qabul qilinadigan tarixlarni ko'rsatish",
-  "@premiumFeatureHistory": {
-    "description": "プレミアム機能の履歴表示の説明"
-  },
   "premiumRegistrationComplete": "Medicalarm premium ro'yxatdan o'tish tugallandi",
-  "@premiumRegistrationComplete": {
-    "description": "プレミアム登録完了時のタイトル"
-  },
   "premiumRegistrationThanks": "Ro'yxatdan o'tganingiz uchun rahmat.\nBarcha funksiyalarni ishlatish imkoniyatiga ega bo'ldingiz!",
-  "@premiumRegistrationThanks": {
-    "description": "プレミアム登録完了時のメッセージ"
-  },
   "unknownError": "Noma'lum xato yuz berdi.",
-  "@unknownError": {
-    "description": "予期せぬエラーが発生した際のエラーメッセージ"
-  },
   "error": "Xatolik yuz berdi",
-  "@error": {
-    "description": "一般的なエラーメッセージ"
-  },
   "unexpectedError": "Kutilmagan xato vujudga keldi",
-  "@unexpectedError": {
-    "description": "予期せぬエラーが発生した際のエラーメッセージ"
-  },
   "cancel": "Bekor qilish",
-  "@cancel": {
-    "description": "操作をキャンセルするためのボタンテキスト"
-  },
   "delete": "O'chirish",
-  "@delete": {
-    "description": "削除操作を実行するためのボタンテキスト"
-  },
   "deleteAccount": "Hisobni o'chirish",
-  "@deleteAccount": {
-    "description": "アカウント削除ボタンのテキスト"
-  },
   "deleteAccountConfirm": "Foydalanuvchi ma'lumotlarini o'chiradi",
-  "@deleteAccountConfirm": {
-    "description": "アカウント削除確認ダイアログのタイトル"
-  },
   "deleteAccountMessage": "Hisobni o'chirish orqali barcha foydalanuvchi ma'lumoti o'chiriladi.",
-  "@deleteAccountMessage": {
-    "description": "アカウント削除確認ダイアログのメッセージ"
-  },
   "medicationFrequency": "Qabul qilish chastotasi",
-  "@medicationFrequency": {
-    "description": "服用頻度の設定セクションのタイトル"
-  },
   "daily": "Har kuni",
-  "@daily": {
-    "description": "毎日服用する頻度設定"
-  },
   "everyXDays": "X kundan bir marta",
-  "@everyXDays": {
-    "description": "X日ごとに服用する頻度設定"
-  },
   "specificWeekdays": "Belgilangan kunlar",
-  "@specificWeekdays": {
-    "description": "特定の曜日に服用する頻度設定"
-  },
   "cycle": "davr",
-  "@cycle": {
-    "description": "周期で服用する頻度設定"
-  },
   "cycleDescription": "21-kuniga qabul qilish/7-kunlik tanaffus",
-  "@cycleDescription": {
-    "description": "周期での服用頻度の説明文"
-  },
   "everyXDaysDescription": "2 кунда бир марта, 3 кунда бир марта",
-  "@everyXDaysDescription": {
-    "description": "X日ごとの服用頻度の説明文"
-  },
   "specificWeekdaysDescription": "Dushanbadagi faqat, Chorshanba va Juma kunlari",
-  "@specificWeekdaysDescription": {
-    "description": "特定の曜日の服用頻度の説明文"
-  },
   "medicineFormValidationError": "Iltimos, ism va dori qabul qilish jadvalini kiriting",
-  "@medicineFormValidationError": {
-    "description": "お薬登録フォームでの入力バリデーションエラーメッセージ"
-  },
   "quantity": "Hajm",
-  "@quantity": {
-    "description": "服用量を入力するフィールドのラベル"
-  },
   "quantityExample": "masala: 1 tablet, 100mg",
-  "@quantityExample": {
-    "description": "服用量入力フィールドのプレースホルダー"
-  },
   "medicationStartDate": "Qabul qilishni boshlash sanasi",
-  "@medicationStartDate": {
-    "description": "服用開始日を選択するフィールドのラベル"
-  },
   "otherInformation": "Boshqa",
-  "@otherInformation": {
-    "description": "その他の情報を入力するセクションのタイトル"
-  },
   "doseReceiver": "Qabul qiluvchi",
-  "@doseReceiver": {
-    "description": "服用者を選択するフィールドのラベル"
-  },
   "defaultDoseReceiver": "O'zim",
-  "@defaultDoseReceiver": {
-    "description": "デフォルトの服用者名"
-  },
   "doseReceiverMaxCount": "Doriqchilar soni eng ko'p {count} kishiga ro'yxatdan o'tkazilishi mumkin.",
-  "@doseReceiverMaxCount": {
-    "description": "服用者の最大登録数を表示するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "2"
-      }
-    }
-  },
   "increaseLimitWithPremium": "Premium reja bilan cheklovni {count} ga oshirish",
-  "@increaseLimitWithPremium": {
-    "description": "プレミアムプランでの上限増加を案内するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "10"
-      }
-    }
-  },
   "addDoseReceiver": "Qabul qiluvchi qo'shish",
-  "@addDoseReceiver": {
-    "description": "服用者を追加するボタンのテキスト"
-  },
   "newDoseReceiver": "Yangi qabul qiluvchi",
-  "@newDoseReceiver": {
-    "description": "新規追加時のデフォルトの服用者名"
-  },
   "reloginRequired": "Qayta kirishingizni iltimos qilamiz",
-  "@reloginRequired": {
-    "description": "アカウント削除時に再ログインが必要な場合のダイアログタイトル"
-  },
   "reloginMessage": "Hisobni o‘chirish uchun qaytadan kiring.",
-  "@reloginMessage": {
-    "description": "アカウント削除時の再ログイン要求メッセージ"
-  },
   "relogin": "Qayta kirish",
-  "@relogin": {
-    "description": "再ログインを実行するためのボタンテキスト"
-  },
   "accountDeleted": "Hisobingiz o'chirildi.",
-  "@accountDeleted": {
-    "description": "アカウント削除完了時のメッセージ"
-  },
   "confirmExit": "Ilovani tugatmoqchimisiz?",
-  "@confirmExit": {
-    "description": "アプリ終了確認のメッセージ"
-  },
   "exit": "Tugatish",
-  "@exit": {
-    "description": "アプリを終了するためのボタンテキスト"
-  },
   "viewFaq": "FAQni ko'rish",
-  "@viewFaq": {
-    "description": "FAQページを表示するためのボタンテキスト"
-  },
   "medicine": "Dori",
-  "@medicine": {
-    "description": "お薬タブのタイトル"
-  },
   "inquiry": "Aloqa",
-  "@inquiry": {
-    "description": "お問い合わせボタンのテキスト"
-  },
   "ok": "Ok",
-  "@ok": {
-    "description": "確認ダイアログのOKボタンのテキスト"
-  },
   "medicationScheduleLimit": "Qabul qilish jadvalida {count} ta ro'yxatdan o'tkazishingiz mumkin.",
-  "@medicationScheduleLimit": {
-    "description": "服用スケジュールの登録上限を表示するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "3"
-      }
-    }
-  },
   "increaseMedicationScheduleLimit": "Premium rejasi bilan cheklovni {count} ga oshirish",
-  "@increaseMedicationScheduleLimit": {
-    "description": "服用スケジュールの上限をプレミアムプランで増やすことを案内するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "10"
-      }
-    }
-  },
   "addMedicationSchedule": "Qabul jadvalini qo'shish",
-  "@addMedicationSchedule": {
-    "description": "服用スケジュールを追加するボタンのテキスト"
-  },
   "medicationScheduleNotificationSetting": "Doriq rejasi uchun xabarnoma sozlamalari",
-  "@medicationScheduleNotificationSetting": {
-    "description": "服用スケジュールの通知設定画面のタイトル"
-  },
   "notificationSetting": "Bildirishnoma sozlamalari",
-  "@notificationSetting": {
-    "description": "通知設定セクションのタイトル"
-  },
   "enableFollowupNotification": "Kuzatish xabarnomasini yoqish",
-  "@enableFollowupNotification": {
-    "description": "フォローアップ通知を有効にするスイッチのラベル"
-  },
   "followupNotificationDescription": "Birinchi xabardan 30 daqiqa ichida dori qabul qilmasangiz, kuzatuv xabari yuboriladi.",
-  "@followupNotificationDescription": {
-    "description": "フォローアップ通知の説明文"
-  },
   "enableNotificationInSilentMode": "Tinch rejimida ham xabarnoma beradi",
-  "@enableNotificationInSilentMode": {
-    "description": "マナーモード時の通知を有効にするスイッチのラベル"
-  },
   "silentModeNotificationDescription": "Diqqat rejimi yoqilganda yoki qurilma sukutda boʻlsa ham, muhim xabarnomalar qulflangandan so'ng ekranda koʻrsatiladi, ovoz ijro etiladi.",
-  "@silentModeNotificationDescription": {
-    "description": "マナーモード時の通知の説明文"
-  },
   "everyXDaysFormat": "{count} кунда",
-  "@everyXDaysFormat": {
-    "description": "X日ごとの服用頻度を表示する際のフォーマット",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "2"
-      }
-    }
-  },
   "cycleDaysFormat": "{consecutiveDays} кун қабул / {restDays} кун дам олиш",
-  "@cycleDaysFormat": {
-    "description": "服用周期を表示する際のフォーマット",
-    "placeholders": {
-      "consecutiveDays": {
-        "type": "int",
-        "example": "21"
-      },
-      "restDays": {
-        "type": "int",
-        "example": "7"
-      }
-    }
-  },
   "consecutiveDaysFormat": "{count}-kun dori",
-  "@consecutiveDaysFormat": {
-    "description": "連続服用日数を表示する際のフォーマット",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "21"
-      }
-    }
-  },
   "restDaysFormat": "{count} kun doriq",
-  "@restDaysFormat": {
-    "description": "休薬日数を表示する際のフォーマット",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "7"
-      }
-    }
-  },
   "limitedTimeDiscount": "Hozir chegarali narxda doim ishlatishingiz mumkin",
-  "@limitedTimeDiscount": {
-    "description": "プレミアムプランの限定価格キャンペーンを案内するメッセージ"
-  },
   "monthlyPlan": "Oylik reja",
-  "@monthlyPlan": {
-    "description": "月額プランの名称"
-  },
   "annualPlan": "yillik reja",
-  "@annualPlan": {
-    "description": "年額プランの名称"
-  },
   "weeklyPlan": "Haftalik reja",
-  "@weeklyPlan": {
-    "description": "週額プランの名称"
-  },
   "premiumRequired": "Premium reja a'zo bo'lish orqali ko'rish mumkin",
-  "@premiumRequired": {
-    "description": "プレミアムプラン加入が必要な機能へのアクセス時のメッセージ"
-  },
   "medication": "Dori",
-  "@medication": {
-    "description": "服薬タブのタイトル"
-  },
   "history": "Tarix",
-  "@history": {
-    "description": "履歴タブのタイトル"
-  },
+  "calendar": "Taqvim",
+  "diary": "Kundalik",
+  "writeDiary": "Kundalik yozish",
+  "editDiaryTooltip": "Kundalikni tahrirlash",
   "medicineRegistrationLimit": "dori ro'yxatga olish soni",
-  "@medicineRegistrationLimit": {
-    "description": "薬の登録数の上限を説明するテキストの一部"
-  },
   "doseReceiverRegistrationLimit": "Qabul qiluvchi ro'yxatga olish sonini",
-  "@doseReceiverRegistrationLimit": {
-    "description": "服用者の登録数の上限を説明するテキストの一部"
-  },
   "notificationScheduleLimit": "Bildirish jadvalining soni",
-  "@notificationScheduleLimit": {
-    "description": "通知スケジュールの上限を説明するテキストの一部"
-  },
   "addMedicine": "Dori qo'shish",
-  "@addMedicine": {
-    "description": "お薬を追加するボタンのテキスト"
-  },
   "medicineMaxCount": "Dori  {count} ta giyohni ro'yxatdan o'tkazishingiz mumkin.",
-  "@medicineMaxCount": {
-    "description": "お薬の最大登録数を表示するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "5"
-      }
-    }
-  },
   "increaseMedicineLimitWithPremium": "Premium rejasi bilan cheklovni {count} ga oshirish",
-  "@increaseMedicineLimitWithPremium": {
-    "description": "お薬の登録上限をプレミアムプランで増やすことを案内するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "10"
-      }
-    }
-  },
   "aboutApp": "Ilova haqida",
-  "@aboutApp": {
-    "description": "アプリについてのセクションタイトル"
-  },
   "viewPremiumPlan": "Premium rejimini ko'ring",
-  "@viewPremiumPlan": {
-    "description": "プレミアムプランの詳細を表示するためのボタンテキスト"
-  },
   "cancelSubscriptionInstruction": "Xarid qilgandan so'ng, avtomatik yangilanishni bekor qilish {storeName} ilovasining hisob sozlamalarida amalga oshirilishi mumkin. (Ilova ichidan avtomatik yangilanishni bekor qilish mumkin emas).",
-  "@cancelSubscriptionInstruction": {
-    "description": "自動更新の解約方法の説明",
-    "placeholders": {
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "headache": "Bosh og'rig'i",
-  "@headache": {
-    "description": "症状の選択肢：頭痛"
-  },
   "stomachache": "Qorin og'rig'i",
-  "@stomachache": {
-    "description": "症状の選択肢：腹痛"
-  },
   "nausea": "Kusish",
-  "@nausea": {
-    "description": "症状の選択肢：吐き気"
-  },
   "anemia": "anemiya",
-  "@anemia": {
-    "description": "症状の選択肢：貧血"
-  },
   "diarrhea": "Ichki qorin bo'shligi",
-  "@diarrhea": {
-    "description": "症状の選択肢：下痢"
-  },
   "constipation": "QABZALIK",
-  "@constipation": {
-    "description": "症状の選択肢：便秘"
-  },
   "hotFlash": "qizish",
-  "@hotFlash": {
-    "description": "症状の選択肢：ほてり"
-  },
   "drowsiness": "uxlay",
-  "@drowsiness": {
-    "description": "症状の選択肢：眠気"
-  },
   "backPain": "Bel og'rig'i",
-  "@backPain": {
-    "description": "症状の選択肢：腰痛"
-  },
   "palpitation": "yurak urishi",
-  "@palpitation": {
-    "description": "症状の選択肢：動悸"
-  },
   "abnormalBleeding": "O'zgarishli qon quyilishi",
-  "@abnormalBleeding": {
-    "description": "症状の選択肢：不正出血"
-  },
   "lossOfAppetite": "ishqibozlik",
-  "@lossOfAppetite": {
-    "description": "症状の選択肢：食欲不振"
-  },
   "chestTightness": "Ko'krakdagi tirnash",
-  "@chestTightness": {
-    "description": "症状の選択肢：胸の張り"
-  },
   "insomnia": "Uxlamsizlik",
-  "@insomnia": {
-    "description": "症状の選択肢：不眠"
-  },
   "monthlyPlanDiscountFormat": "Oylik to'lovdan {percent}% chegirma",
-  "@monthlyPlanDiscountFormat": {
-    "description": "月額プランからの割引率を表示するフォーマット",
-    "placeholders": {
-      "percent": {
-        "type": "int",
-        "example": "50"
-      }
-    }
-  },
   "purchaseErrorUnknown": "Noma'lum xato ro'y berdi. Iltimos, biroz kuting va yana urving. Agar muammo hal bo'lmasa, Sozlamalar > Murojaat orqali biz bilan bog'laning. Tafsilotlar: {message}",
-  "@purchaseErrorUnknown": {
-    "description": "購入時の不明なエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorStoreProblem": "{storeName}da xatolik yuz berdi. Iltimos, bir oz vaqt kutib yana urinib ko'ring.",
-  "@purchaseErrorStoreProblem": {
-    "description": "ストアでのエラーメッセージ",
-    "placeholders": {
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "purchaseErrorInvalidPayment": "To'lov amalga oshirilmadi. Iltimos, to'lov usulining haqiqiyligini tekshirib, qayta urinib ko'ring.",
-  "@purchaseErrorInvalidPayment": {
-    "description": "支払い方法が無効な場合のエラーメッセージ"
-  },
   "purchaseErrorProductUnavailable": "Hozirda maqsadli rejalar mavjud emas. Iltimos, ilovani qayta ishga tushirib ko'ring.",
-  "@purchaseErrorProductUnavailable": {
-    "description": "商品が利用できない場合のエラーメッセージ"
-  },
   "purchaseErrorAlreadyPurchased": "Siz allaqachon reja sotib oldingiz. Ushbu qurilmada xarid ma'lumotlarini tiklash uchun \"Avvalroq sotib olganlar uchun bu yerdan\" havolasiga o'ting.",
-  "@purchaseErrorAlreadyPurchased": {
-    "description": "すでに購入済みの場合のエラーメッセージ"
-  },
   "purchaseErrorReceiptInUse": "Siz allaqachon sotib oldingiz. {accountName} ni tekshirib ko'ring, chunki xarid ma'lumotlari boshqa foydalanuvchi tomonidan ishlatilmoqda.",
-  "@purchaseErrorReceiptInUse": {
-    "description": "購入情報が他のユーザーで使用されている場合のエラーメッセージ",
-    "placeholders": {
-      "accountName": {
-        "type": "String",
-        "example": "Apple ID"
-      }
-    }
-  },
   "purchaseErrorInvalidReceipt": "Sotib olish ma'lumoti noto'g'ri. Iltimos, sotib olish ma'lumotlaringizni tekshiring.",
-  "@purchaseErrorInvalidReceipt": {
-    "description": "購入情報が無効な場合のエラーメッセージ"
-  },
   "purchaseErrorMissingReceipt": "Sotib oluvchi ma'lumotlari mavjud emas. {accountName} yordamida qurilmada tizimga kiring va sinab ko'ring.",
-  "@purchaseErrorMissingReceipt": {
-    "description": "購入情報が見つからない場合のエラーメッセージ",
-    "placeholders": {
-      "accountName": {
-        "type": "String",
-        "example": "Apple ID"
-      }
-    }
-  },
   "purchaseErrorNetwork": "Tarmoq holati barqaror emas. Iltimos, ulanish holatini tekshirib ko'ring va yana harakat qilib ko'ring.",
-  "@purchaseErrorNetwork": {
-    "description": "ネットワークエラーの場合のエラーメッセージ"
-  },
   "purchaseNotAllowed": "Ushbu qurilmada xarid qilishga ruxsat berilmagan",
-  "@purchaseNotAllowed": {
-    "description": "デバイスでの購入が許可されていない場合のエラーメッセージ"
-  },
   "purchaseErrorInvalidCredentials": "Sotib olishda xato yuz berdi. Iltimos, bir oz kutib turing va qayta urinib ko'ring. Muammo hal bo'lmasa, iltimos, Sozlamalar > Murojaat orqali biz bilan bog'laning. Tafsilotlar: {message}",
-  "@purchaseErrorInvalidCredentials": {
-    "description": "認証情報が無効な場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorUnexpectedBackend": "Hozirda sotib olish imkoni mavjud emas. Iltimos, biroz vaqt kuting va qayta urinib ko'ring. Agar muammo hal bo'lmasa, Sozlamalar > Murojaat orqali biz bilan bog'laning. Tafsilotlar: {message}",
-  "@purchaseErrorUnexpectedBackend": {
-    "description": "バックエンドで予期せぬエラーが発生した場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorOperationInProgress": "Sotib olish jarayoni alohida davom etmoqda. Iltimos, biroz vaqt kuting va yana bir bor tekshiring.",
-  "@purchaseErrorOperationInProgress": {
-    "description": "購入処理が既に進行中の場合のエラーメッセージ"
-  },
   "purchaseErrorInsufficientPermissions": "Sizning {accountName} hisobingizda reja a'zosiga qo'shilish mumkin emas. Iltimos, to'lov ma'lumotlaringizni tekshiring va yana bir bor sinab ko'ring.",
-  "@purchaseErrorInsufficientPermissions": {
-    "description": "権限が不足している場合のエラーメッセージ",
-    "placeholders": {
-      "accountName": {
-        "type": "String",
-        "example": "Apple ID"
-      }
-    }
-  },
   "purchaseErrorPaymentPending": "To'lov davom etmayapti. Ilgari ro'yxatdan o'tgan {accountName} hisobingiz bilan {storeName} ni tekshirib ko'ring.",
-  "@purchaseErrorPaymentPending": {
-    "description": "支払いが保留中の場合のエラーメッセージ",
-    "placeholders": {
-      "accountName": {
-        "type": "String",
-        "example": "Apple ID"
-      },
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "premiumUserThanksTitle": "Premium a'zosi",
-  "@premiumUserThanksTitle": {
-    "description": "プレミアムユーザーへの感謝を示すタイトル"
-  },
   "premiumUserThanksMessage": "Sizga rahmat. Medicalarm-ning faoliyatini davom ettirayotganimizdan xursandmiz.",
-  "@premiumUserThanksMessage": {
-    "description": "プレミアムユーザーへの感謝メッセージ"
-  },
   "premiumPricePerMonth": "({price}/oy）",
-  "@premiumPricePerMonth": {
-    "description": "月額料金の表示フォーマット",
-    "placeholders": {
-      "price": {
-        "type": "String",
-        "example": "¥500"
-      }
-    }
-  },
   "premiumCancelDescription": "- Xarid qilinganidan keyin, avtomatik yangilanishni bekor qilish {storeName} ilovasidagi hisob sozlamalari orqali amalga oshirilishi mumkin. (Ilova ichidan avtomatik yangilanishni bekor qilish mumkin emas).",
-  "@premiumCancelDescription": {
-    "description": "プレミアムプランの解約方法の説明",
-    "placeholders": {
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
-  "purchaseErrorUserNotFound": "Foydalanuvchini topa olmadi. Iltimos, ilovani qayta ishga tushiring va yana bir bor urinib ko'ring. Tafsilotlar: {message}",
-  "@purchaseErrorUserNotFound": {
-    "description": "ユーザーが見つからない場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
-  "purchaseErrorActivationPending": "Toʻlovni faol holatga keltirish tugallanmagan. Iltimos, bir oz vaqt oling va keyin qayta tekshiring.",
-  "@purchaseErrorActivationPending": {
-    "description": "課金の有効化が完了していない場合のエラーメッセージ"
-  },
-  "purchaseErrorTimeout": "Vaqt o'lib ketdi. Aloqa muhitini tekshirib ko'ring va yana urinib ko'ring. Agar muammo hal etilmasa, iltimos, Sozlamalar > Savollar bo'limidan biz bilan bog'laning. Tafsilotlar: {message}",
-  "@purchaseErrorTimeout": {
-    "description": "購入処理がタイムアウトした場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
-  "purchaseErrorNetworkError": "Aloqa uzilishi sodir bo'ldi. Iltimos, aloqa muhitini tekshirib, qayta urinib ko'ring. Agar hal bo'lmasa, Sozlamalar > Murojaat orqali bizga murojaat qiling. Tafsilotlar: {message}",
-  "@purchaseErrorNetworkError": {
-    "description": "ネットワークエラーが発生した場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
-  "sixMonthPlan": "6 oylik reja",
-  "@sixMonthPlan": {
-    "description": "6ヶ月プランの表示名"
-  },
-  "premiumContractPeriod": "Shartnoma muddati sotib olingan kundan boshlab 1 oy davom etadi.",
-  "@premiumContractPeriod": {
-    "description": "プレミアムプランの契約期間の説明"
-  },
-  "privacyPolicy": "Maxfiylik siyosati",
-  "@privacyPolicy": {
-    "description": "プライバシーポリシーのリンクテキスト"
-  },
-  "termsOfService": "Foydalanuvchi shartnomasi",
-  "@termsOfService": {
-    "description": "利用規約のリンクテキスト"
-  },
-  "specifiedCommercialTransactionAct": "Maxsus savdo bitimlari to'g'risidagi qonunga muvofiq e'lon",
-  "@specifiedCommercialTransactionAct": {
-    "description": "特定商取引法に基づく表記のリンクテキスト"
-  },
-  "confirmBeforeRegistration": "Iltimos, har xil shartlarni tekshirib, ro'yxatdan o'ting.",
-  "@confirmBeforeRegistration": {
-    "description": "各種規約確認を促すメッセージ"
-  },
-  "autoRenewalNotice": "Shartnoma muddati tugagach, avtomatik yangilanadi.",
-  "@autoRenewalNotice": {
-    "description": "自動更新に関する注意事項"
-  },
-  "restorePurchase": "Old purchasers can access here",
-  "@restorePurchase": {
-    "description": "購入情報の復元リンクのテキスト"
-  },
-  "purchaseRestored": "Sotib olish ma'lumotlari tiklandi",
-  "@purchaseRestored": {
-    "description": "購入情報の復元が完了した際のメッセージ"
-  },
-  "medicationTimeFollowup": "Qabul qilish vaqti haqida qayd",
-  "@medicationTimeFollowup": {
-    "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
-  },
-  "updateRequired": "Yangilanish zarur",
-  "@updateRequired": {
-    "description": "強制アップデートが必要な場合のダイアログタイトル"
-  },
-  "updateRequiredMessage": "{storeName} dan soʻnggi versiyasiga yangilang",
-  "@updateRequiredMessage": {
-    "description": "強制アップデートが必要な場合のダイアログメッセージ",
-    "placeholders": {
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
-  "screenshotMedicationHistoriesMemo": "Kunduzgi uxlayman, dori ichish vaqti kechikdi.",
-  "@screenshotMedicationHistoriesMemo": {
-    "description": "薬のメモの例"
-  },
   "purchaseErrorRestoreFailed": "Old purchase information could not be found. Please check your account and try again.",
-  "@purchaseErrorRestoreFailed": {
-    "description": "購入情報の復元に失敗した場合のエラーメッセージ"
-  },
+  "purchaseErrorUserNotFound": "Foydalanuvchini topa olmadi. Iltimos, ilovani qayta ishga tushiring va yana bir bor urinib ko'ring. Tafsilotlar: {message}",
+  "purchaseErrorActivationPending": "Toʻlovni faol holatga keltirish tugallanmagan. Iltimos, bir oz vaqt oling va keyin qayta tekshiring.",
+  "purchaseErrorTimeout": "Vaqt o'lib ketdi. Aloqa muhitini tekshirib ko'ring va yana urinib ko'ring. Agar muammo hal etilmasa, iltimos, Sozlamalar > Savollar bo'limidan biz bilan bog'laning. Tafsilotlar: {message}",
+  "purchaseErrorNetworkError": "Aloqa uzilishi sodir bo'ldi. Iltimos, aloqa muhitini tekshirib, qayta urinib ko'ring. Agar hal bo'lmasa, Sozlamalar > Murojaat orqali bizga murojaat qiling. Tafsilotlar: {message}",
+  "sixMonthPlan": "6 oylik reja",
+  "premiumContractPeriod": "Shartnoma muddati sotib olingan kundan boshlab 1 oy davom etadi.",
+  "privacyPolicy": "Maxfiylik siyosati",
+  "termsOfService": "Foydalanuvchi shartnomasi",
+  "specifiedCommercialTransactionAct": "Maxsus savdo bitimlari to'g'risidagi qonunga muvofiq e'lon",
+  "confirmBeforeRegistration": "Iltimos, har xil shartlarni tekshirib, ro'yxatdan o'ting.",
+  "autoRenewalNotice": "Shartnoma muddati tugagach, avtomatik yangilanadi.",
+  "restorePurchase": "Old purchasers can access here",
+  "purchaseRestored": "Sotib olish ma'lumotlari tiklandi",
+  "medicationTimeFollowup": "Qabul qilish vaqti haqida qayd",
+  "updateRequired": "Yangilanish zarur",
+  "updateRequiredMessage": "{storeName} dan soʻnggi versiyasiga yangilang",
+  "screenshotMedicationHistoriesMemo": "Kunduzgi uxlayman, dori ichish vaqti kechikdi.",
   "screenshotMedicationDoserReceiver1": "o'z zimmasida",
-  "@screenshotMedicationDoserReceiver1": {
-    "description": "薬の服用者の例"
-  },
   "screenshotMedicationDoserReceiver2": "Mana-chan",
-  "@screenshotMedicationDoserReceiver2": {
-    "description": "薬の服用者の例"
-  },
   "screenshotMedicationQuontityMemo1": "1 ta",
-  "@screenshotMedicationQuontityMemo1": {
-    "description": "薬の服用量の例"
-  },
   "screenshotMedicationQuontityMemo2": "2 ta tablet",
-  "@screenshotMedicationQuontityMemo2": {
-    "description": "薬の服用量の例"
-  },
   "screenshotMedicationName1": "og'riq dori",
-  "@screenshotMedicationName1": {
-    "description": "薬の名前の例"
-  },
   "screenshotMedicationName2": "Vitamins",
-  "@screenshotMedicationName2": {
-    "description": "薬の名前の例"
-  },
   "notificationTitle": "Dori vaqtidir",
-  "@notificationTitle": {
-    "description": "薬の通知のタイトル"
-  },
   "notificationFollowupTitle": "Doriqniq bilan yozishni unutganmisiz?",
-  "@notificationFollowupTitle": {
-    "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
-  },
   "recommendedApp": "Tavsiya etilgan ilova",
-  "@recommendedApp": {
-    "description": "おすすめアプリのタイトル"
-  },
   "pilllIntroduction": "Ehtimol buni pilni boshqarish deyish mumkinmi? Pil xizmatidan foydalanishni qulaylashtirmoqchimisiz?",
-  "@pilllIntroduction": {
-    "description": "ピルの管理の紹介"
-  },
   "installPilll": "Pilllni o'rnating",
-  "@installPilll": {
-    "description": "Pilllをインストールするボタンのテキスト"
-  },
   "criticalAlertVolume": "Ovoz darajasi",
-  "@criticalAlertVolume": {
-    "description": "緊急通知の音量の表示名"
-  }
+  "specialGift": "🎉 Maxsus sovg‘a 🎉",
+  "freePremiumTrialDays": "Sizga sovg‘a sifatida {count} kunlik bepul sinov muddati taqdim etiladi!",
+  "welcomeToMedicalarm": "Medicalarm'ga xush kelibsiz!",
+  "writeReviewFor5StarPromotion": "App Store’da 5 yulduzli baho va sharh qoldiring, premium funksiyalarni {count} kun davomida bepul sinab ko‘ring!",
+  "rating5StarsEncouragement": "Sizning ★5 bahoyingiz dasturchilar uchun katta dalda bo‘ladi.\nYanada yaxshiroq ilova yaratishimiz uchun bizni qo‘llab-quvvatlang!",
+  "noAutoCharge": "Avtomatik to‘lov olinmaydi. Sinov muddati tugagach, avtomatik ravishda bepul tarifga qaytasiz.",
+  "write5StarReview": "5 yulduzli sharh yozish",
+  "receiveReward": "Mukofotni olish",
+  "notNow": "Hozir emas",
+  "openAppStore": "App Store’ni ochish",
+  "confirmOpenAppStore": "Sharh yozish uchun App Store ochilsinmi?",
+  "premiumFeaturesList": "Premium funksiyalar ro‘yxati",
+  "currentlyInPremiumTrial": "Hozirda Premium sinov muddatidasiz.",
+  "medicationPause": "Dorini faollashtirish",
+  "medicationPauseDescription": "O‘chirilganda, u dorilar ekranidan va bildirishnomalardan chiqariladi.",
+  "medicinePausedSnackbar": "Dori qabul qilish vaqtincha to‘xtatildi",
+  "medicationHistoryDeletedSnackbar": "Dori qabul qilish qaydi bekor qilindi",
+  "undo": "Bekor qilish",
+  "medicationHistoryReverted": "Dori qabul qilish yozuvini bekor qilish",
+  "revertedTime": "Bekor qilingan vaqt",
+  "revertedByMember": "{name} bekor qildi",
+  "medicationTakenAtLabel": "{time} da qabul qilindi",
+  "medicineResumedSnackbar": "Dorini qabul qilish qayta boshlandi",
+  "medicineEditTooltip": "Dorini tahrirlash",
+  "groups": "Guruhlar",
+  "groupManagement": "Guruhlarni boshqarish",
+  "createGroup": "Guruh yaratish",
+  "groupName": "Guruh nomi",
+  "groupNameInputHint": "Guruh nomini kiriting",
+  "groupIcon": "Belgi",
+  "groupMemberCount": "{count} a'zo",
+  "defaultGroupBadge": "Standart",
+  "soloGroupName": "Guruhlarim",
+  "joinWithInvitationCode": "Taklif kodi bilan qo‘shilish",
+  "groupCreationLimitReached": "Bepul tarifda boshqa guruhlar yarata olmaysiz.",
+  "increaseGroupLimitWithPremium": "Premium rejasi bilan ko‘proq guruh yarating",
+  "invitationCode": "Taklif kodi",
+  "invitationCodeShareDescription": "Aʼzolarni taklif qilish uchun ushbu kodni ulashing",
+  "invitationCodeExpiresAt": "Amal qilish muddati: {date}",
+  "copyInvitationCode": "Kodni nusxalash",
+  "invitationCodeCopied": "Taklif kodi nusxalandi",
+  "issueInvitationCode": "Taklif kodini yaratish",
+  "groupSettings": "Guruh sozlamalari",
+  "members": "A'zolar",
+  "memberFallbackName": "Aʼzo",
+  "yourDisplayName": "Ko‘rsatiladigan nomingiz",
+  "displayNameInputHint": "Ko‘rsatiladigan ismni kiriting",
+  "ownerLabel": "Egasi",
+  "youLabel": "Siz",
+  "removeMemberConfirmTitle": "Aʼzoni olib tashlaysizmi?",
+  "removeMemberConfirmMessage": "{name} guruhdan olib tashlanadi",
+  "joinGroup": "Guruhga qo‘shilish",
+  "invitationCodeInputLabel": "Taklif kodi (8 ta belgi)",
+  "invitationCodeInputHint": "8 belgidan iborat kodni kiriting",
+  "join": "Qo‘shilish",
+  "recordedByMember": "{name} qayd etdi",
+  "accountLink": "Hisobni ko‘chirish",
+  "accountLinkDescription": "Apple yoki Google bilan bog‘lasangiz, qurilmani almashtirgandan yoki ilovani qayta o‘rnatgandan keyin ham ma’lumotlaringizni ko‘chirishingiz mumkin.",
+  "linkWithApple": "Hisobni Apple orqali o‘tkazing",
+  "linkWithGoogle": "Hisobni Google orqali ko‘chirish",
+  "accountLinkedWithApple": "Apple bilan bog‘langan",
+  "accountLinkedWithGoogle": "Google bilan bog‘langan",
+  "accountLinkedSnackbar": "Hisob ko‘chirildi",
+  "accountLinkBannerText": "Guruhni ulashayotganingizda, hisobni ko‘chirishni sozlashni qat’iy tavsiya qilamiz.",
+  "minimumDoseInterval": "Dozalar orasidagi interval",
+  "minimumDoseIntervalDescription": "Oldingi dozadan keyin dozalar orasidagi minimal vaqt",
+  "minimumDoseIntervalNone": "Yo‘q",
+  "minimumDoseIntervalHoursFormat": "Kamida {hours} soat",
+  "doseIntervalWarningTitle": "Dozalar orasidagi zarur vaqt hali o‘tmagan",
+  "doseIntervalWarningMessage": "Siz dorini {latestTakeTime} da allaqachon qabul qilgansiz. Sozlamaga ko‘ra, dozalar orasida kamida {minimumDoseIntervalHours} soatlik tanaffus bo‘lishi kerak. Shunday bo‘lsa ham qayd etilsinmi?",
+  "doseIntervalWarningTakeAnyway": "Qayd etish",
+  "doseIntervalNotificationWarning": "⚠️ Oxirgi dozani qabul qilganingizdan beri {minimumDoseIntervalHours} soat o‘tmadi",
+  "ossLicense": "OSS litsenziyalari"
 }
