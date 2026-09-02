@@ -119,7 +119,8 @@ class _PlanRow extends StatelessWidget {
           child: Text(label, style: const TextStyle(fontSize: 15, color: Colors.black87)),
         ),
         const SizedBox(width: 12),
-        Flexible(
+        // 値も Expanded にして右端まで幅を取り、その中で右寄せする (Flexible だと短い値がラベル側に寄って左揃えに見える)
+        Expanded(
           child: Text(value, textAlign: TextAlign.end, style: const TextStyle(fontSize: 16, fontWeight: FontWeight.bold)),
         ),
       ],
