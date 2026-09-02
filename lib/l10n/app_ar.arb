@@ -270,5 +270,6 @@
   "onboardingAfterItemReminder": "ستتلقى إشعارًا عند حلول موعد تناول دوائك.",
   "onboardingAfterItemRecord": "تبقى السجلات ويمكن التحقق منها فورًا",
   "onboardingAfterItemFamily": "تعرّف على حالة تناول أفراد عائلتك للأدوية بنظرة واحدة",
-  "onboardingGoalTitle": "حدّد هدفك"
+  "onboardingGoalTitle": "حدّد هدفك",
+  "onboardingGoalSubtitle": "سينعكس هدفك على خطتك"
 }

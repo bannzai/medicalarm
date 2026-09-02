@@ -270,5 +270,6 @@
   "onboardingAfterItemReminder": "Դեղն ընդունելու ժամանակը հասնելուն պես ծանուցում կստանաք։",
   "onboardingAfterItemRecord": "Գրառումները պահպանվում են և անմիջապես ստուգելի են",
   "onboardingAfterItemFamily": "Մի հայացքով տեսեք նաև ձեր ընտանիքի դեղերի ընդունման վիճակը",
-  "onboardingGoalTitle": "Սահմանեք ձեր նպատակը"
+  "onboardingGoalTitle": "Սահմանեք ձեր նպատակը",
+  "onboardingGoalSubtitle": "Ձեր նպատակը կարտացոլվի ձեր պլանում"
 }

@@ -270,5 +270,6 @@
   "onboardingAfterItemReminder": "Ще получите известие, когато настъпи време да приемете лекарството си.",
   "onboardingAfterItemRecord": "Записите се запазват и могат да бъдат проверени веднага",
   "onboardingAfterItemFamily": "Виждайте и състоянието на приема на лекарства от семейството си с един поглед",
-  "onboardingGoalTitle": "Определете целта си"
+  "onboardingGoalTitle": "Определете целта си",
+  "onboardingGoalSubtitle": "Целта ви ще бъде отразена в плана ви"
 }

@@ -270,5 +270,6 @@
   "onboardingAfterItemReminder": "Дәрі қабылдау уақыты келгенде, сізге хабарландыру келеді.",
   "onboardingAfterItemRecord": "Жазбалар сақталады және оларды бірден тексеруге болады",
   "onboardingAfterItemFamily": "Отбасыңыздың дәрі қабылдау жағдайын да бір қарағанда көріңіз",
-  "onboardingGoalTitle": "Мақсатыңызды анықтаңыз"
+  "onboardingGoalTitle": "Мақсатыңызды анықтаңыз",
+  "onboardingGoalSubtitle": "Мақсатыңыз жоспарыңызда ескеріледі"
 }

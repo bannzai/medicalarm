@@ -270,5 +270,6 @@
   "onboardingAfterItemReminder": "Þú færð tilkynningu þegar komið er að því að taka lyfið.",
   "onboardingAfterItemRecord": "Skráningar vistast og hægt er að skoða þær strax",
   "onboardingAfterItemFamily": "Sjáðu einnig lyfjatöku fjölskyldunnar í fljótu bragði",
-  "onboardingGoalTitle": "Settu þér markmið"
+  "onboardingGoalTitle": "Settu þér markmið",
+  "onboardingGoalSubtitle": "Markmið þitt endurspeglast í áætluninni þinni"
 }

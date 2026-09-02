@@ -270,5 +270,6 @@
   "onboardingAfterItemReminder": "மருந்து உட்கொள்ளும் நேரத்தில் உங்களுக்கு அறிவிப்பு வரும்.",
   "onboardingAfterItemRecord": "பதிவுகள் சேமிக்கப்பட்டு உடனடியாகச் சரிபார்க்கலாம்",
   "onboardingAfterItemFamily": "உங்கள் குடும்பத்தினரின் மருந்து உட்கொள்ளும் நிலையும் ஒரே பார்வையில் தெரியும்",
-  "onboardingGoalTitle": "உங்கள் இலக்கை நிர்ணயிக்கவும்"
+  "onboardingGoalTitle": "உங்கள் இலக்கை நிர்ணயிக்கவும்",
+  "onboardingGoalSubtitle": "உங்கள் இலக்கு உங்கள் திட்டத்தில் பிரதிபலிக்கும்"
 }

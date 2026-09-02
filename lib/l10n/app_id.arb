@@ -270,5 +270,6 @@
   "onboardingAfterItemReminder": "Anda akan menerima notifikasi saat waktunya minum obat.",
   "onboardingAfterItemRecord": "Catatan tersimpan dan dapat segera diperiksa",
   "onboardingAfterItemFamily": "Lihat juga status minum obat keluarga Anda sekilas",
-  "onboardingGoalTitle": "Tentukan tujuan Anda"
+  "onboardingGoalTitle": "Tentukan tujuan Anda",
+  "onboardingGoalSubtitle": "Tujuan Anda akan tercermin dalam rencana Anda"
 }

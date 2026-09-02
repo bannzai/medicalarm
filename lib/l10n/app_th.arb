@@ -270,5 +270,6 @@
   "onboardingAfterItemReminder": "คุณจะได้รับการแจ้งเตือนเมื่อถึงเวลารับประทานยา",
   "onboardingAfterItemRecord": "บันทึกจะถูกเก็บไว้และตรวจสอบได้ทันที",
   "onboardingAfterItemFamily": "ดูสถานะการรับประทานยาของครอบครัวได้ในพริบตา",
-  "onboardingGoalTitle": "กำหนดเป้าหมายของคุณ"
+  "onboardingGoalTitle": "กำหนดเป้าหมายของคุณ",
+  "onboardingGoalSubtitle": "เป้าหมายของคุณจะสะท้อนอยู่ในแผนของคุณ"
 }

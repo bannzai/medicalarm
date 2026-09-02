@@ -270,5 +270,6 @@
   "onboardingAfterItemReminder": "መድሃኒትዎን ለመውሰድ ጊዜው ሲደርስ ማሳወቂያ ይደርስዎታል።",
   "onboardingAfterItemRecord": "መዝገቦች ይቀመጣሉ እና ወዲያውኑ ማረጋገጥ ይችላሉ",
   "onboardingAfterItemFamily": "የቤተሰብዎን የመድኃኒት አጠቃቀም ሁኔታም በአንድ እይታ ይወቁ",
-  "onboardingGoalTitle": "ግብዎን ይወስኑ"
+  "onboardingGoalTitle": "ግብዎን ይወስኑ",
+  "onboardingGoalSubtitle": "ግብዎ በዕቅድዎ ውስጥ ይካተታል"
 }

@@ -270,5 +270,6 @@
   "onboardingAfterItemReminder": "약 복용 시간이 되면 알림을 받습니다.",
   "onboardingAfterItemRecord": "기록이 남아 바로 확인할 수 있어요",
   "onboardingAfterItemFamily": "가족의 복약 상태도 한눈에 확인할 수 있어요",
-  "onboardingGoalTitle": "목표를 정해 보세요"
+  "onboardingGoalTitle": "목표를 정해 보세요",
+  "onboardingGoalSubtitle": "목표가 플랜에 반영됩니다"
 }

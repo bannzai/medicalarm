@@ -270,5 +270,6 @@
   "onboardingAfterItemReminder": "Vei primi o notificare când este timpul să iei medicamentul.",
   "onboardingAfterItemRecord": "Înregistrările se păstrează și pot fi verificate imediat",
   "onboardingAfterItemFamily": "Vedeți dintr-o privire și situația administrării medicamentelor de către familie",
-  "onboardingGoalTitle": "Stabiliți-vă obiectivul"
+  "onboardingGoalTitle": "Stabiliți-vă obiectivul",
+  "onboardingGoalSubtitle": "Obiectivul tău va fi reflectat în planul tău"
 }

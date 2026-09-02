@@ -270,5 +270,6 @@
   "onboardingAfterItemReminder": "服药时间到了，您会收到通知。",
   "onboardingAfterItemRecord": "记录会保留，可立即查看",
   "onboardingAfterItemFamily": "一眼就能了解家人的服药情况",
-  "onboardingGoalTitle": "设定您的目标"
+  "onboardingGoalTitle": "设定您的目标",
+  "onboardingGoalSubtitle": "目标将反映在您的计划中"
 }

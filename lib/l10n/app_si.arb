@@ -270,5 +270,6 @@
   "onboardingAfterItemReminder": "ඖෂධය ගත යුතු වේලාවට ඔබට දැනුම්දීමක් ලැබේ.",
   "onboardingAfterItemRecord": "වාර්තා සුරැකිව තබාගෙන වහාම පරීක්ෂා කළ හැකියි",
   "onboardingAfterItemFamily": "ඔබේ පවුලේ ඖෂධ ගැනීමේ තත්ත්වයත් එක බැල්මකින් බලන්න",
-  "onboardingGoalTitle": "ඔබේ ඉලක්කය තීරණය කරන්න"
+  "onboardingGoalTitle": "ඔබේ ඉලක්කය තීරණය කරන්න",
+  "onboardingGoalSubtitle": "ඔබේ ඉලක්කය ඔබේ සැලැස්මට ඇතුළත් වේ"
 }

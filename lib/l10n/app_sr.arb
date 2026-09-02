@@ -270,5 +270,6 @@
   "onboardingAfterItemReminder": "Добићете обавештење када дође време да узмете лек.",
   "onboardingAfterItemRecord": "Записи остају сачувани и могу се одмах проверити",
   "onboardingAfterItemFamily": "На први поглед сазнајте и статус узимања лекова ваше породице",
-  "onboardingGoalTitle": "Одредите свој циљ"
+  "onboardingGoalTitle": "Одредите свој циљ",
+  "onboardingGoalSubtitle": "Ваш циљ ће бити укључен у ваш план"
 }

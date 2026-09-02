@@ -270,5 +270,6 @@
   "onboardingAfterItemReminder": "Du erhältst eine Benachrichtigung, wenn es Zeit ist, dein Medikament einzunehmen.",
   "onboardingAfterItemRecord": "Aufzeichnungen bleiben erhalten und sind sofort einsehbar",
   "onboardingAfterItemFamily": "Den Medikamentenstatus Ihrer Familie auf einen Blick sehen",
-  "onboardingGoalTitle": "Legen Sie Ihr Ziel fest"
+  "onboardingGoalTitle": "Legen Sie Ihr Ziel fest",
+  "onboardingGoalSubtitle": "Dein Ziel wird in deinem Plan berücksichtigt"
 }

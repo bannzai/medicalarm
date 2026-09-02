@@ -270,5 +270,6 @@
   "onboardingAfterItemReminder": "Вы атрымаеце апавяшчэнне, калі настане час прыняць лекі.",
   "onboardingAfterItemRecord": "Запісы захоўваюцца, і іх можна адразу праверыць",
   "onboardingAfterItemFamily": "Адным поглядам даведайцеся і пра тое, як члены сям’і прымаюць лекі",
-  "onboardingGoalTitle": "Вызначце сваю мэту"
+  "onboardingGoalTitle": "Вызначце сваю мэту",
+  "onboardingGoalSubtitle": "Ваша мэта будзе адлюстравана ў плане"
 }

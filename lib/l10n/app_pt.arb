@@ -270,5 +270,6 @@
   "onboardingAfterItemReminder": "Você receberá uma notificação quando for hora de tomar o medicamento.",
   "onboardingAfterItemRecord": "Os registos ficam guardados e podem ser consultados de imediato",
   "onboardingAfterItemFamily": "Veja também o estado da medicação da sua família num relance",
-  "onboardingGoalTitle": "Defina sua meta"
+  "onboardingGoalTitle": "Defina sua meta",
+  "onboardingGoalSubtitle": "O seu objetivo será refletido no seu plano"
 }

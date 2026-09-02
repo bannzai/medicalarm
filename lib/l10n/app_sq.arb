@@ -270,5 +270,6 @@
   "onboardingAfterItemReminder": "Do të marrësh një njoftim kur të jetë koha për të marrë ilaçin.",
   "onboardingAfterItemRecord": "Regjistrimet ruhen dhe mund t’i kontrolloni menjëherë",
   "onboardingAfterItemFamily": "Shikoni me një vështrim edhe gjendjen e marrjes së ilaçeve nga familja juaj",
-  "onboardingGoalTitle": "Përcaktoni objektivin tuaj"
+  "onboardingGoalTitle": "Përcaktoni objektivin tuaj",
+  "onboardingGoalSubtitle": "Synimi juaj do të pasqyrohet në planin tuaj"
 }

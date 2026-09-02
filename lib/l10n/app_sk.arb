@@ -270,5 +270,6 @@
   "onboardingAfterItemReminder": "Keď bude čas užiť liek, dostanete upozornenie.",
   "onboardingAfterItemRecord": "Záznamy zostanú uložené a môžete ich hneď skontrolovať",
   "onboardingAfterItemFamily": "Majte prehľad aj o užívaní liekov vašej rodiny na prvý pohľad",
-  "onboardingGoalTitle": "Stanovte si cieľ"
+  "onboardingGoalTitle": "Stanovte si cieľ",
+  "onboardingGoalSubtitle": "Váš cieľ sa premietne do vášho plánu"
 }

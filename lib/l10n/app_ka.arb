@@ -270,5 +270,6 @@
   "onboardingAfterItemReminder": "მიიღებთ შეტყობინებას, როდესაც წამლის მიღების დრო დადგება.",
   "onboardingAfterItemRecord": "ჩანაწერები ინახება და მათი დაუყოვნებლივ შემოწმება შეგიძლიათ",
   "onboardingAfterItemFamily": "ერთი შეხედვით იხილეთ თქვენი ოჯახის წევრების მედიკამენტების მიღების მდგომარეობაც",
-  "onboardingGoalTitle": "განსაზღვრეთ თქვენი მიზანი"
+  "onboardingGoalTitle": "განსაზღვრეთ თქვენი მიზანი",
+  "onboardingGoalSubtitle": "თქვენი მიზანი აისახება თქვენს გეგმაში"
 }

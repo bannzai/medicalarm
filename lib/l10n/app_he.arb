@@ -270,5 +270,6 @@
   "onboardingAfterItemReminder": "תתקבל התראה במועד נטילת התרופה.",
   "onboardingAfterItemRecord": "הרשומות נשמרות וניתן לבדוק אותן מיד",
   "onboardingAfterItemFamily": "לראות במבט אחד גם את מצב נטילת התרופות של בני המשפחה",
-  "onboardingGoalTitle": "הגדירו את היעד שלכם"
+  "onboardingGoalTitle": "הגדירו את היעד שלכם",
+  "onboardingGoalSubtitle": "היעד שלך יבוא לידי ביטוי בתוכנית שלך"
 }

@@ -270,5 +270,6 @@
   "onboardingAfterItemReminder": "Saad teate, kui on aeg ravimit võtta.",
   "onboardingAfterItemRecord": "Andmed salvestatakse ja neid saab kohe kontrollida",
   "onboardingAfterItemFamily": "Näe ka oma pereliikmete ravimite võtmise staatust ühe pilguga",
-  "onboardingGoalTitle": "Sea oma eesmärk"
+  "onboardingGoalTitle": "Sea oma eesmärk",
+  "onboardingGoalSubtitle": "Sinu eesmärk kajastub sinu plaanis"
 }

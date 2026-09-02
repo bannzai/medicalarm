@@ -270,5 +270,6 @@
   "onboardingAfterItemReminder": "Bạn sẽ nhận được thông báo khi đến giờ uống thuốc.",
   "onboardingAfterItemRecord": "Bản ghi được lưu lại và có thể xem ngay",
   "onboardingAfterItemFamily": "Xem tình trạng uống thuốc của gia đình chỉ trong nháy mắt",
-  "onboardingGoalTitle": "Xác định mục tiêu của bạn"
+  "onboardingGoalTitle": "Xác định mục tiêu của bạn",
+  "onboardingGoalSubtitle": "Mục tiêu của bạn sẽ được thể hiện trong kế hoạch của bạn"
 }

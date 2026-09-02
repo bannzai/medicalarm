@@ -270,5 +270,6 @@
   "onboardingAfterItemReminder": "Saat ilmoituksen, kun on aika ottaa lääkkeesi.",
   "onboardingAfterItemRecord": "Tiedot säilyvät ja voit tarkistaa ne heti",
   "onboardingAfterItemFamily": "Näe myös perheesi lääkkeiden ottamisen tilanne yhdellä silmäyksellä",
-  "onboardingGoalTitle": "Määritä tavoitteesi"
+  "onboardingGoalTitle": "Määritä tavoitteesi",
+  "onboardingGoalSubtitle": "Tavoitteesi huomioidaan suunnitelmassasi"
 }

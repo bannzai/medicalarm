@@ -270,5 +270,6 @@
   "onboardingAfterItemReminder": "Du får et varsel når det er tid for å ta medisinen.",
   "onboardingAfterItemRecord": "Registreringene lagres og kan sjekkes med en gang",
   "onboardingAfterItemFamily": "Se også familiens medisinstatus med et blikk",
-  "onboardingGoalTitle": "Sett deg et mål"
+  "onboardingGoalTitle": "Sett deg et mål",
+  "onboardingGoalSubtitle": "Målet ditt gjenspeiles i planen din"
 }

@@ -270,5 +270,6 @@
   "onboardingAfterItemReminder": "Otrzymasz powiadomienie, gdy nadejdzie pora przyjęcia leku.",
   "onboardingAfterItemRecord": "Historia zostaje zapisana i można ją od razu sprawdzić",
   "onboardingAfterItemFamily": "Sprawdzaj także stan przyjmowania leków przez rodzinę na pierwszy rzut oka",
-  "onboardingGoalTitle": "Ustal swój cel"
+  "onboardingGoalTitle": "Ustal swój cel",
+  "onboardingGoalSubtitle": "Twój cel zostanie uwzględniony w Twoim planie"
 }

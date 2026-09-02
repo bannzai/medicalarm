@@ -270,5 +270,6 @@
   "onboardingAfterItemReminder": "Эм уух цаг болоход танд мэдэгдэл ирнэ.",
   "onboardingAfterItemRecord": "Бүртгэл хадгалагдаж, шууд шалгах боломжтой",
   "onboardingAfterItemFamily": "Гэр бүлийнхнийхээ эм уусан байдлыг ч нэг дороос хараарай",
-  "onboardingGoalTitle": "Зорилгоо тодорхойлоорой"
+  "onboardingGoalTitle": "Зорилгоо тодорхойлоорой",
+  "onboardingGoalSubtitle": "Таны зорилго таны төлөвлөгөөнд тусгагдана"
 }

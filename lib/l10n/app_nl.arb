@@ -270,5 +270,6 @@
   "onboardingAfterItemReminder": "Je krijgt een melding wanneer het tijd is om je medicijn in te nemen.",
   "onboardingAfterItemRecord": "Registraties blijven bewaard en zijn direct te bekijken",
   "onboardingAfterItemFamily": "Bekijk ook in één oogopslag de medicatiestatus van uw familie",
-  "onboardingGoalTitle": "Bepaal je doel"
+  "onboardingGoalTitle": "Bepaal je doel",
+  "onboardingGoalSubtitle": "Je doel wordt verwerkt in je plan"
 }

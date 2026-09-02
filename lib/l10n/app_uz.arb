@@ -270,5 +270,6 @@
   "onboardingAfterItemReminder": "Dori qabul qilish vaqti kelganda, sizga bildirishnoma keladi.",
   "onboardingAfterItemRecord": "Qaydlar saqlanadi va ularni darhol tekshirish mumkin",
   "onboardingAfterItemFamily": "Oilangizning dori qabul qilish holatini ham bir qarashda ko‘ring",
-  "onboardingGoalTitle": "Maqsadingizni belgilang"
+  "onboardingGoalTitle": "Maqsadingizni belgilang",
+  "onboardingGoalSubtitle": "Maqsadingiz rejangizda aks etadi"
 }

@@ -270,5 +270,6 @@
   "onboardingAfterItemReminder": "మందు తీసుకునే సమయం వచ్చినప్పుడు మీకు నోటిఫికేషన్ వస్తుంది.",
   "onboardingAfterItemRecord": "రికార్డులు భద్రంగా ఉంటాయి, వెంటనే తనిఖీ చేసుకోవచ్చు",
   "onboardingAfterItemFamily": "మీ కుటుంబ సభ్యుల మందులు తీసుకునే స్థితిని కూడా ఒక్క చూపులో చూడండి",
-  "onboardingGoalTitle": "మీ లక్ష్యాన్ని నిర్ణయించండి"
+  "onboardingGoalTitle": "మీ లక్ష్యాన్ని నిర్ణయించండి",
+  "onboardingGoalSubtitle": "మీ లక్ష్యం మీ ప్లాన్‌లో ప్రతిబింబిస్తుంది"
 }

@@ -270,5 +270,6 @@
   "onboardingAfterItemReminder": "Botika hartzeko ordua denean, jakinarazpen bat jasoko duzu.",
   "onboardingAfterItemRecord": "Erregistroak gordeta geratzen dira eta berehala kontsulta daitezke",
   "onboardingAfterItemFamily": "Ikusi zure familiaren botiken hartze-egoera begiratu batean",
-  "onboardingGoalTitle": "Ezarri zure helburua"
+  "onboardingGoalTitle": "Ezarri zure helburua",
+  "onboardingGoalSubtitle": "Zure helburua zure planean islatuko da"
 }

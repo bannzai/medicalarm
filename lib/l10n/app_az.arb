@@ -270,5 +270,6 @@
   "onboardingAfterItemReminder": "Dərmanınızı qəbul etməyin vaxtı çatanda bildiriş alacaqsınız.",
   "onboardingAfterItemRecord": "Qeydlər saxlanılır və dərhal yoxlanıla bilər",
   "onboardingAfterItemFamily": "Ailənizin dərman qəbul etmə vəziyyətini də bir baxışda görün",
-  "onboardingGoalTitle": "Məqsədinizi müəyyənləşdirin"
+  "onboardingGoalTitle": "Məqsədinizi müəyyənləşdirin",
+  "onboardingGoalSubtitle": "Məqsədiniz planınıza əks olunacaq"
 }

@@ -270,5 +270,6 @@
   "onboardingAfterItemReminder": "Ko bo čas za zaužitje zdravila, boste prejeli obvestilo.",
   "onboardingAfterItemRecord": "Zapisi se shranijo in jih lahko takoj preverite",
   "onboardingAfterItemFamily": "Na prvi pogled preverite tudi stanje jemanja zdravil v družini",
-  "onboardingGoalTitle": "Določite svoj cilj"
+  "onboardingGoalTitle": "Določite svoj cilj",
+  "onboardingGoalSubtitle": "Vaš cilj bo upoštevan v vašem načrtu"
 }
