@@ -244,5 +244,6 @@
   "onboardingFrequencySometimes": "Joskus",
   "onboardingFrequencyRarely": "Tuskin koskaan",
   "onboardingFrequencyNever": "Ei koskaan",
-  "onboardingPainWorryTitle": "Oletko joskus ollut huolissasi, koska et muistanut, olitko ottanut lääkkeesi?"
+  "onboardingPainWorryTitle": "Oletko joskus ollut huolissasi, koska et muistanut, olitko ottanut lääkkeesi?",
+  "onboardingValueReminderTitle": "Kun huomaat unohtaneesi annoksen,\non jo liian myöhäistä"
 }

@@ -244,5 +244,6 @@
   "onboardingFrequencySometimes": "Понякога",
   "onboardingFrequencyRarely": "Почти никога",
   "onboardingFrequencyNever": "Никога",
-  "onboardingPainWorryTitle": "Случвало ли ви се е да се тревожите, защото не помните дали сте приели лекарството си?"
+  "onboardingPainWorryTitle": "Случвало ли ви се е да се тревожите, защото не помните дали сте приели лекарството си?",
+  "onboardingValueReminderTitle": "Пропуснатата доза\nсе забелязва, когато вече е късно"
 }

@@ -244,5 +244,6 @@
   "onboardingFrequencySometimes": "Mõnikord",
   "onboardingFrequencyRarely": "Peaaegu mitte kunagi",
   "onboardingFrequencyNever": "Mitte kunagi",
-  "onboardingPainWorryTitle": "Kas oled kunagi tundnud ärevust, sest ei mäletanud, kas olid oma ravimi võtnud?"
+  "onboardingPainWorryTitle": "Kas oled kunagi tundnud ärevust, sest ei mäletanud, kas olid oma ravimi võtnud?",
+  "onboardingValueReminderTitle": "Kui märkad, et annus jäi võtmata,\non juba liiga hilja"
 }

@@ -244,5 +244,6 @@
   "onboardingFrequencySometimes": "Кейде",
   "onboardingFrequencyRarely": "Дерлік ешқашан",
   "onboardingFrequencyNever": "Ешқашан",
-  "onboardingPainWorryTitle": "Дәріңізді қабылдаған-қабылдамағаныңызды есіңізге түсіре алмай, уайымдаған кезіңіз болды ма?"
+  "onboardingPainWorryTitle": "Дәріңізді қабылдаған-қабылдамағаныңызды есіңізге түсіре алмай, уайымдаған кезіңіз болды ма?",
+  "onboardingValueReminderTitle": "Өткізіп алған дозаны\nбайқаған кезде, тым кеш болады"
 }

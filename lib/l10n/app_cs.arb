@@ -244,5 +244,6 @@
   "onboardingFrequencySometimes": "Někdy",
   "onboardingFrequencyRarely": "Téměř nikdy",
   "onboardingFrequencyNever": "Nikdy",
-  "onboardingPainWorryTitle": "Cítili jste někdy úzkost, protože jste si nemohli vzpomenout, zda jste užili svůj lék?"
+  "onboardingPainWorryTitle": "Cítili jste někdy úzkost, protože jste si nemohli vzpomenout, zda jste užili svůj lék?",
+  "onboardingValueReminderTitle": "Na vynechanou dávku\npřijdete, až když je pozdě"
 }

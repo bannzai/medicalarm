@@ -244,5 +244,6 @@
   "onboardingFrequencySometimes": "Понекад",
   "onboardingFrequencyRarely": "Готово никад",
   "onboardingFrequencyNever": "Никада",
-  "onboardingPainWorryTitle": "Да ли сте се икада осећали узнемирено јер се нисте сећали да ли сте узели лек?"
+  "onboardingPainWorryTitle": "Да ли сте се икада осећали узнемирено јер се нисте сећали да ли сте узели лек?",
+  "onboardingValueReminderTitle": "Пропуштену дозу\nприметите тек када буде прекасно"
 }

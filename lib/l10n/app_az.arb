@@ -244,5 +244,6 @@
   "onboardingFrequencySometimes": "Bəzən",
   "onboardingFrequencyRarely": "Demək olar ki, heç vaxt",
   "onboardingFrequencyNever": "Heç vaxt",
-  "onboardingPainWorryTitle": "Dərmanınızı qəbul edib-etmədiyinizi xatırlamadığınız üçün heç narahat olmusunuzmu?"
+  "onboardingPainWorryTitle": "Dərmanınızı qəbul edib-etmədiyinizi xatırlamadığınız üçün heç narahat olmusunuzmu?",
+  "onboardingValueReminderTitle": "Buraxılan dozanı\nxatırladıqda artıq gec olur"
 }

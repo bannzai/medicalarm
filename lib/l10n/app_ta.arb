@@ -244,5 +244,6 @@
   "onboardingFrequencySometimes": "சில நேரங்களில்",
   "onboardingFrequencyRarely": "கிட்டத்தட்ட ஒருபோதும் இல்லை",
   "onboardingFrequencyNever": "ஒருபோதும் இல்லை",
-  "onboardingPainWorryTitle": "மருந்தை எடுத்தீர்களா இல்லையா என்பது நினைவில் இல்லாமல் எப்போதாவது கவலைப்பட்டிருக்கிறீர்களா?"
+  "onboardingPainWorryTitle": "மருந்தை எடுத்தீர்களா இல்லையா என்பது நினைவில் இல்லாமல் எப்போதாவது கவலைப்பட்டிருக்கிறீர்களா?",
+  "onboardingValueReminderTitle": "மருந்தின் ஒரு டோஸ் தவறியதை\nஉணரும்போது மிகவும் தாமதமாகிவிடும்"
 }

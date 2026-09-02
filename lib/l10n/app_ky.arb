@@ -244,5 +244,6 @@
   "onboardingFrequencySometimes": "Кээде",
   "onboardingFrequencyRarely": "Дээрлик эч качан",
   "onboardingFrequencyNever": "Эч качан",
-  "onboardingPainWorryTitle": "Дарыңызды ичкениңизди же ичпегениңизди эстей албай, тынчсызданган учуруңуз болдубу?"
+  "onboardingPainWorryTitle": "Дарыңызды ичкениңизди же ичпегениңизди эстей албай, тынчсызданган учуруңуз болдубу?",
+  "onboardingValueReminderTitle": "Өткөрүп жиберген дозаны\nбайкаганыңызда, кеч болуп калат"
 }

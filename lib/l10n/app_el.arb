@@ -244,5 +244,6 @@
   "onboardingFrequencySometimes": "Μερικές φορές",
   "onboardingFrequencyRarely": "Σχεδόν ποτέ",
   "onboardingFrequencyNever": "Ποτέ",
-  "onboardingPainWorryTitle": "Έχετε νιώσει ποτέ άγχος επειδή δεν θυμόσασταν αν είχατε πάρει το φάρμακό σας;"
+  "onboardingPainWorryTitle": "Έχετε νιώσει ποτέ άγχος επειδή δεν θυμόσασταν αν είχατε πάρει το φάρμακό σας;",
+  "onboardingValueReminderTitle": "Όταν συνειδητοποιήσεις\nότι ξέχασες μια δόση,\nείναι πλέον αργά"
 }

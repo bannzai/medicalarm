@@ -244,5 +244,6 @@
   "onboardingFrequencySometimes": "ზოგჯერ",
   "onboardingFrequencyRarely": "თითქმის არასდროს",
   "onboardingFrequencyNever": "არასოდეს",
-  "onboardingPainWorryTitle": "ოდესმე გიგრძნიათ შფოთვა, რადგან ვერ გახსოვდათ, მიიღეთ თუ არა წამალი?"
+  "onboardingPainWorryTitle": "ოდესმე გიგრძნიათ შფოთვა, რადგან ვერ გახსოვდათ, მიიღეთ თუ არა წამალი?",
+  "onboardingValueReminderTitle": "გამოტოვებულ დოზას მაშინ ამჩნევ,\nროცა უკვე გვიანია"
 }

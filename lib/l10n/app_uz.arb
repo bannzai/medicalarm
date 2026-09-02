@@ -244,5 +244,6 @@
   "onboardingFrequencySometimes": "Ba’zan",
   "onboardingFrequencyRarely": "Deyarli hech qachon",
   "onboardingFrequencyNever": "Hech qachon",
-  "onboardingPainWorryTitle": "Doringizni ichgan-ichmaganligingizni eslay olmay, hech xavotirlanganmisiz?"
+  "onboardingPainWorryTitle": "Doringizni ichgan-ichmaganligingizni eslay olmay, hech xavotirlanganmisiz?",
+  "onboardingValueReminderTitle": "O‘tkazib yuborilgan dozani\nsezganingizda, allaqachon kech bo‘ladi"
 }

@@ -244,5 +244,6 @@
   "onboardingFrequencySometimes": "أحيانًا",
   "onboardingFrequencyRarely": "نادرًا جدًا",
   "onboardingFrequencyNever": "أبدًا",
-  "onboardingPainWorryTitle": "هل شعرت بالقلق من قبل لأنك لم تتذكر ما إذا كنت قد تناولت دواءك؟"
+  "onboardingPainWorryTitle": "هل شعرت بالقلق من قبل لأنك لم تتذكر ما إذا كنت قد تناولت دواءك؟",
+  "onboardingValueReminderTitle": "نسيان الجرعة\nلا تكتشفه إلا بعد فوات الأوان"
 }

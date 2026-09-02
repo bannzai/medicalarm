@@ -244,5 +244,6 @@
   "onboardingFrequencySometimes": "Uneori",
   "onboardingFrequencyRarely": "Aproape niciodată",
   "onboardingFrequencyNever": "Niciodată",
-  "onboardingPainWorryTitle": "V-ați simțit vreodată îngrijorat(ă) pentru că nu vă aminteați dacă v-ați luat medicamentul?"
+  "onboardingPainWorryTitle": "V-ați simțit vreodată îngrijorat(ă) pentru că nu vă aminteați dacă v-ați luat medicamentul?",
+  "onboardingValueReminderTitle": "Când îți dai seama că ai omis o doză,\neste deja prea târziu"
 }

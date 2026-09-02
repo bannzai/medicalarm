@@ -244,5 +244,6 @@
   "onboardingFrequencySometimes": "가끔",
   "onboardingFrequencyRarely": "거의 없음",
   "onboardingFrequencyNever": "전혀 없음",
-  "onboardingPainWorryTitle": "약을 먹었는지 기억나지 않아 불안했던 적이 있나요?"
+  "onboardingPainWorryTitle": "약을 먹었는지 기억나지 않아 불안했던 적이 있나요?",
+  "onboardingValueReminderTitle": "복용을 놓친 걸\n알았을 때는 이미 늦습니다"
 }

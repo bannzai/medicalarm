@@ -244,5 +244,6 @@
   "onboardingFrequencySometimes": "Stundum",
   "onboardingFrequencyRarely": "Nánast aldrei",
   "onboardingFrequencyNever": "Aldrei",
-  "onboardingPainWorryTitle": "Hefur þú einhvern tíma haft áhyggjur af því að þú mundir ekki hvort þú hefðir tekið lyfið þitt?"
+  "onboardingPainWorryTitle": "Hefur þú einhvern tíma haft áhyggjur af því að þú mundir ekki hvort þú hefðir tekið lyfið þitt?",
+  "onboardingValueReminderTitle": "Þegar þú tekur eftir að þú gleymdir skammti,\ner það of seint"
 }

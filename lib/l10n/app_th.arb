@@ -244,5 +244,6 @@
   "onboardingFrequencySometimes": "บางครั้ง",
   "onboardingFrequencyRarely": "เกือบไม่เคย",
   "onboardingFrequencyNever": "ไม่เคย",
-  "onboardingPainWorryTitle": "คุณเคยกังวลเพราะจำไม่ได้ไหมว่าได้กินยาแล้วหรือยัง"
+  "onboardingPainWorryTitle": "คุณเคยกังวลเพราะจำไม่ได้ไหมว่าได้กินยาแล้วหรือยัง",
+  "onboardingValueReminderTitle": "กว่าจะรู้ว่าลืมกินยา\nก็สายเกินไปแล้ว"
 }

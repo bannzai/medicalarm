@@ -244,5 +244,6 @@
   "onboardingFrequencySometimes": "कभी-कभी",
   "onboardingFrequencyRarely": "लगभग कभी नहीं",
   "onboardingFrequencyNever": "कभी नहीं",
-  "onboardingPainWorryTitle": "क्या आपको कभी यह याद न रहने पर चिंता हुई है कि आपने अपनी दवा ली थी या नहीं?"
+  "onboardingPainWorryTitle": "क्या आपको कभी यह याद न रहने पर चिंता हुई है कि आपने अपनी दवा ली थी या नहीं?",
+  "onboardingValueReminderTitle": "जब तक पता चलता है कि\nदवा की एक खुराक छूट गई,\nतब तक बहुत देर हो चुकी होती है"
 }

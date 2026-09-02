@@ -244,5 +244,6 @@
   "onboardingFrequencySometimes": "Manchmal",
   "onboardingFrequencyRarely": "Fast nie",
   "onboardingFrequencyNever": "Nie",
-  "onboardingPainWorryTitle": "Haben Sie sich schon einmal Sorgen gemacht, weil Sie sich nicht erinnern konnten, ob Sie Ihr Medikament eingenommen hatten?"
+  "onboardingPainWorryTitle": "Haben Sie sich schon einmal Sorgen gemacht, weil Sie sich nicht erinnern konnten, ob Sie Ihr Medikament eingenommen hatten?",
+  "onboardingValueReminderTitle": "Wenn du bemerkst,\ndass du eine Dosis vergessen hast,\nist es zu spät"
 }

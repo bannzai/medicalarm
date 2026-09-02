@@ -244,5 +244,6 @@
   "onboardingFrequencySometimes": "Néha",
   "onboardingFrequencyRarely": "Szinte soha",
   "onboardingFrequencyNever": "Soha",
-  "onboardingPainWorryTitle": "Éreztél már szorongást amiatt, hogy nem emlékeztél, bevetted-e a gyógyszered?"
+  "onboardingPainWorryTitle": "Éreztél már szorongást amiatt, hogy nem emlékeztél, bevetted-e a gyógyszered?",
+  "onboardingValueReminderTitle": "Mire észreveszed,\nhogy kihagytál egy adagot,\nmár túl késő"
 }

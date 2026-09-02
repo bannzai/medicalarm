@@ -244,5 +244,6 @@
   "onboardingFrequencySometimes": "Av og til",
   "onboardingFrequencyRarely": "Nesten aldri",
   "onboardingFrequencyNever": "Aldri",
-  "onboardingPainWorryTitle": "Har du noen gang følt deg urolig fordi du ikke husket om du hadde tatt medisinen din?"
+  "onboardingPainWorryTitle": "Har du noen gang følt deg urolig fordi du ikke husket om du hadde tatt medisinen din?",
+  "onboardingValueReminderTitle": "Når du oppdager at du har glemt en dose,\ner det for sent"
 }

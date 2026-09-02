@@ -244,5 +244,6 @@
   "onboardingFrequencySometimes": "Bazen",
   "onboardingFrequencyRarely": "Neredeyse hiç",
   "onboardingFrequencyNever": "Hiçbir zaman",
-  "onboardingPainWorryTitle": "İlacınızı alıp almadığınızı hatırlamadığınız için hiç endişelendiniz mi?"
+  "onboardingPainWorryTitle": "İlacınızı alıp almadığınızı hatırlamadığınız için hiç endişelendiniz mi?",
+  "onboardingValueReminderTitle": "Atlanan dozu fark ettiğinizde,\nartık çok geçtir"
 }

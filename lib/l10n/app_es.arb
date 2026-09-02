@@ -244,5 +244,6 @@
   "onboardingFrequencySometimes": "A veces",
   "onboardingFrequencyRarely": "Casi nunca",
   "onboardingFrequencyNever": "Nunca",
-  "onboardingPainWorryTitle": "¿Alguna vez te has sentido intranquilo porque no recordabas si habías tomado tu medicamento?"
+  "onboardingPainWorryTitle": "¿Alguna vez te has sentido intranquilo porque no recordabas si habías tomado tu medicamento?",
+  "onboardingValueReminderTitle": "Cuando te das cuenta\nde que has olvidado una dosis,\nya es demasiado tarde"
 }
