@@ -280,6 +280,7 @@
   "onboardingPlanGeneratingSchedule": "የማሳወቂያ ዕቅድዎን እያዘጋጀን ነው",
   "onboardingPlanGeneratingReady": "ተዘጋጅቷል።",
   "onboardingPlanResultTitle": "ለእርስዎ የተዘጋጀ ዕቅድ",
+  "onboardingPlanResultGoalFormat": "ግብ፦ {goal}",
   "onboardingPlanDoseReceivers": "መድሃኒት የሚወስድ ሰው",
   "onboardingPlanDailyReminders": "የዕለት ማሳወቂያዎች",
   "onboardingPlanMedicines": "ለማስተዳደር የሚገባቸው መድኃኒቶች",
