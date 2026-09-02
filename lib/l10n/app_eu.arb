@@ -247,5 +247,6 @@
   "onboardingPainWorryTitle": "Inoiz sentitu al zara urduri, sendaga hartu duzun ala ez gogoratu ezinik?",
   "onboardingValueReminderTitle": "Ahaztutako dosiaz ohartzen zarenerako,\nberanduegi da",
   "onboardingValueReminderBody": "Medicalarm-ek jakinarazpena bidaltzen du botika hartzeko unea denean.\nCritical Alert bidez oharra jaso dezakezu modu isilean ere.",
-  "onboardingCareTargetTitle": "Noren botiken hartzea kudeatuko duzu?"
+  "onboardingCareTargetTitle": "Noren botiken hartzea kudeatuko duzu?",
+  "onboardingCareTargetSubtitle": "Zure erantzunen arabera plana sortuko dugu"
 }

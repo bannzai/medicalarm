@@ -247,5 +247,6 @@
   "onboardingPainWorryTitle": "Har du noen gang følt deg urolig fordi du ikke husket om du hadde tatt medisinen din?",
   "onboardingValueReminderTitle": "Når du oppdager at du har glemt en dose,\ner det for sent",
   "onboardingValueReminderBody": "Medicalarm sender et varsel når det er tid for å ta medisinen.\nDu kan legge merke til det via Critical Alert selv i lydløs modus.",
-  "onboardingCareTargetTitle": "Hvem skal du administrere medisinbruken til?"
+  "onboardingCareTargetTitle": "Hvem skal du administrere medisinbruken til?",
+  "onboardingCareTargetSubtitle": "Vi lager en plan basert på svarene dine"
 }

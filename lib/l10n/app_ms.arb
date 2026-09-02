@@ -247,5 +247,6 @@
   "onboardingPainWorryTitle": "Pernahkah anda berasa bimbang kerana tidak ingat sama ada anda sudah mengambil ubat?",
   "onboardingValueReminderTitle": "Apabila tersedar anda terlepas dos,\nsudah terlambat",
   "onboardingValueReminderBody": "Medicalarm menghantar pemberitahuan apabila tiba masa untuk mengambil ubat.\nAnda boleh menyedarinya melalui Critical Alert walaupun dalam mod senyap.",
-  "onboardingCareTargetTitle": "Pengambilan ubat siapa yang akan anda uruskan?"
+  "onboardingCareTargetTitle": "Pengambilan ubat siapa yang akan anda uruskan?",
+  "onboardingCareTargetSubtitle": "Kami akan menyediakan pelan berdasarkan jawapan anda"
 }

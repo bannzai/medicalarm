@@ -247,5 +247,6 @@
   "onboardingPainWorryTitle": "약을 먹었는지 기억나지 않아 불안했던 적이 있나요?",
   "onboardingValueReminderTitle": "복용을 놓친 걸\n알았을 때는 이미 늦습니다",
   "onboardingValueReminderBody": "Medicalarm은 약을 복용할 시간이 되면 알림을 보냅니다.\n무음 모드에서도 Critical Alert로 알림을 확인할 수 있습니다.",
-  "onboardingCareTargetTitle": "누구의 복약을 관리하시나요?"
+  "onboardingCareTargetTitle": "누구의 복약을 관리하시나요?",
+  "onboardingCareTargetSubtitle": "답변에 맞춰 계획을 세워 드립니다"
 }

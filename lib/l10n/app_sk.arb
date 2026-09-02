@@ -247,5 +247,6 @@
   "onboardingPainWorryTitle": "Cítili ste niekedy úzkosť, pretože ste si nepamätali, či ste užili svoj liek?",
   "onboardingValueReminderTitle": "Na vynechanú dávku\nprídete, až keď je neskoro",
   "onboardingValueReminderBody": "Medicalarm vás upozorní, keď je čas užiť liek.\nVďaka Critical Alert si upozornenie všimnete aj v tichom režime.",
-  "onboardingCareTargetTitle": "Čí užívanie liekov budete spravovať?"
+  "onboardingCareTargetTitle": "Čí užívanie liekov budete spravovať?",
+  "onboardingCareTargetSubtitle": "Vytvoríme plán podľa vašich odpovedí"
 }

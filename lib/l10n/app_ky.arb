@@ -247,5 +247,6 @@
   "onboardingPainWorryTitle": "Дарыңызды ичкениңизди же ичпегениңизди эстей албай, тынчсызданган учуруңуз болдубу?",
   "onboardingValueReminderTitle": "Өткөрүп жиберген дозаны\nбайкаганыңызда, кеч болуп калат",
   "onboardingValueReminderBody": "Medicalarm дары ичүү убактысы келгенде эскертме жөнөтөт.\nҮнсүз режимде да Critical Alert аркылуу аны байкай аласыз.",
-  "onboardingCareTargetTitle": "Кимдин дары ичүүсүн көзөмөлдөйсүз?"
+  "onboardingCareTargetTitle": "Кимдин дары ичүүсүн көзөмөлдөйсүз?",
+  "onboardingCareTargetSubtitle": "Жоопторуңузга жараша план түзөбүз"
 }

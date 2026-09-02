@@ -247,5 +247,6 @@
   "onboardingPainWorryTitle": "Kas oled kunagi tundnud ärevust, sest ei mäletanud, kas olid oma ravimi võtnud?",
   "onboardingValueReminderTitle": "Kui märkad, et annus jäi võtmata,\non juba liiga hilja",
   "onboardingValueReminderBody": "Medicalarm saadab teate, kui on aeg ravimit võtta.\nTänu funktsioonile Critical Alert märkad seda ka hääletus režiimis.",
-  "onboardingCareTargetTitle": "Kelle ravimite võtmist hakkate haldama?"
+  "onboardingCareTargetTitle": "Kelle ravimite võtmist hakkate haldama?",
+  "onboardingCareTargetSubtitle": "Koostame sinu vastuste põhjal plaani"
 }

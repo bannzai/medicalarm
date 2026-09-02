@@ -247,5 +247,6 @@
   "onboardingPainWorryTitle": "İlacınızı alıp almadığınızı hatırlamadığınız için hiç endişelendiniz mi?",
   "onboardingValueReminderTitle": "Atlanan dozu fark ettiğinizde,\nartık çok geçtir",
   "onboardingValueReminderBody": "Medicalarm, ilacınızı almanız gereken saatte bildirim gönderir.\nSessiz modda bile Critical Alert sayesinde fark edebilirsiniz.",
-  "onboardingCareTargetTitle": "Kimin ilaç kullanımını yöneteceksiniz?"
+  "onboardingCareTargetTitle": "Kimin ilaç kullanımını yöneteceksiniz?",
+  "onboardingCareTargetSubtitle": "Yanıtlarınıza göre bir plan oluşturacağız"
 }

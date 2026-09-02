@@ -247,5 +247,6 @@
   "onboardingPainWorryTitle": "Hefur þú einhvern tíma haft áhyggjur af því að þú mundir ekki hvort þú hefðir tekið lyfið þitt?",
   "onboardingValueReminderTitle": "Þegar þú tekur eftir að þú gleymdir skammti,\ner það of seint",
   "onboardingValueReminderBody": "Medicalarm sendir tilkynningu þegar komið er að því að taka lyfið.\nÞú getur tekið eftir henni með Critical Alert jafnvel í hljóðlausri stillingu.",
-  "onboardingCareTargetTitle": "Lyfjanotkun hvers ætlar þú að hafa umsjón með?"
+  "onboardingCareTargetTitle": "Lyfjanotkun hvers ætlar þú að hafa umsjón með?",
+  "onboardingCareTargetSubtitle": "Við búum til áætlun út frá svörunum þínum"
 }

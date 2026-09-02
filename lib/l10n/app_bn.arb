@@ -247,5 +247,6 @@
   "onboardingPainWorryTitle": "আপনি ওষুধ খেয়েছেন কি না মনে করতে না পেরে কি কখনও উদ্বিগ্ন হয়েছেন?",
   "onboardingValueReminderTitle": "ওষুধের ডোজ মিস করার কথা\nমনে পড়তে পড়তে অনেক দেরি হয়ে যায়",
   "onboardingValueReminderBody": "Medicalarm ওষুধ খাওয়ার সময় বিজ্ঞপ্তি পাঠায়।\nসাইলেন্ট মোডেও Critical Alert-এর মাধ্যমে জানতে পারবেন।",
-  "onboardingCareTargetTitle": "আপনি কার ওষুধ খাওয়া পরিচালনা করবেন?"
+  "onboardingCareTargetTitle": "আপনি কার ওষুধ খাওয়া পরিচালনা করবেন?",
+  "onboardingCareTargetSubtitle": "আপনার উত্তরের ভিত্তিতে আমরা একটি পরিকল্পনা তৈরি করব"
 }

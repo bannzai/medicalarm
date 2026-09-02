@@ -247,5 +247,6 @@
   "onboardingPainWorryTitle": "Nabalisa ka na ba dahil hindi mo maalala kung nainom mo na ang gamot mo?",
   "onboardingValueReminderTitle": "Kapag napansing\nnakaligtaan ang isang dosis,\nhuli na ang lahat",
   "onboardingValueReminderBody": "Nagpapadala ang Medicalarm ng notification kapag oras na para inumin ang gamot.\nMapapansin mo ito gamit ang Critical Alert kahit naka-silent mode.",
-  "onboardingCareTargetTitle": "Kaninong pag-inom ng gamot ang pamamahalaan mo?"
+  "onboardingCareTargetTitle": "Kaninong pag-inom ng gamot ang pamamahalaan mo?",
+  "onboardingCareTargetSubtitle": "Gagawa kami ng plano batay sa iyong mga sagot"
 }

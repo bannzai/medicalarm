@@ -247,5 +247,6 @@
   "onboardingPainWorryTitle": "Ar kada nors nerimavote, nes neprisiminėte, ar išgėrėte vaistus?",
   "onboardingValueReminderTitle": "Pastebėjus, kad praleidote dozę,\njau būna per vėlu",
   "onboardingValueReminderBody": "Medicalarm siunčia pranešimą, kai laikas išgerti vaistus.\nApie jį galite sužinoti naudodami Critical Alert net ir įjungę tylųjį režimą.",
-  "onboardingCareTargetTitle": "Kieno vaistų vartojimą administruosite?"
+  "onboardingCareTargetTitle": "Kieno vaistų vartojimą administruosite?",
+  "onboardingCareTargetSubtitle": "Pagal jūsų atsakymus sudarysime planą"
 }

@@ -247,5 +247,6 @@
   "onboardingPainWorryTitle": "Да ли сте се икада осећали узнемирено јер се нисте сећали да ли сте узели лек?",
   "onboardingValueReminderTitle": "Пропуштену дозу\nприметите тек када буде прекасно",
   "onboardingValueReminderBody": "Medicalarm šalje obaveštenje kada je vreme da uzmete lek.\nMožete ga primetiti putem Critical Alert funkcije čak i u nečujnom režimu.",
-  "onboardingCareTargetTitle": "Чије ћете узимање лекова пратити?"
+  "onboardingCareTargetTitle": "Чије ћете узимање лекова пратити?",
+  "onboardingCareTargetSubtitle": "Направићемо план на основу ваших одговора"
 }

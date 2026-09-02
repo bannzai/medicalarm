@@ -247,5 +247,6 @@
   "onboardingPainWorryTitle": "Дали некогаш сте се загрижиле затоа што не сте се сеќавале дали сте го земале лекот?",
   "onboardingValueReminderTitle": "Пропуштената доза\nја забележувате кога веќе е предоцна",
   "onboardingValueReminderBody": "Medicalarm испраќа известување кога е време да го земете лекот.\nМожете да го забележите преку Critical Alert дури и во тивок режим.",
-  "onboardingCareTargetTitle": "Чие земање лекови ќе го следите?"
+  "onboardingCareTargetTitle": "Чие земање лекови ќе го следите?",
+  "onboardingCareTargetSubtitle": "Ќе направиме план според вашите одговори"
 }

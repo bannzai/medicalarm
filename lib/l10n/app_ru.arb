@@ -247,5 +247,6 @@
   "onboardingPainWorryTitle": "Вы когда-нибудь тревожились, потому что не помнили, приняли ли лекарство?",
   "onboardingValueReminderTitle": "Когда становится понятно, что доза пропущена,\nуже слишком поздно",
   "onboardingValueReminderBody": "Medicalarm отправляет уведомление, когда пора принять лекарство.\nБлагодаря Critical Alert вы заметите его даже в беззвучном режиме.",
-  "onboardingCareTargetTitle": "За чьим приёмом лекарств вы будете следить?"
+  "onboardingCareTargetTitle": "За чьим приёмом лекарств вы будете следить?",
+  "onboardingCareTargetSubtitle": "Мы составим план на основе ваших ответов"
 }

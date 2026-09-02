@@ -247,5 +247,6 @@
   "onboardingPainWorryTitle": "هل شعرت بالقلق من قبل لأنك لم تتذكر ما إذا كنت قد تناولت دواءك؟",
   "onboardingValueReminderTitle": "نسيان الجرعة\nلا تكتشفه إلا بعد فوات الأوان",
   "onboardingValueReminderBody": "يرسل Medicalarm إشعارًا عند موعد تناول الدواء.\nيمكنك ملاحظته عبر Critical Alert حتى في الوضع الصامت.",
-  "onboardingCareTargetTitle": "من ستدير تناول أدويته؟"
+  "onboardingCareTargetTitle": "من ستدير تناول أدويته؟",
+  "onboardingCareTargetSubtitle": "سنضع خطة بناءً على إجاباتك"
 }

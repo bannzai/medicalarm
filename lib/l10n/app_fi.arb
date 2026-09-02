@@ -247,5 +247,6 @@
   "onboardingPainWorryTitle": "Oletko joskus ollut huolissasi, koska et muistanut, olitko ottanut lääkkeesi?",
   "onboardingValueReminderTitle": "Kun huomaat unohtaneesi annoksen,\non jo liian myöhäistä",
   "onboardingValueReminderBody": "Medicalarm ilmoittaa, kun on aika ottaa lääkkeesi.\nHuomaat ilmoituksen Critical Alert -toiminnon avulla myös äänettömässä tilassa.",
-  "onboardingCareTargetTitle": "Kenen lääkitystä hallinnoit?"
+  "onboardingCareTargetTitle": "Kenen lääkitystä hallinnoit?",
+  "onboardingCareTargetSubtitle": "Laadimme vastaustesi perusteella suunnitelman"
 }
