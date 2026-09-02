@@ -236,5 +236,6 @@
   "onboardingWelcomeFeatureReminder": "Notificare la ora administrării medicamentului",
   "onboardingWelcomeFeatureCriticalAlert": "Critical Alert care sună chiar și în modul silențios",
   "onboardingWelcomeFeatureFamily": "Gestionează și medicația familiei tale într-un singur loc",
-  "onboardingStart": "Începe"
+  "onboardingStart": "Începe",
+  "onboardingNext": "Înainte"
 }

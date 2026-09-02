@@ -236,5 +236,6 @@
   "onboardingWelcomeFeatureReminder": "Varsel når medisinen skal tas",
   "onboardingWelcomeFeatureCriticalAlert": "Critical Alert som varsler selv i lydløs modus",
   "onboardingWelcomeFeatureFamily": "Administrer også familiens medisiner på ett sted",
-  "onboardingStart": "Kom i gang"
+  "onboardingStart": "Kom i gang",
+  "onboardingNext": "Neste"
 }

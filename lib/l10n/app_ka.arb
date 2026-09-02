@@ -236,5 +236,6 @@
   "onboardingWelcomeFeatureReminder": "შეტყობინება წამლის მიღების დროს",
   "onboardingWelcomeFeatureCriticalAlert": "Critical Alert, რომელიც უხმო რეჟიმშიც ჟღერს",
   "onboardingWelcomeFeatureFamily": "მართეთ თქვენი ოჯახის მედიკამენტების მიღებაც ერთ ადგილას",
-  "onboardingStart": "დაწყება"
+  "onboardingStart": "დაწყება",
+  "onboardingNext": "შემდეგი"
 }

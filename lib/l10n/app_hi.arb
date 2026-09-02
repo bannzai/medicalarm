@@ -236,5 +236,6 @@
   "onboardingWelcomeFeatureReminder": "दवा लेने के समय सूचना",
   "onboardingWelcomeFeatureCriticalAlert": "साइलेंट मोड में भी बजने वाला Critical Alert",
   "onboardingWelcomeFeatureFamily": "अपने परिवार की दवाओं का भी एक ही जगह प्रबंधन करें",
-  "onboardingStart": "शुरू करें"
+  "onboardingStart": "शुरू करें",
+  "onboardingNext": "अगला"
 }

@@ -236,5 +236,6 @@
   "onboardingWelcomeFeatureReminder": "Teavitus ravimi võtmise ajal",
   "onboardingWelcomeFeatureCriticalAlert": "Critical Alert, mis kõlab ka hääletus režiimis",
   "onboardingWelcomeFeatureFamily": "Halda ka oma pere ravimite võtmist ühes kohas",
-  "onboardingStart": "Alusta"
+  "onboardingStart": "Alusta",
+  "onboardingNext": "Järgmine"
 }

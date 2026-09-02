@@ -236,5 +236,6 @@
   "onboardingWelcomeFeatureReminder": "മരുന്ന് കഴിക്കേണ്ട സമയത്ത് അറിയിപ്പ്",
   "onboardingWelcomeFeatureCriticalAlert": "സൈലന്റ് മോഡിലും മുഴങ്ങുന്ന Critical Alert",
   "onboardingWelcomeFeatureFamily": "നിങ്ങളുടെ കുടുംബത്തിന്റെ മരുന്നുകളും ഒരിടത്ത് നിയന്ത്രിക്കാം",
-  "onboardingStart": "ആരംഭിക്കുക"
+  "onboardingStart": "ആരംഭിക്കുക",
+  "onboardingNext": "അടുത്തത്"
 }

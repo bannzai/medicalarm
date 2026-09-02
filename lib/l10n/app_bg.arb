@@ -236,5 +236,6 @@
   "onboardingWelcomeFeatureReminder": "Известие в часа за прием на лекарството",
   "onboardingWelcomeFeatureCriticalAlert": "Critical Alert, който звучи дори в безшумен режим",
   "onboardingWelcomeFeatureFamily": "Управлявайте и приема на лекарства от цялото семейство на едно място",
-  "onboardingStart": "Започнете"
+  "onboardingStart": "Започнете",
+  "onboardingNext": "Напред"
 }

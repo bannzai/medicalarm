@@ -236,5 +236,6 @@
   "onboardingWelcomeFeatureReminder": "اعلان در زمان مصرف دارو",
   "onboardingWelcomeFeatureCriticalAlert": "Critical Alert که حتی در حالت بی‌صدا هم زنگ می‌زند",
   "onboardingWelcomeFeatureFamily": "داروهای خانواده‌تان را نیز یکجا مدیریت کنید",
-  "onboardingStart": "شروع کنید"
+  "onboardingStart": "شروع کنید",
+  "onboardingNext": "بعدی"
 }

@@ -236,5 +236,6 @@
   "onboardingWelcomeFeatureReminder": "Дәрі қабылдау уақытында хабарландыру",
   "onboardingWelcomeFeatureCriticalAlert": "Дыбыссыз режимде де шығатын Critical Alert",
   "onboardingWelcomeFeatureFamily": "Отбасыңыздың дәрі қабылдауын да бір жерден басқарыңыз",
-  "onboardingStart": "Бастау"
+  "onboardingStart": "Бастау",
+  "onboardingNext": "Келесі"
 }

@@ -236,5 +236,6 @@
   "onboardingWelcomeFeatureReminder": "Njoftim në kohën e marrjes së ilaçit",
   "onboardingWelcomeFeatureCriticalAlert": "Critical Alert që bie edhe në modalitetin pa zë",
   "onboardingWelcomeFeatureFamily": "Menaxhoni edhe ilaçet e familjes në një vend",
-  "onboardingStart": "Fillo"
+  "onboardingStart": "Fillo",
+  "onboardingNext": "Tjetër"
 }

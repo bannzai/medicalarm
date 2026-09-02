@@ -236,5 +236,6 @@
   "onboardingWelcomeFeatureReminder": "Upozornenie v čase užitia lieku",
   "onboardingWelcomeFeatureCriticalAlert": "Critical Alert, ktorý zaznie aj v tichom režime",
   "onboardingWelcomeFeatureFamily": "Spravujte aj užívanie liekov celej rodiny na jednom mieste",
-  "onboardingStart": "Začať"
+  "onboardingStart": "Začať",
+  "onboardingNext": "Ďalej"
 }

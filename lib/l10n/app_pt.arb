@@ -236,5 +236,6 @@
   "onboardingWelcomeFeatureReminder": "Notificação no horário de tomar o medicamento",
   "onboardingWelcomeFeatureCriticalAlert": "Critical Alert que toca mesmo no modo silencioso",
   "onboardingWelcomeFeatureFamily": "Gerencie também a medicação da sua família em um só lugar",
-  "onboardingStart": "Começar"
+  "onboardingStart": "Começar",
+  "onboardingNext": "Seguinte"
 }

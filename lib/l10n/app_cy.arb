@@ -236,5 +236,6 @@
   "onboardingWelcomeFeatureReminder": "Hysbysiad ar amser cymryd meddyginiaeth",
   "onboardingWelcomeFeatureCriticalAlert": "Critical Alert sy'n canu hyd yn oed yn y modd distaw",
   "onboardingWelcomeFeatureFamily": "Rheolwch feddyginiaeth eich teulu hefyd mewn un lle",
-  "onboardingStart": "Dechrau"
+  "onboardingStart": "Dechrau",
+  "onboardingNext": "Nesaf"
 }

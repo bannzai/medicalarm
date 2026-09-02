@@ -236,5 +236,6 @@
   "onboardingWelcomeFeatureReminder": "ဆေးသောက်ချိန်တွင် အသိပေးချက်",
   "onboardingWelcomeFeatureCriticalAlert": "အသံတိတ်မုဒ်တွင်ပင် မြည်သည့် Critical Alert",
   "onboardingWelcomeFeatureFamily": "မိသားစု၏ ဆေးဝါးများကိုလည်း တစ်နေရာတည်းတွင် စီမံခန့်ခွဲပါ",
-  "onboardingStart": "စတင်ပါ"
+  "onboardingStart": "စတင်ပါ",
+  "onboardingNext": "နောက်တစ်ခု"
 }

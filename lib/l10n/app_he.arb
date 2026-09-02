@@ -236,5 +236,6 @@
   "onboardingWelcomeFeatureReminder": "התראה בזמן נטילת התרופה",
   "onboardingWelcomeFeatureCriticalAlert": "Critical Alert שנשמע גם במצב שקט",
   "onboardingWelcomeFeatureFamily": "נהלו גם את התרופות של בני המשפחה במקום אחד",
-  "onboardingStart": "התחל"
+  "onboardingStart": "התחל",
+  "onboardingNext": "הבא"
 }

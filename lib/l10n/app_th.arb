@@ -236,5 +236,6 @@
   "onboardingWelcomeFeatureReminder": "การแจ้งเตือนเมื่อถึงเวลารับประทานยา",
   "onboardingWelcomeFeatureCriticalAlert": "Critical Alert ที่ดังแม้อยู่ในโหมดเงียบ",
   "onboardingWelcomeFeatureFamily": "จัดการยาของทุกคนในครอบครัวได้ในที่เดียว",
-  "onboardingStart": "เริ่มต้น"
+  "onboardingStart": "เริ่มต้น",
+  "onboardingNext": "ถัดไป"
 }

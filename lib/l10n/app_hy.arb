@@ -236,5 +236,6 @@
   "onboardingWelcomeFeatureReminder": "Դեղորայքն ընդունելու ժամին ծանուցում",
   "onboardingWelcomeFeatureCriticalAlert": "Critical Alert, որը հնչում է նույնիսկ լուռ ռեժիմում",
   "onboardingWelcomeFeatureFamily": "Կառավարեք նաև ձեր ընտանիքի դեղորայքը մեկ վայրում",
-  "onboardingStart": "Սկսել"
+  "onboardingStart": "Սկսել",
+  "onboardingNext": "Հաջորդը"
 }

@@ -236,5 +236,6 @@
   "onboardingWelcomeFeatureReminder": "Notifikasi pada waktu minum obat",
   "onboardingWelcomeFeatureCriticalAlert": "Critical Alert yang berbunyi bahkan dalam mode senyap",
   "onboardingWelcomeFeatureFamily": "Kelola juga obat keluarga dalam satu tempat",
-  "onboardingStart": "Mulai"
+  "onboardingStart": "Mulai",
+  "onboardingNext": "Berikutnya"
 }

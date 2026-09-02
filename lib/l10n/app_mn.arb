@@ -236,5 +236,6 @@
   "onboardingWelcomeFeatureReminder": "Эм уух цагийн мэдэгдэл",
   "onboardingWelcomeFeatureCriticalAlert": "Чимээгүй горимд ч дуугарах Critical Alert",
   "onboardingWelcomeFeatureFamily": "Гэр бүлийнхээ эмийн хэрэглээг ч нэг дор хянаарай",
-  "onboardingStart": "Эхлэх"
+  "onboardingStart": "Эхлэх",
+  "onboardingNext": "Дараах"
 }

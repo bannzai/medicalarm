@@ -236,5 +236,6 @@
   "onboardingWelcomeFeatureReminder": "Avisering vid tidpunkten för medicinintag",
   "onboardingWelcomeFeatureCriticalAlert": "Critical Alert som låter även i tyst läge",
   "onboardingWelcomeFeatureFamily": "Hantera även hela familjens medicinering på ett ställe",
-  "onboardingStart": "Kom igång"
+  "onboardingStart": "Kom igång",
+  "onboardingNext": "Nästa"
 }

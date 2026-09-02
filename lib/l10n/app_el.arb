@@ -236,5 +236,6 @@
   "onboardingWelcomeFeatureReminder": "Ειδοποίηση την ώρα λήψης του φαρμάκου",
   "onboardingWelcomeFeatureCriticalAlert": "Critical Alert που χτυπά ακόμη και σε αθόρυβη λειτουργία",
   "onboardingWelcomeFeatureFamily": "Διαχειριστείτε και τα φάρμακα της οικογένειάς σας σε ένα μέρος",
-  "onboardingStart": "Ξεκινήστε"
+  "onboardingStart": "Ξεκινήστε",
+  "onboardingNext": "Επόμενο"
 }

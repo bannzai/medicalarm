@@ -236,5 +236,6 @@
   "onboardingWelcomeFeatureReminder": "Powiadomienie o porze przyjęcia leku",
   "onboardingWelcomeFeatureCriticalAlert": "Critical Alert, który działa także w trybie cichym",
   "onboardingWelcomeFeatureFamily": "Zarządzaj także lekami całej rodziny w jednym miejscu",
-  "onboardingStart": "Zacznij"
+  "onboardingStart": "Zacznij",
+  "onboardingNext": "Dalej"
 }

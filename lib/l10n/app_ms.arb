@@ -236,5 +236,6 @@
   "onboardingWelcomeFeatureReminder": "Pemberitahuan pada waktu pengambilan ubat",
   "onboardingWelcomeFeatureCriticalAlert": "Critical Alert yang berbunyi walaupun dalam mod senyap",
   "onboardingWelcomeFeatureFamily": "Uruskan ubat seisi keluarga juga di satu tempat",
-  "onboardingStart": "Mula"
+  "onboardingStart": "Mula",
+  "onboardingNext": "Seterusnya"
 }

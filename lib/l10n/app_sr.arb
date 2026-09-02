@@ -236,5 +236,6 @@
   "onboardingWelcomeFeatureReminder": "Обавештење у време узимања лека",
   "onboardingWelcomeFeatureCriticalAlert": "Critical Alert који звони и у нечујном режиму",
   "onboardingWelcomeFeatureFamily": "Управљајте и лековима целе породице на једном месту",
-  "onboardingStart": "Почните"
+  "onboardingStart": "Почните",
+  "onboardingNext": "Следеће"
 }

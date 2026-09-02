@@ -236,5 +236,6 @@
   "onboardingWelcomeFeatureReminder": "ওষুধ খাওয়ার সময় বিজ্ঞপ্তি",
   "onboardingWelcomeFeatureCriticalAlert": "নিরব মোডেও বেজে ওঠে Critical Alert",
   "onboardingWelcomeFeatureFamily": "পরিবারের ওষুধও একসঙ্গে পরিচালনা করুন",
-  "onboardingStart": "শুরু করুন"
+  "onboardingStart": "শুরু করুন",
+  "onboardingNext": "পরবর্তী"
 }

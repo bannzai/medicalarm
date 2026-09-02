@@ -236,5 +236,6 @@
   "onboardingWelcomeFeatureReminder": "Tilkynning á þeim tíma sem lyf á að taka",
   "onboardingWelcomeFeatureCriticalAlert": "Critical Alert sem hringir jafnvel í hljóðlausri stillingu",
   "onboardingWelcomeFeatureFamily": "Haltu einnig utan um lyf fjölskyldunnar á einum stað",
-  "onboardingStart": "Byrja"
+  "onboardingStart": "Byrja",
+  "onboardingNext": "Næsta"
 }

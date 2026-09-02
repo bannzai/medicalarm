@@ -236,5 +236,6 @@
   "onboardingWelcomeFeatureReminder": "Dori qabul qilish vaqtidagi bildirishnoma",
   "onboardingWelcomeFeatureCriticalAlert": "Ovozsiz rejimda ham chalinadigan Critical Alert",
   "onboardingWelcomeFeatureFamily": "Oilangizning dori-darmonlarini ham bir joyda boshqaring",
-  "onboardingStart": "Boshlash"
+  "onboardingStart": "Boshlash",
+  "onboardingNext": "Keyingi"
 }

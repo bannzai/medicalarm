@@ -236,5 +236,6 @@
   "onboardingWelcomeFeatureReminder": "Notifikation på medicintidspunktet",
   "onboardingWelcomeFeatureCriticalAlert": "Critical Alert, der lyder selv i lydløs tilstand",
   "onboardingWelcomeFeatureFamily": "Administrer også familiens medicin samlet",
-  "onboardingStart": "Kom i gang"
+  "onboardingStart": "Kom i gang",
+  "onboardingNext": "Næste"
 }

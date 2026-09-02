@@ -236,5 +236,6 @@
   "onboardingWelcomeFeatureReminder": "Ilmoitus lääkkeenottoaikana",
   "onboardingWelcomeFeatureCriticalAlert": "Critical Alert, joka kuuluu myös äänettömässä tilassa",
   "onboardingWelcomeFeatureFamily": "Hallitse myös perheesi lääkityksiä yhdessä paikassa",
-  "onboardingStart": "Aloita"
+  "onboardingStart": "Aloita",
+  "onboardingNext": "Seuraava"
 }

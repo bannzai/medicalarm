@@ -236,5 +236,6 @@
   "onboardingWelcomeFeatureReminder": "İlaç alma zamanında bildirim",
   "onboardingWelcomeFeatureCriticalAlert": "Sessiz modda bile çalan Critical Alert",
   "onboardingWelcomeFeatureFamily": "Ailenizin ilaçlarını da tek bir yerden yönetin",
-  "onboardingStart": "Başla"
+  "onboardingStart": "Başla",
+  "onboardingNext": "İleri"
 }

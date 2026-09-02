@@ -236,5 +236,6 @@
   "onboardingWelcomeFeatureReminder": "Benachrichtigung zur Einnahmezeit",
   "onboardingWelcomeFeatureCriticalAlert": "Critical Alert, der auch im Lautlosmodus ertönt",
   "onboardingWelcomeFeatureFamily": "Verwalte auch die Medikamente deiner Familie an einem Ort",
-  "onboardingStart": "Loslegen"
+  "onboardingStart": "Loslegen",
+  "onboardingNext": "Weiter"
 }

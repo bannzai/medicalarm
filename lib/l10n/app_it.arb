@@ -236,5 +236,6 @@
   "onboardingWelcomeFeatureReminder": "Notifica all’ora di assumere il farmaco",
   "onboardingWelcomeFeatureCriticalAlert": "Critical Alert che suona anche in modalità silenziosa",
   "onboardingWelcomeFeatureFamily": "Gestisci anche i farmaci della tua famiglia in un unico posto",
-  "onboardingStart": "Inizia"
+  "onboardingStart": "Inizia",
+  "onboardingNext": "Avanti"
 }

@@ -236,5 +236,6 @@
   "onboardingWelcomeFeatureReminder": "ການແຈ້ງເຕືອນໃນເວລາກິນຢາ",
   "onboardingWelcomeFeatureCriticalAlert": "Critical Alert ທີ່ດັງແມ່ນໃນໂໝດງຽບ",
   "onboardingWelcomeFeatureFamily": "ຈັດການການກິນຢາຂອງຄອບຄົວທັງໝົດໄດ້ໃນບ່ອນດຽວ",
-  "onboardingStart": "ເລີ່ມຕົ້ນ"
+  "onboardingStart": "ເລີ່ມຕົ້ນ",
+  "onboardingNext": "ຖັດໄປ"
 }

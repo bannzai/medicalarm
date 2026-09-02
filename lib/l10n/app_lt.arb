@@ -236,5 +236,6 @@
   "onboardingWelcomeFeatureReminder": "Pranešimas vaistų vartojimo metu",
   "onboardingWelcomeFeatureCriticalAlert": "Critical Alert, kuris skamba net įjungus tylųjį režimą",
   "onboardingWelcomeFeatureFamily": "Tvarkykite ir visos šeimos vaistų vartojimą vienoje vietoje",
-  "onboardingStart": "Pradėti"
+  "onboardingStart": "Pradėti",
+  "onboardingNext": "Kitas"
 }

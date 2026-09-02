@@ -236,5 +236,6 @@
   "onboardingWelcomeFeatureReminder": "Сповіщення під час прийому ліків",
   "onboardingWelcomeFeatureCriticalAlert": "Critical Alert, який звучить навіть у беззвучному режимі",
   "onboardingWelcomeFeatureFamily": "Керуйте прийомом ліків усієї родини в одному місці",
-  "onboardingStart": "Почати"
+  "onboardingStart": "Почати",
+  "onboardingNext": "Далі"
 }
