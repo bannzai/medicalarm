@@ -171,4 +171,35 @@ void main() {
 
     expect(find.byIcon(Icons.arrow_back), findsNothing);
   });
+
+  testWidgets('遷移アニメーションの完了後は戻るボタンが有効になる', (tester) async {
+    await pumpOnboarding(tester, isShortForm: true, onPlanStartPressed: () {});
+
+    await tester.tap(find.text(L.onboardingStart));
+    await tester.pump();
+    // 遷移中は無効
+    expect(tester.widget<IconButton>(find.byType(IconButton)).onPressed, isNull);
+
+    await tester.pump(OnboardingPage.transitionDuration);
+    expect(tester.widget<IconButton>(find.byType(IconButton)).onPressed, isNotNull);
+  });
+
+  testWidgets('遷移中は戻るボタンが無効になり、連打しても 1 ステップしか戻らない', (tester) async {
+    await pumpOnboarding(tester, isShortForm: true, onPlanStartPressed: () {});
+
+    await tapAndSettle(tester, L.onboardingStart);
+    await tapAndSettle(tester, L.onboardingFrequencyOften);
+    await tapAndSettle(tester, L.onboardingCareTargetSelf);
+    expect(find.text(L.onboardingDailyDoseCountTitle), findsOneWidget);
+
+    // 1 回目の戻るで遷移が始まった直後 (settle しない) に 2 回目を押しても、戻るボタンは無効なので反応しない
+    await tester.tap(find.byIcon(Icons.arrow_back));
+    await tester.pump();
+    expect(tester.widget<IconButton>(find.byType(IconButton)).onPressed, isNull);
+    await tester.tap(find.byIcon(Icons.arrow_back), warnIfMissed: false);
+    await tester.pumpAndSettle();
+
+    expect(find.text(L.onboardingCareTargetTitle), findsOneWidget);
+    expect(find.text(L.onboardingPainForgotTitle), findsNothing);
+  });
 }

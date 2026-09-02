@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
@@ -15,6 +17,9 @@ import 'package:medicalarm/utils/analytics/analytics.dart';
 /// 初回起動時の課金転換型オンボーディング。価値宣言 → ペイン認識 → パーソナライズ → (価値提示・目標設定) → プラン生成 → 結果提示の順に進み、
 /// 結果画面の CTA で [onPlanStartPressed] を呼ぶ。設計: documents/onboarding-funnel-design.md
 class OnboardingPage extends HookConsumerWidget {
+  /// 画面遷移アニメーションの長さ。AnimatedSwitcher の duration と、遷移中に戻る操作を無視する時間で同じ値を使う
+  static const transitionDuration = Duration(milliseconds: 250);
+
   final bool isShortForm;
   // ペイウォール表示と完了の永続化は OnboardingResolver が担う (PromotionStartPage と同じ resolver → page の分担) ため、
   // 結果画面の CTA だけをコールバックで親へ返す
@@ -36,6 +41,7 @@ class OnboardingPage extends HookConsumerWidget {
     final dailyDoseCount = useState<OnboardingDailyDoseCount?>(null);
     final medicineCount = useState<OnboardingMedicineCount?>(null);
     final goal = useState<OnboardingGoal?>(null);
+    final isTransitioning = useState(false);
     final primaryColor = Theme.of(context).colorScheme.primary;
 
     final step = steps[stepIndex.value.clamp(0, steps.length - 1)];
@@ -48,8 +54,18 @@ class OnboardingPage extends HookConsumerWidget {
       analytics.logEvent(name: 'onboarding_step_shown', parameters: {'step': step.name, 'index': stepIndex.value + 1, 'total': steps.length});
       return null;
     }, [step]);
+    useEffect(() {
+      isTransitioning.value = true;
+      // step が変わるたび・unmount 時に cancel されるため、破棄済みの ValueNotifier へ書き込まない
+      final timer = Timer(transitionDuration, () => isTransitioning.value = false);
+      return timer.cancel;
+    }, [step]);
 
     void goBack() {
+      // 戻るボタンと Android の戻る操作は AnimatedSwitcher の IgnorePointer の外にあるため、遷移中の連打で複数ステップ戻らないよう遷移中は無視する
+      if (isTransitioning.value || stepIndex.value <= 0) {
+        return;
+      }
       analytics.logEvent(name: 'onboarding_back_pressed', parameters: {'step': step.name});
       stepIndex.value -= 1;
     }
@@ -73,7 +89,7 @@ class OnboardingPage extends HookConsumerWidget {
                   icon: const Icon(Icons.arrow_back),
                   color: primaryColor,
                   tooltip: L.onboardingBack,
-                  onPressed: goBack,
+                  onPressed: isTransitioning.value ? null : goBack,
                 )
               : null,
           title: Semantics(
@@ -90,7 +106,7 @@ class OnboardingPage extends HookConsumerWidget {
           ),
         ),
         body: AnimatedSwitcher(
-          duration: const Duration(milliseconds: 250),
+          duration: transitionDuration,
           // 遷移中の二重タップで古い画面の選択肢を再度押したり、新しい画面の同じ位置の選択肢を意図せず選んだりしないため、
           // アニメーションが完了するまで入力を無視する。退場側は reverse 中に isCompleted が false になるため同じ式で無視できる
           transitionBuilder: (child, animation) => AnimatedBuilder(

@@ -49,19 +49,25 @@ class RootPage extends HookConsumerWidget {
                                   debugPrint('Resolved: AppEntityPrepareResolver');
                                   return OnboardingResolver(
                                     appUser: appUser,
-                                    builder: (context) {
+                                    builder: (context, didCompleteOnboardingInThisSession) {
                                       debugPrint('Resolved: OnboardingResolver');
+                                      Widget home() => Stack(
+                                            children: [
+                                              const InAppReviewResolver(),
+                                              AppUserStreamResolver(stream: (user) => analyticsDebugIsEnabled = user.analyticsDebugIsEnabled),
+                                              const HomePage(),
+                                            ],
+                                          );
+                                      // オンボーディングのペイウォールを閉じた直後に再エンゲージメント訴求 (PromotionStartResolver) を続けて出さないため。
+                                      // 次回起動以降は PromotionStartResolver の条件に従う
+                                      if (didCompleteOnboardingInThisSession) {
+                                        return home();
+                                      }
                                       return PromotionStartResolver(
                                           appUser: appUser,
                                           builder: (context) {
                                             debugPrint('Resolved: PromotionStartResolver');
-                                            return Stack(
-                                              children: [
-                                                const InAppReviewResolver(),
-                                                AppUserStreamResolver(stream: (user) => analyticsDebugIsEnabled = user.analyticsDebugIsEnabled),
-                                                const HomePage(),
-                                              ],
-                                            );
+                                            return home();
                                           });
                                     },
                                   );

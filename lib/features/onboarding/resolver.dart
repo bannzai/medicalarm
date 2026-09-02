@@ -40,13 +40,17 @@ bool shouldPresentOnboarding({
 
 /// 条件を満たす間 [OnboardingPage] を表示し、結果画面の CTA でペイウォール (既存のプレミアム紹介シート) を開く。
 /// シートが閉じられたら完了として Firestore に記録し、[builder] (ホーム画面) へ進む。
+/// [builder] には、このセッションでオンボーディングを完了したか (表示せず通過した場合は false) を渡す。
 ///
 /// 表示判定は entitlement 以外の条件 (完了記録あり・既存ユーザー) を先に評価し、
 /// 表示候補にならない場合は customerInfo を待たずに確定する。表示候補の場合だけ customerInfo の到着を
 /// [customerInfoWaitTimeout] まで待ち、届かなければ非プレミアム扱いで判定する
 class OnboardingResolver extends HookConsumerWidget {
   final AppUser appUser;
-  final WidgetBuilder builder;
+
+  /// 第 2 引数の didCompleteOnboardingInThisSession は、このセッションでオンボーディングを完了したかどうか。
+  /// 完了直後に別の訴求を続けて出さない判断に使う
+  final Widget Function(BuildContext context, bool didCompleteOnboardingInThisSession) builder;
 
   /// customerInfo の到着を待つ上限。
   /// RevenueCat は configure 直後にキャッシュ済みの CustomerInfo を listener へ即座に流すため通常は数百ms 以内に届く。
@@ -69,6 +73,8 @@ class OnboardingResolver extends HookConsumerWidget {
     final isCompleted = useState(false);
     // customerInfo の待ち時間が上限に達したか。hooks は early return より前に毎回同じ順序で呼ぶ
     final waitTimedOut = useState(false);
+    // ペイウォールを開く処理が進行中か。CTA の連打で二重に開かないためのガード
+    final isPaywallOpening = useRef(false);
     useEffect(() {
       // unmount 時に cancel されるため、破棄済みの ValueNotifier へ書き込まない
       final timer = Timer(customerInfoWaitTimeout, () => waitTimedOut.value = true);
@@ -100,24 +106,33 @@ class OnboardingResolver extends HookConsumerWidget {
     }
 
     if (decision.value != true || isCompleted.value) {
-      return builder(context);
+      return builder(context, isCompleted.value);
     }
 
     final isShortForm = isShortFormOnboarding(languageCode: languageCode);
     return OnboardingPage(
       isShortForm: isShortForm,
       onPlanStartPressed: () async {
-        final onboardingComplete = ref.read(onboardingCompleteProvider);
-        analytics.logEvent(name: 'onboarding_paywall_shown');
-        await showPremiumIntroductionSheet(context);
-        analytics.logEvent(name: 'onboarding_paywall_closed');
-        analytics.logEvent(name: 'onboarding_completed', parameters: {'form': isShortForm ? 'short' : 'long'});
-        isCompleted.value = true;
+        // CTA の連打 (アクセシビリティ操作を含む) で showPremiumIntroductionSheet が 2 重に開き、完了イベント・完了記録が重複しないようにする
+        if (isPaywallOpening.value) {
+          return;
+        }
+        isPaywallOpening.value = true;
         try {
-          await onboardingComplete();
-        } catch (error, stackTrace) {
-          // 完了記録に失敗してもホームへは進める。記録が無いままなら次回起動 (作成から 1 日以内) に再表示される
-          errorLogger.recordError(error, stackTrace);
+          final onboardingComplete = ref.read(onboardingCompleteProvider);
+          analytics.logEvent(name: 'onboarding_paywall_shown');
+          await showPremiumIntroductionSheet(context);
+          analytics.logEvent(name: 'onboarding_paywall_closed');
+          analytics.logEvent(name: 'onboarding_completed', parameters: {'form': isShortForm ? 'short' : 'long'});
+          isCompleted.value = true;
+          try {
+            await onboardingComplete();
+          } catch (error, stackTrace) {
+            // 完了記録に失敗してもホームへは進める。記録が無いままなら次回起動 (作成から 1 日以内) に再表示される
+            errorLogger.recordError(error, stackTrace);
+          }
+        } finally {
+          isPaywallOpening.value = false;
         }
       },
     );
