@@ -217,5 +217,6 @@
   "accountLink": "ගිණුම මාරු කිරීම",
   "accountLinkDescription": "Apple හෝ Google සමඟ සම්බන්ධ කිරීමෙන්, උපාංගය වෙනස් කළ පසුව හෝ යෙදුම නැවත ස්ථාපනය කළ පසුව වුවද ඔබේ දත්ත මාරු කරගත හැකිය.",
   "linkWithApple": "Apple භාවිතයෙන් ගිණුම මාරු කරන්න",
-  "linkWithGoogle": "Google භාවිතයෙන් ගිණුම මාරු කරන්න"
+  "linkWithGoogle": "Google භාවිතයෙන් ගිණුම මාරු කරන්න",
+  "accountLinkedWithApple": "Apple වෙත සම්බන්ධ කර ඇත"
 }

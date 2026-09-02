@@ -217,5 +217,6 @@
   "accountLink": "એકાઉન્ટ ટ્રાન્સફર",
   "accountLinkDescription": "Apple અથવા Google સાથે કનેક્ટ કરવાથી, ડિવાઇસ બદલ્યા પછી અથવા ઍપ ફરીથી ઇન્સ્ટોલ કર્યા પછી પણ તમે તમારો ડેટા ટ્રાન્સફર કરી શકો છો.",
   "linkWithApple": "Apple દ્વારા એકાઉન્ટ ટ્રાન્સફર કરો",
-  "linkWithGoogle": "Google વડે એકાઉન્ટ ટ્રાન્સફર કરો"
+  "linkWithGoogle": "Google વડે એકાઉન્ટ ટ્રાન્સફર કરો",
+  "accountLinkedWithApple": "Apple સાથે લિંક કરેલું"
 }

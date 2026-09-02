@@ -217,5 +217,6 @@
   "accountLink": "Transfert de compte",
   "accountLinkDescription": "En associant votre compte à Apple ou Google, vous pouvez récupérer vos données même après avoir changé d’appareil ou réinstallé l’application.",
   "linkWithApple": "Transférer le compte avec Apple",
-  "linkWithGoogle": "Transférer le compte avec Google"
+  "linkWithGoogle": "Transférer le compte avec Google",
+  "accountLinkedWithApple": "Lié à Apple"
 }

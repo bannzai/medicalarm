@@ -217,5 +217,6 @@
   "accountLink": "Pemindahan akaun",
   "accountLinkDescription": "Dengan memautkan Apple atau Google, anda boleh memindahkan data anda walaupun selepas menukar peranti atau memasang semula apl.",
   "linkWithApple": "Pindahkan akaun dengan Apple",
-  "linkWithGoogle": "Pindahkan akaun dengan Google"
+  "linkWithGoogle": "Pindahkan akaun dengan Google",
+  "accountLinkedWithApple": "Dipautkan dengan Apple"
 }

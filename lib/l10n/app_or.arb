@@ -217,5 +217,6 @@
   "accountLink": "ଆକାଉଣ୍ଟ ସ୍ଥାନାନ୍ତର",
   "accountLinkDescription": "Apple କିମ୍ବା Google ସହ ସଂଯୋଗ କଲେ, ଡିଭାଇସ୍ ବଦଳାଇବା କିମ୍ବା ଆପ୍ ପୁନଃଇନ୍‌ଷ୍ଟଲ୍ କରିବା ପରେ ମଧ୍ୟ ଆପଣ ନିଜ ଡାଟା ସ୍ଥାନାନ୍ତର କରିପାରିବେ।",
   "linkWithApple": "Apple ମାଧ୍ୟମରେ ଆକାଉଣ୍ଟ ସ୍ଥାନାନ୍ତର କରନ୍ତୁ",
-  "linkWithGoogle": "Google ମାଧ୍ୟମରେ ଖାତା ସ୍ଥାନାନ୍ତର କରନ୍ତୁ"
+  "linkWithGoogle": "Google ମାଧ୍ୟମରେ ଖାତା ସ୍ଥାନାନ୍ତର କରନ୍ତୁ",
+  "accountLinkedWithApple": "Apple ସହିତ ଲିଙ୍କ ହୋଇଛି"
 }

@@ -217,5 +217,6 @@
   "accountLink": "Пренос на сметка",
   "accountLinkDescription": "Со поврзување со Apple или Google, можете да ги пренесете вашите податоци дури и по промена на уредот или повторно инсталирање на апликацијата.",
   "linkWithApple": "Префрлете ја сметката со Apple",
-  "linkWithGoogle": "Пренесете ја сметката со Google"
+  "linkWithGoogle": "Пренесете ја сметката со Google",
+  "accountLinkedWithApple": "Поврзано со Apple"
 }

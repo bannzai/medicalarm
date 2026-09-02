@@ -217,5 +217,6 @@
   "accountLink": "Μεταφορά λογαριασμού",
   "accountLinkDescription": "Συνδέοντας το Apple ή το Google, μπορείτε να μεταφέρετε τα δεδομένα σας ακόμη και μετά την αλλαγή συσκευής ή την επανεγκατάσταση της εφαρμογής.",
   "linkWithApple": "Μεταφορά λογαριασμού με Apple",
-  "linkWithGoogle": "Μεταφορά λογαριασμού με Google"
+  "linkWithGoogle": "Μεταφορά λογαριασμού με Google",
+  "accountLinkedWithApple": "Συνδεδεμένο με Apple"
 }

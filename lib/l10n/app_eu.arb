@@ -217,5 +217,6 @@
   "accountLink": "Kontu-transferentzia",
   "accountLinkDescription": "Apple edo Google-rekin lotuz gero, zure datuak transferi ditzakezu gailua aldatu edo aplikazioa berriro instalatu ondoren ere.",
   "linkWithApple": "Transferitu kontua Apple bidez",
-  "linkWithGoogle": "Google erabiliz kontua transferitu"
+  "linkWithGoogle": "Google erabiliz kontua transferitu",
+  "accountLinkedWithApple": "Apple-rekin lotuta"
 }

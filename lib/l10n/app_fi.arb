@@ -217,5 +217,6 @@
   "accountLink": "Tilin siirto",
   "accountLinkDescription": "Yhdistämällä Appleen tai Googleen voit siirtää tietosi myös laitteen vaihtamisen tai sovelluksen uudelleenasennuksen jälkeen.",
   "linkWithApple": "Siirrä tili Applella",
-  "linkWithGoogle": "Siirrä tili Googlella"
+  "linkWithGoogle": "Siirrä tili Googlella",
+  "accountLinkedWithApple": "Yhdistetty Appleen"
 }

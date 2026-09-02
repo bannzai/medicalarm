@@ -217,5 +217,6 @@
   "accountLink": "계정 이전",
   "accountLinkDescription": "Apple 또는 Google에 연결하면 기기를 변경하거나 앱을 다시 설치한 후에도 데이터를 이어받을 수 있습니다.",
   "linkWithApple": "Apple로 계정 이전하기",
-  "linkWithGoogle": "Google로 계정 이전하기"
+  "linkWithGoogle": "Google로 계정 이전하기",
+  "accountLinkedWithApple": "Apple 연결됨"
 }

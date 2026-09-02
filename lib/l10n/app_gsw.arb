@@ -217,5 +217,6 @@
   "accountLink": "Kontoübertragung",
   "accountLinkDescription": "Wenn Sie Apple oder Google verknüpfe, chönd Sie Ihre Date au nach eme Gerätewechsel oder ere Neuinstallation vo de App überneh.",
   "linkWithApple": "Konto mit Apple übertragen",
-  "linkWithGoogle": "S Konto mit Google übertrage"
+  "linkWithGoogle": "S Konto mit Google übertrage",
+  "accountLinkedWithApple": "Mit Apple verknüpft"
 }

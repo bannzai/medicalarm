@@ -217,5 +217,6 @@
   "accountLink": "Chuyển tài khoản",
   "accountLinkDescription": "Bằng cách liên kết với Apple hoặc Google, bạn có thể chuyển dữ liệu ngay cả sau khi đổi thiết bị hoặc cài đặt lại ứng dụng.",
   "linkWithApple": "Chuyển tài khoản bằng Apple",
-  "linkWithGoogle": "Chuyển tài khoản bằng Google"
+  "linkWithGoogle": "Chuyển tài khoản bằng Google",
+  "accountLinkedWithApple": "Đã liên kết với Apple"
 }

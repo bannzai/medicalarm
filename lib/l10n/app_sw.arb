@@ -217,5 +217,6 @@
   "accountLink": "Kuhamisha akaunti",
   "accountLinkDescription": "Kwa kuunganisha na Apple au Google, unaweza kuhamisha data zako hata baada ya kubadilisha kifaa au kusakinisha upya programu.",
   "linkWithApple": "Hamisha akaunti kwa Apple",
-  "linkWithGoogle": "Hamisha akaunti kwa kutumia Google"
+  "linkWithGoogle": "Hamisha akaunti kwa kutumia Google",
+  "accountLinkedWithApple": "Imeunganishwa na Apple"
 }

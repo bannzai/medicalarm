@@ -217,5 +217,6 @@
   "accountLink": "نقل الحساب",
   "accountLinkDescription": "عند ربط حسابك بـ Apple أو Google، يمكنك نقل بياناتك حتى بعد تغيير الجهاز أو إعادة تثبيت التطبيق.",
   "linkWithApple": "نقل الحساب باستخدام Apple",
-  "linkWithGoogle": "نقل الحساب باستخدام Google"
+  "linkWithGoogle": "نقل الحساب باستخدام Google",
+  "accountLinkedWithApple": "مرتبط بـ Apple"
 }

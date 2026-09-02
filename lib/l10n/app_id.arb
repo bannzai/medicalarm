@@ -217,5 +217,6 @@
   "accountLink": "Transfer akun",
   "accountLinkDescription": "Dengan menghubungkan ke Apple atau Google, Anda dapat memindahkan data meskipun berganti perangkat atau menginstal ulang aplikasi.",
   "linkWithApple": "Pindahkan akun dengan Apple",
-  "linkWithGoogle": "Pindahkan akun dengan Google"
+  "linkWithGoogle": "Pindahkan akun dengan Google",
+  "accountLinkedWithApple": "Tertaut ke Apple"
 }

@@ -217,5 +217,6 @@
   "accountLink": "ఖాతా బదిలీ",
   "accountLinkDescription": "Apple లేదా Googleకి కనెక్ట్ చేస్తే, పరికరాన్ని మార్చిన తర్వాత లేదా యాప్‌ను మళ్లీ ఇన్‌స్టాల్ చేసిన తర్వాత కూడా మీ డేటాను బదిలీ చేసుకోవచ్చు.",
   "linkWithApple": "Apple ద్వారా ఖాతాను బదిలీ చేయండి",
-  "linkWithGoogle": "Googleతో ఖాతాను బదిలీ చేయండి"
+  "linkWithGoogle": "Googleతో ఖాతాను బదిలీ చేయండి",
+  "accountLinkedWithApple": "Appleకి లింక్ చేయబడింది"
 }

@@ -217,5 +217,6 @@
   "accountLink": "העברת חשבון",
   "accountLinkDescription": "בחיבור ל‑Apple או ל‑Google, תוכלו להעביר את הנתונים שלכם גם לאחר החלפת מכשיר או התקנה מחדש של האפליקציה.",
   "linkWithApple": "העברת החשבון באמצעות Apple",
-  "linkWithGoogle": "העברת החשבון באמצעות Google"
+  "linkWithGoogle": "העברת החשבון באמצעות Google",
+  "accountLinkedWithApple": "מקושר ל‑Apple"
 }

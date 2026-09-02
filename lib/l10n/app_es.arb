@@ -217,5 +217,6 @@
   "accountLink": "Transferencia de cuenta",
   "accountLinkDescription": "Al vincular Apple o Google, puedes transferir tus datos incluso después de cambiar de dispositivo o reinstalar la aplicación.",
   "linkWithApple": "Transferir la cuenta con Apple",
-  "linkWithGoogle": "Transferir la cuenta con Google"
+  "linkWithGoogle": "Transferir la cuenta con Google",
+  "accountLinkedWithApple": "Vinculado con Apple"
 }
