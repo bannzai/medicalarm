@@ -246,5 +246,6 @@
   "onboardingFrequencyNever": "Nie",
   "onboardingPainWorryTitle": "Händ Sie sich scho emol Sorge gmacht, will Sie sich nöd händ chönne erinnere, ob Sie Ihr Medikament gno händ?",
   "onboardingValueReminderTitle": "Wenn du merksch, dass du e Dosis verpasst hesch,\nisch es scho z’spät",
-  "onboardingValueReminderBody": "Medicalarm schickt e Benachrichtigung, wenn’s Ziit isch, dis Medikament z näh.\nMit Critical Alert merkisch sie au im Stummmodus."
+  "onboardingValueReminderBody": "Medicalarm schickt e Benachrichtigung, wenn’s Ziit isch, dis Medikament z näh.\nMit Critical Alert merkisch sie au im Stummmodus.",
+  "onboardingCareTargetTitle": "Wesse Medikamentenäinnahm wänd Sie verwalte?"
 }

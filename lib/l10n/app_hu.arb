@@ -246,5 +246,6 @@
   "onboardingFrequencyNever": "Soha",
   "onboardingPainWorryTitle": "Éreztél már szorongást amiatt, hogy nem emlékeztél, bevetted-e a gyógyszered?",
   "onboardingValueReminderTitle": "Mire észreveszed,\nhogy kihagytál egy adagot,\nmár túl késő",
-  "onboardingValueReminderBody": "A Medicalarm értesítést küld, amikor eljön a gyógyszer bevételének ideje.\nA Critical Alert segítségével néma módban is észreveheti."
+  "onboardingValueReminderBody": "A Medicalarm értesítést küld, amikor eljön a gyógyszer bevételének ideje.\nA Critical Alert segítségével néma módban is észreveheti.",
+  "onboardingCareTargetTitle": "Kinek a gyógyszerszedését fogja kezelni?"
 }

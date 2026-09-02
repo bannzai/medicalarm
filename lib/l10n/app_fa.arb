@@ -246,5 +246,6 @@
   "onboardingFrequencyNever": "هرگز",
   "onboardingPainWorryTitle": "آیا تا به حال به‌دلیل اینکه یادتان نمی‌آمد دارویتان را مصرف کرده‌اید یا نه، مضطرب شده‌اید؟",
   "onboardingValueReminderTitle": "وقتی متوجه می‌شوید\nکه یک نوبت دارو را فراموش کرده‌اید،\nدیگر دیر شده است",
-  "onboardingValueReminderBody": "Medicalarm هنگام زمان مصرف دارو به شما اعلان می‌دهد.\nحتی در حالت بی‌صدا نیز می‌توانید آن را با Critical Alert متوجه شوید."
+  "onboardingValueReminderBody": "Medicalarm هنگام زمان مصرف دارو به شما اعلان می‌دهد.\nحتی در حالت بی‌صدا نیز می‌توانید آن را با Critical Alert متوجه شوید.",
+  "onboardingCareTargetTitle": "مصرف داروی چه کسی را مدیریت می‌کنید؟"
 }

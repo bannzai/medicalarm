@@ -246,5 +246,6 @@
   "onboardingFrequencyNever": "Ніколі",
   "onboardingPainWorryTitle": "Ці адчувалі вы калі-небудзь трывогу, бо не памяталі, ці прынялі лекі?",
   "onboardingValueReminderTitle": "Прапушчаную дозу\nвы заўважаеце, калі ўжо позна",
-  "onboardingValueReminderBody": "Medicalarm дасылае апавяшчэнне, калі надыходзіць час прыняць лекі.\nНават у бязгучным рэжыме вы заўважыце яго дзякуючы Critical Alert."
+  "onboardingValueReminderBody": "Medicalarm дасылае апавяшчэнне, калі надыходзіць час прыняць лекі.\nНават у бязгучным рэжыме вы заўважыце яго дзякуючы Critical Alert.",
+  "onboardingCareTargetTitle": "Чый прыём лекаў вы будзеце кантраляваць?"
 }

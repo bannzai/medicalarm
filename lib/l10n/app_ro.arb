@@ -246,5 +246,6 @@
   "onboardingFrequencyNever": "Niciodată",
   "onboardingPainWorryTitle": "V-ați simțit vreodată îngrijorat(ă) pentru că nu vă aminteați dacă v-ați luat medicamentul?",
   "onboardingValueReminderTitle": "Când îți dai seama că ai omis o doză,\neste deja prea târziu",
-  "onboardingValueReminderBody": "Medicalarm trimite o notificare când este timpul să iei medicamentul.\nO poți observa prin Critical Alert chiar și în modul silențios."
+  "onboardingValueReminderBody": "Medicalarm trimite o notificare când este timpul să iei medicamentul.\nO poți observa prin Critical Alert chiar și în modul silențios.",
+  "onboardingCareTargetTitle": "A cui administrare a medicamentelor o veți gestiona?"
 }

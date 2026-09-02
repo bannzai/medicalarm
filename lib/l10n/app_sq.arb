@@ -246,5 +246,6 @@
   "onboardingFrequencyNever": "Asnjëherë",
   "onboardingPainWorryTitle": "A jeni ndierë ndonjëherë në ankth sepse nuk ju kujtohej nëse e kishit marrë ilaçin?",
   "onboardingValueReminderTitle": "Kur kupton se ke harruar një dozë,\nështë tepër vonë",
-  "onboardingValueReminderBody": "Medicalarm dërgon një njoftim kur është koha për të marrë ilaçin.\nMund ta vini re përmes Critical Alert edhe në modalitetin pa zë."
+  "onboardingValueReminderBody": "Medicalarm dërgon një njoftim kur është koha për të marrë ilaçin.\nMund ta vini re përmes Critical Alert edhe në modalitetin pa zë.",
+  "onboardingCareTargetTitle": "Marrjen e ilaçeve të kujt do të menaxhoni?"
 }

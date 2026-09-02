@@ -246,5 +246,6 @@
   "onboardingFrequencyNever": "Inoiz ez",
   "onboardingPainWorryTitle": "Inoiz sentitu al zara urduri, sendaga hartu duzun ala ez gogoratu ezinik?",
   "onboardingValueReminderTitle": "Ahaztutako dosiaz ohartzen zarenerako,\nberanduegi da",
-  "onboardingValueReminderBody": "Medicalarm-ek jakinarazpena bidaltzen du botika hartzeko unea denean.\nCritical Alert bidez oharra jaso dezakezu modu isilean ere."
+  "onboardingValueReminderBody": "Medicalarm-ek jakinarazpena bidaltzen du botika hartzeko unea denean.\nCritical Alert bidez oharra jaso dezakezu modu isilean ere.",
+  "onboardingCareTargetTitle": "Noren botiken hartzea kudeatuko duzu?"
 }

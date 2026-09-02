@@ -246,5 +246,6 @@
   "onboardingFrequencyNever": "Mai",
   "onboardingPainWorryTitle": "T’has sentit mai angoixa perquè no recordaves si t’havies pres el medicament?",
   "onboardingValueReminderTitle": "Quan t’adones que has oblidat una dosi,\nja és massa tard",
-  "onboardingValueReminderBody": "Medicalarm t’envia una notificació quan és l’hora de prendre el medicament.\nPots adonar-te’n amb Critical Alert fins i tot en mode silenciós."
+  "onboardingValueReminderBody": "Medicalarm t’envia una notificació quan és l’hora de prendre el medicament.\nPots adonar-te’n amb Critical Alert fins i tot en mode silenciós.",
+  "onboardingCareTargetTitle": "De qui gestionaràs la medicació?"
 }

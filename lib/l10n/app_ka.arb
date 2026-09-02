@@ -246,5 +246,6 @@
   "onboardingFrequencyNever": "არასოდეს",
   "onboardingPainWorryTitle": "ოდესმე გიგრძნიათ შფოთვა, რადგან ვერ გახსოვდათ, მიიღეთ თუ არა წამალი?",
   "onboardingValueReminderTitle": "გამოტოვებულ დოზას მაშინ ამჩნევ,\nროცა უკვე გვიანია",
-  "onboardingValueReminderBody": "Medicalarm შეტყობინებას აგზავნის, როცა წამლის მიღების დროა.\nCritical Alert-ის წყალობით მას ჩუმ რეჟიმშიც შეამჩნევთ."
+  "onboardingValueReminderBody": "Medicalarm შეტყობინებას აგზავნის, როცა წამლის მიღების დროა.\nCritical Alert-ის წყალობით მას ჩუმ რეჟიმშიც შეამჩნევთ.",
+  "onboardingCareTargetTitle": "ვისი მედიკამენტების მიღებას მართავთ?"
 }

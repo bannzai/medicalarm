@@ -246,5 +246,6 @@
   "onboardingFrequencyNever": "Nooit",
   "onboardingPainWorryTitle": "Het jy al angstig gevoel omdat jy nie kon onthou of jy jou medisyne geneem het nie?",
   "onboardingValueReminderTitle": "Wanneer jy besef\ndat jy ’n dosis gemis het,\nis dit reeds te laat",
-  "onboardingValueReminderBody": "Medicalarm stuur kennisgewings wanneer dit tyd is om jou medisyne te neem.\nSelfs in stilmodus kan jy dit met ’n Critical Alert opmerk."
+  "onboardingValueReminderBody": "Medicalarm stuur kennisgewings wanneer dit tyd is om jou medisyne te neem.\nSelfs in stilmodus kan jy dit met ’n Critical Alert opmerk.",
+  "onboardingCareTargetTitle": "Wie se medikasie gaan jy bestuur?"
 }

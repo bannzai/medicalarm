@@ -246,5 +246,6 @@
   "onboardingFrequencyNever": "Kamwe",
   "onboardingPainWorryTitle": "Je, umewahi kuwa na wasiwasi kwa sababu hukukumbuka kama ulikunywa dawa yako?",
   "onboardingValueReminderTitle": "Unapogundua kuwa umekosa dozi,\nni kuchelewa sana",
-  "onboardingValueReminderBody": "Medicalarm hutuma arifa unapofika wakati wa kutumia dawa.\nUnaweza kuiona kupitia Critical Alert hata katika hali ya kimya."
+  "onboardingValueReminderBody": "Medicalarm hutuma arifa unapofika wakati wa kutumia dawa.\nUnaweza kuiona kupitia Critical Alert hata katika hali ya kimya.",
+  "onboardingCareTargetTitle": "Utasimamia unywaji wa dawa wa nani?"
 }

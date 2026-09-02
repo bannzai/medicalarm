@@ -246,5 +246,6 @@
   "onboardingFrequencyNever": "କେବେ ନୁହେଁ",
   "onboardingPainWorryTitle": "ଆପଣ ଔଷଧ ଖାଇଥିଲେ କି ନାହିଁ ମନେ ପକାଇ ନପାରି କେବେ ଚିନ୍ତିତ ହୋଇଛନ୍ତି କି?",
   "onboardingValueReminderTitle": "ଔଷଧର ମାତ୍ରା ଛାଡ଼ିଯାଇଥିବା\nଜାଣିବା ବେଳକୁ ବହୁତ ଡେରି ହୋଇଯାଇଥାଏ",
-  "onboardingValueReminderBody": "ଔଷଧ ଖାଇବା ସମୟ ହେଲେ Medicalarm ବିଜ୍ଞପ୍ତି ପଠାଏ।\nସାଇଲେଣ୍ଟ ମୋଡ୍‌ରେ ମଧ୍ୟ Critical Alert ମାଧ୍ୟମରେ ଏହା ଜାଣିପାରିବେ।"
+  "onboardingValueReminderBody": "ଔଷଧ ଖାଇବା ସମୟ ହେଲେ Medicalarm ବିଜ୍ଞପ୍ତି ପଠାଏ।\nସାଇଲେଣ୍ଟ ମୋଡ୍‌ରେ ମଧ୍ୟ Critical Alert ମାଧ୍ୟମରେ ଏହା ଜାଣିପାରିବେ।",
+  "onboardingCareTargetTitle": "ଆପଣ କାହାର ଔଷଧ ସେବନ ପରିଚାଳନା କରିବେ?"
 }

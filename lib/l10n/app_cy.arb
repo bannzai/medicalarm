@@ -246,5 +246,6 @@
   "onboardingFrequencyNever": "Byth",
   "onboardingPainWorryTitle": "Ydych chi erioed wedi teimlo’n bryderus am nad oeddech chi’n gallu cofio a oeddech chi wedi cymryd eich meddyginiaeth?",
   "onboardingValueReminderTitle": "Pan sylwch eich bod wedi methu dos,\nmae hi eisoes yn rhy hwyr",
-  "onboardingValueReminderBody": "Mae Medicalarm yn anfon hysbysiad pan fydd hi’n amser cymryd eich meddyginiaeth.\nGallwch sylwi arno drwy Critical Alert hyd yn oed yn y modd distaw."
+  "onboardingValueReminderBody": "Mae Medicalarm yn anfon hysbysiad pan fydd hi’n amser cymryd eich meddyginiaeth.\nGallwch sylwi arno drwy Critical Alert hyd yn oed yn y modd distaw.",
+  "onboardingCareTargetTitle": "Pwy sy’n cymryd meddyginiaeth y byddwch yn ei reoli?"
 }

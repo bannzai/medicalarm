@@ -246,5 +246,6 @@
   "onboardingFrequencyNever": "ક્યારેય નહીં",
   "onboardingPainWorryTitle": "શું તમને ક્યારેય એ યાદ ન રહેતાં ચિંતા થઈ છે કે તમે તમારી દવા લીધી હતી કે નહીં?",
   "onboardingValueReminderTitle": "દવાની એક માત્રા ચૂકી ગયા છો\nએ સમજાય ત્યાં સુધીમાં ઘણું મોડું થઈ જાય છે",
-  "onboardingValueReminderBody": "Medicalarm દવા લેવાનો સમય થાય ત્યારે સૂચના મોકલે છે.\nસાઇલેન્ટ મોડમાં પણ Critical Alert દ્વારા તમે તેની નોંધ લઈ શકો છો."
+  "onboardingValueReminderBody": "Medicalarm દવા લેવાનો સમય થાય ત્યારે સૂચના મોકલે છે.\nસાઇલેન્ટ મોડમાં પણ Critical Alert દ્વારા તમે તેની નોંધ લઈ શકો છો.",
+  "onboardingCareTargetTitle": "તમે કોની દવા લેવાની વ્યવસ્થા કરશો?"
 }

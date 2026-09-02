@@ -246,5 +246,6 @@
   "onboardingFrequencyNever": "אף פעם לא",
   "onboardingPainWorryTitle": "האם אי פעם הרגשת חרדה כי לא זכרת אם לקחת את התרופה שלך?",
   "onboardingValueReminderTitle": "כשמגלים שפספסת מנה,\nכבר מאוחר מדי",
-  "onboardingValueReminderBody": "Medicalarm שולחת התראה כשהגיע הזמן לקחת את התרופה.\nאפשר להבחין בה באמצעות Critical Alert גם במצב שקט."
+  "onboardingValueReminderBody": "Medicalarm שולחת התראה כשהגיע הזמן לקחת את התרופה.\nאפשר להבחין בה באמצעות Critical Alert גם במצב שקט.",
+  "onboardingCareTargetTitle": "נטילת התרופות של מי תנוהל?"
 }

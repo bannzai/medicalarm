@@ -246,5 +246,6 @@
   "onboardingFrequencyNever": "ਕਦੇ ਨਹੀਂ",
   "onboardingPainWorryTitle": "ਕੀ ਤੁਹਾਨੂੰ ਕਦੇ ਇਹ ਯਾਦ ਨਾ ਰਹਿਣ ਕਰਕੇ ਚਿੰਤਾ ਹੋਈ ਹੈ ਕਿ ਤੁਸੀਂ ਦਵਾਈ ਲਈ ਸੀ ਜਾਂ ਨਹੀਂ?",
   "onboardingValueReminderTitle": "ਦਵਾਈ ਦੀ ਖੁਰਾਕ ਛੁੱਟ ਜਾਣ ਦਾ\nਪਤਾ ਲੱਗਣ ਤੱਕ ਬਹੁਤ ਦੇਰ ਹੋ ਚੁੱਕੀ ਹੁੰਦੀ ਹੈ",
-  "onboardingValueReminderBody": "Medicalarm ਦਵਾਈ ਲੈਣ ਦਾ ਸਮਾਂ ਹੋਣ ’ਤੇ ਸੂਚਨਾ ਭੇਜਦਾ ਹੈ।\nਸਾਈਲੈਂਟ ਮੋਡ ਵਿੱਚ ਵੀ Critical Alert ਰਾਹੀਂ ਤੁਸੀਂ ਇਸ ਦਾ ਪਤਾ ਲਗਾ ਸਕਦੇ ਹੋ।"
+  "onboardingValueReminderBody": "Medicalarm ਦਵਾਈ ਲੈਣ ਦਾ ਸਮਾਂ ਹੋਣ ’ਤੇ ਸੂਚਨਾ ਭੇਜਦਾ ਹੈ।\nਸਾਈਲੈਂਟ ਮੋਡ ਵਿੱਚ ਵੀ Critical Alert ਰਾਹੀਂ ਤੁਸੀਂ ਇਸ ਦਾ ਪਤਾ ਲਗਾ ਸਕਦੇ ਹੋ।",
+  "onboardingCareTargetTitle": "ਤੁਸੀਂ ਕਿਸ ਦੀ ਦਵਾਈ ਲੈਣ ਦਾ ਪ੍ਰਬੰਧ ਕਰੋਗੇ?"
 }

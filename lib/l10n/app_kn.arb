@@ -246,5 +246,6 @@
   "onboardingFrequencyNever": "ಎಂದಿಗೂ ಇಲ್ಲ",
   "onboardingPainWorryTitle": "ನಿಮ್ಮ ಔಷಧಿಯನ್ನು ತೆಗೆದುಕೊಂಡಿದ್ದೀರೋ ಇಲ್ಲವೋ ನೆನಪಿಲ್ಲದೆ ಎಂದಾದರೂ ಆತಂಕಗೊಂಡಿದ್ದೀರಾ?",
   "onboardingValueReminderTitle": "ಔಷಧದ ಡೋಸ್ ತಪ್ಪಿಹೋದದ್ದು\nಗಮನಕ್ಕೆ ಬರುವಷ್ಟರಲ್ಲಿ ತಡವಾಗಿರುತ್ತದೆ",
-  "onboardingValueReminderBody": "Medicalarm ಔಷಧಿ ತೆಗೆದುಕೊಳ್ಳುವ ಸಮಯವಾದಾಗ ಅಧಿಸೂಚನೆ ಕಳುಹಿಸುತ್ತದೆ.\nಸೈಲೆಂಟ್ ಮೋಡ್‌ನಲ್ಲಿಯೂ Critical Alert ಮೂಲಕ ಅದನ್ನು ಗಮನಿಸಬಹುದು."
+  "onboardingValueReminderBody": "Medicalarm ಔಷಧಿ ತೆಗೆದುಕೊಳ್ಳುವ ಸಮಯವಾದಾಗ ಅಧಿಸೂಚನೆ ಕಳುಹಿಸುತ್ತದೆ.\nಸೈಲೆಂಟ್ ಮೋಡ್‌ನಲ್ಲಿಯೂ Critical Alert ಮೂಲಕ ಅದನ್ನು ಗಮನಿಸಬಹುದು.",
+  "onboardingCareTargetTitle": "ನೀವು ಯಾರ ಔಷಧ ಸೇವನೆಯನ್ನು ನಿರ್ವಹಿಸುತ್ತೀರಿ?"
 }

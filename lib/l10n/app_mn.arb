@@ -246,5 +246,6 @@
   "onboardingFrequencyNever": "Хэзээ ч үгүй",
   "onboardingPainWorryTitle": "Та эмээ ууснаа санахгүй түгшиж байсан уу?",
   "onboardingValueReminderTitle": "Тунгаа орхигдуулснаа\nанзаарах үед аль хэдийн оройтсон байдаг",
-  "onboardingValueReminderBody": "Medicalarm эм уух цаг болоход мэдэгдэл илгээнэ.\nЧимээгүй горимд ч Critical Alert-ээр мэдэгдлийг анзаарах боломжтой."
+  "onboardingValueReminderBody": "Medicalarm эм уух цаг болоход мэдэгдэл илгээнэ.\nЧимээгүй горимд ч Critical Alert-ээр мэдэгдлийг анзаарах боломжтой.",
+  "onboardingCareTargetTitle": "Та хэний эм уухыг хариуцах вэ?"
 }

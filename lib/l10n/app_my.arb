@@ -246,5 +246,6 @@
   "onboardingFrequencyNever": "ဘယ်တော့မှ မဟုတ်ပါ",
   "onboardingPainWorryTitle": "ဆေးသောက်ခဲ့သလား မသောက်ခဲ့သလား မမှတ်မိလို့ စိုးရိမ်ဖူးပါသလား။",
   "onboardingValueReminderTitle": "ဆေးသောက်ရန် မေ့ခဲ့ကြောင်း\nသတိပြုမိချိန်တွင် နောက်ကျနေပြီ",
-  "onboardingValueReminderBody": "ဆေးသောက်ချိန်ရောက်သောအခါ Medicalarm က အကြောင်းကြားချက်ပို့ပေးသည်။\nအသံတိတ်မုဒ်တွင်ပင် Critical Alert ဖြင့် သတိပြုမိနိုင်သည်။"
+  "onboardingValueReminderBody": "ဆေးသောက်ချိန်ရောက်သောအခါ Medicalarm က အကြောင်းကြားချက်ပို့ပေးသည်။\nအသံတိတ်မုဒ်တွင်ပင် Critical Alert ဖြင့် သတိပြုမိနိုင်သည်။",
+  "onboardingCareTargetTitle": "ဘယ်သူ့ဆေးသောက်မှုကို စီမံမလဲ"
 }

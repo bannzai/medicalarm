@@ -246,5 +246,6 @@
   "onboardingFrequencyNever": "Nekad",
   "onboardingPainWorryTitle": "Vai jums kādreiz ir bijis satraukums, jo neatcerējāties, vai iedzērāt zāles?",
   "onboardingValueReminderTitle": "Kad pamanāt izlaistu devu,\njau ir par vēlu",
-  "onboardingValueReminderBody": "Medicalarm nosūta paziņojumu, kad ir pienācis laiks lietot zāles.\nPateicoties Critical Alert, to varat pamanīt arī klusuma režīmā."
+  "onboardingValueReminderBody": "Medicalarm nosūta paziņojumu, kad ir pienācis laiks lietot zāles.\nPateicoties Critical Alert, to varat pamanīt arī klusuma režīmā.",
+  "onboardingCareTargetTitle": "Kuru medikamentu lietošanu jūs pārvaldīsiet?"
 }

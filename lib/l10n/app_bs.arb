@@ -246,5 +246,6 @@
   "onboardingFrequencyNever": "Nikad",
   "onboardingPainWorryTitle": "Jeste li se ikada osjećali zabrinuto jer niste mogli da se sjetite jeste li uzeli lijek?",
   "onboardingValueReminderTitle": "Propuštenu dozu\nprimijetite tek kada bude prekasno",
-  "onboardingValueReminderBody": "Medicalarm šalje obavijest kada je vrijeme da uzmete lijek.\nMožete je primijetiti putem Critical Alert funkcije čak i u tihom režimu."
+  "onboardingValueReminderBody": "Medicalarm šalje obavijest kada je vrijeme da uzmete lijek.\nMožete je primijetiti putem Critical Alert funkcije čak i u tihom režimu.",
+  "onboardingCareTargetTitle": "Čije ćete uzimanje lijekova pratiti?"
 }
