@@ -192,5 +192,6 @@
   "defaultGroupBadge": "ነባሪ",
   "soloGroupName": "የእኔ ቡድኖች",
   "joinWithInvitationCode": "በግብዣ ኮድ ይቀላቀሉ",
-  "groupCreationLimitReached": "በነጻ ዕቅዱ ላይ ከዚህ በላይ ቡድኖችን መፍጠር አይችሉም።"
+  "groupCreationLimitReached": "በነጻ ዕቅዱ ላይ ከዚህ በላይ ቡድኖችን መፍጠር አይችሉም።",
+  "increaseGroupLimitWithPremium": "በPremium ዕቅድ ተጨማሪ ቡድኖችን ይፍጠሩ"
 }

@@ -192,5 +192,6 @@
   "defaultGroupBadge": "Vaikimisi",
   "soloGroupName": "Minu grupid",
   "joinWithInvitationCode": "Liitu kutsekoodiga",
-  "groupCreationLimitReached": "Tasuta paketiga ei saa rohkem rühmi luua."
+  "groupCreationLimitReached": "Tasuta paketiga ei saa rohkem rühmi luua.",
+  "increaseGroupLimitWithPremium": "Looge Premium-paketiga rohkem gruppe"
 }

@@ -192,5 +192,6 @@
   "defaultGroupBadge": "Bawaan",
   "soloGroupName": "Grup saya",
   "joinWithInvitationCode": "Gabung dengan kode undangan",
-  "groupCreationLimitReached": "Anda tidak dapat membuat grup lagi dalam paket gratis."
+  "groupCreationLimitReached": "Anda tidak dapat membuat grup lagi dalam paket gratis.",
+  "increaseGroupLimitWithPremium": "Buat grup tambahan dengan paket Premium"
 }

@@ -192,5 +192,6 @@
   "defaultGroupBadge": "Numatytoji",
   "soloGroupName": "Mano grupės",
   "joinWithInvitationCode": "Prisijungti naudojant kvietimo kodą",
-  "groupCreationLimitReached": "Naudodami nemokamą planą nebegalite kurti daugiau grupių."
+  "groupCreationLimitReached": "Naudodami nemokamą planą nebegalite kurti daugiau grupių.",
+  "increaseGroupLimitWithPremium": "Kurkite daugiau grupių su Premium planu"
 }

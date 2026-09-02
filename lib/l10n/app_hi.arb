@@ -192,5 +192,6 @@
   "defaultGroupBadge": "डिफ़ॉल्ट",
   "soloGroupName": "मेरे समूह",
   "joinWithInvitationCode": "आमंत्रण कोड से जुड़ें",
-  "groupCreationLimitReached": "मुफ़्त प्लान में आप और समूह नहीं बना सकते।"
+  "groupCreationLimitReached": "मुफ़्त प्लान में आप और समूह नहीं बना सकते।",
+  "increaseGroupLimitWithPremium": "Premium प्लान के साथ और ग्रुप बनाएं"
 }

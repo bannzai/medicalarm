@@ -192,5 +192,6 @@
   "defaultGroupBadge": "Per defecte",
   "soloGroupName": "Els meus grups",
   "joinWithInvitationCode": "Unir-se amb un codi d’invitació",
-  "groupCreationLimitReached": "No pots crear més grups amb el pla gratuït."
+  "groupCreationLimitReached": "No pots crear més grups amb el pla gratuït.",
+  "increaseGroupLimitWithPremium": "Crea més grups amb el pla Premium"
 }

@@ -192,5 +192,6 @@
   "defaultGroupBadge": "Varsayılan",
   "soloGroupName": "Gruplarım",
   "joinWithInvitationCode": "Davet koduyla katıl",
-  "groupCreationLimitReached": "Ücretsiz planda daha fazla grup oluşturamazsınız."
+  "groupCreationLimitReached": "Ücretsiz planda daha fazla grup oluşturamazsınız.",
+  "increaseGroupLimitWithPremium": "Premium planıyla daha fazla grup oluşturun"
 }

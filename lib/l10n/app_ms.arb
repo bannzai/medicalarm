@@ -192,5 +192,6 @@
   "defaultGroupBadge": "Lalai",
   "soloGroupName": "Kumpulan saya",
   "joinWithInvitationCode": "Sertai dengan kod jemputan",
-  "groupCreationLimitReached": "Anda tidak boleh membuat kumpulan lagi dengan pelan percuma."
+  "groupCreationLimitReached": "Anda tidak boleh membuat kumpulan lagi dengan pelan percuma.",
+  "increaseGroupLimitWithPremium": "Cipta lebih banyak kumpulan dengan pelan Premium"
 }

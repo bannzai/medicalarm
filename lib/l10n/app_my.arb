@@ -192,5 +192,6 @@
   "defaultGroupBadge": "မူရင်း",
   "soloGroupName": "ကျွန်ုပ်၏အဖွဲ့များ",
   "joinWithInvitationCode": "ဖိတ်ကြားကုဒ်ဖြင့် ပါဝင်ရန်",
-  "groupCreationLimitReached": "အခမဲ့အစီအစဉ်တွင် အဖွဲ့များ ထပ်မံဖန်တီး၍ မရပါ။"
+  "groupCreationLimitReached": "အခမဲ့အစီအစဉ်တွင် အဖွဲ့များ ထပ်မံဖန်တီး၍ မရပါ။",
+  "increaseGroupLimitWithPremium": "Premium အစီအစဉ်ဖြင့် အဖွဲ့များ ထပ်မံဖန်တီးပါ"
 }

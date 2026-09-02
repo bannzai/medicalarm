@@ -192,5 +192,6 @@
   "defaultGroupBadge": "පෙරනිමි",
   "soloGroupName": "මගේ කණ්ඩායම්",
   "joinWithInvitationCode": "ආරාධනා කේතය සමඟ එක්වන්න",
-  "groupCreationLimitReached": "නොමිලේ සැලසුම තුළ ඔබට තවත් කණ්ඩායම් සෑදිය නොහැක."
+  "groupCreationLimitReached": "නොමිලේ සැලසුම තුළ ඔබට තවත් කණ්ඩායම් සෑදිය නොහැක.",
+  "increaseGroupLimitWithPremium": "Premium සැලසුම සමඟ තවත් කණ්ඩායම් සාදන්න"
 }

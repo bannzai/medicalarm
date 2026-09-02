@@ -192,5 +192,6 @@
   "defaultGroupBadge": "По подразбиране",
   "soloGroupName": "Моите групи",
   "joinWithInvitationCode": "Присъединяване с код за покана",
-  "groupCreationLimitReached": "В безплатния план не можете да създавате повече групи."
+  "groupCreationLimitReached": "В безплатния план не можете да създавате повече групи.",
+  "increaseGroupLimitWithPremium": "Създавайте още групи с план Premium"
 }

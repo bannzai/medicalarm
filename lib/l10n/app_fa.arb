@@ -192,5 +192,6 @@
   "defaultGroupBadge": "پیش‌فرض",
   "soloGroupName": "گروه‌های من",
   "joinWithInvitationCode": "پیوستن با کد دعوت",
-  "groupCreationLimitReached": "در طرح رایگان نمی‌توانید گروه بیشتری ایجاد کنید."
+  "groupCreationLimitReached": "در طرح رایگان نمی‌توانید گروه بیشتری ایجاد کنید.",
+  "increaseGroupLimitWithPremium": "با طرح Premium گروه‌های بیشتری ایجاد کنید"
 }

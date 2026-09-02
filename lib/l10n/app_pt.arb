@@ -192,5 +192,6 @@
   "defaultGroupBadge": "Predefinido",
   "soloGroupName": "Os meus grupos",
   "joinWithInvitationCode": "Participar com código de convite",
-  "groupCreationLimitReached": "Não pode criar mais grupos no plano gratuito."
+  "groupCreationLimitReached": "Não pode criar mais grupos no plano gratuito.",
+  "increaseGroupLimitWithPremium": "Crie mais grupos com o plano Premium"
 }

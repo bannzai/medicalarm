@@ -192,5 +192,6 @@
   "defaultGroupBadge": "Okuzenzakalelayo",
   "soloGroupName": "Amaqembu ami",
   "joinWithInvitationCode": "Joyina ngekhodi yesimemo",
-  "groupCreationLimitReached": "Awusakwazi ukudala amanye amaqembu ohlelweni lwamahhala."
+  "groupCreationLimitReached": "Awusakwazi ukudala amanye amaqembu ohlelweni lwamahhala.",
+  "increaseGroupLimitWithPremium": "Dala amanye amaqembu ngohlelo lwe-Premium"
 }

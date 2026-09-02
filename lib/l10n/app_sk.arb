@@ -192,5 +192,6 @@
   "defaultGroupBadge": "Predvolené",
   "soloGroupName": "Moje skupiny",
   "joinWithInvitationCode": "Pripojiť sa pomocou pozývacieho kódu",
-  "groupCreationLimitReached": "V bezplatnom programe už nemôžete vytvárať ďalšie skupiny."
+  "groupCreationLimitReached": "V bezplatnom programe už nemôžete vytvárať ďalšie skupiny.",
+  "increaseGroupLimitWithPremium": "Vytvárajte ďalšie skupiny s programom Premium"
 }

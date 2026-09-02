@@ -192,5 +192,6 @@
   "defaultGroupBadge": "Chaguomsingi",
   "soloGroupName": "Vikundi vyangu",
   "joinWithInvitationCode": "Jiunge kwa kutumia msimbo wa mwaliko",
-  "groupCreationLimitReached": "Huwezi kuunda vikundi zaidi kwenye mpango wa bila malipo."
+  "groupCreationLimitReached": "Huwezi kuunda vikundi zaidi kwenye mpango wa bila malipo.",
+  "increaseGroupLimitWithPremium": "Unda vikundi zaidi kwa mpango wa Premium"
 }

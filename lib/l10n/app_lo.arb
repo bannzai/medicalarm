@@ -192,5 +192,6 @@
   "defaultGroupBadge": "ຄ່າເລີ່ມຕົ້ນ",
   "soloGroupName": "ກຸ່ມຂອງຂ້ອຍ",
   "joinWithInvitationCode": "ເຂົ້າຮ່ວມດ້ວຍລະຫັດເຊີນ",
-  "groupCreationLimitReached": "ໃນແຜນຟຣີ ທ່ານບໍ່ສາມາດສ້າງກຸ່ມເພີ່ມເຕີມໄດ້."
+  "groupCreationLimitReached": "ໃນແຜນຟຣີ ທ່ານບໍ່ສາມາດສ້າງກຸ່ມເພີ່ມເຕີມໄດ້.",
+  "increaseGroupLimitWithPremium": "ສ້າງກຸ່ມເພີ່ມເຕີມດ້ວຍແຜນ Premium"
 }

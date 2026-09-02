@@ -192,5 +192,6 @@
   "defaultGroupBadge": "ഡിഫോൾട്ട്",
   "soloGroupName": "എന്റെ ഗ്രൂപ്പുകൾ",
   "joinWithInvitationCode": "ക്ഷണ കോഡ് ഉപയോഗിച്ച് ചേരുക",
-  "groupCreationLimitReached": "സൗജന്യ പ്ലാനിൽ ഇനി കൂടുതൽ ഗ്രൂപ്പുകൾ സൃഷ്ടിക്കാനാകില്ല."
+  "groupCreationLimitReached": "സൗജന്യ പ്ലാനിൽ ഇനി കൂടുതൽ ഗ്രൂപ്പുകൾ സൃഷ്ടിക്കാനാകില്ല.",
+  "increaseGroupLimitWithPremium": "Premium പ്ലാനിൽ കൂടുതൽ ഗ്രൂപ്പുകൾ സൃഷ്ടിക്കാം"
 }
