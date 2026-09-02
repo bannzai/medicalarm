@@ -284,5 +284,6 @@
   "onboardingPlanDoseReceivers": "Person sy’n cymryd meddyginiaeth",
   "onboardingPlanDailyReminders": "Hysbysiadau dyddiol",
   "onboardingPlanMedicines": "Meddyginiaethau i'w rheoli",
-  "onboardingPlanCriticalAlert": "Critical Alert"
+  "onboardingPlanCriticalAlert": "Critical Alert",
+  "onboardingPlanCriticalAlertValue": "Hysbysiadau hyd yn oed yn y modd tawel"
 }

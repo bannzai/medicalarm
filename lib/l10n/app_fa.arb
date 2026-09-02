@@ -284,5 +284,6 @@
   "onboardingPlanDoseReceivers": "فردی که دارو مصرف می‌کند",
   "onboardingPlanDailyReminders": "اعلان‌های روزانه",
   "onboardingPlanMedicines": "داروهای تحت مدیریت",
-  "onboardingPlanCriticalAlert": "Critical Alert"
+  "onboardingPlanCriticalAlert": "Critical Alert",
+  "onboardingPlanCriticalAlertValue": "اعلان‌ها حتی در حالت بی‌صدا"
 }

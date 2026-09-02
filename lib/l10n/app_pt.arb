@@ -284,5 +284,6 @@
   "onboardingPlanDoseReceivers": "Pessoa que toma o medicamento",
   "onboardingPlanDailyReminders": "Lembretes diários",
   "onboardingPlanMedicines": "Medicamentos a gerir",
-  "onboardingPlanCriticalAlert": "Critical Alert"
+  "onboardingPlanCriticalAlert": "Critical Alert",
+  "onboardingPlanCriticalAlertValue": "Notificações mesmo no modo silencioso"
 }

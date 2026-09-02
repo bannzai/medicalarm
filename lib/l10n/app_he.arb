@@ -284,5 +284,6 @@
   "onboardingPlanDoseReceivers": "נוטל התרופה",
   "onboardingPlanDailyReminders": "התראות יומיות",
   "onboardingPlanMedicines": "תרופות לניהול",
-  "onboardingPlanCriticalAlert": "Critical Alert"
+  "onboardingPlanCriticalAlert": "Critical Alert",
+  "onboardingPlanCriticalAlertValue": "התראות גם במצב שקט"
 }

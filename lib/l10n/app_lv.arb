@@ -284,5 +284,6 @@
   "onboardingPlanDoseReceivers": "Persona, kas lieto zāles",
   "onboardingPlanDailyReminders": "Ikdienas atgādinājumi",
   "onboardingPlanMedicines": "Pārvaldāmās zāles",
-  "onboardingPlanCriticalAlert": "Critical Alert"
+  "onboardingPlanCriticalAlert": "Critical Alert",
+  "onboardingPlanCriticalAlertValue": "Paziņojumi arī klusuma režīmā"
 }

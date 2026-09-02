@@ -284,5 +284,6 @@
   "onboardingPlanDoseReceivers": "ঔষধ সেৱনকাৰী",
   "onboardingPlanDailyReminders": "দৈনিক জাননী",
   "onboardingPlanMedicines": "পৰিচালনা কৰিবলগীয়া ঔষধ",
-  "onboardingPlanCriticalAlert": "Critical Alert"
+  "onboardingPlanCriticalAlert": "Critical Alert",
+  "onboardingPlanCriticalAlertValue": "ছাইলেণ্ট মোডতো জাননী"
 }

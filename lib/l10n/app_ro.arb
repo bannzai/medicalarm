@@ -284,5 +284,6 @@
   "onboardingPlanDoseReceivers": "Persoana care ia medicamente",
   "onboardingPlanDailyReminders": "Mementouri zilnice",
   "onboardingPlanMedicines": "Medicamente de gestionat",
-  "onboardingPlanCriticalAlert": "Critical Alert"
+  "onboardingPlanCriticalAlert": "Critical Alert",
+  "onboardingPlanCriticalAlertValue": "Notificări chiar și în modul silențios"
 }

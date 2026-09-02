@@ -284,5 +284,6 @@
   "onboardingPlanDoseReceivers": "Gyógyszert szedő személy",
   "onboardingPlanDailyReminders": "Napi emlékeztetők",
   "onboardingPlanMedicines": "Kezelendő gyógyszerek",
-  "onboardingPlanCriticalAlert": "Critical Alert"
+  "onboardingPlanCriticalAlert": "Critical Alert",
+  "onboardingPlanCriticalAlertValue": "Értesítések néma módban is"
 }

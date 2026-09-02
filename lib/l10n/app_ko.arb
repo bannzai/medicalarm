@@ -284,5 +284,6 @@
   "onboardingPlanDoseReceivers": "약을 복용하는 사람",
   "onboardingPlanDailyReminders": "일일 알림",
   "onboardingPlanMedicines": "관리할 약",
-  "onboardingPlanCriticalAlert": "Critical Alert"
+  "onboardingPlanCriticalAlert": "Critical Alert",
+  "onboardingPlanCriticalAlertValue": "무음 모드에서도 알림"
 }

@@ -284,5 +284,6 @@
   "onboardingPlanDoseReceivers": "Ravimi tarvitaja",
   "onboardingPlanDailyReminders": "Igapäevased meeldetuletused",
   "onboardingPlanMedicines": "Hallatavad ravimid",
-  "onboardingPlanCriticalAlert": "Critical Alert"
+  "onboardingPlanCriticalAlert": "Critical Alert",
+  "onboardingPlanCriticalAlertValue": "Märguanded ka hääletus režiimis"
 }

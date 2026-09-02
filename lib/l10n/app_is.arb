@@ -284,5 +284,6 @@
   "onboardingPlanDoseReceivers": "Sá sem tekur lyf",
   "onboardingPlanDailyReminders": "Daglegar áminningar",
   "onboardingPlanMedicines": "Lyf til að hafa umsjón með",
-  "onboardingPlanCriticalAlert": "Critical Alert"
+  "onboardingPlanCriticalAlert": "Critical Alert",
+  "onboardingPlanCriticalAlertValue": "Tilkynningar jafnvel í hljóðlausri stillingu"
 }

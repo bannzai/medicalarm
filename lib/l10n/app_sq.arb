@@ -284,5 +284,6 @@
   "onboardingPlanDoseReceivers": "Personi që merr ilaçe",
   "onboardingPlanDailyReminders": "Njoftimet ditore",
   "onboardingPlanMedicines": "Medikamente për menaxhim",
-  "onboardingPlanCriticalAlert": "Critical Alert"
+  "onboardingPlanCriticalAlert": "Critical Alert",
+  "onboardingPlanCriticalAlertValue": "Njoftime edhe në modalitetin pa zë"
 }

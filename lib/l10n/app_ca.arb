@@ -284,5 +284,6 @@
   "onboardingPlanDoseReceivers": "Persona que pren la medicació",
   "onboardingPlanDailyReminders": "Notificacions diàries",
   "onboardingPlanMedicines": "Medicaments a gestionar",
-  "onboardingPlanCriticalAlert": "Critical Alert"
+  "onboardingPlanCriticalAlert": "Critical Alert",
+  "onboardingPlanCriticalAlertValue": "Notificacions fins i tot en mode silenciós"
 }

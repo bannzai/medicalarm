@@ -284,5 +284,6 @@
   "onboardingPlanDoseReceivers": "Приемащ лекарството",
   "onboardingPlanDailyReminders": "Дневни известия",
   "onboardingPlanMedicines": "Лекарства за управление",
-  "onboardingPlanCriticalAlert": "Critical Alert"
+  "onboardingPlanCriticalAlert": "Critical Alert",
+  "onboardingPlanCriticalAlertValue": "Известия дори в безшумен режим"
 }

@@ -284,5 +284,6 @@
   "onboardingPlanDoseReceivers": "Дәрі қабылдайтын адам",
   "onboardingPlanDailyReminders": "Күнделікті хабарландырулар",
   "onboardingPlanMedicines": "Басқарылатын дәрілер",
-  "onboardingPlanCriticalAlert": "Critical Alert"
+  "onboardingPlanCriticalAlert": "Critical Alert",
+  "onboardingPlanCriticalAlertValue": "Дыбыссыз режимде де хабарландырулар"
 }

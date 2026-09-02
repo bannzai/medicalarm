@@ -284,5 +284,6 @@
   "onboardingPlanDoseReceivers": "Osoba koja uzima lijek",
   "onboardingPlanDailyReminders": "Dnevne obavijesti",
   "onboardingPlanMedicines": "Lijekovi za upravljanje",
-  "onboardingPlanCriticalAlert": "Critical Alert"
+  "onboardingPlanCriticalAlert": "Critical Alert",
+  "onboardingPlanCriticalAlertValue": "Obavijesti čak i u tihom načinu rada"
 }

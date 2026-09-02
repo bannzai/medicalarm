@@ -284,5 +284,6 @@
   "onboardingPlanDoseReceivers": "Lääkettä käyttävä henkilö",
   "onboardingPlanDailyReminders": "Päivittäiset muistutukset",
   "onboardingPlanMedicines": "Hallittavat lääkkeet",
-  "onboardingPlanCriticalAlert": "Critical Alert"
+  "onboardingPlanCriticalAlert": "Critical Alert",
+  "onboardingPlanCriticalAlertValue": "Ilmoitukset myös äänettömässä tilassa"
 }

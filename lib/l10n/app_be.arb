@@ -284,5 +284,6 @@
   "onboardingPlanDoseReceivers": "Той, хто прымае лекі",
   "onboardingPlanDailyReminders": "Штодзённыя апавяшчэнні",
   "onboardingPlanMedicines": "Лекі для кантролю",
-  "onboardingPlanCriticalAlert": "Critical Alert"
+  "onboardingPlanCriticalAlert": "Critical Alert",
+  "onboardingPlanCriticalAlertValue": "Апавяшчэнні нават у бязгучным рэжыме"
 }

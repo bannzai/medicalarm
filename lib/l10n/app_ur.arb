@@ -284,5 +284,6 @@
   "onboardingPlanDoseReceivers": "دوا لینے والا شخص",
   "onboardingPlanDailyReminders": "روزانہ یاد دہانیاں",
   "onboardingPlanMedicines": "انتظام کرنے والی ادویات",
-  "onboardingPlanCriticalAlert": "Critical Alert"
+  "onboardingPlanCriticalAlert": "Critical Alert",
+  "onboardingPlanCriticalAlertValue": "خاموش موڈ میں بھی اطلاعات"
 }

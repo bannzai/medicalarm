@@ -284,5 +284,6 @@
   "onboardingPlanDoseReceivers": "İlaç kullanan kişi",
   "onboardingPlanDailyReminders": "Günlük hatırlatıcılar",
   "onboardingPlanMedicines": "Yönetilecek ilaçlar",
-  "onboardingPlanCriticalAlert": "Critical Alert"
+  "onboardingPlanCriticalAlert": "Critical Alert",
+  "onboardingPlanCriticalAlertValue": "Sessiz modda bile bildirimler"
 }

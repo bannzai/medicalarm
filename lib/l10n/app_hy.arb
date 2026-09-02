@@ -284,5 +284,6 @@
   "onboardingPlanDoseReceivers": "Դեղորայք ընդունող անձ",
   "onboardingPlanDailyReminders": "Ամենօրյա հիշեցումներ",
   "onboardingPlanMedicines": "Կառավարվող դեղեր",
-  "onboardingPlanCriticalAlert": "Critical Alert"
+  "onboardingPlanCriticalAlert": "Critical Alert",
+  "onboardingPlanCriticalAlertValue": "Ծանուցումներ նույնիսկ լուռ ռեժիմում"
 }

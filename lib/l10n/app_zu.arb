@@ -284,5 +284,6 @@
   "onboardingPlanDoseReceivers": "Umuntu ophuza umuthi",
   "onboardingPlanDailyReminders": "Izikhumbuzi zansuku zonke",
   "onboardingPlanMedicines": "Imithi ezophathwa",
-  "onboardingPlanCriticalAlert": "Critical Alert"
+  "onboardingPlanCriticalAlert": "Critical Alert",
+  "onboardingPlanCriticalAlertValue": "Izaziso ngisho nakumodi yokuthula"
 }

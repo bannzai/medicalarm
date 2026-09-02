@@ -284,5 +284,6 @@
   "onboardingPlanDoseReceivers": "Persoon die medicijnen inneemt",
   "onboardingPlanDailyReminders": "Dagelijkse herinneringen",
   "onboardingPlanMedicines": "Te beheren medicijnen",
-  "onboardingPlanCriticalAlert": "Critical Alert"
+  "onboardingPlanCriticalAlert": "Critical Alert",
+  "onboardingPlanCriticalAlertValue": "Meldingen, zelfs in stille modus"
 }

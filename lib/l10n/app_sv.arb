@@ -284,5 +284,6 @@
   "onboardingPlanDoseReceivers": "Person som tar medicinen",
   "onboardingPlanDailyReminders": "Dagliga påminnelser",
   "onboardingPlanMedicines": "Läkemedel att hantera",
-  "onboardingPlanCriticalAlert": "Critical Alert"
+  "onboardingPlanCriticalAlert": "Critical Alert",
+  "onboardingPlanCriticalAlertValue": "Notiser även i tyst läge"
 }

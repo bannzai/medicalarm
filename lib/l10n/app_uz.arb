@@ -284,5 +284,6 @@
   "onboardingPlanDoseReceivers": "Dori qabul qiluvchi shaxs",
   "onboardingPlanDailyReminders": "Kundalik eslatmalar",
   "onboardingPlanMedicines": "Boshqariladigan dorilar",
-  "onboardingPlanCriticalAlert": "Critical Alert"
+  "onboardingPlanCriticalAlert": "Critical Alert",
+  "onboardingPlanCriticalAlertValue": "Ovozsiz rejimda ham bildirishnomalar"
 }

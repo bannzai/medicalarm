@@ -284,5 +284,6 @@
   "onboardingPlanDoseReceivers": "መድሃኒት የሚወስድ ሰው",
   "onboardingPlanDailyReminders": "የዕለት ማሳወቂያዎች",
   "onboardingPlanMedicines": "ለማስተዳደር የሚገባቸው መድኃኒቶች",
-  "onboardingPlanCriticalAlert": "Critical Alert"
+  "onboardingPlanCriticalAlert": "Critical Alert",
+  "onboardingPlanCriticalAlertValue": "በጸጥታ ሁነታም ማሳወቂያዎች"
 }

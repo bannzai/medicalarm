@@ -284,5 +284,6 @@
   "onboardingPlanDoseReceivers": "औषध घेणारी व्यक्ती",
   "onboardingPlanDailyReminders": "दैनिक सूचना",
   "onboardingPlanMedicines": "व्यवस्थापित करायची औषधे",
-  "onboardingPlanCriticalAlert": "Critical Alert"
+  "onboardingPlanCriticalAlert": "Critical Alert",
+  "onboardingPlanCriticalAlertValue": "सायलेंट मोडमध्येही सूचना"
 }

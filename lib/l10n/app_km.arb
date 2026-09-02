@@ -284,5 +284,6 @@
   "onboardingPlanDoseReceivers": "អ្នកប្រើថ្នាំ",
   "onboardingPlanDailyReminders": "ការជូនដំណឹងប្រចាំថ្ងៃ",
   "onboardingPlanMedicines": "ថ្នាំដែលត្រូវគ្រប់គ្រង",
-  "onboardingPlanCriticalAlert": "Critical Alert"
+  "onboardingPlanCriticalAlert": "Critical Alert",
+  "onboardingPlanCriticalAlertValue": "ការជូនដំណឹង សូម្បីតែក្នុងរបៀបស្ងាត់"
 }

@@ -284,5 +284,6 @@
   "onboardingPlanDoseReceivers": "Persoon wat medikasie neem",
   "onboardingPlanDailyReminders": "Daaglikse kennisgewings",
   "onboardingPlanMedicines": "Medisyne om te bestuur",
-  "onboardingPlanCriticalAlert": "Critical Alert"
+  "onboardingPlanCriticalAlert": "Critical Alert",
+  "onboardingPlanCriticalAlertValue": "Kennisgewings selfs in stilmodus"
 }

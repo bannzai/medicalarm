@@ -284,5 +284,6 @@
   "onboardingPlanDoseReceivers": "ဆေးသောက်သူ",
   "onboardingPlanDailyReminders": "နေ့စဉ်သတိပေးချက်များ",
   "onboardingPlanMedicines": "စီမံရန်ဆေးများ",
-  "onboardingPlanCriticalAlert": "Critical Alert"
+  "onboardingPlanCriticalAlert": "Critical Alert",
+  "onboardingPlanCriticalAlertValue": "အသံတိတ်မုဒ်တွင်ပင် အကြောင်းကြားချက်များ"
 }

@@ -284,5 +284,6 @@
   "onboardingPlanDoseReceivers": "ଔଷଧ ସେବନକାରୀ",
   "onboardingPlanDailyReminders": "ଦୈନିକ ବିଜ୍ଞପ୍ତି",
   "onboardingPlanMedicines": "ପରିଚାଳନା କରିବାକୁ ଥିବା ଔଷଧ",
-  "onboardingPlanCriticalAlert": "Critical Alert"
+  "onboardingPlanCriticalAlert": "Critical Alert",
+  "onboardingPlanCriticalAlertValue": "ସାଇଲେଣ୍ଟ ମୋଡ୍‌ରେ ମଧ୍ୟ ବିଜ୍ଞପ୍ତି"
 }

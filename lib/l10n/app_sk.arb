@@ -284,5 +284,6 @@
   "onboardingPlanDoseReceivers": "Osoba užívajúca lieky",
   "onboardingPlanDailyReminders": "Denné pripomenutia",
   "onboardingPlanMedicines": "Spravované lieky",
-  "onboardingPlanCriticalAlert": "Critical Alert"
+  "onboardingPlanCriticalAlert": "Critical Alert",
+  "onboardingPlanCriticalAlertValue": "Oznámenia aj v tichom režime"
 }

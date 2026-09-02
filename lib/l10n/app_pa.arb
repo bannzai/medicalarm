@@ -284,5 +284,6 @@
   "onboardingPlanDoseReceivers": "ਦਵਾਈ ਲੈਣ ਵਾਲਾ ਵਿਅਕਤੀ",
   "onboardingPlanDailyReminders": "ਰੋਜ਼ਾਨਾ ਸੂਚਨਾਵਾਂ",
   "onboardingPlanMedicines": "ਪ੍ਰਬੰਧਿਤ ਕਰਨ ਵਾਲੀਆਂ ਦਵਾਈਆਂ",
-  "onboardingPlanCriticalAlert": "Critical Alert"
+  "onboardingPlanCriticalAlert": "Critical Alert",
+  "onboardingPlanCriticalAlertValue": "ਸਾਈਲੈਂਟ ਮੋਡ ਵਿੱਚ ਵੀ ਸੂਚਨਾਵਾਂ"
 }

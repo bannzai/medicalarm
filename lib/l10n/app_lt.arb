@@ -284,5 +284,6 @@
   "onboardingPlanDoseReceivers": "Vaistus vartojantis asmuo",
   "onboardingPlanDailyReminders": "Kasdieniai priminimai",
   "onboardingPlanMedicines": "Tvarkomi vaistai",
-  "onboardingPlanCriticalAlert": "Critical Alert"
+  "onboardingPlanCriticalAlert": "Critical Alert",
+  "onboardingPlanCriticalAlertValue": "Pranešimai net įjungus tylųjį režimą"
 }

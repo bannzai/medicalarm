@@ -284,5 +284,6 @@
   "onboardingPlanDoseReceivers": "ადამიანი, რომელიც წამალს იღებს",
   "onboardingPlanDailyReminders": "ყოველდღიური შეტყობინებები",
   "onboardingPlanMedicines": "სამართავი მედიკამენტები",
-  "onboardingPlanCriticalAlert": "Critical Alert"
+  "onboardingPlanCriticalAlert": "Critical Alert",
+  "onboardingPlanCriticalAlertValue": "შეტყობინებები უხმო რეჟიმშიც"
 }

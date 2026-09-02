@@ -284,5 +284,6 @@
   "onboardingPlanDoseReceivers": "Person som tar medisinen",
   "onboardingPlanDailyReminders": "Daglige påminnelser",
   "onboardingPlanMedicines": "Medisiner som skal administreres",
-  "onboardingPlanCriticalAlert": "Critical Alert"
+  "onboardingPlanCriticalAlert": "Critical Alert",
+  "onboardingPlanCriticalAlertValue": "Varsler også i lydløsmodus"
 }

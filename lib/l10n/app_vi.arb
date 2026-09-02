@@ -284,5 +284,6 @@
   "onboardingPlanDoseReceivers": "Người dùng thuốc",
   "onboardingPlanDailyReminders": "Lời nhắc hằng ngày",
   "onboardingPlanMedicines": "Thuốc cần quản lý",
-  "onboardingPlanCriticalAlert": "Critical Alert"
+  "onboardingPlanCriticalAlert": "Critical Alert",
+  "onboardingPlanCriticalAlertValue": "Thông báo ngay cả khi ở chế độ im lặng"
 }

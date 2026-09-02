@@ -284,5 +284,6 @@
   "onboardingPlanDoseReceivers": "Orang yang mengambil ubat",
   "onboardingPlanDailyReminders": "Peringatan harian",
   "onboardingPlanMedicines": "Ubat untuk diurus",
-  "onboardingPlanCriticalAlert": "Critical Alert"
+  "onboardingPlanCriticalAlert": "Critical Alert",
+  "onboardingPlanCriticalAlertValue": "Pemberitahuan walaupun dalam mod senyap"
 }

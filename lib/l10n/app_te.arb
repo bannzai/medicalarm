@@ -284,5 +284,6 @@
   "onboardingPlanDoseReceivers": "మందులు తీసుకునే వ్యక్తి",
   "onboardingPlanDailyReminders": "రోజువారీ రిమైండర్‌లు",
   "onboardingPlanMedicines": "నిర్వహించాల్సిన మందులు",
-  "onboardingPlanCriticalAlert": "Critical Alert"
+  "onboardingPlanCriticalAlert": "Critical Alert",
+  "onboardingPlanCriticalAlertValue": "సైలెంట్ మోడ్‌లో కూడా నోటిఫికేషన్‌లు"
 }

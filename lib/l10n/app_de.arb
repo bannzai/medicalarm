@@ -284,5 +284,6 @@
   "onboardingPlanDoseReceivers": "Person, die Medikamente einnimmt",
   "onboardingPlanDailyReminders": "Tägliche Erinnerungen",
   "onboardingPlanMedicines": "Zu verwaltende Medikamente",
-  "onboardingPlanCriticalAlert": "Critical Alert"
+  "onboardingPlanCriticalAlert": "Critical Alert",
+  "onboardingPlanCriticalAlertValue": "Benachrichtigungen auch im Stummmodus"
 }

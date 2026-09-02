@@ -284,5 +284,6 @@
   "onboardingPlanDoseReceivers": "Sendagaia hartzen duen pertsona",
   "onboardingPlanDailyReminders": "Eguneroko jakinarazpenak",
   "onboardingPlanMedicines": "Kudeatu beharreko sendagaiak",
-  "onboardingPlanCriticalAlert": "Critical Alert"
+  "onboardingPlanCriticalAlert": "Critical Alert",
+  "onboardingPlanCriticalAlertValue": "Jakinarazpenak isilik moduan ere"
 }

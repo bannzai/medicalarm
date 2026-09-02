@@ -284,5 +284,6 @@
   "onboardingPlanDoseReceivers": "Эм уудаг хүн",
   "onboardingPlanDailyReminders": "Өдөр тутмын мэдэгдэл",
   "onboardingPlanMedicines": "Удирдах эмүүд",
-  "onboardingPlanCriticalAlert": "Critical Alert"
+  "onboardingPlanCriticalAlert": "Critical Alert",
+  "onboardingPlanCriticalAlertValue": "Чимээгүй горимд ч мэдэгдэл"
 }

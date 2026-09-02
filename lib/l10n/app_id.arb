@@ -284,5 +284,6 @@
   "onboardingPlanDoseReceivers": "Orang yang minum obat",
   "onboardingPlanDailyReminders": "Notifikasi harian",
   "onboardingPlanMedicines": "Obat yang dikelola",
-  "onboardingPlanCriticalAlert": "Critical Alert"
+  "onboardingPlanCriticalAlert": "Critical Alert",
+  "onboardingPlanCriticalAlertValue": "Notifikasi bahkan dalam mode senyap"
 }
