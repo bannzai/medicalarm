@@ -255,5 +255,6 @@
   "onboardingDailyDoseCountTitle": "តើអ្នកលេបថ្នាំប៉ុន្មានដងក្នុងមួយថ្ងៃ?",
   "onboardingDailyDoseCountSubtitle": "ប្រើសម្រាប់កំណត់ចំនួនការជូនដំណឹង។",
   "onboardingDailyDoseOnce": "ម្តង",
-  "onboardingDailyDoseTwice": "២ ដង"
+  "onboardingDailyDoseTwice": "២ ដង",
+  "onboardingDailyDoseThreeOrMore": "3 ដង ឬច្រើនជាងនេះ"
 }

@@ -255,5 +255,6 @@
   "onboardingDailyDoseCountTitle": "Hvor mange ganger om dagen tar du medisiner?",
   "onboardingDailyDoseCountSubtitle": "Brukes til å bestemme antall varsler.",
   "onboardingDailyDoseOnce": "Én gang",
-  "onboardingDailyDoseTwice": "2 ganger"
+  "onboardingDailyDoseTwice": "2 ganger",
+  "onboardingDailyDoseThreeOrMore": "3 ganger eller mer"
 }

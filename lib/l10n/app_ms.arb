@@ -255,5 +255,6 @@
   "onboardingDailyDoseCountTitle": "Berapa kali sehari anda mengambil ubat?",
   "onboardingDailyDoseCountSubtitle": "Digunakan untuk menentukan bilangan pemberitahuan.",
   "onboardingDailyDoseOnce": "Sekali",
-  "onboardingDailyDoseTwice": "2 kali"
+  "onboardingDailyDoseTwice": "2 kali",
+  "onboardingDailyDoseThreeOrMore": "3 kali atau lebih"
 }

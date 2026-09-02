@@ -255,5 +255,6 @@
   "onboardingDailyDoseCountTitle": "તમે દિવસમાં કેટલી વાર દવા લો છો?",
   "onboardingDailyDoseCountSubtitle": "સૂચનાઓની સંખ્યા નક્કી કરવા માટે ઉપયોગ થાય છે.",
   "onboardingDailyDoseOnce": "એક વાર",
-  "onboardingDailyDoseTwice": "૨ વખત"
+  "onboardingDailyDoseTwice": "૨ વખત",
+  "onboardingDailyDoseThreeOrMore": "3 વાર કે તેથી વધુ"
 }

@@ -255,5 +255,6 @@
   "onboardingDailyDoseCountTitle": "Hvor mange gange om dagen tager du medicin?",
   "onboardingDailyDoseCountSubtitle": "Bruges til at bestemme antallet af notifikationer.",
   "onboardingDailyDoseOnce": "Én gang",
-  "onboardingDailyDoseTwice": "2 gange"
+  "onboardingDailyDoseTwice": "2 gange",
+  "onboardingDailyDoseThreeOrMore": "3 gange eller mere"
 }

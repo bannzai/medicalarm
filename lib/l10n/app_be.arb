@@ -255,5 +255,6 @@
   "onboardingDailyDoseCountTitle": "Колькі разоў на дзень вы прымаеце лекі?",
   "onboardingDailyDoseCountSubtitle": "Выкарыстоўваецца для вызначэння колькасці апавяшчэнняў.",
   "onboardingDailyDoseOnce": "Адзін раз",
-  "onboardingDailyDoseTwice": "2 разы"
+  "onboardingDailyDoseTwice": "2 разы",
+  "onboardingDailyDoseThreeOrMore": "3 разы і больш"
 }

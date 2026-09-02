@@ -255,5 +255,6 @@
   "onboardingDailyDoseCountTitle": "Bạn uống thuốc mấy lần một ngày?",
   "onboardingDailyDoseCountSubtitle": "Dùng để xác định số lần thông báo.",
   "onboardingDailyDoseOnce": "Một lần",
-  "onboardingDailyDoseTwice": "2 lần"
+  "onboardingDailyDoseTwice": "2 lần",
+  "onboardingDailyDoseThreeOrMore": "3 lần trở lên"
 }

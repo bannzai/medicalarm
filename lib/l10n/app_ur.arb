@@ -255,5 +255,6 @@
   "onboardingDailyDoseCountTitle": "آپ دن میں کتنی بار دوا لیتے ہیں؟",
   "onboardingDailyDoseCountSubtitle": "اطلاعات کی تعداد طے کرنے کے لیے استعمال ہوتا ہے۔",
   "onboardingDailyDoseOnce": "ایک بار",
-  "onboardingDailyDoseTwice": "2 بار"
+  "onboardingDailyDoseTwice": "2 بار",
+  "onboardingDailyDoseThreeOrMore": "3 بار یا اس سے زیادہ"
 }

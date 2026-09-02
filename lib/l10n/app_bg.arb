@@ -255,5 +255,6 @@
   "onboardingDailyDoseCountTitle": "Колко пъти на ден приемате лекарства?",
   "onboardingDailyDoseCountSubtitle": "Използва се за определяне на броя известия.",
   "onboardingDailyDoseOnce": "Веднъж",
-  "onboardingDailyDoseTwice": "2 пъти"
+  "onboardingDailyDoseTwice": "2 пъти",
+  "onboardingDailyDoseThreeOrMore": "3 или повече пъти"
 }

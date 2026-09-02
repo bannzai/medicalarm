@@ -255,5 +255,6 @@
   "onboardingDailyDoseCountTitle": "ਤੁਸੀਂ ਦਿਨ ਵਿੱਚ ਕਿੰਨੀ ਵਾਰ ਦਵਾਈ ਲੈਂਦੇ ਹੋ?",
   "onboardingDailyDoseCountSubtitle": "ਸੂਚਨਾਵਾਂ ਦੀ ਗਿਣਤੀ ਤੈਅ ਕਰਨ ਲਈ ਵਰਤਿਆ ਜਾਂਦਾ ਹੈ।",
   "onboardingDailyDoseOnce": "ਇੱਕ ਵਾਰ",
-  "onboardingDailyDoseTwice": "2 ਵਾਰ"
+  "onboardingDailyDoseTwice": "2 ਵਾਰ",
+  "onboardingDailyDoseThreeOrMore": "3 ਵਾਰ ਜਾਂ ਇਸ ਤੋਂ ਵੱਧ"
 }

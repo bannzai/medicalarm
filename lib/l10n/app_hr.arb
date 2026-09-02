@@ -255,5 +255,6 @@
   "onboardingDailyDoseCountTitle": "Koliko puta dnevno uzimate lijek?",
   "onboardingDailyDoseCountSubtitle": "Koristi se za određivanje broja obavijesti.",
   "onboardingDailyDoseOnce": "Jednom",
-  "onboardingDailyDoseTwice": "2 puta"
+  "onboardingDailyDoseTwice": "2 puta",
+  "onboardingDailyDoseThreeOrMore": "3 ili više puta"
 }

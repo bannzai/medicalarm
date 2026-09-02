@@ -255,5 +255,6 @@
   "onboardingDailyDoseCountTitle": "በቀን ስንት ጊዜ መድኃኒት ይወስዳሉ?",
   "onboardingDailyDoseCountSubtitle": "የማሳወቂያዎችን ብዛት ለመወሰን ይጠቀማል።",
   "onboardingDailyDoseOnce": "አንድ ጊዜ",
-  "onboardingDailyDoseTwice": "2 ጊዜ"
+  "onboardingDailyDoseTwice": "2 ጊዜ",
+  "onboardingDailyDoseThreeOrMore": "3 ጊዜ ወይም ከዚያ በላይ"
 }

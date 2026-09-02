@@ -255,5 +255,6 @@
   "onboardingDailyDoseCountTitle": "روزی چند بار دارو مصرف می‌کنید؟",
   "onboardingDailyDoseCountSubtitle": "برای تعیین تعداد اعلان‌ها استفاده می‌شود.",
   "onboardingDailyDoseOnce": "یک بار",
-  "onboardingDailyDoseTwice": "۲ بار"
+  "onboardingDailyDoseTwice": "۲ بار",
+  "onboardingDailyDoseThreeOrMore": "۳ بار یا بیشتر"
 }

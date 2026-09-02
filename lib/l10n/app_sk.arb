@@ -255,5 +255,6 @@
   "onboardingDailyDoseCountTitle": "Koľkokrát denne užívate lieky?",
   "onboardingDailyDoseCountSubtitle": "Slúži na určenie počtu upozornení.",
   "onboardingDailyDoseOnce": "Raz",
-  "onboardingDailyDoseTwice": "2-krát"
+  "onboardingDailyDoseTwice": "2-krát",
+  "onboardingDailyDoseThreeOrMore": "3-krát alebo viac"
 }

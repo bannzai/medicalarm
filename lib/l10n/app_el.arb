@@ -255,5 +255,6 @@
   "onboardingDailyDoseCountTitle": "Πόσες φορές την ημέρα παίρνετε φάρμακα;",
   "onboardingDailyDoseCountSubtitle": "Χρησιμοποιείται για τον καθορισμό του αριθμού των ειδοποιήσεων.",
   "onboardingDailyDoseOnce": "Μία φορά",
-  "onboardingDailyDoseTwice": "2 φορές"
+  "onboardingDailyDoseTwice": "2 φορές",
+  "onboardingDailyDoseThreeOrMore": "3 φορές ή περισσότερες"
 }

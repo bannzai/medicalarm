@@ -255,5 +255,6 @@
   "onboardingDailyDoseCountTitle": "כמה פעמים ביום אתם נוטלים תרופות?",
   "onboardingDailyDoseCountSubtitle": "משמש לקביעת מספר ההתראות.",
   "onboardingDailyDoseOnce": "פעם אחת",
-  "onboardingDailyDoseTwice": "פעמיים"
+  "onboardingDailyDoseTwice": "פעמיים",
+  "onboardingDailyDoseThreeOrMore": "3 פעמים או יותר"
 }

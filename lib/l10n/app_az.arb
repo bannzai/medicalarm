@@ -255,5 +255,6 @@
   "onboardingDailyDoseCountTitle": "Gündə neçə dəfə dərman qəbul edirsiniz?",
   "onboardingDailyDoseCountSubtitle": "Bildirişlərin sayını müəyyən etmək üçün istifadə olunur.",
   "onboardingDailyDoseOnce": "1 dəfə",
-  "onboardingDailyDoseTwice": "2 dəfə"
+  "onboardingDailyDoseTwice": "2 dəfə",
+  "onboardingDailyDoseThreeOrMore": "3 dəfə və ya daha çox"
 }

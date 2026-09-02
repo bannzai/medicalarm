@@ -255,5 +255,6 @@
   "onboardingDailyDoseCountTitle": "Күнүнө канча жолу дары ичесиз?",
   "onboardingDailyDoseCountSubtitle": "Билдирмелердин санын аныктоо үчүн колдонулат.",
   "onboardingDailyDoseOnce": "Бир жолу",
-  "onboardingDailyDoseTwice": "2 жолу"
+  "onboardingDailyDoseTwice": "2 жолу",
+  "onboardingDailyDoseThreeOrMore": "3 жолу же андан көп"
 }

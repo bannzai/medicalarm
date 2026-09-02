@@ -255,5 +255,6 @@
   "onboardingDailyDoseCountTitle": "আপুনি দিনটোত কিমানবাৰ ঔষধ খায়?",
   "onboardingDailyDoseCountSubtitle": "জাননীৰ সংখ্যা নিৰ্ধাৰণ কৰিবলৈ ব্যৱহাৰ কৰা হয়।",
   "onboardingDailyDoseOnce": "এবাৰ",
-  "onboardingDailyDoseTwice": "২ বাৰ"
+  "onboardingDailyDoseTwice": "২ বাৰ",
+  "onboardingDailyDoseThreeOrMore": "৩ বাৰ বা তাতকৈ অধিক"
 }

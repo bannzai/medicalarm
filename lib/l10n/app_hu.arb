@@ -255,5 +255,6 @@
   "onboardingDailyDoseCountTitle": "Naponta hányszor szed gyógyszert?",
   "onboardingDailyDoseCountSubtitle": "Az értesítések számának meghatározására szolgál.",
   "onboardingDailyDoseOnce": "Egyszer",
-  "onboardingDailyDoseTwice": "2 alkalommal"
+  "onboardingDailyDoseTwice": "2 alkalommal",
+  "onboardingDailyDoseThreeOrMore": "3-szor vagy többször"
 }

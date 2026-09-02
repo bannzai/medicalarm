@@ -255,5 +255,6 @@
   "onboardingDailyDoseCountTitle": "ଆପଣ ଦିନକୁ କେତେଥର ଔଷଧ ଖାଆନ୍ତି?",
   "onboardingDailyDoseCountSubtitle": "ବିଜ୍ଞପ୍ତି ସଂଖ୍ୟା ନିର୍ଣ୍ଣୟ କରିବା ପାଇଁ ବ୍ୟବହୃତ ହୁଏ।",
   "onboardingDailyDoseOnce": "ଥରେ",
-  "onboardingDailyDoseTwice": "୨ ଥର"
+  "onboardingDailyDoseTwice": "୨ ଥର",
+  "onboardingDailyDoseThreeOrMore": "୩ ଥର କିମ୍ବା ଅଧିକ"
 }

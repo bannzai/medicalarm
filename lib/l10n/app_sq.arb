@@ -255,5 +255,6 @@
   "onboardingDailyDoseCountTitle": "Sa herë në ditë merrni ilaçe?",
   "onboardingDailyDoseCountSubtitle": "Përdoret për të përcaktuar numrin e njoftimeve.",
   "onboardingDailyDoseOnce": "Një herë",
-  "onboardingDailyDoseTwice": "2 herë"
+  "onboardingDailyDoseTwice": "2 herë",
+  "onboardingDailyDoseThreeOrMore": "3 herë ose më shumë"
 }

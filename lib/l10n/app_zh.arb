@@ -255,5 +255,6 @@
   "onboardingDailyDoseCountTitle": "您每天服用几次药？",
   "onboardingDailyDoseCountSubtitle": "用于确定通知次数。",
   "onboardingDailyDoseOnce": "一次",
-  "onboardingDailyDoseTwice": "2 次"
+  "onboardingDailyDoseTwice": "2 次",
+  "onboardingDailyDoseThreeOrMore": "3次以上"
 }

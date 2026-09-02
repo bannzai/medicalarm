@@ -255,5 +255,6 @@
   "onboardingDailyDoseCountTitle": "Kuniga necha marta dori qabul qilasiz?",
   "onboardingDailyDoseCountSubtitle": "Bildirishnomalar sonini aniqlash uchun ishlatiladi.",
   "onboardingDailyDoseOnce": "Bir marta",
-  "onboardingDailyDoseTwice": "2 marta"
+  "onboardingDailyDoseTwice": "2 marta",
+  "onboardingDailyDoseThreeOrMore": "3 marta yoki undan ko‘p"
 }

@@ -255,5 +255,6 @@
   "onboardingDailyDoseCountTitle": "Kiek kartų per dieną vartojate vaistus?",
   "onboardingDailyDoseCountSubtitle": "Naudojama pranešimų skaičiui nustatyti.",
   "onboardingDailyDoseOnce": "Vieną kartą",
-  "onboardingDailyDoseTwice": "2 kartus"
+  "onboardingDailyDoseTwice": "2 kartus",
+  "onboardingDailyDoseThreeOrMore": "3 kartus ar daugiau"
 }

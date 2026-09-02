@@ -255,5 +255,6 @@
   "onboardingDailyDoseCountTitle": "Та өдөрт хэдэн удаа эм уудаг вэ?",
   "onboardingDailyDoseCountSubtitle": "Мэдэгдлийн тоог тодорхойлоход ашиглана.",
   "onboardingDailyDoseOnce": "Нэг удаа",
-  "onboardingDailyDoseTwice": "2 удаа"
+  "onboardingDailyDoseTwice": "2 удаа",
+  "onboardingDailyDoseThreeOrMore": "3 ба түүнээс дээш удаа"
 }

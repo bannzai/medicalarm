@@ -255,5 +255,6 @@
   "onboardingDailyDoseCountTitle": "Uwuphuza kangaki umuthi ngosuku?",
   "onboardingDailyDoseCountSubtitle": "Isetshenziselwa ukunquma inani lezaziso.",
   "onboardingDailyDoseOnce": "Kanye",
-  "onboardingDailyDoseTwice": "izikhathi ezi-2"
+  "onboardingDailyDoseTwice": "izikhathi ezi-2",
+  "onboardingDailyDoseThreeOrMore": "Izikhathi ezi-3 noma ngaphezulu"
 }

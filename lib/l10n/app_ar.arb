@@ -255,5 +255,6 @@
   "onboardingDailyDoseCountTitle": "كم مرة تتناول الدواء يوميًا؟",
   "onboardingDailyDoseCountSubtitle": "يُستخدم لتحديد عدد الإشعارات.",
   "onboardingDailyDoseOnce": "مرة واحدة",
-  "onboardingDailyDoseTwice": "مرتين"
+  "onboardingDailyDoseTwice": "مرتين",
+  "onboardingDailyDoseThreeOrMore": "3 مرات أو أكثر"
 }

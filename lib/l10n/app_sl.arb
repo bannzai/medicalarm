@@ -255,5 +255,6 @@
   "onboardingDailyDoseCountTitle": "Kolikokrat na dan jemljete zdravila?",
   "onboardingDailyDoseCountSubtitle": "Uporablja se za določanje števila obvestil.",
   "onboardingDailyDoseOnce": "Enkrat",
-  "onboardingDailyDoseTwice": "2-krat"
+  "onboardingDailyDoseTwice": "2-krat",
+  "onboardingDailyDoseThreeOrMore": "3-krat ali več"
 }

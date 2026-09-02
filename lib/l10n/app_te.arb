@@ -255,5 +255,6 @@
   "onboardingDailyDoseCountTitle": "మీరు రోజుకు ఎన్నిసార్లు మందులు తీసుకుంటారు?",
   "onboardingDailyDoseCountSubtitle": "నోటిఫికేషన్‌ల సంఖ్యను నిర్ణయించడానికి ఉపయోగించబడుతుంది.",
   "onboardingDailyDoseOnce": "ఒకసారి",
-  "onboardingDailyDoseTwice": "2 సార్లు"
+  "onboardingDailyDoseTwice": "2 సార్లు",
+  "onboardingDailyDoseThreeOrMore": "3 సార్లు లేదా అంతకంటే ఎక్కువ"
 }

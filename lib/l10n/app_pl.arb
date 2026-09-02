@@ -255,5 +255,6 @@
   "onboardingDailyDoseCountTitle": "Ile razy dziennie przyjmujesz leki?",
   "onboardingDailyDoseCountSubtitle": "Służy do określenia liczby powiadomień.",
   "onboardingDailyDoseOnce": "Raz",
-  "onboardingDailyDoseTwice": "2 razy"
+  "onboardingDailyDoseTwice": "2 razy",
+  "onboardingDailyDoseThreeOrMore": "3 razy lub więcej"
 }

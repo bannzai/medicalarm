@@ -255,5 +255,6 @@
   "onboardingDailyDoseCountTitle": "Sawl gwaith y dydd ydych chi'n cymryd meddyginiaeth?",
   "onboardingDailyDoseCountSubtitle": "Fe'i defnyddir i bennu nifer yr hysbysiadau.",
   "onboardingDailyDoseOnce": "Unwaith",
-  "onboardingDailyDoseTwice": "2 waith"
+  "onboardingDailyDoseTwice": "2 waith",
+  "onboardingDailyDoseThreeOrMore": "3 gwaith neu fwy"
 }
