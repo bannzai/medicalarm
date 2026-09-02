@@ -1,763 +1,156 @@
 {
   "@@locale": "hy",
   "retry": "Նորից փորձել",
-  "@retry": {
-    "description": "エラーが発生した際やデータの読み込みに失敗した際に、再度処理を実行するためのボタンテキスト"
-  },
   "save": "Պահպանել",
-  "@save": {
-    "description": "フォームやエディタで入力したデータを保存する際に使用するボタンテキスト"
-  },
   "memo": "Հիշեցում",
-  "@memo": {
-    "description": "服薬記録や日記などで追加情報を入力するためのテキストフィールドのプレースホルダー"
-  },
   "completed": "Ավարտվեց",
-  "@completed": {
-    "description": "フォームの入力や設定の変更などの操作が完了した際に使用するボタンテキスト"
-  },
   "medicineRegistration": "Դեղերի գրանցման էկրան",
-  "@medicineRegistration": {
-    "description": "お薬の新規登録・編集画面のタイトル"
-  },
   "medicineName": "Դեղի անուն",
-  "@medicineName": {
-    "description": "お薬登録フォームでの薬の名前を入力するフィールドのプレースホルダー"
-  },
   "medicineList": " medicamentների ցուցակ",
-  "@medicineList": {
-    "description": "登録されているお薬の一覧を表示する画面のタイトル"
-  },
   "medicationSchedule": "Օգտագործման ծրագրի ժամանակացույց",
-  "@medicationSchedule": {
-    "description": "服用スケジュールのセクションタイトル"
-  },
   "medicationTime": "Օգտագործեք նվազագույն սպառման ծանուցման գործիքը",
-  "@medicationTime": {
-    "description": "服用時刻の通知設定を有効にするためのスイッチのラベル"
-  },
   "medicationTimeDescription": "Ծանուցումներ կուղարկվեն օգտագործողի սահմանած դեղամիջոցների օգտագործման ժամանակների հիման վրա",
-  "@medicationTimeDescription": {
-    "description": "服用時刻の通知設定の説明文"
-  },
   "close": "փակել",
-  "@close": {
-    "description": "ダイアログやモーダルを閉じるためのボタンテキスト"
-  },
   "settings": "Կարգավորումներ",
-  "@settings": {
-    "description": "設定画面のタイトル"
-  },
   "camera": "Ք_CAMERA",
-  "@camera": {
-    "description": "カメラを起動するためのメニュー項目"
-  },
   "photoLibrary": "Ֆոտո գրադարա",
-  "@photoLibrary": {
-    "description": "フォトライブラリを開くためのメニュー項目"
-  },
   "medicationHistory": "Ա medication history",
-  "@medicationHistory": {
-    "description": "服薬履歴を表示する画面のタイトル"
-  },
   "noMedicationHistory": "Դեղամիջոցների ընդունման պատմություն չկա",
-  "@noMedicationHistory": {
-    "description": "服薬履歴が存在しない場合に表示するメッセージ"
-  },
   "scheduledTime": "վայելքի ժամ",
-  "@scheduledTime": {
-    "description": "服薬予定時刻のラベル"
-  },
   "recordedTime": "ապրանքի ժամ",
-  "@recordedTime": {
-    "description": "実際に服薬を記録した時間のラベル"
-  },
   "noMemo": "Չկան հիշողություններ",
-  "@noMemo": {
-    "description": "メモが存在しない場合に表示するテキスト"
-  },
   "premiumPlan": "Պремիում պլան",
-  "@premiumPlan": {
-    "description": "プレミアムプランの名称"
-  },
   "premiumFeatureAds": "Բռնկատների արտադրության հրապարակումը թաքցնել",
-  "@premiumFeatureAds": {
-    "description": "プレミアム機能の広告非表示の説明"
-  },
   "premiumFeatureHistory": "Ձեր օգտագործած դեղամիջոցների բոլոր լրացումները ցուցադրել",
-  "@premiumFeatureHistory": {
-    "description": "プレミアム機能の履歴表示の説明"
-  },
   "premiumRegistrationComplete": "Medicalarm Premium գրանցումը ավարտված է",
-  "@premiumRegistrationComplete": {
-    "description": "プレミアム登録完了時のタイトル"
-  },
   "premiumRegistrationThanks": "Շնորհակալություն գրանցվելու համար։\nՄտնում է բոլոր ֆունկցիաները համաօգտագործելուց։",
-  "@premiumRegistrationThanks": {
-    "description": "プレミアム登録完了時のメッセージ"
-  },
   "unknownError": "Հայտնվեց անհայտ սխալ",
-  "@unknownError": {
-    "description": "予期せぬエラーが発生した際のエラーメッセージ"
-  },
   "error": "Տեղի ունեցավ սխալ",
-  "@error": {
-    "description": "一般的なエラーメッセージ"
-  },
   "unexpectedError": "Անվտանգության սխալ տեղի ունեցավ",
-  "@unexpectedError": {
-    "description": "予期せぬエラーが発生した際のエラーメッセージ"
-  },
   "cancel": "Չեղարկել",
-  "@cancel": {
-    "description": "操作をキャンセルするためのボタンテキスト"
-  },
   "delete": "ժեռացնել",
-  "@delete": {
-    "description": "削除操作を実行するためのボタンテキスト"
-  },
   "deleteAccount": "Հետեւյալը իմ հաշիվը հեռացնելու համար",
-  "@deleteAccount": {
-    "description": "アカウント削除ボタンのテキスト"
-  },
   "deleteAccountConfirm": "Օգտատեսողի տեղեկությունները կջնջվեն",
-  "@deleteAccountConfirm": {
-    "description": "アカウント削除確認ダイアログのタイトル"
-  },
   "deleteAccountMessage": "Ակաունտը ջնջելու դեպքում բոլոր օգտագործողի տեղեկատվությունը ջնջվում է։",
-  "@deleteAccountMessage": {
-    "description": "アカウント削除確認ダイアログのメッセージ"
-  },
   "medicationFrequency": "Ոռոգման հաճախականություն",
-  "@medicationFrequency": {
-    "description": "服用頻度の設定セクションのタイトル"
-  },
   "daily": "Յուրաքանչյուր օր",
-  "@daily": {
-    "description": "毎日服用する頻度設定"
-  },
   "everyXDays": "օրվա ընթացքում",
-  "@everyXDays": {
-    "description": "X日ごとに服用する頻度設定"
-  },
   "specificWeekdays": "Հատուկ օրեր",
-  "@specificWeekdays": {
-    "description": "特定の曜日に服用する頻度設定"
-  },
   "cycle": "Ուղղություն",
-  "@cycle": {
-    "description": "周期で服用する頻度設定"
-  },
   "cycleDescription": "օր 21 օգտագործել/օր 7 հանգստանալ",
-  "@cycleDescription": {
-    "description": "周期での服用頻度の説明文"
-  },
   "everyXDaysDescription": "օրական 2 օր, օրական 3 օր",
-  "@everyXDaysDescription": {
-    "description": "X日ごとの服用頻度の説明文"
-  },
   "specificWeekdaysDescription": "օր շաբաթն առնչվող դեղորայքի օգտագործման հաճախականությունը",
-  "@specificWeekdaysDescription": {
-    "description": "特定の曜日の服用頻度の説明文"
-  },
   "medicineFormValidationError": "կ_put_ անունը և ընդունման ժամանակացույցը",
-  "@medicineFormValidationError": {
-    "description": "お薬登録フォームでの入力バリデーションエラーメッセージ"
-  },
   "quantity": "Հզորություն",
-  "@quantity": {
-    "description": "服用量を入力するフィールドのラベル"
-  },
   "quantityExample": "օրինակ: 1 նետ, 100մգ",
-  "@quantityExample": {
-    "description": "服用量入力フィールドのプレースホルダー"
-  },
   "medicationStartDate": "Դեղերի ընդունման սկսած օրը",
-  "@medicationStartDate": {
-    "description": "服用開始日を選択するフィールドのラベル"
-  },
   "otherInformation": "Այլ",
-  "@otherInformation": {
-    "description": "その他の情報を入力するセクションのタイトル"
-  },
   "doseReceiver": "Օգտատեր",
-  "@doseReceiver": {
-    "description": "服用者を選択するフィールドのラベル"
-  },
   "defaultDoseReceiver": "Ձեզը",
-  "@defaultDoseReceiver": {
-    "description": "デフォルトの服用者名"
-  },
   "doseReceiverMaxCount": "Նշանակառուները կարող են գրանցվել առավելագույնը {count} մարդ",
-  "@doseReceiverMaxCount": {
-    "description": "服用者の最大登録数を表示するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "2"
-      }
-    }
-  },
   "increaseLimitWithPremium": "Ապրանքային պլանում սահմանափակումը {count} -ին բարձրացրեք",
-  "@increaseLimitWithPremium": {
-    "description": "プレミアムプランでの上限増加を案内するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "10"
-      }
-    }
-  },
   "addDoseReceiver": "Ահեղին ավելացնել",
-  "@addDoseReceiver": {
-    "description": "服用者を追加するボタンのテキスト"
-  },
   "newDoseReceiver": " Նոր ընդունող",
-  "@newDoseReceiver": {
-    "description": "新規追加時のデフォルトの服用者名"
-  },
   "reloginRequired": "Խնդրում ենք վերագումարել",
-  "@reloginRequired": {
-    "description": "アカウント削除時に再ログインが必要な場合のダイアログタイトル"
-  },
   "reloginMessage": "Զետեղելու համար հաշիվը, խնդրում ենք կրկին մուտք գործել։",
-  "@reloginMessage": {
-    "description": "アカウント削除時の再ログイン要求メッセージ"
-  },
   "relogin": "Ռի-լոգին",
-  "@relogin": {
-    "description": "再ログインを実行するためのボタンテキスト"
-  },
   "accountDeleted": "Հաշվողական երևույթն արդյո՞ք եղել է 2033-ում",
-  "@accountDeleted": {
-    "description": "アカウント削除完了時のメッセージ"
-  },
   "confirmExit": "Դուք ուզում եք դուրս գալ այս հավելվածից?",
-  "@confirmExit": {
-    "description": "アプリ終了確認のメッセージ"
-  },
   "exit": "Մերսել",
-  "@exit": {
-    "description": "アプリを終了するためのボタンテキスト"
-  },
   "viewFaq": "FAQ-ի էջը նայեք",
-  "@viewFaq": {
-    "description": "FAQページを表示するためのボタンテキスト"
-  },
   "medicine": "մեդիկերեն",
-  "@medicine": {
-    "description": "お薬タブのタイトル"
-  },
   "inquiry": "Հետևեք",
-  "@inquiry": {
-    "description": "お問い合わせボタンのテキスト"
-  },
   "ok": "Լավ",
-  "@ok": {
-    "description": "確認ダイアログのOKボタンのテキスト"
-  },
   "medicationScheduleLimit": "Դեղ ընդունելու գրաֆիկը կարող է գրանցվել մինչև {count} անգամ։",
-  "@medicationScheduleLimit": {
-    "description": "服用スケジュールの登録上限を表示するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "3"
-      }
-    }
-  },
+  "increaseMedicationScheduleLimit": "Պրեմիում պլանով ավելացնել սահմանաչափը մինչև {count}",
   "addMedicationSchedule": "Ավելացնել դեղամիջոցի դավաճանության գրաֆիկ",
-  "@addMedicationSchedule": {
-    "description": "服用スケジュールを追加するボタンのテキスト"
-  },
   "medicationScheduleNotificationSetting": "Դեղամիջոցների ժամանակացույցի ծանուցման կարգավորումներ",
-  "@medicationScheduleNotificationSetting": {
-    "description": "服用スケジュールの通知設定画面のタイトル"
-  },
   "notificationSetting": "Անհայտացման կարգավորումներ",
-  "@notificationSetting": {
-    "description": "通知設定セクションのタイトル"
-  },
   "enableFollowupNotification": "Enabled follow-up notifications",
-  "@enableFollowupNotification": {
-    "description": "フォローアップ通知を有効にするスイッチのラベル"
-  },
   "followupNotificationDescription": "Եթե առաջին ծանուցումից 30 րոպեի ընթացքում դեղամիջոցը չգրանցվի, կհետեւի լրացուցիչ ծանուցում։",
-  "@followupNotificationDescription": {
-    "description": "フォローアップ通知の説明文"
-  },
   "enableNotificationInSilentMode": "Տեղեկացնել նաև մոլորակի ռեժիմում",
-  "@enableNotificationInSilentMode": {
-    "description": "マナーモード時の通知を有効にするスイッチのラベル"
-  },
   "silentModeNotificationDescription": "Երբ կենտրոնացման ռեժիմը ակտիվ է, կամ սարքն անջատման (մենակ) ռեժիմում է, կարևոր ծանուցումները ամբողջ էկրանին (տրամկապի մեջ) ցուցադրվելու են՝ իրականացնելով ձայներ",
-  "@silentModeNotificationDescription": {
-    "description": "マナーモード時の通知の説明文"
-  },
   "everyXDaysFormat": "{count} օրն մեկ",
-  "@everyXDaysFormat": {
-    "description": "X日ごとの服用頻度を表示する際のフォーマット",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "2"
-      }
-    }
-  },
   "cycleDaysFormat": "{consecutiveDays} օր գումարած/{restDays} օր դեղը չընդունելու",
-  "@cycleDaysFormat": {
-    "description": "服用周期を表示する際のフォーマット",
-    "placeholders": {
-      "consecutiveDays": {
-        "type": "int",
-        "example": "21"
-      },
-      "restDays": {
-        "type": "int",
-        "example": "7"
-      }
-    }
-  },
   "consecutiveDaysFormat": "{count} օր դեղամիջոցների",
-  "@consecutiveDaysFormat": {
-    "description": "連続服用日数を表示する際のフォーマット",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "21"
-      }
-    }
-  },
   "restDaysFormat": "{count} օր դեղամիջոց չընդունելու",
-  "@restDaysFormat": {
-    "description": "休薬日数を表示する際のフォーマット",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "7"
-      }
-    }
-  },
   "limitedTimeDiscount": "Այժմ սահմանափակ գներով կարող եք օգտագործել մշտապես",
-  "@limitedTimeDiscount": {
-    "description": "プレミアムプランの限定価格キャンペーンを案内するメッセージ"
-  },
   "monthlyPlan": "ամսական ծրագիր",
-  "@monthlyPlan": {
-    "description": "月額プランの名称"
-  },
   "annualPlan": "ամսական ծրագիր",
-  "@annualPlan": {
-    "description": "年額プランの名称"
-  },
   "weeklyPlan": "Շաբաթական պլան",
-  "@weeklyPlan": {
-    "description": "週額プランの名称"
-  },
   "premiumRequired": "Դուք կարող եք մուտք գործել դիտում՝ մասնակցելով պրեմիում ծրագրին",
-  "@premiumRequired": {
-    "description": "プレミアムプラン加入が必要な機能へのアクセス時のメッセージ"
-  },
   "medication": "Դեղորայք",
-  "@medication": {
-    "description": "服薬タブのタイトル"
-  },
   "history": "Պատմություն",
-  "@history": {
-    "description": "履歴タブのタイトル"
-  },
   "medicineRegistrationLimit": "Դեղերի գրանցման թիվը",
-  "@medicineRegistrationLimit": {
-    "description": "薬の登録数の上限を説明するテキストの一部"
-  },
   "doseReceiverRegistrationLimit": "գործողության գրանցված անձանց քանակը",
-  "@doseReceiverRegistrationLimit": {
-    "description": "服用者の登録数の上限を説明するテキストの一部"
-  },
   "notificationScheduleLimit": "ներդրեք ծանուցման ժամանակացույցի քանակը",
-  "@notificationScheduleLimit": {
-    "description": "通知スケジュールの上限を説明するテキストの一部"
-  },
   "addMedicine": "Դեղամիջոց ավելացնել",
-  "@addMedicine": {
-    "description": "お薬を追加するボタンのテキスト"
-  },
   "medicineMaxCount": "Դեղորայքը կարող է գրանցվել մինչև {count} հատ։",
-  "@medicineMaxCount": {
-    "description": "お薬の最大登録数を表示するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "5"
-      }
-    }
-  },
   "increaseMedicineLimitWithPremium": "Պրեմիում պլանով սահմանը ավելացնել մինչ {count}",
-  "@increaseMedicineLimitWithPremium": {
-    "description": "お薬の登録上限をプレミアムプランで増やすことを案内するメッセージ",
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "10"
-      }
-    }
-  },
   "aboutApp": "Միավորի մասին",
-  "@aboutApp": {
-    "description": "アプリについてのセクションタイトル"
-  },
   "viewPremiumPlan": "Աջակցություն պլաններին",
-  "@viewPremiumPlan": {
-    "description": "プレミアムプランの詳細を表示するためのボタンテキスト"
-  },
   "cancelSubscriptionInstruction": "Գնելիզ հետո, ավտոմատ թարմացման չեղարկումը կարող եք անել {storeName} application's account settings-ում։ (Դերեր իջեցնելուց ավտոմատ թարմացման չեղարկումը չի կարող իրականացվել)։",
-  "@cancelSubscriptionInstruction": {
-    "description": "自動更新の解約方法の説明",
-    "placeholders": {
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "headache": "գլխացավ",
-  "@headache": {
-    "description": "症状の選択肢：頭痛"
-  },
   "stomachache": "Սովորական ցավ",
-  "@stomachache": {
-    "description": "症状の選択肢：腹痛"
-  },
   "nausea": "Ամաչեցությ",
-  "@nausea": {
-    "description": "症状の選択肢：吐き気"
-  },
   "anemia": "հիպոպլիզմ",
-  "@anemia": {
-    "description": "症状の選択肢：貧血"
-  },
   "diarrhea": "Թուլացում",
-  "@diarrhea": {
-    "description": "症状の選択肢：下痢"
-  },
   "constipation": "փորկապություն",
-  "@constipation": {
-    "description": "症状の選択肢：便秘"
-  },
   "hotFlash": "քրտինք",
-  "@hotFlash": {
-    "description": "症状の選択肢：ほてり"
-  },
   "drowsiness": "հոգնածություն",
-  "@drowsiness": {
-    "description": "症状の選択肢：眠気"
-  },
   "backPain": "Տաճիկ",
-  "@backPain": {
-    "description": "症状の選択肢：腰痛"
-  },
   "palpitation": "դրույք",
-  "@palpitation": {
-    "description": "症状の選択肢：動悸"
-  },
   "abnormalBleeding": "Անկանոն արյունահոսություն",
-  "@abnormalBleeding": {
-    "description": "症状の選択肢：不正出血"
-  },
   "lossOfAppetite": "Ապտեկումից հրաժարում",
-  "@lossOfAppetite": {
-    "description": "症状の選択肢：食欲不振"
-  },
   "chestTightness": "Սրտամեծություն",
-  "@chestTightness": {
-    "description": "症状の選択肢：胸の張り"
-  },
   "insomnia": "Ոչ անհանգստություն",
-  "@insomnia": {
-    "description": "症状の選択肢：不眠"
-  },
   "monthlyPlanDiscountFormat": "{percent}% ՓՈՌԸ առավելագույն ամսական գների",
-  "@monthlyPlanDiscountFormat": {
-    "description": "月額プランからの割引率を表示するフォーマット",
-    "placeholders": {
-      "percent": {
-        "type": "int",
-        "example": "50"
-      }
-    }
-  },
   "purchaseErrorUnknown": "Էրոր է տեղի ունեցել անսովոր պատճառներով: Խնդրում ենք փորձել կրկին մի շարք ժամանակ անց: Եթե խնդիրը չի լուծվի, խնդրում ենք դիմել `Կարգավորումներ > Հարցում` միջոցով: Փաստաթղթավորում: {message}",
-  "@purchaseErrorUnknown": {
-    "description": "購入時の不明なエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorStoreProblem": "{storeName} - ում սխալ է տեղի ունենում։ Խնդրում ենք մի փոքր ժամանակ զուտ դարձնել և փորձել կրկին",
-  "@purchaseErrorStoreProblem": {
-    "description": "ストアでのエラーメッセージ",
-    "placeholders": {
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "purchaseErrorInvalidPayment": "Վճարումը ձախողվեց: Խնդրում ենք ստուգել, թե արդյոք վճարման եղանակը օրինական է, և փորձել կրկին։",
-  "@purchaseErrorInvalidPayment": {
-    "description": "支払い方法が無効な場合のエラーメッセージ"
-  },
   "purchaseErrorProductUnavailable": "Ընտրաքարի պլանը ներկայումս չի վաճառվում։ Խնդրում ենք կրկին սկսել ծրարը և փորձեք մուտք գործել։",
-  "@purchaseErrorProductUnavailable": {
-    "description": "商品が利用できない場合のエラーメッセージ"
-  },
   "purchaseErrorAlreadyPurchased": "Ձեր դեմքը արդեն գնել է պլան: Այս սարքում գնելու տեղեկությունները վերականգնելու դեպքում, վերականգնեք տեղեկությունները `Այս մասին գնելու համար`-ի կողմից",
-  "@purchaseErrorAlreadyPurchased": {
-    "description": "すでに購入済みの場合のエラーメッセージ"
-  },
   "purchaseErrorReceiptInUse": "Արդեն գնելուց է: Մոք հա գնելու տեղեկատվությունը օգտագործվում է ուրիշ օգտվողի հետ: Տեսեք {accountName}-ը",
-  "@purchaseErrorReceiptInUse": {
-    "description": "購入情報が他のユーザーで使用されている場合のエラーメッセージ",
-    "placeholders": {
-      "accountName": {
-        "type": "String",
-        "example": "Apple ID"
-      }
-    }
-  },
   "purchaseErrorInvalidReceipt": "Սխալ գնումների տեղեկատվություն է։ Խնդրում ենք ստուգել գնումների տեղեկատվությունը",
-  "@purchaseErrorInvalidReceipt": {
-    "description": "購入情報が無効な場合のエラーメッセージ"
-  },
   "purchaseErrorMissingReceipt": "Ռոգզումի տեղեկատվություն գոյություն չունի։ Կարող եք փորձել {accountName}-ի միջոցով ձեր սարքում մուտք գործելով։",
-  "@purchaseErrorMissingReceipt": {
-    "description": "購入情報が見つからない場合のエラーメッセージ",
-    "placeholders": {
-      "accountName": {
-        "type": "String",
-        "example": "Apple ID"
-      }
-    }
-  },
   "purchaseErrorNetwork": "Ձանցանցային վիճակն անապահով է։ Խնդրում ենք ստուգել միացման վիճակը և փորձել նորից։",
-  "@purchaseErrorNetwork": {
-    "description": "ネットワークエラーの場合のエラーメッセージ"
-  },
   "purchaseNotAllowed": "Այս կտDeviceպտ, գնումներ թույլ չեն տրվում",
-  "@purchaseNotAllowed": {
-    "description": "デバイスでの購入が許可されていない場合のエラーメッセージ"
-  },
   "purchaseErrorUnexpectedBackend": "Հիմա գնումներ կատարել հնարավոր չէ։ Խնդրում ենք փորձել կրկին որոշ ժամանակ անց։ Եթե լուծում չեք գտնում, խնդրում ենք կապվել մեզ՝ Ցուցակ > Հարցում բաժնից։ Մանրամասն տեղեկություն՝ {message}",
-  "@purchaseErrorUnexpectedBackend": {
-    "description": "バックエンドで予期せぬエラーが発生した場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorOperationInProgress": "Այս քննական գործընթացը արդեն ընթացքի մեջ է։ Խնդրում ենք նշել ժամանակահատված և նորից ստուգել։",
-  "@purchaseErrorOperationInProgress": {
-    "description": "購入処理が既に進行中の場合のエラーメッセージ"
-  },
   "purchaseErrorInsufficientPermissions": "Ձեր `{accountName}` օգտագործման դեպքում չեք կարող ընդգրկվել պլանում: Խնդրում ենք ստուգել վճարման տեղեկությունները և կրկին փորձել.",
-  "@purchaseErrorInsufficientPermissions": {
-    "description": "権限が不足している場合のエラーメッセージ",
-    "placeholders": {
-      "accountName": {
-        "type": "String",
-        "example": "Apple ID"
-      }
-    }
-  },
   "purchaseErrorPaymentPending": "Արդարացնողը, մինչդեռ վճարումը շարունակում է մնալ: Խնդրում ենք ստուգել {storeName}ը ձեր ակտիվ {accountName} հաշվի տվյալներով։",
-  "@purchaseErrorPaymentPending": {
-    "description": "支払いが保留中の場合のエラーメッセージ",
-    "placeholders": {
-      "accountName": {
-        "type": "String",
-        "example": "Apple ID"
-      },
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "premiumUserThanksTitle": "Պրեմիում անդամ է",
-  "@premiumUserThanksTitle": {
-    "description": "プレミアムユーザーへの感謝を示すタイトル"
-  },
   "premiumUserThanksMessage": "Շնորհակալություն օգտագործման համար։ Ձեր շնորհիվ Medicalarm-ի գործունեությունը շարունակվում է։",
-  "@premiumUserThanksMessage": {
-    "description": "プレミアムユーザーへの感謝メッセージ"
-  },
   "premiumPricePerMonth": "({price}/ամսյակ)",
-  "@premiumPricePerMonth": {
-    "description": "月額料金の表示フォーマット",
-    "placeholders": {
-      "price": {
-        "type": "String",
-        "example": "¥500"
-      }
-    }
-  },
   "premiumCancelDescription": "• Վճարումից հետո ինքնալրացումից հրաժարումը կարող եք իրականացնել {storeName} հավելվածի հաշվի կարգավորումներում։ (Հավելվածի ներսում ինքնալրացման հրաժարում իրականացնելու հնարավորությունները չունեք)։",
-  "@premiumCancelDescription": {
-    "description": "プレミアムプランの解約方法の説明",
-    "placeholders": {
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "purchaseErrorRestoreFailed": "Նախորդ գնումների տեղեկությունները չգտնվեցին։ Պահանջում ենք, որ դուք ստուգեք ձեր հաշիվը և փորձեք կրկին։",
-  "@purchaseErrorRestoreFailed": {
-    "description": "購入情報の復元に失敗した場合のエラーメッセージ"
-  },
   "purchaseErrorUserNotFound": "Օգտագործողը չի հաջողվել գտնել: Խնդրում ենք կրկին սկսել ծրագիրը և փորձել նորից: Նկարագրություն: {message}",
-  "@purchaseErrorUserNotFound": {
-    "description": "ユーザーが見つからない場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorActivationPending": "Վճարման ակտիվացումը ավարտված չէ։ Խնդրում ենք մի փոքր ժամանակ սպասել և կրկին ստուգել։",
-  "@purchaseErrorActivationPending": {
-    "description": "課金の有効化が完了していない場合のエラーメッセージ"
-  },
   "purchaseErrorTimeout": "Երկար ժամանակ սպասելուց հետո կապը խզվել է։ Խնդրում ենք ստուգել կապի պայմանները և փորձել կրկին։ Եթե խնդիրը չլուծվի, խնդրում եմ կապ հաստատել պարամետրեր > Հարցում բաժնի միջոցով։ Մանրամասն՝ {message}",
-  "@purchaseErrorTimeout": {
-    "description": "購入処理がタイムアウトした場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "purchaseErrorNetworkError": "Երեխաներ պահել չեն կարողանում։ Խնդրում եմ ստուգեք ձեր կապի միջավայրը եւ կրկին փորձեք։ Եթե խնդիրը չլուծվի, խնդրում ենք կապնվել կարգավորում > հարցումներ։ Մանրամասն տեղեկություններ: {message}",
-  "@purchaseErrorNetworkError": {
-    "description": "ネットワークエラーが発生した場合のエラーメッセージ",
-    "placeholders": {
-      "message": {
-        "type": "String",
-        "example": "エラーの詳細"
-      }
-    }
-  },
   "sixMonthPlan": "6 ամսվա ծրագրեր",
-  "@sixMonthPlan": {
-    "description": "6ヶ月プランの表示名"
-  },
   "premiumContractPeriod": "Էլեկտրոնային պայմանագիրը գործում է գնումից մեկ ամիս:",
-  "@premiumContractPeriod": {
-    "description": "プレミアムプランの契約期間の説明"
-  },
   "privacyPolicy": "Գաղտնիության քաղաքականություն",
-  "@privacyPolicy": {
-    "description": "プライバシーポリシーのリンクテキスト"
-  },
   "termsOfService": "Օգտագործման պայմաններ",
-  "@termsOfService": {
-    "description": "利用規約のリンクテキスト"
-  },
   "specifiedCommercialTransactionAct": "Հատուկ առեւտրի օրենքի հիման վրա հրապարակում",
-  "@specifiedCommercialTransactionAct": {
-    "description": "特定商取引法に基づく表記のリンクテキスト"
-  },
   "confirmBeforeRegistration": "Խնդրում ենք հաստատել և գրանցվել",
-  "@confirmBeforeRegistration": {
-    "description": "各種規約確認を促すメッセージ"
-  },
   "autoRenewalNotice": "Պայմանագրի ժամկետի ավարտից հետո ծրագիրը ավտոմատ կերպով կթարմացվի։",
-  "@autoRenewalNotice": {
-    "description": "自動更新に関する注意事項"
-  },
   "restorePurchase": "Նախկինում գնածները այստեղ են",
-  "@restorePurchase": {
-    "description": "購入情報の復元リンクのテキスト"
-  },
   "purchaseRestored": "Դուք վերականգնեցիք գնումների տեղեկատվությունը",
-  "@purchaseRestored": {
-    "description": "購入情報の復元が完了した際のメッセージ"
-  },
   "medicationTimeFollowup": "Ապահովագրումի ժամանակի հետևորդ",
-  "@medicationTimeFollowup": {
-    "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
-  },
   "updateRequired": "Թարմացում անհրաժեշտ է",
-  "@updateRequired": {
-    "description": "強制アップデートが必要な場合のダイアログタイトル"
-  },
   "updateRequiredMessage": "Խնդրում ենք վերափոխել {storeName}-ից ամենավերջին տարբերակին",
-  "@updateRequiredMessage": {
-    "description": "強制アップデートが必要な場合のダイアログメッセージ",
-    "placeholders": {
-      "storeName": {
-        "type": "String",
-        "example": "App Store"
-      }
-    }
-  },
   "screenshotMedicationHistoriesMemo": "Հիմնականը շատ երկար քնել է, ու բանավոր ճառագայթելու ժամանակը չուշացել",
-  "@screenshotMedicationHistoriesMemo": {
-    "description": "薬のメモの例"
-  },
   "screenshotMedicationDoserReceiver1": "Ես",
-  "@screenshotMedicationDoserReceiver1": {
-    "description": "薬の服用者の例"
-  },
   "screenshotMedicationDoserReceiver2": "Մանա-չան",
-  "@screenshotMedicationDoserReceiver2": {
-    "description": "薬の服用者の例"
-  },
   "screenshotMedicationQuontityMemo1": "1 դեղաչափ",
-  "@screenshotMedicationQuontityMemo1": {
-    "description": "薬の服用量の例"
-  },
   "screenshotMedicationQuontityMemo2": "2 դեղ",
-  "@screenshotMedicationQuontityMemo2": {
-    "description": "薬の服用量の例"
-  },
   "screenshotMedicationName1": "Գլխացավերի դեղ",
-  "@screenshotMedicationName1": {
-    "description": "薬の名前の例"
-  },
   "screenshotMedicationName2": "Վիտամինների հաբեր",
-  "@screenshotMedicationName2": {
-    "description": "薬の名前の例"
-  },
   "notificationTitle": "Դա medicament-ի ժամանակն է",
-  "@notificationTitle": {
-    "description": "薬の通知のタイトル"
-  },
   "notificationFollowupTitle": "Մոռացաք արդյոք դեղորայքի գրառումը տանել։",
-  "@notificationFollowupTitle": {
-    "description": "服用時刻の通知から30分後のフォローアップ通知のタイトル"
-  },
   "recommendedApp": "հարմարեցված ծրագիր",
-  "@recommendedApp": {
-    "description": "おすすめアプリのタイトル"
-  },
   "pilllIntroduction": "Դուք, acaso, ի՞նչ եք անում խմելու մզկիթի կառավարումը: Շնորհավորում եմ, որ ավելի հարմարավետ եք մզկիթի ընդունելը կառավարելու։",
-  "@pilllIntroduction": {
-    "description": "ピルの管理の紹介"
-  },
   "installPilll": "Պիլլը տեղադրել",
-  "@installPilll": {
-    "description": "Pilllをインストールするボタンのテキスト"
-  },
-  "criticalAlertVolume": "ԱՌԱՋՆՈՒՅԹ",
-  "@criticalAlertVolume": {
-    "description": "緊急通知の音量の表示名"
-  }
+  "criticalAlertVolume": "ԱՌԱՋՆՈՒՅԹ"
 }
