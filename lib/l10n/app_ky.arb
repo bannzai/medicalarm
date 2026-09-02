@@ -206,5 +206,6 @@
   "yourDisplayName": "Көрсөтүлүүчү атыңыз",
   "displayNameInputHint": "Көрүнүүчү атты киргизиңиз",
   "ownerLabel": "Ээси",
-  "youLabel": "Сиз"
+  "youLabel": "Сиз",
+  "removeMemberConfirmTitle": "Мүчөнү өчүрөсүзбү?"
 }

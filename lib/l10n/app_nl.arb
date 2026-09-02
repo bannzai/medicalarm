@@ -206,5 +206,6 @@
   "yourDisplayName": "Je weergavenaam",
   "displayNameInputHint": "Voer weergavenaam in",
   "ownerLabel": "Eigenaar",
-  "youLabel": "Jij"
+  "youLabel": "Jij",
+  "removeMemberConfirmTitle": "Lid verwijderen?"
 }

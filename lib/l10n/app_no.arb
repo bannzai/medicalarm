@@ -206,5 +206,6 @@
   "yourDisplayName": "Visningsnavnet ditt",
   "displayNameInputHint": "Skriv inn visningsnavn",
   "ownerLabel": "Eier",
-  "youLabel": "Du"
+  "youLabel": "Du",
+  "removeMemberConfirmTitle": "Vil du fjerne medlemmet?"
 }

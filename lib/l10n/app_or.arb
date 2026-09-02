@@ -206,5 +206,6 @@
   "yourDisplayName": "ଆପଣଙ୍କର ପ୍ରଦର୍ଶିତ ନାମ",
   "displayNameInputHint": "ପ୍ରଦର୍ଶନ ନାମ ଲେଖନ୍ତୁ",
   "ownerLabel": "ମାଲିକ",
-  "youLabel": "ଆପଣ"
+  "youLabel": "ଆପଣ",
+  "removeMemberConfirmTitle": "ସଦସ୍ୟଙ୍କୁ ହଟାଇବେ କି?"
 }

@@ -206,5 +206,6 @@
   "yourDisplayName": "آپ کا ڈسپلے نام",
   "displayNameInputHint": "ڈسپلے نام درج کریں",
   "ownerLabel": "مالک",
-  "youLabel": "آپ"
+  "youLabel": "آپ",
+  "removeMemberConfirmTitle": "کیا رکن کو ہٹانا ہے؟"
 }

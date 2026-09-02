@@ -206,5 +206,6 @@
   "yourDisplayName": "Din Aazeigname",
   "displayNameInputHint": "Anzeigename eingeben",
   "ownerLabel": "Besitzer",
-  "youLabel": "Du"
+  "youLabel": "Du",
+  "removeMemberConfirmTitle": "Möchten Sie das Mitglied entfernen?"
 }

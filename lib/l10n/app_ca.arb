@@ -206,5 +206,6 @@
   "yourDisplayName": "El vostre nom de visualització",
   "displayNameInputHint": "Introduïu el nom visible",
   "ownerLabel": "Propietari",
-  "youLabel": "Tu"
+  "youLabel": "Tu",
+  "removeMemberConfirmTitle": "Vols suprimir el membre?"
 }

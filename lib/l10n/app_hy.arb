@@ -206,5 +206,6 @@
   "yourDisplayName": "Ձեր ցուցադրվող անունը",
   "displayNameInputHint": "Մուտքագրեք ցուցադրվող անունը",
   "ownerLabel": "Սեփականատեր",
-  "youLabel": "Դուք"
+  "youLabel": "Դուք",
+  "removeMemberConfirmTitle": "Հեռացնե՞լ անդամին։"
 }

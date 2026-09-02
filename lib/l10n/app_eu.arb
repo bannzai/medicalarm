@@ -206,5 +206,6 @@
   "yourDisplayName": "Zure bistaratzeko izena",
   "displayNameInputHint": "Sartu bistaratzeko izena",
   "ownerLabel": "Jabea",
-  "youLabel": "Zu"
+  "youLabel": "Zu",
+  "removeMemberConfirmTitle": "Kidea kendu nahi duzu?"
 }

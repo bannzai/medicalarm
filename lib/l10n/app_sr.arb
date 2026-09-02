@@ -206,5 +206,6 @@
   "yourDisplayName": "Ваше име за приказ",
   "displayNameInputHint": "Унесите приказано име",
   "ownerLabel": "Власник",
-  "youLabel": "Ви"
+  "youLabel": "Ви",
+  "removeMemberConfirmTitle": "Уклонити члана?"
 }

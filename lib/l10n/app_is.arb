@@ -206,5 +206,6 @@
   "yourDisplayName": "Birtingarnafnið þitt",
   "displayNameInputHint": "Sláðu inn birtingarnafn",
   "ownerLabel": "Eigandi",
-  "youLabel": "Þú"
+  "youLabel": "Þú",
+  "removeMemberConfirmTitle": "Fjarlægja meðlim?"
 }

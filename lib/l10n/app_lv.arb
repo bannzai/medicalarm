@@ -206,5 +206,6 @@
   "yourDisplayName": "Jūsu parādāmais vārds",
   "displayNameInputHint": "Ievadiet parādāmo vārdu",
   "ownerLabel": "Īpašnieks",
-  "youLabel": "Jūs"
+  "youLabel": "Jūs",
+  "removeMemberConfirmTitle": "Vai noņemt dalībnieku?"
 }

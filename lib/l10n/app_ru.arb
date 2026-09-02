@@ -206,5 +206,6 @@
   "yourDisplayName": "Ваше отображаемое имя",
   "displayNameInputHint": "Введите отображаемое имя",
   "ownerLabel": "Владелец",
-  "youLabel": "Вы"
+  "youLabel": "Вы",
+  "removeMemberConfirmTitle": "Удалить участника?"
 }

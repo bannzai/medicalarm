@@ -206,5 +206,6 @@
   "yourDisplayName": "Το όνομα εμφάνισής σας",
   "displayNameInputHint": "Εισαγάγετε εμφανιζόμενο όνομα",
   "ownerLabel": "Ιδιοκτήτης",
-  "youLabel": "Εσείς"
+  "youLabel": "Εσείς",
+  "removeMemberConfirmTitle": "Θέλετε να καταργήσετε το μέλος;"
 }

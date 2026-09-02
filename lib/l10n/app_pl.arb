@@ -206,5 +206,6 @@
   "yourDisplayName": "Twoja nazwa wyświetlana",
   "displayNameInputHint": "Wpisz nazwę wyświetlaną",
   "ownerLabel": "Właściciel",
-  "youLabel": "Ty"
+  "youLabel": "Ty",
+  "removeMemberConfirmTitle": "Czy chcesz usunąć członka?"
 }

@@ -206,5 +206,6 @@
   "yourDisplayName": "మీ ప్రదర్శన పేరు",
   "displayNameInputHint": "ప్రదర్శన పేరును నమోదు చేయండి",
   "ownerLabel": "యజమాని",
-  "youLabel": "మీరు"
+  "youLabel": "మీరు",
+  "removeMemberConfirmTitle": "సభ్యుడిని తీసివేయాలా?"
 }

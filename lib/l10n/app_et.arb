@@ -206,5 +206,6 @@
   "yourDisplayName": "Teie kuvatav nimi",
   "displayNameInputHint": "Sisestage kuvatav nimi",
   "ownerLabel": "Omanik",
-  "youLabel": "Sina"
+  "youLabel": "Sina",
+  "removeMemberConfirmTitle": "Kas eemaldada liige?"
 }

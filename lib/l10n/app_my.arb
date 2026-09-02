@@ -206,5 +206,6 @@
   "yourDisplayName": "သင်၏ဖော်ပြအမည်",
   "displayNameInputHint": "ပြသမည့်အမည်ကို ထည့်ပါ",
   "ownerLabel": "ပိုင်ရှင်",
-  "youLabel": "သင်"
+  "youLabel": "သင်",
+  "removeMemberConfirmTitle": "အဖွဲ့ဝင်ကို ဖယ်ရှားမလား။"
 }

@@ -206,5 +206,6 @@
   "yourDisplayName": "Вашето показвано име",
   "displayNameInputHint": "Въведете показвано име",
   "ownerLabel": "Собственик",
-  "youLabel": "Вие"
+  "youLabel": "Вие",
+  "removeMemberConfirmTitle": "Да се премахне ли членът?"
 }

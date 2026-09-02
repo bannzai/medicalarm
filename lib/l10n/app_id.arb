@@ -206,5 +206,6 @@
   "yourDisplayName": "Nama tampilan Anda",
   "displayNameInputHint": "Masukkan nama tampilan",
   "ownerLabel": "Pemilik",
-  "youLabel": "Anda"
+  "youLabel": "Anda",
+  "removeMemberConfirmTitle": "Hapus anggota?"
 }

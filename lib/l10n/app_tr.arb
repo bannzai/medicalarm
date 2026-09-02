@@ -206,5 +206,6 @@
   "yourDisplayName": "Görünen adınız",
   "displayNameInputHint": "Görünen adı girin",
   "ownerLabel": "Sahip",
-  "youLabel": "Siz"
+  "youLabel": "Siz",
+  "removeMemberConfirmTitle": "Üye kaldırılsın mı?"
 }

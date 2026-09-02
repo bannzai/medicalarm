@@ -206,5 +206,6 @@
   "yourDisplayName": "Jou vertoonnaam",
   "displayNameInputHint": "Voer vertoonnaam in",
   "ownerLabel": "Eienaar",
-  "youLabel": "Jy"
+  "youLabel": "Jy",
+  "removeMemberConfirmTitle": "Wil jy hierdie lid verwyder?"
 }

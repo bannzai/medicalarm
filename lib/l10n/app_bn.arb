@@ -206,5 +206,6 @@
   "yourDisplayName": "আপনার প্রদর্শন নাম",
   "displayNameInputHint": "প্রদর্শন নাম লিখুন",
   "ownerLabel": "মালিক",
-  "youLabel": "আপনি"
+  "youLabel": "আপনি",
+  "removeMemberConfirmTitle": "সদস্যকে সরিয়ে দেবেন?"
 }

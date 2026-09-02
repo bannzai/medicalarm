@@ -206,5 +206,6 @@
   "yourDisplayName": "თქვენი საჩვენებელი სახელი",
   "displayNameInputHint": "შეიყვანეთ საჩვენებელი სახელი",
   "ownerLabel": "მფლობელი",
-  "youLabel": "თქვენ"
+  "youLabel": "თქვენ",
+  "removeMemberConfirmTitle": "წავშალოთ წევრი?"
 }

@@ -206,5 +206,6 @@
   "yourDisplayName": "Iyong pangalan sa display",
   "displayNameInputHint": "Ilagay ang pangalan na ipapakita",
   "ownerLabel": "May-ari",
-  "youLabel": "Ikaw"
+  "youLabel": "Ikaw",
+  "removeMemberConfirmTitle": "Alisin ang miyembro?"
 }

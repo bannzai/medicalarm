@@ -206,5 +206,6 @@
   "yourDisplayName": "Ko‘rsatiladigan nomingiz",
   "displayNameInputHint": "Ko‘rsatiladigan ismni kiriting",
   "ownerLabel": "Egasi",
-  "youLabel": "Siz"
+  "youLabel": "Siz",
+  "removeMemberConfirmTitle": "Aʼzoni olib tashlaysizmi?"
 }

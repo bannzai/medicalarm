@@ -206,5 +206,6 @@
   "yourDisplayName": "તમારું પ્રદર્શન નામ",
   "displayNameInputHint": "ડિસ્પ્લે નામ દાખલ કરો",
   "ownerLabel": "માલિક",
-  "youLabel": "તમે"
+  "youLabel": "તમે",
+  "removeMemberConfirmTitle": "સભ્યને દૂર કરવા માંગો છો?"
 }

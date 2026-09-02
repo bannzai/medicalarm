@@ -206,5 +206,6 @@
   "yourDisplayName": "Emri juaj i shfaqur",
   "displayNameInputHint": "Futni emrin e shfaqur",
   "ownerLabel": "Pronar",
-  "youLabel": "Ju"
+  "youLabel": "Ju",
+  "removeMemberConfirmTitle": "Të hiqet anëtari?"
 }

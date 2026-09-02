@@ -206,5 +206,6 @@
   "yourDisplayName": "Megjelenített neve",
   "displayNameInputHint": "Adja meg a megjelenítendő nevet",
   "ownerLabel": "Tulajdonos",
-  "youLabel": "Ön"
+  "youLabel": "Ön",
+  "removeMemberConfirmTitle": "Eltávolítja a tagot?"
 }

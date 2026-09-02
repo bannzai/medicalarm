@@ -206,5 +206,6 @@
   "yourDisplayName": "Eich enw arddangos",
   "displayNameInputHint": "Rhowch enw arddangos",
   "ownerLabel": "Perchennog",
-  "youLabel": "Chi"
+  "youLabel": "Chi",
+  "removeMemberConfirmTitle": "Dileu dileu’r aelod?"
 }

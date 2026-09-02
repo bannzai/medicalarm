@@ -206,5 +206,6 @@
   "yourDisplayName": "Tên hiển thị của bạn",
   "displayNameInputHint": "Nhập tên hiển thị",
   "ownerLabel": "Chủ sở hữu",
-  "youLabel": "Bạn"
+  "youLabel": "Bạn",
+  "removeMemberConfirmTitle": "Bạn có muốn xóa thành viên không?"
 }

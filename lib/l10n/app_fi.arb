@@ -206,5 +206,6 @@
   "yourDisplayName": "Näyttönimesi",
   "displayNameInputHint": "Anna näyttönimi",
   "ownerLabel": "Omistaja",
-  "youLabel": "Sinä"
+  "youLabel": "Sinä",
+  "removeMemberConfirmTitle": "Poistetaanko jäsen?"
 }

@@ -206,5 +206,6 @@
   "yourDisplayName": "Вашае адлюстраванае імя",
   "displayNameInputHint": "Увядзіце адлюстравальнае імя",
   "ownerLabel": "Уладальнік",
-  "youLabel": "Вы"
+  "youLabel": "Вы",
+  "removeMemberConfirmTitle": "Выдаліць удзельніка?"
 }

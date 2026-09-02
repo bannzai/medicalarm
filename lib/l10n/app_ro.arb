@@ -206,5 +206,6 @@
   "yourDisplayName": "Numele dvs. afișat",
   "displayNameInputHint": "Introduceți numele afișat",
   "ownerLabel": "Proprietar",
-  "youLabel": "Tu"
+  "youLabel": "Tu",
+  "removeMemberConfirmTitle": "Doriți să eliminați membrul?"
 }

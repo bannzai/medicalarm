@@ -206,5 +206,6 @@
   "yourDisplayName": "ชื่อที่แสดงของคุณ",
   "displayNameInputHint": "ป้อนชื่อที่แสดง",
   "ownerLabel": "เจ้าของ",
-  "youLabel": "คุณ"
+  "youLabel": "คุณ",
+  "removeMemberConfirmTitle": "ต้องการลบสมาชิกหรือไม่"
 }

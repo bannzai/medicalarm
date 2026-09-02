@@ -206,5 +206,6 @@
   "yourDisplayName": "Nama paparan anda",
   "displayNameInputHint": "Masukkan nama paparan",
   "ownerLabel": "Pemilik",
-  "youLabel": "Anda"
+  "youLabel": "Anda",
+  "removeMemberConfirmTitle": "Ali mahu mengalih keluar ahli?"
 }

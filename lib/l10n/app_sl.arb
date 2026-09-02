@@ -206,5 +206,6 @@
   "yourDisplayName": "Vaše prikazno ime",
   "displayNameInputHint": "Vnesite prikazano ime",
   "ownerLabel": "Lastnik",
-  "youLabel": "Vi"
+  "youLabel": "Vi",
+  "removeMemberConfirmTitle": "Želite odstraniti člana?"
 }

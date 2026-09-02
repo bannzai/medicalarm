@@ -206,5 +206,6 @@
   "yourDisplayName": "የእርስዎ የማሳያ ስም",
   "displayNameInputHint": "የሚታይ ስም ያስገቡ",
   "ownerLabel": "ባለቤት",
-  "youLabel": "እርስዎ"
+  "youLabel": "እርስዎ",
+  "removeMemberConfirmTitle": "አባሉን ማስወገድ ይፈልጋሉ?"
 }

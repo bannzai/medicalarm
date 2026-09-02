@@ -206,5 +206,6 @@
   "yourDisplayName": "שם התצוגה שלך",
   "displayNameInputHint": "הזן שם תצוגה",
   "ownerLabel": "בעלים",
-  "youLabel": "את/ה"
+  "youLabel": "את/ה",
+  "removeMemberConfirmTitle": "להסיר את החבר?"
 }

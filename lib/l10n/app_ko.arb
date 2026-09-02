@@ -206,5 +206,6 @@
   "yourDisplayName": "표시 이름",
   "displayNameInputHint": "표시 이름 입력",
   "ownerLabel": "소유자",
-  "youLabel": "나"
+  "youLabel": "나",
+  "removeMemberConfirmTitle": "멤버를 삭제하시겠습니까?"
 }

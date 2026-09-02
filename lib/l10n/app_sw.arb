@@ -206,5 +206,6 @@
   "yourDisplayName": "Jina lako la kuonyesha",
   "displayNameInputHint": "Weka jina la kuonyeshwa",
   "ownerLabel": "Mmiliki",
-  "youLabel": "Wewe"
+  "youLabel": "Wewe",
+  "removeMemberConfirmTitle": "Ungependa kumwondoa mwanachama?"
 }
