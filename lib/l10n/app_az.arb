@@ -207,5 +207,6 @@
   "displayNameInputHint": "Göstərilən adı daxil edin",
   "ownerLabel": "Sahib",
   "youLabel": "Siz",
-  "removeMemberConfirmTitle": "Üzv silinsin?"
+  "removeMemberConfirmTitle": "Üzv silinsin?",
+  "removeMemberConfirmMessage": "{name} qrupdan silinəcək"
 }

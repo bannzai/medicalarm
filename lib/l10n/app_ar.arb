@@ -207,5 +207,6 @@
   "displayNameInputHint": "أدخل اسم العرض",
   "ownerLabel": "المالك",
   "youLabel": "أنت",
-  "removeMemberConfirmTitle": "هل تريد إزالة العضو؟"
+  "removeMemberConfirmTitle": "هل تريد إزالة العضو؟",
+  "removeMemberConfirmMessage": "إزالة {name} من المجموعة"
 }

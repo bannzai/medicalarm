@@ -207,5 +207,6 @@
   "displayNameInputHint": "প্রদর্শন নাম লিখুন",
   "ownerLabel": "মালিক",
   "youLabel": "আপনি",
-  "removeMemberConfirmTitle": "সদস্যকে সরিয়ে দেবেন?"
+  "removeMemberConfirmTitle": "সদস্যকে সরিয়ে দেবেন?",
+  "removeMemberConfirmMessage": "{name}-কে গ্রুপ থেকে সরিয়ে দেওয়া হবে"
 }

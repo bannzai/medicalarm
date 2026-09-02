@@ -207,5 +207,6 @@
   "displayNameInputHint": "പ്രദർശന നാമം നൽകുക",
   "ownerLabel": "ഉടമ",
   "youLabel": "നിങ്ങൾ",
-  "removeMemberConfirmTitle": "അംഗത്തെ നീക്കം ചെയ്യണോ?"
+  "removeMemberConfirmTitle": "അംഗത്തെ നീക്കം ചെയ്യണോ?",
+  "removeMemberConfirmMessage": "{name}-നെ ഗ്രൂപ്പിൽ നിന്ന് നീക്കം ചെയ്യുക"
 }

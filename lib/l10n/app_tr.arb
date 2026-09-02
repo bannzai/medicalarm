@@ -207,5 +207,6 @@
   "displayNameInputHint": "Görünen adı girin",
   "ownerLabel": "Sahip",
   "youLabel": "Siz",
-  "removeMemberConfirmTitle": "Üye kaldırılsın mı?"
+  "removeMemberConfirmTitle": "Üye kaldırılsın mı?",
+  "removeMemberConfirmMessage": "{name} gruptan kaldırılacak"
 }

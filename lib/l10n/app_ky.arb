@@ -207,5 +207,6 @@
   "displayNameInputHint": "Көрүнүүчү атты киргизиңиз",
   "ownerLabel": "Ээси",
   "youLabel": "Сиз",
-  "removeMemberConfirmTitle": "Мүчөнү өчүрөсүзбү?"
+  "removeMemberConfirmTitle": "Мүчөнү өчүрөсүзбү?",
+  "removeMemberConfirmMessage": "{name} топтон чыгарылат"
 }

@@ -207,5 +207,6 @@
   "displayNameInputHint": "Futni emrin e shfaqur",
   "ownerLabel": "Pronar",
   "youLabel": "Ju",
-  "removeMemberConfirmTitle": "Të hiqet anëtari?"
+  "removeMemberConfirmTitle": "Të hiqet anëtari?",
+  "removeMemberConfirmMessage": "Hiq {name} nga grupi"
 }

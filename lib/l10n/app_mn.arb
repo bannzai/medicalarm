@@ -207,5 +207,6 @@
   "displayNameInputHint": "Дэлгэцийн нэр оруулна уу",
   "ownerLabel": "Эзэмшигч",
   "youLabel": "Та",
-  "removeMemberConfirmTitle": "Гишүүнийг хасах уу?"
+  "removeMemberConfirmTitle": "Гишүүнийг хасах уу?",
+  "removeMemberConfirmMessage": "{name}-г бүлгээс хасна"
 }

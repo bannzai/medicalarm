@@ -207,5 +207,6 @@
   "displayNameInputHint": "Ilagay ang pangalan na ipapakita",
   "ownerLabel": "May-ari",
   "youLabel": "Ikaw",
-  "removeMemberConfirmTitle": "Alisin ang miyembro?"
+  "removeMemberConfirmTitle": "Alisin ang miyembro?",
+  "removeMemberConfirmMessage": "Alisin si {name} sa grupo"
 }

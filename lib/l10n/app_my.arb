@@ -207,5 +207,6 @@
   "displayNameInputHint": "ပြသမည့်အမည်ကို ထည့်ပါ",
   "ownerLabel": "ပိုင်ရှင်",
   "youLabel": "သင်",
-  "removeMemberConfirmTitle": "အဖွဲ့ဝင်ကို ဖယ်ရှားမလား။"
+  "removeMemberConfirmTitle": "အဖွဲ့ဝင်ကို ဖယ်ရှားမလား။",
+  "removeMemberConfirmMessage": "{name} ကို အဖွဲ့မှ ဖယ်ရှားမည်"
 }

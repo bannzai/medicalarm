@@ -207,5 +207,6 @@
   "displayNameInputHint": "डिस्प्ले नाव प्रविष्ट करा",
   "ownerLabel": "मालक",
   "youLabel": "तुम्ही",
-  "removeMemberConfirmTitle": "सदस्य काढायचा का?"
+  "removeMemberConfirmTitle": "सदस्य काढायचा का?",
+  "removeMemberConfirmMessage": "{name} ला ग्रुपमधून काढले जाईल"
 }

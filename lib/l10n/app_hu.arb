@@ -207,5 +207,6 @@
   "displayNameInputHint": "Adja meg a megjelenítendő nevet",
   "ownerLabel": "Tulajdonos",
   "youLabel": "Ön",
-  "removeMemberConfirmTitle": "Eltávolítja a tagot?"
+  "removeMemberConfirmTitle": "Eltávolítja a tagot?",
+  "removeMemberConfirmMessage": "{name} eltávolítása a csoportból"
 }

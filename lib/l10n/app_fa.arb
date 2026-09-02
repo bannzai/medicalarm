@@ -207,5 +207,6 @@
   "displayNameInputHint": "نام نمایشی را وارد کنید",
   "ownerLabel": "مالک",
   "youLabel": "شما",
-  "removeMemberConfirmTitle": "عضو حذف شود؟"
+  "removeMemberConfirmTitle": "عضو حذف شود؟",
+  "removeMemberConfirmMessage": "حذف {name} از گروه"
 }

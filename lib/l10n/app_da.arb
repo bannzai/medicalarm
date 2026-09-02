@@ -207,5 +207,6 @@
   "displayNameInputHint": "Indtast visningsnavn",
   "ownerLabel": "Ejer",
   "youLabel": "Dig",
-  "removeMemberConfirmTitle": "Vil du fjerne medlemmet?"
+  "removeMemberConfirmTitle": "Vil du fjerne medlemmet?",
+  "removeMemberConfirmMessage": "Fjern {name} fra gruppen"
 }

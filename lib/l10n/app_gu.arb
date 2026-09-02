@@ -207,5 +207,6 @@
   "displayNameInputHint": "ડિસ્પ્લે નામ દાખલ કરો",
   "ownerLabel": "માલિક",
   "youLabel": "તમે",
-  "removeMemberConfirmTitle": "સભ્યને દૂર કરવા માંગો છો?"
+  "removeMemberConfirmTitle": "સભ્યને દૂર કરવા માંગો છો?",
+  "removeMemberConfirmMessage": "{name}ને ગ્રુપમાંથી દૂર કરવામાં આવશે"
 }

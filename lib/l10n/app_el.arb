@@ -207,5 +207,6 @@
   "displayNameInputHint": "Εισαγάγετε εμφανιζόμενο όνομα",
   "ownerLabel": "Ιδιοκτήτης",
   "youLabel": "Εσείς",
-  "removeMemberConfirmTitle": "Θέλετε να καταργήσετε το μέλος;"
+  "removeMemberConfirmTitle": "Θέλετε να καταργήσετε το μέλος;",
+  "removeMemberConfirmMessage": "Αφαίρεση του {name} από την ομάδα"
 }

@@ -207,5 +207,6 @@
   "displayNameInputHint": "Nhập tên hiển thị",
   "ownerLabel": "Chủ sở hữu",
   "youLabel": "Bạn",
-  "removeMemberConfirmTitle": "Bạn có muốn xóa thành viên không?"
+  "removeMemberConfirmTitle": "Bạn có muốn xóa thành viên không?",
+  "removeMemberConfirmMessage": "Xóa {name} khỏi nhóm"
 }

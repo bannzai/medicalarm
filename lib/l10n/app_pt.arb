@@ -207,5 +207,6 @@
   "displayNameInputHint": "Digite o nome de exibição",
   "ownerLabel": "Proprietário",
   "youLabel": "Você",
-  "removeMemberConfirmTitle": "Pretende remover o membro?"
+  "removeMemberConfirmTitle": "Pretende remover o membro?",
+  "removeMemberConfirmMessage": "Remover {name} do grupo"
 }

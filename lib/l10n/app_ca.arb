@@ -207,5 +207,6 @@
   "displayNameInputHint": "Introduïu el nom visible",
   "ownerLabel": "Propietari",
   "youLabel": "Tu",
-  "removeMemberConfirmTitle": "Vols suprimir el membre?"
+  "removeMemberConfirmTitle": "Vols suprimir el membre?",
+  "removeMemberConfirmMessage": "Suprimir {name} del grup"
 }

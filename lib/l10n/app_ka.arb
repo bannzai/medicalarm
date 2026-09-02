@@ -207,5 +207,6 @@
   "displayNameInputHint": "შეიყვანეთ საჩვენებელი სახელი",
   "ownerLabel": "მფლობელი",
   "youLabel": "თქვენ",
-  "removeMemberConfirmTitle": "წავშალოთ წევრი?"
+  "removeMemberConfirmTitle": "წავშალოთ წევრი?",
+  "removeMemberConfirmMessage": "{name}-ის ჯგუფიდან წაშლა"
 }

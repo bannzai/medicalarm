@@ -207,5 +207,6 @@
   "displayNameInputHint": "Մուտքագրեք ցուցադրվող անունը",
   "ownerLabel": "Սեփականատեր",
   "youLabel": "Դուք",
-  "removeMemberConfirmTitle": "Հեռացնե՞լ անդամին։"
+  "removeMemberConfirmTitle": "Հեռացնե՞լ անդամին։",
+  "removeMemberConfirmMessage": "{name}-ը կհեռացվի խմբից"
 }

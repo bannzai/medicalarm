@@ -207,5 +207,6 @@
   "displayNameInputHint": "ప్రదర్శన పేరును నమోదు చేయండి",
   "ownerLabel": "యజమాని",
   "youLabel": "మీరు",
-  "removeMemberConfirmTitle": "సభ్యుడిని తీసివేయాలా?"
+  "removeMemberConfirmTitle": "సభ్యుడిని తీసివేయాలా?",
+  "removeMemberConfirmMessage": "గ్రూప్ నుండి {name}ని తీసివేయండి"
 }

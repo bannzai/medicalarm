@@ -207,5 +207,6 @@
   "displayNameInputHint": "Voer vertoonnaam in",
   "ownerLabel": "Eienaar",
   "youLabel": "Jy",
-  "removeMemberConfirmTitle": "Wil jy hierdie lid verwyder?"
+  "removeMemberConfirmTitle": "Wil jy hierdie lid verwyder?",
+  "removeMemberConfirmMessage": "{name} uit die groep verwyder"
 }

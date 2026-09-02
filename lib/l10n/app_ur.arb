@@ -207,5 +207,6 @@
   "displayNameInputHint": "ڈسپلے نام درج کریں",
   "ownerLabel": "مالک",
   "youLabel": "آپ",
-  "removeMemberConfirmTitle": "کیا رکن کو ہٹانا ہے؟"
+  "removeMemberConfirmTitle": "کیا رکن کو ہٹانا ہے؟",
+  "removeMemberConfirmMessage": "{name} کو گروپ سے ہٹا دیں"
 }

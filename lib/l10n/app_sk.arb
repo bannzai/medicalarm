@@ -207,5 +207,6 @@
   "displayNameInputHint": "Zadajte zobrazované meno",
   "ownerLabel": "Vlastník",
   "youLabel": "Vy",
-  "removeMemberConfirmTitle": "Chcete odstrániť člena?"
+  "removeMemberConfirmTitle": "Chcete odstrániť člena?",
+  "removeMemberConfirmMessage": "Odstrániť {name} zo skupiny"
 }

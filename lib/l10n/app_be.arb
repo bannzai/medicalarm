@@ -207,5 +207,6 @@
   "displayNameInputHint": "Увядзіце адлюстравальнае імя",
   "ownerLabel": "Уладальнік",
   "youLabel": "Вы",
-  "removeMemberConfirmTitle": "Выдаліць удзельніка?"
+  "removeMemberConfirmTitle": "Выдаліць удзельніка?",
+  "removeMemberConfirmMessage": "{name} будзе выдалены з групы"
 }

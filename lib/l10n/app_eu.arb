@@ -207,5 +207,6 @@
   "displayNameInputHint": "Sartu bistaratzeko izena",
   "ownerLabel": "Jabea",
   "youLabel": "Zu",
-  "removeMemberConfirmTitle": "Kidea kendu nahi duzu?"
+  "removeMemberConfirmTitle": "Kidea kendu nahi duzu?",
+  "removeMemberConfirmMessage": "{name} taldetik kentzea"
 }

@@ -207,5 +207,6 @@
   "displayNameInputHint": "Sisestage kuvatav nimi",
   "ownerLabel": "Omanik",
   "youLabel": "Sina",
-  "removeMemberConfirmTitle": "Kas eemaldada liige?"
+  "removeMemberConfirmTitle": "Kas eemaldada liige?",
+  "removeMemberConfirmMessage": "Eemalda {name} grupist"
 }

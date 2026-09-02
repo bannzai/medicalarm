@@ -207,5 +207,6 @@
   "displayNameInputHint": "Ko‘rsatiladigan ismni kiriting",
   "ownerLabel": "Egasi",
   "youLabel": "Siz",
-  "removeMemberConfirmTitle": "Aʼzoni olib tashlaysizmi?"
+  "removeMemberConfirmTitle": "Aʼzoni olib tashlaysizmi?",
+  "removeMemberConfirmMessage": "{name} guruhdan olib tashlanadi"
 }

@@ -207,5 +207,6 @@
   "displayNameInputHint": "Ievadiet parādāmo vārdu",
   "ownerLabel": "Īpašnieks",
   "youLabel": "Jūs",
-  "removeMemberConfirmTitle": "Vai noņemt dalībnieku?"
+  "removeMemberConfirmTitle": "Vai noņemt dalībnieku?",
+  "removeMemberConfirmMessage": "Noņemt {name} no grupas"
 }

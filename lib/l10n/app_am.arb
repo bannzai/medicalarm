@@ -207,5 +207,6 @@
   "displayNameInputHint": "የሚታይ ስም ያስገቡ",
   "ownerLabel": "ባለቤት",
   "youLabel": "እርስዎ",
-  "removeMemberConfirmTitle": "አባሉን ማስወገድ ይፈልጋሉ?"
+  "removeMemberConfirmTitle": "አባሉን ማስወገድ ይፈልጋሉ?",
+  "removeMemberConfirmMessage": "{name}ን ከቡድኑ ያስወግዱ"
 }

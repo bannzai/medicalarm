@@ -207,5 +207,6 @@
   "displayNameInputHint": "Weka jina la kuonyeshwa",
   "ownerLabel": "Mmiliki",
   "youLabel": "Wewe",
-  "removeMemberConfirmTitle": "Ungependa kumwondoa mwanachama?"
+  "removeMemberConfirmTitle": "Ungependa kumwondoa mwanachama?",
+  "removeMemberConfirmMessage": "Ondoa {name} kwenye kikundi"
 }

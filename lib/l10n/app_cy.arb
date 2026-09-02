@@ -207,5 +207,6 @@
   "displayNameInputHint": "Rhowch enw arddangos",
   "ownerLabel": "Perchennog",
   "youLabel": "Chi",
-  "removeMemberConfirmTitle": "Dileu dileu’r aelod?"
+  "removeMemberConfirmTitle": "Dileu dileu’r aelod?",
+  "removeMemberConfirmMessage": "Tynnu {name} o'r grŵp"
 }

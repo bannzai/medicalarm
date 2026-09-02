@@ -207,5 +207,6 @@
   "displayNameInputHint": "प्रदर्शन नाम दर्ज करें",
   "ownerLabel": "मालिक",
   "youLabel": "आप",
-  "removeMemberConfirmTitle": "क्या आप सदस्य को हटाना चाहते हैं?"
+  "removeMemberConfirmTitle": "क्या आप सदस्य को हटाना चाहते हैं?",
+  "removeMemberConfirmMessage": "{name} को समूह से हटाएं"
 }

@@ -207,5 +207,6 @@
   "displayNameInputHint": "প্ৰদৰ্শন নাম লিখক",
   "ownerLabel": "গৰাকী",
   "youLabel": "আপুনি",
-  "removeMemberConfirmTitle": "সদস্যজনক আঁতৰাব বিচাৰেনে?"
+  "removeMemberConfirmTitle": "সদস্যজনক আঁতৰাব বিচাৰেনে?",
+  "removeMemberConfirmMessage": "{name}ক গোটৰ পৰা আঁতৰোৱা হ’ব"
 }

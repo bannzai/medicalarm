@@ -207,5 +207,6 @@
   "displayNameInputHint": "Въведете показвано име",
   "ownerLabel": "Собственик",
   "youLabel": "Вие",
-  "removeMemberConfirmTitle": "Да се премахне ли членът?"
+  "removeMemberConfirmTitle": "Да се премахне ли членът?",
+  "removeMemberConfirmMessage": "Премахване на {name} от групата"
 }

@@ -207,5 +207,6 @@
   "displayNameInputHint": "காட்சிப் பெயரை உள்ளிடவும்",
   "ownerLabel": "உரிமையாளர்",
   "youLabel": "நீங்கள்",
-  "removeMemberConfirmTitle": "உறுப்பினரை அகற்றவா?"
+  "removeMemberConfirmTitle": "உறுப்பினரை அகற்றவா?",
+  "removeMemberConfirmMessage": "குழுவிலிருந்து {name} ஐ அகற்றவும்"
 }

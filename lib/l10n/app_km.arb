@@ -207,5 +207,6 @@
   "displayNameInputHint": "បញ្ចូលឈ្មោះបង្ហាញ",
   "ownerLabel": "ម្ចាស់",
   "youLabel": "អ្នក",
-  "removeMemberConfirmTitle": "តើអ្នកចង់លុបសមាជិកនេះឬ?"
+  "removeMemberConfirmTitle": "តើអ្នកចង់លុបសមាជិកនេះឬ?",
+  "removeMemberConfirmMessage": "យក {name} ចេញពីក្រុម"
 }

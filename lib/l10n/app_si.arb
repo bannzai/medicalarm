@@ -207,5 +207,6 @@
   "displayNameInputHint": "සංදර්ශන නාමය ඇතුළත් කරන්න",
   "ownerLabel": "හිමිකරු",
   "youLabel": "ඔබ",
-  "removeMemberConfirmTitle": "සාමාජිකයා ඉවත් කරන්නද?"
+  "removeMemberConfirmTitle": "සාමාජිකයා ඉවත් කරන්නද?",
+  "removeMemberConfirmMessage": "{name} කණ්ඩායමෙන් ඉවත් කරන්න"
 }

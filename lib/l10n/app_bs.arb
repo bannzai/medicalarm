@@ -207,5 +207,6 @@
   "displayNameInputHint": "Unesite prikazano ime",
   "ownerLabel": "Vlasnik",
   "youLabel": "Vi",
-  "removeMemberConfirmTitle": "Želite li ukloniti člana?"
+  "removeMemberConfirmTitle": "Želite li ukloniti člana?",
+  "removeMemberConfirmMessage": "Uklanjanje člana {name} iz grupe"
 }

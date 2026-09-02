@@ -207,5 +207,6 @@
   "displayNameInputHint": "ป้อนชื่อที่แสดง",
   "ownerLabel": "เจ้าของ",
   "youLabel": "คุณ",
-  "removeMemberConfirmTitle": "ต้องการลบสมาชิกหรือไม่"
+  "removeMemberConfirmTitle": "ต้องการลบสมาชิกหรือไม่",
+  "removeMemberConfirmMessage": "นำ {name} ออกจากกลุ่ม"
 }

@@ -207,5 +207,6 @@
   "displayNameInputHint": "Faka igama eliboniswayo",
   "ownerLabel": "Umnikazi",
   "youLabel": "Wena",
-  "removeMemberConfirmTitle": "Uyafuna ukususa ilungu?"
+  "removeMemberConfirmTitle": "Uyafuna ukususa ilungu?",
+  "removeMemberConfirmMessage": "Susa u-{name} eqenjini"
 }

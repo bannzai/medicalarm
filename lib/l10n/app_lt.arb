@@ -207,5 +207,6 @@
   "displayNameInputHint": "Įveskite rodomą vardą",
   "ownerLabel": "Savininkas",
   "youLabel": "Jūs",
-  "removeMemberConfirmTitle": "Pašalinti narį?"
+  "removeMemberConfirmTitle": "Pašalinti narį?",
+  "removeMemberConfirmMessage": "Pašalinti {name} iš grupės"
 }

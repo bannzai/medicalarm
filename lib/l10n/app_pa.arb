@@ -207,5 +207,6 @@
   "displayNameInputHint": "ਡਿਸਪਲੇ ਨਾਮ ਦਰਜ ਕਰੋ",
   "ownerLabel": "ਮਾਲਕ",
   "youLabel": "ਤੁਸੀਂ",
-  "removeMemberConfirmTitle": "ਮੈਂਬਰ ਨੂੰ ਹਟਾਉਣਾ ਹੈ?"
+  "removeMemberConfirmTitle": "ਮੈਂਬਰ ਨੂੰ ਹਟਾਉਣਾ ਹੈ?",
+  "removeMemberConfirmMessage": "{name} ਨੂੰ ਗਰੁੱਪ ਵਿੱਚੋਂ ਹਟਾਓ"
 }

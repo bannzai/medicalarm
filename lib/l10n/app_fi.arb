@@ -207,5 +207,6 @@
   "displayNameInputHint": "Anna näyttönimi",
   "ownerLabel": "Omistaja",
   "youLabel": "Sinä",
-  "removeMemberConfirmTitle": "Poistetaanko jäsen?"
+  "removeMemberConfirmTitle": "Poistetaanko jäsen?",
+  "removeMemberConfirmMessage": "Poistetaan {name} ryhmästä"
 }

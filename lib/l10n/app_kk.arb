@@ -207,5 +207,6 @@
   "displayNameInputHint": "Көрсетілетін атты енгізіңіз",
   "ownerLabel": "Иесі",
   "youLabel": "Сіз",
-  "removeMemberConfirmTitle": "Мүшені жою керек пе?"
+  "removeMemberConfirmTitle": "Мүшені жою керек пе?",
+  "removeMemberConfirmMessage": "{name} топтан жойылады"
 }

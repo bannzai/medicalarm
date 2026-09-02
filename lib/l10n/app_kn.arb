@@ -207,5 +207,6 @@
   "displayNameInputHint": "ಪ್ರದರ್ಶನ ಹೆಸರನ್ನು ನಮೂದಿಸಿ",
   "ownerLabel": "ಮಾಲೀಕ",
   "youLabel": "ನೀವು",
-  "removeMemberConfirmTitle": "ಸದಸ್ಯರನ್ನು ತೆಗೆದುಹಾಕಲು ಬಯಸುವಿರಾ?"
+  "removeMemberConfirmTitle": "ಸದಸ್ಯರನ್ನು ತೆಗೆದುಹಾಕಲು ಬಯಸುವಿರಾ?",
+  "removeMemberConfirmMessage": "{name} ಅವರನ್ನು ಗುಂಪಿನಿಂದ ತೆಗೆದುಹಾಕಿ"
 }
