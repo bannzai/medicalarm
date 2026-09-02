@@ -161,5 +161,6 @@
   "specialGift": "🎉 Cadeau spécial 🎉",
   "freePremiumTrialDays": "Vous recevrez une période d’essai gratuite de {count} jours en cadeau !",
   "welcomeToMedicalarm": "Bienvenue sur Medicalarm !",
-  "writeReviewFor5StarPromotion": "Laissez une note de 5 étoiles et un avis sur l’App Store pour essayer gratuitement les fonctionnalités premium pendant {count} jours !"
+  "writeReviewFor5StarPromotion": "Laissez une note de 5 étoiles et un avis sur l’App Store pour essayer gratuitement les fonctionnalités premium pendant {count} jours !",
+  "rating5StarsEncouragement": "Votre note de ★5 est un grand encouragement pour les développeurs.\nSoutenez-nous pour nous aider à créer une application encore meilleure !"
 }

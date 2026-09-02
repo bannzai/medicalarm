@@ -162,6 +162,7 @@
   "freePremiumTrialDays": "You'll receive a free {count}-day trial as a gift!",
   "welcomeToMedicalarm": "Welcome to Medicalarm!",
   "writeReviewFor5StarPromotion": "Write a 5-star rating and review on the App Store to try premium features free for {count} days!",
+  "rating5StarsEncouragement": "Your ★5 rating is a great encouragement to the developers.\nPlease support us as we work to create an even better app!",
   "medicationPause": "Enable medication",
   "medicationPauseDescription": "When off, this medicine is hidden from the daily list and notifications.",
   "medicinePausedSnackbar": "Paused this medication",
