@@ -260,5 +260,6 @@
   "onboardingMedicineCountTitle": "您要管理几种药物？",
   "onboardingMedicineCountOneToTwo": "1–2种",
   "onboardingMedicineCountThreeToFive": "3–5种",
-  "onboardingMedicineCountSixOrMore": "6种以上"
+  "onboardingMedicineCountSixOrMore": "6种以上",
+  "onboardingBeforeAfterTitle": "Medicalarm 带来的改变"
 }

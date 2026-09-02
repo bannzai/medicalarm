@@ -260,5 +260,6 @@
   "onboardingMedicineCountTitle": "Câte medicamente gestionați?",
   "onboardingMedicineCountOneToTwo": "1–2 tipuri",
   "onboardingMedicineCountThreeToFive": "3–5 tipuri",
-  "onboardingMedicineCountSixOrMore": "6 sau mai multe"
+  "onboardingMedicineCountSixOrMore": "6 sau mai multe",
+  "onboardingBeforeAfterTitle": "Ce se schimbă cu Medicalarm"
 }

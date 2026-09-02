@@ -260,5 +260,6 @@
   "onboardingMedicineCountTitle": "Kaç ilaç yönetiyorsunuz?",
   "onboardingMedicineCountOneToTwo": "1–2 tür",
   "onboardingMedicineCountThreeToFive": "3–5 tür",
-  "onboardingMedicineCountSixOrMore": "6 veya daha fazla"
+  "onboardingMedicineCountSixOrMore": "6 veya daha fazla",
+  "onboardingBeforeAfterTitle": "Medicalarm ile neler değişir"
 }

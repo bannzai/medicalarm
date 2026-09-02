@@ -260,5 +260,6 @@
   "onboardingMedicineCountTitle": "आप कितनी दवाइयों का प्रबंधन करते हैं?",
   "onboardingMedicineCountOneToTwo": "1–2 प्रकार",
   "onboardingMedicineCountThreeToFive": "3–5 प्रकार",
-  "onboardingMedicineCountSixOrMore": "6 या अधिक"
+  "onboardingMedicineCountSixOrMore": "6 या अधिक",
+  "onboardingBeforeAfterTitle": "Medicalarm के साथ क्या बदलेगा"
 }

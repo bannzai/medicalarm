@@ -260,5 +260,6 @@
   "onboardingMedicineCountTitle": "আপনি কতটি ওষুধ পরিচালনা করেন?",
   "onboardingMedicineCountOneToTwo": "১–২ ধরনের",
   "onboardingMedicineCountThreeToFive": "৩–৫ ধরনের",
-  "onboardingMedicineCountSixOrMore": "৬ বা তার বেশি"
+  "onboardingMedicineCountSixOrMore": "৬ বা তার বেশি",
+  "onboardingBeforeAfterTitle": "Medicalarm-এর সঙ্গে যা বদলাবে"
 }

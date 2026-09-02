@@ -260,5 +260,6 @@
   "onboardingMedicineCountTitle": "Iloma lekami zarządzasz?",
   "onboardingMedicineCountOneToTwo": "1–2 rodzaje",
   "onboardingMedicineCountThreeToFive": "3–5 rodzajów",
-  "onboardingMedicineCountSixOrMore": "6 lub więcej"
+  "onboardingMedicineCountSixOrMore": "6 lub więcej",
+  "onboardingBeforeAfterTitle": "Co zmienia Medicalarm"
 }

@@ -260,5 +260,6 @@
   "onboardingMedicineCountTitle": "Hány gyógyszert kezel?",
   "onboardingMedicineCountOneToTwo": "1–2 féle",
   "onboardingMedicineCountThreeToFive": "3–5 féle",
-  "onboardingMedicineCountSixOrMore": "6 vagy több"
+  "onboardingMedicineCountSixOrMore": "6 vagy több",
+  "onboardingBeforeAfterTitle": "Mi változik a Medicalarm használatával"
 }

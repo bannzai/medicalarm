@@ -260,5 +260,6 @@
   "onboardingMedicineCountTitle": "Скількома ліками ви керуєте?",
   "onboardingMedicineCountOneToTwo": "1–2 види",
   "onboardingMedicineCountThreeToFive": "3–5 видів",
-  "onboardingMedicineCountSixOrMore": "6 або більше"
+  "onboardingMedicineCountSixOrMore": "6 або більше",
+  "onboardingBeforeAfterTitle": "Що зміниться з Medicalarm"
 }

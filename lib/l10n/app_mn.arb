@@ -260,5 +260,6 @@
   "onboardingMedicineCountTitle": "Та хэдэн эмийг хянадаг вэ?",
   "onboardingMedicineCountOneToTwo": "1–2 төрөл",
   "onboardingMedicineCountThreeToFive": "3–5 төрөл",
-  "onboardingMedicineCountSixOrMore": "6 ба түүнээс дээш"
+  "onboardingMedicineCountSixOrMore": "6 ба түүнээс дээш",
+  "onboardingBeforeAfterTitle": "Medicalarm-тэй хамт юу өөрчлөгдөх вэ"
 }

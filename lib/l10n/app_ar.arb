@@ -260,5 +260,6 @@
   "onboardingMedicineCountTitle": "كم دواءً تدير؟",
   "onboardingMedicineCountOneToTwo": "1–2 نوع",
   "onboardingMedicineCountThreeToFive": "3–5 أنواع",
-  "onboardingMedicineCountSixOrMore": "6 أو أكثر"
+  "onboardingMedicineCountSixOrMore": "6 أو أكثر",
+  "onboardingBeforeAfterTitle": "ما الذي سيتغير مع Medicalarm"
 }

@@ -260,5 +260,6 @@
   "onboardingMedicineCountTitle": "Քանի՞ դեղամիջոց եք կառավարում։",
   "onboardingMedicineCountOneToTwo": "1–2 տեսակ",
   "onboardingMedicineCountThreeToFive": "3–5 տեսակ",
-  "onboardingMedicineCountSixOrMore": "6 կամ ավելի"
+  "onboardingMedicineCountSixOrMore": "6 կամ ավելի",
+  "onboardingBeforeAfterTitle": "Ինչ է փոխվում Medicalarm-ի միջոցով"
 }

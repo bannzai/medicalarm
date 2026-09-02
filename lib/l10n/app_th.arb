@@ -260,5 +260,6 @@
   "onboardingMedicineCountTitle": "คุณจัดการยากี่รายการ?",
   "onboardingMedicineCountOneToTwo": "1–2 ชนิด",
   "onboardingMedicineCountThreeToFive": "3–5 ชนิด",
-  "onboardingMedicineCountSixOrMore": "6 ชนิดขึ้นไป"
+  "onboardingMedicineCountSixOrMore": "6 ชนิดขึ้นไป",
+  "onboardingBeforeAfterTitle": "สิ่งที่จะเปลี่ยนไปเมื่อใช้ Medicalarm"
 }

@@ -260,5 +260,6 @@
   "onboardingMedicineCountTitle": "관리하는 약이 몇 개 있나요?",
   "onboardingMedicineCountOneToTwo": "1~2종",
   "onboardingMedicineCountThreeToFive": "3~5가지",
-  "onboardingMedicineCountSixOrMore": "6개 이상"
+  "onboardingMedicineCountSixOrMore": "6개 이상",
+  "onboardingBeforeAfterTitle": "Medicalarm으로 달라지는 점"
 }

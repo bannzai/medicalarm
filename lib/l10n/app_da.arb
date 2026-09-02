@@ -260,5 +260,6 @@
   "onboardingMedicineCountTitle": "Hvor mange lægemidler holder du styr på?",
   "onboardingMedicineCountOneToTwo": "1–2 typer",
   "onboardingMedicineCountThreeToFive": "3–5 slags",
-  "onboardingMedicineCountSixOrMore": "6 eller flere"
+  "onboardingMedicineCountSixOrMore": "6 eller flere",
+  "onboardingBeforeAfterTitle": "Hvad ændrer sig med Medicalarm"
 }

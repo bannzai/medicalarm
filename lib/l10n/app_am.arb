@@ -260,5 +260,6 @@
   "onboardingMedicineCountTitle": "የሚያስተዳድሯቸው መድኃኒቶች ስንት ናቸው?",
   "onboardingMedicineCountOneToTwo": "1–2 ዓይነት",
   "onboardingMedicineCountThreeToFive": "3–5 ዓይነት",
-  "onboardingMedicineCountSixOrMore": "6 ወይም ከዚያ በላይ"
+  "onboardingMedicineCountSixOrMore": "6 ወይም ከዚያ በላይ",
+  "onboardingBeforeAfterTitle": "በMedicalarm የሚቀየረው"
 }

@@ -260,5 +260,6 @@
   "onboardingMedicineCountTitle": "Kuinka monta lääkettä hallinnoit?",
   "onboardingMedicineCountOneToTwo": "1–2 tyyppiä",
   "onboardingMedicineCountThreeToFive": "3–5 tyyppiä",
-  "onboardingMedicineCountSixOrMore": "6 tai enemmän"
+  "onboardingMedicineCountSixOrMore": "6 tai enemmän",
+  "onboardingBeforeAfterTitle": "Mitä Medicalarm muuttaa"
 }
