@@ -201,5 +201,6 @@
   "invitationCodeCopied": "ക്ഷണ കോഡ് പകർത്തി",
   "issueInvitationCode": "ക്ഷണ കോഡ് സൃഷ്ടിക്കുക",
   "groupSettings": "ഗ്രൂപ്പ് ക്രമീകരണങ്ങൾ",
-  "members": "അംഗങ്ങൾ"
+  "members": "അംഗങ്ങൾ",
+  "memberFallbackName": "അംഗം"
 }

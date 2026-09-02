@@ -201,5 +201,6 @@
   "invitationCodeCopied": "Kod pozivnice je kopiran",
   "issueInvitationCode": "Generiši kod pozivnice",
   "groupSettings": "Postavke grupe",
-  "members": "Članovi"
+  "members": "Članovi",
+  "memberFallbackName": "Član"
 }

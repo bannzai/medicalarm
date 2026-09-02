@@ -201,5 +201,6 @@
   "invitationCodeCopied": "Код запрашэння скапіяваны",
   "issueInvitationCode": "Стварыць код запрашэння",
   "groupSettings": "Налады групы",
-  "members": "Удзельнікі"
+  "members": "Удзельнікі",
+  "memberFallbackName": "Удзельнік"
 }

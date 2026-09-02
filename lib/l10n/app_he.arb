@@ -201,5 +201,6 @@
   "invitationCodeCopied": "קוד ההזמנה הועתק",
   "issueInvitationCode": "יצירת קוד הזמנה",
   "groupSettings": "הגדרות הקבוצה",
-  "members": "חברים"
+  "members": "חברים",
+  "memberFallbackName": "חבר"
 }

@@ -201,5 +201,6 @@
   "invitationCodeCopied": "ਸੱਦਾ ਕੋਡ ਕਾਪੀ ਕੀਤਾ ਗਿਆ",
   "issueInvitationCode": "ਸੱਦਾ ਕੋਡ ਬਣਾਓ",
   "groupSettings": "ਗਰੁੱਪ ਸੈਟਿੰਗਾਂ",
-  "members": "ਮੈਂਬਰ"
+  "members": "ਮੈਂਬਰ",
+  "memberFallbackName": "ਮੈਂਬਰ"
 }

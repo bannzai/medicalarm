@@ -201,5 +201,6 @@
   "invitationCodeCopied": "Uitnodigingscode gekopieerd",
   "issueInvitationCode": "Uitnodigingscode genereren",
   "groupSettings": "Groepsinstellingen",
-  "members": "Leden"
+  "members": "Leden",
+  "memberFallbackName": "Lid"
 }

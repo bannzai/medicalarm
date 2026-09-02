@@ -201,5 +201,6 @@
   "invitationCodeCopied": "Código de invitación copiado",
   "issueInvitationCode": "Generar código de invitación",
   "groupSettings": "Configuración del grupo",
-  "members": "Miembros"
+  "members": "Miembros",
+  "memberFallbackName": "Miembro"
 }

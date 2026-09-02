@@ -201,5 +201,6 @@
   "invitationCodeCopied": "Codul de invitație a fost copiat",
   "issueInvitationCode": "Generează cod de invitație",
   "groupSettings": "Setările grupului",
-  "members": "Membri"
+  "members": "Membri",
+  "memberFallbackName": "Membru"
 }

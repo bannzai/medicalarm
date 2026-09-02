@@ -201,5 +201,6 @@
   "invitationCodeCopied": "Boðskortskóði afritaður",
   "issueInvitationCode": "Búa til boðskóða",
   "groupSettings": "Stillingar hóps",
-  "members": "Meðlimir"
+  "members": "Meðlimir",
+  "memberFallbackName": "Meðlimur"
 }

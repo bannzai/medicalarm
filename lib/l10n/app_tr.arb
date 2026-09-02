@@ -201,5 +201,6 @@
   "invitationCodeCopied": "Davet kodu kopyalandı",
   "issueInvitationCode": "Davet kodu oluştur",
   "groupSettings": "Grup ayarları",
-  "members": "Üyeler"
+  "members": "Üyeler",
+  "memberFallbackName": "Üye"
 }

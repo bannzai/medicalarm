@@ -201,5 +201,6 @@
   "invitationCodeCopied": "მოწვევის კოდი დაკოპირდა",
   "issueInvitationCode": "მოსაწვევი კოდის შექმნა",
   "groupSettings": "ჯგუფის პარამეტრები",
-  "members": "წევრები"
+  "members": "წევრები",
+  "memberFallbackName": "წევრი"
 }

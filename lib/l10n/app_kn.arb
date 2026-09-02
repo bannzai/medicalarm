@@ -201,5 +201,6 @@
   "invitationCodeCopied": "ಆಹ್ವಾನ ಕೋಡ್ ನಕಲಿಸಲಾಗಿದೆ",
   "issueInvitationCode": "ಆಹ್ವಾನ ಕೋಡ್ ರಚಿಸಿ",
   "groupSettings": "ಗುಂಪಿನ ಸೆಟ್ಟಿಂಗ್‌ಗಳು",
-  "members": "ಸದಸ್ಯರು"
+  "members": "ಸದಸ್ಯರು",
+  "memberFallbackName": "ಸದಸ್ಯ"
 }

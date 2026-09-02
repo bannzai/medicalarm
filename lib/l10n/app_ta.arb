@@ -201,5 +201,6 @@
   "invitationCodeCopied": "அழைப்புக் குறியீடு நகலெடுக்கப்பட்டது",
   "issueInvitationCode": "அழைப்புக் குறியீட்டை உருவாக்கு",
   "groupSettings": "குழு அமைப்புகள்",
-  "members": "உறுப்பினர்கள்"
+  "members": "உறுப்பினர்கள்",
+  "memberFallbackName": "உறுப்பினர்"
 }

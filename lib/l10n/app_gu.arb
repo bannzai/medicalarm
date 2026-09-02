@@ -201,5 +201,6 @@
   "invitationCodeCopied": "આમંત્રણ કોડ કૉપિ કરવામાં આવ્યો",
   "issueInvitationCode": "આમંત્રણ કોડ બનાવો",
   "groupSettings": "ગ્રુપ સેટિંગ્સ",
-  "members": "સભ્યો"
+  "members": "સભ્યો",
+  "memberFallbackName": "સભ્ય"
 }

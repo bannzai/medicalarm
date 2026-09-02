@@ -201,5 +201,6 @@
   "invitationCodeCopied": "Чакыруу коду көчүрүлдү",
   "issueInvitationCode": "Чакыруу кодун түзүү",
   "groupSettings": "Топ жөндөөлөрү",
-  "members": "Мүчөлөр"
+  "members": "Мүчөлөр",
+  "memberFallbackName": "Мүчө"
 }

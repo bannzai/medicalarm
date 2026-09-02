@@ -201,5 +201,6 @@
   "invitationCodeCopied": "کد دعوت کپی شد",
   "issueInvitationCode": "ایجاد کد دعوت",
   "groupSettings": "تنظیمات گروه",
-  "members": "اعضا"
+  "members": "اعضا",
+  "memberFallbackName": "عضو"
 }

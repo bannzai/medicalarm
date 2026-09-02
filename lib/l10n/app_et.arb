@@ -201,5 +201,6 @@
   "invitationCodeCopied": "Kutsekood kopeeritud",
   "issueInvitationCode": "Loo kutsekood",
   "groupSettings": "Grupi seaded",
-  "members": "Liikmed"
+  "members": "Liikmed",
+  "memberFallbackName": "Liige"
 }

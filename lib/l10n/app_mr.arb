@@ -201,5 +201,6 @@
   "invitationCodeCopied": "आमंत्रण कोड कॉपी केला",
   "issueInvitationCode": "आमंत्रण कोड तयार करा",
   "groupSettings": "ग्रुप सेटिंग्ज",
-  "members": "सदस्य"
+  "members": "सदस्य",
+  "memberFallbackName": "सदस्य"
 }

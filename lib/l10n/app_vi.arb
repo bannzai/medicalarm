@@ -201,5 +201,6 @@
   "invitationCodeCopied": "Đã sao chép mã lời mời",
   "issueInvitationCode": "Tạo mã mời",
   "groupSettings": "Cài đặt nhóm",
-  "members": "Thành viên"
+  "members": "Thành viên",
+  "memberFallbackName": "Thành viên"
 }

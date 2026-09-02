@@ -201,5 +201,6 @@
   "invitationCodeCopied": "ຄັດລອກລະຫັດເຊີນແລ້ວ",
   "issueInvitationCode": "ສ້າງລະຫັດເຊີນ",
   "groupSettings": "ການຕັ້ງຄ່າກຸ່ມ",
-  "members": "ສະມາຊິກ"
+  "members": "ສະມາຊິກ",
+  "memberFallbackName": "ສະມາຊິກ"
 }

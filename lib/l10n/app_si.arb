@@ -201,5 +201,6 @@
   "invitationCodeCopied": "ආරාධනා කේතය පිටපත් කරන ලදී",
   "issueInvitationCode": "ආරාධනා කේතය සාදන්න",
   "groupSettings": "කණ්ඩායම් සැකසීම්",
-  "members": "සාමාජිකයින්"
+  "members": "සාමාජිකයින්",
+  "memberFallbackName": "සාමාජිකයා"
 }

@@ -201,5 +201,6 @@
   "invitationCodeCopied": "Кодот за покана е копиран",
   "issueInvitationCode": "Генерирај код за покана",
   "groupSettings": "Поставки на групата",
-  "members": "Членови"
+  "members": "Членови",
+  "memberFallbackName": "Член"
 }

@@ -201,5 +201,6 @@
   "invitationCodeCopied": "Шақыру коды көшірілді",
   "issueInvitationCode": "Шақыру кодын жасау",
   "groupSettings": "Топ параметрлері",
-  "members": "Мүшелер"
+  "members": "Мүшелер",
+  "memberFallbackName": "Мүше"
 }

@@ -201,5 +201,6 @@
   "invitationCodeCopied": "Ikhodi yesimemo ikopishiwe",
   "issueInvitationCode": "Dala ikhodi yesimemo",
   "groupSettings": "Izilungiselelo zeqembu",
-  "members": "Amalungu"
+  "members": "Amalungu",
+  "memberFallbackName": "Ilungu"
 }

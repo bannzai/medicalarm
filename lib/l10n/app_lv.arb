@@ -201,5 +201,6 @@
   "invitationCodeCopied": "Uzaicinājuma kods nokopēts",
   "issueInvitationCode": "Izveidot ielūguma kodu",
   "groupSettings": "Grupas iestatījumi",
-  "members": "Dalībnieki"
+  "members": "Dalībnieki",
+  "memberFallbackName": "Dalībnieks"
 }

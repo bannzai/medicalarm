@@ -201,5 +201,6 @@
   "invitationCodeCopied": "Ο κωδικός πρόσκλησης αντιγράφηκε",
   "issueInvitationCode": "Έκδοση κωδικού πρόσκλησης",
   "groupSettings": "Ρυθμίσεις ομάδας",
-  "members": "Μέλη"
+  "members": "Μέλη",
+  "memberFallbackName": "Μέλος"
 }

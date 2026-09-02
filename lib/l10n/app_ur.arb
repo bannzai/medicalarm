@@ -201,5 +201,6 @@
   "invitationCodeCopied": "دعوتی کوڈ کاپی ہو گیا",
   "issueInvitationCode": "دعوتی کوڈ بنائیں",
   "groupSettings": "گروپ کی ترتیبات",
-  "members": "اراکین"
+  "members": "اراکین",
+  "memberFallbackName": "رکن"
 }

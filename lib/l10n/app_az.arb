@@ -201,5 +201,6 @@
   "invitationCodeCopied": "Dəvət kodu kopyalandı",
   "issueInvitationCode": "Dəvət kodu yaradın",
   "groupSettings": "Qrup ayarları",
-  "members": "Üzvlər"
+  "members": "Üzvlər",
+  "memberFallbackName": "Üzv"
 }

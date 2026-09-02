@@ -201,5 +201,6 @@
   "invitationCodeCopied": "Kod jemputan disalin",
   "issueInvitationCode": "Jana kod jemputan",
   "groupSettings": "Tetapan kumpulan",
-  "members": "Ahli"
+  "members": "Ahli",
+  "memberFallbackName": "Ahli"
 }

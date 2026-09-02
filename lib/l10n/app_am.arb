@@ -201,5 +201,6 @@
   "invitationCodeCopied": "የግብዣ ኮዱ ተቀድቷል",
   "issueInvitationCode": "የግብዣ ኮድ አውጣ",
   "groupSettings": "የቡድን ቅንብሮች",
-  "members": "አባላት"
+  "members": "አባላት",
+  "memberFallbackName": "አባል"
 }

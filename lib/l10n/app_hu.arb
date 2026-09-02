@@ -201,5 +201,6 @@
   "invitationCodeCopied": "Meghívókód kimásolva",
   "issueInvitationCode": "Meghívókód létrehozása",
   "groupSettings": "Csoportbeállítások",
-  "members": "Tagok"
+  "members": "Tagok",
+  "memberFallbackName": "Tag"
 }

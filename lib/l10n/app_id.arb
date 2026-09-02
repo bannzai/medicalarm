@@ -201,5 +201,6 @@
   "invitationCodeCopied": "Kode undangan disalin",
   "issueInvitationCode": "Buat kode undangan",
   "groupSettings": "Pengaturan grup",
-  "members": "Anggota"
+  "members": "Anggota",
+  "memberFallbackName": "Anggota"
 }

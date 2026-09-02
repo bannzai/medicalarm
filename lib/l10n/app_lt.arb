@@ -201,5 +201,6 @@
   "invitationCodeCopied": "Kvietimo kodas nukopijuotas",
   "issueInvitationCode": "Sukurti kvietimo kodą",
   "groupSettings": "Grupės nustatymai",
-  "members": "Nariai"
+  "members": "Nariai",
+  "memberFallbackName": "Narys"
 }

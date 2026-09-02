@@ -201,5 +201,6 @@
   "invitationCodeCopied": "निमन्त्रणा कोड प्रतिलिपि गरियो",
   "issueInvitationCode": "आमन्त्रण कोड सिर्जना गर्नुहोस्",
   "groupSettings": "समूह सेटिङहरू",
-  "members": "सदस्यहरू"
+  "members": "सदस्यहरू",
+  "memberFallbackName": "सदस्य"
 }

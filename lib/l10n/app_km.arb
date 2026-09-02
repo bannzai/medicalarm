@@ -201,5 +201,6 @@
   "invitationCodeCopied": "លេខកូដអញ្ជើញត្រូវបានចម្លង",
   "issueInvitationCode": "បង្កើតលេខកូដអញ្ជើញ",
   "groupSettings": "ការកំណត់ក្រុម",
-  "members": "សមាជិក"
+  "members": "សមាជិក",
+  "memberFallbackName": "សមាជិក"
 }

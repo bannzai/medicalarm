@@ -201,5 +201,6 @@
   "invitationCodeCopied": "Kód pozvánky byl zkopírován",
   "issueInvitationCode": "Vygenerovat zvací kód",
   "groupSettings": "Nastavení skupiny",
-  "members": "Členové"
+  "members": "Členové",
+  "memberFallbackName": "Člen"
 }

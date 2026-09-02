@@ -201,5 +201,6 @@
   "invitationCodeCopied": "Gonbidapen-kodea kopiatu da",
   "issueInvitationCode": "Sortu gonbidapen-kodea",
   "groupSettings": "Taldearen ezarpenak",
-  "members": "Kideak"
+  "members": "Kideak",
+  "memberFallbackName": "Kidea"
 }

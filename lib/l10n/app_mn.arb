@@ -201,5 +201,6 @@
   "invitationCodeCopied": "Урилгын кодыг хууллаа",
   "issueInvitationCode": "Урилгын код үүсгэх",
   "groupSettings": "Бүлгийн тохиргоо",
-  "members": "Гишүүд"
+  "members": "Гишүүд",
+  "memberFallbackName": "Гишүүн"
 }

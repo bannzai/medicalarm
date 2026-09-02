@@ -201,5 +201,6 @@
   "invitationCodeCopied": "Invitasjonskoden er kopiert",
   "issueInvitationCode": "Opprett invitasjonskode",
   "groupSettings": "Gruppeinnstillinger",
-  "members": "Medlemmer"
+  "members": "Medlemmer",
+  "memberFallbackName": "Medlem"
 }

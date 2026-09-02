@@ -201,5 +201,6 @@
   "invitationCodeCopied": "Kutsukoodi kopioitu",
   "issueInvitationCode": "Luo kutsukoodi",
   "groupSettings": "Ryhmän asetukset",
-  "members": "Jäsenet"
+  "members": "Jäsenet",
+  "memberFallbackName": "Jäsen"
 }

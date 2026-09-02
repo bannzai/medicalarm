@@ -201,5 +201,6 @@
   "invitationCodeCopied": "Cod gwahoddiad wedi’i gopïo",
   "issueInvitationCode": "Cyhoeddi cod gwahoddiad",
   "groupSettings": "Gosodiadau grŵp",
-  "members": "Aelodau"
+  "members": "Aelodau",
+  "memberFallbackName": "Aelod"
 }

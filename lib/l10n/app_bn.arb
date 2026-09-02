@@ -201,5 +201,6 @@
   "invitationCodeCopied": "আমন্ত্রণ কোড কপি করা হয়েছে",
   "issueInvitationCode": "আমন্ত্রণ কোড তৈরি করুন",
   "groupSettings": "গ্রুপ সেটিংস",
-  "members": "সদস্যরা"
+  "members": "সদস্যরা",
+  "memberFallbackName": "সদস্য"
 }
