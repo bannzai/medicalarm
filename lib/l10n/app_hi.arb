@@ -171,5 +171,6 @@
   "confirmOpenAppStore": "क्या आप समीक्षा लिखने के लिए App Store खोलना चाहते हैं?",
   "premiumFeaturesList": "प्रीमियम सुविधाओं की सूची",
   "currentlyInPremiumTrial": "आप फ़िलहाल Premium ट्रायल पर हैं।",
-  "medicationPause": "दवा चालू करें"
+  "medicationPause": "दवा चालू करें",
+  "medicationPauseDescription": "बंद करने पर, इसे दवाओं की स्क्रीन और सूचनाओं से हटा दिया जाएगा।"
 }

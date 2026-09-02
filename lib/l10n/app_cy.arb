@@ -171,5 +171,6 @@
   "confirmOpenAppStore": "Agor App Store i ysgrifennu adolygiad?",
   "premiumFeaturesList": "Rhestr o nodweddion premiwm",
   "currentlyInPremiumTrial": "Rydych ar hyn o bryd yn defnyddio treial Premium.",
-  "medicationPause": "Galluogi meddyginiaeth"
+  "medicationPause": "Galluogi meddyginiaeth",
+  "medicationPauseDescription": "Pan gaiff ei ddiffodd, caiff ei dynnu o sgrin meddyginiaethau a hysbysiadau."
 }

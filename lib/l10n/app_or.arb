@@ -171,5 +171,6 @@
   "confirmOpenAppStore": "ସମୀକ୍ଷା ଲେଖିବା ପାଇଁ App Store ଖୋଲିବେ କି?",
   "premiumFeaturesList": "ପ୍ରିମିୟମ୍ ବୈଶିଷ୍ଟ୍ୟଗୁଡ଼ିକର ତାଲିକା",
   "currentlyInPremiumTrial": "ଆପଣ ବର୍ତ୍ତମାନ Premium ପରୀକ୍ଷଣ ଅବଧିରେ ଅଛନ୍ତି।",
-  "medicationPause": "ଔଷଧ ସକ୍ରିୟ କରନ୍ତୁ"
+  "medicationPause": "ଔଷଧ ସକ୍ରିୟ କରନ୍ତୁ",
+  "medicationPauseDescription": "ବନ୍ଦ କଲେ, ଏହାକୁ ଔଷଧ ସ୍କ୍ରିନ୍ ଏବଂ ବିଜ୍ଞପ୍ତିରୁ ବାଦ ଦିଆଯିବ।"
 }

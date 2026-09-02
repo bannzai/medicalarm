@@ -171,5 +171,6 @@
   "confirmOpenAppStore": "समीक्षा लेख्न App Store खोल्ने हो?",
   "premiumFeaturesList": "प्रिमियम सुविधाहरूको सूची",
   "currentlyInPremiumTrial": "तपाईं अहिले Premium परीक्षण अवधिमा हुनुहुन्छ।",
-  "medicationPause": "औषधि सक्रिय गर्नुहोस्"
+  "medicationPause": "औषधि सक्रिय गर्नुहोस्",
+  "medicationPauseDescription": "बन्द गर्दा, यसलाई औषधिको स्क्रिन र सूचनाहरूबाट हटाइनेछ।"
 }

@@ -171,5 +171,6 @@
   "confirmOpenAppStore": "តើអ្នកចង់បើក App Store ដើម្បីសរសេរការវាយតម្លៃឬទេ?",
   "premiumFeaturesList": "បញ្ជីមុខងារពិសេស",
   "currentlyInPremiumTrial": "បច្ចុប្បន្ន អ្នកកំពុងស្ថិតក្នុងរយៈពេលសាកល្បង Premium។",
-  "medicationPause": "បើកដំណើរការថ្នាំ"
+  "medicationPause": "បើកដំណើរការថ្នាំ",
+  "medicationPauseDescription": "នៅពេលបិទ វានឹងត្រូវដកចេញពីអេក្រង់ថ្នាំ និងការជូនដំណឹង។"
 }

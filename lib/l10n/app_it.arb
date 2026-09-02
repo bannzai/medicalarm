@@ -171,5 +171,6 @@
   "confirmOpenAppStore": "Vuoi aprire l’App Store per scrivere una recensione?",
   "premiumFeaturesList": "Elenco delle funzionalità premium",
   "currentlyInPremiumTrial": "Al momento stai usufruendo del periodo di prova Premium.",
-  "medicationPause": "Attiva farmaco"
+  "medicationPause": "Attiva farmaco",
+  "medicationPauseDescription": "Quando viene disattivato, il farmaco viene escluso dalla schermata dei farmaci e dalle notifiche."
 }

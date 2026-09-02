@@ -171,5 +171,6 @@
   "confirmOpenAppStore": "ต้องการเปิด App Store เพื่อเขียนรีวิวหรือไม่?",
   "premiumFeaturesList": "รายการฟีเจอร์พรีเมียม",
   "currentlyInPremiumTrial": "ขณะนี้คุณอยู่ในช่วงทดลองใช้ Premium",
-  "medicationPause": "เปิดใช้งานยา"
+  "medicationPause": "เปิดใช้งานยา",
+  "medicationPauseDescription": "เมื่อปิดใช้งาน ยานี้จะไม่แสดงในหน้าจอยาและการแจ้งเตือน"
 }

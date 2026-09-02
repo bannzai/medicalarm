@@ -171,5 +171,6 @@
   "confirmOpenAppStore": "გსურთ App Store-ის გახსნა მიმოხილვის დასაწერად?",
   "premiumFeaturesList": "პრემიუმ ფუნქციების სია",
   "currentlyInPremiumTrial": "ამჟამად Premium-ის საცდელ პერიოდზე ხართ.",
-  "medicationPause": "მედიკამენტის ჩართვა"
+  "medicationPause": "მედიკამენტის ჩართვა",
+  "medicationPauseDescription": "გამორთვისას, ის ამოიშლება მედიკამენტების ეკრანიდან და შეტყობინებებიდან."
 }

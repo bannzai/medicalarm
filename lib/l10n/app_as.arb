@@ -171,5 +171,6 @@
   "confirmOpenAppStore": "পৰ্যালোচনা লিখিবলৈ App Store খোলিবনে?",
   "premiumFeaturesList": "প্ৰীমিয়াম বৈশিষ্ট্যসমূহৰ তালিকা",
   "currentlyInPremiumTrial": "আপুনি বৰ্তমান Premium পৰীক্ষামূলক সময়ছোৱাত আছে।",
-  "medicationPause": "ঔষধ সক্ৰিয় কৰক"
+  "medicationPause": "ঔষধ সক্ৰিয় কৰক",
+  "medicationPauseDescription": "বন্ধ কৰিলে, ইয়াক ঔষধৰ পৰ্দা আৰু জাননীৰ পৰা বাদ দিয়া হ’ব।"
 }

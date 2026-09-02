@@ -171,5 +171,6 @@
   "confirmOpenAppStore": "Vols obrir l’App Store per escriure una ressenya?",
   "premiumFeaturesList": "Llista de funcions premium",
   "currentlyInPremiumTrial": "Actualment esteu en el període de prova Premium.",
-  "medicationPause": "Activar la medicació"
+  "medicationPause": "Activar la medicació",
+  "medicationPauseDescription": "En desactivar-lo, s'exclourà de la pantalla de medicaments i de les notificacions."
 }

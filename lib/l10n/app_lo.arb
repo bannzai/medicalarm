@@ -171,5 +171,6 @@
   "confirmOpenAppStore": "ທ່ານຕ້ອງການເປີດ App Store ເພື່ອຂຽນຣີວິວບໍ?",
   "premiumFeaturesList": "ລາຍການຟັງຊັນພິເສດ",
   "currentlyInPremiumTrial": "ປັດຈຸບັນ ທ່ານຢູ່ໃນໄລຍະທົດລອງ Premium.",
-  "medicationPause": "ເປີດໃຊ້ຢາ"
+  "medicationPause": "ເປີດໃຊ້ຢາ",
+  "medicationPauseDescription": "ເມື່ອປິດ, ຢານີ້ຈະຖືກຍົກອອກຈາກໜ້າຈໍຢາ ແລະ ການແຈ້ງເຕືອນ."
 }

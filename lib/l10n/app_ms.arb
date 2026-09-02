@@ -171,5 +171,6 @@
   "confirmOpenAppStore": "Adakah anda mahu membuka App Store untuk menulis ulasan?",
   "premiumFeaturesList": "Senarai ciri premium",
   "currentlyInPremiumTrial": "Anda sedang menggunakan percubaan Premium.",
-  "medicationPause": "Aktifkan ubat"
+  "medicationPause": "Aktifkan ubat",
+  "medicationPauseDescription": "Apabila dimatikan, ubat ini akan dikecualikan daripada skrin ubat dan pemberitahuan."
 }

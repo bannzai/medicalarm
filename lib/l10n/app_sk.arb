@@ -171,5 +171,6 @@
   "confirmOpenAppStore": "Chcete otvoriť App Store a napísať recenziu?",
   "premiumFeaturesList": "Zoznam prémiových funkcií",
   "currentlyInPremiumTrial": "Momentálne využívate skúšobnú verziu Premium.",
-  "medicationPause": "Povoliť liek"
+  "medicationPause": "Povoliť liek",
+  "medicationPauseDescription": "Po vypnutí bude liek vynechaný z obrazovky liekov a z upozornení."
 }

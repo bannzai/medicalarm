@@ -171,5 +171,6 @@
   "confirmOpenAppStore": "Wil je de App Store openen om een review te schrijven?",
   "premiumFeaturesList": "Lijst met premiumfuncties",
   "currentlyInPremiumTrial": "Je gebruikt momenteel de Premium-proefperiode.",
-  "medicationPause": "Medicatie inschakelen"
+  "medicationPause": "Medicatie inschakelen",
+  "medicationPauseDescription": "Wanneer dit wordt uitgeschakeld, wordt het uitgesloten van het medicijnenscherm en de meldingen."
 }

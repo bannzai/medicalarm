@@ -171,5 +171,6 @@
   "confirmOpenAppStore": "Chcete otevřít App Store a napsat recenzi?",
   "premiumFeaturesList": "Seznam prémiových funkcí",
   "currentlyInPremiumTrial": "Právě využíváte zkušební verzi Premium.",
-  "medicationPause": "Povolit užívání léku"
+  "medicationPause": "Povolit užívání léku",
+  "medicationPauseDescription": "Po vypnutí bude lék vyřazen z obrazovky léků a z oznámení."
 }

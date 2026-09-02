@@ -171,5 +171,6 @@
   "confirmOpenAppStore": "Vil du åbne App Store for at skrive en anmeldelse?",
   "premiumFeaturesList": "Liste over premiumfunktioner",
   "currentlyInPremiumTrial": "Du er i øjeblikket på Premium-prøveperioden.",
-  "medicationPause": "Aktivér medicin"
+  "medicationPause": "Aktivér medicin",
+  "medicationPauseDescription": "Når den slås fra, fjernes den fra medicinskærmen og notifikationerne."
 }

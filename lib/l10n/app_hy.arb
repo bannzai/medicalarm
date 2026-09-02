@@ -171,5 +171,6 @@
   "confirmOpenAppStore": "Բացե՞լ App Store-ը՝ կարծիք գրելու համար։",
   "premiumFeaturesList": "Պրեմիում գործառույթների ցանկ",
   "currentlyInPremiumTrial": "Դուք ներկայումս Premium-ի փորձաշրջանում եք։",
-  "medicationPause": "Ակտիվացնել դեղորայքը"
+  "medicationPause": "Ակտիվացնել դեղորայքը",
+  "medicationPauseDescription": "Անջատելու դեպքում այն կհեռացվի դեղերի էկրանից և ծանուցումներից։"
 }

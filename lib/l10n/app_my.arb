@@ -171,5 +171,6 @@
   "confirmOpenAppStore": "သုံးသပ်ချက်ရေးရန် App Store ကို ဖွင့်မလား?",
   "premiumFeaturesList": "ပရီမီယံ လုပ်ဆောင်ချက်များစာရင်း",
   "currentlyInPremiumTrial": "လက်ရှိတွင် Premium အစမ်းသုံးကာလကို အသုံးပြုနေပါသည်။",
-  "medicationPause": "ဆေးကို အသုံးပြုရန် ဖွင့်ပါ"
+  "medicationPause": "ဆေးကို အသုံးပြုရန် ဖွင့်ပါ",
+  "medicationPauseDescription": "ပိတ်လိုက်ပါက ဆေးမျက်နှာပြင်နှင့် အသိပေးချက်များမှ ဖယ်ရှားမည်။"
 }

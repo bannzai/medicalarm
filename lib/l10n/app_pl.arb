@@ -171,5 +171,6 @@
   "confirmOpenAppStore": "Czy chcesz otworzyć App Store, aby napisać recenzję?",
   "premiumFeaturesList": "Lista funkcji premium",
   "currentlyInPremiumTrial": "Obecnie korzystasz z wersji próbnej Premium.",
-  "medicationPause": "Włącz lek"
+  "medicationPause": "Włącz lek",
+  "medicationPauseDescription": "Po wyłączeniu lek zostanie usunięty z ekranu leków i powiadomień."
 }

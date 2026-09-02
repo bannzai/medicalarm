@@ -171,5 +171,6 @@
   "confirmOpenAppStore": "Bubuksan ba ang App Store para magsulat ng review?",
   "premiumFeaturesList": "Listahan ng mga premium na feature",
   "currentlyInPremiumTrial": "Kasalukuyan kang nasa Premium trial.",
-  "medicationPause": "Paganahin ang gamot"
+  "medicationPause": "Paganahin ang gamot",
+  "medicationPauseDescription": "Kapag naka-off, hindi ito isasama sa screen ng mga gamot at mga notification."
 }

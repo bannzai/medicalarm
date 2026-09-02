@@ -171,5 +171,6 @@
   "confirmOpenAppStore": "Wil jy die App Store oopmaak om ’n resensie te skryf?",
   "premiumFeaturesList": "Lys van premiumkenmerke",
   "currentlyInPremiumTrial": "Jy gebruik tans die Premium-proeflopie.",
-  "medicationPause": "Medikasie aktiveer"
+  "medicationPause": "Medikasie aktiveer",
+  "medicationPauseDescription": "Wanneer dit afgeskakel word, word dit van die medikasieskerm en kennisgewings uitgesluit."
 }

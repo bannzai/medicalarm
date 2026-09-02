@@ -171,5 +171,6 @@
   "confirmOpenAppStore": "리뷰를 작성하기 위해 App Store를 열까요?",
   "premiumFeaturesList": "프리미엄 기능 목록",
   "currentlyInPremiumTrial": "현재 Premium 체험 기간 중입니다.",
-  "medicationPause": "복약 활성화"
+  "medicationPause": "복약 활성화",
+  "medicationPauseDescription": "끄면 복약 화면과 알림에서 제외됩니다."
 }

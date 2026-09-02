@@ -171,5 +171,6 @@
   "confirmOpenAppStore": "Сын-пикир жазуу үчүн App Store ачылсынбы?",
   "premiumFeaturesList": "Премиум функциялардын тизмеси",
   "currentlyInPremiumTrial": "Учурда Premium сынамык мөөнөтүн колдонуп жатасыз.",
-  "medicationPause": "Дарыны иштетүү"
+  "medicationPause": "Дарыны иштетүү",
+  "medicationPauseDescription": "Өчүрүлгөндө, дары-дармектер экранынан жана эскертмелерден чыгарылат."
 }

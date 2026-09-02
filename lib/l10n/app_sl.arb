@@ -171,5 +171,6 @@
   "confirmOpenAppStore": "Želite odpreti App Store in napisati oceno?",
   "premiumFeaturesList": "Seznam premium funkcij",
   "currentlyInPremiumTrial": "Trenutno uporabljate preizkusno obdobje Premium.",
-  "medicationPause": "Omogoči zdravilo"
+  "medicationPause": "Omogoči zdravilo",
+  "medicationPauseDescription": "Ob izklopu bo zdravilo odstranjeno z zaslona z zdravili in iz obvestil."
 }

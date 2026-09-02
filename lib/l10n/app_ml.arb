@@ -171,5 +171,6 @@
   "confirmOpenAppStore": "ഒരു അവലോകനം എഴുതാൻ App Store തുറക്കണോ?",
   "premiumFeaturesList": "പ്രീമിയം ഫീച്ചറുകളുടെ പട്ടിക",
   "currentlyInPremiumTrial": "നിങ്ങൾ നിലവിൽ Premium ട്രയലിലാണ്.",
-  "medicationPause": "മരുന്ന് പ്രവർത്തനക്ഷമമാക്കുക"
+  "medicationPause": "മരുന്ന് പ്രവർത്തനക്ഷമമാക്കുക",
+  "medicationPauseDescription": "ഓഫ് ചെയ്യുമ്പോൾ, ഇത് മരുന്നുകളുടെ സ്ക്രീനിൽ നിന്നും അറിയിപ്പുകളിൽ നിന്നും ഒഴിവാക്കപ്പെടും."
 }

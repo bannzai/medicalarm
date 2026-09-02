@@ -171,5 +171,6 @@
   "confirmOpenAppStore": "Möchtest du den App Store öffnen, um eine Bewertung zu schreiben?",
   "premiumFeaturesList": "Liste der Premium-Funktionen",
   "currentlyInPremiumTrial": "Du nutzt derzeit die Premium-Testphase.",
-  "medicationPause": "Medikament aktivieren"
+  "medicationPause": "Medikament aktivieren",
+  "medicationPauseDescription": "Wenn es deaktiviert wird, wird es aus dem Medikamentenbildschirm und den Benachrichtigungen entfernt."
 }

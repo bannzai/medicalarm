@@ -171,5 +171,6 @@
   "confirmOpenAppStore": "می‌خواهید برای نوشتن نظر، App Store را باز کنید؟",
   "premiumFeaturesList": "فهرست قابلیت‌های پریمیوم",
   "currentlyInPremiumTrial": "در حال حاضر در دورهٔ آزمایشی Premium هستید.",
-  "medicationPause": "فعال‌کردن دارو"
+  "medicationPause": "فعال‌کردن دارو",
+  "medicationPauseDescription": "با خاموش کردن آن، از صفحه داروها و اعلان‌ها حذف می‌شود."
 }

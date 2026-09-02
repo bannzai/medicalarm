@@ -171,5 +171,6 @@
   "confirmOpenAppStore": "İnceleme yazmak için App Store açılsın mı?",
   "premiumFeaturesList": "Premium özellikler listesi",
   "currentlyInPremiumTrial": "Şu anda Premium deneme sürümündesiniz.",
-  "medicationPause": "İlacı etkinleştir"
+  "medicationPause": "İlacı etkinleştir",
+  "medicationPauseDescription": "Kapatıldığında ilaç ekranından ve bildirimlerden çıkarılır."
 }

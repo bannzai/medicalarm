@@ -171,5 +171,6 @@
   "confirmOpenAppStore": "Haluatko avata App Storen arvostelun kirjoittamista varten?",
   "premiumFeaturesList": "Premium-ominaisuudet",
   "currentlyInPremiumTrial": "Käytät parhaillaan Premium-kokeilujaksoa.",
-  "medicationPause": "Ota lääkitys käyttöön"
+  "medicationPause": "Ota lääkitys käyttöön",
+  "medicationPauseDescription": "Kun se poistetaan käytöstä, se poistetaan lääkkeiden näytöstä ja ilmoituksista."
 }

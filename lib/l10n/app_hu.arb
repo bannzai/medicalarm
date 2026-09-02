@@ -171,5 +171,6 @@
   "confirmOpenAppStore": "Megnyitod az App Store-t, hogy értékelést írj?",
   "premiumFeaturesList": "Prémiumfunkciók listája",
   "currentlyInPremiumTrial": "Jelenleg a Premium próbaidőszakát használja.",
-  "medicationPause": "Gyógyszer aktiválása"
+  "medicationPause": "Gyógyszer aktiválása",
+  "medicationPauseDescription": "Kikapcsoláskor a gyógyszer kikerül a gyógyszerek képernyőjéről és az értesítésekből."
 }

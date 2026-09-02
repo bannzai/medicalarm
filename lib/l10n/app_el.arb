@@ -171,5 +171,6 @@
   "confirmOpenAppStore": "Θέλετε να ανοίξετε το App Store για να γράψετε μια κριτική;",
   "premiumFeaturesList": "Λίστα premium λειτουργιών",
   "currentlyInPremiumTrial": "Αυτήν τη στιγμή χρησιμοποιείτε τη δοκιμαστική περίοδο Premium.",
-  "medicationPause": "Ενεργοποίηση φαρμάκου"
+  "medicationPause": "Ενεργοποίηση φαρμάκου",
+  "medicationPauseDescription": "Όταν απενεργοποιηθεί, θα εξαιρεθεί από την οθόνη φαρμάκων και τις ειδοποιήσεις."
 }

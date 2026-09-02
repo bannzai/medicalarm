@@ -171,5 +171,6 @@
   "confirmOpenAppStore": "Dëshiron të hapësh App Store për të shkruar një vlerësim?",
   "premiumFeaturesList": "Lista e veçorive premium",
   "currentlyInPremiumTrial": "Aktualisht jeni në periudhën e provës Premium.",
-  "medicationPause": "Aktivizo medikamentin"
+  "medicationPause": "Aktivizo medikamentin",
+  "medicationPauseDescription": "Kur çaktivizohet, ilaçi do të hiqet nga ekrani i barnave dhe njoftimet."
 }

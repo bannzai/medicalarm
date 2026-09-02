@@ -171,5 +171,6 @@
   "confirmOpenAppStore": "Відкрити App Store, щоб написати відгук?",
   "premiumFeaturesList": "Список преміум-функцій",
   "currentlyInPremiumTrial": "Наразі ви користуєтеся пробним періодом Premium.",
-  "medicationPause": "Увімкнути ліки"
+  "medicationPause": "Увімкнути ліки",
+  "medicationPauseDescription": "Після вимкнення препарат буде вилучено з екрана ліків і сповіщень."
 }

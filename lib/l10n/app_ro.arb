@@ -171,5 +171,6 @@
   "confirmOpenAppStore": "Doriți să deschideți App Store pentru a scrie o recenzie?",
   "premiumFeaturesList": "Lista funcțiilor premium",
   "currentlyInPremiumTrial": "În prezent utilizați perioada de probă Premium.",
-  "medicationPause": "Activează medicamentul"
+  "medicationPause": "Activează medicamentul",
+  "medicationPauseDescription": "Când este dezactivat, medicamentul va fi exclus de pe ecranul medicamentelor și din notificări."
 }

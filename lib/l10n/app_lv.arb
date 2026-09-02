@@ -171,5 +171,6 @@
   "confirmOpenAppStore": "Vai vēlaties atvērt App Store, lai uzrakstītu atsauksmi?",
   "premiumFeaturesList": "Premium funkciju saraksts",
   "currentlyInPremiumTrial": "Pašlaik izmantojat Premium izmēģinājuma periodu.",
-  "medicationPause": "Aktivizēt zāles"
+  "medicationPause": "Aktivizēt zāles",
+  "medicationPauseDescription": "Izslēdzot, tas tiks noņemts no zāļu ekrāna un paziņojumiem."
 }

@@ -171,5 +171,6 @@
   "confirmOpenAppStore": "Rəy yazmaq üçün App Store açılsın?",
   "premiumFeaturesList": "Premium funksiyaların siyahısı",
   "currentlyInPremiumTrial": "Hazırda Premium sınaq müddətindəsiniz.",
-  "medicationPause": "Dərmanı aktivləşdirin"
+  "medicationPause": "Dərmanı aktivləşdirin",
+  "medicationPauseDescription": "Söndürüldükdə, dərman ekranından və bildirişlərdən çıxarılır."
 }

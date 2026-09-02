@@ -171,5 +171,6 @@
   "confirmOpenAppStore": "ವಿಮರ್ಶೆ ಬರೆಯಲು App Store ತೆರೆಯಲು ಬಯಸುವಿರಾ?",
   "premiumFeaturesList": "ಪ್ರೀಮಿಯಂ ವೈಶಿಷ್ಟ್ಯಗಳ ಪಟ್ಟಿ",
   "currentlyInPremiumTrial": "ನೀವು ಪ್ರಸ್ತುತ Premium ಪ್ರಯೋಗಾವಧಿಯಲ್ಲಿದ್ದೀರಿ.",
-  "medicationPause": "ಔಷಧವನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ"
+  "medicationPause": "ಔಷಧವನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ",
+  "medicationPauseDescription": "ಆಫ್ ಮಾಡಿದಾಗ, ಇದನ್ನು ಔಷಧಿಗಳ ಪರದೆ ಮತ್ತು ಅಧಿಸೂಚನೆಗಳಿಂದ ಹೊರಗಿಡಲಾಗುತ್ತದೆ."
 }

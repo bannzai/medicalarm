@@ -171,5 +171,6 @@
   "confirmOpenAppStore": "রিভিউ লিখতে App Store খুলবেন?",
   "premiumFeaturesList": "প্রিমিয়াম ফিচারের তালিকা",
   "currentlyInPremiumTrial": "আপনি বর্তমানে Premium ট্রায়াল ব্যবহার করছেন।",
-  "medicationPause": "ওষুধ চালু করুন"
+  "medicationPause": "ওষুধ চালু করুন",
+  "medicationPauseDescription": "বন্ধ করলে এটি ওষুধের স্ক্রিন ও বিজ্ঞপ্তি থেকে বাদ যাবে।"
 }

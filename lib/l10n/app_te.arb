@@ -171,5 +171,6 @@
   "confirmOpenAppStore": "సమీక్ష రాయడానికి App Storeను తెరవాలా?",
   "premiumFeaturesList": "ప్రీమియం ఫీచర్ల జాబితా",
   "currentlyInPremiumTrial": "మీరు ప్రస్తుతం Premium ట్రయల్‌లో ఉన్నారు.",
-  "medicationPause": "మందును ప్రారంభించండి"
+  "medicationPause": "మందును ప్రారంభించండి",
+  "medicationPauseDescription": "ఆఫ్ చేసినప్పుడు, ఇది మందుల స్క్రీన్ మరియు నోటిఫికేషన్‌ల నుండి తీసివేయబడుతుంది."
 }

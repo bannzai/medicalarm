@@ -171,5 +171,6 @@
   "confirmOpenAppStore": "Buka App Store untuk menulis ulasan?",
   "premiumFeaturesList": "Daftar fitur premium",
   "currentlyInPremiumTrial": "Saat ini Anda sedang menggunakan uji coba Premium.",
-  "medicationPause": "Aktifkan obat"
+  "medicationPause": "Aktifkan obat",
+  "medicationPauseDescription": "Jika dinonaktifkan, obat ini akan dikecualikan dari layar obat dan notifikasi."
 }

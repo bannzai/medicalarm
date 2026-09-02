@@ -171,5 +171,6 @@
   "confirmOpenAppStore": "Открыть App Store, чтобы написать отзыв?",
   "premiumFeaturesList": "Список премиум-функций",
   "currentlyInPremiumTrial": "Сейчас вы используете пробный период Premium.",
-  "medicationPause": "Включить лекарство"
+  "medicationPause": "Включить лекарство",
+  "medicationPauseDescription": "После отключения препарат будет исключён из экрана лекарств и уведомлений."
 }

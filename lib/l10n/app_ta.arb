@@ -171,5 +171,6 @@
   "confirmOpenAppStore": "மதிப்பாய்வு எழுத App Store-ஐத் திறக்கவா?",
   "premiumFeaturesList": "பிரீமியம் அம்சங்களின் பட்டியல்",
   "currentlyInPremiumTrial": "நீங்கள் தற்போது Premium சோதனைக் காலத்தில் உள்ளீர்கள்.",
-  "medicationPause": "மருந்தைச் செயல்படுத்து"
+  "medicationPause": "மருந்தைச் செயல்படுத்து",
+  "medicationPauseDescription": "ஆஃப் செய்தால், இது மருந்துத் திரையிலிருந்தும் அறிவிப்புகளிலிருந்தும் நீக்கப்படும்."
 }
