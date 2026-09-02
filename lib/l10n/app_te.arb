@@ -190,5 +190,6 @@
   "groupIcon": "చిహ్నం",
   "groupMemberCount": "{count} మంది సభ్యులు",
   "defaultGroupBadge": "డిఫాల్ట్",
-  "soloGroupName": "నా సమూహాలు"
+  "soloGroupName": "నా సమూహాలు",
+  "joinWithInvitationCode": "ఆహ్వాన కోడ్‌తో చేరండి"
 }

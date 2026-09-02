@@ -190,5 +190,6 @@
   "groupIcon": "আইকন",
   "groupMemberCount": "{count} জন সদস্য",
   "defaultGroupBadge": "ডিফল্ট",
-  "soloGroupName": "আমার গ্রুপ"
+  "soloGroupName": "আমার গ্রুপ",
+  "joinWithInvitationCode": "আমন্ত্রণ কোড দিয়ে যোগ দিন"
 }

@@ -190,5 +190,6 @@
   "groupIcon": "ხატულა",
   "groupMemberCount": "{count} წევრი",
   "defaultGroupBadge": "ნაგულისხმევი",
-  "soloGroupName": "ჩემი ჯგუფები"
+  "soloGroupName": "ჩემი ჯგუფები",
+  "joinWithInvitationCode": "მოწვევის კოდით გაწევრიანება"
 }

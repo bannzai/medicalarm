@@ -190,5 +190,6 @@
   "groupIcon": "Pictogramă",
   "groupMemberCount": "{count} membri",
   "defaultGroupBadge": "Implicit",
-  "soloGroupName": "Grupurile mele"
+  "soloGroupName": "Grupurile mele",
+  "joinWithInvitationCode": "Alătură-te cu un cod de invitație"
 }

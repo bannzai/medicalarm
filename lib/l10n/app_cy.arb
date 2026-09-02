@@ -190,5 +190,6 @@
   "groupIcon": "Eicon",
   "groupMemberCount": "{count} aelod",
   "defaultGroupBadge": "Rhagosodedig",
-  "soloGroupName": "Fy ngrwpiau"
+  "soloGroupName": "Fy ngrwpiau",
+  "joinWithInvitationCode": "Ymuno â chod gwahoddiad"
 }

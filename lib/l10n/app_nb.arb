@@ -190,5 +190,6 @@
   "groupIcon": "Ikon",
   "groupMemberCount": "{count} medlemmer",
   "defaultGroupBadge": "Standard",
-  "soloGroupName": "Mine grupper"
+  "soloGroupName": "Mine grupper",
+  "joinWithInvitationCode": "Bli med med invitasjonskode"
 }

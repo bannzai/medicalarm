@@ -190,5 +190,6 @@
   "groupIcon": "ಐಕಾನ್",
   "groupMemberCount": "{count} ಸದಸ್ಯರು",
   "defaultGroupBadge": "ಡೀಫಾಲ್ಟ್",
-  "soloGroupName": "ನನ್ನ ಗುಂಪುಗಳು"
+  "soloGroupName": "ನನ್ನ ಗುಂಪುಗಳು",
+  "joinWithInvitationCode": "ಆಹ್ವಾನ ಕೋಡ್ ಮೂಲಕ ಸೇರಿ"
 }

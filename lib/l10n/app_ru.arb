@@ -190,5 +190,6 @@
   "groupIcon": "Значок",
   "groupMemberCount": "{count} участников",
   "defaultGroupBadge": "По умолчанию",
-  "soloGroupName": "Мои группы"
+  "soloGroupName": "Мои группы",
+  "joinWithInvitationCode": "Присоединиться по коду приглашения"
 }

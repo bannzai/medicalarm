@@ -190,5 +190,6 @@
   "groupIcon": "ഐക്കൺ",
   "groupMemberCount": "{count} അംഗങ്ങൾ",
   "defaultGroupBadge": "ഡിഫോൾട്ട്",
-  "soloGroupName": "എന്റെ ഗ്രൂപ്പുകൾ"
+  "soloGroupName": "എന്റെ ഗ്രൂപ്പുകൾ",
+  "joinWithInvitationCode": "ക്ഷണ കോഡ് ഉപയോഗിച്ച് ചേരുക"
 }

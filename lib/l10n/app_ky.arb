@@ -190,5 +190,6 @@
   "groupIcon": "Белги",
   "groupMemberCount": "{count} мүчө",
   "defaultGroupBadge": "Демейки",
-  "soloGroupName": "Менин топторум"
+  "soloGroupName": "Менин топторум",
+  "joinWithInvitationCode": "Чакыруу коду менен кошулуу"
 }

@@ -190,5 +190,6 @@
   "groupIcon": "Ikon",
   "groupMemberCount": "{count} tag",
   "defaultGroupBadge": "Alapértelmezett",
-  "soloGroupName": "Csoportjaim"
+  "soloGroupName": "Csoportjaim",
+  "joinWithInvitationCode": "Csatlakozás meghívókóddal"
 }

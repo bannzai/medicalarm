@@ -190,5 +190,6 @@
   "groupIcon": "نماد",
   "groupMemberCount": "{count} عضو",
   "defaultGroupBadge": "پیش‌فرض",
-  "soloGroupName": "گروه‌های من"
+  "soloGroupName": "گروه‌های من",
+  "joinWithInvitationCode": "پیوستن با کد دعوت"
 }

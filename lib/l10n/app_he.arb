@@ -190,5 +190,6 @@
   "groupIcon": "סמל",
   "groupMemberCount": "{count} חברים",
   "defaultGroupBadge": "ברירת מחדל",
-  "soloGroupName": "הקבוצות שלי"
+  "soloGroupName": "הקבוצות שלי",
+  "joinWithInvitationCode": "הצטרפות באמצעות קוד הזמנה"
 }

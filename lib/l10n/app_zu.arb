@@ -190,5 +190,6 @@
   "groupIcon": "Isithonjana",
   "groupMemberCount": "{count} amalungu",
   "defaultGroupBadge": "Okuzenzakalelayo",
-  "soloGroupName": "Amaqembu ami"
+  "soloGroupName": "Amaqembu ami",
+  "joinWithInvitationCode": "Joyina ngekhodi yesimemo"
 }

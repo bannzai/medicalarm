@@ -190,5 +190,6 @@
   "groupIcon": "Значок",
   "groupMemberCount": "{count} удзельнікаў",
   "defaultGroupBadge": "Па змаўчанні",
-  "soloGroupName": "Мае групы"
+  "soloGroupName": "Мае групы",
+  "joinWithInvitationCode": "Далучыцца з кодам запрашэння"
 }

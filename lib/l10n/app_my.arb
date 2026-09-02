@@ -190,5 +190,6 @@
   "groupIcon": "အိုင်ကွန်",
   "groupMemberCount": "အဖွဲ့ဝင် {count} ဦး",
   "defaultGroupBadge": "မူရင်း",
-  "soloGroupName": "ကျွန်ုပ်၏အဖွဲ့များ"
+  "soloGroupName": "ကျွန်ုပ်၏အဖွဲ့များ",
+  "joinWithInvitationCode": "ဖိတ်ကြားကုဒ်ဖြင့် ပါဝင်ရန်"
 }

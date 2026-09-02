@@ -190,5 +190,6 @@
   "groupIcon": "Ikonoa",
   "groupMemberCount": "{count} kide",
   "defaultGroupBadge": "Lehenetsia",
-  "soloGroupName": "Nire taldeak"
+  "soloGroupName": "Nire taldeak",
+  "joinWithInvitationCode": "Gonbidapen-kodearekin bat egin"
 }

@@ -190,5 +190,6 @@
   "groupIcon": "Biểu tượng",
   "groupMemberCount": "{count} thành viên",
   "defaultGroupBadge": "Mặc định",
-  "soloGroupName": "Nhóm của tôi"
+  "soloGroupName": "Nhóm của tôi",
+  "joinWithInvitationCode": "Tham gia bằng mã lời mời"
 }

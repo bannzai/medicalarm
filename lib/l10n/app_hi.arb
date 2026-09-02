@@ -190,5 +190,6 @@
   "groupIcon": "आइकन",
   "groupMemberCount": "{count} सदस्य",
   "defaultGroupBadge": "डिफ़ॉल्ट",
-  "soloGroupName": "मेरे समूह"
+  "soloGroupName": "मेरे समूह",
+  "joinWithInvitationCode": "आमंत्रण कोड से जुड़ें"
 }

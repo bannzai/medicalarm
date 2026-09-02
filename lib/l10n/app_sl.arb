@@ -190,5 +190,6 @@
   "groupIcon": "Ikona",
   "groupMemberCount": "{count} članov",
   "defaultGroupBadge": "Privzeto",
-  "soloGroupName": "Moje skupine"
+  "soloGroupName": "Moje skupine",
+  "joinWithInvitationCode": "Pridruži se s kodo povabila"
 }

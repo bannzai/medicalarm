@@ -190,5 +190,6 @@
   "groupIcon": "Ikoni",
   "groupMemberCount": "{count} wanachama",
   "defaultGroupBadge": "Chaguomsingi",
-  "soloGroupName": "Vikundi vyangu"
+  "soloGroupName": "Vikundi vyangu",
+  "joinWithInvitationCode": "Jiunge kwa kutumia msimbo wa mwaliko"
 }

@@ -190,5 +190,6 @@
   "groupIcon": "Ikoon",
   "groupMemberCount": "{count} liiget",
   "defaultGroupBadge": "Vaikimisi",
-  "soloGroupName": "Minu grupid"
+  "soloGroupName": "Minu grupid",
+  "joinWithInvitationCode": "Liitu kutsekoodiga"
 }

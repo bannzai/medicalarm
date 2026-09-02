@@ -190,5 +190,6 @@
   "groupIcon": "İkon",
   "groupMemberCount": "{count} üzv",
   "defaultGroupBadge": "Defolt",
-  "soloGroupName": "Qruplarım"
+  "soloGroupName": "Qruplarım",
+  "joinWithInvitationCode": "Dəvət kodu ilə qoşulun"
 }

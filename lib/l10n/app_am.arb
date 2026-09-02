@@ -190,5 +190,6 @@
   "groupIcon": "አይኮን",
   "groupMemberCount": "አባላት: {count}",
   "defaultGroupBadge": "ነባሪ",
-  "soloGroupName": "የእኔ ቡድኖች"
+  "soloGroupName": "የእኔ ቡድኖች",
+  "joinWithInvitationCode": "በግብዣ ኮድ ይቀላቀሉ"
 }

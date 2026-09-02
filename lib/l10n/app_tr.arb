@@ -190,5 +190,6 @@
   "groupIcon": "Simge",
   "groupMemberCount": "{count} üye",
   "defaultGroupBadge": "Varsayılan",
-  "soloGroupName": "Gruplarım"
+  "soloGroupName": "Gruplarım",
+  "joinWithInvitationCode": "Davet koduyla katıl"
 }

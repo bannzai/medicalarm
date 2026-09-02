@@ -190,5 +190,6 @@
   "groupIcon": "Icono",
   "groupMemberCount": "{count} miembros",
   "defaultGroupBadge": "Predeterminado",
-  "soloGroupName": "Mis grupos"
+  "soloGroupName": "Mis grupos",
+  "joinWithInvitationCode": "Unirse con código de invitación"
 }

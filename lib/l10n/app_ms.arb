@@ -190,5 +190,6 @@
   "groupIcon": "Ikon",
   "groupMemberCount": "{count} ahli",
   "defaultGroupBadge": "Lalai",
-  "soloGroupName": "Kumpulan saya"
+  "soloGroupName": "Kumpulan saya",
+  "joinWithInvitationCode": "Sertai dengan kod jemputan"
 }

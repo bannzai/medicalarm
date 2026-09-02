@@ -190,5 +190,6 @@
   "groupIcon": "Պատկերակ",
   "groupMemberCount": "{count} անդամ",
   "defaultGroupBadge": "Լռելյայն",
-  "soloGroupName": "Իմ խմբերը"
+  "soloGroupName": "Իմ խմբերը",
+  "joinWithInvitationCode": "Միանալ հրավերի կոդով"
 }

@@ -190,5 +190,6 @@
   "groupIcon": "Икона",
   "groupMemberCount": "{count} членови",
   "defaultGroupBadge": "Стандардно",
-  "soloGroupName": "Мои групи"
+  "soloGroupName": "Мои групи",
+  "joinWithInvitationCode": "Придружи се со код за покана"
 }

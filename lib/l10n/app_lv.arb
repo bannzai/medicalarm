@@ -190,5 +190,6 @@
   "groupIcon": "Ikona",
   "groupMemberCount": "{count} dalībnieki",
   "defaultGroupBadge": "Noklusējuma",
-  "soloGroupName": "Manas grupas"
+  "soloGroupName": "Manas grupas",
+  "joinWithInvitationCode": "Pievienoties ar ielūguma kodu"
 }

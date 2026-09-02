@@ -190,5 +190,6 @@
   "groupIcon": "Tákn",
   "groupMemberCount": "{count} meðlimir",
   "defaultGroupBadge": "Sjálfgefið",
-  "soloGroupName": "Mínir hópar"
+  "soloGroupName": "Mínir hópar",
+  "joinWithInvitationCode": "Taka þátt með boðskóða"
 }

@@ -190,5 +190,6 @@
   "groupIcon": "الأيقونة",
   "groupMemberCount": "{count} أعضاء",
   "defaultGroupBadge": "افتراضي",
-  "soloGroupName": "مجموعاتي"
+  "soloGroupName": "مجموعاتي",
+  "joinWithInvitationCode": "الانضمام باستخدام رمز الدعوة"
 }

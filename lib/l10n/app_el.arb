@@ -190,5 +190,6 @@
   "groupIcon": "Εικονίδιο",
   "groupMemberCount": "{count} μέλη",
   "defaultGroupBadge": "Προεπιλεγμένο",
-  "soloGroupName": "Οι ομάδες μου"
+  "soloGroupName": "Οι ομάδες μου",
+  "joinWithInvitationCode": "Συμμετοχή με κωδικό πρόσκλησης"
 }

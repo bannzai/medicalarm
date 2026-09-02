@@ -190,5 +190,6 @@
   "groupIcon": "Ikoon",
   "groupMemberCount": "{count} lede",
   "defaultGroupBadge": "Verstek",
-  "soloGroupName": "My groepe"
+  "soloGroupName": "My groepe",
+  "joinWithInvitationCode": "Neem deel met uitnodigingskode"
 }

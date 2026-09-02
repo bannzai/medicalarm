@@ -190,5 +190,6 @@
   "groupIcon": "Ikon",
   "groupMemberCount": "{count} anggota",
   "defaultGroupBadge": "Bawaan",
-  "soloGroupName": "Grup saya"
+  "soloGroupName": "Grup saya",
+  "joinWithInvitationCode": "Gabung dengan kode undangan"
 }

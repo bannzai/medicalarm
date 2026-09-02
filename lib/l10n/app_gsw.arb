@@ -190,5 +190,6 @@
   "groupIcon": "Symbol",
   "groupMemberCount": "{count} Mitglieder",
   "defaultGroupBadge": "Standard",
-  "soloGroupName": "Mini Gruppe"
+  "soloGroupName": "Mini Gruppe",
+  "joinWithInvitationCode": "Mit Einladungscode beitreten"
 }

@@ -190,5 +190,6 @@
   "groupIcon": "Icon",
   "groupMemberCount": "{count} miyembro",
   "defaultGroupBadge": "Default",
-  "soloGroupName": "Aking mga grupo"
+  "soloGroupName": "Aking mga grupo",
+  "joinWithInvitationCode": "Sumali gamit ang code ng imbitasyon"
 }

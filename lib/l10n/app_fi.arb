@@ -190,5 +190,6 @@
   "groupIcon": "Kuvake",
   "groupMemberCount": "{count} jäsentä",
   "defaultGroupBadge": "Oletus",
-  "soloGroupName": "Omat ryhmäni"
+  "soloGroupName": "Omat ryhmäni",
+  "joinWithInvitationCode": "Liity kutsukoodilla"
 }

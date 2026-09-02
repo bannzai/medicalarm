@@ -190,5 +190,6 @@
   "groupIcon": "Ikonë",
   "groupMemberCount": "{count} anëtarë",
   "defaultGroupBadge": "Parazgjedhje",
-  "soloGroupName": "Grupet e mia"
+  "soloGroupName": "Grupet e mia",
+  "joinWithInvitationCode": "Bashkohu me kod ftese"
 }

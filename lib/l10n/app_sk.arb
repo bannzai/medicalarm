@@ -190,5 +190,6 @@
   "groupIcon": "Ikona",
   "groupMemberCount": "{count} členov",
   "defaultGroupBadge": "Predvolené",
-  "soloGroupName": "Moje skupiny"
+  "soloGroupName": "Moje skupiny",
+  "joinWithInvitationCode": "Pripojiť sa pomocou pozývacieho kódu"
 }

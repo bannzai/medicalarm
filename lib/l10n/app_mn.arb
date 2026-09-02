@@ -190,5 +190,6 @@
   "groupIcon": "Дүрс",
   "groupMemberCount": "{count} гишүүн",
   "defaultGroupBadge": "Өгөгдмөл",
-  "soloGroupName": "Миний бүлгүүд"
+  "soloGroupName": "Миний бүлгүүд",
+  "joinWithInvitationCode": "Урилгын кодоор нэгдэх"
 }

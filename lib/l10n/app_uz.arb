@@ -190,5 +190,6 @@
   "groupIcon": "Belgi",
   "groupMemberCount": "{count} a'zo",
   "defaultGroupBadge": "Standart",
-  "soloGroupName": "Guruhlarim"
+  "soloGroupName": "Guruhlarim",
+  "joinWithInvitationCode": "Taklif kodi bilan qo‘shilish"
 }

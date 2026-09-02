@@ -190,5 +190,6 @@
   "groupIcon": "Піктограма",
   "groupMemberCount": "{count} учасників",
   "defaultGroupBadge": "За замовчуванням",
-  "soloGroupName": "Мої групи"
+  "soloGroupName": "Мої групи",
+  "joinWithInvitationCode": "Приєднатися за кодом запрошення"
 }

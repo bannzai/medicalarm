@@ -190,5 +190,6 @@
   "groupIcon": "Белгіше",
   "groupMemberCount": "{count} мүше",
   "defaultGroupBadge": "Әдепкі",
-  "soloGroupName": "Менің топтарым"
+  "soloGroupName": "Менің топтарым",
+  "joinWithInvitationCode": "Шақыру кодымен қосылу"
 }

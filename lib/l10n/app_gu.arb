@@ -190,5 +190,6 @@
   "groupIcon": "આઇકન",
   "groupMemberCount": "{count} સભ્યો",
   "defaultGroupBadge": "ડિફૉલ્ટ",
-  "soloGroupName": "મારા જૂથો"
+  "soloGroupName": "મારા જૂથો",
+  "joinWithInvitationCode": "આમંત્રણ કોડથી જોડાઓ"
 }

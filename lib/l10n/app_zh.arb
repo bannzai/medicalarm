@@ -190,5 +190,6 @@
   "groupIcon": "图标",
   "groupMemberCount": "{count}名成员",
   "defaultGroupBadge": "默认",
-  "soloGroupName": "我的群组"
+  "soloGroupName": "我的群组",
+  "joinWithInvitationCode": "使用邀请码加入"
 }

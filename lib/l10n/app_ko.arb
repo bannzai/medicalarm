@@ -190,5 +190,6 @@
   "groupIcon": "아이콘",
   "groupMemberCount": "멤버 {count}명",
   "defaultGroupBadge": "기본",
-  "soloGroupName": "내 그룹"
+  "soloGroupName": "내 그룹",
+  "joinWithInvitationCode": "초대 코드로 참여"
 }

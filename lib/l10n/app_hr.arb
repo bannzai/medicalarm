@@ -190,5 +190,6 @@
   "groupIcon": "Ikona",
   "groupMemberCount": "{count} članova",
   "defaultGroupBadge": "Zadano",
-  "soloGroupName": "Moje grupe"
+  "soloGroupName": "Moje grupe",
+  "joinWithInvitationCode": "Pridruži se pomoću pozivnog koda"
 }
