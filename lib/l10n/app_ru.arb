@@ -225,5 +225,6 @@
   "minimumDoseInterval": "Интервал между приёмами",
   "minimumDoseIntervalDescription": "Минимальный интервал между приёмами после предыдущей дозы",
   "minimumDoseIntervalNone": "Нет",
-  "minimumDoseIntervalHoursFormat": "Не менее {hours} часов"
+  "minimumDoseIntervalHoursFormat": "Не менее {hours} часов",
+  "doseIntervalWarningTitle": "Необходимый интервал между приёмами ещё не прошёл"
 }

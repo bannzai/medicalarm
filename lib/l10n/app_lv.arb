@@ -225,5 +225,6 @@
   "minimumDoseInterval": "Devu lietošanas intervāls",
   "minimumDoseIntervalDescription": "Minimālais laiks starp devām kopš iepriekšējās devas",
   "minimumDoseIntervalNone": "Nav",
-  "minimumDoseIntervalHoursFormat": "Vismaz {hours} stundas"
+  "minimumDoseIntervalHoursFormat": "Vismaz {hours} stundas",
+  "doseIntervalWarningTitle": "Nepieciešamais laiks starp devām vēl nav pagājis"
 }

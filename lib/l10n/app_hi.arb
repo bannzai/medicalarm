@@ -225,5 +225,6 @@
   "minimumDoseInterval": "खुराकों के बीच अंतराल",
   "minimumDoseIntervalDescription": "पिछली खुराक के बाद खुराकों के बीच न्यूनतम अंतराल",
   "minimumDoseIntervalNone": "कोई नहीं",
-  "minimumDoseIntervalHoursFormat": "कम से कम {hours} घंटे"
+  "minimumDoseIntervalHoursFormat": "कम से कम {hours} घंटे",
+  "doseIntervalWarningTitle": "खुराकों के बीच आवश्यक समय अभी पूरा नहीं हुआ है"
 }

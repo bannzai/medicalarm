@@ -225,5 +225,6 @@
   "minimumDoseInterval": "ช่วงห่างระหว่างการรับประทานยา",
   "minimumDoseIntervalDescription": "ระยะห่างขั้นต่ำระหว่างการรับประทานยาแต่ละครั้งจากครั้งก่อน",
   "minimumDoseIntervalNone": "ไม่มี",
-  "minimumDoseIntervalHoursFormat": "อย่างน้อย {hours} ชั่วโมง"
+  "minimumDoseIntervalHoursFormat": "อย่างน้อย {hours} ชั่วโมง",
+  "doseIntervalWarningTitle": "ยังไม่ถึงช่วงเวลาที่กำหนดระหว่างการรับประทานยา"
 }

@@ -225,5 +225,6 @@
   "minimumDoseInterval": "Jarak antar dosis",
   "minimumDoseIntervalDescription": "Jeda minimum antar dosis sejak dosis terakhir",
   "minimumDoseIntervalNone": "Tidak ada",
-  "minimumDoseIntervalHoursFormat": "Minimal {hours} jam"
+  "minimumDoseIntervalHoursFormat": "Minimal {hours} jam",
+  "doseIntervalWarningTitle": "Jarak waktu antar dosis belum terpenuhi"
 }

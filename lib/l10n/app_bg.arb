@@ -225,5 +225,6 @@
   "minimumDoseInterval": "Интервал между приемите",
   "minimumDoseIntervalDescription": "Минимално време между приемите от последния прием",
   "minimumDoseIntervalNone": "Няма",
-  "minimumDoseIntervalHoursFormat": "Най-малко {hours} часа"
+  "minimumDoseIntervalHoursFormat": "Най-малко {hours} часа",
+  "doseIntervalWarningTitle": "Не е изминал необходимият интервал между приемите"
 }

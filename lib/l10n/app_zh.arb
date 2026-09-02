@@ -225,5 +225,6 @@
   "minimumDoseInterval": "服药间隔",
   "minimumDoseIntervalDescription": "两次服用之间的最短间隔时间",
   "minimumDoseIntervalNone": "无",
-  "minimumDoseIntervalHoursFormat": "至少 {hours}小时"
+  "minimumDoseIntervalHoursFormat": "至少 {hours}小时",
+  "doseIntervalWarningTitle": "用药间隔尚未达到要求"
 }

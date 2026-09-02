@@ -225,5 +225,6 @@
   "minimumDoseInterval": "Interval mezi dávkami",
   "minimumDoseIntervalDescription": "Minimální odstup mezi dávkami od poslední dávky",
   "minimumDoseIntervalNone": "Žádné",
-  "minimumDoseIntervalHoursFormat": "Nejméně {hours} hodin"
+  "minimumDoseIntervalHoursFormat": "Nejméně {hours} hodin",
+  "doseIntervalWarningTitle": "Mezi dávkami ještě neuplynul potřebný čas"
 }

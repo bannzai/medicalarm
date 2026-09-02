@@ -225,5 +225,6 @@
   "minimumDoseInterval": "మోతాదుల మధ్య విరామం",
   "minimumDoseIntervalDescription": "మునుపటి మోతాదు తర్వాత మోతాదుల మధ్య కనీస సమయం",
   "minimumDoseIntervalNone": "ఏదీ లేదు",
-  "minimumDoseIntervalHoursFormat": "కనీసం {hours} గంటలు"
+  "minimumDoseIntervalHoursFormat": "కనీసం {hours} గంటలు",
+  "doseIntervalWarningTitle": "మోతాదుల మధ్య అవసరమైన సమయం ఇంకా పూర్తికాలేదు"
 }

@@ -225,5 +225,6 @@
   "minimumDoseInterval": "Annosväli",
   "minimumDoseIntervalDescription": "Annosten välinen vähimmäisaika edellisestä annoksesta",
   "minimumDoseIntervalNone": "Ei mitään",
-  "minimumDoseIntervalHoursFormat": "Vähintään {hours} tuntia"
+  "minimumDoseIntervalHoursFormat": "Vähintään {hours} tuntia",
+  "doseIntervalWarningTitle": "Annosvälien vähimmäisaika ei ole vielä kulunut"
 }

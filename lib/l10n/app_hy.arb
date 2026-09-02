@@ -225,5 +225,6 @@
   "minimumDoseInterval": "Դեղաչափերի միջև ընդմիջում",
   "minimumDoseIntervalDescription": "Նախորդ դեղաչափից հետո անհրաժեշտ նվազագույն ժամանակը",
   "minimumDoseIntervalNone": "Չկա",
-  "minimumDoseIntervalHoursFormat": "Առնվազն {hours} ժամ"
+  "minimumDoseIntervalHoursFormat": "Առնվազն {hours} ժամ",
+  "doseIntervalWarningTitle": "Դեղաչափերի միջև անհրաժեշտ ժամանակը դեռ չի անցել"
 }

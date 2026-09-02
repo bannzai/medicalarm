@@ -225,5 +225,6 @@
   "minimumDoseInterval": "복용 간격",
   "minimumDoseIntervalDescription": "이전 복용 후 다음 복용까지의 최소 간격",
   "minimumDoseIntervalNone": "없음",
-  "minimumDoseIntervalHoursFormat": "최소 {hours}시간"
+  "minimumDoseIntervalHoursFormat": "최소 {hours}시간",
+  "doseIntervalWarningTitle": "복용 간격이 아직 지나지 않았습니다"
 }

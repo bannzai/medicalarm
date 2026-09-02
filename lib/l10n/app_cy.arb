@@ -225,5 +225,6 @@
   "minimumDoseInterval": "Cyfwng rhwng dosau",
   "minimumDoseIntervalDescription": "Yr amser lleiaf rhwng dosau ers y dos blaenorol",
   "minimumDoseIntervalNone": "Dim",
-  "minimumDoseIntervalHoursFormat": "O leiaf {hours} awr"
+  "minimumDoseIntervalHoursFormat": "O leiaf {hours} awr",
+  "doseIntervalWarningTitle": "Nid yw’r cyfnod rhwng dosau wedi mynd heibio"
 }

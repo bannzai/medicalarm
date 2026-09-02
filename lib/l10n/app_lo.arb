@@ -225,5 +225,6 @@
   "minimumDoseInterval": "ໄລຍະຫ່າງລະຫວ່າງການກິນຢາ",
   "minimumDoseIntervalDescription": "ໄລຍະເວລາຂັ້ນຕ່ຳລະຫວ່າງການກິນຢາ ຫຼັງຈາກຄັ້ງກ່ອນ",
   "minimumDoseIntervalNone": "ບໍ່ມີ",
-  "minimumDoseIntervalHoursFormat": "ຢ່າງໜ້ອຍ {hours} ຊົ່ວໂມງ"
+  "minimumDoseIntervalHoursFormat": "ຢ່າງໜ້ອຍ {hours} ຊົ່ວໂມງ",
+  "doseIntervalWarningTitle": "ຍັງບໍ່ຮອດໄລຍະຫ່າງທີ່ຈຳເປັນລະຫວ່າງການກິນຢາ"
 }

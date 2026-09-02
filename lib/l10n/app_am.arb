@@ -225,5 +225,6 @@
   "minimumDoseInterval": "የመውሰጃ ክፍተት",
   "minimumDoseIntervalDescription": "ከቀደመው የመድኃኒት መውሰድ በኋላ ቢያንስ የሚቆይ ጊዜ",
   "minimumDoseIntervalNone": "የለም",
-  "minimumDoseIntervalHoursFormat": "ቢያንስ {hours} ሰዓታት"
+  "minimumDoseIntervalHoursFormat": "ቢያንስ {hours} ሰዓታት",
+  "doseIntervalWarningTitle": "በመድኃኒት መውሰጃዎች መካከል በቂ ጊዜ አልፏልም"
 }

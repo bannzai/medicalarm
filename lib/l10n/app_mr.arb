@@ -225,5 +225,6 @@
   "minimumDoseInterval": "डोसांमधील अंतर",
   "minimumDoseIntervalDescription": "मागील डोसनंतर डोसांमधील किमान अंतर",
   "minimumDoseIntervalNone": "काहीही नाही",
-  "minimumDoseIntervalHoursFormat": "किमान {hours} तास"
+  "minimumDoseIntervalHoursFormat": "किमान {hours} तास",
+  "doseIntervalWarningTitle": "डोसांमधील आवश्यक वेळ अद्याप पूर्ण झालेला नाही"
 }

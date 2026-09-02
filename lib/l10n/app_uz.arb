@@ -225,5 +225,6 @@
   "minimumDoseInterval": "Dozalar orasidagi interval",
   "minimumDoseIntervalDescription": "Oldingi dozadan keyin dozalar orasidagi minimal vaqt",
   "minimumDoseIntervalNone": "Yo‘q",
-  "minimumDoseIntervalHoursFormat": "Kamida {hours} soat"
+  "minimumDoseIntervalHoursFormat": "Kamida {hours} soat",
+  "doseIntervalWarningTitle": "Dozalar orasidagi zarur vaqt hali o‘tmagan"
 }

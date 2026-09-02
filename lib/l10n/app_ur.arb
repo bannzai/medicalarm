@@ -225,5 +225,6 @@
   "minimumDoseInterval": "خوراکوں کے درمیان وقفہ",
   "minimumDoseIntervalDescription": "پچھلی خوراک کے بعد خوراکوں کے درمیان کم از کم وقفہ",
   "minimumDoseIntervalNone": "کوئی نہیں",
-  "minimumDoseIntervalHoursFormat": "کم از کم {hours} گھنٹے"
+  "minimumDoseIntervalHoursFormat": "کم از کم {hours} گھنٹے",
+  "doseIntervalWarningTitle": "خوراکوں کے درمیان مطلوبہ وقت ابھی پورا نہیں ہوا"
 }

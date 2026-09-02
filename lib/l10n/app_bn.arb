@@ -225,5 +225,6 @@
   "minimumDoseInterval": "ওষুধ গ্রহণের ব্যবধান",
   "minimumDoseIntervalDescription": "আগের ডোজের পর ন্যূনতম বিরতির সময়",
   "minimumDoseIntervalNone": "নেই",
-  "minimumDoseIntervalHoursFormat": "কমপক্ষে {hours} ঘণ্টা"
+  "minimumDoseIntervalHoursFormat": "কমপক্ষে {hours} ঘণ্টা",
+  "doseIntervalWarningTitle": "ওষুধ সেবনের মধ্যবর্তী সময় পূর্ণ হয়নি"
 }

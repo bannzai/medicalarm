@@ -225,5 +225,6 @@
   "minimumDoseInterval": "Muda kati ya dozi",
   "minimumDoseIntervalDescription": "Muda wa chini kati ya dozi tangu dozi ya awali",
   "minimumDoseIntervalNone": "Hakuna",
-  "minimumDoseIntervalHoursFormat": "Angalau saa {hours}"
+  "minimumDoseIntervalHoursFormat": "Angalau saa {hours}",
+  "doseIntervalWarningTitle": "Muda unaohitajika kati ya dozi bado haujapita"
 }

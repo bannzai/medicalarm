@@ -225,5 +225,6 @@
   "minimumDoseInterval": "ਖੁਰਾਕਾਂ ਵਿਚਕਾਰ ਅੰਤਰਾਲ",
   "minimumDoseIntervalDescription": "ਪਿਛਲੀ ਖੁਰਾਕ ਤੋਂ ਬਾਅਦ ਖੁਰਾਕਾਂ ਵਿਚਕਾਰ ਘੱਟੋ-ਘੱਟ ਸਮਾਂ",
   "minimumDoseIntervalNone": "ਕੋਈ ਨਹੀਂ",
-  "minimumDoseIntervalHoursFormat": "ਘੱਟੋ-ਘੱਟ {hours} ਘੰਟੇ"
+  "minimumDoseIntervalHoursFormat": "ਘੱਟੋ-ਘੱਟ {hours} ਘੰਟੇ",
+  "doseIntervalWarningTitle": "ਖੁਰਾਕਾਂ ਵਿਚਕਾਰ ਲੋੜੀਂਦਾ ਸਮਾਂ ਅਜੇ ਪੂਰਾ ਨਹੀਂ ਹੋਇਆ"
 }

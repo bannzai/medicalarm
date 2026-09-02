@@ -225,5 +225,6 @@
   "minimumDoseInterval": "Дозалардын ортосундагы аралык",
   "minimumDoseIntervalDescription": "Мурунку дозадан кийинки минималдуу аралык",
   "minimumDoseIntervalNone": "Жок",
-  "minimumDoseIntervalHoursFormat": "Кеминде {hours} саат"
+  "minimumDoseIntervalHoursFormat": "Кеминде {hours} саат",
+  "doseIntervalWarningTitle": "Дозалардын ортосундагы керектүү убакыт али өтө элек"
 }

@@ -225,5 +225,6 @@
   "minimumDoseInterval": "Intervalo entre dosis",
   "minimumDoseIntervalDescription": "Tiempo mínimo entre dosis desde la última toma",
   "minimumDoseIntervalNone": "Ninguno",
-  "minimumDoseIntervalHoursFormat": "Al menos {hours} horas"
+  "minimumDoseIntervalHoursFormat": "Al menos {hours} horas",
+  "doseIntervalWarningTitle": "Aún no ha transcurrido el intervalo entre las dosis"
 }

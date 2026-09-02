@@ -225,5 +225,6 @@
   "minimumDoseInterval": "Інтервал між прийомами",
   "minimumDoseIntervalDescription": "Мінімальний інтервал між прийомами після попередньої дози",
   "minimumDoseIntervalNone": "Немає",
-  "minimumDoseIntervalHoursFormat": "Не менше ніж {hours} годин"
+  "minimumDoseIntervalHoursFormat": "Не менше ніж {hours} годин",
+  "doseIntervalWarningTitle": "Необхідний інтервал між прийомами ще не минув"
 }

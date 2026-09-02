@@ -225,5 +225,6 @@
   "minimumDoseInterval": "Razmik med odmerkoma",
   "minimumDoseIntervalDescription": "Najkrajši čas med odmerkoma od prejšnjega odmerka",
   "minimumDoseIntervalNone": "Brez",
-  "minimumDoseIntervalHoursFormat": "Najmanj {hours} ur"
+  "minimumDoseIntervalHoursFormat": "Najmanj {hours} ur",
+  "doseIntervalWarningTitle": "Potreben časovni razmik med odmerkoma še ni pretekel"
 }

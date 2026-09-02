@@ -225,5 +225,6 @@
   "minimumDoseInterval": "Интервал помеѓу дози",
   "minimumDoseIntervalDescription": "Минимално време помеѓу дозите од претходната доза",
   "minimumDoseIntervalNone": "Нема",
-  "minimumDoseIntervalHoursFormat": "Најмалку {hours} часа"
+  "minimumDoseIntervalHoursFormat": "Најмалку {hours} часа",
+  "doseIntervalWarningTitle": "Потребниот интервал помеѓу дозите сè уште не поминал"
 }

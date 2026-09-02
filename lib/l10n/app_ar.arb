@@ -225,5 +225,6 @@
   "minimumDoseInterval": "الفاصل بين الجرعات",
   "minimumDoseIntervalDescription": "الحد الأدنى للوقت بين الجرعات منذ الجرعة السابقة",
   "minimumDoseIntervalNone": "لا يوجد",
-  "minimumDoseIntervalHoursFormat": "{hours} ساعة على الأقل"
+  "minimumDoseIntervalHoursFormat": "{hours} ساعة على الأقل",
+  "doseIntervalWarningTitle": "لم تنقضِ الفترة الفاصلة بين الجرعات"
 }

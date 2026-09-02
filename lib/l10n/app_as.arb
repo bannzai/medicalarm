@@ -225,5 +225,6 @@
   "minimumDoseInterval": "ঔষধ সেৱনৰ ব্যৱধান",
   "minimumDoseIntervalDescription": "আগৰ পালিৰ পিছত ন্যূনতম বিৰতিৰ সময়",
   "minimumDoseIntervalNone": "নাই",
-  "minimumDoseIntervalHoursFormat": "অন্তত {hours} ঘণ্টা"
+  "minimumDoseIntervalHoursFormat": "অন্তত {hours} ঘণ্টা",
+  "doseIntervalWarningTitle": "পৰৱৰ্তী ড’জ লোৱাৰ বাবে প্ৰয়োজনীয় সময় হোৱা নাই"
 }

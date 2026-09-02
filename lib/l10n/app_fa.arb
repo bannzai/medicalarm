@@ -225,5 +225,6 @@
   "minimumDoseInterval": "فاصله بین دوزها",
   "minimumDoseIntervalDescription": "حداقل فاصله زمانی بین دوزها از آخرین دوز",
   "minimumDoseIntervalNone": "هیچ‌کدام",
-  "minimumDoseIntervalHoursFormat": "حداقل {hours} ساعت"
+  "minimumDoseIntervalHoursFormat": "حداقل {hours} ساعت",
+  "doseIntervalWarningTitle": "هنوز فاصلهٔ لازم بین نوبت‌های مصرف نگذشته است"
 }

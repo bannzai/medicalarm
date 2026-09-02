@@ -225,5 +225,6 @@
   "minimumDoseInterval": "Razmak između doza",
   "minimumDoseIntervalDescription": "Minimalno vrijeme između doza od prethodne doze",
   "minimumDoseIntervalNone": "Nema",
-  "minimumDoseIntervalHoursFormat": "Najmanje {hours} sati"
+  "minimumDoseIntervalHoursFormat": "Najmanje {hours} sati",
+  "doseIntervalWarningTitle": "Nije prošao dovoljan razmak između doza"
 }

@@ -225,5 +225,6 @@
   "minimumDoseInterval": "Intervalul dintre doze",
   "minimumDoseIntervalDescription": "Intervalul minim dintre doze de la doza anterioară",
   "minimumDoseIntervalNone": "Niciunul",
-  "minimumDoseIntervalHoursFormat": "Cel puțin {hours} ore"
+  "minimumDoseIntervalHoursFormat": "Cel puțin {hours} ore",
+  "doseIntervalWarningTitle": "Intervalul necesar dintre doze nu a trecut încă"
 }

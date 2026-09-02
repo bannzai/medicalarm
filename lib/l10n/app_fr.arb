@@ -225,5 +225,6 @@
   "minimumDoseInterval": "Intervalle entre les prises",
   "minimumDoseIntervalDescription": "Délai minimum entre les prises depuis la dernière prise",
   "minimumDoseIntervalNone": "Aucun",
-  "minimumDoseIntervalHoursFormat": "Au moins {hours} heures"
+  "minimumDoseIntervalHoursFormat": "Au moins {hours} heures",
+  "doseIntervalWarningTitle": "L’intervalle entre les prises n’est pas encore écoulé"
 }

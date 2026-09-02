@@ -225,5 +225,6 @@
   "minimumDoseInterval": "Doseringsintervall",
   "minimumDoseIntervalDescription": "Minste tid mellom doser siden forrige dose",
   "minimumDoseIntervalNone": "Ingen",
-  "minimumDoseIntervalHoursFormat": "Minst {hours} timer"
+  "minimumDoseIntervalHoursFormat": "Minst {hours} timer",
+  "doseIntervalWarningTitle": "Det nødvendige tidsintervallet mellom dosene har ikke gått ennå"
 }

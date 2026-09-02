@@ -225,5 +225,6 @@
   "minimumDoseInterval": "ഡോസുകൾക്കിടയിലെ ഇടവേള",
   "minimumDoseIntervalDescription": "മുമ്പത്തെ ഡോസിന് ശേഷം ഡോസുകൾക്കിടയിലെ കുറഞ്ഞ സമയം",
   "minimumDoseIntervalNone": "ഇല്ല",
-  "minimumDoseIntervalHoursFormat": "കുറഞ്ഞത് {hours} മണിക്കൂർ"
+  "minimumDoseIntervalHoursFormat": "കുറഞ്ഞത് {hours} മണിക്കൂർ",
+  "doseIntervalWarningTitle": "ഡോസുകൾക്കിടയിലെ ആവശ്യമായ സമയം ഇതുവരെ കഴിഞ്ഞിട്ടില്ല"
 }

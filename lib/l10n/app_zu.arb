@@ -225,5 +225,6 @@
   "minimumDoseInterval": "Isikhawu phakathi kwemithamo",
   "minimumDoseIntervalDescription": "Isikhathi esincane phakathi kwemithamo kusukela emthamo odlule",
   "minimumDoseIntervalNone": "Akukho",
-  "minimumDoseIntervalHoursFormat": "Okungenani amahora angu-{hours}"
+  "minimumDoseIntervalHoursFormat": "Okungenani amahora angu-{hours}",
+  "doseIntervalWarningTitle": "Isikhawu esidingekayo phakathi kwemithamo asikapheli"
 }

@@ -225,5 +225,6 @@
   "minimumDoseInterval": "Tímabil milli skammta",
   "minimumDoseIntervalDescription": "Lágmarkstími á milli skammta frá síðasta skammti",
   "minimumDoseIntervalNone": "Ekkert",
-  "minimumDoseIntervalHoursFormat": "Að minnsta kosti {hours} klukkustundir"
+  "minimumDoseIntervalHoursFormat": "Að minnsta kosti {hours} klukkustundir",
+  "doseIntervalWarningTitle": "Nauðsynlegt bil milli skammta er ekki liðið"
 }

@@ -225,5 +225,6 @@
   "minimumDoseInterval": "Doza intervalı",
   "minimumDoseIntervalDescription": "Əvvəlki dozadan sonra keçməli olan minimum vaxt",
   "minimumDoseIntervalNone": "Yoxdur",
-  "minimumDoseIntervalHoursFormat": "Ən azı {hours} saat"
+  "minimumDoseIntervalHoursFormat": "Ən azı {hours} saat",
+  "doseIntervalWarningTitle": "Qəbul etmələr arasındakı vaxt tamamlanmayıb"
 }

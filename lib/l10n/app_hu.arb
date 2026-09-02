@@ -225,5 +225,6 @@
   "minimumDoseInterval": "Adagolási időköz",
   "minimumDoseIntervalDescription": "Az előző adag óta eltelő minimális idő a következő adagig",
   "minimumDoseIntervalNone": "Nincs",
-  "minimumDoseIntervalHoursFormat": "Legalább {hours} óra"
+  "minimumDoseIntervalHoursFormat": "Legalább {hours} óra",
+  "doseIntervalWarningTitle": "A gyógyszeradagok közötti szükséges idő még nem telt el"
 }

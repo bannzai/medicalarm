@@ -225,5 +225,6 @@
   "minimumDoseInterval": "Intervali midis dozave",
   "minimumDoseIntervalDescription": "Koha minimale ndërmjet dozave nga doza e mëparshme",
   "minimumDoseIntervalNone": "Asnjë",
-  "minimumDoseIntervalHoursFormat": "Të paktën {hours} orë"
+  "minimumDoseIntervalHoursFormat": "Të paktën {hours} orë",
+  "doseIntervalWarningTitle": "Koha e nevojshme ndërmjet dozave nuk ka kaluar ende"
 }

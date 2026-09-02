@@ -225,5 +225,6 @@
   "minimumDoseInterval": "Tussenpoos tussen doses",
   "minimumDoseIntervalDescription": "Minimale tijd tussen doses sinds de vorige dosis",
   "minimumDoseIntervalNone": "Geen",
-  "minimumDoseIntervalHoursFormat": "Minstens {hours} uur"
+  "minimumDoseIntervalHoursFormat": "Minstens {hours} uur",
+  "doseIntervalWarningTitle": "Het vereiste tijdsinterval tussen de innames is nog niet verstreken"
 }

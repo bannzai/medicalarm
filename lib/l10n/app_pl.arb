@@ -225,5 +225,6 @@
   "minimumDoseInterval": "Odstęp między dawkami",
   "minimumDoseIntervalDescription": "Minimalny odstęp między dawkami od poprzedniej dawki",
   "minimumDoseIntervalNone": "Brak",
-  "minimumDoseIntervalHoursFormat": "Co najmniej {hours} godzin"
+  "minimumDoseIntervalHoursFormat": "Co najmniej {hours} godzin",
+  "doseIntervalWarningTitle": "Wymagany odstęp między dawkami jeszcze nie minął"
 }

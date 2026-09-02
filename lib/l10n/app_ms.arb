@@ -225,5 +225,6 @@
   "minimumDoseInterval": "Jarak antara dos",
   "minimumDoseIntervalDescription": "Tempoh minimum antara dos sejak dos terakhir",
   "minimumDoseIntervalNone": "Tiada",
-  "minimumDoseIntervalHoursFormat": "Sekurang-kurangnya {hours} jam"
+  "minimumDoseIntervalHoursFormat": "Sekurang-kurangnya {hours} jam",
+  "doseIntervalWarningTitle": "Selang masa yang diperlukan antara dos masih belum berlalu"
 }

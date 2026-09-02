@@ -225,5 +225,6 @@
   "minimumDoseInterval": "ଔଷଧ ସେବନ ବ୍ୟବଧାନ",
   "minimumDoseIntervalDescription": "ପୂର୍ବ ଡୋଜ୍ ପରଠାରୁ ଡୋଜ୍ ମଧ୍ୟରେ ସର୍ବନିମ୍ନ ସମୟ",
   "minimumDoseIntervalNone": "ନାହିଁ",
-  "minimumDoseIntervalHoursFormat": "ଅତିକମରେ {hours} ଘଣ୍ଟା"
+  "minimumDoseIntervalHoursFormat": "ଅତିକମରେ {hours} ଘଣ୍ଟା",
+  "doseIntervalWarningTitle": "ଡୋଜ୍‌ ମଧ୍ୟରେ ଆବଶ୍ୟକ ସମୟ ଏପର୍ଯ୍ୟନ୍ତ ପୂରଣ ହୋଇନାହିଁ"
 }

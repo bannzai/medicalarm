@@ -225,5 +225,6 @@
   "minimumDoseInterval": "Тун хоорондын зай",
   "minimumDoseIntervalDescription": "Өмнөх тунгаас хойш тун хооронд баримтлах хамгийн бага хугацаа",
   "minimumDoseIntervalNone": "Байхгүй",
-  "minimumDoseIntervalHoursFormat": "Дор хаяж {hours} цаг"
+  "minimumDoseIntervalHoursFormat": "Дор хаяж {hours} цаг",
+  "doseIntervalWarningTitle": "Тун хоорондын шаардлагатай хугацаа хараахан өнгөрөөгүй байна"
 }

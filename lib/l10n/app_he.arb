@@ -225,5 +225,6 @@
   "minimumDoseInterval": "מרווח בין מנות",
   "minimumDoseIntervalDescription": "הזמן המינימלי בין מנות מהמנה הקודמת",
   "minimumDoseIntervalNone": "אין",
-  "minimumDoseIntervalHoursFormat": "לפחות {hours} שעות"
+  "minimumDoseIntervalHoursFormat": "לפחות {hours} שעות",
+  "doseIntervalWarningTitle": "המרווח הנדרש בין המנות עדיין לא עבר"
 }

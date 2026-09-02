@@ -225,5 +225,6 @@
   "minimumDoseInterval": "ចន្លោះពេលរវាងដូស",
   "minimumDoseIntervalDescription": "រយៈពេលអប្បបរមារវាងដូស ចាប់ពីដូសមុន",
   "minimumDoseIntervalNone": "គ្មាន",
-  "minimumDoseIntervalHoursFormat": "យ៉ាងហោចណាស់ {hours} ម៉ោង"
+  "minimumDoseIntervalHoursFormat": "យ៉ាងហោចណាស់ {hours} ម៉ោង",
+  "doseIntervalWarningTitle": "ចន្លោះពេលចាំបាច់រវាងការលេបថ្នាំមិនទាន់កន្លងផុតទេ"
 }

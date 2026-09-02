@@ -225,5 +225,6 @@
   "minimumDoseInterval": "மருந்து உட்கொள்ளும் இடைவெளி",
   "minimumDoseIntervalDescription": "முந்தைய மருந்தளவுக்குப் பிறகு மருந்தளவுகளுக்கு இடையிலான குறைந்தபட்ச நேரம்",
   "minimumDoseIntervalNone": "எதுவுமில்லை",
-  "minimumDoseIntervalHoursFormat": "குறைந்தது {hours} மணிநேரம்"
+  "minimumDoseIntervalHoursFormat": "குறைந்தது {hours} மணிநேரம்",
+  "doseIntervalWarningTitle": "மருந்து அளவுகளுக்கு இடையிலான தேவையான நேரம் இன்னும் முடியவில்லை"
 }

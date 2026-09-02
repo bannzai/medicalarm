@@ -225,5 +225,6 @@
   "minimumDoseInterval": "દવા લેવાના અંતરાલ",
   "minimumDoseIntervalDescription": "પહેલી માત્રા લીધા પછીનો ડોઝ વચ્ચેનો લઘુત્તમ સમય",
   "minimumDoseIntervalNone": "કંઈ નથી",
-  "minimumDoseIntervalHoursFormat": "ઓછામાં ઓછા {hours} કલાક"
+  "minimumDoseIntervalHoursFormat": "ઓછામાં ઓછા {hours} કલાક",
+  "doseIntervalWarningTitle": "ડોઝ વચ્ચેનો જરૂરી સમય હજુ પૂરો થયો નથી"
 }

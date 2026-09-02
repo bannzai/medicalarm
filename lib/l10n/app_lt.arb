@@ -225,5 +225,6 @@
   "minimumDoseInterval": "Dozių vartojimo intervalas",
   "minimumDoseIntervalDescription": "Minimalus laikas tarp dozių nuo paskutinės dozės",
   "minimumDoseIntervalNone": "Nėra",
-  "minimumDoseIntervalHoursFormat": "Mažiausiai {hours} val."
+  "minimumDoseIntervalHoursFormat": "Mažiausiai {hours} val.",
+  "doseIntervalWarningTitle": "Būtinas laiko tarpas tarp dozių dar nepraėjo"
 }

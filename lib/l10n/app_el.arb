@@ -225,5 +225,6 @@
   "minimumDoseInterval": "Διάστημα μεταξύ δόσεων",
   "minimumDoseIntervalDescription": "Ελάχιστο χρονικό διάστημα μεταξύ δόσεων από την προηγούμενη δόση",
   "minimumDoseIntervalNone": "Κανένα",
-  "minimumDoseIntervalHoursFormat": "Τουλάχιστον {hours} ώρες"
+  "minimumDoseIntervalHoursFormat": "Τουλάχιστον {hours} ώρες",
+  "doseIntervalWarningTitle": "Δεν έχει περάσει το απαιτούμενο διάστημα μεταξύ των δόσεων"
 }

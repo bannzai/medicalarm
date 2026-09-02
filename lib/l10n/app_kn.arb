@@ -225,5 +225,6 @@
   "minimumDoseInterval": "ಡೋಸ್‌ಗಳ ನಡುವಿನ ಅಂತರ",
   "minimumDoseIntervalDescription": "ಹಿಂದಿನ ಡೋಸ್‌ನಿಂದ ಡೋಸ್‌ಗಳ ನಡುವಿನ ಕನಿಷ್ಠ ಸಮಯ",
   "minimumDoseIntervalNone": "ಯಾವುದೂ ಇಲ್ಲ",
-  "minimumDoseIntervalHoursFormat": "ಕನಿಷ್ಠ {hours} ಗಂಟೆಗಳು"
+  "minimumDoseIntervalHoursFormat": "ಕನಿಷ್ಠ {hours} ಗಂಟೆಗಳು",
+  "doseIntervalWarningTitle": "ಡೋಸ್‌ಗಳ ನಡುವಿನ ಅಗತ್ಯ ಸಮಯ ಇನ್ನೂ ಕಳೆದಿಲ್ಲ"
 }

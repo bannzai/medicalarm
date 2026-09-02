@@ -225,5 +225,6 @@
   "minimumDoseInterval": "Khoảng cách giữa các liều",
   "minimumDoseIntervalDescription": "Khoảng thời gian tối thiểu giữa các liều kể từ liều trước",
   "minimumDoseIntervalNone": "Không có",
-  "minimumDoseIntervalHoursFormat": "Ít nhất {hours} giờ"
+  "minimumDoseIntervalHoursFormat": "Ít nhất {hours} giờ",
+  "doseIntervalWarningTitle": "Chưa hết khoảng thời gian cần thiết giữa các liều"
 }

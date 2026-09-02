@@ -225,5 +225,6 @@
   "minimumDoseInterval": "Annustamisintervall",
   "minimumDoseIntervalDescription": "Minimaalne aeg annuste vahel alates eelmisest annusest",
   "minimumDoseIntervalNone": "Puudub",
-  "minimumDoseIntervalHoursFormat": "Vähemalt {hours} tundi"
+  "minimumDoseIntervalHoursFormat": "Vähemalt {hours} tundi",
+  "doseIntervalWarningTitle": "Annustamisvahe ei ole veel täitunud"
 }
