@@ -250,5 +250,6 @@
   "onboardingCareTargetTitle": "Kimin ilaç kullanımını yöneteceksiniz?",
   "onboardingCareTargetSubtitle": "Yanıtlarınıza göre bir plan oluşturacağız",
   "onboardingCareTargetSelf": "Kendim",
-  "onboardingCareTargetFamily": "Aile"
+  "onboardingCareTargetFamily": "Aile",
+  "onboardingCareTargetSelfAndFamily": "Ben ve ailem"
 }

@@ -250,5 +250,6 @@
   "onboardingCareTargetTitle": "Kelle ravimite võtmist hakkate haldama?",
   "onboardingCareTargetSubtitle": "Koostame sinu vastuste põhjal plaani",
   "onboardingCareTargetSelf": "Endale",
-  "onboardingCareTargetFamily": "Perekond"
+  "onboardingCareTargetFamily": "Perekond",
+  "onboardingCareTargetSelfAndFamily": "Mina ja mu pere"
 }

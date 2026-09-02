@@ -250,5 +250,6 @@
   "onboardingCareTargetTitle": "Hvem skal du administrere medisinbruken til?",
   "onboardingCareTargetSubtitle": "Vi lager en plan basert på svarene dine",
   "onboardingCareTargetSelf": "Meg selv",
-  "onboardingCareTargetFamily": "Familie"
+  "onboardingCareTargetFamily": "Familie",
+  "onboardingCareTargetSelfAndFamily": "Meg selv og familien min"
 }

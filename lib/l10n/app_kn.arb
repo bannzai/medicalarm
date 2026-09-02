@@ -250,5 +250,6 @@
   "onboardingCareTargetTitle": "ನೀವು ಯಾರ ಔಷಧ ಸೇವನೆಯನ್ನು ನಿರ್ವಹಿಸುತ್ತೀರಿ?",
   "onboardingCareTargetSubtitle": "ನಿಮ್ಮ ಉತ್ತರಗಳ ಆಧಾರದ ಮೇಲೆ ನಾವು ಯೋಜನೆಯನ್ನು ರೂಪಿಸುತ್ತೇವೆ",
   "onboardingCareTargetSelf": "ನನಗಾಗಿ",
-  "onboardingCareTargetFamily": "ಕುಟುಂಬ"
+  "onboardingCareTargetFamily": "ಕುಟುಂಬ",
+  "onboardingCareTargetSelfAndFamily": "ನಾನು ಮತ್ತು ನನ್ನ ಕುಟುಂಬ"
 }

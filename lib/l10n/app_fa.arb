@@ -250,5 +250,6 @@
   "onboardingCareTargetTitle": "مصرف داروی چه کسی را مدیریت می‌کنید؟",
   "onboardingCareTargetSubtitle": "بر اساس پاسخ‌های شما یک برنامه ایجاد می‌کنیم",
   "onboardingCareTargetSelf": "برای خودم",
-  "onboardingCareTargetFamily": "خانواده"
+  "onboardingCareTargetFamily": "خانواده",
+  "onboardingCareTargetSelfAndFamily": "من و خانواده‌ام"
 }

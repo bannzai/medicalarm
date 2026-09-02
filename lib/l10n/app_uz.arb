@@ -250,5 +250,6 @@
   "onboardingCareTargetTitle": "Kimning dori qabul qilishini boshqarasiz?",
   "onboardingCareTargetSubtitle": "Javoblaringiz asosida reja tuzamiz",
   "onboardingCareTargetSelf": "O‘zim uchun",
-  "onboardingCareTargetFamily": "Oila"
+  "onboardingCareTargetFamily": "Oila",
+  "onboardingCareTargetSelfAndFamily": "Men va oilam"
 }

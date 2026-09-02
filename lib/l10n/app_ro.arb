@@ -250,5 +250,6 @@
   "onboardingCareTargetTitle": "A cui administrare a medicamentelor o veți gestiona?",
   "onboardingCareTargetSubtitle": "Vom crea un plan pe baza răspunsurilor dvs.",
   "onboardingCareTargetSelf": "Pentru mine",
-  "onboardingCareTargetFamily": "Familie"
+  "onboardingCareTargetFamily": "Familie",
+  "onboardingCareTargetSelfAndFamily": "Eu și familia mea"
 }

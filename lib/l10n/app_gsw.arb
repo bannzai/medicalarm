@@ -250,5 +250,6 @@
   "onboardingCareTargetTitle": "Wesse Medikamentenäinnahm wänd Sie verwalte?",
   "onboardingCareTargetSubtitle": "Mir erstelle anhand vo dine Antwortä en Plan",
   "onboardingCareTargetSelf": "Für mich",
-  "onboardingCareTargetFamily": "Familie"
+  "onboardingCareTargetFamily": "Familie",
+  "onboardingCareTargetSelfAndFamily": "Ich und mini Familie"
 }

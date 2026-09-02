@@ -250,5 +250,6 @@
   "onboardingCareTargetTitle": "Di chi gestirai l’assunzione dei farmaci?",
   "onboardingCareTargetSubtitle": "Creeremo un piano in base alle tue risposte",
   "onboardingCareTargetSelf": "Per me",
-  "onboardingCareTargetFamily": "Famiglia"
+  "onboardingCareTargetFamily": "Famiglia",
+  "onboardingCareTargetSelfAndFamily": "Io e la mia famiglia"
 }

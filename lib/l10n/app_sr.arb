@@ -250,5 +250,6 @@
   "onboardingCareTargetTitle": "Чије ћете узимање лекова пратити?",
   "onboardingCareTargetSubtitle": "Направићемо план на основу ваших одговора",
   "onboardingCareTargetSelf": "За себе",
-  "onboardingCareTargetFamily": "Породица"
+  "onboardingCareTargetFamily": "Породица",
+  "onboardingCareTargetSelfAndFamily": "Ја и моја породица"
 }

@@ -250,5 +250,6 @@
   "onboardingCareTargetTitle": "من ستدير تناول أدويته؟",
   "onboardingCareTargetSubtitle": "سنضع خطة بناءً على إجاباتك",
   "onboardingCareTargetSelf": "لنفسي",
-  "onboardingCareTargetFamily": "العائلة"
+  "onboardingCareTargetFamily": "العائلة",
+  "onboardingCareTargetSelfAndFamily": "أنا وعائلتي"
 }

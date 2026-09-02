@@ -250,5 +250,6 @@
   "onboardingCareTargetTitle": "Та хэний эм уухыг хариуцах вэ?",
   "onboardingCareTargetSubtitle": "Таны хариултад үндэслэн төлөвлөгөө гаргана",
   "onboardingCareTargetSelf": "Өөртөө",
-  "onboardingCareTargetFamily": "Гэр бүл"
+  "onboardingCareTargetFamily": "Гэр бүл",
+  "onboardingCareTargetSelfAndFamily": "Би болон миний гэр бүл"
 }

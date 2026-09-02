@@ -250,5 +250,6 @@
   "onboardingCareTargetTitle": "Bạn sẽ quản lý việc dùng thuốc cho ai?",
   "onboardingCareTargetSubtitle": "Chúng tôi sẽ tạo kế hoạch dựa trên câu trả lời của bạn",
   "onboardingCareTargetSelf": "Cho bản thân",
-  "onboardingCareTargetFamily": "Gia đình"
+  "onboardingCareTargetFamily": "Gia đình",
+  "onboardingCareTargetSelfAndFamily": "Tôi và gia đình"
 }

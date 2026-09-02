@@ -250,5 +250,6 @@
   "onboardingCareTargetTitle": "Чий прием на лекарства ще управлявате?",
   "onboardingCareTargetSubtitle": "Ще създадем план според отговорите ви",
   "onboardingCareTargetSelf": "За себе си",
-  "onboardingCareTargetFamily": "Семейство"
+  "onboardingCareTargetFamily": "Семейство",
+  "onboardingCareTargetSelfAndFamily": "Аз и семейството ми"
 }

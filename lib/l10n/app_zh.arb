@@ -250,5 +250,6 @@
   "onboardingCareTargetTitle": "您要管理谁的用药？",
   "onboardingCareTargetSubtitle": "我们会根据您的回答制定计划",
   "onboardingCareTargetSelf": "自己",
-  "onboardingCareTargetFamily": "家庭"
+  "onboardingCareTargetFamily": "家庭",
+  "onboardingCareTargetSelfAndFamily": "我和家人"
 }

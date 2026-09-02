@@ -250,5 +250,6 @@
   "onboardingCareTargetTitle": "누구의 복약을 관리하시나요?",
   "onboardingCareTargetSubtitle": "답변에 맞춰 계획을 세워 드립니다",
   "onboardingCareTargetSelf": "나",
-  "onboardingCareTargetFamily": "가족"
+  "onboardingCareTargetFamily": "가족",
+  "onboardingCareTargetSelfAndFamily": "나와 가족"
 }

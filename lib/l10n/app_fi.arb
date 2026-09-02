@@ -250,5 +250,6 @@
   "onboardingCareTargetTitle": "Kenen lääkitystä hallinnoit?",
   "onboardingCareTargetSubtitle": "Laadimme vastaustesi perusteella suunnitelman",
   "onboardingCareTargetSelf": "Itselleni",
-  "onboardingCareTargetFamily": "Perhe"
+  "onboardingCareTargetFamily": "Perhe",
+  "onboardingCareTargetSelfAndFamily": "Minä ja perheeni"
 }

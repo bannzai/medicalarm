@@ -250,5 +250,6 @@
   "onboardingCareTargetTitle": "De qui gestionaràs la medicació?",
   "onboardingCareTargetSubtitle": "Crearem un pla segons les teves respostes",
   "onboardingCareTargetSelf": "Per a mi",
-  "onboardingCareTargetFamily": "Família"
+  "onboardingCareTargetFamily": "Família",
+  "onboardingCareTargetSelfAndFamily": "Jo i la meva família"
 }

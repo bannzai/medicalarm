@@ -250,5 +250,6 @@
   "onboardingCareTargetTitle": "आप किसकी दवा लेने का प्रबंधन करेंगे?",
   "onboardingCareTargetSubtitle": "आपके जवाबों के आधार पर हम एक योजना बनाएँगे",
   "onboardingCareTargetSelf": "अपने लिए",
-  "onboardingCareTargetFamily": "परिवार"
+  "onboardingCareTargetFamily": "परिवार",
+  "onboardingCareTargetSelfAndFamily": "मैं और मेरा परिवार"
 }

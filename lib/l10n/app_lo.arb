@@ -250,5 +250,6 @@
   "onboardingCareTargetTitle": "ທ່ານຈະຈັດການການກິນຢາຂອງໃຜ?",
   "onboardingCareTargetSubtitle": "ພວກເຮົາຈະສ້າງແຜນຕາມຄຳຕອບຂອງທ່ານ",
   "onboardingCareTargetSelf": "ສຳລັບຕົນເອງ",
-  "onboardingCareTargetFamily": "ຄອບຄົວ"
+  "onboardingCareTargetFamily": "ຄອບຄົວ",
+  "onboardingCareTargetSelfAndFamily": "ຂ້ອຍ ແລະ ຄອບຄົວຂອງຂ້ອຍ"
 }

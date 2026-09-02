@@ -250,5 +250,6 @@
   "onboardingCareTargetTitle": "Kieno vaistų vartojimą administruosite?",
   "onboardingCareTargetSubtitle": "Pagal jūsų atsakymus sudarysime planą",
   "onboardingCareTargetSelf": "Sau",
-  "onboardingCareTargetFamily": "Šeima"
+  "onboardingCareTargetFamily": "Šeima",
+  "onboardingCareTargetSelfAndFamily": "Aš ir mano šeima"
 }

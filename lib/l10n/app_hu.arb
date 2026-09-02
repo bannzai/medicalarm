@@ -250,5 +250,6 @@
   "onboardingCareTargetTitle": "Kinek a gyógyszerszedését fogja kezelni?",
   "onboardingCareTargetSubtitle": "A válaszai alapján tervet készítünk",
   "onboardingCareTargetSelf": "Magamnak",
-  "onboardingCareTargetFamily": "Család"
+  "onboardingCareTargetFamily": "Család",
+  "onboardingCareTargetSelfAndFamily": "Én és a családom"
 }

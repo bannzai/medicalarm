@@ -250,5 +250,6 @@
   "onboardingCareTargetTitle": "آپ کس کی ادویات لینے کا انتظام کریں گے؟",
   "onboardingCareTargetSubtitle": "ہم آپ کے جوابات کی بنیاد پر ایک منصوبہ بنائیں گے",
   "onboardingCareTargetSelf": "اپنے لیے",
-  "onboardingCareTargetFamily": "خاندان"
+  "onboardingCareTargetFamily": "خاندان",
+  "onboardingCareTargetSelfAndFamily": "میں اور میرا خاندان"
 }

@@ -250,5 +250,6 @@
   "onboardingCareTargetTitle": "Pwy sy’n cymryd meddyginiaeth y byddwch yn ei reoli?",
   "onboardingCareTargetSubtitle": "Byddwn yn creu cynllun yn seiliedig ar eich atebion",
   "onboardingCareTargetSelf": "Fi fy hun",
-  "onboardingCareTargetFamily": "Teulu"
+  "onboardingCareTargetFamily": "Teulu",
+  "onboardingCareTargetSelfAndFamily": "Fi a fy nheulu"
 }

@@ -250,5 +250,6 @@
   "onboardingCareTargetTitle": "Vems medicinering ska du hantera?",
   "onboardingCareTargetSubtitle": "Vi skapar en plan utifrån dina svar",
   "onboardingCareTargetSelf": "Mig själv",
-  "onboardingCareTargetFamily": "Familj"
+  "onboardingCareTargetFamily": "Familj",
+  "onboardingCareTargetSelfAndFamily": "Jag och min familj"
 }

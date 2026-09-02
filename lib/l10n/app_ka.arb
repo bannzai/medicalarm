@@ -250,5 +250,6 @@
   "onboardingCareTargetTitle": "ვისი მედიკამენტების მიღებას მართავთ?",
   "onboardingCareTargetSubtitle": "თქვენი პასუხების საფუძველზე გეგმას შევქმნით",
   "onboardingCareTargetSelf": "ჩემთვის",
-  "onboardingCareTargetFamily": "ოჯახი"
+  "onboardingCareTargetFamily": "ოჯახი",
+  "onboardingCareTargetSelfAndFamily": "მე და ჩემი ოჯახი"
 }

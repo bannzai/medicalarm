@@ -250,5 +250,6 @@
   "onboardingCareTargetTitle": "Kimin dərman qəbulunu idarə edəcəksiniz?",
   "onboardingCareTargetSubtitle": "Cavablarınıza əsasən plan hazırlayacağıq",
   "onboardingCareTargetSelf": "Özüm",
-  "onboardingCareTargetFamily": "Ailə"
+  "onboardingCareTargetFamily": "Ailə",
+  "onboardingCareTargetSelfAndFamily": "Mən və ailəm"
 }

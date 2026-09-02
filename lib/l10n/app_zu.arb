@@ -250,5 +250,6 @@
   "onboardingCareTargetTitle": "Uzophatha imithi kabani?",
   "onboardingCareTargetSubtitle": "Sizosebenzisa izimpendulo zakho ukwenza uhlelo",
   "onboardingCareTargetSelf": "Okwami",
-  "onboardingCareTargetFamily": "Umndeni"
+  "onboardingCareTargetFamily": "Umndeni",
+  "onboardingCareTargetSelfAndFamily": "Mina nomndeni wami"
 }

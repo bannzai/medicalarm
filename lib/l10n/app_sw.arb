@@ -250,5 +250,6 @@
   "onboardingCareTargetTitle": "Utasimamia unywaji wa dawa wa nani?",
   "onboardingCareTargetSubtitle": "Tutaunda mpango kulingana na majibu yako",
   "onboardingCareTargetSelf": "Mimi mwenyewe",
-  "onboardingCareTargetFamily": "Familia"
+  "onboardingCareTargetFamily": "Familia",
+  "onboardingCareTargetSelfAndFamily": "Mimi na familia yangu"
 }

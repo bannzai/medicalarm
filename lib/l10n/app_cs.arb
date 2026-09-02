@@ -250,5 +250,6 @@
   "onboardingCareTargetTitle": "Čí užívání léků budete spravovat?",
   "onboardingCareTargetSubtitle": "Vytvoříme plán podle vašich odpovědí",
   "onboardingCareTargetSelf": "Pro sebe",
-  "onboardingCareTargetFamily": "Rodina"
+  "onboardingCareTargetFamily": "Rodina",
+  "onboardingCareTargetSelfAndFamily": "Já a moje rodina"
 }

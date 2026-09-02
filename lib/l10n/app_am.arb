@@ -250,5 +250,6 @@
   "onboardingCareTargetTitle": "የማንን መድኃኒት መውሰድ ያስተዳድራሉ?",
   "onboardingCareTargetSubtitle": "በመልሶችዎ መሠረት ዕቅድ እናዘጋጃለን",
   "onboardingCareTargetSelf": "ለራሴ",
-  "onboardingCareTargetFamily": "ቤተሰብ"
+  "onboardingCareTargetFamily": "ቤተሰብ",
+  "onboardingCareTargetSelfAndFamily": "እኔ እና ቤተሰቤ"
 }

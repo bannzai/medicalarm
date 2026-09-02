@@ -250,5 +250,6 @@
   "onboardingCareTargetTitle": "Чый прыём лекаў вы будзеце кантраляваць?",
   "onboardingCareTargetSubtitle": "Мы складзём план на аснове вашых адказаў",
   "onboardingCareTargetSelf": "Для сябе",
-  "onboardingCareTargetFamily": "Сям'я"
+  "onboardingCareTargetFamily": "Сям'я",
+  "onboardingCareTargetSelfAndFamily": "Я і мая сям'я"
 }

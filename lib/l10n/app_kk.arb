@@ -250,5 +250,6 @@
   "onboardingCareTargetTitle": "Кімнің дәрі қабылдауын басқарасыз?",
   "onboardingCareTargetSubtitle": "Жауаптарыңызға сәйкес жоспар жасаймыз",
   "onboardingCareTargetSelf": "Өзім үшін",
-  "onboardingCareTargetFamily": "Отбасы"
+  "onboardingCareTargetFamily": "Отбасы",
+  "onboardingCareTargetSelfAndFamily": "Мен және отбасым"
 }

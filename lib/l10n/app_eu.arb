@@ -250,5 +250,6 @@
   "onboardingCareTargetTitle": "Noren botiken hartzea kudeatuko duzu?",
   "onboardingCareTargetSubtitle": "Zure erantzunen arabera plana sortuko dugu",
   "onboardingCareTargetSelf": "Niretzat",
-  "onboardingCareTargetFamily": "Familia"
+  "onboardingCareTargetFamily": "Familia",
+  "onboardingCareTargetSelfAndFamily": "Ni eta nire familia"
 }

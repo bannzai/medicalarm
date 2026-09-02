@@ -250,5 +250,6 @@
   "onboardingCareTargetTitle": "Lyfjanotkun hvers ætlar þú að hafa umsjón með?",
   "onboardingCareTargetSubtitle": "Við búum til áætlun út frá svörunum þínum",
   "onboardingCareTargetSelf": "Fyrir mig",
-  "onboardingCareTargetFamily": "Fjölskylda"
+  "onboardingCareTargetFamily": "Fjölskylda",
+  "onboardingCareTargetSelfAndFamily": "Ég og fjölskylda mín"
 }

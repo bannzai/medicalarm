@@ -250,5 +250,6 @@
   "onboardingCareTargetTitle": "Кимдин дары ичүүсүн көзөмөлдөйсүз?",
   "onboardingCareTargetSubtitle": "Жоопторуңузга жараша план түзөбүз",
   "onboardingCareTargetSelf": "Өзүм үчүн",
-  "onboardingCareTargetFamily": "Үй-бүлө"
+  "onboardingCareTargetFamily": "Үй-бүлө",
+  "onboardingCareTargetSelfAndFamily": "Мен жана үй-бүлөм"
 }

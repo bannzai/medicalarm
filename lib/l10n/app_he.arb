@@ -250,5 +250,6 @@
   "onboardingCareTargetTitle": "נטילת התרופות של מי תנוהל?",
   "onboardingCareTargetSubtitle": "ניצור תוכנית בהתאם לתשובות שלך",
   "onboardingCareTargetSelf": "לעצמי",
-  "onboardingCareTargetFamily": "משפחה"
+  "onboardingCareTargetFamily": "משפחה",
+  "onboardingCareTargetSelfAndFamily": "אני ומשפחתי"
 }

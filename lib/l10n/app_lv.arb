@@ -250,5 +250,6 @@
   "onboardingCareTargetTitle": "Kuru medikamentu lietošanu jūs pārvaldīsiet?",
   "onboardingCareTargetSubtitle": "Izveidosim plānu, pamatojoties uz jūsu atbildēm",
   "onboardingCareTargetSelf": "Sev",
-  "onboardingCareTargetFamily": "Ģimene"
+  "onboardingCareTargetFamily": "Ģimene",
+  "onboardingCareTargetSelfAndFamily": "Es un mana ģimene"
 }

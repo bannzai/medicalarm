@@ -250,5 +250,6 @@
   "onboardingCareTargetTitle": "ဘယ်သူ့ဆေးသောက်မှုကို စီမံမလဲ",
   "onboardingCareTargetSubtitle": "သင့်အဖြေများအပေါ် အခြေခံ၍ အစီအစဉ်တစ်ခု ဖန်တီးပေးပါမည်",
   "onboardingCareTargetSelf": "မိမိအတွက်",
-  "onboardingCareTargetFamily": "မိသားစု"
+  "onboardingCareTargetFamily": "မိသားစု",
+  "onboardingCareTargetSelfAndFamily": "ကျွန်ုပ်နှင့် မိသားစု"
 }

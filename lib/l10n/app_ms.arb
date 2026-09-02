@@ -250,5 +250,6 @@
   "onboardingCareTargetTitle": "Pengambilan ubat siapa yang akan anda uruskan?",
   "onboardingCareTargetSubtitle": "Kami akan menyediakan pelan berdasarkan jawapan anda",
   "onboardingCareTargetSelf": "Diri sendiri",
-  "onboardingCareTargetFamily": "Keluarga"
+  "onboardingCareTargetFamily": "Keluarga",
+  "onboardingCareTargetSelfAndFamily": "Saya dan keluarga"
 }

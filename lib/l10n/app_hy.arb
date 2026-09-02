@@ -250,5 +250,6 @@
   "onboardingCareTargetTitle": "Ո՞ւմ դեղորայքի ընդունումն եք կառավարելու։",
   "onboardingCareTargetSubtitle": "Ձեր պատասխանների հիման վրա ծրագիր կստեղծենք",
   "onboardingCareTargetSelf": "Ինձ համար",
-  "onboardingCareTargetFamily": "Ընտանիք"
+  "onboardingCareTargetFamily": "Ընտանիք",
+  "onboardingCareTargetSelfAndFamily": "Ես և իմ ընտանիքը"
 }

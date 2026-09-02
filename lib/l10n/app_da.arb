@@ -250,5 +250,6 @@
   "onboardingCareTargetTitle": "Hvem skal du holde styr på medicinen for?",
   "onboardingCareTargetSubtitle": "Vi laver en plan ud fra dine svar",
   "onboardingCareTargetSelf": "Mig selv",
-  "onboardingCareTargetFamily": "Familie"
+  "onboardingCareTargetFamily": "Familie",
+  "onboardingCareTargetSelfAndFamily": "Mig og min familie"
 }

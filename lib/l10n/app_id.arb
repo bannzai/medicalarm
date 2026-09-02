@@ -250,5 +250,6 @@
   "onboardingCareTargetTitle": "Konsumsi obat siapa yang akan Anda kelola?",
   "onboardingCareTargetSubtitle": "Kami akan membuat rencana berdasarkan jawaban Anda",
   "onboardingCareTargetSelf": "Diri sendiri",
-  "onboardingCareTargetFamily": "Keluarga"
+  "onboardingCareTargetFamily": "Keluarga",
+  "onboardingCareTargetSelfAndFamily": "Saya dan keluarga"
 }

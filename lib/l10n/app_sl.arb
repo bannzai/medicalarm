@@ -250,5 +250,6 @@
   "onboardingCareTargetTitle": "Čigavo jemanje zdravil boste upravljali?",
   "onboardingCareTargetSubtitle": "Na podlagi vaših odgovorov bomo pripravili načrt",
   "onboardingCareTargetSelf": "Zase",
-  "onboardingCareTargetFamily": "Družina"
+  "onboardingCareTargetFamily": "Družina",
+  "onboardingCareTargetSelfAndFamily": "Jaz in moja družina"
 }

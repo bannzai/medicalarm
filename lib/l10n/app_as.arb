@@ -250,5 +250,6 @@
   "onboardingCareTargetTitle": "আপুনি কাৰ ঔষধ সেৱন পৰিচালনা কৰিব?",
   "onboardingCareTargetSubtitle": "আপোনাৰ উত্তৰৰ ভিত্তিত আমি এটা পৰিকল্পনা প্ৰস্তুত কৰিম",
   "onboardingCareTargetSelf": "নিজৰ বাবে",
-  "onboardingCareTargetFamily": "পৰিয়াল"
+  "onboardingCareTargetFamily": "পৰিয়াল",
+  "onboardingCareTargetSelfAndFamily": "মই আৰু মোৰ পৰিয়াল"
 }

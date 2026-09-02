@@ -250,5 +250,6 @@
   "onboardingCareTargetTitle": "Czyje przyjmowanie leków chcesz monitorować?",
   "onboardingCareTargetSubtitle": "Przygotujemy plan na podstawie Twoich odpowiedzi",
   "onboardingCareTargetSelf": "Dla siebie",
-  "onboardingCareTargetFamily": "Rodzina"
+  "onboardingCareTargetFamily": "Rodzina",
+  "onboardingCareTargetSelfAndFamily": "Ja i moja rodzina"
 }

@@ -250,5 +250,6 @@
   "onboardingCareTargetTitle": "Marrjen e ilaçeve të kujt do të menaxhoni?",
   "onboardingCareTargetSubtitle": "Do të krijojmë një plan bazuar në përgjigjet tuaja",
   "onboardingCareTargetSelf": "Për vete",
-  "onboardingCareTargetFamily": "Familja"
+  "onboardingCareTargetFamily": "Familja",
+  "onboardingCareTargetSelfAndFamily": "Unë dhe familja ime"
 }
