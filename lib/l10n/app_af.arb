@@ -182,5 +182,6 @@
   "medicationTakenAtLabel": "{time} Ingeneem",
   "medicineResumedSnackbar": "Medikasie hervat",
   "medicineEditTooltip": "Wysig medisyne",
-  "groups": "Groepe"
+  "groups": "Groepe",
+  "groupManagement": "Groepbestuur"
 }

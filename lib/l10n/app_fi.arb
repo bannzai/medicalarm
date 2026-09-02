@@ -182,5 +182,6 @@
   "medicationTakenAtLabel": "Otettu klo {time}",
   "medicineResumedSnackbar": "Lääkkeen ottamista jatkettiin",
   "medicineEditTooltip": "Muokkaa lääkettä",
-  "groups": "Ryhmät"
+  "groups": "Ryhmät",
+  "groupManagement": "Ryhmien hallinta"
 }

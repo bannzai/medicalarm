@@ -182,5 +182,6 @@
   "medicationTakenAtLabel": "{time} alındı",
   "medicineResumedSnackbar": "İlacın kullanımına yeniden başlandı",
   "medicineEditTooltip": "İlacı düzenle",
-  "groups": "Gruplar"
+  "groups": "Gruplar",
+  "groupManagement": "Grup yönetimi"
 }

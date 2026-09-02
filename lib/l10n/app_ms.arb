@@ -182,5 +182,6 @@
   "medicationTakenAtLabel": "Diambil pada {time}",
   "medicineResumedSnackbar": "Pengambilan ubat disambung semula",
   "medicineEditTooltip": "Edit ubat",
-  "groups": "Kumpulan"
+  "groups": "Kumpulan",
+  "groupManagement": "Pengurusan kumpulan"
 }

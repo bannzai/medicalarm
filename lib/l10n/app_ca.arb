@@ -182,5 +182,6 @@
   "medicationTakenAtLabel": "Pres a les {time}",
   "medicineResumedSnackbar": "S'ha reprès la presa del medicament",
   "medicineEditTooltip": "Edita el medicament",
-  "groups": "Grups"
+  "groups": "Grups",
+  "groupManagement": "Gestió de grups"
 }

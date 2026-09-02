@@ -182,5 +182,6 @@
   "medicationTakenAtLabel": "Uzeto u {time}",
   "medicineResumedSnackbar": "Uzimanje lijeka je nastavljeno",
   "medicineEditTooltip": "Uredi lijek",
-  "groups": "Grupe"
+  "groups": "Grupe",
+  "groupManagement": "Upravljanje grupama"
 }

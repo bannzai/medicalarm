@@ -182,5 +182,6 @@
   "medicationTakenAtLabel": "{time} қабылданды",
   "medicineResumedSnackbar": "Дәрі қабылдау қайта басталды",
   "medicineEditTooltip": "Дәріні өңдеу",
-  "groups": "Топтар"
+  "groups": "Топтар",
+  "groupManagement": "Топтарды басқару"
 }

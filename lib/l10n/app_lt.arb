@@ -182,5 +182,6 @@
   "medicationTakenAtLabel": "Išgerta {time}",
   "medicineResumedSnackbar": "Vaistų vartojimas atnaujintas",
   "medicineEditTooltip": "Redaguoti vaistą",
-  "groups": "Grupės"
+  "groups": "Grupės",
+  "groupManagement": "Grupės valdymas"
 }

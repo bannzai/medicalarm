@@ -182,5 +182,6 @@
   "medicationTakenAtLabel": "{time} 已服用",
   "medicineResumedSnackbar": "已恢复服药",
   "medicineEditTooltip": "编辑药物",
-  "groups": "群组"
+  "groups": "群组",
+  "groupManagement": "群组管理"
 }

@@ -182,5 +182,6 @@
   "medicationTakenAtLabel": "รับประทานแล้วเวลา {time}",
   "medicineResumedSnackbar": "เริ่มรับประทานยาอีกครั้งแล้ว",
   "medicineEditTooltip": "แก้ไขยา",
-  "groups": "กลุ่ม"
+  "groups": "กลุ่ม",
+  "groupManagement": "การจัดการกลุ่ม"
 }

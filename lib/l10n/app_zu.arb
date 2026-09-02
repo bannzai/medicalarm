@@ -182,5 +182,6 @@
   "medicationTakenAtLabel": "Iphuzwe ngo-{time}",
   "medicineResumedSnackbar": "Ukuqaliswe kabusha ukuphuza umuthi",
   "medicineEditTooltip": "Hlela umuthi",
-  "groups": "Amaqembu"
+  "groups": "Amaqembu",
+  "groupManagement": "Ukuphathwa kwamaqembu"
 }

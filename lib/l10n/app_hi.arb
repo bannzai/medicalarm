@@ -182,5 +182,6 @@
   "medicationTakenAtLabel": "{time} पर लिया गया",
   "medicineResumedSnackbar": "दवा लेना फिर से शुरू किया गया",
   "medicineEditTooltip": "दवा संपादित करें",
-  "groups": "समूह"
+  "groups": "समूह",
+  "groupManagement": "समूह प्रबंधन"
 }

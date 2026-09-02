@@ -182,5 +182,6 @@
   "medicationTakenAtLabel": "បានលេបនៅម៉ោង {time}",
   "medicineResumedSnackbar": "ការលេបថ្នាំត្រូវបានចាប់ផ្តើមឡើងវិញ",
   "medicineEditTooltip": "កែសម្រួលថ្នាំ",
-  "groups": "ក្រុម"
+  "groups": "ក្រុម",
+  "groupManagement": "ការគ្រប់គ្រងក្រុម"
 }

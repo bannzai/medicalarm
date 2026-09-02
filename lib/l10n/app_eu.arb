@@ -182,5 +182,6 @@
   "medicationTakenAtLabel": "{time}(e)an hartuta",
   "medicineResumedSnackbar": "Sendagaiaren hartzea berrabiarazi da",
   "medicineEditTooltip": "Editatu sendagaia",
-  "groups": "Taldeak"
+  "groups": "Taldeak",
+  "groupManagement": "Taldeen kudeaketa"
 }

@@ -182,5 +182,6 @@
   "medicationTakenAtLabel": "Прието в {time}",
   "medicineResumedSnackbar": "Приемът на лекарството е възобновен",
   "medicineEditTooltip": "Редактиране на лекарство",
-  "groups": "Групи"
+  "groups": "Групи",
+  "groupManagement": "Управление на групи"
 }

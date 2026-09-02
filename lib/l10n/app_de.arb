@@ -182,5 +182,6 @@
   "medicationTakenAtLabel": "Um {time} eingenommen",
   "medicineResumedSnackbar": "Die Medikamenteneinnahme wurde fortgesetzt",
   "medicineEditTooltip": "Medikament bearbeiten",
-  "groups": "Gruppen"
+  "groups": "Gruppen",
+  "groupManagement": "Gruppenverwaltung"
 }

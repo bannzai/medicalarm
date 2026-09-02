@@ -182,5 +182,6 @@
   "medicationTakenAtLabel": "Diminum pada {time}",
   "medicineResumedSnackbar": "Konsumsi obat dilanjutkan",
   "medicineEditTooltip": "Edit obat",
-  "groups": "Grup"
+  "groups": "Grup",
+  "groupManagement": "Kelola grup"
 }

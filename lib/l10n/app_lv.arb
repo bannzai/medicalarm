@@ -182,5 +182,6 @@
   "medicationTakenAtLabel": "Lietots plkst. {time}",
   "medicineResumedSnackbar": "Zāļu lietošana ir atsākta",
   "medicineEditTooltip": "Rediģēt zāles",
-  "groups": "Grupas"
+  "groups": "Grupas",
+  "groupManagement": "Grupu pārvaldība"
 }

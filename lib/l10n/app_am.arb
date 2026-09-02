@@ -182,5 +182,6 @@
   "medicationTakenAtLabel": "በ{time} ተወስዷል",
   "medicineResumedSnackbar": "የመድኃኒት አጠቃቀም ቀጥሏል",
   "medicineEditTooltip": "መድኃኒት አርትዕ",
-  "groups": "ቡድኖች"
+  "groups": "ቡድኖች",
+  "groupManagement": "የቡድኖች አስተዳደር"
 }

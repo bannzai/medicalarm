@@ -182,5 +182,6 @@
   "medicationTakenAtLabel": "{time}ಕ್ಕೆ ತೆಗೆದುಕೊಳ್ಳಲಾಗಿದೆ",
   "medicineResumedSnackbar": "ಔಷಧಿ ಸೇವನೆಯನ್ನು ಪುನರಾರಂಭಿಸಲಾಗಿದೆ",
   "medicineEditTooltip": "ಔಷಧ ಸಂಪಾದಿಸಿ",
-  "groups": "ಗುಂಪುಗಳು"
+  "groups": "ಗುಂಪುಗಳು",
+  "groupManagement": "ಗುಂಪು ನಿರ್ವಹಣೆ"
 }

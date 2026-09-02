@@ -182,5 +182,6 @@
   "medicationTakenAtLabel": "נלקח ב־{time}",
   "medicineResumedSnackbar": "נטילת התרופה חודשה",
   "medicineEditTooltip": "עריכת תרופה",
-  "groups": "קבוצות"
+  "groups": "קבוצות",
+  "groupManagement": "ניהול קבוצות"
 }

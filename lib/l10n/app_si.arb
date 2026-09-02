@@ -182,5 +182,6 @@
   "medicationTakenAtLabel": "{time} ට ගත්තා",
   "medicineResumedSnackbar": "ඖෂධ ගැනීම නැවත ආරම්භ කර ඇත",
   "medicineEditTooltip": "ඖෂධය සංස්කරණය කරන්න",
-  "groups": "කණ්ඩායම්"
+  "groups": "කණ්ඩායම්",
+  "groupManagement": "කණ්ඩායම් කළමනාකරණය"
 }

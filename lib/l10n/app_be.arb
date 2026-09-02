@@ -182,5 +182,6 @@
   "medicationTakenAtLabel": "Прынята ў {time}",
   "medicineResumedSnackbar": "Прыём прэпарата адноўлены",
   "medicineEditTooltip": "Рэдагаваць лекі",
-  "groups": "Групы"
+  "groups": "Групы",
+  "groupManagement": "Кіраванне групамі"
 }

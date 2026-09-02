@@ -182,5 +182,6 @@
   "medicationTakenAtLabel": "{time}-ന് കഴിച്ചു",
   "medicineResumedSnackbar": "മരുന്ന് കഴിക്കുന്നത് പുനരാരംഭിച്ചു",
   "medicineEditTooltip": "മരുന്ന് എഡിറ്റ് ചെയ്യുക",
-  "groups": "ഗ്രൂപ്പുകൾ"
+  "groups": "ഗ്രൂപ്പുകൾ",
+  "groupManagement": "ഗ്രൂപ്പുകൾ നിയന്ത്രിക്കുക"
 }

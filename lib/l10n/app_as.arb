@@ -182,5 +182,6 @@
   "medicationTakenAtLabel": "{time}-ত সেৱন কৰা হৈছে",
   "medicineResumedSnackbar": "ঔষধ সেৱন পুনৰ আৰম্ভ কৰা হৈছে",
   "medicineEditTooltip": "ঔষধ সম্পাদনা কৰক",
-  "groups": "গোটসমূহ"
+  "groups": "গোটসমূহ",
+  "groupManagement": "গোট পৰিচালনা"
 }

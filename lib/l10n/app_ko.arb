@@ -182,5 +182,6 @@
   "medicationTakenAtLabel": "{time} 복용 완료",
   "medicineResumedSnackbar": "약 복용을 재개했습니다",
   "medicineEditTooltip": "약 편집",
-  "groups": "그룹"
+  "groups": "그룹",
+  "groupManagement": "그룹 관리"
 }

@@ -182,5 +182,6 @@
   "medicationTakenAtLabel": "Ininom noong {time}",
   "medicineResumedSnackbar": "Ipinagpatuloy ang pag-inom ng gamot",
   "medicineEditTooltip": "I-edit ang gamot",
-  "groups": "Mga grupo"
+  "groups": "Mga grupo",
+  "groupManagement": "Pamamahala ng mga grupo"
 }

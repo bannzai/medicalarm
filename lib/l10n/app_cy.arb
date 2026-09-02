@@ -182,5 +182,6 @@
   "medicationTakenAtLabel": "Wedi’i gymryd am {time}",
   "medicineResumedSnackbar": "Ailddechreuwyd cymryd y feddyginiaeth",
   "medicineEditTooltip": "Golygu meddyginiaeth",
-  "groups": "Grwpiau"
+  "groups": "Grwpiau",
+  "groupManagement": "Rheoli grwpiau"
 }

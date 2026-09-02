@@ -182,5 +182,6 @@
   "medicationTakenAtLabel": "{time} वाजता घेतले",
   "medicineResumedSnackbar": "औषध घेणे पुन्हा सुरू केले",
   "medicineEditTooltip": "औषध संपादित करा",
-  "groups": "गट"
+  "groups": "गट",
+  "groupManagement": "गट व्यवस्थापन"
 }

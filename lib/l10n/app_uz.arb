@@ -182,5 +182,6 @@
   "medicationTakenAtLabel": "{time} da qabul qilindi",
   "medicineResumedSnackbar": "Dorini qabul qilish qayta boshlandi",
   "medicineEditTooltip": "Dorini tahrirlash",
-  "groups": "Guruhlar"
+  "groups": "Guruhlar",
+  "groupManagement": "Guruhlarni boshqarish"
 }

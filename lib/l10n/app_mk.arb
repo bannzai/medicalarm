@@ -182,5 +182,6 @@
   "medicationTakenAtLabel": "Земено во {time}",
   "medicineResumedSnackbar": "Земањето на лекот е продолжено",
   "medicineEditTooltip": "Уреди лек",
-  "groups": "Групи"
+  "groups": "Групи",
+  "groupManagement": "Управување со групи"
 }

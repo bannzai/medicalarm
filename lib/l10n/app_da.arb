@@ -182,5 +182,6 @@
   "medicationTakenAtLabel": "Taget kl. {time}",
   "medicineResumedSnackbar": "Medicinen er genoptaget",
   "medicineEditTooltip": "Rediger medicin",
-  "groups": "Grupper"
+  "groups": "Grupper",
+  "groupManagement": "Gruppeadministration"
 }

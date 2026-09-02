@@ -182,5 +182,6 @@
   "medicationTakenAtLabel": "მიღებულია {time}-ზე",
   "medicineResumedSnackbar": "მედიკამენტის მიღება განახლდა",
   "medicineEditTooltip": "მედიკამენტის რედაქტირება",
-  "groups": "ჯგუფები"
+  "groups": "ჯგუფები",
+  "groupManagement": "ჯგუფების მართვა"
 }

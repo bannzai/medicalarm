@@ -182,5 +182,6 @@
   "medicationTakenAtLabel": "Ընդունված է՝ {time}-ին",
   "medicineResumedSnackbar": "Դեղամիջոցի ընդունումը վերսկսվել է",
   "medicineEditTooltip": "Խմբագրել դեղը",
-  "groups": "Խմբեր"
+  "groups": "Խմբեր",
+  "groupManagement": "Խմբերի կառավարում"
 }

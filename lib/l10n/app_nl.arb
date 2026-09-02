@@ -182,5 +182,6 @@
   "medicationTakenAtLabel": "Ingenomen om {time}",
   "medicineResumedSnackbar": "Het innemen van het medicijn is hervat",
   "medicineEditTooltip": "Medicijn bewerken",
-  "groups": "Groepen"
+  "groups": "Groepen",
+  "groupManagement": "Groepen beheren"
 }

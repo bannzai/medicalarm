@@ -182,5 +182,6 @@
   "medicationTakenAtLabel": "{time} кабыл алынды",
   "medicineResumedSnackbar": "Дарыны кабыл алуу кайра башталды",
   "medicineEditTooltip": "Дарыны түзөтүү",
-  "groups": "Топтор"
+  "groups": "Топтор",
+  "groupManagement": "Топторду башкаруу"
 }

@@ -182,5 +182,6 @@
   "medicationTakenAtLabel": "{time} Qəbul edilib",
   "medicineResumedSnackbar": "Dərmanın qəbulu bərpa edildi",
   "medicineEditTooltip": "Dərmanı redaktə et",
-  "groups": "Qruplar"
+  "groups": "Qruplar",
+  "groupManagement": "Qrupların idarə edilməsi"
 }

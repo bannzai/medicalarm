@@ -182,5 +182,6 @@
   "medicationTakenAtLabel": "{time} တွင် သောက်ပြီး",
   "medicineResumedSnackbar": "ဆေးသောက်ခြင်းကို ပြန်လည်စတင်လိုက်ပါပြီ",
   "medicineEditTooltip": "ဆေးကို တည်းဖြတ်ရန်",
-  "groups": "အဖွဲ့များ"
+  "groups": "အဖွဲ့များ",
+  "groupManagement": "အဖွဲ့များ စီမံခန့်ခွဲခြင်း"
 }

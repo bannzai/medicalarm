@@ -182,5 +182,6 @@
   "medicationTakenAtLabel": "Tagen kl. {time}",
   "medicineResumedSnackbar": "Intaget av medicinen har återupptagits",
   "medicineEditTooltip": "Redigera medicin",
-  "groups": "Grupper"
+  "groups": "Grupper",
+  "groupManagement": "Grupphantering"
 }

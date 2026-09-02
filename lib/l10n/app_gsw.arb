@@ -182,5 +182,6 @@
   "medicationTakenAtLabel": "Um {time} gnoh",
   "medicineResumedSnackbar": "D Medikamenteneinnahm isch wieder ufgnuu worde",
   "medicineEditTooltip": "Medikament bearbeite",
-  "groups": "Gruppen"
+  "groups": "Gruppen",
+  "groupManagement": "Gruppenverwaltung"
 }

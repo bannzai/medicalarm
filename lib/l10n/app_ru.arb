@@ -182,5 +182,6 @@
   "medicationTakenAtLabel": "Принято в {time}",
   "medicineResumedSnackbar": "Приём лекарства возобновлён",
   "medicineEditTooltip": "Редактировать лекарство",
-  "groups": "Группы"
+  "groups": "Группы",
+  "groupManagement": "Управление группами"
 }

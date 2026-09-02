@@ -182,5 +182,6 @@
   "medicationTakenAtLabel": "Lu at {time}",
   "medicineResumedSnackbar": "Administrarea medicamentului a fost reluată",
   "medicineEditTooltip": "Editează medicamentul",
-  "groups": "Grupuri"
+  "groups": "Grupuri",
+  "groupManagement": "Gestionarea grupurilor"
 }

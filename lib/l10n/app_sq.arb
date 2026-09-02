@@ -182,5 +182,6 @@
   "medicationTakenAtLabel": "Marrë në {time}",
   "medicineResumedSnackbar": "Marrja e ilaçit u rifillua",
   "medicineEditTooltip": "Modifiko ilaçin",
-  "groups": "Grupet"
+  "groups": "Grupet",
+  "groupManagement": "Menaxhimi i grupeve"
 }

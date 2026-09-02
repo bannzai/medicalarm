@@ -182,5 +182,6 @@
   "medicationTakenAtLabel": "Tekið kl. {time}",
   "medicineResumedSnackbar": "Lyfjatöku hefur verið haldið áfram",
   "medicineEditTooltip": "Breyta lyfi",
-  "groups": "Hópar"
+  "groups": "Hópar",
+  "groupManagement": "Hópastjórnun"
 }

@@ -182,5 +182,6 @@
   "medicationTakenAtLabel": "Tomado às {time}",
   "medicineResumedSnackbar": "A toma do medicamento foi retomada",
   "medicineEditTooltip": "Editar medicamento",
-  "groups": "Grupos"
+  "groups": "Grupos",
+  "groupManagement": "Gestão de grupos"
 }

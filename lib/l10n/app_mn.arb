@@ -182,5 +182,6 @@
   "medicationTakenAtLabel": "{time}-д уусан",
   "medicineResumedSnackbar": "Эм уухыг дахин эхлүүллээ",
   "medicineEditTooltip": "Эмийг засах",
-  "groups": "Бүлгүүд"
+  "groups": "Бүлгүүд",
+  "groupManagement": "Бүлгийн удирдлага"
 }

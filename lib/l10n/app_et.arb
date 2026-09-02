@@ -182,5 +182,6 @@
   "medicationTakenAtLabel": "Võetud kell {time}",
   "medicineResumedSnackbar": "Ravimi võtmist jätkati",
   "medicineEditTooltip": "Muuda ravimit",
-  "groups": "Rühmad"
+  "groups": "Rühmad",
+  "groupManagement": "Rühmade haldamine"
 }

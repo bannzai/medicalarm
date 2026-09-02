@@ -182,5 +182,6 @@
   "medicationTakenAtLabel": "Imetumiwa saa {time}",
   "medicineResumedSnackbar": "Unywaji wa dawa umeanza tena",
   "medicineEditTooltip": "Hariri dawa",
-  "groups": "Vikundi"
+  "groups": "Vikundi",
+  "groupManagement": "Usimamizi wa vikundi"
 }

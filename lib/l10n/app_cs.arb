@@ -182,5 +182,6 @@
   "medicationTakenAtLabel": "Užito v {time}",
   "medicineResumedSnackbar": "Užívání léku bylo obnoveno",
   "medicineEditTooltip": "Upravit lék",
-  "groups": "Skupiny"
+  "groups": "Skupiny",
+  "groupManagement": "Správa skupin"
 }

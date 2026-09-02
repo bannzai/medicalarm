@@ -182,5 +182,6 @@
   "medicationTakenAtLabel": "{time}కి తీసుకున్నారు",
   "medicineResumedSnackbar": "మందు తీసుకోవడం మళ్లీ ప్రారంభమైంది",
   "medicineEditTooltip": "మందును సవరించండి",
-  "groups": "సమూహాలు"
+  "groups": "సమూహాలు",
+  "groupManagement": "సమూహ నిర్వహణ"
 }
