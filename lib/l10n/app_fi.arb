@@ -269,5 +269,6 @@
   "onboardingBeforeItemFamily": "En pysty seuraamaan koko perheen lääkitystä",
   "onboardingAfterItemReminder": "Saat ilmoituksen, kun on aika ottaa lääkkeesi.",
   "onboardingAfterItemRecord": "Tiedot säilyvät ja voit tarkistaa ne heti",
-  "onboardingAfterItemFamily": "Näe myös perheesi lääkkeiden ottamisen tilanne yhdellä silmäyksellä"
+  "onboardingAfterItemFamily": "Näe myös perheesi lääkkeiden ottamisen tilanne yhdellä silmäyksellä",
+  "onboardingGoalTitle": "Määritä tavoitteesi"
 }

@@ -269,5 +269,6 @@
   "onboardingBeforeItemFamily": "Tidak dapat memantau pengambilan ubat seluruh keluarga",
   "onboardingAfterItemReminder": "Anda akan menerima pemberitahuan apabila tiba masa untuk mengambil ubat.",
   "onboardingAfterItemRecord": "Rekod disimpan dan boleh disemak serta-merta",
-  "onboardingAfterItemFamily": "Lihat juga status pengambilan ubat keluarga anda sepintas lalu"
+  "onboardingAfterItemFamily": "Lihat juga status pengambilan ubat keluarga anda sepintas lalu",
+  "onboardingGoalTitle": "Tetapkan matlamat anda"
 }

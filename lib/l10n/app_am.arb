@@ -269,5 +269,6 @@
   "onboardingBeforeItemFamily": "የመላው ቤተሰብን መድኃኒት መከታተል አልችልም",
   "onboardingAfterItemReminder": "መድሃኒትዎን ለመውሰድ ጊዜው ሲደርስ ማሳወቂያ ይደርስዎታል።",
   "onboardingAfterItemRecord": "መዝገቦች ይቀመጣሉ እና ወዲያውኑ ማረጋገጥ ይችላሉ",
-  "onboardingAfterItemFamily": "የቤተሰብዎን የመድኃኒት አጠቃቀም ሁኔታም በአንድ እይታ ይወቁ"
+  "onboardingAfterItemFamily": "የቤተሰብዎን የመድኃኒት አጠቃቀም ሁኔታም በአንድ እይታ ይወቁ",
+  "onboardingGoalTitle": "ግብዎን ይወስኑ"
 }

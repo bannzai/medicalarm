@@ -269,5 +269,6 @@
   "onboardingBeforeItemFamily": "ບໍ່ສາມາດຕິດຕາມການກິນຢາຂອງຄອບຄົວທັງໝົດໄດ້",
   "onboardingAfterItemReminder": "ເມື່ອເຖິງເວລາກິນຢາ ທ່ານຈະໄດ້ຮັບການແຈ້ງເຕືອນ.",
   "onboardingAfterItemRecord": "ບັນທຶກຈະຖືກເກັບໄວ້ ແລະສາມາດກວດເບິ່ງໄດ້ທັນທີ",
-  "onboardingAfterItemFamily": "ເບິ່ງສະຖານະການກິນຢາຂອງຄອບຄົວໄດ້ໃນພາບດຽວ"
+  "onboardingAfterItemFamily": "ເບິ່ງສະຖານະການກິນຢາຂອງຄອບຄົວໄດ້ໃນພາບດຽວ",
+  "onboardingGoalTitle": "ກຳນົດເປົ້າໝາຍຂອງທ່ານ"
 }

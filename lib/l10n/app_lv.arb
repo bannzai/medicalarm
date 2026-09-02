@@ -269,5 +269,6 @@
   "onboardingBeforeItemFamily": "Nevaru pārraudzīt visas ģimenes medikamentu lietošanu",
   "onboardingAfterItemReminder": "Saņemsi paziņojumu, kad būs pienācis laiks lietot zāles.",
   "onboardingAfterItemRecord": "Ieraksti tiek saglabāti, un tos var pārbaudīt uzreiz",
-  "onboardingAfterItemFamily": "Vienā mirklī pārskatiet arī savas ģimenes zāļu lietošanas statusu"
+  "onboardingAfterItemFamily": "Vienā mirklī pārskatiet arī savas ģimenes zāļu lietošanas statusu",
+  "onboardingGoalTitle": "Nosakiet savu mērķi"
 }

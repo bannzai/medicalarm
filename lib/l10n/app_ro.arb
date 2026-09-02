@@ -269,5 +269,6 @@
   "onboardingBeforeItemFamily": "Nu pot ține evidența medicamentelor întregii familii",
   "onboardingAfterItemReminder": "Vei primi o notificare când este timpul să iei medicamentul.",
   "onboardingAfterItemRecord": "Înregistrările se păstrează și pot fi verificate imediat",
-  "onboardingAfterItemFamily": "Vedeți dintr-o privire și situația administrării medicamentelor de către familie"
+  "onboardingAfterItemFamily": "Vedeți dintr-o privire și situația administrării medicamentelor de către familie",
+  "onboardingGoalTitle": "Stabiliți-vă obiectivul"
 }

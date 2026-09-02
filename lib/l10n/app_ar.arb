@@ -269,5 +269,6 @@
   "onboardingBeforeItemFamily": "لا أستطيع متابعة أدوية جميع أفراد العائلة",
   "onboardingAfterItemReminder": "ستتلقى إشعارًا عند حلول موعد تناول دوائك.",
   "onboardingAfterItemRecord": "تبقى السجلات ويمكن التحقق منها فورًا",
-  "onboardingAfterItemFamily": "تعرّف على حالة تناول أفراد عائلتك للأدوية بنظرة واحدة"
+  "onboardingAfterItemFamily": "تعرّف على حالة تناول أفراد عائلتك للأدوية بنظرة واحدة",
+  "onboardingGoalTitle": "حدّد هدفك"
 }

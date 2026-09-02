@@ -269,5 +269,6 @@
   "onboardingBeforeItemFamily": "לא ניתן לעקוב אחר התרופות של כל המשפחה",
   "onboardingAfterItemReminder": "תתקבל התראה במועד נטילת התרופה.",
   "onboardingAfterItemRecord": "הרשומות נשמרות וניתן לבדוק אותן מיד",
-  "onboardingAfterItemFamily": "לראות במבט אחד גם את מצב נטילת התרופות של בני המשפחה"
+  "onboardingAfterItemFamily": "לראות במבט אחד גם את מצב נטילת התרופות של בני המשפחה",
+  "onboardingGoalTitle": "הגדירו את היעד שלכם"
 }

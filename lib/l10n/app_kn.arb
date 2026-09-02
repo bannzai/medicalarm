@@ -269,5 +269,6 @@
   "onboardingBeforeItemFamily": "ಇಡೀ ಕುಟುಂಬದ ಔಷಧಿಗಳನ್ನು ಗಮನದಲ್ಲಿಟ್ಟುಕೊಳ್ಳಲು ಸಾಧ್ಯವಾಗುತ್ತಿಲ್ಲ",
   "onboardingAfterItemReminder": "ಔಷಧಿಯನ್ನು ತೆಗೆದುಕೊಳ್ಳುವ ಸಮಯವಾದಾಗ ನಿಮಗೆ ಅಧಿಸೂಚನೆ ಬರುತ್ತದೆ.",
   "onboardingAfterItemRecord": "ದಾಖಲೆಗಳು ಉಳಿಯುತ್ತವೆ ಮತ್ತು ತಕ್ಷಣ ಪರಿಶೀಲಿಸಬಹುದು",
-  "onboardingAfterItemFamily": "ನಿಮ್ಮ ಕುಟುಂಬದ ಔಷಧ ಸೇವನೆಯ ಸ್ಥಿತಿಯನ್ನೂ ಒಂದೇ ನೋಟದಲ್ಲಿ ನೋಡಿ"
+  "onboardingAfterItemFamily": "ನಿಮ್ಮ ಕುಟುಂಬದ ಔಷಧ ಸೇವನೆಯ ಸ್ಥಿತಿಯನ್ನೂ ಒಂದೇ ನೋಟದಲ್ಲಿ ನೋಡಿ",
+  "onboardingGoalTitle": "ನಿಮ್ಮ ಗುರಿಯನ್ನು ನಿರ್ಧರಿಸಿ"
 }

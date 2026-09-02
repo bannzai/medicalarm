@@ -269,5 +269,6 @@
   "onboardingBeforeItemFamily": "Tüm ailenin ilaçlarını takip edemiyorum",
   "onboardingAfterItemReminder": "İlacınızı alma zamanı geldiğinde bildirim alırsınız.",
   "onboardingAfterItemRecord": "Kayıtlar saklanır ve hemen kontrol edilebilir",
-  "onboardingAfterItemFamily": "Ailenizin ilaç alma durumunu da bir bakışta görün"
+  "onboardingAfterItemFamily": "Ailenizin ilaç alma durumunu da bir bakışta görün",
+  "onboardingGoalTitle": "Hedefinizi belirleyin"
 }

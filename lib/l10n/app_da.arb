@@ -269,5 +269,6 @@
   "onboardingBeforeItemFamily": "Kan ikke holde styr på hele familiens medicin",
   "onboardingAfterItemReminder": "Du får en notifikation, når det er tid til at tage din medicin.",
   "onboardingAfterItemRecord": "Registreringer gemmes og kan tjekkes med det samme",
-  "onboardingAfterItemFamily": "Se også familiens medicinstatus med et enkelt blik"
+  "onboardingAfterItemFamily": "Se også familiens medicinstatus med et enkelt blik",
+  "onboardingGoalTitle": "Fastlæg dit mål"
 }

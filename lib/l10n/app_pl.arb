@@ -269,5 +269,6 @@
   "onboardingBeforeItemFamily": "Nie mogę kontrolować przyjmowania leków przez całą rodzinę",
   "onboardingAfterItemReminder": "Otrzymasz powiadomienie, gdy nadejdzie pora przyjęcia leku.",
   "onboardingAfterItemRecord": "Historia zostaje zapisana i można ją od razu sprawdzić",
-  "onboardingAfterItemFamily": "Sprawdzaj także stan przyjmowania leków przez rodzinę na pierwszy rzut oka"
+  "onboardingAfterItemFamily": "Sprawdzaj także stan przyjmowania leków przez rodzinę na pierwszy rzut oka",
+  "onboardingGoalTitle": "Ustal swój cel"
 }

@@ -269,5 +269,6 @@
   "onboardingBeforeItemFamily": "Ezin dut familia osoaren medikazioa kontrolatu",
   "onboardingAfterItemReminder": "Botika hartzeko ordua denean, jakinarazpen bat jasoko duzu.",
   "onboardingAfterItemRecord": "Erregistroak gordeta geratzen dira eta berehala kontsulta daitezke",
-  "onboardingAfterItemFamily": "Ikusi zure familiaren botiken hartze-egoera begiratu batean"
+  "onboardingAfterItemFamily": "Ikusi zure familiaren botiken hartze-egoera begiratu batean",
+  "onboardingGoalTitle": "Ezarri zure helburua"
 }

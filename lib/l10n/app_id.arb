@@ -269,5 +269,6 @@
   "onboardingBeforeItemFamily": "Tidak bisa memantau obat seluruh keluarga",
   "onboardingAfterItemReminder": "Anda akan menerima notifikasi saat waktunya minum obat.",
   "onboardingAfterItemRecord": "Catatan tersimpan dan dapat segera diperiksa",
-  "onboardingAfterItemFamily": "Lihat juga status minum obat keluarga Anda sekilas"
+  "onboardingAfterItemFamily": "Lihat juga status minum obat keluarga Anda sekilas",
+  "onboardingGoalTitle": "Tentukan tujuan Anda"
 }

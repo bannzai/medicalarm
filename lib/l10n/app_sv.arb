@@ -269,5 +269,6 @@
   "onboardingBeforeItemFamily": "Kan inte hålla koll på hela familjens mediciner",
   "onboardingAfterItemReminder": "Du får en avisering när det är dags att ta medicinen.",
   "onboardingAfterItemRecord": "Registreringar sparas och kan kontrolleras direkt",
-  "onboardingAfterItemFamily": "Se även familjens medicinstatus med en blick"
+  "onboardingAfterItemFamily": "Se även familjens medicinstatus med en blick",
+  "onboardingGoalTitle": "Bestäm ditt mål"
 }

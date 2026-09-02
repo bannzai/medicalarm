@@ -269,5 +269,6 @@
   "onboardingBeforeItemFamily": "Nem tudom nyomon követni az egész család gyógyszereit",
   "onboardingAfterItemReminder": "Értesítést kapsz, amikor eljön a gyógyszer bevételének ideje.",
   "onboardingAfterItemRecord": "A feljegyzések megmaradnak, és azonnal ellenőrizhetők",
-  "onboardingAfterItemFamily": "Egy pillantással láthatja családja gyógyszerszedési állapotát"
+  "onboardingAfterItemFamily": "Egy pillantással láthatja családja gyógyszerszedési állapotát",
+  "onboardingGoalTitle": "Határozza meg a célját"
 }

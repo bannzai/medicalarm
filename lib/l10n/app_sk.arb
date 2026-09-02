@@ -269,5 +269,6 @@
   "onboardingBeforeItemFamily": "Nedokážem sledovať lieky celej rodiny",
   "onboardingAfterItemReminder": "Keď bude čas užiť liek, dostanete upozornenie.",
   "onboardingAfterItemRecord": "Záznamy zostanú uložené a môžete ich hneď skontrolovať",
-  "onboardingAfterItemFamily": "Majte prehľad aj o užívaní liekov vašej rodiny na prvý pohľad"
+  "onboardingAfterItemFamily": "Majte prehľad aj o užívaní liekov vašej rodiny na prvý pohľad",
+  "onboardingGoalTitle": "Stanovte si cieľ"
 }

@@ -269,5 +269,6 @@
   "onboardingBeforeItemFamily": "Ne mogu pratiti lijekove cijele obitelji",
   "onboardingAfterItemReminder": "Primit ćete obavijest kada dođe vrijeme da uzmete lijek.",
   "onboardingAfterItemRecord": "Zapisi ostaju sačuvani i mogu se odmah provjeriti",
-  "onboardingAfterItemFamily": "Na prvi pogled saznajte i stanje uzimanja lijekova u obitelji"
+  "onboardingAfterItemFamily": "Na prvi pogled saznajte i stanje uzimanja lijekova u obitelji",
+  "onboardingGoalTitle": "Odredite svoj cilj"
 }

@@ -269,5 +269,6 @@
   "onboardingBeforeItemFamily": "গোটেই পৰিয়ালৰ ঔষধৰ খবৰ ৰাখিব নোৱাৰোঁ",
   "onboardingAfterItemReminder": "ঔষধ খোৱাৰ সময়ত আপুনি এটা জাননী লাভ কৰিব।",
   "onboardingAfterItemRecord": "ৰেকৰ্ড সংৰক্ষিত থাকে আৰু লগে লগে পৰীক্ষা কৰিব পাৰি",
-  "onboardingAfterItemFamily": "আপোনাৰ পৰিয়ালৰ ঔষধ সেৱনৰ অৱস্থাও এক নজৰত চাওক"
+  "onboardingAfterItemFamily": "আপোনাৰ পৰিয়ালৰ ঔষধ সেৱনৰ অৱস্থাও এক নজৰত চাওক",
+  "onboardingGoalTitle": "আপোনাৰ লক্ষ্য নিৰ্ধাৰণ কৰক"
 }

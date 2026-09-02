@@ -269,5 +269,6 @@
   "onboardingBeforeItemFamily": "Бүт үй-бүлөнүн дары-дармегин көзөмөлдөй албайм",
   "onboardingAfterItemReminder": "Дары ичүү убактысы келгенде, сизге эскертме келет.",
   "onboardingAfterItemRecord": "Жазуулар сакталат жана аларды дароо текшерсе болот",
-  "onboardingAfterItemFamily": "Үй-бүлөңүздүн дары ичүү абалын да бир караганда көрүңүз"
+  "onboardingAfterItemFamily": "Үй-бүлөңүздүн дары ичүү абалын да бир караганда көрүңүз",
+  "onboardingGoalTitle": "Максатыңызды аныктаңыз"
 }

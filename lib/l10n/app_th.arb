@@ -269,5 +269,6 @@
   "onboardingBeforeItemFamily": "ไม่สามารถติดตามการรับประทานยาของทั้งครอบครัวได้",
   "onboardingAfterItemReminder": "คุณจะได้รับการแจ้งเตือนเมื่อถึงเวลารับประทานยา",
   "onboardingAfterItemRecord": "บันทึกจะถูกเก็บไว้และตรวจสอบได้ทันที",
-  "onboardingAfterItemFamily": "ดูสถานะการรับประทานยาของครอบครัวได้ในพริบตา"
+  "onboardingAfterItemFamily": "ดูสถานะการรับประทานยาของครอบครัวได้ในพริบตา",
+  "onboardingGoalTitle": "กำหนดเป้าหมายของคุณ"
 }

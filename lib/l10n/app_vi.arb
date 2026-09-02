@@ -269,5 +269,6 @@
   "onboardingBeforeItemFamily": "Không thể theo dõi việc dùng thuốc của cả gia đình",
   "onboardingAfterItemReminder": "Bạn sẽ nhận được thông báo khi đến giờ uống thuốc.",
   "onboardingAfterItemRecord": "Bản ghi được lưu lại và có thể xem ngay",
-  "onboardingAfterItemFamily": "Xem tình trạng uống thuốc của gia đình chỉ trong nháy mắt"
+  "onboardingAfterItemFamily": "Xem tình trạng uống thuốc của gia đình chỉ trong nháy mắt",
+  "onboardingGoalTitle": "Xác định mục tiêu của bạn"
 }

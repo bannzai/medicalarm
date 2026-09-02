@@ -269,5 +269,6 @@
   "onboardingBeforeItemFamily": "మొత్తం కుటుంబం మందుల వివరాలను గమనించలేకపోతున్నాను",
   "onboardingAfterItemReminder": "మందు తీసుకునే సమయం వచ్చినప్పుడు మీకు నోటిఫికేషన్ వస్తుంది.",
   "onboardingAfterItemRecord": "రికార్డులు భద్రంగా ఉంటాయి, వెంటనే తనిఖీ చేసుకోవచ్చు",
-  "onboardingAfterItemFamily": "మీ కుటుంబ సభ్యుల మందులు తీసుకునే స్థితిని కూడా ఒక్క చూపులో చూడండి"
+  "onboardingAfterItemFamily": "మీ కుటుంబ సభ్యుల మందులు తీసుకునే స్థితిని కూడా ఒక్క చూపులో చూడండి",
+  "onboardingGoalTitle": "మీ లక్ష్యాన్ని నిర్ణయించండి"
 }

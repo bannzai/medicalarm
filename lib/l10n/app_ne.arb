@@ -269,5 +269,6 @@
   "onboardingBeforeItemFamily": "सम्पूर्ण परिवारका औषधिको विवरण राख्न सकिँदैन",
   "onboardingAfterItemReminder": "औषधि खाने समय हुँदा तपाईंले सूचना पाउनुहुनेछ।",
   "onboardingAfterItemRecord": "रेकर्ड सुरक्षित रहन्छन् र तुरुन्तै जाँच्न सकिन्छ",
-  "onboardingAfterItemFamily": "आफ्नो परिवारका सदस्यहरूको औषधि सेवनको अवस्था पनि एकै नजरमा हेर्नुहोस्"
+  "onboardingAfterItemFamily": "आफ्नो परिवारका सदस्यहरूको औषधि सेवनको अवस्था पनि एकै नजरमा हेर्नुहोस्",
+  "onboardingGoalTitle": "आफ्नो लक्ष्य तय गर्नुहोस्"
 }

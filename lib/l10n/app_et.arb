@@ -269,5 +269,6 @@
   "onboardingBeforeItemFamily": "Ei suuda kogu pere ravimite üle arvet pidada",
   "onboardingAfterItemReminder": "Saad teate, kui on aeg ravimit võtta.",
   "onboardingAfterItemRecord": "Andmed salvestatakse ja neid saab kohe kontrollida",
-  "onboardingAfterItemFamily": "Näe ka oma pereliikmete ravimite võtmise staatust ühe pilguga"
+  "onboardingAfterItemFamily": "Näe ka oma pereliikmete ravimite võtmise staatust ühe pilguga",
+  "onboardingGoalTitle": "Sea oma eesmärk"
 }

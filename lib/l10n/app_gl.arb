@@ -269,5 +269,6 @@
   "onboardingBeforeItemFamily": "Non podo controlar a medicación de toda a familia",
   "onboardingAfterItemReminder": "Recibirás unha notificación cando sexa a hora de tomar o teu medicamento.",
   "onboardingAfterItemRecord": "Os rexistros gárdanse e pódense consultar de inmediato",
-  "onboardingAfterItemFamily": "Consulta dunha ollada o estado da medicación da túa familia"
+  "onboardingAfterItemFamily": "Consulta dunha ollada o estado da medicación da túa familia",
+  "onboardingGoalTitle": "Define o teu obxectivo"
 }
