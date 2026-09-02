@@ -251,5 +251,6 @@
   "onboardingCareTargetSubtitle": "Napravit ćemo plan na osnovu vaših odgovora",
   "onboardingCareTargetSelf": "Sebe",
   "onboardingCareTargetFamily": "Porodica",
-  "onboardingCareTargetSelfAndFamily": "Ja i moja porodica"
+  "onboardingCareTargetSelfAndFamily": "Ja i moja porodica",
+  "onboardingDailyDoseCountTitle": "Koliko puta dnevno uzimate lijek?"
 }

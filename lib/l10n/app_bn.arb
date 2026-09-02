@@ -251,5 +251,6 @@
   "onboardingCareTargetSubtitle": "আপনার উত্তরের ভিত্তিতে আমরা একটি পরিকল্পনা তৈরি করব",
   "onboardingCareTargetSelf": "নিজের জন্য",
   "onboardingCareTargetFamily": "পরিবার",
-  "onboardingCareTargetSelfAndFamily": "আমি ও আমার পরিবার"
+  "onboardingCareTargetSelfAndFamily": "আমি ও আমার পরিবার",
+  "onboardingDailyDoseCountTitle": "আপনি দিনে কতবার ওষুধ নেন?"
 }

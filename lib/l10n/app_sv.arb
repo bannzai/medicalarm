@@ -251,5 +251,6 @@
   "onboardingCareTargetSubtitle": "Vi skapar en plan utifrån dina svar",
   "onboardingCareTargetSelf": "Mig själv",
   "onboardingCareTargetFamily": "Familj",
-  "onboardingCareTargetSelfAndFamily": "Jag och min familj"
+  "onboardingCareTargetSelfAndFamily": "Jag och min familj",
+  "onboardingDailyDoseCountTitle": "Hur många gånger om dagen tar du medicin?"
 }

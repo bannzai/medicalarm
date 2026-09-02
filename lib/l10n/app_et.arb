@@ -251,5 +251,6 @@
   "onboardingCareTargetSubtitle": "Koostame sinu vastuste põhjal plaani",
   "onboardingCareTargetSelf": "Endale",
   "onboardingCareTargetFamily": "Perekond",
-  "onboardingCareTargetSelfAndFamily": "Mina ja mu pere"
+  "onboardingCareTargetSelfAndFamily": "Mina ja mu pere",
+  "onboardingDailyDoseCountTitle": "Mitu korda päevas te ravimeid võtate?"
 }

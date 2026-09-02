@@ -251,5 +251,6 @@
   "onboardingCareTargetSubtitle": "Θα δημιουργήσουμε ένα σχέδιο με βάση τις απαντήσεις σας",
   "onboardingCareTargetSelf": "Για εμένα",
   "onboardingCareTargetFamily": "Οικογένεια",
-  "onboardingCareTargetSelfAndFamily": "Εγώ και η οικογένειά μου"
+  "onboardingCareTargetSelfAndFamily": "Εγώ και η οικογένειά μου",
+  "onboardingDailyDoseCountTitle": "Πόσες φορές την ημέρα παίρνετε φάρμακα;"
 }

@@ -251,5 +251,6 @@
   "onboardingCareTargetSubtitle": "Javoblaringiz asosida reja tuzamiz",
   "onboardingCareTargetSelf": "O‘zim uchun",
   "onboardingCareTargetFamily": "Oila",
-  "onboardingCareTargetSelfAndFamily": "Men va oilam"
+  "onboardingCareTargetSelfAndFamily": "Men va oilam",
+  "onboardingDailyDoseCountTitle": "Kuniga necha marta dori qabul qilasiz?"
 }

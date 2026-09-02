@@ -251,5 +251,6 @@
   "onboardingCareTargetSubtitle": "Yanıtlarınıza göre bir plan oluşturacağız",
   "onboardingCareTargetSelf": "Kendim",
   "onboardingCareTargetFamily": "Aile",
-  "onboardingCareTargetSelfAndFamily": "Ben ve ailem"
+  "onboardingCareTargetSelfAndFamily": "Ben ve ailem",
+  "onboardingDailyDoseCountTitle": "Günde kaç kez ilaç alıyorsunuz?"
 }

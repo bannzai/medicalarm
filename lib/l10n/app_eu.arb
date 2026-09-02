@@ -251,5 +251,6 @@
   "onboardingCareTargetSubtitle": "Zure erantzunen arabera plana sortuko dugu",
   "onboardingCareTargetSelf": "Niretzat",
   "onboardingCareTargetFamily": "Familia",
-  "onboardingCareTargetSelfAndFamily": "Ni eta nire familia"
+  "onboardingCareTargetSelfAndFamily": "Ni eta nire familia",
+  "onboardingDailyDoseCountTitle": "Egunean zenbat aldiz hartzen duzu botika?"
 }

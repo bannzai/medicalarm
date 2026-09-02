@@ -251,5 +251,6 @@
   "onboardingCareTargetSubtitle": "답변에 맞춰 계획을 세워 드립니다",
   "onboardingCareTargetSelf": "나",
   "onboardingCareTargetFamily": "가족",
-  "onboardingCareTargetSelfAndFamily": "나와 가족"
+  "onboardingCareTargetSelfAndFamily": "나와 가족",
+  "onboardingDailyDoseCountTitle": "하루에 몇 번 약을 복용하시나요?"
 }

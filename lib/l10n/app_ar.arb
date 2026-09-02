@@ -251,5 +251,6 @@
   "onboardingCareTargetSubtitle": "سنضع خطة بناءً على إجاباتك",
   "onboardingCareTargetSelf": "لنفسي",
   "onboardingCareTargetFamily": "العائلة",
-  "onboardingCareTargetSelfAndFamily": "أنا وعائلتي"
+  "onboardingCareTargetSelfAndFamily": "أنا وعائلتي",
+  "onboardingDailyDoseCountTitle": "كم مرة تتناول الدواء يوميًا؟"
 }

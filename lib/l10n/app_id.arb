@@ -251,5 +251,6 @@
   "onboardingCareTargetSubtitle": "Kami akan membuat rencana berdasarkan jawaban Anda",
   "onboardingCareTargetSelf": "Diri sendiri",
   "onboardingCareTargetFamily": "Keluarga",
-  "onboardingCareTargetSelfAndFamily": "Saya dan keluarga"
+  "onboardingCareTargetSelfAndFamily": "Saya dan keluarga",
+  "onboardingDailyDoseCountTitle": "Berapa kali sehari Anda minum obat?"
 }

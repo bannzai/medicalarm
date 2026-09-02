@@ -251,5 +251,6 @@
   "onboardingCareTargetSubtitle": "ພວກເຮົາຈະສ້າງແຜນຕາມຄຳຕອບຂອງທ່ານ",
   "onboardingCareTargetSelf": "ສຳລັບຕົນເອງ",
   "onboardingCareTargetFamily": "ຄອບຄົວ",
-  "onboardingCareTargetSelfAndFamily": "ຂ້ອຍ ແລະ ຄອບຄົວຂອງຂ້ອຍ"
+  "onboardingCareTargetSelfAndFamily": "ຂ້ອຍ ແລະ ຄອບຄົວຂອງຂ້ອຍ",
+  "onboardingDailyDoseCountTitle": "ທ່ານກິນຢາມື້ລະຈັກເທື່ອ?"
 }

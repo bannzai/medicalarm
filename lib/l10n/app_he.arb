@@ -251,5 +251,6 @@
   "onboardingCareTargetSubtitle": "ניצור תוכנית בהתאם לתשובות שלך",
   "onboardingCareTargetSelf": "לעצמי",
   "onboardingCareTargetFamily": "משפחה",
-  "onboardingCareTargetSelfAndFamily": "אני ומשפחתי"
+  "onboardingCareTargetSelfAndFamily": "אני ומשפחתי",
+  "onboardingDailyDoseCountTitle": "כמה פעמים ביום אתם נוטלים תרופות?"
 }

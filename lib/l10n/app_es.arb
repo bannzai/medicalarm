@@ -251,5 +251,6 @@
   "onboardingCareTargetSubtitle": "Crearemos un plan según tus respuestas",
   "onboardingCareTargetSelf": "Para mí",
   "onboardingCareTargetFamily": "Familia",
-  "onboardingCareTargetSelfAndFamily": "Yo y mi familia"
+  "onboardingCareTargetSelfAndFamily": "Yo y mi familia",
+  "onboardingDailyDoseCountTitle": "¿Cuántas veces al día tomas medicamentos?"
 }

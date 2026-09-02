@@ -251,5 +251,6 @@
   "onboardingCareTargetSubtitle": "Laadimme vastaustesi perusteella suunnitelman",
   "onboardingCareTargetSelf": "Itselleni",
   "onboardingCareTargetFamily": "Perhe",
-  "onboardingCareTargetSelfAndFamily": "Minä ja perheeni"
+  "onboardingCareTargetSelfAndFamily": "Minä ja perheeni",
+  "onboardingDailyDoseCountTitle": "Kuinka monta kertaa päivässä otat lääkettä?"
 }

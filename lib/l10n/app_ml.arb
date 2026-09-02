@@ -251,5 +251,6 @@
   "onboardingCareTargetSubtitle": "നിങ്ങളുടെ ഉത്തരങ്ങളെ അടിസ്ഥാനമാക്കി ഞങ്ങൾ ഒരു പദ്ധതി തയ്യാറാക്കും",
   "onboardingCareTargetSelf": "എനിക്കായി",
   "onboardingCareTargetFamily": "കുടുംബം",
-  "onboardingCareTargetSelfAndFamily": "ഞാനും എന്റെ കുടുംബവും"
+  "onboardingCareTargetSelfAndFamily": "ഞാനും എന്റെ കുടുംബവും",
+  "onboardingDailyDoseCountTitle": "ദിവസത്തിൽ എത്ര തവണ നിങ്ങൾ മരുന്ന് കഴിക്കുന്നു?"
 }

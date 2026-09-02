@@ -251,5 +251,6 @@
   "onboardingCareTargetSubtitle": "Við búum til áætlun út frá svörunum þínum",
   "onboardingCareTargetSelf": "Fyrir mig",
   "onboardingCareTargetFamily": "Fjölskylda",
-  "onboardingCareTargetSelfAndFamily": "Ég og fjölskylda mín"
+  "onboardingCareTargetSelfAndFamily": "Ég og fjölskylda mín",
+  "onboardingDailyDoseCountTitle": "Hversu oft á dag tekur þú lyf?"
 }

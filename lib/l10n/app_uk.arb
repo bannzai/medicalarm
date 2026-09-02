@@ -251,5 +251,6 @@
   "onboardingCareTargetSubtitle": "Ми складемо план на основі ваших відповідей",
   "onboardingCareTargetSelf": "Для себе",
   "onboardingCareTargetFamily": "Сім’я",
-  "onboardingCareTargetSelfAndFamily": "Я і моя сім’я"
+  "onboardingCareTargetSelfAndFamily": "Я і моя сім’я",
+  "onboardingDailyDoseCountTitle": "Скільки разів на день ви приймаєте ліки?"
 }

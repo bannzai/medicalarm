@@ -251,5 +251,6 @@
   "onboardingCareTargetSubtitle": "بر اساس پاسخ‌های شما یک برنامه ایجاد می‌کنیم",
   "onboardingCareTargetSelf": "برای خودم",
   "onboardingCareTargetFamily": "خانواده",
-  "onboardingCareTargetSelfAndFamily": "من و خانواده‌ام"
+  "onboardingCareTargetSelfAndFamily": "من و خانواده‌ام",
+  "onboardingDailyDoseCountTitle": "روزی چند بار دارو مصرف می‌کنید؟"
 }

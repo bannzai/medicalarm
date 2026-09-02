@@ -251,5 +251,6 @@
   "onboardingCareTargetSubtitle": "Таны хариултад үндэслэн төлөвлөгөө гаргана",
   "onboardingCareTargetSelf": "Өөртөө",
   "onboardingCareTargetFamily": "Гэр бүл",
-  "onboardingCareTargetSelfAndFamily": "Би болон миний гэр бүл"
+  "onboardingCareTargetSelfAndFamily": "Би болон миний гэр бүл",
+  "onboardingDailyDoseCountTitle": "Та өдөрт хэдэн удаа эм уудаг вэ?"
 }
