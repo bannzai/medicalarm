@@ -220,5 +220,6 @@
   "linkWithGoogle": "Hisobni Google orqali ko‘chirish",
   "accountLinkedWithApple": "Apple bilan bog‘langan",
   "accountLinkedWithGoogle": "Google bilan bog‘langan",
-  "accountLinkedSnackbar": "Hisob ko‘chirildi"
+  "accountLinkedSnackbar": "Hisob ko‘chirildi",
+  "accountLinkBannerText": "Guruhni ulashayotganingizda, hisobni ko‘chirishni sozlashni qat’iy tavsiya qilamiz."
 }

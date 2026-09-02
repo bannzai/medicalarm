@@ -220,5 +220,6 @@
   "linkWithGoogle": "Google দিয়ে অ্যাকাউন্ট স্থানান্তর করুন",
   "accountLinkedWithApple": "Apple-এর সাথে লিঙ্ক করা হয়েছে",
   "accountLinkedWithGoogle": "Google-এর সঙ্গে সংযুক্ত",
-  "accountLinkedSnackbar": "অ্যাকাউন্ট স্থানান্তর করা হয়েছে"
+  "accountLinkedSnackbar": "অ্যাকাউন্ট স্থানান্তর করা হয়েছে",
+  "accountLinkBannerText": "গ্রুপ শেয়ার করার সময় অ্যাকাউন্ট স্থানান্তর সেটিংস সেট আপ করার জন্য আমরা জোরালোভাবে পরামর্শ দিই।"
 }

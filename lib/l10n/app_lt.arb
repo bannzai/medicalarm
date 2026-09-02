@@ -220,5 +220,6 @@
   "linkWithGoogle": "Perkelti paskyrą naudojant „Google“",
   "accountLinkedWithApple": "Susieta su Apple",
   "accountLinkedWithGoogle": "Susieta su „Google“",
-  "accountLinkedSnackbar": "Paskyra perkelta"
+  "accountLinkedSnackbar": "Paskyra perkelta",
+  "accountLinkBannerText": "Bendrinant grupę primygtinai rekomenduojame nustatyti paskyros perkėlimą."
 }

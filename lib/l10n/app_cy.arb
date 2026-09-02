@@ -220,5 +220,6 @@
   "linkWithGoogle": "Trosglwyddo'r cyfrif gyda Google",
   "accountLinkedWithApple": "Wedi’i gysylltu ag Apple",
   "accountLinkedWithGoogle": "Wedi'i gysylltu â Google",
-  "accountLinkedSnackbar": "Trosglwyddwyd y cyfrif"
+  "accountLinkedSnackbar": "Trosglwyddwyd y cyfrif",
+  "accountLinkBannerText": "Wrth rannu grŵp, rydym yn argymell yn gryf eich bod yn sefydlu trosglwyddo cyfrif."
 }

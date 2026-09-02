@@ -220,5 +220,6 @@
   "linkWithGoogle": "გადაიტანეთ ანგარიში Google-ით",
   "accountLinkedWithApple": "დაკავშირებულია Apple-თან",
   "accountLinkedWithGoogle": "დაკავშირებულია Google-თან",
-  "accountLinkedSnackbar": "ანგარიში გადმოიტანეს"
+  "accountLinkedSnackbar": "ანგარიში გადმოიტანეს",
+  "accountLinkBannerText": "ჯგუფის გაზიარებისას გირჩევთ, აუცილებლად დააყენოთ ანგარიშის გადატანა."
 }

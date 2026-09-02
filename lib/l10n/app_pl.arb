@@ -220,5 +220,6 @@
   "linkWithGoogle": "Przenieś konto za pomocą Google",
   "accountLinkedWithApple": "Połączono z Apple",
   "accountLinkedWithGoogle": "Połączono z Google",
-  "accountLinkedSnackbar": "Konto zostało przeniesione"
+  "accountLinkedSnackbar": "Konto zostało przeniesione",
+  "accountLinkBannerText": "Podczas udostępniania grupy zdecydowanie zalecamy skonfigurowanie przenoszenia konta."
 }

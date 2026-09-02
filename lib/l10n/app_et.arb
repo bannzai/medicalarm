@@ -220,5 +220,6 @@
   "linkWithGoogle": "Kanna konto üle Google'i abil",
   "accountLinkedWithApple": "Apple’iga seotud",
   "accountLinkedWithGoogle": "Google'iga ühendatud",
-  "accountLinkedSnackbar": "Konto on üle kantud"
+  "accountLinkedSnackbar": "Konto on üle kantud",
+  "accountLinkBannerText": "Grupi jagamise ajal soovitame tungivalt seadistada konto ülekandmise."
 }

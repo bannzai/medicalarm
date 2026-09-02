@@ -220,5 +220,6 @@
   "linkWithGoogle": "Transférer le compte avec Google",
   "accountLinkedWithApple": "Lié à Apple",
   "accountLinkedWithGoogle": "Lié à Google",
-  "accountLinkedSnackbar": "Compte transféré"
+  "accountLinkedSnackbar": "Compte transféré",
+  "accountLinkBannerText": "Lorsque vous partagez un groupe, nous vous recommandons vivement de configurer le transfert du compte."
 }

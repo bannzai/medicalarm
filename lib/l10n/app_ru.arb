@@ -220,5 +220,6 @@
   "linkWithGoogle": "Перенести аккаунт с помощью Google",
   "accountLinkedWithApple": "Связано с Apple",
   "accountLinkedWithGoogle": "Связано с Google",
-  "accountLinkedSnackbar": "Аккаунт перенесён"
+  "accountLinkedSnackbar": "Аккаунт перенесён",
+  "accountLinkBannerText": "При совместном использовании группы настоятельно рекомендуем настроить перенос аккаунта."
 }

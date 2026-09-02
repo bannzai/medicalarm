@@ -220,5 +220,6 @@
   "linkWithGoogle": "Transferir a conta com o Google",
   "accountLinkedWithApple": "Associado à Apple",
   "accountLinkedWithGoogle": "Vinculado ao Google",
-  "accountLinkedSnackbar": "Conta transferida"
+  "accountLinkedSnackbar": "Conta transferida",
+  "accountLinkBannerText": "Ao partilhar um grupo, recomendamos vivamente que configure a transferência da conta."
 }

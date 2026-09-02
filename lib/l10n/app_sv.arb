@@ -220,5 +220,6 @@
   "linkWithGoogle": "Överför konto med Google",
   "accountLinkedWithApple": "Kopplat till Apple",
   "accountLinkedWithGoogle": "Länkat till Google",
-  "accountLinkedSnackbar": "Kontot har överförts"
+  "accountLinkedSnackbar": "Kontot har överförts",
+  "accountLinkBannerText": "När du delar en grupp rekommenderar vi starkt att du konfigurerar kontoöverföring."
 }

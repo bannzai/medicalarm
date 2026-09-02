@@ -220,5 +220,6 @@
   "linkWithGoogle": "Preniesť účet pomocou Googlu",
   "accountLinkedWithApple": "Prepojené s Apple",
   "accountLinkedWithGoogle": "Prepojené s Googlom",
-  "accountLinkedSnackbar": "Účet bol prenesený"
+  "accountLinkedSnackbar": "Účet bol prenesený",
+  "accountLinkBannerText": "Pri zdieľaní skupiny dôrazne odporúčame nastaviť prenos účtu."
 }

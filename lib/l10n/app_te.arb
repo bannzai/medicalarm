@@ -220,5 +220,6 @@
   "linkWithGoogle": "Googleతో ఖాతాను బదిలీ చేయండి",
   "accountLinkedWithApple": "Appleకి లింక్ చేయబడింది",
   "accountLinkedWithGoogle": "Googleకు లింక్ చేయబడింది",
-  "accountLinkedSnackbar": "ఖాతా బదిలీ చేయబడింది"
+  "accountLinkedSnackbar": "ఖాతా బదిలీ చేయబడింది",
+  "accountLinkBannerText": "గ్రూప్‌ను షేర్ చేస్తున్నప్పుడు, ఖాతా బదిలీని సెటప్ చేయాలని మేము గట్టిగా సిఫార్సు చేస్తున్నాము."
 }

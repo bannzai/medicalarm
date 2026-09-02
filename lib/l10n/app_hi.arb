@@ -220,5 +220,6 @@
   "linkWithGoogle": "Google से अकाउंट ट्रांसफ़र करें",
   "accountLinkedWithApple": "Apple से लिंक है",
   "accountLinkedWithGoogle": "Google से लिंक है",
-  "accountLinkedSnackbar": "अकाउंट ट्रांसफ़र हो गया"
+  "accountLinkedSnackbar": "अकाउंट ट्रांसफ़र हो गया",
+  "accountLinkBannerText": "ग्रुप शेयर करते समय, हम अकाउंट ट्रांसफ़र सेट अप करने की पुरज़ोर सलाह देते हैं।"
 }

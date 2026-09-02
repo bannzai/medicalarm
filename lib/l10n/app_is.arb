@@ -220,5 +220,6 @@
   "linkWithGoogle": "Flytja reikning með Google",
   "accountLinkedWithApple": "Tengt Apple",
   "accountLinkedWithGoogle": "Tengt við Google",
-  "accountLinkedSnackbar": "Reikningur fluttur"
+  "accountLinkedSnackbar": "Reikningur fluttur",
+  "accountLinkBannerText": "Þegar hópi er deilt mælum við eindregið með því að þú setjir upp flutning reiknings."
 }

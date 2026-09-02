@@ -220,5 +220,6 @@
   "linkWithGoogle": "Fiók átvitele a Google-lel",
   "accountLinkedWithApple": "Apple-höz kapcsolva",
   "accountLinkedWithGoogle": "Összekapcsolva a Google-lel",
-  "accountLinkedSnackbar": "A fiók átkerült"
+  "accountLinkedSnackbar": "A fiók átkerült",
+  "accountLinkBannerText": "Csoportmegosztás esetén nyomatékosan javasoljuk a fiókátvitel beállítását."
 }

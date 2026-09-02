@@ -220,5 +220,6 @@
   "linkWithGoogle": "Փոխանցել հաշիվը Google-ի միջոցով",
   "accountLinkedWithApple": "Կապված է Apple-ի հետ",
   "accountLinkedWithGoogle": "Կապված է Google-ի հետ",
-  "accountLinkedSnackbar": "Հաշիվը փոխանցվեց"
+  "accountLinkedSnackbar": "Հաշիվը փոխանցվեց",
+  "accountLinkBannerText": "Խմբով կիսվելու ընթացքում խստորեն խորհուրդ ենք տալիս կարգավորել հաշվի փոխանցումը։"
 }

@@ -220,5 +220,6 @@
   "linkWithGoogle": "使用 Google 转移账户",
   "accountLinkedWithApple": "已关联 Apple",
   "accountLinkedWithGoogle": "已关联 Google",
-  "accountLinkedSnackbar": "账号已迁移"
+  "accountLinkedSnackbar": "账号已迁移",
+  "accountLinkBannerText": "共享群组时，强烈建议您设置账号转移。"
 }

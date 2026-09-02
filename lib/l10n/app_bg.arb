@@ -220,5 +220,6 @@
   "linkWithGoogle": "Прехвърлете акаунта с Google",
   "accountLinkedWithApple": "Свързано с Apple",
   "accountLinkedWithGoogle": "Свързано с Google",
-  "accountLinkedSnackbar": "Акаунтът е прехвърлен"
+  "accountLinkedSnackbar": "Акаунтът е прехвърлен",
+  "accountLinkBannerText": "Докато споделяте група, горещо препоръчваме да настроите прехвърлянето на акаунта."
 }

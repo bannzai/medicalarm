@@ -220,5 +220,6 @@
   "linkWithGoogle": "Google erabiliz kontua transferitu",
   "accountLinkedWithApple": "Apple-rekin lotuta",
   "accountLinkedWithGoogle": "Google-rekin lotuta",
-  "accountLinkedSnackbar": "Kontua transferitu da"
+  "accountLinkedSnackbar": "Kontua transferitu da",
+  "accountLinkBannerText": "Talde bat partekatzen duzun bitartean, kontuaren transferentzia konfiguratzea gomendatzen dizugu."
 }

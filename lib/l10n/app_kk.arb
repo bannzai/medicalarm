@@ -220,5 +220,6 @@
   "linkWithGoogle": "Google арқылы есептік жазбаны ауыстыру",
   "accountLinkedWithApple": "Apple-мен байланыстырылған",
   "accountLinkedWithGoogle": "Google-мен байланыстырылды",
-  "accountLinkedSnackbar": "Тіркелгі ауыстырылды"
+  "accountLinkedSnackbar": "Тіркелгі ауыстырылды",
+  "accountLinkBannerText": "Топты ортақ пайдаланған кезде есептік жазбаны тасымалдауды баптауды қатаң ұсынамыз."
 }

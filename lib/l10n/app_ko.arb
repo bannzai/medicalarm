@@ -220,5 +220,6 @@
   "linkWithGoogle": "Google로 계정 이전하기",
   "accountLinkedWithApple": "Apple 연결됨",
   "accountLinkedWithGoogle": "Google 연동됨",
-  "accountLinkedSnackbar": "계정이 이전되었습니다"
+  "accountLinkedSnackbar": "계정이 이전되었습니다",
+  "accountLinkBannerText": "그룹을 공유하는 동안 계정 이전을 설정하는 것을 강력히 권장합니다."
 }

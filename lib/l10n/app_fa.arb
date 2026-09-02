@@ -220,5 +220,6 @@
   "linkWithGoogle": "انتقال حساب با Google",
   "accountLinkedWithApple": "به Apple متصل است",
   "accountLinkedWithGoogle": "به Google متصل است",
-  "accountLinkedSnackbar": "حساب منتقل شد"
+  "accountLinkedSnackbar": "حساب منتقل شد",
+  "accountLinkBannerText": "هنگام اشتراک‌گذاری گروه، اکیداً توصیه می‌کنیم انتقال حساب را تنظیم کنید."
 }

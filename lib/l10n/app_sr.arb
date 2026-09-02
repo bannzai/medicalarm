@@ -220,5 +220,6 @@
   "linkWithGoogle": "Пренесите налог помоћу Google-а",
   "accountLinkedWithApple": "Повезано са Apple-ом",
   "accountLinkedWithGoogle": "Повезано са Google-ом",
-  "accountLinkedSnackbar": "Налог је пренет"
+  "accountLinkedSnackbar": "Налог је пренет",
+  "accountLinkBannerText": "Током дељења групе снажно препоручујемо да подесите пренос налога."
 }

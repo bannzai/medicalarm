@@ -220,5 +220,6 @@
   "linkWithGoogle": "Google மூலம் கணக்கை மாற்றவும்",
   "accountLinkedWithApple": "Apple உடன் இணைக்கப்பட்டுள்ளது",
   "accountLinkedWithGoogle": "Google உடன் இணைக்கப்பட்டது",
-  "accountLinkedSnackbar": "கணக்கு மாற்றப்பட்டது"
+  "accountLinkedSnackbar": "கணக்கு மாற்றப்பட்டது",
+  "accountLinkBannerText": "குழுவைப் பகிரும்போது, கணக்கு மாற்றத்தை அமைக்குமாறு நாங்கள் மிகவும் பரிந்துரைக்கிறோம்."
 }

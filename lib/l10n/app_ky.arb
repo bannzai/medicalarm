@@ -220,5 +220,6 @@
   "linkWithGoogle": "Каттоо эсебин Google аркылуу өткөрүү",
   "accountLinkedWithApple": "Apple менен байланыштырылды",
   "accountLinkedWithGoogle": "Google менен байланыштырылган",
-  "accountLinkedSnackbar": "Каттоо эсеби өткөрүлдү"
+  "accountLinkedSnackbar": "Каттоо эсеби өткөрүлдү",
+  "accountLinkBannerText": "Топту бөлүшүп жатканда, аккаунтту өткөрүп берүү жөндөөлөрүн орнотууну абдан сунуштайбыз."
 }

@@ -220,5 +220,6 @@
   "linkWithGoogle": "Перенести обліковий запис через Google",
   "accountLinkedWithApple": "Пов’язано з Apple",
   "accountLinkedWithGoogle": "Пов’язано з Google",
-  "accountLinkedSnackbar": "Обліковий запис перенесено"
+  "accountLinkedSnackbar": "Обліковий запис перенесено",
+  "accountLinkBannerText": "Під час спільного використання групи наполегливо рекомендуємо налаштувати перенесення облікового запису."
 }

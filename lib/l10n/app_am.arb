@@ -220,5 +220,6 @@
   "linkWithGoogle": "መለያዎን በGoogle ያስተላልፉ",
   "accountLinkedWithApple": "ከApple ጋር ተገናኝቷል",
   "accountLinkedWithGoogle": "ከGoogle ጋር ተገናኝቷል",
-  "accountLinkedSnackbar": "መለያው ተላልፏል"
+  "accountLinkedSnackbar": "መለያው ተላልፏል",
+  "accountLinkBannerText": "ቡድን በሚያጋሩበት ጊዜ የመለያ ማስተላለፊያ ቅንብርን እንዲያዘጋጁ በጥብቅ እንመክራለን።"
 }

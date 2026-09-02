@@ -220,5 +220,6 @@
   "linkWithGoogle": "Siirrä tili Googlella",
   "accountLinkedWithApple": "Yhdistetty Appleen",
   "accountLinkedWithGoogle": "Yhdistetty Googleen",
-  "accountLinkedSnackbar": "Tili siirretty"
+  "accountLinkedSnackbar": "Tili siirretty",
+  "accountLinkBannerText": "Kun jaat ryhmän, suosittelemme vahvasti tilin siirron määrittämistä."
 }

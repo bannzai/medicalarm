@@ -220,5 +220,6 @@
   "linkWithGoogle": "Μεταφορά λογαριασμού με Google",
   "accountLinkedWithApple": "Συνδεδεμένο με Apple",
   "accountLinkedWithGoogle": "Συνδεδεμένο με Google",
-  "accountLinkedSnackbar": "Ο λογαριασμός μεταφέρθηκε"
+  "accountLinkedSnackbar": "Ο λογαριασμός μεταφέρθηκε",
+  "accountLinkBannerText": "Κατά την κοινή χρήση μιας ομάδας, συνιστούμε ανεπιφύλακτα να ρυθμίσετε τη μεταφορά λογαριασμού."
 }

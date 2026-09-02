@@ -220,5 +220,6 @@
   "linkWithGoogle": "Prenesite račun pomoću Google-a",
   "accountLinkedWithApple": "Povezano s Appleom",
   "accountLinkedWithGoogle": "Povezano s Googleom",
-  "accountLinkedSnackbar": "Račun je prenesen"
+  "accountLinkedSnackbar": "Račun je prenesen",
+  "accountLinkBannerText": "Tokom dijeljenja grupe toplo preporučujemo da podesite prenos računa."
 }

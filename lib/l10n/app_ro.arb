@@ -220,5 +220,6 @@
   "linkWithGoogle": "Transferă contul cu Google",
   "accountLinkedWithApple": "Conectat la Apple",
   "accountLinkedWithGoogle": "Conectat la Google",
-  "accountLinkedSnackbar": "Cont transferat"
+  "accountLinkedSnackbar": "Cont transferat",
+  "accountLinkBannerText": "Atunci când partajați un grup, vă recomandăm insistent să configurați transferul contului."
 }

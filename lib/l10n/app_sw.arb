@@ -220,5 +220,6 @@
   "linkWithGoogle": "Hamisha akaunti kwa kutumia Google",
   "accountLinkedWithApple": "Imeunganishwa na Apple",
   "accountLinkedWithGoogle": "Imeunganishwa na Google",
-  "accountLinkedSnackbar": "Akaunti imehamishwa"
+  "accountLinkedSnackbar": "Akaunti imehamishwa",
+  "accountLinkBannerText": "Unaposhiriki kikundi, tunapendekeza sana uweke mipangilio ya kuhamisha akaunti."
 }
