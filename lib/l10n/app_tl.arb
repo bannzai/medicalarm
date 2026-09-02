@@ -215,5 +215,6 @@
   "join": "Sumali",
   "recordedByMember": "Itinala ni {name}",
   "accountLink": "Paglilipat ng account",
-  "accountLinkDescription": "Sa pagkonekta sa Apple o Google, maaari mong ilipat ang iyong data kahit magpalit ka ng device o muling i-install ang app."
+  "accountLinkDescription": "Sa pagkonekta sa Apple o Google, maaari mong ilipat ang iyong data kahit magpalit ka ng device o muling i-install ang app.",
+  "linkWithApple": "Ilipat ang account gamit ang Apple"
 }

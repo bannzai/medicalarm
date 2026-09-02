@@ -215,5 +215,6 @@
   "join": "Qo‘shilish",
   "recordedByMember": "{name} qayd etdi",
   "accountLink": "Hisobni ko‘chirish",
-  "accountLinkDescription": "Apple yoki Google bilan bog‘lasangiz, qurilmani almashtirgandan yoki ilovani qayta o‘rnatgandan keyin ham ma’lumotlaringizni ko‘chirishingiz mumkin."
+  "accountLinkDescription": "Apple yoki Google bilan bog‘lasangiz, qurilmani almashtirgandan yoki ilovani qayta o‘rnatgandan keyin ham ma’lumotlaringizni ko‘chirishingiz mumkin.",
+  "linkWithApple": "Hisobni Apple orqali o‘tkazing"
 }

@@ -215,5 +215,6 @@
   "join": "Alătură-te",
   "recordedByMember": "Înregistrat de {name}",
   "accountLink": "Transferul contului",
-  "accountLinkDescription": "Conectându-vă la Apple sau Google, vă puteți transfera datele chiar și după schimbarea dispozitivului sau reinstalarea aplicației."
+  "accountLinkDescription": "Conectându-vă la Apple sau Google, vă puteți transfera datele chiar și după schimbarea dispozitivului sau reinstalarea aplicației.",
+  "linkWithApple": "Transferă contul cu Apple"
 }

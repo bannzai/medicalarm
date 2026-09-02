@@ -215,5 +215,6 @@
   "join": "Bli med",
   "recordedByMember": "Registrert av {name}",
   "accountLink": "Kontooverføring",
-  "accountLinkDescription": "Når du kobler til Apple eller Google, kan du overføre dataene dine selv etter at du har byttet enhet eller installert appen på nytt."
+  "accountLinkDescription": "Når du kobler til Apple eller Google, kan du overføre dataene dine selv etter at du har byttet enhet eller installert appen på nytt.",
+  "linkWithApple": "Overfør konto med Apple"
 }

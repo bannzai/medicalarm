@@ -215,5 +215,6 @@
   "join": "Ymuno",
   "recordedByMember": "Cofnodwyd gan {name}",
   "accountLink": "Trosglwyddo cyfrif",
-  "accountLinkDescription": "Drwy gysylltu ag Apple neu Google, gallwch drosglwyddo’ch data hyd yn oed ar ôl newid dyfais neu ailosod yr ap."
+  "accountLinkDescription": "Drwy gysylltu ag Apple neu Google, gallwch drosglwyddo’ch data hyd yn oed ar ôl newid dyfais neu ailosod yr ap.",
+  "linkWithApple": "Trosglwyddo'r cyfrif gyda Apple"
 }

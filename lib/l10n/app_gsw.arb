@@ -215,5 +215,6 @@
   "join": "Biitrete",
   "recordedByMember": "Ufgzeichnet vo {name}",
   "accountLink": "Kontoübertragung",
-  "accountLinkDescription": "Wenn Sie Apple oder Google verknüpfe, chönd Sie Ihre Date au nach eme Gerätewechsel oder ere Neuinstallation vo de App überneh."
+  "accountLinkDescription": "Wenn Sie Apple oder Google verknüpfe, chönd Sie Ihre Date au nach eme Gerätewechsel oder ere Neuinstallation vo de App überneh.",
+  "linkWithApple": "Konto mit Apple übertragen"
 }

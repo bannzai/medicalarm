@@ -215,5 +215,6 @@
   "join": "Připojit se",
   "recordedByMember": "Zaznamenal(a) {name}",
   "accountLink": "Přenos účtu",
-  "accountLinkDescription": "Po propojení s Apple nebo Google můžete svá data přenést i po změně zařízení nebo opětovné instalaci aplikace."
+  "accountLinkDescription": "Po propojení s Apple nebo Google můžete svá data přenést i po změně zařízení nebo opětovné instalaci aplikace.",
+  "linkWithApple": "Převést účet pomocí Apple"
 }

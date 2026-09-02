@@ -215,5 +215,6 @@
   "join": "Jiunge",
   "recordedByMember": "Imerekodiwa na {name}",
   "accountLink": "Kuhamisha akaunti",
-  "accountLinkDescription": "Kwa kuunganisha na Apple au Google, unaweza kuhamisha data zako hata baada ya kubadilisha kifaa au kusakinisha upya programu."
+  "accountLinkDescription": "Kwa kuunganisha na Apple au Google, unaweza kuhamisha data zako hata baada ya kubadilisha kifaa au kusakinisha upya programu.",
+  "linkWithApple": "Hamisha akaunti kwa Apple"
 }

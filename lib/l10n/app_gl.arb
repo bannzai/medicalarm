@@ -215,5 +215,6 @@
   "join": "Unirse",
   "recordedByMember": "Rexistrado por {name}",
   "accountLink": "Transferencia da conta",
-  "accountLinkDescription": "Ao vincularte con Apple ou Google, poderás transferir os teus datos mesmo despois de cambiar de dispositivo ou reinstalar a aplicación."
+  "accountLinkDescription": "Ao vincularte con Apple ou Google, poderás transferir os teus datos mesmo despois de cambiar de dispositivo ou reinstalar a aplicación.",
+  "linkWithApple": "Transferir a conta con Apple"
 }

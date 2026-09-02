@@ -215,5 +215,6 @@
   "join": "Katıl",
   "recordedByMember": "{name} tarafından kaydedildi",
   "accountLink": "Hesap aktarımı",
-  "accountLinkDescription": "Apple veya Google'a bağlanarak cihazınızı değiştirdikten veya uygulamayı yeniden yükledikten sonra da verilerinizi aktarabilirsiniz."
+  "accountLinkDescription": "Apple veya Google'a bağlanarak cihazınızı değiştirdikten veya uygulamayı yeniden yükledikten sonra da verilerinizi aktarabilirsiniz.",
+  "linkWithApple": "Apple ile hesabı aktarın"
 }

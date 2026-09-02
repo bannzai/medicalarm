@@ -215,5 +215,6 @@
   "join": "Liity",
   "recordedByMember": "{name} kirjasi",
   "accountLink": "Tilin siirto",
-  "accountLinkDescription": "Yhdistämällä Appleen tai Googleen voit siirtää tietosi myös laitteen vaihtamisen tai sovelluksen uudelleenasennuksen jälkeen."
+  "accountLinkDescription": "Yhdistämällä Appleen tai Googleen voit siirtää tietosi myös laitteen vaihtamisen tai sovelluksen uudelleenasennuksen jälkeen.",
+  "linkWithApple": "Siirrä tili Applella"
 }

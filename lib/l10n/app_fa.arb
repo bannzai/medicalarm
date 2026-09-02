@@ -215,5 +215,6 @@
   "join": "پیوستن",
   "recordedByMember": "ثبت‌شده توسط {name}",
   "accountLink": "انتقال حساب",
-  "accountLinkDescription": "با اتصال به Apple یا Google، می‌توانید حتی پس از تعویض دستگاه یا نصب مجدد برنامه، داده‌های خود را منتقل کنید."
+  "accountLinkDescription": "با اتصال به Apple یا Google، می‌توانید حتی پس از تعویض دستگاه یا نصب مجدد برنامه، داده‌های خود را منتقل کنید.",
+  "linkWithApple": "انتقال حساب با Apple"
 }

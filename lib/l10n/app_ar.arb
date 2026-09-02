@@ -215,5 +215,6 @@
   "join": "انضمام",
   "recordedByMember": "سجّله {name}",
   "accountLink": "نقل الحساب",
-  "accountLinkDescription": "عند ربط حسابك بـ Apple أو Google، يمكنك نقل بياناتك حتى بعد تغيير الجهاز أو إعادة تثبيت التطبيق."
+  "accountLinkDescription": "عند ربط حسابك بـ Apple أو Google، يمكنك نقل بياناتك حتى بعد تغيير الجهاز أو إعادة تثبيت التطبيق.",
+  "linkWithApple": "نقل الحساب باستخدام Apple"
 }

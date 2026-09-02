@@ -215,5 +215,6 @@
   "join": "Pievienoties",
   "recordedByMember": "Ierakstīja {name}",
   "accountLink": "Konta pārsūtīšana",
-  "accountLinkDescription": "Savienojot ar Apple vai Google, varēsiet pārsūtīt savus datus arī pēc ierīces maiņas vai lietotnes atkārtotas instalēšanas."
+  "accountLinkDescription": "Savienojot ar Apple vai Google, varēsiet pārsūtīt savus datus arī pēc ierīces maiņas vai lietotnes atkārtotas instalēšanas.",
+  "linkWithApple": "Pārsūtīt kontu, izmantojot Apple"
 }

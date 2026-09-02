@@ -215,5 +215,6 @@
   "join": "Rejoindre",
   "recordedByMember": "Enregistré par {name}",
   "accountLink": "Transfert de compte",
-  "accountLinkDescription": "En associant votre compte à Apple ou Google, vous pouvez récupérer vos données même après avoir changé d’appareil ou réinstallé l’application."
+  "accountLinkDescription": "En associant votre compte à Apple ou Google, vous pouvez récupérer vos données même après avoir changé d’appareil ou réinstallé l’application.",
+  "linkWithApple": "Transférer le compte avec Apple"
 }

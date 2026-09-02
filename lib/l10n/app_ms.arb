@@ -215,5 +215,6 @@
   "join": "Sertai",
   "recordedByMember": "Direkodkan oleh {name}",
   "accountLink": "Pemindahan akaun",
-  "accountLinkDescription": "Dengan memautkan Apple atau Google, anda boleh memindahkan data anda walaupun selepas menukar peranti atau memasang semula apl."
+  "accountLinkDescription": "Dengan memautkan Apple atau Google, anda boleh memindahkan data anda walaupun selepas menukar peranti atau memasang semula apl.",
+  "linkWithApple": "Pindahkan akaun dengan Apple"
 }

@@ -215,5 +215,6 @@
   "join": "Qoşulun",
   "recordedByMember": "{name} tərəfindən qeyd edilib",
   "accountLink": "Hesabın köçürülməsi",
-  "accountLinkDescription": "Apple və ya Google ilə əlaqə yaratdıqda, cihazınızı dəyişdikdən və ya tətbiqi yenidən quraşdırdıqdan sonra da məlumatlarınızı köçürə bilərsiniz."
+  "accountLinkDescription": "Apple və ya Google ilə əlaqə yaratdıqda, cihazınızı dəyişdikdən və ya tətbiqi yenidən quraşdırdıqdan sonra da məlumatlarınızı köçürə bilərsiniz.",
+  "linkWithApple": "Hesabı Apple ilə köçürün"
 }

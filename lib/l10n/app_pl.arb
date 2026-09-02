@@ -215,5 +215,6 @@
   "join": "Dołącz",
   "recordedByMember": "Zapisane przez {name}",
   "accountLink": "Przeniesienie konta",
-  "accountLinkDescription": "Po połączeniu z Apple lub Google możesz przenieść swoje dane nawet po zmianie urządzenia lub ponownym zainstalowaniu aplikacji."
+  "accountLinkDescription": "Po połączeniu z Apple lub Google możesz przenieść swoje dane nawet po zmianie urządzenia lub ponownym zainstalowaniu aplikacji.",
+  "linkWithApple": "Przenieś konto za pomocą Apple"
 }
