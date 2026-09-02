@@ -254,5 +254,6 @@
   "onboardingCareTargetSelfAndFamily": "Јас и моето семејство",
   "onboardingDailyDoseCountTitle": "Колку пати дневно земате лекови?",
   "onboardingDailyDoseCountSubtitle": "Се користи за одредување на бројот на известувања.",
-  "onboardingDailyDoseOnce": "Еднаш"
+  "onboardingDailyDoseOnce": "Еднаш",
+  "onboardingDailyDoseTwice": "2 пати"
 }

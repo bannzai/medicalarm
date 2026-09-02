@@ -254,5 +254,6 @@
   "onboardingCareTargetSelfAndFamily": "Saya dan keluarga",
   "onboardingDailyDoseCountTitle": "Berapa kali sehari anda mengambil ubat?",
   "onboardingDailyDoseCountSubtitle": "Digunakan untuk menentukan bilangan pemberitahuan.",
-  "onboardingDailyDoseOnce": "Sekali"
+  "onboardingDailyDoseOnce": "Sekali",
+  "onboardingDailyDoseTwice": "2 kali"
 }

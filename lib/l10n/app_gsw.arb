@@ -254,5 +254,6 @@
   "onboardingCareTargetSelfAndFamily": "Ich und mini Familie",
   "onboardingDailyDoseCountTitle": "Wie oft pro Tag nehmen Sie Medikamente ein?",
   "onboardingDailyDoseCountSubtitle": "Wird verwendet, um die Anzahl der Benachrichtigungen festzulegen.",
-  "onboardingDailyDoseOnce": "Einmal"
+  "onboardingDailyDoseOnce": "Einmal",
+  "onboardingDailyDoseTwice": "2-mal"
 }

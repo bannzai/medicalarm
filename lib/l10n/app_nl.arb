@@ -254,5 +254,6 @@
   "onboardingCareTargetSelfAndFamily": "Ik en mijn familie",
   "onboardingDailyDoseCountTitle": "Hoe vaak per dag neemt u medicijnen in?",
   "onboardingDailyDoseCountSubtitle": "Wordt gebruikt om het aantal meldingen te bepalen.",
-  "onboardingDailyDoseOnce": "Een keer"
+  "onboardingDailyDoseOnce": "Een keer",
+  "onboardingDailyDoseTwice": "2 keer"
 }

@@ -254,5 +254,6 @@
   "onboardingCareTargetSelfAndFamily": "Я і моя сім’я",
   "onboardingDailyDoseCountTitle": "Скільки разів на день ви приймаєте ліки?",
   "onboardingDailyDoseCountSubtitle": "Використовується для визначення кількості сповіщень.",
-  "onboardingDailyDoseOnce": "Один раз"
+  "onboardingDailyDoseOnce": "Один раз",
+  "onboardingDailyDoseTwice": "2 рази"
 }

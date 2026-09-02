@@ -254,5 +254,6 @@
   "onboardingCareTargetSelfAndFamily": "Já a moje rodina",
   "onboardingDailyDoseCountTitle": "Kolikrát denně užíváte léky?",
   "onboardingDailyDoseCountSubtitle": "Slouží k určení počtu oznámení.",
-  "onboardingDailyDoseOnce": "Jednou"
+  "onboardingDailyDoseOnce": "Jednou",
+  "onboardingDailyDoseTwice": "2krát"
 }

@@ -254,5 +254,6 @@
   "onboardingCareTargetSelfAndFamily": "Εγώ και η οικογένειά μου",
   "onboardingDailyDoseCountTitle": "Πόσες φορές την ημέρα παίρνετε φάρμακα;",
   "onboardingDailyDoseCountSubtitle": "Χρησιμοποιείται για τον καθορισμό του αριθμού των ειδοποιήσεων.",
-  "onboardingDailyDoseOnce": "Μία φορά"
+  "onboardingDailyDoseOnce": "Μία φορά",
+  "onboardingDailyDoseTwice": "2 φορές"
 }

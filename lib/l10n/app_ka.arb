@@ -254,5 +254,6 @@
   "onboardingCareTargetSelfAndFamily": "მე და ჩემი ოჯახი",
   "onboardingDailyDoseCountTitle": "დღეში რამდენჯერ იღებთ წამალს?",
   "onboardingDailyDoseCountSubtitle": "გამოიყენება შეტყობინებების რაოდენობის დასადგენად.",
-  "onboardingDailyDoseOnce": "ერთხელ"
+  "onboardingDailyDoseOnce": "ერთხელ",
+  "onboardingDailyDoseTwice": "2-ჯერ"
 }

@@ -254,5 +254,6 @@
   "onboardingCareTargetSelfAndFamily": "ฉันและครอบครัว",
   "onboardingDailyDoseCountTitle": "คุณรับประทานยาวันละกี่ครั้ง",
   "onboardingDailyDoseCountSubtitle": "ใช้เพื่อกำหนดจำนวนการแจ้งเตือน",
-  "onboardingDailyDoseOnce": "1 ครั้ง"
+  "onboardingDailyDoseOnce": "1 ครั้ง",
+  "onboardingDailyDoseTwice": "2 ครั้ง"
 }

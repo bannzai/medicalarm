@@ -254,5 +254,6 @@
   "onboardingCareTargetSelfAndFamily": "Mina ja mu pere",
   "onboardingDailyDoseCountTitle": "Mitu korda päevas te ravimeid võtate?",
   "onboardingDailyDoseCountSubtitle": "Kasutatakse märguannete arvu määramiseks.",
-  "onboardingDailyDoseOnce": "Üks kord"
+  "onboardingDailyDoseOnce": "Üks kord",
+  "onboardingDailyDoseTwice": "2 korda"
 }

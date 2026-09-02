@@ -254,5 +254,6 @@
   "onboardingCareTargetSelfAndFamily": "Ես և իմ ընտանիքը",
   "onboardingDailyDoseCountTitle": "Օրական քանի՞ անգամ եք դեղ ընդունում։",
   "onboardingDailyDoseCountSubtitle": "Օգտագործվում է ծանուցումների քանակը որոշելու համար։",
-  "onboardingDailyDoseOnce": "Մեկ անգամ"
+  "onboardingDailyDoseOnce": "Մեկ անգամ",
+  "onboardingDailyDoseTwice": "2 անգամ"
 }

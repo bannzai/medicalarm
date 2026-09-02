@@ -254,5 +254,6 @@
   "onboardingCareTargetSelfAndFamily": "Ni eta nire familia",
   "onboardingDailyDoseCountTitle": "Egunean zenbat aldiz hartzen duzu botika?",
   "onboardingDailyDoseCountSubtitle": "Jakinarazpen kopurua zehazteko erabiltzen da.",
-  "onboardingDailyDoseOnce": "Behin"
+  "onboardingDailyDoseOnce": "Behin",
+  "onboardingDailyDoseTwice": "2 aldiz"
 }

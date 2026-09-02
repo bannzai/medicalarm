@@ -254,5 +254,6 @@
   "onboardingCareTargetSelfAndFamily": "Jaz in moja družina",
   "onboardingDailyDoseCountTitle": "Kolikokrat na dan jemljete zdravila?",
   "onboardingDailyDoseCountSubtitle": "Uporablja se za določanje števila obvestil.",
-  "onboardingDailyDoseOnce": "Enkrat"
+  "onboardingDailyDoseOnce": "Enkrat",
+  "onboardingDailyDoseTwice": "2-krat"
 }

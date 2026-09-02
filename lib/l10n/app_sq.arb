@@ -254,5 +254,6 @@
   "onboardingCareTargetSelfAndFamily": "Unë dhe familja ime",
   "onboardingDailyDoseCountTitle": "Sa herë në ditë merrni ilaçe?",
   "onboardingDailyDoseCountSubtitle": "Përdoret për të përcaktuar numrin e njoftimeve.",
-  "onboardingDailyDoseOnce": "Një herë"
+  "onboardingDailyDoseOnce": "Një herë",
+  "onboardingDailyDoseTwice": "2 herë"
 }

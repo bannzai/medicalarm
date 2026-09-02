@@ -254,5 +254,6 @@
   "onboardingCareTargetSelfAndFamily": "Saya dan keluarga",
   "onboardingDailyDoseCountTitle": "Berapa kali sehari Anda minum obat?",
   "onboardingDailyDoseCountSubtitle": "Digunakan untuk menentukan jumlah notifikasi.",
-  "onboardingDailyDoseOnce": "Satu kali"
+  "onboardingDailyDoseOnce": "Satu kali",
+  "onboardingDailyDoseTwice": "2 kali"
 }

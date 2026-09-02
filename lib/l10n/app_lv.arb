@@ -254,5 +254,6 @@
   "onboardingCareTargetSelfAndFamily": "Es un mana ģimene",
   "onboardingDailyDoseCountTitle": "Cik reizes dienā jūs lietojat zāles?",
   "onboardingDailyDoseCountSubtitle": "Izmanto paziņojumu skaita noteikšanai.",
-  "onboardingDailyDoseOnce": "Vienreiz"
+  "onboardingDailyDoseOnce": "Vienreiz",
+  "onboardingDailyDoseTwice": "2 reizes"
 }

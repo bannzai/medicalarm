@@ -254,5 +254,6 @@
   "onboardingCareTargetSelfAndFamily": "मैं और मेरा परिवार",
   "onboardingDailyDoseCountTitle": "आप दिन में कितनी बार दवा लेते हैं?",
   "onboardingDailyDoseCountSubtitle": "सूचनाओं की संख्या तय करने के लिए उपयोग किया जाता है।",
-  "onboardingDailyDoseOnce": "एक बार"
+  "onboardingDailyDoseOnce": "एक बार",
+  "onboardingDailyDoseTwice": "2 बार"
 }
