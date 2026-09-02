@@ -246,7 +246,6 @@
   "onboardingFrequencyNever": "Никада",
   "onboardingPainWorryTitle": "Да ли сте се икада осећали узнемирено јер се нисте сећали да ли сте узели лек?",
   "onboardingValueReminderTitle": "Пропуштену дозу\nприметите тек када буде прекасно",
-  "onboardingValueReminderBody": "Medicalarm šalje obaveštenje kada je vreme da uzmete lek.\nMožete ga primetiti putem Critical Alert funkcije čak i u nečujnom režimu.",
   "onboardingCareTargetTitle": "Чије ћете узимање лекова пратити?",
   "onboardingCareTargetSubtitle": "Направићемо план на основу ваших одговора",
   "onboardingCareTargetSelf": "За себе",
@@ -276,7 +275,6 @@
   "onboardingGoalKeepRecording": "Наставите да бележите узимање лекова",
   "onboardingGoalWatchFamily": "Пратити узимање лекова чланова породице",
   "onboardingPlanGeneratingTitle": "Креирамо ваш персонализовани план",
-  "onboardingPlanGeneratingAnalyzing": "Analiziramo vaše odgovore",
   "onboardingPlanGeneratingSchedule": "Правимо ваш план обавештења",
   "onboardingPlanGeneratingReady": "Спремно је.",
   "onboardingPlanResultTitle": "Ваш персонализовани план",
@@ -286,7 +284,6 @@
   "onboardingPlanMedicines": "Лекови за управљање",
   "onboardingPlanCriticalAlert": "Critical Alert",
   "onboardingPlanCriticalAlertValue": "Обавештења и у тихом режиму",
-  "onboardingPremiumRecommendedTitle": "Preporučuje se Premium plan",
   "onboardingPremiumRecommendedBody": "Овај план премашује ограничење регистрације бесплатног плана\nУз Premium план можете да региструјете све",
   "onboardingPlanStart": "Започните свој план"
 }
