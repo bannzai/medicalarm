@@ -193,5 +193,6 @@
   "soloGroupName": "Fy ngrwpiau",
   "joinWithInvitationCode": "Ymuno â chod gwahoddiad",
   "groupCreationLimitReached": "Ni allwch greu rhagor o grwpiau ar y cynllun am ddim.",
-  "increaseGroupLimitWithPremium": "Crëwch ragor o grwpiau gyda'r cynllun Premium"
+  "increaseGroupLimitWithPremium": "Crëwch ragor o grwpiau gyda'r cynllun Premium",
+  "invitationCode": "Cod gwahoddiad"
 }

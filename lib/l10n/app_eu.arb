@@ -193,5 +193,6 @@
   "soloGroupName": "Nire taldeak",
   "joinWithInvitationCode": "Gonbidapen-kodearekin bat egin",
   "groupCreationLimitReached": "Ezin duzu talde gehiago sortu doako planean.",
-  "increaseGroupLimitWithPremium": "Sortu talde gehiago Premium planarekin"
+  "increaseGroupLimitWithPremium": "Sortu talde gehiago Premium planarekin",
+  "invitationCode": "Gonbidapen-kodea"
 }

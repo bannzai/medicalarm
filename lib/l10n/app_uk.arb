@@ -193,5 +193,6 @@
   "soloGroupName": "Мої групи",
   "joinWithInvitationCode": "Приєднатися за кодом запрошення",
   "groupCreationLimitReached": "У безкоштовному плані не можна створювати більше груп.",
-  "increaseGroupLimitWithPremium": "Створюйте більше груп із планом Premium"
+  "increaseGroupLimitWithPremium": "Створюйте більше груп із планом Premium",
+  "invitationCode": "Код запрошення"
 }

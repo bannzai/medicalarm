@@ -193,5 +193,6 @@
   "soloGroupName": "የእኔ ቡድኖች",
   "joinWithInvitationCode": "በግብዣ ኮድ ይቀላቀሉ",
   "groupCreationLimitReached": "በነጻ ዕቅዱ ላይ ከዚህ በላይ ቡድኖችን መፍጠር አይችሉም።",
-  "increaseGroupLimitWithPremium": "በPremium ዕቅድ ተጨማሪ ቡድኖችን ይፍጠሩ"
+  "increaseGroupLimitWithPremium": "በPremium ዕቅድ ተጨማሪ ቡድኖችን ይፍጠሩ",
+  "invitationCode": "የግብዣ ኮድ"
 }

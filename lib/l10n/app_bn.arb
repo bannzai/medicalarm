@@ -193,5 +193,6 @@
   "soloGroupName": "আমার গ্রুপ",
   "joinWithInvitationCode": "আমন্ত্রণ কোড দিয়ে যোগ দিন",
   "groupCreationLimitReached": "বিনামূল্যের প্ল্যানে আপনি আর কোনো গ্রুপ তৈরি করতে পারবেন না।",
-  "increaseGroupLimitWithPremium": "Premium প্ল্যানে আরও গ্রুপ তৈরি করুন"
+  "increaseGroupLimitWithPremium": "Premium প্ল্যানে আরও গ্রুপ তৈরি করুন",
+  "invitationCode": "আমন্ত্রণ কোড"
 }

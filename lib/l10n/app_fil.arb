@@ -193,5 +193,6 @@
   "soloGroupName": "Aking mga grupo",
   "joinWithInvitationCode": "Sumali gamit ang code ng imbitasyon",
   "groupCreationLimitReached": "Hindi ka na makakagawa ng higit pang grupo sa libreng plan.",
-  "increaseGroupLimitWithPremium": "Gumawa ng higit pang grupo gamit ang Premium plan"
+  "increaseGroupLimitWithPremium": "Gumawa ng higit pang grupo gamit ang Premium plan",
+  "invitationCode": "Code ng imbitasyon"
 }

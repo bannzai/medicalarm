@@ -193,5 +193,6 @@
   "soloGroupName": "Csoportjaim",
   "joinWithInvitationCode": "Csatlakozás meghívókóddal",
   "groupCreationLimitReached": "Az ingyenes csomagban nem hozhat létre több csoportot.",
-  "increaseGroupLimitWithPremium": "Hozzon létre további csoportokat Premium csomaggal"
+  "increaseGroupLimitWithPremium": "Hozzon létre további csoportokat Premium csomaggal",
+  "invitationCode": "Meghívókód"
 }

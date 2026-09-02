@@ -193,5 +193,6 @@
   "soloGroupName": "मेरा समूहहरू",
   "joinWithInvitationCode": "आमन्त्रण कोड प्रयोग गरेर सहभागी हुनुहोस्",
   "groupCreationLimitReached": "निःशुल्क योजनामा तपाईं थप समूहहरू बनाउन सक्नुहुन्न।",
-  "increaseGroupLimitWithPremium": "Premium योजनासँग थप समूहहरू सिर्जना गर्नुहोस्"
+  "increaseGroupLimitWithPremium": "Premium योजनासँग थप समूहहरू सिर्जना गर्नुहोस्",
+  "invitationCode": "निमन्त्रणा कोड"
 }

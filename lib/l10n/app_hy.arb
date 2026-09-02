@@ -193,5 +193,6 @@
   "soloGroupName": "Իմ խմբերը",
   "joinWithInvitationCode": "Միանալ հրավերի կոդով",
   "groupCreationLimitReached": "Անվճար պլանում այլևս չեք կարող խմբեր ստեղծել։",
-  "increaseGroupLimitWithPremium": "Ստեղծեք ավելի շատ խմբեր Premium պլանով"
+  "increaseGroupLimitWithPremium": "Ստեղծեք ավելի շատ խմբեր Premium պլանով",
+  "invitationCode": "Հրավերի կոդ"
 }

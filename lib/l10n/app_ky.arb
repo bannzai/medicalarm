@@ -193,5 +193,6 @@
   "soloGroupName": "Менин топторум",
   "joinWithInvitationCode": "Чакыруу коду менен кошулуу",
   "groupCreationLimitReached": "Акысыз планда мындан ары топ түзө албайсыз.",
-  "increaseGroupLimitWithPremium": "Premium планы менен көбүрөөк топ түзүңүз"
+  "increaseGroupLimitWithPremium": "Premium планы менен көбүрөөк топ түзүңүз",
+  "invitationCode": "Чакыруу коду"
 }

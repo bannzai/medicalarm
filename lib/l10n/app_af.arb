@@ -193,5 +193,6 @@
   "soloGroupName": "My groepe",
   "joinWithInvitationCode": "Neem deel met uitnodigingskode",
   "groupCreationLimitReached": "Jy kan nie meer groepe met die gratis plan skep nie.",
-  "increaseGroupLimitWithPremium": "Skep meer groepe met die Premium-plan"
+  "increaseGroupLimitWithPremium": "Skep meer groepe met die Premium-plan",
+  "invitationCode": "Uitnodigingskode"
 }

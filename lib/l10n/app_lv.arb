@@ -193,5 +193,6 @@
   "soloGroupName": "Manas grupas",
   "joinWithInvitationCode": "Pievienoties ar ielūguma kodu",
   "groupCreationLimitReached": "Bezmaksas plānā vairs nevarat izveidot grupas.",
-  "increaseGroupLimitWithPremium": "Izveidojiet vairāk grupu ar Premium plānu"
+  "increaseGroupLimitWithPremium": "Izveidojiet vairāk grupu ar Premium plānu",
+  "invitationCode": "Uzaicinājuma kods"
 }

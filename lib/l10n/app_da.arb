@@ -193,5 +193,6 @@
   "soloGroupName": "Mine grupper",
   "joinWithInvitationCode": "Deltag med invitationskode",
   "groupCreationLimitReached": "Du kan ikke oprette flere grupper med gratisplanen.",
-  "increaseGroupLimitWithPremium": "Opret flere grupper med Premium-planen"
+  "increaseGroupLimitWithPremium": "Opret flere grupper med Premium-planen",
+  "invitationCode": "Invitationskode"
 }

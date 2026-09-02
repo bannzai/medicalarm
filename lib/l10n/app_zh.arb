@@ -193,5 +193,6 @@
   "soloGroupName": "我的群组",
   "joinWithInvitationCode": "使用邀请码加入",
   "groupCreationLimitReached": "免费方案无法再创建更多群组。",
-  "increaseGroupLimitWithPremium": "使用 Premium 方案创建更多群组"
+  "increaseGroupLimitWithPremium": "使用 Premium 方案创建更多群组",
+  "invitationCode": "邀请码"
 }

@@ -193,5 +193,6 @@
   "soloGroupName": "Os meus grupos",
   "joinWithInvitationCode": "Participar com código de convite",
   "groupCreationLimitReached": "Não pode criar mais grupos no plano gratuito.",
-  "increaseGroupLimitWithPremium": "Crie mais grupos com o plano Premium"
+  "increaseGroupLimitWithPremium": "Crie mais grupos com o plano Premium",
+  "invitationCode": "Código de convite"
 }

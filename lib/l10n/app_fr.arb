@@ -193,5 +193,6 @@
   "soloGroupName": "Mes groupes",
   "joinWithInvitationCode": "Rejoindre avec un code d’invitation",
   "groupCreationLimitReached": "Vous ne pouvez pas créer d’autres groupes avec l’offre gratuite.",
-  "increaseGroupLimitWithPremium": "Créez davantage de groupes avec le forfait Premium"
+  "increaseGroupLimitWithPremium": "Créez davantage de groupes avec le forfait Premium",
+  "invitationCode": "Code d’invitation"
 }

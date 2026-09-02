@@ -193,5 +193,6 @@
   "soloGroupName": "Os meus grupos",
   "joinWithInvitationCode": "Unirse cun código de invitación",
   "groupCreationLimitReached": "Non podes crear máis grupos co plan gratuíto.",
-  "increaseGroupLimitWithPremium": "Crea máis grupos co plan Premium"
+  "increaseGroupLimitWithPremium": "Crea máis grupos co plan Premium",
+  "invitationCode": "Código de invitación"
 }

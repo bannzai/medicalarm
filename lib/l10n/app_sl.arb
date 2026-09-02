@@ -193,5 +193,6 @@
   "soloGroupName": "Moje skupine",
   "joinWithInvitationCode": "Pridruži se s kodo povabila",
   "groupCreationLimitReached": "V brezplačnem paketu ne morete ustvariti več skupin.",
-  "increaseGroupLimitWithPremium": "Ustvarite več skupin s paketom Premium"
+  "increaseGroupLimitWithPremium": "Ustvarite več skupin s paketom Premium",
+  "invitationCode": "Koda za povabilo"
 }

@@ -193,5 +193,6 @@
   "soloGroupName": "Moje skupiny",
   "joinWithInvitationCode": "Pripojiť sa pomocou pozývacieho kódu",
   "groupCreationLimitReached": "V bezplatnom programe už nemôžete vytvárať ďalšie skupiny.",
-  "increaseGroupLimitWithPremium": "Vytvárajte ďalšie skupiny s programom Premium"
+  "increaseGroupLimitWithPremium": "Vytvárajte ďalšie skupiny s programom Premium",
+  "invitationCode": "Kód pozvánky"
 }

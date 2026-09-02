@@ -193,5 +193,6 @@
   "soloGroupName": "ក្រុមរបស់ខ្ញុំ",
   "joinWithInvitationCode": "ចូលរួមដោយប្រើលេខកូដអញ្ជើញ",
   "groupCreationLimitReached": "អ្នកមិនអាចបង្កើតក្រុមបន្ថែមទៀតក្នុងគម្រោងឥតគិតថ្លៃបានទេ។",
-  "increaseGroupLimitWithPremium": "បង្កើតក្រុមបន្ថែមជាមួយគម្រោង Premium"
+  "increaseGroupLimitWithPremium": "បង្កើតក្រុមបន្ថែមជាមួយគម្រោង Premium",
+  "invitationCode": "លេខកូដអញ្ជើញ"
 }

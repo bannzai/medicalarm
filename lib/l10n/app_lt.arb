@@ -193,5 +193,6 @@
   "soloGroupName": "Mano grupės",
   "joinWithInvitationCode": "Prisijungti naudojant kvietimo kodą",
   "groupCreationLimitReached": "Naudodami nemokamą planą nebegalite kurti daugiau grupių.",
-  "increaseGroupLimitWithPremium": "Kurkite daugiau grupių su Premium planu"
+  "increaseGroupLimitWithPremium": "Kurkite daugiau grupių su Premium planu",
+  "invitationCode": "Pakvietimo kodas"
 }

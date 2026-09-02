@@ -193,5 +193,6 @@
   "soloGroupName": "Менің топтарым",
   "joinWithInvitationCode": "Шақыру кодымен қосылу",
   "groupCreationLimitReached": "Тегін жоспарда бұдан артық топ жасай алмайсыз.",
-  "increaseGroupLimitWithPremium": "Premium жоспарымен көбірек топ жасаңыз"
+  "increaseGroupLimitWithPremium": "Premium жоспарымен көбірек топ жасаңыз",
+  "invitationCode": "Шақыру коды"
 }

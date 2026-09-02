@@ -193,5 +193,6 @@
   "soloGroupName": "Qruplarım",
   "joinWithInvitationCode": "Dəvət kodu ilə qoşulun",
   "groupCreationLimitReached": "Pulsuz planda artıq qrup yarada bilməzsiniz.",
-  "increaseGroupLimitWithPremium": "Premium planı ilə daha çox qrup yaradın"
+  "increaseGroupLimitWithPremium": "Premium planı ilə daha çox qrup yaradın",
+  "invitationCode": "Dəvət kodu"
 }

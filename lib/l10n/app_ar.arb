@@ -193,5 +193,6 @@
   "soloGroupName": "مجموعاتي",
   "joinWithInvitationCode": "الانضمام باستخدام رمز الدعوة",
   "groupCreationLimitReached": "لا يمكنك إنشاء المزيد من المجموعات ضمن الخطة المجانية.",
-  "increaseGroupLimitWithPremium": "أنشئ مجموعات إضافية مع خطة Premium"
+  "increaseGroupLimitWithPremium": "أنشئ مجموعات إضافية مع خطة Premium",
+  "invitationCode": "رمز الدعوة"
 }

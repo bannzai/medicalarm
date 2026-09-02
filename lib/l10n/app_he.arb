@@ -193,5 +193,6 @@
   "soloGroupName": "הקבוצות שלי",
   "joinWithInvitationCode": "הצטרפות באמצעות קוד הזמנה",
   "groupCreationLimitReached": "לא ניתן ליצור קבוצות נוספות במסגרת התוכנית החינמית.",
-  "increaseGroupLimitWithPremium": "צרו קבוצות נוספות עם תוכנית Premium"
+  "increaseGroupLimitWithPremium": "צרו קבוצות נוספות עם תוכנית Premium",
+  "invitationCode": "קוד הזמנה"
 }
