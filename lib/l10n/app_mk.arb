@@ -226,5 +226,6 @@
   "minimumDoseIntervalDescription": "Минимално време помеѓу дозите од претходната доза",
   "minimumDoseIntervalNone": "Нема",
   "minimumDoseIntervalHoursFormat": "Најмалку {hours} часа",
-  "doseIntervalWarningTitle": "Потребниот интервал помеѓу дозите сè уште не поминал"
+  "doseIntervalWarningTitle": "Потребниот интервал помеѓу дозите сè уште не поминал",
+  "doseIntervalWarningMessage": "Лекот веќе сте го земале во {latestTakeTime}. Поставено е помеѓу дозите да има најмалку {minimumDoseIntervalHours} часа. Сепак да го запишете?"
 }

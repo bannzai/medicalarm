@@ -226,5 +226,6 @@
   "minimumDoseIntervalDescription": "ಹಿಂದಿನ ಡೋಸ್‌ನಿಂದ ಡೋಸ್‌ಗಳ ನಡುವಿನ ಕನಿಷ್ಠ ಸಮಯ",
   "minimumDoseIntervalNone": "ಯಾವುದೂ ಇಲ್ಲ",
   "minimumDoseIntervalHoursFormat": "ಕನಿಷ್ಠ {hours} ಗಂಟೆಗಳು",
-  "doseIntervalWarningTitle": "ಡೋಸ್‌ಗಳ ನಡುವಿನ ಅಗತ್ಯ ಸಮಯ ಇನ್ನೂ ಕಳೆದಿಲ್ಲ"
+  "doseIntervalWarningTitle": "ಡೋಸ್‌ಗಳ ನಡುವಿನ ಅಗತ್ಯ ಸಮಯ ಇನ್ನೂ ಕಳೆದಿಲ್ಲ",
+  "doseIntervalWarningMessage": "ನೀವು ಈಗಾಗಲೇ {latestTakeTime}ಕ್ಕೆ ಔಷಧಿಯನ್ನು ತೆಗೆದುಕೊಂಡಿದ್ದೀರಿ. ಸೆಟ್ಟಿಂಗ್ ಪ್ರಕಾರ, ಎರಡು ಡೋಸ್‌ಗಳ ನಡುವೆ ಕನಿಷ್ಠ {minimumDoseIntervalHours} ಗಂಟೆಗಳ ಅಂತರವಿರಬೇಕು. ಆದರೂ ದಾಖಲಿಸುವುದೇ?"
 }

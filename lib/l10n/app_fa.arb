@@ -226,5 +226,6 @@
   "minimumDoseIntervalDescription": "حداقل فاصله زمانی بین دوزها از آخرین دوز",
   "minimumDoseIntervalNone": "هیچ‌کدام",
   "minimumDoseIntervalHoursFormat": "حداقل {hours} ساعت",
-  "doseIntervalWarningTitle": "هنوز فاصلهٔ لازم بین نوبت‌های مصرف نگذشته است"
+  "doseIntervalWarningTitle": "هنوز فاصلهٔ لازم بین نوبت‌های مصرف نگذشته است",
+  "doseIntervalWarningMessage": "این دارو قبلاً در {latestTakeTime} مصرف شده است. تنظیمات، فاصله حداقل {minimumDoseIntervalHours} ساعت بین دوزها را تعیین کرده است. با این حال، آن را ثبت می‌کنید؟"
 }

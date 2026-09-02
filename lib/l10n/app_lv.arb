@@ -226,5 +226,6 @@
   "minimumDoseIntervalDescription": "Minimālais laiks starp devām kopš iepriekšējās devas",
   "minimumDoseIntervalNone": "Nav",
   "minimumDoseIntervalHoursFormat": "Vismaz {hours} stundas",
-  "doseIntervalWarningTitle": "Nepieciešamais laiks starp devām vēl nav pagājis"
+  "doseIntervalWarningTitle": "Nepieciešamais laiks starp devām vēl nav pagājis",
+  "doseIntervalWarningMessage": "Jūs jau lietojāt zāles plkst. {latestTakeTime}. Iestatījumos noteikts, ka starp devām jābūt vismaz {minimumDoseIntervalHours} stundu intervālam. Vai tomēr reģistrēt šo devu?"
 }

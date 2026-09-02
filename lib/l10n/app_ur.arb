@@ -226,5 +226,6 @@
   "minimumDoseIntervalDescription": "پچھلی خوراک کے بعد خوراکوں کے درمیان کم از کم وقفہ",
   "minimumDoseIntervalNone": "کوئی نہیں",
   "minimumDoseIntervalHoursFormat": "کم از کم {hours} گھنٹے",
-  "doseIntervalWarningTitle": "خوراکوں کے درمیان مطلوبہ وقت ابھی پورا نہیں ہوا"
+  "doseIntervalWarningTitle": "خوراکوں کے درمیان مطلوبہ وقت ابھی پورا نہیں ہوا",
+  "doseIntervalWarningMessage": "آپ یہ دوا {latestTakeTime} پر پہلے ہی لے چکے ہیں۔ ترتیب کے مطابق خوراکوں کے درمیان کم از کم {minimumDoseIntervalHours} گھنٹے کا وقفہ ہونا چاہیے۔ پھر بھی ریکارڈ کریں؟"
 }

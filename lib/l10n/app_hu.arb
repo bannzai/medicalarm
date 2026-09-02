@@ -226,5 +226,6 @@
   "minimumDoseIntervalDescription": "Az előző adag óta eltelő minimális idő a következő adagig",
   "minimumDoseIntervalNone": "Nincs",
   "minimumDoseIntervalHoursFormat": "Legalább {hours} óra",
-  "doseIntervalWarningTitle": "A gyógyszeradagok közötti szükséges idő még nem telt el"
+  "doseIntervalWarningTitle": "A gyógyszeradagok közötti szükséges idő még nem telt el",
+  "doseIntervalWarningMessage": "A gyógyszert már bevette ekkor: {latestTakeTime}. A beállítás szerint a bevételek között legalább {minimumDoseIntervalHours} órának kell eltelnie. Ennek ellenére rögzíti?"
 }

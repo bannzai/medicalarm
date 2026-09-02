@@ -226,5 +226,6 @@
   "minimumDoseIntervalDescription": "ପୂର୍ବ ଡୋଜ୍ ପରଠାରୁ ଡୋଜ୍ ମଧ୍ୟରେ ସର୍ବନିମ୍ନ ସମୟ",
   "minimumDoseIntervalNone": "ନାହିଁ",
   "minimumDoseIntervalHoursFormat": "ଅତିକମରେ {hours} ଘଣ୍ଟା",
-  "doseIntervalWarningTitle": "ଡୋଜ୍‌ ମଧ୍ୟରେ ଆବଶ୍ୟକ ସମୟ ଏପର୍ଯ୍ୟନ୍ତ ପୂରଣ ହୋଇନାହିଁ"
+  "doseIntervalWarningTitle": "ଡୋଜ୍‌ ମଧ୍ୟରେ ଆବଶ୍ୟକ ସମୟ ଏପର୍ଯ୍ୟନ୍ତ ପୂରଣ ହୋଇନାହିଁ",
+  "doseIntervalWarningMessage": "ଆପଣ {latestTakeTime} ସମୟରେ ଔଷଧ ଖାଇସାରିଛନ୍ତି। ସେଟିଂ ଅନୁଯାୟୀ ଡୋଜ୍‌ଗୁଡ଼ିକ ମଧ୍ୟରେ ଅତି କମ୍‌ରେ {minimumDoseIntervalHours} ଘଣ୍ଟା ବ୍ୟବଧାନ ରହିବା ଆବଶ୍ୟକ। ତଥାପି ରେକର୍ଡ କରିବେ କି?"
 }

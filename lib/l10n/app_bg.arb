@@ -226,5 +226,6 @@
   "minimumDoseIntervalDescription": "Минимално време между приемите от последния прием",
   "minimumDoseIntervalNone": "Няма",
   "minimumDoseIntervalHoursFormat": "Най-малко {hours} часа",
-  "doseIntervalWarningTitle": "Не е изминал необходимият интервал между приемите"
+  "doseIntervalWarningTitle": "Не е изминал необходимият интервал между приемите",
+  "doseIntervalWarningMessage": "Вече сте приели дозата в {latestTakeTime}. Настройката изисква интервал от поне {minimumDoseIntervalHours} часа между приемите. Все пак да го запишете ли?"
 }

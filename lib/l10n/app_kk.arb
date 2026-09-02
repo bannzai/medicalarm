@@ -226,5 +226,6 @@
   "minimumDoseIntervalDescription": "Алдыңғы дозадан кейін өтуі тиіс ең аз уақыт",
   "minimumDoseIntervalNone": "Жоқ",
   "minimumDoseIntervalHoursFormat": "Кемінде {hours} сағат",
-  "doseIntervalWarningTitle": "Дозалар арасындағы қажетті уақыт әлі өткен жоқ"
+  "doseIntervalWarningTitle": "Дозалар арасындағы қажетті уақыт әлі өткен жоқ",
+  "doseIntervalWarningMessage": "Сіз дәріні {latestTakeTime} уақытында қабылдап қойғансыз. Баптаулар бойынша қабылдаулар арасында кемінде {minimumDoseIntervalHours} сағат болуы керек. Соған қарамастан тіркейсіз бе?"
 }

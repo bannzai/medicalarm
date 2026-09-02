@@ -226,5 +226,6 @@
   "minimumDoseIntervalDescription": "Aurreko dositik gutxienez igaro beharreko denbora",
   "minimumDoseIntervalNone": "Bat ere ez",
   "minimumDoseIntervalHoursFormat": "Gutxienez {hours} ordu",
-  "doseIntervalWarningTitle": "Dosi arteko tartea ez da oraindik bete"
+  "doseIntervalWarningTitle": "Dosi arteko tartea ez da oraindik bete",
+  "doseIntervalWarningMessage": "Dagoeneko hartu duzu dosia {latestTakeTime}-(e)an. Ezarpenaren arabera, dosien artean gutxienez {minimumDoseIntervalHours} orduko tartea egon behar da. Hala ere erregistratu nahi duzu?"
 }

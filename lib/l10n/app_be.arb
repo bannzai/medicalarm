@@ -226,5 +226,6 @@
   "minimumDoseIntervalDescription": "Мінімальны інтэрвал паміж прыёмамі пасля папярэдняга прыёму",
   "minimumDoseIntervalNone": "Няма",
   "minimumDoseIntervalHoursFormat": "Не менш за {hours} гадзін",
-  "doseIntervalWarningTitle": "Паміж прыёмамі яшчэ не прайшоў неабходны час"
+  "doseIntervalWarningTitle": "Паміж прыёмамі яшчэ не прайшоў неабходны час",
+  "doseIntervalWarningMessage": "Вы ўжо прынялі дозу ў {latestTakeTime}. Налада прадугледжвае інтэрвал не менш за {minimumDoseIntervalHours} гадзін паміж прыёмамі. Усё роўна запісаць прыём?"
 }
