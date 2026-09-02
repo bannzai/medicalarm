@@ -243,5 +243,6 @@
   "onboardingFrequencyOften": "Часто",
   "onboardingFrequencySometimes": "Иногда",
   "onboardingFrequencyRarely": "Почти никогда",
-  "onboardingFrequencyNever": "Никогда"
+  "onboardingFrequencyNever": "Никогда",
+  "onboardingPainWorryTitle": "Вы когда-нибудь тревожились, потому что не помнили, приняли ли лекарство?"
 }

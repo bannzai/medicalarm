@@ -243,5 +243,6 @@
   "onboardingFrequencyOften": "Sık sık",
   "onboardingFrequencySometimes": "Bazen",
   "onboardingFrequencyRarely": "Neredeyse hiç",
-  "onboardingFrequencyNever": "Hiçbir zaman"
+  "onboardingFrequencyNever": "Hiçbir zaman",
+  "onboardingPainWorryTitle": "İlacınızı alıp almadığınızı hatırlamadığınız için hiç endişelendiniz mi?"
 }

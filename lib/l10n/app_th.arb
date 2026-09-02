@@ -243,5 +243,6 @@
   "onboardingFrequencyOften": "บ่อย",
   "onboardingFrequencySometimes": "บางครั้ง",
   "onboardingFrequencyRarely": "เกือบไม่เคย",
-  "onboardingFrequencyNever": "ไม่เคย"
+  "onboardingFrequencyNever": "ไม่เคย",
+  "onboardingPainWorryTitle": "คุณเคยกังวลเพราะจำไม่ได้ไหมว่าได้กินยาแล้วหรือยัง"
 }

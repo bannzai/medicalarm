@@ -243,5 +243,6 @@
   "onboardingFrequencyOften": "Usein",
   "onboardingFrequencySometimes": "Joskus",
   "onboardingFrequencyRarely": "Tuskin koskaan",
-  "onboardingFrequencyNever": "Ei koskaan"
+  "onboardingFrequencyNever": "Ei koskaan",
+  "onboardingPainWorryTitle": "Oletko joskus ollut huolissasi, koska et muistanut, olitko ottanut lääkkeesi?"
 }
