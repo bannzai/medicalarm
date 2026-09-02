@@ -7,9 +7,16 @@ import 'package:medicalarm/features/onboarding/page.dart';
 import 'package:medicalarm/style/color.dart';
 
 void main() {
-  /// iPhone 相当の論理サイズで描画し、RenderFlex overflow 等のレイアウト例外をテスト失敗として検出する
-  Future<void> pumpOnboarding(WidgetTester tester, {required bool isShortForm, required VoidCallback onPlanStartPressed}) async {
-    tester.view.physicalSize = const Size(390, 844);
+  /// iPhone 相当の論理サイズで描画し、RenderFlex overflow 等のレイアウト例外をテスト失敗として検出する。
+  /// [size] と [textScaler] で狭い画面・大きな文字サイズの条件も再現する
+  Future<void> pumpOnboarding(
+    WidgetTester tester, {
+    required bool isShortForm,
+    required VoidCallback onPlanStartPressed,
+    Size size = const Size(390, 844),
+    TextScaler textScaler = TextScaler.noScaling,
+  }) async {
+    tester.view.physicalSize = size;
     tester.view.devicePixelRatio = 1.0;
     addTearDown(tester.view.reset);
 
@@ -20,15 +27,53 @@ void main() {
             colorScheme: ColorScheme.fromSeed(seedColor: AppColors.primary, primary: AppColors.primary),
             useMaterial3: false,
           ),
+          builder: (context, child) => MediaQuery(
+            data: MediaQuery.of(context).copyWith(textScaler: textScaler),
+            child: child!,
+          ),
           home: OnboardingPage(isShortForm: isShortForm, onPlanStartPressed: onPlanStartPressed),
         ),
       ),
     );
   }
 
-  /// 選択肢をタップして画面遷移のアニメーションを終える
+  /// 選択肢をタップして画面遷移のアニメーションを終える。狭い画面ではスクロールしないと押せないため表示位置まで送る
   Future<void> tapAndSettle(WidgetTester tester, String text) async {
+    await tester.ensureVisible(find.text(text));
+    await tester.pumpAndSettle();
     await tester.tap(find.text(text));
+    await tester.pumpAndSettle();
+  }
+
+  /// 長尺 (US) のファネルを最初から最後まで進め、結果画面が表示されるまで待つ
+  Future<void> walkThroughLongForm(WidgetTester tester) async {
+    await tapAndSettle(tester, L.onboardingStart);
+    await tapAndSettle(tester, L.onboardingFrequencyOften);
+
+    expect(find.text(L.onboardingPainWorryTitle), findsOneWidget);
+    await tapAndSettle(tester, L.onboardingFrequencyOften);
+
+    expect(find.text(L.onboardingValueReminderTitle), findsOneWidget);
+    await tapAndSettle(tester, L.onboardingNext);
+
+    expect(find.text(L.onboardingCareTargetTitle), findsOneWidget);
+    await tapAndSettle(tester, L.onboardingCareTargetSelfAndFamily);
+    await tapAndSettle(tester, L.onboardingDailyDoseThreeOrMore);
+    await tapAndSettle(tester, L.onboardingMedicineCountSixOrMore);
+
+    expect(find.text(L.onboardingBeforeAfterTitle), findsOneWidget);
+    await tapAndSettle(tester, L.onboardingNext);
+
+    expect(find.text(L.onboardingGoalTitle), findsOneWidget);
+    await tester.ensureVisible(find.text(L.onboardingGoalWatchFamily));
+    await tester.pumpAndSettle();
+    await tester.tap(find.text(L.onboardingGoalWatchFamily));
+    await tester.pump();
+    await tester.pump(const Duration(milliseconds: 300));
+
+    // プラン生成演出が表示され、所定時間の経過で自動的に結果画面へ進む
+    expect(find.text(L.onboardingPlanGeneratingTitle), findsOneWidget);
+    await tester.pump(OnboardingPlanGeneratingStep.duration);
     await tester.pumpAndSettle();
   }
 
@@ -75,31 +120,7 @@ void main() {
     var planStartPressedCount = 0;
     await pumpOnboarding(tester, isShortForm: false, onPlanStartPressed: () => planStartPressedCount++);
 
-    await tapAndSettle(tester, L.onboardingStart);
-    await tapAndSettle(tester, L.onboardingFrequencyOften);
-
-    expect(find.text(L.onboardingPainWorryTitle), findsOneWidget);
-    await tapAndSettle(tester, L.onboardingFrequencyOften);
-
-    expect(find.text(L.onboardingValueReminderTitle), findsOneWidget);
-    await tapAndSettle(tester, L.onboardingNext);
-
-    expect(find.text(L.onboardingCareTargetTitle), findsOneWidget);
-    await tapAndSettle(tester, L.onboardingCareTargetSelfAndFamily);
-    await tapAndSettle(tester, L.onboardingDailyDoseThreeOrMore);
-    await tapAndSettle(tester, L.onboardingMedicineCountSixOrMore);
-
-    expect(find.text(L.onboardingBeforeAfterTitle), findsOneWidget);
-    await tapAndSettle(tester, L.onboardingNext);
-
-    expect(find.text(L.onboardingGoalTitle), findsOneWidget);
-    await tester.tap(find.text(L.onboardingGoalWatchFamily));
-    await tester.pump();
-    await tester.pump(const Duration(milliseconds: 300));
-
-    expect(find.text(L.onboardingPlanGeneratingTitle), findsOneWidget);
-    await tester.pump(OnboardingPlanGeneratingStep.duration);
-    await tester.pumpAndSettle();
+    await walkThroughLongForm(tester);
 
     expect(find.text(L.onboardingPlanResultTitle), findsOneWidget);
     expect(find.text(L.onboardingPlanResultGoalFormat(L.onboardingGoalWatchFamily)), findsOneWidget);
@@ -108,6 +129,21 @@ void main() {
     await tester.tap(find.text(L.onboardingPlanStart));
     await tester.pump();
     expect(planStartPressedCount, 1);
+  });
+
+  testWidgets('結果画面は文字サイズ 2 倍・幅 320 でも overflow しない', (tester) async {
+    await pumpOnboarding(
+      tester,
+      isShortForm: false,
+      onPlanStartPressed: () {},
+      size: const Size(320, 568),
+      textScaler: const TextScaler.linear(2.0),
+    );
+
+    await walkThroughLongForm(tester);
+
+    // RenderFlex overflow が起きると例外でテストが失敗するため、結果画面まで到達できれば overflow していない
+    expect(find.text(L.onboardingPlanResultTitle), findsOneWidget);
   });
 
   testWidgets('戻るボタンで前の質問へ戻り、回答済みの選択肢が保持される', (tester) async {

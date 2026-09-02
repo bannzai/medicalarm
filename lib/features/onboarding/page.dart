@@ -91,6 +91,16 @@ class OnboardingPage extends HookConsumerWidget {
         ),
         body: AnimatedSwitcher(
           duration: const Duration(milliseconds: 250),
+          // 遷移中の二重タップで古い画面の選択肢を再度押したり、新しい画面の同じ位置の選択肢を意図せず選んだりしないため、
+          // アニメーションが完了するまで入力を無視する。退場側は reverse 中に isCompleted が false になるため同じ式で無視できる
+          transitionBuilder: (child, animation) => AnimatedBuilder(
+            animation: animation,
+            builder: (context, child) => IgnorePointer(
+              ignoring: !animation.isCompleted,
+              child: FadeTransition(opacity: animation, child: child),
+            ),
+            child: child,
+          ),
           child: KeyedSubtree(
             key: ValueKey(step),
             child: switch (step) {
@@ -102,6 +112,7 @@ class OnboardingPage extends HookConsumerWidget {
                   options: [for (final value in OnboardingForgotFrequency.values) (label: value.label, value: value)],
                   answer: forgotFrequency,
                   stepIndex: stepIndex,
+                  index: stepIndex.value,
                 ),
               OnboardingStep.painWorry => OnboardingQuestionStep(
                   step: step,
@@ -110,6 +121,7 @@ class OnboardingPage extends HookConsumerWidget {
                   options: [for (final value in OnboardingWorryFrequency.values) (label: value.label, value: value)],
                   answer: worryFrequency,
                   stepIndex: stepIndex,
+                  index: stepIndex.value,
                 ),
               OnboardingStep.valueReminder => OnboardingMessageStep(
                   step: step,
@@ -125,6 +137,7 @@ class OnboardingPage extends HookConsumerWidget {
                   options: [for (final value in OnboardingCareTarget.values) (label: value.label, value: value)],
                   answer: careTarget,
                   stepIndex: stepIndex,
+                  index: stepIndex.value,
                 ),
               OnboardingStep.dailyDoseCount => OnboardingQuestionStep(
                   step: step,
@@ -133,6 +146,7 @@ class OnboardingPage extends HookConsumerWidget {
                   options: [for (final value in OnboardingDailyDoseCount.values) (label: value.label, value: value)],
                   answer: dailyDoseCount,
                   stepIndex: stepIndex,
+                  index: stepIndex.value,
                 ),
               OnboardingStep.medicineCount => OnboardingQuestionStep(
                   step: step,
@@ -141,6 +155,7 @@ class OnboardingPage extends HookConsumerWidget {
                   options: [for (final value in OnboardingMedicineCount.values) (label: value.label, value: value)],
                   answer: medicineCount,
                   stepIndex: stepIndex,
+                  index: stepIndex.value,
                 ),
               OnboardingStep.beforeAfter => OnboardingBeforeAfterStep(stepIndex: stepIndex),
               OnboardingStep.goal => OnboardingQuestionStep(
@@ -150,6 +165,7 @@ class OnboardingPage extends HookConsumerWidget {
                   options: [for (final value in OnboardingGoal.values) (label: value.label, value: value)],
                   answer: goal,
                   stepIndex: stepIndex,
+                  index: stepIndex.value,
                 ),
               OnboardingStep.planGenerating => OnboardingPlanGeneratingStep(stepIndex: stepIndex),
               OnboardingStep.planResult => OnboardingPlanResultStep(

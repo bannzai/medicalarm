@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
@@ -35,14 +37,26 @@ bool shouldPresentOnboarding({
   if (createdDateTime == null) {
     return false;
   }
-  return now.difference(createdDateTime) < const Duration(days: 1);
+  // createdDateTime はクライアント時計で生成されるため、端末時計が進んだ状態で作成したユーザーが後から時計を戻すと
+  // 負の経過時間になる。その場合に既存ユーザーへ表示しないため、負の経過時間は表示対象外として扱う
+  final age = now.difference(createdDateTime);
+  return !age.isNegative && age < const Duration(days: 1);
 }
 
 /// 条件を満たす間 [OnboardingPage] を表示し、結果画面の CTA でペイウォール (既存のプレミアム紹介シート) を開く。
-/// シートが閉じられたら完了として Firestore に記録し、[builder] (ホーム画面) へ進む
+/// シートが閉じられたら完了として Firestore に記録し、[builder] (ホーム画面) へ進む。
+///
+/// 表示判定は entitlement 以外の条件 (未対応ロケール・完了記録あり・既存ユーザー) を先に評価し、
+/// 表示候補にならない場合は customerInfo を待たずに確定する。表示候補の場合だけ customerInfo の到着を
+/// [customerInfoWaitTimeout] まで待ち、届かなければ非プレミアム扱いで判定する
 class OnboardingResolver extends HookConsumerWidget {
   final AppUser appUser;
   final WidgetBuilder builder;
+
+  /// customerInfo の到着を待つ上限。
+  /// RevenueCat は configure 直後にキャッシュ済みの CustomerInfo を listener へ即座に流すため通常は数百ms 以内に届く。
+  /// オフラインでキャッシュも無い初回起動では届かないため、それ以上は待たず非プレミアム扱いで判定する
+  static const customerInfoWaitTimeout = Duration(seconds: 3);
 
   const OnboardingResolver({
     super.key,
@@ -53,24 +67,43 @@ class OnboardingResolver extends HookConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final customerInfoAsync = ref.watch(customerInfoProvider);
-    // 表示判定は customerInfo の初回取得を待ってから固定する。以後 appUser・customerInfo が更新されても再判定しない。
+    // 表示判定は一度確定させたら固定する。以後 appUser・customerInfo が更新されても再判定しない。
     // build 中に代入するため useState (setState during build になる) ではなく useRef に保持する
     final decision = useRef<bool?>(null);
     // 完了 (ペイウォールを閉じた) 後にホームへ進めるためのフラグ。判定自体は変えない
     final isCompleted = useState(false);
+    // customerInfo の待ち時間が上限に達したか。hooks は early return より前に毎回同じ順序で呼ぶ
+    final waitTimedOut = useState(false);
+    useEffect(() {
+      // unmount 時に cancel されるため、破棄済みの ValueNotifier へ書き込まない
+      final timer = Timer(customerInfoWaitTimeout, () => waitTimedOut.value = true);
+      return timer.cancel;
+    }, const []);
     final languageCode = Localizations.localeOf(context).languageCode;
 
-    // customerInfo が取得中の間は判定できないためローディングを出す。エラー時は非プレミアム (null) 扱いで判定する
     if (decision.value == null) {
-      if (customerInfoAsync.isLoading) {
-        return const IndicatorPage();
-      }
-      decision.value = shouldPresentOnboarding(
+      // entitlement 以外の条件だけで表示しないと決まる (未対応ロケール・完了記録あり・既存ユーザー) 場合は
+      // customerInfo を待たずに確定する。待つとオフライン起動で customerInfo が届かず起動がブロックされるため
+      final isCandidate = shouldPresentOnboarding(
         appUser: appUser,
-        hasPremiumEntitlement: customerInfoAsync.asData?.value.hasPremiumEntitlement,
+        hasPremiumEntitlement: null,
         now: DateTime.now(),
         isAvailable: isOnboardingAvailable(languageCode: languageCode),
       );
+      if (!isCandidate) {
+        decision.value = false;
+      } else if (customerInfoAsync.isLoading && !waitTimedOut.value) {
+        // 表示候補の時だけ customerInfo の到着を待つ。上限を過ぎたら待たずに判定する
+        return const IndicatorPage();
+      } else {
+        // 未取得 (エラー・タイムアウト) は非プレミアム (null) 扱いで判定する
+        decision.value = shouldPresentOnboarding(
+          appUser: appUser,
+          hasPremiumEntitlement: customerInfoAsync.asData?.value.hasPremiumEntitlement,
+          now: DateTime.now(),
+          isAvailable: isOnboardingAvailable(languageCode: languageCode),
+        );
+      }
     }
 
     if (decision.value != true || isCompleted.value) {

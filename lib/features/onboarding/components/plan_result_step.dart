@@ -110,14 +110,19 @@ class _PlanRow extends StatelessWidget {
   Widget build(BuildContext context) {
     final primaryColor = Theme.of(context).colorScheme.primary;
 
+    // ラベル・値とも Flexible にして、長い文言や大きな文字サイズでも折り返して overflow しないようにする
     return Row(
+      mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
         Icon(icon, color: primaryColor),
         const SizedBox(width: 12),
-        Expanded(
+        Flexible(
           child: Text(label, style: const TextStyle(fontSize: 15, color: Colors.black87)),
         ),
-        Text(value, style: const TextStyle(fontSize: 16, fontWeight: FontWeight.bold)),
+        const SizedBox(width: 12),
+        Flexible(
+          child: Text(value, textAlign: TextAlign.end, style: const TextStyle(fontSize: 16, fontWeight: FontWeight.bold)),
+        ),
       ],
     );
   }

@@ -14,6 +14,10 @@ class OnboardingQuestionStep<T extends Enum> extends StatelessWidget {
   final ValueNotifier<T?> answer;
   final ValueNotifier<int> stepIndex;
 
+  /// この質問がファネル内で占める位置。[stepIndex] が既に進んでいる (画面遷移中の二重タップ等) 場合に
+  /// 多重で次へ進めないための判定に使う
+  final int index;
+
   const OnboardingQuestionStep({
     super.key,
     required this.step,
@@ -22,6 +26,7 @@ class OnboardingQuestionStep<T extends Enum> extends StatelessWidget {
     required this.options,
     required this.answer,
     required this.stepIndex,
+    required this.index,
   });
 
   @override
@@ -45,6 +50,10 @@ class OnboardingQuestionStep<T extends Enum> extends StatelessWidget {
                 child: InkWell(
                   borderRadius: BorderRadius.circular(12),
                   onTap: () {
+                    // 画面遷移中の二重タップで既に次の画面へ進んでいる場合は、さらに進めない
+                    if (stepIndex.value != index) {
+                      return;
+                    }
                     analytics.logEvent(name: 'onboarding_answered', parameters: {'step': step.name, 'answer': option.value.name});
                     answer.value = option.value;
                     stepIndex.value += 1;

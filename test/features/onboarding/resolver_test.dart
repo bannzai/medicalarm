@@ -71,6 +71,18 @@ void main() {
       );
     });
 
+    test('createdDateTime が未来 (端末時計のずれ) なら表示しない', () {
+      expect(
+        shouldPresentOnboarding(
+          appUser: AppUser(createdDateTime: now.add(const Duration(hours: 1))),
+          hasPremiumEntitlement: false,
+          now: now,
+          isAvailable: true,
+        ),
+        isFalse,
+      );
+    });
+
     test('文言が未翻訳のロケールには表示しない', () {
       expect(
         shouldPresentOnboarding(appUser: AppUser(createdDateTime: now), hasPremiumEntitlement: false, now: now, isAvailable: false),
