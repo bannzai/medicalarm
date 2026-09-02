@@ -213,5 +213,6 @@
   "invitationCodeInputLabel": "Kodi i ftesës (8 karaktere)",
   "invitationCodeInputHint": "Futni kodin me 8 karaktere",
   "join": "Bashkohu",
-  "recordedByMember": "Regjistruar nga {name}"
+  "recordedByMember": "Regjistruar nga {name}",
+  "accountLink": "Transferimi i llogarisë"
 }

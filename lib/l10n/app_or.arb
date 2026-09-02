@@ -213,5 +213,6 @@
   "invitationCodeInputLabel": "ନିମନ୍ତ୍ରଣ କୋଡ୍ (୮ଟି ଅକ୍ଷର)",
   "invitationCodeInputHint": "8 ଅକ୍ଷରର କୋଡ୍ ପ୍ରବେଶ କରନ୍ତୁ",
   "join": "ଯୋଗ ଦିଅନ୍ତୁ",
-  "recordedByMember": "{name} ରେକର୍ଡ କରିଛନ୍ତି"
+  "recordedByMember": "{name} ରେକର୍ଡ କରିଛନ୍ତି",
+  "accountLink": "ଆକାଉଣ୍ଟ ସ୍ଥାନାନ୍ତର"
 }

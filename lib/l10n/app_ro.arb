@@ -213,5 +213,6 @@
   "invitationCodeInputLabel": "Cod de invitație (8 caractere)",
   "invitationCodeInputHint": "Introduceți codul din 8 caractere",
   "join": "Alătură-te",
-  "recordedByMember": "Înregistrat de {name}"
+  "recordedByMember": "Înregistrat de {name}",
+  "accountLink": "Transferul contului"
 }

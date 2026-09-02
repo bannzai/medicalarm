@@ -213,5 +213,6 @@
   "invitationCodeInputLabel": "Kutsekood (8 märki)",
   "invitationCodeInputHint": "Sisestage 8-märgiline kood",
   "join": "Liitu",
-  "recordedByMember": "Salvestaja: {name}"
+  "recordedByMember": "Salvestaja: {name}",
+  "accountLink": "Konto ülekandmine"
 }

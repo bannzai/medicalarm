@@ -213,5 +213,6 @@
   "invitationCodeInputLabel": "ਸੱਦਾ ਕੋਡ (8 ਅੱਖਰ)",
   "invitationCodeInputHint": "8 ਅੱਖਰਾਂ ਵਾਲਾ ਕੋਡ ਦਾਖਲ ਕਰੋ",
   "join": "ਸ਼ਾਮਲ ਹੋਵੋ",
-  "recordedByMember": "{name} ਨੇ ਦਰਜ ਕੀਤਾ"
+  "recordedByMember": "{name} ਨੇ ਦਰਜ ਕੀਤਾ",
+  "accountLink": "ਖਾਤਾ ਟ੍ਰਾਂਸਫਰ"
 }

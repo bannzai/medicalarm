@@ -213,5 +213,6 @@
   "invitationCodeInputLabel": "Чакыруу коду (8 белги)",
   "invitationCodeInputHint": "8 белгиден турган кодду киргизиңиз",
   "join": "Кошулуу",
-  "recordedByMember": "Жазып алган: {name}"
+  "recordedByMember": "Жазып алган: {name}",
+  "accountLink": "Каттоо эсебин өткөрүү"
 }

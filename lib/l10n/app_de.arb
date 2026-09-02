@@ -213,5 +213,6 @@
   "invitationCodeInputLabel": "Einladungscode (8 Zeichen)",
   "invitationCodeInputHint": "Geben Sie den 8-stelligen Code ein",
   "join": "Beitreten",
-  "recordedByMember": "Aufgezeichnet von {name}"
+  "recordedByMember": "Aufgezeichnet von {name}",
+  "accountLink": "Kontoübertragung"
 }

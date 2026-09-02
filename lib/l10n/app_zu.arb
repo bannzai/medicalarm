@@ -213,5 +213,6 @@
   "invitationCodeInputLabel": "Ikhodi yesimemo (izinhlamvu ezingu-8)",
   "invitationCodeInputHint": "Faka ikhodi enezinhlamvu eziyi-8",
   "join": "Joyina",
-  "recordedByMember": "Kuqoshwe ngu-{name}"
+  "recordedByMember": "Kuqoshwe ngu-{name}",
+  "accountLink": "Ukudluliselwa kwe-akhawunti"
 }

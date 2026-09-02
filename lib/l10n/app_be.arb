@@ -213,5 +213,6 @@
   "invitationCodeInputLabel": "Код запрашэння (8 сімвалаў)",
   "invitationCodeInputHint": "Увядзіце код з 8 сімвалаў",
   "join": "Далучыцца",
-  "recordedByMember": "Запісана {name}"
+  "recordedByMember": "Запісана {name}",
+  "accountLink": "Перадача ўліковага запісу"
 }

@@ -213,5 +213,6 @@
   "invitationCodeInputLabel": "Pozvánkový kód (8 znaků)",
   "invitationCodeInputHint": "Zadejte 8znakový kód",
   "join": "Připojit se",
-  "recordedByMember": "Zaznamenal(a) {name}"
+  "recordedByMember": "Zaznamenal(a) {name}",
+  "accountLink": "Přenos účtu"
 }

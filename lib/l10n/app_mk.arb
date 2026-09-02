@@ -213,5 +213,6 @@
   "invitationCodeInputLabel": "Код за покана (8 знаци)",
   "invitationCodeInputHint": "Внесете го кодот од 8 знаци",
   "join": "Придружи се",
-  "recordedByMember": "Евидентирано од {name}"
+  "recordedByMember": "Евидентирано од {name}",
+  "accountLink": "Пренос на сметка"
 }

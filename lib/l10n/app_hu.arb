@@ -213,5 +213,6 @@
   "invitationCodeInputLabel": "Meghívókód (8 karakter)",
   "invitationCodeInputHint": "Adja meg a 8 karakterből álló kódot",
   "join": "Csatlakozás",
-  "recordedByMember": "{name} rögzítette"
+  "recordedByMember": "{name} rögzítette",
+  "accountLink": "Fiók átvitele"
 }

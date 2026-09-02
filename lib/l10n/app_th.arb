@@ -213,5 +213,6 @@
   "invitationCodeInputLabel": "รหัสคำเชิญ (8 อักขระ)",
   "invitationCodeInputHint": "ป้อนรหัส 8 ตัวอักษร",
   "join": "เข้าร่วม",
-  "recordedByMember": "บันทึกโดย {name}"
+  "recordedByMember": "บันทึกโดย {name}",
+  "accountLink": "โอนบัญชี"
 }

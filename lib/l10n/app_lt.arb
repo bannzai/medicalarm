@@ -213,5 +213,6 @@
   "invitationCodeInputLabel": "Pakvietimo kodas (8 simboliai)",
   "invitationCodeInputHint": "Įveskite 8 simbolių kodą",
   "join": "Prisijungti",
-  "recordedByMember": "Užregistravo {name}"
+  "recordedByMember": "Užregistravo {name}",
+  "accountLink": "Paskyros perkėlimas"
 }

@@ -213,5 +213,6 @@
   "invitationCodeInputLabel": "ക്ഷണ കോഡ് (8 അക്ഷരങ്ങൾ)",
   "invitationCodeInputHint": "8 അക്ഷരങ്ങളുള്ള കോഡ് നൽകുക",
   "join": "ചേരുക",
-  "recordedByMember": "{name} രേഖപ്പെടുത്തി"
+  "recordedByMember": "{name} രേഖപ്പെടുത്തി",
+  "accountLink": "അക്കൗണ്ട് കൈമാറ്റം"
 }

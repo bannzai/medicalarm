@@ -213,5 +213,6 @@
   "invitationCodeInputLabel": "Código de invitación (8 caracteres)",
   "invitationCodeInputHint": "Introduce el código de 8 caracteres",
   "join": "Unirse",
-  "recordedByMember": "Registrado por {name}"
+  "recordedByMember": "Registrado por {name}",
+  "accountLink": "Transferencia de cuenta"
 }

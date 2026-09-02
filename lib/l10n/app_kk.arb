@@ -213,5 +213,6 @@
   "invitationCodeInputLabel": "Шақыру коды (8 таңба)",
   "invitationCodeInputHint": "8 таңбалы кодты енгізіңіз",
   "join": "Қосылу",
-  "recordedByMember": "{name} тіркеді"
+  "recordedByMember": "{name} тіркеді",
+  "accountLink": "Тіркелгіні көшіру"
 }

@@ -213,5 +213,6 @@
   "invitationCodeInputLabel": "Код приглашения (8 символов)",
   "invitationCodeInputHint": "Введите 8-символьный код",
   "join": "Присоединиться",
-  "recordedByMember": "Записано: {name}"
+  "recordedByMember": "Записано: {name}",
+  "accountLink": "Перенос аккаунта"
 }

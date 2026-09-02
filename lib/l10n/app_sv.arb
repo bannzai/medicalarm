@@ -213,5 +213,6 @@
   "invitationCodeInputLabel": "Inbjudningskod (8 tecken)",
   "invitationCodeInputHint": "Ange den 8 tecken långa koden",
   "join": "Gå med",
-  "recordedByMember": "Registrerat av {name}"
+  "recordedByMember": "Registrerat av {name}",
+  "accountLink": "Kontoöverföring"
 }

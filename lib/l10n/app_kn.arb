@@ -213,5 +213,6 @@
   "invitationCodeInputLabel": "ಆಹ್ವಾನ ಕೋಡ್ (8 ಅಕ್ಷರಗಳು)",
   "invitationCodeInputHint": "8 ಅಕ್ಷರಗಳ ಕೋಡ್ ನಮೂದಿಸಿ",
   "join": "ಸೇರಿ",
-  "recordedByMember": "{name} ದಾಖಲಿಸಿದ್ದಾರೆ"
+  "recordedByMember": "{name} ದಾಖಲಿಸಿದ್ದಾರೆ",
+  "accountLink": "ಖಾತೆ ವರ್ಗಾವಣೆ"
 }

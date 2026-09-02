@@ -213,5 +213,6 @@
   "invitationCodeInputLabel": "ఆహ్వాన కోడ్ (8 అక్షరాలు)",
   "invitationCodeInputHint": "8 అక్షరాల కోడ్‌ను నమోదు చేయండి",
   "join": "చేరండి",
-  "recordedByMember": "{name} నమోదు చేశారు"
+  "recordedByMember": "{name} నమోదు చేశారు",
+  "accountLink": "ఖాతా బదిలీ"
 }

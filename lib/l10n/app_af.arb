@@ -213,5 +213,6 @@
   "invitationCodeInputLabel": "Uitnodigingskode (8 karakters)",
   "invitationCodeInputHint": "Voer die 8-karakterkode in",
   "join": "Sluit aan",
-  "recordedByMember": "Geregistreer deur {name}"
+  "recordedByMember": "Geregistreer deur {name}",
+  "accountLink": "Rekeningoordrag"
 }

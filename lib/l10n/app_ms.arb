@@ -213,5 +213,6 @@
   "invitationCodeInputLabel": "Kod jemputan (8 aksara)",
   "invitationCodeInputHint": "Masukkan kod 8 aksara",
   "join": "Sertai",
-  "recordedByMember": "Direkodkan oleh {name}"
+  "recordedByMember": "Direkodkan oleh {name}",
+  "accountLink": "Pemindahan akaun"
 }

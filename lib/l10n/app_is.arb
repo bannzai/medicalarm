@@ -213,5 +213,6 @@
   "invitationCodeInputLabel": "Boðskóði (8 stafir)",
   "invitationCodeInputHint": "Sláðu inn 8 stafa kóðann",
   "join": "Taka þátt",
-  "recordedByMember": "Skráð af {name}"
+  "recordedByMember": "Skráð af {name}",
+  "accountLink": "Flutningur reiknings"
 }

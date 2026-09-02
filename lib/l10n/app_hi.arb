@@ -213,5 +213,6 @@
   "invitationCodeInputLabel": "आमंत्रण कोड (8 अक्षर)",
   "invitationCodeInputHint": "8 अक्षरों वाला कोड दर्ज करें",
   "join": "शामिल हों",
-  "recordedByMember": "{name} ने दर्ज किया"
+  "recordedByMember": "{name} ने दर्ज किया",
+  "accountLink": "अकाउंट ट्रांसफ़र"
 }

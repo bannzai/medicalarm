@@ -213,5 +213,6 @@
   "invitationCodeInputLabel": "আমন্ত্রণ কোড (৮ অক্ষর)",
   "invitationCodeInputHint": "৮ অক্ষরের কোড লিখুন",
   "join": "যোগ দিন",
-  "recordedByMember": "{name} রেকর্ড করেছেন"
+  "recordedByMember": "{name} রেকর্ড করেছেন",
+  "accountLink": "অ্যাকাউন্ট স্থানান্তর"
 }

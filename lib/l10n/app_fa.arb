@@ -213,5 +213,6 @@
   "invitationCodeInputLabel": "کد دعوت (۸ نویسه)",
   "invitationCodeInputHint": "کد ۸ نویسه‌ای را وارد کنید",
   "join": "پیوستن",
-  "recordedByMember": "ثبت‌شده توسط {name}"
+  "recordedByMember": "ثبت‌شده توسط {name}",
+  "accountLink": "انتقال حساب"
 }

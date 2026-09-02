@@ -213,5 +213,6 @@
   "invitationCodeInputLabel": "Código de convite (8 caracteres)",
   "invitationCodeInputHint": "Introduza o código de 8 caracteres",
   "join": "Participar",
-  "recordedByMember": "Registado por {name}"
+  "recordedByMember": "Registado por {name}",
+  "accountLink": "Transferência de conta"
 }

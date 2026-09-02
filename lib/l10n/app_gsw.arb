@@ -213,5 +213,6 @@
   "invitationCodeInputLabel": "Iiladigscode (8 Zeiche)",
   "invitationCodeInputHint": "Gänd Sie dä 8-stellig Code ii",
   "join": "Biitrete",
-  "recordedByMember": "Ufgzeichnet vo {name}"
+  "recordedByMember": "Ufgzeichnet vo {name}",
+  "accountLink": "Kontoübertragung"
 }

@@ -213,5 +213,6 @@
   "invitationCodeInputLabel": "Pozivni kod (8 znakova)",
   "invitationCodeInputHint": "Unesite kôd od 8 znakova",
   "join": "Pridruži se",
-  "recordedByMember": "Zabilježio/la {name}"
+  "recordedByMember": "Zabilježio/la {name}",
+  "accountLink": "Prijenos računa"
 }

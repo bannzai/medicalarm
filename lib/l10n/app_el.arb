@@ -213,5 +213,6 @@
   "invitationCodeInputLabel": "Κωδικός πρόσκλησης (8 χαρακτήρες)",
   "invitationCodeInputHint": "Εισαγάγετε τον κωδικό 8 χαρακτήρων",
   "join": "Συμμετοχή",
-  "recordedByMember": "Καταγράφηκε από {name}"
+  "recordedByMember": "Καταγράφηκε από {name}",
+  "accountLink": "Μεταφορά λογαριασμού"
 }

@@ -213,5 +213,6 @@
   "invitationCodeInputLabel": "Kod zaproszenia (8 znaków)",
   "invitationCodeInputHint": "Wprowadź 8-znakowy kod",
   "join": "Dołącz",
-  "recordedByMember": "Zapisane przez {name}"
+  "recordedByMember": "Zapisane przez {name}",
+  "accountLink": "Przeniesienie konta"
 }

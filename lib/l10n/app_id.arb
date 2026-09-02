@@ -213,5 +213,6 @@
   "invitationCodeInputLabel": "Kode undangan (8 karakter)",
   "invitationCodeInputHint": "Masukkan kode 8 karakter",
   "join": "Gabung",
-  "recordedByMember": "Dicatat oleh {name}"
+  "recordedByMember": "Dicatat oleh {name}",
+  "accountLink": "Transfer akun"
 }

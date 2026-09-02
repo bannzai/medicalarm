@@ -213,5 +213,6 @@
   "invitationCodeInputLabel": "Հրավերի կոդ (8 նիշ)",
   "invitationCodeInputHint": "Մուտքագրեք 8 նիշանոց կոդը",
   "join": "Միանալ",
-  "recordedByMember": "{name}-ի կողմից գրանցված"
+  "recordedByMember": "{name}-ի կողմից գրանցված",
+  "accountLink": "Հաշվի փոխանցում"
 }

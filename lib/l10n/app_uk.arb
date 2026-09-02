@@ -213,5 +213,6 @@
   "invitationCodeInputLabel": "Код запрошення (8 символів)",
   "invitationCodeInputHint": "Введіть 8-символьний код",
   "join": "Приєднатися",
-  "recordedByMember": "Запис внесено користувачем {name}"
+  "recordedByMember": "Запис внесено користувачем {name}",
+  "accountLink": "Перенесення облікового запису"
 }

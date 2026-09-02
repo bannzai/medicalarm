@@ -213,5 +213,6 @@
   "invitationCodeInputLabel": "आमंत्रण कोड (८ अक्षरे)",
   "invitationCodeInputHint": "८ अक्षरांचा कोड प्रविष्ट करा",
   "join": "सामील व्हा",
-  "recordedByMember": "{name} यांनी नोंदवले"
+  "recordedByMember": "{name} यांनी नोंदवले",
+  "accountLink": "खाते हस्तांतरण"
 }

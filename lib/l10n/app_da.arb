@@ -213,5 +213,6 @@
   "invitationCodeInputLabel": "Invitationskode (8 tegn)",
   "invitationCodeInputHint": "Indtast koden på 8 tegn",
   "join": "Deltag",
-  "recordedByMember": "Registreret af {name}"
+  "recordedByMember": "Registreret af {name}",
+  "accountLink": "Kontooverførsel"
 }

@@ -213,5 +213,6 @@
   "invitationCodeInputLabel": "Davet kodu (8 karakter)",
   "invitationCodeInputHint": "8 karakterli kodu girin",
   "join": "Katıl",
-  "recordedByMember": "{name} tarafından kaydedildi"
+  "recordedByMember": "{name} tarafından kaydedildi",
+  "accountLink": "Hesap aktarımı"
 }

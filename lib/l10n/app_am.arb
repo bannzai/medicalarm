@@ -213,5 +213,6 @@
   "invitationCodeInputLabel": "የግብዣ ኮድ (8 ቁምፊዎች)",
   "invitationCodeInputHint": "8 ቁምፊ ያለውን ኮድ ያስገቡ",
   "join": "ይቀላቀሉ",
-  "recordedByMember": "በ{name} የተመዘገበ"
+  "recordedByMember": "በ{name} የተመዘገበ",
+  "accountLink": "የመለያ ማስተላለፍ"
 }

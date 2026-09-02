@@ -213,5 +213,6 @@
   "invitationCodeInputLabel": "Dəvət kodu (8 simvol)",
   "invitationCodeInputHint": "8 simvolluq kodu daxil edin",
   "join": "Qoşulun",
-  "recordedByMember": "{name} tərəfindən qeyd edilib"
+  "recordedByMember": "{name} tərəfindən qeyd edilib",
+  "accountLink": "Hesabın köçürülməsi"
 }

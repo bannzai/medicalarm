@@ -213,5 +213,6 @@
   "invitationCodeInputLabel": "Cod gwahoddiad (8 nod)",
   "invitationCodeInputHint": "Rhowch y cod 8 nod",
   "join": "Ymuno",
-  "recordedByMember": "Cofnodwyd gan {name}"
+  "recordedByMember": "Cofnodwyd gan {name}",
+  "accountLink": "Trosglwyddo cyfrif"
 }

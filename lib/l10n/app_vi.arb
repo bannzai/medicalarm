@@ -213,5 +213,6 @@
   "invitationCodeInputLabel": "Mã lời mời (8 ký tự)",
   "invitationCodeInputHint": "Nhập mã gồm 8 ký tự",
   "join": "Tham gia",
-  "recordedByMember": "Được {name} ghi lại"
+  "recordedByMember": "Được {name} ghi lại",
+  "accountLink": "Chuyển tài khoản"
 }

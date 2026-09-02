@@ -213,5 +213,6 @@
   "invitationCodeInputLabel": "அழைப்புக் குறியீடு (8 எழுத்துகள்)",
   "invitationCodeInputHint": "8 எழுத்துக் குறியீட்டை உள்ளிடவும்",
   "join": "சேரவும்",
-  "recordedByMember": "{name} பதிவு செய்தார்"
+  "recordedByMember": "{name} பதிவு செய்தார்",
+  "accountLink": "கணக்கை மாற்றுதல்"
 }

@@ -213,5 +213,6 @@
   "invitationCodeInputLabel": "Код за покана (8 знака)",
   "invitationCodeInputHint": "Въведете 8-символния код",
   "join": "Присъединяване",
-  "recordedByMember": "Записано от {name}"
+  "recordedByMember": "Записано от {name}",
+  "accountLink": "Прехвърляне на акаунт"
 }

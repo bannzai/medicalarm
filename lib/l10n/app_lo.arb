@@ -213,5 +213,6 @@
   "invitationCodeInputLabel": "ລະຫັດເຊີນ (8 ຕົວອັກສອນ)",
   "invitationCodeInputHint": "ປ້ອນລະຫັດ 8 ຕົວອັກສອນ",
   "join": "ເຂົ້າຮ່ວມ",
-  "recordedByMember": "ບັນທຶກໂດຍ {name}"
+  "recordedByMember": "ບັນທຶກໂດຍ {name}",
+  "accountLink": "ການໂອນບັນຊີ"
 }

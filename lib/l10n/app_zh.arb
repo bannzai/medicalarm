@@ -213,5 +213,6 @@
   "invitationCodeInputLabel": "邀请码（8个字符）",
   "invitationCodeInputHint": "输入 8 位代码",
   "join": "加入",
-  "recordedByMember": "由{name}记录"
+  "recordedByMember": "由{name}记录",
+  "accountLink": "账号迁移"
 }

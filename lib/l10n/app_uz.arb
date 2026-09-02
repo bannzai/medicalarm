@@ -213,5 +213,6 @@
   "invitationCodeInputLabel": "Taklif kodi (8 ta belgi)",
   "invitationCodeInputHint": "8 belgidan iborat kodni kiriting",
   "join": "Qo‘shilish",
-  "recordedByMember": "{name} qayd etdi"
+  "recordedByMember": "{name} qayd etdi",
+  "accountLink": "Hisobni ko‘chirish"
 }

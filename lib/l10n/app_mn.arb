@@ -213,5 +213,6 @@
   "invitationCodeInputLabel": "Урилгын код (8 тэмдэгт)",
   "invitationCodeInputHint": "8 тэмдэгттэй кодыг оруулна уу",
   "join": "Нэгдэх",
-  "recordedByMember": "{name} бүртгэсэн"
+  "recordedByMember": "{name} бүртгэсэн",
+  "accountLink": "Бүртгэл шилжүүлэх"
 }

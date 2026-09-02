@@ -213,5 +213,6 @@
   "invitationCodeInputLabel": "Vabilna koda (8 znakov)",
   "invitationCodeInputHint": "Vnesite 8-mestno kodo",
   "join": "Pridruži se",
-  "recordedByMember": "Zabeležil(a) {name}"
+  "recordedByMember": "Zabeležil(a) {name}",
+  "accountLink": "Prenos računa"
 }

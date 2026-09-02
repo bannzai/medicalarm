@@ -213,5 +213,6 @@
   "invitationCodeInputLabel": "მოსაწვევი კოდი (8 სიმბოლო)",
   "invitationCodeInputHint": "შეიყვანეთ 8-სიმბოლოიანი კოდი",
   "join": "შეერთება",
-  "recordedByMember": "ჩაიწერა {name}-ის მიერ"
+  "recordedByMember": "ჩაიწერა {name}-ის მიერ",
+  "accountLink": "ანგარიშის გადატანა"
 }

@@ -213,5 +213,6 @@
   "invitationCodeInputLabel": "Kutsukoodi (8 merkkiä)",
   "invitationCodeInputHint": "Syötä 8-merkkinen koodi",
   "join": "Liity",
-  "recordedByMember": "{name} kirjasi"
+  "recordedByMember": "{name} kirjasi",
+  "accountLink": "Tilin siirto"
 }

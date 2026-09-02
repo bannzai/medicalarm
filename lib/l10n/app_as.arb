@@ -213,5 +213,6 @@
   "invitationCodeInputLabel": "আমন্ত্ৰণ ক’ড (৮টা আখৰ)",
   "invitationCodeInputHint": "৮ আখৰৰ ক'ড লিখক",
   "join": "যোগদান কৰক",
-  "recordedByMember": "ৰেকৰ্ড কৰিছে: {name}"
+  "recordedByMember": "ৰেকৰ্ড কৰিছে: {name}",
+  "accountLink": "একাউণ্ট স্থানান্তৰ"
 }

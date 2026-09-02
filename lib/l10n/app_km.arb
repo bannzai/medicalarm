@@ -213,5 +213,6 @@
   "invitationCodeInputLabel": "កូដអញ្ជើញ (8 តួអក្សរ)",
   "invitationCodeInputHint": "បញ្ចូលលេខកូដ ៨ តួអក្សរ",
   "join": "ចូលរួម",
-  "recordedByMember": "បានកត់ត្រាដោយ {name}"
+  "recordedByMember": "បានកត់ត្រាដោយ {name}",
+  "accountLink": "ផ្ទេរគណនី"
 }

@@ -213,5 +213,6 @@
   "invitationCodeInputLabel": "Uitnodigingscode (8 tekens)",
   "invitationCodeInputHint": "Voer de code van 8 tekens in",
   "join": "Deelnemen",
-  "recordedByMember": "Geregistreerd door {name}"
+  "recordedByMember": "Geregistreerd door {name}",
+  "accountLink": "Account overzetten"
 }

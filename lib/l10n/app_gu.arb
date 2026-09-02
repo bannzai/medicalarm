@@ -213,5 +213,6 @@
   "invitationCodeInputLabel": "આમંત્રણ કોડ (8 અક્ષરો)",
   "invitationCodeInputHint": "8 અક્ષરનો કોડ દાખલ કરો",
   "join": "જોડાઓ",
-  "recordedByMember": "{name} દ્વારા નોંધાયેલ"
+  "recordedByMember": "{name} દ્વારા નોંધાયેલ",
+  "accountLink": "એકાઉન્ટ ટ્રાન્સફર"
 }

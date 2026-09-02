@@ -213,5 +213,6 @@
   "invitationCodeInputLabel": "دعوتی کوڈ (8 حروف)",
   "invitationCodeInputHint": "8 حروفی کوڈ درج کریں",
   "join": "شامل ہوں",
-  "recordedByMember": "{name} نے درج کیا"
+  "recordedByMember": "{name} نے درج کیا",
+  "accountLink": "اکاؤنٹ کی منتقلی"
 }

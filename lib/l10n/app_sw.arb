@@ -213,5 +213,6 @@
   "invitationCodeInputLabel": "Msimbo wa mwaliko (herufi 8)",
   "invitationCodeInputHint": "Weka msimbo wa herufi 8",
   "join": "Jiunge",
-  "recordedByMember": "Imerekodiwa na {name}"
+  "recordedByMember": "Imerekodiwa na {name}",
+  "accountLink": "Kuhamisha akaunti"
 }
