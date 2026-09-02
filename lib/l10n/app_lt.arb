@@ -180,5 +180,6 @@
   "revertedTime": "Atšaukimo laikas",
   "revertedByMember": "Atšaukė {name}",
   "medicationTakenAtLabel": "Išgerta {time}",
-  "medicineResumedSnackbar": "Vaistų vartojimas atnaujintas"
+  "medicineResumedSnackbar": "Vaistų vartojimas atnaujintas",
+  "medicineEditTooltip": "Redaguoti vaistą"
 }

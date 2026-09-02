@@ -180,5 +180,6 @@
   "revertedTime": "ເວລາຍົກເລີກ",
   "revertedByMember": "{name} ໄດ້ຍົກເລີກ",
   "medicationTakenAtLabel": "ໄດ້ຮັບປະທານເວລາ {time}",
-  "medicineResumedSnackbar": "ໄດ້ເລີ່ມກິນຢາຄືນໃໝ່ແລ້ວ"
+  "medicineResumedSnackbar": "ໄດ້ເລີ່ມກິນຢາຄືນໃໝ່ແລ້ວ",
+  "medicineEditTooltip": "ແກ້ໄຂຢາ"
 }

@@ -180,5 +180,6 @@
   "revertedTime": "Ezeztapen-ordua",
   "revertedByMember": "Bertan behera utzita: {name}",
   "medicationTakenAtLabel": "{time}(e)an hartuta",
-  "medicineResumedSnackbar": "Sendagaiaren hartzea berrabiarazi da"
+  "medicineResumedSnackbar": "Sendagaiaren hartzea berrabiarazi da",
+  "medicineEditTooltip": "Editatu sendagaia"
 }

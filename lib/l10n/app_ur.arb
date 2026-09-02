@@ -180,5 +180,6 @@
   "revertedTime": "منسوخی کا وقت",
   "revertedByMember": "{name} نے منسوخ کیا",
   "medicationTakenAtLabel": "{time} پر دوا لے لی گئی",
-  "medicineResumedSnackbar": "دوا لینا دوبارہ شروع کر دیا گیا ہے"
+  "medicineResumedSnackbar": "دوا لینا دوبارہ شروع کر دیا گیا ہے",
+  "medicineEditTooltip": "دوا میں ترمیم کریں"
 }

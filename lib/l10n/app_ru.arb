@@ -180,5 +180,6 @@
   "revertedTime": "Время отмены",
   "revertedByMember": "Отменено пользователем {name}",
   "medicationTakenAtLabel": "Принято в {time}",
-  "medicineResumedSnackbar": "Приём лекарства возобновлён"
+  "medicineResumedSnackbar": "Приём лекарства возобновлён",
+  "medicineEditTooltip": "Редактировать лекарство"
 }

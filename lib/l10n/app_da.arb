@@ -180,5 +180,6 @@
   "revertedTime": "Annulleringstid",
   "revertedByMember": "Annulleret af {name}",
   "medicationTakenAtLabel": "Taget kl. {time}",
-  "medicineResumedSnackbar": "Medicinen er genoptaget"
+  "medicineResumedSnackbar": "Medicinen er genoptaget",
+  "medicineEditTooltip": "Rediger medicin"
 }

@@ -180,5 +180,6 @@
   "revertedTime": "취소 시간",
   "revertedByMember": "{name}님이 취소함",
   "medicationTakenAtLabel": "{time} 복용 완료",
-  "medicineResumedSnackbar": "약 복용을 재개했습니다"
+  "medicineResumedSnackbar": "약 복용을 재개했습니다",
+  "medicineEditTooltip": "약 편집"
 }

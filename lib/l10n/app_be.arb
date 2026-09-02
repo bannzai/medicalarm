@@ -180,5 +180,6 @@
   "revertedTime": "Час адмены",
   "revertedByMember": "Запіс скасаваны карыстальнікам {name}",
   "medicationTakenAtLabel": "Прынята ў {time}",
-  "medicineResumedSnackbar": "Прыём прэпарата адноўлены"
+  "medicineResumedSnackbar": "Прыём прэпарата адноўлены",
+  "medicineEditTooltip": "Рэдагаваць лекі"
 }

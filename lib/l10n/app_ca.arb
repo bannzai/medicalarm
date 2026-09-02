@@ -180,5 +180,6 @@
   "revertedTime": "Hora de cancel·lació",
   "revertedByMember": "Cancel·lat per {name}",
   "medicationTakenAtLabel": "Pres a les {time}",
-  "medicineResumedSnackbar": "S'ha reprès la presa del medicament"
+  "medicineResumedSnackbar": "S'ha reprès la presa del medicament",
+  "medicineEditTooltip": "Edita el medicament"
 }

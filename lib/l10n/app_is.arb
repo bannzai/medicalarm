@@ -180,5 +180,6 @@
   "revertedTime": "Tími afturköllunar",
   "revertedByMember": "Hætt við af {name}",
   "medicationTakenAtLabel": "Tekið kl. {time}",
-  "medicineResumedSnackbar": "Lyfjatöku hefur verið haldið áfram"
+  "medicineResumedSnackbar": "Lyfjatöku hefur verið haldið áfram",
+  "medicineEditTooltip": "Breyta lyfi"
 }

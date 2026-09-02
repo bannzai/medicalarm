@@ -180,5 +180,6 @@
   "revertedTime": "रद्द करण्याची वेळ",
   "revertedByMember": "{name} यांनी रद्द केले",
   "medicationTakenAtLabel": "{time} वाजता घेतले",
-  "medicineResumedSnackbar": "औषध घेणे पुन्हा सुरू केले"
+  "medicineResumedSnackbar": "औषध घेणे पुन्हा सुरू केले",
+  "medicineEditTooltip": "औषध संपादित करा"
 }

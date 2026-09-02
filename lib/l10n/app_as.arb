@@ -180,5 +180,6 @@
   "revertedTime": "বাতিল কৰাৰ সময়",
   "revertedByMember": "{name}-এ বাতিল কৰিছে",
   "medicationTakenAtLabel": "{time}-ত সেৱন কৰা হৈছে",
-  "medicineResumedSnackbar": "ঔষধ সেৱন পুনৰ আৰম্ভ কৰা হৈছে"
+  "medicineResumedSnackbar": "ঔষধ সেৱন পুনৰ আৰম্ভ কৰা হৈছে",
+  "medicineEditTooltip": "ঔষধ সম্পাদনা কৰক"
 }

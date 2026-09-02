@@ -180,5 +180,6 @@
   "revertedTime": "Tühistamise aeg",
   "revertedByMember": "Tühistas {name}",
   "medicationTakenAtLabel": "Võetud kell {time}",
-  "medicineResumedSnackbar": "Ravimi võtmist jätkati"
+  "medicineResumedSnackbar": "Ravimi võtmist jätkati",
+  "medicineEditTooltip": "Muuda ravimit"
 }

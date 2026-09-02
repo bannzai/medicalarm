@@ -180,5 +180,6 @@
   "revertedTime": "Peruutusaika",
   "revertedByMember": "{name} perui",
   "medicationTakenAtLabel": "Otettu klo {time}",
-  "medicineResumedSnackbar": "Lääkkeen ottamista jatkettiin"
+  "medicineResumedSnackbar": "Lääkkeen ottamista jatkettiin",
+  "medicineEditTooltip": "Muokkaa lääkettä"
 }

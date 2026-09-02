@@ -180,5 +180,6 @@
   "revertedTime": "Цуцалсан цаг",
   "revertedByMember": "{name} цуцалсан",
   "medicationTakenAtLabel": "{time}-д уусан",
-  "medicineResumedSnackbar": "Эм уухыг дахин эхлүүллээ"
+  "medicineResumedSnackbar": "Эм уухыг дахин эхлүүллээ",
+  "medicineEditTooltip": "Эмийг засах"
 }

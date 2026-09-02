@@ -180,5 +180,6 @@
   "revertedTime": "የመሰረዣ ጊዜ",
   "revertedByMember": "{name} ሰርዘዋል",
   "medicationTakenAtLabel": "በ{time} ተወስዷል",
-  "medicineResumedSnackbar": "የመድኃኒት አጠቃቀም ቀጥሏል"
+  "medicineResumedSnackbar": "የመድኃኒት አጠቃቀም ቀጥሏል",
+  "medicineEditTooltip": "መድኃኒት አርትዕ"
 }

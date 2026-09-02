@@ -180,5 +180,6 @@
   "revertedTime": "Hora do cancelamento",
   "revertedByMember": "Cancelado por {name}",
   "medicationTakenAtLabel": "Tomado às {time}",
-  "medicineResumedSnackbar": "A toma do medicamento foi retomada"
+  "medicineResumedSnackbar": "A toma do medicamento foi retomada",
+  "medicineEditTooltip": "Editar medicamento"
 }

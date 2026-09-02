@@ -180,5 +180,6 @@
   "revertedTime": "ਰੱਦ ਕਰਨ ਦਾ ਸਮਾਂ",
   "revertedByMember": "{name} ਨੇ ਰੱਦ ਕੀਤਾ",
   "medicationTakenAtLabel": "{time} ਵਜੇ ਲਈ ਗਈ",
-  "medicineResumedSnackbar": "ਦਵਾਈ ਲੈਣੀ ਮੁੜ ਸ਼ੁਰੂ ਕੀਤੀ ਗਈ ਹੈ"
+  "medicineResumedSnackbar": "ਦਵਾਈ ਲੈਣੀ ਮੁੜ ਸ਼ੁਰੂ ਕੀਤੀ ਗਈ ਹੈ",
+  "medicineEditTooltip": "ਦਵਾਈ ਸੰਪਾਦਿਤ ਕਰੋ"
 }

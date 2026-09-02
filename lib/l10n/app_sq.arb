@@ -180,5 +180,6 @@
   "revertedTime": "Koha e anulimit",
   "revertedByMember": "Anuluar nga {name}",
   "medicationTakenAtLabel": "Marrë në {time}",
-  "medicineResumedSnackbar": "Marrja e ilaçit u rifillua"
+  "medicineResumedSnackbar": "Marrja e ilaçit u rifillua",
+  "medicineEditTooltip": "Modifiko ilaçin"
 }

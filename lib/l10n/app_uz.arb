@@ -180,5 +180,6 @@
   "revertedTime": "Bekor qilingan vaqt",
   "revertedByMember": "{name} bekor qildi",
   "medicationTakenAtLabel": "{time} da qabul qilindi",
-  "medicineResumedSnackbar": "Dorini qabul qilish qayta boshlandi"
+  "medicineResumedSnackbar": "Dorini qabul qilish qayta boshlandi",
+  "medicineEditTooltip": "Dorini tahrirlash"
 }

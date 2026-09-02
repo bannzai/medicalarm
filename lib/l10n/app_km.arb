@@ -180,5 +180,6 @@
   "revertedTime": "ពេលវេលាលុបចោល",
   "revertedByMember": "{name} បានបោះបង់",
   "medicationTakenAtLabel": "បានលេបនៅម៉ោង {time}",
-  "medicineResumedSnackbar": "ការលេបថ្នាំត្រូវបានចាប់ផ្តើមឡើងវិញ"
+  "medicineResumedSnackbar": "ការលេបថ្នាំត្រូវបានចាប់ផ្តើមឡើងវិញ",
+  "medicineEditTooltip": "កែសម្រួលថ្នាំ"
 }

@@ -180,5 +180,6 @@
   "revertedTime": "Ώρα ακύρωσης",
   "revertedByMember": "Ακύρωση από: {name}",
   "medicationTakenAtLabel": "Λήφθηκε στις {time}",
-  "medicineResumedSnackbar": "Η λήψη του φαρμάκου συνεχίστηκε"
+  "medicineResumedSnackbar": "Η λήψη του φαρμάκου συνεχίστηκε",
+  "medicineEditTooltip": "Επεξεργασία φαρμάκου"
 }

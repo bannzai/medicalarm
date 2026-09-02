@@ -180,5 +180,6 @@
   "revertedTime": "रद्द करने का समय",
   "revertedByMember": "{name} ने रद्द किया",
   "medicationTakenAtLabel": "{time} पर लिया गया",
-  "medicineResumedSnackbar": "दवा लेना फिर से शुरू किया गया"
+  "medicineResumedSnackbar": "दवा लेना फिर से शुरू किया गया",
+  "medicineEditTooltip": "दवा संपादित करें"
 }

@@ -180,5 +180,6 @@
   "revertedTime": "זמן הביטול",
   "revertedByMember": "בוטל על ידי {name}",
   "medicationTakenAtLabel": "נלקח ב־{time}",
-  "medicineResumedSnackbar": "נטילת התרופה חודשה"
+  "medicineResumedSnackbar": "נטילת התרופה חודשה",
+  "medicineEditTooltip": "עריכת תרופה"
 }

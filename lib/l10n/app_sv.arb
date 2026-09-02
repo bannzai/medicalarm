@@ -180,5 +180,6 @@
   "revertedTime": "Tidpunkt för avbokning",
   "revertedByMember": "Avbrutet av {name}",
   "medicationTakenAtLabel": "Tagen kl. {time}",
-  "medicineResumedSnackbar": "Intaget av medicinen har återupptagits"
+  "medicineResumedSnackbar": "Intaget av medicinen har återupptagits",
+  "medicineEditTooltip": "Redigera medicin"
 }

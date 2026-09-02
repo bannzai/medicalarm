@@ -180,5 +180,6 @@
   "revertedTime": "Време на откажување",
   "revertedByMember": "Откажано од {name}",
   "medicationTakenAtLabel": "Земено во {time}",
-  "medicineResumedSnackbar": "Земањето на лекот е продолжено"
+  "medicineResumedSnackbar": "Земањето на лекот е продолжено",
+  "medicineEditTooltip": "Уреди лек"
 }

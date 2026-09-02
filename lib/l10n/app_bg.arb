@@ -180,5 +180,6 @@
   "revertedTime": "Час на отмяна",
   "revertedByMember": "Отменено от {name}",
   "medicationTakenAtLabel": "Прието в {time}",
-  "medicineResumedSnackbar": "Приемът на лекарството е възобновен"
+  "medicineResumedSnackbar": "Приемът на лекарството е възобновен",
+  "medicineEditTooltip": "Редактиране на лекарство"
 }

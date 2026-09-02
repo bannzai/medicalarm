@@ -180,5 +180,6 @@
   "revertedTime": "റദ്ദാക്കിയ സമയം",
   "revertedByMember": "{name} റദ്ദാക്കി",
   "medicationTakenAtLabel": "{time}-ന് കഴിച്ചു",
-  "medicineResumedSnackbar": "മരുന്ന് കഴിക്കുന്നത് പുനരാരംഭിച്ചു"
+  "medicineResumedSnackbar": "മരുന്ന് കഴിക്കുന്നത് പുനരാരംഭിച്ചു",
+  "medicineEditTooltip": "മരുന്ന് എഡിറ്റ് ചെയ്യുക"
 }

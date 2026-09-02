@@ -180,5 +180,6 @@
   "revertedTime": "રદ કરવાનો સમય",
   "revertedByMember": "{name} એ રદ કર્યું છે",
   "medicationTakenAtLabel": "{time} વાગ્યે લીધું",
-  "medicineResumedSnackbar": "દવા લેવાનું ફરી શરૂ થયું છે"
+  "medicineResumedSnackbar": "દવા લેવાનું ફરી શરૂ થયું છે",
+  "medicineEditTooltip": "દવા સંપાદિત કરો"
 }

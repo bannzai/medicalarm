@@ -180,5 +180,6 @@
   "revertedTime": "రద్దు చేసిన సమయం",
   "revertedByMember": "{name} రద్దు చేశారు",
   "medicationTakenAtLabel": "{time}కి తీసుకున్నారు",
-  "medicineResumedSnackbar": "మందు తీసుకోవడం మళ్లీ ప్రారంభమైంది"
+  "medicineResumedSnackbar": "మందు తీసుకోవడం మళ్లీ ప్రారంభమైంది",
+  "medicineEditTooltip": "మందును సవరించండి"
 }

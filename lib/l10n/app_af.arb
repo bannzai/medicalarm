@@ -180,5 +180,6 @@
   "revertedTime": "Kansellasietyd",
   "revertedByMember": "{name} het gekanselleer",
   "medicationTakenAtLabel": "{time} Ingeneem",
-  "medicineResumedSnackbar": "Medikasie hervat"
+  "medicineResumedSnackbar": "Medikasie hervat",
+  "medicineEditTooltip": "Wysig medisyne"
 }

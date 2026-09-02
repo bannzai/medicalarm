@@ -180,5 +180,6 @@
   "revertedTime": "Oras ng pagkansela",
   "revertedByMember": "Kinansela ni {name}",
   "medicationTakenAtLabel": "Ininom noong {time}",
-  "medicineResumedSnackbar": "Ipinagpatuloy ang pag-inom ng gamot"
+  "medicineResumedSnackbar": "Ipinagpatuloy ang pag-inom ng gamot",
+  "medicineEditTooltip": "I-edit ang gamot"
 }

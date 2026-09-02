@@ -180,5 +180,6 @@
   "revertedTime": "Waktu pembatalan",
   "revertedByMember": "{name} membatalkan",
   "medicationTakenAtLabel": "Diminum pada {time}",
-  "medicineResumedSnackbar": "Konsumsi obat dilanjutkan"
+  "medicineResumedSnackbar": "Konsumsi obat dilanjutkan",
+  "medicineEditTooltip": "Edit obat"
 }

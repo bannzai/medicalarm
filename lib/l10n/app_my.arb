@@ -180,5 +180,6 @@
   "revertedTime": "ပယ်ဖျက်သည့်အချိန်",
   "revertedByMember": "{name} က ပယ်ဖျက်ခဲ့သည်",
   "medicationTakenAtLabel": "{time} တွင် သောက်ပြီး",
-  "medicineResumedSnackbar": "ဆေးသောက်ခြင်းကို ပြန်လည်စတင်လိုက်ပါပြီ"
+  "medicineResumedSnackbar": "ဆေးသောက်ခြင်းကို ပြန်လည်စတင်လိုက်ပါပြီ",
+  "medicineEditTooltip": "ဆေးကို တည်းဖြတ်ရန်"
 }

@@ -180,5 +180,6 @@
   "revertedTime": "Ora anulării",
   "revertedByMember": "Anulat de {name}",
   "medicationTakenAtLabel": "Lu at {time}",
-  "medicineResumedSnackbar": "Administrarea medicamentului a fost reluată"
+  "medicineResumedSnackbar": "Administrarea medicamentului a fost reluată",
+  "medicineEditTooltip": "Editează medicamentul"
 }

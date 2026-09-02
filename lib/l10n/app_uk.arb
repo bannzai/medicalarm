@@ -180,5 +180,6 @@
   "revertedTime": "Час скасування",
   "revertedByMember": "Скасовано користувачем {name}",
   "medicationTakenAtLabel": "Прийнято о {time}",
-  "medicineResumedSnackbar": "Прийом ліків відновлено"
+  "medicineResumedSnackbar": "Прийом ліків відновлено",
+  "medicineEditTooltip": "Редагувати ліки"
 }

@@ -180,5 +180,6 @@
   "revertedTime": "Annuleertijd",
   "revertedByMember": "Geannuleerd door {name}",
   "medicationTakenAtLabel": "Ingenomen om {time}",
-  "medicineResumedSnackbar": "Het innemen van het medicijn is hervat"
+  "medicineResumedSnackbar": "Het innemen van het medicijn is hervat",
+  "medicineEditTooltip": "Medicijn bewerken"
 }

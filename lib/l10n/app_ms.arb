@@ -180,5 +180,6 @@
   "revertedTime": "Masa pembatalan",
   "revertedByMember": "{name} membatalkan",
   "medicationTakenAtLabel": "Diambil pada {time}",
-  "medicineResumedSnackbar": "Pengambilan ubat disambung semula"
+  "medicineResumedSnackbar": "Pengambilan ubat disambung semula",
+  "medicineEditTooltip": "Edit ubat"
 }
