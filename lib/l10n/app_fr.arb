@@ -158,5 +158,6 @@
   "pilllIntroduction": "Est-ce que c'est la gestion des pilules ? Ne serait-il pas plus pratique de gérer la prise de votre pilule ?",
   "installPilll": "Installer Pilll",
   "criticalAlertVolume": "Volume",
-  "specialGift": "🎉 Cadeau spécial 🎉"
+  "specialGift": "🎉 Cadeau spécial 🎉",
+  "freePremiumTrialDays": "Vous recevrez une période d’essai gratuite de {count} jours en cadeau !"
 }

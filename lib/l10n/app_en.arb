@@ -159,6 +159,7 @@
   "installPilll": "Install Pilll",
   "criticalAlertVolume": "Volume",
   "specialGift": "🎉 Special Gift 🎉",
+  "freePremiumTrialDays": "You'll receive a free {count}-day trial as a gift!",
   "medicationPause": "Enable medication",
   "medicationPauseDescription": "When off, this medicine is hidden from the daily list and notifications.",
   "medicinePausedSnackbar": "Paused this medication",

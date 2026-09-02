@@ -158,5 +158,6 @@
   "pilllIntroduction": "Onko tämä ehkä pillerien hallintaa? Haluatko hallita pillerin käyttöä kätevämmin?",
   "installPilll": "Asenna Pilll",
   "criticalAlertVolume": "Ääni",
-  "specialGift": "🎉 Erityislahja 🎉"
+  "specialGift": "🎉 Erityislahja 🎉",
+  "freePremiumTrialDays": "Saat lahjaksi ilmaisen {count} päivän kokeilujakson!"
 }
