@@ -185,5 +185,6 @@
   "groups": "Mga grupo",
   "groupManagement": "Pamamahala ng mga grupo",
   "createGroup": "Gumawa ng grupo",
-  "groupName": "Pangalan ng grupo"
+  "groupName": "Pangalan ng grupo",
+  "groupNameInputHint": "Ilagay ang pangalan ng grupo"
 }

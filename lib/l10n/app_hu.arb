@@ -185,5 +185,6 @@
   "groups": "Csoportok",
   "groupManagement": "Csoportok kezelése",
   "createGroup": "Csoport létrehozása",
-  "groupName": "Csoport neve"
+  "groupName": "Csoport neve",
+  "groupNameInputHint": "Adja meg a csoport nevét"
 }

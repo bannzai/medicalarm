@@ -185,5 +185,6 @@
   "groups": "গোটসমূহ",
   "groupManagement": "গোট পৰিচালনা",
   "createGroup": "গোট সৃষ্টি কৰক",
-  "groupName": "গোটৰ নাম"
+  "groupName": "গোটৰ নাম",
+  "groupNameInputHint": "গোটৰ নাম লিখক"
 }

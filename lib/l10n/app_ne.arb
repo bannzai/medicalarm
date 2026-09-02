@@ -185,5 +185,6 @@
   "groups": "समूहहरू",
   "groupManagement": "समूह व्यवस्थापन",
   "createGroup": "समूह सिर्जना गर्नुहोस्",
-  "groupName": "समूहको नाम"
+  "groupName": "समूहको नाम",
+  "groupNameInputHint": "समूहको नाम प्रविष्ट गर्नुहोस्"
 }

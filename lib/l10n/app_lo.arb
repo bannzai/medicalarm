@@ -185,5 +185,6 @@
   "groups": "ກຸ່ມ",
   "groupManagement": "ການຈັດການກຸ່ມ",
   "createGroup": "ສ້າງກຸ່ມ",
-  "groupName": "ຊື່ກຸ່ມ"
+  "groupName": "ຊື່ກຸ່ມ",
+  "groupNameInputHint": "ປ້ອນຊື່ກຸ່ມ"
 }

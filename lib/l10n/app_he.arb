@@ -185,5 +185,6 @@
   "groups": "קבוצות",
   "groupManagement": "ניהול קבוצות",
   "createGroup": "יצירת קבוצה",
-  "groupName": "שם הקבוצה"
+  "groupName": "שם הקבוצה",
+  "groupNameInputHint": "הזן את שם הקבוצה"
 }

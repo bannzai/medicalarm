@@ -185,5 +185,6 @@
   "groups": "Kumpulan",
   "groupManagement": "Pengurusan kumpulan",
   "createGroup": "Cipta kumpulan",
-  "groupName": "Nama kumpulan"
+  "groupName": "Nama kumpulan",
+  "groupNameInputHint": "Masukkan nama kumpulan"
 }

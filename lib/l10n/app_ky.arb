@@ -185,5 +185,6 @@
   "groups": "Топтор",
   "groupManagement": "Топторду башкаруу",
   "createGroup": "Топ түзүү",
-  "groupName": "Топтун аты"
+  "groupName": "Топтун аты",
+  "groupNameInputHint": "Топтун атын киргизиңиз"
 }

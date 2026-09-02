@@ -185,5 +185,6 @@
   "groups": "குழுக்கள்",
   "groupManagement": "குழு மேலாண்மை",
   "createGroup": "குழுவை உருவாக்கு",
-  "groupName": "குழுவின் பெயர்"
+  "groupName": "குழுவின் பெயர்",
+  "groupNameInputHint": "குழுவின் பெயரை உள்ளிடவும்"
 }

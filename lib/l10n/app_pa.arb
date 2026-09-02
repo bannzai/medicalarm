@@ -185,5 +185,6 @@
   "groups": "ਸਮੂਹ",
   "groupManagement": "ਗਰੁੱਪ ਪ੍ਰਬੰਧਨ",
   "createGroup": "ਗਰੁੱਪ ਬਣਾਓ",
-  "groupName": "ਗਰੁੱਪ ਦਾ ਨਾਮ"
+  "groupName": "ਗਰੁੱਪ ਦਾ ਨਾਮ",
+  "groupNameInputHint": "ਗਰੁੱਪ ਦਾ ਨਾਮ ਦਰਜ ਕਰੋ"
 }

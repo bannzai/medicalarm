@@ -185,5 +185,6 @@
   "groups": "Խմբեր",
   "groupManagement": "Խմբերի կառավարում",
   "createGroup": "Ստեղծել խումբ",
-  "groupName": "Խմբի անունը"
+  "groupName": "Խմբի անունը",
+  "groupNameInputHint": "Մուտքագրեք խմբի անունը"
 }

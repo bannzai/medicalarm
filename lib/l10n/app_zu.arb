@@ -185,5 +185,6 @@
   "groups": "Amaqembu",
   "groupManagement": "Ukuphathwa kwamaqembu",
   "createGroup": "Dala iqembu",
-  "groupName": "Igama leqembu"
+  "groupName": "Igama leqembu",
+  "groupNameInputHint": "Faka igama leqembu"
 }

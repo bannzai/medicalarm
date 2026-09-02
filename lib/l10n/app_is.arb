@@ -185,5 +185,6 @@
   "groups": "Hópar",
   "groupManagement": "Hópastjórnun",
   "createGroup": "Búa til hóp",
-  "groupName": "Heiti hóps"
+  "groupName": "Heiti hóps",
+  "groupNameInputHint": "Sláðu inn heiti hópsins"
 }

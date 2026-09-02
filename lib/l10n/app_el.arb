@@ -185,5 +185,6 @@
   "groups": "Ομάδες",
   "groupManagement": "Διαχείριση ομάδων",
   "createGroup": "Δημιουργία ομάδας",
-  "groupName": "Όνομα ομάδας"
+  "groupName": "Όνομα ομάδας",
+  "groupNameInputHint": "Εισαγάγετε το όνομα της ομάδας"
 }

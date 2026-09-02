@@ -185,5 +185,6 @@
   "groups": "गट",
   "groupManagement": "गट व्यवस्थापन",
   "createGroup": "गट तयार करा",
-  "groupName": "गटाचे नाव"
+  "groupName": "गटाचे नाव",
+  "groupNameInputHint": "गटाचे नाव प्रविष्ट करा"
 }

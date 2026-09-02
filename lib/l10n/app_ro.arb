@@ -185,5 +185,6 @@
   "groups": "Grupuri",
   "groupManagement": "Gestionarea grupurilor",
   "createGroup": "Creează un grup",
-  "groupName": "Numele grupului"
+  "groupName": "Numele grupului",
+  "groupNameInputHint": "Introduceți numele grupului"
 }

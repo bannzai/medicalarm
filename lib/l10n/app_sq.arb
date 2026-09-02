@@ -185,5 +185,6 @@
   "groups": "Grupet",
   "groupManagement": "Menaxhimi i grupeve",
   "createGroup": "Krijo grup",
-  "groupName": "Emri i grupit"
+  "groupName": "Emri i grupit",
+  "groupNameInputHint": "Shkruani emrin e grupit"
 }

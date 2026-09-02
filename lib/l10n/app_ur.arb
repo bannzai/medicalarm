@@ -185,5 +185,6 @@
   "groups": "گروپس",
   "groupManagement": "گروپس کا نظم و نسق",
   "createGroup": "گروپ بنائیں",
-  "groupName": "گروپ کا نام"
+  "groupName": "گروپ کا نام",
+  "groupNameInputHint": "گروپ کا نام درج کریں"
 }

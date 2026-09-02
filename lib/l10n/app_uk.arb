@@ -185,5 +185,6 @@
   "groups": "Групи",
   "groupManagement": "Керування групами",
   "createGroup": "Створити групу",
-  "groupName": "Назва групи"
+  "groupName": "Назва групи",
+  "groupNameInputHint": "Введіть назву групи"
 }

@@ -185,5 +185,6 @@
   "groups": "Ryhmät",
   "groupManagement": "Ryhmien hallinta",
   "createGroup": "Luo ryhmä",
-  "groupName": "Ryhmän nimi"
+  "groupName": "Ryhmän nimi",
+  "groupNameInputHint": "Anna ryhmän nimi"
 }

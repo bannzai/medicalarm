@@ -185,5 +185,6 @@
   "groups": "গ্রুপ",
   "groupManagement": "গ্রুপ পরিচালনা",
   "createGroup": "গ্রুপ তৈরি করুন",
-  "groupName": "গোষ্ঠীর নাম"
+  "groupName": "গোষ্ঠীর নাম",
+  "groupNameInputHint": "গ্রুপের নাম লিখুন"
 }

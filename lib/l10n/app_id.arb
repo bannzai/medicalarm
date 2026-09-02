@@ -185,5 +185,6 @@
   "groups": "Grup",
   "groupManagement": "Kelola grup",
   "createGroup": "Buat grup",
-  "groupName": "Nama grup"
+  "groupName": "Nama grup",
+  "groupNameInputHint": "Masukkan nama grup"
 }

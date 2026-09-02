@@ -185,5 +185,6 @@
   "groups": "Grupės",
   "groupManagement": "Grupės valdymas",
   "createGroup": "Sukurti grupę",
-  "groupName": "Grupės pavadinimas"
+  "groupName": "Grupės pavadinimas",
+  "groupNameInputHint": "Įveskite grupės pavadinimą"
 }

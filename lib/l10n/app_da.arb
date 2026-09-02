@@ -185,5 +185,6 @@
   "groups": "Grupper",
   "groupManagement": "Gruppeadministration",
   "createGroup": "Opret gruppe",
-  "groupName": "Gruppenavn"
+  "groupName": "Gruppenavn",
+  "groupNameInputHint": "Indtast gruppenavn"
 }

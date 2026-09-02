@@ -185,5 +185,6 @@
   "groups": "گروه‌ها",
   "groupManagement": "مدیریت گروه‌ها",
   "createGroup": "ایجاد گروه",
-  "groupName": "نام گروه"
+  "groupName": "نام گروه",
+  "groupNameInputHint": "نام گروه را وارد کنید"
 }

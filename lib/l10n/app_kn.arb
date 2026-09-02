@@ -185,5 +185,6 @@
   "groups": "ಗುಂಪುಗಳು",
   "groupManagement": "ಗುಂಪು ನಿರ್ವಹಣೆ",
   "createGroup": "ಗುಂಪನ್ನು ರಚಿಸಿ",
-  "groupName": "ಗುಂಪಿನ ಹೆಸರು"
+  "groupName": "ಗುಂಪಿನ ಹೆಸರು",
+  "groupNameInputHint": "ಗುಂಪಿನ ಹೆಸರನ್ನು ನಮೂದಿಸಿ"
 }

@@ -185,5 +185,6 @@
   "groups": "Rühmad",
   "groupManagement": "Rühmade haldamine",
   "createGroup": "Loo rühm",
-  "groupName": "Grupi nimi"
+  "groupName": "Grupi nimi",
+  "groupNameInputHint": "Sisestage rühma nimi"
 }

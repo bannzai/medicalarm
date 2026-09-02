@@ -185,5 +185,6 @@
   "groups": "Skupiny",
   "groupManagement": "Správa skupin",
   "createGroup": "Vytvořit skupinu",
-  "groupName": "Název skupiny"
+  "groupName": "Název skupiny",
+  "groupNameInputHint": "Zadejte název skupiny"
 }

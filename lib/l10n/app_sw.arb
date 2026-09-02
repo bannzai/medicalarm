@@ -185,5 +185,6 @@
   "groups": "Vikundi",
   "groupManagement": "Usimamizi wa vikundi",
   "createGroup": "Unda kikundi",
-  "groupName": "Jina la kikundi"
+  "groupName": "Jina la kikundi",
+  "groupNameInputHint": "Weka jina la kikundi"
 }

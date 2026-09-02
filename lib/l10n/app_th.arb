@@ -185,5 +185,6 @@
   "groups": "กลุ่ม",
   "groupManagement": "การจัดการกลุ่ม",
   "createGroup": "สร้างกลุ่ม",
-  "groupName": "ชื่อกลุ่ม"
+  "groupName": "ชื่อกลุ่ม",
+  "groupNameInputHint": "ป้อนชื่อกลุ่ม"
 }

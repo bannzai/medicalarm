@@ -185,5 +185,6 @@
   "groups": "ଗୋଷ୍ଠୀଗୁଡ଼ିକ",
   "groupManagement": "ଗୋଷ୍ଠୀ ପରିଚାଳନା",
   "createGroup": "ଗୋଷ୍ଠୀ ସୃଷ୍ଟି କରନ୍ତୁ",
-  "groupName": "ଗୋଷ୍ଠୀର ନାମ"
+  "groupName": "ଗୋଷ୍ଠୀର ନାମ",
+  "groupNameInputHint": "ଗୋଷ୍ଠୀର ନାମ ଲେଖନ୍ତୁ"
 }

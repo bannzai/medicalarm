@@ -185,5 +185,6 @@
   "groups": "群组",
   "groupManagement": "群组管理",
   "createGroup": "创建群组",
-  "groupName": "群组名称"
+  "groupName": "群组名称",
+  "groupNameInputHint": "输入群组名称"
 }

@@ -185,5 +185,6 @@
   "groups": "ቡድኖች",
   "groupManagement": "የቡድኖች አስተዳደር",
   "createGroup": "ቡድን ይፍጠሩ",
-  "groupName": "የቡድን ስም"
+  "groupName": "የቡድን ስም",
+  "groupNameInputHint": "የቡድን ስም ያስገቡ"
 }

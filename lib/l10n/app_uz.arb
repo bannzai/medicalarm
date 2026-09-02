@@ -185,5 +185,6 @@
   "groups": "Guruhlar",
   "groupManagement": "Guruhlarni boshqarish",
   "createGroup": "Guruh yaratish",
-  "groupName": "Guruh nomi"
+  "groupName": "Guruh nomi",
+  "groupNameInputHint": "Guruh nomini kiriting"
 }

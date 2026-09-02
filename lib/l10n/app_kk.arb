@@ -185,5 +185,6 @@
   "groups": "Топтар",
   "groupManagement": "Топтарды басқару",
   "createGroup": "Топ құру",
-  "groupName": "Топ атауы"
+  "groupName": "Топ атауы",
+  "groupNameInputHint": "Топ атауын енгізіңіз"
 }

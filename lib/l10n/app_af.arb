@@ -185,5 +185,6 @@
   "groups": "Groepe",
   "groupManagement": "Groepbestuur",
   "createGroup": "Skep groep",
-  "groupName": "Groepnaam"
+  "groupName": "Groepnaam",
+  "groupNameInputHint": "Voer groepnaam in"
 }
