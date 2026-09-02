@@ -223,5 +223,6 @@
   "accountLinkedSnackbar": "Račun je prenesen",
   "accountLinkBannerText": "Pri skupni rabi močno priporočamo, da nastavite prenos računa.",
   "minimumDoseInterval": "Razmik med odmerkoma",
-  "minimumDoseIntervalDescription": "Najkrajši čas med odmerkoma od prejšnjega odmerka"
+  "minimumDoseIntervalDescription": "Najkrajši čas med odmerkoma od prejšnjega odmerka",
+  "minimumDoseIntervalNone": "Brez"
 }

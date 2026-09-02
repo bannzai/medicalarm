@@ -223,5 +223,6 @@
   "accountLinkedSnackbar": "A fiók átkerült",
   "accountLinkBannerText": "Csoportmegosztás esetén nyomatékosan javasoljuk a fiókátvitel beállítását.",
   "minimumDoseInterval": "Adagolási időköz",
-  "minimumDoseIntervalDescription": "Az előző adag óta eltelő minimális idő a következő adagig"
+  "minimumDoseIntervalDescription": "Az előző adag óta eltelő minimális idő a következő adagig",
+  "minimumDoseIntervalNone": "Nincs"
 }

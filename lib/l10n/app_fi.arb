@@ -223,5 +223,6 @@
   "accountLinkedSnackbar": "Tili siirretty",
   "accountLinkBannerText": "Kun jaat ryhmän, suosittelemme vahvasti tilin siirron määrittämistä.",
   "minimumDoseInterval": "Annosväli",
-  "minimumDoseIntervalDescription": "Annosten välinen vähimmäisaika edellisestä annoksesta"
+  "minimumDoseIntervalDescription": "Annosten välinen vähimmäisaika edellisestä annoksesta",
+  "minimumDoseIntervalNone": "Ei mitään"
 }

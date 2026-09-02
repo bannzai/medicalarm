@@ -223,5 +223,6 @@
   "accountLinkedSnackbar": "ანგარიში გადმოიტანეს",
   "accountLinkBannerText": "ჯგუფის გაზიარებისას გირჩევთ, აუცილებლად დააყენოთ ანგარიშის გადატანა.",
   "minimumDoseInterval": "დოზებს შორის ინტერვალი",
-  "minimumDoseIntervalDescription": "წინა დოზის მიღებიდან გასავლელი მინიმალური დრო"
+  "minimumDoseIntervalDescription": "წინა დოზის მიღებიდან გასავლელი მინიმალური დრო",
+  "minimumDoseIntervalNone": "არცერთი"
 }

@@ -223,5 +223,6 @@
   "accountLinkedSnackbar": "Hisob ko‘chirildi",
   "accountLinkBannerText": "Guruhni ulashayotganingizda, hisobni ko‘chirishni sozlashni qat’iy tavsiya qilamiz.",
   "minimumDoseInterval": "Dozalar orasidagi interval",
-  "minimumDoseIntervalDescription": "Oldingi dozadan keyin dozalar orasidagi minimal vaqt"
+  "minimumDoseIntervalDescription": "Oldingi dozadan keyin dozalar orasidagi minimal vaqt",
+  "minimumDoseIntervalNone": "Yo‘q"
 }

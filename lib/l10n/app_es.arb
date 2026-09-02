@@ -223,5 +223,6 @@
   "accountLinkedSnackbar": "Cuenta transferida",
   "accountLinkBannerText": "Mientras compartes un grupo, te recomendamos encarecidamente configurar la transferencia de la cuenta.",
   "minimumDoseInterval": "Intervalo entre dosis",
-  "minimumDoseIntervalDescription": "Tiempo mínimo entre dosis desde la última toma"
+  "minimumDoseIntervalDescription": "Tiempo mínimo entre dosis desde la última toma",
+  "minimumDoseIntervalNone": "Ninguno"
 }

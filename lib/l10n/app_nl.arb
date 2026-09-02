@@ -223,5 +223,6 @@
   "accountLinkedSnackbar": "Account overgedragen",
   "accountLinkBannerText": "Als je een groep deelt, raden we je sterk aan om accountoverdracht in te stellen.",
   "minimumDoseInterval": "Tussenpoos tussen doses",
-  "minimumDoseIntervalDescription": "Minimale tijd tussen doses sinds de vorige dosis"
+  "minimumDoseIntervalDescription": "Minimale tijd tussen doses sinds de vorige dosis",
+  "minimumDoseIntervalNone": "Geen"
 }

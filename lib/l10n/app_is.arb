@@ -223,5 +223,6 @@
   "accountLinkedSnackbar": "Reikningur fluttur",
   "accountLinkBannerText": "Þegar hópi er deilt mælum við eindregið með því að þú setjir upp flutning reiknings.",
   "minimumDoseInterval": "Tímabil milli skammta",
-  "minimumDoseIntervalDescription": "Lágmarkstími á milli skammta frá síðasta skammti"
+  "minimumDoseIntervalDescription": "Lágmarkstími á milli skammta frá síðasta skammti",
+  "minimumDoseIntervalNone": "Ekkert"
 }
