@@ -232,5 +232,6 @@
   "doseIntervalNotificationWarning": "⚠️ Od zadnjega odmerka še ni minilo {minimumDoseIntervalHours} ur",
   "ossLicense": "Licence OSS",
   "onboardingWelcomeTitle": "Znebimo se skrbi,\nda bomo pozabili vzeti zdravilo",
-  "onboardingWelcomeBody": "Registrirajte zdravila in prejemajte obvestila\nPreglejte zapise o jemanju zdravil."
+  "onboardingWelcomeBody": "Registrirajte zdravila in prejemajte obvestila\nPreglejte zapise o jemanju zdravil.",
+  "onboardingWelcomeFeatureReminder": "Obvestilo ob času jemanja zdravila"
 }

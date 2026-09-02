@@ -232,5 +232,6 @@
   "doseIntervalNotificationWarning": "⚠️ Соңғы қабылдаудан бері {minimumDoseIntervalHours} сағат өткен жоқ",
   "ossLicense": "OSS лицензиялары",
   "onboardingWelcomeTitle": "Дәрі қабылдауды ұмытып кету\nуайымын сейілтейік",
-  "onboardingWelcomeBody": "Дәрілеріңізді тіркеп, хабарландырулар алыңыз\nДәрі қабылдау жазбаларын қарап шығыңыз."
+  "onboardingWelcomeBody": "Дәрілеріңізді тіркеп, хабарландырулар алыңыз\nДәрі қабылдау жазбаларын қарап шығыңыз.",
+  "onboardingWelcomeFeatureReminder": "Дәрі қабылдау уақытында хабарландыру"
 }

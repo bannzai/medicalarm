@@ -232,5 +232,6 @@
   "doseIntervalNotificationWarning": "⚠️ Նախորդ ընդունումից դեռ չի անցել {minimumDoseIntervalHours} ժամ",
   "ossLicense": "OSS լիցենզիաներ",
   "onboardingWelcomeTitle": "Վերացնենք դեղորայքն ընդունելը մոռանալու\nանհանգստությունը",
-  "onboardingWelcomeBody": "Գրանցեք ձեր դեղերը և ստացեք ծանուցումներ\nՎերանայեք դեղերի ընդունման ձեր գրանցումները։"
+  "onboardingWelcomeBody": "Գրանցեք ձեր դեղերը և ստացեք ծանուցումներ\nՎերանայեք դեղերի ընդունման ձեր գրանցումները։",
+  "onboardingWelcomeFeatureReminder": "Դեղորայքն ընդունելու ժամին ծանուցում"
 }

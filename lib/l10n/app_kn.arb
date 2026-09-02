@@ -232,5 +232,6 @@
   "doseIntervalNotificationWarning": "⚠️ ಕೊನೆಯ ಡೋಸ್ ತೆಗೆದುಕೊಂಡು {minimumDoseIntervalHours} ಗಂಟೆಗಳು ಕಳೆದಿಲ್ಲ",
   "ossLicense": "OSS ಪರವಾನಗಿಗಳು",
   "onboardingWelcomeTitle": "ಔಷಧಿ ತೆಗೆದುಕೊಳ್ಳುವುದನ್ನು ಮರೆತುಬಿಡುವ\nಚಿಂತೆಯನ್ನು ದೂರ ಮಾಡೋಣ",
-  "onboardingWelcomeBody": "ನಿಮ್ಮ ಔಷಧಿಗಳನ್ನು ನೋಂದಾಯಿಸಿ ಮತ್ತು ಅಧಿಸೂಚನೆಗಳನ್ನು ಪಡೆಯಿರಿ\nನಿಮ್ಮ ಔಷಧಿ ಸೇವನೆಯ ದಾಖಲೆಗಳನ್ನು ಪರಿಶೀಲಿಸಿ."
+  "onboardingWelcomeBody": "ನಿಮ್ಮ ಔಷಧಿಗಳನ್ನು ನೋಂದಾಯಿಸಿ ಮತ್ತು ಅಧಿಸೂಚನೆಗಳನ್ನು ಪಡೆಯಿರಿ\nನಿಮ್ಮ ಔಷಧಿ ಸೇವನೆಯ ದಾಖಲೆಗಳನ್ನು ಪರಿಶೀಲಿಸಿ.",
+  "onboardingWelcomeFeatureReminder": "ಔಷಧಿ ತೆಗೆದುಕೊಳ್ಳುವ ಸಮಯದಲ್ಲಿ ಅಧಿಸೂಚನೆ"
 }

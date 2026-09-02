@@ -232,5 +232,6 @@
   "doseIntervalNotificationWarning": "⚠️ 距离上次服用还未满{minimumDoseIntervalHours}小时",
   "ossLicense": "OSS 许可证",
   "onboardingWelcomeTitle": "不再担心\n忘记服药",
-  "onboardingWelcomeBody": "登记药物并接收提醒\n回顾服药记录。"
+  "onboardingWelcomeBody": "登记药物并接收提醒\n回顾服药记录。",
+  "onboardingWelcomeFeatureReminder": "服药时间通知"
 }

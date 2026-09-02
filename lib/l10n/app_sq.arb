@@ -232,5 +232,6 @@
   "doseIntervalNotificationWarning": "⚠️ Nuk kanë kaluar {minimumDoseIntervalHours} orë nga doza e fundit",
   "ossLicense": "Licencat OSS",
   "onboardingWelcomeTitle": "Të çlirohemi nga shqetësimi\nse mos harrojmë të marrim ilaçet",
-  "onboardingWelcomeBody": "Regjistroni barnat tuaja dhe merrni njoftime\nShikoni regjistrin e marrjes së barnave."
+  "onboardingWelcomeBody": "Regjistroni barnat tuaja dhe merrni njoftime\nShikoni regjistrin e marrjes së barnave.",
+  "onboardingWelcomeFeatureReminder": "Njoftim në kohën e marrjes së ilaçit"
 }

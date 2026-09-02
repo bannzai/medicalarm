@@ -232,5 +232,6 @@
   "doseIntervalNotificationWarning": "⚠️ Moins de {minimumDoseIntervalHours} heures se sont écoulées depuis la dernière prise",
   "ossLicense": "Licences OSS",
   "onboardingWelcomeTitle": "Fini l’inquiétude\nd’oublier de prendre ses médicaments",
-  "onboardingWelcomeBody": "Enregistrez vos médicaments et recevez des notifications\nConsultez votre historique de prise de médicaments."
+  "onboardingWelcomeBody": "Enregistrez vos médicaments et recevez des notifications\nConsultez votre historique de prise de médicaments.",
+  "onboardingWelcomeFeatureReminder": "Notification à l’heure de la prise du médicament"
 }

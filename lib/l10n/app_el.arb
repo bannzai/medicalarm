@@ -232,5 +232,6 @@
   "doseIntervalNotificationWarning": "⚠️ Δεν έχουν περάσει {minimumDoseIntervalHours} ώρες από την τελευταία λήψη",
   "ossLicense": "Άδειες OSS",
   "onboardingWelcomeTitle": "Ας απαλλαγούμε από το άγχος\nμήπως ξεχάσουμε να πάρουμε το φάρμακό μας",
-  "onboardingWelcomeBody": "Καταχωρίστε τα φάρμακά σας και λάβετε ειδοποιήσεις\nΑνατρέξτε στο ιστορικό λήψης των φαρμάκων σας."
+  "onboardingWelcomeBody": "Καταχωρίστε τα φάρμακά σας και λάβετε ειδοποιήσεις\nΑνατρέξτε στο ιστορικό λήψης των φαρμάκων σας.",
+  "onboardingWelcomeFeatureReminder": "Ειδοποίηση την ώρα λήψης του φαρμάκου"
 }

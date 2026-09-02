@@ -232,5 +232,6 @@
   "doseIntervalNotificationWarning": "⚠️ No han passat {minimumDoseIntervalHours} hores des de l’última dosi",
   "ossLicense": "Llicències OSS",
   "onboardingWelcomeTitle": "Eliminem la preocupació\nd’oblidar-te de prendre la medicació",
-  "onboardingWelcomeBody": "Registra els teus medicaments i rep notificacions\nRevisa el registre de les teves preses."
+  "onboardingWelcomeBody": "Registra els teus medicaments i rep notificacions\nRevisa el registre de les teves preses.",
+  "onboardingWelcomeFeatureReminder": "Notificació a l’hora de prendre el medicament"
 }

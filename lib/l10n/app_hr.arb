@@ -232,5 +232,6 @@
   "doseIntervalNotificationWarning": "⚠️ Od prethodne doze nije prošlo {minimumDoseIntervalHours} sati",
   "ossLicense": "OSS licence",
   "onboardingWelcomeTitle": "Riješimo se brige\nda ćemo zaboraviti uzeti lijek",
-  "onboardingWelcomeBody": "Registrirajte svoje lijekove i primajte obavijesti\nPregledajte evidenciju uzimanja lijekova."
+  "onboardingWelcomeBody": "Registrirajte svoje lijekove i primajte obavijesti\nPregledajte evidenciju uzimanja lijekova.",
+  "onboardingWelcomeFeatureReminder": "Obavijest u vrijeme uzimanja lijeka"
 }

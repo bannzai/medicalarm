@@ -232,5 +232,6 @@
   "doseIntervalNotificationWarning": "⚠️ Det har inte gått {minimumDoseIntervalHours} timmar sedan den senaste dosen",
   "ossLicense": "OSS-licenser",
   "onboardingWelcomeTitle": "Slipp oron\nför att glömma ta medicinen",
-  "onboardingWelcomeBody": "Registrera dina läkemedel och få notiser\nSe över din läkemedelshistorik."
+  "onboardingWelcomeBody": "Registrera dina läkemedel och få notiser\nSe över din läkemedelshistorik.",
+  "onboardingWelcomeFeatureReminder": "Avisering vid tidpunkten för medicinintag"
 }

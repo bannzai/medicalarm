@@ -232,5 +232,6 @@
   "doseIntervalNotificationWarning": "⚠️ Əvvəlki dozadan sonra {minimumDoseIntervalHours} saat keçməyib",
   "ossLicense": "OSS lisenziyaları",
   "onboardingWelcomeTitle": "Dərman qəbul etməyi unutmaq narahatlığını\naradan qaldıraq",
-  "onboardingWelcomeBody": "Dərmanlarınızı qeydiyyatdan keçirin və bildirişlər alın\nDərman qəbulunuzun tarixçəsinə nəzər salın."
+  "onboardingWelcomeBody": "Dərmanlarınızı qeydiyyatdan keçirin və bildirişlər alın\nDərman qəbulunuzun tarixçəsinə nəzər salın.",
+  "onboardingWelcomeFeatureReminder": "Dərman qəbul etmə vaxtı bildiriş"
 }

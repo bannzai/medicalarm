@@ -232,5 +232,6 @@
   "doseIntervalNotificationWarning": "⚠️ Belum {minimumDoseIntervalHours} jam berlalu sejak dos terakhir",
   "ossLicense": "Lesen OSS",
   "onboardingWelcomeTitle": "Hilangkan kebimbangan\nterlupa mengambil ubat",
-  "onboardingWelcomeBody": "Daftarkan ubat anda dan terima pemberitahuan\nSemak rekod pengambilan ubat anda."
+  "onboardingWelcomeBody": "Daftarkan ubat anda dan terima pemberitahuan\nSemak rekod pengambilan ubat anda.",
+  "onboardingWelcomeFeatureReminder": "Pemberitahuan pada waktu pengambilan ubat"
 }

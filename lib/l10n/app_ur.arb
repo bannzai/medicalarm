@@ -232,5 +232,6 @@
   "doseIntervalNotificationWarning": "⚠️ گزشتہ خوراک کے بعد {minimumDoseIntervalHours} گھنٹے نہیں گزرے",
   "ossLicense": "OSS لائسنس",
   "onboardingWelcomeTitle": "دوائی لینا بھول جانے کی فکر\nختم کریں",
-  "onboardingWelcomeBody": "اپنی ادویات رجسٹر کریں اور اطلاعات موصول کریں\nاپنی ادویات لینے کا ریکارڈ دیکھیں۔"
+  "onboardingWelcomeBody": "اپنی ادویات رجسٹر کریں اور اطلاعات موصول کریں\nاپنی ادویات لینے کا ریکارڈ دیکھیں۔",
+  "onboardingWelcomeFeatureReminder": "دوا لینے کے وقت اطلاع"
 }

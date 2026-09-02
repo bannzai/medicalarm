@@ -232,5 +232,6 @@
   "doseIntervalNotificationWarning": "⚠️ पिछली खुराक के बाद {minimumDoseIntervalHours} घंटे पूरे नहीं हुए हैं",
   "ossLicense": "OSS लाइसेंस",
   "onboardingWelcomeTitle": "दवा लेना भूल जाने की चिंता\nदूर करें",
-  "onboardingWelcomeBody": "अपनी दवाएँ दर्ज करें और सूचनाएँ पाएँ\nदवा लेने का अपना रिकॉर्ड देखें।"
+  "onboardingWelcomeBody": "अपनी दवाएँ दर्ज करें और सूचनाएँ पाएँ\nदवा लेने का अपना रिकॉर्ड देखें।",
+  "onboardingWelcomeFeatureReminder": "दवा लेने के समय सूचना"
 }

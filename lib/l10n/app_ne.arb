@@ -232,5 +232,6 @@
   "doseIntervalNotificationWarning": "⚠️ अघिल्लो मात्रा लिएको {minimumDoseIntervalHours} घण्टा पूरा भएको छैन",
   "ossLicense": "OSS इजाजतपत्रहरू",
   "onboardingWelcomeTitle": "औषधि खान बिर्सने चिन्ता\nहटाऔँ",
-  "onboardingWelcomeBody": "आफ्ना औषधहरू दर्ता गर्नुहोस् र सूचनाहरू प्राप्त गर्नुहोस्\nऔषधि सेवनको आफ्नो रेकर्ड हेर्नुहोस्।"
+  "onboardingWelcomeBody": "आफ्ना औषधहरू दर्ता गर्नुहोस् र सूचनाहरू प्राप्त गर्नुहोस्\nऔषधि सेवनको आफ्नो रेकर्ड हेर्नुहोस्।",
+  "onboardingWelcomeFeatureReminder": "औषध सेवन गर्ने समयमा सूचना"
 }

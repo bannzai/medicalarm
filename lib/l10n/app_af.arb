@@ -232,5 +232,6 @@
   "doseIntervalNotificationWarning": "⚠️ Daar het nog nie {minimumDoseIntervalHours} uur sedert die vorige dosis verloop nie",
   "ossLicense": "OSS-lisensies",
   "onboardingWelcomeTitle": "Geen bekommernis meer\nom jou medisyne te vergeet",
-  "onboardingWelcomeBody": "Registreer jou medisyne en ontvang kennisgewings\nSien jou medikasiegeskiedenis na."
+  "onboardingWelcomeBody": "Registreer jou medisyne en ontvang kennisgewings\nSien jou medikasiegeskiedenis na.",
+  "onboardingWelcomeFeatureReminder": "Kennisgewing op medikasietyd"
 }

@@ -232,5 +232,6 @@
   "doseIntervalNotificationWarning": "⚠️ З моманту апошняга прыёму не прайшло {minimumDoseIntervalHours} гадзін",
   "ossLicense": "Ліцэнзіі OSS",
   "onboardingWelcomeTitle": "Давайце пазбавімся ад трывогі,\nшто можна забыць прыняць лекі",
-  "onboardingWelcomeBody": "Зарэгіструйце лекі і атрымлівайце апавяшчэнні\nПраглядайце гісторыю прыёму лекаў."
+  "onboardingWelcomeBody": "Зарэгіструйце лекі і атрымлівайце апавяшчэнні\nПраглядайце гісторыю прыёму лекаў.",
+  "onboardingWelcomeFeatureReminder": "Апавяшчэнне ў час прыёму лекаў"
 }

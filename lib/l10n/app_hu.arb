@@ -232,5 +232,6 @@
   "doseIntervalNotificationWarning": "⚠️ Az előző adag óta még nem telt el {minimumDoseIntervalHours} óra",
   "ossLicense": "OSS-licencek",
   "onboardingWelcomeTitle": "Ne aggódjunk többé,\nhogy elfelejtjük bevenni a gyógyszert",
-  "onboardingWelcomeBody": "Rögzítse gyógyszereit, és kapjon értesítéseket\nTekintse át gyógyszerszedési előzményeit."
+  "onboardingWelcomeBody": "Rögzítse gyógyszereit, és kapjon értesítéseket\nTekintse át gyógyszerszedési előzményeit.",
+  "onboardingWelcomeFeatureReminder": "Értesítés a gyógyszer bevételének idején"
 }

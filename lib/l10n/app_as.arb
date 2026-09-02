@@ -232,5 +232,6 @@
   "doseIntervalNotificationWarning": "⚠️ পূৰ্বৰ পালি লোৱাৰ পৰা {minimumDoseIntervalHours} ঘণ্টা পাৰ হোৱা নাই",
   "ossLicense": "OSS অনুজ্ঞাপত্ৰসমূহ",
   "onboardingWelcomeTitle": "ঔষধ খাবলৈ পাহৰি যোৱাৰ চিন্তা\nদূৰ কৰোঁ",
-  "onboardingWelcomeBody": "আপোনাৰ ঔষধ পঞ্জীয়ন কৰক আৰু জাননী লাভ কৰক\nঔষধ গ্ৰহণৰ ৰেকৰ্ড পৰ্যালোচনা কৰক।"
+  "onboardingWelcomeBody": "আপোনাৰ ঔষধ পঞ্জীয়ন কৰক আৰু জাননী লাভ কৰক\nঔষধ গ্ৰহণৰ ৰেকৰ্ড পৰ্যালোচনা কৰক।",
+  "onboardingWelcomeFeatureReminder": "ঔষধ খোৱাৰ সময়ত জাননী"
 }
