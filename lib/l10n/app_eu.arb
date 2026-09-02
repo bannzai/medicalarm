@@ -275,5 +275,6 @@
   "onboardingGoalZeroMissed": "Dosiarik ez ahaztea",
   "onboardingGoalKeepRecording": "Sendagai-hartzeak erregistratzen jarraitu",
   "onboardingGoalWatchFamily": "Familiaren medikazioa zaintzea",
-  "onboardingPlanGeneratingTitle": "Zure plan pertsonalizatua sortzen ari gara"
+  "onboardingPlanGeneratingTitle": "Zure plan pertsonalizatua sortzen ari gara",
+  "onboardingPlanGeneratingAnalyzing": "Zure erantzunak aztertzen ari gara"
 }

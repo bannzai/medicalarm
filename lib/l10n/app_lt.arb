@@ -275,5 +275,6 @@
   "onboardingGoalZeroMissed": "Nepraleisti nė vienos dozės",
   "onboardingGoalKeepRecording": "Toliau registruoti vaistų vartojimą",
   "onboardingGoalWatchFamily": "Stebėti šeimos narių vaistų vartojimą",
-  "onboardingPlanGeneratingTitle": "Kuriame jūsų asmeninį planą"
+  "onboardingPlanGeneratingTitle": "Kuriame jūsų asmeninį planą",
+  "onboardingPlanGeneratingAnalyzing": "Analizuojame jūsų atsakymus"
 }

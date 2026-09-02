@@ -275,5 +275,6 @@
   "onboardingGoalZeroMissed": "Kei Dosis vergässe",
   "onboardingGoalKeepRecording": "Medikamenteneinnahme weiterhin dokumentieren",
   "onboardingGoalWatchFamily": "D Medikamenteneinnahm vo de Familie im Blick behalte",
-  "onboardingPlanGeneratingTitle": "Din persönliche Plan wird erstellt"
+  "onboardingPlanGeneratingTitle": "Din persönliche Plan wird erstellt",
+  "onboardingPlanGeneratingAnalyzing": "Ihre Antworten werden analysiert"
 }

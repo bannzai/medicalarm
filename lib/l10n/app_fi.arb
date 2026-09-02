@@ -275,5 +275,6 @@
   "onboardingGoalZeroMissed": "Yhtäkään annosta ei unohdeta",
   "onboardingGoalKeepRecording": "Jatka lääkkeiden ottamisen kirjaamista",
   "onboardingGoalWatchFamily": "Seurata perheen lääkkeiden käyttöä",
-  "onboardingPlanGeneratingTitle": "Luomme henkilökohtaisen suunnitelmasi"
+  "onboardingPlanGeneratingTitle": "Luomme henkilökohtaisen suunnitelmasi",
+  "onboardingPlanGeneratingAnalyzing": "Vastauksiasi analysoidaan"
 }

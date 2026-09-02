@@ -275,5 +275,6 @@
   "onboardingGoalZeroMissed": "Ne propustiti nijednu dozu",
   "onboardingGoalKeepRecording": "Nastavite bilježiti uzimanje lijekova",
   "onboardingGoalWatchFamily": "Pratiti uzimanje lijekova članova obitelji",
-  "onboardingPlanGeneratingTitle": "Izrađujemo vaš personalizirani plan"
+  "onboardingPlanGeneratingTitle": "Izrađujemo vaš personalizirani plan",
+  "onboardingPlanGeneratingAnalyzing": "Analiziramo vaše odgovore"
 }

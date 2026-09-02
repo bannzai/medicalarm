@@ -275,5 +275,6 @@
   "onboardingGoalZeroMissed": "Inte glömma någon dos",
   "onboardingGoalKeepRecording": "Fortsätt registrera läkemedelsintag",
   "onboardingGoalWatchFamily": "Följa familjens medicinering",
-  "onboardingPlanGeneratingTitle": "Skapar din personliga plan"
+  "onboardingPlanGeneratingTitle": "Skapar din personliga plan",
+  "onboardingPlanGeneratingAnalyzing": "Dina svar analyseras"
 }

@@ -275,5 +275,6 @@
   "onboardingGoalZeroMissed": "Нэг ч тунг алгасахгүй байх",
   "onboardingGoalKeepRecording": "Эм ууснаа үргэлжлүүлэн бүртгэх",
   "onboardingGoalWatchFamily": "Гэр бүлийн гишүүдийн эм уухыг хянах",
-  "onboardingPlanGeneratingTitle": "Танд зориулсан хувийн төлөвлөгөөг үүсгэж байна"
+  "onboardingPlanGeneratingTitle": "Танд зориулсан хувийн төлөвлөгөөг үүсгэж байна",
+  "onboardingPlanGeneratingAnalyzing": "Таны хариултуудыг шинжилж байна"
 }

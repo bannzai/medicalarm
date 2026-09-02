@@ -275,5 +275,6 @@
   "onboardingGoalZeroMissed": "هیچ دوزی را فراموش نکردن",
   "onboardingGoalKeepRecording": "ثبت مداوم مصرف دارو",
   "onboardingGoalWatchFamily": "نظارت بر مصرف داروهای خانواده",
-  "onboardingPlanGeneratingTitle": "در حال ایجاد برنامه شخصی شما"
+  "onboardingPlanGeneratingTitle": "در حال ایجاد برنامه شخصی شما",
+  "onboardingPlanGeneratingAnalyzing": "در حال تحلیل پاسخ‌های شما"
 }

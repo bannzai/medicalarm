@@ -275,5 +275,6 @@
   "onboardingGoalZeroMissed": "Să nu uiți nicio doză",
   "onboardingGoalKeepRecording": "Continuați să înregistrați administrarea medicamentelor",
   "onboardingGoalWatchFamily": "Monitorizarea administrării medicamentelor familiei",
-  "onboardingPlanGeneratingTitle": "Creăm planul dvs. personalizat"
+  "onboardingPlanGeneratingTitle": "Creăm planul dvs. personalizat",
+  "onboardingPlanGeneratingAnalyzing": "Se analizează răspunsurile tale"
 }

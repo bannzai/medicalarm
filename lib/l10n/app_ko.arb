@@ -275,5 +275,6 @@
   "onboardingGoalZeroMissed": "복용을 한 번도 잊지 않기",
   "onboardingGoalKeepRecording": "복용 기록 계속하기",
   "onboardingGoalWatchFamily": "가족의 복약을 지켜보기",
-  "onboardingPlanGeneratingTitle": "맞춤형 플랜을 만드는 중"
+  "onboardingPlanGeneratingTitle": "맞춤형 플랜을 만드는 중",
+  "onboardingPlanGeneratingAnalyzing": "답변을 분석하고 있어요"
 }

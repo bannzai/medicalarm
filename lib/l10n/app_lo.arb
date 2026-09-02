@@ -275,5 +275,6 @@
   "onboardingGoalZeroMissed": "ບໍ່ລືມກິນຢາແມ່ນແຕ່ໂດສດຽວ",
   "onboardingGoalKeepRecording": "ບັນທຶກການກິນຢາຕໍ່ໄປ",
   "onboardingGoalWatchFamily": "ຕິດຕາມການກິນຢາຂອງຄອບຄົວ",
-  "onboardingPlanGeneratingTitle": "ກຳລັງສ້າງແຜນສະເພາະສຳລັບທ່ານ"
+  "onboardingPlanGeneratingTitle": "ກຳລັງສ້າງແຜນສະເພາະສຳລັບທ່ານ",
+  "onboardingPlanGeneratingAnalyzing": "ກຳລັງວິເຄາະຄຳຕອບຂອງທ່ານ"
 }

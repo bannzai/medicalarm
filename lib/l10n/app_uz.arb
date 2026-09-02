@@ -275,5 +275,6 @@
   "onboardingGoalZeroMissed": "Birorta ham dozani o‘tkazib yubormaslik",
   "onboardingGoalKeepRecording": "Dori qabulini qayd etishda davom eting",
   "onboardingGoalWatchFamily": "Oila a’zolarining dori qabul qilishini kuzatish",
-  "onboardingPlanGeneratingTitle": "Siz uchun shaxsiy reja tuzilmoqda"
+  "onboardingPlanGeneratingTitle": "Siz uchun shaxsiy reja tuzilmoqda",
+  "onboardingPlanGeneratingAnalyzing": "Javoblaringiz tahlil qilinmoqda"
 }

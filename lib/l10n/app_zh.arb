@@ -275,5 +275,6 @@
   "onboardingGoalZeroMissed": "不漏服任何一次药物",
   "onboardingGoalKeepRecording": "继续记录服药情况",
   "onboardingGoalWatchFamily": "关注家人的用药情况",
-  "onboardingPlanGeneratingTitle": "正在为你制定专属计划"
+  "onboardingPlanGeneratingTitle": "正在为你制定专属计划",
+  "onboardingPlanGeneratingAnalyzing": "正在分析您的回答"
 }

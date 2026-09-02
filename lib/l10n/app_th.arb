@@ -275,5 +275,6 @@
   "onboardingGoalZeroMissed": "ไม่ลืมรับประทานยาแม้แต่ครั้งเดียว",
   "onboardingGoalKeepRecording": "บันทึกการรับประทานยาต่อไป",
   "onboardingGoalWatchFamily": "ติดตามการรับประทานยาของคนในครอบครัว",
-  "onboardingPlanGeneratingTitle": "กำลังสร้างแผนเฉพาะบุคคลของคุณ"
+  "onboardingPlanGeneratingTitle": "กำลังสร้างแผนเฉพาะบุคคลของคุณ",
+  "onboardingPlanGeneratingAnalyzing": "กำลังวิเคราะห์คำตอบของคุณ"
 }

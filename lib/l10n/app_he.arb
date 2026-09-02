@@ -275,5 +275,6 @@
   "onboardingGoalZeroMissed": "לא לפספס אף מנה",
   "onboardingGoalKeepRecording": "להמשיך לתעד את נטילת התרופות",
   "onboardingGoalWatchFamily": "מעקב אחר נטילת התרופות של בני המשפחה",
-  "onboardingPlanGeneratingTitle": "יוצרים עבורך תוכנית אישית"
+  "onboardingPlanGeneratingTitle": "יוצרים עבורך תוכנית אישית",
+  "onboardingPlanGeneratingAnalyzing": "מנתחים את התשובות שלך"
 }

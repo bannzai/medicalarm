@@ -275,5 +275,6 @@
   "onboardingGoalZeroMissed": "কোনো ডোজ বাদ না দেওয়া",
   "onboardingGoalKeepRecording": "ওষুধ সেবন রেকর্ড করা চালিয়ে যান",
   "onboardingGoalWatchFamily": "পরিবারের ওষুধ সেবন পর্যবেক্ষণ করা",
-  "onboardingPlanGeneratingTitle": "আপনার জন্য ব্যক্তিগত পরিকল্পনা তৈরি করা হচ্ছে"
+  "onboardingPlanGeneratingTitle": "আপনার জন্য ব্যক্তিগত পরিকল্পনা তৈরি করা হচ্ছে",
+  "onboardingPlanGeneratingAnalyzing": "আপনার উত্তর বিশ্লেষণ করা হচ্ছে"
 }

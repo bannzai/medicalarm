@@ -275,5 +275,6 @@
   "onboardingGoalZeroMissed": "Tidak melewatkan dosis apa pun",
   "onboardingGoalKeepRecording": "Terus mencatat konsumsi obat",
   "onboardingGoalWatchFamily": "Memantau konsumsi obat keluarga",
-  "onboardingPlanGeneratingTitle": "Membuat rencana pribadi Anda"
+  "onboardingPlanGeneratingTitle": "Membuat rencana pribadi Anda",
+  "onboardingPlanGeneratingAnalyzing": "Menganalisis jawaban Anda"
 }

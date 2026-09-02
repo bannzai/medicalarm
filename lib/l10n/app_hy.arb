@@ -275,5 +275,6 @@
   "onboardingGoalZeroMissed": "Ոչ մի դեղաչափ բաց չթողնել",
   "onboardingGoalKeepRecording": "Շարունակել գրանցել դեղերի ընդունումը",
   "onboardingGoalWatchFamily": "Հետևել ընտանիքի անդամների դեղորայքի ընդունմանը",
-  "onboardingPlanGeneratingTitle": "Ստեղծում ենք ձեր անհատական ծրագիրը"
+  "onboardingPlanGeneratingTitle": "Ստեղծում ենք ձեր անհատական ծրագիրը",
+  "onboardingPlanGeneratingAnalyzing": "Ձեր պատասխանները վերլուծվում են"
 }

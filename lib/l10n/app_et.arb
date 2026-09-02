@@ -275,5 +275,6 @@
   "onboardingGoalZeroMissed": "Mitte unustada ühtegi annust",
   "onboardingGoalKeepRecording": "Jätka ravimite võtmise registreerimist",
   "onboardingGoalWatchFamily": "Jälgida pereliikmete ravimite võtmist",
-  "onboardingPlanGeneratingTitle": "Koostame sinu isiklikku plaani"
+  "onboardingPlanGeneratingTitle": "Koostame sinu isiklikku plaani",
+  "onboardingPlanGeneratingAnalyzing": "Teie vastuseid analüüsitakse"
 }

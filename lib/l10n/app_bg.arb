@@ -275,5 +275,6 @@
   "onboardingGoalZeroMissed": "Да не пропускам нито една доза",
   "onboardingGoalKeepRecording": "Продължавайте да записвате приема на лекарства",
   "onboardingGoalWatchFamily": "Следене на приема на лекарства от членове на семейството",
-  "onboardingPlanGeneratingTitle": "Създаваме вашия персонализиран план"
+  "onboardingPlanGeneratingTitle": "Създаваме вашия персонализиран план",
+  "onboardingPlanGeneratingAnalyzing": "Анализираме отговорите ви"
 }

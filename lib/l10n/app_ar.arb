@@ -275,5 +275,6 @@
   "onboardingGoalZeroMissed": "عدم تفويت أي جرعة",
   "onboardingGoalKeepRecording": "الاستمرار في تسجيل الجرعات",
   "onboardingGoalWatchFamily": "متابعة أدوية أفراد العائلة",
-  "onboardingPlanGeneratingTitle": "جارٍ إعداد خطتك الشخصية"
+  "onboardingPlanGeneratingTitle": "جارٍ إعداد خطتك الشخصية",
+  "onboardingPlanGeneratingAnalyzing": "جارٍ تحليل إجاباتك"
 }

@@ -275,5 +275,6 @@
   "onboardingGoalZeroMissed": "Ikke glemme en eneste dosis",
   "onboardingGoalKeepRecording": "Bliv ved med at registrere medicinindtag",
   "onboardingGoalWatchFamily": "Hold øje med familiens medicin",
-  "onboardingPlanGeneratingTitle": "Din personlige plan oprettes"
+  "onboardingPlanGeneratingTitle": "Din personlige plan oprettes",
+  "onboardingPlanGeneratingAnalyzing": "Dine svar analyseres"
 }

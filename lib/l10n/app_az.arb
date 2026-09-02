@@ -275,5 +275,6 @@
   "onboardingGoalZeroMissed": "Heç bir dozanı buraxmamaq",
   "onboardingGoalKeepRecording": "Dərman qəbulunu qeyd etməyə davam edin",
   "onboardingGoalWatchFamily": "Ailə üzvlərinin dərman qəbuluna nəzarət etmək",
-  "onboardingPlanGeneratingTitle": "Sizin üçün fərdi plan hazırlanır"
+  "onboardingPlanGeneratingTitle": "Sizin üçün fərdi plan hazırlanır",
+  "onboardingPlanGeneratingAnalyzing": "Cavablarınız təhlil edilir"
 }

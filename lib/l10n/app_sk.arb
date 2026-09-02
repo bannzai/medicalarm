@@ -275,5 +275,6 @@
   "onboardingGoalZeroMissed": "Nezmeškať žiadnu dávku",
   "onboardingGoalKeepRecording": "Pokračovať v zaznamenávaní užívania liekov",
   "onboardingGoalWatchFamily": "Dohliadať na užívanie liekov v rodine",
-  "onboardingPlanGeneratingTitle": "Vytvárame váš osobný plán"
+  "onboardingPlanGeneratingTitle": "Vytvárame váš osobný plán",
+  "onboardingPlanGeneratingAnalyzing": "Analyzujeme vaše odpovede"
 }
