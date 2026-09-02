@@ -210,5 +210,6 @@
   "removeMemberConfirmTitle": "সদস্যজনক আঁতৰাব বিচাৰেনে?",
   "removeMemberConfirmMessage": "{name}ক গোটৰ পৰা আঁতৰোৱা হ’ব",
   "joinGroup": "গোটত যোগদান কৰক",
-  "invitationCodeInputLabel": "আমন্ত্ৰণ ক’ড (৮টা আখৰ)"
+  "invitationCodeInputLabel": "আমন্ত্ৰণ ক’ড (৮টা আখৰ)",
+  "invitationCodeInputHint": "৮ আখৰৰ ক'ড লিখক"
 }

@@ -210,5 +210,6 @@
   "removeMemberConfirmTitle": "Θέλετε να καταργήσετε το μέλος;",
   "removeMemberConfirmMessage": "Αφαίρεση του {name} από την ομάδα",
   "joinGroup": "Συμμετοχή σε ομάδα",
-  "invitationCodeInputLabel": "Κωδικός πρόσκλησης (8 χαρακτήρες)"
+  "invitationCodeInputLabel": "Κωδικός πρόσκλησης (8 χαρακτήρες)",
+  "invitationCodeInputHint": "Εισαγάγετε τον κωδικό 8 χαρακτήρων"
 }

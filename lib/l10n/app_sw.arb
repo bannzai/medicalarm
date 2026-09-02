@@ -210,5 +210,6 @@
   "removeMemberConfirmTitle": "Ungependa kumwondoa mwanachama?",
   "removeMemberConfirmMessage": "Ondoa {name} kwenye kikundi",
   "joinGroup": "Jiunge na kikundi",
-  "invitationCodeInputLabel": "Msimbo wa mwaliko (herufi 8)"
+  "invitationCodeInputLabel": "Msimbo wa mwaliko (herufi 8)",
+  "invitationCodeInputHint": "Weka msimbo wa herufi 8"
 }

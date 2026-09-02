@@ -210,5 +210,6 @@
   "removeMemberConfirmTitle": "Kas eemaldada liige?",
   "removeMemberConfirmMessage": "Eemalda {name} grupist",
   "joinGroup": "Liitu grupiga",
-  "invitationCodeInputLabel": "Kutsekood (8 märki)"
+  "invitationCodeInputLabel": "Kutsekood (8 märki)",
+  "invitationCodeInputHint": "Sisestage 8-märgiline kood"
 }

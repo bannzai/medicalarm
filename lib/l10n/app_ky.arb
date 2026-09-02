@@ -210,5 +210,6 @@
   "removeMemberConfirmTitle": "Мүчөнү өчүрөсүзбү?",
   "removeMemberConfirmMessage": "{name} топтон чыгарылат",
   "joinGroup": "Топко кошулуу",
-  "invitationCodeInputLabel": "Чакыруу коду (8 белги)"
+  "invitationCodeInputLabel": "Чакыруу коду (8 белги)",
+  "invitationCodeInputHint": "8 белгиден турган кодду киргизиңиз"
 }

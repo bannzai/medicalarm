@@ -210,5 +210,6 @@
   "removeMemberConfirmTitle": "Gusto mo bang alisin ang miyembro?",
   "removeMemberConfirmMessage": "Alisin si {name} sa grupo",
   "joinGroup": "Sumali sa grupo",
-  "invitationCodeInputLabel": "Code ng imbitasyon (8 character)"
+  "invitationCodeInputLabel": "Code ng imbitasyon (8 character)",
+  "invitationCodeInputHint": "Ilagay ang 8-character na code"
 }

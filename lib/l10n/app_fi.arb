@@ -210,5 +210,6 @@
   "removeMemberConfirmTitle": "Poistetaanko jäsen?",
   "removeMemberConfirmMessage": "Poistetaan {name} ryhmästä",
   "joinGroup": "Liity ryhmään",
-  "invitationCodeInputLabel": "Kutsukoodi (8 merkkiä)"
+  "invitationCodeInputLabel": "Kutsukoodi (8 merkkiä)",
+  "invitationCodeInputHint": "Syötä 8-merkkinen koodi"
 }

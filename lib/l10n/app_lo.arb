@@ -210,5 +210,6 @@
   "removeMemberConfirmTitle": "ຕ້ອງການລຶບສະມາຊິກບໍ?",
   "removeMemberConfirmMessage": "ລຶບ {name} ອອກຈາກກຸ່ມ",
   "joinGroup": "ເຂົ້າຮ່ວມກຸ່ມ",
-  "invitationCodeInputLabel": "ລະຫັດເຊີນ (8 ຕົວອັກສອນ)"
+  "invitationCodeInputLabel": "ລະຫັດເຊີນ (8 ຕົວອັກສອນ)",
+  "invitationCodeInputHint": "ປ້ອນລະຫັດ 8 ຕົວອັກສອນ"
 }

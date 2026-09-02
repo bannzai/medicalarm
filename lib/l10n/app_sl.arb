@@ -210,5 +210,6 @@
   "removeMemberConfirmTitle": "Želite odstraniti člana?",
   "removeMemberConfirmMessage": "Odstrani {name} iz skupine",
   "joinGroup": "Pridruži se skupini",
-  "invitationCodeInputLabel": "Vabilna koda (8 znakov)"
+  "invitationCodeInputLabel": "Vabilna koda (8 znakov)",
+  "invitationCodeInputHint": "Vnesite 8-mestno kodo"
 }

@@ -210,5 +210,6 @@
   "removeMemberConfirmTitle": "Vil du fjerne medlemmet?",
   "removeMemberConfirmMessage": "Fjern {name} fra gruppen",
   "joinGroup": "Deltag i en gruppe",
-  "invitationCodeInputLabel": "Invitationskode (8 tegn)"
+  "invitationCodeInputLabel": "Invitationskode (8 tegn)",
+  "invitationCodeInputHint": "Indtast koden på 8 tegn"
 }

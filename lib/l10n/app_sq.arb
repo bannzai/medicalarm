@@ -210,5 +210,6 @@
   "removeMemberConfirmTitle": "Të hiqet anëtari?",
   "removeMemberConfirmMessage": "Hiq {name} nga grupi",
   "joinGroup": "Bashkohu në një grup",
-  "invitationCodeInputLabel": "Kodi i ftesës (8 karaktere)"
+  "invitationCodeInputLabel": "Kodi i ftesës (8 karaktere)",
+  "invitationCodeInputHint": "Futni kodin me 8 karaktere"
 }

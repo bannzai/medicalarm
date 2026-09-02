@@ -210,5 +210,6 @@
   "removeMemberConfirmTitle": "តើអ្នកចង់លុបសមាជិកនេះឬ?",
   "removeMemberConfirmMessage": "យក {name} ចេញពីក្រុម",
   "joinGroup": "ចូលរួមក្រុម",
-  "invitationCodeInputLabel": "កូដអញ្ជើញ (8 តួអក្សរ)"
+  "invitationCodeInputLabel": "កូដអញ្ជើញ (8 តួអក្សរ)",
+  "invitationCodeInputHint": "បញ្ចូលលេខកូដ ៨ តួអក្សរ"
 }

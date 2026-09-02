@@ -210,5 +210,6 @@
   "removeMemberConfirmTitle": "Chcete odebrat člena?",
   "removeMemberConfirmMessage": "Odebrat {name} ze skupiny",
   "joinGroup": "Připojit se ke skupině",
-  "invitationCodeInputLabel": "Pozvánkový kód (8 znaků)"
+  "invitationCodeInputLabel": "Pozvánkový kód (8 znaků)",
+  "invitationCodeInputHint": "Zadejte 8znakový kód"
 }

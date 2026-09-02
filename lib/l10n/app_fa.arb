@@ -210,5 +210,6 @@
   "removeMemberConfirmTitle": "عضو حذف شود؟",
   "removeMemberConfirmMessage": "حذف {name} از گروه",
   "joinGroup": "پیوستن به گروه",
-  "invitationCodeInputLabel": "کد دعوت (۸ نویسه)"
+  "invitationCodeInputLabel": "کد دعوت (۸ نویسه)",
+  "invitationCodeInputHint": "کد ۸ نویسه‌ای را وارد کنید"
 }

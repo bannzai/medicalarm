@@ -210,5 +210,6 @@
   "removeMemberConfirmTitle": "ସଦସ୍ୟଙ୍କୁ ହଟାଇବେ କି?",
   "removeMemberConfirmMessage": "ଗୋଷ୍ଠୀରୁ {name}ଙ୍କୁ ହଟାନ୍ତୁ",
   "joinGroup": "ଗୋଷ୍ଠୀରେ ଯୋଗ ଦିଅନ୍ତୁ",
-  "invitationCodeInputLabel": "ନିମନ୍ତ୍ରଣ କୋଡ୍ (୮ଟି ଅକ୍ଷର)"
+  "invitationCodeInputLabel": "ନିମନ୍ତ୍ରଣ କୋଡ୍ (୮ଟି ଅକ୍ଷର)",
+  "invitationCodeInputHint": "8 ଅକ୍ଷରର କୋଡ୍ ପ୍ରବେଶ କରନ୍ତୁ"
 }

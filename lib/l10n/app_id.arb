@@ -210,5 +210,6 @@
   "removeMemberConfirmTitle": "Hapus anggota?",
   "removeMemberConfirmMessage": "Hapus {name} dari grup",
   "joinGroup": "Bergabung ke grup",
-  "invitationCodeInputLabel": "Kode undangan (8 karakter)"
+  "invitationCodeInputLabel": "Kode undangan (8 karakter)",
+  "invitationCodeInputHint": "Masukkan kode 8 karakter"
 }

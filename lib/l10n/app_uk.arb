@@ -210,5 +210,6 @@
   "removeMemberConfirmTitle": "Видалити учасника?",
   "removeMemberConfirmMessage": "Видалити {name} з групи",
   "joinGroup": "Приєднатися до групи",
-  "invitationCodeInputLabel": "Код запрошення (8 символів)"
+  "invitationCodeInputLabel": "Код запрошення (8 символів)",
+  "invitationCodeInputHint": "Введіть 8-символьний код"
 }

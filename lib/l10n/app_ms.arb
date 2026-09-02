@@ -210,5 +210,6 @@
   "removeMemberConfirmTitle": "Ali mahu mengalih keluar ahli?",
   "removeMemberConfirmMessage": "Alih keluar {name} daripada kumpulan",
   "joinGroup": "Sertai kumpulan",
-  "invitationCodeInputLabel": "Kod jemputan (8 aksara)"
+  "invitationCodeInputLabel": "Kod jemputan (8 aksara)",
+  "invitationCodeInputHint": "Masukkan kod 8 aksara"
 }

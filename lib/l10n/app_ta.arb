@@ -210,5 +210,6 @@
   "removeMemberConfirmTitle": "உறுப்பினரை அகற்றவா?",
   "removeMemberConfirmMessage": "குழுவிலிருந்து {name} ஐ அகற்றவும்",
   "joinGroup": "குழுவில் சேரவும்",
-  "invitationCodeInputLabel": "அழைப்புக் குறியீடு (8 எழுத்துகள்)"
+  "invitationCodeInputLabel": "அழைப்புக் குறியீடு (8 எழுத்துகள்)",
+  "invitationCodeInputHint": "8 எழுத்துக் குறியீட்டை உள்ளிடவும்"
 }

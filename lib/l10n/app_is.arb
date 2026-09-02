@@ -210,5 +210,6 @@
   "removeMemberConfirmTitle": "Fjarlægja meðlim?",
   "removeMemberConfirmMessage": "Fjarlægja {name} úr hópnum",
   "joinGroup": "Skrá sig í hóp",
-  "invitationCodeInputLabel": "Boðskóði (8 stafir)"
+  "invitationCodeInputLabel": "Boðskóði (8 stafir)",
+  "invitationCodeInputHint": "Sláðu inn 8 stafa kóðann"
 }

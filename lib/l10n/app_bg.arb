@@ -210,5 +210,6 @@
   "removeMemberConfirmTitle": "Да се премахне ли членът?",
   "removeMemberConfirmMessage": "Премахване на {name} от групата",
   "joinGroup": "Присъединяване към група",
-  "invitationCodeInputLabel": "Код за покана (8 знака)"
+  "invitationCodeInputLabel": "Код за покана (8 знака)",
+  "invitationCodeInputHint": "Въведете 8-символния код"
 }

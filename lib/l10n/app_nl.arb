@@ -210,5 +210,6 @@
   "removeMemberConfirmTitle": "Lid verwijderen?",
   "removeMemberConfirmMessage": "{name} uit de groep verwijderen",
   "joinGroup": "Deelnemen aan een groep",
-  "invitationCodeInputLabel": "Uitnodigingscode (8 tekens)"
+  "invitationCodeInputLabel": "Uitnodigingscode (8 tekens)",
+  "invitationCodeInputHint": "Voer de code van 8 tekens in"
 }

@@ -210,5 +210,6 @@
   "removeMemberConfirmTitle": "Vuoi rimuovere il membro?",
   "removeMemberConfirmMessage": "Rimuovere {name} dal gruppo",
   "joinGroup": "Unisciti a un gruppo",
-  "invitationCodeInputLabel": "Codice invito (8 caratteri)"
+  "invitationCodeInputLabel": "Codice invito (8 caratteri)",
+  "invitationCodeInputHint": "Inserisci il codice di 8 caratteri"
 }

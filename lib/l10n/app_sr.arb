@@ -210,5 +210,6 @@
   "removeMemberConfirmTitle": "Уклонити члана?",
   "removeMemberConfirmMessage": "Уклонити {name} из групе",
   "joinGroup": "Придружи се групи",
-  "invitationCodeInputLabel": "Код позивнице (8 знакова)"
+  "invitationCodeInputLabel": "Код позивнице (8 знакова)",
+  "invitationCodeInputHint": "Унесите код од 8 знакова"
 }

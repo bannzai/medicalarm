@@ -210,5 +210,6 @@
   "removeMemberConfirmTitle": "సభ్యుడిని తీసివేయాలా?",
   "removeMemberConfirmMessage": "గ్రూప్ నుండి {name}ని తీసివేయండి",
   "joinGroup": "సమూహంలో చేరండి",
-  "invitationCodeInputLabel": "ఆహ్వాన కోడ్ (8 అక్షరాలు)"
+  "invitationCodeInputLabel": "ఆహ్వాన కోడ్ (8 అక్షరాలు)",
+  "invitationCodeInputHint": "8 అక్షరాల కోడ్‌ను నమోదు చేయండి"
 }
