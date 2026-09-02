@@ -200,5 +200,6 @@
   "copyInvitationCode": "Kopioi koodi",
   "invitationCodeCopied": "Kutsukoodi kopioitu",
   "issueInvitationCode": "Luo kutsukoodi",
-  "groupSettings": "Ryhmän asetukset"
+  "groupSettings": "Ryhmän asetukset",
+  "members": "Jäsenet"
 }

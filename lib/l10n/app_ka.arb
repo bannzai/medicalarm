@@ -200,5 +200,6 @@
   "copyInvitationCode": "კოდის კოპირება",
   "invitationCodeCopied": "მოწვევის კოდი დაკოპირდა",
   "issueInvitationCode": "მოსაწვევი კოდის შექმნა",
-  "groupSettings": "ჯგუფის პარამეტრები"
+  "groupSettings": "ჯგუფის პარამეტრები",
+  "members": "წევრები"
 }

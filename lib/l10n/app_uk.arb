@@ -200,5 +200,6 @@
   "copyInvitationCode": "Копіювати код",
   "invitationCodeCopied": "Код запрошення скопійовано",
   "issueInvitationCode": "Створити код запрошення",
-  "groupSettings": "Налаштування групи"
+  "groupSettings": "Налаштування групи",
+  "members": "Учасники"
 }

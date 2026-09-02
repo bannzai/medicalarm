@@ -200,5 +200,6 @@
   "copyInvitationCode": "Kód másolása",
   "invitationCodeCopied": "Meghívókód kimásolva",
   "issueInvitationCode": "Meghívókód létrehozása",
-  "groupSettings": "Csoportbeállítások"
+  "groupSettings": "Csoportbeállítások",
+  "members": "Tagok"
 }

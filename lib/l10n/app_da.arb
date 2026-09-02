@@ -200,5 +200,6 @@
   "copyInvitationCode": "Kopiér kode",
   "invitationCodeCopied": "Invitationskode kopieret",
   "issueInvitationCode": "Opret invitationskode",
-  "groupSettings": "Gruppeindstillinger"
+  "groupSettings": "Gruppeindstillinger",
+  "members": "Medlemmer"
 }

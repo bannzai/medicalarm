@@ -200,5 +200,6 @@
   "copyInvitationCode": "Kopírovat kód",
   "invitationCodeCopied": "Kód pozvánky byl zkopírován",
   "issueInvitationCode": "Vygenerovat zvací kód",
-  "groupSettings": "Nastavení skupiny"
+  "groupSettings": "Nastavení skupiny",
+  "members": "Členové"
 }

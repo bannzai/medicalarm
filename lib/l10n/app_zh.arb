@@ -200,5 +200,6 @@
   "copyInvitationCode": "复制代码",
   "invitationCodeCopied": "邀请码已复制",
   "issueInvitationCode": "生成邀请代码",
-  "groupSettings": "群组设置"
+  "groupSettings": "群组设置",
+  "members": "成员"
 }

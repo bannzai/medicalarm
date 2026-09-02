@@ -200,5 +200,6 @@
   "copyInvitationCode": "نسخ الرمز",
   "invitationCodeCopied": "تم نسخ رمز الدعوة",
   "issueInvitationCode": "إصدار رمز دعوة",
-  "groupSettings": "إعدادات المجموعة"
+  "groupSettings": "إعدادات المجموعة",
+  "members": "الأعضاء"
 }

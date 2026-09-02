@@ -200,5 +200,6 @@
   "copyInvitationCode": "Αντιγραφή κωδικού",
   "invitationCodeCopied": "Ο κωδικός πρόσκλησης αντιγράφηκε",
   "issueInvitationCode": "Έκδοση κωδικού πρόσκλησης",
-  "groupSettings": "Ρυθμίσεις ομάδας"
+  "groupSettings": "Ρυθμίσεις ομάδας",
+  "members": "Μέλη"
 }

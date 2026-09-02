@@ -200,5 +200,6 @@
   "copyInvitationCode": "Kopēt kodu",
   "invitationCodeCopied": "Uzaicinājuma kods nokopēts",
   "issueInvitationCode": "Izveidot ielūguma kodu",
-  "groupSettings": "Grupas iestatījumi"
+  "groupSettings": "Grupas iestatījumi",
+  "members": "Dalībnieki"
 }

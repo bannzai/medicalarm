@@ -200,5 +200,6 @@
   "copyInvitationCode": "Кодты көшіру",
   "invitationCodeCopied": "Шақыру коды көшірілді",
   "issueInvitationCode": "Шақыру кодын жасау",
-  "groupSettings": "Топ параметрлері"
+  "groupSettings": "Топ параметрлері",
+  "members": "Мүшелер"
 }

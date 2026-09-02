@@ -200,5 +200,6 @@
   "copyInvitationCode": "Kopeeri kood",
   "invitationCodeCopied": "Kutsekood kopeeritud",
   "issueInvitationCode": "Loo kutsekood",
-  "groupSettings": "Grupi seaded"
+  "groupSettings": "Grupi seaded",
+  "members": "Liikmed"
 }

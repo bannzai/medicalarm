@@ -200,5 +200,6 @@
   "copyInvitationCode": "Copiar código",
   "invitationCodeCopied": "Código de invitación copiado",
   "issueInvitationCode": "Generar código de invitación",
-  "groupSettings": "Configuración del grupo"
+  "groupSettings": "Configuración del grupo",
+  "members": "Miembros"
 }

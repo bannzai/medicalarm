@@ -200,5 +200,6 @@
   "copyInvitationCode": "Копирај код",
   "invitationCodeCopied": "Код позива је копиран",
   "issueInvitationCode": "Генериши позивни код",
-  "groupSettings": "Подешавања групе"
+  "groupSettings": "Подешавања групе",
+  "members": "Чланови"
 }

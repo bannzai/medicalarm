@@ -200,5 +200,6 @@
   "copyInvitationCode": "Kopijuoti kodą",
   "invitationCodeCopied": "Kvietimo kodas nukopijuotas",
   "issueInvitationCode": "Sukurti kvietimo kodą",
-  "groupSettings": "Grupės nustatymai"
+  "groupSettings": "Grupės nustatymai",
+  "members": "Nariai"
 }

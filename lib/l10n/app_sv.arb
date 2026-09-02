@@ -200,5 +200,6 @@
   "copyInvitationCode": "Kopiera kod",
   "invitationCodeCopied": "Inbjudningskoden har kopierats",
   "issueInvitationCode": "Skapa inbjudningskod",
-  "groupSettings": "Gruppinställningar"
+  "groupSettings": "Gruppinställningar",
+  "members": "Medlemmar"
 }

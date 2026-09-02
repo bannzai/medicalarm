@@ -200,5 +200,6 @@
   "copyInvitationCode": "Code kopiëren",
   "invitationCodeCopied": "Uitnodigingscode gekopieerd",
   "issueInvitationCode": "Uitnodigingscode genereren",
-  "groupSettings": "Groepsinstellingen"
+  "groupSettings": "Groepsinstellingen",
+  "members": "Leden"
 }

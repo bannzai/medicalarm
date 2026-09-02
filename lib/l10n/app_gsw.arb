@@ -200,5 +200,6 @@
   "copyInvitationCode": "Code kopiere",
   "invitationCodeCopied": "Iiladigscode kopiert",
   "issueInvitationCode": "Einladungscode erstellen",
-  "groupSettings": "Gruppeneinstellungen"
+  "groupSettings": "Gruppeneinstellungen",
+  "members": "Mitglieder"
 }
