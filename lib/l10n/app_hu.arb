@@ -277,5 +277,6 @@
   "onboardingGoalWatchFamily": "A család gyógyszerszedésének nyomon követése",
   "onboardingPlanGeneratingTitle": "Személyre szabott tervének létrehozása folyamatban",
   "onboardingPlanGeneratingAnalyzing": "Elemezzük a válaszait",
-  "onboardingPlanGeneratingSchedule": "Összeállítjuk az értesítési tervedet"
+  "onboardingPlanGeneratingSchedule": "Összeállítjuk az értesítési tervedet",
+  "onboardingPlanGeneratingReady": "Készen áll."
 }

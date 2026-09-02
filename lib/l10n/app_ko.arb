@@ -277,5 +277,6 @@
   "onboardingGoalWatchFamily": "가족의 복약을 지켜보기",
   "onboardingPlanGeneratingTitle": "맞춤형 플랜을 만드는 중",
   "onboardingPlanGeneratingAnalyzing": "답변을 분석하고 있어요",
-  "onboardingPlanGeneratingSchedule": "알림 플랜을 만들고 있어요"
+  "onboardingPlanGeneratingSchedule": "알림 플랜을 만들고 있어요",
+  "onboardingPlanGeneratingReady": "준비가 완료되었습니다."
 }

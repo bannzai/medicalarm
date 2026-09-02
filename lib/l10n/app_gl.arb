@@ -277,5 +277,6 @@
   "onboardingGoalWatchFamily": "Supervisar a medicación da familia",
   "onboardingPlanGeneratingTitle": "Estase a crear o teu plan personalizado",
   "onboardingPlanGeneratingAnalyzing": "Estamos a analizar as túas respostas",
-  "onboardingPlanGeneratingSchedule": "Estamos creando o teu plan de notificacións"
+  "onboardingPlanGeneratingSchedule": "Estamos creando o teu plan de notificacións",
+  "onboardingPlanGeneratingReady": "Xa está listo."
 }

@@ -277,5 +277,6 @@
   "onboardingGoalWatchFamily": "परिवार की दवा लेने पर नज़र रखना",
   "onboardingPlanGeneratingTitle": "आपकी व्यक्तिगत योजना बनाई जा रही है",
   "onboardingPlanGeneratingAnalyzing": "आपके उत्तरों का विश्लेषण किया जा रहा है",
-  "onboardingPlanGeneratingSchedule": "आपकी सूचनाओं का प्लान तैयार किया जा रहा है"
+  "onboardingPlanGeneratingSchedule": "आपकी सूचनाओं का प्लान तैयार किया जा रहा है",
+  "onboardingPlanGeneratingReady": "तैयार है।"
 }

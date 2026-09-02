@@ -277,5 +277,6 @@
   "onboardingGoalWatchFamily": "متابعة أدوية أفراد العائلة",
   "onboardingPlanGeneratingTitle": "جارٍ إعداد خطتك الشخصية",
   "onboardingPlanGeneratingAnalyzing": "جارٍ تحليل إجاباتك",
-  "onboardingPlanGeneratingSchedule": "جارٍ إعداد خطة الإشعارات"
+  "onboardingPlanGeneratingSchedule": "جارٍ إعداد خطة الإشعارات",
+  "onboardingPlanGeneratingReady": "تم الإعداد."
 }

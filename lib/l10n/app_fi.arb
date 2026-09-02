@@ -277,5 +277,6 @@
   "onboardingGoalWatchFamily": "Seurata perheen lääkkeiden käyttöä",
   "onboardingPlanGeneratingTitle": "Luomme henkilökohtaisen suunnitelmasi",
   "onboardingPlanGeneratingAnalyzing": "Vastauksiasi analysoidaan",
-  "onboardingPlanGeneratingSchedule": "Luomme ilmoitussuunnitelmaasi"
+  "onboardingPlanGeneratingSchedule": "Luomme ilmoitussuunnitelmaasi",
+  "onboardingPlanGeneratingReady": "Valmis."
 }

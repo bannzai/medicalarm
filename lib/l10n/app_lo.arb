@@ -277,5 +277,6 @@
   "onboardingGoalWatchFamily": "ຕິດຕາມການກິນຢາຂອງຄອບຄົວ",
   "onboardingPlanGeneratingTitle": "ກຳລັງສ້າງແຜນສະເພາະສຳລັບທ່ານ",
   "onboardingPlanGeneratingAnalyzing": "ກຳລັງວິເຄາະຄຳຕອບຂອງທ່ານ",
-  "onboardingPlanGeneratingSchedule": "ກຳລັງຈັດທຳແຜນການແຈ້ງເຕືອນຂອງທ່ານ"
+  "onboardingPlanGeneratingSchedule": "ກຳລັງຈັດທຳແຜນການແຈ້ງເຕືອນຂອງທ່ານ",
+  "onboardingPlanGeneratingReady": "ພ້ອມແລ້ວ."
 }

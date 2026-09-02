@@ -277,5 +277,6 @@
   "onboardingGoalWatchFamily": "Hold øje med familiens medicin",
   "onboardingPlanGeneratingTitle": "Din personlige plan oprettes",
   "onboardingPlanGeneratingAnalyzing": "Dine svar analyseres",
-  "onboardingPlanGeneratingSchedule": "Vi opretter din notifikationsplan"
+  "onboardingPlanGeneratingSchedule": "Vi opretter din notifikationsplan",
+  "onboardingPlanGeneratingReady": "Det er klar."
 }

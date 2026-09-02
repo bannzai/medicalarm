@@ -277,5 +277,6 @@
   "onboardingGoalWatchFamily": "Следене на приема на лекарства от членове на семейството",
   "onboardingPlanGeneratingTitle": "Създаваме вашия персонализиран план",
   "onboardingPlanGeneratingAnalyzing": "Анализираме отговорите ви",
-  "onboardingPlanGeneratingSchedule": "Създаваме вашия план за известия"
+  "onboardingPlanGeneratingSchedule": "Създаваме вашия план за известия",
+  "onboardingPlanGeneratingReady": "Готово."
 }
