@@ -263,5 +263,6 @@
   "onboardingMedicineCountSixOrMore": "6 atau lebih",
   "onboardingBeforeAfterTitle": "Apa yang berubah dengan Medicalarm",
   "onboardingBeforeLabel": "Selama ini",
-  "onboardingAfterLabel": "Mulai sekarang"
+  "onboardingAfterLabel": "Mulai sekarang",
+  "onboardingBeforeItemForgot": "Saya baru sadar bahwa saya lupa minum obat"
 }

@@ -263,5 +263,6 @@
   "onboardingMedicineCountSixOrMore": "6 eða fleiri",
   "onboardingBeforeAfterTitle": "Hvað breytist með Medicalarm",
   "onboardingBeforeLabel": "Hingað til",
-  "onboardingAfterLabel": "Héðan í frá"
+  "onboardingAfterLabel": "Héðan í frá",
+  "onboardingBeforeItemForgot": "Ég áttaði mig á því að ég hafði gleymt að taka lyfið mitt"
 }

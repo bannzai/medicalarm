@@ -263,5 +263,6 @@
   "onboardingMedicineCountSixOrMore": "6 o higit pa",
   "onboardingBeforeAfterTitle": "Ang magbabago sa tulong ng Medicalarm",
   "onboardingBeforeLabel": "Dati",
-  "onboardingAfterLabel": "Mula ngayon"
+  "onboardingAfterLabel": "Mula ngayon",
+  "onboardingBeforeItemForgot": "Napansin kong nakalimutan kong inumin ang gamot ko"
 }

@@ -263,5 +263,6 @@
   "onboardingMedicineCountSixOrMore": "6 vai vairāk",
   "onboardingBeforeAfterTitle": "Kas mainās, lietojot Medicalarm",
   "onboardingBeforeLabel": "Līdz šim",
-  "onboardingAfterLabel": "No šī brīža"
+  "onboardingAfterLabel": "No šī brīža",
+  "onboardingBeforeItemForgot": "Sapratu, ka zāles nav iedzertas"
 }

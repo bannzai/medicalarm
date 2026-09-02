@@ -263,5 +263,6 @@
   "onboardingMedicineCountSixOrMore": "6 أو أكثر",
   "onboardingBeforeAfterTitle": "ما الذي سيتغير مع Medicalarm",
   "onboardingBeforeLabel": "حتى الآن",
-  "onboardingAfterLabel": "من الآن فصاعدًا"
+  "onboardingAfterLabel": "من الآن فصاعدًا",
+  "onboardingBeforeItemForgot": "اكتشفت أنني نسيت تناول دوائي"
 }

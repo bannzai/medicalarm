@@ -263,5 +263,6 @@
   "onboardingMedicineCountSixOrMore": "6 eller flere",
   "onboardingBeforeAfterTitle": "Hvad ændrer sig med Medicalarm",
   "onboardingBeforeLabel": "Indtil nu",
-  "onboardingAfterLabel": "Fra nu af"
+  "onboardingAfterLabel": "Fra nu af",
+  "onboardingBeforeItemForgot": "Jeg opdagede, at jeg havde glemt at tage min medicin"
 }

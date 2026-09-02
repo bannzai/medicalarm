@@ -263,5 +263,6 @@
   "onboardingMedicineCountSixOrMore": "6 edo gehiago",
   "onboardingBeforeAfterTitle": "Medicalarm-ekin aldatzen dena",
   "onboardingBeforeLabel": "Orain arte",
-  "onboardingAfterLabel": "Hemendik aurrera"
+  "onboardingAfterLabel": "Hemendik aurrera",
+  "onboardingBeforeItemForgot": "Konturatu naiz sendagaia hartzea ahaztu zaidala"
 }

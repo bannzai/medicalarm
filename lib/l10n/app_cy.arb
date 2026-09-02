@@ -263,5 +263,6 @@
   "onboardingMedicineCountSixOrMore": "6 neu fwy",
   "onboardingBeforeAfterTitle": "Beth sy’n newid gyda Medicalarm",
   "onboardingBeforeLabel": "Hyd yma",
-  "onboardingAfterLabel": "O hyn ymlaen"
+  "onboardingAfterLabel": "O hyn ymlaen",
+  "onboardingBeforeItemForgot": "Sylweddolais fy mod wedi anghofio cymryd fy meddyginiaeth"
 }

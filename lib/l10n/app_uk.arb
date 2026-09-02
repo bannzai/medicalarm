@@ -263,5 +263,6 @@
   "onboardingMedicineCountSixOrMore": "6 або більше",
   "onboardingBeforeAfterTitle": "Що зміниться з Medicalarm",
   "onboardingBeforeLabel": "Досі",
-  "onboardingAfterLabel": "Відтепер"
+  "onboardingAfterLabel": "Відтепер",
+  "onboardingBeforeItemForgot": "Я зрозумів(ла), що забув(ла) прийняти ліки"
 }

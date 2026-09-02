@@ -263,5 +263,6 @@
   "onboardingMedicineCountSixOrMore": "6 oder mehr",
   "onboardingBeforeAfterTitle": "Was sich mit Medicalarm ändert",
   "onboardingBeforeLabel": "Bisher",
-  "onboardingAfterLabel": "Ab jetzt"
+  "onboardingAfterLabel": "Ab jetzt",
+  "onboardingBeforeItemForgot": "Ich habe bemerkt, dass ich vergessen hatte, meine Medikamente einzunehmen"
 }

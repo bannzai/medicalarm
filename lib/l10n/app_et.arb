@@ -263,5 +263,6 @@
   "onboardingMedicineCountSixOrMore": "6 või rohkem",
   "onboardingBeforeAfterTitle": "Mis muutub Medicalarmiga",
   "onboardingBeforeLabel": "Seni",
-  "onboardingAfterLabel": "Nüüdsest"
+  "onboardingAfterLabel": "Nüüdsest",
+  "onboardingBeforeItemForgot": "Sain aru, et olin unustanud ravimit võtta"
 }

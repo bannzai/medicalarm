@@ -263,5 +263,6 @@
   "onboardingMedicineCountSixOrMore": "6 of meer",
   "onboardingBeforeAfterTitle": "Wat met Medicalarm verander",
   "onboardingBeforeLabel": "Tot dusver",
-  "onboardingAfterLabel": "Van nou af"
+  "onboardingAfterLabel": "Van nou af",
+  "onboardingBeforeItemForgot": "Ek het besef ek het vergeet om my medikasie te neem"
 }

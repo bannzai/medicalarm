@@ -263,5 +263,6 @@
   "onboardingMedicineCountSixOrMore": "୬ କିମ୍ବା ଅଧିକ",
   "onboardingBeforeAfterTitle": "Medicalarm ସହିତ କ’ଣ ବଦଳିବ",
   "onboardingBeforeLabel": "ଏପର୍ଯ୍ୟନ୍ତ",
-  "onboardingAfterLabel": "ବର୍ତ୍ତମାନଠାରୁ"
+  "onboardingAfterLabel": "ବର୍ତ୍ତମାନଠାରୁ",
+  "onboardingBeforeItemForgot": "ଔଷଧ ଖାଇବାକୁ ଭୁଲିଯାଇଛି ବୋଲି ଜାଣିଲି"
 }

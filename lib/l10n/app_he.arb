@@ -263,5 +263,6 @@
   "onboardingMedicineCountSixOrMore": "6 או יותר",
   "onboardingBeforeAfterTitle": "מה משתנה עם Medicalarm",
   "onboardingBeforeLabel": "עד עכשיו",
-  "onboardingAfterLabel": "מעכשיו"
+  "onboardingAfterLabel": "מעכשיו",
+  "onboardingBeforeItemForgot": "שמתי לב ששכחתי לקחת את התרופה שלי"
 }

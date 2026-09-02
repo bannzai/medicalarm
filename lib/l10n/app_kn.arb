@@ -263,5 +263,6 @@
   "onboardingMedicineCountSixOrMore": "6 ಅಥವಾ ಹೆಚ್ಚು",
   "onboardingBeforeAfterTitle": "Medicalarm ನೊಂದಿಗೆ ಬದಲಾಗುವುದು",
   "onboardingBeforeLabel": "ಇಲ್ಲಿಯವರೆಗೆ",
-  "onboardingAfterLabel": "ಇಂದಿನಿಂದ"
+  "onboardingAfterLabel": "ಇಂದಿನಿಂದ",
+  "onboardingBeforeItemForgot": "ನನ್ನ ಔಷಧಿಯನ್ನು ತೆಗೆದುಕೊಳ್ಳುವುದನ್ನು ಮರೆತಿದ್ದೇನೆ ಎಂದು ತಿಳಿಯಿತು"
 }

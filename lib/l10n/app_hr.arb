@@ -263,5 +263,6 @@
   "onboardingMedicineCountSixOrMore": "6 ili više",
   "onboardingBeforeAfterTitle": "Što se mijenja uz Medicalarm",
   "onboardingBeforeLabel": "Dosad",
-  "onboardingAfterLabel": "Od sada"
+  "onboardingAfterLabel": "Od sada",
+  "onboardingBeforeItemForgot": "Shvatio/la sam da sam zaboravio/la uzeti lijek"
 }

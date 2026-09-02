@@ -263,5 +263,6 @@
   "onboardingMedicineCountSixOrMore": "6 vagy több",
   "onboardingBeforeAfterTitle": "Mi változik a Medicalarm használatával",
   "onboardingBeforeLabel": "Eddig",
-  "onboardingAfterLabel": "Mostantól"
+  "onboardingAfterLabel": "Mostantól",
+  "onboardingBeforeItemForgot": "Rájöttem, hogy elfelejtettem bevenni a gyógyszeremet"
 }

@@ -263,5 +263,6 @@
   "onboardingMedicineCountSixOrMore": "၆ မျိုးနှင့်အထက်",
   "onboardingBeforeAfterTitle": "Medicalarm ဖြင့် ပြောင်းလဲလာမည့်အရာများ",
   "onboardingBeforeLabel": "ယခုအချိန်အထိ",
-  "onboardingAfterLabel": "ယခုမှစ၍"
+  "onboardingAfterLabel": "ယခုမှစ၍",
+  "onboardingBeforeItemForgot": "ဆေးသောက်ရန် မေ့နေခဲ့သည်ကို သတိပြုမိခဲ့သည်"
 }

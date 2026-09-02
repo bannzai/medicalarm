@@ -263,5 +263,6 @@
   "onboardingMedicineCountSixOrMore": "6 o più",
   "onboardingBeforeAfterTitle": "Cosa cambia con Medicalarm",
   "onboardingBeforeLabel": "Finora",
-  "onboardingAfterLabel": "D'ora in poi"
+  "onboardingAfterLabel": "D'ora in poi",
+  "onboardingBeforeItemForgot": "Mi sono accorto/a di aver dimenticato di prendere il farmaco"
 }

@@ -263,5 +263,6 @@
   "onboardingMedicineCountSixOrMore": "६ किंवा अधिक",
   "onboardingBeforeAfterTitle": "Medicalarm मुळे काय बदलेल",
   "onboardingBeforeLabel": "आतापर्यंत",
-  "onboardingAfterLabel": "आतापासून"
+  "onboardingAfterLabel": "आतापासून",
+  "onboardingBeforeItemForgot": "माझे औषध घेणे विसरले असल्याचे लक्षात आले"
 }

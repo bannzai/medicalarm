@@ -263,5 +263,6 @@
   "onboardingMedicineCountSixOrMore": "6 ຫຼືຫຼາຍກວ່າ",
   "onboardingBeforeAfterTitle": "ສິ່ງທີ່ປ່ຽນໄປດ້ວຍ Medicalarm",
   "onboardingBeforeLabel": "ຈົນເຖິງຕອນນີ້",
-  "onboardingAfterLabel": "ຈາກນີ້ໄປ"
+  "onboardingAfterLabel": "ຈາກນີ້ໄປ",
+  "onboardingBeforeItemForgot": "ຮູ້ຕົວວ່າລືມກິນຢາ"
 }

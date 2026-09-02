@@ -263,5 +263,6 @@
   "onboardingMedicineCountSixOrMore": "6 sau mai multe",
   "onboardingBeforeAfterTitle": "Ce se schimbă cu Medicalarm",
   "onboardingBeforeLabel": "Până acum",
-  "onboardingAfterLabel": "De acum înainte"
+  "onboardingAfterLabel": "De acum înainte",
+  "onboardingBeforeItemForgot": "Mi-am dat seama că am uitat să-mi iau medicamentul"
 }

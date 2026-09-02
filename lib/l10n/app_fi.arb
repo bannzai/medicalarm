@@ -263,5 +263,6 @@
   "onboardingMedicineCountSixOrMore": "6 tai enemmän",
   "onboardingBeforeAfterTitle": "Mitä Medicalarm muuttaa",
   "onboardingBeforeLabel": "Tähän asti",
-  "onboardingAfterLabel": "Tästä eteenpäin"
+  "onboardingAfterLabel": "Tästä eteenpäin",
+  "onboardingBeforeItemForgot": "Huomasin unohtaneeni ottaa lääkkeeni"
 }

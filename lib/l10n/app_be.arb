@@ -263,5 +263,6 @@
   "onboardingMedicineCountSixOrMore": "6 і больш",
   "onboardingBeforeAfterTitle": "Што зменіцца з Medicalarm",
   "onboardingBeforeLabel": "Да гэтага часу",
-  "onboardingAfterLabel": "З гэтага часу"
+  "onboardingAfterLabel": "З гэтага часу",
+  "onboardingBeforeItemForgot": "Я заўважыў(ла), што забыўся(лася) прыняць лекі"
 }

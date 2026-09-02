@@ -263,5 +263,6 @@
   "onboardingMedicineCountSixOrMore": "6 alebo viac",
   "onboardingBeforeAfterTitle": "Čo sa zmení s Medicalarm",
   "onboardingBeforeLabel": "Doteraz",
-  "onboardingAfterLabel": "Odteraz"
+  "onboardingAfterLabel": "Odteraz",
+  "onboardingBeforeItemForgot": "Uvedomil(a) som si, že som si zabudol(a) vziať liek"
 }

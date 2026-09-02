@@ -263,5 +263,6 @@
   "onboardingMedicineCountSixOrMore": "6 немесе одан көп",
   "onboardingBeforeAfterTitle": "Medicalarm көмегімен не өзгереді",
   "onboardingBeforeLabel": "Осы уақытқа дейін",
-  "onboardingAfterLabel": "Бұдан былай"
+  "onboardingAfterLabel": "Бұдан былай",
+  "onboardingBeforeItemForgot": "Дәрімді қабылдауды ұмытып кеткенімді байқадым"
 }

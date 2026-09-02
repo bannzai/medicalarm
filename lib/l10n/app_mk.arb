@@ -263,5 +263,6 @@
   "onboardingMedicineCountSixOrMore": "6 или повеќе",
   "onboardingBeforeAfterTitle": "Што се менува со Medicalarm",
   "onboardingBeforeLabel": "Досега",
-  "onboardingAfterLabel": "Отсега"
+  "onboardingAfterLabel": "Отсега",
+  "onboardingBeforeItemForgot": "Сфатив дека сум заборавил/а да го земам лекот"
 }

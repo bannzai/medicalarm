@@ -263,5 +263,6 @@
   "onboardingMedicineCountSixOrMore": "6 ή περισσότερα",
   "onboardingBeforeAfterTitle": "Τι αλλάζει με το Medicalarm",
   "onboardingBeforeLabel": "Μέχρι τώρα",
-  "onboardingAfterLabel": "Από εδώ και πέρα"
+  "onboardingAfterLabel": "Από εδώ και πέρα",
+  "onboardingBeforeItemForgot": "Συνειδητοποίησα ότι είχα ξεχάσει να πάρω το φάρμακό μου"
 }

@@ -263,5 +263,6 @@
   "onboardingMedicineCountSixOrMore": "6ක් හෝ ඊට වැඩි",
   "onboardingBeforeAfterTitle": "Medicalarm සමඟ වෙනස් වන්නේ කුමක්ද",
   "onboardingBeforeLabel": "මෙතෙක්",
-  "onboardingAfterLabel": "මෙතැන් සිට"
+  "onboardingAfterLabel": "මෙතැන් සිට",
+  "onboardingBeforeItemForgot": "ඖෂධය ගැනීමට අමතක වූ බව මට වැටහුණා"
 }

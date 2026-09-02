@@ -263,5 +263,6 @@
   "onboardingMedicineCountSixOrMore": "6 trở lên",
   "onboardingBeforeAfterTitle": "Những thay đổi với Medicalarm",
   "onboardingBeforeLabel": "Cho đến nay",
-  "onboardingAfterLabel": "Từ bây giờ"
+  "onboardingAfterLabel": "Từ bây giờ",
+  "onboardingBeforeItemForgot": "Tôi nhận ra mình đã quên uống thuốc"
 }

@@ -263,5 +263,6 @@
   "onboardingMedicineCountSixOrMore": "6 ar daugiau",
   "onboardingBeforeAfterTitle": "Kas pasikeičia naudojant Medicalarm",
   "onboardingBeforeLabel": "Iki šiol",
-  "onboardingAfterLabel": "Nuo šiol"
+  "onboardingAfterLabel": "Nuo šiol",
+  "onboardingBeforeItemForgot": "Pastebėjau, kad pamiršau išgerti vaistus"
 }

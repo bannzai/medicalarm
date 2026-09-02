@@ -263,5 +263,6 @@
   "onboardingMedicineCountSixOrMore": "6 ta yoki undan ko‘p",
   "onboardingBeforeAfterTitle": "Medicalarm bilan nimalar o‘zgaradi",
   "onboardingBeforeLabel": "Hozirgacha",
-  "onboardingAfterLabel": "Bundan buyon"
+  "onboardingAfterLabel": "Bundan buyon",
+  "onboardingBeforeItemForgot": "Dorini ichishni unutganimni angladim"
 }

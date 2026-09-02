@@ -263,5 +263,6 @@
   "onboardingMedicineCountSixOrMore": "6 au zaidi",
   "onboardingBeforeAfterTitle": "Kinachobadilika ukiwa na Medicalarm",
   "onboardingBeforeLabel": "Hadi sasa",
-  "onboardingAfterLabel": "Kuanzia sasa"
+  "onboardingAfterLabel": "Kuanzia sasa",
+  "onboardingBeforeItemForgot": "Niligundua kuwa nilikuwa nimesahau kunywa dawa yangu"
 }

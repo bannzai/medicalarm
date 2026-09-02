@@ -263,5 +263,6 @@
   "onboardingMedicineCountSixOrMore": "6 ба түүнээс дээш",
   "onboardingBeforeAfterTitle": "Medicalarm-тэй хамт юу өөрчлөгдөх вэ",
   "onboardingBeforeLabel": "Одоог хүртэл",
-  "onboardingAfterLabel": "Одооноос"
+  "onboardingAfterLabel": "Одооноос",
+  "onboardingBeforeItemForgot": "Эмээ уухаа мартсанаа мэдлээ"
 }

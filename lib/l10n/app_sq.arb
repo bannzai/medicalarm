@@ -263,5 +263,6 @@
   "onboardingMedicineCountSixOrMore": "6 ose më shumë",
   "onboardingBeforeAfterTitle": "Çfarë ndryshon me Medicalarm",
   "onboardingBeforeLabel": "Deri tani",
-  "onboardingAfterLabel": "Që tani"
+  "onboardingAfterLabel": "Që tani",
+  "onboardingBeforeItemForgot": "E kuptova se kisha harruar të merrja ilaçin"
 }

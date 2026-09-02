@@ -263,5 +263,6 @@
   "onboardingMedicineCountSixOrMore": "6 atau lebih",
   "onboardingBeforeAfterTitle": "Perubahan dengan Medicalarm",
   "onboardingBeforeLabel": "Setakat ini",
-  "onboardingAfterLabel": "Mulai sekarang"
+  "onboardingAfterLabel": "Mulai sekarang",
+  "onboardingBeforeItemForgot": "Saya sedar bahawa saya terlupa mengambil ubat"
 }

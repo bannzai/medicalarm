@@ -263,5 +263,6 @@
   "onboardingMedicineCountSixOrMore": "6 లేదా అంతకంటే ఎక్కువ",
   "onboardingBeforeAfterTitle": "Medicalarmతో ఏమి మారుతుంది",
   "onboardingBeforeLabel": "ఇప్పటివరకు",
-  "onboardingAfterLabel": "ఇక నుంచి"
+  "onboardingAfterLabel": "ఇక నుంచి",
+  "onboardingBeforeItemForgot": "మందు వేసుకోవడం మర్చిపోయానని గుర్తించాను"
 }

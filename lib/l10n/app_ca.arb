@@ -263,5 +263,6 @@
   "onboardingMedicineCountSixOrMore": "6 o més",
   "onboardingBeforeAfterTitle": "El que canvia amb Medicalarm",
   "onboardingBeforeLabel": "Fins ara",
-  "onboardingAfterLabel": "A partir d’ara"
+  "onboardingAfterLabel": "A partir d’ara",
+  "onboardingBeforeItemForgot": "Em vaig adonar que havia oblidat prendre el medicament"
 }

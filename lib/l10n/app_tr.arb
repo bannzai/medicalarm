@@ -263,5 +263,6 @@
   "onboardingMedicineCountSixOrMore": "6 veya daha fazla",
   "onboardingBeforeAfterTitle": "Medicalarm ile neler değişir",
   "onboardingBeforeLabel": "Şimdiye kadar",
-  "onboardingAfterLabel": "Bundan sonra"
+  "onboardingAfterLabel": "Bundan sonra",
+  "onboardingBeforeItemForgot": "İlacımı almayı unuttuğumu fark ettim"
 }
