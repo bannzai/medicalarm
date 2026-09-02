@@ -184,5 +184,6 @@
   "medicineEditTooltip": "औषध सम्पादन गर्नुहोस्",
   "groups": "समूहहरू",
   "groupManagement": "समूह व्यवस्थापन",
-  "createGroup": "समूह सिर्जना गर्नुहोस्"
+  "createGroup": "समूह सिर्जना गर्नुहोस्",
+  "groupName": "समूहको नाम"
 }

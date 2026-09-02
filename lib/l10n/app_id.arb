@@ -184,5 +184,6 @@
   "medicineEditTooltip": "Edit obat",
   "groups": "Grup",
   "groupManagement": "Kelola grup",
-  "createGroup": "Buat grup"
+  "createGroup": "Buat grup",
+  "groupName": "Nama grup"
 }

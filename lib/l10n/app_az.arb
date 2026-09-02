@@ -184,5 +184,6 @@
   "medicineEditTooltip": "Dərmanı redaktə et",
   "groups": "Qruplar",
   "groupManagement": "Qrupların idarə edilməsi",
-  "createGroup": "Qrup yarat"
+  "createGroup": "Qrup yarat",
+  "groupName": "Qrup adı"
 }

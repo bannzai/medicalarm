@@ -184,5 +184,6 @@
   "medicineEditTooltip": "Дарыны түзөтүү",
   "groups": "Топтор",
   "groupManagement": "Топторду башкаруу",
-  "createGroup": "Топ түзүү"
+  "createGroup": "Топ түзүү",
+  "groupName": "Топтун аты"
 }

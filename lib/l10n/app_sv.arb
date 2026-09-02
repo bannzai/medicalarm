@@ -184,5 +184,6 @@
   "medicineEditTooltip": "Redigera medicin",
   "groups": "Grupper",
   "groupManagement": "Grupphantering",
-  "createGroup": "Skapa grupp"
+  "createGroup": "Skapa grupp",
+  "groupName": "Gruppnamn"
 }

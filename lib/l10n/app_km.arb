@@ -184,5 +184,6 @@
   "medicineEditTooltip": "កែសម្រួលថ្នាំ",
   "groups": "ក្រុម",
   "groupManagement": "ការគ្រប់គ្រងក្រុម",
-  "createGroup": "បង្កើតក្រុម"
+  "createGroup": "បង្កើតក្រុម",
+  "groupName": "ឈ្មោះក្រុម"
 }

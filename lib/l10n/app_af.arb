@@ -184,5 +184,6 @@
   "medicineEditTooltip": "Wysig medisyne",
   "groups": "Groepe",
   "groupManagement": "Groepbestuur",
-  "createGroup": "Skep groep"
+  "createGroup": "Skep groep",
+  "groupName": "Groepnaam"
 }

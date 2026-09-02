@@ -184,5 +184,6 @@
   "medicineEditTooltip": "Rediģēt zāles",
   "groups": "Grupas",
   "groupManagement": "Grupu pārvaldība",
-  "createGroup": "Izveidot grupu"
+  "createGroup": "Izveidot grupu",
+  "groupName": "Grupas nosaukums"
 }

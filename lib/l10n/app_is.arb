@@ -184,5 +184,6 @@
   "medicineEditTooltip": "Breyta lyfi",
   "groups": "Hópar",
   "groupManagement": "Hópastjórnun",
-  "createGroup": "Búa til hóp"
+  "createGroup": "Búa til hóp",
+  "groupName": "Heiti hóps"
 }

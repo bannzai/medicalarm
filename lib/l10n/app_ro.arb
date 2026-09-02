@@ -184,5 +184,6 @@
   "medicineEditTooltip": "Editează medicamentul",
   "groups": "Grupuri",
   "groupManagement": "Gestionarea grupurilor",
-  "createGroup": "Creează un grup"
+  "createGroup": "Creează un grup",
+  "groupName": "Numele grupului"
 }

@@ -184,5 +184,6 @@
   "medicineEditTooltip": "Эмийг засах",
   "groups": "Бүлгүүд",
   "groupManagement": "Бүлгийн удирдлага",
-  "createGroup": "Бүлэг үүсгэх"
+  "createGroup": "Бүлэг үүсгэх",
+  "groupName": "Бүлгийн нэр"
 }

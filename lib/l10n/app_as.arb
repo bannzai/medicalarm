@@ -184,5 +184,6 @@
   "medicineEditTooltip": "ঔষধ সম্পাদনা কৰক",
   "groups": "গোটসমূহ",
   "groupManagement": "গোট পৰিচালনা",
-  "createGroup": "গোট সৃষ্টি কৰক"
+  "createGroup": "গোট সৃষ্টি কৰক",
+  "groupName": "গোটৰ নাম"
 }

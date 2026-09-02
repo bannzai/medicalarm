@@ -184,5 +184,6 @@
   "medicineEditTooltip": "औषध संपादित करा",
   "groups": "गट",
   "groupManagement": "गट व्यवस्थापन",
-  "createGroup": "गट तयार करा"
+  "createGroup": "गट तयार करा",
+  "groupName": "गटाचे नाव"
 }

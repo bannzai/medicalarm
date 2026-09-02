@@ -184,5 +184,6 @@
   "medicineEditTooltip": "עריכת תרופה",
   "groups": "קבוצות",
   "groupManagement": "ניהול קבוצות",
-  "createGroup": "יצירת קבוצה"
+  "createGroup": "יצירת קבוצה",
+  "groupName": "שם הקבוצה"
 }

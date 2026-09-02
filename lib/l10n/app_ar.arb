@@ -184,5 +184,6 @@
   "medicineEditTooltip": "تعديل الدواء",
   "groups": "المجموعات",
   "groupManagement": "إدارة المجموعات",
-  "createGroup": "إنشاء مجموعة"
+  "createGroup": "إنشاء مجموعة",
+  "groupName": "اسم المجموعة"
 }

@@ -184,5 +184,6 @@
   "medicineEditTooltip": "દવા સંપાદિત કરો",
   "groups": "જૂથો",
   "groupManagement": "જૂથ વ્યવસ્થાપન",
-  "createGroup": "ગ્રુપ બનાવો"
+  "createGroup": "ગ્રુપ બનાવો",
+  "groupName": "જૂથનું નામ"
 }

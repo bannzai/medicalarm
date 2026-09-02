@@ -184,5 +184,6 @@
   "medicineEditTooltip": "ویرایش دارو",
   "groups": "گروه‌ها",
   "groupManagement": "مدیریت گروه‌ها",
-  "createGroup": "ایجاد گروه"
+  "createGroup": "ایجاد گروه",
+  "groupName": "نام گروه"
 }

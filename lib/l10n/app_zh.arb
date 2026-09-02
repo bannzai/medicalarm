@@ -184,5 +184,6 @@
   "medicineEditTooltip": "编辑药物",
   "groups": "群组",
   "groupManagement": "群组管理",
-  "createGroup": "创建群组"
+  "createGroup": "创建群组",
+  "groupName": "群组名称"
 }

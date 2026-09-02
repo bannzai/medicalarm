@@ -184,5 +184,6 @@
   "medicineEditTooltip": "መድኃኒት አርትዕ",
   "groups": "ቡድኖች",
   "groupManagement": "የቡድኖች አስተዳደር",
-  "createGroup": "ቡድን ይፍጠሩ"
+  "createGroup": "ቡድን ይፍጠሩ",
+  "groupName": "የቡድን ስም"
 }

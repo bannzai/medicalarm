@@ -184,5 +184,6 @@
   "medicineEditTooltip": "Edit ubat",
   "groups": "Kumpulan",
   "groupManagement": "Pengurusan kumpulan",
-  "createGroup": "Cipta kumpulan"
+  "createGroup": "Cipta kumpulan",
+  "groupName": "Nama kumpulan"
 }

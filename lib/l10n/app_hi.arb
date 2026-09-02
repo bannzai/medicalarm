@@ -184,5 +184,6 @@
   "medicineEditTooltip": "दवा संपादित करें",
   "groups": "समूह",
   "groupManagement": "समूह प्रबंधन",
-  "createGroup": "समूह बनाएं"
+  "createGroup": "समूह बनाएं",
+  "groupName": "समूह का नाम"
 }

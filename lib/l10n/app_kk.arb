@@ -184,5 +184,6 @@
   "medicineEditTooltip": "Дәріні өңдеу",
   "groups": "Топтар",
   "groupManagement": "Топтарды басқару",
-  "createGroup": "Топ құру"
+  "createGroup": "Топ құру",
+  "groupName": "Топ атауы"
 }

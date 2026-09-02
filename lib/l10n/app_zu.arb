@@ -184,5 +184,6 @@
   "medicineEditTooltip": "Hlela umuthi",
   "groups": "Amaqembu",
   "groupManagement": "Ukuphathwa kwamaqembu",
-  "createGroup": "Dala iqembu"
+  "createGroup": "Dala iqembu",
+  "groupName": "Igama leqembu"
 }

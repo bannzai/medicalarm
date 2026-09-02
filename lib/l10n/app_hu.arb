@@ -184,5 +184,6 @@
   "medicineEditTooltip": "Gyógyszer szerkesztése",
   "groups": "Csoportok",
   "groupManagement": "Csoportok kezelése",
-  "createGroup": "Csoport létrehozása"
+  "createGroup": "Csoport létrehozása",
+  "groupName": "Csoport neve"
 }

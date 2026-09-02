@@ -184,5 +184,6 @@
   "medicineEditTooltip": "Dorini tahrirlash",
   "groups": "Guruhlar",
   "groupManagement": "Guruhlarni boshqarish",
-  "createGroup": "Guruh yaratish"
+  "createGroup": "Guruh yaratish",
+  "groupName": "Guruh nomi"
 }

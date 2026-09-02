@@ -184,5 +184,6 @@
   "medicineEditTooltip": "Editatu sendagaia",
   "groups": "Taldeak",
   "groupManagement": "Taldeen kudeaketa",
-  "createGroup": "Sortu taldea"
+  "createGroup": "Sortu taldea",
+  "groupName": "Taldearen izena"
 }

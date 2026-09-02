@@ -184,5 +184,6 @@
   "medicineEditTooltip": "Golygu meddyginiaeth",
   "groups": "Grwpiau",
   "groupManagement": "Rheoli grwpiau",
-  "createGroup": "Creu grŵp"
+  "createGroup": "Creu grŵp",
+  "groupName": "Enw'r grŵp"
 }

@@ -184,5 +184,6 @@
   "medicineEditTooltip": "I-edit ang gamot",
   "groups": "Mga Grupo",
   "groupManagement": "Pamamahala ng mga grupo",
-  "createGroup": "Gumawa ng grupo"
+  "createGroup": "Gumawa ng grupo",
+  "groupName": "Pangalan ng grupo"
 }

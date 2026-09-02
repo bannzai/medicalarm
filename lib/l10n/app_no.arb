@@ -184,5 +184,6 @@
   "medicineEditTooltip": "Rediger medisin",
   "groups": "Grupper",
   "groupManagement": "Gruppeadministrasjon",
-  "createGroup": "Opprett gruppe"
+  "createGroup": "Opprett gruppe",
+  "groupName": "Gruppenavn"
 }

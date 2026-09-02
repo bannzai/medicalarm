@@ -184,5 +184,6 @@
   "medicineEditTooltip": "మందును సవరించండి",
   "groups": "సమూహాలు",
   "groupManagement": "సమూహ నిర్వహణ",
-  "createGroup": "సమూహాన్ని సృష్టించండి"
+  "createGroup": "సమూహాన్ని సృష్టించండి",
+  "groupName": "సమూహం పేరు"
 }

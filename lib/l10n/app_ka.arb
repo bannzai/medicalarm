@@ -184,5 +184,6 @@
   "medicineEditTooltip": "მედიკამენტის რედაქტირება",
   "groups": "ჯგუფები",
   "groupManagement": "ჯგუფების მართვა",
-  "createGroup": "ჯგუფის შექმნა"
+  "createGroup": "ჯგუფის შექმნა",
+  "groupName": "ჯგუფის სახელი"
 }

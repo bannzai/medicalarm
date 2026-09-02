@@ -184,5 +184,6 @@
   "medicineEditTooltip": "Redaguoti vaistą",
   "groups": "Grupės",
   "groupManagement": "Grupės valdymas",
-  "createGroup": "Sukurti grupę"
+  "createGroup": "Sukurti grupę",
+  "groupName": "Grupės pavadinimas"
 }

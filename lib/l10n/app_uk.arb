@@ -184,5 +184,6 @@
   "medicineEditTooltip": "Редагувати ліки",
   "groups": "Групи",
   "groupManagement": "Керування групами",
-  "createGroup": "Створити групу"
+  "createGroup": "Створити групу",
+  "groupName": "Назва групи"
 }

@@ -184,5 +184,6 @@
   "medicineEditTooltip": "Խմբագրել դեղը",
   "groups": "Խմբեր",
   "groupManagement": "Խմբերի կառավարում",
-  "createGroup": "Ստեղծել խումբ"
+  "createGroup": "Ստեղծել խումբ",
+  "groupName": "Խմբի անունը"
 }

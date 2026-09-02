@@ -184,5 +184,6 @@
   "medicineEditTooltip": "Upravit lék",
   "groups": "Skupiny",
   "groupManagement": "Správa skupin",
-  "createGroup": "Vytvořit skupinu"
+  "createGroup": "Vytvořit skupinu",
+  "groupName": "Název skupiny"
 }

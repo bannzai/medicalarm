@@ -184,5 +184,6 @@
   "medicineEditTooltip": "Uredi lijek",
   "groups": "Grupe",
   "groupManagement": "Upravljanje grupama",
-  "createGroup": "Kreiraj grupu"
+  "createGroup": "Kreiraj grupu",
+  "groupName": "Naziv grupe"
 }

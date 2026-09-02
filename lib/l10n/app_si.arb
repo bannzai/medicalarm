@@ -184,5 +184,6 @@
   "medicineEditTooltip": "ඖෂධය සංස්කරණය කරන්න",
   "groups": "කණ්ඩායම්",
   "groupManagement": "කණ්ඩායම් කළමනාකරණය",
-  "createGroup": "කණ්ඩායම සාදන්න"
+  "createGroup": "කණ්ඩායම සාදන්න",
+  "groupName": "කණ්ඩායමේ නම"
 }

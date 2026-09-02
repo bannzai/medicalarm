@@ -184,5 +184,6 @@
   "medicineEditTooltip": "İlacı düzenle",
   "groups": "Gruplar",
   "groupManagement": "Grup yönetimi",
-  "createGroup": "Grup oluştur"
+  "createGroup": "Grup oluştur",
+  "groupName": "Grup adı"
 }

@@ -184,5 +184,6 @@
   "medicineEditTooltip": "Muuda ravimit",
   "groups": "Rühmad",
   "groupManagement": "Rühmade haldamine",
-  "createGroup": "Loo rühm"
+  "createGroup": "Loo rühm",
+  "groupName": "Grupi nimi"
 }

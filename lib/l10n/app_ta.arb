@@ -184,5 +184,6 @@
   "medicineEditTooltip": "மருந்தைத் திருத்து",
   "groups": "குழுக்கள்",
   "groupManagement": "குழு மேலாண்மை",
-  "createGroup": "குழுவை உருவாக்கு"
+  "createGroup": "குழுவை உருவாக்கு",
+  "groupName": "குழுவின் பெயர்"
 }

@@ -184,5 +184,6 @@
   "medicineEditTooltip": "Medicijn bewerken",
   "groups": "Groepen",
   "groupManagement": "Groepen beheren",
-  "createGroup": "Groep maken"
+  "createGroup": "Groep maken",
+  "groupName": "Groepsnaam"
 }

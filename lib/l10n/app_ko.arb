@@ -184,5 +184,6 @@
   "medicineEditTooltip": "약 편집",
   "groups": "그룹",
   "groupManagement": "그룹 관리",
-  "createGroup": "그룹 만들기"
+  "createGroup": "그룹 만들기",
+  "groupName": "그룹 이름"
 }

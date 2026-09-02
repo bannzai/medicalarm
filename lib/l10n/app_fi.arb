@@ -184,5 +184,6 @@
   "medicineEditTooltip": "Muokkaa lääkettä",
   "groups": "Ryhmät",
   "groupManagement": "Ryhmien hallinta",
-  "createGroup": "Luo ryhmä"
+  "createGroup": "Luo ryhmä",
+  "groupName": "Ryhmän nimi"
 }

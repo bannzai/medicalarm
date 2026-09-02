@@ -184,5 +184,6 @@
   "medicineEditTooltip": "Επεξεργασία φαρμάκου",
   "groups": "Ομάδες",
   "groupManagement": "Διαχείριση ομάδων",
-  "createGroup": "Δημιουργία ομάδας"
+  "createGroup": "Δημιουργία ομάδας",
+  "groupName": "Όνομα ομάδας"
 }

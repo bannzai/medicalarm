@@ -184,5 +184,6 @@
   "medicineEditTooltip": "Modifiko ilaçin",
   "groups": "Grupet",
   "groupManagement": "Menaxhimi i grupeve",
-  "createGroup": "Krijo grup"
+  "createGroup": "Krijo grup",
+  "groupName": "Emri i grupit"
 }

@@ -184,5 +184,6 @@
   "medicineEditTooltip": "Chỉnh sửa thuốc",
   "groups": "Nhóm",
   "groupManagement": "Quản lý nhóm",
-  "createGroup": "Tạo nhóm"
+  "createGroup": "Tạo nhóm",
+  "groupName": "Tên nhóm"
 }
