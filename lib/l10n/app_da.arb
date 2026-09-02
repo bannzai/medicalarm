@@ -204,5 +204,6 @@
   "members": "Medlemmer",
   "memberFallbackName": "Medlem",
   "yourDisplayName": "Dit visningsnavn",
-  "displayNameInputHint": "Indtast visningsnavn"
+  "displayNameInputHint": "Indtast visningsnavn",
+  "ownerLabel": "Ejer"
 }

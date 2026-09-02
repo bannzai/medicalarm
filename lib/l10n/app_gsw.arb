@@ -204,5 +204,6 @@
   "members": "Mitglieder",
   "memberFallbackName": "Mitglied",
   "yourDisplayName": "Din Aazeigname",
-  "displayNameInputHint": "Anzeigename eingeben"
+  "displayNameInputHint": "Anzeigename eingeben",
+  "ownerLabel": "Besitzer"
 }

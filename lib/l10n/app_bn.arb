@@ -204,5 +204,6 @@
   "members": "সদস্যরা",
   "memberFallbackName": "সদস্য",
   "yourDisplayName": "আপনার প্রদর্শন নাম",
-  "displayNameInputHint": "প্রদর্শন নাম লিখুন"
+  "displayNameInputHint": "প্রদর্শন নাম লিখুন",
+  "ownerLabel": "মালিক"
 }

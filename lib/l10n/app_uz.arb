@@ -204,5 +204,6 @@
   "members": "A'zolar",
   "memberFallbackName": "Aʼzo",
   "yourDisplayName": "Ko‘rsatiladigan nomingiz",
-  "displayNameInputHint": "Ko‘rsatiladigan ismni kiriting"
+  "displayNameInputHint": "Ko‘rsatiladigan ismni kiriting",
+  "ownerLabel": "Egasi"
 }

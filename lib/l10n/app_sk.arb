@@ -204,5 +204,6 @@
   "members": "Členovia",
   "memberFallbackName": "Člen",
   "yourDisplayName": "Vaše zobrazované meno",
-  "displayNameInputHint": "Zadajte zobrazované meno"
+  "displayNameInputHint": "Zadajte zobrazované meno",
+  "ownerLabel": "Vlastník"
 }

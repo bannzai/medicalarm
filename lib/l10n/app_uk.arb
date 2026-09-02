@@ -204,5 +204,6 @@
   "members": "Учасники",
   "memberFallbackName": "Учасник",
   "yourDisplayName": "Ваше відображуване ім’я",
-  "displayNameInputHint": "Введіть ім’я, що відображатиметься"
+  "displayNameInputHint": "Введіть ім’я, що відображатиметься",
+  "ownerLabel": "Власник"
 }

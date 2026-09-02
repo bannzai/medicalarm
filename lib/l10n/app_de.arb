@@ -204,5 +204,6 @@
   "members": "Mitglieder",
   "memberFallbackName": "Mitglied",
   "yourDisplayName": "Ihr Anzeigename",
-  "displayNameInputHint": "Anzeigenamen eingeben"
+  "displayNameInputHint": "Anzeigenamen eingeben",
+  "ownerLabel": "Eigentümer"
 }

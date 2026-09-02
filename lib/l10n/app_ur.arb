@@ -204,5 +204,6 @@
   "members": "اراکین",
   "memberFallbackName": "رکن",
   "yourDisplayName": "آپ کا ڈسپلے نام",
-  "displayNameInputHint": "ڈسپلے نام درج کریں"
+  "displayNameInputHint": "ڈسپلے نام درج کریں",
+  "ownerLabel": "مالک"
 }

@@ -204,5 +204,6 @@
   "members": "Dalībnieki",
   "memberFallbackName": "Dalībnieks",
   "yourDisplayName": "Jūsu parādāmais vārds",
-  "displayNameInputHint": "Ievadiet parādāmo vārdu"
+  "displayNameInputHint": "Ievadiet parādāmo vārdu",
+  "ownerLabel": "Īpašnieks"
 }

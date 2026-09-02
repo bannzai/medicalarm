@@ -204,5 +204,6 @@
   "members": "ಸದಸ್ಯರು",
   "memberFallbackName": "ಸದಸ್ಯ",
   "yourDisplayName": "ನಿಮ್ಮ ಪ್ರದರ್ಶನ ಹೆಸರು",
-  "displayNameInputHint": "ಪ್ರದರ್ಶನ ಹೆಸರನ್ನು ನಮೂದಿಸಿ"
+  "displayNameInputHint": "ಪ್ರದರ್ಶನ ಹೆಸರನ್ನು ನಮೂದಿಸಿ",
+  "ownerLabel": "ಮಾಲೀಕ"
 }

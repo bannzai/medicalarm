@@ -204,5 +204,6 @@
   "members": "សមាជិក",
   "memberFallbackName": "សមាជិក",
   "yourDisplayName": "ឈ្មោះបង្ហាញរបស់អ្នក",
-  "displayNameInputHint": "បញ្ចូលឈ្មោះបង្ហាញ"
+  "displayNameInputHint": "បញ្ចូលឈ្មោះបង្ហាញ",
+  "ownerLabel": "ម្ចាស់"
 }

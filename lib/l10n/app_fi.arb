@@ -204,5 +204,6 @@
   "members": "Jäsenet",
   "memberFallbackName": "Jäsen",
   "yourDisplayName": "Näyttönimesi",
-  "displayNameInputHint": "Anna näyttönimi"
+  "displayNameInputHint": "Anna näyttönimi",
+  "ownerLabel": "Omistaja"
 }

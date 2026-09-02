@@ -204,5 +204,6 @@
   "members": "멤버",
   "memberFallbackName": "멤버",
   "yourDisplayName": "표시 이름",
-  "displayNameInputHint": "표시 이름 입력"
+  "displayNameInputHint": "표시 이름 입력",
+  "ownerLabel": "소유자"
 }

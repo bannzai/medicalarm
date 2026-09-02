@@ -204,5 +204,6 @@
   "members": "Thành viên",
   "memberFallbackName": "Thành viên",
   "yourDisplayName": "Tên hiển thị của bạn",
-  "displayNameInputHint": "Nhập tên hiển thị"
+  "displayNameInputHint": "Nhập tên hiển thị",
+  "ownerLabel": "Chủ sở hữu"
 }

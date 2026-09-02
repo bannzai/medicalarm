@@ -204,5 +204,6 @@
   "members": "Üyeler",
   "memberFallbackName": "Üye",
   "yourDisplayName": "Görünen adınız",
-  "displayNameInputHint": "Görünen adı girin"
+  "displayNameInputHint": "Görünen adı girin",
+  "ownerLabel": "Sahip"
 }

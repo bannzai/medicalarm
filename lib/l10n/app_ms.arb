@@ -204,5 +204,6 @@
   "members": "Ahli",
   "memberFallbackName": "Ahli",
   "yourDisplayName": "Nama paparan anda",
-  "displayNameInputHint": "Masukkan nama paparan"
+  "displayNameInputHint": "Masukkan nama paparan",
+  "ownerLabel": "Pemilik"
 }

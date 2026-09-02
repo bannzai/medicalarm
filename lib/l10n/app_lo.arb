@@ -204,5 +204,6 @@
   "members": "ສະມາຊິກ",
   "memberFallbackName": "ສະມາຊິກ",
   "yourDisplayName": "ຊື່ສະແດງຂອງທ່ານ",
-  "displayNameInputHint": "ປ້ອນຊື່ສະແດງ"
+  "displayNameInputHint": "ປ້ອນຊື່ສະແດງ",
+  "ownerLabel": "ເຈົ້າຂອງ"
 }

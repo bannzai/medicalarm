@@ -204,5 +204,6 @@
   "members": "Lede",
   "memberFallbackName": "Lid",
   "yourDisplayName": "Jou vertoonnaam",
-  "displayNameInputHint": "Voer vertoonnaam in"
+  "displayNameInputHint": "Voer vertoonnaam in",
+  "ownerLabel": "Eienaar"
 }

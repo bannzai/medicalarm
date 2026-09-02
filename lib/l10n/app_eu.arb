@@ -204,5 +204,6 @@
   "members": "Kideak",
   "memberFallbackName": "Kidea",
   "yourDisplayName": "Zure bistaratzeko izena",
-  "displayNameInputHint": "Sartu bistaratzeko izena"
+  "displayNameInputHint": "Sartu bistaratzeko izena",
+  "ownerLabel": "Jabea"
 }

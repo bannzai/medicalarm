@@ -204,5 +204,6 @@
   "members": "Anëtarët",
   "memberFallbackName": "Anëtar",
   "yourDisplayName": "Emri juaj i shfaqur",
-  "displayNameInputHint": "Futni emrin e shfaqur"
+  "displayNameInputHint": "Futni emrin e shfaqur",
+  "ownerLabel": "Pronar"
 }

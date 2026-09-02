@@ -204,5 +204,6 @@
   "members": "成员",
   "memberFallbackName": "成员",
   "yourDisplayName": "你的显示名称",
-  "displayNameInputHint": "输入显示名称"
+  "displayNameInputHint": "输入显示名称",
+  "ownerLabel": "所有者"
 }

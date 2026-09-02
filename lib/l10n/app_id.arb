@@ -204,5 +204,6 @@
   "members": "Anggota",
   "memberFallbackName": "Anggota",
   "yourDisplayName": "Nama tampilan Anda",
-  "displayNameInputHint": "Masukkan nama tampilan"
+  "displayNameInputHint": "Masukkan nama tampilan",
+  "ownerLabel": "Pemilik"
 }

@@ -204,5 +204,6 @@
   "members": "Meðlimir",
   "memberFallbackName": "Meðlimur",
   "yourDisplayName": "Birtingarnafnið þitt",
-  "displayNameInputHint": "Sláðu inn birtingarnafn"
+  "displayNameInputHint": "Sláðu inn birtingarnafn",
+  "ownerLabel": "Eigandi"
 }

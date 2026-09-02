@@ -204,5 +204,6 @@
   "members": "Wanachama",
   "memberFallbackName": "Mwanachama",
   "yourDisplayName": "Jina lako la kuonyesha",
-  "displayNameInputHint": "Weka jina la kuonyeshwa"
+  "displayNameInputHint": "Weka jina la kuonyeshwa",
+  "ownerLabel": "Mmiliki"
 }

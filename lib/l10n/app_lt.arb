@@ -204,5 +204,6 @@
   "members": "Nariai",
   "memberFallbackName": "Narys",
   "yourDisplayName": "Jūsų rodomas vardas",
-  "displayNameInputHint": "Įveskite rodomą vardą"
+  "displayNameInputHint": "Įveskite rodomą vardą",
+  "ownerLabel": "Savininkas"
 }

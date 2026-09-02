@@ -204,5 +204,6 @@
   "members": "සාමාජිකයින්",
   "memberFallbackName": "සාමාජිකයා",
   "yourDisplayName": "ඔබේ සංදර්ශන නාමය",
-  "displayNameInputHint": "සංදර්ශන නාමය ඇතුළත් කරන්න"
+  "displayNameInputHint": "සංදර්ශන නාමය ඇතුළත් කරන්න",
+  "ownerLabel": "හිමිකරු"
 }

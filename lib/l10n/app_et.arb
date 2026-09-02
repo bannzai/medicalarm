@@ -204,5 +204,6 @@
   "members": "Liikmed",
   "memberFallbackName": "Liige",
   "yourDisplayName": "Teie kuvatav nimi",
-  "displayNameInputHint": "Sisestage kuvatav nimi"
+  "displayNameInputHint": "Sisestage kuvatav nimi",
+  "ownerLabel": "Omanik"
 }

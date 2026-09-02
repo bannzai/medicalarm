@@ -204,5 +204,6 @@
   "members": "సభ్యులు",
   "memberFallbackName": "సభ్యుడు",
   "yourDisplayName": "మీ ప్రదర్శన పేరు",
-  "displayNameInputHint": "ప్రదర్శన పేరును నమోదు చేయండి"
+  "displayNameInputHint": "ప్రదర్శన పేరును నమోదు చేయండి",
+  "ownerLabel": "యజమాని"
 }

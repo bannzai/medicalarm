@@ -204,5 +204,6 @@
   "members": "Μέλη",
   "memberFallbackName": "Μέλος",
   "yourDisplayName": "Το όνομα εμφάνισής σας",
-  "displayNameInputHint": "Εισαγάγετε εμφανιζόμενο όνομα"
+  "displayNameInputHint": "Εισαγάγετε εμφανιζόμενο όνομα",
+  "ownerLabel": "Ιδιοκτήτης"
 }

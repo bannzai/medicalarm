@@ -204,5 +204,6 @@
   "members": "Мүчөлөр",
   "memberFallbackName": "Мүчө",
   "yourDisplayName": "Көрсөтүлүүчү атыңыз",
-  "displayNameInputHint": "Көрүнүүчү атты киргизиңиз"
+  "displayNameInputHint": "Көрүнүүчү атты киргизиңиз",
+  "ownerLabel": "Ээси"
 }

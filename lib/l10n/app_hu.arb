@@ -204,5 +204,6 @@
   "members": "Tagok",
   "memberFallbackName": "Tag",
   "yourDisplayName": "Megjelenített neve",
-  "displayNameInputHint": "Adja meg a megjelenítendő nevet"
+  "displayNameInputHint": "Adja meg a megjelenítendő nevet",
+  "ownerLabel": "Tulajdonos"
 }

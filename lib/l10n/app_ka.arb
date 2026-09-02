@@ -204,5 +204,6 @@
   "members": "წევრები",
   "memberFallbackName": "წევრი",
   "yourDisplayName": "თქვენი საჩვენებელი სახელი",
-  "displayNameInputHint": "შეიყვანეთ საჩვენებელი სახელი"
+  "displayNameInputHint": "შეიყვანეთ საჩვენებელი სახელი",
+  "ownerLabel": "მფლობელი"
 }
