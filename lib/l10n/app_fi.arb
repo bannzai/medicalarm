@@ -83,6 +83,7 @@
   "history": "Historia",
   "calendar": "Kalenteri",
   "diary": "Päiväkirja",
+  "writeDiary": "Kirjoita päiväkirja",
   "medicineRegistrationLimit": "Huumeiden rekisteröintimäärä",
   "doseReceiverRegistrationLimit": "rekisteröityneiden lääkkeiden käyttäjien määrä",
   "notificationScheduleLimit": "ilmoitusajan aikataulujen määrä",

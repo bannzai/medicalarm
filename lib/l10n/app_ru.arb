@@ -83,6 +83,7 @@
   "history": "История",
   "calendar": "Календарь",
   "diary": "Дневник",
+  "writeDiary": "Написать дневник",
   "medicineRegistrationLimit": "Количество зарегистрированных лекарств",
   "doseReceiverRegistrationLimit": "Количество зарегистрированных пользователей",
   "notificationScheduleLimit": "Количество запланированных уведомлений",

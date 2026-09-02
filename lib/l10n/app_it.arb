@@ -83,6 +83,7 @@
   "history": "Storico",
   "calendar": "Calendario",
   "diary": "Diario",
+  "writeDiary": "Scrivi un diario",
   "medicineRegistrationLimit": "Numero di registrazioni dei farmaci",
   "doseReceiverRegistrationLimit": "Numero di registrazioni per i fruitori",
   "notificationScheduleLimit": "numero di programmazione delle notifiche",

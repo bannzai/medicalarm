@@ -83,6 +83,7 @@
   "history": "Ajalugu",
   "calendar": "Kalender",
   "diary": "Päevik",
+  "writeDiary": "Kirjuta päevikut",
   "medicineRegistrationLimit": "Ravimi registreerimiste arvu",
   "doseReceiverRegistrationLimit": "registreerimise arvu",
   "notificationScheduleLimit": "teavituste ajakava arvu",
