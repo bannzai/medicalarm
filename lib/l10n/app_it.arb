@@ -280,5 +280,6 @@
   "onboardingPlanGeneratingSchedule": "Stiamo creando il tuo piano di notifiche",
   "onboardingPlanGeneratingReady": "Tutto pronto.",
   "onboardingPlanResultTitle": "Il tuo piano personalizzato",
-  "onboardingPlanResultGoalFormat": "Obiettivo: {goal}"
+  "onboardingPlanResultGoalFormat": "Obiettivo: {goal}",
+  "onboardingPlanDoseReceivers": "Persona che assume il farmaco"
 }

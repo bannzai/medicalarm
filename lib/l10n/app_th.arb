@@ -280,5 +280,6 @@
   "onboardingPlanGeneratingSchedule": "กำลังจัดทำแผนการแจ้งเตือนของคุณ",
   "onboardingPlanGeneratingReady": "พร้อมแล้ว",
   "onboardingPlanResultTitle": "แผนเฉพาะสำหรับคุณ",
-  "onboardingPlanResultGoalFormat": "เป้าหมาย: {goal}"
+  "onboardingPlanResultGoalFormat": "เป้าหมาย: {goal}",
+  "onboardingPlanDoseReceivers": "ผู้รับประทานยา"
 }

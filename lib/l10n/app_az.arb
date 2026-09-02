@@ -280,5 +280,6 @@
   "onboardingPlanGeneratingSchedule": "Bildiriş planınız hazırlanır",
   "onboardingPlanGeneratingReady": "Hazırdır.",
   "onboardingPlanResultTitle": "Sizə özəl plan",
-  "onboardingPlanResultGoalFormat": "Məqsəd: {goal}"
+  "onboardingPlanResultGoalFormat": "Məqsəd: {goal}",
+  "onboardingPlanDoseReceivers": "Dərman qəbul edən şəxs"
 }

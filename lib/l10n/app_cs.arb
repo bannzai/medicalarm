@@ -280,5 +280,6 @@
   "onboardingPlanGeneratingSchedule": "Vytváříme váš plán upozornění",
   "onboardingPlanGeneratingReady": "Je připraveno.",
   "onboardingPlanResultTitle": "Váš osobní plán",
-  "onboardingPlanResultGoalFormat": "Cíl: {goal}"
+  "onboardingPlanResultGoalFormat": "Cíl: {goal}",
+  "onboardingPlanDoseReceivers": "Osoba užívající léky"
 }

@@ -280,5 +280,6 @@
   "onboardingPlanGeneratingSchedule": "ඔබේ දැනුම්දීම් සැලැස්ම සකස් කරමින් සිටිමු",
   "onboardingPlanGeneratingReady": "සූදානම්.",
   "onboardingPlanResultTitle": "ඔබ වෙනුවෙන් සකස් කළ පෞද්ගලික සැලැස්ම",
-  "onboardingPlanResultGoalFormat": "ඉලක්කය: {goal}"
+  "onboardingPlanResultGoalFormat": "ඉලක්කය: {goal}",
+  "onboardingPlanDoseReceivers": "ඖෂධ ගන්නා පුද්ගලයා"
 }

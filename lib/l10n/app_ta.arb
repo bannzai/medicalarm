@@ -280,5 +280,6 @@
   "onboardingPlanGeneratingSchedule": "உங்கள் அறிவிப்பு திட்டத்தை உருவாக்குகிறோம்",
   "onboardingPlanGeneratingReady": "தயாராகிவிட்டது.",
   "onboardingPlanResultTitle": "உங்களுக்கான தனிப்பயனாக்கப்பட்ட திட்டம்",
-  "onboardingPlanResultGoalFormat": "இலக்கு: {goal}"
+  "onboardingPlanResultGoalFormat": "இலக்கு: {goal}",
+  "onboardingPlanDoseReceivers": "மருந்து உட்கொள்ளும் நபர்"
 }

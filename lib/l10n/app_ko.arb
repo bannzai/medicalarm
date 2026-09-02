@@ -280,5 +280,6 @@
   "onboardingPlanGeneratingSchedule": "알림 플랜을 만들고 있어요",
   "onboardingPlanGeneratingReady": "준비가 완료되었습니다.",
   "onboardingPlanResultTitle": "나만을 위한 플랜",
-  "onboardingPlanResultGoalFormat": "목표: {goal}"
+  "onboardingPlanResultGoalFormat": "목표: {goal}",
+  "onboardingPlanDoseReceivers": "약을 복용하는 사람"
 }

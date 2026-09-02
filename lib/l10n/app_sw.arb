@@ -280,5 +280,6 @@
   "onboardingPlanGeneratingSchedule": "Tunaunda mpango wako wa arifa",
   "onboardingPlanGeneratingReady": "Iko tayari.",
   "onboardingPlanResultTitle": "Mpango wako binafsi",
-  "onboardingPlanResultGoalFormat": "Lengo: {goal}"
+  "onboardingPlanResultGoalFormat": "Lengo: {goal}",
+  "onboardingPlanDoseReceivers": "Mtu anayekunywa dawa"
 }

@@ -280,5 +280,6 @@
   "onboardingPlanGeneratingSchedule": "آپ کا اطلاع پلان تیار کیا جا رہا ہے",
   "onboardingPlanGeneratingReady": "تیار ہے۔",
   "onboardingPlanResultTitle": "آپ کا ذاتی منصوبہ",
-  "onboardingPlanResultGoalFormat": "ہدف: {goal}"
+  "onboardingPlanResultGoalFormat": "ہدف: {goal}",
+  "onboardingPlanDoseReceivers": "دوا لینے والا شخص"
 }

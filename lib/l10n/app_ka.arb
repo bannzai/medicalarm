@@ -280,5 +280,6 @@
   "onboardingPlanGeneratingSchedule": "ვქმნით თქვენი შეტყობინებების გეგმას",
   "onboardingPlanGeneratingReady": "მზადაა.",
   "onboardingPlanResultTitle": "თქვენი პერსონალური გეგმა",
-  "onboardingPlanResultGoalFormat": "მიზანი: {goal}"
+  "onboardingPlanResultGoalFormat": "მიზანი: {goal}",
+  "onboardingPlanDoseReceivers": "ადამიანი, რომელიც წამალს იღებს"
 }

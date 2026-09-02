@@ -280,5 +280,6 @@
   "onboardingPlanGeneratingSchedule": "We stellen je meldingenplan samen",
   "onboardingPlanGeneratingReady": "Klaar.",
   "onboardingPlanResultTitle": "Jouw persoonlijke plan",
-  "onboardingPlanResultGoalFormat": "Doel: {goal}"
+  "onboardingPlanResultGoalFormat": "Doel: {goal}",
+  "onboardingPlanDoseReceivers": "Persoon die medicijnen inneemt"
 }

@@ -280,5 +280,6 @@
   "onboardingPlanGeneratingSchedule": "Kami sedang menyusun rencana notifikasi Anda",
   "onboardingPlanGeneratingReady": "Sudah siap.",
   "onboardingPlanResultTitle": "Rencana khusus untuk Anda",
-  "onboardingPlanResultGoalFormat": "Tujuan: {goal}"
+  "onboardingPlanResultGoalFormat": "Tujuan: {goal}",
+  "onboardingPlanDoseReceivers": "Orang yang minum obat"
 }

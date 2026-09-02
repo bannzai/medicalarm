@@ -280,5 +280,6 @@
   "onboardingPlanGeneratingSchedule": "Koostame sinu teavitusplaani",
   "onboardingPlanGeneratingReady": "Kõik on valmis.",
   "onboardingPlanResultTitle": "Sinu isiklik plaan",
-  "onboardingPlanResultGoalFormat": "Eesmärk: {goal}"
+  "onboardingPlanResultGoalFormat": "Eesmärk: {goal}",
+  "onboardingPlanDoseReceivers": "Ravimi tarvitaja"
 }

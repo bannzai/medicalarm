@@ -280,5 +280,6 @@
   "onboardingPlanGeneratingSchedule": "ກຳລັງຈັດທຳແຜນການແຈ້ງເຕືອນຂອງທ່ານ",
   "onboardingPlanGeneratingReady": "ພ້ອມແລ້ວ.",
   "onboardingPlanResultTitle": "ແຜນການສະເພາະຂອງທ່ານ",
-  "onboardingPlanResultGoalFormat": "ເປົ້າໝາຍ: {goal}"
+  "onboardingPlanResultGoalFormat": "ເປົ້າໝາຍ: {goal}",
+  "onboardingPlanDoseReceivers": "ຜູ້ທີ່ກິນຢາ"
 }

@@ -280,5 +280,6 @@
   "onboardingPlanGeneratingSchedule": "আপনার বিজ্ঞপ্তির পরিকল্পনা তৈরি করা হচ্ছে",
   "onboardingPlanGeneratingReady": "প্রস্তুত হয়ে গেছে",
   "onboardingPlanResultTitle": "আপনার জন্য ব্যক্তিগত পরিকল্পনা",
-  "onboardingPlanResultGoalFormat": "লক্ষ্য: {goal}"
+  "onboardingPlanResultGoalFormat": "লক্ষ্য: {goal}",
+  "onboardingPlanDoseReceivers": "ওষুধ সেবনকারী"
 }

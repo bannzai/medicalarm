@@ -280,5 +280,6 @@
   "onboardingPlanGeneratingSchedule": "Створюємо ваш план сповіщень",
   "onboardingPlanGeneratingReady": "Готово.",
   "onboardingPlanResultTitle": "Ваш персональний план",
-  "onboardingPlanResultGoalFormat": "Мета: {goal}"
+  "onboardingPlanResultGoalFormat": "Мета: {goal}",
+  "onboardingPlanDoseReceivers": "Людина, яка приймає ліки"
 }

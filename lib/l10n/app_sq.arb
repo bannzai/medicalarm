@@ -280,5 +280,6 @@
   "onboardingPlanGeneratingSchedule": "Po krijojmë planin tuaj të njoftimeve",
   "onboardingPlanGeneratingReady": "Gati.",
   "onboardingPlanResultTitle": "Plani juaj personal",
-  "onboardingPlanResultGoalFormat": "Qëllimi: {goal}"
+  "onboardingPlanResultGoalFormat": "Qëllimi: {goal}",
+  "onboardingPlanDoseReceivers": "Personi që merr ilaçe"
 }

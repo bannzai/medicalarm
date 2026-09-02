@@ -280,5 +280,6 @@
   "onboardingPlanGeneratingSchedule": "Összeállítjuk az értesítési tervedet",
   "onboardingPlanGeneratingReady": "Készen áll.",
   "onboardingPlanResultTitle": "Személyre szabott terved",
-  "onboardingPlanResultGoalFormat": "Cél: {goal}"
+  "onboardingPlanResultGoalFormat": "Cél: {goal}",
+  "onboardingPlanDoseReceivers": "Gyógyszert szedő személy"
 }

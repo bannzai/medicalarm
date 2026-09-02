@@ -280,5 +280,6 @@
   "onboardingPlanGeneratingSchedule": "Bildirishnomalar rejangiz tuzilmoqda",
   "onboardingPlanGeneratingReady": "Tayyor.",
   "onboardingPlanResultTitle": "Siz uchun shaxsiy reja",
-  "onboardingPlanResultGoalFormat": "Maqsad: {goal}"
+  "onboardingPlanResultGoalFormat": "Maqsad: {goal}",
+  "onboardingPlanDoseReceivers": "Dori qabul qiluvchi shaxs"
 }

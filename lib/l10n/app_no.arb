@@ -280,5 +280,6 @@
   "onboardingPlanGeneratingSchedule": "Vi setter sammen varslingsplanen din",
   "onboardingPlanGeneratingReady": "Klart.",
   "onboardingPlanResultTitle": "Din personlige plan",
-  "onboardingPlanResultGoalFormat": "Mål: {goal}"
+  "onboardingPlanResultGoalFormat": "Mål: {goal}",
+  "onboardingPlanDoseReceivers": "Person som tar medisinen"
 }

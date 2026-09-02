@@ -280,5 +280,6 @@
   "onboardingPlanGeneratingSchedule": "Đang tạo kế hoạch thông báo của bạn",
   "onboardingPlanGeneratingReady": "Đã sẵn sàng.",
   "onboardingPlanResultTitle": "Kế hoạch dành riêng cho bạn",
-  "onboardingPlanResultGoalFormat": "Mục tiêu: {goal}"
+  "onboardingPlanResultGoalFormat": "Mục tiêu: {goal}",
+  "onboardingPlanDoseReceivers": "Người dùng thuốc"
 }

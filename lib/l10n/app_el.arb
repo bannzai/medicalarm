@@ -280,5 +280,6 @@
   "onboardingPlanGeneratingSchedule": "Δημιουργούμε το πλάνο ειδοποιήσεών σας",
   "onboardingPlanGeneratingReady": "Είναι έτοιμο.",
   "onboardingPlanResultTitle": "Το προσωπικό σας πλάνο",
-  "onboardingPlanResultGoalFormat": "Στόχος: {goal}"
+  "onboardingPlanResultGoalFormat": "Στόχος: {goal}",
+  "onboardingPlanDoseReceivers": "Άτομο που λαμβάνει φάρμακα"
 }

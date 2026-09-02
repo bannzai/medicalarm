@@ -280,5 +280,6 @@
   "onboardingPlanGeneratingSchedule": "ನಿಮ್ಮ ಅಧಿಸೂಚನೆಗಳ ಯೋಜನೆಯನ್ನು ರಚಿಸಲಾಗುತ್ತಿದೆ",
   "onboardingPlanGeneratingReady": "ಸಿದ್ಧವಾಗಿದೆ.",
   "onboardingPlanResultTitle": "ನಿಮಗಾಗಿ ವೈಯಕ್ತಿಕಗೊಳಿಸಿದ ಯೋಜನೆ",
-  "onboardingPlanResultGoalFormat": "ಗುರಿ: {goal}"
+  "onboardingPlanResultGoalFormat": "ಗುರಿ: {goal}",
+  "onboardingPlanDoseReceivers": "ಔಷಧಿ ತೆಗೆದುಕೊಳ್ಳುವ ವ್ಯಕ್ತಿ"
 }

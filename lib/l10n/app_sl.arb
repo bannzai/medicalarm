@@ -280,5 +280,6 @@
   "onboardingPlanGeneratingSchedule": "Pripravljamo vaš načrt obvestil",
   "onboardingPlanGeneratingReady": "Pripravljeno.",
   "onboardingPlanResultTitle": "Vaš osebni načrt",
-  "onboardingPlanResultGoalFormat": "Cilj: {goal}"
+  "onboardingPlanResultGoalFormat": "Cilj: {goal}",
+  "onboardingPlanDoseReceivers": "Oseba, ki jemlje zdravila"
 }

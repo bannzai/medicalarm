@@ -280,5 +280,6 @@
   "onboardingPlanGeneratingSchedule": "Vă creăm planul de notificări",
   "onboardingPlanGeneratingReady": "Gata.",
   "onboardingPlanResultTitle": "Planul tău personalizat",
-  "onboardingPlanResultGoalFormat": "Obiectiv: {goal}"
+  "onboardingPlanResultGoalFormat": "Obiectiv: {goal}",
+  "onboardingPlanDoseReceivers": "Persoana care ia medicamente"
 }

@@ -280,5 +280,6 @@
   "onboardingPlanGeneratingSchedule": "جارٍ إعداد خطة الإشعارات",
   "onboardingPlanGeneratingReady": "تم الإعداد.",
   "onboardingPlanResultTitle": "خطتك الشخصية",
-  "onboardingPlanResultGoalFormat": "الهدف: {goal}"
+  "onboardingPlanResultGoalFormat": "الهدف: {goal}",
+  "onboardingPlanDoseReceivers": "متناول الدواء"
 }

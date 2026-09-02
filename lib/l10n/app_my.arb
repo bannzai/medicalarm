@@ -280,5 +280,6 @@
   "onboardingPlanGeneratingSchedule": "သင့်အသိပေးချက်အစီအစဉ်ကို ပြင်ဆင်နေပါသည်",
   "onboardingPlanGeneratingReady": "အသင့်ဖြစ်ပါပြီ။",
   "onboardingPlanResultTitle": "သင့်အတွက် ကိုယ်ပိုင်အစီအစဉ်",
-  "onboardingPlanResultGoalFormat": "ပန်းတိုင်: {goal}"
+  "onboardingPlanResultGoalFormat": "ပန်းတိုင်: {goal}",
+  "onboardingPlanDoseReceivers": "ဆေးသောက်သူ"
 }

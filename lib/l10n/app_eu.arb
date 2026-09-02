@@ -280,5 +280,6 @@
   "onboardingPlanGeneratingSchedule": "Zure jakinarazpen-plana prestatzen ari gara",
   "onboardingPlanGeneratingReady": "Prest dago.",
   "onboardingPlanResultTitle": "Zure plan pertsonalizatua",
-  "onboardingPlanResultGoalFormat": "Helburua: {goal}"
+  "onboardingPlanResultGoalFormat": "Helburua: {goal}",
+  "onboardingPlanDoseReceivers": "Sendagaia hartzen duen pertsona"
 }

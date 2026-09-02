@@ -280,5 +280,6 @@
   "onboardingPlanGeneratingSchedule": "در حال تنظیم برنامه اعلان‌های شما هستیم",
   "onboardingPlanGeneratingReady": "آماده است.",
   "onboardingPlanResultTitle": "برنامه شخصی شما",
-  "onboardingPlanResultGoalFormat": "هدف: {goal}"
+  "onboardingPlanResultGoalFormat": "هدف: {goal}",
+  "onboardingPlanDoseReceivers": "فردی که دارو مصرف می‌کند"
 }

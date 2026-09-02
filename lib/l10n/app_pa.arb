@@ -280,5 +280,6 @@
   "onboardingPlanGeneratingSchedule": "ਤੁਹਾਡਾ ਸੂਚਨਾ ਪਲਾਨ ਤਿਆਰ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ",
   "onboardingPlanGeneratingReady": "ਤਿਆਰ ਹੈ।",
   "onboardingPlanResultTitle": "ਤੁਹਾਡੇ ਲਈ ਨਿੱਜੀ ਯੋਜਨਾ",
-  "onboardingPlanResultGoalFormat": "ਟੀਚਾ: {goal}"
+  "onboardingPlanResultGoalFormat": "ਟੀਚਾ: {goal}",
+  "onboardingPlanDoseReceivers": "ਦਵਾਈ ਲੈਣ ਵਾਲਾ ਵਿਅਕਤੀ"
 }

@@ -280,5 +280,6 @@
   "onboardingPlanGeneratingSchedule": "Կազմում ենք ձեր ծանուցումների պլանը",
   "onboardingPlanGeneratingReady": "Պատրաստ է։",
   "onboardingPlanResultTitle": "Ձեր անհատական ծրագիրը",
-  "onboardingPlanResultGoalFormat": "Նպատակ՝ {goal}"
+  "onboardingPlanResultGoalFormat": "Նպատակ՝ {goal}",
+  "onboardingPlanDoseReceivers": "Դեղորայք ընդունող անձ"
 }

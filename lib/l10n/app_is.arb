@@ -280,5 +280,6 @@
   "onboardingPlanGeneratingSchedule": "Við erum að setja saman tilkynningaáætlunina þína",
   "onboardingPlanGeneratingReady": "Tilbúið.",
   "onboardingPlanResultTitle": "Þín persónulega áætlun",
-  "onboardingPlanResultGoalFormat": "Markmið: {goal}"
+  "onboardingPlanResultGoalFormat": "Markmið: {goal}",
+  "onboardingPlanDoseReceivers": "Sá sem tekur lyf"
 }
