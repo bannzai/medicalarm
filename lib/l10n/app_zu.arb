@@ -229,5 +229,6 @@
   "doseIntervalWarningTitle": "Isikhawu esidingekayo phakathi kwemithamo asikapheli",
   "doseIntervalWarningMessage": "Usuwuthathile lo muthi ngo-{latestTakeTime}. Izilungiselelo zidinga ukuthi kube nesikhawu okungenani esingu-{minimumDoseIntervalHours} amahora phakathi kwemithamo. Usafuna ukukurekhoda?",
   "doseIntervalWarningTakeAnyway": "Qopha",
-  "doseIntervalNotificationWarning": "⚠️ Akukadluleki amahora angu-{minimumDoseIntervalHours} kusukela ekuphuzeni umthamo wokugcina"
+  "doseIntervalNotificationWarning": "⚠️ Akukadluleki amahora angu-{minimumDoseIntervalHours} kusukela ekuphuzeni umthamo wokugcina",
+  "ossLicense": "Amalayisense e-OSS"
 }

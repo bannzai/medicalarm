@@ -229,5 +229,6 @@
   "doseIntervalWarningTitle": "Паміж прыёмамі яшчэ не прайшоў неабходны час",
   "doseIntervalWarningMessage": "Вы ўжо прынялі дозу ў {latestTakeTime}. Налада прадугледжвае інтэрвал не менш за {minimumDoseIntervalHours} гадзін паміж прыёмамі. Усё роўна запісаць прыём?",
   "doseIntervalWarningTakeAnyway": "Запісаць",
-  "doseIntervalNotificationWarning": "⚠️ З моманту апошняга прыёму не прайшло {minimumDoseIntervalHours} гадзін"
+  "doseIntervalNotificationWarning": "⚠️ З моманту апошняга прыёму не прайшло {minimumDoseIntervalHours} гадзін",
+  "ossLicense": "Ліцэнзіі OSS"
 }

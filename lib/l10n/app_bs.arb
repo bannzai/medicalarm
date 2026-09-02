@@ -229,5 +229,6 @@
   "doseIntervalWarningTitle": "Nije prošao dovoljan razmak između doza",
   "doseIntervalWarningMessage": "Lijek ste već uzeli u {latestTakeTime}. Postavljeno je da između doza mora proći najmanje {minimumDoseIntervalHours} sati. Želite li ga ipak zabilježiti?",
   "doseIntervalWarningTakeAnyway": "Zabilježi",
-  "doseIntervalNotificationWarning": "⚠️ Od prethodne doze nije prošlo {minimumDoseIntervalHours} sati"
+  "doseIntervalNotificationWarning": "⚠️ Od prethodne doze nije prošlo {minimumDoseIntervalHours} sati",
+  "ossLicense": "OSS licence"
 }

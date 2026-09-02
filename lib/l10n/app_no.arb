@@ -229,5 +229,6 @@
   "doseIntervalWarningTitle": "Det nødvendige tidsintervallet mellom dosene har ikke gått ennå",
   "doseIntervalWarningMessage": "Du har allerede tatt dosen kl. {latestTakeTime}. Innstillingen krever et intervall på minst {minimumDoseIntervalHours} timer mellom dosene. Vil du registrere den likevel?",
   "doseIntervalWarningTakeAnyway": "Registrer",
-  "doseIntervalNotificationWarning": "⚠️ Det har ikke gått {minimumDoseIntervalHours} timer siden forrige dose"
+  "doseIntervalNotificationWarning": "⚠️ Det har ikke gått {minimumDoseIntervalHours} timer siden forrige dose",
+  "ossLicense": "OSS-lisenser"
 }

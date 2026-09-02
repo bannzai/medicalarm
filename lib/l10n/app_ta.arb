@@ -229,5 +229,6 @@
   "doseIntervalWarningTitle": "மருந்து அளவுகளுக்கு இடையிலான தேவையான நேரம் இன்னும் முடியவில்லை",
   "doseIntervalWarningMessage": "நீங்கள் ஏற்கனவே {latestTakeTime} அன்று மருந்தை எடுத்துள்ளீர்கள். அமைப்பின்படி மருந்தளவுகளுக்கு இடையில் குறைந்தது {minimumDoseIntervalHours} மணிநேர இடைவெளி இருக்க வேண்டும். இருப்பினும் பதிவு செய்யவா?",
   "doseIntervalWarningTakeAnyway": "பதிவு செய்யவும்",
-  "doseIntervalNotificationWarning": "⚠️ கடைசி மருந்தை எடுத்ததிலிருந்து {minimumDoseIntervalHours} மணிநேரம் ஆகவில்லை"
+  "doseIntervalNotificationWarning": "⚠️ கடைசி மருந்தை எடுத்ததிலிருந்து {minimumDoseIntervalHours} மணிநேரம் ஆகவில்லை",
+  "ossLicense": "OSS உரிமங்கள்"
 }

@@ -229,5 +229,6 @@
   "doseIntervalWarningTitle": "Būtinas laiko tarpas tarp dozių dar nepraėjo",
   "doseIntervalWarningMessage": "Vaistą jau išgėrėte {latestTakeTime}. Nustatyta, kad tarp dozių turi būti bent {minimumDoseIntervalHours} valandų pertrauka. Ar vis tiek įrašyti?",
   "doseIntervalWarningTakeAnyway": "Įrašyti",
-  "doseIntervalNotificationWarning": "⚠️ Nuo paskutinės dozės nepraėjo {minimumDoseIntervalHours} val."
+  "doseIntervalNotificationWarning": "⚠️ Nuo paskutinės dozės nepraėjo {minimumDoseIntervalHours} val.",
+  "ossLicense": "OSS licencijos"
 }

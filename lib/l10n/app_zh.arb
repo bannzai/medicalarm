@@ -229,5 +229,6 @@
   "doseIntervalWarningTitle": "用药间隔尚未达到要求",
   "doseIntervalWarningMessage": "您已于 {latestTakeTime} 服用过该药。设置的两次服药间隔至少为 {minimumDoseIntervalHours} 小时。仍要记录吗？",
   "doseIntervalWarningTakeAnyway": "记录",
-  "doseIntervalNotificationWarning": "⚠️ 距离上次服用还未满{minimumDoseIntervalHours}小时"
+  "doseIntervalNotificationWarning": "⚠️ 距离上次服用还未满{minimumDoseIntervalHours}小时",
+  "ossLicense": "OSS 许可证"
 }

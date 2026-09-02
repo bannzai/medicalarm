@@ -229,5 +229,6 @@
   "doseIntervalWarningTitle": "Դեղաչափերի միջև անհրաժեշտ ժամանակը դեռ չի անցել",
   "doseIntervalWarningMessage": "Դեղամիջոցն արդեն ընդունել եք {latestTakeTime}-ին։ Կարգավորմամբ ընդունումների միջև պետք է անցնի առնվազն {minimumDoseIntervalHours} ժամ։ Այնուամենայնիվ գրանցե՞լ ընդունումը։",
   "doseIntervalWarningTakeAnyway": "Գրանցել",
-  "doseIntervalNotificationWarning": "⚠️ Նախորդ ընդունումից դեռ չի անցել {minimumDoseIntervalHours} ժամ"
+  "doseIntervalNotificationWarning": "⚠️ Նախորդ ընդունումից դեռ չի անցել {minimumDoseIntervalHours} ժամ",
+  "ossLicense": "OSS լիցենզիաներ"
 }

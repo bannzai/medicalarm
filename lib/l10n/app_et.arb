@@ -229,5 +229,6 @@
   "doseIntervalWarningTitle": "Annustamisvahe ei ole veel täitunud",
   "doseIntervalWarningMessage": "Võtsite annuse juba kell {latestTakeTime}. Seadistus nõuab annuste vahele vähemalt {minimumDoseIntervalHours} tundi. Kas soovite selle siiski registreerida?",
   "doseIntervalWarningTakeAnyway": "Salvesta",
-  "doseIntervalNotificationWarning": "⚠️ Viimasest annusest ei ole möödunud {minimumDoseIntervalHours} tundi"
+  "doseIntervalNotificationWarning": "⚠️ Viimasest annusest ei ole möödunud {minimumDoseIntervalHours} tundi",
+  "ossLicense": "OSS-litsentsid"
 }

@@ -229,5 +229,6 @@
   "doseIntervalWarningTitle": "Необходимый интервал между приёмами ещё не прошёл",
   "doseIntervalWarningMessage": "Вы уже приняли лекарство в {latestTakeTime}. Настройка предусматривает интервал между приёмами не менее {minimumDoseIntervalHours} часов. Всё равно записать приём?",
   "doseIntervalWarningTakeAnyway": "Записать",
-  "doseIntervalNotificationWarning": "⚠️ С момента последнего приема прошло менее {minimumDoseIntervalHours} часов"
+  "doseIntervalNotificationWarning": "⚠️ С момента последнего приема прошло менее {minimumDoseIntervalHours} часов",
+  "ossLicense": "Лицензии OSS"
 }

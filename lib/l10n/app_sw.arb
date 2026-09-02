@@ -229,5 +229,6 @@
   "doseIntervalWarningTitle": "Muda unaohitajika kati ya dozi bado haujapita",
   "doseIntervalWarningMessage": "Umeshakunywa dawa saa {latestTakeTime}. Mipangilio inahitaji kuwe na angalau saa {minimumDoseIntervalHours} kati ya dozi. Unataka kuirekodi hata hivyo?",
   "doseIntervalWarningTakeAnyway": "Rekodi",
-  "doseIntervalNotificationWarning": "⚠️ Haijapita saa {minimumDoseIntervalHours} tangu dozi ya mwisho"
+  "doseIntervalNotificationWarning": "⚠️ Haijapita saa {minimumDoseIntervalHours} tangu dozi ya mwisho",
+  "ossLicense": "Leseni za OSS"
 }

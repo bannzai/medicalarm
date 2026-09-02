@@ -229,5 +229,6 @@
   "doseIntervalWarningTitle": "Koha e nevojshme ndërmjet dozave nuk ka kaluar ende",
   "doseIntervalWarningMessage": "E keni marrë ilaçin në {latestTakeTime}. Cilësimi kërkon të paktën {minimumDoseIntervalHours} orë ndërmjet dozave. Dëshironi ta regjistroni gjithsesi?",
   "doseIntervalWarningTakeAnyway": "Regjistro",
-  "doseIntervalNotificationWarning": "⚠️ Nuk kanë kaluar {minimumDoseIntervalHours} orë nga doza e fundit"
+  "doseIntervalNotificationWarning": "⚠️ Nuk kanë kaluar {minimumDoseIntervalHours} orë nga doza e fundit",
+  "ossLicense": "Licencat OSS"
 }

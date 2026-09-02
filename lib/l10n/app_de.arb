@@ -229,5 +229,6 @@
   "doseIntervalWarningTitle": "Der erforderliche Abstand zwischen den Einnahmen ist noch nicht vergangen",
   "doseIntervalWarningMessage": "Sie haben das Medikament bereits um {latestTakeTime} eingenommen. Die Einstellung sieht einen Mindestabstand von {minimumDoseIntervalHours} Stunden zwischen den Einnahmen vor. Möchten Sie die Einnahme trotzdem erfassen?",
   "doseIntervalWarningTakeAnyway": "Aufzeichnen",
-  "doseIntervalNotificationWarning": "⚠️ Seit der letzten Einnahme sind noch keine {minimumDoseIntervalHours} Stunden vergangen"
+  "doseIntervalNotificationWarning": "⚠️ Seit der letzten Einnahme sind noch keine {minimumDoseIntervalHours} Stunden vergangen",
+  "ossLicense": "OSS-Lizenzen"
 }

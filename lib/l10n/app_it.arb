@@ -229,5 +229,6 @@
   "doseIntervalWarningTitle": "Non è ancora trascorso l’intervallo tra le dosi",
   "doseIntervalWarningMessage": "Hai già assunto il farmaco alle {latestTakeTime}. L’impostazione prevede un intervallo di almeno {minimumDoseIntervalHours} ore tra le dosi. Vuoi registrarlo comunque?",
   "doseIntervalWarningTakeAnyway": "Registra",
-  "doseIntervalNotificationWarning": "⚠️ Non sono trascorse {minimumDoseIntervalHours} ore dall’ultima dose"
+  "doseIntervalNotificationWarning": "⚠️ Non sono trascorse {minimumDoseIntervalHours} ore dall’ultima dose",
+  "ossLicense": "Licenze OSS"
 }

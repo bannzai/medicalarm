@@ -229,5 +229,6 @@
   "doseIntervalWarningTitle": "Nauðsynlegt bil milli skammta er ekki liðið",
   "doseIntervalWarningMessage": "Þú hefur þegar tekið lyfið kl. {latestTakeTime}. Stillingin krefst að minnsta kosti {minimumDoseIntervalHours} klukkustunda á milli skammta. Viltu samt skrá það?",
   "doseIntervalWarningTakeAnyway": "Skrá",
-  "doseIntervalNotificationWarning": "⚠️ Ekki eru liðnir {minimumDoseIntervalHours} klukkustundir frá síðasta skammti"
+  "doseIntervalNotificationWarning": "⚠️ Ekki eru liðnir {minimumDoseIntervalHours} klukkustundir frá síðasta skammti",
+  "ossLicense": "OSS-leyfi"
 }

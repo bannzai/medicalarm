@@ -229,5 +229,6 @@
   "doseIntervalWarningTitle": "ยังไม่ถึงช่วงเวลาที่กำหนดระหว่างการรับประทานยา",
   "doseIntervalWarningMessage": "คุณรับประทานยาไปแล้วเมื่อ {latestTakeTime} การตั้งค่ากำหนดให้เว้นระยะระหว่างยาอย่างน้อย {minimumDoseIntervalHours} ชั่วโมง ต้องการบันทึกต่อหรือไม่",
   "doseIntervalWarningTakeAnyway": "บันทึก",
-  "doseIntervalNotificationWarning": "⚠️ ยังไม่ครบ {minimumDoseIntervalHours} ชั่วโมงนับจากครั้งที่รับประทานยาครั้งล่าสุด"
+  "doseIntervalNotificationWarning": "⚠️ ยังไม่ครบ {minimumDoseIntervalHours} ชั่วโมงนับจากครั้งที่รับประทานยาครั้งล่าสุด",
+  "ossLicense": "ใบอนุญาต OSS"
 }

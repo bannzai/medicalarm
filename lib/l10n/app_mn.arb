@@ -229,5 +229,6 @@
   "doseIntervalWarningTitle": "Тун хоорондын шаардлагатай хугацаа хараахан өнгөрөөгүй байна",
   "doseIntervalWarningMessage": "Та эмийг {latestTakeTime}-д аль хэдийн уусан байна. Тохиргоогоор тун хооронд дор хаяж {minimumDoseIntervalHours} цагийн зайтай байх ёстой. Гэсэн ч бүртгэх үү?",
   "doseIntervalWarningTakeAnyway": "Бүртгэх",
-  "doseIntervalNotificationWarning": "⚠️ Сүүлийн тунг хэрэглэснээс хойш {minimumDoseIntervalHours} цаг өнгөрөөгүй байна"
+  "doseIntervalNotificationWarning": "⚠️ Сүүлийн тунг хэрэглэснээс хойш {minimumDoseIntervalHours} цаг өнгөрөөгүй байна",
+  "ossLicense": "OSS лицензүүд"
 }
