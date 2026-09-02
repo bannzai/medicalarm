@@ -160,5 +160,6 @@
   "criticalAlertVolume": "Lydstyrke",
   "specialGift": "🎉 Særlig gave 🎉",
   "freePremiumTrialDays": "Du får en gratis prøveperiode på {count} dage som gave!",
-  "welcomeToMedicalarm": "Velkommen til Medicalarm!"
+  "welcomeToMedicalarm": "Velkommen til Medicalarm!",
+  "writeReviewFor5StarPromotion": "Skriv en 5-stjernet vurdering og anmeldelse i App Store, og prøv premiumfunktionerne gratis i {count} dage!"
 }

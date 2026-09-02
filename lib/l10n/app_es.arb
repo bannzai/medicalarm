@@ -160,5 +160,6 @@
   "criticalAlertVolume": "Volumen",
   "specialGift": "🎉 Regalo especial 🎉",
   "freePremiumTrialDays": "¡Recibirás como regalo un periodo de prueba gratuito de {count} días!",
-  "welcomeToMedicalarm": "Te damos la bienvenida a Medicalarm!"
+  "welcomeToMedicalarm": "Te damos la bienvenida a Medicalarm!",
+  "writeReviewFor5StarPromotion": "Escribe una valoración de 5 estrellas y una reseña en el App Store para probar gratis las funciones premium durante {count} días."
 }

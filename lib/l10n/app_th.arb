@@ -160,5 +160,6 @@
   "criticalAlertVolume": "ระดับเสียง",
   "specialGift": "🎉 ของขวัญพิเศษ 🎉",
   "freePremiumTrialDays": "คุณจะได้รับช่วงทดลองใช้ฟรี {count} วันเป็นของขวัญ!",
-  "welcomeToMedicalarm": "ยินดีต้อนรับสู่ Medicalarm!"
+  "welcomeToMedicalarm": "ยินดีต้อนรับสู่ Medicalarm!",
+  "writeReviewFor5StarPromotion": "เขียนคะแนน 5 ดาวและรีวิวใน App Store เพื่อทดลองใช้ฟีเจอร์พรีเมียมฟรีเป็นเวลา {count} วัน!"
 }

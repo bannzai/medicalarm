@@ -160,5 +160,6 @@
   "criticalAlertVolume": "ድምፅ ያማል",
   "specialGift": "🎉 ልዩ ስጦታ 🎉",
   "freePremiumTrialDays": "{count} ቀናት ነፃ የሙከራ ጊዜ እንደ ስጦታ ያገኛሉ!",
-  "welcomeToMedicalarm": "እንኳን ወደ Medicalarm በደህና መጡ!"
+  "welcomeToMedicalarm": "እንኳን ወደ Medicalarm በደህና መጡ!",
+  "writeReviewFor5StarPromotion": "በApp Store ላይ 5-ኮከብ ደረጃ እና ግምገማ ይጻፉና የፕሪሚየም ባህሪያትን ለ{count} ቀናት በነጻ ይሞክሩ!"
 }

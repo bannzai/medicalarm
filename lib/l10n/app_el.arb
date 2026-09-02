@@ -160,5 +160,6 @@
   "criticalAlertVolume": "Όγκος",
   "specialGift": "🎉 Ειδικό δώρο 🎉",
   "freePremiumTrialDays": "Θα λάβετε δωρεάν δοκιμαστική περίοδο {count} ημερών ως δώρο!",
-  "welcomeToMedicalarm": "Καλώς ήρθατε στο Medicalarm!"
+  "welcomeToMedicalarm": "Καλώς ήρθατε στο Medicalarm!",
+  "writeReviewFor5StarPromotion": "Γράψτε αξιολόγηση 5 αστέρων και κριτική στο App Store και δοκιμάστε δωρεάν τις premium λειτουργίες για {count} ημέρες!"
 }

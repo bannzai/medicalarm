@@ -160,5 +160,6 @@
   "criticalAlertVolume": "Громкость",
   "specialGift": "🎉 Особый подарок 🎉",
   "freePremiumTrialDays": "Вам будет подарен бесплатный пробный период на {count} дней!",
-  "welcomeToMedicalarm": "Добро пожаловать в Medicalarm!"
+  "welcomeToMedicalarm": "Добро пожаловать в Medicalarm!",
+  "writeReviewFor5StarPromotion": "Оставьте оценку 5 звёзд и отзыв в App Store, чтобы бесплатно пользоваться премиум-функциями в течение {count} дней!"
 }
