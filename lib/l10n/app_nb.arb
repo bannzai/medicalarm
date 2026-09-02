@@ -82,6 +82,7 @@
   "medication": "Medisinering",
   "history": "Historikk",
   "calendar": "Kalender",
+  "diary": "Dagbok",
   "medicineRegistrationLimit": "antall registrerte medisiner",
   "doseReceiverRegistrationLimit": "Antall registrerte brukere",
   "notificationScheduleLimit": "Antall planlagte varsler",

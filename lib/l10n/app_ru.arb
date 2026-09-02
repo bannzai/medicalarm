@@ -82,6 +82,7 @@
   "medication": "Прием лекарств",
   "history": "История",
   "calendar": "Календарь",
+  "diary": "Дневник",
   "medicineRegistrationLimit": "Количество зарегистрированных лекарств",
   "doseReceiverRegistrationLimit": "Количество зарегистрированных пользователей",
   "notificationScheduleLimit": "Количество запланированных уведомлений",

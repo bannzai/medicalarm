@@ -82,6 +82,7 @@
   "medication": "Medikation",
   "history": "Verlauf",
   "calendar": "Kalender",
+  "diary": "Tagebuch",
   "medicineRegistrationLimit": "Anzahl der registrierten Medikamente",
   "doseReceiverRegistrationLimit": "Anzahl der registrierten Benutzer",
   "notificationScheduleLimit": "Die Anzahl der Benachrichtigungsschedules",

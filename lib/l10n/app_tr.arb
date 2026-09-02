@@ -82,6 +82,7 @@
   "medication": "İlaç Alma",
   "history": "Geçmiş",
   "calendar": "Takvim",
+  "diary": "Günlük",
   "medicineRegistrationLimit": "ilaç kaydı sayısı",
   "doseReceiverRegistrationLimit": "Kullanıcıların kayıt sayısını",
   "notificationScheduleLimit": "Bildirim programı sayısı",

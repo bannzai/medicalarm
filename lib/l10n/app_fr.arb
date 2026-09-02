@@ -82,6 +82,7 @@
   "medication": "Prise de médicament",
   "history": "Historique",
   "calendar": "Calendrier",
+  "diary": "Journal",
   "medicineRegistrationLimit": "Le nombre d'enregistrements de médicaments",
   "doseReceiverRegistrationLimit": "Nombre maximum d'utilisateurs enregistrés",
   "notificationScheduleLimit": "Nombre de schedules de notification",

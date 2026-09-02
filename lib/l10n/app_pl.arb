@@ -82,6 +82,7 @@
   "medication": "Przyjmowanie leków",
   "history": "Historia",
   "calendar": "Kalendarz",
+  "diary": "Dziennik",
   "medicineRegistrationLimit": "Liczba zarejestrowanych leków",
   "doseReceiverRegistrationLimit": "Liczba zarejestrowanych osób przyjmujących leki",
   "notificationScheduleLimit": "Liczba harmonogramów powiadomień",

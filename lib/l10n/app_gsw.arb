@@ -82,6 +82,7 @@
   "medication": "Medikament",
   "history": "Hitorigoto",
   "calendar": "Kalender",
+  "diary": "Tagebuch",
   "medicineRegistrationLimit": "Die Anzahl der registrierten Medikamente",
   "doseReceiverRegistrationLimit": "Anzahl der registrierten Arzneimittelnehmer",
   "notificationScheduleLimit": "Zahl vo Benachrichtigungspläne",

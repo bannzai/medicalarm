@@ -82,6 +82,7 @@
   "medication": "Gyógyszerszedés",
   "history": "Előzmények",
   "calendar": "Naptár",
+  "diary": "Napló",
   "medicineRegistrationLimit": "A gyógyszerek nyilvántartásának számát",
   "doseReceiverRegistrationLimit": "A felhasználók számát",
   "notificationScheduleLimit": "Értesítési tervek száma",

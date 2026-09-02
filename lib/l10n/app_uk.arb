@@ -82,6 +82,7 @@
   "medication": "Medication",
   "history": "History",
   "calendar": "Календар",
+  "diary": "Щоденник",
   "medicineRegistrationLimit": "The number of registered medications",
   "doseReceiverRegistrationLimit": "the number of registered users",
   "notificationScheduleLimit": "the number of notification schedules",

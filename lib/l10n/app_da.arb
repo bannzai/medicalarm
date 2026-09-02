@@ -82,6 +82,7 @@
   "medication": "Medicin",
   "history": "Historik",
   "calendar": "Kalender",
+  "diary": "Dagbog",
   "medicineRegistrationLimit": "Antal registrerede mediciner",
   "doseReceiverRegistrationLimit": "Antallet af registrerede brugere",
   "notificationScheduleLimit": "Antallet af meddelelser på planen",

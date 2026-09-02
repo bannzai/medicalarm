@@ -82,6 +82,7 @@
   "medication": "Ravimid",
   "history": "Ajalugu",
   "calendar": "Kalender",
+  "diary": "Päevik",
   "medicineRegistrationLimit": "Ravimi registreerimiste arvu",
   "doseReceiverRegistrationLimit": "registreerimise arvu",
   "notificationScheduleLimit": "teavituste ajakava arvu",

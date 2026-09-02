@@ -82,6 +82,7 @@
   "medication": "ການຮັບຢາ",
   "history": "ບັນທຶກ",
   "calendar": "ປະຕິທິນ",
+  "diary": "ບັນທຶກປະຈຳວັນ",
   "medicineRegistrationLimit": "ຈຳນວນສິນຄ້າແທນທີ່ຈະລົງບັດເຊື່ອງຢູ່",
   "doseReceiverRegistrationLimit": "ຈຳນວນສະຖານທີ່ບັດທັບສົງສູງ ສໍາລັບຜູ້ຮັບສິນໃບຄົນຕ່າງໆ",
   "notificationScheduleLimit": "ຈຳນວນຕາຕິດໃຫ້ດັດແດນຕົວແລະຈັດການແບບທຸກສິ່ງລາວສູງສິຄືບຫຍໍ່ອຸດສາຫະກິດ ଗ",

@@ -82,6 +82,7 @@
   "medication": "Pengobatan",
   "history": "Riwayat",
   "calendar": "Kalender",
+  "diary": "Jurnal",
   "medicineRegistrationLimit": "Jumlah obat yang terdaftar",
   "doseReceiverRegistrationLimit": "Jumlah pendaftar pengguna",
   "notificationScheduleLimit": "Jumlah jadwal notifikasi",

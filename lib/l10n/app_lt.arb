@@ -82,6 +82,7 @@
   "medication": "Vaistus",
   "history": "Istorija",
   "calendar": "Kalendorius",
+  "diary": "Dienoraštis",
   "medicineRegistrationLimit": "Vaistų registravimo skaičius",
   "doseReceiverRegistrationLimit": "Vaistų vartotojų registracijos skaičius",
   "notificationScheduleLimit": "pranešimų tvarkaraščio skaičius",

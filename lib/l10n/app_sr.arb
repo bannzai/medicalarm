@@ -82,6 +82,7 @@
   "medication": "Лекови",
   "history": "Историја",
   "calendar": "Календар",
+  "diary": "Дневник",
   "medicineRegistrationLimit": "Broj registrovanih lekova",
   "doseReceiverRegistrationLimit": "Broj registrovanih korisnika",
   "notificationScheduleLimit": "Broj termina za obaveštenja",
