@@ -230,5 +230,6 @@
   "doseIntervalWarningMessage": "כבר נטלת את התרופה ב־{latestTakeTime}. בהגדרות נקבע מרווח של לפחות {minimumDoseIntervalHours} שעות בין מנות. האם לתעד זאת בכל זאת?",
   "doseIntervalWarningTakeAnyway": "תיעוד",
   "doseIntervalNotificationWarning": "⚠️ לא עברו {minimumDoseIntervalHours} שעות מאז המנה הקודמת",
-  "ossLicense": "רישיונות OSS"
+  "ossLicense": "רישיונות OSS",
+  "onboardingWelcomeTitle": "בואו נפטר מהדאגה\nלשכוח לקחת את התרופה"
 }

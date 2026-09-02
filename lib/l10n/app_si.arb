@@ -230,5 +230,6 @@
   "doseIntervalWarningMessage": "ඔබ {latestTakeTime} ට ඖෂධය ලබාගෙන ඇත. සැකසීම අනුව මාත්‍රා අතර අවම වශයෙන් {minimumDoseIntervalHours} පැය කාල පරතරයක් තිබිය යුතුය. එසේ වුවත් වාර්තා කරන්නද?",
   "doseIntervalWarningTakeAnyway": "වාර්තා කරන්න",
   "doseIntervalNotificationWarning": "⚠️ අවසන් මාත්‍රාව ගෙන {minimumDoseIntervalHours} පැය ගත වී නැත",
-  "ossLicense": "OSS බලපත්‍ර"
+  "ossLicense": "OSS බලපත්‍ර",
+  "onboardingWelcomeTitle": "බෙහෙත් ගැනීමට අමතක වේ යැයි\nඇති බිය නැති කරගනිමු"
 }

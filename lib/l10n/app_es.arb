@@ -230,5 +230,6 @@
   "doseIntervalWarningMessage": "Ya has tomado la dosis a las {latestTakeTime}. La configuración establece un intervalo mínimo de {minimumDoseIntervalHours} horas entre dosis. ¿Quieres registrarla de todos modos?",
   "doseIntervalWarningTakeAnyway": "Registrar",
   "doseIntervalNotificationWarning": "⚠️ No han pasado {minimumDoseIntervalHours} horas desde la última toma",
-  "ossLicense": "Licencias de OSS"
+  "ossLicense": "Licencias de OSS",
+  "onboardingWelcomeTitle": "Dejemos atrás la preocupación\nde olvidar tomar la medicación"
 }

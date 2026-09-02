@@ -230,5 +230,6 @@
   "doseIntervalWarningMessage": "Лек сте већ узели у {latestTakeTime}. Подешено је да између доза мора да прође најмање {minimumDoseIntervalHours} сати. Ипак забележити узимање?",
   "doseIntervalWarningTakeAnyway": "Забележи",
   "doseIntervalNotificationWarning": "⚠️ Од претходне дозе није прошло {minimumDoseIntervalHours} сати",
-  "ossLicense": "OSS лиценце"
+  "ossLicense": "OSS лиценце",
+  "onboardingWelcomeTitle": "Ослободимо се бриге\nda ћемо заборавити да узмемо лек"
 }

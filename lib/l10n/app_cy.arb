@@ -230,5 +230,6 @@
   "doseIntervalWarningMessage": "Rydych eisoes wedi cymryd y dos ar {latestTakeTime}. Mae’r gosodiad yn gofyn am o leiaf {minimumDoseIntervalHours} awr rhwng dosau. A ydych am ei gofnodi beth bynnag?",
   "doseIntervalWarningTakeAnyway": "Cofnodi",
   "doseIntervalNotificationWarning": "⚠️ Nid oes {minimumDoseIntervalHours} awr wedi mynd heibio ers y dos diwethaf",
-  "ossLicense": "Trwyddedau OSS"
+  "ossLicense": "Trwyddedau OSS",
+  "onboardingWelcomeTitle": "Gadewch i ni gael gwared ar y pryder\nam anghofio cymryd meddyginiaeth"
 }

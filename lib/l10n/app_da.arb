@@ -230,5 +230,6 @@
   "doseIntervalWarningMessage": "Du har allerede taget dosis kl. {latestTakeTime}. Indstillingen kræver et interval på mindst {minimumDoseIntervalHours} timer mellem doser. Vil du registrere den alligevel?",
   "doseIntervalWarningTakeAnyway": "Registrer",
   "doseIntervalNotificationWarning": "⚠️ Der er ikke gået {minimumDoseIntervalHours} timer siden sidste dosis",
-  "ossLicense": "OSS-licenser"
+  "ossLicense": "OSS-licenser",
+  "onboardingWelcomeTitle": "Slip for bekymringen\nover at glemme din medicin"
 }

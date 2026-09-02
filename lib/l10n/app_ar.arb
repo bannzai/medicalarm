@@ -230,5 +230,6 @@
   "doseIntervalWarningMessage": "تم تسجيل تناول الجرعة في {latestTakeTime}. الإعداد الحالي يتطلب مرور {minimumDoseIntervalHours} ساعة على الأقل بين الجرعات. هل تريد تسجيلها رغم ذلك؟",
   "doseIntervalWarningTakeAnyway": "تسجيل",
   "doseIntervalNotificationWarning": "⚠️ لم تمر {minimumDoseIntervalHours} ساعة منذ الجرعة السابقة",
-  "ossLicense": "تراخيص OSS"
+  "ossLicense": "تراخيص OSS",
+  "onboardingWelcomeTitle": "لنتخلّص من القلق\nبشأن نسيان تناول الدواء"
 }

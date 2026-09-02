@@ -230,5 +230,6 @@
   "doseIntervalWarningMessage": "Dərmanı {latestTakeTime} tarixində qəbul etmisiniz. Parametrlər əvvəlki qəbuldan ən azı {minimumDoseIntervalHours} saat keçməsini tələb edir. Buna baxmayaraq qeyd etmək istəyirsiniz?",
   "doseIntervalWarningTakeAnyway": "Qeyd et",
   "doseIntervalNotificationWarning": "⚠️ Əvvəlki dozadan sonra {minimumDoseIntervalHours} saat keçməyib",
-  "ossLicense": "OSS lisenziyaları"
+  "ossLicense": "OSS lisenziyaları",
+  "onboardingWelcomeTitle": "Dərman qəbul etməyi unutmaq narahatlığını\naradan qaldıraq"
 }

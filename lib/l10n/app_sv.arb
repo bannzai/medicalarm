@@ -230,5 +230,6 @@
   "doseIntervalWarningMessage": "Du har redan tagit dosen kl. {latestTakeTime}. Inställningen kräver minst {minimumDoseIntervalHours} timmar mellan doserna. Vill du registrera den ändå?",
   "doseIntervalWarningTakeAnyway": "Registrera",
   "doseIntervalNotificationWarning": "⚠️ Det har inte gått {minimumDoseIntervalHours} timmar sedan den senaste dosen",
-  "ossLicense": "OSS-licenser"
+  "ossLicense": "OSS-licenser",
+  "onboardingWelcomeTitle": "Slipp oron\nför att glömma ta medicinen"
 }

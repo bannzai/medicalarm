@@ -230,5 +230,6 @@
   "doseIntervalWarningMessage": "{latestTakeTime}-ত ইতিমধ্যে ঔষধ সেৱন কৰা হৈছে। ছেটিঙত প্ৰতিটো সেৱনৰ মাজত কমেও {minimumDoseIntervalHours} ঘণ্টাৰ ব্যৱধান ৰখা হৈছে। তথাপিও ৰেকৰ্ড কৰিবনে?",
   "doseIntervalWarningTakeAnyway": "ৰেকৰ্ড কৰক",
   "doseIntervalNotificationWarning": "⚠️ পূৰ্বৰ পালি লোৱাৰ পৰা {minimumDoseIntervalHours} ঘণ্টা পাৰ হোৱা নাই",
-  "ossLicense": "OSS অনুজ্ঞাপত্ৰসমূহ"
+  "ossLicense": "OSS অনুজ্ঞাপত্ৰসমূহ",
+  "onboardingWelcomeTitle": "ঔষধ খাবলৈ পাহৰি যোৱাৰ চিন্তা\nদূৰ কৰোঁ"
 }

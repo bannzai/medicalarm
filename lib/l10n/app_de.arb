@@ -230,5 +230,6 @@
   "doseIntervalWarningMessage": "Sie haben das Medikament bereits um {latestTakeTime} eingenommen. Die Einstellung sieht einen Mindestabstand von {minimumDoseIntervalHours} Stunden zwischen den Einnahmen vor. Möchten Sie die Einnahme trotzdem erfassen?",
   "doseIntervalWarningTakeAnyway": "Aufzeichnen",
   "doseIntervalNotificationWarning": "⚠️ Seit der letzten Einnahme sind noch keine {minimumDoseIntervalHours} Stunden vergangen",
-  "ossLicense": "OSS-Lizenzen"
+  "ossLicense": "OSS-Lizenzen",
+  "onboardingWelcomeTitle": "Schluss mit der Sorge,\ndie Einnahme zu vergessen"
 }

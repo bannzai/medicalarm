@@ -230,5 +230,6 @@
   "doseIntervalWarningMessage": "Сиз дарыны {latestTakeTime} убактысында мурун эле ичкенсиз. Жөндөөлөр боюнча дозалардын ортосунда кеминде {minimumDoseIntervalHours} саат болушу керек. Ошого карабай жаздырасызбы?",
   "doseIntervalWarningTakeAnyway": "Каттоо",
   "doseIntervalNotificationWarning": "⚠️ Акыркы дозадан бери {minimumDoseIntervalHours} саат өткөн жок",
-  "ossLicense": "OSS лицензиялары"
+  "ossLicense": "OSS лицензиялары",
+  "onboardingWelcomeTitle": "Дары ичүүнү унутуп калам деген\nкабатырланууну жоёлу"
 }

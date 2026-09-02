@@ -230,5 +230,6 @@
   "doseIntervalWarningMessage": "این دارو قبلاً در {latestTakeTime} مصرف شده است. تنظیمات، فاصله حداقل {minimumDoseIntervalHours} ساعت بین دوزها را تعیین کرده است. با این حال، آن را ثبت می‌کنید؟",
   "doseIntervalWarningTakeAnyway": "ثبت کردن",
   "doseIntervalNotificationWarning": "⚠️ از آخرین نوبت مصرف {minimumDoseIntervalHours} ساعت نگذشته است",
-  "ossLicense": "مجوزهای OSS"
+  "ossLicense": "مجوزهای OSS",
+  "onboardingWelcomeTitle": "نگرانیِ فراموش‌کردن مصرف دارو را\nاز بین ببریم"
 }

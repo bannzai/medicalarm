@@ -230,5 +230,6 @@
   "doseIntervalWarningMessage": "U het dit reeds om {latestTakeTime} geneem. Die instelling vereis ’n interval van minstens {minimumDoseIntervalHours} uur tussen dosisse. Wil u dit steeds aanteken?",
   "doseIntervalWarningTakeAnyway": "Tog aanteken",
   "doseIntervalNotificationWarning": "⚠️ Daar het nog nie {minimumDoseIntervalHours} uur sedert die vorige dosis verloop nie",
-  "ossLicense": "OSS-lisensies"
+  "ossLicense": "OSS-lisensies",
+  "onboardingWelcomeTitle": "Geen bekommernis meer\nom jou medisyne te vergeet"
 }

@@ -230,5 +230,6 @@
   "doseIntervalWarningMessage": "Лекот веќе сте го земале во {latestTakeTime}. Поставено е помеѓу дозите да има најмалку {minimumDoseIntervalHours} часа. Сепак да го запишете?",
   "doseIntervalWarningTakeAnyway": "Забележи",
   "doseIntervalNotificationWarning": "⚠️ Не поминале {minimumDoseIntervalHours} часа од последната доза",
-  "ossLicense": "OSS лиценци"
+  "ossLicense": "OSS лиценци",
+  "onboardingWelcomeTitle": "Да се ослободиме од грижата\nдека ќе заборавиме да го земеме лекот"
 }

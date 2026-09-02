@@ -230,5 +230,6 @@
   "doseIntervalWarningMessage": "Вы уже приняли лекарство в {latestTakeTime}. Настройка предусматривает интервал между приёмами не менее {minimumDoseIntervalHours} часов. Всё равно записать приём?",
   "doseIntervalWarningTakeAnyway": "Записать",
   "doseIntervalNotificationWarning": "⚠️ С момента последнего приема прошло менее {minimumDoseIntervalHours} часов",
-  "ossLicense": "Лицензии OSS"
+  "ossLicense": "Лицензии OSS",
+  "onboardingWelcomeTitle": "Избавимся от тревоги,\nчто можно забыть принять лекарство"
 }

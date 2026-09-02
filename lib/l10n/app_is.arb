@@ -230,5 +230,6 @@
   "doseIntervalWarningMessage": "Þú hefur þegar tekið lyfið kl. {latestTakeTime}. Stillingin krefst að minnsta kosti {minimumDoseIntervalHours} klukkustunda á milli skammta. Viltu samt skrá það?",
   "doseIntervalWarningTakeAnyway": "Skrá",
   "doseIntervalNotificationWarning": "⚠️ Ekki eru liðnir {minimumDoseIntervalHours} klukkustundir frá síðasta skammti",
-  "ossLicense": "OSS-leyfi"
+  "ossLicense": "OSS-leyfi",
+  "onboardingWelcomeTitle": "Engar áhyggjur af því\nað gleyma að taka lyfin"
 }

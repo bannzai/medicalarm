@@ -230,5 +230,6 @@
   "doseIntervalWarningMessage": "Сіз дәріні {latestTakeTime} уақытында қабылдап қойғансыз. Баптаулар бойынша қабылдаулар арасында кемінде {minimumDoseIntervalHours} сағат болуы керек. Соған қарамастан тіркейсіз бе?",
   "doseIntervalWarningTakeAnyway": "Жазу",
   "doseIntervalNotificationWarning": "⚠️ Соңғы қабылдаудан бері {minimumDoseIntervalHours} сағат өткен жоқ",
-  "ossLicense": "OSS лицензиялары"
+  "ossLicense": "OSS лицензиялары",
+  "onboardingWelcomeTitle": "Дәрі қабылдауды ұмытып кету\nуайымын сейілтейік"
 }

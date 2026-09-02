@@ -230,5 +230,6 @@
   "doseIntervalWarningMessage": "Ați luat deja medicamentul la {latestTakeTime}. Setarea impune un interval de cel puțin {minimumDoseIntervalHours} ore între doze. Doriți să îl înregistrați oricum?",
   "doseIntervalWarningTakeAnyway": "Înregistrează",
   "doseIntervalNotificationWarning": "⚠️ Nu au trecut {minimumDoseIntervalHours} ore de la ultima doză",
-  "ossLicense": "Licențe OSS"
+  "ossLicense": "Licențe OSS",
+  "onboardingWelcomeTitle": "Scapă de grija\ncă vei uita să iei medicamentele"
 }

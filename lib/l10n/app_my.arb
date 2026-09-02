@@ -230,5 +230,6 @@
   "doseIntervalWarningMessage": "{latestTakeTime} တွင် ဆေးသောက်ပြီးဖြစ်သည်။ ဆေးတစ်ကြိမ်နှင့်တစ်ကြိမ်ကြား အနည်းဆုံး {minimumDoseIntervalHours} နာရီခြားရန် သတ်မှတ်ထားသည်။ သို့သော် မှတ်တမ်းတင်မည်လား။",
   "doseIntervalWarningTakeAnyway": "မှတ်တမ်းတင်ရန်",
   "doseIntervalNotificationWarning": "⚠️ နောက်ဆုံးဆေးသောက်ပြီးနောက် {minimumDoseIntervalHours} နာရီ မပြည့်သေးပါ",
-  "ossLicense": "OSS လိုင်စင်များ"
+  "ossLicense": "OSS လိုင်စင်များ",
+  "onboardingWelcomeTitle": "ဆေးသောက်ရန် မေ့လျော့မည်ကို\nစိုးရိမ်ပူပန်မှု ကင်းဝေးကြပါစို့"
 }

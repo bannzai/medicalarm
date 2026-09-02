@@ -230,5 +230,6 @@
   "doseIntervalWarningMessage": "Lek został już przyjęty o {latestTakeTime}. Ustawiono co najmniej {minimumDoseIntervalHours} godzin przerwy między dawkami. Czy mimo to zapisać przyjęcie?",
   "doseIntervalWarningTakeAnyway": "Zapisz",
   "doseIntervalNotificationWarning": "⚠️ Od przyjęcia poprzedniej dawki nie minęło {minimumDoseIntervalHours} godzin",
-  "ossLicense": "Licencje OSS"
+  "ossLicense": "Licencje OSS",
+  "onboardingWelcomeTitle": "Pozbądźmy się obaw,\nże zapomnimy wziąć lek"
 }

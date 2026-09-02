@@ -230,5 +230,6 @@
   "doseIntervalWarningMessage": "Umeshakunywa dawa saa {latestTakeTime}. Mipangilio inahitaji kuwe na angalau saa {minimumDoseIntervalHours} kati ya dozi. Unataka kuirekodi hata hivyo?",
   "doseIntervalWarningTakeAnyway": "Rekodi",
   "doseIntervalNotificationWarning": "⚠️ Haijapita saa {minimumDoseIntervalHours} tangu dozi ya mwisho",
-  "ossLicense": "Leseni za OSS"
+  "ossLicense": "Leseni za OSS",
+  "onboardingWelcomeTitle": "Tuondoe wasiwasi\nwa kusahau kutumia dawa"
 }

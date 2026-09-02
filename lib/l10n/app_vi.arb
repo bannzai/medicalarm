@@ -230,5 +230,6 @@
   "doseIntervalWarningMessage": "Bạn đã uống thuốc vào lúc {latestTakeTime}. Cài đặt yêu cầu khoảng cách giữa các liều ít nhất {minimumDoseIntervalHours} giờ. Bạn vẫn muốn ghi lại chứ?",
   "doseIntervalWarningTakeAnyway": "Ghi lại",
   "doseIntervalNotificationWarning": "⚠️ Chưa đủ {minimumDoseIntervalHours} giờ kể từ lần uống thuốc trước",
-  "ossLicense": "Giấy phép OSS"
+  "ossLicense": "Giấy phép OSS",
+  "onboardingWelcomeTitle": "Không còn lo lắng\nvề việc quên uống thuốc"
 }

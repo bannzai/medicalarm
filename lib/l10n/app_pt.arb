@@ -230,5 +230,6 @@
   "doseIntervalWarningMessage": "Já tomou o medicamento às {latestTakeTime}. A definição exige um intervalo mínimo de {minimumDoseIntervalHours} horas entre as doses. Quer registá-lo mesmo assim?",
   "doseIntervalWarningTakeAnyway": "Registar",
   "doseIntervalNotificationWarning": "⚠️ Ainda não se passaram {minimumDoseIntervalHours} horas desde a última dose",
-  "ossLicense": "Licenças OSS"
+  "ossLicense": "Licenças OSS",
+  "onboardingWelcomeTitle": "Acabemos com a preocupação\nde nos esquecermos de tomar os medicamentos"
 }

@@ -230,5 +230,6 @@
   "doseIntervalWarningMessage": "Դեղամիջոցն արդեն ընդունել եք {latestTakeTime}-ին։ Կարգավորմամբ ընդունումների միջև պետք է անցնի առնվազն {minimumDoseIntervalHours} ժամ։ Այնուամենայնիվ գրանցե՞լ ընդունումը։",
   "doseIntervalWarningTakeAnyway": "Գրանցել",
   "doseIntervalNotificationWarning": "⚠️ Նախորդ ընդունումից դեռ չի անցել {minimumDoseIntervalHours} ժամ",
-  "ossLicense": "OSS լիցենզիաներ"
+  "ossLicense": "OSS լիցենզիաներ",
+  "onboardingWelcomeTitle": "Վերացնենք դեղորայքն ընդունելը մոռանալու\nանհանգստությունը"
 }

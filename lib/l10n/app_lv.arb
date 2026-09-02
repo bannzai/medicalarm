@@ -230,5 +230,6 @@
   "doseIntervalWarningMessage": "Jūs jau lietojāt zāles plkst. {latestTakeTime}. Iestatījumos noteikts, ka starp devām jābūt vismaz {minimumDoseIntervalHours} stundu intervālam. Vai tomēr reģistrēt šo devu?",
   "doseIntervalWarningTakeAnyway": "Ierakstīt",
   "doseIntervalNotificationWarning": "⚠️ Kopš pēdējās devas nav pagājušas {minimumDoseIntervalHours} stundas",
-  "ossLicense": "OSS licences"
+  "ossLicense": "OSS licences",
+  "onboardingWelcomeTitle": "Atbrīvosimies no raizēm,\nka aizmirsīsim iedzert zāles"
 }

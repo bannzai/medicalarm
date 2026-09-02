@@ -230,5 +230,6 @@
   "doseIntervalWarningMessage": "ਤੁਸੀਂ {latestTakeTime} ਵਜੇ ਦਵਾਈ ਲੈ ਚੁੱਕੇ ਹੋ। ਸੈਟਿੰਗ ਮੁਤਾਬਕ ਖੁਰਾਕਾਂ ਵਿਚਕਾਰ ਘੱਟੋ-ਘੱਟ {minimumDoseIntervalHours} ਘੰਟਿਆਂ ਦਾ ਅੰਤਰ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ। ਫਿਰ ਵੀ ਰਿਕਾਰਡ ਕਰਨਾ ਹੈ?",
   "doseIntervalWarningTakeAnyway": "ਰਿਕਾਰਡ ਕਰੋ",
   "doseIntervalNotificationWarning": "⚠️ ਪਿਛਲੀ ਖੁਰਾਕ ਲਏ ਨੂੰ {minimumDoseIntervalHours} ਘੰਟੇ ਨਹੀਂ ਹੋਏ",
-  "ossLicense": "OSS ਲਾਇਸੰਸ"
+  "ossLicense": "OSS ਲਾਇਸੰਸ",
+  "onboardingWelcomeTitle": "ਦਵਾਈ ਲੈਣੀ ਭੁੱਲ ਜਾਣ ਦੀ ਚਿੰਤਾ\nਦੂਰ ਕਰੀਏ"
 }

@@ -230,5 +230,6 @@
   "doseIntervalWarningMessage": "તમે {latestTakeTime} વાગ્યે દવા લઈ લીધી છે. સેટિંગ મુજબ બે ડોઝ વચ્ચે ઓછામાં ઓછા {minimumDoseIntervalHours} કલાકનું અંતર હોવું જોઈએ. તેમ છતાં રેકોર્ડ કરશો?",
   "doseIntervalWarningTakeAnyway": "રેકોર્ડ કરો",
   "doseIntervalNotificationWarning": "⚠️ છેલ્લી દવા લીધા પછી {minimumDoseIntervalHours} કલાક થયા નથી",
-  "ossLicense": "OSS લાઇસન્સ"
+  "ossLicense": "OSS લાઇસન્સ",
+  "onboardingWelcomeTitle": "દવા લેવાનું ભૂલી જવાની ચિંતા\nદૂર કરીએ"
 }

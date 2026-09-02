@@ -230,5 +230,6 @@
   "doseIntervalWarningMessage": "በ{latestTakeTime} ላይ መድሃኒቱን እንደወሰዱ ተመዝግቧል። በሁለት መድሃኒት መውሰዶች መካከል ቢያንስ {minimumDoseIntervalHours} ሰዓታት እንዲሆኑ ተዘጋጅቷል። አሁንም መመዝገብ ይፈልጋሉ?",
   "doseIntervalWarningTakeAnyway": "መዝግብ",
   "doseIntervalNotificationWarning": "⚠️ ካለፈው መውሰድ ጀምሮ {minimumDoseIntervalHours} ሰዓት አልሞላም",
-  "ossLicense": "OSS ፈቃዶች"
+  "ossLicense": "OSS ፈቃዶች",
+  "onboardingWelcomeTitle": "የመድኃኒት መውሰድን መርሳት ጭንቀት\nእንዲያበቃ እናድርግ"
 }

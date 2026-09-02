@@ -230,5 +230,6 @@
   "doseIntervalWarningMessage": "آپ یہ دوا {latestTakeTime} پر پہلے ہی لے چکے ہیں۔ ترتیب کے مطابق خوراکوں کے درمیان کم از کم {minimumDoseIntervalHours} گھنٹے کا وقفہ ہونا چاہیے۔ پھر بھی ریکارڈ کریں؟",
   "doseIntervalWarningTakeAnyway": "ریکارڈ کریں",
   "doseIntervalNotificationWarning": "⚠️ گزشتہ خوراک کے بعد {minimumDoseIntervalHours} گھنٹے نہیں گزرے",
-  "ossLicense": "OSS لائسنس"
+  "ossLicense": "OSS لائسنس",
+  "onboardingWelcomeTitle": "دوائی لینا بھول جانے کی فکر\nختم کریں"
 }

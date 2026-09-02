@@ -230,5 +230,6 @@
   "doseIntervalWarningMessage": "თქვენ წამალი უკვე მიიღეთ {latestTakeTime}-ზე. პარამეტრი დოზებს შორის მინიმუმ {minimumDoseIntervalHours} საათის ინტერვალს ითვალისწინებს. მაინც გსურთ მისი ჩაწერა?",
   "doseIntervalWarningTakeAnyway": "ჩაწერა",
   "doseIntervalNotificationWarning": "⚠️ ბოლო დოზის მიღებიდან {minimumDoseIntervalHours} საათი არ გასულა",
-  "ossLicense": "OSS ლიცენზიები"
+  "ossLicense": "OSS ლიცენზიები",
+  "onboardingWelcomeTitle": "მოვიშოროთ წამლის მიღების დავიწყების\nშიში"
 }
