@@ -286,5 +286,6 @@
   "onboardingPlanMedicines": "Zu verwaltende Medikamente",
   "onboardingPlanCriticalAlert": "Critical Alert",
   "onboardingPlanCriticalAlertValue": "Benachrichtigungen auch im Stummmodus",
-  "onboardingPremiumRecommendedTitle": "Der Premium-Tarif wird empfohlen"
+  "onboardingPremiumRecommendedTitle": "Der Premium-Tarif wird empfohlen",
+  "onboardingPremiumRecommendedBody": "Dieser Plan überschreitet das Registrierungslimit des kostenlosen Plans\nMit dem Premium-Plan können Sie alles registrieren"
 }

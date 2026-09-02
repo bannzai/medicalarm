@@ -286,5 +286,6 @@
   "onboardingPlanMedicines": "ยาที่ต้องจัดการ",
   "onboardingPlanCriticalAlert": "Critical Alert",
   "onboardingPlanCriticalAlertValue": "การแจ้งเตือนแม้อยู่ในโหมดเงียบ",
-  "onboardingPremiumRecommendedTitle": "แนะนำแผน Premium"
+  "onboardingPremiumRecommendedTitle": "แนะนำแผน Premium",
+  "onboardingPremiumRecommendedBody": "แผนนี้เกินขีดจำกัดการลงทะเบียนของแผนฟรี\nใช้แผน Premium เพื่อลงทะเบียนได้ทุกอย่าง"
 }

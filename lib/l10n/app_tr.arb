@@ -286,5 +286,6 @@
   "onboardingPlanMedicines": "Yönetilecek ilaçlar",
   "onboardingPlanCriticalAlert": "Critical Alert",
   "onboardingPlanCriticalAlertValue": "Sessiz modda bile bildirimler",
-  "onboardingPremiumRecommendedTitle": "Premium plan önerilir"
+  "onboardingPremiumRecommendedTitle": "Premium plan önerilir",
+  "onboardingPremiumRecommendedBody": "Bu plan, ücretsiz planın kayıt sınırını aşıyor\nPremium plan ile her şeyi kaydedebilirsiniz"
 }

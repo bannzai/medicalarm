@@ -286,5 +286,6 @@
   "onboardingPlanMedicines": "Лекі для кантролю",
   "onboardingPlanCriticalAlert": "Critical Alert",
   "onboardingPlanCriticalAlertValue": "Апавяшчэнні нават у бязгучным рэжыме",
-  "onboardingPremiumRecommendedTitle": "Рэкамендуецца прэміум-план"
+  "onboardingPremiumRecommendedTitle": "Рэкамендуецца прэміум-план",
+  "onboardingPremiumRecommendedBody": "Гэты план перавышае ліміт рэгістрацый бясплатнага плана\nЗ планам Premium можна зарэгістраваць усё"
 }

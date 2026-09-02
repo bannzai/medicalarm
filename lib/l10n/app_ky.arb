@@ -286,5 +286,6 @@
   "onboardingPlanMedicines": "Башкарыла турган дарылар",
   "onboardingPlanCriticalAlert": "Critical Alert",
   "onboardingPlanCriticalAlertValue": "Үнсүз режимде да эскертмелер",
-  "onboardingPremiumRecommendedTitle": "Premium планы сунушталат"
+  "onboardingPremiumRecommendedTitle": "Premium планы сунушталат",
+  "onboardingPremiumRecommendedBody": "Бул план акысыз пландын каттоо чегинен ашат\nPremium планында баарын каттай аласыз"
 }

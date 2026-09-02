@@ -286,5 +286,6 @@
   "onboardingPlanMedicines": "পরিচালনা করার ওষুধ",
   "onboardingPlanCriticalAlert": "Critical Alert",
   "onboardingPlanCriticalAlertValue": "সাইলেন্ট মোডেও বিজ্ঞপ্তি",
-  "onboardingPremiumRecommendedTitle": "প্রিমিয়াম প্ল্যান প্রস্তাবিত"
+  "onboardingPremiumRecommendedTitle": "প্রিমিয়াম প্ল্যান প্রস্তাবিত",
+  "onboardingPremiumRecommendedBody": "এই প্ল্যানটি ফ্রি প্ল্যানের নিবন্ধনসীমা অতিক্রম করে\nPremium প্ল্যানে আপনি সবকিছু নিবন্ধন করতে পারবেন"
 }

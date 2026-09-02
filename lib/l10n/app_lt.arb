@@ -286,5 +286,6 @@
   "onboardingPlanMedicines": "Tvarkomi vaistai",
   "onboardingPlanCriticalAlert": "Critical Alert",
   "onboardingPlanCriticalAlertValue": "Pranešimai net įjungus tylųjį režimą",
-  "onboardingPremiumRecommendedTitle": "Rekomenduojamas Premium planas"
+  "onboardingPremiumRecommendedTitle": "Rekomenduojamas Premium planas",
+  "onboardingPremiumRecommendedBody": "Šis planas viršija nemokamo plano registracijų limitą\nNaudodami Premium planą galite užregistruoti viską"
 }

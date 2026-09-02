@@ -286,5 +286,6 @@
   "onboardingPlanMedicines": "Medicamente de gestionat",
   "onboardingPlanCriticalAlert": "Critical Alert",
   "onboardingPlanCriticalAlertValue": "Notificări chiar și în modul silențios",
-  "onboardingPremiumRecommendedTitle": "Planul Premium este recomandat"
+  "onboardingPremiumRecommendedTitle": "Planul Premium este recomandat",
+  "onboardingPremiumRecommendedBody": "Acest plan depășește limita de înregistrări a planului gratuit\nCu planul Premium, puteți înregistra totul"
 }

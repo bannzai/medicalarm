@@ -286,5 +286,6 @@
   "onboardingPlanMedicines": "Лекови за управување",
   "onboardingPlanCriticalAlert": "Critical Alert",
   "onboardingPlanCriticalAlertValue": "Известувања и во тивок режим",
-  "onboardingPremiumRecommendedTitle": "Се препорачува Premium-планот"
+  "onboardingPremiumRecommendedTitle": "Се препорачува Premium-планот",
+  "onboardingPremiumRecommendedBody": "Овој план го надминува лимитот за регистрации на бесплатниот план\nСо Premium планот можете да регистрирате сè"
 }

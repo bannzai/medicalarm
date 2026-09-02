@@ -286,5 +286,6 @@
   "onboardingPlanMedicines": "Hallatavad ravimid",
   "onboardingPlanCriticalAlert": "Critical Alert",
   "onboardingPlanCriticalAlertValue": "Märguanded ka hääletus režiimis",
-  "onboardingPremiumRecommendedTitle": "Soovitame Premium-paketti"
+  "onboardingPremiumRecommendedTitle": "Soovitame Premium-paketti",
+  "onboardingPremiumRecommendedBody": "See plaan ületab tasuta paketi registreerimislimiiti\nPremium-paketiga saate registreerida kõik"
 }

@@ -286,5 +286,6 @@
   "onboardingPlanMedicines": "需要管理的药物",
   "onboardingPlanCriticalAlert": "Critical Alert",
   "onboardingPlanCriticalAlertValue": "静音模式下也能收到通知",
-  "onboardingPremiumRecommendedTitle": "推荐 Premium 套餐"
+  "onboardingPremiumRecommendedTitle": "推荐 Premium 套餐",
+  "onboardingPremiumRecommendedBody": "此方案超出免费方案的注册上限\n使用 Premium 方案即可注册全部内容"
 }

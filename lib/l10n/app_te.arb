@@ -286,5 +286,6 @@
   "onboardingPlanMedicines": "నిర్వహించాల్సిన మందులు",
   "onboardingPlanCriticalAlert": "Critical Alert",
   "onboardingPlanCriticalAlertValue": "సైలెంట్ మోడ్‌లో కూడా నోటిఫికేషన్‌లు",
-  "onboardingPremiumRecommendedTitle": "ప్రీమియం ప్లాన్‌ను సిఫార్సు చేస్తున్నాము"
+  "onboardingPremiumRecommendedTitle": "ప్రీమియం ప్లాన్‌ను సిఫార్సు చేస్తున్నాము",
+  "onboardingPremiumRecommendedBody": "ఈ ప్లాన్ ఉచిత ప్లాన్ నమోదు పరిమితిని మించిపోయింది\nPremium ప్లాన్‌తో మీరు అన్నింటినీ నమోదు చేయవచ్చు"
 }

@@ -286,5 +286,6 @@
   "onboardingPlanMedicines": "Lyf til að hafa umsjón með",
   "onboardingPlanCriticalAlert": "Critical Alert",
   "onboardingPlanCriticalAlertValue": "Tilkynningar jafnvel í hljóðlausri stillingu",
-  "onboardingPremiumRecommendedTitle": "Mælt er með Premium-áskrift"
+  "onboardingPremiumRecommendedTitle": "Mælt er með Premium-áskrift",
+  "onboardingPremiumRecommendedBody": "Þessi áskrift fer yfir skráningarmörk ókeypis áskriftar\nMeð Premium-áskrift geturðu skráð allt"
 }

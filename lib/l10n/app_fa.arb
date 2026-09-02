@@ -286,5 +286,6 @@
   "onboardingPlanMedicines": "داروهای تحت مدیریت",
   "onboardingPlanCriticalAlert": "Critical Alert",
   "onboardingPlanCriticalAlertValue": "اعلان‌ها حتی در حالت بی‌صدا",
-  "onboardingPremiumRecommendedTitle": "طرح پریمیوم پیشنهاد می‌شود"
+  "onboardingPremiumRecommendedTitle": "طرح پریمیوم پیشنهاد می‌شود",
+  "onboardingPremiumRecommendedBody": "این طرح از سقف ثبت‌نام طرح رایگان فراتر می‌رود\nبا طرح Premium می‌توانید همه‌چیز را ثبت کنید"
 }

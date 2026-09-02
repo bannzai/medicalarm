@@ -286,5 +286,6 @@
   "onboardingPlanMedicines": "ನಿರ್ವಹಿಸಬೇಕಾದ ಔಷಧಿಗಳು",
   "onboardingPlanCriticalAlert": "Critical Alert",
   "onboardingPlanCriticalAlertValue": "ಸೈಲೆಂಟ್ ಮೋಡ್‌ನಲ್ಲೂ ಅಧಿಸೂಚನೆಗಳು",
-  "onboardingPremiumRecommendedTitle": "ಪ್ರೀಮಿಯಂ ಪ್ಲಾನ್ ಅನ್ನು ಶಿಫಾರಸು ಮಾಡಲಾಗಿದೆ"
+  "onboardingPremiumRecommendedTitle": "ಪ್ರೀಮಿಯಂ ಪ್ಲಾನ್ ಅನ್ನು ಶಿಫಾರಸು ಮಾಡಲಾಗಿದೆ",
+  "onboardingPremiumRecommendedBody": "ಈ ಯೋಜನೆಯು ಉಚಿತ ಯೋಜನೆಯ ನೋಂದಣಿ ಮಿತಿಯನ್ನು ಮೀರಿದೆ\nPremium ಯೋಜನೆಯೊಂದಿಗೆ ಎಲ್ಲವನ್ನೂ ನೋಂದಾಯಿಸಬಹುದು"
 }

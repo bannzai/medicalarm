@@ -286,5 +286,6 @@
   "onboardingPlanMedicines": "စီမံရန်ဆေးများ",
   "onboardingPlanCriticalAlert": "Critical Alert",
   "onboardingPlanCriticalAlertValue": "အသံတိတ်မုဒ်တွင်ပင် အကြောင်းကြားချက်များ",
-  "onboardingPremiumRecommendedTitle": "Premium အစီအစဉ်ကို အကြံပြုထားသည်"
+  "onboardingPremiumRecommendedTitle": "Premium အစီအစဉ်ကို အကြံပြုထားသည်",
+  "onboardingPremiumRecommendedBody": "ဤအစီအစဉ်သည် အခမဲ့အစီအစဉ်၏ မှတ်ပုံတင်နိုင်သည့် ကန့်သတ်ချက်ကို ကျော်လွန်ပါသည်\nPremium အစီအစဉ်ဖြင့် အားလုံးကို မှတ်ပုံတင်နိုင်ပါသည်"
 }

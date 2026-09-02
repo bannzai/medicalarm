@@ -286,5 +286,6 @@
   "onboardingPlanMedicines": "Kudeatu beharreko sendagaiak",
   "onboardingPlanCriticalAlert": "Critical Alert",
   "onboardingPlanCriticalAlertValue": "Jakinarazpenak isilik moduan ere",
-  "onboardingPremiumRecommendedTitle": "Premium plana gomendatzen da"
+  "onboardingPremiumRecommendedTitle": "Premium plana gomendatzen da",
+  "onboardingPremiumRecommendedBody": "Plan honek doako planaren erregistro-muga gainditzen du\nPremium planarekin dena erregistra dezakezu"
 }

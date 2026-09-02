@@ -286,5 +286,6 @@
   "onboardingPlanMedicines": "Upravljana zdravila",
   "onboardingPlanCriticalAlert": "Critical Alert",
   "onboardingPlanCriticalAlertValue": "Obvestila tudi v tihem načinu",
-  "onboardingPremiumRecommendedTitle": "Priporočamo paket Premium"
+  "onboardingPremiumRecommendedTitle": "Priporočamo paket Premium",
+  "onboardingPremiumRecommendedBody": "Ta paket presega omejitev registracij brezplačnega paketa\nS paketom Premium lahko registrirate vse"
 }

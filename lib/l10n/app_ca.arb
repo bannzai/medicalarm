@@ -286,5 +286,6 @@
   "onboardingPlanMedicines": "Medicaments a gestionar",
   "onboardingPlanCriticalAlert": "Critical Alert",
   "onboardingPlanCriticalAlertValue": "Notificacions fins i tot en mode silenciós",
-  "onboardingPremiumRecommendedTitle": "Es recomana el pla Premium"
+  "onboardingPremiumRecommendedTitle": "Es recomana el pla Premium",
+  "onboardingPremiumRecommendedBody": "Aquest pla supera el límit de registres del pla gratuït\nAmb el pla Premium, pots registrar-ho tot"
 }

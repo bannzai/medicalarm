@@ -286,5 +286,6 @@
   "onboardingPlanMedicines": "നിയന്ത്രിക്കേണ്ട മരുന്നുകൾ",
   "onboardingPlanCriticalAlert": "Critical Alert",
   "onboardingPlanCriticalAlertValue": "സൈലന്റ് മോഡിലും അറിയിപ്പുകൾ",
-  "onboardingPremiumRecommendedTitle": "പ്രീമിയം പ്ലാൻ ശുപാർശ ചെയ്യുന്നു"
+  "onboardingPremiumRecommendedTitle": "പ്രീമിയം പ്ലാൻ ശുപാർശ ചെയ്യുന്നു",
+  "onboardingPremiumRecommendedBody": "ഈ പ്ലാൻ സൗജന്യ പ്ലാനിന്റെ രജിസ്ട്രേഷൻ പരിധി കവിയുന്നു\nPremium പ്ലാനിൽ എല്ലാം രജിസ്റ്റർ ചെയ്യാം"
 }

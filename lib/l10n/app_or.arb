@@ -286,5 +286,6 @@
   "onboardingPlanMedicines": "ପରିଚାଳନା କରିବାକୁ ଥିବା ଔଷଧ",
   "onboardingPlanCriticalAlert": "Critical Alert",
   "onboardingPlanCriticalAlertValue": "ସାଇଲେଣ୍ଟ ମୋଡ୍‌ରେ ମଧ୍ୟ ବିଜ୍ଞପ୍ତି",
-  "onboardingPremiumRecommendedTitle": "ପ୍ରିମିୟମ୍ ପ୍ଲାନ୍ ସୁପାରିଶ କରାଯାଇଛି"
+  "onboardingPremiumRecommendedTitle": "ପ୍ରିମିୟମ୍ ପ୍ଲାନ୍ ସୁପାରିଶ କରାଯାଇଛି",
+  "onboardingPremiumRecommendedBody": "ଏହି ପ୍ଲାନ୍ ମାଗଣା ପ୍ଲାନ୍‌ର ପଞ୍ଜୀକରଣ ସୀମା ଅତିକ୍ରମ କରେ\nPremium ପ୍ଲାନ୍‌ରେ ଆପଣ ସବୁକିଛି ପଞ୍ଜୀକରଣ କରିପାରିବେ"
 }

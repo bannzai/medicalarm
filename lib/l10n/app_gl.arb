@@ -286,5 +286,6 @@
   "onboardingPlanMedicines": "Medicamentos que xestionar",
   "onboardingPlanCriticalAlert": "Critical Alert",
   "onboardingPlanCriticalAlertValue": "Notificacións mesmo en modo silencioso",
-  "onboardingPremiumRecommendedTitle": "Recoméndase o plan Premium"
+  "onboardingPremiumRecommendedTitle": "Recoméndase o plan Premium",
+  "onboardingPremiumRecommendedBody": "Este plan supera o límite de rexistros do plan gratuíto\nCo plan Premium podes rexistralo todo"
 }

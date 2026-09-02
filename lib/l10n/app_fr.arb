@@ -286,5 +286,6 @@
   "onboardingPlanMedicines": "Médicaments à gérer",
   "onboardingPlanCriticalAlert": "Critical Alert",
   "onboardingPlanCriticalAlertValue": "Notifications même en mode silencieux",
-  "onboardingPremiumRecommendedTitle": "Le forfait Premium est recommandé"
+  "onboardingPremiumRecommendedTitle": "Le forfait Premium est recommandé",
+  "onboardingPremiumRecommendedBody": "Ce forfait dépasse la limite d’inscriptions du forfait gratuit\nAvec le forfait Premium, vous pouvez tout enregistrer"
 }

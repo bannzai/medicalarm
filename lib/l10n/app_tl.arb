@@ -286,5 +286,6 @@
   "onboardingPlanMedicines": "Mga gamot na pamamahalaan",
   "onboardingPlanCriticalAlert": "Critical Alert",
   "onboardingPlanCriticalAlertValue": "Mga notification kahit nasa silent mode",
-  "onboardingPremiumRecommendedTitle": "Inirerekomenda ang Premium plan"
+  "onboardingPremiumRecommendedTitle": "Inirerekomenda ang Premium plan",
+  "onboardingPremiumRecommendedBody": "Lumalagpas ang planong ito sa limitasyon ng pagpaparehistro ng libreng plano\nSa Premium plan, maaari mong irehistro ang lahat"
 }

@@ -286,5 +286,6 @@
   "onboardingPlanMedicines": "Medisiner å følge opp",
   "onboardingPlanCriticalAlert": "Critical Alert",
   "onboardingPlanCriticalAlertValue": "Varsler også i lydløsmodus",
-  "onboardingPremiumRecommendedTitle": "Premium-abonnementet anbefales"
+  "onboardingPremiumRecommendedTitle": "Premium-abonnementet anbefales",
+  "onboardingPremiumRecommendedBody": "Dette abonnementet overskrider registreringsgrensen for gratisabonnementet\nMed Premium-abonnementet kan du registrere alt"
 }

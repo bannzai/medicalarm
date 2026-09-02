@@ -286,5 +286,6 @@
   "onboardingPlanMedicines": "Kezelendő gyógyszerek",
   "onboardingPlanCriticalAlert": "Critical Alert",
   "onboardingPlanCriticalAlertValue": "Értesítések néma módban is",
-  "onboardingPremiumRecommendedTitle": "A Prémium csomagot ajánljuk"
+  "onboardingPremiumRecommendedTitle": "A Prémium csomagot ajánljuk",
+  "onboardingPremiumRecommendedBody": "Ez a csomag meghaladja az ingyenes csomag regisztrációs korlátját\nA Premium csomaggal mindent regisztrálhat"
 }

@@ -286,5 +286,6 @@
   "onboardingPlanMedicines": "व्यवस्थापित करायची औषधे",
   "onboardingPlanCriticalAlert": "Critical Alert",
   "onboardingPlanCriticalAlertValue": "सायलेंट मोडमध्येही सूचना",
-  "onboardingPremiumRecommendedTitle": "प्रीमियम प्लॅनची शिफारस केली जाते"
+  "onboardingPremiumRecommendedTitle": "प्रीमियम प्लॅनची शिफारस केली जाते",
+  "onboardingPremiumRecommendedBody": "हा प्लॅन मोफत प्लॅनच्या नोंदणी मर्यादेपेक्षा जास्त आहे\nPremium प्लॅनमध्ये तुम्ही सर्व काही नोंदवू शकता"
 }

@@ -286,5 +286,6 @@
   "onboardingPlanMedicines": "Басқарылатын дәрілер",
   "onboardingPlanCriticalAlert": "Critical Alert",
   "onboardingPlanCriticalAlertValue": "Дыбыссыз режимде де хабарландырулар",
-  "onboardingPremiumRecommendedTitle": "Premium жоспары ұсынылады"
+  "onboardingPremiumRecommendedTitle": "Premium жоспары ұсынылады",
+  "onboardingPremiumRecommendedBody": "Бұл жоспар тегін жоспардың тіркеу лимитінен асып кетеді\nPremium жоспарымен бәрін тіркей аласыз"
 }

@@ -286,5 +286,6 @@
   "onboardingPlanMedicines": "વ્યવસ્થાપિત કરવાની દવાઓ",
   "onboardingPlanCriticalAlert": "Critical Alert",
   "onboardingPlanCriticalAlertValue": "સાઇલેન્ટ મોડમાં પણ સૂચનાઓ",
-  "onboardingPremiumRecommendedTitle": "પ્રીમિયમ પ્લાનની ભલામણ કરવામાં આવે છે"
+  "onboardingPremiumRecommendedTitle": "પ્રીમિયમ પ્લાનની ભલામણ કરવામાં આવે છે",
+  "onboardingPremiumRecommendedBody": "આ પ્લાન મફત પ્લાનની નોંધણી મર્યાદા કરતાં વધુ છે\nPremium પ્લાન સાથે તમે બધું નોંધણી કરી શકો છો"
 }

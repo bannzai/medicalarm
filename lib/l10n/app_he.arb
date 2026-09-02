@@ -286,5 +286,6 @@
   "onboardingPlanMedicines": "תרופות לניהול",
   "onboardingPlanCriticalAlert": "Critical Alert",
   "onboardingPlanCriticalAlertValue": "התראות גם במצב שקט",
-  "onboardingPremiumRecommendedTitle": "מומלץ לבחור בתוכנית Premium"
+  "onboardingPremiumRecommendedTitle": "מומלץ לבחור בתוכנית Premium",
+  "onboardingPremiumRecommendedBody": "תוכנית זו חורגת ממגבלת הרישום של התוכנית החינמית\nבתוכנית Premium אפשר לרשום הכול"
 }

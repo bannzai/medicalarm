@@ -286,5 +286,6 @@
   "onboardingPlanMedicines": "ຢາທີ່ຕ້ອງຈັດການ",
   "onboardingPlanCriticalAlert": "Critical Alert",
   "onboardingPlanCriticalAlertValue": "ການແຈ້ງເຕືອນແມ່ນແຕ່ຢູ່ໃນໂໝດງຽບ",
-  "onboardingPremiumRecommendedTitle": "ແນະນຳແຜນ Premium"
+  "onboardingPremiumRecommendedTitle": "ແນະນຳແຜນ Premium",
+  "onboardingPremiumRecommendedBody": "ແຜນນີ້ເກີນຈຳກັດການລົງທະບຽນຂອງແຜນຟຣີ\nດ້ວຍແຜນ Premium ທ່ານສາມາດລົງທະບຽນທຸກຢ່າງໄດ້"
 }

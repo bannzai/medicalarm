@@ -286,5 +286,6 @@
   "onboardingPlanMedicines": "Medikamente për menaxhim",
   "onboardingPlanCriticalAlert": "Critical Alert",
   "onboardingPlanCriticalAlertValue": "Njoftime edhe në modalitetin pa zë",
-  "onboardingPremiumRecommendedTitle": "Rekomandohet plani Premium"
+  "onboardingPremiumRecommendedTitle": "Rekomandohet plani Premium",
+  "onboardingPremiumRecommendedBody": "Ky plan tejkalon kufirin e regjistrimeve të planit falas\nMe planin Premium mund të regjistroni gjithçka"
 }

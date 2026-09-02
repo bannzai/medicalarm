@@ -286,5 +286,6 @@
   "onboardingPlanMedicines": "Lijekovi za upravljanje",
   "onboardingPlanCriticalAlert": "Critical Alert",
   "onboardingPlanCriticalAlertValue": "Obavijesti i u tihom načinu rada",
-  "onboardingPremiumRecommendedTitle": "Preporučujemo Premium plan"
+  "onboardingPremiumRecommendedTitle": "Preporučujemo Premium plan",
+  "onboardingPremiumRecommendedBody": "Ovaj plan premašuje ograničenje registracije besplatnog plana\nUz Premium plan možete registrovati sve"
 }
