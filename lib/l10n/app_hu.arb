@@ -278,5 +278,6 @@
   "onboardingPlanGeneratingTitle": "Személyre szabott tervének létrehozása folyamatban",
   "onboardingPlanGeneratingAnalyzing": "Elemezzük a válaszait",
   "onboardingPlanGeneratingSchedule": "Összeállítjuk az értesítési tervedet",
-  "onboardingPlanGeneratingReady": "Készen áll."
+  "onboardingPlanGeneratingReady": "Készen áll.",
+  "onboardingPlanResultTitle": "Személyre szabott terved"
 }

@@ -278,5 +278,6 @@
   "onboardingPlanGeneratingTitle": "กำลังสร้างแผนเฉพาะบุคคลของคุณ",
   "onboardingPlanGeneratingAnalyzing": "กำลังวิเคราะห์คำตอบของคุณ",
   "onboardingPlanGeneratingSchedule": "กำลังจัดทำแผนการแจ้งเตือนของคุณ",
-  "onboardingPlanGeneratingReady": "พร้อมแล้ว"
+  "onboardingPlanGeneratingReady": "พร้อมแล้ว",
+  "onboardingPlanResultTitle": "แผนเฉพาะสำหรับคุณ"
 }

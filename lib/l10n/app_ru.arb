@@ -278,5 +278,6 @@
   "onboardingPlanGeneratingTitle": "Создаём ваш персональный план",
   "onboardingPlanGeneratingAnalyzing": "Анализируем ваши ответы",
   "onboardingPlanGeneratingSchedule": "Создаём ваш план уведомлений",
-  "onboardingPlanGeneratingReady": "Готово."
+  "onboardingPlanGeneratingReady": "Готово.",
+  "onboardingPlanResultTitle": "Ваш персональный план"
 }

@@ -278,5 +278,6 @@
   "onboardingPlanGeneratingTitle": "Koostame sinu isiklikku plaani",
   "onboardingPlanGeneratingAnalyzing": "Teie vastuseid analüüsitakse",
   "onboardingPlanGeneratingSchedule": "Koostame sinu teavitusplaani",
-  "onboardingPlanGeneratingReady": "Kõik on valmis."
+  "onboardingPlanGeneratingReady": "Kõik on valmis.",
+  "onboardingPlanResultTitle": "Sinu isiklik plaan"
 }

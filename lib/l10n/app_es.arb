@@ -278,5 +278,6 @@
   "onboardingPlanGeneratingTitle": "Creando tu plan personalizado",
   "onboardingPlanGeneratingAnalyzing": "Analizando tus respuestas",
   "onboardingPlanGeneratingSchedule": "Estamos creando tu plan de notificaciones",
-  "onboardingPlanGeneratingReady": "Todo listo."
+  "onboardingPlanGeneratingReady": "Todo listo.",
+  "onboardingPlanResultTitle": "Tu plan personalizado"
 }

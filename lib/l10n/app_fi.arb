@@ -278,5 +278,6 @@
   "onboardingPlanGeneratingTitle": "Luomme henkilökohtaisen suunnitelmasi",
   "onboardingPlanGeneratingAnalyzing": "Vastauksiasi analysoidaan",
   "onboardingPlanGeneratingSchedule": "Luomme ilmoitussuunnitelmaasi",
-  "onboardingPlanGeneratingReady": "Valmis."
+  "onboardingPlanGeneratingReady": "Valmis.",
+  "onboardingPlanResultTitle": "Henkilökohtainen suunnitelmasi"
 }
