@@ -272,5 +272,6 @@
   "onboardingAfterItemFamily": "ერთი შეხედვით იხილეთ თქვენი ოჯახის წევრების მედიკამენტების მიღების მდგომარეობაც",
   "onboardingGoalTitle": "განსაზღვრეთ თქვენი მიზანი",
   "onboardingGoalSubtitle": "თქვენი მიზანი აისახება თქვენს გეგმაში",
-  "onboardingGoalZeroMissed": "არცერთი დოზის გამოტოვება"
+  "onboardingGoalZeroMissed": "არცერთი დოზის გამოტოვება",
+  "onboardingGoalKeepRecording": "მედიკამენტების მიღების ჩაწერის გაგრძელება"
 }

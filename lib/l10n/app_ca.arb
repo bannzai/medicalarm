@@ -272,5 +272,6 @@
   "onboardingAfterItemFamily": "Consulta d’un cop l’estat de la medicació de la teva família",
   "onboardingGoalTitle": "Defineix el teu objectiu",
   "onboardingGoalSubtitle": "El vostre objectiu es veurà reflectit en el vostre pla",
-  "onboardingGoalZeroMissed": "No oblidar cap dosi"
+  "onboardingGoalZeroMissed": "No oblidar cap dosi",
+  "onboardingGoalKeepRecording": "Continua registrant les preses"
 }

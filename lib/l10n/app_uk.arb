@@ -272,5 +272,6 @@
   "onboardingAfterItemFamily": "Одним поглядом дізнавайтеся і про стан прийому ліків членами сім’ї",
   "onboardingGoalTitle": "Визначте свою мету",
   "onboardingGoalSubtitle": "Ваша мета буде відображена у вашому плані",
-  "onboardingGoalZeroMissed": "Не пропускати жодної дози"
+  "onboardingGoalZeroMissed": "Не пропускати жодної дози",
+  "onboardingGoalKeepRecording": "Продовжувати записувати прийом ліків"
 }

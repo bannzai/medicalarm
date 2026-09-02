@@ -272,5 +272,6 @@
   "onboardingAfterItemFamily": "မိသားစု၏ ဆေးသောက်မှုအခြေအနေကိုလည်း တစ်ချက်ကြည့်ရုံဖြင့် သိနိုင်သည်",
   "onboardingGoalTitle": "သင့်ရည်မှန်းချက်ကို သတ်မှတ်ပါ",
   "onboardingGoalSubtitle": "သင့်ရည်မှန်းချက်ကို သင့်အစီအစဉ်တွင် ထည့်သွင်းပေးမည်",
-  "onboardingGoalZeroMissed": "ဆေးတစ်ကြိမ်မျှ မမေ့ဘဲ သောက်ရန်"
+  "onboardingGoalZeroMissed": "ဆေးတစ်ကြိမ်မျှ မမေ့ဘဲ သောက်ရန်",
+  "onboardingGoalKeepRecording": "ဆေးသောက်သုံးမှုကို ဆက်လက်မှတ်တမ်းတင်ရန်"
 }

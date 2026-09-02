@@ -272,5 +272,6 @@
   "onboardingAfterItemFamily": "Oilangizning dori qabul qilish holatini ham bir qarashda ko‘ring",
   "onboardingGoalTitle": "Maqsadingizni belgilang",
   "onboardingGoalSubtitle": "Maqsadingiz rejangizda aks etadi",
-  "onboardingGoalZeroMissed": "Birorta ham dozani o‘tkazib yubormaslik"
+  "onboardingGoalZeroMissed": "Birorta ham dozani o‘tkazib yubormaslik",
+  "onboardingGoalKeepRecording": "Dori qabulini qayd etishda davom eting"
 }

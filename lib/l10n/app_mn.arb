@@ -272,5 +272,6 @@
   "onboardingAfterItemFamily": "Гэр бүлийнхнийхээ эм уусан байдлыг ч нэг дороос хараарай",
   "onboardingGoalTitle": "Зорилгоо тодорхойлоорой",
   "onboardingGoalSubtitle": "Таны зорилго таны төлөвлөгөөнд тусгагдана",
-  "onboardingGoalZeroMissed": "Нэг ч тунг алгасахгүй байх"
+  "onboardingGoalZeroMissed": "Нэг ч тунг алгасахгүй байх",
+  "onboardingGoalKeepRecording": "Эм ууснаа үргэлжлүүлэн бүртгэх"
 }

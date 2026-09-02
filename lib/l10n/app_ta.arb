@@ -272,5 +272,6 @@
   "onboardingAfterItemFamily": "உங்கள் குடும்பத்தினரின் மருந்து உட்கொள்ளும் நிலையும் ஒரே பார்வையில் தெரியும்",
   "onboardingGoalTitle": "உங்கள் இலக்கை நிர்ணயிக்கவும்",
   "onboardingGoalSubtitle": "உங்கள் இலக்கு உங்கள் திட்டத்தில் பிரதிபலிக்கும்",
-  "onboardingGoalZeroMissed": "எந்த மருந்தளவையும் தவறவிடாமல் இருப்பது"
+  "onboardingGoalZeroMissed": "எந்த மருந்தளவையும் தவறவிடாமல் இருப்பது",
+  "onboardingGoalKeepRecording": "மருந்து உட்கொள்வதைத் தொடர்ந்து பதிவு செய்யுங்கள்"
 }

@@ -272,5 +272,6 @@
   "onboardingAfterItemFamily": "Vienu žvilgsniu matykite ir savo šeimos vaistų vartojimo būklę",
   "onboardingGoalTitle": "Nusistatykite savo tikslą",
   "onboardingGoalSubtitle": "Jūsų tikslas atsispindės jūsų plane",
-  "onboardingGoalZeroMissed": "Nepraleisti nė vienos dozės"
+  "onboardingGoalZeroMissed": "Nepraleisti nė vienos dozės",
+  "onboardingGoalKeepRecording": "Toliau registruoti vaistų vartojimą"
 }

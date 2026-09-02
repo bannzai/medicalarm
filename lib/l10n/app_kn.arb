@@ -272,5 +272,6 @@
   "onboardingAfterItemFamily": "ನಿಮ್ಮ ಕುಟುಂಬದ ಔಷಧ ಸೇವನೆಯ ಸ್ಥಿತಿಯನ್ನೂ ಒಂದೇ ನೋಟದಲ್ಲಿ ನೋಡಿ",
   "onboardingGoalTitle": "ನಿಮ್ಮ ಗುರಿಯನ್ನು ನಿರ್ಧರಿಸಿ",
   "onboardingGoalSubtitle": "ನಿಮ್ಮ ಗುರಿಯು ನಿಮ್ಮ ಯೋಜನೆಯಲ್ಲಿ ಪ್ರತಿಫಲಿಸುತ್ತದೆ",
-  "onboardingGoalZeroMissed": "ಯಾವುದೇ ಡೋಸ್ ತಪ್ಪಿಸಿಕೊಳ್ಳದಿರುವುದು"
+  "onboardingGoalZeroMissed": "ಯಾವುದೇ ಡೋಸ್ ತಪ್ಪಿಸಿಕೊಳ್ಳದಿರುವುದು",
+  "onboardingGoalKeepRecording": "ಔಷಧ ಸೇವನೆಯನ್ನು ದಾಖಲಿಸುವುದನ್ನು ಮುಂದುವರಿಸಿ"
 }

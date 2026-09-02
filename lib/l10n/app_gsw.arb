@@ -272,5 +272,6 @@
   "onboardingAfterItemFamily": "D’Medikamentenstatus vo Ihrer Familie uf e Blick gseh",
   "onboardingGoalTitle": "Lege dis Ziel fest",
   "onboardingGoalSubtitle": "Dis Ziel wird in dim Plan berücksichtigt",
-  "onboardingGoalZeroMissed": "Kei Dosis vergässe"
+  "onboardingGoalZeroMissed": "Kei Dosis vergässe",
+  "onboardingGoalKeepRecording": "Medikamenteneinnahme weiterhin dokumentieren"
 }

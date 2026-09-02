@@ -272,5 +272,6 @@
   "onboardingAfterItemFamily": "Näe ka oma pereliikmete ravimite võtmise staatust ühe pilguga",
   "onboardingGoalTitle": "Sea oma eesmärk",
   "onboardingGoalSubtitle": "Sinu eesmärk kajastub sinu plaanis",
-  "onboardingGoalZeroMissed": "Mitte unustada ühtegi annust"
+  "onboardingGoalZeroMissed": "Mitte unustada ühtegi annust",
+  "onboardingGoalKeepRecording": "Jätka ravimite võtmise registreerimist"
 }

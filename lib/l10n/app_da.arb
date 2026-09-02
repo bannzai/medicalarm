@@ -272,5 +272,6 @@
   "onboardingAfterItemFamily": "Se også familiens medicinstatus med et enkelt blik",
   "onboardingGoalTitle": "Fastlæg dit mål",
   "onboardingGoalSubtitle": "Dit mål afspejles i din plan",
-  "onboardingGoalZeroMissed": "Ikke glemme en eneste dosis"
+  "onboardingGoalZeroMissed": "Ikke glemme en eneste dosis",
+  "onboardingGoalKeepRecording": "Bliv ved med at registrere medicinindtag"
 }

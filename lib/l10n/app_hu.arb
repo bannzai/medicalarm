@@ -272,5 +272,6 @@
   "onboardingAfterItemFamily": "Egy pillantással láthatja családja gyógyszerszedési állapotát",
   "onboardingGoalTitle": "Határozza meg a célját",
   "onboardingGoalSubtitle": "Célja megjelenik a tervében",
-  "onboardingGoalZeroMissed": "Egyetlen adag sem maradjon ki"
+  "onboardingGoalZeroMissed": "Egyetlen adag sem maradjon ki",
+  "onboardingGoalKeepRecording": "A gyógyszerszedés folytatása"
 }

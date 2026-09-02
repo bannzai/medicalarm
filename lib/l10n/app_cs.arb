@@ -272,5 +272,6 @@
   "onboardingAfterItemFamily": "Mějte stav užívání léků celé rodiny na očích",
   "onboardingGoalTitle": "Stanovte si cíl",
   "onboardingGoalSubtitle": "Váš cíl se promítne do vašeho plánu",
-  "onboardingGoalZeroMissed": "Nezmeškat žádnou dávku"
+  "onboardingGoalZeroMissed": "Nezmeškat žádnou dávku",
+  "onboardingGoalKeepRecording": "Pokračovat v zaznamenávání užívání léků"
 }

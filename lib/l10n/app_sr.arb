@@ -272,5 +272,6 @@
   "onboardingAfterItemFamily": "На први поглед сазнајте и статус узимања лекова ваше породице",
   "onboardingGoalTitle": "Одредите свој циљ",
   "onboardingGoalSubtitle": "Ваш циљ ће бити укључен у ваш план",
-  "onboardingGoalZeroMissed": "Не пропустити ниједну дозу"
+  "onboardingGoalZeroMissed": "Не пропустити ниједну дозу",
+  "onboardingGoalKeepRecording": "Наставите да бележите узимање лекова"
 }

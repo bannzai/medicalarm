@@ -272,5 +272,6 @@
   "onboardingAfterItemFamily": "এক নজরে পরিবারের সদস্যদের ওষুধ সেবনের অবস্থা দেখুন",
   "onboardingGoalTitle": "আপনার লক্ষ্য নির্ধারণ করুন",
   "onboardingGoalSubtitle": "আপনার লক্ষ্য আপনার পরিকল্পনায় প্রতিফলিত হবে",
-  "onboardingGoalZeroMissed": "কোনো ডোজ বাদ না দেওয়া"
+  "onboardingGoalZeroMissed": "কোনো ডোজ বাদ না দেওয়া",
+  "onboardingGoalKeepRecording": "ওষুধ সেবন রেকর্ড করা চালিয়ে যান"
 }

@@ -272,5 +272,6 @@
   "onboardingAfterItemFamily": "Ailenizin ilaç alma durumunu da bir bakışta görün",
   "onboardingGoalTitle": "Hedefinizi belirleyin",
   "onboardingGoalSubtitle": "Hedefiniz planınıza yansıtılacak",
-  "onboardingGoalZeroMissed": "Hiçbir dozu atlamamak"
+  "onboardingGoalZeroMissed": "Hiçbir dozu atlamamak",
+  "onboardingGoalKeepRecording": "İlaç alımını kaydetmeye devam edin"
 }
