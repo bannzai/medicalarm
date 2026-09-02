@@ -90,6 +90,7 @@
   "notificationScheduleLimit": "ចំនួនកំណត់ត្រាជូនដំណឹង",
   "addMedicine": "បន្ថែមថ្នាំ",
   "medicineMaxCount": "សារពើភ័ណ្ឌឱសថ អាចចុះឈ្មោះបាន ដល់ {count} នាក់។",
+  "increaseMedicineLimitWithPremium": "បង្កើនចំនួនអតិបរមាដល់ {count} ជាមួយគម្រោង Premium",
   "aboutApp": "អំពីកម្មវិធី",
   "viewPremiumPlan": "មើលផែនការ​ព្រីមៀម",
   "cancelSubscriptionInstruction": "ក្រោយ​ពី​ការទិញ ការលើក​លែង​ការអាប់ដេត​ដោយស្វ័យប្រវត្តិ​អាចប្រើបាននៅ​ក្នុងការកំណត់គណនី {storeName} នៅក្នុងអាផ្លូ។ (មិនអាចលើកលែងការអាប់ដេតដោយស្វ័យប្រវត្តិ​ពីក្នុង​អាផ្លូ)",
