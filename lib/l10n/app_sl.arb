@@ -167,5 +167,6 @@
   "write5StarReview": "Napišite oceno s 5 zvezdicami",
   "receiveReward": "Prejmite nagrado",
   "notNow": "Ne zdaj",
-  "openAppStore": "Odpri App Store"
+  "openAppStore": "Odpri App Store",
+  "confirmOpenAppStore": "Želite odpreti App Store in napisati oceno?"
 }

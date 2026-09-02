@@ -167,5 +167,6 @@
   "write5StarReview": "დაწერეთ 5-ვარსკვლავიანი მიმოხილვა",
   "receiveReward": "მიიღეთ ჯილდო",
   "notNow": "ახლა არა",
-  "openAppStore": "App Store-ის გახსნა"
+  "openAppStore": "App Store-ის გახსნა",
+  "confirmOpenAppStore": "გსურთ App Store-ის გახსნა მიმოხილვის დასაწერად?"
 }

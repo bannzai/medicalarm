@@ -167,5 +167,6 @@
   "write5StarReview": "اكتب تقييمًا بخمس نجوم",
   "receiveReward": "استلم المكافأة",
   "notNow": "ليس الآن",
-  "openAppStore": "فتح App Store"
+  "openAppStore": "فتح App Store",
+  "confirmOpenAppStore": "هل تريد فتح App Store لكتابة مراجعة؟"
 }

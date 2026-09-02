@@ -167,5 +167,6 @@
   "write5StarReview": "Parašykite 5 žvaigždučių atsiliepimą",
   "receiveReward": "Gauti atlygį",
   "notNow": "Ne dabar",
-  "openAppStore": "Atidaryti App Store"
+  "openAppStore": "Atidaryti App Store",
+  "confirmOpenAppStore": "Ar norite atidaryti „App Store“ ir parašyti atsiliepimą?"
 }

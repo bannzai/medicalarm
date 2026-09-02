@@ -167,5 +167,6 @@
   "write5StarReview": "Napíšte 5-hviezdičkové hodnotenie",
   "receiveReward": "Prevziať odmenu",
   "notNow": "Teraz nie",
-  "openAppStore": "Otvoriť App Store"
+  "openAppStore": "Otvoriť App Store",
+  "confirmOpenAppStore": "Chcete otvoriť App Store a napísať recenziu?"
 }

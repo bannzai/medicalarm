@@ -167,5 +167,6 @@
   "write5StarReview": "5-स्टार समीक्षा लिखें",
   "receiveReward": "पुरस्कार प्राप्त करें",
   "notNow": "अभी नहीं",
-  "openAppStore": "App Store खोलें"
+  "openAppStore": "App Store खोलें",
+  "confirmOpenAppStore": "क्या आप समीक्षा लिखने के लिए App Store खोलना चाहते हैं?"
 }

@@ -167,5 +167,6 @@
   "write5StarReview": "5 жұлдызды пікір жазу",
   "receiveReward": "Сыйақыны алу",
   "notNow": "Қазір емес",
-  "openAppStore": "App Store ашу"
+  "openAppStore": "App Store ашу",
+  "confirmOpenAppStore": "Пікір жазу үшін App Store ашылсын ба?"
 }

@@ -167,5 +167,6 @@
   "write5StarReview": "כתיבת ביקורת של 5 כוכבים",
   "receiveReward": "קבלו את התגמול",
   "notNow": "לא עכשיו",
-  "openAppStore": "פתיחת App Store"
+  "openAppStore": "פתיחת App Store",
+  "confirmOpenAppStore": "לפתוח את App Store כדי לכתוב ביקורת?"
 }

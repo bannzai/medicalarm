@@ -167,5 +167,6 @@
   "write5StarReview": "Kirjutage 5-tärniarvustus",
   "receiveReward": "Võta preemia vastu",
   "notNow": "Mitte praegu",
-  "openAppStore": "Ava App Store"
+  "openAppStore": "Ava App Store",
+  "confirmOpenAppStore": "Kas soovid avada App Store’i, et arvustust kirjutada?"
 }

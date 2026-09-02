@@ -167,5 +167,6 @@
   "write5StarReview": "ຂຽນຣີວິວ 5 ດາວ",
   "receiveReward": "ຮັບລາງວັນ",
   "notNow": "ບໍ່ເຮັດຕອນນີ້",
-  "openAppStore": "ເປີດ App Store"
+  "openAppStore": "ເປີດ App Store",
+  "confirmOpenAppStore": "ທ່ານຕ້ອງການເປີດ App Store ເພື່ອຂຽນຣີວິວບໍ?"
 }

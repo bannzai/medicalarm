@@ -167,5 +167,6 @@
   "write5StarReview": "Viết đánh giá 5 sao",
   "receiveReward": "Nhận phần thưởng",
   "notNow": "Không phải bây giờ",
-  "openAppStore": "Mở App Store"
+  "openAppStore": "Mở App Store",
+  "confirmOpenAppStore": "Bạn có muốn mở App Store để viết đánh giá không?"
 }

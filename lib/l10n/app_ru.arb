@@ -167,5 +167,6 @@
   "write5StarReview": "Написать отзыв с оценкой 5 звёзд",
   "receiveReward": "Получить награду",
   "notNow": "Не сейчас",
-  "openAppStore": "Открыть App Store"
+  "openAppStore": "Открыть App Store",
+  "confirmOpenAppStore": "Открыть App Store, чтобы написать отзыв?"
 }

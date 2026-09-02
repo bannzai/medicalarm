@@ -167,5 +167,6 @@
   "write5StarReview": "Написати відгук із 5 зірками",
   "receiveReward": "Отримати винагороду",
   "notNow": "Не зараз",
-  "openAppStore": "Відкрити App Store"
+  "openAppStore": "Відкрити App Store",
+  "confirmOpenAppStore": "Відкрити App Store, щоб написати відгук?"
 }

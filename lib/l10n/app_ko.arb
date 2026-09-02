@@ -167,5 +167,6 @@
   "write5StarReview": "별 5개 리뷰 작성",
   "receiveReward": "보상 받기",
   "notNow": "지금은 하지 않기",
-  "openAppStore": "App Store 열기"
+  "openAppStore": "App Store 열기",
+  "confirmOpenAppStore": "리뷰를 작성하기 위해 App Store를 열까요?"
 }

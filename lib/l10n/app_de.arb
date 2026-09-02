@@ -167,5 +167,6 @@
   "write5StarReview": "5-Sterne-Bewertung schreiben",
   "receiveReward": "Belohnung erhalten",
   "notNow": "Nicht jetzt",
-  "openAppStore": "App Store öffnen"
+  "openAppStore": "App Store öffnen",
+  "confirmOpenAppStore": "Möchtest du den App Store öffnen, um eine Bewertung zu schreiben?"
 }

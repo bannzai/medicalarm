@@ -167,5 +167,6 @@
   "write5StarReview": "เขียนรีวิว 5 ดาว",
   "receiveReward": "รับรางวัล",
   "notNow": "ยังไม่ใช่ตอนนี้",
-  "openAppStore": "เปิด App Store"
+  "openAppStore": "เปิด App Store",
+  "confirmOpenAppStore": "ต้องการเปิด App Store เพื่อเขียนรีวิวหรือไม่?"
 }

@@ -167,5 +167,6 @@
   "write5StarReview": "Напишете отзив с 5 звезди",
   "receiveReward": "Получете наградата",
   "notNow": "Не сега",
-  "openAppStore": "Отваряне на App Store"
+  "openAppStore": "Отваряне на App Store",
+  "confirmOpenAppStore": "Да отворим ли App Store, за да напишете отзив?"
 }

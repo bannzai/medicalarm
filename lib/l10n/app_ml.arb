@@ -167,5 +167,6 @@
   "write5StarReview": "5-സ്റ്റാർ അവലോകനം എഴുതുക",
   "receiveReward": "പ്രതിഫലം സ്വീകരിക്കുക",
   "notNow": "ഇപ്പോൾ വേണ്ട",
-  "openAppStore": "App Store തുറക്കുക"
+  "openAppStore": "App Store തുറക്കുക",
+  "confirmOpenAppStore": "ഒരു അവലോകനം എഴുതാൻ App Store തുറക്കണോ?"
 }

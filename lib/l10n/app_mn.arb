@@ -167,5 +167,6 @@
   "write5StarReview": "5 одтой үнэлгээ бичих",
   "receiveReward": "Шагнал авах",
   "notNow": "Одоо биш",
-  "openAppStore": "App Store-ийг нээх"
+  "openAppStore": "App Store-ийг нээх",
+  "confirmOpenAppStore": "Сэтгэгдэл бичихийн тулд App Store-ыг нээх үү?"
 }

@@ -167,5 +167,6 @@
   "write5StarReview": "Skriv en anmeldelse med 5 stjerner",
   "receiveReward": "Motta belønning",
   "notNow": "Ikke nå",
-  "openAppStore": "Åpne App Store"
+  "openAppStore": "Åpne App Store",
+  "confirmOpenAppStore": "Vil du åpne App Store for å skrive en anmeldelse?"
 }

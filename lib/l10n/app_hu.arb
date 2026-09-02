@@ -167,5 +167,6 @@
   "write5StarReview": "Írjon 5 csillagos értékelést",
   "receiveReward": "Jutalom átvétele",
   "notNow": "Most nem",
-  "openAppStore": "App Store megnyitása"
+  "openAppStore": "App Store megnyitása",
+  "confirmOpenAppStore": "Megnyitod az App Store-t, hogy értékelést írj?"
 }
