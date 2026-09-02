@@ -175,5 +175,6 @@
   "medicationPauseDescription": "Wanneer dit afgeskakel word, word dit van die medikasieskerm en kennisgewings uitgesluit.",
   "medicinePausedSnackbar": "Medikasie-inname is tydelik onderbreek",
   "medicationHistoryDeletedSnackbar": "Medikasie-aantekening ongedaan gemaak",
-  "undo": "Ontdoen"
+  "undo": "Ontdoen",
+  "medicationHistoryReverted": "Medikasie-inname ongedaan gemaak"
 }

@@ -175,5 +175,6 @@
   "medicationPauseDescription": "Išjungus, vaistas bus pašalintas iš vaistų ekrano ir pranešimų.",
   "medicinePausedSnackbar": "Vaistų vartojimas laikinai pristabdytas",
   "medicationHistoryDeletedSnackbar": "Vaistų vartojimo įrašas atšauktas",
-  "undo": "Anuliuoti"
+  "undo": "Anuliuoti",
+  "medicationHistoryReverted": "Vaistų vartojimo įrašo atšaukimas"
 }

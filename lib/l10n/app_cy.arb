@@ -175,5 +175,6 @@
   "medicationPauseDescription": "Pan gaiff ei ddiffodd, caiff ei dynnu o sgrin meddyginiaethau a hysbysiadau.",
   "medicinePausedSnackbar": "Mae cymryd y feddyginiaeth wedi’i oedi dros dro",
   "medicationHistoryDeletedSnackbar": "Mae cofnod cymryd y feddyginiaeth wedi'i ddadwneud",
-  "undo": "Dadwneud"
+  "undo": "Dadwneud",
+  "medicationHistoryReverted": "Canslo cofnod cymryd meddyginiaeth"
 }

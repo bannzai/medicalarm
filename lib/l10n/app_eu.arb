@@ -175,5 +175,6 @@
   "medicationPauseDescription": "Desaktibatzean, sendagaien pantailatik eta jakinarazpenetatik kenduko da.",
   "medicinePausedSnackbar": "Sendagaiaren hartzea aldi baterako eten da",
   "medicationHistoryDeletedSnackbar": "Botikaren hartze-erregistroa desegin da",
-  "undo": "Desegin"
+  "undo": "Desegin",
+  "medicationHistoryReverted": "Botika hartzearen erregistroa ezeztatuta"
 }

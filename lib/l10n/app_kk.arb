@@ -175,5 +175,6 @@
   "medicationPauseDescription": "Өшірілгенде, дәрі-дәрмектер экранынан және хабарландырулардан алынып тасталады.",
   "medicinePausedSnackbar": "Дәрі қабылдау уақытша тоқтатылды",
   "medicationHistoryDeletedSnackbar": "Дәрі қабылдау жазбасы кері қайтарылды",
-  "undo": "Болдырмау"
+  "undo": "Болдырмау",
+  "medicationHistoryReverted": "Дәрі қабылдау жазбасын болдырмау"
 }

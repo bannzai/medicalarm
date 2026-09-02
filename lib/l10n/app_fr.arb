@@ -175,5 +175,6 @@
   "medicationPauseDescription": "Lorsqu’il est désactivé, il est retiré de l’écran des médicaments et des notifications.",
   "medicinePausedSnackbar": "La prise du médicament a été suspendue temporairement",
   "medicationHistoryDeletedSnackbar": "L’enregistrement de la prise du médicament a été annulé",
-  "undo": "Annuler"
+  "undo": "Annuler",
+  "medicationHistoryReverted": "Annulation de la prise de médicament"
 }

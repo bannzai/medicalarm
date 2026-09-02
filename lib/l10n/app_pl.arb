@@ -175,5 +175,6 @@
   "medicationPauseDescription": "Po wyłączeniu lek zostanie usunięty z ekranu leków i powiadomień.",
   "medicinePausedSnackbar": "Przyjmowanie leku zostało tymczasowo wstrzymane",
   "medicationHistoryDeletedSnackbar": "Cofnięto zapis przyjęcia leku",
-  "undo": "Cofnij"
+  "undo": "Cofnij",
+  "medicationHistoryReverted": "Anulowanie wpisu o przyjęciu leku"
 }

@@ -175,5 +175,6 @@
   "medicationPauseDescription": "Kapatıldığında ilaç ekranından ve bildirimlerden çıkarılır.",
   "medicinePausedSnackbar": "İlacın kullanımı geçici olarak duraklatıldı",
   "medicationHistoryDeletedSnackbar": "İlaç alma kaydı geri alındı",
-  "undo": "Geri al"
+  "undo": "Geri al",
+  "medicationHistoryReverted": "İlaç alma kaydını iptal etme"
 }

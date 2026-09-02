@@ -175,5 +175,6 @@
   "medicationPauseDescription": "ሲያጠፉት፣ ከመድኃኒት ማያ ገጽ እና ማሳወቂያዎች ይወገዳል።",
   "medicinePausedSnackbar": "የመድኃኒት አወሳሰድ ለጊዜው ቆሟል",
   "medicationHistoryDeletedSnackbar": "የመድሃኒት መውሰድ መዝገብ ተሰርዟል",
-  "undo": "ቀልብስ"
+  "undo": "ቀልብስ",
+  "medicationHistoryReverted": "የመድሃኒት መውሰድ መዝገብ ስረዛ"
 }

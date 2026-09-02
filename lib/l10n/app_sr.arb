@@ -175,5 +175,6 @@
   "medicationPauseDescription": "Када се искључи, лек ће бити уклоњен са екрана лекова и из обавештења.",
   "medicinePausedSnackbar": "Узимање лека је привремено обустављено",
   "medicationHistoryDeletedSnackbar": "Запис о узимању лека је отказан",
-  "undo": "Опозови"
+  "undo": "Опозови",
+  "medicationHistoryReverted": "Otkazivanje zapisa o uzimanju leka"
 }

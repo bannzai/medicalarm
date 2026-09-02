@@ -175,5 +175,6 @@
   "medicationPauseDescription": "En desactivar-lo, s'exclourà de la pantalla de medicaments i de les notificacions.",
   "medicinePausedSnackbar": "La presa del medicament s’ha aturat temporalment",
   "medicationHistoryDeletedSnackbar": "S'ha desfet el registre de presa del medicament",
-  "undo": "Desfés"
+  "undo": "Desfés",
+  "medicationHistoryReverted": "Cancel·lació del registre de presa de medicació"
 }

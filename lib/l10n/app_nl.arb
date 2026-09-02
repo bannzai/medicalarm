@@ -175,5 +175,6 @@
   "medicationPauseDescription": "Wanneer dit wordt uitgeschakeld, wordt het uitgesloten van het medicijnenscherm en de meldingen.",
   "medicinePausedSnackbar": "Het innemen van het medicijn is tijdelijk gepauzeerd",
   "medicationHistoryDeletedSnackbar": "De registratie van de medicatie-inname is ongedaan gemaakt",
-  "undo": "Ongedaan maken"
+  "undo": "Ongedaan maken",
+  "medicationHistoryReverted": "Medicatie-inname ongedaan maken"
 }

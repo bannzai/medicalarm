@@ -175,5 +175,6 @@
   "medicationPauseDescription": "Wenn es deaktiviert wird, wird es aus dem Medikamentenbildschirm und den Benachrichtigungen entfernt.",
   "medicinePausedSnackbar": "Die Einnahme des Medikaments wurde vorübergehend pausiert",
   "medicationHistoryDeletedSnackbar": "Medikamenteneintrag rückgängig gemacht",
-  "undo": "Rückgängig"
+  "undo": "Rückgängig",
+  "medicationHistoryReverted": "Medikamenteneinnahme rückgängig gemacht"
 }

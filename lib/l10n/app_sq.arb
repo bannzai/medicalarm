@@ -175,5 +175,6 @@
   "medicationPauseDescription": "Kur çaktivizohet, ilaçi do të hiqet nga ekrani i barnave dhe njoftimet.",
   "medicinePausedSnackbar": "Marrja e ilaçit u pezullua përkohësisht",
   "medicationHistoryDeletedSnackbar": "Regjistrimi i marrjes së ilaçit u anulua",
-  "undo": "Zhbëj"
+  "undo": "Zhbëj",
+  "medicationHistoryReverted": "Anulimi i regjistrimit të marrjes së ilaçit"
 }

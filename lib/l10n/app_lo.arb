@@ -175,5 +175,6 @@
   "medicationPauseDescription": "ເມື່ອປິດ, ຢານີ້ຈະຖືກຍົກອອກຈາກໜ້າຈໍຢາ ແລະ ການແຈ້ງເຕືອນ.",
   "medicinePausedSnackbar": "ການກິນຢາຖືກຢຸດຊົ່ວຄາວ",
   "medicationHistoryDeletedSnackbar": "ບັນທຶກການກິນຢາຖືກຍົກເລີກແລ້ວ",
-  "undo": "ກັບຄືນ"
+  "undo": "ກັບຄືນ",
+  "medicationHistoryReverted": "ຍົກເລີກບັນທຶກການກິນຢາ"
 }

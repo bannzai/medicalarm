@@ -175,5 +175,6 @@
   "medicationPauseDescription": "Пасля выключэння прэпарат будзе выключаны з экрана лекаў і апавяшчэнняў.",
   "medicinePausedSnackbar": "Прыём прэпарата часова прыпынены",
   "medicationHistoryDeletedSnackbar": "Запіс аб прыёме лекі адменены",
-  "undo": "Адмяніць"
+  "undo": "Адмяніць",
+  "medicationHistoryReverted": "Адмена запісу пра прыём лекаў"
 }

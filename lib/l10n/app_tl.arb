@@ -175,5 +175,6 @@
   "medicationPauseDescription": "Kapag naka-off, hindi ito isasama sa screen ng mga gamot at mga notification.",
   "medicinePausedSnackbar": "Pansamantalang itinigil ang pag-inom ng gamot",
   "medicationHistoryDeletedSnackbar": "Na-undo ang tala ng pag-inom ng gamot",
-  "undo": "I-undo"
+  "undo": "I-undo",
+  "medicationHistoryReverted": "Pagkansela ng tala ng pag-inom ng gamot"
 }

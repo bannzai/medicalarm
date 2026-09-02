@@ -175,5 +175,6 @@
   "medicationPauseDescription": "Jika dinonaktifkan, obat ini akan dikecualikan dari layar obat dan notifikasi.",
   "medicinePausedSnackbar": "Konsumsi obat dihentikan sementara",
   "medicationHistoryDeletedSnackbar": "Catatan minum obat dibatalkan",
-  "undo": "Urungkan"
+  "undo": "Urungkan",
+  "medicationHistoryReverted": "Pembatalan catatan minum obat"
 }

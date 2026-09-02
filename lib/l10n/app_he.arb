@@ -175,5 +175,6 @@
   "medicationPauseDescription": "בעת כיבוי, התרופה לא תוצג במסך התרופות ולא תישלח בהתראות.",
   "medicinePausedSnackbar": "נטילת התרופה הושהתה זמנית",
   "medicationHistoryDeletedSnackbar": "רישום נטילת התרופה בוטל",
-  "undo": "בטל"
+  "undo": "בטל",
+  "medicationHistoryReverted": "ביטול רישום נטילת תרופה"
 }

@@ -175,5 +175,6 @@
   "medicationPauseDescription": "बन्द गर्दा, यसलाई औषधिको स्क्रिन र सूचनाहरूबाट हटाइनेछ।",
   "medicinePausedSnackbar": "औषध सेवन अस्थायी रूपमा रोकिएको छ",
   "medicationHistoryDeletedSnackbar": "औषधि सेवनको रेकर्ड रद्द गरिएको छ",
-  "undo": "पूर्ववत गर्नुहोस्"
+  "undo": "पूर्ववत गर्नुहोस्",
+  "medicationHistoryReverted": "औषध सेवनको रेकर्ड रद्द"
 }

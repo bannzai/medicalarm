@@ -175,5 +175,6 @@
   "medicationPauseDescription": "När den stängs av tas den bort från läkemedelsskärmen och aviseringarna.",
   "medicinePausedSnackbar": "Intaget av läkemedlet har pausats tillfälligt",
   "medicationHistoryDeletedSnackbar": "Läkemedelsintaget har ångrats",
-  "undo": "Ångra"
+  "undo": "Ångra",
+  "medicationHistoryReverted": "Ångra läkemedelsregistrering"
 }

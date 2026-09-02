@@ -175,5 +175,6 @@
   "medicationPauseDescription": "बंद केल्यावर, हे औषधांच्या स्क्रीनवर आणि सूचनांमध्ये दिसणार नाही.",
   "medicinePausedSnackbar": "औषध घेणे तात्पुरते थांबवले आहे",
   "medicationHistoryDeletedSnackbar": "औषध घेतल्याची नोंद रद्द केली आहे",
-  "undo": "पूर्ववत करा"
+  "undo": "पूर्ववत करा",
+  "medicationHistoryReverted": "औषध घेतल्याची नोंद रद्द"
 }

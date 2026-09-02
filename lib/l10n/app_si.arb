@@ -175,5 +175,6 @@
   "medicationPauseDescription": "අක්‍රිය කළ විට, එය ඖෂධ තිරයෙන් සහ දැනුම්දීම්වලින් ඉවත් කෙරේ.",
   "medicinePausedSnackbar": "ඖෂධ ගැනීම තාවකාලිකව නතර කරන ලදී",
   "medicationHistoryDeletedSnackbar": "ඖෂධ ගැනීමේ වාර්තාව අවලංගු කරන ලදී",
-  "undo": "අහෝසි කරන්න"
+  "undo": "අහෝසි කරන්න",
+  "medicationHistoryReverted": "ඖෂධ ගැනීමේ වාර්තාව අවලංගු කිරීම"
 }

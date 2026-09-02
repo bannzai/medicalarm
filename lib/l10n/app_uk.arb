@@ -175,5 +175,6 @@
   "medicationPauseDescription": "Після вимкнення препарат буде вилучено з екрана ліків і сповіщень.",
   "medicinePausedSnackbar": "Прийом ліків тимчасово призупинено",
   "medicationHistoryDeletedSnackbar": "Запис про прийом ліків скасовано",
-  "undo": "Скасувати"
+  "undo": "Скасувати",
+  "medicationHistoryReverted": "Скасування запису про прийом ліків"
 }

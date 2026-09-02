@@ -175,5 +175,6 @@
   "medicationPauseDescription": "Väljalülitamisel eemaldatakse see ravimite ekraanilt ja märguannetest.",
   "medicinePausedSnackbar": "Ravimi võtmine on ajutiselt peatatud",
   "medicationHistoryDeletedSnackbar": "Ravimi võtmise märge tühistati",
-  "undo": "Võta tagasi"
+  "undo": "Võta tagasi",
+  "medicationHistoryReverted": "Ravimi võtmise kirje tühistamine"
 }

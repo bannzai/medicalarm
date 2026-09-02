@@ -175,5 +175,6 @@
   "medicationPauseDescription": "При изключване лекарството ще бъде премахнато от екрана за лекарства и известията.",
   "medicinePausedSnackbar": "Приемът на лекарството е временно преустановен",
   "medicationHistoryDeletedSnackbar": "Записът за приема на лекарството е отменен",
-  "undo": "Отмяна"
+  "undo": "Отмяна",
+  "medicationHistoryReverted": "Отмяна на запис за прием на лекарство"
 }

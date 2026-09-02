@@ -175,5 +175,6 @@
   "medicationPauseDescription": "Izslēdzot, tas tiks noņemts no zāļu ekrāna un paziņojumiem.",
   "medicinePausedSnackbar": "Zāļu lietošana uz laiku apturēta",
   "medicationHistoryDeletedSnackbar": "Zāļu lietošanas ieraksts ir atcelts",
-  "undo": "Atsaukt"
+  "undo": "Atsaukt",
+  "medicationHistoryReverted": "Medikamentu lietošanas ieraksta atcelšana"
 }

@@ -175,5 +175,6 @@
   "medicationPauseDescription": "عند إيقاف تشغيله، ستتم إزالته من شاشة الأدوية ومن الإشعارات.",
   "medicinePausedSnackbar": "تم إيقاف تناول الدواء مؤقتًا",
   "medicationHistoryDeletedSnackbar": "تم التراجع عن سجل تناول الدواء",
-  "undo": "تراجع"
+  "undo": "تراجع",
+  "medicationHistoryReverted": "إلغاء سجل تناول الدواء"
 }
