@@ -173,5 +173,6 @@
   "currentlyInPremiumTrial": "Du nutzt derzeit die Premium-Testphase.",
   "medicationPause": "Medikament aktivieren",
   "medicationPauseDescription": "Wenn es deaktiviert wird, wird es aus dem Medikamentenbildschirm und den Benachrichtigungen entfernt.",
-  "medicinePausedSnackbar": "Die Einnahme des Medikaments wurde vorübergehend pausiert"
+  "medicinePausedSnackbar": "Die Einnahme des Medikaments wurde vorübergehend pausiert",
+  "medicationHistoryDeletedSnackbar": "Medikamenteneintrag rückgängig gemacht"
 }

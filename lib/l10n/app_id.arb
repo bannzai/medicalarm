@@ -173,5 +173,6 @@
   "currentlyInPremiumTrial": "Saat ini Anda sedang menggunakan uji coba Premium.",
   "medicationPause": "Aktifkan obat",
   "medicationPauseDescription": "Jika dinonaktifkan, obat ini akan dikecualikan dari layar obat dan notifikasi.",
-  "medicinePausedSnackbar": "Konsumsi obat dihentikan sementara"
+  "medicinePausedSnackbar": "Konsumsi obat dihentikan sementara",
+  "medicationHistoryDeletedSnackbar": "Catatan minum obat dibatalkan"
 }

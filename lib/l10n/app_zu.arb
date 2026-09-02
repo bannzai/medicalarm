@@ -173,5 +173,6 @@
   "currentlyInPremiumTrial": "Okwamanje usekusesikhathini sesilingo se-Premium.",
   "medicationPause": "Vumela umuthi",
   "medicationPauseDescription": "Uma kuvalwa, izokhishwa esikrinini semithi nasezazisweni.",
-  "medicinePausedSnackbar": "Ukuphuza umuthi kumisiwe okwesikhashana"
+  "medicinePausedSnackbar": "Ukuphuza umuthi kumisiwe okwesikhashana",
+  "medicationHistoryDeletedSnackbar": "Irekhodi lokuphuza umuthi lihoxisiwe"
 }

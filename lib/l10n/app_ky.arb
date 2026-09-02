@@ -173,5 +173,6 @@
   "currentlyInPremiumTrial": "Учурда Premium сынамык мөөнөтүн колдонуп жатасыз.",
   "medicationPause": "Дарыны иштетүү",
   "medicationPauseDescription": "Өчүрүлгөндө, дары-дармектер экранынан жана эскертмелерден чыгарылат.",
-  "medicinePausedSnackbar": "Дарыны ичүү убактылуу токтотулду"
+  "medicinePausedSnackbar": "Дарыны ичүү убактылуу токтотулду",
+  "medicationHistoryDeletedSnackbar": "Дары ичүү жазмасы жокко чыгарылды"
 }

@@ -173,5 +173,6 @@
   "currentlyInPremiumTrial": "Je gebruikt momenteel de Premium-proefperiode.",
   "medicationPause": "Medicatie inschakelen",
   "medicationPauseDescription": "Wanneer dit wordt uitgeschakeld, wordt het uitgesloten van het medicijnenscherm en de meldingen.",
-  "medicinePausedSnackbar": "Het innemen van het medicijn is tijdelijk gepauzeerd"
+  "medicinePausedSnackbar": "Het innemen van het medicijn is tijdelijk gepauzeerd",
+  "medicationHistoryDeletedSnackbar": "De registratie van de medicatie-inname is ongedaan gemaakt"
 }

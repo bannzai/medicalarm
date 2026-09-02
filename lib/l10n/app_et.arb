@@ -173,5 +173,6 @@
   "currentlyInPremiumTrial": "Sul on praegu Premiumi prooviperiood.",
   "medicationPause": "Luba ravim",
   "medicationPauseDescription": "Väljalülitamisel eemaldatakse see ravimite ekraanilt ja märguannetest.",
-  "medicinePausedSnackbar": "Ravimi võtmine on ajutiselt peatatud"
+  "medicinePausedSnackbar": "Ravimi võtmine on ajutiselt peatatud",
+  "medicationHistoryDeletedSnackbar": "Ravimi võtmise märge tühistati"
 }

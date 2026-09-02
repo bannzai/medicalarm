@@ -173,5 +173,6 @@
   "currentlyInPremiumTrial": "Դուք ներկայումս Premium-ի փորձաշրջանում եք։",
   "medicationPause": "Ակտիվացնել դեղորայքը",
   "medicationPauseDescription": "Անջատելու դեպքում այն կհեռացվի դեղերի էկրանից և ծանուցումներից։",
-  "medicinePausedSnackbar": "Դեղամիջոցի ընդունումը ժամանակավորապես դադարեցվել է"
+  "medicinePausedSnackbar": "Դեղամիջոցի ընդունումը ժամանակավորապես դադարեցվել է",
+  "medicationHistoryDeletedSnackbar": "Դեղամիջոցի ընդունման գրառումը չեղարկվեց"
 }

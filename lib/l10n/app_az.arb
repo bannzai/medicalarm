@@ -173,5 +173,6 @@
   "currentlyInPremiumTrial": "Hazırda Premium sınaq müddətindəsiniz.",
   "medicationPause": "Dərmanı aktivləşdirin",
   "medicationPauseDescription": "Söndürüldükdə, dərman ekranından və bildirişlərdən çıxarılır.",
-  "medicinePausedSnackbar": "Dərmanın qəbulu müvəqqəti dayandırıldı"
+  "medicinePausedSnackbar": "Dərmanın qəbulu müvəqqəti dayandırıldı",
+  "medicationHistoryDeletedSnackbar": "Dərman qəbulu qeydi geri alındı"
 }

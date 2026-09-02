@@ -173,5 +173,6 @@
   "currentlyInPremiumTrial": "तुम्ही सध्या Premium चाचणी कालावधीत आहात.",
   "medicationPause": "औषध सुरू करा",
   "medicationPauseDescription": "बंद केल्यावर, हे औषधांच्या स्क्रीनवर आणि सूचनांमध्ये दिसणार नाही.",
-  "medicinePausedSnackbar": "औषध घेणे तात्पुरते थांबवले आहे"
+  "medicinePausedSnackbar": "औषध घेणे तात्पुरते थांबवले आहे",
+  "medicationHistoryDeletedSnackbar": "औषध घेतल्याची नोंद रद्द केली आहे"
 }

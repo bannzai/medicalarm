@@ -173,5 +173,6 @@
   "currentlyInPremiumTrial": "Rydych ar hyn o bryd yn defnyddio treial Premium.",
   "medicationPause": "Galluogi meddyginiaeth",
   "medicationPauseDescription": "Pan gaiff ei ddiffodd, caiff ei dynnu o sgrin meddyginiaethau a hysbysiadau.",
-  "medicinePausedSnackbar": "Mae cymryd y feddyginiaeth wedi’i oedi dros dro"
+  "medicinePausedSnackbar": "Mae cymryd y feddyginiaeth wedi’i oedi dros dro",
+  "medicationHistoryDeletedSnackbar": "Mae cofnod cymryd y feddyginiaeth wedi'i ddadwneud"
 }

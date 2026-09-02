@@ -173,5 +173,6 @@
   "currentlyInPremiumTrial": "አሁን በPremium የሙከራ ጊዜ ላይ ነዎት።",
   "medicationPause": "መድኃኒቱን አንቃ",
   "medicationPauseDescription": "ሲያጠፉት፣ ከመድኃኒት ማያ ገጽ እና ማሳወቂያዎች ይወገዳል።",
-  "medicinePausedSnackbar": "የመድኃኒት አወሳሰድ ለጊዜው ቆሟል"
+  "medicinePausedSnackbar": "የመድኃኒት አወሳሰድ ለጊዜው ቆሟል",
+  "medicationHistoryDeletedSnackbar": "የመድሃኒት መውሰድ መዝገብ ተሰርዟል"
 }

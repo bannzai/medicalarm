@@ -173,5 +173,6 @@
   "currentlyInPremiumTrial": "Une honetan Premium proba-aldian zaude.",
   "medicationPause": "Botikazioa gaitu",
   "medicationPauseDescription": "Desaktibatzean, sendagaien pantailatik eta jakinarazpenetatik kenduko da.",
-  "medicinePausedSnackbar": "Sendagaiaren hartzea aldi baterako eten da"
+  "medicinePausedSnackbar": "Sendagaiaren hartzea aldi baterako eten da",
+  "medicationHistoryDeletedSnackbar": "Botikaren hartze-erregistroa desegin da"
 }

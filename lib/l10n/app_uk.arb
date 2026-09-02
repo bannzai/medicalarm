@@ -173,5 +173,6 @@
   "currentlyInPremiumTrial": "Наразі ви користуєтеся пробним періодом Premium.",
   "medicationPause": "Увімкнути ліки",
   "medicationPauseDescription": "Після вимкнення препарат буде вилучено з екрана ліків і сповіщень.",
-  "medicinePausedSnackbar": "Прийом ліків тимчасово призупинено"
+  "medicinePausedSnackbar": "Прийом ліків тимчасово призупинено",
+  "medicationHistoryDeletedSnackbar": "Запис про прийом ліків скасовано"
 }

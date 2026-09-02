@@ -173,5 +173,6 @@
   "currentlyInPremiumTrial": "آپ اس وقت Premium کے آزمائشی دور میں ہیں۔",
   "medicationPause": "دوا فعال کریں",
   "medicationPauseDescription": "بند کرنے پر، اسے ادویات کی اسکرین اور اطلاعات سے ہٹا دیا جائے گا۔",
-  "medicinePausedSnackbar": "دوا لینا عارضی طور پر روک دیا گیا ہے"
+  "medicinePausedSnackbar": "دوا لینا عارضی طور پر روک دیا گیا ہے",
+  "medicationHistoryDeletedSnackbar": "دوا لینے کا ریکارڈ منسوخ کر دیا گیا ہے"
 }

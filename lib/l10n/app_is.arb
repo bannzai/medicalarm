@@ -173,5 +173,6 @@
   "currentlyInPremiumTrial": "Þú ert núna í Premium-prufutímabili.",
   "medicationPause": "Virkja lyf",
   "medicationPauseDescription": "Þegar slökkt er á þessu er það tekið af lyfjaskjánum og úr tilkynningum.",
-  "medicinePausedSnackbar": "Taka lyfsins hefur verið stöðvuð tímabundið"
+  "medicinePausedSnackbar": "Taka lyfsins hefur verið stöðvuð tímabundið",
+  "medicationHistoryDeletedSnackbar": "Skráning lyfjatöku hefur verið afturkölluð"
 }

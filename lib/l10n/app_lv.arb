@@ -173,5 +173,6 @@
   "currentlyInPremiumTrial": "Pašlaik izmantojat Premium izmēģinājuma periodu.",
   "medicationPause": "Aktivizēt zāles",
   "medicationPauseDescription": "Izslēdzot, tas tiks noņemts no zāļu ekrāna un paziņojumiem.",
-  "medicinePausedSnackbar": "Zāļu lietošana uz laiku apturēta"
+  "medicinePausedSnackbar": "Zāļu lietošana uz laiku apturēta",
+  "medicationHistoryDeletedSnackbar": "Zāļu lietošanas ieraksts ir atcelts"
 }

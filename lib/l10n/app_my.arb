@@ -173,5 +173,6 @@
   "currentlyInPremiumTrial": "လက်ရှိတွင် Premium အစမ်းသုံးကာလကို အသုံးပြုနေပါသည်။",
   "medicationPause": "ဆေးကို အသုံးပြုရန် ဖွင့်ပါ",
   "medicationPauseDescription": "ပိတ်လိုက်ပါက ဆေးမျက်နှာပြင်နှင့် အသိပေးချက်များမှ ဖယ်ရှားမည်။",
-  "medicinePausedSnackbar": "ဆေးသောက်ခြင်းကို ယာယီရပ်ထားသည်"
+  "medicinePausedSnackbar": "ဆေးသောက်ခြင်းကို ယာယီရပ်ထားသည်",
+  "medicationHistoryDeletedSnackbar": "ဆေးသောက်မှတ်တမ်းကို ပယ်ဖျက်လိုက်ပါပြီ"
 }

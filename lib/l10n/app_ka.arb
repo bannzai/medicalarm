@@ -173,5 +173,6 @@
   "currentlyInPremiumTrial": "ამჟამად Premium-ის საცდელ პერიოდზე ხართ.",
   "medicationPause": "მედიკამენტის ჩართვა",
   "medicationPauseDescription": "გამორთვისას, ის ამოიშლება მედიკამენტების ეკრანიდან და შეტყობინებებიდან.",
-  "medicinePausedSnackbar": "მედიკამენტის მიღება დროებით შეჩერდა"
+  "medicinePausedSnackbar": "მედიკამენტის მიღება დროებით შეჩერდა",
+  "medicationHistoryDeletedSnackbar": "მედიკამენტის მიღების ჩანაწერი გაუქმდა"
 }

@@ -173,5 +173,6 @@
   "currentlyInPremiumTrial": "Jy gebruik tans die Premium-proeflopie.",
   "medicationPause": "Medikasie aktiveer",
   "medicationPauseDescription": "Wanneer dit afgeskakel word, word dit van die medikasieskerm en kennisgewings uitgesluit.",
-  "medicinePausedSnackbar": "Medikasie-inname is tydelik onderbreek"
+  "medicinePausedSnackbar": "Medikasie-inname is tydelik onderbreek",
+  "medicationHistoryDeletedSnackbar": "Medikasie-aantekening ongedaan gemaak"
 }

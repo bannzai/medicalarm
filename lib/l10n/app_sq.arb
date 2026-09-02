@@ -173,5 +173,6 @@
   "currentlyInPremiumTrial": "Aktualisht jeni në periudhën e provës Premium.",
   "medicationPause": "Aktivizo medikamentin",
   "medicationPauseDescription": "Kur çaktivizohet, ilaçi do të hiqet nga ekrani i barnave dhe njoftimet.",
-  "medicinePausedSnackbar": "Marrja e ilaçit u pezullua përkohësisht"
+  "medicinePausedSnackbar": "Marrja e ilaçit u pezullua përkohësisht",
+  "medicationHistoryDeletedSnackbar": "Regjistrimi i marrjes së ilaçit u anulua"
 }

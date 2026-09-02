@@ -173,5 +173,6 @@
   "currentlyInPremiumTrial": "Kwa sasa uko kwenye kipindi cha majaribio cha Premium.",
   "medicationPause": "Washa dawa",
   "medicationPauseDescription": "Ikizimwa, itaondolewa kwenye skrini ya dawa na arifa.",
-  "medicinePausedSnackbar": "Unywaji wa dawa umesitishwa kwa muda"
+  "medicinePausedSnackbar": "Unywaji wa dawa umesitishwa kwa muda",
+  "medicationHistoryDeletedSnackbar": "Rekodi ya unywaji wa dawa imebatilishwa"
 }

@@ -173,5 +173,6 @@
   "currentlyInPremiumTrial": "Қазір Premium сынақ нұсқасын пайдаланып жатырсыз.",
   "medicationPause": "Дәріні қосу",
   "medicationPauseDescription": "Өшірілгенде, дәрі-дәрмектер экранынан және хабарландырулардан алынып тасталады.",
-  "medicinePausedSnackbar": "Дәрі қабылдау уақытша тоқтатылды"
+  "medicinePausedSnackbar": "Дәрі қабылдау уақытша тоқтатылды",
+  "medicationHistoryDeletedSnackbar": "Дәрі қабылдау жазбасы кері қайтарылды"
 }

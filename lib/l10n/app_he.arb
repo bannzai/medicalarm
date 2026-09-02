@@ -173,5 +173,6 @@
   "currentlyInPremiumTrial": "אתם נמצאים כרגע בתקופת ניסיון של Premium.",
   "medicationPause": "הפעלת התרופה",
   "medicationPauseDescription": "בעת כיבוי, התרופה לא תוצג במסך התרופות ולא תישלח בהתראות.",
-  "medicinePausedSnackbar": "נטילת התרופה הושהתה זמנית"
+  "medicinePausedSnackbar": "נטילת התרופה הושהתה זמנית",
+  "medicationHistoryDeletedSnackbar": "רישום נטילת התרופה בוטל"
 }

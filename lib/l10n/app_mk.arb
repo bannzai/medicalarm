@@ -173,5 +173,6 @@
   "currentlyInPremiumTrial": "Моментално сте во пробниот период на Premium.",
   "medicationPause": "Овозможи лек",
   "medicationPauseDescription": "Кога ќе се исклучи, лекот ќе биде отстранет од екранот за лекови и известувањата.",
-  "medicinePausedSnackbar": "Земањето на лекот е привремено прекинато"
+  "medicinePausedSnackbar": "Земањето на лекот е привремено прекинато",
+  "medicationHistoryDeletedSnackbar": "Записот за земање лек е откажан"
 }

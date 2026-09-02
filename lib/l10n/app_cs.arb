@@ -173,5 +173,6 @@
   "currentlyInPremiumTrial": "Právě využíváte zkušební verzi Premium.",
   "medicationPause": "Povolit užívání léku",
   "medicationPauseDescription": "Po vypnutí bude lék vyřazen z obrazovky léků a z oznámení.",
-  "medicinePausedSnackbar": "Užívání léku bylo dočasně pozastaveno"
+  "medicinePausedSnackbar": "Užívání léku bylo dočasně pozastaveno",
+  "medicationHistoryDeletedSnackbar": "Záznam o užití léku byl zrušen"
 }

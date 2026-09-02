@@ -173,5 +173,6 @@
   "currentlyInPremiumTrial": "Сейчас вы используете пробный период Premium.",
   "medicationPause": "Включить лекарство",
   "medicationPauseDescription": "После отключения препарат будет исключён из экрана лекарств и уведомлений.",
-  "medicinePausedSnackbar": "Приём лекарства временно приостановлен"
+  "medicinePausedSnackbar": "Приём лекарства временно приостановлен",
+  "medicationHistoryDeletedSnackbar": "Запись о приёме лекарства отменена"
 }

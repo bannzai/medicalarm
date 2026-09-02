@@ -173,5 +173,6 @@
   "currentlyInPremiumTrial": "현재 Premium 체험 기간 중입니다.",
   "medicationPause": "복약 활성화",
   "medicationPauseDescription": "끄면 복약 화면과 알림에서 제외됩니다.",
-  "medicinePausedSnackbar": "약 복용이 일시 중지되었습니다"
+  "medicinePausedSnackbar": "약 복용이 일시 중지되었습니다",
+  "medicationHistoryDeletedSnackbar": "복약 기록을 취소했습니다"
 }

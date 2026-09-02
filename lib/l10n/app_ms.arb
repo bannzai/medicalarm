@@ -173,5 +173,6 @@
   "currentlyInPremiumTrial": "Anda sedang menggunakan percubaan Premium.",
   "medicationPause": "Aktifkan ubat",
   "medicationPauseDescription": "Apabila dimatikan, ubat ini akan dikecualikan daripada skrin ubat dan pemberitahuan.",
-  "medicinePausedSnackbar": "Pengambilan ubat dijeda buat sementara"
+  "medicinePausedSnackbar": "Pengambilan ubat dijeda buat sementara",
+  "medicationHistoryDeletedSnackbar": "Rekod pengambilan ubat telah dibatalkan"
 }

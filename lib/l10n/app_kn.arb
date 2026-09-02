@@ -173,5 +173,6 @@
   "currentlyInPremiumTrial": "ನೀವು ಪ್ರಸ್ತುತ Premium ಪ್ರಯೋಗಾವಧಿಯಲ್ಲಿದ್ದೀರಿ.",
   "medicationPause": "ಔಷಧವನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ",
   "medicationPauseDescription": "ಆಫ್ ಮಾಡಿದಾಗ, ಇದನ್ನು ಔಷಧಿಗಳ ಪರದೆ ಮತ್ತು ಅಧಿಸೂಚನೆಗಳಿಂದ ಹೊರಗಿಡಲಾಗುತ್ತದೆ.",
-  "medicinePausedSnackbar": "ಔಷಧಿ ಸೇವನೆಯನ್ನು ತಾತ್ಕಾಲಿಕವಾಗಿ ವಿರಮಿಸಲಾಗಿದೆ"
+  "medicinePausedSnackbar": "ಔಷಧಿ ಸೇವನೆಯನ್ನು ತಾತ್ಕಾಲಿಕವಾಗಿ ವಿರಮಿಸಲಾಗಿದೆ",
+  "medicationHistoryDeletedSnackbar": "ಔಷಧ ಸೇವನೆಯ ದಾಖಲೆಯನ್ನು ರದ್ದುಗೊಳಿಸಲಾಗಿದೆ"
 }

@@ -173,5 +173,6 @@
   "currentlyInPremiumTrial": "Du använder för närvarande Premium-provperioden.",
   "medicationPause": "Aktivera läkemedel",
   "medicationPauseDescription": "När den stängs av tas den bort från läkemedelsskärmen och aviseringarna.",
-  "medicinePausedSnackbar": "Intaget av läkemedlet har pausats tillfälligt"
+  "medicinePausedSnackbar": "Intaget av läkemedlet har pausats tillfälligt",
+  "medicationHistoryDeletedSnackbar": "Läkemedelsintaget har ångrats"
 }

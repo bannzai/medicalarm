@@ -173,5 +173,6 @@
   "currentlyInPremiumTrial": "Şu anda Premium deneme sürümündesiniz.",
   "medicationPause": "İlacı etkinleştir",
   "medicationPauseDescription": "Kapatıldığında ilaç ekranından ve bildirimlerden çıkarılır.",
-  "medicinePausedSnackbar": "İlacın kullanımı geçici olarak duraklatıldı"
+  "medicinePausedSnackbar": "İlacın kullanımı geçici olarak duraklatıldı",
+  "medicationHistoryDeletedSnackbar": "İlaç alma kaydı geri alındı"
 }
