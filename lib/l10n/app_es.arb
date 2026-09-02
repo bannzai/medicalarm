@@ -163,5 +163,6 @@
   "welcomeToMedicalarm": "Te damos la bienvenida a Medicalarm!",
   "writeReviewFor5StarPromotion": "Escribe una valoración de 5 estrellas y una reseña en el App Store para probar gratis las funciones premium durante {count} días.",
   "rating5StarsEncouragement": "Tu valoración de ★5 es un gran estímulo para los desarrolladores.\n¡Ayúdanos a crear una aplicación aún mejor!",
-  "noAutoCharge": "No se te cobrará automáticamente. Cuando finalice el periodo de prueba, volverás automáticamente al plan gratuito."
+  "noAutoCharge": "No se te cobrará automáticamente. Cuando finalice el periodo de prueba, volverás automáticamente al plan gratuito.",
+  "write5StarReview": "Escribir una reseña de 5 estrellas"
 }

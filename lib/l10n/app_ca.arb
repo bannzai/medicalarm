@@ -163,5 +163,6 @@
   "welcomeToMedicalarm": "Us donem la benvinguda a Medicalarm!",
   "writeReviewFor5StarPromotion": "Escriviu una puntuació de 5 estrelles i una ressenya a l’App Store per provar les funcions premium gratis durant {count} dies!",
   "rating5StarsEncouragement": "La teva valoració de ★5 és un gran estímul per als desenvolupadors.\nAjuda’ns a crear una aplicació encara millor!",
-  "noAutoCharge": "No se’t farà cap càrrec automàtic. Quan finalitzi el període de prova, tornaràs automàticament al pla gratuït."
+  "noAutoCharge": "No se’t farà cap càrrec automàtic. Quan finalitzi el període de prova, tornaràs automàticament al pla gratuït.",
+  "write5StarReview": "Escriu una ressenya de 5 estrelles"
 }
