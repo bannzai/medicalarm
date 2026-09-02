@@ -218,5 +218,6 @@
   "accountLinkDescription": "Apple veya Google'a bağlanarak cihazınızı değiştirdikten veya uygulamayı yeniden yükledikten sonra da verilerinizi aktarabilirsiniz.",
   "linkWithApple": "Apple ile hesabı aktarın",
   "linkWithGoogle": "Google ile hesabı aktar",
-  "accountLinkedWithApple": "Apple ile bağlantılı"
+  "accountLinkedWithApple": "Apple ile bağlantılı",
+  "accountLinkedWithGoogle": "Google ile bağlandı"
 }

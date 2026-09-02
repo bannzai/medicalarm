@@ -218,5 +218,6 @@
   "accountLinkDescription": "Apple-თან ან Google-თან დაკავშირების შემთხვევაში, მონაცემების გადატანას მოწყობილობის შეცვლის ან აპის ხელახლა ინსტალაციის შემდეგაც შეძლებთ.",
   "linkWithApple": "ანგარიშის გადატანა Apple-ის გამოყენებით",
   "linkWithGoogle": "გადაიტანეთ ანგარიში Google-ით",
-  "accountLinkedWithApple": "დაკავშირებულია Apple-თან"
+  "accountLinkedWithApple": "დაკავშირებულია Apple-თან",
+  "accountLinkedWithGoogle": "დაკავშირებულია Google-თან"
 }

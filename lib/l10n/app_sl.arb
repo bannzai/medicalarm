@@ -218,5 +218,6 @@
   "accountLinkDescription": "S povezavo z Apple ali Google lahko svoje podatke prenesete tudi po zamenjavi naprave ali vnovični namestitvi aplikacije.",
   "linkWithApple": "Prenos računa z Apple",
   "linkWithGoogle": "Prenesite račun z Googlom",
-  "accountLinkedWithApple": "Povezano z Apple"
+  "accountLinkedWithApple": "Povezano z Apple",
+  "accountLinkedWithGoogle": "Povezano z Googlom"
 }

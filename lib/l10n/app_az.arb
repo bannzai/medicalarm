@@ -218,5 +218,6 @@
   "accountLinkDescription": "Apple və ya Google ilə əlaqə yaratdıqda, cihazınızı dəyişdikdən və ya tətbiqi yenidən quraşdırdıqdan sonra da məlumatlarınızı köçürə bilərsiniz.",
   "linkWithApple": "Hesabı Apple ilə köçürün",
   "linkWithGoogle": "Google ilə hesabı köçürün",
-  "accountLinkedWithApple": "Apple ilə əlaqələndirilib"
+  "accountLinkedWithApple": "Apple ilə əlaqələndirilib",
+  "accountLinkedWithGoogle": "Google ilə əlaqələndirilib"
 }

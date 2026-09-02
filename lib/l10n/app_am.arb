@@ -218,5 +218,6 @@
   "accountLinkDescription": "ከApple ወይም Google ጋር በማገናኘት መሣሪያ ከቀየሩ ወይም መተግበሪያውን እንደገና ከጫኑ በኋላም ውሂብዎን ማስቀጠል ይችላሉ።",
   "linkWithApple": "መለያዎን በApple ያስተላልፉ",
   "linkWithGoogle": "መለያዎን በGoogle ያስተላልፉ",
-  "accountLinkedWithApple": "ከApple ጋር ተገናኝቷል"
+  "accountLinkedWithApple": "ከApple ጋር ተገናኝቷል",
+  "accountLinkedWithGoogle": "ከGoogle ጋር ተገናኝቷል"
 }

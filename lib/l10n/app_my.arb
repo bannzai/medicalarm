@@ -218,5 +218,6 @@
   "accountLinkDescription": "Apple သို့မဟုတ် Google နှင့် ချိတ်ဆက်ထားပါက စက်ပြောင်းခြင်း သို့မဟုတ် အက်ပ်ကို ပြန်လည်ထည့်သွင်းခြင်း ပြုလုပ်ပြီးနောက်တွင်လည်း သင့်ဒေတာကို လွှဲပြောင်းနိုင်ပါသည်။",
   "linkWithApple": "Apple ဖြင့် အကောင့်လွှဲပြောင်းရန်",
   "linkWithGoogle": "Google ဖြင့် အကောင့်ကို လွှဲပြောင်းပါ",
-  "accountLinkedWithApple": "Apple နှင့် ချိတ်ဆက်ထားသည်"
+  "accountLinkedWithApple": "Apple နှင့် ချိတ်ဆက်ထားသည်",
+  "accountLinkedWithGoogle": "Google နှင့် ချိတ်ဆက်ထားသည်"
 }

@@ -218,5 +218,6 @@
   "accountLinkDescription": "Apple немесе Google қызметіне қосылсаңыз, құрылғыны ауыстырғаннан немесе қолданбаны қайта орнатқаннан кейін де деректеріңізді тасымалдай аласыз.",
   "linkWithApple": "Apple арқылы есептік жазбаны ауыстыру",
   "linkWithGoogle": "Google арқылы есептік жазбаны ауыстыру",
-  "accountLinkedWithApple": "Apple-мен байланыстырылған"
+  "accountLinkedWithApple": "Apple-мен байланыстырылған",
+  "accountLinkedWithGoogle": "Google-мен байланыстырылды"
 }

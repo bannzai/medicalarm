@@ -218,5 +218,6 @@
   "accountLinkDescription": "Apple же Google менен байланыштырып койсоңуз, түзмөктү алмаштыргандан же колдонмону кайра орноткондон кийин да дайындарыңызды өткөрүп ала аласыз.",
   "linkWithApple": "Каттоо эсебин Apple аркылуу өткөрүү",
   "linkWithGoogle": "Каттоо эсебин Google аркылуу өткөрүү",
-  "accountLinkedWithApple": "Apple менен байланыштырылды"
+  "accountLinkedWithApple": "Apple менен байланыштырылды",
+  "accountLinkedWithGoogle": "Google менен байланыштырылган"
 }

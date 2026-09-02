@@ -218,5 +218,6 @@
   "accountLinkDescription": "Po prepojení s Apple alebo Google môžete preniesť svoje údaje aj po zmene zariadenia alebo opätovnej inštalácii aplikácie.",
   "linkWithApple": "Preniesť účet pomocou Apple",
   "linkWithGoogle": "Preniesť účet pomocou Googlu",
-  "accountLinkedWithApple": "Prepojené s Apple"
+  "accountLinkedWithApple": "Prepojené s Apple",
+  "accountLinkedWithGoogle": "Prepojené s Googlom"
 }

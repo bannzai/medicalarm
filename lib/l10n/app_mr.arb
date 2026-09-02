@@ -218,5 +218,6 @@
   "accountLinkDescription": "Apple किंवा Google शी कनेक्ट केल्यास, डिव्हाइस बदलल्यानंतर किंवा ॲप पुन्हा इंस्टॉल केल्यानंतरही तुमचा डेटा हस्तांतरित करू शकता.",
   "linkWithApple": "Apple द्वारे खाते हस्तांतरित करा",
   "linkWithGoogle": "Google वापरून खाते हस्तांतरित करा",
-  "accountLinkedWithApple": "Apple शी लिंक केलेले"
+  "accountLinkedWithApple": "Apple शी लिंक केलेले",
+  "accountLinkedWithGoogle": "Google शी लिंक केलेले"
 }

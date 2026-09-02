@@ -218,5 +218,6 @@
   "accountLinkDescription": "Deur Apple of Google te koppel, kan jy jou data behou selfs nadat jy van toestel verander of die app herinstalleer het.",
   "linkWithApple": "Dra rekening oor met Apple",
   "linkWithGoogle": "Neem jou rekening oor met Google",
-  "accountLinkedWithApple": "Aan Apple gekoppel"
+  "accountLinkedWithApple": "Aan Apple gekoppel",
+  "accountLinkedWithGoogle": "Aan Google gekoppel"
 }

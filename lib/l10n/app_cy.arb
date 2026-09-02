@@ -218,5 +218,6 @@
   "accountLinkDescription": "Drwy gysylltu ag Apple neu Google, gallwch drosglwyddo’ch data hyd yn oed ar ôl newid dyfais neu ailosod yr ap.",
   "linkWithApple": "Trosglwyddo'r cyfrif gyda Apple",
   "linkWithGoogle": "Trosglwyddo'r cyfrif gyda Google",
-  "accountLinkedWithApple": "Wedi’i gysylltu ag Apple"
+  "accountLinkedWithApple": "Wedi’i gysylltu ag Apple",
+  "accountLinkedWithGoogle": "Wedi'i gysylltu â Google"
 }

@@ -218,5 +218,6 @@
   "accountLinkDescription": "Conectându-vă la Apple sau Google, vă puteți transfera datele chiar și după schimbarea dispozitivului sau reinstalarea aplicației.",
   "linkWithApple": "Transferă contul cu Apple",
   "linkWithGoogle": "Transferă contul cu Google",
-  "accountLinkedWithApple": "Conectat la Apple"
+  "accountLinkedWithApple": "Conectat la Apple",
+  "accountLinkedWithGoogle": "Conectat la Google"
 }

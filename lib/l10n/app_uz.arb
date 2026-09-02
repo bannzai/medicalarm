@@ -218,5 +218,6 @@
   "accountLinkDescription": "Apple yoki Google bilan bog‘lasangiz, qurilmani almashtirgandan yoki ilovani qayta o‘rnatgandan keyin ham ma’lumotlaringizni ko‘chirishingiz mumkin.",
   "linkWithApple": "Hisobni Apple orqali o‘tkazing",
   "linkWithGoogle": "Hisobni Google orqali ko‘chirish",
-  "accountLinkedWithApple": "Apple bilan bog‘langan"
+  "accountLinkedWithApple": "Apple bilan bog‘langan",
+  "accountLinkedWithGoogle": "Google bilan bog‘langan"
 }

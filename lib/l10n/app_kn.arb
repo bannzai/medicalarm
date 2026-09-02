@@ -218,5 +218,6 @@
   "accountLinkDescription": "Apple ಅಥವಾ Google ಗೆ ಸಂಪರ್ಕಿಸಿದರೆ, ಸಾಧನವನ್ನು ಬದಲಾಯಿಸಿದ ನಂತರ ಅಥವಾ ಆ್ಯಪ್ ಅನ್ನು ಮರುಸ್ಥಾಪಿಸಿದ ನಂತರವೂ ನಿಮ್ಮ ಡೇಟಾವನ್ನು ವರ್ಗಾಯಿಸಬಹುದು.",
   "linkWithApple": "Apple ಮೂಲಕ ಖಾತೆಯನ್ನು ವರ್ಗಾಯಿಸಿ",
   "linkWithGoogle": "Google ಮೂಲಕ ಖಾತೆಯನ್ನು ವರ್ಗಾಯಿಸಿ",
-  "accountLinkedWithApple": "Apple ಗೆ ಲಿಂಕ್ ಮಾಡಲಾಗಿದೆ"
+  "accountLinkedWithApple": "Apple ಗೆ ಲಿಂಕ್ ಮಾಡಲಾಗಿದೆ",
+  "accountLinkedWithGoogle": "Google ಗೆ ಲಿಂಕ್ ಮಾಡಲಾಗಿದೆ"
 }

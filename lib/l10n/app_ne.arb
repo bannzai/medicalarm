@@ -218,5 +218,6 @@
   "accountLinkDescription": "Apple वा Google सँग जडान गरेपछि, तपाईंले यन्त्र परिवर्तन गरेपछि वा एप पुनः स्थापना गरेपछि पनि आफ्नो डेटा स्थानान्तरण गर्न सक्नुहुन्छ।",
   "linkWithApple": "Apple मार्फत खाता स्थानान्तरण गर्नुहोस्",
   "linkWithGoogle": "Google प्रयोग गरेर खाता स्थानान्तरण गर्नुहोस्",
-  "accountLinkedWithApple": "Apple सँग लिंक गरिएको"
+  "accountLinkedWithApple": "Apple सँग लिंक गरिएको",
+  "accountLinkedWithGoogle": "Google सँग जोडिएको"
 }

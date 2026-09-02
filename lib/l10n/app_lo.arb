@@ -218,5 +218,6 @@
   "accountLinkDescription": "ເມື່ອເຊື່ອມຕໍ່ກັບ Apple ຫຼື Google ທ່ານຈະສາມາດໂອນຂໍ້ມູນຂອງທ່ານໄດ້ ແມ່ນແຕ່ຫຼັງຈາກປ່ຽນອຸປະກອນ ຫຼືຕິດຕັ້ງແອັບຄືນໃໝ່.",
   "linkWithApple": "ໂອນບັນຊີດ້ວຍ Apple",
   "linkWithGoogle": "ໂອນບັນຊີດ້ວຍ Google",
-  "accountLinkedWithApple": "ເຊື່ອມຕໍ່ກັບ Apple ແລ້ວ"
+  "accountLinkedWithApple": "ເຊື່ອມຕໍ່ກັບ Apple ແລ້ວ",
+  "accountLinkedWithGoogle": "ເຊື່ອມຕໍ່ກັບ Google ແລ້ວ"
 }

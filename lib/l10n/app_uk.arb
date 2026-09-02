@@ -218,5 +218,6 @@
   "accountLinkDescription": "Підключивши Apple або Google, ви зможете перенести свої дані навіть після зміни пристрою чи повторного встановлення застосунку.",
   "linkWithApple": "Перенести обліковий запис за допомогою Apple",
   "linkWithGoogle": "Перенести обліковий запис через Google",
-  "accountLinkedWithApple": "Пов’язано з Apple"
+  "accountLinkedWithApple": "Пов’язано з Apple",
+  "accountLinkedWithGoogle": "Пов’язано з Google"
 }

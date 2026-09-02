@@ -218,5 +218,6 @@
   "accountLinkDescription": "Genom att ansluta till Apple eller Google kan du överföra dina data även efter att du har bytt enhet eller installerat om appen.",
   "linkWithApple": "Överför konto med Apple",
   "linkWithGoogle": "Överför konto med Google",
-  "accountLinkedWithApple": "Kopplat till Apple"
+  "accountLinkedWithApple": "Kopplat till Apple",
+  "accountLinkedWithGoogle": "Länkat till Google"
 }

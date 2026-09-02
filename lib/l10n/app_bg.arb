@@ -218,5 +218,6 @@
   "accountLinkDescription": "Като свържете Apple или Google, можете да прехвърлите данните си дори след смяна на устройството или повторно инсталиране на приложението.",
   "linkWithApple": "Прехвърлете акаунта с Apple",
   "linkWithGoogle": "Прехвърлете акаунта с Google",
-  "accountLinkedWithApple": "Свързано с Apple"
+  "accountLinkedWithApple": "Свързано с Apple",
+  "accountLinkedWithGoogle": "Свързано с Google"
 }

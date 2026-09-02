@@ -218,5 +218,6 @@
   "accountLinkDescription": "Apple அல்லது Google உடன் இணைத்தால், சாதனத்தை மாற்றிய பிறகும் அல்லது செயலியை மீண்டும் நிறுவிய பிறகும் உங்கள் தரவை மாற்றிக்கொள்ளலாம்.",
   "linkWithApple": "Apple மூலம் கணக்கை மாற்றவும்",
   "linkWithGoogle": "Google மூலம் கணக்கை மாற்றவும்",
-  "accountLinkedWithApple": "Apple உடன் இணைக்கப்பட்டுள்ளது"
+  "accountLinkedWithApple": "Apple உடன் இணைக்கப்பட்டுள்ளது",
+  "accountLinkedWithGoogle": "Google உடன் இணைக்கப்பட்டது"
 }

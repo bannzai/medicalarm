@@ -218,5 +218,6 @@
   "accountLinkDescription": "เมื่อเชื่อมต่อกับ Apple หรือ Google คุณจะสามารถถ่ายโอนข้อมูลได้แม้เปลี่ยนอุปกรณ์หรือติดตั้งแอปใหม่",
   "linkWithApple": "โอนบัญชีด้วย Apple",
   "linkWithGoogle": "โอนบัญชีด้วย Google",
-  "accountLinkedWithApple": "เชื่อมโยงกับ Apple แล้ว"
+  "accountLinkedWithApple": "เชื่อมโยงกับ Apple แล้ว",
+  "accountLinkedWithGoogle": "เชื่อมโยงกับ Google แล้ว"
 }

@@ -218,5 +218,6 @@
   "accountLinkDescription": "Collegando Apple o Google, puoi trasferire i tuoi dati anche dopo aver cambiato dispositivo o reinstallato l’app.",
   "linkWithApple": "Trasferisci l’account con Apple",
   "linkWithGoogle": "Trasferisci l’account con Google",
-  "accountLinkedWithApple": "Collegato ad Apple"
+  "accountLinkedWithApple": "Collegato ad Apple",
+  "accountLinkedWithGoogle": "Collegato a Google"
 }

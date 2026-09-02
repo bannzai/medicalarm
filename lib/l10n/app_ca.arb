@@ -218,5 +218,6 @@
   "accountLinkDescription": "En vincular-te amb Apple o Google, podràs transferir les teves dades fins i tot després de canviar de dispositiu o reinstal·lar l’aplicació.",
   "linkWithApple": "Transfereix el compte amb Apple",
   "linkWithGoogle": "Transferir el compte amb Google",
-  "accountLinkedWithApple": "Enllaçat amb Apple"
+  "accountLinkedWithApple": "Enllaçat amb Apple",
+  "accountLinkedWithGoogle": "Enllaçat amb Google"
 }

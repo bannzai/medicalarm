@@ -218,5 +218,6 @@
   "accountLinkDescription": "Po połączeniu z Apple lub Google możesz przenieść swoje dane nawet po zmianie urządzenia lub ponownym zainstalowaniu aplikacji.",
   "linkWithApple": "Przenieś konto za pomocą Apple",
   "linkWithGoogle": "Przenieś konto za pomocą Google",
-  "accountLinkedWithApple": "Połączono z Apple"
+  "accountLinkedWithApple": "Połączono z Apple",
+  "accountLinkedWithGoogle": "Połączono z Google"
 }

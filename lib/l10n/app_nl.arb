@@ -218,5 +218,6 @@
   "accountLinkDescription": "Door Apple of Google te koppelen, kun je je gegevens ook overzetten nadat je van apparaat bent gewisseld of de app opnieuw hebt geïnstalleerd.",
   "linkWithApple": "Account overzetten met Apple",
   "linkWithGoogle": "Account overzetten met Google",
-  "accountLinkedWithApple": "Gekoppeld aan Apple"
+  "accountLinkedWithApple": "Gekoppeld aan Apple",
+  "accountLinkedWithGoogle": "Gekoppeld aan Google"
 }

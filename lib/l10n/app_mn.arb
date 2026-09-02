@@ -218,5 +218,6 @@
   "accountLinkDescription": "Apple эсвэл Google-тэй холбосноор төхөөрөмжөө сольсон эсвэл апп-ыг дахин суулгасны дараа ч өгөгдлөө шилжүүлэх боломжтой.",
   "linkWithApple": "Apple ашиглан бүртгэлээ шилжүүлэх",
   "linkWithGoogle": "Google ашиглан бүртгэлээ шилжүүлэх",
-  "accountLinkedWithApple": "Apple-тай холбогдсон"
+  "accountLinkedWithApple": "Apple-тай холбогдсон",
+  "accountLinkedWithGoogle": "Google-тэй холбогдсон"
 }

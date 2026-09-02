@@ -218,5 +218,6 @@
   "accountLinkDescription": "Apple या Google से कनेक्ट करने पर, डिवाइस बदलने या ऐप को फिर से इंस्टॉल करने के बाद भी आप अपना डेटा ट्रांसफ़र कर सकते हैं।",
   "linkWithApple": "Apple के ज़रिए अकाउंट ट्रांसफ़र करें",
   "linkWithGoogle": "Google से अकाउंट ट्रांसफ़र करें",
-  "accountLinkedWithApple": "Apple से लिंक है"
+  "accountLinkedWithApple": "Apple से लिंक है",
+  "accountLinkedWithGoogle": "Google से लिंक है"
 }
