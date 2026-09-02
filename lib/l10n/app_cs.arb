@@ -194,5 +194,6 @@
   "joinWithInvitationCode": "Připojit se pomocí zvacího kódu",
   "groupCreationLimitReached": "V bezplatném tarifu už nemůžete vytvářet další skupiny.",
   "increaseGroupLimitWithPremium": "Vytvářejte další skupiny s tarifem Premium",
-  "invitationCode": "Kód pozvánky"
+  "invitationCode": "Kód pozvánky",
+  "invitationCodeShareDescription": "Sdílením tohoto kódu můžete pozvat členy"
 }

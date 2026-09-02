@@ -194,5 +194,6 @@
   "joinWithInvitationCode": "Pridruži se pomoću pozivnog koda",
   "groupCreationLimitReached": "Na besplatnom planu ne možete kreirati više grupa.",
   "increaseGroupLimitWithPremium": "Kreirajte više grupa uz Premium plan",
-  "invitationCode": "Kod za pozivnicu"
+  "invitationCode": "Kod za pozivnicu",
+  "invitationCodeShareDescription": "Podijelite ovaj kôd da biste pozvali članove"
 }

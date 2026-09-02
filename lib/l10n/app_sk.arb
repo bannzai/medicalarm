@@ -194,5 +194,6 @@
   "joinWithInvitationCode": "Pripojiť sa pomocou pozývacieho kódu",
   "groupCreationLimitReached": "V bezplatnom programe už nemôžete vytvárať ďalšie skupiny.",
   "increaseGroupLimitWithPremium": "Vytvárajte ďalšie skupiny s programom Premium",
-  "invitationCode": "Kód pozvánky"
+  "invitationCode": "Kód pozvánky",
+  "invitationCodeShareDescription": "Zdieľajte tento kód a pozvite členov"
 }

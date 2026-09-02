@@ -194,5 +194,6 @@
   "joinWithInvitationCode": "Joyina ngekhodi yesimemo",
   "groupCreationLimitReached": "Awusakwazi ukudala amanye amaqembu ohlelweni lwamahhala.",
   "increaseGroupLimitWithPremium": "Dala amanye amaqembu ngohlelo lwe-Premium",
-  "invitationCode": "Ikhodi yesimemo"
+  "invitationCode": "Ikhodi yesimemo",
+  "invitationCodeShareDescription": "Yabelana ngale khodi ukuze umeme amalungu"
 }

@@ -194,5 +194,6 @@
   "joinWithInvitationCode": "Συμμετοχή με κωδικό πρόσκλησης",
   "groupCreationLimitReached": "Δεν μπορείτε να δημιουργήσετε άλλες ομάδες στο δωρεάν πρόγραμμα.",
   "increaseGroupLimitWithPremium": "Δημιουργήστε περισσότερες ομάδες με το πρόγραμμα Premium",
-  "invitationCode": "Κωδικός πρόσκλησης"
+  "invitationCode": "Κωδικός πρόσκλησης",
+  "invitationCodeShareDescription": "Μπορείτε να μοιραστείτε αυτόν τον κωδικό για να προσκαλέσετε μέλη"
 }

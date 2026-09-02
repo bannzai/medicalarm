@@ -194,5 +194,6 @@
   "joinWithInvitationCode": "Taka þátt með boðskóða",
   "groupCreationLimitReached": "Þú getur ekki búið til fleiri hópa með ókeypis áskriftinni.",
   "increaseGroupLimitWithPremium": "Búðu til fleiri hópa með Premium-áskrift",
-  "invitationCode": "Boðskóði"
+  "invitationCode": "Boðskóði",
+  "invitationCodeShareDescription": "Deildu þessum kóða til að bjóða meðlimum"
 }

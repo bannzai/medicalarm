@@ -194,5 +194,6 @@
   "joinWithInvitationCode": "Liitu kutsekoodiga",
   "groupCreationLimitReached": "Tasuta paketiga ei saa rohkem rühmi luua.",
   "increaseGroupLimitWithPremium": "Looge Premium-paketiga rohkem gruppe",
-  "invitationCode": "Kutsekood"
+  "invitationCode": "Kutsekood",
+  "invitationCodeShareDescription": "Liikmete kutsumiseks jaga seda koodi"
 }

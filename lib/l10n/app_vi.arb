@@ -194,5 +194,6 @@
   "joinWithInvitationCode": "Tham gia bằng mã lời mời",
   "groupCreationLimitReached": "Bạn không thể tạo thêm nhóm trong gói miễn phí.",
   "increaseGroupLimitWithPremium": "Tạo thêm nhóm với gói Premium",
-  "invitationCode": "Mã lời mời"
+  "invitationCode": "Mã lời mời",
+  "invitationCodeShareDescription": "Chia sẻ mã này để mời thành viên"
 }

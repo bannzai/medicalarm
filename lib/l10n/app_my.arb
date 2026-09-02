@@ -194,5 +194,6 @@
   "joinWithInvitationCode": "ဖိတ်ကြားကုဒ်ဖြင့် ပါဝင်ရန်",
   "groupCreationLimitReached": "အခမဲ့အစီအစဉ်တွင် အဖွဲ့များ ထပ်မံဖန်တီး၍ မရပါ။",
   "increaseGroupLimitWithPremium": "Premium အစီအစဉ်ဖြင့် အဖွဲ့များ ထပ်မံဖန်တီးပါ",
-  "invitationCode": "ဖိတ်ကြားမှုကုဒ်"
+  "invitationCode": "ဖိတ်ကြားမှုကုဒ်",
+  "invitationCodeShareDescription": "အဖွဲ့ဝင်များကို ဖိတ်ကြားရန် ဤကုဒ်ကို မျှဝေပါ"
 }

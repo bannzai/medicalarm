@@ -194,5 +194,6 @@
   "joinWithInvitationCode": "Урилгын кодоор нэгдэх",
   "groupCreationLimitReached": "Үнэгүй багцаар дахин бүлэг үүсгэх боломжгүй.",
   "increaseGroupLimitWithPremium": "Premium багцаар илүү олон бүлэг үүсгээрэй",
-  "invitationCode": "Урилгын код"
+  "invitationCode": "Урилгын код",
+  "invitationCodeShareDescription": "Гишүүдийг урих бол энэ кодыг хуваалцаарай"
 }

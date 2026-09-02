@@ -194,5 +194,6 @@
   "joinWithInvitationCode": "ਸੱਦਾ ਕੋਡ ਨਾਲ ਸ਼ਾਮਲ ਹੋਵੋ",
   "groupCreationLimitReached": "ਮੁਫ਼ਤ ਪਲਾਨ ਵਿੱਚ ਤੁਸੀਂ ਹੋਰ ਗਰੁੱਪ ਨਹੀਂ ਬਣਾ ਸਕਦੇ।",
   "increaseGroupLimitWithPremium": "Premium ਪਲਾਨ ਨਾਲ ਹੋਰ ਗਰੁੱਪ ਬਣਾਓ",
-  "invitationCode": "ਸੱਦਾ ਕੋਡ"
+  "invitationCode": "ਸੱਦਾ ਕੋਡ",
+  "invitationCodeShareDescription": "ਮੈਂਬਰਾਂ ਨੂੰ ਸੱਦਾ ਦੇਣ ਲਈ ਇਹ ਕੋਡ ਸਾਂਝਾ ਕਰੋ"
 }

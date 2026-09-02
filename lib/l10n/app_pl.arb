@@ -194,5 +194,6 @@
   "joinWithInvitationCode": "Dołącz za pomocą kodu zaproszenia",
   "groupCreationLimitReached": "W planie bezpłatnym nie możesz utworzyć więcej grup.",
   "increaseGroupLimitWithPremium": "Twórz więcej grup w planie Premium",
-  "invitationCode": "Kod zaproszenia"
+  "invitationCode": "Kod zaproszenia",
+  "invitationCodeShareDescription": "Udostępnij ten kod, aby zaprosić członków"
 }

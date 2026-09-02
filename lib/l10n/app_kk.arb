@@ -194,5 +194,6 @@
   "joinWithInvitationCode": "Шақыру кодымен қосылу",
   "groupCreationLimitReached": "Тегін жоспарда бұдан артық топ жасай алмайсыз.",
   "increaseGroupLimitWithPremium": "Premium жоспарымен көбірек топ жасаңыз",
-  "invitationCode": "Шақыру коды"
+  "invitationCode": "Шақыру коды",
+  "invitationCodeShareDescription": "Мүшелерді шақыру үшін осы кодты бөлісіңіз"
 }

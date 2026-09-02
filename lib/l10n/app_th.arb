@@ -194,5 +194,6 @@
   "joinWithInvitationCode": "เข้าร่วมด้วยรหัสคำเชิญ",
   "groupCreationLimitReached": "คุณไม่สามารถสร้างกลุ่มเพิ่มเติมได้ในแผนฟรี",
   "increaseGroupLimitWithPremium": "สร้างกลุ่มเพิ่มเติมด้วยแพ็กเกจ Premium",
-  "invitationCode": "รหัสเชิญ"
+  "invitationCode": "รหัสเชิญ",
+  "invitationCodeShareDescription": "แชร์รหัสนี้เพื่อเชิญสมาชิก"
 }

@@ -194,5 +194,6 @@
   "joinWithInvitationCode": "Deelnemen met uitnodigingscode",
   "groupCreationLimitReached": "Met het gratis abonnement kunt u geen groepen meer maken.",
   "increaseGroupLimitWithPremium": "Maak meer groepen aan met het Premium-abonnement",
-  "invitationCode": "Uitnodigingscode"
+  "invitationCode": "Uitnodigingscode",
+  "invitationCodeShareDescription": "Deel deze code om leden uit te nodigen"
 }

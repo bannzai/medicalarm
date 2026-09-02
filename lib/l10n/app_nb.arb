@@ -194,5 +194,6 @@
   "joinWithInvitationCode": "Bli med med invitasjonskode",
   "groupCreationLimitReached": "Du kan ikke opprette flere grupper med gratisabonnementet.",
   "increaseGroupLimitWithPremium": "Opprett flere grupper med Premium-planen",
-  "invitationCode": "Invitasjonskode"
+  "invitationCode": "Invitasjonskode",
+  "invitationCodeShareDescription": "Del denne koden for å invitere medlemmer"
 }

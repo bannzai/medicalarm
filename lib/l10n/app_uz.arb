@@ -194,5 +194,6 @@
   "joinWithInvitationCode": "Taklif kodi bilan qo‘shilish",
   "groupCreationLimitReached": "Bepul tarifda boshqa guruhlar yarata olmaysiz.",
   "increaseGroupLimitWithPremium": "Premium rejasi bilan ko‘proq guruh yarating",
-  "invitationCode": "Taklif kodi"
+  "invitationCode": "Taklif kodi",
+  "invitationCodeShareDescription": "Aʼzolarni taklif qilish uchun ushbu kodni ulashing"
 }

@@ -194,5 +194,6 @@
   "joinWithInvitationCode": "આમંત્રણ કોડથી જોડાઓ",
   "groupCreationLimitReached": "મફત પ્લાનમાં તમે વધુ ગ્રુપ બનાવી શકતા નથી.",
   "increaseGroupLimitWithPremium": "Premium પ્લાન સાથે વધુ જૂથો બનાવો",
-  "invitationCode": "આમંત્રણ કોડ"
+  "invitationCode": "આમંત્રણ કોડ",
+  "invitationCodeShareDescription": "સભ્યોને આમંત્રિત કરવા માટે આ કોડ શેર કરો"
 }

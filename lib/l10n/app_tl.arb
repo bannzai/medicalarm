@@ -194,5 +194,6 @@
   "joinWithInvitationCode": "Sumali gamit ang code ng imbitasyon",
   "groupCreationLimitReached": "Hindi ka na makakagawa ng higit pang grupo sa libreng plano.",
   "increaseGroupLimitWithPremium": "Gumawa ng higit pang grupo gamit ang Premium plan",
-  "invitationCode": "Code ng imbitasyon"
+  "invitationCode": "Code ng imbitasyon",
+  "invitationCodeShareDescription": "Ibahagi ang code na ito para mag-imbita ng mga miyembro"
 }

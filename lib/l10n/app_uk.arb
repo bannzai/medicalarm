@@ -194,5 +194,6 @@
   "joinWithInvitationCode": "Приєднатися за кодом запрошення",
   "groupCreationLimitReached": "У безкоштовному плані не можна створювати більше груп.",
   "increaseGroupLimitWithPremium": "Створюйте більше груп із планом Premium",
-  "invitationCode": "Код запрошення"
+  "invitationCode": "Код запрошення",
+  "invitationCodeShareDescription": "Поділіться цим кодом, щоб запросити учасників"
 }

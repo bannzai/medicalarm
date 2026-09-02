@@ -194,5 +194,6 @@
   "joinWithInvitationCode": "Jiunge kwa kutumia msimbo wa mwaliko",
   "groupCreationLimitReached": "Huwezi kuunda vikundi zaidi kwenye mpango wa bila malipo.",
   "increaseGroupLimitWithPremium": "Unda vikundi zaidi kwa mpango wa Premium",
-  "invitationCode": "Msimbo wa mwaliko"
+  "invitationCode": "Msimbo wa mwaliko",
+  "invitationCodeShareDescription": "Shiriki msimbo huu ili kuwaalika wanachama"
 }

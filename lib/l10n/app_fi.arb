@@ -194,5 +194,6 @@
   "joinWithInvitationCode": "Liity kutsukoodilla",
   "groupCreationLimitReached": "Et voi luoda enempää ryhmiä ilmaisella tilauksella.",
   "increaseGroupLimitWithPremium": "Luo lisää ryhmiä Premium-tilauksella",
-  "invitationCode": "Kutsukoodi"
+  "invitationCode": "Kutsukoodi",
+  "invitationCodeShareDescription": "Jaa tämä koodi kutsuaksesi jäseniä"
 }

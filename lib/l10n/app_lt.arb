@@ -194,5 +194,6 @@
   "joinWithInvitationCode": "Prisijungti naudojant kvietimo kodą",
   "groupCreationLimitReached": "Naudodami nemokamą planą nebegalite kurti daugiau grupių.",
   "increaseGroupLimitWithPremium": "Kurkite daugiau grupių su Premium planu",
-  "invitationCode": "Pakvietimo kodas"
+  "invitationCode": "Pakvietimo kodas",
+  "invitationCodeShareDescription": "Pasidalykite šiuo kodu, kad pakviestumėte narius"
 }

@@ -194,5 +194,6 @@
   "joinWithInvitationCode": "Alătură-te cu un cod de invitație",
   "groupCreationLimitReached": "Nu mai puteți crea grupuri în planul gratuit.",
   "increaseGroupLimitWithPremium": "Creează mai multe grupuri cu planul Premium",
-  "invitationCode": "Cod de invitație"
+  "invitationCode": "Cod de invitație",
+  "invitationCodeShareDescription": "Distribuiți acest cod pentru a invita membri"
 }

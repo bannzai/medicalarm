@@ -194,5 +194,6 @@
   "joinWithInvitationCode": "Gabung dengan kode undangan",
   "groupCreationLimitReached": "Anda tidak dapat membuat grup lagi dalam paket gratis.",
   "increaseGroupLimitWithPremium": "Buat grup tambahan dengan paket Premium",
-  "invitationCode": "Kode undangan"
+  "invitationCode": "Kode undangan",
+  "invitationCodeShareDescription": "Bagikan kode ini untuk mengundang anggota"
 }
