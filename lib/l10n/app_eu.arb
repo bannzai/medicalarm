@@ -279,5 +279,6 @@
   "onboardingPlanGeneratingAnalyzing": "Zure erantzunak aztertzen ari gara",
   "onboardingPlanGeneratingSchedule": "Zure jakinarazpen-plana prestatzen ari gara",
   "onboardingPlanGeneratingReady": "Prest dago.",
-  "onboardingPlanResultTitle": "Zure plan pertsonalizatua"
+  "onboardingPlanResultTitle": "Zure plan pertsonalizatua",
+  "onboardingPlanResultGoalFormat": "Helburua: {goal}"
 }

@@ -279,5 +279,6 @@
   "onboardingPlanGeneratingAnalyzing": "Analizujemy Twoje odpowiedzi",
   "onboardingPlanGeneratingSchedule": "Tworzymy Twój plan powiadomień",
   "onboardingPlanGeneratingReady": "Gotowe.",
-  "onboardingPlanResultTitle": "Twój spersonalizowany plan"
+  "onboardingPlanResultTitle": "Twój spersonalizowany plan",
+  "onboardingPlanResultGoalFormat": "Cel: {goal}"
 }

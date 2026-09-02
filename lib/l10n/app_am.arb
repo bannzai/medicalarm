@@ -279,5 +279,6 @@
   "onboardingPlanGeneratingAnalyzing": "የእርስዎ መልሶች እየተተነተኑ ነው",
   "onboardingPlanGeneratingSchedule": "የማሳወቂያ ዕቅድዎን እያዘጋጀን ነው",
   "onboardingPlanGeneratingReady": "ተዘጋጅቷል።",
-  "onboardingPlanResultTitle": "ለእርስዎ የተዘጋጀ ዕቅድ"
+  "onboardingPlanResultTitle": "ለእርስዎ የተዘጋጀ ዕቅድ",
+  "onboardingPlanResultGoalFormat": "Նպատակ: {goal}"
 }

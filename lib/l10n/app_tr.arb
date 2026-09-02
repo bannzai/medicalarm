@@ -279,5 +279,6 @@
   "onboardingPlanGeneratingAnalyzing": "Yanıtlarınız analiz ediliyor",
   "onboardingPlanGeneratingSchedule": "Bildirim planınızı oluşturuyoruz",
   "onboardingPlanGeneratingReady": "Hazır.",
-  "onboardingPlanResultTitle": "Size özel plan"
+  "onboardingPlanResultTitle": "Size özel plan",
+  "onboardingPlanResultGoalFormat": "Hedef: {goal}"
 }

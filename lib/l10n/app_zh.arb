@@ -279,5 +279,6 @@
   "onboardingPlanGeneratingAnalyzing": "正在分析您的回答",
   "onboardingPlanGeneratingSchedule": "正在制定您的通知计划",
   "onboardingPlanGeneratingReady": "已准备好",
-  "onboardingPlanResultTitle": "为你量身定制的计划"
+  "onboardingPlanResultTitle": "为你量身定制的计划",
+  "onboardingPlanResultGoalFormat": "目标：{goal}"
 }

@@ -279,5 +279,6 @@
   "onboardingPlanGeneratingAnalyzing": "Se analizează răspunsurile tale",
   "onboardingPlanGeneratingSchedule": "Vă creăm planul de notificări",
   "onboardingPlanGeneratingReady": "Gata.",
-  "onboardingPlanResultTitle": "Planul tău personalizat"
+  "onboardingPlanResultTitle": "Planul tău personalizat",
+  "onboardingPlanResultGoalFormat": "Obiectiv: {goal}"
 }

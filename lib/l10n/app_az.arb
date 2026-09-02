@@ -279,5 +279,6 @@
   "onboardingPlanGeneratingAnalyzing": "Cavablarınız təhlil edilir",
   "onboardingPlanGeneratingSchedule": "Bildiriş planınız hazırlanır",
   "onboardingPlanGeneratingReady": "Hazırdır.",
-  "onboardingPlanResultTitle": "Sizə özəl plan"
+  "onboardingPlanResultTitle": "Sizə özəl plan",
+  "onboardingPlanResultGoalFormat": "Məqsəd: {goal}"
 }

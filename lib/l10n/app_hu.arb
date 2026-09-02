@@ -279,5 +279,6 @@
   "onboardingPlanGeneratingAnalyzing": "Elemezzük a válaszait",
   "onboardingPlanGeneratingSchedule": "Összeállítjuk az értesítési tervedet",
   "onboardingPlanGeneratingReady": "Készen áll.",
-  "onboardingPlanResultTitle": "Személyre szabott terved"
+  "onboardingPlanResultTitle": "Személyre szabott terved",
+  "onboardingPlanResultGoalFormat": "Cél: {goal}"
 }

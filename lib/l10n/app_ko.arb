@@ -279,5 +279,6 @@
   "onboardingPlanGeneratingAnalyzing": "답변을 분석하고 있어요",
   "onboardingPlanGeneratingSchedule": "알림 플랜을 만들고 있어요",
   "onboardingPlanGeneratingReady": "준비가 완료되었습니다.",
-  "onboardingPlanResultTitle": "나만을 위한 플랜"
+  "onboardingPlanResultTitle": "나만을 위한 플랜",
+  "onboardingPlanResultGoalFormat": "목표: {goal}"
 }

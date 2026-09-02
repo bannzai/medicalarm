@@ -279,5 +279,6 @@
   "onboardingPlanGeneratingAnalyzing": "Po analizojmë përgjigjet tuaja",
   "onboardingPlanGeneratingSchedule": "Po krijojmë planin tuaj të njoftimeve",
   "onboardingPlanGeneratingReady": "Gati.",
-  "onboardingPlanResultTitle": "Plani juaj personal"
+  "onboardingPlanResultTitle": "Plani juaj personal",
+  "onboardingPlanResultGoalFormat": "Qëllimi: {goal}"
 }

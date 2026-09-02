@@ -279,5 +279,6 @@
   "onboardingPlanGeneratingAnalyzing": "თქვენი პასუხების ანალიზი მიმდინარეობს",
   "onboardingPlanGeneratingSchedule": "ვქმნით თქვენი შეტყობინებების გეგმას",
   "onboardingPlanGeneratingReady": "მზადაა.",
-  "onboardingPlanResultTitle": "თქვენი პერსონალური გეგმა"
+  "onboardingPlanResultTitle": "თქვენი პერსონალური გეგმა",
+  "onboardingPlanResultGoalFormat": "მიზანი: {goal}"
 }

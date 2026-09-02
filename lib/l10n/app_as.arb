@@ -279,5 +279,6 @@
   "onboardingPlanGeneratingAnalyzing": "আপোনাৰ উত্তৰসমূহ বিশ্লেষণ কৰা হৈছে",
   "onboardingPlanGeneratingSchedule": "আপোনাৰ জাননী পৰিকল্পনা প্ৰস্তুত কৰা হৈছে",
   "onboardingPlanGeneratingReady": "প্ৰস্তুত হৈছে",
-  "onboardingPlanResultTitle": "আপোনাৰ ব্যক্তিগত পৰিকল্পনা"
+  "onboardingPlanResultTitle": "আপোনাৰ ব্যক্তিগত পৰিকল্পনা",
+  "onboardingPlanResultGoalFormat": "লক্ষ্য: {goal}"
 }

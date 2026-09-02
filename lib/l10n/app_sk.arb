@@ -279,5 +279,6 @@
   "onboardingPlanGeneratingAnalyzing": "Analyzujeme vaše odpovede",
   "onboardingPlanGeneratingSchedule": "Vytvárame váš plán upozornení",
   "onboardingPlanGeneratingReady": "Je to pripravené.",
-  "onboardingPlanResultTitle": "Váš osobný plán"
+  "onboardingPlanResultTitle": "Váš osobný plán",
+  "onboardingPlanResultGoalFormat": "Cieľ: {goal}"
 }

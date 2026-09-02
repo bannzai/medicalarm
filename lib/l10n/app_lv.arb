@@ -279,5 +279,6 @@
   "onboardingPlanGeneratingAnalyzing": "Tiek analizētas jūsu atbildes",
   "onboardingPlanGeneratingSchedule": "Veidojam jūsu paziņojumu plānu",
   "onboardingPlanGeneratingReady": "Gatavs.",
-  "onboardingPlanResultTitle": "Jums pielāgots plāns"
+  "onboardingPlanResultTitle": "Jums pielāgots plāns",
+  "onboardingPlanResultGoalFormat": "Mērķis: {goal}"
 }

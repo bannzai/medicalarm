@@ -279,5 +279,6 @@
   "onboardingPlanGeneratingAnalyzing": "Javoblaringiz tahlil qilinmoqda",
   "onboardingPlanGeneratingSchedule": "Bildirishnomalar rejangiz tuzilmoqda",
   "onboardingPlanGeneratingReady": "Tayyor.",
-  "onboardingPlanResultTitle": "Siz uchun shaxsiy reja"
+  "onboardingPlanResultTitle": "Siz uchun shaxsiy reja",
+  "onboardingPlanResultGoalFormat": "Maqsad: {goal}"
 }

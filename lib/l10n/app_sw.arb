@@ -279,5 +279,6 @@
   "onboardingPlanGeneratingAnalyzing": "Tunachanganua majibu yako",
   "onboardingPlanGeneratingSchedule": "Tunaunda mpango wako wa arifa",
   "onboardingPlanGeneratingReady": "Iko tayari.",
-  "onboardingPlanResultTitle": "Mpango wako binafsi"
+  "onboardingPlanResultTitle": "Mpango wako binafsi",
+  "onboardingPlanResultGoalFormat": "Lengo: {goal}"
 }

@@ -279,5 +279,6 @@
   "onboardingPlanGeneratingAnalyzing": "Đang phân tích câu trả lời của bạn",
   "onboardingPlanGeneratingSchedule": "Đang tạo kế hoạch thông báo của bạn",
   "onboardingPlanGeneratingReady": "Đã sẵn sàng.",
-  "onboardingPlanResultTitle": "Kế hoạch dành riêng cho bạn"
+  "onboardingPlanResultTitle": "Kế hoạch dành riêng cho bạn",
+  "onboardingPlanResultGoalFormat": "Mục tiêu: {goal}"
 }

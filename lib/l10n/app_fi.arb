@@ -279,5 +279,6 @@
   "onboardingPlanGeneratingAnalyzing": "Vastauksiasi analysoidaan",
   "onboardingPlanGeneratingSchedule": "Luomme ilmoitussuunnitelmaasi",
   "onboardingPlanGeneratingReady": "Valmis.",
-  "onboardingPlanResultTitle": "Henkilökohtainen suunnitelmasi"
+  "onboardingPlanResultTitle": "Henkilökohtainen suunnitelmasi",
+  "onboardingPlanResultGoalFormat": "Tavoite: {goal}"
 }

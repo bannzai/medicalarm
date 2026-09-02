@@ -279,5 +279,6 @@
   "onboardingPlanGeneratingAnalyzing": "Antwoorde word ontleed",
   "onboardingPlanGeneratingSchedule": "Jou kennisgewingplan word saamgestel",
   "onboardingPlanGeneratingReady": "Alles is gereed.",
-  "onboardingPlanResultTitle": "Jou persoonlike plan"
+  "onboardingPlanResultTitle": "Jou persoonlike plan",
+  "onboardingPlanResultGoalFormat": "Doel: {goal}"
 }

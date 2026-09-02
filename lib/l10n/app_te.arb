@@ -279,5 +279,6 @@
   "onboardingPlanGeneratingAnalyzing": "మీ సమాధానాలను విశ్లేషిస్తున్నాం",
   "onboardingPlanGeneratingSchedule": "మీ నోటిఫికేషన్ ప్లాన్‌ను రూపొందిస్తున్నాం",
   "onboardingPlanGeneratingReady": "సిద్ధంగా ఉంది.",
-  "onboardingPlanResultTitle": "మీ కోసం వ్యక్తిగతీకరించిన ప్లాన్"
+  "onboardingPlanResultTitle": "మీ కోసం వ్యక్తిగతీకరించిన ప్లాన్",
+  "onboardingPlanResultGoalFormat": "లక్ష్యం: {goal}"
 }

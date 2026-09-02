@@ -279,5 +279,6 @@
   "onboardingPlanGeneratingAnalyzing": "Αναλύουμε τις απαντήσεις σας",
   "onboardingPlanGeneratingSchedule": "Δημιουργούμε το πλάνο ειδοποιήσεών σας",
   "onboardingPlanGeneratingReady": "Είναι έτοιμο.",
-  "onboardingPlanResultTitle": "Το προσωπικό σας πλάνο"
+  "onboardingPlanResultTitle": "Το προσωπικό σας πλάνο",
+  "onboardingPlanResultGoalFormat": "Στόχος: {goal}"
 }

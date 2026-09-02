@@ -279,5 +279,6 @@
   "onboardingPlanGeneratingAnalyzing": "S'estan analitzant les teves respostes",
   "onboardingPlanGeneratingSchedule": "Estem preparant el teu pla de notificacions",
   "onboardingPlanGeneratingReady": "Ja està preparat.",
-  "onboardingPlanResultTitle": "El teu pla personalitzat"
+  "onboardingPlanResultTitle": "El teu pla personalitzat",
+  "onboardingPlanResultGoalFormat": "Objectiu: {goal}"
 }

@@ -279,5 +279,6 @@
   "onboardingPlanGeneratingAnalyzing": "Ihlaziya izimpendulo zakho",
   "onboardingPlanGeneratingSchedule": "Sakha uhlelo lwakho lwezaziso",
   "onboardingPlanGeneratingReady": "Konke sekumi ngomumo.",
-  "onboardingPlanResultTitle": "Uhlelo lwakho lomuntu siqu"
+  "onboardingPlanResultTitle": "Uhlelo lwakho lomuntu siqu",
+  "onboardingPlanResultGoalFormat": "Umgomo: {goal}"
 }

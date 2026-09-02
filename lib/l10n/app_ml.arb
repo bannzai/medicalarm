@@ -279,5 +279,6 @@
   "onboardingPlanGeneratingAnalyzing": "നിങ്ങളുടെ ഉത്തരങ്ങൾ വിശകലനം ചെയ്യുന്നു",
   "onboardingPlanGeneratingSchedule": "നിങ്ങളുടെ അറിയിപ്പ് പ്ലാൻ തയ്യാറാക്കുന്നു",
   "onboardingPlanGeneratingReady": "തയ്യാറായി.",
-  "onboardingPlanResultTitle": "നിങ്ങൾക്കായി വ്യക്തിഗതമാക്കിയ പ്ലാൻ"
+  "onboardingPlanResultTitle": "നിങ്ങൾക്കായി വ്യക്തിഗതമാക്കിയ പ്ലാൻ",
+  "onboardingPlanResultGoalFormat": "ലക്ഷ്യം: {goal}"
 }

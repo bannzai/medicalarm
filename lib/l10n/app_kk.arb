@@ -279,5 +279,6 @@
   "onboardingPlanGeneratingAnalyzing": "Жауаптарыңыз талдануда",
   "onboardingPlanGeneratingSchedule": "Хабарландырулар жоспарыңыз жасалуда",
   "onboardingPlanGeneratingReady": "Дайын.",
-  "onboardingPlanResultTitle": "Сізге арналған жеке жоспар"
+  "onboardingPlanResultTitle": "Сізге арналған жеке жоспар",
+  "onboardingPlanResultGoalFormat": "Мақсат: {goal}"
 }

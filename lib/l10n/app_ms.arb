@@ -279,5 +279,6 @@
   "onboardingPlanGeneratingAnalyzing": "Jawapan anda sedang dianalisis",
   "onboardingPlanGeneratingSchedule": "Kami sedang menyediakan pelan pemberitahuan anda",
   "onboardingPlanGeneratingReady": "Sedia.",
-  "onboardingPlanResultTitle": "Pelan peribadi anda"
+  "onboardingPlanResultTitle": "Pelan peribadi anda",
+  "onboardingPlanResultGoalFormat": "Matlamat: {goal}"
 }

@@ -279,5 +279,6 @@
   "onboardingPlanGeneratingAnalyzing": "ກຳລັງວິເຄາະຄຳຕອບຂອງທ່ານ",
   "onboardingPlanGeneratingSchedule": "ກຳລັງຈັດທຳແຜນການແຈ້ງເຕືອນຂອງທ່ານ",
   "onboardingPlanGeneratingReady": "ພ້ອມແລ້ວ.",
-  "onboardingPlanResultTitle": "ແຜນການສະເພາະຂອງທ່ານ"
+  "onboardingPlanResultTitle": "ແຜນການສະເພາະຂອງທ່ານ",
+  "onboardingPlanResultGoalFormat": "ເປົ້າໝາຍ: {goal}"
 }

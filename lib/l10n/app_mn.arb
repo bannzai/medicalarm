@@ -279,5 +279,6 @@
   "onboardingPlanGeneratingAnalyzing": "Таны хариултуудыг шинжилж байна",
   "onboardingPlanGeneratingSchedule": "Таны мэдэгдлийн төлөвлөгөөг боловсруулж байна",
   "onboardingPlanGeneratingReady": "Бэлэн боллоо.",
-  "onboardingPlanResultTitle": "Танд зориулсан хувийн төлөвлөгөө"
+  "onboardingPlanResultTitle": "Танд зориулсан хувийн төлөвлөгөө",
+  "onboardingPlanResultGoalFormat": "Зорилго: {goal}"
 }

@@ -279,5 +279,6 @@
   "onboardingPlanGeneratingAnalyzing": "Ձեր պատասխանները վերլուծվում են",
   "onboardingPlanGeneratingSchedule": "Կազմում ենք ձեր ծանուցումների պլանը",
   "onboardingPlanGeneratingReady": "Պատրաստ է։",
-  "onboardingPlanResultTitle": "Ձեր անհատական ծրագիրը"
+  "onboardingPlanResultTitle": "Ձեր անհատական ծրագիրը",
+  "onboardingPlanResultGoalFormat": "Նպատակ՝ {goal}"
 }

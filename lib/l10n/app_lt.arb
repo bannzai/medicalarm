@@ -279,5 +279,6 @@
   "onboardingPlanGeneratingAnalyzing": "Analizuojame jūsų atsakymus",
   "onboardingPlanGeneratingSchedule": "Kuriame jūsų pranešimų planą",
   "onboardingPlanGeneratingReady": "Paruošta.",
-  "onboardingPlanResultTitle": "Jums pritaikytas planas"
+  "onboardingPlanResultTitle": "Jums pritaikytas planas",
+  "onboardingPlanResultGoalFormat": "Tikslas: {goal}"
 }

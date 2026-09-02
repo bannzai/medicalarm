@@ -279,5 +279,6 @@
   "onboardingPlanGeneratingAnalyzing": "Dina svar analyseras",
   "onboardingPlanGeneratingSchedule": "Vi skapar din aviseringsplan",
   "onboardingPlanGeneratingReady": "Klart.",
-  "onboardingPlanResultTitle": "Din personliga plan"
+  "onboardingPlanResultTitle": "Din personliga plan",
+  "onboardingPlanResultGoalFormat": "Mål: {goal}"
 }

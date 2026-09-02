@@ -279,5 +279,6 @@
   "onboardingPlanGeneratingAnalyzing": "Svörin þín eru greind",
   "onboardingPlanGeneratingSchedule": "Við erum að setja saman tilkynningaáætlunina þína",
   "onboardingPlanGeneratingReady": "Tilbúið.",
-  "onboardingPlanResultTitle": "Þín persónulega áætlun"
+  "onboardingPlanResultTitle": "Þín persónulega áætlun",
+  "onboardingPlanResultGoalFormat": "Markmið: {goal}"
 }

@@ -279,5 +279,6 @@
   "onboardingPlanGeneratingAnalyzing": "Estamos a analizar as túas respostas",
   "onboardingPlanGeneratingSchedule": "Estamos creando o teu plan de notificacións",
   "onboardingPlanGeneratingReady": "Xa está listo.",
-  "onboardingPlanResultTitle": "O teu plan personalizado"
+  "onboardingPlanResultTitle": "O teu plan personalizado",
+  "onboardingPlanResultGoalFormat": "Obxectivo: {goal}"
 }

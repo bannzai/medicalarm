@@ -279,5 +279,6 @@
   "onboardingPlanGeneratingAnalyzing": "သင့်အဖြေများကို ခွဲခြမ်းစိတ်ဖြာနေပါသည်",
   "onboardingPlanGeneratingSchedule": "သင့်အသိပေးချက်အစီအစဉ်ကို ပြင်ဆင်နေပါသည်",
   "onboardingPlanGeneratingReady": "အသင့်ဖြစ်ပါပြီ။",
-  "onboardingPlanResultTitle": "သင့်အတွက် ကိုယ်ပိုင်အစီအစဉ်"
+  "onboardingPlanResultTitle": "သင့်အတွက် ကိုယ်ပိုင်အစီအစဉ်",
+  "onboardingPlanResultGoalFormat": "ပန်းတိုင်: {goal}"
 }

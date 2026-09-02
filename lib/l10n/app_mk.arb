@@ -279,5 +279,6 @@
   "onboardingPlanGeneratingAnalyzing": "Ги анализираме вашите одговори",
   "onboardingPlanGeneratingSchedule": "Го подготвуваме вашиот план за известувања",
   "onboardingPlanGeneratingReady": "Подготвено е.",
-  "onboardingPlanResultTitle": "Вашиот персонализиран план"
+  "onboardingPlanResultTitle": "Вашиот персонализиран план",
+  "onboardingPlanResultGoalFormat": "Цел: {goal}"
 }

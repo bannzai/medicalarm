@@ -279,5 +279,6 @@
   "onboardingPlanGeneratingAnalyzing": "جارٍ تحليل إجاباتك",
   "onboardingPlanGeneratingSchedule": "جارٍ إعداد خطة الإشعارات",
   "onboardingPlanGeneratingReady": "تم الإعداد.",
-  "onboardingPlanResultTitle": "خطتك الشخصية"
+  "onboardingPlanResultTitle": "خطتك الشخصية",
+  "onboardingPlanResultGoalFormat": "الهدف: {goal}"
 }

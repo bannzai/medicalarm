@@ -279,5 +279,6 @@
   "onboardingPlanGeneratingAnalyzing": "Sinusuri namin ang iyong mga sagot",
   "onboardingPlanGeneratingSchedule": "Binubuo ang iyong plano ng mga notification",
   "onboardingPlanGeneratingReady": "Handa na.",
-  "onboardingPlanResultTitle": "Ang iyong personal na plano"
+  "onboardingPlanResultTitle": "Ang iyong personal na plano",
+  "onboardingPlanResultGoalFormat": "Layunin: {goal}"
 }

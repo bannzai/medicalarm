@@ -279,5 +279,6 @@
   "onboardingPlanGeneratingAnalyzing": "તમારા જવાબોનું વિશ્લેષણ થઈ રહ્યું છે",
   "onboardingPlanGeneratingSchedule": "તમારી સૂચના યોજના તૈયાર કરી રહ્યા છીએ",
   "onboardingPlanGeneratingReady": "તૈયાર છે.",
-  "onboardingPlanResultTitle": "તમારા માટે વ્યક્તિગત પ્લાન"
+  "onboardingPlanResultTitle": "તમારા માટે વ્યક્તિગત પ્લાન",
+  "onboardingPlanResultGoalFormat": "લક્ષ્ય: {goal}"
 }
