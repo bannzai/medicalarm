@@ -209,5 +209,6 @@
   "youLabel": "شما",
   "removeMemberConfirmTitle": "عضو حذف شود؟",
   "removeMemberConfirmMessage": "حذف {name} از گروه",
-  "joinGroup": "پیوستن به گروه"
+  "joinGroup": "پیوستن به گروه",
+  "invitationCodeInputLabel": "کد دعوت (۸ نویسه)"
 }

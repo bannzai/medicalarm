@@ -209,5 +209,6 @@
   "youLabel": "Jūs",
   "removeMemberConfirmTitle": "Pašalinti narį?",
   "removeMemberConfirmMessage": "Pašalinti {name} iš grupės",
-  "joinGroup": "Prisijungti prie grupės"
+  "joinGroup": "Prisijungti prie grupės",
+  "invitationCodeInputLabel": "Pakvietimo kodas (8 simboliai)"
 }

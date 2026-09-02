@@ -209,5 +209,6 @@
   "youLabel": "Сиз",
   "removeMemberConfirmTitle": "Мүчөнү өчүрөсүзбү?",
   "removeMemberConfirmMessage": "{name} топтон чыгарылат",
-  "joinGroup": "Топко кошулуу"
+  "joinGroup": "Топко кошулуу",
+  "invitationCodeInputLabel": "Чакыруу коду (8 белги)"
 }

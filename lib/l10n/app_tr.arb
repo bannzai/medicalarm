@@ -209,5 +209,6 @@
   "youLabel": "Siz",
   "removeMemberConfirmTitle": "Üye kaldırılsın mı?",
   "removeMemberConfirmMessage": "{name} gruptan kaldırılacak",
-  "joinGroup": "Gruba katıl"
+  "joinGroup": "Gruba katıl",
+  "invitationCodeInputLabel": "Davet kodu (8 karakter)"
 }

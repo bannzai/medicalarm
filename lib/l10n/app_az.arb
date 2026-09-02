@@ -209,5 +209,6 @@
   "youLabel": "Siz",
   "removeMemberConfirmTitle": "Üzv silinsin?",
   "removeMemberConfirmMessage": "{name} qrupdan silinəcək",
-  "joinGroup": "Qrupa qoşul"
+  "joinGroup": "Qrupa qoşul",
+  "invitationCodeInputLabel": "Dəvət kodu (8 simvol)"
 }

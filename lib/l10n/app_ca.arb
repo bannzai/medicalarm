@@ -209,5 +209,6 @@
   "youLabel": "Tu",
   "removeMemberConfirmTitle": "Vols suprimir el membre?",
   "removeMemberConfirmMessage": "Suprimir {name} del grup",
-  "joinGroup": "Uneix-te a un grup"
+  "joinGroup": "Uneix-te a un grup",
+  "invitationCodeInputLabel": "Codi d'invitació (8 caràcters)"
 }

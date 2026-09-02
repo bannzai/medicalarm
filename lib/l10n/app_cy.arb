@@ -209,5 +209,6 @@
   "youLabel": "Chi",
   "removeMemberConfirmTitle": "Dileu dileu’r aelod?",
   "removeMemberConfirmMessage": "Tynnu {name} o'r grŵp",
-  "joinGroup": "Ymuno â grŵp"
+  "joinGroup": "Ymuno â grŵp",
+  "invitationCodeInputLabel": "Cod gwahoddiad (8 nod)"
 }

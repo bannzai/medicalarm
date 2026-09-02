@@ -209,5 +209,6 @@
   "youLabel": "Сіз",
   "removeMemberConfirmTitle": "Мүшені жою керек пе?",
   "removeMemberConfirmMessage": "{name} топтан жойылады",
-  "joinGroup": "Топқа қосылу"
+  "joinGroup": "Топқа қосылу",
+  "invitationCodeInputLabel": "Шақыру коды (8 таңба)"
 }

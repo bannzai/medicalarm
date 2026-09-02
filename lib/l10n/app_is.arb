@@ -209,5 +209,6 @@
   "youLabel": "Þú",
   "removeMemberConfirmTitle": "Fjarlægja meðlim?",
   "removeMemberConfirmMessage": "Fjarlægja {name} úr hópnum",
-  "joinGroup": "Skrá sig í hóp"
+  "joinGroup": "Skrá sig í hóp",
+  "invitationCodeInputLabel": "Boðskóði (8 stafir)"
 }

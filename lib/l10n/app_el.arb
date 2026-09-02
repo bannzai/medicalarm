@@ -209,5 +209,6 @@
   "youLabel": "Εσείς",
   "removeMemberConfirmTitle": "Θέλετε να καταργήσετε το μέλος;",
   "removeMemberConfirmMessage": "Αφαίρεση του {name} από την ομάδα",
-  "joinGroup": "Συμμετοχή σε ομάδα"
+  "joinGroup": "Συμμετοχή σε ομάδα",
+  "invitationCodeInputLabel": "Κωδικός πρόσκλησης (8 χαρακτήρες)"
 }

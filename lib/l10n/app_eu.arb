@@ -209,5 +209,6 @@
   "youLabel": "Zu",
   "removeMemberConfirmTitle": "Kidea kendu nahi duzu?",
   "removeMemberConfirmMessage": "{name} taldetik kentzea",
-  "joinGroup": "Taldearekin bat egin"
+  "joinGroup": "Taldearekin bat egin",
+  "invitationCodeInputLabel": "Gonbidapen-kodea (8 karaktere)"
 }

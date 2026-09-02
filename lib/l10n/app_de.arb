@@ -209,5 +209,6 @@
   "youLabel": "Du",
   "removeMemberConfirmTitle": "Möchten Sie das Mitglied entfernen?",
   "removeMemberConfirmMessage": "{name} aus der Gruppe entfernen",
-  "joinGroup": "Einer Gruppe beitreten"
+  "joinGroup": "Einer Gruppe beitreten",
+  "invitationCodeInputLabel": "Einladungscode (8 Zeichen)"
 }

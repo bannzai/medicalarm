@@ -209,5 +209,6 @@
   "youLabel": "நீங்கள்",
   "removeMemberConfirmTitle": "உறுப்பினரை அகற்றவா?",
   "removeMemberConfirmMessage": "குழுவிலிருந்து {name} ஐ அகற்றவும்",
-  "joinGroup": "குழுவில் சேரவும்"
+  "joinGroup": "குழுவில் சேரவும்",
+  "invitationCodeInputLabel": "அழைப்புக் குறியீடு (8 எழுத்துகள்)"
 }

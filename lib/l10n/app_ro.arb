@@ -209,5 +209,6 @@
   "youLabel": "Tu",
   "removeMemberConfirmTitle": "Doriți să eliminați membrul?",
   "removeMemberConfirmMessage": "Elimină {name} din grup",
-  "joinGroup": "Alătură-te unui grup"
+  "joinGroup": "Alătură-te unui grup",
+  "invitationCodeInputLabel": "Cod de invitație (8 caractere)"
 }

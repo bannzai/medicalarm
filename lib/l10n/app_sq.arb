@@ -209,5 +209,6 @@
   "youLabel": "Ju",
   "removeMemberConfirmTitle": "Të hiqet anëtari?",
   "removeMemberConfirmMessage": "Hiq {name} nga grupi",
-  "joinGroup": "Bashkohu në një grup"
+  "joinGroup": "Bashkohu në një grup",
+  "invitationCodeInputLabel": "Kodi i ftesës (8 karaktere)"
 }

@@ -209,5 +209,6 @@
   "youLabel": "Bạn",
   "removeMemberConfirmTitle": "Bạn có muốn xóa thành viên không?",
   "removeMemberConfirmMessage": "Xóa {name} khỏi nhóm",
-  "joinGroup": "Tham gia nhóm"
+  "joinGroup": "Tham gia nhóm",
+  "invitationCodeInputLabel": "Mã lời mời (8 ký tự)"
 }

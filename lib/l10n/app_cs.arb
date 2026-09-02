@@ -209,5 +209,6 @@
   "youLabel": "Vy",
   "removeMemberConfirmTitle": "Chcete odebrat člena?",
   "removeMemberConfirmMessage": "Odebrat {name} ze skupiny",
-  "joinGroup": "Připojit se ke skupině"
+  "joinGroup": "Připojit se ke skupině",
+  "invitationCodeInputLabel": "Pozvánkový kód (8 znaků)"
 }

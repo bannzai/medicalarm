@@ -209,5 +209,6 @@
   "youLabel": "Ви",
   "removeMemberConfirmTitle": "Уклонити члана?",
   "removeMemberConfirmMessage": "Уклонити {name} из групе",
-  "joinGroup": "Придружи се групи"
+  "joinGroup": "Придружи се групи",
+  "invitationCodeInputLabel": "Код позивнице (8 знакова)"
 }

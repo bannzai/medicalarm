@@ -209,5 +209,6 @@
   "youLabel": "നിങ്ങൾ",
   "removeMemberConfirmTitle": "അംഗത്തെ നീക്കം ചെയ്യണോ?",
   "removeMemberConfirmMessage": "{name}-നെ ഗ്രൂപ്പിൽ നിന്ന് നീക്കം ചെയ്യുക",
-  "joinGroup": "ഗ്രൂപ്പിൽ ചേരുക"
+  "joinGroup": "ഗ്രൂപ്പിൽ ചേരുക",
+  "invitationCodeInputLabel": "ക്ഷണ കോഡ് (8 അക്ഷരങ്ങൾ)"
 }

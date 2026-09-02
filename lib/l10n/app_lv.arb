@@ -209,5 +209,6 @@
   "youLabel": "Jūs",
   "removeMemberConfirmTitle": "Vai noņemt dalībnieku?",
   "removeMemberConfirmMessage": "Noņemt {name} no grupas",
-  "joinGroup": "Pievienoties grupai"
+  "joinGroup": "Pievienoties grupai",
+  "invitationCodeInputLabel": "Uzaicinājuma kods (8 rakstzīmes)"
 }

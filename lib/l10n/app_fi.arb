@@ -209,5 +209,6 @@
   "youLabel": "Sinä",
   "removeMemberConfirmTitle": "Poistetaanko jäsen?",
   "removeMemberConfirmMessage": "Poistetaan {name} ryhmästä",
-  "joinGroup": "Liity ryhmään"
+  "joinGroup": "Liity ryhmään",
+  "invitationCodeInputLabel": "Kutsukoodi (8 merkkiä)"
 }

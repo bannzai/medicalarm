@@ -209,5 +209,6 @@
   "youLabel": "તમે",
   "removeMemberConfirmTitle": "સભ્યને દૂર કરવા માંગો છો?",
   "removeMemberConfirmMessage": "{name}ને ગ્રુપમાંથી દૂર કરવામાં આવશે",
-  "joinGroup": "જૂથમાં જોડાઓ"
+  "joinGroup": "જૂથમાં જોડાઓ",
+  "invitationCodeInputLabel": "આમંત્રણ કોડ (8 અક્ષરો)"
 }

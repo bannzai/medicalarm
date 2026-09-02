@@ -209,5 +209,6 @@
   "youLabel": "మీరు",
   "removeMemberConfirmTitle": "సభ్యుడిని తీసివేయాలా?",
   "removeMemberConfirmMessage": "గ్రూప్ నుండి {name}ని తీసివేయండి",
-  "joinGroup": "సమూహంలో చేరండి"
+  "joinGroup": "సమూహంలో చేరండి",
+  "invitationCodeInputLabel": "ఆహ్వాన కోడ్ (8 అక్షరాలు)"
 }

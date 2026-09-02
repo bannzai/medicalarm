@@ -209,5 +209,6 @@
   "youLabel": "Та",
   "removeMemberConfirmTitle": "Гишүүнийг хасах уу?",
   "removeMemberConfirmMessage": "{name}-г бүлгээс хасна",
-  "joinGroup": "Бүлэгт нэгдэх"
+  "joinGroup": "Бүлэгт нэгдэх",
+  "invitationCodeInputLabel": "Урилгын код (8 тэмдэгт)"
 }

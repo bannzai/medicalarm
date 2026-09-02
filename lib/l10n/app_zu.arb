@@ -209,5 +209,6 @@
   "youLabel": "Wena",
   "removeMemberConfirmTitle": "Uyafuna ukususa ilungu?",
   "removeMemberConfirmMessage": "Susa u-{name} eqenjini",
-  "joinGroup": "Joyina iqembu"
+  "joinGroup": "Joyina iqembu",
+  "invitationCodeInputLabel": "Ikhodi yesimemo (izinhlamvu ezingu-8)"
 }

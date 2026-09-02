@@ -209,5 +209,6 @@
   "youLabel": "Вы",
   "removeMemberConfirmTitle": "Выдаліць удзельніка?",
   "removeMemberConfirmMessage": "{name} будзе выдалены з групы",
-  "joinGroup": "Далучыцца да групы"
+  "joinGroup": "Далучыцца да групы",
+  "invitationCodeInputLabel": "Код запрашэння (8 сімвалаў)"
 }

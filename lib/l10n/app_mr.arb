@@ -209,5 +209,6 @@
   "youLabel": "तुम्ही",
   "removeMemberConfirmTitle": "सदस्य काढायचा का?",
   "removeMemberConfirmMessage": "{name} ला ग्रुपमधून काढले जाईल",
-  "joinGroup": "गटात सामील व्हा"
+  "joinGroup": "गटात सामील व्हा",
+  "invitationCodeInputLabel": "आमंत्रण कोड (८ अक्षरे)"
 }

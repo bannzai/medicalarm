@@ -209,5 +209,6 @@
   "youLabel": "Vi",
   "removeMemberConfirmTitle": "Želite li ukloniti člana?",
   "removeMemberConfirmMessage": "Uklanjanje člana {name} iz grupe",
-  "joinGroup": "Pridruži se grupi"
+  "joinGroup": "Pridruži se grupi",
+  "invitationCodeInputLabel": "Pozivni kod (8 znakova)"
 }

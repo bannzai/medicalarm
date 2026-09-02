@@ -209,5 +209,6 @@
   "youLabel": "나",
   "removeMemberConfirmTitle": "멤버를 삭제하시겠습니까?",
   "removeMemberConfirmMessage": "{name}님을 그룹에서 삭제합니다",
-  "joinGroup": "그룹 참여"
+  "joinGroup": "그룹 참여",
+  "invitationCodeInputLabel": "초대 코드(8자)"
 }

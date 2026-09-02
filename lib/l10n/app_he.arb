@@ -209,5 +209,6 @@
   "youLabel": "את/ה",
   "removeMemberConfirmTitle": "להסיר את החבר?",
   "removeMemberConfirmMessage": "הסרת {name} מהקבוצה",
-  "joinGroup": "הצטרפות לקבוצה"
+  "joinGroup": "הצטרפות לקבוצה",
+  "invitationCodeInputLabel": "קוד הזמנה (8 תווים)"
 }

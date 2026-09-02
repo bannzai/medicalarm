@@ -209,5 +209,6 @@
   "youLabel": "Siz",
   "removeMemberConfirmTitle": "Aʼzoni olib tashlaysizmi?",
   "removeMemberConfirmMessage": "{name} guruhdan olib tashlanadi",
-  "joinGroup": "Guruhga qo‘shilish"
+  "joinGroup": "Guruhga qo‘shilish",
+  "invitationCodeInputLabel": "Taklif kodi (8 ta belgi)"
 }

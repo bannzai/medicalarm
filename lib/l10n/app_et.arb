@@ -209,5 +209,6 @@
   "youLabel": "Sina",
   "removeMemberConfirmTitle": "Kas eemaldada liige?",
   "removeMemberConfirmMessage": "Eemalda {name} grupist",
-  "joinGroup": "Liitu grupiga"
+  "joinGroup": "Liitu grupiga",
+  "invitationCodeInputLabel": "Kutsekood (8 märki)"
 }

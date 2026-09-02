@@ -209,5 +209,6 @@
   "youLabel": "እርስዎ",
   "removeMemberConfirmTitle": "አባሉን ማስወገድ ይፈልጋሉ?",
   "removeMemberConfirmMessage": "{name}ን ከቡድኑ ያስወግዱ",
-  "joinGroup": "ቡድኑን ይቀላቀሉ"
+  "joinGroup": "ቡድኑን ይቀላቀሉ",
+  "invitationCodeInputLabel": "የግብዣ ኮድ (8 ቁምፊዎች)"
 }

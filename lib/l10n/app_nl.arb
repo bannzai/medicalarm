@@ -209,5 +209,6 @@
   "youLabel": "Jij",
   "removeMemberConfirmTitle": "Lid verwijderen?",
   "removeMemberConfirmMessage": "{name} uit de groep verwijderen",
-  "joinGroup": "Deelnemen aan een groep"
+  "joinGroup": "Deelnemen aan een groep",
+  "invitationCodeInputLabel": "Uitnodigingscode (8 tekens)"
 }

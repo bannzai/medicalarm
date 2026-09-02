@@ -209,5 +209,6 @@
   "youLabel": "Du",
   "removeMemberConfirmTitle": "Vil du fjerne medlemmet?",
   "removeMemberConfirmMessage": "Fjern {name} fra gruppen",
-  "joinGroup": "Bli med i en gruppe"
+  "joinGroup": "Bli med i en gruppe",
+  "invitationCodeInputLabel": "Invitasjonskode (8 tegn)"
 }

@@ -209,5 +209,6 @@
   "youLabel": "คุณ",
   "removeMemberConfirmTitle": "ต้องการลบสมาชิกหรือไม่",
   "removeMemberConfirmMessage": "นำ {name} ออกจากกลุ่ม",
-  "joinGroup": "เข้าร่วมกลุ่ม"
+  "joinGroup": "เข้าร่วมกลุ่ม",
+  "invitationCodeInputLabel": "รหัสคำเชิญ (8 อักขระ)"
 }
