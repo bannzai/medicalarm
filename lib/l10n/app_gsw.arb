@@ -271,5 +271,6 @@
   "onboardingAfterItemRecord": "D’Ufzeichnige bliibe gspeicheret und chöi sofort überprüeft werde",
   "onboardingAfterItemFamily": "D’Medikamentenstatus vo Ihrer Familie uf e Blick gseh",
   "onboardingGoalTitle": "Lege dis Ziel fest",
-  "onboardingGoalSubtitle": "Dis Ziel wird in dim Plan berücksichtigt"
+  "onboardingGoalSubtitle": "Dis Ziel wird in dim Plan berücksichtigt",
+  "onboardingGoalZeroMissed": "Kei Dosis vergässe"
 }

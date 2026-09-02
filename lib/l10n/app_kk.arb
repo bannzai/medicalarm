@@ -271,5 +271,6 @@
   "onboardingAfterItemRecord": "Жазбалар сақталады және оларды бірден тексеруге болады",
   "onboardingAfterItemFamily": "Отбасыңыздың дәрі қабылдау жағдайын да бір қарағанда көріңіз",
   "onboardingGoalTitle": "Мақсатыңызды анықтаңыз",
-  "onboardingGoalSubtitle": "Мақсатыңыз жоспарыңызда ескеріледі"
+  "onboardingGoalSubtitle": "Мақсатыңыз жоспарыңызда ескеріледі",
+  "onboardingGoalZeroMissed": "Бірде-бір дозаны өткізіп алмау"
 }

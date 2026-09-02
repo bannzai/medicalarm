@@ -271,5 +271,6 @@
   "onboardingAfterItemRecord": "Kayıtlar saklanır ve hemen kontrol edilebilir",
   "onboardingAfterItemFamily": "Ailenizin ilaç alma durumunu da bir bakışta görün",
   "onboardingGoalTitle": "Hedefinizi belirleyin",
-  "onboardingGoalSubtitle": "Hedefiniz planınıza yansıtılacak"
+  "onboardingGoalSubtitle": "Hedefiniz planınıza yansıtılacak",
+  "onboardingGoalZeroMissed": "Hiçbir dozu atlamamak"
 }

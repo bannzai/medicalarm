@@ -271,5 +271,6 @@
   "onboardingAfterItemRecord": "A feljegyzések megmaradnak, és azonnal ellenőrizhetők",
   "onboardingAfterItemFamily": "Egy pillantással láthatja családja gyógyszerszedési állapotát",
   "onboardingGoalTitle": "Határozza meg a célját",
-  "onboardingGoalSubtitle": "Célja megjelenik a tervében"
+  "onboardingGoalSubtitle": "Célja megjelenik a tervében",
+  "onboardingGoalZeroMissed": "Egyetlen adag sem maradjon ki"
 }

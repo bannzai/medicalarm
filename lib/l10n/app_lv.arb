@@ -271,5 +271,6 @@
   "onboardingAfterItemRecord": "Ieraksti tiek saglabāti, un tos var pārbaudīt uzreiz",
   "onboardingAfterItemFamily": "Vienā mirklī pārskatiet arī savas ģimenes zāļu lietošanas statusu",
   "onboardingGoalTitle": "Nosakiet savu mērķi",
-  "onboardingGoalSubtitle": "Jūsu mērķis tiks ņemts vērā jūsu plānā"
+  "onboardingGoalSubtitle": "Jūsu mērķis tiks ņemts vērā jūsu plānā",
+  "onboardingGoalZeroMissed": "Neaizmirst nevienu devu"
 }

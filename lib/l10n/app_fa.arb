@@ -271,5 +271,6 @@
   "onboardingAfterItemRecord": "سوابق ذخیره می‌شوند و می‌توانید فوراً آن‌ها را بررسی کنید",
   "onboardingAfterItemFamily": "وضعیت مصرف داروی اعضای خانواده‌تان را هم در یک نگاه ببینید",
   "onboardingGoalTitle": "هدفتان را تعیین کنید",
-  "onboardingGoalSubtitle": "هدف شما در برنامه‌تان لحاظ می‌شود"
+  "onboardingGoalSubtitle": "هدف شما در برنامه‌تان لحاظ می‌شود",
+  "onboardingGoalZeroMissed": "هیچ دوزی را فراموش نکردن"
 }

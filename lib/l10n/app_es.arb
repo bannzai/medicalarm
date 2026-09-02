@@ -271,5 +271,6 @@
   "onboardingAfterItemRecord": "Los registros se guardan y puedes consultarlos al instante",
   "onboardingAfterItemFamily": "Consulta de un vistazo el estado de la medicación de tu familia",
   "onboardingGoalTitle": "Define tu objetivo",
-  "onboardingGoalSubtitle": "Tu objetivo se reflejará en tu plan"
+  "onboardingGoalSubtitle": "Tu objetivo se reflejará en tu plan",
+  "onboardingGoalZeroMissed": "No olvidar ninguna dosis"
 }

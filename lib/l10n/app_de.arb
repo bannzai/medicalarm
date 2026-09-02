@@ -271,5 +271,6 @@
   "onboardingAfterItemRecord": "Aufzeichnungen bleiben erhalten und sind sofort einsehbar",
   "onboardingAfterItemFamily": "Den Medikamentenstatus Ihrer Familie auf einen Blick sehen",
   "onboardingGoalTitle": "Legen Sie Ihr Ziel fest",
-  "onboardingGoalSubtitle": "Dein Ziel wird in deinem Plan berücksichtigt"
+  "onboardingGoalSubtitle": "Dein Ziel wird in deinem Plan berücksichtigt",
+  "onboardingGoalZeroMissed": "Keine Dosis vergessen"
 }

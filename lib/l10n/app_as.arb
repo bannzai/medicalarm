@@ -271,5 +271,6 @@
   "onboardingAfterItemRecord": "ৰেকৰ্ড সংৰক্ষিত থাকে আৰু লগে লগে পৰীক্ষা কৰিব পাৰি",
   "onboardingAfterItemFamily": "আপোনাৰ পৰিয়ালৰ ঔষধ সেৱনৰ অৱস্থাও এক নজৰত চাওক",
   "onboardingGoalTitle": "আপোনাৰ লক্ষ্য নিৰ্ধাৰণ কৰক",
-  "onboardingGoalSubtitle": "আপোনাৰ লক্ষ্য আপোনাৰ পৰিকল্পনাত প্ৰতিফলিত হ’ব"
+  "onboardingGoalSubtitle": "আপোনাৰ লক্ষ্য আপোনাৰ পৰিকল্পনাত প্ৰতিফলিত হ’ব",
+  "onboardingGoalZeroMissed": "ঔষধৰ কোনো পালি বাদ নিদিয়া"
 }

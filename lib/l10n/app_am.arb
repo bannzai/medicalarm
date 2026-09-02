@@ -271,5 +271,6 @@
   "onboardingAfterItemRecord": "መዝገቦች ይቀመጣሉ እና ወዲያውኑ ማረጋገጥ ይችላሉ",
   "onboardingAfterItemFamily": "የቤተሰብዎን የመድኃኒት አጠቃቀም ሁኔታም በአንድ እይታ ይወቁ",
   "onboardingGoalTitle": "ግብዎን ይወስኑ",
-  "onboardingGoalSubtitle": "ግብዎ በዕቅድዎ ውስጥ ይካተታል"
+  "onboardingGoalSubtitle": "ግብዎ በዕቅድዎ ውስጥ ይካተታል",
+  "onboardingGoalZeroMissed": "የተዘለሉ የመድኃኒት መጠኖችን ወደ ዜሮ ማድረስ"
 }

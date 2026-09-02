@@ -271,5 +271,6 @@
   "onboardingAfterItemRecord": "Tiedot säilyvät ja voit tarkistaa ne heti",
   "onboardingAfterItemFamily": "Näe myös perheesi lääkkeiden ottamisen tilanne yhdellä silmäyksellä",
   "onboardingGoalTitle": "Määritä tavoitteesi",
-  "onboardingGoalSubtitle": "Tavoitteesi huomioidaan suunnitelmassasi"
+  "onboardingGoalSubtitle": "Tavoitteesi huomioidaan suunnitelmassasi",
+  "onboardingGoalZeroMissed": "Yhtäkään annosta ei unohdeta"
 }

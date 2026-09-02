@@ -271,5 +271,6 @@
   "onboardingAfterItemRecord": "บันทึกจะถูกเก็บไว้และตรวจสอบได้ทันที",
   "onboardingAfterItemFamily": "ดูสถานะการรับประทานยาของครอบครัวได้ในพริบตา",
   "onboardingGoalTitle": "กำหนดเป้าหมายของคุณ",
-  "onboardingGoalSubtitle": "เป้าหมายของคุณจะสะท้อนอยู่ในแผนของคุณ"
+  "onboardingGoalSubtitle": "เป้าหมายของคุณจะสะท้อนอยู่ในแผนของคุณ",
+  "onboardingGoalZeroMissed": "ไม่ลืมรับประทานยาแม้แต่ครั้งเดียว"
 }

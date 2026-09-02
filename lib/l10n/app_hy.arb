@@ -271,5 +271,6 @@
   "onboardingAfterItemRecord": "Գրառումները պահպանվում են և անմիջապես ստուգելի են",
   "onboardingAfterItemFamily": "Մի հայացքով տեսեք նաև ձեր ընտանիքի դեղերի ընդունման վիճակը",
   "onboardingGoalTitle": "Սահմանեք ձեր նպատակը",
-  "onboardingGoalSubtitle": "Ձեր նպատակը կարտացոլվի ձեր պլանում"
+  "onboardingGoalSubtitle": "Ձեր նպատակը կարտացոլվի ձեր պլանում",
+  "onboardingGoalZeroMissed": "Ոչ մի դեղաչափ բաց չթողնել"
 }

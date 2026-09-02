@@ -271,5 +271,6 @@
   "onboardingAfterItemRecord": "Înregistrările se păstrează și pot fi verificate imediat",
   "onboardingAfterItemFamily": "Vedeți dintr-o privire și situația administrării medicamentelor de către familie",
   "onboardingGoalTitle": "Stabiliți-vă obiectivul",
-  "onboardingGoalSubtitle": "Obiectivul tău va fi reflectat în planul tău"
+  "onboardingGoalSubtitle": "Obiectivul tău va fi reflectat în planul tău",
+  "onboardingGoalZeroMissed": "Să nu uiți nicio doză"
 }

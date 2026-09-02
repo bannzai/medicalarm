@@ -271,5 +271,6 @@
   "onboardingAfterItemRecord": "ჩანაწერები ინახება და მათი დაუყოვნებლივ შემოწმება შეგიძლიათ",
   "onboardingAfterItemFamily": "ერთი შეხედვით იხილეთ თქვენი ოჯახის წევრების მედიკამენტების მიღების მდგომარეობაც",
   "onboardingGoalTitle": "განსაზღვრეთ თქვენი მიზანი",
-  "onboardingGoalSubtitle": "თქვენი მიზანი აისახება თქვენს გეგმაში"
+  "onboardingGoalSubtitle": "თქვენი მიზანი აისახება თქვენს გეგმაში",
+  "onboardingGoalZeroMissed": "არცერთი დოზის გამოტოვება"
 }

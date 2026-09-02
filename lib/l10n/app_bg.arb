@@ -271,5 +271,6 @@
   "onboardingAfterItemRecord": "Записите се запазват и могат да бъдат проверени веднага",
   "onboardingAfterItemFamily": "Виждайте и състоянието на приема на лекарства от семейството си с един поглед",
   "onboardingGoalTitle": "Определете целта си",
-  "onboardingGoalSubtitle": "Целта ви ще бъде отразена в плана ви"
+  "onboardingGoalSubtitle": "Целта ви ще бъде отразена в плана ви",
+  "onboardingGoalZeroMissed": "Да не пропускам нито една доза"
 }

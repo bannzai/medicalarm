@@ -271,5 +271,6 @@
   "onboardingAfterItemRecord": "Zapisi ostaju sačuvani i mogu se odmah provjeriti",
   "onboardingAfterItemFamily": "Na prvi pogled saznajte i kakvo je stanje s uzimanjem lijekova u vašoj porodici",
   "onboardingGoalTitle": "Odredite svoj cilj",
-  "onboardingGoalSubtitle": "Vaš cilj će biti uključen u vaš plan"
+  "onboardingGoalSubtitle": "Vaš cilj će biti uključen u vaš plan",
+  "onboardingGoalZeroMissed": "Ne propustiti nijednu dozu"
 }

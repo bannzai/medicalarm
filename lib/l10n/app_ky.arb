@@ -271,5 +271,6 @@
   "onboardingAfterItemRecord": "Жазуулар сакталат жана аларды дароо текшерсе болот",
   "onboardingAfterItemFamily": "Үй-бүлөңүздүн дары ичүү абалын да бир караганда көрүңүз",
   "onboardingGoalTitle": "Максатыңызды аныктаңыз",
-  "onboardingGoalSubtitle": "Максатыңыз планыңызда эске алынат"
+  "onboardingGoalSubtitle": "Максатыңыз планыңызда эске алынат",
+  "onboardingGoalZeroMissed": "Бир да дозаны өткөрүп жибербөө"
 }

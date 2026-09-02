@@ -271,5 +271,6 @@
   "onboardingAfterItemRecord": "Catatan tersimpan dan dapat segera diperiksa",
   "onboardingAfterItemFamily": "Lihat juga status minum obat keluarga Anda sekilas",
   "onboardingGoalTitle": "Tentukan tujuan Anda",
-  "onboardingGoalSubtitle": "Tujuan Anda akan tercermin dalam rencana Anda"
+  "onboardingGoalSubtitle": "Tujuan Anda akan tercermin dalam rencana Anda",
+  "onboardingGoalZeroMissed": "Tidak melewatkan dosis apa pun"
 }

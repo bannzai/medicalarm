@@ -271,5 +271,6 @@
   "onboardingAfterItemRecord": "Οι καταγραφές αποθηκεύονται και μπορείτε να τις ελέγξετε αμέσως",
   "onboardingAfterItemFamily": "Δείτε με μια ματιά την κατάσταση λήψης φαρμάκων της οικογένειάς σας",
   "onboardingGoalTitle": "Καθορίστε τον στόχο σας",
-  "onboardingGoalSubtitle": "Ο στόχος σας θα αντικατοπτρίζεται στο πλάνο σας"
+  "onboardingGoalSubtitle": "Ο στόχος σας θα αντικατοπτρίζεται στο πλάνο σας",
+  "onboardingGoalZeroMissed": "Να μην ξεχνάω καμία δόση"
 }

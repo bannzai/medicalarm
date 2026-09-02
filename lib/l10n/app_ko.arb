@@ -271,5 +271,6 @@
   "onboardingAfterItemRecord": "기록이 남아 바로 확인할 수 있어요",
   "onboardingAfterItemFamily": "가족의 복약 상태도 한눈에 확인할 수 있어요",
   "onboardingGoalTitle": "목표를 정해 보세요",
-  "onboardingGoalSubtitle": "목표가 플랜에 반영됩니다"
+  "onboardingGoalSubtitle": "목표가 플랜에 반영됩니다",
+  "onboardingGoalZeroMissed": "복용을 한 번도 잊지 않기"
 }

@@ -271,5 +271,6 @@
   "onboardingAfterItemRecord": "הרשומות נשמרות וניתן לבדוק אותן מיד",
   "onboardingAfterItemFamily": "לראות במבט אחד גם את מצב נטילת התרופות של בני המשפחה",
   "onboardingGoalTitle": "הגדירו את היעד שלכם",
-  "onboardingGoalSubtitle": "היעד שלך יבוא לידי ביטוי בתוכנית שלך"
+  "onboardingGoalSubtitle": "היעד שלך יבוא לידי ביטוי בתוכנית שלך",
+  "onboardingGoalZeroMissed": "לא לפספס אף מנה"
 }

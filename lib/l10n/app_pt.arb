@@ -271,5 +271,6 @@
   "onboardingAfterItemRecord": "Os registos ficam guardados e podem ser consultados de imediato",
   "onboardingAfterItemFamily": "Veja também o estado da medicação da sua família num relance",
   "onboardingGoalTitle": "Defina sua meta",
-  "onboardingGoalSubtitle": "O seu objetivo será refletido no seu plano"
+  "onboardingGoalSubtitle": "O seu objetivo será refletido no seu plano",
+  "onboardingGoalZeroMissed": "Não esquecer nenhuma dose"
 }

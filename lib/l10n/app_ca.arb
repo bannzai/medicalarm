@@ -271,5 +271,6 @@
   "onboardingAfterItemRecord": "Els registres es conserven i es poden consultar immediatament",
   "onboardingAfterItemFamily": "Consulta d’un cop l’estat de la medicació de la teva família",
   "onboardingGoalTitle": "Defineix el teu objectiu",
-  "onboardingGoalSubtitle": "El vostre objectiu es veurà reflectit en el vostre pla"
+  "onboardingGoalSubtitle": "El vostre objectiu es veurà reflectit en el vostre pla",
+  "onboardingGoalZeroMissed": "No oblidar cap dosi"
 }

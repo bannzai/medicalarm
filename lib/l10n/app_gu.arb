@@ -271,5 +271,6 @@
   "onboardingAfterItemRecord": "રેકોર્ડ સાચવાયેલા રહે છે અને તરત જ તપાસી શકાય છે",
   "onboardingAfterItemFamily": "પરિવારના સભ્યોની દવા લેવાની સ્થિતિ પણ એક નજરમાં જુઓ",
   "onboardingGoalTitle": "તમારો ધ્યેય નક્કી કરો",
-  "onboardingGoalSubtitle": "તમારું લક્ષ્ય તમારા પ્લાનમાં પ્રતિબિંબિત થશે"
+  "onboardingGoalSubtitle": "તમારું લક્ષ્ય તમારા પ્લાનમાં પ્રતિબિંબિત થશે",
+  "onboardingGoalZeroMissed": "એક પણ ડોઝ ન ચૂકી જવો"
 }

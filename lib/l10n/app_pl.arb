@@ -271,5 +271,6 @@
   "onboardingAfterItemRecord": "Historia zostaje zapisana i można ją od razu sprawdzić",
   "onboardingAfterItemFamily": "Sprawdzaj także stan przyjmowania leków przez rodzinę na pierwszy rzut oka",
   "onboardingGoalTitle": "Ustal swój cel",
-  "onboardingGoalSubtitle": "Twój cel zostanie uwzględniony w Twoim planie"
+  "onboardingGoalSubtitle": "Twój cel zostanie uwzględniony w Twoim planie",
+  "onboardingGoalZeroMissed": "Nie pominąć żadnej dawki"
 }

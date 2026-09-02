@@ -271,5 +271,6 @@
   "onboardingAfterItemRecord": "Бүртгэл хадгалагдаж, шууд шалгах боломжтой",
   "onboardingAfterItemFamily": "Гэр бүлийнхнийхээ эм уусан байдлыг ч нэг дороос хараарай",
   "onboardingGoalTitle": "Зорилгоо тодорхойлоорой",
-  "onboardingGoalSubtitle": "Таны зорилго таны төлөвлөгөөнд тусгагдана"
+  "onboardingGoalSubtitle": "Таны зорилго таны төлөвлөгөөнд тусгагдана",
+  "onboardingGoalZeroMissed": "Нэг ч тунг алгасахгүй байх"
 }

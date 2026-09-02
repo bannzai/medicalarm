@@ -271,5 +271,6 @@
   "onboardingAfterItemRecord": "Le registrazioni vengono conservate e sono subito consultabili",
   "onboardingAfterItemFamily": "Tieni sotto controllo a colpo d’occhio anche l’assunzione dei farmaci della tua famiglia",
   "onboardingGoalTitle": "Definisci il tuo obiettivo",
-  "onboardingGoalSubtitle": "Il tuo obiettivo si rifletterà nel tuo piano"
+  "onboardingGoalSubtitle": "Il tuo obiettivo si rifletterà nel tuo piano",
+  "onboardingGoalZeroMissed": "Non dimenticare nessuna dose"
 }

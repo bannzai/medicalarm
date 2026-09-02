@@ -271,5 +271,6 @@
   "onboardingAfterItemRecord": "تبقى السجلات ويمكن التحقق منها فورًا",
   "onboardingAfterItemFamily": "تعرّف على حالة تناول أفراد عائلتك للأدوية بنظرة واحدة",
   "onboardingGoalTitle": "حدّد هدفك",
-  "onboardingGoalSubtitle": "سينعكس هدفك على خطتك"
+  "onboardingGoalSubtitle": "سينعكس هدفك على خطتك",
+  "onboardingGoalZeroMissed": "عدم تفويت أي جرعة"
 }

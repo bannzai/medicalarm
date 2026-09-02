@@ -271,5 +271,6 @@
   "onboardingAfterItemRecord": "Qeydlər saxlanılır və dərhal yoxlanıla bilər",
   "onboardingAfterItemFamily": "Ailənizin dərman qəbul etmə vəziyyətini də bir baxışda görün",
   "onboardingGoalTitle": "Məqsədinizi müəyyənləşdirin",
-  "onboardingGoalSubtitle": "Məqsədiniz planınıza əks olunacaq"
+  "onboardingGoalSubtitle": "Məqsədiniz planınıza əks olunacaq",
+  "onboardingGoalZeroMissed": "Heç bir dozanı buraxmamaq"
 }

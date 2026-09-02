@@ -271,5 +271,6 @@
   "onboardingAfterItemRecord": "Erregistroak gordeta geratzen dira eta berehala kontsulta daitezke",
   "onboardingAfterItemFamily": "Ikusi zure familiaren botiken hartze-egoera begiratu batean",
   "onboardingGoalTitle": "Ezarri zure helburua",
-  "onboardingGoalSubtitle": "Zure helburua zure planean islatuko da"
+  "onboardingGoalSubtitle": "Zure helburua zure planean islatuko da",
+  "onboardingGoalZeroMissed": "Dosiarik ez ahaztea"
 }

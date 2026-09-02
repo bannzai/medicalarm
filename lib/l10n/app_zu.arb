@@ -271,5 +271,6 @@
   "onboardingAfterItemRecord": "Amarekhodi ayagcinwa futhi angahlolwa ngokushesha",
   "onboardingAfterItemFamily": "Bona nesimo sokuphuza imithi somndeni wakho ngokubuka kanye",
   "onboardingGoalTitle": "Nquma umgomo wakho",
-  "onboardingGoalSubtitle": "Umgomo wakho uzobonakala ohlelweni lwakho"
+  "onboardingGoalSubtitle": "Umgomo wakho uzobonakala ohlelweni lwakho",
+  "onboardingGoalZeroMissed": "Ungaphuthelwa nawumuphi umthamo"
 }

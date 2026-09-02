@@ -271,5 +271,6 @@
   "onboardingAfterItemRecord": "ບັນທຶກຈະຖືກເກັບໄວ້ ແລະສາມາດກວດເບິ່ງໄດ້ທັນທີ",
   "onboardingAfterItemFamily": "ເບິ່ງສະຖານະການກິນຢາຂອງຄອບຄົວໄດ້ໃນພາບດຽວ",
   "onboardingGoalTitle": "ກຳນົດເປົ້າໝາຍຂອງທ່ານ",
-  "onboardingGoalSubtitle": "ເປົ້າໝາຍຂອງທ່ານຈະຖືກນຳໄປປະກອບໃນແຜນຂອງທ່ານ"
+  "onboardingGoalSubtitle": "ເປົ້າໝາຍຂອງທ່ານຈະຖືກນຳໄປປະກອບໃນແຜນຂອງທ່ານ",
+  "onboardingGoalZeroMissed": "ບໍ່ລືມກິນຢາແມ່ນແຕ່ໂດສດຽວ"
 }
