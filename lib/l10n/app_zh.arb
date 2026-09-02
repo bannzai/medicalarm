@@ -172,5 +172,6 @@
   "premiumFeaturesList": "高级功能列表",
   "currentlyInPremiumTrial": "您目前正在试用 Premium。",
   "medicationPause": "启用药物",
-  "medicationPauseDescription": "关闭后，该药物将从用药页面和通知中移除。"
+  "medicationPauseDescription": "关闭后，该药物将从用药页面和通知中移除。",
+  "medicinePausedSnackbar": "已暂时暂停服药"
 }

@@ -172,5 +172,6 @@
   "premiumFeaturesList": "Zoznam prémiových funkcií",
   "currentlyInPremiumTrial": "Momentálne využívate skúšobnú verziu Premium.",
   "medicationPause": "Povoliť liek",
-  "medicationPauseDescription": "Po vypnutí bude liek vynechaný z obrazovky liekov a z upozornení."
+  "medicationPauseDescription": "Po vypnutí bude liek vynechaný z obrazovky liekov a z upozornení.",
+  "medicinePausedSnackbar": "Užívanie lieku bolo dočasne pozastavené"
 }

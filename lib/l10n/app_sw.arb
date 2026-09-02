@@ -172,5 +172,6 @@
   "premiumFeaturesList": "Orodha ya vipengele vya Premium",
   "currentlyInPremiumTrial": "Kwa sasa uko kwenye kipindi cha majaribio cha Premium.",
   "medicationPause": "Washa dawa",
-  "medicationPauseDescription": "Ikizimwa, itaondolewa kwenye skrini ya dawa na arifa."
+  "medicationPauseDescription": "Ikizimwa, itaondolewa kwenye skrini ya dawa na arifa.",
+  "medicinePausedSnackbar": "Unywaji wa dawa umesitishwa kwa muda"
 }

@@ -172,5 +172,6 @@
   "premiumFeaturesList": "Liste vo Premium-Funktione",
   "currentlyInPremiumTrial": "Du bisch aktuell im Premium-Test.",
   "medicationPause": "Medikament aktivieren",
-  "medicationPauseDescription": "Wenn es usgschaltet wird, wird es us em Medikamentebildschirm und us de Benachrichtigunge entfernt."
+  "medicationPauseDescription": "Wenn es usgschaltet wird, wird es us em Medikamentebildschirm und us de Benachrichtigunge entfernt.",
+  "medicinePausedSnackbar": "D Medikamenteneinnahm isch vorübergehend pausiert worde"
 }

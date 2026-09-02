@@ -172,5 +172,6 @@
   "premiumFeaturesList": "Elenco delle funzionalità premium",
   "currentlyInPremiumTrial": "Al momento stai usufruendo del periodo di prova Premium.",
   "medicationPause": "Attiva farmaco",
-  "medicationPauseDescription": "Quando viene disattivato, il farmaco viene escluso dalla schermata dei farmaci e dalle notifiche."
+  "medicationPauseDescription": "Quando viene disattivato, il farmaco viene escluso dalla schermata dei farmaci e dalle notifiche.",
+  "medicinePausedSnackbar": "L’assunzione del farmaco è stata sospesa temporaneamente"
 }

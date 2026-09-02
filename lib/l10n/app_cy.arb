@@ -172,5 +172,6 @@
   "premiumFeaturesList": "Rhestr o nodweddion premiwm",
   "currentlyInPremiumTrial": "Rydych ar hyn o bryd yn defnyddio treial Premium.",
   "medicationPause": "Galluogi meddyginiaeth",
-  "medicationPauseDescription": "Pan gaiff ei ddiffodd, caiff ei dynnu o sgrin meddyginiaethau a hysbysiadau."
+  "medicationPauseDescription": "Pan gaiff ei ddiffodd, caiff ei dynnu o sgrin meddyginiaethau a hysbysiadau.",
+  "medicinePausedSnackbar": "Mae cymryd y feddyginiaeth wedi’i oedi dros dro"
 }

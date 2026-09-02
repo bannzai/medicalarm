@@ -172,5 +172,6 @@
   "premiumFeaturesList": "Prémiumfunkciók listája",
   "currentlyInPremiumTrial": "Jelenleg a Premium próbaidőszakát használja.",
   "medicationPause": "Gyógyszer aktiválása",
-  "medicationPauseDescription": "Kikapcsoláskor a gyógyszer kikerül a gyógyszerek képernyőjéről és az értesítésekből."
+  "medicationPauseDescription": "Kikapcsoláskor a gyógyszer kikerül a gyógyszerek képernyőjéről és az értesítésekből.",
+  "medicinePausedSnackbar": "A gyógyszer szedése ideiglenesen szünetel"
 }

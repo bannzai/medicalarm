@@ -172,5 +172,6 @@
   "premiumFeaturesList": "प्रिमियम सुविधाहरूको सूची",
   "currentlyInPremiumTrial": "तपाईं अहिले Premium परीक्षण अवधिमा हुनुहुन्छ।",
   "medicationPause": "औषधि सक्रिय गर्नुहोस्",
-  "medicationPauseDescription": "बन्द गर्दा, यसलाई औषधिको स्क्रिन र सूचनाहरूबाट हटाइनेछ।"
+  "medicationPauseDescription": "बन्द गर्दा, यसलाई औषधिको स्क्रिन र सूचनाहरूबाट हटाइनेछ।",
+  "medicinePausedSnackbar": "औषध सेवन अस्थायी रूपमा रोकिएको छ"
 }

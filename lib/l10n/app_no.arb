@@ -172,5 +172,6 @@
   "premiumFeaturesList": "Liste over premiumfunksjoner",
   "currentlyInPremiumTrial": "Du er for øyeblikket i Premium-prøveperioden.",
   "medicationPause": "Aktiver medisin",
-  "medicationPauseDescription": "Når den slås av, fjernes den fra medisinskjermen og varslingene."
+  "medicationPauseDescription": "Når den slås av, fjernes den fra medisinskjermen og varslingene.",
+  "medicinePausedSnackbar": "Medisininntaket er midlertidig satt på pause"
 }

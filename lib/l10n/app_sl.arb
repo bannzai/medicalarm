@@ -172,5 +172,6 @@
   "premiumFeaturesList": "Seznam premium funkcij",
   "currentlyInPremiumTrial": "Trenutno uporabljate preizkusno obdobje Premium.",
   "medicationPause": "Omogoči zdravilo",
-  "medicationPauseDescription": "Ob izklopu bo zdravilo odstranjeno z zaslona z zdravili in iz obvestil."
+  "medicationPauseDescription": "Ob izklopu bo zdravilo odstranjeno z zaslona z zdravili in iz obvestil.",
+  "medicinePausedSnackbar": "Jemanje zdravila je začasno zaustavljeno"
 }

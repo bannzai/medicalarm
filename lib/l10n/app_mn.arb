@@ -172,5 +172,6 @@
   "premiumFeaturesList": "Премиум функцүүдийн жагсаалт",
   "currentlyInPremiumTrial": "Та одоогоор Premium туршилтын хувилбарыг ашиглаж байна.",
   "medicationPause": "Эмийг идэвхжүүлэх",
-  "medicationPauseDescription": "Унтраахад эмийн дэлгэц болон мэдэгдлээс хасагдана."
+  "medicationPauseDescription": "Унтраахад эмийн дэлгэц болон мэдэгдлээс хасагдана.",
+  "medicinePausedSnackbar": "Эм уухыг түр хугацаагаар зогсоолоо"
 }

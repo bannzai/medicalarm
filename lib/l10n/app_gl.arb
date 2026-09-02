@@ -172,5 +172,6 @@
   "premiumFeaturesList": "Lista de funcións premium",
   "currentlyInPremiumTrial": "Neste momento estás no período de proba Premium.",
   "medicationPause": "Activar a medicación",
-  "medicationPauseDescription": "Ao desactivalo, excluirase da pantalla de medicamentos e das notificacións."
+  "medicationPauseDescription": "Ao desactivalo, excluirase da pantalla de medicamentos e das notificacións.",
+  "medicinePausedSnackbar": "A toma do medicamento pausouse temporalmente"
 }

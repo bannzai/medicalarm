@@ -172,5 +172,6 @@
   "premiumFeaturesList": "Uhlu lwezici ze-premium",
   "currentlyInPremiumTrial": "Okwamanje usekusesikhathini sesilingo se-Premium.",
   "medicationPause": "Vumela umuthi",
-  "medicationPauseDescription": "Uma kuvalwa, izokhishwa esikrinini semithi nasezazisweni."
+  "medicationPauseDescription": "Uma kuvalwa, izokhishwa esikrinini semithi nasezazisweni.",
+  "medicinePausedSnackbar": "Ukuphuza umuthi kumisiwe okwesikhashana"
 }

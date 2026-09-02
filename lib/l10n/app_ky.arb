@@ -172,5 +172,6 @@
   "premiumFeaturesList": "Премиум функциялардын тизмеси",
   "currentlyInPremiumTrial": "Учурда Premium сынамык мөөнөтүн колдонуп жатасыз.",
   "medicationPause": "Дарыны иштетүү",
-  "medicationPauseDescription": "Өчүрүлгөндө, дары-дармектер экранынан жана эскертмелерден чыгарылат."
+  "medicationPauseDescription": "Өчүрүлгөндө, дары-дармектер экранынан жана эскертмелерден чыгарылат.",
+  "medicinePausedSnackbar": "Дарыны ичүү убактылуу токтотулду"
 }

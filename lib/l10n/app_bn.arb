@@ -172,5 +172,6 @@
   "premiumFeaturesList": "প্রিমিয়াম ফিচারের তালিকা",
   "currentlyInPremiumTrial": "আপনি বর্তমানে Premium ট্রায়াল ব্যবহার করছেন।",
   "medicationPause": "ওষুধ চালু করুন",
-  "medicationPauseDescription": "বন্ধ করলে এটি ওষুধের স্ক্রিন ও বিজ্ঞপ্তি থেকে বাদ যাবে।"
+  "medicationPauseDescription": "বন্ধ করলে এটি ওষুধের স্ক্রিন ও বিজ্ঞপ্তি থেকে বাদ যাবে।",
+  "medicinePausedSnackbar": "ওষুধ খাওয়া সাময়িকভাবে স্থগিত করা হয়েছে"
 }

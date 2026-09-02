@@ -172,5 +172,6 @@
   "premiumFeaturesList": "Premiumfunktsioonide loend",
   "currentlyInPremiumTrial": "Sul on praegu Premiumi prooviperiood.",
   "medicationPause": "Luba ravim",
-  "medicationPauseDescription": "Väljalülitamisel eemaldatakse see ravimite ekraanilt ja märguannetest."
+  "medicationPauseDescription": "Väljalülitamisel eemaldatakse see ravimite ekraanilt ja märguannetest.",
+  "medicinePausedSnackbar": "Ravimi võtmine on ajutiselt peatatud"
 }

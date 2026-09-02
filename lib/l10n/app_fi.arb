@@ -172,5 +172,6 @@
   "premiumFeaturesList": "Premium-ominaisuudet",
   "currentlyInPremiumTrial": "Käytät parhaillaan Premium-kokeilujaksoa.",
   "medicationPause": "Ota lääkitys käyttöön",
-  "medicationPauseDescription": "Kun se poistetaan käytöstä, se poistetaan lääkkeiden näytöstä ja ilmoituksista."
+  "medicationPauseDescription": "Kun se poistetaan käytöstä, se poistetaan lääkkeiden näytöstä ja ilmoituksista.",
+  "medicinePausedSnackbar": "Lääkkeen ottaminen on keskeytetty väliaikaisesti"
 }

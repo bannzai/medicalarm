@@ -172,5 +172,6 @@
   "premiumFeaturesList": "პრემიუმ ფუნქციების სია",
   "currentlyInPremiumTrial": "ამჟამად Premium-ის საცდელ პერიოდზე ხართ.",
   "medicationPause": "მედიკამენტის ჩართვა",
-  "medicationPauseDescription": "გამორთვისას, ის ამოიშლება მედიკამენტების ეკრანიდან და შეტყობინებებიდან."
+  "medicationPauseDescription": "გამორთვისას, ის ამოიშლება მედიკამენტების ეკრანიდან და შეტყობინებებიდან.",
+  "medicinePausedSnackbar": "მედიკამენტის მიღება დროებით შეჩერდა"
 }

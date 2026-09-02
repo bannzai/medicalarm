@@ -172,5 +172,6 @@
   "premiumFeaturesList": "فهرست قابلیت‌های پریمیوم",
   "currentlyInPremiumTrial": "در حال حاضر در دورهٔ آزمایشی Premium هستید.",
   "medicationPause": "فعال‌کردن دارو",
-  "medicationPauseDescription": "با خاموش کردن آن، از صفحه داروها و اعلان‌ها حذف می‌شود."
+  "medicationPauseDescription": "با خاموش کردن آن، از صفحه داروها و اعلان‌ها حذف می‌شود.",
+  "medicinePausedSnackbar": "مصرف دارو موقتاً متوقف شد"
 }

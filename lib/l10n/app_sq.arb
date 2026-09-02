@@ -172,5 +172,6 @@
   "premiumFeaturesList": "Lista e veçorive premium",
   "currentlyInPremiumTrial": "Aktualisht jeni në periudhën e provës Premium.",
   "medicationPause": "Aktivizo medikamentin",
-  "medicationPauseDescription": "Kur çaktivizohet, ilaçi do të hiqet nga ekrani i barnave dhe njoftimet."
+  "medicationPauseDescription": "Kur çaktivizohet, ilaçi do të hiqet nga ekrani i barnave dhe njoftimet.",
+  "medicinePausedSnackbar": "Marrja e ilaçit u pezullua përkohësisht"
 }

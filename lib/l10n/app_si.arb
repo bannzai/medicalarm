@@ -172,5 +172,6 @@
   "premiumFeaturesList": "ප්‍රිමියම් විශේෂාංග ලැයිස්තුව",
   "currentlyInPremiumTrial": "ඔබ දැනට Premium අත්හදා බැලීමේ කාලසීමාවේ සිටී.",
   "medicationPause": "ඖෂධය සක්‍රීය කරන්න",
-  "medicationPauseDescription": "අක්‍රිය කළ විට, එය ඖෂධ තිරයෙන් සහ දැනුම්දීම්වලින් ඉවත් කෙරේ."
+  "medicationPauseDescription": "අක්‍රිය කළ විට, එය ඖෂධ තිරයෙන් සහ දැනුම්දීම්වලින් ඉවත් කෙරේ.",
+  "medicinePausedSnackbar": "ඖෂධ ගැනීම තාවකාලිකව නතර කරන ලදී"
 }

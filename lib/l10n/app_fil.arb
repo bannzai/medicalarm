@@ -172,5 +172,6 @@
   "premiumFeaturesList": "Listahan ng mga premium na feature",
   "currentlyInPremiumTrial": "Kasalukuyan kang nasa Premium trial.",
   "medicationPause": "Paganahin ang gamot",
-  "medicationPauseDescription": "Kapag naka-off, hindi ito isasama sa screen ng mga gamot at mga notification."
+  "medicationPauseDescription": "Kapag naka-off, hindi ito isasama sa screen ng mga gamot at mga notification.",
+  "medicinePausedSnackbar": "Pansamantalang itinigil ang pag-inom ng gamot"
 }

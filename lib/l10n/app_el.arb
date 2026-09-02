@@ -172,5 +172,6 @@
   "premiumFeaturesList": "Λίστα premium λειτουργιών",
   "currentlyInPremiumTrial": "Αυτήν τη στιγμή χρησιμοποιείτε τη δοκιμαστική περίοδο Premium.",
   "medicationPause": "Ενεργοποίηση φαρμάκου",
-  "medicationPauseDescription": "Όταν απενεργοποιηθεί, θα εξαιρεθεί από την οθόνη φαρμάκων και τις ειδοποιήσεις."
+  "medicationPauseDescription": "Όταν απενεργοποιηθεί, θα εξαιρεθεί από την οθόνη φαρμάκων και τις ειδοποιήσεις.",
+  "medicinePausedSnackbar": "Η λήψη του φαρμάκου διακόπηκε προσωρινά"
 }

@@ -172,5 +172,6 @@
   "premiumFeaturesList": "Premium funksiyalar ro‘yxati",
   "currentlyInPremiumTrial": "Hozirda Premium sinov muddatidasiz.",
   "medicationPause": "Dorini faollashtirish",
-  "medicationPauseDescription": "O‘chirilganda, u dorilar ekranidan va bildirishnomalardan chiqariladi."
+  "medicationPauseDescription": "O‘chirilganda, u dorilar ekranidan va bildirishnomalardan chiqariladi.",
+  "medicinePausedSnackbar": "Dori qabul qilish vaqtincha to‘xtatildi"
 }

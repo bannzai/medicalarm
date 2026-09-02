@@ -172,5 +172,6 @@
   "premiumFeaturesList": "Списак премијум функција",
   "currentlyInPremiumTrial": "Тренутно сте у пробном периоду Premium-а.",
   "medicationPause": "Омогући лек",
-  "medicationPauseDescription": "Када се искључи, лек ће бити уклоњен са екрана лекова и из обавештења."
+  "medicationPauseDescription": "Када се искључи, лек ће бити уклоњен са екрана лекова и из обавештења.",
+  "medicinePausedSnackbar": "Узимање лека је привремено обустављено"
 }

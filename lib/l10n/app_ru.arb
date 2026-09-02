@@ -172,5 +172,6 @@
   "premiumFeaturesList": "Список премиум-функций",
   "currentlyInPremiumTrial": "Сейчас вы используете пробный период Premium.",
   "medicationPause": "Включить лекарство",
-  "medicationPauseDescription": "После отключения препарат будет исключён из экрана лекарств и уведомлений."
+  "medicationPauseDescription": "После отключения препарат будет исключён из экрана лекарств и уведомлений.",
+  "medicinePausedSnackbar": "Приём лекарства временно приостановлен"
 }

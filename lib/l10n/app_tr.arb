@@ -172,5 +172,6 @@
   "premiumFeaturesList": "Premium özellikler listesi",
   "currentlyInPremiumTrial": "Şu anda Premium deneme sürümündesiniz.",
   "medicationPause": "İlacı etkinleştir",
-  "medicationPauseDescription": "Kapatıldığında ilaç ekranından ve bildirimlerden çıkarılır."
+  "medicationPauseDescription": "Kapatıldığında ilaç ekranından ve bildirimlerden çıkarılır.",
+  "medicinePausedSnackbar": "İlacın kullanımı geçici olarak duraklatıldı"
 }

@@ -172,5 +172,6 @@
   "premiumFeaturesList": "ပရီမီယံ လုပ်ဆောင်ချက်များစာရင်း",
   "currentlyInPremiumTrial": "လက်ရှိတွင် Premium အစမ်းသုံးကာလကို အသုံးပြုနေပါသည်။",
   "medicationPause": "ဆေးကို အသုံးပြုရန် ဖွင့်ပါ",
-  "medicationPauseDescription": "ပိတ်လိုက်ပါက ဆေးမျက်နှာပြင်နှင့် အသိပေးချက်များမှ ဖယ်ရှားမည်။"
+  "medicationPauseDescription": "ပိတ်လိုက်ပါက ဆေးမျက်နှာပြင်နှင့် အသိပေးချက်များမှ ဖယ်ရှားမည်။",
+  "medicinePausedSnackbar": "ဆေးသောက်ခြင်းကို ယာယီရပ်ထားသည်"
 }
