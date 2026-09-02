@@ -262,5 +262,6 @@
   "onboardingMedicineCountThreeToFive": "aina 3–5",
   "onboardingMedicineCountSixOrMore": "6 au zaidi",
   "onboardingBeforeAfterTitle": "Kinachobadilika ukiwa na Medicalarm",
-  "onboardingBeforeLabel": "Hadi sasa"
+  "onboardingBeforeLabel": "Hadi sasa",
+  "onboardingAfterLabel": "Kuanzia sasa"
 }

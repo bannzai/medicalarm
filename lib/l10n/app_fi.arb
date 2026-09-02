@@ -262,5 +262,6 @@
   "onboardingMedicineCountThreeToFive": "3–5 tyyppiä",
   "onboardingMedicineCountSixOrMore": "6 tai enemmän",
   "onboardingBeforeAfterTitle": "Mitä Medicalarm muuttaa",
-  "onboardingBeforeLabel": "Tähän asti"
+  "onboardingBeforeLabel": "Tähän asti",
+  "onboardingAfterLabel": "Tästä eteenpäin"
 }

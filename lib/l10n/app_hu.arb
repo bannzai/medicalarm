@@ -262,5 +262,6 @@
   "onboardingMedicineCountThreeToFive": "3–5 féle",
   "onboardingMedicineCountSixOrMore": "6 vagy több",
   "onboardingBeforeAfterTitle": "Mi változik a Medicalarm használatával",
-  "onboardingBeforeLabel": "Eddig"
+  "onboardingBeforeLabel": "Eddig",
+  "onboardingAfterLabel": "Mostantól"
 }

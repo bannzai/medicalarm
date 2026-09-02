@@ -262,5 +262,6 @@
   "onboardingMedicineCountThreeToFive": "3–5 Arten",
   "onboardingMedicineCountSixOrMore": "6 oder mehr",
   "onboardingBeforeAfterTitle": "Was sich mit Medicalarm ändert",
-  "onboardingBeforeLabel": "Bisher"
+  "onboardingBeforeLabel": "Bisher",
+  "onboardingAfterLabel": "Ab jetzt"
 }

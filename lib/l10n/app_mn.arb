@@ -262,5 +262,6 @@
   "onboardingMedicineCountThreeToFive": "3–5 төрөл",
   "onboardingMedicineCountSixOrMore": "6 ба түүнээс дээш",
   "onboardingBeforeAfterTitle": "Medicalarm-тэй хамт юу өөрчлөгдөх вэ",
-  "onboardingBeforeLabel": "Одоог хүртэл"
+  "onboardingBeforeLabel": "Одоог хүртэл",
+  "onboardingAfterLabel": "Одооноос"
 }

@@ -262,5 +262,6 @@
   "onboardingMedicineCountThreeToFive": "3–5 відаў",
   "onboardingMedicineCountSixOrMore": "6 і больш",
   "onboardingBeforeAfterTitle": "Што зменіцца з Medicalarm",
-  "onboardingBeforeLabel": "Да гэтага часу"
+  "onboardingBeforeLabel": "Да гэтага часу",
+  "onboardingAfterLabel": "З гэтага часу"
 }

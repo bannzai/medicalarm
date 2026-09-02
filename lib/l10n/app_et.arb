@@ -262,5 +262,6 @@
   "onboardingMedicineCountThreeToFive": "3–5 liiki",
   "onboardingMedicineCountSixOrMore": "6 või rohkem",
   "onboardingBeforeAfterTitle": "Mis muutub Medicalarmiga",
-  "onboardingBeforeLabel": "Seni"
+  "onboardingBeforeLabel": "Seni",
+  "onboardingAfterLabel": "Nüüdsest"
 }

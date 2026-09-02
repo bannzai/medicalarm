@@ -262,5 +262,6 @@
   "onboardingMedicineCountThreeToFive": "3–5 veidi",
   "onboardingMedicineCountSixOrMore": "6 vai vairāk",
   "onboardingBeforeAfterTitle": "Kas mainās, lietojot Medicalarm",
-  "onboardingBeforeLabel": "Līdz šim"
+  "onboardingBeforeLabel": "Līdz šim",
+  "onboardingAfterLabel": "No šī brīža"
 }

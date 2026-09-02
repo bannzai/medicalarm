@@ -262,5 +262,6 @@
   "onboardingMedicineCountThreeToFive": "3–5 ዓይነት",
   "onboardingMedicineCountSixOrMore": "6 ወይም ከዚያ በላይ",
   "onboardingBeforeAfterTitle": "በMedicalarm የሚቀየረው",
-  "onboardingBeforeLabel": "እስካሁን"
+  "onboardingBeforeLabel": "እስካሁን",
+  "onboardingAfterLabel": "ከአሁን ጀምሮ"
 }

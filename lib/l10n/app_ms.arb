@@ -262,5 +262,6 @@
   "onboardingMedicineCountThreeToFive": "3–5 jenis",
   "onboardingMedicineCountSixOrMore": "6 atau lebih",
   "onboardingBeforeAfterTitle": "Perubahan dengan Medicalarm",
-  "onboardingBeforeLabel": "Setakat ini"
+  "onboardingBeforeLabel": "Setakat ini",
+  "onboardingAfterLabel": "Mulai sekarang"
 }

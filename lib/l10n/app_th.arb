@@ -262,5 +262,6 @@
   "onboardingMedicineCountThreeToFive": "3–5 ชนิด",
   "onboardingMedicineCountSixOrMore": "6 ชนิดขึ้นไป",
   "onboardingBeforeAfterTitle": "สิ่งที่จะเปลี่ยนไปเมื่อใช้ Medicalarm",
-  "onboardingBeforeLabel": "จนถึงตอนนี้"
+  "onboardingBeforeLabel": "จนถึงตอนนี้",
+  "onboardingAfterLabel": "ตั้งแต่นี้ไป"
 }

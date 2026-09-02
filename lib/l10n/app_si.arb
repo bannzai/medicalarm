@@ -262,5 +262,6 @@
   "onboardingMedicineCountThreeToFive": "3–5 වර්ග",
   "onboardingMedicineCountSixOrMore": "6ක් හෝ ඊට වැඩි",
   "onboardingBeforeAfterTitle": "Medicalarm සමඟ වෙනස් වන්නේ කුමක්ද",
-  "onboardingBeforeLabel": "මෙතෙක්"
+  "onboardingBeforeLabel": "මෙතෙක්",
+  "onboardingAfterLabel": "මෙතැන් සිට"
 }

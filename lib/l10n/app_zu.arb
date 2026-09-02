@@ -262,5 +262,6 @@
   "onboardingMedicineCountThreeToFive": "izinhlobo ezi-3–5",
   "onboardingMedicineCountSixOrMore": "6 noma ngaphezulu",
   "onboardingBeforeAfterTitle": "Okuzoshintsha nge-Medicalarm",
-  "onboardingBeforeLabel": "Kuze kube manje"
+  "onboardingBeforeLabel": "Kuze kube manje",
+  "onboardingAfterLabel": "Kusukela manje"
 }

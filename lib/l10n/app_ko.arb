@@ -262,5 +262,6 @@
   "onboardingMedicineCountThreeToFive": "3~5가지",
   "onboardingMedicineCountSixOrMore": "6개 이상",
   "onboardingBeforeAfterTitle": "Medicalarm으로 달라지는 점",
-  "onboardingBeforeLabel": "지금까지"
+  "onboardingBeforeLabel": "지금까지",
+  "onboardingAfterLabel": "이제부터"
 }

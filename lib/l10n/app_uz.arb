@@ -262,5 +262,6 @@
   "onboardingMedicineCountThreeToFive": "3–5 tur",
   "onboardingMedicineCountSixOrMore": "6 ta yoki undan ko‘p",
   "onboardingBeforeAfterTitle": "Medicalarm bilan nimalar o‘zgaradi",
-  "onboardingBeforeLabel": "Hozirgacha"
+  "onboardingBeforeLabel": "Hozirgacha",
+  "onboardingAfterLabel": "Bundan buyon"
 }

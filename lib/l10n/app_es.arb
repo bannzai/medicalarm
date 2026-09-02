@@ -262,5 +262,6 @@
   "onboardingMedicineCountThreeToFive": "3–5 tipos",
   "onboardingMedicineCountSixOrMore": "6 o más",
   "onboardingBeforeAfterTitle": "Lo que cambia con Medicalarm",
-  "onboardingBeforeLabel": "Hasta ahora"
+  "onboardingBeforeLabel": "Hasta ahora",
+  "onboardingAfterLabel": "A partir de ahora"
 }

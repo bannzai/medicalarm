@@ -262,5 +262,6 @@
   "onboardingMedicineCountThreeToFive": "3–5 प्रकार",
   "onboardingMedicineCountSixOrMore": "6 या अधिक",
   "onboardingBeforeAfterTitle": "Medicalarm के साथ क्या बदलेगा",
-  "onboardingBeforeLabel": "अब तक"
+  "onboardingBeforeLabel": "अब तक",
+  "onboardingAfterLabel": "अब से"
 }

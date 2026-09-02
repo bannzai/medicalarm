@@ -262,5 +262,6 @@
   "onboardingMedicineCountThreeToFive": "3–5 είδη",
   "onboardingMedicineCountSixOrMore": "6 ή περισσότερα",
   "onboardingBeforeAfterTitle": "Τι αλλάζει με το Medicalarm",
-  "onboardingBeforeLabel": "Μέχρι τώρα"
+  "onboardingBeforeLabel": "Μέχρι τώρα",
+  "onboardingAfterLabel": "Από εδώ και πέρα"
 }

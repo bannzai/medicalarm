@@ -262,5 +262,6 @@
   "onboardingMedicineCountThreeToFive": "3–5 rūšys",
   "onboardingMedicineCountSixOrMore": "6 ar daugiau",
   "onboardingBeforeAfterTitle": "Kas pasikeičia naudojant Medicalarm",
-  "onboardingBeforeLabel": "Iki šiol"
+  "onboardingBeforeLabel": "Iki šiol",
+  "onboardingAfterLabel": "Nuo šiol"
 }

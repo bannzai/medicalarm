@@ -262,5 +262,6 @@
   "onboardingMedicineCountThreeToFive": "3–5 түр",
   "onboardingMedicineCountSixOrMore": "6 немесе одан көп",
   "onboardingBeforeAfterTitle": "Medicalarm көмегімен не өзгереді",
-  "onboardingBeforeLabel": "Осы уақытқа дейін"
+  "onboardingBeforeLabel": "Осы уақытқа дейін",
+  "onboardingAfterLabel": "Бұдан былай"
 }

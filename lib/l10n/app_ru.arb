@@ -262,5 +262,6 @@
   "onboardingMedicineCountThreeToFive": "3–5 видов",
   "onboardingMedicineCountSixOrMore": "6 или более",
   "onboardingBeforeAfterTitle": "Что изменится с Medicalarm",
-  "onboardingBeforeLabel": "До сих пор"
+  "onboardingBeforeLabel": "До сих пор",
+  "onboardingAfterLabel": "С этого момента"
 }

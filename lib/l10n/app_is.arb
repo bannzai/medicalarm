@@ -262,5 +262,6 @@
   "onboardingMedicineCountThreeToFive": "3–5 tegundir",
   "onboardingMedicineCountSixOrMore": "6 eða fleiri",
   "onboardingBeforeAfterTitle": "Hvað breytist með Medicalarm",
-  "onboardingBeforeLabel": "Hingað til"
+  "onboardingBeforeLabel": "Hingað til",
+  "onboardingAfterLabel": "Héðan í frá"
 }

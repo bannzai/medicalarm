@@ -262,5 +262,6 @@
   "onboardingMedicineCountThreeToFive": "3–5 வகைகள்",
   "onboardingMedicineCountSixOrMore": "6 அல்லது அதற்கு மேற்பட்டவை",
   "onboardingBeforeAfterTitle": "Medicalarm மூலம் என்ன மாறும்",
-  "onboardingBeforeLabel": "இதுவரை"
+  "onboardingBeforeLabel": "இதுவரை",
+  "onboardingAfterLabel": "இனிமேல்"
 }

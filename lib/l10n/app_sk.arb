@@ -262,5 +262,6 @@
   "onboardingMedicineCountThreeToFive": "3–5 druhov",
   "onboardingMedicineCountSixOrMore": "6 alebo viac",
   "onboardingBeforeAfterTitle": "Čo sa zmení s Medicalarm",
-  "onboardingBeforeLabel": "Doteraz"
+  "onboardingBeforeLabel": "Doteraz",
+  "onboardingAfterLabel": "Odteraz"
 }

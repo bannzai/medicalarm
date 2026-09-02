@@ -262,5 +262,6 @@
   "onboardingMedicineCountThreeToFive": "3–5 uri",
   "onboardingMedicineCountSixOrMore": "6 o higit pa",
   "onboardingBeforeAfterTitle": "Ang magbabago sa paggamit ng Medicalarm",
-  "onboardingBeforeLabel": "Hanggang ngayon"
+  "onboardingBeforeLabel": "Hanggang ngayon",
+  "onboardingAfterLabel": "Mula ngayon"
 }
