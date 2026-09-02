@@ -282,5 +282,6 @@
   "onboardingPlanResultTitle": "Planul tău personalizat",
   "onboardingPlanResultGoalFormat": "Obiectiv: {goal}",
   "onboardingPlanDoseReceivers": "Persoana care ia medicamente",
-  "onboardingPlanDailyReminders": "Mementouri zilnice"
+  "onboardingPlanDailyReminders": "Mementouri zilnice",
+  "onboardingPlanMedicines": "Medicamente de gestionat"
 }

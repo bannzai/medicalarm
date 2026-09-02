@@ -282,5 +282,6 @@
   "onboardingPlanResultTitle": "برنامه شخصی شما",
   "onboardingPlanResultGoalFormat": "هدف: {goal}",
   "onboardingPlanDoseReceivers": "فردی که دارو مصرف می‌کند",
-  "onboardingPlanDailyReminders": "اعلان‌های روزانه"
+  "onboardingPlanDailyReminders": "اعلان‌های روزانه",
+  "onboardingPlanMedicines": "داروهای تحت مدیریت"
 }

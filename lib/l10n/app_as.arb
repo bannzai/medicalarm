@@ -282,5 +282,6 @@
   "onboardingPlanResultTitle": "আপোনাৰ ব্যক্তিগত পৰিকল্পনা",
   "onboardingPlanResultGoalFormat": "লক্ষ্য: {goal}",
   "onboardingPlanDoseReceivers": "ঔষধ সেৱনকাৰী",
-  "onboardingPlanDailyReminders": "দৈনিক জাননী"
+  "onboardingPlanDailyReminders": "দৈনিক জাননী",
+  "onboardingPlanMedicines": "পৰিচালনা কৰিবলগীয়া ঔষধ"
 }

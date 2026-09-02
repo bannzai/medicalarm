@@ -282,5 +282,6 @@
   "onboardingPlanResultTitle": "Ձեր անհատական ծրագիրը",
   "onboardingPlanResultGoalFormat": "Նպատակ՝ {goal}",
   "onboardingPlanDoseReceivers": "Դեղորայք ընդունող անձ",
-  "onboardingPlanDailyReminders": "Ամենօրյա հիշեցումներ"
+  "onboardingPlanDailyReminders": "Ամենօրյա հիշեցումներ",
+  "onboardingPlanMedicines": "Կառավարվող դեղեր"
 }

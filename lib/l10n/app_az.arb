@@ -282,5 +282,6 @@
   "onboardingPlanResultTitle": "Sizə özəl plan",
   "onboardingPlanResultGoalFormat": "Məqsəd: {goal}",
   "onboardingPlanDoseReceivers": "Dərman qəbul edən şəxs",
-  "onboardingPlanDailyReminders": "Gündəlik bildirişlər"
+  "onboardingPlanDailyReminders": "Gündəlik bildirişlər",
+  "onboardingPlanMedicines": "İdarə olunacaq dərmanlar"
 }

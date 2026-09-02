@@ -282,5 +282,6 @@
   "onboardingPlanResultTitle": "Siz uchun shaxsiy reja",
   "onboardingPlanResultGoalFormat": "Maqsad: {goal}",
   "onboardingPlanDoseReceivers": "Dori qabul qiluvchi shaxs",
-  "onboardingPlanDailyReminders": "Kundalik eslatmalar"
+  "onboardingPlanDailyReminders": "Kundalik eslatmalar",
+  "onboardingPlanMedicines": "Boshqariladigan dorilar"
 }

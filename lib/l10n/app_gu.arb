@@ -282,5 +282,6 @@
   "onboardingPlanResultTitle": "તમારા માટે વ્યક્તિગત પ્લાન",
   "onboardingPlanResultGoalFormat": "લક્ષ્ય: {goal}",
   "onboardingPlanDoseReceivers": "દવા લેનાર વ્યક્તિ",
-  "onboardingPlanDailyReminders": "દૈનિક સૂચનાઓ"
+  "onboardingPlanDailyReminders": "દૈનિક સૂચનાઓ",
+  "onboardingPlanMedicines": "વ્યવસ્થાપિત કરવાની દવાઓ"
 }

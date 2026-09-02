@@ -282,5 +282,6 @@
   "onboardingPlanResultTitle": "Személyre szabott terved",
   "onboardingPlanResultGoalFormat": "Cél: {goal}",
   "onboardingPlanDoseReceivers": "Gyógyszert szedő személy",
-  "onboardingPlanDailyReminders": "Napi emlékeztetők"
+  "onboardingPlanDailyReminders": "Napi emlékeztetők",
+  "onboardingPlanMedicines": "Kezelendő gyógyszerek"
 }

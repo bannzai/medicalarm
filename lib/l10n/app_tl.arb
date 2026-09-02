@@ -282,5 +282,6 @@
   "onboardingPlanResultTitle": "Ang iyong personal na plano",
   "onboardingPlanResultGoalFormat": "Layunin: {goal}",
   "onboardingPlanDoseReceivers": "Taong umiinom ng gamot",
-  "onboardingPlanDailyReminders": "Mga pang-araw-araw na paalala"
+  "onboardingPlanDailyReminders": "Mga pang-araw-araw na paalala",
+  "onboardingPlanMedicines": "Mga gamot na pamamahalaan"
 }

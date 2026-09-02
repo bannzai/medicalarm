@@ -282,5 +282,6 @@
   "onboardingPlanResultTitle": "Jums pritaikytas planas",
   "onboardingPlanResultGoalFormat": "Tikslas: {goal}",
   "onboardingPlanDoseReceivers": "Vaistus vartojantis asmuo",
-  "onboardingPlanDailyReminders": "Kasdieniai priminimai"
+  "onboardingPlanDailyReminders": "Kasdieniai priminimai",
+  "onboardingPlanMedicines": "Tvarkomi vaistai"
 }

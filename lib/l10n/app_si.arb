@@ -282,5 +282,6 @@
   "onboardingPlanResultTitle": "ඔබ වෙනුවෙන් සකස් කළ පෞද්ගලික සැලැස්ම",
   "onboardingPlanResultGoalFormat": "ඉලක්කය: {goal}",
   "onboardingPlanDoseReceivers": "ඖෂධ ගන්නා පුද්ගලයා",
-  "onboardingPlanDailyReminders": "දෛනික දැනුම්දීම්"
+  "onboardingPlanDailyReminders": "දෛනික දැනුම්දීම්",
+  "onboardingPlanMedicines": "කළමනාකරණය කළ යුතු ඖෂධ"
 }

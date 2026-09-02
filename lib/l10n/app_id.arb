@@ -282,5 +282,6 @@
   "onboardingPlanResultTitle": "Rencana khusus untuk Anda",
   "onboardingPlanResultGoalFormat": "Tujuan: {goal}",
   "onboardingPlanDoseReceivers": "Orang yang minum obat",
-  "onboardingPlanDailyReminders": "Notifikasi harian"
+  "onboardingPlanDailyReminders": "Notifikasi harian",
+  "onboardingPlanMedicines": "Obat yang dikelola"
 }

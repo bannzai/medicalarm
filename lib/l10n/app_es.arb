@@ -282,5 +282,6 @@
   "onboardingPlanResultTitle": "Tu plan personalizado",
   "onboardingPlanResultGoalFormat": "Objetivo: {goal}",
   "onboardingPlanDoseReceivers": "Persona que toma la medicación",
-  "onboardingPlanDailyReminders": "Recordatorios diarios"
+  "onboardingPlanDailyReminders": "Recordatorios diarios",
+  "onboardingPlanMedicines": "Medicamentos a gestionar"
 }

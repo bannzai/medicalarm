@@ -282,5 +282,6 @@
   "onboardingPlanResultTitle": "Sinu isiklik plaan",
   "onboardingPlanResultGoalFormat": "Eesmärk: {goal}",
   "onboardingPlanDoseReceivers": "Ravimi tarvitaja",
-  "onboardingPlanDailyReminders": "Igapäevased meeldetuletused"
+  "onboardingPlanDailyReminders": "Igapäevased meeldetuletused",
+  "onboardingPlanMedicines": "Hallatavad ravimid"
 }

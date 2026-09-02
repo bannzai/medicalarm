@@ -282,5 +282,6 @@
   "onboardingPlanResultTitle": "Танд зориулсан хувийн төлөвлөгөө",
   "onboardingPlanResultGoalFormat": "Зорилго: {goal}",
   "onboardingPlanDoseReceivers": "Эм уудаг хүн",
-  "onboardingPlanDailyReminders": "Өдөр тутмын мэдэгдэл"
+  "onboardingPlanDailyReminders": "Өдөр тутмын мэдэгдэл",
+  "onboardingPlanMedicines": "Удирдах эмүүд"
 }

@@ -282,5 +282,6 @@
   "onboardingPlanResultTitle": "Pelan peribadi anda",
   "onboardingPlanResultGoalFormat": "Matlamat: {goal}",
   "onboardingPlanDoseReceivers": "Orang yang mengambil ubat",
-  "onboardingPlanDailyReminders": "Peringatan harian"
+  "onboardingPlanDailyReminders": "Peringatan harian",
+  "onboardingPlanMedicines": "Ubat untuk diurus"
 }

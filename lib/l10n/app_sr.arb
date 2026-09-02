@@ -282,5 +282,6 @@
   "onboardingPlanResultTitle": "Ваш персонализовани план",
   "onboardingPlanResultGoalFormat": "Циљ: {goal}",
   "onboardingPlanDoseReceivers": "Особа која узима лекове",
-  "onboardingPlanDailyReminders": "Дневна обавештења"
+  "onboardingPlanDailyReminders": "Дневна обавештења",
+  "onboardingPlanMedicines": "Лекови за управљање"
 }

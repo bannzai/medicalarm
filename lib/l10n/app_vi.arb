@@ -282,5 +282,6 @@
   "onboardingPlanResultTitle": "Kế hoạch dành riêng cho bạn",
   "onboardingPlanResultGoalFormat": "Mục tiêu: {goal}",
   "onboardingPlanDoseReceivers": "Người dùng thuốc",
-  "onboardingPlanDailyReminders": "Lời nhắc hằng ngày"
+  "onboardingPlanDailyReminders": "Lời nhắc hằng ngày",
+  "onboardingPlanMedicines": "Thuốc cần quản lý"
 }

@@ -282,5 +282,6 @@
   "onboardingPlanResultTitle": "உங்களுக்கான தனிப்பயனாக்கப்பட்ட திட்டம்",
   "onboardingPlanResultGoalFormat": "இலக்கு: {goal}",
   "onboardingPlanDoseReceivers": "மருந்து உட்கொள்ளும் நபர்",
-  "onboardingPlanDailyReminders": "தினசரி நினைவூட்டல்கள்"
+  "onboardingPlanDailyReminders": "தினசரி நினைவூட்டல்கள்",
+  "onboardingPlanMedicines": "நிர்வகிக்க வேண்டிய மருந்துகள்"
 }

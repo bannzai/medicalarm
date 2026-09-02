@@ -282,5 +282,6 @@
   "onboardingPlanResultTitle": "آپ کا ذاتی منصوبہ",
   "onboardingPlanResultGoalFormat": "ہدف: {goal}",
   "onboardingPlanDoseReceivers": "دوا لینے والا شخص",
-  "onboardingPlanDailyReminders": "روزانہ یاد دہانیاں"
+  "onboardingPlanDailyReminders": "روزانہ یاد دہانیاں",
+  "onboardingPlanMedicines": "انتظام کرنے والی ادویات"
 }

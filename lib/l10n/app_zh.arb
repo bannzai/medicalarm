@@ -282,5 +282,6 @@
   "onboardingPlanResultTitle": "为你量身定制的计划",
   "onboardingPlanResultGoalFormat": "目标：{goal}",
   "onboardingPlanDoseReceivers": "服药者",
-  "onboardingPlanDailyReminders": "每日提醒"
+  "onboardingPlanDailyReminders": "每日提醒",
+  "onboardingPlanMedicines": "需要管理的药物"
 }

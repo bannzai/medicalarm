@@ -282,5 +282,6 @@
   "onboardingPlanResultTitle": "Din personlige plan",
   "onboardingPlanResultGoalFormat": "Mål: {goal}",
   "onboardingPlanDoseReceivers": "Personen som tar medisinen",
-  "onboardingPlanDailyReminders": "Daglige påminnelser"
+  "onboardingPlanDailyReminders": "Daglige påminnelser",
+  "onboardingPlanMedicines": "Medisiner å følge opp"
 }

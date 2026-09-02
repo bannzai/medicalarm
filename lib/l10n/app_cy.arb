@@ -282,5 +282,6 @@
   "onboardingPlanResultTitle": "Eich cynllun personol",
   "onboardingPlanResultGoalFormat": "Nod: {goal}",
   "onboardingPlanDoseReceivers": "Person sy’n cymryd meddyginiaeth",
-  "onboardingPlanDailyReminders": "Hysbysiadau dyddiol"
+  "onboardingPlanDailyReminders": "Hysbysiadau dyddiol",
+  "onboardingPlanMedicines": "Meddyginiaethau i'w rheoli"
 }

@@ -282,5 +282,6 @@
   "onboardingPlanResultTitle": "Vaš osebni načrt",
   "onboardingPlanResultGoalFormat": "Cilj: {goal}",
   "onboardingPlanDoseReceivers": "Oseba, ki jemlje zdravila",
-  "onboardingPlanDailyReminders": "Dnevni opomniki"
+  "onboardingPlanDailyReminders": "Dnevni opomniki",
+  "onboardingPlanMedicines": "Upravljana zdravila"
 }

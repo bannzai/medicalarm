@@ -282,5 +282,6 @@
   "onboardingPlanResultTitle": "Το προσωπικό σας πλάνο",
   "onboardingPlanResultGoalFormat": "Στόχος: {goal}",
   "onboardingPlanDoseReceivers": "Άτομο που λαμβάνει φάρμακα",
-  "onboardingPlanDailyReminders": "Καθημερινές υπενθυμίσεις"
+  "onboardingPlanDailyReminders": "Καθημερινές υπενθυμίσεις",
+  "onboardingPlanMedicines": "Φάρμακα προς διαχείριση"
 }

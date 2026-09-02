@@ -282,5 +282,6 @@
   "onboardingPlanResultTitle": "Henkilökohtainen suunnitelmasi",
   "onboardingPlanResultGoalFormat": "Tavoite: {goal}",
   "onboardingPlanDoseReceivers": "Lääkettä käyttävä henkilö",
-  "onboardingPlanDailyReminders": "Päivittäiset muistutukset"
+  "onboardingPlanDailyReminders": "Päivittäiset muistutukset",
+  "onboardingPlanMedicines": "Hallittavat lääkkeet"
 }

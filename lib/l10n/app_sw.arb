@@ -282,5 +282,6 @@
   "onboardingPlanResultTitle": "Mpango wako binafsi",
   "onboardingPlanResultGoalFormat": "Lengo: {goal}",
   "onboardingPlanDoseReceivers": "Mtu anayekunywa dawa",
-  "onboardingPlanDailyReminders": "Vikumbusho vya kila siku"
+  "onboardingPlanDailyReminders": "Vikumbusho vya kila siku",
+  "onboardingPlanMedicines": "Dawa za kudhibiti"
 }

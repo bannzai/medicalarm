@@ -282,5 +282,6 @@
   "onboardingPlanResultTitle": "แผนเฉพาะสำหรับคุณ",
   "onboardingPlanResultGoalFormat": "เป้าหมาย: {goal}",
   "onboardingPlanDoseReceivers": "ผู้รับประทานยา",
-  "onboardingPlanDailyReminders": "การแจ้งเตือนรายวัน"
+  "onboardingPlanDailyReminders": "การแจ้งเตือนรายวัน",
+  "onboardingPlanMedicines": "ยาที่ต้องจัดการ"
 }

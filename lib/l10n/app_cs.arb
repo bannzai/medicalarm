@@ -282,5 +282,6 @@
   "onboardingPlanResultTitle": "Váš osobní plán",
   "onboardingPlanResultGoalFormat": "Cíl: {goal}",
   "onboardingPlanDoseReceivers": "Osoba užívající léky",
-  "onboardingPlanDailyReminders": "Denní upozornění"
+  "onboardingPlanDailyReminders": "Denní upozornění",
+  "onboardingPlanMedicines": "Spravované léky"
 }

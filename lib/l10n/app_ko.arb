@@ -282,5 +282,6 @@
   "onboardingPlanResultTitle": "나만을 위한 플랜",
   "onboardingPlanResultGoalFormat": "목표: {goal}",
   "onboardingPlanDoseReceivers": "약을 복용하는 사람",
-  "onboardingPlanDailyReminders": "일일 알림"
+  "onboardingPlanDailyReminders": "일일 알림",
+  "onboardingPlanMedicines": "관리할 약"
 }

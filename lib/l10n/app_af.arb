@@ -282,5 +282,6 @@
   "onboardingPlanResultTitle": "Jou persoonlike plan",
   "onboardingPlanResultGoalFormat": "Doel: {goal}",
   "onboardingPlanDoseReceivers": "Persoon wat medikasie neem",
-  "onboardingPlanDailyReminders": "Daaglikse kennisgewings"
+  "onboardingPlanDailyReminders": "Daaglikse kennisgewings",
+  "onboardingPlanMedicines": "Medisyne om te bestuur"
 }

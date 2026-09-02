@@ -282,5 +282,6 @@
   "onboardingPlanResultTitle": "Ваш персанальны план",
   "onboardingPlanResultGoalFormat": "Мэта: {goal}",
   "onboardingPlanDoseReceivers": "Той, хто прымае лекі",
-  "onboardingPlanDailyReminders": "Штодзённыя апавяшчэнні"
+  "onboardingPlanDailyReminders": "Штодзённыя апавяшчэнні",
+  "onboardingPlanMedicines": "Лекі для кантролю"
 }

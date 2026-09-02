@@ -282,5 +282,6 @@
   "onboardingPlanResultTitle": "Plani juaj personal",
   "onboardingPlanResultGoalFormat": "Qëllimi: {goal}",
   "onboardingPlanDoseReceivers": "Personi që merr ilaçe",
-  "onboardingPlanDailyReminders": "Njoftimet ditore"
+  "onboardingPlanDailyReminders": "Njoftimet ditore",
+  "onboardingPlanMedicines": "Medikamente për menaxhim"
 }

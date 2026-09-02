@@ -282,5 +282,6 @@
   "onboardingPlanResultTitle": "Zure plan pertsonalizatua",
   "onboardingPlanResultGoalFormat": "Helburua: {goal}",
   "onboardingPlanDoseReceivers": "Sendagaia hartzen duen pertsona",
-  "onboardingPlanDailyReminders": "Eguneroko jakinarazpenak"
+  "onboardingPlanDailyReminders": "Eguneroko jakinarazpenak",
+  "onboardingPlanMedicines": "Kudeatu beharreko sendagaiak"
 }

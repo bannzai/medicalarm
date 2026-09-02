@@ -282,5 +282,6 @@
   "onboardingPlanResultTitle": "התוכנית האישית שלך",
   "onboardingPlanResultGoalFormat": "מטרה: {goal}",
   "onboardingPlanDoseReceivers": "נוטל התרופה",
-  "onboardingPlanDailyReminders": "התראות יומיות"
+  "onboardingPlanDailyReminders": "התראות יומיות",
+  "onboardingPlanMedicines": "תרופות לניהול"
 }

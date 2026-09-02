@@ -282,5 +282,6 @@
   "onboardingPlanResultTitle": "គម្រោងផ្ទាល់ខ្លួនរបស់អ្នក",
   "onboardingPlanResultGoalFormat": "គោលដៅ៖ {goal}",
   "onboardingPlanDoseReceivers": "អ្នកប្រើថ្នាំ",
-  "onboardingPlanDailyReminders": "ការជូនដំណឹងប្រចាំថ្ងៃ"
+  "onboardingPlanDailyReminders": "ការជូនដំណឹងប្រចាំថ្ងៃ",
+  "onboardingPlanMedicines": "ថ្នាំដែលត្រូវគ្រប់គ្រង"
 }

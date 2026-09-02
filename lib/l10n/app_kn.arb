@@ -282,5 +282,6 @@
   "onboardingPlanResultTitle": "ನಿಮಗಾಗಿ ವೈಯಕ್ತಿಕಗೊಳಿಸಿದ ಯೋಜನೆ",
   "onboardingPlanResultGoalFormat": "ಗುರಿ: {goal}",
   "onboardingPlanDoseReceivers": "ಔಷಧಿ ತೆಗೆದುಕೊಳ್ಳುವ ವ್ಯಕ್ತಿ",
-  "onboardingPlanDailyReminders": "ದೈನಂದಿನ ಅಧಿಸೂಚನೆಗಳು"
+  "onboardingPlanDailyReminders": "ದೈನಂದಿನ ಅಧಿಸೂಚನೆಗಳು",
+  "onboardingPlanMedicines": "ನಿರ್ವಹಿಸಬೇಕಾದ ಔಷಧಿಗಳು"
 }
