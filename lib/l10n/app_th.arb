@@ -178,5 +178,6 @@
   "undo": "เลิกทำ",
   "medicationHistoryReverted": "ยกเลิกบันทึกการรับประทานยา",
   "revertedTime": "เวลาที่ยกเลิก",
-  "revertedByMember": "{name} ยกเลิกแล้ว"
+  "revertedByMember": "{name} ยกเลิกแล้ว",
+  "medicationTakenAtLabel": "รับประทานแล้วเวลา {time}"
 }

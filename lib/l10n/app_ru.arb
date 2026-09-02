@@ -178,5 +178,6 @@
   "undo": "Отменить",
   "medicationHistoryReverted": "Отмена записи о приёме лекарства",
   "revertedTime": "Время отмены",
-  "revertedByMember": "Отменено пользователем {name}"
+  "revertedByMember": "Отменено пользователем {name}",
+  "medicationTakenAtLabel": "Принято в {time}"
 }

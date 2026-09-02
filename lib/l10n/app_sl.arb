@@ -178,5 +178,6 @@
   "undo": "Razveljavi",
   "medicationHistoryReverted": "Preklic zapisa o zaužitju zdravila",
   "revertedTime": "Čas preklica",
-  "revertedByMember": "Preklicano s strani uporabnika {name}"
+  "revertedByMember": "Preklicano s strani uporabnika {name}",
+  "medicationTakenAtLabel": "Vzeto ob {time}"
 }

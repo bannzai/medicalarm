@@ -178,5 +178,6 @@
   "undo": "പഴയപടിയാക്കുക",
   "medicationHistoryReverted": "മരുന്ന് കഴിച്ചതിന്റെ രേഖ റദ്ദാക്കൽ",
   "revertedTime": "റദ്ദാക്കിയ സമയം",
-  "revertedByMember": "{name} റദ്ദാക്കി"
+  "revertedByMember": "{name} റദ്ദാക്കി",
+  "medicationTakenAtLabel": "{time}-ന് കഴിച്ചു"
 }

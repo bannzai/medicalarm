@@ -178,5 +178,6 @@
   "undo": "Hoàn tác",
   "medicationHistoryReverted": "Hủy bản ghi uống thuốc",
   "revertedTime": "Thời gian hủy",
-  "revertedByMember": "{name} đã hủy"
+  "revertedByMember": "{name} đã hủy",
+  "medicationTakenAtLabel": "Đã uống lúc {time}"
 }

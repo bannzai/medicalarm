@@ -178,5 +178,6 @@
   "undo": "Geri al",
   "medicationHistoryReverted": "Dərman qəbulu qeydinin ləğvi",
   "revertedTime": "Ləğv edilmə vaxtı",
-  "revertedByMember": "{name} ləğv etdi"
+  "revertedByMember": "{name} ləğv etdi",
+  "medicationTakenAtLabel": "{time} Qəbul edilib"
 }

@@ -178,5 +178,6 @@
   "undo": "ກັບຄືນ",
   "medicationHistoryReverted": "ຍົກເລີກບັນທຶກການກິນຢາ",
   "revertedTime": "ເວລາຍົກເລີກ",
-  "revertedByMember": "{name} ໄດ້ຍົກເລີກ"
+  "revertedByMember": "{name} ໄດ້ຍົກເລີກ",
+  "medicationTakenAtLabel": "ໄດ້ຮັບປະທານເວລາ {time}"
 }

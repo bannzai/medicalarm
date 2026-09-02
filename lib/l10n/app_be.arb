@@ -178,5 +178,6 @@
   "undo": "Адмяніць",
   "medicationHistoryReverted": "Адмена запісу пра прыём лекаў",
   "revertedTime": "Час адмены",
-  "revertedByMember": "Запіс скасаваны карыстальнікам {name}"
+  "revertedByMember": "Запіс скасаваны карыстальнікам {name}",
+  "medicationTakenAtLabel": "Прынята ў {time}"
 }

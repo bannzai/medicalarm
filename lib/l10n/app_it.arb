@@ -178,5 +178,6 @@
   "undo": "Annulla",
   "medicationHistoryReverted": "Annullamento della registrazione dell’assunzione del farmaco",
   "revertedTime": "Ora di annullamento",
-  "revertedByMember": "Annullato da {name}"
+  "revertedByMember": "Annullato da {name}",
+  "medicationTakenAtLabel": "Assunto alle {time}"
 }

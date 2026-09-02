@@ -178,5 +178,6 @@
   "undo": "Anulează",
   "medicationHistoryReverted": "Anularea înregistrării administrării medicamentului",
   "revertedTime": "Ora anulării",
-  "revertedByMember": "Anulat de {name}"
+  "revertedByMember": "Anulat de {name}",
+  "medicationTakenAtLabel": "Lu at {time}"
 }

@@ -178,5 +178,6 @@
   "undo": "Desfacer",
   "medicationHistoryReverted": "Rexistro da toma de medicación cancelado",
   "revertedTime": "Hora de cancelación",
-  "revertedByMember": "Cancelado por {name}"
+  "revertedByMember": "Cancelado por {name}",
+  "medicationTakenAtLabel": "Tomado ás {time}"
 }

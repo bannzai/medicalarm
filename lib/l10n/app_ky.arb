@@ -178,5 +178,6 @@
   "undo": "Артка кайтаруу",
   "medicationHistoryReverted": "Дары ичүү жазуусун жокко чыгаруу",
   "revertedTime": "Жокко чыгаруу убактысы",
-  "revertedByMember": "{name} жокко чыгарды"
+  "revertedByMember": "{name} жокко чыгарды",
+  "medicationTakenAtLabel": "{time} кабыл алынды"
 }

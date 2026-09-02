@@ -178,5 +178,6 @@
   "undo": "Kumoa",
   "medicationHistoryReverted": "Lääkkeenoton kirjaus peruttu",
   "revertedTime": "Peruutusaika",
-  "revertedByMember": "{name} perui"
+  "revertedByMember": "{name} perui",
+  "medicationTakenAtLabel": "Otettu klo {time}"
 }

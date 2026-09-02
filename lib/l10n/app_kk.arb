@@ -178,5 +178,6 @@
   "undo": "Болдырмау",
   "medicationHistoryReverted": "Дәрі қабылдау жазбасын болдырмау",
   "revertedTime": "Болдырмау уақыты",
-  "revertedByMember": "{name} күшін жойды"
+  "revertedByMember": "{name} күшін жойды",
+  "medicationTakenAtLabel": "{time} қабылданды"
 }

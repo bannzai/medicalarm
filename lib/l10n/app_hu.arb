@@ -178,5 +178,6 @@
   "undo": "Visszavonás",
   "medicationHistoryReverted": "Gyógyszerbevétel rögzítésének visszavonása",
   "revertedTime": "A lemondás időpontja",
-  "revertedByMember": "Visszavonta: {name}"
+  "revertedByMember": "Visszavonta: {name}",
+  "medicationTakenAtLabel": "Bevéve: {time}"
 }

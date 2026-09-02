@@ -178,5 +178,6 @@
   "undo": "Опозови",
   "medicationHistoryReverted": "Otkazivanje zapisa o uzimanju leka",
   "revertedTime": "Време отказивања",
-  "revertedByMember": "Otkazano od strane člana {name}"
+  "revertedByMember": "Otkazano od strane člana {name}",
+  "medicationTakenAtLabel": "Узето у {time}"
 }

@@ -178,5 +178,6 @@
   "undo": "Ångra",
   "medicationHistoryReverted": "Ångra läkemedelsregistrering",
   "revertedTime": "Tidpunkt för avbokning",
-  "revertedByMember": "Avbrutet av {name}"
+  "revertedByMember": "Avbrutet av {name}",
+  "medicationTakenAtLabel": "Tagen kl. {time}"
 }

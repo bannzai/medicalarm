@@ -178,5 +178,6 @@
   "undo": "နောက်ပြန်လုပ်ပါ",
   "medicationHistoryReverted": "ဆေးသောက်မှတ်တမ်းကို ပယ်ဖျက်ခြင်း",
   "revertedTime": "ပယ်ဖျက်သည့်အချိန်",
-  "revertedByMember": "{name} က ပယ်ဖျက်ခဲ့သည်"
+  "revertedByMember": "{name} က ပယ်ဖျက်ခဲ့သည်",
+  "medicationTakenAtLabel": "{time} တွင် သောက်ပြီး"
 }

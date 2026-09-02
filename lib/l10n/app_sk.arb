@@ -178,5 +178,6 @@
   "undo": "Späť",
   "medicationHistoryReverted": "Zrušenie záznamu o užití lieku",
   "revertedTime": "Čas zrušenia",
-  "revertedByMember": "Zrušené používateľom {name}"
+  "revertedByMember": "Zrušené používateľom {name}",
+  "medicationTakenAtLabel": "Užité o {time}"
 }

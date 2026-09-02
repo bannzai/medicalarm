@@ -178,5 +178,6 @@
   "undo": "Angre",
   "medicationHistoryReverted": "Angre registrering av medisininntak",
   "revertedTime": "Kanselleringstid",
-  "revertedByMember": "Kansellert av {name}"
+  "revertedByMember": "Kansellert av {name}",
+  "medicationTakenAtLabel": "Tatt kl. {time}"
 }

@@ -178,5 +178,6 @@
   "undo": "ପୂର୍ବାବସ୍ଥାକୁ ଫେରାନ୍ତୁ",
   "medicationHistoryReverted": "ଔଷଧ ସେବନ ରେକର୍ଡ ବାତିଲ",
   "revertedTime": "ବାତିଲ ସମୟ",
-  "revertedByMember": "{name} ବାତିଲ କରିଛନ୍ତି"
+  "revertedByMember": "{name} ବାତିଲ କରିଛନ୍ତି",
+  "medicationTakenAtLabel": "{time}-ରେ ସେବନ କରାଯାଇଛି"
 }

@@ -178,5 +178,6 @@
   "undo": "Hlehlisa",
   "medicationHistoryReverted": "Ukukhanselwa kwerekhodi lokuphuza umuthi",
   "revertedTime": "Isikhathi sokukhansela",
-  "revertedByMember": "{name} ukhansele"
+  "revertedByMember": "{name} ukhansele",
+  "medicationTakenAtLabel": "Iphuzwe ngo-{time}"
 }

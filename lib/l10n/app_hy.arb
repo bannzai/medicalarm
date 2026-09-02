@@ -178,5 +178,6 @@
   "undo": "Հետարկել",
   "medicationHistoryReverted": "Դեղորայքի ընդունման գրառման չեղարկում",
   "revertedTime": "Չեղարկման ժամանակը",
-  "revertedByMember": "{name}-ը չեղարկել է"
+  "revertedByMember": "{name}-ը չեղարկել է",
+  "medicationTakenAtLabel": "Ընդունված է՝ {time}-ին"
 }

@@ -178,5 +178,6 @@
   "undo": "Dadwneud",
   "medicationHistoryReverted": "Canslo cofnod cymryd meddyginiaeth",
   "revertedTime": "Amser canslo",
-  "revertedByMember": "Wedi’i ganslo gan {name}"
+  "revertedByMember": "Wedi’i ganslo gan {name}",
+  "medicationTakenAtLabel": "Wedi’i gymryd am {time}"
 }

@@ -178,5 +178,6 @@
   "undo": "Αναίρεση",
   "medicationHistoryReverted": "Αναίρεση καταγραφής λήψης φαρμάκου",
   "revertedTime": "Ώρα ακύρωσης",
-  "revertedByMember": "Ακύρωση από: {name}"
+  "revertedByMember": "Ακύρωση από: {name}",
+  "medicationTakenAtLabel": "Λήφθηκε στις {time}"
 }

@@ -178,5 +178,6 @@
   "undo": "Rückgängig",
   "medicationHistoryReverted": "Medikamenteneinnahme rückgängig gemacht",
   "revertedTime": "Stornierzyt",
-  "revertedByMember": "Vo {name} annulliert"
+  "revertedByMember": "Vo {name} annulliert",
+  "medicationTakenAtLabel": "Um {time} gnoh"
 }

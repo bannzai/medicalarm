@@ -178,5 +178,6 @@
   "undo": "Anuliuoti",
   "medicationHistoryReverted": "Vaistų vartojimo įrašo atšaukimas",
   "revertedTime": "Atšaukimo laikas",
-  "revertedByMember": "Atšaukė {name}"
+  "revertedByMember": "Atšaukė {name}",
+  "medicationTakenAtLabel": "Išgerta {time}"
 }

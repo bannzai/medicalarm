@@ -178,5 +178,6 @@
   "undo": "Geri al",
   "medicationHistoryReverted": "İlaç alma kaydını iptal etme",
   "revertedTime": "İptal zamanı",
-  "revertedByMember": "{name} iptal etti"
+  "revertedByMember": "{name} iptal etti",
+  "medicationTakenAtLabel": "{time} alındı"
 }

@@ -178,5 +178,6 @@
   "undo": "ቀልብስ",
   "medicationHistoryReverted": "የመድሃኒት መውሰድ መዝገብ ስረዛ",
   "revertedTime": "የመሰረዣ ጊዜ",
-  "revertedByMember": "{name} ሰርዘዋል"
+  "revertedByMember": "{name} ሰርዘዋል",
+  "medicationTakenAtLabel": "በ{time} ተወስዷል"
 }

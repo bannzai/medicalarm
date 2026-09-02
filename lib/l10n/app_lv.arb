@@ -178,5 +178,6 @@
   "undo": "Atsaukt",
   "medicationHistoryReverted": "Medikamentu lietošanas ieraksta atcelšana",
   "revertedTime": "Atcelšanas laiks",
-  "revertedByMember": "Atcēla {name}"
+  "revertedByMember": "Atcēla {name}",
+  "medicationTakenAtLabel": "Lietots plkst. {time}"
 }

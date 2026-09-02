@@ -178,5 +178,6 @@
   "undo": "අහෝසි කරන්න",
   "medicationHistoryReverted": "ඖෂධ ගැනීමේ වාර්තාව අවලංගු කිරීම",
   "revertedTime": "අවලංගු කළ වේලාව",
-  "revertedByMember": "{name} විසින් අවලංගු කරන ලදී"
+  "revertedByMember": "{name} විසින් අවලංගු කරන ලදී",
+  "medicationTakenAtLabel": "{time} ට ගත්තා"
 }

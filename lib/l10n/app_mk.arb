@@ -178,5 +178,6 @@
   "undo": "Врати",
   "medicationHistoryReverted": "Откажување на записот за земање лек",
   "revertedTime": "Време на откажување",
-  "revertedByMember": "Откажано од {name}"
+  "revertedByMember": "Откажано од {name}",
+  "medicationTakenAtLabel": "Земено во {time}"
 }

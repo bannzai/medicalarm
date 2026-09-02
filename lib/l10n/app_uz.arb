@@ -178,5 +178,6 @@
   "undo": "Bekor qilish",
   "medicationHistoryReverted": "Dori qabul qilish yozuvini bekor qilish",
   "revertedTime": "Bekor qilingan vaqt",
-  "revertedByMember": "{name} bekor qildi"
+  "revertedByMember": "{name} bekor qildi",
+  "medicationTakenAtLabel": "{time} da qabul qilindi"
 }

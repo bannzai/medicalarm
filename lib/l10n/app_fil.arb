@@ -178,5 +178,6 @@
   "undo": "I-undo",
   "medicationHistoryReverted": "Kinanselang tala ng pag-inom ng gamot",
   "revertedTime": "Oras ng pagkansela",
-  "revertedByMember": "Kinansela ni {name}"
+  "revertedByMember": "Kinansela ni {name}",
+  "medicationTakenAtLabel": "Ininom noong {time}"
 }

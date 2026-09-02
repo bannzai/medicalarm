@@ -178,5 +178,6 @@
   "undo": "Ontdoen",
   "medicationHistoryReverted": "Medikasie-inname ongedaan gemaak",
   "revertedTime": "Kansellasietyd",
-  "revertedByMember": "{name} het gekanselleer"
+  "revertedByMember": "{name} het gekanselleer",
+  "medicationTakenAtLabel": "{time} Ingeneem"
 }

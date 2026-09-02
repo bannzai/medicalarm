@@ -178,5 +178,6 @@
   "undo": "មិនធ្វើវិញ",
   "medicationHistoryReverted": "បោះបង់កំណត់ត្រាការលេបថ្នាំ",
   "revertedTime": "ពេលវេលាលុបចោល",
-  "revertedByMember": "{name} បានបោះបង់"
+  "revertedByMember": "{name} បានបោះបង់",
+  "medicationTakenAtLabel": "បានលេបនៅម៉ោង {time}"
 }

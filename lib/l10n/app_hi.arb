@@ -178,5 +178,6 @@
   "undo": "पूर्ववत करें",
   "medicationHistoryReverted": "दवा लेने का रिकॉर्ड रद्द",
   "revertedTime": "रद्द करने का समय",
-  "revertedByMember": "{name} ने रद्द किया"
+  "revertedByMember": "{name} ने रद्द किया",
+  "medicationTakenAtLabel": "{time} पर लिया गया"
 }

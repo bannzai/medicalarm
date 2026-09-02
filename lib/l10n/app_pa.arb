@@ -178,5 +178,6 @@
   "undo": "ਵਾਪਸ ਕਰੋ",
   "medicationHistoryReverted": "ਦਵਾਈ ਲੈਣ ਦਾ ਰਿਕਾਰਡ ਰੱਦ",
   "revertedTime": "ਰੱਦ ਕਰਨ ਦਾ ਸਮਾਂ",
-  "revertedByMember": "{name} ਨੇ ਰੱਦ ਕੀਤਾ"
+  "revertedByMember": "{name} ਨੇ ਰੱਦ ਕੀਤਾ",
+  "medicationTakenAtLabel": "{time} ਵਜੇ ਲਈ ਗਈ"
 }

@@ -178,5 +178,6 @@
   "undo": "Fortryd",
   "medicationHistoryReverted": "Annullering af medicinregistrering",
   "revertedTime": "Annulleringstid",
-  "revertedByMember": "Annulleret af {name}"
+  "revertedByMember": "Annulleret af {name}",
+  "medicationTakenAtLabel": "Taget kl. {time}"
 }

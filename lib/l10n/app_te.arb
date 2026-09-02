@@ -178,5 +178,6 @@
   "undo": "రద్దు చేయి",
   "medicationHistoryReverted": "మందు తీసుకున్న రికార్డును రద్దు చేయడం",
   "revertedTime": "రద్దు చేసిన సమయం",
-  "revertedByMember": "{name} రద్దు చేశారు"
+  "revertedByMember": "{name} రద్దు చేశారు",
+  "medicationTakenAtLabel": "{time}కి తీసుకున్నారు"
 }

@@ -178,5 +178,6 @@
   "undo": "Rückgängig",
   "medicationHistoryReverted": "Medikamenteneinnahme rückgängig gemacht",
   "revertedTime": "Stornierungszeit",
-  "revertedByMember": "Von {name} storniert"
+  "revertedByMember": "Von {name} storniert",
+  "medicationTakenAtLabel": "Um {time} eingenommen"
 }

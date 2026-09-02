@@ -178,5 +178,6 @@
   "undo": "Буцаах",
   "medicationHistoryReverted": "Эм уусан бүртгэлийг цуцлах",
   "revertedTime": "Цуцалсан цаг",
-  "revertedByMember": "{name} цуцалсан"
+  "revertedByMember": "{name} цуцалсан",
+  "medicationTakenAtLabel": "{time}-д уусан"
 }

@@ -178,5 +178,6 @@
   "undo": "Buat asal",
   "medicationHistoryReverted": "Pembatalan rekod pengambilan ubat",
   "revertedTime": "Masa pembatalan",
-  "revertedByMember": "{name} membatalkan"
+  "revertedByMember": "{name} membatalkan",
+  "medicationTakenAtLabel": "Diambil pada {time}"
 }

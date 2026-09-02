@@ -178,5 +178,6 @@
   "undo": "पूर्ववत करा",
   "medicationHistoryReverted": "औषध घेतल्याची नोंद रद्द",
   "revertedTime": "रद्द करण्याची वेळ",
-  "revertedByMember": "{name} यांनी रद्द केले"
+  "revertedByMember": "{name} यांनी रद्द केले",
+  "medicationTakenAtLabel": "{time} वाजता घेतले"
 }

@@ -178,5 +178,6 @@
   "undo": "Desegin",
   "medicationHistoryReverted": "Botika hartzearen erregistroa ezeztatuta",
   "revertedTime": "Ezeztapen-ordua",
-  "revertedByMember": "Bertan behera utzita: {name}"
+  "revertedByMember": "Bertan behera utzita: {name}",
+  "medicationTakenAtLabel": "{time}(e)an hartuta"
 }

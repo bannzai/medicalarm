@@ -178,5 +178,6 @@
   "undo": "Desfés",
   "medicationHistoryReverted": "Cancel·lació del registre de presa de medicació",
   "revertedTime": "Hora de cancel·lació",
-  "revertedByMember": "Cancel·lat per {name}"
+  "revertedByMember": "Cancel·lat per {name}",
+  "medicationTakenAtLabel": "Pres a les {time}"
 }

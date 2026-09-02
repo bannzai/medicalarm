@@ -178,5 +178,6 @@
   "undo": "Tendua",
   "medicationHistoryReverted": "Kughairi rekodi ya matumizi ya dawa",
   "revertedTime": "Muda wa kughairi",
-  "revertedByMember": "{name} amefuta"
+  "revertedByMember": "{name} amefuta",
+  "medicationTakenAtLabel": "Imetumiwa saa {time}"
 }

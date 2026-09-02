@@ -178,5 +178,6 @@
   "undo": "Urungkan",
   "medicationHistoryReverted": "Pembatalan catatan minum obat",
   "revertedTime": "Waktu pembatalan",
-  "revertedByMember": "{name} membatalkan"
+  "revertedByMember": "{name} membatalkan",
+  "medicationTakenAtLabel": "Diminum pada {time}"
 }

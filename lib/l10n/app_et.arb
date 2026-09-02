@@ -178,5 +178,6 @@
   "undo": "Võta tagasi",
   "medicationHistoryReverted": "Ravimi võtmise kirje tühistamine",
   "revertedTime": "Tühistamise aeg",
-  "revertedByMember": "Tühistas {name}"
+  "revertedByMember": "Tühistas {name}",
+  "medicationTakenAtLabel": "Võetud kell {time}"
 }

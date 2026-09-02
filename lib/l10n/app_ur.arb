@@ -178,5 +178,6 @@
   "undo": "واپس کریں",
   "medicationHistoryReverted": "دوا لینے کا ریکارڈ منسوخ کرنا",
   "revertedTime": "منسوخی کا وقت",
-  "revertedByMember": "{name} نے منسوخ کیا"
+  "revertedByMember": "{name} نے منسوخ کیا",
+  "medicationTakenAtLabel": "{time} پر دوا لے لی گئی"
 }

@@ -178,5 +178,6 @@
   "undo": "পূৰ্বাৱস্থালৈ নিন",
   "medicationHistoryReverted": "ঔষধ সেবনৰ ৰেকৰ্ড বাতিল",
   "revertedTime": "বাতিল কৰাৰ সময়",
-  "revertedByMember": "{name}-এ বাতিল কৰিছে"
+  "revertedByMember": "{name}-এ বাতিল কৰিছে",
+  "medicationTakenAtLabel": "{time}-ত সেৱন কৰা হৈছে"
 }
