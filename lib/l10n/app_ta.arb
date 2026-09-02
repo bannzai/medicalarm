@@ -241,5 +241,6 @@
   "onboardingBack": "பின்செல்",
   "onboardingPainForgotTitle": "நீங்கள் எப்போதாவது மருந்து உட்கொள்ள மறந்துவிட்டீர்களா?",
   "onboardingFrequencyOften": "அடிக்கடி",
-  "onboardingFrequencySometimes": "சில நேரங்களில்"
+  "onboardingFrequencySometimes": "சில நேரங்களில்",
+  "onboardingFrequencyRarely": "கிட்டத்தட்ட ஒருபோதும் இல்லை"
 }

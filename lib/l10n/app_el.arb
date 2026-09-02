@@ -241,5 +241,6 @@
   "onboardingBack": "Πίσω",
   "onboardingPainForgotTitle": "Έχετε ξεχάσει ποτέ να πάρετε το φάρμακό σας;",
   "onboardingFrequencyOften": "Συχνά",
-  "onboardingFrequencySometimes": "Μερικές φορές"
+  "onboardingFrequencySometimes": "Μερικές φορές",
+  "onboardingFrequencyRarely": "Σχεδόν ποτέ"
 }

@@ -241,5 +241,6 @@
   "onboardingBack": "Tilbage",
   "onboardingPainForgotTitle": "Har du nogensinde glemt at tage din medicin?",
   "onboardingFrequencyOften": "Ofte",
-  "onboardingFrequencySometimes": "En gang imellem"
+  "onboardingFrequencySometimes": "En gang imellem",
+  "onboardingFrequencyRarely": "Næsten aldrig"
 }

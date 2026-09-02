@@ -241,5 +241,6 @@
   "onboardingBack": "Atpakaļ",
   "onboardingPainForgotTitle": "Vai jums kādreiz ir gadījies aizmirst iedzert zāles?",
   "onboardingFrequencyOften": "Bieži",
-  "onboardingFrequencySometimes": "Dažreiz"
+  "onboardingFrequencySometimes": "Dažreiz",
+  "onboardingFrequencyRarely": "Gandrīz nekad"
 }

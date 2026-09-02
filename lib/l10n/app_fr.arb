@@ -241,5 +241,6 @@
   "onboardingBack": "Retour",
   "onboardingPainForgotTitle": "Avez-vous déjà oublié de prendre votre médicament ?",
   "onboardingFrequencyOften": "Souvent",
-  "onboardingFrequencySometimes": "Parfois"
+  "onboardingFrequencySometimes": "Parfois",
+  "onboardingFrequencyRarely": "Presque jamais"
 }

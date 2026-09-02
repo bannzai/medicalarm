@@ -241,5 +241,6 @@
   "onboardingBack": "Terug",
   "onboardingPainForgotTitle": "Bent u ooit vergeten uw medicijn in te nemen?",
   "onboardingFrequencyOften": "Vaak",
-  "onboardingFrequencySometimes": "Soms"
+  "onboardingFrequencySometimes": "Soms",
+  "onboardingFrequencyRarely": "Bijna nooit"
 }

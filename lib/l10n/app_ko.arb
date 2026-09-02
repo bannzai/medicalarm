@@ -241,5 +241,6 @@
   "onboardingBack": "뒤로",
   "onboardingPainForgotTitle": "약을 복용하는 것을 잊은 적이 있나요?",
   "onboardingFrequencyOften": "자주",
-  "onboardingFrequencySometimes": "가끔"
+  "onboardingFrequencySometimes": "가끔",
+  "onboardingFrequencyRarely": "거의 없음"
 }

@@ -241,5 +241,6 @@
   "onboardingBack": "Takaisin",
   "onboardingPainForgotTitle": "Oletko joskus unohtanut ottaa lääkkeesi?",
   "onboardingFrequencyOften": "Usein",
-  "onboardingFrequencySometimes": "Joskus"
+  "onboardingFrequencySometimes": "Joskus",
+  "onboardingFrequencyRarely": "Tuskin koskaan"
 }

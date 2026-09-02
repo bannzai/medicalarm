@@ -241,5 +241,6 @@
   "onboardingBack": "Vissza",
   "onboardingPainForgotTitle": "Előfordult már, hogy elfelejtette bevenni a gyógyszerét?",
   "onboardingFrequencyOften": "Gyakran",
-  "onboardingFrequencySometimes": "Néha"
+  "onboardingFrequencySometimes": "Néha",
+  "onboardingFrequencyRarely": "Szinte soha"
 }

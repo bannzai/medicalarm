@@ -241,5 +241,6 @@
   "onboardingBack": "পিছনে যান",
   "onboardingPainForgotTitle": "আপনি কি কখনও ওষুধ খেতে ভুলে গেছেন?",
   "onboardingFrequencyOften": "প্রায়ই",
-  "onboardingFrequencySometimes": "মাঝে মাঝে"
+  "onboardingFrequencySometimes": "মাঝে মাঝে",
+  "onboardingFrequencyRarely": "প্রায় কখনোই নয়"
 }

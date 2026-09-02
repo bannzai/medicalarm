@@ -241,5 +241,6 @@
   "onboardingBack": "Назад",
   "onboardingPainForgotTitle": "Да ли сте икада заборавили да узмете лек?",
   "onboardingFrequencyOften": "Често",
-  "onboardingFrequencySometimes": "Понекад"
+  "onboardingFrequencySometimes": "Понекад",
+  "onboardingFrequencyRarely": "Готово никад"
 }
