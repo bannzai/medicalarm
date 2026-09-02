@@ -12,6 +12,9 @@ class OnboardingMessageStep extends StatelessWidget {
   final String body;
   final ValueNotifier<int> stepIndex;
 
+  /// この画面がファネル内で占める位置。次のフレームの再構築前に 2 回押された時 (連打・アクセシビリティ操作) に多重で進めないための判定に使う
+  final int index;
+
   const OnboardingMessageStep({
     super.key,
     required this.step,
@@ -19,6 +22,7 @@ class OnboardingMessageStep extends StatelessWidget {
     required this.title,
     required this.body,
     required this.stepIndex,
+    required this.index,
   });
 
   @override
@@ -30,6 +34,9 @@ class OnboardingMessageStep extends StatelessWidget {
       subtitle: null,
       bottom: ElevatedButton(
         onPressed: () {
+          if (stepIndex.value != index) {
+            return;
+          }
           analytics.logEvent(name: 'onboarding_next_pressed', parameters: {'step': step.name});
           stepIndex.value += 1;
         },

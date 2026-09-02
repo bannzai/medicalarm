@@ -120,7 +120,7 @@ class OnboardingPage extends HookConsumerWidget {
           child: KeyedSubtree(
             key: ValueKey(step),
             child: switch (step) {
-              OnboardingStep.welcome => OnboardingWelcomeStep(stepIndex: stepIndex),
+              OnboardingStep.welcome => OnboardingWelcomeStep(stepIndex: stepIndex, index: stepIndex.value),
               OnboardingStep.painForgot => OnboardingQuestionStep(
                   step: step,
                   title: L.onboardingPainForgotTitle,
@@ -145,6 +145,7 @@ class OnboardingPage extends HookConsumerWidget {
                   title: L.onboardingValueReminderTitle,
                   body: L.onboardingValueReminderBody,
                   stepIndex: stepIndex,
+                  index: stepIndex.value,
                 ),
               OnboardingStep.careTarget => OnboardingQuestionStep(
                   step: step,
@@ -173,7 +174,7 @@ class OnboardingPage extends HookConsumerWidget {
                   stepIndex: stepIndex,
                   index: stepIndex.value,
                 ),
-              OnboardingStep.beforeAfter => OnboardingBeforeAfterStep(stepIndex: stepIndex),
+              OnboardingStep.beforeAfter => OnboardingBeforeAfterStep(stepIndex: stepIndex, index: stepIndex.value),
               OnboardingStep.goal => OnboardingQuestionStep(
                   step: step,
                   title: L.onboardingGoalTitle,

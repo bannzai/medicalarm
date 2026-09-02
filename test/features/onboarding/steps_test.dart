@@ -73,6 +73,92 @@ void main() {
     });
   });
 
+  // 翻訳が別言語の文字体系 (例: アムハラ語の arb にアルメニア文字) で混入していないことを検証する。
+  // 各 arb の既存の訳文で最も多い文字体系を「その言語の文字体系」とし、onboarding* の訳文にそれと異なる非ラテン文字体系が
+  // 主に使われていれば失敗にする (ラテン文字は Medicalarm や Critical Alert 等の固有名詞で混ざるため除外)
+  group('オンボーディング文言の文字体系', () {
+    // Unicode ブロックの範囲と文字体系名。ラテン文字はここに含めず、下の isLatin で判定する
+    const scriptRanges = <(int, int, String)>[
+      (0x0370, 0x03FF, 'Greek'),
+      (0x0400, 0x04FF, 'Cyrillic'),
+      (0x0530, 0x058F, 'Armenian'),
+      (0x0590, 0x05FF, 'Hebrew'),
+      (0x0600, 0x06FF, 'Arabic'),
+      (0x0900, 0x097F, 'Devanagari'),
+      (0x0980, 0x09FF, 'Bengali'),
+      (0x0A00, 0x0A7F, 'Gurmukhi'),
+      (0x0A80, 0x0AFF, 'Gujarati'),
+      (0x0B00, 0x0B7F, 'Oriya'),
+      (0x0B80, 0x0BFF, 'Tamil'),
+      (0x0C00, 0x0C7F, 'Telugu'),
+      (0x0C80, 0x0CFF, 'Kannada'),
+      (0x0D00, 0x0D7F, 'Malayalam'),
+      (0x0D80, 0x0DFF, 'Sinhala'),
+      (0x0E00, 0x0E7F, 'Thai'),
+      (0x0E80, 0x0EFF, 'Lao'),
+      (0x1000, 0x109F, 'Myanmar'),
+      (0x10A0, 0x10FF, 'Georgian'),
+      (0x1200, 0x137F, 'Ethiopic'),
+      (0x1780, 0x17FF, 'Khmer'),
+      (0x3040, 0x30FF, 'CJK'),
+      (0x4E00, 0x9FFF, 'CJK'),
+      (0x1100, 0x11FF, 'Hangul'),
+      (0x3130, 0x318F, 'Hangul'),
+      (0xAC00, 0xD7AF, 'Hangul'),
+    ];
+
+    bool isLatin(int rune) => (rune >= 0x41 && rune <= 0x5A) || (rune >= 0x61 && rune <= 0x7A) || (rune >= 0x00C0 && rune <= 0x024F);
+
+    String? scriptOf(int rune) {
+      for (final (start, end, name) in scriptRanges) {
+        if (rune >= start && rune <= end) {
+          return name;
+        }
+      }
+      return null;
+    }
+
+    /// 文字体系ごとの出現数。[includeLatin] が false ならラテン文字を数えない
+    Map<String, int> countScripts(Iterable<String> values, {required bool includeLatin}) {
+      final counts = <String, int>{};
+      for (final value in values) {
+        for (final rune in value.runes) {
+          final script = isLatin(rune) ? (includeLatin ? 'Latin' : null) : scriptOf(rune);
+          if (script != null) {
+            counts[script] = (counts[script] ?? 0) + 1;
+          }
+        }
+      }
+      return counts;
+    }
+
+    String? dominant(Map<String, int> counts) => counts.isEmpty ? null : counts.entries.reduce((a, b) => a.value >= b.value ? a : b).key;
+
+    test('各言語の onboarding* の訳文に、その言語と異なる非ラテン文字体系が主に使われていない', () {
+      final mismatches = <String>[];
+      for (final entity in Directory('lib/l10n').listSync()) {
+        final languageCode = RegExp(r'app_(.+)\.arb$').firstMatch(entity.path)?.group(1);
+        if (languageCode == null) {
+          continue;
+        }
+        final arb = jsonDecode(File(entity.path).readAsStringSync()) as Map<String, dynamic>;
+        final existingValues =
+            arb.entries.where((e) => !e.key.startsWith('@') && !e.key.startsWith('onboarding') && e.value is String).map((e) => e.value as String);
+        final languageScript = dominant(countScripts(existingValues, includeLatin: true));
+        if (languageScript == null || languageScript == 'Latin') {
+          continue;
+        }
+        for (final entry in arb.entries.where((e) => e.key.startsWith('onboarding') && e.value is String)) {
+          final valueScript = dominant(countScripts([entry.value as String], includeLatin: false));
+          if (valueScript != null && valueScript != languageScript) {
+            mismatches.add('app_$languageCode.arb ${entry.key}: $valueScript (言語は $languageScript)');
+          }
+        }
+      }
+      expect(mismatches, isEmpty, reason: mismatches.join('\n'));
+    });
+  });
+
   // 回答が無料プランの登録上限 (服用者 2 人・通知スケジュール 2 件・薬 2 種類) を超える時だけプレミアムを勧める
   group('onboardingRecommendsPremium', () {
     test('すべて無料枠に収まるなら勧めない', () {

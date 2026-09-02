@@ -9,7 +9,10 @@ import 'package:medicalarm/utils/analytics/analytics.dart';
 class OnboardingBeforeAfterStep extends StatelessWidget {
   final ValueNotifier<int> stepIndex;
 
-  const OnboardingBeforeAfterStep({super.key, required this.stepIndex});
+  /// この画面がファネル内で占める位置。次のフレームの再構築前に 2 回押された時 (連打・アクセシビリティ操作) に多重で進めないための判定に使う
+  final int index;
+
+  const OnboardingBeforeAfterStep({super.key, required this.stepIndex, required this.index});
 
   @override
   Widget build(BuildContext context) {
@@ -20,6 +23,9 @@ class OnboardingBeforeAfterStep extends StatelessWidget {
       subtitle: null,
       bottom: ElevatedButton(
         onPressed: () {
+          if (stepIndex.value != index) {
+            return;
+          }
           analytics.logEvent(name: 'onboarding_before_after_next', parameters: {'step': OnboardingStep.beforeAfter.name});
           stepIndex.value += 1;
         },
