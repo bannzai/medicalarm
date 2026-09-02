@@ -179,5 +179,6 @@
   "medicationHistoryReverted": "Preklic zapisa o zaužitju zdravila",
   "revertedTime": "Čas preklica",
   "revertedByMember": "Preklicano s strani uporabnika {name}",
-  "medicationTakenAtLabel": "Vzeto ob {time}"
+  "medicationTakenAtLabel": "Vzeto ob {time}",
+  "medicineResumedSnackbar": "Jemanje zdravila se je nadaljevalo"
 }

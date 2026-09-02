@@ -179,5 +179,6 @@
   "medicationHistoryReverted": "Angre registrering av medisininntak",
   "revertedTime": "Kanselleringstid",
   "revertedByMember": "Kansellert av {name}",
-  "medicationTakenAtLabel": "Tatt kl. {time}"
+  "medicationTakenAtLabel": "Tatt kl. {time}",
+  "medicineResumedSnackbar": "Medisininntaket er gjenopptatt"
 }

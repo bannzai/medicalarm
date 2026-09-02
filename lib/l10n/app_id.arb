@@ -179,5 +179,6 @@
   "medicationHistoryReverted": "Pembatalan catatan minum obat",
   "revertedTime": "Waktu pembatalan",
   "revertedByMember": "{name} membatalkan",
-  "medicationTakenAtLabel": "Diminum pada {time}"
+  "medicationTakenAtLabel": "Diminum pada {time}",
+  "medicineResumedSnackbar": "Konsumsi obat dilanjutkan"
 }

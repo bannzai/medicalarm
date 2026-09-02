@@ -179,5 +179,6 @@
   "medicationHistoryReverted": "Annullering af medicinregistrering",
   "revertedTime": "Annulleringstid",
   "revertedByMember": "Annulleret af {name}",
-  "medicationTakenAtLabel": "Taget kl. {time}"
+  "medicationTakenAtLabel": "Taget kl. {time}",
+  "medicineResumedSnackbar": "Medicinen er genoptaget"
 }

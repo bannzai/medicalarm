@@ -179,5 +179,6 @@
   "medicationHistoryReverted": "औषध सेवनको रेकर्ड रद्द",
   "revertedTime": "रद्द गरिएको समय",
   "revertedByMember": "{name} ले रद्द गर्नुभयो",
-  "medicationTakenAtLabel": "{time} मा सेवन गरियो"
+  "medicationTakenAtLabel": "{time} मा सेवन गरियो",
+  "medicineResumedSnackbar": "औषधि सेवन पुनः सुरु गरिएको छ"
 }

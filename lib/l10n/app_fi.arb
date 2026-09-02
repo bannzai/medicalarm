@@ -179,5 +179,6 @@
   "medicationHistoryReverted": "Lääkkeenoton kirjaus peruttu",
   "revertedTime": "Peruutusaika",
   "revertedByMember": "{name} perui",
-  "medicationTakenAtLabel": "Otettu klo {time}"
+  "medicationTakenAtLabel": "Otettu klo {time}",
+  "medicineResumedSnackbar": "Lääkkeen ottamista jatkettiin"
 }

@@ -179,5 +179,6 @@
   "medicationHistoryReverted": "복약 기록 취소",
   "revertedTime": "취소 시간",
   "revertedByMember": "{name}님이 취소함",
-  "medicationTakenAtLabel": "{time} 복용 완료"
+  "medicationTakenAtLabel": "{time} 복용 완료",
+  "medicineResumedSnackbar": "약 복용을 재개했습니다"
 }

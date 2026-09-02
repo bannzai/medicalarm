@@ -179,5 +179,6 @@
   "medicationHistoryReverted": "Botika hartzearen erregistroa ezeztatuta",
   "revertedTime": "Ezeztapen-ordua",
   "revertedByMember": "Bertan behera utzita: {name}",
-  "medicationTakenAtLabel": "{time}(e)an hartuta"
+  "medicationTakenAtLabel": "{time}(e)an hartuta",
+  "medicineResumedSnackbar": "Sendagaiaren hartzea berrabiarazi da"
 }

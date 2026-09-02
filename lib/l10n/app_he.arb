@@ -179,5 +179,6 @@
   "medicationHistoryReverted": "ביטול רישום נטילת תרופה",
   "revertedTime": "זמן הביטול",
   "revertedByMember": "בוטל על ידי {name}",
-  "medicationTakenAtLabel": "נלקח ב־{time}"
+  "medicationTakenAtLabel": "נלקח ב־{time}",
+  "medicineResumedSnackbar": "נטילת התרופה חודשה"
 }

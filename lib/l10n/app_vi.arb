@@ -179,5 +179,6 @@
   "medicationHistoryReverted": "Hủy bản ghi uống thuốc",
   "revertedTime": "Thời gian hủy",
   "revertedByMember": "{name} đã hủy",
-  "medicationTakenAtLabel": "Đã uống lúc {time}"
+  "medicationTakenAtLabel": "Đã uống lúc {time}",
+  "medicineResumedSnackbar": "Đã tiếp tục dùng thuốc"
 }

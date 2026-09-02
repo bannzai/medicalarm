@@ -179,5 +179,6 @@
   "medicationHistoryReverted": "ଔଷଧ ସେବନ ରେକର୍ଡ ବାତିଲ",
   "revertedTime": "ବାତିଲ ସମୟ",
   "revertedByMember": "{name} ବାତିଲ କରିଛନ୍ତି",
-  "medicationTakenAtLabel": "{time}-ରେ ସେବନ କରାଯାଇଛି"
+  "medicationTakenAtLabel": "{time}-ରେ ସେବନ କରାଯାଇଛି",
+  "medicineResumedSnackbar": "ଔଷଧ ସେବନ ପୁନର୍ବାର ଆରମ୍ଭ ହୋଇଛି"
 }

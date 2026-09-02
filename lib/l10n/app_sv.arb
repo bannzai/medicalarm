@@ -179,5 +179,6 @@
   "medicationHistoryReverted": "Ångra läkemedelsregistrering",
   "revertedTime": "Tidpunkt för avbokning",
   "revertedByMember": "Avbrutet av {name}",
-  "medicationTakenAtLabel": "Tagen kl. {time}"
+  "medicationTakenAtLabel": "Tagen kl. {time}",
+  "medicineResumedSnackbar": "Intaget av medicinen har återupptagits"
 }

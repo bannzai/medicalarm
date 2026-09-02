@@ -179,5 +179,6 @@
   "medicationHistoryReverted": "మందు తీసుకున్న రికార్డును రద్దు చేయడం",
   "revertedTime": "రద్దు చేసిన సమయం",
   "revertedByMember": "{name} రద్దు చేశారు",
-  "medicationTakenAtLabel": "{time}కి తీసుకున్నారు"
+  "medicationTakenAtLabel": "{time}కి తీసుకున్నారు",
+  "medicineResumedSnackbar": "మందు తీసుకోవడం మళ్లీ ప్రారంభమైంది"
 }

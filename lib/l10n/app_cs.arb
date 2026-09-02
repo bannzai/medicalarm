@@ -179,5 +179,6 @@
   "medicationHistoryReverted": "Zrušení záznamu o užití léku",
   "revertedTime": "Čas zrušení",
   "revertedByMember": "Zrušeno uživatelem {name}",
-  "medicationTakenAtLabel": "Užito v {time}"
+  "medicationTakenAtLabel": "Užito v {time}",
+  "medicineResumedSnackbar": "Užívání léku bylo obnoveno"
 }

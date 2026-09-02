@@ -179,5 +179,6 @@
   "medicationHistoryReverted": "撤销服药记录",
   "revertedTime": "取消时间",
   "revertedByMember": "{name}已取消",
-  "medicationTakenAtLabel": "{time} 已服用"
+  "medicationTakenAtLabel": "{time} 已服用",
+  "medicineResumedSnackbar": "已恢复服药"
 }

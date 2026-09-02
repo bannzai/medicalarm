@@ -179,5 +179,6 @@
   "medicationHistoryReverted": "Ravimi võtmise kirje tühistamine",
   "revertedTime": "Tühistamise aeg",
   "revertedByMember": "Tühistas {name}",
-  "medicationTakenAtLabel": "Võetud kell {time}"
+  "medicationTakenAtLabel": "Võetud kell {time}",
+  "medicineResumedSnackbar": "Ravimi võtmist jätkati"
 }

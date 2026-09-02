@@ -179,5 +179,6 @@
   "medicationHistoryReverted": "Дары ичүү жазуусун жокко чыгаруу",
   "revertedTime": "Жокко чыгаруу убактысы",
   "revertedByMember": "{name} жокко чыгарды",
-  "medicationTakenAtLabel": "{time} кабыл алынды"
+  "medicationTakenAtLabel": "{time} кабыл алынды",
+  "medicineResumedSnackbar": "Дарыны кабыл алуу кайра башталды"
 }

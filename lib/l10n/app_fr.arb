@@ -179,5 +179,6 @@
   "medicationHistoryReverted": "Annulation de la prise de médicament",
   "revertedTime": "Heure d’annulation",
   "revertedByMember": "Annulé par {name}",
-  "medicationTakenAtLabel": "Pris à {time}"
+  "medicationTakenAtLabel": "Pris à {time}",
+  "medicineResumedSnackbar": "La prise du médicament a repris"
 }

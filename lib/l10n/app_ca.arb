@@ -179,5 +179,6 @@
   "medicationHistoryReverted": "Cancel·lació del registre de presa de medicació",
   "revertedTime": "Hora de cancel·lació",
   "revertedByMember": "Cancel·lat per {name}",
-  "medicationTakenAtLabel": "Pres a les {time}"
+  "medicationTakenAtLabel": "Pres a les {time}",
+  "medicineResumedSnackbar": "S'ha reprès la presa del medicament"
 }

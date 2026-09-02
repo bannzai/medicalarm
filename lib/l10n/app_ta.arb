@@ -179,5 +179,6 @@
   "medicationHistoryReverted": "மருந்து உட்கொண்ட பதிவு ரத்து",
   "revertedTime": "ரத்து செய்த நேரம்",
   "revertedByMember": "{name} ரத்து செய்தார்",
-  "medicationTakenAtLabel": "{time} மணிக்கு எடுத்துக்கொள்ளப்பட்டது"
+  "medicationTakenAtLabel": "{time} மணிக்கு எடுத்துக்கொள்ளப்பட்டது",
+  "medicineResumedSnackbar": "மருந்து உட்கொள்வது மீண்டும் தொடங்கப்பட்டது"
 }

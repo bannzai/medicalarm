@@ -179,5 +179,6 @@
   "medicationHistoryReverted": "Vaistų vartojimo įrašo atšaukimas",
   "revertedTime": "Atšaukimo laikas",
   "revertedByMember": "Atšaukė {name}",
-  "medicationTakenAtLabel": "Išgerta {time}"
+  "medicationTakenAtLabel": "Išgerta {time}",
+  "medicineResumedSnackbar": "Vaistų vartojimas atnaujintas"
 }

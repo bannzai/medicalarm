@@ -179,5 +179,6 @@
   "medicationHistoryReverted": "Medicatie-inname ongedaan maken",
   "revertedTime": "Annuleertijd",
   "revertedByMember": "Geannuleerd door {name}",
-  "medicationTakenAtLabel": "Ingenomen om {time}"
+  "medicationTakenAtLabel": "Ingenomen om {time}",
+  "medicineResumedSnackbar": "Het innemen van het medicijn is hervat"
 }

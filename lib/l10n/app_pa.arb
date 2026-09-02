@@ -179,5 +179,6 @@
   "medicationHistoryReverted": "ਦਵਾਈ ਲੈਣ ਦਾ ਰਿਕਾਰਡ ਰੱਦ",
   "revertedTime": "ਰੱਦ ਕਰਨ ਦਾ ਸਮਾਂ",
   "revertedByMember": "{name} ਨੇ ਰੱਦ ਕੀਤਾ",
-  "medicationTakenAtLabel": "{time} ਵਜੇ ਲਈ ਗਈ"
+  "medicationTakenAtLabel": "{time} ਵਜੇ ਲਈ ਗਈ",
+  "medicineResumedSnackbar": "ਦਵਾਈ ਲੈਣੀ ਮੁੜ ਸ਼ੁਰੂ ਕੀਤੀ ਗਈ ਹੈ"
 }

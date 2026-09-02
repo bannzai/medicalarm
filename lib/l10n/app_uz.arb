@@ -179,5 +179,6 @@
   "medicationHistoryReverted": "Dori qabul qilish yozuvini bekor qilish",
   "revertedTime": "Bekor qilingan vaqt",
   "revertedByMember": "{name} bekor qildi",
-  "medicationTakenAtLabel": "{time} da qabul qilindi"
+  "medicationTakenAtLabel": "{time} da qabul qilindi",
+  "medicineResumedSnackbar": "Dorini qabul qilish qayta boshlandi"
 }

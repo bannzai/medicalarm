@@ -179,5 +179,6 @@
   "medicationHistoryReverted": "Skráning lyfjatöku afturkölluð",
   "revertedTime": "Tími afturköllunar",
   "revertedByMember": "Hætt við af {name}",
-  "medicationTakenAtLabel": "Tekið kl. {time}"
+  "medicationTakenAtLabel": "Tekið kl. {time}",
+  "medicineResumedSnackbar": "Lyfjatöku hefur verið haldið áfram"
 }

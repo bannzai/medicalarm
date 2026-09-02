@@ -179,5 +179,6 @@
   "medicationHistoryReverted": "Medikamenteneinnahme rückgängig gemacht",
   "revertedTime": "Stornierzyt",
   "revertedByMember": "Vo {name} annulliert",
-  "medicationTakenAtLabel": "Um {time} gnoh"
+  "medicationTakenAtLabel": "Um {time} gnoh",
+  "medicineResumedSnackbar": "D Medikamenteneinnahm isch wieder ufgnuu worde"
 }

@@ -179,5 +179,6 @@
   "medicationHistoryReverted": "Dərman qəbulu qeydinin ləğvi",
   "revertedTime": "Ləğv edilmə vaxtı",
   "revertedByMember": "{name} ləğv etdi",
-  "medicationTakenAtLabel": "{time} Qəbul edilib"
+  "medicationTakenAtLabel": "{time} Qəbul edilib",
+  "medicineResumedSnackbar": "Dərmanın qəbulu bərpa edildi"
 }

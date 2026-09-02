@@ -179,5 +179,6 @@
   "medicationHistoryReverted": "لغو ثبت مصرف دارو",
   "revertedTime": "زمان لغو",
   "revertedByMember": "{name} لغو کرد",
-  "medicationTakenAtLabel": "در {time} مصرف شد"
+  "medicationTakenAtLabel": "در {time} مصرف شد",
+  "medicineResumedSnackbar": "مصرف دارو از سر گرفته شد"
 }

@@ -179,5 +179,6 @@
   "medicationHistoryReverted": "Medikasie-inname ongedaan gemaak",
   "revertedTime": "Kansellasietyd",
   "revertedByMember": "{name} het gekanselleer",
-  "medicationTakenAtLabel": "{time} Ingeneem"
+  "medicationTakenAtLabel": "{time} Ingeneem",
+  "medicineResumedSnackbar": "Medikasie hervat"
 }

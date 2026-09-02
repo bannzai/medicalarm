@@ -179,5 +179,6 @@
   "medicationHistoryReverted": "إلغاء سجل تناول الدواء",
   "revertedTime": "وقت الإلغاء",
   "revertedByMember": "ألغى {name} السجل",
-  "medicationTakenAtLabel": "تم تناوله في {time}"
+  "medicationTakenAtLabel": "تم تناوله في {time}",
+  "medicineResumedSnackbar": "تم استئناف تناول الدواء"
 }

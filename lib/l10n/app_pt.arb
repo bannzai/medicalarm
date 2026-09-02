@@ -179,5 +179,6 @@
   "medicationHistoryReverted": "Cancelamento do registro de tomada do medicamento",
   "revertedTime": "Hora do cancelamento",
   "revertedByMember": "Cancelado por {name}",
-  "medicationTakenAtLabel": "Tomado às {time}"
+  "medicationTakenAtLabel": "Tomado às {time}",
+  "medicineResumedSnackbar": "A toma do medicamento foi retomada"
 }
