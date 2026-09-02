@@ -212,5 +212,6 @@
   "joinGroup": "જૂથમાં જોડાઓ",
   "invitationCodeInputLabel": "આમંત્રણ કોડ (8 અક્ષરો)",
   "invitationCodeInputHint": "8 અક્ષરનો કોડ દાખલ કરો",
-  "join": "જોડાઓ"
+  "join": "જોડાઓ",
+  "recordedByMember": "{name} દ્વારા નોંધાયેલ"
 }

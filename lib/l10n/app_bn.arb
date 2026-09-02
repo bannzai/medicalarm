@@ -212,5 +212,6 @@
   "joinGroup": "গ্রুপে যোগ দিন",
   "invitationCodeInputLabel": "আমন্ত্রণ কোড (৮ অক্ষর)",
   "invitationCodeInputHint": "৮ অক্ষরের কোড লিখুন",
-  "join": "যোগ দিন"
+  "join": "যোগ দিন",
+  "recordedByMember": "{name} রেকর্ড করেছেন"
 }

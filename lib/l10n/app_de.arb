@@ -212,5 +212,6 @@
   "joinGroup": "Einer Gruppe beitreten",
   "invitationCodeInputLabel": "Einladungscode (8 Zeichen)",
   "invitationCodeInputHint": "Geben Sie den 8-stelligen Code ein",
-  "join": "Beitreten"
+  "join": "Beitreten",
+  "recordedByMember": "Aufgezeichnet von {name}"
 }

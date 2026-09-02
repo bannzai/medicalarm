@@ -212,5 +212,6 @@
   "joinGroup": "Liitu grupiga",
   "invitationCodeInputLabel": "Kutsekood (8 märki)",
   "invitationCodeInputHint": "Sisestage 8-märgiline kood",
-  "join": "Liitu"
+  "join": "Liitu",
+  "recordedByMember": "Salvestaja: {name}"
 }

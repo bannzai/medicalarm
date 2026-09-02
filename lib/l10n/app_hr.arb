@@ -212,5 +212,6 @@
   "joinGroup": "Pridruži se grupi",
   "invitationCodeInputLabel": "Pozivni kod (8 znakova)",
   "invitationCodeInputHint": "Unesite kôd od 8 znakova",
-  "join": "Pridruži se"
+  "join": "Pridruži se",
+  "recordedByMember": "Zabilježio/la {name}"
 }

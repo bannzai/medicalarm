@@ -212,5 +212,6 @@
   "joinGroup": "အဖွဲ့သို့ ဝင်ရန်",
   "invitationCodeInputLabel": "ဖိတ်ကြားကုဒ် (အက္ခရာ ၈ လုံး)",
   "invitationCodeInputHint": "စာလုံး ၈ လုံးပါ ကုဒ်ကို ထည့်ပါ",
-  "join": "ပါဝင်ရန်"
+  "join": "ပါဝင်ရန်",
+  "recordedByMember": "မှတ်တမ်းတင်သူ: {name}"
 }

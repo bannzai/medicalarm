@@ -212,5 +212,6 @@
   "joinGroup": "Придружи се групи",
   "invitationCodeInputLabel": "Код позивнице (8 знакова)",
   "invitationCodeInputHint": "Унесите код од 8 знакова",
-  "join": "Придружи се"
+  "join": "Придружи се",
+  "recordedByMember": "Забележио/ла {name}"
 }

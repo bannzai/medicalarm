@@ -212,5 +212,6 @@
   "joinGroup": "ಗುಂಪಿಗೆ ಸೇರಿ",
   "invitationCodeInputLabel": "ಆಹ್ವಾನ ಕೋಡ್ (8 ಅಕ್ಷರಗಳು)",
   "invitationCodeInputHint": "8 ಅಕ್ಷರಗಳ ಕೋಡ್ ನಮೂದಿಸಿ",
-  "join": "ಸೇರಿ"
+  "join": "ಸೇರಿ",
+  "recordedByMember": "{name} ದಾಖಲಿಸಿದ್ದಾರೆ"
 }

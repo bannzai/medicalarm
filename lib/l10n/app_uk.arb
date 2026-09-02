@@ -212,5 +212,6 @@
   "joinGroup": "Приєднатися до групи",
   "invitationCodeInputLabel": "Код запрошення (8 символів)",
   "invitationCodeInputHint": "Введіть 8-символьний код",
-  "join": "Приєднатися"
+  "join": "Приєднатися",
+  "recordedByMember": "Запис внесено користувачем {name}"
 }

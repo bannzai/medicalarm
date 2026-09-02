@@ -212,5 +212,6 @@
   "joinGroup": "ਗਰੁੱਪ ਵਿੱਚ ਸ਼ਾਮਲ ਹੋਵੋ",
   "invitationCodeInputLabel": "ਸੱਦਾ ਕੋਡ (8 ਅੱਖਰ)",
   "invitationCodeInputHint": "8 ਅੱਖਰਾਂ ਵਾਲਾ ਕੋਡ ਦਾਖਲ ਕਰੋ",
-  "join": "ਸ਼ਾਮਲ ਹੋਵੋ"
+  "join": "ਸ਼ਾਮਲ ਹੋਵੋ",
+  "recordedByMember": "{name} ਨੇ ਦਰਜ ਕੀਤਾ"
 }

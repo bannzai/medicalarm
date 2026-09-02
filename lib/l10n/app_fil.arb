@@ -212,5 +212,6 @@
   "joinGroup": "Sumali sa grupo",
   "invitationCodeInputLabel": "Code ng imbitasyon (8 character)",
   "invitationCodeInputHint": "Ilagay ang 8-character na code",
-  "join": "Sumali"
+  "join": "Sumali",
+  "recordedByMember": "Itinala ni {name}"
 }

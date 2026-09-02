@@ -212,5 +212,6 @@
   "joinGroup": "그룹 참여",
   "invitationCodeInputLabel": "초대 코드(8자)",
   "invitationCodeInputHint": "8자리 코드 입력",
-  "join": "참여하기"
+  "join": "참여하기",
+  "recordedByMember": "{name}님이 기록함"
 }

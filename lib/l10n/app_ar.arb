@@ -212,5 +212,6 @@
   "joinGroup": "الانضمام إلى مجموعة",
   "invitationCodeInputLabel": "رمز الدعوة (8 أحرف)",
   "invitationCodeInputHint": "أدخل الرمز المكوّن من 8 أحرف",
-  "join": "انضمام"
+  "join": "انضمام",
+  "recordedByMember": "سجّله {name}"
 }

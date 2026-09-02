@@ -212,5 +212,6 @@
   "joinGroup": "ቡድኑን ይቀላቀሉ",
   "invitationCodeInputLabel": "የግብዣ ኮድ (8 ቁምፊዎች)",
   "invitationCodeInputHint": "8 ቁምፊ ያለውን ኮድ ያስገቡ",
-  "join": "ይቀላቀሉ"
+  "join": "ይቀላቀሉ",
+  "recordedByMember": "በ{name} የተመዘገበ"
 }

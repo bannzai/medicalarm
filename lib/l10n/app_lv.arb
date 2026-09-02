@@ -212,5 +212,6 @@
   "joinGroup": "Pievienoties grupai",
   "invitationCodeInputLabel": "Uzaicinājuma kods (8 rakstzīmes)",
   "invitationCodeInputHint": "Ievadiet 8 rakstzīmju kodu",
-  "join": "Pievienoties"
+  "join": "Pievienoties",
+  "recordedByMember": "Ierakstīja {name}"
 }

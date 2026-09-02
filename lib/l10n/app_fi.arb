@@ -212,5 +212,6 @@
   "joinGroup": "Liity ryhmään",
   "invitationCodeInputLabel": "Kutsukoodi (8 merkkiä)",
   "invitationCodeInputHint": "Syötä 8-merkkinen koodi",
-  "join": "Liity"
+  "join": "Liity",
+  "recordedByMember": "{name} kirjasi"
 }

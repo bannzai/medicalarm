@@ -212,5 +212,6 @@
   "joinGroup": "குழுவில் சேரவும்",
   "invitationCodeInputLabel": "அழைப்புக் குறியீடு (8 எழுத்துகள்)",
   "invitationCodeInputHint": "8 எழுத்துக் குறியீட்டை உள்ளிடவும்",
-  "join": "சேரவும்"
+  "join": "சேரவும்",
+  "recordedByMember": "{name} பதிவு செய்தார்"
 }

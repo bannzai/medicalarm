@@ -212,5 +212,6 @@
   "joinGroup": "ເຂົ້າຮ່ວມກຸ່ມ",
   "invitationCodeInputLabel": "ລະຫັດເຊີນ (8 ຕົວອັກສອນ)",
   "invitationCodeInputHint": "ປ້ອນລະຫັດ 8 ຕົວອັກສອນ",
-  "join": "ເຂົ້າຮ່ວມ"
+  "join": "ເຂົ້າຮ່ວມ",
+  "recordedByMember": "ບັນທຶກໂດຍ {name}"
 }

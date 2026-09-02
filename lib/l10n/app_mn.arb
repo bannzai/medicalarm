@@ -212,5 +212,6 @@
   "joinGroup": "Бүлэгт нэгдэх",
   "invitationCodeInputLabel": "Урилгын код (8 тэмдэгт)",
   "invitationCodeInputHint": "8 тэмдэгттэй кодыг оруулна уу",
-  "join": "Нэгдэх"
+  "join": "Нэгдэх",
+  "recordedByMember": "{name} бүртгэсэн"
 }

@@ -212,5 +212,6 @@
   "joinGroup": "Taldearekin bat egin",
   "invitationCodeInputLabel": "Gonbidapen-kodea (8 karaktere)",
   "invitationCodeInputHint": "Sartu 8 karaktereko kodea",
-  "join": "Batu"
+  "join": "Batu",
+  "recordedByMember": "{name}(e)k erregistratu du"
 }

@@ -212,5 +212,6 @@
   "joinGroup": "Միանալ խմբին",
   "invitationCodeInputLabel": "Հրավերի կոդ (8 նիշ)",
   "invitationCodeInputHint": "Մուտքագրեք 8 նիշանոց կոդը",
-  "join": "Միանալ"
+  "join": "Միանալ",
+  "recordedByMember": "{name}-ի կողմից գրանցված"
 }

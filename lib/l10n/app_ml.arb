@@ -212,5 +212,6 @@
   "joinGroup": "ഗ്രൂപ്പിൽ ചേരുക",
   "invitationCodeInputLabel": "ക്ഷണ കോഡ് (8 അക്ഷരങ്ങൾ)",
   "invitationCodeInputHint": "8 അക്ഷരങ്ങളുള്ള കോഡ് നൽകുക",
-  "join": "ചേരുക"
+  "join": "ചേരുക",
+  "recordedByMember": "{name} രേഖപ്പെടുത്തി"
 }

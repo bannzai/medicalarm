@@ -212,5 +212,6 @@
   "joinGroup": "গোটত যোগদান কৰক",
   "invitationCodeInputLabel": "আমন্ত্ৰণ ক’ড (৮টা আখৰ)",
   "invitationCodeInputHint": "৮ আখৰৰ ক'ড লিখক",
-  "join": "যোগদান কৰক"
+  "join": "যোগদান কৰক",
+  "recordedByMember": "ৰেকৰ্ড কৰিছে: {name}"
 }

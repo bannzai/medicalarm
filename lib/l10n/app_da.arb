@@ -212,5 +212,6 @@
   "joinGroup": "Deltag i en gruppe",
   "invitationCodeInputLabel": "Invitationskode (8 tegn)",
   "invitationCodeInputHint": "Indtast koden på 8 tegn",
-  "join": "Deltag"
+  "join": "Deltag",
+  "recordedByMember": "Registreret af {name}"
 }

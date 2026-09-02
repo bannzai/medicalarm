@@ -212,5 +212,6 @@
   "joinGroup": "Присъединяване към група",
   "invitationCodeInputLabel": "Код за покана (8 знака)",
   "invitationCodeInputHint": "Въведете 8-символния код",
-  "join": "Присъединяване"
+  "join": "Присъединяване",
+  "recordedByMember": "Записано от {name}"
 }

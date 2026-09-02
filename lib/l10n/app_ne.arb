@@ -212,5 +212,6 @@
   "joinGroup": "समूहमा सामेल हुनुहोस्",
   "invitationCodeInputLabel": "निमन्त्रणा कोड (८ अक्षर)",
   "invitationCodeInputHint": "८ अक्षरको कोड प्रविष्ट गर्नुहोस्",
-  "join": "सामेल हुनुहोस्"
+  "join": "सामेल हुनुहोस्",
+  "recordedByMember": "{name} ले रेकर्ड गर्नुभयो"
 }
