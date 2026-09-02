@@ -267,5 +267,6 @@
   "onboardingBeforeItemForgot": "ဆေးသောက်ရန် မေ့နေခဲ့သည်ကို သတိပြုမိခဲ့သည်",
   "onboardingBeforeItemUnsure": "သောက်ခဲ့မိလား မသောက်ခဲ့မိလား မမှတ်မိတော့ပါ",
   "onboardingBeforeItemFamily": "မိသားစုတစ်စုလုံး၏ ဆေးသောက်မှုကို မစောင့်ကြည့်နိုင်ပါ",
-  "onboardingAfterItemReminder": "ဆေးသောက်ချိန်ရောက်လျှင် အကြောင်းကြားချက်ရရှိမည်။"
+  "onboardingAfterItemReminder": "ဆေးသောက်ချိန်ရောက်လျှင် အကြောင်းကြားချက်ရရှိမည်။",
+  "onboardingAfterItemRecord": "မှတ်တမ်းများကို သိမ်းဆည်းထားပြီး ချက်ချင်းစစ်ဆေးနိုင်သည်"
 }

@@ -267,5 +267,6 @@
   "onboardingBeforeItemForgot": "เพิ่งรู้ตัวว่าลืมกินยา",
   "onboardingBeforeItemUnsure": "จำไม่ได้ว่ากินยาไปแล้วหรือยัง",
   "onboardingBeforeItemFamily": "ไม่สามารถติดตามการรับประทานยาของทั้งครอบครัวได้",
-  "onboardingAfterItemReminder": "คุณจะได้รับการแจ้งเตือนเมื่อถึงเวลารับประทานยา"
+  "onboardingAfterItemReminder": "คุณจะได้รับการแจ้งเตือนเมื่อถึงเวลารับประทานยา",
+  "onboardingAfterItemRecord": "บันทึกจะถูกเก็บไว้และตรวจสอบได้ทันที"
 }

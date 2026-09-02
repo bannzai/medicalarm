@@ -267,5 +267,6 @@
   "onboardingBeforeItemForgot": "Percebi que tinha esquecido de tomar o medicamento",
   "onboardingBeforeItemUnsure": "Não me lembro se tomei",
   "onboardingBeforeItemFamily": "Não consigo acompanhar a medicação de toda a família",
-  "onboardingAfterItemReminder": "Você receberá uma notificação quando for hora de tomar o medicamento."
+  "onboardingAfterItemReminder": "Você receberá uma notificação quando for hora de tomar o medicamento.",
+  "onboardingAfterItemRecord": "Os registos ficam guardados e podem ser consultados de imediato"
 }

@@ -267,5 +267,6 @@
   "onboardingBeforeItemForgot": "意识到自己忘记服药了",
   "onboardingBeforeItemUnsure": "不记得有没有服用",
   "onboardingBeforeItemFamily": "无法掌握全家人的用药情况",
-  "onboardingAfterItemReminder": "服药时间到了，您会收到通知。"
+  "onboardingAfterItemReminder": "服药时间到了，您会收到通知。",
+  "onboardingAfterItemRecord": "记录会保留，可立即查看"
 }

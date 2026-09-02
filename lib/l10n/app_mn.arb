@@ -267,5 +267,6 @@
   "onboardingBeforeItemForgot": "Эмээ уухаа мартсанаа мэдлээ",
   "onboardingBeforeItemUnsure": "Уусан эсэхээ санахгүй байна",
   "onboardingBeforeItemFamily": "Бүх гэр бүлийн эмийн хэрэглээг хянаж чаддаггүй",
-  "onboardingAfterItemReminder": "Эм уух цаг болоход танд мэдэгдэл ирнэ."
+  "onboardingAfterItemReminder": "Эм уух цаг болоход танд мэдэгдэл ирнэ.",
+  "onboardingAfterItemRecord": "Бүртгэл хадгалагдаж, шууд шалгах боломжтой"
 }

@@ -267,5 +267,6 @@
   "onboardingBeforeItemForgot": "Huomasin unohtaneeni ottaa lääkkeeni",
   "onboardingBeforeItemUnsure": "En muista, otinko sen",
   "onboardingBeforeItemFamily": "En pysty seuraamaan koko perheen lääkitystä",
-  "onboardingAfterItemReminder": "Saat ilmoituksen, kun on aika ottaa lääkkeesi."
+  "onboardingAfterItemReminder": "Saat ilmoituksen, kun on aika ottaa lääkkeesi.",
+  "onboardingAfterItemRecord": "Tiedot säilyvät ja voit tarkistaa ne heti"
 }

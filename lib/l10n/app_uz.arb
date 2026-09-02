@@ -267,5 +267,6 @@
   "onboardingBeforeItemForgot": "Dorini ichishni unutganimni angladim",
   "onboardingBeforeItemUnsure": "Uni qabul qilganimni eslay olmayapman",
   "onboardingBeforeItemFamily": "Butun oilaning dori-darmonlarini kuzatib bora olmayman",
-  "onboardingAfterItemReminder": "Dori qabul qilish vaqti kelganda, sizga bildirishnoma keladi."
+  "onboardingAfterItemReminder": "Dori qabul qilish vaqti kelganda, sizga bildirishnoma keladi.",
+  "onboardingAfterItemRecord": "Qaydlar saqlanadi va ularni darhol tekshirish mumkin"
 }

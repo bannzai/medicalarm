@@ -267,5 +267,6 @@
   "onboardingBeforeItemForgot": "שמתי לב ששכחתי לקחת את התרופה שלי",
   "onboardingBeforeItemUnsure": "אני לא זוכר/ת אם לקחתי את זה",
   "onboardingBeforeItemFamily": "לא ניתן לעקוב אחר התרופות של כל המשפחה",
-  "onboardingAfterItemReminder": "תתקבל התראה במועד נטילת התרופה."
+  "onboardingAfterItemReminder": "תתקבל התראה במועד נטילת התרופה.",
+  "onboardingAfterItemRecord": "הרשומות נשמרות וניתן לבדוק אותן מיד"
 }

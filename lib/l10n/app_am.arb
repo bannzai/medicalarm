@@ -267,5 +267,6 @@
   "onboardingBeforeItemForgot": "መድኃኒቴን መውሰድ እንደረሳሁ ተገነዘብኩ",
   "onboardingBeforeItemUnsure": "መውሰዴን አላስታውስም",
   "onboardingBeforeItemFamily": "የመላው ቤተሰብን መድኃኒት መከታተል አልችልም",
-  "onboardingAfterItemReminder": "መድሃኒትዎን ለመውሰድ ጊዜው ሲደርስ ማሳወቂያ ይደርስዎታል።"
+  "onboardingAfterItemReminder": "መድሃኒትዎን ለመውሰድ ጊዜው ሲደርስ ማሳወቂያ ይደርስዎታል።",
+  "onboardingAfterItemRecord": "መዝገቦች ይቀመጣሉ እና ወዲያውኑ ማረጋገጥ ይችላሉ"
 }

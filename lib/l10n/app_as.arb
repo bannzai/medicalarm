@@ -267,5 +267,6 @@
   "onboardingBeforeItemForgot": "মই ঔষধ খাবলৈ পাহৰিছিলোঁ বুলি গম পালোঁ",
   "onboardingBeforeItemUnsure": "ঔষধটো খালোঁ নে নাই মনত পেলাব পৰা নাই",
   "onboardingBeforeItemFamily": "গোটেই পৰিয়ালৰ ঔষধৰ খবৰ ৰাখিব নোৱাৰোঁ",
-  "onboardingAfterItemReminder": "ঔষধ খোৱাৰ সময়ত আপুনি এটা জাননী লাভ কৰিব।"
+  "onboardingAfterItemReminder": "ঔষধ খোৱাৰ সময়ত আপুনি এটা জাননী লাভ কৰিব।",
+  "onboardingAfterItemRecord": "ৰেকৰ্ড সংৰক্ষিত থাকে আৰু লগে লগে পৰীক্ষা কৰিব পাৰি"
 }

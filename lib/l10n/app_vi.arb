@@ -267,5 +267,6 @@
   "onboardingBeforeItemForgot": "Tôi nhận ra mình đã quên uống thuốc",
   "onboardingBeforeItemUnsure": "Không nhớ mình đã uống thuốc hay chưa",
   "onboardingBeforeItemFamily": "Không thể theo dõi việc dùng thuốc của cả gia đình",
-  "onboardingAfterItemReminder": "Bạn sẽ nhận được thông báo khi đến giờ uống thuốc."
+  "onboardingAfterItemReminder": "Bạn sẽ nhận được thông báo khi đến giờ uống thuốc.",
+  "onboardingAfterItemRecord": "Bản ghi được lưu lại và có thể xem ngay"
 }

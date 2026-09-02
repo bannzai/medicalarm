@@ -267,5 +267,6 @@
   "onboardingBeforeItemForgot": "Mi-am dat seama că am uitat să-mi iau medicamentul",
   "onboardingBeforeItemUnsure": "Nu-mi amintesc dacă am luat medicamentul",
   "onboardingBeforeItemFamily": "Nu pot ține evidența medicamentelor întregii familii",
-  "onboardingAfterItemReminder": "Vei primi o notificare când este timpul să iei medicamentul."
+  "onboardingAfterItemReminder": "Vei primi o notificare când este timpul să iei medicamentul.",
+  "onboardingAfterItemRecord": "Înregistrările se păstrează și pot fi verificate imediat"
 }

@@ -267,5 +267,6 @@
   "onboardingBeforeItemForgot": "Niligundua kuwa nilikuwa nimesahau kunywa dawa yangu",
   "onboardingBeforeItemUnsure": "Sikumbuki kama nilimeza",
   "onboardingBeforeItemFamily": "Siwezi kufuatilia dawa za familia nzima",
-  "onboardingAfterItemReminder": "Utapokea arifa wakati wa kutumia dawa yako."
+  "onboardingAfterItemReminder": "Utapokea arifa wakati wa kutumia dawa yako.",
+  "onboardingAfterItemRecord": "Rekodi huhifadhiwa na zinaweza kukaguliwa mara moja"
 }

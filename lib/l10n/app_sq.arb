@@ -267,5 +267,6 @@
   "onboardingBeforeItemForgot": "E kuptova se kisha harruar të merrja ilaçin",
   "onboardingBeforeItemUnsure": "Nuk mbaj mend nëse e kam marrë",
   "onboardingBeforeItemFamily": "Nuk mund të mbaj nën kontroll barnat e gjithë familjes",
-  "onboardingAfterItemReminder": "Do të marrësh një njoftim kur të jetë koha për të marrë ilaçin."
+  "onboardingAfterItemReminder": "Do të marrësh një njoftim kur të jetë koha për të marrë ilaçin.",
+  "onboardingAfterItemRecord": "Regjistrimet ruhen dhe mund t’i kontrolloni menjëherë"
 }

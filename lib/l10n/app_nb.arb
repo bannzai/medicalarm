@@ -267,5 +267,6 @@
   "onboardingBeforeItemForgot": "Jeg oppdaget at jeg hadde glemt å ta medisinen min",
   "onboardingBeforeItemUnsure": "Jeg husker ikke om jeg tok den",
   "onboardingBeforeItemFamily": "Klarer ikke å holde oversikt over hele familiens medisiner",
-  "onboardingAfterItemReminder": "Du får et varsel når det er tid for å ta medisinen."
+  "onboardingAfterItemReminder": "Du får et varsel når det er tid for å ta medisinen.",
+  "onboardingAfterItemRecord": "Registreringene lagres og kan sjekkes med en gang"
 }

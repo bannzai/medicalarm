@@ -267,5 +267,6 @@
   "onboardingBeforeItemForgot": "Схватио/ла сам да сам заборавио/ла да узмем лек",
   "onboardingBeforeItemUnsure": "Не сећам се да ли сам га узео/узела",
   "onboardingBeforeItemFamily": "Не могу да пратим узимање лекова целе породице",
-  "onboardingAfterItemReminder": "Добићете обавештење када дође време да узмете лек."
+  "onboardingAfterItemReminder": "Добићете обавештење када дође време да узмете лек.",
+  "onboardingAfterItemRecord": "Записи остају сачувани и могу се одмах проверити"
 }

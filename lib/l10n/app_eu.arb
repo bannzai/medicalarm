@@ -267,5 +267,6 @@
   "onboardingBeforeItemForgot": "Konturatu naiz sendagaia hartzea ahaztu zaidala",
   "onboardingBeforeItemUnsure": "Ez dut gogoratzen hartu dudan ala ez",
   "onboardingBeforeItemFamily": "Ezin dut familia osoaren medikazioa kontrolatu",
-  "onboardingAfterItemReminder": "Botika hartzeko ordua denean, jakinarazpen bat jasoko duzu."
+  "onboardingAfterItemReminder": "Botika hartzeko ordua denean, jakinarazpen bat jasoko duzu.",
+  "onboardingAfterItemRecord": "Erregistroak gordeta geratzen dira eta berehala kontsulta daitezke"
 }

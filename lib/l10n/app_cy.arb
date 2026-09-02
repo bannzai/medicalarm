@@ -267,5 +267,6 @@
   "onboardingBeforeItemForgot": "Sylweddolais fy mod wedi anghofio cymryd fy meddyginiaeth",
   "onboardingBeforeItemUnsure": "Methu ddim cofio a wnes i ei gymryd",
   "onboardingBeforeItemFamily": "Methu gadw golwg ar feddyginiaeth y teulu cyfan",
-  "onboardingAfterItemReminder": "Byddwch yn cael hysbysiad pan fydd hi'n amser cymryd eich meddyginiaeth."
+  "onboardingAfterItemReminder": "Byddwch yn cael hysbysiad pan fydd hi'n amser cymryd eich meddyginiaeth.",
+  "onboardingAfterItemRecord": "Mae cofnodion yn cael eu cadw a gellir eu gwirio ar unwaith"
 }

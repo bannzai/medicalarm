@@ -267,5 +267,6 @@
   "onboardingBeforeItemForgot": "മരുന്ന് കഴിക്കാൻ മറന്നെന്ന് മനസ്സിലായി",
   "onboardingBeforeItemUnsure": "മരുന്ന് കഴിച്ചോ ഇല്ലയോ എന്ന് ഓർമ്മയില്ല",
   "onboardingBeforeItemFamily": "മുഴുവൻ കുടുംബത്തിന്റെയും മരുന്നുകളുടെ വിവരം സൂക്ഷിക്കാനാകുന്നില്ല",
-  "onboardingAfterItemReminder": "മരുന്ന് കഴിക്കേണ്ട സമയത്ത് നിങ്ങൾക്ക് അറിയിപ്പ് ലഭിക്കും."
+  "onboardingAfterItemReminder": "മരുന്ന് കഴിക്കേണ്ട സമയത്ത് നിങ്ങൾക്ക് അറിയിപ്പ് ലഭിക്കും.",
+  "onboardingAfterItemRecord": "രേഖകൾ സംരക്ഷിക്കപ്പെടുകയും ഉടൻ പരിശോധിക്കാനാകുകയും ചെയ്യും"
 }

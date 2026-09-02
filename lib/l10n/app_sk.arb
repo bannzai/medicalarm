@@ -267,5 +267,6 @@
   "onboardingBeforeItemForgot": "Uvedomil(a) som si, že som si zabudol(a) vziať liek",
   "onboardingBeforeItemUnsure": "Nepamätám si, či som ho užil/a",
   "onboardingBeforeItemFamily": "Nedokážem sledovať lieky celej rodiny",
-  "onboardingAfterItemReminder": "Keď bude čas užiť liek, dostanete upozornenie."
+  "onboardingAfterItemReminder": "Keď bude čas užiť liek, dostanete upozornenie.",
+  "onboardingAfterItemRecord": "Záznamy zostanú uložené a môžete ich hneď skontrolovať"
 }

@@ -267,5 +267,6 @@
   "onboardingBeforeItemForgot": "Sapratu, ka zāles nav iedzertas",
   "onboardingBeforeItemUnsure": "Neatceros, vai to iedzēru",
   "onboardingBeforeItemFamily": "Nevaru pārraudzīt visas ģimenes medikamentu lietošanu",
-  "onboardingAfterItemReminder": "Saņemsi paziņojumu, kad būs pienācis laiks lietot zāles."
+  "onboardingAfterItemReminder": "Saņemsi paziņojumu, kad būs pienācis laiks lietot zāles.",
+  "onboardingAfterItemRecord": "Ieraksti tiek saglabāti, un tos var pārbaudīt uzreiz"
 }

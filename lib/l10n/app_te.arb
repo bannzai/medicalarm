@@ -267,5 +267,6 @@
   "onboardingBeforeItemForgot": "మందు వేసుకోవడం మర్చిపోయానని గుర్తించాను",
   "onboardingBeforeItemUnsure": "మందు తీసుకున్నానో లేదో గుర్తులేదు",
   "onboardingBeforeItemFamily": "మొత్తం కుటుంబం మందుల వివరాలను గమనించలేకపోతున్నాను",
-  "onboardingAfterItemReminder": "మందు తీసుకునే సమయం వచ్చినప్పుడు మీకు నోటిఫికేషన్ వస్తుంది."
+  "onboardingAfterItemReminder": "మందు తీసుకునే సమయం వచ్చినప్పుడు మీకు నోటిఫికేషన్ వస్తుంది.",
+  "onboardingAfterItemRecord": "రికార్డులు భద్రంగా ఉంటాయి, వెంటనే తనిఖీ చేసుకోవచ్చు"
 }

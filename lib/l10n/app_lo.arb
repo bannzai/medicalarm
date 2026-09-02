@@ -267,5 +267,6 @@
   "onboardingBeforeItemForgot": "ຮູ້ຕົວວ່າລືມກິນຢາ",
   "onboardingBeforeItemUnsure": "ຈື່ບໍ່ໄດ້ວ່າໄດ້ກິນຢາແລ້ວຫຼືຍັງ",
   "onboardingBeforeItemFamily": "ບໍ່ສາມາດຕິດຕາມການກິນຢາຂອງຄອບຄົວທັງໝົດໄດ້",
-  "onboardingAfterItemReminder": "ເມື່ອເຖິງເວລາກິນຢາ ທ່ານຈະໄດ້ຮັບການແຈ້ງເຕືອນ."
+  "onboardingAfterItemReminder": "ເມື່ອເຖິງເວລາກິນຢາ ທ່ານຈະໄດ້ຮັບການແຈ້ງເຕືອນ.",
+  "onboardingAfterItemRecord": "ບັນທຶກຈະຖືກເກັບໄວ້ ແລະສາມາດກວດເບິ່ງໄດ້ທັນທີ"
 }

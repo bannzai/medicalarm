@@ -267,5 +267,6 @@
   "onboardingBeforeItemForgot": "Дәрімді қабылдауды ұмытып кеткенімді байқадым",
   "onboardingBeforeItemUnsure": "Қабылдаған-қабылдамағанымды есіме түсіре алмаймын",
   "onboardingBeforeItemFamily": "Бүкіл отбасының дәрілерін қадағалай алмаймын",
-  "onboardingAfterItemReminder": "Дәрі қабылдау уақыты келгенде, сізге хабарландыру келеді."
+  "onboardingAfterItemReminder": "Дәрі қабылдау уақыты келгенде, сізге хабарландыру келеді.",
+  "onboardingAfterItemRecord": "Жазбалар сақталады және оларды бірден тексеруге болады"
 }

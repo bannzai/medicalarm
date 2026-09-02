@@ -267,5 +267,6 @@
   "onboardingBeforeItemForgot": "Mi sono accorto/a di aver dimenticato di prendere il farmaco",
   "onboardingBeforeItemUnsure": "Non ricordo se l’ho preso",
   "onboardingBeforeItemFamily": "Non riesco a tenere sotto controllo i farmaci di tutta la famiglia",
-  "onboardingAfterItemReminder": "Riceverai una notifica quando sarà il momento di assumere il farmaco."
+  "onboardingAfterItemReminder": "Riceverai una notifica quando sarà il momento di assumere il farmaco.",
+  "onboardingAfterItemRecord": "Le registrazioni vengono conservate e sono subito consultabili"
 }

@@ -267,5 +267,6 @@
   "onboardingBeforeItemForgot": "Em vaig adonar que havia oblidat prendre el medicament",
   "onboardingBeforeItemUnsure": "No recordo si l'he pres",
   "onboardingBeforeItemFamily": "No puc controlar la medicació de tota la família",
-  "onboardingAfterItemReminder": "Rebràs una notificació quan sigui l’hora de prendre el medicament."
+  "onboardingAfterItemReminder": "Rebràs una notificació quan sigui l’hora de prendre el medicament.",
+  "onboardingAfterItemRecord": "Els registres es conserven i es poden consultar immediatament"
 }

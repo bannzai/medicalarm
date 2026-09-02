@@ -267,5 +267,6 @@
   "onboardingBeforeItemForgot": "اكتشفت أنني نسيت تناول دوائي",
   "onboardingBeforeItemUnsure": "لا أتذكر ما إذا كنت قد تناولته",
   "onboardingBeforeItemFamily": "لا أستطيع متابعة أدوية جميع أفراد العائلة",
-  "onboardingAfterItemReminder": "ستتلقى إشعارًا عند حلول موعد تناول دوائك."
+  "onboardingAfterItemReminder": "ستتلقى إشعارًا عند حلول موعد تناول دوائك.",
+  "onboardingAfterItemRecord": "تبقى السجلات ويمكن التحقق منها فورًا"
 }

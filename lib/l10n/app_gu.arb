@@ -267,5 +267,6 @@
   "onboardingBeforeItemForgot": "મારી દવા લેવાનું ભૂલી ગયો/ગઈ હોવાનું ધ્યાનમાં આવ્યું",
   "onboardingBeforeItemUnsure": "મેં દવા લીધી હતી કે નહીં તે યાદ નથી",
   "onboardingBeforeItemFamily": "આખા પરિવારની દવાઓનું ધ્યાન રાખી શકાતું નથી",
-  "onboardingAfterItemReminder": "દવા લેવાનો સમય થાય ત્યારે તમને સૂચના મળશે."
+  "onboardingAfterItemReminder": "દવા લેવાનો સમય થાય ત્યારે તમને સૂચના મળશે.",
+  "onboardingAfterItemRecord": "રેકોર્ડ સાચવાયેલા રહે છે અને તરત જ તપાસી શકાય છે"
 }

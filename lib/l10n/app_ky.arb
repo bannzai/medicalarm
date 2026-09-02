@@ -267,5 +267,6 @@
   "onboardingBeforeItemForgot": "Дары ичүүнү унутуп калганымды байкадым",
   "onboardingBeforeItemUnsure": "Дары ичкен-ичпегеним эсимде жок",
   "onboardingBeforeItemFamily": "Бүт үй-бүлөнүн дары-дармегин көзөмөлдөй албайм",
-  "onboardingAfterItemReminder": "Дары ичүү убактысы келгенде, сизге эскертме келет."
+  "onboardingAfterItemReminder": "Дары ичүү убактысы келгенде, сизге эскертме келет.",
+  "onboardingAfterItemRecord": "Жазуулар сакталат жана аларды дароо текшерсе болот"
 }

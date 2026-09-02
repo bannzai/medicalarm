@@ -267,5 +267,6 @@
   "onboardingBeforeItemForgot": "ខ្ញុំទើបដឹងថាខ្ញុំភ្លេចលេបថ្នាំ",
   "onboardingBeforeItemUnsure": "ខ្ញុំមិនចាំថាបានលេបវាឬអត់ទេ",
   "onboardingBeforeItemFamily": "មិនអាចតាមដានថ្នាំរបស់គ្រួសារទាំងមូលបានទេ",
-  "onboardingAfterItemReminder": "អ្នកនឹងទទួលបានការជូនដំណឹងនៅពេលដល់ពេលលេបថ្នាំ។"
+  "onboardingAfterItemReminder": "អ្នកនឹងទទួលបានការជូនដំណឹងនៅពេលដល់ពេលលេបថ្នាំ។",
+  "onboardingAfterItemRecord": "កំណត់ត្រាត្រូវបានរក្សាទុក ហើយអាចពិនិត្យមើលបានភ្លាមៗ"
 }

@@ -267,5 +267,6 @@
   "onboardingBeforeItemForgot": "İlacımı almayı unuttuğumu fark ettim",
   "onboardingBeforeItemUnsure": "Alıp almadığımı hatırlamıyorum",
   "onboardingBeforeItemFamily": "Tüm ailenin ilaçlarını takip edemiyorum",
-  "onboardingAfterItemReminder": "İlacınızı alma zamanı geldiğinde bildirim alırsınız."
+  "onboardingAfterItemReminder": "İlacınızı alma zamanı geldiğinde bildirim alırsınız.",
+  "onboardingAfterItemRecord": "Kayıtlar saklanır ve hemen kontrol edilebilir"
 }

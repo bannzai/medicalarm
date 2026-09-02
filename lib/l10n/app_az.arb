@@ -267,5 +267,6 @@
   "onboardingBeforeItemForgot": "Dərmanımı qəbul etməyi unutduğumu fərq etdim",
   "onboardingBeforeItemUnsure": "Onu qəbul edib-etmədiyimi xatırlamıram",
   "onboardingBeforeItemFamily": "Bütün ailənin dərmanlarını izləyə bilmirəm",
-  "onboardingAfterItemReminder": "Dərmanınızı qəbul etməyin vaxtı çatanda bildiriş alacaqsınız."
+  "onboardingAfterItemReminder": "Dərmanınızı qəbul etməyin vaxtı çatanda bildiriş alacaqsınız.",
+  "onboardingAfterItemRecord": "Qeydlər saxlanılır və dərhal yoxlanıla bilər"
 }

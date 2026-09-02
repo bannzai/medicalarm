@@ -267,5 +267,6 @@
   "onboardingBeforeItemForgot": "Հասկացա, որ մոռացել էի ընդունել դեղս",
   "onboardingBeforeItemUnsure": "Չեմ հիշում՝ ընդունե՞լ եմ, թե ոչ",
   "onboardingBeforeItemFamily": "Չեմ կարող հետևել ամբողջ ընտանիքի դեղորայքին",
-  "onboardingAfterItemReminder": "Դեղն ընդունելու ժամանակը հասնելուն պես ծանուցում կստանաք։"
+  "onboardingAfterItemReminder": "Դեղն ընդունելու ժամանակը հասնելուն պես ծանուցում կստանաք։",
+  "onboardingAfterItemRecord": "Գրառումները պահպանվում են և անմիջապես ստուգելի են"
 }

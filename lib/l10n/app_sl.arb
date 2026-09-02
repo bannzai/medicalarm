@@ -267,5 +267,6 @@
   "onboardingBeforeItemForgot": "Ugotovil(a) sem, da sem pozabil(a) vzeti zdravilo",
   "onboardingBeforeItemUnsure": "Ne spomnim se, ali sem ga vzel/a",
   "onboardingBeforeItemFamily": "Ne morem spremljati zdravil celotne družine",
-  "onboardingAfterItemReminder": "Ko bo čas za zaužitje zdravila, boste prejeli obvestilo."
+  "onboardingAfterItemReminder": "Ko bo čas za zaužitje zdravila, boste prejeli obvestilo.",
+  "onboardingAfterItemRecord": "Zapisi se shranijo in jih lahko takoj preverite"
 }

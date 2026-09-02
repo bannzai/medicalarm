@@ -267,5 +267,6 @@
   "onboardingBeforeItemForgot": "Napansin kong nakalimutan kong inumin ang gamot ko",
   "onboardingBeforeItemUnsure": "Hindi ko maalala kung nainom ko na ito",
   "onboardingBeforeItemFamily": "Hindi ko kayang subaybayan ang gamot ng buong pamilya",
-  "onboardingAfterItemReminder": "Makakatanggap ka ng abiso kapag oras na para inumin ang iyong gamot."
+  "onboardingAfterItemReminder": "Makakatanggap ka ng abiso kapag oras na para inumin ang iyong gamot.",
+  "onboardingAfterItemRecord": "Nananatiling naka-save ang mga tala at maaari mong tingnan agad"
 }

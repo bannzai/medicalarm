@@ -267,5 +267,6 @@
   "onboardingBeforeItemForgot": "Оказа се, че съм забравил(а) да си взема лекарството",
   "onboardingBeforeItemUnsure": "Не помня дали съм го приел/а",
   "onboardingBeforeItemFamily": "Не мога да следя лекарствата на цялото семейство",
-  "onboardingAfterItemReminder": "Ще получите известие, когато настъпи време да приемете лекарството си."
+  "onboardingAfterItemReminder": "Ще получите известие, когато настъпи време да приемете лекарството си.",
+  "onboardingAfterItemRecord": "Записите се запазват и могат да бъдат проверени веднага"
 }

@@ -267,5 +267,6 @@
   "onboardingBeforeItemForgot": "მივხვდი, რომ წამლის მიღება დამავიწყდა",
   "onboardingBeforeItemUnsure": "არ მახსოვს, მივიღე თუ არა",
   "onboardingBeforeItemFamily": "მთელი ოჯახის მედიკამენტებს ვერ ვადევნებ თვალს",
-  "onboardingAfterItemReminder": "მიიღებთ შეტყობინებას, როდესაც წამლის მიღების დრო დადგება."
+  "onboardingAfterItemReminder": "მიიღებთ შეტყობინებას, როდესაც წამლის მიღების დრო დადგება.",
+  "onboardingAfterItemRecord": "ჩანაწერები ინახება და მათი დაუყოვნებლივ შემოწმება შეგიძლიათ"
 }

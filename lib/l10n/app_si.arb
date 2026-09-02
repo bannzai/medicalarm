@@ -267,5 +267,6 @@
   "onboardingBeforeItemForgot": "ඖෂධය ගැනීමට අමතක වූ බව මට වැටහුණා",
   "onboardingBeforeItemUnsure": "මම එය ගත්තද නැද්ද මතක නැහැ",
   "onboardingBeforeItemFamily": "මුළු පවුලේම ඖෂධ ගැන විමසිල්ලෙන් සිටිය නොහැක",
-  "onboardingAfterItemReminder": "ඖෂධය ගත යුතු වේලාවට ඔබට දැනුම්දීමක් ලැබේ."
+  "onboardingAfterItemReminder": "ඖෂධය ගත යුතු වේලාවට ඔබට දැනුම්දීමක් ලැබේ.",
+  "onboardingAfterItemRecord": "වාර්තා සුරැකිව තබාගෙන වහාම පරීක්ෂා කළ හැකියි"
 }
