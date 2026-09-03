@@ -34,6 +34,16 @@ jobs:
     permissions:
       contents: read # checkout のみ。OIDC token (id-token) は session job だけに与える
     steps:
+      # duration_minutes は session.yml 側で検証されず keepalive の算術式にそのまま入るため、
+      # secrets・OIDC を使う前のここで正の整数 (上限は session job の timeout と同じ 360) に絞る
+      - name: 入力を検証
+        env:
+          DURATION_MINUTES: ${{ inputs.duration_minutes }}
+        run: |
+          [[ "$DURATION_MINUTES" =~ ^[0-9]+$ ]] && [ "$DURATION_MINUTES" -ge 1 ] && [ "$DURATION_MINUTES" -le 360 ] || {
+            echo "duration_minutes は 1〜360 の整数: $DURATION_MINUTES" >&2
+            exit 1
+          }
       # simtunnel 経路の workflow は uses を commit SHA で固定する（simtunnel PROJECT.md「リポジトリ公開に耐える安全性」）
       - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
         with:
