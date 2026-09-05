@@ -47,10 +47,18 @@ class MedicationAchievementSummary extends HookConsumerWidget {
     if (medicines == null || medicationHistories == null) {
       // release では非表示のままにするが、debug では読み込み状態と購読イベントの到達を画面で確認できるようにする
       if (kDebugMode) {
+        // 期間の長さによって snapshot が届かない事象の切り分け: 今日で終わる複数スパンを並行で watch して状態を比べる
+        final probeStates = [7, 35, 180, 365]
+            .map((days) => '$days:${ref.watch(medicationHistoriesByDateRangeProvider(DateTimeRange(
+                  start: today().addDays(-days),
+                  end: DateTime(today().year, today().month, today().day, 23, 59, 59),
+                ))).runtimeType}')
+            .join(' ');
         return Text(
           'summary waiting build=${buildCount.value} events=${eventLog.value.length} ${eventLog.value.take(6).toList()} '
-          'container=${ProviderScope.containerOf(context).hashCode} '
-          'medicines=${medicinesAsync.runtimeType} histories=${medicationHistoriesAsync.runtimeType}',
+          'medicines=${medicinesAsync.runtimeType} histories=${medicationHistoriesAsync.runtimeType}\n'
+          'probes: $probeStates\n'
+          'providerLog: ${medicationHistoriesByDateRangeDebugLog.reversed.take(10).toList()}',
           style: const TextStyle(fontSize: 10, color: TextColor.danger),
         );
       }
