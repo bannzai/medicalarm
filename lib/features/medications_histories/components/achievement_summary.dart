@@ -1,6 +1,4 @@
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:medicalarm/entity/medication_achievement.dart';
 import 'package:medicalarm/features/localization/l.dart';
@@ -26,49 +24,11 @@ class MedicationAchievementSummary extends HookConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    // シミュレータ検証でこの widget の購読だけ更新が届かない事象の切り分け用 (debug のみ表示):
-    // 再ビルド回数と、購読コールバックが実際に届いた回数を記録する
-    final buildCount = useRef(0);
-    buildCount.value += 1;
-    final eventLog = useRef(<String>[]);
-    ref.listen(allMedicinesProvider, (previous, next) {
-      eventLog.value.add('M:${next.runtimeType}');
-    });
-    ref.listen(medicationHistoriesByDateRangeProvider(medicationAchievementLookbackDateTimeRange(today: today())), (previous, next) {
-      eventLog.value.add('H:${next.runtimeType}');
-    });
-
-    final medicinesAsync = ref.watch(allMedicinesProvider);
+    final medicines = ref.watch(allMedicinesProvider).valueOrNull;
     // 連続記録は今日から過去へ遡って判定するため、遡り上限までの期間の服薬記録を対象にする
-    final medicationHistoriesAsync = ref.watch(medicationHistoriesByDateRangeProvider(medicationAchievementLookbackDateTimeRange(today: today())));
-    final medicines = medicinesAsync.valueOrNull;
-    final medicationHistories = medicationHistoriesAsync.valueOrNull;
+    final medicationHistories = ref.watch(medicationHistoriesByDateRangeProvider(medicationAchievementLookbackDateTimeRange(today: today()))).valueOrNull;
     // サマリーは一覧の補助情報のため、集計に必要なデータが揃うまでは何も表示せず一覧の表示を妨げない
     if (medicines == null || medicationHistories == null) {
-      // release では非表示のままにするが、debug では読み込み状態と購読イベントの到達を画面で確認できるようにする
-      if (kDebugMode) {
-        // snapshot が届かない事象の判別プローブ:
-        // A=同一月内で今日終端 / B=月境界をまたぎ月末終端 / C=前月まるごと (カレンダーで実績のある形) / D=月境界をまたぎ今日終端 (死んでいる形の対照)
-        final todayDate = today();
-        final todayEnd = DateTime(todayDate.year, todayDate.month, todayDate.day, 23, 59, 59);
-        final monthEnd = DateTime(todayDate.year, todayDate.month + 1, 0, 23, 59, 59);
-        final probeRanges = {
-          'A': DateTimeRange(start: DateTime(todayDate.year, todayDate.month, 1), end: todayEnd),
-          'B': DateTimeRange(start: todayDate.addDays(-365), end: monthEnd),
-          'C': monthDateTimeRange(month: DateTime(todayDate.year, todayDate.month - 1, 1)),
-          'D': DateTimeRange(start: todayDate.addDays(-7), end: todayEnd),
-        };
-        final probeStates = probeRanges.entries
-            .map((entry) => '${entry.key}:${ref.watch(medicationHistoriesByDateRangeProvider(entry.value)).runtimeType}')
-            .join(' ');
-        return Text(
-          'summary waiting build=${buildCount.value} events=${eventLog.value.length} ${eventLog.value.take(6).toList()} '
-          'medicines=${medicinesAsync.runtimeType} histories=${medicationHistoriesAsync.runtimeType}\n'
-          'probes: $probeStates\n'
-          'providerLog: ${medicationHistoriesByDateRangeDebugLog.reversed.take(10).toList()}',
-          style: const TextStyle(fontSize: 10, color: TextColor.danger),
-        );
-      }
       return const SizedBox.shrink();
     }
 

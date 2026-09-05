@@ -1,7 +1,6 @@
 import 'dart:ui';
 
 import 'package:collection/collection.dart';
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
@@ -18,7 +17,6 @@ import 'package:medicalarm/provider/app_user.dart';
 import 'package:medicalarm/provider/current_group_id.dart';
 import 'package:medicalarm/provider/group_user_profile.dart';
 import 'package:medicalarm/provider/medication_history.dart';
-import 'package:medicalarm/provider/medicine.dart';
 import 'package:medicalarm/style/color.dart';
 import 'package:medicalarm/utils/analytics/analytics.dart';
 import 'package:medicalarm/utils/date_time/date_time_ext.dart';
@@ -90,17 +88,11 @@ class MedicationsHistoryPageBody extends HookConsumerWidget {
       body: SafeArea(
         child: Column(
           children: [
-            // シミュレータ検証でサマリー側の購読だけ更新が届かない事象の切り分け用 (debug のみ表示):
-            // 同じ provider をページ側からも watch して、widget による差の有無を確認する
-            if (kDebugMode) ...[
-              Text(
-                'pageBody medicines=${ref.watch(allMedicinesProvider).runtimeType} '
-                'histories365=${ref.watch(medicationHistoriesByDateRangeProvider(medicationAchievementLookbackDateTimeRange(today: today()))).runtimeType}',
-                style: const TextStyle(fontSize: 10, color: TextColor.gray),
-              ),
-            ],
-            const Padding(
-              padding: EdgeInsets.fromLTRB(16, 12, 16, 12),
+            // const で生成すると、タブ切替でページが再マウントされた際にサマリーの provider 購読が
+            // 復元されず更新が届かなくなる事象をシミュレータ検証で確認したため、意図的に非 const で生成する
+            // (同型で動作している CalendarPage の CalendarAchievementSummary と同じ生成方法に揃える)
+            Padding(
+              padding: const EdgeInsets.fromLTRB(16, 12, 16, 12),
               child: MedicationAchievementSummary(),
             ),
             WeeklyCalendarPager(date: date, pageController: pageController),

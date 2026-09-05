@@ -1,5 +1,4 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:medicalarm/entity/group_member_notification_settings.dart';
 import 'package:medicalarm/entity/medication_history.dart';
@@ -35,19 +34,10 @@ Stream<List<MedicationHistory>> medicationHistoriesByDate(MedicationHistoriesRef
       .map((event) => event.docs.map((doc) => doc.data()).toList());
 }
 
-/// #278 のシミュレータ検証用: [medicationHistoriesByDateRange] の生成・イベント・エラーの記録。
-/// 期間指定によって snapshot が一度も届かない事象の切り分けのため、debug ビルドの画面デバッグ表示から参照する
-final List<String> medicationHistoriesByDateRangeDebugLog = [];
-
 /// 指定した期間の服薬記録 (#278)。月間の達成率・達成ドットのように、1 日ではなく期間で集計する画面で使う
 @Riverpod(dependencies: [currentGroupDatabase])
 Stream<List<MedicationHistory>> medicationHistoriesByDateRange(Ref ref, DateTimeRange dateTimeRange) {
   final database = ref.watch(currentGroupDatabaseProvider);
-  // 期間を「開始日の月/日〜終了日の月/日」で識別してログに残す (debug のみ)
-  final rangeLabel = '${dateTimeRange.start.month}/${dateTimeRange.start.day}-${dateTimeRange.end.month}/${dateTimeRange.end.day}';
-  if (kDebugMode) {
-    medicationHistoriesByDateRangeDebugLog.add('create $rangeLabel');
-  }
   return database
       .medicationHistoriesReference()
       .where(
@@ -56,17 +46,7 @@ Stream<List<MedicationHistory>> medicationHistoriesByDateRange(Ref ref, DateTime
         isLessThanOrEqualTo: dateTimeRange.end,
       )
       .snapshots()
-      .map((event) {
-    if (kDebugMode) {
-      medicationHistoriesByDateRangeDebugLog.add('event $rangeLabel n=${event.docs.length}');
-    }
-    return event.docs.map((doc) => doc.data()).toList();
-  }).handleError((Object error) {
-    if (kDebugMode) {
-      medicationHistoriesByDateRangeDebugLog.add('error $rangeLabel $error');
-    }
-    throw error; // 記録した上で従来どおり AsyncError にする
-  });
+      .map((event) => event.docs.map((doc) => doc.data()).toList());
 }
 
 /// 最低服用間隔([Medicine.minimumDoseIntervalHours])の判定に使う、直近の服薬記録の取得 (#81)。
