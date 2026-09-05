@@ -270,3 +270,12 @@ B が表示名未設定の間は記録者ラベルが「メンバー」フォー
 </details>
 
 </details>
+
+---
+
+## 6. 達成サマリー（#278）
+
+- [ ] **今週の服薬カード**: 履歴一覧の上部に「今週の服薬 x/y回」カード（今週の予定数に対する服用済み数）が表示される
+  - ⏭️ 未検証: リモートシミュレータ（GitHub Actions runner 上の simtunnel）で、アプリ起動直後に張った Firestore の snapshot listen がイベントを一切受け取らない環境事象（同一クエリでもタイミング次第で発火・不発が分かれることを provider 内ログで確認済み）により、サマリー領域が空のまま実機描画を確認できなかった。集計ロジックはユニットテスト（test/entity/medication_achievement_test.dart）、カード描画は widget test（test/features/medications_histories/achievement_summary_render_test.dart）で確認済み。同じ provider（medicationHistoriesByDateRange）を使うカレンダータブの月間達成率は同一データ・同一セッションで実機動作確認済み（lib/features/calendar/QA.md 項目5）
+- [ ] **連続記録カード**: 「連続記録 n日」カード（記録の無い今日は連続を切らない）が表示される
+  - ⏭️ 未検証: 同上
