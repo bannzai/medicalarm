@@ -40,8 +40,9 @@ jobs:
         env:
           DURATION_MINUTES: ${{ inputs.duration_minutes }}
         run: |
-          [[ "$DURATION_MINUTES" =~ ^[0-9]+$ ]] && [ "$DURATION_MINUTES" -ge 1 ] && [ "$DURATION_MINUTES" -le 360 ] || {
-            echo "duration_minutes は 1〜360 の整数: $DURATION_MINUTES" >&2
+          # 先頭 0 は不可 (keepalive.sh の算術式が 08/09 でエラー、010 を 8 と解釈するため)
+          [[ "$DURATION_MINUTES" =~ ^[1-9][0-9]*$ ]] && [ "$DURATION_MINUTES" -le 360 ] || {
+            echo "duration_minutes は 1〜360 の整数 (先頭 0 不可): $DURATION_MINUTES" >&2
             exit 1
           }
       # simtunnel 経路の workflow は uses を commit SHA で固定する（simtunnel PROJECT.md「リポジトリ公開に耐える安全性」）
