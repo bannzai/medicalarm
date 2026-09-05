@@ -171,3 +171,30 @@ List<MedicationGroup> medicationGroups({
 
   return ordered;
 }
+
+// 飲み忘れの可能性判定 (#276)。グループの日付が now と同じ日で、予定時刻を過ぎても未服用の行が残る場合に true
+bool isMissedDoseSuspected({required MedicationGroup group, required DateTime now}) {
+  final uncheckedRow = group.scheduleRows.firstWhereOrNull((row) => row.medicationHistory == null);
+  if (uncheckedRow == null) {
+    return false;
+  }
+  if (!isSameDay(uncheckedRow.date, now)) {
+    return false;
+  }
+  return DateTime(now.year, now.month, now.day, group.scheduleTime.hour, group.scheduleTime.minute).isBefore(now);
+}
+
+// 次に飲む予定のグループ (#276)。now と同じ日の未服用行が残るグループのうち、予定時刻が now 以降で最初のものを返す。無ければ null。
+// groups は medicationGroups の返り値 (予定時刻昇順) を前提にする
+MedicationGroup? nextDoseGroup({required List<MedicationGroup> groups, required DateTime now}) {
+  return groups.firstWhereOrNull((group) {
+    final uncheckedRow = group.scheduleRows.firstWhereOrNull((row) => row.medicationHistory == null);
+    if (uncheckedRow == null) {
+      return false;
+    }
+    if (!isSameDay(uncheckedRow.date, now)) {
+      return false;
+    }
+    return !DateTime(now.year, now.month, now.day, group.scheduleTime.hour, group.scheduleTime.minute).isBefore(now);
+  });
+}
