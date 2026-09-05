@@ -1,0 +1,11 @@
+{
+  "medicines": [
+    {
+      "name": "クラリスロマイシン錠200mg 「サワイ」",
+      "schedules": [
+        { "hour": 8, "minute": 0, "quantityMemo": "1錠" },
+        { "hour": 19, "minute": 0, "quantityMemo": "1錠" }
+      ]
+    }
+  ]
+}

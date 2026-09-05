@@ -4,9 +4,12 @@
 # 使い方:
 #   bash scripts/e2e/generate_medicines_from_image.sh [画像パス]
 #
-# 画像パスを省略すると scripts/e2e/fixtures/prescription.png (薬 3 種・朝夕/朝昼夕/就寝前の
-# 服用タイミングを含むおくすり説明書) を使う。期待結果は同ディレクトリの
-# prescription_expected.json を参照。
+# 画像パスを省略すると scripts/e2e/fixtures/medication_guide.png を使う。fixtures には
+# 実物の調剤帳票を参考にした 3 枚があり、期待結果は各画像と同名の <画像名>_expected.json を正とする:
+#   - medication_guide.png       お薬の説明書 (薬 4 種: 朝のみ/朝夕/朝昼夕/就寝前)
+#   - medicine_notebook_seal.png お薬手帳シールの写真 (毎食後/就寝前/頓服。頓服は schedules 空が期待値)
+#   - medicine_bag.png           薬袋の写真 (単剤・朝夕食後)
+# 画像は fixtures/src/ の HTML と render.sh から再生成できる。
 #
 # 前提:
 #   - ios/Firebase/GoogleService-Info.plist が配置済み (make secret)。Firebase Auth の
@@ -21,7 +24,7 @@ cd "$(dirname "$0")/../.."
 
 PROJECT_ID=${PROJECT_ID:-medicalarm-prod}
 REGION=${REGION:-asia-northeast1}
-IMAGE_PATH=${1:-scripts/e2e/fixtures/prescription.png}
+IMAGE_PATH=${1:-scripts/e2e/fixtures/medication_guide.png}
 
 [ -f "$IMAGE_PATH" ] || { echo "Error: 画像が見つかりません: $IMAGE_PATH" >&2; exit 1; }
 [ -f ios/Firebase/GoogleService-Info.plist ] || { echo "Error: ios/Firebase/GoogleService-Info.plist がありません。make secret を実行してください" >&2; exit 1; }
