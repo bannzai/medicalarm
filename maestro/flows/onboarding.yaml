@@ -1,0 +1,23 @@
+# 初回起動のオンボーディング (JP 短尺) を完走し、結果画面からプレミアム紹介シート (ペイウォール) を開いて閉じ、
+# 服薬画面に到達する helper。新規の匿名ユーザー (AppUser 作成から 1 日以内・オンボーディング未完了) でのみ表示される。
+# `runFlow: onboarding.yaml` で allow_notification.yaml から呼び出して使用する。
+appId: com.bannzai.medicalarm
+---
+- tapOn: "はじめる"
+- tapOn: "たまにある"
+- tapOn: "自分"
+- tapOn: "2回"
+- tapOn: "1〜2種類"
+# プラン生成演出 (約 2.4 秒) の後に結果画面が出る
+- extendedWaitUntil:
+    visible: "プランを始める"
+    timeout: 10000
+- tapOn: "プランを始める"
+# 既存のプレミアム紹介シート。左上の閉じるボタン (CloseButton のツールチップ「閉じる」) で閉じる
+- extendedWaitUntil:
+    visible: "プレミアムプラン"
+    timeout: 10000
+- tapOn: "閉じる"
+- extendedWaitUntil:
+    notVisible: "プレミアムプラン"
+    timeout: 5000

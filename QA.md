@@ -34,14 +34,19 @@ make secret  # 環境変数 FILE_FIREBASE_IOS / REVENUE_CAT_PUBLIC_API_KEY が�
 - /ios-simulator: iOS Simulator を扱う際の起点。シミュレータ管理は /sim-manager 前提
 - /verify-ui-mobile-mcp: mobile-mcp による画面探索・タップ・スクリーンショット撮影
 - /maestro-flutter: 既存 E2E フローの実行（`maestro test maestro/flows/`）
-  - `allow_notification.yaml`: 起動直後の OS ダイアログ（通知許可・ATT）とプロモーション画面（表示されている場合のみ）を閉じる helper。他フローの先頭から `runFlow` で呼ばれる
+  - `allow_notification.yaml`: 起動直後の OS ダイアログ（通知許可・ATT）とプロモーション画面（表示されている場合のみ）を閉じ、新規ユーザーの初回起動で出るオンボーディング（「はじめる」が見えた場合のみ）を `onboarding.yaml` で完走する helper。他フローの先頭から `runFlow` で呼ばれる
+  - `onboarding.yaml`: 初回起動のオンボーディング（JP 短尺）を完走し、ペイウォールを閉じて服薬画面に到達する。表示条件と項目は lib/features/onboarding/QA.md
   - `register_and_pause.yaml` / `full_pause_feature.yaml` / `toggle_switch.yaml` / `resume_and_edit.yaml` / `form_pause.yaml`: 薬の登録〜一時停止・再開の一連
 - ユニットテスト: `flutter test` / 静的解析: `flutter analyze`
 
 ### 再現が難しい操作の手順
 
-- 起動直後は通知許可 → ATT → プロモーション（★5 レビュー訴求。アカウント作成から1日超経過など PromotionStartResolver の条件成立時のみ）→ AdMob validator 警告（開発ビルド）の順不同でダイアログが重なる。mobile-mcp で手動確認する場合も、まず `maestro test maestro/flows/allow_notification.yaml` で突破してから操作を始めるのが確実
+- 起動直後は通知許可 → ATT → プロモーション（★5 レビュー訴求。アカウント作成から1日超経過など PromotionStartResolver の条件成立時のみ）→ AdMob validator 警告（開発ビルド）の順不同でダイアログが重なる。新規の匿名ユーザー（シミュレータ初期化後の初回起動）ではこれらに加えてオンボーディング（OnboardingResolver。作成から1日以内・完了記録なし・非プレミアムで表示）がホーム画面の前に出る。mobile-mcp で手動確認する場合も、まず `maestro test maestro/flows/allow_notification.yaml` で突破してから操作を始めるのが確実
 - `flutter build ios --simulator` + `xcrun simctl install/launch` でアプリを起動すると、`lib/main.dart` の `setupRemoteConfig()`（`fetchAndActivate()` の `fetchTimeout` が1分）が同期待ちのため、シミュレータのネットワーク到達性によっては最大60秒程度 LaunchImage（白画面）のまま初回フレームが描画されない。`mobile_list_elements_on_screen` で `LaunchImage` が居座っていないかを確認し、白画面でも即座に失敗と判断しない
+  - 2026-09-03 の QA では、erase 直後のシミュレータへの初回起動で白画面が3〜4分続いた（`log show --predicate 'process == "Runner"'` を見ると Firebase Analytics の起動自体が launch から67秒後、resolver の解決完了はさらに後）。60秒で見切らず、`xcrun simctl launch` 後は最低でも200秒待ってからスクリーンショットで判断する。プロセスの生存は `xcrun simctl spawn <UDID> launchctl list | grep medicalarm` で確認できる（`xcrun simctl terminate` が `found nothing to terminate` を返す場合はアプリが落ちている）
+- mobile-mcp（`mcp__mobile__*`）は WebDriverAgent を XCUITest として起動する（maestro のログに `Running tests...` が出る）ため、対象アプリがバックグラウンドに落ちる。その状態では `mobile_list_elements_on_screen` がアプリではなく Springboard のアイコン一覧を返し、`flutter run` の debug connection も `The OS has terminated the Flutter debug connection for being inactive in the background for too long.` で切れる。このプロジェクトの画面操作は maestro（`maestro test --udid <UDID> <flow>`）で行う。テキストラベルの無いアイコンボタンは `tapOn: point: "7%,10%"` のように割合座標で指定できる
+- maestro の `takeScreenshot` は tap 後の settle 待ちを挟むため、数秒で自動遷移する演出画面（オンボーディングのプラン生成演出など）は撮り逃す。別シェルで `xcrun simctl io <UDID> screenshot` を連続実行するループを回した状態で maestro の tap flow を走らせ、後からフレームを選ぶ
+- 複数行に折り返される Text ウィジェット（`\n` を含む l10n 文言。例: 「薬を飲み忘れたことは\nありますか」）は、maestro の `assertVisible` / `extendedWaitUntil` で画面表示どおりの1行の文字列として一致しない。選択肢のボタンラベルなど単一行の文言で判定する
 - 非対話実行でも `flutter run -d <UDID>` はプロセスが常駐し続けるため、`run_in_background: true` で起動し、ログファイルを `grep` でポーリングして起動完了（`Flutter run key commands.` の出力）を待つ必要がある（フォアグラウンドで実行すると turn がブロックされたまま完了しない）
 - AdMob native ad validator の警告（開発ビルドのみ表示）は `overlayWebView` 内の要素で `mobile_list_elements_on_screen` にテキストとして現れず、`Dismiss` ボタン座標の目視推定タップが当たりにくい。無理に閉じようとせず、下部タブバー操作は overlay の下でも独立して機能するためそのまま操作を継続してよい
   - この overlay は画面座標 x:0-335 y:355-510 に固定表示され、この範囲に重なるチェックボックス・ボタン等へのタップを奪う（`mobile_list_elements_on_screen` にはアクセシビリティ要素として現れるが、実タップは overlay 側が受け取る）。回避策: (1) 対象要素がこの範囲外（y>510）に来るよう事前に他のスケジュール・データを追加して並び順をずらす、(2) 広告を表示する画面から直接開いたモーダルには overlay が残るので、広告のない画面（例: 服薬画面ではなくお薬一覧画面）経由でフォームを開く
@@ -65,6 +70,7 @@ make secret  # 環境変数 FILE_FIREBASE_IOS / REVENUE_CAT_PUBLIC_API_KEY が�
 
 **確認日: 2026-07-16**
 シミュレータを `xcrun simctl erase` した新規匿名ユーザー状態から起動し、通知許可・ATT ダイアログ（maestro/flows/allow_notification.yaml で突破）を経て服薬画面に到達することを、2台のシミュレータ（A・B）それぞれで確認した。
+2026-09-03 追記: 新規ユーザーの初回起動でオンボーディング（lib/features/onboarding/）が挟まる経路でも、`maestro test --udid <UDID> maestro/flows/allow_notification.yaml`（onboarding.yaml をファネル完走〜ペイウォール閉じるまで実行）が exit 0 で完了し、服薬画面に到達することを確認した。
 <img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260716/690706d7-9613-4140-bbbc-d1bc2ead38ce.png" width="380" />
 
 </details>
@@ -93,6 +99,7 @@ make secret  # 環境変数 FILE_FIREBASE_IOS / REVENUE_CAT_PUBLIC_API_KEY が�
 
 ## 機能別 QA.md
 
+- [onboarding](lib/features/onboarding/QA.md) — 初回起動の課金転換型オンボーディング
 - [medicines](lib/features/medicines/QA.md) — お薬一覧・一時停止/再開
 - [medicine_form](lib/features/medicine_form/QA.md) — 薬の登録・編集・削除
 - [medicine_schedule_setting_form](lib/features/medicine_schedule_setting_form/QA.md) — スケジュールごとの通知設定

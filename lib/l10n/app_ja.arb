@@ -1157,5 +1157,243 @@
   "ossLicense": "OSSライセンス",
   "@ossLicense": {
     "description": "設定画面から利用しているOSSのライセンス一覧を開く項目のテキスト"
+  },
+  "onboardingWelcomeTitle": "飲み忘れの不安を\nなくそう",
+  "@onboardingWelcomeTitle": {
+    "description": "オンボーディング 1 画面目 (価値宣言) の見出し"
+  },
+  "onboardingWelcomeBody": "薬を登録して通知を受け取り\n服用の記録を振り返る",
+  "@onboardingWelcomeBody": {
+    "description": "オンボーディング 1 画面目 (価値宣言) の本文"
+  },
+  "onboardingWelcomeFeatureReminder": "服用時刻に通知",
+  "@onboardingWelcomeFeatureReminder": {
+    "description": "オンボーディング 1 画面目の特徴リスト: 通知"
+  },
+  "onboardingWelcomeFeatureCriticalAlert": "マナーモードでも鳴る Critical Alert",
+  "@onboardingWelcomeFeatureCriticalAlert": {
+    "description": "オンボーディング 1 画面目の特徴リスト: Critical Alert (固有名詞。訳さない)"
+  },
+  "onboardingWelcomeFeatureFamily": "家族の服薬もまとめて管理",
+  "@onboardingWelcomeFeatureFamily": {
+    "description": "オンボーディング 1 画面目の特徴リスト: 複数人の管理"
+  },
+  "onboardingStart": "はじめる",
+  "@onboardingStart": {
+    "description": "オンボーディング 1 画面目のボタン。ファネルに入る"
+  },
+  "onboardingNext": "次へ",
+  "@onboardingNext": {
+    "description": "オンボーディングの価値提示画面で次の画面へ進むボタン"
+  },
+  "onboardingBack": "戻る",
+  "@onboardingBack": {
+    "description": "オンボーディングの前の画面へ戻るボタンのツールチップ"
+  },
+  "onboardingPainForgotTitle": "薬を飲み忘れたことは\nありますか",
+  "@onboardingPainForgotTitle": {
+    "description": "オンボーディングのペイン認識質問: 飲み忘れ経験"
+  },
+  "onboardingFrequencyOften": "よくある",
+  "@onboardingFrequencyOften": {
+    "description": "オンボーディングの頻度の選択肢: よくある"
+  },
+  "onboardingFrequencySometimes": "たまにある",
+  "@onboardingFrequencySometimes": {
+    "description": "オンボーディングの頻度の選択肢: たまにある"
+  },
+  "onboardingFrequencyRarely": "ほとんどない",
+  "@onboardingFrequencyRarely": {
+    "description": "オンボーディングの頻度の選択肢: ほとんどない"
+  },
+  "onboardingFrequencyNever": "ない",
+  "@onboardingFrequencyNever": {
+    "description": "オンボーディングの頻度の選択肢: ない"
+  },
+  "onboardingPainWorryTitle": "飲んだかどうか思い出せず\n不安になったことは",
+  "@onboardingPainWorryTitle": {
+    "description": "オンボーディングのペイン認識質問: 飲んだか思い出せない不安 (US 長尺のみ)"
+  },
+  "onboardingValueReminderTitle": "飲み忘れは\n気づいた時には遅い",
+  "@onboardingValueReminderTitle": {
+    "description": "オンボーディングの価値提示画面の見出し (US 長尺のみ)"
+  },
+  "onboardingValueReminderBody": "Medicalarm は服用時刻に通知します\nマナーモードでも Critical Alert で気づけます",
+  "@onboardingValueReminderBody": {
+    "description": "オンボーディングの価値提示画面の本文 (US 長尺のみ)"
+  },
+  "onboardingCareTargetTitle": "誰の服薬を管理しますか",
+  "@onboardingCareTargetTitle": {
+    "description": "オンボーディングのパーソナライズ質問: 管理対象"
+  },
+  "onboardingCareTargetSubtitle": "回答に合わせてプランを作ります",
+  "@onboardingCareTargetSubtitle": {
+    "description": "オンボーディングのパーソナライズ質問 (管理対象) の補足"
+  },
+  "onboardingCareTargetSelf": "自分",
+  "@onboardingCareTargetSelf": {
+    "description": "オンボーディングの管理対象の選択肢: 自分"
+  },
+  "onboardingCareTargetFamily": "家族",
+  "@onboardingCareTargetFamily": {
+    "description": "オンボーディングの管理対象の選択肢: 家族"
+  },
+  "onboardingCareTargetSelfAndFamily": "自分と家族",
+  "@onboardingCareTargetSelfAndFamily": {
+    "description": "オンボーディングの管理対象の選択肢: 自分と家族"
+  },
+  "onboardingDailyDoseCountTitle": "1日に何回\n薬を飲みますか",
+  "@onboardingDailyDoseCountTitle": {
+    "description": "オンボーディングのパーソナライズ質問: 1 日の服用回数"
+  },
+  "onboardingDailyDoseCountSubtitle": "通知の回数を決めるために使います",
+  "@onboardingDailyDoseCountSubtitle": {
+    "description": "オンボーディングのパーソナライズ質問 (服用回数) の補足"
+  },
+  "onboardingDailyDoseOnce": "1回",
+  "@onboardingDailyDoseOnce": {
+    "description": "オンボーディングの服用回数の選択肢: 1 回"
+  },
+  "onboardingDailyDoseTwice": "2回",
+  "@onboardingDailyDoseTwice": {
+    "description": "オンボーディングの服用回数の選択肢: 2 回"
+  },
+  "onboardingDailyDoseThreeOrMore": "3回以上",
+  "@onboardingDailyDoseThreeOrMore": {
+    "description": "オンボーディングの服用回数の選択肢: 3 回以上"
+  },
+  "onboardingMedicineCountTitle": "管理する薬は\nいくつありますか",
+  "@onboardingMedicineCountTitle": {
+    "description": "オンボーディングのパーソナライズ質問: 薬の数"
+  },
+  "onboardingMedicineCountOneToTwo": "1〜2種類",
+  "@onboardingMedicineCountOneToTwo": {
+    "description": "オンボーディングの薬の数の選択肢: 1〜2 種類"
+  },
+  "onboardingMedicineCountThreeToFive": "3〜5種類",
+  "@onboardingMedicineCountThreeToFive": {
+    "description": "オンボーディングの薬の数の選択肢: 3〜5 種類"
+  },
+  "onboardingMedicineCountSixOrMore": "6種類以上",
+  "@onboardingMedicineCountSixOrMore": {
+    "description": "オンボーディングの薬の数の選択肢: 6 種類以上"
+  },
+  "onboardingBeforeAfterTitle": "Medicalarm で変わること",
+  "@onboardingBeforeAfterTitle": {
+    "description": "オンボーディングの Before / After 画面の見出し (US 長尺のみ)"
+  },
+  "onboardingBeforeLabel": "これまで",
+  "@onboardingBeforeLabel": {
+    "description": "オンボーディングの Before / After 画面の Before ラベル"
+  },
+  "onboardingAfterLabel": "これから",
+  "@onboardingAfterLabel": {
+    "description": "オンボーディングの Before / After 画面の After ラベル"
+  },
+  "onboardingBeforeItemForgot": "気づいたら飲み忘れていた",
+  "@onboardingBeforeItemForgot": {
+    "description": "オンボーディングの Before 項目: 飲み忘れ"
+  },
+  "onboardingBeforeItemUnsure": "飲んだか思い出せない",
+  "@onboardingBeforeItemUnsure": {
+    "description": "オンボーディングの Before 項目: 記憶の不安"
+  },
+  "onboardingBeforeItemFamily": "家族の分まで把握できない",
+  "@onboardingBeforeItemFamily": {
+    "description": "オンボーディングの Before 項目: 家族の把握"
+  },
+  "onboardingAfterItemReminder": "服用時刻に通知が届く",
+  "@onboardingAfterItemReminder": {
+    "description": "オンボーディングの After 項目: 通知"
+  },
+  "onboardingAfterItemRecord": "記録が残りすぐ確認できる",
+  "@onboardingAfterItemRecord": {
+    "description": "オンボーディングの After 項目: 記録"
+  },
+  "onboardingAfterItemFamily": "家族の服薬状況もひと目でわかる",
+  "@onboardingAfterItemFamily": {
+    "description": "オンボーディングの After 項目: 家族"
+  },
+  "onboardingGoalTitle": "目標を決めましょう",
+  "@onboardingGoalTitle": {
+    "description": "オンボーディングのコミットメント画面 (目標設定) の見出し (US 長尺のみ)"
+  },
+  "onboardingGoalSubtitle": "目標はプランに反映されます",
+  "@onboardingGoalSubtitle": {
+    "description": "オンボーディングの目標設定画面の補足"
+  },
+  "onboardingGoalZeroMissed": "飲み忘れをゼロにする",
+  "@onboardingGoalZeroMissed": {
+    "description": "オンボーディングの目標の選択肢: 飲み忘れゼロ"
+  },
+  "onboardingGoalKeepRecording": "服用を記録し続ける",
+  "@onboardingGoalKeepRecording": {
+    "description": "オンボーディングの目標の選択肢: 記録の継続"
+  },
+  "onboardingGoalWatchFamily": "家族の服薬を見守る",
+  "@onboardingGoalWatchFamily": {
+    "description": "オンボーディングの目標の選択肢: 家族の見守り"
+  },
+  "onboardingPlanGeneratingTitle": "あなた専用のプランを作成中",
+  "@onboardingPlanGeneratingTitle": {
+    "description": "オンボーディングのプラン生成演出の見出し"
+  },
+  "onboardingPlanGeneratingAnalyzing": "回答を分析しています",
+  "@onboardingPlanGeneratingAnalyzing": {
+    "description": "オンボーディングのプラン生成演出のメッセージ 1"
+  },
+  "onboardingPlanGeneratingSchedule": "通知プランを組み立てています",
+  "@onboardingPlanGeneratingSchedule": {
+    "description": "オンボーディングのプラン生成演出のメッセージ 2"
+  },
+  "onboardingPlanGeneratingReady": "準備ができました",
+  "@onboardingPlanGeneratingReady": {
+    "description": "オンボーディングのプラン生成演出のメッセージ 3"
+  },
+  "onboardingPlanResultTitle": "あなた専用のプラン",
+  "@onboardingPlanResultTitle": {
+    "description": "オンボーディングの結果画面の見出し"
+  },
+  "onboardingPlanResultGoalFormat": "目標: {goal}",
+  "@onboardingPlanResultGoalFormat": {
+    "description": "オンボーディングの結果画面に表示する目標。{goal} は選んだ目標の文言",
+    "placeholders": {
+      "goal": {
+        "type": "String",
+        "example": "飲み忘れをゼロにする"
+      }
+    }
+  },
+  "onboardingPlanDoseReceivers": "服用者",
+  "@onboardingPlanDoseReceivers": {
+    "description": "オンボーディングの結果画面の行ラベル: 服用者"
+  },
+  "onboardingPlanDailyReminders": "1日の通知",
+  "@onboardingPlanDailyReminders": {
+    "description": "オンボーディングの結果画面の行ラベル: 1 日の通知回数"
+  },
+  "onboardingPlanMedicines": "管理する薬",
+  "@onboardingPlanMedicines": {
+    "description": "オンボーディングの結果画面の行ラベル: 薬の数"
+  },
+  "onboardingPlanCriticalAlert": "Critical Alert",
+  "@onboardingPlanCriticalAlert": {
+    "description": "オンボーディングの結果画面の行ラベル: Critical Alert (固有名詞。訳さない)"
+  },
+  "onboardingPlanCriticalAlertValue": "マナーモードでも通知",
+  "@onboardingPlanCriticalAlertValue": {
+    "description": "オンボーディングの結果画面の Critical Alert 行の値"
+  },
+  "onboardingPremiumRecommendedTitle": "プレミアムプランがおすすめ",
+  "@onboardingPremiumRecommendedTitle": {
+    "description": "オンボーディングの結果画面で無料プランの上限を超える時に出す訴求の見出し"
+  },
+  "onboardingPremiumRecommendedBody": "このプランは無料プランの登録上限を超えます\nプレミアムプランならすべて登録できます",
+  "@onboardingPremiumRecommendedBody": {
+    "description": "オンボーディングの結果画面で無料プランの上限を超える時に出す訴求の本文"
+  },
+  "onboardingPlanStart": "プランを始める",
+  "@onboardingPlanStart": {
+    "description": "オンボーディングの結果画面の CTA。プレミアム紹介シートへ進む"
   }
 }

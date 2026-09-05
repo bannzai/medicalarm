@@ -24,7 +24,9 @@ mixin _$AppUser {
   @NullableTimestampConverter()
   DateTime? get maybeTrialDeadlineDate;
   @NullableTimestampConverter()
-  DateTime? get promotionStartPageCancelButtonTappedDateTime;
+  DateTime? get promotionStartPageCancelButtonTappedDateTime; // 初回起動のオンボーディング (features/onboarding) を完了 (ペイウォールを閉じた) した日時。null なら未完了
+  @NullableTimestampConverter()
+  DateTime? get onboardingCompletedDateTime;
   @ClientCreatedTimestamp()
   DateTime? get createdDateTime;
   @ClientUpdatedTimestamp()
@@ -55,6 +57,8 @@ mixin _$AppUser {
             (identical(other.maybeTrialDeadlineDate, maybeTrialDeadlineDate) || other.maybeTrialDeadlineDate == maybeTrialDeadlineDate) &&
             (identical(other.promotionStartPageCancelButtonTappedDateTime, promotionStartPageCancelButtonTappedDateTime) ||
                 other.promotionStartPageCancelButtonTappedDateTime == promotionStartPageCancelButtonTappedDateTime) &&
+            (identical(other.onboardingCompletedDateTime, onboardingCompletedDateTime) ||
+                other.onboardingCompletedDateTime == onboardingCompletedDateTime) &&
             (identical(other.createdDateTime, createdDateTime) || other.createdDateTime == createdDateTime) &&
             (identical(other.updatedDateTime, updatedDateTime) || other.updatedDateTime == updatedDateTime) &&
             (identical(other.serverCreatedDateTime, serverCreatedDateTime) || other.serverCreatedDateTime == serverCreatedDateTime) &&
@@ -63,12 +67,23 @@ mixin _$AppUser {
 
   @JsonKey(includeFromJson: false, includeToJson: false)
   @override
-  int get hashCode => Object.hash(runtimeType, id, defaultGroupID, groupMigratedDateTime, analyticsDebugIsEnabled, maybeTrialDeadlineDate,
-      promotionStartPageCancelButtonTappedDateTime, createdDateTime, updatedDateTime, serverCreatedDateTime, serverUpdatedDateTime);
+  int get hashCode => Object.hash(
+      runtimeType,
+      id,
+      defaultGroupID,
+      groupMigratedDateTime,
+      analyticsDebugIsEnabled,
+      maybeTrialDeadlineDate,
+      promotionStartPageCancelButtonTappedDateTime,
+      onboardingCompletedDateTime,
+      createdDateTime,
+      updatedDateTime,
+      serverCreatedDateTime,
+      serverUpdatedDateTime);
 
   @override
   String toString() {
-    return 'AppUser(id: $id, defaultGroupID: $defaultGroupID, groupMigratedDateTime: $groupMigratedDateTime, analyticsDebugIsEnabled: $analyticsDebugIsEnabled, maybeTrialDeadlineDate: $maybeTrialDeadlineDate, promotionStartPageCancelButtonTappedDateTime: $promotionStartPageCancelButtonTappedDateTime, createdDateTime: $createdDateTime, updatedDateTime: $updatedDateTime, serverCreatedDateTime: $serverCreatedDateTime, serverUpdatedDateTime: $serverUpdatedDateTime)';
+    return 'AppUser(id: $id, defaultGroupID: $defaultGroupID, groupMigratedDateTime: $groupMigratedDateTime, analyticsDebugIsEnabled: $analyticsDebugIsEnabled, maybeTrialDeadlineDate: $maybeTrialDeadlineDate, promotionStartPageCancelButtonTappedDateTime: $promotionStartPageCancelButtonTappedDateTime, onboardingCompletedDateTime: $onboardingCompletedDateTime, createdDateTime: $createdDateTime, updatedDateTime: $updatedDateTime, serverCreatedDateTime: $serverCreatedDateTime, serverUpdatedDateTime: $serverUpdatedDateTime)';
   }
 }
 
@@ -83,6 +98,7 @@ abstract mixin class $AppUserCopyWith<$Res> {
       bool analyticsDebugIsEnabled,
       @NullableTimestampConverter() DateTime? maybeTrialDeadlineDate,
       @NullableTimestampConverter() DateTime? promotionStartPageCancelButtonTappedDateTime,
+      @NullableTimestampConverter() DateTime? onboardingCompletedDateTime,
       @ClientCreatedTimestamp() DateTime? createdDateTime,
       @ClientUpdatedTimestamp() DateTime? updatedDateTime,
       @ServerCreatedTimestamp() DateTime? serverCreatedDateTime,
@@ -107,6 +123,7 @@ class _$AppUserCopyWithImpl<$Res> implements $AppUserCopyWith<$Res> {
     Object? analyticsDebugIsEnabled = null,
     Object? maybeTrialDeadlineDate = freezed,
     Object? promotionStartPageCancelButtonTappedDateTime = freezed,
+    Object? onboardingCompletedDateTime = freezed,
     Object? createdDateTime = freezed,
     Object? updatedDateTime = freezed,
     Object? serverCreatedDateTime = freezed,
@@ -136,6 +153,10 @@ class _$AppUserCopyWithImpl<$Res> implements $AppUserCopyWith<$Res> {
       promotionStartPageCancelButtonTappedDateTime: freezed == promotionStartPageCancelButtonTappedDateTime
           ? _self.promotionStartPageCancelButtonTappedDateTime
           : promotionStartPageCancelButtonTappedDateTime // ignore: cast_nullable_to_non_nullable
+              as DateTime?,
+      onboardingCompletedDateTime: freezed == onboardingCompletedDateTime
+          ? _self.onboardingCompletedDateTime
+          : onboardingCompletedDateTime // ignore: cast_nullable_to_non_nullable
               as DateTime?,
       createdDateTime: freezed == createdDateTime
           ? _self.createdDateTime
@@ -257,6 +278,7 @@ extension AppUserPatterns on AppUser {
             bool analyticsDebugIsEnabled,
             @NullableTimestampConverter() DateTime? maybeTrialDeadlineDate,
             @NullableTimestampConverter() DateTime? promotionStartPageCancelButtonTappedDateTime,
+            @NullableTimestampConverter() DateTime? onboardingCompletedDateTime,
             @ClientCreatedTimestamp() DateTime? createdDateTime,
             @ClientUpdatedTimestamp() DateTime? updatedDateTime,
             @ServerCreatedTimestamp() DateTime? serverCreatedDateTime,
@@ -274,6 +296,7 @@ extension AppUserPatterns on AppUser {
             _that.analyticsDebugIsEnabled,
             _that.maybeTrialDeadlineDate,
             _that.promotionStartPageCancelButtonTappedDateTime,
+            _that.onboardingCompletedDateTime,
             _that.createdDateTime,
             _that.updatedDateTime,
             _that.serverCreatedDateTime,
@@ -305,6 +328,7 @@ extension AppUserPatterns on AppUser {
             bool analyticsDebugIsEnabled,
             @NullableTimestampConverter() DateTime? maybeTrialDeadlineDate,
             @NullableTimestampConverter() DateTime? promotionStartPageCancelButtonTappedDateTime,
+            @NullableTimestampConverter() DateTime? onboardingCompletedDateTime,
             @ClientCreatedTimestamp() DateTime? createdDateTime,
             @ClientUpdatedTimestamp() DateTime? updatedDateTime,
             @ServerCreatedTimestamp() DateTime? serverCreatedDateTime,
@@ -321,6 +345,7 @@ extension AppUserPatterns on AppUser {
             _that.analyticsDebugIsEnabled,
             _that.maybeTrialDeadlineDate,
             _that.promotionStartPageCancelButtonTappedDateTime,
+            _that.onboardingCompletedDateTime,
             _that.createdDateTime,
             _that.updatedDateTime,
             _that.serverCreatedDateTime,
@@ -351,6 +376,7 @@ extension AppUserPatterns on AppUser {
             bool analyticsDebugIsEnabled,
             @NullableTimestampConverter() DateTime? maybeTrialDeadlineDate,
             @NullableTimestampConverter() DateTime? promotionStartPageCancelButtonTappedDateTime,
+            @NullableTimestampConverter() DateTime? onboardingCompletedDateTime,
             @ClientCreatedTimestamp() DateTime? createdDateTime,
             @ClientUpdatedTimestamp() DateTime? updatedDateTime,
             @ServerCreatedTimestamp() DateTime? serverCreatedDateTime,
@@ -367,6 +393,7 @@ extension AppUserPatterns on AppUser {
             _that.analyticsDebugIsEnabled,
             _that.maybeTrialDeadlineDate,
             _that.promotionStartPageCancelButtonTappedDateTime,
+            _that.onboardingCompletedDateTime,
             _that.createdDateTime,
             _that.updatedDateTime,
             _that.serverCreatedDateTime,
@@ -388,6 +415,7 @@ class _AppUser extends AppUser {
       this.analyticsDebugIsEnabled = false,
       @NullableTimestampConverter() this.maybeTrialDeadlineDate,
       @NullableTimestampConverter() this.promotionStartPageCancelButtonTappedDateTime,
+      @NullableTimestampConverter() this.onboardingCompletedDateTime,
       @ClientCreatedTimestamp() this.createdDateTime,
       @ClientUpdatedTimestamp() this.updatedDateTime,
       @ServerCreatedTimestamp() this.serverCreatedDateTime,
@@ -415,6 +443,10 @@ class _AppUser extends AppUser {
   @override
   @NullableTimestampConverter()
   final DateTime? promotionStartPageCancelButtonTappedDateTime;
+// 初回起動のオンボーディング (features/onboarding) を完了 (ペイウォールを閉じた) した日時。null なら未完了
+  @override
+  @NullableTimestampConverter()
+  final DateTime? onboardingCompletedDateTime;
   @override
   @ClientCreatedTimestamp()
   final DateTime? createdDateTime;
@@ -454,6 +486,8 @@ class _AppUser extends AppUser {
             (identical(other.maybeTrialDeadlineDate, maybeTrialDeadlineDate) || other.maybeTrialDeadlineDate == maybeTrialDeadlineDate) &&
             (identical(other.promotionStartPageCancelButtonTappedDateTime, promotionStartPageCancelButtonTappedDateTime) ||
                 other.promotionStartPageCancelButtonTappedDateTime == promotionStartPageCancelButtonTappedDateTime) &&
+            (identical(other.onboardingCompletedDateTime, onboardingCompletedDateTime) ||
+                other.onboardingCompletedDateTime == onboardingCompletedDateTime) &&
             (identical(other.createdDateTime, createdDateTime) || other.createdDateTime == createdDateTime) &&
             (identical(other.updatedDateTime, updatedDateTime) || other.updatedDateTime == updatedDateTime) &&
             (identical(other.serverCreatedDateTime, serverCreatedDateTime) || other.serverCreatedDateTime == serverCreatedDateTime) &&
@@ -462,12 +496,23 @@ class _AppUser extends AppUser {
 
   @JsonKey(includeFromJson: false, includeToJson: false)
   @override
-  int get hashCode => Object.hash(runtimeType, id, defaultGroupID, groupMigratedDateTime, analyticsDebugIsEnabled, maybeTrialDeadlineDate,
-      promotionStartPageCancelButtonTappedDateTime, createdDateTime, updatedDateTime, serverCreatedDateTime, serverUpdatedDateTime);
+  int get hashCode => Object.hash(
+      runtimeType,
+      id,
+      defaultGroupID,
+      groupMigratedDateTime,
+      analyticsDebugIsEnabled,
+      maybeTrialDeadlineDate,
+      promotionStartPageCancelButtonTappedDateTime,
+      onboardingCompletedDateTime,
+      createdDateTime,
+      updatedDateTime,
+      serverCreatedDateTime,
+      serverUpdatedDateTime);
 
   @override
   String toString() {
-    return 'AppUser(id: $id, defaultGroupID: $defaultGroupID, groupMigratedDateTime: $groupMigratedDateTime, analyticsDebugIsEnabled: $analyticsDebugIsEnabled, maybeTrialDeadlineDate: $maybeTrialDeadlineDate, promotionStartPageCancelButtonTappedDateTime: $promotionStartPageCancelButtonTappedDateTime, createdDateTime: $createdDateTime, updatedDateTime: $updatedDateTime, serverCreatedDateTime: $serverCreatedDateTime, serverUpdatedDateTime: $serverUpdatedDateTime)';
+    return 'AppUser(id: $id, defaultGroupID: $defaultGroupID, groupMigratedDateTime: $groupMigratedDateTime, analyticsDebugIsEnabled: $analyticsDebugIsEnabled, maybeTrialDeadlineDate: $maybeTrialDeadlineDate, promotionStartPageCancelButtonTappedDateTime: $promotionStartPageCancelButtonTappedDateTime, onboardingCompletedDateTime: $onboardingCompletedDateTime, createdDateTime: $createdDateTime, updatedDateTime: $updatedDateTime, serverCreatedDateTime: $serverCreatedDateTime, serverUpdatedDateTime: $serverUpdatedDateTime)';
   }
 }
 
@@ -483,6 +528,7 @@ abstract mixin class _$AppUserCopyWith<$Res> implements $AppUserCopyWith<$Res> {
       bool analyticsDebugIsEnabled,
       @NullableTimestampConverter() DateTime? maybeTrialDeadlineDate,
       @NullableTimestampConverter() DateTime? promotionStartPageCancelButtonTappedDateTime,
+      @NullableTimestampConverter() DateTime? onboardingCompletedDateTime,
       @ClientCreatedTimestamp() DateTime? createdDateTime,
       @ClientUpdatedTimestamp() DateTime? updatedDateTime,
       @ServerCreatedTimestamp() DateTime? serverCreatedDateTime,
@@ -507,6 +553,7 @@ class __$AppUserCopyWithImpl<$Res> implements _$AppUserCopyWith<$Res> {
     Object? analyticsDebugIsEnabled = null,
     Object? maybeTrialDeadlineDate = freezed,
     Object? promotionStartPageCancelButtonTappedDateTime = freezed,
+    Object? onboardingCompletedDateTime = freezed,
     Object? createdDateTime = freezed,
     Object? updatedDateTime = freezed,
     Object? serverCreatedDateTime = freezed,
@@ -536,6 +583,10 @@ class __$AppUserCopyWithImpl<$Res> implements _$AppUserCopyWith<$Res> {
       promotionStartPageCancelButtonTappedDateTime: freezed == promotionStartPageCancelButtonTappedDateTime
           ? _self.promotionStartPageCancelButtonTappedDateTime
           : promotionStartPageCancelButtonTappedDateTime // ignore: cast_nullable_to_non_nullable
+              as DateTime?,
+      onboardingCompletedDateTime: freezed == onboardingCompletedDateTime
+          ? _self.onboardingCompletedDateTime
+          : onboardingCompletedDateTime // ignore: cast_nullable_to_non_nullable
               as DateTime?,
       createdDateTime: freezed == createdDateTime
           ? _self.createdDateTime
