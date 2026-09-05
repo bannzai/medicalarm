@@ -32,13 +32,17 @@ class MonthCalendarPager extends HookConsumerWidget {
       if (medicines == null || medicationHistories == null) {
         return <int, DayMedicationAchievement?>{};
       }
+      final todayDate = today().date();
       return {
         for (var day = 1; day <= DateTime(displayedMonth.year, displayedMonth.month + 1, 0).day; day++)
-          day: dayMedicationAchievement(
-            medicines: medicines,
-            medicationHistories: medicationHistories,
-            date: DateTime(displayedMonth.year, displayedMonth.month, day),
-          ),
+          // まだ来ていない日は達成が確定していないため、未服用扱いのドットを出さない
+          day: DateTime(displayedMonth.year, displayedMonth.month, day).isAfter(todayDate)
+              ? null
+              : dayMedicationAchievement(
+                  medicines: medicines,
+                  medicationHistories: medicationHistories,
+                  date: DateTime(displayedMonth.year, displayedMonth.month, day),
+                ),
       };
     }, [medicines, medicationHistories, displayedMonth]);
 

@@ -18,8 +18,9 @@ enum DayMedicationAchievement {
 
 /// 連続記録([consecutiveAchievedDaysCount])で過去へ遡る日数の上限。
 /// 服薬記録の ttlExpiresDateTime が記録日から 365 日後(lib/provider/medication_history.dart の MedicationHistoryTake)のため、
-/// それより古い日は記録が残っておらず必ず未達成と判定されてしまう。遡っても意味が無い範囲で打ち切る
-const _maxConsecutiveLookbackDays = 365;
+/// それより古い日は記録が残っておらず必ず未達成と判定されてしまう。遡っても意味が無い範囲で打ち切る。
+/// 履歴タブの達成サマリーが服薬記録を読む範囲(medicationAchievementLookbackDateTimeRange)もこの上限に合わせる
+const maxConsecutiveLookbackDays = 365;
 
 /// [medicine] が [date] の服薬予定に該当するかどうか (#278)。
 /// 開始前・停止中・アーカイブ済みの期間を除外したうえで、服用頻度([MedicationFrequency.isScheduledOnDate])で判定する。
@@ -113,7 +114,7 @@ int consecutiveAchievedDaysCount({
     count += 1;
   }
 
-  for (var offset = 1; offset <= _maxConsecutiveLookbackDays; offset++) {
+  for (var offset = 1; offset <= maxConsecutiveLookbackDays; offset++) {
     final date = today.date().addDays(-offset);
     if (date.isBefore(earliestBeganDate)) {
       break;

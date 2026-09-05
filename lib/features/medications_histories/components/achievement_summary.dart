@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:medicalarm/entity/medication_achievement.dart';
@@ -7,6 +8,16 @@ import 'package:medicalarm/provider/medicine.dart';
 import 'package:medicalarm/style/color.dart';
 import 'package:medicalarm/utils/date_time/date_time_ext.dart';
 
+/// 達成サマリーが服薬記録を読む範囲 (#278)。
+/// 連続記録の遡り上限([maxConsecutiveLookbackDays])より前の記録は集計に影響しないため、
+/// 全件の listen ではなく上限までの期間で絞って読む
+DateTimeRange medicationAchievementLookbackDateTimeRange({required DateTime today}) {
+  return DateTimeRange(
+    start: today.date().addDays(-maxConsecutiveLookbackDays),
+    end: DateTime(today.year, today.month, today.day, 23, 59, 59),
+  );
+}
+
 /// 服薬履歴画面の一覧上部に置く達成サマリー (#278)。
 /// 「今週の服薬」と「連続記録」の 2 枚のカードで、続けられていることを数字で実感できるようにする
 class MedicationAchievementSummary extends HookConsumerWidget {
@@ -14,11 +25,21 @@ class MedicationAchievementSummary extends HookConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final medicines = ref.watch(allMedicinesProvider).valueOrNull;
-    // 連続記録は今日から過去へ遡って判定するため、日付を絞らず服薬記録の全件を対象にする
-    final medicationHistories = ref.watch(medicationHistoriesProvider).valueOrNull;
+    final medicinesAsync = ref.watch(allMedicinesProvider);
+    // 連続記録は今日から過去へ遡って判定するため、遡り上限までの期間の服薬記録を対象にする
+    final medicationHistoriesAsync = ref.watch(medicationHistoriesByDateRangeProvider(medicationAchievementLookbackDateTimeRange(today: today())));
+    final medicines = medicinesAsync.valueOrNull;
+    final medicationHistories = medicationHistoriesAsync.valueOrNull;
     // サマリーは一覧の補助情報のため、集計に必要なデータが揃うまでは何も表示せず一覧の表示を妨げない
     if (medicines == null || medicationHistories == null) {
+      // 読み込み失敗は release では非表示のままにするが、debug では原因を画面で確認できるようにする
+      // (シミュレータ検証でサマリー非表示の原因がエラーか読み込み中か切り分けられなかったため)
+      if (kDebugMode && (medicinesAsync is AsyncError || medicationHistoriesAsync is AsyncError)) {
+        return Text(
+          'achievement summary error: ${(medicinesAsync is AsyncError ? medicinesAsync.error : medicationHistoriesAsync.error)}',
+          style: const TextStyle(fontSize: 10, color: TextColor.danger),
+        );
+      }
       return const SizedBox.shrink();
     }
 
