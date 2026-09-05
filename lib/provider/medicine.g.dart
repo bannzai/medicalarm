@@ -21,6 +21,25 @@ final activeMedicinesProvider = AutoDisposeStreamProvider<List<Medicine>>.intern
 @Deprecated('Will be removed in 3.0. Use Ref instead')
 // ignore: unused_element
 typedef ActiveMedicinesRef = AutoDisposeStreamProviderRef<List<Medicine>>;
+String _$allMedicinesHash() => r'f2140ce224f138abc290c7a1a32d873aa3e342b5';
+
+/// アーカイブ済みも含む薬の全件 (#278)。
+/// 過去日の達成集計は、その日に予定されていた薬がその後アーカイブされていても予定として数える必要があるため、
+/// [activeMedicines] と違い archivedDateTime でフィルタしない
+///
+/// Copied from [allMedicines].
+@ProviderFor(allMedicines)
+final allMedicinesProvider = AutoDisposeStreamProvider<List<Medicine>>.internal(
+  allMedicines,
+  name: r'allMedicinesProvider',
+  debugGetCreateSourceHash: const bool.fromEnvironment('dart.vm.product') ? null : _$allMedicinesHash,
+  dependencies: <ProviderOrFamily>[currentGroupDatabaseProvider],
+  allTransitiveDependencies: <ProviderOrFamily>{currentGroupDatabaseProvider, ...?currentGroupDatabaseProvider.allTransitiveDependencies},
+);
+
+@Deprecated('Will be removed in 3.0. Use Ref instead')
+// ignore: unused_element
+typedef AllMedicinesRef = AutoDisposeStreamProviderRef<List<Medicine>>;
 String _$medicineAddHash() => r'adc9e6b19acfe85d2b2ef5c70f2c6a2ab483c341';
 
 /// See also [medicineAdd].

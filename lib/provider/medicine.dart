@@ -18,6 +18,15 @@ Stream<List<Medicine>> activeMedicines(ActiveMedicinesRef ref) {
       .map((event) => event.docs.map((doc) => doc.data()).where((medicine) => medicine.archivedDateTime == null).toList());
 }
 
+/// アーカイブ済みも含む薬の全件 (#278)。
+/// 過去日の達成集計は、その日に予定されていた薬がその後アーカイブされていても予定として数える必要があるため、
+/// [activeMedicines] と違い archivedDateTime でフィルタしない
+@Riverpod(dependencies: [currentGroupDatabase])
+Stream<List<Medicine>> allMedicines(Ref ref) {
+  final database = ref.watch(currentGroupDatabaseProvider);
+  return database.medicinesReference().snapshots().map((event) => event.docs.map((doc) => doc.data()).toList());
+}
+
 class MedicineAdd {
   final GroupDatabase database;
   // 作成者(creator)の uid。Medicine.userID に設定する。

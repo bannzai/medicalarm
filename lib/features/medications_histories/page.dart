@@ -11,6 +11,7 @@ import 'package:medicalarm/components/loading/indicator.dart';
 import 'package:medicalarm/components/retry/page.dart';
 import 'package:medicalarm/components/text/edit_sheet.dart';
 import 'package:medicalarm/entity/medication_history.dart';
+import 'package:medicalarm/features/medications_histories/components/achievement_summary.dart';
 import 'package:medicalarm/features/preium_introduction/premium_introduction_sheet.dart';
 import 'package:medicalarm/provider/app_user.dart';
 import 'package:medicalarm/provider/current_group_id.dart';
@@ -87,6 +88,10 @@ class MedicationsHistoryPageBody extends HookConsumerWidget {
       body: SafeArea(
         child: Column(
           children: [
+            const Padding(
+              padding: EdgeInsets.fromLTRB(16, 12, 16, 12),
+              child: MedicationAchievementSummary(),
+            ),
             WeeklyCalendarPager(date: date, pageController: pageController),
             const Divider(
               height: 1,

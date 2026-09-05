@@ -169,6 +169,146 @@ class _MedicationHistoriesByDateProviderElement extends AutoDisposeStreamProvide
   DateTime get date => (origin as MedicationHistoriesByDateProvider).date;
 }
 
+String _$medicationHistoriesByDateRangeHash() => r'e02e542413986a7797c985287d955c0c51a0417f';
+
+/// 指定した期間の服薬記録 (#278)。月間の達成率・達成ドットのように、1 日ではなく期間で集計する画面で使う
+///
+/// Copied from [medicationHistoriesByDateRange].
+@ProviderFor(medicationHistoriesByDateRange)
+const medicationHistoriesByDateRangeProvider = MedicationHistoriesByDateRangeFamily();
+
+/// 指定した期間の服薬記録 (#278)。月間の達成率・達成ドットのように、1 日ではなく期間で集計する画面で使う
+///
+/// Copied from [medicationHistoriesByDateRange].
+class MedicationHistoriesByDateRangeFamily extends Family<AsyncValue<List<MedicationHistory>>> {
+  /// 指定した期間の服薬記録 (#278)。月間の達成率・達成ドットのように、1 日ではなく期間で集計する画面で使う
+  ///
+  /// Copied from [medicationHistoriesByDateRange].
+  const MedicationHistoriesByDateRangeFamily();
+
+  /// 指定した期間の服薬記録 (#278)。月間の達成率・達成ドットのように、1 日ではなく期間で集計する画面で使う
+  ///
+  /// Copied from [medicationHistoriesByDateRange].
+  MedicationHistoriesByDateRangeProvider call(
+    DateTimeRange<DateTime> dateTimeRange,
+  ) {
+    return MedicationHistoriesByDateRangeProvider(
+      dateTimeRange,
+    );
+  }
+
+  @override
+  MedicationHistoriesByDateRangeProvider getProviderOverride(
+    covariant MedicationHistoriesByDateRangeProvider provider,
+  ) {
+    return call(
+      provider.dateTimeRange,
+    );
+  }
+
+  static final Iterable<ProviderOrFamily> _dependencies = <ProviderOrFamily>[currentGroupDatabaseProvider];
+
+  @override
+  Iterable<ProviderOrFamily>? get dependencies => _dependencies;
+
+  static final Iterable<ProviderOrFamily> _allTransitiveDependencies = <ProviderOrFamily>{
+    currentGroupDatabaseProvider,
+    ...?currentGroupDatabaseProvider.allTransitiveDependencies
+  };
+
+  @override
+  Iterable<ProviderOrFamily>? get allTransitiveDependencies => _allTransitiveDependencies;
+
+  @override
+  String? get name => r'medicationHistoriesByDateRangeProvider';
+}
+
+/// 指定した期間の服薬記録 (#278)。月間の達成率・達成ドットのように、1 日ではなく期間で集計する画面で使う
+///
+/// Copied from [medicationHistoriesByDateRange].
+class MedicationHistoriesByDateRangeProvider extends AutoDisposeStreamProvider<List<MedicationHistory>> {
+  /// 指定した期間の服薬記録 (#278)。月間の達成率・達成ドットのように、1 日ではなく期間で集計する画面で使う
+  ///
+  /// Copied from [medicationHistoriesByDateRange].
+  MedicationHistoriesByDateRangeProvider(
+    DateTimeRange<DateTime> dateTimeRange,
+  ) : this._internal(
+          (ref) => medicationHistoriesByDateRange(
+            ref as MedicationHistoriesByDateRangeRef,
+            dateTimeRange,
+          ),
+          from: medicationHistoriesByDateRangeProvider,
+          name: r'medicationHistoriesByDateRangeProvider',
+          debugGetCreateSourceHash: const bool.fromEnvironment('dart.vm.product') ? null : _$medicationHistoriesByDateRangeHash,
+          dependencies: MedicationHistoriesByDateRangeFamily._dependencies,
+          allTransitiveDependencies: MedicationHistoriesByDateRangeFamily._allTransitiveDependencies,
+          dateTimeRange: dateTimeRange,
+        );
+
+  MedicationHistoriesByDateRangeProvider._internal(
+    super._createNotifier, {
+    required super.name,
+    required super.dependencies,
+    required super.allTransitiveDependencies,
+    required super.debugGetCreateSourceHash,
+    required super.from,
+    required this.dateTimeRange,
+  }) : super.internal();
+
+  final DateTimeRange<DateTime> dateTimeRange;
+
+  @override
+  Override overrideWith(
+    Stream<List<MedicationHistory>> Function(MedicationHistoriesByDateRangeRef provider) create,
+  ) {
+    return ProviderOverride(
+      origin: this,
+      override: MedicationHistoriesByDateRangeProvider._internal(
+        (ref) => create(ref as MedicationHistoriesByDateRangeRef),
+        from: from,
+        name: null,
+        dependencies: null,
+        allTransitiveDependencies: null,
+        debugGetCreateSourceHash: null,
+        dateTimeRange: dateTimeRange,
+      ),
+    );
+  }
+
+  @override
+  AutoDisposeStreamProviderElement<List<MedicationHistory>> createElement() {
+    return _MedicationHistoriesByDateRangeProviderElement(this);
+  }
+
+  @override
+  bool operator ==(Object other) {
+    return other is MedicationHistoriesByDateRangeProvider && other.dateTimeRange == dateTimeRange;
+  }
+
+  @override
+  int get hashCode {
+    var hash = _SystemHash.combine(0, runtimeType.hashCode);
+    hash = _SystemHash.combine(hash, dateTimeRange.hashCode);
+
+    return _SystemHash.finish(hash);
+  }
+}
+
+@Deprecated('Will be removed in 3.0. Use Ref instead')
+// ignore: unused_element
+mixin MedicationHistoriesByDateRangeRef on AutoDisposeStreamProviderRef<List<MedicationHistory>> {
+  /// The parameter `dateTimeRange` of this provider.
+  DateTimeRange<DateTime> get dateTimeRange;
+}
+
+class _MedicationHistoriesByDateRangeProviderElement extends AutoDisposeStreamProviderElement<List<MedicationHistory>>
+    with MedicationHistoriesByDateRangeRef {
+  _MedicationHistoriesByDateRangeProviderElement(super.provider);
+
+  @override
+  DateTimeRange<DateTime> get dateTimeRange => (origin as MedicationHistoriesByDateRangeProvider).dateTimeRange;
+}
+
 String _$recentMedicationHistoriesFetchHash() => r'b00de1e6cdca7d7a3ba9662f5a00fef31f6a40b3';
 
 /// See also [recentMedicationHistoriesFetch].

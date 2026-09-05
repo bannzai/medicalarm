@@ -230,5 +230,13 @@
   "doseIntervalWarningMessage": "Last taken at {latestTakeTime}. This medicine is set to require at least {minimumDoseIntervalHours} hours between doses. Record anyway?",
   "doseIntervalWarningTakeAnyway": "Record",
   "doseIntervalNotificationWarning": "⚠️ Less than {minimumDoseIntervalHours} hours since the last dose",
-  "ossLicense": "Open Source Licenses"
+  "ossLicense": "Open Source Licenses",
+  "achievementWeeklyLabel": "This week",
+  "achievementWeeklyCountSuffix": "/{scheduledCount} times",
+  "achievementStreakLabel": "Streak",
+  "achievementStreakDaysSuffix": " days",
+  "achievementMonthlyRateLabel": "Achievement in {month}",
+  "achievementLegendAllTaken": "All",
+  "achievementLegendPartiallyTaken": "Some",
+  "achievementLegendNoneTaken": "None"
 }
