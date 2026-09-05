@@ -166,42 +166,36 @@ void main() {
     });
   });
 
-  // #278: 服用回数は revert による論理削除と記録の重複を除いて数える
-  group('takenDoseCountOnDate', () {
-    test('取消(revert)で打ち消された服用は数えない', () {
+  // #278: 日ごとの服用キー索引。revert による論理削除と記録の重複を除いたキーだけを日付ごとに持つ
+  group('effectiveTakeDoseKeysByDate', () {
+    test('取消(revert)で打ち消された服用はキーに含めない', () {
       final take = buildTake(id: 'take-1', scheduledRecordedDate: DateTime(2026, 9, 10));
 
       expect(
-        takenDoseCountOnDate(medicationHistories: [take, buildRevert(takeMedicationHistory: take)], date: DateTime(2026, 9, 10)),
-        0,
+        effectiveTakeDoseKeysByDate([take, buildRevert(takeMedicationHistory: take)])[DateTime(2026, 9, 10)],
+        isNull,
       );
     });
 
-    test('同じ薬・同じスケジュールの記録が重複していても1回として数える', () {
+    test('同じ薬・同じスケジュールの記録が重複していても1件のキーになる', () {
       expect(
-        takenDoseCountOnDate(
-          medicationHistories: [
-            buildTake(id: 'take-1', scheduledRecordedDate: DateTime(2026, 9, 10)),
-            buildTake(id: 'take-2', scheduledRecordedDate: DateTime(2026, 9, 10)),
-          ],
-          date: DateTime(2026, 9, 10),
-        ),
-        1,
+        effectiveTakeDoseKeysByDate([
+          buildTake(id: 'take-1', scheduledRecordedDate: DateTime(2026, 9, 10)),
+          buildTake(id: 'take-2', scheduledRecordedDate: DateTime(2026, 9, 10)),
+        ])[DateTime(2026, 9, 10)],
+        {'medicine-1/schedule-morning'},
       );
     });
 
-    test('スケジュールが違えば別の服用として数え、別の日の記録は数えない', () {
-      expect(
-        takenDoseCountOnDate(
-          medicationHistories: [
-            buildTake(id: 'take-1', scheduledRecordedDate: DateTime(2026, 9, 10)),
-            buildTake(id: 'take-2', scheduledRecordedDate: DateTime(2026, 9, 10), schedule: eveningSchedule),
-            buildTake(id: 'take-3', scheduledRecordedDate: DateTime(2026, 9, 11)),
-          ],
-          date: DateTime(2026, 9, 10),
-        ),
-        2,
-      );
+    test('スケジュールが違えば別のキーになり、記録は予定日ごとに分かれる', () {
+      final doseKeysByDate = effectiveTakeDoseKeysByDate([
+        buildTake(id: 'take-1', scheduledRecordedDate: DateTime(2026, 9, 10)),
+        buildTake(id: 'take-2', scheduledRecordedDate: DateTime(2026, 9, 10), schedule: eveningSchedule),
+        buildTake(id: 'take-3', scheduledRecordedDate: DateTime(2026, 9, 11)),
+      ]);
+
+      expect(doseKeysByDate[DateTime(2026, 9, 10)], {'medicine-1/schedule-morning', 'medicine-1/schedule-evening'});
+      expect(doseKeysByDate[DateTime(2026, 9, 11)], {'medicine-1/schedule-morning'});
     });
   });
 
@@ -244,6 +238,21 @@ void main() {
     test('予定があるのに1件も服用していない日は noneTaken', () {
       expect(
         dayMedicationAchievement(medicines: medicines, medicationHistories: [], date: DateTime(2026, 9, 10)),
+        DayMedicationAchievement.noneTaken,
+      );
+    });
+
+    test('その日に予定の無い別の薬の記録は、予定されている薬の分子に数えない', () {
+      expect(
+        dayMedicationAchievement(
+          medicines: [buildMedicine(schedules: const [morningSchedule, eveningSchedule])],
+          medicationHistories: [
+            // 停止・スケジュール削除などで予定から外れた別の薬の記録
+            buildTake(id: 'take-1', scheduledRecordedDate: DateTime(2026, 9, 10), medicineID: 'medicine-2'),
+            buildTake(id: 'take-2', scheduledRecordedDate: DateTime(2026, 9, 10), medicineID: 'medicine-2', schedule: eveningSchedule),
+          ],
+          date: DateTime(2026, 9, 10),
+        ),
         DayMedicationAchievement.noneTaken,
       );
     });
@@ -291,6 +300,20 @@ void main() {
           date: DateTime(2026, 9, 9),
         ).scheduledCount,
         14,
+      );
+    });
+
+    test('その日に予定の無い別の薬の記録は週の服薬回数に数えない', () {
+      expect(
+        weeklyMedicationCounts(
+          medicines: [buildMedicine(beganDateTime: DateTime(2026, 9, 1))],
+          medicationHistories: [
+            buildTake(id: 'take-1', scheduledRecordedDate: DateTime(2026, 9, 6), medicineID: 'medicine-2'),
+            buildTake(id: 'take-2', scheduledRecordedDate: DateTime(2026, 9, 7), medicineID: 'medicine-2'),
+          ],
+          date: DateTime(2026, 9, 9),
+        ).takenCount,
+        0,
       );
     });
   });
@@ -394,6 +417,21 @@ void main() {
           today: DateTime(2026, 9, 10),
         ).scheduledCount,
         31,
+      );
+    });
+
+    test('その日に予定の無い別の薬の記録は月の服薬回数に数えない', () {
+      expect(
+        monthlyMedicationCounts(
+          medicines: [buildMedicine(beganDateTime: DateTime(2026, 9, 1))],
+          medicationHistories: [
+            buildTake(id: 'take-1', scheduledRecordedDate: DateTime(2026, 9, 1), medicineID: 'medicine-2'),
+            buildTake(id: 'take-2', scheduledRecordedDate: DateTime(2026, 9, 2), medicineID: 'medicine-2'),
+          ],
+          month: DateTime(2026, 9, 10),
+          today: DateTime(2026, 9, 10),
+        ).takenCount,
+        0,
       );
     });
 

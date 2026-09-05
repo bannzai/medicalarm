@@ -40,22 +40,27 @@ bool isMedicineScheduledOnDate({required Medicine medicine, required DateTime da
   return medicine.frequency.isScheduledOnDate(beganDateTime: medicine.beganDateTime, date: date);
 }
 
-/// [date] に服用が予定されている回数。予定に該当する薬のスケジュール(時刻)の件数を合計する (#278)
-int scheduledDoseCountOnDate({required List<Medicine> medicines, required DateTime date}) {
+/// [date] に服用が予定されている「薬とスケジュール(時刻)の組」の集合 (#278)。
+/// 服用記録との突き合わせに使うため、[effectiveTakeDoseKeysByDate] と同じ形式のキーで表す
+Set<String> scheduledDoseKeysOnDate({required List<Medicine> medicines, required DateTime date}) {
   return medicines
       .where((medicine) => isMedicineScheduledOnDate(medicine: medicine, date: date))
-      .fold(0, (count, medicine) => count + medicine.schedules.length);
+      .expand((medicine) => medicine.schedules.map((schedule) => '${medicine.id}/${schedule.id}'))
+      .toSet();
 }
 
-/// [date] に実際に服用した回数 (#278)。
-/// 取消(revert)で打ち消された記録は数えず([effectiveTakeMedicationHistories])、
-/// 同じ薬・同じスケジュールに対する複数の記録は 1 回として数える
-int takenDoseCountOnDate({required List<MedicationHistory> medicationHistories, required DateTime date}) {
-  return effectiveTakeMedicationHistories(medicationHistories)
-      .where((history) => isSameDay(history.scheduledRecordedDate, date))
-      .map((history) => '${history.medicine.id}/${history.action.medicationSchedule.id}')
-      .toSet()
-      .length;
+/// 有効な服用記録を、予定日([MedicationHistory.scheduledRecordedDate])ごとの服用キーの集合へ索引化する (#278)。
+/// 日ごとの集計で毎回全履歴を走査し直さないための索引。
+/// 取消(revert)で打ち消された記録は含めず([effectiveTakeMedicationHistories])、
+/// 同じ薬・同じスケジュールに対する複数の記録は集合により 1 回として数える
+Map<DateTime, Set<String>> effectiveTakeDoseKeysByDate(List<MedicationHistory> medicationHistories) {
+  final doseKeysByDate = <DateTime, Set<String>>{};
+  for (final history in effectiveTakeMedicationHistories(medicationHistories)) {
+    doseKeysByDate
+        .putIfAbsent(history.scheduledRecordedDate.date(), () => <String>{})
+        .add('${history.medicine.id}/${history.action.medicationSchedule.id}');
+  }
+  return doseKeysByDate;
 }
 
 /// [date] の達成状態。予定が無い日は null を返す (#278)
@@ -64,12 +69,16 @@ DayMedicationAchievement? dayMedicationAchievement({
   required List<MedicationHistory> medicationHistories,
   required DateTime date,
 }) {
-  final scheduledCount = scheduledDoseCountOnDate(medicines: medicines, date: date);
-  if (scheduledCount == 0) {
+  final scheduledDoseKeys = scheduledDoseKeysOnDate(medicines: medicines, date: date);
+  if (scheduledDoseKeys.isEmpty) {
     return null;
   }
-  final takenCount = _cappedTakenDoseCountOnDate(medicationHistories: medicationHistories, date: date, scheduledCount: scheduledCount);
-  if (takenCount >= scheduledCount) {
+  final takenCount = _achievedDoseCountOnDate(
+    scheduledDoseKeys: scheduledDoseKeys,
+    takeDoseKeysByDate: effectiveTakeDoseKeysByDate(medicationHistories),
+    date: date,
+  );
+  if (takenCount >= scheduledDoseKeys.length) {
     return DayMedicationAchievement.allTaken;
   }
   if (takenCount == 0) {
@@ -106,11 +115,14 @@ int consecutiveAchievedDaysCount({
     return 0;
   }
 
+  // 最大 [maxConsecutiveLookbackDays] 日分の日ループで全履歴を走査し直さないよう、索引はループの外で 1 度だけ作る
+  final takeDoseKeysByDate = effectiveTakeDoseKeysByDate(medicationHistories);
+
   var count = 0;
-  final todayScheduledCount = scheduledDoseCountOnDate(medicines: medicines, date: today);
-  if (todayScheduledCount > 0 &&
-      _cappedTakenDoseCountOnDate(medicationHistories: medicationHistories, date: today, scheduledCount: todayScheduledCount) >=
-          todayScheduledCount) {
+  final todayScheduledDoseKeys = scheduledDoseKeysOnDate(medicines: medicines, date: today);
+  if (todayScheduledDoseKeys.isNotEmpty &&
+      _achievedDoseCountOnDate(scheduledDoseKeys: todayScheduledDoseKeys, takeDoseKeysByDate: takeDoseKeysByDate, date: today) >=
+          todayScheduledDoseKeys.length) {
     count += 1;
   }
 
@@ -119,11 +131,12 @@ int consecutiveAchievedDaysCount({
     if (date.isBefore(earliestBeganDate)) {
       break;
     }
-    final scheduledCount = scheduledDoseCountOnDate(medicines: medicines, date: date);
-    if (scheduledCount == 0) {
+    final scheduledDoseKeys = scheduledDoseKeysOnDate(medicines: medicines, date: date);
+    if (scheduledDoseKeys.isEmpty) {
       continue;
     }
-    if (_cappedTakenDoseCountOnDate(medicationHistories: medicationHistories, date: date, scheduledCount: scheduledCount) < scheduledCount) {
+    if (_achievedDoseCountOnDate(scheduledDoseKeys: scheduledDoseKeys, takeDoseKeysByDate: takeDoseKeysByDate, date: date) <
+        scheduledDoseKeys.length) {
       break;
     }
     count += 1;
@@ -154,30 +167,35 @@ int consecutiveAchievedDaysCount({
 }
 
 /// [startDate] から [dayCount] 日分の服薬回数と予定回数の合計。
-/// 服薬回数は日ごとにその日の予定回数で頭打ちにしてから合算する([_cappedTakenDoseCountOnDate])
+/// 服薬回数は日ごとにその日の予定と突き合わせてから合算する([_achievedDoseCountOnDate])
 ({int takenCount, int scheduledCount}) _medicationCountsInDateRange({
   required List<Medicine> medicines,
   required List<MedicationHistory> medicationHistories,
   required DateTime startDate,
   required int dayCount,
 }) {
+  // 日ループの中で全履歴を走査し直さないよう、索引はループの外で 1 度だけ作る
+  final takeDoseKeysByDate = effectiveTakeDoseKeysByDate(medicationHistories);
+
   var takenCount = 0;
   var scheduledCount = 0;
   for (var offset = 0; offset < dayCount; offset++) {
     final date = startDate.addDays(offset);
-    final scheduledCountOnDate = scheduledDoseCountOnDate(medicines: medicines, date: date);
-    scheduledCount += scheduledCountOnDate;
-    takenCount += _cappedTakenDoseCountOnDate(medicationHistories: medicationHistories, date: date, scheduledCount: scheduledCountOnDate);
+    final scheduledDoseKeys = scheduledDoseKeysOnDate(medicines: medicines, date: date);
+    scheduledCount += scheduledDoseKeys.length;
+    takenCount += _achievedDoseCountOnDate(scheduledDoseKeys: scheduledDoseKeys, takeDoseKeysByDate: takeDoseKeysByDate, date: date);
   }
   return (takenCount: takenCount, scheduledCount: scheduledCount);
 }
 
-/// [date] の服薬回数を、その日の予定回数 [scheduledCount] で頭打ちにして返す。
-/// 予定から外れた薬(停止・アーカイブ・頻度変更後)の記録が残っていても達成率が 100% を超えないようにするため
-int _cappedTakenDoseCountOnDate({
-  required List<MedicationHistory> medicationHistories,
+/// [date] に予定されていて、実際に服用した回数。
+/// その日の予定キー [scheduledDoseKeys] と有効な服用キー([takeDoseKeysByDate])の交差だけを数える。
+/// 予定から外れた薬(停止・アーカイブ・頻度変更後)の記録が、別の薬の未服用分を埋めて
+/// 達成扱いになるのを防ぐため。交差は必ず予定数以下になる
+int _achievedDoseCountOnDate({
+  required Set<String> scheduledDoseKeys,
+  required Map<DateTime, Set<String>> takeDoseKeysByDate,
   required DateTime date,
-  required int scheduledCount,
 }) {
-  return takenDoseCountOnDate(medicationHistories: medicationHistories, date: date).clamp(0, scheduledCount);
+  return scheduledDoseKeys.intersection(takeDoseKeysByDate[date.date()] ?? const <String>{}).length;
 }

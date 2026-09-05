@@ -34,7 +34,6 @@ class MedicationAchievementSummary extends HookConsumerWidget {
 
     final weeklyCounts = weeklyMedicationCounts(medicines: medicines, medicationHistories: medicationHistories, date: today());
     return Row(
-      crossAxisAlignment: CrossAxisAlignment.stretch,
       children: [
         Expanded(
           child: MedicationAchievementCard(

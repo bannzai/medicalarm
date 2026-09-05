@@ -50,12 +50,27 @@ void main() {
         child: const MaterialApp(
           localizationsDelegates: AppLocalizations.localizationsDelegates,
           supportedLocales: AppLocalizations.supportedLocales,
-          home: Scaffold(body: MedicationAchievementSummary()),
+          // page.dart と同じ入れ子(Scaffold body → SafeArea → Column → Padding)で mount する。
+          // Column の非 flex 子は高さが無制約になり、サマリー側のレイアウト次第では
+          // 「BoxConstraints forces an infinite height」で描画に失敗するため
+          home: Scaffold(
+            body: SafeArea(
+              child: Column(
+                children: [
+                  Padding(
+                    padding: EdgeInsets.fromLTRB(16, 12, 16, 12),
+                    child: MedicationAchievementSummary(),
+                  ),
+                ],
+              ),
+            ),
+          ),
         ),
       ),
     );
     await tester.pumpAndSettle();
 
+    expect(tester.takeException(), isNull);
     // ja ロケール既定 (Intl.defaultLocale 非依存の widget テストでは英語になる場合があるため両方許容)
     expect(find.textContaining(RegExp('今週の服薬|This week')), findsOneWidget);
     expect(find.textContaining(RegExp('連続記録|Streak')), findsOneWidget);
