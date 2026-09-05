@@ -1157,5 +1157,49 @@
   "ossLicense": "OSSライセンス",
   "@ossLicense": {
     "description": "設定画面から利用しているOSSのライセンス一覧を開く項目のテキスト"
+  },
+  "achievementWeeklyLabel": "今週の服薬",
+  "@achievementWeeklyLabel": {
+    "description": "服薬履歴画面の達成サマリーカードで、今週の服薬回数を表すラベル"
+  },
+  "achievementWeeklyCountSuffix": "/{scheduledCount} 回",
+  "@achievementWeeklyCountSuffix": {
+    "description": "服薬履歴画面の達成サマリーカードで、今週の服薬回数の分母と単位を表す文字列。服薬した回数の数値に続けて小さく表示する",
+    "placeholders": {
+      "scheduledCount": {
+        "type": "int",
+        "example": "14"
+      }
+    }
+  },
+  "achievementStreakLabel": "連続記録",
+  "@achievementStreakLabel": {
+    "description": "服薬履歴画面の達成サマリーカードで、予定をすべて服用できた日が連続している日数を表すラベル"
+  },
+  "achievementStreakDaysSuffix": " 日",
+  "@achievementStreakDaysSuffix": {
+    "description": "服薬履歴画面の達成サマリーカードで、連続記録の単位を表す文字列。連続日数の数値に続けて小さく表示する"
+  },
+  "achievementMonthlyRateLabel": "{month}の達成率",
+  "@achievementMonthlyRateLabel": {
+    "description": "カレンダー画面で、表示中の月の服薬達成率を表すラベル",
+    "placeholders": {
+      "month": {
+        "type": "String",
+        "example": "9月"
+      }
+    }
+  },
+  "achievementLegendAllTaken": "全部",
+  "@achievementLegendAllTaken": {
+    "description": "カレンダーの達成ドットの凡例で、その日の予定をすべて服用したことを表すラベル"
+  },
+  "achievementLegendPartiallyTaken": "一部",
+  "@achievementLegendPartiallyTaken": {
+    "description": "カレンダーの達成ドットの凡例で、その日の予定の一部だけを服用したことを表すラベル"
+  },
+  "achievementLegendNoneTaken": "なし",
+  "@achievementLegendNoneTaken": {
+    "description": "カレンダーの達成ドットの凡例で、その日の予定を1件も服用していないことを表すラベル"
   }
 }

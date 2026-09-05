@@ -11,6 +11,7 @@ import 'package:medicalarm/components/loading/indicator.dart';
 import 'package:medicalarm/components/retry/page.dart';
 import 'package:medicalarm/components/text/edit_sheet.dart';
 import 'package:medicalarm/entity/medication_history.dart';
+import 'package:medicalarm/features/medications_histories/components/achievement_summary.dart';
 import 'package:medicalarm/features/preium_introduction/premium_introduction_sheet.dart';
 import 'package:medicalarm/provider/app_user.dart';
 import 'package:medicalarm/provider/current_group_id.dart';
@@ -87,6 +88,13 @@ class MedicationsHistoryPageBody extends HookConsumerWidget {
       body: SafeArea(
         child: Column(
           children: [
+            // const で生成すると、タブ切替でページが再マウントされた際にサマリーの provider 購読が
+            // 復元されず更新が届かなくなる事象をシミュレータ検証で確認したため、意図的に非 const で生成する
+            // (同型で動作している CalendarPage の CalendarAchievementSummary と同じ生成方法に揃える)
+            Padding(
+              padding: const EdgeInsets.fromLTRB(16, 12, 16, 12),
+              child: MedicationAchievementSummary(),
+            ),
             WeeklyCalendarPager(date: date, pageController: pageController),
             const Divider(
               height: 1,

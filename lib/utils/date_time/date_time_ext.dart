@@ -1,3 +1,4 @@
+import 'package:flutter/material.dart';
 import 'package:medicalarm/utils/date_time/weekday.dart';
 import 'package:timezone/timezone.dart';
 
@@ -72,6 +73,12 @@ int daysBetween(DateTime from, DateTime to) {
   from = DateTime(from.year, from.month, from.day);
   to = DateTime(to.year, to.month, to.day);
   return (to.difference(from).inHours / 24).round();
+}
+
+/// [month] の月の初日 0:00 から末日 23:59:59 までの範囲 (#278)。
+/// 月間の達成集計で、カレンダー本体と達成率カードが同じ範囲で服薬記録を読むために共有する
+DateTimeRange monthDateTimeRange({required DateTime month}) {
+  return DateTimeRange(start: DateTime(month.year, month.month, 1), end: DateTime(month.year, month.month + 1, 0, 23, 59, 59));
 }
 
 DateTime firstDayOfWeekday(DateTime day) {

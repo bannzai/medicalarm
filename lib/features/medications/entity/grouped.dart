@@ -1,11 +1,9 @@
 import 'package:collection/collection.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:medicalarm/entity/dose_receiver.dart';
-import 'package:medicalarm/entity/medication_frequency.dart';
 import 'package:medicalarm/entity/medication_history.dart';
 import 'package:medicalarm/entity/medicine.dart';
 import 'package:medicalarm/utils/date_time/date_time_ext.dart';
-import 'package:medicalarm/utils/date_time/weekday.dart';
 
 part 'grouped.freezed.dart';
 
@@ -72,18 +70,7 @@ List<MedicationGroup> medicationGroups({
     if (medicine.beganDateTime.date().isAfter(date.date())) {
       continue;
     }
-    final bool isMatched;
-    switch (medicine.frequency) {
-      case DailyMedicationFrequency():
-        isMatched = true;
-      case EveryXDaysMedicationFrequency(interval: final interval):
-        isMatched = daysBetween(medicine.beganDateTime, date.date()) % interval == 0;
-      case SpecificWeekdaysMedicationFrequency(weekdays: final weekdays):
-        isMatched = weekdays.any((weekday) => WeekdayFunctions.weekdayFromDate(date.date()) == weekday);
-      case CycleMedicationFrequency(consecutiveDays: final consecutiveDays, restDays: final restDays):
-        isMatched = daysBetween(medicine.beganDateTime, date.date()) % (consecutiveDays + restDays) < consecutiveDays;
-    }
-    if (!isMatched) {
+    if (!medicine.frequency.isScheduledOnDate(beganDateTime: medicine.beganDateTime, date: date)) {
       continue;
     }
 
@@ -119,18 +106,7 @@ List<MedicationGroup> medicationGroups({
     if (medicine.beganDateTime.date().isAfter(date.date())) {
       continue;
     }
-    final bool isMatched;
-    switch (medicine.frequency) {
-      case DailyMedicationFrequency():
-        isMatched = true;
-      case EveryXDaysMedicationFrequency(interval: final interval):
-        isMatched = daysBetween(medicine.beganDateTime, date.date()) % interval == 0;
-      case SpecificWeekdaysMedicationFrequency(weekdays: final weekdays):
-        isMatched = weekdays.any((weekday) => WeekdayFunctions.weekdayFromDate(date.date()) == weekday);
-      case CycleMedicationFrequency(consecutiveDays: final consecutiveDays, restDays: final restDays):
-        isMatched = daysBetween(medicine.beganDateTime, date.date()) % (consecutiveDays + restDays) < consecutiveDays;
-    }
-    if (!isMatched) {
+    if (!medicine.frequency.isScheduledOnDate(beganDateTime: medicine.beganDateTime, date: date)) {
       continue;
     }
 
