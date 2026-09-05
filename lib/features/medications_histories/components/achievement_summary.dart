@@ -47,12 +47,19 @@ class MedicationAchievementSummary extends HookConsumerWidget {
     if (medicines == null || medicationHistories == null) {
       // release では非表示のままにするが、debug では読み込み状態と購読イベントの到達を画面で確認できるようにする
       if (kDebugMode) {
-        // 期間の長さによって snapshot が届かない事象の切り分け: 今日で終わる複数スパンを並行で watch して状態を比べる
-        final probeStates = [7, 35, 180, 365]
-            .map((days) => '$days:${ref.watch(medicationHistoriesByDateRangeProvider(DateTimeRange(
-                  start: today().addDays(-days),
-                  end: DateTime(today().year, today().month, today().day, 23, 59, 59),
-                ))).runtimeType}')
+        // snapshot が届かない事象の判別プローブ:
+        // A=同一月内で今日終端 / B=月境界をまたぎ月末終端 / C=前月まるごと (カレンダーで実績のある形) / D=月境界をまたぎ今日終端 (死んでいる形の対照)
+        final todayDate = today();
+        final todayEnd = DateTime(todayDate.year, todayDate.month, todayDate.day, 23, 59, 59);
+        final monthEnd = DateTime(todayDate.year, todayDate.month + 1, 0, 23, 59, 59);
+        final probeRanges = {
+          'A': DateTimeRange(start: DateTime(todayDate.year, todayDate.month, 1), end: todayEnd),
+          'B': DateTimeRange(start: todayDate.addDays(-365), end: monthEnd),
+          'C': monthDateTimeRange(month: DateTime(todayDate.year, todayDate.month - 1, 1)),
+          'D': DateTimeRange(start: todayDate.addDays(-7), end: todayEnd),
+        };
+        final probeStates = probeRanges.entries
+            .map((entry) => '${entry.key}:${ref.watch(medicationHistoriesByDateRangeProvider(entry.value)).runtimeType}')
             .join(' ');
         return Text(
           'summary waiting build=${buildCount.value} events=${eventLog.value.length} ${eventLog.value.take(6).toList()} '
