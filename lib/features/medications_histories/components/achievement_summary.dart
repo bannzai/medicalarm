@@ -1,5 +1,6 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:medicalarm/entity/medication_achievement.dart';
 import 'package:medicalarm/features/localization/l.dart';
@@ -25,6 +26,18 @@ class MedicationAchievementSummary extends HookConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
+    // シミュレータ検証でこの widget の購読だけ更新が届かない事象の切り分け用 (debug のみ表示):
+    // 再ビルド回数と、購読コールバックが実際に届いた回数を記録する
+    final buildCount = useRef(0);
+    buildCount.value += 1;
+    final eventLog = useRef(<String>[]);
+    ref.listen(allMedicinesProvider, (previous, next) {
+      eventLog.value.add('M:${next.runtimeType}');
+    });
+    ref.listen(medicationHistoriesByDateRangeProvider(medicationAchievementLookbackDateTimeRange(today: today())), (previous, next) {
+      eventLog.value.add('H:${next.runtimeType}');
+    });
+
     final medicinesAsync = ref.watch(allMedicinesProvider);
     // 連続記録は今日から過去へ遡って判定するため、遡り上限までの期間の服薬記録を対象にする
     final medicationHistoriesAsync = ref.watch(medicationHistoriesByDateRangeProvider(medicationAchievementLookbackDateTimeRange(today: today())));
@@ -32,11 +45,12 @@ class MedicationAchievementSummary extends HookConsumerWidget {
     final medicationHistories = medicationHistoriesAsync.valueOrNull;
     // サマリーは一覧の補助情報のため、集計に必要なデータが揃うまでは何も表示せず一覧の表示を妨げない
     if (medicines == null || medicationHistories == null) {
-      // release では非表示のままにするが、debug では読み込み中とエラーのどちらで止まっているかを
-      // 画面で確認できるようにする (シミュレータ検証でサマリー非表示の原因を切り分けられなかったため)
+      // release では非表示のままにするが、debug では読み込み状態と購読イベントの到達を画面で確認できるようにする
       if (kDebugMode) {
         return Text(
-          'achievement summary waiting: medicines=$medicinesAsync histories=$medicationHistoriesAsync',
+          'summary waiting build=${buildCount.value} events=${eventLog.value.length} ${eventLog.value.take(6).toList()} '
+          'container=${ProviderScope.containerOf(context).hashCode} '
+          'medicines=${medicinesAsync.runtimeType} histories=${medicationHistoriesAsync.runtimeType}',
           style: const TextStyle(fontSize: 10, color: TextColor.danger),
         );
       }
