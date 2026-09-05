@@ -580,21 +580,25 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
               ),
             ),
             const SizedBox(width: 8),
-            // 記録者表示が加わって横幅が不足した時に、薬名を省略して行あふれを防ぐ
-            Flexible(
-              child: GestureDetector(
-                child: Text(
-                  scheduleRow.medicine.name,
-                  style: const TextStyle(fontSize: 16),
-                  overflow: TextOverflow.ellipsis,
+            // 記録者表示が加わって横幅が不足した時に、薬名を省略して行あふれを防ぐ。
+            // Spacer を並べると flex の取り合いで薬名が余白より先に省略されるため、Expanded が余白ごと引き受け、
+            // Align でタップ領域と表示をテキスト幅に保つ
+            Expanded(
+              child: Align(
+                alignment: Alignment.centerLeft,
+                child: GestureDetector(
+                  child: Text(
+                    scheduleRow.medicine.name,
+                    style: const TextStyle(fontSize: 16),
+                    overflow: TextOverflow.ellipsis,
+                  ),
+                  onTap: () {
+                    analytics.logEvent(name: 'medications_medicine_name_tapped');
+                    showMedicineForm(context, scheduleRow.medicine);
+                  },
                 ),
-                onTap: () {
-                  analytics.logEvent(name: 'medications_medicine_name_tapped');
-                  showMedicineForm(context, scheduleRow.medicine);
-                },
               ),
             ),
-            const Spacer(),
             // 同名・同時刻で並ぶ行を見分けるための識別情報として、チェック済みの行に記録時刻を表示する (#253)。
             // 他メンバーの記録には記録者も併記して「誰が記録したか」を判別できるようにする (#277)
             if (isChecked.value && scheduleRow.medicationHistory != null) ...[

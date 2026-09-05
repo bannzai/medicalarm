@@ -42,13 +42,18 @@ class DoseReceiverAvatar extends StatelessWidget {
         color: doseReceiverIdentificationColor(doseReceiverID: doseReceiver.id),
         shape: BoxShape.circle,
       ),
-      child: Text(
-        doseReceiver.name.isEmpty ? '' : doseReceiver.name.characters.first,
-        style: TextStyle(
-          // デザインモックの比率 (32px アバターに fontSize 15) に合わせる
-          fontSize: size * 15 / 32,
-          fontWeight: FontWeight.bold,
-          color: Colors.white,
+      // 頭文字は隣接して表示される氏名の装飾のため、スクリーンリーダーには氏名側だけを読ませる
+      child: ExcludeSemantics(
+        child: Text(
+          doseReceiver.name.isEmpty ? '' : doseReceiver.name.characters.first,
+          // 固定直径の円からはみ出さないよう、テキスト拡大設定の影響を受けない (氏名側は通常どおり拡大される)
+          textScaler: TextScaler.noScaling,
+          style: TextStyle(
+            // デザインモックの比率 (32px アバターに fontSize 15) に合わせる
+            fontSize: size * 15 / 32,
+            fontWeight: FontWeight.bold,
+            color: Colors.white,
+          ),
         ),
       ),
     );
