@@ -602,8 +602,10 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
             // 同名・同時刻で並ぶ行を見分けるための識別情報として、チェック済みの行に記録時刻を表示する (#253)。
             // 他メンバーの記録には記録者も併記して「誰が記録したか」を判別できるようにする (#277)
             if (isChecked.value && scheduleRow.medicationHistory != null) ...[
-              // 記録者名が長い場合もラベル単体で行幅を超えないよう省略表示する
-              Flexible(
+              // 記録者名が長い場合もラベル単体で行幅を超えないよう、画面幅の半分を上限に省略表示する。
+              // Flexible にすると Expanded の薬名と flex 領域を等分してしまい、ラベルが短くても薬名が半分幅で省略される
+              ConstrainedBox(
+                constraints: BoxConstraints(maxWidth: MediaQuery.sizeOf(context).width / 2),
                 child: Text(
                   recorderName == null
                       ? L.medicationTakenAtLabel(DateFormat.Hm().format(scheduleRow.medicationHistory!.recordedDateTime))
