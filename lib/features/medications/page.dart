@@ -598,11 +598,16 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
             // 同名・同時刻で並ぶ行を見分けるための識別情報として、チェック済みの行に記録時刻を表示する (#253)。
             // 他メンバーの記録には記録者も併記して「誰が記録したか」を判別できるようにする (#277)
             if (isChecked.value && scheduleRow.medicationHistory != null) ...[
-              Text(
-                recorderName == null
-                    ? L.medicationTakenAtLabel(DateFormat.Hm().format(scheduleRow.medicationHistory!.recordedDateTime))
-                    : '${L.medicationTakenAtLabel(DateFormat.Hm().format(scheduleRow.medicationHistory!.recordedDateTime))} · ${L.recordedByMember(recorderName)}',
-                style: const TextStyle(fontSize: 12, color: TextColor.gray),
+              // 記録者名が長い場合もラベル単体で行幅を超えないよう省略表示する
+              Flexible(
+                child: Text(
+                  recorderName == null
+                      ? L.medicationTakenAtLabel(DateFormat.Hm().format(scheduleRow.medicationHistory!.recordedDateTime))
+                      : '${L.medicationTakenAtLabel(DateFormat.Hm().format(scheduleRow.medicationHistory!.recordedDateTime))}'
+                          ' · ${L.recordedByMember(recorderName)}',
+                  style: const TextStyle(fontSize: 12, color: TextColor.gray),
+                  overflow: TextOverflow.ellipsis,
+                ),
               ),
               const SizedBox(width: 8),
             ],
