@@ -166,6 +166,37 @@ void main() {
     );
   }
 
+  // #276: 服用済みの行を沈めて未服用の行を目立たせる
+  group('MedicineTileScheduleRow の服用済み表示', () {
+    Opacity findRowOpacity(WidgetTester tester) {
+      return tester.widget<Opacity>(find.ancestor(of: find.text('共有薬X'), matching: find.byType(Opacity)).first);
+    }
+
+    testWidgets('チェック済みの行は薬名が取り消し線になり、行全体が半透明になる', (tester) async {
+      await pumpScheduleRow(tester, scheduleRow: buildCheckedScheduleRow());
+
+      expect(tester.widget<Text>(find.text('共有薬X')).style?.decoration, TextDecoration.lineThrough);
+      expect(findRowOpacity(tester).opacity, 0.55);
+    });
+
+    testWidgets('未チェックの行は取り消し線が付かず、不透明のまま', (tester) async {
+      await pumpScheduleRow(tester, scheduleRow: buildUncheckedScheduleRow());
+
+      expect(tester.widget<Text>(find.text('共有薬X')).style?.decoration, isNot(TextDecoration.lineThrough));
+      expect(findRowOpacity(tester).opacity, 1.0);
+    });
+
+    testWidgets('アンチェックすると取り消し線と半透明が解除される', (tester) async {
+      await pumpScheduleRow(tester, scheduleRow: buildCheckedScheduleRow());
+
+      await tester.tap(find.byType(Checkbox));
+      await tester.pump();
+
+      expect(tester.widget<Text>(find.text('共有薬X')).style?.decoration, isNot(TextDecoration.lineThrough));
+      expect(findRowOpacity(tester).opacity, 1.0);
+    });
+  });
+
   // #253: アンチェックは take ドキュメントを削除せず revert アクションを即時追記する論理削除。
   // SnackBar の「元に戻す」は直前に書いた revert ドキュメントの物理削除で取り消す
   group('MedicineTileScheduleRow のアンチェック(論理削除)', () {

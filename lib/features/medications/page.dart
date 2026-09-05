@@ -19,6 +19,7 @@ import 'package:medicalarm/features/medications/components/add_button.dart';
 import 'package:medicalarm/features/medications/components/dose_interval_warning_dialog.dart';
 import 'package:medicalarm/components/calendar/day/today_badge.dart';
 import 'package:medicalarm/features/medications/components/group_chips_bar.dart';
+import 'package:medicalarm/features/medications/components/progress_hero.dart';
 import 'package:medicalarm/features/medications/entity/grouped.dart';
 import 'package:medicalarm/features/medicine_form/components/schedule/focus_connect/section.dart';
 import 'package:medicalarm/features/medicine_form/page.dart';
@@ -101,6 +102,12 @@ class MedicationsPageBody extends HookConsumerWidget {
     });
 
     final primaryColor = Theme.of(context).colorScheme.primary;
+    // 進捗ヒーローとグループ一覧の両方が同じ内容を参照するため一度だけ組み立てる
+    final groups = medicationGroups(
+      medicines: medicines,
+      medicationHistories: medicationHistories,
+      date: date.value,
+    );
 
     return Scaffold(
       appBar: AppBar(
@@ -146,6 +153,8 @@ class MedicationsPageBody extends HookConsumerWidget {
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.center,
                           children: [
+                            MedicationsProgressHero(date: date.value, groups: groups),
+                            const SizedBox(height: 12),
                             if (!customerInfo.hasPremiumEntitlement) ...[
                               const AdMob(),
                             ],
@@ -172,11 +181,7 @@ class MedicationsPageBody extends HookConsumerWidget {
                               ),
                               const SizedBox(height: 20),
                             ],
-                            for (final tileValue in medicationGroups(
-                              medicines: medicines,
-                              medicationHistories: medicationHistories,
-                              date: date.value,
-                            )) ...[
+                            for (final tileValue in groups) ...[
                               MedicationGroupTile(
                                 key: ValueKey(tileValue.id),
                                 tileValue: tileValue,
@@ -208,6 +213,7 @@ class MedicationGroupTile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final primaryColor = Theme.of(context).colorScheme.primary;
+    final isMissedDose = isMissedDoseSuspected(group: tileValue, now: DateTime.now());
 
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 16.0),
@@ -229,13 +235,31 @@ class MedicationGroupTile extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Text(
-              tileValue.scheduleTime.toTimeString(),
-              style: TextStyle(
-                fontSize: 20,
-                fontWeight: FontWeight.bold,
-                color: primaryColor,
-              ),
+            Row(
+              children: [
+                Text(
+                  tileValue.scheduleTime.toTimeString(),
+                  style: TextStyle(
+                    fontSize: 20,
+                    fontWeight: FontWeight.bold,
+                    color: isMissedDose ? AppColors.missedDoseWarning : primaryColor,
+                  ),
+                ),
+                const Spacer(),
+                if (isMissedDose) ...[
+                  Container(
+                    padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
+                    decoration: BoxDecoration(
+                      color: AppColors.missedDoseWarningBackground,
+                      borderRadius: BorderRadius.circular(12),
+                    ),
+                    child: Text(
+                      L.missedDoseSuspectedBadge,
+                      style: const TextStyle(fontSize: 12, fontWeight: FontWeight.bold, color: AppColors.missedDoseWarning),
+                    ),
+                  ),
+                ],
+              ],
             ),
             const SizedBox(height: 4),
             Text(
@@ -527,69 +551,80 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
       }
     }
 
+    // 表示上のチェック状態。チェックボックスと、服用済み行を沈める表示(半透明・取り消し線)で共有する (#276)
+    final isCheckedForDisplay = isDisabled ? false : isChecked.value;
+
     return Column(
       crossAxisAlignment: CrossAxisAlignment.center,
       children: [
-        Row(
-          crossAxisAlignment: CrossAxisAlignment.center,
-          children: [
-            SizedBox(
-              // Apple HIG の最小タップターゲット 44pt。行の高さごと確保することで、
-              // 隣接行のチェックボックスとタップ領域が重ならないよう分離する (#253)
-              width: 44,
-              height: 44,
-              child: Checkbox(
-                value: isDisabled ? false : isChecked.value,
-                onChanged: isDisabled
-                    ? null
-                    : (value) {
-                        analytics.logEvent(name: 'medications_check_changed');
-                        final newValue = value ?? false;
-                        if (newValue == isChecked.value) {
-                          return;
-                        }
-                        isChecked.value = newValue;
-                        if (newValue) {
-                          final revertWrite = pendingRevertWrite.value;
-                          if (revertWrite != null) {
-                            // 「元に戻す」猶予中(revert 書き込み中を含む)のチェックし直しは undo と同義。
-                            // take の追記ではなく revert の取り下げで戻す
-                            pendingRevertWrite.value = null;
-                            ScaffoldMessenger.of(context).hideCurrentSnackBar();
-                            unawaited(startUndo(revertWrite));
-                          } else {
-                            unawaited(takeWithIntervalCheck());
+        // 服用済みの行を沈めて未服用の行を目立たせる (#276)。Opacity はタップを妨げないためチェック操作はそのまま効く
+        Opacity(
+          opacity: isCheckedForDisplay ? 0.55 : 1.0,
+          child: Row(
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: [
+              SizedBox(
+                // Apple HIG の最小タップターゲット 44pt。行の高さごと確保することで、
+                // 隣接行のチェックボックスとタップ領域が重ならないよう分離する (#253)
+                width: 44,
+                height: 44,
+                child: Checkbox(
+                  value: isCheckedForDisplay,
+                  onChanged: isDisabled
+                      ? null
+                      : (value) {
+                          analytics.logEvent(name: 'medications_check_changed');
+                          final newValue = value ?? false;
+                          if (newValue == isChecked.value) {
+                            return;
                           }
-                        } else {
-                          unawaited(revertWithUndo());
-                        }
-                      },
-              ),
-            ),
-            const SizedBox(width: 8),
-            GestureDetector(
-              child: Text(
-                scheduleRow.medicine.name,
-                style: const TextStyle(fontSize: 16),
-              ),
-              onTap: () {
-                analytics.logEvent(name: 'medications_medicine_name_tapped');
-                showMedicineForm(context, scheduleRow.medicine);
-              },
-            ),
-            const Spacer(),
-            // 同名・同時刻で並ぶ行を見分けるための識別情報として、チェック済みの行に記録時刻を表示する (#253)
-            if (isChecked.value && scheduleRow.medicationHistory != null) ...[
-              Text(
-                L.medicationTakenAtLabel(DateFormat.Hm().format(scheduleRow.medicationHistory!.recordedDateTime)),
-                style: const TextStyle(fontSize: 12, color: TextColor.gray),
+                          isChecked.value = newValue;
+                          if (newValue) {
+                            final revertWrite = pendingRevertWrite.value;
+                            if (revertWrite != null) {
+                              // 「元に戻す」猶予中(revert 書き込み中を含む)のチェックし直しは undo と同義。
+                              // take の追記ではなく revert の取り下げで戻す
+                              pendingRevertWrite.value = null;
+                              ScaffoldMessenger.of(context).hideCurrentSnackBar();
+                              unawaited(startUndo(revertWrite));
+                            } else {
+                              unawaited(takeWithIntervalCheck());
+                            }
+                          } else {
+                            unawaited(revertWithUndo());
+                          }
+                        },
+                ),
               ),
               const SizedBox(width: 8),
+              GestureDetector(
+                child: Text(
+                  scheduleRow.medicine.name,
+                  style: TextStyle(
+                    fontSize: 16,
+                    decoration: isCheckedForDisplay ? TextDecoration.lineThrough : null,
+                    decorationColor: TextColor.gray,
+                  ),
+                ),
+                onTap: () {
+                  analytics.logEvent(name: 'medications_medicine_name_tapped');
+                  showMedicineForm(context, scheduleRow.medicine);
+                },
+              ),
+              const Spacer(),
+              // 同名・同時刻で並ぶ行を見分けるための識別情報として、チェック済みの行に記録時刻を表示する (#253)
+              if (isChecked.value && scheduleRow.medicationHistory != null) ...[
+                Text(
+                  L.medicationTakenAtLabel(DateFormat.Hm().format(scheduleRow.medicationHistory!.recordedDateTime)),
+                  style: const TextStyle(fontSize: 12, color: TextColor.gray),
+                ),
+                const SizedBox(width: 8),
+              ],
+              if (scheduleRow.quantityMemo.isNotEmpty) ...[
+                Text(scheduleRow.quantityMemo),
+              ],
             ],
-            if (scheduleRow.quantityMemo.isNotEmpty) ...[
-              Text(scheduleRow.quantityMemo),
-            ],
-          ],
+          ),
         ),
       ],
     );
