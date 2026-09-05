@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <title>薬袋</title>
+    <style>
+      /* 調剤薬局の内服薬の薬袋。印刷枠と用法欄が大きく出る実物の体裁に合わせている。
+         Chrome の --screenshot はビューポートをそのまま切り取るため、bag は window-size と同じ 900x1200 に固定する。 */
+      * {
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        margin: 0;
+        width: 900px;
+        height: 1200px;
+        overflow: hidden;
+      }
+      body {
+        font-family: 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', 'Noto Sans CJK JP', Osaka, sans-serif;
+        -webkit-font-smoothing: antialiased;
+        color: #1b1b1b;
+      }
+
+      .bag {
+        position: relative;
+        width: 900px;
+        height: 1200px;
+        /* 薬袋によく使われる薄いクリーム色の紙 */
+        background: #f7f2e5;
+        padding: 30px;
+      }
+      /* 袋の上端の折り返し(のりしろ)。実物は上辺が二重になっている */
+      .bag-flap {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 900px;
+        height: 22px;
+        background: #efe8d7;
+        border-bottom: 1px solid #d8cfb8;
+      }
+      .print-frame {
+        height: 100%;
+        border: 3px solid #2b6ca3;
+        padding: 22px 26px;
+        display: flex;
+        flex-direction: column;
+      }
+      .print-frame-inner {
+        height: 100%;
+        border: 1px solid #2b6ca3;
+        padding: 24px 26px;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .bag-type {
+        text-align: center;
+        font-size: 72px;
+        font-weight: bold;
+        letter-spacing: 0.22em;
+        color: #1b4d78;
+        padding-left: 0.22em;
+      }
+      .patient {
+        margin-top: 18px;
+        border: 2px solid #1b1b1b;
+        padding: 12px 20px;
+        font-size: 44px;
+        font-weight: bold;
+        text-align: center;
+      }
+
+      .usage {
+        margin-top: 28px;
+        border-top: 2px solid #1b4d78;
+        border-bottom: 2px solid #1b4d78;
+        padding: 18px 0 22px;
+      }
+      .usage-label {
+        font-size: 26px;
+        color: #1b4d78;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+      .usage-main {
+        font-size: 52px;
+        font-weight: bold;
+        text-align: center;
+        letter-spacing: 0.04em;
+      }
+      .usage-sub {
+        display: flex;
+        justify-content: center;
+        gap: 70px;
+        margin-top: 16px;
+        font-size: 40px;
+        font-weight: bold;
+      }
+
+      .medicine-name-block {
+        margin-top: 26px;
+      }
+      .medicine-name-label {
+        font-size: 24px;
+        color: #1b4d78;
+        font-weight: bold;
+      }
+      .medicine-name {
+        margin-top: 8px;
+        border-bottom: 1.5px solid #1b1b1b;
+        padding-bottom: 10px;
+        font-size: 34px;
+        font-weight: bold;
+        /* 薬品名は抽出対象そのものなので、途中で折り返さない大きさに収める */
+        white-space: nowrap;
+      }
+
+      .caution {
+        margin-top: 26px;
+        border: 1.5px solid #c0392b;
+        border-radius: 6px;
+        padding: 12px 16px;
+        color: #c0392b;
+        font-size: 27px;
+        font-weight: bold;
+        text-align: center;
+      }
+
+      .bag-footer {
+        margin-top: auto;
+        font-size: 24px;
+        line-height: 1.6;
+      }
+      .dispensed-date {
+        border-bottom: 1px solid #8a8375;
+        padding-bottom: 8px;
+        margin-bottom: 12px;
+      }
+      .pharmacy-name {
+        font-size: 30px;
+        font-weight: bold;
+        color: #1b4d78;
+      }
+      .pharmacist {
+        margin-top: 8px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="bag">
+      <div class="bag-flap"></div>
+      <div class="print-frame">
+        <div class="print-frame-inner">
+          <div class="bag-type">内服薬</div>
+          <div class="patient">山田　花子　様</div>
+
+          <div class="usage">
+            <div class="usage-label">用法</div>
+            <div class="usage-main">1日 2回　朝・夕食後</div>
+            <div class="usage-sub"><span>1回 1錠</span><span>14日分</span></div>
+          </div>
+
+          <div class="medicine-name-block">
+            <div class="medicine-name-label">薬品名</div>
+            <div class="medicine-name">クラリスロマイシン錠200mg「サワイ」</div>
+          </div>
+
+          <div class="caution">用法・用量を守って服用して下さい</div>
+
+          <div class="bag-footer">
+            <div class="dispensed-date">調剤日　2026年9月1日</div>
+            <div class="pharmacy-name">みどり調剤薬局</div>
+            <div>東京都千代田区○○ 1-2-3　TEL 03-0000-0000</div>
+            <div class="pharmacist">薬剤師　みどり　太郎</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -52,6 +52,46 @@ class MedicineAdd {
     await docRef.set(medicine, SetOptions(merge: true));
     return medicine;
   }
+
+  // 画像からの一括登録など、複数の薬を 1 回で登録する。call を 1 件ずつ await すると途中失敗で
+  // 一部だけ保存され、再実行時に重複登録になるため、WriteBatch で原子的に書き込む。
+  Future<List<Medicine>> callAll({
+    required List<
+            ({
+              String name,
+              MedicationFrequency frequency,
+              List<MedicationSchedule> schedules,
+              DoseReceiver doseReceiver,
+              String memo,
+              String memoImageURL,
+              int? minimumDoseIntervalHours,
+              DateTime beganDateTime
+            })>
+        medicineInputs,
+  }) async {
+    final collectionRef = database.medicinesReference();
+    final batch = collectionRef.firestore.batch();
+    final medicines = <Medicine>[];
+    for (final medicineInput in medicineInputs) {
+      final docRef = collectionRef.doc();
+      final medicine = Medicine(
+        userID: userID,
+        id: docRef.id,
+        name: medicineInput.name.trim(),
+        frequency: medicineInput.frequency,
+        schedules: medicineInput.schedules,
+        doseReceiver: medicineInput.doseReceiver,
+        memo: medicineInput.memo,
+        memoImageURL: medicineInput.memoImageURL,
+        minimumDoseIntervalHours: medicineInput.minimumDoseIntervalHours,
+        beganDateTime: medicineInput.beganDateTime,
+      );
+      batch.set(docRef, medicine, SetOptions(merge: true));
+      medicines.add(medicine);
+    }
+    await batch.commit();
+    return medicines;
+  }
 }
 
 @Riverpod(dependencies: [currentGroupDatabase, appUserID])

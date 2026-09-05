@@ -42,6 +42,7 @@ make secret  # 環境変数 FILE_FIREBASE_IOS / REVENUE_CAT_PUBLIC_API_KEY が�
 
 - 起動直後は通知許可 → ATT → プロモーション（★5 レビュー訴求。アカウント作成から1日超経過など PromotionStartResolver の条件成立時のみ）→ AdMob validator 警告（開発ビルド）の順不同でダイアログが重なる。mobile-mcp で手動確認する場合も、まず `maestro test maestro/flows/allow_notification.yaml` で突破してから操作を始めるのが確実
 - `flutter build ios --simulator` + `xcrun simctl install/launch` でアプリを起動すると、`lib/main.dart` の `setupRemoteConfig()`（`fetchAndActivate()` の `fetchTimeout` が1分）が同期待ちのため、シミュレータのネットワーク到達性によっては最大60秒程度 LaunchImage（白画面）のまま初回フレームが描画されない。`mobile_list_elements_on_screen` で `LaunchImage` が居座っていないかを確認し、白画面でも即座に失敗と判断しない
+- 画像を使う QA（画像からの薬の一括登録）では、事前に `xcrun simctl addmedia <UDID> scripts/e2e/fixtures/*.png` でテスト画像をシミュレータの写真ライブラリへ取り込んでおく。写真ライブラリを初めて開くとアクセス許可のダイアログが出るため、mobile-mcp で許可してから画像を選ぶ。テスト画像と期待する抽出結果は `scripts/e2e/fixtures/` にあり、内容は lib/features/medicine_image_import/QA.md を参照
 - 非対話実行でも `flutter run -d <UDID>` はプロセスが常駐し続けるため、`run_in_background: true` で起動し、ログファイルを `grep` でポーリングして起動完了（`Flutter run key commands.` の出力）を待つ必要がある（フォアグラウンドで実行すると turn がブロックされたまま完了しない）
 - AdMob native ad validator の警告（開発ビルドのみ表示）は `overlayWebView` 内の要素で `mobile_list_elements_on_screen` にテキストとして現れず、`Dismiss` ボタン座標の目視推定タップが当たりにくい。無理に閉じようとせず、下部タブバー操作は overlay の下でも独立して機能するためそのまま操作を継続してよい
   - この overlay は画面座標 x:0-335 y:355-510 に固定表示され、この範囲に重なるチェックボックス・ボタン等へのタップを奪う（`mobile_list_elements_on_screen` にはアクセシビリティ要素として現れるが、実タップは overlay 側が受け取る）。回避策: (1) 対象要素がこの範囲外（y>510）に来るよう事前に他のスケジュール・データを追加して並び順をずらす、(2) 広告を表示する画面から直接開いたモーダルには overlay が残るので、広告のない画面（例: 服薬画面ではなくお薬一覧画面）経由でフォームを開く
@@ -95,6 +96,7 @@ make secret  # 環境変数 FILE_FIREBASE_IOS / REVENUE_CAT_PUBLIC_API_KEY が�
 
 - [medicines](lib/features/medicines/QA.md) — お薬一覧・一時停止/再開
 - [medicine_form](lib/features/medicine_form/QA.md) — 薬の登録・編集・削除
+- [medicine_image_import](lib/features/medicine_image_import/QA.md) — 画像（お薬手帳・処方箋）からの薬の一括登録
 - [medicine_schedule_setting_form](lib/features/medicine_schedule_setting_form/QA.md) — スケジュールごとの通知設定
 - [medication_frequency_form](lib/features/medication_frequency_form/QA.md) — 服用頻度設定
 - [medications](lib/features/medications/QA.md) — 服薬画面（ホーム）
