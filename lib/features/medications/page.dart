@@ -101,6 +101,17 @@ class MedicationsPageBody extends HookConsumerWidget {
       }
     });
 
+    // 時刻依存の表示 (進捗ヒーローの次に飲む予定・飲み忘れかもバッジ) は build 時の DateTime.now() を参照するため、
+    // 画面を表示したまま予定時刻をまたいでも追従するよう 1 分ごとに再構築する。
+    // 1 分は予定時刻の粒度 (HH:mm) に合わせた最小の更新間隔
+    final clock = useState(DateTime.now());
+    useEffect(() {
+      final timer = Timer.periodic(const Duration(minutes: 1), (_) {
+        clock.value = DateTime.now();
+      });
+      return timer.cancel;
+    }, []);
+
     final primaryColor = Theme.of(context).colorScheme.primary;
     // 進捗ヒーローとグループ一覧の両方が同じ内容を参照するため一度だけ組み立てる
     final groups = medicationGroups(
