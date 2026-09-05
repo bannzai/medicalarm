@@ -32,11 +32,11 @@ class MedicationAchievementSummary extends HookConsumerWidget {
     final medicationHistories = medicationHistoriesAsync.valueOrNull;
     // サマリーは一覧の補助情報のため、集計に必要なデータが揃うまでは何も表示せず一覧の表示を妨げない
     if (medicines == null || medicationHistories == null) {
-      // 読み込み失敗は release では非表示のままにするが、debug では原因を画面で確認できるようにする
-      // (シミュレータ検証でサマリー非表示の原因がエラーか読み込み中か切り分けられなかったため)
-      if (kDebugMode && (medicinesAsync is AsyncError || medicationHistoriesAsync is AsyncError)) {
+      // release では非表示のままにするが、debug では読み込み中とエラーのどちらで止まっているかを
+      // 画面で確認できるようにする (シミュレータ検証でサマリー非表示の原因を切り分けられなかったため)
+      if (kDebugMode) {
         return Text(
-          'achievement summary error: ${(medicinesAsync is AsyncError ? medicinesAsync.error : medicationHistoriesAsync.error)}',
+          'achievement summary waiting: medicines=$medicinesAsync histories=$medicationHistoriesAsync',
           style: const TextStyle(fontSize: 10, color: TextColor.danger),
         );
       }
