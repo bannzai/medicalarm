@@ -1157,5 +1157,55 @@
   "ossLicense": "OSSライセンス",
   "@ossLicense": {
     "description": "設定画面から利用しているOSSのライセンス一覧を開く項目のテキスト"
+  },
+  "todayMedicationProgressTitle": "今日の服薬",
+  "@todayMedicationProgressTitle": {
+    "description": "今日の進捗ヒーローの見出し。選択日が今日の場合"
+  },
+  "medicationProgressTitleForDate": "{date} の服薬",
+  "@medicationProgressTitleForDate": {
+    "description": "進捗ヒーローの見出し。選択日が今日以外の場合",
+    "placeholders": {
+      "date": {
+        "type": "String",
+        "example": "9/3"
+      }
+    }
+  },
+  "medicationProgressCountLabel": "{takenCount}/{totalCount} 服用済",
+  "@medicationProgressCountLabel": {
+    "description": "進捗ヒーローに表示する、選択日の服用済み数と予定数",
+    "placeholders": {
+      "takenCount": {
+        "type": "int",
+        "example": "2"
+      },
+      "totalCount": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "medicationNextDoseLabel": "次は {time} {receiverName} · {medicineName}",
+  "@medicationNextDoseLabel": {
+    "description": "進捗ヒーローに表示する、次に飲む予定の時刻と服用者と薬名",
+    "placeholders": {
+      "time": {
+        "type": "String",
+        "example": "12:00"
+      },
+      "receiverName": {
+        "type": "String",
+        "example": "自分"
+      },
+      "medicineName": {
+        "type": "String",
+        "example": "ロキソニン"
+      }
+    }
+  },
+  "missedDoseSuspectedBadge": "飲み忘れかも",
+  "@missedDoseSuspectedBadge": {
+    "description": "予定時刻を過ぎても未服用の服薬グループに表示する警告バッジ"
   }
 }
