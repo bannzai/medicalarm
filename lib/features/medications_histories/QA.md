@@ -275,7 +275,39 @@ B が表示名未設定の間は記録者ラベルが「メンバー」フォー
 
 ## 6. 達成サマリー（#278）
 
-- [ ] **今週の服薬カード**: 履歴一覧の上部に「今週の服薬 x/y回」カード（今週の予定数に対する服用済み数）が表示される
-  - ⏭️ 未検証: リモートシミュレータ（GitHub Actions runner 上の simtunnel）で、アプリ起動直後に張った Firestore の snapshot listen がイベントを一切受け取らない環境事象（同一クエリでもタイミング次第で発火・不発が分かれることを provider 内ログで確認済み）により、サマリー領域が空のまま実機描画を確認できなかった。集計ロジックはユニットテスト（test/entity/medication_achievement_test.dart）、カード描画は widget test（test/features/medications_histories/achievement_summary_render_test.dart）で確認済み。同じ provider（medicationHistoriesByDateRange）を使うカレンダータブの月間達成率は同一データ・同一セッションで実機動作確認済み（lib/features/calendar/QA.md 項目5）
-- [ ] **連続記録カード**: 「連続記録 n日」カード（記録の無い今日は連続を切らない）が表示される
-  - ⏭️ 未検証: 同上
+検証方法: simtunnel（GitHub Actions runner 上のリモート iOS Simulator、レビュー修正後の build 96f02a7）。テストデータ: 薬 Vitamin（毎日・2026/9/1 開始・10:00 スケジュール2件）、9/6（当日）・9/5 は 2/2 服用、9/4 は 1/2 服用、9/1〜9/3 は未服用。
+
+補足: レビュー修正前の build（446e5f8 以前）ではカードが描画されなかった。原因はサマリーの Row の `CrossAxisAlignment.stretch` が、ページの Column（非 flex 子は高さ無制約）配下でデータ到着時に「BoxConstraints forces an infinite height」例外を起こしサブツリーが空描画になっていたこと（stretch 除去前の widget test をページと同じ Column 構成にすると同じ例外で fail することを確認済み）。stretch 除去後の本 build では初回表示・タブ再切替後とも描画される。
+
+- [x] **今週の服薬カード**: 履歴一覧の上部に「今週の服薬 x/y回」カード（今週の予定数に対する服用済み数）が表示される
+- [x] **連続記録カード**: 「連続記録 n日」カード（記録の無い今日は連続を切らない）が表示される
+
+#### 動作確認
+<details>
+<summary>動作確認エビデンス</summary>
+
+### **今週の服薬カード**: 履歴一覧の上部に「今週の服薬 x/y回」カード（今週の予定数に対する服用済み数）が表示される
+
+<details><summary>動作確認スクショ</summary>
+
+**確認日: 2026-09-06**
+
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/09/06/2c9694c3-04c0-4b35-a28f-7ec71fdf209e-sim8-12-history.png" width="320">
+
+「This week 2/14 times」と表示された（今週 = 9/6〜9/12 の予定 14 件のうち、9/6 の 2 件を服用）。カレンダータブへ切り替えて戻った後もカードが表示され続けることも確認した
+
+</details>
+
+### **連続記録カード**: 「連続記録 n日」カード（記録の無い今日は連続を切らない）が表示される
+
+<details><summary>動作確認スクショ</summary>
+
+**確認日: 2026-09-06**
+
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/09/06/2c9694c3-04c0-4b35-a28f-7ec71fdf209e-sim8-12-history.png" width="320">
+
+「Streak 2 days」と表示された（9/6 = 当日 2/2 服用で +1、9/5 = 2/2 服用で +1、9/4 は 1/2 のためそこで途切れて計 2 日）
+
+</details>
+
+</details>
