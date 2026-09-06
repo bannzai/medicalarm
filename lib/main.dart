@@ -5,6 +5,7 @@ import 'package:cloud_functions/cloud_functions.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_crashlytics/firebase_crashlytics.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'package:google_sign_in/google_sign_in.dart';
@@ -47,17 +48,20 @@ void main() async {
       _bootStep('MobileAds.initialize', MobileAds.instance.initialize()),
       // emulator 接続時は本番プロジェクト(GoogleService-Info.plist)に触れないよう demo プロジェクト ID で初期化する。
       // demo-* プレフィックスは Firebase Emulator の完全オフラインモードで、非エミュレート API への到達を Emulator 側が遮断する。
-      const bool.fromEnvironment('USE_FIREBASE_EMULATOR')
-          ? Firebase.initializeApp(
-              options: const FirebaseOptions(
-                // FIRInstallations が API キーの形式(AIza 開頭 39 文字)を検証しクラッシュするため、形式だけ満たすダミー値にする
-                apiKey: 'AIzaSyDUMMYKEYFORDEMOEMULATOR0123456789',
-                appId: '1:123456789012:ios:1234567890abcdef',
-                messagingSenderId: '123456789012',
-                projectId: 'demo-medicalarm',
-              ),
-            )
-          : _bootStep('Firebase.initializeApp', Firebase.initializeApp()),
+      _bootStep(
+        'Firebase.initializeApp',
+        const bool.fromEnvironment('USE_FIREBASE_EMULATOR')
+            ? Firebase.initializeApp(
+                options: const FirebaseOptions(
+                  // FIRInstallations が API キーの形式(AIza 開頭 39 文字)を検証しクラッシュするため、形式だけ満たすダミー値にする
+                  apiKey: 'AIzaSyDUMMYKEYFORDEMOEMULATOR0123456789',
+                  appId: '1:123456789012:ios:1234567890abcdef',
+                  messagingSenderId: '123456789012',
+                  projectId: 'demo-medicalarm',
+                ),
+              )
+            : Firebase.initializeApp(),
+      ),
     ).wait;
     debugPrint('[BOOT] firebase+ads wait done');
 
@@ -125,7 +129,11 @@ void main() async {
     ));
     debugPrint('[BOOT] runApp called');
   }, (error, stack) {
-    debugPrint('[BOOT] zone error: $error\n$stack');
+    // release ビルドで error・stack をコンソールへ出すと機微情報が端末ログに残り得るため debug に限定する。
+    // release の記録は従来どおり Crashlytics が担う
+    if (kDebugMode) {
+      debugPrint('[BOOT] zone error: $error\n$stack');
+    }
     FirebaseCrashlytics.instance.recordError(error, stack);
   });
 }
