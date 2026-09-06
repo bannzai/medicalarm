@@ -33,14 +33,18 @@ class MonthCalendarPager extends HookConsumerWidget {
         return <int, DayMedicationAchievement?>{};
       }
       final todayDate = today().date();
+      // 日ごとの集計で全履歴を走査し直さないよう、索引は日ループの外で 1 度だけ作る
+      final takeDoseKeysByDate = effectiveTakeDoseKeysByDate(medicationHistories);
       return {
         for (var day = 1; day <= DateTime(displayedMonth.year, displayedMonth.month + 1, 0).day; day++)
-          // まだ来ていない日は達成が確定していないため、未服用扱いのドットを出さない
-          day: DateTime(displayedMonth.year, displayedMonth.month, day).isAfter(todayDate)
+          // まだ来ていない日は達成が確定していない。保持期間を過ぎた日は服薬記録が失効していて未服用と区別できない。
+          // どちらも未服用扱いのドットを出さない
+          day: DateTime(displayedMonth.year, displayedMonth.month, day).isAfter(todayDate) ||
+                  !isDateWithinHistoryRetention(date: DateTime(displayedMonth.year, displayedMonth.month, day), today: todayDate)
               ? null
               : dayMedicationAchievement(
                   medicines: medicines,
-                  medicationHistories: medicationHistories,
+                  takeDoseKeysByDate: takeDoseKeysByDate,
                   date: DateTime(displayedMonth.year, displayedMonth.month, day),
                 ),
       };

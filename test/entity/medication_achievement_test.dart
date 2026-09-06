@@ -97,6 +97,17 @@ MedicationHistory buildRevert({required MedicationHistory takeMedicationHistory}
 }
 
 void main() {
+  // #278: 服薬記録の保持期間(365日)の内か外か。範囲外の日は記録が失効していて、未服用と区別できない
+  group('isDateWithinHistoryRetention', () {
+    test('保持期間の最終日(todayの365日前)は保持期間内', () {
+      expect(isDateWithinHistoryRetention(date: DateTime(2025, 9, 10), today: DateTime(2026, 9, 10)), isTrue);
+    });
+
+    test('todayの366日前は保持期間外', () {
+      expect(isDateWithinHistoryRetention(date: DateTime(2025, 9, 9), today: DateTime(2026, 9, 10)), isFalse);
+    });
+  });
+
   // #278: 達成集計の予定日判定。服薬予定一覧(medicationGroups)と同じ頻度判定に、
   // 開始前・停止・アーカイブの除外を加えたもの
   group('isMedicineScheduledOnDate', () {
@@ -205,7 +216,7 @@ void main() {
 
     test('予定が無い日は null を返す(ドットを表示しない)', () {
       expect(
-        dayMedicationAchievement(medicines: medicines, medicationHistories: [], date: DateTime(2026, 8, 31)),
+        dayMedicationAchievement(medicines: medicines, takeDoseKeysByDate: effectiveTakeDoseKeysByDate([]), date: DateTime(2026, 8, 31)),
         isNull,
       );
     });
@@ -214,10 +225,10 @@ void main() {
       expect(
         dayMedicationAchievement(
           medicines: medicines,
-          medicationHistories: [
+          takeDoseKeysByDate: effectiveTakeDoseKeysByDate([
             buildTake(id: 'take-1', scheduledRecordedDate: DateTime(2026, 9, 10)),
             buildTake(id: 'take-2', scheduledRecordedDate: DateTime(2026, 9, 10), schedule: eveningSchedule),
-          ],
+          ]),
           date: DateTime(2026, 9, 10),
         ),
         DayMedicationAchievement.allTaken,
@@ -228,7 +239,7 @@ void main() {
       expect(
         dayMedicationAchievement(
           medicines: medicines,
-          medicationHistories: [buildTake(id: 'take-1', scheduledRecordedDate: DateTime(2026, 9, 10))],
+          takeDoseKeysByDate: effectiveTakeDoseKeysByDate([buildTake(id: 'take-1', scheduledRecordedDate: DateTime(2026, 9, 10))]),
           date: DateTime(2026, 9, 10),
         ),
         DayMedicationAchievement.partiallyTaken,
@@ -237,7 +248,7 @@ void main() {
 
     test('予定があるのに1件も服用していない日は noneTaken', () {
       expect(
-        dayMedicationAchievement(medicines: medicines, medicationHistories: [], date: DateTime(2026, 9, 10)),
+        dayMedicationAchievement(medicines: medicines, takeDoseKeysByDate: effectiveTakeDoseKeysByDate([]), date: DateTime(2026, 9, 10)),
         DayMedicationAchievement.noneTaken,
       );
     });
@@ -246,11 +257,11 @@ void main() {
       expect(
         dayMedicationAchievement(
           medicines: [buildMedicine(schedules: const [morningSchedule, eveningSchedule])],
-          medicationHistories: [
+          takeDoseKeysByDate: effectiveTakeDoseKeysByDate([
             // 停止・スケジュール削除などで予定から外れた別の薬の記録
             buildTake(id: 'take-1', scheduledRecordedDate: DateTime(2026, 9, 10), medicineID: 'medicine-2'),
             buildTake(id: 'take-2', scheduledRecordedDate: DateTime(2026, 9, 10), medicineID: 'medicine-2', schedule: eveningSchedule),
-          ],
+          ]),
           date: DateTime(2026, 9, 10),
         ),
         DayMedicationAchievement.noneTaken,
@@ -261,11 +272,11 @@ void main() {
       expect(
         dayMedicationAchievement(
           medicines: [buildMedicine()],
-          medicationHistories: [
+          takeDoseKeysByDate: effectiveTakeDoseKeysByDate([
             buildTake(id: 'take-1', scheduledRecordedDate: DateTime(2026, 9, 10)),
             // 停止・削除された別の薬の記録
             buildTake(id: 'take-2', scheduledRecordedDate: DateTime(2026, 9, 10), medicineID: 'medicine-2'),
-          ],
+          ]),
           date: DateTime(2026, 9, 10),
         ),
         DayMedicationAchievement.allTaken,
@@ -433,6 +444,19 @@ void main() {
         ).takenCount,
         0,
       );
+    });
+
+    test('保持期間(365日)より完全に古い月は、その月に予定があっても(0, 0)を返す', () {
+      // 2024-09 は today(2026-09-10) の 365 日前(2025-09-10)より前。薬は 2024-01-01 開始の毎日で、その月にも予定自体は存在する
+      final counts = monthlyMedicationCounts(
+        medicines: [buildMedicine(beganDateTime: DateTime(2024, 1, 1))],
+        medicationHistories: [],
+        month: DateTime(2024, 9, 1),
+        today: DateTime(2026, 9, 10),
+      );
+
+      expect(counts.takenCount, 0);
+      expect(counts.scheduledCount, 0);
     });
 
     test('未来の月は集計対象が無いため(0, 0)を返す', () {

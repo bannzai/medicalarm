@@ -22,6 +22,13 @@ enum DayMedicationAchievement {
 /// 履歴タブの達成サマリーが服薬記録を読む範囲(medicationAchievementLookbackDateTimeRange)もこの上限に合わせる
 const maxConsecutiveLookbackDays = 365;
 
+/// [date] の服薬記録がまだ保持期間([maxConsecutiveLookbackDays])内に残っているかどうか (#278)。
+/// 保持期間を過ぎた日は薬ドキュメントから予定(分母)だけを組み立てられてしまい、実際は服用していても
+/// 「記録が残っていない」だけで未服用と判定される。記録が無いことを未服用の根拠にできない範囲を除外するために使う
+bool isDateWithinHistoryRetention({required DateTime date, required DateTime today}) {
+  return !date.date().isBefore(today.date().addDays(-maxConsecutiveLookbackDays));
+}
+
 /// [medicine] が [date] の服薬予定に該当するかどうか (#278)。
 /// 開始前・停止中・アーカイブ済みの期間を除外したうえで、服用頻度([MedicationFrequency.isScheduledOnDate])で判定する。
 /// 停止・アーカイブはその操作日当日から予定に数えない。当日途中の操作で、その日の残りの予定が未達成として数えられるのを避けるため
@@ -63,21 +70,19 @@ Map<DateTime, Set<String>> effectiveTakeDoseKeysByDate(List<MedicationHistory> m
   return doseKeysByDate;
 }
 
-/// [date] の達成状態。予定が無い日は null を返す (#278)
+/// [date] の達成状態。予定が無い日は null を返す (#278)。
+/// 服用記録は [effectiveTakeDoseKeysByDate] で索引化したものを受け取る。カレンダーのように 1 か月分をまとめて求める
+/// 呼び出し元が、日数分だけ全履歴を走査し直さずに同じ索引を使い回せるようにするため
 DayMedicationAchievement? dayMedicationAchievement({
   required List<Medicine> medicines,
-  required List<MedicationHistory> medicationHistories,
+  required Map<DateTime, Set<String>> takeDoseKeysByDate,
   required DateTime date,
 }) {
   final scheduledDoseKeys = scheduledDoseKeysOnDate(medicines: medicines, date: date);
   if (scheduledDoseKeys.isEmpty) {
     return null;
   }
-  final takenCount = _achievedDoseCountOnDate(
-    scheduledDoseKeys: scheduledDoseKeys,
-    takeDoseKeysByDate: effectiveTakeDoseKeysByDate(medicationHistories),
-    date: date,
-  );
+  final takenCount = _achievedDoseCountOnDate(scheduledDoseKeys: scheduledDoseKeys, takeDoseKeysByDate: takeDoseKeysByDate, date: date);
   if (takenCount >= scheduledDoseKeys.length) {
     return DayMedicationAchievement.allTaken;
   }
@@ -145,8 +150,10 @@ int consecutiveAchievedDaysCount({
 }
 
 /// [month] の月の服薬回数と予定回数 (#278)。
-/// 集計する範囲は月初から「月末と [today] のうち早い方」までで、まだ来ていない日を分母に含めて達成率を下げない。
-/// [month] が [today] より後の月の場合は集計対象が無いため (0, 0) を返す
+/// 集計する範囲は「月初と保持期間の開始日([isDateWithinHistoryRetention])のうち遅い方」から
+/// 「月末と [today] のうち早い方」まで。まだ来ていない日を分母に含めて達成率を下げず、
+/// 服薬記録が失効して残っていない日も分母・分子の両方から外す。
+/// 範囲が成立しない([month] が [today] より後、または保持期間より完全に古い)場合は集計対象が無いため (0, 0) を返す
 ({int takenCount, int scheduledCount}) monthlyMedicationCounts({
   required List<Medicine> medicines,
   required List<MedicationHistory> medicationHistories,
@@ -154,15 +161,17 @@ int consecutiveAchievedDaysCount({
   required DateTime today,
 }) {
   final firstDate = DateTime(month.year, month.month, 1);
-  if (firstDate.isAfter(today.date())) {
+  final lastDateOfMonth = DateTime(month.year, month.month + 1, 0);
+  final startDate = isDateWithinHistoryRetention(date: firstDate, today: today) ? firstDate : today.date().addDays(-maxConsecutiveLookbackDays);
+  final endDate = lastDateOfMonth.isAfter(today.date()) ? today.date() : lastDateOfMonth;
+  if (startDate.isAfter(endDate)) {
     return (takenCount: 0, scheduledCount: 0);
   }
-  final lastDateOfMonth = DateTime(month.year, month.month + 1, 0);
   return _medicationCountsInDateRange(
     medicines: medicines,
     medicationHistories: medicationHistories,
-    startDate: firstDate,
-    dayCount: daysBetween(firstDate, lastDateOfMonth.isAfter(today.date()) ? today.date() : lastDateOfMonth) + 1,
+    startDate: startDate,
+    dayCount: daysBetween(startDate, endDate) + 1,
   );
 }
 
