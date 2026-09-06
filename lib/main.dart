@@ -21,14 +21,30 @@ import 'package:medicalarm/utils/push_notification/fcm_notification.dart';
 import 'package:purchases_flutter/purchases_flutter.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
+/// 起動初期化の各ステップの開始・完了・失敗を os_log へ出す。
+/// runApp 前の初期化はどこで停止しても画面が LaunchImage のまま (起動白画面) になり
+/// 原因箇所を外から特定できないため、ログで切り分けられるよう常設する。
+Future<T> _bootStep<T>(String stepName, Future<T> future) async {
+  debugPrint('[BOOT] start $stepName ${DateTime.now().toIso8601String()}');
+  try {
+    final result = await future;
+    debugPrint('[BOOT] done $stepName ${DateTime.now().toIso8601String()}');
+    return result;
+  } catch (e) {
+    debugPrint('[BOOT] fail $stepName: $e');
+    rethrow;
+  }
+}
+
 void main() async {
   runZonedGuarded(() async {
     WidgetsFlutterBinding.ensureInitialized();
+    debugPrint('[BOOT] ensureInitialized done');
 
     Intl.defaultLocale = 'ja';
 
     await (
-      MobileAds.instance.initialize(),
+      _bootStep('MobileAds.initialize', MobileAds.instance.initialize()),
       // emulator 接続時は本番プロジェクト(GoogleService-Info.plist)に触れないよう demo プロジェクト ID で初期化する。
       // demo-* プレフィックスは Firebase Emulator の完全オフラインモードで、非エミュレート API への到達を Emulator 側が遮断する。
       const bool.fromEnvironment('USE_FIREBASE_EMULATOR')
@@ -41,8 +57,9 @@ void main() async {
                 projectId: 'demo-medicalarm',
               ),
             )
-          : Firebase.initializeApp(),
+          : _bootStep('Firebase.initializeApp', Firebase.initializeApp()),
     ).wait;
+    debugPrint('[BOOT] firebase+ads wait done');
 
     // ローカルの Firebase Emulator に接続する開発用ゲート。
     // `--dart-define=USE_FIREBASE_EMULATOR=true` を付けたビルドのみ有効で、デフォルト(未指定)では本番に接続する。
@@ -69,10 +86,11 @@ void main() async {
 
     // ignore: prefer_typing_uninitialized_variables
     final (_, sharedPreferences, _) = await (
-      LocalNotificationService.setupTimeZone(),
-      SharedPreferences.getInstance(),
-      setupRemoteConfig(),
+      _bootStep('setupTimeZone', LocalNotificationService.setupTimeZone()),
+      _bootStep('SharedPreferences.getInstance', SharedPreferences.getInstance()),
+      _bootStep('setupRemoteConfig', setupRemoteConfig()),
     ).wait;
+    debugPrint('[BOOT] triple wait done');
 
     // AppLocalizationsの初期化を待つ
     WidgetsBinding.instance.addPostFrameCallback((timeStamp) async {
@@ -105,7 +123,11 @@ void main() async {
       ],
       child: const App(),
     ));
-  }, (error, stack) => FirebaseCrashlytics.instance.recordError(error, stack));
+    debugPrint('[BOOT] runApp called');
+  }, (error, stack) {
+    debugPrint('[BOOT] zone error: $error\n$stack');
+    FirebaseCrashlytics.instance.recordError(error, stack);
+  });
 }
 
 class App extends StatelessWidget {
