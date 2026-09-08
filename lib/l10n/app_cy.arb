@@ -125,7 +125,7 @@
   "purchaseErrorInsufficientPermissions": "Ni allwch danysgrifio i gynllun gyda {accountName}. Gwiriwch eich gwybodaeth dalu a rhowch gynnig arall arni",
   "purchaseErrorPaymentPending": "Mae’r taliad yn yr arfaeth. Gwiriwch {storeName} gan ddefnyddio’r cyfrif {accountName} rydych wedi mewngofnodi iddo.",
   "premiumUserThanksTitle": "Rydych chi’n aelod premiwm",
-  "premiumUserThanksMessage": "Diolch am ddefnyddio ein gwasanaeth. Oherwydd eich cefnogaeth, gallwn barhau i redeg Medicalarm.",
+  "premiumUserThanksMessage": "Diolch am ddefnyddio ein gwasanaeth.\nDiolch i chi, gallwn barhau i weithredu Medicalarm.",
   "premiumPricePerMonth": "({price}/mis)}",
   "premiumCancelDescription": "Ar ôl prynu, gellir darparu'r taleb a ddirwyn awtomatig drwy osodiadau cyfrif yr ap {storeName}. (Ni ellir dudalen ddirwyn awtomatig o fewn yr ap).",
   "purchaseErrorRestoreFailed": "Nid yw gwybodaeth am brynu cynharach yn cael ei chanfod. Gwiriwch eich cyfrif a cheisiwch eto.",

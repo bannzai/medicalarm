@@ -125,7 +125,7 @@
   "purchaseErrorInsufficientPermissions": "با {accountName} نمی‌توانید در طرحی مشترک شوید. اطلاعات پرداخت خود را بررسی کنید و دوباره امتحان کنید",
   "purchaseErrorPaymentPending": "پرداخت در انتظار است. لطفاً {storeName} را با حساب واردشدهٔ {accountName} بررسی کنید.",
   "premiumUserThanksTitle": "شما عضو ویژه هستید",
-  "premiumUserThanksMessage": "از شما متشکریم که از خدمات ما استفاده می کنید.\nبه لطف شما، ما قادر به ادامه مدیریت Medicalarm هستیم.",
+  "premiumUserThanksMessage": "از اینکه از خدمات ما استفاده می‌کنید سپاسگزاریم.\nبه لطف شما می‌توانیم به فعالیت Medicalarm ادامه دهیم.",
   "premiumPricePerMonth": "({price}/ماه)",
   "premiumCancelDescription": "پس از خرید، می‌توانید انصراف از تجدید خودکار را در تنظیمات حساب {storeName} اپلیکیشن انجام دهید. (انصراف از تجدید خودکار از داخل اپلیکیشن امکان‌پذیر نیست).",
   "purchaseErrorRestoreFailed": "اطلاعات خرید قبلی پیدا نشد. لطفا حساب کاربری خود را بررسی کرده و دوباره امتحان کنید.",

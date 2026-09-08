@@ -125,7 +125,7 @@
   "purchaseErrorInsufficientPermissions": "{accountName} ilə plana abunə ola bilməzsiniz. Ödəniş məlumatlarınızı yoxlayın və yenidən cəhd edin",
   "purchaseErrorPaymentPending": "Ödəniş gözləmədədir. Daxil olduğunuz {accountName} ilə {storeName} hesabınızı yoxlayın.",
   "premiumUserThanksTitle": "Siz premium üzvsünüz",
-  "premiumUserThanksMessage": "Təşəkkür edirik ki, bizdən istifadə edirsiniz. Medicalarm-ın fəaliyyətini davam etdirməyimizə səbəb olduğunuz üçün minnətdarıq.",
+  "premiumUserThanksMessage": "Xidmətimizdən istifadə etdiyiniz üçün təşəkkür edirik.\nSizin sayənizdə Medicalarm-ı fəaliyyət göstərməyə davam edə bilirik.",
   "premiumPricePerMonth": "({price}/ay)",
   "premiumCancelDescription": "• Alımından sonra, avtomatik yeniləmənin ləğvi {storeName} tətbiqinin hesab ayarlarında edilə bilər. (Tətbiq içindən avtomatik yeniləməni ləğv etmək mümkün deyil).",
   "purchaseErrorRestoreFailed": "Əvvəlki satınalma məlumatları tapılmadı. Hesabınızı yoxlayın və yenidən cəhd edin.",

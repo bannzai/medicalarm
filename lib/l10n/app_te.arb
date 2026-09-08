@@ -125,7 +125,7 @@
   "purchaseErrorInsufficientPermissions": "{accountName}తో ప్లాన్‌కు సభ్యత్వం పొందలేరు. మీ చెల్లింపు సమాచారాన్ని తనిఖీ చేసి మళ్లీ ప్రయత్నించండి",
   "purchaseErrorPaymentPending": "చెల్లింపు పెండింగ్‌లో ఉంది. సైన్ ఇన్ చేసిన {accountName}తో {storeName}ను తనిఖీ చేయండి.",
   "premiumUserThanksTitle": "మీరు ప్రీమియం సభ్యులు",
-  "premiumUserThanksMessage": "మీరు ఉపయోగించినందుకు ధన్యవాదాలు. మీ మద్ధతుతో Medicalarm నిర్వహణ కొనసాగించగలుగుతున్నాము.",
+  "premiumUserThanksMessage": "మా సేవను ఉపయోగిస్తున్నందుకు ధన్యవాదాలు.\nమీ వల్ల మేము Medicalarmను కొనసాగించగలుగుతున్నాము.",
   "premiumPricePerMonth": "({price}/మాసం)",
   "premiumCancelDescription": "• కొనుగోలు చేసిన తర్వాత, {storeName} అప్లికేషన్ అకౌంట్ సెట్టింగ్స్‌లో స్వయంచాలక నవీకరణను రద్దు చేయవచ్చు.(ప్రయోగంలో స్వయంచాలక నవీకరణలను రద్దు చేయలేరు).",
   "purchaseErrorRestoreFailed": "మునుపటి కొనుగోలు సమాచారాన్ని కనుగొనలేకపోతున్నాము. దయచేసి మీ ఖాతాను చూసి మళ్ళీ ప్రయత్నించండి.",

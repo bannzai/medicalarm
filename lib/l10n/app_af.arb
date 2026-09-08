@@ -125,7 +125,7 @@
   "purchaseErrorInsufficientPermissions": "Jy kan nie met jou {accountName} op ’n plan inteken nie. Gaan jou betalingsinligting na en probeer weer",
   "purchaseErrorPaymentPending": "Betaling is hangende. Kontroleer {storeName} met die aangemelde {accountName}.",
   "premiumUserThanksTitle": "Jy is ’n premiumlid",
-  "premiumUserThanksMessage": "Baie dankie dat jy gebruik maak van ons. Dankzij jou kan Medicalarm voortgaan om te werking.",
+  "premiumUserThanksMessage": "Dankie dat jy ons diens gebruik.\nDanksy jou kan ons voortgaan om Medicalarm te bedryf.",
   "premiumPricePerMonth": "({price}/maand)",
   "premiumCancelDescription": "- Na aankoop kan jy die outomatiese hernuwings opheg in die {storeName} app se rekeninginstellings. (Jy kan nie die outomatiese hernuwings binne die app ophef).",
   "purchaseErrorRestoreFailed": "Daar is geen vorige aankoopsinligting gevind nie. Gaan asseblief jou rekening na en probeer weer.",

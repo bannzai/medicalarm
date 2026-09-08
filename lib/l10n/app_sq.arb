@@ -125,7 +125,7 @@
   "purchaseErrorInsufficientPermissions": "Nuk mund të abonoheni në një plan me {accountName}. Kontrolloni informacionet e pagesës dhe provoni përsëri",
   "purchaseErrorPaymentPending": "Pagesa është në pritje. Kontrolloni {storeName} me llogarinë e identifikuar {accountName}.",
   "premiumUserThanksTitle": "Jeni anëtar premium",
-  "premiumUserThanksMessage": "Faleminderit për përdorimin tuaj. Falë jush, ne jemi në gjendje të vazhdojmë funksionimin e Medicalarm.",
+  "premiumUserThanksMessage": "Faleminderit që përdorni shërbimin tonë.\nFalë jush, mund të vazhdojmë të operojmë Medicalarm.",
   "premiumPricePerMonth": "({price}/muaj)",
   "premiumCancelDescription": "Pas pas blerjes, anulimi automatik i rinovimit mund të bëhet në cilësimet e llogarisë së aplikacionit {storeName}. (Anulimi automatik i rinovimit nuk mund të bëhet nga brenda aplikacionit).",
   "purchaseErrorRestoreFailed": "Nuk u gjetën informacionet e mëparshme të blerjes. Ju lutem kontrolloni llogarinë tuaj dhe provoni përsëri.",

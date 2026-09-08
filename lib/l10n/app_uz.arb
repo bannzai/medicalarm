@@ -125,7 +125,7 @@
   "purchaseErrorInsufficientPermissions": "{accountName} bilan rejaga obuna bo‘la olmaysiz. To‘lov ma’lumotlaringizni tekshirib, qayta urinib ko‘ring",
   "purchaseErrorPaymentPending": "To‘lov kutilmoqda. Tizimga kirilgan {accountName} orqali {storeName}ni tekshiring.",
   "premiumUserThanksTitle": "Siz premium aʼzosiz",
-  "premiumUserThanksMessage": "Sizga rahmat. Medicalarm-ning faoliyatini davom ettirayotganimizdan xursandmiz.",
+  "premiumUserThanksMessage": "Xizmatimizdan foydalanganingiz uchun rahmat.\nSiz tufayli Medicalarm faoliyatini davom ettira olamiz.",
   "premiumPricePerMonth": "({price}/oy）",
   "premiumCancelDescription": "- Xarid qilinganidan keyin, avtomatik yangilanishni bekor qilish {storeName} ilovasidagi hisob sozlamalari orqali amalga oshirilishi mumkin. (Ilova ichidan avtomatik yangilanishni bekor qilish mumkin emas).",
   "purchaseErrorRestoreFailed": "Old purchase information could not be found. Please check your account and try again.",

@@ -125,7 +125,7 @@
   "purchaseErrorInsufficientPermissions": "Nie możesz wykupić planu za pomocą konta {accountName}. Sprawdź informacje dotyczące płatności i spróbuj ponownie",
   "purchaseErrorPaymentPending": "Płatność jest oczekująca. Sprawdź {storeName} na zalogowanym koncie {accountName}.",
   "premiumUserThanksTitle": "Jesteś członkiem Premium",
-  "premiumUserThanksMessage": "Dziękujemy za korzystanie z naszej aplikacji. Dzięki Państwu możemy kontynuować działalność Medicalarm.",
+  "premiumUserThanksMessage": "Dziękujemy za korzystanie z naszej usługi.\nDzięki Tobie możemy nadal rozwijać Medicalarm.",
   "premiumPricePerMonth": "({price}/miesiąc)",
   "premiumCancelDescription": "Po zakupie, anulowanie automatycznego odnawiania można przeprowadzić w ustawieniach konta aplikacji {storeName}. (Nie można anulować automatycznego odnawiania z poziomu aplikacji.)",
   "purchaseErrorRestoreFailed": "Nie znaleziono wcześniejszych informacji o zakupie. Proszę sprawdzić konto i spróbować ponownie.",

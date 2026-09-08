@@ -125,7 +125,7 @@
   "purchaseErrorInsufficientPermissions": "Bạn không thể đăng ký gói bằng {accountName}. Hãy kiểm tra thông tin thanh toán và thử lại",
   "purchaseErrorPaymentPending": "Thanh toán đang chờ xử lý. Vui lòng kiểm tra {storeName} bằng tài khoản đã đăng nhập {accountName}.",
   "premiumUserThanksTitle": "Bạn là thành viên Premium",
-  "premiumUserThanksMessage": "Cảm ơn bạn đã sử dụng ứng dụng. Nhờ có bạn, chúng tôi có thể tiếp tục vận hành Medicalarm.",
+  "premiumUserThanksMessage": "Cảm ơn bạn đã sử dụng dịch vụ của chúng tôi.\nNhờ bạn, chúng tôi có thể tiếp tục vận hành Medicalarm.",
   "premiumPricePerMonth": "({price}/tháng)",
   "premiumCancelDescription": "- Sau khi mua, bạn có thể hủy gia hạn tự động trong cài đặt tài khoản của ứng dụng {storeName}. (Bạn không thể hủy gia hạn tự động từ trong ứng dụng).",
   "purchaseErrorRestoreFailed": "Không tìm thấy thông tin mua hàng trước đó. Vui lòng kiểm tra tài khoản của bạn và thử lại.",

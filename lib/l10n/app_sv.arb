@@ -125,7 +125,7 @@
   "purchaseErrorInsufficientPermissions": "Du kan inte prenumerera på en plan med {accountName}. Kontrollera betalningsinformationen och försök igen",
   "purchaseErrorPaymentPending": "Betalningen väntar. Kontrollera {storeName} med det inloggade kontot {accountName}.",
   "premiumUserThanksTitle": "Du är premiummedlem",
-  "premiumUserThanksMessage": "Tack för att du använder vår tjänst. Tack vare dig kan vi fortsätta att driva Medicalarm.",
+  "premiumUserThanksMessage": "Tack för att du använder vår tjänst.\nTack vare dig kan vi fortsätta driva Medicalarm.",
   "premiumPricePerMonth": "({price}/månad)",
   "premiumCancelDescription": "- Efter köp kan du avsluta automatisk förnyelse i kontoinställningarna för {storeName}-appen. (Du kan inte avsluta automatisk förnyelse från appen).",
   "purchaseErrorRestoreFailed": "Ingen tidigare köpinformation kunde hittas. Var vänlig kontrollera ditt konto och försök igen.",

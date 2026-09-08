@@ -125,7 +125,7 @@
   "purchaseErrorInsufficientPermissions": "Vous ne pouvez pas souscrire à un forfait avec {accountName}. Vérifiez vos informations de paiement, puis réessayez",
   "purchaseErrorPaymentPending": "Le paiement est en attente. Vérifiez {storeName} avec le compte connecté {accountName}.",
   "premiumUserThanksTitle": "Vous êtes membre premium",
-  "premiumUserThanksMessage": "Merci d'utiliser notre application.\nGrâce à vous, nous pouvons continuer à faire fonctionner Medicalarm.",
+  "premiumUserThanksMessage": "Merci d’utiliser notre service.\nGrâce à vous, nous pouvons continuer à faire fonctionner Medicalarm.",
   "premiumPricePerMonth": "({price}/mois)",
   "premiumCancelDescription": "Après l'achat, vous pouvez annuler le renouvellement automatique dans les paramètres du compte de l'application {storeName}. (L'annulation du renouvellement automatique ne peut pas être effectuée depuis l'application).",
   "purchaseErrorRestoreFailed": "Aucune information sur les achats précédents n'a été trouvée. Veuillez vérifier votre compte et réessayer.",

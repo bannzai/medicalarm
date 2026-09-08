@@ -125,7 +125,7 @@
   "purchaseErrorInsufficientPermissions": "{accountName}으로는 요금제에 가입할 수 없습니다. 결제 정보를 확인한 후 다시 시도해 주세요",
   "purchaseErrorPaymentPending": "결제가 보류 중입니다. 로그인한 {accountName} 계정으로 {storeName}을(를) 확인해 주세요.",
   "premiumUserThanksTitle": "프리미엄 회원입니다",
-  "premiumUserThanksMessage": "이용해 주셔서 감사합니다.\n덕분에 Medicalarm 운영을 지속할 수 있습니다.",
+  "premiumUserThanksMessage": "서비스를 이용해 주셔서 감사합니다.\n여러분 덕분에 Medicalarm을 계속 운영할 수 있습니다.",
   "premiumPricePerMonth": "({price}원/월)",
   "premiumCancelDescription": "구매 후, 자동 갱신 해지는 {storeName} 앱의 계정 설정에서 할 수 있습니다. (앱 내에서 자동 갱신 해지는 할 수 없습니다).",
   "purchaseErrorRestoreFailed": "이전 구매 정보를 찾을 수 없습니다. 계정을 확인한 후 다시 시도하십시오.",

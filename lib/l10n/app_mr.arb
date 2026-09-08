@@ -125,7 +125,7 @@
   "purchaseErrorInsufficientPermissions": "तुम्ही {accountName} वापरून प्लॅनचे सदस्यत्व घेऊ शकत नाही. तुमची पेमेंट माहिती तपासा आणि पुन्हा प्रयत्न करा",
   "purchaseErrorPaymentPending": "पेमेंट प्रलंबित आहे. साइन इन केलेल्या {accountName} द्वारे {storeName} तपासा.",
   "premiumUserThanksTitle": "तुम्ही प्रीमियम सदस्य आहात",
-  "premiumUserThanksMessage": "आपल्या वापरासाठी धन्यवाद. आपण केल्यामुळे Medicalarm संचलित ठेवणे शक्य झाले आहे.",
+  "premiumUserThanksMessage": "आमची सेवा वापरल्याबद्दल धन्यवाद.\nतुमच्यामुळे आम्ही Medicalarm चे संचालन सुरू ठेवू शकतो.",
   "premiumPricePerMonth": "（{price}/महिना）",
   "premiumCancelDescription": "खरेदी के नंतर, स्वयंचलित नूतनीकरण रद्द करण्यासाठी {storeName} अनुप्रयोगाच्या खात्याच्या सेटिंग्जमध्ये जा. (अनुप्रयोगाच्या आत स्वयंचलित नूतनीकरण रद्द केले जाऊ शकत नाही.)",
   "purchaseErrorRestoreFailed": "पुर्वीची खरेदी माहिती आढळली नाही. कृपया आपल्या खात्याची तपासणी करून पुन्हा प्रयत्न करा.",

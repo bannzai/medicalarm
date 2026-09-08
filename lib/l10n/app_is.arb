@@ -125,7 +125,7 @@
   "purchaseErrorInsufficientPermissions": "Þú getur ekki gerst áskrifandi að áskrift með {accountName}. Athugaðu greiðsluupplýsingarnar þínar og reyndu aftur",
   "purchaseErrorPaymentPending": "Greiðslan er í bið. Athugaðu {storeName} með innskráða reikningnum {accountName}.",
   "premiumUserThanksTitle": "Þú ert úrvalsmeðlimur",
-  "premiumUserThanksMessage": "Takk fyrir að nota okkur.\nMeð hjálp þinni getum við haldið áfram að reka Medicalarm.",
+  "premiumUserThanksMessage": "Takk fyrir að nota þjónustuna okkar.\nÞökk sé þér getum við haldið áfram að reka Medicalarm.",
   "premiumPricePerMonth": "({price}/mánuði)",
   "premiumCancelDescription": "Eftir kaup geturðu sagt upp sjálfvirkri endurnýjun í {storeName} appinu í reikningastillingunum. (Ekki er hægt að segja upp sjálfvirkri endurnýjun frá appinu.)",
   "purchaseErrorRestoreFailed": "Ekki fannst fyrri kaupaupplýsingar. Vinsamlegast athugaðu reikninginn þinn og reyndu aftur.",

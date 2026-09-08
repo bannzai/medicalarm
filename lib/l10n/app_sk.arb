@@ -125,7 +125,7 @@
   "purchaseErrorInsufficientPermissions": "S účtom {accountName} sa nemôžete prihlásiť na odber plánu. Skontrolujte platobné údaje a skúste to znova",
   "purchaseErrorPaymentPending": "Platba čaká na spracovanie. Skontrolujte {storeName} pomocou prihláseného účtu {accountName}.",
   "premiumUserThanksTitle": "Ste prémiový člen",
-  "premiumUserThanksMessage": "Ďakujeme za vašu podporu.\nVďaka vám môžeme pokračovať v prevádzke Medicalarm.",
+  "premiumUserThanksMessage": "Ďakujeme, že používate našu službu.\nVďaka vám môžeme pokračovať v prevádzke aplikácie Medicalarm.",
   "premiumPricePerMonth": "({price}/mesiac)",
   "premiumCancelDescription": "• Po zakúpení môžete zrušiť automatické obnovovanie v nastaveniach účtu aplikácie {storeName}. (Nie je možné zrušiť automatické obnovovanie priamo z aplikácie.)",
   "purchaseErrorRestoreFailed": "Predchádzajúce informácie o nákupe sa nenašli. Skontrolujte svoj účet a skúste to znova.",

@@ -125,7 +125,7 @@
   "purchaseErrorInsufficientPermissions": "Awukwazi ukubhalisela uhlelo nge-{accountName}. Hlola imininingwane yakho yokukhokha bese uzama futhi",
   "purchaseErrorPaymentPending": "Inkokhelo isalindile. Hlola i-{storeName} usebenzisa i-akhawunti ongene ngayo ethi {accountName}.",
   "premiumUserThanksTitle": "Uyilungu le-premium",
-  "premiumUserThanksMessage": "Ngiyabonga ngokusebenzisa i-app yethu. Ngenxa yenu, sikwazile ukuqhubeka nokusebenzisa iMedicalarm.",
+  "premiumUserThanksMessage": "Siyabonga ngokusebenzisa insizakalo yethu.\nNgenxa yakho, singaqhubeka nokuqhuba iMedicalarm.",
   "premiumPricePerMonth": "(R {price}/inyanga)",
   "premiumCancelDescription": "Ngemuva kokuthenga, ungayeka ukuvuselela ngokuzenzakalelayo kuzilungiselelo ze-akhawunti ye-{storeName} app. (Akukwazi ukwehla ukuvuselelwa ngokuzenzakalelayo kusuka ngaphakathi kwesoftware).",
   "purchaseErrorRestoreFailed": "Awukho ulwazi lokuthenga olwandulele. Sicela uqinisekise i-akhawunti yakho bese uzama futhi.",

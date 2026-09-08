@@ -125,7 +125,7 @@
   "purchaseErrorInsufficientPermissions": "Ne možete se pretplatiti na plan putem računa {accountName}. Provjerite podatke za plaćanje i pokušajte ponovo",
   "purchaseErrorPaymentPending": "Plaćanje je na čekanju. Provjerite {storeName} pomoću prijavljenog računa {accountName}.",
   "premiumUserThanksTitle": "Vi ste premium član",
-  "premiumUserThanksMessage": "Hvala vam što koristite našu aplikaciju. Zahvaljujući vama, možemo nastaviti s vođenjem Medicalarm-a.",
+  "premiumUserThanksMessage": "Hvala vam što koristite našu uslugu.\nZahvaljujući vama, možemo nastaviti s radom aplikacije Medicalarm.",
   "premiumPricePerMonth": "({price}/mjesečno)",
   "premiumCancelDescription": "• Nakon kupovine, otkazivanje automatske obnove može se obaviti u postavkama računa {storeName} aplikacije. (Otkazivanje automatske obnove nije moguće izvršiti unutar aplikacije).",
   "purchaseErrorRestoreFailed": "Nije pronađena prethodna informacija o kupovini. Molimo provjerite svoj račun i pokušajte ponovo.",

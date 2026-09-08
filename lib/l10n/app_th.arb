@@ -125,7 +125,7 @@
   "purchaseErrorInsufficientPermissions": "คุณไม่สามารถสมัครแพ็กเกจด้วย {accountName} ได้ โปรดตรวจสอบข้อมูลการชำระเงินแล้วลองอีกครั้ง",
   "purchaseErrorPaymentPending": "การชำระเงินอยู่ระหว่างดำเนินการ โปรดตรวจสอบ {storeName} ด้วยบัญชี {accountName} ที่ลงชื่อเข้าใช้",
   "premiumUserThanksTitle": "คุณเป็นสมาชิกพรีเมียม",
-  "premiumUserThanksMessage": "ขอขอบคุณที่ใช้บริการของเรา。\nด้วยความช่วยเหลือจากคุณ เราสามารถดำเนินการ Medicalarm ต่อไปได้.",
+  "premiumUserThanksMessage": "ขอบคุณที่ใช้บริการของเรา\nด้วยการสนับสนุนจากคุณ เราจึงสามารถดำเนินงาน Medicalarm ต่อไปได้",
   "premiumPricePerMonth": "({price}/เดือน)",
   "premiumCancelDescription": "・หลังจากการซื้อ คุณสามารถยกเลิกการต่ออายุอัตโนมัติได้ในการตั้งค่าบัญชีในแอป {storeName} (ไม่สามารถยกเลิกการต่ออายุอัตโนมัติจากภายในแอปได้)",
   "purchaseErrorRestoreFailed": "ไม่พบข้อมูลการซื้อก่อนหน้านี้ โปรดตรวจสอบบัญชีของคุณและลองอีกครั้ง",

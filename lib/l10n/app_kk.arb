@@ -125,7 +125,7 @@
   "purchaseErrorInsufficientPermissions": "{accountName} арқылы жоспарға жазыла алмайсыз. Төлем ақпаратыңызды тексеріп, қайтадан көріңіз",
   "purchaseErrorPaymentPending": "Төлем күтілуде. Жүйеге кірген {accountName} есептік жазбасымен {storeName} қызметін тексеріңіз.",
   "premiumUserThanksTitle": "Сіз премиум мүшесіз",
-  "premiumUserThanksMessage": "Сізге рақмет. Сіздің арқасында Medicalarm-ды үздіксіз басқаруға мүмкіндігіміз бар.",
+  "premiumUserThanksMessage": "Қызметімізді пайдаланғаныңызға рақмет.\nСіздің қолдауыңыздың арқасында Medicalarm жұмысын жалғастыра аламыз.",
   "premiumPricePerMonth": "({price}/ай",
   "premiumCancelDescription": "• Сатып алғаннан кейін {storeName} қосымшасының есептік жазба параметрлерінде автоматты жаңартуды тоқтатуできます. (Қосымша ішінде автоматты жаңартуды тоқтата алмайсыз).",
   "purchaseErrorRestoreFailed": "Алдыңғы сатып алу туралы ақпарат табылған жоқ. Аккаунтыңызды тексеріңіз де, қайтадан қолданып көріңіз.",

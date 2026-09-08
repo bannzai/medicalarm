@@ -125,7 +125,7 @@
   "purchaseErrorInsufficientPermissions": "በ{accountName} ዕቅድ መመዝገብ አይችሉም። የክፍያ መረጃዎን ካረጋገጡ በኋላ እንደገና ይሞክሩ",
   "purchaseErrorPaymentPending": "ክፍያው ቆሟል። በገባበት {accountName} በመጠቀም {storeName}ን ያረጋግጡ።",
   "premiumUserThanksTitle": "እርስዎ የፕሪሚየም አባል ነዎት",
-  "premiumUserThanksMessage": "እናመሰግናለን በእርግጥ የMedicalarm አውጪ ማስተናገድ ለማጽናት እንደምን እንደምታምሩን ተመለከት",
+  "premiumUserThanksMessage": "ስለሚጠቀሙበት እናመሰግናለን።\nለእርስዎ ምስጋና ይግባውና Medicalarmን ማስኬድ መቀጠል ችለናል።",
   "premiumPricePerMonth": "({price}/ወር)",
   "premiumCancelDescription": "• ግዥ በኋላ፣ የእቃ መለወጥ መስፈርት በ{storeName} አፕ አካውንት ማቅረብ ላይ ይቀጥላል። (ከዚህ በተለያዩ መንገዶች እዚህ ቀጥለት ይቀጥላል አለመፈጠር)።",
   "purchaseErrorRestoreFailed": "እቅፍ ግድብ መረጃ የተቀናበረ አለም ይገኛል። እባክዎን ወደ እንግዴ ክፍል ይመለከቱ እና እባክዎን ይሞክሩ።",

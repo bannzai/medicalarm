@@ -125,7 +125,7 @@
   "purchaseErrorInsufficientPermissions": "आप {accountName} से किसी प्लान की सदस्यता नहीं ले सकते। अपनी भुगतान जानकारी जाँचें और फिर से कोशिश करें",
   "purchaseErrorPaymentPending": "भुगतान लंबित है। साइन इन किए गए {accountName} से {storeName} की जाँच करें।",
   "premiumUserThanksTitle": "आप प्रीमियम सदस्य हैं",
-  "premiumUserThanksMessage": "आपका धन्यवाद।\nआपकी मदद से हम Medicalarm का संचालन जारी रख सकें हैं।",
+  "premiumUserThanksMessage": "हमारी सेवा का उपयोग करने के लिए धन्यवाद।\nआपके सहयोग से हम Medicalarm का संचालन जारी रख पा रहे हैं।",
   "premiumPricePerMonth": "({price}/महिना)",
   "premiumCancelDescription": "खरीदने के बाद, ऑटो-रेन्यूअल की रद्दीकरण {storeName} ऐप के खाता सेटिंग्स में किया जा सकता है। (ऐप के भीतर ऑटो-रेन्यूअल को रद्द नहीं किया जा सकता)।",
   "purchaseErrorRestoreFailed": "पहले की खरीदारी की जानकारी नहीं मिली। कृपया अपने खाते की जांच करें और फिर से कोशिश करें",
