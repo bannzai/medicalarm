@@ -133,7 +133,7 @@
   "purchaseErrorActivationPending": "Tilauksen aktivointi ei ole vielä valmis. Tarkista tilanne myöhemmin uudelleen.",
   "purchaseErrorTimeout": "Aikakatkaisu. Tarkista verkkoyhteytesi ja yritä uudelleen. Jos ongelma jatkuu, ota meihin yhteyttä kohdassa Asetukset > Ota yhteyttä. Lisätiedot: {message}",
   "purchaseErrorNetworkError": "Yhteydessä ilmeni ongelma. Tarkista verkkoyhteytesi ja yritä uudelleen. Jos ongelma jatkuu, ota meihin yhteyttä kohdasta Asetukset > Ota yhteyttä. Tiedot: {message}",
-  "sixMonthPlan": "6 kuukauden suunnitelma",
+  "sixMonthPlan": "6 kuukauden tilaus",
   "premiumContractPeriod": "Sopimuskausi on ostopäivästä yksi kuukausi.",
   "privacyPolicy": "Tietosuojakäytäntö",
   "termsOfService": "Käyttöehdot",

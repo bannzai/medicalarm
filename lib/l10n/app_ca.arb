@@ -133,7 +133,7 @@
   "purchaseErrorActivationPending": "L’activació de la subscripció no s’ha completat. Torneu-ho a comprovar més tard.",
   "purchaseErrorTimeout": "S’ha esgotat el temps d’espera. Comprova la connexió de xarxa i torna-ho a provar. Si el problema persisteix, contacta amb nosaltres des d’Configuració > Contacte. Detalls: {message}",
   "purchaseErrorNetworkError": "S’ha produït un problema de connexió. Comproveu la connexió de xarxa i torneu-ho a provar. Si el problema persisteix, contacteu amb nosaltres des d’Configuració > Contacta amb nosaltres. Detalls: {message}",
-  "sixMonthPlan": "Plaça de 6 mesos",
+  "sixMonthPlan": "Pla de 6 mesos",
   "premiumContractPeriod": "El període de contracte és d'un mes a partir de la data d'adquisició.",
   "privacyPolicy": "Política de privadesa",
   "termsOfService": "Termes d'ús",

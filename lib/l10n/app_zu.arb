@@ -133,7 +133,7 @@
   "purchaseErrorActivationPending": "Ukwenza kusebenze ukubhalisa akukaqedwa. Sicela uhlole futhi emuva kwesikhashana.",
   "purchaseErrorTimeout": "Isikhathi siphelile. Hlola uxhumano lwakho lwenethiwekhi bese uzama futhi. Uma inkinga iqhubeka, xhumana nathi kokuthi Izilungiselelo > Xhumana nathi. Imininingwane: {message}",
   "purchaseErrorNetworkError": "Kube nenkinga yokuxhumeka. Hlola uxhumano lwakho lwenethiwekhi bese uzama futhi. Uma inkinga iqhubeka, xhumana nathi kokuthi Izilungiselelo > Xhumana nathi. Imininingwane: {message}",
-  "sixMonthPlan": "uHlelo lweNyanga eziyi-6",
+  "sixMonthPlan": "Uhlelo lwezinyanga ezi-6",
   "premiumContractPeriod": "Isikhathi sokuvumelana si-Premium siqala ezinsukwini ezingu-30 kusukela ngosuku lokuthenga.",
   "privacyPolicy": "uMthetho Wobumfihlo",
   "termsOfService": "imigomo yokusebenzisa",

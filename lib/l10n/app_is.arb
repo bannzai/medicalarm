@@ -133,7 +133,7 @@
   "purchaseErrorActivationPending": "Virkjun áskriftar er ekki lokið. Athugaðu aftur síðar.",
   "purchaseErrorTimeout": "Tíminn rann út. Athugaðu nettenginguna og reyndu aftur. Ef vandamálið leysist ekki skaltu hafa samband við okkur í Stillingar > Hafðu samband. Upplýsingar: {message}",
   "purchaseErrorNetworkError": "Tengingarvandamál kom upp. Athugaðu nettenginguna og reyndu aftur. Ef vandamálið leysist ekki skaltu hafa samband við okkur í Stillingar > Hafa samband. Upplýsingar: {message}",
-  "sixMonthPlan": "6 mánaáætlun",
+  "sixMonthPlan": "6 mánaða áskrift",
   "premiumContractPeriod": "Samningstíminn er einn mánuður frá kaupdegi.",
   "privacyPolicy": "Persónuverndarstefna",
   "termsOfService": "Skilmál",

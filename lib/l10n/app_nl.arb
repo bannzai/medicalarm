@@ -133,7 +133,7 @@
   "purchaseErrorActivationPending": "De activering van het abonnement is nog niet voltooid. Controleer het later opnieuw.",
   "purchaseErrorTimeout": "De time-out is verstreken. Controleer je netwerkverbinding en probeer het opnieuw. Als het probleem aanhoudt, neem dan contact met ons op via Instellingen > Contact. Details: {message}",
   "purchaseErrorNetworkError": "Er is een verbindingsprobleem opgetreden. Controleer je netwerkverbinding en probeer het opnieuw. Blijft het probleem bestaan? Neem dan contact met ons op via Instellingen > Contact. Details: {message}",
-  "sixMonthPlan": "6 maanden plan",
+  "sixMonthPlan": "6-maandenplan",
   "premiumContractPeriod": "De contractperiode is 1 maand vanaf de aankoopdatum.",
   "privacyPolicy": "Privacybeleid",
   "termsOfService": "Gebruiksvoorwaarden",

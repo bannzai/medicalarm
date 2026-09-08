@@ -133,7 +133,7 @@
   "purchaseErrorActivationPending": "Hindi pa kumpleto ang pag-activate ng subscription. Pakitingnan itong muli mamaya.",
   "purchaseErrorTimeout": "Nag-time out ang kahilingan. Suriin ang koneksyon sa network at subukan muli. Kung magpapatuloy ang problema, makipag-ugnayan sa amin sa Mga Setting > Makipag-ugnayan. Mga detalye: {message}",
   "purchaseErrorNetworkError": "Nagkaroon ng problema sa koneksyon. Suriin ang koneksyon sa network at subukang muli. Kung hindi pa rin maayos, makipag-ugnayan sa amin sa Mga Setting > Makipag-ugnayan sa amin. Mga detalye: {message}",
-  "sixMonthPlan": "6 na buwan na plano",
+  "sixMonthPlan": "6 na buwang plano",
   "premiumContractPeriod": "Ang kontrata ay mula sa petsa ng pagbili ng 1 buwan.",
   "privacyPolicy": "Patakaran sa Privacy",
   "termsOfService": "Mga Tuntunin at Kundisyon",

@@ -133,7 +133,7 @@
   "purchaseErrorActivationPending": "Subscription activation is not complete. Please check again later.",
   "purchaseErrorTimeout": "The request timed out. Check your network connection and try again. If the problem persists, contact us via Settings > Contact. Details: {message}",
   "purchaseErrorNetworkError": "There was a connection problem. Check your network connection and try again. If the problem persists, contact us via Settings > Contact Us. Details: {message}",
-  "sixMonthPlan": "6-month plan",
+  "sixMonthPlan": "6-Month Plan",
   "premiumContractPeriod": "The contract period is one month from the purchase date.",
   "privacyPolicy": "Privacy Policy",
   "termsOfService": "Terms of Service",

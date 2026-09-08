@@ -133,7 +133,7 @@
   "purchaseErrorActivationPending": "Aktivasi langganan belum selesai. Silakan periksa kembali nanti.",
   "purchaseErrorTimeout": "Waktu permintaan habis. Periksa koneksi jaringan Anda dan coba lagi. Jika masalah berlanjut, hubungi kami melalui Pengaturan > Kontak. Detail: {message}",
   "purchaseErrorNetworkError": "Terjadi masalah koneksi. Periksa koneksi jaringan Anda, lalu coba lagi. Jika masalah berlanjut, hubungi kami melalui Pengaturan > Hubungi Kami. Detail: {message}",
-  "sixMonthPlan": "Rencana 6 bulan",
+  "sixMonthPlan": "Paket 6 bulan",
   "premiumContractPeriod": "Periode kontrak adalah 1 bulan dari tanggal pembelian.",
   "privacyPolicy": "Kebijakan Privasi",
   "termsOfService": "Ketentuan Penggunaan",

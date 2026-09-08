@@ -133,7 +133,7 @@
   "purchaseErrorActivationPending": "Aktivacija naročnine ni dokončana. Preverite znova pozneje.",
   "purchaseErrorTimeout": "Časovna omejitev je potekla. Preverite omrežno povezavo in poskusite znova. Če težava ni odpravljena, nam pišite v Nastavitve > Stik. Podrobnosti: {message}",
   "purchaseErrorNetworkError": "Prišlo je do težave s povezavo. Preverite omrežno povezavo in poskusite znova. Če težava ne bo odpravljena, nam pišite prek Nastavitve > Stik z nami. Podrobnosti: {message}",
-  "sixMonthPlan": "6-mesečni načrt",
+  "sixMonthPlan": "6-mesečni paket",
   "premiumContractPeriod": "Obdobje pogodbe traja en mesec od dneva nakupa.",
   "privacyPolicy": "Politika zasebnosti",
   "termsOfService": "Pogoji uporabe",

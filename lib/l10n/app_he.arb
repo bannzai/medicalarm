@@ -133,7 +133,7 @@
   "purchaseErrorActivationPending": "הפעלת המינוי עדיין לא הושלמה. יש לבדוק שוב מאוחר יותר.",
   "purchaseErrorTimeout": "תם הזמן הקצוב. בדקו את חיבור הרשת ונסו שוב. אם הבעיה נמשכת, פנו אלינו דרך הגדרות > יצירת קשר. פרטים: {message}",
   "purchaseErrorNetworkError": "אירעה בעיית חיבור. יש לבדוק את חיבור הרשת ולנסות שוב. אם הבעיה נמשכת, ניתן לפנות אלינו דרך הגדרות > צור קשר. פרטים: {message}",
-  "sixMonthPlan": "תוכנית של 6 חודשים",
+  "sixMonthPlan": "תוכנית ל-6 חודשים",
   "premiumContractPeriod": "ש期間 ההתקשרות הוא חודש אחד מיום הרכישה.",
   "privacyPolicy": "מדיניות פרטיות",
   "termsOfService": "תנאי שימוש",

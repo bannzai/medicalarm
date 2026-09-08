@@ -133,7 +133,7 @@
   "purchaseErrorActivationPending": "Активацію підписки ще не завершено. Перевірте ще раз пізніше.",
   "purchaseErrorTimeout": "Час очікування минув. Перевірте підключення до мережі й спробуйте ще раз. Якщо проблема не зникне, зв’яжіться з нами через Налаштування > Контакти. Подробиці: {message}",
   "purchaseErrorNetworkError": "Виникла проблема з підключенням. Перевірте підключення до мережі й повторіть спробу. Якщо проблему не буде вирішено, зв’яжіться з нами через Налаштування > Зв’язатися з нами. Подробиці: {message}",
-  "sixMonthPlan": "6-month plan",
+  "sixMonthPlan": "План на 6 місяців",
   "premiumContractPeriod": "The contract period is one month from the date of purchase.",
   "privacyPolicy": "Privacy Policy",
   "termsOfService": "Terms of Service",

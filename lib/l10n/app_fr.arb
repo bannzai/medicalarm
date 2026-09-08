@@ -133,7 +133,7 @@
   "purchaseErrorActivationPending": "L’activation de l’abonnement n’est pas terminée. Veuillez vérifier à nouveau plus tard.",
   "purchaseErrorTimeout": "Le délai d’attente a été dépassé. Vérifiez votre connexion réseau, puis réessayez. Si le problème persiste, contactez-nous via Réglages > Contact. Détails : {message}",
   "purchaseErrorNetworkError": "Un problème de connexion est survenu. Vérifiez votre connexion réseau, puis réessayez. Si le problème persiste, contactez-nous via Réglages > Nous contacter. Détails : {message}",
-  "sixMonthPlan": "Plan de 6 mois",
+  "sixMonthPlan": "Forfait de 6 mois",
   "premiumContractPeriod": "La période de contrat est de 1 mois à partir de la date d'achat.",
   "privacyPolicy": "Politique de confidentialité",
   "termsOfService": "Conditions d'utilisation",

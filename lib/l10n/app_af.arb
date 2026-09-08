@@ -133,7 +133,7 @@
   "purchaseErrorActivationPending": "Die aktivering van u intekening is nog nie voltooi nie. Probeer asseblief later weer.",
   "purchaseErrorTimeout": "Die versoek het ’n tydverstryking gehad. Gaan u netwerkverbinding na en probeer weer. As die probleem voortduur, kontak ons via Instellings > Kontak. Besonderhede: {message}",
   "purchaseErrorNetworkError": "Daar is ’n verbindingsprobleem. Gaan u netwerkverbinding na en probeer weer. As die probleem voortduur, kontak ons via Instellings > Kontak ons. Besonderhede: {message}",
-  "sixMonthPlan": "6 maande plan",
+  "sixMonthPlan": "6-maandeplan",
   "premiumContractPeriod": "Die kontrakperiode is een maand vanaf die koopdatum.",
   "privacyPolicy": "Privaatheidsbeleid",
   "termsOfService": "gebruikersvoorwaardes",

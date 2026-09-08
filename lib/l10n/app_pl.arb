@@ -133,7 +133,7 @@
   "purchaseErrorActivationPending": "Aktywacja subskrypcji nie została ukończona. Sprawdź ponownie później.",
   "purchaseErrorTimeout": "Upłynął limit czasu. Sprawdź połączenie z siecią i spróbuj ponownie. Jeśli problem będzie się powtarzał, skontaktuj się z nami przez Ustawienia > Kontakt. Szczegóły: {message}",
   "purchaseErrorNetworkError": "Wystąpił problem z połączeniem. Sprawdź połączenie z siecią i spróbuj ponownie. Jeśli problem będzie nadal występować, skontaktuj się z nami, wybierając Ustawienia > Skontaktuj się z nami. Szczegóły: {message}",
-  "sixMonthPlan": "Plan 6 miesięcy",
+  "sixMonthPlan": "Plan 6-miesięczny",
   "premiumContractPeriod": "Okres umowy wynosi 1 miesiąc od daty zakupu.",
   "privacyPolicy": "Polityka prywatności",
   "termsOfService": "Warunki korzystania",

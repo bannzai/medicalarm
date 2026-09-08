@@ -133,7 +133,7 @@
   "purchaseErrorActivationPending": "A activación da subscrición non se completou. Comprobe de novo máis tarde.",
   "purchaseErrorTimeout": "Esgotouse o tempo de espera. Comproba a conexión de rede e téntao de novo. Se o problema persiste, ponte en contacto connosco desde Configuración > Contacto. Detalles: {message}",
   "purchaseErrorNetworkError": "Produciuse un problema de conexión. Comproba a conexión de rede e téntao de novo. Se o problema persiste, ponte en contacto connosco desde Axustes > Contacta connosco. Detalles: {message}",
-  "sixMonthPlan": "plan de 6 meses",
+  "sixMonthPlan": "Plan de 6 meses",
   "premiumContractPeriod": "O período de contrato é de 1 mes desde a data de compra.",
   "privacyPolicy": "Política de privacidade",
   "termsOfService": "Termos de uso",

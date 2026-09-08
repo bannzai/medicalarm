@@ -133,7 +133,7 @@
   "purchaseErrorActivationPending": "Tellimuse aktiveerimine pole veel lõpule viidud. Kontrollige palun hiljem uuesti.",
   "purchaseErrorTimeout": "Ühendus aegus. Kontrollige võrguühendust ja proovige uuesti. Kui probleem püsib, võtke meiega ühendust menüüs Seaded > Kontakt. Üksikasjad: {message}",
   "purchaseErrorNetworkError": "Ühendusega tekkis probleem. Kontrollige võrguühendust ja proovige uuesti. Kui probleem püsib, võtke meiega ühendust menüüs Seaded > Võta ühendust. Üksikasjad: {message}",
-  "sixMonthPlan": "6-kuuline plaan",
+  "sixMonthPlan": "6 kuu plaan",
   "premiumContractPeriod": "Lepinguperiood on 1 kuu alates ostupäevast.",
   "privacyPolicy": "Privaatsuspoliitika",
   "termsOfService": "Kasutustingimused",

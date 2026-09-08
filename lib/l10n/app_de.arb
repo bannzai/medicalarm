@@ -133,7 +133,7 @@
   "purchaseErrorActivationPending": "Die Aktivierung des Abonnements ist noch nicht abgeschlossen. Bitte prüfen Sie es später erneut.",
   "purchaseErrorTimeout": "Zeitüberschreitung. Bitte überprüfen Sie Ihre Netzwerkverbindung und versuchen Sie es erneut. Wenn das Problem weiterhin besteht, kontaktieren Sie uns über Einstellungen > Kontakt. Details: {message}",
   "purchaseErrorNetworkError": "Es ist ein Verbindungsfehler aufgetreten. Bitte überprüfen Sie Ihre Netzwerkverbindung und versuchen Sie es erneut. Wenn das Problem weiterhin besteht, kontaktieren Sie uns unter Einstellungen > Kontakt. Details: {message}",
-  "sixMonthPlan": "6-Monats-Plan",
+  "sixMonthPlan": "6-Monatsplan",
   "premiumContractPeriod": "Die Vertragsdauer beträgt 1 Monat ab dem Kaufdatum.",
   "privacyPolicy": "Datenschutzrichtlinie",
   "termsOfService": "Nutzungsbedingungen",

@@ -133,7 +133,7 @@
   "purchaseErrorActivationPending": "የክፍያ ማግበር ሂደቱ አልተጠናቀቀም። እባክዎ ከጥቂት ጊዜ በኋላ ይመልከቱ።",
   "purchaseErrorTimeout": "ጊዜ አልቋል። እባክዎ የኔትወርክ ግንኙነትዎን ያረጋግጡና እንደገና ይሞክሩ። ችግሩ ካልተፈታ፣ በቅንብሮች > አግኙን በኩል ያግኙን። ዝርዝር፦ {message}",
   "purchaseErrorNetworkError": "የግንኙነት ችግር ተፈጥሯል። የኔትወርክ ግንኙነትዎን ያረጋግጡና እንደገና ይሞክሩ። ካልተፈታ፣ ከቅንብሮች > አግኙን በኩል ያግኙን። ዝርዝሮች፦ {message}",
-  "sixMonthPlan": "6 ወር እቅድ",
+  "sixMonthPlan": "የ6 ወራት ዕቅድ",
   "premiumContractPeriod": "ኮንትራት ወቅት ከግዢ ቀን 1 ወር ነው።",
   "privacyPolicy": "የግል ፖሊሲ",
   "termsOfService": "መጠቀም ይወዳድር",

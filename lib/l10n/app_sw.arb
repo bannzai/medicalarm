@@ -133,7 +133,7 @@
   "purchaseErrorActivationPending": "Uwezeshaji wa usajili haujakamilika. Tafadhali angalia tena baadaye.",
   "purchaseErrorTimeout": "Muda wa kusubiri umeisha. Angalia muunganisho wako wa mtandao na ujaribu tena. Tatizo likiendelea, wasiliana nasi kupitia Mipangilio > Wasiliana nasi. Maelezo: {message}",
   "purchaseErrorNetworkError": "Kuna tatizo la muunganisho. Angalia muunganisho wako wa mtandao kisha ujaribu tena. Tatizo likiendelea, wasiliana nasi kupitia Mipangilio > Wasiliana nasi. Maelezo: {message}",
-  "sixMonthPlan": "mpango wa miezi 6",
+  "sixMonthPlan": "Mpango wa miezi 6",
   "premiumContractPeriod": "Muda wa mkataba ni mwezi mmoja kuanzia tarehe ya oduka.",
   "privacyPolicy": "Sera ya Faragha",
   "termsOfService": "Masharti ya matumizi",

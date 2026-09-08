@@ -133,7 +133,7 @@
   "purchaseErrorActivationPending": "D Aktivierig vom Abo isch no nöd abgschlosse. Bitte später nomol prüefe.",
   "purchaseErrorTimeout": "D’Ziit isch abgloffe. Prüefed Si Ihri Netzwerchverbindig und versueched Si’s nomal. Wenn s’Problem wiiterbesteit, nehmed Si über Istellige > Kontakt mit eus Kontakt uf. Details: {message}",
   "purchaseErrorNetworkError": "Es isch es Verbindigsproblem ufträte. Bitte überprüefed Sie Ihri Netzwerverbindig und probiered Sie es nomol. Wenn s Problem wiiterbesteit, chönd Sie eus über Iistellige > Kontakt ufneh. Details: {message}",
-  "sixMonthPlan": "6 Monat Plan",
+  "sixMonthPlan": "6-Monats-Abo",
   "premiumContractPeriod": "Die Vertragsdauer beträgt einen Monat ab dem Kaufdatum.",
   "privacyPolicy": "Privacy Policy",
   "termsOfService": "Nutzungsbedingunge",

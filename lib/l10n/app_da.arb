@@ -133,7 +133,7 @@
   "purchaseErrorActivationPending": "Aktiveringen af abonnementet er ikke fuldført. Kontrollér venligst igen senere.",
   "purchaseErrorTimeout": "Anmodningen fik timeout. Kontrollér din netværksforbindelse, og prøv igen. Hvis problemet fortsætter, kan du kontakte os via Indstillinger > Kontakt. Detaljer: {message}",
   "purchaseErrorNetworkError": "Der opstod et forbindelsesproblem. Kontrollér din netværksforbindelse, og prøv igen. Hvis problemet fortsætter, kan du kontakte os via Indstillinger > Kontakt os. Detaljer: {message}",
-  "sixMonthPlan": "6-måneders plan",
+  "sixMonthPlan": "6-månedersplan",
   "premiumContractPeriod": "Kontraktperioden er 1 måned fra købsdatoen.",
   "privacyPolicy": "Fortrolighedspolitik",
   "termsOfService": "Brugsvilkår",
