@@ -235,5 +235,6 @@
   "achievementWeeklyCountSuffix": "/{scheduledCount} herë",
   "achievementStreakLabel": "Seri e njëpasnjëshme",
   "achievementStreakDaysSuffix": "ditë",
-  "achievementMonthlyRateLabel": "Shkalla e përmbushjes: {month}"
+  "achievementMonthlyRateLabel": "Shkalla e përmbushjes: {month}",
+  "achievementLegendAllTaken": "Të gjitha"
 }

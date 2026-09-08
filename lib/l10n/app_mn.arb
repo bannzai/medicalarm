@@ -235,5 +235,6 @@
   "achievementWeeklyCountSuffix": "/{scheduledCount} удаа",
   "achievementStreakLabel": "Дараалсан цуваа",
   "achievementStreakDaysSuffix": "өдөр",
-  "achievementMonthlyRateLabel": "Биелэлтийн хувь: {month}"
+  "achievementMonthlyRateLabel": "Биелэлтийн хувь: {month}",
+  "achievementLegendAllTaken": "Бүгд"
 }

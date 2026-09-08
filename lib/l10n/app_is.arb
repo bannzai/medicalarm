@@ -235,5 +235,6 @@
   "achievementWeeklyCountSuffix": "/{scheduledCount} sinnum",
   "achievementStreakLabel": "Samfelld röð",
   "achievementStreakDaysSuffix": "dagar",
-  "achievementMonthlyRateLabel": "Frammistöðuhlutfall: {month}"
+  "achievementMonthlyRateLabel": "Frammistöðuhlutfall: {month}",
+  "achievementLegendAllTaken": "Allt"
 }

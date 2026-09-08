@@ -235,5 +235,6 @@
   "achievementWeeklyCountSuffix": "/{scheduledCount} פעמים",
   "achievementStreakLabel": "רצף",
   "achievementStreakDaysSuffix": "ימים",
-  "achievementMonthlyRateLabel": "שיעור עמידה: {month}"
+  "achievementMonthlyRateLabel": "שיעור עמידה: {month}",
+  "achievementLegendAllTaken": "הכול"
 }

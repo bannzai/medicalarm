@@ -235,5 +235,6 @@
   "achievementWeeklyCountSuffix": "/{scheduledCount} пати",
   "achievementStreakLabel": "Низа",
   "achievementStreakDaysSuffix": "дена",
-  "achievementMonthlyRateLabel": "Стапка на исполнетост: {month}"
+  "achievementMonthlyRateLabel": "Стапка на исполнетост: {month}",
+  "achievementLegendAllTaken": "Сите"
 }

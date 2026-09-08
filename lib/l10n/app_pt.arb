@@ -235,5 +235,6 @@
   "achievementWeeklyCountSuffix": "/{scheduledCount} vezes",
   "achievementStreakLabel": "Sequência",
   "achievementStreakDaysSuffix": "dias",
-  "achievementMonthlyRateLabel": "Taxa de cumprimento: {month}"
+  "achievementMonthlyRateLabel": "Taxa de cumprimento: {month}",
+  "achievementLegendAllTaken": "Todos"
 }

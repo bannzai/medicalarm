@@ -235,5 +235,6 @@
   "achievementWeeklyCountSuffix": "/{scheduledCount} વખત",
   "achievementStreakLabel": "સળંગ શ્રેણી",
   "achievementStreakDaysSuffix": "દિવસ",
-  "achievementMonthlyRateLabel": "સફળતા દર: {month}"
+  "achievementMonthlyRateLabel": "સફળતા દર: {month}",
+  "achievementLegendAllTaken": "બધા"
 }

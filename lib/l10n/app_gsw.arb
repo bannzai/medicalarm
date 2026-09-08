@@ -235,5 +235,6 @@
   "achievementWeeklyCountSuffix": "/{scheduledCount} Mol",
   "achievementStreakLabel": "Serie",
   "achievementStreakDaysSuffix": "Täg",
-  "achievementMonthlyRateLabel": "Erfülligsquote: {month}"
+  "achievementMonthlyRateLabel": "Erfülligsquote: {month}",
+  "achievementLegendAllTaken": "Alle"
 }

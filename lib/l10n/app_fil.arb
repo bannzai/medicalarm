@@ -235,5 +235,6 @@
   "achievementWeeklyCountSuffix": "/{scheduledCount} beses",
   "achievementStreakLabel": "Sunod-sunod na tala",
   "achievementStreakDaysSuffix": "araw",
-  "achievementMonthlyRateLabel": "Rate ng pagkamit: {month}"
+  "achievementMonthlyRateLabel": "Rate ng pagkamit: {month}",
+  "achievementLegendAllTaken": "Lahat"
 }

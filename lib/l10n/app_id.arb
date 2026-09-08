@@ -235,5 +235,6 @@
   "achievementWeeklyCountSuffix": "/{scheduledCount} kali",
   "achievementStreakLabel": "Rangkaian",
   "achievementStreakDaysSuffix": "hari",
-  "achievementMonthlyRateLabel": "Tingkat pencapaian: {month}"
+  "achievementMonthlyRateLabel": "Tingkat pencapaian: {month}",
+  "achievementLegendAllTaken": "Semua"
 }

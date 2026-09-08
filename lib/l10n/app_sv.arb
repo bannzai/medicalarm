@@ -235,5 +235,6 @@
   "achievementWeeklyCountSuffix": "/{scheduledCount} gånger",
   "achievementStreakLabel": "Sammanhängande serie",
   "achievementStreakDaysSuffix": "dagar",
-  "achievementMonthlyRateLabel": "Uppfyllelsegrad: {month}"
+  "achievementMonthlyRateLabel": "Uppfyllelsegrad: {month}",
+  "achievementLegendAllTaken": "Alla"
 }

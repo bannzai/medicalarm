@@ -235,5 +235,6 @@
   "achievementWeeklyCountSuffix": "/{scheduledCount} reizes",
   "achievementStreakLabel": "Nepārtraukta sērija",
   "achievementStreakDaysSuffix": "dienas",
-  "achievementMonthlyRateLabel": "Izpildes rādītājs: {month}"
+  "achievementMonthlyRateLabel": "Izpildes rādītājs: {month}",
+  "achievementLegendAllTaken": "Visi"
 }

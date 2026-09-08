@@ -235,5 +235,6 @@
   "achievementWeeklyCountSuffix": "/{scheduledCount} aldiz",
   "achievementStreakLabel": "Jarraikako marka",
   "achievementStreakDaysSuffix": "egun",
-  "achievementMonthlyRateLabel": "Betetze-maila: {month}"
+  "achievementMonthlyRateLabel": "Betetze-maila: {month}",
+  "achievementLegendAllTaken": "Guztiak"
 }

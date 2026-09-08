@@ -235,5 +235,6 @@
   "achievementWeeklyCountSuffix": "/{scheduledCount} ori",
   "achievementStreakLabel": "Serie",
   "achievementStreakDaysSuffix": "zile",
-  "achievementMonthlyRateLabel": "Rata de îndeplinire: {month}"
+  "achievementMonthlyRateLabel": "Rata de îndeplinire: {month}",
+  "achievementLegendAllTaken": "Toate"
 }

@@ -235,5 +235,6 @@
   "achievementWeeklyCountSuffix": "/{scheduledCount} ຄັ້ງ",
   "achievementStreakLabel": "ສະຖິຕິຕໍ່ເນື່ອງ",
   "achievementStreakDaysSuffix": "ວັນ",
-  "achievementMonthlyRateLabel": "ອັດຕາການບັນລຸ: {month}"
+  "achievementMonthlyRateLabel": "ອັດຕາການບັນລຸ: {month}",
+  "achievementLegendAllTaken": "ທັງໝົດ"
 }

@@ -235,5 +235,6 @@
   "achievementWeeklyCountSuffix": "/{scheduledCount} разоў",
   "achievementStreakLabel": "Паслядоўная серыя",
   "achievementStreakDaysSuffix": "дзён",
-  "achievementMonthlyRateLabel": "Паказчык выканання: {month}"
+  "achievementMonthlyRateLabel": "Паказчык выканання: {month}",
+  "achievementLegendAllTaken": "Усе"
 }

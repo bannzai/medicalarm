@@ -235,5 +235,6 @@
   "achievementWeeklyCountSuffix": "/{scheduledCount}-krat",
   "achievementStreakLabel": "Niz",
   "achievementStreakDaysSuffix": "dni",
-  "achievementMonthlyRateLabel": "Stopnja izpolnjenosti: {month}"
+  "achievementMonthlyRateLabel": "Stopnja izpolnjenosti: {month}",
+  "achievementLegendAllTaken": "Vse"
 }

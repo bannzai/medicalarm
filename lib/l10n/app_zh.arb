@@ -235,5 +235,6 @@
   "achievementWeeklyCountSuffix": "/{scheduledCount} 次",
   "achievementStreakLabel": "连续记录",
   "achievementStreakDaysSuffix": "日",
-  "achievementMonthlyRateLabel": "达成率：{month}"
+  "achievementMonthlyRateLabel": "达成率：{month}",
+  "achievementLegendAllTaken": "全部"
 }

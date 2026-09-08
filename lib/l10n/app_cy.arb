@@ -235,5 +235,6 @@
   "achievementWeeklyCountSuffix": "/{scheduledCount} gwaith",
   "achievementStreakLabel": "Cyfres olynol",
   "achievementStreakDaysSuffix": "diwrnod",
-  "achievementMonthlyRateLabel": "Cyfradd cyflawni: {month}"
+  "achievementMonthlyRateLabel": "Cyfradd cyflawni: {month}",
+  "achievementLegendAllTaken": "Pob"
 }

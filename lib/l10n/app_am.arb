@@ -235,5 +235,6 @@
   "achievementWeeklyCountSuffix": "/{scheduledCount} ጊዜ",
   "achievementStreakLabel": "ተከታታይ ስኬት",
   "achievementStreakDaysSuffix": "ቀናት",
-  "achievementMonthlyRateLabel": "የ{month} ስኬት መጠን"
+  "achievementMonthlyRateLabel": "የ{month} ስኬት መጠን",
+  "achievementLegendAllTaken": "Բոլորը"
 }

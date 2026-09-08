@@ -235,5 +235,6 @@
   "achievementWeeklyCountSuffix": "/{scheduledCount} пута",
   "achievementStreakLabel": "Низ",
   "achievementStreakDaysSuffix": "дана",
-  "achievementMonthlyRateLabel": "Стопа остварења: {month}"
+  "achievementMonthlyRateLabel": "Стопа остварења: {month}",
+  "achievementLegendAllTaken": "Све"
 }

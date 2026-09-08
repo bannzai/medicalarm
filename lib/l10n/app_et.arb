@@ -235,5 +235,6 @@
   "achievementWeeklyCountSuffix": "/{scheduledCount} korda",
   "achievementStreakLabel": "Järjestikune seeria",
   "achievementStreakDaysSuffix": "päeva",
-  "achievementMonthlyRateLabel": "Täitmise määr: {month}"
+  "achievementMonthlyRateLabel": "Täitmise määr: {month}",
+  "achievementLegendAllTaken": "Kõik"
 }

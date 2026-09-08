@@ -235,5 +235,6 @@
   "achievementWeeklyCountSuffix": "/{scheduledCount} kartų",
   "achievementStreakLabel": "Nepertraukiama serija",
   "achievementStreakDaysSuffix": "dienos",
-  "achievementMonthlyRateLabel": "Įvykdymo rodiklis: {month}"
+  "achievementMonthlyRateLabel": "Įvykdymo rodiklis: {month}",
+  "achievementLegendAllTaken": "Visi"
 }

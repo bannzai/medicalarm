@@ -235,5 +235,6 @@
   "achievementWeeklyCountSuffix": "/{scheduledCount} مرة",
   "achievementStreakLabel": "سلسلة متتالية",
   "achievementStreakDaysSuffix": "يوم",
-  "achievementMonthlyRateLabel": "معدل الإنجاز: {month}"
+  "achievementMonthlyRateLabel": "معدل الإنجاز: {month}",
+  "achievementLegendAllTaken": "الكل"
 }

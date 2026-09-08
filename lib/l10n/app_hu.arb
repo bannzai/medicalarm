@@ -235,5 +235,6 @@
   "achievementWeeklyCountSuffix": "/{scheduledCount} alkalom",
   "achievementStreakLabel": "Sorozat",
   "achievementStreakDaysSuffix": "nap",
-  "achievementMonthlyRateLabel": "Teljesítési arány: {month}"
+  "achievementMonthlyRateLabel": "Teljesítési arány: {month}",
+  "achievementLegendAllTaken": "Mind"
 }
