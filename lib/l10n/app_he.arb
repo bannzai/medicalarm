@@ -69,7 +69,7 @@
   "enableFollowupNotification": "הפעלת התראות מעקב",
   "followupNotificationDescription": "אם נטילת התרופה לא תירשם בתוך 30 דקות מההתראה הראשונה, תישלח התראת מעקב.",
   "enableNotificationInSilentMode": "שליחת התראות גם במצב שקט",
-  "silentModeNotificationDescription": "גם כאשר מצב ריכוז מופעל או שהמכשיר על שקט, התראות קריטיות מוצגות במסך הנעילה ומושמע צליל.",
+  "silentModeNotificationDescription": "גם כאשר מצב ריכוז פעיל או שהמכשיר במצב שקט, התראות קריטיות מוצגות במסך הנעילה ומתנגן צליל.",
   "everyXDaysFormat": "כל {count} ימים",
   "cycleDaysFormat": "ליטול במשך {consecutiveDays} ימים / להפסיק למשך {restDays} ימים",
   "consecutiveDaysFormat": "נטילת תרופות במשך {count} ימים",

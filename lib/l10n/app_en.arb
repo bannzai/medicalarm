@@ -69,7 +69,7 @@
   "enableFollowupNotification": "Enable follow-up notifications",
   "followupNotificationDescription": "If medication intake is not recorded within 30 minutes of the first notification, a follow-up notification will be sent.",
   "enableNotificationInSilentMode": "Notify even in silent mode",
-  "silentModeNotificationDescription": "Even when Focus mode is on or the device is silenced, critical alerts appear on the Lock Screen and play a sound.",
+  "silentModeNotificationDescription": "Even when Focus mode is ON or the device is muted, critical alerts appear on the Lock Screen and play a sound.",
   "everyXDaysFormat": "Every {count} days",
   "cycleDaysFormat": "Take for {consecutiveDays} days / pause for {restDays} days",
   "consecutiveDaysFormat": "Medication for {count} days",

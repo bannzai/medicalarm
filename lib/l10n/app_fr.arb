@@ -69,7 +69,7 @@
   "enableFollowupNotification": "Activer les notifications de suivi",
   "followupNotificationDescription": "Si la prise du médicament n’est pas enregistrée dans les 30 minutes suivant la première notification, une notification de suivi sera envoyée.",
   "enableNotificationInSilentMode": "Notifier même en mode silencieux",
-  "silentModeNotificationDescription": "Même lorsque le mode Concentration est activé ou que l’appareil est en silencieux, les alertes critiques s’affichent sur l’écran verrouillé et un son est émis.",
+  "silentModeNotificationDescription": "Même lorsque le mode Concentration est activé ou que l’appareil est en mode silencieux, les alertes critiques s’affichent sur l’écran verrouillé et un son est diffusé.",
   "everyXDaysFormat": "Tous les {count} jours",
   "cycleDaysFormat": "Prendre pendant {consecutiveDays} jours / faire une pause de {restDays} jours",
   "consecutiveDaysFormat": "Prise de médicaments pendant {count} jours",

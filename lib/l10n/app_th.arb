@@ -69,7 +69,7 @@
   "enableFollowupNotification": "เปิดใช้การแจ้งเตือนติดตามผล",
   "followupNotificationDescription": "หากไม่มีการบันทึกการรับประทานยาภายใน 30 นาทีหลังการแจ้งเตือนครั้งแรก ระบบจะส่งการแจ้งเตือนติดตามผล",
   "enableNotificationInSilentMode": "ส่งการแจ้งเตือนแม้อยู่ในโหมดเงียบ",
-  "silentModeNotificationDescription": "แม้เปิดโหมดโฟกัสหรือปิดเสียงอุปกรณ์อยู่ การแจ้งเตือนสำคัญจะแสดงบนหน้าจอล็อกและมีเสียงเล่น",
+  "silentModeNotificationDescription": "แม้เปิดโหมดโฟกัสหรือเปิดโหมดปิดเสียงอยู่ การแจ้งเตือนสำคัญจะแสดงบนหน้าจอล็อกและมีเสียงดังขึ้น",
   "everyXDaysFormat": "ทุก {count} วัน",
   "cycleDaysFormat": "รับประทานยา {consecutiveDays} วัน / พักยา {restDays} วัน",
   "consecutiveDaysFormat": "รับประทานยาเป็นเวลา {count} วัน",

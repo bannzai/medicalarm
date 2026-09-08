@@ -69,7 +69,7 @@
   "enableFollowupNotification": "تفعيل إشعارات المتابعة",
   "followupNotificationDescription": "إذا لم يتم تسجيل تناول الدواء خلال 30 دقيقة من الإشعار الأول، فسيتم إرسال إشعار متابعة.",
   "enableNotificationInSilentMode": "إرسال إشعارات حتى في الوضع الصامت",
-  "silentModeNotificationDescription": "حتى عند تشغيل وضع التركيز أو كتم صوت الجهاز، تظهر التنبيهات الحرجة على شاشة القفل ويُشغَّل صوت.",
+  "silentModeNotificationDescription": "حتى عند تفعيل وضع التركيز أو ضبط الجهاز على الصامت، تظهر التنبيهات الحرجة على شاشة القفل ويصدر صوت.",
   "everyXDaysFormat": "كل {count} يومًا",
   "cycleDaysFormat": "تناول الدواء لمدة {consecutiveDays} يومًا / أوقفه لمدة {restDays} يومًا",
   "consecutiveDaysFormat": "تناول الدواء لمدة {count} يومًا",

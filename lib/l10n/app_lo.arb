@@ -69,7 +69,7 @@
   "enableFollowupNotification": "ເປີດໃຊ້ການແຈ້ງເຕືອນຕິດຕາມ",
   "followupNotificationDescription": "ຖ້າບໍ່ໄດ້ບັນທຶກການກິນຢາພາຍໃນ 30 ນາທີຫຼັງຈາກການແຈ້ງເຕືອນຄັ້ງທຳອິດ ຈະມີການສົ່ງການແຈ້ງເຕືອນຕິດຕາມ.",
   "enableNotificationInSilentMode": "ສົ່ງການແຈ້ງເຕືອນແມ່ນຢູ່ໃນໂໝດງຽບ",
-  "silentModeNotificationDescription": "ເຖິງແມ່ນວ່າໂໝດໂຟກັສເປີດຢູ່ ຫຼື ອຸປະກອນປິດສຽງຢູ່, ແຈ້ງເຕືອນສຳຄັນຈະສະແດງໃນໜ້າຈໍລັອກ ແລະ ມີສຽງດັງ.",
+  "silentModeNotificationDescription": "ເຖິງແມ່ນໂໝດໂຟກັສເປີດຢູ່ ຫຼືອຸປະກອນຢູ່ໃນໂໝດປິດສຽງ, ການແຈ້ງເຕືອນສຳຄັນຈະສະແດງໃນໜ້າຈໍລັອກ ແລະມີສຽງ.",
   "everyXDaysFormat": "ທຸກໆ {count} ມື້",
   "cycleDaysFormat": "ໃຊ້ຢາ {consecutiveDays} ມື້ / ພັກຢາ {restDays} ມື້",
   "consecutiveDaysFormat": "ໃຊ້ຢາເປັນເວລາ {count} ມື້",

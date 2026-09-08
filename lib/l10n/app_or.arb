@@ -69,7 +69,7 @@
   "enableFollowupNotification": "ଫଲୋ-ଅପ୍ ବିଜ୍ଞପ୍ତି ସକ୍ଷମ କରନ୍ତୁ",
   "followupNotificationDescription": "ପ୍ରଥମ ବିଜ୍ଞପ୍ତିର ୩୦ ମିନିଟ୍ ମଧ୍ୟରେ ଔଷଧ ସେବନ ରେକର୍ଡ ନକଲେ, ଏକ ଅନୁସରଣ ବିଜ୍ଞପ୍ତି ପଠାଯିବ।",
   "enableNotificationInSilentMode": "ସାଇଲେଣ୍ଟ ମୋଡ୍‌ରେ ମଧ୍ୟ ବିଜ୍ଞପ୍ତି ପଠାନ୍ତୁ",
-  "silentModeNotificationDescription": "ଫୋକସ୍ ମୋଡ୍ ଅନ୍ ଥିଲେ କିମ୍ବା ଡିଭାଇସ୍ ନିରବ ଥିଲେ ମଧ୍ୟ, ଗୁରୁତର ସତର୍କତା ଲକ୍ ସ୍କ୍ରିନ୍‌ରେ ଦେଖାଯାଏ ଏବଂ ଶବ୍ଦ ବାଜେ।",
+  "silentModeNotificationDescription": "ଫୋକସ୍ ମୋଡ୍ ଅନ୍ ଥିଲେ କିମ୍ବା ଡିଭାଇସ୍ ନିରବ ଥିଲେ ମଧ୍ୟ, ଗୁରୁତର ସତର୍କତାଗୁଡ଼ିକ ଲକ୍ ସ୍କ୍ରିନ୍‌ରେ ଦେଖାଯାଏ ଏବଂ ଶବ୍ଦ ବଜେ।",
   "everyXDaysFormat": "ପ୍ରତି {count} ଦିନରେ",
   "cycleDaysFormat": "{consecutiveDays} ଦିନ ଔଷଧ ସେବନ / {restDays} ଦିନ ବିରତି",
   "consecutiveDaysFormat": "{count} ଦିନ ଔଷଧ ସେବନ",

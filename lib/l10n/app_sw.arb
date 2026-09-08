@@ -69,7 +69,7 @@
   "enableFollowupNotification": "Washa arifa za ufuatiliaji",
   "followupNotificationDescription": "Ikiwa unywaji wa dawa hautarekodiwa ndani ya dakika 30 baada ya arifa ya kwanza, arifa ya ufuatiliaji itatumwa.",
   "enableNotificationInSilentMode": "Tuma arifa hata katika hali ya kimya",
-  "silentModeNotificationDescription": "Hata Modi ya Kuzingatia ikiwa imewashwa au kifaa kikiwa kimenyamazishwa, arifa muhimu huonyeshwa kwenye skrini iliyofungwa na sauti huchezwa.",
+  "silentModeNotificationDescription": "Hata Modi ya Kuzingatia ikiwa IMEWASHWA au kifaa kikiwa kimenyamazishwa, arifa muhimu huonekana kwenye Skrini ya Kufunga na sauti huchezwa.",
   "everyXDaysFormat": "Kila baada ya siku {count}",
   "cycleDaysFormat": "Tumia kwa siku {consecutiveDays} / pumzika kwa siku {restDays}",
   "consecutiveDaysFormat": "Kutumia dawa kwa siku {count}",

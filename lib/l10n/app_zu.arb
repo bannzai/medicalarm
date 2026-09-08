@@ -69,7 +69,7 @@
   "enableFollowupNotification": "Vumela izaziso zokulandelela",
   "followupNotificationDescription": "Uma ukuphuza umuthi kungarekhodwa kungakapheli imizuzu engu-30 kusukela esazisweni sokuqala, kuzothunyelwa isaziso sokulandelela.",
   "enableNotificationInSilentMode": "Thumela izaziso ngisho nakumodi ethule",
-  "silentModeNotificationDescription": "Ngisho noma imodi Yokugxila ivuliwe noma idivayisi ithulisiwe, izexwayiso ezibalulekile ziyavela esikrinini sokukhiya bese kudlalwa umsindo.",
+  "silentModeNotificationDescription": "Ngisho noma i-Focus mode IVULIWE noma idivayisi ithulisiwe, izexwayiso ezibalulekile ziyavela Esikrinini Sokukhiya futhi kudlalwe umsindo.",
   "everyXDaysFormat": "Njalo ngemva kwezinsuku ezi-{count}",
   "cycleDaysFormat": "Phuza izinsuku ezingu-{consecutiveDays} / phumula izinsuku ezingu-{restDays}",
   "consecutiveDaysFormat": "Ukuphuza umuthi izinsuku ezi-{count}",

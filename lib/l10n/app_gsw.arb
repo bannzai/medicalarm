@@ -69,7 +69,7 @@
   "enableFollowupNotification": "Folge-Benachrichtigungen aktivieren",
   "followupNotificationDescription": "Wenn d Iinahm vom Medikament innert 30 Minute nach dr erschte Benachrichtigung nöd erfasst wird, wird e Folgebenachrichtigung gschickt.",
   "enableNotificationInSilentMode": "Au im Stummmodus benachrichtige",
-  "silentModeNotificationDescription": "Au wenn de Fokusmodus iigschaltet isch oder s’Grät stummgschaltet isch, werde kritische Mitteilige uf em Sperrbildschirm azeigt und en Ton abgspielt.",
+  "silentModeNotificationDescription": "Au wenn de Fokusmodus aktiviert isch oder s’Grät stumm gschaltet isch, werde kritische Benachrichtigunge uf em Sperrbildschirm azeigt und en Ton abgspielt.",
   "everyXDaysFormat": "Alle {count} Täg",
   "cycleDaysFormat": "{consecutiveDays} Täg iineh / {restDays} Täg Pause",
   "consecutiveDaysFormat": "Medikament i {count} Täg",

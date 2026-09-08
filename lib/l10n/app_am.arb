@@ -69,7 +69,7 @@
   "enableFollowupNotification": "የክትትል ማሳወቂያዎችን አንቃ",
   "followupNotificationDescription": "ከመጀመሪያው ማሳወቂያ በኋላ በ30 ደቂቃዎች ውስጥ የመድኃኒት አወሳሰድ ካልተመዘገበ፣ የክትትል ማሳወቂያ ይላካል።",
   "enableNotificationInSilentMode": "በጸጥታ ሁነታም ማሳወቂያ ላክ",
-  "silentModeNotificationDescription": "እንኳን የትኩረት ሁነታ በርቶ ወይም መሣሪያው ድምፅ አልባ ሆኖ ቢሆንም፣ ወሳኝ ማሳወቂያዎች በመቆለፊያ ማያ ገጽ ላይ ይታያሉ እና ድምፅ ይเล่นል።",
+  "silentModeNotificationDescription": "የትኩረት ሁነታ በርቶ ወይም መሣሪያው ድምፅ አልባ ሆኖ ቢሆንም፣ አስፈላጊ ማሳወቂያዎች በመቆለፊያ ማያ ገጽ ላይ ይታያሉ እና ድምፅ ይጫወታል።",
   "everyXDaysFormat": "ყოველ {count} დღეში",
   "cycleDaysFormat": "መድኃኒቱን ለ{consecutiveDays} ቀናት ይውሰዱ / ለ{restDays} ቀናት ያቁሙ",
   "consecutiveDaysFormat": "{count} ቀን መድኃኒት መውሰድ",

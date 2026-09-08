@@ -69,7 +69,7 @@
   "enableFollowupNotification": "Aktivera uppföljningsnotiser",
   "followupNotificationDescription": "Om läkemedelsintaget inte registreras inom 30 minuter efter den första aviseringen skickas en uppföljningsavisering.",
   "enableNotificationInSilentMode": "Skicka notiser även i tyst läge",
-  "silentModeNotificationDescription": "Även när Fokus är aktiverat eller enheten är ljudlös visas kritiska notiser på låsskärmen och ett ljud spelas upp.",
+  "silentModeNotificationDescription": "Även när Fokus är PÅ eller enheten är inställd på ljudlöst visas kritiska notiser på låsskärmen och ett ljud spelas upp.",
   "everyXDaysFormat": "Var {count}:e dag",
   "cycleDaysFormat": "Ta i {consecutiveDays} dagar / pausa i {restDays} dagar",
   "consecutiveDaysFormat": "Medicinering i {count} dagar",

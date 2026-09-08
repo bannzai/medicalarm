@@ -69,7 +69,7 @@
   "enableFollowupNotification": "फलो-अप सूचनाहरू सक्षम गर्नुहोस्",
   "followupNotificationDescription": "पहिलो सूचनापछि ३० मिनेटभित्र औषधि सेवन रेकर्ड नगरिएमा, फलो-अप सूचना पठाइनेछ।",
   "enableNotificationInSilentMode": "साइलेन्ट मोडमा पनि सूचना पठाउनुहोस्",
-  "silentModeNotificationDescription": "फोकस मोड अन भएको वा यन्त्र साइलेन्टमा रहेको अवस्थामा पनि, गम्भीर सूचनाहरू लक स्क्रिनमा देखिन्छन् र आवाज बज्छ।",
+  "silentModeNotificationDescription": "फोकस मोड अन गरिएको वा यन्त्र म्यूट गरिएको अवस्थामा पनि, महत्वपूर्ण अलर्टहरू लक स्क्रिनमा देखिन्छन् र आवाज बज्छ।",
   "everyXDaysFormat": "हरेक {count} दिनमा",
   "cycleDaysFormat": "{consecutiveDays} दिन सेवन गर्नुहोस् / {restDays} दिन विश्राम गर्नुहोस्",
   "consecutiveDaysFormat": "{count} दिन औषध सेवन",

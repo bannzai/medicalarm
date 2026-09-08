@@ -69,7 +69,7 @@
   "enableFollowupNotification": "පසු විපරම් දැනුම්දීම් සබල කරන්න",
   "followupNotificationDescription": "පළමු දැනුම්දීමෙන් මිනිත්තු 30ක් ඇතුළත ඖෂධය ගත් බව සටහන් නොකළහොත්, පසු විපරම් දැනුම්දීමක් යවනු ලැබේ.",
   "enableNotificationInSilentMode": "නිහඬ ප්‍රකාරයේදී පවා දැනුම්දීම් යවන්න",
-  "silentModeNotificationDescription": "නාභිගත ප්‍රකාරය සක්‍රිය කර තිබුණත් හෝ උපාංගය නිහඬ කර තිබුණත්, තීරණාත්මක ඇඟවීම් අගුළු තිරයේ පෙන්වා ශබ්දයක් වාදනය කෙරේ.",
+  "silentModeNotificationDescription": "Focus මාදිලිය ON කර තිබුණත් හෝ උපාංගය නිහඬ කර තිබුණත්, වැදගත් ඇඟවීම් අගුළු තිරයේ පෙන්වා ශබ්දයක් වාදනය කෙරේ.",
   "everyXDaysFormat": "සෑම දින {count}කට වරක්",
   "cycleDaysFormat": "දින {consecutiveDays}ක් ලබා ගන්න / දින {restDays}ක් විවේක ගන්න",
   "consecutiveDaysFormat": "දින {count}ක් ඖෂධ ගැනීම",

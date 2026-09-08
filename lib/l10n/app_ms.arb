@@ -69,7 +69,7 @@
   "enableFollowupNotification": "Dayakan pemberitahuan susulan",
   "followupNotificationDescription": "Jika pengambilan ubat tidak direkodkan dalam tempoh 30 minit selepas pemberitahuan pertama, pemberitahuan susulan akan dihantar.",
   "enableNotificationInSilentMode": "Hantar pemberitahuan walaupun dalam mod senyap",
-  "silentModeNotificationDescription": "Walaupun mod Fokus dihidupkan atau peranti diletakkan dalam mod senyap, makluman kritikal dipaparkan pada Skrin Kunci dan bunyi dimainkan.",
+  "silentModeNotificationDescription": "Walaupun mod Fokus HIDUP atau peranti diletakkan pada senyap, amaran kritikal dipaparkan pada Skrin Kunci dan bunyi dimainkan.",
   "everyXDaysFormat": "Setiap {count} hari",
   "cycleDaysFormat": "Ambil selama {consecutiveDays} hari / berhenti selama {restDays} hari",
   "consecutiveDaysFormat": "Pengambilan ubat selama {count} hari",

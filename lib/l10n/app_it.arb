@@ -69,7 +69,7 @@
   "enableFollowupNotification": "Abilita le notifiche di follow-up",
   "followupNotificationDescription": "Se l’assunzione del farmaco non viene registrata entro 30 minuti dalla prima notifica, verrà inviata una notifica di follow-up.",
   "enableNotificationInSilentMode": "Invia notifiche anche in modalità silenziosa",
-  "silentModeNotificationDescription": "Anche quando la modalità Full immersion è attiva o il dispositivo è silenzioso, gli avvisi critici vengono mostrati sulla schermata di blocco e riproducono un suono.",
+  "silentModeNotificationDescription": "Anche quando la modalità Full immersion è attiva o il dispositivo è silenzioso, gli avvisi critici vengono visualizzati sulla schermata di blocco e viene riprodotto un suono.",
   "everyXDaysFormat": "Ogni {count} giorni",
   "cycleDaysFormat": "Assumere per {consecutiveDays} giorni / fare una pausa di {restDays} giorni",
   "consecutiveDaysFormat": "Assunzione di farmaci per {count} giorni",

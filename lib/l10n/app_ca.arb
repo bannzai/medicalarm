@@ -69,7 +69,7 @@
   "enableFollowupNotification": "Activa les notificacions de seguiment",
   "followupNotificationDescription": "Si no es registra la presa del medicament en un termini de 30 minuts des de la primera notificació, s’enviarà una notificació de seguiment.",
   "enableNotificationInSilentMode": "Envia notificacions també en mode silenciós",
-  "silentModeNotificationDescription": "Fins i tot quan el mode de concentració està activat o el dispositiu està en silenci, les notificacions crítiques es mostren a la pantalla bloquejada i reprodueixen un so.",
+  "silentModeNotificationDescription": "Encara que el mode de concentració estigui activat o el dispositiu estigui en silenci, les notificacions crítiques es mostren a la pantalla bloquejada i es reprodueix un so.",
   "everyXDaysFormat": "Cada {count} dies",
   "cycleDaysFormat": "Prendre durant {consecutiveDays} dies / descansar {restDays} dies",
   "consecutiveDaysFormat": "Prendre la medicació durant {count} dies",

@@ -69,7 +69,7 @@
   "enableFollowupNotification": "Galluogi hysbysiadau dilynol",
   "followupNotificationDescription": "Os na chaiff cymryd y feddyginiaeth ei gofnodi o fewn 30 munud i’r hysbysiad cyntaf, anfonir hysbysiad dilynol.",
   "enableNotificationInSilentMode": "Anfon hysbysiadau hyd yn oed yn y modd tawel",
-  "silentModeNotificationDescription": "Hyd yn oed pan fo’r Modd Ffocws YMLAEN neu pan fo’r ddyfais yn dawel, caiff hysbysiadau critigol eu dangos ar y sgrin glo a chaiff sain ei chwarae.",
+  "silentModeNotificationDescription": "Hyd yn oed pan fo’r Modd Ffocws YMLAEN neu pan fo’r ddyfais yn dawel, caiff hysbysiadau critigol eu dangos ar y sgrin glo ac mae sain yn cael ei chwarae.",
   "everyXDaysFormat": "Bob {count} diwrnod",
   "cycleDaysFormat": "Cymryd am {consecutiveDays} diwrnod / seibiant o {restDays} diwrnod",
   "consecutiveDaysFormat": "Cymryd meddyginiaeth am {count} diwrnod",
