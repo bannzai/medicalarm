@@ -91,7 +91,7 @@
   "addMedicine": "Lisa ravim",
   "medicineMaxCount": "Saate registreerida kuni {count} ravimit.",
   "increaseMedicineLimitWithPremium": "Suurendage Premium-paketiga limiit {count}-ni",
-  "aboutApp": "Rakendusest",
+  "aboutApp": "Rakenduse kohta",
   "viewPremiumPlan": "Vaata premium plaani",
   "cancelSubscriptionInstruction": "Ostmisel saab automaatse uuenduse tühistada rakenduse {storeName} konto seadistustes. (Rakenduses ei saa automaatset uuendust tühistada).",
   "headache": "peavalu",

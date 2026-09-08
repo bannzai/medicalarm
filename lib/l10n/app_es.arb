@@ -91,7 +91,7 @@
   "addMedicine": "Añadir medicamento",
   "medicineMaxCount": "Puedes registrar hasta {count} medicamentos.",
   "increaseMedicineLimitWithPremium": "Aumenta el límite a {count} con el plan Premium",
-  "aboutApp": "Acerca de la aplicación",
+  "aboutApp": "Acerca de la app",
   "viewPremiumPlan": "Ver plan premium",
   "cancelSubscriptionInstruction": "Después de la compra, puedes cancelar la renovación automática en la configuración de la cuenta de la aplicación {storeName}. (No se puede cancelar la renovación automática desde dentro de la aplicación).",
   "headache": "dolor de cabeza",

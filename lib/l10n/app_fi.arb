@@ -91,7 +91,7 @@
   "addMedicine": "Lisää lääke",
   "medicineMaxCount": "Voit rekisteröidä enintään {count} lääkettä.",
   "increaseMedicineLimitWithPremium": "Nosta raja {count}:een Premium-tilauksella",
-  "aboutApp": "Tietoa sovelluksesta",
+  "aboutApp": "Tietoja sovelluksesta",
   "viewPremiumPlan": "Näytä premium-suunnitelma",
   "cancelSubscriptionInstruction": "Oston jälkeen voit peruuttaa automaattisen uusimisen {storeName}-sovelluksen tiliasetuksissa. (Sovelluksen sisäisestä automaattisen uusimisen peruutuksesta ei voi suorittaa).",
   "headache": "Päänsärky",

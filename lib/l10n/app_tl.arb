@@ -91,7 +91,7 @@
   "addMedicine": "Magdagdag ng gamot",
   "medicineMaxCount": "Maaari kang magrehistro ng hanggang {count} gamot.",
   "increaseMedicineLimitWithPremium": "Taasan ang limit sa {count} gamit ang Premium plan",
-  "aboutApp": "Tungkol sa App",
+  "aboutApp": "Tungkol sa app",
   "viewPremiumPlan": "Tumingin sa Premium Plan",
   "cancelSubscriptionInstruction": "Pagkatapos ng pagbili, ang pagkansela ng auto-renewal ay maaaring gawin sa mga setting ng account ng {storeName} na app. (Hindi maaring kanselahin ang auto-renewal mula sa loob ng app.)",
   "headache": "sakit ng ulo",

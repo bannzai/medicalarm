@@ -91,7 +91,7 @@
   "addMedicine": "Shto ilaç",
   "medicineMaxCount": "Mund të regjistroni deri në {count} ilaçe.",
   "increaseMedicineLimitWithPremium": "Rriteni kufirin në {count} me planin Premium",
-  "aboutApp": "Për Shkëmbimin e Aplikacionit",
+  "aboutApp": "Rreth aplikacionit",
   "viewPremiumPlan": "Shiko planin premium",
   "cancelSubscriptionInstruction": "Pas blerjes, mund të anullohet rinovimi automatik në cilësimet e llogarisë {storeName} brenda aplikacionit. (Rinovimi automatik nuk mund të anulohet nga brenda aplikacionit.)",
   "headache": "dhimbje koke",
