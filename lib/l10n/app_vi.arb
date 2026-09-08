@@ -38,7 +38,7 @@
   "specificWeekdays": "Các ngày cụ thể trong tuần",
   "cycle": "Chu kỳ",
   "cycleDescription": "Ví dụ: dùng trong 21 ngày / nghỉ 7 ngày",
-  "everyXDaysDescription": "Ví dụ: mỗi 2 ngày, mỗi 3 ngày",
+  "everyXDaysDescription": "VD: mỗi 2 ngày, mỗi 3 ngày",
   "specificWeekdaysDescription": "Ví dụ: chỉ vào thứ Hai, hoặc thứ Tư và thứ Sáu",
   "medicineFormValidationError": "Vui lòng nhập tên và lịch uống thuốc",
   "quantity": "Liều lượng",

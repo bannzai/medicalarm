@@ -38,7 +38,7 @@
   "specificWeekdays": "Ákveðnir dagar vikunnar",
   "cycle": "Lota",
   "cycleDescription": "T.d. taka í 21 dag / 7 daga hlé",
-  "everyXDaysDescription": "Dæmi: á 2 daga fresti, á 3 daga fresti",
+  "everyXDaysDescription": "T.d. á 2 daga fresti, á 3 daga fresti",
   "specificWeekdaysDescription": "T.d. aðeins á mánudögum, eða á miðvikudögum og föstudögum",
   "medicineFormValidationError": "Sláðu inn heiti og lyfjatökuáætlun",
   "quantity": "Magn",

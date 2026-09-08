@@ -38,7 +38,7 @@
   "specificWeekdays": "Belirli haftanın günleri",
   "cycle": "Döngü",
   "cycleDescription": "Örn. 21 gün kullan / 7 gün ara ver",
-  "everyXDaysDescription": "Örn.: 2 günde bir, 3 günde bir",
+  "everyXDaysDescription": "Örn. 2 günde bir, 3 günde bir",
   "specificWeekdaysDescription": "Örn. yalnızca pazartesi veya çarşamba ve cuma günleri",
   "medicineFormValidationError": "Adı ve kullanım programını girin",
   "quantity": "Miktar",

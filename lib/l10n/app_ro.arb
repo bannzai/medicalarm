@@ -38,7 +38,7 @@
   "specificWeekdays": "Anumite zile ale săptămânii",
   "cycle": "Ciclu",
   "cycleDescription": "De ex., administrare timp de 21 de zile / pauză de 7 zile",
-  "everyXDaysDescription": "Ex.: la fiecare 2 zile, la fiecare 3 zile",
+  "everyXDaysDescription": "De ex., la fiecare 2 zile, la fiecare 3 zile",
   "specificWeekdaysDescription": "De ex., doar lunea sau miercurea și vinerea",
   "medicineFormValidationError": "Introduceți numele și programul de administrare",
   "quantity": "Cantitate",

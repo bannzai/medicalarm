@@ -38,7 +38,7 @@
   "specificWeekdays": "నిర్దిష్ట వారపు రోజులు",
   "cycle": "చక్రం",
   "cycleDescription": "ఉదా: 21 రోజులు తీసుకోవాలి / 7 రోజుల విరామం",
-  "everyXDaysDescription": "ఉదా: ప్రతి 2 రోజులకు, ప్రతి 3 రోజులకు",
+  "everyXDaysDescription": "ఉదా., ప్రతి 2 రోజులకు ఒకసారి, ప్రతి 3 రోజులకు ఒకసారి",
   "specificWeekdaysDescription": "ఉదా., సోమవారం మాత్రమే, లేదా బుధవారం మరియు శుక్రవారం",
   "medicineFormValidationError": "పేరు మరియు మందు తీసుకునే షెడ్యూల్‌ను నమోదు చేయండి",
   "quantity": "మోతాదు",

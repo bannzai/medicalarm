@@ -38,7 +38,7 @@
   "specificWeekdays": "Meghatározott hétköznapok",
   "cycle": "Ciklus",
   "cycleDescription": "Pl. 21 napig szedni / 7 nap szünet",
-  "everyXDaysDescription": "Pl.: 2 naponta, 3 naponta",
+  "everyXDaysDescription": "Pl. 2 naponta, 3 naponta",
   "specificWeekdaysDescription": "Pl. csak hétfőn, illetve szerdán és pénteken",
   "medicineFormValidationError": "Adja meg a nevet és a szedési ütemezést",
   "quantity": "Mennyiség",

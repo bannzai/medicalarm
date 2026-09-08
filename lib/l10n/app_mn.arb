@@ -38,7 +38,7 @@
   "specificWeekdays": "Долоо хоногийн тодорхой өдрүүд",
   "cycle": "Цикл",
   "cycleDescription": "Жишээ нь: 21 хоног уух / 7 хоног завсарлах",
-  "everyXDaysDescription": "Жишээ: 2 хоног тутам, 3 хоног тутам",
+  "everyXDaysDescription": "Жишээ нь: 2 өдөр тутамд, 3 өдөр тутамд",
   "specificWeekdaysDescription": "Жишээ нь: зөвхөн даваа гарагт, эсвэл лхагва, баасан гарагт",
   "medicineFormValidationError": "Нэр болон хэрэглэх хуваарийг оруулна уу",
   "quantity": "Тоо хэмжээ",

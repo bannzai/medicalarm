@@ -38,7 +38,7 @@
   "specificWeekdays": "Asteko egun zehatzak",
   "cycle": "Zikloa",
   "cycleDescription": "Adib.: 21 egunez hartu / 7 eguneko atsedenaldia",
-  "everyXDaysDescription": "Adib.: 2 egunetik behin, 3 egunetik behin",
+  "everyXDaysDescription": "Adib.: 2 egunean behin, 3 egunean behin",
   "specificWeekdaysDescription": "Adib.: astelehenetan bakarrik, edo asteazken eta ostiraletan",
   "medicineFormValidationError": "Sartu izena eta hartzeko ordutegia",
   "quantity": "Kopurua",

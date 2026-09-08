@@ -38,7 +38,7 @@
   "specificWeekdays": "วันในสัปดาห์ที่กำหนด",
   "cycle": "รอบ",
   "cycleDescription": "เช่น รับประทาน 21 วัน / หยุดยา 7 วัน",
-  "everyXDaysDescription": "เช่น: ทุก 2 วัน, ทุก 3 วัน",
+  "everyXDaysDescription": "เช่น ทุก 2 วัน, ทุก 3 วัน",
   "specificWeekdaysDescription": "เช่น เฉพาะวันจันทร์ หรือวันพุธและวันศุกร์",
   "medicineFormValidationError": "กรุณากรอกชื่อและตารางการรับประทานยา",
   "quantity": "ปริมาณ",
