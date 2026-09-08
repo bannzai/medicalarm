@@ -47,7 +47,7 @@
   "otherInformation": "Kita",
   "doseReceiver": "Vaistų vartotojas",
   "defaultDoseReceiver": "Aš",
-  "doseReceiverMaxCount": "Registruojamas iki {count} vartotojų",
+  "doseReceiverMaxCount": "Galite užregistruoti iki {count} vaistus vartojančių asmenų",
   "increaseLimitWithPremium": "Papildomame premium plano riba iki {count}",
   "addDoseReceiver": "Pridėti vartotoją",
   "newDoseReceiver": "Naujas vartotojas",

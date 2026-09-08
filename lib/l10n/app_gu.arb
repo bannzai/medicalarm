@@ -47,7 +47,7 @@
   "otherInformation": "અન્ય",
   "doseReceiver": "દવા લેનાર",
   "defaultDoseReceiver": "હું",
-  "doseReceiverMaxCount": "એક વખતમાં મહત્તમ {count} દવાની વાપરનારાઓનો નોંધણી કરી શકાય છે",
+  "doseReceiverMaxCount": "તમે વધુમાં વધુ {count} દવા લેનાર વ્યક્તિઓની નોંધણી કરી શકો છો",
   "increaseLimitWithPremium": "પ્રીમિયમ યોજના સાથે મર્યાદા વધારીને {count} બનાવો",
   "addDoseReceiver": "દવા લેવાના વ્યક્તિને ઉમેરો",
   "newDoseReceiver": "નવો દવાની વપરાશકર્તા",

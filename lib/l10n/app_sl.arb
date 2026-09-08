@@ -47,7 +47,7 @@
   "otherInformation": "Drugo",
   "doseReceiver": "Oseba, ki jemlje zdravilo",
   "defaultDoseReceiver": "Jaz",
-  "doseReceiverMaxCount": "Število uporabnikov, ki jih je mogoče registrirati, je največ {count}.",
+  "doseReceiverMaxCount": "Registrirate lahko največ {count} oseb, ki jemljejo zdravila",
   "increaseLimitWithPremium": "Povečajte omejitev na {count} s premium načrtom",
   "addDoseReceiver": "Dodaj uporabnika",
   "newDoseReceiver": "Nov uporabnik",

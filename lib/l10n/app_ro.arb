@@ -47,7 +47,7 @@
   "otherInformation": "Altele",
   "doseReceiver": "Persoana care ia medicamentul",
   "defaultDoseReceiver": "Eu",
-  "doseReceiverMaxCount": "Numărul maxim de utilizatori care pot fi înregistrați este {count}.",
+  "doseReceiverMaxCount": "Puteți înregistra până la {count} persoane care iau medicamente",
   "increaseLimitWithPremium": "Crește limita la {count} cu planul premium",
   "addDoseReceiver": "Adaugă utilizator",
   "newDoseReceiver": "Utilizator nou",

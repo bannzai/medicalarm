@@ -47,7 +47,7 @@
   "otherInformation": "Інше",
   "doseReceiver": "Особа, яка приймає ліки",
   "defaultDoseReceiver": "Я",
-  "doseReceiverMaxCount": "Up to {count} users can be registered.",
+  "doseReceiverMaxCount": "Ви можете зареєструвати до {count} людей, які приймають ліки",
   "increaseLimitWithPremium": "Increase the limit to {count} with the premium plan",
   "addDoseReceiver": "Add Medication User",
   "newDoseReceiver": "New User",

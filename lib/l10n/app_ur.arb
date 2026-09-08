@@ -47,7 +47,7 @@
   "otherInformation": "دیگر",
   "doseReceiver": "دوا لینے والا",
   "defaultDoseReceiver": "میں",
-  "doseReceiverMaxCount": "مریضوں کی زیادہ سے زیادہ {count} تعداد میں رجسٹریشن کی جاسکتی ہے",
+  "doseReceiverMaxCount": "آپ زیادہ سے زیادہ {count} دوا لینے والے افراد کو رجسٹر کر سکتے ہیں",
   "increaseLimitWithPremium": "پریمیئم پلان کے ذریعے حد کو {count} تک بڑھائیں",
   "addDoseReceiver": "مریض کو شامل کریں",
   "newDoseReceiver": "نیا مریض",

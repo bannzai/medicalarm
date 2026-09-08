@@ -47,7 +47,7 @@
   "otherInformation": "Outros",
   "doseReceiver": "Persoa que toma o medicamento",
   "defaultDoseReceiver": "Eu",
-  "doseReceiverMaxCount": "Pódense rexistrar até {count} persoas que tomen medicación.",
+  "doseReceiverMaxCount": "Podes rexistrar ata {count} persoas que toman medicamentos",
   "increaseLimitWithPremium": "Aumentar o límite a {count} co plan premium",
   "addDoseReceiver": "Engadir un usuario de medicación",
   "newDoseReceiver": "Novo/a tomador/a",

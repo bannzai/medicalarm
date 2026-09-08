@@ -47,7 +47,7 @@
   "otherInformation": "Bestelakoak",
   "doseReceiver": "Botika hartzailea",
   "defaultDoseReceiver": "Ni",
-  "doseReceiverMaxCount": "Medikazioa egiten duten pertsonak {count} pertsona arte zaitezke erregistratu.",
+  "doseReceiverMaxCount": "Gehienez {count} botika-erabiltzaile erregistra ditzakezu",
   "increaseLimitWithPremium": "Premium planarekin muga {count}ra igo",
   "addDoseReceiver": "Hartzailera gehitu",
   "newDoseReceiver": "Eguneroko erabiltzailea",

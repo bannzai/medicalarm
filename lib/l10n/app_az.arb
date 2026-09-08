@@ -47,7 +47,7 @@
   "otherInformation": "Digər",
   "doseReceiver": "Dərman qəbul edən şəxs",
   "defaultDoseReceiver": "Özüm",
-  "doseReceiverMaxCount": "İstifadəçilər maksimum {count} nəfər qeyd edə bilərlər.",
+  "doseReceiverMaxCount": "Maksimum {count} dərman istifadəçisi qeydiyyatdan keçirilə bilər",
   "increaseLimitWithPremium": "Premium plan ilə məhdudiyyəti {count}-ə artırmaq",
   "addDoseReceiver": "İstifadəçi əlavə et",
   "newDoseReceiver": "Yeni istifadəçi",

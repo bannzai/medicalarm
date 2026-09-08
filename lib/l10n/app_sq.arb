@@ -47,7 +47,7 @@
   "otherInformation": "Të tjera",
   "doseReceiver": "Personi që merr ilaçin",
   "defaultDoseReceiver": "Unë",
-  "doseReceiverMaxCount": "Numri maksimal i përdoruesve të regjistruar është {count} persona.",
+  "doseReceiverMaxCount": "Mund të regjistroni deri në {count} persona që marrin ilaçe",
   "increaseLimitWithPremium": "Rritni kufirin në {count} me planin premium",
   "addDoseReceiver": "Shto përdoruesin e barnave",
   "newDoseReceiver": "Përdorues i ri",

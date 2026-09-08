@@ -47,7 +47,7 @@
   "otherInformation": "سایر",
   "doseReceiver": "مصرف‌کننده دارو",
   "defaultDoseReceiver": "خودم",
-  "doseReceiverMaxCount": "تعداد مصرف کنندگان می تواند تا {count} نفر ثبت نام شود.",
+  "doseReceiverMaxCount": "می‌توانید حداکثر {count} مصرف‌کننده دارو را ثبت کنید",
   "increaseLimitWithPremium": "با طرح پریمیوم ، حداکثر را به {count} افزایش دهید.",
   "addDoseReceiver": "افزودن مصرف کننده",
   "newDoseReceiver": "مستخدم جدید",

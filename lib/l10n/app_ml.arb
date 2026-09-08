@@ -47,7 +47,7 @@
   "otherInformation": "മറ്റുള്ളവ",
   "doseReceiver": "മരുന്ന് കഴിക്കുന്നയാൾ",
   "defaultDoseReceiver": "ഞാൻ",
-  "doseReceiverMaxCount": "എല്ലാ മരുന്നുപയോഗിക്കവർക്കും {count} ആളുകളെ വരെ രജിസ്റ്റർ ചെയ്തത് സാധ്യമാണ്",
+  "doseReceiverMaxCount": "പരമാവധി {count} മരുന്ന് കഴിക്കുന്നവരെ രജിസ്റ്റർ ചെയ്യാം",
   "increaseLimitWithPremium": "പ്രീമിയം പ്ലാനില്‍ പരിധിയെ {count} ആക്കുന്നു",
   "addDoseReceiver": "വൈദ്യുതി ഉപയോഗരുടെ കൂടി ചേർക്കുക",
   "newDoseReceiver": "പുതിയ മരുന്ന് ഉപയോഗിച്ചത്",

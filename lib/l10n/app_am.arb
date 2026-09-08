@@ -47,7 +47,7 @@
   "otherInformation": "ሌላ",
   "doseReceiver": "መድኃኒት ተጠቃሚ",
   "defaultDoseReceiver": "ራሴ",
-  "doseReceiverMaxCount": "እንደ ተመለከተ ታዋቂ {count} ሰዎች ወይም ወይም ወይም ወይም ወይም ወይም ወይም.",
+  "doseReceiverMaxCount": "እስከ {count} መድኃኒት ተጠቃሚዎችን መመዝገብ ይችላሉ",
   "increaseLimitWithPremium": "ከፕሪሚየም እቅፍ ጋር ወደ አንድ አዋቂ {count} ይጨምር",
   "addDoseReceiver": "መድረሻን አክል",
   "newDoseReceiver": "አዲስ የመውለድ ተጠቃሚ",

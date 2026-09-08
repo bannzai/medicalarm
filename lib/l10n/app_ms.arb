@@ -47,7 +47,7 @@
   "otherInformation": "Lain-lain",
   "doseReceiver": "Orang yang mengambil ubat",
   "defaultDoseReceiver": "Saya",
-  "doseReceiverMaxCount": "Pengguna boleh mendaftar sehingga {count} orang",
+  "doseReceiverMaxCount": "Anda boleh mendaftarkan sehingga {count} orang yang mengambil ubat",
   "increaseLimitWithPremium": "Tingkatkan had kepada {count} dengan pelan premium",
   "addDoseReceiver": "Tambah Pengguna",
   "newDoseReceiver": "Pengguna baru",

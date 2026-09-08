@@ -47,7 +47,7 @@
   "otherInformation": "Lainnya",
   "doseReceiver": "Orang yang minum obat",
   "defaultDoseReceiver": "Saya",
-  "doseReceiverMaxCount": "Pengguna dapat mendaftar hingga {count} orang.",
+  "doseReceiverMaxCount": "Anda dapat mendaftarkan hingga {count} orang yang minum obat",
   "increaseLimitWithPremium": "Tingkatkan batas menjadi {count} dengan rencana premium",
   "addDoseReceiver": "Tambahkan pengambil obat",
   "newDoseReceiver": "Pengguna baru",

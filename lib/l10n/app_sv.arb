@@ -47,7 +47,7 @@
   "otherInformation": "Övrigt",
   "doseReceiver": "Medicinanvändare",
   "defaultDoseReceiver": "Jag själv",
-  "doseReceiverMaxCount": "Användare kan registrera upp till {count} personer.",
+  "doseReceiverMaxCount": "Du kan registrera upp till {count} personer som tar läkemedel",
   "increaseLimitWithPremium": "Öka gränsen till {count} med premiumplanen",
   "addDoseReceiver": "Lägg till användare",
   "newDoseReceiver": "Ny användare",

@@ -47,7 +47,7 @@
   "otherInformation": "ఇతరాలు",
   "doseReceiver": "మందు తీసుకునే వ్యక్తి",
   "defaultDoseReceiver": "నేను",
-  "doseReceiverMaxCount": "ఓవరు పుష్కలంగా {count} మందిని నమోదు చేయవచ్చు.",
+  "doseReceiverMaxCount": "మీరు గరిష్ఠంగా {count} మంది మందులు తీసుకునే వ్యక్తులను నమోదు చేయవచ్చు",
   "increaseLimitWithPremium": "ప్రీమియం ప్రణాళికతో పరిమితిని {count} కు పెంచండి",
   "addDoseReceiver": "సేవనం సమర్పకుడిని చేర్చండి",
   "newDoseReceiver": "కొత్త ఉపయోగం",

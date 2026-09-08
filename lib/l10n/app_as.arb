@@ -47,7 +47,7 @@
   "otherInformation": "অন্যান্য",
   "doseReceiver": "ঔষধ গ্ৰহণকাৰী",
   "defaultDoseReceiver": "মই নিজে",
-  "doseReceiverMaxCount": "ঔষধ গ্রহণকারী সর্বাধিক {count} জন পর্যন্ত নিবন্ধিত হতে পারে।",
+  "doseReceiverMaxCount": "সৰ্বাধিক {count} জন ঔষধ গ্ৰহণকাৰী পঞ্জীয়ন কৰিব পাৰিব",
   "increaseLimitWithPremium": "প्रीमিয়াম প্ল্যানে সীমা {count} পর্যন্ত বাড়ান",
   "addDoseReceiver": "পৰা অধিকাৰী যোগ কৰক",
   "newDoseReceiver": "নতুন ব্যবহারকারী",

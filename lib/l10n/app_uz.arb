@@ -47,7 +47,7 @@
   "otherInformation": "Boshqa",
   "doseReceiver": "Dori qabul qiluvchi",
   "defaultDoseReceiver": "O‘zim",
-  "doseReceiverMaxCount": "Doriqchilar soni eng ko'p {count} kishiga ro'yxatdan o'tkazilishi mumkin.",
+  "doseReceiverMaxCount": "Ko‘pi bilan {count} nafar dori qabul qiluvchi shaxsni ro‘yxatdan o‘tkazishingiz mumkin",
   "increaseLimitWithPremium": "Premium reja bilan cheklovni {count} ga oshirish",
   "addDoseReceiver": "Qabul qiluvchi qo'shish",
   "newDoseReceiver": "Yangi qabul qiluvchi",

@@ -47,7 +47,7 @@
   "otherInformation": "အခြား",
   "doseReceiver": "ဆေးသောက်သူ",
   "defaultDoseReceiver": "မိမိ",
-  "doseReceiverMaxCount": "Pengguna boleh mendaftar sehingga {count} orang.",
+  "doseReceiverMaxCount": "ဆေးသောက်သူ အများဆုံး {count} ဦးအထိ မှတ်ပုံတင်နိုင်သည်",
   "increaseLimitWithPremium": "Meningkatkan had kepada {count} dengan pelan premium",
   "addDoseReceiver": "Tambah Pengguna",
   "newDoseReceiver": "Pengguna baru",

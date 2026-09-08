@@ -47,7 +47,7 @@
   "otherInformation": "Annet",
   "doseReceiver": "Medisinbruker",
   "defaultDoseReceiver": "Meg selv",
-  "doseReceiverMaxCount": "Det kan registreres opptil {count} personer som bruker appen.",
+  "doseReceiverMaxCount": "Du kan registrere opptil {count} personer som tar medisiner",
   "increaseLimitWithPremium": "Øk grensen til {count} med premiumplanen",
   "addDoseReceiver": "Legemiddelforbruker",
   "newDoseReceiver": "Ny bruker",

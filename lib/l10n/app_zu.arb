@@ -47,7 +47,7 @@
   "otherInformation": "Okunye",
   "doseReceiver": "Umuntu ophuza umuthi",
   "defaultDoseReceiver": "Mina",
-  "doseReceiverMaxCount": "Abasebenzisi bangabhalisela abantu abangama{count} kuphela.",
+  "doseReceiverMaxCount": "Ungabhalisa abantu abafinyelela kwabangu-{count} abasebenzisa imithi",
   "increaseLimitWithPremium": "Phakela phezulu ku-premium plan ukuze wandise umkhawulo u-{count}",
   "addDoseReceiver": "Faka umsebenzisi",
   "newDoseReceiver": "Umsebenzisi omusha",

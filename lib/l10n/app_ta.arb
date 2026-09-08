@@ -47,7 +47,7 @@
   "otherInformation": "மற்றவை",
   "doseReceiver": "மருந்து உட்கொள்பவர்",
   "defaultDoseReceiver": "நான்",
-  "doseReceiverMaxCount": "உள்ளதுடன் {count} பேர் வரை பதிவு செய்யலாம்",
+  "doseReceiverMaxCount": "அதிகபட்சம் {count} மருந்து உட்கொள்ளும் நபர்களைப் பதிவு செய்யலாம்",
   "increaseLimitWithPremium": "பிரீமியம் திட்டத்தில் வரம்பினை {count} க்கு அதிகரிக்க",
   "addDoseReceiver": "திரவியக்கரமானவை சேர்க்கவும்",
   "newDoseReceiver": "புதிய மாத்திரை எடுத்தவர்",

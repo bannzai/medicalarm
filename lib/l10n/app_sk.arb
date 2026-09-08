@@ -47,7 +47,7 @@
   "otherInformation": "Ďalšie",
   "doseReceiver": "Užívateľ lieku",
   "defaultDoseReceiver": "Ja",
-  "doseReceiverMaxCount": "Maximálne {count} používateľov môže byť registrovaných",
+  "doseReceiverMaxCount": "Môžete zaregistrovať najviac {count} osôb užívajúcich lieky",
   "increaseLimitWithPremium": "Zvýšte limit na {count} s prémiovým plánom",
   "addDoseReceiver": "Pridať užívateľa",
   "newDoseReceiver": "Nový užívateľ",

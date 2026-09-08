@@ -47,7 +47,7 @@
   "otherInformation": "Andet",
   "doseReceiver": "Medicinbruger",
   "defaultDoseReceiver": "Mig selv",
-  "doseReceiverMaxCount": "Der kan registreres op til {count} personer som indtagere.",
+  "doseReceiverMaxCount": "Du kan registrere op til {count} personer, der tager medicin",
   "increaseLimitWithPremium": "Øg grænsen til {count} med premiumplanen",
   "addDoseReceiver": "Tilføj indtager",
   "newDoseReceiver": "Ny bruger",

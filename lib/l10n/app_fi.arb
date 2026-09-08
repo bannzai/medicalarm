@@ -47,7 +47,7 @@
   "otherInformation": "Muut",
   "doseReceiver": "Lääkkeen käyttäjä",
   "defaultDoseReceiver": "Minä",
-  "doseReceiverMaxCount": "Käyttäjiä voi rekisteröidä enimmillään {count} henkilöä",
+  "doseReceiverMaxCount": "Voit rekisteröidä enintään {count} lääkkeiden käyttäjää",
   "increaseLimitWithPremium": "Lisäät ylärajaa {count} premium-suunnitelmassa.",
   "addDoseReceiver": "Lisää käytön käyttäjä",
   "newDoseReceiver": "Uusi käyttäjä",

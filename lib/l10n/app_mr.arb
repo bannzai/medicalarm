@@ -47,7 +47,7 @@
   "otherInformation": "इतर",
   "doseReceiver": "औषध घेणारी व्यक्ती",
   "defaultDoseReceiver": "मी",
-  "doseReceiverMaxCount": "औषधि घेणाऱ्यांची नोंदणी करण्यात जास्तीत जास्त {count} व्यक्ती करता येऊ शकतात.",
+  "doseReceiverMaxCount": "तुम्ही जास्तीत जास्त {count} औषध घेणाऱ्या व्यक्तींची नोंदणी करू शकता",
   "increaseLimitWithPremium": "प्रीमियम योजनामध्ये मर्यादा {count} पर्यंत वाढवा",
   "addDoseReceiver": "उपयोगकर्ता जोडा",
   "newDoseReceiver": "नवीन येणारे",

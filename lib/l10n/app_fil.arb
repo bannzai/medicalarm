@@ -47,7 +47,7 @@
   "otherInformation": "Iba pa",
   "doseReceiver": "Umiinom ng gamot",
   "defaultDoseReceiver": "Ako",
-  "doseReceiverMaxCount": "Maaari kang magrehistro ng hanggang {count} na mga gumagamit.",
+  "doseReceiverMaxCount": "Maaari kang magparehistro ng hanggang {count} taong umiinom ng gamot",
   "increaseLimitWithPremium": "Dagdagan ang limit sa premium na plano hanggang {count}.",
   "addDoseReceiver": "Magdagdag ng umiinom",
   "newDoseReceiver": "Bagong umiinom",

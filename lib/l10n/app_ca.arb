@@ -47,7 +47,7 @@
   "otherInformation": "Altres",
   "doseReceiver": "Persona que pren el medicament",
   "defaultDoseReceiver": "Jo",
-  "doseReceiverMaxCount": "Es poden registrar fins a {count} usuaris.",
+  "doseReceiverMaxCount": "Pots registrar fins a {count} persones que prenen medicaments",
   "increaseLimitWithPremium": "Augmenta el límit a {count} amb el pla premium",
   "addDoseReceiver": "Afegir un pacient",
   "newDoseReceiver": "Nou usuari",

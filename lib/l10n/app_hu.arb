@@ -47,7 +47,7 @@
   "otherInformation": "Egyéb",
   "doseReceiver": "Gyógyszerszedő",
   "defaultDoseReceiver": "Én",
-  "doseReceiverMaxCount": "A felhasználók maximálisan {count} főig regisztrálhatók.",
+  "doseReceiverMaxCount": "Legfeljebb {count} gyógyszerszedő személyt regisztrálhat",
   "increaseLimitWithPremium": "Növelje a korlátot {count} prémium tervvel",
   "addDoseReceiver": "Felhasználó hozzáadása",
   "newDoseReceiver": "Új szedő",

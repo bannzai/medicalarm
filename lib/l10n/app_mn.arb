@@ -47,7 +47,7 @@
   "otherInformation": "Бусад",
   "doseReceiver": "Эм ууж буй хүн",
   "defaultDoseReceiver": "Би",
-  "doseReceiverMaxCount": "Эмнэлгийн эмийг хэрэглэгчдийн тоо {count}-аас ихгүй байж болно",
+  "doseReceiverMaxCount": "Та эм уудаг дээд тал нь {count} хүнийг бүртгэх боломжтой",
   "increaseLimitWithPremium": "Танилцуулж буй Premium төлөвлөгөөнд хязгаарыг {count} болгоно.",
   "addDoseReceiver": "Эмчилгээний хэрэглэгч нэмэх",
   "newDoseReceiver": "Шинэ хэрэглэгч",

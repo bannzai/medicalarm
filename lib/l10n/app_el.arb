@@ -47,7 +47,7 @@
   "otherInformation": "Άλλο",
   "doseReceiver": "Λήπτης φαρμάκου",
   "defaultDoseReceiver": "Εγώ",
-  "doseReceiverMaxCount": "Μπορούν να εγγραφούν έως {count} άτομα.",
+  "doseReceiverMaxCount": "Μπορείτε να καταχωρίσετε έως {count} άτομα που λαμβάνουν φάρμακα",
   "increaseLimitWithPremium": "Αυξήστε το όριο σε {count} με το πρόγραμμα Premium.",
   "addDoseReceiver": "Προσθήκη λήπτη",
   "newDoseReceiver": "Νέος χρήστης",

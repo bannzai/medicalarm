@@ -47,7 +47,7 @@
   "otherInformation": "Muu",
   "doseReceiver": "Ravimi võtja",
   "defaultDoseReceiver": "Mina",
-  "doseReceiverMaxCount": "Kasutajad võivad registreerida kuni {count} inimest",
+  "doseReceiverMaxCount": "Saate registreerida kuni {count} ravimikasutajat",
   "increaseLimitWithPremium": "Suurenda piirmäära {count} premium plaaniga",
   "addDoseReceiver": "Lisa kasutaja",
   "newDoseReceiver": "Uus kasutaja",

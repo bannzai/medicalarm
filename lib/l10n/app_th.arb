@@ -47,7 +47,7 @@
   "otherInformation": "อื่นๆ",
   "doseReceiver": "ผู้รับประทานยา",
   "defaultDoseReceiver": "ฉันเอง",
-  "doseReceiverMaxCount": "ผู้ใช้สามารถลงทะเบียนได้สูงสุด {count} คน",
+  "doseReceiverMaxCount": "คุณสามารถลงทะเบียนผู้รับประทานยาได้สูงสุด {count} คน",
   "increaseLimitWithPremium": "เพิ่มขีดจำกัดเป็น {count} ในแผนพรีเมียม",
   "addDoseReceiver": "เพิ่มผู้ใช้",
   "newDoseReceiver": "ผู้ใช้ใหม่",

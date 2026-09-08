@@ -47,7 +47,7 @@
   "otherInformation": "기타",
   "doseReceiver": "복용자",
   "defaultDoseReceiver": "본인",
-  "doseReceiverMaxCount": "복용자는 최대 {count}명까지 등록할 수 있습니다.",
+  "doseReceiverMaxCount": "최대 {count}명의 복약자를 등록할 수 있습니다",
   "increaseLimitWithPremium": "프리미엄 플랜으로 한도를 {count}로 늘리기",
   "addDoseReceiver": "복용자를 추가",
   "newDoseReceiver": "새로운 복용자",

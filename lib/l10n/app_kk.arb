@@ -47,7 +47,7 @@
   "otherInformation": "Басқа",
   "doseReceiver": "Дәрі қабылдаушы",
   "defaultDoseReceiver": "Өзім",
-  "doseReceiverMaxCount": "Науқастарды тіркеуге максимум {count} адам қабылданады.",
+  "doseReceiverMaxCount": "Ең көбі {count} дәрі қабылдайтын адамды тіркей аласыз",
   "increaseLimitWithPremium": "Премиум жоспармен шекті {count} дейін ұлғайтыңыз",
   "addDoseReceiver": "Пациентті қосу",
   "newDoseReceiver": "Жаңа препаратты қабылдаушы",

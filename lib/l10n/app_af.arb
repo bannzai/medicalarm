@@ -47,7 +47,7 @@
   "otherInformation": "Ander",
   "doseReceiver": "Medikasieneemer",
   "defaultDoseReceiver": "Ekself",
-  "doseReceiverMaxCount": "Diegene wat medikasie neem kan tot {count} persone geregistreer word.",
+  "doseReceiverMaxCount": "U kan tot {count} medikasiegebruikers registreer",
   "increaseLimitWithPremium": "Verhoog die limiet tot {count} met die premiumplan.",
   "addDoseReceiver": "Voeg gebruiker by",
   "newDoseReceiver": "Nuwe gebruiker",

@@ -47,7 +47,7 @@
   "otherInformation": "Autres",
   "doseReceiver": "Personne prenant le médicament",
   "defaultDoseReceiver": "Moi-même",
-  "doseReceiverMaxCount": "Le nombre maximum d'utilisateurs pouvant être enregistrés est de {count}.",
+  "doseReceiverMaxCount": "Vous pouvez enregistrer jusqu’à {count} personnes prenant des médicaments",
   "increaseLimitWithPremium": "Augmentez votre limite à {count} avec le plan premium.",
   "addDoseReceiver": "Ajouter un utilisateur",
   "newDoseReceiver": "Nouveau patient",

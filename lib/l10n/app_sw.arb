@@ -47,7 +47,7 @@
   "otherInformation": "Nyingine",
   "doseReceiver": "Mtumiaji wa dawa",
   "defaultDoseReceiver": "Mimi mwenyewe",
-  "doseReceiverMaxCount": "Waweza kujiandikisha hadi watu {count} katika matumizi ya dawa.",
+  "doseReceiverMaxCount": "Unaweza kusajili hadi {count} watu wanaotumia dawa",
   "increaseLimitWithPremium": "Pandua ya Premium inaongeza kikomo hadi {count}",
   "addDoseReceiver": "Ongeza mtumiaji wa dawa",
   "newDoseReceiver": "Mtu mpya wa kutumia dawa",

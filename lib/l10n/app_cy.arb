@@ -47,7 +47,7 @@
   "otherInformation": "Arall",
   "doseReceiver": "Person sy'n cymryd y feddyginiaeth",
   "defaultDoseReceiver": "Fi",
-  "doseReceiverMaxCount": "Gallir cofrestredig hyd at {count} o ddefnyddwyr.",
+  "doseReceiverMaxCount": "Gallwch gofrestru hyd at {count} o bobl sy’n cymryd meddyginiaeth",
   "increaseLimitWithPremium": "Cynyddu'r terfyn i {count} gyda'r cynllun premiwm",
   "addDoseReceiver": "Ychwanegwch y defnyddiwr",
   "newDoseReceiver": "Defnyddiwr newydd",

@@ -47,7 +47,7 @@
   "otherInformation": "Khác",
   "doseReceiver": "Người dùng thuốc",
   "defaultDoseReceiver": "Tôi",
-  "doseReceiverMaxCount": "Người dùng có thể đăng ký tối đa {count} người.",
+  "doseReceiverMaxCount": "Bạn có thể đăng ký tối đa {count} người dùng thuốc",
   "increaseLimitWithPremium": "Tăng giới hạn lên {count} với gói Premium",
   "addDoseReceiver": "Thêm người dùng",
   "newDoseReceiver": "Người dùng mới",

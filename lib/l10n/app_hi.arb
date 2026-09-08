@@ -47,7 +47,7 @@
   "otherInformation": "अन्य",
   "doseReceiver": "दवा लेने वाला",
   "defaultDoseReceiver": "मैं",
-  "doseReceiverMaxCount": "रोगियों की अधिकतम {count} संख्या तक पंजीकृत हो सकते हैं",
+  "doseReceiverMaxCount": "आप अधिकतम {count} दवा लेने वाले लोगों को पंजीकृत कर सकते हैं",
   "increaseLimitWithPremium": "प्रीमियम योजना के तहत सीमा को {count} तक बढ़ाना",
   "addDoseReceiver": "उपयोगकर्ता जोड़ें",
   "newDoseReceiver": "नई दवा लेने वाला",
