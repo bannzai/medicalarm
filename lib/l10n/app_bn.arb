@@ -145,7 +145,7 @@
   "medicationTimeFollowup": "ওষুধ খাওয়ার সময়ের ফলো-আপ",
   "updateRequired": "আপডেট প্রয়োজন",
   "updateRequiredMessage": "অনুগ্রহ করে {storeName} থেকে সর্বশেষ সংস্করণে আপডেট করুন",
-  "screenshotMedicationHistoriesMemo": "বেশি সময় দুপুরে ঘুমিয়ে পড়ায় ওষুধ খেতে দেরি হয়েছে।",
+  "screenshotMedicationHistoriesMemo": "বেশি সময় দুপুরের ঘুম দেওয়ায় ওষুধ খেতে দেরি হয়েছে",
   "screenshotMedicationDoserReceiver1": "আমি নিজে",
   "screenshotMedicationDoserReceiver2": "Mana",
   "screenshotMedicationQuontityMemo1": "১টি ট্যাবলেট",

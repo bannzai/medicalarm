@@ -145,7 +145,7 @@
   "medicationTimeFollowup": "Oppfølging av medisineringstidspunkt",
   "updateRequired": "Oppdatering kreves",
   "updateRequiredMessage": "Oppdater til den nyeste versjonen fra {storeName}",
-  "screenshotMedicationHistoriesMemo": "Jeg tok medisinen senere fordi jeg sov for lenge på ettermiddagen.",
+  "screenshotMedicationHistoriesMemo": "Jeg tok medisinen for sent fordi jeg sov for lenge på ettermiddagen",
   "screenshotMedicationDoserReceiver1": "Meg selv",
   "screenshotMedicationDoserReceiver2": "Mana",
   "screenshotMedicationQuontityMemo1": "1 tablett",

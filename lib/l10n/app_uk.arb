@@ -145,7 +145,7 @@
   "medicationTimeFollowup": "Контроль часу прийому ліків",
   "updateRequired": "Потрібне оновлення",
   "updateRequiredMessage": "Будь ласка, оновіть до останньої версії через {storeName}",
-  "screenshotMedicationHistoriesMemo": "Я прийняв(ла) ліки пізніше, бо надто довго спав(ла) вдень.",
+  "screenshotMedicationHistoriesMemo": "Я пізно прийняв ліки, бо надто довго спав удень",
   "screenshotMedicationDoserReceiver1": "Я сам",
   "screenshotMedicationDoserReceiver2": "Mana",
   "screenshotMedicationQuontityMemo1": "1 таблетка",

@@ -145,7 +145,7 @@
   "medicationTimeFollowup": "ঔষধ সেৱনৰ সময়ৰ অনুসৰণ",
   "updateRequired": "আপডেট কৰাটো প্ৰয়োজনীয়",
   "updateRequiredMessage": "অনুগ্ৰহ কৰি {storeName}-ৰ পৰা শেহতীয়া সংস্কৰণলৈ আপডেট কৰক",
-  "screenshotMedicationHistoriesMemo": "বেছি সময় দুপৰীয়া শুই থকাৰ বাবে ঔষধ খোৱাৰ সময় পলম হ’ল।",
+  "screenshotMedicationHistoriesMemo": "বেছি সময় ধৰি দুপৰীয়াৰ টোপনি যোৱাৰ বাবে ঔষধ খোৱাৰ সময় পলম হ’ল",
   "screenshotMedicationDoserReceiver1": "মই নিজে",
   "screenshotMedicationDoserReceiver2": "Mana",
   "screenshotMedicationQuontityMemo1": "১টা টেবলেট",

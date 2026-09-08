@@ -145,7 +145,7 @@
   "medicationTimeFollowup": "ຕິດຕາມເວລາກິນຢາ",
   "updateRequired": "ຈຳເປັນຕ້ອງອັບເດດ",
   "updateRequiredMessage": "ກະລຸນາອັບເດດເປັນລຸ້ນຫຼ້າສຸດຈາກ {storeName}",
-  "screenshotMedicationHistoriesMemo": "ຂ້ອຍກິນຢາຊ້າ ເພາະນອນກາງເວັນດົນເກີນໄປ.",
+  "screenshotMedicationHistoriesMemo": "ກິນຢາຊ້າເພາະນອນກາງວັນດົນເກີນໄປ",
   "screenshotMedicationDoserReceiver1": "ຕົນເອງ",
   "screenshotMedicationDoserReceiver2": "Mana",
   "screenshotMedicationQuontityMemo1": "ຢາ 1 ເມັດ",
