@@ -188,7 +188,7 @@
   "groupName": "समूह का नाम",
   "groupNameInputHint": "समूह का नाम दर्ज करें",
   "groupIcon": "आइकन",
-  "groupMemberCount": "{count} सदस्य",
+  "groupMemberCount": "सदस्य: {count}",
   "defaultGroupBadge": "डिफ़ॉल्ट",
   "soloGroupName": "मेरा समूह",
   "joinWithInvitationCode": "आमंत्रण कोड से जुड़ें",

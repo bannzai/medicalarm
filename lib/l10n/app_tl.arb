@@ -188,7 +188,7 @@
   "groupName": "Pangalan ng grupo",
   "groupNameInputHint": "Maglagay ng pangalan ng grupo",
   "groupIcon": "Icon",
-  "groupMemberCount": "{count} miyembro",
+  "groupMemberCount": "Mga miyembro: {count}",
   "defaultGroupBadge": "Default",
   "soloGroupName": "Aking grupo",
   "joinWithInvitationCode": "Sumali gamit ang invitation code",

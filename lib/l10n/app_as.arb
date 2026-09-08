@@ -188,7 +188,7 @@
   "groupName": "গ্ৰুপৰ নাম",
   "groupNameInputHint": "গোটৰ নাম লিখক",
   "groupIcon": "আইকন",
-  "groupMemberCount": "{count} জন সদস্য",
+  "groupMemberCount": "সদস্য {count} জন",
   "defaultGroupBadge": "ডিফল্ট",
   "soloGroupName": "মোৰ গোট",
   "joinWithInvitationCode": "আমন্ত্ৰণ ক’ডেৰে যোগদান কৰক",

@@ -188,7 +188,7 @@
   "groupName": "Enw'r grŵp",
   "groupNameInputHint": "Rhowch enw grŵp",
   "groupIcon": "Eicon",
-  "groupMemberCount": "{count} aelod",
+  "groupMemberCount": "Aelodau: {count}",
   "defaultGroupBadge": "Rhagosodedig",
   "soloGroupName": "Fy ngrŵp",
   "joinWithInvitationCode": "Ymuno â chod gwahoddiad",

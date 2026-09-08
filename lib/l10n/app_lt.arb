@@ -188,7 +188,7 @@
   "groupName": "Grupės pavadinimas",
   "groupNameInputHint": "Įveskite grupės pavadinimą",
   "groupIcon": "Piktograma",
-  "groupMemberCount": "{count} nariai",
+  "groupMemberCount": "Nariai: {count}",
   "defaultGroupBadge": "Numatytasis",
   "soloGroupName": "Mano grupė",
   "joinWithInvitationCode": "Prisijungti naudojant kvietimo kodą",

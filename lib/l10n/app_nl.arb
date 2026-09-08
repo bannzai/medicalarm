@@ -188,7 +188,7 @@
   "groupName": "Groepsnaam",
   "groupNameInputHint": "Voer een groepsnaam in",
   "groupIcon": "Pictogram",
-  "groupMemberCount": "{count} leden",
+  "groupMemberCount": "Leden: {count}",
   "defaultGroupBadge": "Standaard",
   "soloGroupName": "Mijn groep",
   "joinWithInvitationCode": "Deelnemen met uitnodigingscode",

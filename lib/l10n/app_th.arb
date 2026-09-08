@@ -188,7 +188,7 @@
   "groupName": "ชื่อกลุ่ม",
   "groupNameInputHint": "ป้อนชื่อกลุ่ม",
   "groupIcon": "ไอคอน",
-  "groupMemberCount": "สมาชิก {count} คน",
+  "groupMemberCount": "สมาชิก: {count}",
   "defaultGroupBadge": "ค่าเริ่มต้น",
   "soloGroupName": "กลุ่มของฉัน",
   "joinWithInvitationCode": "เข้าร่วมด้วยรหัสคำเชิญ",

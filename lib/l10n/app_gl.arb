@@ -188,7 +188,7 @@
   "groupName": "Nome do grupo",
   "groupNameInputHint": "Introduce o nome do grupo",
   "groupIcon": "Icona",
-  "groupMemberCount": "{count} membros",
+  "groupMemberCount": "Membros: {count}",
   "defaultGroupBadge": "Predeterminado",
   "soloGroupName": "O meu grupo",
   "joinWithInvitationCode": "Unirse cun código de invitación",

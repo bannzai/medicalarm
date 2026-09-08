@@ -188,7 +188,7 @@
   "groupName": "গোষ্ঠীর নাম",
   "groupNameInputHint": "গ্রুপের নাম লিখুন",
   "groupIcon": "আইকন",
-  "groupMemberCount": "{count} জন সদস্য",
+  "groupMemberCount": "সদস্য {count} জন",
   "defaultGroupBadge": "ডিফল্ট",
   "soloGroupName": "আমার গ্রুপ",
   "joinWithInvitationCode": "আমন্ত্রণ কোড দিয়ে যোগ দিন",

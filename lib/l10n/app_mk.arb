@@ -188,7 +188,7 @@
   "groupName": "Име на групата",
   "groupNameInputHint": "Внесете име на групата",
   "groupIcon": "Икона",
-  "groupMemberCount": "{count} членови",
+  "groupMemberCount": "Членови: {count}",
   "defaultGroupBadge": "Стандардно",
   "soloGroupName": "Моја група",
   "joinWithInvitationCode": "Придружи се со код за покана",

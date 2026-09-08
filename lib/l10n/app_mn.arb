@@ -188,7 +188,7 @@
   "groupName": "Бүлгийн нэр",
   "groupNameInputHint": "Бүлгийн нэр оруулна уу",
   "groupIcon": "Дүрс",
-  "groupMemberCount": "{count} гишүүн",
+  "groupMemberCount": "Гишүүд: {count}",
   "defaultGroupBadge": "Үндсэн",
   "soloGroupName": "Миний бүлэг",
   "joinWithInvitationCode": "Урилгын кодоор нэгдэх",

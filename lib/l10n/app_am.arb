@@ -188,7 +188,7 @@
   "groupName": "የቡድን ስም",
   "groupNameInputHint": "የቡድን ስም ያስገቡ",
   "groupIcon": "Պատկերակ",
-  "groupMemberCount": "{count} አባላት",
+  "groupMemberCount": "አባላት፦ {count}",
   "defaultGroupBadge": "ነባሪ",
   "soloGroupName": "የእኔ ቡድን",
   "joinWithInvitationCode": "በግ邀请 ኮድ ይቀላቀሉ",

@@ -188,7 +188,7 @@
   "groupName": "Naziv grupe",
   "groupNameInputHint": "Unesite naziv grupe",
   "groupIcon": "Ikona",
-  "groupMemberCount": "{count} članova",
+  "groupMemberCount": "Članovi: {count}",
   "defaultGroupBadge": "Zadano",
   "soloGroupName": "Moja grupa",
   "joinWithInvitationCode": "Pridruži se pomoću koda pozivnice",

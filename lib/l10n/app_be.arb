@@ -188,7 +188,7 @@
   "groupName": "Назва групы",
   "groupNameInputHint": "Увядзіце назву групы",
   "groupIcon": "Значок",
-  "groupMemberCount": "{count} удзельнікаў",
+  "groupMemberCount": "Удзельнікі: {count}",
   "defaultGroupBadge": "Па змаўчанні",
   "soloGroupName": "Мая група",
   "joinWithInvitationCode": "Далучыцца з кодам запрашэння",

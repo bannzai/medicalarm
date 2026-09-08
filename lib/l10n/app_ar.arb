@@ -188,7 +188,7 @@
   "groupName": "اسم المجموعة",
   "groupNameInputHint": "أدخل اسم المجموعة",
   "groupIcon": "أيقونة",
-  "groupMemberCount": "{count} أعضاء",
+  "groupMemberCount": "عدد الأعضاء: {count}",
   "defaultGroupBadge": "افتراضي",
   "soloGroupName": "مجموعتي",
   "joinWithInvitationCode": "الانضمام باستخدام رمز الدعوة",

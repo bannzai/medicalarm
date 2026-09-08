@@ -188,7 +188,7 @@
   "groupName": "نام گروه",
   "groupNameInputHint": "نام گروه را وارد کنید",
   "groupIcon": "نماد",
-  "groupMemberCount": "{count} عضو",
+  "groupMemberCount": "اعضا: {count}",
   "defaultGroupBadge": "پیش‌فرض",
   "soloGroupName": "گروه من",
   "joinWithInvitationCode": "پیوستن با کد دعوت",

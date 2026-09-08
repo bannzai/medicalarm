@@ -188,7 +188,7 @@
   "groupName": "Όνομα ομάδας",
   "groupNameInputHint": "Εισαγάγετε όνομα ομάδας",
   "groupIcon": "Εικονίδιο",
-  "groupMemberCount": "{count} μέλη",
+  "groupMemberCount": "Μέλη: {count}",
   "defaultGroupBadge": "Προεπιλογή",
   "soloGroupName": "Η ομάδα μου",
   "joinWithInvitationCode": "Συμμετοχή με κωδικό πρόσκλησης",

@@ -188,7 +188,7 @@
   "groupName": "ഗ്രൂപ്പിന്റെ പേര്",
   "groupNameInputHint": "ഗ്രൂപ്പിന്റെ പേര് നൽകുക",
   "groupIcon": "ഐക്കൺ",
-  "groupMemberCount": "{count} അംഗങ്ങൾ",
+  "groupMemberCount": "അംഗങ്ങൾ: {count}",
   "defaultGroupBadge": "ഡിഫോൾട്ട്",
   "soloGroupName": "എന്റെ ഗ്രൂപ്പ്",
   "joinWithInvitationCode": "ക്ഷണ കോഡ് ഉപയോഗിച്ച് ചേരുക",

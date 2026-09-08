@@ -188,7 +188,7 @@
   "groupName": "గ్రూప్ పేరు",
   "groupNameInputHint": "సమూహం పేరును నమోదు చేయండి",
   "groupIcon": "చిహ్నం",
-  "groupMemberCount": "{count} మంది సభ్యులు",
+  "groupMemberCount": "సభ్యులు: {count}",
   "defaultGroupBadge": "డిఫాల్ట్",
   "soloGroupName": "నా సమూహం",
   "joinWithInvitationCode": "ఆహ్వాన కోడ్‌తో చేరండి",

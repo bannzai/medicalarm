@@ -188,7 +188,7 @@
   "groupName": "Názov skupiny",
   "groupNameInputHint": "Zadajte názov skupiny",
   "groupIcon": "Ikona",
-  "groupMemberCount": "{count} členov",
+  "groupMemberCount": "Členovia: {count}",
   "defaultGroupBadge": "Predvolené",
   "soloGroupName": "Moja skupina",
   "joinWithInvitationCode": "Pripojiť sa pomocou kódu pozvánky",

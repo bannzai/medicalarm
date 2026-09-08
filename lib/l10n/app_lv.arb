@@ -188,7 +188,7 @@
   "groupName": "Grupas nosaukums",
   "groupNameInputHint": "Ievadiet grupas nosaukumu",
   "groupIcon": "Ikona",
-  "groupMemberCount": "{count} dalībnieki",
+  "groupMemberCount": "Dalībnieki: {count}",
   "defaultGroupBadge": "Noklusējuma",
   "soloGroupName": "Mana grupa",
   "joinWithInvitationCode": "Pievienoties ar uzaicinājuma kodu",

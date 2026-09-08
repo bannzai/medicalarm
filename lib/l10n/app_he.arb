@@ -188,7 +188,7 @@
   "groupName": "שם הקבוצה",
   "groupNameInputHint": "הזן שם קבוצה",
   "groupIcon": "סמל",
-  "groupMemberCount": "{count} חברים",
+  "groupMemberCount": "חברים: {count}",
   "defaultGroupBadge": "ברירת מחדל",
   "soloGroupName": "הקבוצה שלי",
   "joinWithInvitationCode": "הצטרפות באמצעות קוד הזמנה",

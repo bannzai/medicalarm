@@ -188,7 +188,7 @@
   "groupName": "ਗਰੁੱਪ ਦਾ ਨਾਮ",
   "groupNameInputHint": "ਗਰੁੱਪ ਦਾ ਨਾਮ ਦਰਜ ਕਰੋ",
   "groupIcon": "ਆਈਕਨ",
-  "groupMemberCount": "{count} ਮੈਂਬਰ",
+  "groupMemberCount": "ਮੈਂਬਰ: {count}",
   "defaultGroupBadge": "ਡਿਫ਼ਾਲਟ",
   "soloGroupName": "ਮੇਰਾ ਸਮੂਹ",
   "joinWithInvitationCode": "ਸੱਦਾ ਕੋਡ ਨਾਲ ਸ਼ਾਮਲ ਹੋਵੋ",

@@ -188,7 +188,7 @@
   "groupName": "Guruh nomi",
   "groupNameInputHint": "Guruh nomini kiriting",
   "groupIcon": "Belgi",
-  "groupMemberCount": "{count} a’zo",
+  "groupMemberCount": "A’zolar: {count}",
   "defaultGroupBadge": "Standart",
   "soloGroupName": "Mening guruhim",
   "joinWithInvitationCode": "Taklif kodi bilan qo‘shilish",

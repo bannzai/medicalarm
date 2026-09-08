@@ -188,7 +188,7 @@
   "groupName": "ຊື່ກຸ່ມ",
   "groupNameInputHint": "ປ້ອນຊື່ກຸ່ມ",
   "groupIcon": "ໄອຄອນ",
-  "groupMemberCount": "ສະມາຊິກ {count} ຄົນ",
+  "groupMemberCount": "ສະມາຊິກ: {count}",
   "defaultGroupBadge": "ຄ່າເລີ່ມຕົ້ນ",
   "soloGroupName": "ກຸ່ມຂອງຂ້ອຍ",
   "joinWithInvitationCode": "ເຂົ້າຮ່ວມດ້ວຍລະຫັດເຊີນ",

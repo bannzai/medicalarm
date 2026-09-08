@@ -188,7 +188,7 @@
   "groupName": "Назва групи",
   "groupNameInputHint": "Введіть назву групи",
   "groupIcon": "Значок",
-  "groupMemberCount": "{count} учасників",
+  "groupMemberCount": "Учасники: {count}",
   "defaultGroupBadge": "За замовчуванням",
   "soloGroupName": "Моя група",
   "joinWithInvitationCode": "Приєднатися за кодом запрошення",

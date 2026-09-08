@@ -188,7 +188,7 @@
   "groupName": "Ryhmän nimi",
   "groupNameInputHint": "Anna ryhmän nimi",
   "groupIcon": "Kuvake",
-  "groupMemberCount": "{count} jäsentä",
+  "groupMemberCount": "Jäsenet: {count}",
   "defaultGroupBadge": "Oletus",
   "soloGroupName": "Oma ryhmä",
   "joinWithInvitationCode": "Liity kutsukoodilla",

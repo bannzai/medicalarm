@@ -188,7 +188,7 @@
   "groupName": "Nama grup",
   "groupNameInputHint": "Masukkan nama grup",
   "groupIcon": "Ikon",
-  "groupMemberCount": "{count} anggota",
+  "groupMemberCount": "Anggota: {count}",
   "defaultGroupBadge": "Default",
   "soloGroupName": "Grup Saya",
   "joinWithInvitationCode": "Bergabung dengan kode undangan",

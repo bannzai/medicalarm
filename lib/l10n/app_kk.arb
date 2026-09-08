@@ -188,7 +188,7 @@
   "groupName": "Топ атауы",
   "groupNameInputHint": "Топ атауын енгізіңіз",
   "groupIcon": "Белгіше",
-  "groupMemberCount": "{count} мүше",
+  "groupMemberCount": "Мүшелер: {count}",
   "defaultGroupBadge": "Әдепкі",
   "soloGroupName": "Менің тобым",
   "joinWithInvitationCode": "Шақыру коды арқылы қосылу",

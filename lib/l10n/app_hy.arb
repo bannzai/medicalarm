@@ -188,7 +188,7 @@
   "groupName": "Խմբի անունը",
   "groupNameInputHint": "Մուտքագրեք խմբի անունը",
   "groupIcon": "Պատկերակ",
-  "groupMemberCount": "{count} անդամ",
+  "groupMemberCount": "Անդամներ՝ {count}",
   "defaultGroupBadge": "Կանխադրված",
   "soloGroupName": "Իմ խումբը",
   "joinWithInvitationCode": "Միանալ հրավերի կոդով",

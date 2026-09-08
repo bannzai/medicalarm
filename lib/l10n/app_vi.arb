@@ -188,7 +188,7 @@
   "groupName": "Tên nhóm",
   "groupNameInputHint": "Nhập tên nhóm",
   "groupIcon": "Biểu tượng",
-  "groupMemberCount": "{count} thành viên",
+  "groupMemberCount": "Thành viên: {count}",
   "defaultGroupBadge": "Mặc định",
   "soloGroupName": "Nhóm của tôi",
   "joinWithInvitationCode": "Tham gia bằng mã lời mời",

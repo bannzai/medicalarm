@@ -188,7 +188,7 @@
   "groupName": "Name der Gruppe",
   "groupNameInputHint": "Gruppenname iigäh",
   "groupIcon": "Symbol",
-  "groupMemberCount": "{count} Mitglieder",
+  "groupMemberCount": "Mitglieder: {count}",
   "defaultGroupBadge": "Standard",
   "soloGroupName": "Mini Gruppe",
   "joinWithInvitationCode": "Mit Iiladigscode biitrete",

@@ -188,7 +188,7 @@
   "groupName": "Gruppenavn",
   "groupNameInputHint": "Indtast gruppenavn",
   "groupIcon": "Ikon",
-  "groupMemberCount": "{count} medlemmer",
+  "groupMemberCount": "Medlemmer: {count}",
   "defaultGroupBadge": "Standard",
   "soloGroupName": "Min gruppe",
   "joinWithInvitationCode": "Deltag med invitationskode",

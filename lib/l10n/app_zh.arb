@@ -188,7 +188,7 @@
   "groupName": "群组名称",
   "groupNameInputHint": "输入群组名称",
   "groupIcon": "图标",
-  "groupMemberCount": "{count}位成员",
+  "groupMemberCount": "成员：{count}",
   "defaultGroupBadge": "默认",
   "soloGroupName": "我的群组",
   "joinWithInvitationCode": "使用邀请码加入",

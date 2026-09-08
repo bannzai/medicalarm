@@ -188,7 +188,7 @@
   "groupName": "Qrup adı",
   "groupNameInputHint": "Qrup adını daxil edin",
   "groupIcon": "İkon",
-  "groupMemberCount": "{count} üzv",
+  "groupMemberCount": "Üzvlər: {count}",
   "defaultGroupBadge": "Defolt",
   "soloGroupName": "Qrupum",
   "joinWithInvitationCode": "Dəvət kodu ilə qoşulun",

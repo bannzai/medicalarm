@@ -188,7 +188,7 @@
   "groupName": "જૂથનું નામ",
   "groupNameInputHint": "જૂથનું નામ દાખલ કરો",
   "groupIcon": "આઇકન",
-  "groupMemberCount": "{count} સભ્યો",
+  "groupMemberCount": "સભ્યો: {count}",
   "defaultGroupBadge": "ડિફૉલ્ટ",
   "soloGroupName": "મારું જૂથ",
   "joinWithInvitationCode": "આમંત્રણ કોડ વડે જોડાઓ",

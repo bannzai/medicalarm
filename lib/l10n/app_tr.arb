@@ -188,7 +188,7 @@
   "groupName": "Grup adı",
   "groupNameInputHint": "Grup adını girin",
   "groupIcon": "Simge",
-  "groupMemberCount": "{count} üye",
+  "groupMemberCount": "Üyeler: {count}",
   "defaultGroupBadge": "Varsayılan",
   "soloGroupName": "Grubum",
   "joinWithInvitationCode": "Davet koduyla katıl",

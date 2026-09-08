@@ -188,7 +188,7 @@
   "groupName": "ಗುಂಪಿನ ಹೆಸರು",
   "groupNameInputHint": "ಗುಂಪಿನ ಹೆಸರನ್ನು ನಮೂದಿಸಿ",
   "groupIcon": "ಐಕಾನ್",
-  "groupMemberCount": "{count} ಸದಸ್ಯರು",
+  "groupMemberCount": "ಸದಸ್ಯರು: {count}",
   "defaultGroupBadge": "ಡೀಫಾಲ್ಟ್",
   "soloGroupName": "ನನ್ನ ಗುಂಪು",
   "joinWithInvitationCode": "ಆಹ್ವಾನ ಕೋಡ್‌ನೊಂದಿಗೆ ಸೇರಿ",

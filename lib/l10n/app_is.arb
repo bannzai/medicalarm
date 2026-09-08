@@ -188,7 +188,7 @@
   "groupName": "Heiti hóps",
   "groupNameInputHint": "Sláðu inn heiti hóps",
   "groupIcon": "Tákn",
-  "groupMemberCount": "{count} meðlimir",
+  "groupMemberCount": "Meðlimir: {count}",
   "defaultGroupBadge": "Sjálfgefið",
   "soloGroupName": "Mín hópur",
   "joinWithInvitationCode": "Taka þátt með boðskóða",

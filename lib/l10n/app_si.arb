@@ -188,7 +188,7 @@
   "groupName": "කණ්ඩායමේ නම",
   "groupNameInputHint": "කණ්ඩායමේ නම ඇතුළත් කරන්න",
   "groupIcon": "අයිකනය",
-  "groupMemberCount": "සාමාජිකයින් {count} දෙනෙක්",
+  "groupMemberCount": "සාමාජිකයින්: {count}",
   "defaultGroupBadge": "පෙරනිමි",
   "soloGroupName": "මගේ කණ්ඩායම",
   "joinWithInvitationCode": "ආරාධනා කේතයෙන් එක්වන්න",
