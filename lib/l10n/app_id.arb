@@ -178,7 +178,7 @@
   "undo": "Urungkan",
   "medicationHistoryReverted": "Catatan minum obat dibatalkan",
   "revertedTime": "Waktu pembatalan",
-  "revertedByMember": "{name} membatalkan",
+  "revertedByMember": "Dibatalkan oleh {name}",
   "medicationTakenAtLabel": "Diminum pada {time}",
   "medicineResumedSnackbar": "Konsumsi obat dilanjutkan",
   "medicineEditTooltip": "Edit obat",

@@ -178,7 +178,7 @@
   "undo": "Адмяніць",
   "medicationHistoryReverted": "Запіс аб прыёме лекі адменены",
   "revertedTime": "Час адмены",
-  "revertedByMember": "Запіс скасаваны карыстальнікам {name}",
+  "revertedByMember": "Адменена: {name}",
   "medicationTakenAtLabel": "Прынята ў {time}",
   "medicineResumedSnackbar": "Прыём прэпарата адноўлены",
   "medicineEditTooltip": "Рэдагаваць лекі",

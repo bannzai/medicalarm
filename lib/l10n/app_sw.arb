@@ -178,7 +178,7 @@
   "undo": "Tendua",
   "medicationHistoryReverted": "Rekodi ya unywaji wa dawa imebatilishwa",
   "revertedTime": "Muda wa kughairi",
-  "revertedByMember": "{name} amefuta",
+  "revertedByMember": "Imeghairiwa na {name}",
   "medicationTakenAtLabel": "Imetumiwa saa {time}",
   "medicineResumedSnackbar": "Unywaji wa dawa umeanza tena",
   "medicineEditTooltip": "Hariri dawa",

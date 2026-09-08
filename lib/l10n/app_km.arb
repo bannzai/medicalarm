@@ -178,7 +178,7 @@
   "undo": "មិនធ្វើវិញ",
   "medicationHistoryReverted": "កំណត់ត្រាលេបថ្នាំត្រូវបានបោះបង់",
   "revertedTime": "ពេលវេលាលុបចោល",
-  "revertedByMember": "{name} បានបោះបង់",
+  "revertedByMember": "បានលុបចោលដោយ {name}",
   "medicationTakenAtLabel": "បានលេបនៅម៉ោង {time}",
   "medicineResumedSnackbar": "ការលេបថ្នាំត្រូវបានចាប់ផ្តើមឡើងវិញ",
   "medicineEditTooltip": "កែសម្រួលថ្នាំ",

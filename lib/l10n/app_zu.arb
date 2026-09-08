@@ -178,7 +178,7 @@
   "undo": "Hlehlisa",
   "medicationHistoryReverted": "Irekhodi lokuphuza umuthi lihoxisiwe",
   "revertedTime": "Isikhathi sokukhansela",
-  "revertedByMember": "{name} ukhansele",
+  "revertedByMember": "Kukhanselwe ngu-{name}",
   "medicationTakenAtLabel": "Iphuzwe ngo-{time}",
   "medicineResumedSnackbar": "Ukuqaliswe kabusha ukuphuza umuthi",
   "medicineEditTooltip": "Hlela umuthi",

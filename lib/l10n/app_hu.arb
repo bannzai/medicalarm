@@ -178,7 +178,7 @@
   "undo": "Visszavonás",
   "medicationHistoryReverted": "A gyógyszerbevételi bejegyzés visszavonva",
   "revertedTime": "Visszavonás ideje",
-  "revertedByMember": "Visszavonta: {name}",
+  "revertedByMember": "{name} visszavonta",
   "medicationTakenAtLabel": "Bevéve: {time}",
   "medicineResumedSnackbar": "A gyógyszer szedése folytatódik",
   "medicineEditTooltip": "Gyógyszer szerkesztése",

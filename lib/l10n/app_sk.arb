@@ -178,7 +178,7 @@
   "undo": "Späť",
   "medicationHistoryReverted": "Záznam o užití lieku bol zrušený",
   "revertedTime": "Čas zrušenia",
-  "revertedByMember": "Zrušené používateľom {name}",
+  "revertedByMember": "Zrušil(a) {name}",
   "medicationTakenAtLabel": "Užité o {time}",
   "medicineResumedSnackbar": "Užívanie lieku bolo obnovené",
   "medicineEditTooltip": "Upraviť liek",

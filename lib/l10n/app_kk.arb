@@ -178,7 +178,7 @@
   "undo": "Болдырмау",
   "medicationHistoryReverted": "Дәрі қабылдау жазбасы қайтарылды",
   "revertedTime": "Болдырмау уақыты",
-  "revertedByMember": "{name} күшін жойды",
+  "revertedByMember": "{name} тоқтатты",
   "medicationTakenAtLabel": "{time} қабылданды",
   "medicineResumedSnackbar": "Дәрі қабылдау қайта басталды",
   "medicineEditTooltip": "Дәріні өңдеу",

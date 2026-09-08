@@ -178,7 +178,7 @@
   "undo": "Desegin",
   "medicationHistoryReverted": "Botikak hartzeko erregistroa desegin da",
   "revertedTime": "Ezeztatzeko ordua",
-  "revertedByMember": "Bertan behera utzita: {name}",
+  "revertedByMember": "{name}(e)k ezeztatu du",
   "medicationTakenAtLabel": "{time}(e)an hartuta",
   "medicineResumedSnackbar": "Sendagaiaren hartzea berrabiarazi da",
   "medicineEditTooltip": "Editatu sendagaia",

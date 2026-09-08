@@ -178,7 +178,7 @@
   "undo": "Poništi",
   "medicationHistoryReverted": "Evidencija uzimanja lijeka poništena",
   "revertedTime": "Vrijeme poništavanja",
-  "revertedByMember": "Otkazano od člana {name}",
+  "revertedByMember": "Otkazao/la {name}",
   "medicationTakenAtLabel": "Uzeto u {time}",
   "medicineResumedSnackbar": "Uzimanje lijeka je nastavljeno",
   "medicineEditTooltip": "Uredi lijek",

@@ -178,7 +178,7 @@
   "undo": "Αναίρεση",
   "medicationHistoryReverted": "Η καταγραφή λήψης φαρμάκου αναιρέθηκε",
   "revertedTime": "Ώρα ακύρωσης",
-  "revertedByMember": "Ακύρωση από: {name}",
+  "revertedByMember": "Ακυρώθηκε από τον/την {name}",
   "medicationTakenAtLabel": "Λήφθηκε στις {time}",
   "medicineResumedSnackbar": "Η λήψη του φαρμάκου συνεχίστηκε",
   "medicineEditTooltip": "Επεξεργασία φαρμάκου",

@@ -178,7 +178,7 @@
   "undo": "પૂર્વવત્ કરો",
   "medicationHistoryReverted": "દવા લેવાનો રેકોર્ડ રદ કરવામાં આવ્યો",
   "revertedTime": "રદ કરવાનો સમય",
-  "revertedByMember": "{name} એ રદ કર્યું છે",
+  "revertedByMember": "{name} દ્વારા રદ કરવામાં આવ્યું",
   "medicationTakenAtLabel": "{time} વાગ્યે લીધું",
   "medicineResumedSnackbar": "દવા લેવાનું ફરી શરૂ થયું છે",
   "medicineEditTooltip": "દવા સંપાદિત કરો",

@@ -178,7 +178,7 @@
   "undo": "Опозови",
   "medicationHistoryReverted": "Евиденција узимања лека је поништена",
   "revertedTime": "Време поништавања",
-  "revertedByMember": "Otkazano od strane člana {name}",
+  "revertedByMember": "Отказао/ла {name}",
   "medicationTakenAtLabel": "Узето у {time}",
   "medicineResumedSnackbar": "Узимање лека је настављено",
   "medicineEditTooltip": "Измени лек",
