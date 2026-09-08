@@ -8,7 +8,7 @@
   "medicineName": "Nom del medicament",
   "medicineList": "Llista de medicaments",
   "medicationSchedule": "Horari de presa de medicaments",
-  "medicationTime": "Activa les notificacions quan sigui l’hora de prendre el medicament",
+  "medicationTime": "Activa les notificacions de l’hora de prendre la medicació",
   "medicationTimeDescription": "Envia notificacions segons l’hora de prendre el medicament",
   "close": "Tanca",
   "settings": "Configuració",

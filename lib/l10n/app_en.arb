@@ -8,7 +8,7 @@
   "medicineName": "Medicine name",
   "medicineList": "Medication List",
   "medicationSchedule": "Medication schedule",
-  "medicationTime": "Enable notifications when it’s time to take the medication",
+  "medicationTime": "Enable medication time notifications",
   "medicationTimeDescription": "Send notifications based on medication time",
   "close": "Close",
   "settings": "Settings",

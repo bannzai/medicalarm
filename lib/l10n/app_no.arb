@@ -8,7 +8,7 @@
   "medicineName": "Navn på medisin",
   "medicineList": "Medisinliste",
   "medicationSchedule": "Tidsplan for medisininntak",
-  "medicationTime": "Aktiver varsler når det er tid for å ta medisinen",
+  "medicationTime": "Slå på varsler for medisineringstidspunkt",
   "medicationTimeDescription": "Send varsler basert på medisineringstidspunktet",
   "close": "Lukk",
   "settings": "Innstillinger",

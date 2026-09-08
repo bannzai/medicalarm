@@ -8,7 +8,7 @@
   "medicineName": "Názov lieku",
   "medicineList": "Zoznam liekov",
   "medicationSchedule": "Harmonogram užívania liekov",
-  "medicationTime": "Povoliť upozornenia v čase užitia lieku",
+  "medicationTime": "Zapnúť upozornenia na čas užitia lieku",
   "medicationTimeDescription": "Odosielať upozornenia podľa času užitia lieku",
   "close": "Zavrieť",
   "settings": "Nastavenia",

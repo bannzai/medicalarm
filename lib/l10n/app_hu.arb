@@ -8,7 +8,7 @@
   "medicineName": "Gyógyszer neve",
   "medicineList": "Gyógyszerlista",
   "medicationSchedule": "Gyógyszerszedési ütemterv",
-  "medicationTime": "Értesítések engedélyezése a gyógyszer bevételének idejére",
+  "medicationTime": "Gyógyszerbevételi időpontokra vonatkozó értesítések bekapcsolása",
   "medicationTimeDescription": "Értesítések küldése a gyógyszer bevételének időpontja alapján",
   "close": "Bezárás",
   "settings": "Beállítások",
