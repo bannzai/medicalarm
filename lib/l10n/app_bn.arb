@@ -232,5 +232,6 @@
   "doseIntervalNotificationWarning": "⚠️ শেষবার ওষুধ খাওয়ার পর {minimumDoseIntervalHours} ঘণ্টা পার হয়নি",
   "ossLicense": "OSS লাইসেন্স",
   "achievementWeeklyLabel": "এই সপ্তাহের ওষুধ সেবন",
-  "achievementWeeklyCountSuffix": "/{scheduledCount} বার"
+  "achievementWeeklyCountSuffix": "/{scheduledCount} বার",
+  "achievementStreakLabel": "ধারাবাহিকতা"
 }

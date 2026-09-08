@@ -232,5 +232,6 @@
   "doseIntervalNotificationWarning": "⚠️ পূৰ্বৰ পালি লোৱাৰ পৰা {minimumDoseIntervalHours} ঘণ্টা পাৰ হোৱা নাই",
   "ossLicense": "OSS অনুজ্ঞাপত্ৰসমূহ",
   "achievementWeeklyLabel": "এই সপ্তাহৰ ঔষধ সেৱন",
-  "achievementWeeklyCountSuffix": "/{scheduledCount} বাৰ"
+  "achievementWeeklyCountSuffix": "/{scheduledCount} বাৰ",
+  "achievementStreakLabel": "ধাৰাবাহিক ৰেকৰ্ড"
 }

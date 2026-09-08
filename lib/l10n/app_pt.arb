@@ -232,5 +232,6 @@
   "doseIntervalNotificationWarning": "⚠️ Ainda não se passaram {minimumDoseIntervalHours} horas desde a última dose",
   "ossLicense": "Licenças OSS",
   "achievementWeeklyLabel": "Tomas de medicamentos esta semana",
-  "achievementWeeklyCountSuffix": "/{scheduledCount} vezes"
+  "achievementWeeklyCountSuffix": "/{scheduledCount} vezes",
+  "achievementStreakLabel": "Sequência"
 }

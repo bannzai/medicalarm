@@ -232,5 +232,6 @@
   "doseIntervalNotificationWarning": "⚠️ از آخرین نوبت مصرف {minimumDoseIntervalHours} ساعت نگذشته است",
   "ossLicense": "مجوزهای OSS",
   "achievementWeeklyLabel": "مصرف دارو در این هفته",
-  "achievementWeeklyCountSuffix": "/{scheduledCount} بار"
+  "achievementWeeklyCountSuffix": "/{scheduledCount} بار",
+  "achievementStreakLabel": "رکورد متوالی"
 }

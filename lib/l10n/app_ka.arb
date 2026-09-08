@@ -232,5 +232,6 @@
   "doseIntervalNotificationWarning": "⚠️ ბოლო დოზის მიღებიდან {minimumDoseIntervalHours} საათი არ გასულა",
   "ossLicense": "OSS ლიცენზიები",
   "achievementWeeklyLabel": "ამ კვირის მედიკამენტების მიღება",
-  "achievementWeeklyCountSuffix": "/{scheduledCount}-ჯერ"
+  "achievementWeeklyCountSuffix": "/{scheduledCount}-ჯერ",
+  "achievementStreakLabel": "თანმიმდევრული სერია"
 }

@@ -232,5 +232,6 @@
   "doseIntervalNotificationWarning": "⚠️ Նախորդ ընդունումից դեռ չի անցել {minimumDoseIntervalHours} ժամ",
   "ossLicense": "OSS լիցենզիաներ",
   "achievementWeeklyLabel": "Այս շաբաթվա դեղորայքի ընդունում",
-  "achievementWeeklyCountSuffix": "/{scheduledCount} անգամ"
+  "achievementWeeklyCountSuffix": "/{scheduledCount} անգամ",
+  "achievementStreakLabel": "Անընդմեջ շարք"
 }

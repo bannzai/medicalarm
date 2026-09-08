@@ -232,5 +232,6 @@
   "doseIntervalNotificationWarning": "⚠️ Syt dr letschte Iinah si no kei {minimumDoseIntervalHours} Stunde vergaa",
   "ossLicense": "OSS-Lizänze",
   "achievementWeeklyLabel": "Medikament i dere Wuche",
-  "achievementWeeklyCountSuffix": "/{scheduledCount} Mol"
+  "achievementWeeklyCountSuffix": "/{scheduledCount} Mol",
+  "achievementStreakLabel": "Serie"
 }

@@ -232,5 +232,6 @@
   "doseIntervalNotificationWarning": "⚠️ មិនទាន់បានកន្លងផុត {minimumDoseIntervalHours} ម៉ោង ចាប់តាំងពីលើកចុងក្រោយដែលបានលេបថ្នាំ",
   "ossLicense": "អាជ្ញាប័ណ្ណ OSS",
   "achievementWeeklyLabel": "ការលេបថ្នាំក្នុងសប្តាហ៍នេះ",
-  "achievementWeeklyCountSuffix": "/{scheduledCount} ដង"
+  "achievementWeeklyCountSuffix": "/{scheduledCount} ដង",
+  "achievementStreakLabel": "កំណត់ត្រាបន្តបន្ទាប់"
 }

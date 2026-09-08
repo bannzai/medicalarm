@@ -232,5 +232,6 @@
   "doseIntervalNotificationWarning": "⚠️ கடைசி மருந்தை எடுத்ததிலிருந்து {minimumDoseIntervalHours} மணிநேரம் ஆகவில்லை",
   "ossLicense": "OSS உரிமங்கள்",
   "achievementWeeklyLabel": "இந்த வார மருந்து உட்கொள்ளல்",
-  "achievementWeeklyCountSuffix": "/{scheduledCount} முறை"
+  "achievementWeeklyCountSuffix": "/{scheduledCount} முறை",
+  "achievementStreakLabel": "தொடர் பதிவு"
 }

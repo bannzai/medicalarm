@@ -232,5 +232,6 @@
   "doseIntervalNotificationWarning": "⚠️ 이전 복용 후 {minimumDoseIntervalHours}시간이 지나지 않았습니다",
   "ossLicense": "OSS 라이선스",
   "achievementWeeklyLabel": "이번 주 복약",
-  "achievementWeeklyCountSuffix": "/{scheduledCount}회"
+  "achievementWeeklyCountSuffix": "/{scheduledCount}회",
+  "achievementStreakLabel": "연속 기록"
 }

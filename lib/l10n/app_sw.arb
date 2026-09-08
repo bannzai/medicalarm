@@ -232,5 +232,6 @@
   "doseIntervalNotificationWarning": "⚠️ Haijapita saa {minimumDoseIntervalHours} tangu dozi ya mwisho",
   "ossLicense": "Leseni za OSS",
   "achievementWeeklyLabel": "Unywaji wa dawa wiki hii",
-  "achievementWeeklyCountSuffix": "/{scheduledCount} mara"
+  "achievementWeeklyCountSuffix": "/{scheduledCount} mara",
+  "achievementStreakLabel": "Mfululizo"
 }

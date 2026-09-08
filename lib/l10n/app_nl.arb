@@ -232,5 +232,6 @@
   "doseIntervalNotificationWarning": "⚠️ Er zijn nog geen {minimumDoseIntervalHours} uur verstreken sinds de vorige dosis",
   "ossLicense": "OSS-licenties",
   "achievementWeeklyLabel": "Medicatie-inname deze week",
-  "achievementWeeklyCountSuffix": "/{scheduledCount} keer"
+  "achievementWeeklyCountSuffix": "/{scheduledCount} keer",
+  "achievementStreakLabel": "Reeks"
 }

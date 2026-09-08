@@ -232,5 +232,6 @@
   "doseIntervalNotificationWarning": "⚠️ No han passat {minimumDoseIntervalHours} hores des de l’última dosi",
   "ossLicense": "Llicències OSS",
   "achievementWeeklyLabel": "Presa de medicació aquesta setmana",
-  "achievementWeeklyCountSuffix": "/{scheduledCount} vegades"
+  "achievementWeeklyCountSuffix": "/{scheduledCount} vegades",
+  "achievementStreakLabel": "Ratxa consecutiva"
 }

@@ -232,5 +232,6 @@
   "doseIntervalNotificationWarning": "⚠️ Акыркы дозадан бери {minimumDoseIntervalHours} саат өткөн жок",
   "ossLicense": "OSS лицензиялары",
   "achievementWeeklyLabel": "Бул аптадагы дары ичүү",
-  "achievementWeeklyCountSuffix": "/{scheduledCount} жолу"
+  "achievementWeeklyCountSuffix": "/{scheduledCount} жолу",
+  "achievementStreakLabel": "Удаалаш серия"
 }

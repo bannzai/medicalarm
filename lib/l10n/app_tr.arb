@@ -232,5 +232,6 @@
   "doseIntervalNotificationWarning": "⚠️ Son dozadan bu yana {minimumDoseIntervalHours} saat geçmedi",
   "ossLicense": "OSS lisansları",
   "achievementWeeklyLabel": "Bu haftaki ilaç alımı",
-  "achievementWeeklyCountSuffix": "/{scheduledCount} kez"
+  "achievementWeeklyCountSuffix": "/{scheduledCount} kez",
+  "achievementStreakLabel": "Seri"
 }

@@ -232,5 +232,6 @@
   "doseIntervalNotificationWarning": "⚠️ От последния прием не са изминали {minimumDoseIntervalHours} часа",
   "ossLicense": "Лицензи на OSS",
   "achievementWeeklyLabel": "Прием на лекарства тази седмица",
-  "achievementWeeklyCountSuffix": "/{scheduledCount} пъти"
+  "achievementWeeklyCountSuffix": "/{scheduledCount} пъти",
+  "achievementStreakLabel": "Поредица"
 }

@@ -232,5 +232,6 @@
   "doseIntervalNotificationWarning": "⚠️ Det har inte gått {minimumDoseIntervalHours} timmar sedan den senaste dosen",
   "ossLicense": "OSS-licenser",
   "achievementWeeklyLabel": "Den här veckans medicinintag",
-  "achievementWeeklyCountSuffix": "/{scheduledCount} gånger"
+  "achievementWeeklyCountSuffix": "/{scheduledCount} gånger",
+  "achievementStreakLabel": "Sammanhängande serie"
 }

@@ -232,5 +232,6 @@
   "doseIntervalNotificationWarning": "⚠️ Od poslednej dávky neuplynulo {minimumDoseIntervalHours} hodín",
   "ossLicense": "Licencie OSS",
   "achievementWeeklyLabel": "Užívanie liekov tento týždeň",
-  "achievementWeeklyCountSuffix": "/{scheduledCount}-krát"
+  "achievementWeeklyCountSuffix": "/{scheduledCount}-krát",
+  "achievementStreakLabel": "Séria"
 }

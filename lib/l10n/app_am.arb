@@ -232,5 +232,6 @@
   "doseIntervalNotificationWarning": "⚠️ ካለፈው መውሰድ ጀምሮ {minimumDoseIntervalHours} ሰዓት አልሞላም",
   "ossLicense": "OSS ፈቃዶች",
   "achievementWeeklyLabel": "የዚህ ሳምንት መድኃኒት አወሳሰድ",
-  "achievementWeeklyCountSuffix": "/{scheduledCount} ጊዜ"
+  "achievementWeeklyCountSuffix": "/{scheduledCount} ጊዜ",
+  "achievementStreakLabel": "ተከታታይ ስኬት"
 }

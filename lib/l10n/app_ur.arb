@@ -232,5 +232,6 @@
   "doseIntervalNotificationWarning": "⚠️ گزشتہ خوراک کے بعد {minimumDoseIntervalHours} گھنٹے نہیں گزرے",
   "ossLicense": "OSS لائسنس",
   "achievementWeeklyLabel": "اس ہفتے دوا لینا",
-  "achievementWeeklyCountSuffix": "/{scheduledCount} بار"
+  "achievementWeeklyCountSuffix": "/{scheduledCount} بار",
+  "achievementStreakLabel": "مسلسل ریکارڈ"
 }
