@@ -108,7 +108,7 @@
   "lossOfAppetite": "ಹಸಿವಿನ ಕೊರತೆ",
   "chestTightness": "ಸ್ತನಗಳಲ್ಲಿ ಬಿಗಿತ",
   "insomnia": "ನಿದ್ರಾಹೀನತೆ",
-  "monthlyPlanDiscountFormat": "ಮಾಸಿಕ ಯೋಜನೆಗಿಂತ {percent}% ರಿಯಾಯಿತಿ",
+  "monthlyPlanDiscountFormat": "ಮಾಸಿಕ ಯೋಜನೆಗೆ ಹೋಲಿಸಿದರೆ {percent}% ರಿಯಾಯಿತಿ",
   "purchaseErrorUnknown": "ಅಪರಿಚಿತ ದೋಷ ಸಂಭವಿಸಿದೆ. ದಯವಿಟ್ಟು ಸ್ವಲ್ಪ ಸಮಯದ ನಂತರ ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ. ಸಮಸ್ಯೆ ಪರಿಹಾರವಾಗದಿದ್ದರೆ, ಸೆಟ್ಟಿಂಗ್‌ಗಳು > ಸಂಪರ್ಕ ಮೂಲಕ ನಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸಿ. ವಿವರಗಳು: {message}",
   "purchaseErrorStoreProblem": "{storeName} ನಲ್ಲಿ ದೋಷ ಸಂಭವಿಸಿದೆ. ದಯವಿಟ್ಟು ಸ್ವಲ್ಪ ಸಮಯದ ನಂತರ ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.",
   "purchaseErrorInvalidPayment": "ಪಾವತಿ ವಿಫಲವಾಗಿದೆ. ನಿಮ್ಮ ಪಾವತಿ ವಿಧಾನವು ಮಾನ್ಯವಾಗಿದೆಯೇ ಎಂದು ಪರಿಶೀಲಿಸಿ, ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.",

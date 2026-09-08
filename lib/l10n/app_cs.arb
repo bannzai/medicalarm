@@ -108,7 +108,7 @@
   "lossOfAppetite": "Ztráta chuti k jídlu",
   "chestTightness": "Napětí v prsou",
   "insomnia": "Nespavost",
-  "monthlyPlanDiscountFormat": "O {percent}% levnější než měsíční plán",
+  "monthlyPlanDiscountFormat": "Sleva {percent}% oproti měsíčnímu plánu",
   "purchaseErrorUnknown": "Došlo k neznámé chybě. Zkuste to znovu později. Pokud problém přetrvává, kontaktujte nás přes Nastavení > Kontakt. Podrobnosti: {message}",
   "purchaseErrorStoreProblem": "V {storeName} došlo k chybě. Zkuste to znovu za chvíli.",
   "purchaseErrorInvalidPayment": "Platba se nezdařila. Zkontrolujte, zda je váš způsob platby platný, a zkuste to znovu.",

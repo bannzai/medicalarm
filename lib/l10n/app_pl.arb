@@ -108,7 +108,7 @@
   "lossOfAppetite": "Utrata apetytu",
   "chestTightness": "Napięcie piersi",
   "insomnia": "Bezsenność",
-  "monthlyPlanDiscountFormat": "{percent}% taniej niż miesięcznie",
+  "monthlyPlanDiscountFormat": "{percent}% rabatu w porównaniu z planem miesięcznym",
   "purchaseErrorUnknown": "Wystąpił nieznany błąd. Spróbuj ponownie później. Jeśli problem będzie nadal występował, skontaktuj się z nami przez Ustawienia > Kontakt. Szczegóły: {message}",
   "purchaseErrorStoreProblem": "Wystąpił błąd w usłudze {storeName}. Spróbuj ponownie później.",
   "purchaseErrorInvalidPayment": "Płatność się nie powiodła. Sprawdź, czy Twoja metoda płatności jest prawidłowa, i spróbuj ponownie.",

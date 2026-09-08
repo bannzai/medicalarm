@@ -108,7 +108,7 @@
   "lossOfAppetite": "Kupoteza hamu ya kula",
   "chestTightness": "Mvutano wa matiti",
   "insomnia": "Kukosa usingizi",
-  "monthlyPlanDiscountFormat": "Punguzo la {percent}% ikilinganishwa na mpango wa mwezi",
+  "monthlyPlanDiscountFormat": "Punguzo la {percent}% ikilinganishwa na mpango wa kila mwezi",
   "purchaseErrorUnknown": "Hitilafu isiyojulikana imetokea. Tafadhali jaribu tena baadaye. Tatizo likiendelea, wasiliana nasi kupitia Mipangilio > Wasiliana nasi. Maelezo: {message}",
   "purchaseErrorStoreProblem": "Hitilafu imetokea kwenye {storeName}. Tafadhali jaribu tena baadaye.",
   "purchaseErrorInvalidPayment": "Malipo hayakufaulu. Tafadhali hakikisha kuwa njia yako ya malipo ni halali, kisha ujaribu tena.",

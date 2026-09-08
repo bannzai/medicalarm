@@ -108,7 +108,7 @@
   "lossOfAppetite": "Хоолны дуршил буурах",
   "chestTightness": "Хөх хөндүүрлэх",
   "insomnia": "Нойргүйдэл",
-  "monthlyPlanDiscountFormat": "Сарын төлөвлөгөөнөөс {percent}% хямд",
+  "monthlyPlanDiscountFormat": "Сарын багцаас {percent}% хямдралтай",
   "purchaseErrorUnknown": "Үл мэдэгдэх алдаа гарлаа. Хэсэг хугацааны дараа дахин оролдоно уу. Асуудал шийдэгдэхгүй бол Тохиргоо > Холбоо барих хэсгээр бидэнтэй холбогдоно уу. Дэлгэрэнгүй: {message}",
   "purchaseErrorStoreProblem": "{storeName}-д алдаа гарлаа. Хэсэг хугацааны дараа дахин оролдоно уу.",
   "purchaseErrorInvalidPayment": "Төлбөр амжилтгүй боллоо. Төлбөрийн арга тань хүчинтэй эсэхийг шалгаад дахин оролдоно уу.",

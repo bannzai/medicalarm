@@ -108,7 +108,7 @@
   "lossOfAppetite": "فقدان الشهية",
   "chestTightness": "احتقان الثدي",
   "insomnia": "الأرق",
-  "monthlyPlanDiscountFormat": "خصم {percent}% مقارنةً بالاشتراك الشهري",
+  "monthlyPlanDiscountFormat": "خصم {percent}% مقارنةً بالشهري",
   "purchaseErrorUnknown": "حدث خطأ غير معروف. يُرجى المحاولة مرة أخرى لاحقًا. إذا استمرت المشكلة، فتواصل معنا من الإعدادات > التواصل معنا. التفاصيل: {message}",
   "purchaseErrorStoreProblem": "حدث خطأ في {storeName}. يُرجى المحاولة مرة أخرى بعد قليل.",
   "purchaseErrorInvalidPayment": "فشل الدفع. يُرجى التحقق من صلاحية طريقة الدفع ثم المحاولة مرة أخرى.",

@@ -108,7 +108,7 @@
   "lossOfAppetite": "Apetito stoka",
   "chestTightness": "Krūtų tempimas",
   "insomnia": "Nemiga",
-  "monthlyPlanDiscountFormat": "{percent}% pigiau nei mokant kas mėnesį",
+  "monthlyPlanDiscountFormat": "{percent}% nuolaida, palyginti su mėnesiniu planu",
   "purchaseErrorUnknown": "Įvyko nežinoma klaida. Pabandykite dar kartą vėliau. Jei problema neišsisprendžia, susisiekite su mumis: Nustatymai > Kontaktai. Išsami informacija: {message}",
   "purchaseErrorStoreProblem": "Įvyko {storeName} klaida. Pabandykite dar kartą vėliau.",
   "purchaseErrorInvalidPayment": "Mokėjimas nepavyko. Patikrinkite, ar jūsų mokėjimo būdas galioja, ir bandykite dar kartą.",

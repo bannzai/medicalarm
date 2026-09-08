@@ -108,7 +108,7 @@
   "lossOfAppetite": "Appetitlosigkeit",
   "chestTightness": "Brustspannen",
   "insomnia": "Schlaflosigkeit",
-  "monthlyPlanDiscountFormat": "{percent}% günstiger als monatlich",
+  "monthlyPlanDiscountFormat": "{percent}% Rabatt gegenüber dem Monatsabo",
   "purchaseErrorUnknown": "Ein unbekannter Fehler ist aufgetreten. Bitte versuchen Sie es später erneut. Wenn das Problem weiterhin besteht, kontaktieren Sie uns über Einstellungen > Kontakt. Details: {message}",
   "purchaseErrorStoreProblem": "In {storeName} ist ein Fehler aufgetreten. Bitte versuchen Sie es später erneut.",
   "purchaseErrorInvalidPayment": "Die Zahlung ist fehlgeschlagen. Bitte prüfen Sie, ob Ihre Zahlungsmethode gültig ist, und versuchen Sie es erneut.",

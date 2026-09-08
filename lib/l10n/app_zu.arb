@@ -108,7 +108,7 @@
   "lossOfAppetite": "Ukuphelelwa isifiso sokudla",
   "chestTightness": "Ukuqina kwamabele",
   "insomnia": "Ukungalali",
-  "monthlyPlanDiscountFormat": "Isaphulelo esingu-{percent}% kunohlelo lwanyanga zonke",
+  "monthlyPlanDiscountFormat": "Isaphulelo esingu-{percent}% uma kuqhathaniswa nohlelo lwanyanga zonke",
   "purchaseErrorUnknown": "Kuvele iphutha elingaziwa. Sicela uzame futhi ngokuhamba kwesikhathi. Uma inkinga ingaxazululeki, xhumana nathi kokuthi Izilungiselelo > Xhumana nathi. Imininingwane: {message}",
   "purchaseErrorStoreProblem": "Kube nephutha ku-{storeName}. Sicela uphinde uzame ngemva kwesikhashana.",
   "purchaseErrorInvalidPayment": "Inkokhelo yehlulekile. Sicela uhlole ukuthi indlela yakho yokukhokha isemthethweni bese uzama futhi.",

@@ -108,7 +108,7 @@
   "lossOfAppetite": "Kawalan ng gana",
   "chestTightness": "Pananakit ng dibdib",
   "insomnia": "Hindi pagkakatulog",
-  "monthlyPlanDiscountFormat": "{percent}% mas mura kaysa buwan-buwan",
+  "monthlyPlanDiscountFormat": "{percent}% diskuwento kumpara sa buwanan",
   "purchaseErrorUnknown": "May naganap na hindi kilalang error. Subukan muli pagkalipas ng ilang sandali. Kung hindi malutas ang problema, makipag-ugnayan sa amin sa Mga Setting > Makipag-ugnayan. Mga detalye: {message}",
   "purchaseErrorStoreProblem": "Nagkaroon ng error sa {storeName}. Pakisubukang muli makalipas ang ilang sandali.",
   "purchaseErrorInvalidPayment": "Hindi natuloy ang pagbabayad. Tiyaking valid ang iyong paraan ng pagbabayad at subukan muli.",

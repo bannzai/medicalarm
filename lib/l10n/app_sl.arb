@@ -108,7 +108,7 @@
   "lossOfAppetite": "Izguba apetita",
   "chestTightness": "Napetost v dojkah",
   "insomnia": "Nespečnost",
-  "monthlyPlanDiscountFormat": "{percent}% ceneje kot mesečni paket",
+  "monthlyPlanDiscountFormat": "{percent}% popust glede na mesečni paket",
   "purchaseErrorUnknown": "Prišlo je do neznane napake. Poskusite znova pozneje. Če težava ne bo odpravljena, nas kontaktirajte v Nastavitve > Stik. Podrobnosti: {message}",
   "purchaseErrorStoreProblem": "V {storeName} je prišlo do napake. Poskusite znova pozneje.",
   "purchaseErrorInvalidPayment": "Plačilo ni uspelo. Preverite, ali je vaš način plačila veljaven, in poskusite znova.",

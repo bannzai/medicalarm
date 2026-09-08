@@ -108,7 +108,7 @@
   "lossOfAppetite": "ଭୋକ ନ ଲାଗିବା",
   "chestTightness": "ସ୍ତନରେ ଟାଣ",
   "insomnia": "ଅନିଦ୍ରା",
-  "monthlyPlanDiscountFormat": "ମାସିକ ଯୋଜନା ତୁଳନାରେ {percent}% ରିହାତି",
+  "monthlyPlanDiscountFormat": "ମାସିକ ପ୍ଲାନ୍ ତୁଳନାରେ {percent}% ରିହାତି",
   "purchaseErrorUnknown": "ଏକ ଅଜଣା ତ୍ରୁଟି ଘଟିଛି। ଦୟାକରି କିଛି ସମୟ ପରେ ପୁଣି ଚେଷ୍ଟା କରନ୍ତୁ। ସମସ୍ୟା ସମାଧାନ ନହେଲେ, ସେଟିଂସ୍ > ଯୋଗାଯୋଗ ମାଧ୍ୟମରେ ଆମ ସହିତ ଯୋଗାଯୋଗ କରନ୍ତୁ। ବିବରଣୀ: {message}",
   "purchaseErrorStoreProblem": "{storeName}ରେ ଏକ ତ୍ରୁଟି ଘଟିଛି। ଦୟାକରି କିଛି ସମୟ ପରେ ପୁଣି ଚେଷ୍ଟା କରନ୍ତୁ।",
   "purchaseErrorInvalidPayment": "ପେମେଣ୍ଟ ବିଫଳ ହୋଇଛି। ଦୟାକରି ଆପଣଙ୍କ ପେମେଣ୍ଟ ପଦ୍ଧତି ବୈଧ କି ନାହିଁ ଯାଞ୍ଚ କରି ପୁଣି ଚେଷ୍ଟା କରନ୍ତୁ।",

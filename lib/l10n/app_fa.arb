@@ -108,7 +108,7 @@
   "lossOfAppetite": "از دست دادن اشتها",
   "chestTightness": "احساس کشیدگی سینه",
   "insomnia": "بی‌خوابی",
-  "monthlyPlanDiscountFormat": "{percent}٪ تخفیف نسبت به اشتراک ماهانه",
+  "monthlyPlanDiscountFormat": "{percent}% تخفیف نسبت به طرح ماهانه",
   "purchaseErrorUnknown": "خطای ناشناخته‌ای رخ داد. لطفاً بعداً دوباره تلاش کنید. اگر مشکل برطرف نشد، از مسیر تنظیمات > تماس با ما با ما ارتباط بگیرید. جزئیات: {message}",
   "purchaseErrorStoreProblem": "در {storeName} خطایی رخ داده است. لطفاً کمی بعد دوباره تلاش کنید.",
   "purchaseErrorInvalidPayment": "پرداخت ناموفق بود. لطفاً معتبر بودن روش پرداخت خود را بررسی کنید و دوباره تلاش کنید.",

@@ -108,7 +108,7 @@
   "lossOfAppetite": "ক্ষুধামন্দা",
   "chestTightness": "স্তনে টান",
   "insomnia": "অনিদ্রা",
-  "monthlyPlanDiscountFormat": "মাসিকের তুলনায় {percent}% ছাড়",
+  "monthlyPlanDiscountFormat": "মাসিক প্ল্যানের তুলনায় {percent}% ছাড়",
   "purchaseErrorUnknown": "একটি অজানা ত্রুটি ঘটেছে। কিছুক্ষণ পরে আবার চেষ্টা করুন। সমস্যাটি সমাধান না হলে, সেটিংস > যোগাযোগ থেকে আমাদের সঙ্গে যোগাযোগ করুন। বিস্তারিত: {message}",
   "purchaseErrorStoreProblem": "{storeName}-এ একটি সমস্যা দেখা দিয়েছে। অনুগ্রহ করে কিছুক্ষণ পরে আবার চেষ্টা করুন।",
   "purchaseErrorInvalidPayment": "পেমেন্ট ব্যর্থ হয়েছে। আপনার পেমেন্ট পদ্ধতি বৈধ কিনা যাচাই করে আবার চেষ্টা করুন।",
