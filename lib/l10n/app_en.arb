@@ -47,7 +47,7 @@
   "otherInformation": "Other",
   "doseReceiver": "Medication user",
   "defaultDoseReceiver": "Me",
-  "doseReceiverMaxCount": "You can register up to {count} medication users",
+  "doseReceiverMaxCount": "You can register up to {count} medication recipients",
   "increaseLimitWithPremium": "Increase the limit to {count} with the Premium plan",
   "addDoseReceiver": "Add medication user",
   "newDoseReceiver": "New medication user",

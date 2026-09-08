@@ -47,7 +47,7 @@
   "otherInformation": "Іншае",
   "doseReceiver": "Чалавек, які прымае лекі",
   "defaultDoseReceiver": "Я",
-  "doseReceiverMaxCount": "Можна зарэгістраваць да {count} чалавек, якія прымаюць лекі",
+  "doseReceiverMaxCount": "Можна зарэгістраваць да {count} атрымальнікаў лекаў",
   "increaseLimitWithPremium": "Павялічыць ліміт да {count} з прэміум-планам",
   "addDoseReceiver": "Дадаць атрымальніка лекаў",
   "newDoseReceiver": "Новы атрымальнік лекаў",

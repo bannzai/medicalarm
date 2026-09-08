@@ -47,7 +47,7 @@
   "otherInformation": "Andet",
   "doseReceiver": "Person, der tager medicinen",
   "defaultDoseReceiver": "Mig",
-  "doseReceiverMaxCount": "Du kan registrere op til {count} personer, der tager medicin",
+  "doseReceiverMaxCount": "Du kan registrere op til {count} medicinbrugere",
   "increaseLimitWithPremium": "Øg grænsen til {count} med Premium-planen",
   "addDoseReceiver": "Tilføj medicinbruger",
   "newDoseReceiver": "Ny medicinbruger",

@@ -47,7 +47,7 @@
   "otherInformation": "Diğer",
   "doseReceiver": "İlacı kullanan kişi",
   "defaultDoseReceiver": "Ben",
-  "doseReceiverMaxCount": "En fazla {count} ilaç kullanan kişi kaydedebilirsiniz",
+  "doseReceiverMaxCount": "En fazla {count} ilaç kullanıcısı kaydedebilirsiniz",
   "increaseLimitWithPremium": "Premium planla sınırı {count} değerine yükseltin",
   "addDoseReceiver": "İlaç kullanan kişi ekle",
   "newDoseReceiver": "Yeni ilaç kullanıcısı",

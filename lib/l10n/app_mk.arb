@@ -47,7 +47,7 @@
   "otherInformation": "Друго",
   "doseReceiver": "Лице што го зема лекот",
   "defaultDoseReceiver": "Јас",
-  "doseReceiverMaxCount": "Можете да регистрирате најмногу {count} лица кои земаат лекови",
+  "doseReceiverMaxCount": "Можете да регистрирате најмногу {count} лица што земаат лекови",
   "increaseLimitWithPremium": "Зголемете го ограничувањето на {count} со Premium планот",
   "addDoseReceiver": "Додај лице што зема лекови",
   "newDoseReceiver": "Нов корисник на лекови",

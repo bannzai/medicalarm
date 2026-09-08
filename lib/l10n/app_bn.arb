@@ -47,7 +47,7 @@
   "otherInformation": "অন্যান্য",
   "doseReceiver": "ওষুধ গ্রহণকারী",
   "defaultDoseReceiver": "আমি",
-  "doseReceiverMaxCount": "সর্বাধিক {count} জন ওষুধ গ্রহণকারী নিবন্ধন করা যাবে",
+  "doseReceiverMaxCount": "সর্বাধিক {count} জন ওষুধ গ্রহণকারী নিবন্ধন করতে পারবেন",
   "increaseLimitWithPremium": "প্রিমিয়াম প্ল্যানে সীমা {count}-এ বাড়ান",
   "addDoseReceiver": "ওষুধ গ্রহণকারী যোগ করুন",
   "newDoseReceiver": "নতুন ওষুধ গ্রহণকারী",

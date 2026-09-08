@@ -47,7 +47,7 @@
   "otherInformation": "Cits",
   "doseReceiver": "Zāļu lietotājs",
   "defaultDoseReceiver": "Es",
-  "doseReceiverMaxCount": "Varat reģistrēt līdz {count} personām, kas lieto medikamentus",
+  "doseReceiverMaxCount": "Varat reģistrēt līdz {count} zāļu lietotājiem",
   "increaseLimitWithPremium": "Palieliniet ierobežojumu līdz {count}, izmantojot Premium plānu",
   "addDoseReceiver": "Pievienot zāļu lietotāju",
   "newDoseReceiver": "Jauns zāļu lietotājs",

@@ -47,7 +47,7 @@
   "otherInformation": "სხვა",
   "doseReceiver": "მედიკამენტის მიმღები",
   "defaultDoseReceiver": "მე",
-  "doseReceiverMaxCount": "შეგიძლიათ დაარეგისტრიროთ მაქსიმუმ {count} მედიკამენტის მომხმარებელი",
+  "doseReceiverMaxCount": "შეგიძლიათ დაარეგისტრიროთ მაქსიმუმ {count} მედიკამენტის მიმღები",
   "increaseLimitWithPremium": "Premium გეგმით ლიმიტი გაზარდეთ {count}-მდე",
   "addDoseReceiver": "მედიკამენტის მიმღების დამატება",
   "newDoseReceiver": "მედიკამენტის ახალი მომხმარებელი",

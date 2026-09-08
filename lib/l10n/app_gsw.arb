@@ -47,7 +47,7 @@
   "otherInformation": "Sunschtigs",
   "doseReceiver": "Person, wo s Medikament nimmt",
   "defaultDoseReceiver": "Ich",
-  "doseReceiverMaxCount": "Sie chönd bis zu {count} Persone registriere, wo Medikament nähmed",
+  "doseReceiverMaxCount": "Sie chönd bis zu {count} Medikamentenutzendi registriere",
   "increaseLimitWithPremium": "Limite mit em Premium-Abo uf {count} erhöhe",
   "addDoseReceiver": "Person hinzuefüege, wo Medikament nimmt",
   "newDoseReceiver": "Neue Medikamenten-Nutzer",

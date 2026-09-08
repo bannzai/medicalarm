@@ -47,7 +47,7 @@
   "otherInformation": "Ostalo",
   "doseReceiver": "Osoba koja uzima lijek",
   "defaultDoseReceiver": "Ja",
-  "doseReceiverMaxCount": "Možete registrovati najviše {count} osoba koje uzimaju lijekove",
+  "doseReceiverMaxCount": "Možete registrovati najviše {count} korisnika lijekova",
   "increaseLimitWithPremium": "Povećajte ograničenje na {count} uz Premium plan",
   "addDoseReceiver": "Dodaj osobu koja uzima lijekove",
   "newDoseReceiver": "Novi korisnik lijekova",

@@ -47,7 +47,7 @@
   "otherInformation": "Sonstiges",
   "doseReceiver": "Person, die das Medikament einnimmt",
   "defaultDoseReceiver": "Ich",
-  "doseReceiverMaxCount": "Sie können bis zu {count} Personen registrieren, die Medikamente einnehmen",
+  "doseReceiverMaxCount": "Sie können bis zu {count} Medikamentennutzer registrieren",
   "increaseLimitWithPremium": "Limit mit dem Premium-Abo auf {count} erhöhen",
   "addDoseReceiver": "Medikamente einnehmende Person hinzufügen",
   "newDoseReceiver": "Neue Person",

@@ -47,7 +47,7 @@
   "otherInformation": "Annað",
   "doseReceiver": "Sá sem tekur lyfið",
   "defaultDoseReceiver": "Ég",
-  "doseReceiverMaxCount": "Þú getur skráð allt að {count} einstaklinga sem taka lyf",
+  "doseReceiverMaxCount": "Þú getur skráð allt að {count} lyfjanotendur",
   "increaseLimitWithPremium": "Hækkaðu hámarkið í {count} með Premium-áskriftinni",
   "addDoseReceiver": "Bæta við lyfjanotanda",
   "newDoseReceiver": "Nýr lyfjanotandi",

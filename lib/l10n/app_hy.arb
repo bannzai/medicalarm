@@ -47,7 +47,7 @@
   "otherInformation": "Այլ",
   "doseReceiver": "Դեղամիջոց ընդունող անձ",
   "defaultDoseReceiver": "Ես",
-  "doseReceiverMaxCount": "Կարող եք գրանցել մինչև {count} դեղորայք ընդունող անձի",
+  "doseReceiverMaxCount": "Կարող եք գրանցել առավելագույնը {count} դեղ ընդունող անձի",
   "increaseLimitWithPremium": "Premium ծրագրով ավելացրեք սահմանաչափը մինչև {count}",
   "addDoseReceiver": "Ավելացնել դեղ ընդունող անձ",
   "newDoseReceiver": "Դեղորայքի նոր օգտագործող",
