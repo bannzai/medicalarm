@@ -130,7 +130,7 @@
   "premiumCancelDescription": "・Pärast ostu saate automaatse uuendamise tühistada {storeName} rakenduse konto seadetes. (Automaatset uuendamist ei saa rakenduses tühistada.)",
   "purchaseErrorRestoreFailed": "Varasemate ostude teavet ei leitud. Kontrolli oma kontot ja proovi uuesti.",
   "purchaseErrorUserNotFound": "Kasutajat ei saanud kinnitada. Taaskäivitage rakendus ja proovige uuesti. Üksikasjad: {message}",
-  "purchaseErrorActivationPending": "Tellimuse aktiveerimine pole veel lõpule viidud. Kontrollige palun hiljem uuesti.",
+  "purchaseErrorActivationPending": "Tasulise teenuse aktiveerimine pole veel lõpule viidud. Kontrollige palun mõne aja pärast uuesti.",
   "purchaseErrorTimeout": "Ühendus aegus. Kontrollige võrguühendust ja proovige uuesti. Kui probleem püsib, võtke meiega ühendust menüüs Seaded > Kontakt. Üksikasjad: {message}",
   "purchaseErrorNetworkError": "Ühendusega tekkis probleem. Kontrollige võrguühendust ja proovige uuesti. Kui probleem püsib, võtke meiega ühendust menüüs Seaded > Võta ühendust. Üksikasjad: {message}",
   "sixMonthPlan": "6 kuu plaan",

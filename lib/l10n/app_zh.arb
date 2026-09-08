@@ -130,7 +130,7 @@
   "premiumCancelDescription": "・购买后，您可以在 {storeName} App 的账户设置中取消自动续订。（无法在 App 内取消自动续订。）",
   "purchaseErrorRestoreFailed": "找不到之前的购买信息。请检查您的账户后重试。",
   "purchaseErrorUserNotFound": "无法验证用户。请重新启动应用后再试。详细信息：{message}",
-  "purchaseErrorActivationPending": "订阅激活尚未完成。请稍后再检查。",
+  "purchaseErrorActivationPending": "付费服务尚未完成激活。请稍后再检查。",
   "purchaseErrorTimeout": "请求超时。请检查网络连接后重试。如果问题仍未解决，请通过“设置”>“联系我们”与我们联系。详细信息：{message}",
   "purchaseErrorNetworkError": "连接出现问题。请检查网络连接后重试。如果问题仍未解决，请前往“设置”>“联系我们”与我们联系。详情：{message}",
   "sixMonthPlan": "6个月方案",

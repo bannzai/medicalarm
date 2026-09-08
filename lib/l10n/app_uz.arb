@@ -130,7 +130,7 @@
   "premiumCancelDescription": "・Xariddan so‘ng avtomatik yangilanishni {storeName} ilovasining hisob sozlamalarida bekor qilishingiz mumkin. (Avtomatik yangilanishni ilova ichidan bekor qilib bo‘lmaydi.)",
   "purchaseErrorRestoreFailed": "Avvalgi xaridlar haqidagi maʼlumot topilmadi. Hisobingizni tekshirib, qayta urinib ko‘ring.",
   "purchaseErrorUserNotFound": "Foydalanuvchini tasdiqlab bo‘lmadi. Ilovani qayta ishga tushirib, yana urinib ko‘ring. Tafsilotlar: {message}",
-  "purchaseErrorActivationPending": "Obunani faollashtirish yakunlanmadi. Iltimos, birozdan so‘ng qayta tekshiring.",
+  "purchaseErrorActivationPending": "Pullik xizmatni faollashtirish hali yakunlanmagan. Iltimos, birozdan keyin qayta tekshiring.",
   "purchaseErrorTimeout": "Vaqt tugadi. Tarmoq ulanishingizni tekshirib, qayta urinib ko‘ring. Muammo hal bo‘lmasa, Sozlamalar > Bog‘lanish bo‘limi orqali biz bilan bog‘laning. Tafsilotlar: {message}",
   "purchaseErrorNetworkError": "Ulanishda muammo yuz berdi. Tarmoq ulanishini tekshiring va qayta urinib ko‘ring. Muammo davom etsa, Sozlamalar > Biz bilan bog‘lanish orqali bizga murojaat qiling. Tafsilotlar: {message}",
   "sixMonthPlan": "6 oylik reja",

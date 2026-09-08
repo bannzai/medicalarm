@@ -130,7 +130,7 @@
   "premiumCancelDescription": "・After purchase, you can cancel automatic renewal in the account settings of the {storeName} app. (Automatic renewal cannot be canceled within the app.)",
   "purchaseErrorRestoreFailed": "Previous purchase information could not be found. Check your account and try again.",
   "purchaseErrorUserNotFound": "The user could not be verified. Please restart the app and try again. Details: {message}",
-  "purchaseErrorActivationPending": "Subscription activation is not complete. Please check again later.",
+  "purchaseErrorActivationPending": "Premium activation is not complete yet. Please check again later.",
   "purchaseErrorTimeout": "The request timed out. Check your network connection and try again. If the problem persists, contact us via Settings > Contact. Details: {message}",
   "purchaseErrorNetworkError": "There was a connection problem. Check your network connection and try again. If the problem persists, contact us via Settings > Contact Us. Details: {message}",
   "sixMonthPlan": "6-Month Plan",

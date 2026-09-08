@@ -130,7 +130,7 @@
   "premiumCancelDescription": "・Nakon kupnje automatsku obnovu možete otkazati u postavkama računa u aplikaciji {storeName}. (Automatsku obnovu nije moguće otkazati u aplikaciji.)",
   "purchaseErrorRestoreFailed": "Podaci o prethodnim kupnjama nisu pronađeni. Provjerite svoj račun i pokušajte ponovno.",
   "purchaseErrorUserNotFound": "Korisnika nije moguće potvrditi. Ponovno pokrenite aplikaciju i pokušajte ponovno. Pojedinosti: {message}",
-  "purchaseErrorActivationPending": "Aktivacija pretplate nije dovršena. Provjerite ponovno kasnije.",
+  "purchaseErrorActivationPending": "Aktivacija plaćene usluge još nije dovršena. Provjerite ponovno nakon nekog vremena.",
   "purchaseErrorTimeout": "Isteklo je vrijeme. Provjerite mrežnu vezu i pokušajte ponovno. Ako se problem nastavi, kontaktirajte nas putem Postavke > Kontakt. Pojedinosti: {message}",
   "purchaseErrorNetworkError": "Došlo je do problema s vezom. Provjerite mrežnu vezu i pokušajte ponovno. Ako se problem nastavi, obratite nam se putem Postavke > Kontaktirajte nas. Pojedinosti: {message}",
   "sixMonthPlan": "Plan na 6 mjeseci",

@@ -130,7 +130,7 @@
   "premiumCancelDescription": "・Po zakoupení můžete automatické obnovení zrušit v nastavení účtu v aplikaci {storeName}. (Automatické obnovení nelze zrušit přímo v aplikaci.)",
   "purchaseErrorRestoreFailed": "Informace o předchozích nákupech nebyly nalezeny. Zkontrolujte svůj účet a zkuste to znovu.",
   "purchaseErrorUserNotFound": "Uživatele se nepodařilo ověřit. Restartujte aplikaci a zkuste to znovu. Podrobnosti: {message}",
-  "purchaseErrorActivationPending": "Aktivace předplatného nebyla dokončena. Zkontrolujte to prosím později.",
+  "purchaseErrorActivationPending": "Aktivace placené služby ještě nebyla dokončena. Zkontrolujte to prosím za chvíli znovu.",
   "purchaseErrorTimeout": "Vypršel časový limit. Zkontrolujte připojení k síti a zkuste to znovu. Pokud problém přetrvá, kontaktujte nás přes Nastavení > Kontakt. Podrobnosti: {message}",
   "purchaseErrorNetworkError": "Došlo k problému s připojením. Zkontrolujte síťové připojení a zkuste to znovu. Pokud problém přetrvá, kontaktujte nás v Nastavení > Kontaktujte nás. Podrobnosti: {message}",
   "sixMonthPlan": "6měsíční plán",

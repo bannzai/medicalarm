@@ -130,7 +130,7 @@
   "premiumCancelDescription": "・Eftir kaup geturðu sagt upp sjálfvirkri endurnýjun í reikningsstillingum {storeName}-appsins. (Ekki er hægt að segja upp sjálfvirkri endurnýjun í appinu.)",
   "purchaseErrorRestoreFailed": "Upplýsingar um fyrri kaup fundust ekki. Athugaðu reikninginn þinn og reyndu aftur.",
   "purchaseErrorUserNotFound": "Ekki tókst að staðfesta notandann. Endurræstu appið og reyndu aftur. Upplýsingar: {message}",
-  "purchaseErrorActivationPending": "Virkjun áskriftar er ekki lokið. Athugaðu aftur síðar.",
+  "purchaseErrorActivationPending": "Virkjun áskriftarþjónustunnar er ekki lokið enn. Athugaðu aftur síðar.",
   "purchaseErrorTimeout": "Tíminn rann út. Athugaðu nettenginguna og reyndu aftur. Ef vandamálið leysist ekki skaltu hafa samband við okkur í Stillingar > Hafðu samband. Upplýsingar: {message}",
   "purchaseErrorNetworkError": "Tengingarvandamál kom upp. Athugaðu nettenginguna og reyndu aftur. Ef vandamálið leysist ekki skaltu hafa samband við okkur í Stillingar > Hafa samband. Upplýsingar: {message}",
   "sixMonthPlan": "6 mánaða áskrift",

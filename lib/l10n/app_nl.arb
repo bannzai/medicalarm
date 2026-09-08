@@ -130,7 +130,7 @@
   "premiumCancelDescription": "・Na aankoop kunt u automatische verlenging annuleren via de accountinstellingen in de {storeName}-app. (Automatische verlenging kan niet in de app worden geannuleerd.)",
   "purchaseErrorRestoreFailed": "Informatie over eerdere aankopen is niet gevonden. Controleer je account en probeer het opnieuw.",
   "purchaseErrorUserNotFound": "De gebruiker kan niet worden geverifieerd. Start de app opnieuw en probeer het opnieuw. Details: {message}",
-  "purchaseErrorActivationPending": "De activering van het abonnement is nog niet voltooid. Controleer het later opnieuw.",
+  "purchaseErrorActivationPending": "De activering van de betaalde dienst is nog niet voltooid. Controleer het later opnieuw.",
   "purchaseErrorTimeout": "De time-out is verstreken. Controleer je netwerkverbinding en probeer het opnieuw. Als het probleem aanhoudt, neem dan contact met ons op via Instellingen > Contact. Details: {message}",
   "purchaseErrorNetworkError": "Er is een verbindingsprobleem opgetreden. Controleer je netwerkverbinding en probeer het opnieuw. Blijft het probleem bestaan? Neem dan contact met ons op via Instellingen > Contact. Details: {message}",
   "sixMonthPlan": "6-maandenplan",
