@@ -230,13 +230,5 @@
   "doseIntervalWarningMessage": "Lijek ste već uzeli u {latestTakeTime}. Postavljeno je da između doza mora proći najmanje {minimumDoseIntervalHours} sati. Želite li ga ipak zabilježiti?",
   "doseIntervalWarningTakeAnyway": "Zabilježi",
   "doseIntervalNotificationWarning": "⚠️ Od prethodne doze nije prošlo {minimumDoseIntervalHours} sati",
-  "ossLicense": "OSS licence",
-  "achievementWeeklyLabel": "Uzimanje lijekova ovog tjedna",
-  "achievementWeeklyCountSuffix": "/{scheduledCount} puta",
-  "achievementStreakLabel": "Niz",
-  "achievementStreakDaysSuffix": "dana",
-  "achievementMonthlyRateLabel": "Stopa ostvarenja: {month}",
-  "achievementLegendAllTaken": "Sve",
-  "achievementLegendPartiallyTaken": "Djelomično",
-  "achievementLegendNoneTaken": "Nijedno"
+  "ossLicense": "OSS licence"
 }

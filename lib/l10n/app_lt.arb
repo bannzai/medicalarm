@@ -230,13 +230,5 @@
   "doseIntervalWarningMessage": "Vaistą jau išgėrėte {latestTakeTime}. Nustatyta, kad tarp dozių turi būti bent {minimumDoseIntervalHours} valandų pertrauka. Ar vis tiek įrašyti?",
   "doseIntervalWarningTakeAnyway": "Įrašyti",
   "doseIntervalNotificationWarning": "⚠️ Nuo paskutinės dozės nepraėjo {minimumDoseIntervalHours} val.",
-  "ossLicense": "OSS licencijos",
-  "achievementWeeklyLabel": "Šios savaitės vaistų vartojimas",
-  "achievementWeeklyCountSuffix": "/{scheduledCount} kartų",
-  "achievementStreakLabel": "Nepertraukiama serija",
-  "achievementStreakDaysSuffix": "dienos",
-  "achievementMonthlyRateLabel": "Įvykdymo rodiklis: {month}",
-  "achievementLegendAllTaken": "Visi",
-  "achievementLegendPartiallyTaken": "Iš dalies",
-  "achievementLegendNoneTaken": "Nė viena"
+  "ossLicense": "OSS licencijos"
 }

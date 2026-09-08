@@ -230,13 +230,5 @@
   "doseIntervalWarningMessage": "Ви вже прийняли ліки о {latestTakeTime}. Налаштування передбачає інтервал між прийомами щонайменше {minimumDoseIntervalHours} годин. Усе одно записати прийом?",
   "doseIntervalWarningTakeAnyway": "Записати",
   "doseIntervalNotificationWarning": "⚠️ Від останнього прийому не минуло {minimumDoseIntervalHours} годин",
-  "ossLicense": "Ліцензії OSS",
-  "achievementWeeklyLabel": "Прийом ліків цього тижня",
-  "achievementWeeklyCountSuffix": "/{scheduledCount} разів",
-  "achievementStreakLabel": "Серія",
-  "achievementStreakDaysSuffix": "днів",
-  "achievementMonthlyRateLabel": "Показник виконання: {month}",
-  "achievementLegendAllTaken": "Усі",
-  "achievementLegendPartiallyTaken": "Частково",
-  "achievementLegendNoneTaken": "Жодного"
+  "ossLicense": "Ліцензії OSS"
 }

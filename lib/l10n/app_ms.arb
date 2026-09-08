@@ -230,13 +230,5 @@
   "doseIntervalWarningMessage": "Anda telah mengambil ubat pada {latestTakeTime}. Tetapan menetapkan selang sekurang-kurangnya {minimumDoseIntervalHours} jam antara dos. Tetap rekodkan?",
   "doseIntervalWarningTakeAnyway": "Rekod",
   "doseIntervalNotificationWarning": "⚠️ Belum {minimumDoseIntervalHours} jam berlalu sejak dos terakhir",
-  "ossLicense": "Lesen OSS",
-  "achievementWeeklyLabel": "Pengambilan ubat minggu ini",
-  "achievementWeeklyCountSuffix": "/{scheduledCount} kali",
-  "achievementStreakLabel": "Rentetan berturut-turut",
-  "achievementStreakDaysSuffix": "hari",
-  "achievementMonthlyRateLabel": "Kadar pencapaian: {month}",
-  "achievementLegendAllTaken": "Semua",
-  "achievementLegendPartiallyTaken": "Sebahagian",
-  "achievementLegendNoneTaken": "Tiada"
+  "ossLicense": "Lesen OSS"
 }

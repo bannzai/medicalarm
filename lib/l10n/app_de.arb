@@ -230,13 +230,5 @@
   "doseIntervalWarningMessage": "Sie haben das Medikament bereits um {latestTakeTime} eingenommen. Die Einstellung sieht einen Mindestabstand von {minimumDoseIntervalHours} Stunden zwischen den Einnahmen vor. Möchten Sie die Einnahme trotzdem erfassen?",
   "doseIntervalWarningTakeAnyway": "Aufzeichnen",
   "doseIntervalNotificationWarning": "⚠️ Seit der letzten Einnahme sind noch keine {minimumDoseIntervalHours} Stunden vergangen",
-  "ossLicense": "OSS-Lizenzen",
-  "achievementWeeklyLabel": "Medikamenteneinnahme diese Woche",
-  "achievementWeeklyCountSuffix": "/{scheduledCount} Mal",
-  "achievementStreakLabel": "Serie",
-  "achievementStreakDaysSuffix": "Tage",
-  "achievementMonthlyRateLabel": "Erfüllungsrate: {month}",
-  "achievementLegendAllTaken": "Alle",
-  "achievementLegendPartiallyTaken": "Teilweise",
-  "achievementLegendNoneTaken": "Keine"
+  "ossLicense": "OSS-Lizenzen"
 }

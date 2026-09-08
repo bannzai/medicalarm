@@ -230,13 +230,5 @@
   "doseIntervalWarningMessage": "Έχετε ήδη πάρει τη δόση στις {latestTakeTime}. Η ρύθμιση απαιτεί να μεσολαβούν τουλάχιστον {minimumDoseIntervalHours} ώρες μεταξύ των δόσεων. Θέλετε να την καταγράψετε ούτως ή άλλως;",
   "doseIntervalWarningTakeAnyway": "Καταγραφή",
   "doseIntervalNotificationWarning": "⚠️ Δεν έχουν περάσει {minimumDoseIntervalHours} ώρες από την τελευταία λήψη",
-  "ossLicense": "Άδειες OSS",
-  "achievementWeeklyLabel": "Λήψη φαρμάκων αυτή την εβδομάδα",
-  "achievementWeeklyCountSuffix": "/{scheduledCount} φορές",
-  "achievementStreakLabel": "Σερί",
-  "achievementStreakDaysSuffix": "ημέρες",
-  "achievementMonthlyRateLabel": "Ποσοστό επίτευξης: {month}",
-  "achievementLegendAllTaken": "Όλα",
-  "achievementLegendPartiallyTaken": "Μερική",
-  "achievementLegendNoneTaken": "Κανένα"
+  "ossLicense": "Άδειες OSS"
 }
