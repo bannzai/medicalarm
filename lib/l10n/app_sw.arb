@@ -45,7 +45,7 @@
   "quantityExample": "Mfano: tembe 1, 100 mg",
   "medicationStartDate": "Tarehe ya kuanza kutumia dawa",
   "otherInformation": "Nyingine",
-  "doseReceiver": "Mtumiaji wa dawa",
+  "doseReceiver": "Mtu anayekunywa dawa",
   "defaultDoseReceiver": "Mimi mwenyewe",
   "doseReceiverMaxCount": "Unaweza kusajili hadi {count} watu wanaotumia dawa",
   "increaseLimitWithPremium": "Ongeza kikomo hadi {count} kwa mpango wa Premium",

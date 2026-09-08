@@ -45,7 +45,7 @@
   "quantityExample": "ಉದಾಹರಣೆ: 1 ಮಾತ್ರೆ, 100 mg",
   "medicationStartDate": "ಔಷಧಿ ಸೇವನೆ ಪ್ರಾರಂಭದ ದಿನಾಂಕ",
   "otherInformation": "ಇತರೆ",
-  "doseReceiver": "ಔಷಧಿ ಸೇವಿಸುವವರು",
+  "doseReceiver": "ಔಷಧಿ ತೆಗೆದುಕೊಳ್ಳುವವರು",
   "defaultDoseReceiver": "ನಾನು",
   "doseReceiverMaxCount": "ನೀವು ಗರಿಷ್ಠ {count} ಔಷಧಿ ಸೇವಿಸುವವರನ್ನು ನೋಂದಾಯಿಸಬಹುದು",
   "increaseLimitWithPremium": "ಪ್ರೀಮಿಯಂ ಪ್ಲಾನ್‌ನೊಂದಿಗೆ ಮಿತಿಯನ್ನು {count}ಕ್ಕೆ ಹೆಚ್ಚಿಸಿ",

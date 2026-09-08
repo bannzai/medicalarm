@@ -45,7 +45,7 @@
   "quantityExample": "Pavyzdys: 1 tabletė, 100 mg",
   "medicationStartDate": "Vaistų vartojimo pradžios data",
   "otherInformation": "Kita",
-  "doseReceiver": "Vaistų vartotojas",
+  "doseReceiver": "Vaistus vartojantis asmuo",
   "defaultDoseReceiver": "Aš",
   "doseReceiverMaxCount": "Galite užregistruoti iki {count} vaistus vartojančių asmenų",
   "increaseLimitWithPremium": "Naudodami „Premium“ planą padidinkite limitą iki {count}",

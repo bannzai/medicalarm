@@ -45,7 +45,7 @@
   "quantityExample": "උදාහරණය: පෙති 1ක්, 100 mg",
   "medicationStartDate": "ඖෂධ ගැනීම ආරම්භ කරන දිනය",
   "otherInformation": "වෙනත්",
-  "doseReceiver": "ඖෂධය ලබාගන්නා පුද්ගලයා",
+  "doseReceiver": "ඖෂධය ගන්නා පුද්ගලයා",
   "defaultDoseReceiver": "මම",
   "doseReceiverMaxCount": "ඔබට උපරිම වශයෙන් ඖෂධ ගන්නා පුද්ගලයන් {count} දෙනෙකු ලියාපදිංචි කළ හැකිය",
   "increaseLimitWithPremium": "Premium සැලසුම සමඟ සීමාව {count} දක්වා වැඩි කරන්න",

@@ -45,7 +45,7 @@
   "quantityExample": "Halimbawa: 1 tableta, 100 mg",
   "medicationStartDate": "Petsa ng pagsisimula ng pag-inom ng gamot",
   "otherInformation": "Iba pa",
-  "doseReceiver": "Umiinom ng gamot",
+  "doseReceiver": "Taong umiinom ng gamot",
   "defaultDoseReceiver": "Ako",
   "doseReceiverMaxCount": "Maaari kang magparehistro ng hanggang {count} taong umiinom ng gamot",
   "increaseLimitWithPremium": "Taasan ang limit sa {count} gamit ang Premium plan",

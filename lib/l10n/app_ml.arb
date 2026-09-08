@@ -45,7 +45,7 @@
   "quantityExample": "ഉദാഹരണം: 1 ഗുളിക, 100 mg",
   "medicationStartDate": "മരുന്ന് കഴിക്കാൻ തുടങ്ങുന്ന തീയതി",
   "otherInformation": "മറ്റുള്ളവ",
-  "doseReceiver": "മരുന്ന് കഴിക്കുന്നയാൾ",
+  "doseReceiver": "മരുന്ന് കഴിക്കുന്ന വ്യക്തി",
   "defaultDoseReceiver": "ഞാൻ",
   "doseReceiverMaxCount": "പരമാവധി {count} മരുന്ന് കഴിക്കുന്നവരെ രജിസ്റ്റർ ചെയ്യാം",
   "increaseLimitWithPremium": "പ്രീമിയം പ്ലാനിലൂടെ പരിധി {count} ആയി വർധിപ്പിക്കുക",

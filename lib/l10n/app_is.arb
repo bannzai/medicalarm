@@ -45,7 +45,7 @@
   "quantityExample": "Dæmi: 1 tafla, 100 mg",
   "medicationStartDate": "Upphafsdagsetning lyfjatöku",
   "otherInformation": "Annað",
-  "doseReceiver": "Lyfjanotandi",
+  "doseReceiver": "Sá sem tekur lyfið",
   "defaultDoseReceiver": "Ég sjálf(ur)",
   "doseReceiverMaxCount": "Þú getur skráð allt að {count} einstaklinga sem taka lyf",
   "increaseLimitWithPremium": "Hækkaðu hámarkið í {count} með Premium-áskriftinni",

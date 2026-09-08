@@ -45,7 +45,7 @@
   "quantityExample": "مثال: 1 گولی، 100 ملی گرام",
   "medicationStartDate": "دوا شروع کرنے کی تاریخ",
   "otherInformation": "دیگر",
-  "doseReceiver": "دوا لینے والا",
+  "doseReceiver": "دوا لینے والا شخص",
   "defaultDoseReceiver": "میں",
   "doseReceiverMaxCount": "آپ زیادہ سے زیادہ {count} دوا لینے والے افراد کو رجسٹر کر سکتے ہیں",
   "increaseLimitWithPremium": "پریمیم پلان کے ساتھ حد بڑھا کر {count} کریں",

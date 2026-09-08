@@ -45,7 +45,7 @@
   "quantityExample": "Bispiel: 1 Tablette, 100 mg",
   "medicationStartDate": "Startdatum vo de Medikamenteneinnahm",
   "otherInformation": "Sunschtigs",
-  "doseReceiver": "Medikamentenutzer",
+  "doseReceiver": "Person, wo s Medikament nimmt",
   "defaultDoseReceiver": "Ich",
   "doseReceiverMaxCount": "Sie chönd bis zu {count} Persone registriere, wo Medikament nähmed",
   "increaseLimitWithPremium": "Limite mit em Premium-Abo uf {count} erhöhe",
