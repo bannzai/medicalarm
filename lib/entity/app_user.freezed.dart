@@ -24,7 +24,7 @@ mixin _$AppUser {
   @NullableTimestampConverter()
   DateTime? get maybeTrialDeadlineDate;
   @NullableTimestampConverter()
-  DateTime? get promotionStartPageCancelButtonTappedDateTime; // 初回起動のオンボーディング (features/onboarding) を完了 (ペイウォールを閉じた) した日時。null なら未完了
+  DateTime? get promotionStartPageCancelButtonTappedDateTime; // 初回起動のオンボーディング (features/onboarding) と薬登録の案内を完了した日時。null なら未完了
   @NullableTimestampConverter()
   DateTime? get onboardingCompletedDateTime;
   @ClientCreatedTimestamp()
@@ -443,7 +443,7 @@ class _AppUser extends AppUser {
   @override
   @NullableTimestampConverter()
   final DateTime? promotionStartPageCancelButtonTappedDateTime;
-// 初回起動のオンボーディング (features/onboarding) を完了 (ペイウォールを閉じた) した日時。null なら未完了
+// 初回起動のオンボーディング (features/onboarding) と薬登録の案内を完了した日時。null なら未完了
   @override
   @NullableTimestampConverter()
   final DateTime? onboardingCompletedDateTime;

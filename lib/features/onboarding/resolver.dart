@@ -4,11 +4,16 @@ import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:medicalarm/components/loading/indicator.dart';
+import 'package:medicalarm/components/error/error_alert.dart';
 import 'package:medicalarm/entity/app_user.dart';
 import 'package:medicalarm/features/onboarding/page.dart';
+import 'package:medicalarm/features/onboarding/components/medication_registration_page.dart';
 import 'package:medicalarm/features/onboarding/steps.dart';
 import 'package:medicalarm/features/preium_introduction/premium_introduction_sheet.dart';
 import 'package:medicalarm/provider/onboarding.dart';
+import 'package:medicalarm/provider/onboarding_medication_plan.dart';
+import 'package:medicalarm/provider/current_group_id.dart';
+import 'package:medicalarm/provider/app_user.dart';
 import 'package:medicalarm/utils/analytics/analytics.dart';
 import 'package:medicalarm/utils/analytics/error.dart';
 import 'package:medicalarm/utils/purchase/purchase.dart';
@@ -39,7 +44,7 @@ bool shouldPresentOnboarding({
 }
 
 /// 条件を満たす間 [OnboardingPage] を表示し、結果画面の CTA でペイウォール (既存のプレミアム紹介シート) を開く。
-/// シートが閉じられたら完了として Firestore に記録し、[builder] (ホーム画面) へ進む。
+/// シートが閉じられたら最初の薬登録へ案内し、完了として Firestore に記録して [builder] (ホーム画面) へ進む。
 /// [builder] には、このセッションでオンボーディングを完了したか (表示せず通過した場合は false) を渡す。
 ///
 /// 表示判定は entitlement 以外の条件 (完了記録あり・既存ユーザー) を先に評価し、
@@ -69,7 +74,7 @@ class OnboardingResolver extends HookConsumerWidget {
     // 表示判定は一度確定させたら固定する。以後 appUser・customerInfo が更新されても再判定しない。
     // build 中に代入するため useState (setState during build になる) ではなく useRef に保持する
     final decision = useRef<bool?>(null);
-    // 完了 (ペイウォールを閉じた) 後にホームへ進めるためのフラグ。判定自体は変えない
+    // 薬登録の案内を終えた後にホームへ進めるためのフラグ。判定自体は変えない
     final isCompleted = useState(false);
     // customerInfo の待ち時間が上限に達したか。hooks は early return より前に毎回同じ順序で呼ぶ
     final waitTimedOut = useState(false);
@@ -112,7 +117,7 @@ class OnboardingResolver extends HookConsumerWidget {
     final isShortForm = isShortFormOnboarding(languageCode: languageCode);
     return OnboardingPage(
       isShortForm: isShortForm,
-      onPlanStartPressed: () async {
+      onPlanStartPressed: ({required dailyDoseCount}) async {
         // CTA の連打 (アクセシビリティ操作を含む) で showPremiumIntroductionSheet が 2 重に開き、完了イベント・完了記録が重複しないようにする
         if (isPaywallOpening.value) {
           return;
@@ -120,9 +125,24 @@ class OnboardingResolver extends HookConsumerWidget {
         isPaywallOpening.value = true;
         try {
           final onboardingComplete = ref.read(onboardingCompleteProvider);
+          final onboardingMedicationPlan = ref.read(
+            onboardingMedicationPlanStoreProvider(userID: ref.read(appUserIDProvider), groupID: ref.read(currentGroupIDProvider)!).notifier,
+          );
           analytics.logEvent(name: 'onboarding_paywall_shown');
           await showPremiumIntroductionSheet(context);
+          if (!context.mounted) return;
           analytics.logEvent(name: 'onboarding_paywall_closed');
+          final medicationPlan = await onboardingMedicationPlan.create(
+            dailyDoseCount: dailyDoseCount.scheduleCount,
+            hasMedicines: await ref.read(hasRegisteredMedicinesProvider.future),
+          );
+          if (!context.mounted) return;
+          if (medicationPlan != null) {
+            await Navigator.of(context).push<void>(MaterialPageRoute(
+              builder: (context) => OnboardingMedicationRegistrationPage(schedules: medicationPlan.schedules),
+            ));
+          }
+          if (!context.mounted) return;
           analytics.logEvent(name: 'onboarding_completed', parameters: {'form': isShortForm ? 'short' : 'long'});
           isCompleted.value = true;
           try {
@@ -131,6 +151,9 @@ class OnboardingResolver extends HookConsumerWidget {
             // 完了記録に失敗してもホームへは進める。記録が無いままなら次回起動 (作成から 1 日以内) に再表示される
             errorLogger.recordError(error, stackTrace);
           }
+        } catch (error, stackTrace) {
+          errorLogger.recordError(error, stackTrace);
+          if (context.mounted) showErrorAlert(context, error.toString());
         } finally {
           isPaywallOpening.value = false;
         }

@@ -4,6 +4,7 @@ import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:medicalarm/features/localization/l.dart';
 import 'package:medicalarm/features/onboarding/components/plan_generating_step.dart';
 import 'package:medicalarm/features/onboarding/page.dart';
+import 'package:medicalarm/features/onboarding/steps.dart';
 import 'package:medicalarm/style/color.dart';
 
 void main() {
@@ -12,7 +13,7 @@ void main() {
   Future<void> pumpOnboarding(
     WidgetTester tester, {
     required bool isShortForm,
-    required VoidCallback onPlanStartPressed,
+    required void Function({required OnboardingDailyDoseCount dailyDoseCount}) onPlanStartPressed,
     Size size = const Size(390, 844),
     TextScaler textScaler = TextScaler.noScaling,
   }) async {
@@ -79,7 +80,11 @@ void main() {
 
   testWidgets('JP 短尺: 価値宣言 → 質問 3 つ → プラン生成 → 結果提示の順に進み CTA でコールバックが呼ばれる', (tester) async {
     var planStartPressedCount = 0;
-    await pumpOnboarding(tester, isShortForm: true, onPlanStartPressed: () => planStartPressedCount++);
+    OnboardingDailyDoseCount? selectedDailyDoseCount;
+    await pumpOnboarding(tester, isShortForm: true, onPlanStartPressed: ({required dailyDoseCount}) {
+      selectedDailyDoseCount = dailyDoseCount;
+      planStartPressedCount++;
+    });
 
     expect(find.text(L.onboardingWelcomeTitle), findsOneWidget);
     await tapAndSettle(tester, L.onboardingStart);
@@ -114,11 +119,12 @@ void main() {
     await tester.tap(find.text(L.onboardingPlanStart));
     await tester.pump();
     expect(planStartPressedCount, 1);
+    expect(selectedDailyDoseCount, OnboardingDailyDoseCount.twice);
   });
 
   testWidgets('US 長尺: 価値提示・Before/After・目標設定を含む全画面を通過し、目標と上限超過のプレミアム訴求が結果に反映される', (tester) async {
     var planStartPressedCount = 0;
-    await pumpOnboarding(tester, isShortForm: false, onPlanStartPressed: () => planStartPressedCount++);
+    await pumpOnboarding(tester, isShortForm: false, onPlanStartPressed: ({required dailyDoseCount}) => planStartPressedCount++);
 
     await walkThroughLongForm(tester);
 
@@ -135,7 +141,7 @@ void main() {
     await pumpOnboarding(
       tester,
       isShortForm: false,
-      onPlanStartPressed: () {},
+      onPlanStartPressed: ({required dailyDoseCount}) {},
       size: const Size(320, 568),
       textScaler: const TextScaler.linear(2.0),
     );
@@ -147,7 +153,7 @@ void main() {
   });
 
   testWidgets('戻るボタンで前の質問へ戻り、回答済みの選択肢が保持される', (tester) async {
-    await pumpOnboarding(tester, isShortForm: true, onPlanStartPressed: () {});
+    await pumpOnboarding(tester, isShortForm: true, onPlanStartPressed: ({required dailyDoseCount}) {});
 
     await tapAndSettle(tester, L.onboardingStart);
     // 価値宣言の次 (最初の質問) から戻るボタンが出る
@@ -167,13 +173,13 @@ void main() {
   });
 
   testWidgets('価値宣言の画面には戻るボタンを出さない', (tester) async {
-    await pumpOnboarding(tester, isShortForm: true, onPlanStartPressed: () {});
+    await pumpOnboarding(tester, isShortForm: true, onPlanStartPressed: ({required dailyDoseCount}) {});
 
     expect(find.byIcon(Icons.arrow_back), findsNothing);
   });
 
   testWidgets('遷移アニメーションの完了後は戻るボタンが有効になる', (tester) async {
-    await pumpOnboarding(tester, isShortForm: true, onPlanStartPressed: () {});
+    await pumpOnboarding(tester, isShortForm: true, onPlanStartPressed: ({required dailyDoseCount}) {});
 
     await tester.tap(find.text(L.onboardingStart));
     await tester.pump();
@@ -185,7 +191,7 @@ void main() {
   });
 
   testWidgets('遷移中は戻るボタンが無効になり、連打しても 1 ステップしか戻らない', (tester) async {
-    await pumpOnboarding(tester, isShortForm: true, onPlanStartPressed: () {});
+    await pumpOnboarding(tester, isShortForm: true, onPlanStartPressed: ({required dailyDoseCount}) {});
 
     await tapAndSettle(tester, L.onboardingStart);
     await tapAndSettle(tester, L.onboardingFrequencyOften);

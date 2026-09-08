@@ -16,6 +16,8 @@ import 'package:medicalarm/entity/group_member_notification_settings.dart';
 import 'package:medicalarm/entity/medication_history.dart';
 import 'package:medicalarm/entity/medicine.dart';
 import 'package:medicalarm/features/medications/components/add_button.dart';
+import 'package:medicalarm/features/medications/components/card_layout.dart';
+import 'package:medicalarm/features/medications/components/placeholder_cards.dart';
 import 'package:medicalarm/features/medications/components/dose_interval_warning_dialog.dart';
 import 'package:medicalarm/components/calendar/day/today_badge.dart';
 import 'package:medicalarm/features/medications/components/group_chips_bar.dart';
@@ -172,6 +174,7 @@ class MedicationsPageBody extends HookConsumerWidget {
                               ),
                               const SizedBox(height: 20),
                             ],
+                            MedicationPlaceholderCards(date: date.value),
                             for (final tileValue in medicationGroups(
                               medicines: medicines,
                               medicationHistories: medicationHistories,
@@ -207,50 +210,15 @@ class MedicationGroupTile extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final primaryColor = Theme.of(context).colorScheme.primary;
-
-    return Padding(
-      padding: const EdgeInsets.symmetric(horizontal: 16.0),
-      child: Container(
-        padding: const EdgeInsets.symmetric(vertical: 10.0, horizontal: 10.0),
-        decoration: BoxDecoration(
-          color: Colors.white,
-          borderRadius: BorderRadius.circular(8),
-          border: Border.all(color: AppColors.border),
-          boxShadow: [
-            BoxShadow(
-              color: Colors.black.withValues(alpha: 0.1),
-              spreadRadius: 2,
-              blurRadius: 5,
-              offset: const Offset(0, 3), // 影の位置を調整
-            ),
-          ],
-        ),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Text(
-              tileValue.scheduleTime.toTimeString(),
-              style: TextStyle(
-                fontSize: 20,
-                fontWeight: FontWeight.bold,
-                color: primaryColor,
-              ),
-            ),
-            const SizedBox(height: 4),
-            Text(
-              tileValue.doseReceiver.name,
-              style: const TextStyle(
-                fontSize: 18,
-                fontWeight: FontWeight.bold,
-              ),
-            ),
-            const SizedBox(height: 4),
-            for (final scheduleRow in tileValue.scheduleRows) ...[
-              MedicineTileScheduleRow(key: ValueKey(scheduleRow.id), scheduleRow: scheduleRow),
-            ],
-          ],
-        ),
+    return MedicationCardLayout(
+      time: tileValue.scheduleTime.toTimeString(),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Text(tileValue.doseReceiver.name, style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
+          const SizedBox(height: 4),
+          for (final scheduleRow in tileValue.scheduleRows) MedicineTileScheduleRow(key: ValueKey(scheduleRow.id), scheduleRow: scheduleRow),
+        ],
       ),
     );
   }

@@ -23,7 +23,7 @@ class OnboardingPage extends HookConsumerWidget {
   final bool isShortForm;
   // ペイウォール表示と完了の永続化は OnboardingResolver が担う (PromotionStartPage と同じ resolver → page の分担) ため、
   // 結果画面の CTA だけをコールバックで親へ返す
-  final VoidCallback onPlanStartPressed;
+  final void Function({required OnboardingDailyDoseCount dailyDoseCount}) onPlanStartPressed;
 
   const OnboardingPage({
     super.key,
@@ -190,7 +190,7 @@ class OnboardingPage extends HookConsumerWidget {
                   dailyDoseCount: dailyDoseCount.value,
                   medicineCount: medicineCount.value,
                   goal: goal.value,
-                  onPlanStartPressed: onPlanStartPressed,
+                  onPlanStartPressed: () => onPlanStartPressed(dailyDoseCount: dailyDoseCount.value!),
                 ),
             },
           ),

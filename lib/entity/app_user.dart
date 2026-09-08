@@ -20,7 +20,7 @@ abstract class AppUser with _$AppUser {
     @Default(false) bool analyticsDebugIsEnabled,
     @NullableTimestampConverter() DateTime? maybeTrialDeadlineDate,
     @NullableTimestampConverter() DateTime? promotionStartPageCancelButtonTappedDateTime,
-    // 初回起動のオンボーディング (features/onboarding) を完了 (ペイウォールを閉じた) した日時。null なら未完了
+    // 初回起動のオンボーディング (features/onboarding) と薬登録の案内を完了した日時。null なら未完了
     @NullableTimestampConverter() DateTime? onboardingCompletedDateTime,
     @ClientCreatedTimestamp() DateTime? createdDateTime,
     @ClientUpdatedTimestamp() DateTime? updatedDateTime,

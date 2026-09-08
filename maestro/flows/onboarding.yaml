@@ -21,3 +21,9 @@ appId: com.bannzai.medicalarm
 - extendedWaitUntil:
     notVisible: "プレミアムプラン"
     timeout: 5000
+- extendedWaitUntil:
+    visible: "最初のお薬を登録しましょう"
+    timeout: 15000
+- assertVisible: "08:00"
+- assertVisible: "19:00"
+- tapOn: "あとで"

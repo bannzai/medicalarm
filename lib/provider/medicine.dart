@@ -4,6 +4,8 @@ import 'package:medicalarm/entity/medication_frequency.dart';
 import 'package:medicalarm/entity/medicine.dart';
 import 'package:medicalarm/features/resolver/database.dart';
 import 'package:medicalarm/provider/app_user.dart';
+import 'package:medicalarm/provider/onboarding_medication_plan.dart';
+import 'package:medicalarm/utils/analytics/error.dart';
 import 'package:riverpod/riverpod.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 
@@ -23,7 +25,11 @@ class MedicineAdd {
   // 作成者(creator)の uid。Medicine.userID に設定する。
   final String userID;
 
-  MedicineAdd({required this.database, required this.userID});
+  /// 書き込み成功後に同じユーザー・グループの仮設定を削除する。
+  /// Firestore の書き込み先を固定したまま端末の状態を更新するため処理を注入する。
+  final Future<void> Function() removeOnboardingMedicationPlan;
+
+  MedicineAdd({required this.database, required this.userID, required this.removeOnboardingMedicationPlan});
 
   Future<Medicine> call({
     required String name,
@@ -50,13 +56,27 @@ class MedicineAdd {
       beganDateTime: beganDateTime,
     );
     await docRef.set(medicine, SetOptions(merge: true));
+    try {
+      await removeOnboardingMedicationPlan();
+    } catch (error, stackTrace) {
+      // 薬の保存は成功済み。端末の通知解除失敗を登録失敗とすると再試行で薬が重複する。
+      // ホーム画面の薬の存在監視でも仮設定の削除を再試行する。
+      errorLogger.recordError(error, stackTrace);
+    }
     return medicine;
   }
 }
 
-@Riverpod(dependencies: [currentGroupDatabase, appUserID])
+@Riverpod(dependencies: [currentGroupDatabase, appUserID, OnboardingMedicationPlanStore])
 MedicineAdd medicineAdd(MedicineAddRef ref) {
-  return MedicineAdd(database: ref.watch(currentGroupDatabaseProvider), userID: ref.watch(appUserIDProvider));
+  final database = ref.watch(currentGroupDatabaseProvider);
+  final userID = ref.watch(appUserIDProvider);
+  return MedicineAdd(
+    database: database,
+    userID: userID,
+    removeOnboardingMedicationPlan: () =>
+        ref.read(onboardingMedicationPlanStoreProvider(userID: userID, groupID: database.groupID).notifier).remove(),
+  );
 }
 
 class MedicineUpdate {

@@ -26,7 +26,8 @@ class LocalNotificationsPage extends HookWidget {
     final pendingLocalNotifications = useState<List<PendingNotificationRequest>>([]);
     useEffect(() {
       void f() async {
-        pendingLocalNotifications.value = await localNotificationService.pendingReminderNotifications();
+        // 薬が未登録の案内通知も含め、OS に実際に予約された通知を検証できるようにする。
+        pendingLocalNotifications.value = await localNotificationService.plugin.pendingNotificationRequests();
       }
 
       f();

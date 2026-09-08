@@ -3,6 +3,7 @@ import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:medicalarm/features/home/page.dart';
 import 'package:medicalarm/features/localization/resolver.dart';
 import 'package:medicalarm/features/onboarding/resolver.dart';
+import 'package:medicalarm/features/onboarding/medication_plan_resolver.dart';
 import 'package:medicalarm/features/promotion_start/resolver.dart';
 import 'package:medicalarm/features/resolver/app_entity_prepare.dart';
 import 'package:medicalarm/features/resolver/app_user.dart';
@@ -47,7 +48,8 @@ class RootPage extends HookConsumerWidget {
                                 userID: user.uid,
                                 builder: (context) {
                                   debugPrint('Resolved: AppEntityPrepareResolver');
-                                  return OnboardingResolver(
+                                  return OnboardingMedicationPlanResolver(
+                                      child: OnboardingResolver(
                                     appUser: appUser,
                                     builder: (context, didCompleteOnboardingInThisSession) {
                                       debugPrint('Resolved: OnboardingResolver');
@@ -70,7 +72,7 @@ class RootPage extends HookConsumerWidget {
                                             return home();
                                           });
                                     },
-                                  );
+                                  ));
                                 },
                               );
                             });

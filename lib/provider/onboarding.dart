@@ -3,7 +3,7 @@ import 'package:riverpod_annotation/riverpod_annotation.dart';
 
 part 'onboarding.g.dart';
 
-// オンボーディングの完了日時を AppUser に記録する。ペイウォールを閉じた時点で呼ぶ
+// オンボーディングの完了日時を AppUser に記録する。最初の薬登録の案内を終えた時点で呼ぶ
 class OnboardingComplete {
   final UserDatabase userDatabase;
 

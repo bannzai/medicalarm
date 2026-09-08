@@ -1,5 +1,11 @@
 {
   "@@locale": "ja",
+  "onboardingMedicationRegistrationTitle": "最初のお薬を登録しましょう",
+  "onboardingMedicationRegistrationBody": "服用時刻を仮に用意しました\nお薬に合わせて変更できます",
+  "onboardingMedicationLater": "あとで",
+  "onboardingMedicationPlaceholderTitle": "お薬が未登録です",
+  "onboardingMedicationPlaceholderBody": "この時刻にお薬の登録をお知らせします",
+  "onboardingMedicationPlanNotificationBody": "お薬を登録して服薬リマインダーを設定しましょう",
   "retry": "再試行",
   "@retry": {
     "description": "エラーが発生した際やデータの読み込みに失敗した際に、再度処理を実行するためのボタンテキスト"
