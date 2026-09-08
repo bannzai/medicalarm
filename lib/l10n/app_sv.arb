@@ -28,7 +28,7 @@
   "error": "Ett fel uppstod",
   "unexpectedError": "Ett oväntat fel inträffade",
   "cancel": "Avbryt",
-  "delete": "Ta bort",
+  "delete": "Radera",
   "deleteAccount": "Radera konto",
   "deleteAccountConfirm": "Användarinformationen raderas",
   "deleteAccountMessage": "När du raderar kontot raderas all användarinformation.",

@@ -28,7 +28,7 @@
   "error": "Došlo je do greške",
   "unexpectedError": "Došlo je do neočekivane greške",
   "cancel": "Otkaži",
-  "delete": "Obriši",
+  "delete": "Izbriši",
   "deleteAccount": "Izbriši račun",
   "deleteAccountConfirm": "Podaci o korisniku će biti izbrisani",
   "deleteAccountMessage": "Brisanjem računa bit će izbrisani svi korisnički podaci.",
