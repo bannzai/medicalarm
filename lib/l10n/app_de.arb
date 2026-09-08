@@ -110,7 +110,7 @@
   "insomnia": "Schlaflosigkeit",
   "monthlyPlanDiscountFormat": "{percent}% Rabatt gegenüber dem Monatsabo",
   "purchaseErrorUnknown": "Ein unbekannter Fehler ist aufgetreten. Bitte versuchen Sie es später erneut. Wenn das Problem weiterhin besteht, kontaktieren Sie uns über Einstellungen > Kontakt. Details: {message}",
-  "purchaseErrorStoreProblem": "In {storeName} ist ein Fehler aufgetreten. Bitte versuchen Sie es später erneut.",
+  "purchaseErrorStoreProblem": "Bei {storeName} ist ein Fehler aufgetreten. Bitte versuchen Sie es später erneut.",
   "purchaseErrorInvalidPayment": "Die Zahlung ist fehlgeschlagen. Bitte prüfen Sie, ob Ihre Zahlungsmethode gültig ist, und versuchen Sie es erneut.",
   "purchaseErrorProductUnavailable": "Der ausgewählte Tarif ist derzeit nicht erhältlich. Bitte starten Sie die App neu und versuchen Sie es erneut.",
   "purchaseErrorAlreadyPurchased": "Sie haben bereits einen Plan gekauft. Um Ihre Kaufinformationen auf diesem Gerät wiederherzustellen, wählen Sie „Für bereits getätigte Käufe“.",

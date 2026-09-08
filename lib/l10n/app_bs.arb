@@ -110,7 +110,7 @@
   "insomnia": "Nesanica",
   "monthlyPlanDiscountFormat": "{percent}% popusta u odnosu na mjesečni plan",
   "purchaseErrorUnknown": "Došlo je do nepoznate greške. Pokušajte ponovo kasnije. Ako se problem nastavi, obratite nam se putem Postavke > Kontaktirajte nas. Detalji: {message}",
-  "purchaseErrorStoreProblem": "Došlo je do greške u {storeName}. Pokušajte ponovo nakon nekog vremena.",
+  "purchaseErrorStoreProblem": "Došlo je do greške u usluzi {storeName}. Pokušajte ponovo kasnije.",
   "purchaseErrorInvalidPayment": "Plaćanje nije uspjelo. Provjerite da li je vaš način plaćanja važeći i pokušajte ponovo.",
   "purchaseErrorProductUnavailable": "Odabrani plan trenutno nije dostupan za kupovinu. Ponovo pokrenite aplikaciju i pokušajte ponovo.",
   "purchaseErrorAlreadyPurchased": "Već ste kupili plan. Da biste vratili podatke o kupovini na ovom uređaju, izaberite „Za one koji su ranije kupili“.",

@@ -110,7 +110,7 @@
   "insomnia": "Insomnia",
   "monthlyPlanDiscountFormat": "Diskaun {percent}% berbanding pelan bulanan",
   "purchaseErrorUnknown": "Ralat tidak diketahui berlaku. Sila cuba lagi kemudian. Jika masalah berterusan, hubungi kami melalui Tetapan > Hubungi kami. Butiran: {message}",
-  "purchaseErrorStoreProblem": "Ralat berlaku pada {storeName}. Sila cuba lagi sebentar lagi.",
+  "purchaseErrorStoreProblem": "Ralat berlaku pada {storeName}. Sila cuba lagi kemudian.",
   "purchaseErrorInvalidPayment": "Pembayaran gagal. Sila semak sama ada kaedah pembayaran anda sah dan cuba lagi.",
   "purchaseErrorProductUnavailable": "Pelan yang dipilih kini tidak tersedia untuk dibeli. Sila mulakan semula apl dan cuba lagi.",
   "purchaseErrorAlreadyPurchased": "Anda telah membeli pelan ini. Untuk memulihkan maklumat pembelian pada peranti ini, pilih “Untuk yang pernah membeli”.",

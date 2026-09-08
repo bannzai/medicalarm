@@ -110,7 +110,7 @@
   "insomnia": "Hindi pagkakatulog",
   "monthlyPlanDiscountFormat": "{percent}% diskuwento kumpara sa buwanang plano",
   "purchaseErrorUnknown": "May naganap na hindi kilalang error. Pakisubukang muli makalipas ang ilang sandali. Kung magpapatuloy ang problema, makipag-ugnayan sa amin sa Mga Setting > Makipag-ugnayan sa amin. Mga detalye: {message}",
-  "purchaseErrorStoreProblem": "Nagkaroon ng error sa {storeName}. Pakisubukan muli mamaya.",
+  "purchaseErrorStoreProblem": "Nagkaroon ng error sa {storeName}. Pakisubukan muli pagkalipas ng ilang sandali.",
   "purchaseErrorInvalidPayment": "Nabigo ang pagbabayad. Tiyaking valid ang paraan ng pagbabayad mo at subukan muli.",
   "purchaseErrorProductUnavailable": "Hindi kasalukuyang available para sa pagbili ang napiling plan. I-restart ang app at subukan muli.",
   "purchaseErrorAlreadyPurchased": "Nakabili ka na ng plano. Para i-restore ang impormasyon ng iyong binili sa device na ito, piliin ang “Para sa mga nakabili na dati.”",

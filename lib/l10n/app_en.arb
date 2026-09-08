@@ -110,7 +110,7 @@
   "insomnia": "Insomnia",
   "monthlyPlanDiscountFormat": "{percent}% off monthly",
   "purchaseErrorUnknown": "An unknown error occurred. Please try again later. If the problem persists, contact us via Settings > Contact us. Details: {message}",
-  "purchaseErrorStoreProblem": "There was a problem with {storeName}. Please try again later.",
+  "purchaseErrorStoreProblem": "An error occurred with {storeName}. Please try again later.",
   "purchaseErrorInvalidPayment": "Payment failed. Please check that your payment method is valid and try again.",
   "purchaseErrorProductUnavailable": "The selected plan is not currently available for purchase. Please restart the app and try again.",
   "purchaseErrorAlreadyPurchased": "You have already purchased a plan. To restore your purchase information on this device, select “For those who purchased before.”",

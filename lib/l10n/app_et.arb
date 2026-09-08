@@ -110,7 +110,7 @@
   "insomnia": "Unetus",
   "monthlyPlanDiscountFormat": "{percent}% soodsam kui kuupakett",
   "purchaseErrorUnknown": "Tundmatu tõrge. Proovige mõne aja pärast uuesti. Kui probleem püsib, võtke meiega ühendust menüüs Seaded > Võta meiega ühendust. Üksikasjad: {message}",
-  "purchaseErrorStoreProblem": "{storeName} kasutamisel tekkis viga. Proovige mõne aja pärast uuesti.",
+  "purchaseErrorStoreProblem": "{storeName} puhul ilmnes viga. Proovige hiljem uuesti.",
   "purchaseErrorInvalidPayment": "Makse ebaõnnestus. Kontrollige, kas teie makseviis on kehtiv, ja proovige uuesti.",
   "purchaseErrorProductUnavailable": "Valitud pakett ei ole praegu müügil. Taaskäivitage rakendus ja proovige uuesti.",
   "purchaseErrorAlreadyPurchased": "Olete juba plaani ostnud. Ostuteabe taastamiseks selles seadmes valige „Varem ostnud kasutajatele“.",

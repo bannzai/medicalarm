@@ -110,7 +110,7 @@
   "insomnia": "Insomni",
   "monthlyPlanDiscountFormat": "{percent}% de descompte respecte al pla mensual",
   "purchaseErrorUnknown": "S’ha produït un error desconegut. Torneu-ho a provar més tard. Si el problema persisteix, contacteu amb nosaltres des de Configuració > Contacta amb nosaltres. Detalls: {message}",
-  "purchaseErrorStoreProblem": "S'ha produït un error a {storeName}. Torneu-ho a provar més tard.",
+  "purchaseErrorStoreProblem": "S’ha produït un error a {storeName}. Torneu-ho a provar més tard.",
   "purchaseErrorInvalidPayment": "No s'ha pogut completar el pagament. Comproveu que el mètode de pagament sigui vàlid i torneu-ho a provar.",
   "purchaseErrorProductUnavailable": "El pla seleccionat no està disponible actualment per a la compra. Reinicieu l’app i torneu-ho a provar.",
   "purchaseErrorAlreadyPurchased": "Ja has comprat un pla. Per restaurar la informació de compra en aquest dispositiu, selecciona «Per a qui ja ha comprat».",

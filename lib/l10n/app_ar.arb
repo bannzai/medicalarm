@@ -110,7 +110,7 @@
   "insomnia": "الأرق",
   "monthlyPlanDiscountFormat": "خصم {percent}% مقارنةً بالشهري",
   "purchaseErrorUnknown": "حدث خطأ غير معروف. يُرجى المحاولة مرة أخرى بعد قليل. إذا استمرت المشكلة، يُرجى التواصل معنا من خلال الإعدادات > التواصل معنا. التفاصيل: {message}",
-  "purchaseErrorStoreProblem": "حدث خطأ في {storeName}. يُرجى المحاولة مرة أخرى بعد قليل.",
+  "purchaseErrorStoreProblem": "حدث خطأ في {storeName}. يُرجى المحاولة مرة أخرى لاحقًا.",
   "purchaseErrorInvalidPayment": "فشل الدفع. يُرجى التحقق من صلاحية طريقة الدفع ثم المحاولة مرة أخرى.",
   "purchaseErrorProductUnavailable": "الخطة المحددة غير متاحة للبيع حاليًا. يُرجى إعادة تشغيل التطبيق ثم المحاولة مرة أخرى.",
   "purchaseErrorAlreadyPurchased": "لقد اشتريت خطة بالفعل. لاستعادة معلومات الشراء على هذا الجهاز، اختر «لمن اشتروا من قبل».",

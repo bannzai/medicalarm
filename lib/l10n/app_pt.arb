@@ -110,7 +110,7 @@
   "insomnia": "Insônia",
   "monthlyPlanDiscountFormat": "{percent}% de desconto em relação ao plano mensal",
   "purchaseErrorUnknown": "Ocorreu um erro desconhecido. Tente novamente mais tarde. Se o problema persistir, contacte-nos através de Definições > Contacte-nos. Detalhes: {message}",
-  "purchaseErrorStoreProblem": "Ocorreu um erro em {storeName}. Tente novamente mais tarde.",
+  "purchaseErrorStoreProblem": "Ocorreu um erro com {storeName}. Tente novamente mais tarde.",
   "purchaseErrorInvalidPayment": "O pagamento falhou. Verifique se o seu método de pagamento é válido e tente novamente.",
   "purchaseErrorProductUnavailable": "O plano selecionado não está disponível para compra no momento. Reinicie a aplicação e tente novamente.",
   "purchaseErrorAlreadyPurchased": "Você já comprou um plano. Para restaurar as informações da compra neste dispositivo, selecione “Para quem já comprou”.",

@@ -110,7 +110,7 @@
   "insomnia": "Insomnioa",
   "monthlyPlanDiscountFormat": "{percent}%eko deskontua hileko planarekin alderatuta",
   "purchaseErrorUnknown": "Errore ezezagun bat gertatu da. Saiatu berriro geroago. Arazoak jarraitzen badu, jarri gurekin harremanetan Ezarpenak > Jarri gurekin harremanetan aukeratik. Xehetasunak: {message}",
-  "purchaseErrorStoreProblem": "Errore bat gertatu da {storeName} zerbitzuan. Saiatu berriro pixka bat geroago.",
+  "purchaseErrorStoreProblem": "Errore bat gertatu da {storeName} zerbitzuan. Saiatu berriro geroago.",
   "purchaseErrorInvalidPayment": "Ordainketak huts egin du. Egiaztatu ordainketa-metodoa baliozkoa dela eta saiatu berriro.",
   "purchaseErrorProductUnavailable": "Hautatutako plana ez dago salgai une honetan. Berrabiarazi aplikazioa eta saiatu berriro.",
   "purchaseErrorAlreadyPurchased": "Dagoeneko plan bat erosi duzu. Gailu honetan erosketa-informazioa leheneratzeko, hautatu «Aurretik erosi dutenentzat».",

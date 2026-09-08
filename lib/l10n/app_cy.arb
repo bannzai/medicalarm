@@ -110,7 +110,7 @@
   "insomnia": "Insomnia",
   "monthlyPlanDiscountFormat": "{percent}% i ffwrdd o gymharu â’r cynllun misol",
   "purchaseErrorUnknown": "Digwyddodd gwall anhysbys. Rhowch gynnig arall arni yn nes ymlaen. Os na chaiff y broblem ei datrys, cysylltwch â ni drwy Gosodiadau > Cysylltu â ni. Manylion: {message}",
-  "purchaseErrorStoreProblem": "Mae gwall wedi digwydd yn {storeName}. Rhowch gynnig arall arni ymhen ychydig.",
+  "purchaseErrorStoreProblem": "Mae gwall wedi digwydd yn {storeName}. Rhowch gynnig arall arni yn nes ymlaen.",
   "purchaseErrorInvalidPayment": "Methodd y taliad. Gwiriwch fod eich dull talu’n ddilys a rhowch gynnig arall arni.",
   "purchaseErrorProductUnavailable": "Nid yw’r cynllun a ddewiswyd ar werth ar hyn o bryd. Ailgychwynnwch yr ap a rhowch gynnig arall arni.",
   "purchaseErrorAlreadyPurchased": "Rydych eisoes wedi prynu cynllun. I adfer eich gwybodaeth brynu ar y ddyfais hon, dewiswch “Ar gyfer y rhai sydd wedi prynu o’r blaen”.",

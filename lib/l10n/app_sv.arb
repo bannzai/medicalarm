@@ -110,7 +110,7 @@
   "insomnia": "Sömnlöshet",
   "monthlyPlanDiscountFormat": "{percent}% rabatt jämfört med månadsplanen",
   "purchaseErrorUnknown": "Ett okänt fel inträffade. Försök igen senare. Kontakta oss via Inställningar > Kontakta oss om problemet kvarstår. Detaljer: {message}",
-  "purchaseErrorStoreProblem": "Ett fel uppstod i {storeName}. Försök igen senare.",
+  "purchaseErrorStoreProblem": "Ett fel uppstod med {storeName}. Försök igen senare.",
   "purchaseErrorInvalidPayment": "Betalningen misslyckades. Kontrollera att din betalningsmetod är giltig och försök igen.",
   "purchaseErrorProductUnavailable": "Den valda planen är inte tillgänglig för köp just nu. Starta om appen och försök igen.",
   "purchaseErrorAlreadyPurchased": "Du har redan köpt en plan. Om du vill återställa köpinformationen på den här enheten väljer du ”För dig som har köpt tidigare”.",
