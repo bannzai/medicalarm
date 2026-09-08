@@ -226,7 +226,7 @@
   "minimumDoseIntervalDescription": "Temps mínim entre preses",
   "minimumDoseIntervalNone": "Cap",
   "minimumDoseIntervalHoursFormat": "{hours} hores o més",
-  "doseIntervalWarningTitle": "L’interval entre les dosis encara no ha transcorregut",
+  "doseIntervalWarningTitle": "Encara no ha transcorregut l’interval mínim entre les dosis",
   "doseIntervalWarningMessage": "Ja consta que has pres la medicació a les {latestTakeTime}. S’ha establert un interval mínim de {minimumDoseIntervalHours} hores entre les dosis. Vols registrar-la igualment?",
   "doseIntervalWarningTakeAnyway": "Registrar",
   "doseIntervalNotificationWarning": "⚠️ No han passat {minimumDoseIntervalHours} hores des de l’última dosi",

@@ -226,7 +226,7 @@
   "minimumDoseIntervalDescription": "Pinakamababang pagitan mula sa huling pag-inom",
   "minimumDoseIntervalNone": "Wala",
   "minimumDoseIntervalHoursFormat": "{hours} oras o higit pa",
-  "doseIntervalWarningTitle": "Hindi pa lumilipas ang pagitan ng pag-inom ng gamot",
+  "doseIntervalWarningTitle": "Hindi pa lumilipas ang pinakamababang pagitan ng mga dosis",
   "doseIntervalWarningMessage": "Naitala na ang pag-inom ng gamot noong {latestTakeTime}. Kailangang may pagitan na hindi bababa sa {minimumDoseIntervalHours} oras sa pagitan ng mga dose. Itatala pa rin?",
   "doseIntervalWarningTakeAnyway": "Itala",
   "doseIntervalNotificationWarning": "⚠️ Hindi pa lumilipas ang {minimumDoseIntervalHours} oras mula sa huling pag-inom",

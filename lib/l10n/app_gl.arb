@@ -226,7 +226,7 @@
   "minimumDoseIntervalDescription": "Tempo mínimo entre doses",
   "minimumDoseIntervalNone": "Ningún",
   "minimumDoseIntervalHoursFormat": "{hours} horas ou máis",
-  "doseIntervalWarningTitle": "O intervalo entre as doses aínda non transcorreu",
+  "doseIntervalWarningTitle": "Aínda non transcorreu o intervalo mínimo entre as doses",
   "doseIntervalWarningMessage": "Xa consta que tomaches o medicamento ás {latestTakeTime}. A configuración require deixar polo menos {minimumDoseIntervalHours} horas entre as tomas. Queres rexistralo igualmente?",
   "doseIntervalWarningTakeAnyway": "Rexistrar",
   "doseIntervalNotificationWarning": "⚠️ Aínda non pasaron {minimumDoseIntervalHours} horas desde a última dose",

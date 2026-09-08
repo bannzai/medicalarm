@@ -226,7 +226,7 @@
   "minimumDoseIntervalDescription": "Мурунку кабыл алуудан кийинки минималдуу убакыт",
   "minimumDoseIntervalNone": "Жок",
   "minimumDoseIntervalHoursFormat": "{hours} саат же андан көп",
-  "doseIntervalWarningTitle": "Дозалардын ортосундагы убакыт аралыгы али бүтө элек",
+  "doseIntervalWarningTitle": "Дозалардын ортосундагы минималдуу убакыт али өткөн жок",
   "doseIntervalWarningMessage": "Дарыны {latestTakeTime} убакта ичкениңиз буга чейин катталган. Жөндөө дозалардын ортосунда кеминде {minimumDoseIntervalHours} саат болушун талап кылат. Ошентсе да катталсынбы?",
   "doseIntervalWarningTakeAnyway": "Каттоо",
   "doseIntervalNotificationWarning": "⚠️ Мурунку дозаны кабыл алгандан бери {minimumDoseIntervalHours} саат өткөн жок",

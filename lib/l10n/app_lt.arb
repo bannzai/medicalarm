@@ -226,7 +226,7 @@
   "minimumDoseIntervalDescription": "Minimalus laikas po ankstesnės dozės",
   "minimumDoseIntervalNone": "Nėra",
   "minimumDoseIntervalHoursFormat": "{hours} val. ar daugiau",
-  "doseIntervalWarningTitle": "Tarpas tarp dozių dar nepraėjo",
+  "doseIntervalWarningTitle": "Minimalus intervalas tarp dozių dar nepraėjo",
   "doseIntervalWarningMessage": "Jau užregistruota, kad vaistus išgėrėte {latestTakeTime}. Nustatyta, kad tarp dozių turi būti bent {minimumDoseIntervalHours} valandų tarpas. Vis tiek registruoti?",
   "doseIntervalWarningTakeAnyway": "Įrašyti",
   "doseIntervalNotificationWarning": "⚠️ Nuo paskutinės dozės išgėrimo nepraėjo {minimumDoseIntervalHours} val.",

@@ -226,7 +226,7 @@
   "minimumDoseIntervalDescription": "Yr amser lleiaf rhwng dosau",
   "minimumDoseIntervalNone": "Dim",
   "minimumDoseIntervalHoursFormat": "{hours} awr neu fwy",
-  "doseIntervalWarningTitle": "Nid yw’r cyfnod rhwng dosau wedi dod i ben eto",
+  "doseIntervalWarningTitle": "Nid yw’r cyfnod lleiaf rhwng dosau wedi mynd heibio",
   "doseIntervalWarningMessage": "Mae cofnod eich bod wedi cymryd y feddyginiaeth am {latestTakeTime}. Mae’r gosodiad yn gofyn am o leiaf {minimumDoseIntervalHours} awr rhwng dosau. Cofnodi beth bynnag?",
   "doseIntervalWarningTakeAnyway": "Cofnodi",
   "doseIntervalNotificationWarning": "⚠️ Nid yw {minimumDoseIntervalHours} awr wedi mynd heibio ers y dos diwethaf",

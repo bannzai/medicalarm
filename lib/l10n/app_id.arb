@@ -226,7 +226,7 @@
   "minimumDoseIntervalDescription": "Waktu minimum antara dosis",
   "minimumDoseIntervalNone": "Tidak ada",
   "minimumDoseIntervalHoursFormat": "{hours} jam atau lebih",
-  "doseIntervalWarningTitle": "Jarak waktu minum obat belum berlalu",
+  "doseIntervalWarningTitle": "Interval minimum antar dosis belum berlalu",
   "doseIntervalWarningMessage": "Anda sudah tercatat minum obat pada {latestTakeTime}. Pengaturan mengharuskan jeda setidaknya {minimumDoseIntervalHours} jam antar dosis. Tetap catat?",
   "doseIntervalWarningTakeAnyway": "Catat",
   "doseIntervalNotificationWarning": "⚠️ Belum {minimumDoseIntervalHours} jam sejak dosis terakhir",

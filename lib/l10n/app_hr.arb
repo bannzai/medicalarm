@@ -226,7 +226,7 @@
   "minimumDoseIntervalDescription": "Minimalni razmak od prethodnog uzimanja",
   "minimumDoseIntervalNone": "Nema",
   "minimumDoseIntervalHoursFormat": "{hours} sati ili više",
-  "doseIntervalWarningTitle": "Razmak između doza još nije prošao",
+  "doseIntervalWarningTitle": "Minimalni razmak između doza još nije prošao",
   "doseIntervalWarningMessage": "Već je zabilježeno da ste uzeli lijek u {latestTakeTime}. Postavljeno je najmanje {minimumDoseIntervalHours} sati između doza. Ipak zabilježiti?",
   "doseIntervalWarningTakeAnyway": "Zabilježi",
   "doseIntervalNotificationWarning": "⚠️ Od prethodne doze nije prošlo {minimumDoseIntervalHours} sati",

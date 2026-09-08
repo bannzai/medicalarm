@@ -226,7 +226,7 @@
   "minimumDoseIntervalDescription": "আগের ডোজের পর অপেক্ষা করার ন্যূনতম সময়",
   "minimumDoseIntervalNone": "নেই",
   "minimumDoseIntervalHoursFormat": "{hours} ঘণ্টা বা তার বেশি",
-  "doseIntervalWarningTitle": "ওষুধ খাওয়ার ব্যবধান পূর্ণ হয়নি",
+  "doseIntervalWarningTitle": "ডোজগুলোর মধ্যকার ন্যূনতম সময় পার হয়নি",
   "doseIntervalWarningMessage": "{latestTakeTime}-এ ওষুধ খাওয়ার রেকর্ড ইতিমধ্যে আছে। ডোজের মধ্যে কমপক্ষে {minimumDoseIntervalHours} ঘণ্টা বিরতি রাখার সেটিং চালু আছে। তবুও রেকর্ড করবেন?",
   "doseIntervalWarningTakeAnyway": "রেকর্ড করুন",
   "doseIntervalNotificationWarning": "⚠️ আগের ডোজ নেওয়ার পর {minimumDoseIntervalHours} ঘণ্টা পার হয়নি",

@@ -226,7 +226,7 @@
   "minimumDoseIntervalDescription": "మునుపటి మోతాదు తర్వాత ఉండాల్సిన కనీస వ్యవధి",
   "minimumDoseIntervalNone": "ఏదీ లేదు",
   "minimumDoseIntervalHoursFormat": "{hours} గంటలు లేదా అంతకంటే ఎక్కువ",
-  "doseIntervalWarningTitle": "మందులు తీసుకునే మధ్య వ్యవధి ఇంకా పూర్తికాలేదు",
+  "doseIntervalWarningTitle": "డోస్‌ల మధ్య కనీస వ్యవధి ఇంకా పూర్తికాలేదు",
   "doseIntervalWarningMessage": "{latestTakeTime}కు మందు వేసుకున్నట్లు ఇప్పటికే నమోదు ఉంది. మోతాదుల మధ్య కనీసం {minimumDoseIntervalHours} గంటల వ్యవధి ఉండేలా సెట్టింగ్ ఉంది. అయినా నమోదు చేయాలా?",
   "doseIntervalWarningTakeAnyway": "రికార్డ్ చేయండి",
   "doseIntervalNotificationWarning": "⚠️ గత మోతాదు తీసుకున్నప్పటి నుంచి {minimumDoseIntervalHours} గంటలు కాలేదు",

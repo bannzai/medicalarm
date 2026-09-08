@@ -226,7 +226,7 @@
   "minimumDoseIntervalDescription": "Minimum tid mellem doser",
   "minimumDoseIntervalNone": "Ingen",
   "minimumDoseIntervalHoursFormat": "{hours} timer eller mere",
-  "doseIntervalWarningTitle": "Doseringsintervallet er endnu ikke gået",
+  "doseIntervalWarningTitle": "Minimumsintervallet mellem doser er ikke udløbet",
   "doseIntervalWarningMessage": "Det er allerede registreret, at du tog medicinen kl. {latestTakeTime}. Indstillingen kræver mindst {minimumDoseIntervalHours} timer mellem doser. Vil du registrere det alligevel?",
   "doseIntervalWarningTakeAnyway": "Registrér",
   "doseIntervalNotificationWarning": "⚠️ Der er ikke gået {minimumDoseIntervalHours} timer siden sidste dosis",

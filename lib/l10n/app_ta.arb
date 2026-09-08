@@ -226,7 +226,7 @@
   "minimumDoseIntervalDescription": "முந்தைய மருந்தளவுக்குப் பிறகு விட வேண்டிய குறைந்தபட்ச நேரம்",
   "minimumDoseIntervalNone": "எதுவுமில்லை",
   "minimumDoseIntervalHoursFormat": "{hours} மணிநேரம் அல்லது அதற்கு மேல்",
-  "doseIntervalWarningTitle": "மருந்து உட்கொள்ளும் இடைவெளி இன்னும் முடியவில்லை",
+  "doseIntervalWarningTitle": "டோஸ்களுக்கு இடையிலான குறைந்தபட்ச இடைவெளி இன்னும் முடியவில்லை",
   "doseIntervalWarningMessage": "{latestTakeTime} மணிக்கு மருந்து எடுத்தது ஏற்கனவே பதிவாகியுள்ளது. மருந்தளவுகளுக்கு இடையில் குறைந்தது {minimumDoseIntervalHours} மணிநேர இடைவெளி இருக்க வேண்டும் என அமைக்கப்பட்டுள்ளது. இருந்தாலும் பதிவு செய்யவா?",
   "doseIntervalWarningTakeAnyway": "பதிவு செய்",
   "doseIntervalNotificationWarning": "⚠️ முந்தைய டோஸ் எடுத்ததிலிருந்து {minimumDoseIntervalHours} மணிநேரம் ஆகவில்லை",

@@ -226,7 +226,7 @@
   "minimumDoseIntervalDescription": "Նախորդ ընդունումից հետո նվազագույն ժամանակը",
   "minimumDoseIntervalNone": "Չկա",
   "minimumDoseIntervalHoursFormat": "{hours} ժամ կամ ավելի",
-  "doseIntervalWarningTitle": "Դեղաչափերի միջև ընդմիջումը դեռ չի լրացել",
+  "doseIntervalWarningTitle": "Դեղաչափերի միջև նվազագույն ընդմիջումը դեռ չի անցել",
   "doseIntervalWarningMessage": "Դեղի ընդունումն արդեն գրանցված է՝ {latestTakeTime}-ին։ Կարգավորումը պահանջում է դեղաչափերի միջև առնվազն {minimumDoseIntervalHours} ժամ ընդմիջում։ Այնուամենայնիվ գրանցե՞լ։",
   "doseIntervalWarningTakeAnyway": "Գրանցել",
   "doseIntervalNotificationWarning": "⚠️ Նախորդ դեղաչափից դեռ չի անցել {minimumDoseIntervalHours} ժամ",

@@ -226,7 +226,7 @@
   "minimumDoseIntervalDescription": "الحد الأدنى للفاصل الزمني بين الجرعات",
   "minimumDoseIntervalNone": "غير محدد",
   "minimumDoseIntervalHoursFormat": "{hours} ساعات على الأقل",
-  "doseIntervalWarningTitle": "لم تنقضِ فترة الجرعات بعد",
+  "doseIntervalWarningTitle": "لم تنقضِ المدة الدنيا بين الجرعات",
   "doseIntervalWarningMessage": "تم تسجيل تناول الدواء في {latestTakeTime}. تم ضبط الفاصل الزمني بين الجرعات على {minimumDoseIntervalHours} ساعة على الأقل. هل تريد تسجيله على أي حال؟",
   "doseIntervalWarningTakeAnyway": "تسجيل",
   "doseIntervalNotificationWarning": "⚠️ لم تمر {minimumDoseIntervalHours} ساعة منذ الجرعة السابقة",

@@ -226,7 +226,7 @@
   "minimumDoseIntervalDescription": "Mindestabstand seit der letzten Einnahme",
   "minimumDoseIntervalNone": "Kei",
   "minimumDoseIntervalHoursFormat": "{hours} Stund oder meh",
-  "doseIntervalWarningTitle": "Dr Einnahmeabstand isch no nöd abgloffe",
+  "doseIntervalWarningTitle": "De Mindestabstand zwüsche de Dosis isch no nöd verstriche",
   "doseIntervalWarningMessage": "D Iinnahm um {latestTakeTime} isch scho erfasst. Zwüsche de Iinnahme müend mindestens {minimumDoseIntervalHours} Stund ligge. Trotzdem erfasse?",
   "doseIntervalWarningTakeAnyway": "Iitrage",
   "doseIntervalNotificationWarning": "⚠️ Sit dr letschte Dosis sind no kei {minimumDoseIntervalHours} Stund ver gange",

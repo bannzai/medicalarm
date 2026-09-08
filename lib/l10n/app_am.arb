@@ -226,7 +226,7 @@
   "minimumDoseIntervalDescription": "Դեղաչափերի միջև պահպանվող նվազագույն ժամանակը",
   "minimumDoseIntervalNone": "የለም",
   "minimumDoseIntervalHoursFormat": "{hours} ሰዓት ወይም ከዚያ በላይ",
-  "doseIntervalWarningTitle": "የመድኃኒት መውሰጃ ክፍተት ገና አላለፈም",
+  "doseIntervalWarningTitle": "በመድኃኒት መውሰድ መካከል ያለው ዝቅተኛ ጊዜ አልተሟላም",
   "doseIntervalWarningMessage": "በ{latestTakeTime} መድኃኒቱን እንደወሰዱ ተመዝግቧል። በመድኃኒቶች መካከል ቢያንስ {minimumDoseIntervalHours} ሰዓት እንዲሆን ተዘጋጅቷል። እንደገና መዝግብ?",
   "doseIntervalWarningTakeAnyway": "መዝግብ",
   "doseIntervalNotificationWarning": "⚠️ ካለፈው መድኃኒት መውሰድ ጊዜ ጀምሮ {minimumDoseIntervalHours} ሰዓት አልሞላም",

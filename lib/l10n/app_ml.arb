@@ -226,7 +226,7 @@
   "minimumDoseIntervalDescription": "മുമ്പത്തെ ഡോസിന് ശേഷമുള്ള കുറഞ്ഞ ഇടവേള",
   "minimumDoseIntervalNone": "ഒന്നുമില്ല",
   "minimumDoseIntervalHoursFormat": "{hours} മണിക്കൂറോ അതിലധികമോ",
-  "doseIntervalWarningTitle": "മരുന്ന് കഴിക്കേണ്ട ഇടവേള ഇതുവരെ കഴിഞ്ഞിട്ടില്ല",
+  "doseIntervalWarningTitle": "ഡോസുകൾക്കിടയിലെ കുറഞ്ഞ ഇടവേള ഇതുവരെ കഴിഞ്ഞിട്ടില്ല",
   "doseIntervalWarningMessage": "{latestTakeTime}-ന് മരുന്ന് കഴിച്ചതായി ഇതിനകം രേഖപ്പെടുത്തിയിട്ടുണ്ട്. ഡോസുകൾക്കിടയിൽ കുറഞ്ഞത് {minimumDoseIntervalHours} മണിക്കൂർ ഇടവേള വേണമെന്ന് ക്രമീകരിച്ചിരിക്കുന്നു. എന്നിരുന്നാലും രേഖപ്പെടുത്തണോ?",
   "doseIntervalWarningTakeAnyway": "രേഖപ്പെടുത്തുക",
   "doseIntervalNotificationWarning": "⚠️ മുമ്പത്തെ ഡോസ് എടുത്തിട്ട് {minimumDoseIntervalHours} മണിക്കൂർ കഴിഞ്ഞിട്ടില്ല",

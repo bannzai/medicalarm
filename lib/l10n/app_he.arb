@@ -226,7 +226,7 @@
   "minimumDoseIntervalDescription": "הזמן המינימלי בין מנות",
   "minimumDoseIntervalNone": "לא הוגדר",
   "minimumDoseIntervalHoursFormat": "לפחות {hours} שעות",
-  "doseIntervalWarningTitle": "מרווח הזמן בין המנות עדיין לא חלף",
+  "doseIntervalWarningTitle": "טרם חלף פרק הזמן המינימלי בין המנות",
   "doseIntervalWarningMessage": "כבר תועדה נטילת תרופה בשעה {latestTakeTime}. ההגדרה דורשת מרווח של לפחות {minimumDoseIntervalHours} שעות בין מנות. לתעד בכל זאת?",
   "doseIntervalWarningTakeAnyway": "תעד",
   "doseIntervalNotificationWarning": "⚠️ לא עברו {minimumDoseIntervalHours} שעות מאז המנה הקודמת",

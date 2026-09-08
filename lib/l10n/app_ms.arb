@@ -226,7 +226,7 @@
   "minimumDoseIntervalDescription": "Tempoh minimum antara dos",
   "minimumDoseIntervalNone": "Tiada",
   "minimumDoseIntervalHoursFormat": "{hours} jam atau lebih",
-  "doseIntervalWarningTitle": "Jarak antara dos masih belum berlalu",
+  "doseIntervalWarningTitle": "Selang minimum antara dos masih belum berlalu",
   "doseIntervalWarningMessage": "Pengambilan ubat pada {latestTakeTime} telah direkodkan. Tetapan memerlukan jarak sekurang-kurangnya {minimumDoseIntervalHours} jam antara dos. Tetap rekodkan?",
   "doseIntervalWarningTakeAnyway": "Rekodkan",
   "doseIntervalNotificationWarning": "⚠️ Belum {minimumDoseIntervalHours} jam berlalu sejak dos terakhir",
