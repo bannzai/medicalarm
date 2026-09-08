@@ -49,7 +49,7 @@
   "defaultDoseReceiver": "Ja",
   "doseReceiverMaxCount": "Možete registrovati najviše {count} osoba koje uzimaju lijekove",
   "increaseLimitWithPremium": "Povećajte ograničenje na {count} uz Premium plan",
-  "addDoseReceiver": "Dodajte korisnika za uzimanje",
+  "addDoseReceiver": "Dodaj osobu koja uzima lijekove",
   "newDoseReceiver": "Novi korisnik",
   "reloginRequired": "Ponovo se prijavite",
   "reloginMessage": "Da biste obrisali račun, ponovo se prijavite.",

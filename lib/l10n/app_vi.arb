@@ -49,7 +49,7 @@
   "defaultDoseReceiver": "Tôi",
   "doseReceiverMaxCount": "Bạn có thể đăng ký tối đa {count} người dùng thuốc",
   "increaseLimitWithPremium": "Tăng giới hạn lên {count} với gói Premium",
-  "addDoseReceiver": "Thêm người dùng",
+  "addDoseReceiver": "Thêm người dùng thuốc",
   "newDoseReceiver": "Người dùng mới",
   "reloginRequired": "Xin vui lòng đăng nhập lại",
   "reloginMessage": "Để xóa tài khoản, vui lòng đăng nhập lại.",

@@ -49,7 +49,7 @@
   "defaultDoseReceiver": "Jaz",
   "doseReceiverMaxCount": "Registrirate lahko največ {count} oseb, ki jemljejo zdravila",
   "increaseLimitWithPremium": "Povečajte omejitev na {count} s paketom Premium",
-  "addDoseReceiver": "Dodaj uporabnika",
+  "addDoseReceiver": "Dodaj osebo, ki jemlje zdravila",
   "newDoseReceiver": "Nov uporabnik",
   "reloginRequired": "Prosimo, se ponovno prijavite.",
   "reloginMessage": "Za brisanje računa, ponovno se prijavite.",

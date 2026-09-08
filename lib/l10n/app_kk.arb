@@ -49,7 +49,7 @@
   "defaultDoseReceiver": "Өзім",
   "doseReceiverMaxCount": "Ең көбі {count} дәрі қабылдайтын адамды тіркей аласыз",
   "increaseLimitWithPremium": "Premium жоспарымен шектеуді {count} мәніне дейін арттырыңыз",
-  "addDoseReceiver": "Пациентті қосу",
+  "addDoseReceiver": "Дәрі қабылдаушыны қосу",
   "newDoseReceiver": "Жаңа препаратты қабылдаушы",
   "reloginRequired": "Қайта кіріңіз",
   "reloginMessage": "Есепті жою үшін қайтадан кіру керек.",

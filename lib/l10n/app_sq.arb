@@ -49,7 +49,7 @@
   "defaultDoseReceiver": "Unë",
   "doseReceiverMaxCount": "Mund të regjistroni deri në {count} persona që marrin ilaçe",
   "increaseLimitWithPremium": "Rriteni kufirin në {count} me planin Premium",
-  "addDoseReceiver": "Shto përdoruesin e barnave",
+  "addDoseReceiver": "Shto personin që merr ilaçe",
   "newDoseReceiver": "Përdorues i ri",
   "reloginRequired": "Ju lutem, bëni një rivendosje të hyrjes",
   "reloginMessage": "Për të fshirë llogarinë, ju lutemi rikapërcjeleni.",

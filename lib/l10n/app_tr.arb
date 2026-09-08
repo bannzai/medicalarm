@@ -49,7 +49,7 @@
   "defaultDoseReceiver": "Kendim",
   "doseReceiverMaxCount": "En fazla {count} ilaç kullanan kişi kaydedebilirsiniz",
   "increaseLimitWithPremium": "Premium planla sınırı {count} değerine yükseltin",
-  "addDoseReceiver": "Kullanıcı ekle",
+  "addDoseReceiver": "İlaç kullanan kişi ekle",
   "newDoseReceiver": "Yeni Kullanıcı",
   "reloginRequired": "Lütfen tekrar giriş yapın",
   "reloginMessage": "Hesabı silmek için tekrar giriş yapmalısınız.",

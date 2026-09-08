@@ -49,7 +49,7 @@
   "defaultDoseReceiver": "Ég sjálf(ur)",
   "doseReceiverMaxCount": "Þú getur skráð allt að {count} einstaklinga sem taka lyf",
   "increaseLimitWithPremium": "Hækkaðu hámarkið í {count} með Premium-áskriftinni",
-  "addDoseReceiver": "Bæta við notanda",
+  "addDoseReceiver": "Bæta við lyfjanotanda",
   "newDoseReceiver": "Nýr notandi",
   "reloginRequired": "Vinsamlegast skráðu þig inn aftur",
   "reloginMessage": "Til að eyða reikningnum þarftu að skrá þig inn aftur.",

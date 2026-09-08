@@ -49,7 +49,7 @@
   "defaultDoseReceiver": "我",
   "doseReceiverMaxCount": "最多可注册 {count} 位服药者",
   "increaseLimitWithPremium": "使用 Premium 方案将上限提高到 {count}",
-  "addDoseReceiver": "添加服用者",
+  "addDoseReceiver": "添加服药者",
   "newDoseReceiver": "新服用者",
   "reloginRequired": "请重新登录",
   "reloginMessage": "要删除账户，请重新登录。",

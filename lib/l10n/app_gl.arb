@@ -49,7 +49,7 @@
   "defaultDoseReceiver": "Eu",
   "doseReceiverMaxCount": "Podes rexistrar ata {count} persoas que toman medicamentos",
   "increaseLimitWithPremium": "Aumenta o límite a {count} co plan Premium",
-  "addDoseReceiver": "Engadir un usuario de medicación",
+  "addDoseReceiver": "Engadir persoa que toma medicación",
   "newDoseReceiver": "Novo/a tomador/a",
   "reloginRequired": "Reinicia a sesión",
   "reloginMessage": "Para eliminar a conta, inicie sesión novamente.",

@@ -49,7 +49,7 @@
   "defaultDoseReceiver": "O‘zim",
   "doseReceiverMaxCount": "Ko‘pi bilan {count} nafar dori qabul qiluvchi shaxsni ro‘yxatdan o‘tkazishingiz mumkin",
   "increaseLimitWithPremium": "Premium rejasi bilan limitni {count} gacha oshiring",
-  "addDoseReceiver": "Qabul qiluvchi qo'shish",
+  "addDoseReceiver": "Dori qabul qiluvchini qo‘shish",
   "newDoseReceiver": "Yangi qabul qiluvchi",
   "reloginRequired": "Qayta kirishingizni iltimos qilamiz",
   "reloginMessage": "Hisobni o‘chirish uchun qaytadan kiring.",

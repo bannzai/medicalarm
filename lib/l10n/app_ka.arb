@@ -49,7 +49,7 @@
   "defaultDoseReceiver": "მე",
   "doseReceiverMaxCount": "შეგიძლიათ დაარეგისტრიროთ მაქსიმუმ {count} მედიკამენტის მომხმარებელი",
   "increaseLimitWithPremium": "Premium გეგმით ლიმიტი გაზარდეთ {count}-მდე",
-  "addDoseReceiver": "გამხდელის დამატება",
+  "addDoseReceiver": "მედიკამენტის მიმღების დამატება",
   "newDoseReceiver": "ახალი მიმწვდელი",
   "reloginRequired": "გთხოვთ თავიდან შეხვიდეთ",
   "reloginMessage": "თქვენი ანგარიშის წაშლისთვის, გადააკეთეთ შესვლა.",

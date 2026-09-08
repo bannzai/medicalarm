@@ -49,7 +49,7 @@
   "defaultDoseReceiver": "မိမိ",
   "doseReceiverMaxCount": "ဆေးသောက်သူ အများဆုံး {count} ဦးအထိ မှတ်ပုံတင်နိုင်သည်",
   "increaseLimitWithPremium": "Premium အစီအစဉ်ဖြင့် ကန့်သတ်ချက်ကို {count} အထိ မြှင့်ပါ",
-  "addDoseReceiver": "Tambah Pengguna",
+  "addDoseReceiver": "ဆေးသောက်သူ ထည့်ရန်",
   "newDoseReceiver": "Pengguna baru",
   "reloginRequired": "Sila log masuk semula.",
   "reloginMessage": "Untuk menghapus akun, sila log masuk semula.",

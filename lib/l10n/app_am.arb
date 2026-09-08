@@ -49,7 +49,7 @@
   "defaultDoseReceiver": "ራሴ",
   "doseReceiverMaxCount": "እስከ {count} መድኃኒት ተጠቃሚዎችን መመዝገብ ይችላሉ",
   "increaseLimitWithPremium": "በPremium ዕቅድ ገደቡን ወደ {count} ያሳድጉ",
-  "addDoseReceiver": "መድረሻን አክል",
+  "addDoseReceiver": "የመድሃኒት ተጠቃሚ ያክሉ",
   "newDoseReceiver": "አዲስ የመውለድ ተጠቃሚ",
   "reloginRequired": "እባክዎን ወደ ድረ-ገጹ ይቀጥሉ",
   "reloginMessage": "የአካውንት ማዝረብ እንዲሆን፣ እባክዎን ወደ ቀዳሚው እንደገና ይግቡ።",

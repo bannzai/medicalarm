@@ -49,7 +49,7 @@
   "defaultDoseReceiver": "Ni",
   "doseReceiverMaxCount": "Gehienez {count} botika-erabiltzaile erregistra ditzakezu",
   "increaseLimitWithPremium": "Handitu muga {count} arte Premium planarekin",
-  "addDoseReceiver": "Hartzailera gehitu",
+  "addDoseReceiver": "Gehitu botikak hartzen dituen pertsona",
   "newDoseReceiver": "Eguneroko erabiltzailea",
   "reloginRequired": "Mesedez sartu berriro",
   "reloginMessage": "Kontua ezabatzea nahi baduzu, berriro saioa hasi mesedez.",

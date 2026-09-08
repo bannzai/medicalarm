@@ -49,7 +49,7 @@
   "defaultDoseReceiver": "Es",
   "doseReceiverMaxCount": "Varat reģistrēt līdz {count} personām, kas lieto medikamentus",
   "increaseLimitWithPremium": "Palieliniet ierobežojumu līdz {count}, izmantojot Premium plānu",
-  "addDoseReceiver": "Pievienot lietotāju",
+  "addDoseReceiver": "Pievienot zāļu lietotāju",
   "newDoseReceiver": "Jauni lietotāji",
   "reloginRequired": "Lūdzu, pierakstieties vēlreiz",
   "reloginMessage": "Lai dzēstu kontu, lūdzu, pārreģistrējieties.",

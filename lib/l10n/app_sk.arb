@@ -49,7 +49,7 @@
   "defaultDoseReceiver": "Ja",
   "doseReceiverMaxCount": "Môžete zaregistrovať najviac {count} osôb užívajúcich lieky",
   "increaseLimitWithPremium": "Zvýšte limit na {count} s prémiovým plánom",
-  "addDoseReceiver": "Pridať užívateľa",
+  "addDoseReceiver": "Pridať osobu užívajúcu lieky",
   "newDoseReceiver": "Nový užívateľ",
   "reloginRequired": "Prosím, prihláste sa znova",
   "reloginMessage": "Ak sa chcete zrušiť svoj účet, prihláste sa znova.",

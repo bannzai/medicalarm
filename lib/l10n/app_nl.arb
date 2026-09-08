@@ -49,7 +49,7 @@
   "defaultDoseReceiver": "Mezelf",
   "doseReceiverMaxCount": "U kunt maximaal {count} medicijngebruikers registreren",
   "increaseLimitWithPremium": "Verhoog de limiet naar {count} met het Premium-abonnement",
-  "addDoseReceiver": "Voeg gebruiker toe",
+  "addDoseReceiver": "Medicijngebruiker toevoegen",
   "newDoseReceiver": "Nieuwe gebruiker",
   "reloginRequired": "Gelieve opnieuw in te loggen",
   "reloginMessage": "Om uw account te verwijderen, log alstublieft opnieuw in.",

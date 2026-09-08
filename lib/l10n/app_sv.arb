@@ -49,7 +49,7 @@
   "defaultDoseReceiver": "Jag själv",
   "doseReceiverMaxCount": "Du kan registrera upp till {count} personer som tar läkemedel",
   "increaseLimitWithPremium": "Öka gränsen till {count} med Premium-planen",
-  "addDoseReceiver": "Lägg till användare",
+  "addDoseReceiver": "Lägg till läkemedelsanvändare",
   "newDoseReceiver": "Ny användare",
   "reloginRequired": "Vänligen logga in igen",
   "reloginMessage": "För att ta bort kontot, vänligen logga in igen.",

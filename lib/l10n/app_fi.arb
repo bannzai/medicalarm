@@ -49,7 +49,7 @@
   "defaultDoseReceiver": "Minä",
   "doseReceiverMaxCount": "Voit rekisteröidä enintään {count} lääkkeiden käyttäjää",
   "increaseLimitWithPremium": "Nosta raja arvoon {count} Premium-tilauksella",
-  "addDoseReceiver": "Lisää käytön käyttäjä",
+  "addDoseReceiver": "Lisää lääkkeen käyttäjä",
   "newDoseReceiver": "Uusi käyttäjä",
   "reloginRequired": "Ole hyvä ja kirjaudu uudelleen",
   "reloginMessage": "Poistaaksesi tilin, kirjaudu sisään uudelleen.",

@@ -49,7 +49,7 @@
   "defaultDoseReceiver": "Saya",
   "doseReceiverMaxCount": "Anda dapat mendaftarkan hingga {count} orang yang minum obat",
   "increaseLimitWithPremium": "Tingkatkan batas menjadi {count} dengan paket Premium",
-  "addDoseReceiver": "Tambahkan pengambil obat",
+  "addDoseReceiver": "Tambah pengguna obat",
   "newDoseReceiver": "Pengguna baru",
   "reloginRequired": "Silakan masuk kembali",
   "reloginMessage": "Untuk menghapus akun, silakan masuk kembali.",

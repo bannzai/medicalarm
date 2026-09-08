@@ -49,7 +49,7 @@
   "defaultDoseReceiver": "Mig selv",
   "doseReceiverMaxCount": "Du kan registrere op til {count} personer, der tager medicin",
   "increaseLimitWithPremium": "Øg grænsen til {count} med Premium-planen",
-  "addDoseReceiver": "Tilføj indtager",
+  "addDoseReceiver": "Tilføj medicinbruger",
   "newDoseReceiver": "Ny bruger",
   "reloginRequired": "Venligst log ind igen",
   "reloginMessage": "For at slette kontoen, skal du logge ind igen.",

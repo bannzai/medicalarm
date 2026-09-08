@@ -49,7 +49,7 @@
   "defaultDoseReceiver": "Moi-même",
   "doseReceiverMaxCount": "Vous pouvez enregistrer jusqu’à {count} personnes prenant des médicaments",
   "increaseLimitWithPremium": "Augmentez la limite à {count} avec le forfait Premium",
-  "addDoseReceiver": "Ajouter un utilisateur",
+  "addDoseReceiver": "Ajouter une personne prenant des médicaments",
   "newDoseReceiver": "Nouveau patient",
   "reloginRequired": "Veuillez vous reconnecter",
   "reloginMessage": "Pour supprimer votre compte, veuillez vous reconnecter.",
