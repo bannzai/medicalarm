@@ -74,7 +74,7 @@
   "cycleDaysFormat": "Take for {consecutiveDays} days / pause for {restDays} days",
   "consecutiveDaysFormat": "Take for {count} days",
   "restDaysFormat": "{count} medication-free days",
-  "limitedTimeDiscount": "Use it forever at a special price now",
+  "limitedTimeDiscount": "Use it forever at a limited-time price",
   "monthlyPlan": "Monthly Plan",
   "annualPlan": "Annual Plan",
   "weeklyPlan": "Weekly plan",

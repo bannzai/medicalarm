@@ -74,7 +74,7 @@
   "cycleDaysFormat": "{consecutiveDays} दिन सेवन / {restDays} दिन विश्राम",
   "consecutiveDaysFormat": "{count} दिन सेवन",
   "restDaysFormat": "{count} दिन औषधि विश्राम",
-  "limitedTimeDiscount": "अहिले विशेष मूल्यमा सधैँ प्रयोग गर्नुहोस्",
+  "limitedTimeDiscount": "अहिले विशेष मूल्यमा सधैँभरि प्रयोग गर्नुहोस्",
   "monthlyPlan": "मासिक योजना",
   "annualPlan": "वार्षिक योजना",
   "weeklyPlan": "साप्ताहिक योजना",

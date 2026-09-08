@@ -74,7 +74,7 @@
   "cycleDaysFormat": "服用{consecutiveDays}天 / 停药{restDays}天",
   "consecutiveDaysFormat": "服用{count}天",
   "restDaysFormat": "停药 {count} 天",
-  "limitedTimeDiscount": "现在即可享受特惠价格，永久使用",
+  "limitedTimeDiscount": "现在即可享受限时优惠价，永久使用",
   "monthlyPlan": "月度套餐",
   "annualPlan": "年度方案",
   "weeklyPlan": "周计划",

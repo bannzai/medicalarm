@@ -74,7 +74,7 @@
   "cycleDaysFormat": "Phuza izinsuku ezi-{consecutiveDays} / phumula izinsuku ezi-{restDays}",
   "consecutiveDaysFormat": "Phuza izinsuku ezingu-{count}",
   "restDaysFormat": "Izinsuku ezingu-{count} zokungaphuzi imithi",
-  "limitedTimeDiscount": "Yisebenzise unomphela ngentengo ekhethekile uma ubhalisa manje",
+  "limitedTimeDiscount": "Yise manje ngentengo ekhethekile unomphela",
   "monthlyPlan": "Uhlelo lwanyanga zonke",
   "annualPlan": "Uhlelo lonyaka",
   "weeklyPlan": "Uhlelo lwamasonto onke",

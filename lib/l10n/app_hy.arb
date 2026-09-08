@@ -74,7 +74,7 @@
   "cycleDaysFormat": "Դեղամիջոցն ընդունել {consecutiveDays} օր / {restDays} օր դադար",
   "consecutiveDaysFormat": "Ընդունել {count} օր",
   "restDaysFormat": "{count} օր առանց դեղորայքի",
-  "limitedTimeDiscount": "Օգտվեք ընդմիշտ՝ հատուկ գնով",
+  "limitedTimeDiscount": "Օգտվեք ընդմիշտ՝ այժմ հատուկ գնով",
   "monthlyPlan": "Ամսական պլան",
   "annualPlan": "Տարեկան փաթեթ",
   "weeklyPlan": "Շաբաթական փաթեթ",

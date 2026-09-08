@@ -74,7 +74,7 @@
   "cycleDaysFormat": "Земање {consecutiveDays} дена / пауза од {restDays} дена",
   "consecutiveDaysFormat": "Земање {count} дена",
   "restDaysFormat": "{count} дена пауза од лекот",
-  "limitedTimeDiscount": "Користете го засекогаш по посебна цена",
+  "limitedTimeDiscount": "Користете го засекогаш по специјална цена",
   "monthlyPlan": "Месечен план",
   "annualPlan": "Годишен план",
   "weeklyPlan": "Неделен план",

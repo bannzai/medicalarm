@@ -74,7 +74,7 @@
   "cycleDaysFormat": "{consecutiveDays} күн ичүү / {restDays} күн тыныгуу",
   "consecutiveDaysFormat": "{count} күн ичүү",
   "restDaysFormat": "Дары ичпей турган {count} күн",
-  "limitedTimeDiscount": "Азыр атайын баада түбөлүккө колдонуңуз",
+  "limitedTimeDiscount": "Азыр атайын баада өмүр бою колдонуңуз",
   "monthlyPlan": "Айлык план",
   "annualPlan": "Жылдык план",
   "weeklyPlan": "Апталык план",

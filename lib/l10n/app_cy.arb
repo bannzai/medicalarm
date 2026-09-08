@@ -74,7 +74,7 @@
   "cycleDaysFormat": "Cymryd am {consecutiveDays} diwrnod / seibiant o {restDays} diwrnod",
   "consecutiveDaysFormat": "Cymryd am {count} diwrnod",
   "restDaysFormat": "{count} diwrnod heb gymryd meddyginiaeth",
-  "limitedTimeDiscount": "Defnyddiwch ef am byth am bris arbennig",
+  "limitedTimeDiscount": "Defnyddiwch ef am byth nawr am bris arbennig",
   "monthlyPlan": "Cynllun misol",
   "annualPlan": "Cynllun blynyddol",
   "weeklyPlan": "Cynllun wythnosol",

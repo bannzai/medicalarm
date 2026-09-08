@@ -74,7 +74,7 @@
   "cycleDaysFormat": "Uzimanje lijeka {consecutiveDays} dana / pauza {restDays} dana",
   "consecutiveDaysFormat": "Uzimati {count} dana",
   "restDaysFormat": "{count} dana pauze od lijeka",
-  "limitedTimeDiscount": "Koristite ga zauvijek po posebnoj cijeni",
+  "limitedTimeDiscount": "Koristite ga doživotno po posebnoj cijeni",
   "monthlyPlan": "Mjesečni plan",
   "annualPlan": "Godišnji plan",
   "weeklyPlan": "Tjedni plan",

@@ -74,7 +74,7 @@
   "cycleDaysFormat": "ໃຊ້ຢາ {consecutiveDays} ມື້ / ພັກຢາ {restDays} ມື້",
   "consecutiveDaysFormat": "ໃຊ້ເປັນເວລາ {count} ມື້",
   "restDaysFormat": "ພັກກິນຢາ {count} ມື້",
-  "limitedTimeDiscount": "ໃຊ້ໄດ້ຕະຫຼອດໄປໃນລາຄາພິເສດຕອນນີ້",
+  "limitedTimeDiscount": "ໃຊ້ງານໄດ້ຕະຫຼອດໄປໃນລາຄາພິເສດຕອນນີ້",
   "monthlyPlan": "ແຜນລາຍເດືອນ",
   "annualPlan": "ແຜນລາຍປີ",
   "weeklyPlan": "ແຜນລາຍອາທິດ",

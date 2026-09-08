@@ -74,7 +74,7 @@
   "cycleDaysFormat": "Prendre pendant {consecutiveDays} jours / arrêter pendant {restDays} jours",
   "consecutiveDaysFormat": "Prendre pendant {count} jours",
   "restDaysFormat": "{count} jours d’arrêt du traitement",
-  "limitedTimeDiscount": "Profitez-en pour toujours à prix spécial",
+  "limitedTimeDiscount": "Utilisez-le dès maintenant à vie à un tarif spécial",
   "monthlyPlan": "Offre mensuelle",
   "annualPlan": "Forfait annuel",
   "weeklyPlan": "Forfait hebdomadaire",

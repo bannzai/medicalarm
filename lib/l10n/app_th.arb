@@ -74,7 +74,7 @@
   "cycleDaysFormat": "รับประทานยา {consecutiveDays} วัน / หยุดยา {restDays} วัน",
   "consecutiveDaysFormat": "รับประทานเป็นเวลา {count} วัน",
   "restDaysFormat": "พักยา {count} วัน",
-  "limitedTimeDiscount": "ใช้งานได้ตลอดไปในราคาพิเศษตอนนี้",
+  "limitedTimeDiscount": "ใช้งานได้ตลอดไปในราคาพิเศษตั้งแต่ตอนนี้",
   "monthlyPlan": "แผนรายเดือน",
   "annualPlan": "แผนรายปี",
   "weeklyPlan": "แพ็กเกจรายสัปดาห์",

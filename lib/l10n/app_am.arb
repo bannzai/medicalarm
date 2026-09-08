@@ -74,7 +74,7 @@
   "cycleDaysFormat": "መድሃኒት ለ{consecutiveDays} ቀናት መውሰድ / ለ{restDays} ቀናት እረፍት",
   "consecutiveDaysFormat": "ዕፅ ለ{count} ቀናት ይውሰዱ",
   "restDaysFormat": "{count} ቀን መድኃኒት ሳይወስዱ",
-  "limitedTimeDiscount": "አሁን በልዩ ዋጋ ለዘላለም ይጠቀሙበት",
+  "limitedTimeDiscount": "አሁኑኑ በልዩ ዋጋ ለዘላለም ይጠቀሙበት",
   "monthlyPlan": "Ամսական ծրագիր",
   "annualPlan": "ዓመታዊ ዕቅድ",
   "weeklyPlan": "ሳምንታዊ ዕቅድ",

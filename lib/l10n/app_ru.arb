@@ -74,7 +74,7 @@
   "cycleDaysFormat": "Принимать {consecutiveDays} дней / перерыв {restDays} дней",
   "consecutiveDaysFormat": "Принимать {count} дней",
   "restDaysFormat": "{count} дней без приёма лекарства",
-  "limitedTimeDiscount": "Пользуйтесь навсегда по специальной цене",
+  "limitedTimeDiscount": "Пользуйтесь навсегда по специальной цене уже сейчас",
   "monthlyPlan": "Месячный план",
   "annualPlan": "Годовой план",
   "weeklyPlan": "Недельный план",

@@ -74,7 +74,7 @@
   "cycleDaysFormat": "Tomar durante {consecutiveDays} dias / pausa de {restDays} dias",
   "consecutiveDaysFormat": "Tomar durante {count} dias",
   "restDaysFormat": "{count} dias de pausa da medicação",
-  "limitedTimeDiscount": "Use para sempre a um preço especial",
+  "limitedTimeDiscount": "Use para sempre agora por um preço especial",
   "monthlyPlan": "Plano mensal",
   "annualPlan": "Plano anual",
   "weeklyPlan": "Plano semanal",

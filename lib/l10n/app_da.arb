@@ -74,7 +74,7 @@
   "cycleDaysFormat": "Tag medicin i {consecutiveDays} dage / pause i {restDays} dage",
   "consecutiveDaysFormat": "Tag medicin i {count} dage",
   "restDaysFormat": "{count} dages medicinpause",
-  "limitedTimeDiscount": "Brug det for altid til en særlig pris",
+  "limitedTimeDiscount": "Brug det for altid til en særpris nu",
   "monthlyPlan": "Månedsplan",
   "annualPlan": "Årsplan",
   "weeklyPlan": "Ugeplan",
