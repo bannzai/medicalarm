@@ -233,7 +233,7 @@
   "ossLicense": "OSS-licenser",
   "achievementWeeklyLabel": "Veckans medicin",
   "achievementWeeklyCountSuffix": "/{scheduledCount} gånger",
-  "achievementStreakLabel": "Sammanhängande serie",
+  "achievementStreakLabel": "Sammanhängande registreringar",
   "achievementStreakDaysSuffix": "dagar",
   "achievementMonthlyRateLabel": "Uppfyllelsegrad för {month}",
   "achievementLegendAllTaken": "Alla tagna",

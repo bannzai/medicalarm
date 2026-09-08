@@ -233,7 +233,7 @@
   "ossLicense": "Ліцэнзіі OSS",
   "achievementWeeklyLabel": "Лекі за гэты тыдзень",
   "achievementWeeklyCountSuffix": "/{scheduledCount} разоў",
-  "achievementStreakLabel": "Паслядоўная серыя",
+  "achievementStreakLabel": "Паслядоўны запіс",
   "achievementStreakDaysSuffix": "дзён",
   "achievementMonthlyRateLabel": "Паказчык выканання за {month}",
   "achievementLegendAllTaken": "Усе прыняты",

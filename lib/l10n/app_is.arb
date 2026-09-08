@@ -233,7 +233,7 @@
   "ossLicense": "OSS-leyfi",
   "achievementWeeklyLabel": "Lyf vikunnar",
   "achievementWeeklyCountSuffix": "/{scheduledCount} sinnum",
-  "achievementStreakLabel": "Samfelld röð",
+  "achievementStreakLabel": "Samfelld skráning",
   "achievementStreakDaysSuffix": "dagar",
   "achievementMonthlyRateLabel": "Framkvæmdarhlutfall fyrir {month}",
   "achievementLegendAllTaken": "Allt tekið",

@@ -233,7 +233,7 @@
   "ossLicense": "OSS-lisenser",
   "achievementWeeklyLabel": "Ukens medisiner",
   "achievementWeeklyCountSuffix": "/{scheduledCount} ganger",
-  "achievementStreakLabel": "Sammenhengende rekke",
+  "achievementStreakLabel": "Sammenhengende registreringer",
   "achievementStreakDaysSuffix": "dager",
   "achievementMonthlyRateLabel": "Oppfyllelsesgrad for {month}",
   "achievementLegendAllTaken": "Alle tatt",

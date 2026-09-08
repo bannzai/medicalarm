@@ -233,7 +233,7 @@
   "ossLicense": "Llicències OSS",
   "achievementWeeklyLabel": "Medicació d’aquesta setmana",
   "achievementWeeklyCountSuffix": "/{scheduledCount} vegades",
-  "achievementStreakLabel": "Ratxa consecutiva",
+  "achievementStreakLabel": "Registre consecutiu",
   "achievementStreakDaysSuffix": "dies",
   "achievementMonthlyRateLabel": "Percentatge d’assoliment de {month}",
   "achievementLegendAllTaken": "Totes preses",

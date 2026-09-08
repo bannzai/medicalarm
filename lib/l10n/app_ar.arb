@@ -233,7 +233,7 @@
   "ossLicense": "تراخيص OSS",
   "achievementWeeklyLabel": "أدوية هذا الأسبوع",
   "achievementWeeklyCountSuffix": "/{scheduledCount} مرة",
-  "achievementStreakLabel": "سلسلة متتالية",
+  "achievementStreakLabel": "سجل متتالي",
   "achievementStreakDaysSuffix": "يوم",
   "achievementMonthlyRateLabel": "معدل الالتزام لشهر {month}",
   "achievementLegendAllTaken": "تم تناولها كلها",

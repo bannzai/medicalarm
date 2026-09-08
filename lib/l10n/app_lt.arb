@@ -233,7 +233,7 @@
   "ossLicense": "OSS licencijos",
   "achievementWeeklyLabel": "Šios savaitės vaistai",
   "achievementWeeklyCountSuffix": "/{scheduledCount} kartus",
-  "achievementStreakLabel": "Nepertraukiama serija",
+  "achievementStreakLabel": "Iš eilės užregistruota",
   "achievementStreakDaysSuffix": "dienos",
   "achievementMonthlyRateLabel": "{month} įvykdymo rodiklis",
   "achievementLegendAllTaken": "Visi išgerta",

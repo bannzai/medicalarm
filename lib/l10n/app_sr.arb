@@ -233,7 +233,7 @@
   "ossLicense": "OSS лиценце",
   "achievementWeeklyLabel": "Лекови ове недеље",
   "achievementWeeklyCountSuffix": "/{scheduledCount} пута",
-  "achievementStreakLabel": "Низ",
+  "achievementStreakLabel": "Узастопни записи",
   "achievementStreakDaysSuffix": "дана",
   "achievementMonthlyRateLabel": "Стопа остварења за {month}",
   "achievementLegendAllTaken": "Све узето",

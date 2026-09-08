@@ -233,7 +233,7 @@
   "ossLicense": "OSS лицензиялары",
   "achievementWeeklyLabel": "Осы аптадағы дәрілер",
   "achievementWeeklyCountSuffix": "/{scheduledCount} рет",
-  "achievementStreakLabel": "Қатарынан орындалған күндер",
+  "achievementStreakLabel": "Қатарынан тіркеу",
   "achievementStreakDaysSuffix": "күн",
   "achievementMonthlyRateLabel": "{month} айындағы орындалу деңгейі",
   "achievementLegendAllTaken": "Барлығы қабылданды",

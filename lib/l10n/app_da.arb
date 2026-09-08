@@ -233,7 +233,7 @@
   "ossLicense": "OSS-licenser",
   "achievementWeeklyLabel": "Ugens medicin",
   "achievementWeeklyCountSuffix": "/{scheduledCount} gange",
-  "achievementStreakLabel": "Sammenhængende serie",
+  "achievementStreakLabel": "Fortløbende registrering",
   "achievementStreakDaysSuffix": "dage",
   "achievementMonthlyRateLabel": "Opfyldelsesgrad for {month}",
   "achievementLegendAllTaken": "Alle taget",

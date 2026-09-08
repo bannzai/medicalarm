@@ -233,7 +233,7 @@
   "ossLicense": "Лицензии OSS",
   "achievementWeeklyLabel": "Лекарства за эту неделю",
   "achievementWeeklyCountSuffix": "/{scheduledCount} раз",
-  "achievementStreakLabel": "Серия",
+  "achievementStreakLabel": "Последовательные записи",
   "achievementStreakDaysSuffix": "дн.",
   "achievementMonthlyRateLabel": "Показатель выполнения за {month}",
   "achievementLegendAllTaken": "Все приняты",

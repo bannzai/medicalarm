@@ -233,7 +233,7 @@
   "ossLicense": "רישיונות OSS",
   "achievementWeeklyLabel": "תרופות השבוע",
   "achievementWeeklyCountSuffix": "/{scheduledCount} פעמים",
-  "achievementStreakLabel": "רצף",
+  "achievementStreakLabel": "רצף תיעוד",
   "achievementStreakDaysSuffix": "ימים",
   "achievementMonthlyRateLabel": "שיעור עמידה ביעדים עבור {month}",
   "achievementLegendAllTaken": "הכול נלקח",

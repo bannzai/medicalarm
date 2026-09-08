@@ -233,7 +233,7 @@
   "ossLicense": "OSS-lisenssit",
   "achievementWeeklyLabel": "Tämän viikon lääkkeet",
   "achievementWeeklyCountSuffix": "/{scheduledCount} kertaa",
-  "achievementStreakLabel": "Putki",
+  "achievementStreakLabel": "Peräkkäiset kirjaukset",
   "achievementStreakDaysSuffix": "päivää",
   "achievementMonthlyRateLabel": "{month} saavutustaso",
   "achievementLegendAllTaken": "Kaikki otettu",

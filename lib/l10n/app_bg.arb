@@ -233,7 +233,7 @@
   "ossLicense": "Лицензи за OSS",
   "achievementWeeklyLabel": "Приети лекарства тази седмица",
   "achievementWeeklyCountSuffix": "/{scheduledCount} пъти",
-  "achievementStreakLabel": "Поредица",
+  "achievementStreakLabel": "Поредица от записи",
   "achievementStreakDaysSuffix": "дни",
   "achievementMonthlyRateLabel": "Процент изпълнение за {month}",
   "achievementLegendAllTaken": "Всички са приети",

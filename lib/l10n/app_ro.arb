@@ -233,7 +233,7 @@
   "ossLicense": "Licențe OSS",
   "achievementWeeklyLabel": "Medicamentele din această săptămână",
   "achievementWeeklyCountSuffix": "/{scheduledCount} ori",
-  "achievementStreakLabel": "Serie",
+  "achievementStreakLabel": "Înregistrări consecutive",
   "achievementStreakDaysSuffix": "zile",
   "achievementMonthlyRateLabel": "Rata de îndeplinire pentru {month}",
   "achievementLegendAllTaken": "Toate luate",

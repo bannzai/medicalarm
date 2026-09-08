@@ -233,7 +233,7 @@
   "ossLicense": "የOSS ፈቃዶች",
   "achievementWeeklyLabel": "በዚህ ሳምንት የተወሰዱ መድኃኒቶች",
   "achievementWeeklyCountSuffix": "/{scheduledCount} ጊዜ",
-  "achievementStreakLabel": "ተከታታይ ስኬት",
+  "achievementStreakLabel": "Անընդմեջ գրանցում",
   "achievementStreakDaysSuffix": "ቀናት",
   "achievementMonthlyRateLabel": "የ{month} ማሳካት መጠን",
   "achievementLegendAllTaken": "Բոլորը ընդունված",

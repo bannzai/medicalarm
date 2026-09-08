@@ -233,7 +233,7 @@
   "ossLicense": "Licence OSS",
   "achievementWeeklyLabel": "Zdravila tega tedna",
   "achievementWeeklyCountSuffix": "/{scheduledCount}krat",
-  "achievementStreakLabel": "Niz",
+  "achievementStreakLabel": "Zaporedni zapisi",
   "achievementStreakDaysSuffix": "dni",
   "achievementMonthlyRateLabel": "Stopnja izpolnitve za {month}",
   "achievementLegendAllTaken": "Vse vzeto",

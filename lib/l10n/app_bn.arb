@@ -233,7 +233,7 @@
   "ossLicense": "OSS লাইসেন্স",
   "achievementWeeklyLabel": "এই সপ্তাহের ওষুধ",
   "achievementWeeklyCountSuffix": "/{scheduledCount} বার",
-  "achievementStreakLabel": "ধারাবাহিকতা",
+  "achievementStreakLabel": "টানা রেকর্ড",
   "achievementStreakDaysSuffix": "দিন",
   "achievementMonthlyRateLabel": "{month}-এর সাফল্যের হার",
   "achievementLegendAllTaken": "সবগুলো খাওয়া হয়েছে",

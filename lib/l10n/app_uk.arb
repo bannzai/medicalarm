@@ -233,7 +233,7 @@
   "ossLicense": "Ліцензії OSS",
   "achievementWeeklyLabel": "Ліки за цей тиждень",
   "achievementWeeklyCountSuffix": "/{scheduledCount} разів",
-  "achievementStreakLabel": "Серія",
+  "achievementStreakLabel": "Послідовні записи",
   "achievementStreakDaysSuffix": "днів",
   "achievementMonthlyRateLabel": "Показник виконання за {month}",
   "achievementLegendAllTaken": "Усі прийняті",

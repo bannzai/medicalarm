@@ -233,7 +233,7 @@
   "ossLicense": "Trwyddedau OSS",
   "achievementWeeklyLabel": "Meddyginiaeth yr wythnos hon",
   "achievementWeeklyCountSuffix": "/{scheduledCount} gwaith",
-  "achievementStreakLabel": "Cyfres olynol",
+  "achievementStreakLabel": "Cofnod parhaus",
   "achievementStreakDaysSuffix": "diwrnod",
   "achievementMonthlyRateLabel": "Cyfradd gyflawni ar gyfer {month}",
   "achievementLegendAllTaken": "Popeth wedi'i gymryd",
