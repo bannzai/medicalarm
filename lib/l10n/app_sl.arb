@@ -180,7 +180,7 @@
   "revertedTime": "Čas preklica",
   "revertedByMember": "Preklical(a) {name}",
   "medicationTakenAtLabel": "Vzeto ob {time}",
-  "medicineResumedSnackbar": "Jemanje zdravila se je nadaljevalo",
+  "medicineResumedSnackbar": "Jemanje zdravila je bilo ponovno uvedeno",
   "medicineEditTooltip": "Uredi zdravilo",
   "groups": "Skupine",
   "groupManagement": "Upravljanje skupin",

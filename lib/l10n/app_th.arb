@@ -180,7 +180,7 @@
   "revertedTime": "เวลาที่ยกเลิก",
   "revertedByMember": "ยกเลิกโดย {name}",
   "medicationTakenAtLabel": "รับประทานแล้วเมื่อ {time}",
-  "medicineResumedSnackbar": "เริ่มรับประทานยาอีกครั้งแล้ว",
+  "medicineResumedSnackbar": "กลับมาใช้ยาอีกครั้งแล้ว",
   "medicineEditTooltip": "แก้ไขยา",
   "groups": "กลุ่ม",
   "groupManagement": "การจัดการกลุ่ม",

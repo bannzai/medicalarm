@@ -180,7 +180,7 @@
   "revertedTime": "Thời gian hủy",
   "revertedByMember": "Đã hủy bởi {name}",
   "medicationTakenAtLabel": "Đã uống lúc {time}",
-  "medicineResumedSnackbar": "Đã tiếp tục dùng thuốc",
+  "medicineResumedSnackbar": "Đã tiếp tục uống thuốc",
   "medicineEditTooltip": "Chỉnh sửa thuốc",
   "groups": "Nhóm",
   "groupManagement": "Quản lý nhóm",

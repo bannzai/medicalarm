@@ -180,7 +180,7 @@
   "revertedTime": "Cancellation time",
   "revertedByMember": "Canceled by {name}",
   "medicationTakenAtLabel": "Taken at {time}",
-  "medicineResumedSnackbar": "Resumed this medication",
+  "medicineResumedSnackbar": "Medication resumed",
   "medicineEditTooltip": "Edit medication",
   "groups": "Groups",
   "groupManagement": "Manage groups",

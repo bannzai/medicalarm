@@ -180,7 +180,7 @@
   "revertedTime": "Kanselleringstidspunkt",
   "revertedByMember": "Kansellert av {name}",
   "medicationTakenAtLabel": "Tatt kl. {time}",
-  "medicineResumedSnackbar": "Medisininntaket er gjenopptatt",
+  "medicineResumedSnackbar": "Medisineringen er gjenopptatt",
   "medicineEditTooltip": "Rediger medisin",
   "groups": "Grupper",
   "groupManagement": "Gruppeadministrasjon",

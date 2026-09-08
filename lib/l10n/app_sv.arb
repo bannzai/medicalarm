@@ -180,7 +180,7 @@
   "revertedTime": "Avbokningstid",
   "revertedByMember": "Avbrutet av {name}",
   "medicationTakenAtLabel": "Taget kl. {time}",
-  "medicineResumedSnackbar": "Intaget av medicinen har återupptagits",
+  "medicineResumedSnackbar": "Medicinen tas nu igen",
   "medicineEditTooltip": "Redigera medicin",
   "groups": "Grupper",
   "groupManagement": "Grupphantering",

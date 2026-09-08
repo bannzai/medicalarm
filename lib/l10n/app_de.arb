@@ -180,7 +180,7 @@
   "revertedTime": "Stornierungszeit",
   "revertedByMember": "Von {name} storniert",
   "medicationTakenAtLabel": "Um {time} eingenommen",
-  "medicineResumedSnackbar": "Die Medikamenteneinnahme wurde fortgesetzt",
+  "medicineResumedSnackbar": "Die Einnahme des Medikaments wurde fortgesetzt",
   "medicineEditTooltip": "Medikament bearbeiten",
   "groups": "Gruppen",
   "groupManagement": "Gruppenverwaltung",
