@@ -67,7 +67,7 @@
   "medicationScheduleNotificationSetting": "Эм уух хуваарийн мэдэгдлийн тохиргоо",
   "notificationSetting": "Мэдэгдлийн тохиргоо",
   "enableFollowupNotification": "Дараагийн мэдэгдлийг идэвхжүүлэх",
-  "followupNotificationDescription": "Эхний мэдэгдэлээс 30 минутын дотор эмийн бичилтийг хийдэггүй бол дагаж мөрдөх мэдэгдэл ирнэ.",
+  "followupNotificationDescription": "Эхний мэдэгдлээс хойш 30 минутын дотор эм ууснаа бүртгэхгүй бол дараагийн мэдэгдэл илгээгдэнэ.",
   "enableNotificationInSilentMode": "Чимээгүй горимд ч мэдээлэл хүргэнэ",
   "silentModeNotificationDescription": "Анхаарлын горим включэгдсэн эсвэл төхөөрөмж дуу чимээгүй үед ч, чухал мэдэгдлүүд нь дээд талын дэлгэцэнд гарч, дуугаар тоглох болно.",
   "everyXDaysFormat": "{count} өдөр тутам",

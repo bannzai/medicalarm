@@ -67,7 +67,7 @@
   "medicationScheduleNotificationSetting": "Postavke obavijesti rasporeda uzimanja lijekova",
   "notificationSetting": "Postavke obavijesti",
   "enableFollowupNotification": "Omogući naknadne obavijesti",
-  "followupNotificationDescription": "Ako ne zabilježite uzimanje lijekova u roku od 30 minuta od prvog obavještenja, biće vam poslata dodatna obavještenja.",
+  "followupNotificationDescription": "Ako ne zabilježite uzimanje lijeka u roku od 30 minuta od prve obavijesti, bit će poslata naknadna obavijest.",
   "enableNotificationInSilentMode": "Obavještava čak i kada je u tihom režimu",
   "silentModeNotificationDescription": "Važne obavijesti će se prikazivati na zaključanom ekranu, čak i kada je fokus mod uključen ili je uređaj na tiho.",
   "everyXDaysFormat": "{count} dana",

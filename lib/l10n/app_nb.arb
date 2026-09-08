@@ -67,7 +67,7 @@
   "medicationScheduleNotificationSetting": "Varsler for medisinplan",
   "notificationSetting": "Varslingsinnstillinger",
   "enableFollowupNotification": "Aktiver oppfølgingsvarsler",
-  "followupNotificationDescription": "Hvis du ikke registrerer inntak av medisinen innen 30 minutter etter den første varslingen, vil en oppfølgingsvarsling bli sendt.",
+  "followupNotificationDescription": "Hvis du ikke registrerer at du har tatt medisinen innen 30 minutter etter det første varselet, sendes et oppfølgingsvarsel.",
   "enableNotificationInSilentMode": "Varsel selv i stillemodus",
   "silentModeNotificationDescription": "Selv når konsentrasjonsmodus er på eller enheten er på lydløs, vil viktige varsler vises på låseskjermen, og lyden vil avspilles.",
   "everyXDaysFormat": "{count} dager",

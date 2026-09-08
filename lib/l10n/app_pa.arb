@@ -67,7 +67,7 @@
   "medicationScheduleNotificationSetting": "ਦਵਾਈ ਲੈਣ ਦੇ ਸਮਾਂ-ਸਾਰਣੀ ਦੀਆਂ ਸੂਚਨਾ ਸੈਟਿੰਗਾਂ",
   "notificationSetting": "ਸੂਚਨਾ ਸੈਟਿੰਗਾਂ",
   "enableFollowupNotification": "ਫਾਲੋ-ਅੱਪ ਸੂਚਨਾਵਾਂ ਚਾਲੂ ਕਰੋ",
-  "followupNotificationDescription": "ਜੇਕਰ ਪਹਿਲੀ ਨੋਟੀਫਿਕੇਸ਼ਨ ਤੋਂ 30 ਮਿੰਟਾਂ ਦੇ ਅੰਦਰ ਦਵਾਈਆਂ ਦੀ ਕੀਮਤ ਦਰਜ ਨਾ ਕੀਤੀ ਗਿਆ, ਤਾਂ ਫਾਲੋਅੱਪ ਨੋਟੀਫਿਕੇਸ਼ਨ ਭੇਜਿਆ ਜਾਵੇਗਾ।",
+  "followupNotificationDescription": "ਜੇਕਰ ਤੁਸੀਂ ਪਹਿਲੀ ਸੂਚਨਾ ਤੋਂ 30 ਮਿੰਟਾਂ ਦੇ ਅੰਦਰ ਦਵਾਈ ਲੈਣ ਦਾ ਰਿਕਾਰਡ ਨਹੀਂ ਕਰਦੇ, ਤਾਂ ਇੱਕ ਫਾਲੋ-ਅੱਪ ਸੂਚਨਾ ਭੇਜੀ ਜਾਵੇਗੀ।",
   "enableNotificationInSilentMode": "ਮਨੋਰਮ ਕਰਨ ਦੇ ਮੋਡ ਵਿੱਚ ਵੀ ਸੂਚਨਾ",
   "silentModeNotificationDescription": "ਜੇਕਰ ਕੇਂਦ੍ਰਿਤ ਮੋਡ ON ਹੈ ਜਾਂ ਉਪਕਰਨ ਨੇ ਸੌਂਗ ਲਿਆ ਹੈ, ਤਾਂ ਗੰਭੀਰ ਸੂਚਨਾਵਾਂ ਲੌਕ ਸਕ੍ਰੀਨ 'ਤੇ ਦਿਖਾਈ ਦਿੱਤੀਆਂ ਜਾਣਗੀਆਂ ਅਤੇ ਧੁਨ ਚਾਲੂ ਕੀਤੀ ਜਾਣਗੀ।",
   "everyXDaysFormat": "{count} ਦਿਨਾਂ ਵਿੱਚ",

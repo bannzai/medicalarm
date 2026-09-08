@@ -67,7 +67,7 @@
   "medicationScheduleNotificationSetting": "Дәрі қабылдау кестесі туралы хабарландыру параметрлері",
   "notificationSetting": "Хабарландыру параметрлері",
   "enableFollowupNotification": "Кейінгі хабарландыруларды қосу",
-  "followupNotificationDescription": "Егер алғашқы хабарламадан кейін 30 минут ішінде дәрі ішу жазбасаңыз, қосымша хабарлама жіберіледі.",
+  "followupNotificationDescription": "Бірінші хабарландырудан кейін 30 минут ішінде дәрі қабылдағаныңызды белгілемесеңіз, кейінгі хабарландыру жіберіледі.",
   "enableNotificationInSilentMode": "Дауыссыз режимде ескертулерді көрсетеді",
   "silentModeNotificationDescription": "Ойлану режимі ON немесе құрылғы тыныш режимде болса да, маңызды хабарламалар бағдарламалау экранында көрсетіледі және дыбыс ойналады.",
   "everyXDaysFormat": "{count} күн сайын",

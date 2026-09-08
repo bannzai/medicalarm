@@ -67,7 +67,7 @@
   "medicationScheduleNotificationSetting": "Դեղորայքի ընդունման ժամանակացույցի ծանուցումների կարգավորումներ",
   "notificationSetting": "Ծանուցումների կարգավորումներ",
   "enableFollowupNotification": "Միացնել հետևողական ծանուցումները",
-  "followupNotificationDescription": "Եթե առաջին ծանուցումից 30 րոպեի ընթացքում դեղամիջոցը չգրանցվի, կհետեւի լրացուցիչ ծանուցում։",
+  "followupNotificationDescription": "Եթե առաջին ծանուցումից հետո 30 րոպեի ընթացքում չգրանցեք դեղի ընդունումը, կուղարկվի հաջորդող ծանուցում։",
   "enableNotificationInSilentMode": "Տեղեկացնել նաև մոլորակի ռեժիմում",
   "silentModeNotificationDescription": "Երբ կենտրոնացման ռեժիմը ակտիվ է, կամ սարքն անջատման (մենակ) ռեժիմում է, կարևոր ծանուցումները ամբողջ էկրանին (տրամկապի մեջ) ցուցադրվելու են՝ իրականացնելով ձայներ",
   "everyXDaysFormat": "{count} օրն մեկ",

@@ -67,7 +67,7 @@
   "medicationScheduleNotificationSetting": "Aviseringsinställningar för medicineringsschema",
   "notificationSetting": "Notisinställningar",
   "enableFollowupNotification": "Aktivera uppföljningsaviseringar",
-  "followupNotificationDescription": "Om du inte registrerar medicineringen inom 30 minuter efter den första notifikationen, skickas en uppföljningsnotifikation.",
+  "followupNotificationDescription": "Om du inte registrerar att du har tagit medicinen inom 30 minuter efter den första aviseringen skickas en uppföljningsavisering.",
   "enableNotificationInSilentMode": "Notis även i tyst läge",
   "silentModeNotificationDescription": "Viktiga meddelanden visas på låsskärmen och ljud spelas upp även när fokusläget är på eller när enheten är ljudlös.",
   "everyXDaysFormat": "{count} dagar",

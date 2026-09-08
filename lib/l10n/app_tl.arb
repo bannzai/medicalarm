@@ -67,7 +67,7 @@
   "medicationScheduleNotificationSetting": "Mga setting ng notification ng iskedyul ng pag-inom ng gamot",
   "notificationSetting": "Mga setting ng notification",
   "enableFollowupNotification": "Paganahin ang mga follow-up na notification",
-  "followupNotificationDescription": "Kung hindi mo itatala ang pag-inom ng gamot sa loob ng 30 minuto mula sa unang abiso, isang follow-up na abiso ang ipapadala.",
+  "followupNotificationDescription": "Kung hindi mo itatala ang pag-inom ng gamot sa loob ng 30 minuto mula sa unang notification, magpapadala ng follow-up notification.",
   "enableNotificationInSilentMode": "Ipaalam kahit na nasa silent mode",
   "silentModeNotificationDescription": "Kahit na naka-ON ang Focus Mode o naka-silent ang device, ang mga mahalagang notification ay ipinapakita sa lock screen at tumutunog.",
   "everyXDaysFormat": "{count} araw-araw",

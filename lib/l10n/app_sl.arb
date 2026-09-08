@@ -67,7 +67,7 @@
   "medicationScheduleNotificationSetting": "Nastavitve obvestil urnika jemanja zdravil",
   "notificationSetting": "Nastavitve obvestil",
   "enableFollowupNotification": "Omogoči nadaljnja obvestila",
-  "followupNotificationDescription": "Če v 30 minutah po prvem obvestilu ne zabeležite jemanja zdravil, boste prejeli opomnik.",
+  "followupNotificationDescription": "Če v 30 minutah po prvem obvestilu ne zabeležite zaužitja zdravila, bo poslano nadaljnje obvestilo.",
   "enableNotificationInSilentMode": "Obvestilo tudi v tihem načinu",
   "silentModeNotificationDescription": "Obvestila o pomembnih dogodkih se prikažejo na zaklenjenem zaslonu in se predvajajo z zvokom, tudi ko je način osredotočenosti vključen ali je naprava v tihem načinu.",
   "everyXDaysFormat": "{count} dni",

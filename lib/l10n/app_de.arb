@@ -67,7 +67,7 @@
   "medicationScheduleNotificationSetting": "Benachrichtigungseinstellungen für den Medikamentenplan",
   "notificationSetting": "Benachrichtigungseinstellungen",
   "enableFollowupNotification": "Folgebenachrichtigungen aktivieren",
-  "followupNotificationDescription": "Wenn innerhalb von 30 Minuten nach der ersten Benachrichtigung keine Medikamenteneinnahme aufgezeichnet wird, wird eine Follow-up-Benachrichtigung gesendet.",
+  "followupNotificationDescription": "Wenn Sie die Einnahme des Medikaments nicht innerhalb von 30 Minuten nach der ersten Benachrichtigung dokumentieren, wird eine Folgebenachrichtigung gesendet.",
   "enableNotificationInSilentMode": "Benachrichtigungen auch im Lautlosmodus zulassen",
   "silentModeNotificationDescription": "Wichtige Benachrichtigungen werden sowohl im Fokusmodus als auch im lautlosen Modus auf dem Sperrbildschirm angezeigt und der Sound wird abgespielt.",
   "everyXDaysFormat": "{count} Tage",

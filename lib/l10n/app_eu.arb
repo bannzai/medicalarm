@@ -67,7 +67,7 @@
   "medicationScheduleNotificationSetting": "Medikazioa hartzeko ordutegiaren jakinarazpen-ezarpenak",
   "notificationSetting": "Jakinarazpenen ezarpenak",
   "enableFollowupNotification": "Gaitu jarraipen-jakinarazpenak",
-  "followupNotificationDescription": "Lehenengo jakinarazpenetik 30 minututan barru, medikazioa erregistratzen ez bada, jarraipen jakinarazpena bidaliko da.",
+  "followupNotificationDescription": "Lehen jakinarazpenetik 30 minutura botika hartu duzula erregistratzen ez baduzu, jarraipen-jakinarazpen bat bidaliko da.",
   "enableNotificationInSilentMode": "Isiltzen ez denean jakinarazteko",
   "silentModeNotificationDescription": "Kontzentrazio modua ON badago edo gailua isilik badago ere, jakinarazpen garrantzitsuak itxita dauden pantailan agertuko dira soinuarekin batera.",
   "everyXDaysFormat": "{count} egunero",

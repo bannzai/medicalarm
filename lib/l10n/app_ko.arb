@@ -67,7 +67,7 @@
   "medicationScheduleNotificationSetting": "복약 일정 알림 설정",
   "notificationSetting": "알림 설정",
   "enableFollowupNotification": "후속 알림 활성화",
-  "followupNotificationDescription": "첫 번째 알림 후 30분 이내에 복약 기록을 하지 않으면 후속 알림이 전송됩니다.",
+  "followupNotificationDescription": "첫 알림 후 30분 이내에 복약을 기록하지 않으면 후속 알림이 전송됩니다.",
   "enableNotificationInSilentMode": "진동 모드에서도 알림하기",
   "silentModeNotificationDescription": "집중 모드가 켜져 있거나 장치가 무음 모드일 때도 중요한 알림은 잠금 화면에 표시되며 소리가 재생됩니다.",
   "everyXDaysFormat": "{count}일마다",

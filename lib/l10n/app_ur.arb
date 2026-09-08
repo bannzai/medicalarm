@@ -67,7 +67,7 @@
   "medicationScheduleNotificationSetting": "ادویات لینے کے شیڈول کی اطلاعات کی ترتیبات",
   "notificationSetting": "اطلاعات کی ترتیبات",
   "enableFollowupNotification": "فالو اَپ اطلاعات فعال کریں",
-  "followupNotificationDescription": "اگر پہلے نوٹیفکیشن کے 30 منٹ کے اندر دوا لینے کا ریکارڈ نہیں بنایا جاتا تو فالو اپ نوٹیفکیشن بھیجا جائے گا۔",
+  "followupNotificationDescription": "اگر آپ پہلی اطلاع کے 30 منٹ کے اندر دوا لینے کا اندراج نہیں کرتے تو فالو اَپ اطلاع بھیجی جائے گی۔",
   "enableNotificationInSilentMode": "خاموش وضع میں بھی اطلاع دینا",
   "silentModeNotificationDescription": "جب توجہ کا موڈ آن ہو یا ڈیوائس خاموش ہو تو بھی اہم نوٹیفکیشن لاک اسکرین پر ظاہر ہوتے ہیں اور آواز بجائے گی۔",
   "everyXDaysFormat": "{count} دنوں میں",

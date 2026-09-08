@@ -67,7 +67,7 @@
   "medicationScheduleNotificationSetting": "Definições de notificações do horário da medicação",
   "notificationSetting": "Definições de notificações",
   "enableFollowupNotification": "Ativar notificações de acompanhamento",
-  "followupNotificationDescription": "Se a medicação não for registrada dentro de 30 minutos após a primeira notificação, será enviado um lembrete de acompanhamento.",
+  "followupNotificationDescription": "Se não registar a toma do medicamento no prazo de 30 minutos após a primeira notificação, será enviada uma notificação de seguimento.",
   "enableNotificationInSilentMode": "Notificações mesmo no modo silencioso",
   "silentModeNotificationDescription": "Mesmo com o Modo Foco ativado ou com o dispositivo em modo silencioso, as notificações importantes serão exibidas na tela de bloqueio e o som será reproduzido.",
   "everyXDaysFormat": "a cada {count} dias",

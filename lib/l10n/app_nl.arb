@@ -67,7 +67,7 @@
   "medicationScheduleNotificationSetting": "Meldingsinstellingen voor medicatieschema",
   "notificationSetting": "Meldingsinstellingen",
   "enableFollowupNotification": "Vervolgmeldingen inschakelen",
-  "followupNotificationDescription": "Als je binnen 30 minuten na de eerste herinnering geen medicatie registreert, wordt er een follow-up herinnering verzonden.",
+  "followupNotificationDescription": "Als u het innemen van uw medicijn niet binnen 30 minuten na de eerste melding registreert, wordt er een vervolgmelding verzonden.",
   "enableNotificationInSilentMode": "Meldingen in stille modus",
   "silentModeNotificationDescription": "Belangrijke meldingen worden weergegeven op het vergrendelscherm en het geluid wordt afgespeeld, zelfs wanneer de Focus-modus is ingeschakeld of het apparaat op stil staat.",
   "everyXDaysFormat": "{count} dagen",

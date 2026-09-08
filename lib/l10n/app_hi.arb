@@ -67,7 +67,7 @@
   "medicationScheduleNotificationSetting": "दवा लेने के शेड्यूल की सूचनाएं सेटिंग",
   "notificationSetting": "सूचना सेटिंग्स",
   "enableFollowupNotification": "फ़ॉलो-अप सूचनाएँ सक्षम करें",
-  "followupNotificationDescription": "यदि पहले नोटिफिकेशन के 30 मिनट के भीतर दवा का रिकॉर्ड नहीं किया गया, तो फॉलो-अप नोटिफिकेशन भेजा जाएगा।",
+  "followupNotificationDescription": "पहली सूचना के 30 मिनट के भीतर दवा लेने का रिकॉर्ड दर्ज नहीं करने पर, फ़ॉलो-अप सूचना भेजी जाएगी।",
   "enableNotificationInSilentMode": "शांत मोड में भी सूचित करें",
   "silentModeNotificationDescription": "महत्वपूर्ण सूचनाएँ ध्यान मोड चालू होने पर या उपकरण का साउंड बंद होने पर भी लॉक स्क्रीन पर प्रदर्शित होती हैं, और ध्वनि चलती है।",
   "everyXDaysFormat": "{count} दिन पर",

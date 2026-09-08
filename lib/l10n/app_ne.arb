@@ -67,7 +67,7 @@
   "medicationScheduleNotificationSetting": "औषध सेवन तालिका सूचना सेटिङहरू",
   "notificationSetting": "सूचना सेटिङहरू",
   "enableFollowupNotification": "फलो-अप सूचनाहरू सक्षम गर्नुहोस्",
-  "followupNotificationDescription": "पहिलो नोटिफिकेसनको 30 मिनेट भित्र औषधी खाएको रेकर्ड नगरेमा, फोलोअप नोटिफिकेसन पठाइनेछ।",
+  "followupNotificationDescription": "पहिलो सूचनापछि ३० मिनेटभित्र औषधि सेवन गरेको रेकर्ड नगरेमा, फलो-अप सूचना पठाइनेछ।",
   "enableNotificationInSilentMode": "शांत मोडमा पनि सूचनाहरू पठाउने",
   "silentModeNotificationDescription": "गंभीर सूचनाहरू केन्द्रित मोड ON हुँदा वा उपकरण मूकमा हुँदा पनि लक स्क्रिनमा देखायो र ध्वनि बजाइयो।",
   "everyXDaysFormat": "{count} दिनको अन्तरमा",

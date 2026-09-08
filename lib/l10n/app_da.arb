@@ -67,7 +67,7 @@
   "medicationScheduleNotificationSetting": "Indstillinger for notifikationer om medicinplan",
   "notificationSetting": "Notifikationsindstillinger",
   "enableFollowupNotification": "Aktivér opfølgningsnotifikationer",
-  "followupNotificationDescription": "Hvis du ikke registrerer medicin inden for 30 minutter efter den første meddelelse, sendes der en opfølgningsmeddelelse.",
+  "followupNotificationDescription": "Hvis du ikke registrerer, at du har taget medicinen, inden for 30 minutter efter den første notifikation, sendes en opfølgende notifikation.",
   "enableNotificationInSilentMode": "Underretter i lydløs tilstand",
   "silentModeNotificationDescription": "Når fokusmode er tændt, eller enheden er stille, vises vigtige meddelelser på låseskærmen, og lyden afspilles.",
   "everyXDaysFormat": "{count} dage",
