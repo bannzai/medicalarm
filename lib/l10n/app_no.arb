@@ -46,7 +46,7 @@
   "medicationStartDate": "Startdato for medisinering",
   "otherInformation": "Annet",
   "doseReceiver": "Person som tar medisinen",
-  "defaultDoseReceiver": "Meg selv",
+  "defaultDoseReceiver": "Meg",
   "doseReceiverMaxCount": "Du kan registrere opptil {count} personer som tar medisiner",
   "increaseLimitWithPremium": "Øk grensen til {count} med Premium-abonnementet",
   "addDoseReceiver": "Legg til medisinbruker",

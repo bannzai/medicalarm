@@ -46,7 +46,7 @@
   "medicationStartDate": "Upphafsdagsetning lyfjatöku",
   "otherInformation": "Annað",
   "doseReceiver": "Sá sem tekur lyfið",
-  "defaultDoseReceiver": "Ég sjálf(ur)",
+  "defaultDoseReceiver": "Ég",
   "doseReceiverMaxCount": "Þú getur skráð allt að {count} einstaklinga sem taka lyf",
   "increaseLimitWithPremium": "Hækkaðu hámarkið í {count} með Premium-áskriftinni",
   "addDoseReceiver": "Bæta við lyfjanotanda",

@@ -46,7 +46,7 @@
   "medicationStartDate": "تاريخ بدء تناول الدواء",
   "otherInformation": "أخرى",
   "doseReceiver": "متناول الدواء",
-  "defaultDoseReceiver": "نفسي",
+  "defaultDoseReceiver": "أنا",
   "doseReceiverMaxCount": "يمكنك تسجيل ما يصل إلى {count} من متناولي الأدوية",
   "increaseLimitWithPremium": "زيادة الحد إلى {count} مع الخطة المميزة",
   "addDoseReceiver": "إضافة متناول للدواء",

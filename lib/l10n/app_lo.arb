@@ -46,7 +46,7 @@
   "medicationStartDate": "ວັນທີ່ເລີ່ມກິນຢາ",
   "otherInformation": "ອື່ນໆ",
   "doseReceiver": "ຜູ້ກິນຢາ",
-  "defaultDoseReceiver": "ຕົນເອງ",
+  "defaultDoseReceiver": "ຂ້ອຍ",
   "doseReceiverMaxCount": "ທ່ານສາມາດລົງທະບຽນຜູ້ໃຊ້ຢາໄດ້ສູງສຸດ {count} ຄົນ",
   "increaseLimitWithPremium": "ເພີ່ມຂີດຈຳກັດເປັນ {count} ດ້ວຍແຜນ Premium",
   "addDoseReceiver": "ເພີ່ມຜູ້ໃຊ້ຢາ",

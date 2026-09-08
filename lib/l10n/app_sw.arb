@@ -46,7 +46,7 @@
   "medicationStartDate": "Tarehe ya kuanza kutumia dawa",
   "otherInformation": "Nyingine",
   "doseReceiver": "Mtu anayekunywa dawa",
-  "defaultDoseReceiver": "Mimi mwenyewe",
+  "defaultDoseReceiver": "Mimi",
   "doseReceiverMaxCount": "Unaweza kusajili hadi {count} watu wanaotumia dawa",
   "increaseLimitWithPremium": "Ongeza kikomo hadi {count} kwa mpango wa Premium",
   "addDoseReceiver": "Ongeza mtumiaji wa dawa",

@@ -46,7 +46,7 @@
   "medicationStartDate": "የመድኃኒት መጀመሪያ ቀን",
   "otherInformation": "ሌሎች",
   "doseReceiver": "መድኃኒት ተጠቃሚ",
-  "defaultDoseReceiver": "ራሴ",
+  "defaultDoseReceiver": "እኔ",
   "doseReceiverMaxCount": "እስከ {count} መድኃኒት ተጠቃሚዎችን መመዝገብ ይችላሉ",
   "increaseLimitWithPremium": "በPremium ዕቅድ ገደቡን ወደ {count} ያሳድጉ",
   "addDoseReceiver": "የመድሃኒት ተጠቃሚ ያክሉ",

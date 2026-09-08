@@ -46,7 +46,7 @@
   "medicationStartDate": "Dərmana başlama tarixi",
   "otherInformation": "Digər",
   "doseReceiver": "Dərman qəbul edən şəxs",
-  "defaultDoseReceiver": "Özüm",
+  "defaultDoseReceiver": "Mən",
   "doseReceiverMaxCount": "Maksimum {count} dərman istifadəçisi qeydiyyatdan keçirilə bilər",
   "increaseLimitWithPremium": "Premium planla limiti {count} qədər artırın",
   "addDoseReceiver": "Dərman qəbul edən şəxs əlavə et",

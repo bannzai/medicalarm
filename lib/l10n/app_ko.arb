@@ -46,7 +46,7 @@
   "medicationStartDate": "복용 시작일",
   "otherInformation": "기타",
   "doseReceiver": "복용자",
-  "defaultDoseReceiver": "본인",
+  "defaultDoseReceiver": "나",
   "doseReceiverMaxCount": "최대 {count}명의 복약자를 등록할 수 있습니다",
   "increaseLimitWithPremium": "Premium 플랜으로 한도를 {count}(으)로 늘리기",
   "addDoseReceiver": "복용자 추가",

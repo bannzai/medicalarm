@@ -46,7 +46,7 @@
   "medicationStartDate": "កាលបរិច្ឆេទចាប់ផ្តើមប្រើថ្នាំ",
   "otherInformation": "ផ្សេងៗ",
   "doseReceiver": "អ្នកប្រើថ្នាំ",
-  "defaultDoseReceiver": "ខ្លួនខ្ញុំ",
+  "defaultDoseReceiver": "ខ្ញុំ",
   "doseReceiverMaxCount": "អ្នកអាចចុះឈ្មោះអ្នកប្រើថ្នាំបានរហូតដល់ {count} នាក់",
   "increaseLimitWithPremium": "បង្កើនកម្រិតកំណត់ដល់ {count} ជាមួយគម្រោង Premium",
   "addDoseReceiver": "បន្ថែមអ្នកប្រើថ្នាំ",

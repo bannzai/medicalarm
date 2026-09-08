@@ -46,7 +46,7 @@
   "medicationStartDate": "Дары ичүүнү баштоо күнү",
   "otherInformation": "Башка",
   "doseReceiver": "Дары ичүүчү адам",
-  "defaultDoseReceiver": "Өзүм",
+  "defaultDoseReceiver": "Мен",
   "doseReceiverMaxCount": "Эң көп дегенде {count} дары ичкен адамды каттай аласыз",
   "increaseLimitWithPremium": "Premium планы менен чекти {count} чейин көбөйтүңүз",
   "addDoseReceiver": "Дары ичүүчүнү кошуу",

@@ -46,7 +46,7 @@
   "medicationStartDate": "Дәрі қабылдауды бастау күні",
   "otherInformation": "Басқа",
   "doseReceiver": "Дәрі қабылдайтын адам",
-  "defaultDoseReceiver": "Өзім",
+  "defaultDoseReceiver": "Мен",
   "doseReceiverMaxCount": "Ең көбі {count} дәрі қабылдайтын адамды тіркей аласыз",
   "increaseLimitWithPremium": "Premium жоспарымен шектеуді {count} мәніне дейін арттырыңыз",
   "addDoseReceiver": "Дәрі қабылдаушыны қосу",

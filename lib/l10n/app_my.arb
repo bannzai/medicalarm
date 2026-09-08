@@ -46,7 +46,7 @@
   "medicationStartDate": "ဆေးစတင်သောက်သည့်ရက်စွဲ",
   "otherInformation": "အခြား",
   "doseReceiver": "ဆေးသောက်သူ",
-  "defaultDoseReceiver": "မိမိ",
+  "defaultDoseReceiver": "ကျွန်ုပ်",
   "doseReceiverMaxCount": "ဆေးသောက်သူ အများဆုံး {count} ဦးအထိ မှတ်ပုံတင်နိုင်သည်",
   "increaseLimitWithPremium": "Premium အစီအစဉ်ဖြင့် ကန့်သတ်ချက်ကို {count} အထိ မြှင့်ပါ",
   "addDoseReceiver": "ဆေးသောက်သူ ထည့်ရန်",

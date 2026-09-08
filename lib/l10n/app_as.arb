@@ -46,7 +46,7 @@
   "medicationStartDate": "ঔষধ সেৱন আৰম্ভণিৰ তাৰিখ",
   "otherInformation": "অন্যান্য",
   "doseReceiver": "ঔষধ গ্ৰহণকাৰী",
-  "defaultDoseReceiver": "মই নিজে",
+  "defaultDoseReceiver": "মই",
   "doseReceiverMaxCount": "সৰ্বাধিক {count} জন ঔষধ গ্ৰহণকাৰী পঞ্জীয়ন কৰিব পাৰিব",
   "increaseLimitWithPremium": "প্ৰিমিয়াম প্লেনৰ সৈতে সীমা {count} লৈ বৃদ্ধি কৰক",
   "addDoseReceiver": "ঔষধ গ্ৰহণকাৰী যোগ কৰক",
