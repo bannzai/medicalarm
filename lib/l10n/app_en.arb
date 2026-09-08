@@ -215,7 +215,7 @@
   "join": "Join",
   "recordedByMember": "Recorded by {name}",
   "accountLink": "Account Transfer",
-  "accountLinkDescription": "Link your Apple or Google account to keep your data when you change devices or reinstall the app.",
+  "accountLinkDescription": "Link Apple or Google to keep your data even after changing devices or reinstalling the app.",
   "linkWithApple": "Transfer with Apple",
   "linkWithGoogle": "Transfer with Google",
   "accountLinkedWithApple": "Linked with Apple",

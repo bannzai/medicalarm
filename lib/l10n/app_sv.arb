@@ -215,7 +215,7 @@
   "join": "Gå med",
   "recordedByMember": "Registrerat av {name}",
   "accountLink": "Kontoöverföring",
-  "accountLinkDescription": "Genom att ansluta till Apple eller Google kan du överföra dina data även efter att du har bytt enhet eller installerat om appen.",
+  "accountLinkDescription": "Anslut Apple eller Google för att behålla dina data även efter att du byter enhet eller installerar om appen.",
   "linkWithApple": "Överför konto med Apple",
   "linkWithGoogle": "Överför konto med Google",
   "accountLinkedWithApple": "Kopplat till Apple",

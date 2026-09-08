@@ -215,7 +215,7 @@
   "join": "เข้าร่วม",
   "recordedByMember": "บันทึกโดย {name}",
   "accountLink": "การโอนบัญชี",
-  "accountLinkDescription": "เมื่อเชื่อมต่อกับ Apple หรือ Google คุณจะสามารถถ่ายโอนข้อมูลได้แม้เปลี่ยนอุปกรณ์หรือติดตั้งแอปใหม่",
+  "accountLinkDescription": "เชื่อมต่อกับ Apple หรือ Google เพื่อเก็บข้อมูลของคุณไว้ได้แม้เปลี่ยนอุปกรณ์หรือติดตั้งแอปใหม่",
   "linkWithApple": "โอนบัญชีด้วย Apple",
   "linkWithGoogle": "โอนบัญชีด้วย Google",
   "accountLinkedWithApple": "เชื่อมโยงกับ Apple แล้ว",
