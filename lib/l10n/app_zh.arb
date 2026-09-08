@@ -32,7 +32,7 @@
   "deleteAccount": "删除账户",
   "deleteAccountConfirm": "将删除用户信息",
   "deleteAccountMessage": "删除账户后，您的所有用户信息都将被删除。",
-  "medicationFrequency": "服药频率",
+  "medicationFrequency": "用药频率",
   "daily": "每天",
   "everyXDays": "每 X 天",
   "specificWeekdays": "特定星期",

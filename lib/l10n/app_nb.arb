@@ -32,7 +32,7 @@
   "deleteAccount": "Slett konto",
   "deleteAccountConfirm": "Brukerinformasjonen slettes",
   "deleteAccountMessage": "Når du sletter kontoen din, blir all brukerinformasjonen din slettet.",
-  "medicationFrequency": "Medisininntaksfrekvens",
+  "medicationFrequency": "Medisineringshyppighet",
   "daily": "Daglig",
   "everyXDays": "Hver X. dag",
   "specificWeekdays": "Bestemte ukedager",

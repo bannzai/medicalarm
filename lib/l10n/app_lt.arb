@@ -32,7 +32,7 @@
   "deleteAccount": "Ištrinti paskyrą",
   "deleteAccountConfirm": "Naudotojo informacija bus ištrinta",
   "deleteAccountMessage": "Ištrynus paskyrą, visa jūsų naudotojo informacija bus ištrinta.",
-  "medicationFrequency": "Vaistų vartojimo dažnis",
+  "medicationFrequency": "Vaistų vartojimo dažnumas",
   "daily": "Kasdien",
   "everyXDays": "Kas X dienas",
   "specificWeekdays": "Konkrečios savaitės dienos",

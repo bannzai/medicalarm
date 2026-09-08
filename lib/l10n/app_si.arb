@@ -32,7 +32,7 @@
   "deleteAccount": "ගිණුම මකන්න",
   "deleteAccountConfirm": "පරිශීලක තොරතුරු මකා දැමෙයි",
   "deleteAccountMessage": "ඔබගේ ගිණුම මකා දැමූ විට, ඔබගේ සියලුම පරිශීලක තොරතුරු මකා දැමෙනු ඇත.",
-  "medicationFrequency": "ඖෂධ ලබාගැනීමේ වාර ගණන",
+  "medicationFrequency": "ඖෂධ ගන්නා වාර ගණන",
   "daily": "දිනපතා",
   "everyXDays": "සෑම X දිනකට වරක්",
   "specificWeekdays": "නිශ්චිත සතියේ දින",

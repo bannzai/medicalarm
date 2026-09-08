@@ -32,7 +32,7 @@
   "deleteAccount": "Ջնջել հաշիվը",
   "deleteAccountConfirm": "Օգտատիրոջ տվյալները կջնջվեն",
   "deleteAccountMessage": "Հաշիվը ջնջելու դեպքում ձեր օգտատիրոջ բոլոր տվյալները կջնջվեն։",
-  "medicationFrequency": "Դեղի ընդունման հաճախականությունը",
+  "medicationFrequency": "Դեղորայքի ընդունման հաճախականություն",
   "daily": "Ամեն օր",
   "everyXDays": "Ամեն X օրը մեկ",
   "specificWeekdays": "Շաբաթվա որոշակի օրեր",

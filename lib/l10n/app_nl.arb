@@ -32,7 +32,7 @@
   "deleteAccount": "Account verwijderen",
   "deleteAccountConfirm": "Gebruikersinformatie wordt verwijderd",
   "deleteAccountMessage": "Als je je account verwijdert, wordt al je gebruikersinformatie verwijderd.",
-  "medicationFrequency": "Frequentie van medicijninname",
+  "medicationFrequency": "Medicatiefrequentie",
   "daily": "Dagelijks",
   "everyXDays": "Elke X dagen",
   "specificWeekdays": "Specifieke dagen van de week",
