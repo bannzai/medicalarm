@@ -178,7 +178,7 @@
   "undo": "撤销",
   "medicationHistoryReverted": "用药记录已撤销",
   "revertedTime": "取消时间",
-  "revertedByMember": "已由{name}取消",
+  "revertedByMember": "由 {name} 取消",
   "medicationTakenAtLabel": "已于{time}服用",
   "medicineResumedSnackbar": "已恢复服药",
   "medicineEditTooltip": "编辑药物",

@@ -178,7 +178,7 @@
   "undo": "تراجع",
   "medicationHistoryReverted": "إلغاء سجل تناول الدواء",
   "revertedTime": "وقت الإلغاء",
-  "revertedByMember": "ألغى {name} ذلك",
+  "revertedByMember": "ألغاه {name}",
   "medicationTakenAtLabel": "تم التناول في {time}",
   "medicineResumedSnackbar": "تم استئناف تناول الدواء",
   "medicineEditTooltip": "تعديل الدواء",

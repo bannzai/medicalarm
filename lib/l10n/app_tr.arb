@@ -178,7 +178,7 @@
   "undo": "Geri al",
   "medicationHistoryReverted": "İlaç alım kaydı geri alındı",
   "revertedTime": "İptal zamanı",
-  "revertedByMember": "{name} iptal etti",
+  "revertedByMember": "{name} tarafından iptal edildi",
   "medicationTakenAtLabel": "{time} alındı",
   "medicineResumedSnackbar": "İlacın kullanımına yeniden başlandı",
   "medicineEditTooltip": "İlacı düzenle",

@@ -178,7 +178,7 @@
   "undo": "Kumoa",
   "medicationHistoryReverted": "Lääkkeenottotieto kumottu",
   "revertedTime": "Peruutusaika",
-  "revertedByMember": "{name} peruutti",
+  "revertedByMember": "{name} perui",
   "medicationTakenAtLabel": "Otettu klo {time}",
   "medicineResumedSnackbar": "Lääkkeen ottaminen jatkui",
   "medicineEditTooltip": "Muokkaa lääkettä",

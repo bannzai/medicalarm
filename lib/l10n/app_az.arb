@@ -178,7 +178,7 @@
   "undo": "Geri al",
   "medicationHistoryReverted": "Dərman qəbul qeydinin ləğvi",
   "revertedTime": "Ləğv edilmə vaxtı",
-  "revertedByMember": "{name} ləğv etdi",
+  "revertedByMember": "{name} tərəfindən ləğv edildi",
   "medicationTakenAtLabel": "{time} Qəbul edilib",
   "medicineResumedSnackbar": "Dərmanın qəbuluna yenidən başlanıldı",
   "medicineEditTooltip": "Dərmanı redaktə et",

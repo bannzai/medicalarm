@@ -178,7 +178,7 @@
   "undo": "Cofnij",
   "medicationHistoryReverted": "Wpis przyjęcia leku anulowany",
   "revertedTime": "Czas anulowania",
-  "revertedByMember": "Anulowano przez {name}",
+  "revertedByMember": "Anulowane przez {name}",
   "medicationTakenAtLabel": "Przyjęto o {time}",
   "medicineResumedSnackbar": "Wznowiono przyjmowanie leku",
   "medicineEditTooltip": "Edytuj lek",

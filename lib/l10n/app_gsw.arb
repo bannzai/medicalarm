@@ -178,7 +178,7 @@
   "undo": "Rückgängig",
   "medicationHistoryReverted": "Medikamenteneintrag rückgängig gemacht",
   "revertedTime": "Stornierigsziit",
-  "revertedByMember": "Vo {name} abbroche",
+  "revertedByMember": "Vo {name} storniert",
   "medicationTakenAtLabel": "Um {time} iignoh",
   "medicineResumedSnackbar": "D Medikament isch wieder gnoh worde",
   "medicineEditTooltip": "Medikament bearbeite",

@@ -178,7 +178,7 @@
   "undo": "واگردانی",
   "medicationHistoryReverted": "لغو ثبت مصرف دارو",
   "revertedTime": "زمان لغو",
-  "revertedByMember": "{name} لغو کرد",
+  "revertedByMember": "توسط {name} لغو شد",
   "medicationTakenAtLabel": "در ساعت {time} مصرف شد",
   "medicineResumedSnackbar": "مصرف دارو از سر گرفته شد",
   "medicineEditTooltip": "ویرایش دارو",
