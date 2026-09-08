@@ -234,5 +234,6 @@
   "achievementWeeklyLabel": "ການກິນຢາໃນອາທິດນີ້",
   "achievementWeeklyCountSuffix": "/{scheduledCount} ຄັ້ງ",
   "achievementStreakLabel": "ສະຖິຕິຕໍ່ເນື່ອງ",
-  "achievementStreakDaysSuffix": "ວັນ"
+  "achievementStreakDaysSuffix": "ວັນ",
+  "achievementMonthlyRateLabel": "ອັດຕາການບັນລຸຂອງ {month}"
 }

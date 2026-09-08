@@ -234,5 +234,6 @@
   "achievementWeeklyLabel": "Presa de medicació aquesta setmana",
   "achievementWeeklyCountSuffix": "/{scheduledCount} vegades",
   "achievementStreakLabel": "Ratxa consecutiva",
-  "achievementStreakDaysSuffix": "dies"
+  "achievementStreakDaysSuffix": "dies",
+  "achievementMonthlyRateLabel": "Percentatge d’assoliment de {month}"
 }

@@ -234,5 +234,6 @@
   "achievementWeeklyLabel": "Pengambilan ubat minggu ini",
   "achievementWeeklyCountSuffix": "/{scheduledCount} kali",
   "achievementStreakLabel": "Rentetan berturut-turut",
-  "achievementStreakDaysSuffix": "hari"
+  "achievementStreakDaysSuffix": "hari",
+  "achievementMonthlyRateLabel": "Kadar pencapaian bagi {month}"
 }

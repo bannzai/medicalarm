@@ -234,5 +234,6 @@
   "achievementWeeklyLabel": "Aste honetako botikak hartzea",
   "achievementWeeklyCountSuffix": "/{scheduledCount} aldiz",
   "achievementStreakLabel": "Jarraikako marka",
-  "achievementStreakDaysSuffix": "egun"
+  "achievementStreakDaysSuffix": "egun",
+  "achievementMonthlyRateLabel": "{month} hilabeteko betetze-maila"
 }

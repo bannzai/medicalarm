@@ -234,5 +234,6 @@
   "achievementWeeklyLabel": "Bu həftə dərman qəbulu",
   "achievementWeeklyCountSuffix": "/{scheduledCount} dəfə",
   "achievementStreakLabel": "Ardıcıl seriya",
-  "achievementStreakDaysSuffix": "gün"
+  "achievementStreakDaysSuffix": "gün",
+  "achievementMonthlyRateLabel": "{month} üzrə yerinə yetirmə faizi"
 }

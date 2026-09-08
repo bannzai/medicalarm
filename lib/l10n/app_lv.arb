@@ -234,5 +234,6 @@
   "achievementWeeklyLabel": "Zāļu lietošana šonedēļ",
   "achievementWeeklyCountSuffix": "/{scheduledCount} reizes",
   "achievementStreakLabel": "Nepārtraukta sērija",
-  "achievementStreakDaysSuffix": "dienas"
+  "achievementStreakDaysSuffix": "dienas",
+  "achievementMonthlyRateLabel": "{month} izpildes līmenis"
 }

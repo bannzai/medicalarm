@@ -234,5 +234,6 @@
   "achievementWeeklyLabel": "Przyjęcia leków w tym tygodniu",
   "achievementWeeklyCountSuffix": "/{scheduledCount} razy",
   "achievementStreakLabel": "Seria",
-  "achievementStreakDaysSuffix": "dni"
+  "achievementStreakDaysSuffix": "dni",
+  "achievementMonthlyRateLabel": "Wskaźnik realizacji za {month}"
 }

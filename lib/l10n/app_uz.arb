@@ -234,5 +234,6 @@
   "achievementWeeklyLabel": "Bu haftadagi dori qabul qilish",
   "achievementWeeklyCountSuffix": "/{scheduledCount} marta",
   "achievementStreakLabel": "Ketma-ketlik",
-  "achievementStreakDaysSuffix": "kun"
+  "achievementStreakDaysSuffix": "kun",
+  "achievementMonthlyRateLabel": "{month} oyidagi bajarilish darajasi"
 }

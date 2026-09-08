@@ -234,5 +234,6 @@
   "achievementWeeklyLabel": "E heti gyógyszerbevétel",
   "achievementWeeklyCountSuffix": "/{scheduledCount} alkalom",
   "achievementStreakLabel": "Sorozat",
-  "achievementStreakDaysSuffix": "nap"
+  "achievementStreakDaysSuffix": "nap",
+  "achievementMonthlyRateLabel": "{month} teljesítési aránya"
 }

@@ -234,5 +234,6 @@
   "achievementWeeklyLabel": "Lääkkeenotto tällä viikolla",
   "achievementWeeklyCountSuffix": "/{scheduledCount} kertaa",
   "achievementStreakLabel": "Putki",
-  "achievementStreakDaysSuffix": "päivää"
+  "achievementStreakDaysSuffix": "päivää",
+  "achievementMonthlyRateLabel": "{month} saavutustaso"
 }

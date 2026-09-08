@@ -234,5 +234,6 @@
   "achievementWeeklyLabel": "Medikamenteneinnahme diese Woche",
   "achievementWeeklyCountSuffix": "/{scheduledCount} Mal",
   "achievementStreakLabel": "Serie",
-  "achievementStreakDaysSuffix": "Tage"
+  "achievementStreakDaysSuffix": "Tage",
+  "achievementMonthlyRateLabel": "Erfüllungsquote für {month}"
 }

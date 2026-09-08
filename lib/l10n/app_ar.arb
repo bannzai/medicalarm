@@ -234,5 +234,6 @@
   "achievementWeeklyLabel": "تناول الدواء هذا الأسبوع",
   "achievementWeeklyCountSuffix": "/{scheduledCount} مرة",
   "achievementStreakLabel": "سلسلة متتالية",
-  "achievementStreakDaysSuffix": "يوم"
+  "achievementStreakDaysSuffix": "يوم",
+  "achievementMonthlyRateLabel": "معدل الالتزام لشهر {month}"
 }

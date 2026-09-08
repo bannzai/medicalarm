@@ -234,5 +234,6 @@
   "achievementWeeklyLabel": "මෙම සතියේ ඖෂධ ගැනීම",
   "achievementWeeklyCountSuffix": "/{scheduledCount} වරක්",
   "achievementStreakLabel": "අඛණ්ඩ වාර්තාව",
-  "achievementStreakDaysSuffix": "දින"
+  "achievementStreakDaysSuffix": "දින",
+  "achievementMonthlyRateLabel": "{month} සඳහා සම්පූර්ණ කිරීමේ අනුපාතය"
 }

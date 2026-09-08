@@ -234,5 +234,6 @@
   "achievementWeeklyLabel": "נטילת תרופות השבוע",
   "achievementWeeklyCountSuffix": "/{scheduledCount} פעמים",
   "achievementStreakLabel": "רצף",
-  "achievementStreakDaysSuffix": "ימים"
+  "achievementStreakDaysSuffix": "ימים",
+  "achievementMonthlyRateLabel": "שיעור עמידה ביעדים עבור {month}"
 }

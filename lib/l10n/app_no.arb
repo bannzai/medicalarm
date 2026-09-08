@@ -234,5 +234,6 @@
   "achievementWeeklyLabel": "Denne ukens medisininntak",
   "achievementWeeklyCountSuffix": "/{scheduledCount} ganger",
   "achievementStreakLabel": "Sammenhengende rekke",
-  "achievementStreakDaysSuffix": "dager"
+  "achievementStreakDaysSuffix": "dager",
+  "achievementMonthlyRateLabel": "Oppfyllelsesgrad for {month}"
 }

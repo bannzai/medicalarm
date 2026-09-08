@@ -234,5 +234,6 @@
   "achievementWeeklyLabel": "Medikament i dere Wuche",
   "achievementWeeklyCountSuffix": "/{scheduledCount} Mol",
   "achievementStreakLabel": "Serie",
-  "achievementStreakDaysSuffix": "Täg"
+  "achievementStreakDaysSuffix": "Täg",
+  "achievementMonthlyRateLabel": "Erfülligsquote für {month}"
 }

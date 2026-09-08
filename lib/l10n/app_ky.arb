@@ -234,5 +234,6 @@
   "achievementWeeklyLabel": "Бул аптадагы дары ичүү",
   "achievementWeeklyCountSuffix": "/{scheduledCount} жолу",
   "achievementStreakLabel": "Удаалаш серия",
-  "achievementStreakDaysSuffix": "күн"
+  "achievementStreakDaysSuffix": "күн",
+  "achievementMonthlyRateLabel": "{month} айындагы аткаруу көрсөткүчү"
 }

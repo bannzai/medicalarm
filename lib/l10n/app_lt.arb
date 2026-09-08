@@ -234,5 +234,6 @@
   "achievementWeeklyLabel": "Šios savaitės vaistų vartojimas",
   "achievementWeeklyCountSuffix": "/{scheduledCount} kartų",
   "achievementStreakLabel": "Nepertraukiama serija",
-  "achievementStreakDaysSuffix": "dienos"
+  "achievementStreakDaysSuffix": "dienos",
+  "achievementMonthlyRateLabel": "{month} įvykdymo rodiklis"
 }

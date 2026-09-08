@@ -234,5 +234,6 @@
   "achievementWeeklyLabel": "Assunzioni di farmaci questa settimana",
   "achievementWeeklyCountSuffix": "/{scheduledCount} volte",
   "achievementStreakLabel": "Serie",
-  "achievementStreakDaysSuffix": "giorni"
+  "achievementStreakDaysSuffix": "giorni",
+  "achievementMonthlyRateLabel": "Tasso di completamento di {month}"
 }

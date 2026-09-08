@@ -234,5 +234,6 @@
   "achievementWeeklyLabel": "Այս շաբաթվա դեղորայքի ընդունում",
   "achievementWeeklyCountSuffix": "/{scheduledCount} անգամ",
   "achievementStreakLabel": "Անընդմեջ շարք",
-  "achievementStreakDaysSuffix": "օր"
+  "achievementStreakDaysSuffix": "օր",
+  "achievementMonthlyRateLabel": "{month}-ի կատարման ցուցանիշը"
 }

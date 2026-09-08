@@ -234,5 +234,6 @@
   "achievementWeeklyLabel": "Прием на лекарства тази седмица",
   "achievementWeeklyCountSuffix": "/{scheduledCount} пъти",
   "achievementStreakLabel": "Поредица",
-  "achievementStreakDaysSuffix": "дни"
+  "achievementStreakDaysSuffix": "дни",
+  "achievementMonthlyRateLabel": "Процент изпълнение за {month}"
 }

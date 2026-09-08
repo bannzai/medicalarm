@@ -234,5 +234,6 @@
   "achievementWeeklyLabel": "Прыём лекаў на гэтым тыдні",
   "achievementWeeklyCountSuffix": "/{scheduledCount} разоў",
   "achievementStreakLabel": "Паслядоўная серыя",
-  "achievementStreakDaysSuffix": "дзён"
+  "achievementStreakDaysSuffix": "дзён",
+  "achievementMonthlyRateLabel": "Паказчык выканання за {month}"
 }

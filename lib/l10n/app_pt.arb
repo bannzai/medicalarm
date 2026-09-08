@@ -234,5 +234,6 @@
   "achievementWeeklyLabel": "Tomas de medicamentos esta semana",
   "achievementWeeklyCountSuffix": "/{scheduledCount} vezes",
   "achievementStreakLabel": "Sequência",
-  "achievementStreakDaysSuffix": "dias"
+  "achievementStreakDaysSuffix": "dias",
+  "achievementMonthlyRateLabel": "Taxa de cumprimento de {month}"
 }

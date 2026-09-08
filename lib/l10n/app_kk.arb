@@ -234,5 +234,6 @@
   "achievementWeeklyLabel": "Осы аптадағы дәрі қабылдау",
   "achievementWeeklyCountSuffix": "/{scheduledCount} рет",
   "achievementStreakLabel": "Қатарынан орындалған күндер",
-  "achievementStreakDaysSuffix": "күн"
+  "achievementStreakDaysSuffix": "күн",
+  "achievementMonthlyRateLabel": "{month} айындағы орындалу деңгейі"
 }

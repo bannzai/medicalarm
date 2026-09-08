@@ -234,5 +234,6 @@
   "achievementWeeklyLabel": "ამ კვირის მედიკამენტების მიღება",
   "achievementWeeklyCountSuffix": "/{scheduledCount}-ჯერ",
   "achievementStreakLabel": "თანმიმდევრული სერია",
-  "achievementStreakDaysSuffix": "დღე"
+  "achievementStreakDaysSuffix": "დღე",
+  "achievementMonthlyRateLabel": "{month}-ის შესრულების მაჩვენებელი"
 }

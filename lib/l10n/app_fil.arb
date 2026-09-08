@@ -234,5 +234,6 @@
   "achievementWeeklyLabel": "Pag-inom ng gamot ngayong linggo",
   "achievementWeeklyCountSuffix": "/{scheduledCount} beses",
   "achievementStreakLabel": "Sunod-sunod na tala",
-  "achievementStreakDaysSuffix": "araw"
+  "achievementStreakDaysSuffix": "araw",
+  "achievementMonthlyRateLabel": "Rate ng pagkumpleto para sa {month}"
 }

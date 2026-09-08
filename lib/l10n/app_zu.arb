@@ -234,5 +234,6 @@
   "achievementWeeklyLabel": "Ukuphuza imithi kuleli sonto",
   "achievementWeeklyCountSuffix": "/{scheduledCount} izikhathi",
   "achievementStreakLabel": "Ukulandelana",
-  "achievementStreakDaysSuffix": "izinsuku"
+  "achievementStreakDaysSuffix": "izinsuku",
+  "achievementMonthlyRateLabel": "Izinga lokufezekisa lika-{month}"
 }
