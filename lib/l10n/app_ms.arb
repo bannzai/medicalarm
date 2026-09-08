@@ -223,7 +223,7 @@
   "accountLinkedSnackbar": "Akaun telah dipindahkan",
   "accountLinkBannerText": "Semasa berkongsi kumpulan, kami amat mengesyorkan agar anda menyediakan pemindahan akaun.",
   "minimumDoseInterval": "Selang masa pengambilan",
-  "minimumDoseIntervalDescription": "Tempoh minimum antara dos sejak dos terakhir",
+  "minimumDoseIntervalDescription": "Tempoh minimum antara dos",
   "minimumDoseIntervalNone": "Tiada",
   "minimumDoseIntervalHoursFormat": "Sekurang-kurangnya {hours} jam",
   "doseIntervalWarningTitle": "Selang masa yang diperlukan antara dos masih belum berlalu",

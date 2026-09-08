@@ -223,7 +223,7 @@
   "accountLinkedSnackbar": "መለያው ተላልፏል",
   "accountLinkBannerText": "በቡድን ማጋራት ላይ ሲሆኑ የመለያ ማስተላለፊያ ቅንብሮችን እንዲያዘጋጁ በጥብቅ እንመክራለን።",
   "minimumDoseInterval": "የመውሰጃ ክፍተት",
-  "minimumDoseIntervalDescription": "ከቀደመው የመድኃኒት መውሰድ በኋላ ቢያንስ የሚቆይ ጊዜ",
+  "minimumDoseIntervalDescription": "በመድኃኒት መውሰዶች መካከል መተው ያለበት ዝቅተኛው ጊዜ",
   "minimumDoseIntervalNone": "የለም",
   "minimumDoseIntervalHoursFormat": "ቢያንስ {hours} ሰዓታት",
   "doseIntervalWarningTitle": "በመድኃኒት መውሰጃዎች መካከል በቂ ጊዜ አልፏልም",

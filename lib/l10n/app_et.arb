@@ -223,7 +223,7 @@
   "accountLinkedSnackbar": "Konto üle kantud",
   "accountLinkBannerText": "Grupi jagamise ajal soovitame tungivalt seadistada konto ülekandmise.",
   "minimumDoseInterval": "Annustamisintervall",
-  "minimumDoseIntervalDescription": "Minimaalne aeg annuste vahel alates eelmisest annusest",
+  "minimumDoseIntervalDescription": "Minimaalne aeg annuste vahel",
   "minimumDoseIntervalNone": "Puudub",
   "minimumDoseIntervalHoursFormat": "Vähemalt {hours} tundi",
   "doseIntervalWarningTitle": "Annustamisvahe ei ole veel täitunud",

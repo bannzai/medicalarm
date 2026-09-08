@@ -223,7 +223,7 @@
   "accountLinkedSnackbar": "Aðgangur fluttur",
   "accountLinkBannerText": "Þegar hópi er deilt mælum við eindregið með því að setja upp flutning aðgangs.",
   "minimumDoseInterval": "Tími milli lyfjaskammta",
-  "minimumDoseIntervalDescription": "Lágmarkstími á milli skammta frá síðasta skammti",
+  "minimumDoseIntervalDescription": "Lágmarkstími milli skammta",
   "minimumDoseIntervalNone": "Ekkert",
   "minimumDoseIntervalHoursFormat": "Að minnsta kosti {hours} klukkustundir",
   "doseIntervalWarningTitle": "Nauðsynlegt bil milli skammta er ekki liðið",

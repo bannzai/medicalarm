@@ -223,7 +223,7 @@
   "accountLinkedSnackbar": "ගිණුම මාරු කරන ලදී",
   "accountLinkBannerText": "කණ්ඩායමක් බෙදාගන්නා විට, ගිණුම් මාරු කිරීමේ සැකසුම සකස් කරන ලෙස අපි තරයේ නිර්දේශ කරමු.",
   "minimumDoseInterval": "මාත්‍රා අතර පරතරය",
-  "minimumDoseIntervalDescription": "පෙර මාත්‍රාවෙන් පසු මාත්‍රා අතර අවම කාලය",
+  "minimumDoseIntervalDescription": "මාත්‍රා අතර තැබිය යුතු අවම කාලය",
   "minimumDoseIntervalNone": "නැත",
   "minimumDoseIntervalHoursFormat": "අවම වශයෙන් පැය {hours}ක්",
   "doseIntervalWarningTitle": "මාත්‍රා අතර අවශ්‍ය කාලය තවම ගත වී නැත",

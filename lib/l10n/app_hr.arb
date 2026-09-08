@@ -223,7 +223,7 @@
   "accountLinkedSnackbar": "Račun je prenesen",
   "accountLinkBannerText": "Tijekom dijeljenja grupe snažno preporučujemo da postavite prijenos računa.",
   "minimumDoseInterval": "Razmak između doza",
-  "minimumDoseIntervalDescription": "Minimalni razmak između doza od prethodne doze",
+  "minimumDoseIntervalDescription": "Minimalno vrijeme između doza",
   "minimumDoseIntervalNone": "Nema",
   "minimumDoseIntervalHoursFormat": "Najmanje {hours} sati",
   "doseIntervalWarningTitle": "Nije prošao potreban razmak između doza",

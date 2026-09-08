@@ -223,7 +223,7 @@
   "accountLinkedSnackbar": "Trosglwyddwyd y cyfrif",
   "accountLinkBannerText": "Wrth rannu grŵp, rydym yn argymell yn gryf eich bod yn sefydlu trosglwyddo’r cyfrif.",
   "minimumDoseInterval": "Cyfwng rhwng dosau",
-  "minimumDoseIntervalDescription": "Yr amser lleiaf rhwng dosau ers y dos blaenorol",
+  "minimumDoseIntervalDescription": "Yr amser lleiaf rhwng dosau",
   "minimumDoseIntervalNone": "Dim",
   "minimumDoseIntervalHoursFormat": "O leiaf {hours} awr",
   "doseIntervalWarningTitle": "Nid yw’r cyfnod rhwng dosau wedi mynd heibio",

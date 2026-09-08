@@ -223,7 +223,7 @@
   "accountLinkedSnackbar": "Akun berhasil dipindahkan",
   "accountLinkBannerText": "Saat berbagi grup, kami sangat menyarankan Anda menyiapkan transfer akun.",
   "minimumDoseInterval": "Jeda minum obat",
-  "minimumDoseIntervalDescription": "Jeda minimum antar dosis sejak dosis terakhir",
+  "minimumDoseIntervalDescription": "Waktu minimum antara dosis",
   "minimumDoseIntervalNone": "Tidak ada",
   "minimumDoseIntervalHoursFormat": "Minimal {hours} jam",
   "doseIntervalWarningTitle": "Jarak waktu antar dosis belum terpenuhi",

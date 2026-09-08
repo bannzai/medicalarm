@@ -223,7 +223,7 @@
   "accountLinkedSnackbar": "အကောင့်ကို လွှဲပြောင်းပြီးပါပြီ",
   "accountLinkBannerText": "အဖွဲ့မျှဝေနေစဉ် အကောင့်လွှဲပြောင်းခြင်းကို စနစ်ထည့်သွင်းရန် အထူးအကြံပြုပါသည်။",
   "minimumDoseInterval": "ဆေးသောက်ချိန်ကြားကာလ",
-  "minimumDoseIntervalDescription": "ယခင်ဆေးသောက်ပြီးနောက် ဆေးပမာဏများကြား အနည်းဆုံးကြာချိန်",
+  "minimumDoseIntervalDescription": "ဆေးသောက်သည့်အကြိမ်များကြား အနည်းဆုံးအချိန်",
   "minimumDoseIntervalNone": "မရှိပါ",
   "minimumDoseIntervalHoursFormat": "အနည်းဆုံး {hours} နာရီ",
   "doseIntervalWarningTitle": "ဆေးသောက်ချိန်များအကြား လိုအပ်သောအချိန် မပြည့်သေးပါ",

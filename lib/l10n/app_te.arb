@@ -223,7 +223,7 @@
   "accountLinkedSnackbar": "ఖాతా బదిలీ చేయబడింది",
   "accountLinkBannerText": "గ్రూప్‌ను షేర్ చేస్తున్నప్పుడు, ఖాతా బదిలీ సెట్టింగ్‌ను ఏర్పాటు చేసుకోవాలని మేము గట్టిగా సిఫార్సు చేస్తున్నాము.",
   "minimumDoseInterval": "మోతాదుల మధ్య విరామం",
-  "minimumDoseIntervalDescription": "మునుపటి మోతాదు తర్వాత మోతాదుల మధ్య కనీస సమయం",
+  "minimumDoseIntervalDescription": "మోతాదుల మధ్య ఉండాల్సిన కనీస సమయం",
   "minimumDoseIntervalNone": "ఏదీ లేదు",
   "minimumDoseIntervalHoursFormat": "కనీసం {hours} గంటలు",
   "doseIntervalWarningTitle": "మోతాదుల మధ్య అవసరమైన సమయం ఇంకా పూర్తికాలేదు",

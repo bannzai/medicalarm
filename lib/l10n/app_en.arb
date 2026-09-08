@@ -223,7 +223,7 @@
   "accountLinkedSnackbar": "Account transferred",
   "accountLinkBannerText": "When sharing a group, we strongly recommend setting up account transfer.",
   "minimumDoseInterval": "Dose interval",
-  "minimumDoseIntervalDescription": "Minimum time to wait since the last dose",
+  "minimumDoseIntervalDescription": "Minimum time between doses",
   "minimumDoseIntervalNone": "None",
   "minimumDoseIntervalHoursFormat": "At least {hours}h",
   "doseIntervalWarningTitle": "Not enough time since the last dose",

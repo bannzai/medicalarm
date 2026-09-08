@@ -223,7 +223,7 @@
   "accountLinkedSnackbar": "Akaunti imehamishwa",
   "accountLinkBannerText": "Unaposhiriki kikundi, tunapendekeza sana uweke mipangilio ya kuhamisha akaunti.",
   "minimumDoseInterval": "Muda kati ya dozi",
-  "minimumDoseIntervalDescription": "Muda wa chini kati ya dozi tangu dozi ya awali",
+  "minimumDoseIntervalDescription": "Muda wa chini kati ya dozi",
   "minimumDoseIntervalNone": "Hakuna",
   "minimumDoseIntervalHoursFormat": "Angalau saa {hours}",
   "doseIntervalWarningTitle": "Muda unaohitajika kati ya dozi bado haujapita",

@@ -223,7 +223,7 @@
   "accountLinkedSnackbar": "Тіркелгі тасымалданды",
   "accountLinkBannerText": "Топпен бөлісу кезінде есептік жазбаны ауыстыруды баптауды қатаң ұсынамыз.",
   "minimumDoseInterval": "Дозалар арасындағы аралық",
-  "minimumDoseIntervalDescription": "Алдыңғы дозадан кейін өтуі тиіс ең аз уақыт",
+  "minimumDoseIntervalDescription": "Қабылдаулар арасындағы ең аз уақыт",
   "minimumDoseIntervalNone": "Жоқ",
   "minimumDoseIntervalHoursFormat": "Кемінде {hours} сағат",
   "doseIntervalWarningTitle": "Дозалар арасындағы қажетті уақыт әлі өткен жоқ",

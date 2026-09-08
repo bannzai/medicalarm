@@ -223,7 +223,7 @@
   "accountLinkedSnackbar": "Hesab köçürüldü",
   "accountLinkBannerText": "Qrup paylaşımı zamanı hesabın ötürülməsi ayarlarını qurmağınızı ciddi şəkildə tövsiyə edirik.",
   "minimumDoseInterval": "Qəbul intervalı",
-  "minimumDoseIntervalDescription": "Əvvəlki dozadan sonra keçməli olan minimum vaxt",
+  "minimumDoseIntervalDescription": "Qəbul arasında saxlanmalı minimum vaxt",
   "minimumDoseIntervalNone": "Yoxdur",
   "minimumDoseIntervalHoursFormat": "Ən azı {hours} saat",
   "doseIntervalWarningTitle": "Qəbul etmələr arasındakı vaxt tamamlanmayıb",

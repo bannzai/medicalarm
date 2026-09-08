@@ -223,7 +223,7 @@
   "accountLinkedSnackbar": "Бүртгэл шилжлээ",
   "accountLinkBannerText": "Бүлэг хуваалцаж байгаа үед бүртгэл шилжүүлэх тохиргоог хийхийг бид онцгойлон зөвлөж байна.",
   "minimumDoseInterval": "Тун хоорондын зай",
-  "minimumDoseIntervalDescription": "Өмнөх тунгаас хойш тун хооронд баримтлах хамгийн бага хугацаа",
+  "minimumDoseIntervalDescription": "Тун хоорондын хамгийн бага зай",
   "minimumDoseIntervalNone": "Байхгүй",
   "minimumDoseIntervalHoursFormat": "Дор хаяж {hours} цаг",
   "doseIntervalWarningTitle": "Тун хоорондын шаардлагатай хугацаа хараахан өнгөрөөгүй байна",

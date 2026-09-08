@@ -223,7 +223,7 @@
   "accountLinkedSnackbar": "I-akhawunti idlulisiwe",
   "accountLinkBannerText": "Uma wabelana ngeqembu, sincoma kakhulu ukuthi uhlele ukudluliselwa kwe-akhawunti.",
   "minimumDoseInterval": "Isikhawu sokuphuza umuthi",
-  "minimumDoseIntervalDescription": "Isikhathi esincane phakathi kwemithamo kusukela emthamo odlule",
+  "minimumDoseIntervalDescription": "Isikhathi esincane phakathi kwemithamo",
   "minimumDoseIntervalNone": "Akukho",
   "minimumDoseIntervalHoursFormat": "Okungenani amahora angu-{hours}",
   "doseIntervalWarningTitle": "Isikhawu esidingekayo phakathi kwemithamo asikapheli",

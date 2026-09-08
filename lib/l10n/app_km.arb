@@ -223,7 +223,7 @@
   "accountLinkedSnackbar": "គណនីត្រូវបានផ្ទេរ",
   "accountLinkBannerText": "នៅពេលចែករំលែកក្រុម យើងសូមណែនាំយ៉ាងខ្លាំងឱ្យអ្នករៀបចំការផ្ទេរគណនី។",
   "minimumDoseInterval": "ចន្លោះពេលប្រើថ្នាំ",
-  "minimumDoseIntervalDescription": "រយៈពេលអប្បបរមារវាងដូស ចាប់ពីដូសមុន",
+  "minimumDoseIntervalDescription": "រយៈពេលអប្បបរមារវាងការលេបថ្នាំ",
   "minimumDoseIntervalNone": "គ្មាន",
   "minimumDoseIntervalHoursFormat": "យ៉ាងហោចណាស់ {hours} ម៉ោង",
   "doseIntervalWarningTitle": "ចន្លោះពេលចាំបាច់រវាងការលេបថ្នាំមិនទាន់កន្លងផុតទេ",

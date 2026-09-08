@@ -223,7 +223,7 @@
   "accountLinkedSnackbar": "खाते हस्तांतरित केले",
   "accountLinkBannerText": "ग्रुप शेअर करताना, खाते हस्तांतरण सेटिंग्ज सेट करण्याची आम्ही जोरदार शिफारस करतो.",
   "minimumDoseInterval": "डोसांमधील अंतर",
-  "minimumDoseIntervalDescription": "मागील डोसनंतर डोसांमधील किमान अंतर",
+  "minimumDoseIntervalDescription": "डोसांमधील किमान अंतर",
   "minimumDoseIntervalNone": "काहीही नाही",
   "minimumDoseIntervalHoursFormat": "किमान {hours} तास",
   "doseIntervalWarningTitle": "डोसांमधील आवश्यक वेळ अद्याप पूर्ण झालेला नाही",

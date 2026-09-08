@@ -223,7 +223,7 @@
   "accountLinkedSnackbar": "ანგარიში გადმოტანილია",
   "accountLinkBannerText": "ჯგუფის გაზიარებისას გირჩევთ, აუცილებლად დააყენოთ ანგარიშის გადაცემა.",
   "minimumDoseInterval": "დოზებს შორის ინტერვალი",
-  "minimumDoseIntervalDescription": "წინა დოზის მიღებიდან გასავლელი მინიმალური დრო",
+  "minimumDoseIntervalDescription": "დოზებს შორის მინიმალური ინტერვალი",
   "minimumDoseIntervalNone": "არცერთი",
   "minimumDoseIntervalHoursFormat": "მინიმუმ {hours} საათი",
   "doseIntervalWarningTitle": "დოზებს შორის საჭირო დრო ჯერ არ გასულა",

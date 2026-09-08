@@ -223,7 +223,7 @@
   "accountLinkedSnackbar": "ໂອນບັນຊີແລ້ວ",
   "accountLinkBannerText": "ໃນຂະນະທີ່ແບ່ງປັນກຸ່ມ ພວກເຮົາຂໍແນະນຳຢ່າງຍິ່ງໃຫ້ຕັ້ງຄ່າການໂອນບັນຊີ.",
   "minimumDoseInterval": "ໄລຍະຫ່າງລະຫວ່າງການກິນຢາ",
-  "minimumDoseIntervalDescription": "ໄລຍະເວລາຂັ້ນຕ່ຳລະຫວ່າງການກິນຢາ ຫຼັງຈາກຄັ້ງກ່ອນ",
+  "minimumDoseIntervalDescription": "ໄລຍະເວລາຂັ້ນຕ່ຳລະຫວ່າງການກິນຢາ",
   "minimumDoseIntervalNone": "ບໍ່ມີ",
   "minimumDoseIntervalHoursFormat": "ຢ່າງໜ້ອຍ {hours} ຊົ່ວໂມງ",
   "doseIntervalWarningTitle": "ຍັງບໍ່ຮອດໄລຍະຫ່າງທີ່ຈຳເປັນລະຫວ່າງການກິນຢາ",

@@ -223,7 +223,7 @@
   "accountLinkedSnackbar": "கணக்கு மாற்றப்பட்டது",
   "accountLinkBannerText": "குழுவைப் பகிரும்போது, கணக்கு மாற்றத்தை அமைக்குமாறு நாங்கள் வலுவாகப் பரிந்துரைக்கிறோம்.",
   "minimumDoseInterval": "மருந்து உட்கொள்ளும் இடைவெளி",
-  "minimumDoseIntervalDescription": "முந்தைய மருந்தளவுக்குப் பிறகு மருந்தளவுகளுக்கு இடையிலான குறைந்தபட்ச நேரம்",
+  "minimumDoseIntervalDescription": "மருந்து அளவுகளுக்கு இடையில் இருக்க வேண்டிய குறைந்தபட்ச நேரம்",
   "minimumDoseIntervalNone": "எதுவுமில்லை",
   "minimumDoseIntervalHoursFormat": "குறைந்தது {hours} மணிநேரம்",
   "doseIntervalWarningTitle": "மருந்து அளவுகளுக்கு இடையிலான தேவையான நேரம் இன்னும் முடியவில்லை",

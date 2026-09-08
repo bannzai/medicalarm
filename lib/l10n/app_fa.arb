@@ -223,7 +223,7 @@
   "accountLinkedSnackbar": "حساب منتقل شد",
   "accountLinkBannerText": "هنگام اشتراک‌گذاری گروه، اکیداً توصیه می‌کنیم تنظیمات انتقال حساب را انجام دهید.",
   "minimumDoseInterval": "فاصله بین دوزها",
-  "minimumDoseIntervalDescription": "حداقل فاصله زمانی بین دوزها از آخرین دوز",
+  "minimumDoseIntervalDescription": "حداقل زمان بین دوزها",
   "minimumDoseIntervalNone": "هیچ‌کدام",
   "minimumDoseIntervalHoursFormat": "حداقل {hours} ساعت",
   "doseIntervalWarningTitle": "هنوز فاصلهٔ لازم بین نوبت‌های مصرف نگذشته است",

@@ -223,7 +223,7 @@
   "accountLinkedSnackbar": "Каттоо эсеби өткөрүлдү",
   "accountLinkBannerText": "Топту бөлүшүп жатканда аккаунтту өткөрүп берүү жөндөөлөрүн орнотууну настоятелно сунуштайбыз.",
   "minimumDoseInterval": "Дозалар аралыгы",
-  "minimumDoseIntervalDescription": "Мурунку дозадан кийинки минималдуу аралык",
+  "minimumDoseIntervalDescription": "Кабыл алуулардын ортосундагы минималдуу убакыт",
   "minimumDoseIntervalNone": "Жок",
   "minimumDoseIntervalHoursFormat": "Кеминде {hours} саат",
   "doseIntervalWarningTitle": "Дозалардын ортосундагы керектүү убакыт али өтө элек",
