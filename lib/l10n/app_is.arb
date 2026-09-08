@@ -127,7 +127,7 @@
   "premiumUserThanksTitle": "Þú ert Premium-meðlimur",
   "premiumUserThanksMessage": "Takk fyrir að nota Medicalarm.\nMeð stuðningi ykkar getum við haldið áfram að reka Medicalarm.",
   "premiumPricePerMonth": "({price}/mánuði)",
-  "premiumCancelDescription": "・Eftir kaup geturðu sagt upp sjálfvirkri endurnýjun í reikningsstillingum {storeName}-forritsins. (Ekki er hægt að segja upp sjálfvirkri endurnýjun úr forritinu sjálfu.)",
+  "premiumCancelDescription": "・Eftir kaup geturðu sagt upp sjálfvirkri endurnýjun í reikningsstillingum {storeName}-appsins. (Ekki er hægt að segja upp sjálfvirkri endurnýjun í appinu.)",
   "purchaseErrorRestoreFailed": "Upplýsingar um fyrri kaup fundust ekki. Athugaðu reikninginn þinn og reyndu aftur",
   "purchaseErrorUserNotFound": "Ekki tókst að staðfesta notandann. Endurræstu appið og reyndu aftur. Upplýsingar: {message}",
   "purchaseErrorActivationPending": "Virkjun áskriftar er ekki lokið. Athugaðu aftur síðar.",

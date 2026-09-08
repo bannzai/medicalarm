@@ -127,7 +127,7 @@
   "premiumUserThanksTitle": "Vi ste premium član",
   "premiumUserThanksMessage": "Hvala vam što koristite Medicalarm.\nZahvaljujući vama možemo nastaviti s radom aplikacije Medicalarm.",
   "premiumPricePerMonth": "({price}/mjesečno)",
-  "premiumCancelDescription": "・Nakon kupovine, automatsko obnavljanje možete otkazati u postavkama računa aplikacije {storeName}. (Automatsko obnavljanje nije moguće otkazati iz same aplikacije.)",
+  "premiumCancelDescription": "・Nakon kupovine, automatsko obnavljanje možete otkazati u postavkama naloga u aplikaciji {storeName}. (Automatsko obnavljanje nije moguće otkazati iz aplikacije.)",
   "purchaseErrorRestoreFailed": "Podaci o prethodnoj kupovini nisu pronađeni. Provjerite svoj račun i pokušajte ponovo",
   "purchaseErrorUserNotFound": "Korisnik nije mogao biti potvrđen. Ponovo pokrenite aplikaciju i pokušajte ponovo. Detalji: {message}",
   "purchaseErrorActivationPending": "Aktivacija pretplate nije završena. Provjerite ponovo nakon nekog vremena.",

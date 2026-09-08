@@ -127,7 +127,7 @@
   "premiumUserThanksTitle": "તમે પ્રીમિયમ સભ્ય છો",
   "premiumUserThanksMessage": "Medicalarm નો ઉપયોગ કરવા બદલ આભાર.\nતમારા સહયોગથી અમે Medicalarmનું સંચાલન ચાલુ રાખી શકીએ છીએ.",
   "premiumPricePerMonth": "({price}/મહિનો)",
-  "premiumCancelDescription": "・ખરીદી કર્યા પછી, તમે {storeName} ઍપની એકાઉન્ટ સેટિંગ્સમાં ઑટોમૅટિક નવીકરણ રદ કરી શકો છો. (ઍપની અંદરથી ઑટોમૅટિક નવીકરણ રદ કરી શકાતું નથી.)",
+  "premiumCancelDescription": "・ખરીદી પછી, તમે {storeName} ઍપની એકાઉન્ટ સેટિંગ્સમાં જઈને સ્વચાલિત નવીકરણ રદ કરી શકો છો. (ઍપની અંદરથી સ્વચાલિત નવીકરણ રદ કરી શકાતું નથી.)",
   "purchaseErrorRestoreFailed": "પહેલાંની ખરીદીની માહિતી મળી નથી. તમારું એકાઉન્ટ તપાસો અને ફરી પ્રયાસ કરો",
   "purchaseErrorUserNotFound": "વપરાશકર્તાની ચકાસણી થઈ શકી નથી. ઍપ ફરી શરૂ કરીને ફરી પ્રયાસ કરો. વિગતો: {message}",
   "purchaseErrorActivationPending": "સબ્સ્ક્રિપ્શન સક્રિય કરવાનું પૂર્ણ થયું નથી. કૃપા કરીને થોડી વાર પછી ફરી તપાસો.",

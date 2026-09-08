@@ -127,7 +127,7 @@
   "premiumUserThanksTitle": "Du bisch Premium-Mitglied",
   "premiumUserThanksMessage": "Danke, dass Sie Medicalarm nutze.\nDank Ihrer Unterstützig chönne mir Medicalarm wiiterfüehre.",
   "premiumPricePerMonth": "({price}/Monat)",
-  "premiumCancelDescription": "・Nach em Chauf chönned Sie d automatische Verlängerig i de Konto-Einstellige vo de {storeName}-App kündige. (D automatische Verlängerig cha nöd direkt i de App kündigt werde.)",
+  "premiumCancelDescription": "・Nach em Chauf chönd Sie d’automatischi Verlängerig i de Konto-Istellige vo de {storeName}-App kündige. (D’automatischi Verlängerig cha nöd i de App kündigt werde.)",
   "purchaseErrorRestoreFailed": "D Informatione vom vorherige Chauf isch nöd gfunde worde. Überprüef dis Konto und versuechs nomol",
   "purchaseErrorUserNotFound": "D Benutzer het nöd chönne verifiziert werde. Starte d App neu und probier’s nomol. Details: {message}",
   "purchaseErrorActivationPending": "D Aktivierig vom Abo isch no nöd abgschlosse. Bitte später nomol prüefe.",

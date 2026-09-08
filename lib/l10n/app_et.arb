@@ -127,7 +127,7 @@
   "premiumUserThanksTitle": "Olete Premiumi liige",
   "premiumUserThanksMessage": "Täname, et kasutate Medicalarmi.\nTänu teie toetusele saame Medicalarmi tegevust jätkata.",
   "premiumPricePerMonth": "({price}/kuu)",
-  "premiumCancelDescription": "・Pärast ostu saate automaatse uuendamise tühistada rakenduse {storeName} konto seadetes. (Automaatset uuendamist ei saa rakenduses endas tühistada.)",
+  "premiumCancelDescription": "・Pärast ostu saate automaatse uuendamise tühistada {storeName} rakenduse konto seadetes. (Automaatset uuendamist ei saa rakenduses tühistada.)",
   "purchaseErrorRestoreFailed": "Eelmise ostu teavet ei leitud. Kontrolli oma kontot ja proovi uuesti",
   "purchaseErrorUserNotFound": "Kasutaja kinnitamine ebaõnnestus. Taaskäivitage rakendus ja proovige uuesti. Üksikasjad: {message}",
   "purchaseErrorActivationPending": "Tellimuse aktiveerimine pole veel lõpule viidud. Kontrollige palun hiljem uuesti.",

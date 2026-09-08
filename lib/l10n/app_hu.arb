@@ -127,7 +127,7 @@
   "premiumUserThanksTitle": "Ön Prémium-tag",
   "premiumUserThanksMessage": "Köszönjük, hogy a Medicalarmot használja.\nAz Ön támogatásának köszönhetően folytathatjuk a Medicalarm működtetését.",
   "premiumPricePerMonth": "({price}/hó)",
-  "premiumCancelDescription": "・Vásárlás után az automatikus megújítás a {storeName} alkalmazás fiókbeállításaiban mondható le. (Az automatikus megújítás az alkalmazáson belül nem mondható le.)",
+  "premiumCancelDescription": "・Vásárlás után az automatikus megújítást a {storeName} alkalmazás fiókbeállításaiban mondhatja le. (Az automatikus megújítás az alkalmazásban nem mondható le.)",
   "purchaseErrorRestoreFailed": "A korábbi vásárlás adatai nem találhatók. Ellenőrizd a fiókodat, majd próbáld újra",
   "purchaseErrorUserNotFound": "A felhasználó ellenőrzése nem sikerült. Indítsa újra az alkalmazást, majd próbálja újra. Részletek: {message}",
   "purchaseErrorActivationPending": "Az előfizetés aktiválása még nem fejeződött be. Kérjük, ellenőrizze később újra.",

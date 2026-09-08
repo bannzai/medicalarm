@@ -127,7 +127,7 @@
   "premiumUserThanksTitle": "Du er premium-medlem",
   "premiumUserThanksMessage": "Tak, fordi du bruger Medicalarm.\nTakket være jeres støtte kan vi fortsætte driften af Medicalarm.",
   "premiumPricePerMonth": "({price}/måned)",
-  "premiumCancelDescription": "・Efter købet kan du annullere automatisk fornyelse i kontoindstillingerne i appen {storeName}. (Automatisk fornyelse kan ikke annulleres i selve appen.)",
+  "premiumCancelDescription": "・Efter købet kan du opsige den automatiske fornyelse i kontoindstillingerne i {storeName}-appen. (Automatisk fornyelse kan ikke opsiges i appen.)",
   "purchaseErrorRestoreFailed": "Oplysninger om tidligere køb blev ikke fundet. Kontrollér din konto, og prøv igen",
   "purchaseErrorUserNotFound": "Brugeren kunne ikke bekræftes. Genstart appen, og prøv igen. Detaljer: {message}",
   "purchaseErrorActivationPending": "Aktiveringen af abonnementet er ikke fuldført. Kontrollér venligst igen senere.",

@@ -127,7 +127,7 @@
   "premiumUserThanksTitle": "Jste prémiový člen",
   "premiumUserThanksMessage": "Děkujeme, že používáte Medicalarm.\nDíky vaší podpoře můžeme provoz Medicalarmu nadále udržovat.",
   "premiumPricePerMonth": "({price}/měsíc)",
-  "premiumCancelDescription": "・Po zakoupení můžete automatické obnovení zrušit v nastavení účtu aplikace {storeName}. (Automatické obnovení nelze zrušit přímo v aplikaci.)",
+  "premiumCancelDescription": "・Po zakoupení můžete automatické obnovení zrušit v nastavení účtu v aplikaci {storeName}. (Automatické obnovení nelze zrušit přímo v aplikaci.)",
   "purchaseErrorRestoreFailed": "Informace o předchozím nákupu nebyly nalezeny. Zkontrolujte svůj účet a zkuste to znovu",
   "purchaseErrorUserNotFound": "Uživatele se nepodařilo ověřit. Restartujte aplikaci a zkuste to znovu. Podrobnosti: {message}",
   "purchaseErrorActivationPending": "Aktivace předplatného nebyla dokončena. Zkontrolujte to prosím později.",

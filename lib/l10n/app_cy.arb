@@ -127,7 +127,7 @@
   "premiumUserThanksTitle": "Rydych chi'n aelod premiwm",
   "premiumUserThanksMessage": "Diolch am ddefnyddio Medicalarm.\nDiolch i chi, gallwn barhau i weithredu Medicalarm.",
   "premiumPricePerMonth": "({price}/mis)",
-  "premiumCancelDescription": "・Ar ôl prynu, gallwch ganslo’r adnewyddu awtomatig yng ngosodiadau cyfrif ap {storeName}. (Ni ellir canslo’r adnewyddu awtomatig o’r ap ei hun.)",
+  "premiumCancelDescription": "・Ar ôl prynu, gallwch ganslo adnewyddu awtomatig yng ngosodiadau cyfrif ap {storeName}. (Ni ellir canslo adnewyddu awtomatig o fewn yr ap.)",
   "purchaseErrorRestoreFailed": "Ni chanfuwyd gwybodaeth am y pryniant blaenorol. Gwiriwch eich cyfrif a rhowch gynnig arall arni",
   "purchaseErrorUserNotFound": "Nid oedd modd cadarnhau’r defnyddiwr. Ailgychwynnwch yr ap a rhowch gynnig arall arni. Manylion: {message}",
   "purchaseErrorActivationPending": "Nid yw gweithredu’r tanysgrifiad wedi’i gwblhau. Gwiriwch eto ymhen ychydig.",

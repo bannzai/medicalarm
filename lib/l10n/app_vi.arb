@@ -127,7 +127,7 @@
   "premiumUserThanksTitle": "Bạn là thành viên Premium",
   "premiumUserThanksMessage": "Cảm ơn bạn đã sử dụng Medicalarm.\nNhờ sự ủng hộ của bạn, chúng tôi có thể tiếp tục vận hành Medicalarm.",
   "premiumPricePerMonth": "({price}/tháng)",
-  "premiumCancelDescription": "・Sau khi mua, bạn có thể hủy gia hạn tự động trong phần cài đặt tài khoản của ứng dụng {storeName}. (Không thể hủy gia hạn tự động từ trong ứng dụng.)",
+  "premiumCancelDescription": "・Sau khi mua, bạn có thể hủy gia hạn tự động trong phần cài đặt tài khoản của ứng dụng {storeName}. (Không thể hủy gia hạn tự động trong ứng dụng.)",
   "purchaseErrorRestoreFailed": "Không tìm thấy thông tin mua hàng trước đó. Hãy kiểm tra tài khoản và thử lại",
   "purchaseErrorUserNotFound": "Không thể xác minh người dùng. Hãy khởi động lại ứng dụng rồi thử lại. Chi tiết: {message}",
   "purchaseErrorActivationPending": "Quá trình kích hoạt gói đăng ký chưa hoàn tất. Vui lòng kiểm tra lại sau.",

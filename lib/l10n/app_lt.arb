@@ -127,7 +127,7 @@
   "premiumUserThanksTitle": "Esate „Premium“ narys",
   "premiumUserThanksMessage": "Dėkojame, kad naudojatės Medicalarm.\nJūsų palaikymo dėka galime toliau vykdyti Medicalarm veiklą.",
   "premiumPricePerMonth": "({price}/mėn.)",
-  "premiumCancelDescription": "・Įsigiję galite atšaukti automatinį pratęsimą programėlės „{storeName}“ paskyros nustatymuose. (Automatinio pratęsimo negalima atšaukti pačioje programėlėje.)",
+  "premiumCancelDescription": "・Po pirkimo automatinį pratęsimą galite atšaukti {storeName} programėlės paskyros nustatymuose. (Automatinio pratęsimo programėlėje atšaukti negalima.)",
   "purchaseErrorRestoreFailed": "Ankstesnio pirkimo informacija nerasta. Patikrinkite savo paskyrą ir bandykite dar kartą",
   "purchaseErrorUserNotFound": "Nepavyko patvirtinti naudotojo. Paleiskite programėlę iš naujo ir bandykite dar kartą. Išsami informacija: {message}",
   "purchaseErrorActivationPending": "Prenumeratos aktyvinimas nebaigtas. Patikrinkite dar kartą vėliau.",

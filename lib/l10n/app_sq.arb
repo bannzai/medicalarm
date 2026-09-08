@@ -127,7 +127,7 @@
   "premiumUserThanksTitle": "Jeni anëtar Premium",
   "premiumUserThanksMessage": "Faleminderit që përdorni Medicalarm.\nFalë mbështetjes suaj, mund të vazhdojmë funksionimin e Medicalarm.",
   "premiumPricePerMonth": "({price}/muaj)",
-  "premiumCancelDescription": "・Pas blerjes, rinovimin automatik mund ta anuloni te cilësimet e llogarisë në aplikacionin {storeName}. (Rinovimi automatik nuk mund të anulohet nga vetë aplikacioni.)",
+  "premiumCancelDescription": "・Pas blerjes, rinovimin automatik mund ta anuloni te cilësimet e llogarisë në aplikacionin {storeName}. (Rinovimi automatik nuk mund të anulohet brenda aplikacionit.)",
   "purchaseErrorRestoreFailed": "Informacioni për blerjen e mëparshme nuk u gjet. Kontrolloni llogarinë tuaj dhe provoni përsëri",
   "purchaseErrorUserNotFound": "Përdoruesi nuk mund të verifikohej. Rinisni aplikacionin dhe provo përsëri. Detaje: {message}",
   "purchaseErrorActivationPending": "Aktivizimi i abonimit nuk ka përfunduar. Kontrollojeni përsëri më vonë.",
