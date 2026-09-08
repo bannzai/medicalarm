@@ -210,7 +210,7 @@
   "removeMemberConfirmTitle": "آیا می‌خواهید این عضو را حذف کنید؟",
   "removeMemberConfirmMessage": "حذف {name} از گروه",
   "joinGroup": "پیوستن به گروه",
-  "invitationCodeInputLabel": "کد دعوت (۸ نویسه)",
+  "invitationCodeInputLabel": "کد دعوت (۸ کاراکتر)",
   "invitationCodeInputHint": "کد ۸ کاراکتری را وارد کنید",
   "join": "پیوستن",
   "recordedByMember": "ثبت‌شده توسط {name}",

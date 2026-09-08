@@ -210,7 +210,7 @@
   "removeMemberConfirmTitle": "Ufuna ukususa leli lungu?",
   "removeMemberConfirmMessage": "Susa u-{name} eqenjini",
   "joinGroup": "Joyina iqembu",
-  "invitationCodeInputLabel": "Ikhodi yesimemo (izinhlamvu ezingu-8)",
+  "invitationCodeInputLabel": "Ikhodi yesimemo (izinhlamvu eziyi-8)",
   "invitationCodeInputHint": "Faka ikhodi enezinhlamvu eziyi-8",
   "join": "Joyina",
   "recordedByMember": "Kurekhodwe ngu-{name}",
