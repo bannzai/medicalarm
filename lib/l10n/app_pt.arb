@@ -144,7 +144,7 @@
   "purchaseRestored": "As informações da compra foram restauradas",
   "medicationTimeFollowup": "Acompanhamento do horário da medicação",
   "updateRequired": "É necessária uma atualização",
-  "updateRequiredMessage": "Atualize para a versão mais recente pela {storeName}",
+  "updateRequiredMessage": "Atualize para a versão mais recente a partir de {storeName}",
   "screenshotMedicationHistoriesMemo": "Tomei o medicamento mais tarde porque dormi demais à tarde.",
   "screenshotMedicationDoserReceiver1": "Eu mesmo",
   "screenshotMedicationDoserReceiver2": "Mana",

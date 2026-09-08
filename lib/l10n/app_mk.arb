@@ -144,7 +144,7 @@
   "purchaseRestored": "Информациите за купувањето се обновени",
   "medicationTimeFollowup": "Следење на времето за земање лекови",
   "updateRequired": "Потребно е ажурирање",
-  "updateRequiredMessage": "Ажурирајте на најновата верзија од {storeName}",
+  "updateRequiredMessage": "Ажурирајте ја најновата верзија преку {storeName}",
   "screenshotMedicationHistoriesMemo": "Го земав лекот подоцна бидејќи предолго спиев попладне.",
   "screenshotMedicationDoserReceiver1": "Јас",
   "screenshotMedicationDoserReceiver2": "Mana",

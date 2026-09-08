@@ -144,7 +144,7 @@
   "purchaseRestored": "A vásárlási információk visszaállítva",
   "medicationTimeFollowup": "Gyógyszerbevétel nyomon követése",
   "updateRequired": "Frissítés szükséges",
-  "updateRequiredMessage": "Kérjük, frissítsen a {storeName} legújabb verziójára",
+  "updateRequiredMessage": "Kérjük, frissítsen a legújabb verzióra a {storeName} áruházból",
   "screenshotMedicationHistoriesMemo": "Később vettem be a gyógyszeremet, mert túl sokáig aludtam délután.",
   "screenshotMedicationDoserReceiver1": "Én magam",
   "screenshotMedicationDoserReceiver2": "Mana",

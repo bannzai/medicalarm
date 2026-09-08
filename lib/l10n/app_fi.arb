@@ -144,7 +144,7 @@
   "purchaseRestored": "Ostotiedot palautettiin",
   "medicationTimeFollowup": "Lääkkeenottoajan seuranta",
   "updateRequired": "Päivitys vaaditaan",
-  "updateRequiredMessage": "Päivitä uusimpaan versioon {storeName}-palvelusta",
+  "updateRequiredMessage": "Päivitä uuteen versioon {storeName}-palvelusta",
   "screenshotMedicationHistoriesMemo": "Otin lääkkeeni myöhässä, koska nukuin liian pitkät päiväunet.",
   "screenshotMedicationDoserReceiver1": "Minä itse",
   "screenshotMedicationDoserReceiver2": "Mana",

@@ -144,7 +144,7 @@
   "purchaseRestored": "Ulwazi lokuthenga lubuyiselwe",
   "medicationTimeFollowup": "Ukulandelela isikhathi sokuphuza umuthi",
   "updateRequired": "Kudingeka ukubuyekezwa",
-  "updateRequiredMessage": "Sicela ubuyekezele enguqulweni yakamuva kusuka ku-{storeName}",
+  "updateRequiredMessage": "Sicela ubuyekezele enguqulweni yakamuva ku-{storeName}",
   "screenshotMedicationHistoriesMemo": "Ngiphuze umuthi sekwephuzile ngoba ngilale isikhathi eside emini.",
   "screenshotMedicationDoserReceiver1": "Mina ngokwami",
   "screenshotMedicationDoserReceiver2": "Mana",

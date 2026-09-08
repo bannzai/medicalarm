@@ -144,7 +144,7 @@
   "purchaseRestored": "Kaufinformationen wurden wiederhergestellt",
   "medicationTimeFollowup": "Nachverfolgung der Einnahmezeit",
   "updateRequired": "Update erforderlich",
-  "updateRequiredMessage": "Bitte über {storeName} auf die neueste Version aktualisieren",
+  "updateRequiredMessage": "Bitte aktualisieren Sie über {storeName} auf die neueste Version",
   "screenshotMedicationHistoriesMemo": "Ich habe mein Medikament später eingenommen, weil ich zu lange Mittagsschlaf gemacht habe.",
   "screenshotMedicationDoserReceiver1": "Ich selbst",
   "screenshotMedicationDoserReceiver2": "Mana",

@@ -144,7 +144,7 @@
   "purchaseRestored": "Інфармацыя аб пакупцы адноўлена",
   "medicationTimeFollowup": "Наступнае нагадванне пра прыём лекаў",
   "updateRequired": "Патрабуецца абнаўленне",
-  "updateRequiredMessage": "Абнавіце да апошняй версіі з {storeName}",
+  "updateRequiredMessage": "Калі ласка, абнавіце да апошняй версіі праз {storeName}",
   "screenshotMedicationHistoriesMemo": "Я позна прыняў(-ла) лекі, бо занадта доўга спаў(-ла) днём.",
   "screenshotMedicationDoserReceiver1": "Я сам",
   "screenshotMedicationDoserReceiver2": "Mana",

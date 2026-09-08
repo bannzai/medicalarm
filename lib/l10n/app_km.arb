@@ -144,7 +144,7 @@
   "purchaseRestored": "បានស្ដារព័ត៌មានការទិញឡើងវិញ",
   "medicationTimeFollowup": "ការតាមដានពេលវេលាលេបថ្នាំ",
   "updateRequired": "តម្រូវឱ្យធ្វើបច្ចុប្បន្នភាព",
-  "updateRequiredMessage": "សូមអាប់ដេតទៅកំណែចុងក្រោយបំផុតពី {storeName}",
+  "updateRequiredMessage": "សូមអាប់ដេតទៅកំណែចុងក្រោយពី {storeName}",
   "screenshotMedicationHistoriesMemo": "ខ្ញុំបានលេបថ្នាំយឺត ព្រោះខ្ញុំគេងថ្ងៃយូរពេក។",
   "screenshotMedicationDoserReceiver1": "ខ្លួនខ្ញុំ",
   "screenshotMedicationDoserReceiver2": "Mana",

@@ -144,7 +144,7 @@
   "purchaseRestored": "تمت استعادة معلومات الشراء",
   "medicationTimeFollowup": "متابعة وقت تناول الدواء",
   "updateRequired": "التحديث مطلوب",
-  "updateRequiredMessage": "يُرجى التحديث إلى أحدث إصدار من {storeName}",
+  "updateRequiredMessage": "يرجى التحديث إلى أحدث إصدار من {storeName}",
   "screenshotMedicationHistoriesMemo": "تأخرتُ في تناول الدواء لأنني نمتُ طويلًا أثناء القيلولة.",
   "screenshotMedicationDoserReceiver1": "أنا",
   "screenshotMedicationDoserReceiver2": "Mana",

@@ -144,7 +144,7 @@
   "purchaseRestored": "Сатып алу ақпараты қалпына келтірілді",
   "medicationTimeFollowup": "Дәрі қабылдау уақытын қадағалау",
   "updateRequired": "Жаңарту қажет",
-  "updateRequiredMessage": "{storeName} дүкенінен соңғы нұсқаға жаңартыңыз",
+  "updateRequiredMessage": "{storeName} арқылы соңғы нұсқаға жаңартыңыз",
   "screenshotMedicationHistoriesMemo": "Күндіз тым ұзақ ұйықтап қалғандықтан, дәрімді кеш қабылдадым.",
   "screenshotMedicationDoserReceiver1": "Өзім",
   "screenshotMedicationDoserReceiver2": "Mana",

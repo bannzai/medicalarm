@@ -144,7 +144,7 @@
   "purchaseRestored": "Գնման տեղեկությունները վերականգնվել են",
   "medicationTimeFollowup": "Դեղամիջոցն ընդունելու ժամանակի հետևում",
   "updateRequired": "Պահանջվում է թարմացում",
-  "updateRequiredMessage": "Խնդրում ենք թարմացնել {storeName}-ից հասանելի վերջին տարբերակին",
+  "updateRequiredMessage": "Խնդրում ենք {storeName}-ից թարմացնել վերջին տարբերակին",
   "screenshotMedicationHistoriesMemo": "Դեղս ուշ ընդունեցի, քանի որ կեսօրին չափազանց երկար էի քնել։",
   "screenshotMedicationDoserReceiver1": "Ես ինքս",
   "screenshotMedicationDoserReceiver2": "Mana",

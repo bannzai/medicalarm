@@ -144,7 +144,7 @@
   "purchaseRestored": "פרטי הרכישה שוחזרו",
   "medicationTimeFollowup": "מעקב אחר מועד נטילת התרופה",
   "updateRequired": "נדרש עדכון",
-  "updateRequiredMessage": "יש לעדכן לגרסה העדכנית ביותר דרך {storeName}",
+  "updateRequiredMessage": "יש לעדכן לגרסה האחרונה דרך {storeName}",
   "screenshotMedicationHistoriesMemo": "לקחתי את התרופה באיחור כי ישנתי יותר מדי בצהריים.",
   "screenshotMedicationDoserReceiver1": "אני",
   "screenshotMedicationDoserReceiver2": "Mana",

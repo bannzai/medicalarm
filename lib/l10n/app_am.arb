@@ -144,7 +144,7 @@
   "purchaseRestored": "የግዢ መረጃ ተመልሷል",
   "medicationTimeFollowup": "የመድኃኒት መውሰጃ ጊዜ ክትትል",
   "updateRequired": "Թարմացումը պարտադիր է",
-  "updateRequiredMessage": "እባክዎ ከ{storeName} የቅርብ ጊዜውን ስሪት ያውርዱ",
+  "updateRequiredMessage": "እባክዎ ከ{storeName} ወደ አዲሱ ስሪት ያዘምኑ",
   "screenshotMedicationHistoriesMemo": "መድኃኒቴን የወሰድኩት ብዙ ጊዜ ስለተኛሁ ዘግይቶ ነው።",
   "screenshotMedicationDoserReceiver1": "እኔ ራሴ",
   "screenshotMedicationDoserReceiver2": "Mana",
