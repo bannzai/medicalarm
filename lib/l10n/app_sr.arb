@@ -40,7 +40,7 @@
   "cycleDescription": "Нпр. узимање 21 дан / пауза 7 дана",
   "everyXDaysDescription": "Нпр. свака 2 дана, свака 3 дана",
   "specificWeekdaysDescription": "Нпр. само понедељком; средом и петком",
-  "medicineFormValidationError": "Унесите назив и распоред узимања",
+  "medicineFormValidationError": "Унесите назив и распоред узимања лека",
   "quantity": "Количина",
   "quantityExample": "Пример: 1 таблета, 100 mg",
   "medicationStartDate": "Датум почетка узимања",

@@ -40,7 +40,7 @@
   "cycleDescription": "p. ej., tomar durante 21 días / descansar 7 días",
   "everyXDaysDescription": "P. ej., cada 2 días, cada 3 días",
   "specificWeekdaysDescription": "P. ej., solo los lunes; miércoles y viernes",
-  "medicineFormValidationError": "Introduce el nombre y el horario de toma",
+  "medicineFormValidationError": "Introduce el nombre y el horario de medicación",
   "quantity": "Cantidad",
   "quantityExample": "Ejemplo: 1 comprimido, 100 mg",
   "medicationStartDate": "Fecha de inicio de la toma",

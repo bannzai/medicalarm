@@ -40,7 +40,7 @@
   "cycleDescription": "উদাহৰণ: ২১ দিন সেৱন / ৭ দিন বিৰতি",
   "everyXDaysDescription": "উদাহৰণস্বৰূপে: প্ৰতি ২ দিনৰ মূৰে মূৰে, প্ৰতি ৩ দিনৰ মূৰে মূৰে",
   "specificWeekdaysDescription": "উদাহৰণ: কেৱল সোমবাৰ; বুধবাৰ আৰু শুক্ৰবাৰ",
-  "medicineFormValidationError": "অনুগ্ৰহ কৰি নাম আৰু ঔষধ সেৱনৰ সময়সূচী দিয়ক",
+  "medicineFormValidationError": "নাম আৰু ঔষধ সেৱনৰ সময়সূচী লিখক",
   "quantity": "পৰিমাণ",
   "quantityExample": "উদাহৰণ: ১টা টেবলেট, ১০০ মি.গ্ৰা.",
   "medicationStartDate": "সেৱন আৰম্ভ কৰাৰ তাৰিখ",

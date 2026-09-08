@@ -40,7 +40,7 @@
   "cycleDescription": "F.eks. ta i 21 dager / 7 dagers pause",
   "everyXDaysDescription": "F.eks. hver 2. dag, hver 3. dag",
   "specificWeekdaysDescription": "F.eks. kun mandager; onsdager og fredager",
-  "medicineFormValidationError": "Skriv inn navn og doseringsplan",
+  "medicineFormValidationError": "Skriv inn navn og legemiddelplan",
   "quantity": "Mengde",
   "quantityExample": "Eksempel: 1 tablett, 100 mg",
   "medicationStartDate": "Startdato for inntak",

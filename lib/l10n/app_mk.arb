@@ -40,7 +40,7 @@
   "cycleDescription": "На пр. земање 21 ден / пауза од 7 дена",
   "everyXDaysDescription": "На пр., на секои 2 дена, на секои 3 дена",
   "specificWeekdaysDescription": "На пр.: само во понеделник; во среда и петок",
-  "medicineFormValidationError": "Внесете име и распоред на земање",
+  "medicineFormValidationError": "Внесете име и распоред за земање на лекот",
   "quantity": "Количина",
   "quantityExample": "Пример: 1 таблета, 100 mg",
   "medicationStartDate": "Почетен датум на земање",

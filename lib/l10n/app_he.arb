@@ -40,7 +40,7 @@
   "cycleDescription": "לדוגמה: נטילה במשך 21 ימים / הפסקה של 7 ימים",
   "everyXDaysDescription": "לדוגמה: כל יומיים, כל 3 ימים",
   "specificWeekdaysDescription": "לדוגמה: ימי שני בלבד; ימי רביעי ושישי",
-  "medicineFormValidationError": "יש להזין את השם ואת לוח הזמנים לנטילה",
+  "medicineFormValidationError": "הזן את השם ואת לוח הזמנים לנטילת התרופה",
   "quantity": "כמות",
   "quantityExample": "לדוגמה: טבליה אחת, 100 מ״ג",
   "medicationStartDate": "תאריך תחילת נטילת התרופה",

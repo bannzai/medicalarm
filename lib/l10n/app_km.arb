@@ -40,7 +40,7 @@
   "cycleDescription": "ឧ. ប្រើថ្នាំរយៈពេល ២១ថ្ងៃ / សម្រាក ៧ថ្ងៃ",
   "everyXDaysDescription": "ឧ. រៀងរាល់ ២ ថ្ងៃម្តង រៀងរាល់ ៣ ថ្ងៃម្តង",
   "specificWeekdaysDescription": "ឧទាហរណ៍៖ ថ្ងៃចន្ទតែប៉ុណ្ណោះ; ថ្ងៃពុធ និងថ្ងៃសុក្រ",
-  "medicineFormValidationError": "សូមបញ្ចូលឈ្មោះ និងកាលវិភាគប្រើថ្នាំ",
+  "medicineFormValidationError": "បញ្ចូលឈ្មោះ និងកាលវិភាគលេបថ្នាំ",
   "quantity": "បរិមាណ",
   "quantityExample": "ឧទាហរណ៍៖ ថ្នាំគ្រាប់ 1 គ្រាប់, 100 មីលីក្រាម",
   "medicationStartDate": "កាលបរិច្ឆេទចាប់ផ្តើមប្រើថ្នាំ",

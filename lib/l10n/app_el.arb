@@ -40,7 +40,7 @@
   "cycleDescription": "Π.χ. λήψη για 21 ημέρες / διακοπή για 7 ημέρες",
   "everyXDaysDescription": "Π.χ. κάθε 2 ημέρες, κάθε 3 ημέρες",
   "specificWeekdaysDescription": "Π.χ. μόνο Δευτέρα· Τετάρτη και Παρασκευή",
-  "medicineFormValidationError": "Εισαγάγετε το όνομα και το πρόγραμμα λήψης",
+  "medicineFormValidationError": "Εισαγάγετε το όνομα και το πρόγραμμα λήψης του φαρμάκου",
   "quantity": "Ποσότητα",
   "quantityExample": "Παράδειγμα: 1 δισκίο, 100 mg",
   "medicationStartDate": "Ημερομηνία έναρξης λήψης",

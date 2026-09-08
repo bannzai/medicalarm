@@ -40,7 +40,7 @@
   "cycleDescription": "উদাহরণ: ২১ দিন সেবন / ৭ দিন বিরতি",
   "everyXDaysDescription": "যেমন: প্রতি ২ দিন পরপর, প্রতি ৩ দিন পরপর",
   "specificWeekdaysDescription": "যেমন: শুধু সোমবার; বুধবার ও শুক্রবার",
-  "medicineFormValidationError": "নাম ও ওষুধ খাওয়ার সময়সূচি লিখুন",
+  "medicineFormValidationError": "নাম ও ওষুধ গ্রহণের সময়সূচি লিখুন",
   "quantity": "পরিমাণ",
   "quantityExample": "উদাহরণ: ১টি ট্যাবলেট, ১০০ মি.গ্রা.",
   "medicationStartDate": "সেবন শুরুর তারিখ",

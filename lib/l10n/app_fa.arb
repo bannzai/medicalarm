@@ -40,7 +40,7 @@
   "cycleDescription": "مثال: مصرف به‌مدت ۲۱ روز / ۷ روز وقفه",
   "everyXDaysDescription": "مثلاً: هر ۲ روز، هر ۳ روز",
   "specificWeekdaysDescription": "مثلاً: فقط دوشنبه‌ها؛ چهارشنبه‌ها و جمعه‌ها",
-  "medicineFormValidationError": "لطفاً نام و برنامه مصرف را وارد کنید",
+  "medicineFormValidationError": "نام و برنامه مصرف دارو را وارد کنید",
   "quantity": "مقدار",
   "quantityExample": "مثال: ۱ قرص، ۱۰۰ میلی‌گرم",
   "medicationStartDate": "تاریخ شروع مصرف",

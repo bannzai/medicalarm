@@ -40,7 +40,7 @@
   "cycleDescription": "Npr. jemanje 21 dni / 7 dni premora",
   "everyXDaysDescription": "Npr. vsakih 2 dni, vsakih 3 dni",
   "specificWeekdaysDescription": "Npr.: samo ob ponedeljkih; ob sredah in petkih",
-  "medicineFormValidationError": "Vnesite ime in urnik jemanja",
+  "medicineFormValidationError": "Vnesite ime in urnik jemanja zdravila",
   "quantity": "Količina",
   "quantityExample": "Primer: 1 tableta, 100 mg",
   "medicationStartDate": "Datum začetka jemanja",

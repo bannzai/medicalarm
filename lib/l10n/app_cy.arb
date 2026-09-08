@@ -40,7 +40,7 @@
   "cycleDescription": "e.e. cymryd am 21 diwrnod / seibiant o 7 diwrnod",
   "everyXDaysDescription": "E.e. bob 2 ddiwrnod, bob 3 diwrnod",
   "specificWeekdaysDescription": "E.e.: dydd Llun yn unig; dydd Mercher a dydd Gwener",
-  "medicineFormValidationError": "Rhowch yr enw a’r amserlen gymryd",
+  "medicineFormValidationError": "Rhowch yr enw a’r amserlen cymryd y feddyginiaeth",
   "quantity": "Swm",
   "quantityExample": "Enghraifft: 1 dabled, 100 mg",
   "medicationStartDate": "Dyddiad dechrau cymryd",

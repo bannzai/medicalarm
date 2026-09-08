@@ -40,7 +40,7 @@
   "cycleDescription": "P.sh. merreni për 21 ditë / pushim 7 ditë",
   "everyXDaysDescription": "P.sh. çdo 2 ditë, çdo 3 ditë",
   "specificWeekdaysDescription": "P.sh.: vetëm të hënave; të mërkurave dhe të premteve",
-  "medicineFormValidationError": "Futni emrin dhe orarin e marrjes",
+  "medicineFormValidationError": "Vendosni emrin dhe orarin e marrjes së ilaçit",
   "quantity": "Sasia",
   "quantityExample": "Shembull: 1 tabletë, 100 mg",
   "medicationStartDate": "Data e fillimit të marrjes",

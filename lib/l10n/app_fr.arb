@@ -40,7 +40,7 @@
   "cycleDescription": "Ex. : prendre pendant 21 jours / pause de 7 jours",
   "everyXDaysDescription": "Ex. : tous les 2 jours, tous les 3 jours",
   "specificWeekdaysDescription": "Ex. : le lundi uniquement ; le mercredi et le vendredi",
-  "medicineFormValidationError": "Veuillez saisir le nom et le calendrier de prise",
+  "medicineFormValidationError": "Saisissez le nom et le calendrier de prise du médicament",
   "quantity": "Quantité",
   "quantityExample": "Exemple : 1 comprimé, 100 mg",
   "medicationStartDate": "Date de début de prise",

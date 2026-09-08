@@ -40,7 +40,7 @@
   "cycleDescription": "Напр.: прымаць 21 дзень / зрабіць перапынак на 7 дзён",
   "everyXDaysDescription": "Напр.: кожныя 2 дні, кожныя 3 дні",
   "specificWeekdaysDescription": "Напрыклад: толькі панядзелкі; серады і пятніцы",
-  "medicineFormValidationError": "Увядзіце назву і расклад прыёму",
+  "medicineFormValidationError": "Увядзіце назву і расклад прыёму лекаў",
   "quantity": "Колькасць",
   "quantityExample": "Напрыклад: 1 таблетка, 100 мг",
   "medicationStartDate": "Дата пачатку прыёму",

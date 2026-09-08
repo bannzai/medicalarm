@@ -40,7 +40,7 @@
   "cycleDescription": "Жишээ нь: 21 хоног уух / 7 хоног завсарлах",
   "everyXDaysDescription": "Жишээ нь: 2 өдөр тутамд, 3 өдөр тутамд",
   "specificWeekdaysDescription": "Жишээ нь: зөвхөн даваа гарагт; лхагва, баасан гарагт",
-  "medicineFormValidationError": "Нэр болон хэрэглэх хуваарийг оруулна уу",
+  "medicineFormValidationError": "Нэр болон эм уух хуваарийг оруулна уу",
   "quantity": "Тоо хэмжээ",
   "quantityExample": "Жишээ: 1 шахмал, 100 мг",
   "medicationStartDate": "Ууж эхлэх огноо",
