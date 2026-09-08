@@ -14,6 +14,10 @@ abstract class AppColors {
   static const Color border = Color(0xFFE0E0E0);
   static const Color disabled = Color(0xFFE0E0E0);
 
+  // 飲み忘れ警告の時刻・バッジ文字色と、バッジ背景 (#276)。デザインモック (issue #274 のアートボード) の採用値
+  static const Color missedDoseWarning = Color(0xFFB4523D);
+  static const Color missedDoseWarningBackground = Color(0xFFFBE9E4);
+
   static const Color sunday = Color(0xFFE17F7F);
   static const Color saturday = Color(0xFF7FB9E1);
   static const Color weekday = Color(0xFF7E7E7E);

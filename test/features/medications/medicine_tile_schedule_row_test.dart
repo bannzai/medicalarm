@@ -32,11 +32,11 @@ const medicationSchedule = MedicationSchedule(
   focusConnectSetting: null,
 );
 
-Medicine buildMedicine({int? minimumDoseIntervalHours}) {
+Medicine buildMedicine({int? minimumDoseIntervalHours, String name = '共有薬X'}) {
   return Medicine(
     id: 'medicine-1',
     userID: 'user-a',
-    name: '共有薬X',
+    name: name,
     frequency: const MedicationFrequency.daily(),
     schedules: const [medicationSchedule],
     doseReceiver: const DoseReceiver(id: 'dose-receiver-1', userID: 'user-a', name: '自分'),
@@ -91,6 +91,21 @@ MedicationGroupScheduleRow buildCheckedScheduleRow() {
     id: 'row-1',
     medicationHistory: buildMedicationHistory(),
     medicine: buildMedicine(),
+    medicationSchedule: medicationSchedule,
+    quantityMemo: '',
+    date: DateTime.now(),
+  );
+}
+
+// 他メンバーが記録したチェック済みの行。記録時刻に記録者名が併記される状態 (#277) を作る。
+// simulator 1 台の匿名ユーザーではグループに 2 人目が参加した状態を作れないため、この組み合わせの
+// レイアウト検証はここで行う (lib/features/medications/QA.md の該当項目も同じ理由でスキップしている)
+MedicationGroupScheduleRow buildCheckedByOtherMemberScheduleRow({required String medicineName}) {
+  final medicine = buildMedicine(name: medicineName);
+  return MedicationGroupScheduleRow(
+    id: 'row-1',
+    medicationHistory: buildMedicationHistory().copyWith(recordedByUserID: 'user-b', medicine: medicine),
+    medicine: medicine,
     medicationSchedule: medicationSchedule,
     quantityMemo: '',
     date: DateTime.now(),
@@ -165,6 +180,66 @@ void main() {
       ),
     );
   }
+
+  Opacity findRowOpacity(WidgetTester tester, {String medicineName = '共有薬X'}) {
+    return tester.widget<Opacity>(find.ancestor(of: find.text(medicineName), matching: find.byType(Opacity)).first);
+  }
+
+  // #276: 服用済みの行を沈めて未服用の行を目立たせる
+  group('MedicineTileScheduleRow の服用済み表示', () {
+    testWidgets('チェック済みの行は薬名が取り消し線になり、行全体が半透明になる', (tester) async {
+      await pumpScheduleRow(tester, scheduleRow: buildCheckedScheduleRow());
+
+      expect(tester.widget<Text>(find.text('共有薬X')).style?.decoration, TextDecoration.lineThrough);
+      expect(findRowOpacity(tester).opacity, 0.55);
+    });
+
+    testWidgets('未チェックの行は取り消し線が付かず、不透明のまま', (tester) async {
+      await pumpScheduleRow(tester, scheduleRow: buildUncheckedScheduleRow());
+
+      expect(tester.widget<Text>(find.text('共有薬X')).style?.decoration, isNot(TextDecoration.lineThrough));
+      expect(findRowOpacity(tester).opacity, 1.0);
+    });
+
+    testWidgets('アンチェックすると取り消し線と半透明が解除される', (tester) async {
+      await pumpScheduleRow(tester, scheduleRow: buildCheckedScheduleRow());
+
+      await tester.tap(find.byType(Checkbox));
+      await tester.pump();
+
+      expect(tester.widget<Text>(find.text('共有薬X')).style?.decoration, isNot(TextDecoration.lineThrough));
+      expect(findRowOpacity(tester).opacity, 1.0);
+    });
+  });
+
+  // #276 の服用済み表示(取り消し線・半透明)と #277 の記録者ラベル・薬名の省略が同じ行で合流するため、
+  // 記録者名で行幅が埋まる条件でも両方が壊れず、行があふれないことを確かめる
+  group('MedicineTileScheduleRow の他メンバー記録の服用済み表示', () {
+    const longMedicineName = 'とても長い名前の共有薬エックスワイジー錠500ミリグラム';
+
+    testWidgets('薬名の省略と取り消し線・半透明が両立し、行があふれない', (tester) async {
+      // iPhone SE 相当の狭い幅。記録者ラベルと薬名が同じ行に並んでも収まることを確認する
+      tester.view.physicalSize = const Size(750, 1334);
+      tester.view.devicePixelRatio = 2.0;
+      addTearDown(tester.view.reset);
+
+      await pumpScheduleRow(tester, scheduleRow: buildCheckedByOtherMemberScheduleRow(medicineName: longMedicineName));
+
+      final medicineNameText = tester.widget<Text>(find.text(longMedicineName));
+      expect(medicineNameText.style?.decoration, TextDecoration.lineThrough);
+      expect(medicineNameText.overflow, TextOverflow.ellipsis);
+      expect(findRowOpacity(tester, medicineName: longMedicineName).opacity, 0.55);
+      // RenderFlex overflow は例外として記録されるため、発生していれば takeException が拾う
+      expect(tester.takeException(), isNull);
+    });
+
+    testWidgets('記録時刻に記録者名が併記される', (tester) async {
+      await pumpScheduleRow(tester, scheduleRow: buildCheckedByOtherMemberScheduleRow(medicineName: longMedicineName));
+
+      // グループ未選択でも表示名のフォールバックで記録者表示を出す (operatorMemberDisplayName)
+      expect(find.textContaining('メンバーさんが記録'), findsOneWidget);
+    });
+  });
 
   // #253: アンチェックは take ドキュメントを削除せず revert アクションを即時追記する論理削除。
   // SnackBar の「元に戻す」は直前に書いた revert ドキュメントの物理削除で取り消す

@@ -230,5 +230,10 @@
   "doseIntervalWarningMessage": "Last taken at {latestTakeTime}. This medicine is set to require at least {minimumDoseIntervalHours} hours between doses. Record anyway?",
   "doseIntervalWarningTakeAnyway": "Record",
   "doseIntervalNotificationWarning": "⚠️ Less than {minimumDoseIntervalHours} hours since the last dose",
-  "ossLicense": "Open Source Licenses"
+  "ossLicense": "Open Source Licenses",
+  "todayMedicationProgressTitle": "Today's doses",
+  "medicationProgressTitleForDate": "Doses on {date}",
+  "medicationProgressCountLabel": "{takenCount}/{totalCount} taken",
+  "medicationNextDoseLabel": "Next {time} {receiverName} · {medicineName}",
+  "missedDoseSuspectedBadge": "Possibly missed"
 }
