@@ -49,7 +49,7 @@
   "defaultDoseReceiver": "ฉัน",
   "doseReceiverMaxCount": "คุณสามารถลงทะเบียนผู้รับประทานยาได้สูงสุด {count} คน",
   "increaseLimitWithPremium": "เพิ่มขีดจำกัดเป็น {count} ด้วยแผน Premium",
-  "addDoseReceiver": "เพิ่มผู้รับประทานยา",
+  "addDoseReceiver": "เพิ่มผู้ใช้ยา",
   "newDoseReceiver": "ผู้ใช้ยารายใหม่",
   "reloginRequired": "กรุณาเข้าสู่ระบบอีกครั้ง",
   "reloginMessage": "โปรดเข้าสู่ระบบอีกครั้งเพื่อลบบัญชีของคุณ",

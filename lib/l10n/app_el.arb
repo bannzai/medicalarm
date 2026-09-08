@@ -49,7 +49,7 @@
   "defaultDoseReceiver": "Εγώ",
   "doseReceiverMaxCount": "Μπορείτε να καταχωρίσετε έως και {count} άτομα που λαμβάνουν φάρμακα",
   "increaseLimitWithPremium": "Αυξήστε το όριο σε {count} με το Premium πρόγραμμα",
-  "addDoseReceiver": "Προσθήκη ατόμου που λαμβάνει φάρμακα",
+  "addDoseReceiver": "Προσθήκη χρήστη φαρμάκου",
   "newDoseReceiver": "Νέος χρήστης φαρμάκων",
   "reloginRequired": "Συνδεθείτε ξανά",
   "reloginMessage": "Συνδεθείτε ξανά για να διαγράψετε τον λογαριασμό σας.",

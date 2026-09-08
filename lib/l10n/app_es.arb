@@ -49,7 +49,7 @@
   "defaultDoseReceiver": "Yo",
   "doseReceiverMaxCount": "Puedes registrar hasta {count} personas que toman medicamentos",
   "increaseLimitWithPremium": "Aumenta el límite a {count} con el plan Premium",
-  "addDoseReceiver": "Añadir persona medicada",
+  "addDoseReceiver": "Añadir usuario del medicamento",
   "newDoseReceiver": "Nuevo usuario de medicamentos",
   "reloginRequired": "Vuelve a iniciar sesión",
   "reloginMessage": "Vuelve a iniciar sesión para eliminar tu cuenta.",

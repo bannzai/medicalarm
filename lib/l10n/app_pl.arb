@@ -49,7 +49,7 @@
   "defaultDoseReceiver": "Ja",
   "doseReceiverMaxCount": "Możesz zarejestrować maksymalnie {count} osoby przyjmujące leki",
   "increaseLimitWithPremium": "Zwiększ limit do {count} dzięki planowi Premium",
-  "addDoseReceiver": "Dodaj osobę przyjmującą leki",
+  "addDoseReceiver": "Dodaj osobę przyjmującą lek",
   "newDoseReceiver": "Nowy użytkownik leków",
   "reloginRequired": "Zaloguj się ponownie",
   "reloginMessage": "Zaloguj się ponownie, aby usunąć konto.",

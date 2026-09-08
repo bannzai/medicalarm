@@ -49,7 +49,7 @@
   "defaultDoseReceiver": "אני",
   "doseReceiverMaxCount": "ניתן לרשום עד {count} נוטלי תרופות",
   "increaseLimitWithPremium": "הגדילו את המגבלה ל־{count} באמצעות תוכנית Premium",
-  "addDoseReceiver": "הוספת נוטל תרופה",
+  "addDoseReceiver": "הוספת משתמש בתרופה",
   "newDoseReceiver": "משתמש חדש בתרופות",
   "reloginRequired": "יש להתחבר מחדש",
   "reloginMessage": "יש להתחבר מחדש כדי למחוק את החשבון.",

@@ -49,7 +49,7 @@
   "defaultDoseReceiver": "Я",
   "doseReceiverMaxCount": "Можно зарегистрировать до {count} принимающих лекарства",
   "increaseLimitWithPremium": "Увеличьте лимит до {count} с Premium-планом",
-  "addDoseReceiver": "Добавить принимающего лекарства",
+  "addDoseReceiver": "Добавить принимающего лекарство",
   "newDoseReceiver": "Новый пользователь лекарств",
   "reloginRequired": "Войдите снова",
   "reloginMessage": "Войдите снова, чтобы удалить аккаунт.",

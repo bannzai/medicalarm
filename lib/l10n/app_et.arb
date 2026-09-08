@@ -49,7 +49,7 @@
   "defaultDoseReceiver": "Mina",
   "doseReceiverMaxCount": "Saate registreerida kuni {count} ravimikasutajat",
   "increaseLimitWithPremium": "Suurendage Premium-paketiga limiit väärtuseni {count}",
-  "addDoseReceiver": "Lisa ravimi võtja",
+  "addDoseReceiver": "Lisa ravimi kasutaja",
   "newDoseReceiver": "Uus ravimikasutaja",
   "reloginRequired": "Palun logige uuesti sisse",
   "reloginMessage": "Konto kustutamiseks logige uuesti sisse.",

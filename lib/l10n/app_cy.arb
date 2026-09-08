@@ -49,7 +49,7 @@
   "defaultDoseReceiver": "Fi",
   "doseReceiverMaxCount": "Gallwch gofrestru hyd at {count} o bobl sy’n cymryd meddyginiaeth",
   "increaseLimitWithPremium": "Cynyddu'r terfyn i {count} gyda'r cynllun Premiwm",
-  "addDoseReceiver": "Ychwanegu person sy'n cymryd meddyginiaeth",
+  "addDoseReceiver": "Ychwanegu defnyddiwr meddyginiaeth",
   "newDoseReceiver": "Defnyddiwr meddyginiaeth newydd",
   "reloginRequired": "Mewngofnodwch eto",
   "reloginMessage": "Mewngofnodwch eto i ddileu eich cyfrif.",

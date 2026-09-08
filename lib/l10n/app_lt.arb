@@ -49,7 +49,7 @@
   "defaultDoseReceiver": "Aš",
   "doseReceiverMaxCount": "Galite užregistruoti iki {count} vaistus vartojančių asmenų",
   "increaseLimitWithPremium": "Naudodami „Premium“ planą padidinkite limitą iki {count}",
-  "addDoseReceiver": "Pridėti vaistus vartojantį asmenį",
+  "addDoseReceiver": "Pridėti vaistų vartotoją",
   "newDoseReceiver": "Naujas vaistų vartotojas",
   "reloginRequired": "Prisijunkite dar kartą",
   "reloginMessage": "Norėdami ištrinti paskyrą, prisijunkite dar kartą.",

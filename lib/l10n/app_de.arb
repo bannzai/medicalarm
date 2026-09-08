@@ -49,7 +49,7 @@
   "defaultDoseReceiver": "Ich",
   "doseReceiverMaxCount": "Sie können bis zu {count} Medikamentennutzer registrieren",
   "increaseLimitWithPremium": "Mit dem Premium-Plan das Limit auf {count} erhöhen",
-  "addDoseReceiver": "Medikamente einnehmende Person hinzufügen",
+  "addDoseReceiver": "Medikamentennutzer hinzufügen",
   "newDoseReceiver": "Neue Person",
   "reloginRequired": "Bitte melden Sie sich erneut an",
   "reloginMessage": "Melden Sie sich erneut an, um Ihr Konto zu löschen.",

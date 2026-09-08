@@ -49,7 +49,7 @@
   "defaultDoseReceiver": "Mina",
   "doseReceiverMaxCount": "Ungabhalisa abantu abafika kwabangu-{count} abasebenzisa imithi",
   "increaseLimitWithPremium": "Khulisa umkhawulo ube ngu-{count} ngohlelo lwe-Premium",
-  "addDoseReceiver": "Engeza umuntu ophuza imithi",
+  "addDoseReceiver": "Engeza osebenzisa umuthi",
   "newDoseReceiver": "Umsebenzisi omusha wemithi",
   "reloginRequired": "Sicela ungene futhi",
   "reloginMessage": "Ngena futhi ukuze ususe i-akhawunti yakho.",

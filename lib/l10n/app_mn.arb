@@ -49,7 +49,7 @@
   "defaultDoseReceiver": "Би",
   "doseReceiverMaxCount": "Та {count} хүртэл эм уудаг хүн бүртгэх боломжтой",
   "increaseLimitWithPremium": "Premium багцаар хязгаарыг {count} хүртэл нэмэгдүүлэх",
-  "addDoseReceiver": "Эм уудаг хүн нэмэх",
+  "addDoseReceiver": "Эм уух хүнийг нэмэх",
   "newDoseReceiver": "Шинэ эм хэрэглэгч",
   "reloginRequired": "Дахин нэвтэрнэ үү",
   "reloginMessage": "Бүртгэлээ устгахын тулд дахин нэвтэрнэ үү.",
