@@ -190,7 +190,7 @@
   "groupIcon": "Значок",
   "groupMemberCount": "Участники: {count}",
   "defaultGroupBadge": "По умолчанию",
-  "soloGroupName": "Моя группа",
+  "soloGroupName": "Мои группы",
   "joinWithInvitationCode": "Присоединиться по коду приглашения",
   "groupCreationLimitReached": "В бесплатном плане нельзя создавать новые группы",
   "increaseGroupLimitWithPremium": "С планом Premium можно создавать дополнительные группы",

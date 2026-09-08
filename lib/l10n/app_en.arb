@@ -190,7 +190,7 @@
   "groupIcon": "Icon",
   "groupMemberCount": "Members: {count}",
   "defaultGroupBadge": "Default",
-  "soloGroupName": "My Group",
+  "soloGroupName": "My groups",
   "joinWithInvitationCode": "Join with invitation code",
   "groupCreationLimitReached": "You can’t create any more groups on the free plan",
   "increaseGroupLimitWithPremium": "Create additional groups with the Premium plan",
