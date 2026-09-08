@@ -186,7 +186,7 @@
   "groupManagement": "Grupphantering",
   "createGroup": "Skapa grupp",
   "groupName": "Gruppnamn",
-  "groupNameInputHint": "Ange gruppnamn",
+  "groupNameInputHint": "Ange ett gruppnamn",
   "groupIcon": "Ikon",
   "groupMemberCount": "{count} medlemmar",
   "defaultGroupBadge": "Standard",
