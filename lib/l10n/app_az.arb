@@ -72,7 +72,7 @@
   "silentModeNotificationDescription": "Fokus rejimi AÇIQ olduqda və ya cihaz səssiz rejimdə olduqda belə, kritik bildirişlər kilid ekranında göstərilir və səs səsləndirilir.",
   "everyXDaysFormat": "Hər {count} gündən bir",
   "cycleDaysFormat": "{consecutiveDays} gün qəbul edin / {restDays} gün fasilə verin",
-  "consecutiveDaysFormat": "{count} gün istifadə",
+  "consecutiveDaysFormat": "{count} gün dərman qəbulu",
   "restDaysFormat": "{count} gün müalicə etmədiniz",
   "limitedTimeDiscount": "İndi məhdud qiymət ilə daima istifadə edə bilərsiniz",
   "monthlyPlan": "Aylıq plan",

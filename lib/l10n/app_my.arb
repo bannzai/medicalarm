@@ -72,7 +72,7 @@
   "silentModeNotificationDescription": "Focus Mode ဖွင့်ထားချိန် သို့မဟုတ် စက်အသံပိတ်ထားချိန်တွင်ပင် အရေးကြီးသတိပေးချက်များကို လော့ခ်မျက်နှာပြင်ပေါ်တွင် ပြသပြီး အသံဖွင့်ပေးသည်။",
   "everyXDaysFormat": "{count} ရက်တစ်ကြိမ်",
   "cycleDaysFormat": "{consecutiveDays} ရက် သောက်ရန် / {restDays} ရက် နားရန်",
-  "consecutiveDaysFormat": "{count} hari pengambilan",
+  "consecutiveDaysFormat": "{count} ရက် ဆေးသောက်ခြင်း",
   "restDaysFormat": "{count} hari tanpa mengambil ubat",
   "limitedTimeDiscount": "Sekarang, gunakan dengan harga istimewa yang terhad.",
   "monthlyPlan": "Pelan Bulanan",

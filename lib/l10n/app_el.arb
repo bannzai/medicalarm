@@ -72,7 +72,7 @@
   "silentModeNotificationDescription": "Ακόμα και όταν η λειτουργία Συγκέντρωσης είναι ενεργή ή η συσκευή είναι αθόρυβη, οι κρίσιμες ειδοποιήσεις εμφανίζονται στην οθόνη κλειδώματος και αναπαράγεται ήχος.",
   "everyXDaysFormat": "Κάθε {count} ημέρες",
   "cycleDaysFormat": "Λήψη για {consecutiveDays} ημέρες / διακοπή για {restDays} ημέρες",
-  "consecutiveDaysFormat": "{count} ημέρες λήψης",
+  "consecutiveDaysFormat": "Λήψη φαρμάκων για {count} ημέρες",
   "restDaysFormat": "{count} ημέρες απουσίας από τη φαρμακευτική αγωγή",
   "limitedTimeDiscount": "Τώρα μπορείτε να το χρησιμοποιήσετε σε περιορισμένη τιμή για πάντα.",
   "monthlyPlan": "Μηνιαίο πρόγραμμα",

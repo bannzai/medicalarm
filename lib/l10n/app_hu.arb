@@ -72,7 +72,7 @@
   "silentModeNotificationDescription": "A kritikus értesítések akkor is megjelennek a zárolási képernyőn és hangot játszanak le, ha a Fókusz mód be van kapcsolva vagy a készülék le van némítva.",
   "everyXDaysFormat": "{count} naponta",
   "cycleDaysFormat": "Szedés {consecutiveDays} napon át / szünet {restDays} napig",
-  "consecutiveDaysFormat": "{count} napja szedve",
+  "consecutiveDaysFormat": "Gyógyszerszedés {count} napon át",
   "restDaysFormat": "{count} nap gyógyszerszedés kihagyás",
   "limitedTimeDiscount": "Most már korlátozott áron örökre használható",
   "monthlyPlan": "Havi előfizetés",

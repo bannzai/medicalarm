@@ -72,7 +72,7 @@
   "silentModeNotificationDescription": "Foku modua aktibatuta dagoenean edo gailua isilik dagoenean ere, alerta kritikoak blokeo-pantailan agertzen dira eta soinua erreproduzitzen da.",
   "everyXDaysFormat": "{count} egunean behin",
   "cycleDaysFormat": "{consecutiveDays} egunez hartu / {restDays} eguneko atsedenaldia",
-  "consecutiveDaysFormat": "{count} egun hartu",
+  "consecutiveDaysFormat": "Botikak {count} egunez hartzea",
   "restDaysFormat": "{count} egunez medikamentu hartu gabe",
   "limitedTimeDiscount": "Orain prezio mugatua duen kanpaina batetik baliatuz, betiere erabil dezakezu.",
   "monthlyPlan": "Hilekoa plana",

@@ -72,7 +72,7 @@
   "silentModeNotificationDescription": "ഫോക്കസ് മോഡ് ഓണായിരിക്കുമ്പോഴോ ഉപകരണം നിശ്ശബ്ദമായിരിക്കുമ്പോഴോ പോലും, നിർണായക അലേർട്ടുകൾ ലോക്ക് സ്ക്രീനിൽ കാണിക്കുകയും ശബ്ദം പ്ലേ ചെയ്യുകയും ചെയ്യും.",
   "everyXDaysFormat": "ഓരോ {count} ദിവസവും",
   "cycleDaysFormat": "{consecutiveDays} ദിവസം കഴിക്കുക / {restDays} ദിവസം ഇടവേള",
-  "consecutiveDaysFormat": "{count} ദിവസങ്ങളായിരുന്നു_taken",
+  "consecutiveDaysFormat": "{count} ദിവസം മരുന്ന് കഴിക്കൽ",
   "restDaysFormat": "{count} ദിവസങ്ങൾ മരുന്നില്ല",
   "limitedTimeDiscount": "അടുത്ത കാലത്തെ പരിമിതിച്ച നിരക്കിൽ സ്ഥിരമായി ഉപയോഗിക്കാൻ കഴിയും",
   "monthlyPlan": "മാസികമായ പദ്ധതി",

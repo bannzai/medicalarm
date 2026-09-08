@@ -72,7 +72,7 @@
   "silentModeNotificationDescription": "Auch wenn der Fokusmodus aktiviert oder das Gerät stummgeschaltet ist, werden kritische Mitteilungen auf dem Sperrbildschirm angezeigt und ein Ton wird abgespielt.",
   "everyXDaysFormat": "Alle {count} Tage",
   "cycleDaysFormat": "{consecutiveDays} Tage einnehmen / {restDays} Tage Pause",
-  "consecutiveDaysFormat": "{count} Tage eingenommen",
+  "consecutiveDaysFormat": "Medikamenteneinnahme an {count} Tagen",
   "restDaysFormat": "{count} Tage der Medikation",
   "limitedTimeDiscount": "Jetzt zu einem Sonderpreis, den Sie dauerhaft nutzen können.",
   "monthlyPlan": "Monatsabonnement",

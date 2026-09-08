@@ -72,7 +72,7 @@
   "silentModeNotificationDescription": "แม้เปิดโหมดโฟกัสหรือปิดเสียงอุปกรณ์อยู่ การแจ้งเตือนสำคัญจะแสดงบนหน้าจอล็อกและมีเสียงเล่น",
   "everyXDaysFormat": "ทุก {count} วัน",
   "cycleDaysFormat": "รับประทานยา {consecutiveDays} วัน / พักยา {restDays} วัน",
-  "consecutiveDaysFormat": "{count} วัน การใช้ยา",
+  "consecutiveDaysFormat": "รับประทานยาเป็นเวลา {count} วัน",
   "restDaysFormat": "{count} วันหยุดยา",
   "limitedTimeDiscount": "ตอนนี้ใช้ราคาโปรโมชันพิเศษได้ตลอดไป",
   "monthlyPlan": "แผนรายเดือน",

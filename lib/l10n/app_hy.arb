@@ -72,7 +72,7 @@
   "silentModeNotificationDescription": "Նույնիսկ երբ «Կենտրոնացում» ռեժիմը միացված է կամ սարքը լուռ է, կարևոր ծանուցումները ցուցադրվում են կողպէկրանին, և ձայն է հնչում։",
   "everyXDaysFormat": "Յուրաքանչյուր {count} օրը մեկ",
   "cycleDaysFormat": "Ընդունել {consecutiveDays} օր / ընդմիջում՝ {restDays} օր",
-  "consecutiveDaysFormat": "{count} օր դեղամիջոցների",
+  "consecutiveDaysFormat": "Դեղամիջոցի ընդունում՝ {count} օր",
   "restDaysFormat": "{count} օր դեղամիջոց չընդունելու",
   "limitedTimeDiscount": "Այժմ սահմանափակ գներով կարող եք օգտագործել մշտապես",
   "monthlyPlan": "ամսական ծրագիր",

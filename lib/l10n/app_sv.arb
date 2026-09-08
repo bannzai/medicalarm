@@ -72,7 +72,7 @@
   "silentModeNotificationDescription": "Även när Fokus är aktiverat eller enheten är ljudlös visas kritiska notiser på låsskärmen och ett ljud spelas upp.",
   "everyXDaysFormat": "Var {count}:e dag",
   "cycleDaysFormat": "Ta i {consecutiveDays} dagar / pausa i {restDays} dagar",
-  "consecutiveDaysFormat": "{count} dagar medicinering",
+  "consecutiveDaysFormat": "Medicinering i {count} dagar",
   "restDaysFormat": "{count} dagar utan medicin",
   "limitedTimeDiscount": "Just now, you can use it at a limited price forever",
   "monthlyPlan": "Månadsplan",

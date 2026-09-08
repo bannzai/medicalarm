@@ -72,7 +72,7 @@
   "silentModeNotificationDescription": "Pat ja fokusa režīms ir ieslēgts vai ierīce ir klusuma režīmā, kritiskie paziņojumi tiek rādīti bloķēšanas ekrānā un tiek atskaņota skaņa.",
   "everyXDaysFormat": "Ik pēc {count} dienām",
   "cycleDaysFormat": "Lietot {consecutiveDays} dienas / pārtraukums {restDays} dienas",
-  "consecutiveDaysFormat": "{count} dienas lietošana",
+  "consecutiveDaysFormat": "Zāļu lietošana {count} dienas",
   "restDaysFormat": "{count} dienas bez zālēm",
   "limitedTimeDiscount": "Tagad varat izmantot ierobežotu cenu uz visiem laikiem",
   "monthlyPlan": "Mēneša abonēšanas plāns",

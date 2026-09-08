@@ -72,7 +72,7 @@
   "silentModeNotificationDescription": "ਫੋਕਸ ਮੋਡ ਚਾਲੂ ਹੋਣ ਜਾਂ ਡਿਵਾਈਸ ਸਾਈਲੈਂਟ ਹੋਣ ਦੇ ਬਾਵਜੂਦ, ਗੰਭੀਰ ਚੇਤਾਵਨੀਆਂ ਲੌਕ ਸਕ੍ਰੀਨ 'ਤੇ ਦਿਖਾਈ ਦਿੰਦੀਆਂ ਹਨ ਅਤੇ ਆਵਾਜ਼ ਚਲਦੀ ਹੈ।",
   "everyXDaysFormat": "ਹਰ {count} ਦਿਨਾਂ ਬਾਅਦ",
   "cycleDaysFormat": "{consecutiveDays} ਦਿਨ ਦਵਾਈ ਲਓ / {restDays} ਦਿਨ ਵਿਰਾਮ",
-  "consecutiveDaysFormat": "{count} ਦਿਨਾਂ ਦੀ ਖੁਰਾਕ",
+  "consecutiveDaysFormat": "{count} ਦਿਨਾਂ ਲਈ ਦਵਾਈ ਲੈਣਾ",
   "restDaysFormat": "{count} ਦਿਨਾਂ ਲਈ ਦਵਾਈ ਲੈਣ ਤੋਂ ਪਰاهیਤ",
   "limitedTimeDiscount": "ਹੁਣ ਸੀਮਿਤ ਕੀਮਤ 'ਤੇ ਸਦਾ ਲਈ ਵਰਤ ਸਕਦੇ ਹੋ",
   "monthlyPlan": "ਮਾਸਿਕ ਯੋਜਨਾ",

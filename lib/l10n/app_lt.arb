@@ -72,7 +72,7 @@
   "silentModeNotificationDescription": "Net kai įjungtas susikaupimo režimas arba įrenginys veikia tyliuoju režimu, svarbūs įspėjimai rodomi užrakinimo ekrane ir leidžiamas garsas.",
   "everyXDaysFormat": "Kas {count} dienas",
   "cycleDaysFormat": "Vartoti {consecutiveDays} dienas / daryti {restDays} dienų pertrauką",
-  "consecutiveDaysFormat": "{count} dienų vartojimas",
+  "consecutiveDaysFormat": "Vaistų vartojimas {count} dienas",
   "restDaysFormat": "{count} dienų be vaistų",
   "limitedTimeDiscount": "Dabar galite naudotis ribota kaina visada",
   "monthlyPlan": "Mėnesinis planas",

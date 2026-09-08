@@ -72,7 +72,7 @@
   "silentModeNotificationDescription": "Walaupun mod Fokus dihidupkan atau peranti diletakkan dalam mod senyap, makluman kritikal dipaparkan pada Skrin Kunci dan bunyi dimainkan.",
   "everyXDaysFormat": "Setiap {count} hari",
   "cycleDaysFormat": "Ambil selama {consecutiveDays} hari / berhenti selama {restDays} hari",
-  "consecutiveDaysFormat": "{count} hari pengambilan",
+  "consecutiveDaysFormat": "Pengambilan ubat selama {count} hari",
   "restDaysFormat": "{count} hari tanpa ubat",
   "limitedTimeDiscount": "Sekarang, anda boleh menggunakan pada harga terhad untuk selamanya",
   "monthlyPlan": "Pelan Bulanan",

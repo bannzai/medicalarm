@@ -72,7 +72,7 @@
   "silentModeNotificationDescription": "Aj keď je zapnutý režim Sústredenie alebo je zariadenie stíšené, kritické upozornenia sa zobrazia na zamknutej obrazovke a prehrá sa zvuk.",
   "everyXDaysFormat": "Každých {count} dní",
   "cycleDaysFormat": "Užívať {consecutiveDays} dní / prestávka {restDays} dní",
-  "consecutiveDaysFormat": "{count} dní užívania",
+  "consecutiveDaysFormat": "Užívanie liekov počas {count} dní",
   "restDaysFormat": "{count} dní bez liekov",
   "limitedTimeDiscount": "Teraz si môžete zaobstarať za obmedzenú cenu a používať navždy",
   "monthlyPlan": "Mesačný plán",

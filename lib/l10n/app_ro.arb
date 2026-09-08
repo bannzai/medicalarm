@@ -72,7 +72,7 @@
   "silentModeNotificationDescription": "Chiar și când modul Concentrare este activat sau dispozitivul este pe silențios, alertele critice sunt afișate pe ecranul de blocare și se redă un sunet.",
   "everyXDaysFormat": "La fiecare {count} zile",
   "cycleDaysFormat": "Luați timp de {consecutiveDays} zile / pauză timp de {restDays} zile",
-  "consecutiveDaysFormat": "{count} zile de utilizare",
+  "consecutiveDaysFormat": "Administrarea medicamentelor timp de {count} zile",
   "restDaysFormat": "{count} zile fără medicamente",
   "limitedTimeDiscount": "Acum, la un preț redus, îl poți folosi fără limită",
   "monthlyPlan": "Plan lunar",

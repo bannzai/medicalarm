@@ -72,7 +72,7 @@
   "silentModeNotificationDescription": "Дури и кога режимот „Фокус“ е вклучен или уредот е ставен на тивко, критичните известувања се прикажуваат на заклучениот екран и се репродуцира звук.",
   "everyXDaysFormat": "На секои {count} дена",
   "cycleDaysFormat": "Земање {consecutiveDays} дена / пауза {restDays} дена",
-  "consecutiveDaysFormat": "{count} дена за земање",
+  "consecutiveDaysFormat": "Земање лекови {count} дена",
   "restDaysFormat": "{count} дена без лекови",
   "limitedTimeDiscount": "Сега можете да го користите на ограничена цена",
   "monthlyPlan": "Месечен план",

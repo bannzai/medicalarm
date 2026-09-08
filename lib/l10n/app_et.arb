@@ -72,7 +72,7 @@
   "silentModeNotificationDescription": "Isegi kui fookusrežiim on sisse lülitatud või seade on hääletu, kuvatakse kriitilised teavitused lukustuskuval ja esitatakse heli.",
   "everyXDaysFormat": "Iga {count} päeva järel",
   "cycleDaysFormat": "Võtta {consecutiveDays} päeva / paus {restDays} päeva",
-  "consecutiveDaysFormat": "{count} päeva võetud",
+  "consecutiveDaysFormat": "Ravimite võtmine {count} päeva",
   "restDaysFormat": "{count} päeva ravimiteta",
   "limitedTimeDiscount": "Nüüd saate piiratud aja jooksul hinnaga, millega saate jätkuvalt kasutada",
   "monthlyPlan": "kuupõhise plaani",

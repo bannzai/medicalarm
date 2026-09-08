@@ -72,7 +72,7 @@
   "silentModeNotificationDescription": "Odak modu açık veya cihaz sessizde olsa bile kritik uyarılar Kilit Ekranı'nda gösterilir ve ses çalınır.",
   "everyXDaysFormat": "Her {count} günde bir",
   "cycleDaysFormat": "{consecutiveDays} gün kullanın / {restDays} gün ara verin",
-  "consecutiveDaysFormat": "{count} gün kullanıldı",
+  "consecutiveDaysFormat": "{count} gün ilaç kullanımı",
   "restDaysFormat": "{count} gün ilaç almadı",
   "limitedTimeDiscount": "Şimdi sınırlı fiyatla sürekli kullanabilirsiniz.",
   "monthlyPlan": "Aylık plan",

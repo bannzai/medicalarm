@@ -72,7 +72,7 @@
   "silentModeNotificationDescription": "Даже если режим «Фокусирование» включён или устройство находится в беззвучном режиме, критические уведомления отображаются на экране блокировки и воспроизводится звук.",
   "everyXDaysFormat": "Каждые {count} дней",
   "cycleDaysFormat": "Принимать {consecutiveDays} дней / перерыв {restDays} дней",
-  "consecutiveDaysFormat": "{count} дней приема",
+  "consecutiveDaysFormat": "Приём лекарств в течение {count} дней",
   "restDaysFormat": "{count} дней без лечения",
   "limitedTimeDiscount": "Теперь это доступно по ограниченной цене на всё время использования",
   "monthlyPlan": "Ежемесячный план",

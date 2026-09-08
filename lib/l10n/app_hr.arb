@@ -72,7 +72,7 @@
   "silentModeNotificationDescription": "Čak i kada je Način rada Fokus uključen ili je uređaj utišan, kritične se obavijesti prikazuju na zaključanom zaslonu i reproducira se zvuk.",
   "everyXDaysFormat": "Svakih {count} dana",
   "cycleDaysFormat": "Uzimati {consecutiveDays} dana / pauza {restDays} dana",
-  "consecutiveDaysFormat": "{count} dana uzimanja",
+  "consecutiveDaysFormat": "Uzimanje lijeka tijekom {count} dana",
   "restDaysFormat": "{count} dana bez uzimanja lijekova",
   "limitedTimeDiscount": "Sada možete koristiti po ograničenoj cijeni",
   "monthlyPlan": "Mjesečni plan",

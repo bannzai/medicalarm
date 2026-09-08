@@ -72,7 +72,7 @@
   "silentModeNotificationDescription": "Kahit naka-on ang Focus mode o naka-silent ang device, lalabas ang mahahalagang alerto sa Lock Screen at magpe-play ang mga ito ng tunog.",
   "everyXDaysFormat": "Bawat {count} araw",
   "cycleDaysFormat": "Inumin nang {consecutiveDays} araw / magpahinga nang {restDays} araw",
-  "consecutiveDaysFormat": "{count} araw na pag-inom",
+  "consecutiveDaysFormat": "Pag-inom ng gamot sa loob ng {count} araw",
   "restDaysFormat": "{count} araw ng pagtigil sa gamot",
   "limitedTimeDiscount": "Ngayon, maaari mong makuha ito sa limitadong presyo na magagamit nang walang hanggan.",
   "monthlyPlan": "Buwanang plano",

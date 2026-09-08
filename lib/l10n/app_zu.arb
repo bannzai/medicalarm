@@ -72,7 +72,7 @@
   "silentModeNotificationDescription": "Ngisho noma imodi Yokugxila ivuliwe noma idivayisi ithulisiwe, izexwayiso ezibalulekile ziyavela esikrinini sokukhiya bese kudlalwa umsindo.",
   "everyXDaysFormat": "Njalo ngemva kwezinsuku ezi-{count}",
   "cycleDaysFormat": "Phuza izinsuku ezingu-{consecutiveDays} / phumula izinsuku ezingu-{restDays}",
-  "consecutiveDaysFormat": "{count} izinsuku zokusebenzisa",
+  "consecutiveDaysFormat": "Ukuphuza umuthi izinsuku ezi-{count}",
   "restDaysFormat": "{count} usuku sokuphumula",
   "limitedTimeDiscount": "Manje ungu- premium plan yokukhokha elinganiselwe engapheli.",
   "monthlyPlan": "uHlelo lweNyanga",

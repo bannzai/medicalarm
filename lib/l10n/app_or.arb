@@ -72,7 +72,7 @@
   "silentModeNotificationDescription": "ଫୋକସ୍ ମୋଡ୍ ଅନ୍ ଥିଲେ କିମ୍ବା ଡିଭାଇସ୍ ନିରବ ଥିଲେ ମଧ୍ୟ, ଗୁରୁତର ସତର୍କତା ଲକ୍ ସ୍କ୍ରିନ୍‌ରେ ଦେଖାଯାଏ ଏବଂ ଶବ୍ଦ ବାଜେ।",
   "everyXDaysFormat": "ପ୍ରତି {count} ଦିନରେ",
   "cycleDaysFormat": "{consecutiveDays} ଦିନ ଔଷଧ ସେବନ / {restDays} ଦିନ ବିରତି",
-  "consecutiveDaysFormat": "{count} ଦିନ ଦୌରନ୍ତି",
+  "consecutiveDaysFormat": "{count} ଦିନ ଔଷଧ ସେବନ",
   "restDaysFormat": "{count} ଦିନ ଔଷଧ ନ ଖାଇବା",
   "limitedTimeDiscount": "စုစုပေါင်းကျေးဇူးပြု၍ အသုံးချနိုင်မည့် အထူးစျေးနှုန်းဖြင့် သုံးရန် ရရှိနိုင်ပါသည်။",
   "monthlyPlan": "महिना शुल्क योजना",

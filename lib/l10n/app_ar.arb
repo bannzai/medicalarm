@@ -72,7 +72,7 @@
   "silentModeNotificationDescription": "حتى عند تشغيل وضع التركيز أو كتم صوت الجهاز، تظهر التنبيهات الحرجة على شاشة القفل ويُشغَّل صوت.",
   "everyXDaysFormat": "كل {count} يومًا",
   "cycleDaysFormat": "تناول الدواء لمدة {consecutiveDays} يومًا / أوقفه لمدة {restDays} يومًا",
-  "consecutiveDaysFormat": "{count} يوم المتابعة",
+  "consecutiveDaysFormat": "تناول الدواء لمدة {count} يومًا",
   "restDaysFormat": "{count} يوم بدون تناول الدواء",
   "limitedTimeDiscount": "الآن بسعر حصري يمكنك استخدامه مدى الحياة",
   "monthlyPlan": "خطة اشتراك شهرية",

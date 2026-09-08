@@ -72,7 +72,7 @@
   "silentModeNotificationDescription": "גם כאשר מצב ריכוז מופעל או שהמכשיר על שקט, התראות קריטיות מוצגות במסך הנעילה ומושמע צליל.",
   "everyXDaysFormat": "כל {count} ימים",
   "cycleDaysFormat": "ליטול במשך {consecutiveDays} ימים / להפסיק למשך {restDays} ימים",
-  "consecutiveDaysFormat": "{count} ימי נטילה",
+  "consecutiveDaysFormat": "נטילת תרופות במשך {count} ימים",
   "restDaysFormat": "{count} ימי הפסקת תרופות",
   "limitedTimeDiscount": "עכשיו במחיר מוגבל לשימוש קבוע",
   "monthlyPlan": "מנוי חודשי",
