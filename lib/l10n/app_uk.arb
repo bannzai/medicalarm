@@ -8,7 +8,7 @@
   "medicineName": "Назва ліків",
   "medicineList": "Список ліків",
   "medicationSchedule": "Розклад прийому ліків",
-  "medicationTime": "Enable notifications for medication times",
+  "medicationTime": "Увімкнути сповіщення на час прийому ліків",
   "medicationTimeDescription": "Notifications will be sent based on the medication time.",
   "close": "Close",
   "settings": "Settings",

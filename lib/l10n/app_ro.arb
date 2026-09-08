@@ -8,7 +8,7 @@
   "medicineName": "Numele medicamentului",
   "medicineList": "Lista medicamentelor",
   "medicationSchedule": "Program de administrare a medicamentelor",
-  "medicationTime": "Activare notificările pentru momentul administrării",
+  "medicationTime": "Activează notificările la ora administrării medicamentului",
   "medicationTimeDescription": "Va trimite notificări pe baza orei de administrare.",
   "close": "Închide",
   "settings": "Setări",

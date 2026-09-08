@@ -8,7 +8,7 @@
   "medicineName": "ชื่อยา",
   "medicineList": "รายการยา",
   "medicationSchedule": "ตารางการรับประทานยา",
-  "medicationTime": "เปิดการแจ้งเตือนเมื่อถึงเวลาทานยา",
+  "medicationTime": "เปิดใช้การแจ้งเตือนเมื่อถึงเวลารับประทานยา",
   "medicationTimeDescription": "จะส่งการแจ้งเตือนตามเวลาที่กำหนดสำหรับการใช้ยา",
   "close": "ปิด",
   "settings": "การตั้งค่า",

@@ -8,7 +8,7 @@
   "medicineName": "Назив лека",
   "medicineList": "Списак лекова",
   "medicationSchedule": "Распоред узимања лекова",
-  "medicationTime": "Укључите обавештења за време узимања.",
+  "medicationTime": "Укључи обавештења у време узимања лека",
   "medicationTimeDescription": "Шаље обавештења на основу времена узимања",
   "close": "Затвори",
   "settings": "Подешавање",

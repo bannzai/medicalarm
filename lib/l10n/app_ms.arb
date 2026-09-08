@@ -8,7 +8,7 @@
   "medicineName": "Nama ubat",
   "medicineList": "Senarai ubat",
   "medicationSchedule": "Jadual pengambilan ubat",
-  "medicationTime": "Mengaktifkan pemberitahuan pada waktu pengambilan ubat",
+  "medicationTime": "Aktifkan pemberitahuan apabila tiba masa untuk mengambil ubat",
   "medicationTimeDescription": "Notifikasi akan dihantar berdasarkan waktu pengambilan.",
   "close": "Tutup",
   "settings": "Tetapan",

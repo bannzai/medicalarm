@@ -8,7 +8,7 @@
   "medicineName": "Nome del farmaco",
   "medicineList": "Elenco dei farmaci",
   "medicationSchedule": "Programma di assunzione",
-  "medicationTime": "Attiva le notifiche per l'assunzione",
+  "medicationTime": "Attiva le notifiche all’ora di assumere il farmaco",
   "medicationTimeDescription": "Invierà notifiche in base all'orario di assunzione.",
   "close": "Chiudi",
   "settings": "Impostazioni",

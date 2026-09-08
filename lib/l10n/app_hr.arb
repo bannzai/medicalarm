@@ -8,7 +8,7 @@
   "medicineName": "Naziv lijeka",
   "medicineList": "Popis lijekova",
   "medicationSchedule": "Raspored uzimanja lijekova",
-  "medicationTime": "Omogućite obavijesti o uzimanju lijekova",
+  "medicationTime": "Uključi obavijesti u vrijeme uzimanja lijeka",
   "medicationTimeDescription": "Slanje obavijesti na osnovu vremena uzimanja lijekova",
   "close": "Zatvori",
   "settings": "Postavke",

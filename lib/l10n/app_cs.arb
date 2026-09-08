@@ -8,7 +8,7 @@
   "medicineName": "Název léku",
   "medicineList": "Seznam léků",
   "medicationSchedule": "Plán užívání léků",
-  "medicationTime": "Povolit oznámení při užívání léků",
+  "medicationTime": "Povolit upozornění v čase užití léku",
   "medicationTimeDescription": "Na základě času užívání léků bude odesláno oznámení.",
   "close": "Zavřít",
   "settings": "nastavení",

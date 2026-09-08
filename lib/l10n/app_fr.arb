@@ -8,7 +8,7 @@
   "medicineName": "Nom du médicament",
   "medicineList": "Liste des médicaments",
   "medicationSchedule": "Programme de prise des médicaments",
-  "medicationTime": "Activer les notifications pour le moment de la prise",
+  "medicationTime": "Activer les notifications à l’heure de prise du médicament",
   "medicationTimeDescription": "Des notifications sont envoyées en fonction de l'heure de prise.",
   "close": "Fermer",
   "settings": "Paramètres",

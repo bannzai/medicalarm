@@ -8,7 +8,7 @@
   "medicineName": "Läkemedlets namn",
   "medicineList": "Mediciner",
   "medicationSchedule": "Medicineringsschema",
-  "medicationTime": "Aktivera meddelanden för läkemedelsintag",
+  "medicationTime": "Aktivera aviseringar när det är dags att ta medicinen",
   "medicationTimeDescription": "Vi skickar aviseringar baserade på doseringstidpunkten",
   "close": "Stänga",
   "settings": "Inställningar",

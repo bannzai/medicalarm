@@ -8,7 +8,7 @@
   "medicineName": "약 이름",
   "medicineList": "약 목록",
   "medicationSchedule": "복약 일정",
-  "medicationTime": "복용 시 알림을 활성화",
+  "medicationTime": "복용 시간 알림 켜기",
   "medicationTimeDescription": "복용 시간에 따라 알림을 전송합니다",
   "close": "닫기",
   "settings": "설정",
