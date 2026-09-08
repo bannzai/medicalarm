@@ -221,7 +221,7 @@
   "accountLinkedWithApple": "Linked with Apple",
   "accountLinkedWithGoogle": "Linked with Google",
   "accountLinkedSnackbar": "Account transferred",
-  "accountLinkBannerText": "We strongly recommend setting up account transfer while sharing with a group",
+  "accountLinkBannerText": "When sharing a group, we strongly recommend setting up account transfer.",
   "minimumDoseInterval": "Dose interval",
   "minimumDoseIntervalDescription": "Minimum time to wait since the last dose",
   "minimumDoseIntervalNone": "None",
