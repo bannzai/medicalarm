@@ -213,7 +213,7 @@
   "invitationCodeInputLabel": "Kód pozvánky (8 znakov)",
   "invitationCodeInputHint": "Zadajte 8-znakový kód",
   "join": "Pripojiť sa",
-  "recordedByMember": "Zaznamenal(a) {name}",
+  "recordedByMember": "Zaznamenal/a {name}",
   "accountLink": "Prenos účtu",
   "accountLinkDescription": "Prepojením s Apple alebo Google si môžete ponechať svoje údaje aj po zmene zariadenia alebo opätovnej inštalácii aplikácie.",
   "linkWithApple": "Preniesť účet pomocou Apple",

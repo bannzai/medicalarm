@@ -213,7 +213,7 @@
   "invitationCodeInputLabel": "Mã lời mời (8 ký tự)",
   "invitationCodeInputHint": "Nhập mã gồm 8 ký tự",
   "join": "Tham gia",
-  "recordedByMember": "Được {name} ghi lại",
+  "recordedByMember": "Được ghi bởi {name}",
   "accountLink": "Chuyển tài khoản",
   "accountLinkDescription": "Liên kết với Apple hoặc Google để giữ lại dữ liệu ngay cả sau khi đổi thiết bị hoặc cài đặt lại ứng dụng.",
   "linkWithApple": "Chuyển tài khoản bằng Apple",

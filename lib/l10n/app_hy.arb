@@ -213,7 +213,7 @@
   "invitationCodeInputLabel": "Հրավերի կոդ (8 նիշ)",
   "invitationCodeInputHint": "Մուտքագրեք 8 նիշից բաղկացած կոդը",
   "join": "Միանալ",
-  "recordedByMember": "{name}-ի կողմից գրանցված",
+  "recordedByMember": "Գրանցել է {name}-ը",
   "accountLink": "Հաշվի փոխանցում",
   "accountLinkDescription": "Apple-ի կամ Google-ի հետ կապակցելով՝ կարող եք պահպանել ձեր տվյալները նույնիսկ սարքը փոխելուց կամ հավելվածը նորից տեղադրելուց հետո։",
   "linkWithApple": "Փոխանցեք ձեր հաշիվը Apple-ի միջոցով",

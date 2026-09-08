@@ -213,7 +213,7 @@
   "invitationCodeInputLabel": "მოწვევის კოდი (8 სიმბოლო)",
   "invitationCodeInputHint": "შეიყვანეთ 8-ნიშნა კოდი",
   "join": "გაწევრიანება",
-  "recordedByMember": "{name}-მა ჩაიწერა",
+  "recordedByMember": "ჩაიწერა {name}-ის მიერ",
   "accountLink": "ანგარიშის გადატანა",
   "accountLinkDescription": "Apple-თან ან Google-თან დაკავშირების შემთხვევაში, მონაცემებს შეინარჩუნებთ მოწყობილობის შეცვლის ან აპის ხელახლა ინსტალაციის შემდეგაც.",
   "linkWithApple": "გადაიტანეთ თქვენი ანგარიში Apple-ის მეშვეობით",

@@ -213,7 +213,7 @@
   "invitationCodeInputLabel": "Gonbidapen-kodea (8 karaktere)",
   "invitationCodeInputHint": "Sartu 8 karaktereko kodea",
   "join": "Batu",
-  "recordedByMember": "{name}(e)k erregistratu du",
+  "recordedByMember": "{name}(e)k erregistratuta",
   "accountLink": "Kontu-transferentzia",
   "accountLinkDescription": "Apple edo Google konektatuz gero, zure datuak mantendu ahal izango dituzu gailua aldatu edo aplikazioa berriro instalatu ondoren ere.",
   "linkWithApple": "Transferitu zure kontua Apple-rekin",

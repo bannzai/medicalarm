@@ -213,7 +213,7 @@
   "invitationCodeInputLabel": "Code ng imbitasyon (8 character)",
   "invitationCodeInputHint": "Ilagay ang 8-character na code",
   "join": "Sumali",
-  "recordedByMember": "{name} ang nagtala",
+  "recordedByMember": "Itinala ni {name}",
   "accountLink": "Paglipat ng account",
   "accountLinkDescription": "I-link ang Apple o Google para mapanatili ang iyong data kahit magpalit ng device o muling mag-install ng app.",
   "linkWithApple": "Ilipat ang iyong account gamit ang Apple",

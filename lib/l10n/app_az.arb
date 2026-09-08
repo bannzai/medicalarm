@@ -213,7 +213,7 @@
   "invitationCodeInputLabel": "Dəvət kodu (8 simvol)",
   "invitationCodeInputHint": "8 simvolluq kodu daxil edin",
   "join": "Qoşul",
-  "recordedByMember": "{name} tərəfindən qeyd edildi",
+  "recordedByMember": "{name} qeyd edib",
   "accountLink": "Hesabın köçürülməsi",
   "accountLinkDescription": "Apple və ya Google hesabınızı bağlayaraq cihazı dəyişdikdən və ya tətbiqi yenidən quraşdırdıqdan sonra da məlumatlarınızı saxlaya bilərsiniz.",
   "linkWithApple": "Hesabınızı Apple ilə köçürün",

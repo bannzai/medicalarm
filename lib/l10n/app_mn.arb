@@ -213,7 +213,7 @@
   "invitationCodeInputLabel": "Урих код (8 тэмдэгт)",
   "invitationCodeInputHint": "8 тэмдэгттэй кодыг оруулна уу",
   "join": "Нэгдэх",
-  "recordedByMember": "{name} бүртгэв",
+  "recordedByMember": "{name} бүртгэсэн",
   "accountLink": "Бүртгэл шилжүүлэх",
   "accountLinkDescription": "Apple эсвэл Google-тэй холбосноор төхөөрөмжөө сольсон эсвэл аппыг дахин суулгасны дараа ч мэдээллээ хадгалж чадна.",
   "linkWithApple": "Apple ашиглан бүртгэлээ шилжүүлэх",

@@ -213,7 +213,7 @@
   "invitationCodeInputLabel": "Pozivni kod (8 znakova)",
   "invitationCodeInputHint": "Unesite kod od 8 znakova",
   "join": "Pridruži se",
-  "recordedByMember": "Evidentirao/la: {name}",
+  "recordedByMember": "Zabilježio/la {name}",
   "accountLink": "Prenos računa",
   "accountLinkDescription": "Povežite Apple ili Google da biste zadržali podatke i nakon promjene uređaja ili ponovne instalacije aplikacije.",
   "linkWithApple": "Prenesite svoj račun pomoću Apple",

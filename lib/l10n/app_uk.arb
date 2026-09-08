@@ -213,7 +213,7 @@
   "invitationCodeInputLabel": "Код запрошення (8 символів)",
   "invitationCodeInputHint": "Введіть 8-значний код",
   "join": "Приєднатися",
-  "recordedByMember": "Записано {name}",
+  "recordedByMember": "Записав(-ла) {name}",
   "accountLink": "Перенесення облікового запису",
   "accountLinkDescription": "Підключивши Apple або Google, ви зможете зберегти свої дані навіть після зміни пристрою чи повторного встановлення застосунку.",
   "linkWithApple": "Перенести обліковий запис за допомогою Apple",

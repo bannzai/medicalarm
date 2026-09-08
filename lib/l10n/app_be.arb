@@ -213,7 +213,7 @@
   "invitationCodeInputLabel": "Код запрашэння (8 сімвалаў)",
   "invitationCodeInputHint": "Увядзіце 8-знакавы код",
   "join": "Далучыцца",
-  "recordedByMember": "Запісана: {name}",
+  "recordedByMember": "Запісаў {name}",
   "accountLink": "Перанос уліковага запісу",
   "accountLinkDescription": "Звязаўшыся з Apple або Google, вы зможаце захаваць свае даныя нават пасля змены прылады або паўторнай усталёўкі праграмы.",
   "linkWithApple": "Перанесці ўліковы запіс з дапамогай Apple",

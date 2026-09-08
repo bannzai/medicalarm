@@ -213,7 +213,7 @@
   "invitationCodeInputLabel": "Kutse kood (8 märki)",
   "invitationCodeInputHint": "Sisestage 8-kohaline kood",
   "join": "Liitu",
-  "recordedByMember": "{name} salvestas",
+  "recordedByMember": "Salvestanud {name}",
   "accountLink": "Konto ülekandmine",
   "accountLinkDescription": "Apple'i või Google'iga ühendades saate oma andmed säilitada ka pärast seadme vahetamist või rakenduse uuesti installimist.",
   "linkWithApple": "Kanna oma konto Apple’i abil üle",

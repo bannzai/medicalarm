@@ -213,7 +213,7 @@
   "invitationCodeInputLabel": "Davet kodu (8 karakter)",
   "invitationCodeInputHint": "8 karakterli kodu girin",
   "join": "Katıl",
-  "recordedByMember": "{name} tarafından kaydedildi",
+  "recordedByMember": "{name} kaydetti",
   "accountLink": "Hesap aktarımı",
   "accountLinkDescription": "Apple veya Google'ı bağlayarak cihazınızı değiştirseniz veya uygulamayı yeniden yükleseniz bile verilerinizi koruyabilirsiniz.",
   "linkWithApple": "Hesabınızı Apple ile aktarın",
