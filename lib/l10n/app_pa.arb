@@ -223,7 +223,7 @@
   "accountLinkedSnackbar": "ਖਾਤਾ ਟ੍ਰਾਂਸਫਰ ਕੀਤਾ ਗਿਆ",
   "accountLinkBannerText": "ਗਰੁੱਪ ਸਾਂਝਾ ਕਰਦੇ ਸਮੇਂ, ਅਸੀਂ ਖਾਤਾ ਟ੍ਰਾਂਸਫ਼ਰ ਸੈੱਟ ਅੱਪ ਕਰਨ ਦੀ ਜ਼ੋਰਦਾਰ ਸਿਫ਼ਾਰਸ਼ ਕਰਦੇ ਹਾਂ",
   "minimumDoseInterval": "ਖੁਰਾਕਾਂ ਵਿਚਕਾਰ ਅੰਤਰਾਲ",
-  "minimumDoseIntervalDescription": "ਖੁਰਾਕਾਂ ਵਿਚਕਾਰ ਰੱਖਿਆ ਜਾਣ ਵਾਲਾ ਘੱਟੋ-ਘੱਟ ਸਮਾਂ",
+  "minimumDoseIntervalDescription": "ਪਿਛਲੀ ਖੁਰਾਕ ਤੋਂ ਬਾਅਦ ਘੱਟੋ-ਘੱਟ ਅੰਤਰਾਲ",
   "minimumDoseIntervalNone": "ਕੋਈ ਨਹੀਂ",
   "minimumDoseIntervalHoursFormat": "ਘੱਟੋ-ਘੱਟ {hours} ਘੰਟੇ",
   "doseIntervalWarningTitle": "ਖੁਰਾਕਾਂ ਵਿਚਕਾਰ ਅੰਤਰਾਲ ਅਜੇ ਪੂਰਾ ਨਹੀਂ ਹੋਇਆ",

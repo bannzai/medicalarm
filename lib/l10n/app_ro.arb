@@ -223,7 +223,7 @@
   "accountLinkedSnackbar": "Contul a fost transferat",
   "accountLinkBannerText": "Când partajați un grup, vă recomandăm insistent să configurați transferul contului",
   "minimumDoseInterval": "Interval între doze",
-  "minimumDoseIntervalDescription": "Intervalul minim dintre doze",
+  "minimumDoseIntervalDescription": "Timp minim între doze",
   "minimumDoseIntervalNone": "Niciunul",
   "minimumDoseIntervalHoursFormat": "Cel puțin {hours} ore",
   "doseIntervalWarningTitle": "Intervalul dintre doze nu a trecut încă",

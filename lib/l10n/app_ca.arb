@@ -223,7 +223,7 @@
   "accountLinkedSnackbar": "Compte transferit",
   "accountLinkBannerText": "Durant la compartició d’un grup, et recomanem encaridament configurar la transferència del compte",
   "minimumDoseInterval": "Interval entre dosis",
-  "minimumDoseIntervalDescription": "Temps mínim entre les dosis",
+  "minimumDoseIntervalDescription": "Temps mínim entre preses",
   "minimumDoseIntervalNone": "Cap",
   "minimumDoseIntervalHoursFormat": "Com a mínim {hours} hores",
   "doseIntervalWarningTitle": "L’interval entre les dosis encara no ha transcorregut",

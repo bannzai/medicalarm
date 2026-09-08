@@ -223,7 +223,7 @@
   "accountLinkedSnackbar": "계정을 이전했습니다",
   "accountLinkBannerText": "그룹 공유 중에는 계정 이전 설정을 강력히 권장합니다",
   "minimumDoseInterval": "복용 간격",
-  "minimumDoseIntervalDescription": "복용 간 최소 간격",
+  "minimumDoseIntervalDescription": "이전 복용 후 최소 간격",
   "minimumDoseIntervalNone": "없음",
   "minimumDoseIntervalHoursFormat": "최소 {hours}시간",
   "doseIntervalWarningTitle": "복용 간격이 아직 지나지 않았습니다",

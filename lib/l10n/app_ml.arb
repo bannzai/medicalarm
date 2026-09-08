@@ -223,7 +223,7 @@
   "accountLinkedSnackbar": "അക്കൗണ്ട് കൈമാറി",
   "accountLinkBannerText": "ഗ്രൂപ്പ് പങ്കിടുമ്പോൾ അക്കൗണ്ട് കൈമാറ്റം സജ്ജീകരിക്കാൻ ഞങ്ങൾ ശക്തമായി ശുപാർശ ചെയ്യുന്നു",
   "minimumDoseInterval": "ഡോസുകൾക്കിടയിലെ ഇടവേള",
-  "minimumDoseIntervalDescription": "ഡോസുകൾക്കിടയിൽ പാലിക്കേണ്ട കുറഞ്ഞ സമയം",
+  "minimumDoseIntervalDescription": "മുമ്പത്തെ ഡോസിന് ശേഷമുള്ള കുറഞ്ഞ ഇടവേള",
   "minimumDoseIntervalNone": "ഇല്ല",
   "minimumDoseIntervalHoursFormat": "കുറഞ്ഞത് {hours} മണിക്കൂർ",
   "doseIntervalWarningTitle": "മരുന്ന് കഴിക്കേണ്ട ഇടവേള ഇതുവരെ കഴിഞ്ഞിട്ടില്ല",

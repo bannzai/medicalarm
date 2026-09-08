@@ -223,7 +223,7 @@
   "accountLinkedSnackbar": "Уліковы запіс перанесены",
   "accountLinkBannerText": "Падчас сумеснага выкарыстання групы настойліва рэкамендуем наладзіць перанос уліковага запісу",
   "minimumDoseInterval": "Інтэрвал паміж прыёмамі",
-  "minimumDoseIntervalDescription": "Мінімальны інтэрвал паміж прыёмамі",
+  "minimumDoseIntervalDescription": "Мінімальны інтэрвал пасля папярэдняга прыёму",
   "minimumDoseIntervalNone": "Няма",
   "minimumDoseIntervalHoursFormat": "Не менш за {hours} гадз.",
   "doseIntervalWarningTitle": "Інтэрвал паміж прыёмамі яшчэ не мінуў",

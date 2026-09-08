@@ -223,7 +223,7 @@
   "accountLinkedSnackbar": "Rekening oorgedra",
   "accountLinkBannerText": "Wanneer jy ’n groep deel, beveel ons sterk aan dat jy rekeningoordrag instel",
   "minimumDoseInterval": "Dosisinterval",
-  "minimumDoseIntervalDescription": "Minimum tyd wat tussen dosisse moet verloop",
+  "minimumDoseIntervalDescription": "Minimum tyd tussen dosisse",
   "minimumDoseIntervalNone": "Geen",
   "minimumDoseIntervalHoursFormat": "Minstens {hours} uur",
   "doseIntervalWarningTitle": "Die dosisinterval het nog nie verstryk nie",

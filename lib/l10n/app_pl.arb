@@ -223,7 +223,7 @@
   "accountLinkedSnackbar": "Konto przeniesione",
   "accountLinkBannerText": "Podczas udostępniania grupy zdecydowanie zalecamy skonfigurowanie przeniesienia konta",
   "minimumDoseInterval": "Odstęp między dawkami",
-  "minimumDoseIntervalDescription": "Minimalny odstęp między dawkami",
+  "minimumDoseIntervalDescription": "Minimalny odstęp od poprzedniej dawki",
   "minimumDoseIntervalNone": "Brak",
   "minimumDoseIntervalHoursFormat": "Co najmniej {hours} godz.",
   "doseIntervalWarningTitle": "Odstęp między dawkami jeszcze nie minął",

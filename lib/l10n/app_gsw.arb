@@ -223,7 +223,7 @@
   "accountLinkedSnackbar": "Konto überträit",
   "accountLinkBannerText": "Wenn du e Gruppe teilsch, empfehle mir dringend, d Kontoübertragig iizrichte",
   "minimumDoseInterval": "Iinahmeabstand",
-  "minimumDoseIntervalDescription": "Mindestabstand zwüsche de Iinahme",
+  "minimumDoseIntervalDescription": "Mindestabstand seit der letzten Einnahme",
   "minimumDoseIntervalNone": "Kei",
   "minimumDoseIntervalHoursFormat": "Mindestens {hours} Stunde",
   "doseIntervalWarningTitle": "Dr Einnahmeabstand isch no nöd abgloffe",

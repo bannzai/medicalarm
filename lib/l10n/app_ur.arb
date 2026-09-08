@@ -223,7 +223,7 @@
   "accountLinkedSnackbar": "اکاؤنٹ منتقل کر دیا گیا",
   "accountLinkBannerText": "گروپ شیئر کرتے وقت، ہم اکاؤنٹ کی منتقلی سیٹ اپ کرنے کی پُرزور تجویز دیتے ہیں",
   "minimumDoseInterval": "خوراکوں کے درمیان وقفہ",
-  "minimumDoseIntervalDescription": "خوراکوں کے درمیان کم از کم وقفہ",
+  "minimumDoseIntervalDescription": "پچھلی خوراک کے بعد کم از کم وقفہ",
   "minimumDoseIntervalNone": "کوئی نہیں",
   "minimumDoseIntervalHoursFormat": "کم از کم {hours} گھنٹے",
   "doseIntervalWarningTitle": "خوراکوں کے درمیان وقفہ ابھی پورا نہیں ہوا",

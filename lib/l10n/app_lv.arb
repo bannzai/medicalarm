@@ -223,7 +223,7 @@
   "accountLinkedSnackbar": "Konts pārsūtīts",
   "accountLinkBannerText": "Kopīgojot grupu, ļoti iesakām iestatīt konta pārsūtīšanu",
   "minimumDoseInterval": "Devu lietošanas intervāls",
-  "minimumDoseIntervalDescription": "Minimālais laiks starp devām",
+  "minimumDoseIntervalDescription": "Minimālais laiks pēc iepriekšējās devas",
   "minimumDoseIntervalNone": "Nav",
   "minimumDoseIntervalHoursFormat": "Vismaz {hours} stundas",
   "doseIntervalWarningTitle": "Intervāls starp devām vēl nav pagājis",

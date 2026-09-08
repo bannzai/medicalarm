@@ -223,7 +223,7 @@
   "accountLinkedSnackbar": "অ্যাকাউন্ট স্থানান্তর করা হয়েছে",
   "accountLinkBannerText": "গ্রুপ শেয়ার করার সময় অ্যাকাউন্ট হস্তান্তর সেটআপ করার জন্য আমরা জোরালোভাবে সুপারিশ করছি",
   "minimumDoseInterval": "সেবনের ব্যবধান",
-  "minimumDoseIntervalDescription": "ডোজের মধ্যে রাখতে হবে এমন ন্যূনতম সময়",
+  "minimumDoseIntervalDescription": "আগের ডোজের পর অপেক্ষা করার ন্যূনতম সময়",
   "minimumDoseIntervalNone": "নেই",
   "minimumDoseIntervalHoursFormat": "কমপক্ষে {hours} ঘণ্টা",
   "doseIntervalWarningTitle": "ওষুধ খাওয়ার ব্যবধান পূর্ণ হয়নি",

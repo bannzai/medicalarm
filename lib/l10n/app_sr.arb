@@ -223,7 +223,7 @@
   "accountLinkedSnackbar": "Налог је пренет",
   "accountLinkBannerText": "Током дељења групе, топло препоручујемо да подесите пренос налога",
   "minimumDoseInterval": "Размак између доза",
-  "minimumDoseIntervalDescription": "Минимално време између доза",
+  "minimumDoseIntervalDescription": "Минимални размак од претходног узимања",
   "minimumDoseIntervalNone": "Нема",
   "minimumDoseIntervalHoursFormat": "Најмање {hours} сати",
   "doseIntervalWarningTitle": "Интервал између доза још није прошао",

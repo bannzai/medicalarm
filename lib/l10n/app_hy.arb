@@ -223,7 +223,7 @@
   "accountLinkedSnackbar": "Հաշիվը փոխանցվեց",
   "accountLinkBannerText": "Խումբը համօգտագործելիս խստորեն խորհուրդ ենք տալիս կարգավորել հաշվի փոխանցումը",
   "minimumDoseInterval": "Ընդմիջում դեղաչափերի միջև",
-  "minimumDoseIntervalDescription": "Դեղաչափերի միջև նվազագույն ժամանակը",
+  "minimumDoseIntervalDescription": "Նախորդ ընդունումից հետո նվազագույն ժամանակը",
   "minimumDoseIntervalNone": "Չկա",
   "minimumDoseIntervalHoursFormat": "Առնվազն {hours} ժամ",
   "doseIntervalWarningTitle": "Դեղաչափերի միջև ընդմիջումը դեռ չի լրացել",

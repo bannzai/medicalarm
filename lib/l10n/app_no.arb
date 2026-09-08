@@ -223,7 +223,7 @@
   "accountLinkedSnackbar": "Konto overført",
   "accountLinkBannerText": "Når du deler en gruppe, anbefaler vi på det sterkeste at du konfigurerer kontooverføring",
   "minimumDoseInterval": "Doseringsintervall",
-  "minimumDoseIntervalDescription": "Minimumstid mellom doser",
+  "minimumDoseIntervalDescription": "Minste tid mellom doser",
   "minimumDoseIntervalNone": "Ingen",
   "minimumDoseIntervalHoursFormat": "Minst {hours} timer",
   "doseIntervalWarningTitle": "Tidsintervallet mellom dosene har ikke gått ennå",

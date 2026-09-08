@@ -223,7 +223,7 @@
   "accountLinkedSnackbar": "अकाउंट ट्रांसफ़र हो गया",
   "accountLinkBannerText": "समूह साझा करते समय, हम खाता स्थानांतरण सेट अप करने की पुरज़ोर सलाह देते हैं",
   "minimumDoseInterval": "खुराक का अंतराल",
-  "minimumDoseIntervalDescription": "खुराकों के बीच न्यूनतम समय",
+  "minimumDoseIntervalDescription": "पिछली खुराक के बाद न्यूनतम अंतराल",
   "minimumDoseIntervalNone": "कोई नहीं",
   "minimumDoseIntervalHoursFormat": "कम से कम {hours} घंटे",
   "doseIntervalWarningTitle": "खुराकों के बीच का अंतराल अभी पूरा नहीं हुआ है",

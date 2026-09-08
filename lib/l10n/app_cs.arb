@@ -223,7 +223,7 @@
   "accountLinkedSnackbar": "Účet byl převeden",
   "accountLinkBannerText": "Při sdílení skupiny důrazně doporučujeme nastavit převod účtu",
   "minimumDoseInterval": "Interval mezi dávkami",
-  "minimumDoseIntervalDescription": "Minimální interval mezi dávkami",
+  "minimumDoseIntervalDescription": "Minimální odstup od předchozí dávky",
   "minimumDoseIntervalNone": "Žádné",
   "minimumDoseIntervalHoursFormat": "Nejméně {hours} hodin",
   "doseIntervalWarningTitle": "Interval mezi dávkami ještě neuplynul",

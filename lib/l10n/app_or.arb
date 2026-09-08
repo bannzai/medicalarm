@@ -223,7 +223,7 @@
   "accountLinkedSnackbar": "ଆକାଉଣ୍ଟ ସ୍ଥାନାନ୍ତର କରାଗଲା",
   "accountLinkBannerText": "ଗୋଷ୍ଠୀ ସେୟାର୍ କରୁଥିବା ସମୟରେ ଆକାଉଣ୍ଟ ସ୍ଥାନାନ୍ତରଣ ସେଟ୍ ଅପ୍ କରିବାକୁ ଆମେ ଦୃଢ଼ ଭାବେ ସୁପାରିସ କରୁଛୁ",
   "minimumDoseInterval": "ସେବନ ବ୍ୟବଧାନ",
-  "minimumDoseIntervalDescription": "ଡୋଜ୍‌ଗୁଡ଼ିକ ମଧ୍ୟରେ ରଖିବାକୁ ଥିବା ସର୍ବନିମ୍ନ ସମୟ",
+  "minimumDoseIntervalDescription": "ପୂର୍ବ ଡୋଜ୍ ପରେ ରଖିବାକୁ ଥିବା ସର୍ବନିମ୍ନ ସମୟ",
   "minimumDoseIntervalNone": "ନାହିଁ",
   "minimumDoseIntervalHoursFormat": "ଅତି କମରେ {hours} ଘଣ୍ଟା",
   "doseIntervalWarningTitle": "ଔଷଧ ସେବନ ମଧ୍ୟରେ ବ୍ୟବଧାନ ପୂରଣ ହୋଇନାହିଁ",

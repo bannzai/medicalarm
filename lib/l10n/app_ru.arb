@@ -223,7 +223,7 @@
   "accountLinkedSnackbar": "Аккаунт перенесён",
   "accountLinkBannerText": "При совместном использовании группы настоятельно рекомендуем настроить перенос аккаунта",
   "minimumDoseInterval": "Интервал между приёмами",
-  "minimumDoseIntervalDescription": "Минимальный интервал между приёмами",
+  "minimumDoseIntervalDescription": "Минимальный интервал после предыдущего приёма",
   "minimumDoseIntervalNone": "Нет",
   "minimumDoseIntervalHoursFormat": "Не менее {hours} ч.",
   "doseIntervalWarningTitle": "Интервал между приёмами ещё не истёк",

@@ -223,7 +223,7 @@
   "accountLinkedSnackbar": "Paskyra perkelta",
   "accountLinkBannerText": "Bendrinant grupę primygtinai rekomenduojame nustatyti paskyros perkėlimą",
   "minimumDoseInterval": "Dozių vartojimo intervalas",
-  "minimumDoseIntervalDescription": "Mažiausias laiko tarpas tarp dozių",
+  "minimumDoseIntervalDescription": "Minimalus laikas po ankstesnės dozės",
   "minimumDoseIntervalNone": "Nėra",
   "minimumDoseIntervalHoursFormat": "Mažiausiai {hours} val.",
   "doseIntervalWarningTitle": "Tarpas tarp dozių dar nepraėjo",

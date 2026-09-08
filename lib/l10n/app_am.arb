@@ -223,7 +223,7 @@
   "accountLinkedSnackbar": "Հաշիվը փոխանցվեց",
   "accountLinkBannerText": "ቡድን እየተጋሩ ከሆነ፣ የመለያ ማስተላለፊያን ማዋቀር በጥብቅ እንመክራለን",
   "minimumDoseInterval": "የመውሰጃ ክፍተት",
-  "minimumDoseIntervalDescription": "በመድኃኒት መውሰዶች መካከል መተው ያለበት ዝቅተኛው ጊዜ",
+  "minimumDoseIntervalDescription": "Դեղաչափերի միջև պահպանվող նվազագույն ժամանակը",
   "minimumDoseIntervalNone": "የለም",
   "minimumDoseIntervalHoursFormat": "Առնվազն {hours} ժամ",
   "doseIntervalWarningTitle": "የመድኃኒት መውሰጃ ክፍተት ገና አላለፈም",

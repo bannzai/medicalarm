@@ -223,7 +223,7 @@
   "accountLinkedSnackbar": "החשבון הועבר",
   "accountLinkBannerText": "בזמן שיתוף קבוצה, מומלץ מאוד להגדיר העברת חשבון",
   "minimumDoseInterval": "מרווח בין מנות",
-  "minimumDoseIntervalDescription": "זמן מינימלי בין מנות",
+  "minimumDoseIntervalDescription": "הזמן המינימלי בין מנות",
   "minimumDoseIntervalNone": "אין",
   "minimumDoseIntervalHoursFormat": "לפחות {hours} שעות",
   "doseIntervalWarningTitle": "מרווח הזמן בין המנות עדיין לא חלף",

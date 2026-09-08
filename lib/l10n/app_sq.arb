@@ -223,7 +223,7 @@
   "accountLinkedSnackbar": "Llogaria u transferua",
   "accountLinkBannerText": "Gjatë ndarjes së një grupi, rekomandojmë fuqimisht të konfiguroni transferimin e llogarisë",
   "minimumDoseInterval": "Intervali midis dozave",
-  "minimumDoseIntervalDescription": "Koha minimale ndërmjet dozave",
+  "minimumDoseIntervalDescription": "Koha minimale nga doza e mëparshme",
   "minimumDoseIntervalNone": "Asnjë",
   "minimumDoseIntervalHoursFormat": "Të paktën {hours} orë",
   "doseIntervalWarningTitle": "Intervali ndërmjet dozave ende nuk ka kaluar",

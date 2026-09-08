@@ -223,7 +223,7 @@
   "accountLinkedSnackbar": "Hisob ko‘chirildi",
   "accountLinkBannerText": "Guruhni ulashayotganingizda, akkauntni ko‘chirishni sozlashingizni qat’iy tavsiya qilamiz",
   "minimumDoseInterval": "Qabul qilish oralig‘i",
-  "minimumDoseIntervalDescription": "Qabul qilishlar orasidagi minimal vaqt",
+  "minimumDoseIntervalDescription": "Oldingi dozadan keyin o‘tishi kerak bo‘lgan minimal vaqt",
   "minimumDoseIntervalNone": "Yo‘q",
   "minimumDoseIntervalHoursFormat": "Kamida {hours} soat",
   "doseIntervalWarningTitle": "Dozalar orasidagi vaqt hali o‘tmagan",

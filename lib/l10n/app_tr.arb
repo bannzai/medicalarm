@@ -223,7 +223,7 @@
   "accountLinkedSnackbar": "Hesap aktarıldı",
   "accountLinkBannerText": "Grup paylaşımı sırasında hesap aktarımını ayarlamanızı önemle tavsiye ederiz",
   "minimumDoseInterval": "Doz aralığı",
-  "minimumDoseIntervalDescription": "Dozlar arasında bırakılması gereken minimum süre",
+  "minimumDoseIntervalDescription": "Önceki dozadan sonra geçmesi gereken minimum süre",
   "minimumDoseIntervalNone": "Yok",
   "minimumDoseIntervalHoursFormat": "En az {hours} saat",
   "doseIntervalWarningTitle": "Dozlar arasındaki süre henüz dolmadı",

@@ -223,7 +223,7 @@
   "accountLinkedSnackbar": "Conta transferida",
   "accountLinkBannerText": "Mentres compartes un grupo, recomendamos encarecidamente configurar a transferencia da conta",
   "minimumDoseInterval": "Intervalo entre doses",
-  "minimumDoseIntervalDescription": "Tempo mínimo entre as doses",
+  "minimumDoseIntervalDescription": "Tempo mínimo entre doses",
   "minimumDoseIntervalNone": "Ningún",
   "minimumDoseIntervalHoursFormat": "Polo menos {hours} horas",
   "doseIntervalWarningTitle": "O intervalo entre as doses aínda non transcorreu",

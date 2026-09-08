@@ -223,7 +223,7 @@
   "accountLinkedSnackbar": "Ο λογαριασμός μεταφέρθηκε",
   "accountLinkBannerText": "Κατά την κοινή χρήση μιας ομάδας, συνιστούμε ανεπιφύλακτα να ρυθμίσετε τη μεταφορά λογαριασμού",
   "minimumDoseInterval": "Διάστημα μεταξύ δόσεων",
-  "minimumDoseIntervalDescription": "Ελάχιστος χρόνος μεταξύ των δόσεων",
+  "minimumDoseIntervalDescription": "Ελάχιστο διάστημα από την προηγούμενη δόση",
   "minimumDoseIntervalNone": "Κανένα",
   "minimumDoseIntervalHoursFormat": "Τουλάχιστον {hours} ώρες",
   "doseIntervalWarningTitle": "Το διάστημα μεταξύ των δόσεων δεν έχει παρέλθει",

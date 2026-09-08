@@ -223,7 +223,7 @@
   "accountLinkedSnackbar": "ಖಾತೆಯನ್ನು ವರ್ಗಾಯಿಸಲಾಗಿದೆ",
   "accountLinkBannerText": "ಗುಂಪನ್ನು ಹಂಚಿಕೊಳ್ಳುವಾಗ, ಖಾತೆ ವರ್ಗಾವಣೆಯನ್ನು ಸೆಟಪ್ ಮಾಡಲು ನಾವು ಬಲವಾಗಿ ಶಿಫಾರಸು ಮಾಡುತ್ತೇವೆ",
   "minimumDoseInterval": "ಡೋಸ್‌ಗಳ ನಡುವಿನ ಅಂತರ",
-  "minimumDoseIntervalDescription": "ಡೋಸ್‌ಗಳ ನಡುವೆ ಇರಬೇಕಾದ ಕನಿಷ್ಠ ಸಮಯ",
+  "minimumDoseIntervalDescription": "ಹಿಂದಿನ ಡೋಸ್‌ನ ನಂತರ ಕಾಯಬೇಕಾದ ಕನಿಷ್ಠ ಸಮಯ",
   "minimumDoseIntervalNone": "ಯಾವುದೂ ಇಲ್ಲ",
   "minimumDoseIntervalHoursFormat": "ಕನಿಷ್ಠ {hours} ಗಂಟೆಗಳು",
   "doseIntervalWarningTitle": "ಔಷಧಿ ಸೇವನೆಯ ನಡುವಿನ ಅವಧಿ ಇನ್ನೂ ಪೂರ್ಣಗೊಂಡಿಲ್ಲ",

@@ -223,7 +223,7 @@
   "accountLinkedSnackbar": "Обліковий запис перенесено",
   "accountLinkBannerText": "Під час спільного використання групи наполегливо радимо налаштувати перенесення облікового запису",
   "minimumDoseInterval": "Інтервал між прийомами",
-  "minimumDoseIntervalDescription": "Мінімальний інтервал між прийомами",
+  "minimumDoseIntervalDescription": "Мінімальний інтервал після попереднього прийому",
   "minimumDoseIntervalNone": "Немає",
   "minimumDoseIntervalHoursFormat": "Не менше ніж {hours} год",
   "doseIntervalWarningTitle": "Інтервал між прийомами ще не минув",

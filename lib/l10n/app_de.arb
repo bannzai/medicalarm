@@ -223,7 +223,7 @@
   "accountLinkedSnackbar": "Konto übertragen",
   "accountLinkBannerText": "Beim Teilen einer Gruppe empfehlen wir dringend, die Kontoübertragung einzurichten",
   "minimumDoseInterval": "Einnahmeabstand",
-  "minimumDoseIntervalDescription": "Mindestabstand zwischen den Einnahmen",
+  "minimumDoseIntervalDescription": "Mindestabstand zur letzten Einnahme",
   "minimumDoseIntervalNone": "Keine",
   "minimumDoseIntervalHoursFormat": "Mindestens {hours} Stunden",
   "doseIntervalWarningTitle": "Der Einnahmeabstand ist noch nicht verstrichen",
