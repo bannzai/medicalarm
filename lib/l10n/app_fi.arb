@@ -192,7 +192,7 @@
   "defaultGroupBadge": "Oletus",
   "soloGroupName": "Omat ryhmät",
   "joinWithInvitationCode": "Liity kutsukoodilla",
-  "groupCreationLimitReached": "Et voi luoda enempää ryhmiä ilmaisella paketilla",
+  "groupCreationLimitReached": "Et voi luoda enempää ryhmiä maksuttomalla paketilla.",
   "increaseGroupLimitWithPremium": "Premium-tilauksella voit luoda lisää ryhmiä",
   "invitationCode": "Kutsukoodi",
   "invitationCodeShareDescription": "Kutsu jäseniä jakamalla tämä koodi",

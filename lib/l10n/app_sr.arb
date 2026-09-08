@@ -192,7 +192,7 @@
   "defaultGroupBadge": "Подразумевано",
   "soloGroupName": "Моје групе",
   "joinWithInvitationCode": "Придружите се помоћу кода позивнице",
-  "groupCreationLimitReached": "На бесплатном плану не можете да креирате још група",
+  "groupCreationLimitReached": "На бесплатном плану не можете да креирате више група.",
   "increaseGroupLimitWithPremium": "Uz Premium plan možete da kreirate dodatne grupe",
   "invitationCode": "Позивни код",
   "invitationCodeShareDescription": "Поделите овај код да бисте позвали чланове",

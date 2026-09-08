@@ -192,7 +192,7 @@
   "defaultGroupBadge": "Standard",
   "soloGroupName": "Mina grupper",
   "joinWithInvitationCode": "Gå med med inbjudningskod",
-  "groupCreationLimitReached": "Du kan inte skapa fler grupper i gratisplanen",
+  "groupCreationLimitReached": "Du kan inte skapa fler grupper med gratisplanen.",
   "increaseGroupLimitWithPremium": "Med Premium-planen kan du skapa fler grupper",
   "invitationCode": "Inbjudningskod",
   "invitationCodeShareDescription": "Dela den här koden för att bjuda in medlemmar",
