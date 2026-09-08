@@ -131,7 +131,7 @@
   "purchaseErrorRestoreFailed": "Non sono state trovate informazioni sull’acquisto precedente. Controlla il tuo account e riprova",
   "purchaseErrorUserNotFound": "Non è stato possibile verificare l’utente. Riavvia l’app e riprova. Dettagli: {message}",
   "purchaseErrorActivationPending": "L’attivazione dell’abbonamento non è completata. Controlla di nuovo più tardi.",
-  "purchaseErrorTimeout": "Timeout scaduto. Controlla le condizioni di rete e riprova. Se il problema persiste, contattaci tramite Impostazioni > Assistenza. Dettagli: {message}",
+  "purchaseErrorTimeout": "Si è verificato un timeout. Controlla la connessione di rete e riprova. Se il problema persiste, contattaci da Impostazioni > Contatti. Dettagli: {message}",
   "purchaseErrorNetworkError": "C'è un problema di connessione. Controlla l'ambiente di rete e riprova. Se il problema persiste, contattaci tramite Impostazioni > Contattaci. Dettagli: {message}",
   "sixMonthPlan": "Piano di 6 mesi",
   "premiumContractPeriod": "Il periodo di contratto è di un mese a partire dalla data di acquisto.",

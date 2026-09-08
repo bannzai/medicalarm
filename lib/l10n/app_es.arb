@@ -131,7 +131,7 @@
   "purchaseErrorRestoreFailed": "No se encontró la información de la compra anterior. Comprueba tu cuenta y vuelve a intentarlo",
   "purchaseErrorUserNotFound": "No se ha podido verificar al usuario. Reinicia la aplicación y vuelve a intentarlo. Detalles: {message}",
   "purchaseErrorActivationPending": "La activación de la suscripción no se ha completado. Vuelve a comprobarlo más tarde.",
-  "purchaseErrorTimeout": "Se ha agotado el tiempo de espera. Por favor, verifique su entorno de red y vuelva a intentarlo. Si el problema persiste, comuníquese a través de Configuración > Consulta. Detalles: {message}",
+  "purchaseErrorTimeout": "Se agotó el tiempo de espera. Comprueba tu conexión de red y vuelve a intentarlo. Si el problema persiste, contáctanos desde Ajustes > Contacto. Detalles: {message}",
   "purchaseErrorNetworkError": "Hay un problema de conexión. Verifique su entorno de comunicación y vuelva a intentarlo. Si el problema persiste, contáctenos a través de Configuración > Consulta. Detalles: {message}",
   "sixMonthPlan": "Plan de 6 meses",
   "premiumContractPeriod": "El periodo de contrato es de 1 mes a partir de la fecha de compra.",

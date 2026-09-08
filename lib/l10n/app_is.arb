@@ -131,7 +131,7 @@
   "purchaseErrorRestoreFailed": "Upplýsingar um fyrri kaup fundust ekki. Athugaðu reikninginn þinn og reyndu aftur",
   "purchaseErrorUserNotFound": "Ekki tókst að staðfesta notandann. Endurræstu appið og reyndu aftur. Upplýsingar: {message}",
   "purchaseErrorActivationPending": "Virkjun áskriftar er ekki lokið. Athugaðu aftur síðar.",
-  "purchaseErrorTimeout": "Tími rann út. Vinsamlegast athugaðu tengingarvæði þitt og reyndu aftur. Ef vandamálið er ekki leyst skaltu hafa samband við okkur í Stillingar > Fyrirspurn. Nánari upplýsingar: {message}",
+  "purchaseErrorTimeout": "Tíminn rann út. Athugaðu nettenginguna og reyndu aftur. Ef vandamálið leysist ekki skaltu hafa samband við okkur í Stillingar > Hafðu samband. Upplýsingar: {message}",
   "purchaseErrorNetworkError": "Tengingarvillur. Vinsamlegast athugaðu tengingarumhverfið þitt og reyndu aftur. Ef vandamálið leysist ekki vinsamlegast hafðu samband við okkur í Stillingar > Fyrirspurn. Nánari upplýsingar: {message}",
   "sixMonthPlan": "6 mánaáætlun",
   "premiumContractPeriod": "Samningstíminn er einn mánuður frá kaupdegi.",

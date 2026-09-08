@@ -131,7 +131,7 @@
   "purchaseErrorRestoreFailed": "Não foram encontradas informações sobre a compra anterior. Verifique a sua conta e tente novamente",
   "purchaseErrorUserNotFound": "Não foi possível verificar o utilizador. Reinicie a aplicação e tente novamente. Detalhes: {message}",
   "purchaseErrorActivationPending": "A ativação da subscrição não foi concluída. Verifique novamente mais tarde.",
-  "purchaseErrorTimeout": "O tempo limite foi atingido. Verifique o ambiente de comunicação e tente novamente. Se o problema persistir, entre em contato através de Configurações > Consultas. Detalhes: {message}",
+  "purchaseErrorTimeout": "O tempo limite foi excedido. Verifique a sua ligação de rede e tente novamente. Se o problema persistir, contacte-nos em Definições > Contacto. Detalhes: {message}",
   "purchaseErrorNetworkError": "Houve um erro de comunicação. Verifique o ambiente de rede e tente novamente. Se o problema persistir, entre em contato através de Configurações > Contato. Detalhes: {message}",
   "sixMonthPlan": "Plano de 6 meses",
   "premiumContractPeriod": "O período de contrato é de 1 mês a partir da data de compra.",

@@ -131,7 +131,7 @@
   "purchaseErrorRestoreFailed": "Інформацію про попередню покупку не знайдено. Перевірте обліковий запис і спробуйте ще раз",
   "purchaseErrorUserNotFound": "Не вдалося підтвердити користувача. Перезапустіть застосунок і спробуйте ще раз. Докладніше: {message}",
   "purchaseErrorActivationPending": "Активацію підписки ще не завершено. Перевірте ще раз пізніше.",
-  "purchaseErrorTimeout": "The operation timed out. Please check your communication environment and try again. If the issue persists, please contact us via Settings > inquiries. Details: {message}",
+  "purchaseErrorTimeout": "Час очікування минув. Перевірте підключення до мережі й спробуйте ще раз. Якщо проблема не зникне, зв’яжіться з нами через Налаштування > Контакти. Подробиці: {message}",
   "purchaseErrorNetworkError": "There is a communication error. Please check your network environment and try again. If the issue persists, please contact us via Settings > Inquiry. Details: {message}",
   "sixMonthPlan": "6-month plan",
   "premiumContractPeriod": "The contract period is one month from the date of purchase.",

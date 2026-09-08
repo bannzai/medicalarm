@@ -131,7 +131,7 @@
   "purchaseErrorRestoreFailed": "Les informations de l’achat précédent sont introuvables. Vérifiez votre compte et réessayez",
   "purchaseErrorUserNotFound": "Impossible de vérifier l’utilisateur. Redémarrez l’app et réessayez. Détails : {message}",
   "purchaseErrorActivationPending": "L’activation de l’abonnement n’est pas terminée. Veuillez vérifier à nouveau plus tard.",
-  "purchaseErrorTimeout": "Le délai a expiré. Veuillez vérifier votre connexion et réessayer. Si le problème persiste, veuillez nous contacter via Paramètres > Contactez-nous. Détails : {message}",
+  "purchaseErrorTimeout": "Le délai d’attente a été dépassé. Vérifiez votre connexion réseau, puis réessayez. Si le problème persiste, contactez-nous via Réglages > Contact. Détails : {message}",
   "purchaseErrorNetworkError": "Il y a un problème de connexion. Veuillez vérifier votre environnement de connexion et réessayez. Si le problème persiste, veuillez nous contacter via Paramètres > Contacter. Détails : {message}",
   "sixMonthPlan": "Plan de 6 mois",
   "premiumContractPeriod": "La période de contrat est de 1 mois à partir de la date d'achat.",

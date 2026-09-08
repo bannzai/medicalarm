@@ -131,7 +131,7 @@
   "purchaseErrorRestoreFailed": "이전 구매 정보를 찾을 수 없습니다. 계정을 확인한 후 다시 시도해 주세요",
   "purchaseErrorUserNotFound": "사용자를 확인할 수 없습니다. 앱을 다시 시작한 후 다시 시도해 주세요. 세부 정보: {message}",
   "purchaseErrorActivationPending": "구독 활성화가 완료되지 않았습니다. 잠시 후 다시 확인해 주세요.",
-  "purchaseErrorTimeout": "타임아웃되었습니다. 통신 환경을 확인한 후 다시 시도해 주십시오. 문제가 해결되지 않는 경우 설정 > 문의하기에서 문의해 주십시오. 상세: {message}",
+  "purchaseErrorTimeout": "시간이 초과되었습니다. 네트워크 연결을 확인한 후 다시 시도해 주세요. 문제가 계속되면 설정 > 문의하기에서 문의해 주세요. 세부 정보: {message}",
   "purchaseErrorNetworkError": "통신 오류입니다. 통신 환경을 확인한 후 다시 시도해 주십시오. 문제가 해결되지 않으면 설정 > 문의로 문의해 주십시오. 자세한 내용: {message}",
   "sixMonthPlan": "6개월 플랜",
   "premiumContractPeriod": "계약 기간은 구매일로부터 1개월입니다.",

@@ -131,7 +131,7 @@
   "purchaseErrorRestoreFailed": "Informasjon om tidligere kjøp ble ikke funnet. Sjekk kontoen din og prøv igjen",
   "purchaseErrorUserNotFound": "Brukeren kunne ikke bekreftes. Start appen på nytt og prøv igjen. Detaljer: {message}",
   "purchaseErrorActivationPending": "Aktiveringen av abonnementet er ikke fullført. Sjekk igjen senere.",
-  "purchaseErrorTimeout": "Tiden er ute. Vennligst sjekk kommunikasjonsmiljøet ditt og prøv igjen. Hvis det ikke løser seg, vennligst kontakt oss via Innstillinger > Spørsmål. Detaljer: {message}",
+  "purchaseErrorTimeout": "Tidsavbrudd. Kontroller nettverkstilkoblingen og prøv igjen. Hvis problemet vedvarer, kan du kontakte oss via Innstillinger > Kontakt. Detaljer: {message}",
   "purchaseErrorNetworkError": "Det er et nettverksproblem. Vennligst sjekk nettverksforholdene dine og prøv igjen. Hvis problemet vedvarer, vennligst kontakt oss via Innstillinger > Forespørsel. Detaljer: {message}",
   "sixMonthPlan": "6 måneders plan",
   "premiumContractPeriod": "Kontraktsperioden varer i 1 måned fra kjøpsdato.",

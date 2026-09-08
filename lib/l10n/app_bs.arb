@@ -131,7 +131,7 @@
   "purchaseErrorRestoreFailed": "Podaci o prethodnoj kupovini nisu pronađeni. Provjerite svoj račun i pokušajte ponovo",
   "purchaseErrorUserNotFound": "Korisnik nije mogao biti potvrđen. Ponovo pokrenite aplikaciju i pokušajte ponovo. Detalji: {message}",
   "purchaseErrorActivationPending": "Aktivacija pretplate nije završena. Provjerite ponovo nakon nekog vremena.",
-  "purchaseErrorTimeout": "Isteklo je vreme. Proverite vaše komunikacijsko okruženje i pokušajte ponovo. Ako se problem ne reši, kontaktirajte nas putem Podešavanja > Upit. Detalji: {message}",
+  "purchaseErrorTimeout": "Isteklo je vrijeme. Provjerite mrežnu vezu i pokušajte ponovo. Ako problem ne bude riješen, kontaktirajte nas putem Postavke > Kontakt. Detalji: {message}",
   "purchaseErrorNetworkError": "Došlo je do greške u komunikaciji. Provjerite svoje komunikacijsko okruženje i pokušajte ponovo. Ako se problem ne riješi, obratite se putem Postavke > Upit. Detalji: {message}",
   "sixMonthPlan": "6-mjesečni plan",
   "premiumContractPeriod": "Ugovor je na snazi od datuma kupovine na period od 1 mjeseca.",

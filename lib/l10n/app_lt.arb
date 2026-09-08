@@ -131,7 +131,7 @@
   "purchaseErrorRestoreFailed": "Ankstesnio pirkimo informacija nerasta. Patikrinkite savo paskyrą ir bandykite dar kartą",
   "purchaseErrorUserNotFound": "Nepavyko patvirtinti naudotojo. Paleiskite programėlę iš naujo ir bandykite dar kartą. Išsami informacija: {message}",
   "purchaseErrorActivationPending": "Prenumeratos aktyvinimas nebaigtas. Patikrinkite dar kartą vėliau.",
-  "purchaseErrorTimeout": "Laikas pasibaigė. Patikrinkite ryšio sąlygas ir bandykite dar kartą. Jei problema išlieka, užsukite į Nustatymai > Kontaktai ir susisiekite. Išsami informacija: {message}",
+  "purchaseErrorTimeout": "Baigėsi skirtasis laikas. Patikrinkite tinklo ryšį ir bandykite dar kartą. Jei problema neišsisprendžia, susisiekite su mumis per Nustatymai > Kontaktai. Išsami informacija: {message}",
   "purchaseErrorNetworkError": "Yra ryšio problema. Patikrinkite ryšių aplinką ir bandykite dar kartą. Jei problema neišspręsta, kreipkitės į mus per Nustatymai > Klausimai. Išsamesnė informacija: {message}",
   "sixMonthPlan": "6 mėnesių planas",
   "premiumContractPeriod": "Apskaitos laikotarpis yra 1 mėnuo nuo pirkimo datos.",

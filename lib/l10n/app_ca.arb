@@ -131,7 +131,7 @@
   "purchaseErrorRestoreFailed": "No s'ha trobat la informació de la compra anterior. Comprova el compte i torna-ho a provar",
   "purchaseErrorUserNotFound": "No s'ha pogut verificar l'usuari. Reinicieu l'aplicació i torneu-ho a provar. Detalls: {message}",
   "purchaseErrorActivationPending": "L’activació de la subscripció no s’ha completat. Torneu-ho a comprovar més tard.",
-  "purchaseErrorTimeout": "El temps d'espera ha caducat. Si us plau, comproveu la vostra connexió i torneu a probar-ho. Si no es resol, poseu-vos en contacte amb nosaltres a Configuració > Consultes. Detalls: {message}",
+  "purchaseErrorTimeout": "S’ha esgotat el temps d’espera. Comprova la connexió de xarxa i torna-ho a provar. Si el problema persisteix, contacta amb nosaltres des d’Configuració > Contacte. Detalls: {message}",
   "purchaseErrorNetworkError": "Hi ha un error de connexió. Si us plau, comproveu el vostre entorn de connexió i torneu a provar-ho. Si el problema persisteix, poseu-vos en contacte amb nosaltres a Configuració > Consultes. Detall: {message}",
   "sixMonthPlan": "Plaça de 6 mesos",
   "premiumContractPeriod": "El període de contracte és d'un mes a partir de la data d'adquisició.",

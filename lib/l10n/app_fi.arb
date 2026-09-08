@@ -131,7 +131,7 @@
   "purchaseErrorRestoreFailed": "Aiemman ostoksen tietoja ei löytynyt. Tarkista tilisi ja yritä uudelleen",
   "purchaseErrorUserNotFound": "Käyttäjää ei voitu vahvistaa. Käynnistä sovellus uudelleen ja yritä uudelleen. Tiedot: {message}",
   "purchaseErrorActivationPending": "Tilauksen aktivointi ei ole vielä valmis. Tarkista tilanne myöhemmin uudelleen.",
-  "purchaseErrorTimeout": "Aikakatkaisu tapahtui. Tarkista verkkoyhteytesi ja yritä uudelleen. Jos ongelma ei ratkeudu, ota yhteyttä kohtaan Asetukset > Ota yhteyttä. Yksityiskohdat: {message}",
+  "purchaseErrorTimeout": "Aikakatkaisu. Tarkista verkkoyhteytesi ja yritä uudelleen. Jos ongelma jatkuu, ota meihin yhteyttä kohdassa Asetukset > Ota yhteyttä. Lisätiedot: {message}",
   "purchaseErrorNetworkError": "Verkkoyhteys on huono. Tarkista internet-yhteytesi ja yritä uudelleen. Jos ongelma ei ratkea, ota yhteyttä asetusten kautta > Ota yhteyttä. Yksityiskohdat: {message}",
   "sixMonthPlan": "6 kuukauden suunnitelma",
   "premiumContractPeriod": "Sopimuskausi on ostopäivästä yksi kuukausi.",

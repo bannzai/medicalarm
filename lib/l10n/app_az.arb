@@ -131,7 +131,7 @@
   "purchaseErrorRestoreFailed": "Əvvəlki alış məlumatları tapılmadı. Hesabınızı yoxlayın və yenidən cəhd edin",
   "purchaseErrorUserNotFound": "İstifadəçi təsdiqlənə bilmədi. Tətbiqi yenidən başladın və yenidən cəhd edin. Təfərrüatlar: {message}",
   "purchaseErrorActivationPending": "Abunəliyin aktivləşdirilməsi tamamlanmayıb. Zəhmət olmasa, bir müddət sonra yenidən yoxlayın.",
-  "purchaseErrorTimeout": "Timeout oldu. Xahiş edirik, əlaqə mühitinizi yoxlayın və yenidən cəhd edin. Hələ də problem yaranarsa, Ayarlar > Əlaqə bölməsindən bizimlə əlaqə saxlayın. Ətraflı: {message}",
+  "purchaseErrorTimeout": "Vaxt bitdi. Şəbəkə bağlantınızı yoxlayın və yenidən cəhd edin. Problem həll olunmasa, Parametrlər > Əlaqə bölməsindən bizimlə əlaqə saxlayın. Təfərrüatlar: {message}",
   "purchaseErrorNetworkError": "Şəbəkə qalxanında nasazlıq var. Şəbəkə şərtlərini yoxlayın və yenidən cəhd edin. Hələ də həll olunmursa, ayarlar > Əlaqə bölməsindən bizimlə əlaqə saxlayın. Ətraflı: {message}",
   "sixMonthPlan": "6 ay planı",
   "premiumContractPeriod": "Müqavilə müddəti alış tarixindən başlayaraq 1 aydır.",

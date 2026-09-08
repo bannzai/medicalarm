@@ -131,7 +131,7 @@
   "purchaseErrorRestoreFailed": "Information om det tidigare köpet hittades inte. Kontrollera ditt konto och försök igen",
   "purchaseErrorUserNotFound": "Det gick inte att verifiera användaren. Starta om appen och försök igen. Information: {message}",
   "purchaseErrorActivationPending": "Aktiveringen av prenumerationen är inte slutförd. Kontrollera igen senare.",
-  "purchaseErrorTimeout": "Tidtimeout. Kontrollera din anslutning och försök igen. Om problemet kvarstår, vänligen kontakta oss via Inställningar > Frågor. Detaljer: {message}",
+  "purchaseErrorTimeout": "Tidsgränsen överskreds. Kontrollera nätverksanslutningen och försök igen. Om problemet kvarstår kan du kontakta oss via Inställningar > Kontakt. Detaljer: {message}",
   "purchaseErrorNetworkError": "Det är ett kommunikationsfel. Kontrollera din anslutningsmiljö och försök igen. Om problemet kvarstår, kontakta oss via Inställningar > Kontakta oss. Detaljer: {message}",
   "sixMonthPlan": "6 månaders plan",
   "premiumContractPeriod": "Kontraktets löptid är en månad från inköpsdatumet.",

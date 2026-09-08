@@ -131,7 +131,7 @@
   "purchaseErrorRestoreFailed": "Informacioni për blerjen e mëparshme nuk u gjet. Kontrolloni llogarinë tuaj dhe provoni përsëri",
   "purchaseErrorUserNotFound": "Përdoruesi nuk mund të verifikohej. Rinisni aplikacionin dhe provo përsëri. Detaje: {message}",
   "purchaseErrorActivationPending": "Aktivizimi i abonimit nuk ka përfunduar. Kontrollojeni përsëri më vonë.",
-  "purchaseErrorTimeout": "Keni në kohë për të dalë. Kontrolloni ambientin tuaj të komunikimit dhe provoni përsëri. Nëse problemi vazhdon, ju lutemi kontaktoni në Caktimet > Kërkesa. Detajet: {message}",
+  "purchaseErrorTimeout": "Koha mbaroi. Kontrolloni lidhjen me rrjetin dhe provoni përsëri. Nëse problemi vazhdon, na kontaktoni te Cilësimet > Kontakti. Detaje: {message}",
   "purchaseErrorNetworkError": "Ka kaqenë lëvizjet. Ju lutemi kontrolloni ambientin e komunikimit dhe provoni përsëri. Nëse problemi vazhdon, ju lutemi kontaktoni përmes cilësimeve > Kërkesë. Detajet: {message}",
   "sixMonthPlan": "Plani 6-mujor",
   "premiumContractPeriod": "Periudha e kontratës është nga data e blerjes deri në 1 muaj.",

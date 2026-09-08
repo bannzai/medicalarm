@@ -131,7 +131,7 @@
   "purchaseErrorRestoreFailed": "Informace o předchozím nákupu nebyly nalezeny. Zkontrolujte svůj účet a zkuste to znovu",
   "purchaseErrorUserNotFound": "Uživatele se nepodařilo ověřit. Restartujte aplikaci a zkuste to znovu. Podrobnosti: {message}",
   "purchaseErrorActivationPending": "Aktivace předplatného nebyla dokončena. Zkontrolujte to prosím později.",
-  "purchaseErrorTimeout": "Časový limit vypršel. Zkontrolujte prosím své připojení a zkuste to znovu. Pokud problém přetrvává, kontaktujte nás pomocí Nastavení > Dotaz. Podrobnosti: {message}",
+  "purchaseErrorTimeout": "Vypršel časový limit. Zkontrolujte připojení k síti a zkuste to znovu. Pokud problém přetrvá, kontaktujte nás přes Nastavení > Kontakt. Podrobnosti: {message}",
   "purchaseErrorNetworkError": "Došlo k chybě v komunikaci. Zkontrolujte prosím své připojení k síti a zkuste to znovu. Pokud problém přetrvává, obraťte se na nás přes Nastavení > Dotazy. Podrobnosti: {message}",
   "sixMonthPlan": "6měsíční plán",
   "premiumContractPeriod": "Doba trvání smlouvy je 1 měsíc od data zakoupení.",

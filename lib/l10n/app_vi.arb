@@ -131,7 +131,7 @@
   "purchaseErrorRestoreFailed": "Không tìm thấy thông tin mua hàng trước đó. Hãy kiểm tra tài khoản và thử lại",
   "purchaseErrorUserNotFound": "Không thể xác minh người dùng. Hãy khởi động lại ứng dụng rồi thử lại. Chi tiết: {message}",
   "purchaseErrorActivationPending": "Quá trình kích hoạt gói đăng ký chưa hoàn tất. Vui lòng kiểm tra lại sau.",
-  "purchaseErrorTimeout": "Yêu cầu đã hết thời gian chờ. Vui lòng kiểm tra lại môi trường kết nối và thử lại. Nếu vấn đề không được giải quyết, vui lòng liên hệ thông qua Cài đặt > Liên hệ. Chi tiết: {message}",
+  "purchaseErrorTimeout": "Đã hết thời gian chờ. Hãy kiểm tra kết nối mạng và thử lại. Nếu sự cố vẫn tiếp diễn, hãy liên hệ với chúng tôi tại Cài đặt > Liên hệ. Chi tiết: {message}",
   "purchaseErrorNetworkError": "Có lỗi kết nối. Vui lòng kiểm tra môi trường kết nối và thử lại. Nếu vấn đề không được giải quyết, hãy liên hệ với chúng tôi qua Cài đặt > Liên hệ. Chi tiết: {message}.",
   "sixMonthPlan": "Gói 6 tháng",
   "premiumContractPeriod": "Thời gian hợp đồng là 1 tháng kể từ ngày mua.",
