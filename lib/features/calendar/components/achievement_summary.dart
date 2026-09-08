@@ -35,7 +35,7 @@ class CalendarAchievementSummary extends HookConsumerWidget {
 
     final monthlyCounts = monthlyMedicationCounts(
       medicines: medicines,
-      medicationHistories: medicationHistories,
+      takeDoseKeysByDate: effectiveTakeDoseKeysByDate(medicationHistories),
       month: displayedMonth,
       today: today(),
     );

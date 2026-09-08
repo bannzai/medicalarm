@@ -1182,7 +1182,7 @@
   },
   "achievementMonthlyRateLabel": "{month}の達成率",
   "@achievementMonthlyRateLabel": {
-    "description": "カレンダー画面で、表示中の月の服薬達成率を表すラベル",
+    "description": "カレンダー画面で、表示中の月の服薬達成率を表すラベル。{month} には DateFormat.MONTH が返す辞書形(主格)の月名がそのまま入り、格変化させられない。月名の格変化が必要な言語では、コロンや語順で {month} を独立させ、屈折を要求しない表現にする (例: 達成率: {month})",
     "placeholders": {
       "month": {
         "type": "String",

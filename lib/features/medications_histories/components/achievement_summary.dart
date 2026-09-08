@@ -32,7 +32,9 @@ class MedicationAchievementSummary extends HookConsumerWidget {
       return const SizedBox.shrink();
     }
 
-    final weeklyCounts = weeklyMedicationCounts(medicines: medicines, medicationHistories: medicationHistories, date: today());
+    // 今週の集計と連続記録で同じ索引を使い、1 回の描画で服薬記録を 2 度走査しない
+    final takeDoseKeysByDate = effectiveTakeDoseKeysByDate(medicationHistories);
+    final weeklyCounts = weeklyMedicationCounts(medicines: medicines, takeDoseKeysByDate: takeDoseKeysByDate, date: today());
     return Row(
       children: [
         Expanded(
@@ -46,7 +48,7 @@ class MedicationAchievementSummary extends HookConsumerWidget {
         Expanded(
           child: MedicationAchievementCard(
             label: L.achievementStreakLabel,
-            value: '${consecutiveAchievedDaysCount(medicines: medicines, medicationHistories: medicationHistories, today: today())}',
+            value: '${consecutiveAchievedDaysCount(medicines: medicines, takeDoseKeysByDate: takeDoseKeysByDate, today: today())}',
             valueSuffix: L.achievementStreakDaysSuffix,
           ),
         ),

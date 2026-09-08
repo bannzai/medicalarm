@@ -105,15 +105,17 @@ DayMedicationAchievement? dayMedicationAchievement({
 }
 
 /// [date] を含む週(日曜始まり)の服薬回数と予定回数 (#278)。
-/// 予定回数は未来の曜日も含めた週全体の合計で、「今週の服薬 x/y 回」の分母になる
+/// 予定回数は未来の曜日も含めた週全体の合計で、「今週の服薬 x/y 回」の分母になる。
+/// 服用記録は [effectiveTakeDoseKeysByDate] で索引化したものを受け取る。同じ画面で複数の集計を並べる
+/// 呼び出し元が、集計ごとに全履歴を走査し直さずに同じ索引を使い回せるようにするため
 ({int takenCount, int scheduledCount}) weeklyMedicationCounts({
   required List<Medicine> medicines,
-  required List<MedicationHistory> medicationHistories,
+  required Map<DateTime, Set<String>> takeDoseKeysByDate,
   required DateTime date,
 }) {
   return _medicationCountsInDateRange(
     medicines: medicines,
-    medicationHistories: medicationHistories,
+    takeDoseKeysByDate: takeDoseKeysByDate,
     startDate: firstDayOfWeekday(date.date()).date(),
     dayCount: 7,
   );
@@ -124,16 +126,13 @@ DayMedicationAchievement? dayMedicationAchievement({
 /// 予定が無い日は連続を切らず、日数にも数えない
 int consecutiveAchievedDaysCount({
   required List<Medicine> medicines,
-  required List<MedicationHistory> medicationHistories,
+  required Map<DateTime, Set<String>> takeDoseKeysByDate,
   required DateTime today,
 }) {
   final earliestBeganDate = medicines.map((medicine) => medicine.beganDateTime.date()).minOrNull;
   if (earliestBeganDate == null) {
     return 0;
   }
-
-  // 最大 [maxConsecutiveLookbackDays] 日分の日ループで全履歴を走査し直さないよう、索引はループの外で 1 度だけ作る
-  final takeDoseKeysByDate = effectiveTakeDoseKeysByDate(medicationHistories);
 
   var count = 0;
   final todayScheduledDoseKeys = scheduledDoseKeysOnDate(medicines: medicines, date: today);
@@ -168,7 +167,7 @@ int consecutiveAchievedDaysCount({
 /// 範囲が成立しない([month] が [today] より後、または保持期間より完全に古い)場合は集計対象が無いため (0, 0) を返す
 ({int takenCount, int scheduledCount}) monthlyMedicationCounts({
   required List<Medicine> medicines,
-  required List<MedicationHistory> medicationHistories,
+  required Map<DateTime, Set<String>> takeDoseKeysByDate,
   required DateTime month,
   required DateTime today,
 }) {
@@ -181,7 +180,7 @@ int consecutiveAchievedDaysCount({
   }
   return _medicationCountsInDateRange(
     medicines: medicines,
-    medicationHistories: medicationHistories,
+    takeDoseKeysByDate: takeDoseKeysByDate,
     startDate: startDate,
     dayCount: daysBetween(startDate, endDate) + 1,
   );
@@ -191,13 +190,10 @@ int consecutiveAchievedDaysCount({
 /// 服薬回数は日ごとにその日の予定と突き合わせてから合算する([_achievedDoseCountOnDate])
 ({int takenCount, int scheduledCount}) _medicationCountsInDateRange({
   required List<Medicine> medicines,
-  required List<MedicationHistory> medicationHistories,
+  required Map<DateTime, Set<String>> takeDoseKeysByDate,
   required DateTime startDate,
   required int dayCount,
 }) {
-  // 日ループの中で全履歴を走査し直さないよう、索引はループの外で 1 度だけ作る
-  final takeDoseKeysByDate = effectiveTakeDoseKeysByDate(medicationHistories);
-
   var takenCount = 0;
   var scheduledCount = 0;
   for (var offset = 0; offset < dayCount; offset++) {

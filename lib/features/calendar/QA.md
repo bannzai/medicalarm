@@ -94,7 +94,7 @@ AppBar「カレンダー」、月ナビゲーション「2026年8月」、曜日
 
 ## 5. 日別達成ドットと月間達成率（#278）
 
-検証方法: simtunnel（GitHub Actions runner 上のリモート iOS Simulator）で実機操作。テストデータ: 薬 Vitamin（毎日・2026/9/1 開始・10:00 スケジュール2件）、9/4・9/5 は 2/2 服用、9/3 は 1/2 服用、9/1・9/2 は未服用（検証日は 9/5）。
+検証方法: simtunnel（GitHub Actions runner 上のリモート iOS Simulator）で実機操作。テストデータ: 薬 Vitamin（毎日・2026/9/1 開始・10:00 スケジュール2件）、9/4・9/5 は 2/2 服用、9/3 は 1/2 服用、9/1・9/2 は未服用。シミュレータ上の当日は 9/5 で、記録日（下記の確認日）はその作業を記録した 9/6。「未来日」は当日 9/5 より後の 9/6 以降を指す。
 
 - [x] **月間達成率カード**: カレンダー上部に表示中の月の達成率（%）カードが表示される
 - [x] **凡例**: 達成率カード右側に All（全服用）/ Some（一部服用）/ None（未服用）の3色凡例が表示される
@@ -114,7 +114,7 @@ AppBar「カレンダー」、月ナビゲーション「2026年8月」、曜日
 
 **確認日: 2026-09-06**
 
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/09/06/0b04f061-3bc7-4046-8114-d7185b4b6e8d-sim7-07-calendar-final.png" width="320">
+<img alt="カレンダー画面。月間達成率カードに「Achievement in September 50%」と All / Some / None の凡例が表示され、9/1・9/2 に未服用ドット、9/3 に一部服用の輪郭ドット、9/4・9/5 に全服用の塗りつぶしドットが並ぶ" src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/09/06/0b04f061-3bc7-4046-8114-d7185b4b6e8d-sim7-07-calendar-final.png" width="320">
 
 2026年9月のカレンダー上部に「Achievement in September 50%」カードが表示された（9/1〜9/5 の予定 10 件中 5 件服用 = 50%）
 
@@ -126,7 +126,7 @@ AppBar「カレンダー」、月ナビゲーション「2026年8月」、曜日
 
 **確認日: 2026-09-06**
 
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/09/06/0b04f061-3bc7-4046-8114-d7185b4b6e8d-sim7-07-calendar-final.png" width="320">
+<img alt="カレンダー画面。月間達成率カードに「Achievement in September 50%」と All / Some / None の凡例が表示され、9/1・9/2 に未服用ドット、9/3 に一部服用の輪郭ドット、9/4・9/5 に全服用の塗りつぶしドットが並ぶ" src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/09/06/0b04f061-3bc7-4046-8114-d7185b4b6e8d-sim7-07-calendar-final.png" width="320">
 
 達成率カード右側に「● All / ○ Some / ● None」の3行の凡例が、それぞれ primary 塗り・primary 輪郭・薄い暖色で表示された
 
@@ -138,7 +138,7 @@ AppBar「カレンダー」、月ナビゲーション「2026年8月」、曜日
 
 **確認日: 2026-09-06**
 
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/09/06/0b04f061-3bc7-4046-8114-d7185b4b6e8d-sim7-07-calendar-final.png" width="320">
+<img alt="カレンダー画面。月間達成率カードに「Achievement in September 50%」と All / Some / None の凡例が表示され、9/1・9/2 に未服用ドット、9/3 に一部服用の輪郭ドット、9/4・9/5 に全服用の塗りつぶしドットが並ぶ" src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/09/06/0b04f061-3bc7-4046-8114-d7185b4b6e8d-sim7-07-calendar-final.png" width="320">
 
 9/4・9/5（全服用）に primary 塗りつぶしドット、9/3（1/2 服用）に primary 輪郭ドット、9/1・9/2（未服用）に薄い暖色ドットが表示された
 
@@ -150,7 +150,7 @@ AppBar「カレンダー」、月ナビゲーション「2026年8月」、曜日
 
 **確認日: 2026-09-06**
 
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/09/06/0b04f061-3bc7-4046-8114-d7185b4b6e8d-sim7-07-calendar-final.png" width="320">
+<img alt="カレンダー画面。月間達成率カードに「Achievement in September 50%」と All / Some / None の凡例が表示され、9/1・9/2 に未服用ドット、9/3 に一部服用の輪郭ドット、9/4・9/5 に全服用の塗りつぶしドットが並ぶ" src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/09/06/0b04f061-3bc7-4046-8114-d7185b4b6e8d-sim7-07-calendar-final.png" width="320">
 
 開始日 9/1 より前（8/30・8/31）と 9/6 以降の日付にはドットが表示されない（未来日を除外する修正 931aa0d 後の確認）
 
@@ -164,7 +164,7 @@ AppBar「カレンダー」、月ナビゲーション「2026年8月」、曜日
 
 非課金（匿名ユーザー）で 2026年8月へ移動すると、達成率カードが鍵アイコンと加入導線のリンクに置き換わり、日付タイルの達成ドットも表示されない
 
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/09/08/e35769ca-681f-4397-ba9d-f100d24c6a4f-sim9-08-calendar-past-gated.png" width="320">
+<img alt="非課金ユーザーで表示した 2026年8月のカレンダー画面。達成率カードの位置に鍵アイコンと「This feature is accessible with a premium plan subscription.」のリンクが表示され、日付タイルに達成ドットが無い" src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/09/08/e35769ca-681f-4397-ba9d-f100d24c6a4f-sim9-08-calendar-past-gated.png" width="320">
 
 </details>
 
@@ -176,7 +176,7 @@ AppBar「カレンダー」、月ナビゲーション「2026年8月」、曜日
 
 リンクをタップするとプレミアム紹介シート（特典一覧・月額 $2.99 / 年額 $22.99）が開く
 
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/09/08/590de0c8-11a1-44ef-9135-23446c8e2b28-sim9-09-premium-sheet.png" width="320">
+<img alt="プレミアム紹介シート。特典一覧（広告非表示・服薬履歴の全表示・登録数の上限緩和）と月額 $2.99 / 年額 $22.99 のプランが表示されている" src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/09/08/590de0c8-11a1-44ef-9135-23446c8e2b28-sim9-09-premium-sheet.png" width="320">
 
 </details>
 
@@ -188,7 +188,7 @@ AppBar「カレンダー」、月ナビゲーション「2026年8月」、曜日
 
 同じ非課金ユーザーで 2026年9月（今月）は「Achievement in September 12%」と凡例が表示され、9/1〜9/7 の未服用ドットと 9/8 の全服用ドットも表示される
 
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/09/08/14d1b47a-5919-4969-b9ba-31c72bbb181e-sim9-07-calendar-current.png" width="320">
+<img alt="非課金ユーザーで表示した 2026年9月（今月）のカレンダー画面。「Achievement in September 12%」の達成率カードと凡例が表示され、9/1〜9/7 に未服用ドット、9/8 に全服用ドットが並ぶ" src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/09/08/14d1b47a-5919-4969-b9ba-31c72bbb181e-sim9-07-calendar-current.png" width="320">
 
 </details>
 
@@ -200,7 +200,7 @@ AppBar「カレンダー」、月ナビゲーション「2026年8月」、曜日
 
 集計を「予定キーと服用キーの交差」方式へ変更したレビュー修正（96f02a7）の後、新しいテストデータ（9/6・9/5 = 2/2、9/4 = 1/2、9/1〜9/3 = 0/2）で全項目を再確認した。「Achievement in September 41%」（予定 12 件中 5 件服用）、3色凡例、9/1〜9/3 = 薄い暖色・9/4 = 輪郭・9/5・9/6 = 塗りつぶしのドット、9/7 以降と 8/30・31 のドット無しをすべて確認
 
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/09/06/47655960-0851-4567-919c-0ee4cbeaf81d-sim8-13-calendar.png" width="320">
+<img alt="レビュー修正後のカレンダー画面。月間達成率カードに「Achievement in September 41%」が表示され、9/1〜9/3 に未服用ドット、9/4 に一部服用の輪郭ドット、9/5・9/6 に全服用の塗りつぶしドットが並ぶ" src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/09/06/47655960-0851-4567-919c-0ee4cbeaf81d-sim8-13-calendar.png" width="320">
 
 </details>
 

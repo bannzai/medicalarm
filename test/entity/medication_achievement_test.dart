@@ -4,6 +4,7 @@ import 'package:medicalarm/entity/medication_achievement.dart';
 import 'package:medicalarm/entity/medication_frequency.dart';
 import 'package:medicalarm/entity/medication_history.dart';
 import 'package:medicalarm/entity/medicine.dart';
+import 'package:medicalarm/utils/date_time/date_time_ext.dart';
 import 'package:medicalarm/utils/date_time/weekday.dart';
 
 /// 服用時刻。1 日の予定回数は薬が持つスケジュールの件数で決まるため、複数回服用の薬は
@@ -235,6 +236,34 @@ void main() {
       expect(doseKeysByDate[DateTime(2026, 9, 10)], {'medicine-1/schedule-morning', 'medicine-1/schedule-evening'});
       expect(doseKeysByDate[DateTime(2026, 9, 11)], {'medicine-1/schedule-morning'});
     });
+
+    // 1 年分の記録(1日5回×365日)でも実用的な時間で終わることを確かめる。
+    // 打ち消し判定を記録ごとの全件走査で行うと記録数の 2 乗に比例し、画面の描画が同期的に止まる
+    test('1年分の記録でも取消の判定が現実的な時間で終わる', () {
+      final medicationHistories = [
+        for (var day = 0; day < 365; day++)
+          for (var scheduleIndex = 0; scheduleIndex < 5; scheduleIndex++)
+            buildTake(
+              id: 'take-$day-$scheduleIndex',
+              scheduledRecordedDate: DateTime(2026, 9, 10).addDays(-day),
+              schedule: MedicationSchedule(
+                id: 'schedule-$scheduleIndex',
+                hour: 8 + scheduleIndex,
+                minute: 0,
+                quantityMemo: '',
+                notificationSetting: morningSchedule.notificationSetting,
+                focusConnectSetting: null,
+              ),
+            ),
+      ];
+
+      final stopwatch = Stopwatch()..start();
+      final doseKeysByDate = effectiveTakeDoseKeysByDate(medicationHistories);
+      stopwatch.stop();
+
+      expect(doseKeysByDate.length, 365);
+      expect(stopwatch.elapsed, lessThan(const Duration(seconds: 1)));
+    });
   });
 
   // #278: カレンダーの達成ドットが表す、その日の達成状態
@@ -317,12 +346,12 @@ void main() {
       // 2026-09-06(日)〜2026-09-12(土) の週。水曜の 2026-09-09 を基準日にする
       final counts = weeklyMedicationCounts(
         medicines: [buildMedicine(beganDateTime: DateTime(2026, 9, 1))],
-        medicationHistories: [
+        takeDoseKeysByDate: effectiveTakeDoseKeysByDate([
           // 前の週(土曜)の記録は数えない
           buildTake(id: 'take-0', scheduledRecordedDate: DateTime(2026, 9, 5)),
           buildTake(id: 'take-1', scheduledRecordedDate: DateTime(2026, 9, 6)),
           buildTake(id: 'take-2', scheduledRecordedDate: DateTime(2026, 9, 7)),
-        ],
+        ]),
         date: DateTime(2026, 9, 9),
       );
 
@@ -334,7 +363,7 @@ void main() {
       expect(
         weeklyMedicationCounts(
           medicines: [buildMedicine(schedules: const [morningSchedule, eveningSchedule], beganDateTime: DateTime(2026, 9, 1))],
-          medicationHistories: [],
+          takeDoseKeysByDate: effectiveTakeDoseKeysByDate([]),
           date: DateTime(2026, 9, 9),
         ).scheduledCount,
         14,
@@ -345,10 +374,10 @@ void main() {
       expect(
         weeklyMedicationCounts(
           medicines: [buildMedicine(beganDateTime: DateTime(2026, 9, 1))],
-          medicationHistories: [
+          takeDoseKeysByDate: effectiveTakeDoseKeysByDate([
             buildTake(id: 'take-1', scheduledRecordedDate: DateTime(2026, 9, 6), medicineID: 'medicine-2'),
             buildTake(id: 'take-2', scheduledRecordedDate: DateTime(2026, 9, 7), medicineID: 'medicine-2'),
-          ],
+          ]),
           date: DateTime(2026, 9, 9),
         ).takenCount,
         0,
@@ -362,11 +391,11 @@ void main() {
       expect(
         consecutiveAchievedDaysCount(
           medicines: [buildMedicine(beganDateTime: DateTime(2026, 9, 1))],
-          medicationHistories: [
+          takeDoseKeysByDate: effectiveTakeDoseKeysByDate([
             buildTake(id: 'take-1', scheduledRecordedDate: DateTime(2026, 9, 8)),
             buildTake(id: 'take-2', scheduledRecordedDate: DateTime(2026, 9, 9)),
             buildTake(id: 'take-3', scheduledRecordedDate: DateTime(2026, 9, 10)),
-          ],
+          ]),
           today: DateTime(2026, 9, 10),
         ),
         3,
@@ -377,10 +406,10 @@ void main() {
       expect(
         consecutiveAchievedDaysCount(
           medicines: [buildMedicine(beganDateTime: DateTime(2026, 9, 1))],
-          medicationHistories: [
+          takeDoseKeysByDate: effectiveTakeDoseKeysByDate([
             buildTake(id: 'take-1', scheduledRecordedDate: DateTime(2026, 9, 8)),
             buildTake(id: 'take-2', scheduledRecordedDate: DateTime(2026, 9, 9)),
-          ],
+          ]),
           today: DateTime(2026, 9, 10),
         ),
         2,
@@ -394,11 +423,11 @@ void main() {
           medicines: [
             buildMedicine(frequency: const MedicationFrequency.everyXDays(interval: 2), beganDateTime: DateTime(2026, 9, 6)),
           ],
-          medicationHistories: [
+          takeDoseKeysByDate: effectiveTakeDoseKeysByDate([
             buildTake(id: 'take-1', scheduledRecordedDate: DateTime(2026, 9, 6)),
             buildTake(id: 'take-2', scheduledRecordedDate: DateTime(2026, 9, 8)),
             buildTake(id: 'take-3', scheduledRecordedDate: DateTime(2026, 9, 10)),
-          ],
+          ]),
           today: DateTime(2026, 9, 10),
         ),
         3,
@@ -409,12 +438,12 @@ void main() {
       expect(
         consecutiveAchievedDaysCount(
           medicines: [buildMedicine(beganDateTime: DateTime(2026, 9, 1))],
-          medicationHistories: [
+          takeDoseKeysByDate: effectiveTakeDoseKeysByDate([
             buildTake(id: 'take-1', scheduledRecordedDate: DateTime(2026, 9, 7)),
             // 2026-09-08 は未服用
             buildTake(id: 'take-3', scheduledRecordedDate: DateTime(2026, 9, 9)),
             buildTake(id: 'take-4', scheduledRecordedDate: DateTime(2026, 9, 10)),
-          ],
+          ]),
           today: DateTime(2026, 9, 10),
         ),
         2,
@@ -423,7 +452,7 @@ void main() {
 
     test('薬が1件も無ければ0日', () {
       expect(
-        consecutiveAchievedDaysCount(medicines: [], medicationHistories: [], today: DateTime(2026, 9, 10)),
+        consecutiveAchievedDaysCount(medicines: [], takeDoseKeysByDate: effectiveTakeDoseKeysByDate([]), today: DateTime(2026, 9, 10)),
         0,
       );
     });
@@ -434,10 +463,10 @@ void main() {
     test('今月は今日までを分母にする(まだ来ていない日を含めない)', () {
       final counts = monthlyMedicationCounts(
         medicines: [buildMedicine(beganDateTime: DateTime(2026, 9, 1))],
-        medicationHistories: [
+        takeDoseKeysByDate: effectiveTakeDoseKeysByDate([
           buildTake(id: 'take-1', scheduledRecordedDate: DateTime(2026, 9, 1)),
           buildTake(id: 'take-2', scheduledRecordedDate: DateTime(2026, 9, 2)),
-        ],
+        ]),
         month: DateTime(2026, 9, 10),
         today: DateTime(2026, 9, 10),
       );
@@ -450,7 +479,7 @@ void main() {
       expect(
         monthlyMedicationCounts(
           medicines: [buildMedicine(beganDateTime: DateTime(2026, 8, 1))],
-          medicationHistories: [buildTake(id: 'take-1', scheduledRecordedDate: DateTime(2026, 8, 5))],
+          takeDoseKeysByDate: effectiveTakeDoseKeysByDate([buildTake(id: 'take-1', scheduledRecordedDate: DateTime(2026, 8, 5))]),
           month: DateTime(2026, 8, 1),
           today: DateTime(2026, 9, 10),
         ).scheduledCount,
@@ -462,10 +491,10 @@ void main() {
       expect(
         monthlyMedicationCounts(
           medicines: [buildMedicine(beganDateTime: DateTime(2026, 9, 1))],
-          medicationHistories: [
+          takeDoseKeysByDate: effectiveTakeDoseKeysByDate([
             buildTake(id: 'take-1', scheduledRecordedDate: DateTime(2026, 9, 1), medicineID: 'medicine-2'),
             buildTake(id: 'take-2', scheduledRecordedDate: DateTime(2026, 9, 2), medicineID: 'medicine-2'),
-          ],
+          ]),
           month: DateTime(2026, 9, 10),
           today: DateTime(2026, 9, 10),
         ).takenCount,
@@ -477,7 +506,7 @@ void main() {
       // 2024-09 は today(2026-09-10) の 365 日前(2025-09-10)より前。薬は 2024-01-01 開始の毎日で、その月にも予定自体は存在する
       final counts = monthlyMedicationCounts(
         medicines: [buildMedicine(beganDateTime: DateTime(2024, 1, 1))],
-        medicationHistories: [],
+        takeDoseKeysByDate: effectiveTakeDoseKeysByDate([]),
         month: DateTime(2024, 9, 1),
         today: DateTime(2026, 9, 10),
       );
@@ -489,7 +518,7 @@ void main() {
     test('未来の月は集計対象が無いため(0, 0)を返す', () {
       final counts = monthlyMedicationCounts(
         medicines: [buildMedicine(beganDateTime: DateTime(2026, 9, 1))],
-        medicationHistories: [],
+        takeDoseKeysByDate: effectiveTakeDoseKeysByDate([]),
         month: DateTime(2026, 10, 1),
         today: DateTime(2026, 9, 10),
       );

@@ -292,7 +292,7 @@ B が表示名未設定の間は記録者ラベルが「メンバー」フォー
 
 **確認日: 2026-09-06**
 
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/09/06/2c9694c3-04c0-4b35-a28f-7ec71fdf209e-sim8-12-history.png" width="320">
+<img alt="服薬履歴画面の上部。「This week 2/14 times」と「Streak 2 days」の達成サマリーカードが2枚並び、その下に週カレンダーと服薬記録のカードが表示されている" src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/09/06/2c9694c3-04c0-4b35-a28f-7ec71fdf209e-sim8-12-history.png" width="320">
 
 「This week 2/14 times」と表示された（今週 = 9/6〜9/12 の予定 14 件のうち、9/6 の 2 件を服用）。カレンダータブへ切り替えて戻った後もカードが表示され続けることも確認した
 
@@ -304,7 +304,7 @@ B が表示名未設定の間は記録者ラベルが「メンバー」フォー
 
 **確認日: 2026-09-06**
 
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/09/06/2c9694c3-04c0-4b35-a28f-7ec71fdf209e-sim8-12-history.png" width="320">
+<img alt="服薬履歴画面の上部。「This week 2/14 times」と「Streak 2 days」の達成サマリーカードが2枚並び、その下に週カレンダーと服薬記録のカードが表示されている" src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/09/06/2c9694c3-04c0-4b35-a28f-7ec71fdf209e-sim8-12-history.png" width="320">
 
 「Streak 2 days」と表示された（9/6 = 当日 2/2 服用で +1、9/5 = 2/2 服用で +1、9/4 は 1/2 のためそこで途切れて計 2 日）
 
@@ -312,7 +312,7 @@ B が表示名未設定の間は記録者ラベルが「メンバー」フォー
 
 新しい検証データ（9/1 開始・10:00 スケジュール2件・当日 9/8 のみ 2/2 服用）で「This week 2/14 times」「Streak 1 days」と表示された
 
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/09/08/95864880-61f5-4958-8ce7-0ca732476427-sim9-10-history.png" width="320">
+<img alt="服薬履歴画面の上部。「This week 2/14 times」と「Streak 1 days」の達成サマリーカードが2枚並び、その下に 9/8 の服薬記録カードが2件表示されている" src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/09/08/95864880-61f5-4958-8ce7-0ca732476427-sim9-10-history.png" width="320">
 
 </details>
 
