@@ -230,13 +230,5 @@
   "doseIntervalWarningMessage": "آپ یہ دوا {latestTakeTime} پر پہلے ہی لے چکے ہیں۔ ترتیب کے مطابق خوراکوں کے درمیان کم از کم {minimumDoseIntervalHours} گھنٹے کا وقفہ ہونا چاہیے۔ پھر بھی ریکارڈ کریں؟",
   "doseIntervalWarningTakeAnyway": "ریکارڈ کریں",
   "doseIntervalNotificationWarning": "⚠️ گزشتہ خوراک کے بعد {minimumDoseIntervalHours} گھنٹے نہیں گزرے",
-  "ossLicense": "OSS لائسنس",
-  "achievementWeeklyLabel": "اس ہفتے دوا لینا",
-  "achievementWeeklyCountSuffix": "/{scheduledCount} بار",
-  "achievementStreakLabel": "مسلسل ریکارڈ",
-  "achievementStreakDaysSuffix": "دن",
-  "achievementMonthlyRateLabel": "تکمیل کی شرح: {month}",
-  "achievementLegendAllTaken": "سب",
-  "achievementLegendPartiallyTaken": "جزوی",
-  "achievementLegendNoneTaken": "کوئی نہیں"
+  "ossLicense": "OSS لائسنس"
 }

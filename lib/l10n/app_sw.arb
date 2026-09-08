@@ -230,13 +230,5 @@
   "doseIntervalWarningMessage": "Umeshakunywa dawa saa {latestTakeTime}. Mipangilio inahitaji kuwe na angalau saa {minimumDoseIntervalHours} kati ya dozi. Unataka kuirekodi hata hivyo?",
   "doseIntervalWarningTakeAnyway": "Rekodi",
   "doseIntervalNotificationWarning": "⚠️ Haijapita saa {minimumDoseIntervalHours} tangu dozi ya mwisho",
-  "ossLicense": "Leseni za OSS",
-  "achievementWeeklyLabel": "Unywaji wa dawa wiki hii",
-  "achievementWeeklyCountSuffix": "/{scheduledCount} mara",
-  "achievementStreakLabel": "Mfululizo",
-  "achievementStreakDaysSuffix": "siku",
-  "achievementMonthlyRateLabel": "Kiwango cha utimilifu: {month}",
-  "achievementLegendAllTaken": "Zote",
-  "achievementLegendPartiallyTaken": "Sehemu",
-  "achievementLegendNoneTaken": "Hakuna"
+  "ossLicense": "Leseni za OSS"
 }

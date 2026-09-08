@@ -230,13 +230,5 @@
   "doseIntervalWarningMessage": "Сиз дарыны {latestTakeTime} убактысында мурун эле ичкенсиз. Жөндөөлөр боюнча дозалардын ортосунда кеминде {minimumDoseIntervalHours} саат болушу керек. Ошого карабай жаздырасызбы?",
   "doseIntervalWarningTakeAnyway": "Каттоо",
   "doseIntervalNotificationWarning": "⚠️ Акыркы дозадан бери {minimumDoseIntervalHours} саат өткөн жок",
-  "ossLicense": "OSS лицензиялары",
-  "achievementWeeklyLabel": "Бул аптадагы дары ичүү",
-  "achievementWeeklyCountSuffix": "/{scheduledCount} жолу",
-  "achievementStreakLabel": "Удаалаш серия",
-  "achievementStreakDaysSuffix": "күн",
-  "achievementMonthlyRateLabel": "Аткаруу көрсөткүчү: {month}",
-  "achievementLegendAllTaken": "Баары",
-  "achievementLegendPartiallyTaken": "Жарым-жартылай",
-  "achievementLegendNoneTaken": "Жок"
+  "ossLicense": "OSS лицензиялары"
 }

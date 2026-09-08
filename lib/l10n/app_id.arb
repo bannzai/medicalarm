@@ -230,13 +230,5 @@
   "doseIntervalWarningMessage": "Anda sudah meminumnya pada {latestTakeTime}. Pengaturan menetapkan jeda minimal {minimumDoseIntervalHours} jam antara setiap dosis. Tetap catat dosis ini?",
   "doseIntervalWarningTakeAnyway": "Catat",
   "doseIntervalNotificationWarning": "⚠️ Belum {minimumDoseIntervalHours} jam berlalu sejak dosis terakhir",
-  "ossLicense": "Lisensi OSS",
-  "achievementWeeklyLabel": "Minum obat minggu ini",
-  "achievementWeeklyCountSuffix": "/{scheduledCount} kali",
-  "achievementStreakLabel": "Rangkaian",
-  "achievementStreakDaysSuffix": "hari",
-  "achievementMonthlyRateLabel": "Tingkat pencapaian: {month}",
-  "achievementLegendAllTaken": "Semua",
-  "achievementLegendPartiallyTaken": "Sebagian",
-  "achievementLegendNoneTaken": "Tidak ada"
+  "ossLicense": "Lisensi OSS"
 }

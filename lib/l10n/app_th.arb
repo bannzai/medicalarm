@@ -230,13 +230,5 @@
   "doseIntervalWarningMessage": "คุณรับประทานยาไปแล้วเมื่อ {latestTakeTime} การตั้งค่ากำหนดให้เว้นระยะระหว่างยาอย่างน้อย {minimumDoseIntervalHours} ชั่วโมง ต้องการบันทึกต่อหรือไม่",
   "doseIntervalWarningTakeAnyway": "บันทึก",
   "doseIntervalNotificationWarning": "⚠️ ยังไม่ครบ {minimumDoseIntervalHours} ชั่วโมงนับจากครั้งที่รับประทานยาครั้งล่าสุด",
-  "ossLicense": "ใบอนุญาต OSS",
-  "achievementWeeklyLabel": "การรับประทานยาในสัปดาห์นี้",
-  "achievementWeeklyCountSuffix": "/{scheduledCount} ครั้ง",
-  "achievementStreakLabel": "สถิติต่อเนื่อง",
-  "achievementStreakDaysSuffix": "วัน",
-  "achievementMonthlyRateLabel": "อัตราความสำเร็จ: {month}",
-  "achievementLegendAllTaken": "ทั้งหมด",
-  "achievementLegendPartiallyTaken": "บางส่วน",
-  "achievementLegendNoneTaken": "ไม่มี"
+  "ossLicense": "ใบอนุญาต OSS"
 }

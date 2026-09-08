@@ -230,13 +230,5 @@
   "doseIntervalWarningMessage": "ਤੁਸੀਂ {latestTakeTime} ਵਜੇ ਦਵਾਈ ਲੈ ਚੁੱਕੇ ਹੋ। ਸੈਟਿੰਗ ਮੁਤਾਬਕ ਖੁਰਾਕਾਂ ਵਿਚਕਾਰ ਘੱਟੋ-ਘੱਟ {minimumDoseIntervalHours} ਘੰਟਿਆਂ ਦਾ ਅੰਤਰ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ। ਫਿਰ ਵੀ ਰਿਕਾਰਡ ਕਰਨਾ ਹੈ?",
   "doseIntervalWarningTakeAnyway": "ਰਿਕਾਰਡ ਕਰੋ",
   "doseIntervalNotificationWarning": "⚠️ ਪਿਛਲੀ ਖੁਰਾਕ ਲਏ ਨੂੰ {minimumDoseIntervalHours} ਘੰਟੇ ਨਹੀਂ ਹੋਏ",
-  "ossLicense": "OSS ਲਾਇਸੰਸ",
-  "achievementWeeklyLabel": "ਇਸ ਹਫ਼ਤੇ ਦੀ ਦਵਾਈ ਲੈਣਾ",
-  "achievementWeeklyCountSuffix": "/{scheduledCount} ਵਾਰ",
-  "achievementStreakLabel": "ਲਗਾਤਾਰ ਰਿਕਾਰਡ",
-  "achievementStreakDaysSuffix": "ਦਿਨ",
-  "achievementMonthlyRateLabel": "ਪ੍ਰਾਪਤੀ ਦਰ: {month}",
-  "achievementLegendAllTaken": "ਸਾਰੇ",
-  "achievementLegendPartiallyTaken": "ਅੰਸ਼ਕ",
-  "achievementLegendNoneTaken": "ਕੋਈ ਨਹੀਂ"
+  "ossLicense": "OSS ਲਾਇਸੰਸ"
 }

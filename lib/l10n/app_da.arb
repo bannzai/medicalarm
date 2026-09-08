@@ -230,13 +230,5 @@
   "doseIntervalWarningMessage": "Du har allerede taget dosis kl. {latestTakeTime}. Indstillingen kræver et interval på mindst {minimumDoseIntervalHours} timer mellem doser. Vil du registrere den alligevel?",
   "doseIntervalWarningTakeAnyway": "Registrer",
   "doseIntervalNotificationWarning": "⚠️ Der er ikke gået {minimumDoseIntervalHours} timer siden sidste dosis",
-  "ossLicense": "OSS-licenser",
-  "achievementWeeklyLabel": "Medicinindtagelser i denne uge",
-  "achievementWeeklyCountSuffix": "/{scheduledCount} gange",
-  "achievementStreakLabel": "Sammenhængende serie",
-  "achievementStreakDaysSuffix": "dage",
-  "achievementMonthlyRateLabel": "Gennemførelsesrate: {month}",
-  "achievementLegendAllTaken": "Alle",
-  "achievementLegendPartiallyTaken": "Delvist",
-  "achievementLegendNoneTaken": "Ingen"
+  "ossLicense": "OSS-licenser"
 }

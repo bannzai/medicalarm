@@ -230,13 +230,5 @@
   "doseIntervalWarningMessage": "ଆପଣ {latestTakeTime} ସମୟରେ ଔଷଧ ଖାଇସାରିଛନ୍ତି। ସେଟିଂ ଅନୁଯାୟୀ ଡୋଜ୍‌ଗୁଡ଼ିକ ମଧ୍ୟରେ ଅତି କମ୍‌ରେ {minimumDoseIntervalHours} ଘଣ୍ଟା ବ୍ୟବଧାନ ରହିବା ଆବଶ୍ୟକ। ତଥାପି ରେକର୍ଡ କରିବେ କି?",
   "doseIntervalWarningTakeAnyway": "ରେକର୍ଡ କରନ୍ତୁ",
   "doseIntervalNotificationWarning": "⚠️ ପୂର୍ବ ଡୋଜ୍ ନେବା ପରେ {minimumDoseIntervalHours} ଘଣ୍ଟା ବିତିନାହିଁ",
-  "ossLicense": "OSS ଲାଇସେନ୍ସ",
-  "achievementWeeklyLabel": "ଏହି ସପ୍ତାହର ଔଷଧ ସେବନ",
-  "achievementWeeklyCountSuffix": "/{scheduledCount} ଥର",
-  "achievementStreakLabel": "କ୍ରମାଗତ ରେକର୍ଡ",
-  "achievementStreakDaysSuffix": "ଦିନ",
-  "achievementMonthlyRateLabel": "ସଫଳତା ହାର: {month}",
-  "achievementLegendAllTaken": "ସମସ୍ତ",
-  "achievementLegendPartiallyTaken": "ଆଂଶିକ",
-  "achievementLegendNoneTaken": "କିଛି ନାହିଁ"
+  "ossLicense": "OSS ଲାଇସେନ୍ସ"
 }

@@ -230,13 +230,5 @@
   "doseIntervalWarningMessage": "{latestTakeTime}-এ ওষুধটি ইতিমধ্যে গ্রহণ করা হয়েছে। সেটিংসে প্রতিটি গ্রহণের মধ্যে কমপক্ষে {minimumDoseIntervalHours} ঘণ্টার বিরতি নির্ধারিত আছে। তবুও কি এটি রেকর্ড করবেন?",
   "doseIntervalWarningTakeAnyway": "রেকর্ড করুন",
   "doseIntervalNotificationWarning": "⚠️ শেষবার ওষুধ খাওয়ার পর {minimumDoseIntervalHours} ঘণ্টা পার হয়নি",
-  "ossLicense": "OSS লাইসেন্স",
-  "achievementWeeklyLabel": "এই সপ্তাহের ওষুধ সেবন",
-  "achievementWeeklyCountSuffix": "/{scheduledCount} বার",
-  "achievementStreakLabel": "ধারাবাহিকতা",
-  "achievementStreakDaysSuffix": "দিন",
-  "achievementMonthlyRateLabel": "সাফল্যের হার: {month}",
-  "achievementLegendAllTaken": "সব",
-  "achievementLegendPartiallyTaken": "আংশিক",
-  "achievementLegendNoneTaken": "কিছুই নয়"
+  "ossLicense": "OSS লাইসেন্স"
 }

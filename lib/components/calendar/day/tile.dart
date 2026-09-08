@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:medicalarm/components/calendar/day/achievement_dot.dart';
 import 'package:medicalarm/components/calendar/day/badge.dart';
 import 'package:medicalarm/entity/diary.dart';
-import 'package:medicalarm/entity/medication_achievement.dart';
 import 'package:medicalarm/style/color.dart';
 import 'package:medicalarm/utils/date_time/date_time_ext.dart';
 import 'package:medicalarm/utils/date_time/weekday.dart';
@@ -13,9 +11,6 @@ class CalendarDayTile extends StatelessWidget {
   final Diary? diary;
   final bool selected;
   final Function(DateTime)? onTap;
-
-  /// その日の服薬達成状態 (#278)。服薬の予定が無い日は null を渡し、ドットを表示しない
-  final DayMedicationAchievement? medicationAchievement;
 
   const CalendarDayTile.grayout({
     Key? key,
@@ -28,8 +23,6 @@ class CalendarDayTile extends StatelessWidget {
           diary: null,
           date: date,
           selected: false,
-          // 当月外の日は達成状態を表示しないため常に null
-          medicationAchievement: null,
         );
 
   const CalendarDayTile({
@@ -39,7 +32,6 @@ class CalendarDayTile extends StatelessWidget {
     required this.diary,
     required this.onTap,
     required this.selected,
-    required this.medicationAchievement,
   });
 
   @override
@@ -77,10 +69,6 @@ class CalendarDayTile extends StatelessWidget {
                   ],
                 ),
               ),
-              if (medicationAchievement != null) ...[
-                const SizedBox(height: 2),
-                CalendarDayAchievementDot(achievement: medicationAchievement!),
-              ],
               CalendarDayBadge(date: date, diary: diary),
             ],
           ),

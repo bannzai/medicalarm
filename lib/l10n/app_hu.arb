@@ -230,13 +230,5 @@
   "doseIntervalWarningMessage": "A gyógyszert már bevette ekkor: {latestTakeTime}. A beállítás szerint a bevételek között legalább {minimumDoseIntervalHours} órának kell eltelnie. Ennek ellenére rögzíti?",
   "doseIntervalWarningTakeAnyway": "Rögzítés",
   "doseIntervalNotificationWarning": "⚠️ Az előző adag óta még nem telt el {minimumDoseIntervalHours} óra",
-  "ossLicense": "OSS-licencek",
-  "achievementWeeklyLabel": "E heti gyógyszerbevétel",
-  "achievementWeeklyCountSuffix": "/{scheduledCount} alkalom",
-  "achievementStreakLabel": "Sorozat",
-  "achievementStreakDaysSuffix": "nap",
-  "achievementMonthlyRateLabel": "Teljesítési arány: {month}",
-  "achievementLegendAllTaken": "Mind",
-  "achievementLegendPartiallyTaken": "Részben",
-  "achievementLegendNoneTaken": "Egy sem"
+  "ossLicense": "OSS-licencek"
 }

@@ -230,13 +230,5 @@
   "doseIntervalWarningMessage": "{latestTakeTime} တွင် ဆေးသောက်ပြီးဖြစ်သည်။ ဆေးတစ်ကြိမ်နှင့်တစ်ကြိမ်ကြား အနည်းဆုံး {minimumDoseIntervalHours} နာရီခြားရန် သတ်မှတ်ထားသည်။ သို့သော် မှတ်တမ်းတင်မည်လား။",
   "doseIntervalWarningTakeAnyway": "မှတ်တမ်းတင်ရန်",
   "doseIntervalNotificationWarning": "⚠️ နောက်ဆုံးဆေးသောက်ပြီးနောက် {minimumDoseIntervalHours} နာရီ မပြည့်သေးပါ",
-  "ossLicense": "OSS လိုင်စင်များ",
-  "achievementWeeklyLabel": "ယခုအပတ် ဆေးသောက်ခြင်း",
-  "achievementWeeklyCountSuffix": "/{scheduledCount} ကြိမ်",
-  "achievementStreakLabel": "ဆက်တိုက်မှတ်တမ်း",
-  "achievementStreakDaysSuffix": "ရက်",
-  "achievementMonthlyRateLabel": "အောင်မြင်မှုနှုန်း: {month}",
-  "achievementLegendAllTaken": "အားလုံး",
-  "achievementLegendPartiallyTaken": "တစ်စိတ်တစ်ပိုင်း",
-  "achievementLegendNoneTaken": "မရှိပါ"
+  "ossLicense": "OSS လိုင်စင်များ"
 }
