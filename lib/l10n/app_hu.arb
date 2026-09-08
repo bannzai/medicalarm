@@ -135,7 +135,7 @@
   "purchaseErrorNetworkError": "Csatlakozási probléma történt. Ellenőrizze a hálózati kapcsolatot, majd próbálja újra. Ha a probléma továbbra is fennáll, lépjen kapcsolatba velünk a Beállítások > Kapcsolat menüpontban. Részletek: {message}",
   "sixMonthPlan": "6 hónapos csomag",
   "premiumContractPeriod": "Az előfizetés időtartama a vásárlás napjától számított egy hónap.",
-  "privacyPolicy": "Adatvédelmi irányelvek",
+  "privacyPolicy": "Adatvédelmi szabályzat",
   "termsOfService": "Felhasználási feltételek",
   "specifiedCommercialTransactionAct": "A speciális kereskedelmi törvény alapján készített nyilatkozat",
   "confirmBeforeRegistration": "Kérjük, ellenőrizze és regisztráljon.",
