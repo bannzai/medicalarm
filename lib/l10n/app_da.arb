@@ -233,5 +233,6 @@
   "ossLicense": "OSS-licenser",
   "achievementWeeklyLabel": "Medicinindtagelser i denne uge",
   "achievementWeeklyCountSuffix": "/{scheduledCount} gange",
-  "achievementStreakLabel": "Sammenhængende serie"
+  "achievementStreakLabel": "Sammenhængende serie",
+  "achievementStreakDaysSuffix": "dage"
 }

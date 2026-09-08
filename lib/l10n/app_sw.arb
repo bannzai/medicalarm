@@ -233,5 +233,6 @@
   "ossLicense": "Leseni za OSS",
   "achievementWeeklyLabel": "Unywaji wa dawa wiki hii",
   "achievementWeeklyCountSuffix": "/{scheduledCount} mara",
-  "achievementStreakLabel": "Mfululizo"
+  "achievementStreakLabel": "Mfululizo",
+  "achievementStreakDaysSuffix": "siku"
 }

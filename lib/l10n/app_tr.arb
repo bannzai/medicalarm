@@ -233,5 +233,6 @@
   "ossLicense": "OSS lisansları",
   "achievementWeeklyLabel": "Bu haftaki ilaç alımı",
   "achievementWeeklyCountSuffix": "/{scheduledCount} kez",
-  "achievementStreakLabel": "Seri"
+  "achievementStreakLabel": "Seri",
+  "achievementStreakDaysSuffix": "gün"
 }

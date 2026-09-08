@@ -233,5 +233,6 @@
   "ossLicense": "OSS လိုင်စင်များ",
   "achievementWeeklyLabel": "ယခုအပတ် ဆေးသောက်ခြင်း",
   "achievementWeeklyCountSuffix": "/{scheduledCount} ကြိမ်",
-  "achievementStreakLabel": "ဆက်တိုက်မှတ်တမ်း"
+  "achievementStreakLabel": "ဆက်တိုက်မှတ်တမ်း",
+  "achievementStreakDaysSuffix": "ရက်"
 }

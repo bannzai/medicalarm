@@ -233,5 +233,6 @@
   "ossLicense": "ໃບອະນຸຍາດ OSS",
   "achievementWeeklyLabel": "ການກິນຢາໃນອາທິດນີ້",
   "achievementWeeklyCountSuffix": "/{scheduledCount} ຄັ້ງ",
-  "achievementStreakLabel": "ສະຖິຕິຕໍ່ເນື່ອງ"
+  "achievementStreakLabel": "ສະຖິຕິຕໍ່ເນື່ອງ",
+  "achievementStreakDaysSuffix": "ວັນ"
 }

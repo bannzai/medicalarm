@@ -233,5 +233,6 @@
   "ossLicense": "OSS-litsentsid",
   "achievementWeeklyLabel": "Selle nädala ravimite võtmine",
   "achievementWeeklyCountSuffix": "/{scheduledCount} korda",
-  "achievementStreakLabel": "Järjestikune seeria"
+  "achievementStreakLabel": "Järjestikune seeria",
+  "achievementStreakDaysSuffix": "päeva"
 }

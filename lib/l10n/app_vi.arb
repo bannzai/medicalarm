@@ -233,5 +233,6 @@
   "ossLicense": "Giấy phép OSS",
   "achievementWeeklyLabel": "Uống thuốc trong tuần này",
   "achievementWeeklyCountSuffix": "/{scheduledCount} lần",
-  "achievementStreakLabel": "Chuỗi liên tiếp"
+  "achievementStreakLabel": "Chuỗi liên tiếp",
+  "achievementStreakDaysSuffix": "ngày"
 }

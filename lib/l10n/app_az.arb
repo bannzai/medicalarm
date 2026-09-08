@@ -233,5 +233,6 @@
   "ossLicense": "OSS lisenziyaları",
   "achievementWeeklyLabel": "Bu həftə dərman qəbulu",
   "achievementWeeklyCountSuffix": "/{scheduledCount} dəfə",
-  "achievementStreakLabel": "Ardıcıl seriya"
+  "achievementStreakLabel": "Ardıcıl seriya",
+  "achievementStreakDaysSuffix": "gün"
 }

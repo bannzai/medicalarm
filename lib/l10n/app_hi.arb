@@ -233,5 +233,6 @@
   "ossLicense": "OSS लाइसेंस",
   "achievementWeeklyLabel": "इस सप्ताह दवा लेना",
   "achievementWeeklyCountSuffix": "/{scheduledCount} बार",
-  "achievementStreakLabel": "लगातार रिकॉर्ड"
+  "achievementStreakLabel": "लगातार रिकॉर्ड",
+  "achievementStreakDaysSuffix": "दिन"
 }

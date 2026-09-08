@@ -233,5 +233,6 @@
   "ossLicense": "Licence OSS",
   "achievementWeeklyLabel": "Užívání léků tento týden",
   "achievementWeeklyCountSuffix": "/{scheduledCount}×",
-  "achievementStreakLabel": "Série"
+  "achievementStreakLabel": "Série",
+  "achievementStreakDaysSuffix": "dní"
 }

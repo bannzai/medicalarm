@@ -233,5 +233,6 @@
   "ossLicense": "OSS-leyfi",
   "achievementWeeklyLabel": "Lyfjatökur í þessari viku",
   "achievementWeeklyCountSuffix": "/{scheduledCount} sinnum",
-  "achievementStreakLabel": "Samfelld röð"
+  "achievementStreakLabel": "Samfelld röð",
+  "achievementStreakDaysSuffix": "dagar"
 }

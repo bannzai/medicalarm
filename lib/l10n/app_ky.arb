@@ -233,5 +233,6 @@
   "ossLicense": "OSS лицензиялары",
   "achievementWeeklyLabel": "Бул аптадагы дары ичүү",
   "achievementWeeklyCountSuffix": "/{scheduledCount} жолу",
-  "achievementStreakLabel": "Удаалаш серия"
+  "achievementStreakLabel": "Удаалаш серия",
+  "achievementStreakDaysSuffix": "күн"
 }

@@ -233,5 +233,6 @@
   "ossLicense": "OSS ଲାଇସେନ୍ସ",
   "achievementWeeklyLabel": "ଏହି ସପ୍ତାହର ଔଷଧ ସେବନ",
   "achievementWeeklyCountSuffix": "/{scheduledCount} ଥର",
-  "achievementStreakLabel": "କ୍ରମାଗତ ରେକର୍ଡ"
+  "achievementStreakLabel": "କ୍ରମାଗତ ରେକର୍ଡ",
+  "achievementStreakDaysSuffix": "ଦିନ"
 }

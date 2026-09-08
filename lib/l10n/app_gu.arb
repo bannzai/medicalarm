@@ -233,5 +233,6 @@
   "ossLicense": "OSS લાઇસન્સ",
   "achievementWeeklyLabel": "આ અઠવાડિયે દવા લેવી",
   "achievementWeeklyCountSuffix": "/{scheduledCount} વખત",
-  "achievementStreakLabel": "સળંગ શ્રેણી"
+  "achievementStreakLabel": "સળંગ શ્રેણી",
+  "achievementStreakDaysSuffix": "દિવસ"
 }

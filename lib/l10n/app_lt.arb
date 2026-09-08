@@ -233,5 +233,6 @@
   "ossLicense": "OSS licencijos",
   "achievementWeeklyLabel": "Šios savaitės vaistų vartojimas",
   "achievementWeeklyCountSuffix": "/{scheduledCount} kartų",
-  "achievementStreakLabel": "Nepertraukiama serija"
+  "achievementStreakLabel": "Nepertraukiama serija",
+  "achievementStreakDaysSuffix": "dienos"
 }

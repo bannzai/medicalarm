@@ -233,5 +233,6 @@
   "ossLicense": "OSS лиценце",
   "achievementWeeklyLabel": "Узимање лекова ове недеље",
   "achievementWeeklyCountSuffix": "/{scheduledCount} пута",
-  "achievementStreakLabel": "Низ"
+  "achievementStreakLabel": "Низ",
+  "achievementStreakDaysSuffix": "дана"
 }

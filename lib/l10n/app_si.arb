@@ -233,5 +233,6 @@
   "ossLicense": "OSS බලපත්‍ර",
   "achievementWeeklyLabel": "මෙම සතියේ ඖෂධ ගැනීම",
   "achievementWeeklyCountSuffix": "/{scheduledCount} වරක්",
-  "achievementStreakLabel": "අඛණ්ඩ වාර්තාව"
+  "achievementStreakLabel": "අඛණ්ඩ වාර්තාව",
+  "achievementStreakDaysSuffix": "දින"
 }

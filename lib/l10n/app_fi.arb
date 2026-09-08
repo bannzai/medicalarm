@@ -233,5 +233,6 @@
   "ossLicense": "OSS-lisenssit",
   "achievementWeeklyLabel": "Lääkkeenotto tällä viikolla",
   "achievementWeeklyCountSuffix": "/{scheduledCount} kertaa",
-  "achievementStreakLabel": "Putki"
+  "achievementStreakLabel": "Putki",
+  "achievementStreakDaysSuffix": "päivää"
 }

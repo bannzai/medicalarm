@@ -233,5 +233,6 @@
   "ossLicense": "OSS লাইসেন্স",
   "achievementWeeklyLabel": "এই সপ্তাহের ওষুধ সেবন",
   "achievementWeeklyCountSuffix": "/{scheduledCount} বার",
-  "achievementStreakLabel": "ধারাবাহিকতা"
+  "achievementStreakLabel": "ধারাবাহিকতা",
+  "achievementStreakDaysSuffix": "দিন"
 }

@@ -233,5 +233,6 @@
   "ossLicense": "OSS لائسنس",
   "achievementWeeklyLabel": "اس ہفتے دوا لینا",
   "achievementWeeklyCountSuffix": "/{scheduledCount} بار",
-  "achievementStreakLabel": "مسلسل ریکارڈ"
+  "achievementStreakLabel": "مسلسل ریکارڈ",
+  "achievementStreakDaysSuffix": "دن"
 }

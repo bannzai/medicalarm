@@ -233,5 +233,6 @@
   "ossLicense": "Amalayisense e-OSS",
   "achievementWeeklyLabel": "Ukuphuza imithi kuleli sonto",
   "achievementWeeklyCountSuffix": "/{scheduledCount} izikhathi",
-  "achievementStreakLabel": "Ukulandelana"
+  "achievementStreakLabel": "Ukulandelana",
+  "achievementStreakDaysSuffix": "izinsuku"
 }

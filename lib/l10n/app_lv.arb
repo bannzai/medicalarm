@@ -233,5 +233,6 @@
   "ossLicense": "OSS licences",
   "achievementWeeklyLabel": "Zāļu lietošana šonedēļ",
   "achievementWeeklyCountSuffix": "/{scheduledCount} reizes",
-  "achievementStreakLabel": "Nepārtraukta sērija"
+  "achievementStreakLabel": "Nepārtraukta sērija",
+  "achievementStreakDaysSuffix": "dienas"
 }

@@ -233,5 +233,6 @@
   "ossLicense": "OSS licence",
   "achievementWeeklyLabel": "Uzimanje lijekova ove sedmice",
   "achievementWeeklyCountSuffix": "/{scheduledCount} puta",
-  "achievementStreakLabel": "Uzastopni niz"
+  "achievementStreakLabel": "Uzastopni niz",
+  "achievementStreakDaysSuffix": "dana"
 }

@@ -233,5 +233,6 @@
   "ossLicense": "Licencat OSS",
   "achievementWeeklyLabel": "Marrja e ilaçeve këtë javë",
   "achievementWeeklyCountSuffix": "/{scheduledCount} herë",
-  "achievementStreakLabel": "Seri e njëpasnjëshme"
+  "achievementStreakLabel": "Seri e njëpasnjëshme",
+  "achievementStreakDaysSuffix": "ditë"
 }

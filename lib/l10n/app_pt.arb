@@ -233,5 +233,6 @@
   "ossLicense": "Licenças OSS",
   "achievementWeeklyLabel": "Tomas de medicamentos esta semana",
   "achievementWeeklyCountSuffix": "/{scheduledCount} vezes",
-  "achievementStreakLabel": "Sequência"
+  "achievementStreakLabel": "Sequência",
+  "achievementStreakDaysSuffix": "dias"
 }

@@ -233,5 +233,6 @@
   "ossLicense": "Licenze OSS",
   "achievementWeeklyLabel": "Assunzioni di farmaci questa settimana",
   "achievementWeeklyCountSuffix": "/{scheduledCount} volte",
-  "achievementStreakLabel": "Serie"
+  "achievementStreakLabel": "Serie",
+  "achievementStreakDaysSuffix": "giorni"
 }

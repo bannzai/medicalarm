@@ -233,5 +233,6 @@
   "ossLicense": "OSS lizentziak",
   "achievementWeeklyLabel": "Aste honetako botikak hartzea",
   "achievementWeeklyCountSuffix": "/{scheduledCount} aldiz",
-  "achievementStreakLabel": "Jarraikako marka"
+  "achievementStreakLabel": "Jarraikako marka",
+  "achievementStreakDaysSuffix": "egun"
 }

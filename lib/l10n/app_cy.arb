@@ -233,5 +233,6 @@
   "ossLicense": "Trwyddedau OSS",
   "achievementWeeklyLabel": "Cymryd meddyginiaeth yr wythnos hon",
   "achievementWeeklyCountSuffix": "/{scheduledCount} gwaith",
-  "achievementStreakLabel": "Cyfres olynol"
+  "achievementStreakLabel": "Cyfres olynol",
+  "achievementStreakDaysSuffix": "diwrnod"
 }

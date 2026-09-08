@@ -233,5 +233,6 @@
   "ossLicense": "Ліцэнзіі OSS",
   "achievementWeeklyLabel": "Прыём лекаў на гэтым тыдні",
   "achievementWeeklyCountSuffix": "/{scheduledCount} разоў",
-  "achievementStreakLabel": "Паслядоўная серыя"
+  "achievementStreakLabel": "Паслядоўная серыя",
+  "achievementStreakDaysSuffix": "дзён"
 }

@@ -233,5 +233,6 @@
   "ossLicense": "OSS ಪರವಾನಗಿಗಳು",
   "achievementWeeklyLabel": "ಈ ವಾರದ ಔಷಧ ಸೇವನೆ",
   "achievementWeeklyCountSuffix": "/{scheduledCount} ಬಾರಿ",
-  "achievementStreakLabel": "ಸತತ ಸರಣಿ"
+  "achievementStreakLabel": "ಸತತ ಸರಣಿ",
+  "achievementStreakDaysSuffix": "ದಿನಗಳು"
 }

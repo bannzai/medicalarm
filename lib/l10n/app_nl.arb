@@ -233,5 +233,6 @@
   "ossLicense": "OSS-licenties",
   "achievementWeeklyLabel": "Medicatie-inname deze week",
   "achievementWeeklyCountSuffix": "/{scheduledCount} keer",
-  "achievementStreakLabel": "Reeks"
+  "achievementStreakLabel": "Reeks",
+  "achievementStreakDaysSuffix": "dagen"
 }

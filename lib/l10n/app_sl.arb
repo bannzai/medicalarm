@@ -233,5 +233,6 @@
   "ossLicense": "Licence OSS",
   "achievementWeeklyLabel": "Jemanje zdravil ta teden",
   "achievementWeeklyCountSuffix": "/{scheduledCount}-krat",
-  "achievementStreakLabel": "Niz"
+  "achievementStreakLabel": "Niz",
+  "achievementStreakDaysSuffix": "dni"
 }

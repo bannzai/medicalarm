@@ -233,5 +233,6 @@
   "ossLicense": "OSS 许可证",
   "achievementWeeklyLabel": "本周服药",
   "achievementWeeklyCountSuffix": "/{scheduledCount} 次",
-  "achievementStreakLabel": "连续记录"
+  "achievementStreakLabel": "连续记录",
+  "achievementStreakDaysSuffix": "日"
 }

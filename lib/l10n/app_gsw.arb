@@ -233,5 +233,6 @@
   "ossLicense": "OSS-Lizänze",
   "achievementWeeklyLabel": "Medikament i dere Wuche",
   "achievementWeeklyCountSuffix": "/{scheduledCount} Mol",
-  "achievementStreakLabel": "Serie"
+  "achievementStreakLabel": "Serie",
+  "achievementStreakDaysSuffix": "Täg"
 }

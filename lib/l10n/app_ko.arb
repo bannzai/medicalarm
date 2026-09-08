@@ -233,5 +233,6 @@
   "ossLicense": "OSS 라이선스",
   "achievementWeeklyLabel": "이번 주 복약",
   "achievementWeeklyCountSuffix": "/{scheduledCount}회",
-  "achievementStreakLabel": "연속 기록"
+  "achievementStreakLabel": "연속 기록",
+  "achievementStreakDaysSuffix": "일"
 }

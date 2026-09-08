@@ -233,5 +233,6 @@
   "ossLicense": "អាជ្ញាប័ណ្ណ OSS",
   "achievementWeeklyLabel": "ការលេបថ្នាំក្នុងសប្តាហ៍នេះ",
   "achievementWeeklyCountSuffix": "/{scheduledCount} ដង",
-  "achievementStreakLabel": "កំណត់ត្រាបន្តបន្ទាប់"
+  "achievementStreakLabel": "កំណត់ត្រាបន្តបន្ទាប់",
+  "achievementStreakDaysSuffix": "ថ្ងៃ"
 }

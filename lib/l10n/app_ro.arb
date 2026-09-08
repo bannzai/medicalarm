@@ -233,5 +233,6 @@
   "ossLicense": "Licențe OSS",
   "achievementWeeklyLabel": "Administrarea medicamentelor în această săptămână",
   "achievementWeeklyCountSuffix": "/{scheduledCount} ori",
-  "achievementStreakLabel": "Serie"
+  "achievementStreakLabel": "Serie",
+  "achievementStreakDaysSuffix": "zile"
 }

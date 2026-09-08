@@ -233,5 +233,6 @@
   "ossLicense": "OSS ፈቃዶች",
   "achievementWeeklyLabel": "የዚህ ሳምንት መድኃኒት አወሳሰድ",
   "achievementWeeklyCountSuffix": "/{scheduledCount} ጊዜ",
-  "achievementStreakLabel": "ተከታታይ ስኬት"
+  "achievementStreakLabel": "ተከታታይ ስኬት",
+  "achievementStreakDaysSuffix": "ቀናት"
 }

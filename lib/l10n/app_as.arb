@@ -233,5 +233,6 @@
   "ossLicense": "OSS অনুজ্ঞাপত্ৰসমূহ",
   "achievementWeeklyLabel": "এই সপ্তাহৰ ঔষধ সেৱন",
   "achievementWeeklyCountSuffix": "/{scheduledCount} বাৰ",
-  "achievementStreakLabel": "ধাৰাবাহিক ৰেকৰ্ড"
+  "achievementStreakLabel": "ধাৰাবাহিক ৰেকৰ্ড",
+  "achievementStreakDaysSuffix": "দিন"
 }

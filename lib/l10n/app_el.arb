@@ -233,5 +233,6 @@
   "ossLicense": "Άδειες OSS",
   "achievementWeeklyLabel": "Λήψη φαρμάκων αυτή την εβδομάδα",
   "achievementWeeklyCountSuffix": "/{scheduledCount} φορές",
-  "achievementStreakLabel": "Σερί"
+  "achievementStreakLabel": "Σερί",
+  "achievementStreakDaysSuffix": "ημέρες"
 }
