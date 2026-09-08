@@ -144,7 +144,7 @@
   "purchaseRestored": "Købsoplysningerne er gendannet",
   "medicationTimeFollowup": "Opfølgning på medicineringstidspunkt",
   "updateRequired": "Opdatering påkrævet",
-  "updateRequiredMessage": "Opdater venligst til den nyeste version fra {storeName}.",
+  "updateRequiredMessage": "Opdater til den nyeste version fra {storeName}",
   "screenshotMedicationHistoriesMemo": "Jeg sov for længe og forsinkede at tage medicinen.",
   "screenshotMedicationDoserReceiver1": "Selv",
   "screenshotMedicationDoserReceiver2": "Mina",

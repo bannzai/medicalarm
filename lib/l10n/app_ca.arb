@@ -144,7 +144,7 @@
   "purchaseRestored": "S’ha restaurat la informació de compra",
   "medicationTimeFollowup": "Seguiment de l’hora de prendre la medicació",
   "updateRequired": "Cal actualitzar",
-  "updateRequiredMessage": "Actualitzeu a la darrera versió des de {storeName}",
+  "updateRequiredMessage": "Actualitza a la versió més recent des de {storeName}",
   "screenshotMedicationHistoriesMemo": "He dormit massa i he arribat tard per prendre la medicina.",
   "screenshotMedicationDoserReceiver1": "jo mateix",
   "screenshotMedicationDoserReceiver2": "Mana-chan",

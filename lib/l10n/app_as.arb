@@ -144,7 +144,7 @@
   "purchaseRestored": "ক্ৰয়ৰ তথ্য পুনৰুদ্ধাৰ কৰা হৈছে",
   "medicationTimeFollowup": "ঔষধ সেৱনৰ সময়ৰ অনুসৰণ",
   "updateRequired": "আপডেট আৱশ্যক",
-  "updateRequiredMessage": "{storeName} এ সর্বশেষ সংস্করণে আপডেট করুন",
+  "updateRequiredMessage": "অনুগ্ৰহ কৰি {storeName}-ৰ পৰা শেহতীয়া সংস্কৰণলৈ আপডেট কৰক",
   "screenshotMedicationHistoriesMemo": "?দীর্ঘ সময় ঘুমিয়ে ছিলাম, তাই ঔষধ খাওয়ার সময় বেশি হয়ে গেছে.",
   "screenshotMedicationDoserReceiver1": "নিজে",
   "screenshotMedicationDoserReceiver2": "মনা চাঁন",

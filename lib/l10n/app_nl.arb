@@ -144,7 +144,7 @@
   "purchaseRestored": "Aankoopgegevens zijn hersteld",
   "medicationTimeFollowup": "Opvolging van het medicatiemoment",
   "updateRequired": "Update vereist",
-  "updateRequiredMessage": "Update naar de nieuwste versie van {storeName}",
+  "updateRequiredMessage": "Werk bij naar de nieuwste versie via {storeName}",
   "screenshotMedicationHistoriesMemo": "Te lang geslapen, waardoor ik te laat ben met het innemen van mijn medicijnen.",
   "screenshotMedicationDoserReceiver1": "zelf",
   "screenshotMedicationDoserReceiver2": "Mana-chan",

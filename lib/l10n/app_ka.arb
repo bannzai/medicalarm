@@ -144,7 +144,7 @@
   "purchaseRestored": "შეძენის ინფორმაცია აღდგენილია",
   "medicationTimeFollowup": "მედიკამენტის მიღების დროის შემდგომი შეხსენება",
   "updateRequired": "საჭიროა განახლება",
-  "updateRequiredMessage": "განახლება საჭიროა {storeName}-დან.",
+  "updateRequiredMessage": "გთხოვთ, განაახლოთ უახლეს ვერსიაზე {storeName}-იდან",
   "screenshotMedicationHistoriesMemo": "მოიწამლეთ, რომ გადამწყვეტი დროები დაგროვდეს",
   "screenshotMedicationDoserReceiver1": "ჩემი",
   "screenshotMedicationDoserReceiver2": "მანაუა",

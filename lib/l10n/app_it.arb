@@ -144,7 +144,7 @@
   "purchaseRestored": "Le informazioni sull’acquisto sono state ripristinate",
   "medicationTimeFollowup": "Seguito dell’orario di assunzione del farmaco",
   "updateRequired": "Aggiornamento richiesto",
-  "updateRequiredMessage": "Aggiorna all'ultima versione disponibile da {storeName}.",
+  "updateRequiredMessage": "Aggiorna all’ultima versione da {storeName}",
   "screenshotMedicationHistoriesMemo": "Ho fatto un sonnellino troppo lungo e ho tardato a prendere le medicine.",
   "screenshotMedicationDoserReceiver1": "se stesso",
   "screenshotMedicationDoserReceiver2": "Mina",

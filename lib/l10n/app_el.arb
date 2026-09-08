@@ -144,7 +144,7 @@
   "purchaseRestored": "Οι πληροφορίες αγοράς επαναφέρθηκαν",
   "medicationTimeFollowup": "Παρακολούθηση ώρας λήψης φαρμάκου",
   "updateRequired": "Απαιτείται ενημέρωση",
-  "updateRequiredMessage": "Παρακαλούμε ενημερώστε την εφαρμογή σας στην τελευταία έκδοση από το {storeName}.",
+  "updateRequiredMessage": "Ενημερώστε στην πιο πρόσφατη έκδοση από το {storeName}",
   "screenshotMedicationHistoriesMemo": "Ξέχασα να πάρω το φάρμακό μου επειδή κοιμήθηκα πολύ.",
   "screenshotMedicationDoserReceiver1": "εαυτός",
   "screenshotMedicationDoserReceiver2": "Μάνα (Mάna)",

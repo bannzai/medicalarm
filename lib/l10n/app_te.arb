@@ -144,7 +144,7 @@
   "purchaseRestored": "కొనుగోలు సమాచారం పునరుద్ధరించబడింది",
   "medicationTimeFollowup": "మందు తీసుకునే సమయాన్ని అనుసరించడం",
   "updateRequired": "అప్‌డేట్ అవసరం",
-  "updateRequiredMessage": "దయచేసి {storeName} నుండి తాజా సంచికకు అప్‌డేట్ చేయండి.",
+  "updateRequiredMessage": "దయచేసి {storeName} నుండి తాజా వెర్షన్‌కు అప్‌డేట్ చేయండి",
   "screenshotMedicationHistoriesMemo": "రోజులో మందు తీసుకునే సమయం ఆలస్యమైంది",
   "screenshotMedicationDoserReceiver1": "నేను",
   "screenshotMedicationDoserReceiver2": "మనా చాన్",

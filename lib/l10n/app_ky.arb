@@ -144,7 +144,7 @@
   "purchaseRestored": "Сатып алуу маалыматы калыбына келтирилди",
   "medicationTimeFollowup": "Дары ичүү убактысын көзөмөлдөө",
   "updateRequired": "Жаңыртуу талап кылынат",
-  "updateRequiredMessage": "{storeName}дан акыркы версиясына жаңыртыңыз",
+  "updateRequiredMessage": "{storeName} аркылуу эң акыркы версияга жаңыртыңыз",
   "screenshotMedicationHistoriesMemo": "Күнüllүк четин көп уканымдан дарыны ичкен убактым кечигип калды.",
   "screenshotMedicationDoserReceiver1": "Өзүм",
   "screenshotMedicationDoserReceiver2": "Мана-чан",

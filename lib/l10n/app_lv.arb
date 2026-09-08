@@ -144,7 +144,7 @@
   "purchaseRestored": "Pirkuma informācija ir atjaunota",
   "medicationTimeFollowup": "Zāļu lietošanas laika uzraudzība",
   "updateRequired": "Nepieciešams atjauninājums",
-  "updateRequiredMessage": "Lūdzu, atjaunojiet uz jaunāko versiju no {storeName}.",
+  "updateRequiredMessage": "Lūdzu, atjauniniet uz jaunāko versiju no {storeName}",
   "screenshotMedicationHistoriesMemo": "Pārāk ilgi gulēju pa dienu, tāpēc zāļu dzeršanas laiks kavējās.",
   "screenshotMedicationDoserReceiver1": "Es",
   "screenshotMedicationDoserReceiver2": "Mana-chan",

@@ -144,7 +144,7 @@
   "purchaseRestored": "Informacionet e blerjes u rikthyen",
   "medicationTimeFollowup": "Ndjekja e orarit të marrjes së ilaçit",
   "updateRequired": "Kërkohet përditësim",
-  "updateRequiredMessage": "Ju lutem përditësoni në versionin më të fundit nga {storeName}.",
+  "updateRequiredMessage": "Përditësoni në versionin më të fundit nga {storeName}",
   "screenshotMedicationHistoriesMemo": "Kam një gjumë të gjatë dhe harrova të merrja ilaçin në kohë.",
   "screenshotMedicationDoserReceiver1": "Vetja",
   "screenshotMedicationDoserReceiver2": "Mana-chan",

@@ -144,7 +144,7 @@
   "purchaseRestored": "Kjøpsinformasjonen er gjenopprettet",
   "medicationTimeFollowup": "Oppfølging av medisineringstidspunkt",
   "updateRequired": "Oppdatering kreves",
-  "updateRequiredMessage": "Vennligst oppdater til den nyeste versjonen fra {storeName}",
+  "updateRequiredMessage": "Oppdater til den nyeste versjonen fra {storeName}",
   "screenshotMedicationHistoriesMemo": "Sov for lenge og forsinket legemiddeltid",
   "screenshotMedicationDoserReceiver1": "Deg selv",
   "screenshotMedicationDoserReceiver2": "Mina",

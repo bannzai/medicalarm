@@ -144,7 +144,7 @@
   "purchaseRestored": "Purchase information restored",
   "medicationTimeFollowup": "Medication time follow-up",
   "updateRequired": "Update Required",
-  "updateRequiredMessage": "Please update to the latest version from {storeName}.",
+  "updateRequiredMessage": "Please update to the latest version from {storeName}",
   "screenshotMedicationHistoriesMemo": "I took a long nap and missed my medication time.",
   "screenshotMedicationDoserReceiver1": "yourself",
   "screenshotMedicationDoserReceiver2": "Mana-chan",

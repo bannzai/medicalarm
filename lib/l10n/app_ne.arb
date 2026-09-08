@@ -144,7 +144,7 @@
   "purchaseRestored": "खरिदसम्बन्धी जानकारी पुनर्स्थापना गरियो",
   "medicationTimeFollowup": "औषध सेवन समयको फलो-अप",
   "updateRequired": "अपडेट आवश्यक छ",
-  "updateRequiredMessage": "{storeName} मा नवीनतम संस्करणमा अपग्रेड गर्नुहोस्",
+  "updateRequiredMessage": "कृपया {storeName} बाट नवीनतम संस्करणमा अपडेट गर्नुहोस्",
   "screenshotMedicationHistoriesMemo": "दिउँसो धेरै सुतेर औषधि खाने समय ढिला भयो",
   "screenshotMedicationDoserReceiver1": "आफ्नो",
   "screenshotMedicationDoserReceiver2": "माना चाँन",

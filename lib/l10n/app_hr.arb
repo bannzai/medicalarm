@@ -144,7 +144,7 @@
   "purchaseRestored": "Informacije o kupnji su vraćene",
   "medicationTimeFollowup": "Praćenje vremena uzimanja lijeka",
   "updateRequired": "Potrebno je ažuriranje",
-  "updateRequiredMessage": "Ažurirajte na najnoviju verziju iz {storeName}",
+  "updateRequiredMessage": "Ažurirajte na najnoviju verziju putem trgovine {storeName}",
   "screenshotMedicationHistoriesMemo": "Previše sam spavao i zakasnio uzeti lijek.",
   "screenshotMedicationDoserReceiver1": "Ja",
   "screenshotMedicationDoserReceiver2": "Mala-chan",

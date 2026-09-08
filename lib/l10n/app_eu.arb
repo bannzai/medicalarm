@@ -144,7 +144,7 @@
   "purchaseRestored": "Erosketa-informazioa leheneratu da",
   "medicationTimeFollowup": "Botika hartzeko orduaren jarraipena",
   "updateRequired": "Eguneratzea beharrezkoa da",
-  "updateRequiredMessage": "Eguneratu {storeName}tik azken bertsiora.",
+  "updateRequiredMessage": "Eguneratu azken bertsiora {storeName} dendatik",
   "screenshotMedicationHistoriesMemo": "Lo egon dutelako, botika hartzeko ordua berandu iritsi da",
   "screenshotMedicationDoserReceiver1": "Nere",
   "screenshotMedicationDoserReceiver2": "Mana-neska",

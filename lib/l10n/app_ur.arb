@@ -144,7 +144,7 @@
   "purchaseRestored": "خریداری کی معلومات بحال کر دی گئی ہیں",
   "medicationTimeFollowup": "دوا لینے کے وقت کی پیروی",
   "updateRequired": "اپ ڈیٹ ضروری ہے",
-  "updateRequiredMessage": "{storeName} سے تازہ ترین ورژن کو اپ ڈیٹ کریں",
+  "updateRequiredMessage": "براہِ کرم {storeName} سے تازہ ترین ورژن پر اپ ڈیٹ کریں",
   "screenshotMedicationHistoriesMemo": "دوپہر کی نیند میں بہت وقت گزارنے کی وجہ سے دوائی لینے کا وقت لیٹ ہوگیا",
   "screenshotMedicationDoserReceiver1": "اپنا",
   "screenshotMedicationDoserReceiver2": "مانا چان",

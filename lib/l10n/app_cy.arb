@@ -144,7 +144,7 @@
   "purchaseRestored": "Mae gwybodaeth y pryniant wedi’i hadfer",
   "medicationTimeFollowup": "Dilyniant amser cymryd meddyginiaeth",
   "updateRequired": "Mae angen diweddaru",
-  "updateRequiredMessage": "Diupdate i'r fersiwn ddiweddaraf o {storeName}",
+  "updateRequiredMessage": "Diweddarwch i’r fersiwn ddiweddaraf o {storeName}",
   "screenshotMedicationHistoriesMemo": "Gorwennais wedi diweddaru'r amser ymgynnull oherwydd cysgu gormod yn ystod y dydd.",
   "screenshotMedicationDoserReceiver1": "ei hun",
   "screenshotMedicationDoserReceiver2": "Mana-chan",

@@ -144,7 +144,7 @@
   "purchaseRestored": "खरेदीची माहिती पुनर्संचयित केली आहे",
   "medicationTimeFollowup": "औषध घेण्याच्या वेळेचा पाठपुरावा",
   "updateRequired": "अपडेट आवश्यक आहे",
-  "updateRequiredMessage": "{storeName} कडून नवीनतम अद्यतन करा.",
+  "updateRequiredMessage": "कृपया {storeName} वरून नवीनतम आवृत्तीवर अपडेट करा",
   "screenshotMedicationHistoriesMemo": "दुपारच्या झोपेमुळे औषध घेण्याची वेळ उशीरा झाली",
   "screenshotMedicationDoserReceiver1": "आपण",
   "screenshotMedicationDoserReceiver2": "मना-चाण",

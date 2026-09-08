@@ -144,7 +144,7 @@
   "purchaseRestored": "Kjøpsinformasjonen er gjenopprettet",
   "medicationTimeFollowup": "Oppfølging av medisineringstidspunkt",
   "updateRequired": "Oppdatering kreves",
-  "updateRequiredMessage": "Vennligst oppdater til den nyeste versjonen fra {storeName}",
+  "updateRequiredMessage": "Oppdater til den nyeste versjonen fra {storeName}",
   "screenshotMedicationHistoriesMemo": "Har sovet for mye på dagen, så jeg tok medisinen for sent.",
   "screenshotMedicationDoserReceiver1": "Seg selv",
   "screenshotMedicationDoserReceiver2": "Manna-chan",

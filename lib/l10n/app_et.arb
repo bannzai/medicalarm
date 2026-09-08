@@ -144,7 +144,7 @@
   "purchaseRestored": "Ostuinfo taastati",
   "medicationTimeFollowup": "Ravimi võtmise aja järelmeeldetuletus",
   "updateRequired": "Vajalik on värskendus",
-  "updateRequiredMessage": "Palun uue versiooni saamiseks {storeName} uuendage.",
+  "updateRequiredMessage": "Palun värskendage {storeName} kaudu uusimale versioonile",
   "screenshotMedicationHistoriesMemo": "Ma magasin rahulda liiga palju ja ravimi võtmise aeg jäi hiljaks.",
   "screenshotMedicationDoserReceiver1": "ise",
   "screenshotMedicationDoserReceiver2": "Manna-chan",

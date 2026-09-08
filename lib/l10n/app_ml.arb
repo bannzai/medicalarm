@@ -144,7 +144,7 @@
   "purchaseRestored": "വാങ്ങൽ വിവരങ്ങൾ പുനഃസ്ഥാപിച്ചു",
   "medicationTimeFollowup": "മരുന്ന് കഴിക്കുന്ന സമയത്തിന്റെ തുടർ ഓർമ്മപ്പെടുത്തൽ",
   "updateRequired": "അപ്‌ഡേറ്റ് ആവശ്യമാണ്",
-  "updateRequiredMessage": "{storeName}നിന്ന് ഏറ്റവും പുതിയ പതിപ്പിലേക്ക് പുതുക്കുക.",
+  "updateRequiredMessage": "ദയവായി {storeName}-ൽ നിന്ന് ഏറ്റവും പുതിയ പതിപ്പിലേക്ക് അപ്‌ഡേറ്റ് ചെയ്യുക",
   "screenshotMedicationHistoriesMemo": "ഞാൻ നിദ്രയെടുത്തതുകൊണ്ട് മരുന്ന് കഴിക്കാനുള്ള സമയം പ്രായാസമായി കഴിഞ്ഞു.",
   "screenshotMedicationDoserReceiver1": "എനിക്ക്",
   "screenshotMedicationDoserReceiver2": "മാന ചാൻ",

@@ -144,7 +144,7 @@
   "purchaseRestored": "Naibalik ang impormasyon ng pagbili",
   "medicationTimeFollowup": "Pagsubaybay sa oras ng pag-inom ng gamot",
   "updateRequired": "Kailangan ng update",
-  "updateRequiredMessage": "Pakitang mag-update mula sa {storeName} sa pinakabagong bersyon.",
+  "updateRequiredMessage": "Mag-update sa pinakabagong bersyon mula sa {storeName}",
   "screenshotMedicationHistoriesMemo": "Nakatulog ako ng masyado kaya nahuli ako sa oras ng pag-inom ng gamot.",
   "screenshotMedicationDoserReceiver1": "Sarili",
   "screenshotMedicationDoserReceiver2": "Manana-chan",

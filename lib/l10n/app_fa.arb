@@ -144,7 +144,7 @@
   "purchaseRestored": "اطلاعات خرید بازیابی شد",
   "medicationTimeFollowup": "پیگیری زمان مصرف دارو",
   "updateRequired": "به‌روزرسانی لازم است",
-  "updateRequiredMessage": "لطفاً از {storeName} به آخرین نسخه به‌روزرسانی کنید.",
+  "updateRequiredMessage": "لطفاً از {storeName} به جدیدترین نسخه به‌روزرسانی کنید",
   "screenshotMedicationHistoriesMemo": "بیش از حد چرت زده‌ام و زمان مصرف دارویم به تأخیر افتاده است",
   "screenshotMedicationDoserReceiver1": "شخص خود",
   "screenshotMedicationDoserReceiver2": "مانا جان",

@@ -144,7 +144,7 @@
   "purchaseRestored": "የግዢ መረጃ ተመልሷል",
   "medicationTimeFollowup": "የመድሃኒት መውሰጃ ጊዜ ክትትል",
   "updateRequired": "ማዘመን ያስፈልጋል",
-  "updateRequiredMessage": "እቅፍ አውታረ ድር {storeName} ወደ ምርጥ አማራጭ ይቀይሩ።",
+  "updateRequiredMessage": "እባክዎ ከ{storeName} የቅርብ ጊዜውን ስሪት ያውርዱ",
   "screenshotMedicationHistoriesMemo": "በማለዳ በጣም የተቀመጥኩ ስለዚህ አይተማር ዝውውም ማድረግ አለብኝ",
   "screenshotMedicationDoserReceiver1": "እንደዚህ ያለው የመዋቅር ተገንቢ ይመለከታል",
   "screenshotMedicationDoserReceiver2": "ማና ቻን",

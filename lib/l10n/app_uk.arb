@@ -144,7 +144,7 @@
   "purchaseRestored": "Інформацію про покупку відновлено",
   "medicationTimeFollowup": "Контроль часу прийому ліків",
   "updateRequired": "Потрібне оновлення",
-  "updateRequiredMessage": "Please update to the latest version from {storeName}.",
+  "updateRequiredMessage": "Оновіть до останньої версії з {storeName}",
   "screenshotMedicationHistoriesMemo": "I took too long a nap and missed my medicine time.",
   "screenshotMedicationDoserReceiver1": "Myself",
   "screenshotMedicationDoserReceiver2": "Mana-chan",

@@ -144,7 +144,7 @@
   "purchaseRestored": "Informațiile despre achiziție au fost restaurate",
   "medicationTimeFollowup": "Urmărirea orei de administrare a medicamentului",
   "updateRequired": "Este necesară o actualizare",
-  "updateRequiredMessage": "Vă rugăm să actualizați la ultima versiune de la {storeName}",
+  "updateRequiredMessage": "Actualizați la cea mai recentă versiune din {storeName}",
   "screenshotMedicationHistoriesMemo": "Am făcut prea multe sieste și am întârziat să iau medicamentele.",
   "screenshotMedicationDoserReceiver1": "eu însumi",
   "screenshotMedicationDoserReceiver2": "Mana-chan",

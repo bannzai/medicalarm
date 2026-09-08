@@ -144,7 +144,7 @@
   "purchaseRestored": "Информация о покупке восстановлена",
   "medicationTimeFollowup": "Контроль времени приёма лекарства",
   "updateRequired": "Требуется обновление",
-  "updateRequiredMessage": "Пожалуйста, обновите до последней версии из {storeName}.",
+  "updateRequiredMessage": "Обновите приложение до последней версии из {storeName}",
   "screenshotMedicationHistoriesMemo": "Я слишком долго дремал и запоздал с приемом лекарства",
   "screenshotMedicationDoserReceiver1": "Я сам",
   "screenshotMedicationDoserReceiver2": "Мана-чан",

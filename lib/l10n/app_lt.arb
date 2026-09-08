@@ -144,7 +144,7 @@
   "purchaseRestored": "Pirkimo informacija atkurta",
   "medicationTimeFollowup": "Vaistų vartojimo laiko priminimas",
   "updateRequired": "Reikia atnaujinti",
-  "updateRequiredMessage": "Prašome atnaujinti į naujausią versiją iš {storeName}",
+  "updateRequiredMessage": "Atnaujinkite į naujausią versiją iš {storeName}",
   "screenshotMedicationHistoriesMemo": "Per ilges aš per ilgai miegojau, todėl vaisto vartojimo laikas vėlavo.",
   "screenshotMedicationDoserReceiver1": "savo",
   "screenshotMedicationDoserReceiver2": "Mana",

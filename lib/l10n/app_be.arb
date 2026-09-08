@@ -144,7 +144,7 @@
   "purchaseRestored": "Інфармацыя аб пакупцы адноўлена",
   "medicationTimeFollowup": "Напамін пра час прыёму лекаў",
   "updateRequired": "Патрабуецца абнаўленне",
-  "updateRequiredMessage": "Абновіце да апошняй версіі ад {storeName}",
+  "updateRequiredMessage": "Абнавіце да апошняй версіі з {storeName}",
   "screenshotMedicationHistoriesMemo": "Занадта доўга спаў, таму час прыёму лекі затрымаўся.",
   "screenshotMedicationDoserReceiver1": "свой",
   "screenshotMedicationDoserReceiver2": "Мана-сан",

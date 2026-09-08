@@ -144,7 +144,7 @@
   "purchaseRestored": "ખરીદીની માહિતી પુનઃસ્થાપિત કરવામાં આવી છે",
   "medicationTimeFollowup": "દવા લેવાના સમયનું અનુસરણ",
   "updateRequired": "અપડેટ જરૂરી છે",
-  "updateRequiredMessage": "{storeName}થી చివરીન અપડેટ કરો",
+  "updateRequiredMessage": "કૃપા કરીને {storeName} પરથી નવીનતમ સંસ્કરણ પર અપડેટ કરો",
   "screenshotMedicationHistoriesMemo": "દુપલ્લી વધારે ઉંઘી ગયો હોવાથી મેડિસિન પીલવાનો સમય મોડો થયો",
   "screenshotMedicationDoserReceiver1": "તેવો",
   "screenshotMedicationDoserReceiver2": "મના ચાં",

@@ -144,7 +144,7 @@
   "purchaseRestored": "Naibalik ang impormasyon ng pagbili",
   "medicationTimeFollowup": "Pagsubaybay sa oras ng pag-inom ng gamot",
   "updateRequired": "Kailangang mag-update",
-  "updateRequiredMessage": "Pakisama mo ang pinakabagos na update mula sa {storeName}.",
+  "updateRequiredMessage": "Paki-update sa pinakabagong bersyon mula sa {storeName}",
   "screenshotMedicationHistoriesMemo": "Kakaingat sa sobrang paghihimbing, naantala ang oras ng pag-inom ng gamot",
   "screenshotMedicationDoserReceiver1": "sarili",
   "screenshotMedicationDoserReceiver2": "Mana-chan",

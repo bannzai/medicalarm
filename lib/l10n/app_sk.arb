@@ -144,7 +144,7 @@
   "purchaseRestored": "Informácie o nákupe boli obnovené",
   "medicationTimeFollowup": "Sledovanie času užitia lieku",
   "updateRequired": "Vyžaduje sa aktualizácia",
-  "updateRequiredMessage": "Aktualizujte na najnovšiu verziu z {storeName}",
+  "updateRequiredMessage": "Aktualizujte na najnovšiu verziu z obchodu {storeName}",
   "screenshotMedicationHistoriesMemo": "Príliš dlhý spánok spôsobil, že som si nenechal na čas na užitie lieku",
   "screenshotMedicationDoserReceiver1": "seba",
   "screenshotMedicationDoserReceiver2": "Mana-chan",

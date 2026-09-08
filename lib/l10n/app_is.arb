@@ -144,7 +144,7 @@
   "purchaseRestored": "Kaupupplýsingar hafa verið endurheimtar",
   "medicationTimeFollowup": "Eftirfylgni með lyfjatíma",
   "updateRequired": "Uppfærsla nauðsynleg",
-  "updateRequiredMessage": "Vinsamlegast uppfærðu í nýjustu útgáfu frá {storeName}",
+  "updateRequiredMessage": "Uppfærðu í nýjustu útgáfuna frá {storeName}",
   "screenshotMedicationHistoriesMemo": "Ég tók of mikið siestu og tók lyfið of seint.",
   "screenshotMedicationDoserReceiver1": "Ég",
   "screenshotMedicationDoserReceiver2": "Mona",

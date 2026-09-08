@@ -144,7 +144,7 @@
   "purchaseRestored": "Худалдан авалтын мэдээллийг сэргээсэн",
   "medicationTimeFollowup": "Эм уух цагийн хяналт",
   "updateRequired": "Шинэчлэх шаардлагатай",
-  "updateRequiredMessage": "{storeName} -аас хамгийн сүүлийн хувилбарт шинэчлэлт хийнэ үү",
+  "updateRequiredMessage": "{storeName}-оос хамгийн сүүлийн хувилбар руу шинэчилнэ үү",
   "screenshotMedicationHistoriesMemo": "Өдөр дунд наадмаар хэт их унтаж, эмээ уух цаг хоцорсон.",
   "screenshotMedicationDoserReceiver1": "Өөрийн",
   "screenshotMedicationDoserReceiver2": "Манако",

@@ -144,7 +144,7 @@
   "purchaseRestored": "Przywrócono informacje o zakupie",
   "medicationTimeFollowup": "Przypomnienie o przyjęciu leku",
   "updateRequired": "Wymagana aktualizacja",
-  "updateRequiredMessage": "Proszę zaktualizować do najnowszej wersji z {storeName}",
+  "updateRequiredMessage": "Zaktualizuj do najnowszej wersji z {storeName}",
   "screenshotMedicationHistoriesMemo": "Zaspałem na drzemkę, przez co spóźniłem się z zażyciem leku.",
   "screenshotMedicationDoserReceiver1": "jałowy",
   "screenshotMedicationDoserReceiver2": "Mana-chan",

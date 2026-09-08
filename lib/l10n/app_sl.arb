@@ -144,7 +144,7 @@
   "purchaseRestored": "Podatki o nakupu so bili obnovljeni",
   "medicationTimeFollowup": "Spremljanje časa jemanja zdravila",
   "updateRequired": "Potrebna je posodobitev",
-  "updateRequiredMessage": "Prosimo, posodobite na najnovejšo različico iz {storeName}.",
+  "updateRequiredMessage": "Posodobite na najnovejšo različico iz trgovine {storeName}",
   "screenshotMedicationHistoriesMemo": "Preveč sem dremal, zato sem zamuja z jemanje zdravila.",
   "screenshotMedicationDoserReceiver1": "jaz",
   "screenshotMedicationDoserReceiver2": "Mina",

@@ -144,7 +144,7 @@
   "purchaseRestored": "ກູ້ຄືນຂໍ້ມູນການຊື້ແລ້ວ",
   "medicationTimeFollowup": "ຕິດຕາມເວລາກິນຢາ",
   "updateRequired": "ຈຳເປັນຕ້ອງອັບເດດ",
-  "updateRequiredMessage": "{storeName}ແຕ່ອັບເດດໃໝ່ສຸດໃໝ່",
+  "updateRequiredMessage": "ກະລຸນາອັບເດດເປັນລຸ້ນຫຼ້າສຸດຈາກ {storeName}",
   "screenshotMedicationHistoriesMemo": "ຂໍແອວໃຊໃຈຫຼາຍເກີນໄປ ບໍ່ໃສເວລາດື່ມຢາໃຫ້ແລະມັນຕໍ່ມາຊໍາໃຫ້ທ່ານ.",
   "screenshotMedicationDoserReceiver1": "ຕົວທ່ານ",
   "screenshotMedicationDoserReceiver2": "ມານາຈານ",

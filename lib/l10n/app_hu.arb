@@ -144,7 +144,7 @@
   "purchaseRestored": "A vásárlási információk vissza lettek állítva",
   "medicationTimeFollowup": "Gyógyszerbevétel időpontjának nyomon követése",
   "updateRequired": "Frissítés szükséges",
-  "updateRequiredMessage": "Kérjük, frissítse a legújabb verzióra a(z) {storeName} alkalmazásból.",
+  "updateRequiredMessage": "Kérjük, frissítsen a {storeName} legújabb verziójára",
   "screenshotMedicationHistoriesMemo": "Túl sokáig aludtam a napközbeni szunyókálás közben, így késlekedtem a gyógyszer bevételével.",
   "screenshotMedicationDoserReceiver1": "saját magam",
   "screenshotMedicationDoserReceiver2": "Mana-chan",

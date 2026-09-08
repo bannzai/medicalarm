@@ -144,7 +144,7 @@
   "purchaseRestored": "Satın alma bilgileri geri yüklendi",
   "medicationTimeFollowup": "İlaç alma zamanı takibi",
   "updateRequired": "Güncelleme gerekli",
-  "updateRequiredMessage": "{storeName}'den en son sürüme güncelleyin.",
+  "updateRequiredMessage": "Lütfen {storeName} üzerinden en son sürüme güncelleyin",
   "screenshotMedicationHistoriesMemo": "Gündüz uykusunu fazla uyudum, ilaç alma zamanım gecikti.",
   "screenshotMedicationDoserReceiver1": "Kendisi",
   "screenshotMedicationDoserReceiver2": "Mina",

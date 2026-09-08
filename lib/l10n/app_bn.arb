@@ -144,7 +144,7 @@
   "purchaseRestored": "ক্রয়ের তথ্য পুনরুদ্ধার করা হয়েছে",
   "medicationTimeFollowup": "ওষুধ খাওয়ার সময়ের অনুস্মারক",
   "updateRequired": "আপডেট প্রয়োজন",
-  "updateRequiredMessage": "{storeName} থেকে সর্বশেষ সংস্করণটিতে আপডেট করুন",
+  "updateRequiredMessage": "অনুগ্রহ করে {storeName} থেকে সর্বশেষ সংস্করণে আপডেট করুন",
   "screenshotMedicationHistoriesMemo": "দিবিথাকুর ঘুমিয়ে পড়ার কারণে ওষুধ নেওয়ার সময় দেরি হয়ে গেছে",
   "screenshotMedicationDoserReceiver1": "আমি",
   "screenshotMedicationDoserReceiver2": "মানা চাঁন",
