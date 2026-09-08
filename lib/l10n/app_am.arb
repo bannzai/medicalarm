@@ -119,7 +119,7 @@
   "purchaseErrorMissingReceipt": "የገዢው መረጃ የለም። በዚህ መሣሪያ ላይ በ{accountName} ይግቡና እንደገና ይሞክሩ።",
   "purchaseErrorNetwork": "የአውታረ መረብ ሁኔታ ያልተረጋጋ ነው። እባክዎ ግንኙነቱን ያረጋግጡና እንደገና ይሞክሩ።",
   "purchaseNotAllowed": "በዚህ መሣሪያ ላይ ግዢ አይፈቀድም",
-  "purchaseErrorInvalidCredentials": "ውድ ግዜ ተወውቀው ይሞክሩ። የግዢ ቅርጷት የተላከ ይቅርታ። ይህ ቅርጷው አካል በተጓዙ እና እንደገና እንደ ተደረገ ይሰማኙ። ኣንዳንድ ዝግባ እንደሆነ ፍጥነት እንዲዉለው። ዝምድን በላይ ምዕንቱች ጥናት ይሰፍን ድህዩ ተወላጅ ወተይቅዋትን ገቝት ይህ ይኖር ወንደን ተቀባ ይወድድ ይህ {message} ቅድም በነጥብ የኔትርክ የ኉ሌዪ ብላዋ ሳይለወድር እንዳወኝ።",
+  "purchaseErrorInvalidCredentials": "ግዢው አልተሳካም። እባክዎ ቆይተው እንደገና ይሞክሩ። ችግሩ ከቀጠለ፣ ቅንብሮች > ያግኙን በመሄድ ያግኙን። ዝርዝሮች፦ {message}",
   "purchaseErrorUnexpectedBackend": "አሁን ግዢ ይሰርዮናል። እባኮትን ጊዜ ይወጣና ዳግመ ይሞክሩ። እንዲያውም አስቸኳይ አይሆን እንደገና ይጠይቁ እንደ {message} ይችላሉ።",
   "purchaseErrorOperationInProgress": "የግዥ ሂደት በተለይ ቀጥመዋል። እባኮትን አንድ ጊዜ ይታይ ይመልከቱ እንደ ቀድሞ ይወዳድሩ።",
   "purchaseErrorInsufficientPermissions": "በ{accountName} መለያዎ ዕቅዱን መመዝገብ አይችሉም። እባክዎ የክፍያ መረጃዎን ያረጋግጡና እንደገና ይሞክሩ።",

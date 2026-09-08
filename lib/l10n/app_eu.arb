@@ -119,7 +119,7 @@
   "purchaseErrorMissingReceipt": "Eroslearen informaziorik ez dago. Hasi saioa gailu honetan {accountName} erabiliz eta saiatu berriro.",
   "purchaseErrorNetwork": "Sareko konexioa ezegonkorra da. Egiaztatu konexioa eta saiatu berriro.",
   "purchaseNotAllowed": "Erosketak ez daude baimenduta gailu honetan",
-  "purchaseErrorInvalidCredentials": "Erosketa huts egin da. Mesedez, itxaron denbora bat eta saiatu berriro. Arazoa konpontzen ez bada, jar zaitez harremanetan ezarpenak > Kontsultatu bidez. Xehetasunak: {message}",
+  "purchaseErrorInvalidCredentials": "Erosketak huts egin du. Saiatu berriro geroago. Arazoak jarraitzen badu, jar zaitez gurekin harremanetan Ezarpenak > Jarri gurekin harremanetan atalean. Xehetasunak: {message}",
   "purchaseErrorUnexpectedBackend": "Ezin da orain erosi. Itxaron tarte bat eta saiatu berriro. Irtenbiderik ez badago, joan ezazu Ezarpenak > Kontsulta atala eta egin iezaguzu galdera. Xehetasunak: {message}",
   "purchaseErrorOperationInProgress": "Erosketa prozesua aurrera doa. Itxaron eta berriro egiaztatu mesedez.",
   "purchaseErrorInsufficientPermissions": "Ez {accountName} erabiliz ez zaitezke plana gehitzen. Mesedez, egiaztatu zure ordainketa informazioa eta saiatu berriro.",

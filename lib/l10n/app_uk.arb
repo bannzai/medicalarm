@@ -119,7 +119,7 @@
   "purchaseErrorMissingReceipt": "Інформація про покупця відсутня. Увійдіть на цьому пристрої за допомогою {accountName} і спробуйте ще раз.",
   "purchaseErrorNetwork": "Стан мережі нестабільний. Перевірте підключення та повторіть спробу.",
   "purchaseNotAllowed": "Покупки на цьому пристрої не дозволені",
-  "purchaseErrorInvalidCredentials": "Purchase failed. Please wait a moment and try again. If the issue persists, please contact us via Settings > Contact Us. Details: {message}",
+  "purchaseErrorInvalidCredentials": "Не вдалося здійснити покупку. Повторіть спробу пізніше. Якщо проблема не зникне, зв’яжіться з нами через Налаштування > Зв’язатися з нами. Подробиці: {message}",
   "purchaseErrorUnexpectedBackend": "Currently, purchases cannot be made. Please try again after some time. If the issue persists, please contact us via Settings > Inquiry. Details: {message}",
   "purchaseErrorOperationInProgress": "The purchase process is already in progress. Please wait a moment and check again.",
   "purchaseErrorInsufficientPermissions": "Your {accountName} cannot subscribe to the plan. Please check your payment information and try again.",

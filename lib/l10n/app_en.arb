@@ -119,7 +119,7 @@
   "purchaseErrorMissingReceipt": "Purchaser information is unavailable. Sign in to this device with {accountName} and try again.",
   "purchaseErrorNetwork": "The network connection is unstable. Check your connection and try again.",
   "purchaseNotAllowed": "Purchases are not allowed on this device",
-  "purchaseErrorInvalidCredentials": "Purchase failed. Please try again after some time. If the issue persists, please contact us through Settings > Inquiry. Details: {message}",
+  "purchaseErrorInvalidCredentials": "The purchase failed. Please try again later. If the problem persists, contact us via Settings > Contact Us. Details: {message}",
   "purchaseErrorUnexpectedBackend": "Currently, purchases cannot be made. Please try again after some time. If the issue persists, please contact us via Settings > Inquiry. Details: {message}",
   "purchaseErrorOperationInProgress": "The purchase process is being processed separately. Please check again after some time.",
   "purchaseErrorInsufficientPermissions": "Your {accountName} is not eligible to join the plan. Please check your payment information and try again.",

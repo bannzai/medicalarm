@@ -119,7 +119,7 @@
   "purchaseErrorMissingReceipt": "Informațiile cumpărătorului nu există. Conectați-vă pe acest dispozitiv cu {accountName} și încercați din nou.",
   "purchaseErrorNetwork": "Conexiunea la rețea este instabilă. Verificați conexiunea și încercați din nou.",
   "purchaseNotAllowed": "Achizițiile nu sunt permise pe acest dispozitiv",
-  "purchaseErrorInvalidCredentials": "Achiziția a eșuat. Vă rugăm să așteptați un timp și să încercați din nou. Dacă problema persistă, vă rugăm să ne contactați prin Setări > Întrebări frecvente. Detalii: {message}",
+  "purchaseErrorInvalidCredentials": "Achiziția a eșuat. Încercați din nou mai târziu. Dacă problema persistă, contactați-ne din Setări > Contactați-ne. Detalii: {message}",
   "purchaseErrorUnexpectedBackend": "În prezent, achiziția nu este disponibilă. Vă rugăm să încercați din nou mai târziu. Dacă problema persistă, contactați-ne din Setări > Întrebări frecvente. Detalii: {message}",
   "purchaseErrorOperationInProgress": "Procesul de achiziție este în curs de desfășurare. Vă rugăm să așteptați și să verificați din nou.",
   "purchaseErrorInsufficientPermissions": "Nu puteți să vă abonați la plan cu {accountName}. Vă rugăm să verificați informațiile de plată și să încercați din nou.",

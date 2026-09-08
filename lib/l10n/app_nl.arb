@@ -119,7 +119,7 @@
   "purchaseErrorMissingReceipt": "Er is geen informatie over de koper beschikbaar. Log op dit apparaat in met {accountName} en probeer het opnieuw.",
   "purchaseErrorNetwork": "De netwerkverbinding is instabiel. Controleer de verbinding en probeer het opnieuw.",
   "purchaseNotAllowed": "Aankopen zijn niet toegestaan op dit apparaat",
-  "purchaseErrorInvalidCredentials": "De aankoop is mislukt. Probeer het opnieuw na een tijdje. Als het probleem aanhoudt, neem dan contact met ons op via Instellingen > Contact. Details: {message}",
+  "purchaseErrorInvalidCredentials": "Aankoop mislukt. Probeer het later opnieuw. Als het probleem aanhoudt, neem dan contact met ons op via Instellingen > Contact opnemen. Details: {message}",
   "purchaseErrorUnexpectedBackend": "Momenteel kunt u geen aankoop doen. Probeert u het later nog eens. Als het probleem aanhoudt, neem dan contact met ons op via Instellingen > Contact. Details: {message}",
   "purchaseErrorOperationInProgress": "De aankoopverwerking is al aan de gang. Controleer het later opnieuw.",
   "purchaseErrorInsufficientPermissions": "Met uw {accountName} kunt u zich niet aanmelden voor het plan. Controleer uw betalingsinformatie en probeer het opnieuw.",

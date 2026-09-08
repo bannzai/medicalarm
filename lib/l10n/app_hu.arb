@@ -119,7 +119,7 @@
   "purchaseErrorMissingReceipt": "A vásárló adatai nem találhatók. Jelentkezzen be ezen az eszközön a(z) {accountName} használatával, majd próbálja újra.",
   "purchaseErrorNetwork": "A hálózati kapcsolat instabil. Ellenőrizze a kapcsolatot, majd próbálja újra.",
   "purchaseNotAllowed": "A vásárlás nem engedélyezett ezen az eszközön",
-  "purchaseErrorInvalidCredentials": "A vásárlás nem sikerült. Kérjük, próbálja meg újra később. Ha a probléma továbbra is fennáll, kérjük, lépjen kapcsolatba velünk a Beállítások > Kapcsolatfelvétel menüpont alatt. Részletek: {message}",
+  "purchaseErrorInvalidCredentials": "A vásárlás sikertelen. Próbálja meg később újra. Ha a probléma továbbra is fennáll, lépjen kapcsolatba velünk a Beállítások > Kapcsolat menüpontban. Részletek: {message}",
   "purchaseErrorUnexpectedBackend": "Jelenleg nem lehet vásárolni. Kérjük, várjon egy kicsit, és próbálja meg újra. Ha a probléma továbbra is fennáll, kérjük, lépjen kapcsolatba velünk a Beállítások > Kapcsolatfelvétel menüben. Részletek: {message}.",
   "purchaseErrorOperationInProgress": "A vásárlási folyamat külön eljárásban zajlik. Kérjük, várjon egy kicsit, és ellenőrizze újra.",
   "purchaseErrorInsufficientPermissions": "A kiválasztott {accountName} nem jogosult a tervre való előfizetésre. Kérjük, ellenőrizze a fizetési információit, majd próbálja újra.",

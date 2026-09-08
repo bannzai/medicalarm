@@ -119,7 +119,7 @@
   "purchaseErrorMissingReceipt": "Informacioni i blerësit nuk ekzistojnë. Hyni në këtë pajisje me {accountName} dhe provoni përsëri.",
   "purchaseErrorNetwork": "Lidhja me rrjetin është e paqëndrueshme. Kontrolloni lidhjen dhe provoni përsëri.",
   "purchaseNotAllowed": "Blerjet nuk lejohen në këtë pajisje",
-  "purchaseErrorInvalidCredentials": "Blerja dështoi. Ju lutemi provoni përsëri pas disa kohe. Nëse problemi vazhdon, ju lutemi kontaktoni përmes Cilësimeve > Kërkoni për ndihmë. Detajet: {message}",
+  "purchaseErrorInvalidCredentials": "Blerja dështoi. Provo përsëri më vonë. Nëse problemi vazhdon, na kontakto te Cilësimet > Na kontakto. Detaje: {message}",
   "purchaseErrorUnexpectedBackend": "Aktualisht nuk mund të bëni blerje. Ju lutemi provoni përsëri pas një kohe. Nëse problemi vazhdon, ju lutemi kontaktoni përmes Cilësimeve > Kontaktoni na. Detaje: {message}",
   "purchaseErrorOperationInProgress": "Procesi i blerjes është duke vazhduar veçmas. Ju lutemi prisni pak dhe provoni përsëri.",
   "purchaseErrorInsufficientPermissions": "Me keni {accountName} nuk mund të regjistroheni për planin. Ju lutemi kontrolloni informacionin tuaj të pagesës dhe provoni përsëri.",

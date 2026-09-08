@@ -119,7 +119,7 @@
   "purchaseErrorMissingReceipt": "Le informazioni sull’acquirente non esistono. Accedi a questo dispositivo con {accountName} e riprova.",
   "purchaseErrorNetwork": "La connessione di rete è instabile. Controlla la connessione e riprova.",
   "purchaseNotAllowed": "Gli acquisti non sono consentiti su questo dispositivo",
-  "purchaseErrorInvalidCredentials": "L'acquisto è fallito. Attendere un attimo e riprovare. Se il problema persiste, contattaci tramite Impostazioni > Contattaci. Dettagli: {message}",
+  "purchaseErrorInvalidCredentials": "L’acquisto non è riuscito. Riprova più tardi. Se il problema persiste, contattaci da Impostazioni > Contattaci. Dettagli: {message}",
   "purchaseErrorUnexpectedBackend": "Attualmente non è possibile effettuare acquisti. Si prega di riprovare dopo un po'. Se il problema persiste, contattaci tramite Impostazioni > Contattaci. Dettagli: {message}",
   "purchaseErrorOperationInProgress": "Il processo di acquisto è attualmente in corso. Ti preghiamo di attendere un momento e riprovare.",
   "purchaseErrorInsufficientPermissions": "Non puoi iscriverti al piano con l'account {accountName}. Controlla le informazioni di pagamento e riprova.",

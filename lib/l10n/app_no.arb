@@ -119,7 +119,7 @@
   "purchaseErrorMissingReceipt": "Det finnes ingen informasjon om kjøperen. Logg på denne enheten med {accountName}, og prøv igjen.",
   "purchaseErrorNetwork": "Nettverkstilkoblingen er ustabil. Kontroller tilkoblingen og prøv igjen.",
   "purchaseNotAllowed": "Kjøp er ikke tillatt på denne enheten",
-  "purchaseErrorInvalidCredentials": "Kjøpet mislyktes. Vennligst vent en stund og prøv igjen. Hvis problemet vedvarer, vennligst kontakt oss via Innstillinger > Kontakt oss. Detaljer: {message}",
+  "purchaseErrorInvalidCredentials": "Kjøpet mislyktes. Prøv igjen senere. Hvis problemet vedvarer, kan du kontakte oss via Innstillinger > Kontakt oss. Detaljer: {message}",
   "purchaseErrorUnexpectedBackend": "Kjøp er for øyeblikket ikke tilgjengelig. Vennligst prøv igjen senere. Hvis problemet vedvarer, vennligst kontakt oss via Innstillinger > Forespørsel. Detaljer: {message}",
   "purchaseErrorOperationInProgress": "Kjøpsprosessen pågår allerede. Vennligst vent litt og sjekk igjen.",
   "purchaseErrorInsufficientPermissions": "Din {accountName} kan ikke bli med i planen. Vennligst sjekk betalingsinformasjonen din og prøv igjen.",

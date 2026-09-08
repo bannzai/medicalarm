@@ -119,7 +119,7 @@
   "purchaseErrorMissingReceipt": "Koperinligting bestaan nie. Meld op hierdie toestel aan met {accountName} en probeer weer.",
   "purchaseErrorNetwork": "Die netwerkverbinding is onstabiel. Kontroleer u verbinding en probeer weer.",
   "purchaseNotAllowed": "Aankope word nie op hierdie toestel toegelaat nie",
-  "purchaseErrorInvalidCredentials": "Die aankoop was onsuksesvol. Probeer asseblief weer later. As dit nie opgelos kan word nie, kontak ons asseblief via Instellings > Kontak. Besonderhede: {message}",
+  "purchaseErrorInvalidCredentials": "Aankoop het misluk. Probeer dit later weer. As die probleem voortduur, kontak ons via Instellings > Kontak ons. Besonderhede: {message}",
   "purchaseErrorUnexpectedBackend": "Tansak bie nie meer gekoop kan word nie. Wacht 'n bietjie en probeer weer. As dit nie opgelos kan word nie, kontakinligting kan gevind word onder instellings > Navraag. Besonderhede: {message}",
   "purchaseErrorOperationInProgress": "Die aankoopverwerking is steeds aan die gang. Wag asseblief 'n bietjie en kyk weer.",
   "purchaseErrorInsufficientPermissions": "U kan nie op die plan aansluit met u {accountName}. Kontroleer asseblief u betalingsinligting en probeer weer.",

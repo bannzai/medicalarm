@@ -119,7 +119,7 @@
   "purchaseErrorMissingReceipt": "Maklumat pembeli tidak wujud. Log masuk ke peranti ini menggunakan {accountName}, kemudian cuba lagi.",
   "purchaseErrorNetwork": "Keadaan rangkaian tidak stabil. Semak sambungan anda dan cuba lagi.",
   "purchaseNotAllowed": "Pembelian tidak dibenarkan pada peranti ini",
-  "purchaseErrorInvalidCredentials": "Pembelian gagal. Sila tunggu seketika dan cuba lagi. Jika masalah berlanjutan, sila hubungi kami melalui Tetapan > Pertanyaan. Butiran: {message}",
+  "purchaseErrorInvalidCredentials": "Pembelian gagal. Sila cuba lagi kemudian. Jika masalah berterusan, hubungi kami melalui Tetapan > Hubungi Kami. Butiran: {message}",
   "purchaseErrorUnexpectedBackend": "Pembelian tidak dapat dilakukan buat masa ini. Sila cuba lagi selepas beberapa waktu. Jika masalah tidak diselesaikan, sila hubungi kami melalui Tetapan > Pertanyaan. Maklumat lanjut: {message}",
   "purchaseErrorOperationInProgress": "Proses pembelian sedang dijalankan secara berasingan. Sila periksa semula selepas beberapa ketika.",
   "purchaseErrorInsufficientPermissions": "Akaun {accountName} anda tidak dapat melanggan pelan. Sila semak maklumat pembayaran anda dan cuba lagi.",

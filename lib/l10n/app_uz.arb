@@ -119,7 +119,7 @@
   "purchaseErrorMissingReceipt": "Xaridor maʼlumotlari mavjud emas. Ushbu qurilmaga {accountName} orqali kiring va qaytadan urinib ko‘ring.",
   "purchaseErrorNetwork": "Tarmoq holati beqaror. Ulanishni tekshiring va qayta urinib ko‘ring.",
   "purchaseNotAllowed": "Bu qurilmada xarid qilishga ruxsat berilmagan",
-  "purchaseErrorInvalidCredentials": "Sotib olishda xato yuz berdi. Iltimos, bir oz kutib turing va qayta urinib ko'ring. Muammo hal bo'lmasa, iltimos, Sozlamalar > Murojaat orqali biz bilan bog'laning. Tafsilotlar: {message}",
+  "purchaseErrorInvalidCredentials": "Xarid amalga oshmadi. Birozdan so‘ng qayta urinib ko‘ring. Muammo davom etsa, Sozlamalar > Biz bilan bog‘lanish bo‘limi orqali bizga murojaat qiling. Tafsilotlar: {message}",
   "purchaseErrorUnexpectedBackend": "Hozirda sotib olish imkoni mavjud emas. Iltimos, biroz vaqt kuting va qayta urinib ko'ring. Agar muammo hal bo'lmasa, Sozlamalar > Murojaat orqali biz bilan bog'laning. Tafsilotlar: {message}",
   "purchaseErrorOperationInProgress": "Sotib olish jarayoni alohida davom etmoqda. Iltimos, biroz vaqt kuting va yana bir bor tekshiring.",
   "purchaseErrorInsufficientPermissions": "Sizning {accountName} hisobingizda reja a'zosiga qo'shilish mumkin emas. Iltimos, to'lov ma'lumotlaringizni tekshiring va yana bir bor sinab ko'ring.",

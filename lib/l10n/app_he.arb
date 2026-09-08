@@ -119,7 +119,7 @@
   "purchaseErrorMissingReceipt": "פרטי הרוכש אינם קיימים. יש להתחבר למכשיר הזה באמצעות {accountName} ולנסות שוב.",
   "purchaseErrorNetwork": "מצב הרשת אינו יציב. בדקו את החיבור ונסו שוב.",
   "purchaseNotAllowed": "רכישות אינן מורשות במכשיר הזה",
-  "purchaseErrorInvalidCredentials": "לא הצלחנו לבצע את הרכישה. אנא המתן קצת ונסה שוב. אם הבעיה לא נפתרת, פנה אלינו דרך הגדרות > שאלות. פרטים: {message}",
+  "purchaseErrorInvalidCredentials": "הרכישה נכשלה. נסו שוב מאוחר יותר. אם הבעיה נמשכת, פנו אלינו דרך הגדרות > יצירת קשר. פרטים: {message}",
   "purchaseErrorUnexpectedBackend": "הקנייה לא אפשרית כרגע. אנא חכה והנסה שוב מאוחר יותר. אם זה לא נפתר, צור קשר דרך הגדרות > פניות. פרטים: {message}",
   "purchaseErrorOperationInProgress": "תהליך הרכישה מתקדם בנפרד. אנא המתן זמן מה על מנת לבדוק שוב.",
   "purchaseErrorInsufficientPermissions": "בחשבון {accountName} שלך אין אפשרות להצטרף לתוכנית. אנא בדוק את פרטי התשלום שלך וניסיון שוב.",

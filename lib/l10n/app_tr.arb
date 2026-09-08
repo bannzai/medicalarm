@@ -119,7 +119,7 @@
   "purchaseErrorMissingReceipt": "Alıcı bilgileri mevcut değil. Bu cihazda {accountName} ile giriş yapıp tekrar deneyin.",
   "purchaseErrorNetwork": "Ağ bağlantısı kararsız. Bağlantınızı kontrol edip tekrar deneyin.",
   "purchaseNotAllowed": "Bu cihazda satın alma işlemlerine izin verilmiyor",
-  "purchaseErrorInvalidCredentials": "Satın alma işlemi başarısız oldu. Lütfen bir süre bekleyip tekrar deneyin. Çözülmezse, Ayarlar > İletişim yoluyla bizimle iletişime geçin. Ayrıntılar: {message}",
+  "purchaseErrorInvalidCredentials": "Satın alma işlemi başarısız oldu. Lütfen bir süre sonra tekrar deneyin. Sorun devam ederse Ayarlar > Bize ulaşın üzerinden bizimle iletişime geçin. Ayrıntılar: {message}",
   "purchaseErrorUnexpectedBackend": "Şu anda satın alma yapılamıyor. Lütfen biraz bekleyip yeniden deneyin. Sorun çözülmezse, Ayarlar > İletişim kısmından bizimle iletişime geçin. Detaylar: {message}",
   "purchaseErrorOperationInProgress": "Satın alma işlemi ayrı olarak devam etmektedir. Lütfen biraz bekleyip tekrar kontrol edin.",
   "purchaseErrorInsufficientPermissions": "Kullandığınız {accountName} ile plana katılamazsınız. Lütfen ödeme bilgilerinizi kontrol edin ve tekrar deneyin.",

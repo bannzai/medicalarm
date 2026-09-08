@@ -119,7 +119,7 @@
   "purchaseErrorMissingReceipt": "Es sind kei Käuferdate vorhande. Melde Sie sich uf däm Gerät mit {accountName} aa und probiere Sie es nomol.",
   "purchaseErrorNetwork": "D Netzverbindig isch instabil. Prüefed Sie d Verbindig und versueched Sie es nomol.",
   "purchaseNotAllowed": "Chäuf sind uf däm Gerät nöd erlaubt",
-  "purchaseErrorInvalidCredentials": "D'Kauf ass fehlgeschlage. Probier et nach e puer Zäit nach emol. Falls et net gelöst gëtt, kontaktéiert eis iwwer Einstellungen > Feedback. Detaill: {message}",
+  "purchaseErrorInvalidCredentials": "De Chauf isch fehlgschlage. Bitte probiered Si es spöter nomal. Wenn s Problem wiiterbesteit, melded Si sich über Iistellige > Kontakt zu eus. Details: {message}",
   "purchaseErrorUnexpectedBackend": "Aktuell chasch nüt kaufe. Bitte versuech's no einisch spöter. Falls das Problem nöd behobe wird, kontaktier eus bitte über: Einstellige > Kontakt. Detail: {message}",
   "purchaseErrorOperationInProgress": "D'Kaufverarbeitung ass nachträglich am Lafe. Gitt w.e.g. nach enger Zäit nach eng Kéier ob.",
   "purchaseErrorInsufficientPermissions": "Mit Ihrem {accountName} chönne Sie nit i de Plän iiträte. Überprüefe Sie bitte Ihre Zahlungsinformatione und probiere Sie es erneut.",

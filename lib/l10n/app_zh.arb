@@ -119,7 +119,7 @@
   "purchaseErrorMissingReceipt": "不存在购买者信息。请在此设备上使用 {accountName} 登录后重试。",
   "purchaseErrorNetwork": "网络状态不稳定。请检查连接后重试。",
   "purchaseNotAllowed": "此设备不允许购买",
-  "purchaseErrorInvalidCredentials": "购买失败。请稍后再试。如果问题仍然存在，请通过 设置 > 联系我们 进行联系。详情: {message}",
+  "purchaseErrorInvalidCredentials": "购买失败。请稍后重试。如果问题仍未解决，请通过设置 > 联系我们与我们联系。详细信息：{message}",
   "purchaseErrorUnexpectedBackend": "当前无法进行购买。请稍后再试。如果问题仍然存在，请通过设置 > 联系我们与我们联系。详情：{message}",
   "purchaseErrorOperationInProgress": "您的购买处理正在进行中。请稍等片刻后再重新确认。",
   "purchaseErrorInsufficientPermissions": "您无法在 {accountName} 上订阅计划。请检查您的支付信息，然后重试。",
