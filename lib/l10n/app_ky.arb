@@ -236,5 +236,6 @@
   "achievementStreakLabel": "Удаалаш серия",
   "achievementStreakDaysSuffix": "күн",
   "achievementMonthlyRateLabel": "Аткаруу көрсөткүчү: {month}",
-  "achievementLegendAllTaken": "Баары"
+  "achievementLegendAllTaken": "Баары",
+  "achievementLegendPartiallyTaken": "Жарым-жартылай"
 }

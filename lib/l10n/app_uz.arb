@@ -236,5 +236,6 @@
   "achievementStreakLabel": "Ketma-ketlik",
   "achievementStreakDaysSuffix": "kun",
   "achievementMonthlyRateLabel": "Bajarilish darajasi: {month}",
-  "achievementLegendAllTaken": "Barchasi"
+  "achievementLegendAllTaken": "Barchasi",
+  "achievementLegendPartiallyTaken": "Qisman"
 }

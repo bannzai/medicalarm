@@ -236,5 +236,6 @@
   "achievementStreakLabel": "Streak",
   "achievementStreakDaysSuffix": " days",
   "achievementMonthlyRateLabel": "Achievement rate: {month}",
-  "achievementLegendAllTaken": "All"
+  "achievementLegendAllTaken": "All",
+  "achievementLegendPartiallyTaken": "Some"
 }

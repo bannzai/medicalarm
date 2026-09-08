@@ -236,5 +236,6 @@
   "achievementStreakLabel": "رکورد متوالی",
   "achievementStreakDaysSuffix": "روز",
   "achievementMonthlyRateLabel": "نرخ پایبندی: {month}",
-  "achievementLegendAllTaken": "همه"
+  "achievementLegendAllTaken": "همه",
+  "achievementLegendPartiallyTaken": "جزئی"
 }

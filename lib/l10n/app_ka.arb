@@ -236,5 +236,6 @@
   "achievementStreakLabel": "თანმიმდევრული სერია",
   "achievementStreakDaysSuffix": "დღე",
   "achievementMonthlyRateLabel": "შესრულების მაჩვენებელი: {month}",
-  "achievementLegendAllTaken": "ყველა"
+  "achievementLegendAllTaken": "ყველა",
+  "achievementLegendPartiallyTaken": "ნაწილობრივ"
 }

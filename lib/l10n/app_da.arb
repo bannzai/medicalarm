@@ -236,5 +236,6 @@
   "achievementStreakLabel": "Sammenhængende serie",
   "achievementStreakDaysSuffix": "dage",
   "achievementMonthlyRateLabel": "Gennemførelsesrate: {month}",
-  "achievementLegendAllTaken": "Alle"
+  "achievementLegendAllTaken": "Alle",
+  "achievementLegendPartiallyTaken": "Delvist"
 }

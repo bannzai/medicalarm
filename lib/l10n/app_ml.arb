@@ -236,5 +236,6 @@
   "achievementStreakLabel": "തുടർച്ചയായ റെക്കോർഡ്",
   "achievementStreakDaysSuffix": "ദിവസങ്ങൾ",
   "achievementMonthlyRateLabel": "നേട്ട നിരക്ക്: {month}",
-  "achievementLegendAllTaken": "എല്ലാം"
+  "achievementLegendAllTaken": "എല്ലാം",
+  "achievementLegendPartiallyTaken": "ഭാഗികമായി"
 }

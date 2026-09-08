@@ -236,5 +236,6 @@
   "achievementStreakLabel": "କ୍ରମାଗତ ରେକର୍ଡ",
   "achievementStreakDaysSuffix": "ଦିନ",
   "achievementMonthlyRateLabel": "ସଫଳତା ହାର: {month}",
-  "achievementLegendAllTaken": "ସମସ୍ତ"
+  "achievementLegendAllTaken": "ସମସ୍ତ",
+  "achievementLegendPartiallyTaken": "ଆଂଶିକ"
 }

@@ -236,5 +236,6 @@
   "achievementStreakLabel": "ተከታታይ ስኬት",
   "achievementStreakDaysSuffix": "ቀናት",
   "achievementMonthlyRateLabel": "የ{month} ስኬት መጠን",
-  "achievementLegendAllTaken": "Բոլորը"
+  "achievementLegendAllTaken": "Բոլորը",
+  "achievementLegendPartiallyTaken": "Մասամբ"
 }

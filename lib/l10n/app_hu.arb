@@ -236,5 +236,6 @@
   "achievementStreakLabel": "Sorozat",
   "achievementStreakDaysSuffix": "nap",
   "achievementMonthlyRateLabel": "Teljesítési arány: {month}",
-  "achievementLegendAllTaken": "Mind"
+  "achievementLegendAllTaken": "Mind",
+  "achievementLegendPartiallyTaken": "Részben"
 }

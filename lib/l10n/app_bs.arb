@@ -236,5 +236,6 @@
   "achievementStreakLabel": "Uzastopni niz",
   "achievementStreakDaysSuffix": "dana",
   "achievementMonthlyRateLabel": "Stopa ostvarenja: {month}",
-  "achievementLegendAllTaken": "Sve"
+  "achievementLegendAllTaken": "Sve",
+  "achievementLegendPartiallyTaken": "Djelimično"
 }

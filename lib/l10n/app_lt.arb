@@ -236,5 +236,6 @@
   "achievementStreakLabel": "Nepertraukiama serija",
   "achievementStreakDaysSuffix": "dienos",
   "achievementMonthlyRateLabel": "Įvykdymo rodiklis: {month}",
-  "achievementLegendAllTaken": "Visi"
+  "achievementLegendAllTaken": "Visi",
+  "achievementLegendPartiallyTaken": "Iš dalies"
 }

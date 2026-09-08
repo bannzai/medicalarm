@@ -236,5 +236,6 @@
   "achievementStreakLabel": "Järjestikune seeria",
   "achievementStreakDaysSuffix": "päeva",
   "achievementMonthlyRateLabel": "Täitmise määr: {month}",
-  "achievementLegendAllTaken": "Kõik"
+  "achievementLegendAllTaken": "Kõik",
+  "achievementLegendPartiallyTaken": "Osaliselt"
 }

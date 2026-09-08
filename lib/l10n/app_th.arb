@@ -236,5 +236,6 @@
   "achievementStreakLabel": "สถิติต่อเนื่อง",
   "achievementStreakDaysSuffix": "วัน",
   "achievementMonthlyRateLabel": "อัตราความสำเร็จ: {month}",
-  "achievementLegendAllTaken": "ทั้งหมด"
+  "achievementLegendAllTaken": "ทั้งหมด",
+  "achievementLegendPartiallyTaken": "บางส่วน"
 }

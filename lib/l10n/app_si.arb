@@ -236,5 +236,6 @@
   "achievementStreakLabel": "අඛණ්ඩ වාර්තාව",
   "achievementStreakDaysSuffix": "දින",
   "achievementMonthlyRateLabel": "සම්පූර්ණ කිරීමේ අනුපාතය: {month}",
-  "achievementLegendAllTaken": "සියල්ල"
+  "achievementLegendAllTaken": "සියල්ල",
+  "achievementLegendPartiallyTaken": "අර්ධ වශයෙන්"
 }

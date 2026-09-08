@@ -236,5 +236,6 @@
   "achievementStreakLabel": "Niz",
   "achievementStreakDaysSuffix": "dni",
   "achievementMonthlyRateLabel": "Stopnja izpolnjenosti: {month}",
-  "achievementLegendAllTaken": "Vse"
+  "achievementLegendAllTaken": "Vse",
+  "achievementLegendPartiallyTaken": "Delno"
 }

@@ -236,5 +236,6 @@
   "achievementStreakLabel": "Seri e njëpasnjëshme",
   "achievementStreakDaysSuffix": "ditë",
   "achievementMonthlyRateLabel": "Shkalla e përmbushjes: {month}",
-  "achievementLegendAllTaken": "Të gjitha"
+  "achievementLegendAllTaken": "Të gjitha",
+  "achievementLegendPartiallyTaken": "Pjesërisht"
 }

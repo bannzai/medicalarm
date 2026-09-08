@@ -236,5 +236,6 @@
   "achievementStreakLabel": "Ratxa consecutiva",
   "achievementStreakDaysSuffix": "dies",
   "achievementMonthlyRateLabel": "Taxa d’assoliment: {month}",
-  "achievementLegendAllTaken": "Tot"
+  "achievementLegendAllTaken": "Tot",
+  "achievementLegendPartiallyTaken": "Parcialment"
 }

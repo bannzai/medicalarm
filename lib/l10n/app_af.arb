@@ -236,5 +236,6 @@
   "achievementStreakLabel": "Aaneenlopende reeks",
   "achievementStreakDaysSuffix": "dae",
   "achievementMonthlyRateLabel": "Prestasiekoers: {month}",
-  "achievementLegendAllTaken": "Alles"
+  "achievementLegendAllTaken": "Alles",
+  "achievementLegendPartiallyTaken": "Gedeeltelik"
 }

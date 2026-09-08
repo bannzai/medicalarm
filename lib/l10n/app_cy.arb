@@ -236,5 +236,6 @@
   "achievementStreakLabel": "Cyfres olynol",
   "achievementStreakDaysSuffix": "diwrnod",
   "achievementMonthlyRateLabel": "Cyfradd cyflawni: {month}",
-  "achievementLegendAllTaken": "Pob"
+  "achievementLegendAllTaken": "Pob",
+  "achievementLegendPartiallyTaken": "Yn rhannol"
 }

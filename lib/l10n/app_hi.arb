@@ -236,5 +236,6 @@
   "achievementStreakLabel": "लगातार रिकॉर्ड",
   "achievementStreakDaysSuffix": "दिन",
   "achievementMonthlyRateLabel": "उपलब्धि दर: {month}",
-  "achievementLegendAllTaken": "सभी"
+  "achievementLegendAllTaken": "सभी",
+  "achievementLegendPartiallyTaken": "आंशिक"
 }

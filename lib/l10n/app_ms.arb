@@ -236,5 +236,6 @@
   "achievementStreakLabel": "Rentetan berturut-turut",
   "achievementStreakDaysSuffix": "hari",
   "achievementMonthlyRateLabel": "Kadar pencapaian: {month}",
-  "achievementLegendAllTaken": "Semua"
+  "achievementLegendAllTaken": "Semua",
+  "achievementLegendPartiallyTaken": "Sebahagian"
 }

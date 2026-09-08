@@ -236,5 +236,6 @@
   "achievementStreakLabel": "Série",
   "achievementStreakDaysSuffix": "dní",
   "achievementMonthlyRateLabel": "Míra splnění: {month}",
-  "achievementLegendAllTaken": "Vše"
+  "achievementLegendAllTaken": "Vše",
+  "achievementLegendPartiallyTaken": "Částečně"
 }

@@ -236,5 +236,6 @@
   "achievementStreakLabel": "వరుస రికార్డు",
   "achievementStreakDaysSuffix": "రోజులు",
   "achievementMonthlyRateLabel": "సాధన రేటు: {month}",
-  "achievementLegendAllTaken": "అన్నీ"
+  "achievementLegendAllTaken": "అన్నీ",
+  "achievementLegendPartiallyTaken": "పాక్షికంగా"
 }
