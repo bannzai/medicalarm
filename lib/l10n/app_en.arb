@@ -177,7 +177,7 @@
   "medicationHistoryDeletedSnackbar": "Medication record undone",
   "undo": "Undo",
   "medicationHistoryReverted": "Medication record reverted",
-  "revertedTime": "Canceled at",
+  "revertedTime": "Cancellation time",
   "revertedByMember": "Canceled by {name}",
   "medicationTakenAtLabel": "Taken at {time}",
   "medicineResumedSnackbar": "Resumed this medication",

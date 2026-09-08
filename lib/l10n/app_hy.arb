@@ -177,7 +177,7 @@
   "medicationHistoryDeletedSnackbar": "Դեղի ընդունման գրառումը չեղարկվեց",
   "undo": "Չեղարկել",
   "medicationHistoryReverted": "Դեղի ընդունման գրառումը չեղարկվեց",
-  "revertedTime": "Չեղարկման ժամանակը",
+  "revertedTime": "Չեղարկման ժամը",
   "revertedByMember": "{name}-ը չեղարկել է",
   "medicationTakenAtLabel": "Ընդունված է՝ {time}-ին",
   "medicineResumedSnackbar": "Դեղամիջոցի ընդունումը վերսկսվել է",

@@ -177,7 +177,7 @@
   "medicationHistoryDeletedSnackbar": "A gyógyszerbevétel bejegyzése visszavonva",
   "undo": "Visszavonás",
   "medicationHistoryReverted": "A gyógyszerbevételi bejegyzés visszavonva",
-  "revertedTime": "A lemondás időpontja",
+  "revertedTime": "Visszavonás ideje",
   "revertedByMember": "Visszavonta: {name}",
   "medicationTakenAtLabel": "Bevéve: {time}",
   "medicineResumedSnackbar": "A gyógyszer szedése folytatódik",
