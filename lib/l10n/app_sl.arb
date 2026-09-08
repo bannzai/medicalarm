@@ -42,7 +42,7 @@
   "specificWeekdaysDescription": "Npr. samo ob ponedeljkih ali ob sredah in petkih",
   "medicineFormValidationError": "Vnesite ime in urnik jemanja",
   "quantity": "Količina",
-  "quantityExample": "Primer: 1 tableta, 100mg",
+  "quantityExample": "Primer: 1 tableta, 100 mg",
   "medicationStartDate": "Datum začetka jemanja",
   "otherInformation": "Drugo",
   "doseReceiver": "Osebe, ki jemljejo zdravilo",

@@ -42,7 +42,7 @@
   "specificWeekdaysDescription": "Pl. csak hétfőn, illetve szerdán és pénteken",
   "medicineFormValidationError": "Adja meg a nevet és a szedési ütemezést",
   "quantity": "Mennyiség",
-  "quantityExample": "Példa: 1 tabletta, 100mg",
+  "quantityExample": "Példa: 1 tabletta, 100 mg",
   "medicationStartDate": "Kezdési dátum",
   "otherInformation": "Egyéb",
   "doseReceiver": "Gyógyszerszedő",

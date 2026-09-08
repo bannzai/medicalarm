@@ -42,7 +42,7 @@
   "specificWeekdaysDescription": "Ex. : uniquement le lundi, ou le mercredi et le vendredi",
   "medicineFormValidationError": "Veuillez saisir le nom et le calendrier de prise",
   "quantity": "Quantité",
-  "quantityExample": "Ex: 1 comprimé, 100 mg",
+  "quantityExample": "Exemple : 1 comprimé, 100 mg",
   "medicationStartDate": "Date de début de prise",
   "otherInformation": "Autres",
   "doseReceiver": "Prend",

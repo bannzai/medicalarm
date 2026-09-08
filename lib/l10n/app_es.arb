@@ -42,7 +42,7 @@
   "specificWeekdaysDescription": "Ej.: solo los lunes, o los miércoles y viernes",
   "medicineFormValidationError": "Introduce el nombre y el horario de toma",
   "quantity": "Cantidad",
-  "quantityExample": "Ejemplo: 1 tableta, 100 mg",
+  "quantityExample": "Ejemplo: 1 comprimido, 100 mg",
   "medicationStartDate": "Fecha de inicio de medicación",
   "otherInformation": "Otros",
   "doseReceiver": "Usuario",

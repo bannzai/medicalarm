@@ -42,7 +42,7 @@
   "specificWeekdaysDescription": "Напр.: только по понедельникам или по средам и пятницам",
   "medicineFormValidationError": "Введите название и расписание приёма",
   "quantity": "Количество",
-  "quantityExample": "пример: 1 таблетка, 100мг",
+  "quantityExample": "Пример: 1 таблетка, 100 мг",
   "medicationStartDate": "Дата начала приема",
   "otherInformation": "Другие",
   "doseReceiver": "Пациент",

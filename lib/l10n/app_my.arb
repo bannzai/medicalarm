@@ -42,7 +42,7 @@
   "specificWeekdaysDescription": "ဥပမာ၊ တနင်္လာနေ့တစ်ရက်တည်း သို့မဟုတ် ဗုဒ္ဓဟူးနေ့နှင့် သောကြာနေ့",
   "medicineFormValidationError": "အမည်နှင့် ဆေးသောက်ချိန်ဇယားကို ထည့်သွင်းပါ",
   "quantity": "ပမာဏ",
-  "quantityExample": "Contoh: 1 pil, 100mg",
+  "quantityExample": "ဥပမာ - ဆေးပြား ၁ ပြား၊ ၁၀၀ မီလီဂရမ်",
   "medicationStartDate": "Tarikh Mula Pengambilan",
   "otherInformation": "Lain-lain",
   "doseReceiver": "Pengguna",

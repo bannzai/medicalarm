@@ -42,7 +42,7 @@
   "specificWeekdaysDescription": "F.eks. kun mandager, eller onsdager og fredager",
   "medicineFormValidationError": "Skriv inn navn og doseringsplan",
   "quantity": "Mengde",
-  "quantityExample": "Eksempel: 1 tablett, 100mg",
+  "quantityExample": "Eksempel: 1 tablett, 100 mg",
   "medicationStartDate": "Start date for medication",
   "otherInformation": "Annet",
   "doseReceiver": "Medisiner",

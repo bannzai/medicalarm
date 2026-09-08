@@ -42,7 +42,7 @@
   "specificWeekdaysDescription": "Např. pouze v pondělí, ve středu a v pátek",
   "medicineFormValidationError": "Zadejte název a rozvrh užívání",
   "quantity": "Množství",
-  "quantityExample": "například: 1 tableta, 100 mg",
+  "quantityExample": "Příklad: 1 tableta, 100 mg",
   "medicationStartDate": "Datum zahájení užívání",
   "otherInformation": "Další",
   "doseReceiver": "Uživatel léků",

@@ -42,7 +42,7 @@
   "specificWeekdaysDescription": "যেমন: শুধু সোমবার, অথবা বুধবার ও শুক্রবার",
   "medicineFormValidationError": "নাম ও ওষুধ খাওয়ার সময়সূচি লিখুন",
   "quantity": "পরিমাণ",
-  "quantityExample": "যেমন: ১ ট্যাবলেট, ১০০ মিগ্রা",
+  "quantityExample": "উদাহরণ: ১টি ট্যাবলেট, ১০০ মি.গ্রা.",
   "medicationStartDate": "ওষুধ গ্রহণের শুরু তারিখ",
   "otherInformation": "অন্যান্য",
   "doseReceiver": "প্রবণ",

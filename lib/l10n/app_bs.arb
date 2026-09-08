@@ -42,7 +42,7 @@
   "specificWeekdaysDescription": "Npr. samo ponedjeljkom, srijedom i petkom",
   "medicineFormValidationError": "Unesite naziv i raspored uzimanja",
   "quantity": "Količina",
-  "quantityExample": "Primjer: 1 tableta, 100mg",
+  "quantityExample": "Primjer: 1 tableta, 100 mg",
   "medicationStartDate": "Datum početka uzimanja",
   "otherInformation": "Ostalo",
   "doseReceiver": "Osoba koja uzima lijekove",

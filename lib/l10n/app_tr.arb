@@ -42,7 +42,7 @@
   "specificWeekdaysDescription": "Örn. yalnızca pazartesi veya çarşamba ve cuma günleri",
   "medicineFormValidationError": "Adı ve kullanım programını girin",
   "quantity": "Miktar",
-  "quantityExample": "örneğin: 1 tablet, 100mg",
+  "quantityExample": "Örnek: 1 tablet, 100 mg",
   "medicationStartDate": "Başlangıç tarihi",
   "otherInformation": "Diğer",
   "doseReceiver": "Kullanıcı",

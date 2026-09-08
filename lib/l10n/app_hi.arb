@@ -42,7 +42,7 @@
   "specificWeekdaysDescription": "उदाहरण: केवल सोमवार, या बुधवार और शुक्रवार",
   "medicineFormValidationError": "कृपया नाम और दवा लेने का समय-सारणी दर्ज करें",
   "quantity": "मात्रा",
-  "quantityExample": "उदाहरण: 1 गोली, 100mg",
+  "quantityExample": "उदाहरण: 1 टैबलेट, 100 mg",
   "medicationStartDate": "चिकित्सा सेवन की शुरुआत की तारीख",
   "otherInformation": "अन्य",
   "doseReceiver": "उपभोक्ता",

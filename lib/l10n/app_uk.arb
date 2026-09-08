@@ -42,7 +42,7 @@
   "specificWeekdaysDescription": "Напр.: лише в понеділок або в середу та п’ятницю",
   "medicineFormValidationError": "Введіть назву та розклад прийому",
   "quantity": "Кількість",
-  "quantityExample": "e.g., 1 tablet, 100mg",
+  "quantityExample": "Наприклад: 1 таблетка, 100 мг",
   "medicationStartDate": "Start Date",
   "otherInformation": "Other",
   "doseReceiver": "Medication Taker",

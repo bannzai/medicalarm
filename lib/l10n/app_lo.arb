@@ -42,7 +42,7 @@
   "specificWeekdaysDescription": "ຕົວຢ່າງ: ສະເພາະວັນຈັນ ຫຼື ວັນພຸດ ແລະ ວັນສຸກ",
   "medicineFormValidationError": "ກະລຸນາປ້ອນຊື່ ແລະຕາຕະລາງການກິນຢາ",
   "quantity": "ປະລິມານ",
-  "quantityExample": "ແບບຢ່າງ: 1 ຊີດ, 100mg",
+  "quantityExample": "ຕົວຢ່າງ: 1 ເມັດ, 100 ມກ.",
   "medicationStartDate": "ວັນເລິ່ມໃຊ້ສຽງ",
   "otherInformation": "ອື່ນໆ",
   "doseReceiver": "ຄວາມສົນທະນາ",

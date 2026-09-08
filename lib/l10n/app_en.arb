@@ -42,7 +42,7 @@
   "specificWeekdaysDescription": "E.g. Mondays only, or Wednesdays and Fridays",
   "medicineFormValidationError": "Please enter the name and medication schedule",
   "quantity": "Quantity",
-  "quantityExample": "e.g.: 1 tablet, 100mg",
+  "quantityExample": "Example: 1 tablet, 100 mg",
   "medicationStartDate": "Start Date",
   "otherInformation": "Other",
   "doseReceiver": "Medication User",

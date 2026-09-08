@@ -42,7 +42,7 @@
   "specificWeekdaysDescription": "Esim. vain maanantaisin tai keskiviikkoisin ja perjantaisin",
   "medicineFormValidationError": "Anna nimi ja annosteluaikataulu",
   "quantity": "Määrä",
-  "quantityExample": "Esim: 1 tabletti, 100mg",
+  "quantityExample": "Esimerkki: 1 tabletti, 100 mg",
   "medicationStartDate": "Aloituspäivä",
   "otherInformation": "Muut",
   "doseReceiver": "Käyttäjä",

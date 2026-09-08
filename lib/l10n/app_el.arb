@@ -42,7 +42,7 @@
   "specificWeekdaysDescription": "Π.χ. μόνο Δευτέρα ή Τετάρτη και Παρασκευή",
   "medicineFormValidationError": "Εισαγάγετε το όνομα και το πρόγραμμα λήψης",
   "quantity": "Ποσότητα",
-  "quantityExample": "παράδειγμα: 1 δισκίο, 100mg",
+  "quantityExample": "Παράδειγμα: 1 δισκίο, 100 mg",
   "medicationStartDate": "Ημερομηνία έναρξης λήψης",
   "otherInformation": "Άλλα",
   "doseReceiver": "Χρήστης φαρμάκου",

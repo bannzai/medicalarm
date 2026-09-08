@@ -42,7 +42,7 @@
   "specificWeekdaysDescription": "Z. B. nur montags, mittwochs und freitags",
   "medicineFormValidationError": "Geben Sie den Namen und den Einnahmeplan ein",
   "quantity": "Menge",
-  "quantityExample": "z.B.: 1 Tablette, 100mg",
+  "quantityExample": "Beispiel: 1 Tablette, 100 mg",
   "medicationStartDate": "Einnahmebeginn",
   "otherInformation": "Sonstiges",
   "doseReceiver": "Medikamentennehmer",

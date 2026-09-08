@@ -42,7 +42,7 @@
   "specificWeekdaysDescription": "Жишээ нь: зөвхөн даваа гарагт, эсвэл лхагва, баасан гарагт",
   "medicineFormValidationError": "Нэр болон хэрэглэх хуваарийг оруулна уу",
   "quantity": "Тоо хэмжээ",
-  "quantityExample": "жишээ: 1 шахмал, 100 мг",
+  "quantityExample": "Жишээ: 1 шахмал, 100 мг",
   "medicationStartDate": "Эмчилгээний эхлэх өдөр",
   "otherInformation": "Бусад",
   "doseReceiver": "Эмчилэгч",

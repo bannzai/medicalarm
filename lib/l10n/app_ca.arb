@@ -42,7 +42,7 @@
   "specificWeekdaysDescription": "Ex.: només els dilluns, o els dimecres i divendres",
   "medicineFormValidationError": "Introduïu el nom i l’horari de presa",
   "quantity": "Quantitat",
-  "quantityExample": "Ex.: 1 comprimit, 100mg",
+  "quantityExample": "Exemple: 1 comprimit, 100 mg",
   "medicationStartDate": "Data d'inici de la medicació",
   "otherInformation": "Altres",
   "doseReceiver": "Pacient",

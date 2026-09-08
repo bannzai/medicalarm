@@ -42,7 +42,7 @@
   "specificWeekdaysDescription": "მაგ.: მხოლოდ ორშაბათს, ან ოთხშაბათსა და პარასკევს",
   "medicineFormValidationError": "შეიყვანეთ სახელი და მიღების განრიგი",
   "quantity": "რაოდენობა",
-  "quantityExample": "მაგ: 1 ტაბლეტი, 100მგ",
+  "quantityExample": "მაგალითად: 1 ტაბლეტი, 100 მგ",
   "medicationStartDate": "მკურნალობის დაწყების თარიღი",
   "otherInformation": "სხვა",
   "doseReceiver": "მიმართვის მფლობელი",

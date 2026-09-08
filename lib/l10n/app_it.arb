@@ -42,7 +42,7 @@
   "specificWeekdaysDescription": "Es.: solo il lunedì, oppure il mercoledì e il venerdì",
   "medicineFormValidationError": "Inserisci il nome e il programma di assunzione",
   "quantity": "Quantità",
-  "quantityExample": "es. 1 compressa, 100mg",
+  "quantityExample": "Esempio: 1 compressa, 100 mg",
   "medicationStartDate": "Data di inizio assunzione",
   "otherInformation": "Altro",
   "doseReceiver": "Paziente",

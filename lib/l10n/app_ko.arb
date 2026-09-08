@@ -42,7 +42,7 @@
   "specificWeekdaysDescription": "예: 월요일만, 또는 수요일과 금요일",
   "medicineFormValidationError": "이름과 복용 일정을 입력해 주세요",
   "quantity": "용량",
-  "quantityExample": "예: 1알, 100mg",
+  "quantityExample": "예: 1정, 100mg",
   "medicationStartDate": "복용 시작일",
   "otherInformation": "기타",
   "doseReceiver": "복용자",
