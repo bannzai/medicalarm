@@ -172,7 +172,7 @@
   "premiumFeaturesList": "Llista de funcions premium",
   "currentlyInPremiumTrial": "Ara esteu en el període de prova Premium",
   "medicationPause": "Activa la medicació",
-  "medicationPauseDescription": "En desactivar-lo, s’exclourà de la pantalla de medicació i de les notificacions.",
+  "medicationPauseDescription": "Quan es desactiva, s’exclou de la pantalla de medicaments i de les notificacions.",
   "medicinePausedSnackbar": "La presa del medicament s’ha pausat temporalment",
   "medicationHistoryDeletedSnackbar": "S’ha desfet el registre de presa del medicament",
   "undo": "Desfer",

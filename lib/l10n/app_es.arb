@@ -172,7 +172,7 @@
   "premiumFeaturesList": "Lista de funciones premium",
   "currentlyInPremiumTrial": "Actualmente estás disfrutando de la prueba Premium",
   "medicationPause": "Activar medicación",
-  "medicationPauseDescription": "Al desactivarlo, se excluirá de la pantalla de medicación y de las notificaciones.",
+  "medicationPauseDescription": "Al desactivarlo, se excluirá de la pantalla de medicamentos y de las notificaciones.",
   "medicinePausedSnackbar": "La toma del medicamento se ha pausado temporalmente",
   "medicationHistoryDeletedSnackbar": "Se deshizo el registro de medicación",
   "undo": "Deshacer",

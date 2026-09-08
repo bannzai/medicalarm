@@ -172,7 +172,7 @@
   "premiumFeaturesList": "Prémiumfunkciók listája",
   "currentlyInPremiumTrial": "Jelenleg a Premium próbaidőszakát használja",
   "medicationPause": "Gyógyszer aktiválása",
-  "medicationPauseDescription": "Kikapcsoláskor a gyógyszer kikerül a gyógyszerképernyőről és az értesítésekből.",
+  "medicationPauseDescription": "Kikapcsoláskor a gyógyszer nem jelenik meg a gyógyszerképernyőn és az értesítésekben.",
   "medicinePausedSnackbar": "A gyógyszer szedése ideiglenesen szünetel",
   "medicationHistoryDeletedSnackbar": "A gyógyszerbevétel bejegyzése visszavonva",
   "undo": "Visszavonás",

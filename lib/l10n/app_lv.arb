@@ -172,7 +172,7 @@
   "premiumFeaturesList": "Premium funkciju saraksts",
   "currentlyInPremiumTrial": "Pašlaik izmantojat Premium izmēģinājuma periodu",
   "medicationPause": "Iespējot zāļu lietošanu",
-  "medicationPauseDescription": "Izslēdzot, zāles tiks izņemtas no zāļu ekrāna un paziņojumiem.",
+  "medicationPauseDescription": "Izslēdzot, tas tiks izņemts no zāļu ekrāna un paziņojumiem.",
   "medicinePausedSnackbar": "Zāļu lietošana uz laiku apturēta",
   "medicationHistoryDeletedSnackbar": "Zāļu lietošanas ieraksts ir atsaukts",
   "undo": "Atsaukt",

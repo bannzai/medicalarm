@@ -172,7 +172,7 @@
   "premiumFeaturesList": "Premium funksiyaların siyahısı",
   "currentlyInPremiumTrial": "Hazırda Premium sınaq müddətindəsiniz",
   "medicationPause": "Dərmanı aktivləşdir",
-  "medicationPauseDescription": "Söndürüldükdə dərman qəbulu ekranından və bildirişlərdən çıxarılacaq.",
+  "medicationPauseDescription": "Söndürüldükdə, dərman ekranından və bildirişlərdən çıxarılacaq.",
   "medicinePausedSnackbar": "Dərmanın qəbulu müvəqqəti dayandırıldı",
   "medicationHistoryDeletedSnackbar": "Dərman qəbulu qeydi geri alındı",
   "undo": "Geri al",

@@ -172,7 +172,7 @@
   "premiumFeaturesList": "Lijst met premiumfuncties",
   "currentlyInPremiumTrial": "Je bevindt je momenteel in de Premium-proefperiode",
   "medicationPause": "Medicatie inschakelen",
-  "medicationPauseDescription": "Als dit wordt uitgeschakeld, wordt het uitgesloten van het medicatiescherm en meldingen.",
+  "medicationPauseDescription": "Wanneer je dit uitschakelt, wordt het niet meer weergegeven op het medicatiescherm en in meldingen.",
   "medicinePausedSnackbar": "Het innemen van het medicijn is tijdelijk gepauzeerd",
   "medicationHistoryDeletedSnackbar": "De registratie van de medicijninname is ongedaan gemaakt",
   "undo": "Ongedaan maken",

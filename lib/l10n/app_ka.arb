@@ -172,7 +172,7 @@
   "premiumFeaturesList": "პრემიუმ ფუნქციების სია",
   "currentlyInPremiumTrial": "ამჟამად Premium-ის საცდელ პერიოდში ხართ",
   "medicationPause": "მედიკამენტის გააქტიურება",
-  "medicationPauseDescription": "გამორთვის შემთხვევაში, ის გამოირიცხება მედიკამენტების ეკრანიდან და შეტყობინებებიდან.",
+  "medicationPauseDescription": "გამორთვისას ის აღარ გამოჩნდება მედიკამენტების ეკრანსა და შეტყობინებებში.",
   "medicinePausedSnackbar": "მედიკამენტის მიღება დროებით შეჩერდა",
   "medicationHistoryDeletedSnackbar": "მედიკამენტის მიღების ჩანაწერი გაუქმდა",
   "undo": "გაუქმება",

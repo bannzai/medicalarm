@@ -172,7 +172,7 @@
   "premiumFeaturesList": "Список на премиум функции",
   "currentlyInPremiumTrial": "Во моментов сте во пробниот период на Premium",
   "medicationPause": "Овозможи лекување",
-  "medicationPauseDescription": "Кога ќе се исклучи, лекот ќе биде исклучен од екранот за лекови и известувањата.",
+  "medicationPauseDescription": "Кога е исклучено, лекот ќе биде изоставен од екранот за лекови и известувањата.",
   "medicinePausedSnackbar": "Земањето на лекот е привремено паузирано",
   "medicationHistoryDeletedSnackbar": "Евиденцијата за земање лек е поништена",
   "undo": "Врати",

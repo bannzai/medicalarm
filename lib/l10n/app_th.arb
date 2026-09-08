@@ -172,7 +172,7 @@
   "premiumFeaturesList": "รายการฟีเจอร์พรีเมียม",
   "currentlyInPremiumTrial": "ขณะนี้คุณอยู่ในช่วงทดลองใช้ฟรี Premium",
   "medicationPause": "เปิดใช้งานยา",
-  "medicationPauseDescription": "เมื่อปิดใช้งาน ยานี้จะไม่แสดงในหน้าจอยาและการแจ้งเตือน",
+  "medicationPauseDescription": "เมื่อปิดใช้งาน รายการนี้จะไม่แสดงในหน้าจอยาและการแจ้งเตือน",
   "medicinePausedSnackbar": "หยุดรับประทานยาไว้ชั่วคราวแล้ว",
   "medicationHistoryDeletedSnackbar": "ยกเลิกบันทึกการรับประทานยาแล้ว",
   "undo": "เลิกทำ",

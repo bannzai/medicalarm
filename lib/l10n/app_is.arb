@@ -172,7 +172,7 @@
   "premiumFeaturesList": "Listi yfir úrvalsaðgerðir",
   "currentlyInPremiumTrial": "Þú ert núna í Premium-prufutímabilinu",
   "medicationPause": "Virkja lyf",
-  "medicationPauseDescription": "Þegar slökkt er á þessu er lyfið tekið af lyfjaskjánum og úr tilkynningum.",
+  "medicationPauseDescription": "Þegar slökkt er á þessu er það útilokað frá lyfjaskjánum og tilkynningum.",
   "medicinePausedSnackbar": "Taka lyfsins hefur verið sett á tímabundið hlé",
   "medicationHistoryDeletedSnackbar": "Skráning lyfjatöku var afturkölluð",
   "undo": "Afturkalla",

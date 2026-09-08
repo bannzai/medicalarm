@@ -172,7 +172,7 @@
   "premiumFeaturesList": "Premium-ominaisuuksien luettelo",
   "currentlyInPremiumTrial": "Olet parhaillaan Premium-kokeilujaksolla",
   "medicationPause": "Ota lääkitys käyttöön",
-  "medicationPauseDescription": "Kun tämä poistetaan käytöstä, lääke poistetaan lääkitysnäkymästä ja ilmoituksista.",
+  "medicationPauseDescription": "Kun tämä poistetaan käytöstä, se poistetaan lääkkeiden näytöstä ja ilmoituksista.",
   "medicinePausedSnackbar": "Lääkkeen ottaminen on keskeytetty väliaikaisesti",
   "medicationHistoryDeletedSnackbar": "Lääkkeenottomerkintä kumottiin",
   "undo": "Kumoa",
