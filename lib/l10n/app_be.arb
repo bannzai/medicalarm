@@ -142,7 +142,7 @@
   "autoRenewalNotice": "Пасля заканчэння тэрміну падпіскі яна будзе аўтаматычна падоўжана.",
   "restorePurchase": "Для тых, хто ўжо набываў",
   "purchaseRestored": "Інфармацыя аб пакупцы адноўлена",
-  "medicationTimeFollowup": "Сачэнне за часам прыёму лекаў",
+  "medicationTimeFollowup": "Напамін пра час прыёму лекаў",
   "updateRequired": "Требуецца абнаўленне",
   "updateRequiredMessage": "Абновіце да апошняй версіі ад {storeName}",
   "screenshotMedicationHistoriesMemo": "Занадта доўга спаў, таму час прыёму лекі затрымаўся.",

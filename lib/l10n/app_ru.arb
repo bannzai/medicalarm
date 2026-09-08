@@ -142,7 +142,7 @@
   "autoRenewalNotice": "После окончания срока подписки она будет продлена автоматически.",
   "restorePurchase": "Для тех, кто уже покупал",
   "purchaseRestored": "Информация о покупке восстановлена",
-  "medicationTimeFollowup": "Напоминание через 30 минут после времени приема лекарства",
+  "medicationTimeFollowup": "Контроль времени приёма лекарства",
   "updateRequired": "Необходимо обновление",
   "updateRequiredMessage": "Пожалуйста, обновите до последней версии из {storeName}.",
   "screenshotMedicationHistoriesMemo": "Я слишком долго дремал и запоздал с приемом лекарства",

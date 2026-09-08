@@ -142,7 +142,7 @@
   "autoRenewalNotice": "Sau khi thời hạn gói đăng ký kết thúc, gói sẽ tự động gia hạn.",
   "restorePurchase": "Dành cho những người đã mua trước đây",
   "purchaseRestored": "Đã khôi phục thông tin mua hàng",
-  "medicationTimeFollowup": "Theo dõi thời gian dùng thuốc",
+  "medicationTimeFollowup": "Theo dõi thời gian uống thuốc",
   "updateRequired": "Cần cập nhật",
   "updateRequiredMessage": "Vui lòng cập nhật lên phiên bản mới nhất từ {storeName}",
   "screenshotMedicationHistoriesMemo": "Tôi đã ngủ trưa quá lâu nên thời gian uống thuốc bị muộn.",

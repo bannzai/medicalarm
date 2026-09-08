@@ -142,7 +142,7 @@
   "autoRenewalNotice": "Жазылуу мөөнөтү аяктагандан кийин ал автоматтык түрдө узартылат.",
   "restorePurchase": "Мурда сатып алгандар үчүн",
   "purchaseRestored": "Сатып алуу маалыматы калыбына келтирилди",
-  "medicationTimeFollowup": "Дарынын убактысы боюнча кийинки жакындатуу",
+  "medicationTimeFollowup": "Дары ичүү убактысын көзөмөлдөө",
   "updateRequired": "Жаңыртуу талап кылынат",
   "updateRequiredMessage": "{storeName}дан акыркы версиясына жаңыртыңыз",
   "screenshotMedicationHistoriesMemo": "Күнüllүк четин көп уканымдан дарыны ичкен убактым кечигип калды.",

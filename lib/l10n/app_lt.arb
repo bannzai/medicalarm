@@ -142,7 +142,7 @@
   "autoRenewalNotice": "Pasibaigus prenumeratos laikotarpiui, ji bus automatiškai pratęsta.",
   "restorePurchase": "Anksčiau įsigijusiems",
   "purchaseRestored": "Pirkimo informacija atkurta",
-  "medicationTimeFollowup": "Vaistų vartojimo laiko stebėjimas",
+  "medicationTimeFollowup": "Vaistų vartojimo laiko priminimas",
   "updateRequired": "Reikia atnaujinimo",
   "updateRequiredMessage": "Prašome atnaujinti į naujausią versiją iš {storeName}",
   "screenshotMedicationHistoriesMemo": "Per ilges aš per ilgai miegojau, todėl vaisto vartojimo laikas vėlavo.",

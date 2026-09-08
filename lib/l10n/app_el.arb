@@ -142,7 +142,7 @@
   "autoRenewalNotice": "Μετά τη λήξη της περιόδου συνδρομής, θα ανανεωθεί αυτόματα.",
   "restorePurchase": "Για όσους έχουν αγοράσει στο παρελθόν",
   "purchaseRestored": "Οι πληροφορίες αγοράς επαναφέρθηκαν",
-  "medicationTimeFollowup": "Παρακολούθηση Πορείας Λήψης Φαρμάκων",
+  "medicationTimeFollowup": "Παρακολούθηση ώρας λήψης φαρμάκου",
   "updateRequired": "Απαιτείται ενημέρωση",
   "updateRequiredMessage": "Παρακαλούμε ενημερώστε την εφαρμογή σας στην τελευταία έκδοση από το {storeName}.",
   "screenshotMedicationHistoriesMemo": "Ξέχασα να πάρω το φάρμακό μου επειδή κοιμήθηκα πολύ.",

@@ -142,7 +142,7 @@
   "autoRenewalNotice": "Awtomatiko itong magre-renew pagkatapos ng panahon ng subscription.",
   "restorePurchase": "Para sa mga nakabili na",
   "purchaseRestored": "Naibalik ang impormasyon ng pagbili",
-  "medicationTimeFollowup": "Pagsusubaybay sa Oras ng Pag-inom",
+  "medicationTimeFollowup": "Pagsubaybay sa oras ng pag-inom ng gamot",
   "updateRequired": "Kailangan ng pag-update",
   "updateRequiredMessage": "Pakisama mo ang pinakabagos na update mula sa {storeName}.",
   "screenshotMedicationHistoriesMemo": "Kakaingat sa sobrang paghihimbing, naantala ang oras ng pag-inom ng gamot",

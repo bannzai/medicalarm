@@ -142,7 +142,7 @@
   "autoRenewalNotice": "Abunəlik müddəti bitdikdən sonra avtomatik yenilənəcək.",
   "restorePurchase": "Əvvəllər satın alanlar üçün",
   "purchaseRestored": "Satınalma məlumatları bərpa edildi",
-  "medicationTimeFollowup": "İlaç qəbulu vaxtının izlənməsi",
+  "medicationTimeFollowup": "Dərman qəbul vaxtının izlənməsi",
   "updateRequired": "Güncəlləmə tələb olunur",
   "updateRequiredMessage": "{storeName}dan ən son versiyaya yeniləməyinizi xahiş edirik",
   "screenshotMedicationHistoriesMemo": "Yatmadığım üçün dərman içmək vaxtım keçdi.",

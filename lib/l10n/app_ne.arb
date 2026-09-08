@@ -142,7 +142,7 @@
   "autoRenewalNotice": "सदस्यता अवधि समाप्त भएपछि यो स्वतः नवीकरण हुनेछ।",
   "restorePurchase": "पहिले नै खरिद गर्नुभएकाहरूका लागि",
   "purchaseRestored": "खरिदसम्बन्धी जानकारी पुनर्स्थापना गरियो",
-  "medicationTimeFollowup": "औषधि लिनको समयको अनुगमन",
+  "medicationTimeFollowup": "औषध सेवन समयको फलो-अप",
   "updateRequired": "अपडेट गर्न आवश्यक छ",
   "updateRequiredMessage": "{storeName} मा नवीनतम संस्करणमा अपग्रेड गर्नुहोस्",
   "screenshotMedicationHistoriesMemo": "दिउँसो धेरै सुतेर औषधि खाने समय ढिला भयो",

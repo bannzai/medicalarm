@@ -142,7 +142,7 @@
   "autoRenewalNotice": "Pēc abonementa perioda beigām tas tiks automātiski atjaunots.",
   "restorePurchase": "Tiem, kas iegādājās iepriekš",
   "purchaseRestored": "Pirkuma informācija ir atjaunota",
-  "medicationTimeFollowup": "Zāļu lietošanas laika sekošana",
+  "medicationTimeFollowup": "Zāļu lietošanas laika uzraudzība",
   "updateRequired": "Jums ir nepieciešams atjauninājums",
   "updateRequiredMessage": "Lūdzu, atjaunojiet uz jaunāko versiju no {storeName}.",
   "screenshotMedicationHistoriesMemo": "Pārāk ilgi gulēju pa dienu, tāpēc zāļu dzeršanas laiks kavējās.",

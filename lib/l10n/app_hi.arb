@@ -142,7 +142,7 @@
   "autoRenewalNotice": "सदस्यता अवधि समाप्त होने के बाद यह अपने आप नवीनीकृत हो जाएगी।",
   "restorePurchase": "जिन्होंने पहले खरीदा है उनके लिए",
   "purchaseRestored": "खरीदारी की जानकारी पुनर्स्थापित कर दी गई है",
-  "medicationTimeFollowup": "दवा के समय की फॉलो-अप",
+  "medicationTimeFollowup": "दवा लेने के समय का फॉलो-अप",
   "updateRequired": "अपडेट की आवश्यकता है",
   "updateRequiredMessage": "कृपया {storeName} से नवीनतम संस्करण में अपडेट करें",
   "screenshotMedicationHistoriesMemo": "दोपहर की नींद लेने के कारण दवा लेने का समय लेट हो गया",

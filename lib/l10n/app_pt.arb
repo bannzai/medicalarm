@@ -142,7 +142,7 @@
   "autoRenewalNotice": "Após o término do período de assinatura, ela será renovada automaticamente.",
   "restorePurchase": "Para quem já comprou",
   "purchaseRestored": "As informações de compra foram restauradas",
-  "medicationTimeFollowup": "Acompanhamento do horário de medicação",
+  "medicationTimeFollowup": "Acompanhamento do horário de tomar o medicamento",
   "updateRequired": "Atualização necessária",
   "updateRequiredMessage": "Por favor, atualize para a versão mais recente a partir de {storeName}.",
   "screenshotMedicationHistoriesMemo": "Eu dormi demais e tomei o remédio tarde.",

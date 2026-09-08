@@ -142,7 +142,7 @@
   "autoRenewalNotice": "Ar ôl i’r cyfnod tanysgrifio ddod i ben, bydd yn adnewyddu’n awtomatig.",
   "restorePurchase": "I’r rhai sydd wedi prynu o’r blaen",
   "purchaseRestored": "Mae gwybodaeth y pryniant wedi’i hadfer",
-  "medicationTimeFollowup": "Dilyniant Amser Meddyginiaeth",
+  "medicationTimeFollowup": "Dilyniant amser cymryd meddyginiaeth",
   "updateRequired": "Mae angen diweddariad.",
   "updateRequiredMessage": "Diupdate i'r fersiwn ddiweddaraf o {storeName}",
   "screenshotMedicationHistoriesMemo": "Gorwennais wedi diweddaru'r amser ymgynnull oherwydd cysgu gormod yn ystod y dydd.",

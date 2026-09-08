@@ -142,7 +142,7 @@
   "autoRenewalNotice": "Eftir að áskriftartímabilinu lýkur endurnýjast hún sjálfkrafa.",
   "restorePurchase": "Fyrir þá sem hafa keypt áður",
   "purchaseRestored": "Kaupupplýsingar hafa verið endurheimtar",
-  "medicationTimeFollowup": "Eftirlit á skammtatímum",
+  "medicationTimeFollowup": "Eftirfylgni með lyfjatíma",
   "updateRequired": "Uppfærslan er nauðsynleg",
   "updateRequiredMessage": "Vinsamlegast uppfærðu í nýjustu útgáfu frá {storeName}",
   "screenshotMedicationHistoriesMemo": "Ég tók of mikið siestu og tók lyfið of seint.",

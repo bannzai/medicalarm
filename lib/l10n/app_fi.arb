@@ -142,7 +142,7 @@
   "autoRenewalNotice": "Tilauskauden päätyttyä tilaus uusiutuu automaattisesti.",
   "restorePurchase": "Aiemmin ostaneille",
   "purchaseRestored": "Ostotiedot palautettiin",
-  "medicationTimeFollowup": "Lääkkeenottoajan seurantamuistutus",
+  "medicationTimeFollowup": "Lääkkeenottoajan seuranta",
   "updateRequired": "Päivitys on tarpeen",
   "updateRequiredMessage": "Ole hyvä ja päivitä {storeName} uuteen versioon.",
   "screenshotMedicationHistoriesMemo": "Nukuin liian pitkään, ja lääkeannoksen ottaminen viivästyi.",

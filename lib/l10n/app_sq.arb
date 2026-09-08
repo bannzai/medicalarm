@@ -142,7 +142,7 @@
   "autoRenewalNotice": "Pas përfundimit të periudhës së abonimit, ai do të rinovohet automatikisht.",
   "restorePurchase": "Për ata që kanë blerë më parë",
   "purchaseRestored": "Informacionet e blerjes u rikthyen",
-  "medicationTimeFollowup": "Ndjekja e kohës së marrjes",
+  "medicationTimeFollowup": "Ndjekja e orarit të marrjes së ilaçit",
   "updateRequired": "Përditësimi është i nevojshëm",
   "updateRequiredMessage": "Ju lutem përditësoni në versionin më të fundit nga {storeName}.",
   "screenshotMedicationHistoriesMemo": "Kam një gjumë të gjatë dhe harrova të merrja ilaçin në kohë.",

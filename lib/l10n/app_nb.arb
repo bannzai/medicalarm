@@ -142,7 +142,7 @@
   "autoRenewalNotice": "Etter at abonnementsperioden er over, fornyes det automatisk.",
   "restorePurchase": "For deg som har kjøpt tidligere",
   "purchaseRestored": "Kjøpsinformasjonen er gjenopprettet",
-  "medicationTimeFollowup": "Oppfølging av inntakstidspunkt",
+  "medicationTimeFollowup": "Oppfølging av medisineringstidspunkt",
   "updateRequired": "Oppdatering er nødvendig",
   "updateRequiredMessage": "Vennligst oppdater til den nyeste versjonen fra {storeName}",
   "screenshotMedicationHistoriesMemo": "Har sovet for mye på dagen, så jeg tok medisinen for sent.",

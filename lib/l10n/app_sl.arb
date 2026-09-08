@@ -142,7 +142,7 @@
   "autoRenewalNotice": "Po koncu naročniškega obdobja se bo naročnina samodejno podaljšala.",
   "restorePurchase": "Za tiste, ki so že kupili",
   "purchaseRestored": "Podatki o nakupu so bili obnovljeni",
-  "medicationTimeFollowup": "Sledenje času jemanja",
+  "medicationTimeFollowup": "Spremljanje časa jemanja zdravila",
   "updateRequired": "Zahteva se posodobitev",
   "updateRequiredMessage": "Prosimo, posodobite na najnovejšo različico iz {storeName}.",
   "screenshotMedicationHistoriesMemo": "Preveč sem dremal, zato sem zamuja z jemanje zdravila.",

@@ -142,7 +142,7 @@
   "autoRenewalNotice": "Після завершення періоду підписки її буде автоматично продовжено.",
   "restorePurchase": "Для тих, хто вже купував",
   "purchaseRestored": "Інформацію про покупку відновлено",
-  "medicationTimeFollowup": "Follow-up on medication time",
+  "medicationTimeFollowup": "Контроль часу прийому ліків",
   "updateRequired": "An update is required.",
   "updateRequiredMessage": "Please update to the latest version from {storeName}.",
   "screenshotMedicationHistoriesMemo": "I took too long a nap and missed my medicine time.",

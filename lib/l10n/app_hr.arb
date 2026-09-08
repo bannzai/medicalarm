@@ -142,7 +142,7 @@
   "autoRenewalNotice": "Nakon isteka razdoblja pretplate, ona će se automatski obnoviti.",
   "restorePurchase": "Za one koji su ranije kupili",
   "purchaseRestored": "Informacije o kupnji su vraćene",
-  "medicationTimeFollowup": "Praćenje vremena uzimanja",
+  "medicationTimeFollowup": "Praćenje vremena uzimanja lijeka",
   "updateRequired": "Potrebna je nadogradnja",
   "updateRequiredMessage": "Ažurirajte na najnoviju verziju iz {storeName}",
   "screenshotMedicationHistoriesMemo": "Previše sam spavao i zakasnio uzeti lijek.",

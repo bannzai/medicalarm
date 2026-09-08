@@ -142,7 +142,7 @@
   "autoRenewalNotice": "Abonelik süresi sona erdikten sonra otomatik olarak yenilenir.",
   "restorePurchase": "Daha önce satın alanlar için",
   "purchaseRestored": "Satın alma bilgileri geri yüklendi",
-  "medicationTimeFollowup": "İlaç alma zamanının takibi",
+  "medicationTimeFollowup": "İlaç alma zamanı takibi",
   "updateRequired": "Güncelleme gerekli",
   "updateRequiredMessage": "{storeName}'den en son sürüme güncelleyin.",
   "screenshotMedicationHistoriesMemo": "Gündüz uykusunu fazla uyudum, ilaç alma zamanım gecikti.",

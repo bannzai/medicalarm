@@ -142,7 +142,7 @@
   "autoRenewalNotice": "Harpidetza-aldia amaitzean, automatikoki berrituko da.",
   "restorePurchase": "Aurretik erosi dutenentzat",
   "purchaseRestored": "Erosketa-informazioa leheneratu da",
-  "medicationTimeFollowup": "Hartzeko ordua jarraipena",
+  "medicationTimeFollowup": "Botika hartzeko orduaren jarraipena",
   "updateRequired": "Eguneraketa behar da",
   "updateRequiredMessage": "Eguneratu {storeName}tik azken bertsiora.",
   "screenshotMedicationHistoriesMemo": "Lo egon dutelako, botika hartzeko ordua berandu iritsi da",

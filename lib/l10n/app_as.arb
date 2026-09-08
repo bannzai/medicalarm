@@ -142,7 +142,7 @@
   "autoRenewalNotice": "চাবস্ক্ৰিপচনৰ ম্যাদ শেষ হোৱাৰ পিছত ই স্বয়ংক্ৰিয়ভাৱে নবীকৰণ হ’ব।",
   "restorePurchase": "আগতে ক্ৰয় কৰা লোকসকলৰ বাবে",
   "purchaseRestored": "ক্ৰয়ৰ তথ্য পুনৰুদ্ধাৰ কৰা হৈছে",
-  "medicationTimeFollowup": "ການຕິດຕາມເວລາຮັບຢາ",
+  "medicationTimeFollowup": "ঔষধ সেৱনৰ সময়ৰ অনুসৰণ",
   "updateRequired": "আপডেট প্রয়োজন",
   "updateRequiredMessage": "{storeName} এ সর্বশেষ সংস্করণে আপডেট করুন",
   "screenshotMedicationHistoriesMemo": "?দীর্ঘ সময় ঘুমিয়ে ছিলাম, তাই ঔষধ খাওয়ার সময় বেশি হয়ে গেছে.",

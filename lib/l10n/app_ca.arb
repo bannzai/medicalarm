@@ -142,7 +142,7 @@
   "autoRenewalNotice": "Un cop finalitzi el període de subscripció, es renovarà automàticament.",
   "restorePurchase": "Per a qui ja ha comprat",
   "purchaseRestored": "S’ha restaurat la informació de compra",
-  "medicationTimeFollowup": "Seguiment de l'horari de presa",
+  "medicationTimeFollowup": "Seguiment de l’hora de prendre la medicació",
   "updateRequired": "Cal necessària una actualització",
   "updateRequiredMessage": "Actualitzeu a la darrera versió des de {storeName}",
   "screenshotMedicationHistoriesMemo": "He dormit massa i he arribat tard per prendre la medicina.",

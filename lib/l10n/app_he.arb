@@ -142,7 +142,7 @@
   "autoRenewalNotice": "לאחר סיום תקופת המינוי, המינוי יתחדש אוטומטית.",
   "restorePurchase": "למי שכבר רכשו בעבר",
   "purchaseRestored": "פרטי הרכישה שוחזרו",
-  "medicationTimeFollowup": "מעקב בזמן נטילה",
+  "medicationTimeFollowup": "מעקב אחר מועד נטילת התרופה",
   "updateRequired": "דרושה עדכון",
   "updateRequiredMessage": "אנא עדכן לגרסה האחרונה מ-{storeName}",
   "screenshotMedicationHistoriesMemo": "שכבתי יותר מדי והזמן של לקיחת התרופה התעכב",

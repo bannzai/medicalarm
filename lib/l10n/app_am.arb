@@ -142,7 +142,7 @@
   "autoRenewalNotice": "የደንበኝነት ጊዜው ካለቀ በኋላ በራስ-ሰር ይታደሳል።",
   "restorePurchase": "ቀደም ሲል ለገዙ ተጠቃሚዎች",
   "purchaseRestored": "የግዢ መረጃ ተመልሷል",
-  "medicationTimeFollowup": "መውጣት ሰዓት የመከታቻ ዝርዝር",
+  "medicationTimeFollowup": "የመድሃኒት መውሰጃ ጊዜ ክትትል",
   "updateRequired": "አውርድ አለባት",
   "updateRequiredMessage": "እቅፍ አውታረ ድር {storeName} ወደ ምርጥ አማራጭ ይቀይሩ።",
   "screenshotMedicationHistoriesMemo": "በማለዳ በጣም የተቀመጥኩ ስለዚህ አይተማር ዝውውም ማድረግ አለብኝ",

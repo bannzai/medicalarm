@@ -142,7 +142,7 @@
   "autoRenewalNotice": "По истекот на периодот на претплата, таа автоматски ќе се обнови.",
   "restorePurchase": "За оние кои претходно купиле",
   "purchaseRestored": "Информациите за купувањето се обновени",
-  "medicationTimeFollowup": "Следење на времето за употреба",
+  "medicationTimeFollowup": "Следење на времето за земање лекови",
   "updateRequired": "Потребна е надградба",
   "updateRequiredMessage": "Ве молиме да ја ажурирате на најновата верзија од {storeName}.",
   "screenshotMedicationHistoriesMemo": "Премногу спиев и го одложив времето за земање на лекот",

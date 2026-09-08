@@ -142,7 +142,7 @@
   "autoRenewalNotice": "გამოწერის ვადის დასრულების შემდეგ ის ავტომატურად განახლდება.",
   "restorePurchase": "მათთვის, ვინც ადრე შეიძინა",
   "purchaseRestored": "შეძენის ინფორმაცია აღდგენილია",
-  "medicationTimeFollowup": "მკურნალობის დროის კვალი",
+  "medicationTimeFollowup": "მედიკამენტის მიღების დროის შემდგომი შეხსენება",
   "updateRequired": "გართული აწარმოებს",
   "updateRequiredMessage": "განახლება საჭიროა {storeName}-დან.",
   "screenshotMedicationHistoriesMemo": "მოიწამლეთ, რომ გადამწყვეტი დროები დაგროვდეს",
