@@ -1,8 +1,8 @@
 ---
 feature: medications
 verification: mobile-mcp
-last_verified_commit: efbd9632640d4658431631749be373ec8652c0f2
-last_verified_at: 2026-07-16
+last_verified_commit: 7ddb0bffabab934d027e6bb2e0c3dfca0e37b8eb
+last_verified_at: 2026-09-08
 ---
 
 # medications QA
@@ -401,6 +401,67 @@ simtunnel（GitHub Actions macOS Runner 上の iPhone 17 / iOS 26、英語ロケ
 </details>
 
 ### **他メンバーが記録した服用済み行に「◯◯が記録」が併記される**
+
+<details><summary>動作確認スクショ</summary>
+
+⏭️ スキップ（上記チェックリストの理由欄を参照）
+
+</details>
+
+</details>
+
+---
+
+## 8. 白文字を載せる塗り面のコントラスト（#287）
+
+- [x] **AppBar の塗り**: 服薬画面・お薬一覧の AppBar が `AppColors.primaryFilled`（#BA4F49。白文字と 4.88:1）で塗られ、白のタイトル・アイコンが読める
+- [x] **週カレンダーの選択円**: 選択中の日付の丸背景が primaryFilled で、白の日付数字が読める
+- [x] **主ボタン**: 「お薬を追加」FAB とお薬登録フォームの「保存」ボタンの背景が primaryFilled で、白のラベルが読める
+- [ ] **プレミアム紹介シートのヘッダー・割引バッジ**: ヘッダー背景と「月額より{percent}%OFF」バッジが primaryFilled で塗られる
+  - ⏭️ スキップ: simtunnel（GitHub Actions macOS Runner）の simulator では RevenueCat の offerings 取得が完了せず、シートがローディング表示のままで確認できなかった（`lib/features/preium_introduction/QA.md` の購入導線と同じ制約）。塗りの差し替え自体は `test/features/primary_filled_contrast_test.dart` と同じ定数参照のためユニットテストの範囲でカバー
+
+#### 動作確認
+<details>
+<summary>動作確認エビデンス</summary>
+
+### **AppBar の塗り**: 服薬画面・お薬一覧の AppBar が `AppColors.primaryFilled`（#BA4F49。白文字と 4.88:1）で塗られ、白のタイトル・アイコンが読める
+
+<details><summary>動作確認スクショ</summary>
+
+**確認日: 2026-09-08**
+
+simtunnel（GitHub Actions macOS Runner 上の iPhone 17 / iOS 26.5、英語ロケール）で確認。服薬画面の AppBar「Medication / 9/6 - 9/12」と編集アイコン、お薬一覧の AppBar「Medication List」が濃いコーラルの背景に白で表示された。
+
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/09/08/ea0a018d-1ae4-4172-83bb-793d86ecd707-shot-02.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/09/08/c67aa20d-0056-4eed-8580-13708b5bcf3c-shot-06.jpg" width="320">
+
+</details>
+
+### **週カレンダーの選択円**: 選択中の日付の丸背景が primaryFilled で、白の日付数字が読める
+
+<details><summary>動作確認スクショ</summary>
+
+**確認日: 2026-09-08**
+
+選択中の「8」の丸背景が AppBar と同じ濃いコーラルになり、白の数字が読めることを確認した。
+
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/09/08/ea0a018d-1ae4-4172-83bb-793d86ecd707-shot-02.jpg" width="320">
+
+</details>
+
+### **主ボタン**: 「お薬を追加」FAB とお薬登録フォームの「保存」ボタンの背景が primaryFilled で、白のラベルが読める
+
+<details><summary>動作確認スクショ</summary>
+
+**確認日: 2026-09-08**
+
+服薬画面・お薬一覧の「Add Medication」と、名前とスケジュールを入力して有効化したお薬登録フォームの「Save」が濃いコーラルの背景に白のラベルで表示された。フォームの AppBar（白背景 + primary 文字）は本 issue のスコープ外で従来どおり。
+
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/09/08/45000ef7-203a-483f-9959-3717bb4c1640-shot-07.jpg" width="320">
+
+</details>
+
+### **プレミアム紹介シートのヘッダー・割引バッジ**: ヘッダー背景と「月額より{percent}%OFF」バッジが primaryFilled で塗られる
 
 <details><summary>動作確認スクショ</summary>
 
