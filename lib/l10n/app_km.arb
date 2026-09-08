@@ -62,7 +62,7 @@
   "inquiry": "ទាក់ទងមកយើងខ្ញុំ",
   "ok": "យល់ព្រម",
   "medicationScheduleLimit": "អ្នកអាចចុះឈ្មោះកាលវិភាគប្រើថ្នាំបានរហូតដល់ {count}។",
-  "increaseMedicationScheduleLimit": "បន្ថែមកំណត់ឱ្យកើនឡើងជាង {count} ក្នុងផែនទីពាណិជ្ជកម្ម",
+  "increaseMedicationScheduleLimit": "បង្កើនកម្រិតកំណត់ដល់ {count} ជាមួយគម្រោង Premium",
   "addMedicationSchedule": "ប្តូរពេលវេលាសម្រាប់ការទទួល",
   "medicationScheduleNotificationSetting": "ការកំណត់ការជូនដំណឹងកាលវិភាគការទទួលยา",
   "notificationSetting": "កំណត់ការជូនដំណឹង",

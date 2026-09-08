@@ -62,7 +62,7 @@
   "inquiry": "Cysylltu â ni",
   "ok": "Iawn",
   "medicationScheduleLimit": "Gallwch gofrestru hyd at {count} amserlen feddyginiaeth.",
-  "increaseMedicationScheduleLimit": "Cynyddwch y terfyn i {count} gyda'r cynllun premium.",
+  "increaseMedicationScheduleLimit": "Cynyddu'r terfyn i {count} gyda'r cynllun Premium",
   "addMedicationSchedule": "Ychwanegu amserlen meddyginiaeth",
   "medicationScheduleNotificationSetting": "Gosodiad Hysbysiadau Amserlen Meddyginiaeth",
   "notificationSetting": "Gosodiad Hysbysiadau",

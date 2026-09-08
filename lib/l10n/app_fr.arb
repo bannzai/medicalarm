@@ -62,7 +62,7 @@
   "inquiry": "Nous contacter",
   "ok": "OK",
   "medicationScheduleLimit": "Vous pouvez enregistrer jusqu’à {count} programmes de prise de médicaments.",
-  "increaseMedicationScheduleLimit": "Augmentez la limite à {count} avec le plan premium.",
+  "increaseMedicationScheduleLimit": "Augmenter la limite à {count} avec le forfait Premium",
   "addMedicationSchedule": "Ajouter un emploi du temps de prise",
   "medicationScheduleNotificationSetting": "Paramètres de notification de l'horaire de prise",
   "notificationSetting": "Paramètres de notification",

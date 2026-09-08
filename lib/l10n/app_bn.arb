@@ -62,7 +62,7 @@
   "inquiry": "যোগাযোগ করুন",
   "ok": "ঠিক আছে",
   "medicationScheduleLimit": "আপনি সর্বাধিক {count}টি ওষুধ খাওয়ার সময়সূচি নিবন্ধন করতে পারবেন।",
-  "increaseMedicationScheduleLimit": "প্রিমিয়াম পরিকল্পনায় সীমা {count} এ বাড়ান",
+  "increaseMedicationScheduleLimit": "প্রিমিয়াম প্ল্যানে সীমা বাড়িয়ে {count} করুন",
   "addMedicationSchedule": "ডোজ সময়সূচী যোগ করুন",
   "medicationScheduleNotificationSetting": "ওষুধ গ্রহণের সময়সূচী বিজ্ঞপ্তি সেটিং",
   "notificationSetting": "নটিফিকেশন সেটিংস",

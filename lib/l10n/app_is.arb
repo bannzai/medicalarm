@@ -62,7 +62,7 @@
   "inquiry": "Hafðu samband",
   "ok": "Í lagi",
   "medicationScheduleLimit": "Þú getur skráð allt að {count} lyfjatökuáætlanir.",
-  "increaseMedicationScheduleLimit": "Auka hámarkið í {count} með Premium áætlun.",
+  "increaseMedicationScheduleLimit": "Hækkaðu hámarkið í {count} með Premium-áskrift",
   "addMedicationSchedule": "Bæta við lyfjaskráningu",
   "medicationScheduleNotificationSetting": "Skilgreining á tilkynningum um skammtatímasetningu",
   "notificationSetting": "Tilkynningarstilla",

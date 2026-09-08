@@ -62,7 +62,7 @@
   "inquiry": "Na kontaktoni",
   "ok": "Në rregull",
   "medicationScheduleLimit": "Mund të regjistroni deri në {count} orare të marrjes së barnave.",
-  "increaseMedicationScheduleLimit": "Krijoni kufijtë e orarit të përdorimit në planin e premiumit në {count}",
+  "increaseMedicationScheduleLimit": "Rriteni kufirin në {count} me planin Premium",
   "addMedicationSchedule": "Shtoni orarin e marrjes",
   "medicationScheduleNotificationSetting": "Cilësimi i njoftimeve për orarin e marrjes",
   "notificationSetting": "Cilësimi i njoftimeve",

@@ -62,7 +62,7 @@
   "inquiry": "Wasiliana nasi",
   "ok": "Sawa",
   "medicationScheduleLimit": "Unaweza kusajili hadi ratiba {count} za kutumia dawa.",
-  "increaseMedicationScheduleLimit": "Ongezeko la juu ya {count} kwenye mpango wa Premium.",
+  "increaseMedicationScheduleLimit": "Ongeza kikomo hadi {count} kwa mpango wa Premium",
   "addMedicationSchedule": "Ongeza ratiba ya matumizi",
   "medicationScheduleNotificationSetting": "Mipango ya arifa ya matumizi",
   "notificationSetting": "Mipangilio ya arifa",

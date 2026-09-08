@@ -62,7 +62,7 @@
   "inquiry": "ያግኙን",
   "ok": "እሺ",
   "medicationScheduleLimit": "እስከ {count} የመድኃኒት መውሰጃ መርሃ ግብሮችን መመዝገብ ይችላሉ።",
-  "increaseMedicationScheduleLimit": "በፕሪምየም እቅድ ውስጥ እንዲሆን ገደብዎን ወደ {count} ያስገነባ",
+  "increaseMedicationScheduleLimit": "በPremium ዕቅድ ገደቡን ወደ {count} ያሳድጉ",
   "addMedicationSchedule": "መድህን ቀን ወቅት ይጨምሩ",
   "medicationScheduleNotificationSetting": "የመይነት ጊዜ ማሳወቅ መቅጣት አስተዳደር",
   "notificationSetting": "መረጃ መስመር ይቀንሱ",

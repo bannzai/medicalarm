@@ -62,7 +62,7 @@
   "inquiry": "Contact us",
   "ok": "OK",
   "medicationScheduleLimit": "You can register up to {count} medication schedules.",
-  "increaseMedicationScheduleLimit": "Increase the limit to {count} with the premium plan.",
+  "increaseMedicationScheduleLimit": "Increase the limit to {count} with the Premium plan",
   "addMedicationSchedule": "Add Medication Schedule",
   "medicationScheduleNotificationSetting": "Medication Schedule Notification Settings",
   "notificationSetting": "Notification Settings",

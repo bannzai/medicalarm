@@ -62,7 +62,7 @@
   "inquiry": "დაგვიკავშირდით",
   "ok": "კარგი",
   "medicationScheduleLimit": "შეგიძლიათ დაარეგისტრიროთ მედიკამენტების მიღების მაქსიმუმ {count} განრიგი.",
-  "increaseMedicationScheduleLimit": "პრემიუმ გეგმაში ლიმიტის გაზრდა {count}-ზე",
+  "increaseMedicationScheduleLimit": "Premium გეგმით ლიმიტის {count}-მდე გაზრდა",
   "addMedicationSchedule": "მედიკამენტების გრაფიკის დამატება",
   "medicationScheduleNotificationSetting": "მკურნალობის განრიგის შეტყობინების პარამეტრები",
   "notificationSetting": "შეტყობინების პარამეტრები",

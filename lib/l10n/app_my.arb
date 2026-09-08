@@ -62,7 +62,7 @@
   "inquiry": "ဆက်သွယ်ရန်",
   "ok": "အိုကေ",
   "medicationScheduleLimit": "ဆေးသောက်ချိန်ဇယားကို အများဆုံး {count} ခုအထိ မှတ်ပုံတင်နိုင်ပါသည်။",
-  "increaseMedicationScheduleLimit": "Meningkatkan had kepada {count} dengan pelan premium",
+  "increaseMedicationScheduleLimit": "ပရီမီယမ်အစီအစဉ်ဖြင့် ကန့်သတ်ချက်ကို {count} အထိ တိုးမြှင့်ရန်",
   "addMedicationSchedule": "Tambah Jadual Pengambilan",
   "medicationScheduleNotificationSetting": "Tetapan Pemberitahuan Jadual Pengambilan",
   "notificationSetting": "Tetapan Pemberitahuan",

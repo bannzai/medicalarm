@@ -62,7 +62,7 @@
   "inquiry": "Xhumana nathi",
   "ok": "Kulungile",
   "medicationScheduleLimit": "Ungabhalisa amashejuli okuphuza imithi afinyelela ku-{count}.",
-  "increaseMedicationScheduleLimit": "Khuphula umkhawulo ku-{count} ngephakheji ye-Premium",
+  "increaseMedicationScheduleLimit": "Khulisa umkhawulo ube ngu-{count} ngohlelo lwe-Premium",
   "addMedicationSchedule": "Faka amandla uhlelo lokusebenzisa",
   "medicationScheduleNotificationSetting": "Izilungiselelo zokusazisa ngesikhathi sokuthatha imishanguzo",
   "notificationSetting": "Ukucushwa kwezaziso",

@@ -62,7 +62,7 @@
   "inquiry": "Контактирајте нè",
   "ok": "Во ред",
   "medicationScheduleLimit": "Можете да регистрирате до {count} распореди за земање лекови.",
-  "increaseMedicationScheduleLimit": "Зголемете го ограничувањето на распоредот за лекови на {count} со премиум планот",
+  "increaseMedicationScheduleLimit": "Зголемете го ограничувањето на {count} со Premium планот",
   "addMedicationSchedule": "Додади распоред за лекови",
   "medicationScheduleNotificationSetting": "Поставување известување за распоред на земање лекови",
   "notificationSetting": "Поставки на известување",

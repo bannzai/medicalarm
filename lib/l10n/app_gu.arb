@@ -62,7 +62,7 @@
   "inquiry": "અમારો સંપર્ક કરો",
   "ok": "ઠીક છે",
   "medicationScheduleLimit": "તમે વધુમાં વધુ {count} દવા લેવાના સમયપત્રકો નોંધાવી શકો છો.",
-  "increaseMedicationScheduleLimit": "પ્રિમિયમ પ્લાન દ્વારા મર્યાદાને {count}માં વધારવા",
+  "increaseMedicationScheduleLimit": "પ્રીમિયમ પ્લાન સાથે મર્યાદા {count} સુધી વધારો",
   "addMedicationSchedule": "ડોઝ શડ્યૂલ ઉમેરો",
   "medicationScheduleNotificationSetting": "દવા લેવાવાનું સમયપત્રક સૂચના સેટિંગ",
   "notificationSetting": "બહાલી વિસ્તારમાં નિયંત્રણ",

@@ -62,7 +62,7 @@
   "inquiry": "Зв’язатися з нами",
   "ok": "Гаразд",
   "medicationScheduleLimit": "Можна зареєструвати до {count} розкладів приймання ліків.",
-  "increaseMedicationScheduleLimit": "Increase the limit to {count} with the premium plan",
+  "increaseMedicationScheduleLimit": "Збільшити ліміт до {count} із планом Premium",
   "addMedicationSchedule": "Add Dosage Schedule",
   "medicationScheduleNotificationSetting": "Medication Schedule Notification Settings",
   "notificationSetting": "Notification Settings",

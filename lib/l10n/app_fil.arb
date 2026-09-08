@@ -62,7 +62,7 @@
   "inquiry": "Makipag-ugnayan sa amin",
   "ok": "OK",
   "medicationScheduleLimit": "Maaari kang magrehistro ng hanggang {count} iskedyul ng pag-inom ng gamot.",
-  "increaseMedicationScheduleLimit": "Palitan ang limit ng {count} sa premium na plano.",
+  "increaseMedicationScheduleLimit": "Itaas ang limit sa {count} gamit ang Premium plan",
   "addMedicationSchedule": "Magdagdag ng iskedyul ng pag-inom",
   "medicationScheduleNotificationSetting": "Pagtatakda ng abiso ng iskedyul ng pag-inom",
   "notificationSetting": "Mga Setting ng Abiso",

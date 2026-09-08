@@ -62,7 +62,7 @@
   "inquiry": "ติดต่อเรา",
   "ok": "ตกลง",
   "medicationScheduleLimit": "คุณสามารถลงทะเบียนตารางการรับประทานยาได้สูงสุด {count} รายการ",
-  "increaseMedicationScheduleLimit": "เพิ่มขีดจำกัดสูงสุดเป็น {count} ด้วยแผนพรีเมียม",
+  "increaseMedicationScheduleLimit": "เพิ่มขีดจำกัดเป็น {count} ด้วยแพ็กเกจ Premium",
   "addMedicationSchedule": "เพิ่มตารางการใช้ยา",
   "medicationScheduleNotificationSetting": "การตั้งค่าการแจ้งเตือนตารางการใช้ยา",
   "notificationSetting": "การตั้งค่าแจ้งเตือน",

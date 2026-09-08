@@ -62,7 +62,7 @@
   "inquiry": "Связаться с нами",
   "ok": "ОК",
   "medicationScheduleLimit": "Можно зарегистрировать до {count} расписаний приёма лекарств.",
-  "increaseMedicationScheduleLimit": "Увеличьте лимит до {count} с помощью премиум-плана",
+  "increaseMedicationScheduleLimit": "Увеличить лимит до {count} с планом Premium",
   "addMedicationSchedule": "Добавить расписание приема",
   "medicationScheduleNotificationSetting": "Настройки уведомлений о расписании приема",
   "notificationSetting": "Настройки уведомлений",

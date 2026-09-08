@@ -62,7 +62,7 @@
   "inquiry": "Kontakt oss",
   "ok": "OK",
   "medicationScheduleLimit": "Du kan registrere opptil {count} medisineringsplaner.",
-  "increaseMedicationScheduleLimit": "Øk grensen til {count} med premiumplanen",
+  "increaseMedicationScheduleLimit": "Øk grensen til {count} med Premium-abonnementet",
   "addMedicationSchedule": "Legg til medisineringstidspunkt",
   "medicationScheduleNotificationSetting": "Innstilling av medisineringstidspåminnelse",
   "notificationSetting": "Varslingsinnstillinger",

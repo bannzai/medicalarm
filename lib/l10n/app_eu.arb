@@ -62,7 +62,7 @@
   "inquiry": "Jarri gurekin harremanetan",
   "ok": "Ados",
   "medicationScheduleLimit": "Gehienez {count} botika-hartze ordutegi erregistra ditzakezu.",
-  "increaseMedicationScheduleLimit": "Prestatutako planarekin gehienezkora iritsi {count} handitzeko",
+  "increaseMedicationScheduleLimit": "Handitu muga {count}-ra Premium planarekin",
   "addMedicationSchedule": "Datu bazkideak gehitu",
   "medicationScheduleNotificationSetting": "Hartzeko ordutegiaren jakinarazpen ezarpenak",
   "notificationSetting": "Jakinarazpenen ezarpena",

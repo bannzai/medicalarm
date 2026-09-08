@@ -62,7 +62,7 @@
   "inquiry": "Kontaktujte nás",
   "ok": "OK",
   "medicationScheduleLimit": "Môžete zaregistrovať až {count} rozvrhov užívania liekov.",
-  "increaseMedicationScheduleLimit": "Zvýšte limit v prémiovom pláne na {count}",
+  "increaseMedicationScheduleLimit": "Zvýšte limit na {count} s prémiovým plánom",
   "addMedicationSchedule": "Pridať plán užívania",
   "medicationScheduleNotificationSetting": "Nastavenie upozornení na harmonogram užívania",
   "notificationSetting": "Nastavenie oznámení",

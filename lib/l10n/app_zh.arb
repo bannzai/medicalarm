@@ -62,7 +62,7 @@
   "inquiry": "联系我们",
   "ok": "确定",
   "medicationScheduleLimit": "最多可以登记 {count} 个服药计划。",
-  "increaseMedicationScheduleLimit": "在高级计划中将上限增加到{count}",
+  "increaseMedicationScheduleLimit": "使用 Premium 方案将上限提高至 {count}",
   "addMedicationSchedule": "添加服用计划",
   "medicationScheduleNotificationSetting": "服药计划通知设置",
   "notificationSetting": "通知设置",

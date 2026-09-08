@@ -62,7 +62,7 @@
   "inquiry": "Звязацца з намі",
   "ok": "Добра",
   "medicationScheduleLimit": "Можна зарэгістраваць да {count} раскладаў прыёму лекаў.",
-  "increaseMedicationScheduleLimit": "Павышэнне верхняга парога да {count} у прэміум-плане",
+  "increaseMedicationScheduleLimit": "Павялічыць ліміт да {count} з прэміум-планам",
   "addMedicationSchedule": "Дадаць расклад прыёму лекі",
   "medicationScheduleNotificationSetting": "Наладка апавяшчэння графіка прыёму",
   "notificationSetting": "Настройка апавядання",

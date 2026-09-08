@@ -62,7 +62,7 @@
   "inquiry": "Kontakt",
   "ok": "OK",
   "medicationScheduleLimit": "Sie können bis zu {count} Einnahmepläne registrieren.",
-  "increaseMedicationScheduleLimit": "Erhöhen Sie das Limit auf {count} mit dem Premium-Plan.",
+  "increaseMedicationScheduleLimit": "Limit mit dem Premium-Abo auf {count} erhöhen",
   "addMedicationSchedule": "Medikationszeitplan hinzufügen",
   "medicationScheduleNotificationSetting": "Benachrichtigungseinstellungen für den Medikamenteneinnahmezeitplan",
   "notificationSetting": "Benachrichtigungseinstellungen",

@@ -62,7 +62,7 @@
   "inquiry": "Biz bilan bog‘laning",
   "ok": "OK",
   "medicationScheduleLimit": "Ko‘pi bilan {count} ta dori qabul qilish jadvalini ro‘yxatdan o‘tkazishingiz mumkin.",
-  "increaseMedicationScheduleLimit": "Premium rejasi bilan cheklovni {count} ga oshirish",
+  "increaseMedicationScheduleLimit": "Premium tarif bilan limitni {count} gacha oshirish",
   "addMedicationSchedule": "Qabul jadvalini qo'shish",
   "medicationScheduleNotificationSetting": "Doriq rejasi uchun xabarnoma sozlamalari",
   "notificationSetting": "Bildirishnoma sozlamalari",

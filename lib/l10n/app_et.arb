@@ -62,7 +62,7 @@
   "inquiry": "Võta meiega ühendust",
   "ok": "OK",
   "medicationScheduleLimit": "Saate registreerida kuni {count} ravimivõtmise ajakava.",
-  "increaseMedicationScheduleLimit": "Tõsta premium-plaaniga piirang {count}ni",
+  "increaseMedicationScheduleLimit": "Suurenda limiit Premium-paketiga väärtuseni {count}",
   "addMedicationSchedule": "Lisa raviskeemide ajakava",
   "medicationScheduleNotificationSetting": "Ravimi ajakava teavituste seadistamine",
   "notificationSetting": "Teavituste seadistamine",
