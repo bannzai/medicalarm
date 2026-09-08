@@ -189,7 +189,7 @@
   "groupNameInputHint": "Introdueix el nom del grup",
   "groupIcon": "Icona",
   "groupMemberCount": "Membres: {count}",
-  "defaultGroupBadge": "Predeterminat",
+  "defaultGroupBadge": "Per defecte",
   "soloGroupName": "El meu grup",
   "joinWithInvitationCode": "Uneix-te amb el codi d’invitació",
   "groupCreationLimitReached": "No podeu crear més grups amb el pla gratuït",

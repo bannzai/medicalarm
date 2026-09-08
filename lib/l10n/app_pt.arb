@@ -189,7 +189,7 @@
   "groupNameInputHint": "Introduza o nome do grupo",
   "groupIcon": "Ícone",
   "groupMemberCount": "Membros: {count}",
-  "defaultGroupBadge": "Padrão",
+  "defaultGroupBadge": "Predefinido",
   "soloGroupName": "Meu grupo",
   "joinWithInvitationCode": "Participar com código de convite",
   "groupCreationLimitReached": "Não pode criar mais grupos no plano gratuito",
