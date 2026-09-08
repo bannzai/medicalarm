@@ -52,7 +52,7 @@
   "addDoseReceiver": "Lisää lääkkeen käyttäjä",
   "newDoseReceiver": "Uusi lääkkeiden käyttäjä",
   "reloginRequired": "Kirjaudu uudelleen",
-  "reloginMessage": "Poistaaksesi tilin, kirjaudu sisään uudelleen.",
+  "reloginMessage": "Kirjaudu uudelleen poistaaksesi tilisi.",
   "relogin": "Kirjaudu sisään uudelleen",
   "accountDeleted": "Olet poistanut tilin.",
   "confirmExit": "Haluatko sulkea sovelluksen?",

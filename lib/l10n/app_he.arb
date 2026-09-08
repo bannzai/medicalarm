@@ -52,7 +52,7 @@
   "addDoseReceiver": "הוספת נוטל תרופה",
   "newDoseReceiver": "משתמש חדש בתרופות",
   "reloginRequired": "יש להתחבר מחדש",
-  "reloginMessage": "כדי למחוק את החשבון, אנא התחבר מחדש.",
+  "reloginMessage": "יש להתחבר מחדש כדי למחוק את החשבון.",
   "relogin": "התחברות מחדש",
   "accountDeleted": "החשבון נמחק",
   "confirmExit": "האם אתה רוצה לסגור את האפליקציה?",

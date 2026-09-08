@@ -52,7 +52,7 @@
   "addDoseReceiver": "Afegeix una persona que pren medicació",
   "newDoseReceiver": "Nou usuari de medicació",
   "reloginRequired": "Torneu a iniciar sessió",
-  "reloginMessage": "Per eliminar el compte, torneu a iniciar sessió.",
+  "reloginMessage": "Torna a iniciar sessió per suprimir el compte.",
   "relogin": "Torna a iniciar sessió",
   "accountDeleted": "S'ha eliminat el compte",
   "confirmExit": "Voleu tancar l'aplicació?",

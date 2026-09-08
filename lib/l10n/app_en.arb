@@ -52,7 +52,7 @@
   "addDoseReceiver": "Add medication user",
   "newDoseReceiver": "New medication user",
   "reloginRequired": "Please log in again",
-  "reloginMessage": "To delete your account, please log in again.",
+  "reloginMessage": "Please log in again to delete your account.",
   "relogin": "Re-login",
   "accountDeleted": "Account has been deleted.",
   "confirmExit": "Do you want to exit the app?",

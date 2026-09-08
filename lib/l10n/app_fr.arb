@@ -52,7 +52,7 @@
   "addDoseReceiver": "Ajouter une personne prenant des médicaments",
   "newDoseReceiver": "Nouvel utilisateur de médicaments",
   "reloginRequired": "Veuillez vous reconnecter",
-  "reloginMessage": "Pour supprimer votre compte, veuillez vous reconnecter.",
+  "reloginMessage": "Veuillez vous reconnecter pour supprimer votre compte.",
   "relogin": "Se reconnecter",
   "accountDeleted": "Votre compte a été supprimé.",
   "confirmExit": "Voulez-vous quitter l'application ?",

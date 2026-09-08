@@ -52,7 +52,7 @@
   "addDoseReceiver": "添加服药者",
   "newDoseReceiver": "新的服药人",
   "reloginRequired": "请重新登录",
-  "reloginMessage": "要删除账户，请重新登录。",
+  "reloginMessage": "请重新登录以删除您的账户。",
   "relogin": "重新登录",
   "accountDeleted": "已删除账户",
   "confirmExit": "您要结束应用程序吗？",
