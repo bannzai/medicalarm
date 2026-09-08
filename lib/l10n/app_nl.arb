@@ -116,7 +116,7 @@
   "purchaseErrorAlreadyPurchased": "U hebt al een abonnement gekocht. Als u uw aankoopgegevens op dit apparaat wilt herstellen, kiest u ‘Voor wie al eerder heeft gekocht’.",
   "purchaseErrorReceiptInUse": "Al gekocht of de aankoopgegevens worden door een andere gebruiker gebruikt. Controleer {accountName}.",
   "purchaseErrorInvalidReceipt": "Ongeldige aankoopgegevens. Controleer je aankoopgegevens.",
-  "purchaseErrorMissingReceipt": "Er zijn geen koperinformatie gevonden. Probeer in te loggen op het apparaat met {accountName}.",
+  "purchaseErrorMissingReceipt": "Er is geen informatie over de koper beschikbaar. Log op dit apparaat in met {accountName} en probeer het opnieuw.",
   "purchaseErrorNetwork": "De netwerkstatus is instabiel. Controleer de verbindingsstatus en probeer het opnieuw.",
   "purchaseNotAllowed": "Aankoop is niet toegestaan op dit apparaat.",
   "purchaseErrorInvalidCredentials": "De aankoop is mislukt. Probeer het opnieuw na een tijdje. Als het probleem aanhoudt, neem dan contact met ons op via Instellingen > Contact. Details: {message}",

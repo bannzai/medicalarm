@@ -116,7 +116,7 @@
   "purchaseErrorAlreadyPurchased": "Nakabili ka na ng plano. Para i-restore ang impormasyon ng iyong binili sa device na ito, piliin ang “Para sa mga nakabili na dati.”",
   "purchaseErrorReceiptInUse": "Nabili na, o ginagamit ng ibang user ang impormasyon ng pagbili. Suriin ang {accountName}.",
   "purchaseErrorInvalidReceipt": "Hindi wasto ang impormasyon ng pagbili. Pakitingnan ang impormasyon ng iyong pagbili.",
-  "purchaseErrorMissingReceipt": "Walang umiiral na impormasyon ng mamimili. Mangyaring subukan na mag-sign in sa device gamit ang {accountName}.",
+  "purchaseErrorMissingReceipt": "Walang impormasyon tungkol sa bumili. Mag-sign in sa device na ito gamit ang {accountName} at subukan muli.",
   "purchaseErrorNetwork": "Hindi ang matatag ang estado ng network. Mangyaring suriin ang iyong koneksyon at subukan muli.",
   "purchaseNotAllowed": "Hindi hindi na pinahihintulutan ang pagbili sa aparatong ito.",
   "purchaseErrorInvalidCredentials": "Bumili ng ibinagsak na mga pagbili. Mangyaring subukang muli pagkatapos ng ilang oras. Kung hindi ito malulutas, mangyaring makipag-ugnayan sa pamamagitan ng Mga Setting > Mga Katanungan. Mga Detalye: {message}",

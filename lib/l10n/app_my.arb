@@ -116,7 +116,7 @@
   "purchaseErrorAlreadyPurchased": "သင်သည် အစီအစဉ်ကို ဝယ်ယူပြီးဖြစ်သည်။ ဤစက်တွင် ဝယ်ယူမှုအချက်အလက်ကို ပြန်လည်ရယူရန် “ယခင်က ဝယ်ယူထားသူများအတွက်” ကို ရွေးချယ်ပါ။",
   "purchaseErrorReceiptInUse": "ဝယ်ယူပြီးသားဖြစ်သည် သို့မဟုတ် ဝယ်ယူမှုအချက်အလက်ကို အခြားအသုံးပြုသူက အသုံးပြုနေသည်။ {accountName} ကို စစ်ဆေးပါ။",
   "purchaseErrorInvalidReceipt": "ဝယ်ယူမှုအချက်အလက် မမှန်ကန်ပါ။ ဝယ်ယူမှုအချက်အလက်ကို စစ်ဆေးပါ။",
-  "purchaseErrorMissingReceipt": "Tiada maklumat pembeli yang wujud. Sila log masuk ke peranti menggunakan {accountName} dan cuba lagi.",
+  "purchaseErrorMissingReceipt": "ဝယ်ယူသူ၏ အချက်အလက် မရှိပါ။ ဤစက်တွင် {accountName} ဖြင့် လက်မှတ်ဝင်ပြီး ထပ်မံကြိုးစားပါ။",
   "purchaseErrorNetwork": "Keadaan rangkaian tidak stabil. Sila semak keadaan sambungan anda dan cuba lagi.",
   "purchaseNotAllowed": "Peranti ini tidak dibenarkan untuk membuat pembelian.",
   "purchaseErrorInvalidCredentials": "Pembelian gagal. Sila cuba lagi selepas beberapa ketika. Jika masalah berterusan, sila hubungi kami melalui Tetapan > Pertanyaan. Butiran: {message}",

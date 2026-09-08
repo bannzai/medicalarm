@@ -116,7 +116,7 @@
   "purchaseErrorAlreadyPurchased": "Anda telah membeli pelan ini. Untuk memulihkan maklumat pembelian pada peranti ini, pilih “Untuk yang pernah membeli”.",
   "purchaseErrorReceiptInUse": "Sudah dibeli atau maklumat pembelian sedang digunakan oleh pengguna lain. Semak {accountName}.",
   "purchaseErrorInvalidReceipt": "Maklumat pembelian tidak sah. Sila semak maklumat pembelian anda.",
-  "purchaseErrorMissingReceipt": "Maklumat pembeli tidak wujud. Sila log masuk ke peranti dengan {accountName} dan cuba lagi.",
+  "purchaseErrorMissingReceipt": "Maklumat pembeli tidak wujud. Log masuk ke peranti ini menggunakan {accountName}, kemudian cuba lagi.",
   "purchaseErrorNetwork": "Keadaan rangkaian tidak stabil. Sila semak status sambungan sebelum mencuba lagi.",
   "purchaseNotAllowed": "Pembelian tidak dibenarkan pada peranti ini",
   "purchaseErrorInvalidCredentials": "Pembelian gagal. Sila tunggu seketika dan cuba lagi. Jika masalah berlanjutan, sila hubungi kami melalui Tetapan > Pertanyaan. Butiran: {message}",

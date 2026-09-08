@@ -116,7 +116,7 @@
   "purchaseErrorAlreadyPurchased": "Jy het reeds ’n plan gekoop. As jy jou aankoop op hierdie toestel wil herstel, kies “Vir diegene wat voorheen gekoop het”.",
   "purchaseErrorReceiptInUse": "Reeds gekoop, of die aankoopinligting word deur ’n ander gebruiker gebruik. Gaan {accountName} na.",
   "purchaseErrorInvalidReceipt": "Ongeldige aankoopinligting. Gaan jou aankoopinligting na.",
-  "purchaseErrorMissingReceipt": "Geen koperinligting gevind nie. Probeer asseblief om met {accountName} op die toestel aan te meld.",
+  "purchaseErrorMissingReceipt": "Koperinligting bestaan nie. Meld op hierdie toestel aan met {accountName} en probeer weer.",
   "purchaseErrorNetwork": "Die netwerktoestand is onbetroubaar. Kontroleer die verbintenis toestand en probeer weer.",
   "purchaseNotAllowed": "Hierdie toestel is nie toegelaat om aankope te maak nie.",
   "purchaseErrorInvalidCredentials": "Die aankoop was onsuksesvol. Probeer asseblief weer later. As dit nie opgelos kan word nie, kontak ons asseblief via Instellings > Kontak. Besonderhede: {message}",

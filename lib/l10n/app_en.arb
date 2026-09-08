@@ -116,7 +116,7 @@
   "purchaseErrorAlreadyPurchased": "You have already purchased a plan. To restore your purchase information on this device, select “For those who purchased before.”",
   "purchaseErrorReceiptInUse": "Already purchased, or the purchase information is being used by another user. Check {accountName}.",
   "purchaseErrorInvalidReceipt": "Invalid purchase information. Please check your purchase information.",
-  "purchaseErrorMissingReceipt": "No buyer information exists. Please sign in to the device with {accountName} and try again.",
+  "purchaseErrorMissingReceipt": "Purchaser information is unavailable. Sign in to this device with {accountName} and try again.",
   "purchaseErrorNetwork": "The network connection is unstable. Please check the connection status and try again.",
   "purchaseNotAllowed": "Purchases are not allowed on this device.",
   "purchaseErrorInvalidCredentials": "Purchase failed. Please try again after some time. If the issue persists, please contact us through Settings > Inquiry. Details: {message}",

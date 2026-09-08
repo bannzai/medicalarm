@@ -116,7 +116,7 @@
   "purchaseErrorAlreadyPurchased": "Šį planą jau įsigijote. Norėdami šiame įrenginyje atkurti pirkimo informaciją, pasirinkite „Jau pirkusiems“.",
   "purchaseErrorReceiptInUse": "Jau įsigyta arba pirkimo informaciją naudoja kitas naudotojas. Patikrinkite {accountName}.",
   "purchaseErrorInvalidReceipt": "Pirkimo informacija negalioja. Patikrinkite pirkimo informaciją.",
-  "purchaseErrorMissingReceipt": "Pirkėjo informacija nerastas. Prašome prisijungti prie įrenginio naudojant {accountName} ir bandyti dar kartą.",
+  "purchaseErrorMissingReceipt": "Pirkėjo informacijos nėra. Prisijunkite prie šio įrenginio naudodami {accountName} ir bandykite dar kartą.",
   "purchaseErrorNetwork": "Tinklo būsena nestabili. Patikrinkite ryšio būklę ir bandykite dar kartą.",
   "purchaseNotAllowed": "Šiame įrenginyje pirkimas nėra leidžiamas.",
   "purchaseErrorInvalidCredentials": "Nepavyko įsigyti. Palaukite ir bandykite dar kartą. Jei problema išlieka, susisiekite su mumis per Nustatymai > Klausimai. Išsami informacija: {message}",

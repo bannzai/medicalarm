@@ -116,7 +116,7 @@
   "purchaseErrorAlreadyPurchased": "Tayari umenunua mpango. Ili kurejesha maelezo ya ununuzi kwenye kifaa hiki, chagua “Kwa waliowahi kununua”.",
   "purchaseErrorReceiptInUse": "Tayari imenunuliwa, au maelezo ya ununuzi yanatumiwa na mtumiaji mwingine. Angalia {accountName}.",
   "purchaseErrorInvalidReceipt": "Maelezo ya ununuzi si sahihi. Tafadhali kagua maelezo yako ya ununuzi.",
-  "purchaseErrorMissingReceipt": "Hakuna taarifa ya mnunuzi. Tafadhali jaribu kuingia kwenye kifaa chako kwa kutumia {accountName}.",
+  "purchaseErrorMissingReceipt": "Maelezo ya mnunuzi hayapo. Ingia kwenye kifaa hiki kwa kutumia {accountName}, kisha ujaribu tena.",
   "purchaseErrorNetwork": "Hali ya mtandao si yenye kuaminika. Tafadhali thibitisha hali ya muunganisho kabla ya kujaribu tena.",
   "purchaseNotAllowed": "Ununu na kifaa hiki hakiruhusiwi kununua",
   "purchaseErrorInvalidCredentials": "Ununuzi umeshindwa. Tafadhali subiri muda na ujaribu tena. Ikiwa haujaweza kutatua tatizo hili, tafadhali wasiliana nasi kupitia mipangilio > Maswali. Maelezo: {message}",

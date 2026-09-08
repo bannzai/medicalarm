@@ -116,7 +116,7 @@
   "purchaseErrorAlreadyPurchased": "Xa compraches un plan. Para restaurar a información da compra neste dispositivo, selecciona «Para quen xa comprou».",
   "purchaseErrorReceiptInUse": "Xa se comprou ou outro usuario está a usar a información da compra. Comproba {accountName}.",
   "purchaseErrorInvalidReceipt": "A información da compra non é válida. Comproba a información da compra.",
-  "purchaseErrorMissingReceipt": "Non se atopan informacións do comprador. Proba de iniciar sesión no dispositivo con {accountName}.",
+  "purchaseErrorMissingReceipt": "Non hai información do comprador. Inicia sesión neste dispositivo con {accountName} e téntao de novo.",
   "purchaseErrorNetwork": "A conexión á rede é inestable. Comproba a túa conexión e intenta de novo.",
   "purchaseNotAllowed": "Esta dispositivo non ten permiso para realizar compras.",
   "purchaseErrorInvalidCredentials": "Non se pudo completar a compra. Espere un momento e intente de novo. Se o problema persiste, póñase en contacto connosco a través de Configuración > Consultas. Detalles: {message}",

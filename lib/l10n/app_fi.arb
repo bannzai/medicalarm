@@ -116,7 +116,7 @@
   "purchaseErrorAlreadyPurchased": "Olet jo ostanut paketin. Palauta ostotietosi tällä laitteella valitsemalla ”Aiemmin ostaneille”.",
   "purchaseErrorReceiptInUse": "Ostettu jo aiemmin tai toinen käyttäjä käyttää ostotietoja. Tarkista {accountName}.",
   "purchaseErrorInvalidReceipt": "Virheelliset ostotiedot. Tarkista ostotietosi.",
-  "purchaseErrorMissingReceipt": "Ostajan tietoja ei ole olemassa. Yritä kirjautua laitteeseen tilillä {accountName}.",
+  "purchaseErrorMissingReceipt": "Ostajan tietoja ei ole. Kirjaudu tähän laitteeseen tunnuksella {accountName} ja yritä uudelleen.",
   "purchaseErrorNetwork": "Verkkoyhteys on epävakaa. Tarkista yhteyden tila ja kokeile uudelleen.",
   "purchaseNotAllowed": "Tätä laitetta ei ole sallittu ostamaan.",
   "purchaseErrorInvalidCredentials": "Osto epäonnistui. Odota hetki ja yritä uudelleen. Jos ongelma ei ratkea, ota yhteyttä valitsemalla Asetukset > Ota yhteyttä. Yksityiskohtaiset tiedot: {message}",

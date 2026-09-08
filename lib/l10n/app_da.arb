@@ -116,7 +116,7 @@
   "purchaseErrorAlreadyPurchased": "Du har allerede købt et abonnement. Hvis du vil gendanne dine købsoplysninger på denne enhed, skal du vælge „Til dig, der har købt før“.",
   "purchaseErrorReceiptInUse": "Allerede købt, eller købsoplysningerne bruges af en anden bruger. Kontrollér {accountName}.",
   "purchaseErrorInvalidReceipt": "Ugyldige købsoplysninger. Kontrollér dine købsoplysninger.",
-  "purchaseErrorMissingReceipt": "Der køberinformation findes ikke. Prøv at logge ind på enheden med {accountName}.",
+  "purchaseErrorMissingReceipt": "Der findes ingen oplysninger om køberen. Log ind på denne enhed med {accountName}, og prøv igen.",
   "purchaseErrorNetwork": "Netværksforbindelsen er ustabil. Kontroller forbindelsen, og prøv igen.",
   "purchaseNotAllowed": "Køb på denne enhed er ikke tilladt",
   "purchaseErrorInvalidCredentials": "Købet mislykkedes. Vent et øjeblik og prøv igen. Hvis problemet ikke løses, bedes du kontakte os via Indstillinger > Kontakt. Detaljer: {message}",

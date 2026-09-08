@@ -116,7 +116,7 @@
   "purchaseErrorAlreadyPurchased": "Você já comprou um plano. Para restaurar as informações da compra neste dispositivo, selecione “Para quem já comprou”.",
   "purchaseErrorReceiptInUse": "Já foi comprado ou as informações da compra estão a ser utilizadas por outro utilizador. Verifique {accountName}.",
   "purchaseErrorInvalidReceipt": "As informações da compra são inválidas. Verifique as informações da compra.",
-  "purchaseErrorMissingReceipt": "Não existem informações sobre o comprador. Faça login no dispositivo com {accountName} e experimente.",
+  "purchaseErrorMissingReceipt": "As informações do comprador não estão disponíveis. Inicie sessão neste dispositivo com {accountName} e tente novamente.",
   "purchaseErrorNetwork": "A condição da rede está instável. Verifique o status da conexão e tente novamente.",
   "purchaseNotAllowed": "As compras não são permitidas neste dispositivo.",
   "purchaseErrorInvalidCredentials": "Falha na compra. Tente novamente após algum tempo. Se o problema persistir, entre em contato através de Configurações > Perguntas. Detalhes: {message}",
