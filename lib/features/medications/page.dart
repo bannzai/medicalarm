@@ -20,7 +20,6 @@ import 'package:medicalarm/features/medications/components/add_button.dart';
 import 'package:medicalarm/features/medications/components/dose_interval_warning_dialog.dart';
 import 'package:medicalarm/components/calendar/day/today_badge.dart';
 import 'package:medicalarm/features/medications/components/group_chips_bar.dart';
-import 'package:medicalarm/features/medications/components/progress_hero.dart';
 import 'package:medicalarm/features/medications/entity/grouped.dart';
 import 'package:medicalarm/features/medicine_form/components/schedule/focus_connect/section.dart';
 import 'package:medicalarm/features/medicine_form/page.dart';
@@ -96,37 +95,14 @@ class MedicationsPageBody extends HookConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final page = useState(todayCalendarPageIndex);
     final pageController = usePageController(initialPage: page.value);
-    // build のたびに addListener すると再構築の回数だけリスナーが積み上がるため、初回だけ登録して破棄時に解除する
-    useEffect(() {
-      void listener() {
-        final pageControllerPage = pageController.page;
-        if (pageControllerPage != null) {
-          page.value = pageControllerPage.toInt();
-        }
+    pageController.addListener(() {
+      final pageControllerPage = pageController.page;
+      if (pageControllerPage != null) {
+        page.value = pageControllerPage.toInt();
       }
-
-      pageController.addListener(listener);
-      return () => pageController.removeListener(listener);
-    }, [pageController]);
-
-    // 時刻依存の表示 (進捗ヒーローの次に飲む予定・飲み忘れかもバッジ) は build 時の DateTime.now() を参照するため、
-    // 画面を表示したまま予定時刻をまたいでも追従するよう 1 分ごとに再構築する。
-    // 1 分は予定時刻の粒度 (HH:mm) に合わせた最小の更新間隔
-    final clock = useState(DateTime.now());
-    useEffect(() {
-      final timer = Timer.periodic(const Duration(minutes: 1), (_) {
-        clock.value = DateTime.now();
-      });
-      return timer.cancel;
-    }, []);
+    });
 
     final primaryColor = Theme.of(context).colorScheme.primary;
-    // 進捗ヒーローとグループ一覧の両方が同じ内容を参照するため一度だけ組み立てる
-    final groups = medicationGroups(
-      medicines: medicines,
-      medicationHistories: medicationHistories,
-      date: date.value,
-    );
 
     return Scaffold(
       appBar: AppBar(
@@ -172,8 +148,6 @@ class MedicationsPageBody extends HookConsumerWidget {
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.center,
                           children: [
-                            MedicationsProgressHero(date: date.value, groups: groups),
-                            const SizedBox(height: 12),
                             if (!customerInfo.hasPremiumEntitlement) ...[
                               const AdMob(),
                             ],
@@ -200,7 +174,11 @@ class MedicationsPageBody extends HookConsumerWidget {
                               ),
                               const SizedBox(height: 20),
                             ],
-                            for (final tileValue in groups) ...[
+                            for (final tileValue in medicationGroups(
+                              medicines: medicines,
+                              medicationHistories: medicationHistories,
+                              date: date.value,
+                            )) ...[
                               MedicationGroupTile(
                                 key: ValueKey(tileValue.id),
                                 tileValue: tileValue,
@@ -232,7 +210,6 @@ class MedicationGroupTile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final primaryColor = Theme.of(context).colorScheme.primary;
-    final isMissedDose = isMissedDoseSuspected(group: tileValue, now: DateTime.now());
 
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 16.0),
@@ -254,35 +231,13 @@ class MedicationGroupTile extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Row(
-              // 文字を拡大した端末でバッジが横にはみ出さないよう、Spacer で押し出さず余白の配分で右寄せする
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: [
-                Text(
-                  tileValue.scheduleTime.toTimeString(),
-                  style: TextStyle(
-                    fontSize: 20,
-                    fontWeight: FontWeight.bold,
-                    color: isMissedDose ? AppColors.missedDoseWarning : primaryColor,
-                  ),
-                ),
-                if (isMissedDose) ...[
-                  // 残り幅を超える時はバッジ内で文言を折り返す
-                  Flexible(
-                    child: Container(
-                      padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
-                      decoration: BoxDecoration(
-                        color: AppColors.missedDoseWarningBackground,
-                        borderRadius: BorderRadius.circular(12),
-                      ),
-                      child: Text(
-                        L.missedDoseSuspectedBadge,
-                        style: const TextStyle(fontSize: 12, fontWeight: FontWeight.bold, color: AppColors.missedDoseWarning),
-                      ),
-                    ),
-                  ),
-                ],
-              ],
+            Text(
+              tileValue.scheduleTime.toTimeString(),
+              style: TextStyle(
+                fontSize: 20,
+                fontWeight: FontWeight.bold,
+                color: primaryColor,
+              ),
             ),
             const SizedBox(height: 4),
             Row(
@@ -585,98 +540,87 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
       }
     }
 
-    // 表示上のチェック状態。チェックボックスと、服用済み行を沈める表示(半透明・取り消し線)で共有する (#276)
-    final isCheckedForDisplay = isDisabled ? false : isChecked.value;
-
     return Column(
       crossAxisAlignment: CrossAxisAlignment.center,
       children: [
-        // 服用済みの行を沈めて未服用の行を目立たせる (#276)。Opacity はタップを妨げないためチェック操作はそのまま効く
-        Opacity(
-          opacity: isCheckedForDisplay ? 0.55 : 1.0,
-          child: Row(
-            crossAxisAlignment: CrossAxisAlignment.center,
-            children: [
-              SizedBox(
-                // Apple HIG の最小タップターゲット 44pt。行の高さごと確保することで、
-                // 隣接行のチェックボックスとタップ領域が重ならないよう分離する (#253)
-                width: 44,
-                height: 44,
-                child: Checkbox(
-                  value: isCheckedForDisplay,
-                  onChanged: isDisabled
-                      ? null
-                      : (value) {
-                          analytics.logEvent(name: 'medications_check_changed');
-                          final newValue = value ?? false;
-                          if (newValue == isChecked.value) {
-                            return;
-                          }
-                          isChecked.value = newValue;
-                          if (newValue) {
-                            final revertWrite = pendingRevertWrite.value;
-                            if (revertWrite != null) {
-                              // 「元に戻す」猶予中(revert 書き込み中を含む)のチェックし直しは undo と同義。
-                              // take の追記ではなく revert の取り下げで戻す
-                              pendingRevertWrite.value = null;
-                              ScaffoldMessenger.of(context).hideCurrentSnackBar();
-                              unawaited(startUndo(revertWrite));
-                            } else {
-                              unawaited(takeWithIntervalCheck());
-                            }
+        Row(
+          crossAxisAlignment: CrossAxisAlignment.center,
+          children: [
+            SizedBox(
+              // Apple HIG の最小タップターゲット 44pt。行の高さごと確保することで、
+              // 隣接行のチェックボックスとタップ領域が重ならないよう分離する (#253)
+              width: 44,
+              height: 44,
+              child: Checkbox(
+                value: isDisabled ? false : isChecked.value,
+                onChanged: isDisabled
+                    ? null
+                    : (value) {
+                        analytics.logEvent(name: 'medications_check_changed');
+                        final newValue = value ?? false;
+                        if (newValue == isChecked.value) {
+                          return;
+                        }
+                        isChecked.value = newValue;
+                        if (newValue) {
+                          final revertWrite = pendingRevertWrite.value;
+                          if (revertWrite != null) {
+                            // 「元に戻す」猶予中(revert 書き込み中を含む)のチェックし直しは undo と同義。
+                            // take の追記ではなく revert の取り下げで戻す
+                            pendingRevertWrite.value = null;
+                            ScaffoldMessenger.of(context).hideCurrentSnackBar();
+                            unawaited(startUndo(revertWrite));
                           } else {
-                            unawaited(revertWithUndo());
+                            unawaited(takeWithIntervalCheck());
                           }
-                        },
+                        } else {
+                          unawaited(revertWithUndo());
+                        }
+                      },
+              ),
+            ),
+            const SizedBox(width: 8),
+            // 記録者表示が加わって横幅が不足した時に、薬名を省略して行あふれを防ぐ。
+            // Spacer を並べると flex の取り合いで薬名が余白より先に省略されるため、Expanded が余白ごと引き受け、
+            // Align でタップ領域と表示をテキスト幅に保つ
+            Expanded(
+              child: Align(
+                alignment: Alignment.centerLeft,
+                child: GestureDetector(
+                  child: Text(
+                    scheduleRow.medicine.name,
+                    style: const TextStyle(fontSize: 16),
+                    overflow: TextOverflow.ellipsis,
+                  ),
+                  onTap: () {
+                    analytics.logEvent(name: 'medications_medicine_name_tapped');
+                    showMedicineForm(context, scheduleRow.medicine);
+                  },
+                ),
+              ),
+            ),
+            // 同名・同時刻で並ぶ行を見分けるための識別情報として、チェック済みの行に記録時刻を表示する (#253)。
+            // 他メンバーの記録には記録者も併記して「誰が記録したか」を判別できるようにする (#277)
+            if (isChecked.value && scheduleRow.medicationHistory != null) ...[
+              // 記録者名が長い場合もラベル単体で行幅を超えないよう、画面幅の半分を上限に省略表示する。
+              // Flexible にすると Expanded の薬名と flex 領域を等分してしまい、ラベルが短くても薬名が半分幅で省略される
+              ConstrainedBox(
+                constraints: BoxConstraints(maxWidth: MediaQuery.sizeOf(context).width / 2),
+                child: Text(
+                  recorderName == null
+                      ? L.medicationTakenAtLabel(DateFormat.Hm().format(scheduleRow.medicationHistory!.recordedDateTime))
+                      : '${L.medicationTakenAtLabel(DateFormat.Hm().format(scheduleRow.medicationHistory!.recordedDateTime))}'
+                          ' · ${L.recordedByMember(recorderName)}',
+                  style: const TextStyle(fontSize: 12, color: TextColor.gray),
+                  overflow: TextOverflow.ellipsis,
                 ),
               ),
               const SizedBox(width: 8),
-              // 記録者表示が加わって横幅が不足した時に、薬名を省略して行あふれを防ぐ。
-              // Spacer を並べると flex の取り合いで薬名が余白より先に省略されるため、Expanded が余白ごと引き受け、
-              // Align でタップ領域と表示をテキスト幅に保つ
-              Expanded(
-                child: Align(
-                  alignment: Alignment.centerLeft,
-                  child: GestureDetector(
-                    child: Text(
-                      scheduleRow.medicine.name,
-                      style: TextStyle(
-                        fontSize: 16,
-                        decoration: isCheckedForDisplay ? TextDecoration.lineThrough : null,
-                        decorationColor: TextColor.gray,
-                      ),
-                      overflow: TextOverflow.ellipsis,
-                    ),
-                    onTap: () {
-                      analytics.logEvent(name: 'medications_medicine_name_tapped');
-                      showMedicineForm(context, scheduleRow.medicine);
-                    },
-                  ),
-                ),
-              ),
-              // 同名・同時刻で並ぶ行を見分けるための識別情報として、チェック済みの行に記録時刻を表示する (#253)。
-              // 他メンバーの記録には記録者も併記して「誰が記録したか」を判別できるようにする (#277)
-              if (isChecked.value && scheduleRow.medicationHistory != null) ...[
-                // 記録者名が長い場合もラベル単体で行幅を超えないよう、画面幅の半分を上限に省略表示する。
-                // Flexible にすると Expanded の薬名と flex 領域を等分してしまい、ラベルが短くても薬名が半分幅で省略される
-                ConstrainedBox(
-                  constraints: BoxConstraints(maxWidth: MediaQuery.sizeOf(context).width / 2),
-                  child: Text(
-                    recorderName == null
-                        ? L.medicationTakenAtLabel(DateFormat.Hm().format(scheduleRow.medicationHistory!.recordedDateTime))
-                        : '${L.medicationTakenAtLabel(DateFormat.Hm().format(scheduleRow.medicationHistory!.recordedDateTime))}'
-                            ' · ${L.recordedByMember(recorderName)}',
-                    style: const TextStyle(fontSize: 12, color: TextColor.gray),
-                    overflow: TextOverflow.ellipsis,
-                  ),
-                ),
-                const SizedBox(width: 8),
-              ],
-              if (scheduleRow.quantityMemo.isNotEmpty) ...[
-                Text(scheduleRow.quantityMemo),
-              ],
             ],
-          ),
+            if (scheduleRow.quantityMemo.isNotEmpty) ...[
+              Text(scheduleRow.quantityMemo),
+            ],
+          ],
         ),
       ],
     );
