@@ -67,7 +67,7 @@
   "medicationScheduleNotificationSetting": "Lääkitysaikataulun ilmoitusasetukset",
   "notificationSetting": "Ilmoitusasetukset",
   "enableFollowupNotification": "Ota seurantailmoitukset käyttöön",
-  "followupNotificationDescription": "Jos et kirjaa lääkkeen ottamista 30 minuutin kuluessa ensimmäisestä ilmoituksesta, saat seurantailmoituksen.",
+  "followupNotificationDescription": "Jos lääkkeen ottamista ei kirjata 30 minuutin kuluessa ensimmäisestä ilmoituksesta, lähetetään seurantailmoitus.",
   "enableNotificationInSilentMode": "Ilmoita myös äänettömässä tilassa",
   "silentModeNotificationDescription": "Vaikka Keskity-tila olisi käytössä tai laite äänettömällä, kriittiset ilmoitukset näkyvät lukitusnäytössä ja toistavat äänen.",
   "everyXDaysFormat": "{count} päivän välein",

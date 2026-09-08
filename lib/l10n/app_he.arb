@@ -67,7 +67,7 @@
   "medicationScheduleNotificationSetting": "הגדרות התראות לוח הזמנים לנטילת תרופות",
   "notificationSetting": "הגדרות התראות",
   "enableFollowupNotification": "הפעלת התראות מעקב",
-  "followupNotificationDescription": "אם לא תתעדו את נטילת התרופה בתוך 30 דקות מההתראה הראשונה, תישלח התראת המשך.",
+  "followupNotificationDescription": "אם נטילת התרופה לא תירשם בתוך 30 דקות מההתראה הראשונה, תישלח התראת מעקב.",
   "enableNotificationInSilentMode": "שליחת התראות גם במצב שקט",
   "silentModeNotificationDescription": "גם כאשר מצב ריכוז מופעל או שהמכשיר על שקט, התראות קריטיות מוצגות במסך הנעילה ומושמע צליל.",
   "everyXDaysFormat": "כל {count} ימים",

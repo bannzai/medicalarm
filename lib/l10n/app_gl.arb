@@ -67,7 +67,7 @@
   "medicationScheduleNotificationSetting": "Configuración das notificacións do horario da medicación",
   "notificationSetting": "Configuración das notificacións",
   "enableFollowupNotification": "Activar as notificacións de seguimento",
-  "followupNotificationDescription": "Se non rexistras a toma do medicamento nos 30 minutos seguintes á primeira notificación, enviarase unha notificación de seguimento.",
+  "followupNotificationDescription": "Se non se rexistra a toma do medicamento nos 30 minutos posteriores á primeira notificación, enviarase unha notificación de seguimento.",
   "enableNotificationInSilentMode": "Notificar tamén en modo silencioso",
   "silentModeNotificationDescription": "Mesmo cando o modo Concentración está activado ou o dispositivo está en silencio, as notificacións críticas móstranse na pantalla bloqueada e reproducen un son.",
   "everyXDaysFormat": "Cada {count} días",

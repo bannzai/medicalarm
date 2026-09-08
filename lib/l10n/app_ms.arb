@@ -67,7 +67,7 @@
   "medicationScheduleNotificationSetting": "Tetapan pemberitahuan jadual pengambilan ubat",
   "notificationSetting": "Tetapan pemberitahuan",
   "enableFollowupNotification": "Dayakan pemberitahuan susulan",
-  "followupNotificationDescription": "Jika anda tidak merekodkan pengambilan ubat dalam masa 30 minit selepas pemberitahuan pertama, pemberitahuan susulan akan dihantar.",
+  "followupNotificationDescription": "Jika pengambilan ubat tidak direkodkan dalam tempoh 30 minit selepas pemberitahuan pertama, pemberitahuan susulan akan dihantar.",
   "enableNotificationInSilentMode": "Hantar pemberitahuan dalam mod senyap juga",
   "silentModeNotificationDescription": "Walaupun mod Fokus dihidupkan atau peranti diletakkan dalam mod senyap, makluman kritikal dipaparkan pada Skrin Kunci dan bunyi dimainkan.",
   "everyXDaysFormat": "Setiap {count} hari",

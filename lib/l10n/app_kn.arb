@@ -67,7 +67,7 @@
   "medicationScheduleNotificationSetting": "ಔಷಧಿ ಸೇವನೆಯ ವೇಳಾಪಟ್ಟಿ ಅಧಿಸೂಚನೆ ಸೆಟ್ಟಿಂಗ್‌ಗಳು",
   "notificationSetting": "ಅಧಿಸೂಚನೆ ಸೆಟ್ಟಿಂಗ್‌ಗಳು",
   "enableFollowupNotification": "ಫಾಲೋ-ಅಪ್ ಅಧಿಸೂಚನೆಗಳನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ",
-  "followupNotificationDescription": "ಮೊದಲ ಅಧಿಸೂಚನೆಯ 30 ನಿಮಿಷಗಳ ಒಳಗೆ ಔಷಧಿ ತೆಗೆದುಕೊಂಡಿರುವುದನ್ನು ದಾಖಲಿಸದಿದ್ದರೆ, ಅನುಸರಣೆ ಅಧಿಸೂಚನೆಯನ್ನು ಕಳುಹಿಸಲಾಗುತ್ತದೆ.",
+  "followupNotificationDescription": "ಮೊದಲ ಅಧಿಸೂಚನೆಯ 30 ನಿಮಿಷಗಳೊಳಗೆ ಔಷಧ ಸೇವನೆಯನ್ನು ದಾಖಲಿಸದಿದ್ದರೆ, ಅನುಸರಣಾ ಅಧಿಸೂಚನೆಯನ್ನು ಕಳುಹಿಸಲಾಗುತ್ತದೆ.",
   "enableNotificationInSilentMode": "ಸೈಲೆಂಟ್ ಮೋಡ್‌ನಲ್ಲಿಯೂ ಅಧಿಸೂಚನೆ ಕಳುಹಿಸಿ",
   "silentModeNotificationDescription": "ಫೋಕಸ್ ಮೋಡ್ ಆನ್ ಆಗಿದ್ದರೂ ಅಥವಾ ಸಾಧನ ಸೈಲೆಂಟ್‌ನಲ್ಲಿದ್ದರೂ, ಪ್ರಮುಖ ಎಚ್ಚರಿಕೆಗಳು ಲಾಕ್ ಸ್ಕ್ರೀನ್‌ನಲ್ಲಿ ಕಾಣಿಸುತ್ತವೆ ಮತ್ತು ಧ್ವನಿ ಪ್ಲೇ ಆಗುತ್ತದೆ.",
   "everyXDaysFormat": "ಪ್ರತಿ {count} ದಿನಗಳಿಗೊಮ್ಮೆ",

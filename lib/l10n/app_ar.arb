@@ -67,7 +67,7 @@
   "medicationScheduleNotificationSetting": "إعدادات إشعارات جدول تناول الأدوية",
   "notificationSetting": "إعدادات الإشعارات",
   "enableFollowupNotification": "تفعيل إشعارات المتابعة",
-  "followupNotificationDescription": "إذا لم تسجل تناول الدواء خلال 30 دقيقة من الإشعار الأول، فسيتم إرسال إشعار متابعة.",
+  "followupNotificationDescription": "إذا لم يتم تسجيل تناول الدواء خلال 30 دقيقة من الإشعار الأول، فسيتم إرسال إشعار متابعة.",
   "enableNotificationInSilentMode": "إرسال إشعارات حتى في الوضع الصامت",
   "silentModeNotificationDescription": "حتى عند تشغيل وضع التركيز أو كتم صوت الجهاز، تظهر التنبيهات الحرجة على شاشة القفل ويُشغَّل صوت.",
   "everyXDaysFormat": "كل {count} يومًا",

@@ -67,7 +67,7 @@
   "medicationScheduleNotificationSetting": "İlaç kullanım programı bildirim ayarları",
   "notificationSetting": "Bildirim ayarları",
   "enableFollowupNotification": "Takip bildirimlerini etkinleştir",
-  "followupNotificationDescription": "İlk bildirimden sonraki 30 dakika içinde ilaç aldığınızı kaydetmezseniz takip bildirimi gönderilir.",
+  "followupNotificationDescription": "İlk bildirimden sonraki 30 dakika içinde ilaç alımı kaydedilmezse takip bildirimi gönderilir.",
   "enableNotificationInSilentMode": "Sessiz modda da bildirim gönder",
   "silentModeNotificationDescription": "Odak modu açık veya cihaz sessizde olsa bile kritik uyarılar Kilit Ekranı'nda gösterilir ve ses çalınır.",
   "everyXDaysFormat": "Her {count} günde bir",

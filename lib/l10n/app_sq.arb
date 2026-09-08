@@ -67,7 +67,7 @@
   "medicationScheduleNotificationSetting": "Cilësimet e njoftimeve të orarit të marrjes së ilaçeve",
   "notificationSetting": "Cilësimet e njoftimeve",
   "enableFollowupNotification": "Aktivizo njoftimet vijuese",
-  "followupNotificationDescription": "Nëse nuk e regjistroni marrjen e ilaçit brenda 30 minutash nga njoftimi i parë, do të dërgohet një njoftim vijues.",
+  "followupNotificationDescription": "Nëse marrja e ilaçit nuk regjistrohet brenda 30 minutash nga njoftimi i parë, do të dërgohet një njoftim pasues.",
   "enableNotificationInSilentMode": "Njofto edhe në modalitetin pa zë",
   "silentModeNotificationDescription": "Edhe kur modaliteti i përqendrimit është aktiv ose pajisja është në heshtje, sinjalizimet kritike shfaqen në ekranin e kyçur dhe luhet një tingull.",
   "everyXDaysFormat": "Çdo {count} ditë",

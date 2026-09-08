@@ -67,7 +67,7 @@
   "medicationScheduleNotificationSetting": "تنظیمات اعلان برنامه مصرف دارو",
   "notificationSetting": "تنظیمات اعلان‌ها",
   "enableFollowupNotification": "فعال کردن اعلان‌های پیگیری",
-  "followupNotificationDescription": "اگر تا ۳۰ دقیقه پس از اعلان اول، مصرف دارو را ثبت نکنید، یک اعلان پیگیری ارسال می‌شود.",
+  "followupNotificationDescription": "اگر مصرف دارو تا ۳۰ دقیقه پس از اعلان اول ثبت نشود، یک اعلان پیگیری ارسال خواهد شد.",
   "enableNotificationInSilentMode": "ارسال اعلان حتی در حالت بی‌صدا",
   "silentModeNotificationDescription": "حتی وقتی حالت تمرکز روشن است یا دستگاه روی حالت بی‌صدا قرار دارد، هشدارهای مهم روی صفحه قفل نمایش داده می‌شوند و صدا پخش می‌شود.",
   "everyXDaysFormat": "هر {count} روز",

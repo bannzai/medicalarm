@@ -67,7 +67,7 @@
   "medicationScheduleNotificationSetting": "औषध घेण्याच्या वेळापत्रकाच्या सूचनेची सेटिंग्ज",
   "notificationSetting": "सूचना सेटिंग्ज",
   "enableFollowupNotification": "फॉलो-अप सूचना सक्षम करा",
-  "followupNotificationDescription": "पहिल्या सूचनेनंतर ३० मिनिटांच्या आत औषध घेतल्याची नोंद न केल्यास, पाठपुरावा सूचना पाठवली जाईल.",
+  "followupNotificationDescription": "पहिल्या सूचनेनंतर ३० मिनिटांच्या आत औषध घेतल्याची नोंद न झाल्यास, पाठपुरावा सूचना पाठवली जाईल.",
   "enableNotificationInSilentMode": "सायलेंट मोडमध्येही सूचना पाठवा",
   "silentModeNotificationDescription": "फोकस मोड सुरू असतानाही किंवा डिव्हाइस सायलेंट असतानाही, गंभीर सूचना लॉक स्क्रीनवर दिसतात आणि आवाज वाजतो.",
   "everyXDaysFormat": "दर {count} दिवसांनी",

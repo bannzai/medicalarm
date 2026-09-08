@@ -67,7 +67,7 @@
   "medicationScheduleNotificationSetting": "የመድኃኒት መውሰጃ መርሐ ግብር ማሳወቂያ ቅንብሮች",
   "notificationSetting": "የማሳወቂያ ቅንብሮች",
   "enableFollowupNotification": "የክትትል ማሳወቂያዎችን አንቃ",
-  "followupNotificationDescription": "ከመጀመሪያው ማሳወቂያ በኋላ በ30 ደቂቃ ውስጥ መድሃኒትዎን ካልመዘገቡ፣ የክትትል ማሳወቂያ ይላካል።",
+  "followupNotificationDescription": "ከመጀመሪያው ማሳወቂያ በኋላ በ30 ደቂቃዎች ውስጥ የመድኃኒት አወሳሰድ ካልተመዘገበ፣ የክትትል ማሳወቂያ ይላካል።",
   "enableNotificationInSilentMode": "በጸጥታ ሁነታም ማሳወቂያ ላክ",
   "silentModeNotificationDescription": "እንኳን የትኩረት ሁነታ በርቶ ወይም መሣሪያው ድምፅ አልባ ሆኖ ቢሆንም፣ ወሳኝ ማሳወቂያዎች በመቆለፊያ ማያ ገጽ ላይ ይታያሉ እና ድምፅ ይเล่นል።",
   "everyXDaysFormat": "ყოველ {count} დღეში",

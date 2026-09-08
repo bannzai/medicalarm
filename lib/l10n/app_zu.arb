@@ -67,7 +67,7 @@
   "medicationScheduleNotificationSetting": "Izilungiselelo zezaziso zeshejuli yokuphuza imithi",
   "notificationSetting": "Izilungiselelo zezaziso",
   "enableFollowupNotification": "Vumela izaziso zokulandelela",
-  "followupNotificationDescription": "Uma ungarekhodi ukuthi uwuphuzile umuthi emizuzwini engu-30 ngemva kwesaziso sokuqala, kuzothunyelwa isaziso sokulandelela.",
+  "followupNotificationDescription": "Uma ukuphuza umuthi kungarekhodwa kungakapheli imizuzu engu-30 kusukela esazisweni sokuqala, kuzothunyelwa isaziso sokulandelela.",
   "enableNotificationInSilentMode": "Thumela izaziso ngisho nakumodi ethulile",
   "silentModeNotificationDescription": "Ngisho noma imodi Yokugxila ivuliwe noma idivayisi ithulisiwe, izexwayiso ezibalulekile ziyavela esikrinini sokukhiya bese kudlalwa umsindo.",
   "everyXDaysFormat": "Njalo ngemva kwezinsuku ezi-{count}",

@@ -67,7 +67,7 @@
   "medicationScheduleNotificationSetting": "Setări notificări pentru programul de administrare a medicamentelor",
   "notificationSetting": "Setări notificări",
   "enableFollowupNotification": "Activează notificările de urmărire",
-  "followupNotificationDescription": "Dacă nu înregistrați administrarea medicamentului în termen de 30 de minute de la prima notificare, va fi trimisă o notificare de urmărire.",
+  "followupNotificationDescription": "Dacă administrarea medicamentului nu este înregistrată în termen de 30 de minute de la prima notificare, va fi trimisă o notificare de urmărire.",
   "enableNotificationInSilentMode": "Trimite notificări și în modul silențios",
   "silentModeNotificationDescription": "Chiar și când modul Concentrare este activat sau dispozitivul este pe silențios, alertele critice sunt afișate pe ecranul de blocare și se redă un sunet.",
   "everyXDaysFormat": "La fiecare {count} zile",

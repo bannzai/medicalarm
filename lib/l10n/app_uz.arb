@@ -67,7 +67,7 @@
   "medicationScheduleNotificationSetting": "Dori qabul qilish jadvali bildirishnomalari sozlamalari",
   "notificationSetting": "Bildirishnoma sozlamalari",
   "enableFollowupNotification": "Kuzatuv bildirishnomalarini yoqing",
-  "followupNotificationDescription": "Birinchi bildirishnomadan keyin 30 daqiqa ichida dori qabul qilganingizni qayd etmasangiz, kuzatuv bildirishnomasi yuboriladi.",
+  "followupNotificationDescription": "Birinchi bildirishnomadan keyin 30 daqiqa ichida dori qabul qilingani qayd etilmasa, kuzatuv bildirishnomasi yuboriladi.",
   "enableNotificationInSilentMode": "Ovozsiz rejimda ham bildirishnoma yuborish",
   "silentModeNotificationDescription": "Fokus rejimi yoqilgan yoki qurilma ovozsiz holatda bo‘lsa ham, muhim ogohlantirishlar qulflangan ekranda ko‘rsatiladi va ovoz eshittiriladi.",
   "everyXDaysFormat": "Har {count} kunda",

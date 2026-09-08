@@ -67,7 +67,7 @@
   "medicationScheduleNotificationSetting": "ওষুধ সেবনের সময়সূচির বিজ্ঞপ্তি সেটিংস",
   "notificationSetting": "বিজ্ঞপ্তি সেটিংস",
   "enableFollowupNotification": "ফলো-আপ বিজ্ঞপ্তি চালু করুন",
-  "followupNotificationDescription": "প্রথম বিজ্ঞপ্তির ৩০ মিনিটের মধ্যে ওষুধ খাওয়ার রেকর্ড না করলে, একটি অনুস্মারক বিজ্ঞপ্তি পাঠানো হবে।",
+  "followupNotificationDescription": "প্রথম বিজ্ঞপ্তির ৩০ মিনিটের মধ্যে ওষুধ সেবন রেকর্ড না করলে, একটি অনুসরণী বিজ্ঞপ্তি পাঠানো হবে।",
   "enableNotificationInSilentMode": "সাইলেন্ট মোডেও বিজ্ঞপ্তি দিন",
   "silentModeNotificationDescription": "ফোকাস মোড চালু থাকলেও বা ডিভাইস নীরব থাকলেও, গুরুত্বপূর্ণ বিজ্ঞপ্তি লক স্ক্রিনে দেখা যাবে এবং শব্দ বাজবে।",
   "everyXDaysFormat": "প্রতি {count} দিন অন্তর",

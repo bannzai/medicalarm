@@ -67,7 +67,7 @@
   "medicationScheduleNotificationSetting": "ការកំណត់ការជូនដំណឹងកាលវិភាគប្រើថ្នាំ",
   "notificationSetting": "ការកំណត់ការជូនដំណឹង",
   "enableFollowupNotification": "បើកការជូនដំណឹងតាមដាន",
-  "followupNotificationDescription": "ប្រសិនបើអ្នកមិនកត់ត្រាការលេបថ្នាំក្នុងរយៈពេល 30 នាទីបន្ទាប់ពីការជូនដំណឹងដំបូងទេ នឹងមានការផ្ញើការជូនដំណឹងតាមដាន។",
+  "followupNotificationDescription": "ប្រសិនបើមិនបានកត់ត្រាការប្រើថ្នាំក្នុងរយៈពេល 30 នាទីបន្ទាប់ពីការជូនដំណឹងដំបូងទេ នឹងមានការផ្ញើការជូនដំណឹងតាមដាន។",
   "enableNotificationInSilentMode": "ជូនដំណឹងសូម្បីតែនៅក្នុងរបៀបស្ងាត់",
   "silentModeNotificationDescription": "ទោះបីជាមុខងារ Focus បើក ឬឧបករណ៍បិទសំឡេងក៏ដោយ ការជូនដំណឹងសំខាន់ៗនឹងបង្ហាញលើអេក្រង់ចាក់សោ ហើយមានសំឡេងចាក់។",
   "everyXDaysFormat": "រៀងរាល់ {count} ថ្ងៃ",

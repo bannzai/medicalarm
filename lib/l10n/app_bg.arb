@@ -67,7 +67,7 @@
   "medicationScheduleNotificationSetting": "Настройки на известията за графика на прием на лекарства",
   "notificationSetting": "Настройки за известия",
   "enableFollowupNotification": "Активиране на последващи известия",
-  "followupNotificationDescription": "Ако не отчетете приема на лекарството в рамките на 30 минути след първото известие, ще бъде изпратено последващо известие.",
+  "followupNotificationDescription": "Ако приемът на лекарството не бъде записан в рамките на 30 минути след първото известие, ще бъде изпратено последващо известие.",
   "enableNotificationInSilentMode": "Известия и в безшумен режим",
   "silentModeNotificationDescription": "Дори когато режимът „Фокус“ е включен или устройството е без звук, критичните известия се показват на заключения екран и се възпроизвежда звук.",
   "everyXDaysFormat": "На всеки {count} дни",

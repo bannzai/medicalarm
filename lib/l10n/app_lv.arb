@@ -67,7 +67,7 @@
   "medicationScheduleNotificationSetting": "Zāļu lietošanas grafika paziņojumu iestatījumi",
   "notificationSetting": "Paziņojumu iestatījumi",
   "enableFollowupNotification": "Iespējot turpmākos paziņojumus",
-  "followupNotificationDescription": "Ja 30 minūšu laikā pēc pirmā paziņojuma nereģistrēsiet zāļu lietošanu, tiks nosūtīts atkārtots paziņojums.",
+  "followupNotificationDescription": "Ja 30 minūšu laikā pēc pirmā paziņojuma zāļu lietošana netiek reģistrēta, tiks nosūtīts papildu paziņojums.",
   "enableNotificationInSilentMode": "Rādīt paziņojumus arī klusuma režīmā",
   "silentModeNotificationDescription": "Pat ja fokusa režīms ir ieslēgts vai ierīce ir klusuma režīmā, kritiskie paziņojumi tiek rādīti bloķēšanas ekrānā un tiek atskaņota skaņa.",
   "everyXDaysFormat": "Ik pēc {count} dienām",
