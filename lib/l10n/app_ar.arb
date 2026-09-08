@@ -230,7 +230,7 @@
   "doseIntervalWarningMessage": "تم تسجيل تناول الجرعة في {latestTakeTime}. يجب أن تفصل {minimumDoseIntervalHours} ساعة على الأقل بين الجرعات. هل تريد تسجيلها رغم ذلك؟",
   "doseIntervalWarningTakeAnyway": "تسجيل",
   "doseIntervalNotificationWarning": "⚠️ لم تمر {minimumDoseIntervalHours} ساعة منذ الجرعة السابقة",
-  "ossLicense": "تراخيص OSS",
+  "ossLicense": "تراخيص البرمجيات مفتوحة المصدر",
   "achievementWeeklyLabel": "أدوية هذا الأسبوع",
   "achievementWeeklyCountSuffix": "/{scheduledCount} مرة",
   "achievementStreakLabel": "سجل متتالي",

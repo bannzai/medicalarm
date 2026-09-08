@@ -230,7 +230,7 @@
   "doseIntervalWarningMessage": "{latestTakeTime}-ত ঔষধ সেৱন কৰা বুলি ইতিমধ্যে নথিভুক্ত হৈছে। পূৰ্বৰ সেৱনৰ পৰা কমেও {minimumDoseIntervalHours} ঘণ্টাৰ ব্যৱধান ৰখাৰ বাবে ছেট কৰা আছে। তথাপিও নথিভুক্ত কৰিবনে?",
   "doseIntervalWarningTakeAnyway": "লিপিবদ্ধ কৰক",
   "doseIntervalNotificationWarning": "⚠️ পূৰ্বৰ পালিৰ পৰা {minimumDoseIntervalHours} ঘণ্টা পাৰ হোৱা নাই",
-  "ossLicense": "OSS অনুজ্ঞাপত্ৰসমূহ",
+  "ossLicense": "OSS অনুজ্ঞাপত্ৰ",
   "achievementWeeklyLabel": "এই সপ্তাহৰ ঔষধ",
   "achievementWeeklyCountSuffix": "/{scheduledCount} বাৰ",
   "achievementStreakLabel": "একেৰাহে ৰেকৰ্ড",

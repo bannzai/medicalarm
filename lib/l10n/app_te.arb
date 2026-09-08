@@ -230,7 +230,7 @@
   "doseIntervalWarningMessage": "{latestTakeTime}కి మందు తీసుకున్నట్లు ఇప్పటికే నమోదు చేయబడింది. మోతాదుల మధ్య కనీసం {minimumDoseIntervalHours} గంటల విరామం ఉండేలా సెటప్ చేయబడింది. అయినప్పటికీ నమోదు చేయాలా?",
   "doseIntervalWarningTakeAnyway": "రికార్డ్ చేయండి",
   "doseIntervalNotificationWarning": "⚠️ చివరి మోతాదు తీసుకున్నప్పటి నుంచి {minimumDoseIntervalHours} గంటలు కాలేదు",
-  "ossLicense": "OSS లైసెన్సులు",
+  "ossLicense": "OSS లైసెన్స్‌లు",
   "achievementWeeklyLabel": "ఈ వారం మందులు",
   "achievementWeeklyCountSuffix": "/{scheduledCount} సార్లు",
   "achievementStreakLabel": "వరుస రికార్డు",

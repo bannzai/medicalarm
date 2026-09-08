@@ -230,7 +230,7 @@
   "doseIntervalWarningMessage": "Вече е записано, че сте приели лекарството в {latestTakeTime}. Настройката изисква между приемите да има поне {minimumDoseIntervalHours} часа. Все пак да го запишете ли?",
   "doseIntervalWarningTakeAnyway": "Запиши",
   "doseIntervalNotificationWarning": "⚠️ Не са изминали {minimumDoseIntervalHours} часа от последния прием",
-  "ossLicense": "Лицензи за OSS",
+  "ossLicense": "OSS лицензи",
   "achievementWeeklyLabel": "Приети лекарства тази седмица",
   "achievementWeeklyCountSuffix": "/{scheduledCount} пъти",
   "achievementStreakLabel": "Поредица от записи",
