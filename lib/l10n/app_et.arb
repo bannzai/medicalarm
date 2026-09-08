@@ -37,7 +37,7 @@
   "everyXDays": "Iga X päeva järel",
   "specificWeekdays": "Kindlad nädalapäevad",
   "cycle": "Tsükkel",
-  "cycleDescription": "Nt) Võtta ravimit 21 päeva / teha 7 päeva paus",
+  "cycleDescription": "Nt 21 päeva võtta / 7 päeva pausi",
   "everyXDaysDescription": "Nt: iga 2 päeva järel, iga 3 päeva järel",
   "specificWeekdaysDescription": "Nt ainult esmaspäeviti või kolmapäeviti ja reedeti",
   "medicineFormValidationError": "Sisestage nimi ja võtmise ajakava",

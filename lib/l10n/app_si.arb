@@ -37,7 +37,7 @@
   "everyXDays": "සෑම X දිනකට වරක්",
   "specificWeekdays": "නිශ්චිත සතියේ දින",
   "cycle": "චක්‍රය",
-  "cycleDescription": "උදා.) දින 21ක් ඖෂධය ගැනීම / දින 7ක විවේකයක්",
+  "cycleDescription": "උදා: දින 21ක් ගැනීම / දින 7ක විරාමයක්",
   "everyXDaysDescription": "උදා: දින 2කට වරක්, දින 3කට වරක්",
   "specificWeekdaysDescription": "උදා: සඳුදා පමණක්, නැතහොත් බදාදා සහ සිකුරාදා",
   "medicineFormValidationError": "නම සහ ඖෂධ ලබාගැනීමේ කාලසටහන ඇතුළත් කරන්න",

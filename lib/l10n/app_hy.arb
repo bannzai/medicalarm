@@ -37,7 +37,7 @@
   "everyXDays": "Յուրաքանչյուր X օրը մեկ",
   "specificWeekdays": "Շաբաթվա որոշակի օրեր",
   "cycle": "Ցիկլ",
-  "cycleDescription": "Օր.) Դեղամիջոցն ընդունել 21 օր / 7 օր ընդմիջում",
+  "cycleDescription": "Օրինակ՝ ընդունել 21 օր / 7 օր դադար",
   "everyXDaysDescription": "Օրինակ՝ 2 օրը մեկ, 3 օրը մեկ",
   "specificWeekdaysDescription": "Օրինակ՝ միայն երկուշաբթի, կամ չորեքշաբթի և ուրբաթ",
   "medicineFormValidationError": "Մուտքագրեք անվանումը և ընդունման ժամանակացույցը",

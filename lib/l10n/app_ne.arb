@@ -37,7 +37,7 @@
   "everyXDays": "प्रत्येक X दिनमा",
   "specificWeekdays": "विशेष हप्ताका दिनहरू",
   "cycle": "चक्र",
-  "cycleDescription": "उदाहरण) २१ दिन औषधि सेवन / ७ दिनको विराम",
+  "cycleDescription": "उदाहरण: २१ दिन सेवन / ७ दिन विराम",
   "everyXDaysDescription": "उदाहरण: हरेक २ दिनमा, हरेक ३ दिनमा",
   "specificWeekdaysDescription": "जस्तै, सोमबार मात्र, वा बुधबार र शुक्रबार",
   "medicineFormValidationError": "कृपया नाम र औषधि सेवन तालिका प्रविष्ट गर्नुहोस्",

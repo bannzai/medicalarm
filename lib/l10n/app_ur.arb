@@ -37,7 +37,7 @@
   "everyXDays": "ہر X دن بعد",
   "specificWeekdays": "ہفتے کے مخصوص دن",
   "cycle": "چکر",
-  "cycleDescription": "مثال) 21 دن دوا لینا / 7 دن کا وقفہ",
+  "cycleDescription": "مثال: 21 دن استعمال / 7 دن وقفہ",
   "everyXDaysDescription": "مثال: ہر 2 دن بعد، ہر 3 دن بعد",
   "specificWeekdaysDescription": "مثلاً، صرف پیر کو، یا بدھ اور جمعہ کو",
   "medicineFormValidationError": "نام اور دوا لینے کا شیڈول درج کریں",

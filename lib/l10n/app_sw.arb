@@ -37,7 +37,7 @@
   "everyXDays": "Kila baada ya siku X",
   "specificWeekdays": "Siku mahususi za wiki",
   "cycle": "Mzunguko",
-  "cycleDescription": "Mf.) Tumia dawa kwa siku 21 / pumzika kwa siku 7",
+  "cycleDescription": "Mfano: tumia kwa siku 21 / pumzika siku 7",
   "everyXDaysDescription": "Mfano: kila baada ya siku 2, kila baada ya siku 3",
   "specificWeekdaysDescription": "Mfano: Jumatatu pekee, au Jumatano na Ijumaa",
   "medicineFormValidationError": "Weka jina na ratiba ya kutumia dawa",

@@ -37,7 +37,7 @@
   "everyXDays": "Çdo X ditë",
   "specificWeekdays": "Ditë të caktuara të javës",
   "cycle": "Cikël",
-  "cycleDescription": "P.sh.) Merrni ilaçin për 21 ditë / bëni 7 ditë pushim",
+  "cycleDescription": "P.sh. merreni për 21 ditë / pushim 7 ditë",
   "everyXDaysDescription": "P.sh.: çdo 2 ditë, çdo 3 ditë",
   "specificWeekdaysDescription": "P.sh. vetëm të hënave, ose të mërkurave dhe të premteve",
   "medicineFormValidationError": "Futni emrin dhe orarin e marrjes",

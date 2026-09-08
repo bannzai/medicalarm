@@ -37,7 +37,7 @@
   "everyXDays": "X egunetik behin",
   "specificWeekdays": "Asteko egun zehatzak",
   "cycle": "Zikloa",
-  "cycleDescription": "Adib.) Hartu sendaga 21 egunez / egin 7 eguneko atsedenaldia",
+  "cycleDescription": "Adib.: 21 egunez hartu / 7 eguneko atsedenaldia",
   "everyXDaysDescription": "Adib.: 2 egunetik behin, 3 egunetik behin",
   "specificWeekdaysDescription": "Adib.: astelehenetan bakarrik, edo asteazken eta ostiraletan",
   "medicineFormValidationError": "Sartu izena eta hartzeko ordutegia",

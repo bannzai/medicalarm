@@ -37,7 +37,7 @@
   "everyXDays": "Hər X gündən bir",
   "specificWeekdays": "Müəyyən həftə günləri",
   "cycle": "Dövr",
-  "cycleDescription": "Məs.) 21 gün dərman qəbul etmək / 7 gün fasilə vermək",
+  "cycleDescription": "Məs.: 21 gün qəbul / 7 gün fasilə",
   "everyXDaysDescription": "Məsələn: hər 2 gündən bir, hər 3 gündən bir",
   "specificWeekdaysDescription": "Məsələn, yalnız bazar ertəsi, çərşənbə və cümə",
   "medicineFormValidationError": "Adı və qəbul cədvəlini daxil edin",

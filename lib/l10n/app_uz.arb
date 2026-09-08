@@ -37,7 +37,7 @@
   "everyXDays": "Har X kunda",
   "specificWeekdays": "Haftaning muayyan kunlari",
   "cycle": "Sikl",
-  "cycleDescription": "Masalan) Dorini 21 kun qabul qilish / 7 kun tanaffus qilish",
+  "cycleDescription": "Masalan: 21 kun qabul qilish / 7 kun tanaffus",
   "everyXDaysDescription": "Masalan: har 2 kunda, har 3 kunda",
   "specificWeekdaysDescription": "Masalan, faqat dushanba kunlari yoki chorshanba va juma kunlari",
   "medicineFormValidationError": "Nom va qabul qilish jadvalini kiriting",

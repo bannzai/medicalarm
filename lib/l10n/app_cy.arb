@@ -37,7 +37,7 @@
   "everyXDays": "Bob X diwrnod",
   "specificWeekdays": "Diwrnodau penodol yr wythnos",
   "cycle": "Cylch",
-  "cycleDescription": "e.e.) Cymryd y feddyginiaeth am 21 diwrnod / cymryd seibiant am 7 diwrnod",
+  "cycleDescription": "e.e. cymryd am 21 diwrnod / seibiant o 7 diwrnod",
   "everyXDaysDescription": "Er enghraifft: bob 2 ddiwrnod, bob 3 diwrnod",
   "specificWeekdaysDescription": "e.e. Ddydd Llun yn unig, neu Ddydd Mercher a Dydd Gwener",
   "medicineFormValidationError": "Rhowch yr enw a’r amserlen gymryd",

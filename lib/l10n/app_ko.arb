@@ -37,7 +37,7 @@
   "everyXDays": "X일마다",
   "specificWeekdays": "특정 요일",
   "cycle": "주기",
-  "cycleDescription": "예) 21일간 복용 / 7일간 휴약",
+  "cycleDescription": "예: 21일 복용 / 7일 휴약",
   "everyXDaysDescription": "예: 2일마다, 3일마다",
   "specificWeekdaysDescription": "예: 월요일만, 또는 수요일과 금요일",
   "medicineFormValidationError": "이름과 복용 일정을 입력해 주세요",

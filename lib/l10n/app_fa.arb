@@ -37,7 +37,7 @@
   "everyXDays": "هر X روز",
   "specificWeekdays": "روزهای مشخص هفته",
   "cycle": "چرخه",
-  "cycleDescription": "مثال) مصرف دارو به مدت ۲۱ روز / ۷ روز وقفه",
+  "cycleDescription": "مثال: مصرف به‌مدت ۲۱ روز / ۷ روز وقفه",
   "everyXDaysDescription": "مثلاً: هر ۲ روز، هر ۳ روز",
   "specificWeekdaysDescription": "مثلاً فقط دوشنبه‌ها، یا چهارشنبه‌ها و جمعه‌ها",
   "medicineFormValidationError": "لطفاً نام و برنامه مصرف را وارد کنید",

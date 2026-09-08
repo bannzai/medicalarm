@@ -37,7 +37,7 @@
   "everyXDays": "Ар X күн сайын",
   "specificWeekdays": "Аптанын белгилүү күндөрү",
   "cycle": "Цикл",
-  "cycleDescription": "Мис.) 21 күн дары ичүү / 7 күн тыныгуу",
+  "cycleDescription": "Мисалы: 21 күн ичүү / 7 күн тыныгуу",
   "everyXDaysDescription": "Мисалы: ар 2 күн сайын, ар 3 күн сайын",
   "specificWeekdaysDescription": "Мисалы, дүйшөмбүдө гана же шаршемби жана жума күндөрү",
   "medicineFormValidationError": "Атын жана кабыл алуу графигин киргизиңиз",

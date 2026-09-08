@@ -37,7 +37,7 @@
   "everyXDays": "ഓരോ X ദിവസത്തിലും",
   "specificWeekdays": "നിശ്ചിത ആഴ്ചാദിനങ്ങൾ",
   "cycle": "ചക്രം",
-  "cycleDescription": "ഉദാ.) 21 ദിവസം മരുന്ന് കഴിക്കുക / 7 ദിവസം ഇടവേള",
+  "cycleDescription": "ഉദാ: 21 ദിവസം കഴിക്കുക / 7 ദിവസം ഇടവേള",
   "everyXDaysDescription": "ഉദാ.: ഓരോ 2 ദിവസത്തിലും, ഓരോ 3 ദിവസത്തിലും",
   "specificWeekdaysDescription": "ഉദാ., തിങ്കളാഴ്ച മാത്രം, അല്ലെങ്കിൽ ബുധനാഴ്ചയും വെള്ളിയാഴ്ചയും",
   "medicineFormValidationError": "പേരും മരുന്ന് കഴിക്കേണ്ട സമയക്രമവും നൽകുക",

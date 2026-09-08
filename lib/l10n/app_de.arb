@@ -37,7 +37,7 @@
   "everyXDays": "Alle X Tage",
   "specificWeekdays": "Bestimmte Wochentage",
   "cycle": "Zyklus",
-  "cycleDescription": "z. B.) 21 Tage einnehmen / 7 Tage Pause",
+  "cycleDescription": "z. B. 21 Tage einnehmen / 7 Tage Pause",
   "everyXDaysDescription": "Z. B.: alle 2 Tage, alle 3 Tage",
   "specificWeekdaysDescription": "Z. B. nur montags, mittwochs und freitags",
   "medicineFormValidationError": "Geben Sie den Namen und den Einnahmeplan ein",

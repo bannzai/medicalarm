@@ -37,7 +37,7 @@
   "everyXDays": "ທຸກໆ X ມື້",
   "specificWeekdays": "ມື້ໃດໜຶ່ງໃນອາທິດ",
   "cycle": "ຮອບ",
-  "cycleDescription": "ຕົວຢ່າງ) ກິນຢາ 21 ມື້ / ພັກ 7 ມື້",
+  "cycleDescription": "ຕົວຢ່າງ: ກິນຢາ 21 ມື້ / ພັກ 7 ມື້",
   "everyXDaysDescription": "ຕົວຢ່າງ: ທຸກໆ 2 ມື້, ທຸກໆ 3 ມື້",
   "specificWeekdaysDescription": "ຕົວຢ່າງ: ສະເພາະວັນຈັນ ຫຼື ວັນພຸດ ແລະ ວັນສຸກ",
   "medicineFormValidationError": "ກະລຸນາປ້ອນຊື່ ແລະຕາຕະລາງການກິນຢາ",

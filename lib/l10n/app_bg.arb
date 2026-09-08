@@ -37,7 +37,7 @@
   "everyXDays": "На всеки X дни",
   "specificWeekdays": "Определени дни от седмицата",
   "cycle": "Цикъл",
-  "cycleDescription": "Напр.) Прием на лекарството 21 дни / 7 дни почивка",
+  "cycleDescription": "Пример: прием 21 дни / 7 дни почивка",
   "everyXDaysDescription": "Напр.: на всеки 2 дни, на всеки 3 дни",
   "specificWeekdaysDescription": "Напр. само в понеделник, в сряда и петък",
   "medicineFormValidationError": "Въведете име и график за прием",
