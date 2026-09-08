@@ -68,7 +68,7 @@
   "notificationSetting": "Ustawienia powiadomień",
   "enableFollowupNotification": "Włącz powiadomienia uzupełniające",
   "followupNotificationDescription": "Jeśli przyjęcie leku nie zostanie zarejestrowane w ciągu 30 minut od pierwszego powiadomienia, zostanie wysłane powiadomienie przypominające.",
-  "enableNotificationInSilentMode": "Wysyłaj powiadomienia także w trybie cichym",
+  "enableNotificationInSilentMode": "Wysyłaj powiadomienia nawet w trybie cichym",
   "silentModeNotificationDescription": "Nawet gdy tryb skupienia jest włączony lub urządzenie jest wyciszone, krytyczne alerty są wyświetlane na ekranie blokady i odtwarzany jest dźwięk.",
   "everyXDaysFormat": "Co {count} dni",
   "cycleDaysFormat": "Przyjmować przez {consecutiveDays} dni / przerwa przez {restDays} dni",

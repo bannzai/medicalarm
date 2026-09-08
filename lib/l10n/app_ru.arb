@@ -68,7 +68,7 @@
   "notificationSetting": "Настройки уведомлений",
   "enableFollowupNotification": "Включить последующие уведомления",
   "followupNotificationDescription": "Если приём лекарства не будет зарегистрирован в течение 30 минут после первого уведомления, будет отправлено повторное уведомление.",
-  "enableNotificationInSilentMode": "Уведомлять даже в беззвучном режиме",
+  "enableNotificationInSilentMode": "Отправлять уведомления даже в беззвучном режиме",
   "silentModeNotificationDescription": "Даже если режим «Фокусирование» включён или устройство находится в беззвучном режиме, критические уведомления отображаются на экране блокировки и воспроизводится звук.",
   "everyXDaysFormat": "Каждые {count} дней",
   "cycleDaysFormat": "Принимать {consecutiveDays} дней / перерыв {restDays} дней",

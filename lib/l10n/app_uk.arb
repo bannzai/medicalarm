@@ -68,7 +68,7 @@
   "notificationSetting": "Налаштування сповіщень",
   "enableFollowupNotification": "Увімкнути подальші сповіщення",
   "followupNotificationDescription": "Якщо прийом ліків не буде записано протягом 30 хвилин після першого сповіщення, буде надіслано повторне сповіщення.",
-  "enableNotificationInSilentMode": "Сповіщати навіть у беззвучному режимі",
+  "enableNotificationInSilentMode": "Надсилати сповіщення навіть у беззвучному режимі",
   "silentModeNotificationDescription": "Навіть коли режим «Фокусування» увімкнено або пристрій переведено в беззвучний режим, критичні сповіщення відображаються на екрані блокування та відтворюється звук.",
   "everyXDaysFormat": "Кожні {count} днів",
   "cycleDaysFormat": "Приймати {consecutiveDays} днів / перерва {restDays} днів",

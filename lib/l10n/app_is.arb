@@ -68,7 +68,7 @@
   "notificationSetting": "Tilkynningastillingar",
   "enableFollowupNotification": "Virkja eftirfylgnistilkynningar",
   "followupNotificationDescription": "Ef lyfjatakan er ekki skráð innan 30 mínútna frá fyrstu tilkynningu verður eftirfylgnitilkynning send.",
-  "enableNotificationInSilentMode": "Senda tilkynningar í hljóðlausri stillingu",
+  "enableNotificationInSilentMode": "Senda tilkynningar jafnvel í hljóðlausri stillingu",
   "silentModeNotificationDescription": "Jafnvel þegar kveikt er á Fókusstillingu eða slökkt á hljóði tækisins birtast mikilvægar tilkynningar á læsiskjánum og hljóð er spilað.",
   "everyXDaysFormat": "Á {count} daga fresti",
   "cycleDaysFormat": "Taka í {consecutiveDays} daga / gera hlé í {restDays} daga",

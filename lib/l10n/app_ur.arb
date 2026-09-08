@@ -68,7 +68,7 @@
   "notificationSetting": "اطلاعات کی ترتیبات",
   "enableFollowupNotification": "فالو اَپ اطلاعات کو فعال کریں",
   "followupNotificationDescription": "اگر پہلی اطلاع کے 30 منٹ کے اندر دوا لینے کا اندراج نہ کیا گیا تو فالو اَپ اطلاع بھیجی جائے گی۔",
-  "enableNotificationInSilentMode": "خاموش موڈ میں بھی اطلاع دیں",
+  "enableNotificationInSilentMode": "خاموش موڈ میں بھی اطلاعات بھیجیں",
   "silentModeNotificationDescription": "فوکس موڈ آن ہونے یا ڈیوائس کے سائلنٹ ہونے کے باوجود، اہم الرٹس لاک اسکرین پر دکھائے جاتے ہیں اور آواز چلتی ہے۔",
   "everyXDaysFormat": "ہر {count} دن بعد",
   "cycleDaysFormat": "{consecutiveDays} دن تک لیں / {restDays} دن کا وقفہ",

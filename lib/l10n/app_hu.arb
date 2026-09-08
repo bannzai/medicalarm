@@ -68,7 +68,7 @@
   "notificationSetting": "Értesítési beállítások",
   "enableFollowupNotification": "Utólagos értesítések engedélyezése",
   "followupNotificationDescription": "Ha a gyógyszer bevételét az első értesítéstől számított 30 percen belül nem rögzíti, emlékeztető értesítést küldünk.",
-  "enableNotificationInSilentMode": "Értesítések néma módban is",
+  "enableNotificationInSilentMode": "Értesítések küldése néma módban is",
   "silentModeNotificationDescription": "A kritikus értesítések akkor is megjelennek a zárolási képernyőn és hangot játszanak le, ha a Fókusz mód be van kapcsolva vagy a készülék le van némítva.",
   "everyXDaysFormat": "{count} naponta",
   "cycleDaysFormat": "Szedés {consecutiveDays} napon át / szünet {restDays} napig",

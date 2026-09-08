@@ -68,7 +68,7 @@
   "notificationSetting": "அறிவிப்பு அமைப்புகள்",
   "enableFollowupNotification": "தொடர் அறிவிப்புகளை இயக்கு",
   "followupNotificationDescription": "முதல் அறிவிப்பிலிருந்து 30 நிமிடங்களுக்குள் மருந்து உட்கொண்டது பதிவு செய்யப்படாவிட்டால், தொடர்ந்து ஒரு அறிவிப்பு அனுப்பப்படும்.",
-  "enableNotificationInSilentMode": "சைலன்ட் பயன்முறையிலும் அறிவிக்கவும்",
+  "enableNotificationInSilentMode": "சைலண்ட் பயன்முறையிலும் அறிவிப்புகளை அனுப்பவும்",
   "silentModeNotificationDescription": "ஃபோகஸ் பயன்முறை இயக்கப்பட்டிருந்தாலும் அல்லது சாதனம் அமைதியாக இருந்தாலும், முக்கியமான எச்சரிக்கைகள் பூட்டுத் திரையில் காட்டப்பட்டு ஒலி இயக்கப்படும்.",
   "everyXDaysFormat": "{count} நாட்களுக்கு ஒருமுறை",
   "cycleDaysFormat": "{consecutiveDays} நாட்கள் எடுத்துக்கொள்ளவும் / {restDays} நாட்கள் இடைவெளி",

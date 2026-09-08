@@ -68,7 +68,7 @@
   "notificationSetting": "জাননী ছেটিংছ",
   "enableFollowupNotification": "ফ’ল’আপ জাননী সক্ষম কৰক",
   "followupNotificationDescription": "প্ৰথম জাননীৰ ৩০ মিনিটৰ ভিতৰত ঔষধ সেৱন ৰেকৰ্ড নকৰিলে, এটা অনুসৰণমূলক জাননী প্ৰেৰণ কৰা হ’ব।",
-  "enableNotificationInSilentMode": "নিৰৱ অৱস্থাতো জাননী পঠিয়াওক",
+  "enableNotificationInSilentMode": "নিৰৱ মোডতো জাননী পঠিয়াওক",
   "silentModeNotificationDescription": "ফ’কাছ মোড ON থাকিলেও বা ডিভাইচটো নিঃশব্দ থাকিলেও, গুৰুত্বপূৰ্ণ জাননী লক স্ক্ৰীণত প্ৰদৰ্শিত হয় আৰু শব্দ বজে।",
   "everyXDaysFormat": "প্ৰতি {count} দিনৰ মূৰে মূৰে",
   "cycleDaysFormat": "{consecutiveDays} দিন ঔষধ সেৱন / {restDays} দিন বিৰতি",

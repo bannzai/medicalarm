@@ -68,7 +68,7 @@
   "notificationSetting": "Jakinarazpenen ezarpenak",
   "enableFollowupNotification": "Gaitu jarraipen-jakinarazpenak",
   "followupNotificationDescription": "Lehen jakinarazpenetik 30 minutura sendaga hartzea erregistratzen ez bada, jarraipen-jakinarazpen bat bidaliko da.",
-  "enableNotificationInSilentMode": "Jakinarazi isilik moduan ere",
+  "enableNotificationInSilentMode": "Bidali jakinarazpenak isilik dagoen moduan ere",
   "silentModeNotificationDescription": "Foku modua aktibatuta dagoenean edo gailua isilik dagoenean ere, alerta kritikoak blokeo-pantailan agertzen dira eta soinua erreproduzitzen da.",
   "everyXDaysFormat": "{count} egunean behin",
   "cycleDaysFormat": "{consecutiveDays} egunez hartu / {restDays} eguneko atsedenaldia",

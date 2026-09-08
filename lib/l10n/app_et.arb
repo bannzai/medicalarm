@@ -68,7 +68,7 @@
   "notificationSetting": "Teavituste seaded",
   "enableFollowupNotification": "Luba järelteavitused",
   "followupNotificationDescription": "Kui ravimi võtmist ei registreerita 30 minuti jooksul pärast esimest märguannet, saadetakse järelteavitus.",
-  "enableNotificationInSilentMode": "Teavita ka hääletus režiimis",
+  "enableNotificationInSilentMode": "Saada teavitusi ka hääletus režiimis",
   "silentModeNotificationDescription": "Isegi kui fookusrežiim on sisse lülitatud või seade on hääletu, kuvatakse kriitilised teavitused lukustuskuval ja esitatakse heli.",
   "everyXDaysFormat": "Iga {count} päeva järel",
   "cycleDaysFormat": "Võtta {consecutiveDays} päeva / paus {restDays} päeva",
