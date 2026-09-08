@@ -64,7 +64,7 @@
   "medicationScheduleLimit": "Можна зарэгістраваць да {count} раскладаў прыёму лекаў.",
   "increaseMedicationScheduleLimit": "Павялічыць ліміт да {count} з прэміум-планам",
   "addMedicationSchedule": "Дадаць расклад прыёму лекаў",
-  "medicationScheduleNotificationSetting": "Наладка апавяшчэння графіка прыёму",
+  "medicationScheduleNotificationSetting": "Налады апавяшчэнняў пра расклад прыёму лекаў",
   "notificationSetting": "Настройка апавядання",
   "enableFollowupNotification": "Уключыць апавяшчэнні аб дадатковым маніторынгу",
   "followupNotificationDescription": "Калі на працягу 30 хвілін з моманту першай апавяшчэння не будзе запісана прымаанне лекі, будзе адпраўлена дадатковае апавяшчэнне.",

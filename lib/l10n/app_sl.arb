@@ -64,7 +64,7 @@
   "medicationScheduleLimit": "Registrirate lahko do {count} urnikov jemanja zdravil.",
   "increaseMedicationScheduleLimit": "Povečajte omejitev na {count} s paketom Premium",
   "addMedicationSchedule": "Dodaj urnik jemanja zdravil",
-  "medicationScheduleNotificationSetting": "Nastavitev obvestil za urnik jemanja",
+  "medicationScheduleNotificationSetting": "Nastavitve obvestil urnika jemanja zdravil",
   "notificationSetting": "Nastavitve obvestil",
   "enableFollowupNotification": "Omogoči obvestila za spremljanje",
   "followupNotificationDescription": "Če v 30 minutah po prvem obvestilu ne zabeležite jemanja zdravil, boste prejeli opomnik.",

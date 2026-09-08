@@ -64,7 +64,7 @@
   "medicationScheduleLimit": "Можете да региструјете до {count} распореда узимања лекова.",
   "increaseMedicationScheduleLimit": "Повећајте ограничење на {count} уз Premium план",
   "addMedicationSchedule": "Додај распоред узимања лекова",
-  "medicationScheduleNotificationSetting": "Подешавање обавештења о распореду узимања лекова",
+  "medicationScheduleNotificationSetting": "Подешавања обавештења о распореду узимања лекова",
   "notificationSetting": "Подешавање обавештења",
   "enableFollowupNotification": "Укључи обавештења о праћењу",
   "followupNotificationDescription": "Ако не запишете узимање лекова у року од 30 минута од првог обавештења, биће вам послато подсећање.",

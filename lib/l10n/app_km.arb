@@ -64,7 +64,7 @@
   "medicationScheduleLimit": "អ្នកអាចចុះឈ្មោះកាលវិភាគប្រើថ្នាំបានរហូតដល់ {count}។",
   "increaseMedicationScheduleLimit": "បង្កើនកម្រិតកំណត់ដល់ {count} ជាមួយគម្រោង Premium",
   "addMedicationSchedule": "បន្ថែមកាលវិភាគប្រើថ្នាំ",
-  "medicationScheduleNotificationSetting": "ការកំណត់ការជូនដំណឹងកាលវិភាគការទទួលยา",
+  "medicationScheduleNotificationSetting": "ការកំណត់ការជូនដំណឹងអំពីកាលវិភាគលេបថ្នាំ",
   "notificationSetting": "កំណត់ការជូនដំណឹង",
   "enableFollowupNotification": "បញ្ជូនម៉ាស៊ីនកំណត់ការតាមដានឱ្យអនុវត្ត",
   "followupNotificationDescription": "ប្រសិនបើអ្នកមិនបានកត់ត្រាការទទួលធ្មេញក្រោយពេលដែលបានទទួលសំណែងដំបូង ជាង 30 នាទី ការជូនដំណឹងអំបូរ សម្រាប់ការទទួលធ្មេញនឹងត្រូវបានផ្ញើ។",

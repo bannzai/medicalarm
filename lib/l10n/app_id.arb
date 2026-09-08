@@ -64,7 +64,7 @@
   "medicationScheduleLimit": "Anda dapat mendaftarkan hingga {count} jadwal minum obat.",
   "increaseMedicationScheduleLimit": "Tingkatkan batas menjadi {count} dengan paket Premium",
   "addMedicationSchedule": "Tambahkan jadwal minum obat",
-  "medicationScheduleNotificationSetting": "Pengaturan Pemberitahuan Jadwal Penggunaan",
+  "medicationScheduleNotificationSetting": "Pengaturan notifikasi jadwal minum obat",
   "notificationSetting": "Pengaturan Notifikasi",
   "enableFollowupNotification": "Aktifkan pemberitahuan tindak lanjut",
   "followupNotificationDescription": "Jika Anda tidak mencatat pengobatan dalam waktu 30 menit setelah pemberitahuan pertama, notifikasi tindak lanjut akan dikirim.",

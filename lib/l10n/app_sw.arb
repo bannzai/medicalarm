@@ -64,7 +64,7 @@
   "medicationScheduleLimit": "Unaweza kusajili hadi ratiba {count} za kutumia dawa.",
   "increaseMedicationScheduleLimit": "Ongeza kikomo hadi {count} kwa mpango wa Premium",
   "addMedicationSchedule": "Ongeza ratiba ya matumizi ya dawa",
-  "medicationScheduleNotificationSetting": "Mipango ya arifa ya matumizi",
+  "medicationScheduleNotificationSetting": "Mipangilio ya arifa za ratiba ya kutumia dawa",
   "notificationSetting": "Mipangilio ya arifa",
   "enableFollowupNotification": "Washa notisi za ufuatiliaji kuwa hai",
   "followupNotificationDescription": "Ikiwa haujarekodi matumizi ya dawa katika dakika 30 baada ya notifikesheni ya mwanzo, notifikesheni ya kufuatilia itatumwa.",

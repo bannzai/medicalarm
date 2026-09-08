@@ -64,7 +64,7 @@
   "medicationScheduleLimit": "আপুনি {count}টালৈকে ঔষধ সেৱনৰ সময়সূচী পঞ্জীয়ন কৰিব পাৰে।",
   "increaseMedicationScheduleLimit": "প্ৰিমিয়াম প্লেনে সীমা {count} লৈ বৃদ্ধি কৰক",
   "addMedicationSchedule": "ঔষধ সেৱনৰ সময়সূচী যোগ কৰক",
-  "medicationScheduleNotificationSetting": "মেডিকেশন সময়সূচী বিজ্ঞপ্তি সেটিং",
+  "medicationScheduleNotificationSetting": "ঔষধ খোৱাৰ সময়সূচীৰ জাননী ছেটিংছ",
   "notificationSetting": "অবগতির সেটিংস",
   "enableFollowupNotification": "ফলোআপ বিজ্ঞপ্তি সক্রিয় করুন",
   "followupNotificationDescription": "যদি প্রথম বিজ্ঞপ্তির ৩০ মিনিটের মধ্যে ঔষধ গ্রহণের রেকর্ড না করা হয়, তবে একটি ফলো-আপ বিজ্ঞপ্তি পাঠানো হবে।",

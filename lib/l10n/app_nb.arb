@@ -64,7 +64,7 @@
   "medicationScheduleLimit": "Du kan registrere opptil {count} medisineringsplaner.",
   "increaseMedicationScheduleLimit": "Øk grensen til {count} med Premium-abonnementet",
   "addMedicationSchedule": "Legg til medisinplan",
-  "medicationScheduleNotificationSetting": "Innstilling av medisineringstidspåminnelse",
+  "medicationScheduleNotificationSetting": "Varsler for medisinplan",
   "notificationSetting": "Varslingsinnstillinger",
   "enableFollowupNotification": "Aktiver påminnelse for oppfølging",
   "followupNotificationDescription": "Hvis du ikke registrerer inntak av medisinen innen 30 minutter etter den første varslingen, vil en oppfølgingsvarsling bli sendt.",

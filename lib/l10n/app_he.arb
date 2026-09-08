@@ -64,7 +64,7 @@
   "medicationScheduleLimit": "ניתן לרשום עד {count} לוחות זמנים לנטילת תרופות.",
   "increaseMedicationScheduleLimit": "הגדלת המגבלה ל־{count} באמצעות תוכנית Premium",
   "addMedicationSchedule": "הוספת לוח זמנים לנטילת תרופות",
-  "medicationScheduleNotificationSetting": "הגדרת התראות על לוח הזמנים של התרופות",
+  "medicationScheduleNotificationSetting": "הגדרות התראות לוח הזמנים לנטילת תרופות",
   "notificationSetting": "הגדרות התראות",
   "enableFollowupNotification": "הפעל התראות מעקב",
   "followupNotificationDescription": "אם לא תתעד את התרופה שלך תוך 30 דקות מההודעה הראשונה, תישלח הודעת מעקב.",

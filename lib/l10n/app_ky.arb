@@ -64,7 +64,7 @@
   "medicationScheduleLimit": "{count} чейин дары ичүү графигин каттай аласыз.",
   "increaseMedicationScheduleLimit": "Premium планы менен чекти {count}ге чейин көбөйтүү",
   "addMedicationSchedule": "Дары ичүү графигин кошуу",
-  "medicationScheduleNotificationSetting": "Дарыя графигин нотациясы",
+  "medicationScheduleNotificationSetting": "Дары ичүү графигинин билдирме жөндөөлөрү",
   "notificationSetting": "Эскертүү орнотулуулары",
   "enableFollowupNotification": "Келтирүү эскертүүлөрүн иштетүү",
   "followupNotificationDescription": "Эгер биринчи билдирүүдөн 30 мүнөттүн ичинде дары ичкиликтин жазылышы болмосо, кошумча билдирүү жөнөтүлөт.",

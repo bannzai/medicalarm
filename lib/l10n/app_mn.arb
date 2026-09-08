@@ -64,7 +64,7 @@
   "medicationScheduleLimit": "Та {count} хүртэл эм уух хуваарь бүртгэх боломжтой.",
   "increaseMedicationScheduleLimit": "Premium багцаар хязгаарыг {count} болгох",
   "addMedicationSchedule": "Эм уух хуваарь нэмэх",
-  "medicationScheduleNotificationSetting": "Эмчилгээний хуваарийн мэдэгдлийн тохиргоо",
+  "medicationScheduleNotificationSetting": "Эм уух хуваарийн мэдэгдлийн тохиргоо",
   "notificationSetting": "Мэдэгдлийн тохиргоо",
   "enableFollowupNotification": "Дахин хариулах мэдэгдлийг идэвхжүүлэх",
   "followupNotificationDescription": "Эхний мэдэгдэлээс 30 минутын дотор эмийн бичилтийг хийдэггүй бол дагаж мөрдөх мэдэгдэл ирнэ.",

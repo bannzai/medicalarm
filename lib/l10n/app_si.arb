@@ -64,7 +64,7 @@
   "medicationScheduleLimit": "ඔබට ඖෂධ ගැනීමේ කාලසටහන් {count}ක් දක්වා ලියාපදිංචි කළ හැක.",
   "increaseMedicationScheduleLimit": "Premium සැලසුම සමඟ සීමාව {count} දක්වා වැඩි කරන්න",
   "addMedicationSchedule": "ඖෂධ ගැනීමේ කාලසටහන එක් කරන්න",
-  "medicationScheduleNotificationSetting": "ඉතිරිව ඇති දිනපතා බෙරකාලීන නිවේදනයන් සැකසීම",
+  "medicationScheduleNotificationSetting": "ඖෂධ ගැනීමේ කාලසටහන් දැනුම්දීම් සැකසීම්",
   "notificationSetting": "යොමනාවන් සකසන්න",
   "enableFollowupNotification": "ආධාරක නිවේදන ක්‍රියාත්මක කිරීම",
   "followupNotificationDescription": "ඔබ පළමු නිවේදනයෙන් 30 මිනිත්තුක් ඇතුලුව ඖෂධකරණය සටහන් නොකරනවා නම්, අනිවාර්ය නිවේදනයක් යවනු ලබයි.",

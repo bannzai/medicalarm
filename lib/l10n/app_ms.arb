@@ -64,7 +64,7 @@
   "medicationScheduleLimit": "Anda boleh mendaftarkan sehingga {count} jadual pengambilan ubat.",
   "increaseMedicationScheduleLimit": "Tingkatkan had kepada {count} dengan pelan Premium",
   "addMedicationSchedule": "Tambah jadual pengambilan ubat",
-  "medicationScheduleNotificationSetting": "Tetapan pemberitahuan jadual pengambilan",
+  "medicationScheduleNotificationSetting": "Tetapan pemberitahuan jadual pengambilan ubat",
   "notificationSetting": "Tetapan Notifikasi",
   "enableFollowupNotification": "Mengaktifkan pemberitahuan susulan",
   "followupNotificationDescription": "Jika anda tidak merekodkan pengambilan ubat dalam masa 30 minit dari notifikasi pertama, notifikasi susulan akan dihantar.",

@@ -64,7 +64,7 @@
   "medicationScheduleLimit": "Можно зарегистрировать до {count} расписаний приёма лекарств.",
   "increaseMedicationScheduleLimit": "Увеличить лимит до {count} с планом Premium",
   "addMedicationSchedule": "Добавить расписание приёма лекарств",
-  "medicationScheduleNotificationSetting": "Настройки уведомлений о расписании приема",
+  "medicationScheduleNotificationSetting": "Настройки уведомлений о расписании приёма лекарств",
   "notificationSetting": "Настройки уведомлений",
   "enableFollowupNotification": "Включите уведомления о последующем обследовании",
   "followupNotificationDescription": "Если вы не запишите прием лекарства в течение 30 минут после первого уведомления, будет отправлено уведомление для последующей проверки.",

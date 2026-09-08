@@ -64,7 +64,7 @@
   "medicationScheduleLimit": "Դուք կարող եք գրանցել մինչև {count} դեղորայքի ընդունման ժամանակացույց։",
   "increaseMedicationScheduleLimit": "Premium պլանով սահմանաչափը հասցրեք {count}-ի",
   "addMedicationSchedule": "Ավելացնել դեղորայքի ընդունման ժամանակացույց",
-  "medicationScheduleNotificationSetting": "Դեղամիջոցների ժամանակացույցի ծանուցման կարգավորումներ",
+  "medicationScheduleNotificationSetting": "Դեղորայքի ընդունման ժամանակացույցի ծանուցումների կարգավորումներ",
   "notificationSetting": "Անհայտացման կարգավորումներ",
   "enableFollowupNotification": "Enabled follow-up notifications",
   "followupNotificationDescription": "Եթե առաջին ծանուցումից 30 րոպեի ընթացքում դեղամիջոցը չգրանցվի, կհետեւի լրացուցիչ ծանուցում։",

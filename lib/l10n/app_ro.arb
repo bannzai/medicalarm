@@ -64,7 +64,7 @@
   "medicationScheduleLimit": "Puteți înregistra până la {count} programe de administrare a medicamentelor.",
   "increaseMedicationScheduleLimit": "Măriți limita la {count} cu planul Premium",
   "addMedicationSchedule": "Adaugă programul de administrare a medicamentelor",
-  "medicationScheduleNotificationSetting": "Setări notificare program de administrare",
+  "medicationScheduleNotificationSetting": "Setările notificărilor pentru programul de administrare a medicamentelor",
   "notificationSetting": "Setări notificări",
   "enableFollowupNotification": "Activați notificările de urmărire",
   "followupNotificationDescription": "Dacă nu înregistrați administrarea medicamentului în termen de 30 de minute de la prima notificare, va fi trimisă o notificare de urmărire.",

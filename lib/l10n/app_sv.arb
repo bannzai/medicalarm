@@ -64,7 +64,7 @@
   "medicationScheduleLimit": "Du kan registrera upp till {count} läkemedelsscheman.",
   "increaseMedicationScheduleLimit": "Öka gränsen till {count} med Premium-planen",
   "addMedicationSchedule": "Lägg till läkemedelsschema",
-  "medicationScheduleNotificationSetting": "Meddelandeinställningar för doseringsschema",
+  "medicationScheduleNotificationSetting": "Aviseringsinställningar för medicineringsschema",
   "notificationSetting": "Notisinställningar",
   "enableFollowupNotification": "Aktivera följa upp meddelanden",
   "followupNotificationDescription": "Om du inte registrerar medicineringen inom 30 minuter efter den första notifikationen, skickas en uppföljningsnotifikation.",

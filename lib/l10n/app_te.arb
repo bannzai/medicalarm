@@ -64,7 +64,7 @@
   "medicationScheduleLimit": "మీరు గరిష్ఠంగా {count} మందుల వినియోగ షెడ్యూళ్లను నమోదు చేయవచ్చు.",
   "increaseMedicationScheduleLimit": "ప్రీమియం ప్లాన్‌తో పరిమితిని {count}కి పెంచండి",
   "addMedicationSchedule": "మందులు తీసుకునే షెడ్యూల్‌ను జోడించండి",
-  "medicationScheduleNotificationSetting": "మందులు తీసుకునే షెడ్యూల్ నోటిఫికేషన్ సెటప్",
+  "medicationScheduleNotificationSetting": "మందులు తీసుకునే షెడ్యూల్ నోటిఫికేషన్ సెట్టింగ్‌లు",
   "notificationSetting": "అంచనా ప్రణాళిక",
   "enableFollowupNotification": "ఫాలోఅప్ నోటిఫికేషన్‌లను ప్రారంభించు",
   "followupNotificationDescription": "మీరు మొదటి సంకేతం పంపిన 30 నిమిషాల్లోవైద్యాన్ని నమోదు చేయకపోతే, అనుకూలిత సంకేతం పంపబడుతుంది.",

@@ -64,7 +64,7 @@
   "medicationScheduleLimit": "Galite užregistruoti iki {count} vaistų vartojimo tvarkaraščių.",
   "increaseMedicationScheduleLimit": "Padidinkite limitą iki {count} naudodami „Premium“ planą",
   "addMedicationSchedule": "Pridėti vaistų vartojimo tvarkaraštį",
-  "medicationScheduleNotificationSetting": "Vaistų vartojimo grafiko pranešimų nustatymas",
+  "medicationScheduleNotificationSetting": "Vaistų vartojimo tvarkaraščio pranešimų nustatymai",
   "notificationSetting": "Pranešimų nustatymai",
   "enableFollowupNotification": "Įgalinti sekimo pranešimus",
   "followupNotificationDescription": "Jei per 30 minučių nuo pirmojo pranešimo neužregistruosite vaistų vartojimo, bus išsiųstas sekantis pranešimas.",

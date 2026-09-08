@@ -64,7 +64,7 @@
   "medicationScheduleLimit": "{count}-ке дейін дәрі қабылдау кестесін тіркей аласыз.",
   "increaseMedicationScheduleLimit": "Premium жоспарымен шекті {count}-ге дейін арттыру",
   "addMedicationSchedule": "Дәрі қабылдау кестесін қосу",
-  "medicationScheduleNotificationSetting": "Дәрі қабылдау кестесінің хабарландыру параметрі",
+  "medicationScheduleNotificationSetting": "Дәрі қабылдау кестесі туралы хабарландыру параметрлері",
   "notificationSetting": "Хабарландыру параметрлері",
   "enableFollowupNotification": "Күзету хабарламаларын қосу",
   "followupNotificationDescription": "Егер алғашқы хабарламадан кейін 30 минут ішінде дәрі ішу жазбасаңыз, қосымша хабарлама жіберіледі.",

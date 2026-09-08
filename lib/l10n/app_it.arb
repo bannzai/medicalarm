@@ -64,7 +64,7 @@
   "medicationScheduleLimit": "Puoi registrare fino a {count} programmi di assunzione dei farmaci.",
   "increaseMedicationScheduleLimit": "Aumenta il limite a {count} con il piano Premium",
   "addMedicationSchedule": "Aggiungi piano di assunzione dei farmaci",
-  "medicationScheduleNotificationSetting": "Impostazioni delle notifiche del programma di assunzione",
+  "medicationScheduleNotificationSetting": "Impostazioni delle notifiche del programma dei farmaci",
   "notificationSetting": "Impostazioni delle notifiche",
   "enableFollowupNotification": "Attiva le notifiche di follow-up",
   "followupNotificationDescription": "Se non registri l'assunzione della medicina entro 30 minuti dalla prima notifica, verrà inviato un promemoria di follow-up.",

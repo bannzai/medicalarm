@@ -64,7 +64,7 @@
   "medicationScheduleLimit": "Varat reģistrēt līdz {count} zāļu lietošanas grafikiem.",
   "increaseMedicationScheduleLimit": "Palielināt limitu līdz {count}, izmantojot Premium plānu",
   "addMedicationSchedule": "Pievienot zāļu lietošanas grafiku",
-  "medicationScheduleNotificationSetting": "Zāļu lietošanas grafika paziņojumu iestatīšana",
+  "medicationScheduleNotificationSetting": "Zāļu lietošanas grafika paziņojumu iestatījumi",
   "notificationSetting": "Paziņojumu iestatījumi",
   "enableFollowupNotification": "Ieslēgt sekošanas paziņojumus",
   "followupNotificationDescription": "Jauni sekojošais paziņojums tiks nosūtīts, ja zāļu lietošanu neierakstīsiet 30 minūšu laikā pēc pirmā paziņojuma.",

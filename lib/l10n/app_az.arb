@@ -64,7 +64,7 @@
   "medicationScheduleLimit": "{count}-dək dərman qəbulu cədvəli qeydiyyatdan keçirə bilərsiniz.",
   "increaseMedicationScheduleLimit": "Premium planla limiti {count}-ə artırın",
   "addMedicationSchedule": "Dərman qəbul cədvəli əlavə et",
-  "medicationScheduleNotificationSetting": "Dərman qəbulu cədvəli bildiriş parametrləri",
+  "medicationScheduleNotificationSetting": "Dərman qəbulu cədvəli bildiriş ayarları",
   "notificationSetting": "Bildiriş ayarları",
   "enableFollowupNotification": "İzləmə bildirişini aktivləşdirin",
   "followupNotificationDescription": "İlk bildirişdən 30 dəqiqə ərzində dərman qəbulunu qeydə almadıqda, izləmə bildirişi göndəriləcək.",

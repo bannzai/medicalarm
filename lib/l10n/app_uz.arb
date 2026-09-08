@@ -64,7 +64,7 @@
   "medicationScheduleLimit": "Ko‘pi bilan {count} ta dori qabul qilish jadvalini ro‘yxatdan o‘tkazishingiz mumkin.",
   "increaseMedicationScheduleLimit": "Premium tarif bilan limitni {count} gacha oshirish",
   "addMedicationSchedule": "Dori qabul qilish jadvalini qo‘shish",
-  "medicationScheduleNotificationSetting": "Doriq rejasi uchun xabarnoma sozlamalari",
+  "medicationScheduleNotificationSetting": "Dori qabul qilish jadvali bildirishnomalari sozlamalari",
   "notificationSetting": "Bildirishnoma sozlamalari",
   "enableFollowupNotification": "Kuzatish xabarnomasini yoqish",
   "followupNotificationDescription": "Birinchi xabardan 30 daqiqa ichida dori qabul qilmasangiz, kuzatuv xabari yuboriladi.",

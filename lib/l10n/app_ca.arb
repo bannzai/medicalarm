@@ -64,7 +64,7 @@
   "medicationScheduleLimit": "Pots registrar fins a {count} horaris de presa de medicaments.",
   "increaseMedicationScheduleLimit": "Augmenta el límit a {count} amb el pla Premium",
   "addMedicationSchedule": "Afegeix un horari de medicació",
-  "medicationScheduleNotificationSetting": "Configuració de notificacions d'horari de presa",
+  "medicationScheduleNotificationSetting": "Configuració de notificacions de l’horari de medicació",
   "notificationSetting": "Configuració de notificacions",
   "enableFollowupNotification": "Activar notificaciones de seguiment",
   "followupNotificationDescription": "Si no es registra el medicament durant els 30 minuts següents a la primera notificació, es enviarà una notificació de seguiment.",
