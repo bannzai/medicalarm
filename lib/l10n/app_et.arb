@@ -44,7 +44,7 @@
   "quantity": "Kogus",
   "quantityExample": "Näide: 1 tablett, 100 mg",
   "medicationStartDate": "Ravimi võtmise alguskuupäev",
-  "otherInformation": "Muud",
+  "otherInformation": "Muu",
   "doseReceiver": "Ravimitaja",
   "defaultDoseReceiver": "ise",
   "doseReceiverMaxCount": "Kasutajad võivad registreerida kuni {count} inimest",

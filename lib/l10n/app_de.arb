@@ -44,7 +44,7 @@
   "quantity": "Menge",
   "quantityExample": "Beispiel: 1 Tablette, 100 mg",
   "medicationStartDate": "Einnahmebeginn",
-  "otherInformation": "Sonstiges",
+  "otherInformation": "Weitere",
   "doseReceiver": "Medikamentennehmer",
   "defaultDoseReceiver": "Eigen",
   "doseReceiverMaxCount": "Es können bis zu {count} Benutzer registriert werden.",

@@ -44,7 +44,7 @@
   "quantity": "ප්‍රමාණය",
   "quantityExample": "උදාහරණය: පෙති 1ක්, මිලිග්‍රෑම් 100",
   "medicationStartDate": "ගැනීම ආරම්භ කරන දිනය",
-  "otherInformation": "අනෙක්",
+  "otherInformation": "වෙනත්",
   "doseReceiver": "ඖෂධ ලබාගන්නා අය",
   "defaultDoseReceiver": "මටම",
   "doseReceiverMaxCount": "උපයෝගිතාකරුවන් {count} දෙනෙකු දක්වා සංග්‍රහ කළ හැක",

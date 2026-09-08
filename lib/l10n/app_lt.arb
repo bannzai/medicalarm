@@ -44,7 +44,7 @@
   "quantity": "Kiekis",
   "quantityExample": "Pavyzdys: 1 tabletė, 100 mg",
   "medicationStartDate": "Vartojimo pradžios data",
-  "otherInformation": "Kita kita",
+  "otherInformation": "Kita",
   "doseReceiver": "Vartotojas",
   "defaultDoseReceiver": "Aš",
   "doseReceiverMaxCount": "Registruojamas iki {count} vartotojų",

@@ -44,7 +44,7 @@
   "quantity": "Кількість",
   "quantityExample": "Наприклад: 1 таблетка, 100 мг",
   "medicationStartDate": "Дата початку прийому",
-  "otherInformation": "Other",
+  "otherInformation": "Інше",
   "doseReceiver": "Medication Taker",
   "defaultDoseReceiver": "self",
   "doseReceiverMaxCount": "Up to {count} users can be registered.",

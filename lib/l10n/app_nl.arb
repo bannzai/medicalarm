@@ -44,7 +44,7 @@
   "quantity": "Hoeveelheid",
   "quantityExample": "Bijvoorbeeld: 1 tablet, 100 mg",
   "medicationStartDate": "Startdatum inname",
-  "otherInformation": "Overige",
+  "otherInformation": "Overig",
   "doseReceiver": "Medicijngebruiker",
   "defaultDoseReceiver": "Ikzelf",
   "doseReceiverMaxCount": "Tot {count} gebruikers kunnen worden geregistreerd.",

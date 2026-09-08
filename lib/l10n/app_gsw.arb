@@ -44,7 +44,7 @@
   "quantity": "Mängi",
   "quantityExample": "Bispiel: 1 Tablette, 100 mg",
   "medicationStartDate": "Startdatum vo de Einnahm",
-  "otherInformation": "Andere",
+  "otherInformation": "Weitere",
   "doseReceiver": "Medikamentennehmer",
   "defaultDoseReceiver": "Säi",
   "doseReceiverMaxCount": "D'Verbrüchers si max {count} Persone registrierbar.",

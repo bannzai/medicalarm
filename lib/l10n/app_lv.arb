@@ -44,7 +44,7 @@
   "quantity": "Daudzums",
   "quantityExample": "Piemērs: 1 tablete, 100 mg",
   "medicationStartDate": "Lietošanas sākuma datums",
-  "otherInformation": "Cits cits",
+  "otherInformation": "Cits",
   "doseReceiver": "Lietotājs",
   "defaultDoseReceiver": "Seņģis",
   "doseReceiverMaxCount": "Lietotājiem var reģistrēt līdz {count} personām.",

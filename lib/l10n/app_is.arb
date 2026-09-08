@@ -44,7 +44,7 @@
   "quantity": "Magn",
   "quantityExample": "Dæmi: 1 tafla, 100 mg",
   "medicationStartDate": "Upphafsdagur lyfjatöku",
-  "otherInformation": "Aðrir",
+  "otherInformation": "Annað",
   "doseReceiver": "Notandi",
   "defaultDoseReceiver": "sjálfur",
   "doseReceiverMaxCount": "Hægt er að skrá að hámarki {count} notendur.",

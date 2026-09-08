@@ -44,7 +44,7 @@
   "quantity": "Množstvo",
   "quantityExample": "Príklad: 1 tableta, 100 mg",
   "medicationStartDate": "Dátum začatia užívania",
-  "otherInformation": "Iné",
+  "otherInformation": "Ďalšie",
   "doseReceiver": "Osoba užívajúca lieky",
   "defaultDoseReceiver": "ja",
   "doseReceiverMaxCount": "Maximálne {count} používateľov môže byť registrovaných",

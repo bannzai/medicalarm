@@ -44,7 +44,7 @@
   "quantity": "Swm",
   "quantityExample": "Enghraifft: 1 dabled, 100 mg",
   "medicationStartDate": "Dyddiad dechrau cymryd",
-  "otherInformation": "Eraill",
+  "otherInformation": "Arall",
   "doseReceiver": "Cyffwrdd",
   "defaultDoseReceiver": "fy nghyda",
   "doseReceiverMaxCount": "Gallir cofrestredig hyd at {count} o ddefnyddwyr.",

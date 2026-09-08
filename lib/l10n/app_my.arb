@@ -44,7 +44,7 @@
   "quantity": "ပမာဏ",
   "quantityExample": "ဥပမာ - ဆေးပြား ၁ ပြား၊ ၁၀၀ မီလီဂရမ်",
   "medicationStartDate": "သောက်သုံးစတင်သည့်ရက်စွဲ",
-  "otherInformation": "Lain-lain",
+  "otherInformation": "အခြား",
   "doseReceiver": "Pengguna",
   "defaultDoseReceiver": "diri",
   "doseReceiverMaxCount": "Pengguna boleh mendaftar sehingga {count} orang.",

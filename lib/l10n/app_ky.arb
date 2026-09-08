@@ -44,7 +44,7 @@
   "quantity": "Өлчөмү",
   "quantityExample": "Мисалы: 1 таблетка, 100 мг",
   "medicationStartDate": "Кабылдоону баштоо күнү",
-  "otherInformation": "Башка маалымат",
+  "otherInformation": "Башка",
   "doseReceiver": "Дарынычылар",
   "defaultDoseReceiver": "өзүм",
   "doseReceiverMaxCount": "Дарынып ыракканына {count} адамга чейин катталса болот",
