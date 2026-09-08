@@ -93,7 +93,7 @@
   "increaseMedicineLimitWithPremium": "使用 Premium 方案将上限提高至 {count}",
   "aboutApp": "关于应用",
   "viewPremiumPlan": "查看高级方案",
-  "cancelSubscriptionInstruction": "在購買後，您可以在{storeName}應用的帳戶設置中取消自動續訂。（無法通過應用內操作取消自動續訂。）",
+  "cancelSubscriptionInstruction": "购买后，您可以在 {storeName} 应用的账户设置中取消自动续订。（无法在应用内取消自动续订。）",
   "headache": "头痛",
   "stomachache": "腹痛",
   "nausea": "恶心",

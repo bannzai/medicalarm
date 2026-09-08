@@ -93,7 +93,7 @@
   "increaseMedicineLimitWithPremium": "ເພີ່ມຂີດຈຳກັດເປັນ {count} ດ້ວຍແຜນ Premium",
   "aboutApp": "ກ່ຽວກັບແອັບ",
   "viewPremiumPlan": "ເບິ່ງແຜນ Premium",
-  "cancelSubscriptionInstruction": "購入後、自動更新の解約は{storeName}アプリのアカウント設定で行えます。(アプリ内から自動更新の解約は行なえません)。",
+  "cancelSubscriptionInstruction": "ຫຼັງຈາກຊື້ແລ້ວ ທ່ານສາມາດຍົກເລີກການຕໍ່ອາຍຸອັດຕະໂນມັດໄດ້ໃນການຕັ້ງຄ່າບັນຊີຂອງແອັບ {storeName}. (ບໍ່ສາມາດຍົກເລີກການຕໍ່ອາຍຸອັດຕະໂນມັດຈາກໃນແອັບໄດ້.)",
   "headache": "ປວດເຮັດ",
   "stomachache": "ແບບຕົວງາມໃນບອດການໃຊ້ງານ: ບໍ່ອາດຈະສາມາດລະວັງຫຼຸດຝາຍແມ່ນ",
   "nausea": "ອັບອະຍູ່",

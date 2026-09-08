@@ -93,7 +93,7 @@
   "increaseMedicineLimitWithPremium": "پریمیم پلان کے ساتھ حد بڑھا کر {count} کریں",
   "aboutApp": "ایپ کے بارے میں",
   "viewPremiumPlan": "پریمیم پلان دیکھیں",
-  "cancelSubscriptionInstruction": "خریداری کرنے کے بعد، خودکار تجدید کو {storeName} ایپ کے اکاؤنٹ کی ترتیبات میں منسوخ کیا جا سکتا ہے۔ (ایپ سے خودکار تجدید کی منسوخی نہیں کی جا سکتی)۔",
+  "cancelSubscriptionInstruction": "خریداری کے بعد، آپ {storeName} ایپ کی اکاؤنٹ سیٹنگز میں خودکار تجدید منسوخ کر سکتے ہیں۔ (ایپ کے اندر سے خودکار تجدید منسوخ نہیں کی جا سکتی۔)",
   "headache": "سر درد",
   "stomachache": "پیٹ درد",
   "nausea": "متلی",

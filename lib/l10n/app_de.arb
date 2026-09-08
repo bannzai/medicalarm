@@ -93,7 +93,7 @@
   "increaseMedicineLimitWithPremium": "Limit mit dem Premium-Plan auf {count} erhöhen",
   "aboutApp": "Über die App",
   "viewPremiumPlan": "Premium-Abo ansehen",
-  "cancelSubscriptionInstruction": "Nach dem Kauf kann das Abbestellen der automatischen Verlängerung über die Kontoeinstellungen der {storeName}-App erfolgen. (Die automatische Verlängerung kann nicht direkt in der App abbestellt werden).",
+  "cancelSubscriptionInstruction": "Nach dem Kauf können Sie die automatische Verlängerung in den Kontoeinstellungen der {storeName}-App kündigen. (Die automatische Verlängerung kann nicht in der App gekündigt werden.)",
   "headache": "Kopfschmerzen",
   "stomachache": "Bauchschmerzen",
   "nausea": "Übelkeit",

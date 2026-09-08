@@ -93,7 +93,7 @@
   "increaseMedicineLimitWithPremium": "Premium багцаар хязгаарыг {count} болгож нэмэгдүүлээрэй",
   "aboutApp": "Аппын тухай",
   "viewPremiumPlan": "Premium багцыг харах",
-  "cancelSubscriptionInstruction": "Худалдаж авсны дараа, автомат шинэчлэлтийг {storeName} аппын акаунтын тохиргоонд зогсоож болно. (Апп дотор автомат шинэчлэлтийг зогсоох боломжгүй).",
+  "cancelSubscriptionInstruction": "Худалдан авсны дараа {storeName} аппын бүртгэлийн тохиргооноос автоматаар сунгалтыг цуцалж болно. (Автоматаар сунгалтыг апп дотроос цуцлах боломжгүй.)",
   "headache": "Толгой өвдөлт",
   "stomachache": "Угшрэл",
   "nausea": "Давс",

@@ -93,7 +93,7 @@
   "increaseMedicineLimitWithPremium": "Premium සැලසුම සමඟ සීමාව {count} දක්වා වැඩි කරන්න",
   "aboutApp": "යෙදුම ගැන",
   "viewPremiumPlan": "Premium සැලසුම බලන්න",
-  "cancelSubscriptionInstruction": "ගැනීමෙන් පසුව, ස්වයංක්‍රීය නවීකරණය අවලංගු කිරීම {storeName} යෙදුමේ ගිණුම සකසීම් මැදිහත්වීමෙන් කළ හැක. (යෙදුමේ සිට ස්වයංක්‍රීය නවීකරණය අවලංගු කළ නොහැක) .",
+  "cancelSubscriptionInstruction": "මිලදී ගැනීමෙන් පසු, {storeName} යෙදුමේ ගිණුම් සැකසීම් වෙතින් ස්වයංක්‍රීය අලුත් කිරීම අවලංගු කළ හැක. (යෙදුම තුළින් ස්වයංක්‍රීය අලුත් කිරීම අවලංගු කළ නොහැක.)",
   "headache": "මගේනැති හැඩය",
   "stomachache": "පේදා",
   "nausea": "ආසාදිතාව",

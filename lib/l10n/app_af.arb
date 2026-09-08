@@ -93,7 +93,7 @@
   "increaseMedicineLimitWithPremium": "Verhoog die limiet na {count} met die Premium-plan",
   "aboutApp": "Meer oor die toepassing",
   "viewPremiumPlan": "Bekyk premiumplan",
-  "cancelSubscriptionInstruction": "Na aankoop kan jy die outomatiese hernuwing annuleer in die rekeninginstellings van die {storeName} app. (Jy kan nie die outomatiese hernuwing binnenshuise in die app annuleer).",
+  "cancelSubscriptionInstruction": "Ná aankoop kan jy outomatiese hernuwing in die rekeninginstellings van die {storeName}-app kanselleer. (Outomatiese hernuwing kan nie binne die app gekanselleer word nie.)",
   "headache": "hoofpyn",
   "stomachache": "Buikpyn",
   "nausea": "nausea",

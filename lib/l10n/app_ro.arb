@@ -93,7 +93,7 @@
   "increaseMedicineLimitWithPremium": "Măriți limita la {count} cu planul Premium",
   "aboutApp": "Despre aplicație",
   "viewPremiumPlan": "Vezi planul Premium",
-  "cancelSubscriptionInstruction": "După achiziție, anularea actualizării automate se poate face din setările contului {storeName} din aplicație. (Anularea actualizării automate nu se poate face din interiorul aplicației).",
+  "cancelSubscriptionInstruction": "După achiziție, poți anula reînnoirea automată din setările contului aplicației {storeName}. (Reînnoirea automată nu poate fi anulată din aplicație.)",
   "headache": "dureri de cap",
   "stomachache": "durere abdominala",
   "nausea": "greață",

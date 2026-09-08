@@ -93,7 +93,7 @@
   "increaseMedicineLimitWithPremium": "زيادة الحد إلى {count} مع الخطة المميزة",
   "aboutApp": "حول التطبيق",
   "viewPremiumPlan": "عرض الخطة المميزة",
-  "cancelSubscriptionInstruction": "بعد الشراء، يمكنك إلغاء التجديد التلقائي من إعدادات حساب {storeName} داخل التطبيق. (لا يمكن إلغاء التجديد التلقائي من داخل التطبيق).",
+  "cancelSubscriptionInstruction": "بعد الشراء، يمكنك إلغاء التجديد التلقائي من إعدادات الحساب في تطبيق {storeName}. (لا يمكن إلغاء التجديد التلقائي من داخل التطبيق.)",
   "headache": "صداع",
   "stomachache": "ألم البطن",
   "nausea": "غثيان",

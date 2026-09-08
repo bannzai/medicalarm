@@ -93,7 +93,7 @@
   "increaseMedicineLimitWithPremium": "הגדילו את המגבלה ל־{count} באמצעות תוכנית Premium",
   "aboutApp": "מידע על האפליקציה",
   "viewPremiumPlan": "הצגת תוכנית Premium",
-  "cancelSubscriptionInstruction": "לאחר הרכישה, ניתן לבצע ביטול של חידוש אוטומטי בהגדרות החשבון ב-{storeName} אפליקציה. (לא ניתן לבטל חידוש אוטומטי מתוך האפליקציה).",
+  "cancelSubscriptionInstruction": "לאחר הרכישה, ניתן לבטל את החידוש האוטומטי בהגדרות החשבון של אפליקציית {storeName}. (לא ניתן לבטל את החידוש האוטומטי מתוך האפליקציה.)",
   "headache": "כאבי ראש",
   "stomachache": "כאב בטן",
   "nausea": "בחילה",

@@ -93,7 +93,7 @@
   "increaseMedicineLimitWithPremium": "Hæv grænsen til {count} med Premium-planen",
   "aboutApp": "Om appen",
   "viewPremiumPlan": "Se premiumplan",
-  "cancelSubscriptionInstruction": "Efter køb kan du annullere automatisk fornyelse i {storeName} appens kontoindstillinger. (Du kan ikke annullere automatisk fornyelse fra appen).",
+  "cancelSubscriptionInstruction": "Efter købet kan du opsige den automatiske fornyelse i kontoindstillingerne i {storeName}-appen. (Automatisk fornyelse kan ikke opsiges i appen.)",
   "headache": "Hovedpine",
   "stomachache": "Mavesmerter",
   "nausea": "Kvalme",

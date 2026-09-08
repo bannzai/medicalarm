@@ -93,7 +93,7 @@
   "increaseMedicineLimitWithPremium": "Palieliniet ierobežojumu līdz {count}, izmantojot Premium plānu",
   "aboutApp": "Par lietotni",
   "viewPremiumPlan": "Skatīt Premium plānu",
-  "cancelSubscriptionInstruction": "Pēc pirkuma automātiskās atjaunināšanas atcelšanu var veikt {storeName} lietotnes konta iestatījumos. (Automātiskās atjaunināšanas atcelšana lietotnē nav iespējama.)",
+  "cancelSubscriptionInstruction": "Pēc iegādes automātisko atjaunošanu varat atcelt lietotnes {storeName} konta iestatījumos. (Automātisko atjaunošanu lietotnē atcelt nevar.)",
   "headache": "galvassāpes",
   "stomachache": "vēdera sāpes",
   "nausea": "Slikko",

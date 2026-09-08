@@ -93,7 +93,7 @@
   "increaseMedicineLimitWithPremium": "Hækkaðu hámarkið í {count} með Premium-áskriftinni",
   "aboutApp": "Um appið",
   "viewPremiumPlan": "Skoða Premium-áætlun",
-  "cancelSubscriptionInstruction": "Eftir kaup geturðu sagt upp sjálfvirkum endurnýjun í {storeName} appinu í aðgangsstillingum. (Ekki er hægt að segja upp sjálfvirkri endurnýjun innan appsins).",
+  "cancelSubscriptionInstruction": "Eftir kaup geturðu sagt upp sjálfvirkri endurnýjun í reikningsstillingum {storeName}-forritsins. (Ekki er hægt að segja upp sjálfvirkri endurnýjun í forritinu.)",
   "headache": "höfuðverkur",
   "stomachache": "kviðverkur",
   "nausea": "óþekja",

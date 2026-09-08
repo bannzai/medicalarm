@@ -93,7 +93,7 @@
   "increaseMedicineLimitWithPremium": "પ્રીમિયમ પ્લાન સાથે મર્યાદા વધારીને {count} કરો",
   "aboutApp": "ઍપ વિશે",
   "viewPremiumPlan": "પ્રીમિયમ પ્લાન જુઓ",
-  "cancelSubscriptionInstruction": "ખરીદી પછી, ઓટોમેટિક નવીનતા રદ કરવાનો પ્રક્રિયા {storeName} એપ્લિકેશનની ખાતા સેટિંગ્સમાં કરી શકાય છે.(એપ્લિકેશનથી ઓટો-નવીનતા રદ કરી શકાયું નથી).",
+  "cancelSubscriptionInstruction": "ખરીદી કર્યા પછી, તમે {storeName} ઍપની એકાઉન્ટ સેટિંગ્સમાંથી આપમેળે નવીકરણ રદ કરી શકો છો. (ઍપની અંદરથી આપમેળે નવીકરણ રદ કરી શકાતું નથી.)",
   "headache": "મુકેત",
   "stomachache": "અંગવેદના",
   "nausea": "ઉલટી",

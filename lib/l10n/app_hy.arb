@@ -93,7 +93,7 @@
   "increaseMedicineLimitWithPremium": "Պրեմիում պլանով ավելացրեք սահմանաչափը մինչև {count}",
   "aboutApp": "Հավելվածի մասին",
   "viewPremiumPlan": "Դիտել Պրեմիում պլանը",
-  "cancelSubscriptionInstruction": "Գնելիզ հետո, ավտոմատ թարմացման չեղարկումը կարող եք անել {storeName} application's account settings-ում։ (Դերեր իջեցնելուց ավտոմատ թարմացման չեղարկումը չի կարող իրականացվել)։",
+  "cancelSubscriptionInstruction": "Գնումից հետո ավտոմատ նորացումը կարող եք չեղարկել {storeName} հավելվածի հաշվի կարգավորումներում։ (Ավտոմատ նորացումը հնարավոր չէ չեղարկել հավելվածի ներսից։)",
   "headache": "գլխացավ",
   "stomachache": "Սովորական ցավ",
   "nausea": "Ամաչեցությ",

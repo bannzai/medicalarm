@@ -93,7 +93,7 @@
   "increaseMedicineLimitWithPremium": "S paketom Premium povečajte omejitev na {count}",
   "aboutApp": "O aplikaciji",
   "viewPremiumPlan": "Ogled premijskega paketa",
-  "cancelSubscriptionInstruction": "Po nakupu lahko prekličete samodejno podaljšanje v nastavitvah računa aplikacije {storeName}. (Samodejnega podaljšanja ni mogoče preklicati iz aplikacije).",
+  "cancelSubscriptionInstruction": "Po nakupu lahko samodejno podaljšanje prekličete v nastavitvah računa aplikacije {storeName}. (Samodejnega podaljšanja v aplikaciji ni mogoče preklicati.)",
   "headache": "Bolečina v glavi",
   "stomachache": "Bolečina v trebuhu",
   "nausea": "Slabost",

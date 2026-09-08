@@ -93,7 +93,7 @@
   "increaseMedicineLimitWithPremium": "Aumenta o límite a {count} co plan Premium",
   "aboutApp": "Sobre a aplicación",
   "viewPremiumPlan": "Ver o plan Premium",
-  "cancelSubscriptionInstruction": "Despois da compra, pode cancelar a renovación automática nas configuracións da conta da aplicación {storeName}. (Non se pode cancelar a renovación automática desde dentro da aplicación).",
+  "cancelSubscriptionInstruction": "Despois da compra, podes cancelar a renovación automática na configuración da conta da aplicación {storeName}. (A renovación automática non se pode cancelar desde a aplicación.)",
   "headache": "dor de cabeza",
   "stomachache": "Dor de barrigada",
   "nausea": "náuseas",

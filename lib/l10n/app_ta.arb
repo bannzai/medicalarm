@@ -93,7 +93,7 @@
   "increaseMedicineLimitWithPremium": "பிரீமியம் திட்டத்துடன் வரம்பை {count} ஆக அதிகரிக்கவும்",
   "aboutApp": "ஆப்ஸ் பற்றி",
   "viewPremiumPlan": "பிரீமியம் திட்டத்தைப் பார்க்கவும்",
-  "cancelSubscriptionInstruction": "முறPurchaser மூலம், {storeName} செயலியின் கணக்கு அமைப்பில் கடவுச்சொல்லை மறுக்கலாம். (செயலியில் இருந்து தானாக புதுப்பிப்பை நிறுத்த முடியாது).",
+  "cancelSubscriptionInstruction": "வாங்கிய பிறகு, {storeName} செயலியின் கணக்கு அமைப்புகளில் தானியங்கி புதுப்பிப்பை ரத்து செய்யலாம். (செயலிக்குள் இருந்து தானியங்கி புதுப்பிப்பை ரத்து செய்ய முடியாது.)",
   "headache": "தலைவலி",
   "stomachache": "குழ restructuring",
   "nausea": "வாய்ப்பு",

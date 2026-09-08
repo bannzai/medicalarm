@@ -93,7 +93,7 @@
   "increaseMedicineLimitWithPremium": "Premium planla limiti {count}-ə qədər artırın",
   "aboutApp": "Tətbiq haqqında",
   "viewPremiumPlan": "Premium planına baxın",
-  "cancelSubscriptionInstruction": "Satın aldıqdan sonra, avtomatik yeniləmənin ləğv edilməsi {storeName} tətbiqinin hesab tənzimləmələrində həyata keçirilə bilər.(Tətbiq içindən avtomatik yeniləməni ləğv etmək mümkün deyil).",
+  "cancelSubscriptionInstruction": "Satın aldıqdan sonra avtomatik yenilənməni {storeName} tətbiqinin hesab ayarlarından ləğv edə bilərsiniz. (Avtomatik yenilənməni tətbiqin içindən ləğv etmək mümkün deyil.)",
   "headache": "baş ağrısı",
   "stomachache": "qarın ağrısı",
   "nausea": "ürəkbulanma",

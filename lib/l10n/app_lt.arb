@@ -93,7 +93,7 @@
   "increaseMedicineLimitWithPremium": "Naudodami „Premium“ planą padidinkite limitą iki {count}",
   "aboutApp": "Apie programėlę",
   "viewPremiumPlan": "Peržiūrėti „Premium“ planą",
-  "cancelSubscriptionInstruction": "Po pirkimo automatinį atnaujinimą galite nutraukti {storeName} programos paskyros nustatymuose. (Programoje automatinio atnaujinimo nutraukti negalima).",
+  "cancelSubscriptionInstruction": "Įsigiję galite atšaukti automatinį atnaujinimą programėlės {storeName} paskyros nustatymuose. (Automatinio atnaujinimo atšaukti programėlėje negalima.)",
   "headache": "galvos skausmas",
   "stomachache": "Pilvo skausmas",
   "nausea": "Pykinys",
