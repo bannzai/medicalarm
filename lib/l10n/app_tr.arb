@@ -15,7 +15,7 @@
   "camera": "Kamera",
   "photoLibrary": "Fotoğraf Arşivi",
   "medicationHistory": "İlaç geçmişi",
-  "noMedicationHistory": "İlaç geçmişi yok",
+  "noMedicationHistory": "İlaç kullanım geçmişi yok",
   "scheduledTime": "Planlanan saat",
   "recordedTime": "Kayıt zamanı",
   "noMemo": "Not yok",
