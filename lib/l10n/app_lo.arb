@@ -51,7 +51,7 @@
   "increaseLimitWithPremium": "ເພີ່ມຂີດຈຳກັດເປັນ {count} ດ້ວຍແຜນ Premium",
   "addDoseReceiver": "ເພີ່ມຜູ້ໃຊ້ຢາ",
   "newDoseReceiver": "ຜູ້ໃຊ້ຢາຄົນໃໝ່",
-  "reloginRequired": "ກະລຸນາໍ ລັອກອິນໄວໆໃໝ່",
+  "reloginRequired": "ກະລຸນາເຂົ້າລະບົບອີກຄັ້ງ",
   "reloginMessage": "ເພື່ອລົບບັດທີ່ບນທະບຽນ ຂອບດອດໃຫ້ລົງໃໝ່.",
   "relogin": "ລົງລະບົບອີກຄັ້ງ",
   "accountDeleted": "ໄດ້ລົບເອກະສານ",

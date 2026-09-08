@@ -51,7 +51,7 @@
   "increaseLimitWithPremium": "Increase the limit to {count} with the Premium plan",
   "addDoseReceiver": "Add medication user",
   "newDoseReceiver": "New medication user",
-  "reloginRequired": "Please re-login",
+  "reloginRequired": "Please log in again",
   "reloginMessage": "To delete your account, please log in again.",
   "relogin": "Re-login",
   "accountDeleted": "Account has been deleted.",

@@ -51,7 +51,7 @@
   "increaseLimitWithPremium": "Premium 플랜으로 한도를 {count}(으)로 늘리기",
   "addDoseReceiver": "복용자 추가",
   "newDoseReceiver": "새 복용자",
-  "reloginRequired": "다시 로그인 해주세요",
+  "reloginRequired": "다시 로그인해 주세요",
   "reloginMessage": "계정을 삭제하려면 다시 로그인해 주십시오.",
   "relogin": "다시 로그인하기",
   "accountDeleted": "계정을 삭제했습니다",

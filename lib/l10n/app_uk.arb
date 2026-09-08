@@ -51,7 +51,7 @@
   "increaseLimitWithPremium": "Збільшити ліміт до {count} з планом Premium",
   "addDoseReceiver": "Додати того, хто приймає ліки",
   "newDoseReceiver": "Новий користувач ліків",
-  "reloginRequired": "Please log in again.",
+  "reloginRequired": "Увійдіть ще раз",
   "reloginMessage": "To delete your account, please log in again.",
   "relogin": "Re-login",
   "accountDeleted": "Your account has been deleted.",
