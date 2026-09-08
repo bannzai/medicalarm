@@ -173,7 +173,7 @@
   "currentlyInPremiumTrial": "You are currently on a premium trial",
   "medicationPause": "Enable medication",
   "medicationPauseDescription": "When turned off, it will be excluded from the medication screen and notifications.",
-  "medicinePausedSnackbar": "Paused this medication",
+  "medicinePausedSnackbar": "Medication intake has been temporarily paused",
   "medicationHistoryDeletedSnackbar": "Medication record removed",
   "undo": "Undo",
   "medicationHistoryReverted": "Medication record canceled",

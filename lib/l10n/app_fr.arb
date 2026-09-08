@@ -173,7 +173,7 @@
   "currentlyInPremiumTrial": "Vous bénéficiez actuellement de l’essai premium",
   "medicationPause": "Activer le médicament",
   "medicationPauseDescription": "Lorsqu’il est désactivé, le médicament est exclu de l’écran des médicaments et des notifications.",
-  "medicinePausedSnackbar": "La prise du médicament a été suspendue temporairement",
+  "medicinePausedSnackbar": "La prise du médicament a été temporairement suspendue",
   "medicationHistoryDeletedSnackbar": "L’enregistrement de la prise du médicament a été annulé",
   "undo": "Annuler",
   "medicationHistoryReverted": "Annulation de la prise de médicament",

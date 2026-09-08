@@ -173,7 +173,7 @@
   "currentlyInPremiumTrial": "Du er for øyeblikket i premium-prøveperioden",
   "medicationPause": "Aktiver medisin",
   "medicationPauseDescription": "Når det slås av, fjernes det fra medisinbildet og varslingene.",
-  "medicinePausedSnackbar": "Medisininntaket er midlertidig satt på pause",
+  "medicinePausedSnackbar": "Inntak av medisinen er midlertidig satt på pause",
   "medicationHistoryDeletedSnackbar": "Registreringen av medisininntaket er angret",
   "undo": "Angre",
   "medicationHistoryReverted": "Angre registrering av medisininntak",

@@ -173,7 +173,7 @@
   "currentlyInPremiumTrial": "ປັດຈຸບັນທ່ານກຳລັງຢູ່ໃນໄລຍະທົດລອງ Premium",
   "medicationPause": "ເປີດໃຊ້ຢາ",
   "medicationPauseDescription": "ເມື່ອປິດ, ຢານີ້ຈະຖືກຍົກເວັ້ນຈາກໜ້າຈໍຢາ ແລະການແຈ້ງເຕືອນ.",
-  "medicinePausedSnackbar": "ການກິນຢາຖືກຢຸດຊົ່ວຄາວ",
+  "medicinePausedSnackbar": "ການກິນຢາຖືກຢຸດໄວ້ຊົ່ວຄາວ",
   "medicationHistoryDeletedSnackbar": "ບັນທຶກການກິນຢາຖືກຍົກເລີກແລ້ວ",
   "undo": "ກັບຄືນ",
   "medicationHistoryReverted": "ຍົກເລີກບັນທຶກການກິນຢາ",

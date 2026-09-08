@@ -173,7 +173,7 @@
   "currentlyInPremiumTrial": "Тренутно сте у премијум пробном периоду",
   "medicationPause": "Омогући лек",
   "medicationPauseDescription": "Када се искључи, лек ће бити изузет са екрана за лекове и из обавештења.",
-  "medicinePausedSnackbar": "Узимање лека је привремено обустављено",
+  "medicinePausedSnackbar": "Узимање лека је привремено паузирано",
   "medicationHistoryDeletedSnackbar": "Запис о узимању лека је отказан",
   "undo": "Опозови",
   "medicationHistoryReverted": "Otkazivanje zapisa o uzimanju leka",
