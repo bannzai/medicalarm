@@ -129,7 +129,7 @@
   "premiumPricePerMonth": "({price}/ngenyanga)",
   "premiumCancelDescription": "・Ngemva kokuthenga, ungakhansela ukuvuselelwa okuzenzakalelayo kuzilungiselelo ze-akhawunti zohlelo lokusebenza lwe-{storeName}. (Ukuvuselelwa okuzenzakalelayo akunakukhanselwa ngaphakathi kohlelo lokusebenza.)",
   "purchaseErrorRestoreFailed": "Ulwazi lokuthenga kwangaphambilini alutholakalanga. Hlola i-akhawunti yakho bese uzama futhi",
-  "purchaseErrorUserNotFound": "Umsebenzisi akakwazi ukusithola. Sicela uqale kabusha uhlelo lokusebenza bese uzama futhi. Imininingwane: {message}",
+  "purchaseErrorUserNotFound": "Umsebenzisi akakwazanga ukuqinisekiswa. Qalisa kabusha uhlelo lokusebenza bese uzama futhi. Imininingwane: {message}",
   "purchaseErrorActivationPending": "Ukusebenza kokukhokhela akukapheli. Sicela uqinisekise kamuva.",
   "purchaseErrorTimeout": "kwesikhathi sekuphumula kulindelekile. Sicela uqinisekise indawo yokuxhumana ngaphambi kokuzama futhi. Uma kungaxazululwa, sicela uthumele okuthunyelwe kusetshenziswa Izilungiselelo > Ukuxhumana. Imininingwane: {message}",
   "purchaseErrorNetworkError": "Kukhona iphutha lokuxhumana. Sicela uqinisekise ukuthi imvelo yokuxhumana iyavuma bese uzama futhi. Uma lokhu kungaxazululeki, sicela uthintane nathi ngalesi sixhumanisi: Izilungiselelo > Ukuxhumana. Imininingwane: {message}",

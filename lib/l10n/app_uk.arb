@@ -129,7 +129,7 @@
   "premiumPricePerMonth": "({price}/місяць)",
   "premiumCancelDescription": "・Після покупки автоматичне поновлення можна скасувати в налаштуваннях облікового запису програми {storeName}. (Скасувати автоматичне поновлення в самій програмі неможливо.)",
   "purchaseErrorRestoreFailed": "Інформацію про попередню покупку не знайдено. Перевірте обліковий запис і спробуйте ще раз",
-  "purchaseErrorUserNotFound": "The user could not be found. Please restart the app and try again. Details: {message}",
+  "purchaseErrorUserNotFound": "Не вдалося підтвердити користувача. Перезапустіть застосунок і спробуйте ще раз. Докладніше: {message}",
   "purchaseErrorActivationPending": "The activation of the payment has not been completed. Please check again after some time.",
   "purchaseErrorTimeout": "The operation timed out. Please check your communication environment and try again. If the issue persists, please contact us via Settings > inquiries. Details: {message}",
   "purchaseErrorNetworkError": "There is a communication error. Please check your network environment and try again. If the issue persists, please contact us via Settings > Inquiry. Details: {message}",

@@ -129,7 +129,7 @@
   "premiumPricePerMonth": "({price}/mjesečno)",
   "premiumCancelDescription": "・Nakon kupnje automatsko obnavljanje možete otkazati u postavkama računa aplikacije {storeName}. (Automatsko obnavljanje nije moguće otkazati iz same aplikacije.)",
   "purchaseErrorRestoreFailed": "Podaci o prethodnoj kupnji nisu pronađeni. Provjerite svoj račun i pokušajte ponovno",
-  "purchaseErrorUserNotFound": "Korisnika nije moguće pronaći. Ponovno pokrenite aplikaciju i pokušajte ponovo. Detalji: {message}",
+  "purchaseErrorUserNotFound": "Korisnika nije moguće potvrditi. Ponovno pokrenite aplikaciju i pokušajte ponovno. Pojedinosti: {message}",
   "purchaseErrorActivationPending": "Aktivacija pretplate nije dovršena. Provjerite ponovno nakon nekog vremena.",
   "purchaseErrorTimeout": "Vrijeme čekanja je isteklo. Provjerite svoju komunikacijsku okolinu i pokušajte ponovo. Ako problem nije riješen, kontaktirajte nas putem Postavke > Upit. Detalji: {message}",
   "purchaseErrorNetworkError": "Došlo je do pogreške u komunikaciji. Provjerite svoje mrežno okruženje i pokušajte ponovo. Ako se problem ne riješi, kontaktirajte nas putem Postavke > Upit. Detalji: {message}",

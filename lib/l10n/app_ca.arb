@@ -129,7 +129,7 @@
   "premiumPricePerMonth": "({price}/mes)",
   "premiumCancelDescription": "・Després de la compra, pots cancel·lar la renovació automàtica a la configuració del compte de l’app {storeName}. (No es pot cancel·lar la renovació automàtica des de l’app.)",
   "purchaseErrorRestoreFailed": "No s'ha trobat la informació de la compra anterior. Comprova el compte i torna-ho a provar",
-  "purchaseErrorUserNotFound": "L'usuari no ha pogut ser trobat. Si us plau, torneu a intentar-ho reiniciant l'aplicació. Detalls: {message}",
+  "purchaseErrorUserNotFound": "No s'ha pogut verificar l'usuari. Reinicieu l'aplicació i torneu-ho a provar. Detalls: {message}",
   "purchaseErrorActivationPending": "La teva activació de pagament no s'ha completat. Torna-ho a comprovar d'aquí a una estona.",
   "purchaseErrorTimeout": "El temps d'espera ha caducat. Si us plau, comproveu la vostra connexió i torneu a probar-ho. Si no es resol, poseu-vos en contacte amb nosaltres a Configuració > Consultes. Detalls: {message}",
   "purchaseErrorNetworkError": "Hi ha un error de connexió. Si us plau, comproveu el vostre entorn de connexió i torneu a provar-ho. Si el problema persisteix, poseu-vos en contacte amb nosaltres a Configuració > Consultes. Detall: {message}",

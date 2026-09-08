@@ -129,7 +129,7 @@
   "premiumPricePerMonth": "({price}/bulan)",
   "premiumCancelDescription": "・Selepas pembelian, anda boleh membatalkan pembaharuan automatik dalam tetapan akaun aplikasi {storeName}. (Pembaharuan automatik tidak boleh dibatalkan dari dalam aplikasi.)",
   "purchaseErrorRestoreFailed": "Maklumat pembelian terdahulu tidak ditemui. Semak akaun anda dan cuba lagi",
-  "purchaseErrorUserNotFound": "Pengguna tidak dapat disahkan. Sila mulakan semula aplikasi dan cuba lagi. Maklumat lanjut: {message}",
+  "purchaseErrorUserNotFound": "Pengguna tidak dapat disahkan. Mulakan semula aplikasi dan cuba lagi. Butiran: {message}",
   "purchaseErrorActivationPending": "Pengesahan pembayaran belum selesai. Sila semak semula selepas beberapa waktu.",
   "purchaseErrorTimeout": "Permintaan anda telah tamat waktu. Sila semak persekitaran komunikasi anda dan cuba lagi. Jika masalah ini tidak diselesaikan, sila hubungi kami melalui Tetapan > Pertanyaan. Butiran: {message}",
   "purchaseErrorNetworkError": "Koneksi terputus. Sila semak persekitaran sambungan anda dan cuba lagi. Jika masalah berterusan, sila hubungi kami melalui Tetapan > Pertanyaan. Butiran: {message}",

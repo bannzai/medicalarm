@@ -129,7 +129,7 @@
   "premiumPricePerMonth": "({price}/bulan)",
   "premiumCancelDescription": "・Setelah membeli, Anda dapat membatalkan perpanjangan otomatis di pengaturan akun aplikasi {storeName}. (Perpanjangan otomatis tidak dapat dibatalkan dari dalam aplikasi.)",
   "purchaseErrorRestoreFailed": "Informasi pembelian sebelumnya tidak ditemukan. Periksa akun Anda dan coba lagi",
-  "purchaseErrorUserNotFound": "Pengguna tidak dapat ditemukan. Silakan restart aplikasi dan coba lagi. Rincian: {message}",
+  "purchaseErrorUserNotFound": "Pengguna tidak dapat diverifikasi. Mulai ulang aplikasi, lalu coba lagi. Detail: {message}",
   "purchaseErrorActivationPending": "Aktivasi pembayaran belum selesai. Silakan coba lagi setelah beberapa saat.",
   "purchaseErrorTimeout": "Waktu habis. Silakan periksa kondisi jaringan Anda dan coba lagi. Jika masalah belum teratasi, silakan kontak melalui Pengaturan > Pertanyaan. Rincian: {message}",
   "purchaseErrorNetworkError": " Ini adalah pesan kesalahan yang muncul ketika terjadi masalah jaringan. Silakan periksa lingkungan jaringan Anda dan coba lagi. Jika masalah tidak teratasi, silakan hubungi melalui Pengaturan > Kontak. Rincian: {message}",

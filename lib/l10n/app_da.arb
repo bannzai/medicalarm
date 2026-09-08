@@ -129,7 +129,7 @@
   "premiumPricePerMonth": "({price}/måned)",
   "premiumCancelDescription": "・Efter købet kan du annullere automatisk fornyelse i kontoindstillingerne i appen {storeName}. (Automatisk fornyelse kan ikke annulleres i selve appen.)",
   "purchaseErrorRestoreFailed": "Oplysninger om tidligere køb blev ikke fundet. Kontrollér din konto, og prøv igen",
-  "purchaseErrorUserNotFound": "Brugeren kunne ikke findes. Genstart appen og prøv igen. Detaljer: {message}",
+  "purchaseErrorUserNotFound": "Brugeren kunne ikke bekræftes. Genstart appen, og prøv igen. Detaljer: {message}",
   "purchaseErrorActivationPending": "Aktivering af betaling er ikke fuldført. Tjek venligst senere.",
   "purchaseErrorTimeout": "Der timeout er opstået. Kontroller venligst din kommunikationsforhold og prøv igen. Hvis problemet fortsætter, kontakt venligst os via Indstillinger > Forespørgsel. Detaljer: {message}",
   "purchaseErrorNetworkError": "Der kommunikation er ikke tilfredsstillende. Kontroller venligst dit netværksmiljø og prøv igen. Hvis problemet ikke løses, bedes du kontakte os via Indstillinger > Kontakt. Detaljer: {message}",

@@ -129,7 +129,7 @@
   "premiumPricePerMonth": "({price}/kuu)",
   "premiumCancelDescription": "・Pärast ostu saate automaatse uuendamise tühistada rakenduse {storeName} konto seadetes. (Automaatset uuendamist ei saa rakenduses endas tühistada.)",
   "purchaseErrorRestoreFailed": "Eelmise ostu teavet ei leitud. Kontrolli oma kontot ja proovi uuesti",
-  "purchaseErrorUserNotFound": "Kasutajat ei leitud. Palun käivitage rakendus uuesti ja proovige uuesti. Üksikasjad: {message}",
+  "purchaseErrorUserNotFound": "Kasutaja kinnitamine ebaõnnestus. Taaskäivitage rakendus ja proovige uuesti. Üksikasjad: {message}",
   "purchaseErrorActivationPending": "Teie tellimine ei ole veel aktiveeritud. Palun oodake natuke aega ja kontrollige uuesti.",
   "purchaseErrorTimeout": "Aeg on aegumise lõppenud. Palun kontrollige oma ühenduse tingimusi ja proovige uuesti. Kui probleem püsib, võtke ühendust seadete > Klienditeenindus kaudu. Üksikasjad: {message}",
   "purchaseErrorNetworkError": "Ühenduse viga. Kontrollige oma ühenduse tingimusi ja proovige uuesti. Kui probleem ei lahene, võtke ühendust seades > Küsimus. Üksikasjad: {message}",

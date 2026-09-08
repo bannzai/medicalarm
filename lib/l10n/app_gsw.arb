@@ -129,7 +129,7 @@
   "premiumPricePerMonth": "({price}/Monet)",
   "premiumCancelDescription": "・Nach em Chauf chönned Sie d automatische Verlängerig i de Konto-Einstellige vo de {storeName}-App kündige. (D automatische Verlängerig cha nöd direkt i de App kündigt werde.)",
   "purchaseErrorRestoreFailed": "D Informatione vom vorherige Chauf isch nöd gfunde worde. Überprüef dis Konto und versuechs nomol",
-  "purchaseErrorUserNotFound": "Dä Benutzer konnt nüt bestätige. Bitte d'App neustarte un es nomol probiere. Detail: {message}",
+  "purchaseErrorUserNotFound": "D Benutzer het nöd chönne verifiziert werde. Starte d App neu und probier’s nomol. Details: {message}",
   "purchaseErrorActivationPending": "D'Verifizéierung vum Recurren ass nach net ofgeschloss. Wärt w.e.g. e bëssi Zäit waarden an duerno nach eng Kéier kontrolléieren.",
   "purchaseErrorTimeout": "Es isch e Timeout passiert. Bitte überprüfe d'Kommunikationsumgebig und versuch es no einisch. Wenns nicht löst, kontaktiere uns über Einstellungen > Anfrage. Weitere Details: {message}",
   "purchaseErrorNetworkError": "I bi der Netzwerkproblem. Bitte prufen Sie Ihre Netzwerkbedingungen und versuchen Sie es erneut. Falls das Problem nicht behoben wird, kontaktieren Sie uns bitte unter Einstellungen > Anfrage. Details: {message}",

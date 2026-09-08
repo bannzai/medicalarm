@@ -129,7 +129,7 @@
   "premiumPricePerMonth": "({price}/လ)",
   "premiumCancelDescription": "・ဝယ်ယူပြီးနောက် အလိုအလျောက်သက်တမ်းတိုးခြင်းကို {storeName} အက်ပ်၏ အကောင့်ဆက်တင်များမှ ပယ်ဖျက်နိုင်ပါသည်။ (အက်ပ်အတွင်းမှ အလိုအလျောက်သက်တမ်းတိုးခြင်းကို ပယ်ဖျက်၍မရပါ။)",
   "purchaseErrorRestoreFailed": "ယခင်ဝယ်ယူမှုအချက်အလက်ကို ရှာမတွေ့ပါ။ သင့်အကောင့်ကို စစ်ဆေးပြီး ထပ်မံကြိုးစားပါ",
-  "purchaseErrorUserNotFound": "Pengguna tidak dapat disahkan. Sila mulakan semula aplikasi dan cuba lagi. Butiran: {message}",
+  "purchaseErrorUserNotFound": "အသုံးပြုသူကို အတည်ပြု၍မရပါ။ အက်ပ်ကို ပြန်လည်စတင်ပြီး ထပ်မံကြိုးစားပါ။ အသေးစိတ်: {message}",
   "purchaseErrorActivationPending": "Pengaktifan caj tidak selesai. Sila semak semula selepas beberapa ketika.",
   "purchaseErrorTimeout": "Waktu tamat. Sila semak keadaan sambungan anda dan cuba sekali lagi. Jika masalah berterusan, sila hubungi kami melalui Tetapan > Pertanyaan. Butiran: {message}",
   "purchaseErrorNetworkError": "Terdapat ralat sambungan. Sila semak keadaan rangkaian anda dan cuba lagi. Jika masalah tidak diselesaikan, sila hubungi kami melalui Tetapan > Pertanyaan. Butiran: {message}",

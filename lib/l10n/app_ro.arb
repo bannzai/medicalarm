@@ -129,7 +129,7 @@
   "premiumPricePerMonth": "({price}/lună)",
   "premiumCancelDescription": "・După achiziție, puteți anula reînnoirea automată din setările contului aplicației {storeName}. (Reînnoirea automată nu poate fi anulată din aplicație.)",
   "purchaseErrorRestoreFailed": "Informațiile despre achiziția anterioară nu au fost găsite. Verificați contul și încercați din nou",
-  "purchaseErrorUserNotFound": "Utilizatorul nu a fost găsit. Vă rugăm să reporniți aplicația și să încercați din nou. Detalii: {message}",
+  "purchaseErrorUserNotFound": "Utilizatorul nu a putut fi verificat. Reporniți aplicația și încercați din nou. Detalii: {message}",
   "purchaseErrorActivationPending": "Activarea plății nu a fost finalizată. Vă rugăm să așteptați puțin timp și să verificați din nou.",
   "purchaseErrorTimeout": "A expirat timpul de așteptare. Vă rugăm să verificați condițiile de conectare și să încercați din nou. Dacă problema persistă, contactați-ne prin Settings > Inquiry. Detalii: {message}",
   "purchaseErrorNetworkError": "Există o problemă de conectivitate. Vă rugăm să verificați condițiile de rețea și să încercați din nou. Dacă problema persistă, contactați-ne accesând Setări > Întrebări. Detalii: {message}",

@@ -129,7 +129,7 @@
   "premiumPricePerMonth": "({price}/ወር)",
   "premiumCancelDescription": "・ከገዙ በኋላ ራስ-ሰር እድሳትን በ{storeName} መተግበሪያ የመለያ ቅንብሮች ውስጥ መሰረዝ ይችላሉ። (ራስ-ሰር እድሳትን ከመተግበሪያው ውስጥ መሰረዝ አይቻልም።)",
   "purchaseErrorRestoreFailed": "የቀድሞ የግዢ መረጃ አልተገኘም። መለያዎን ያረጋግጡና እንደገና ይሞክሩ",
-  "purchaseErrorUserNotFound": "እቅፍ ይላል የተጠቃሚው ይፈግር አይቻልም። እባኮትን ፕሮግራም ይቀይሩና ይሞክሩት አንደኡ። ዝርዝር: {message}",
+  "purchaseErrorUserNotFound": "ተጠቃሚው ሊረጋገጥ አልቻለም። እባክዎ መተግበሪያውን ዳግም ያስጀምሩና እንደገና ይሞክሩ። ዝርዝር፦ {message}",
   "purchaseErrorActivationPending": "ንብረት ማስተካከያ አልተጠቃለም። ጥቂት ጊዜ በኋላ ይመለከቱ እባኮት።",
   "purchaseErrorTimeout": "መውደቅ ሆኖ እንዲሁ ይደግፍ። የኮምፒዩተር አንድ እድል፣ እባክህ አንድ ምንጭ ይመለከቱ እና ይደጋግስ ይዞሉ። ከዚያ በሁለተኛ ይሞክሩ እባክህ። የተገኘውን ደግሞ ያስቀድሞ የአዘና ደረሰኝ በማድረግ እንዲሁም እባክህ ዝርዝሩን ይመልከቱ። ዝርዝር: {message}",
   "purchaseErrorNetworkError": "የመረጃ መስመር ችግር አለ። እባኮትን የመረጃ ሁኔታዎን ያረጋግጡ እና እንደገና ይሞክሩ። አልተፈታም ከሆነ በቅንብር > ጥያቄ ይገኙ። ዝርዝር: {message}",

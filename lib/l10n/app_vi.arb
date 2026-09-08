@@ -129,7 +129,7 @@
   "premiumPricePerMonth": "({price}/tháng)",
   "premiumCancelDescription": "・Sau khi mua, bạn có thể hủy gia hạn tự động trong phần cài đặt tài khoản của ứng dụng {storeName}. (Không thể hủy gia hạn tự động từ trong ứng dụng.)",
   "purchaseErrorRestoreFailed": "Không tìm thấy thông tin mua hàng trước đó. Hãy kiểm tra tài khoản và thử lại",
-  "purchaseErrorUserNotFound": "Người dùng không thể được xác nhận. Vui lòng khởi động lại ứng dụng và thử lại. Chi tiết: {message}",
+  "purchaseErrorUserNotFound": "Không thể xác minh người dùng. Hãy khởi động lại ứng dụng rồi thử lại. Chi tiết: {message}",
   "purchaseErrorActivationPending": "Đã chưa hoàn tất việc kích hoạt thanh toán. Vui lòng kiểm tra lại sau một thời gian.",
   "purchaseErrorTimeout": "Yêu cầu đã hết thời gian chờ. Vui lòng kiểm tra lại môi trường kết nối và thử lại. Nếu vấn đề không được giải quyết, vui lòng liên hệ thông qua Cài đặt > Liên hệ. Chi tiết: {message}",
   "purchaseErrorNetworkError": "Có lỗi kết nối. Vui lòng kiểm tra môi trường kết nối và thử lại. Nếu vấn đề không được giải quyết, hãy liên hệ với chúng tôi qua Cài đặt > Liên hệ. Chi tiết: {message}.",

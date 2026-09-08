@@ -129,7 +129,7 @@
   "premiumPricePerMonth": "({price}/maand)",
   "premiumCancelDescription": "・Ná aankoop kan jy outomatiese hernuwing in die rekeninginstellings van die {storeName}-app kanselleer. (Outomatiese hernuwing kan nie vanuit die app gekanselleer word nie.)",
   "purchaseErrorRestoreFailed": "Vorige aankoopinligting is nie gevind nie. Gaan jou rekening na en probeer weer",
-  "purchaseErrorUserNotFound": "Die gebruiker kon nie gevind word nie. Herlaai die aansoek en probeer weer. Besonderhede: {message}",
+  "purchaseErrorUserNotFound": "Die gebruiker kon nie geverifieer word nie. Herbegin die app en probeer weer. Besonderhede: {message}",
   "purchaseErrorActivationPending": "Die aktivering van die betaling is nie voltooi nie. Gaan asseblief weer oor 'n rukkie na.",
   "purchaseErrorTimeout": "Die tyd het verval. Kontroleer asseblief jou kommunikasie-omgewing en probeer weer. As dit nie opgelos word nie, neem kontak op via Instellings > Kontak. Besonderhede: {message}",
   "purchaseErrorNetworkError": "Daar is 'n kommunikasiefout. Controleer asseblief u kommunikasie-omstandighede en probeer weer. As dit nie oplos nie, kontak ons asseblief via Instellings > Kontak. Besonderhede: {message}",
