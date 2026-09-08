@@ -109,7 +109,7 @@
   "chestTightness": "Tensió mamària",
   "insomnia": "Insomni",
   "monthlyPlanDiscountFormat": "{percent}% de descompte respecte al pla mensual",
-  "purchaseErrorUnknown": "S’ha produït un error desconegut. Torna-ho a provar més tard. Si el problema persisteix, contacta amb nosaltres des d’Ajustos > Contacte. Detalls: {message}",
+  "purchaseErrorUnknown": "S’ha produït un error desconegut. Torneu-ho a provar més tard. Si el problema persisteix, contacteu amb nosaltres des de Configuració > Contacta amb nosaltres. Detalls: {message}",
   "purchaseErrorStoreProblem": "S'ha produït un error a {storeName}. Torneu-ho a provar més tard.",
   "purchaseErrorInvalidPayment": "No s'ha pogut completar el pagament. Comproveu que el mètode de pagament sigui vàlid i torneu-ho a provar.",
   "purchaseErrorProductUnavailable": "El pla seleccionat no està disponible actualment per a la compra. Reinicieu l’app i torneu-ho a provar.",

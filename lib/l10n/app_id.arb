@@ -109,7 +109,7 @@
   "chestTightness": "Payudara terasa tegang",
   "insomnia": "Insomnia",
   "monthlyPlanDiscountFormat": "Hemat {percent}% dibandingkan paket bulanan",
-  "purchaseErrorUnknown": "Terjadi kesalahan yang tidak diketahui. Silakan coba lagi nanti. Jika masalah berlanjut, hubungi kami melalui Pengaturan > Hubungi Kami. Detail: {message}",
+  "purchaseErrorUnknown": "Terjadi kesalahan yang tidak diketahui. Silakan coba lagi nanti. Jika masalah berlanjut, hubungi kami melalui Pengaturan > Hubungi kami. Detail: {message}",
   "purchaseErrorStoreProblem": "Terjadi kesalahan pada {storeName}. Silakan coba lagi nanti.",
   "purchaseErrorInvalidPayment": "Pembayaran gagal. Periksa apakah metode pembayaran Anda valid, lalu coba lagi.",
   "purchaseErrorProductUnavailable": "Paket yang dipilih saat ini tidak tersedia untuk dibeli. Silakan mulai ulang aplikasi dan coba lagi.",

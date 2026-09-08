@@ -109,7 +109,7 @@
   "chestTightness": "Brustspanna",
   "insomnia": "Schlaflosigkeit",
   "monthlyPlanDiscountFormat": "{percent}% Rabatt gegenüber em Monatsabo",
-  "purchaseErrorUnknown": "E unbekannte Fähler isch uftrete. Bitte probiere es spöter nomol. Wenn s Problem wiiterbestoht, kontaktiere üs über Iistellige > Kontakt. Details: {message}",
+  "purchaseErrorUnknown": "En unbekannte Fähler isch uftrete. Bitte probiered Sie es später nomal. Wenn s Problem witerbesteit, kontaktiered Sie eus über Istellige > Kontakt. Details: {message}",
   "purchaseErrorStoreProblem": "Bi {storeName} isch e Fähler uftrete. Bitte probier’s spöter nomal.",
   "purchaseErrorInvalidPayment": "Zahlig isch fehlgschlage. Bitte prüefed Sie, ob Ihri Zahligsmethode gültig isch, und versueched Sie es nomal.",
   "purchaseErrorProductUnavailable": "De usgwählti Plan isch im Momänt nöd erhältlich. Bitte starte d’App neu und probier’s nomal.",

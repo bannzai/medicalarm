@@ -109,7 +109,7 @@
   "chestTightness": "Gespannen borsten",
   "insomnia": "Slapeloosheid",
   "monthlyPlanDiscountFormat": "{percent}% korting ten opzichte van het maandabonnement",
-  "purchaseErrorUnknown": "Er is een onbekende fout opgetreden. Probeer het later opnieuw. Als het probleem aanhoudt, neem dan contact met ons op via Instellingen > Contact. Details: {message}",
+  "purchaseErrorUnknown": "Er is een onbekende fout opgetreden. Probeer het later opnieuw. Neem contact met ons op via Instellingen > Neem contact met ons op als het probleem aanhoudt. Details: {message}",
   "purchaseErrorStoreProblem": "Er is een fout opgetreden bij {storeName}. Probeer het later opnieuw.",
   "purchaseErrorInvalidPayment": "De betaling is mislukt. Controleer of je betaalmethode geldig is en probeer het opnieuw.",
   "purchaseErrorProductUnavailable": "Het geselecteerde abonnement is momenteel niet beschikbaar voor aankoop. Start de app opnieuw en probeer het opnieuw.",

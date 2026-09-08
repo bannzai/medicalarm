@@ -109,7 +109,7 @@
   "chestTightness": "Payudara tegang",
   "insomnia": "Insomnia",
   "monthlyPlanDiscountFormat": "Diskaun {percent}% berbanding pelan bulanan",
-  "purchaseErrorUnknown": "Ralat yang tidak diketahui berlaku. Sila cuba lagi kemudian. Jika masalah berterusan, hubungi kami melalui Tetapan > Hubungi Kami. Butiran: {message}",
+  "purchaseErrorUnknown": "Ralat tidak diketahui berlaku. Sila cuba lagi kemudian. Jika masalah berterusan, hubungi kami melalui Tetapan > Hubungi kami. Butiran: {message}",
   "purchaseErrorStoreProblem": "Ralat berlaku pada {storeName}. Sila cuba lagi sebentar lagi.",
   "purchaseErrorInvalidPayment": "Pembayaran gagal. Sila semak sama ada kaedah pembayaran anda sah dan cuba lagi.",
   "purchaseErrorProductUnavailable": "Pelan yang dipilih kini tidak tersedia untuk dibeli. Sila mulakan semula apl dan cuba lagi.",

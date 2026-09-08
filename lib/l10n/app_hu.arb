@@ -109,7 +109,7 @@
   "chestTightness": "Mellfeszülés",
   "insomnia": "Álmatlanság",
   "monthlyPlanDiscountFormat": "{percent}% kedvezmény a havi csomaghoz képest",
-  "purchaseErrorUnknown": "Ismeretlen hiba történt. Próbálja újra később. Ha a probléma továbbra is fennáll, lépjen velünk kapcsolatba a Beállítások > Kapcsolatfelvétel menüpontban. Részletek: {message}",
+  "purchaseErrorUnknown": "Ismeretlen hiba történt. Próbálja meg később újra. Ha a probléma továbbra is fennáll, lépjen kapcsolatba velünk a Beállítások > Kapcsolat menüponton keresztül. Részletek: {message}",
   "purchaseErrorStoreProblem": "Hiba történt a(z) {storeName} szolgáltatásban. Kérjük, próbálja újra később.",
   "purchaseErrorInvalidPayment": "A fizetés sikertelen. Ellenőrizze, hogy érvényes-e a fizetési módja, majd próbálja újra.",
   "purchaseErrorProductUnavailable": "A kiválasztott csomag jelenleg nem vásárolható meg. Indítsa újra az alkalmazást, majd próbálja újra.",

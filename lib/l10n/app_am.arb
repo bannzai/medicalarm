@@ -109,7 +109,7 @@
   "chestTightness": "የጡት መጨናነቅ",
   "insomnia": "እንቅልፍ ማጣት",
   "monthlyPlanDiscountFormat": "{percent}% ከወርሃዊ ያነሰ",
-  "purchaseErrorUnknown": "ያልታወቀ ስህተት ተከስቷል። እባክዎ ቆይተው እንደገና ይሞክሩ። ችግሩ ካልተፈታ፣ በቅንብሮች > አግኙን በኩል ያነጋግሩን። ዝርዝሮች፦ {message}",
+  "purchaseErrorUnknown": "ያልታወቀ ስህተት ተከስቷል። እባክዎ ቆይተው እንደገና ይሞክሩ። ችግሩ ካልተፈታ፣ በቅንብሮች > ያግኙን በኩል ያነጋግሩን። ዝርዝሮች፦ {message}",
   "purchaseErrorStoreProblem": "በ{storeName} ላይ ስህተት ተከስቷል። እባክዎ ከጥቂት ጊዜ በኋላ ዳግም ይሞክሩ።",
   "purchaseErrorInvalidPayment": "ክፍያው አልተሳካም። እባክዎ የክፍያ ዘዴዎ ልክ መሆኑን ያረጋግጡና እንደገና ይሞክሩ።",
   "purchaseErrorProductUnavailable": "የተመረጠው ዕቅድ በአሁኑ ጊዜ ለሽያጭ አይቀርብም። እባክዎ መተግበሪያውን ዳግም ያስጀምሩና እንደገና ይሞክሩ።",

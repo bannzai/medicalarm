@@ -109,7 +109,7 @@
   "chestTightness": "Krūtų tempimas",
   "insomnia": "Nemiga",
   "monthlyPlanDiscountFormat": "{percent}% nuolaida, palyginti su mėnesiniu planu",
-  "purchaseErrorUnknown": "Įvyko nežinoma klaida. Pabandykite dar kartą vėliau. Jei problema neišsisprendžia, susisiekite su mumis: Nustatymai > Kontaktai. Išsami informacija: {message}",
+  "purchaseErrorUnknown": "Įvyko nežinoma klaida. Pabandykite dar kartą vėliau. Jei problema išlieka, susisiekite su mumis per Nustatymai > Susisiekti. Išsami informacija: {message}",
   "purchaseErrorStoreProblem": "Įvyko {storeName} klaida. Pabandykite dar kartą vėliau.",
   "purchaseErrorInvalidPayment": "Mokėjimas nepavyko. Patikrinkite, ar jūsų mokėjimo būdas galioja, ir bandykite dar kartą.",
   "purchaseErrorProductUnavailable": "Pasirinktas planas šiuo metu neparduodamas. Paleiskite programėlę iš naujo ir bandykite dar kartą.",

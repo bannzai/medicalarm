@@ -109,7 +109,7 @@
   "chestTightness": "Ukuqina kwamabele",
   "insomnia": "Ukungalali",
   "monthlyPlanDiscountFormat": "Isaphulelo esingu-{percent}% uma kuqhathaniswa nohlelo lwanyanga zonke",
-  "purchaseErrorUnknown": "Kuvele iphutha elingaziwa. Sicela uzame futhi ngokuhamba kwesikhathi. Uma inkinga ingaxazululeki, xhumana nathi kokuthi Izilungiselelo > Xhumana nathi. Imininingwane: {message}",
+  "purchaseErrorUnknown": "Kuvele iphutha elingaziwa. Sicela uphinde uzame emuva kwesikhashana. Uma inkinga iqhubeka, xhumana nathi kokuthi Izilungiselelo > Xhumana nathi. Imininingwane: {message}",
   "purchaseErrorStoreProblem": "Kube nephutha ku-{storeName}. Sicela uphinde uzame ngemva kwesikhashana.",
   "purchaseErrorInvalidPayment": "Inkokhelo yehlulekile. Sicela uhlole ukuthi indlela yakho yokukhokha isemthethweni bese uzama futhi.",
   "purchaseErrorProductUnavailable": "Uhlelo olukhethiwe okwamanje alutholakali ukuze luthengwe. Sicela uqale kabusha uhlelo lokusebenza bese uzama futhi.",

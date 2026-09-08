@@ -109,7 +109,7 @@
   "chestTightness": "Napięcie piersi",
   "insomnia": "Bezsenność",
   "monthlyPlanDiscountFormat": "{percent}% rabatu w porównaniu z planem miesięcznym",
-  "purchaseErrorUnknown": "Wystąpił nieznany błąd. Spróbuj ponownie później. Jeśli problem będzie nadal występował, skontaktuj się z nami przez Ustawienia > Kontakt. Szczegóły: {message}",
+  "purchaseErrorUnknown": "Wystąpił nieznany błąd. Spróbuj ponownie później. Jeśli problem będzie nadal występować, skontaktuj się z nami przez Ustawienia > Skontaktuj się z nami. Szczegóły: {message}",
   "purchaseErrorStoreProblem": "Wystąpił błąd w usłudze {storeName}. Spróbuj ponownie później.",
   "purchaseErrorInvalidPayment": "Płatność się nie powiodła. Sprawdź, czy Twoja metoda płatności jest prawidłowa, i spróbuj ponownie.",
   "purchaseErrorProductUnavailable": "Wybrany plan nie jest obecnie dostępny w sprzedaży. Uruchom ponownie aplikację i spróbuj jeszcze raz.",

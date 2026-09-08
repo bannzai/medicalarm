@@ -109,7 +109,7 @@
   "chestTightness": "乳房胀痛",
   "insomnia": "失眠",
   "monthlyPlanDiscountFormat": "相比月度方案优惠{percent}%",
-  "purchaseErrorUnknown": "发生未知错误。请稍后重试。如果问题仍未解决，请通过设置 > 联系我们与我们联系。详细信息：{message}",
+  "purchaseErrorUnknown": "发生未知错误。请稍后重试。如果问题仍未解决，请通过“设置”>“联系我们”与我们联系。详细信息：{message}",
   "purchaseErrorStoreProblem": "{storeName}发生错误。请稍后重试。",
   "purchaseErrorInvalidPayment": "付款失败。请确认您的付款方式有效后重试。",
   "purchaseErrorProductUnavailable": "所选方案目前暂不提供购买。请重启应用后再试。",

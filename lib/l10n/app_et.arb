@@ -109,7 +109,7 @@
   "chestTightness": "Rindade pinge",
   "insomnia": "Unetus",
   "monthlyPlanDiscountFormat": "{percent}% soodsam kui kuupakett",
-  "purchaseErrorUnknown": "Tekkis tundmatu viga. Proovige mõne aja pärast uuesti. Kui probleem ei lahene, võtke meiega ühendust menüüs Seaded > Kontakt. Üksikasjad: {message}",
+  "purchaseErrorUnknown": "Tundmatu tõrge. Proovige mõne aja pärast uuesti. Kui probleem püsib, võtke meiega ühendust menüüs Seaded > Võta meiega ühendust. Üksikasjad: {message}",
   "purchaseErrorStoreProblem": "{storeName} kasutamisel tekkis viga. Proovige mõne aja pärast uuesti.",
   "purchaseErrorInvalidPayment": "Makse ebaõnnestus. Kontrollige, kas teie makseviis on kehtiv, ja proovige uuesti.",
   "purchaseErrorProductUnavailable": "Valitud pakett ei ole praegu müügil. Taaskäivitage rakendus ja proovige uuesti.",

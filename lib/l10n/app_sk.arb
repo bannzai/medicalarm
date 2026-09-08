@@ -109,7 +109,7 @@
   "chestTightness": "Napätie v prsníkoch",
   "insomnia": "Nespavosť",
   "monthlyPlanDiscountFormat": "Zľava {percent}% oproti mesačnému plánu",
-  "purchaseErrorUnknown": "Vyskytla sa neznáma chyba. Skúste to znova neskôr. Ak problém pretrváva, kontaktujte nás cez Nastavenia > Kontakt. Podrobnosti: {message}",
+  "purchaseErrorUnknown": "Vyskytla sa neznáma chyba. Skúste to znova neskôr. Ak problém pretrváva, kontaktujte nás cez Nastavenia > Kontaktujte nás. Podrobnosti: {message}",
   "purchaseErrorStoreProblem": "V službe {storeName} sa vyskytla chyba. Skúste to znova neskôr.",
   "purchaseErrorInvalidPayment": "Platba sa nepodarila. Skontrolujte, či je váš spôsob platby platný, a skúste to znova.",
   "purchaseErrorProductUnavailable": "Vybraný plán momentálne nie je v predaji. Reštartujte aplikáciu a skúste to znova.",

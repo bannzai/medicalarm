@@ -109,7 +109,7 @@
   "chestTightness": "Spennuþrýstingur í brjóstum",
   "insomnia": "Svefnleysi",
   "monthlyPlanDiscountFormat": "{percent}% afsláttur miðað við mánaðaráskrift",
-  "purchaseErrorUnknown": "Óþekkt villa kom upp. Prófaðu aftur síðar. Ef vandamálið leysist ekki skaltu hafa samband við okkur í Stillingar > Hafðu samband. Upplýsingar: {message}",
+  "purchaseErrorUnknown": "Óþekkt villa kom upp. Reyndu aftur síðar. Ef vandamálið heldur áfram skaltu hafa samband við okkur í Stillingar > Hafðu samband. Upplýsingar: {message}",
   "purchaseErrorStoreProblem": "Villa kom upp í {storeName}. Vinsamlegast reyndu aftur síðar.",
   "purchaseErrorInvalidPayment": "Greiðslan tókst ekki. Athugaðu hvort greiðslumátinn þinn sé gildur og reyndu aftur.",
   "purchaseErrorProductUnavailable": "Valda áskriftarleiðin er ekki í boði eins og er. Endurræstu appið og reyndu aftur.",

@@ -109,7 +109,7 @@
   "chestTightness": "Rintojen pingotus",
   "insomnia": "Unettomuus",
   "monthlyPlanDiscountFormat": "{percent}% alennus kuukausitilaukseen verrattuna",
-  "purchaseErrorUnknown": "Tapahtui tuntematon virhe. Yritä myöhemmin uudelleen. Jos ongelma jatkuu, ota meihin yhteyttä kohdasta Asetukset > Ota yhteyttä. Tiedot: {message}",
+  "purchaseErrorUnknown": "Tapahtui tuntematon virhe. Yritä myöhemmin uudelleen. Jos ongelma jatkuu, ota meihin yhteyttä kohdassa Asetukset > Ota yhteyttä. Tiedot: {message}",
   "purchaseErrorStoreProblem": "{storeName}-palvelussa tapahtui virhe. Yritä myöhemmin uudelleen.",
   "purchaseErrorInvalidPayment": "Maksu epäonnistui. Tarkista, että maksutapasi on voimassa, ja yritä uudelleen.",
   "purchaseErrorProductUnavailable": "Valittu tilaus ei ole tällä hetkellä ostettavissa. Käynnistä sovellus uudelleen ja yritä uudelleen.",

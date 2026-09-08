@@ -109,7 +109,7 @@
   "chestTightness": "Göğüslerde gerginlik",
   "insomnia": "Uykusuzluk",
   "monthlyPlanDiscountFormat": "Aylık plana göre %{percent} indirim",
-  "purchaseErrorUnknown": "Bilinmeyen bir hata oluştu. Lütfen daha sonra tekrar deneyin. Sorun çözülmezse Ayarlar > İletişim üzerinden bizimle iletişime geçin. Ayrıntılar: {message}",
+  "purchaseErrorUnknown": "Bilinmeyen bir hata oluştu. Lütfen bir süre sonra tekrar deneyin. Sorun devam ederse Ayarlar > Bize ulaşın üzerinden bizimle iletişime geçin. Ayrıntılar: {message}",
   "purchaseErrorStoreProblem": "{storeName} ile ilgili bir hata oluştu. Lütfen bir süre sonra tekrar deneyin.",
   "purchaseErrorInvalidPayment": "Ödeme başarısız oldu. Ödeme yönteminizin geçerli olduğunu kontrol edip tekrar deneyin.",
   "purchaseErrorProductUnavailable": "Seçilen plan şu anda satışta değil. Lütfen uygulamayı yeniden başlatıp tekrar deneyin.",

@@ -109,7 +109,7 @@
   "chestTightness": "Tensione mammaria",
   "insomnia": "Insonnia",
   "monthlyPlanDiscountFormat": "{percent}% di sconto rispetto al piano mensile",
-  "purchaseErrorUnknown": "Si è verificato un errore sconosciuto. Riprova più tardi. Se il problema persiste, contattaci da Impostazioni > Contatti. Dettagli: {message}",
+  "purchaseErrorUnknown": "Si è verificato un errore sconosciuto. Riprova più tardi. Se il problema persiste, contattaci tramite Impostazioni > Contattaci. Dettagli: {message}",
   "purchaseErrorStoreProblem": "Si è verificato un errore con {storeName}. Riprova più tardi.",
   "purchaseErrorInvalidPayment": "Il pagamento non è riuscito. Verifica che il metodo di pagamento sia valido e riprova.",
   "purchaseErrorProductUnavailable": "Il piano selezionato non è attualmente disponibile per l’acquisto. Riavvia l’app e riprova.",
