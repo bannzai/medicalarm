@@ -64,7 +64,7 @@
   "medicationScheduleLimit": "Maaari kang magrehistro ng hanggang {count} iskedyul ng pag-inom ng gamot.",
   "increaseMedicationScheduleLimit": "Itaas ang limit sa {count} gamit ang Premium plan",
   "addMedicationSchedule": "Magdagdag ng iskedyul ng pag-inom ng gamot",
-  "medicationScheduleNotificationSetting": "Mga setting ng notification ng iskedyul ng pag-inom ng gamot",
+  "medicationScheduleNotificationSetting": "Mga setting ng notification sa iskedyul ng pag-inom ng gamot",
   "notificationSetting": "Mga setting ng notification",
   "enableFollowupNotification": "Paganahin ang mga follow-up na notification",
   "followupNotificationDescription": "Kung hindi mo itatala ang pag-inom ng gamot sa loob ng 30 minuto mula sa unang notification, magpapadala ng follow-up notification.",

@@ -64,7 +64,7 @@
   "medicationScheduleLimit": "最多可以登记 {count} 个服药计划。",
   "increaseMedicationScheduleLimit": "使用 Premium 方案将上限提高至 {count}",
   "addMedicationSchedule": "添加服药计划",
-  "medicationScheduleNotificationSetting": "服药计划通知设置",
+  "medicationScheduleNotificationSetting": "用药计划通知设置",
   "notificationSetting": "通知设置",
   "enableFollowupNotification": "启用后续通知",
   "followupNotificationDescription": "如果您在首次通知后的30分钟内未记录服药，将发送后续通知。",

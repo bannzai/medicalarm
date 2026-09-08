@@ -64,7 +64,7 @@
   "medicationScheduleLimit": "Jy kan tot {count} medikasieskedules registreer.",
   "increaseMedicationScheduleLimit": "Verhoog die limiet na {count} met die Premium-plan",
   "addMedicationSchedule": "Voeg medikasieskedule by",
-  "medicationScheduleNotificationSetting": "Kennisgewingsinstellings vir medikasieskedule",
+  "medicationScheduleNotificationSetting": "Instellings vir medikasieskedulekennisgewings",
   "notificationSetting": "Kennisgewinginstellings",
   "enableFollowupNotification": "Aktiveer opvolgkennisgewings",
   "followupNotificationDescription": "As jy nie binne 30 minute ná die eerste kennisgewing jou medikasie aanteken nie, word ’n opvolgkennisgewing gestuur.",

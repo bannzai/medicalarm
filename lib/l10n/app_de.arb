@@ -64,7 +64,7 @@
   "medicationScheduleLimit": "Sie können bis zu {count} Einnahmepläne registrieren.",
   "increaseMedicationScheduleLimit": "Limit mit dem Premium-Abo auf {count} erhöhen",
   "addMedicationSchedule": "Medikamentenplan hinzufügen",
-  "medicationScheduleNotificationSetting": "Benachrichtigungseinstellungen für den Medikamentenplan",
+  "medicationScheduleNotificationSetting": "Einstellungen für Benachrichtigungen zum Einnahmeplan",
   "notificationSetting": "Benachrichtigungseinstellungen",
   "enableFollowupNotification": "Folgebenachrichtigungen aktivieren",
   "followupNotificationDescription": "Wenn Sie die Einnahme des Medikaments nicht innerhalb von 30 Minuten nach der ersten Benachrichtigung dokumentieren, wird eine Folgebenachrichtigung gesendet.",

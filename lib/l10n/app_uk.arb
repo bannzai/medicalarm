@@ -64,7 +64,7 @@
   "medicationScheduleLimit": "Можна зареєструвати до {count} розкладів прийому ліків.",
   "increaseMedicationScheduleLimit": "Збільште ліміт до {count} з планом Premium",
   "addMedicationSchedule": "Додати розклад прийому ліків",
-  "medicationScheduleNotificationSetting": "Налаштування сповіщень про розклад приймання ліків",
+  "medicationScheduleNotificationSetting": "Налаштування сповіщень про графік прийому ліків",
   "notificationSetting": "Налаштування сповіщень",
   "enableFollowupNotification": "Увімкнути подальші сповіщення",
   "followupNotificationDescription": "Якщо ви не зафіксуєте прийом ліків протягом 30 хвилин після першого сповіщення, буде надіслано повторне сповіщення.",

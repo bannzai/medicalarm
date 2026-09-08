@@ -64,7 +64,7 @@
   "medicationScheduleLimit": "ທ່ານສາມາດລົງທະບຽນຕາຕະລາງການກິນຢາໄດ້ສູງສຸດ {count} ລາຍການ.",
   "increaseMedicationScheduleLimit": "ເພີ່ມຂີດຈຳກັດເປັນ {count} ດ້ວຍແຜນ Premium",
   "addMedicationSchedule": "ເພີ່ມຕາຕະລາງການກິນຢາ",
-  "medicationScheduleNotificationSetting": "ການຕັ້ງຄ່າການແຈ້ງເຕືອນຕາຕະລາງການກິນຢາ",
+  "medicationScheduleNotificationSetting": "ການຕັ້ງຄ່າແຈ້ງເຕືອນຕາຕະລາງການກິນຢາ",
   "notificationSetting": "ການຕັ້ງຄ່າການແຈ້ງເຕືອນ",
   "enableFollowupNotification": "ເປີດໃຊ້ການແຈ້ງເຕືອນຕິດຕາມ",
   "followupNotificationDescription": "ຫາກທ່ານບໍ່ບັນທຶກການກິນຢາພາຍໃນ 30 ນາທີຫຼັງຈາກການແຈ້ງເຕືອນຄັ້ງທຳອິດ, ຈະມີການສົ່ງແຈ້ງເຕືອນຕິດຕາມ.",

@@ -64,7 +64,7 @@
   "medicationScheduleLimit": "आप {count} तक दवा लेने के शेड्यूल पंजीकृत कर सकते हैं।",
   "increaseMedicationScheduleLimit": "Premium प्लान के साथ सीमा बढ़ाकर {count} करें",
   "addMedicationSchedule": "दवा लेने का शेड्यूल जोड़ें",
-  "medicationScheduleNotificationSetting": "दवा लेने के शेड्यूल की सूचनाएं सेटिंग",
+  "medicationScheduleNotificationSetting": "दवा लेने के शेड्यूल की सूचना सेटिंग",
   "notificationSetting": "सूचना सेटिंग्स",
   "enableFollowupNotification": "फ़ॉलो-अप सूचनाएँ सक्षम करें",
   "followupNotificationDescription": "पहली सूचना के 30 मिनट के भीतर दवा लेने का रिकॉर्ड दर्ज नहीं करने पर, फ़ॉलो-अप सूचना भेजी जाएगी।",

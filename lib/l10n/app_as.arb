@@ -64,7 +64,7 @@
   "medicationScheduleLimit": "আপুনি {count}টালৈকে ঔষধ গ্ৰহণৰ সময়সূচী পঞ্জীয়ন কৰিব পাৰে।",
   "increaseMedicationScheduleLimit": "Premium প্লেনৰ সৈতে সীমা {count} লৈ বৃদ্ধি কৰক",
   "addMedicationSchedule": "ঔষধ সেৱনৰ সময়সূচী যোগ কৰক",
-  "medicationScheduleNotificationSetting": "ঔষধ খোৱাৰ সময়সূচীৰ জাননী ছেটিংছ",
+  "medicationScheduleNotificationSetting": "ঔষধ সেৱনসূচীৰ জাননী ছেটিংছ",
   "notificationSetting": "জাননী ছেটিংছ",
   "enableFollowupNotification": "ফ’ল’আপ জাননী সক্ৰিয় কৰক",
   "followupNotificationDescription": "প্ৰথম জাননীৰ পৰা ৩০ মিনিটৰ ভিতৰত ঔষধ সেৱন কৰা বুলি নথিভুক্ত নকৰিলে, এটা অনুসৰণমূলক জাননী পঠিওৱা হ’ব।",

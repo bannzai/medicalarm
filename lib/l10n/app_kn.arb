@@ -64,7 +64,7 @@
   "medicationScheduleLimit": "ನೀವು ಗರಿಷ್ಠ {count} ಔಷಧಿ ಸೇವನೆಯ ವೇಳಾಪಟ್ಟಿಗಳನ್ನು ನೋಂದಾಯಿಸಬಹುದು.",
   "increaseMedicationScheduleLimit": "Premium ಪ್ಲಾನ್‌ನೊಂದಿಗೆ ಮಿತಿಯನ್ನು {count}ಕ್ಕೆ ಹೆಚ್ಚಿಸಿ",
   "addMedicationSchedule": "ಔಷಧಿ ಸೇವನೆಯ ವೇಳಾಪಟ್ಟಿಯನ್ನು ಸೇರಿಸಿ",
-  "medicationScheduleNotificationSetting": "ಔಷಧ ಸೇವನೆಯ ವೇಳಾಪಟ್ಟಿ ಅಧಿಸೂಚನೆ ಸೆಟ್ಟಿಂಗ್‌ಗಳು",
+  "medicationScheduleNotificationSetting": "ಔಷಧಿ ಸೇವನೆಯ ವೇಳಾಪಟ್ಟಿ ಅಧಿಸೂಚನೆ ಸೆಟ್ಟಿಂಗ್‌ಗಳು",
   "notificationSetting": "ಅಧಿಸೂಚನೆ ಸೆಟ್ಟಿಂಗ್‌ಗಳು",
   "enableFollowupNotification": "ಫಾಲೋ-ಅಪ್ ಅಧಿಸೂಚನೆಗಳನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ",
   "followupNotificationDescription": "ಮೊದಲ ಅಧಿಸೂಚನೆಯ 30 ನಿಮಿಷಗಳ ಒಳಗೆ ಔಷಧಿ ತೆಗೆದುಕೊಂಡಿರುವುದನ್ನು ದಾಖಲಿಸದಿದ್ದರೆ, ಅನುಸರಣೆ ಅಧಿಸೂಚನೆಯನ್ನು ಕಳುಹಿಸಲಾಗುತ್ತದೆ.",

@@ -64,7 +64,7 @@
   "medicationScheduleLimit": "Mund të regjistroni deri në {count} orare marrjeje ilaçesh.",
   "increaseMedicationScheduleLimit": "Rriteni kufirin në {count} me planin Premium",
   "addMedicationSchedule": "Shto orarin e marrjes së barnave",
-  "medicationScheduleNotificationSetting": "Cilësimet e njoftimeve për orarin e marrjes së ilaçeve",
+  "medicationScheduleNotificationSetting": "Cilësimet e njoftimeve të orarit të marrjes së ilaçeve",
   "notificationSetting": "Cilësimet e njoftimeve",
   "enableFollowupNotification": "Aktivizo njoftimet vijuese",
   "followupNotificationDescription": "Nëse nuk e regjistroni marrjen e ilaçit brenda 30 minutash nga njoftimi i parë, do të dërgohet një njoftim vijues.",

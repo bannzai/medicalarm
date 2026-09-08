@@ -64,7 +64,7 @@
   "medicationScheduleLimit": "तपाईंले बढीमा {count} वटा औषधि सेवन तालिका दर्ता गर्न सक्नुहुन्छ।",
   "increaseMedicationScheduleLimit": "Premium योजनासँगै सीमा {count} सम्म बढाउनुहोस्",
   "addMedicationSchedule": "औषधि सेवन तालिका थप्नुहोस्",
-  "medicationScheduleNotificationSetting": "औषध सेवन तालिका सूचना सेटिङहरू",
+  "medicationScheduleNotificationSetting": "औषध सेवन तालिका सूचनाका सेटिङहरू",
   "notificationSetting": "सूचना सेटिङहरू",
   "enableFollowupNotification": "फलो-अप सूचनाहरू सक्षम गर्नुहोस्",
   "followupNotificationDescription": "पहिलो सूचनापछि ३० मिनेटभित्र औषधि सेवन गरेको रेकर्ड नगरेमा, फलो-अप सूचना पठाइनेछ।",

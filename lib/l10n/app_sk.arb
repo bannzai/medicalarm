@@ -64,7 +64,7 @@
   "medicationScheduleLimit": "Môžete zaregistrovať až {count} rozvrhov užívania liekov.",
   "increaseMedicationScheduleLimit": "Zvýšte limit na {count} s programom Premium",
   "addMedicationSchedule": "Pridať rozvrh užívania liekov",
-  "medicationScheduleNotificationSetting": "Nastavenia upozornení na plán užívania liekov",
+  "medicationScheduleNotificationSetting": "Nastavenia upozornení na harmonogram užívania liekov",
   "notificationSetting": "Nastavenia upozornení",
   "enableFollowupNotification": "Povoliť následné upozornenia",
   "followupNotificationDescription": "Ak do 30 minút od prvého upozornenia nezaznamenáte užitie lieku, odošle sa následné upozornenie.",

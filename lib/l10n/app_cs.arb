@@ -64,7 +64,7 @@
   "medicationScheduleLimit": "Můžete zaregistrovat až {count} rozvrhů užívání léků.",
   "increaseMedicationScheduleLimit": "Zvyšte limit na {count} s tarifem Premium",
   "addMedicationSchedule": "Přidat rozvrh užívání léků",
-  "medicationScheduleNotificationSetting": "Nastavení oznámení plánu užívání léků",
+  "medicationScheduleNotificationSetting": "Nastavení upozornění na harmonogram užívání léků",
   "notificationSetting": "Nastavení oznámení",
   "enableFollowupNotification": "Povolit následná upozornění",
   "followupNotificationDescription": "Pokud do 30 minut od prvního upozornění nezaznamenáte užití léku, bude odesláno následné upozornění.",

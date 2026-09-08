@@ -64,7 +64,7 @@
   "medicationScheduleLimit": "يمكنك تسجيل ما يصل إلى {count} جداول لتناول الأدوية.",
   "increaseMedicationScheduleLimit": "زيادة الحد إلى {count} مع خطة Premium",
   "addMedicationSchedule": "إضافة جدول تناول الدواء",
-  "medicationScheduleNotificationSetting": "إعدادات إشعارات جدول تناول الدواء",
+  "medicationScheduleNotificationSetting": "إعدادات إشعارات جدول تناول الأدوية",
   "notificationSetting": "إعدادات الإشعارات",
   "enableFollowupNotification": "تفعيل إشعارات المتابعة",
   "followupNotificationDescription": "إذا لم تسجل تناول الدواء خلال 30 دقيقة من الإشعار الأول، فسيتم إرسال إشعار متابعة.",

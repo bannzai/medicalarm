@@ -64,7 +64,7 @@
   "medicationScheduleLimit": "Je kunt maximaal {count} innameschema’s registreren.",
   "increaseMedicationScheduleLimit": "Verhoog de limiet naar {count} met het Premium-abonnement",
   "addMedicationSchedule": "Medicatieschema toevoegen",
-  "medicationScheduleNotificationSetting": "Meldingsinstellingen voor medicatieschema",
+  "medicationScheduleNotificationSetting": "Instellingen voor meldingen van het medicatieschema",
   "notificationSetting": "Meldingsinstellingen",
   "enableFollowupNotification": "Vervolgmeldingen inschakelen",
   "followupNotificationDescription": "Als u het innemen van uw medicijn niet binnen 30 minuten na de eerste melding registreert, wordt er een vervolgmelding verzonden.",

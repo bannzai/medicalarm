@@ -64,7 +64,7 @@
   "medicationScheduleLimit": "Legfeljebb {count} gyógyszerszedési ütemezést regisztrálhat.",
   "increaseMedicationScheduleLimit": "Növeld a korlátot {count} értékre Premium csomaggal",
   "addMedicationSchedule": "Gyógyszerszedési ütemezés hozzáadása",
-  "medicationScheduleNotificationSetting": "Gyógyszerszedési ütemezés értesítési beállításai",
+  "medicationScheduleNotificationSetting": "Gyógyszerbeosztás-értesítési beállítások",
   "notificationSetting": "Értesítési beállítások",
   "enableFollowupNotification": "Utólagos értesítések engedélyezése",
   "followupNotificationDescription": "Ha az első értesítéstől számított 30 percen belül nem rögzíti a gyógyszer bevételét, emlékeztető értesítést küldünk.",

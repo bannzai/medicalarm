@@ -64,7 +64,7 @@
   "medicationScheduleLimit": "คุณสามารถลงทะเบียนตารางการรับประทานยาได้สูงสุด {count} รายการ",
   "increaseMedicationScheduleLimit": "เพิ่มขีดจำกัดเป็น {count} ด้วยแพ็กเกจ Premium",
   "addMedicationSchedule": "เพิ่มตารางการรับประทานยา",
-  "medicationScheduleNotificationSetting": "การตั้งค่าการแจ้งเตือนตารางการรับประทานยา",
+  "medicationScheduleNotificationSetting": "การตั้งค่าการแจ้งเตือนกำหนดเวลารับประทานยา",
   "notificationSetting": "การตั้งค่าการแจ้งเตือน",
   "enableFollowupNotification": "เปิดใช้การแจ้งเตือนติดตามผล",
   "followupNotificationDescription": "หากคุณไม่บันทึกการรับประทานยาภายใน 30 นาทีหลังจากการแจ้งเตือนครั้งแรก ระบบจะส่งการแจ้งเตือนติดตามผล",

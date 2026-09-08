@@ -64,7 +64,7 @@
   "medicationScheduleLimit": "Saate registreerida kuni {count} ravimivõtmise ajakava.",
   "increaseMedicationScheduleLimit": "Suurenda limiit Premium-paketiga väärtuseni {count}",
   "addMedicationSchedule": "Lisa ravimite võtmise ajakava",
-  "medicationScheduleNotificationSetting": "Ravimite võtmise ajakava teavituste seaded",
+  "medicationScheduleNotificationSetting": "Raviskeemi teavituste seaded",
   "notificationSetting": "Teavituste seaded",
   "enableFollowupNotification": "Luba järelteavitused",
   "followupNotificationDescription": "Kui te ei märgi ravimi võtmist 30 minuti jooksul pärast esimest märguannet, saadetakse järelteavitus.",

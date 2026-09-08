@@ -64,7 +64,7 @@
   "medicationScheduleLimit": "Pode registar até {count} horários de toma de medicamentos.",
   "increaseMedicationScheduleLimit": "Aumente o limite para {count} com o plano Premium",
   "addMedicationSchedule": "Adicionar horário da medicação",
-  "medicationScheduleNotificationSetting": "Definições de notificações do horário da medicação",
+  "medicationScheduleNotificationSetting": "Definições das notificações do horário da medicação",
   "notificationSetting": "Definições de notificações",
   "enableFollowupNotification": "Ativar notificações de acompanhamento",
   "followupNotificationDescription": "Se não registar a toma do medicamento no prazo de 30 minutos após a primeira notificação, será enviada uma notificação de seguimento.",
