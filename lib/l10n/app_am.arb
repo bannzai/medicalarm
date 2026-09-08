@@ -88,7 +88,7 @@
   "medicineRegistrationLimit": "የተመዘገቡ መድኃኒቶች ብዛት",
   "doseReceiverRegistrationLimit": "Գրանցված դեղորայք ընդունողների քանակը",
   "notificationScheduleLimit": "የማሳወቂያ መርሐ ግብሮች ብዛት",
-  "addMedicine": "መድኃኒት አክል",
+  "addMedicine": "መድሃኒት አክል",
   "medicineMaxCount": "እስከ {count} መድኃኒቶች መመዝገብ ይችላሉ።",
   "increaseMedicineLimitWithPremium": "Պրեմիում պլանով ավելացրեք սահմանաչափը մինչև {count}",
   "aboutApp": "ስለ መተግበሪያው",

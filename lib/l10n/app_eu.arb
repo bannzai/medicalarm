@@ -88,7 +88,7 @@
   "medicineRegistrationLimit": "Erregistratutako sendagai kopurua",
   "doseReceiverRegistrationLimit": "Erregistratutako botiken erabiltzaileen kopurua",
   "notificationScheduleLimit": "Jakinarazpenen programazio kopurua",
-  "addMedicine": "Gehitu sendagaia",
+  "addMedicine": "Gehitu botika",
   "medicineMaxCount": "Gehienez {count} botika erregistra ditzakezu.",
   "increaseMedicineLimitWithPremium": "Handitu muga {count}-ra Premium planarekin",
   "aboutApp": "Aplikazioari buruz",
