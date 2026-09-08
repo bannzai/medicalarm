@@ -222,7 +222,7 @@
   "accountLinkedWithGoogle": "Gekoppeld aan Google",
   "accountLinkedSnackbar": "Account overgezet",
   "accountLinkBannerText": "Tijdens het delen van een groep raden we sterk aan om accountoverdracht in te stellen.",
-  "minimumDoseInterval": "Tussenpoos tussen doses",
+  "minimumDoseInterval": "Doseerinterval",
   "minimumDoseIntervalDescription": "Minimale tijd tussen doses sinds de vorige dosis",
   "minimumDoseIntervalNone": "Geen",
   "minimumDoseIntervalHoursFormat": "Minstens {hours} uur",

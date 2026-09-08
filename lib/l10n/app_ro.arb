@@ -222,7 +222,7 @@
   "accountLinkedWithGoogle": "Conectat la Google",
   "accountLinkedSnackbar": "Cont transferat",
   "accountLinkBannerText": "În timpul partajării unui grup, vă recomandăm insistent să configurați transferul contului.",
-  "minimumDoseInterval": "Intervalul dintre doze",
+  "minimumDoseInterval": "Interval între doze",
   "minimumDoseIntervalDescription": "Intervalul minim dintre doze de la doza anterioară",
   "minimumDoseIntervalNone": "Niciunul",
   "minimumDoseIntervalHoursFormat": "Cel puțin {hours} ore",

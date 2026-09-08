@@ -222,7 +222,7 @@
   "accountLinkedWithGoogle": "Google bilan bog‘langan",
   "accountLinkedSnackbar": "Hisob ko‘chirildi",
   "accountLinkBannerText": "Guruh ulashilganda, hisobni ko‘chirishni sozlashni qat’iy tavsiya qilamiz.",
-  "minimumDoseInterval": "Dozalar orasidagi interval",
+  "minimumDoseInterval": "Dozalar oralig‘i",
   "minimumDoseIntervalDescription": "Oldingi dozadan keyin dozalar orasidagi minimal vaqt",
   "minimumDoseIntervalNone": "Yo‘q",
   "minimumDoseIntervalHoursFormat": "Kamida {hours} soat",

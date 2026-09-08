@@ -222,7 +222,7 @@
   "accountLinkedWithGoogle": "Enllaçat amb Google",
   "accountLinkedSnackbar": "Compte transferit",
   "accountLinkBannerText": "Mentre comparteixes un grup, et recomanem encaridament que configuris la transferència del compte.",
-  "minimumDoseInterval": "Interval entre dosis",
+  "minimumDoseInterval": "Interval de presa",
   "minimumDoseIntervalDescription": "Temps mínim entre dosis des de l’última presa",
   "minimumDoseIntervalNone": "Cap",
   "minimumDoseIntervalHoursFormat": "Com a mínim {hours} hores",

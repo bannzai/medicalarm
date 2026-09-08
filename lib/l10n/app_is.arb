@@ -222,7 +222,7 @@
   "accountLinkedWithGoogle": "Tengt við Google",
   "accountLinkedSnackbar": "Aðgangur fluttur",
   "accountLinkBannerText": "Þegar hópi er deilt mælum við eindregið með því að setja upp flutning aðgangs.",
-  "minimumDoseInterval": "Tímabil milli skammta",
+  "minimumDoseInterval": "Tími milli lyfjaskammta",
   "minimumDoseIntervalDescription": "Lágmarkstími á milli skammta frá síðasta skammti",
   "minimumDoseIntervalNone": "Ekkert",
   "minimumDoseIntervalHoursFormat": "Að minnsta kosti {hours} klukkustundir",

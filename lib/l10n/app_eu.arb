@@ -222,7 +222,7 @@
   "accountLinkedWithGoogle": "Google-rekin lotuta",
   "accountLinkedSnackbar": "Kontua transferitu da",
   "accountLinkBannerText": "Talde bat partekatzen ari zarenean, kontu-transferentzia konfiguratzea gomendatzen dizugu.",
-  "minimumDoseInterval": "Dosi arteko tartea",
+  "minimumDoseInterval": "Dosi-artea",
   "minimumDoseIntervalDescription": "Aurreko dositik gutxienez igaro beharreko denbora",
   "minimumDoseIntervalNone": "Bat ere ez",
   "minimumDoseIntervalHoursFormat": "Gutxienez {hours} ordu",
