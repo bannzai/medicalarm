@@ -215,7 +215,7 @@
   "join": "Liitu",
   "recordedByMember": "Salvestanud {name}",
   "accountLink": "Konto ülekandmine",
-  "accountLinkDescription": "Apple'i või Google'iga ühendades saate oma andmed säilitada ka pärast seadme vahetamist või rakenduse uuesti installimist.",
+  "accountLinkDescription": "Apple’i või Google’iga ühenduse loomisel säilivad teie andmed ka pärast seadme vahetamist või rakenduse uuesti installimist.",
   "linkWithApple": "Kanna oma konto Apple’i abil üle",
   "linkWithGoogle": "Kanna konto üle Google'i abil",
   "accountLinkedWithApple": "Apple’iga lingitud",

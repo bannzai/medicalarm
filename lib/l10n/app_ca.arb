@@ -215,7 +215,7 @@
   "join": "Uneix-te",
   "recordedByMember": "Registrat per {name}",
   "accountLink": "Transferència del compte",
-  "accountLinkDescription": "En vincular Apple o Google, podràs conservar les dades fins i tot després de canviar de dispositiu o reinstal·lar l’aplicació.",
+  "accountLinkDescription": "Si vincules el compte amb Apple o Google, podràs conservar les dades encara que canviïs de dispositiu o tornis a instal·lar l’app.",
   "linkWithApple": "Transfereix el teu compte amb Apple",
   "linkWithGoogle": "Transfereix el compte amb Google",
   "accountLinkedWithApple": "Vinculat amb Apple",

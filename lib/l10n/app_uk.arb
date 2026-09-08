@@ -215,7 +215,7 @@
   "join": "Приєднатися",
   "recordedByMember": "Записав(-ла) {name}",
   "accountLink": "Перенесення облікового запису",
-  "accountLinkDescription": "Підключивши Apple або Google, ви зможете зберегти свої дані навіть після зміни пристрою чи повторного встановлення застосунку.",
+  "accountLinkDescription": "Підключивши Apple або Google, ви зможете зберегти дані навіть після зміни пристрою чи повторного встановлення застосунку.",
   "linkWithApple": "Перенести обліковий запис за допомогою Apple",
   "linkWithGoogle": "Перенести обліковий запис через Google",
   "accountLinkedWithApple": "Пов’язано з Apple",

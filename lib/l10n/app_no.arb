@@ -215,7 +215,7 @@
   "join": "Delta",
   "recordedByMember": "Registrert av {name}",
   "accountLink": "Overføring av konto",
-  "accountLinkDescription": "Koble til Apple eller Google for å beholde dataene dine selv etter at du bytter enhet eller installerer appen på nytt.",
+  "accountLinkDescription": "Ved å koble til Apple eller Google kan du beholde dataene dine selv etter at du bytter enhet eller installerer appen på nytt.",
   "linkWithApple": "Overfør kontoen din med Apple",
   "linkWithGoogle": "Overfør kontoen med Google",
   "accountLinkedWithApple": "Koblet til Apple",

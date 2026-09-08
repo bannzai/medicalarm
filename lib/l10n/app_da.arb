@@ -215,7 +215,7 @@
   "join": "Deltag",
   "recordedByMember": "Registreret af {name}",
   "accountLink": "Overførsel af konto",
-  "accountLinkDescription": "Forbind med Apple eller Google for at bevare dine data, selv efter du skifter enhed eller geninstallerer appen.",
+  "accountLinkDescription": "Når du opretter forbindelse til Apple eller Google, kan du beholde dine data, selv efter du skifter enhed eller geninstallerer appen.",
   "linkWithApple": "Overfør din konto med Apple",
   "linkWithGoogle": "Overfør konto med Google",
   "accountLinkedWithApple": "Forbundet med Apple",

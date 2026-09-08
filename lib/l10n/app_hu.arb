@@ -215,7 +215,7 @@
   "join": "Csatlakozás",
   "recordedByMember": "{name} rögzítette",
   "accountLink": "Fiók átvitele",
-  "accountLinkDescription": "Az Apple- vagy Google-fiók összekapcsolásával az eszköz cseréje vagy az alkalmazás újratelepítése után is megőrizheti adatait.",
+  "accountLinkDescription": "Ha összekapcsolja fiókját az Apple-lel vagy a Google-lel, eszközváltás vagy az alkalmazás újratelepítése után is megőrizheti adatait.",
   "linkWithApple": "Fiók átvitele az Apple segítségével",
   "linkWithGoogle": "Fiók átvitele a Google segítségével",
   "accountLinkedWithApple": "Apple-höz kapcsolva",
