@@ -225,7 +225,7 @@
   "minimumDoseInterval": "Einnahmeabstand",
   "minimumDoseIntervalDescription": "Mindestabstand zwüsche de Iinahme",
   "minimumDoseIntervalNone": "Kei",
-  "minimumDoseIntervalHoursFormat": "Mindestens {hours} Stunden",
+  "minimumDoseIntervalHoursFormat": "Mindestens {hours} Stunde",
   "doseIntervalWarningTitle": "Dr erforderlig Abstand zwüsche de Dosis isch no nid verstriche",
   "doseIntervalWarningMessage": "Sie hän d'Dosis bereits um {latestTakeTime} iignoh. I de Iistellige isch en Mindestabstand vo {minimumDoseIntervalHours} Stund zwüsche de Einnahme vorgseh. Wänd Sie d'Einnahm trotzdem erfasse?",
   "doseIntervalWarningTakeAnyway": "Aufzeichne",

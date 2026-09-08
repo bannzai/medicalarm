@@ -225,7 +225,7 @@
   "minimumDoseInterval": "Dose interval",
   "minimumDoseIntervalDescription": "Minimum time between doses",
   "minimumDoseIntervalNone": "None",
-  "minimumDoseIntervalHoursFormat": "At least {hours}h",
+  "minimumDoseIntervalHoursFormat": "At least {hours} hours",
   "doseIntervalWarningTitle": "Not enough time since the last dose",
   "doseIntervalWarningMessage": "Last taken at {latestTakeTime}. This medicine is set to require at least {minimumDoseIntervalHours} hours between doses. Record anyway?",
   "doseIntervalWarningTakeAnyway": "Record",
