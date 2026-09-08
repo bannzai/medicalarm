@@ -228,7 +228,7 @@
   "minimumDoseIntervalHoursFormat": "Minstens {hours} uur",
   "doseIntervalWarningTitle": "Die dosisinterval het nog nie verstryk nie",
   "doseIntervalWarningMessage": "U het reeds om {latestTakeTime} ’n dosis aangeteken. Die instelling vereis ’n interval van minstens {minimumDoseIntervalHours} uur tussen dosisse. Wil u dit steeds aanteken?",
-  "doseIntervalWarningTakeAnyway": "Tog aanteken",
+  "doseIntervalWarningTakeAnyway": "Aanteken",
   "doseIntervalNotificationWarning": "⚠️ Daar het nog nie {minimumDoseIntervalHours} uur sedert die vorige dosis verloop nie",
   "ossLicense": "OSS-lisensies",
   "achievementWeeklyLabel": "Medikasie hierdie week",

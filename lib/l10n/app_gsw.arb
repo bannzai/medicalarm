@@ -228,7 +228,7 @@
   "minimumDoseIntervalHoursFormat": "Mindestens {hours} Stunde",
   "doseIntervalWarningTitle": "Dr Einnahmeabstand isch no nöd abgloffe",
   "doseIntervalWarningMessage": "D Iinnahm um {latestTakeTime} isch scho erfasst. Zwüsche de Iinnahme müend mindestens {minimumDoseIntervalHours} Stund ligge. Trotzdem erfasse?",
-  "doseIntervalWarningTakeAnyway": "Aufzeichne",
+  "doseIntervalWarningTakeAnyway": "Iitrage",
   "doseIntervalNotificationWarning": "⚠️ Syt dr letschte Iinah si no kei {minimumDoseIntervalHours} Stunde vergaa",
   "ossLicense": "OSS-Lizänze",
   "achievementWeeklyLabel": "Medikament i dere Wuche",
