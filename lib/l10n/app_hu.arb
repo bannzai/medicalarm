@@ -217,7 +217,7 @@
   "accountLink": "Fiók átvitele",
   "accountLinkDescription": "Az Apple- vagy Google-fiók összekapcsolásával az eszköz cseréje vagy az alkalmazás újratelepítése után is megőrizheti adatait.",
   "linkWithApple": "Fiók átvitele az Apple segítségével",
-  "linkWithGoogle": "Fiók átvitele a Google-lel",
+  "linkWithGoogle": "Fiók átvitele a Google segítségével",
   "accountLinkedWithApple": "Apple-höz kapcsolva",
   "accountLinkedWithGoogle": "Összekapcsolva a Google-lel",
   "accountLinkedSnackbar": "A fiók átkerült",

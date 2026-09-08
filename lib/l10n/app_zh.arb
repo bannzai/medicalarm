@@ -217,7 +217,7 @@
   "accountLink": "账户迁移",
   "accountLinkDescription": "关联 Apple 或 Google 后，即使更换设备或重新安装 App，也能保留您的数据。",
   "linkWithApple": "使用 Apple 接管账户",
-  "linkWithGoogle": "使用 Google 转移账户",
+  "linkWithGoogle": "使用 Google 转移账号",
   "accountLinkedWithApple": "已关联 Apple",
   "accountLinkedWithGoogle": "已关联 Google",
   "accountLinkedSnackbar": "账号已迁移",
