@@ -175,7 +175,7 @@
   "medicationPauseDescription": "Өчүрүлгөндө, дары-дармектер экранынан жана эскертмелерден чыгарылат.",
   "medicinePausedSnackbar": "Дарыны кабыл алуу убактылуу токтотулду",
   "medicationHistoryDeletedSnackbar": "Дары ичүү жазуусу жокко чыгарылды",
-  "undo": "Артка кайтаруу",
+  "undo": "Жокко чыгаруу",
   "medicationHistoryReverted": "Дары ичүү жазуусу жокко чыгарылды",
   "revertedTime": "Жокко чыгаруу убактысы",
   "revertedByMember": "{name} жокко чыгарды",

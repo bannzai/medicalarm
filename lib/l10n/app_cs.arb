@@ -175,7 +175,7 @@
   "medicationPauseDescription": "Po vypnutí bude lék vyřazen z obrazovky léků a z oznámení.",
   "medicinePausedSnackbar": "Užívání léku bylo dočasně pozastaveno",
   "medicationHistoryDeletedSnackbar": "Záznam o užití léku byl zrušen",
-  "undo": "Vrátit zpět",
+  "undo": "Vrátit",
   "medicationHistoryReverted": "Záznam o užití léku byl zrušen",
   "revertedTime": "Čas zrušení",
   "revertedByMember": "Zrušil(a) {name}",

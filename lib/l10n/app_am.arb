@@ -175,7 +175,7 @@
   "medicationPauseDescription": "ሲጠፋ፣ ከመድኃኒት ማያ እና ማሳወቂያዎች ይወገዳል።",
   "medicinePausedSnackbar": "የመድኃኒቱ አወሳሰድ ለጊዜው ቆሟል",
   "medicationHistoryDeletedSnackbar": "Գրանցված դեղորայքի ընդունումը չեղարկվեց",
-  "undo": "ይቅር በል",
+  "undo": "ቀድሞ እንደነበረ መመለስ",
   "medicationHistoryReverted": "የመድሃኒት መዝገብ ተሰርዟል",
   "revertedTime": "የመሰረዝ ሰዓት",
   "revertedByMember": "በ{name} ተሰርዟል",

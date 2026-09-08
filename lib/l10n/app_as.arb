@@ -175,7 +175,7 @@
   "medicationPauseDescription": "বন্ধ কৰিলে ইয়াক ঔষধৰ পৰ্দা আৰু জাননীসমূহৰ পৰা বাদ দিয়া হ’ব।",
   "medicinePausedSnackbar": "ঔষধ সেৱন সাময়িকভাৱে স্থগিত কৰা হৈছে",
   "medicationHistoryDeletedSnackbar": "ঔষধ সেৱনৰ ৰেকৰ্ড বাতিল কৰা হৈছে",
-  "undo": "পূৰ্বৱৰ্তীলৈ ঘূৰাই নিয়ক",
+  "undo": "পূৰ্বৰ অৱস্থালৈ ঘূৰাই নিন",
   "medicationHistoryReverted": "ঔষধ সেৱনৰ ৰেকৰ্ড বাতিল কৰা হৈছে",
   "revertedTime": "বাতিল কৰাৰ সময়",
   "revertedByMember": "{name}-এ বাতিল কৰিছে",

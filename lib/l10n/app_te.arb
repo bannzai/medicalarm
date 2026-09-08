@@ -175,7 +175,7 @@
   "medicationPauseDescription": "ఆఫ్ చేసినప్పుడు, ఇది మందుల స్క్రీన్ మరియు నోటిఫికేషన్‌ల నుండి తొలగించబడుతుంది.",
   "medicinePausedSnackbar": "మందు తీసుకోవడం తాత్కాలికంగా నిలిపివేయబడింది",
   "medicationHistoryDeletedSnackbar": "మందు తీసుకున్న రికార్డు రద్దు చేయబడింది",
-  "undo": "రద్దు చేయి",
+  "undo": "మునుపటికి తీసుకెళ్లి",
   "medicationHistoryReverted": "మందు తీసుకున్న రికార్డు రద్దు చేయబడింది",
   "revertedTime": "రద్దు చేసిన సమయం",
   "revertedByMember": "{name} రద్దు చేశారు",
