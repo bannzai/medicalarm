@@ -198,7 +198,7 @@
   "invitationCodeShareDescription": "ចែករំលែកកូដនេះ ដើម្បីអញ្ជើញសមាជិក",
   "invitationCodeExpiresAt": "មានសុពលភាពដល់៖ {date}",
   "copyInvitationCode": "ចម្លងកូដ",
-  "invitationCodeCopied": "លេខកូដអញ្ជើញត្រូវបានចម្លង",
+  "invitationCodeCopied": "បានចម្លងលេខកូដអញ្ជើញ",
   "issueInvitationCode": "បង្កើតលេខកូដអញ្ជើញ",
   "groupSettings": "ការកំណត់ក្រុម",
   "members": "សមាជិក",

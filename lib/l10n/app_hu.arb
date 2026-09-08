@@ -198,7 +198,7 @@
   "invitationCodeShareDescription": "Oszd meg ezt a kódot a tagok meghívásához",
   "invitationCodeExpiresAt": "Érvényes eddig: {date}",
   "copyInvitationCode": "Kód másolása",
-  "invitationCodeCopied": "Meghívókód kimásolva",
+  "invitationCodeCopied": "A meghívókód másolva",
   "issueInvitationCode": "Meghívókód létrehozása",
   "groupSettings": "Csoportbeállítások",
   "members": "Tagok",

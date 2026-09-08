@@ -198,7 +198,7 @@
   "invitationCodeShareDescription": "Sdílením tohoto kódu můžete pozvat členy",
   "invitationCodeExpiresAt": "Platnost do: {date}",
   "copyInvitationCode": "Kopírovat kód",
-  "invitationCodeCopied": "Kód pozvánky byl zkopírován",
+  "invitationCodeCopied": "Pozvánkový kód byl zkopírován",
   "issueInvitationCode": "Vygenerovat zvací kód",
   "groupSettings": "Nastavení skupiny",
   "members": "Členové",
