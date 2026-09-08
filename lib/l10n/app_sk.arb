@@ -120,7 +120,7 @@
   "purchaseErrorNetwork": "Sieťové pripojenie je nestabilné. Skontrolujte pripojenie a skúste to znova.",
   "purchaseNotAllowed": "Nákupy nie sú na tomto zariadení povolené",
   "purchaseErrorInvalidCredentials": "Nákup sa nepodaril. Skúste to znova neskôr. Ak problém pretrváva, kontaktujte nás cez Nastavenia > Kontaktujte nás. Podrobnosti: {message}",
-  "purchaseErrorUnexpectedBackend": "Nákup sa momentálne nedá dokončiť. Skúste to znova neskôr. Ak problém pretrváva, kontaktujte nás cez Nastavenia > Kontakt. Podrobnosti: {message}",
+  "purchaseErrorUnexpectedBackend": "Nákup momentálne nie je možný. Skúste to znova neskôr. Ak problém pretrváva, kontaktujte nás v časti Nastavenia > Kontakt. Podrobnosti: {message}",
   "purchaseErrorOperationInProgress": "Nákup už prebieha. Skúste to znova neskôr.",
   "purchaseErrorInsufficientPermissions": "S účtom {accountName} sa nemôžete prihlásiť na odber plánu. Skontrolujte platobné údaje a skúste to znova",
   "purchaseErrorPaymentPending": "Platba čaká na spracovanie. Skontrolujte {storeName} pomocou prihláseného účtu {accountName}.",

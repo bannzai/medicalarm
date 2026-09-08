@@ -120,7 +120,7 @@
   "purchaseErrorNetwork": "የኔትወርክ ግንኙነቱ ያልተረጋጋ ነው። እባክዎ የግንኙነት ሁኔታዎን ያረጋግጡና እንደገና ይሞክሩ።",
   "purchaseNotAllowed": "በዚህ መሣሪያ ግዢ አይፈቀድም",
   "purchaseErrorInvalidCredentials": "ግዢው አልተሳካም። እባክዎ ከጥቂት ጊዜ በኋላ ይሞክሩ። ችግሩ ከቀጠለ፣ ከቅንብሮች > ያግኙን በኩል ያነጋግሩን። ዝርዝሮች፦ {message}",
-  "purchaseErrorUnexpectedBackend": "ግዢውን አሁን ማጠናቀቅ አይቻልም። እባክዎ ከጥቂት ጊዜ በኋላ ደግመው ይሞክሩ። ችግሩ ካልተፈታ፣ ከቅንብሮች > አግኙን በኩል ያግኙን። ዝርዝሮች፦ {message}",
+  "purchaseErrorUnexpectedBackend": "አሁን ግዢ ማድረግ አይችሉም። እባክዎ ከጥቂት ጊዜ በኋላ እንደገና ይሞክሩ። ችግሩ ካልተፈታ፣ በቅንብሮች > ያግኙን በኩል ያነጋግሩን። ዝርዝሮች፦ {message}",
   "purchaseErrorOperationInProgress": "የግዢ ሂደት እየተካሄደ ነው። እባክዎ ቆይተው እንደገና ይሞክሩ።",
   "purchaseErrorInsufficientPermissions": "በ{accountName} ዕቅድ መመዝገብ አይችሉም። የክፍያ መረጃዎን ካረጋገጡ በኋላ እንደገና ይሞክሩ",
   "purchaseErrorPaymentPending": "ክፍያው ቆሟል። በገባበት {accountName} በመጠቀም {storeName}ን ያረጋግጡ።",

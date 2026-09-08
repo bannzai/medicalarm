@@ -120,7 +120,7 @@
   "purchaseErrorNetwork": "Hindi stable ang koneksyon sa network. Suriin ang iyong koneksyon at subukan muli.",
   "purchaseNotAllowed": "Hindi pinapayagan ang mga pagbili sa device na ito",
   "purchaseErrorInvalidCredentials": "Nabigo ang pagbili. Subukan muli mamaya. Kung magpapatuloy ang problema, makipag-ugnayan sa amin sa Mga Setting > Makipag-ugnayan sa amin. Mga detalye: {message}",
-  "purchaseErrorUnexpectedBackend": "Hindi makumpleto ang pagbili sa ngayon. Pakisubukan muli pagkalipas ng ilang sandali. Kung magpatuloy ang problema, makipag-ugnayan sa amin sa Mga Setting > Makipag-ugnayan. Mga detalye: {message}",
+  "purchaseErrorUnexpectedBackend": "Hindi available ang pagbili sa ngayon. Subukan muli pagkalipas ng ilang sandali. Kung magpapatuloy ang problema, makipag-ugnayan sa amin sa Mga Setting > Makipag-ugnayan sa amin. Mga detalye: {message}",
   "purchaseErrorOperationInProgress": "May isinasagawang pagbili na. Pakisubukang muli mamaya.",
   "purchaseErrorInsufficientPermissions": "Hindi ka makakapag-subscribe sa isang plan gamit ang {accountName}. Suriin ang impormasyon ng pagbabayad at subukan muli",
   "purchaseErrorPaymentPending": "Naka-pending ang pagbabayad. Pakitingnan ang {storeName} gamit ang naka-sign-in na account na {accountName}.",

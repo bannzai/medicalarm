@@ -120,7 +120,7 @@
   "purchaseErrorNetwork": "Tarmoq ulanishi beqaror. Ulanishingizni tekshirib, qayta urinib ko‘ring.",
   "purchaseNotAllowed": "Bu qurilmada xarid qilishga ruxsat berilmagan",
   "purchaseErrorInvalidCredentials": "Xarid amalga oshmadi. Birozdan so‘ng qayta urinib ko‘ring. Muammo davom etsa, Sozlamalar > Biz bilan bog‘lanish orqali bizga murojaat qiling. Tafsilotlar: {message}",
-  "purchaseErrorUnexpectedBackend": "Hozirda xaridni yakunlab bo‘lmaydi. Birozdan so‘ng qayta urinib ko‘ring. Muammo hal bo‘lmasa, Sozlamalar > Bog‘lanish bo‘limi orqali biz bilan bog‘laning. Tafsilotlar: {message}",
+  "purchaseErrorUnexpectedBackend": "Hozir xarid qilib bo‘lmaydi. Birozdan so‘ng qayta urinib ko‘ring. Muammo hal bo‘lmasa, Sozlamalar > Biz bilan bog‘lanish orqali murojaat qiling. Tafsilotlar: {message}",
   "purchaseErrorOperationInProgress": "Xarid jarayoni allaqachon davom etmoqda. Birozdan so‘ng qayta urinib ko‘ring.",
   "purchaseErrorInsufficientPermissions": "{accountName} bilan rejaga obuna bo‘la olmaysiz. To‘lov ma’lumotlaringizni tekshirib, qayta urinib ko‘ring",
   "purchaseErrorPaymentPending": "To‘lov kutilmoqda. Tizimga kirilgan {accountName} orqali {storeName}ni tekshiring.",

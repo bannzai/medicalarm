@@ -120,7 +120,7 @@
   "purchaseErrorNetwork": "De netwerkverbinding is instabiel. Controleer je verbinding en probeer het opnieuw.",
   "purchaseNotAllowed": "Aankopen zijn niet toegestaan op dit apparaat",
   "purchaseErrorInvalidCredentials": "De aankoop is mislukt. Probeer het later opnieuw. Als het probleem aanhoudt, neem dan contact met ons op via Instellingen > Neem contact met ons op. Details: {message}",
-  "purchaseErrorUnexpectedBackend": "De aankoop kan momenteel niet worden voltooid. Probeer het later opnieuw. Neem contact met ons op via Instellingen > Contact als het probleem aanhoudt. Details: {message}",
+  "purchaseErrorUnexpectedBackend": "Aankopen zijn momenteel niet beschikbaar. Probeer het later opnieuw. Neem bij aanhoudende problemen contact met ons op via Instellingen > Contact. Details: {message}",
   "purchaseErrorOperationInProgress": "Er wordt al een aankoop verwerkt. Probeer het later opnieuw.",
   "purchaseErrorInsufficientPermissions": "Je kunt met {accountName} geen abonnement nemen. Controleer je betaalgegevens en probeer het opnieuw",
   "purchaseErrorPaymentPending": "De betaling is in behandeling. Controleer {storeName} met het ingelogde account {accountName}.",

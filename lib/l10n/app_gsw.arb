@@ -120,7 +120,7 @@
   "purchaseErrorNetwork": "D Netzverbindig isch instabil. Prüefed Si Ihri Verbindig und versueched Si es nomol.",
   "purchaseNotAllowed": "Käuf sind uf däm Grät nöd erlaubt",
   "purchaseErrorInvalidCredentials": "De Chauf isch fehlgschlage. Bitte versueche Sie es spöter nomal. Wenn s Problem wiiterbesteit, kontaktiere Sie eus über Iistellige > Kontakt. Details: {message}",
-  "purchaseErrorUnexpectedBackend": "De Chauf cha im Momänt nöd abgschlosse werde. Bitte probiers spöter nomal. Wenn s Problem wiiterbesteit, kontaktier eus über Iistellige > Kontakt. Details: {message}",
+  "purchaseErrorUnexpectedBackend": "S Chaufe isch im Momänt nöd möglich. Bitte probiers spöter nomal. Wenn s Problem wiiterbesteit, meld dich über Iistellige > Kontakt bi eus. Details: {message}",
   "purchaseErrorOperationInProgress": "En Chauf isch scho am Laufe. Bitte probier’s spöter nomol.",
   "purchaseErrorInsufficientPermissions": "Mit {accountName} chasch kei Plan abonniere. Prüef dini Zahlungsinformatione und versuechs nomal",
   "purchaseErrorPaymentPending": "D Zahlig isch no offe. Prüef {storeName} mit em agmäldete Konto {accountName}.",

@@ -120,7 +120,7 @@
   "purchaseErrorNetwork": "Mae cysylltiad y rhwydwaith yn ansefydlog. Gwiriwch eich cysylltiad a rhowch gynnig arall arni.",
   "purchaseNotAllowed": "Ni chaniateir pryniannau ar y ddyfais hon",
   "purchaseErrorInvalidCredentials": "Methodd y pryniant. Rhowch gynnig arall arni yn nes ymlaen. Os bydd y broblem yn parhau, cysylltwch â ni drwy Gosodiadau > Cysylltu â ni. Manylion: {message}",
-  "purchaseErrorUnexpectedBackend": "Nid oes modd cwblhau’r pryniant ar hyn o bryd. Rhowch gynnig arall arni rywbryd eto. Os bydd y broblem yn parhau, cysylltwch â ni drwy Gosodiadau > Cysylltu â ni. Manylion: {message}",
+  "purchaseErrorUnexpectedBackend": "Nid yw’n bosibl prynu ar hyn o bryd. Rhowch gynnig arall arni rywbryd eto. Os na chaiff y broblem ei datrys, cysylltwch â ni drwy Gosodiadau > Cysylltu â ni. Manylion: {message}",
   "purchaseErrorOperationInProgress": "Mae proses brynu eisoes ar y gweill. Rhowch gynnig arall arni yn nes ymlaen.",
   "purchaseErrorInsufficientPermissions": "Ni allwch danysgrifio i gynllun gyda {accountName}. Gwiriwch eich gwybodaeth dalu a rhowch gynnig arall arni",
   "purchaseErrorPaymentPending": "Mae’r taliad yn yr arfaeth. Gwiriwch {storeName} gan ddefnyddio’r cyfrif {accountName} rydych wedi mewngofnodi iddo.",

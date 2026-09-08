@@ -120,7 +120,7 @@
   "purchaseErrorNetwork": "Tinklo ryšys nestabilus. Patikrinkite ryšį ir bandykite dar kartą.",
   "purchaseNotAllowed": "Šiame įrenginyje pirkti neleidžiama",
   "purchaseErrorInvalidCredentials": "Pirkti nepavyko. Pabandykite dar kartą vėliau. Jei problema išlieka, susisiekite su mumis pasirinkę Nustatymai > Susisiekti su mumis. Išsami informacija: {message}",
-  "purchaseErrorUnexpectedBackend": "Šiuo metu pirkimo užbaigti nepavyksta. Pabandykite dar kartą vėliau. Jei problema išlieka, susisiekite su mumis skiltyje Nustatymai > Kontaktai. Išsami informacija: {message}",
+  "purchaseErrorUnexpectedBackend": "Šiuo metu įsigyti negalima. Pabandykite dar kartą vėliau. Jei problema išlieka, susisiekite su mumis skiltyje Nustatymai > Susisiekti. Išsami informacija: {message}",
   "purchaseErrorOperationInProgress": "Pirkimas jau vykdomas. Bandykite dar kartą vėliau.",
   "purchaseErrorInsufficientPermissions": "Naudodami {accountName} negalite užsiprenumeruoti plano. Patikrinkite mokėjimo informaciją ir bandykite dar kartą",
   "purchaseErrorPaymentPending": "Mokėjimas laukia patvirtinimo. Patikrinkite {storeName} naudodami prisijungtą paskyrą {accountName}.",

@@ -120,7 +120,7 @@
   "purchaseErrorNetwork": "Netværksforbindelsen er ustabil. Kontrollér forbindelsen, og prøv igen.",
   "purchaseNotAllowed": "Køb er ikke tilladt på denne enhed",
   "purchaseErrorInvalidCredentials": "Købet mislykkedes. Prøv igen senere. Hvis problemet fortsætter, kan du kontakte os via Indstillinger > Kontakt os. Detaljer: {message}",
-  "purchaseErrorUnexpectedBackend": "Købet kan ikke gennemføres lige nu. Prøv igen senere. Hvis problemet fortsætter, kan du kontakte os via Indstillinger > Kontakt. Detaljer: {message}",
+  "purchaseErrorUnexpectedBackend": "Køb er ikke muligt lige nu. Prøv igen senere. Hvis problemet fortsætter, kan du kontakte os via Indstillinger > Kontakt os. Detaljer: {message}",
   "purchaseErrorOperationInProgress": "Et køb er allerede i gang. Prøv igen senere.",
   "purchaseErrorInsufficientPermissions": "Du kan ikke abonnere på et abonnement med {accountName}. Kontrollér dine betalingsoplysninger, og prøv igen",
   "purchaseErrorPaymentPending": "Betalingen afventer. Kontrollér {storeName} med den konto, du er logget ind på: {accountName}.",

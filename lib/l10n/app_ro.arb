@@ -120,7 +120,7 @@
   "purchaseErrorNetwork": "Conexiunea la rețea este instabilă. Verificați conexiunea și încercați din nou.",
   "purchaseNotAllowed": "Achizițiile nu sunt permise pe acest dispozitiv",
   "purchaseErrorInvalidCredentials": "Achiziția a eșuat. Încercați din nou mai târziu. Dacă problema persistă, contactați-ne din Setări > Contactați-ne. Detalii: {message}",
-  "purchaseErrorUnexpectedBackend": "Achiziția nu poate fi finalizată momentan. Încercați din nou mai târziu. Dacă problema persistă, contactați-ne din Setări > Contact. Detalii: {message}",
+  "purchaseErrorUnexpectedBackend": "Achiziția nu este disponibilă momentan. Încercați din nou mai târziu. Dacă problema persistă, contactați-ne din Setări > Contact. Detalii: {message}",
   "purchaseErrorOperationInProgress": "O achiziție este deja în desfășurare. Încercați din nou mai târziu.",
   "purchaseErrorInsufficientPermissions": "Nu vă puteți abona la un plan cu {accountName}. Verificați informațiile de plată și încercați din nou",
   "purchaseErrorPaymentPending": "Plata este în așteptare. Verificați {storeName} folosind contul conectat {accountName}.",

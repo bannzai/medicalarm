@@ -120,7 +120,7 @@
   "purchaseErrorNetwork": "Koneksi jaringan tidak stabil. Periksa koneksi Anda, lalu coba lagi.",
   "purchaseNotAllowed": "Pembelian tidak diizinkan di perangkat ini",
   "purchaseErrorInvalidCredentials": "Pembelian gagal. Silakan coba lagi nanti. Jika masalah berlanjut, hubungi kami melalui Pengaturan > Hubungi Kami. Detail: {message}",
-  "purchaseErrorUnexpectedBackend": "Pembelian tidak dapat diselesaikan saat ini. Silakan coba lagi nanti. Jika masalah berlanjut, hubungi kami melalui Pengaturan > Hubungi Kami. Detail: {message}",
+  "purchaseErrorUnexpectedBackend": "Pembelian saat ini tidak tersedia. Silakan coba lagi nanti. Jika masalah berlanjut, hubungi kami melalui Pengaturan > Hubungi kami. Detail: {message}",
   "purchaseErrorOperationInProgress": "Proses pembelian sedang berlangsung. Silakan coba lagi nanti.",
   "purchaseErrorInsufficientPermissions": "Anda tidak dapat berlangganan paket dengan {accountName}. Periksa informasi pembayaran Anda, lalu coba lagi",
   "purchaseErrorPaymentPending": "Pembayaran tertunda. Periksa {storeName} menggunakan akun {accountName} yang sedang login.",

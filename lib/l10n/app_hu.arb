@@ -120,7 +120,7 @@
   "purchaseErrorNetwork": "A hálózati kapcsolat instabil. Ellenőrizze a kapcsolatot, majd próbálja újra.",
   "purchaseNotAllowed": "A vásárlás nem engedélyezett ezen az eszközön",
   "purchaseErrorInvalidCredentials": "A vásárlás sikertelen. Próbálja újra később. Ha a probléma továbbra is fennáll, lépjen kapcsolatba velünk a Beállítások > Kapcsolat menüpontban. Részletek: {message}",
-  "purchaseErrorUnexpectedBackend": "A vásárlás jelenleg nem fejezhető be. Próbálja meg később újra. Ha a probléma továbbra is fennáll, lépjen kapcsolatba velünk a Beállítások > Kapcsolat menüponton keresztül. Részletek: {message}",
+  "purchaseErrorUnexpectedBackend": "A vásárlás jelenleg nem lehetséges. Próbálja meg később újra. Ha a probléma továbbra is fennáll, lépjen kapcsolatba velünk a Beállítások > Kapcsolat menüpontban. Részletek: {message}",
   "purchaseErrorOperationInProgress": "A vásárlás már folyamatban van. Kérjük, próbálja újra később.",
   "purchaseErrorInsufficientPermissions": "A(z) {accountName} fiókkal nem lehet előfizetni egy csomagra. Ellenőrizd a fizetési adatokat, majd próbáld újra",
   "purchaseErrorPaymentPending": "A fizetés függőben van. Ellenőrizd a {storeName} szolgáltatást a bejelentkezett {accountName} fiókkal.",

@@ -120,7 +120,7 @@
   "purchaseErrorNetwork": "Мрежна веза је нестабилна. Проверите везу и покушајте поново.",
   "purchaseNotAllowed": "Куповина није дозвољена на овом уређају",
   "purchaseErrorInvalidCredentials": "Kupovina nije uspela. Pokušajte ponovo kasnije. Ako se problem nastavi, kontaktirajte nas putem Podešavanja > Kontaktirajte nas. Detalji: {message}",
-  "purchaseErrorUnexpectedBackend": "Kupovinu trenutno nije moguće dovršiti. Pokušajte ponovo kasnije. Ako problem i dalje postoji, kontaktirajte nas preko Podešavanja > Kontakt. Detalji: {message}",
+  "purchaseErrorUnexpectedBackend": "Куповина тренутно није могућа. Покушајте поново касније. Ако проблем и даље постоји, контактирајте нас преко Подешавања > Контакт. Детаљи: {message}",
   "purchaseErrorOperationInProgress": "Куповина је већ у току. Покушајте поново касније.",
   "purchaseErrorInsufficientPermissions": "Не можете да се претплатите на план помоћу налога {accountName}. Проверите податке о плаћању и покушајте поново",
   "purchaseErrorPaymentPending": "Плаћање је на чекању. Проверите {storeName} помоћу пријављеног налога {accountName}.",

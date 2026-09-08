@@ -120,7 +120,7 @@
   "purchaseErrorNetwork": "The network connection is unstable. Check your connection and try again.",
   "purchaseNotAllowed": "Purchases are not allowed on this device",
   "purchaseErrorInvalidCredentials": "The purchase failed. Please try again later. If the problem persists, contact us via Settings > Contact Us. Details: {message}",
-  "purchaseErrorUnexpectedBackend": "The purchase can’t be completed right now. Please try again later. If the problem persists, contact us via Settings > Contact. Details: {message}",
+  "purchaseErrorUnexpectedBackend": "Purchases are currently unavailable. Please try again later. If the issue persists, contact us via Settings > Contact us. Details: {message}",
   "purchaseErrorOperationInProgress": "A purchase is already in progress. Please try again later.",
   "purchaseErrorInsufficientPermissions": "You can’t subscribe to a plan with {accountName}. Check your payment information and try again",
   "purchaseErrorPaymentPending": "Payment is pending. Please check {storeName} with the signed-in account {accountName}.",

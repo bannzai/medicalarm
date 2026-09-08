@@ -120,7 +120,7 @@
   "purchaseErrorNetwork": "La connexió de xarxa és inestable. Comproveu la connexió i torneu-ho a provar.",
   "purchaseNotAllowed": "No es permeten compres en aquest dispositiu",
   "purchaseErrorInvalidCredentials": "La compra ha fallat. Torna-ho a provar més tard. Si el problema continua, contacta amb nosaltres a Configuració > Contacta amb nosaltres. Detalls: {message}",
-  "purchaseErrorUnexpectedBackend": "No es pot completar la compra en aquest moment. Torna-ho a provar més tard. Si el problema persisteix, contacta amb nosaltres a Configuració > Contacte. Detalls: {message}",
+  "purchaseErrorUnexpectedBackend": "La compra no està disponible ara. Torna-ho a provar més tard. Si el problema continua, contacta amb nosaltres a Configuració > Contacte. Detalls: {message}",
   "purchaseErrorOperationInProgress": "La compra ja està en curs. Torneu-ho a provar més tard.",
   "purchaseErrorInsufficientPermissions": "No pots subscriure’t a un pla amb {accountName}. Comprova la informació de pagament i torna-ho a provar",
   "purchaseErrorPaymentPending": "El pagament està pendent. Comprova {storeName} amb el compte amb què has iniciat sessió, {accountName}.",

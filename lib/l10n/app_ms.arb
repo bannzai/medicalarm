@@ -120,7 +120,7 @@
   "purchaseErrorNetwork": "Sambungan rangkaian tidak stabil. Semak sambungan anda dan cuba lagi.",
   "purchaseNotAllowed": "Pembelian tidak dibenarkan pada peranti ini",
   "purchaseErrorInvalidCredentials": "Pembelian gagal. Sila cuba lagi kemudian. Jika masalah berterusan, hubungi kami melalui Tetapan > Hubungi Kami. Butiran: {message}",
-  "purchaseErrorUnexpectedBackend": "Pembelian tidak dapat diselesaikan buat masa ini. Sila cuba lagi kemudian. Jika masalah berterusan, hubungi kami melalui Tetapan > Hubungi Kami. Butiran: {message}",
+  "purchaseErrorUnexpectedBackend": "Pembelian tidak tersedia buat masa ini. Sila cuba lagi kemudian. Jika masalah berterusan, hubungi kami melalui Tetapan > Hubungi kami. Butiran: {message}",
   "purchaseErrorOperationInProgress": "Proses pembelian sedang berlangsung. Sila cuba lagi kemudian.",
   "purchaseErrorInsufficientPermissions": "Anda tidak boleh melanggan pelan dengan {accountName}. Semak maklumat pembayaran anda dan cuba lagi",
   "purchaseErrorPaymentPending": "Pembayaran sedang menunggu. Sila semak {storeName} menggunakan akaun {accountName} yang sedang dilog masuk.",
