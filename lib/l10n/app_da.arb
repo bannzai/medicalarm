@@ -113,7 +113,7 @@
   "purchaseErrorStoreProblem": "Der er opstået en fejl i {storeName}. Prøv igen senere.",
   "purchaseErrorInvalidPayment": "Betalingen mislykkedes. Kontrollér, at din betalingsmetode er gyldig, og prøv igen.",
   "purchaseErrorProductUnavailable": "Den valgte plan er ikke til salg i øjeblikket. Genstart appen, og prøv igen.",
-  "purchaseErrorAlreadyPurchased": "Du har allerede købt et abonnement. Hvis du vil gendanne dine købsoplysninger på denne enhed, skal du vælge „Til dig, der har købt før“.",
+  "purchaseErrorAlreadyPurchased": "Du har allerede købt et abonnement. Hvis du vil gendanne dine købsoplysninger på denne enhed, skal du vælge „Til dig, der har købt tidligere“.",
   "purchaseErrorReceiptInUse": "Allerede købt, eller købsoplysningerne bruges af en anden bruger. Kontrollér {accountName}.",
   "purchaseErrorInvalidReceipt": "Ugyldige købsoplysninger. Kontrollér dine købsoplysninger.",
   "purchaseErrorMissingReceipt": "Der findes ingen oplysninger om køberen. Log ind på denne enhed med {accountName}, og prøv igen.",

@@ -113,7 +113,7 @@
   "purchaseErrorStoreProblem": "Įvyko {storeName} klaida. Pabandykite dar kartą vėliau.",
   "purchaseErrorInvalidPayment": "Mokėjimas nepavyko. Patikrinkite, ar jūsų mokėjimo būdas galioja, ir bandykite dar kartą.",
   "purchaseErrorProductUnavailable": "Pasirinktas planas šiuo metu neparduodamas. Paleiskite programėlę iš naujo ir bandykite dar kartą.",
-  "purchaseErrorAlreadyPurchased": "Šį planą jau įsigijote. Norėdami šiame įrenginyje atkurti pirkimo informaciją, pasirinkite „Jau pirkusiems“.",
+  "purchaseErrorAlreadyPurchased": "Šį planą jau įsigijote. Norėdami atkurti pirkimo informaciją šiame įrenginyje, pasirinkite „Jau įsigijusiems“.",
   "purchaseErrorReceiptInUse": "Jau įsigyta arba pirkimo informaciją naudoja kitas naudotojas. Patikrinkite {accountName}.",
   "purchaseErrorInvalidReceipt": "Pirkimo informacija negalioja. Patikrinkite pirkimo informaciją.",
   "purchaseErrorMissingReceipt": "Pirkėjo informacijos nėra. Prisijunkite prie šio įrenginio naudodami {accountName} ir bandykite dar kartą.",

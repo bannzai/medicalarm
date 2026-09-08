@@ -113,7 +113,7 @@
   "purchaseErrorStoreProblem": "V storitvi {storeName} je prišlo do napake. Poskusite znova pozneje.",
   "purchaseErrorInvalidPayment": "Plačilo ni uspelo. Preverite, ali je vaše plačilno sredstvo veljavno, in poskusite znova.",
   "purchaseErrorProductUnavailable": "Izbrani paket trenutno ni na voljo za nakup. Znova zaženite aplikacijo in poskusite znova.",
-  "purchaseErrorAlreadyPurchased": "Načrt ste že kupili. Če želite v tej napravi obnoviti podatke o nakupu, izberite »Za tiste, ki so že kupili«.­",
+  "purchaseErrorAlreadyPurchased": "Ta paket ste že kupili. Če želite v tej napravi obnoviti podatke o nakupu, izberite »Za tiste, ki so že kupili«. ",
   "purchaseErrorReceiptInUse": "To je že kupljeno ali podatke o nakupu uporablja drug uporabnik. Preverite {accountName}.",
   "purchaseErrorInvalidReceipt": "Podatki o nakupu niso veljavni. Preverite podatke o nakupu.",
   "purchaseErrorMissingReceipt": "Podatki o kupcu ne obstajajo. V tej napravi se prijavite z računom {accountName} in poskusite znova.",

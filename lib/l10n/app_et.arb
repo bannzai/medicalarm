@@ -113,7 +113,7 @@
   "purchaseErrorStoreProblem": "{storeName} puhul ilmnes viga. Proovige hiljem uuesti.",
   "purchaseErrorInvalidPayment": "Makse ebaõnnestus. Kontrollige, kas teie makseviis kehtib, ja proovige uuesti.",
   "purchaseErrorProductUnavailable": "Valitud pakett ei ole praegu müügil. Taaskäivitage rakendus ja proovige uuesti.",
-  "purchaseErrorAlreadyPurchased": "Olete juba plaani ostnud. Ostuteabe taastamiseks selles seadmes valige „Varem ostnud kasutajatele“.",
+  "purchaseErrorAlreadyPurchased": "Olete juba paketi ostnud. Ostuteabe taastamiseks selles seadmes valige „Varem ostnud kasutajatele“.",
   "purchaseErrorReceiptInUse": "Juba ostetud või kasutab ostuteavet teine kasutaja. Kontrollige {accountName}.",
   "purchaseErrorInvalidReceipt": "Ostuteave ei kehti. Kontrolli ostuteavet.",
   "purchaseErrorMissingReceipt": "Ostja teave puudub. Logige selles seadmes sisse kontoga {accountName} ja proovige uuesti.",

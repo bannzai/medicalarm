@@ -113,7 +113,7 @@
   "purchaseErrorStoreProblem": "Bi {storeName} isch e Fähler uftrete. Bitte probier es spöter nomol.",
   "purchaseErrorInvalidPayment": "D’Zahlig isch fehlgschlage. Bitte prüefe, ob dini Zahligsmethode gültig isch, und versuech es nomal.",
   "purchaseErrorProductUnavailable": "De usgwählti Plan isch im Momänt nöd erhältlich. Bitte start d’App neu und versuech’s nomol.",
-  "purchaseErrorAlreadyPurchased": "Sie händ de Plan scho kauft. Zum dini Chaufdate uf dem Gerät wiederherzstelle, wähl «Für die, wo scho kauft händ».",
+  "purchaseErrorAlreadyPurchased": "Du hesch scho en Plan kauft. Zum dini Chauf-Informatione uf däm Gerät wiederhärstelle, wähl «Für alli, wo scho kauft händ».",
   "purchaseErrorReceiptInUse": "Bereits kauft oder d’Kaufinformatione werde vo eme andere Benutzer verwendet. Überprüef {accountName}.",
   "purchaseErrorInvalidReceipt": "Ungültigi Chaufsinformatione. Bitte überprüef dini Chaufsinformatione.",
   "purchaseErrorMissingReceipt": "Es sind kei Käuferdate vorhande. Melde Sie sich uf däm Gerät mit {accountName} aa und probiere Sie es nomol.",

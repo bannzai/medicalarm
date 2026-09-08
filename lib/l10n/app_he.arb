@@ -113,7 +113,7 @@
   "purchaseErrorStoreProblem": "אירעה שגיאה ב־{storeName}. נסו שוב מאוחר יותר.",
   "purchaseErrorInvalidPayment": "התשלום נכשל. יש לוודא שאמצעי התשלום תקף ולנסות שוב.",
   "purchaseErrorProductUnavailable": "התוכנית שנבחרה אינה זמינה לרכישה כרגע. יש להפעיל מחדש את האפליקציה ולנסות שוב.",
-  "purchaseErrorAlreadyPurchased": "כבר רכשת תוכנית. כדי לשחזר את פרטי הרכישה במכשיר הזה, בחר/י „למי שכבר רכשו“.",
+  "purchaseErrorAlreadyPurchased": "כבר רכשת תוכנית. כדי לשחזר את פרטי הרכישה במכשיר הזה, בחרו „למי שכבר רכשו“.",
   "purchaseErrorReceiptInUse": "כבר נרכש, או שפרטי הרכישה נמצאים בשימוש של משתמש אחר. יש לבדוק את {accountName}.",
   "purchaseErrorInvalidReceipt": "פרטי הרכישה אינם תקינים. יש לבדוק את פרטי הרכישה.",
   "purchaseErrorMissingReceipt": "פרטי הרוכש אינם קיימים. יש להתחבר למכשיר הזה באמצעות {accountName} ולנסות שוב.",

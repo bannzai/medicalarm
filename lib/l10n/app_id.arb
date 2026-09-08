@@ -113,7 +113,7 @@
   "purchaseErrorStoreProblem": "Terjadi kesalahan pada {storeName}. Silakan coba lagi nanti.",
   "purchaseErrorInvalidPayment": "Pembayaran gagal. Periksa apakah metode pembayaran Anda valid, lalu coba lagi.",
   "purchaseErrorProductUnavailable": "Paket yang dipilih saat ini tidak tersedia untuk dibeli. Silakan mulai ulang aplikasi dan coba lagi.",
-  "purchaseErrorAlreadyPurchased": "Anda sudah membeli paket. Untuk memulihkan informasi pembelian di perangkat ini, pilih “Untuk yang sudah pernah membeli”.",
+  "purchaseErrorAlreadyPurchased": "Anda sudah membeli paket ini. Untuk memulihkan informasi pembelian di perangkat ini, pilih “Untuk yang sudah pernah membeli”.",
   "purchaseErrorReceiptInUse": "Sudah dibeli atau informasi pembelian sedang digunakan oleh pengguna lain. Periksa {accountName}.",
   "purchaseErrorInvalidReceipt": "Informasi pembelian tidak valid. Periksa informasi pembelian Anda.",
   "purchaseErrorMissingReceipt": "Informasi pembeli tidak tersedia. Masuk ke perangkat ini dengan {accountName}, lalu coba lagi.",

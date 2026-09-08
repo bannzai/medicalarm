@@ -113,7 +113,7 @@
   "purchaseErrorStoreProblem": "An error occurred with {storeName}. Please try again later.",
   "purchaseErrorInvalidPayment": "Payment failed. Please check that your payment method is valid and try again.",
   "purchaseErrorProductUnavailable": "The selected plan is currently unavailable for purchase. Please restart the app and try again.",
-  "purchaseErrorAlreadyPurchased": "You have already purchased a plan. To restore your purchase information on this device, select “For those who purchased before.”",
+  "purchaseErrorAlreadyPurchased": "You have already purchased a plan. To restore your purchase information on this device, select “For those who have purchased before.”",
   "purchaseErrorReceiptInUse": "Already purchased, or the purchase information is being used by another user. Check {accountName}.",
   "purchaseErrorInvalidReceipt": "Invalid purchase information. Please check your purchase information.",
   "purchaseErrorMissingReceipt": "Purchaser information is unavailable. Sign in to this device with {accountName} and try again.",

@@ -113,7 +113,7 @@
   "purchaseErrorStoreProblem": "حدث خطأ في {storeName}. يُرجى المحاولة مرة أخرى لاحقًا.",
   "purchaseErrorInvalidPayment": "فشلت عملية الدفع. يُرجى التحقق من صلاحية طريقة الدفع ثم المحاولة مرة أخرى.",
   "purchaseErrorProductUnavailable": "الخطة المحددة غير متاحة للبيع حاليًا. يُرجى إعادة تشغيل التطبيق والمحاولة مرة أخرى.",
-  "purchaseErrorAlreadyPurchased": "لقد اشتريت خطة بالفعل. لاستعادة معلومات الشراء على هذا الجهاز، اختر «لمن اشتروا من قبل».",
+  "purchaseErrorAlreadyPurchased": "لقد اشتريت خطة بالفعل. لاستعادة معلومات الشراء على هذا الجهاز، اختر «اشتريت سابقًا».",
   "purchaseErrorReceiptInUse": "تم الشراء مسبقًا، أو أن معلومات الشراء مستخدمة من مستخدم آخر. تحقّق من {accountName}.",
   "purchaseErrorInvalidReceipt": "معلومات الشراء غير صالحة. يُرجى التحقق من معلومات الشراء.",
   "purchaseErrorMissingReceipt": "لا توجد معلومات عن المشتري. سجّل الدخول إلى هذا الجهاز باستخدام {accountName} ثم حاول مرة أخرى.",

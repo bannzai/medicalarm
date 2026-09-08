@@ -113,7 +113,7 @@
   "purchaseErrorStoreProblem": "{storeName}发生错误。请稍后重试。",
   "purchaseErrorInvalidPayment": "付款失败。请确认您的付款方式有效后重试。",
   "purchaseErrorProductUnavailable": "所选方案目前不提供购买。请重启应用后重试。",
-  "purchaseErrorAlreadyPurchased": "您已购买过该方案。如需在此设备上恢复购买信息，请选择“之前购买过的用户”。",
+  "purchaseErrorAlreadyPurchased": "您已经购买过套餐。要在此设备上恢复购买信息，请选择“之前购买过的用户”。",
   "purchaseErrorReceiptInUse": "已购买，或购买信息正在被其他用户使用。请检查 {accountName}。",
   "purchaseErrorInvalidReceipt": "购买信息无效。请检查您的购买信息。",
   "purchaseErrorMissingReceipt": "不存在购买者信息。请在此设备上使用 {accountName} 登录后重试。",

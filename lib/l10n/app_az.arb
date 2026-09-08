@@ -113,7 +113,7 @@
   "purchaseErrorStoreProblem": "{storeName} ilə bağlı xəta baş verdi. Zəhmət olmasa, bir az sonra yenidən cəhd edin.",
   "purchaseErrorInvalidPayment": "Ödəniş uğursuz oldu. Zəhmət olmasa, etibarlı ödəniş üsulundan istifadə etdiyinizi yoxlayın və yenidən cəhd edin.",
   "purchaseErrorProductUnavailable": "Seçilmiş plan hazırda satışda deyil. Zəhmət olmasa tətbiqi yenidən başladın və təkrar cəhd edin.",
-  "purchaseErrorAlreadyPurchased": "Siz artıq plan almısınız. Satınalma məlumatınızı bu cihazda bərpa etmək üçün “Əvvəllər satın alanlar buraya” seçimini edin.",
+  "purchaseErrorAlreadyPurchased": "Siz artıq plan almısınız. Alış məlumatınızı bu cihazda bərpa etmək üçün “Əvvəl satın alanlar buradan” seçimini edin.",
   "purchaseErrorReceiptInUse": "Artıq satın alınıb və ya alış məlumatları başqa istifadəçi tərəfindən istifadə olunur. {accountName} hesabını yoxlayın.",
   "purchaseErrorInvalidReceipt": "Satınalma məlumatları etibarsızdır. Zəhmət olmasa, satınalma məlumatlarınızı yoxlayın.",
   "purchaseErrorMissingReceipt": "Alıcı məlumatları mövcud deyil. Bu cihazda {accountName} ilə daxil olun və yenidən cəhd edin.",

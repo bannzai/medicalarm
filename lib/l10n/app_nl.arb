@@ -113,7 +113,7 @@
   "purchaseErrorStoreProblem": "Er is een fout opgetreden bij {storeName}. Probeer het later opnieuw.",
   "purchaseErrorInvalidPayment": "Betaling mislukt. Controleer of je betaalmethode geldig is en probeer het opnieuw.",
   "purchaseErrorProductUnavailable": "Het geselecteerde abonnement is momenteel niet beschikbaar. Start de app opnieuw en probeer het opnieuw.",
-  "purchaseErrorAlreadyPurchased": "U hebt al een abonnement gekocht. Als u uw aankoopgegevens op dit apparaat wilt herstellen, kiest u ‘Voor wie al eerder heeft gekocht’.",
+  "purchaseErrorAlreadyPurchased": "Je hebt al een abonnement gekocht. Kies ‘Voor wie al eerder heeft gekocht’ om je aankoopgegevens op dit apparaat te herstellen.",
   "purchaseErrorReceiptInUse": "Al gekocht of de aankoopgegevens worden door een andere gebruiker gebruikt. Controleer {accountName}.",
   "purchaseErrorInvalidReceipt": "Ongeldige aankoopgegevens. Controleer je aankoopgegevens.",
   "purchaseErrorMissingReceipt": "Er is geen informatie over de koper beschikbaar. Log op dit apparaat in met {accountName} en probeer het opnieuw.",
