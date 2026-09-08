@@ -193,7 +193,7 @@
   "soloGroupName": "Moje skupiny",
   "joinWithInvitationCode": "Připojit se pomocí zvacího kódu",
   "groupCreationLimitReached": "V bezplatném tarifu už nemůžete vytvářet další skupiny.",
-  "increaseGroupLimitWithPremium": "S tarifem Premium můžete vytvářet další skupiny",
+  "increaseGroupLimitWithPremium": "S prémiovým tarifem můžete vytvářet další skupiny",
   "invitationCode": "Zvací kód",
   "invitationCodeShareDescription": "Sdílením tohoto kódu můžete pozvat členy",
   "invitationCodeExpiresAt": "Platnost do: {date}",
