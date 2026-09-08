@@ -172,7 +172,7 @@
   "premiumFeaturesList": "প্রিমিয়াম ফিচারের তালিকা",
   "currentlyInPremiumTrial": "আপনি বর্তমানে প্রিমিয়াম ট্রায়ালে আছেন",
   "medicationPause": "ওষুধ সক্রিয় করুন",
-  "medicationPauseDescription": "বন্ধ করলে এটি ওষুধের স্ক্রিন ও বিজ্ঞপ্তি থেকে বাদ যাবে।",
+  "medicationPauseDescription": "বন্ধ করলে এটি ওষুধ সেবনের স্ক্রিন ও বিজ্ঞপ্তি থেকে বাদ দেওয়া হবে।",
   "medicinePausedSnackbar": "ওষুধ খাওয়া সাময়িকভাবে স্থগিত করা হয়েছে",
   "medicationHistoryDeletedSnackbar": "ওষুধ সেবনের রেকর্ড বাতিল করা হয়েছে",
   "undo": "পূর্বাবস্থায় ফেরান",

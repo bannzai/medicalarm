@@ -172,7 +172,7 @@
   "premiumFeaturesList": "Popis premium značajki",
   "currentlyInPremiumTrial": "Trenutno ste u premium probnom razdoblju",
   "medicationPause": "Omogući lijek",
-  "medicationPauseDescription": "Kada se isključi, lijek će biti uklonjen sa zaslona lijekova i iz obavijesti.",
+  "medicationPauseDescription": "Kada se isključi, lijek će biti uklonjen sa zaslona za uzimanje lijekova i iz obavijesti.",
   "medicinePausedSnackbar": "Uzimanje lijeka privremeno je obustavljeno",
   "medicationHistoryDeletedSnackbar": "Zapis o uzimanju lijeka je poništen",
   "undo": "Poništi",

@@ -172,7 +172,7 @@
   "premiumFeaturesList": "רשימת תכונות פרימיום",
   "currentlyInPremiumTrial": "אתם נמצאים כעת בתקופת ניסיון של Premium",
   "medicationPause": "הפעלת התרופה",
-  "medicationPauseDescription": "בעת כיבוי, התרופה לא תוצג במסך התרופות ולא תישלח בהתראות.",
+  "medicationPauseDescription": "כאשר מכבים זאת, התרופה לא תיכלל במסך התרופות ובהתראות.",
   "medicinePausedSnackbar": "נטילת התרופה הושהתה זמנית",
   "medicationHistoryDeletedSnackbar": "רישום נטילת התרופה בוטל",
   "undo": "בטל",

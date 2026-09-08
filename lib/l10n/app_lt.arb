@@ -172,7 +172,7 @@
   "premiumFeaturesList": "Aukščiausios klasės funkcijų sąrašas",
   "currentlyInPremiumTrial": "Šiuo metu naudojate „Premium“ bandomąją versiją",
   "medicationPause": "Įjungti vaistų vartojimą",
-  "medicationPauseDescription": "Išjungus, vaistas bus pašalintas iš vaistų ekrano ir pranešimų.",
+  "medicationPauseDescription": "Išjungus, vaistas nebebus rodomas vaistų ekrane ir pranešimuose.",
   "medicinePausedSnackbar": "Vaistų vartojimas laikinai pristabdytas",
   "medicationHistoryDeletedSnackbar": "Vaistų vartojimo įrašas atšauktas",
   "undo": "Anuliuoti",

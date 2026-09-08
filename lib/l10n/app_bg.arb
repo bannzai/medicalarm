@@ -172,7 +172,7 @@
   "premiumFeaturesList": "Списък с премиум функции",
   "currentlyInPremiumTrial": "В момента сте в премиум пробен период",
   "medicationPause": "Активиране на лекарството",
-  "medicationPauseDescription": "При изключване лекарството ще бъде премахнато от екрана за лекарства и известията.",
+  "medicationPauseDescription": "При изключване лекарството ще бъде премахнато от екрана за прием и от известията.",
   "medicinePausedSnackbar": "Приемът на лекарството е временно преустановен",
   "medicationHistoryDeletedSnackbar": "Записът за приема на лекарството е отменен",
   "undo": "Отмяна",

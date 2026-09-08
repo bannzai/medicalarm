@@ -172,7 +172,7 @@
   "premiumFeaturesList": "Lista premium funkcija",
   "currentlyInPremiumTrial": "Trenutno ste u premium probnom periodu",
   "medicationPause": "Omogući lijek",
-  "medicationPauseDescription": "Kada se isključi, lijek se uklanja sa ekrana lijekova i iz obavijesti.",
+  "medicationPauseDescription": "Kada se isključi, lijek će biti uklonjen sa ekrana za uzimanje lijekova i iz obavještenja.",
   "medicinePausedSnackbar": "Uzimanje lijeka je privremeno obustavljeno",
   "medicationHistoryDeletedSnackbar": "Zapis o uzimanju lijeka je poništen",
   "undo": "Poništi",

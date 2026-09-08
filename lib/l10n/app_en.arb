@@ -172,7 +172,7 @@
   "premiumFeaturesList": "Premium Features",
   "currentlyInPremiumTrial": "You are currently on a premium trial",
   "medicationPause": "Enable medication",
-  "medicationPauseDescription": "When off, this medicine is hidden from the daily list and notifications.",
+  "medicationPauseDescription": "When turned off, it will be excluded from the medication screen and notifications.",
   "medicinePausedSnackbar": "Paused this medication",
   "medicationHistoryDeletedSnackbar": "Medication record removed",
   "undo": "Undo",

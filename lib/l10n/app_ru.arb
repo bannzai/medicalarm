@@ -172,7 +172,7 @@
   "premiumFeaturesList": "Список премиум-функций",
   "currentlyInPremiumTrial": "Сейчас вы используете пробный период Premium",
   "medicationPause": "Включить приём лекарства",
-  "medicationPauseDescription": "После отключения препарат будет исключён из экрана лекарств и уведомлений.",
+  "medicationPauseDescription": "При отключении препарат будет исключён из экрана приёма лекарств и уведомлений.",
   "medicinePausedSnackbar": "Приём лекарства временно приостановлен",
   "medicationHistoryDeletedSnackbar": "Запись о приёме лекарства отменена",
   "undo": "Отменить",

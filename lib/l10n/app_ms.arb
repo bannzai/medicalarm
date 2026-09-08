@@ -172,7 +172,7 @@
   "premiumFeaturesList": "Senarai ciri premium",
   "currentlyInPremiumTrial": "Anda sedang menggunakan percubaan premium",
   "medicationPause": "Aktifkan ubat",
-  "medicationPauseDescription": "Apabila dimatikan, ubat ini akan dikecualikan daripada skrin ubat dan pemberitahuan.",
+  "medicationPauseDescription": "Apabila dimatikan, ubat ini tidak akan dipaparkan pada skrin ubat dan dalam pemberitahuan.",
   "medicinePausedSnackbar": "Pengambilan ubat dijeda buat sementara",
   "medicationHistoryDeletedSnackbar": "Rekod pengambilan ubat telah dibatalkan",
   "undo": "Buat asal",

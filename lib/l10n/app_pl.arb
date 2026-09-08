@@ -172,7 +172,7 @@
   "premiumFeaturesList": "Lista funkcji premium",
   "currentlyInPremiumTrial": "Obecnie korzystasz z wersji próbnej Premium",
   "medicationPause": "Włącz lek",
-  "medicationPauseDescription": "Po wyłączeniu lek zostanie usunięty z ekranu leków i powiadomień.",
+  "medicationPauseDescription": "Po wyłączeniu lek zostanie wykluczony z ekranu leków i powiadomień.",
   "medicinePausedSnackbar": "Przyjmowanie leku zostało tymczasowo wstrzymane",
   "medicationHistoryDeletedSnackbar": "Cofnięto zapis przyjęcia leku",
   "undo": "Cofnij",

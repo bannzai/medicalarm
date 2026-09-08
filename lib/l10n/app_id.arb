@@ -172,7 +172,7 @@
   "premiumFeaturesList": "Daftar fitur premium",
   "currentlyInPremiumTrial": "Saat ini Anda sedang dalam uji coba premium",
   "medicationPause": "Aktifkan obat",
-  "medicationPauseDescription": "Jika dinonaktifkan, obat ini akan dikecualikan dari layar obat dan notifikasi.",
+  "medicationPauseDescription": "Jika dinonaktifkan, obat ini tidak akan ditampilkan di layar obat dan notifikasi.",
   "medicinePausedSnackbar": "Konsumsi obat dihentikan sementara",
   "medicationHistoryDeletedSnackbar": "Catatan minum obat dibatalkan",
   "undo": "Urungkan",
