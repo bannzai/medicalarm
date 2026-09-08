@@ -70,7 +70,7 @@
   "followupNotificationDescription": "Jika Anda tidak mencatat bahwa obat telah diminum dalam 30 menit setelah notifikasi pertama, notifikasi tindak lanjut akan dikirim.",
   "enableNotificationInSilentMode": "Kirim notifikasi dalam mode senyap",
   "silentModeNotificationDescription": "Meskipun mode Fokus aktif atau perangkat dalam mode senyap, peringatan kritis tetap muncul di Layar Terkunci dan memutar suara.",
-  "everyXDaysFormat": "setiap {count} hari",
+  "everyXDaysFormat": "Setiap {count} hari",
   "cycleDaysFormat": "{consecutiveDays} hari pemakaian/{restDays} hari berhenti",
   "consecutiveDaysFormat": "{count} hari minum",
   "restDaysFormat": "{count} hari tidak minum obat",

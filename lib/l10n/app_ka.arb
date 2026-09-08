@@ -70,7 +70,7 @@
   "followupNotificationDescription": "თუ პირველი შეტყობინებიდან 30 წუთის განმავლობაში არ დააფიქსირებთ წამლის მიღებას, გაიგზავნება დამატებითი შეტყობინება.",
   "enableNotificationInSilentMode": "შეტყობინებების გაგზავნა უხმო რეჟიმშიც",
   "silentModeNotificationDescription": "მაშინაც კი, როცა ფოკუსის რეჟიმი ჩართულია ან მოწყობილობა დადუმებულია, კრიტიკული შეტყობინებები გამოჩნდება დაბლოკვის ეკრანზე და ხმა ჩაირთვება.",
-  "everyXDaysFormat": "{count} დღის საფუძველზე",
+  "everyXDaysFormat": "ყოველ {count} დღეში",
   "cycleDaysFormat": "{consecutiveDays} დღის მიღება/{restDays} დღის შესვენება",
   "consecutiveDaysFormat": "{count} დღის აღების",
   "restDaysFormat": "{count} დღის განმავლობაში მედიკამენტების მიღება შეწყვეტილია",

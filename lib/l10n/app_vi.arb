@@ -70,7 +70,7 @@
   "followupNotificationDescription": "Nếu bạn không ghi nhận việc uống thuốc trong vòng 30 phút kể từ thông báo đầu tiên, một thông báo nhắc lại sẽ được gửi.",
   "enableNotificationInSilentMode": "Gửi thông báo ngay cả ở chế độ im lặng",
   "silentModeNotificationDescription": "Ngay cả khi bật chế độ Tập trung hoặc thiết bị đang ở chế độ im lặng, cảnh báo quan trọng vẫn hiển thị trên Màn hình khóa và phát âm thanh.",
-  "everyXDaysFormat": "{count} ngày một lần",
+  "everyXDaysFormat": "Mỗi {count} ngày",
   "cycleDaysFormat": "{consecutiveDays} ngày uống/{restDays} ngày nghỉ thuốc",
   "consecutiveDaysFormat": "{count} ngày sử dụng",
   "restDaysFormat": "{count} ngày không dùng thuốc",

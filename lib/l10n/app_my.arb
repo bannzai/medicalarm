@@ -70,7 +70,7 @@
   "followupNotificationDescription": "ပထမဆုံး အသိပေးချက်မှ မိနစ် ၃၀ အတွင်း ဆေးသောက်ပြီးကြောင်း မှတ်တမ်းမတင်ပါက နောက်ဆက်တွဲ အသိပေးချက်တစ်စောင် ပို့ပါမည်။",
   "enableNotificationInSilentMode": "အသံတိတ်မုဒ်တွင်လည်း အကြောင်းကြားချက်ပို့ရန်",
   "silentModeNotificationDescription": "Focus Mode ဖွင့်ထားချိန် သို့မဟုတ် စက်အသံပိတ်ထားချိန်တွင်ပင် အရေးကြီးသတိပေးချက်များကို လော့ခ်မျက်နှာပြင်ပေါ်တွင် ပြသပြီး အသံဖွင့်ပေးသည်။",
-  "everyXDaysFormat": "{count} hari",
+  "everyXDaysFormat": "{count} ရက်တစ်ကြိမ်",
   "cycleDaysFormat": "{consecutiveDays} နေ့  သောက်ခြင်း/{restDays} နေ့  တားထားခြင်း",
   "consecutiveDaysFormat": "{count} hari pengambilan",
   "restDaysFormat": "{count} hari tanpa mengambil ubat",

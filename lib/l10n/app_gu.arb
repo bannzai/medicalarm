@@ -70,7 +70,7 @@
   "followupNotificationDescription": "પ્રથમ સૂચનાના 30 મિનિટમાં દવા લીધી હોવાનું નોંધવામાં નહીં આવે તો અનુસૂચના મોકલવામાં આવશે.",
   "enableNotificationInSilentMode": "સાયલન્ટ મોડમાં પણ સૂચના આપો",
   "silentModeNotificationDescription": "ફોકસ મોડ ચાલુ હોય અથવા ડિવાઇસ સાઇલન્ટ હોય ત્યારે પણ, ગંભીર સૂચનાઓ લૉક સ્ક્રીન પર દેખાશે અને અવાજ વાગશે.",
-  "everyXDaysFormat": "{count}દિવસમાં",
+  "everyXDaysFormat": "દર {count} દિવસે",
   "cycleDaysFormat": "{consecutiveDays}દિવસોનો ઉપયોગ/{restDays}દિવસોનો આરામ",
   "consecutiveDaysFormat": "{count} દિવસો સુધી લેહે",
   "restDaysFormat": "{count} દિવસ રોગટુટ",

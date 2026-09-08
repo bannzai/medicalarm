@@ -70,7 +70,7 @@
   "followupNotificationDescription": "Dacă nu înregistrați administrarea medicamentului în termen de 30 de minute de la prima notificare, va fi trimisă o notificare de urmărire.",
   "enableNotificationInSilentMode": "Trimite notificări și în modul silențios",
   "silentModeNotificationDescription": "Chiar și când modul Concentrare este activat sau dispozitivul este pe silențios, alertele critice sunt afișate pe ecranul de blocare și se redă un sunet.",
-  "everyXDaysFormat": "la fiecare {count} zile",
+  "everyXDaysFormat": "La fiecare {count} zile",
   "cycleDaysFormat": "{consecutiveDays} zile de administrare/{restDays} zile de pauză",
   "consecutiveDaysFormat": "{count} zile de utilizare",
   "restDaysFormat": "{count} zile fără medicamente",

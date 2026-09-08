@@ -70,7 +70,7 @@
   "followupNotificationDescription": "Ja 30 minūšu laikā pēc pirmā paziņojuma nereģistrēsiet zāļu lietošanu, tiks nosūtīts atkārtots paziņojums.",
   "enableNotificationInSilentMode": "Rādīt paziņojumus arī klusuma režīmā",
   "silentModeNotificationDescription": "Pat ja fokusa režīms ir ieslēgts vai ierīce ir klusuma režīmā, kritiskie paziņojumi tiek rādīti bloķēšanas ekrānā un tiek atskaņota skaņa.",
-  "everyXDaysFormat": "{count} dienu intervāls",
+  "everyXDaysFormat": "Ik pēc {count} dienām",
   "cycleDaysFormat": "{consecutiveDays} dienas lietošanas / {restDays} dienas pārtraukuma",
   "consecutiveDaysFormat": "{count} dienas lietošana",
   "restDaysFormat": "{count} dienas bez zālēm",

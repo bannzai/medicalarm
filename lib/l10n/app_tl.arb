@@ -70,7 +70,7 @@
   "followupNotificationDescription": "Kung hindi mo itatala ang pag-inom ng gamot sa loob ng 30 minuto mula sa unang notification, magpapadala ng follow-up notification.",
   "enableNotificationInSilentMode": "Magpadala rin ng mga abiso sa silent mode",
   "silentModeNotificationDescription": "Kahit naka-on ang Focus mode o naka-silent ang device, lalabas ang mga kritikal na alerto sa Lock Screen at magpe-play ang tunog.",
-  "everyXDaysFormat": "{count} araw-araw",
+  "everyXDaysFormat": "Bawat {count} araw",
   "cycleDaysFormat": "{consecutiveDays} araw na pag-inom/{restDays} araw na pahinga",
   "consecutiveDaysFormat": "{count} araw na pag-inom",
   "restDaysFormat": "{count} araw na walang pag-inom",

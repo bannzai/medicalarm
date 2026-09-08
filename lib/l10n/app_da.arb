@@ -70,7 +70,7 @@
   "followupNotificationDescription": "Hvis du ikke registrerer, at du har taget medicinen, inden for 30 minutter efter den første notifikation, sendes en opfølgende notifikation.",
   "enableNotificationInSilentMode": "Send også notifikationer i lydløs tilstand",
   "silentModeNotificationDescription": "Selv når Fokus er slået til, eller enheden er på lydløs, vises kritiske notifikationer på låseskærmen, og der afspilles en lyd.",
-  "everyXDaysFormat": "{count} dage",
+  "everyXDaysFormat": "Hver {count}. dag",
   "cycleDaysFormat": "{consecutiveDays} dages medicin/{restDays} dages pause",
   "consecutiveDaysFormat": "{count} dages indtagelse",
   "restDaysFormat": "{count} dages pause forbrug",

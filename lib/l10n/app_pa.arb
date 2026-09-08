@@ -70,7 +70,7 @@
   "followupNotificationDescription": "ਜੇਕਰ ਤੁਸੀਂ ਪਹਿਲੀ ਸੂਚਨਾ ਤੋਂ 30 ਮਿੰਟਾਂ ਦੇ ਅੰਦਰ ਦਵਾਈ ਲੈਣ ਦਾ ਰਿਕਾਰਡ ਨਹੀਂ ਕਰਦੇ, ਤਾਂ ਇੱਕ ਫਾਲੋ-ਅੱਪ ਸੂਚਨਾ ਭੇਜੀ ਜਾਵੇਗੀ।",
   "enableNotificationInSilentMode": "ਸਾਈਲੈਂਟ ਮੋਡ ਵਿੱਚ ਵੀ ਸੂਚਨਾ ਭੇਜੋ",
   "silentModeNotificationDescription": "ਫੋਕਸ ਮੋਡ ਚਾਲੂ ਹੋਣ ਜਾਂ ਡਿਵਾਈਸ ਸਾਈਲੈਂਟ ਹੋਣ ਦੇ ਬਾਵਜੂਦ, ਗੰਭੀਰ ਚੇਤਾਵਨੀਆਂ ਲੌਕ ਸਕ੍ਰੀਨ 'ਤੇ ਦਿਖਾਈ ਦਿੰਦੀਆਂ ਹਨ ਅਤੇ ਆਵਾਜ਼ ਚਲਦੀ ਹੈ।",
-  "everyXDaysFormat": "{count} ਦਿਨਾਂ ਵਿੱਚ",
+  "everyXDaysFormat": "ਹਰ {count} ਦਿਨਾਂ ਬਾਅਦ",
   "cycleDaysFormat": "{consecutiveDays} ਰੋਜ਼ਾਂ ਦੀ ਦਵਾਈ/{restDays} ਰੋਜ਼ਾਂ ਦੀ ਛੁੱਟੀ",
   "consecutiveDaysFormat": "{count} ਦਿਨਾਂ ਦੀ ਖੁਰਾਕ",
   "restDaysFormat": "{count} ਦਿਨਾਂ ਲਈ ਦਵਾਈ ਲੈਣ ਤੋਂ ਪਰاهیਤ",

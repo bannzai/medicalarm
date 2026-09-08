@@ -70,7 +70,7 @@
   "followupNotificationDescription": "ಮೊದಲ ಅಧಿಸೂಚನೆಯ 30 ನಿಮಿಷಗಳ ಒಳಗೆ ಔಷಧಿ ತೆಗೆದುಕೊಂಡಿರುವುದನ್ನು ದಾಖಲಿಸದಿದ್ದರೆ, ಅನುಸರಣೆ ಅಧಿಸೂಚನೆಯನ್ನು ಕಳುಹಿಸಲಾಗುತ್ತದೆ.",
   "enableNotificationInSilentMode": "ಸೈಲೆಂಟ್ ಮೋಡ್‌ನಲ್ಲಿಯೂ ಅಧಿಸೂಚನೆ ಕಳುಹಿಸಿ",
   "silentModeNotificationDescription": "ಫೋಕಸ್ ಮೋಡ್ ಆನ್ ಆಗಿದ್ದರೂ ಅಥವಾ ಸಾಧನ ಸೈಲೆಂಟ್‌ನಲ್ಲಿದ್ದರೂ, ಪ್ರಮುಖ ಎಚ್ಚರಿಕೆಗಳು ಲಾಕ್ ಸ್ಕ್ರೀನ್‌ನಲ್ಲಿ ಕಾಣಿಸುತ್ತವೆ ಮತ್ತು ಧ್ವನಿ ಪ್ಲೇ ಆಗುತ್ತದೆ.",
-  "everyXDaysFormat": "{count}ದಿನಕ್ಕೊಮ್ಮೆ",
+  "everyXDaysFormat": "ಪ್ರತಿ {count} ದಿನಗಳಿಗೊಮ್ಮೆ",
   "cycleDaysFormat": "{consecutiveDays} ದಿನಗಳ ಎತ್ತುವಿಕೆ/{restDays} ದಿನಗಳ ವಿಶ್ರಾಂತಿ",
   "consecutiveDaysFormat": "{count}ದಿನಗಳಿಗೂ",
   "restDaysFormat": "{count}ದಿನ ಔಷಧ ತೆಗೆದುಕೊಳ್ಳುವಿಕೆ ತಪ್ಪಿಸಿ",

@@ -70,7 +70,7 @@
   "followupNotificationDescription": "Se não registar a toma do medicamento no prazo de 30 minutos após a primeira notificação, será enviada uma notificação de seguimento.",
   "enableNotificationInSilentMode": "Enviar notificações mesmo no modo silencioso",
   "silentModeNotificationDescription": "Mesmo quando o modo Concentração está ativado ou o dispositivo está no modo silencioso, os alertas críticos aparecem no ecrã bloqueado e reproduzem um som.",
-  "everyXDaysFormat": "a cada {count} dias",
+  "everyXDaysFormat": "A cada {count} dias",
   "cycleDaysFormat": "{consecutiveDays} dias de uso/{restDays} dias de pausa",
   "consecutiveDaysFormat": "{count} dias de uso",
   "restDaysFormat": "{count} dias sem medicação",

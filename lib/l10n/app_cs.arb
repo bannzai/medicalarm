@@ -70,7 +70,7 @@
   "followupNotificationDescription": "Pokud do 30 minut od prvního upozornění nezaznamenáte užití léku, bude odesláno následné upozornění.",
   "enableNotificationInSilentMode": "Upozorňovat i v tichém režimu",
   "silentModeNotificationDescription": "I když je zapnutý režim Soustředění nebo je zařízení ztlumené, kritická oznámení se zobrazí na zamčené obrazovce a přehraje se zvuk.",
-  "everyXDaysFormat": "{count} dní",
+  "everyXDaysFormat": "Každých {count} dní",
   "cycleDaysFormat": "{consecutiveDays} dní užívání/{restDays} dní pauzy",
   "consecutiveDaysFormat": "{count} dní užívání",
   "restDaysFormat": "{count} dní bez léků",

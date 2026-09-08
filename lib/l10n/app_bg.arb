@@ -70,7 +70,7 @@
   "followupNotificationDescription": "Ако не отчетете приема на лекарството в рамките на 30 минути след първото известие, ще бъде изпратено последващо известие.",
   "enableNotificationInSilentMode": "Известия и в безшумен режим",
   "silentModeNotificationDescription": "Дори когато режимът „Фокус“ е включен или устройството е без звук, критичните известия се показват на заключения екран и се възпроизвежда звук.",
-  "everyXDaysFormat": "{count} дни",
+  "everyXDaysFormat": "На всеки {count} дни",
   "cycleDaysFormat": "{consecutiveDays} дни прием / {restDays} дни почивка",
   "consecutiveDaysFormat": "{count} дни на прием",
   "restDaysFormat": "{count} дни пропуснати лекарства",

@@ -70,7 +70,7 @@
   "followupNotificationDescription": "İlk bildirimden sonraki 30 dakika içinde ilaç aldığınızı kaydetmezseniz takip bildirimi gönderilir.",
   "enableNotificationInSilentMode": "Sessiz modda da bildirim gönder",
   "silentModeNotificationDescription": "Odak modu açık veya cihaz sessizde olsa bile kritik uyarılar Kilit Ekranı'nda gösterilir ve ses çalınır.",
-  "everyXDaysFormat": "{count} günde bir kez",
+  "everyXDaysFormat": "Her {count} günde bir",
   "cycleDaysFormat": "{consecutiveDays} gün ilaç kullanımı/{restDays} gün ara",
   "consecutiveDaysFormat": "{count} gün kullanıldı",
   "restDaysFormat": "{count} gün ilaç almadı",

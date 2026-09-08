@@ -70,7 +70,7 @@
   "followupNotificationDescription": "প্ৰথম জাননীৰ পৰা ৩০ মিনিটৰ ভিতৰত ঔষধ সেৱন কৰা বুলি নথিভুক্ত নকৰিলে, এটা অনুসৰণমূলক জাননী পঠিওৱা হ’ব।",
   "enableNotificationInSilentMode": "নিৰৱ অৱস্থাতো জাননী পঠিয়াওক",
   "silentModeNotificationDescription": "ফ’কাছ মোড ON থাকিলেও বা ডিভাইচটো নিঃশব্দ থাকিলেও, গুৰুত্বপূৰ্ণ জাননী লক স্ক্ৰীণত প্ৰদৰ্শিত হয় আৰু শব্দ বজে।",
-  "everyXDaysFormat": "{count} দিনৰ অন্তৰত",
+  "everyXDaysFormat": "প্ৰতি {count} দিনৰ মূৰে মূৰে",
   "cycleDaysFormat": "{consecutiveDays} দিন সেবন/{restDays} দিন বিরতি",
   "consecutiveDaysFormat": "{count} দিন সেবন",
   "restDaysFormat": "{count} দিন ঔষধ গ্রহণ বন্ধ",

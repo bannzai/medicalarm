@@ -70,7 +70,7 @@
   "followupNotificationDescription": "Якщо ви не зафіксуєте прийом ліків протягом 30 хвилин після першого сповіщення, буде надіслано повторне сповіщення.",
   "enableNotificationInSilentMode": "Сповіщати навіть у беззвучному режимі",
   "silentModeNotificationDescription": "Навіть коли режим «Фокусування» увімкнено або пристрій переведено в беззвучний режим, критичні сповіщення відображаються на екрані блокування та відтворюється звук.",
-  "everyXDaysFormat": "every {count} days",
+  "everyXDaysFormat": "Кожні {count} днів",
   "cycleDaysFormat": "{consecutiveDays} days taken/{restDays} days off",
   "consecutiveDaysFormat": "{count} days of medication",
   "restDaysFormat": "{count} days without medication",

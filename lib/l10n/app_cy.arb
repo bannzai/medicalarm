@@ -70,7 +70,7 @@
   "followupNotificationDescription": "Os na fyddwch yn cofnodi eich bod wedi cymryd y feddyginiaeth o fewn 30 munud i’r hysbysiad cyntaf, anfonir hysbysiad dilynol.",
   "enableNotificationInSilentMode": "Anfon hysbysiadau yn y modd tawel hefyd",
   "silentModeNotificationDescription": "Hyd yn oed pan fo’r Modd Ffocws YMLAEN neu pan fo’r ddyfais yn dawel, caiff hysbysiadau critigol eu dangos ar y sgrin glo a chaiff sain ei chwarae.",
-  "everyXDaysFormat": "cada {count} diwrnod",
+  "everyXDaysFormat": "Bob {count} diwrnod",
   "cycleDaysFormat": "{consecutiveDays} diwrnod yn cymryd / {restDays} diwrnod yn seibiant",
   "consecutiveDaysFormat": "{count} diwrnod o feddiant",
   "restDaysFormat": "{count} diwrnod heb gymryd meddyginiaeth",

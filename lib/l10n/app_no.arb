@@ -70,7 +70,7 @@
   "followupNotificationDescription": "Hvis du ikke registrerer at du har tatt medisinen innen 30 minutter etter det første varselet, sendes et oppfølgingsvarsel.",
   "enableNotificationInSilentMode": "Varsle også i stillemodus",
   "silentModeNotificationDescription": "Selv når Fokus er på eller enheten er satt på lydløs, vises kritiske varsler på låst skjerm, og en lyd spilles av.",
-  "everyXDaysFormat": "hver {count} dag",
+  "everyXDaysFormat": "Hver {count}. dag",
   "cycleDaysFormat": "{consecutiveDays} dager med medisinering / {restDays} dager uten medisinering",
   "consecutiveDaysFormat": "{count} dager med medisinering",
   "restDaysFormat": "{count} dager uten medisin",

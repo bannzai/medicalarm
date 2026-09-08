@@ -70,7 +70,7 @@
   "followupNotificationDescription": "Als u het innemen van uw medicijn niet binnen 30 minuten na de eerste melding registreert, wordt er een vervolgmelding verzonden.",
   "enableNotificationInSilentMode": "Ook in de stille modus meldingen sturen",
   "silentModeNotificationDescription": "Ook als de focusmodus is ingeschakeld of het apparaat stil is, worden kritieke meldingen op het vergrendelscherm weergegeven en klinkt er een geluid.",
-  "everyXDaysFormat": "{count} dagen",
+  "everyXDaysFormat": "Elke {count} dagen",
   "cycleDaysFormat": "{consecutiveDays} dagen innemen/{restDays} dagen pauze",
   "consecutiveDaysFormat": "{count} dagen inname",
   "restDaysFormat": "{count} dagen zonder medicatie",

@@ -70,7 +70,7 @@
   "followupNotificationDescription": "如果您在首次通知后的30分钟内未记录服药，将发送后续通知。",
   "enableNotificationInSilentMode": "静音模式下也发送通知",
   "silentModeNotificationDescription": "即使专注模式已开启或设备处于静音状态，重要提醒仍会显示在锁定屏幕上并播放声音。",
-  "everyXDaysFormat": "每{count}天",
+  "everyXDaysFormat": "每 {count} 天",
   "cycleDaysFormat": "{consecutiveDays}天服用/{restDays}天休薬",
   "consecutiveDaysFormat": "{count}天服用",
   "restDaysFormat": "{count}天未服用",
