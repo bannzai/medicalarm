@@ -210,7 +210,7 @@
   "removeMemberConfirmTitle": "გსურთ წევრის წაშლა?",
   "removeMemberConfirmMessage": "{name}-ის ჯგუფიდან წაშლა",
   "joinGroup": "ჯგუფში გაწევრიანება",
-  "invitationCodeInputLabel": "მოსაწვევი კოდი (8 სიმბოლო)",
+  "invitationCodeInputLabel": "მოწვევის კოდი (8 სიმბოლო)",
   "invitationCodeInputHint": "შეიყვანეთ 8-სიმბოლოიანი კოდი",
   "join": "შეერთება",
   "recordedByMember": "ჩაიწერა {name}-ის მიერ",

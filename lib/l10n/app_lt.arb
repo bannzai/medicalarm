@@ -210,7 +210,7 @@
   "removeMemberConfirmTitle": "Ar pašalinti narį?",
   "removeMemberConfirmMessage": "Pašalinti {name} iš grupės",
   "joinGroup": "Prisijungti prie grupės",
-  "invitationCodeInputLabel": "Pakvietimo kodas (8 simboliai)",
+  "invitationCodeInputLabel": "Kvietimo kodas (8 simboliai)",
   "invitationCodeInputHint": "Įveskite 8 simbolių kodą",
   "join": "Prisijungti",
   "recordedByMember": "Užregistravo {name}",

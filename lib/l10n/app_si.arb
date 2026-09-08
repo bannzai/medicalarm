@@ -210,7 +210,7 @@
   "removeMemberConfirmTitle": "සාමාජිකයා ඉවත් කරන්නද?",
   "removeMemberConfirmMessage": "සමූහයෙන් {name} ඉවත් කරන්න",
   "joinGroup": "සමූහයට එක්වන්න",
-  "invitationCodeInputLabel": "ආරාධනා කේතය (අක්ෂර 8යි)",
+  "invitationCodeInputLabel": "ආරාධනා කේතය (අක්ෂර 8)",
   "invitationCodeInputHint": "අක්ෂර 8ක කේතය ඇතුළත් කරන්න",
   "join": "එක්වන්න",
   "recordedByMember": "{name} විසින් සටහන් කරන ලදී",
