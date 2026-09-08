@@ -117,7 +117,7 @@
   "purchaseErrorReceiptInUse": "Artıq satın alınıb və ya alış məlumatları başqa istifadəçi tərəfindən istifadə olunur. {accountName} hesabını yoxlayın.",
   "purchaseErrorInvalidReceipt": "Satınalma məlumatları etibarsızdır. Zəhmət olmasa, satınalma məlumatlarınızı yoxlayın.",
   "purchaseErrorMissingReceipt": "Alıcı məlumatları mövcud deyil. Bu cihazda {accountName} ilə daxil olun və yenidən cəhd edin.",
-  "purchaseErrorNetwork": "Şəbəkə vəziyyəti qeyri-sabitdir. Xahiş edirik, bağlantı vəziyyətini yoxlayın və yenidən cəhd edin.",
+  "purchaseErrorNetwork": "Şəbəkə bağlantısı qeyri-sabitdir. Bağlantını yoxlayın və yenidən cəhd edin.",
   "purchaseNotAllowed": "Bu cihazda alış-verişə icazə verilmir.",
   "purchaseErrorInvalidCredentials": "Alış-verişdə uğursuz oldu. Zəhmət olmasa bir az gözləyin və yenidən cəhd edin. Hələ də probleminiz həll olunmazsa, {message} bölməsindən Əlavə > Sorğu ilə bizimlə əlaqə saxlayın.",
   "purchaseErrorUnexpectedBackend": "Hal-hazırda satın alma mümkün deyil. Zaman ayırın və yenidən cəhd edin. Hələ də həll olunmursa, ayarlar > Sorğu bölməsindən bizimlə əlaqə saxlayın. Ətraflı: {message}",

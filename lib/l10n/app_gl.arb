@@ -117,7 +117,7 @@
   "purchaseErrorReceiptInUse": "Xa se comprou ou outro usuario está a usar a información da compra. Comproba {accountName}.",
   "purchaseErrorInvalidReceipt": "A información da compra non é válida. Comproba a información da compra.",
   "purchaseErrorMissingReceipt": "Non hai información do comprador. Inicia sesión neste dispositivo con {accountName} e téntao de novo.",
-  "purchaseErrorNetwork": "A conexión á rede é inestable. Comproba a túa conexión e intenta de novo.",
+  "purchaseErrorNetwork": "A conexión de rede é inestable. Comproba a conexión e téntao de novo.",
   "purchaseNotAllowed": "Esta dispositivo non ten permiso para realizar compras.",
   "purchaseErrorInvalidCredentials": "Non se pudo completar a compra. Espere un momento e intente de novo. Se o problema persiste, póñase en contacto connosco a través de Configuración > Consultas. Detalles: {message}",
   "purchaseErrorUnexpectedBackend": "Non se poden realizar compras actualmente. Déixeo un tempo e volva a intentálo. Se o problema persiste, póñase en contacto con nós a través de Configuración > Consulta. Detalle: {message}",

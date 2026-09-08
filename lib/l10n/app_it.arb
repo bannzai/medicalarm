@@ -117,7 +117,7 @@
   "purchaseErrorReceiptInUse": "Già acquistato oppure le informazioni sull’acquisto sono utilizzate da un altro utente. Controlla {accountName}.",
   "purchaseErrorInvalidReceipt": "Informazioni di acquisto non valide. Controlla le informazioni di acquisto.",
   "purchaseErrorMissingReceipt": "Le informazioni sull’acquirente non esistono. Accedi a questo dispositivo con {accountName} e riprova.",
-  "purchaseErrorNetwork": "Lo stato di rete è instabile. Controlla la connessione e riprova.",
+  "purchaseErrorNetwork": "La connessione di rete è instabile. Controlla la connessione e riprova.",
   "purchaseNotAllowed": "Gli acquisti su questo dispositivo non sono consentiti.",
   "purchaseErrorInvalidCredentials": "L'acquisto è fallito. Attendere un attimo e riprovare. Se il problema persiste, contattaci tramite Impostazioni > Contattaci. Dettagli: {message}",
   "purchaseErrorUnexpectedBackend": "Attualmente non è possibile effettuare acquisti. Si prega di riprovare dopo un po'. Se il problema persiste, contattaci tramite Impostazioni > Contattaci. Dettagli: {message}",

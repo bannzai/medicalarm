@@ -117,7 +117,7 @@
   "purchaseErrorReceiptInUse": "Sekuthengiwe, noma ulwazi lokuthenga lusetshenziswa ngomunye umsebenzisi. Hlola i-{accountName}.",
   "purchaseErrorInvalidReceipt": "Ulwazi lokuthenga aluvumelekile. Sicela uhlole ulwazi lwakho lokuthenga.",
   "purchaseErrorMissingReceipt": "Alukho ulwazi lomthengi. Ngena kule divayisi usebenzisa i-{accountName}, bese uzama futhi.",
-  "purchaseErrorNetwork": "Isimo senethiwekhi asiqinile. Sicela uhlole isimo sokuxhumana ngaphambi kokuzama.",
+  "purchaseErrorNetwork": "Uxhumano lwenethiwekhi aluzinzile. Hlola uxhumano bese uzama futhi.",
   "purchaseNotAllowed": "Le ukuthenga kule divayisi akuvumelekile.",
   "purchaseErrorInvalidCredentials": "Thengiso abelwanga. Ngicela uzame futhi emva kwesikhashana. Uma ingaxazululeki, sicela uxhumane nathi ngokusebenzisa Izilungiselelo > Ukuxhumana. Imininingwane: {message}",
   "purchaseErrorUnexpectedBackend": "Okwamanje awukwazi ukwenza ukuthenga. Sicela uphumule kancane bese uzama futhi. Uma inkinga ingaxazululeki, sicela uxhumane nathi ngezinketho > Xhumana. Imininingwane: {message}",

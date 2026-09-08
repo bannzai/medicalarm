@@ -117,7 +117,7 @@
   "purchaseErrorReceiptInUse": "Nabili na, o ginagamit ng ibang user ang impormasyon ng pagbili. Tingnan ang {accountName}.",
   "purchaseErrorInvalidReceipt": "Di-wasto ang impormasyon ng pagbili. Pakisuri ang impormasyon ng iyong pagbili.",
   "purchaseErrorMissingReceipt": "Walang impormasyon ng bumili. Mag-sign in sa device na ito gamit ang {accountName} at subukan ulit.",
-  "purchaseErrorNetwork": "Hindi ang matatag ang estado ng network. Pakisuri ang iyong koneksyon bago subukan muli.",
+  "purchaseErrorNetwork": "Hindi stable ang koneksyon sa network. Suriin ang koneksyon at subukan muli.",
   "purchaseNotAllowed": "Hindi pinahuhintulutan ang pagbili sa aparatong ito.",
   "purchaseErrorInvalidCredentials": "Nabigo ang pagbili. Mangyaring subukan muli pagkatapos ng ilang sandali. Kung hindi ito malulutas, mangyaring makipag-ugnayan sa pamamagitan ng Mga Setting > Makipag-ugnayan. Mga Detalye: {message}",
   "purchaseErrorUnexpectedBackend": "Sa kasalukuyan, hindi ka makakapag-bili. Mangyaring subukan muli pagkaraan ng ilang sandali. Kung hindi ito malulutas, makipag-ugnayan sa amin sa pamamagitan ng Mga Setting > Kontakin Kami. Mga detalye: {message}",

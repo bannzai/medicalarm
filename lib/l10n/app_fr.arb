@@ -117,7 +117,7 @@
   "purchaseErrorReceiptInUse": "Déjà acheté, ou les informations d’achat sont utilisées par un autre utilisateur. Vérifiez {accountName}.",
   "purchaseErrorInvalidReceipt": "Les informations d’achat sont invalides. Vérifiez vos informations d’achat.",
   "purchaseErrorMissingReceipt": "Les informations sur l’acheteur sont introuvables. Connectez-vous à cet appareil avec {accountName}, puis réessayez.",
-  "purchaseErrorNetwork": "L'état du réseau est instable. Veuillez vérifier votre connexion avant de réessayer.",
+  "purchaseErrorNetwork": "La connexion réseau est instable. Vérifiez votre connexion, puis réessayez.",
   "purchaseNotAllowed": "L'achat sur cet appareil n'est pas autorisé.",
   "purchaseErrorInvalidCredentials": "L'achat a échoué. Veuillez réessayer après un certain temps. Si le problème persiste, veuillez nous contacter via Réglages > Assistance. Détails : {message}",
   "purchaseErrorUnexpectedBackend": "Achat impossible pour le moment. Veuillez réessayer plus tard. Si le problème persiste, contactez-nous via Réglages > Demande. Détails : {message}",

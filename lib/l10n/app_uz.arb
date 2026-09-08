@@ -117,7 +117,7 @@
   "purchaseErrorReceiptInUse": "Allaqachon xarid qilingan yoki xarid maʼlumotlaridan boshqa foydalanuvchi foydalanmoqda. {accountName}ni tekshiring.",
   "purchaseErrorInvalidReceipt": "Xarid maʼlumotlari yaroqsiz. Xarid maʼlumotlaringizni tekshiring.",
   "purchaseErrorMissingReceipt": "Xaridor maʼlumotlari mavjud emas. Ushbu qurilmaga {accountName} orqali kiring va qaytadan urinib ko‘ring.",
-  "purchaseErrorNetwork": "Tarmoq holati barqaror emas. Iltimos, ulanish holatini tekshirib ko'ring va yana harakat qilib ko'ring.",
+  "purchaseErrorNetwork": "Tarmoq holati beqaror. Ulanishni tekshiring va qayta urinib ko‘ring.",
   "purchaseNotAllowed": "Ushbu qurilmada xarid qilishga ruxsat berilmagan",
   "purchaseErrorInvalidCredentials": "Sotib olishda xato yuz berdi. Iltimos, bir oz kutib turing va qayta urinib ko'ring. Muammo hal bo'lmasa, iltimos, Sozlamalar > Murojaat orqali biz bilan bog'laning. Tafsilotlar: {message}",
   "purchaseErrorUnexpectedBackend": "Hozirda sotib olish imkoni mavjud emas. Iltimos, biroz vaqt kuting va qayta urinib ko'ring. Agar muammo hal bo'lmasa, Sozlamalar > Murojaat orqali biz bilan bog'laning. Tafsilotlar: {message}",

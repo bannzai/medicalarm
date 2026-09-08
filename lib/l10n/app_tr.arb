@@ -117,7 +117,7 @@
   "purchaseErrorReceiptInUse": "Zaten satın alındı veya satın alma bilgileri başka bir kullanıcı tarafından kullanılıyor. {accountName} hesabını kontrol edin.",
   "purchaseErrorInvalidReceipt": "Satın alma bilgileri geçersiz. Lütfen satın alma bilgilerinizi kontrol edin.",
   "purchaseErrorMissingReceipt": "Alıcı bilgileri mevcut değil. Bu cihazda {accountName} ile giriş yapıp tekrar deneyin.",
-  "purchaseErrorNetwork": "Ağ bağlantısı kararsız. Lütfen bağlantı durumunuzu kontrol edip tekrar deneyin.",
+  "purchaseErrorNetwork": "Ağ bağlantısı kararsız. Bağlantınızı kontrol edip tekrar deneyin.",
   "purchaseNotAllowed": "Bu cihazda satın alma izni yoktur.",
   "purchaseErrorInvalidCredentials": "Satın alma işlemi başarısız oldu. Lütfen bir süre bekleyip tekrar deneyin. Çözülmezse, Ayarlar > İletişim yoluyla bizimle iletişime geçin. Ayrıntılar: {message}",
   "purchaseErrorUnexpectedBackend": "Şu anda satın alma yapılamıyor. Lütfen biraz bekleyip yeniden deneyin. Sorun çözülmezse, Ayarlar > İletişim kısmından bizimle iletişime geçin. Detaylar: {message}",

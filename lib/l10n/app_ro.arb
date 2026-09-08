@@ -117,7 +117,7 @@
   "purchaseErrorReceiptInUse": "Deja achiziționat sau informațiile despre achiziție sunt folosite de alt utilizator. Verificați {accountName}.",
   "purchaseErrorInvalidReceipt": "Informațiile despre achiziție nu sunt valide. Verifică informațiile despre achiziție.",
   "purchaseErrorMissingReceipt": "Informațiile cumpărătorului nu există. Conectați-vă pe acest dispozitiv cu {accountName} și încercați din nou.",
-  "purchaseErrorNetwork": "Starea rețelei este instabilă. Vă rugăm să verificați starea conexiunii și să încercați din nou.",
+  "purchaseErrorNetwork": "Conexiunea la rețea este instabilă. Verificați conexiunea și încercați din nou.",
   "purchaseNotAllowed": "Achizițiile nu sunt permise pe acest dispozitiv",
   "purchaseErrorInvalidCredentials": "Achiziția a eșuat. Vă rugăm să așteptați un timp și să încercați din nou. Dacă problema persistă, vă rugăm să ne contactați prin Setări > Întrebări frecvente. Detalii: {message}",
   "purchaseErrorUnexpectedBackend": "În prezent, achiziția nu este disponibilă. Vă rugăm să încercați din nou mai târziu. Dacă problema persistă, contactați-ne din Setări > Întrebări frecvente. Detalii: {message}",

@@ -117,7 +117,7 @@
   "purchaseErrorReceiptInUse": "Вже придбано або інформація про покупку використовується іншим користувачем. Перевірте {accountName}.",
   "purchaseErrorInvalidReceipt": "Недійсна інформація про покупку. Перевірте інформацію про покупку.",
   "purchaseErrorMissingReceipt": "Інформація про покупця відсутня. Увійдіть на цьому пристрої за допомогою {accountName} і спробуйте ще раз.",
-  "purchaseErrorNetwork": "The network condition is unstable. Please check your connection status and try again.",
+  "purchaseErrorNetwork": "Стан мережі нестабільний. Перевірте підключення та повторіть спробу.",
   "purchaseNotAllowed": "Purchases are not allowed on this device.",
   "purchaseErrorInvalidCredentials": "Purchase failed. Please wait a moment and try again. If the issue persists, please contact us via Settings > Contact Us. Details: {message}",
   "purchaseErrorUnexpectedBackend": "Currently, purchases cannot be made. Please try again after some time. If the issue persists, please contact us via Settings > Inquiry. Details: {message}",

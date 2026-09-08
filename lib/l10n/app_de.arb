@@ -117,7 +117,7 @@
   "purchaseErrorReceiptInUse": "Bereits gekauft oder die Kaufinformationen werden von einem anderen Nutzer verwendet. Überprüfe {accountName}.",
   "purchaseErrorInvalidReceipt": "Ungültige Kaufinformationen. Überprüfe deine Kaufinformationen.",
   "purchaseErrorMissingReceipt": "Es sind keine Käuferinformationen vorhanden. Melden Sie sich auf diesem Gerät mit {accountName} an und versuchen Sie es erneut.",
-  "purchaseErrorNetwork": "Die Netzwerkverbindung ist instabil. Bitte überprüfen Sie den Verbindungsstatus und versuchen Sie es erneut.",
+  "purchaseErrorNetwork": "Die Netzwerkverbindung ist instabil. Überprüfen Sie Ihre Verbindung und versuchen Sie es erneut.",
   "purchaseNotAllowed": "Der Kauf auf diesem Gerät ist nicht erlaubt.",
   "purchaseErrorInvalidCredentials": "Der Kauf war nicht erfolgreich. Bitte versuchen Sie es später erneut. Sollte das Problem weiterhin bestehen, wenden Sie sich bitte über Einstellungen > Kontaktaufnahme an uns. Details: {message}",
   "purchaseErrorUnexpectedBackend": "Derzeit kann nicht gekauft werden. Bitte versuchen Sie es später noch einmal. Wenn das Problem weiterhin besteht, kontaktieren Sie uns bitte über Einstellungen > Anfrage. Einzelheiten: {message}",

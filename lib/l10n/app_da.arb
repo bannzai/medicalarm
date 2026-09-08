@@ -117,7 +117,7 @@
   "purchaseErrorReceiptInUse": "Allerede købt, eller købsoplysningerne bruges af en anden bruger. Kontrollér {accountName}.",
   "purchaseErrorInvalidReceipt": "Ugyldige købsoplysninger. Kontrollér dine købsoplysninger.",
   "purchaseErrorMissingReceipt": "Der findes ingen oplysninger om køberen. Log ind på denne enhed med {accountName}, og prøv igen.",
-  "purchaseErrorNetwork": "Netværksforbindelsen er ustabil. Kontroller forbindelsen, og prøv igen.",
+  "purchaseErrorNetwork": "Netværksforbindelsen er ustabil. Kontrollér forbindelsen, og prøv igen.",
   "purchaseNotAllowed": "Køb på denne enhed er ikke tilladt",
   "purchaseErrorInvalidCredentials": "Købet mislykkedes. Vent et øjeblik og prøv igen. Hvis problemet ikke løses, bedes du kontakte os via Indstillinger > Kontakt. Detaljer: {message}",
   "purchaseErrorUnexpectedBackend": "Du kan ikke foretage køb i øjeblikket. Prøv venligst igen senere. Hvis problemet ikke løses, kontakt venligst os via Indstillinger > Spørgsmål. Detaljer: {message}",

@@ -117,7 +117,7 @@
   "purchaseErrorReceiptInUse": "Sudah dibeli atau maklumat pembelian sedang digunakan oleh pengguna lain. Semak {accountName}.",
   "purchaseErrorInvalidReceipt": "Maklumat pembelian tidak sah. Sila semak maklumat pembelian anda.",
   "purchaseErrorMissingReceipt": "Maklumat pembeli tidak wujud. Log masuk ke peranti ini menggunakan {accountName}, kemudian cuba lagi.",
-  "purchaseErrorNetwork": "Keadaan rangkaian tidak stabil. Sila semak status sambungan sebelum mencuba lagi.",
+  "purchaseErrorNetwork": "Keadaan rangkaian tidak stabil. Semak sambungan anda dan cuba lagi.",
   "purchaseNotAllowed": "Pembelian tidak dibenarkan pada peranti ini",
   "purchaseErrorInvalidCredentials": "Pembelian gagal. Sila tunggu seketika dan cuba lagi. Jika masalah berlanjutan, sila hubungi kami melalui Tetapan > Pertanyaan. Butiran: {message}",
   "purchaseErrorUnexpectedBackend": "Pembelian tidak dapat dilakukan buat masa ini. Sila cuba lagi selepas beberapa waktu. Jika masalah tidak diselesaikan, sila hubungi kami melalui Tetapan > Pertanyaan. Maklumat lanjut: {message}",

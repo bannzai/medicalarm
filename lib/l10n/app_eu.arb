@@ -117,7 +117,7 @@
   "purchaseErrorReceiptInUse": "Dagoeneko erosi da, edo erosketa-informazioa beste erabiltzaile batek erabiltzen ari da. Egiaztatu {accountName}.",
   "purchaseErrorInvalidReceipt": "Erosketa-informazioa ez da baliozkoa. Egiaztatu erosketa-informazioa.",
   "purchaseErrorMissingReceipt": "Eroslearen informaziorik ez dago. Hasi saioa gailu honetan {accountName} erabiliz eta saiatu berriro.",
-  "purchaseErrorNetwork": "Sarean egoera ezegonkorra dago. Konexioaren egoera egiaztatu ondoren saiatu mesedez.",
+  "purchaseErrorNetwork": "Sareko konexioa ezegonkorra da. Egiaztatu konexioa eta saiatu berriro.",
   "purchaseNotAllowed": "Ezin da gailu honetan erosketa egin.",
   "purchaseErrorInvalidCredentials": "Erosketa huts egin da. Mesedez, itxaron denbora bat eta saiatu berriro. Arazoa konpontzen ez bada, jar zaitez harremanetan ezarpenak > Kontsultatu bidez. Xehetasunak: {message}",
   "purchaseErrorUnexpectedBackend": "Ezin da orain erosi. Itxaron tarte bat eta saiatu berriro. Irtenbiderik ez badago, joan ezazu Ezarpenak > Kontsulta atala eta egin iezaguzu galdera. Xehetasunak: {message}",

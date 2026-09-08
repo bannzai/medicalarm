@@ -117,7 +117,7 @@
   "purchaseErrorReceiptInUse": "Bereits kauft oder d’Kaufinformatione werde vo eme andere Benutzer verwendet. Überprüef {accountName}.",
   "purchaseErrorInvalidReceipt": "Ungültigi Chaufsinformatione. Bitte überprüef dini Chaufsinformatione.",
   "purchaseErrorMissingReceipt": "Es sind kei Käuferdate vorhande. Melde Sie sich uf däm Gerät mit {accountName} aa und probiere Sie es nomol.",
-  "purchaseErrorNetwork": "Di Netzwerkkondition is unstabiel. Bitte überprüfe die Verbindig, und versuch's nochmal.",
+  "purchaseErrorNetwork": "D Netzverbindig isch instabil. Prüefed Sie d Verbindig und versueched Sie es nomol.",
   "purchaseNotAllowed": "Die Käufe sind auf diesem Gerät nicht erlaubt.",
   "purchaseErrorInvalidCredentials": "D'Kauf ass fehlgeschlage. Probier et nach e puer Zäit nach emol. Falls et net gelöst gëtt, kontaktéiert eis iwwer Einstellungen > Feedback. Detaill: {message}",
   "purchaseErrorUnexpectedBackend": "Aktuell chasch nüt kaufe. Bitte versuech's no einisch spöter. Falls das Problem nöd behobe wird, kontaktier eus bitte über: Einstellige > Kontakt. Detail: {message}",

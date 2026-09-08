@@ -117,7 +117,7 @@
   "purchaseErrorReceiptInUse": "አስቀድመው ገዝተዋል፣ ወይም የግዢ መረጃው በሌላ ተጠቃሚ እየተጠቀመበት ነው። {accountName}ን ያረጋግጡ።",
   "purchaseErrorInvalidReceipt": "የግዢ መረጃው ልክ አይደለም። እባክዎ የግዢ መረጃዎን ያረጋግጡ።",
   "purchaseErrorMissingReceipt": "የገዢው መረጃ የለም። በዚህ መሣሪያ ላይ በ{accountName} ይግቡና እንደገና ይሞክሩ።",
-  "purchaseErrorNetwork": "መርምሮች በተቀየሩ ገንዘብ እድል እንዳለ ይመርምሩ። ለመጨረሻ ለእቅፍ ይሞክሩ።",
+  "purchaseErrorNetwork": "የአውታረ መረብ ሁኔታ ያልተረጋጋ ነው። እባክዎ ግንኙነቱን ያረጋግጡና እንደገና ይሞክሩ።",
   "purchaseNotAllowed": "ይህ የመሣሪያ ላይ ግዢ መፈቀድ የተከለከለ አይደለም",
   "purchaseErrorInvalidCredentials": "ውድ ግዜ ተወውቀው ይሞክሩ። የግዢ ቅርጷት የተላከ ይቅርታ። ይህ ቅርጷው አካል በተጓዙ እና እንደገና እንደ ተደረገ ይሰማኙ። ኣንዳንድ ዝግባ እንደሆነ ፍጥነት እንዲዉለው። ዝምድን በላይ ምዕንቱች ጥናት ይሰፍን ድህዩ ተወላጅ ወተይቅዋትን ገቝት ይህ ይኖር ወንደን ተቀባ ይወድድ ይህ {message} ቅድም በነጥብ የኔትርክ የ኉ሌዪ ብላዋ ሳይለወድር እንዳወኝ።",
   "purchaseErrorUnexpectedBackend": "አሁን ግዢ ይሰርዮናል። እባኮትን ጊዜ ይወጣና ዳግመ ይሞክሩ። እንዲያውም አስቸኳይ አይሆን እንደገና ይጠይቁ እንደ {message} ይችላሉ።",
