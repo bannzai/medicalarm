@@ -132,7 +132,7 @@
   "purchaseErrorUserNotFound": "Det gick inte att verifiera användaren. Starta om appen och försök igen. Detaljer: {message}",
   "purchaseErrorActivationPending": "Aktiveringen av den betalda tjänsten är inte klar än. Kontrollera igen senare.",
   "purchaseErrorTimeout": "Tidsgränsen överskreds. Kontrollera anslutningen och försök igen. Om problemet kvarstår kan du kontakta oss via Inställningar > Kontakta oss. Detaljer: {message}",
-  "purchaseErrorNetworkError": "Ett anslutningsproblem uppstod. Kontrollera nätverksanslutningen och försök igen. Om problemet kvarstår kan du kontakta oss via Inställningar > Kontakta oss. Detaljer: {message}",
+  "purchaseErrorNetworkError": "Ett anslutningsproblem uppstod. Kontrollera anslutningen och försök igen. Om problemet kvarstår kan du kontakta oss via Inställningar > Kontakta oss. Detaljer: {message}",
   "sixMonthPlan": "6-månadersplan",
   "premiumContractPeriod": "Prenumerationsperioden är en månad från inköpsdatumet.",
   "privacyPolicy": "Integritetspolicy",

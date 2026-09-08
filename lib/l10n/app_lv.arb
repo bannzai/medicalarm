@@ -132,7 +132,7 @@
   "purchaseErrorUserNotFound": "Lietotāju neizdevās verificēt. Restartējiet lietotni un mēģiniet vēlreiz. Detalizēta informācija: {message}",
   "purchaseErrorActivationPending": "Maksas pakalpojuma aktivizēšana vēl nav pabeigta. Lūdzu, pārbaudiet vēlreiz pēc kāda laika.",
   "purchaseErrorTimeout": "Noildzis savienojuma laiks. Pārbaudiet interneta savienojumu un mēģiniet vēlreiz. Ja problēma joprojām pastāv, sazinieties ar mums sadaļā Iestatījumi > Sazināties ar mums. Detalizēta informācija: {message}",
-  "purchaseErrorNetworkError": "Radās savienojuma problēma. Pārbaudiet tīkla savienojumu un mēģiniet vēlreiz. Ja problēma joprojām pastāv, sazinieties ar mums sadaļā Iestatījumi > Sazināties ar mums. Detalizēta informācija: {message}",
+  "purchaseErrorNetworkError": "Radās savienojuma problēma. Pārbaudiet savienojumu un mēģiniet vēlreiz. Ja problēma joprojām pastāv, sazinieties ar mums sadaļā Iestatījumi > Sazināties ar mums. Detalizēta informācija: {message}",
   "sixMonthPlan": "6 mēnešu plāns",
   "premiumContractPeriod": "Abonementa darbības laiks ir viens mēnesis no pirkuma datuma.",
   "privacyPolicy": "Privātuma politika",

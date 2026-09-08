@@ -132,7 +132,7 @@
   "purchaseErrorUserNotFound": "Përdoruesi nuk mund të verifikohej. Rinisni aplikacionin dhe provo përsëri. Detaje: {message}",
   "purchaseErrorActivationPending": "Aktivizimi i shërbimit me pagesë nuk ka përfunduar ende. Ju lutemi, kontrolloni përsëri më vonë.",
   "purchaseErrorTimeout": "Koha mbaroi. Kontrolloni lidhjen dhe provoni përsëri. Nëse problemi vazhdon, na kontaktoni te Cilësimet > Na kontaktoni. Detaje: {message}",
-  "purchaseErrorNetworkError": "Ndodhi një problem me lidhjen. Kontrolloni lidhjen e rrjetit dhe provoni përsëri. Nëse problemi vazhdon, na kontaktoni te Cilësimet > Na kontaktoni. Detajet: {message}",
+  "purchaseErrorNetworkError": "Ndodhi një problem me lidhjen. Kontrolloni lidhjen dhe provoni sërish. Nëse problemi vazhdon, na kontaktoni te Cilësimet > Na kontaktoni. Detaje: {message}",
   "sixMonthPlan": "Plan 6-mujor",
   "premiumContractPeriod": "Periudha e abonimit është një muaj nga data e blerjes.",
   "privacyPolicy": "Politika e privatësisë",

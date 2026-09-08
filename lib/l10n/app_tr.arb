@@ -132,7 +132,7 @@
   "purchaseErrorUserNotFound": "Kullanıcı doğrulanamadı. Uygulamayı yeniden başlatıp tekrar deneyin. Ayrıntılar: {message}",
   "purchaseErrorActivationPending": "Ücretli hizmetin etkinleştirilmesi henüz tamamlanmadı. Lütfen bir süre sonra tekrar kontrol edin.",
   "purchaseErrorTimeout": "Zaman aşımına uğradı. Bağlantınızı kontrol edip tekrar deneyin. Sorun devam ederse Ayarlar > Bize ulaşın üzerinden bizimle iletişime geçin. Ayrıntılar: {message}",
-  "purchaseErrorNetworkError": "Bağlantı sorunu oluştu. Ağ bağlantınızı kontrol edip tekrar deneyin. Sorun devam ederse Ayarlar > Bize Ulaşın üzerinden bizimle iletişime geçin. Ayrıntılar: {message}",
+  "purchaseErrorNetworkError": "Bağlantı sorunu oluştu. Bağlantınızı kontrol edip tekrar deneyin. Sorun devam ederse Ayarlar > Bize ulaşın üzerinden bizimle iletişime geçin. Ayrıntılar: {message}",
   "sixMonthPlan": "6 aylık plan",
   "premiumContractPeriod": "Abonelik süresi, satın alma tarihinden itibaren 1 aydır.",
   "privacyPolicy": "Gizlilik Politikası",

@@ -132,7 +132,7 @@
   "purchaseErrorUserNotFound": "İstifadəçi təsdiqlənə bilmədi. Tətbiqi yenidən başladın və bir daha cəhd edin. Təfərrüatlar: {message}",
   "purchaseErrorActivationPending": "Ödənişin aktivləşdirilməsi hələ tamamlanmayıb. Zəhmət olmasa, bir müddət sonra yenidən yoxlayın.",
   "purchaseErrorTimeout": "Vaxt limiti başa çatdı. İnternet bağlantınızı yoxlayın və yenidən cəhd edin. Problem həll olunmazsa, Parametrlər > Bizimlə əlaqə bölməsindən bizə müraciət edin. Təfərrüatlar: {message}",
-  "purchaseErrorNetworkError": "Bağlantı problemi baş verdi. Şəbəkə bağlantınızı yoxlayın və yenidən cəhd edin. Problem davam edərsə, Ayarlar > Bizimlə əlaqə bölməsindən bizə müraciət edin. Təfərrüatlar: {message}",
+  "purchaseErrorNetworkError": "Bağlantı problemi baş verdi. Bağlantınızı yoxlayıb yenidən cəhd edin. Problem davam edərsə, Parametrlər > Bizimlə əlaqə bölməsindən bizə müraciət edin. Təfərrüatlar: {message}",
   "sixMonthPlan": "6 aylıq plan",
   "premiumContractPeriod": "Abunəlik müddəti satınalma tarixindən etibarən 1 aydır.",
   "privacyPolicy": "Məxfilik siyasəti",

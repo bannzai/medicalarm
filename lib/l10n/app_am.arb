@@ -132,7 +132,7 @@
   "purchaseErrorUserNotFound": "ተጠቃሚውን ማረጋገጥ አልተቻለም። እባክዎ መተግበሪያውን እንደገና ያስጀምሩና ይሞክሩ። ዝርዝሮች፦ {message}",
   "purchaseErrorActivationPending": "የፕሪሚየም አገልግሎት ማግበር ገና አልተጠናቀቀም። እባክዎ ከጥቂት ጊዜ በኋላ እንደገና ያረጋግጡ።",
   "purchaseErrorTimeout": "ጊዜ አልቋል። የግንኙነት አካባቢዎን ያረጋግጡና እንደገና ይሞክሩ። ችግሩ ከቀጠለ፣ ቅንብሮች > ያግኙን በኩል ያግኙን። ዝርዝሮች፦ {message}",
-  "purchaseErrorNetworkError": "የግንኙነት ችግር ተፈጥሯል። የኔትወርክ ግንኙነትዎን ያረጋግጡና እንደገና ይሞክሩ። ካልተፈታ፣ ከቅንብሮች > አግኙን በኩል ያግኙን። ዝርዝሮች፦ {message}",
+  "purchaseErrorNetworkError": "የግንኙነት ችግር ተፈጥሯል። የግንኙነት አካባቢዎን ያረጋግጡና እንደገና ይሞክሩ። ችግሩ ካልተፈታ በቅንብሮች > አግኙን በኩል ያግኙን። ዝርዝሮች፦ {message}",
   "sixMonthPlan": "የ6 ወራት ዕቅድ",
   "premiumContractPeriod": "የደንበኝነት ጊዜው ከግዢ ቀን ጀምሮ አንድ ወር ነው።",
   "privacyPolicy": "የግላዊነት ፖሊሲ",

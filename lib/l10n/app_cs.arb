@@ -132,7 +132,7 @@
   "purchaseErrorUserNotFound": "Uživatele se nepodařilo ověřit. Restartujte aplikaci a zkuste to znovu. Podrobnosti: {message}",
   "purchaseErrorActivationPending": "Aktivace placené služby ještě nebyla dokončena. Zkontrolujte to prosím za chvíli znovu.",
   "purchaseErrorTimeout": "Časový limit vypršel. Zkontrolujte připojení k internetu a zkuste to znovu. Pokud problém přetrvá, kontaktujte nás v Nastavení > Kontaktujte nás. Podrobnosti: {message}",
-  "purchaseErrorNetworkError": "Došlo k problému s připojením. Zkontrolujte síťové připojení a zkuste to znovu. Pokud problém přetrvá, kontaktujte nás v Nastavení > Kontaktujte nás. Podrobnosti: {message}",
+  "purchaseErrorNetworkError": "Došlo k problému s připojením. Zkontrolujte připojení a zkuste to znovu. Pokud problém přetrvá, kontaktujte nás v Nastavení > Kontaktujte nás. Podrobnosti: {message}",
   "sixMonthPlan": "6měsíční plán",
   "premiumContractPeriod": "Doba předplatného je jeden měsíc od data nákupu.",
   "privacyPolicy": "Zásady ochrany osobních údajů",

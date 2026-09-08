@@ -132,7 +132,7 @@
   "purchaseErrorUserNotFound": "No se ha podido verificar al usuario. Reinicia la aplicación y vuelve a intentarlo. Detalles: {message}",
   "purchaseErrorActivationPending": "La activación del servicio de pago aún no se ha completado. Vuelve a comprobarlo más tarde.",
   "purchaseErrorTimeout": "Se agotó el tiempo de espera. Comprueba tu conexión a Internet y vuelve a intentarlo. Si el problema persiste, contacta con nosotros desde Ajustes > Contacto. Detalles: {message}",
-  "purchaseErrorNetworkError": "Se produjo un problema de conexión. Comprueba tu conexión de red y vuelve a intentarlo. Si el problema persiste, ponte en contacto con nosotros desde Ajustes > Contacto. Detalles: {message}",
+  "purchaseErrorNetworkError": "Se ha producido un problema de conexión. Comprueba tu conexión e inténtalo de nuevo. Si el problema persiste, contacta con nosotros desde Ajustes > Contacto. Detalles: {message}",
   "sixMonthPlan": "Plan de 6 meses",
   "premiumContractPeriod": "El periodo de suscripción es de un mes desde la fecha de compra.",
   "privacyPolicy": "Política de privacidad",

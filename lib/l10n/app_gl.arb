@@ -132,7 +132,7 @@
   "purchaseErrorUserNotFound": "Non foi posible verificar o usuario. Reinicia a aplicación e téntao de novo. Detalles: {message}",
   "purchaseErrorActivationPending": "A activación do servizo de pago aínda non se completou. Comprobe de novo máis tarde.",
   "purchaseErrorTimeout": "Esgotouse o tempo de espera. Comproba a túa conexión a Internet e téntao de novo. Se o problema persiste, ponte en contacto connosco desde Axustes > Contacta connosco. Detalles: {message}",
-  "purchaseErrorNetworkError": "Produciuse un problema de conexión. Comproba a conexión de rede e téntao de novo. Se o problema persiste, ponte en contacto connosco desde Axustes > Contacta connosco. Detalles: {message}",
+  "purchaseErrorNetworkError": "Produciuse un problema de conexión. Comproba a conexión e téntao de novo. Se o problema persiste, ponte en contacto connosco en Axustes > Contacta connosco. Detalles: {message}",
   "sixMonthPlan": "Plan de 6 meses",
   "premiumContractPeriod": "O período da subscrición é dun mes desde a data de compra.",
   "privacyPolicy": "Política de privacidade",

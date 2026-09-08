@@ -132,7 +132,7 @@
   "purchaseErrorUserNotFound": "Ekki tókst að staðfesta notandann. Endurræstu appið og reyndu aftur. Upplýsingar: {message}",
   "purchaseErrorActivationPending": "Virkjun áskriftarþjónustunnar er ekki lokið enn. Athugaðu aftur síðar.",
   "purchaseErrorTimeout": "Tíminn rann út. Athugaðu nettenginguna og reyndu aftur. Ef vandamálið leysist ekki skaltu hafa samband við okkur í Stillingar > Hafa samband. Upplýsingar: {message}",
-  "purchaseErrorNetworkError": "Tengingarvandamál kom upp. Athugaðu nettenginguna og reyndu aftur. Ef vandamálið leysist ekki skaltu hafa samband við okkur í Stillingar > Hafa samband. Upplýsingar: {message}",
+  "purchaseErrorNetworkError": "Tengingarvandamál kom upp. Athugaðu tenginguna og reyndu aftur. Ef vandamálið leysist ekki skaltu hafa samband við okkur í Stillingar > Hafa samband. Upplýsingar: {message}",
   "sixMonthPlan": "6 mánaða áskrift",
   "premiumContractPeriod": "Áskriftartímabilið er einn mánuður frá kaupdegi.",
   "privacyPolicy": "Persónuverndarstefna",

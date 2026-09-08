@@ -132,7 +132,7 @@
   "purchaseErrorUserNotFound": "De Benutzer konnt nöd bestätigt werde. Starte d’App neu und probier’s nomal. Details: {message}",
   "purchaseErrorActivationPending": "D Aktivierig vom kostenpflichtige Dienst isch no nöd abgschlosse. Bitte später nomal prüefe.",
   "purchaseErrorTimeout": "D’Ziit isch abgloffe. Prüefe Si Ihri Internetverbindig und versueche Si’s nomal. Wenn s’Problem wiiter besteht, nähmed Si über Iistellige > Kontakt mit eus uf. Details: {message}",
-  "purchaseErrorNetworkError": "Es isch es Verbindigsproblem ufträte. Bitte überprüefed Sie Ihri Netzwerverbindig und probiered Sie es nomol. Wenn s Problem wiiterbesteit, chönd Sie eus über Iistellige > Kontakt ufneh. Details: {message}",
+  "purchaseErrorNetworkError": "Es isch es Verbindigsproblem uftrete. Prüefed Si Ihri Verbindig und versueched Si es nomal. Wenn s Problem wiiterbesteit, kontaktiered Si eus über Iistellige > Kontakt. Details: {message}",
   "sixMonthPlan": "6-Monats-Abo",
   "premiumContractPeriod": "D Abolaufzyt isch ein Monet ab em Chaufdatum.",
   "privacyPolicy": "Datenschutzerklärung",

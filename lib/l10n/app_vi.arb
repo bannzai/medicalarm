@@ -132,7 +132,7 @@
   "purchaseErrorUserNotFound": "Không thể xác minh người dùng. Hãy khởi động lại ứng dụng rồi thử lại. Chi tiết: {message}",
   "purchaseErrorActivationPending": "Việc kích hoạt dịch vụ trả phí chưa hoàn tất. Vui lòng kiểm tra lại sau ít phút.",
   "purchaseErrorTimeout": "Đã hết thời gian chờ. Hãy kiểm tra kết nối rồi thử lại. Nếu sự cố vẫn tiếp diễn, hãy liên hệ với chúng tôi qua Cài đặt > Liên hệ với chúng tôi. Chi tiết: {message}",
-  "purchaseErrorNetworkError": "Đã xảy ra lỗi kết nối. Hãy kiểm tra kết nối mạng rồi thử lại. Nếu sự cố vẫn tiếp diễn, hãy liên hệ với chúng tôi qua Cài đặt > Liên hệ với chúng tôi. Chi tiết: {message}",
+  "purchaseErrorNetworkError": "Đã xảy ra sự cố kết nối. Hãy kiểm tra kết nối rồi thử lại. Nếu sự cố vẫn tiếp diễn, hãy liên hệ với chúng tôi qua Cài đặt > Liên hệ với chúng tôi. Chi tiết: {message}",
   "sixMonthPlan": "Gói 6 tháng",
   "premiumContractPeriod": "Thời hạn đăng ký là 1 tháng kể từ ngày mua.",
   "privacyPolicy": "Chính sách quyền riêng tư",
