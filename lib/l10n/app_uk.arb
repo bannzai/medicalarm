@@ -87,7 +87,7 @@
   "editDiaryTooltip": "Редагувати щоденник",
   "medicineRegistrationLimit": "Кількість зареєстрованих ліків",
   "doseReceiverRegistrationLimit": "кількість зареєстрованих людей, які приймають ліки",
-  "notificationScheduleLimit": "the number of notification schedules",
+  "notificationScheduleLimit": "Кількість розкладів сповіщень",
   "addMedicine": "Add Medication",
   "medicineMaxCount": "You can register up to {count} medications.",
   "increaseMedicineLimitWithPremium": "Increase the limit to {count} with the premium plan",

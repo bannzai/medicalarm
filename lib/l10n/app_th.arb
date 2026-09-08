@@ -87,7 +87,7 @@
   "editDiaryTooltip": "แก้ไขไดอารี่",
   "medicineRegistrationLimit": "จำนวนยาที่ลงทะเบียน",
   "doseReceiverRegistrationLimit": "จำนวนผู้ที่ลงทะเบียนและรับประทานยา",
-  "notificationScheduleLimit": "จำนวนตารางเวลาการแจ้งเตือน",
+  "notificationScheduleLimit": "จำนวนกำหนดการแจ้งเตือน",
   "addMedicine": "เพิ่มยา",
   "medicineMaxCount": "คุณสามารถลงทะเบียนยาได้สูงสุด {count} ชนิด",
   "increaseMedicineLimitWithPremium": "เพิ่มขีดจำกัดเป็น {count} ในแผนพรีเมียม",

@@ -87,7 +87,7 @@
   "editDiaryTooltip": "Upravit deník",
   "medicineRegistrationLimit": "Počet registrovaných léků",
   "doseReceiverRegistrationLimit": "počet registrovaných osob užívajících léky",
-  "notificationScheduleLimit": "počet plánovaných upozornění",
+  "notificationScheduleLimit": "Počet plánů oznámení",
   "addMedicine": "Přidat lék",
   "medicineMaxCount": "Můžete registrovat až {count} léků.",
   "increaseMedicineLimitWithPremium": "Zvyšte limit na {count} s prémiovým plánem",

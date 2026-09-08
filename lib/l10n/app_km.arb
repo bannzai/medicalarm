@@ -87,7 +87,7 @@
   "editDiaryTooltip": "កែសម្រួលកំណត់ហេតុប្រចាំថ្ងៃ",
   "medicineRegistrationLimit": "ចំនួនថ្នាំដែលបានចុះបញ្ជី",
   "doseReceiverRegistrationLimit": "ចំនួនអ្នកប្រើថ្នាំដែលបានចុះឈ្មោះ",
-  "notificationScheduleLimit": "ចំនួនកំណត់ត្រាជូនដំណឹង",
+  "notificationScheduleLimit": "ចំនួនកាលវិភាគការជូនដំណឹង",
   "addMedicine": "បន្ថែមថ្នាំ",
   "medicineMaxCount": "សារពើភ័ណ្ឌឱសថ អាចចុះឈ្មោះបាន ដល់ {count} នាក់។",
   "increaseMedicineLimitWithPremium": "បង្កើនចំនួនអតិបរមាដល់ {count} ជាមួយគម្រោង Premium",

@@ -87,7 +87,7 @@
   "editDiaryTooltip": "डायरी संपादित करें",
   "medicineRegistrationLimit": "पंजीकृत दवाओं की संख्या",
   "doseReceiverRegistrationLimit": "पंजीकृत दवा लेने वाले लोगों की संख्या",
-  "notificationScheduleLimit": "सूचनाओं के कार्यक्रमों की संख्या",
+  "notificationScheduleLimit": "सूचनाओं के शेड्यूल की संख्या",
   "addMedicine": "दवा जोड़ें",
   "medicineMaxCount": "आप {count} तक दवाएँ पंजीकृत कर सकते हैं।",
   "increaseMedicineLimitWithPremium": "प्रीमियम योजना के तहत सीमा को {count} पर बढ़ाएं",

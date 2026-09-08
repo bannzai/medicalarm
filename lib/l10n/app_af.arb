@@ -87,7 +87,7 @@
   "editDiaryTooltip": "Wysig dagboek",
   "medicineRegistrationLimit": "Aantal geregistreerde medisyne",
   "doseReceiverRegistrationLimit": "die aantal geregistreerde persone wat medikasie gebruik",
-  "notificationScheduleLimit": "die aantal kennisgewing skedules is",
+  "notificationScheduleLimit": "Aantal kennisgewingskedules",
   "addMedicine": "Voeg medikasie by",
   "medicineMaxCount": "U kan tot {count} medisyne registreer.",
   "increaseMedicineLimitWithPremium": "Verhoog die limiet tot {count} met die premium plan",

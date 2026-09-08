@@ -87,7 +87,7 @@
   "editDiaryTooltip": "Muuda päevikut",
   "medicineRegistrationLimit": "Registreeritud ravimite arv",
   "doseReceiverRegistrationLimit": "registreeritud ravimivõtjate arv",
-  "notificationScheduleLimit": "teavituste ajakava arvu",
+  "notificationScheduleLimit": "Teavituste ajakavade arv",
   "addMedicine": "Lisa ravim",
   "medicineMaxCount": "Rohusid saab registreerida kuni {count}.",
   "increaseMedicineLimitWithPremium": "Suurenda preemia plaani raames üleminekut {count}",

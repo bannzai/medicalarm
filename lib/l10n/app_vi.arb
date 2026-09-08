@@ -87,7 +87,7 @@
   "editDiaryTooltip": "Chỉnh sửa nhật ký",
   "medicineRegistrationLimit": "Số lượng thuốc đã đăng ký",
   "doseReceiverRegistrationLimit": "số người dùng thuốc đã đăng ký",
-  "notificationScheduleLimit": "Số lượng lịch thông báo",
+  "notificationScheduleLimit": "Số lịch thông báo",
   "addMedicine": "Thêm thuốc",
   "medicineMaxCount": "Bạn có thể đăng ký tối đa {count} loại thuốc.",
   "increaseMedicineLimitWithPremium": "Tăng giới hạn lên {count} với gói cao cấp",

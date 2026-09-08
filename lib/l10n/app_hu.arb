@@ -87,7 +87,7 @@
   "editDiaryTooltip": "Napló szerkesztése",
   "medicineRegistrationLimit": "Regisztrált gyógyszerek száma",
   "doseReceiverRegistrationLimit": "a gyógyszert szedő regisztrált személyek száma",
-  "notificationScheduleLimit": "Értesítési tervek száma",
+  "notificationScheduleLimit": "Értesítési ütemezések száma",
   "addMedicine": "Gyógyszer hozzáadása",
   "medicineMaxCount": "Legjobb, ha legfeljebb {count} gyógyszert tud regisztrálni.",
   "increaseMedicineLimitWithPremium": "A prémium tervvel növelheti a regisztrált gyógyszerek számát {count}-ra.",

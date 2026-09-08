@@ -87,7 +87,7 @@
   "editDiaryTooltip": "编辑日记",
   "medicineRegistrationLimit": "已登记的药物数量",
   "doseReceiverRegistrationLimit": "已注册的服药者人数",
-  "notificationScheduleLimit": "通知计划的数量上限",
+  "notificationScheduleLimit": "通知计划数量",
   "addMedicine": "添加药物",
   "medicineMaxCount": "最多可以注册{count}种药物。",
   "increaseMedicineLimitWithPremium": "在高级计划中将上限增加至{count}",

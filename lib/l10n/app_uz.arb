@@ -87,7 +87,7 @@
   "editDiaryTooltip": "Kundalikni tahrirlash",
   "medicineRegistrationLimit": "Ro‘yxatdan o‘tkazilgan dorilar soni",
   "doseReceiverRegistrationLimit": "ro‘yxatdan o‘tgan dori qabul qiluvchilar soni",
-  "notificationScheduleLimit": "Bildirish jadvalining soni",
+  "notificationScheduleLimit": "Bildirishnomalar jadvallari soni",
   "addMedicine": "Dori qo'shish",
   "medicineMaxCount": "Dori  {count} ta giyohni ro'yxatdan o'tkazishingiz mumkin.",
   "increaseMedicineLimitWithPremium": "Premium rejasi bilan cheklovni {count} ga oshirish",

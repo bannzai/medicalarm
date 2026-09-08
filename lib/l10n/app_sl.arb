@@ -87,7 +87,7 @@
   "editDiaryTooltip": "Uredi dnevnik",
   "medicineRegistrationLimit": "Število registriranih zdravil",
   "doseReceiverRegistrationLimit": "število registriranih oseb, ki jemljejo zdravila",
-  "notificationScheduleLimit": "število obvestilnih urnikov",
+  "notificationScheduleLimit": "Število urnikov obvestil",
   "addMedicine": "Dodaj zdravilo",
   "medicineMaxCount": "Lahko registrirate do {count} zdravil.",
   "increaseMedicineLimitWithPremium": "Povečajte limite na {count} s premium načrtom",

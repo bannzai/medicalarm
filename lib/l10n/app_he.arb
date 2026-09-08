@@ -87,7 +87,7 @@
   "editDiaryTooltip": "עריכת יומן",
   "medicineRegistrationLimit": "מספר התרופות הרשומות",
   "doseReceiverRegistrationLimit": "מספר האנשים הרשומים שנוטלים תרופות",
-  "notificationScheduleLimit": "מספר לוחות הזמנים להודעות",
+  "notificationScheduleLimit": "מספר לוחות הזמנים של ההתראות",
   "addMedicine": "הוסף תרופה",
   "medicineMaxCount": "ניתן לרשום עד {count} תרופות.",
   "increaseMedicineLimitWithPremium": "לְהַגְדִּיל אֶת הַמַּשָּׂא מִבַּטּוּחַ לְ-{count} בִּתְכּוּנַת פְּרֵימִיּוּם",

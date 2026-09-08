@@ -87,7 +87,7 @@
   "editDiaryTooltip": "ڈائری میں ترمیم کریں",
   "medicineRegistrationLimit": "رجسٹر شدہ ادویات کی تعداد",
   "doseReceiverRegistrationLimit": "رجسٹر شدہ دوا لینے والے افراد کی تعداد",
-  "notificationScheduleLimit": "نوٹیفکیشن شیڈول کی تعداد",
+  "notificationScheduleLimit": "اطلاعی شیڈولز کی تعداد",
   "addMedicine": "دوائی شامل کریں",
   "medicineMaxCount": "آپ دوائیوں کی تعداد {count} تک درج کرسکتے ہیں۔",
   "increaseMedicineLimitWithPremium": "پریمیئم پلان کے ذریعے حد کو {count} تک بڑھائیں",

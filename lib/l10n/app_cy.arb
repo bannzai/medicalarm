@@ -87,7 +87,7 @@
   "editDiaryTooltip": "Golygu dyddiadur",
   "medicineRegistrationLimit": "Nifer y meddyginiaethau sydd wedi’u cofrestru",
   "doseReceiverRegistrationLimit": "nifer y bobl gofrestredig sy’n cymryd meddyginiaeth",
-  "notificationScheduleLimit": "y nifer o amserlenni hysbysiadau",
+  "notificationScheduleLimit": "Nifer amserlenni hysbysiadau",
   "addMedicine": "Ychwanegu meddyginiaeth",
   "medicineMaxCount": "Gallwch gofrestru hyd at {count} o feddyginiaethau.",
   "increaseMedicineLimitWithPremium": "Cynyddu cyfyngiad i {count} gyda'r cynllun premiwm",

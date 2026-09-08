@@ -87,7 +87,7 @@
   "editDiaryTooltip": "Күнделікті өңдеу",
   "medicineRegistrationLimit": "Тіркелген дәрілер саны",
   "doseReceiverRegistrationLimit": "тіркелген дәрі қабылдаушылар саны",
-  "notificationScheduleLimit": "Хабарламалардың кесте саны",
+  "notificationScheduleLimit": "Хабарландыру кестелерінің саны",
   "addMedicine": "Дәріні қосу",
   "medicineMaxCount": "Сіз {count} дәрілік заттарды тіркей аласыз.",
   "increaseMedicineLimitWithPremium": "Премиум жоспарымен шекті {count} дейін арттыру",

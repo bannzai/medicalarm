@@ -87,7 +87,7 @@
   "editDiaryTooltip": "දිනපොත සංස්කරණය කරන්න",
   "medicineRegistrationLimit": "ලියාපදිංචි කළ ඖෂධ ගණන",
   "doseReceiverRegistrationLimit": "ලියාපදිංචි ඖෂධ භාවිත කරන පුද්ගලයන්ගේ සංඛ්‍යාව",
-  "notificationScheduleLimit": "සන්නිවේදන කාලසටහනේ ආසන්න සීමාව",
+  "notificationScheduleLimit": "දැනුම්දීම් කාලසටහන් ගණන",
   "addMedicine": "මඩු බීජයක් එක් කරන්න",
   "medicineMaxCount": "ඔබට {count} වර්ගයේ ඖෂධ ඇතුළත් කළ හැක.",
   "increaseMedicineLimitWithPremium": "ප්‍රීමියම් සැලැස්මකින් සීමාව {count} දක්වා වැඩිවීමේ සළකුණ",

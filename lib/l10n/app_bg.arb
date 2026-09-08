@@ -87,7 +87,7 @@
   "editDiaryTooltip": "Редактиране на дневника",
   "medicineRegistrationLimit": "Брой регистрирани лекарства",
   "doseReceiverRegistrationLimit": "броят на регистрираните приемащи лекарства",
-  "notificationScheduleLimit": "броя на известията за графика",
+  "notificationScheduleLimit": "Брой графици за известия",
   "addMedicine": "Добавете лекарство",
   "medicineMaxCount": "Можете да регистрирате до {count} лекарства.",
   "increaseMedicineLimitWithPremium": "Увеличете лимита до {count} с премиум плана",

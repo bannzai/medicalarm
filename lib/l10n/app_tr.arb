@@ -87,7 +87,7 @@
   "editDiaryTooltip": "Günlüğü düzenle",
   "medicineRegistrationLimit": "Kayıtlı ilaç sayısı",
   "doseReceiverRegistrationLimit": "kayıtlı ilaç kullanan kişi sayısı",
-  "notificationScheduleLimit": "Bildirim programı sayısı",
+  "notificationScheduleLimit": "Bildirim planı sayısı",
   "addMedicine": "İlaç ekle",
   "medicineMaxCount": "İlaç sayısı {count} adet ile sınırlıdır.",
   "increaseMedicineLimitWithPremium": "Premium plan ile limitinizi {count} olarak artırın.",

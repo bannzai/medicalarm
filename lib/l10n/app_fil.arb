@@ -87,7 +87,7 @@
   "editDiaryTooltip": "I-edit ang talaarawan",
   "medicineRegistrationLimit": "Bilang ng mga nakarehistrong gamot",
   "doseReceiverRegistrationLimit": "bilang ng mga rehistradong umiinom ng gamot",
-  "notificationScheduleLimit": "Bilang ng mga iskedyul ng abiso",
+  "notificationScheduleLimit": "Bilang ng mga iskedyul ng notification",
   "addMedicine": "Magdagdag ng gamot",
   "medicineMaxCount": "Maaari kang magrehistro ng hanggang {count} na gamot.",
   "increaseMedicineLimitWithPremium": "Itakdang itataas ang limitasyon sa pagrehistro ng gamot sa premium plan sa {count}.",
