@@ -34,7 +34,7 @@
   "deleteAccountMessage": "Kun poistat tilisi, kaikki käyttäjätietosi poistetaan.",
   "medicationFrequency": "Lääkkeenottotiheys",
   "daily": "Päivittäin",
-  "everyXDays": "X päivän välein",
+  "everyXDays": "Joka X. päivä",
   "specificWeekdays": "Tietyt viikonpäivät",
   "cycle": "Jakso",
   "cycleDescription": "Esim.) Lääkettä 21 päivän ajan / 7 päivän tauko",
