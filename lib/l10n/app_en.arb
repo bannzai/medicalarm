@@ -123,7 +123,7 @@
   "purchaseErrorUnexpectedBackend": "The purchase can’t be completed right now. Please try again later. If the problem persists, contact us via Settings > Contact. Details: {message}",
   "purchaseErrorOperationInProgress": "A purchase is already in progress. Please try again later.",
   "purchaseErrorInsufficientPermissions": "You can’t subscribe to a plan with {accountName}. Check your payment information and try again",
-  "purchaseErrorPaymentPending": "Your payment is currently on hold. Please check {storeName} with your logged-in account {accountName}.",
+  "purchaseErrorPaymentPending": "Payment is pending. Please check {storeName} with the signed-in account {accountName}.",
   "premiumUserThanksTitle": "Premium Member",
   "premiumUserThanksMessage": "Thank you for using our service. Thanks to you, we are able to continue operating Medicalarm.",
   "premiumPricePerMonth": "({price}/month)",

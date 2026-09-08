@@ -123,7 +123,7 @@
   "purchaseErrorUnexpectedBackend": "ਇਸ ਸਮੇਂ ਖਰੀਦ ਪੂਰੀ ਨਹੀਂ ਕੀਤੀ ਜਾ ਸਕਦੀ। ਕਿਰਪਾ ਕਰਕੇ ਕੁਝ ਸਮੇਂ ਬਾਅਦ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ। ਸਮੱਸਿਆ ਜਾਰੀ ਰਹੇ ਤਾਂ ਸੈਟਿੰਗਾਂ > ਸੰਪਰਕ ਰਾਹੀਂ ਸਾਡੇ ਨਾਲ ਸੰਪਰਕ ਕਰੋ। ਵੇਰਵੇ: {message}",
   "purchaseErrorOperationInProgress": "ਖਰੀਦਾਰੀ ਦੀ ਪ੍ਰਕਿਰਿਆ ਪਹਿਲਾਂ ਹੀ ਜਾਰੀ ਹੈ। ਕਿਰਪਾ ਕਰਕੇ ਕੁਝ ਸਮੇਂ ਬਾਅਦ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।",
   "purchaseErrorInsufficientPermissions": "ਤੁਸੀਂ {accountName} ਨਾਲ ਕਿਸੇ ਪਲਾਨ ਦੀ ਗਾਹਕੀ ਨਹੀਂ ਲੈ ਸਕਦੇ। ਆਪਣੀ ਭੁਗਤਾਨ ਜਾਣਕਾਰੀ ਦੀ ਜਾਂਚ ਕਰੋ ਅਤੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ",
-  "purchaseErrorPaymentPending": "ਤੁਹਾਡਾ ਭੁਗਤਾਨ ਅਰਧ ਵਿਚ ਹੀ ਰੁਕ ਗਿਆ ਹੈ। {accountName} ਨਾਲ ਲੌਗ-ਇਨ ਕਰਕੇ {storeName} ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ।",
+  "purchaseErrorPaymentPending": "ਭੁਗਤਾਨ ਬਕਾਇਆ ਹੈ। ਸਾਈਨ ਇਨ ਕੀਤੇ {accountName} ਨਾਲ {storeName} ਦੀ ਜਾਂਚ ਕਰੋ।",
   "premiumUserThanksTitle": "ਪ੍ਰੀਮੀਅਮ ਮੈਂਬਰ",
   "premiumUserThanksMessage": "ਤੁਹਾਡਾ ਧੰਨਵਾਦ। ਤੁਹਾਡੇ ਕਰਮ ਨਾਲ, ਅਸੀਂ Medicalarm ਦੀ ਚੱਲਾਹਟ ਜਾਰੀ ਰੱਖ ਸਕਦੇ ਹਾਂ।",
   "premiumPricePerMonth": "(ਤਨਖਾਹ {price}/ਮਹੀਨਾ)",

@@ -123,7 +123,7 @@
   "purchaseErrorUnexpectedBackend": "Der Kauf kann derzeit nicht abgeschlossen werden. Bitte versuchen Sie es später erneut. Wenn das Problem weiterhin besteht, kontaktieren Sie uns über Einstellungen > Kontakt. Details: {message}",
   "purchaseErrorOperationInProgress": "Ein Kaufvorgang läuft bereits. Bitte versuchen Sie es später erneut.",
   "purchaseErrorInsufficientPermissions": "Mit {accountName} kannst du keinen Tarif abonnieren. Überprüfe deine Zahlungsdaten und versuche es erneut",
-  "purchaseErrorPaymentPending": "Die Zahlung wurde unterbrochen. Bitte überprüfen Sie {storeName} mit dem Konto {accountName}, bei dem Sie angemeldet sind.",
+  "purchaseErrorPaymentPending": "Die Zahlung steht noch aus. Überprüfe {storeName} mit dem angemeldeten Konto {accountName}.",
   "premiumUserThanksTitle": "Premium-Mitglied",
   "premiumUserThanksMessage": "Vielen Dank für Ihre Nutzung.\nDank Ihnen können wir den Betrieb von Medicalarm weiterhin aufrechterhalten.",
   "premiumPricePerMonth": "({price}/Monat)",

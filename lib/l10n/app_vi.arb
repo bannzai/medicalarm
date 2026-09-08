@@ -123,7 +123,7 @@
   "purchaseErrorUnexpectedBackend": "Hiện không thể hoàn tất giao dịch mua. Vui lòng thử lại sau. Nếu vấn đề vẫn tiếp diễn, hãy liên hệ với chúng tôi qua Cài đặt > Liên hệ. Chi tiết: {message}",
   "purchaseErrorOperationInProgress": "Giao dịch mua đang được tiến hành. Vui lòng thử lại sau.",
   "purchaseErrorInsufficientPermissions": "Bạn không thể đăng ký gói bằng {accountName}. Hãy kiểm tra thông tin thanh toán và thử lại",
-  "purchaseErrorPaymentPending": "Thanh toán đã bị dừng lại. Vui lòng kiểm tra {storeName} bằng tài khoản đang đăng nhập {accountName}.",
+  "purchaseErrorPaymentPending": "Thanh toán đang chờ xử lý. Vui lòng kiểm tra {storeName} bằng tài khoản đã đăng nhập {accountName}.",
   "premiumUserThanksTitle": "Bạn là thành viên cao cấp",
   "premiumUserThanksMessage": "Cảm ơn bạn đã sử dụng ứng dụng. Nhờ có bạn, chúng tôi có thể tiếp tục vận hành Medicalarm.",
   "premiumPricePerMonth": "({price}/tháng)",

@@ -123,7 +123,7 @@
   "purchaseErrorUnexpectedBackend": "Erosketa ezin da une honetan osatu. Saiatu berriro geroago. Arazoak jarraitzen badu, jarri gurekin harremanetan Ezarpenak > Kontaktua atalean. Xehetasunak: {message}",
   "purchaseErrorOperationInProgress": "Erosketa-prozesu bat abian da dagoeneko. Saiatu berriro geroago.",
   "purchaseErrorInsufficientPermissions": "Ezin duzu plan batera harpidetu {accountName} erabiliz. Egiaztatu ordainketa-informazioa eta saiatu berriro",
-  "purchaseErrorPaymentPending": "Ordainketa etenda dago. Mesedez, egiaztatu {storeName} zure {accountName} saioan.",
+  "purchaseErrorPaymentPending": "Ordainketa zain dago. Egiaztatu {storeName} saioa hasita duzun {accountName} kontuarekin.",
   "premiumUserThanksTitle": "Esku handiko kide da",
   "premiumUserThanksMessage": "Eskerrik asko zure erabilera! Medicalarm-en kudeaketa jarraitzeko aukera izan dugu, zuri esker.",
   "premiumPricePerMonth": "({price}/hilar)",

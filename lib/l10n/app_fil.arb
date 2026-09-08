@@ -123,7 +123,7 @@
   "purchaseErrorUnexpectedBackend": "Hindi makumpleto ang pagbili sa ngayon. Subukan muli makalipas ang ilang sandali. Kung magpatuloy ang problema, makipag-ugnayan sa amin sa Mga Setting > Makipag-ugnayan. Mga detalye: {message}",
   "purchaseErrorOperationInProgress": "May kasalukuyang isinasagawang pagbili. Pakisubukang muli mamaya.",
   "purchaseErrorInsufficientPermissions": "Hindi ka makakapag-subscribe sa isang plan gamit ang {accountName}. Suriin ang impormasyon ng iyong pagbabayad at subukan muli",
-  "purchaseErrorPaymentPending": "Ang pagbabayad ay huminto sa kalagitnaan. Pakisuri ang {storeName} gamit ang nakalogin na {accountName}.",
+  "purchaseErrorPaymentPending": "Naka-pending ang pagbabayad. Pakitingnan ang {storeName} gamit ang naka-sign-in na account na {accountName}.",
   "premiumUserThanksTitle": "Ikaw ay isang premium na miyembro",
   "premiumUserThanksMessage": "Maraming salamat sa inyong paggamit. Dahil sa inyo, nagagawa naming ipagpatuloy ang operasyon ng Medicalarm.",
   "premiumPricePerMonth": "({price}/buwan)",

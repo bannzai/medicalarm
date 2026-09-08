@@ -123,7 +123,7 @@
   "purchaseErrorUnexpectedBackend": "Non se pode completar a compra neste momento. Téntao de novo máis tarde. Se o problema persiste, ponte en contacto connosco en Axustes > Contacto. Detalles: {message}",
   "purchaseErrorOperationInProgress": "Xa hai unha compra en curso. Téntao de novo máis tarde.",
   "purchaseErrorInsufficientPermissions": "Non podes subscribirte a un plan con {accountName}. Comproba a información de pagamento e téntao de novo",
-  "purchaseErrorPaymentPending": "O pagamento está detido. Verifique {storeName} con {accountName}.",
+  "purchaseErrorPaymentPending": "O pagamento está pendente. Comproba {storeName} coa conta coa que iniciaches sesión: {accountName}.",
   "premiumUserThanksTitle": "Sodes premium",
   "premiumUserThanksMessage": "Grazas polo seu uso.\nGrazas a vostede, podemos continuar coa xestión de Medicalarm.",
   "premiumPricePerMonth": "({price}/mes)",

@@ -123,7 +123,7 @@
   "purchaseErrorUnexpectedBackend": "Nakupa trenutno ni mogoče dokončati. Poskusite znova pozneje. Če težava ne izgine, nas kontaktirajte prek Nastavitve > Stik. Podrobnosti: {message}",
   "purchaseErrorOperationInProgress": "Nakup je že v postopku. Poskusite znova pozneje.",
   "purchaseErrorInsufficientPermissions": "S računom {accountName} se ne morete naročiti na paket. Preverite podatke za plačilo in poskusite znova",
-  "purchaseErrorPaymentPending": "Plačilo je bilo prekinjeno. Prosimo, preverite {storeName} s prijavljenim računom {accountName}.",
+  "purchaseErrorPaymentPending": "Plačilo je na čakanju. Preverite {storeName} s prijavljenim računom {accountName}.",
   "premiumUserThanksTitle": "To je premium član.",
   "premiumUserThanksMessage": "Hvala, da uporabljate našo aplikacijo. Zahvaljujoč vam lahko nadaljujemo delovanje Medicalarm.",
   "premiumPricePerMonth": "({price}/mesec)",

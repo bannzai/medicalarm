@@ -123,7 +123,7 @@
   "purchaseErrorUnexpectedBackend": "ግዢውን አሁን ማጠናቀቅ አይቻልም። እባክዎ ከጥቂት ጊዜ በኋላ ደግመው ይሞክሩ። ችግሩ ካልተፈታ፣ ከቅንብሮች > አግኙን በኩል ያግኙን። ዝርዝሮች፦ {message}",
   "purchaseErrorOperationInProgress": "የግዢ ሂደት እየተካሄደ ነው። እባክዎ ቆይተው እንደገና ይሞክሩ።",
   "purchaseErrorInsufficientPermissions": "በ{accountName} ዕቅድ መመዝገብ አይችሉም። የክፍያ መረጃዎን ካረጋገጡ በኋላ እንደገና ይሞክሩ",
-  "purchaseErrorPaymentPending": "እቅፍ ይቆሞታል። በምንጩ {accountName} የተመዘገበውን {storeName} ይወቅ።",
+  "purchaseErrorPaymentPending": "ክፍያው ቆሟል። በገባበት {accountName} በመጠቀም {storeName}ን ያረጋግጡ።",
   "premiumUserThanksTitle": "ፕሪምየም አባል ነው",
   "premiumUserThanksMessage": "እናመሰግናለን በእርግጥ የMedicalarm አውጪ ማስተናገድ ለማጽናት እንደምን እንደምታምሩን ተመለከት",
   "premiumPricePerMonth": "({price}/ወር)",

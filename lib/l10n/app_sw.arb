@@ -123,7 +123,7 @@
   "purchaseErrorUnexpectedBackend": "Ununuzi hauwezi kukamilishwa kwa sasa. Tafadhali jaribu tena baadaye. Tatizo likiendelea, wasiliana nasi kupitia Mipangilio > Wasiliana nasi. Maelezo: {message}",
   "purchaseErrorOperationInProgress": "Mchakato wa ununuzi tayari unaendelea. Tafadhali jaribu tena baadaye.",
   "purchaseErrorInsufficientPermissions": "Huwezi kujisajili kwenye mpango ukitumia {accountName}. Kagua maelezo yako ya malipo na ujaribu tena",
-  "purchaseErrorPaymentPending": "Malipo yamesimama katikati. Tafadhali angalia {storeName} na {accountName} zilizomo kwenye akaunti yako.",
+  "purchaseErrorPaymentPending": "Malipo yanasubiri. Angalia {storeName} ukitumia akaunti ya {accountName} iliyoingia.",
   "premiumUserThanksTitle": "Mwanachama wa Premium",
   "premiumUserThanksMessage": "Asante kwa kutumia huduma zetu.\nKwa bantuan yako, tunaweza kuendelea na uendeshaji wa Medicalarm.",
   "premiumPricePerMonth": "({price}/mwezi)",

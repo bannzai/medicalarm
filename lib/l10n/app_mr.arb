@@ -123,7 +123,7 @@
   "purchaseErrorUnexpectedBackend": "सध्या खरेदी पूर्ण करता येत नाही. कृपया थोड्या वेळाने पुन्हा प्रयत्न करा. समस्या कायम राहिल्यास सेटिंग्ज > संपर्क साधा येथे जाऊन आमच्याशी संपर्क साधा. तपशील: {message}",
   "purchaseErrorOperationInProgress": "खरेदीची प्रक्रिया आधीपासून सुरू आहे. कृपया थोड्या वेळाने पुन्हा प्रयत्न करा.",
   "purchaseErrorInsufficientPermissions": "तुम्ही {accountName} वापरून प्लॅनचे सदस्यत्व घेऊ शकत नाही. तुमची पेमेंट माहिती तपासा आणि पुन्हा प्रयत्न करा",
-  "purchaseErrorPaymentPending": "आपल्या पेमेंटमध्ये थांबा आहे. लॉग इन केलेल्या {accountName} द्वारे {storeName} सत्यापित करा.",
+  "purchaseErrorPaymentPending": "पेमेंट प्रलंबित आहे. साइन इन केलेल्या {accountName} द्वारे {storeName} तपासा.",
   "premiumUserThanksTitle": "प्रीमियम सदस्य आहे",
   "premiumUserThanksMessage": "आपल्या वापरासाठी धन्यवाद. आपण केल्यामुळे Medicalarm संचलित ठेवणे शक्य झाले आहे.",
   "premiumPricePerMonth": "（{price}/महिना）",

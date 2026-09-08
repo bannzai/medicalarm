@@ -123,7 +123,7 @@
   "purchaseErrorUnexpectedBackend": "Köpet kan inte slutföras just nu. Försök igen senare. Om problemet kvarstår kan du kontakta oss via Inställningar > Kontakt. Detaljer: {message}",
   "purchaseErrorOperationInProgress": "Ett köp pågår redan. Försök igen senare.",
   "purchaseErrorInsufficientPermissions": "Du kan inte prenumerera på en plan med {accountName}. Kontrollera betalningsinformationen och försök igen",
-  "purchaseErrorPaymentPending": "Betalningen har stoppats. Kontrollera {storeName} med {accountName} som är inloggad.",
+  "purchaseErrorPaymentPending": "Betalningen väntar. Kontrollera {storeName} med det inloggade kontot {accountName}.",
   "premiumUserThanksTitle": "Du är en premiummedlem",
   "premiumUserThanksMessage": "Tack för att du använder vår tjänst. Tack vare dig kan vi fortsätta att driva Medicalarm.",
   "premiumPricePerMonth": "({price}/månad)",

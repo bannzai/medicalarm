@@ -123,7 +123,7 @@
   "purchaseErrorUnexpectedBackend": "Ostosta ei voi suorittaa juuri nyt. Yritä hetken kuluttua uudelleen. Jos ongelma jatkuu, ota meihin yhteyttä kohdasta Asetukset > Yhteydenotto. Tiedot: {message}",
   "purchaseErrorOperationInProgress": "Ostoprosessi on jo käynnissä. Yritä myöhemmin uudelleen.",
   "purchaseErrorInsufficientPermissions": "Et voi tilata tilausta tilillä {accountName}. Tarkista maksutietosi ja yritä uudelleen",
-  "purchaseErrorPaymentPending": "Maksu on keskeytynyt. Tarkista {storeName} sisäänkirjautuneella tililläsi {accountName}.",
+  "purchaseErrorPaymentPending": "Maksu on odottamassa. Tarkista {storeName} sisäänkirjautuneella tilillä {accountName}.",
   "premiumUserThanksTitle": "Olet premium-jäsen",
   "premiumUserThanksMessage": "Kiitos käytöstäsi.\nSen ansiosta voimme jatkaa Medicalarm-sovelluksen ylläpitoa.",
   "premiumPricePerMonth": "({price}/kk)",

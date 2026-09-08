@@ -123,7 +123,7 @@
   "purchaseErrorUnexpectedBackend": "ప్రస్తుతం కొనుగోలును పూర్తి చేయడం సాధ్యం కాదు. కొంత సమయం తర్వాత మళ్లీ ప్రయత్నించండి. సమస్య కొనసాగితే, సెట్టింగ్‌లు > సంప్రదించండి ద్వారా మమ్మల్ని సంప్రదించండి. వివరాలు: {message}",
   "purchaseErrorOperationInProgress": "కొనుగోలు ప్రక్రియ ఇప్పటికే కొనసాగుతోంది. దయచేసి కొంతసేపటి తర్వాత మళ్లీ ప్రయత్నించండి.",
   "purchaseErrorInsufficientPermissions": "{accountName}తో ప్లాన్‌కు సభ్యత్వం పొందలేరు. మీ చెల్లింపు సమాచారాన్ని తనిఖీ చేసి మళ్లీ ప్రయత్నించండి",
-  "purchaseErrorPaymentPending": "భుజగులు మధ్యలో ఆపివేయబడ్డాయి. లాగిన్ చేసుకునే {accountName} ద్వారా {storeName}ని నిర్ధారించుకోండి.",
+  "purchaseErrorPaymentPending": "చెల్లింపు పెండింగ్‌లో ఉంది. సైన్ ఇన్ చేసిన {accountName}తో {storeName}ను తనిఖీ చేయండి.",
   "premiumUserThanksTitle": "ప్రిమియం సభ్యులు",
   "premiumUserThanksMessage": "మీరు ఉపయోగించినందుకు ధన్యవాదాలు. మీ మద్ధతుతో Medicalarm నిర్వహణ కొనసాగించగలుగుతున్నాము.",
   "premiumPricePerMonth": "({price}/మాసం)",

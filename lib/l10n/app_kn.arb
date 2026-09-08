@@ -123,7 +123,7 @@
   "purchaseErrorUnexpectedBackend": "ಈಗ ಖರೀದಿಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಲಾಗುವುದಿಲ್ಲ. ಸ್ವಲ್ಪ ಸಮಯದ ನಂತರ ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ. ಸಮಸ್ಯೆ ಮುಂದುವರಿದರೆ, ಸೆಟ್ಟಿಂಗ್‌ಗಳು > ಸಂಪರ್ಕಿಸಿ ಮೂಲಕ ನಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸಿ. ವಿವರಗಳು: {message}",
   "purchaseErrorOperationInProgress": "ಖರೀದಿ ಪ್ರಕ್ರಿಯೆಯು ಈಗಾಗಲೇ ಪ್ರಗತಿಯಲ್ಲಿದೆ. ದಯವಿಟ್ಟು ಸ್ವಲ್ಪ ಸಮಯದ ನಂತರ ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.",
   "purchaseErrorInsufficientPermissions": "{accountName} ಬಳಸಿ ಪ್ಲಾನ್‌ಗೆ ಚಂದಾದಾರರಾಗಲು ಸಾಧ್ಯವಿಲ್ಲ. ನಿಮ್ಮ ಪಾವತಿ ಮಾಹಿತಿಯನ್ನು ಪರಿಶೀಲಿಸಿ ಮತ್ತು ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ",
-  "purchaseErrorPaymentPending": "ಪಾವತಿ ಮಧ್ಯದಲ್ಲಿ ನಿಲ್ಲಿಸಲಾಗಿದೆ. ಲಾಕ್ ಆಭದ {accountName} ಬಳಸಿಕೊಂಡು {storeName} ಅನ್ನು ಪರಿಶೀಲಿಸಿ.",
+  "purchaseErrorPaymentPending": "ಪಾವತಿ ಬಾಕಿಯಿದೆ. ಸೈನ್ ಇನ್ ಮಾಡಿರುವ {accountName} ಬಳಸಿ {storeName} ಅನ್ನು ಪರಿಶೀಲಿಸಿ.",
   "premiumUserThanksTitle": "ಪ್ರೀಮಿಯಮ್ ಸದಸ್ಯ",
   "premiumUserThanksMessage": "ನಿಮ್ಮ ಬಳಸಣೆಗಾಗಿ ಧನ್ಯವಾದಗಳು.\nನಿಮ್ಮ ನೆರವು ಅರ್ಥಶಾಸ್ತ್ರವನ್ನು ಮುಂದುವರಿಸಲು Medicalarm ಅನ್ನು ನಿರ್ವಹಿಸಲು ಸಾಧ್ಯವಾಗಿದೆ.",
   "premiumPricePerMonth": "({price}/महिना)",

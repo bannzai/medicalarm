@@ -123,7 +123,7 @@
   "purchaseErrorUnexpectedBackend": "Nie można teraz dokończyć zakupu. Spróbuj ponownie później. Jeśli problem będzie się powtarzał, skontaktuj się z nami przez Ustawienia > Kontakt. Szczegóły: {message}",
   "purchaseErrorOperationInProgress": "Zakup jest już w toku. Spróbuj ponownie później.",
   "purchaseErrorInsufficientPermissions": "Nie możesz wykupić planu za pomocą konta {accountName}. Sprawdź informacje dotyczące płatności i spróbuj ponownie",
-  "purchaseErrorPaymentPending": "Płatność została wstrzymana. Proszę sprawdzić {storeName} na koncie {accountName}.",
+  "purchaseErrorPaymentPending": "Płatność jest oczekująca. Sprawdź {storeName} na zalogowanym koncie {accountName}.",
   "premiumUserThanksTitle": "Jesteś członkiem premium",
   "premiumUserThanksMessage": "Dziękujemy za korzystanie z naszej aplikacji. Dzięki Państwu możemy kontynuować działalność Medicalarm.",
   "premiumPricePerMonth": "({price}/miesiąc)",

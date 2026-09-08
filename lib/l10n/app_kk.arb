@@ -123,7 +123,7 @@
   "purchaseErrorUnexpectedBackend": "Қазір сатып алуды аяқтау мүмкін емес. Біраз уақыттан кейін қайталап көріңіз. Мәселе шешілмесе, Параметрлер > Байланысу бөлімі арқылы бізге хабарласыңыз. Толық мәлімет: {message}",
   "purchaseErrorOperationInProgress": "Сатып алу процесі әлдеқашан орындалуда. Біраз уақыттан кейін қайталап көріңіз.",
   "purchaseErrorInsufficientPermissions": "{accountName} арқылы жоспарға жазыла алмайсыз. Төлем ақпаратыңызды тексеріп, қайтадан көріңіз",
-  "purchaseErrorPaymentPending": "Төлем уақытша тоқтатылды. Логинмен кірген {accountName} есептік жазбасымен {storeName} тексеріңіз",
+  "purchaseErrorPaymentPending": "Төлем күтілуде. Жүйеге кірген {accountName} есептік жазбасымен {storeName} қызметін тексеріңіз.",
   "premiumUserThanksTitle": "Премиум мүшесіз",
   "premiumUserThanksMessage": "Сізге рақмет. Сіздің арқасында Medicalarm-ды үздіксіз басқаруға мүмкіндігіміз бар.",
   "premiumPricePerMonth": "({price}/ай",

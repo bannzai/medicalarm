@@ -123,7 +123,7 @@
   "purchaseErrorUnexpectedBackend": "შეძენის დასრულება ამჟამად შეუძლებელია. გთხოვთ, ცოტა ხანში ხელახლა სცადოთ. თუ პრობლემა არ მოგვარდა, დაგვიკავშირდით პარამეტრებიდან > კონტაქტი. დეტალები: {message}",
   "purchaseErrorOperationInProgress": "შეძენის პროცესი უკვე მიმდინარეობს. გთხოვთ, მოგვიანებით სცადოთ ხელახლა.",
   "purchaseErrorInsufficientPermissions": "{accountName}-ით გეგმაზე გამოწერა შეუძლებელია. შეამოწმეთ გადახდის ინფორმაცია და სცადეთ ხელახლა",
-  "purchaseErrorPaymentPending": "გადახდა შეჩერებულია. გთხოვთ გადაამოწმოთ {storeName} თქვენი {accountName} ანგარიშით.",
+  "purchaseErrorPaymentPending": "გადახდა მოლოდინშია. შეამოწმეთ {storeName} ანგარიშით {accountName}, რომლითაც შესული ხართ.",
   "premiumUserThanksTitle": "პრემიუმ წევრი ხართ",
   "premiumUserThanksMessage": "მადლობთ, რომ იყენებთ ჩვენს აპლიკაციას. მადლობა თქვენ, ჩვენ შეგვიძლია განვაგრძოთ Medicalarm-ის მართვა.",
   "premiumPricePerMonth": "({price}/თვეში)",

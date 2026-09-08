@@ -123,7 +123,7 @@
   "purchaseErrorUnexpectedBackend": "Ukuthenga akukwazi ukuqedwa okwamanje. Sicela uzame futhi ngemva kwesikhashana. Uma inkinga iqhubeka, xhumana nathi ngokusebenzisa Izilungiselelo > Xhumana nathi. Imininingwane: {message}",
   "purchaseErrorOperationInProgress": "Ukuthenga sekuyaqhubeka. Sicela uzame futhi emuva kwesikhashana.",
   "purchaseErrorInsufficientPermissions": "Awukwazi ukubhalisela uhlelo nge-{accountName}. Hlola imininingwane yakho yokukhokha bese uzama futhi",
-  "purchaseErrorPaymentPending": "Ukukhokha kuhlelwe. Sicela uqinisekise {storeName} ngalesi sikhathi se-akhawunti {accountName} esilogwini.",
+  "purchaseErrorPaymentPending": "Inkokhelo isalindile. Hlola i-{storeName} usebenzisa i-akhawunti ongene ngayo ethi {accountName}.",
   "premiumUserThanksTitle": "Ngum member yePremium",
   "premiumUserThanksMessage": "Ngiyabonga ngokusebenzisa i-app yethu. Ngenxa yenu, sikwazile ukuqhubeka nokusebenzisa iMedicalarm.",
   "premiumPricePerMonth": "(R {price}/inyanga)",

@@ -123,7 +123,7 @@
   "purchaseErrorUnexpectedBackend": "Não é possível concluir a compra neste momento. Tente novamente mais tarde. Se o problema persistir, contacte-nos em Definições > Contacto. Detalhes: {message}",
   "purchaseErrorOperationInProgress": "Já existe uma compra em andamento. Tente novamente mais tarde.",
   "purchaseErrorInsufficientPermissions": "Não pode subscrever um plano com {accountName}. Verifique as informações de pagamento e tente novamente",
-  "purchaseErrorPaymentPending": "O pagamento está pendente. Verifique {storeName} com a conta {accountName}.",
+  "purchaseErrorPaymentPending": "O pagamento está pendente. Verifique {storeName} com a conta com sessão iniciada {accountName}.",
   "premiumUserThanksTitle": "Você é um membro premium",
   "premiumUserThanksMessage": "Obrigado por usar o nosso serviço. Graças a você, podemos continuar operando o Medicalarm.",
   "premiumPricePerMonth": "({price}/mês)",

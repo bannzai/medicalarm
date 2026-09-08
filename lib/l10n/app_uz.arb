@@ -123,7 +123,7 @@
   "purchaseErrorUnexpectedBackend": "Hozirda xaridni yakunlab bo‘lmaydi. Birozdan so‘ng qayta urinib ko‘ring. Muammo hal bo‘lmasa, Sozlamalar > Bog‘lanish bo‘limi orqali biz bilan bog‘laning. Tafsilotlar: {message}",
   "purchaseErrorOperationInProgress": "Xarid jarayoni allaqachon davom etmoqda. Birozdan so‘ng qayta urinib ko‘ring.",
   "purchaseErrorInsufficientPermissions": "{accountName} bilan rejaga obuna bo‘la olmaysiz. To‘lov ma’lumotlaringizni tekshirib, qayta urinib ko‘ring",
-  "purchaseErrorPaymentPending": "To'lov davom etmayapti. Ilgari ro'yxatdan o'tgan {accountName} hisobingiz bilan {storeName} ni tekshirib ko'ring.",
+  "purchaseErrorPaymentPending": "To‘lov kutilmoqda. Tizimga kirilgan {accountName} orqali {storeName}ni tekshiring.",
   "premiumUserThanksTitle": "Premium a'zosi",
   "premiumUserThanksMessage": "Sizga rahmat. Medicalarm-ning faoliyatini davom ettirayotganimizdan xursandmiz.",
   "premiumPricePerMonth": "({price}/oy）",

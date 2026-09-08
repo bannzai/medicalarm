@@ -123,7 +123,7 @@
   "purchaseErrorUnexpectedBackend": "Šobrīd pirkumu nevar pabeigt. Lūdzu, mēģiniet vēlreiz vēlāk. Ja problēma atkārtojas, sazinieties ar mums sadaļā Iestatījumi > Saziņa. Detalizēta informācija: {message}",
   "purchaseErrorOperationInProgress": "Pirkums jau tiek apstrādāts. Lūdzu, mēģiniet vēlāk vēlreiz.",
   "purchaseErrorInsufficientPermissions": "Ar {accountName} nevarat abonēt plānu. Pārbaudiet maksājuma informāciju un mēģiniet vēlreiz",
-  "purchaseErrorPaymentPending": "Maksājums ir pārtraukts. Lūdzu, pārbaudiet {storeName} ar {accountName} kontu.",
+  "purchaseErrorPaymentPending": "Maksājums tiek apstrādāts. Pārbaudiet {storeName}, izmantojot pierakstīto kontu {accountName}.",
   "premiumUserThanksTitle": "Premium biedrs",
   "premiumUserThanksMessage": "Paldies, ka izmantojat mūs. Pateicoties jums, mēs varam turpināt Medicalarm darbināšanu.",
   "premiumPricePerMonth": "({price}/mēnesī)",

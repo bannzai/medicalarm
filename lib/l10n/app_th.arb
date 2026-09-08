@@ -123,7 +123,7 @@
   "purchaseErrorUnexpectedBackend": "ไม่สามารถดำเนินการซื้อให้เสร็จสมบูรณ์ได้ในขณะนี้ โปรดลองอีกครั้งภายหลัง หากยังพบปัญหา โปรดติดต่อเราผ่าน การตั้งค่า > ติดต่อเรา รายละเอียด: {message}",
   "purchaseErrorOperationInProgress": "กำลังดำเนินการซื้ออยู่แล้ว โปรดลองอีกครั้งในภายหลัง",
   "purchaseErrorInsufficientPermissions": "คุณไม่สามารถสมัครแพ็กเกจด้วย {accountName} ได้ โปรดตรวจสอบข้อมูลการชำระเงินแล้วลองอีกครั้ง",
-  "purchaseErrorPaymentPending": "การชำระเงินถูกระงับอยู่ กรุณาตรวจสอบ {storeName} ด้วยบัญชีที่ลงชื่อเข้าใช้ {accountName}",
+  "purchaseErrorPaymentPending": "การชำระเงินอยู่ระหว่างดำเนินการ โปรดตรวจสอบ {storeName} ด้วยบัญชี {accountName} ที่ลงชื่อเข้าใช้",
   "premiumUserThanksTitle": "สมาชิกพรีเมียม",
   "premiumUserThanksMessage": "ขอขอบคุณที่ใช้บริการของเรา。\nด้วยความช่วยเหลือจากคุณ เราสามารถดำเนินการ Medicalarm ต่อไปได้.",
   "premiumPricePerMonth": "({price}/เดือน)",

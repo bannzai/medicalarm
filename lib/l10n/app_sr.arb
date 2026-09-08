@@ -123,7 +123,7 @@
   "purchaseErrorUnexpectedBackend": "Kupovinu trenutno nije moguće dovršiti. Pokušajte ponovo kasnije. Ako problem i dalje postoji, kontaktirajte nas preko Podešavanja > Kontakt. Detalji: {message}",
   "purchaseErrorOperationInProgress": "Куповина је већ у току. Покушајте поново касније.",
   "purchaseErrorInsufficientPermissions": "Не можете да се претплатите на план помоћу налога {accountName}. Проверите податке о плаћању и покушајте поново",
-  "purchaseErrorPaymentPending": "Плаћање је прекинуто. Проверите {storeName} са регистрацијом {accountName}.",
+  "purchaseErrorPaymentPending": "Плаћање је на чекању. Проверите {storeName} помоћу пријављеног налога {accountName}.",
   "premiumUserThanksTitle": "Премиум члан",
   "premiumUserThanksMessage": "Хвала вам на коришћењу.Захваљујући вама, можемо наставити да управљамо Medicalarm-ом.",
   "premiumPricePerMonth": "({price}/месяц)",

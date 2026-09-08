@@ -123,7 +123,7 @@
   "purchaseErrorUnexpectedBackend": "Pembelian tidak dapat diselesaikan saat ini. Silakan coba lagi nanti. Jika masalah berlanjut, hubungi kami melalui Pengaturan > Hubungi Kami. Detail: {message}",
   "purchaseErrorOperationInProgress": "Proses pembelian sedang berlangsung. Silakan coba lagi nanti.",
   "purchaseErrorInsufficientPermissions": "Anda tidak dapat berlangganan paket dengan {accountName}. Periksa informasi pembayaran Anda, lalu coba lagi",
-  "purchaseErrorPaymentPending": "Pembayaran sedang terhenti. Silakan periksa {storeName} dengan akun {accountName} yang sedang login.",
+  "purchaseErrorPaymentPending": "Pembayaran tertunda. Periksa {storeName} menggunakan akun {accountName} yang sedang login.",
   "premiumUserThanksTitle": "Anggota premium",
   "premiumUserThanksMessage": "Terima kasih telah menggunakan layanan kami.\nBerkat Anda, kami dapat terus menjalankan Medicalarm.",
   "premiumPricePerMonth": "({price}/bulan)",

@@ -123,7 +123,7 @@
   "purchaseErrorUnexpectedBackend": "Зараз пакупку немагчыма завяршыць. Паспрабуйце яшчэ раз пазней. Калі праблема не знікне, звярніцеся да нас праз Налады > Звязацца з намі. Падрабязнасці: {message}",
   "purchaseErrorOperationInProgress": "Працэс пакупкі ўжо выконваецца. Паўтарыце спробу пазней.",
   "purchaseErrorInsufficientPermissions": "З дапамогай {accountName} немагчыма аформіць падпіску на план. Праверце плацежную інфармацыю і паспрабуйце яшчэ раз",
-  "purchaseErrorPaymentPending": "Плацеж знаходзіцца на паўторнай стадыі. Калі ласка, праверце {storeName} для {accountName}",
+  "purchaseErrorPaymentPending": "Плацеж прыпынены. Праверце {storeName} з дапамогай уліковага запісу {accountName}, пад якім вы ўвайшлі.",
   "premiumUserThanksTitle": "Вы прэміум-член.",
   "premiumUserThanksMessage": "Дзякуй за карыстанне! Дзякуючы вам мы можам працягваць развіваць Medicalarm.",
   "premiumPricePerMonth": "({price}/месяц)",

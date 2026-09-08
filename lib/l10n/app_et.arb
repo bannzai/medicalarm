@@ -123,7 +123,7 @@
   "purchaseErrorUnexpectedBackend": "Ostu ei saa praegu lõpule viia. Proovige mõne aja pärast uuesti. Kui probleem püsib, võtke meiega ühendust menüüs Seaded > Kontakt. Üksikasjad: {message}",
   "purchaseErrorOperationInProgress": "Ostutehing on juba pooleli. Proovige hiljem uuesti.",
   "purchaseErrorInsufficientPermissions": "Kontoga {accountName} ei saa paketti tellida. Kontrollige oma makseteavet ja proovige uuesti",
-  "purchaseErrorPaymentPending": "Teie makse on pooleli. Kontrollige {storeName} sisse logitud kontoga {accountName}.",
+  "purchaseErrorPaymentPending": "Makse on ootel. Kontrollige {storeName} sisselogitud kontoga {accountName}.",
   "premiumUserThanksTitle": "Oled premium liige",
   "premiumUserThanksMessage": "Aitäh, et kasutasite meid. Teie abiga saame jätkata Medicalarmi haldamist.",
   "premiumPricePerMonth": "({price}/kuu)",

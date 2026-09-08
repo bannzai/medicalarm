@@ -123,7 +123,7 @@
   "purchaseErrorUnexpectedBackend": "L’achat ne peut pas être effectué pour le moment. Veuillez réessayer plus tard. Si le problème persiste, contactez-nous via Réglages > Contact. Détails : {message}",
   "purchaseErrorOperationInProgress": "Un achat est déjà en cours. Veuillez réessayer plus tard.",
   "purchaseErrorInsufficientPermissions": "Vous ne pouvez pas souscrire à un forfait avec {accountName}. Vérifiez vos informations de paiement, puis réessayez",
-  "purchaseErrorPaymentPending": "Le paiement est en attente. Veuillez vérifier {storeName} avec votre compte {accountName}.",
+  "purchaseErrorPaymentPending": "Le paiement est en attente. Vérifiez {storeName} avec le compte connecté {accountName}.",
   "premiumUserThanksTitle": "Membre premium",
   "premiumUserThanksMessage": "Merci d'utiliser notre application.\nGrâce à vous, nous pouvons continuer à faire fonctionner Medicalarm.",
   "premiumPricePerMonth": "({price}/mois)",

@@ -123,7 +123,7 @@
   "purchaseErrorUnexpectedBackend": "De Chauf cha im Momänt nöd abgschlosse werde. Bitte probiers spöter nomal. Wenn s Problem wiiterbesteit, kontaktier eus über Iistellige > Kontakt. Details: {message}",
   "purchaseErrorOperationInProgress": "En Chauf isch scho am Laufe. Bitte probier’s spöter nomol.",
   "purchaseErrorInsufficientPermissions": "Mit {accountName} chasch kei Plan abonniere. Prüef dini Zahlungsinformatione und versuechs nomal",
-  "purchaseErrorPaymentPending": "Zahlung isch unterbroche. Prüefe bitte mit {accountName} für {storeName}.",
+  "purchaseErrorPaymentPending": "D Zahlig isch no offe. Prüef {storeName} mit em agmäldete Konto {accountName}.",
   "premiumUserThanksTitle": "Premium Mitglied",
   "premiumUserThanksMessage": "Danke für Ihre Nutzung. Dank Ihnen können wir Medicalarm weiterhin betreiben.",
   "premiumPricePerMonth": "({price}/Monat)",

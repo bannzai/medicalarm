@@ -123,7 +123,7 @@
   "purchaseErrorUnexpectedBackend": "Achiziția nu poate fi finalizată momentan. Încercați din nou mai târziu. Dacă problema persistă, contactați-ne din Setări > Contact. Detalii: {message}",
   "purchaseErrorOperationInProgress": "O achiziție este deja în desfășurare. Încercați din nou mai târziu.",
   "purchaseErrorInsufficientPermissions": "Nu vă puteți abona la un plan cu {accountName}. Verificați informațiile de plată și încercați din nou",
-  "purchaseErrorPaymentPending": "Plata a fost oprită în timpul procesului. Vă rugăm să verificați {storeName} cu contul {accountName}.",
+  "purchaseErrorPaymentPending": "Plata este în așteptare. Verificați {storeName} folosind contul conectat {accountName}.",
   "premiumUserThanksTitle": "Sunteți membru premium",
   "premiumUserThanksMessage": "Vă mulțumim pentru utilizare. Datorită dumneavoastră, putem continua administrarea Medicalarm.",
   "premiumPricePerMonth": "({price}/luna)",

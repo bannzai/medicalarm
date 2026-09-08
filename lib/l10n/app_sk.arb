@@ -123,7 +123,7 @@
   "purchaseErrorUnexpectedBackend": "Nákup sa momentálne nedá dokončiť. Skúste to znova neskôr. Ak problém pretrváva, kontaktujte nás cez Nastavenia > Kontakt. Podrobnosti: {message}",
   "purchaseErrorOperationInProgress": "Nákup už prebieha. Skúste to znova neskôr.",
   "purchaseErrorInsufficientPermissions": "S účtom {accountName} sa nemôžete prihlásiť na odber plánu. Skontrolujte platobné údaje a skúste to znova",
-  "purchaseErrorPaymentPending": "Platba bola pozastavená. Skontrolujte {storeName} s prihláseným účtom {accountName}.",
+  "purchaseErrorPaymentPending": "Platba čaká na spracovanie. Skontrolujte {storeName} pomocou prihláseného účtu {accountName}.",
   "premiumUserThanksTitle": "Ste to prémium člen.",
   "premiumUserThanksMessage": "Ďakujeme za vašu podporu.\nVďaka vám môžeme pokračovať v prevádzke Medicalarm.",
   "premiumPricePerMonth": "({price}/mesiac)",

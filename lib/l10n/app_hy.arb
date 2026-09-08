@@ -123,7 +123,7 @@
   "purchaseErrorUnexpectedBackend": "Այս պահին գնումը հնարավոր չէ ավարտել։ Խնդրում ենք մի փոքր անց կրկին փորձել։ Եթե խնդիրը չլուծվի, կապվեք մեզ հետ՝ Կարգավորումներ > Կապ բաժնից։ Մանրամասներ՝ {message}",
   "purchaseErrorOperationInProgress": "Գնման գործընթացն արդեն ընթացքի մեջ է։ Խնդրում ենք փորձել կրկին ավելի ուշ։",
   "purchaseErrorInsufficientPermissions": "Դուք չեք կարող բաժանորդագրվել որևէ փաթեթի՝ {accountName}-ի միջոցով։ Ստուգեք վճարման տվյալները և կրկին փորձեք",
-  "purchaseErrorPaymentPending": "Արդարացնողը, մինչդեռ վճարումը շարունակում է մնալ: Խնդրում ենք ստուգել {storeName}ը ձեր ակտիվ {accountName} հաշվի տվյալներով։",
+  "purchaseErrorPaymentPending": "Վճարումը սպասման մեջ է։ Ստուգեք {storeName}-ը մուտք գործած {accountName} հաշվով։",
   "premiumUserThanksTitle": "Պրեմիում անդամ է",
   "premiumUserThanksMessage": "Շնորհակալություն օգտագործման համար։ Ձեր շնորհիվ Medicalarm-ի գործունեությունը շարունակվում է։",
   "premiumPricePerMonth": "({price}/ամսյակ)",
