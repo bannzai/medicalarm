@@ -63,7 +63,7 @@
   "ok": "හරි",
   "medicationScheduleLimit": "ඔබට ඖෂධ ගැනීමේ කාලසටහන් {count}ක් දක්වා ලියාපදිංචි කළ හැකිය.",
   "increaseMedicationScheduleLimit": "Premium සැලසුම සමඟ සීමාව {count} දක්වා වැඩි කරන්න",
-  "addMedicationSchedule": "ඖෂධ ගැනීමේ කාලසටහන එක් කරන්න",
+  "addMedicationSchedule": "ඖෂධ ලබාගැනීමේ කාලසටහන එක් කරන්න",
   "medicationScheduleNotificationSetting": "ඖෂධ ගැනීමේ කාලසටහන් දැනුම්දීම් සැකසීම්",
   "notificationSetting": "දැනුම්දීම් සැකසීම්",
   "enableFollowupNotification": "පසු විපරම් දැනුම්දීම් සබල කරන්න",

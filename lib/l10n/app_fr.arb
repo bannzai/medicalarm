@@ -63,7 +63,7 @@
   "ok": "OK",
   "medicationScheduleLimit": "Vous pouvez enregistrer jusqu’à {count} programmes de prise de médicaments.",
   "increaseMedicationScheduleLimit": "Augmentez la limite à {count} avec le forfait Premium",
-  "addMedicationSchedule": "Ajouter un calendrier de prise de médicaments",
+  "addMedicationSchedule": "Ajouter un horaire de prise de médicaments",
   "medicationScheduleNotificationSetting": "Réglages des notifications du programme de prise de médicaments",
   "notificationSetting": "Réglages des notifications",
   "enableFollowupNotification": "Activer les notifications de suivi",

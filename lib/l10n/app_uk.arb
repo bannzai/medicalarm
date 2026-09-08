@@ -63,7 +63,7 @@
   "ok": "Гаразд",
   "medicationScheduleLimit": "Можна зареєструвати до {count} розкладів прийому ліків.",
   "increaseMedicationScheduleLimit": "Збільште ліміт до {count} з планом Premium",
-  "addMedicationSchedule": "Додати розклад приймання ліків",
+  "addMedicationSchedule": "Додати розклад прийому ліків",
   "medicationScheduleNotificationSetting": "Налаштування сповіщень про розклад приймання ліків",
   "notificationSetting": "Налаштування сповіщень",
   "enableFollowupNotification": "Увімкнути подальші сповіщення",

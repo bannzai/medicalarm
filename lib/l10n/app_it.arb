@@ -63,7 +63,7 @@
   "ok": "OK",
   "medicationScheduleLimit": "Puoi registrare fino a {count} programmi di assunzione dei farmaci.",
   "increaseMedicationScheduleLimit": "Aumenta il limite a {count} con il piano Premium",
-  "addMedicationSchedule": "Aggiungi piano di assunzione dei farmaci",
+  "addMedicationSchedule": "Aggiungi programma di assunzione dei farmaci",
   "medicationScheduleNotificationSetting": "Impostazioni delle notifiche del programma dei farmaci",
   "notificationSetting": "Impostazioni delle notifiche",
   "enableFollowupNotification": "Abilita le notifiche di follow-up",

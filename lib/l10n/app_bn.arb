@@ -63,7 +63,7 @@
   "ok": "ঠিক আছে",
   "medicationScheduleLimit": "আপনি সর্বাধিক {count}টি ওষুধ সেবনের সময়সূচি নিবন্ধন করতে পারবেন।",
   "increaseMedicationScheduleLimit": "Premium প্ল্যানে সীমা {count}-এ বাড়ান",
-  "addMedicationSchedule": "ওষুধ সেবনের সময়সূচি যোগ করুন",
+  "addMedicationSchedule": "ওষুধ খাওয়ার সময়সূচি যোগ করুন",
   "medicationScheduleNotificationSetting": "ওষুধ খাওয়ার সময়সূচির বিজ্ঞপ্তি সেটিংস",
   "notificationSetting": "বিজ্ঞপ্তি সেটিংস",
   "enableFollowupNotification": "ফলো-আপ বিজ্ঞপ্তি চালু করুন",

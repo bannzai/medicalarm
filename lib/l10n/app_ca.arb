@@ -63,7 +63,7 @@
   "ok": "D’acord",
   "medicationScheduleLimit": "Pots registrar fins a {count} horaris de presa de medicaments.",
   "increaseMedicationScheduleLimit": "Augmenta el límit a {count} amb el pla Premium",
-  "addMedicationSchedule": "Afegeix un horari de medicació",
+  "addMedicationSchedule": "Afegir l’horari de medicació",
   "medicationScheduleNotificationSetting": "Configuració de notificacions de l’horari de medicació",
   "notificationSetting": "Configuració de notificacions",
   "enableFollowupNotification": "Activa les notificacions de seguiment",
