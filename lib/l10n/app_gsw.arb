@@ -112,7 +112,7 @@
   "purchaseErrorUnknown": "E unbekannte Fähler isch uftrete. Bitte probiere es spöter nomol. Wenn s Problem wiiterbestoht, kontaktiere üs über Iistellige > Kontakt. Details: {message}",
   "purchaseErrorStoreProblem": "Bi {storeName} isch e Fähler uftrete. Bitte probier’s spöter nomal.",
   "purchaseErrorInvalidPayment": "Zahlig isch fehlgschlage. Bitte prüefed Sie, ob Ihri Zahligsmethode gültig isch, und versueched Sie es nomal.",
-  "purchaseErrorProductUnavailable": "Dä Betreff-Plän isch zur Zet nüt verfügbar. Bitte startä Sie d'App nöi und probierä Sie et nochmal.",
+  "purchaseErrorProductUnavailable": "De usgwählti Plan isch im Momänt nöd erhältlich. Bitte starte d’App neu und probier’s nomal.",
   "purchaseErrorAlreadyPurchased": "Du hesch das Abo scho kauft. Wenn du d'Kaufinformatione uf däm Gerät widerherstelle wöu, benutze bitte \"Wenn du für z'vor kaaft hesch, klick da hier\".",
   "purchaseErrorReceiptInUse": "Schon chauft. D'Kaufsinformationen werde vo ä andere Benutzer verwendet. Bitte überprüfe {accountName}.",
   "purchaseErrorInvalidReceipt": "I d'kaufinformatio isch ungültig. Bitte überprüfe d'Kaufinformatio.",

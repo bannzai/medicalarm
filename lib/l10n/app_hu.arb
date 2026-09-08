@@ -112,7 +112,7 @@
   "purchaseErrorUnknown": "Ismeretlen hiba történt. Próbálja újra később. Ha a probléma továbbra is fennáll, lépjen velünk kapcsolatba a Beállítások > Kapcsolatfelvétel menüpontban. Részletek: {message}",
   "purchaseErrorStoreProblem": "Hiba történt a(z) {storeName} szolgáltatásban. Kérjük, próbálja újra később.",
   "purchaseErrorInvalidPayment": "A fizetés sikertelen. Ellenőrizze, hogy érvényes-e a fizetési módja, majd próbálja újra.",
-  "purchaseErrorProductUnavailable": "A kiválasztott terv jelenleg nem elérhető. Kérjük, indítsa újra az alkalmazást, és próbálja meg újra.",
+  "purchaseErrorProductUnavailable": "A kiválasztott csomag jelenleg nem vásárolható meg. Indítsa újra az alkalmazást, majd próbálja újra.",
   "purchaseErrorAlreadyPurchased": "Már megvásárolta a tervet. Ha meg szeretné őrizni a vásárlási információkat ezen az eszközön, kérjük, használja a \"Kérjük, kattanjon ide, ha korábban vásárolt\" lehetőséget a vásárlási információk helyreállításához.",
   "purchaseErrorReceiptInUse": "Már megvásárolva. A vásárlási információ egy másik felhasználóhoz tartozik. Kérjük, ellenőrizze {accountName}-t.",
   "purchaseErrorInvalidReceipt": "Érvénytelen vásárlási információ. Kérjük, ellenőrizze a vásárlási információkat.",

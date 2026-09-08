@@ -112,7 +112,7 @@
   "purchaseErrorUnknown": "Ein unbekannter Fehler ist aufgetreten. Bitte versuchen Sie es später erneut. Wenn das Problem weiterhin besteht, kontaktieren Sie uns über Einstellungen > Kontakt. Details: {message}",
   "purchaseErrorStoreProblem": "In {storeName} ist ein Fehler aufgetreten. Bitte versuchen Sie es später erneut.",
   "purchaseErrorInvalidPayment": "Die Zahlung ist fehlgeschlagen. Bitte prüfen Sie, ob Ihre Zahlungsmethode gültig ist, und versuchen Sie es erneut.",
-  "purchaseErrorProductUnavailable": "Dieser Plan ist derzeit nicht erhältlich. Bitte starten Sie die App neu und versuchen Sie es erneut.",
+  "purchaseErrorProductUnavailable": "Der ausgewählte Tarif ist derzeit nicht erhältlich. Bitte starten Sie die App neu und versuchen Sie es erneut.",
   "purchaseErrorAlreadyPurchased": "Sie haben bereits einen Plan gekauft. Wenn Sie die Kaufinformationen auf diesem Gerät wiederherstellen möchten, klicken Sie bitte auf \"Hier klicken, wenn Sie zuvor gekauft haben\".",
   "purchaseErrorReceiptInUse": "Bereits gekauft. Die Kaufinformationen werden von einem anderen Benutzer verwendet. Bitte überprüfen Sie {accountName}.",
   "purchaseErrorInvalidReceipt": "Ungültige Kaufinformationen. Bitte überprüfen Sie die Kaufinformationen.",

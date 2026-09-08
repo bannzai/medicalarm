@@ -112,7 +112,7 @@
   "purchaseErrorUnknown": "Įvyko nežinoma klaida. Pabandykite dar kartą vėliau. Jei problema neišsisprendžia, susisiekite su mumis: Nustatymai > Kontaktai. Išsami informacija: {message}",
   "purchaseErrorStoreProblem": "Įvyko {storeName} klaida. Pabandykite dar kartą vėliau.",
   "purchaseErrorInvalidPayment": "Mokėjimas nepavyko. Patikrinkite, ar jūsų mokėjimo būdas galioja, ir bandykite dar kartą.",
-  "purchaseErrorProductUnavailable": "Pasirinktas planas šiuo metu nėra parduodamas. Atsiprašome, bet prašome perkrauti programą ir bandyti dar kartą.",
+  "purchaseErrorProductUnavailable": "Pasirinktas planas šiuo metu neparduodamas. Paleiskite programėlę iš naujo ir bandykite dar kartą.",
   "purchaseErrorAlreadyPurchased": "Jau esate įsigiję planą. Norėdami atkurti pirkimo informaciją šiame įrenginyje, spustelėkite „Anksčiau pirkusiems čia\".",
   "purchaseErrorReceiptInUse": "Jau įsigyta. {accountName} patikrinkite, nes pirkimo informacija naudojama kito vartotojo.",
   "purchaseErrorInvalidReceipt": "Neteisinga pirkimo informacija. Patikrinkite pirkimo informaciją.",

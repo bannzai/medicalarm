@@ -112,7 +112,7 @@
   "purchaseErrorUnknown": "Óþekkt villa kom upp. Prófaðu aftur síðar. Ef vandamálið leysist ekki skaltu hafa samband við okkur í Stillingar > Hafðu samband. Upplýsingar: {message}",
   "purchaseErrorStoreProblem": "Villa kom upp í {storeName}. Vinsamlegast reyndu aftur síðar.",
   "purchaseErrorInvalidPayment": "Greiðslan tókst ekki. Athugaðu hvort greiðslumátinn þinn sé gildur og reyndu aftur.",
-  "purchaseErrorProductUnavailable": "Áætlunin er ekki til sölu núna. Vinsamlegast endurræstu appið og reyndu aftur.",
+  "purchaseErrorProductUnavailable": "Valda áskriftarleiðin er ekki í boði eins og er. Endurræstu appið og reyndu aftur.",
   "purchaseErrorAlreadyPurchased": "Þú hefur þegar keypt áætlunina. Ef þú vilt endurreisa kaupin þín á þessu tæki skaltu smella á \"Smelltu hér ef þú hefur áður keypt\" til að endurreisa kaupaupplýsingar.",
   "purchaseErrorReceiptInUse": "Þú ert þegar búinn að kaupa. Kaupin eru nú þegar notuð af öðrum notanda. Vinsamlegast athugaðu {accountName}.",
   "purchaseErrorInvalidReceipt": "Rangmál kaupsins er ólöglegt. Vinsamlegast staðfestu kaupin.",

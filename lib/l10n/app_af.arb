@@ -112,7 +112,7 @@
   "purchaseErrorUnknown": "Daar het ’n onbekende fout voorgekom. Probeer asseblief later weer. As die probleem voortduur, kontak ons via Instellings > Kontak. Besonderhede: {message}",
   "purchaseErrorStoreProblem": "Daar is tans ’n probleem met {storeName}. Probeer asseblief later weer.",
   "purchaseErrorInvalidPayment": "Betaling kon nie voltooi word nie. Kontroleer asseblief of jou betaalmetode geldig is en probeer weer.",
-  "purchaseErrorProductUnavailable": "Die betrokke plan is tans nie beskikbaar nie. Ons vra om verskoning, maar probeer asseblief om die app weer te begin.",
+  "purchaseErrorProductUnavailable": "Die geselekte plan is tans nie te koop nie. Herbegin asseblief die app en probeer weer.",
   "purchaseErrorAlreadyPurchased": "U het reeds 'n plan gekoop. As u die aankoopinligting op hierdie toestel wil herstel, gebruik asseblief die opsie \"Herstel aankoopinligting hier\".",
   "purchaseErrorReceiptInUse": "Reeds al aangeskaf. Die aankoopbesonderhede word deur 'n ander gebruiker gebruik. Gaan asseblief {accountName} na.",
   "purchaseErrorInvalidReceipt": "Ongeldige aankoopbesonderhede. Vervaardig asseblief die aankoopbesonderhede.",

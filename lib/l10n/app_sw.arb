@@ -112,7 +112,7 @@
   "purchaseErrorUnknown": "Hitilafu isiyojulikana imetokea. Tafadhali jaribu tena baadaye. Tatizo likiendelea, wasiliana nasi kupitia Mipangilio > Wasiliana nasi. Maelezo: {message}",
   "purchaseErrorStoreProblem": "Hitilafu imetokea kwenye {storeName}. Tafadhali jaribu tena baadaye.",
   "purchaseErrorInvalidPayment": "Malipo hayakufaulu. Tafadhali hakikisha kuwa njia yako ya malipo ni halali, kisha ujaribu tena.",
-  "purchaseErrorProductUnavailable": "Mpango unaolenga sasa hivi haupo sokoni. Tafadhali jaribu tena baada ya kuzindua upya programu.",
+  "purchaseErrorProductUnavailable": "Mpango uliochaguliwa haupatikani kwa ununuzi kwa sasa. Tafadhali anzisha upya programu na ujaribu tena.",
   "purchaseErrorAlreadyPurchased": "Umefanya kununua mpango tayari. Ikiwa unataka kurejesha taarifa za ununuzi kwenye kifaa hiki, tafadhali nenda kwenye \"Wale walio nunua hapo awali hapa\" ili kurejesha taarifa za ununuzi.",
   "purchaseErrorReceiptInUse": "Tayari umenunua. Taarifa ya ununuzi inatumika na mtumiaji mwingine. Tafadhali angalia {accountName}.",
   "purchaseErrorInvalidReceipt": "Taarifa ya ununuzi isiyo sahihi. Tafadhali thibitisha taarifa za ununuzi.",

@@ -112,7 +112,7 @@
   "purchaseErrorUnknown": "Noma’lum xatolik yuz berdi. Birozdan so‘ng qayta urinib ko‘ring. Muammo hal bo‘lmasa, Sozlamalar > Bog‘lanish bo‘limi orqali biz bilan bog‘laning. Tafsilotlar: {message}",
   "purchaseErrorStoreProblem": "{storeName} bilan bog‘liq xatolik yuz berdi. Birozdan so‘ng qayta urinib ko‘ring.",
   "purchaseErrorInvalidPayment": "To‘lov amalga oshmadi. To‘lov usulingiz yaroqli ekanini tekshirib, qayta urinib ko‘ring.",
-  "purchaseErrorProductUnavailable": "Hozirda maqsadli rejalar mavjud emas. Iltimos, ilovani qayta ishga tushirib ko'ring.",
+  "purchaseErrorProductUnavailable": "Tanlangan reja hozirda sotuvda emas. Iltimos, ilovani qayta ishga tushirib, yana urinib ko‘ring.",
   "purchaseErrorAlreadyPurchased": "Siz allaqachon reja sotib oldingiz. Ushbu qurilmada xarid ma'lumotlarini tiklash uchun \"Avvalroq sotib olganlar uchun bu yerdan\" havolasiga o'ting.",
   "purchaseErrorReceiptInUse": "Siz allaqachon sotib oldingiz. {accountName} ni tekshirib ko'ring, chunki xarid ma'lumotlari boshqa foydalanuvchi tomonidan ishlatilmoqda.",
   "purchaseErrorInvalidReceipt": "Sotib olish ma'lumoti noto'g'ri. Iltimos, sotib olish ma'lumotlaringizni tekshiring.",

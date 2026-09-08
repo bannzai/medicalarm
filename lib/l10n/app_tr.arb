@@ -112,7 +112,7 @@
   "purchaseErrorUnknown": "Bilinmeyen bir hata oluştu. Lütfen daha sonra tekrar deneyin. Sorun çözülmezse Ayarlar > İletişim üzerinden bizimle iletişime geçin. Ayrıntılar: {message}",
   "purchaseErrorStoreProblem": "{storeName} ile ilgili bir hata oluştu. Lütfen bir süre sonra tekrar deneyin.",
   "purchaseErrorInvalidPayment": "Ödeme başarısız oldu. Ödeme yönteminizin geçerli olduğunu kontrol edip tekrar deneyin.",
-  "purchaseErrorProductUnavailable": "Şu an için hedef plan mevcut değildir. Lütfen uygulamayı yeniden başlatarak tekrar deneyin.",
+  "purchaseErrorProductUnavailable": "Seçilen plan şu anda satışta değil. Lütfen uygulamayı yeniden başlatıp tekrar deneyin.",
   "purchaseErrorAlreadyPurchased": "Zaten plan satın almışsınız. Bu cihazda satın alma bilgilerini geri yüklemek için \"Daha önce satın alanlar buraya tıklayın\" ile satın alma bilgilerini geri yükleyin.",
   "purchaseErrorReceiptInUse": "Zaten satın alındı. Satın alma bilgileri başka bir kullanıcı tarafından kullanılmaktadır. Lütfen {accountName} kontrol edin.",
   "purchaseErrorInvalidReceipt": "Geçersiz satın alma bilgisi. Lütfen satın alma bilgilerinizi kontrol edin.",

@@ -112,7 +112,7 @@
   "purchaseErrorUnknown": "May hindi kilalang error na naganap. Pakisubukang muli makalipas ang ilang sandali. Kung hindi malutas ang problema, makipag-ugnayan sa amin sa Mga Setting > Makipag-ugnayan. Mga detalye: {message}",
   "purchaseErrorStoreProblem": "Nagkaroon ng error sa {storeName}. Pakisubukan muli mamaya.",
   "purchaseErrorInvalidPayment": "Nabigo ang pagbabayad. Tiyaking valid ang paraan ng pagbabayad mo at subukan muli.",
-  "purchaseErrorProductUnavailable": "Ang kasalukuyang plano ay hindi ibinibigay. Paumanhin, ngunit mangyaring muling simulan ang app at subukan muli.",
+  "purchaseErrorProductUnavailable": "Hindi kasalukuyang available para sa pagbili ang napiling plan. I-restart ang app at subukan muli.",
   "purchaseErrorAlreadyPurchased": "Mayroon ka nang nabili na plano. Kung nais mong ibalik ang impormasyon ng binili sa device na ito, mangyaring mag-click sa \"Dito kung dati ka nang bumili\" upang ibalik ang impormasyon ng binili.",
   "purchaseErrorReceiptInUse": "Bumili na. Ang impormasyon ng pagbili ay ginagamit ng ibang gumagamit. Mangyaring suriin ang {accountName}.",
   "purchaseErrorInvalidReceipt": "Ito ay hindi wastong impormasyon sa pagbili. Pakisuri ang impormasyon ng pagbili.",

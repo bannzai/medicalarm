@@ -112,7 +112,7 @@
   "purchaseErrorUnknown": "Si è verificato un errore sconosciuto. Riprova più tardi. Se il problema persiste, contattaci da Impostazioni > Contatti. Dettagli: {message}",
   "purchaseErrorStoreProblem": "Si è verificato un errore con {storeName}. Riprova più tardi.",
   "purchaseErrorInvalidPayment": "Il pagamento non è riuscito. Verifica che il metodo di pagamento sia valido e riprova.",
-  "purchaseErrorProductUnavailable": "Il piano selezionato non è attualmente in vendita. Ci scusiamo per il disagio, ti preghiamo di riavviare l'app e riprovare.",
+  "purchaseErrorProductUnavailable": "Il piano selezionato non è attualmente disponibile per l’acquisto. Riavvia l’app e riprova.",
   "purchaseErrorAlreadyPurchased": "Hai già acquistato un piano. Se desideri ripristinare le informazioni di acquisto su questo dispositivo, ti preghiamo di fare clic su \"Se hai già acquistato, fai clic qui\".",
   "purchaseErrorReceiptInUse": "Già acquistato. Le informazioni sull'acquisto sono utilizzate da un altro utente. Controlla {accountName}.",
   "purchaseErrorInvalidReceipt": "Informazioni di acquisto non valide. Controlla le informazioni di acquisto.",

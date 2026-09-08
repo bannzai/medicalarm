@@ -112,7 +112,7 @@
   "purchaseErrorUnknown": "Tekkis tundmatu viga. Proovige mõne aja pärast uuesti. Kui probleem ei lahene, võtke meiega ühendust menüüs Seaded > Kontakt. Üksikasjad: {message}",
   "purchaseErrorStoreProblem": "{storeName} kasutamisel tekkis viga. Proovige mõne aja pärast uuesti.",
   "purchaseErrorInvalidPayment": "Makse ebaõnnestus. Kontrollige, kas teie makseviis on kehtiv, ja proovige uuesti.",
-  "purchaseErrorProductUnavailable": "Käesolev plaan ei ole praegu müügil. Vabandame ebamugavuste pärast, kuid palun taaskäivitage rakendus ja proovige uuesti.",
+  "purchaseErrorProductUnavailable": "Valitud pakett ei ole praegu müügil. Taaskäivitage rakendus ja proovige uuesti.",
   "purchaseErrorAlreadyPurchased": "Te olete juba plaani ostnud. Kui soovite seda seadet kasutada ostuteabe taastamiseks, palun taastage ostuteave valides \"Need, kes on varem ostnud, klikkige siia\".",
   "purchaseErrorReceiptInUse": "Juba on juba ostetud. Ostuteave on teise kasutaja all. Palun kontrollige {accountName}.",
   "purchaseErrorInvalidReceipt": "Keeruline ostuteave. Palun kontrollige ostuteavet.",

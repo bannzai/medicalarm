@@ -112,7 +112,7 @@
   "purchaseErrorUnknown": "Det oppstod en ukjent feil. Prøv igjen senere. Hvis problemet vedvarer, kan du kontakte oss via Innstillinger > Kontakt. Detaljer: {message}",
   "purchaseErrorStoreProblem": "Det har oppstått en feil med {storeName}. Prøv igjen senere.",
   "purchaseErrorInvalidPayment": "Betalingen mislyktes. Kontroller at betalingsmetoden din er gyldig, og prøv igjen.",
-  "purchaseErrorProductUnavailable": "Den aktuelle planen er ikke tilgjengelig for salg. Vennligst start appen på nytt og prøv igjen.",
+  "purchaseErrorProductUnavailable": "Det valgte abonnementet er ikke tilgjengelig for kjøp nå. Start appen på nytt og prøv igjen.",
   "purchaseErrorAlreadyPurchased": "Du har allerede kjøpt planen. Hvis du vil gjenopprette kjøpsinformasjonen på denne enheten, vennligst gå til \"Tidligere kjøpte her\" for å gjenopprette kjøpsinformasjonen.",
   "purchaseErrorReceiptInUse": "Allerede kjøpt. Kjøpsinformasjonen brukes av en annen bruker. Vennligst sjekk {accountName}.",
   "purchaseErrorInvalidReceipt": "Ugyldig kjøpsinformasjon. Vennligst sjekk kjøpsinformasjonen din.",

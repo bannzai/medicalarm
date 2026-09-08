@@ -112,7 +112,7 @@
   "purchaseErrorUnknown": "დაფიქსირდა უცნობი შეცდომა. გთხოვთ, მოგვიანებით სცადოთ ხელახლა. თუ პრობლემა არ მოგვარდება, დაგვიკავშირდით მენიუდან პარამეტრები > დაგვიკავშირდით. დეტალები: {message}",
   "purchaseErrorStoreProblem": "{storeName}-ში შეცდომა დაფიქსირდა. გთხოვთ, ცოტა ხნის შემდეგ ხელახლა სცადოთ.",
   "purchaseErrorInvalidPayment": "გადახდა ვერ შესრულდა. შეამოწმეთ, რომ გადახდის მეთოდი მოქმედია და კვლავ სცადეთ.",
-  "purchaseErrorProductUnavailable": "შერჩეული გეგმა ამჟამად ხელმისაწვდომი არაა. გთხოვთ, კვლავ სცადოთ აპლიკაციის გადატვირთვის შემდეგ.",
+  "purchaseErrorProductUnavailable": "არჩეული გეგმა ამჟამად გასაყიდად ხელმისაწვდომი არ არის. გთხოვთ, გადატვირთოთ აპი და ხელახლა სცადოთ.",
   "purchaseErrorAlreadyPurchased": "თქვენ უკვე შეიძინეთ გეგმა. თუ ამ მოწყობილობაზე შეძენილი ინფორმაციის აღდგენა გსურთ, გამოიძახეთ „თუ ადრე შეიძინეთ, დააკლიკეთ აქ“.",
   "purchaseErrorReceiptInUse": "წAlready purchased. The purchase information is being used by another user. Please check {accountName}.",
   "purchaseErrorInvalidReceipt": "არასწორი შემოსავლის ინფორმაციაა. გთხოვთ, გადაამოწმოთ შემოსავლის ინფორმაცია.",
