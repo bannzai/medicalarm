@@ -192,7 +192,7 @@
   "defaultGroupBadge": "По умолчанию",
   "soloGroupName": "Моя группа",
   "joinWithInvitationCode": "Присоединиться по коду приглашения",
-  "groupCreationLimitReached": "На бесплатном плане нельзя создавать дополнительные группы.",
+  "groupCreationLimitReached": "В бесплатном плане нельзя создавать новые группы",
   "increaseGroupLimitWithPremium": "Создавайте больше групп с планом Premium",
   "invitationCode": "Код приглашения",
   "invitationCodeShareDescription": "Поделитесь этим кодом, чтобы пригласить участников",

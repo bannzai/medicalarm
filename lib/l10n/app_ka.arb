@@ -192,7 +192,7 @@
   "defaultGroupBadge": "ნაგულისხმევი",
   "soloGroupName": "ჩემი ჯგუფი",
   "joinWithInvitationCode": "შეერთება მოწვევის კოდით",
-  "groupCreationLimitReached": "უფასო გეგმაში მეტ ჯგუფს ვეღარ შექმნით.",
+  "groupCreationLimitReached": "უფასო გეგმაზე მეტი ჯგუფის შექმნა შეუძლებელია",
   "increaseGroupLimitWithPremium": "შექმენით მეტი ჯგუფი Premium გეგმით",
   "invitationCode": "მოწვევის კოდი",
   "invitationCodeShareDescription": "გააზიარეთ ეს კოდი წევრების მოსაწვევად",
