@@ -61,7 +61,7 @@
   "medicine": "Medicamentos",
   "inquiry": "Contacta connosco",
   "ok": "Aceptar",
-  "medicationScheduleLimit": "Podes rexistrar ata {count} horarios de medicación.",
+  "medicationScheduleLimit": "Podes rexistrar ata {count} horarios de toma de medicamentos.",
   "increaseMedicationScheduleLimit": "Aumenta o límite a {count} co plan Premium",
   "addMedicationSchedule": "Engadir un horario de medicación",
   "medicationScheduleNotificationSetting": "Axustes das notificacións do horario da medicación",

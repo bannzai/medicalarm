@@ -61,7 +61,7 @@
   "medicine": "ادویات",
   "inquiry": "ہم سے رابطہ کریں",
   "ok": "ٹھیک ہے",
-  "medicationScheduleLimit": "آپ زیادہ سے زیادہ {count} ادویات کے استعمال کے نظام الاوقات رجسٹر کر سکتے ہیں۔",
+  "medicationScheduleLimit": "آپ زیادہ سے زیادہ {count} ادویات لینے کے نظام الاوقات رجسٹر کر سکتے ہیں۔",
   "increaseMedicationScheduleLimit": "پریمیم پلان کے ساتھ حد کو {count} تک بڑھائیں",
   "addMedicationSchedule": "ادویات لینے کا شیڈول شامل کریں",
   "medicationScheduleNotificationSetting": "ادویات لینے کے شیڈول کی اطلاعات کی ترتیبات",

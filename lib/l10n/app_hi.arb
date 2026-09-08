@@ -61,7 +61,7 @@
   "medicine": "दवाइयाँ",
   "inquiry": "हमसे संपर्क करें",
   "ok": "ठीक है",
-  "medicationScheduleLimit": "आप {count} तक दवा लेने के शेड्यूल दर्ज कर सकते हैं।",
+  "medicationScheduleLimit": "आप {count} तक दवा लेने के शेड्यूल पंजीकृत कर सकते हैं।",
   "increaseMedicationScheduleLimit": "प्रीमियम प्लान के साथ सीमा बढ़ाकर {count} करें",
   "addMedicationSchedule": "दवा लेने का शेड्यूल जोड़ें",
   "medicationScheduleNotificationSetting": "दवा लेने के शेड्यूल की सूचनाएं सेटिंग",

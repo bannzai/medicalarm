@@ -61,7 +61,7 @@
   "medicine": "Dorilar",
   "inquiry": "Biz bilan bog‘laning",
   "ok": "Yaxshi",
-  "medicationScheduleLimit": "Ko‘pi bilan {count} ta dori qabul qilish jadvalini ro‘yxatdan o‘tkazishingiz mumkin.",
+  "medicationScheduleLimit": "Siz {count} tagacha dori qabul qilish jadvalini ro‘yxatdan o‘tkazishingiz mumkin.",
   "increaseMedicationScheduleLimit": "Premium tarif bilan limitni {count} gacha oshirish",
   "addMedicationSchedule": "Dori qabul qilish jadvalini qo‘shish",
   "medicationScheduleNotificationSetting": "Dori qabul qilish jadvali bildirishnomalari sozlamalari",

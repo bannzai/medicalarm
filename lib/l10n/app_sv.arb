@@ -61,7 +61,7 @@
   "medicine": "Läkemedel",
   "inquiry": "Kontakta oss",
   "ok": "OK",
-  "medicationScheduleLimit": "Du kan registrera upp till {count} läkemedelsscheman.",
+  "medicationScheduleLimit": "Du kan registrera upp till {count} medicineringsscheman.",
   "increaseMedicationScheduleLimit": "Öka gränsen till {count} med Premium-planen",
   "addMedicationSchedule": "Lägg till läkemedelsschema",
   "medicationScheduleNotificationSetting": "Aviseringsinställningar för medicineringsschema",

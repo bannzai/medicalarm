@@ -61,7 +61,7 @@
   "medicine": "ဆေးဝါးများ",
   "inquiry": "ဆက်သွယ်ရန်",
   "ok": "အိုကေ",
-  "medicationScheduleLimit": "ဆေးသောက်ချိန်ဇယားကို အများဆုံး {count} ခုအထိ မှတ်ပုံတင်နိုင်ပါသည်။",
+  "medicationScheduleLimit": "ဆေးသောက်ရန် အချိန်ဇယား {count} ခုအထိ မှတ်ပုံတင်နိုင်ပါသည်။",
   "increaseMedicationScheduleLimit": "ပရီမီယမ်အစီအစဉ်ဖြင့် ကန့်သတ်ချက်ကို {count} အထိ တိုးမြှင့်ရန်",
   "addMedicationSchedule": "ဆေးသောက်ချိန်ဇယား ထည့်ရန်",
   "medicationScheduleNotificationSetting": "ဆေးသောက်ချိန်ဇယား အသိပေးချက် ဆက်တင်များ",

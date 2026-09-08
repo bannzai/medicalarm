@@ -61,7 +61,7 @@
   "medicine": "الأدوية",
   "inquiry": "اتصل بنا",
   "ok": "موافق",
-  "medicationScheduleLimit": "يمكنك تسجيل ما يصل إلى {count} من جداول تناول الأدوية.",
+  "medicationScheduleLimit": "يمكنك تسجيل ما يصل إلى {count} جداول لتناول الأدوية.",
   "increaseMedicationScheduleLimit": "زد الحد إلى {count} مع الخطة المميزة",
   "addMedicationSchedule": "إضافة جدول تناول الدواء",
   "medicationScheduleNotificationSetting": "إعدادات إشعارات جدول تناول الدواء",

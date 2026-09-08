@@ -61,7 +61,7 @@
   "medicine": "Lääkkeet",
   "inquiry": "Ota yhteyttä",
   "ok": "OK",
-  "medicationScheduleLimit": "Voit rekisteröidä enintään {count} lääkitysaikataulua.",
+  "medicationScheduleLimit": "Voit rekisteröidä enintään {count} lääkkeenottoaikataulua.",
   "increaseMedicationScheduleLimit": "Nosta raja {count}:een Premium-tilauksella",
   "addMedicationSchedule": "Lisää lääkitysaikataulu",
   "medicationScheduleNotificationSetting": "Lääkitysaikataulun ilmoitusasetukset",

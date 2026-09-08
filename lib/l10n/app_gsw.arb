@@ -61,7 +61,7 @@
   "medicine": "Medikament",
   "inquiry": "Kontakt",
   "ok": "OK",
-  "medicationScheduleLimit": "Du chasch bis zu {count} Medikamenten-Iinahmeplän registriere.",
+  "medicationScheduleLimit": "Sie chönd bis zu {count} Iinahmeplän registriere.",
   "increaseMedicationScheduleLimit": "Limit mit em Premium-Abo uf {count} erhöhe",
   "addMedicationSchedule": "Medikamentenplan hinzuefüege",
   "medicationScheduleNotificationSetting": "Benachrichtigungseinstellungen für de Medikamentenplan",
