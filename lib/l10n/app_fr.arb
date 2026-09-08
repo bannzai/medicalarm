@@ -85,7 +85,7 @@
   "diary": "Journal",
   "writeDiary": "Écrire dans le journal",
   "editDiaryTooltip": "Modifier le journal",
-  "medicineRegistrationLimit": "Le nombre d'enregistrements de médicaments",
+  "medicineRegistrationLimit": "Nombre de médicaments enregistrés",
   "doseReceiverRegistrationLimit": "Nombre maximum d'utilisateurs enregistrés",
   "notificationScheduleLimit": "Nombre de schedules de notification",
   "addMedicine": "Ajouter un médicament",
