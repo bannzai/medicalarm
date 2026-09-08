@@ -230,7 +230,7 @@
   "doseIntervalWarningMessage": "በ{latestTakeTime} መድኃኒቱን እንደወሰዱ ተመዝግቧል። በመድኃኒቶች መካከል ቢያንስ {minimumDoseIntervalHours} ሰዓት እንዲሆን ተዘጋጅቷል። እንደገና መዝግብ?",
   "doseIntervalWarningTakeAnyway": "መዝግብ",
   "doseIntervalNotificationWarning": "⚠️ ካለፈው መድኃኒት መውሰድ ጊዜ ጀምሮ {minimumDoseIntervalHours} ሰዓት አልሞላም",
-  "ossLicense": "OSS ፈቃዶች",
+  "ossLicense": "የOSS ፈቃዶች",
   "achievementWeeklyLabel": "የዚህ ሳምንት መድኃኒት አወሳሰድ",
   "achievementWeeklyCountSuffix": "/{scheduledCount} ጊዜ",
   "achievementStreakLabel": "ተከታታይ ስኬት",

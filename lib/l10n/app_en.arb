@@ -230,7 +230,7 @@
   "doseIntervalWarningMessage": "A dose was already recorded at {latestTakeTime}. The setting requires at least {minimumDoseIntervalHours} hours between doses. Record it anyway?",
   "doseIntervalWarningTakeAnyway": "Record",
   "doseIntervalNotificationWarning": "⚠️ {minimumDoseIntervalHours} hours have not passed since the last dose",
-  "ossLicense": "Open Source Licenses",
+  "ossLicense": "OSS Licenses",
   "achievementWeeklyLabel": "This week",
   "achievementWeeklyCountSuffix": "/{scheduledCount} times",
   "achievementStreakLabel": "Streak",
