@@ -90,7 +90,7 @@
   "notificationScheduleLimit": "Liczba harmonogramów powiadomień",
   "addMedicine": "Dodaj lek",
   "medicineMaxCount": "Możesz zarejestrować maksymalnie {count} leków.",
-  "increaseMedicineLimitWithPremium": "Zwiększ limit do {count} dzięki planowi Premium",
+  "increaseMedicineLimitWithPremium": "Zwiększ limit do {count} w planie Premium",
   "aboutApp": "O aplikacji",
   "viewPremiumPlan": "Zobacz plan Premium",
   "cancelSubscriptionInstruction": "Po zakupie możesz anulować automatyczne odnawianie w ustawieniach konta aplikacji {storeName}. (Automatycznego odnawiania nie można anulować w aplikacji.)",

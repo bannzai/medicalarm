@@ -90,7 +90,7 @@
   "notificationScheduleLimit": "የማሳወቂያ መርሐ ግብሮች ብዛት",
   "addMedicine": "መድሃኒት አክል",
   "medicineMaxCount": "እስከ {count} መድኃኒቶች መመዝገብ ይችላሉ።",
-  "increaseMedicineLimitWithPremium": "Պրեմիում պլանով ավելացրեք սահմանաչափը մինչև {count}",
+  "increaseMedicineLimitWithPremium": "Սահմանաչափը հասցնել {count}-ի Premium պլանով",
   "aboutApp": "ስለ መተግበሪያው",
   "viewPremiumPlan": "የፕሪሚየም ዕቅዱን ይመልከቱ",
   "cancelSubscriptionInstruction": "ከግዢ በኋላ ራስ-ሰር እድሳትን በ{storeName} መተግበሪያ የመለያ ቅንብሮች ውስጥ መሰረዝ ይችላሉ። (ራስ-ሰር እድሳትን ከመተግበሪያው ውስጥ መሰረዝ አይችሉም።)",

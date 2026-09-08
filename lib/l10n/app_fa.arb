@@ -90,7 +90,7 @@
   "notificationScheduleLimit": "تعداد برنامه‌های اعلان",
   "addMedicine": "افزودن دارو",
   "medicineMaxCount": "می‌توانید حداکثر {count} دارو ثبت کنید.",
-  "increaseMedicineLimitWithPremium": "با طرح پریمیوم، محدودیت را به {count} افزایش دهید",
+  "increaseMedicineLimitWithPremium": "افزایش سقف به {count} با طرح پریمیوم",
   "aboutApp": "درباره برنامه",
   "viewPremiumPlan": "مشاهده طرح پریمیوم",
   "cancelSubscriptionInstruction": "پس از خرید، می‌توانید تمدید خودکار را از تنظیمات حساب برنامه {storeName} لغو کنید. (لغو تمدید خودکار از داخل برنامه امکان‌پذیر نیست.)",

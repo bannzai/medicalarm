@@ -90,7 +90,7 @@
   "notificationScheduleLimit": "Teavituste ajakavade arv",
   "addMedicine": "Lisa ravim",
   "medicineMaxCount": "Saate registreerida kuni {count} ravimit.",
-  "increaseMedicineLimitWithPremium": "Suurendage Premium-paketiga limiit {count}-ni",
+  "increaseMedicineLimitWithPremium": "Suurenda limiit Premium-paketiga väärtuseni {count}",
   "aboutApp": "Rakenduse kohta",
   "viewPremiumPlan": "Vaata Premium-paketti",
   "cancelSubscriptionInstruction": "Pärast ostu saate automaatse uuendamise tühistada rakenduse {storeName} konto seadetes. (Automaatset uuendamist ei saa rakenduses tühistada.)",

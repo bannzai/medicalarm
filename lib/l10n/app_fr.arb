@@ -90,7 +90,7 @@
   "notificationScheduleLimit": "Nombre de programmations de notifications",
   "addMedicine": "Ajouter un médicament",
   "medicineMaxCount": "Vous pouvez enregistrer jusqu’à {count} médicaments.",
-  "increaseMedicineLimitWithPremium": "Augmentez la limite à {count} avec le forfait Premium",
+  "increaseMedicineLimitWithPremium": "Augmenter la limite à {count} avec le forfait Premium",
   "aboutApp": "À propos de l’app",
   "viewPremiumPlan": "Voir le forfait Premium",
   "cancelSubscriptionInstruction": "Après l’achat, vous pouvez annuler le renouvellement automatique dans les paramètres du compte de l’application {storeName}. (Le renouvellement automatique ne peut pas être annulé depuis l’application.)",

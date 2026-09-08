@@ -90,7 +90,7 @@
   "notificationScheduleLimit": "通知计划数量",
   "addMedicine": "添加药物",
   "medicineMaxCount": "最多可以登记 {count} 种药物。",
-  "increaseMedicineLimitWithPremium": "使用 Premium 方案将上限提高至 {count}",
+  "increaseMedicineLimitWithPremium": "使用 Premium 方案将上限增加至 {count}",
   "aboutApp": "关于应用",
   "viewPremiumPlan": "查看高级方案",
   "cancelSubscriptionInstruction": "购买后，您可以在 {storeName} 应用的账户设置中取消自动续订。（无法在应用内取消自动续订。）",

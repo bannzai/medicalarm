@@ -90,7 +90,7 @@
   "notificationScheduleLimit": "Število urnikov obvestil",
   "addMedicine": "Dodaj zdravilo",
   "medicineMaxCount": "Registrirate lahko največ {count} zdravil.",
-  "increaseMedicineLimitWithPremium": "S paketom Premium povečajte omejitev na {count}",
+  "increaseMedicineLimitWithPremium": "Povečajte omejitev na {count} s paketom Premium",
   "aboutApp": "O aplikaciji",
   "viewPremiumPlan": "Ogled premijskega paketa",
   "cancelSubscriptionInstruction": "Po nakupu lahko samodejno podaljšanje prekličete v nastavitvah računa aplikacije {storeName}. (Samodejnega podaljšanja v aplikaciji ni mogoče preklicati.)",

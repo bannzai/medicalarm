@@ -90,7 +90,7 @@
   "notificationScheduleLimit": "Bildirishnomalar jadvallari soni",
   "addMedicine": "Dori qo‘shish",
   "medicineMaxCount": "Ko‘pi bilan {count} ta dori ro‘yxatdan o‘tkazishingiz mumkin.",
-  "increaseMedicineLimitWithPremium": "Premium tarif bilan limitni {count} gacha oshiring",
+  "increaseMedicineLimitWithPremium": "Premium rejasi bilan limitni {count} gacha oshiring",
   "aboutApp": "Ilova haqida",
   "viewPremiumPlan": "Premium rejasini ko‘rish",
   "cancelSubscriptionInstruction": "Xariddan so‘ng avtomatik yangilanishni {storeName} ilovasining hisob sozlamalaridan bekor qilishingiz mumkin. (Avtomatik yangilanishni ilova ichidan bekor qilib bo‘lmaydi.)",

@@ -90,7 +90,7 @@
   "notificationScheduleLimit": "Кількість розкладів сповіщень",
   "addMedicine": "Додати ліки",
   "medicineMaxCount": "Можна зареєструвати до {count} ліків.",
-  "increaseMedicineLimitWithPremium": "Збільште ліміт до {count} з преміум-планом",
+  "increaseMedicineLimitWithPremium": "Збільшити ліміт до {count} з планом Premium",
   "aboutApp": "Про застосунок",
   "viewPremiumPlan": "Переглянути преміум-план",
   "cancelSubscriptionInstruction": "Після покупки автоматичне поновлення можна скасувати в налаштуваннях облікового запису застосунку {storeName}. (Скасувати автоматичне поновлення в застосунку неможливо.)",

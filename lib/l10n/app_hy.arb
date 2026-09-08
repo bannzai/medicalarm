@@ -90,7 +90,7 @@
   "notificationScheduleLimit": "Ծանուցումների ժամանակացույցների քանակը",
   "addMedicine": "Ավելացնել դեղորայք",
   "medicineMaxCount": "Կարող եք գրանցել մինչև {count} դեղամիջոց։",
-  "increaseMedicineLimitWithPremium": "Պրեմիում պլանով ավելացրեք սահմանաչափը մինչև {count}",
+  "increaseMedicineLimitWithPremium": "Premium պլանով սահմանաչափը հասցնել {count}-ի",
   "aboutApp": "Հավելվածի մասին",
   "viewPremiumPlan": "Դիտել Պրեմիում պլանը",
   "cancelSubscriptionInstruction": "Գնումից հետո ավտոմատ նորացումը կարող եք չեղարկել {storeName} հավելվածի հաշվի կարգավորումներում։ (Ավտոմատ նորացումը հնարավոր չէ չեղարկել հավելվածի ներսից։)",

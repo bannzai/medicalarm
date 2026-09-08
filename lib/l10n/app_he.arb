@@ -90,7 +90,7 @@
   "notificationScheduleLimit": "מספר לוחות הזמנים של ההתראות",
   "addMedicine": "הוספת תרופה",
   "medicineMaxCount": "ניתן לרשום עד {count} תרופות.",
-  "increaseMedicineLimitWithPremium": "הגדילו את המגבלה ל־{count} באמצעות תוכנית Premium",
+  "increaseMedicineLimitWithPremium": "הגדלת המגבלה ל־{count} עם תוכנית Premium",
   "aboutApp": "מידע על האפליקציה",
   "viewPremiumPlan": "הצגת תוכנית Premium",
   "cancelSubscriptionInstruction": "לאחר הרכישה, ניתן לבטל את החידוש האוטומטי בהגדרות החשבון של אפליקציית {storeName}. (לא ניתן לבטל את החידוש האוטומטי מתוך האפליקציה.)",

@@ -90,7 +90,7 @@
   "notificationScheduleLimit": "Bildirim planı sayısı",
   "addMedicine": "İlaç ekle",
   "medicineMaxCount": "En fazla {count} ilaç kaydedebilirsiniz.",
-  "increaseMedicineLimitWithPremium": "Premium planıyla sınırı {count} olarak artırın",
+  "increaseMedicineLimitWithPremium": "Premium planıyla limiti {count} olarak artırın",
   "aboutApp": "Uygulama hakkında",
   "viewPremiumPlan": "Premium planı görüntüle",
   "cancelSubscriptionInstruction": "Satın aldıktan sonra otomatik yenilemeyi {storeName} uygulamasının hesap ayarlarından iptal edebilirsiniz. (Otomatik yenileme uygulama içinden iptal edilemez.)",

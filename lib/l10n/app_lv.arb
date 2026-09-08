@@ -90,7 +90,7 @@
   "notificationScheduleLimit": "Paziņojumu grafiku skaits",
   "addMedicine": "Pievienot zāles",
   "medicineMaxCount": "Varat reģistrēt līdz {count} medikamentiem.",
-  "increaseMedicineLimitWithPremium": "Palieliniet ierobežojumu līdz {count}, izmantojot Premium plānu",
+  "increaseMedicineLimitWithPremium": "Palieliniet limitu līdz {count}, izmantojot Premium plānu",
   "aboutApp": "Par lietotni",
   "viewPremiumPlan": "Skatīt Premium plānu",
   "cancelSubscriptionInstruction": "Pēc iegādes automātisko atjaunošanu varat atcelt lietotnes {storeName} konta iestatījumos. (Automātisko atjaunošanu lietotnē atcelt nevar.)",

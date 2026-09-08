@@ -90,7 +90,7 @@
   "notificationScheduleLimit": "Bildiriş cədvəllərinin sayı",
   "addMedicine": "Dərman əlavə et",
   "medicineMaxCount": "Ən çox {count} dərman qeydiyyatdan keçirə bilərsiniz.",
-  "increaseMedicineLimitWithPremium": "Premium planla limiti {count}-ə qədər artırın",
+  "increaseMedicineLimitWithPremium": "Premium planı ilə limiti {count}-ə artırın",
   "aboutApp": "Tətbiq haqqında",
   "viewPremiumPlan": "Premium planına baxın",
   "cancelSubscriptionInstruction": "Satın aldıqdan sonra avtomatik yenilənməni {storeName} tətbiqinin hesab ayarlarından ləğv edə bilərsiniz. (Avtomatik yenilənməni tətbiqin içindən ləğv etmək mümkün deyil.)",

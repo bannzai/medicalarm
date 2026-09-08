@@ -90,7 +90,7 @@
   "notificationScheduleLimit": "Хабарландыру кестелерінің саны",
   "addMedicine": "Дәрі қосу",
   "medicineMaxCount": "Ең көбі {count} дәрі тіркей аласыз.",
-  "increaseMedicineLimitWithPremium": "Premium жоспарымен шекті {count}-ге дейін арттырыңыз",
+  "increaseMedicineLimitWithPremium": "Premium жоспарымен лимитті {count}-ге дейін арттырыңыз",
   "aboutApp": "Қолданба туралы",
   "viewPremiumPlan": "Premium жоспарын көру",
   "cancelSubscriptionInstruction": "Сатып алғаннан кейін автоматты жаңартудан {storeName} қолданбасының есептік жазба параметрлерінен бас тарта аласыз. (Автоматты жаңартудан қолданбаның ішінен бас тарту мүмкін емес.)",

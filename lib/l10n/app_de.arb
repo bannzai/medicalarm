@@ -90,7 +90,7 @@
   "notificationScheduleLimit": "Anzahl der Benachrichtigungspläne",
   "addMedicine": "Medikament hinzufügen",
   "medicineMaxCount": "Sie können bis zu {count} Medikamente registrieren.",
-  "increaseMedicineLimitWithPremium": "Limit mit dem Premium-Plan auf {count} erhöhen",
+  "increaseMedicineLimitWithPremium": "Limit mit dem Premium-Tarif auf {count} erhöhen",
   "aboutApp": "Über die App",
   "viewPremiumPlan": "Premium-Abo ansehen",
   "cancelSubscriptionInstruction": "Nach dem Kauf können Sie die automatische Verlängerung in den Kontoeinstellungen der {storeName}-App kündigen. (Die automatische Verlängerung kann nicht in der App gekündigt werden.)",

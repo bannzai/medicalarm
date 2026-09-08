@@ -90,7 +90,7 @@
   "notificationScheduleLimit": "Nifer amserlenni hysbysiadau",
   "addMedicine": "Ychwanegu meddyginiaeth",
   "medicineMaxCount": "Gallwch gofrestru hyd at {count} o feddyginiaethau.",
-  "increaseMedicineLimitWithPremium": "Cynyddwch y terfyn i {count} gyda’r cynllun Premiwm",
+  "increaseMedicineLimitWithPremium": "Cynyddu’r terfyn i {count} gyda’r cynllun Premium",
   "aboutApp": "Am yr ap",
   "viewPremiumPlan": "Gweld y cynllun premiwm",
   "cancelSubscriptionInstruction": "Ar ôl prynu, gallwch ganslo adnewyddu awtomatig yng ngosodiadau cyfrif ap {storeName}. (Ni ellir canslo adnewyddu awtomatig o fewn yr ap.)",
