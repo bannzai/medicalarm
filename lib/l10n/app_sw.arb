@@ -188,7 +188,7 @@
   "groupName": "Jina la kikundi",
   "groupNameInputHint": "Weka jina la kikundi",
   "groupIcon": "Ikoni",
-  "groupMemberCount": "{count} wanachama",
+  "groupMemberCount": "Wanachama {count}",
   "defaultGroupBadge": "Chaguomsingi",
   "soloGroupName": "Vikundi vyangu",
   "joinWithInvitationCode": "Jiunge kwa kutumia msimbo wa mwaliko",
