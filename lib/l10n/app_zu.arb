@@ -120,7 +120,7 @@
   "purchaseErrorNetwork": "Uxhumano lwenethiwekhi aluzinzile. Hlola uxhumano bese uzama futhi.",
   "purchaseNotAllowed": "Ukuthenga akuvunyelwe kule divayisi",
   "purchaseErrorInvalidCredentials": "Ukuthenga kuhlulekile. Sicela uzame futhi kamuva. Uma inkinga iqhubeka, xhumana nathi kokuthi Izilungiselelo > Xhumana nathi. Imininingwane: {message}",
-  "purchaseErrorUnexpectedBackend": "Okwamanje awukwazi ukwenza ukuthenga. Sicela uphumule kancane bese uzama futhi. Uma inkinga ingaxazululeki, sicela uxhumane nathi ngezinketho > Xhumana. Imininingwane: {message}",
+  "purchaseErrorUnexpectedBackend": "Ukuthenga akukwazi ukuqedwa okwamanje. Sicela uzame futhi ngemva kwesikhashana. Uma inkinga iqhubeka, xhumana nathi ngokusebenzisa Izilungiselelo > Xhumana nathi. Imininingwane: {message}",
   "purchaseErrorOperationInProgress": "Ukunyakaza ukuthengwa kuphakathi kokuphathwa. Sicela ufake isikhathi futhi uphephe isigaba sokukhipha.",
   "purchaseErrorInsufficientPermissions": "U {accountName} akhawulelwe ukufaka isicwangciso. Sicela uqinisekise ulwazi lokukhokha bese uzama futhi.",
   "purchaseErrorPaymentPending": "Ukukhokha kuhlelwe. Sicela uqinisekise {storeName} ngalesi sikhathi se-akhawunti {accountName} esilogwini.",

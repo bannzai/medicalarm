@@ -120,7 +120,7 @@
   "purchaseErrorNetwork": "Hali ya mtandao si thabiti. Angalia muunganisho wako kisha ujaribu tena.",
   "purchaseNotAllowed": "Ununuzi hauruhusiwi kwenye kifaa hiki",
   "purchaseErrorInvalidCredentials": "Ununuzi umeshindikana. Tafadhali jaribu tena baadaye. Tatizo likiendelea, wasiliana nasi kupitia Mipangilio > Wasiliana nasi. Maelezo: {message}",
-  "purchaseErrorUnexpectedBackend": "Kwa sasa huwezi kununua. Tafadhali jaribu tena baada ya muda. Ikiwa shida haitatatuka, tafadhali wasiliana nasi kupitia Mipangilio > Maswali. Maelezo: {message}",
+  "purchaseErrorUnexpectedBackend": "Ununuzi hauwezi kukamilishwa kwa sasa. Tafadhali jaribu tena baadaye. Tatizo likiendelea, wasiliana nasi kupitia Mipangilio > Wasiliana nasi. Maelezo: {message}",
   "purchaseErrorOperationInProgress": "Ununuzi unafanyika tofauti. Tafadhali subiri kidogo na uangalie tena.",
   "purchaseErrorInsufficientPermissions": "Hauna uwezo wa kujiunga na mpango na {accountName} yako. Tafadhali angalia habari za malipo yako kisha jaribu tena.",
   "purchaseErrorPaymentPending": "Malipo yamesimama katikati. Tafadhali angalia {storeName} na {accountName} zilizomo kwenye akaunti yako.",

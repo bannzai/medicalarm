@@ -120,7 +120,7 @@
   "purchaseErrorNetwork": "网络状态不稳定。请检查连接后重试。",
   "purchaseNotAllowed": "此设备不允许购买",
   "purchaseErrorInvalidCredentials": "购买失败。请稍后重试。如果问题仍未解决，请通过设置 > 联系我们与我们联系。详细信息：{message}",
-  "purchaseErrorUnexpectedBackend": "当前无法进行购买。请稍后再试。如果问题仍然存在，请通过设置 > 联系我们与我们联系。详情：{message}",
+  "purchaseErrorUnexpectedBackend": "目前无法完成购买。请稍后重试。如果问题仍未解决，请通过“设置”>“联系我们”与我们联系。详细信息：{message}",
   "purchaseErrorOperationInProgress": "您的购买处理正在进行中。请稍等片刻后再重新确认。",
   "purchaseErrorInsufficientPermissions": "您无法在 {accountName} 上订阅计划。请检查您的支付信息，然后重试。",
   "purchaseErrorPaymentPending": "支付已暂停。请检查登录中的{accountName}的{storeName}。",

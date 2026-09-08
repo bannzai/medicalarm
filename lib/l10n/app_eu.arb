@@ -120,7 +120,7 @@
   "purchaseErrorNetwork": "Sareko konexioa ezegonkorra da. Egiaztatu konexioa eta saiatu berriro.",
   "purchaseNotAllowed": "Erosketak ez daude baimenduta gailu honetan",
   "purchaseErrorInvalidCredentials": "Erosketak huts egin du. Saiatu berriro geroago. Arazoak jarraitzen badu, jar zaitez gurekin harremanetan Ezarpenak > Jarri gurekin harremanetan atalean. Xehetasunak: {message}",
-  "purchaseErrorUnexpectedBackend": "Ezin da orain erosi. Itxaron tarte bat eta saiatu berriro. Irtenbiderik ez badago, joan ezazu Ezarpenak > Kontsulta atala eta egin iezaguzu galdera. Xehetasunak: {message}",
+  "purchaseErrorUnexpectedBackend": "Erosketa ezin da une honetan osatu. Saiatu berriro geroago. Arazoak jarraitzen badu, jarri gurekin harremanetan Ezarpenak > Kontaktua atalean. Xehetasunak: {message}",
   "purchaseErrorOperationInProgress": "Erosketa prozesua aurrera doa. Itxaron eta berriro egiaztatu mesedez.",
   "purchaseErrorInsufficientPermissions": "Ez {accountName} erabiliz ez zaitezke plana gehitzen. Mesedez, egiaztatu zure ordainketa informazioa eta saiatu berriro.",
   "purchaseErrorPaymentPending": "Ordainketa etenda dago. Mesedez, egiaztatu {storeName} zure {accountName} saioan.",

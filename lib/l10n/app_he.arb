@@ -120,7 +120,7 @@
   "purchaseErrorNetwork": "מצב הרשת אינו יציב. בדקו את החיבור ונסו שוב.",
   "purchaseNotAllowed": "רכישות אינן מורשות במכשיר הזה",
   "purchaseErrorInvalidCredentials": "הרכישה נכשלה. נסו שוב מאוחר יותר. אם הבעיה נמשכת, פנו אלינו דרך הגדרות > יצירת קשר. פרטים: {message}",
-  "purchaseErrorUnexpectedBackend": "הקנייה לא אפשרית כרגע. אנא חכה והנסה שוב מאוחר יותר. אם זה לא נפתר, צור קשר דרך הגדרות > פניות. פרטים: {message}",
+  "purchaseErrorUnexpectedBackend": "לא ניתן להשלים את הרכישה כרגע. נסו שוב מאוחר יותר. אם הבעיה נמשכת, פנו אלינו דרך הגדרות > יצירת קשר. פרטים: {message}",
   "purchaseErrorOperationInProgress": "תהליך הרכישה מתקדם בנפרד. אנא המתן זמן מה על מנת לבדוק שוב.",
   "purchaseErrorInsufficientPermissions": "בחשבון {accountName} שלך אין אפשרות להצטרף לתוכנית. אנא בדוק את פרטי התשלום שלך וניסיון שוב.",
   "purchaseErrorPaymentPending": "התשלום הוקפא. אנא בדוק את {storeName} באמצעות {accountName} שלך.",

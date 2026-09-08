@@ -120,7 +120,7 @@
   "purchaseErrorNetwork": "Tīkla savienojums ir nestabils. Pārbaudiet savienojumu un mēģiniet vēlreiz.",
   "purchaseNotAllowed": "Šajā ierīcē pirkumi nav atļauti",
   "purchaseErrorInvalidCredentials": "Pirkums neizdevās. Pēc kāda laika mēģiniet vēlreiz. Ja problēma joprojām pastāv, sazinieties ar mums sadaļā Iestatījumi > Sazināties ar mums. Detalizēta informācija: {message}",
-  "purchaseErrorUnexpectedBackend": "Pašreiz nav iespējams veikt pirkumu. Lūdzu, pēc kāda laika mēģiniet vēlreiz. Ja problēma nepazūd, sazinieties ar mums, dodoties uz Iestatījumi > Jautājumi. Sīkāka informācija: {message}",
+  "purchaseErrorUnexpectedBackend": "Šobrīd pirkumu nevar pabeigt. Lūdzu, mēģiniet vēlreiz vēlāk. Ja problēma atkārtojas, sazinieties ar mums sadaļā Iestatījumi > Saziņa. Detalizēta informācija: {message}",
   "purchaseErrorOperationInProgress": "Pirkšanas process tiek veikts atsevišķi. Lūdzu, pagaidiet un pārbaudiet vēlreiz.",
   "purchaseErrorInsufficientPermissions": "Jūsu kontā {accountName} nav iespējams pievienoties plānam. Lūdzu, pārbaudiet maksājuma informāciju un mēģiniet vēlreiz.",
   "purchaseErrorPaymentPending": "Maksājums ir pārtraukts. Lūdzu, pārbaudiet {storeName} ar {accountName} kontu.",

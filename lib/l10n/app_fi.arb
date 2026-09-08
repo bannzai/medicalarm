@@ -120,7 +120,7 @@
   "purchaseErrorNetwork": "Verkkoyhteys on epävakaa. Tarkista yhteys ja yritä uudelleen.",
   "purchaseNotAllowed": "Ostokset eivät ole sallittuja tällä laitteella",
   "purchaseErrorInvalidCredentials": "Osto epäonnistui. Yritä myöhemmin uudelleen. Jos ongelma jatkuu, ota meihin yhteyttä kohdassa Asetukset > Ota yhteyttä. Tiedot: {message}",
-  "purchaseErrorUnexpectedBackend": "Tällä hetkellä osto ei ole mahdollista. Yritä myöhemmin uudelleen. Jos ongelma ei ratkea, ota yhteyttä kohta asetukset > Yhteydenotto. Lisätiedot: {message}",
+  "purchaseErrorUnexpectedBackend": "Ostosta ei voi suorittaa juuri nyt. Yritä hetken kuluttua uudelleen. Jos ongelma jatkuu, ota meihin yhteyttä kohdasta Asetukset > Yhteydenotto. Tiedot: {message}",
   "purchaseErrorOperationInProgress": "Ostoprocessi on käynnissä erikseen. Odota hetki ja tarkista uudelleen.",
   "purchaseErrorInsufficientPermissions": "Tililläsi {accountName} ei voi liittyä suunnitelmaan. Tarkista maksutietosi ja yritä uudelleen.",
   "purchaseErrorPaymentPending": "Maksu on keskeytynyt. Tarkista {storeName} sisäänkirjautuneella tililläsi {accountName}.",

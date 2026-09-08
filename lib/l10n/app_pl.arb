@@ -120,7 +120,7 @@
   "purchaseErrorNetwork": "Połączenie sieciowe jest niestabilne. Sprawdź połączenie i spróbuj ponownie.",
   "purchaseNotAllowed": "Zakupy nie są dozwolone na tym urządzeniu",
   "purchaseErrorInvalidCredentials": "Nie udało się dokonać zakupu. Spróbuj ponownie później. Jeśli problem będzie się powtarzał, skontaktuj się z nami w sekcji Ustawienia > Skontaktuj się z nami. Szczegóły: {message}",
-  "purchaseErrorUnexpectedBackend": "Aktualnie nie można dokonać zakupu. Proszę spróbować ponownie po chwili. Jeśli problem nie zostanie rozwiązany, proszę skontaktować się z nami przez Ustawienia > Zapytania. Szczegóły: {message}",
+  "purchaseErrorUnexpectedBackend": "Nie można teraz dokończyć zakupu. Spróbuj ponownie później. Jeśli problem będzie się powtarzał, skontaktuj się z nami przez Ustawienia > Kontakt. Szczegóły: {message}",
   "purchaseErrorOperationInProgress": "Proces zakupu jest już w toku. Proszę spróbować ponownie później.",
   "purchaseErrorInsufficientPermissions": "Na koncie {accountName} nie można przystąpić do planu. Proszę sprawdzić informacje płatnicze i spróbować ponownie.",
   "purchaseErrorPaymentPending": "Płatność została wstrzymana. Proszę sprawdzić {storeName} na koncie {accountName}.",

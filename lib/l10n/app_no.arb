@@ -120,7 +120,7 @@
   "purchaseErrorNetwork": "Nettverkstilkoblingen er ustabil. Kontroller tilkoblingen og prøv igjen.",
   "purchaseNotAllowed": "Kjøp er ikke tillatt på denne enheten",
   "purchaseErrorInvalidCredentials": "Kjøpet mislyktes. Prøv igjen senere. Hvis problemet vedvarer, kan du kontakte oss via Innstillinger > Kontakt oss. Detaljer: {message}",
-  "purchaseErrorUnexpectedBackend": "Kjøp er for øyeblikket ikke tilgjengelig. Vennligst prøv igjen senere. Hvis problemet vedvarer, vennligst kontakt oss via Innstillinger > Forespørsel. Detaljer: {message}",
+  "purchaseErrorUnexpectedBackend": "Kjøpet kan ikke fullføres akkurat nå. Prøv igjen senere. Hvis problemet vedvarer, kan du kontakte oss via Innstillinger > Kontakt. Detaljer: {message}",
   "purchaseErrorOperationInProgress": "Kjøpsprosessen pågår allerede. Vennligst vent litt og sjekk igjen.",
   "purchaseErrorInsufficientPermissions": "Din {accountName} kan ikke bli med i planen. Vennligst sjekk betalingsinformasjonen din og prøv igjen.",
   "purchaseErrorPaymentPending": "Betalingen er stoppet. Vennligst sjekk {storeName} med {accountName} som er logget inn.",

@@ -120,7 +120,7 @@
   "purchaseErrorNetwork": "Die netwerkverbinding is onstabiel. Kontroleer u verbinding en probeer weer.",
   "purchaseNotAllowed": "Aankope word nie op hierdie toestel toegelaat nie",
   "purchaseErrorInvalidCredentials": "Aankoop het misluk. Probeer dit later weer. As die probleem voortduur, kontak ons via Instellings > Kontak ons. Besonderhede: {message}",
-  "purchaseErrorUnexpectedBackend": "Tansak bie nie meer gekoop kan word nie. Wacht 'n bietjie en probeer weer. As dit nie opgelos kan word nie, kontakinligting kan gevind word onder instellings > Navraag. Besonderhede: {message}",
+  "purchaseErrorUnexpectedBackend": "Aankope kan tans nie voltooi word nie. Probeer asseblief later weer. As die probleem voortduur, kontak ons via Instellings > Kontak. Besonderhede: {message}",
   "purchaseErrorOperationInProgress": "Die aankoopverwerking is steeds aan die gang. Wag asseblief 'n bietjie en kyk weer.",
   "purchaseErrorInsufficientPermissions": "U kan nie op die plan aansluit met u {accountName}. Kontroleer asseblief u betalingsinligting en probeer weer.",
   "purchaseErrorPaymentPending": "Betaling is tans onderbreek. Gaan asseblief na {storeName} met die aanmelding van {accountName}.",

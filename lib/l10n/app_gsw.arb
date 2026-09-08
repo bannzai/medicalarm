@@ -120,7 +120,7 @@
   "purchaseErrorNetwork": "D Netzverbindig isch instabil. Prüefed Sie d Verbindig und versueched Sie es nomol.",
   "purchaseNotAllowed": "Chäuf sind uf däm Gerät nöd erlaubt",
   "purchaseErrorInvalidCredentials": "De Chauf isch fehlgschlage. Bitte probiered Si es spöter nomal. Wenn s Problem wiiterbesteit, melded Si sich über Iistellige > Kontakt zu eus. Details: {message}",
-  "purchaseErrorUnexpectedBackend": "Aktuell chasch nüt kaufe. Bitte versuech's no einisch spöter. Falls das Problem nöd behobe wird, kontaktier eus bitte über: Einstellige > Kontakt. Detail: {message}",
+  "purchaseErrorUnexpectedBackend": "De Chauf cha im Momänt nöd abgschlosse werde. Bitte probiers spöter nomal. Wenn s Problem wiiterbesteit, kontaktier eus über Iistellige > Kontakt. Details: {message}",
   "purchaseErrorOperationInProgress": "D'Kaufverarbeitung ass nachträglich am Lafe. Gitt w.e.g. nach enger Zäit nach eng Kéier ob.",
   "purchaseErrorInsufficientPermissions": "Mit Ihrem {accountName} chönne Sie nit i de Plän iiträte. Überprüefe Sie bitte Ihre Zahlungsinformatione und probiere Sie es erneut.",
   "purchaseErrorPaymentPending": "Zahlung isch unterbroche. Prüefe bitte mit {accountName} für {storeName}.",

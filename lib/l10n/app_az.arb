@@ -120,7 +120,7 @@
   "purchaseErrorNetwork": "Şəbəkə bağlantısı qeyri-sabitdir. Bağlantını yoxlayın və yenidən cəhd edin.",
   "purchaseNotAllowed": "Bu cihazda satınalma icazə verilmir",
   "purchaseErrorInvalidCredentials": "Satınalma uğursuz oldu. Bir qədər sonra yenidən cəhd edin. Problem davam edərsə, Parametrlər > Bizimlə əlaqə bölməsindən bizə müraciət edin. Təfərrüatlar: {message}",
-  "purchaseErrorUnexpectedBackend": "Hal-hazırda satın alma mümkün deyil. Zaman ayırın və yenidən cəhd edin. Hələ də həll olunmursa, ayarlar > Sorğu bölməsindən bizimlə əlaqə saxlayın. Ətraflı: {message}",
+  "purchaseErrorUnexpectedBackend": "Hazırda satınalma mümkün deyil. Bir qədər sonra yenidən cəhd edin. Problem həll olunmasa, Parametrlər > Bizimlə əlaqə bölməsindən bizə müraciət edin. Təfərrüatlar: {message}",
   "purchaseErrorOperationInProgress": "Alış-veriş prosesi ayrıca davam edir. Zəhmət olmasa bir az gözləyin və yenidən yoxlayın.",
   "purchaseErrorInsufficientPermissions": "Sizin {accountName} hesabınızla plan abunə olmağınıza icazə verilmir. Zəhmət olmasa, ödəmə məlumatlarınızı yoxlayın və yenidən cəhd edin.",
   "purchaseErrorPaymentPending": "Ödəniş yarımçıq dayandırılıb. Hal-hazırda giriş etdiyiniz {accountName} ilə {storeName} yoxlayın.",

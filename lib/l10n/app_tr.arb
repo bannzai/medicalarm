@@ -120,7 +120,7 @@
   "purchaseErrorNetwork": "Ağ bağlantısı kararsız. Bağlantınızı kontrol edip tekrar deneyin.",
   "purchaseNotAllowed": "Bu cihazda satın alma işlemlerine izin verilmiyor",
   "purchaseErrorInvalidCredentials": "Satın alma işlemi başarısız oldu. Lütfen bir süre sonra tekrar deneyin. Sorun devam ederse Ayarlar > Bize ulaşın üzerinden bizimle iletişime geçin. Ayrıntılar: {message}",
-  "purchaseErrorUnexpectedBackend": "Şu anda satın alma yapılamıyor. Lütfen biraz bekleyip yeniden deneyin. Sorun çözülmezse, Ayarlar > İletişim kısmından bizimle iletişime geçin. Detaylar: {message}",
+  "purchaseErrorUnexpectedBackend": "Satın alma işlemi şu anda tamamlanamıyor. Lütfen bir süre sonra tekrar deneyin. Sorun devam ederse Ayarlar > İletişim bölümünden bize ulaşın. Ayrıntılar: {message}",
   "purchaseErrorOperationInProgress": "Satın alma işlemi ayrı olarak devam etmektedir. Lütfen biraz bekleyip tekrar kontrol edin.",
   "purchaseErrorInsufficientPermissions": "Kullandığınız {accountName} ile plana katılamazsınız. Lütfen ödeme bilgilerinizi kontrol edin ve tekrar deneyin.",
   "purchaseErrorPaymentPending": "Ödeme işleminde bir duraksama yaşandı. Lütfen {storeName} için {accountName} ile giriş yaptığınızdan emin olun.",

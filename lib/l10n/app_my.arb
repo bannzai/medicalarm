@@ -120,7 +120,7 @@
   "purchaseErrorNetwork": "ကွန်ရက်အခြေအနေ မတည်ငြိမ်ပါ။ ချိတ်ဆက်မှုကို စစ်ဆေးပြီး ထပ်မံကြိုးစားပါ။",
   "purchaseNotAllowed": "ဤစက်တွင် ဝယ်ယူမှုများကို ခွင့်မပြုပါ",
   "purchaseErrorInvalidCredentials": "ဝယ်ယူမှု မအောင်မြင်ပါ။ ခဏအကြာတွင် ထပ်မံကြိုးစားပါ။ ပြဿနာဆက်ရှိနေပါက ဆက်တင်များ > ကျွန်ုပ်တို့ကို ဆက်သွယ်ရန်မှတစ်ဆင့် ဆက်သွယ်ပါ။ အသေးစိတ်: {message}",
-  "purchaseErrorUnexpectedBackend": "Pada masa ini, pembelian tidak dapat dilakukan. Sila cuba lagi selepas beberapa ketika. Jika masalah berterusan, sila hubungi kami melalui Tetapan > Kenyataan. Maklumat lanjut: {message}",
+  "purchaseErrorUnexpectedBackend": "လောလောဆယ် ဝယ်ယူမှုကို အပြီးသတ်၍ မရပါ။ ခဏကြာပြီးနောက် ထပ်မံကြိုးစားပါ။ ပြဿနာမပြေလည်ပါက ဆက်တင်များ > ဆက်သွယ်ရန်မှတစ်ဆင့် ကျွန်ုပ်တို့ကို ဆက်သွယ်ပါ။ အသေးစိတ်: {message}",
   "purchaseErrorOperationInProgress": "Proses pembelian sedang berlangsung secara berasingan. Sila tunggu seketika dan semak semula.",
   "purchaseErrorInsufficientPermissions": "Akaun {accountName} anda tidak mempunyai kebenaran untuk menyertai pelan. Sila semak maklumat pembayaran anda dan cuba lagi.",
   "purchaseErrorPaymentPending": "Pembayaran sedang terhenti. Sila semak {storeName} menggunakan {accountName} yang sedang log masuk.",

@@ -120,7 +120,7 @@
   "purchaseErrorNetwork": "Die Netzwerkverbindung ist instabil. Überprüfen Sie Ihre Verbindung und versuchen Sie es erneut.",
   "purchaseNotAllowed": "Käufe sind auf diesem Gerät nicht erlaubt",
   "purchaseErrorInvalidCredentials": "Der Kauf ist fehlgeschlagen. Bitte versuchen Sie es später erneut. Wenn das Problem weiterhin besteht, kontaktieren Sie uns unter Einstellungen > Kontakt. Details: {message}",
-  "purchaseErrorUnexpectedBackend": "Derzeit kann nicht gekauft werden. Bitte versuchen Sie es später noch einmal. Wenn das Problem weiterhin besteht, kontaktieren Sie uns bitte über Einstellungen > Anfrage. Einzelheiten: {message}",
+  "purchaseErrorUnexpectedBackend": "Der Kauf kann derzeit nicht abgeschlossen werden. Bitte versuchen Sie es später erneut. Wenn das Problem weiterhin besteht, kontaktieren Sie uns über Einstellungen > Kontakt. Details: {message}",
   "purchaseErrorOperationInProgress": "Der Kaufvorgang wird separat fortgesetzt. Bitte überprüfen Sie es später erneut.",
   "purchaseErrorInsufficientPermissions": "Mit Ihrem {accountName} können Sie nicht dem Plan beitreten. Bitte überprüfen Sie Ihre Zahlungsinformationen und versuchen Sie es erneut.",
   "purchaseErrorPaymentPending": "Die Zahlung wurde unterbrochen. Bitte überprüfen Sie {storeName} mit dem Konto {accountName}, bei dem Sie angemeldet sind.",

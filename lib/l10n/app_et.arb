@@ -120,7 +120,7 @@
   "purchaseErrorNetwork": "Võrguühendus on ebastabiilne. Kontrollige ühendust ja proovige uuesti.",
   "purchaseNotAllowed": "Selle seadmega ei ole ostmine lubatud",
   "purchaseErrorInvalidCredentials": "Ostu sooritamine ebaõnnestus. Proovige mõne aja pärast uuesti. Kui probleem püsib, võtke meiega ühendust menüüs Seaded > Võtke meiega ühendust. Üksikasjad: {message}",
-  "purchaseErrorUnexpectedBackend": "Praegu ei saa osta. Palun proovige hiljem uuesti. Kui see probleem ei lahene, võtke meiega ühendust jaotises Seaded > Kontakt. Üksikasjad: {message}",
+  "purchaseErrorUnexpectedBackend": "Ostu ei saa praegu lõpule viia. Proovige mõne aja pärast uuesti. Kui probleem püsib, võtke meiega ühendust menüüs Seaded > Kontakt. Üksikasjad: {message}",
   "purchaseErrorOperationInProgress": "Ostuprotsess on juba käimas. Palun oota ja kontrolli uuesti.",
   "purchaseErrorInsufficientPermissions": "Teie {accountName} ei saa liituda plaaniga. Kontrollige oma mak信息 ja proovige uuesti.",
   "purchaseErrorPaymentPending": "Teie makse on pooleli. Kontrollige {storeName} sisse logitud kontoga {accountName}.",

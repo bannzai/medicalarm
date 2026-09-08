@@ -120,7 +120,7 @@
   "purchaseErrorNetwork": "La connessione di rete è instabile. Controlla la connessione e riprova.",
   "purchaseNotAllowed": "Gli acquisti non sono consentiti su questo dispositivo",
   "purchaseErrorInvalidCredentials": "L’acquisto non è riuscito. Riprova più tardi. Se il problema persiste, contattaci da Impostazioni > Contattaci. Dettagli: {message}",
-  "purchaseErrorUnexpectedBackend": "Attualmente non è possibile effettuare acquisti. Si prega di riprovare dopo un po'. Se il problema persiste, contattaci tramite Impostazioni > Contattaci. Dettagli: {message}",
+  "purchaseErrorUnexpectedBackend": "Al momento non è possibile completare l’acquisto. Riprova più tardi. Se il problema persiste, contattaci tramite Impostazioni > Contatti. Dettagli: {message}",
   "purchaseErrorOperationInProgress": "Il processo di acquisto è attualmente in corso. Ti preghiamo di attendere un momento e riprovare.",
   "purchaseErrorInsufficientPermissions": "Non puoi iscriverti al piano con l'account {accountName}. Controlla le informazioni di pagamento e riprova.",
   "purchaseErrorPaymentPending": "Il pagamento è in sospeso. Si prega di controllare {storeName} con l'account {accountName} che stai utilizzando.",
