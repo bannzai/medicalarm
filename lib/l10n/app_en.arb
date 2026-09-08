@@ -220,7 +220,7 @@
   "linkWithGoogle": "Transfer your account with Google",
   "accountLinkedWithApple": "Linked with Apple",
   "accountLinkedWithGoogle": "Linked with Google",
-  "accountLinkedSnackbar": "Your account has been linked",
+  "accountLinkedSnackbar": "Account transferred",
   "accountLinkBannerText": "We strongly recommend setting up account transfer while sharing with a group",
   "minimumDoseInterval": "Dose interval",
   "minimumDoseIntervalDescription": "Minimum time to wait since the last dose",
