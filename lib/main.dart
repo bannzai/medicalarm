@@ -176,6 +176,10 @@ class App extends StatelessWidget {
           contentPadding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 20.0),
         ),
         appBarTheme: const AppBarTheme(
+          // 白文字・白アイコンを載せる塗り面のため、primary ではなくコントラスト比を満たす primaryFilled を使う (#287)
+          backgroundColor: AppColors.primaryFilled,
+          // M2 の既定前景は colorScheme.onPrimary で、seed 由来の値が白から外れると 4.5:1 を割り込むため白に固定する
+          foregroundColor: Colors.white,
           elevation: 1,
         ),
         textButtonTheme: TextButtonThemeData(
@@ -186,6 +190,9 @@ class App extends StatelessWidget {
         ),
         elevatedButtonTheme: ElevatedButtonThemeData(
           style: ElevatedButton.styleFrom(
+            // ラベルは白のため、コントラスト比 4.5:1 を満たす primaryFilled を背景にする (#287)
+            backgroundColor: AppColors.primaryFilled,
+            foregroundColor: Colors.white,
             shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
             padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 12.0),
             minimumSize: const Size(double.infinity, 48.0),
@@ -195,8 +202,9 @@ class App extends StatelessWidget {
         ),
         floatingActionButtonTheme: const FloatingActionButtonThemeData(
           // M2 の FAB 既定背景は colorScheme.secondary にフォールバックするため、
-          // 作成系の主要アクション(グループ作成 FAB 等)がアクセントカラーにならないようブランド色に固定する
-          backgroundColor: AppColors.primary,
+          // 作成系の主要アクション(グループ作成 FAB 等)がアクセントカラーにならないようブランド色に固定する。
+          // アイコン・ラベルは白のため、コントラスト比 4.5:1 を満たす primaryFilled を使う (#287)
+          backgroundColor: AppColors.primaryFilled,
           foregroundColor: Colors.white,
           extendedTextStyle: TextStyle(fontSize: 16.0, fontWeight: FontWeight.bold),
         ),

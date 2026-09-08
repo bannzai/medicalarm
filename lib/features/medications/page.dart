@@ -102,8 +102,6 @@ class MedicationsPageBody extends HookConsumerWidget {
       }
     });
 
-    final primaryColor = Theme.of(context).colorScheme.primary;
-
     return Scaffold(
       appBar: AppBar(
         title: Column(
@@ -160,7 +158,9 @@ class MedicationsPageBody extends HookConsumerWidget {
                                 child: Container(
                                   width: double.infinity,
                                   padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
-                                  color: primaryColor.withValues(alpha: 0.8),
+                                  // 文言は白のため primaryFilled を塗る (#287)。alpha を残すと背景の白と混ざって
+                                  // 実効色が明るくなりコントラスト比 4.5:1 に届かないため、不透明にする
+                                  color: AppColors.primaryFilled,
                                   child: Text(
                                     L.currentlyInPremiumTrial,
                                     style: const TextStyle(
