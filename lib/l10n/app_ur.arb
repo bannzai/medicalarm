@@ -208,7 +208,7 @@
   "ownerLabel": "مالک",
   "youLabel": "آپ",
   "removeMemberConfirmTitle": "کیا آپ اس رکن کو ہٹانا چاہتے ہیں؟",
-  "removeMemberConfirmMessage": "{name} کو گروپ سے ہٹا دیں",
+  "removeMemberConfirmMessage": "گروپ سے {name} کو ہٹائیں",
   "joinGroup": "گروپ میں شامل ہوں",
   "invitationCodeInputLabel": "دعوتی کوڈ (8 حروف)",
   "invitationCodeInputHint": "8 حروف پر مشتمل کوڈ درج کریں",

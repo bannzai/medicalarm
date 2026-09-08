@@ -208,7 +208,7 @@
   "ownerLabel": "Egasi",
   "youLabel": "Siz",
   "removeMemberConfirmTitle": "Bu aʼzoni olib tashlamoqchimisiz?",
-  "removeMemberConfirmMessage": "{name} guruhdan olib tashlanadi",
+  "removeMemberConfirmMessage": "{name}ni guruhdan olib tashlash",
   "joinGroup": "Guruhga qo‘shilish",
   "invitationCodeInputLabel": "Taklif kodi (8 ta belgi)",
   "invitationCodeInputHint": "8 belgili kodni kiriting",

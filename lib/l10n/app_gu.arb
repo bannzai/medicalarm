@@ -208,7 +208,7 @@
   "ownerLabel": "માલિક",
   "youLabel": "તમે",
   "removeMemberConfirmTitle": "શું તમે આ સભ્યને દૂર કરવા માંગો છો?",
-  "removeMemberConfirmMessage": "ગ્રૂપમાંથી {name}ને દૂર કરશો",
+  "removeMemberConfirmMessage": "જૂથમાંથી {name} ને દૂર કરો",
   "joinGroup": "જૂથમાં જોડાઓ",
   "invitationCodeInputLabel": "આમંત્રણ કોડ (8 અક્ષરો)",
   "invitationCodeInputHint": "8 અક્ષરનો કોડ દાખલ કરો",

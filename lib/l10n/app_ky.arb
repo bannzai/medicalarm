@@ -208,7 +208,7 @@
   "ownerLabel": "Ээси",
   "youLabel": "Сиз",
   "removeMemberConfirmTitle": "Бул мүчөнү өчүргүңүз келеби?",
-  "removeMemberConfirmMessage": "{name} топтон чыгарылат",
+  "removeMemberConfirmMessage": "{name} топтон чыгарылсын",
   "joinGroup": "Топко кошулуу",
   "invitationCodeInputLabel": "Чакыруу коду (8 белги)",
   "invitationCodeInputHint": "8 белгиден турган кодду киргизиңиз",

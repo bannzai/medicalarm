@@ -208,7 +208,7 @@
   "ownerLabel": "Sahip",
   "youLabel": "Siz",
   "removeMemberConfirmTitle": "Bu üyeyi kaldırmak istiyor musunuz?",
-  "removeMemberConfirmMessage": "{name} gruptan kaldırılacak",
+  "removeMemberConfirmMessage": "{name} adlı kişiyi gruptan kaldır",
   "joinGroup": "Gruba katıl",
   "invitationCodeInputLabel": "Davet kodu (8 karakter)",
   "invitationCodeInputHint": "8 karakterli kodu girin",

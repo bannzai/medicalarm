@@ -208,7 +208,7 @@
   "ownerLabel": "Omistaja",
   "youLabel": "Sinä",
   "removeMemberConfirmTitle": "Haluatko poistaa tämän jäsenen?",
-  "removeMemberConfirmMessage": "Poistetaanko {name} ryhmästä?",
+  "removeMemberConfirmMessage": "Poista {name} ryhmästä",
   "joinGroup": "Liity ryhmään",
   "invitationCodeInputLabel": "Kutsukoodi (8 merkkiä)",
   "invitationCodeInputHint": "Anna 8-merkkinen koodi",

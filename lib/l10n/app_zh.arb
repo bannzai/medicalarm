@@ -208,7 +208,7 @@
   "ownerLabel": "所有者",
   "youLabel": "你",
   "removeMemberConfirmTitle": "要移除该成员吗？",
-  "removeMemberConfirmMessage": "将 {name} 从群组中移除",
+  "removeMemberConfirmMessage": "将 {name} 移出群组",
   "joinGroup": "加入群组",
   "invitationCodeInputLabel": "邀请码（8个字符）",
   "invitationCodeInputHint": "输入8位代码",

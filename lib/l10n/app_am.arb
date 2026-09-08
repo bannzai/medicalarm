@@ -208,7 +208,7 @@
   "ownerLabel": "ባለቤት",
   "youLabel": "እርስዎ",
   "removeMemberConfirmTitle": "ይህን አባል ማስወገድ ይፈልጋሉ?",
-  "removeMemberConfirmMessage": "{name}-ը խմբից կհեռացվի",
+  "removeMemberConfirmMessage": "{name} ከቡድኑ ይወገዳል",
   "joinGroup": "ቡድኑን ይቀላቀሉ",
   "invitationCodeInputLabel": "የግብዣ ኮድ (8 ቁምፊዎች)",
   "invitationCodeInputHint": "የ8 ቁምፊ ኮድ ያስገቡ",

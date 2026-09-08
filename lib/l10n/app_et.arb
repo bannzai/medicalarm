@@ -208,7 +208,7 @@
   "ownerLabel": "Omanik",
   "youLabel": "Sina",
   "removeMemberConfirmTitle": "Kas soovite selle liikme eemaldada?",
-  "removeMemberConfirmMessage": "Eemaldada {name} grupist",
+  "removeMemberConfirmMessage": "Eemalda {name} grupist",
   "joinGroup": "Liitu grupiga",
   "invitationCodeInputLabel": "Kutse kood (8 märki)",
   "invitationCodeInputHint": "Sisestage 8-kohaline kood",

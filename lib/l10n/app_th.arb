@@ -208,7 +208,7 @@
   "ownerLabel": "เจ้าของ",
   "youLabel": "คุณ",
   "removeMemberConfirmTitle": "คุณต้องการลบสมาชิกนี้หรือไม่",
-  "removeMemberConfirmMessage": "นำ {name} ออกจากกลุ่ม",
+  "removeMemberConfirmMessage": "ลบ {name} ออกจากกลุ่ม",
   "joinGroup": "เข้าร่วมกลุ่ม",
   "invitationCodeInputLabel": "รหัสเชิญ (8 ตัวอักษร)",
   "invitationCodeInputHint": "กรอกรหัส 8 ตัวอักษร",

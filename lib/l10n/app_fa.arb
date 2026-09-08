@@ -208,7 +208,7 @@
   "ownerLabel": "مالک",
   "youLabel": "شما",
   "removeMemberConfirmTitle": "آیا می‌خواهید این عضو را حذف کنید؟",
-  "removeMemberConfirmMessage": "{name} از گروه حذف شود",
+  "removeMemberConfirmMessage": "حذف {name} از گروه",
   "joinGroup": "پیوستن به گروه",
   "invitationCodeInputLabel": "کد دعوت (۸ نویسه)",
   "invitationCodeInputHint": "کد ۸ کاراکتری را وارد کنید",

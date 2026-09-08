@@ -208,7 +208,7 @@
   "ownerLabel": "मालक",
   "youLabel": "तुम्ही",
   "removeMemberConfirmTitle": "तुम्हाला या सदस्याला काढून टाकायचे आहे का?",
-  "removeMemberConfirmMessage": "गटातून {name} यांना काढून टाका",
+  "removeMemberConfirmMessage": "गटातून {name} यांना काढा",
   "joinGroup": "गटात सामील व्हा",
   "invitationCodeInputLabel": "आमंत्रण कोड (८ अक्षरे)",
   "invitationCodeInputHint": "८ अक्षरी कोड टाका",
