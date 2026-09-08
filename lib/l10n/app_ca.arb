@@ -209,7 +209,7 @@
   "youLabel": "Tu",
   "removeMemberConfirmTitle": "Vols eliminar aquest membre?",
   "removeMemberConfirmMessage": "Eliminar {name} del grup",
-  "joinGroup": "Unir-se al grup",
+  "joinGroup": "Unir-se a un grup",
   "invitationCodeInputLabel": "Codi d’invitació (8 caràcters)",
   "invitationCodeInputHint": "Introdueix el codi de 8 caràcters",
   "join": "Unir-se",
