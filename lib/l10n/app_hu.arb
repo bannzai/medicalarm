@@ -218,7 +218,7 @@
   "accountLinkDescription": "Ha összekapcsolja fiókját az Apple-lel vagy a Google-lel, eszközváltás vagy az alkalmazás újratelepítése után is megőrizheti adatait.",
   "linkWithApple": "Fiók átvitele az Apple-lel",
   "linkWithGoogle": "Fiók átvitele Google-lal",
-  "accountLinkedWithApple": "Apple-höz kapcsolva",
+  "accountLinkedWithApple": "Összekapcsolva az Apple-lel",
   "accountLinkedWithGoogle": "Összekapcsolva a Google-lel",
   "accountLinkedSnackbar": "A fiók átkerült",
   "accountLinkBannerText": "Csoportmegosztás esetén erősen javasoljuk a fiókátadás beállítását.",
