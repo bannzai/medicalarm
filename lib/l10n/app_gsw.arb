@@ -128,7 +128,7 @@
   "premiumUserThanksMessage": "Danke, dass Sie üsen Dienst nutze.\nDank Ihne chöi mir Medicalarm wiiterfüehre.",
   "premiumPricePerMonth": "({price}/Monet)",
   "premiumCancelDescription": "・Nach em Chauf chönned Sie d automatische Verlängerig i de Konto-Einstellige vo de {storeName}-App kündige. (D automatische Verlängerig cha nöd direkt i de App kündigt werde.)",
-  "purchaseErrorRestoreFailed": "D'De Kaufinformatione könne nit gfunde werde. Bitte prüefe Sie Ihr Konto un probiere Sie es erneut.",
+  "purchaseErrorRestoreFailed": "D Informatione vom vorherige Chauf isch nöd gfunde worde. Überprüef dis Konto und versuechs nomol",
   "purchaseErrorUserNotFound": "Dä Benutzer konnt nüt bestätige. Bitte d'App neustarte un es nomol probiere. Detail: {message}",
   "purchaseErrorActivationPending": "D'Verifizéierung vum Recurren ass nach net ofgeschloss. Wärt w.e.g. e bëssi Zäit waarden an duerno nach eng Kéier kontrolléieren.",
   "purchaseErrorTimeout": "Es isch e Timeout passiert. Bitte überprüfe d'Kommunikationsumgebig und versuch es no einisch. Wenns nicht löst, kontaktiere uns über Einstellungen > Anfrage. Weitere Details: {message}",

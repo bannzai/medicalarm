@@ -128,7 +128,7 @@
   "premiumUserThanksMessage": "Terima kasih telah menggunakan layanan kami.\nBerkat Anda, kami dapat terus mengoperasikan Medicalarm.",
   "premiumPricePerMonth": "({price}/bulan)",
   "premiumCancelDescription": "・Setelah membeli, Anda dapat membatalkan perpanjangan otomatis di pengaturan akun aplikasi {storeName}. (Perpanjangan otomatis tidak dapat dibatalkan dari dalam aplikasi.)",
-  "purchaseErrorRestoreFailed": "Informasi pembelian sebelumnya tidak dapat ditemukan. Silakan periksa akun Anda dan coba lagi.",
+  "purchaseErrorRestoreFailed": "Informasi pembelian sebelumnya tidak ditemukan. Periksa akun Anda dan coba lagi",
   "purchaseErrorUserNotFound": "Pengguna tidak dapat ditemukan. Silakan restart aplikasi dan coba lagi. Rincian: {message}",
   "purchaseErrorActivationPending": "Aktivasi pembayaran belum selesai. Silakan coba lagi setelah beberapa saat.",
   "purchaseErrorTimeout": "Waktu habis. Silakan periksa kondisi jaringan Anda dan coba lagi. Jika masalah belum teratasi, silakan kontak melalui Pengaturan > Pertanyaan. Rincian: {message}",

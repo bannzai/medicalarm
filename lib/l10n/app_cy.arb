@@ -128,7 +128,7 @@
   "premiumUserThanksMessage": "Diolch am ddefnyddio ein gwasanaeth.\nDiolch i chi, gallwn barhau i weithredu Medicalarm.",
   "premiumPricePerMonth": "({price}/mis)",
   "premiumCancelDescription": "・Ar ôl prynu, gallwch ganslo’r adnewyddu awtomatig yng ngosodiadau cyfrif ap {storeName}. (Ni ellir canslo’r adnewyddu awtomatig o’r ap ei hun.)",
-  "purchaseErrorRestoreFailed": "Nid yw gwybodaeth am brynu cynharach yn cael ei chanfod. Gwiriwch eich cyfrif a cheisiwch eto.",
+  "purchaseErrorRestoreFailed": "Ni chanfuwyd gwybodaeth am y pryniant blaenorol. Gwiriwch eich cyfrif a rhowch gynnig arall arni",
   "purchaseErrorUserNotFound": "Ni allodd y defnyddiwr wirio. Ailgychwynwch y cais a rhowch gynnig arno unwaith eto. Manylion: {message}",
   "purchaseErrorActivationPending": "Nid yw gwaith activadu taliadau wedi'i gwblhau. Aroswch ychydig i wirio eto.",
   "purchaseErrorTimeout": "Mae'r amser yn dod i ben. Gwiriwch y cyflyrau cyfathrebu ac rhowch cynnig arall. Os nad yw'n cael ei datrys, cysylltwch â ni drwy Ddewislen > Cwestiynau. Manylion: {message}",

@@ -128,7 +128,7 @@
   "premiumUserThanksMessage": "Bedankt dat u onze dienst gebruikt.\nDankzij u kunnen we Medicalarm blijven onderhouden.",
   "premiumPricePerMonth": "({price}/maand)",
   "premiumCancelDescription": "・Na aankoop kunt u automatische verlenging annuleren via de accountinstellingen van de {storeName}-app. (Automatische verlenging kan niet vanuit de app zelf worden geannuleerd.)",
-  "purchaseErrorRestoreFailed": "Geen eerdere aankoopinformatie gevonden. Controleer uw account en probeer het opnieuw.",
+  "purchaseErrorRestoreFailed": "Informatie over de vorige aankoop is niet gevonden. Controleer je account en probeer het opnieuw",
   "purchaseErrorUserNotFound": "De gebruiker kon niet worden gevonden. Probeer het opnieuw nadat u de app opnieuw hebt opgestart. Details: {message}",
   "purchaseErrorActivationPending": "De activatie van de betaling is nog niet voltooid. Controleer het over een tijdje opnieuw.",
   "purchaseErrorTimeout": "De time-out is opgetreden. Controleer uw netwerkverbinding en probeer het opnieuw. Als het probleem zich blijft voordoen, neem dan contact met ons op via Instellingen > Vraag. Details: {message}",

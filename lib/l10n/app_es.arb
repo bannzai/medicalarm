@@ -128,7 +128,7 @@
   "premiumUserThanksMessage": "Gracias por utilizar nuestro servicio.\nGracias a ti, podemos seguir manteniendo Medicalarm.",
   "premiumPricePerMonth": "({price}/mes)",
   "premiumCancelDescription": "・Después de la compra, puedes cancelar la renovación automática en la configuración de la cuenta de la app {storeName}. (La renovación automática no se puede cancelar desde la app.)",
-  "purchaseErrorRestoreFailed": "No se puede encontrar la información de compra anterior. Por favor, verifique su cuenta y vuelva a intentarlo.",
+  "purchaseErrorRestoreFailed": "No se encontró la información de la compra anterior. Comprueba tu cuenta y vuelve a intentarlo",
   "purchaseErrorUserNotFound": "No se pudo encontrar al usuario. Por favor, reinicie la aplicación e intente de nuevo. Detalles: {message}",
   "purchaseErrorActivationPending": "La activación de la suscripción no se ha completado. Por favor, verifica después de un tiempo.",
   "purchaseErrorTimeout": "Se ha agotado el tiempo de espera. Por favor, verifique su entorno de red y vuelva a intentarlo. Si el problema persiste, comuníquese a través de Configuración > Consulta. Detalles: {message}",

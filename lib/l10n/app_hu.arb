@@ -128,7 +128,7 @@
   "premiumUserThanksMessage": "Köszönjük, hogy használja szolgáltatásunkat.\nÖnnek köszönhetően folytathatjuk a Medicalarm működtetését.",
   "premiumPricePerMonth": "({price}/hó)",
   "premiumCancelDescription": "・Vásárlás után az automatikus megújítás a {storeName} alkalmazás fiókbeállításaiban mondható le. (Az automatikus megújítás az alkalmazáson belül nem mondható le.)",
-  "purchaseErrorRestoreFailed": "Nem található korábbi vásárlási információ. Kérjük, ellenőrizze a fiókját, és próbálja meg újra.",
+  "purchaseErrorRestoreFailed": "A korábbi vásárlás adatai nem találhatók. Ellenőrizd a fiókodat, majd próbáld újra",
   "purchaseErrorUserNotFound": "A felhasználó nem található. Kérjük, indítsa újra az alkalmazást, és próbálkozzon újra. Részletek: {message}",
   "purchaseErrorActivationPending": "A díjbekérési aktiválás még nem fejeződött be. Kérjük, ellenőrizze később.",
   "purchaseErrorTimeout": "Időkorlát lejárt. Kérjük, ellenőrizze a hálózati környezetét, és próbálja meg újra. Ha a probléma továbbra is fennáll, lépjen kapcsolatba velünk a Beállítások > Kapcsolatfelvétel menüből. Részletek: {message}",

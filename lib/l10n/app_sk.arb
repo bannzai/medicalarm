@@ -128,7 +128,7 @@
   "premiumUserThanksMessage": "Ďakujeme, že používate našu službu.\nVďaka vám môžeme pokračovať v prevádzke aplikácie Medicalarm.",
   "premiumPricePerMonth": "({price}/mesiac)",
   "premiumCancelDescription": "・Po zakúpení môžete automatické obnovenie zrušiť v nastaveniach účtu aplikácie {storeName}. (Automatické obnovenie nie je možné zrušiť priamo v aplikácii.)",
-  "purchaseErrorRestoreFailed": "Predchádzajúce informácie o nákupe sa nenašli. Skontrolujte svoj účet a skúste to znova.",
+  "purchaseErrorRestoreFailed": "Informácie o predchádzajúcom nákupe sa nenašli. Skontrolujte svoj účet a skúste to znova",
   "purchaseErrorUserNotFound": "Používateľ nemohol byť potvrdený. Skúste to znova po reštartovaní aplikácie. Podrobnosti: {message}",
   "purchaseErrorActivationPending": "Aktivácia platby nebola dokončená. Prosím, skontrolujte to po chvíli.",
   "purchaseErrorTimeout": "Vypršal časový limit. Skontrolujte svoj komunikačný signál a vyskúšajte to znova. Ak problém pretrváva, kontaktujte nás cez Nastavenia > Kontaktujte nás. Podrobnosti: {message}",

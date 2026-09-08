@@ -128,7 +128,7 @@
   "premiumUserThanksMessage": "Vă mulțumim că folosiți serviciul nostru.\nDatorită vouă, putem continua să operăm Medicalarm.",
   "premiumPricePerMonth": "({price}/lună)",
   "premiumCancelDescription": "・După achiziție, puteți anula reînnoirea automată din setările contului aplicației {storeName}. (Reînnoirea automată nu poate fi anulată din aplicație.)",
-  "purchaseErrorRestoreFailed": "Informațiile anterioare de achiziție nu au fost găsite. Vă rugăm să verificați contul și să încercați din nou.",
+  "purchaseErrorRestoreFailed": "Informațiile despre achiziția anterioară nu au fost găsite. Verificați contul și încercați din nou",
   "purchaseErrorUserNotFound": "Utilizatorul nu a fost găsit. Vă rugăm să reporniți aplicația și să încercați din nou. Detalii: {message}",
   "purchaseErrorActivationPending": "Activarea plății nu a fost finalizată. Vă rugăm să așteptați puțin timp și să verificați din nou.",
   "purchaseErrorTimeout": "A expirat timpul de așteptare. Vă rugăm să verificați condițiile de conectare și să încercați din nou. Dacă problema persistă, contactați-ne prin Settings > Inquiry. Detalii: {message}",

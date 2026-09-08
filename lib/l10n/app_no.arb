@@ -128,7 +128,7 @@
   "premiumUserThanksMessage": "Takk for at du bruker tjenesten vår.\nTakket være deg kan vi fortsette driften av Medicalarm.",
   "premiumPricePerMonth": "({price}/måned)",
   "premiumCancelDescription": "・Etter kjøpet kan du avslutte automatisk fornyelse i kontoinnstillingene i {storeName}-appen. (Automatisk fornyelse kan ikke avsluttes fra selve appen.)",
-  "purchaseErrorRestoreFailed": "Ingen tidligere kjøpsinformasjon ble funnet. Vennligst sjekk kontoen din og prøv igjen.",
+  "purchaseErrorRestoreFailed": "Informasjon om tidligere kjøp ble ikke funnet. Sjekk kontoen din og prøv igjen",
   "purchaseErrorUserNotFound": "Brukeren kunne ikke bekreftes. Vennligst start appen på nytt og prøv igjen. Detaljer: {message}",
   "purchaseErrorActivationPending": "Aktiveringen av betalingen er ikke fullført. Vennligst sjekk igjen etter en stund.",
   "purchaseErrorTimeout": "Tiden er ute. Vennligst sjekk kommunikasjonsmiljøet ditt og prøv igjen. Hvis det ikke løser seg, vennligst kontakt oss via Innstillinger > Spørsmål. Detaljer: {message}",

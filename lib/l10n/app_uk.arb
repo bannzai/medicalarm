@@ -128,7 +128,7 @@
   "premiumUserThanksMessage": "Дякуємо, що користуєтеся нашим сервісом.\nЗавдяки вам ми можемо продовжувати роботу Medicalarm.",
   "premiumPricePerMonth": "({price}/місяць)",
   "premiumCancelDescription": "・Після покупки автоматичне поновлення можна скасувати в налаштуваннях облікового запису програми {storeName}. (Скасувати автоматичне поновлення в самій програмі неможливо.)",
-  "purchaseErrorRestoreFailed": "There is no previous purchase information found. Please check your account and try again.",
+  "purchaseErrorRestoreFailed": "Інформацію про попередню покупку не знайдено. Перевірте обліковий запис і спробуйте ще раз",
   "purchaseErrorUserNotFound": "The user could not be found. Please restart the app and try again. Details: {message}",
   "purchaseErrorActivationPending": "The activation of the payment has not been completed. Please check again after some time.",
   "purchaseErrorTimeout": "The operation timed out. Please check your communication environment and try again. If the issue persists, please contact us via Settings > inquiries. Details: {message}",

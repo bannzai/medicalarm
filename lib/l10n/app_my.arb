@@ -128,7 +128,7 @@
   "premiumUserThanksMessage": "ကျွန်ုပ်တို့၏ဝန်ဆောင်မှုကို အသုံးပြုသည့်အတွက် ကျေးဇူးတင်ပါသည်။\nသင့်ကျေးဇူးကြောင့် Medicalarm ကို ဆက်လက်လုပ်ဆောင်နိုင်ပါသည်။",
   "premiumPricePerMonth": "({price}/လ)",
   "premiumCancelDescription": "・ဝယ်ယူပြီးနောက် အလိုအလျောက်သက်တမ်းတိုးခြင်းကို {storeName} အက်ပ်၏ အကောင့်ဆက်တင်များမှ ပယ်ဖျက်နိုင်ပါသည်။ (အက်ပ်အတွင်းမှ အလိုအလျောက်သက်တမ်းတိုးခြင်းကို ပယ်ဖျက်၍မရပါ။)",
-  "purchaseErrorRestoreFailed": "Maklumat pembelian sebelum ini tidak dijumpai. Sila semak akaun anda dan cuba lagi.",
+  "purchaseErrorRestoreFailed": "ယခင်ဝယ်ယူမှုအချက်အလက်ကို ရှာမတွေ့ပါ။ သင့်အကောင့်ကို စစ်ဆေးပြီး ထပ်မံကြိုးစားပါ",
   "purchaseErrorUserNotFound": "Pengguna tidak dapat disahkan. Sila mulakan semula aplikasi dan cuba lagi. Butiran: {message}",
   "purchaseErrorActivationPending": "Pengaktifan caj tidak selesai. Sila semak semula selepas beberapa ketika.",
   "purchaseErrorTimeout": "Waktu tamat. Sila semak keadaan sambungan anda dan cuba sekali lagi. Jika masalah berterusan, sila hubungi kami melalui Tetapan > Pertanyaan. Butiran: {message}",

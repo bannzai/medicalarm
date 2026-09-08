@@ -128,7 +128,7 @@
   "premiumUserThanksMessage": "Siyabonga ngokusebenzisa insizakalo yethu.\nNgenxa yakho, singaqhubeka nokuqhuba iMedicalarm.",
   "premiumPricePerMonth": "({price}/ngenyanga)",
   "premiumCancelDescription": "・Ngemva kokuthenga, ungakhansela ukuvuselelwa okuzenzakalelayo kuzilungiselelo ze-akhawunti zohlelo lokusebenza lwe-{storeName}. (Ukuvuselelwa okuzenzakalelayo akunakukhanselwa ngaphakathi kohlelo lokusebenza.)",
-  "purchaseErrorRestoreFailed": "Awukho ulwazi lokuthenga olwandulele. Sicela uqinisekise i-akhawunti yakho bese uzama futhi.",
+  "purchaseErrorRestoreFailed": "Ulwazi lokuthenga kwangaphambilini alutholakalanga. Hlola i-akhawunti yakho bese uzama futhi",
   "purchaseErrorUserNotFound": "Umsebenzisi akakwazi ukusithola. Sicela uqale kabusha uhlelo lokusebenza bese uzama futhi. Imininingwane: {message}",
   "purchaseErrorActivationPending": "Ukusebenza kokukhokhela akukapheli. Sicela uqinisekise kamuva.",
   "purchaseErrorTimeout": "kwesikhathi sekuphumula kulindelekile. Sicela uqinisekise indawo yokuxhumana ngaphambi kokuzama futhi. Uma kungaxazululwa, sicela uthumele okuthunyelwe kusetshenziswa Izilungiselelo > Ukuxhumana. Imininingwane: {message}",

@@ -128,7 +128,7 @@
   "premiumUserThanksMessage": "感谢您使用我们的服务。\n多亏了您的支持，我们才能继续运营 Medicalarm。",
   "premiumPricePerMonth": "({price}/月)",
   "premiumCancelDescription": "・购买后，您可以在 {storeName} App 的账户设置中取消自动续订。（无法在 App 内取消自动续订。）",
-  "purchaseErrorRestoreFailed": "未找到之前的购买信息。请确认您的帐户，然后再试一次。",
+  "purchaseErrorRestoreFailed": "未找到之前的购买信息。请检查您的账户后重试",
   "purchaseErrorUserNotFound": "无法找到用户。请重启应用程序，并重试。详细信息：{message}",
   "purchaseErrorActivationPending": "尚未完成付費激活。請稍後再確認。",
   "purchaseErrorTimeout": "操作超时。请检查您的网络环境，然后重试。如果问题仍然存在，请通过设置 > 联系我们与我们联系。详细信息：{message}",
