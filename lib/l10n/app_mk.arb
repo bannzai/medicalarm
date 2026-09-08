@@ -231,7 +231,7 @@
   "doseIntervalWarningTakeAnyway": "Сними",
   "doseIntervalNotificationWarning": "⚠️ Немаат поминато {minimumDoseIntervalHours} часа од последната доза",
   "ossLicense": "OSS лиценци",
-  "achievementWeeklyLabel": "Лекови за оваа недела",
+  "achievementWeeklyLabel": "Земање лекови оваа недела",
   "achievementWeeklyCountSuffix": "/{scheduledCount} пати",
   "achievementStreakLabel": "Последователни записи",
   "achievementStreakDaysSuffix": "дена",

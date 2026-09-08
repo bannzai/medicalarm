@@ -231,7 +231,7 @@
   "doseIntervalWarningTakeAnyway": "Skrá",
   "doseIntervalNotificationWarning": "⚠️ Ekki eru liðnar {minimumDoseIntervalHours} klukkustundir frá síðasta skammti",
   "ossLicense": "OSS-leyfi",
-  "achievementWeeklyLabel": "Lyf vikunnar",
+  "achievementWeeklyLabel": "Lyfjataka í þessari viku",
   "achievementWeeklyCountSuffix": "/{scheduledCount} sinnum",
   "achievementStreakLabel": "Samfelld skráning",
   "achievementStreakDaysSuffix": "dagar",

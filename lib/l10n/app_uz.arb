@@ -231,7 +231,7 @@
   "doseIntervalWarningTakeAnyway": "Qayd etish",
   "doseIntervalNotificationWarning": "⚠️ Oxirgi dozadan beri {minimumDoseIntervalHours} soat o‘tmadi",
   "ossLicense": "OSS litsenziyalari",
-  "achievementWeeklyLabel": "Bu haftadagi dorilar",
+  "achievementWeeklyLabel": "Bu haftadagi dori qabul qilish",
   "achievementWeeklyCountSuffix": "/{scheduledCount} marta",
   "achievementStreakLabel": "Ketma-ket qaydlar",
   "achievementStreakDaysSuffix": "kun",

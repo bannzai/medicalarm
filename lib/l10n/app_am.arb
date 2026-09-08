@@ -231,7 +231,7 @@
   "doseIntervalWarningTakeAnyway": "መዝግብ",
   "doseIntervalNotificationWarning": "⚠️ ካለፈው መድኃኒት ከወሰዱ ጀምሮ {minimumDoseIntervalHours} ሰዓት አልሞላም",
   "ossLicense": "የOSS ፈቃዶች",
-  "achievementWeeklyLabel": "በዚህ ሳምንት የተወሰዱ መድኃኒቶች",
+  "achievementWeeklyLabel": "የዚህ ሳምንት መድኃኒት አወሳሰድ",
   "achievementWeeklyCountSuffix": "/{scheduledCount} ጊዜ",
   "achievementStreakLabel": "Անընդմեջ գրանցում",
   "achievementStreakDaysSuffix": "ቀን",

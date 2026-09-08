@@ -231,7 +231,7 @@
   "doseIntervalWarningTakeAnyway": "Ghi nhận",
   "doseIntervalNotificationWarning": "⚠️ Chưa đủ {minimumDoseIntervalHours} giờ kể từ liều trước",
   "ossLicense": "Giấy phép OSS",
-  "achievementWeeklyLabel": "Thuốc trong tuần này",
+  "achievementWeeklyLabel": "Uống thuốc tuần này",
   "achievementWeeklyCountSuffix": "/{scheduledCount} lần",
   "achievementStreakLabel": "Ghi nhận liên tiếp",
   "achievementStreakDaysSuffix": "ngày",

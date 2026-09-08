@@ -231,7 +231,7 @@
   "doseIntervalWarningTakeAnyway": "កត់ត្រា",
   "doseIntervalNotificationWarning": "⚠️ មិនទាន់បាន {minimumDoseIntervalHours} ម៉ោងចាប់ពីការលេបថ្នាំលើកមុនទេ",
   "ossLicense": "អាជ្ញាប័ណ្ណ OSS",
-  "achievementWeeklyLabel": "ថ្នាំក្នុងសប្តាហ៍នេះ",
+  "achievementWeeklyLabel": "ការលេបថ្នាំក្នុងសប្ដាហ៍នេះ",
   "achievementWeeklyCountSuffix": "/{scheduledCount} ដង",
   "achievementStreakLabel": "កំណត់ត្រាជាប់គ្នា",
   "achievementStreakDaysSuffix": "ថ្ងៃ",

@@ -231,7 +231,7 @@
   "doseIntervalWarningTakeAnyway": "ਰਿਕਾਰਡ ਕਰੋ",
   "doseIntervalNotificationWarning": "⚠️ ਪਿਛਲੀ ਖੁਰਾਕ ਤੋਂ {minimumDoseIntervalHours} ਘੰਟੇ ਨਹੀਂ ਹੋਏ",
   "ossLicense": "OSS ਲਾਇਸੰਸ",
-  "achievementWeeklyLabel": "ਇਸ ਹਫ਼ਤੇ ਦੀ ਦਵਾਈ",
+  "achievementWeeklyLabel": "ਇਸ ਹਫ਼ਤੇ ਦੀ ਦਵਾਈ ਲੈਣਾ",
   "achievementWeeklyCountSuffix": "/{scheduledCount} ਵਾਰ",
   "achievementStreakLabel": "ਲਗਾਤਾਰ ਰਿਕਾਰਡ",
   "achievementStreakDaysSuffix": "ਦਿਨ",

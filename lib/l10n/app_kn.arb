@@ -231,7 +231,7 @@
   "doseIntervalWarningTakeAnyway": "ದಾಖಲಿಸಿ",
   "doseIntervalNotificationWarning": "⚠️ ಹಿಂದಿನ ಡೋಸ್‌ನಿಂದ {minimumDoseIntervalHours} ಗಂಟೆಗಳು ಕಳೆದಿಲ್ಲ",
   "ossLicense": "OSS ಪರವಾನಗಿಗಳು",
-  "achievementWeeklyLabel": "ಈ ವಾರದ ಔಷಧಿ",
+  "achievementWeeklyLabel": "ಈ ವಾರ ಔಷಧ ಸೇವನೆ",
   "achievementWeeklyCountSuffix": "/{scheduledCount} ಬಾರಿ",
   "achievementStreakLabel": "ಸತತ ದಾಖಲೆ",
   "achievementStreakDaysSuffix": "ದಿನಗಳು",

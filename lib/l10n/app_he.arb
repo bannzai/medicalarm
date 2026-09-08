@@ -231,7 +231,7 @@
   "doseIntervalWarningTakeAnyway": "תיעוד",
   "doseIntervalNotificationWarning": "⚠️ לא חלפו {minimumDoseIntervalHours} שעות מאז המנה האחרונה",
   "ossLicense": "רישיונות OSS",
-  "achievementWeeklyLabel": "תרופות השבוע",
+  "achievementWeeklyLabel": "נטילת תרופות השבוע",
   "achievementWeeklyCountSuffix": "/{scheduledCount} פעמים",
   "achievementStreakLabel": "רצף תיעוד",
   "achievementStreakDaysSuffix": "ימים",

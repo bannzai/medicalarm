@@ -231,7 +231,7 @@
   "doseIntervalWarningTakeAnyway": "রেকর্ড করুন",
   "doseIntervalNotificationWarning": "⚠️ শেষবার ওষুধ খাওয়ার পর {minimumDoseIntervalHours} ঘণ্টা পার হয়নি",
   "ossLicense": "OSS লাইসেন্স",
-  "achievementWeeklyLabel": "এই সপ্তাহের ওষুধ",
+  "achievementWeeklyLabel": "এই সপ্তাহে ওষুধ সেবন",
   "achievementWeeklyCountSuffix": "/{scheduledCount} বার",
   "achievementStreakLabel": "টানা রেকর্ড",
   "achievementStreakDaysSuffix": "দিন",

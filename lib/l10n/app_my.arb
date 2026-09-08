@@ -231,7 +231,7 @@
   "doseIntervalWarningTakeAnyway": "မှတ်တမ်းတင်ရန်",
   "doseIntervalNotificationWarning": "⚠️ နောက်ဆုံးဆေးသောက်ပြီးနောက် {minimumDoseIntervalHours} နာရီ မပြည့်သေးပါ",
   "ossLicense": "OSS လိုင်စင်များ",
-  "achievementWeeklyLabel": "ဒီအပတ် ဆေးသောက်မှု",
+  "achievementWeeklyLabel": "ယခုအပတ် ဆေးသောက်မှု",
   "achievementWeeklyCountSuffix": "/{scheduledCount} ကြိမ်",
   "achievementStreakLabel": "ဆက်တိုက်မှတ်တမ်း",
   "achievementStreakDaysSuffix": "ရက်",

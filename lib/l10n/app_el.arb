@@ -231,7 +231,7 @@
   "doseIntervalWarningTakeAnyway": "Καταγραφή",
   "doseIntervalNotificationWarning": "⚠️ Δεν έχουν περάσει {minimumDoseIntervalHours} ώρες από την τελευταία δόση",
   "ossLicense": "Άδειες OSS",
-  "achievementWeeklyLabel": "Φάρμακα αυτή την εβδομάδα",
+  "achievementWeeklyLabel": "Λήψη φαρμάκων αυτή την εβδομάδα",
   "achievementWeeklyCountSuffix": "/{scheduledCount} φορές",
   "achievementStreakLabel": "Συνεχόμενες καταγραφές",
   "achievementStreakDaysSuffix": "ημέρες",

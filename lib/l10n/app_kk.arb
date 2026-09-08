@@ -231,7 +231,7 @@
   "doseIntervalWarningTakeAnyway": "Жазу",
   "doseIntervalNotificationWarning": "⚠️ Соңғы дозаны қабылдағаннан бері {minimumDoseIntervalHours} сағат өткен жоқ",
   "ossLicense": "OSS лицензиялары",
-  "achievementWeeklyLabel": "Осы аптадағы дәрілер",
+  "achievementWeeklyLabel": "Осы аптадағы дәрі қабылдау",
   "achievementWeeklyCountSuffix": "/{scheduledCount} рет",
   "achievementStreakLabel": "Қатарынан тіркеу",
   "achievementStreakDaysSuffix": "күн",

@@ -231,7 +231,7 @@
   "doseIntervalWarningTakeAnyway": "Catat",
   "doseIntervalNotificationWarning": "⚠️ Belum {minimumDoseIntervalHours} jam sejak dosis terakhir",
   "ossLicense": "Lisensi OSS",
-  "achievementWeeklyLabel": "Obat minggu ini",
+  "achievementWeeklyLabel": "Minum obat minggu ini",
   "achievementWeeklyCountSuffix": "/{scheduledCount} kali",
   "achievementStreakLabel": "Catatan beruntun",
   "achievementStreakDaysSuffix": "hari",

@@ -231,7 +231,7 @@
   "doseIntervalWarningTakeAnyway": "Запиши",
   "doseIntervalNotificationWarning": "⚠️ Не са изминали {minimumDoseIntervalHours} часа от последния прием",
   "ossLicense": "OSS лицензи",
-  "achievementWeeklyLabel": "Приети лекарства тази седмица",
+  "achievementWeeklyLabel": "Прием на лекарства тази седмица",
   "achievementWeeklyCountSuffix": "/{scheduledCount} пъти",
   "achievementStreakLabel": "Поредица от записи",
   "achievementStreakDaysSuffix": "дни",

@@ -231,7 +231,7 @@
   "doseIntervalWarningTakeAnyway": "రికార్డ్ చేయండి",
   "doseIntervalNotificationWarning": "⚠️ చివరి మోతాదు తీసుకున్నప్పటి నుంచి {minimumDoseIntervalHours} గంటలు కాలేదు",
   "ossLicense": "OSS లైసెన్స్‌లు",
-  "achievementWeeklyLabel": "ఈ వారం మందులు",
+  "achievementWeeklyLabel": "ఈ వారం మందుల తీసుకోవడం",
   "achievementWeeklyCountSuffix": "/{scheduledCount} సార్లు",
   "achievementStreakLabel": "వరుస రికార్డు",
   "achievementStreakDaysSuffix": "రోజులు",

@@ -231,7 +231,7 @@
   "doseIntervalWarningTakeAnyway": "Įrašyti",
   "doseIntervalNotificationWarning": "⚠️ Nuo paskutinės dozės nepraėjo {minimumDoseIntervalHours} val.",
   "ossLicense": "OSS licencijos",
-  "achievementWeeklyLabel": "Šios savaitės vaistai",
+  "achievementWeeklyLabel": "Šios savaitės vaistų vartojimas",
   "achievementWeeklyCountSuffix": "/{scheduledCount} kartus",
   "achievementStreakLabel": "Iš eilės užregistruota",
   "achievementStreakDaysSuffix": "dienos",

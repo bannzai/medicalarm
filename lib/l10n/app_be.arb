@@ -231,7 +231,7 @@
   "doseIntervalWarningTakeAnyway": "Запісаць",
   "doseIntervalNotificationWarning": "⚠️ З моманту апошняга прыёму не прайшло {minimumDoseIntervalHours} гадзін",
   "ossLicense": "Ліцэнзіі OSS",
-  "achievementWeeklyLabel": "Лекі за гэты тыдзень",
+  "achievementWeeklyLabel": "Прыём лекаў на гэтым тыдні",
   "achievementWeeklyCountSuffix": "/{scheduledCount} разоў",
   "achievementStreakLabel": "Паслядоўны запіс",
   "achievementStreakDaysSuffix": "дзён",
