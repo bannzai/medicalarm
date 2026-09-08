@@ -15,7 +15,7 @@
   "camera": "Camera",
   "photoLibrary": "Llyfrgell luniau",
   "medicationHistory": "Hanes cymryd meddyginiaethau",
-  "noMedicationHistory": "Does dim llawes meddyginiaeth.",
+  "noMedicationHistory": "Dim hanes meddyginiaeth",
   "scheduledTime": "Amserlen",
   "recordedTime": "Amser cofrestru",
   "noMemo": "Dim nodyn ar gael",

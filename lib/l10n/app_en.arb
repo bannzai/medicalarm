@@ -15,7 +15,7 @@
   "camera": "Camera",
   "photoLibrary": "Photo Library",
   "medicationHistory": "Medication History",
-  "noMedicationHistory": "There is no medication history.",
+  "noMedicationHistory": "No medication history",
   "scheduledTime": "Scheduled Time",
   "recordedTime": "Recording Time",
   "noMemo": "No notes",

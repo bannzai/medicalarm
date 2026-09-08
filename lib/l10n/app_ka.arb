@@ -15,7 +15,7 @@
   "camera": "კამერა",
   "photoLibrary": "ფოტობიბლიოთეკა",
   "medicationHistory": "მედიკამენტების მიღების ისტორია",
-  "noMedicationHistory": "არ არის წამლის მიღების ისტორია",
+  "noMedicationHistory": "მედიკამენტების მიღების ისტორია არ არსებობს",
   "scheduledTime": "დაცხრომის დრო",
   "recordedTime": "რეგისტრაციის დრო",
   "noMemo": "შენიშვნა არ არის",

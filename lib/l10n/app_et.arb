@@ -15,7 +15,7 @@
   "camera": "Kaamera",
   "photoLibrary": "Fototeek",
   "medicationHistory": "Ravimite võtmise ajalugu",
-  "noMedicationHistory": "Ei ole ravimi võtmise ajalugu",
+  "noMedicationHistory": "Ravimite võtmise ajalugu puudub",
   "scheduledTime": "Planeeritud aeg",
   "recordedTime": "Ajaoteaeg",
   "noMemo": "Ilma märkmeid",
