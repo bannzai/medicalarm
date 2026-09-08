@@ -92,7 +92,7 @@
   "medicineMaxCount": "Можна зареєструвати до {count} ліків.",
   "increaseMedicineLimitWithPremium": "Збільшити ліміт до {count} з планом Premium",
   "aboutApp": "Про застосунок",
-  "viewPremiumPlan": "Переглянути преміум-план",
+  "viewPremiumPlan": "Переглянути план Premium",
   "cancelSubscriptionInstruction": "Після покупки автоматичне поновлення можна скасувати в налаштуваннях облікового запису застосунку {storeName}. (Скасувати автоматичне поновлення в застосунку неможливо.)",
   "headache": "Головний біль",
   "stomachache": "Біль у животі",

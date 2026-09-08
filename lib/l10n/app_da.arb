@@ -92,7 +92,7 @@
   "medicineMaxCount": "Du kan registrere op til {count} lægemidler.",
   "increaseMedicineLimitWithPremium": "Øg grænsen til {count} med Premium-abonnementet",
   "aboutApp": "Om appen",
-  "viewPremiumPlan": "Se premiumplan",
+  "viewPremiumPlan": "Se Premium-abonnementet",
   "cancelSubscriptionInstruction": "Efter købet kan du opsige den automatiske fornyelse i kontoindstillingerne i {storeName}-appen. (Automatisk fornyelse kan ikke opsiges i appen.)",
   "headache": "Hovedpine",
   "stomachache": "Mavesmerter",

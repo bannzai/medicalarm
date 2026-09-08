@@ -92,7 +92,7 @@
   "medicineMaxCount": "Můžete zaregistrovat až {count} léků.",
   "increaseMedicineLimitWithPremium": "Zvyšte limit na {count} s prémiovým tarifem",
   "aboutApp": "O aplikaci",
-  "viewPremiumPlan": "Zobrazit prémiový plán",
+  "viewPremiumPlan": "Zobrazit prémiový tarif",
   "cancelSubscriptionInstruction": "Po zakoupení můžete automatické obnovování zrušit v nastavení účtu aplikace {storeName}. (Automatické obnovování nelze zrušit v aplikaci.)",
   "headache": "Bolest hlavy",
   "stomachache": "Bolest břicha",
