@@ -50,7 +50,7 @@
   "doseReceiverMaxCount": "Legfeljebb {count} gyógyszerszedő személyt regisztrálhat",
   "increaseLimitWithPremium": "Növelje a korlátot {count} értékre Premium csomaggal",
   "addDoseReceiver": "Gyógyszerszedő hozzáadása",
-  "newDoseReceiver": "Új gyógyszerhasználó",
+  "newDoseReceiver": "Új gyógyszerszedő",
   "reloginRequired": "Kérjük, jelentkezzen be újra",
   "reloginMessage": "Jelentkezzen be újra a fiókja törléséhez.",
   "relogin": "Jelentkezzen be újra",

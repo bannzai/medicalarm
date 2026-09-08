@@ -50,7 +50,7 @@
   "doseReceiverMaxCount": "Sie können bis zu {count} Medikamentennutzer registrieren",
   "increaseLimitWithPremium": "Mit dem Premium-Plan das Limit auf {count} erhöhen",
   "addDoseReceiver": "Medikamentennutzer hinzufügen",
-  "newDoseReceiver": "Neue Person",
+  "newDoseReceiver": "Neue medikamentenehmende Person",
   "reloginRequired": "Bitte melden Sie sich erneut an",
   "reloginMessage": "Melden Sie sich erneut an, um Ihr Konto zu löschen.",
   "relogin": "Erneut anmelden",

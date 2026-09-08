@@ -50,7 +50,7 @@
   "doseReceiverMaxCount": "Эң көп дегенде {count} дары ичүүчү адамды каттай аласыз",
   "increaseLimitWithPremium": "Premium планы менен чекти {count}ге көбөйтүңүз",
   "addDoseReceiver": "Дары ичүүчүнү кошуу",
-  "newDoseReceiver": "Жаңы дары колдонуучу",
+  "newDoseReceiver": "Жаңы дары ичүүчү адам",
   "reloginRequired": "Сураныч, кайра кириңиз",
   "reloginMessage": "Каттоо эсебиңизди өчүрүү үчүн кайра кириңиз.",
   "relogin": "Кайра кириңиз",

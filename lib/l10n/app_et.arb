@@ -50,7 +50,7 @@
   "doseReceiverMaxCount": "Saate registreerida kuni {count} ravimikasutajat",
   "increaseLimitWithPremium": "Suurendage Premium-paketiga limiit väärtuseni {count}",
   "addDoseReceiver": "Lisa ravimi kasutaja",
-  "newDoseReceiver": "Uus ravimikasutaja",
+  "newDoseReceiver": "Uus ravimivõtja",
   "reloginRequired": "Palun logige uuesti sisse",
   "reloginMessage": "Konto kustutamiseks logige uuesti sisse.",
   "relogin": "Logi uuesti sisse",

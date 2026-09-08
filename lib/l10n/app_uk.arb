@@ -50,7 +50,7 @@
   "doseReceiverMaxCount": "Можна зареєструвати до {count} осіб, які приймають ліки",
   "increaseLimitWithPremium": "Збільште ліміт до {count} з планом Premium",
   "addDoseReceiver": "Додати користувача ліків",
-  "newDoseReceiver": "Новий користувач ліків",
+  "newDoseReceiver": "Нова людина, яка приймає ліки",
   "reloginRequired": "Увійдіть ще раз",
   "reloginMessage": "Увійдіть ще раз, щоб видалити обліковий запис.",
   "relogin": "Увійти знову",
