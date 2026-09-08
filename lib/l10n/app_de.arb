@@ -129,7 +129,7 @@
   "premiumPricePerMonth": "({price}/Monat)",
   "premiumCancelDescription": "・Nach dem Kauf können Sie die automatische Verlängerung in den Kontoeinstellungen der {storeName}-App kündigen. (Die automatische Verlängerung kann nicht in der App gekündigt werden.)",
   "purchaseErrorRestoreFailed": "Informationen zu früheren Käufen wurden nicht gefunden. Überprüfe deinen Account und versuche es erneut.",
-  "purchaseErrorUserNotFound": "Der Benutzer konnte nicht verifiziert werden. Starten Sie die App neu und versuchen Sie es erneut. Details: {message}",
+  "purchaseErrorUserNotFound": "Der Nutzer konnte nicht überprüft werden. Starte die App neu und versuche es erneut. Details: {message}",
   "purchaseErrorActivationPending": "Die Aktivierung des Abonnements ist noch nicht abgeschlossen. Bitte prüfen Sie es später erneut.",
   "purchaseErrorTimeout": "Zeitüberschreitung. Bitte überprüfen Sie Ihre Netzwerkverbindung und versuchen Sie es erneut. Wenn das Problem weiterhin besteht, kontaktieren Sie uns über Einstellungen > Kontakt. Details: {message}",
   "purchaseErrorNetworkError": "Es ist ein Verbindungsfehler aufgetreten. Bitte überprüfen Sie Ihre Netzwerkverbindung und versuchen Sie es erneut. Wenn das Problem weiterhin besteht, kontaktieren Sie uns unter Einstellungen > Kontakt. Details: {message}",

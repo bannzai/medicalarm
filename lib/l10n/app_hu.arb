@@ -129,7 +129,7 @@
   "premiumPricePerMonth": "({price}/hó)",
   "premiumCancelDescription": "・Vásárlás után az automatikus megújítást a {storeName} alkalmazás fiókbeállításaiban mondhatja le. (Az automatikus megújítás az alkalmazásban nem mondható le.)",
   "purchaseErrorRestoreFailed": "A korábbi vásárlások adatai nem találhatók. Ellenőrizd a fiókodat, majd próbáld újra.",
-  "purchaseErrorUserNotFound": "A felhasználó ellenőrzése nem sikerült. Indítsa újra az alkalmazást, majd próbálja újra. Részletek: {message}",
+  "purchaseErrorUserNotFound": "A felhasználó nem ellenőrizhető. Indítsd újra az alkalmazást, majd próbáld újra. Részletek: {message}",
   "purchaseErrorActivationPending": "Az előfizetés aktiválása még nem fejeződött be. Kérjük, ellenőrizze később újra.",
   "purchaseErrorTimeout": "Időtúllépés történt. Ellenőrizze a hálózati kapcsolatot, majd próbálja újra. Ha a probléma továbbra is fennáll, lépjen kapcsolatba velünk a Beállítások > Kapcsolat menüpontban. Részletek: {message}",
   "purchaseErrorNetworkError": "Csatlakozási probléma történt. Ellenőrizze a hálózati kapcsolatot, majd próbálja újra. Ha a probléma továbbra is fennáll, lépjen kapcsolatba velünk a Beállítások > Kapcsolat menüpontban. Részletek: {message}",

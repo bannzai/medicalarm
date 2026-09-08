@@ -129,7 +129,7 @@
   "premiumPricePerMonth": "({price}/mėn.)",
   "premiumCancelDescription": "・Po pirkimo automatinį pratęsimą galite atšaukti {storeName} programėlės paskyros nustatymuose. (Automatinio pratęsimo programėlėje atšaukti negalima.)",
   "purchaseErrorRestoreFailed": "Ankstesnių pirkimų informacija nerasta. Patikrinkite savo paskyrą ir bandykite dar kartą.",
-  "purchaseErrorUserNotFound": "Nepavyko patvirtinti naudotojo. Paleiskite programėlę iš naujo ir bandykite dar kartą. Išsami informacija: {message}",
+  "purchaseErrorUserNotFound": "Nepavyko patvirtinti naudotojo. Iš naujo paleiskite programėlę ir bandykite dar kartą. Išsami informacija: {message}",
   "purchaseErrorActivationPending": "Prenumeratos aktyvinimas nebaigtas. Patikrinkite dar kartą vėliau.",
   "purchaseErrorTimeout": "Baigėsi skirtasis laikas. Patikrinkite tinklo ryšį ir bandykite dar kartą. Jei problema neišsisprendžia, susisiekite su mumis per Nustatymai > Kontaktai. Išsami informacija: {message}",
   "purchaseErrorNetworkError": "Įvyko ryšio problema. Patikrinkite tinklo ryšį ir bandykite dar kartą. Jei problema išlieka, susisiekite su mumis per Nustatymai > Susisiekti su mumis. Išsami informacija: {message}",
