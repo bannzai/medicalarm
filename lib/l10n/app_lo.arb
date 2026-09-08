@@ -39,7 +39,7 @@
   "cycle": "ຮອບ",
   "cycleDescription": "ຕົວຢ່າງ) ກິນຢາ 21 ມື້ / ພັກ 7 ມື້",
   "everyXDaysDescription": "ຕົວຢ່າງ: ທຸກໆ 2 ມື້, ທຸກໆ 3 ມື້",
-  "specificWeekdaysDescription": "ແບບດັ່ງນີ້ແມ່ນຄຳອະທິບາຍກ່ຽວກັບຄວາມບໍ່ວ່າງຕໍາຫນ່ວຍປະຈຸບັນໃນວັນທີນິຍົກກັບນູ່ຂອງ ແຕ່ລາຍບັດສາຕົວຕໍ່ເລືອກໃນວັນທີນິຍົກຫ່າງປະຈຸບັນ.",
+  "specificWeekdaysDescription": "ຕົວຢ່າງ: ສະເພາະວັນຈັນ ຫຼື ວັນພຸດ ແລະ ວັນສຸກ",
   "medicineFormValidationError": "ກະລຸນາເຂົ້າໃສ່ຊື່ແລະແຜນການໃຊ້ບໍລິສະດອນ.",
   "quantity": "ຄວາມໃຫຍ່",
   "quantityExample": "ແບບຢ່າງ: 1 ຊີດ, 100mg",

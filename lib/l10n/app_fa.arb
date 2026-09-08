@@ -39,7 +39,7 @@
   "cycle": "چرخه",
   "cycleDescription": "مثال) مصرف دارو به مدت ۲۱ روز / ۷ روز وقفه",
   "everyXDaysDescription": "مثلاً: هر ۲ روز، هر ۳ روز",
-  "specificWeekdaysDescription": "مثال) فقط دوشنبه، چهارشنبه و جمعه",
+  "specificWeekdaysDescription": "مثلاً فقط دوشنبه‌ها، یا چهارشنبه‌ها و جمعه‌ها",
   "medicineFormValidationError": "لطفاً نام و برنامه مصرف دارو را وارد کنید.",
   "quantity": "حجم",
   "quantityExample": "مثال: 1 عدد، 100 میلی‌گرم",

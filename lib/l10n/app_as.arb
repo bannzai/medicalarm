@@ -39,7 +39,7 @@
   "cycle": "চক্ৰ",
   "cycleDescription": "উদাহৰণ) ২১ দিন ঔষধ সেৱন / ৭ দিন বিৰতি",
   "everyXDaysDescription": "উদাহৰণ: প্ৰতি ২ দিনৰ মূৰে মূৰে, প্ৰতি ৩ দিনৰ মূৰে মূৰে",
-  "specificWeekdaysDescription": "নমুনা) শুধুমাত্র সোমবার, বুধবার এবং শুক্রবার",
+  "specificWeekdaysDescription": "যেনে, কেৱল সোমবাৰ, বুধবাৰ আৰু শুক্ৰবাৰ",
   "medicineFormValidationError": "নাম আৰু ওষুধ গ্ৰহণৰ তালিৰ নিবন্ধন কৰক",
   "quantity": "আকার",
   "quantityExample": "উদাহরণ: ১টি, ১০০মিগ্রা",

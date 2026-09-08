@@ -39,7 +39,7 @@
   "cycle": "Ciklus",
   "cycleDescription": "Npr.) Uzimati lijek 21 dan / napraviti pauzu od 7 dana",
   "everyXDaysDescription": "Npr.: svaka 2 dana, svaka 3 dana",
-  "specificWeekdaysDescription": "Primjer) Samo ponedjeljkom, srijedom i petkom",
+  "specificWeekdaysDescription": "Npr. samo ponedjeljkom, srijedom i petkom",
   "medicineFormValidationError": "Unesite ime i raspored uzimanja lijekova",
   "quantity": "Kapacitet",
   "quantityExample": "Primjer: 1 tableta, 100mg",

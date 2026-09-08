@@ -39,7 +39,7 @@
   "cycle": "Cylch",
   "cycleDescription": "e.e.) Cymryd y feddyginiaeth am 21 diwrnod / cymryd seibiant am 7 diwrnod",
   "everyXDaysDescription": "Er enghraifft: bob 2 ddiwrnod, bob 3 diwrnod",
-  "specificWeekdaysDescription": "er enghraifft) Dim ond ddydd Llun, Dydd Mercher a Dydd Gwener",
+  "specificWeekdaysDescription": "e.e. Ddydd Llun yn unig, neu Ddydd Mercher a Dydd Gwener",
   "medicineFormValidationError": "Rhowch eich enw a'ch amserlen gymryd meddyginiaeth",
   "quantity": "capasiti",
   "quantityExample": "enghraifft: 1 tabled, 100mg",

@@ -39,7 +39,7 @@
   "cycle": "Sikl",
   "cycleDescription": "Masalan) Dorini 21 kun qabul qilish / 7 kun tanaffus qilish",
   "everyXDaysDescription": "Masalan: har 2 kunda, har 3 kunda",
-  "specificWeekdaysDescription": "Dushanbadagi faqat, Chorshanba va Juma kunlari",
+  "specificWeekdaysDescription": "Masalan, faqat dushanba kunlari yoki chorshanba va juma kunlari",
   "medicineFormValidationError": "Iltimos, ism va dori qabul qilish jadvalini kiriting",
   "quantity": "Hajm",
   "quantityExample": "masala: 1 tablet, 100mg",

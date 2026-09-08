@@ -39,7 +39,7 @@
   "cycle": "Ciclo",
   "cycleDescription": "Es.) Assumere il farmaco per 21 giorni / fare una pausa di 7 giorni",
   "everyXDaysDescription": "Es.: ogni 2 giorni, ogni 3 giorni",
-  "specificWeekdaysDescription": "Esempio) Solo lunedì, Mercoledì e Venerdì",
+  "specificWeekdaysDescription": "Es.: solo il lunedì, oppure il mercoledì e il venerdì",
   "medicineFormValidationError": "Inserisci il nome e il programma di assunzione",
   "quantity": "Dose",
   "quantityExample": "es. 1 compressa, 100mg",

@@ -39,7 +39,7 @@
   "cycle": "Siklus",
   "cycleDescription": "Contoh) Minum obat selama 21 hari / jeda selama 7 hari",
   "everyXDaysDescription": "Contoh: setiap 2 hari, setiap 3 hari",
-  "specificWeekdaysDescription": "contoh) hanya hari Senin, Rabu dan Jumat",
+  "specificWeekdaysDescription": "Contoh: hanya hari Senin, atau Rabu dan Jumat",
   "medicineFormValidationError": "Silakan masukkan nama dan jadwal konsumsi obat",
   "quantity": "Kapasitas",
   "quantityExample": "Contoh: 1 tablet, 100mg",

@@ -39,7 +39,7 @@
   "cycle": "Цикл",
   "cycleDescription": "Напр.) Принимать лекарство 21 день / сделать перерыв на 7 дней",
   "everyXDaysDescription": "Например: каждые 2 дня, каждые 3 дня",
-  "specificWeekdaysDescription": "Например) Только понедельник, среда и пятница",
+  "specificWeekdaysDescription": "Напр.: только по понедельникам или по средам и пятницам",
   "medicineFormValidationError": "Пожалуйста, введите имя и расписание приема лекарств",
   "quantity": "Объем",
   "quantityExample": "пример: 1 таблетка, 100мг",

@@ -39,7 +39,7 @@
   "cycle": "Цикл",
   "cycleDescription": "Жишээ) 21 хоног эм уух / 7 хоног завсарлах",
   "everyXDaysDescription": "Жишээ: 2 хоног тутам, 3 хоног тутам",
-  "specificWeekdaysDescription": "Жишээ) Понеделник, Лхагва, Баас",
+  "specificWeekdaysDescription": "Жишээ нь: зөвхөн даваа гарагт, эсвэл лхагва, баасан гарагт",
   "medicineFormValidationError": "Нэр болон эмийн хэрэглээгийн хуваарийг оруулаарай",
   "quantity": "Багтаамж",
   "quantityExample": "жишээ: 1 шахмал, 100 мг",

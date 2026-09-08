@@ -39,7 +39,7 @@
   "cycle": "Cikls",
   "cycleDescription": "Piem.) Lietot zāles 21 dienu / 7 dienu pārtraukums",
   "everyXDaysDescription": "Piem.: ik pēc 2 dienām, ik pēc 3 dienām",
-  "specificWeekdaysDescription": "Piemēram) tikai pirmdienās, trešdienās un piektdienās",
+  "specificWeekdaysDescription": "Piem., tikai pirmdienās vai trešdienās un piektdienās",
   "medicineFormValidationError": "Lūdzu, ievadiet vārdu un zāļu lietošanas grafiku.",
   "quantity": "Iespēja",
   "quantityExample": "Piemērs: 1 tablete, 100 mg",

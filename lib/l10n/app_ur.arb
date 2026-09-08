@@ -39,7 +39,7 @@
   "cycle": "چکر",
   "cycleDescription": "مثال) 21 دن دوا لینا / 7 دن کا وقفہ",
   "everyXDaysDescription": "مثال: ہر 2 دن بعد، ہر 3 دن بعد",
-  "specificWeekdaysDescription": "مثال) صرف پیر, بدھ اور جمعہ",
+  "specificWeekdaysDescription": "مثلاً، صرف پیر کو، یا بدھ اور جمعہ کو",
   "medicineFormValidationError": "براہ کرم اپنا نام اور دوائی کا شیڈول داخل کریں",
   "quantity": "حجم",
   "quantityExample": "مثال: 1 گولی، 100 ملی گرام",

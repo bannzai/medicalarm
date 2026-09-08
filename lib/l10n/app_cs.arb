@@ -39,7 +39,7 @@
   "cycle": "Cyklus",
   "cycleDescription": "Např.) Užívat lék 21 dní / 7 dní vynechat",
   "everyXDaysDescription": "Např.: každé 2 dny, každé 3 dny",
-  "specificWeekdaysDescription": "například) pouze v pondělí, ve středu a v pátek",
+  "specificWeekdaysDescription": "Např. pouze v pondělí, ve středu a v pátek",
   "medicineFormValidationError": "Zadejte své jméno a plán užívání léků",
   "quantity": "Objem",
   "quantityExample": "například: 1 tableta, 100 mg",
