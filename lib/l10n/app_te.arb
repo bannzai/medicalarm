@@ -69,7 +69,7 @@
   "enableFollowupNotification": "ఫాలో-అప్ నోటిఫికేషన్‌లను ప్రారంభించండి",
   "followupNotificationDescription": "మొదటి నోటిఫికేషన్ వచ్చిన 30 నిమిషాల్లోపు మందు తీసుకున్నట్లు నమోదు చేయకపోతే, తదుపరి నోటిఫికేషన్ పంపబడుతుంది.",
   "enableNotificationInSilentMode": "సైలెంట్ మోడ్‌లో కూడా నోటిఫికేషన్ పంపండి",
-  "silentModeNotificationDescription": "కేంద్రిత మోడ్ ON అయి ఉండగా లేదా పరికరం మిన్నలో ఉన్నప్పుడు కూడా, ప్రముఖ సమాచారాలు లాక్ స్క్రీన్ పై ప్రదర్శించబడతాయి, శబ్దం ప్రసారం చేయబడుతుంది.",
+  "silentModeNotificationDescription": "ఫోకస్ మోడ్ ఆన్‌లో ఉన్నా లేదా పరికరం సైలెంట్‌లో ఉన్నా, కీలక హెచ్చరికలు లాక్ స్క్రీన్‌పై కనిపిస్తాయి మరియు శబ్దం వినిపిస్తుంది.",
   "everyXDaysFormat": "{count}రోజుల క్రమంలో",
   "cycleDaysFormat": "{consecutiveDays} రోజులు మందు తాగే/{restDays} రోజులు మందు విరమించు",
   "consecutiveDaysFormat": "{count} రోజుల మోతాదు",

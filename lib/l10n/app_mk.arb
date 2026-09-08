@@ -69,7 +69,7 @@
   "enableFollowupNotification": "Овозможи дополнителни известувања",
   "followupNotificationDescription": "Ако не го евидентирате земањето на лекот во рок од 30 минути по првото известување, ќе биде испратено дополнително известување.",
   "enableNotificationInSilentMode": "Испраќај известувања и во тивок режим",
-  "silentModeNotificationDescription": "Сериозни известувања ќе бидат прикажани на заклучениот екран и ќе се репродуцира звук, дури и ако е вклучен режимот на концентрирање или уредот е без звук.",
+  "silentModeNotificationDescription": "Дури и кога режимот „Фокус“ е вклучен или уредот е ставен на тивко, критичните известувања се прикажуваат на заклучениот екран и се репродуцира звук.",
   "everyXDaysFormat": "{count} дена",
   "cycleDaysFormat": "{consecutiveDays} дена меба/ {restDays} дена одмор",
   "consecutiveDaysFormat": "{count} дена за земање",

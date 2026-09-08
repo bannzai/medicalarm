@@ -69,7 +69,7 @@
   "enableFollowupNotification": "Iespējot turpmākos paziņojumus",
   "followupNotificationDescription": "Ja 30 minūšu laikā pēc pirmā paziņojuma nereģistrēsiet zāļu lietošanu, tiks nosūtīts atkārtots paziņojums.",
   "enableNotificationInSilentMode": "Rādīt paziņojumus arī klusuma režīmā",
-  "silentModeNotificationDescription": "Patiesi nozīmīgas ziņojumi tiks parādīti uz bloķēšanas ekrāna un atskaņoti krītoša skaņa, pat ja koncentrēšanās režīms ir ieslēgts vai ierīce ir izslēgta.",
+  "silentModeNotificationDescription": "Pat ja fokusa režīms ir ieslēgts vai ierīce ir klusuma režīmā, kritiskie paziņojumi tiek rādīti bloķēšanas ekrānā un tiek atskaņota skaņa.",
   "everyXDaysFormat": "{count} dienu intervāls",
   "cycleDaysFormat": "{consecutiveDays} dienas lietošanas / {restDays} dienas pārtraukuma",
   "consecutiveDaysFormat": "{count} dienas lietošana",

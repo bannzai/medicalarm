@@ -69,7 +69,7 @@
   "enableFollowupNotification": "បើកការជូនដំណឹងតាមដាន",
   "followupNotificationDescription": "ប្រសិនបើអ្នកមិនកត់ត្រាការលេបថ្នាំក្នុងរយៈពេល 30 នាទីបន្ទាប់ពីការជូនដំណឹងដំបូងទេ នឹងមានការផ្ញើការជូនដំណឹងតាមដាន។",
   "enableNotificationInSilentMode": "ជូនដំណឹងសូម្បីតែនៅក្នុងរបៀបស្ងាត់",
-  "silentModeNotificationDescription": "ពេលដែលម៉ូដកែប្រែបានបើក ឬ កាន់ទូរស័ព្ទបានដាក់ទាស់ទេគ្របតទៅនេះ ប្រតិកម្មសំខាន់ៗនឹងត្រូវបង្ហាញនៅលើអេក្រង់តាំងពិព័រណ៍ជាមួយអូសវិទ្យាឆ្នាស់។",
+  "silentModeNotificationDescription": "ទោះបីជាមុខងារ Focus បើក ឬឧបករណ៍បិទសំឡេងក៏ដោយ ការជូនដំណឹងសំខាន់ៗនឹងបង្ហាញលើអេក្រង់ចាក់សោ ហើយមានសំឡេងចាក់។",
   "everyXDaysFormat": "{count}ថ្ងៃម្តង",
   "cycleDaysFormat": "{consecutiveDays}ថ្ងៃចូលរបៀប/{restDays}ថ្ងៃសម្រាក",
   "consecutiveDaysFormat": "{count} ថ្ងៃសំរាប់ការប្រើចំរៀង",

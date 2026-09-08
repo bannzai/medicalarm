@@ -69,7 +69,7 @@
   "enableFollowupNotification": "Ota seurantailmoitukset käyttöön",
   "followupNotificationDescription": "Jos et kirjaa lääkkeen ottamista 30 minuutin kuluessa ensimmäisestä ilmoituksesta, saat seurantailmoituksen.",
   "enableNotificationInSilentMode": "Ilmoita myös äänettömässä tilassa",
-  "silentModeNotificationDescription": "Vaikka keskittymismoodi on päällä tai laite on äänettömällä, tärkeät ilmoitukset näkyvät lukitusnäytöllä ja ääni toistetaan.",
+  "silentModeNotificationDescription": "Vaikka Keskity-tila olisi käytössä tai laite äänettömällä, kriittiset ilmoitukset näkyvät lukitusnäytössä ja toistavat äänen.",
   "everyXDaysFormat": "{count} päivän välein",
   "cycleDaysFormat": "{consecutiveDays} päivän käyttö/{restDays} päivän tauko",
   "consecutiveDaysFormat": "{count} päivää otettu",

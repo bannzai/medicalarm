@@ -69,7 +69,7 @@
   "enableFollowupNotification": "Увімкнути подальші сповіщення",
   "followupNotificationDescription": "Якщо ви не зафіксуєте прийом ліків протягом 30 хвилин після першого сповіщення, буде надіслано повторне сповіщення.",
   "enableNotificationInSilentMode": "Сповіщати навіть у беззвучному режимі",
-  "silentModeNotificationDescription": "Important notifications will be displayed on the lock screen and a sound will be played even when Focus Mode is ON or the device is on silent.",
+  "silentModeNotificationDescription": "Навіть коли режим «Фокусування» увімкнено або пристрій переведено в беззвучний режим, критичні сповіщення відображаються на екрані блокування та відтворюється звук.",
   "everyXDaysFormat": "every {count} days",
   "cycleDaysFormat": "{consecutiveDays} days taken/{restDays} days off",
   "consecutiveDaysFormat": "{count} days of medication",

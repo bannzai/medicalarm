@@ -69,7 +69,7 @@
   "enableFollowupNotification": "Gaitu jarraipen-jakinarazpenak",
   "followupNotificationDescription": "Lehen jakinarazpenetik 30 minutura botika hartu duzula erregistratzen ez baduzu, jarraipen-jakinarazpen bat bidaliko da.",
   "enableNotificationInSilentMode": "Jakinarazi isilik moduan ere",
-  "silentModeNotificationDescription": "Kontzentrazio modua ON badago edo gailua isilik badago ere, jakinarazpen garrantzitsuak itxita dauden pantailan agertuko dira soinuarekin batera.",
+  "silentModeNotificationDescription": "Foku modua aktibatuta dagoenean edo gailua isilik dagoenean ere, alerta kritikoak blokeo-pantailan agertzen dira eta soinua erreproduzitzen da.",
   "everyXDaysFormat": "{count} egunero",
   "cycleDaysFormat": "{consecutiveDays} egun hartzen/{restDays} egun eten",
   "consecutiveDaysFormat": "{count} egun hartu",

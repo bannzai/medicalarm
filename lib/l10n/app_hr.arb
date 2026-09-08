@@ -69,7 +69,7 @@
   "enableFollowupNotification": "Omogući naknadne obavijesti",
   "followupNotificationDescription": "Ako u roku od 30 minuta od prve obavijesti ne zabilježite uzimanje lijeka, bit će poslana naknadna obavijest.",
   "enableNotificationInSilentMode": "Obavještavaj i u tihom načinu rada",
-  "silentModeNotificationDescription": "Obavijesti o važnim obavijestima će se prikazivati na zaključanom ekranu i zvuk će se reproducirati, čak i kada je način koncentracije uključen ili kada je uređaj na tiho.",
+  "silentModeNotificationDescription": "Čak i kada je Način rada Fokus uključen ili je uređaj utišan, kritične se obavijesti prikazuju na zaključanom zaslonu i reproducira se zvuk.",
   "everyXDaysFormat": "{count} dan",
   "cycleDaysFormat": "{consecutiveDays} dana uzimanja/{restDays} dana pauze",
   "consecutiveDaysFormat": "{count} dana uzimanja",

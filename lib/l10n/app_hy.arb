@@ -69,7 +69,7 @@
   "enableFollowupNotification": "Միացնել հետևողական ծանուցումները",
   "followupNotificationDescription": "Եթե առաջին ծանուցումից հետո 30 րոպեի ընթացքում չգրանցեք դեղի ընդունումը, կուղարկվի հաջորդող ծանուցում։",
   "enableNotificationInSilentMode": "Ծանուցել նաև լուռ ռեժիմում",
-  "silentModeNotificationDescription": "Երբ կենտրոնացման ռեժիմը ակտիվ է, կամ սարքն անջատման (մենակ) ռեժիմում է, կարևոր ծանուցումները ամբողջ էկրանին (տրամկապի մեջ) ցուցադրվելու են՝ իրականացնելով ձայներ",
+  "silentModeNotificationDescription": "Նույնիսկ երբ «Կենտրոնացում» ռեժիմը միացված է կամ սարքը լուռ է, կարևոր ծանուցումները ցուցադրվում են կողպէկրանին, և ձայն է հնչում։",
   "everyXDaysFormat": "{count} օրն մեկ",
   "cycleDaysFormat": "{consecutiveDays} օր գումարած/{restDays} օր դեղը չընդունելու",
   "consecutiveDaysFormat": "{count} օր դեղամիջոցների",

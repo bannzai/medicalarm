@@ -69,7 +69,7 @@
   "enableFollowupNotification": "Дараагийн мэдэгдлийг идэвхжүүлэх",
   "followupNotificationDescription": "Эхний мэдэгдлээс хойш 30 минутын дотор эм ууснаа бүртгэхгүй бол дараагийн мэдэгдэл илгээгдэнэ.",
   "enableNotificationInSilentMode": "Чимээгүй горимд ч мэдэгдэл илгээх",
-  "silentModeNotificationDescription": "Анхаарлын горим включэгдсэн эсвэл төхөөрөмж дуу чимээгүй үед ч, чухал мэдэгдлүүд нь дээд талын дэлгэцэнд гарч, дуугаар тоглох болно.",
+  "silentModeNotificationDescription": "Фокус горим АСААЛТТАЙ эсвэл төхөөрөмж дуугүй байсан ч чухал мэдэгдэл түгжээтэй дэлгэц дээр харагдаж, дуу гарна.",
   "everyXDaysFormat": "{count} өдөр тутам",
   "cycleDaysFormat": "{consecutiveDays} хоног хэрэглэж/{restDays} хоног амар",
   "consecutiveDaysFormat": "{count} хоног",

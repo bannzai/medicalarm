@@ -69,7 +69,7 @@
   "enableFollowupNotification": "Aktiveer opvolgkennisgewings",
   "followupNotificationDescription": "As jy nie binne 30 minute ná die eerste kennisgewing jou medikasie aanteken nie, word ’n opvolgkennisgewing gestuur.",
   "enableNotificationInSilentMode": "Kennisgewings ook in stilmodus stuur",
-  "silentModeNotificationDescription": "Belangrike kennisgewings sal op die vergrendelingskerm vertoon word, en klank sal gespeel word, selfs wanneer die fokusmodus aan is of wanneer die toestel op stil is.",
+  "silentModeNotificationDescription": "Selfs wanneer Fokusmodus AAN is of die toestel stil is, word kritieke kennisgewings op die sluitskerm vertoon en word ’n klank gespeel.",
   "everyXDaysFormat": "{count} dae",
   "cycleDaysFormat": "{consecutiveDays} dae geneem/{restDays} dae rus",
   "consecutiveDaysFormat": "{count} dae ingeneem",

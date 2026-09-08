@@ -69,7 +69,7 @@
   "enableFollowupNotification": "फ़ॉलो-अप सूचनाएँ सक्षम करें",
   "followupNotificationDescription": "पहली सूचना के 30 मिनट के भीतर दवा लेने का रिकॉर्ड दर्ज नहीं करने पर, फ़ॉलो-अप सूचना भेजी जाएगी।",
   "enableNotificationInSilentMode": "साइलेंट मोड में भी सूचित करें",
-  "silentModeNotificationDescription": "महत्वपूर्ण सूचनाएँ ध्यान मोड चालू होने पर या उपकरण का साउंड बंद होने पर भी लॉक स्क्रीन पर प्रदर्शित होती हैं, और ध्वनि चलती है।",
+  "silentModeNotificationDescription": "फ़ोकस मोड चालू होने या डिवाइस के साइलेंट होने पर भी, गंभीर अलर्ट लॉक स्क्रीन पर दिखाई देते हैं और ध्वनि बजती है।",
   "everyXDaysFormat": "{count} दिन पर",
   "cycleDaysFormat": "{consecutiveDays} दिन सेवन/{restDays} दिन विश्राम",
   "consecutiveDaysFormat": "{count} दिन दवा",

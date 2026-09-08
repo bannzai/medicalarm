@@ -69,7 +69,7 @@
   "enableFollowupNotification": "הפעלת התראות המשך",
   "followupNotificationDescription": "אם לא תתעדו את נטילת התרופה בתוך 30 דקות מההתראה הראשונה, תישלח התראת המשך.",
   "enableNotificationInSilentMode": "שליחת התראות גם במצב שקט",
-  "silentModeNotificationDescription": "במצב ריכוז שהוא דולק או כאשר המכשיר במצב שקט, התראות חשובות מוצגות על מסך הנעילה ומושמעות צלילים.",
+  "silentModeNotificationDescription": "גם כאשר מצב ריכוז מופעל או שהמכשיר על שקט, התראות קריטיות מוצגות במסך הנעילה ומושמע צליל.",
   "everyXDaysFormat": "{count} ימים",
   "cycleDaysFormat": "{consecutiveDays} ימי נטילה/{restDays} ימי הפסקה",
   "consecutiveDaysFormat": "{count} ימי נטילה",

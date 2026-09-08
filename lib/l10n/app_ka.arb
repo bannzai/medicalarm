@@ -69,7 +69,7 @@
   "enableFollowupNotification": "შემდგომი შეტყობინებების ჩართვა",
   "followupNotificationDescription": "თუ პირველი შეტყობინებიდან 30 წუთის განმავლობაში არ დააფიქსირებთ წამლის მიღებას, გაიგზავნება დამატებითი შეტყობინება.",
   "enableNotificationInSilentMode": "შეტყობინებების გაგზავნა უხმო რეჟიმშიც",
-  "silentModeNotificationDescription": "კონცენტრაციის რეჟიმი ჩართული ყოფნისას ან მოწყობილობამ ხმამაღლა მიღებას, კრიტიკული შეტყობინებები ლოქ ინტერეფეისზე გამოჩნდება, ხოლო ზარები დაიწერება.",
+  "silentModeNotificationDescription": "მაშინაც კი, როცა ფოკუსის რეჟიმი ჩართულია ან მოწყობილობა დადუმებულია, კრიტიკული შეტყობინებები გამოჩნდება დაბლოკვის ეკრანზე და ხმა ჩაირთვება.",
   "everyXDaysFormat": "{count} დღის საფუძველზე",
   "cycleDaysFormat": "{consecutiveDays} დღის მიღება/{restDays} დღის შესვენება",
   "consecutiveDaysFormat": "{count} დღის აღების",

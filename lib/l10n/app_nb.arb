@@ -69,7 +69,7 @@
   "enableFollowupNotification": "Aktiver oppfølgingsvarsler",
   "followupNotificationDescription": "Hvis du ikke registrerer at du har tatt medisinen innen 30 minutter etter det første varselet, sendes et oppfølgingsvarsel.",
   "enableNotificationInSilentMode": "Varsle også i stillemodus",
-  "silentModeNotificationDescription": "Selv når konsentrasjonsmodus er på eller enheten er på lydløs, vil viktige varsler vises på låseskjermen, og lyden vil avspilles.",
+  "silentModeNotificationDescription": "Selv når Fokus er på eller enheten er satt på lydløs, vises kritiske varsler på låst skjerm, og en lyd spilles av.",
   "everyXDaysFormat": "{count} dager",
   "cycleDaysFormat": "{consecutiveDays} dagers medisin/{restDays} dager pause",
   "consecutiveDaysFormat": "{count} dager tatt",
