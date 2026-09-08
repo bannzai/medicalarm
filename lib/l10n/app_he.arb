@@ -9,7 +9,7 @@
   "medicineList": "רשימת תרופות",
   "medicationSchedule": "לוח זמנים לנטילת תרופות",
   "medicationTime": "הפעלת התראות בזמן נטילת התרופה",
-  "medicationTimeDescription": "ישלחו התראות על סמך זמני הנטילה",
+  "medicationTimeDescription": "שליחת התראות בהתאם למועד נטילת התרופה",
   "close": "סגור",
   "settings": "הגדרות",
   "camera": "מצלמה",

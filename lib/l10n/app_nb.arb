@@ -9,7 +9,7 @@
   "medicineList": "Medisinliste",
   "medicationSchedule": "Medisineringsplan",
   "medicationTime": "Aktiver varsler når det er tid for å ta medisinen",
-  "medicationTimeDescription": "Vi sender varsler basert på tidspunktet for inntak.",
+  "medicationTimeDescription": "Send varsler basert på medisineringstidspunktet",
   "close": "Lukk",
   "settings": "Innstillinger",
   "camera": "Kamera",

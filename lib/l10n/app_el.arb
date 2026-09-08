@@ -9,7 +9,7 @@
   "medicineList": "Λίστα φαρμάκων",
   "medicationSchedule": "Πρόγραμμα λήψης φαρμάκων",
   "medicationTime": "Ενεργοποίηση ειδοποιήσεων την ώρα λήψης του φαρμάκου",
-  "medicationTimeDescription": "Θα στείλει ειδοποίηση με βάση την ώρα χορήγησης.",
+  "medicationTimeDescription": "Αποστολή ειδοποιήσεων με βάση την ώρα λήψης του φαρμάκου",
   "close": "Κλείσιμο",
   "settings": "Ρυθμίσεις",
   "camera": "Κάμερα",

@@ -9,7 +9,7 @@
   "medicineList": "Gyógyszerlista",
   "medicationSchedule": "Gyógyszerszedési ütemezés",
   "medicationTime": "Értesítések engedélyezése a gyógyszer bevételének idejére",
-  "medicationTimeDescription": "Értesítést küld az adagolási időpontnak megfelelően.",
+  "medicationTimeDescription": "Értesítések küldése a gyógyszer bevételének időpontja alapján",
   "close": "Bezárás",
   "settings": "Beállítások",
   "camera": "Kamera",
