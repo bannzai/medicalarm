@@ -66,7 +66,7 @@
   "addMedicationSchedule": "Bæta við lyfjatökuáætlun",
   "medicationScheduleNotificationSetting": "Stillingar fyrir tilkynningar um lyfjaáætlun",
   "notificationSetting": "Tilkynningastillingar",
-  "enableFollowupNotification": "Virkja eftirfylgnitilkynningar",
+  "enableFollowupNotification": "Virkja eftirfylgnistilkynningar",
   "followupNotificationDescription": "Ef þú skráir ekki lyfjatökuna innan 30 mínútna frá fyrstu tilkynningu verður send eftirfylgnitilkynning.",
   "enableNotificationInSilentMode": "Senda tilkynningar í hljóðlausri stillingu",
   "silentModeNotificationDescription": "Jafnvel þegar kveikt er á Fókusstillingu eða slökkt á hljóði tækisins birtast mikilvægar tilkynningar á læsiskjánum og hljóð er spilað.",

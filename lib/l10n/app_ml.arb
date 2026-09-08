@@ -66,7 +66,7 @@
   "addMedicationSchedule": "മരുന്ന് കഴിക്കുന്ന സമയക്രമം ചേർക്കുക",
   "medicationScheduleNotificationSetting": "മരുന്ന് കഴിക്കുന്ന സമയക്രമ അറിയിപ്പ് ക്രമീകരണങ്ങൾ",
   "notificationSetting": "അറിയിപ്പ് ക്രമീകരണങ്ങൾ",
-  "enableFollowupNotification": "തുടർ അറിയിപ്പുകൾ പ്രവർത്തനക്ഷമമാക്കുക",
+  "enableFollowupNotification": "ഫോളോ-അപ്പ് അറിയിപ്പുകൾ പ്രവർത്തനക്ഷമമാക്കുക",
   "followupNotificationDescription": "ആദ്യ അറിയിപ്പിന് ശേഷം 30 മിനിറ്റിനുള്ളിൽ മരുന്ന് കഴിച്ചതായി രേഖപ്പെടുത്തിയില്ലെങ്കിൽ, തുടർ അറിയിപ്പ് അയയ്ക്കും.",
   "enableNotificationInSilentMode": "സൈലന്റ് മോഡിലും അറിയിപ്പുകൾ അയയ്ക്കുക",
   "silentModeNotificationDescription": "ഫോക്കസ് മോഡ് ഓണായിരിക്കുമ്പോഴോ ഉപകരണം നിശ്ശബ്ദമായിരിക്കുമ്പോഴോ പോലും, നിർണായക അലേർട്ടുകൾ ലോക്ക് സ്ക്രീനിൽ കാണിക്കുകയും ശബ്ദം പ്ലേ ചെയ്യുകയും ചെയ്യും.",

@@ -66,7 +66,7 @@
   "addMedicationSchedule": "Додај распоред за земање лекови",
   "medicationScheduleNotificationSetting": "Поставки за известувања за распоредот на земање лекови",
   "notificationSetting": "Поставки за известувања",
-  "enableFollowupNotification": "Овозможи дополнителни известувања",
+  "enableFollowupNotification": "Овозможи последователни известувања",
   "followupNotificationDescription": "Ако не го евидентирате земањето на лекот во рок од 30 минути по првото известување, ќе биде испратено дополнително известување.",
   "enableNotificationInSilentMode": "Испраќај известувања и во тивок режим",
   "silentModeNotificationDescription": "Дури и кога режимот „Фокус“ е вклучен или уредот е ставен на тивко, критичните известувања се прикажуваат на заклучениот екран и се репродуцира звук.",

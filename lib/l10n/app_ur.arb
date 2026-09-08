@@ -66,7 +66,7 @@
   "addMedicationSchedule": "ادویات لینے کا شیڈول شامل کریں",
   "medicationScheduleNotificationSetting": "ادویات لینے کے شیڈول کی اطلاعات کی ترتیبات",
   "notificationSetting": "اطلاعات کی ترتیبات",
-  "enableFollowupNotification": "فالو اَپ اطلاعات فعال کریں",
+  "enableFollowupNotification": "فالو اَپ اطلاعات کو فعال کریں",
   "followupNotificationDescription": "اگر آپ پہلی اطلاع کے 30 منٹ کے اندر دوا لینے کا اندراج نہیں کرتے تو فالو اَپ اطلاع بھیجی جائے گی۔",
   "enableNotificationInSilentMode": "خاموش موڈ میں بھی اطلاع دیں",
   "silentModeNotificationDescription": "فوکس موڈ آن ہونے یا ڈیوائس کے سائلنٹ ہونے کے باوجود، اہم الرٹس لاک اسکرین پر دکھائے جاتے ہیں اور آواز چلتی ہے۔",
