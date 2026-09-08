@@ -232,7 +232,7 @@
   "doseIntervalNotificationWarning": "⚠️ Az előző adag óta még nem telt el {minimumDoseIntervalHours} óra",
   "ossLicense": "OSS-licencek",
   "achievementWeeklyLabel": "E heti gyógyszerek",
-  "achievementWeeklyCountSuffix": "/{scheduledCount} alkalom",
+  "achievementWeeklyCountSuffix": "/{scheduledCount} alkalommal",
   "achievementStreakLabel": "Sorozat",
   "achievementStreakDaysSuffix": "nap",
   "achievementMonthlyRateLabel": "{month} teljesítési aránya",

@@ -232,7 +232,7 @@
   "doseIntervalNotificationWarning": "⚠️ Od zadnjega odmerka ni minilo {minimumDoseIntervalHours} ur",
   "ossLicense": "Licence OSS",
   "achievementWeeklyLabel": "Zdravila tega tedna",
-  "achievementWeeklyCountSuffix": "/{scheduledCount}-krat",
+  "achievementWeeklyCountSuffix": "/{scheduledCount}krat",
   "achievementStreakLabel": "Niz",
   "achievementStreakDaysSuffix": "dni",
   "achievementMonthlyRateLabel": "Stopnja izpolnitve za {month}",
