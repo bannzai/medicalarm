@@ -26,4 +26,5 @@ appId: com.bannzai.medicalarm
     timeout: 15000
 - assertVisible: "08:00"
 - assertVisible: "19:00"
+- takeScreenshot: tmp/onboarding-followup-registration
 - tapOn: "あとで"

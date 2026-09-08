@@ -18,6 +18,9 @@ appId: com.bannzai.medicalarm
     direction: DOWN
 # 仮カードの登録ボタンは常駐の追加ボタンとは識別子で区別する。
 - tapOn:
+    text: "Dismiss"
+    optional: true
+- tapOn:
     id: "onboarding_placeholder_add_onboarding-8"
 - assertVisible: "08:00"
 - assertVisible: "19:00"
@@ -25,6 +28,9 @@ appId: com.bannzai.medicalarm
 - tapOn:
     point: "7%,8%"
 - assertVisible: "お薬が未登録です"
+- tapOn:
+    text: "Dismiss"
+    optional: true
 - tapOn:
     id: "onboarding_placeholder_add_onboarding-8"
 - tapOn: "薬の名前"
@@ -34,14 +40,14 @@ appId: com.bannzai.medicalarm
 - extendedWaitUntil:
     notVisible: "お薬が未登録です"
     timeout: 15000
-- assertVisible: "Onboarding QA"
+- assertVisible: "(?s).*Onboarding QA.*"
 - takeScreenshot: tmp/onboarding-followup-registered
-- tapOn: "設定"
+- tapOn: "(?s)設定.*"
 - scrollUntilVisible:
     element:
       text: "Local Notifications"
     direction: DOWN
 - tapOn: "Local Notifications"
-- assertNotVisible: "900000001"
-- assertNotVisible: "900000002"
+- assertNotVisible: "(?s).*900000001.*"
+- assertNotVisible: "(?s).*900000002.*"
 - takeScreenshot: tmp/onboarding-followup-notifications-cleared

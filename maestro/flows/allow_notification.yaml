@@ -12,7 +12,7 @@ appId: com.bannzai.medicalarm
     clearState: false
 # 初回起動の Firebase 初期化中は白画面になるため、操作可能な画面が出てから分岐する。
 - extendedWaitUntil:
-    visible: "はじめる|設定|許可|今はしない|アプリにトラッキングしないように要求|Dismiss"
+    visible: "(?s)(はじめる|設定.*|許可|今はしない|アプリにトラッキングしないように要求|Dismiss)"
     timeout: 240000
 - repeat:
     times: 6
