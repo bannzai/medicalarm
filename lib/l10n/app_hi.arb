@@ -40,7 +40,7 @@
   "cycleDescription": "उदा.) 21 दिनों तक दवा लें / 7 दिनों का विराम",
   "everyXDaysDescription": "उदाहरण: हर 2 दिन में, हर 3 दिन में",
   "specificWeekdaysDescription": "उदाहरण: केवल सोमवार, या बुधवार और शुक्रवार",
-  "medicineFormValidationError": "कृपया नाम और सेवन कार्यक्रम दर्ज करें",
+  "medicineFormValidationError": "कृपया नाम और दवा लेने का समय-सारणी दर्ज करें",
   "quantity": "क्षमता",
   "quantityExample": "उदाहरण: 1 गोली, 100mg",
   "medicationStartDate": "चिकित्सा सेवन की शुरुआत की तारीख",

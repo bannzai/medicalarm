@@ -40,7 +40,7 @@
   "cycleDescription": "P.sh.) Merrni ilaçin për 21 ditë / bëni 7 ditë pushim",
   "everyXDaysDescription": "P.sh.: çdo 2 ditë, çdo 3 ditë",
   "specificWeekdaysDescription": "P.sh. vetëm të hënave, ose të mërkurave dhe të premteve",
-  "medicineFormValidationError": "Ju lutem, shkruani emrin dhe orarin e marrjes së ilaçeve",
+  "medicineFormValidationError": "Futni emrin dhe orarin e marrjes",
   "quantity": "Kapaciteti",
   "quantityExample": "Shembuj: 1 tabletë, 100mg",
   "medicationStartDate": "Data e fillimit të marrjes",

@@ -40,7 +40,7 @@
   "cycleDescription": "Pl.) A gyógyszer szedése 21 napig / 7 nap szünet",
   "everyXDaysDescription": "Pl.: 2 naponta, 3 naponta",
   "specificWeekdaysDescription": "Pl. csak hétfőn, illetve szerdán és pénteken",
-  "medicineFormValidationError": "Kérjük, adja meg a nevét és a gyógyszer szedési ütemezését.",
+  "medicineFormValidationError": "Adja meg a nevet és a szedési ütemezést",
   "quantity": "Kapacitás",
   "quantityExample": "Példa: 1 tabletta, 100mg",
   "medicationStartDate": "Kezdési dátum",

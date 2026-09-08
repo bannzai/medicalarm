@@ -40,7 +40,7 @@
   "cycleDescription": "例）服药21天 / 停药7天",
   "everyXDaysDescription": "例如：每2天、每3天",
   "specificWeekdaysDescription": "例如：仅周一，或周三和周五",
-  "medicineFormValidationError": "请输入名称和服用计划",
+  "medicineFormValidationError": "请输入名称和服用时间表",
   "quantity": "容量",
   "quantityExample": "例: 1片，100毫克",
   "medicationStartDate": "服用开始日期",

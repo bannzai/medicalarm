@@ -40,7 +40,7 @@
   "cycleDescription": "z. B.) 21 Tage einnehmen / 7 Tage Pause",
   "everyXDaysDescription": "Z. B.: alle 2 Tage, alle 3 Tage",
   "specificWeekdaysDescription": "Z. B. nur montags, mittwochs und freitags",
-  "medicineFormValidationError": "Bitte geben Sie den Namen und den Einnahmezeitplan ein.",
+  "medicineFormValidationError": "Geben Sie den Namen und den Einnahmeplan ein",
   "quantity": "Menge",
   "quantityExample": "z.B.: 1 Tablette, 100mg",
   "medicationStartDate": "Einnahmebeginn",

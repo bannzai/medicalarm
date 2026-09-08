@@ -40,7 +40,7 @@
   "cycleDescription": "Напр.) приймати ліки 21 день / зробити перерву на 7 днів",
   "everyXDaysDescription": "Наприклад: кожні 2 дні, кожні 3 дні",
   "specificWeekdaysDescription": "Напр.: лише в понеділок або в середу та п’ятницю",
-  "medicineFormValidationError": "Please enter the name and dosage schedule.",
+  "medicineFormValidationError": "Введіть назву та розклад прийому",
   "quantity": "Dosage",
   "quantityExample": "e.g., 1 tablet, 100mg",
   "medicationStartDate": "Start Date",

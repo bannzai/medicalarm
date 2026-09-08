@@ -40,7 +40,7 @@
   "cycleDescription": "לדוגמה) ליטול את התרופה במשך 21 ימים / להפסיק למשך 7 ימים",
   "everyXDaysDescription": "לדוגמה: כל יומיים, כל 3 ימים",
   "specificWeekdaysDescription": "לדוגמה: רק בימי שני, או בימי רביעי ושישי",
-  "medicineFormValidationError": "אנא הזן את השם ולוח הזמנים של התרופה",
+  "medicineFormValidationError": "יש להזין את השם ואת לוח הזמנים לנטילה",
   "quantity": "קיבולת",
   "quantityExample": "דוגמה: 1 כדור, 100 מ\"ג",
   "medicationStartDate": "תאריך התחלת טיפול",

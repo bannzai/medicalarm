@@ -40,7 +40,7 @@
   "cycleDescription": "ምሳሌ) መድኃኒቱን ለ21 ቀናት መውሰድ / ለ7 ቀናት ማቆም",
   "everyXDaysDescription": "ለምሳሌ፦ በየ2 ቀኑ፣ በየ3 ቀኑ",
   "specificWeekdaysDescription": "ለምሳሌ፣ ሰኞ ብቻ፣ ረቡዕ እና ዓርብ",
-  "medicineFormValidationError": "እባክዎ እባክዎ የሚጠቀሙትን ስም እና የማስታወቂያ ጊዜዎችን ያስገቡ",
+  "medicineFormValidationError": "እባክዎ ስም እና የመውሰጃ መርሃ ግብር ያስገቡ",
   "quantity": "መጠን",
   "quantityExample": "ምሳሌ: 1 ዱቄት, 100mg",
   "medicationStartDate": "መውጣት መነሻ ቀን",

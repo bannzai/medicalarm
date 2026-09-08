@@ -40,7 +40,7 @@
   "cycleDescription": "Ex.) Luați medicamentul timp de 21 de zile / faceți o pauză de 7 zile",
   "everyXDaysDescription": "Ex.: la fiecare 2 zile, la fiecare 3 zile",
   "specificWeekdaysDescription": "De ex., doar lunea sau miercurea și vinerea",
-  "medicineFormValidationError": "Vă rugăm să introduceți numele și programul de administrare a medicamentelor.",
+  "medicineFormValidationError": "Introduceți numele și programul de administrare",
   "quantity": "Cantitate",
   "quantityExample": "ex: 1 tablet, 100mg",
   "medicationStartDate": "Data de început a administrării",

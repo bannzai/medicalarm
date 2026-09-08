@@ -40,7 +40,7 @@
   "cycleDescription": "VD) Uống thuốc trong 21 ngày / nghỉ 7 ngày",
   "everyXDaysDescription": "Ví dụ: mỗi 2 ngày, mỗi 3 ngày",
   "specificWeekdaysDescription": "Ví dụ: chỉ vào thứ Hai, hoặc thứ Tư và thứ Sáu",
-  "medicineFormValidationError": "Vui lòng nhập tên và lịch trình dùng thuốc",
+  "medicineFormValidationError": "Vui lòng nhập tên và lịch uống thuốc",
   "quantity": "Dung tích",
   "quantityExample": "Ví dụ: 1 viên, 100mg",
   "medicationStartDate": "Ngày bắt đầu sử dụng",

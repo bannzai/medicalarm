@@ -40,7 +40,7 @@
   "cycleDescription": "Bijv.) 21 dagen medicatie innemen / 7 dagen pauze",
   "everyXDaysDescription": "Bijv.: elke 2 dagen, elke 3 dagen",
   "specificWeekdaysDescription": "Bijv. alleen op maandag, of op woensdag en vrijdag",
-  "medicineFormValidationError": "Voer uw naam en medicatieschema in",
+  "medicineFormValidationError": "Voer de naam en het innameschema in",
   "quantity": "Aantal",
   "quantityExample": "Bijv: 1 tablet, 100 mg",
   "medicationStartDate": "Startdatum van medicatie",

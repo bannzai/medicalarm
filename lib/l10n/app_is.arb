@@ -40,7 +40,7 @@
   "cycleDescription": "Dæmi) Taka lyfið í 21 dag / 7 daga hlé",
   "everyXDaysDescription": "Dæmi: á 2 daga fresti, á 3 daga fresti",
   "specificWeekdaysDescription": "T.d. aðeins á mánudögum, eða á miðvikudögum og föstudögum",
-  "medicineFormValidationError": "Vinsamlegast sláðu inn nafn og skammtatíma.",
+  "medicineFormValidationError": "Sláðu inn heiti og lyfjatökuáætlun",
   "quantity": "skammtur",
   "quantityExample": "Dæmi: 1 tafla, 100 mg",
   "medicationStartDate": "Upphafsdagur lyfjameðferðar",

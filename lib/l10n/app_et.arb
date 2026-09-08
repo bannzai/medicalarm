@@ -40,7 +40,7 @@
   "cycleDescription": "Nt) Võtta ravimit 21 päeva / teha 7 päeva paus",
   "everyXDaysDescription": "Nt: iga 2 päeva järel, iga 3 päeva järel",
   "specificWeekdaysDescription": "Nt ainult esmaspäeviti või kolmapäeviti ja reedeti",
-  "medicineFormValidationError": "Palun sisestage nimi ja raviskeem",
+  "medicineFormValidationError": "Sisestage nimi ja võtmise ajakava",
   "quantity": "Maht",
   "quantityExample": "Näide: 1 tablett, 100 mg",
   "medicationStartDate": "Ravimi alguspäev",

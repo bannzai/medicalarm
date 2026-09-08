@@ -40,7 +40,7 @@
   "cycleDescription": "เช่น) รับประทานยา 21 วัน / หยุดยา 7 วัน",
   "everyXDaysDescription": "เช่น: ทุก 2 วัน, ทุก 3 วัน",
   "specificWeekdaysDescription": "เช่น เฉพาะวันจันทร์ หรือวันพุธและวันศุกร์",
-  "medicineFormValidationError": "กรุณากรอกชื่อและกำหนดตารางการใช้ยา",
+  "medicineFormValidationError": "กรุณากรอกชื่อและตารางการรับประทานยา",
   "quantity": "ปริมาณ",
   "quantityExample": "ตัวอย่าง: 1 เม็ด, 100 มก.",
   "medicationStartDate": "วันที่เริ่มการใช้",

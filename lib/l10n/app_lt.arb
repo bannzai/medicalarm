@@ -40,7 +40,7 @@
   "cycleDescription": "Pvz.) Vartoti vaistus 21 dieną / daryti 7 dienų pertrauką",
   "everyXDaysDescription": "Pvz.: kas 2 dienas, kas 3 dienas",
   "specificWeekdaysDescription": "Pvz., tik pirmadieniais arba trečiadieniais ir penktadieniais",
-  "medicineFormValidationError": "Įveskite vardą ir vartojimo tvarkaraštį",
+  "medicineFormValidationError": "Įveskite pavadinimą ir vartojimo tvarkaraštį",
   "quantity": "Talpa",
   "quantityExample": "pavyzdys: 1 tabletė, 100mg",
   "medicationStartDate": "Pradžios data",

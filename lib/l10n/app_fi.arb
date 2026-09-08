@@ -40,7 +40,7 @@
   "cycleDescription": "Esim.) Lääkettä 21 päivän ajan / 7 päivän tauko",
   "everyXDaysDescription": "Esim.: 2 päivän välein, 3 päivän välein",
   "specificWeekdaysDescription": "Esim. vain maanantaisin tai keskiviikkoisin ja perjantaisin",
-  "medicineFormValidationError": "Anna nimesi ja lääkkeesi aikataulu.",
+  "medicineFormValidationError": "Anna nimi ja annosteluaikataulu",
   "quantity": "Kapasiteetti",
   "quantityExample": "Esim: 1 tabletti, 100mg",
   "medicationStartDate": "Aloituspäivä",

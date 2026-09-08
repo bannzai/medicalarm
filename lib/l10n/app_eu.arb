@@ -40,7 +40,7 @@
   "cycleDescription": "Adib.) Hartu sendaga 21 egunez / egin 7 eguneko atsedenaldia",
   "everyXDaysDescription": "Adib.: 2 egunetik behin, 3 egunetik behin",
   "specificWeekdaysDescription": "Adib.: astelehenetan bakarrik, edo asteazken eta ostiraletan",
-  "medicineFormValidationError": "Sartu izena eta botika hartzeko ordutegia",
+  "medicineFormValidationError": "Sartu izena eta hartzeko ordutegia",
   "quantity": "Hartutera",
   "quantityExample": "adibide: 1 pilula, 100mg",
   "medicationStartDate": "Hartzearen hasierako data",
