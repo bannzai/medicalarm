@@ -117,7 +117,7 @@
   "purchaseErrorReceiptInUse": "አስቀድመው ተገዝቷል፣ ወይም የግዢ መረጃው በሌላ ተጠቃሚ እየተጠቀመበት ነው። {accountName}ን ያረጋግጡ።",
   "purchaseErrorInvalidReceipt": "የግዢ መረጃው ልክ አይደለም። እባክዎ የግዢ መረጃዎን ያረጋግጡ።",
   "purchaseErrorMissingReceipt": "የገዢው መረጃ የለም። እባክዎ በመሣሪያው ላይ በ{accountName} ይግቡና እንደገና ይሞክሩ።",
-  "purchaseErrorNetwork": "የአውታረ መረብ ሁኔታ ያልተረጋጋ ነው። እባክዎ ግንኙነቱን ያረጋግጡና እንደገና ይሞክሩ።",
+  "purchaseErrorNetwork": "የኔትወርክ ግንኙነቱ ያልተረጋጋ ነው። እባክዎ የግንኙነት ሁኔታዎን ያረጋግጡና እንደገና ይሞክሩ።",
   "purchaseNotAllowed": "በዚህ መሣሪያ ላይ ግዢ አይፈቀድም",
   "purchaseErrorInvalidCredentials": "ግዢው አልተሳካም። እባክዎ ቆይተው እንደገና ይሞክሩ። ችግሩ ከቀጠለ፣ ቅንብሮች > ያግኙን በመሄድ ያግኙን። ዝርዝሮች፦ {message}",
   "purchaseErrorUnexpectedBackend": "ግዢውን አሁን ማጠናቀቅ አይቻልም። እባክዎ ከጥቂት ጊዜ በኋላ ደግመው ይሞክሩ። ችግሩ ካልተፈታ፣ ከቅንብሮች > አግኙን በኩል ያግኙን። ዝርዝሮች፦ {message}",

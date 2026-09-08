@@ -117,7 +117,7 @@
   "purchaseErrorReceiptInUse": "Al gekocht of de aankoopgegevens worden door een andere gebruiker gebruikt. Controleer {accountName}.",
   "purchaseErrorInvalidReceipt": "Ongeldige aankoopgegevens. Controleer je aankoopgegevens.",
   "purchaseErrorMissingReceipt": "Er is geen informatie over de koper. Log in op het apparaat met {accountName} en probeer het opnieuw.",
-  "purchaseErrorNetwork": "De netwerkverbinding is instabiel. Controleer de verbinding en probeer het opnieuw.",
+  "purchaseErrorNetwork": "De netwerkverbinding is instabiel. Controleer je verbinding en probeer het opnieuw.",
   "purchaseNotAllowed": "Aankopen zijn niet toegestaan op dit apparaat",
   "purchaseErrorInvalidCredentials": "Aankoop mislukt. Probeer het later opnieuw. Als het probleem aanhoudt, neem dan contact met ons op via Instellingen > Contact opnemen. Details: {message}",
   "purchaseErrorUnexpectedBackend": "De aankoop kan momenteel niet worden voltooid. Probeer het later opnieuw. Neem contact met ons op via Instellingen > Contact als het probleem aanhoudt. Details: {message}",

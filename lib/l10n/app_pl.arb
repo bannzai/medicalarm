@@ -117,7 +117,7 @@
   "purchaseErrorReceiptInUse": "Już zakupiono lub informacje o zakupie są używane przez innego użytkownika. Sprawdź {accountName}.",
   "purchaseErrorInvalidReceipt": "Nieprawidłowe informacje o zakupie. Sprawdź informacje o zakupie.",
   "purchaseErrorMissingReceipt": "Brak informacji o nabywcy. Zaloguj się na urządzeniu za pomocą konta {accountName} i spróbuj ponownie.",
-  "purchaseErrorNetwork": "Połączenie sieciowe jest niestabilne. Sprawdź połączenie i spróbuj ponownie.",
+  "purchaseErrorNetwork": "Połączenie z siecią jest niestabilne. Sprawdź połączenie i spróbuj ponownie.",
   "purchaseNotAllowed": "Zakupy nie są dozwolone na tym urządzeniu",
   "purchaseErrorInvalidCredentials": "Nie udało się dokonać zakupu. Spróbuj ponownie później. Jeśli problem będzie się powtarzał, skontaktuj się z nami w sekcji Ustawienia > Skontaktuj się z nami. Szczegóły: {message}",
   "purchaseErrorUnexpectedBackend": "Nie można teraz dokończyć zakupu. Spróbuj ponownie później. Jeśli problem będzie się powtarzał, skontaktuj się z nami przez Ustawienia > Kontakt. Szczegóły: {message}",

@@ -117,7 +117,7 @@
   "purchaseErrorReceiptInUse": "Já foi comprado ou as informações da compra estão sendo usadas por outro usuário. Verifique {accountName}.",
   "purchaseErrorInvalidReceipt": "As informações da compra são inválidas. Verifique as informações da compra.",
   "purchaseErrorMissingReceipt": "As informações do comprador não estão disponíveis. Inicie sessão no dispositivo com {accountName} e tente novamente.",
-  "purchaseErrorNetwork": "A ligação de rede está instável. Verifique a ligação e tente novamente.",
+  "purchaseErrorNetwork": "A ligação à rede está instável. Verifique a ligação e tente novamente.",
   "purchaseNotAllowed": "As compras não são permitidas neste dispositivo",
   "purchaseErrorInvalidCredentials": "A compra falhou. Tente novamente mais tarde. Se o problema persistir, entre em contacto connosco em Definições > Contacte-nos. Detalhes: {message}",
   "purchaseErrorUnexpectedBackend": "Não é possível concluir a compra neste momento. Tente novamente mais tarde. Se o problema persistir, contacte-nos em Definições > Contacto. Detalhes: {message}",

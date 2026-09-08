@@ -117,7 +117,7 @@
   "purchaseErrorReceiptInUse": "Bereits kauft oder d’Kaufinformatione werde vo mene andere Benutzer verwendet. Prüef {accountName}.",
   "purchaseErrorInvalidReceipt": "D’Kaufinformatione sind ungültig. Bitte überprüef dini Kaufinformatione.",
   "purchaseErrorMissingReceipt": "Es sind kei Käuferdate vorhanden. Mälde di uf em Gerät mit {accountName} aa und versuechs nomol.",
-  "purchaseErrorNetwork": "D Netzverbindig isch instabil. Prüefed Sie d Verbindig und versueched Sie es nomol.",
+  "purchaseErrorNetwork": "D Netzverbindig isch instabil. Prüefed Si Ihri Verbindig und versueched Si es nomol.",
   "purchaseNotAllowed": "Chäuf sind uf däm Gerät nöd erlaubt",
   "purchaseErrorInvalidCredentials": "De Chauf isch fehlgschlage. Bitte probiered Si es spöter nomal. Wenn s Problem wiiterbesteit, melded Si sich über Iistellige > Kontakt zu eus. Details: {message}",
   "purchaseErrorUnexpectedBackend": "De Chauf cha im Momänt nöd abgschlosse werde. Bitte probiers spöter nomal. Wenn s Problem wiiterbesteit, kontaktier eus über Iistellige > Kontakt. Details: {message}",

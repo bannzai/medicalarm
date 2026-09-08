@@ -117,7 +117,7 @@
   "purchaseErrorReceiptInUse": "Tayari imenunuliwa, au maelezo ya ununuzi yanatumiwa na mtumiaji mwingine. Angalia {accountName}.",
   "purchaseErrorInvalidReceipt": "Maelezo ya ununuzi si sahihi. Tafadhali thibitisha maelezo ya ununuzi wako.",
   "purchaseErrorMissingReceipt": "Maelezo ya mnunuzi hayapo. Ingia kwenye kifaa kwa kutumia {accountName}, kisha ujaribu tena.",
-  "purchaseErrorNetwork": "Hali ya mtandao si thabiti. Angalia muunganisho wako kisha ujaribu tena.",
+  "purchaseErrorNetwork": "Muunganisho wa mtandao si thabiti. Angalia muunganisho wako kisha ujaribu tena.",
   "purchaseNotAllowed": "Ununuzi hauruhusiwi kwenye kifaa hiki",
   "purchaseErrorInvalidCredentials": "Ununuzi umeshindikana. Tafadhali jaribu tena baadaye. Tatizo likiendelea, wasiliana nasi kupitia Mipangilio > Wasiliana nasi. Maelezo: {message}",
   "purchaseErrorUnexpectedBackend": "Ununuzi hauwezi kukamilishwa kwa sasa. Tafadhali jaribu tena baadaye. Tatizo likiendelea, wasiliana nasi kupitia Mipangilio > Wasiliana nasi. Maelezo: {message}",
