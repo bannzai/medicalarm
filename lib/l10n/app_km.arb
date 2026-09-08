@@ -44,7 +44,7 @@
   "quantity": "បរិមាណ",
   "quantityExample": "ឧទាហរណ៍៖ ថ្នាំគ្រាប់ 1 គ្រាប់, 100 ម.ក្រ.",
   "medicationStartDate": "កាលបរិច្ឆេទចាប់ផ្តើមប្រើថ្នាំ",
-  "otherInformation": "ផ្សេងទៀត",
+  "otherInformation": "ផ្សេងៗ",
   "doseReceiver": "អ្នកប្រើថ្នាំ",
   "defaultDoseReceiver": "ខ្លួនខ្ញុំ",
   "doseReceiverMaxCount": "អ្នកអាចចុះឈ្មោះអ្នកប្រើថ្នាំបានរហូតដល់ {count} នាក់",

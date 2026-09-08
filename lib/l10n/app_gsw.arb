@@ -44,7 +44,7 @@
   "quantity": "Menge",
   "quantityExample": "Bispiel: 1 Tablette, 100 mg",
   "medicationStartDate": "Startdatum vo de Medikamenteneinnahm",
-  "otherInformation": "Weitere",
+  "otherInformation": "Sunschtigs",
   "doseReceiver": "Medikamentenutzer",
   "defaultDoseReceiver": "Ich",
   "doseReceiverMaxCount": "Sie chönd bis zu {count} Persone registriere, wo Medikament nähmed",

@@ -44,7 +44,7 @@
   "quantity": "መጠን",
   "quantityExample": "ምሳሌ፦ 1 ጽላት፣ 100 ሚ.ግ.",
   "medicationStartDate": "የመድኃኒት መጀመሪያ ቀን",
-  "otherInformation": "ሌላ",
+  "otherInformation": "ሌሎች",
   "doseReceiver": "መድኃኒት ተጠቃሚ",
   "defaultDoseReceiver": "ራሴ",
   "doseReceiverMaxCount": "እስከ {count} መድኃኒት ተጠቃሚዎችን መመዝገብ ይችላሉ",
