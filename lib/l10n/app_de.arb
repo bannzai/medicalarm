@@ -205,7 +205,7 @@
   "memberFallbackName": "Mitglied",
   "yourDisplayName": "Dein Anzeigename",
   "displayNameInputHint": "Anzeigenamen eingeben",
-  "ownerLabel": "Eigentümer",
+  "ownerLabel": "Besitzer",
   "youLabel": "Du",
   "removeMemberConfirmTitle": "Möchten Sie das Mitglied entfernen?",
   "removeMemberConfirmMessage": "{name} aus der Gruppe entfernen",
