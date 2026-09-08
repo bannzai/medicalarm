@@ -171,7 +171,7 @@
   "confirmOpenAppStore": "Ar norite atidaryti App Store ir parašyti atsiliepimą?",
   "premiumFeaturesList": "Aukščiausios klasės funkcijų sąrašas",
   "currentlyInPremiumTrial": "Šiuo metu naudojate „Premium“ bandomąją versiją",
-  "medicationPause": "Įjungti vaistą",
+  "medicationPause": "Įjungti vaistų vartojimą",
   "medicationPauseDescription": "Išjungus, vaistas bus pašalintas iš vaistų ekrano ir pranešimų.",
   "medicinePausedSnackbar": "Vaistų vartojimas laikinai pristabdytas",
   "medicationHistoryDeletedSnackbar": "Vaistų vartojimo įrašas atšauktas",
