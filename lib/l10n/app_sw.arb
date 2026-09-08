@@ -45,7 +45,7 @@
   "quantityExample": "Mfano: tembe 1, 100 mg",
   "medicationStartDate": "Tarehe ya kuanza kutumia",
   "otherInformation": "Nyingine",
-  "doseReceiver": "Mgonjwa",
+  "doseReceiver": "Mtumiaji wa dawa",
   "defaultDoseReceiver": "mimi",
   "doseReceiverMaxCount": "Waweza kujiandikisha hadi watu {count} katika matumizi ya dawa.",
   "increaseLimitWithPremium": "Pandua ya Premium inaongeza kikomo hadi {count}",

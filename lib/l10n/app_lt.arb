@@ -45,7 +45,7 @@
   "quantityExample": "Pavyzdys: 1 tabletė, 100 mg",
   "medicationStartDate": "Vartojimo pradžios data",
   "otherInformation": "Kita",
-  "doseReceiver": "Vartotojas",
+  "doseReceiver": "Vaistų vartotojas",
   "defaultDoseReceiver": "Aš",
   "doseReceiverMaxCount": "Registruojamas iki {count} vartotojų",
   "increaseLimitWithPremium": "Papildomame premium plano riba iki {count}",

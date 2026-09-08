@@ -45,7 +45,7 @@
   "quantityExample": "Byvoorbeeld: 1 tablet, 100 mg",
   "medicationStartDate": "Begindatum van inname",
   "otherInformation": "Ander",
-  "doseReceiver": "Medikant",
+  "doseReceiver": "Medikasieneemer",
   "defaultDoseReceiver": "myself",
   "doseReceiverMaxCount": "Diegene wat medikasie neem kan tot {count} persone geregistreer word.",
   "increaseLimitWithPremium": "Verhoog die limiet tot {count} met die premiumplan.",

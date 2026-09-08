@@ -45,7 +45,7 @@
   "quantityExample": "ઉદાહરણ: 1 ટેબ્લેટ, 100 મિલિગ્રામ",
   "medicationStartDate": "દવા લેવાનું શરૂ કરવાની તારીખ",
   "otherInformation": "અન્ય",
-  "doseReceiver": "લેબલમાંથી દવા લેતા વ્યકિત",
+  "doseReceiver": "દવા લેનાર",
   "defaultDoseReceiver": "હું",
   "doseReceiverMaxCount": "એક વખતમાં મહત્તમ {count} દવાની વાપરનારાઓનો નોંધણી કરી શકાય છે",
   "increaseLimitWithPremium": "પ્રીમિયમ યોજના સાથે મર્યાદા વધારીને {count} બનાવો",

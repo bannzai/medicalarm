@@ -45,7 +45,7 @@
   "quantityExample": "Contoh: 1 tablet, 100 mg",
   "medicationStartDate": "Tanggal mulai minum",
   "otherInformation": "Lainnya",
-  "doseReceiver": "Pemberi obat",
+  "doseReceiver": "Orang yang minum obat",
   "defaultDoseReceiver": "Diri sendiri",
   "doseReceiverMaxCount": "Pengguna dapat mendaftar hingga {count} orang.",
   "increaseLimitWithPremium": "Tingkatkan batas menjadi {count} dengan rencana premium",

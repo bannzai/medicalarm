@@ -45,7 +45,7 @@
   "quantityExample": "Жишээ: 1 шахмал, 100 мг",
   "medicationStartDate": "Ууж эхлэх огноо",
   "otherInformation": "Бусад",
-  "doseReceiver": "Эмчилэгч",
+  "doseReceiver": "Эм ууж буй хүн",
   "defaultDoseReceiver": "Би",
   "doseReceiverMaxCount": "Эмнэлгийн эмийг хэрэглэгчдийн тоо {count}-аас ихгүй байж болно",
   "increaseLimitWithPremium": "Танилцуулж буй Premium төлөвлөгөөнд хязгаарыг {count} болгоно.",

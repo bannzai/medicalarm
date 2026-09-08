@@ -45,7 +45,7 @@
   "quantityExample": "Пример: 1 таблетка, 100 mg",
   "medicationStartDate": "Начална дата на прием",
   "otherInformation": "Друго",
-  "doseReceiver": "Пациент",
+  "doseReceiver": "Приемащ лекарството",
   "defaultDoseReceiver": "Аз се",
   "doseReceiverMaxCount": "Можете да регистрирате до {count} лица за прием на лекарства.",
   "increaseLimitWithPremium": "Увеличаване на лимита до {count} с премиум плана",

@@ -45,7 +45,7 @@
   "quantityExample": "Example: 1 tablet, 100 mg",
   "medicationStartDate": "Medication start date",
   "otherInformation": "Other",
-  "doseReceiver": "Medication User",
+  "doseReceiver": "Medication taker",
   "defaultDoseReceiver": "User",
   "doseReceiverMaxCount": "A maximum of {count} users can be registered.",
   "increaseLimitWithPremium": "Increase the limit to {count} with the premium plan.",

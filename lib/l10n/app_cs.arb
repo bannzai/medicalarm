@@ -45,7 +45,7 @@
   "quantityExample": "Příklad: 1 tableta, 100 mg",
   "medicationStartDate": "Datum zahájení užívání",
   "otherInformation": "Ostatní",
-  "doseReceiver": "Uživatel léků",
+  "doseReceiver": "Uživatel léku",
   "defaultDoseReceiver": "Já",
   "doseReceiverMaxCount": "Uživatelé mohou být registrováni až {count} osob.",
   "increaseLimitWithPremium": "Zvýšení limitu na {count} s prémiovým plánem",

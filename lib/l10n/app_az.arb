@@ -45,7 +45,7 @@
   "quantityExample": "Məsələn: 1 tablet, 100 mq",
   "medicationStartDate": "Qəbulun başlanğıc tarixi",
   "otherInformation": "Digər",
-  "doseReceiver": "İstifadəçi",
+  "doseReceiver": "Dərman qəbul edən şəxs",
   "defaultDoseReceiver": "öz",
   "doseReceiverMaxCount": "İstifadəçilər maksimum {count} nəfər qeyd edə bilərlər.",
   "increaseLimitWithPremium": "Premium plan ilə məhdudiyyəti {count}-ə artırmaq",

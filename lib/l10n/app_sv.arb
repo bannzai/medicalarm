@@ -45,7 +45,7 @@
   "quantityExample": "Exempel: 1 tablett, 100 mg",
   "medicationStartDate": "Startdatum för intag",
   "otherInformation": "Övrigt",
-  "doseReceiver": "Användare",
+  "doseReceiver": "Medicinanvändare",
   "defaultDoseReceiver": "Mig själv",
   "doseReceiverMaxCount": "Användare kan registrera upp till {count} personer.",
   "increaseLimitWithPremium": "Öka gränsen till {count} med premiumplanen",

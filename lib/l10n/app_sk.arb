@@ -45,7 +45,7 @@
   "quantityExample": "Príklad: 1 tableta, 100 mg",
   "medicationStartDate": "Dátum začatia užívania",
   "otherInformation": "Ďalšie",
-  "doseReceiver": "Osoba užívajúca lieky",
+  "doseReceiver": "Užívateľ lieku",
   "defaultDoseReceiver": "ja",
   "doseReceiverMaxCount": "Maximálne {count} používateľov môže byť registrovaných",
   "increaseLimitWithPremium": "Zvýšte limit na {count} s prémiovým plánom",

@@ -45,7 +45,7 @@
   "quantityExample": "Мысалы: 1 таблетка, 100 мг",
   "medicationStartDate": "Қабылдауды бастау күні",
   "otherInformation": "Басқа",
-  "doseReceiver": "Дәрілік заттарды қолданушы",
+  "doseReceiver": "Дәрі қабылдаушы",
   "defaultDoseReceiver": "Өзім",
   "doseReceiverMaxCount": "Науқастарды тіркеуге максимум {count} адам қабылданады.",
   "increaseLimitWithPremium": "Премиум жоспармен шекті {count} дейін ұлғайтыңыз",

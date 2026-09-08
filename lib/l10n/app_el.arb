@@ -45,7 +45,7 @@
   "quantityExample": "Παράδειγμα: 1 δισκίο, 100 mg",
   "medicationStartDate": "Ημερομηνία έναρξης λήψης",
   "otherInformation": "Άλλο",
-  "doseReceiver": "Χρήστης φαρμάκου",
+  "doseReceiver": "Λήπτης φαρμάκου",
   "defaultDoseReceiver": "Εγώ",
   "doseReceiverMaxCount": "Μπορούν να εγγραφούν έως {count} άτομα.",
   "increaseLimitWithPremium": "Αυξήστε το όριο σε {count} με το πρόγραμμα Premium.",

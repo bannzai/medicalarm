@@ -45,7 +45,7 @@
   "quantityExample": "উদাহৰণ: ১টা টেবলেট, ১০০ মি.গ্ৰা.",
   "medicationStartDate": "সেৱন আৰম্ভ কৰাৰ তাৰিখ",
   "otherInformation": "অন্যান্য",
-  "doseReceiver": "ঔষধ গ্রহণকারী",
+  "doseReceiver": "ঔষধ গ্ৰহণকাৰী",
   "defaultDoseReceiver": "নিজেকে",
   "doseReceiverMaxCount": "ঔষধ গ্রহণকারী সর্বাধিক {count} জন পর্যন্ত নিবন্ধিত হতে পারে।",
   "increaseLimitWithPremium": "প्रीमিয়াম প্ল্যানে সীমা {count} পর্যন্ত বাড়ান",

@@ -45,7 +45,7 @@
   "quantityExample": "ตัวอย่าง: 1 เม็ด, 100 มก.",
   "medicationStartDate": "วันที่เริ่มรับประทาน",
   "otherInformation": "อื่นๆ",
-  "doseReceiver": "ผู้ใช้ยา",
+  "doseReceiver": "ผู้รับประทานยา",
   "defaultDoseReceiver": "ตัวเอง",
   "doseReceiverMaxCount": "ผู้ใช้สามารถลงทะเบียนได้สูงสุด {count} คน",
   "increaseLimitWithPremium": "เพิ่มขีดจำกัดเป็น {count} ในแผนพรีเมียม",

@@ -45,7 +45,7 @@
   "quantityExample": "Ejemplo: 1 comprimido, 100 mg",
   "medicationStartDate": "Fecha de inicio de la toma",
   "otherInformation": "Otros",
-  "doseReceiver": "Usuario",
+  "doseReceiver": "Persona que toma el medicamento",
   "defaultDoseReceiver": "Yo",
   "doseReceiverMaxCount": "Se pueden registrar hasta {count} tomadores de medicamentos.",
   "increaseLimitWithPremium": "Aumentar el límite a {count} con el plan premium",

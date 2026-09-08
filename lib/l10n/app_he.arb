@@ -45,7 +45,7 @@
   "quantityExample": "לדוגמה: טבליה אחת, 100 מ״ג",
   "medicationStartDate": "תאריך תחילת נטילת התרופה",
   "otherInformation": "אחר",
-  "doseReceiver": "נוטל תרופות",
+  "doseReceiver": "נוטל התרופה",
   "defaultDoseReceiver": "אני",
   "doseReceiverMaxCount": "ניתן לרשום עד {count} נוטלים.",
   "increaseLimitWithPremium": "העלה את הגבול ל-{count} בתוכנית פרימיום",

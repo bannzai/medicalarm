@@ -45,7 +45,7 @@
   "quantityExample": "उदाहरण: 1 गोळी, 100 मिग्रॅ",
   "medicationStartDate": "सेवन सुरू करण्याची तारीख",
   "otherInformation": "इतर",
-  "doseReceiver": "औषधि घेणारा",
+  "doseReceiver": "औषध घेणारी व्यक्ती",
   "defaultDoseReceiver": "मी",
   "doseReceiverMaxCount": "औषधि घेणाऱ्यांची नोंदणी करण्यात जास्तीत जास्त {count} व्यक्ती करता येऊ शकतात.",
   "increaseLimitWithPremium": "प्रीमियम योजनामध्ये मर्यादा {count} पर्यंत वाढवा",

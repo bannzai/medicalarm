@@ -45,7 +45,7 @@
   "quantityExample": "Primjer: 1 tableta, 100 mg",
   "medicationStartDate": "Datum početka uzimanja",
   "otherInformation": "Ostalo",
-  "doseReceiver": "Osoba koja uzima lijekove",
+  "doseReceiver": "Osoba koja uzima lijek",
   "defaultDoseReceiver": "ja",
   "doseReceiverMaxCount": "Možete registrovati do {count} korisnika.",
   "increaseLimitWithPremium": "Povećajte limit na {count} s premium planom",

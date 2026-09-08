@@ -45,7 +45,7 @@
   "quantityExample": "ଉଦାହରଣ: ୧ଟି ଟାବଲେଟ୍, ୧୦୦ ମି.ଗ୍ରା.",
   "medicationStartDate": "ସେବନ ଆରମ୍ଭ ତାରିଖ",
   "otherInformation": "ଅନ୍ୟାନ୍ୟ",
-  "doseReceiver": "ঔষধ সেবনকারী",
+  "doseReceiver": "ଔଷଧ ସେବନକାରୀ",
   "defaultDoseReceiver": "निजी",
   "doseReceiverMaxCount": "最大{count}人の服用者を登録できます",
   "increaseLimitWithPremium": "プレミアムプランで上限を{count}に増やす",

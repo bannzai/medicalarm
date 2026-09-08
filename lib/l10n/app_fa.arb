@@ -45,7 +45,7 @@
   "quantityExample": "مثال: ۱ قرص، ۱۰۰ میلی‌گرم",
   "medicationStartDate": "تاریخ شروع مصرف",
   "otherInformation": "سایر",
-  "doseReceiver": "مصرف کننده",
+  "doseReceiver": "مصرف‌کننده دارو",
   "defaultDoseReceiver": "خود",
   "doseReceiverMaxCount": "تعداد مصرف کنندگان می تواند تا {count} نفر ثبت نام شود.",
   "increaseLimitWithPremium": "با طرح پریمیوم ، حداکثر را به {count} افزایش دهید.",

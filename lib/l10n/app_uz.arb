@@ -45,7 +45,7 @@
   "quantityExample": "Masalan: 1 tabletka, 100 mg",
   "medicationStartDate": "Qabul qilishni boshlash sanasi",
   "otherInformation": "Boshqa",
-  "doseReceiver": "Qabul qiluvchi",
+  "doseReceiver": "Dori qabul qiluvchi",
   "defaultDoseReceiver": "O'zim",
   "doseReceiverMaxCount": "Doriqchilar soni eng ko'p {count} kishiga ro'yxatdan o'tkazilishi mumkin.",
   "increaseLimitWithPremium": "Premium reja bilan cheklovni {count} ga oshirish",

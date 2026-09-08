@@ -45,7 +45,7 @@
   "quantityExample": "مثال: قرص واحد، 100 ملغ",
   "medicationStartDate": "تاريخ بدء تناول الدواء",
   "otherInformation": "أخرى",
-  "doseReceiver": "المستخدم",
+  "doseReceiver": "متناول الدواء",
   "defaultDoseReceiver": "أنا",
   "doseReceiverMaxCount": "يمكن تسجيل ما يصل إلى {count} من المستخدمين",
   "increaseLimitWithPremium": "قم بزيادة الحد الأقصى إلى {count} مع خطة البريميوم",

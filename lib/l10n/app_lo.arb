@@ -45,7 +45,7 @@
   "quantityExample": "ຕົວຢ່າງ: 1 ເມັດ, 100 ມກ.",
   "medicationStartDate": "ວັນທີ່ເລີ່ມໃຊ້ຢາ",
   "otherInformation": "ອື່ນໆ",
-  "doseReceiver": "ຄວາມສົນທະນາ",
+  "doseReceiver": "ຜູ້ກິນຢາ",
   "defaultDoseReceiver": "ຕົນเอง",
   "doseReceiverMaxCount": "ສະມາດສາມາດລົງຄະແນນສົກສະດຸດສານໃນລະບົບສົກສະນິຄັນສາເພື່ອບລົບ ໃຈ{count} ຄົນໃນເກດີເວທິໄວດ່ມສວຜູປັບຈະໃທ",
   "increaseLimitWithPremium": "ເພີ່ມຂອບເຂດໃນແຜນພໍ່ແບບພໍ່ເພີ່ມຂະແໜນແບບຍຸ່ງແລະສູງໃຫ້ເພີ່ມເຂດຈິງສູງເປັນ {count}.",

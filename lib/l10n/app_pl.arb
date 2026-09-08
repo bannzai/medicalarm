@@ -45,7 +45,7 @@
   "quantityExample": "Przykład: 1 tabletka, 100 mg",
   "medicationStartDate": "Data rozpoczęcia przyjmowania",
   "otherInformation": "Inne",
-  "doseReceiver": "Osoba przyjmująca leki",
+  "doseReceiver": "Osoba przyjmująca lek",
   "defaultDoseReceiver": "Ja",
   "doseReceiverMaxCount": "Można zarejestrować maksymalnie {count} osób przyjmujących leki.",
   "increaseLimitWithPremium": "Zwiększ limit do {count} w planie premium",

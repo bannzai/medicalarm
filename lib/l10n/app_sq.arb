@@ -45,7 +45,7 @@
   "quantityExample": "Shembull: 1 tabletë, 100 mg",
   "medicationStartDate": "Data e fillimit të marrjes",
   "otherInformation": "Të tjera",
-  "doseReceiver": "Përdoruesi i ilaçeve",
+  "doseReceiver": "Personi që merr ilaçin",
   "defaultDoseReceiver": "vetë",
   "doseReceiverMaxCount": "Numri maksimal i përdoruesve të regjistruar është {count} persona.",
   "increaseLimitWithPremium": "Rritni kufirin në {count} me planin premium",

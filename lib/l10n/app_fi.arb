@@ -45,7 +45,7 @@
   "quantityExample": "Esimerkki: 1 tabletti, 100 mg",
   "medicationStartDate": "Käytön aloituspäivä",
   "otherInformation": "Muut",
-  "doseReceiver": "Käyttäjä",
+  "doseReceiver": "Lääkkeen käyttäjä",
   "defaultDoseReceiver": "itse",
   "doseReceiverMaxCount": "Käyttäjiä voi rekisteröidä enimmillään {count} henkilöä",
   "increaseLimitWithPremium": "Lisäät ylärajaa {count} premium-suunnitelmassa.",

@@ -45,7 +45,7 @@
   "quantityExample": "Piemērs: 1 tablete, 100 mg",
   "medicationStartDate": "Lietošanas sākuma datums",
   "otherInformation": "Cits",
-  "doseReceiver": "Lietotājs",
+  "doseReceiver": "Zāļu lietotājs",
   "defaultDoseReceiver": "Seņģis",
   "doseReceiverMaxCount": "Lietotājiem var reģistrēt līdz {count} personām.",
   "increaseLimitWithPremium": "Palieliniet limitu uz {count} ar premium plānu",

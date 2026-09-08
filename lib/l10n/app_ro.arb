@@ -45,7 +45,7 @@
   "quantityExample": "Exemplu: 1 comprimat, 100 mg",
   "medicationStartDate": "Data începerii administrării",
   "otherInformation": "Altele",
-  "doseReceiver": "Persoana care ia medicamente",
+  "doseReceiver": "Persoana care ia medicamentul",
   "defaultDoseReceiver": "eu",
   "doseReceiverMaxCount": "Numărul maxim de utilizatori care pot fi înregistrați este {count}.",
   "increaseLimitWithPremium": "Crește limita la {count} cu planul premium",

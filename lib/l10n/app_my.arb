@@ -45,7 +45,7 @@
   "quantityExample": "ဥပမာ - ဆေးပြား ၁ ပြား၊ ၁၀၀ မီလီဂရမ်",
   "medicationStartDate": "သောက်သုံးစတင်သည့်ရက်စွဲ",
   "otherInformation": "အခြား",
-  "doseReceiver": "Pengguna",
+  "doseReceiver": "ဆေးသောက်သူ",
   "defaultDoseReceiver": "diri",
   "doseReceiverMaxCount": "Pengguna boleh mendaftar sehingga {count} orang.",
   "increaseLimitWithPremium": "Meningkatkan had kepada {count} dengan pelan premium",

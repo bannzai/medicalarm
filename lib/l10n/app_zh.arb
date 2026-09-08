@@ -45,7 +45,7 @@
   "quantityExample": "例如：1片、100毫克",
   "medicationStartDate": "用药开始日期",
   "otherInformation": "其他",
-  "doseReceiver": "服用者",
+  "doseReceiver": "服药者",
   "defaultDoseReceiver": "自己",
   "doseReceiverMaxCount": "最多可注册{count}名服用者",
   "increaseLimitWithPremium": "在高级计划中将上限增加到{count}",

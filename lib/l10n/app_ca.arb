@@ -45,7 +45,7 @@
   "quantityExample": "Exemple: 1 comprimit, 100 mg",
   "medicationStartDate": "Data d'inici de la presa",
   "otherInformation": "Altres",
-  "doseReceiver": "Pacient",
+  "doseReceiver": "Persona que pren el medicament",
   "defaultDoseReceiver": "jo",
   "doseReceiverMaxCount": "Es poden registrar fins a {count} usuaris.",
   "increaseLimitWithPremium": "Augmenta el límit a {count} amb el pla premium",

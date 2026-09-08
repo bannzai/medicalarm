@@ -45,7 +45,7 @@
   "quantityExample": "Пример: 1 таблета, 100 mg",
   "medicationStartDate": "Датум почетка узимања",
   "otherInformation": "Остало",
-  "doseReceiver": "Корисник лекова",
+  "doseReceiver": "Особа која узима лек",
   "defaultDoseReceiver": "сам",
   "doseReceiverMaxCount": "Može se registrovati do {count} korisnika.",
   "increaseLimitWithPremium": "Премиум планом повишите лимит на {count}",

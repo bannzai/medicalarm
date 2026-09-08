@@ -45,7 +45,7 @@
   "quantityExample": "Näide: 1 tablett, 100 mg",
   "medicationStartDate": "Ravimi võtmise alguskuupäev",
   "otherInformation": "Muu",
-  "doseReceiver": "Ravimitaja",
+  "doseReceiver": "Ravimi võtja",
   "defaultDoseReceiver": "ise",
   "doseReceiverMaxCount": "Kasutajad võivad registreerida kuni {count} inimest",
   "increaseLimitWithPremium": "Suurenda piirmäära {count} premium plaaniga",

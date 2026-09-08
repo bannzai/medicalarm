@@ -45,7 +45,7 @@
   "quantityExample": "მაგალითად: 1 ტაბლეტი, 100 მგ",
   "medicationStartDate": "მიღების დაწყების თარიღი",
   "otherInformation": "სხვა",
-  "doseReceiver": "მიმართვის მფლობელი",
+  "doseReceiver": "მედიკამენტის მიმღები",
   "defaultDoseReceiver": "ჩემი",
   "doseReceiverMaxCount": "მკურნალების რეგისტრირებული最大 {count} ადამიანამდე შეიძლება",
   "increaseLimitWithPremium": "პრემიუმ გეგმით ლიმიტის ზრდა {count} მდე",
