@@ -33,7 +33,7 @@
   "deleteAccountConfirm": "Kasutaja teave kustutatakse",
   "deleteAccountMessage": "Konto kustutamisel kustutatakse kogu kasutajateave.",
   "medicationFrequency": "Ravimi võtmise sagedus",
-  "daily": "iga päev",
+  "daily": "Iga päev",
   "everyXDays": "päeva pärast",
   "specificWeekdays": "Teatud nädalapäev",
   "cycle": "tsükkel",

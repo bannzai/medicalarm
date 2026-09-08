@@ -33,7 +33,7 @@
   "deleteAccountConfirm": "उपयोगकर्ता की जानकारी हटा दी जाएगी",
   "deleteAccountMessage": "खाता हटाने पर उपयोगकर्ता की सभी जानकारी हटा दी जाएगी।",
   "medicationFrequency": "दवा लेने की आवृत्ति",
-  "daily": "हर दिन",
+  "daily": "प्रतिदिन",
   "everyXDays": "हर X दिन",
   "specificWeekdays": "विशिष्ट दिन",
   "cycle": "आवृत्ति",
