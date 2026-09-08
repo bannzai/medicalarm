@@ -88,7 +88,7 @@
   "medicineRegistrationLimit": "नोंदणीकृत औषधांची संख्या",
   "doseReceiverRegistrationLimit": "नोंदणीकृत औषध घेणाऱ्या व्यक्तींची संख्या",
   "notificationScheduleLimit": "सूचना वेळापत्रकांची संख्या",
-  "addMedicine": "औषधि जोडा",
+  "addMedicine": "औषध जोडा",
   "medicineMaxCount": "आपण {count} औषधे नोंदवू शकता.",
   "increaseMedicineLimitWithPremium": "प्रीमियम प्लानसह मर्यादा {count} वर वाढवा.",
   "aboutApp": "ऐपबद्दल",

@@ -88,7 +88,7 @@
   "medicineRegistrationLimit": "Number of registered medicines",
   "doseReceiverRegistrationLimit": "the number of registered people taking medication",
   "notificationScheduleLimit": "Number of notification schedules",
-  "addMedicine": "Add Medication",
+  "addMedicine": "Add medicine",
   "medicineMaxCount": "You can register up to {count} medications.",
   "increaseMedicineLimitWithPremium": "Increase the limit to {count} with the premium plan.",
   "aboutApp": "About the App",

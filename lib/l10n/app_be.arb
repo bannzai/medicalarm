@@ -88,7 +88,7 @@
   "medicineRegistrationLimit": "Колькасць зарэгістраваных лекаў",
   "doseReceiverRegistrationLimit": "колькасць зарэгістраваных асоб, якія прымаюць лекі",
   "notificationScheduleLimit": "Колькасць раскладаў апавяшчэнняў",
-  "addMedicine": "Дадаць лекавы сродак",
+  "addMedicine": "Дадаць лекі",
   "medicineMaxCount": "Вы можаце зарэгістравацца да {count} прэпаратаў.",
   "increaseMedicineLimitWithPremium": "Павышэнне максімуму для запісаў лекаў у прэміум-плане да {count}",
   "aboutApp": "Пра прыкладанні",

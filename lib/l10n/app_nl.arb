@@ -88,7 +88,7 @@
   "medicineRegistrationLimit": "Aantal geregistreerde medicijnen",
   "doseReceiverRegistrationLimit": "het aantal geregistreerde personen dat medicijnen gebruikt",
   "notificationScheduleLimit": "Aantal meldingsschema's",
-  "addMedicine": "Geneesmiddel toevoegen",
+  "addMedicine": "Medicijn toevoegen",
   "medicineMaxCount": "U kunt tot {count} medicijnen registreren.",
   "increaseMedicineLimitWithPremium": "Verhoog de limiet naar {count} met het premium abonnement.",
   "aboutApp": "Over de app",

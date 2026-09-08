@@ -88,7 +88,7 @@
   "medicineRegistrationLimit": "Գրանցված դեղերի քանակը",
   "doseReceiverRegistrationLimit": "գրանցված դեղորայք ընդունող անձանց քանակը",
   "notificationScheduleLimit": "Ծանուցումների ժամանակացույցների քանակը",
-  "addMedicine": "Դեղամիջոց ավելացնել",
+  "addMedicine": "Ավելացնել դեղորայք",
   "medicineMaxCount": "Դեղորայքը կարող է գրանցվել մինչև {count} հատ։",
   "increaseMedicineLimitWithPremium": "Պրեմիում պլանով սահմանը ավելացնել մինչ {count}",
   "aboutApp": "Միավորի մասին",

@@ -88,7 +88,7 @@
   "medicineRegistrationLimit": "Antall registrerte medisiner",
   "doseReceiverRegistrationLimit": "antallet registrerte personer som tar medisiner",
   "notificationScheduleLimit": "Antall varslingsplaner",
-  "addMedicine": "Legemidler legge til",
+  "addMedicine": "Legg til medisin",
   "medicineMaxCount": "Du kan registrere opptil {count} medisiner.",
   "increaseMedicineLimitWithPremium": "Øk grensen til {count} med premiumplanen",
   "aboutApp": "Om appen",

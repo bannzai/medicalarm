@@ -88,7 +88,7 @@
   "medicineRegistrationLimit": "Бүртгэгдсэн эмийн тоо",
   "doseReceiverRegistrationLimit": "бүртгэлтэй эм хэрэглэгчдийн тоо",
   "notificationScheduleLimit": "Мэдэгдлийн хуваарийн тоо",
-  "addMedicine": "Эмчилгээ нэмэх",
+  "addMedicine": "Эм нэмэх",
   "medicineMaxCount": "Таны эмийг {count} хүртэл бүртгэж болно.",
   "increaseMedicineLimitWithPremium": "Премиум төлөвлөгөөнд дээд хязгаарыг {count} хүртэл нэмэгдүүлэх",
   "aboutApp": "Аппликейшн тухай",

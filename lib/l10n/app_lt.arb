@@ -88,7 +88,7 @@
   "medicineRegistrationLimit": "Užregistruotų vaistų skaičius",
   "doseReceiverRegistrationLimit": "užregistruotų vaistus vartojančių asmenų skaičius",
   "notificationScheduleLimit": "Pranešimų tvarkaraščių skaičius",
-  "addMedicine": "Pridėti vaistus",
+  "addMedicine": "Pridėti vaistą",
   "medicineMaxCount": "Galite užregistruoti iki {count} vaistų.",
   "increaseMedicineLimitWithPremium": "Didžiausia riba, kurią galima padidinti su „Premium“ planu, yra {count}.",
   "aboutApp": "Apie programėlę",

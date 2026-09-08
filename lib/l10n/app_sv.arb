@@ -88,7 +88,7 @@
   "medicineRegistrationLimit": "Antal registrerade läkemedel",
   "doseReceiverRegistrationLimit": "antalet registrerade personer som tar medicin",
   "notificationScheduleLimit": "Antal aviseringsscheman",
-  "addMedicine": "Lägg till medicin",
+  "addMedicine": "Lägg till läkemedel",
   "medicineMaxCount": "Du kan registrera upp till {count} läkemedel.",
   "increaseMedicineLimitWithPremium": "Öka gränsen till {count} med premiumplanen",
   "aboutApp": "Om appen",

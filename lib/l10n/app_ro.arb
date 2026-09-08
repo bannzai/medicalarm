@@ -88,7 +88,7 @@
   "medicineRegistrationLimit": "Numărul medicamentelor înregistrate",
   "doseReceiverRegistrationLimit": "numărul persoanelor înregistrate care iau medicamente",
   "notificationScheduleLimit": "Numărul programărilor de notificări",
-  "addMedicine": "Adaugă medicamentul",
+  "addMedicine": "Adaugă medicament",
   "medicineMaxCount": "Puteți înregistra până la {count} medicamente.",
   "increaseMedicineLimitWithPremium": "Crește limita la {count} cu planul premium",
   "aboutApp": "Despre aplicație",

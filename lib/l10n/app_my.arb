@@ -88,7 +88,7 @@
   "medicineRegistrationLimit": "မှတ်ပုံတင်ထားသော ဆေးဝါးအရေအတွက်",
   "doseReceiverRegistrationLimit": "မှတ်ပုံတင်ထားသော ဆေးသောက်သူအရေအတွက်",
   "notificationScheduleLimit": "အကြောင်းကြားချက် အချိန်ဇယားအရေအတွက်",
-  "addMedicine": "Tambah Ubat",
+  "addMedicine": "ဆေးထည့်ရန်",
   "medicineMaxCount": "Anda boleh mendaftar sehingga {count} ubat.",
   "increaseMedicineLimitWithPremium": "Tingkatkan had kepada {count} dengan pelan premium",
   "aboutApp": "Tentang Aplikasi",

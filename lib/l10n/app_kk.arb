@@ -88,7 +88,7 @@
   "medicineRegistrationLimit": "Тіркелген дәрілер саны",
   "doseReceiverRegistrationLimit": "тіркелген дәрі қабылдаушылар саны",
   "notificationScheduleLimit": "Хабарландыру кестелерінің саны",
-  "addMedicine": "Дәріні қосу",
+  "addMedicine": "Дәрі қосу",
   "medicineMaxCount": "Сіз {count} дәрілік заттарды тіркей аласыз.",
   "increaseMedicineLimitWithPremium": "Премиум жоспарымен шекті {count} дейін арттыру",
   "aboutApp": "Қосымша туралы",

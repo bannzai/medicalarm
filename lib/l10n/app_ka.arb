@@ -88,7 +88,7 @@
   "medicineRegistrationLimit": "რეგისტრირებული მედიკამენტების რაოდენობა",
   "doseReceiverRegistrationLimit": "დარეგისტრირებული მედიკამენტების მიმღები პირების რაოდენობა",
   "notificationScheduleLimit": "შეტყობინებების განრიგების რაოდენობა",
-  "addMedicine": "საშუალების დამატება",
+  "addMedicine": "მედიკამენტის დამატება",
   "medicineMaxCount": "წ薬ები შეგიძლიათ რეგისტრირდეთ {count} ცალამდე.",
   "increaseMedicineLimitWithPremium": "პრემიუმ გეგმით ზღვარი გაზარდეთ {count} მარშრუტზე.",
   "aboutApp": "წარმოგიდგენთ აპლიკაციას",

@@ -88,7 +88,7 @@
   "medicineRegistrationLimit": "የተመዘገቡ መድኃኒቶች ብዛት",
   "doseReceiverRegistrationLimit": "የተመዘገቡ መድኃኒት ተጠቃሚዎች ብዛት",
   "notificationScheduleLimit": "የማሳወቂያ መርሃ ግብሮች ብዛት",
-  "addMedicine": "የመድኃኒት ዝርዝር ወይም ከታሪክ ማዕከል ወይም ከታሪክ የመድኃኒት ምርጥ እቅድ ይመርጡ።",
+  "addMedicine": "መድኃኒት አክል",
   "medicineMaxCount": "እባብ {count} ወቅታት ማስመዘግብ ይቻላል።",
   "increaseMedicineLimitWithPremium": "{count} እምቅዳም ፕሪሚየም እባብ",
   "aboutApp": "የመተግበሪያ ስለ ይህ",

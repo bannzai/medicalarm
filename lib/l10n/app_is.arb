@@ -88,7 +88,7 @@
   "medicineRegistrationLimit": "Fjöldi skráðra lyfja",
   "doseReceiverRegistrationLimit": "fjöldi skráðra einstaklinga sem taka lyf",
   "notificationScheduleLimit": "Fjöldi tilkynningaáætlana",
-  "addMedicine": "Bæta við lyf",
+  "addMedicine": "Bæta við lyfi",
   "medicineMaxCount": "Þú getur skráð allt að {count} lyf.",
   "increaseMedicineLimitWithPremium": "Auka takmarkið í {count} með Premium áætlun",
   "aboutApp": "Um app um upplýsingum um appið",

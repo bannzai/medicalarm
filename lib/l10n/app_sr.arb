@@ -88,7 +88,7 @@
   "medicineRegistrationLimit": "Број регистрованих лекова",
   "doseReceiverRegistrationLimit": "број регистрованих особа које узимају лекове",
   "notificationScheduleLimit": "Број распореда обавештења",
-  "addMedicine": "Додајте лек",
+  "addMedicine": "Додај лек",
   "medicineMaxCount": "Можете регистровати до {count} лекова.",
   "increaseMedicineLimitWithPremium": "Повећајте лимит на {count} са премиум планом.",
   "aboutApp": "О апликацији",
