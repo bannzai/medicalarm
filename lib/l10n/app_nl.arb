@@ -42,7 +42,7 @@
   "specificWeekdaysDescription": "Bijv.: alleen op maandag; op woensdag en vrijdag",
   "medicineFormValidationError": "Voer de naam en het innameschema in",
   "quantity": "Hoeveelheid",
-  "quantityExample": "Bijvoorbeeld: 1 tablet, 100 mg",
+  "quantityExample": "Voorbeeld: 1 tablet, 100 mg",
   "medicationStartDate": "Startdatum inname",
   "otherInformation": "Overig",
   "doseReceiver": "Medicijngebruiker",
