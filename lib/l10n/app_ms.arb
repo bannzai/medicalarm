@@ -39,7 +39,7 @@
   "cycle": "Kitaran",
   "cycleDescription": "Contoh: ambil selama 21 hari / rehat 7 hari",
   "everyXDaysDescription": "Cth., setiap 2 hari, setiap 3 hari",
-  "specificWeekdaysDescription": "Contoh: Isnin sahaja, atau Rabu dan Jumaat",
+  "specificWeekdaysDescription": "Contoh: Isnin sahaja; Rabu dan Jumaat",
   "medicineFormValidationError": "Masukkan nama dan jadual pengambilan",
   "quantity": "Kuantiti",
   "quantityExample": "Contoh: 1 tablet, 100 mg",

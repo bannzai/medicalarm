@@ -39,7 +39,7 @@
   "cycle": "Цикъл",
   "cycleDescription": "Пример: прием 21 дни / 7 дни почивка",
   "everyXDaysDescription": "Напр.: на всеки 2 дни, на всеки 3 дни",
-  "specificWeekdaysDescription": "Напр. само в понеделник, в сряда и петък",
+  "specificWeekdaysDescription": "Напр.: само в понеделник; в сряда и петък",
   "medicineFormValidationError": "Въведете име и график за прием",
   "quantity": "Количество",
   "quantityExample": "Пример: 1 таблетка, 100 mg",

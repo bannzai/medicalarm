@@ -39,7 +39,7 @@
   "cycle": "Cyklus",
   "cycleDescription": "Např. užívat 21 dní / 7 dní pauza",
   "everyXDaysDescription": "Např. každé 2 dny, každé 3 dny",
-  "specificWeekdaysDescription": "Např. pouze v pondělí, ve středu a v pátek",
+  "specificWeekdaysDescription": "Např.: pouze v pondělí; ve středu a v pátek",
   "medicineFormValidationError": "Zadejte název a rozvrh užívání",
   "quantity": "Množství",
   "quantityExample": "Příklad: 1 tableta, 100 mg",

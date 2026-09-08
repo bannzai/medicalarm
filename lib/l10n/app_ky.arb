@@ -39,7 +39,7 @@
   "cycle": "Цикл",
   "cycleDescription": "Мисалы: 21 күн ичүү / 7 күн тыныгуу",
   "everyXDaysDescription": "Мисалы: ар 2 күн сайын, ар 3 күн сайын",
-  "specificWeekdaysDescription": "Мисалы, дүйшөмбүдө гана же шаршемби жана жума күндөрү",
+  "specificWeekdaysDescription": "Мисалы: дүйшөмбүдө гана; шаршемби жана жума күндөрү",
   "medicineFormValidationError": "Атын жана кабыл алуу графигин киргизиңиз",
   "quantity": "Өлчөмү",
   "quantityExample": "Мисалы: 1 таблетка, 100 мг",

@@ -39,7 +39,7 @@
   "cycle": "Sykli",
   "cycleDescription": "Esim. 21 päivää käyttöä / 7 päivän tauko",
   "everyXDaysDescription": "Esim. 2 päivän välein, 3 päivän välein",
-  "specificWeekdaysDescription": "Esim. vain maanantaisin tai keskiviikkoisin ja perjantaisin",
+  "specificWeekdaysDescription": "Esim. vain maanantaisin; keskiviikkoisin ja perjantaisin",
   "medicineFormValidationError": "Anna nimi ja annosteluaikataulu",
   "quantity": "Määrä",
   "quantityExample": "Esimerkki: 1 tabletti, 100 mg",

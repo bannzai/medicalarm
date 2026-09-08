@@ -39,7 +39,7 @@
   "cycle": "Ցիկլ",
   "cycleDescription": "Օրինակ՝ ընդունել 21 օր / 7 օր դադար",
   "everyXDaysDescription": "Օրինակ՝ 2 օրը մեկ, 3 օրը մեկ",
-  "specificWeekdaysDescription": "Օրինակ՝ միայն երկուշաբթի, կամ չորեքշաբթի և ուրբաթ",
+  "specificWeekdaysDescription": "Օրինակ՝ միայն երկուշաբթի օրերին, չորեքշաբթի և ուրբաթ օրերին",
   "medicineFormValidationError": "Մուտքագրեք անվանումը և ընդունման ժամանակացույցը",
   "quantity": "Քանակ",
   "quantityExample": "Օրինակ՝ 1 հաբ, 100 մգ",

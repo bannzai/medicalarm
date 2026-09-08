@@ -39,7 +39,7 @@
   "cycle": "चक्र",
   "cycleDescription": "उदा. २१ दिवस घेणे / ७ दिवसांचा विराम",
   "everyXDaysDescription": "उदा., दर २ दिवसांनी, दर ३ दिवसांनी",
-  "specificWeekdaysDescription": "उदा. फक्त सोमवारी, किंवा बुधवारी आणि शुक्रवारी",
+  "specificWeekdaysDescription": "उदा.: फक्त सोमवारी; बुधवारी आणि शुक्रवारी",
   "medicineFormValidationError": "कृपया नाव आणि औषध घेण्याचे वेळापत्रक भरा",
   "quantity": "प्रमाण",
   "quantityExample": "उदाहरण: 1 गोळी, 100 मिग्रॅ",

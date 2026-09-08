@@ -39,7 +39,7 @@
   "cycle": "चक्र",
   "cycleDescription": "उदाहरण: २१ दिन सेवन / ७ दिन विराम",
   "everyXDaysDescription": "जस्तै, हरेक २ दिनमा, हरेक ३ दिनमा",
-  "specificWeekdaysDescription": "जस्तै, सोमबार मात्र, वा बुधबार र शुक्रबार",
+  "specificWeekdaysDescription": "जस्तै: सोमबार मात्र; बुधबार र शुक्रबार",
   "medicineFormValidationError": "कृपया नाम र औषधि सेवन तालिका प्रविष्ट गर्नुहोस्",
   "quantity": "मात्रा",
   "quantityExample": "उदाहरण: १ ट्याब्लेट, १०० mg",

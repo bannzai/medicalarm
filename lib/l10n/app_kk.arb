@@ -39,7 +39,7 @@
   "cycle": "Цикл",
   "cycleDescription": "Мысалы: 21 күн қабылдау / 7 күн үзіліс",
   "everyXDaysDescription": "Мысалы: әр 2 күн сайын, әр 3 күн сайын",
-  "specificWeekdaysDescription": "Мысалы, тек дүйсенбіде немесе сәрсенбі мен жұмада",
+  "specificWeekdaysDescription": "Мысалы: тек дүйсенбіде; сәрсенбі және жұма күндері",
   "medicineFormValidationError": "Атауы мен қабылдау кестесін енгізіңіз",
   "quantity": "Мөлшері",
   "quantityExample": "Мысалы: 1 таблетка, 100 мг",

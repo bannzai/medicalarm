@@ -39,7 +39,7 @@
   "cycle": "מחזור",
   "cycleDescription": "לדוגמה: נטילה במשך 21 ימים / הפסקה של 7 ימים",
   "everyXDaysDescription": "לדוגמה: כל יומיים, כל 3 ימים",
-  "specificWeekdaysDescription": "לדוגמה: רק בימי שני, או בימי רביעי ושישי",
+  "specificWeekdaysDescription": "לדוגמה: ימי שני בלבד; ימי רביעי ושישי",
   "medicineFormValidationError": "יש להזין את השם ואת לוח הזמנים לנטילה",
   "quantity": "כמות",
   "quantityExample": "לדוגמה: טבליה אחת, 100 מ״ג",

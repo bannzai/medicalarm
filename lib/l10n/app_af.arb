@@ -39,7 +39,7 @@
   "cycle": "Siklus",
   "cycleDescription": "bv. Neem medisyne vir 21 dae / 7 dae pouse",
   "everyXDaysDescription": "Byv. elke 2 dae, elke 3 dae",
-  "specificWeekdaysDescription": "Bv. slegs Maandae, Woensdae en Vrydae",
+  "specificWeekdaysDescription": "Byvoorbeeld: slegs Maandae; Woensdae en Vrydae",
   "medicineFormValidationError": "Voer die naam en doseringskedule in",
   "quantity": "Hoeveelheid",
   "quantityExample": "Byvoorbeeld: 1 tablet, 100 mg",

@@ -39,7 +39,7 @@
   "cycle": "Tsükkel",
   "cycleDescription": "Nt 21 päeva võtta / 7 päeva pausi",
   "everyXDaysDescription": "Nt iga 2 päeva järel, iga 3 päeva järel",
-  "specificWeekdaysDescription": "Nt ainult esmaspäeviti või kolmapäeviti ja reedeti",
+  "specificWeekdaysDescription": "Nt: ainult esmaspäeviti; kolmapäeviti ja reedeti",
   "medicineFormValidationError": "Sisestage nimi ja võtmise ajakava",
   "quantity": "Kogus",
   "quantityExample": "Näide: 1 tablett, 100 mg",

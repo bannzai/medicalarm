@@ -39,7 +39,7 @@
   "cycle": "ციკლი",
   "cycleDescription": "მაგ.: მიღება 21 დღის განმავლობაში / 7-დღიანი შესვენება",
   "everyXDaysDescription": "მაგ.: ყოველ 2 დღეში, ყოველ 3 დღეში",
-  "specificWeekdaysDescription": "მაგ.: მხოლოდ ორშაბათს, ან ოთხშაბათსა და პარასკევს",
+  "specificWeekdaysDescription": "მაგ.: მხოლოდ ორშაბათს; ოთხშაბათსა და პარასკევს",
   "medicineFormValidationError": "შეიყვანეთ სახელი და მიღების განრიგი",
   "quantity": "რაოდენობა",
   "quantityExample": "მაგალითად: 1 ტაბლეტი, 100 მგ",

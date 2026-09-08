@@ -39,7 +39,7 @@
   "cycle": "Cicle",
   "cycleDescription": "Ex.: prendre durant 21 dies / fer una pausa de 7 dies",
   "everyXDaysDescription": "Ex.: cada 2 dies, cada 3 dies",
-  "specificWeekdaysDescription": "Ex.: només els dilluns, o els dimecres i divendres",
+  "specificWeekdaysDescription": "Ex.: només els dilluns; dimecres i divendres",
   "medicineFormValidationError": "Introduïu el nom i l’horari de presa",
   "quantity": "Quantitat",
   "quantityExample": "Exemple: 1 comprimit, 100 mg",

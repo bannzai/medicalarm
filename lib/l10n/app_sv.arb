@@ -39,7 +39,7 @@
   "cycle": "Cykel",
   "cycleDescription": "T.ex. ta i 21 dagar / 7 dagars uppehåll",
   "everyXDaysDescription": "T.ex. varannan dag, var tredje dag",
-  "specificWeekdaysDescription": "T.ex. endast måndagar, eller onsdagar och fredagar",
+  "specificWeekdaysDescription": "T.ex. endast måndagar; onsdagar och fredagar",
   "medicineFormValidationError": "Ange namn och doseringsschema",
   "quantity": "Mängd",
   "quantityExample": "Exempel: 1 tablett, 100 mg",

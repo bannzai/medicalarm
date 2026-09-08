@@ -39,7 +39,7 @@
   "cycle": "Sikl",
   "cycleDescription": "Masalan: 21 kun qabul qilish / 7 kun tanaffus",
   "everyXDaysDescription": "Masalan: har 2 kunda, har 3 kunda",
-  "specificWeekdaysDescription": "Masalan, faqat dushanba kunlari yoki chorshanba va juma kunlari",
+  "specificWeekdaysDescription": "Masalan: faqat dushanba kunlari; chorshanba va juma kunlari",
   "medicineFormValidationError": "Nom va qabul qilish jadvalini kiriting",
   "quantity": "Miqdor",
   "quantityExample": "Masalan: 1 tabletka, 100 mg",

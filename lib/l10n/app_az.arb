@@ -39,7 +39,7 @@
   "cycle": "Dövr",
   "cycleDescription": "Məs.: 21 gün qəbul / 7 gün fasilə",
   "everyXDaysDescription": "Məsələn: hər 2 gündən bir, hər 3 gündən bir",
-  "specificWeekdaysDescription": "Məsələn, yalnız bazar ertəsi, çərşənbə və cümə",
+  "specificWeekdaysDescription": "Məsələn: yalnız bazar ertəsi; çərşənbə və cümə",
   "medicineFormValidationError": "Adı və qəbul cədvəlini daxil edin",
   "quantity": "Miqdar",
   "quantityExample": "Məsələn: 1 tablet, 100 mq",

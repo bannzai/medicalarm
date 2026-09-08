@@ -39,7 +39,7 @@
   "cycle": "ചക്രം",
   "cycleDescription": "ഉദാ: 21 ദിവസം കഴിക്കുക / 7 ദിവസം ഇടവേള",
   "everyXDaysDescription": "ഉദാ., 2 ദിവസത്തിലൊരിക്കൽ, 3 ദിവസത്തിലൊരിക്കൽ",
-  "specificWeekdaysDescription": "ഉദാ., തിങ്കളാഴ്ച മാത്രം, അല്ലെങ്കിൽ ബുധനാഴ്ചയും വെള്ളിയാഴ്ചയും",
+  "specificWeekdaysDescription": "ഉദാ.: തിങ്കളാഴ്ച മാത്രം; ബുധൻ, വെള്ളി ദിവസങ്ങളിൽ",
   "medicineFormValidationError": "പേരും മരുന്ന് കഴിക്കേണ്ട സമയക്രമവും നൽകുക",
   "quantity": "അളവ്",
   "quantityExample": "ഉദാഹരണം: 1 ഗുളിക, 100 മി.ഗ്രാം",

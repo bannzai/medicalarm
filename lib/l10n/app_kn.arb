@@ -39,7 +39,7 @@
   "cycle": "ಚಕ್ರ",
   "cycleDescription": "ಉದಾ: 21 ದಿನ ಸೇವನೆ / 7 ದಿನ ವಿರಾಮ",
   "everyXDaysDescription": "ಉದಾ., ಪ್ರತಿ 2 ದಿನಗಳಿಗೊಮ್ಮೆ, ಪ್ರತಿ 3 ದಿನಗಳಿಗೊಮ್ಮೆ",
-  "specificWeekdaysDescription": "ಉದಾ., ಸೋಮವಾರ ಮಾತ್ರ, ಅಥವಾ ಬುಧವಾರ ಮತ್ತು ಶುಕ್ರವಾರ",
+  "specificWeekdaysDescription": "ಉದಾ.: ಸೋಮವಾರ ಮಾತ್ರ; ಬುಧವಾರ ಮತ್ತು ಶುಕ್ರವಾರ",
   "medicineFormValidationError": "ದಯವಿಟ್ಟು ಹೆಸರು ಮತ್ತು ಔಷಧ ಸೇವನೆಯ ವೇಳಾಪಟ್ಟಿಯನ್ನು ನಮೂದಿಸಿ",
   "quantity": "ಪ್ರಮಾಣ",
   "quantityExample": "ಉದಾಹರಣೆ: 1 ಮಾತ್ರೆ, 100 ಮಿಗ್ರಾಂ",

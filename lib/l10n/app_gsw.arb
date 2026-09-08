@@ -39,7 +39,7 @@
   "cycle": "Zyklus",
   "cycleDescription": "Z. B. 21 Täg iineh / 7 Täg Pause",
   "everyXDaysDescription": "Z. B. alli 2 Täg, alli 3 Täg",
-  "specificWeekdaysDescription": "Z. B. nume am Mäntig, am Mittwuch und am Friitig",
+  "specificWeekdaysDescription": "Z. B. numme am Mäntig; am Mittwuch und am Friitig",
   "medicineFormValidationError": "Gib de Name und de Iinahmeplan ii",
   "quantity": "Mängi",
   "quantityExample": "Bispiel: 1 Tablette, 100 mg",

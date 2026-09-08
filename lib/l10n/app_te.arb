@@ -39,7 +39,7 @@
   "cycle": "చక్రం",
   "cycleDescription": "ఉదా: 21 రోజులు తీసుకోవాలి / 7 రోజుల విరామం",
   "everyXDaysDescription": "ఉదా., ప్రతి 2 రోజులకు ఒకసారి, ప్రతి 3 రోజులకు ఒకసారి",
-  "specificWeekdaysDescription": "ఉదా., సోమవారం మాత్రమే, లేదా బుధవారం మరియు శుక్రవారం",
+  "specificWeekdaysDescription": "ఉదా.: సోమవారం మాత్రమే; బుధవారం మరియు శుక్రవారం",
   "medicineFormValidationError": "పేరు మరియు మందు తీసుకునే షెడ్యూల్‌ను నమోదు చేయండి",
   "quantity": "మోతాదు",
   "quantityExample": "ఉదాహరణ: 1 టాబ్లెట్, 100 mg",

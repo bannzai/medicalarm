@@ -39,7 +39,7 @@
   "cycle": "ຮອບ",
   "cycleDescription": "ຕົວຢ່າງ: ກິນຢາ 21 ມື້ / ພັກ 7 ມື້",
   "everyXDaysDescription": "ຕົວຢ່າງ: ທຸກໆ 2 ມື້, ທຸກໆ 3 ມື້",
-  "specificWeekdaysDescription": "ຕົວຢ່າງ: ສະເພາະວັນຈັນ ຫຼື ວັນພຸດ ແລະ ວັນສຸກ",
+  "specificWeekdaysDescription": "ຕົວຢ່າງ: ສະເພາະວັນຈັນ; ວັນພຸດ ແລະ ວັນສຸກ",
   "medicineFormValidationError": "ກະລຸນາປ້ອນຊື່ ແລະຕາຕະລາງການກິນຢາ",
   "quantity": "ປະລິມານ",
   "quantityExample": "ຕົວຢ່າງ: 1 ເມັດ, 100 ມກ.",

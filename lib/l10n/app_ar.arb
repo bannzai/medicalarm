@@ -39,7 +39,7 @@
   "cycle": "دورة",
   "cycleDescription": "مثال: تناول الدواء لمدة 21 يومًا / إيقافه لمدة 7 أيام",
   "everyXDaysDescription": "مثال: كل يومين، كل 3 أيام",
-  "specificWeekdaysDescription": "مثال: أيام الاثنين فقط، أو الأربعاء والجمعة",
+  "specificWeekdaysDescription": "مثال: يوم الاثنين فقط، الأربعاء والجمعة",
   "medicineFormValidationError": "يرجى إدخال الاسم وجدول تناول الدواء",
   "quantity": "الكمية",
   "quantityExample": "مثال: قرص واحد، 100 ملغ",

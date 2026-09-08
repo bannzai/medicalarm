@@ -39,7 +39,7 @@
   "cycle": "Cykl",
   "cycleDescription": "Np. przyjmować przez 21 dni / 7 dni przerwy",
   "everyXDaysDescription": "Np. co 2 dni, co 3 dni",
-  "specificWeekdaysDescription": "Np. tylko w poniedziałki albo w środy i piątki",
+  "specificWeekdaysDescription": "Np. tylko w poniedziałki; w środy i piątki",
   "medicineFormValidationError": "Wprowadź nazwę i harmonogram przyjmowania",
   "quantity": "Ilość",
   "quantityExample": "Przykład: 1 tabletka, 100 mg",

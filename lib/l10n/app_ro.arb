@@ -39,7 +39,7 @@
   "cycle": "Ciclu",
   "cycleDescription": "De ex., administrare timp de 21 de zile / pauză de 7 zile",
   "everyXDaysDescription": "De ex., la fiecare 2 zile, la fiecare 3 zile",
-  "specificWeekdaysDescription": "De ex., doar lunea sau miercurea și vinerea",
+  "specificWeekdaysDescription": "De ex.: doar lunea; miercurea și vinerea",
   "medicineFormValidationError": "Introduceți numele și programul de administrare",
   "quantity": "Cantitate",
   "quantityExample": "Exemplu: 1 comprimat, 100 mg",

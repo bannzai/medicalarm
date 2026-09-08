@@ -39,7 +39,7 @@
   "cycle": "Ciklas",
   "cycleDescription": "Pvz., vartoti 21 dieną / 7 dienų pertrauka",
   "everyXDaysDescription": "Pvz., kas 2 dienas, kas 3 dienas",
-  "specificWeekdaysDescription": "Pvz., tik pirmadieniais arba trečiadieniais ir penktadieniais",
+  "specificWeekdaysDescription": "Pvz.: tik pirmadieniais; trečiadieniais ir penktadieniais",
   "medicineFormValidationError": "Įveskite pavadinimą ir vartojimo tvarkaraštį",
   "quantity": "Kiekis",
   "quantityExample": "Pavyzdys: 1 tabletė, 100 mg",
