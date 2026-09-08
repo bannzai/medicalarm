@@ -208,7 +208,7 @@
   "ownerLabel": "Vlasnik",
   "youLabel": "Vi",
   "removeMemberConfirmTitle": "Želite li ukloniti člana?",
-  "removeMemberConfirmMessage": "Uklanjanje člana {name} iz grupe",
+  "removeMemberConfirmMessage": "Ukloniti {name} iz grupe",
   "joinGroup": "Pridruži se grupi",
   "invitationCodeInputLabel": "Pozivni kod (8 znakova)",
   "invitationCodeInputHint": "Unesite kôd od 8 znakova",

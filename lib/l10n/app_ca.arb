@@ -208,7 +208,7 @@
   "ownerLabel": "Propietari",
   "youLabel": "Tu",
   "removeMemberConfirmTitle": "Vols eliminar el membre?",
-  "removeMemberConfirmMessage": "Suprimir {name} del grup",
+  "removeMemberConfirmMessage": "Eliminar {name} del grup",
   "joinGroup": "Uneix-te a un grup",
   "invitationCodeInputLabel": "Codi d'invitació (8 caràcters)",
   "invitationCodeInputHint": "Introduïu el codi de 8 caràcters",

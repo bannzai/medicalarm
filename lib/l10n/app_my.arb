@@ -208,7 +208,7 @@
   "ownerLabel": "ပိုင်ရှင်",
   "youLabel": "သင်",
   "removeMemberConfirmTitle": "အဖွဲ့ဝင်ကို ဖယ်ရှားမလား။",
-  "removeMemberConfirmMessage": "{name} ကို အဖွဲ့မှ ဖယ်ရှားမည်",
+  "removeMemberConfirmMessage": "အဖွဲ့မှ {name} ကို ဖယ်ရှားမည်",
   "joinGroup": "အဖွဲ့သို့ ဝင်ရန်",
   "invitationCodeInputLabel": "ဖိတ်ကြားကုဒ် (အက္ခရာ ၈ လုံး)",
   "invitationCodeInputHint": "စာလုံး ၈ လုံးပါ ကုဒ်ကို ထည့်ပါ",

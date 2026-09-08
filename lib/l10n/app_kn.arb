@@ -208,7 +208,7 @@
   "ownerLabel": "ಮಾಲೀಕ",
   "youLabel": "ನೀವು",
   "removeMemberConfirmTitle": "ಸದಸ್ಯರನ್ನು ತೆಗೆದುಹಾಕಲು ಬಯಸುವಿರಾ?",
-  "removeMemberConfirmMessage": "{name} ಅವರನ್ನು ಗುಂಪಿನಿಂದ ತೆಗೆದುಹಾಕಿ",
+  "removeMemberConfirmMessage": "ಗುಂಪಿನಿಂದ {name} ಅವರನ್ನು ತೆಗೆದುಹಾಕಲಾಗುತ್ತದೆ",
   "joinGroup": "ಗುಂಪಿಗೆ ಸೇರಿ",
   "invitationCodeInputLabel": "ಆಹ್ವಾನ ಕೋಡ್ (8 ಅಕ್ಷರಗಳು)",
   "invitationCodeInputHint": "8 ಅಕ್ಷರಗಳ ಕೋಡ್ ನಮೂದಿಸಿ",

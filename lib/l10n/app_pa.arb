@@ -208,7 +208,7 @@
   "ownerLabel": "ਮਾਲਕ",
   "youLabel": "ਤੁਸੀਂ",
   "removeMemberConfirmTitle": "ਕੀ ਮੈਂਬਰ ਨੂੰ ਹਟਾਉਣਾ ਹੈ?",
-  "removeMemberConfirmMessage": "{name} ਨੂੰ ਗਰੁੱਪ ਵਿੱਚੋਂ ਹਟਾਓ",
+  "removeMemberConfirmMessage": "ਗਰੁੱਪ ਵਿੱਚੋਂ {name} ਨੂੰ ਹਟਾਓ",
   "joinGroup": "ਗਰੁੱਪ ਵਿੱਚ ਸ਼ਾਮਲ ਹੋਵੋ",
   "invitationCodeInputLabel": "ਸੱਦਾ ਕੋਡ (8 ਅੱਖਰ)",
   "invitationCodeInputHint": "8 ਅੱਖਰਾਂ ਵਾਲਾ ਕੋਡ ਦਾਖਲ ਕਰੋ",

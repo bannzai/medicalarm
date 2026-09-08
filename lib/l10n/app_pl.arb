@@ -208,7 +208,7 @@
   "ownerLabel": "Właściciel",
   "youLabel": "Ty",
   "removeMemberConfirmTitle": "Czy usunąć członka?",
-  "removeMemberConfirmMessage": "Usunąć {name} z grupy",
+  "removeMemberConfirmMessage": "Usuń {name} z grupy",
   "joinGroup": "Dołącz do grupy",
   "invitationCodeInputLabel": "Kod zaproszenia (8 znaków)",
   "invitationCodeInputHint": "Wprowadź 8-znakowy kod",

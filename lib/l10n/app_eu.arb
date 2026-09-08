@@ -208,7 +208,7 @@
   "ownerLabel": "Jabea",
   "youLabel": "Zu",
   "removeMemberConfirmTitle": "Kidea kendu nahi duzu?",
-  "removeMemberConfirmMessage": "{name} taldetik kentzea",
+  "removeMemberConfirmMessage": "Kendu {name} taldetik",
   "joinGroup": "Taldearekin bat egin",
   "invitationCodeInputLabel": "Gonbidapen-kodea (8 karaktere)",
   "invitationCodeInputHint": "Sartu 8 karaktereko kodea",

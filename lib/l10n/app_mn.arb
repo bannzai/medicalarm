@@ -208,7 +208,7 @@
   "ownerLabel": "Эзэмшигч",
   "youLabel": "Та",
   "removeMemberConfirmTitle": "Гишүүнийг хасах уу?",
-  "removeMemberConfirmMessage": "{name}-г бүлгээс хасна",
+  "removeMemberConfirmMessage": "{name}-г бүлгээс хасах",
   "joinGroup": "Бүлэгт нэгдэх",
   "invitationCodeInputLabel": "Урилгын код (8 тэмдэгт)",
   "invitationCodeInputHint": "8 тэмдэгттэй кодыг оруулна уу",

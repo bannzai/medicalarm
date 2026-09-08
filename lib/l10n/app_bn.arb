@@ -208,7 +208,7 @@
   "ownerLabel": "মালিক",
   "youLabel": "আপনি",
   "removeMemberConfirmTitle": "সদস্যটিকে সরাতে চান?",
-  "removeMemberConfirmMessage": "{name}-কে গ্রুপ থেকে সরিয়ে দেওয়া হবে",
+  "removeMemberConfirmMessage": "গ্রুপ থেকে {name}-কে সরিয়ে দেওয়া হবে",
   "joinGroup": "গ্রুপে যোগ দিন",
   "invitationCodeInputLabel": "আমন্ত্রণ কোড (৮ অক্ষর)",
   "invitationCodeInputHint": "৮ অক্ষরের কোড লিখুন",

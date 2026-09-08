@@ -208,7 +208,7 @@
   "ownerLabel": "Иесі",
   "youLabel": "Сіз",
   "removeMemberConfirmTitle": "Қатысушыны өшіру керек пе?",
-  "removeMemberConfirmMessage": "{name} топтан жойылады",
+  "removeMemberConfirmMessage": "{name} топтан шығарылады",
   "joinGroup": "Топқа қосылу",
   "invitationCodeInputLabel": "Шақыру коды (8 таңба)",
   "invitationCodeInputHint": "8 таңбалы кодты енгізіңіз",
