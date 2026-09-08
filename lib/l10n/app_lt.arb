@@ -131,7 +131,7 @@
   "purchaseErrorRestoreFailed": "Ankstesnių pirkimų informacija nerasta. Patikrinkite savo paskyrą ir bandykite dar kartą.",
   "purchaseErrorUserNotFound": "Nepavyko patvirtinti naudotojo. Iš naujo paleiskite programėlę ir bandykite dar kartą. Išsami informacija: {message}",
   "purchaseErrorActivationPending": "Mokamos paslaugos aktyvinimas dar nebaigtas. Po kurio laiko patikrinkite dar kartą.",
-  "purchaseErrorTimeout": "Baigėsi skirtasis laikas. Patikrinkite tinklo ryšį ir bandykite dar kartą. Jei problema neišsisprendžia, susisiekite su mumis per Nustatymai > Kontaktai. Išsami informacija: {message}",
+  "purchaseErrorTimeout": "Baigėsi skirtasis laikas. Patikrinkite interneto ryšį ir bandykite dar kartą. Jei problema išlieka, susisiekite su mumis skiltyje Nustatymai > Susisiekti. Išsamiau: {message}",
   "purchaseErrorNetworkError": "Įvyko ryšio problema. Patikrinkite tinklo ryšį ir bandykite dar kartą. Jei problema išlieka, susisiekite su mumis per Nustatymai > Susisiekti su mumis. Išsami informacija: {message}",
   "sixMonthPlan": "6 mėnesių planas",
   "premiumContractPeriod": "Prenumeratos laikotarpis – vienas mėnuo nuo pirkimo datos.",

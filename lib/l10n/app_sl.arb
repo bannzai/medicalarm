@@ -131,7 +131,7 @@
   "purchaseErrorRestoreFailed": "Podatkov o prejšnjih nakupih ni bilo mogoče najti. Preverite svoj račun in poskusite znova.",
   "purchaseErrorUserNotFound": "Uporabnika ni bilo mogoče preveriti. Znova zaženite aplikacijo in poskusite še enkrat. Podrobnosti: {message}",
   "purchaseErrorActivationPending": "Aktivacija plačljive storitve še ni dokončana. Preverite znova čez nekaj časa.",
-  "purchaseErrorTimeout": "Časovna omejitev je potekla. Preverite omrežno povezavo in poskusite znova. Če težava ni odpravljena, nam pišite v Nastavitve > Stik. Podrobnosti: {message}",
+  "purchaseErrorTimeout": "Čas je potekel. Preverite povezavo in poskusite znova. Če težava ne bo odpravljena, nas lahko kontaktirate v Nastavitve > Stik z nami. Podrobnosti: {message}",
   "purchaseErrorNetworkError": "Prišlo je do težave s povezavo. Preverite omrežno povezavo in poskusite znova. Če težava ne bo odpravljena, nam pišite prek Nastavitve > Stik z nami. Podrobnosti: {message}",
   "sixMonthPlan": "6-mesečni paket",
   "premiumContractPeriod": "Obdobje naročnine je en mesec od datuma nakupa.",

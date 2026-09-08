@@ -131,7 +131,7 @@
   "purchaseErrorRestoreFailed": "Informácie o predchádzajúcich nákupoch sa nenašli. Skontrolujte svoje konto a skúste to znova.",
   "purchaseErrorUserNotFound": "Používateľa sa nepodarilo overiť. Reštartujte aplikáciu a skúste to znova. Podrobnosti: {message}",
   "purchaseErrorActivationPending": "Aktivácia platenej služby ešte nebola dokončená. Skontrolujte to prosím neskôr.",
-  "purchaseErrorTimeout": "Časový limit vypršal. Skontrolujte sieťové pripojenie a skúste to znova. Ak problém pretrváva, kontaktujte nás cez Nastavenia > Kontakt. Podrobnosti: {message}",
+  "purchaseErrorTimeout": "Časový limit vypršal. Skontrolujte pripojenie a skúste to znova. Ak problém pretrváva, kontaktujte nás v časti Nastavenia > Kontaktujte nás. Podrobnosti: {message}",
   "purchaseErrorNetworkError": "Vyskytol sa problém s pripojením. Skontrolujte sieťové pripojenie a skúste to znova. Ak problém pretrváva, kontaktujte nás v časti Nastavenia > Kontaktujte nás. Podrobnosti: {message}",
   "sixMonthPlan": "6-mesačný plán",
   "premiumContractPeriod": "Obdobie predplatného je jeden mesiac od dátumu nákupu.",

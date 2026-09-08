@@ -131,7 +131,7 @@
   "purchaseErrorRestoreFailed": "Maklumat pembelian terdahulu tidak ditemui. Semak akaun anda dan cuba lagi.",
   "purchaseErrorUserNotFound": "Pengguna tidak dapat disahkan. Mulakan semula aplikasi dan cuba lagi. Butiran: {message}",
   "purchaseErrorActivationPending": "Pengaktifan perkhidmatan berbayar masih belum selesai. Sila semak semula sebentar lagi.",
-  "purchaseErrorTimeout": "Masa tamat. Semak sambungan rangkaian anda dan cuba lagi. Jika masalah berterusan, hubungi kami melalui Tetapan > Hubungi. Butiran: {message}",
+  "purchaseErrorTimeout": "Masa menunggu tamat. Semak sambungan anda dan cuba lagi. Jika masalah berterusan, hubungi kami melalui Tetapan > Hubungi Kami. Butiran: {message}",
   "purchaseErrorNetworkError": "Berlaku masalah sambungan. Semak sambungan rangkaian anda dan cuba lagi. Jika masalah berterusan, hubungi kami melalui Tetapan > Hubungi Kami. Butiran: {message}",
   "sixMonthPlan": "Pelan 6 bulan",
   "premiumContractPeriod": "Tempoh langganan ialah satu bulan dari tarikh pembelian.",

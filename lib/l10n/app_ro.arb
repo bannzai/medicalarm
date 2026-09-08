@@ -131,7 +131,7 @@
   "purchaseErrorRestoreFailed": "Informațiile despre achizițiile anterioare nu au fost găsite. Verifică-ți contul și încearcă din nou.",
   "purchaseErrorUserNotFound": "Utilizatorul nu a putut fi verificat. Repornește aplicația și încearcă din nou. Detalii: {message}",
   "purchaseErrorActivationPending": "Activarea serviciului plătit nu este încă finalizată. Verificați din nou mai târziu.",
-  "purchaseErrorTimeout": "A expirat timpul de așteptare. Verificați conexiunea la rețea și încercați din nou. Dacă problema persistă, contactați-ne din Setări > Contact. Detalii: {message}",
+  "purchaseErrorTimeout": "A expirat timpul de așteptare. Verificați conexiunea și încercați din nou. Dacă problema persistă, contactați-ne din Setări > Contactați-ne. Detalii: {message}",
   "purchaseErrorNetworkError": "A apărut o problemă de conexiune. Verificați conexiunea la rețea și încercați din nou. Dacă problema persistă, contactați-ne din Setări > Contactați-ne. Detalii: {message}",
   "sixMonthPlan": "Plan de 6 luni",
   "premiumContractPeriod": "Perioada abonamentului este de o lună de la data achiziției.",

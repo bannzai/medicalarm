@@ -131,7 +131,7 @@
   "purchaseErrorRestoreFailed": "Ezin izan da aurreko erosketen informazioa aurkitu. Egiaztatu kontua eta saiatu berriro.",
   "purchaseErrorUserNotFound": "Ezin izan da erabiltzailea egiaztatu. Berrabiarazi aplikazioa eta saiatu berriro. Xehetasunak: {message}",
   "purchaseErrorActivationPending": "Ordainpeko zerbitzuaren aktibazioa ez da oraindik amaitu. Egiaztatu berriro pixka bat geroago.",
-  "purchaseErrorTimeout": "Denbora-muga gainditu da. Egiaztatu sareko konexioa eta saiatu berriro. Arazoak jarraitzen badu, jarri gurekin harremanetan Ezarpenak > Kontaktua atalean. Xehetasunak: {message}",
+  "purchaseErrorTimeout": "Denbora-muga gainditu da. Egiaztatu Interneteko konexioa eta saiatu berriro. Arazoak jarraitzen badu, jarri gurekin harremanetan Ezarpenak > Jarri gurekin harremanetan atalean. Xehetasunak: {message}",
   "purchaseErrorNetworkError": "Konexio-arazo bat gertatu da. Egiaztatu sareko konexioa eta saiatu berriro. Arazoak jarraitzen badu, jar zaitez gurekin harremanetan Ezarpenak > Jarri gurekin harremanetan aukeratik. Xehetasunak: {message}",
   "sixMonthPlan": "6 hilabeteko plana",
   "premiumContractPeriod": "Harpidetza-aldia hilabetekoa da, erosketa-datatik aurrera.",

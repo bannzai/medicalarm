@@ -131,7 +131,7 @@
   "purchaseErrorRestoreFailed": "A korábbi vásárlások adatai nem találhatók. Ellenőrizd a fiókodat, majd próbáld újra.",
   "purchaseErrorUserNotFound": "A felhasználó nem ellenőrizhető. Indítsd újra az alkalmazást, majd próbáld újra. Részletek: {message}",
   "purchaseErrorActivationPending": "A fizetős szolgáltatás aktiválása még nem fejeződött be. Kérjük, később ellenőrizze újra.",
-  "purchaseErrorTimeout": "Időtúllépés történt. Ellenőrizze a hálózati kapcsolatot, majd próbálja újra. Ha a probléma továbbra is fennáll, lépjen kapcsolatba velünk a Beállítások > Kapcsolat menüpontban. Részletek: {message}",
+  "purchaseErrorTimeout": "Időtúllépés történt. Ellenőrizze a kapcsolatot, majd próbálja újra. Ha a probléma továbbra is fennáll, lépjen kapcsolatba velünk a Beállítások > Kapcsolat menüpontban. Részletek: {message}",
   "purchaseErrorNetworkError": "Csatlakozási probléma történt. Ellenőrizze a hálózati kapcsolatot, majd próbálja újra. Ha a probléma továbbra is fennáll, lépjen kapcsolatba velünk a Beállítások > Kapcsolat menüpontban. Részletek: {message}",
   "sixMonthPlan": "6 hónapos csomag",
   "premiumContractPeriod": "Az előfizetés időtartama a vásárlás napjától számított egy hónap.",

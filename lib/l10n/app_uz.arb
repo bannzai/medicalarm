@@ -131,7 +131,7 @@
   "purchaseErrorRestoreFailed": "Avvalgi xaridlar haqidagi maʼlumot topilmadi. Hisobingizni tekshirib, qayta urinib ko‘ring.",
   "purchaseErrorUserNotFound": "Foydalanuvchini tasdiqlab bo‘lmadi. Ilovani qayta ishga tushirib, yana urinib ko‘ring. Tafsilotlar: {message}",
   "purchaseErrorActivationPending": "Pullik xizmatni faollashtirish hali yakunlanmagan. Iltimos, birozdan keyin qayta tekshiring.",
-  "purchaseErrorTimeout": "Vaqt tugadi. Tarmoq ulanishingizni tekshirib, qayta urinib ko‘ring. Muammo hal bo‘lmasa, Sozlamalar > Bog‘lanish bo‘limi orqali biz bilan bog‘laning. Tafsilotlar: {message}",
+  "purchaseErrorTimeout": "Vaqt tugadi. Ulanishingizni tekshirib, qayta urinib ko‘ring. Muammo hal bo‘lmasa, Sozlamalar > Biz bilan bog‘lanish orqali murojaat qiling. Tafsilotlar: {message}",
   "purchaseErrorNetworkError": "Ulanishda muammo yuz berdi. Tarmoq ulanishini tekshiring va qayta urinib ko‘ring. Muammo davom etsa, Sozlamalar > Biz bilan bog‘lanish orqali bizga murojaat qiling. Tafsilotlar: {message}",
   "sixMonthPlan": "6 oylik reja",
   "premiumContractPeriod": "Obuna muddati xarid qilingan kundan boshlab 1 oyni tashkil qiladi.",

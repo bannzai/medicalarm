@@ -131,7 +131,7 @@
   "purchaseErrorRestoreFailed": "Varasemate ostude teavet ei leitud. Kontrolli oma kontot ja proovi uuesti.",
   "purchaseErrorUserNotFound": "Kasutajat ei saanud kinnitada. Taaskäivitage rakendus ja proovige uuesti. Üksikasjad: {message}",
   "purchaseErrorActivationPending": "Tasulise teenuse aktiveerimine pole veel lõpule viidud. Kontrollige palun mõne aja pärast uuesti.",
-  "purchaseErrorTimeout": "Ühendus aegus. Kontrollige võrguühendust ja proovige uuesti. Kui probleem püsib, võtke meiega ühendust menüüs Seaded > Kontakt. Üksikasjad: {message}",
+  "purchaseErrorTimeout": "Ühenduse ajalõpp. Kontrollige oma internetiühendust ja proovige uuesti. Kui probleem püsib, võtke meiega ühendust menüüs Seaded > Võta ühendust. Üksikasjad: {message}",
   "purchaseErrorNetworkError": "Ühendusega tekkis probleem. Kontrollige võrguühendust ja proovige uuesti. Kui probleem püsib, võtke meiega ühendust menüüs Seaded > Võta ühendust. Üksikasjad: {message}",
   "sixMonthPlan": "6 kuu plaan",
   "premiumContractPeriod": "Tellimus kehtib üks kuu alates ostukuupäevast.",

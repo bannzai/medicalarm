@@ -131,7 +131,7 @@
   "purchaseErrorRestoreFailed": "Informationen zu früheren Käufen wurden nicht gefunden. Überprüfe deinen Account und versuche es erneut.",
   "purchaseErrorUserNotFound": "Der Nutzer konnte nicht überprüft werden. Starte die App neu und versuche es erneut. Details: {message}",
   "purchaseErrorActivationPending": "Die Aktivierung des kostenpflichtigen Dienstes ist noch nicht abgeschlossen. Bitte prüfen Sie es später erneut.",
-  "purchaseErrorTimeout": "Zeitüberschreitung. Bitte überprüfen Sie Ihre Netzwerkverbindung und versuchen Sie es erneut. Wenn das Problem weiterhin besteht, kontaktieren Sie uns über Einstellungen > Kontakt. Details: {message}",
+  "purchaseErrorTimeout": "Zeitüberschreitung. Überprüfen Sie Ihre Internetverbindung und versuchen Sie es erneut. Wenn das Problem weiterhin besteht, kontaktieren Sie uns unter Einstellungen > Kontakt. Details: {message}",
   "purchaseErrorNetworkError": "Es ist ein Verbindungsfehler aufgetreten. Bitte überprüfen Sie Ihre Netzwerkverbindung und versuchen Sie es erneut. Wenn das Problem weiterhin besteht, kontaktieren Sie uns unter Einstellungen > Kontakt. Details: {message}",
   "sixMonthPlan": "6-Monatsplan",
   "premiumContractPeriod": "Die Laufzeit des Abonnements beträgt einen Monat ab dem Kaufdatum.",

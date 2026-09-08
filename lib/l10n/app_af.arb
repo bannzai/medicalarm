@@ -131,7 +131,7 @@
   "purchaseErrorRestoreFailed": "Vorige aankoopinligting is nie gevind nie. Kontroleer jou rekening en probeer weer.",
   "purchaseErrorUserNotFound": "Ons kon nie die gebruiker verifieer nie. Herbegin die app en probeer weer. Besonderhede: {message}",
   "purchaseErrorActivationPending": "Premium-aktivering is nog nie voltooi nie. Gaan asseblief later weer na.",
-  "purchaseErrorTimeout": "Die versoek het ’n tydverstryking gehad. Gaan u netwerkverbinding na en probeer weer. As die probleem voortduur, kontak ons via Instellings > Kontak. Besonderhede: {message}",
+  "purchaseErrorTimeout": "Die versoek het ’n time-out bereik. Kontroleer u internetverbinding en probeer weer. As die probleem voortduur, kontak ons via Instellings > Kontak ons. Besonderhede: {message}",
   "purchaseErrorNetworkError": "Daar is ’n verbindingsprobleem. Gaan u netwerkverbinding na en probeer weer. As die probleem voortduur, kontak ons via Instellings > Kontak ons. Besonderhede: {message}",
   "sixMonthPlan": "6-maandeplan",
   "premiumContractPeriod": "Die intekenperiode is een maand vanaf die aankoopdatum.",
