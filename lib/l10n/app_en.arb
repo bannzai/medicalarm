@@ -209,7 +209,7 @@
   "youLabel": "You",
   "removeMemberConfirmTitle": "Remove this member?",
   "removeMemberConfirmMessage": "Remove {name} from the group",
-  "joinGroup": "Join a group",
+  "joinGroup": "Join Group",
   "invitationCodeInputLabel": "Invitation code (8 characters)",
   "invitationCodeInputHint": "Enter the 8-character code",
   "join": "Join",
