@@ -187,7 +187,7 @@
   "createGroup": "Створити групу",
   "groupName": "Назва групи",
   "groupNameInputHint": "Введіть назву групи",
-  "groupIcon": "Піктограма",
+  "groupIcon": "Значок",
   "groupMemberCount": "{count} учасників",
   "defaultGroupBadge": "За замовчуванням",
   "soloGroupName": "Мої групи",
