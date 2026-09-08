@@ -174,7 +174,7 @@
   "medicationPause": "Aktibatu medikazioa",
   "medicationPauseDescription": "Desaktibatzean, botiken pantailatik eta jakinarazpenetatik kenduko da.",
   "medicinePausedSnackbar": "Sendagaiaren hartzea aldi baterako pausatu da",
-  "medicationHistoryDeletedSnackbar": "Botikaren hartze-erregistroa desegin da",
+  "medicationHistoryDeletedSnackbar": "Botikak hartzearen erregistroa desegin da",
   "undo": "Desegin",
   "medicationHistoryReverted": "Botika hartzearen erregistroa ezeztatuta",
   "revertedTime": "Ezeztapen-ordua",

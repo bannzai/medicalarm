@@ -174,7 +174,7 @@
   "medicationPause": "Aktiver medisin",
   "medicationPauseDescription": "Når det slås av, fjernes det fra medisinbildet og varslingene.",
   "medicinePausedSnackbar": "Inntak av medisinen er midlertidig satt på pause",
-  "medicationHistoryDeletedSnackbar": "Registreringen av medisininntaket er angret",
+  "medicationHistoryDeletedSnackbar": "Registreringen av medisininntak er angret",
   "undo": "Angre",
   "medicationHistoryReverted": "Angre registrering av medisininntak",
   "revertedTime": "Kanselleringstid",

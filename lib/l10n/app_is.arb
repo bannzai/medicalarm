@@ -174,7 +174,7 @@
   "medicationPause": "Virkja lyf",
   "medicationPauseDescription": "Þegar slökkt er á þessu er lyfið tekið af lyfjaskjánum og úr tilkynningum.",
   "medicinePausedSnackbar": "Taka lyfsins hefur verið sett á tímabundið hlé",
-  "medicationHistoryDeletedSnackbar": "Skráning lyfjatöku hefur verið afturkölluð",
+  "medicationHistoryDeletedSnackbar": "Skráning lyfjatöku var afturkölluð",
   "undo": "Afturkalla",
   "medicationHistoryReverted": "Skráning lyfjatöku afturkölluð",
   "revertedTime": "Tími afturköllunar",

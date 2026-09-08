@@ -174,7 +174,7 @@
   "medicationPause": "Povolit užívání léku",
   "medicationPauseDescription": "Po vypnutí bude lék vyřazen z obrazovky užívání léků a z oznámení.",
   "medicinePausedSnackbar": "Užívání léku bylo dočasně pozastaveno",
-  "medicationHistoryDeletedSnackbar": "Záznam o užití léku byl zrušen",
+  "medicationHistoryDeletedSnackbar": "Záznam o užití léku byl vrácen zpět",
   "undo": "Zpět",
   "medicationHistoryReverted": "Zrušení záznamu o užití léku",
   "revertedTime": "Čas zrušení",

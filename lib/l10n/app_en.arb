@@ -174,7 +174,7 @@
   "medicationPause": "Enable medication",
   "medicationPauseDescription": "When turned off, it will be excluded from the medication screen and notifications.",
   "medicinePausedSnackbar": "Medication intake has been temporarily paused",
-  "medicationHistoryDeletedSnackbar": "Medication record removed",
+  "medicationHistoryDeletedSnackbar": "Medication record undone",
   "undo": "Undo",
   "medicationHistoryReverted": "Medication record canceled",
   "revertedTime": "Canceled at",

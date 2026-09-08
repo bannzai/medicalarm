@@ -174,7 +174,7 @@
   "medicationPause": "Aktifkan ubat",
   "medicationPauseDescription": "Apabila dimatikan, ubat ini tidak akan dipaparkan pada skrin ubat dan dalam pemberitahuan.",
   "medicinePausedSnackbar": "Pengambilan ubat dijeda buat sementara waktu",
-  "medicationHistoryDeletedSnackbar": "Rekod pengambilan ubat telah dibatalkan",
+  "medicationHistoryDeletedSnackbar": "Rekod pengambilan ubat dibatalkan",
   "undo": "Buat asal",
   "medicationHistoryReverted": "Pembatalan rekod pengambilan ubat",
   "revertedTime": "Masa pembatalan",
