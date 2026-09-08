@@ -108,7 +108,7 @@
   "lossOfAppetite": "Gosea galtzea",
   "chestTightness": "Bularretako tentsioa",
   "insomnia": "Insomnioa",
-  "monthlyPlanDiscountFormat": "Hilabetean {percent}% murrizketa",
+  "monthlyPlanDiscountFormat": "%{percent}eko deskontua hileko planarekin alderatuta",
   "purchaseErrorUnknown": "Ezarpen ezezaguna gertatu da. Itxaroten itzultzean saiatu mesedez. Ezarri > Kontsulta bidez jarri kontaktuan ez bada konpontzen. Xehetasunak: {message}",
   "purchaseErrorStoreProblem": "{storeName}n errore bat gertatu da. Mesedez, itxaron batzuetan eta saiatu berriro.",
   "purchaseErrorInvalidPayment": "Orda ezin izan da. Mesedez, egiaztatu ordainketa-metodoa baliogarria den eta saiatu berriro.",

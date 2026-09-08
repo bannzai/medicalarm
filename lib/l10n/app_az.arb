@@ -108,7 +108,7 @@
   "lossOfAppetite": "İştahsızlıq",
   "chestTightness": "Döşdə gərginlik",
   "insomnia": "Yuxusuzluq",
-  "monthlyPlanDiscountFormat": "Aylıq ödənişdən {percent}% END",
+  "monthlyPlanDiscountFormat": "Aylıq plandan {percent}% endirim",
   "purchaseErrorUnknown": "Bilinməyən bir xəta baş verdi. Zəhmət olmasa bir müddət gözləyin və yenidən cəhd edin. Probleminiz həll olunmazsa, ayarlar > Sorğu bölməsindən bizimlə əlaqə saxlayın. Ətraflı: {message}",
   "purchaseErrorStoreProblem": "{storeName} ilə bir səhv baş verdi. Lütfən bir az gözləyin və yenidən cəhd edin.",
   "purchaseErrorInvalidPayment": "Ödəniş uğursuz oldu. Zəhmət olmasa, etibarlı ödəniş metodunu yoxlayın və yenidən cəhd edin.",

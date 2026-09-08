@@ -108,7 +108,7 @@
   "lossOfAppetite": "Humbje e oreksit",
   "chestTightness": "Tendosje në gjoks",
   "insomnia": "Pagjumësi",
-  "monthlyPlanDiscountFormat": "Zbritje prej {percent}% OFF nga plani mujor",
+  "monthlyPlanDiscountFormat": "{percent}% zbritje krahasuar me planin mujor",
   "purchaseErrorUnknown": "Ka një gabim të panjohur. Ju lutemi provoni përsëri më vonë. Nëse problemi vazhdon, ju lutemi kontaktoni përmes Cilësimeve > Kontakt. Detaje: {message}",
   "purchaseErrorStoreProblem": "Ka ndodhi një gabim në {storeName}. Ju lutemi prisni pak dhe provoni përsëri.",
   "purchaseErrorInvalidPayment": "Pagesa dështoi. Ju lutemi kontrolloni nëse mënyra e pagesës është e vlefshme dhe provoni përsëri.",

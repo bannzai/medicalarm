@@ -108,7 +108,7 @@
   "lossOfAppetite": "ભૂખ ન લાગવી",
   "chestTightness": "સ્તનમાં ખેંચાણ",
   "insomnia": "અનિદ્રા",
-  "monthlyPlanDiscountFormat": "માસિક ભેટે થી {percent}% છૂટ",
+  "monthlyPlanDiscountFormat": "માસિક પ્લાન કરતાં {percent}% છૂટ",
   "purchaseErrorUnknown": "અંકરૂપમાં કોઈ અજ્ઞાત ભૂલ સર્જાઈ છે. કૃપા કરીને એક મિનિટ રીવ્યુ કરશો અને પછીથી ફરી પ્રયાસ કરો. જો આ પ્રોબલ્મ નહીં ઉકેલાય તો કૃપા કરીને પસંદગીઓ > સંપર્ક પર જાઓ અને અમારો સંપર્ક કરો. વિગતવાર: {message}",
   "purchaseErrorStoreProblem": "{storeName}માં ભૂલ બની રહી છે. કૃપા કરીને થોડીવાર રાહ જુઓ અને ફરીથી પ્રયાસ કરો.",
   "purchaseErrorInvalidPayment": "તમારો ચૂકવણી અસફળ રહ્યો છે. કૃપા કરીને માન્ય ચુકવણી પદ્ધતિ છે કે કેમ તે તપાસો અને ફરી પ્રયાસ કરો.",

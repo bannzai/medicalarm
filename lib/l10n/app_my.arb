@@ -108,7 +108,7 @@
   "lossOfAppetite": "အစားအသောက်ပျက်ခြင်း",
   "chestTightness": "ရင်သားတင်းကျပ်ခြင်း",
   "insomnia": "အိပ်မပျော်ခြင်း",
-  "monthlyPlanDiscountFormat": "Diskaun {percent}% daripada pelan bulanan",
+  "monthlyPlanDiscountFormat": "လစဉ်အစီအစဉ်ထက် {percent}% လျှော့စျေး",
   "purchaseErrorUnknown": "Ralat tidak diketahui telah berlaku. Sila tunggu sebentar dan cuba lagi. Jika masalah ini berlanjutan, sila hubungi kami melalui Tetapan > Pertanyaan. Maklumat lanjut: {message}",
   "purchaseErrorStoreProblem": "Error berlaku di {storeName}. Sila tunggu sebentar dan cuba lagi.",
   "purchaseErrorInvalidPayment": "Pembayaran gagal. Sila semak sama ada kaedah pembayaran anda sah dan cuba lagi.",

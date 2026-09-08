@@ -108,7 +108,7 @@
   "lossOfAppetite": "Appetitlosigkeit",
   "chestTightness": "Brustspanna",
   "insomnia": "Schlaflosigkeit",
-  "monthlyPlanDiscountFormat": "{percent}% RABAT vom Monatsabo",
+  "monthlyPlanDiscountFormat": "{percent}% Rabatt gegenüber monatlich",
   "purchaseErrorUnknown": "Es isch e unerklärlichs Fehler aufgetreten. Bitte versuech's später no einisch. Wenn es nöd gelöst wird, kontaktier bitte über Einstellungen > Kontakt. Details: {message}",
   "purchaseErrorStoreProblem": "Es isch e Fehler bi {storeName} aufgetrete. Bitte versuech ä chli zuewarte und es nomol probiere.",
   "purchaseErrorInvalidPayment": "D'Zahlung isch nöd geglückt. Bitte überprüefe Sie, öb e gültigi Zahlungsmethode vorliegt, und versueche Sie es nomal.",

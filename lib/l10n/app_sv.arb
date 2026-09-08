@@ -108,7 +108,7 @@
   "lossOfAppetite": "Aptitlöshet",
   "chestTightness": "Spända bröst",
   "insomnia": "Sömnlöshet",
-  "monthlyPlanDiscountFormat": "{percent}% rabatt på månadsabonnemang",
+  "monthlyPlanDiscountFormat": "{percent}% rabatt jämfört med månadsplanen",
   "purchaseErrorUnknown": "Ett okänt fel har inträffat. Vänta en stund och försök igen. Om problemet kvarstår, vänligen kontakta oss via Inställningar > Kontakta oss. Detaljer: {message}",
   "purchaseErrorStoreProblem": "Ett fel har uppstått i {storeName}. Vänligen försök igen om en stund.",
   "purchaseErrorInvalidPayment": "Betalningen misslyckades. Vänligen kontrollera om betalningsmetoden är giltig och försök igen.",

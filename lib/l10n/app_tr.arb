@@ -108,7 +108,7 @@
   "lossOfAppetite": "İştahsızlık",
   "chestTightness": "Göğüslerde gerginlik",
   "insomnia": "Uykusuzluk",
-  "monthlyPlanDiscountFormat": "Aylık plandan {percent}% indirim",
+  "monthlyPlanDiscountFormat": "Aylık plana göre %{percent} indirim",
   "purchaseErrorUnknown": "Bilinmeyen bir hata oluştu. Lütfen bir süre bekleyip tekrar deneyin. Çözülmezse, Ayarlar > İletişim bölümünden bizimle iletişime geçin. Ayrıntılar: {message}",
   "purchaseErrorStoreProblem": "{storeName} ile bir hata oluştu. Lütfen bir süre bekleyip tekrar deneyin.",
   "purchaseErrorInvalidPayment": "Ödeme işlemi başarısız oldu. Lütfen geçerli bir ödeme yöntemi olup olmadığını kontrol edin ve tekrar deneyin.",

@@ -108,7 +108,7 @@
   "lossOfAppetite": "Appetitløshed",
   "chestTightness": "Spænding i brysterne",
   "insomnia": "Søvnløshed",
-  "monthlyPlanDiscountFormat": "{percent}% rabat på den månedlige pris",
+  "monthlyPlanDiscountFormat": "{percent}% rabat i forhold til månedsplanen",
   "purchaseErrorUnknown": "Der opstod en fejl af ukendt årsag. Vent lidt og prøv igen senere. Hvis problemet ikke løses, bedes du kontakte os via Indstillinger > Kontakt. Detaljer: {message}",
   "purchaseErrorStoreProblem": "Der er opstået en fejl i {storeName}. Vent venligst et øjeblik og prøv igen.",
   "purchaseErrorInvalidPayment": "Betalingen mislykkedes. Kontroller, om din betalingsmetode er gyldig, og prøv igen.",

@@ -108,7 +108,7 @@
   "lossOfAppetite": "Pierderea poftei de mâncare",
   "chestTightness": "Tensiune la nivelul sânilor",
   "insomnia": "Insomnie",
-  "monthlyPlanDiscountFormat": "{percent}% DISCOUNT față de planul lunar",
+  "monthlyPlanDiscountFormat": "{percent}% reducere față de planul lunar",
   "purchaseErrorUnknown": "A apărut o eroare necunoscută. Vă rugăm să așteptați și să încercați din nou. Dacă problema persistă, vă rugăm să ne contactați din Setări > Întrebare. Detalii: {message}",
   "purchaseErrorStoreProblem": "A apărut o eroare la {storeName}. Te rugăm să aștepți câteva momente și să încerci din nou.",
   "purchaseErrorInvalidPayment": "Plata a eșuat. Verificați dacă metoda de plată este validă și încercați din nou.",

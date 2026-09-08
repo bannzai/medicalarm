@@ -108,7 +108,7 @@
   "lossOfAppetite": "Ruokahaluttomuus",
   "chestTightness": "Rintojen pingotus",
   "insomnia": "Unettomuus",
-  "monthlyPlanDiscountFormat": "{percent}% alennus kuukausihinnasta",
+  "monthlyPlanDiscountFormat": "{percent}% alennus kuukausitilaukseen verrattuna",
   "purchaseErrorUnknown": "Tuntematon virhe on tapahtunut. Yritä uudelleen myöhemmin. Jos ongelma ei ratkea, ota yhteyttä kohdasta Asetukset > Ota yhteyttä. Yksityiskohdat: {message}",
   "purchaseErrorStoreProblem": "Virhe esiintyy kaupassa {storeName}. Odota hetki ja yritä uudelleen.",
   "purchaseErrorInvalidPayment": "Maksaminen epäonnistui. Varmista, että maksutapa on voimassa, ja yritä uudelleen.",

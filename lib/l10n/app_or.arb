@@ -108,7 +108,7 @@
   "lossOfAppetite": "ଭୋକ ନ ଲାଗିବା",
   "chestTightness": "ସ୍ତନରେ ଟାଣ",
   "insomnia": "ଅନିଦ୍ରା",
-  "monthlyPlanDiscountFormat": "{percent}% ລົດ ຈາກ ແຜນ ລາຄາ ຕໍ່ເດືອນ",
+  "monthlyPlanDiscountFormat": "ମାସିକ ଯୋଜନା ତୁଳନାରେ {percent}% ରିହାତି",
   "purchaseErrorUnknown": "Unknown error occurred. Please try again after some time. If the issue persists, please contact us via Settings > Inquiry. Details: {message}",
   "purchaseErrorStoreProblem": "{storeName}ରେ ଏକ ତ୍ରୁଟି ଘଟୁଛି। କିଛି ସମୟ ଅପେକ୍ଷା କରନ୍ତୁ ଏବଂ ପୁନଃପରୀକ୍ଷା କରନ୍ତୁ।",
   "purchaseErrorInvalidPayment": "भुगतान विफल रहा। कृपया मान्य भुगतान विधि की जांच करें और पुनः प्रयास करें।",

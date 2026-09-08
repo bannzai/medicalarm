@@ -108,7 +108,7 @@
   "lossOfAppetite": "Hilang selera makan",
   "chestTightness": "Payudara terasa tegang",
   "insomnia": "Insomnia",
-  "monthlyPlanDiscountFormat": "Diskaun {percent}% daripada pelan bulanan",
+  "monthlyPlanDiscountFormat": "Diskaun {percent}% berbanding pelan bulanan",
   "purchaseErrorUnknown": "Ralat yang tidak diketahui telah berlaku. Sila cuba lagi selepas beberapa ketika. Jika masalah ini berlanjutan, sila hubungi kami melalui Pengaturan > Pertanyaan. Maklumat lanjut: {message}",
   "purchaseErrorStoreProblem": "Ralat berlaku di {storeName}. Sila tunggu seketika dan cuba lagi.",
   "purchaseErrorInvalidPayment": "Pembayaran gagal. Sila semak sama ada kaedah pembayaran anda adalah sah sebelum cuba lagi.",

@@ -108,7 +108,7 @@
   "lossOfAppetite": "אובדן תיאבון",
   "chestTightness": "רגישות בשדיים",
   "insomnia": "נדודי שינה",
-  "monthlyPlanDiscountFormat": "הנחה של {percent}% על התוכנית החודשית",
+  "monthlyPlanDiscountFormat": "{percent}% הנחה לעומת התוכנית החודשית",
   "purchaseErrorUnknown": "אירעה שגיאה בלתי ידועה. אנא המתן מעט ונסה שוב. אם הבעיה לא נפתרת, פנה אלינו דרך הגדרות > פנייה. פרטים: {message}",
   "purchaseErrorStoreProblem": "שגיאה מתרחשת ב-{storeName}. אנא המתן זמן מה ונסו שוב.",
   "purchaseErrorInvalidPayment": "שילוב התשלום נכשל. אנא ודא שזהו אמצעי תשלום תקף ונסה שוב.",

@@ -108,7 +108,7 @@
   "lossOfAppetite": "ਭੁੱਖ ਨਾ ਲੱਗਣਾ",
   "chestTightness": "ਛਾਤੀ ਵਿੱਚ ਖਿਚਾਅ",
   "insomnia": "ਨੀਂਦ ਨਾ ਆਉਣਾ",
-  "monthlyPlanDiscountFormat": "ਮਾਸਿਕ ਪਲਾਨ ਤੋਂ {percent}% ਛੋਟ",
+  "monthlyPlanDiscountFormat": "ਮਹੀਨਾਵਾਰ ਪਲਾਨ ਨਾਲੋਂ {percent}% ਛੋਟ",
   "purchaseErrorUnknown": "ਅਣਜਾਣ ਗਲਤੀ ਹੋ ਗਈ ਹੈ। ਕਿਰਪਾ ਕਰਕੇ ਕੁਝ ਸਮਾਂ ਬਾਅਦ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ। ਜੇ ਇਹ ਸੰਕਲਪਨਾ ਹੱਲ ਨਹੀਂ ਹੁੰਦੀ ਤਾਂ ਕਿਰਪਾ ਕਰਕੇ ਸੈਟਿੰਗ > ਪੁੱਛਗਿੱਛ ਦੇ ਮਾਰਗ ਦੁਆਰਾ ਸਾਨੂੰ ਸੰਪਰਕ ਕਰੋ। ਵੇਰਵਾ: {message}",
   "purchaseErrorStoreProblem": "{storeName} ਨੂਂ ਕਿਸੇ ਗਲਤੀ ਦਾ ਸਾਹਮਣਾ ਕਰਨਾ ਪੈ ਰਿਹਾ ਹੈ। ਕਿਰਪਾ ਕਰਕੇ ਕੁਝ ਸਮਾਂ ਛੱਡ ਕੇ ਮੁੜ ਕੋਸ਼ਿਸ਼ ਕਰੋ।",
   "purchaseErrorInvalidPayment": "ਭੁਗਤਾਨ ਵਿੱਚ ਅਸਫਲਤਾ ਹੋਈ ਹੈ। ਕਿਰਪਾ ਕਰਕੇ ਸਹੀ ਭੁਗਤਾਨ ਵਿਧੀ ਦੀ ਜਾਂਚ ਕਰੋ ਅਤੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ",

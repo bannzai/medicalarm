@@ -108,7 +108,7 @@
   "lossOfAppetite": "Απώλεια όρεξης",
   "chestTightness": "Τάση στο στήθος",
   "insomnia": "Αϋπνία",
-  "monthlyPlanDiscountFormat": "Έκπτωση {percent}% από την μηνιαία συνδρομή",
+  "monthlyPlanDiscountFormat": "{percent}% έκπτωση σε σχέση με το μηνιαίο πρόγραμμα",
   "purchaseErrorUnknown": "Ένα άγνωστο σφάλμα έχει προκύψει. Δοκιμάστε ξανά μετά από λίγο. Εάν το πρόβλημα δεν λυθεί, παρακαλούμε επικοινωνήστε μέσω Ρυθμίσεις > Επικοινωνία. Λεπτομέρειες: {message}",
   "purchaseErrorStoreProblem": "Σφάλμα συνέβη στο {storeName}. Παρακαλώ περιμένετε λίγο και δοκιμάστε ξανά.",
   "purchaseErrorInvalidPayment": "Η πληρωμή απέτυχε. Ελέγξτε αν η μέθοδος πληρωμής είναι έγκυρη και προσπαθήστε ξανά.",

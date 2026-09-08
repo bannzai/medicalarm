@@ -108,7 +108,7 @@
   "lossOfAppetite": "የምግብ ፍላጎት ማጣት",
   "chestTightness": "የጡት መጨናነቅ",
   "insomnia": "Անքնություն",
-  "monthlyPlanDiscountFormat": "ወርሃዊ በ{percent}% ቅነስ",
+  "monthlyPlanDiscountFormat": "{percent}% ከወርሃዊ ያነሰ",
   "purchaseErrorUnknown": "በዚህ የተደረገ የመረጃ እቅፍ ይኖርበታል። ጊዜውን እና እንደገና ይሞክሩ። እንደሚታይ ያልተፈጸመ ከሆነ እባኮትን ወደ ቅንብር > እንደገና መግለጫ ይደርሱ። ዝርዝር: {message}",
   "purchaseErrorStoreProblem": "{storeName} ውስጥ ግድም ተከስቷል። እ παρα አነሰ ጊዜ ይቀይሩና እንደገና ይሞክሩ።",
   "purchaseErrorInvalidPayment": "እቅፍ ያልተደረገባት ነው። እባኮትን የተጠቃሚ አስተዳደር እና የቅዱስ ሰነድ የሚጠቀም የወንድም እቅፍ ያልተደረገባት ማስጠንቀቅ ይፈቅድ።",

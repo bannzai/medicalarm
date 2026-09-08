@@ -108,7 +108,7 @@
   "lossOfAppetite": "Perda de apetito",
   "chestTightness": "Tensión mamaria",
   "insomnia": "Insomnio",
-  "monthlyPlanDiscountFormat": "{percent}% de desconto sobre a tarifa mensal",
+  "monthlyPlanDiscountFormat": "{percent}% de desconto fronte ao plan mensual",
   "purchaseErrorUnknown": "Produciuse un errore descoñecido. Por favor, inténtao de novo máis tarde. Se non se resolve, ponte en contacto connosco a través de Configuración > Consultas. Detalles: {message}",
   "purchaseErrorStoreProblem": "Está a ocorrer un erro en {storeName}. Por favor, agarde un momento e volva a intentálo.",
   "purchaseErrorInvalidPayment": "Non se puido procesar o pagamento. Verifique se o método de pagamento é válido e inténtao de novo.",

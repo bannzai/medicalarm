@@ -108,7 +108,7 @@
   "lossOfAppetite": "Colli archwaeth",
   "chestTightness": "Tyndra yn y fron",
   "insomnia": "Insomnia",
-  "monthlyPlanDiscountFormat": "{percent}% IFF YN BLAEN",
+  "monthlyPlanDiscountFormat": "{percent}% i ffwrdd o gymharu â’r cynllun misol",
   "purchaseErrorUnknown": "Mae gwall anhysbys wedi digwydd. Os gwelwch yn dda rhowch amser a phrofwch eto. Os nad yw'n cael ei ddatrys, cysylltwch â ni trwy fynd i Ddewisiadau > Cysylltiad. Manylion: {message}",
   "purchaseErrorStoreProblem": "Mae gwall wedi digwydd yn {storeName}. Os gwelwch yn dda, aroswch am ychydig a cheisiwch eto.",
   "purchaseErrorInvalidPayment": "Methiant y talu. Gwiriwch a yw'r dull talu a ddefnyddiwch yn ddilys cyn trio eto.",

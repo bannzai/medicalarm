@@ -108,7 +108,7 @@
   "lossOfAppetite": "Тәбеттің жоғалуы",
   "chestTightness": "Кеуденің керілуі",
   "insomnia": "Ұйқысыздық",
-  "monthlyPlanDiscountFormat": "Ай сайынғы жоспардан {percent}% жеңілдік",
+  "monthlyPlanDiscountFormat": "Айлық жоспардан {percent}% жеңілдік",
   "purchaseErrorUnknown": "Түсініксіз қате пайда болды. Кейінірек қайтадан байқап көріңіз. Егер шешілмесе, Параметрлер > Кері байланыс арқылы бізбен хабарласыңыз. Толығырақ: {message}",
   "purchaseErrorStoreProblem": "{storeName} дүкенінде қате орын алды. Біраз уақыттан соң қайтадан көріп шығыңыз.",
   "purchaseErrorInvalidPayment": "Төлем сәтсіз аяқталды. Қайтадан тырыспас бұрын, жарамды төлем әдісін тексеріңіз",

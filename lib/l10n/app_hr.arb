@@ -108,7 +108,7 @@
   "lossOfAppetite": "Gubitak apetita",
   "chestTightness": "Napetost u grudima",
   "insomnia": "Nesanica",
-  "monthlyPlanDiscountFormat": "Popust od {percent}% s mjesečnog plana",
+  "monthlyPlanDiscountFormat": "{percent}% popusta u odnosu na mjesečni plan",
   "purchaseErrorUnknown": "Dogodila se nepoznata greška. Pokušajte ponovo nakon nekog vremena. Ako se problem ne riješi, kontaktirajte nas putem Postavke > Upit. Detalji: {message}",
   "purchaseErrorStoreProblem": "Dogodila se pogreška u {storeName}. Molimo pokušajte ponovo za nekoliko minuta.",
   "purchaseErrorInvalidPayment": "Plaćanje nije uspjelo. Provjerite je li vaša metoda plaćanja valjana i pokušajte ponovo.",

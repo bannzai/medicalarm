@@ -108,7 +108,7 @@
   "lossOfAppetite": "भूख न लगना",
   "chestTightness": "स्तनों में खिंचाव",
   "insomnia": "अनिद्रा",
-  "monthlyPlanDiscountFormat": "महीने के प्लान पर {percent}% छूट",
+  "monthlyPlanDiscountFormat": "मासिक प्लान की तुलना में {percent}% की छूट",
   "purchaseErrorUnknown": "अज्ञात त्रुटि हुई है। कृपया कुछ समय बाद पुनः प्रयास करें। यदि समस्या हल नहीं होती है, तो कृपया सेटिंग्स > संपर्क करके हमसे संपर्क करें। विवरण: {message}",
   "purchaseErrorStoreProblem": "{storeName} में एक त्रुटि उत्पन्न हो रही है। कृपया कुछ समय बाद पुनः प्रयास करें।",
   "purchaseErrorInvalidPayment": "भुगतान विफल हो गया है। कृपया सुनिश्चित करें कि भुगतान विधि मान्य है और फिर से प्रयास करें।",

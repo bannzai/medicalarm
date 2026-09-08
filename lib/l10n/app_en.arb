@@ -108,7 +108,7 @@
   "lossOfAppetite": "Loss of appetite",
   "chestTightness": "Breast tenderness",
   "insomnia": "Insomnia",
-  "monthlyPlanDiscountFormat": "{percent}% OFF from monthly plan",
+  "monthlyPlanDiscountFormat": "{percent}% off monthly",
   "purchaseErrorUnknown": "An unknown error has occurred. Please wait and try again. If the problem persists, please contact us from Settings > Inquiry. Details: {message}",
   "purchaseErrorStoreProblem": "An error has occurred at {storeName}. Please wait a moment and try again.",
   "purchaseErrorInvalidPayment": "Payment failed. Please check if your payment method is valid and try again.",

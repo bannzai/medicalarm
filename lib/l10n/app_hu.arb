@@ -108,7 +108,7 @@
   "lossOfAppetite": "Étvágytalanság",
   "chestTightness": "Mellfeszülés",
   "insomnia": "Álmatlanság",
-  "monthlyPlanDiscountFormat": "{percent}% kedvezmény a havi díjból",
+  "monthlyPlanDiscountFormat": "{percent}% kedvezmény a havi csomaghoz képest",
   "purchaseErrorUnknown": "Okkalmatlan hiba történt. Kérem, próbálja újra egy későbbi időpontban. Ha a probléma továbbra is fennáll, kérjük, lépjen kapcsolatba velünk a Beállítások > Kapcsolatfelvétel menüpont alatt. Részletek: {message}",
   "purchaseErrorStoreProblem": "Hiba történt a {storeName} alkalmazásban. Kérjük, várjon egy kicsit, és próbálja meg újra.",
   "purchaseErrorInvalidPayment": "A fizetés nem sikerült. Kérjük, ellenőrizze, hogy érvényes-e a fizetési mód, majd próbálja újra.",

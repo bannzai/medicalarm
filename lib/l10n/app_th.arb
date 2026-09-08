@@ -108,7 +108,7 @@
   "lossOfAppetite": "เบื่ออาหาร",
   "chestTightness": "คัดตึงเต้านม",
   "insomnia": "นอนไม่หลับ",
-  "monthlyPlanDiscountFormat": "ส่วนลด {percent}% จากแผนรายเดือน",
+  "monthlyPlanDiscountFormat": "ลด {percent}% เมื่อเทียบกับรายเดือน",
   "purchaseErrorUnknown": "เกิดข้อผิดพลาดที่ไม่ทราบสาเหตุ กรุณาลองอีกครั้งในภายหลัง หากยังไม่สามารถแก้ไขได้ กรุณาติดต่อผ่าน เมนู > สอบถาม รายละเอียด: {message}",
   "purchaseErrorStoreProblem": "เกิดข้อผิดพลาดที่ {storeName} กรุณาลองอีกครั้งในอีกสักครู่",
   "purchaseErrorInvalidPayment": "การชำระเงินล้มเหลว กรุณาตรวจสอบวิธีการชำระเงินของคุณอีกครั้งและลองอีกครั้ง",

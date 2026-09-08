@@ -108,7 +108,7 @@
   "lossOfAppetite": "Perte d’appétit",
   "chestTightness": "Tension mammaire",
   "insomnia": "Insomnie",
-  "monthlyPlanDiscountFormat": "{percent}% de réduction par rapport à l'abonnement mensuel",
+  "monthlyPlanDiscountFormat": "{percent}% de réduction par rapport au forfait mensuel",
   "purchaseErrorUnknown": "Une erreur inconnue s'est produite. Veuillez réessayer après un certain temps. Si le problème persiste, veuillez nous contacter via Paramètres > Contactez-nous. Détails : {message}",
   "purchaseErrorStoreProblem": "Une erreur s'est produite dans {storeName}. Veuillez patienter un moment et réessayez.",
   "purchaseErrorInvalidPayment": "Le paiement a échoué. Veuillez vérifier si votre méthode de paiement est valide puis réessayez.",

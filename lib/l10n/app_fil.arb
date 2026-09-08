@@ -108,7 +108,7 @@
   "lossOfAppetite": "Kawalan ng gana sa pagkain",
   "chestTightness": "Paninikip ng dibdib",
   "insomnia": "Hindi pagkakatulog",
-  "monthlyPlanDiscountFormat": "{percent}% OFF mula sa buwanang bayad",
+  "monthlyPlanDiscountFormat": "{percent}% mas mura kaysa buwan-buwan",
   "purchaseErrorUnknown": "Isang hindi natukoy na error ang nangyari. Mangyaring subukan muli pagkatapos ng ilang sandali. Kung hindi ito malulutas, mangyaring makipag-ugnay sa pamamagitan ng Mga Setting > Pagtatanong. Detalye: {message}",
   "purchaseErrorStoreProblem": "May naganap na error sa {storeName}. Mangyaring maghintay ng ilang sandali at subukang muli.",
   "purchaseErrorInvalidPayment": "Nabigo ang pagbabayad. Mangyaring suriin kung ang iyong paraan ng pagbabayad ay wasto at subukan muli.",

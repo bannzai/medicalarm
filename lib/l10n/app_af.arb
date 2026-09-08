@@ -108,7 +108,7 @@
   "lossOfAppetite": "Eetlusverlies",
   "chestTightness": "Borsspanning",
   "insomnia": "Slapeloosheid",
-  "monthlyPlanDiscountFormat": "{percent}%AF van maandelikse plan",
+  "monthlyPlanDiscountFormat": "{percent}% afslag teenoor maandeliks",
   "purchaseErrorUnknown": "'n Onbekende fout het voorgekom. Probeer asseblief weer na 'n rukkie. As nie opgelos nie, kontak ons asseblief via Instellings > Navraag. Besonderhede: {message}",
   "purchaseErrorStoreProblem": "Daar is 'n fout by {storeName}. Wag asseblief 'n bietjie en probeer weer.",
   "purchaseErrorInvalidPayment": "Die betaling het misluk. Kontroleer asseblief of dit 'n geldige betaalmetode is en probeer weer.",

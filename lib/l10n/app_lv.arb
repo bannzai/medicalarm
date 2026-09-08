@@ -108,7 +108,7 @@
   "lossOfAppetite": "Apetītes zudums",
   "chestTightness": "Krūšu jutīgums",
   "insomnia": "Bezmiegs",
-  "monthlyPlanDiscountFormat": "{percent}% ATLAIDE no mēneša plāna",
+  "monthlyPlanDiscountFormat": "Par {percent}% lētāk nekā mēneša plāns",
   "purchaseErrorUnknown": "Radās nezināma kļūda. Lūdzu, mēģiniet vēlreiz pēc kāda laika. Ja problēma joprojām pastāv, sazinieties ar mums, dodoties uz Iestatījumi > Jautājumi. Detalizēti: {message}",
   "purchaseErrorStoreProblem": "{storeName} ir radusies kļūda. Lūdzu, pagaidiet brīdi un mēģiniet vēlreiz.",
   "purchaseErrorInvalidPayment": "Maksājums neizdevās. Lūdzu, pārbaudiet, vai maksājuma veids ir derīgs, un mēģiniet vēlreiz.",
