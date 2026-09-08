@@ -134,7 +134,7 @@
   "purchaseErrorTimeout": "Masa menunggu tamat. Semak sambungan anda dan cuba lagi. Jika masalah berterusan, hubungi kami melalui Tetapan > Hubungi Kami. Butiran: {message}",
   "purchaseErrorNetworkError": "Masalah sambungan berlaku. Semak sambungan anda dan cuba lagi. Jika masalah berterusan, hubungi kami melalui Tetapan > Hubungi Kami. Butiran: {message}",
   "sixMonthPlan": "Pelan 6 bulan",
-  "premiumContractPeriod": "Tempoh langganan ialah satu bulan dari tarikh pembelian.",
+  "premiumContractPeriod": "Tempoh langganan ialah 1 bulan dari tarikh pembelian.",
   "privacyPolicy": "Dasar Privasi",
   "termsOfService": "Syarat Perkhidmatan",
   "specifiedCommercialTransactionAct": "Pendedahan menurut Akta Transaksi Komersial Tertentu",

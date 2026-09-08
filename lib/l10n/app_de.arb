@@ -134,7 +134,7 @@
   "purchaseErrorTimeout": "Zeitüberschreitung. Überprüfen Sie Ihre Internetverbindung und versuchen Sie es erneut. Wenn das Problem weiterhin besteht, kontaktieren Sie uns unter Einstellungen > Kontakt. Details: {message}",
   "purchaseErrorNetworkError": "Es ist ein Verbindungsfehler aufgetreten. Überprüfen Sie Ihre Verbindung und versuchen Sie es erneut. Wenn das Problem weiterhin besteht, kontaktieren Sie uns über Einstellungen > Kontakt. Details: {message}",
   "sixMonthPlan": "6-Monatsplan",
-  "premiumContractPeriod": "Die Laufzeit des Abonnements beträgt einen Monat ab dem Kaufdatum.",
+  "premiumContractPeriod": "Der Vertragszeitraum beträgt 1 Monat ab dem Kaufdatum.",
   "privacyPolicy": "Datenschutzerklärung",
   "termsOfService": "Nutzungsbedingungen",
   "specifiedCommercialTransactionAct": "Angaben gemäß dem Gesetz über bestimmte Handelstransaktionen",

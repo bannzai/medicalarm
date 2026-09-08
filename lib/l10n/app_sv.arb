@@ -134,7 +134,7 @@
   "purchaseErrorTimeout": "Tidsgränsen överskreds. Kontrollera anslutningen och försök igen. Om problemet kvarstår kan du kontakta oss via Inställningar > Kontakta oss. Detaljer: {message}",
   "purchaseErrorNetworkError": "Ett anslutningsproblem uppstod. Kontrollera anslutningen och försök igen. Om problemet kvarstår kan du kontakta oss via Inställningar > Kontakta oss. Detaljer: {message}",
   "sixMonthPlan": "6-månadersplan",
-  "premiumContractPeriod": "Prenumerationsperioden är en månad från inköpsdatumet.",
+  "premiumContractPeriod": "Prenumerationsperioden är 1 månad från inköpsdatumet.",
   "privacyPolicy": "Integritetspolicy",
   "termsOfService": "Användarvillkor",
   "specifiedCommercialTransactionAct": "Information enligt lagen om specificerade kommersiella transaktioner",

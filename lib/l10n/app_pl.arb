@@ -134,7 +134,7 @@
   "purchaseErrorTimeout": "Upłynął limit czasu. Sprawdź połączenie i spróbuj ponownie. Jeśli problem będzie nadal występować, skontaktuj się z nami w Ustawienia > Kontakt. Szczegóły: {message}",
   "purchaseErrorNetworkError": "Wystąpił problem z połączeniem. Sprawdź połączenie i spróbuj ponownie. Jeśli problem będzie się powtarzał, skontaktuj się z nami w Ustawienia > Kontakt. Szczegóły: {message}",
   "sixMonthPlan": "Plan 6-miesięczny",
-  "premiumContractPeriod": "Okres subskrypcji wynosi miesiąc od daty zakupu.",
+  "premiumContractPeriod": "Okres subskrypcji wynosi 1 miesiąc od daty zakupu.",
   "privacyPolicy": "Polityka prywatności",
   "termsOfService": "Warunki korzystania z usługi",
   "specifiedCommercialTransactionAct": "Informacje zgodnie z ustawą o określonych transakcjach handlowych",

@@ -134,7 +134,7 @@
   "purchaseErrorTimeout": "Baigėsi skirtasis laikas. Patikrinkite interneto ryšį ir bandykite dar kartą. Jei problema išlieka, susisiekite su mumis skiltyje Nustatymai > Susisiekti. Išsamiau: {message}",
   "purchaseErrorNetworkError": "Įvyko ryšio problema. Patikrinkite ryšį ir bandykite dar kartą. Jei problema išlieka, susisiekite su mumis pasirinkę Nustatymai > Susisiekti. Išsami informacija: {message}",
   "sixMonthPlan": "6 mėnesių planas",
-  "premiumContractPeriod": "Prenumeratos laikotarpis – vienas mėnuo nuo pirkimo datos.",
+  "premiumContractPeriod": "Prenumeratos laikotarpis yra 1 mėnuo nuo pirkimo datos.",
   "privacyPolicy": "Privatumo politika",
   "termsOfService": "Naudojimo sąlygos",
   "specifiedCommercialTransactionAct": "Informacija pagal Tam tikrų komercinių sandorių įstatymą",

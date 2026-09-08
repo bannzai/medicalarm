@@ -134,7 +134,7 @@
   "purchaseErrorTimeout": "Vaxt limiti başa çatdı. İnternet bağlantınızı yoxlayın və yenidən cəhd edin. Problem həll olunmazsa, Parametrlər > Bizimlə əlaqə bölməsindən bizə müraciət edin. Təfərrüatlar: {message}",
   "purchaseErrorNetworkError": "Bağlantı problemi baş verdi. Bağlantınızı yoxlayıb yenidən cəhd edin. Problem davam edərsə, Parametrlər > Bizimlə əlaqə bölməsindən bizə müraciət edin. Təfərrüatlar: {message}",
   "sixMonthPlan": "6 aylıq plan",
-  "premiumContractPeriod": "Abunəlik müddəti satınalma tarixindən etibarən 1 aydır.",
+  "premiumContractPeriod": "Müqavilə müddəti alış tarixindən etibarən 1 aydır.",
   "privacyPolicy": "Məxfilik siyasəti",
   "termsOfService": "Xidmət şərtləri",
   "specifiedCommercialTransactionAct": "Müəyyən edilmiş kommersiya əməliyyatları haqqında qanuna əsasən açıqlama",

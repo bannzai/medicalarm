@@ -134,7 +134,7 @@
   "purchaseErrorTimeout": "A expirat timpul de așteptare. Verificați conexiunea și încercați din nou. Dacă problema persistă, contactați-ne din Setări > Contactați-ne. Detalii: {message}",
   "purchaseErrorNetworkError": "A apărut o problemă de conexiune. Verificați conexiunea și încercați din nou. Dacă problema persistă, contactați-ne din Setări > Contactați-ne. Detalii: {message}",
   "sixMonthPlan": "Plan pe 6 luni",
-  "premiumContractPeriod": "Perioada abonamentului este de o lună de la data achiziției.",
+  "premiumContractPeriod": "Perioada abonamentului este de 1 lună de la data achiziției.",
   "privacyPolicy": "Politica de confidențialitate",
   "termsOfService": "Termenii serviciului",
   "specifiedCommercialTransactionAct": "Informații conform Legii privind anumite tranzacții comerciale",

@@ -134,7 +134,7 @@
   "purchaseErrorTimeout": "S’ha esgotat el temps d’espera. Comproveu la connexió a Internet i torneu-ho a provar. Si el problema persisteix, contacteu amb nosaltres des d’Configuració > Contacta amb nosaltres. Detalls: {message}",
   "purchaseErrorNetworkError": "S’ha produït un problema de connexió. Comproveu la connexió i torneu-ho a provar. Si el problema persisteix, contacteu amb nosaltres a Configuració > Contacta amb nosaltres. Detalls: {message}",
   "sixMonthPlan": "Pla de 6 mesos",
-  "premiumContractPeriod": "El període de subscripció és d’un mes a partir de la data de compra.",
+  "premiumContractPeriod": "El període de subscripció és d’1 mes a partir de la data de compra.",
   "privacyPolicy": "Política de privacitat",
   "termsOfService": "Condicions del servei",
   "specifiedCommercialTransactionAct": "Informació d’acord amb la Llei de transaccions comercials especificades",

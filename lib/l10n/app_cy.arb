@@ -134,7 +134,7 @@
   "purchaseErrorTimeout": "Daeth yr amser i ben. Gwiriwch eich cysylltiad ac yna rhowch gynnig arall arni. Os na chaiff y broblem ei datrys, cysylltwch â ni drwy Gosodiadau > Cysylltu â ni. Manylion: {message}",
   "purchaseErrorNetworkError": "Mae problem gyda’r cysylltiad. Gwiriwch eich cysylltiad a rhowch gynnig arall arni. Os bydd y broblem yn parhau, cysylltwch â ni drwy Gosodiadau > Cysylltu â ni. Manylion: {message}",
   "sixMonthPlan": "Cynllun 6 mis",
-  "premiumContractPeriod": "Mae cyfnod y tanysgrifiad yn para mis o ddyddiad prynu.",
+  "premiumContractPeriod": "Mae cyfnod y tanysgrifiad yn 1 mis o’r dyddiad prynu.",
   "privacyPolicy": "Polisi Preifatrwydd",
   "termsOfService": "Telerau gwasanaeth",
   "specifiedCommercialTransactionAct": "Datgeliad o dan Ddeddf Trafodion Masnachol Penodol",

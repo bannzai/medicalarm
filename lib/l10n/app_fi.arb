@@ -134,7 +134,7 @@
   "purchaseErrorTimeout": "Aikakatkaisu. Tarkista internetyhteytesi ja yritä uudelleen. Jos ongelma jatkuu, ota meihin yhteyttä kohdassa Asetukset > Ota yhteyttä. Tiedot: {message}",
   "purchaseErrorNetworkError": "Yhteydessä ilmeni ongelma. Tarkista yhteytesi ja yritä uudelleen. Jos ongelma jatkuu, ota meihin yhteyttä kohdasta Asetukset > Ota yhteyttä. Tiedot: {message}",
   "sixMonthPlan": "6 kuukauden tilaus",
-  "premiumContractPeriod": "Tilausjakso on yhden kuukauden ostopäivästä alkaen.",
+  "premiumContractPeriod": "Tilauskausi on 1 kuukausi ostopäivästä.",
   "privacyPolicy": "Tietosuojakäytäntö",
   "termsOfService": "Käyttöehdot",
   "specifiedCommercialTransactionAct": "Tietoja tiettyjä kaupallisia liiketoimia koskevan lain mukaisesti",

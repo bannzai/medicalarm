@@ -134,7 +134,7 @@
   "purchaseErrorTimeout": "Der opstod timeout. Kontrollér din internetforbindelse, og prøv igen. Hvis problemet fortsætter, kan du kontakte os via Indstillinger > Kontakt os. Detaljer: {message}",
   "purchaseErrorNetworkError": "Der opstod et forbindelsesproblem. Kontrollér din forbindelse, og prøv igen. Hvis problemet fortsætter, kan du kontakte os via Indstillinger > Kontakt os. Detaljer: {message}",
   "sixMonthPlan": "6-månedersplan",
-  "premiumContractPeriod": "Abonnementsperioden er én måned fra købsdatoen.",
+  "premiumContractPeriod": "Abonnementsperioden er 1 måned fra købsdatoen.",
   "privacyPolicy": "Privatlivspolitik",
   "termsOfService": "Servicevilkår",
   "specifiedCommercialTransactionAct": "Oplysninger i henhold til loven om specificerede kommercielle transaktioner",

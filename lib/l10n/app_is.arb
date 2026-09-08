@@ -134,7 +134,7 @@
   "purchaseErrorTimeout": "Tíminn rann út. Athugaðu nettenginguna og reyndu aftur. Ef vandamálið leysist ekki skaltu hafa samband við okkur í Stillingar > Hafa samband. Upplýsingar: {message}",
   "purchaseErrorNetworkError": "Tengingarvandamál kom upp. Athugaðu tenginguna og reyndu aftur. Ef vandamálið leysist ekki skaltu hafa samband við okkur í Stillingar > Hafa samband. Upplýsingar: {message}",
   "sixMonthPlan": "6 mánaða áskrift",
-  "premiumContractPeriod": "Áskriftartímabilið er einn mánuður frá kaupdegi.",
+  "premiumContractPeriod": "Áskriftartímabilið er 1 mánuður frá kaupdegi.",
   "privacyPolicy": "Persónuverndarstefna",
   "termsOfService": "Þjónustuskilmálar",
   "specifiedCommercialTransactionAct": "Upplýsingar samkvæmt lögum um tiltekin viðskiptaviðskipti",

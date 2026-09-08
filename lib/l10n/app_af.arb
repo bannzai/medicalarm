@@ -134,7 +134,7 @@
   "purchaseErrorTimeout": "Die versoek het ’n time-out bereik. Kontroleer u internetverbinding en probeer weer. As die probleem voortduur, kontak ons via Instellings > Kontak ons. Besonderhede: {message}",
   "purchaseErrorNetworkError": "Daar is ’n verbindingsprobleem. Gaan u verbinding na en probeer weer. As die probleem voortduur, kontak ons via Instellings > Kontak ons. Besonderhede: {message}",
   "sixMonthPlan": "6-maandeplan",
-  "premiumContractPeriod": "Die intekenperiode is een maand vanaf die aankoopdatum.",
+  "premiumContractPeriod": "Die kontraktydperk is een maand vanaf die aankoopdatum.",
   "privacyPolicy": "Privaatheidsbeleid",
   "termsOfService": "Diensbepalings",
   "specifiedCommercialTransactionAct": "Openbaarmaking ingevolge die Wet op Gespesifiseerde Kommersiële Transaksies",

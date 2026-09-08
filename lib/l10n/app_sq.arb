@@ -134,7 +134,7 @@
   "purchaseErrorTimeout": "Koha mbaroi. Kontrolloni lidhjen dhe provoni përsëri. Nëse problemi vazhdon, na kontaktoni te Cilësimet > Na kontaktoni. Detaje: {message}",
   "purchaseErrorNetworkError": "Ndodhi një problem me lidhjen. Kontrolloni lidhjen dhe provoni sërish. Nëse problemi vazhdon, na kontaktoni te Cilësimet > Na kontaktoni. Detaje: {message}",
   "sixMonthPlan": "Plan 6-mujor",
-  "premiumContractPeriod": "Periudha e abonimit është një muaj nga data e blerjes.",
+  "premiumContractPeriod": "Periudha e abonimit është 1 muaj nga data e blerjes.",
   "privacyPolicy": "Politika e privatësisë",
   "termsOfService": "Kushtet e shërbimit",
   "specifiedCommercialTransactionAct": "Informacion sipas Ligjit për Transaksionet Tregtare të Përcaktuara",

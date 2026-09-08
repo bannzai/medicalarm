@@ -134,7 +134,7 @@
   "purchaseErrorTimeout": "Tidsavbrudd. Kontroller tilkoblingen og prøv igjen. Hvis problemet vedvarer, kan du kontakte oss via Innstillinger > Kontakt oss. Detaljer: {message}",
   "purchaseErrorNetworkError": "Det oppstod et tilkoblingsproblem. Kontroller tilkoblingen, og prøv på nytt. Hvis problemet vedvarer, kan du kontakte oss via Innstillinger > Kontakt oss. Detaljer: {message}",
   "sixMonthPlan": "6-månedersplan",
-  "premiumContractPeriod": "Abonnementsperioden er én måned fra kjøpsdatoen.",
+  "premiumContractPeriod": "Abonnementsperioden er 1 måned fra kjøpsdatoen.",
   "privacyPolicy": "Personvernerklæring",
   "termsOfService": "Tjenestevilkår",
   "specifiedCommercialTransactionAct": "Opplysninger i henhold til loven om spesifiserte kommersielle transaksjoner",

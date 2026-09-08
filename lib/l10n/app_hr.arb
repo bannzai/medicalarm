@@ -134,7 +134,7 @@
   "purchaseErrorTimeout": "Isteklo je vrijeme. Provjerite internetsku vezu i pokušajte ponovno. Ako se problem nastavi, kontaktirajte nas putem Postavke > Kontaktirajte nas. Pojedinosti: {message}",
   "purchaseErrorNetworkError": "Došlo je do problema s vezom. Provjerite vezu i pokušajte ponovno. Ako se problem nastavi, obratite nam se putem Postavke > Kontaktirajte nas. Pojedinosti: {message}",
   "sixMonthPlan": "Plan za 6 mjeseci",
-  "premiumContractPeriod": "Razdoblje pretplate traje mjesec dana od datuma kupnje.",
+  "premiumContractPeriod": "Razdoblje pretplate traje 1 mjesec od datuma kupnje.",
   "privacyPolicy": "Pravila privatnosti",
   "termsOfService": "Uslovi korištenja",
   "specifiedCommercialTransactionAct": "Informacije u skladu sa Zakonom o određenim komercijalnim transakcijama",
