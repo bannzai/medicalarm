@@ -121,7 +121,7 @@
   "purchaseNotAllowed": "Hindi pinapayagan ang mga pagbili sa device na ito",
   "purchaseErrorInvalidCredentials": "Hindi naging matagumpay ang pagbili. Subukan ulit mamaya. Kung magpapatuloy ang problema, makipag-ugnayan sa amin sa Mga Setting > Makipag-ugnayan sa amin. Mga detalye: {message}",
   "purchaseErrorUnexpectedBackend": "Hindi available ang pagbili sa ngayon. Subukan muli pagkalipas ng ilang sandali. Kung hindi pa rin malutas, makipag-ugnayan sa amin sa Mga Setting > Makipag-ugnayan sa amin. Mga detalye: {message}",
-  "purchaseErrorOperationInProgress": "May kasalukuyang isinasagawang pagbili. Pakisubukang muli mamaya.",
+  "purchaseErrorOperationInProgress": "May isinasagawang pagbili. Pakisubukang muli mamaya.",
   "purchaseErrorInsufficientPermissions": "Hindi ka makakapag-subscribe sa isang plan gamit ang {accountName}. Suriin ang impormasyon ng iyong pagbabayad at subukan muli",
   "purchaseErrorPaymentPending": "Naka-pending ang pagbabayad. Pakitingnan ang {storeName} gamit ang naka-sign-in na account na {accountName}.",
   "premiumUserThanksTitle": "Premium member ka",

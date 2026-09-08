@@ -121,7 +121,7 @@
   "purchaseNotAllowed": "רכישות אינן מורשות במכשיר הזה",
   "purchaseErrorInvalidCredentials": "הרכישה נכשלה. נסו שוב מאוחר יותר. אם הבעיה נמשכת, פנו אלינו דרך הגדרות > יצירת קשר. פרטים: {message}",
   "purchaseErrorUnexpectedBackend": "לא ניתן לבצע רכישה כרגע. נסו שוב מאוחר יותר. אם הבעיה נמשכת, פנו אלינו דרך הגדרות > יצירת קשר. פרטים: {message}",
-  "purchaseErrorOperationInProgress": "תהליך רכישה כבר מתבצע. יש לנסות שוב מאוחר יותר.",
+  "purchaseErrorOperationInProgress": "תהליך רכישה כבר מתבצע. יש לבדוק שוב מאוחר יותר.",
   "purchaseErrorInsufficientPermissions": "אי אפשר להירשם לתוכנית באמצעות {accountName}. יש לבדוק את פרטי התשלום ולנסות שוב",
   "purchaseErrorPaymentPending": "התשלום ממתין לעיבוד. יש לבדוק את {storeName} באמצעות החשבון המחובר {accountName}.",
   "premiumUserThanksTitle": "אתם חברי פרימיום",

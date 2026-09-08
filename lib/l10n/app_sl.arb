@@ -121,7 +121,7 @@
   "purchaseNotAllowed": "Nakupi v tej napravi niso dovoljeni",
   "purchaseErrorInvalidCredentials": "Nakup ni uspel. Poskusite znova pozneje. Če težava ne odpravi, nas kontaktirajte prek Nastavitve > Stik z nami. Podrobnosti: {message}",
   "purchaseErrorUnexpectedBackend": "Nakup trenutno ni mogoč. Poskusite znova pozneje. Če težava ne bo odpravljena, nam pišite v Nastavitve > Stik. Podrobnosti: {message}",
-  "purchaseErrorOperationInProgress": "Nakup je že v postopku. Poskusite znova pozneje.",
+  "purchaseErrorOperationInProgress": "Nakup že poteka. Poskusite znova pozneje.",
   "purchaseErrorInsufficientPermissions": "S računom {accountName} se ne morete naročiti na paket. Preverite podatke za plačilo in poskusite znova",
   "purchaseErrorPaymentPending": "Plačilo je na čakanju. Preverite {storeName} s prijavljenim računom {accountName}.",
   "premiumUserThanksTitle": "Ste premium član",

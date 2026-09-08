@@ -121,7 +121,7 @@
   "purchaseNotAllowed": "በዚህ መሣሪያ ግዢ አይፈቀድም",
   "purchaseErrorInvalidCredentials": "ግዢው አልተሳካም። እባክዎ ከጥቂት ጊዜ በኋላ ይሞክሩ። ችግሩ ከቀጠለ፣ ከቅንብሮች > ያግኙን በኩል ያነጋግሩን። ዝርዝሮች፦ {message}",
   "purchaseErrorUnexpectedBackend": "አሁን ግዢ ማድረግ አይችሉም። እባክዎ ከጥቂት ጊዜ በኋላ እንደገና ይሞክሩ። ችግሩ ካልተፈታ፣ በቅንብሮች > ያግኙን በኩል ያነጋግሩን። ዝርዝሮች፦ {message}",
-  "purchaseErrorOperationInProgress": "የግዢ ሂደት እየተካሄደ ነው። እባክዎ ቆይተው እንደገና ይሞክሩ።",
+  "purchaseErrorOperationInProgress": "የግዢ ሂደት እየተካሄደ ነው። እባክዎ ቆይተው እንደገና ይመልከቱ።",
   "purchaseErrorInsufficientPermissions": "በ{accountName} ዕቅድ መመዝገብ አይችሉም። የክፍያ መረጃዎን ካረጋገጡ በኋላ እንደገና ይሞክሩ",
   "purchaseErrorPaymentPending": "ክፍያው ቆሟል። በገባበት {accountName} በመጠቀም {storeName}ን ያረጋግጡ።",
   "premiumUserThanksTitle": "እርስዎ የፕሪሚየም አባል ነዎት",

@@ -121,7 +121,7 @@
   "purchaseNotAllowed": "Non se permiten compras neste dispositivo",
   "purchaseErrorInvalidCredentials": "Produciuse un erro na compra. Téntao de novo máis tarde. Se o problema continúa, ponte en contacto connosco en Axustes > Contacta connosco. Detalles: {message}",
   "purchaseErrorUnexpectedBackend": "A compra non está dispoñible neste momento. Téntao de novo máis tarde. Se o problema continúa, ponte en contacto connosco en Axustes > Contacto. Detalles: {message}",
-  "purchaseErrorOperationInProgress": "Xa hai unha compra en curso. Téntao de novo máis tarde.",
+  "purchaseErrorOperationInProgress": "Xa hai unha compra en proceso. Téntao de novo máis tarde.",
   "purchaseErrorInsufficientPermissions": "Non podes subscribirte a un plan con {accountName}. Comproba a información de pagamento e téntao de novo",
   "purchaseErrorPaymentPending": "O pagamento está pendente. Comproba {storeName} coa conta coa que iniciaches sesión: {accountName}.",
   "premiumUserThanksTitle": "Es membro premium",

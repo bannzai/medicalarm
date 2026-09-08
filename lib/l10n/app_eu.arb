@@ -121,7 +121,7 @@
   "purchaseNotAllowed": "Erosketak ez daude baimenduta gailu honetan",
   "purchaseErrorInvalidCredentials": "Erosketak huts egin du. Saiatu berriro geroago. Arazoak jarraitzen badu, jarri gurekin harremanetan Ezarpenak > Jarri gurekin harremanetan atalean. Xehetasunak: {message}",
   "purchaseErrorUnexpectedBackend": "Ezin da erosketa egin une honetan. Saiatu berriro beranduago. Arazoak jarraitzen badu, jarri gurekin harremanetan Ezarpenak > Jarri harremanetan atalean. Xehetasunak: {message}",
-  "purchaseErrorOperationInProgress": "Erosketa-prozesu bat abian da dagoeneko. Saiatu berriro geroago.",
+  "purchaseErrorOperationInProgress": "Erosketa bat egiten ari da dagoeneko. Saiatu berriro geroago.",
   "purchaseErrorInsufficientPermissions": "Ezin duzu plan batera harpidetu {accountName} erabiliz. Egiaztatu ordainketa-informazioa eta saiatu berriro",
   "purchaseErrorPaymentPending": "Ordainketa zain dago. Egiaztatu {storeName} saioa hasita duzun {accountName} kontuarekin.",
   "premiumUserThanksTitle": "Premium kidea zara",

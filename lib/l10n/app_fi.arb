@@ -121,7 +121,7 @@
   "purchaseNotAllowed": "Ostokset eivät ole sallittuja tällä laitteella",
   "purchaseErrorInvalidCredentials": "Osto epäonnistui. Yritä myöhemmin uudelleen. Jos ongelma jatkuu, ota meihin yhteyttä kohdasta Asetukset > Ota yhteyttä. Tiedot: {message}",
   "purchaseErrorUnexpectedBackend": "Ostaminen ei ole juuri nyt mahdollista. Yritä myöhemmin uudelleen. Jos ongelma jatkuu, ota meihin yhteyttä kohdassa Asetukset > Ota yhteyttä. Tiedot: {message}",
-  "purchaseErrorOperationInProgress": "Ostoprosessi on jo käynnissä. Yritä myöhemmin uudelleen.",
+  "purchaseErrorOperationInProgress": "Osto on jo käynnissä. Tarkista asia myöhemmin uudelleen.",
   "purchaseErrorInsufficientPermissions": "Et voi tilata tilausta tilillä {accountName}. Tarkista maksutietosi ja yritä uudelleen",
   "purchaseErrorPaymentPending": "Maksu on odottamassa. Tarkista {storeName} sisäänkirjautuneella tilillä {accountName}.",
   "premiumUserThanksTitle": "Olet premium-jäsen",

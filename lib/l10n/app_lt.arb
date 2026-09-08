@@ -121,7 +121,7 @@
   "purchaseNotAllowed": "Šiame įrenginyje pirkti neleidžiama",
   "purchaseErrorInvalidCredentials": "Pirkti nepavyko. Pabandykite dar kartą vėliau. Jei problema išlieka, susisiekite su mumis pasirinkę Nustatymai > Susisiekti su mumis. Išsami informacija: {message}",
   "purchaseErrorUnexpectedBackend": "Šiuo metu įsigyti negalima. Pabandykite dar kartą vėliau. Jei problema išlieka, susisiekite su mumis skiltyje Nustatymai > Susisiekti. Išsami informacija: {message}",
-  "purchaseErrorOperationInProgress": "Pirkimas jau vykdomas. Bandykite dar kartą vėliau.",
+  "purchaseErrorOperationInProgress": "Pirkimas jau vykdomas. Patikrinkite dar kartą vėliau.",
   "purchaseErrorInsufficientPermissions": "Naudodami {accountName} negalite užsiprenumeruoti plano. Patikrinkite mokėjimo informaciją ir bandykite dar kartą",
   "purchaseErrorPaymentPending": "Mokėjimas laukia patvirtinimo. Patikrinkite {storeName} naudodami prisijungtą paskyrą {accountName}.",
   "premiumUserThanksTitle": "Esate „Premium“ narys",

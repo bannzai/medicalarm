@@ -121,7 +121,7 @@
   "purchaseNotAllowed": "Käuf sind uf däm Grät nöd erlaubt",
   "purchaseErrorInvalidCredentials": "De Chauf isch fehlgschlage. Bitte versueche Sie es spöter nomal. Wenn s Problem wiiterbesteit, kontaktiere Sie eus über Iistellige > Kontakt. Details: {message}",
   "purchaseErrorUnexpectedBackend": "S Chaufe isch im Momänt nöd möglich. Bitte probiers spöter nomal. Wenn s Problem wiiterbesteit, meld dich über Iistellige > Kontakt bi eus. Details: {message}",
-  "purchaseErrorOperationInProgress": "En Chauf isch scho am Laufe. Bitte probier’s spöter nomol.",
+  "purchaseErrorOperationInProgress": "En Chauf isch bereits im Gang. Bitte probiere es spöter nomal.",
   "purchaseErrorInsufficientPermissions": "Mit {accountName} chasch kei Plan abonniere. Prüef dini Zahlungsinformatione und versuechs nomal",
   "purchaseErrorPaymentPending": "D Zahlig isch no offe. Prüef {storeName} mit em agmäldete Konto {accountName}.",
   "premiumUserThanksTitle": "Du bisch Premium-Mitglied",

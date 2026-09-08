@@ -121,7 +121,7 @@
   "purchaseNotAllowed": "Kaup eru ekki leyfð á þessu tæki",
   "purchaseErrorInvalidCredentials": "Kaupin mistókst. Reyndu aftur síðar. Ef vandamálið heldur áfram skaltu hafa samband við okkur í Stillingar > Hafa samband. Upplýsingar: {message}",
   "purchaseErrorUnexpectedBackend": "Ekki er hægt að kaupa eins og er. Prófaðu aftur síðar. Ef vandamálið leysist ekki skaltu hafa samband við okkur í Stillingar > Hafa samband. Upplýsingar: {message}",
-  "purchaseErrorOperationInProgress": "Kaup stendur nú þegar yfir. Vinsamlegast reyndu aftur síðar.",
+  "purchaseErrorOperationInProgress": "Kaup stendur nú þegar yfir. Vinsamlegast athugaðu aftur síðar.",
   "purchaseErrorInsufficientPermissions": "Þú getur ekki gerst áskrifandi að áskrift með {accountName}. Athugaðu greiðsluupplýsingarnar þínar og reyndu aftur",
   "purchaseErrorPaymentPending": "Greiðslan er í bið. Athugaðu {storeName} með innskráða reikningnum {accountName}.",
   "premiumUserThanksTitle": "Þú ert úrvalsmeðlimur",

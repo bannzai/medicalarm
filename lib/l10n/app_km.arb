@@ -121,7 +121,7 @@
   "purchaseNotAllowed": "ការទិញមិនត្រូវបានអនុញ្ញាតនៅលើឧបករណ៍នេះទេ",
   "purchaseErrorInvalidCredentials": "ការទិញមិនបានសម្រេចទេ។ សូមព្យាយាមម្ដងទៀតនៅពេលក្រោយ។ ប្រសិនបើបញ្ហានៅតែបន្ត សូមទាក់ទងមកយើងតាមរយៈ ការកំណត់ > ទាក់ទងមកយើង។ ព័ត៌មានលម្អិត៖ {message}",
   "purchaseErrorUnexpectedBackend": "មិនអាចធ្វើការទិញបានទេនៅពេលនេះ។ សូមព្យាយាមម្តងទៀតនៅពេលក្រោយ។ ប្រសិនបើបញ្ហានៅតែបន្ត សូមទាក់ទងមកយើងតាមរយៈ ការកំណត់ > ទាក់ទងមកយើង។ ព័ត៌មានលម្អិត៖ {message}",
-  "purchaseErrorOperationInProgress": "ដំណើរការទិញកំពុងដំណើរការរួចហើយ។ សូមព្យាយាមម្តងទៀតនៅពេលក្រោយ។",
+  "purchaseErrorOperationInProgress": "ដំណើរការទិញកំពុងដំណើរការរួចហើយ។ សូមពិនិត្យម្តងទៀតនៅពេលក្រោយ។",
   "purchaseErrorInsufficientPermissions": "អ្នកមិនអាចជាវគម្រោងដោយប្រើ {accountName} បានទេ។ សូមពិនិត្យព័ត៌មានការទូទាត់របស់អ្នក ហើយព្យាយាមម្តងទៀត",
   "purchaseErrorPaymentPending": "ការទូទាត់កំពុងរង់ចាំ។ សូមពិនិត្យមើល {storeName} ដោយប្រើគណនី {accountName} ដែលបានចូល។",
   "premiumUserThanksTitle": "អ្នកគឺជាសមាជិក Premium",

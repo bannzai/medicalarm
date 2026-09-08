@@ -121,7 +121,7 @@
   "purchaseNotAllowed": "මෙම උපාංගයේ මිලදී ගැනීම් සඳහා අවසර නැත",
   "purchaseErrorInvalidCredentials": "මිලදී ගැනීම අසාර්ථක විය. කරුණාකර පසුව නැවත උත්සාහ කරන්න. ගැටලුව දිගටම පවතී නම්, සැකසීම් > අප අමතන්න හරහා අප හා සම්බන්ධ වන්න. විස්තර: {message}",
   "purchaseErrorUnexpectedBackend": "දැනට මිලදී ගැනීම කළ නොහැක. ටික වේලාවකට පසු නැවත උත්සාහ කරන්න. ගැටලුව විසඳී නොමැති නම්, සැකසීම් > අප අමතන්න හරහා අප අමතන්න. විස්තර: {message}",
-  "purchaseErrorOperationInProgress": "මිලදී ගැනීමේ ක්‍රියාවලියක් දැනටමත් සිදුවෙමින් පවතී. කරුණාකර පසුව නැවත උත්සාහ කරන්න.",
+  "purchaseErrorOperationInProgress": "මිලදී ගැනීමක් දැනටමත් සිදුවෙමින් පවතී. කරුණාකර පසුව නැවත පරීක්ෂා කරන්න.",
   "purchaseErrorInsufficientPermissions": "{accountName} භාවිතයෙන් සැලසුමකට දායක විය නොහැක. ඔබගේ ගෙවීම් තොරතුරු පරීක්ෂා කර නැවත උත්සාහ කරන්න",
   "purchaseErrorPaymentPending": "ගෙවීම පොරොත්තුවේ ඇත. පුරනය වී ඇති {accountName} භාවිතයෙන් {storeName} පරීක්ෂා කරන්න.",
   "premiumUserThanksTitle": "ඔබ Premium සාමාජිකයෙකි",

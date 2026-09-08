@@ -121,7 +121,7 @@
   "purchaseNotAllowed": "Köp tillåts inte på den här enheten",
   "purchaseErrorInvalidCredentials": "Köpet kunde inte genomföras. Försök igen senare. Om problemet kvarstår kan du kontakta oss via Inställningar > Kontakta oss. Detaljer: {message}",
   "purchaseErrorUnexpectedBackend": "Det går inte att köpa just nu. Försök igen senare. Om problemet kvarstår kan du kontakta oss via Inställningar > Kontakta oss. Detaljer: {message}",
-  "purchaseErrorOperationInProgress": "Ett köp pågår redan. Försök igen senare.",
+  "purchaseErrorOperationInProgress": "Ett köp pågår redan. Kontrollera igen senare.",
   "purchaseErrorInsufficientPermissions": "Du kan inte prenumerera på en plan med {accountName}. Kontrollera betalningsinformationen och försök igen",
   "purchaseErrorPaymentPending": "Betalningen väntar. Kontrollera {storeName} med det inloggade kontot {accountName}.",
   "premiumUserThanksTitle": "Du är premiummedlem",

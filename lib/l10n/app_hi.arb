@@ -121,7 +121,7 @@
   "purchaseNotAllowed": "इस डिवाइस पर खरीदारी की अनुमति नहीं है",
   "purchaseErrorInvalidCredentials": "खरीदारी विफल रही। कृपया कुछ देर बाद फिर कोशिश करें। समस्या बनी रहने पर सेटिंग > हमसे संपर्क करें से संपर्क करें। विवरण: {message}",
   "purchaseErrorUnexpectedBackend": "फ़िलहाल खरीदारी नहीं की जा सकती। कुछ देर बाद फिर कोशिश करें। समस्या हल न होने पर, सेटिंग > संपर्क के ज़रिए हमसे संपर्क करें। विवरण: {message}",
-  "purchaseErrorOperationInProgress": "खरीदारी की प्रक्रिया पहले से जारी है। कृपया कुछ समय बाद फिर से प्रयास करें।",
+  "purchaseErrorOperationInProgress": "खरीदारी की प्रक्रिया पहले से जारी है। कृपया कुछ समय बाद फिर से जाँच करें।",
   "purchaseErrorInsufficientPermissions": "आप {accountName} से किसी प्लान की सदस्यता नहीं ले सकते। अपनी भुगतान जानकारी जाँचें और फिर से कोशिश करें",
   "purchaseErrorPaymentPending": "भुगतान लंबित है। साइन इन किए गए {accountName} से {storeName} की जाँच करें।",
   "premiumUserThanksTitle": "आप प्रीमियम सदस्य हैं",

@@ -121,7 +121,7 @@
   "purchaseNotAllowed": "Այս սարքում գնումներ կատարելն արգելված է",
   "purchaseErrorInvalidCredentials": "Գնումը չհաջողվեց։ Փորձեք կրկին ավելի ուշ։ Եթե խնդիրը չվերանա, կապվեք մեզ հետ՝ Կարգավորումներ > Կապ մեզ հետ բաժնից։ Մանրամասներ՝ {message}",
   "purchaseErrorUnexpectedBackend": "Այս պահին գնում կատարել հնարավոր չէ։ Փորձեք կրկին ավելի ուշ։ Եթե խնդիրը չլուծվի, կապվեք մեզ հետ՝ Կարգավորումներ > Կապ բաժնից։ Մանրամասներ՝ {message}",
-  "purchaseErrorOperationInProgress": "Գնման գործընթացն արդեն ընթացքի մեջ է։ Խնդրում ենք փորձել կրկին ավելի ուշ։",
+  "purchaseErrorOperationInProgress": "Գնման գործընթացն արդեն ընթացքի մեջ է։ Խնդրում ենք ավելի ուշ կրկին ստուգել։",
   "purchaseErrorInsufficientPermissions": "Դուք չեք կարող բաժանորդագրվել որևէ փաթեթի՝ {accountName}-ի միջոցով։ Ստուգեք վճարման տվյալները և կրկին փորձեք",
   "purchaseErrorPaymentPending": "Վճարումը սպասման մեջ է։ Ստուգեք {storeName}-ը մուտք գործած {accountName} հաշվով։",
   "premiumUserThanksTitle": "Դուք պրեմիում անդամ եք",

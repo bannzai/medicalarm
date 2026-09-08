@@ -121,7 +121,7 @@
   "purchaseNotAllowed": "Bu cihazda alış-verişə icazə verilmir",
   "purchaseErrorInvalidCredentials": "Satınalma uğursuz oldu. Bir az sonra yenidən cəhd edin. Problem davam edərsə, Parametrlər > Bizimlə əlaqə bölməsindən bizə müraciət edin. Təfərrüatlar: {message}",
   "purchaseErrorUnexpectedBackend": "Hazırda alış mümkün deyil. Bir müddət sonra yenidən cəhd edin. Problem davam edərsə, Parametrlər > Bizimlə əlaqə bölməsindən bizə müraciət edin. Təfərrüatlar: {message}",
-  "purchaseErrorOperationInProgress": "Satınalma əməliyyatı artıq davam edir. Zəhmət olmasa, bir müddət sonra yenidən cəhd edin.",
+  "purchaseErrorOperationInProgress": "Satınalma prosesi artıq davam edir. Zəhmət olmasa, bir qədər sonra yenidən yoxlayın.",
   "purchaseErrorInsufficientPermissions": "{accountName} ilə plana abunə ola bilməzsiniz. Ödəniş məlumatlarınızı yoxlayın və yenidən cəhd edin",
   "purchaseErrorPaymentPending": "Ödəniş gözləmədədir. Daxil olduğunuz {accountName} ilə {storeName} hesabınızı yoxlayın.",
   "premiumUserThanksTitle": "Siz premium üzvsünüz",

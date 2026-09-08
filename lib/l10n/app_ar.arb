@@ -121,7 +121,7 @@
   "purchaseNotAllowed": "لا يُسمح بالشراء على هذا الجهاز",
   "purchaseErrorInvalidCredentials": "فشل الشراء. يُرجى المحاولة مرة أخرى لاحقًا. إذا استمرت المشكلة، فتواصل معنا من الإعدادات > تواصل معنا. التفاصيل: {message}",
   "purchaseErrorUnexpectedBackend": "لا يمكن إتمام الشراء حاليًا. يُرجى المحاولة مرة أخرى لاحقًا. إذا استمرت المشكلة، يُرجى التواصل معنا من الإعدادات > اتصل بنا. التفاصيل: {message}",
-  "purchaseErrorOperationInProgress": "تجري عملية شراء بالفعل. يُرجى المحاولة مرة أخرى لاحقًا.",
+  "purchaseErrorOperationInProgress": "تجري عملية شراء بالفعل. يُرجى التحقق مرة أخرى لاحقًا.",
   "purchaseErrorInsufficientPermissions": "لا يمكنك الاشتراك في خطة باستخدام {accountName}. يُرجى التحقق من معلومات الدفع والمحاولة مرة أخرى",
   "purchaseErrorPaymentPending": "الدفع معلّق. يُرجى التحقق من {storeName} باستخدام الحساب المسجّل دخوله {accountName}.",
   "premiumUserThanksTitle": "أنت عضو مميز",

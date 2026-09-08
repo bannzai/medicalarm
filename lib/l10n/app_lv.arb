@@ -121,7 +121,7 @@
   "purchaseNotAllowed": "Šajā ierīcē pirkumi nav atļauti",
   "purchaseErrorInvalidCredentials": "Pirkums neizdevās. Lūdzu, mēģiniet vēlreiz vēlāk. Ja problēma turpinās, sazinieties ar mums sadaļā Iestatījumi > Sazināties ar mums. Detalizēta informācija: {message}",
   "purchaseErrorUnexpectedBackend": "Pašlaik pirkums nav pieejams. Lūdzu, mēģiniet vēlreiz vēlāk. Ja problēma turpinās, sazinieties ar mums sadaļā Iestatījumi > Sazināties. Detalizēta informācija: {message}",
-  "purchaseErrorOperationInProgress": "Pirkums jau tiek apstrādāts. Lūdzu, mēģiniet vēlāk vēlreiz.",
+  "purchaseErrorOperationInProgress": "Pirkums jau tiek apstrādāts. Lūdzu, pārbaudiet vēlāk.",
   "purchaseErrorInsufficientPermissions": "Ar {accountName} nevarat abonēt plānu. Pārbaudiet maksājuma informāciju un mēģiniet vēlreiz",
   "purchaseErrorPaymentPending": "Maksājums tiek apstrādāts. Pārbaudiet {storeName}, izmantojot pierakstīto kontu {accountName}.",
   "premiumUserThanksTitle": "Jūs esat Premium dalībnieks",
