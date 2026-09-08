@@ -141,7 +141,7 @@
   "confirmBeforeRegistration": "Pakisuri ang mga ito bago magparehistro.",
   "autoRenewalNotice": "Awtomatikong mare-renew ito pagkatapos ng panahon ng subscription.",
   "restorePurchase": "Para sa mga bumili na dati",
-  "purchaseRestored": "Naibalik ang impormasyon ng pagbili",
+  "purchaseRestored": "Na-restore ang impormasyon ng pagbili",
   "medicationTimeFollowup": "Pagsubaybay sa oras ng pag-inom ng gamot",
   "updateRequired": "Kailangan ng update",
   "updateRequiredMessage": "Mag-update sa pinakabagong bersyon mula sa {storeName}",

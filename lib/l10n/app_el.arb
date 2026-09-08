@@ -141,7 +141,7 @@
   "confirmBeforeRegistration": "Ελέγξτε τα και εγγραφείτε.",
   "autoRenewalNotice": "Μετά τη λήξη της περιόδου συνδρομής, η συνδρομή θα ανανεωθεί αυτόματα.",
   "restorePurchase": "Για όσους έχουν αγοράσει στο παρελθόν",
-  "purchaseRestored": "Οι πληροφορίες αγοράς επαναφέρθηκαν",
+  "purchaseRestored": "Οι πληροφορίες αγοράς αποκαταστάθηκαν",
   "medicationTimeFollowup": "Παρακολούθηση ώρας λήψης φαρμάκου",
   "updateRequired": "Απαιτείται ενημέρωση",
   "updateRequiredMessage": "Ενημερώστε στην πιο πρόσφατη έκδοση από το {storeName}",

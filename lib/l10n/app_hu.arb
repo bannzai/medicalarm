@@ -141,7 +141,7 @@
   "confirmBeforeRegistration": "Kérjük, tekintse át őket, majd regisztráljon.",
   "autoRenewalNotice": "Az előfizetési időszak lejárta után az előfizetés automatikusan megújul.",
   "restorePurchase": "A korábban vásárlóknak",
-  "purchaseRestored": "A vásárlási információk vissza lettek állítva",
+  "purchaseRestored": "A vásárlási információk visszaállítva",
   "medicationTimeFollowup": "Gyógyszerbevétel időpontjának nyomon követése",
   "updateRequired": "Frissítés szükséges",
   "updateRequiredMessage": "Kérjük, frissítsen a {storeName} legújabb verziójára",

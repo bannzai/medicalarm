@@ -141,7 +141,7 @@
   "confirmBeforeRegistration": "សូមពិនិត្យមើលវា រួចចុះឈ្មោះ។",
   "autoRenewalNotice": "បន្ទាប់ពីរយៈពេលជាវបញ្ចប់ វានឹងបន្តដោយស្វ័យប្រវត្តិ។",
   "restorePurchase": "សម្រាប់អ្នកដែលបានទិញពីមុន",
-  "purchaseRestored": "ព័ត៌មានការទិញត្រូវបានស្ដារឡើងវិញ",
+  "purchaseRestored": "បានស្ដារព័ត៌មានការទិញឡើងវិញ",
   "medicationTimeFollowup": "ការតាមដានពេលវេលាលេបថ្នាំ",
   "updateRequired": "តម្រូវឱ្យធ្វើបច្ចុប្បន្នភាព",
   "updateRequiredMessage": "សូមអាប់ដេតទៅកំណែចុងក្រោយបំផុតពី {storeName}",

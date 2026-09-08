@@ -141,7 +141,7 @@
   "confirmBeforeRegistration": "Palun vaadake need üle ja registreeruge.",
   "autoRenewalNotice": "Pärast tellimusperioodi lõppu uuendatakse seda automaatselt.",
   "restorePurchase": "Varem ostnutele",
-  "purchaseRestored": "Ostuinfo taastati",
+  "purchaseRestored": "Ostuteave on taastatud",
   "medicationTimeFollowup": "Ravimi võtmise aja järelmeeldetuletus",
   "updateRequired": "Vajalik on värskendus",
   "updateRequiredMessage": "Palun värskendage {storeName} kaudu uusimale versioonile",

@@ -141,7 +141,7 @@
   "confirmBeforeRegistration": "Reviseu-ho i registreu-vos.",
   "autoRenewalNotice": "Un cop finalitzi el període de subscripció, es renovarà automàticament.",
   "restorePurchase": "Per a qui ja ho havia comprat",
-  "purchaseRestored": "S’ha restaurat la informació de compra",
+  "purchaseRestored": "S'ha restaurat la informació de compra",
   "medicationTimeFollowup": "Seguiment de l’hora de prendre la medicació",
   "updateRequired": "Cal actualitzar",
   "updateRequiredMessage": "Actualitza a la versió més recent des de {storeName}",
