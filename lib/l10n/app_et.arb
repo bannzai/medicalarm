@@ -122,7 +122,7 @@
   "purchaseErrorInvalidCredentials": "Ostu sooritamine ebaõnnestus. Proovige mõne aja pärast uuesti. Kui probleem püsib, võtke meiega ühendust menüüs Seaded > Võtke meiega ühendust. Üksikasjad: {message}",
   "purchaseErrorUnexpectedBackend": "Ostu ei saa praegu lõpule viia. Proovige mõne aja pärast uuesti. Kui probleem püsib, võtke meiega ühendust menüüs Seaded > Kontakt. Üksikasjad: {message}",
   "purchaseErrorOperationInProgress": "Ostutehing on juba pooleli. Proovige hiljem uuesti.",
-  "purchaseErrorInsufficientPermissions": "Teie {accountName} ei saa liituda plaaniga. Kontrollige oma mak信息 ja proovige uuesti.",
+  "purchaseErrorInsufficientPermissions": "Kontoga {accountName} ei saa paketti tellida. Kontrollige oma makseteavet ja proovige uuesti",
   "purchaseErrorPaymentPending": "Teie makse on pooleli. Kontrollige {storeName} sisse logitud kontoga {accountName}.",
   "premiumUserThanksTitle": "Oled premium liige",
   "premiumUserThanksMessage": "Aitäh, et kasutasite meid. Teie abiga saame jätkata Medicalarmi haldamist.",

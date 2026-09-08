@@ -122,7 +122,7 @@
   "purchaseErrorInvalidCredentials": "Pirkums neizdevās. Pēc kāda laika mēģiniet vēlreiz. Ja problēma joprojām pastāv, sazinieties ar mums sadaļā Iestatījumi > Sazināties ar mums. Detalizēta informācija: {message}",
   "purchaseErrorUnexpectedBackend": "Šobrīd pirkumu nevar pabeigt. Lūdzu, mēģiniet vēlreiz vēlāk. Ja problēma atkārtojas, sazinieties ar mums sadaļā Iestatījumi > Saziņa. Detalizēta informācija: {message}",
   "purchaseErrorOperationInProgress": "Pirkums jau tiek apstrādāts. Lūdzu, mēģiniet vēlāk vēlreiz.",
-  "purchaseErrorInsufficientPermissions": "Jūsu kontā {accountName} nav iespējams pievienoties plānam. Lūdzu, pārbaudiet maksājuma informāciju un mēģiniet vēlreiz.",
+  "purchaseErrorInsufficientPermissions": "Ar {accountName} nevarat abonēt plānu. Pārbaudiet maksājuma informāciju un mēģiniet vēlreiz",
   "purchaseErrorPaymentPending": "Maksājums ir pārtraukts. Lūdzu, pārbaudiet {storeName} ar {accountName} kontu.",
   "premiumUserThanksTitle": "Premium biedrs",
   "premiumUserThanksMessage": "Paldies, ka izmantojat mūs. Pateicoties jums, mēs varam turpināt Medicalarm darbināšanu.",

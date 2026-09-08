@@ -122,7 +122,7 @@
   "purchaseErrorInvalidCredentials": "Nakup ni uspel. Poskusite znova pozneje. Če težava ne bo odpravljena, nas kontaktirajte v meniju Nastavitve > Stik z nami. Podrobnosti: {message}",
   "purchaseErrorUnexpectedBackend": "Nakupa trenutno ni mogoče dokončati. Poskusite znova pozneje. Če težava ne izgine, nas kontaktirajte prek Nastavitve > Stik. Podrobnosti: {message}",
   "purchaseErrorOperationInProgress": "Nakup je že v postopku. Poskusite znova pozneje.",
-  "purchaseErrorInsufficientPermissions": "Vaš {accountName} ne more pridobiti članstva v načrtu. Prosimo, preverite informacije o plačilu in poskusite znova.",
+  "purchaseErrorInsufficientPermissions": "S računom {accountName} se ne morete naročiti na paket. Preverite podatke za plačilo in poskusite znova",
   "purchaseErrorPaymentPending": "Plačilo je bilo prekinjeno. Prosimo, preverite {storeName} s prijavljenim računom {accountName}.",
   "premiumUserThanksTitle": "To je premium član.",
   "premiumUserThanksMessage": "Hvala, da uporabljate našo aplikacijo. Zahvaljujoč vam lahko nadaljujemo delovanje Medicalarm.",

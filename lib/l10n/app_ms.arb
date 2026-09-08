@@ -122,7 +122,7 @@
   "purchaseErrorInvalidCredentials": "Pembelian gagal. Sila cuba lagi kemudian. Jika masalah berterusan, hubungi kami melalui Tetapan > Hubungi Kami. Butiran: {message}",
   "purchaseErrorUnexpectedBackend": "Pembelian tidak dapat diselesaikan buat masa ini. Sila cuba lagi kemudian. Jika masalah berterusan, hubungi kami melalui Tetapan > Hubungi Kami. Butiran: {message}",
   "purchaseErrorOperationInProgress": "Proses pembelian sedang berlangsung. Sila cuba lagi kemudian.",
-  "purchaseErrorInsufficientPermissions": "Akaun {accountName} anda tidak dapat melanggan pelan. Sila semak maklumat pembayaran anda dan cuba lagi.",
+  "purchaseErrorInsufficientPermissions": "Anda tidak boleh melanggan pelan dengan {accountName}. Semak maklumat pembayaran anda dan cuba lagi",
   "purchaseErrorPaymentPending": "Pembayaran sedang tertangguh. Sila semak {storeName} dengan {accountName} yang sedang log masuk.",
   "premiumUserThanksTitle": "Ahli Premium",
   "premiumUserThanksMessage": "Terima kasih kerana menggunakan perkhidmatan kami.\nTerima kasih kepada anda, kami dapat meneruskan operasi Medicalarm.",

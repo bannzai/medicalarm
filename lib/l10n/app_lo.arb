@@ -122,7 +122,7 @@
   "purchaseErrorInvalidCredentials": "ການຊື້ບໍ່ສຳເລັດ. ກະລຸນາລອງໃໝ່ພາຍຫຼັງ. ຖ້າບັນຫາຍັງຄົງຢູ່, ຕິດຕໍ່ຫາພວກເຮົາຜ່ານ ການຕັ້ງຄ່າ > ຕິດຕໍ່ຫາພວກເຮົາ. ລາຍລະອຽດ: {message}",
   "purchaseErrorUnexpectedBackend": "ຂະນະນີ້ບໍ່ສາມາດຊື້ໄດ້. ກະລຸນາລອງໃໝ່ອີກຄັ້ງພາຍຫຼັງ. ຖ້າບັນຫາຍັງບໍ່ຫາຍ, ກະລຸນາຕິດຕໍ່ຫາພວກເຮົາຜ່ານ ການຕັ້ງຄ່າ > ຕິດຕໍ່. ລາຍລະອຽດ: {message}",
   "purchaseErrorOperationInProgress": "ກຳລັງດຳເນີນການຊື້ຢູ່ແລ້ວ. ກະລຸນາລອງໃໝ່ພາຍຫຼັງ.",
-  "purchaseErrorInsufficientPermissions": "ບໍ່ສາມາດລົງຄະແນນໃນແຜນທີ່ຈິງສໍາລັບ {accountName} ຂອງເອກະສານຂອງທ່ານ ກະລຸນາເຊັກສະຖານທີ່ຈ່າຍແລະພະຍາຍາມສາມາດລົງຄະແນນອີກຄັ້ງ.",
+  "purchaseErrorInsufficientPermissions": "ທ່ານບໍ່ສາມາດສະໝັກແຜນດ້ວຍ {accountName} ໄດ້. ກະລຸນາກວດສອບຂໍ້ມູນການຊຳລະເງິນ ແລະລອງອີກຄັ້ງ",
   "purchaseErrorPaymentPending": "ການຊຳລະໄດ້ຖືກພິບິນໃນການອະນຸຍາດເວັບ ກະລຸນາແຈ້ງກັບ {accountName} ສໍາລັບ {storeName}.",
   "premiumUserThanksTitle": "ປະເພດພິເສດ",
   "premiumUserThanksMessage": "ຂอบຄຸນສໍາລັບການໃຊ້ງານຂອງທ່ານ.\nອີກທັງສໍາລັບຄວາມຊ່ວຍເຫລືອທີ່ບໍລິສັດ Medicalarm ສາມາດບຳລຸງງານໄດ້ເລັດດໍາລັງ.",

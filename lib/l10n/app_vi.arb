@@ -122,7 +122,7 @@
   "purchaseErrorInvalidCredentials": "Không thể hoàn tất giao dịch mua. Vui lòng thử lại sau. Nếu sự cố vẫn tiếp diễn, hãy liên hệ với chúng tôi trong Cài đặt > Liên hệ với chúng tôi. Chi tiết: {message}",
   "purchaseErrorUnexpectedBackend": "Hiện không thể hoàn tất giao dịch mua. Vui lòng thử lại sau. Nếu vấn đề vẫn tiếp diễn, hãy liên hệ với chúng tôi qua Cài đặt > Liên hệ. Chi tiết: {message}",
   "purchaseErrorOperationInProgress": "Giao dịch mua đang được tiến hành. Vui lòng thử lại sau.",
-  "purchaseErrorInsufficientPermissions": "Tài khoản {accountName} của bạn không thể đăng ký gói. Vui lòng kiểm tra thông tin thanh toán của bạn và thử lại.",
+  "purchaseErrorInsufficientPermissions": "Bạn không thể đăng ký gói bằng {accountName}. Hãy kiểm tra thông tin thanh toán và thử lại",
   "purchaseErrorPaymentPending": "Thanh toán đã bị dừng lại. Vui lòng kiểm tra {storeName} bằng tài khoản đang đăng nhập {accountName}.",
   "premiumUserThanksTitle": "Bạn là thành viên cao cấp",
   "premiumUserThanksMessage": "Cảm ơn bạn đã sử dụng ứng dụng. Nhờ có bạn, chúng tôi có thể tiếp tục vận hành Medicalarm.",

@@ -122,7 +122,7 @@
   "purchaseErrorInvalidCredentials": "خرید ناموفق بود. لطفاً کمی بعد دوباره امتحان کنید. اگر مشکل ادامه داشت، از مسیر تنظیمات > تماس با ما با ما تماس بگیرید. جزئیات: {message}",
   "purchaseErrorUnexpectedBackend": "در حال حاضر امکان تکمیل خرید وجود ندارد. لطفاً کمی بعد دوباره تلاش کنید. اگر مشکل برطرف نشد، از مسیر تنظیمات > تماس با ما با ما تماس بگیرید. جزئیات: {message}",
   "purchaseErrorOperationInProgress": "فرآیند خرید دیگری در حال انجام است. لطفاً بعداً دوباره تلاش کنید.",
-  "purchaseErrorInsufficientPermissions": "شما نمی‌توانید به طرح با {accountName} خود بپیوندید. لطفاً اطلاعات پرداخت خود را بررسی کرده و دوباره امتحان کنید.",
+  "purchaseErrorInsufficientPermissions": "با {accountName} نمی‌توانید در طرحی مشترک شوید. اطلاعات پرداخت خود را بررسی کنید و دوباره امتحان کنید",
   "purchaseErrorPaymentPending": "پرداخت در حال حاضر متوقف شده است. لطفاً با {accountName} وارد شده و {storeName} را بررسی کنید.",
   "premiumUserThanksTitle": "شما یک عضو پریمیوم هستید",
   "premiumUserThanksMessage": "از شما متشکریم که از خدمات ما استفاده می کنید.\nبه لطف شما، ما قادر به ادامه مدیریت Medicalarm هستیم.",

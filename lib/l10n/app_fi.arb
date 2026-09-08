@@ -122,7 +122,7 @@
   "purchaseErrorInvalidCredentials": "Osto epäonnistui. Yritä myöhemmin uudelleen. Jos ongelma jatkuu, ota meihin yhteyttä kohdassa Asetukset > Ota yhteyttä. Tiedot: {message}",
   "purchaseErrorUnexpectedBackend": "Ostosta ei voi suorittaa juuri nyt. Yritä hetken kuluttua uudelleen. Jos ongelma jatkuu, ota meihin yhteyttä kohdasta Asetukset > Yhteydenotto. Tiedot: {message}",
   "purchaseErrorOperationInProgress": "Ostoprosessi on jo käynnissä. Yritä myöhemmin uudelleen.",
-  "purchaseErrorInsufficientPermissions": "Tililläsi {accountName} ei voi liittyä suunnitelmaan. Tarkista maksutietosi ja yritä uudelleen.",
+  "purchaseErrorInsufficientPermissions": "Et voi tilata tilausta tilillä {accountName}. Tarkista maksutietosi ja yritä uudelleen",
   "purchaseErrorPaymentPending": "Maksu on keskeytynyt. Tarkista {storeName} sisäänkirjautuneella tililläsi {accountName}.",
   "premiumUserThanksTitle": "Olet premium-jäsen",
   "premiumUserThanksMessage": "Kiitos käytöstäsi.\nSen ansiosta voimme jatkaa Medicalarm-sovelluksen ylläpitoa.",

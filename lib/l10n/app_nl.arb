@@ -122,7 +122,7 @@
   "purchaseErrorInvalidCredentials": "Aankoop mislukt. Probeer het later opnieuw. Als het probleem aanhoudt, neem dan contact met ons op via Instellingen > Contact opnemen. Details: {message}",
   "purchaseErrorUnexpectedBackend": "De aankoop kan momenteel niet worden voltooid. Probeer het later opnieuw. Neem contact met ons op via Instellingen > Contact als het probleem aanhoudt. Details: {message}",
   "purchaseErrorOperationInProgress": "Er wordt al een aankoop verwerkt. Probeer het later opnieuw.",
-  "purchaseErrorInsufficientPermissions": "Met uw {accountName} kunt u zich niet aanmelden voor het plan. Controleer uw betalingsinformatie en probeer het opnieuw.",
+  "purchaseErrorInsufficientPermissions": "Je kunt met {accountName} geen abonnement nemen. Controleer je betaalgegevens en probeer het opnieuw",
   "purchaseErrorPaymentPending": "Betaling is onderbroken. Controleer {storeName} met het ingelogde account {accountName}.",
   "premiumUserThanksTitle": "Premium lid",
   "premiumUserThanksMessage": "Bedankt voor uw gebruik. Dankzij u kunnen we Medicalarm blijven runnen.",

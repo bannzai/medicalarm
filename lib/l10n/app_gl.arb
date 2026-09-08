@@ -122,7 +122,7 @@
   "purchaseErrorInvalidCredentials": "A compra fallou. Téntao de novo máis tarde. Se o problema continúa, ponte en contacto connosco en Axustes > Contacta connosco. Detalles: {message}",
   "purchaseErrorUnexpectedBackend": "Non se pode completar a compra neste momento. Téntao de novo máis tarde. Se o problema persiste, ponte en contacto connosco en Axustes > Contacto. Detalles: {message}",
   "purchaseErrorOperationInProgress": "Xa hai unha compra en curso. Téntao de novo máis tarde.",
-  "purchaseErrorInsufficientPermissions": "Non se pode unir á planificación co {accountName} que está a utilizar. Por favor, verifica a túa información de pagamento e inténtao de novo.",
+  "purchaseErrorInsufficientPermissions": "Non podes subscribirte a un plan con {accountName}. Comproba a información de pagamento e téntao de novo",
   "purchaseErrorPaymentPending": "O pagamento está detido. Verifique {storeName} con {accountName}.",
   "premiumUserThanksTitle": "Sodes premium",
   "premiumUserThanksMessage": "Grazas polo seu uso.\nGrazas a vostede, podemos continuar coa xestión de Medicalarm.",

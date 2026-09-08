@@ -122,7 +122,7 @@
   "purchaseErrorInvalidCredentials": "Methodd y pryniant. Rhowch gynnig arall arni yn nes ymlaen. Os bydd y broblem yn parhau, cysylltwch â ni drwy Gosodiadau > Cysylltu â ni. Manylion: {message}",
   "purchaseErrorUnexpectedBackend": "Nid oes modd cwblhau’r pryniant ar hyn o bryd. Rhowch gynnig arall arni rywbryd eto. Os bydd y broblem yn parhau, cysylltwch â ni drwy Gosodiadau > Cysylltu â ni. Manylion: {message}",
   "purchaseErrorOperationInProgress": "Mae proses brynu eisoes ar y gweill. Rhowch gynnig arall arni yn nes ymlaen.",
-  "purchaseErrorInsufficientPermissions": "Mae'n ddrwg gennyf, ond ni ellir ymuno â'r cynllun gydag eich {accountName}. Aroswch i wirio eich gwybodaeth talu a cheisio eto.",
+  "purchaseErrorInsufficientPermissions": "Ni allwch danysgrifio i gynllun gyda {accountName}. Gwiriwch eich gwybodaeth dalu a rhowch gynnig arall arni",
   "purchaseErrorPaymentPending": "Mae'r taliad wedi ei stopio ar hyn o bryd. Gwiriwch {storeName} gyda {accountName} a ydych yn mewngofnodi.",
   "premiumUserThanksTitle": "Member o'r Premiwm",
   "premiumUserThanksMessage": "Diolch am ddefnyddio ein gwasanaeth. Oherwydd eich cefnogaeth, gallwn barhau i redeg Medicalarm.",

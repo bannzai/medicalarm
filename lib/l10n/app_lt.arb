@@ -122,7 +122,7 @@
   "purchaseErrorInvalidCredentials": "Įsigyti nepavyko. Po kurio laiko bandykite dar kartą. Jei problema išlieka, susisiekite su mumis pasirinkę Nustatymai > Susisiekti su mumis. Išsami informacija: {message}",
   "purchaseErrorUnexpectedBackend": "Šiuo metu pirkimo užbaigti nepavyksta. Pabandykite dar kartą vėliau. Jei problema išlieka, susisiekite su mumis skiltyje Nustatymai > Kontaktai. Išsami informacija: {message}",
   "purchaseErrorOperationInProgress": "Pirkimas jau vykdomas. Bandykite dar kartą vėliau.",
-  "purchaseErrorInsufficientPermissions": "Jūsų {accountName} negali prisijungti prie plano. Patikrinkite mokėjimo informaciją ir bandykite dar kartą.",
+  "purchaseErrorInsufficientPermissions": "Naudodami {accountName} negalite užsiprenumeruoti plano. Patikrinkite mokėjimo informaciją ir bandykite dar kartą",
   "purchaseErrorPaymentPending": "Mokėjimas yra sustabdytas. Patikrinkite {storeName} prisijungus prie {accountName}.",
   "premiumUserThanksTitle": "Esate Premium narys",
   "premiumUserThanksMessage": "Dėkojame, kad naudojatės mūsų paslaugomis.\nDėl jūsų palaikymo galime tęsti Medicalarm veiklą.",

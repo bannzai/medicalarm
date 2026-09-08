@@ -122,7 +122,7 @@
   "purchaseErrorInvalidCredentials": "购买失败。请稍后重试。如果问题仍未解决，请通过设置 > 联系我们与我们联系。详细信息：{message}",
   "purchaseErrorUnexpectedBackend": "目前无法完成购买。请稍后重试。如果问题仍未解决，请通过“设置”>“联系我们”与我们联系。详细信息：{message}",
   "purchaseErrorOperationInProgress": "购买操作正在进行中，请稍后再试。",
-  "purchaseErrorInsufficientPermissions": "您无法在 {accountName} 上订阅计划。请检查您的支付信息，然后重试。",
+  "purchaseErrorInsufficientPermissions": "您无法使用 {accountName} 订阅套餐。请检查付款信息后重试",
   "purchaseErrorPaymentPending": "支付已暂停。请检查登录中的{accountName}的{storeName}。",
   "premiumUserThanksTitle": "您是高级会员",
   "premiumUserThanksMessage": "感谢您的使用。多亏了您，我们能够继续运营Medicalarm。",

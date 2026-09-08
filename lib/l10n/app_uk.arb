@@ -122,7 +122,7 @@
   "purchaseErrorInvalidCredentials": "Не вдалося здійснити покупку. Повторіть спробу пізніше. Якщо проблема не зникне, зв’яжіться з нами через Налаштування > Зв’язатися з нами. Подробиці: {message}",
   "purchaseErrorUnexpectedBackend": "Зараз не вдається завершити покупку. Спробуйте ще раз пізніше. Якщо проблема не зникне, зв’яжіться з нами через Налаштування > Зв’язатися з нами. Подробиці: {message}",
   "purchaseErrorOperationInProgress": "Покупка вже виконується. Повторіть спробу пізніше.",
-  "purchaseErrorInsufficientPermissions": "Your {accountName} cannot subscribe to the plan. Please check your payment information and try again.",
+  "purchaseErrorInsufficientPermissions": "Ви не можете оформити підписку на план за допомогою {accountName}. Перевірте платіжні дані та спробуйте ще раз",
   "purchaseErrorPaymentPending": "Your payment is currently on hold. Please verify {storeName} with your logged-in account {accountName}.",
   "premiumUserThanksTitle": "Premium Member",
   "premiumUserThanksMessage": "Thank you for using our service.\nThanks to you, we are able to continue operating Medicalarm.",

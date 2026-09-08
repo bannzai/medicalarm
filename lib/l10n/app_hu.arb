@@ -122,7 +122,7 @@
   "purchaseErrorInvalidCredentials": "A vásárlás sikertelen. Próbálja meg később újra. Ha a probléma továbbra is fennáll, lépjen kapcsolatba velünk a Beállítások > Kapcsolat menüpontban. Részletek: {message}",
   "purchaseErrorUnexpectedBackend": "A vásárlás jelenleg nem fejezhető be. Próbálja meg később újra. Ha a probléma továbbra is fennáll, lépjen kapcsolatba velünk a Beállítások > Kapcsolat menüponton keresztül. Részletek: {message}",
   "purchaseErrorOperationInProgress": "A vásárlás már folyamatban van. Kérjük, próbálja újra később.",
-  "purchaseErrorInsufficientPermissions": "A kiválasztott {accountName} nem jogosult a tervre való előfizetésre. Kérjük, ellenőrizze a fizetési információit, majd próbálja újra.",
+  "purchaseErrorInsufficientPermissions": "A(z) {accountName} fiókkal nem lehet előfizetni egy csomagra. Ellenőrizd a fizetési adatokat, majd próbáld újra",
   "purchaseErrorPaymentPending": "A fizetés folyamatban van. Kérjük, ellenőrizze a(z) {storeName} a {accountName} fiókjában.",
   "premiumUserThanksTitle": "Prémium tagja van.",
   "premiumUserThanksMessage": "Köszönjük, hogy használja az alkalmazást. Hála Önnek, folytathatjuk a Medicalarm üzemeltetését.",

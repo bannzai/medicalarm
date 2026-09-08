@@ -122,7 +122,7 @@
   "purchaseErrorInvalidCredentials": "Купувањето не успеа. Обидете се повторно подоцна. Ако проблемот продолжи, контактирајте нè преку Поставки > Контактирајте нè. Детали: {message}",
   "purchaseErrorUnexpectedBackend": "Купувањето не може да се заврши во моментов. Обидете се повторно подоцна. Ако проблемот продолжи, контактирајте нè преку Поставки > Контакт. Детали: {message}",
   "purchaseErrorOperationInProgress": "Купувањето веќе е во тек. Обидете се повторно подоцна.",
-  "purchaseErrorInsufficientPermissions": "Вашата {accountName} не може да се приклучи на планот. Ве молиме потврдете ги вашите информации за плаќање и обидете се повторно.",
+  "purchaseErrorInsufficientPermissions": "Не можете да се претплатите на план со {accountName}. Проверете ги податоците за плаќање и обидете се повторно",
   "purchaseErrorPaymentPending": "Плаќањето е прекинато. Ве молиме проверете {storeName} со {accountName} на влез.",
   "premiumUserThanksTitle": "Премиум член",
   "premiumUserThanksMessage": "Ви благодарам за вашата поддршка. Благодарение на вас, Medicalarm продолжува да функционира.",

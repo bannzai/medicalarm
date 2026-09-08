@@ -122,7 +122,7 @@
   "purchaseErrorInvalidCredentials": "ግዢው አልተሳካም። እባክዎ ቆይተው እንደገና ይሞክሩ። ችግሩ ከቀጠለ፣ ቅንብሮች > ያግኙን በመሄድ ያግኙን። ዝርዝሮች፦ {message}",
   "purchaseErrorUnexpectedBackend": "ግዢውን አሁን ማጠናቀቅ አይቻልም። እባክዎ ከጥቂት ጊዜ በኋላ ደግመው ይሞክሩ። ችግሩ ካልተፈታ፣ ከቅንብሮች > አግኙን በኩል ያግኙን። ዝርዝሮች፦ {message}",
   "purchaseErrorOperationInProgress": "የግዢ ሂደት እየተካሄደ ነው። እባክዎ ቆይተው እንደገና ይሞክሩ።",
-  "purchaseErrorInsufficientPermissions": "በ{accountName} መለያዎ ዕቅዱን መመዝገብ አይችሉም። እባክዎ የክፍያ መረጃዎን ያረጋግጡና እንደገና ይሞክሩ።",
+  "purchaseErrorInsufficientPermissions": "በ{accountName} ዕቅድ መመዝገብ አይችሉም። የክፍያ መረጃዎን ካረጋገጡ በኋላ እንደገና ይሞክሩ",
   "purchaseErrorPaymentPending": "እቅፍ ይቆሞታል። በምንጩ {accountName} የተመዘገበውን {storeName} ይወቅ።",
   "premiumUserThanksTitle": "ፕሪምየም አባል ነው",
   "premiumUserThanksMessage": "እናመሰግናለን በእርግጥ የMedicalarm አውጪ ማስተናገድ ለማጽናት እንደምን እንደምታምሩን ተመለከት",

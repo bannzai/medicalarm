@@ -122,7 +122,7 @@
   "purchaseErrorInvalidCredentials": "No s’ha pogut completar la compra. Torneu-ho a provar més tard. Si el problema continua, poseu-vos en contacte amb nosaltres a Configuració > Contacta amb nosaltres. Detalls: {message}",
   "purchaseErrorUnexpectedBackend": "No es pot completar la compra en aquest moment. Torna-ho a provar més tard. Si el problema persisteix, contacta amb nosaltres a Configuració > Contacte. Detalls: {message}",
   "purchaseErrorOperationInProgress": "La compra ja està en curs. Torneu-ho a provar més tard.",
-  "purchaseErrorInsufficientPermissions": "No podeu subscriure-us al pla amb el vostre {accountName}. Comproveu la informació de pagament i torneu-ho a provar.",
+  "purchaseErrorInsufficientPermissions": "No pots subscriure’t a un pla amb {accountName}. Comprova la informació de pagament i torna-ho a provar",
   "purchaseErrorPaymentPending": "El pagament s'ha aturat. Si us plau, comproveu el {storeName} amb el {accountName} que teniu iniciat.",
   "premiumUserThanksTitle": "Sóc membre premium",
   "premiumUserThanksMessage": "Gràcies per fer servir l'aplicació. Gràcies a vosaltres, podem continuar gestionant Medicalarm.",

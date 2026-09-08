@@ -122,7 +122,7 @@
   "purchaseErrorInvalidCredentials": "Erosketak huts egin du. Saiatu berriro geroago. Arazoak jarraitzen badu, jar zaitez gurekin harremanetan Ezarpenak > Jarri gurekin harremanetan atalean. Xehetasunak: {message}",
   "purchaseErrorUnexpectedBackend": "Erosketa ezin da une honetan osatu. Saiatu berriro geroago. Arazoak jarraitzen badu, jarri gurekin harremanetan Ezarpenak > Kontaktua atalean. Xehetasunak: {message}",
   "purchaseErrorOperationInProgress": "Erosketa-prozesu bat abian da dagoeneko. Saiatu berriro geroago.",
-  "purchaseErrorInsufficientPermissions": "Ez {accountName} erabiliz ez zaitezke plana gehitzen. Mesedez, egiaztatu zure ordainketa informazioa eta saiatu berriro.",
+  "purchaseErrorInsufficientPermissions": "Ezin duzu plan batera harpidetu {accountName} erabiliz. Egiaztatu ordainketa-informazioa eta saiatu berriro",
   "purchaseErrorPaymentPending": "Ordainketa etenda dago. Mesedez, egiaztatu {storeName} zure {accountName} saioan.",
   "premiumUserThanksTitle": "Esku handiko kide da",
   "premiumUserThanksMessage": "Eskerrik asko zure erabilera! Medicalarm-en kudeaketa jarraitzeko aukera izan dugu, zuri esker.",

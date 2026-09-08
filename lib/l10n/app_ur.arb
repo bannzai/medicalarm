@@ -122,7 +122,7 @@
   "purchaseErrorInvalidCredentials": "خریداری ناکام رہی۔ کچھ دیر بعد دوبارہ کوشش کریں۔ مسئلہ برقرار رہنے کی صورت میں، ترتیبات > ہم سے رابطہ کریں کے ذریعے ہم سے رابطہ کریں۔ تفصیلات: {message}",
   "purchaseErrorUnexpectedBackend": "اس وقت خریداری مکمل نہیں کی جا سکتی۔ براہِ کرم کچھ دیر بعد دوبارہ کوشش کریں۔ مسئلہ برقرار رہے تو ترتیبات > رابطہ کے ذریعے ہم سے رابطہ کریں۔ تفصیلات: {message}",
   "purchaseErrorOperationInProgress": "خریداری کا عمل پہلے ہی جاری ہے۔ براہِ کرم کچھ دیر بعد دوبارہ کوشش کریں۔",
-  "purchaseErrorInsufficientPermissions": "آپ کے {accountName} پر منصوبے میں شامل ہونے کی اجازت نہیں ہے۔ براہ کرم اپنی ادائیگی کی معلومات کی جانچ کریں اور دوبارہ کوشش کریں۔",
+  "purchaseErrorInsufficientPermissions": "آپ {accountName} کے ذریعے کسی پلان کی رکنیت حاصل نہیں کر سکتے۔ اپنی ادائیگی کی معلومات چیک کریں اور دوبارہ کوشش کریں",
   "purchaseErrorPaymentPending": "آپ کی ادائیگی درمیان میں رک گئی ہے۔ براہ کرم {accountName} کے ساتھ لاگ ان کرتے ہوئے {storeName} کی تصدیق کریں۔",
   "premiumUserThanksTitle": "یہ ایک پریمیم ممبر ہے",
   "premiumUserThanksMessage": "آپ کا شکریہ۔آپ کی وجہ سے Medicalarm کی خدمات جاری رکھنے میں کامیاب رہے ہیں۔",

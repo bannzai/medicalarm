@@ -122,7 +122,7 @@
   "purchaseErrorInvalidCredentials": "Nákup se nezdařil. Zkuste to znovu později. Pokud problém přetrvá, kontaktujte nás v Nastavení > Kontaktujte nás. Podrobnosti: {message}",
   "purchaseErrorUnexpectedBackend": "Nákup nyní nelze dokončit. Zkuste to znovu později. Pokud problém přetrvá, kontaktujte nás přes Nastavení > Kontakt. Podrobnosti: {message}",
   "purchaseErrorOperationInProgress": "Nákup již probíhá. Zkuste to znovu později.",
-  "purchaseErrorInsufficientPermissions": "Váš účet {accountName} nemá povolení k připojení k plánu. Prosím zkontrolujte své platební informace a zkuste to znovu.",
+  "purchaseErrorInsufficientPermissions": "S účtem {accountName} se nemůžete přihlásit k odběru plánu. Zkontrolujte platební údaje a zkuste to znovu",
   "purchaseErrorPaymentPending": "Platba byla zastavena. Zkontrolujte {storeName} s {accountName} přihlášeným",
   "premiumUserThanksTitle": "Jste prémiový člen",
   "premiumUserThanksMessage": "Děkujeme za využívání našeho systému. Díky vám můžeme pokračovat v provozu aplikace Medicalarm.",

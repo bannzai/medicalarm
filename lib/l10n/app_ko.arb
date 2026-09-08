@@ -122,7 +122,7 @@
   "purchaseErrorInvalidCredentials": "구매에 실패했습니다. 잠시 후 다시 시도해 주세요. 문제가 계속되면 설정 > 문의하기에서 문의해 주세요. 세부 정보: {message}",
   "purchaseErrorUnexpectedBackend": "현재 구매를 완료할 수 없습니다. 잠시 후 다시 시도해 주세요. 문제가 계속되면 설정 > 문의하기에서 문의해 주세요. 세부 정보: {message}",
   "purchaseErrorOperationInProgress": "구매가 이미 진행 중입니다. 잠시 후 다시 시도해 주세요.",
-  "purchaseErrorInsufficientPermissions": "귀하의 {accountName}에서는 플랜 가입이 불가능합니다. 결제 정보를 확인한 후 다시 시도해 주십시오.",
+  "purchaseErrorInsufficientPermissions": "{accountName}으로는 요금제에 가입할 수 없습니다. 결제 정보를 확인한 후 다시 시도해 주세요",
   "purchaseErrorPaymentPending": "결제가 도중에 중단되었습니다. 로그인 중인 {accountName} 계정으로 {storeName}를 확인해 주시기 바랍니다.",
   "premiumUserThanksTitle": "프리미엄 회원입니다",
   "premiumUserThanksMessage": "이용해 주셔서 감사합니다.\n덕분에 Medicalarm 운영을 지속할 수 있습니다.",

@@ -122,7 +122,7 @@
   "purchaseErrorInvalidCredentials": "Satınalma uğursuz oldu. Bir qədər sonra yenidən cəhd edin. Problem davam edərsə, Parametrlər > Bizimlə əlaqə bölməsindən bizə müraciət edin. Təfərrüatlar: {message}",
   "purchaseErrorUnexpectedBackend": "Hazırda satınalma mümkün deyil. Bir qədər sonra yenidən cəhd edin. Problem həll olunmasa, Parametrlər > Bizimlə əlaqə bölməsindən bizə müraciət edin. Təfərrüatlar: {message}",
   "purchaseErrorOperationInProgress": "Satınalma əməliyyatı artıq davam edir. Zəhmət olmasa, bir müddət sonra yenidən cəhd edin.",
-  "purchaseErrorInsufficientPermissions": "Sizin {accountName} hesabınızla plan abunə olmağınıza icazə verilmir. Zəhmət olmasa, ödəmə məlumatlarınızı yoxlayın və yenidən cəhd edin.",
+  "purchaseErrorInsufficientPermissions": "{accountName} ilə plana abunə ola bilməzsiniz. Ödəniş məlumatlarınızı yoxlayın və yenidən cəhd edin",
   "purchaseErrorPaymentPending": "Ödəniş yarımçıq dayandırılıb. Hal-hazırda giriş etdiyiniz {accountName} ilə {storeName} yoxlayın.",
   "premiumUserThanksTitle": "Premium üzv",
   "premiumUserThanksMessage": "Təşəkkür edirik ki, bizdən istifadə edirsiniz. Medicalarm-ın fəaliyyətini davam etdirməyimizə səbəb olduğunuz üçün minnətdarıq.",

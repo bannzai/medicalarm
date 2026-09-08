@@ -122,7 +122,7 @@
   "purchaseErrorInvalidCredentials": "खरीदारी विफल हो गई। कृपया कुछ देर बाद फिर कोशिश करें। समस्या बनी रहने पर, सेटिंग्स > हमसे संपर्क करें से संपर्क करें। विवरण: {message}",
   "purchaseErrorUnexpectedBackend": "अभी खरीदारी पूरी नहीं की जा सकती। कृपया कुछ देर बाद फिर कोशिश करें। समस्या बनी रहने पर सेटिंग्स > संपर्क करें से हमसे संपर्क करें। विवरण: {message}",
   "purchaseErrorOperationInProgress": "खरीदारी की प्रक्रिया पहले से जारी है। कृपया कुछ समय बाद फिर से प्रयास करें।",
-  "purchaseErrorInsufficientPermissions": "आपके द्वारा उपयोग किए जाने वाले {accountName} में योजना में शामिल होने की अनुमति नहीं है। कृपया अपने भुगतान की जानकारी की जांच करें और पुनः प्रयास करें।",
+  "purchaseErrorInsufficientPermissions": "आप {accountName} से किसी प्लान की सदस्यता नहीं ले सकते। अपनी भुगतान जानकारी जाँचें और फिर से कोशिश करें",
   "purchaseErrorPaymentPending": "भुगतान बीच में रुक गया है। कृपया अपने {accountName} पर {storeName} की जांच करें।",
   "premiumUserThanksTitle": "प्रमुख सदस्य हैं",
   "premiumUserThanksMessage": "आपका धन्यवाद।\nआपकी मदद से हम Medicalarm का संचालन जारी रख सकें हैं।",

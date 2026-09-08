@@ -122,7 +122,7 @@
   "purchaseErrorInvalidCredentials": "Kupovina nije uspjela. Pokušajte ponovo kasnije. Ako se problem nastavi, obratite nam se putem Postavke > Kontaktirajte nas. Detalji: {message}",
   "purchaseErrorUnexpectedBackend": "Kupovinu trenutno nije moguće dovršiti. Pokušajte ponovo kasnije. Ako problem i dalje postoji, kontaktirajte nas putem Postavke > Kontakt. Detalji: {message}",
   "purchaseErrorOperationInProgress": "Kupovina je već u toku. Pokušajte ponovo kasnije.",
-  "purchaseErrorInsufficientPermissions": "Na vašem {accountName} nije moguće pridružiti se planu. Molimo provjerite svoje informacije o plaćanju i pokušajte ponovo.",
+  "purchaseErrorInsufficientPermissions": "Ne možete se pretplatiti na plan putem računa {accountName}. Provjerite podatke za plaćanje i pokušajte ponovo",
   "purchaseErrorPaymentPending": "Plaćanje je prekinuto. Provjerite {storeName} sa {accountName}.",
   "premiumUserThanksTitle": "Premium član",
   "premiumUserThanksMessage": "Hvala vam što koristite našu aplikaciju. Zahvaljujući vama, možemo nastaviti s vođenjem Medicalarm-a.",

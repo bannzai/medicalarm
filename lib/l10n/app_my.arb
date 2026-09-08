@@ -122,7 +122,7 @@
   "purchaseErrorInvalidCredentials": "ဝယ်ယူမှု မအောင်မြင်ပါ။ ခဏအကြာတွင် ထပ်မံကြိုးစားပါ။ ပြဿနာဆက်ရှိနေပါက ဆက်တင်များ > ကျွန်ုပ်တို့ကို ဆက်သွယ်ရန်မှတစ်ဆင့် ဆက်သွယ်ပါ။ အသေးစိတ်: {message}",
   "purchaseErrorUnexpectedBackend": "လောလောဆယ် ဝယ်ယူမှုကို အပြီးသတ်၍ မရပါ။ ခဏကြာပြီးနောက် ထပ်မံကြိုးစားပါ။ ပြဿနာမပြေလည်ပါက ဆက်တင်များ > ဆက်သွယ်ရန်မှတစ်ဆင့် ကျွန်ုပ်တို့ကို ဆက်သွယ်ပါ။ အသေးစိတ်: {message}",
   "purchaseErrorOperationInProgress": "ဝယ်ယူမှုလုပ်ငန်းစဉ်ကို လုပ်ဆောင်နေပြီးဖြစ်သည်။ ခဏကြာပြီးနောက် ထပ်မံကြိုးစားပါ။",
-  "purchaseErrorInsufficientPermissions": "Akaun {accountName} anda tidak mempunyai kebenaran untuk menyertai pelan. Sila semak maklumat pembayaran anda dan cuba lagi.",
+  "purchaseErrorInsufficientPermissions": "{accountName} ဖြင့် အစီအစဉ်ကို စာရင်းသွင်း၍မရပါ။ ငွေပေးချေမှုအချက်အလက်ကို စစ်ဆေးပြီး ထပ်မံကြိုးစားပါ",
   "purchaseErrorPaymentPending": "Pembayaran sedang terhenti. Sila semak {storeName} menggunakan {accountName} yang sedang log masuk.",
   "premiumUserThanksTitle": "Ahli premium",
   "premiumUserThanksMessage": "Terima kasih atas penggunaan anda.\nBerkat anda, kami dapat terus menjalankan Medicalarm.",
