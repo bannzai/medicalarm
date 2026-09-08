@@ -85,7 +85,7 @@
   "diary": "Diary",
   "writeDiary": "Write a diary entry",
   "editDiaryTooltip": "Edit diary",
-  "medicineRegistrationLimit": "Number of registered medicines",
+  "medicineRegistrationLimit": "Number of registered medications",
   "doseReceiverRegistrationLimit": "the number of registered people taking medication",
   "notificationScheduleLimit": "Number of notification schedules",
   "addMedicine": "Add medicine",
