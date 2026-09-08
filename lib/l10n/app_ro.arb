@@ -133,7 +133,7 @@
   "purchaseErrorActivationPending": "Activarea serviciului plătit nu este încă finalizată. Verificați din nou mai târziu.",
   "purchaseErrorTimeout": "A expirat timpul de așteptare. Verificați conexiunea și încercați din nou. Dacă problema persistă, contactați-ne din Setări > Contactați-ne. Detalii: {message}",
   "purchaseErrorNetworkError": "A apărut o problemă de conexiune. Verificați conexiunea și încercați din nou. Dacă problema persistă, contactați-ne din Setări > Contactați-ne. Detalii: {message}",
-  "sixMonthPlan": "Plan de 6 luni",
+  "sixMonthPlan": "Plan pe 6 luni",
   "premiumContractPeriod": "Perioada abonamentului este de o lună de la data achiziției.",
   "privacyPolicy": "Politica de confidențialitate",
   "termsOfService": "Termenii serviciului",

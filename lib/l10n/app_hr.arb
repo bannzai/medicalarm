@@ -133,7 +133,7 @@
   "purchaseErrorActivationPending": "Aktivacija plaćene usluge još nije dovršena. Provjerite ponovno nakon nekog vremena.",
   "purchaseErrorTimeout": "Isteklo je vrijeme. Provjerite internetsku vezu i pokušajte ponovno. Ako se problem nastavi, kontaktirajte nas putem Postavke > Kontaktirajte nas. Pojedinosti: {message}",
   "purchaseErrorNetworkError": "Došlo je do problema s vezom. Provjerite vezu i pokušajte ponovno. Ako se problem nastavi, obratite nam se putem Postavke > Kontaktirajte nas. Pojedinosti: {message}",
-  "sixMonthPlan": "Plan na 6 mjeseci",
+  "sixMonthPlan": "Plan za 6 mjeseci",
   "premiumContractPeriod": "Razdoblje pretplate traje mjesec dana od datuma kupnje.",
   "privacyPolicy": "Pravila privatnosti",
   "termsOfService": "Uslovi korištenja",
