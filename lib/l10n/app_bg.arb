@@ -177,7 +177,7 @@
   "medicationHistoryDeletedSnackbar": "Записът за приема на лекарството е отменен",
   "undo": "Отмяна",
   "medicationHistoryReverted": "Отмяна на запис за прием на лекарство",
-  "revertedTime": "Час на анулиране",
+  "revertedTime": "Час на отмяна",
   "revertedByMember": "Отменено от {name}",
   "medicationTakenAtLabel": "Прието в {time}",
   "medicineResumedSnackbar": "Приемът на лекарството е възобновен",

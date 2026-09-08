@@ -177,7 +177,7 @@
   "medicationHistoryDeletedSnackbar": "Läkemedelsregistreringen har ångrats",
   "undo": "Ångra",
   "medicationHistoryReverted": "Läkemedelsregistrering återställd",
-  "revertedTime": "Avbokningstid",
+  "revertedTime": "Tid för återkallning",
   "revertedByMember": "Avbrutet av {name}",
   "medicationTakenAtLabel": "Taget kl. {time}",
   "medicineResumedSnackbar": "Medicinen tas nu igen",

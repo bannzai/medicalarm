@@ -177,7 +177,7 @@
   "medicationHistoryDeletedSnackbar": "La registrazione dell’assunzione del farmaco è stata annullata",
   "undo": "Annulla",
   "medicationHistoryReverted": "Registrazione dell’assunzione annullata",
-  "revertedTime": "Ora di annullamento",
+  "revertedTime": "Ora dell’annullamento",
   "revertedByMember": "Annullato da {name}",
   "medicationTakenAtLabel": "Assunto alle {time}",
   "medicineResumedSnackbar": "L’assunzione del farmaco è ripresa",

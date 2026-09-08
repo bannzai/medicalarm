@@ -177,7 +177,7 @@
   "medicationHistoryDeletedSnackbar": "Medicatieregistratie ongedaan gemaakt",
   "undo": "Ongedaan maken",
   "medicationHistoryReverted": "Medicatieregistratie teruggedraaid",
-  "revertedTime": "Annuleringstijd",
+  "revertedTime": "Tijdstip van annulering",
   "revertedByMember": "Geannuleerd door {name}",
   "medicationTakenAtLabel": "Ingenomen om {time}",
   "medicineResumedSnackbar": "Het innemen van het medicijn is hervat",

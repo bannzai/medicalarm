@@ -177,7 +177,7 @@
   "medicationHistoryDeletedSnackbar": "Medikasie-inskrywing ongedaan gemaak",
   "undo": "Ontdoen",
   "medicationHistoryReverted": "Medikasie-inskrywing gekanselleer",
-  "revertedTime": "Kansellasietyd",
+  "revertedTime": "Kanselleringstyd",
   "revertedByMember": "Deur {name} gekanselleer",
   "medicationTakenAtLabel": "{time} Ingeneem",
   "medicineResumedSnackbar": "Die gebruik van die medikasie is hervat",

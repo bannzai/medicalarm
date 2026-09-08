@@ -177,7 +177,7 @@
   "medicationHistoryDeletedSnackbar": "Գրանցված դեղորայքի ընդունումը չեղարկվեց",
   "undo": "ቀድሞ እንደነበረ መመለስ",
   "medicationHistoryReverted": "የመድኃኒት መዝገብ ተሰርዟል",
-  "revertedTime": "የመሰረዝ ሰዓት",
+  "revertedTime": "የመሰረዣ ሰዓት",
   "revertedByMember": "በ{name} ተሰርዟል",
   "medicationTakenAtLabel": "{time} ተወስዷል",
   "medicineResumedSnackbar": "የመድኃኒቱን አወሳሰድ እንደገና ጀምረዋል",
