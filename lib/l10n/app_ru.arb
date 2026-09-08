@@ -217,7 +217,7 @@
   "accountLink": "Перенос аккаунта",
   "accountLinkDescription": "Подключив Apple или Google, вы сможете сохранить данные даже после смены устройства или переустановки приложения.",
   "linkWithApple": "Перенести аккаунт через Apple",
-  "linkWithGoogle": "Перенести аккаунт через Google",
+  "linkWithGoogle": "Перенести аккаунт с помощью Google",
   "accountLinkedWithApple": "Связано с Apple",
   "accountLinkedWithGoogle": "Связано с Google",
   "accountLinkedSnackbar": "Аккаунт перенесён",
