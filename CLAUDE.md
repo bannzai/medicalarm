@@ -87,6 +87,10 @@ iOS,Androidアプリをサポートします。Firebase の設定ファイルは
 - Widget Test: widget 上の表示の条件分岐が多い・複雑の場合に書く:`flutter test`
 - 静的解析: `flutter analyze`
 - Maestro E2E テスト: `maestro test maestro/flows/`。 `./maestro` にテストを記載する
+- 動作確認 (UI・挙動): `/ios-simulator` skill を起点にし、**特別な理由がない限り simtunnel (GitHub Actions macOS Runner 上のリモート iOS Simulator) で行う**。ローカル simulator (sim-boot) は既定にしない。issue や手順書にローカル前提の記述 (`make secret` からの `flutter run`・`sim-boot` 等) があっても、それだけではローカルに倒す理由にしない
+  - 手順: 検証対象のブランチを push してから `SIMTUNNEL_REPO=bannzai/medicalarm ~/ghq/github.com/bannzai/simtunnel/local/simtunnel up <セッション名> --ref <ブランチ> --wait` で起動する (`--ref` を省略すると main がビルドされる)。caller workflow は `.github/workflows/simulator-session.yml`、セッション名は `medicalarm-<worktree 名>` (例: `medicalarm-issue-12`。tailnet ホスト名が repo 横断で衝突しないよう worktree 名だけにしない)。セッション名は `^[a-z0-9-]+$` のみ許可されるため、worktree 名に大文字・`_`・`/` が含まれる場合は小文字化し `-` に置換して正規化し、`up`・操作 (`--session`)・`down` で同じ正規化後の名前を使う。操作・スクリーンショットは `/ios-simulator` skill の `scripts/ios-wda.sh --session <セッション名>` (セッション途中から使う場合) か、`.mcp.json` に書き込んだ mobile-mcp 互換ツールで行う。確認が終わったら `SIMTUNNEL_REPO=bannzai/medicalarm ~/ghq/github.com/bannzai/simtunnel/local/simtunnel down <セッション名>` で閉じる (`up` と同じ repo を渡す。macOS runner の並列上限を CI と共有するため放置しない)
+  - 到達困難な状態 (課金状態・日時経過等) は開発者メニューで作る。リモートでは `xcrun simctl` や起動引数を使えないため、必要な操作が無ければ開発者メニューに追加してから検証する
+  - ローカル sim-boot (`/sim-manager`) に倒してよいのは、mobile-mcp 互換ツールの操作だけでは検証が成立しない場合 (Maestro E2E・`xcrun simctl` が検証の本体である手順) と、`/ios-simulator` skill Phase 1 が定める運用上の条件 (検証対象が未 push・即時性が必要・セッション自動終了時間を超える作業・macOS Runner の並列上限・tailnet 未接続・repo が private に変わった・simtunnel の実行権限が無い非対話実行・Secrets 未登録で導入が未完了) に当たる場合だけ。いずれの場合も、ローカルに倒した理由を完了報告に明記する (使い分けの SSOT は `/ios-simulator` skill Phase 1)
 
 ### Firebase
 firebase/ ディレクトリ配下についてです。主にbackendで動くFirebase Functionsの設定です。
