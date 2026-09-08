@@ -91,7 +91,7 @@
   "addMedicine": "İlaç ekle",
   "medicineMaxCount": "En fazla {count} ilaç kaydedebilirsiniz.",
   "increaseMedicineLimitWithPremium": "Premium planıyla limiti {count} olarak artırın",
-  "aboutApp": "Uygulama hakkında",
+  "aboutApp": "Uygulama Hakkında",
   "viewPremiumPlan": "Premium planı görüntüle",
   "cancelSubscriptionInstruction": "Satın aldıktan sonra otomatik yenilemeyi {storeName} uygulamasının hesap ayarlarından iptal edebilirsiniz. (Otomatik yenileme uygulama içinden iptal edilemez.)",
   "headache": "Baş ağrısı",
