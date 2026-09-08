@@ -213,7 +213,7 @@
   "invitationCodeInputLabel": "მოწვევის კოდი (8 სიმბოლო)",
   "invitationCodeInputHint": "შეიყვანეთ 8-სიმბოლოიანი კოდი",
   "join": "შეერთება",
-  "recordedByMember": "ჩაიწერა {name}-ის მიერ",
+  "recordedByMember": "{name}-მა ჩაიწერა",
   "accountLink": "ანგარიშის გადატანა",
   "accountLinkDescription": "Apple-თან ან Google-თან დაკავშირების შემთხვევაში, მონაცემების გადატანას მოწყობილობის შეცვლის ან აპის ხელახლა ინსტალაციის შემდეგაც შეძლებთ.",
   "linkWithApple": "ანგარიშის გადატანა Apple-ის გამოყენებით",

@@ -213,7 +213,7 @@
   "invitationCodeInputLabel": "আমন্ত্ৰণ ক’ড (৮টা আখৰ)",
   "invitationCodeInputHint": "৮টা আখৰৰ ক’ড লিখক",
   "join": "যোগদান কৰক",
-  "recordedByMember": "ৰেকৰ্ড কৰিছে: {name}",
+  "recordedByMember": "সদস্য {name}-এ নথিভুক্ত কৰিছে",
   "accountLink": "একাউণ্ট স্থানান্তৰ",
   "accountLinkDescription": "Apple বা Google-ৰ সৈতে সংযোগ কৰিলে, ফোন সলনি কৰিলেও বা এপটো পুনৰ ইনষ্টল কৰিলেও আপোনাৰ ডেটা স্থানান্তৰ কৰিব পাৰিব।",
   "linkWithApple": "Apple-ৰ জৰিয়তে একাউণ্ট স্থানান্তৰ কৰক",

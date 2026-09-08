@@ -213,7 +213,7 @@
   "invitationCodeInputLabel": "የግብዣ ኮድ (8 ቁምፊዎች)",
   "invitationCodeInputHint": "የ8 ቁምፊ ኮድ ያስገቡ",
   "join": "ይቀላቀሉ",
-  "recordedByMember": "በ{name} የተመዘገበ",
+  "recordedByMember": "በ{name} ተመዝግቧል",
   "accountLink": "የመለያ ማስተላለፍ",
   "accountLinkDescription": "ከApple ወይም Google ጋር በማገናኘት መሣሪያ ከቀየሩ ወይም መተግበሪያውን እንደገና ከጫኑ በኋላም ውሂብዎን ማስቀጠል ይችላሉ።",
   "linkWithApple": "መለያዎን በApple ያስተላልፉ",

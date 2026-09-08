@@ -213,7 +213,7 @@
   "invitationCodeInputLabel": "Einladungscode (8 Zeichen)",
   "invitationCodeInputHint": "8-stelligen Code eingeben",
   "join": "Beitreten",
-  "recordedByMember": "Aufgezeichnet von {name}",
+  "recordedByMember": "Von {name} aufgezeichnet",
   "accountLink": "Kontoübertragung",
   "accountLinkDescription": "Wenn Sie Apple oder Google verknüpfen, können Sie Ihre Daten auch nach einem Gerätewechsel oder einer Neuinstallation der App übernehmen.",
   "linkWithApple": "Account mit Apple übertragen",

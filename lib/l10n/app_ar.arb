@@ -213,7 +213,7 @@
   "invitationCodeInputLabel": "رمز الدعوة (8 أحرف)",
   "invitationCodeInputHint": "أدخل الرمز المكوّن من 8 أحرف",
   "join": "انضمام",
-  "recordedByMember": "سجّله {name}",
+  "recordedByMember": "سجّلها {name}",
   "accountLink": "نقل الحساب",
   "accountLinkDescription": "عند ربط حسابك بـ Apple أو Google، يمكنك نقل بياناتك حتى بعد تغيير الجهاز أو إعادة تثبيت التطبيق.",
   "linkWithApple": "نقل الحساب باستخدام Apple",

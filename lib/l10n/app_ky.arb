@@ -213,7 +213,7 @@
   "invitationCodeInputLabel": "Чакыруу коду (8 белги)",
   "invitationCodeInputHint": "8 белгиден турган кодду киргизиңиз",
   "join": "Кошулуу",
-  "recordedByMember": "Жазып алган: {name}",
+  "recordedByMember": "{name} жазды",
   "accountLink": "Каттоо эсебин өткөрүү",
   "accountLinkDescription": "Apple же Google менен байланыштырып койсоңуз, түзмөктү алмаштыргандан же колдонмону кайра орноткондон кийин да дайындарыңызды өткөрүп ала аласыз.",
   "linkWithApple": "Каттоо эсебин Apple аркылуу өткөрүү",

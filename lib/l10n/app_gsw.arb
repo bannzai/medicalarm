@@ -213,7 +213,7 @@
   "invitationCodeInputLabel": "Iiladigscode (8 Zeiche)",
   "invitationCodeInputHint": "8-stellige Code iigäh",
   "join": "Beitrete",
-  "recordedByMember": "Ufgzeichnet vo {name}",
+  "recordedByMember": "Ufzeichnet vo {name}",
   "accountLink": "Kontoübertragung",
   "accountLinkDescription": "Wenn Sie Apple oder Google verknüpfe, chönd Sie Ihre Date au nach eme Gerätewechsel oder ere Neuinstallation vo de App überneh.",
   "linkWithApple": "Konto mit Apple übertragen",
