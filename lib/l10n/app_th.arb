@@ -225,7 +225,7 @@
   "minimumDoseInterval": "ระยะห่างระหว่างการรับประทานยา",
   "minimumDoseIntervalDescription": "ระยะเวลาขั้นต่ำระหว่างการรับประทานยา",
   "minimumDoseIntervalNone": "ไม่มี",
-  "minimumDoseIntervalHoursFormat": "อย่างน้อย {hours} ชั่วโมง",
+  "minimumDoseIntervalHoursFormat": "{hours} ชั่วโมงขึ้นไป",
   "doseIntervalWarningTitle": "ยังไม่พ้นระยะห่างระหว่างการรับประทานยา",
   "doseIntervalWarningMessage": "มีการบันทึกว่าคุณรับประทานยาเวลา {latestTakeTime} แล้ว การตั้งค่ากำหนดให้เว้นระหว่างยาอย่างน้อย {minimumDoseIntervalHours} ชั่วโมง ต้องการบันทึกต่อไปหรือไม่",
   "doseIntervalWarningTakeAnyway": "บันทึก",

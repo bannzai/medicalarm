@@ -225,7 +225,7 @@
   "minimumDoseInterval": "Тун хоорондын зай",
   "minimumDoseIntervalDescription": "Өмнөх тунгаас хойш баримтлах хамгийн бага хугацаа",
   "minimumDoseIntervalNone": "Байхгүй",
-  "minimumDoseIntervalHoursFormat": "Дор хаяж {hours} цаг",
+  "minimumDoseIntervalHoursFormat": "{hours} цаг ба түүнээс дээш",
   "doseIntervalWarningTitle": "Тун хоорондын зай хараахан өнгөрөөгүй байна",
   "doseIntervalWarningMessage": "{latestTakeTime} цагт эм уусан гэж аль хэдийн бүртгэгдсэн байна. Тун хооронд дор хаяж {minimumDoseIntervalHours} цагийн зайтай байхаар тохируулсан. Гэсэн ч бүртгэх үү?",
   "doseIntervalWarningTakeAnyway": "Бүртгэх",

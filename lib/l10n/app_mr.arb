@@ -225,7 +225,7 @@
   "minimumDoseInterval": "डोसांमधील अंतर",
   "minimumDoseIntervalDescription": "मागील डोसनंतरचा किमान कालावधी",
   "minimumDoseIntervalNone": "काहीही नाही",
-  "minimumDoseIntervalHoursFormat": "किमान {hours} तास",
+  "minimumDoseIntervalHoursFormat": "{hours} तास किंवा अधिक",
   "doseIntervalWarningTitle": "औषधांच्या डोसमधील अंतर अजून पूर्ण झालेले नाही",
   "doseIntervalWarningMessage": "{latestTakeTime} वाजता औषध घेतल्याची नोंद आधीच आहे. डोसांमध्ये किमान {minimumDoseIntervalHours} तासांचे अंतर ठेवण्याची सेटिंग आहे. तरीही नोंद करायची का?",
   "doseIntervalWarningTakeAnyway": "नोंद करा",

@@ -225,7 +225,7 @@
   "minimumDoseInterval": "Интервал между приёмами",
   "minimumDoseIntervalDescription": "Минимальный интервал после предыдущего приёма",
   "minimumDoseIntervalNone": "Нет",
-  "minimumDoseIntervalHoursFormat": "Не менее {hours} ч.",
+  "minimumDoseIntervalHoursFormat": "{hours} часов или больше",
   "doseIntervalWarningTitle": "Интервал между приёмами ещё не истёк",
   "doseIntervalWarningMessage": "Приём в {latestTakeTime} уже записан. Между приёмами должно пройти не менее {minimumDoseIntervalHours} часов. Всё равно записать?",
   "doseIntervalWarningTakeAnyway": "Записать",

@@ -225,7 +225,7 @@
   "minimumDoseInterval": "ໄລຍະຫ່າງລະຫວ່າງການກິນຢາ",
   "minimumDoseIntervalDescription": "ໄລຍະເວລາຂັ້ນຕ່ຳລະຫວ່າງການກິນຢາ",
   "minimumDoseIntervalNone": "ບໍ່ມີ",
-  "minimumDoseIntervalHoursFormat": "ຢ່າງໜ້ອຍ {hours} ຊົ່ວໂມງ",
+  "minimumDoseIntervalHoursFormat": "{hours} ຊົ່ວໂມງຂຶ້ນໄປ",
   "doseIntervalWarningTitle": "ໄລຍະຫ່າງລະຫວ່າງການກິນຢາຍັງບໍ່ຄົບ",
   "doseIntervalWarningMessage": "ມີການບັນທຶກແລ້ວວ່າທ່ານໄດ້ກິນຢາໃນເວລາ {latestTakeTime}. ການຕັ້ງຄ່າກຳນົດໃຫ້ມີໄລຍະຫ່າງລະຫວ່າງຢາຢ່າງໜ້ອຍ {minimumDoseIntervalHours} ຊົ່ວໂມງ. ຍັງຕ້ອງການບັນທຶກບໍ?",
   "doseIntervalWarningTakeAnyway": "ບັນທຶກ",

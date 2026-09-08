@@ -225,7 +225,7 @@
   "minimumDoseInterval": "ସେବନ ବ୍ୟବଧାନ",
   "minimumDoseIntervalDescription": "ପୂର୍ବ ଡୋଜ୍ ପରେ ରଖିବାକୁ ଥିବା ସର୍ବନିମ୍ନ ସମୟ",
   "minimumDoseIntervalNone": "ନାହିଁ",
-  "minimumDoseIntervalHoursFormat": "ଅତି କମରେ {hours} ଘଣ୍ଟା",
+  "minimumDoseIntervalHoursFormat": "{hours} ଘଣ୍ଟା କିମ୍ବା ଅଧିକ",
   "doseIntervalWarningTitle": "ଔଷଧ ସେବନ ମଧ୍ୟରେ ବ୍ୟବଧାନ ପୂରଣ ହୋଇନାହିଁ",
   "doseIntervalWarningMessage": "{latestTakeTime}ରେ ଔଷଧ ଖାଇଥିବା ରେକର୍ଡ ପୂର୍ବରୁ ଅଛି। ଡୋଜ୍‌ ମଧ୍ୟରେ ଅତିକମରେ {minimumDoseIntervalHours} ଘଣ୍ଟା ବ୍ୟବଧାନ ରହିବା ପାଇଁ ସେଟ୍‌ କରାଯାଇଛି। ତଥାପି ରେକର୍ଡ କରିବେ କି?",
   "doseIntervalWarningTakeAnyway": "ରେକର୍ଡ କରନ୍ତୁ",

@@ -225,7 +225,7 @@
   "minimumDoseInterval": "Qabul qilish oralig‘i",
   "minimumDoseIntervalDescription": "Oldingi dozadan keyin o‘tishi kerak bo‘lgan minimal vaqt",
   "minimumDoseIntervalNone": "Yo‘q",
-  "minimumDoseIntervalHoursFormat": "Kamida {hours} soat",
+  "minimumDoseIntervalHoursFormat": "{hours} soat yoki undan ko‘p",
   "doseIntervalWarningTitle": "Dozalar orasidagi vaqt hali o‘tmagan",
   "doseIntervalWarningMessage": "{latestTakeTime} da dori qabul qilganingiz allaqachon qayd etilgan. Dozalar orasida kamida {minimumDoseIntervalHours} soat bo‘lishi kerak. Shunday bo‘lsa ham qayd etilsinmi?",
   "doseIntervalWarningTakeAnyway": "Qayd etish",

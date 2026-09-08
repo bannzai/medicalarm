@@ -225,7 +225,7 @@
   "minimumDoseInterval": "ਖੁਰਾਕਾਂ ਵਿਚਕਾਰ ਅੰਤਰਾਲ",
   "minimumDoseIntervalDescription": "ਪਿਛਲੀ ਖੁਰਾਕ ਤੋਂ ਬਾਅਦ ਘੱਟੋ-ਘੱਟ ਅੰਤਰਾਲ",
   "minimumDoseIntervalNone": "ਕੋਈ ਨਹੀਂ",
-  "minimumDoseIntervalHoursFormat": "ਘੱਟੋ-ਘੱਟ {hours} ਘੰਟੇ",
+  "minimumDoseIntervalHoursFormat": "{hours} ਘੰਟੇ ਜਾਂ ਵੱਧ",
   "doseIntervalWarningTitle": "ਖੁਰਾਕਾਂ ਵਿਚਕਾਰ ਅੰਤਰਾਲ ਅਜੇ ਪੂਰਾ ਨਹੀਂ ਹੋਇਆ",
   "doseIntervalWarningMessage": "{latestTakeTime} ਵਜੇ ਦਵਾਈ ਲੈਣ ਦਾ ਰਿਕਾਰਡ ਪਹਿਲਾਂ ਹੀ ਮੌਜੂਦ ਹੈ। ਖੁਰਾਕਾਂ ਵਿਚਕਾਰ ਘੱਟੋ-ਘੱਟ {minimumDoseIntervalHours} ਘੰਟਿਆਂ ਦਾ ਅੰਤਰ ਰੱਖਣ ਲਈ ਸੈੱਟ ਕੀਤਾ ਗਿਆ ਹੈ। ਫਿਰ ਵੀ ਰਿਕਾਰਡ ਕਰਨਾ ਹੈ?",
   "doseIntervalWarningTakeAnyway": "ਰਿਕਾਰਡ ਕਰੋ",

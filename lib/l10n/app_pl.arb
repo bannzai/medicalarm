@@ -225,7 +225,7 @@
   "minimumDoseInterval": "Odstęp między dawkami",
   "minimumDoseIntervalDescription": "Minimalny odstęp od poprzedniej dawki",
   "minimumDoseIntervalNone": "Brak",
-  "minimumDoseIntervalHoursFormat": "Co najmniej {hours} godz.",
+  "minimumDoseIntervalHoursFormat": "{hours} godzin lub więcej",
   "doseIntervalWarningTitle": "Odstęp między dawkami jeszcze nie minął",
   "doseIntervalWarningMessage": "Przyjęcie leku o {latestTakeTime} jest już zapisane. Ustawiono co najmniej {minimumDoseIntervalHours} godzin przerwy między dawkami. Mimo to zapisać?",
   "doseIntervalWarningTakeAnyway": "Zapisz",

@@ -225,7 +225,7 @@
   "minimumDoseInterval": "Muda kati ya dozi",
   "minimumDoseIntervalDescription": "Muda wa chini kati ya dozi",
   "minimumDoseIntervalNone": "Hakuna",
-  "minimumDoseIntervalHoursFormat": "Angalau saa {hours}",
+  "minimumDoseIntervalHoursFormat": "{hours} saa au zaidi",
   "doseIntervalWarningTitle": "Muda kati ya dozi bado haujatimia",
   "doseIntervalWarningMessage": "Tayari imerekodiwa kuwa ulimeza dawa saa {latestTakeTime}. Mpangilio unahitaji kuwe na angalau saa {minimumDoseIntervalHours} kati ya dozi. Urekodi hata hivyo?",
   "doseIntervalWarningTakeAnyway": "Rekodi",

@@ -225,7 +225,7 @@
   "minimumDoseInterval": "Annustamisintervall",
   "minimumDoseIntervalDescription": "Minimaalne aeg annuste vahel",
   "minimumDoseIntervalNone": "Puudub",
-  "minimumDoseIntervalHoursFormat": "Vähemalt {hours} tundi",
+  "minimumDoseIntervalHoursFormat": "{hours} tundi või rohkem",
   "doseIntervalWarningTitle": "Annustamisintervall ei ole veel möödunud",
   "doseIntervalWarningMessage": "Ravimi võtmine on juba registreeritud ajal {latestTakeTime}. Annuste vahele peab jääma vähemalt {minimumDoseIntervalHours} tundi. Kas registreerida siiski?",
   "doseIntervalWarningTakeAnyway": "Salvesta",

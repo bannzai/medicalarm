@@ -225,7 +225,7 @@
   "minimumDoseInterval": "Dosisinterval",
   "minimumDoseIntervalDescription": "Minimum tyd tussen dosisse",
   "minimumDoseIntervalNone": "Geen",
-  "minimumDoseIntervalHoursFormat": "Minstens {hours} uur",
+  "minimumDoseIntervalHoursFormat": "{hours} uur of langer",
   "doseIntervalWarningTitle": "Die dosisinterval het nog nie verstryk nie",
   "doseIntervalWarningMessage": "U het reeds om {latestTakeTime} ’n dosis aangeteken. Die instelling vereis ’n interval van minstens {minimumDoseIntervalHours} uur tussen dosisse. Wil u dit steeds aanteken?",
   "doseIntervalWarningTakeAnyway": "Aanteken",

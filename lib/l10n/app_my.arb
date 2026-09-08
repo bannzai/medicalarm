@@ -225,7 +225,7 @@
   "minimumDoseInterval": "ဆေးသောက်ချိန်ကြားကာလ",
   "minimumDoseIntervalDescription": "ယခင်ဆေးသောက်ပြီးနောက် ထားရမည့် အနည်းဆုံးအချိန်",
   "minimumDoseIntervalNone": "မရှိပါ",
-  "minimumDoseIntervalHoursFormat": "အနည်းဆုံး {hours} နာရီ",
+  "minimumDoseIntervalHoursFormat": "{hours} နာရီနှင့်အထက်",
   "doseIntervalWarningTitle": "ဆေးသောက်ချိန်အကြားကာလ မပြည့်သေးပါ",
   "doseIntervalWarningMessage": "{latestTakeTime} တွင် ဆေးသောက်ထားကြောင်း မှတ်တမ်းတင်ပြီးဖြစ်သည်။ ဆေးပမာဏများကြား အနည်းဆုံး {minimumDoseIntervalHours} နာရီခြားရန် သတ်မှတ်ထားသည်။ သို့သော် မှတ်တမ်းတင်မလား။",
   "doseIntervalWarningTakeAnyway": "မှတ်တမ်းတင်ရန်",

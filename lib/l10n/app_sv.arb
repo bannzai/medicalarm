@@ -225,7 +225,7 @@
   "minimumDoseInterval": "Doseringsintervall",
   "minimumDoseIntervalDescription": "Minsta tid mellan doser",
   "minimumDoseIntervalNone": "Ingen",
-  "minimumDoseIntervalHoursFormat": "Minst {hours} timmar",
+  "minimumDoseIntervalHoursFormat": "{hours} timmar eller mer",
   "doseIntervalWarningTitle": "Tidsintervallet mellan doserna har inte gått än",
   "doseIntervalWarningMessage": "Det finns redan en registrering av att du tog medicinen kl. {latestTakeTime}. Inställningen kräver minst {minimumDoseIntervalHours} timmar mellan doserna. Vill du registrera det ändå?",
   "doseIntervalWarningTakeAnyway": "Registrera",

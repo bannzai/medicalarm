@@ -225,7 +225,7 @@
   "minimumDoseInterval": "Annosväli",
   "minimumDoseIntervalDescription": "Vähimmäisaika edellisestä annoksesta",
   "minimumDoseIntervalNone": "Ei mitään",
-  "minimumDoseIntervalHoursFormat": "Vähintään {hours} tuntia",
+  "minimumDoseIntervalHoursFormat": "{hours} tuntia tai enemmän",
   "doseIntervalWarningTitle": "Annosväli ei ole vielä kulunut",
   "doseIntervalWarningMessage": "Lääkkeenotto on jo kirjattu ajalle {latestTakeTime}. Annosten välillä on oltava vähintään {minimumDoseIntervalHours} tuntia. Kirjataanko silti?",
   "doseIntervalWarningTakeAnyway": "Kirjaa",

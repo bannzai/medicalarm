@@ -225,7 +225,7 @@
   "minimumDoseInterval": "Qəbul intervalı",
   "minimumDoseIntervalDescription": "Dozalar arasında saxlanmalı minimum vaxt",
   "minimumDoseIntervalNone": "Yoxdur",
-  "minimumDoseIntervalHoursFormat": "Ən azı {hours} saat",
+  "minimumDoseIntervalHoursFormat": "{hours} saat və ya daha çox",
   "doseIntervalWarningTitle": "Doza intervalı hələ tamamlanmayıb",
   "doseIntervalWarningMessage": "{latestTakeTime} tarixində dərman qəbul etdiyiniz artıq qeyd olunub. Dozalar arasında ən azı {minimumDoseIntervalHours} saat fasilə olması üçün tənzimlənib. Yenə də qeyd etmək istəyirsiniz?",
   "doseIntervalWarningTakeAnyway": "Qeyd et",

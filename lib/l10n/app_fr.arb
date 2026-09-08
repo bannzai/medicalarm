@@ -225,7 +225,7 @@
   "minimumDoseInterval": "Intervalle entre les prises",
   "minimumDoseIntervalDescription": "Délai minimal entre les prises",
   "minimumDoseIntervalNone": "Aucun",
-  "minimumDoseIntervalHoursFormat": "Au moins {hours} heures",
+  "minimumDoseIntervalHoursFormat": "{hours} heures ou plus",
   "doseIntervalWarningTitle": "L’intervalle entre les prises n’est pas encore écoulé",
   "doseIntervalWarningMessage": "Une prise est déjà enregistrée à {latestTakeTime}. Le réglage prévoit un intervalle d’au moins {minimumDoseIntervalHours} heures entre les prises. L’enregistrer quand même ?",
   "doseIntervalWarningTakeAnyway": "Enregistrer",

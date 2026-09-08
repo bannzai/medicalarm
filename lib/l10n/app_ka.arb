@@ -225,7 +225,7 @@
   "minimumDoseInterval": "დოზებს შორის ინტერვალი",
   "minimumDoseIntervalDescription": "მინიმალური დრო დოზებს შორის",
   "minimumDoseIntervalNone": "არცერთი",
-  "minimumDoseIntervalHoursFormat": "მინიმუმ {hours} საათი",
+  "minimumDoseIntervalHoursFormat": "{hours} საათი ან მეტი",
   "doseIntervalWarningTitle": "დოზებს შორის ინტერვალი ჯერ არ გასულა",
   "doseIntervalWarningMessage": "მედიკამენტის მიღება უკვე ჩაწერილია: {latestTakeTime}. პარამეტრი დოზებს შორის მინიმუმ {minimumDoseIntervalHours} საათის ინტერვალს მოითხოვს. მაინც ჩაიწეროს?",
   "doseIntervalWarningTakeAnyway": "ჩაწერა",

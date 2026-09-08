@@ -225,7 +225,7 @@
   "minimumDoseInterval": "복용 간격",
   "minimumDoseIntervalDescription": "이전 복용 후 최소 간격",
   "minimumDoseIntervalNone": "없음",
-  "minimumDoseIntervalHoursFormat": "최소 {hours}시간",
+  "minimumDoseIntervalHoursFormat": "{hours}시간 이상",
   "doseIntervalWarningTitle": "복용 간격이 아직 지나지 않았습니다",
   "doseIntervalWarningMessage": "{latestTakeTime}에 복용한 기록이 이미 있습니다. 복용 간격은 최소 {minimumDoseIntervalHours}시간으로 설정되어 있습니다. 그래도 기록할까요?",
   "doseIntervalWarningTakeAnyway": "기록하기",

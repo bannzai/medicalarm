@@ -225,7 +225,7 @@
   "minimumDoseInterval": "সেৱনৰ ব্যৱধান",
   "minimumDoseIntervalDescription": "পূৰ্বৰ পালিৰ পিছত ৰাখিবলগীয়া ন্যূনতম সময়",
   "minimumDoseIntervalNone": "নাই",
-  "minimumDoseIntervalHoursFormat": "অন্তত {hours} ঘণ্টা",
+  "minimumDoseIntervalHoursFormat": "{hours} ঘণ্টা বা তাতকৈ অধিক",
   "doseIntervalWarningTitle": "ঔষধ গ্ৰহণৰ ব্যৱধান পূৰ হোৱা নাই",
   "doseIntervalWarningMessage": "{latestTakeTime}-ত ঔষধ গ্ৰহণ কৰা বুলি ইতিমধ্যে নথিভুক্ত আছে। ড’জৰ মাজত কমেও {minimumDoseIntervalHours} ঘণ্টাৰ ব্যৱধান ৰাখিবলৈ ছেট কৰা হৈছে। তথাপিও নথিভুক্ত কৰিবনে?",
   "doseIntervalWarningTakeAnyway": "লিপিবদ্ধ কৰক",

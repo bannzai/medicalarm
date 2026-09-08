@@ -225,7 +225,7 @@
   "minimumDoseInterval": "Interval între doze",
   "minimumDoseIntervalDescription": "Timp minim între doze",
   "minimumDoseIntervalNone": "Niciunul",
-  "minimumDoseIntervalHoursFormat": "Cel puțin {hours} ore",
+  "minimumDoseIntervalHoursFormat": "{hours} ore sau mai mult",
   "doseIntervalWarningTitle": "Intervalul dintre doze nu a trecut încă",
   "doseIntervalWarningMessage": "Administrarea de la {latestTakeTime} este deja înregistrată. Setarea impune un interval de cel puțin {minimumDoseIntervalHours} ore între doze. Înregistrați oricum?",
   "doseIntervalWarningTakeAnyway": "Înregistrează",

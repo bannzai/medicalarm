@@ -225,7 +225,7 @@
   "minimumDoseInterval": "Isikhawu semithamo",
   "minimumDoseIntervalDescription": "Isikhathi esincane phakathi kwemithamo",
   "minimumDoseIntervalNone": "Akukho",
-  "minimumDoseIntervalHoursFormat": "Okungenani amahora angu-{hours}",
+  "minimumDoseIntervalHoursFormat": "{hours} amahora noma ngaphezulu",
   "doseIntervalWarningTitle": "Isikhathi phakathi kwemithamo asikapheli",
   "doseIntervalWarningMessage": "Sekuvele kuqoshiwe ukuthi uphuze umuthi ngo-{latestTakeTime}. Isilungiselelo sidinga ukuthi kube okungenani amahora angu-{minimumDoseIntervalHours} phakathi kwemithamo. Usafuna ukukurekhoda?",
   "doseIntervalWarningTakeAnyway": "Qopha",

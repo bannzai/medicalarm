@@ -225,7 +225,7 @@
   "minimumDoseInterval": "Қабылдау аралығы",
   "minimumDoseIntervalDescription": "Алдыңғы қабылдаудан кейінгі ең аз уақыт аралығы",
   "minimumDoseIntervalNone": "Жоқ",
-  "minimumDoseIntervalHoursFormat": "Кемінде {hours} сағат",
+  "minimumDoseIntervalHoursFormat": "{hours} сағат немесе одан көп",
   "doseIntervalWarningTitle": "Дозалар арасындағы уақыт әлі өткен жоқ",
   "doseIntervalWarningMessage": "Дәріні {latestTakeTime} уақытында қабылдағаныңыз әлдеқашан тіркелген. Баптауда дозалар арасында кемінде {minimumDoseIntervalHours} сағат болуы керек. Сонда да тіркейсіз бе?",
   "doseIntervalWarningTakeAnyway": "Жазу",

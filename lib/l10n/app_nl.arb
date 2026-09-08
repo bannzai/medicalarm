@@ -225,7 +225,7 @@
   "minimumDoseInterval": "Tussenpoos tussen innames",
   "minimumDoseIntervalDescription": "Minimale tijd tussen doses",
   "minimumDoseIntervalNone": "Geen",
-  "minimumDoseIntervalHoursFormat": "Minimaal {hours} uur",
+  "minimumDoseIntervalHoursFormat": "{hours} uur of langer",
   "doseIntervalWarningTitle": "Het interval tussen de innames is nog niet verstreken",
   "doseIntervalWarningMessage": "Er is al geregistreerd dat je het medicijn om {latestTakeTime} hebt ingenomen. Er moet volgens de instelling minstens {minimumDoseIntervalHours} uur tussen innames zitten. Toch registreren?",
   "doseIntervalWarningTakeAnyway": "Registreren",

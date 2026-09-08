@@ -225,7 +225,7 @@
   "minimumDoseInterval": "Intervallo tra le dosi",
   "minimumDoseIntervalDescription": "Intervallo minimo tra le dosi",
   "minimumDoseIntervalNone": "Nessuno",
-  "minimumDoseIntervalHoursFormat": "Almeno {hours} ore",
+  "minimumDoseIntervalHoursFormat": "{hours} ore o più",
   "doseIntervalWarningTitle": "L’intervallo tra le dosi non è ancora trascorso",
   "doseIntervalWarningMessage": "L’assunzione è già stata registrata alle {latestTakeTime}. L’impostazione richiede un intervallo di almeno {minimumDoseIntervalHours} ore tra le dosi. Registrarla comunque?",
   "doseIntervalWarningTakeAnyway": "Registra",
