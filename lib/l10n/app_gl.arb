@@ -227,7 +227,7 @@
   "minimumDoseIntervalNone": "Ningún",
   "minimumDoseIntervalHoursFormat": "{hours} horas ou máis",
   "doseIntervalWarningTitle": "Aínda non transcorreu o intervalo mínimo entre as doses",
-  "doseIntervalWarningMessage": "Xa consta que tomaches o medicamento ás {latestTakeTime}. A configuración require deixar polo menos {minimumDoseIntervalHours} horas entre as tomas. Queres rexistralo igualmente?",
+  "doseIntervalWarningMessage": "Xa está rexistrado que tomaches a medicación ás {latestTakeTime}. A configuración require deixar polo menos {minimumDoseIntervalHours} horas entre tomas. Queres rexistrala igualmente?",
   "doseIntervalWarningTakeAnyway": "Rexistrar",
   "doseIntervalNotificationWarning": "⚠️ Aínda non pasaron {minimumDoseIntervalHours} horas desde a última dose",
   "ossLicense": "Licenzas OSS",

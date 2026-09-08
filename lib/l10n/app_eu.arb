@@ -227,7 +227,7 @@
   "minimumDoseIntervalNone": "Bat ere ez",
   "minimumDoseIntervalHoursFormat": "{hours} ordu edo gehiago",
   "doseIntervalWarningTitle": "Dosen arteko gutxieneko tartea ez da oraindik igaro",
-  "doseIntervalWarningMessage": "Dagoeneko erregistratuta dago sendaga {latestTakeTime} hartu duzula. Ezarpenak dosien artean gutxienez {minimumDoseIntervalHours} orduko tartea eskatzen du. Hala ere erregistratu?",
+  "doseIntervalWarningMessage": "Dagoeneko erregistratuta dago {latestTakeTime}an botika hartu duzula. Ezarpenen arabera, dosien artean gutxienez {minimumDoseIntervalHours} ordu egon behar dira. Hala ere, erregistratu nahi duzu?",
   "doseIntervalWarningTakeAnyway": "Erregistratu",
   "doseIntervalNotificationWarning": "⚠️ Ez dira {minimumDoseIntervalHours} ordu igaro aurreko dositik",
   "ossLicense": "OSS lizentziak",

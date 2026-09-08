@@ -227,7 +227,7 @@
   "minimumDoseIntervalNone": "Không có",
   "minimumDoseIntervalHoursFormat": "{hours} giờ trở lên",
   "doseIntervalWarningTitle": "Khoảng thời gian tối thiểu giữa các liều chưa trôi qua",
-  "doseIntervalWarningMessage": "Bạn đã ghi nhận đã uống thuốc vào {latestTakeTime}. Cài đặt yêu cầu cách nhau ít nhất {minimumDoseIntervalHours} giờ giữa các liều. Vẫn ghi nhận chứ?",
+  "doseIntervalWarningMessage": "Đã ghi nhận bạn uống thuốc lúc {latestTakeTime}. Cài đặt yêu cầu cách nhau ít nhất {minimumDoseIntervalHours} giờ giữa các lần uống. Bạn vẫn muốn ghi nhận lần này chứ?",
   "doseIntervalWarningTakeAnyway": "Ghi lại",
   "doseIntervalNotificationWarning": "⚠️ Chưa đủ {minimumDoseIntervalHours} giờ kể từ lần uống trước",
   "ossLicense": "Giấy phép OSS",

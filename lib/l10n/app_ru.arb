@@ -227,7 +227,7 @@
   "minimumDoseIntervalNone": "Нет",
   "minimumDoseIntervalHoursFormat": "{hours} часов или больше",
   "doseIntervalWarningTitle": "Минимальный интервал между приёмами ещё не истёк",
-  "doseIntervalWarningMessage": "Приём в {latestTakeTime} уже записан. Между приёмами должно пройти не менее {minimumDoseIntervalHours} часов. Всё равно записать?",
+  "doseIntervalWarningMessage": "Приём в {latestTakeTime} уже записан. В настройках установлен интервал между приёмами не менее {minimumDoseIntervalHours} часов. Всё равно записать этот приём?",
   "doseIntervalWarningTakeAnyway": "Записать",
   "doseIntervalNotificationWarning": "⚠️ С момента предыдущего приёма прошло менее {minimumDoseIntervalHours} часов",
   "ossLicense": "Лицензии OSS",

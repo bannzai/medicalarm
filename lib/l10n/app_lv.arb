@@ -227,7 +227,7 @@
   "minimumDoseIntervalNone": "Nav",
   "minimumDoseIntervalHoursFormat": "{hours} stundas vai ilgāk",
   "doseIntervalWarningTitle": "Minimālais intervāls starp devām vēl nav pagājis",
-  "doseIntervalWarningMessage": "Zāļu lietošana jau ir reģistrēta plkst. {latestTakeTime}. Iestatījumos noteikts, ka starp devām jābūt vismaz {minimumDoseIntervalHours} stundām. Vai tomēr reģistrēt?",
+  "doseIntervalWarningMessage": "Jau ir reģistrēts, ka zāles lietotas plkst. {latestTakeTime}. Iestatījumos noteikts, ka starp devām jābūt vismaz {minimumDoseIntervalHours} stundu intervālam. Vai tomēr reģistrēt?",
   "doseIntervalWarningTakeAnyway": "Reģistrēt",
   "doseIntervalNotificationWarning": "⚠️ Kopš pēdējās devas lietošanas nav pagājušas {minimumDoseIntervalHours} stundas",
   "ossLicense": "OSS licences",

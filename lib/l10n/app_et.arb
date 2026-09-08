@@ -227,7 +227,7 @@
   "minimumDoseIntervalNone": "Puudub",
   "minimumDoseIntervalHoursFormat": "{hours} tundi või rohkem",
   "doseIntervalWarningTitle": "Minimaalne annuste vaheline aeg ei ole veel möödunud",
-  "doseIntervalWarningMessage": "Ravimi võtmine on juba registreeritud ajal {latestTakeTime}. Annuste vahele peab jääma vähemalt {minimumDoseIntervalHours} tundi. Kas registreerida siiski?",
+  "doseIntervalWarningMessage": "Ravimi võtmine kell {latestTakeTime} on juba registreeritud. Seadistus nõuab annuste vahel vähemalt {minimumDoseIntervalHours} tunni pikkust pausi. Kas soovid selle siiski registreerida?",
   "doseIntervalWarningTakeAnyway": "Salvesta",
   "doseIntervalNotificationWarning": "⚠️ Eelmisest annusest ei ole möödunud {minimumDoseIntervalHours} tundi",
   "ossLicense": "OSS-litsentsid",

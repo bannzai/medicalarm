@@ -227,7 +227,7 @@
   "minimumDoseIntervalNone": "គ្មាន",
   "minimumDoseIntervalHoursFormat": "{hours} ម៉ោង ឬច្រើនជាងនេះ",
   "doseIntervalWarningTitle": "រយៈពេលអប្បបរមារវាងដូសមិនទាន់កន្លងផុតទេ",
-  "doseIntervalWarningMessage": "បានកត់ត្រារួចហើយថា អ្នកបានលេបថ្នាំនៅ {latestTakeTime}។ ការកំណត់ទាមទារឱ្យមានចន្លោះយ៉ាងតិច {minimumDoseIntervalHours} ម៉ោងរវាងដូស។ តើនៅតែចុះកំណត់ត្រាឬទេ?",
+  "doseIntervalWarningMessage": "ការលេបថ្នាំនៅ {latestTakeTime} ត្រូវបានកត់ត្រារួចហើយ។ ការកំណត់តម្រូវឱ្យមានចន្លោះយ៉ាងតិច {minimumDoseIntervalHours} ម៉ោងរវាងការលេបថ្នាំ។ តើនៅតែចង់កត់ត្រាឬទេ?",
   "doseIntervalWarningTakeAnyway": "កត់ត្រា",
   "doseIntervalNotificationWarning": "⚠️ មិនទាន់បានកន្លងផុត {minimumDoseIntervalHours} ម៉ោង ចាប់តាំងពីលើកចុងក្រោយដែលបានប្រើថ្នាំ",
   "ossLicense": "អាជ្ញាប័ណ្ណ OSS",

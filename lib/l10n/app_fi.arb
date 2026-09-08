@@ -227,7 +227,7 @@
   "minimumDoseIntervalNone": "Ei mitään",
   "minimumDoseIntervalHoursFormat": "{hours} tuntia tai enemmän",
   "doseIntervalWarningTitle": "Annosten välinen vähimmäisaika ei ole vielä kulunut",
-  "doseIntervalWarningMessage": "Lääkkeenotto on jo kirjattu ajalle {latestTakeTime}. Annosten välillä on oltava vähintään {minimumDoseIntervalHours} tuntia. Kirjataanko silti?",
+  "doseIntervalWarningMessage": "Lääkkeenotto ajankohtana {latestTakeTime} on jo kirjattu. Asetuksen mukaan annosten välillä on oltava vähintään {minimumDoseIntervalHours} tuntia. Haluatko silti kirjata sen?",
   "doseIntervalWarningTakeAnyway": "Kirjaa",
   "doseIntervalNotificationWarning": "⚠️ Edellisestä annoksesta ei ole kulunut {minimumDoseIntervalHours} tuntia",
   "ossLicense": "OSS-lisenssit",

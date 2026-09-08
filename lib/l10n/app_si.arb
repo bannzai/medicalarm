@@ -227,7 +227,7 @@
   "minimumDoseIntervalNone": "නැත",
   "minimumDoseIntervalHoursFormat": "{hours} පැය හෝ ඊට වැඩි",
   "doseIntervalWarningTitle": "මාත්‍රා අතර අවම කාලය තවම ගත වී නැත",
-  "doseIntervalWarningMessage": "{latestTakeTime} දී ඖෂධය ගත් බව දැනටමත් සටහන් කර ඇත. මාත්‍රා අතර අවම වශයෙන් පැය {minimumDoseIntervalHours} ක පරතරයක් තිබිය යුතු ලෙස සකසා ඇත. එසේ වුවත් සටහන් කරන්නද?",
+  "doseIntervalWarningMessage": "{latestTakeTime} දී ඖෂධය ගත් බව දැනටමත් සටහන් කර ඇත. මාත්‍රා අතර අවම වශයෙන් පැය {minimumDoseIntervalHours} ක පරතරයක් තිබිය යුතු බවට සකසා ඇත. එසේ වුවද සටහන් කරන්නද?",
   "doseIntervalWarningTakeAnyway": "වාර්තා කරන්න",
   "doseIntervalNotificationWarning": "⚠️ අවසන් මාත්‍රාව ලබාගෙන {minimumDoseIntervalHours} පැය ගත වී නැත",
   "ossLicense": "OSS බලපත්‍ර",

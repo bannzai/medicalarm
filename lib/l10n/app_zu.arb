@@ -227,7 +227,7 @@
   "minimumDoseIntervalNone": "Akukho",
   "minimumDoseIntervalHoursFormat": "{hours} amahora noma ngaphezulu",
   "doseIntervalWarningTitle": "Isikhathi esincane phakathi kwemithamo asikapheli",
-  "doseIntervalWarningMessage": "Sekuvele kuqoshiwe ukuthi uphuze umuthi ngo-{latestTakeTime}. Isilungiselelo sidinga ukuthi kube okungenani amahora angu-{minimumDoseIntervalHours} phakathi kwemithamo. Usafuna ukukurekhoda?",
+  "doseIntervalWarningMessage": "Sekuvele kubhalisiwe ukuthi uphuze umuthi ngo-{latestTakeTime}. Izilungiselelo zidinga ukuthi kube namahora okungenani angu-{minimumDoseIntervalHours} phakathi kwemithamo. Usafuna ukukurekhoda?",
   "doseIntervalWarningTakeAnyway": "Qopha",
   "doseIntervalNotificationWarning": "⚠️ Akukadluli amahora angu-{minimumDoseIntervalHours} kusukela emthamo wokugcina",
   "ossLicense": "Amalayisense e-OSS",

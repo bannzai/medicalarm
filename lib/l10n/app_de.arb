@@ -227,7 +227,7 @@
   "minimumDoseIntervalNone": "Keine",
   "minimumDoseIntervalHoursFormat": "{hours} Stunden oder mehr",
   "doseIntervalWarningTitle": "Der Mindestabstand zwischen den Einnahmen ist noch nicht verstrichen",
-  "doseIntervalWarningMessage": "Die Einnahme um {latestTakeTime} ist bereits erfasst. Zwischen den Einnahmen müssen mindestens {minimumDoseIntervalHours} Stunden liegen. Trotzdem speichern?",
+  "doseIntervalWarningMessage": "Für {latestTakeTime} ist bereits eine Einnahme erfasst. Zwischen den Einnahmen sollen mindestens {minimumDoseIntervalHours} Stunden liegen. Möchtest du sie trotzdem erfassen?",
   "doseIntervalWarningTakeAnyway": "Aufzeichnen",
   "doseIntervalNotificationWarning": "⚠️ Seit der letzten Einnahme sind noch keine {minimumDoseIntervalHours} Stunden vergangen",
   "ossLicense": "OSS-Lizenzen",

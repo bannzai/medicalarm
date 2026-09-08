@@ -227,7 +227,7 @@
   "minimumDoseIntervalNone": "None",
   "minimumDoseIntervalHoursFormat": "{hours} hours or more",
   "doseIntervalWarningTitle": "The minimum interval between doses has not elapsed",
-  "doseIntervalWarningMessage": "A dose was already recorded at {latestTakeTime}. The setting requires at least {minimumDoseIntervalHours} hours between doses. Record it anyway?",
+  "doseIntervalWarningMessage": "A dose was already recorded at {latestTakeTime}. Your settings require at least {minimumDoseIntervalHours} hours between doses. Do you still want to record it?",
   "doseIntervalWarningTakeAnyway": "Record",
   "doseIntervalNotificationWarning": "⚠️ {minimumDoseIntervalHours} hours have not passed since the last dose",
   "ossLicense": "OSS Licenses",

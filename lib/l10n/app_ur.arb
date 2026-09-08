@@ -227,7 +227,7 @@
   "minimumDoseIntervalNone": "کوئی نہیں",
   "minimumDoseIntervalHoursFormat": "{hours} گھنٹے یا اس سے زیادہ",
   "doseIntervalWarningTitle": "خوراکوں کے درمیان کم از کم وقفہ ابھی پورا نہیں ہوا",
-  "doseIntervalWarningMessage": "{latestTakeTime} پر دوا لینے کا ریکارڈ پہلے سے موجود ہے۔ خوراکوں کے درمیان کم از کم {minimumDoseIntervalHours} گھنٹے کا وقفہ مقرر ہے۔ پھر بھی ریکارڈ کریں؟",
+  "doseIntervalWarningMessage": "{latestTakeTime} پر دوا لینے کا ریکارڈ پہلے ہی موجود ہے۔ ترتیبات کے مطابق خوراکوں کے درمیان کم از کم {minimumDoseIntervalHours} گھنٹے کا وقفہ ہونا چاہیے۔ پھر بھی ریکارڈ کریں؟",
   "doseIntervalWarningTakeAnyway": "ریکارڈ کریں",
   "doseIntervalNotificationWarning": "⚠️ پچھلی خوراک لیے ہوئے {minimumDoseIntervalHours} گھنٹے نہیں گزرے",
   "ossLicense": "OSS لائسنسز",

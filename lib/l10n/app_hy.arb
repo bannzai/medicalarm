@@ -227,7 +227,7 @@
   "minimumDoseIntervalNone": "Չկա",
   "minimumDoseIntervalHoursFormat": "{hours} ժամ կամ ավելի",
   "doseIntervalWarningTitle": "Դեղաչափերի միջև նվազագույն ընդմիջումը դեռ չի անցել",
-  "doseIntervalWarningMessage": "Դեղի ընդունումն արդեն գրանցված է՝ {latestTakeTime}-ին։ Կարգավորումը պահանջում է դեղաչափերի միջև առնվազն {minimumDoseIntervalHours} ժամ ընդմիջում։ Այնուամենայնիվ գրանցե՞լ։",
+  "doseIntervalWarningMessage": "{latestTakeTime}-ին դեղամիջոցի ընդունումն արդեն գրանցված է։ Կարգավորումների համաձայն՝ ընդունումների միջև պետք է անցնի առնվազն {minimumDoseIntervalHours} ժամ։ Այնուամենայնիվ գրանցե՞լ։",
   "doseIntervalWarningTakeAnyway": "Գրանցել",
   "doseIntervalNotificationWarning": "⚠️ Նախորդ դեղաչափից դեռ չի անցել {minimumDoseIntervalHours} ժամ",
   "ossLicense": "OSS լիցենզիաներ",

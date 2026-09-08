@@ -227,7 +227,7 @@
   "minimumDoseIntervalNone": "Nessuno",
   "minimumDoseIntervalHoursFormat": "{hours} ore o più",
   "doseIntervalWarningTitle": "Non è ancora trascorso l’intervallo minimo tra le dosi",
-  "doseIntervalWarningMessage": "L’assunzione è già stata registrata alle {latestTakeTime}. L’impostazione richiede un intervallo di almeno {minimumDoseIntervalHours} ore tra le dosi. Registrarla comunque?",
+  "doseIntervalWarningMessage": "L’assunzione delle {latestTakeTime} è già stata registrata. Le impostazioni richiedono un intervallo di almeno {minimumDoseIntervalHours} ore tra le dosi. Vuoi registrarla comunque?",
   "doseIntervalWarningTakeAnyway": "Registra",
   "doseIntervalNotificationWarning": "⚠️ Non sono ancora trascorse {minimumDoseIntervalHours} ore dall’ultima dose",
   "ossLicense": "Licenze OSS",

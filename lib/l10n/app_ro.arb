@@ -227,7 +227,7 @@
   "minimumDoseIntervalNone": "Niciunul",
   "minimumDoseIntervalHoursFormat": "{hours} ore sau mai mult",
   "doseIntervalWarningTitle": "Intervalul minim dintre doze nu a trecut încă",
-  "doseIntervalWarningMessage": "Administrarea de la {latestTakeTime} este deja înregistrată. Setarea impune un interval de cel puțin {minimumDoseIntervalHours} ore între doze. Înregistrați oricum?",
+  "doseIntervalWarningMessage": "Administrarea de la {latestTakeTime} este deja înregistrată. Setarea impune un interval de cel puțin {minimumDoseIntervalHours} ore între doze. Doriți să o înregistrați oricum?",
   "doseIntervalWarningTakeAnyway": "Înregistrează",
   "doseIntervalNotificationWarning": "⚠️ Nu au trecut {minimumDoseIntervalHours} ore de la doza anterioară",
   "ossLicense": "Licențe OSS",

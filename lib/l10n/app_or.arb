@@ -227,7 +227,7 @@
   "minimumDoseIntervalNone": "ନାହିଁ",
   "minimumDoseIntervalHoursFormat": "{hours} ଘଣ୍ଟା କିମ୍ବା ଅଧିକ",
   "doseIntervalWarningTitle": "ଡୋଜ୍‌ଗୁଡ଼ିକ ମଧ୍ୟରେ ସର୍ବନିମ୍ନ ସମୟ ଅତିକ୍ରମ ହୋଇନାହିଁ",
-  "doseIntervalWarningMessage": "{latestTakeTime}ରେ ଔଷଧ ଖାଇଥିବା ରେକର୍ଡ ପୂର୍ବରୁ ଅଛି। ଡୋଜ୍‌ ମଧ୍ୟରେ ଅତିକମରେ {minimumDoseIntervalHours} ଘଣ୍ଟା ବ୍ୟବଧାନ ରହିବା ପାଇଁ ସେଟ୍‌ କରାଯାଇଛି। ତଥାପି ରେକର୍ଡ କରିବେ କି?",
+  "doseIntervalWarningMessage": "{latestTakeTime} ରେ ଔଷଧ ସେବନ କରିଥିବା ରେକର୍ଡ ପୂର୍ବରୁ ଅଛି। ସେଟିଂ ଅନୁଯାୟୀ ଡୋଜ୍‌ଗୁଡ଼ିକ ମଧ୍ୟରେ ଅତି କମ୍‌ରେ {minimumDoseIntervalHours} ଘଣ୍ଟା ବ୍ୟବଧାନ ରହିବା ଆବଶ୍ୟକ। ତଥାପି ରେକର୍ଡ କରିବେ କି?",
   "doseIntervalWarningTakeAnyway": "ରେକର୍ଡ କରନ୍ତୁ",
   "doseIntervalNotificationWarning": "⚠️ ପୂର୍ବ ଡୋଜ୍ ନେବା ପରଠାରୁ {minimumDoseIntervalHours} ଘଣ୍ଟା ହୋଇନାହିଁ",
   "ossLicense": "OSS ଲାଇସେନ୍ସଗୁଡ଼ିକ",

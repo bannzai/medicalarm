@@ -227,7 +227,7 @@
   "minimumDoseIntervalNone": "Байхгүй",
   "minimumDoseIntervalHoursFormat": "{hours} цаг ба түүнээс дээш",
   "doseIntervalWarningTitle": "Тун хоорондын хамгийн бага хугацаа хараахан өнгөрөөгүй байна",
-  "doseIntervalWarningMessage": "{latestTakeTime} цагт эм уусан гэж аль хэдийн бүртгэгдсэн байна. Тун хооронд дор хаяж {minimumDoseIntervalHours} цагийн зайтай байхаар тохируулсан. Гэсэн ч бүртгэх үү?",
+  "doseIntervalWarningMessage": "{latestTakeTime}-д эм уусан бүртгэл аль хэдийн байна. Тун хооронд дор хаяж {minimumDoseIntervalHours} цагийн зайтай байхаар тохируулсан. Гэсэн ч бүртгэх үү?",
   "doseIntervalWarningTakeAnyway": "Бүртгэх",
   "doseIntervalNotificationWarning": "⚠️ Өмнөх тунг хэрэглэснээс хойш {minimumDoseIntervalHours} цаг өнгөрөөгүй байна",
   "ossLicense": "OSS лицензүүд",

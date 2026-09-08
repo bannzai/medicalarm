@@ -227,7 +227,7 @@
   "minimumDoseIntervalNone": "არცერთი",
   "minimumDoseIntervalHoursFormat": "{hours} საათი ან მეტი",
   "doseIntervalWarningTitle": "დოზებს შორის მინიმალური ინტერვალი ჯერ არ გასულა",
-  "doseIntervalWarningMessage": "მედიკამენტის მიღება უკვე ჩაწერილია: {latestTakeTime}. პარამეტრი დოზებს შორის მინიმუმ {minimumDoseIntervalHours} საათის ინტერვალს მოითხოვს. მაინც ჩაიწეროს?",
+  "doseIntervalWarningMessage": "{latestTakeTime}-ზე წამლის მიღება უკვე დაფიქსირდა. პარამეტრებში მითითებულია, რომ დოზებს შორის მინიმუმ {minimumDoseIntervalHours} საათი უნდა იყოს. მაინც ჩაწეროთ?",
   "doseIntervalWarningTakeAnyway": "ჩაწერა",
   "doseIntervalNotificationWarning": "⚠️ ბოლო დოზის მიღებიდან {minimumDoseIntervalHours} საათი არ გასულა",
   "ossLicense": "OSS ლიცენზიები",

@@ -227,7 +227,7 @@
   "minimumDoseIntervalNone": "Tiada",
   "minimumDoseIntervalHoursFormat": "{hours} jam atau lebih",
   "doseIntervalWarningTitle": "Selang minimum antara dos masih belum berlalu",
-  "doseIntervalWarningMessage": "Pengambilan ubat pada {latestTakeTime} telah direkodkan. Tetapan memerlukan jarak sekurang-kurangnya {minimumDoseIntervalHours} jam antara dos. Tetap rekodkan?",
+  "doseIntervalWarningMessage": "Pengambilan ubat pada {latestTakeTime} telah direkodkan. Tetapan memerlukan sekurang-kurangnya {minimumDoseIntervalHours} jam antara dos. Tetap rekodkan?",
   "doseIntervalWarningTakeAnyway": "Rekodkan",
   "doseIntervalNotificationWarning": "⚠️ Belum {minimumDoseIntervalHours} jam berlalu sejak dos terakhir",
   "ossLicense": "Lesen OSS",

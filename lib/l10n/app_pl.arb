@@ -227,7 +227,7 @@
   "minimumDoseIntervalNone": "Brak",
   "minimumDoseIntervalHoursFormat": "{hours} godzin lub więcej",
   "doseIntervalWarningTitle": "Minimalny odstęp między dawkami jeszcze nie minął",
-  "doseIntervalWarningMessage": "Przyjęcie leku o {latestTakeTime} jest już zapisane. Ustawiono co najmniej {minimumDoseIntervalHours} godzin przerwy między dawkami. Mimo to zapisać?",
+  "doseIntervalWarningMessage": "Przyjęcie leku o {latestTakeTime} jest już zapisane. Zgodnie z ustawieniami między dawkami powinno upłynąć co najmniej {minimumDoseIntervalHours} godzin. Czy mimo to zapisać przyjęcie?",
   "doseIntervalWarningTakeAnyway": "Zapisz",
   "doseIntervalNotificationWarning": "⚠️ Od przyjęcia poprzedniej dawki nie minęło {minimumDoseIntervalHours} godzin",
   "ossLicense": "Licencje OSS",

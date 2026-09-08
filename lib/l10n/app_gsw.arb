@@ -227,7 +227,7 @@
   "minimumDoseIntervalNone": "Kei",
   "minimumDoseIntervalHoursFormat": "{hours} Stund oder meh",
   "doseIntervalWarningTitle": "De Mindestabstand zwüsche de Dosis isch no nöd verstriche",
-  "doseIntervalWarningMessage": "D Iinnahm um {latestTakeTime} isch scho erfasst. Zwüsche de Iinnahme müend mindestens {minimumDoseIntervalHours} Stund ligge. Trotzdem erfasse?",
+  "doseIntervalWarningMessage": "D Einnahm vo {latestTakeTime} isch scho erfasst. Zwüsche de Einnahme müend gemäss Iistellig mindestens {minimumDoseIntervalHours} Stunde ligge. Trotzdem erfasse?",
   "doseIntervalWarningTakeAnyway": "Iitrage",
   "doseIntervalNotificationWarning": "⚠️ Sit dr letschte Dosis sind no kei {minimumDoseIntervalHours} Stund ver gange",
   "ossLicense": "OSS-Lizänze",

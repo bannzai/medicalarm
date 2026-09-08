@@ -227,7 +227,7 @@
   "minimumDoseIntervalNone": "Yo‘q",
   "minimumDoseIntervalHoursFormat": "{hours} soat yoki undan ko‘p",
   "doseIntervalWarningTitle": "Dozalar orasidagi minimal vaqt hali o‘tmagan",
-  "doseIntervalWarningMessage": "{latestTakeTime} da dori qabul qilganingiz allaqachon qayd etilgan. Dozalar orasida kamida {minimumDoseIntervalHours} soat bo‘lishi kerak. Shunday bo‘lsa ham qayd etilsinmi?",
+  "doseIntervalWarningMessage": "{latestTakeTime} da dori qabul qilganingiz allaqachon qayd etilgan. Sozlamalarga ko‘ra, dozalar orasida kamida {minimumDoseIntervalHours} soat bo‘lishi kerak. Shunday bo‘lsa ham qayd etilsinmi?",
   "doseIntervalWarningTakeAnyway": "Qayd etish",
   "doseIntervalNotificationWarning": "⚠️ Avvalgi dozani qabul qilganingizdan beri {minimumDoseIntervalHours} soat o‘tmadi",
   "ossLicense": "OSS litsenziyalari",

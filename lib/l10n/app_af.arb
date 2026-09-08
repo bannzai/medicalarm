@@ -227,7 +227,7 @@
   "minimumDoseIntervalNone": "Geen",
   "minimumDoseIntervalHoursFormat": "{hours} uur of langer",
   "doseIntervalWarningTitle": "Die minimum tyd tussen dosisse het nog nie verloop nie",
-  "doseIntervalWarningMessage": "U het reeds om {latestTakeTime} ’n dosis aangeteken. Die instelling vereis ’n interval van minstens {minimumDoseIntervalHours} uur tussen dosisse. Wil u dit steeds aanteken?",
+  "doseIntervalWarningMessage": "Jy het reeds om {latestTakeTime} ’n dosis aangeteken. Volgens jou instellings moet daar minstens {minimumDoseIntervalHours} uur tussen dosisse wees. Wil jy dit steeds aanteken?",
   "doseIntervalWarningTakeAnyway": "Aanteken",
   "doseIntervalNotificationWarning": "⚠️ Daar het nog nie {minimumDoseIntervalHours} uur sedert die vorige dosis verloop nie",
   "ossLicense": "OSS-lisensies",

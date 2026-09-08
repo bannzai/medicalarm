@@ -227,7 +227,7 @@
   "minimumDoseIntervalNone": "নাই",
   "minimumDoseIntervalHoursFormat": "{hours} ঘণ্টা বা তাতকৈ অধিক",
   "doseIntervalWarningTitle": "ড’জৰ মাজৰ ন্যূনতম সময় পাৰ হোৱা নাই",
-  "doseIntervalWarningMessage": "{latestTakeTime}-ত ঔষধ গ্ৰহণ কৰা বুলি ইতিমধ্যে নথিভুক্ত আছে। ড’জৰ মাজত কমেও {minimumDoseIntervalHours} ঘণ্টাৰ ব্যৱধান ৰাখিবলৈ ছেট কৰা হৈছে। তথাপিও নথিভুক্ত কৰিবনে?",
+  "doseIntervalWarningMessage": "{latestTakeTime}-ত ঔষধ সেৱন কৰা বুলি ইতিমধ্যে নথিভুক্ত হৈছে। পূৰ্বৰ সেৱনৰ পৰা কমেও {minimumDoseIntervalHours} ঘণ্টাৰ ব্যৱধান ৰখাৰ বাবে ছেট কৰা আছে। তথাপিও নথিভুক্ত কৰিবনে?",
   "doseIntervalWarningTakeAnyway": "লিপিবদ্ধ কৰক",
   "doseIntervalNotificationWarning": "⚠️ আগৰ পালি লোৱাৰ পৰা {minimumDoseIntervalHours} ঘণ্টা হোৱা নাই",
   "ossLicense": "OSS অনুজ্ঞাপত্ৰসমূহ",

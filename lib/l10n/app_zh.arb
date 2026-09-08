@@ -227,7 +227,7 @@
   "minimumDoseIntervalNone": "未设置",
   "minimumDoseIntervalHoursFormat": "{hours}小时以上",
   "doseIntervalWarningTitle": "两次服药之间的最短间隔尚未达到",
-  "doseIntervalWarningMessage": "已记录您在 {latestTakeTime} 服用了药物。设置要求两次服药之间至少间隔 {minimumDoseIntervalHours} 小时。仍要记录吗？",
+  "doseIntervalWarningMessage": "{latestTakeTime} 已有服药记录。设置要求两次服药之间至少间隔 {minimumDoseIntervalHours} 小时。仍要记录吗？",
   "doseIntervalWarningTakeAnyway": "记录",
   "doseIntervalNotificationWarning": "⚠️ 距离上次服药还不到 {minimumDoseIntervalHours} 小时",
   "ossLicense": "OSS 许可证",

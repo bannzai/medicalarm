@@ -227,7 +227,7 @@
   "minimumDoseIntervalNone": "Brez",
   "minimumDoseIntervalHoursFormat": "{hours} ur ali več",
   "doseIntervalWarningTitle": "Minimalni interval med odmerkoma še ni pretekel",
-  "doseIntervalWarningMessage": "Jemanje zdravila ob {latestTakeTime} je že zabeleženo. Med odmerkoma mora biti najmanj {minimumDoseIntervalHours} ur. Kljub temu zabeležim?",
+  "doseIntervalWarningMessage": "Jemanje zdravila ob {latestTakeTime} je že zabeleženo. Nastavljeno je, da mora med odmerkoma miniti vsaj {minimumDoseIntervalHours} ur. Želite vseeno zabeležiti ta odmerek?",
   "doseIntervalWarningTakeAnyway": "Zabeleži",
   "doseIntervalNotificationWarning": "⚠️ Od zadnjega odmerka ni minilo {minimumDoseIntervalHours} ur",
   "ossLicense": "Licence OSS",

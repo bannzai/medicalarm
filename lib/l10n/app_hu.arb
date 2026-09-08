@@ -227,7 +227,7 @@
   "minimumDoseIntervalNone": "Nincs",
   "minimumDoseIntervalHoursFormat": "{hours} óra vagy több",
   "doseIntervalWarningTitle": "A dózisok közötti minimális idő még nem telt el",
-  "doseIntervalWarningMessage": "A gyógyszer bevétele már rögzítve van ekkor: {latestTakeTime}. A beállítás szerint a dózisok között legalább {minimumDoseIntervalHours} órának kell eltelnie. Mégis rögzíti?",
+  "doseIntervalWarningMessage": "A(z) {latestTakeTime} időpontban már rögzítettük a gyógyszer bevételét. A beállítás szerint a bevételek között legalább {minimumDoseIntervalHours} órának kell eltelnie. Ennek ellenére rögzíti?",
   "doseIntervalWarningTakeAnyway": "Rögzítés",
   "doseIntervalNotificationWarning": "⚠️ Az előző adag óta még nem telt el {minimumDoseIntervalHours} óra",
   "ossLicense": "OSS-licencek",
