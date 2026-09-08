@@ -112,7 +112,7 @@
   "purchaseErrorUnknown": "Došlo je do nepoznate pogreške. Pokušajte ponovno kasnije. Ako se problem nastavi, obratite nam se putem Postavke > Kontaktirajte nas. Pojedinosti: {message}",
   "purchaseErrorStoreProblem": "Došlo je do pogreške u usluzi {storeName}. Pokušajte ponovno kasnije.",
   "purchaseErrorInvalidPayment": "Plaćanje nije uspjelo. Provjerite je li način plaćanja važeći i pokušajte ponovo.",
-  "purchaseErrorProductUnavailable": "Odabrani plan trenutačno nije dostupan za kupnju. Ponovno pokrenite aplikaciju i pokušajte ponovno.",
+  "purchaseErrorProductUnavailable": "Odabrani plan trenutačno nije dostupan za kupnju. Ponovno pokrenite aplikaciju i pokušajte ponovo.",
   "purchaseErrorAlreadyPurchased": "Plan ste već kupili. Za vraćanje podataka o kupnji na ovom uređaju odaberite „Za one koji su već kupili“.",
   "purchaseErrorReceiptInUse": "Već je kupljeno ili podatke o kupnji koristi drugi korisnik. Provjerite {accountName}.",
   "purchaseErrorInvalidReceipt": "Podaci o kupnji nisu valjani. Provjerite podatke o kupnji.",

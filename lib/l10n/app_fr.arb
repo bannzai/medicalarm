@@ -112,7 +112,7 @@
   "purchaseErrorUnknown": "Une erreur inconnue s’est produite. Veuillez réessayer plus tard. Si le problème persiste, contactez-nous via Réglages > Nous contacter. Détails : {message}",
   "purchaseErrorStoreProblem": "Une erreur s’est produite avec {storeName}. Veuillez réessayer plus tard.",
   "purchaseErrorInvalidPayment": "Le paiement a échoué. Vérifiez que votre mode de paiement est valide, puis réessayez.",
-  "purchaseErrorProductUnavailable": "Le forfait sélectionné n’est actuellement pas disponible à l’achat. Veuillez redémarrer l’app et réessayer.",
+  "purchaseErrorProductUnavailable": "Le forfait sélectionné n’est actuellement pas disponible à l’achat. Redémarrez l’app, puis réessayez.",
   "purchaseErrorAlreadyPurchased": "Vous avez déjà acheté un forfait. Pour restaurer vos informations d’achat sur cet appareil, sélectionnez « Pour ceux qui ont déjà acheté ».",
   "purchaseErrorReceiptInUse": "Déjà acheté, ou les informations d’achat sont utilisées par un autre utilisateur. Vérifiez {accountName}.",
   "purchaseErrorInvalidReceipt": "Les informations d’achat sont invalides. Vérifiez vos informations d’achat.",

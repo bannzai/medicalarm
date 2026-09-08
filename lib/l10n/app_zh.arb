@@ -112,7 +112,7 @@
   "purchaseErrorUnknown": "发生未知错误。请稍后重试。如果问题仍未解决，请通过“设置”>“联系我们”与我们联系。详细信息：{message}",
   "purchaseErrorStoreProblem": "{storeName}发生错误。请稍后重试。",
   "purchaseErrorInvalidPayment": "付款失败。请确认您的付款方式有效后重试。",
-  "purchaseErrorProductUnavailable": "所选方案目前暂不提供购买。请重启应用后再试。",
+  "purchaseErrorProductUnavailable": "所选方案目前不提供购买。请重启应用后重试。",
   "purchaseErrorAlreadyPurchased": "您已购买过该方案。如需在此设备上恢复购买信息，请选择“之前购买过的用户”。",
   "purchaseErrorReceiptInUse": "已购买，或购买信息正在被其他用户使用。请检查 {accountName}。",
   "purchaseErrorInvalidReceipt": "购买信息无效。请检查您的购买信息。",

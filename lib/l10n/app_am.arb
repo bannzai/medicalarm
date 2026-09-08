@@ -112,7 +112,7 @@
   "purchaseErrorUnknown": "ያልታወቀ ስህተት ተከስቷል። እባክዎ ቆይተው እንደገና ይሞክሩ። ችግሩ ካልተፈታ፣ በቅንብሮች > ያግኙን በኩል ያነጋግሩን። ዝርዝሮች፦ {message}",
   "purchaseErrorStoreProblem": "በ{storeName} ላይ ስህተት ተከስቷል። እባክዎ ከጥቂት ጊዜ በኋላ እንደገና ይሞክሩ።",
   "purchaseErrorInvalidPayment": "ክፍያው አልተሳካም። እባክዎ ትክክለኛ የክፍያ ዘዴ መሆኑን ያረጋግጡና እንደገና ይሞክሩ።",
-  "purchaseErrorProductUnavailable": "የተመረጠው ዕቅድ በአሁኑ ጊዜ ለሽያጭ አይቀርብም። እባክዎ መተግበሪያውን ዳግም ያስጀምሩና እንደገና ይሞክሩ።",
+  "purchaseErrorProductUnavailable": "የተመረጠው ዕቅድ በአሁኑ ጊዜ ለሽያጭ አይገኝም። እባክዎ መተግበሪያውን ዳግም ያስጀምሩና እንደገና ይሞክሩ።",
   "purchaseErrorAlreadyPurchased": "እርስዎ አስቀድመው ዕቅድ ገዝተዋል። የግዢ መረጃዎን በዚህ መሣሪያ ላይ ለመመለስ «ከዚህ በፊት የገዙ ሰዎች እዚህ ይጫኑ»ን ይምረጡ።",
   "purchaseErrorReceiptInUse": "አስቀድመው ገዝተዋል፣ ወይም የግዢ መረጃው በሌላ ተጠቃሚ እየተጠቀመበት ነው። {accountName}ን ያረጋግጡ።",
   "purchaseErrorInvalidReceipt": "የግዢ መረጃው ልክ አይደለም። እባክዎ የግዢ መረጃዎን ያረጋግጡ።",

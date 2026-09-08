@@ -112,7 +112,7 @@
   "purchaseErrorUnknown": "Došlo k neznámé chybě. Zkuste to znovu později. Pokud problém přetrvá, kontaktujte nás přes Nastavení > Kontaktujte nás. Podrobnosti: {message}",
   "purchaseErrorStoreProblem": "V {storeName} došlo k chybě. Zkuste to znovu později.",
   "purchaseErrorInvalidPayment": "Platba se nezdařila. Zkontrolujte, zda je váš způsob platby platný, a zkuste to znovu.",
-  "purchaseErrorProductUnavailable": "Vybraný plán momentálně není v prodeji. Restartujte prosím aplikaci a zkuste to znovu.",
+  "purchaseErrorProductUnavailable": "Vybraný tarif momentálně není k dispozici k zakoupení. Restartujte aplikaci a zkuste to znovu.",
   "purchaseErrorAlreadyPurchased": "Plán jste již zakoupili. Chcete-li na tomto zařízení obnovit informace o nákupu, vyberte „Pro ty, kteří již zakoupili“.",
   "purchaseErrorReceiptInUse": "Tato položka již byla zakoupena nebo nákupní údaje používá jiný uživatel. Zkontrolujte {accountName}.",
   "purchaseErrorInvalidReceipt": "Neplatné údaje o nákupu. Zkontrolujte údaje o nákupu.",

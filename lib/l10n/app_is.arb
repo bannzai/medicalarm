@@ -112,7 +112,7 @@
   "purchaseErrorUnknown": "Óþekkt villa kom upp. Reyndu aftur síðar. Ef vandamálið heldur áfram skaltu hafa samband við okkur í Stillingar > Hafðu samband. Upplýsingar: {message}",
   "purchaseErrorStoreProblem": "Villa kom upp hjá {storeName}. Reyndu aftur síðar.",
   "purchaseErrorInvalidPayment": "Greiðslan tókst ekki. Athugaðu hvort greiðslumátinn sé gildur og reyndu aftur.",
-  "purchaseErrorProductUnavailable": "Valda áskriftarleiðin er ekki í boði eins og er. Endurræstu appið og reyndu aftur.",
+  "purchaseErrorProductUnavailable": "Valda áskriftin er ekki í sölu eins og er. Endurræstu appið og reyndu aftur.",
   "purchaseErrorAlreadyPurchased": "Þú hefur þegar keypt áskrift. Til að endurheimta kaupupplýsingar þínar á þessu tæki skaltu velja „Fyrir þá sem hafa keypt áður“.",
   "purchaseErrorReceiptInUse": "Þegar keypt eða kaupupplýsingarnar eru notaðar af öðrum notanda. Athugaðu {accountName}.",
   "purchaseErrorInvalidReceipt": "Ógildar kaupupplýsingar. Athugaðu kaupupplýsingarnar þínar.",

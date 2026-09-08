@@ -112,7 +112,7 @@
   "purchaseErrorUnknown": "Radās nezināma kļūda. Lūdzu, mēģiniet vēlreiz vēlāk. Ja problēma atkārtojas, sazinieties ar mums sadaļā Iestatījumi > Sazināties ar mums. Detalizēta informācija: {message}",
   "purchaseErrorStoreProblem": "Radās kļūda pakalpojumā {storeName}. Lūdzu, mēģiniet vēlreiz vēlāk.",
   "purchaseErrorInvalidPayment": "Maksājums neizdevās. Pārbaudiet, vai jūsu maksāšanas metode ir derīga, un mēģiniet vēlreiz.",
-  "purchaseErrorProductUnavailable": "Izvēlētais plāns pašlaik nav pieejams iegādei. Restartējiet lietotni un mēģiniet vēlreiz.",
+  "purchaseErrorProductUnavailable": "Izvēlētais plāns pašlaik nav pieejams iegādei. Lūdzu, restartējiet lietotni un mēģiniet vēlreiz.",
   "purchaseErrorAlreadyPurchased": "Jūs jau iegādājāties plānu. Lai šajā ierīcē atjaunotu pirkuma informāciju, izvēlieties “Iepriekšējiem pircējiem”.",
   "purchaseErrorReceiptInUse": "Jau iegādāts vai pirkuma informāciju izmanto cits lietotājs. Pārbaudiet {accountName}.",
   "purchaseErrorInvalidReceipt": "Pirkuma informācija nav derīga. Pārbaudiet pirkuma informāciju.",

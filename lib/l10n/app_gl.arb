@@ -112,7 +112,7 @@
   "purchaseErrorUnknown": "Produciuse un erro descoñecido. Téntao de novo máis tarde. Se o problema continúa, ponte en contacto connosco en Axustes > Contacta connosco. Detalles: {message}",
   "purchaseErrorStoreProblem": "Produciuse un erro en {storeName}. Téntao de novo máis tarde.",
   "purchaseErrorInvalidPayment": "O pagamento fallou. Comproba que o método de pagamento sexa válido e téntao de novo.",
-  "purchaseErrorProductUnavailable": "O plan seleccionado non está dispoñible para a compra neste momento. Reinicia a aplicación e téntao de novo.",
+  "purchaseErrorProductUnavailable": "O plan seleccionado non está dispoñible para a venda neste momento. Reinicia a aplicación e téntao de novo.",
   "purchaseErrorAlreadyPurchased": "Xa compraches un plan. Para restaurar a información da compra neste dispositivo, selecciona «Para quen xa comprou».",
   "purchaseErrorReceiptInUse": "Xa se comprou ou outro usuario está a usar a información da compra. Comproba {accountName}.",
   "purchaseErrorInvalidReceipt": "A información da compra non é válida. Comproba a información da compra.",
