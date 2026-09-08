@@ -193,7 +193,7 @@
   "soloGroupName": "Моя группа",
   "joinWithInvitationCode": "Присоединиться по коду приглашения",
   "groupCreationLimitReached": "В бесплатном плане нельзя создавать новые группы",
-  "increaseGroupLimitWithPremium": "Создавайте больше групп с планом Premium",
+  "increaseGroupLimitWithPremium": "С планом Premium можно создавать дополнительные группы",
   "invitationCode": "Код приглашения",
   "invitationCodeShareDescription": "Поделитесь этим кодом, чтобы пригласить участников",
   "invitationCodeExpiresAt": "Действителен до: {date}",

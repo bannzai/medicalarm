@@ -193,7 +193,7 @@
   "soloGroupName": "ჩემი ჯგუფი",
   "joinWithInvitationCode": "შეერთება მოწვევის კოდით",
   "groupCreationLimitReached": "უფასო გეგმაზე მეტი ჯგუფის შექმნა შეუძლებელია",
-  "increaseGroupLimitWithPremium": "შექმენით მეტი ჯგუფი Premium გეგმით",
+  "increaseGroupLimitWithPremium": "Premium გეგმით შეგიძლიათ დამატებითი ჯგუფების შექმნა",
   "invitationCode": "მოწვევის კოდი",
   "invitationCodeShareDescription": "გააზიარეთ ეს კოდი წევრების მოსაწვევად",
   "invitationCodeExpiresAt": "მოქმედების ვადა: {date}",

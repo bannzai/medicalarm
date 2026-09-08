@@ -193,7 +193,7 @@
   "soloGroupName": "Minu grupp",
   "joinWithInvitationCode": "Liitu kutsekoodiga",
   "groupCreationLimitReached": "Tasuta paketis ei saa rohkem gruppe luua",
-  "increaseGroupLimitWithPremium": "Looge Premium-paketiga rohkem gruppe",
+  "increaseGroupLimitWithPremium": "Premium-paketiga saate luua täiendavaid gruppe",
   "invitationCode": "Kutsekood",
   "invitationCodeShareDescription": "Liikmete kutsumiseks jaga seda koodi",
   "invitationCodeExpiresAt": "Kehtiv kuni: {date}",

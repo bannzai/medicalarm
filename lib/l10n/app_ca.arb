@@ -193,7 +193,7 @@
   "soloGroupName": "El meu grup",
   "joinWithInvitationCode": "Uneix-te amb el codi d’invitació",
   "groupCreationLimitReached": "No podeu crear més grups amb el pla gratuït",
-  "increaseGroupLimitWithPremium": "Crea més grups amb el pla Premium",
+  "increaseGroupLimitWithPremium": "Pots crear grups addicionals amb el pla Premium",
   "invitationCode": "Codi d'invitació",
   "invitationCodeShareDescription": "Pots compartir aquest codi per convidar membres",
   "invitationCodeExpiresAt": "Caduca el: {date}",

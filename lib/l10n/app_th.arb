@@ -193,7 +193,7 @@
   "soloGroupName": "กลุ่มของฉัน",
   "joinWithInvitationCode": "เข้าร่วมด้วยรหัสคำเชิญ",
   "groupCreationLimitReached": "คุณไม่สามารถสร้างกลุ่มเพิ่มเติมในแผนฟรีได้",
-  "increaseGroupLimitWithPremium": "สร้างกลุ่มเพิ่มเติมด้วยแพ็กเกจ Premium",
+  "increaseGroupLimitWithPremium": "สร้างกลุ่มเพิ่มเติมได้ด้วยแพ็กเกจ Premium",
   "invitationCode": "รหัสเชิญ",
   "invitationCodeShareDescription": "แชร์รหัสนี้เพื่อเชิญสมาชิก",
   "invitationCodeExpiresAt": "หมดอายุ: {date}",

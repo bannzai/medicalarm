@@ -193,7 +193,7 @@
   "soloGroupName": "Grupi im",
   "joinWithInvitationCode": "Bashkohu me kod ftese",
   "groupCreationLimitReached": "Nuk mund të krijoni më grupe në planin falas",
-  "increaseGroupLimitWithPremium": "Krijoni më shumë grupe me planin Premium",
+  "increaseGroupLimitWithPremium": "Me planin Premium mund të krijoni grupe të tjera",
   "invitationCode": "Kodi i ftesës",
   "invitationCodeShareDescription": "Ndajeni këtë kod për të ftuar anëtarë",
   "invitationCodeExpiresAt": "Skadon më: {date}",

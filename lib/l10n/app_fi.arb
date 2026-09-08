@@ -193,7 +193,7 @@
   "soloGroupName": "Oma ryhmä",
   "joinWithInvitationCode": "Liity kutsukoodilla",
   "groupCreationLimitReached": "Et voi luoda enempää ryhmiä ilmaisella paketilla",
-  "increaseGroupLimitWithPremium": "Luo lisää ryhmiä Premium-tilauksella",
+  "increaseGroupLimitWithPremium": "Premium-tilauksella voit luoda lisää ryhmiä",
   "invitationCode": "Kutsukoodi",
   "invitationCodeShareDescription": "Jaa tämä koodi kutsuaksesi jäseniä",
   "invitationCodeExpiresAt": "Voimassa asti: {date}",

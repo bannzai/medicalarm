@@ -193,7 +193,7 @@
   "soloGroupName": "Моја група",
   "joinWithInvitationCode": "Придружи се со код за покана",
   "groupCreationLimitReached": "Не можете да креирате повеќе групи со бесплатниот план",
-  "increaseGroupLimitWithPremium": "Создавајте повеќе групи со Premium планот",
+  "increaseGroupLimitWithPremium": "Со Premium планот можете да креирате дополнителни групи",
   "invitationCode": "Код за покана",
   "invitationCodeShareDescription": "Споделете го овој код за да поканите членови",
   "invitationCodeExpiresAt": "Важи до: {date}",

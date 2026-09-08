@@ -193,7 +193,7 @@
   "soloGroupName": "My Group",
   "joinWithInvitationCode": "Join with invitation code",
   "groupCreationLimitReached": "You can’t create any more groups on the free plan",
-  "increaseGroupLimitWithPremium": "Create additional groups with Premium",
+  "increaseGroupLimitWithPremium": "Create additional groups with the Premium plan",
   "invitationCode": "Invitation code",
   "invitationCodeShareDescription": "Share this code to invite members",
   "invitationCodeExpiresAt": "Expires: {date}",

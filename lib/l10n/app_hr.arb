@@ -193,7 +193,7 @@
   "soloGroupName": "Moja grupa",
   "joinWithInvitationCode": "Pridruži se pomoću koda pozivnice",
   "groupCreationLimitReached": "Na besplatnom planu ne možete izraditi više grupa",
-  "increaseGroupLimitWithPremium": "Izradite više grupa uz Premium plan",
+  "increaseGroupLimitWithPremium": "Uz Premium plan možete izraditi dodatne grupe",
   "invitationCode": "Kod pozivnice",
   "invitationCodeShareDescription": "Podijelite ovaj kôd kako biste pozvali članove",
   "invitationCodeExpiresAt": "Vrijedi do: {date}",
