@@ -32,7 +32,7 @@
   "deleteAccount": "Izbriši račun",
   "deleteAccountConfirm": "Podatki o uporabniku bodo izbrisani",
   "deleteAccountMessage": "Z izbrisom računa bodo izbrisani vsi podatki o uporabniku.",
-  "medicationFrequency": "Pogostnost jemanja",
+  "medicationFrequency": "Pogostost jemanja zdravila",
   "daily": "Vsak dan",
   "everyXDays": "Na dan X",
   "specificWeekdays": "posebni dnevi v tednu",

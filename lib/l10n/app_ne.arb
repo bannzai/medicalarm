@@ -32,7 +32,7 @@
   "deleteAccount": "खाता मेट्नुहोस्",
   "deleteAccountConfirm": "प्रयोगकर्ताको जानकारी मेटाइनेछ",
   "deleteAccountMessage": "खाता मेटाउँदा प्रयोगकर्ताका सबै जानकारी मेटिनेछन्।",
-  "medicationFrequency": "दवाईकोfrequency",
+  "medicationFrequency": "औषध सेवनको आवृत्ति",
   "daily": "प्रत्येक दिन",
   "everyXDays": "दिनमा",
   "specificWeekdays": "विशिष्ट दिनहरू",

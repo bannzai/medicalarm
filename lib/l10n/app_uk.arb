@@ -32,7 +32,7 @@
   "deleteAccount": "Видалити обліковий запис",
   "deleteAccountConfirm": "Інформацію про користувача буде видалено",
   "deleteAccountMessage": "Після видалення облікового запису всю інформацію про користувача буде видалено.",
-  "medicationFrequency": "Dosage Frequency",
+  "medicationFrequency": "Частота прийому ліків",
   "daily": "Every day",
   "everyXDays": "every X days",
   "specificWeekdays": "Specific day of the week",

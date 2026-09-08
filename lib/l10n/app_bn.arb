@@ -32,7 +32,7 @@
   "deleteAccount": "অ্যাকাউন্ট মুছুন",
   "deleteAccountConfirm": "ব্যবহারকারীর তথ্য মুছে ফেলা হবে",
   "deleteAccountMessage": "অ্যাকাউন্ট মুছে ফেললে আপনার সমস্ত ব্যবহারকারীর তথ্য মুছে যাবে।",
-  "medicationFrequency": "ঔষধ গ্রহণের ফ্রিকোয়েন্সি",
+  "medicationFrequency": "ওষুধ সেবনের ঘনত্ব",
   "daily": "প্রতিদিন",
   "everyXDays": "X দিন পর",
   "specificWeekdays": "নির্দিষ্ট দিন",

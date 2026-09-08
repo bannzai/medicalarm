@@ -32,7 +32,7 @@
   "deleteAccount": "Elimina account",
   "deleteAccountConfirm": "Le informazioni dell’utente verranno eliminate",
   "deleteAccountMessage": "Eliminando l’account, verranno eliminate tutte le informazioni dell’utente.",
-  "medicationFrequency": "Frequenza di assunzione",
+  "medicationFrequency": "Frequenza di assunzione del farmaco",
   "daily": "Ogni giorno",
   "everyXDays": "Ogni X giorni",
   "specificWeekdays": "giorni specifici",

@@ -32,7 +32,7 @@
   "deleteAccount": "Изтриване на акаунта",
   "deleteAccountConfirm": "Информацията за потребителя ще бъде изтрита",
   "deleteAccountMessage": "При изтриване на акаунта цялата потребителска информация ще бъде изтрита.",
-  "medicationFrequency": "Честота на прием",
+  "medicationFrequency": "Честота на прием на лекарството",
   "daily": "Всеки ден",
   "everyXDays": "На всеки X дни",
   "specificWeekdays": "Определен ден от седмицата",

@@ -32,7 +32,7 @@
   "deleteAccount": "ანგარიშის წაშლა",
   "deleteAccountConfirm": "მომხმარებლის ინფორმაცია წაიშლება",
   "deleteAccountMessage": "ანგარიშის წაშლისას მომხმარებლის ყველა ინფორმაცია წაიშლება.",
-  "medicationFrequency": "გავლენის სიხშირე",
+  "medicationFrequency": "მედიკამენტის მიღების სიხშირე",
   "daily": "ყოველ დღე",
   "everyXDays": "X ימים",
   "specificWeekdays": "특정 요일",

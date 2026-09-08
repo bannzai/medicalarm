@@ -32,7 +32,7 @@
   "deleteAccount": "Fiók törlése",
   "deleteAccountConfirm": "A felhasználói adatok törlődnek",
   "deleteAccountMessage": "A fiók törlésével minden felhasználói információ törlődik.",
-  "medicationFrequency": "Adagolás gyakoriság",
+  "medicationFrequency": "Gyógyszerbevétel gyakorisága",
   "daily": "Minden nap",
   "everyXDays": "X naponként",
   "specificWeekdays": "heti napok",
