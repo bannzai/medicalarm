@@ -234,5 +234,6 @@
   "achievementWeeklyLabel": "Приём лекарств на этой неделе",
   "achievementWeeklyCountSuffix": "/{scheduledCount} раз",
   "achievementStreakLabel": "Серия",
-  "achievementStreakDaysSuffix": "дн."
+  "achievementStreakDaysSuffix": "дн.",
+  "achievementMonthlyRateLabel": "Процент выполнения: {month}"
 }

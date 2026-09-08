@@ -234,5 +234,6 @@
   "achievementWeeklyLabel": "ਇਸ ਹਫ਼ਤੇ ਦੀ ਦਵਾਈ ਲੈਣਾ",
   "achievementWeeklyCountSuffix": "/{scheduledCount} ਵਾਰ",
   "achievementStreakLabel": "ਲਗਾਤਾਰ ਰਿਕਾਰਡ",
-  "achievementStreakDaysSuffix": "ਦਿਨ"
+  "achievementStreakDaysSuffix": "ਦਿਨ",
+  "achievementMonthlyRateLabel": "ਪ੍ਰਾਪਤੀ ਦਰ: {month}"
 }

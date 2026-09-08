@@ -234,5 +234,6 @@
   "achievementWeeklyLabel": "Administrarea medicamentelor în această săptămână",
   "achievementWeeklyCountSuffix": "/{scheduledCount} ori",
   "achievementStreakLabel": "Serie",
-  "achievementStreakDaysSuffix": "zile"
+  "achievementStreakDaysSuffix": "zile",
+  "achievementMonthlyRateLabel": "Rata de îndeplinire: {month}"
 }

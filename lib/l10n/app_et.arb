@@ -234,5 +234,6 @@
   "achievementWeeklyLabel": "Selle nädala ravimite võtmine",
   "achievementWeeklyCountSuffix": "/{scheduledCount} korda",
   "achievementStreakLabel": "Järjestikune seeria",
-  "achievementStreakDaysSuffix": "päeva"
+  "achievementStreakDaysSuffix": "päeva",
+  "achievementMonthlyRateLabel": "Täitmise määr: {month}"
 }

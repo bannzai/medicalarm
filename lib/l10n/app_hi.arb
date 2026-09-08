@@ -234,5 +234,6 @@
   "achievementWeeklyLabel": "इस सप्ताह दवा लेना",
   "achievementWeeklyCountSuffix": "/{scheduledCount} बार",
   "achievementStreakLabel": "लगातार रिकॉर्ड",
-  "achievementStreakDaysSuffix": "दिन"
+  "achievementStreakDaysSuffix": "दिन",
+  "achievementMonthlyRateLabel": "उपलब्धि दर: {month}"
 }

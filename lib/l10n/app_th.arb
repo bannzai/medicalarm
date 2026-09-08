@@ -234,5 +234,6 @@
   "achievementWeeklyLabel": "การรับประทานยาในสัปดาห์นี้",
   "achievementWeeklyCountSuffix": "/{scheduledCount} ครั้ง",
   "achievementStreakLabel": "สถิติต่อเนื่อง",
-  "achievementStreakDaysSuffix": "วัน"
+  "achievementStreakDaysSuffix": "วัน",
+  "achievementMonthlyRateLabel": "อัตราความสำเร็จ: {month}"
 }

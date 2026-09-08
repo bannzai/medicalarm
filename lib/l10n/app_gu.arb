@@ -234,5 +234,6 @@
   "achievementWeeklyLabel": "આ અઠવાડિયે દવા લેવી",
   "achievementWeeklyCountSuffix": "/{scheduledCount} વખત",
   "achievementStreakLabel": "સળંગ શ્રેણી",
-  "achievementStreakDaysSuffix": "દિવસ"
+  "achievementStreakDaysSuffix": "દિવસ",
+  "achievementMonthlyRateLabel": "સફળતા દર: {month}"
 }

@@ -234,5 +234,6 @@
   "achievementWeeklyLabel": "இந்த வார மருந்து உட்கொள்ளல்",
   "achievementWeeklyCountSuffix": "/{scheduledCount} முறை",
   "achievementStreakLabel": "தொடர் பதிவு",
-  "achievementStreakDaysSuffix": "நாட்கள்"
+  "achievementStreakDaysSuffix": "நாட்கள்",
+  "achievementMonthlyRateLabel": "நிறைவேற்ற விகிதம்: {month}"
 }

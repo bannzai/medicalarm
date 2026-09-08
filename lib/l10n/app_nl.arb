@@ -234,5 +234,6 @@
   "achievementWeeklyLabel": "Medicatie-inname deze week",
   "achievementWeeklyCountSuffix": "/{scheduledCount} keer",
   "achievementStreakLabel": "Reeks",
-  "achievementStreakDaysSuffix": "dagen"
+  "achievementStreakDaysSuffix": "dagen",
+  "achievementMonthlyRateLabel": "Voltooiingspercentage: {month}"
 }

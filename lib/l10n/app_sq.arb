@@ -234,5 +234,6 @@
   "achievementWeeklyLabel": "Marrja e ilaçeve këtë javë",
   "achievementWeeklyCountSuffix": "/{scheduledCount} herë",
   "achievementStreakLabel": "Seri e njëpasnjëshme",
-  "achievementStreakDaysSuffix": "ditë"
+  "achievementStreakDaysSuffix": "ditë",
+  "achievementMonthlyRateLabel": "Shkalla e përmbushjes: {month}"
 }

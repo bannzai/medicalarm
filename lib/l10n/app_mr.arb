@@ -234,5 +234,6 @@
   "achievementWeeklyLabel": "या आठवड्यातील औषध सेवन",
   "achievementWeeklyCountSuffix": "/{scheduledCount} वेळा",
   "achievementStreakLabel": "सलग नोंद",
-  "achievementStreakDaysSuffix": "दिवस"
+  "achievementStreakDaysSuffix": "दिवस",
+  "achievementMonthlyRateLabel": "पूर्तता दर: {month}"
 }

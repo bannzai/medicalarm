@@ -234,5 +234,6 @@
   "achievementWeeklyLabel": "Земање лекови оваа недела",
   "achievementWeeklyCountSuffix": "/{scheduledCount} пати",
   "achievementStreakLabel": "Низа",
-  "achievementStreakDaysSuffix": "дена"
+  "achievementStreakDaysSuffix": "дена",
+  "achievementMonthlyRateLabel": "Стапка на исполнетост: {month}"
 }

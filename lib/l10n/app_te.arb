@@ -234,5 +234,6 @@
   "achievementWeeklyLabel": "ఈ వారం మందుల వినియోగం",
   "achievementWeeklyCountSuffix": "/{scheduledCount} సార్లు",
   "achievementStreakLabel": "వరుస రికార్డు",
-  "achievementStreakDaysSuffix": "రోజులు"
+  "achievementStreakDaysSuffix": "రోజులు",
+  "achievementMonthlyRateLabel": "సాధన రేటు: {month}"
 }

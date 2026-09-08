@@ -234,5 +234,6 @@
   "achievementWeeklyLabel": "Uzimanje lijekova ovog tjedna",
   "achievementWeeklyCountSuffix": "/{scheduledCount} puta",
   "achievementStreakLabel": "Niz",
-  "achievementStreakDaysSuffix": "dana"
+  "achievementStreakDaysSuffix": "dana",
+  "achievementMonthlyRateLabel": "Stopa ostvarenja: {month}"
 }

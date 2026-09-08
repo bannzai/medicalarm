@@ -234,5 +234,6 @@
   "achievementWeeklyLabel": "Den här veckans medicinintag",
   "achievementWeeklyCountSuffix": "/{scheduledCount} gånger",
   "achievementStreakLabel": "Sammanhängande serie",
-  "achievementStreakDaysSuffix": "dagar"
+  "achievementStreakDaysSuffix": "dagar",
+  "achievementMonthlyRateLabel": "Uppfyllelsegrad: {month}"
 }

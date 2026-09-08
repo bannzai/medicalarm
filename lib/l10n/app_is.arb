@@ -234,5 +234,6 @@
   "achievementWeeklyLabel": "Lyfjatökur í þessari viku",
   "achievementWeeklyCountSuffix": "/{scheduledCount} sinnum",
   "achievementStreakLabel": "Samfelld röð",
-  "achievementStreakDaysSuffix": "dagar"
+  "achievementStreakDaysSuffix": "dagar",
+  "achievementMonthlyRateLabel": "Frammistöðuhlutfall: {month}"
 }

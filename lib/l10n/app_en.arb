@@ -234,5 +234,6 @@
   "achievementWeeklyLabel": "This week",
   "achievementWeeklyCountSuffix": "/{scheduledCount} times",
   "achievementStreakLabel": "Streak",
-  "achievementStreakDaysSuffix": " days"
+  "achievementStreakDaysSuffix": " days",
+  "achievementMonthlyRateLabel": "Achievement rate: {month}"
 }

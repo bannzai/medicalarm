@@ -234,5 +234,6 @@
   "achievementWeeklyLabel": "የዚህ ሳምንት መድኃኒት አወሳሰድ",
   "achievementWeeklyCountSuffix": "/{scheduledCount} ጊዜ",
   "achievementStreakLabel": "ተከታታይ ስኬት",
-  "achievementStreakDaysSuffix": "ቀናት"
+  "achievementStreakDaysSuffix": "ቀናት",
+  "achievementMonthlyRateLabel": "የ{month} ስኬት መጠን"
 }

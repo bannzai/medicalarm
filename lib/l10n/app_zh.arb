@@ -234,5 +234,6 @@
   "achievementWeeklyLabel": "本周服药",
   "achievementWeeklyCountSuffix": "/{scheduledCount} 次",
   "achievementStreakLabel": "连续记录",
-  "achievementStreakDaysSuffix": "日"
+  "achievementStreakDaysSuffix": "日",
+  "achievementMonthlyRateLabel": "达成率：{month}"
 }

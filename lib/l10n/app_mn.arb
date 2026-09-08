@@ -234,5 +234,6 @@
   "achievementWeeklyLabel": "Энэ долоо хоногийн эмийн хэрэглээ",
   "achievementWeeklyCountSuffix": "/{scheduledCount} удаа",
   "achievementStreakLabel": "Дараалсан цуваа",
-  "achievementStreakDaysSuffix": "өдөр"
+  "achievementStreakDaysSuffix": "өдөр",
+  "achievementMonthlyRateLabel": "Биелэлтийн хувь: {month}"
 }

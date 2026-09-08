@@ -234,5 +234,6 @@
   "achievementWeeklyLabel": "Minum obat minggu ini",
   "achievementWeeklyCountSuffix": "/{scheduledCount} kali",
   "achievementStreakLabel": "Rangkaian",
-  "achievementStreakDaysSuffix": "hari"
+  "achievementStreakDaysSuffix": "hari",
+  "achievementMonthlyRateLabel": "Tingkat pencapaian: {month}"
 }

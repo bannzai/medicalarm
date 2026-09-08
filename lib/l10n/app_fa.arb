@@ -234,5 +234,6 @@
   "achievementWeeklyLabel": "مصرف دارو در این هفته",
   "achievementWeeklyCountSuffix": "/{scheduledCount} بار",
   "achievementStreakLabel": "رکورد متوالی",
-  "achievementStreakDaysSuffix": "روز"
+  "achievementStreakDaysSuffix": "روز",
+  "achievementMonthlyRateLabel": "نرخ پایبندی: {month}"
 }

@@ -234,5 +234,6 @@
   "achievementWeeklyLabel": "Jemanje zdravil ta teden",
   "achievementWeeklyCountSuffix": "/{scheduledCount}-krat",
   "achievementStreakLabel": "Niz",
-  "achievementStreakDaysSuffix": "dni"
+  "achievementStreakDaysSuffix": "dni",
+  "achievementMonthlyRateLabel": "Stopnja izpolnjenosti: {month}"
 }

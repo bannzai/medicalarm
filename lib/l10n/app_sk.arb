@@ -234,5 +234,6 @@
   "achievementWeeklyLabel": "Užívanie liekov tento týždeň",
   "achievementWeeklyCountSuffix": "/{scheduledCount}-krát",
   "achievementStreakLabel": "Séria",
-  "achievementStreakDaysSuffix": "dní"
+  "achievementStreakDaysSuffix": "dní",
+  "achievementMonthlyRateLabel": "Miera splnenia: {month}"
 }

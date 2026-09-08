@@ -234,5 +234,6 @@
   "achievementWeeklyLabel": "اس ہفتے دوا لینا",
   "achievementWeeklyCountSuffix": "/{scheduledCount} بار",
   "achievementStreakLabel": "مسلسل ریکارڈ",
-  "achievementStreakDaysSuffix": "دن"
+  "achievementStreakDaysSuffix": "دن",
+  "achievementMonthlyRateLabel": "تکمیل کی شرح: {month}"
 }

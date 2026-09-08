@@ -234,5 +234,6 @@
   "achievementWeeklyLabel": "Medicinindtagelser i denne uge",
   "achievementWeeklyCountSuffix": "/{scheduledCount} gange",
   "achievementStreakLabel": "Sammenhængende serie",
-  "achievementStreakDaysSuffix": "dage"
+  "achievementStreakDaysSuffix": "dage",
+  "achievementMonthlyRateLabel": "Gennemførelsesrate: {month}"
 }

@@ -234,5 +234,6 @@
   "achievementWeeklyLabel": "এই সপ্তাহের ওষুধ সেবন",
   "achievementWeeklyCountSuffix": "/{scheduledCount} বার",
   "achievementStreakLabel": "ধারাবাহিকতা",
-  "achievementStreakDaysSuffix": "দিন"
+  "achievementStreakDaysSuffix": "দিন",
+  "achievementMonthlyRateLabel": "সাফল্যের হার: {month}"
 }
