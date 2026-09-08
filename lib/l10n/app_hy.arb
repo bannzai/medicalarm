@@ -194,7 +194,7 @@
   "joinWithInvitationCode": "Միանալ հրավերի կոդով",
   "groupCreationLimitReached": "Անվճար փաթեթով այլևս չեք կարող խմբեր ստեղծել։",
   "increaseGroupLimitWithPremium": "Premium փաթեթով կարող եք ստեղծել լրացուցիչ խմբեր",
-  "invitationCode": "Հրավերի կոդ",
+  "invitationCode": "Հրավերի կոդը",
   "invitationCodeShareDescription": "Կիսվեք այս կոդով՝ անդամներին հրավիրելու համար",
   "invitationCodeExpiresAt": "Վավեր է մինչև՝ {date}",
   "copyInvitationCode": "Պատճենել կոդը",
