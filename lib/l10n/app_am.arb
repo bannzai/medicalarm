@@ -92,7 +92,7 @@
   "medicineMaxCount": "እስከ {count} መድኃኒቶች መመዝገብ ይችላሉ።",
   "increaseMedicineLimitWithPremium": "Պրեմիում պլանով ավելացրեք սահմանաչափը մինչև {count}",
   "aboutApp": "ስለ መተግበሪያው",
-  "viewPremiumPlan": "ፕሪምየም ትኬትን ይመልከቱ",
+  "viewPremiumPlan": "የፕሪሚየም ዕቅዱን ይመልከቱ",
   "cancelSubscriptionInstruction": "ከመግዛት በኋላ፣ የአገልግሎት እንደገና ዝግጅት ማውጣት በ{storeName} አፕ ውስጥ የመለያ እቅፍ ማቅረብ ይቻላል። (በአፕ ውስጥ የእንደገና ዝግጅት ማውጣት አይቻልም)።",
   "headache": "የራስ ወለድ",
   "stomachache": "የዱርጭት",

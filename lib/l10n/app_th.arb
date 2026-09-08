@@ -92,7 +92,7 @@
   "medicineMaxCount": "คุณสามารถลงทะเบียนยาได้สูงสุด {count} รายการ",
   "increaseMedicineLimitWithPremium": "เพิ่มขีดจำกัดเป็น {count} ด้วยแพ็กเกจ Premium",
   "aboutApp": "เกี่ยวกับแอป",
-  "viewPremiumPlan": "ดูแผนพรีเมียม",
+  "viewPremiumPlan": "ดูแผน Premium",
   "cancelSubscriptionInstruction": "หลังจากซื้อแล้ว คุณสามารถยกเลิกการต่ออายุอัตโนมัติได้ที่การตั้งค่าบัญชีในแอพ {storeName} (ไม่สามารถยกเลิกการต่ออายุอัตโนมัติได้จากภายในแอพ).",
   "headache": "ปวดหัว",
   "stomachache": "ปวดท้อง",

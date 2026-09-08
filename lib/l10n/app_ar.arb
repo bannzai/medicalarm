@@ -92,7 +92,7 @@
   "medicineMaxCount": "يمكنك تسجيل ما يصل إلى {count} من الأدوية.",
   "increaseMedicineLimitWithPremium": "زيادة الحد إلى {count} مع الخطة المميزة",
   "aboutApp": "حول التطبيق",
-  "viewPremiumPlan": "عرض خطة البريميوم",
+  "viewPremiumPlan": "عرض الخطة المميزة",
   "cancelSubscriptionInstruction": "بعد الشراء، يمكنك إلغاء التجديد التلقائي من إعدادات حساب {storeName} داخل التطبيق. (لا يمكن إلغاء التجديد التلقائي من داخل التطبيق).",
   "headache": "صداع",
   "stomachache": "ألم البطن",

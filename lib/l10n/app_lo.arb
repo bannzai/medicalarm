@@ -92,7 +92,7 @@
   "medicineMaxCount": "ທ່ານສາມາດລົງທະບຽນຢາໄດ້ສູງສຸດ {count} ລາຍການ.",
   "increaseMedicineLimitWithPremium": "ເພີ່ມຂີດຈຳກັດເປັນ {count} ດ້ວຍແຜນ Premium",
   "aboutApp": "ກ່ຽວກັບແອັບ",
-  "viewPremiumPlan": "ເບິ່ງບັດແພນພຣີເມີນ",
+  "viewPremiumPlan": "ເບິ່ງແຜນ Premium",
   "cancelSubscriptionInstruction": "購入後、自動更新の解約は{storeName}アプリのアカウント設定で行えます。(アプリ内から自動更新の解約は行なえません)。",
   "headache": "ປວດເຮັດ",
   "stomachache": "ແບບຕົວງາມໃນບອດການໃຊ້ງານ: ບໍ່ອາດຈະສາມາດລະວັງຫຼຸດຝາຍແມ່ນ",

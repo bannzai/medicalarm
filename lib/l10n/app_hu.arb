@@ -92,7 +92,7 @@
   "medicineMaxCount": "Legfeljebb {count} gyógyszert regisztrálhat.",
   "increaseMedicineLimitWithPremium": "Növelje a korlátot {count} értékre a Prémium csomaggal",
   "aboutApp": "Az alkalmazásról",
-  "viewPremiumPlan": "Nézd meg a prèmium tervet",
+  "viewPremiumPlan": "Prémium csomag megtekintése",
   "cancelSubscriptionInstruction": "A vásárlás után az automatikus megújítást a {storeName} alkalmazás fiókbeállításaiban lehet lemondani. (Az alkalmazáson belül nem lehet lemondani az automatikus megújítást.)",
   "headache": "fejfájás",
   "stomachache": "gyomorfájás",

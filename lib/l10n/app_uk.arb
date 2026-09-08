@@ -92,7 +92,7 @@
   "medicineMaxCount": "Можна зареєструвати до {count} ліків.",
   "increaseMedicineLimitWithPremium": "Збільште ліміт до {count} з преміум-планом",
   "aboutApp": "Про застосунок",
-  "viewPremiumPlan": "View Premium Plan",
+  "viewPremiumPlan": "Переглянути преміум-план",
   "cancelSubscriptionInstruction": "After purchase, you can cancel the auto-renewal in the account settings of the {storeName} app. (You cannot cancel the auto-renewal from within the app.)",
   "headache": "Headache",
   "stomachache": "Abdominal pain",

@@ -92,7 +92,7 @@
   "medicineMaxCount": "Puedes registrar hasta {count} medicamentos.",
   "increaseMedicineLimitWithPremium": "Aumenta el límite a {count} con el plan Premium",
   "aboutApp": "Acerca de la app",
-  "viewPremiumPlan": "Ver plan premium",
+  "viewPremiumPlan": "Ver el plan Premium",
   "cancelSubscriptionInstruction": "Después de la compra, puedes cancelar la renovación automática en la configuración de la cuenta de la aplicación {storeName}. (No se puede cancelar la renovación automática desde dentro de la aplicación).",
   "headache": "dolor de cabeza",
   "stomachache": "dolor abdominal",

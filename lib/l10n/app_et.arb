@@ -92,7 +92,7 @@
   "medicineMaxCount": "Saate registreerida kuni {count} ravimit.",
   "increaseMedicineLimitWithPremium": "Suurendage Premium-paketiga limiit {count}-ni",
   "aboutApp": "Rakenduse kohta",
-  "viewPremiumPlan": "Vaata premium plaani",
+  "viewPremiumPlan": "Vaata Premium-paketti",
   "cancelSubscriptionInstruction": "Ostmisel saab automaatse uuenduse tühistada rakenduse {storeName} konto seadistustes. (Rakenduses ei saa automaatset uuendust tühistada).",
   "headache": "peavalu",
   "stomachache": "Kõhuvalu",
