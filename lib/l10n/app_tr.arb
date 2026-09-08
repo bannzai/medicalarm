@@ -195,7 +195,7 @@
   "groupCreationLimitReached": "Ücretsiz planda daha fazla grup oluşturamazsınız",
   "increaseGroupLimitWithPremium": "Premium planıyla ek gruplar oluşturabilirsiniz",
   "invitationCode": "Davet kodu",
-  "invitationCodeShareDescription": "Üyeleri davet etmek için bu kodu paylaşabilirsiniz",
+  "invitationCodeShareDescription": "Üyeleri davet etmek için bu kodu paylaşın",
   "invitationCodeExpiresAt": "Son geçerlilik tarihi: {date}",
   "copyInvitationCode": "Kodu kopyala",
   "invitationCodeCopied": "Davet kodu kopyalandı",

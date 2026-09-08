@@ -195,7 +195,7 @@
   "groupCreationLimitReached": "No podeu crear més grups amb el pla gratuït",
   "increaseGroupLimitWithPremium": "Pots crear grups addicionals amb el pla Premium",
   "invitationCode": "Codi d’invitació",
-  "invitationCodeShareDescription": "Pots compartir aquest codi per convidar membres",
+  "invitationCodeShareDescription": "Comparteix aquest codi per convidar membres",
   "invitationCodeExpiresAt": "Caduca el: {date}",
   "copyInvitationCode": "Copia el codi",
   "invitationCodeCopied": "Codi d’invitació copiat",

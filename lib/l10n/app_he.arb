@@ -195,7 +195,7 @@
   "groupCreationLimitReached": "לא ניתן ליצור קבוצות נוספות במסגרת התוכנית החינמית",
   "increaseGroupLimitWithPremium": "ניתן ליצור קבוצות נוספות עם תוכנית Premium",
   "invitationCode": "קוד הזמנה",
-  "invitationCodeShareDescription": "אפשר לשתף את הקוד הזה כדי להזמין חברים",
+  "invitationCodeShareDescription": "שתפו את הקוד הזה כדי להזמין חברים",
   "invitationCodeExpiresAt": "בתוקף עד: {date}",
   "copyInvitationCode": "העתקת קוד",
   "invitationCodeCopied": "קוד ההזמנה הועתק",

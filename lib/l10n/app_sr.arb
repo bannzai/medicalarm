@@ -195,7 +195,7 @@
   "groupCreationLimitReached": "На бесплатном плану не можете да креирате још група",
   "increaseGroupLimitWithPremium": "Uz Premium plan možete da kreirate dodatne grupe",
   "invitationCode": "Позивни код",
-  "invitationCodeShareDescription": "Podelite ovaj kôd da pozovete članove",
+  "invitationCodeShareDescription": "Поделите овај код да бисте позвали чланове",
   "invitationCodeExpiresAt": "Важи до: {date}",
   "copyInvitationCode": "Копирај код",
   "invitationCodeCopied": "Код позива је копиран",
