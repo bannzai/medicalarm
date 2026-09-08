@@ -171,7 +171,7 @@
   "confirmOpenAppStore": "Открыть App Store, чтобы написать отзыв?",
   "premiumFeaturesList": "Список премиум-функций",
   "currentlyInPremiumTrial": "Сейчас вы используете пробный период Premium",
-  "medicationPause": "Включить приём лекарства",
+  "medicationPause": "Включить приём лекарств",
   "medicationPauseDescription": "При отключении препарат будет исключён из экрана приёма лекарств и уведомлений.",
   "medicinePausedSnackbar": "Приём лекарства временно приостановлен",
   "medicationHistoryDeletedSnackbar": "Запись о приёме лекарства отменена",
