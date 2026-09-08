@@ -30,3 +30,6 @@ for pattern in 'flutter:' 'Resolved:' 'RemoteConfig:' 'Impeller' 'Metal' 'Failed
 done
 # Flutter engine 自体の診断行のみ。SDK の識別子を含む任意ログは出力しない。
 grep -hE '\[(ERROR|FATAL|IMPORTANT):flutter/' tmp/startup-diagnostic/*.log || true
+
+# 固定の段階名だけを出し、SDK の任意メッセージを転送しない。
+grep -hoE '起動診断: (binding|広告|Firebase|GoogleSignIn|タイムゾーン|SharedPreferences|RemoteConfig|runApp|firstFrame) (開始|完了|失敗|終了)' tmp/startup-diagnostic/*.log || true

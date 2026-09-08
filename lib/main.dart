@@ -6,6 +6,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_crashlytics/firebase_crashlytics.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/foundation.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
@@ -25,10 +26,12 @@ void main() async {
   runZonedGuarded(() async {
     WidgetsFlutterBinding.ensureInitialized();
 
+    if (kDebugMode) debugPrint('起動診断: binding 完了');
+
     Intl.defaultLocale = 'ja';
 
     await (
-      MobileAds.instance.initialize(),
+      diagnoseStartup(stage: '広告', future: MobileAds.instance.initialize()),
       // emulator 接続時は本番プロジェクト(GoogleService-Info.plist)に触れないよう demo プロジェクト ID で初期化する。
       // demo-* プレフィックスは Firebase Emulator の完全オフラインモードで、非エミュレート API への到達を Emulator 側が遮断する。
       const bool.fromEnvironment('USE_FIREBASE_EMULATOR')
@@ -41,7 +44,7 @@ void main() async {
                 projectId: 'demo-medicalarm',
               ),
             )
-          : Firebase.initializeApp(),
+          : diagnoseStartup(stage: 'Firebase', future: Firebase.initializeApp()),
     ).wait;
 
     // ローカルの Firebase Emulator に接続する開発用ゲート。
@@ -59,7 +62,7 @@ void main() async {
     // GoogleService-Info.plist の CLIENT_ID / GIDClientID 未設定の環境でもアプリ起動を妨げないよう握りつぶす
     // (Google リンク実行時に authenticate() 側で改めてエラー表示される)。
     try {
-      await GoogleSignIn.instance.initialize();
+      await diagnoseStartup(stage: 'GoogleSignIn', future: GoogleSignIn.instance.initialize());
     } catch (e) {
       debugPrint('GoogleSignIn.initialize failed: $e');
     }
@@ -69,19 +72,21 @@ void main() async {
 
     // ignore: prefer_typing_uninitialized_variables
     final (_, sharedPreferences, _) = await (
-      LocalNotificationService.setupTimeZone(),
-      SharedPreferences.getInstance(),
-      setupRemoteConfig(),
+      diagnoseStartup(stage: 'タイムゾーン', future: LocalNotificationService.setupTimeZone()),
+      diagnoseStartup(stage: 'SharedPreferences', future: SharedPreferences.getInstance()),
+      diagnoseStartup(stage: 'RemoteConfig', future: setupRemoteConfig()),
     ).wait;
 
     // AppLocalizationsの初期化を待つ
     WidgetsBinding.instance.addPostFrameCallback((timeStamp) async {
+      if (kDebugMode) debugPrint('起動診断: firstFrame 完了');
       await localNotificationService.initialize();
     });
 
     // MEMO: FirebaseCrashlytics#recordFlutterError called dumpErrorToConsole in function.
     FlutterError.onError = FirebaseCrashlytics.instance.recordFlutterError;
 
+    if (kDebugMode) debugPrint('起動診断: runApp 開始');
     runApp(ProviderScope(
       overrides: [
         sharedPreferencesProvider.overrideWith((ref) => sharedPreferences),
@@ -106,6 +111,20 @@ void main() async {
       child: const App(),
     ));
   }, (error, stack) => FirebaseCrashlytics.instance.recordError(error, stack));
+}
+
+/// 初期化の待機順序を維持して開始・完了だけを記録する一時診断。
+/// 診断のため呼び出しごとにログを出すが、初期化そのものは再実行しない。
+Future<T> diagnoseStartup<T>({required String stage, required Future<T> future}) async {
+  if (kDebugMode) debugPrint('起動診断: $stage 開始');
+  try {
+    return await future;
+  } catch (_) {
+    if (kDebugMode) debugPrint('起動診断: $stage 失敗');
+    rethrow;
+  } finally {
+    if (kDebugMode) debugPrint('起動診断: $stage 終了');
+  }
 }
 
 class App extends StatelessWidget {

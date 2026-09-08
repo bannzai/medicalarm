@@ -33,7 +33,6 @@ jobs:
     timeout-minutes: 30
     permissions:
       contents: read # checkout のみ。OIDC token (id-token) は session job だけに与える
-      actions: read # 既存 run のビルド成果物を取得するため
     steps:
       # duration_minutes は session.yml 側で検証されず keepalive の算術式にそのまま入るため、
       # secrets・OIDC を使う前のここで正の整数 (上限は session job の timeout と同じ 360) に絞る
@@ -50,11 +49,28 @@ jobs:
       - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
         with:
           persist-credentials: false
-      # 同じ成果物で実行環境だけを調べるため、再ビルドしない一時診断。
-      - name: 検証済みのビルド成果物を取得
+      # ビルドが参照する git 管理外の 2 ファイルを Secrets から復元する（Makefile の make secret と同じ生成物）:
+      # - ios/Firebase/GoogleService-Info.plist（FILE_FIREBASE_IOS: base64 化した plist）
+      # - lib/secret/secret.dart（secret.dart.sample の REVENUE_CAT_PUBLIC_API_KEY 置換）
+      - name: Restore GoogleService-Info.plist / secret.dart
         env:
-          GH_TOKEN: ${{ github.token }}
-        run: gh run download 34127308497 --repo bannzai/medicalarm --name simulator-app --dir build/ios/iphonesimulator
+          FILE_FIREBASE_IOS: ${{ secrets.FILE_FIREBASE_IOS }}
+          REVENUE_CAT_PUBLIC_API_KEY: ${{ secrets.REVENUE_CAT_PUBLIC_API_KEY }}
+        run: |
+          # secret が空のまま進むと後段の Xcode / Dart コンパイルで分かりにくく失敗するため、ここで検査して止める
+          [ -n "$FILE_FIREBASE_IOS" ] || { echo "Error: FILE_FIREBASE_IOS が空" >&2; exit 1; }
+          [ -n "$REVENUE_CAT_PUBLIC_API_KEY" ] || { echo "Error: REVENUE_CAT_PUBLIC_API_KEY が空" >&2; exit 1; }
+          printf '%s' "$FILE_FIREBASE_IOS" | base64 -d > ios/Firebase/GoogleService-Info.plist
+          [ -s ios/Firebase/GoogleService-Info.plist ] || { echo "Error: GoogleService-Info.plist の復元に失敗" >&2; exit 1; }
+          sed -e "s|\[REVENUE_CAT_PUBLIC_API_KEY\]|$REVENUE_CAT_PUBLIC_API_KEY|g" lib/secret/secret.dart.sample > lib/secret/secret.dart
+      - uses: subosito/flutter-action@fd55f4c5af5b953cc57a2be44cb082c8f6635e8e # v2.21.0
+        with:
+          channel: stable
+          flutter-version: '3.41.9'
+      - run: flutter pub get
+      - run: flutter analyze --no-fatal-infos --no-fatal-warnings
+      - run: flutter test
+      - run: flutter build ios --simulator --debug
       - name: Runner 上で起動ログを診断
         timeout-minutes: 8
         run: bash scripts/diagnose-simulator-startup.sh
