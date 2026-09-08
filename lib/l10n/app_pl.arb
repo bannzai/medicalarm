@@ -48,7 +48,7 @@
   "doseReceiver": "Osoba przyjmująca lek",
   "defaultDoseReceiver": "Ja",
   "doseReceiverMaxCount": "Możesz zarejestrować maksymalnie {count} osoby przyjmujące leki",
-  "increaseLimitWithPremium": "Zwiększ limit do {count} w planie Premium",
+  "increaseLimitWithPremium": "Zwiększ limit do {count} dzięki planowi Premium",
   "addDoseReceiver": "Dodaj osobę przyjmującą leki",
   "newDoseReceiver": "Nowy użytkownik leków",
   "reloginRequired": "Zaloguj się ponownie",

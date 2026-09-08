@@ -48,7 +48,7 @@
   "doseReceiver": "Dərman qəbul edən şəxs",
   "defaultDoseReceiver": "Mən",
   "doseReceiverMaxCount": "Maksimum {count} dərman istifadəçisi qeydiyyatdan keçirə bilərsiniz",
-  "increaseLimitWithPremium": "Premium planla limiti {count} qədər artırın",
+  "increaseLimitWithPremium": "Premium planla limiti {count}-ə artırın",
   "addDoseReceiver": "Dərman qəbul edən şəxs əlavə et",
   "newDoseReceiver": "Yeni dərman istifadəçisi",
   "reloginRequired": "Zəhmət olmasa, yenidən daxil olun",

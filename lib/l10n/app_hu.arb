@@ -48,7 +48,7 @@
   "doseReceiver": "Gyógyszerszedő",
   "defaultDoseReceiver": "Én",
   "doseReceiverMaxCount": "Legfeljebb {count} gyógyszerszedő személyt regisztrálhat",
-  "increaseLimitWithPremium": "Növelje a korlátot {count} értékre Premium-csomaggal",
+  "increaseLimitWithPremium": "Növelje a korlátot {count} értékre Premium csomaggal",
   "addDoseReceiver": "Gyógyszerszedő hozzáadása",
   "newDoseReceiver": "Új gyógyszerhasználó",
   "reloginRequired": "Kérjük, jelentkezzen be újra",

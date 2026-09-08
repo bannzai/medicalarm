@@ -48,7 +48,7 @@
   "doseReceiver": "Дары ичүүчү адам",
   "defaultDoseReceiver": "Мен",
   "doseReceiverMaxCount": "Эң көп дегенде {count} дары ичүүчү адамды каттай аласыз",
-  "increaseLimitWithPremium": "Premium планы менен чекти {count} чейин көбөйтүңүз",
+  "increaseLimitWithPremium": "Premium планы менен чекти {count}ге көбөйтүңүз",
   "addDoseReceiver": "Дары ичүүчүнү кошуу",
   "newDoseReceiver": "Жаңы дары колдонуучу",
   "reloginRequired": "Сураныч, кайра кириңиз",

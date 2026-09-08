@@ -48,7 +48,7 @@
   "doseReceiver": "Person, wo s Medikament nimmt",
   "defaultDoseReceiver": "Ich",
   "doseReceiverMaxCount": "Sie chönd bis zu {count} Medikamentenutzendi registriere",
-  "increaseLimitWithPremium": "Limite mit em Premium-Abo uf {count} erhöhe",
+  "increaseLimitWithPremium": "Mit em Premium-Abo s Limit uf {count} erhöhe",
   "addDoseReceiver": "Person hinzuefüege, wo Medikament nimmt",
   "newDoseReceiver": "Neue Medikamenten-Nutzer",
   "reloginRequired": "Bitte mälded Sie sich nomol aa",

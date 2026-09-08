@@ -48,7 +48,7 @@
   "doseReceiver": "مصرف‌کننده دارو",
   "defaultDoseReceiver": "خودم",
   "doseReceiverMaxCount": "می‌توانید حداکثر {count} مصرف‌کننده دارو را ثبت کنید",
-  "increaseLimitWithPremium": "با طرح Premium، سقف را به {count} افزایش دهید",
+  "increaseLimitWithPremium": "با طرح پریمیوم، سقف را به {count} افزایش دهید",
   "addDoseReceiver": "افزودن مصرف‌کننده دارو",
   "newDoseReceiver": "مصرف‌کننده جدید دارو",
   "reloginRequired": "لطفاً دوباره وارد شوید",
