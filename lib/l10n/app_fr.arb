@@ -229,7 +229,7 @@
   "doseIntervalWarningTitle": "L’intervalle minimal entre les prises n’est pas encore écoulé",
   "doseIntervalWarningMessage": "Une prise a déjà été enregistrée à {latestTakeTime}. Le délai entre les prises doit être d’au moins {minimumDoseIntervalHours} heures. Voulez-vous quand même l’enregistrer ?",
   "doseIntervalWarningTakeAnyway": "Enregistrer",
-  "doseIntervalNotificationWarning": "⚠️ {minimumDoseIntervalHours} heures ne se sont pas encore écoulées depuis la dernière prise",
+  "doseIntervalNotificationWarning": "⚠️ {minimumDoseIntervalHours} heures ne se sont pas écoulées depuis la dernière prise",
   "ossLicense": "Licences OSS",
   "achievementWeeklyLabel": "Médicaments pris cette semaine",
   "achievementWeeklyCountSuffix": "/{scheduledCount} fois",

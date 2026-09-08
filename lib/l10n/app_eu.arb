@@ -229,7 +229,7 @@
   "doseIntervalWarningTitle": "Dosen arteko gutxieneko tartea ez da oraindik igaro",
   "doseIntervalWarningMessage": "Dagoeneko erregistratuta dago {latestTakeTime}an botika hartu duzula. Ezarpenen arabera, dosien artean gutxienez {minimumDoseIntervalHours} ordu egon behar dira. Hala ere, erregistratu nahi duzu?",
   "doseIntervalWarningTakeAnyway": "Erregistratu",
-  "doseIntervalNotificationWarning": "⚠️ Ez dira {minimumDoseIntervalHours} ordu igaro aurreko dositik",
+  "doseIntervalNotificationWarning": "⚠️ Azken dositik ez dira {minimumDoseIntervalHours} ordu igaro",
   "ossLicense": "OSS lizentziak",
   "achievementWeeklyLabel": "Aste honetako medikazioa",
   "achievementWeeklyCountSuffix": "/{scheduledCount} aldiz",

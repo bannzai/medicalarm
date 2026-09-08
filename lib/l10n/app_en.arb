@@ -229,7 +229,7 @@
   "doseIntervalWarningTitle": "The minimum interval between doses has not elapsed",
   "doseIntervalWarningMessage": "A dose was already recorded at {latestTakeTime}. Your settings require at least {minimumDoseIntervalHours} hours between doses. Do you still want to record it?",
   "doseIntervalWarningTakeAnyway": "Record",
-  "doseIntervalNotificationWarning": "⚠️ {minimumDoseIntervalHours} hours have not passed since the last dose",
+  "doseIntervalNotificationWarning": "⚠️ Less than {minimumDoseIntervalHours} hours have passed since the last dose",
   "ossLicense": "OSS Licenses",
   "achievementWeeklyLabel": "Medication taken this week",
   "achievementWeeklyCountSuffix": "/{scheduledCount} times",

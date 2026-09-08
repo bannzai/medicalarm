@@ -229,7 +229,7 @@
   "doseIntervalWarningTitle": "A dózisok közötti minimális idő még nem telt el",
   "doseIntervalWarningMessage": "A(z) {latestTakeTime} időpontban már rögzítettük a gyógyszer bevételét. A beállítás szerint a bevételek között legalább {minimumDoseIntervalHours} órának kell eltelnie. Ennek ellenére rögzíti?",
   "doseIntervalWarningTakeAnyway": "Rögzítés",
-  "doseIntervalNotificationWarning": "⚠️ Az előző adag óta még nem telt el {minimumDoseIntervalHours} óra",
+  "doseIntervalNotificationWarning": "⚠️ Az előző adag óta nem telt el {minimumDoseIntervalHours} óra",
   "ossLicense": "OSS-licencek",
   "achievementWeeklyLabel": "E heti gyógyszerek",
   "achievementWeeklyCountSuffix": "/{scheduledCount} alkalommal",

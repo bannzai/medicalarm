@@ -229,7 +229,7 @@
   "doseIntervalWarningTitle": "Hindi pa lumilipas ang pinakamababang pagitan ng mga dosis",
   "doseIntervalWarningMessage": "Naitala na ang pag-inom ng gamot noong {latestTakeTime}. Nakasaad sa mga setting na dapat may pagitan na hindi bababa sa {minimumDoseIntervalHours} oras sa pagitan ng mga dosis. Itatala pa rin ba ito?",
   "doseIntervalWarningTakeAnyway": "Itala",
-  "doseIntervalNotificationWarning": "⚠️ Hindi pa lumilipas ang {minimumDoseIntervalHours} oras mula sa huling pag-inom",
+  "doseIntervalNotificationWarning": "⚠️ Wala pang {minimumDoseIntervalHours} oras mula sa huling pag-inom",
   "ossLicense": "Mga lisensya ng OSS",
   "achievementWeeklyLabel": "Gamot ngayong linggo",
   "achievementWeeklyCountSuffix": "/{scheduledCount} beses",

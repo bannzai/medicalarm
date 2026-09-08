@@ -229,7 +229,7 @@
   "doseIntervalWarningTitle": "මාත්‍රා අතර අවම කාලය තවම ගත වී නැත",
   "doseIntervalWarningMessage": "{latestTakeTime} දී ඖෂධය ගත් බව දැනටමත් සටහන් කර ඇත. මාත්‍රා අතර අවම වශයෙන් පැය {minimumDoseIntervalHours} ක පරතරයක් තිබිය යුතු බවට සකසා ඇත. එසේ වුවද සටහන් කරන්නද?",
   "doseIntervalWarningTakeAnyway": "වාර්තා කරන්න",
-  "doseIntervalNotificationWarning": "⚠️ අවසන් මාත්‍රාව ලබාගෙන {minimumDoseIntervalHours} පැය ගත වී නැත",
+  "doseIntervalNotificationWarning": "⚠️ අවසන් මාත්‍රාවෙන් {minimumDoseIntervalHours} පැය ගත වී නැත",
   "ossLicense": "OSS බලපත්‍ර",
   "achievementWeeklyLabel": "මෙම සතියේ ඖෂධ",
   "achievementWeeklyCountSuffix": "/{scheduledCount} වරක්",

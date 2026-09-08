@@ -229,7 +229,7 @@
   "doseIntervalWarningTitle": "Minimālais intervāls starp devām vēl nav pagājis",
   "doseIntervalWarningMessage": "Jau ir reģistrēts, ka zāles lietotas plkst. {latestTakeTime}. Iestatījumos noteikts, ka starp devām jābūt vismaz {minimumDoseIntervalHours} stundu intervālam. Vai tomēr reģistrēt?",
   "doseIntervalWarningTakeAnyway": "Reģistrēt",
-  "doseIntervalNotificationWarning": "⚠️ Kopš pēdējās devas lietošanas nav pagājušas {minimumDoseIntervalHours} stundas",
+  "doseIntervalNotificationWarning": "⚠️ Kopš pēdējās devas nav pagājušas {minimumDoseIntervalHours} stundas",
   "ossLicense": "OSS licences",
   "achievementWeeklyLabel": "Šīs nedēļas zāles",
   "achievementWeeklyCountSuffix": "/{scheduledCount} reizes",

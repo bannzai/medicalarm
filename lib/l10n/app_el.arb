@@ -229,7 +229,7 @@
   "doseIntervalWarningTitle": "Δεν έχει παρέλθει το ελάχιστο διάστημα μεταξύ των δόσεων",
   "doseIntervalWarningMessage": "Έχει ήδη καταγραφεί λήψη στις {latestTakeTime}. Η ρύθμιση απαιτεί να μεσολαβούν τουλάχιστον {minimumDoseIntervalHours} ώρες μεταξύ των δόσεων. Θέλετε να την καταγράψετε ούτως ή άλλως;",
   "doseIntervalWarningTakeAnyway": "Καταγραφή",
-  "doseIntervalNotificationWarning": "⚠️ Δεν έχουν περάσει {minimumDoseIntervalHours} ώρες από την προηγούμενη δόση",
+  "doseIntervalNotificationWarning": "⚠️ Δεν έχουν περάσει {minimumDoseIntervalHours} ώρες από την τελευταία δόση",
   "ossLicense": "Άδειες OSS",
   "achievementWeeklyLabel": "Φάρμακα αυτή την εβδομάδα",
   "achievementWeeklyCountSuffix": "/{scheduledCount} φορές",

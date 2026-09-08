@@ -229,7 +229,7 @@
   "doseIntervalWarningTitle": "Muda wa chini kati ya dozi bado haujatimia",
   "doseIntervalWarningMessage": "Tayari imerekodiwa kuwa ulitumia dawa saa {latestTakeTime}. Mipangilio inahitaji angalau saa {minimumDoseIntervalHours} kati ya dozi. Je, bado ungependa kuirekodi?",
   "doseIntervalWarningTakeAnyway": "Rekodi",
-  "doseIntervalNotificationWarning": "⚠️ Haijapita saa {minimumDoseIntervalHours} tangu dozi ya mwisho",
+  "doseIntervalNotificationWarning": "⚠️ Haijapita saa {minimumDoseIntervalHours} tangu dozi la mwisho",
   "ossLicense": "Leseni za OSS",
   "achievementWeeklyLabel": "Dawa za wiki hii",
   "achievementWeeklyCountSuffix": "/{scheduledCount} mara",

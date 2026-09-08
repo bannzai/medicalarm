@@ -229,7 +229,7 @@
   "doseIntervalWarningTitle": "ਖੁਰਾਕਾਂ ਵਿਚਕਾਰ ਘੱਟੋ-ਘੱਟ ਸਮਾਂ ਹਾਲੇ ਪੂਰਾ ਨਹੀਂ ਹੋਇਆ",
   "doseIntervalWarningMessage": "{latestTakeTime} ਵਜੇ ਦਵਾਈ ਲੈਣ ਦਾ ਰਿਕਾਰਡ ਪਹਿਲਾਂ ਹੀ ਮੌਜੂਦ ਹੈ। ਸੈਟਿੰਗ ਮੁਤਾਬਕ ਖੁਰਾਕਾਂ ਵਿਚਕਾਰ ਘੱਟੋ-ਘੱਟ {minimumDoseIntervalHours} ਘੰਟਿਆਂ ਦਾ ਅੰਤਰ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ। ਫਿਰ ਵੀ ਰਿਕਾਰਡ ਕਰਨਾ ਹੈ?",
   "doseIntervalWarningTakeAnyway": "ਰਿਕਾਰਡ ਕਰੋ",
-  "doseIntervalNotificationWarning": "⚠️ ਪਿਛਲੀ ਖੁਰਾਕ ਲਏ ਨੂੰ {minimumDoseIntervalHours} ਘੰਟੇ ਨਹੀਂ ਹੋਏ",
+  "doseIntervalNotificationWarning": "⚠️ ਪਿਛਲੀ ਖੁਰਾਕ ਤੋਂ {minimumDoseIntervalHours} ਘੰਟੇ ਨਹੀਂ ਹੋਏ",
   "ossLicense": "OSS ਲਾਇਸੰਸ",
   "achievementWeeklyLabel": "ਇਸ ਹਫ਼ਤੇ ਦੀ ਦਵਾਈ",
   "achievementWeeklyCountSuffix": "/{scheduledCount} ਵਾਰ",

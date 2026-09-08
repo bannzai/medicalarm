@@ -229,7 +229,7 @@
   "doseIntervalWarningTitle": "ໄລຍະຫ່າງຂັ້ນຕ່ຳລະຫວ່າງການກິນຢາຍັງບໍ່ຄົບ",
   "doseIntervalWarningMessage": "ມີການບັນທຶກວ່າໄດ້ກິນຢາໃນເວລາ {latestTakeTime} ແລ້ວ. ຕັ້ງຄ່າໃຫ້ມີໄລຍະຫ່າງລະຫວ່າງການກິນຢາຢ່າງໜ້ອຍ {minimumDoseIntervalHours} ຊົ່ວໂມງ. ຍັງຕ້ອງການບັນທຶກຢູ່ບໍ?",
   "doseIntervalWarningTakeAnyway": "ບັນທຶກ",
-  "doseIntervalNotificationWarning": "⚠️ ຍັງບໍ່ຮອດ {minimumDoseIntervalHours} ຊົ່ວໂມງນັບຈາກການກິນຢາຄັ້ງກ່ອນ",
+  "doseIntervalNotificationWarning": "⚠️ ຍັງບໍ່ຮອດ {minimumDoseIntervalHours} ຊົ່ວໂມງຈາກການກິນຢາຄັ້ງກ່ອນ",
   "ossLicense": "ໃບອະນຸຍາດ OSS",
   "achievementWeeklyLabel": "ຢາປະຈຳອາທິດນີ້",
   "achievementWeeklyCountSuffix": "/{scheduledCount} ຄັ້ງ",

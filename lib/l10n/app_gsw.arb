@@ -229,7 +229,7 @@
   "doseIntervalWarningTitle": "De Mindestabstand zwüsche de Dosis isch no nöd verstriche",
   "doseIntervalWarningMessage": "D Einnahm vo {latestTakeTime} isch scho erfasst. Zwüsche de Einnahme müend gemäss Iistellig mindestens {minimumDoseIntervalHours} Stunde ligge. Trotzdem erfasse?",
   "doseIntervalWarningTakeAnyway": "Uufzeichne",
-  "doseIntervalNotificationWarning": "⚠️ Sit dr letschte Dosis sind no kei {minimumDoseIntervalHours} Stund ver gange",
+  "doseIntervalNotificationWarning": "⚠️ Sit dr letschte Einnahm sind no kei {minimumDoseIntervalHours} Stunde verga",
   "ossLicense": "OSS-Lizänze",
   "achievementWeeklyLabel": "Medikamente die Wuche",
   "achievementWeeklyCountSuffix": "/{scheduledCount} Mol",

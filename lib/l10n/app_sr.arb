@@ -229,7 +229,7 @@
   "doseIntervalWarningTitle": "Минимални размак између доза још није прошао",
   "doseIntervalWarningMessage": "Већ је забележено да сте узели лек у {latestTakeTime}. Подешено је да између доза мора да прође најмање {minimumDoseIntervalHours} сати. Ипак забележити?",
   "doseIntervalWarningTakeAnyway": "Забележи",
-  "doseIntervalNotificationWarning": "⚠️ Од претходне дозе није прошло {minimumDoseIntervalHours} сати",
+  "doseIntervalNotificationWarning": "⚠️ Од последње дозе није прошло {minimumDoseIntervalHours} сати",
   "ossLicense": "OSS лиценце",
   "achievementWeeklyLabel": "Лекови ове недеље",
   "achievementWeeklyCountSuffix": "/{scheduledCount} пута",

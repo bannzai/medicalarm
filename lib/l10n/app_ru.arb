@@ -229,7 +229,7 @@
   "doseIntervalWarningTitle": "Минимальный интервал между приёмами ещё не истёк",
   "doseIntervalWarningMessage": "Приём в {latestTakeTime} уже записан. В настройках установлен интервал между приёмами не менее {minimumDoseIntervalHours} часов. Всё равно записать этот приём?",
   "doseIntervalWarningTakeAnyway": "Записать",
-  "doseIntervalNotificationWarning": "⚠️ С момента предыдущего приёма прошло менее {minimumDoseIntervalHours} часов",
+  "doseIntervalNotificationWarning": "⚠️ С момента последнего приёма не прошло {minimumDoseIntervalHours} часов",
   "ossLicense": "Лицензии OSS",
   "achievementWeeklyLabel": "Лекарства за эту неделю",
   "achievementWeeklyCountSuffix": "/{scheduledCount} раз",

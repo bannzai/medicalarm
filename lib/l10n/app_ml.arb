@@ -229,7 +229,7 @@
   "doseIntervalWarningTitle": "ഡോസുകൾക്കിടയിലെ കുറഞ്ഞ ഇടവേള ഇതുവരെ കഴിഞ്ഞിട്ടില്ല",
   "doseIntervalWarningMessage": "{latestTakeTime}-ന് മരുന്ന് കഴിച്ചതായി ഇതിനകം രേഖപ്പെടുത്തിയിട്ടുണ്ട്. ഡോസുകൾക്കിടയിൽ കുറഞ്ഞത് {minimumDoseIntervalHours} മണിക്കൂർ ഇടവേള വേണമെന്ന് സജ്ജീകരിച്ചിരിക്കുന്നു. എന്നിരുന്നാലും രേഖപ്പെടുത്തണോ?",
   "doseIntervalWarningTakeAnyway": "രേഖപ്പെടുത്തുക",
-  "doseIntervalNotificationWarning": "⚠️ മുമ്പത്തെ ഡോസ് എടുത്തിട്ട് {minimumDoseIntervalHours} മണിക്കൂർ കഴിഞ്ഞിട്ടില്ല",
+  "doseIntervalNotificationWarning": "⚠️ അവസാന ഡോസ് എടുത്തിട്ട് {minimumDoseIntervalHours} മണിക്കൂർ കഴിഞ്ഞിട്ടില്ല",
   "ossLicense": "OSS ലൈസൻസുകൾ",
   "achievementWeeklyLabel": "ഈ ആഴ്ചയിലെ മരുന്നുകൾ",
   "achievementWeeklyCountSuffix": "/{scheduledCount} തവണ",

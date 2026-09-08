@@ -229,7 +229,7 @@
   "doseIntervalWarningTitle": "खुराकहरूबीचको न्यूनतम अन्तराल अझै पूरा भएको छैन",
   "doseIntervalWarningMessage": "{latestTakeTime} मा औषधि सेवन गरेको रेकर्ड पहिले नै छ। सेटिङअनुसार सेवनहरूबीच कम्तीमा {minimumDoseIntervalHours} घण्टाको अन्तर हुनुपर्छ। तैपनि रेकर्ड गर्ने?",
   "doseIntervalWarningTakeAnyway": "रेकर्ड गर्नुहोस्",
-  "doseIntervalNotificationWarning": "⚠️ अघिल्लो मात्रा लिएको {minimumDoseIntervalHours} घण्टा पुगेको छैन",
+  "doseIntervalNotificationWarning": "⚠️ पछिल्लो मात्रा लिएको {minimumDoseIntervalHours} घण्टा पुगेको छैन",
   "ossLicense": "OSS इजाजतपत्रहरू",
   "achievementWeeklyLabel": "यस हप्ताका औषधि",
   "achievementWeeklyCountSuffix": "/{scheduledCount} पटक",

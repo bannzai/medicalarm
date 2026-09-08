@@ -229,7 +229,7 @@
   "doseIntervalWarningTitle": "Dozalar orasidagi minimal vaqt hali o‘tmagan",
   "doseIntervalWarningMessage": "{latestTakeTime} da dori qabul qilganingiz allaqachon qayd etilgan. Sozlamalarga ko‘ra, dozalar orasida kamida {minimumDoseIntervalHours} soat bo‘lishi kerak. Shunday bo‘lsa ham qayd etilsinmi?",
   "doseIntervalWarningTakeAnyway": "Qayd etish",
-  "doseIntervalNotificationWarning": "⚠️ Avvalgi dozani qabul qilganingizdan beri {minimumDoseIntervalHours} soat o‘tmadi",
+  "doseIntervalNotificationWarning": "⚠️ Oxirgi dozadan beri {minimumDoseIntervalHours} soat o‘tmadi",
   "ossLicense": "OSS litsenziyalari",
   "achievementWeeklyLabel": "Bu haftadagi dorilar",
   "achievementWeeklyCountSuffix": "/{scheduledCount} marta",

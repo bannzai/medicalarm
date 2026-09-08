@@ -229,7 +229,7 @@
   "doseIntervalWarningTitle": "ಡೋಸ್‌ಗಳ ನಡುವಿನ ಕನಿಷ್ಠ ಅವಧಿ ಇನ್ನೂ ಕಳೆದಿಲ್ಲ",
   "doseIntervalWarningMessage": "{latestTakeTime}ಕ್ಕೆ ಔಷಧಿ ತೆಗೆದುಕೊಂಡಿರುವುದು ಈಗಾಗಲೇ ದಾಖಲಾಗಿದೆ. ಡೋಸ್‌ಗಳ ನಡುವೆ ಕನಿಷ್ಠ {minimumDoseIntervalHours} ಗಂಟೆಗಳ ಅಂತರ ಇರಬೇಕೆಂದು ಸೆಟ್ ಮಾಡಲಾಗಿದೆ. ಆದರೂ ದಾಖಲಿಸಬೇಕೆ?",
   "doseIntervalWarningTakeAnyway": "ದಾಖಲಿಸಿ",
-  "doseIntervalNotificationWarning": "⚠️ ಹಿಂದಿನ ಡೋಸ್ ತೆಗೆದುಕೊಂಡು {minimumDoseIntervalHours} ಗಂಟೆಗಳು ಕಳೆದಿಲ್ಲ",
+  "doseIntervalNotificationWarning": "⚠️ ಹಿಂದಿನ ಡೋಸ್‌ನಿಂದ {minimumDoseIntervalHours} ಗಂಟೆಗಳು ಕಳೆದಿಲ್ಲ",
   "ossLicense": "OSS ಪರವಾನಗಿಗಳು",
   "achievementWeeklyLabel": "ಈ ವಾರದ ಔಷಧಿ",
   "achievementWeeklyCountSuffix": "/{scheduledCount} ಬಾರಿ",

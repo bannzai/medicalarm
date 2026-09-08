@@ -229,7 +229,7 @@
   "doseIntervalWarningTitle": "டோஸ்களுக்கு இடையிலான குறைந்தபட்ச இடைவெளி இன்னும் முடியவில்லை",
   "doseIntervalWarningMessage": "{latestTakeTime} மணிக்கு மருந்து எடுத்தது ஏற்கனவே பதிவாகியுள்ளது. அளவுகளுக்கு இடையில் குறைந்தது {minimumDoseIntervalHours} மணிநேர இடைவெளி இருக்க வேண்டும் என அமைக்கப்பட்டுள்ளது. இருப்பினும் பதிவு செய்யவா?",
   "doseIntervalWarningTakeAnyway": "பதிவு செய்",
-  "doseIntervalNotificationWarning": "⚠️ முந்தைய டோஸ் எடுத்ததிலிருந்து {minimumDoseIntervalHours} மணிநேரம் ஆகவில்லை",
+  "doseIntervalNotificationWarning": "⚠️ முந்தைய மருந்தளவை எடுத்ததிலிருந்து {minimumDoseIntervalHours} மணிநேரம் ஆகவில்லை",
   "ossLicense": "OSS உரிமங்கள்",
   "achievementWeeklyLabel": "இந்த வார மருந்துகள்",
   "achievementWeeklyCountSuffix": "/{scheduledCount} முறை",

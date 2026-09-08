@@ -229,7 +229,7 @@
   "doseIntervalWarningTitle": "Դեղաչափերի միջև նվազագույն ընդմիջումը դեռ չի անցել",
   "doseIntervalWarningMessage": "{latestTakeTime}-ին դեղամիջոցի ընդունումն արդեն գրանցված է։ Կարգավորումների համաձայն՝ ընդունումների միջև պետք է անցնի առնվազն {minimumDoseIntervalHours} ժամ։ Այնուամենայնիվ գրանցե՞լ։",
   "doseIntervalWarningTakeAnyway": "Գրանցել",
-  "doseIntervalNotificationWarning": "⚠️ Նախորդ դեղաչափից դեռ չի անցել {minimumDoseIntervalHours} ժամ",
+  "doseIntervalNotificationWarning": "⚠️ Նախորդ դեղաչափից չի անցել {minimumDoseIntervalHours} ժամ",
   "ossLicense": "OSS լիցենզիաներ",
   "achievementWeeklyLabel": "Այս շաբաթվա դեղերը",
   "achievementWeeklyCountSuffix": "/{scheduledCount} անգամ",
