@@ -196,7 +196,7 @@
   "increaseGroupLimitWithPremium": "Premium အစီအစဉ်ဖြင့် အဖွဲ့များကို ထပ်မံဖန်တီးနိုင်ပါသည်",
   "invitationCode": "ဖိတ်ကြားမှုကုဒ်",
   "invitationCodeShareDescription": "အဖွဲ့ဝင်များကို ဖိတ်ကြားရန် ဤကုဒ်ကို မျှဝေပါ",
-  "invitationCodeExpiresAt": "သက်တမ်းကုန်ဆုံးမည့်ရက်: {date}",
+  "invitationCodeExpiresAt": "သက်တမ်းကုန်ဆုံးရက်: {date}",
   "copyInvitationCode": "ကုဒ်ကို ကူးယူရန်",
   "invitationCodeCopied": "ဖိတ်ခေါ်ကုဒ်ကို ကူးယူပြီးပါပြီ",
   "issueInvitationCode": "ဖိတ်ကြားမှုကုဒ် ထုတ်ပေးရန်",

@@ -196,7 +196,7 @@
   "increaseGroupLimitWithPremium": "Premium-paketiga saate luua täiendavaid gruppe",
   "invitationCode": "Kutse kood",
   "invitationCodeShareDescription": "Liikmete kutsumiseks jagage seda koodi",
-  "invitationCodeExpiresAt": "Kehtib kuni: {date}",
+  "invitationCodeExpiresAt": "Kehtiv kuni: {date}",
   "copyInvitationCode": "Kopeeri kood",
   "invitationCodeCopied": "Kutse kood kopeeritud",
   "issueInvitationCode": "Loo kutsekood",

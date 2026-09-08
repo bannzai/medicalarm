@@ -196,7 +196,7 @@
   "increaseGroupLimitWithPremium": "Premium ಪ್ಲಾನ್‌ನೊಂದಿಗೆ ಹೆಚ್ಚುವರಿ ಗುಂಪುಗಳನ್ನು ರಚಿಸಬಹುದು",
   "invitationCode": "ಆಹ್ವಾನ ಕೋಡ್",
   "invitationCodeShareDescription": "ಸದಸ್ಯರನ್ನು ಆಹ್ವಾನಿಸಲು ಈ ಕೋಡ್ ಹಂಚಿಕೊಳ್ಳಿ",
-  "invitationCodeExpiresAt": "ಮಾನ್ಯ ಅವಧಿ: {date}",
+  "invitationCodeExpiresAt": "ಮಾನ್ಯವಾಗಿರುವ ಅವಧಿ: {date}",
   "copyInvitationCode": "ಕೋಡ್ ನಕಲಿಸಿ",
   "invitationCodeCopied": "ಆಹ್ವಾನ ಕೋಡ್ ನಕಲಿಸಲಾಗಿದೆ",
   "issueInvitationCode": "ಆಹ್ವಾನ ಕೋಡ್ ರಚಿಸಿ",

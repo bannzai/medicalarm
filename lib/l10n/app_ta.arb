@@ -196,7 +196,7 @@
   "increaseGroupLimitWithPremium": "Premium திட்டத்தில் கூடுதல் குழுக்களை உருவாக்கலாம்",
   "invitationCode": "அழைப்புக் குறியீடு",
   "invitationCodeShareDescription": "உறுப்பினர்களை அழைக்க இந்தக் குறியீட்டைப் பகிரவும்",
-  "invitationCodeExpiresAt": "செல்லுபடியாகும் காலம்: {date}",
+  "invitationCodeExpiresAt": "காலாவதி: {date}",
   "copyInvitationCode": "குறியீட்டை நகலெடு",
   "invitationCodeCopied": "அழைப்புக் குறியீடு நகலெடுக்கப்பட்டது",
   "issueInvitationCode": "அழைப்புக் குறியீட்டை உருவாக்கு",
