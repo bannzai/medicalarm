@@ -176,7 +176,7 @@
   "medicinePausedSnackbar": "Земањето на лекот е привремено паузирано",
   "medicationHistoryDeletedSnackbar": "Евиденцијата за земање лек е поништена",
   "undo": "Врати",
-  "medicationHistoryReverted": "Откажување на записот за земање лек",
+  "medicationHistoryReverted": "Записот за земање лек е откажан",
   "revertedTime": "Време на откажување",
   "revertedByMember": "Откажано од {name}",
   "medicationTakenAtLabel": "Земено во {time}",

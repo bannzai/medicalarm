@@ -176,7 +176,7 @@
   "medicinePausedSnackbar": "Indtagelse af medicinen er midlertidigt sat på pause",
   "medicationHistoryDeletedSnackbar": "Registreringen af medicinindtagelsen er annulleret",
   "undo": "Fortryd",
-  "medicationHistoryReverted": "Annullering af medicinregistrering",
+  "medicationHistoryReverted": "Medicinregistrering fortrudt",
   "revertedTime": "Annulleringstid",
   "revertedByMember": "Annulleret af {name}",
   "medicationTakenAtLabel": "Taget kl. {time}",

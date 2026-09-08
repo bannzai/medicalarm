@@ -176,7 +176,7 @@
   "medicinePausedSnackbar": "Medication intake has been temporarily paused",
   "medicationHistoryDeletedSnackbar": "Medication record undone",
   "undo": "Undo",
-  "medicationHistoryReverted": "Medication record canceled",
+  "medicationHistoryReverted": "Medication record reverted",
   "revertedTime": "Canceled at",
   "revertedByMember": "Canceled by {name}",
   "medicationTakenAtLabel": "Taken at {time}",

@@ -176,7 +176,7 @@
   "medicinePausedSnackbar": "Η λήψη του φαρμάκου διακόπηκε προσωρινά",
   "medicationHistoryDeletedSnackbar": "Η καταγραφή λήψης του φαρμάκου αναιρέθηκε",
   "undo": "Αναίρεση",
-  "medicationHistoryReverted": "Αναίρεση καταγραφής λήψης φαρμάκου",
+  "medicationHistoryReverted": "Η καταγραφή λήψης φαρμάκου αναιρέθηκε",
   "revertedTime": "Ώρα ακύρωσης",
   "revertedByMember": "Ακύρωση από: {name}",
   "medicationTakenAtLabel": "Λήφθηκε στις {time}",

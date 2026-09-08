@@ -176,7 +176,7 @@
   "medicinePausedSnackbar": "Medisininntaket er midlertidig satt på pause",
   "medicationHistoryDeletedSnackbar": "Registreringen av medisininntak er angret",
   "undo": "Angre",
-  "medicationHistoryReverted": "Angre medisinregistrering",
+  "medicationHistoryReverted": "Medisinregistrering angret",
   "revertedTime": "Kanselleringstid",
   "revertedByMember": "Kansellert av {name}",
   "medicationTakenAtLabel": "Tatt kl. {time}",

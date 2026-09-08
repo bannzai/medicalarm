@@ -176,7 +176,7 @@
   "medicinePausedSnackbar": "Дәріні қабылдау уақытша тоқтатылды",
   "medicationHistoryDeletedSnackbar": "Дәрі қабылдау жазбасы қайтарылды",
   "undo": "Болдырмау",
-  "medicationHistoryReverted": "Дәрі қабылдау жазбасын болдырмау",
+  "medicationHistoryReverted": "Дәрі қабылдау жазбасы қайтарылды",
   "revertedTime": "Болдырмау уақыты",
   "revertedByMember": "{name} күшін жойды",
   "medicationTakenAtLabel": "{time} қабылданды",

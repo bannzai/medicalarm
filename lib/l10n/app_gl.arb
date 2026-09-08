@@ -176,7 +176,7 @@
   "medicinePausedSnackbar": "A toma do medicamento pausouse temporalmente",
   "medicationHistoryDeletedSnackbar": "Desfíxose o rexistro da toma do medicamento",
   "undo": "Desfacer",
-  "medicationHistoryReverted": "Rexistro da toma de medicación cancelado",
+  "medicationHistoryReverted": "Rexistro de medicación revertido",
   "revertedTime": "Hora de cancelación",
   "revertedByMember": "Cancelado por {name}",
   "medicationTakenAtLabel": "Tomado ás {time}",

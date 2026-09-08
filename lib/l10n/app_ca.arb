@@ -176,7 +176,7 @@
   "medicinePausedSnackbar": "La presa del medicament s’ha pausat temporalment",
   "medicationHistoryDeletedSnackbar": "S’ha desfet el registre de presa del medicament",
   "undo": "Desfer",
-  "medicationHistoryReverted": "Cancel·lació del registre de presa de medicació",
+  "medicationHistoryReverted": "Registre de medicació revertit",
   "revertedTime": "Hora de cancel·lació",
   "revertedByMember": "Cancel·lat per {name}",
   "medicationTakenAtLabel": "Pres a les {time}",

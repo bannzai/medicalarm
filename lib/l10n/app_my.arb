@@ -176,7 +176,7 @@
   "medicinePausedSnackbar": "ဆေးသောက်ခြင်းကို ယာယီရပ်နားထားသည်",
   "medicationHistoryDeletedSnackbar": "ဆေးသောက်မှတ်တမ်းကို ပြန်လည်ပယ်ဖျက်လိုက်သည်",
   "undo": "ပြန်ဖြုတ်ရန်",
-  "medicationHistoryReverted": "ဆေးသောက်မှတ်တမ်းကို ပယ်ဖျက်ခြင်း",
+  "medicationHistoryReverted": "ဆေးသောက်မှတ်တမ်းကို ပြန်လည်ရုပ်သိမ်းခဲ့သည်",
   "revertedTime": "ပယ်ဖျက်သည့်အချိန်",
   "revertedByMember": "{name} က ပယ်ဖျက်ခဲ့သည်",
   "medicationTakenAtLabel": "{time} တွင် သောက်ပြီး",

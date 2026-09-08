@@ -176,7 +176,7 @@
   "medicinePausedSnackbar": "የመድኃኒቱ አጠቃቀም ለጊዜው ቆሟል",
   "medicationHistoryDeletedSnackbar": "የመድኃኒት መውሰድ መዝገብ ተሰርዟል",
   "undo": "ይቅር በል",
-  "medicationHistoryReverted": "የመድሃኒት መውሰድ መዝገብ ስረዛ",
+  "medicationHistoryReverted": "የመድሃኒት መዝገብ ተሰርዟል",
   "revertedTime": "የመሰረዣ ጊዜ",
   "revertedByMember": "{name} ሰርዘዋል",
   "medicationTakenAtLabel": "በ{time} ተወስዷል",

@@ -176,7 +176,7 @@
   "medicinePausedSnackbar": "مصرف دارو موقتاً متوقف شد",
   "medicationHistoryDeletedSnackbar": "ثبت مصرف دارو لغو شد",
   "undo": "واگردانی",
-  "medicationHistoryReverted": "لغو ثبت مصرف دارو",
+  "medicationHistoryReverted": "ثبت مصرف دارو لغو شد",
   "revertedTime": "زمان لغو",
   "revertedByMember": "{name} لغو کرد",
   "medicationTakenAtLabel": "در {time} مصرف شد",

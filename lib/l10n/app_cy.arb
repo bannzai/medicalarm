@@ -176,7 +176,7 @@
   "medicinePausedSnackbar": "Mae cymryd y feddyginiaeth wedi’i oedi dros dro",
   "medicationHistoryDeletedSnackbar": "Mae’r cofnod cymryd meddyginiaeth wedi’i ddadwneud",
   "undo": "Dadwneud",
-  "medicationHistoryReverted": "Canslo cofnod cymryd meddyginiaeth",
+  "medicationHistoryReverted": "Cofnod meddyginiaeth wedi’i ddadwneud",
   "revertedTime": "Amser canslo",
   "revertedByMember": "Wedi’i ganslo gan {name}",
   "medicationTakenAtLabel": "Wedi’i gymryd am {time}",

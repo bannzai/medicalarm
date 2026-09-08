@@ -176,7 +176,7 @@
   "medicinePausedSnackbar": "മരുന്ന് കഴിക്കുന്നത് താൽക്കാലികമായി നിർത്തിവച്ചു",
   "medicationHistoryDeletedSnackbar": "മരുന്ന് കഴിച്ചതിന്റെ രേഖ റദ്ദാക്കി",
   "undo": "പഴയപടിയാക്കുക",
-  "medicationHistoryReverted": "മരുന്ന് കഴിച്ചതിന്റെ രേഖ റദ്ദാക്കൽ",
+  "medicationHistoryReverted": "മരുന്ന് കഴിച്ചതിന്റെ രേഖ റദ്ദാക്കി",
   "revertedTime": "റദ്ദാക്കിയ സമയം",
   "revertedByMember": "{name} റദ്ദാക്കി",
   "medicationTakenAtLabel": "{time}-ന് കഴിച്ചു",
