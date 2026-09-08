@@ -26,7 +26,7 @@
   "premiumRegistrationThanks": "Paldies, ka reģistrējāties.\nTagad varat izmantot visas funkcijas!",
   "unknownError": "Radās nezināma kļūda",
   "error": "Radās kļūda",
-  "unexpectedError": "Notika par negaidītu kļūdu ir radusies.",
+  "unexpectedError": "Radās neparedzēta kļūda",
   "cancel": "Atcelt",
   "delete": "Izdzēst",
   "deleteAccount": "Dzēst kontu",

@@ -26,7 +26,7 @@
   "premiumRegistrationThanks": "ስለተመዘገቡ እናመሰግናለን።\nአሁን ሁሉንም ባህሪያት መጠቀም ይችላሉ!",
   "unknownError": "ያልታወቀ ስህተት ተከስቷል",
   "error": "ስህተት ተከስቷል",
-  "unexpectedError": "በጥይት የማይሰጥ አደጋ ተከስቷል",
+  "unexpectedError": "ያልተጠበቀ ስህተት ተከስቷል",
   "cancel": "ይዝው ለመግዛት ይዝየውም",
   "delete": "ይዘው ይሰርዙ",
   "deleteAccount": "አካውንት ማጥፋት",
