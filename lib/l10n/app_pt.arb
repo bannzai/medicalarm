@@ -86,7 +86,7 @@
   "writeDiary": "Escrever um diário",
   "editDiaryTooltip": "Editar diário",
   "medicineRegistrationLimit": "Número de medicamentos registados",
-  "doseReceiverRegistrationLimit": "Número de pacientes registrados",
+  "doseReceiverRegistrationLimit": "o número de pessoas registadas que tomam medicação",
   "notificationScheduleLimit": "Número de programações de notificações",
   "addMedicine": "Adicionar medicamento",
   "medicineMaxCount": "Você pode registrar até {count} medicamentos.",

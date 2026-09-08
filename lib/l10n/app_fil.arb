@@ -86,7 +86,7 @@
   "writeDiary": "Sumulat ng diary",
   "editDiaryTooltip": "I-edit ang talaarawan",
   "medicineRegistrationLimit": "Bilang ng mga nakarehistrong gamot",
-  "doseReceiverRegistrationLimit": "Bilang ng naitalang gumagamit",
+  "doseReceiverRegistrationLimit": "bilang ng mga rehistradong umiinom ng gamot",
   "notificationScheduleLimit": "Bilang ng mga iskedyul ng abiso",
   "addMedicine": "Magdagdag ng gamot",
   "medicineMaxCount": "Maaari kang magrehistro ng hanggang {count} na gamot.",

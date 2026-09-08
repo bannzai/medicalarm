@@ -86,7 +86,7 @@
   "writeDiary": "दैनंदिनी लिहा",
   "editDiaryTooltip": "डायरी संपादित करा",
   "medicineRegistrationLimit": "नोंदणीकृत औषधांची संख्या",
-  "doseReceiverRegistrationLimit": "उपयोगकर्त्यांची नोंदणी संख्या",
+  "doseReceiverRegistrationLimit": "नोंदणीकृत औषध घेणाऱ्या व्यक्तींची संख्या",
   "notificationScheduleLimit": "सूचनेच्या वेळापत्रकांची संख्या",
   "addMedicine": "औषधि जोडा",
   "medicineMaxCount": "आपण {count} औषधे नोंदवू शकता.",

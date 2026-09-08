@@ -86,7 +86,7 @@
   "writeDiary": "Rašyti dienoraštį",
   "editDiaryTooltip": "Redaguoti dienoraštį",
   "medicineRegistrationLimit": "Užregistruotų vaistų skaičius",
-  "doseReceiverRegistrationLimit": "Vaistų vartotojų registracijos skaičius",
+  "doseReceiverRegistrationLimit": "užregistruotų vaistus vartojančių asmenų skaičius",
   "notificationScheduleLimit": "pranešimų tvarkaraščio skaičius",
   "addMedicine": "Pridėti vaistus",
   "medicineMaxCount": "Galite užregistruoti iki {count} vaistų.",

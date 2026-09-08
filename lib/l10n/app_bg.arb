@@ -86,7 +86,7 @@
   "writeDiary": "Напишете дневник",
   "editDiaryTooltip": "Редактиране на дневника",
   "medicineRegistrationLimit": "Брой регистрирани лекарства",
-  "doseReceiverRegistrationLimit": "Брой регистрирани потребители",
+  "doseReceiverRegistrationLimit": "броят на регистрираните приемащи лекарства",
   "notificationScheduleLimit": "броя на известията за графика",
   "addMedicine": "Добавете лекарство",
   "medicineMaxCount": "Можете да регистрирате до {count} лекарства.",

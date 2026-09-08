@@ -86,7 +86,7 @@
   "writeDiary": "Ysgrifennu dyddiadur",
   "editDiaryTooltip": "Golygu dyddiadur",
   "medicineRegistrationLimit": "Nifer y meddyginiaethau sydd wedi’u cofrestru",
-  "doseReceiverRegistrationLimit": "y nifer o gofrestriadau defnyddwyr",
+  "doseReceiverRegistrationLimit": "nifer y bobl gofrestredig sy’n cymryd meddyginiaeth",
   "notificationScheduleLimit": "y nifer o amserlenni hysbysiadau",
   "addMedicine": "Ychwanegu meddyginiaeth",
   "medicineMaxCount": "Gallwch gofrestru hyd at {count} o feddyginiaethau.",

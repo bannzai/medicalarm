@@ -86,7 +86,7 @@
   "writeDiary": "ຂຽນບັນທຶກປະຈຳວັນ",
   "editDiaryTooltip": "ແກ້ໄຂບັນທຶກປະຈຳວັນ",
   "medicineRegistrationLimit": "ຈຳນວນຢາທີ່ລົງທະບຽນ",
-  "doseReceiverRegistrationLimit": "ຈຳນວນສະຖານທີ່ບັດທັບສົງສູງ ສໍາລັບຜູ້ຮັບສິນໃບຄົນຕ່າງໆ",
+  "doseReceiverRegistrationLimit": "ຈຳນວນຜູ້ທີ່ລົງທະບຽນແລະໃຊ້ຢາ",
   "notificationScheduleLimit": "ຈຳນວນຕາຕິດໃຫ້ດັດແດນຕົວແລະຈັດການແບບທຸກສິ່ງລາວສູງສິຄືບຫຍໍ່ອຸດສາຫະກິດ ଗ",
   "addMedicine": "ເພີ່ມຢາ",
   "medicineMaxCount": "ຍາໃສ່ໄດ້ແຕ່ {count} ຊິ່ນ.",

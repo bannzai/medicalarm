@@ -86,7 +86,7 @@
   "writeDiary": "ডায়েৰী লিখক",
   "editDiaryTooltip": "ডায়েৰী সম্পাদনা কৰক",
   "medicineRegistrationLimit": "পঞ্জীয়ন কৰা ঔষধৰ সংখ্যা",
-  "doseReceiverRegistrationLimit": "ওষুধ গ্রহণকারীদের নিবন্ধনের সংখ্যা",
+  "doseReceiverRegistrationLimit": "পঞ্জীয়ন কৰা ঔষধ সেৱনকাৰীৰ সংখ্যা",
   "notificationScheduleLimit": "নোটিফিকেশন নিয়মের সংখ্যা",
   "addMedicine": "ঔষধ যোগ করুন",
   "medicineMaxCount": "আপনার ঔষধ {count} টি পর্যন্ত নিবন্ধন করতে পারেন।",

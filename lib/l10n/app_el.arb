@@ -86,7 +86,7 @@
   "writeDiary": "Γράψτε ημερολόγιο",
   "editDiaryTooltip": "Επεξεργασία ημερολογίου",
   "medicineRegistrationLimit": "Αριθμός καταχωρισμένων φαρμάκων",
-  "doseReceiverRegistrationLimit": "Ο αριθμός των εγγεγραμμένων χρηστών",
+  "doseReceiverRegistrationLimit": "ο αριθμός των εγγεγραμμένων ατόμων που λαμβάνουν φάρμακα",
   "notificationScheduleLimit": "Πλήθος προγραμματισμένων ειδοποιήσεων",
   "addMedicine": "Προσθήκη φαρμάκου",
   "medicineMaxCount": "Μπορείτε να καταχωρήσετε έως {count} φάρμακα.",

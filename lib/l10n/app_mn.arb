@@ -86,7 +86,7 @@
   "writeDiary": "Өдрийн тэмдэглэл бичих",
   "editDiaryTooltip": "Өдрийн тэмдэглэл засах",
   "medicineRegistrationLimit": "Бүртгэгдсэн эмийн тоо",
-  "doseReceiverRegistrationLimit": "Эмчлүүлэгчдийн бүртгэлд зарим тохиолдолд гарч болох дээд хязгаар",
+  "doseReceiverRegistrationLimit": "бүртгэлтэй эм хэрэглэгчдийн тоо",
   "notificationScheduleLimit": "Мэдэгдлийн хуваарь тоо",
   "addMedicine": "Эмчилгээ нэмэх",
   "medicineMaxCount": "Таны эмийг {count} хүртэл бүртгэж болно.",

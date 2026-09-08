@@ -86,7 +86,7 @@
   "writeDiary": "اكتب يومياتك",
   "editDiaryTooltip": "تعديل اليوميات",
   "medicineRegistrationLimit": "عدد الأدوية المسجّلة",
-  "doseReceiverRegistrationLimit": "عدد مستخدمي الأدوية المسجلين",
+  "doseReceiverRegistrationLimit": "عدد الأشخاص المسجلين الذين يتناولون الأدوية",
   "notificationScheduleLimit": "عدد جداول الإشعارات",
   "addMedicine": "إضافة دواء",
   "medicineMaxCount": "يمكنك تسجيل حتى {count} دواء.",

@@ -86,7 +86,7 @@
   "writeDiary": "Skrifa dagbók",
   "editDiaryTooltip": "Breyta dagbók",
   "medicineRegistrationLimit": "Fjöldi skráðra lyfja",
-  "doseReceiverRegistrationLimit": "Fjöldi skráðra notenda",
+  "doseReceiverRegistrationLimit": "fjöldi skráðra einstaklinga sem taka lyf",
   "notificationScheduleLimit": "fjöldi tilkynningaskipulags",
   "addMedicine": "Bæta við lyf",
   "medicineMaxCount": "Þú getur skráð allt að {count} lyf.",

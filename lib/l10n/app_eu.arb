@@ -86,7 +86,7 @@
   "writeDiary": "Idatzi egunkaria",
   "editDiaryTooltip": "Editatu egunkaria",
   "medicineRegistrationLimit": "Erregistratutako sendagaien kopurua",
-  "doseReceiverRegistrationLimit": "Hartzearen erregistro kopurua",
+  "doseReceiverRegistrationLimit": "erregistratutako botikak hartzen dituzten pertsonen kopurua",
   "notificationScheduleLimit": "Jakosten iragarkien kopurua",
   "addMedicine": "Sendaga gehitu",
   "medicineMaxCount": "Medikamentuak {count} arte erregistratu daitezke.",

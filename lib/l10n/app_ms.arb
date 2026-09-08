@@ -86,7 +86,7 @@
   "writeDiary": "Tulis diari",
   "editDiaryTooltip": "Edit diari",
   "medicineRegistrationLimit": "Bilangan ubat yang didaftarkan",
-  "doseReceiverRegistrationLimit": "Bilangan pendaftar pengambil ubat",
+  "doseReceiverRegistrationLimit": "bilangan individu berdaftar yang mengambil ubat",
   "notificationScheduleLimit": "Bilangan jadual pemberitahuan",
   "addMedicine": "Tambah Ubat",
   "medicineMaxCount": "Anda boleh mendaftar sehingga {count} ubat.",

@@ -86,7 +86,7 @@
   "writeDiary": "Օրագիր գրել",
   "editDiaryTooltip": "Օրագիրը խմբագրել",
   "medicineRegistrationLimit": "የተመዘገቡ መድኃኒቶች ብዛት",
-  "doseReceiverRegistrationLimit": "ተይዞ የተመዘገበ ጥቅም ተጠቃሚዎች ብዛት",
+  "doseReceiverRegistrationLimit": "የተመዘገቡ መድኃኒት ተጠቃሚዎች ብዛት",
   "notificationScheduleLimit": "የማሳያ ጊዜ በብዛት",
   "addMedicine": "የመድኃኒት ዝርዝር ወይም ከታሪክ ማዕከል ወይም ከታሪክ የመድኃኒት ምርጥ እቅድ ይመርጡ።",
   "medicineMaxCount": "እባብ {count} ወቅታት ማስመዘግብ ይቻላል።",

@@ -86,7 +86,7 @@
   "writeDiary": "დღიურის დაწერა",
   "editDiaryTooltip": "დღიურის რედაქტირება",
   "medicineRegistrationLimit": "რეგისტრირებული მედიკამენტების რაოდენობა",
-  "doseReceiverRegistrationLimit": "წამლებს მომხმარებლების რეგისტრირებულ რაოდენობას",
+  "doseReceiverRegistrationLimit": "დარეგისტრირებული მედიკამენტების მიმღები პირების რაოდენობა",
   "notificationScheduleLimit": "შეტყობინების განრიგის რაოდენობა",
   "addMedicine": "საშუალების დამატება",
   "medicineMaxCount": "წ薬ები შეგიძლიათ რეგისტრირდეთ {count} ცალამდე.",

@@ -86,7 +86,7 @@
   "writeDiary": "డైరీ రాయండి",
   "editDiaryTooltip": "డైరీని సవరించండి",
   "medicineRegistrationLimit": "నమోదు చేసిన మందుల సంఖ్య",
-  "doseReceiverRegistrationLimit": "వ్యవసాయ దివంగతుల నమోదుకు గరిష్ట సంఖ్య",
+  "doseReceiverRegistrationLimit": "నమోదైన మందులు తీసుకునే వ్యక్తుల సంఖ్య",
   "notificationScheduleLimit": "నోటిఫికేషన్ షెడ్యూల్ సంఖ్య",
   "addMedicine": "మందు జోడించు",
   "medicineMaxCount": "మీరు {count} మందులు నమోదుచేయవచ్చు.",

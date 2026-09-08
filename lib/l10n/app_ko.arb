@@ -86,7 +86,7 @@
   "writeDiary": "일기 쓰기",
   "editDiaryTooltip": "일기 편집",
   "medicineRegistrationLimit": "등록된 약 개수",
-  "doseReceiverRegistrationLimit": "복용자 등록 수",
+  "doseReceiverRegistrationLimit": "등록된 복약 대상자 수",
   "notificationScheduleLimit": "알림 일정 수",
   "addMedicine": "약 추가",
   "medicineMaxCount": "약은 {count}개까지 등록할 수 있습니다.",

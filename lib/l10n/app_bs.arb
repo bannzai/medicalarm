@@ -86,7 +86,7 @@
   "writeDiary": "Napišite dnevnik",
   "editDiaryTooltip": "Uredi dnevnik",
   "medicineRegistrationLimit": "Broj registrovanih lijekova",
-  "doseReceiverRegistrationLimit": "Registracija korisnika za uzimanje lijekova",
+  "doseReceiverRegistrationLimit": "broj registrovanih osoba koje uzimaju lijekove",
   "notificationScheduleLimit": "Broj zakazanih obavijesti je",
   "addMedicine": "Dodaj lijek",
   "medicineMaxCount": "Možete registrovati do {count} lijekova.",

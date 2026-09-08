@@ -86,7 +86,7 @@
   "writeDiary": "Tulis jurnal",
   "editDiaryTooltip": "Edit jurnal",
   "medicineRegistrationLimit": "Jumlah obat yang terdaftar",
-  "doseReceiverRegistrationLimit": "Jumlah pendaftar pengguna",
+  "doseReceiverRegistrationLimit": "jumlah orang yang terdaftar dan mengonsumsi obat",
   "notificationScheduleLimit": "Jumlah jadwal notifikasi",
   "addMedicine": "Tambah Obat",
   "medicineMaxCount": "Anda dapat mendaftar hingga {count} obat.",

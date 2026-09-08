@@ -86,7 +86,7 @@
   "writeDiary": "نوشتن یادداشت روزانه",
   "editDiaryTooltip": "ویرایش دفترچه خاطرات",
   "medicineRegistrationLimit": "تعداد داروهای ثبت‌شده",
-  "doseReceiverRegistrationLimit": "تعداد ثبت نام کنندگان دارو",
+  "doseReceiverRegistrationLimit": "تعداد افراد ثبت‌شده‌ای که دارو مصرف می‌کنند",
   "notificationScheduleLimit": "تعداد برنامه‌ریزی‌های اعلان",
   "addMedicine": "اضافه کردن دارو",
   "medicineMaxCount": "شما می‌توانید حداکثر {count} دارو ثبت کنید.",

@@ -86,7 +86,7 @@
   "writeDiary": "Напісаць дзённік",
   "editDiaryTooltip": "Рэдагаваць дзённік",
   "medicineRegistrationLimit": "Колькасць зарэгістраваных лекаў",
-  "doseReceiverRegistrationLimit": "Колькасць зарэгістраваных пацыентаў",
+  "doseReceiverRegistrationLimit": "колькасць зарэгістраваных асоб, якія прымаюць лекі",
   "notificationScheduleLimit": "Колькасць раскладаў паведамленняў",
   "addMedicine": "Дадаць лекавы сродак",
   "medicineMaxCount": "Вы можаце зарэгістравацца да {count} прэпаратаў.",
