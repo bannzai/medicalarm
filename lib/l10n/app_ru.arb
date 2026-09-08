@@ -234,7 +234,7 @@
   "achievementWeeklyLabel": "Приём лекарств на этой неделе",
   "achievementWeeklyCountSuffix": "/{scheduledCount} раз",
   "achievementStreakLabel": "Серия",
-  "achievementStreakDaysSuffix": "дн.",
+  "achievementStreakDaysSuffix": "дней",
   "achievementMonthlyRateLabel": "Показатель выполнения за {month}",
   "achievementLegendAllTaken": "Все",
   "achievementLegendPartiallyTaken": "Некоторые",

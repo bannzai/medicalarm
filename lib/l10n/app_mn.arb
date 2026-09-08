@@ -234,7 +234,7 @@
   "achievementWeeklyLabel": "Энэ долоо хоногийн эм уусан байдал",
   "achievementWeeklyCountSuffix": "/{scheduledCount} удаа",
   "achievementStreakLabel": "Дараалсан",
-  "achievementStreakDaysSuffix": "хоног",
+  "achievementStreakDaysSuffix": "өдөр",
   "achievementMonthlyRateLabel": "{month}-ын биелэлтийн хувь",
   "achievementLegendAllTaken": "Бүгд",
   "achievementLegendPartiallyTaken": "Зарим",

@@ -234,7 +234,7 @@
   "achievementWeeklyLabel": "Užívání léků tento týden",
   "achievementWeeklyCountSuffix": "/{scheduledCount}krát",
   "achievementStreakLabel": "Série",
-  "achievementStreakDaysSuffix": "dní",
+  "achievementStreakDaysSuffix": "dny",
   "achievementMonthlyRateLabel": "Míra splnění za {month}",
   "achievementLegendAllTaken": "Vše",
   "achievementLegendPartiallyTaken": "Některé",

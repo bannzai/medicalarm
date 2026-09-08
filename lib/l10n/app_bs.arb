@@ -234,7 +234,7 @@
   "achievementWeeklyLabel": "Uzimanje lijekova ove sedmice",
   "achievementWeeklyCountSuffix": "/{scheduledCount} puta",
   "achievementStreakLabel": "Uzastopni niz",
-  "achievementStreakDaysSuffix": "dan",
+  "achievementStreakDaysSuffix": "dana",
   "achievementMonthlyRateLabel": "Stopa ostvarenja za {month}",
   "achievementLegendAllTaken": "Sve",
   "achievementLegendPartiallyTaken": "Djelimično",
