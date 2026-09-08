@@ -35,7 +35,7 @@
   "medicationFrequency": "Kekerapan pengambilan ubat",
   "daily": "Setiap hari",
   "everyXDays": "Setiap X hari",
-  "specificWeekdays": "Hari tertentu",
+  "specificWeekdays": "Hari tertentu dalam minggu",
   "cycle": "Kekerapan",
   "cycleDescription": "contoh) Pengambilan pada hari ke-21 / berehat pada hari ke-7",
   "everyXDaysDescription": "Setiap hari",

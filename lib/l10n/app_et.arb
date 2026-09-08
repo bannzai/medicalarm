@@ -35,7 +35,7 @@
   "medicationFrequency": "Ravimi võtmise sagedus",
   "daily": "Iga päev",
   "everyXDays": "Iga X päeva järel",
-  "specificWeekdays": "Teatud nädalapäev",
+  "specificWeekdays": "Kindlad nädalapäevad",
   "cycle": "tsükkel",
   "cycleDescription": "21. päev ravim / 7. päev paus",
   "everyXDaysDescription": "näiteks iga kahe päeva tagant, iga kolme päeva tagant",

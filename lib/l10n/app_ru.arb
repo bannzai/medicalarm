@@ -35,7 +35,7 @@
   "medicationFrequency": "Частота приёма лекарства",
   "daily": "Ежедневно",
   "everyXDays": "Каждые X дней",
-  "specificWeekdays": "Определённый день недели",
+  "specificWeekdays": "Определённые дни недели",
   "cycle": "Цикл",
   "cycleDescription": "Пример) Принять 21 дня/7 дней перерыва",
   "everyXDaysDescription": "Каждые 2 дня, каждые 3 дня",

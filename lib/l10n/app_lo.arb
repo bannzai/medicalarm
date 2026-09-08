@@ -35,7 +35,7 @@
   "medicationFrequency": "ຄວາມຖີ່ໃນການກິນຢາ",
   "daily": "ທຸກມື້",
   "everyXDays": "ທຸກໆ X ມື້",
-  "specificWeekdays": "ວັນທີ່ຈິງ ສໍາລັບການຕັ້ງໃຈສໍາລັບການຮັບບຳລຸງ",
+  "specificWeekdays": "ວັນໃນອາທິດທີ່ກຳນົດ",
   "cycle": "ວົງຈອນ",
   "cycleDescription": "ຕົວຢ່າງ) 21 ມື້ ສ່ອນສະແດງ/7 ມື້ ພັກໃຈ",
   "everyXDaysDescription": "ຕົວຢ່າງ) ທຸກ 2 ມື້, ທຸກ 3 ມື້",

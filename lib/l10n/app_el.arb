@@ -35,7 +35,7 @@
   "medicationFrequency": "Συχνότητα λήψης φαρμάκου",
   "daily": "Καθημερινά",
   "everyXDays": "Κάθε X ημέρες",
-  "specificWeekdays": "Συγκεκριμένες ημέρες",
+  "specificWeekdays": "Συγκεκριμένες ημέρες της εβδομάδας",
   "cycle": "κύκλος",
   "cycleDescription": "Παράδειγμα) 21η ημέρα λήψης/7η ημέρα διακοπής",
   "everyXDaysDescription": "κάθε 2 ημέρες, κάθε 3 ημέρες",

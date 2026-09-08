@@ -35,7 +35,7 @@
   "medicationFrequency": "Tần suất dùng thuốc",
   "daily": "Hằng ngày",
   "everyXDays": "Mỗi X ngày",
-  "specificWeekdays": "ngày cụ thể",
+  "specificWeekdays": "Các ngày cụ thể trong tuần",
   "cycle": "Chu kỳ",
   "cycleDescription": "Ví dụ) Uống vào ngày 21/ Nghỉ thuốc 7 ngày",
   "everyXDaysDescription": "Ví dụ) Mỗi 2 ngày, mỗi 3 ngày",

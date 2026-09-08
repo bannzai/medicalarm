@@ -35,7 +35,7 @@
   "medicationFrequency": "Учестеност на земање лекови",
   "daily": "Секој ден",
   "everyXDays": "На секои X дена",
-  "specificWeekdays": "одреден ден во неделата",
+  "specificWeekdays": "Одредени денови во неделата",
   "cycle": "Цикл",
   "cycleDescription": "Пример) 21 дена земање/7 дена пауза",
   "everyXDaysDescription": "на секој ден",

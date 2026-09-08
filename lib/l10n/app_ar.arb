@@ -35,7 +35,7 @@
   "medicationFrequency": "وتيرة تناول الدواء",
   "daily": "يوميًا",
   "everyXDays": "كل X أيام",
-  "specificWeekdays": "أيام معينة",
+  "specificWeekdays": "أيام محددة من الأسبوع",
   "cycle": "دورة",
   "cycleDescription": "مثال) 21 يوم تناول الدواء / 7 أيام توقف عن تناول الدواء",
   "everyXDaysDescription": "مثال) كل يومين، كل ثلاثة أيام",

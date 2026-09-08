@@ -35,7 +35,7 @@
   "medicationFrequency": "Läkemedelsfrekvens",
   "daily": "Dagligen",
   "everyXDays": "Var X:e dag",
-  "specificWeekdays": "Specifika dagar",
+  "specificWeekdays": "Specifika veckodagar",
   "cycle": "Cykel",
   "cycleDescription": "Exempel) 21 dagars dosering / 7 dagars paus",
   "everyXDaysDescription": "Varannan dag, Var tredje dag",

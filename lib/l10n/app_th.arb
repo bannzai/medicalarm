@@ -35,7 +35,7 @@
   "medicationFrequency": "ความถี่ในการรับประทานยา",
   "daily": "ทุกวัน",
   "everyXDays": "ทุก X วัน",
-  "specificWeekdays": "วันเฉพาะ",
+  "specificWeekdays": "วันในสัปดาห์ที่กำหนด",
   "cycle": "รอบ",
   "cycleDescription": "21 วันใช้ยา/7 วันหยุดใช้ยา",
   "everyXDaysDescription": "ทุก 2 วัน, ทุก 3 วัน",

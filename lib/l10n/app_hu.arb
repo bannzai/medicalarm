@@ -35,7 +35,7 @@
   "medicationFrequency": "Gyógyszerbevétel gyakorisága",
   "daily": "Naponta",
   "everyXDays": "X naponta",
-  "specificWeekdays": "heti napok",
+  "specificWeekdays": "A hét meghatározott napjai",
   "cycle": "Ciklus",
   "cycleDescription": "példa) 21 nap szedés/7 nap szünet",
   "everyXDaysDescription": "például 2 naponta, 3 naponta",

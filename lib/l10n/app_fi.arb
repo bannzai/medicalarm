@@ -35,7 +35,7 @@
   "medicationFrequency": "Lääkkeen ottotiheys",
   "daily": "Päivittäin",
   "everyXDays": "X päivän välein",
-  "specificWeekdays": "Tietty viikonpäivä",
+  "specificWeekdays": "Tietyt viikonpäivät",
   "cycle": "jakso",
   "cycleDescription": "Esimerkki) 21 päivän käyttö/7 päivän tauko",
   "everyXDaysDescription": "Esimerkki) 2 päivän välein, 3 päivän välein",

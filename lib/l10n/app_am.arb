@@ -35,7 +35,7 @@
   "medicationFrequency": "የመድኃኒት አወሳሰድ ድግግሞሽ",
   "daily": "በየቀኑ",
   "everyXDays": "በየ X ቀኑ",
-  "specificWeekdays": "ጠቅላላ ቀን",
+  "specificWeekdays": "የተወሰኑ የሳምንቱ ቀናት",
   "cycle": "ጊዜ",
   "cycleDescription": "21ኛ ቀን መጠጣት/7ኛ ቀን አንቀሳቅስ",
   "everyXDaysDescription": "ምሳሌ) በ2 ቀን እና በ3 ቀን",

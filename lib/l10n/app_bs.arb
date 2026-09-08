@@ -35,7 +35,7 @@
   "medicationFrequency": "Učestalost uzimanja lijeka",
   "daily": "Svakog dana",
   "everyXDays": "Svakih X dana",
-  "specificWeekdays": "Posebni dani",
+  "specificWeekdays": "Određeni dani u sedmici",
   "cycle": "Period",
   "cycleDescription": "Primjer) 21 dana uzimanja/7 dana pauze",
   "everyXDaysDescription": "svakih 2 dana, svakih 3 dana",

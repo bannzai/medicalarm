@@ -35,7 +35,7 @@
   "medicationFrequency": "Frecuencia de toma del medicamento",
   "daily": "Diariamente",
   "everyXDays": "Cada X días",
-  "specificWeekdays": "Día específico",
+  "specificWeekdays": "Días específicos de la semana",
   "cycle": "Ciclo",
   "cycleDescription": "Ejemplo) Toma el día 21 / 7 días de descanso",
   "everyXDaysDescription": "Ej) cada 2 días, cada 3 días",

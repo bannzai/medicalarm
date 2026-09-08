@@ -35,7 +35,7 @@
   "medicationFrequency": "Medication frequency",
   "daily": "Daily",
   "everyXDays": "Every X days",
-  "specificWeekdays": "Specific day of the week",
+  "specificWeekdays": "Specific weekdays",
   "cycle": "Cycle",
   "cycleDescription": "e.g.) Take on the 21st / 7 days break",
   "everyXDaysDescription": "every 2 days, every 3 days",

@@ -35,7 +35,7 @@
   "medicationFrequency": "תדירות נטילת התרופה",
   "daily": "מדי יום",
   "everyXDays": "כל X ימים",
-  "specificWeekdays": "יום ספציפי",
+  "specificWeekdays": "ימים מסוימים בשבוע",
   "cycle": "מחזור",
   "cycleDescription": "דוגמה) 21 ימים של נטילה/7 ימי הפסקה",
   "everyXDaysDescription": "למשל) כל יומיים, כל שלושה ימים",

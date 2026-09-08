@@ -35,7 +35,7 @@
   "medicationFrequency": "Учесталост узимања лека",
   "daily": "Сваког дана",
   "everyXDays": "На сваких X дана",
-  "specificWeekdays": "Одређени дан у недељи",
+  "specificWeekdays": "Одређени дани у недељи",
   "cycle": "Цикл",
   "cycleDescription": "例) 21. dan uzimanje/7. dan pauza",
   "everyXDaysDescription": "Svaki drugi dan, Svaki treći dan",

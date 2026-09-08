@@ -35,7 +35,7 @@
   "medicationFrequency": "Частота прийому ліків",
   "daily": "Щодня",
   "everyXDays": "Кожні X днів",
-  "specificWeekdays": "Specific day of the week",
+  "specificWeekdays": "Певні дні тижня",
   "cycle": "Cycle",
   "cycleDescription": "Example) 21 days taking/7 days off medication",
   "everyXDaysDescription": "e.g. every 2 days, every 3 days",
