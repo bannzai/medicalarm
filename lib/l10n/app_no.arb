@@ -130,7 +130,7 @@
   "premiumCancelDescription": "・Etter kjøpet kan du avslutte automatisk fornyelse i kontoinnstillingene i {storeName}-appen. (Automatisk fornyelse kan ikke avsluttes fra selve appen.)",
   "purchaseErrorRestoreFailed": "Informasjon om tidligere kjøp ble ikke funnet. Sjekk kontoen din og prøv igjen",
   "purchaseErrorUserNotFound": "Brukeren kunne ikke bekreftes. Start appen på nytt og prøv igjen. Detaljer: {message}",
-  "purchaseErrorActivationPending": "Aktiveringen av betalingen er ikke fullført. Vennligst sjekk igjen etter en stund.",
+  "purchaseErrorActivationPending": "Aktiveringen av abonnementet er ikke fullført. Sjekk igjen senere.",
   "purchaseErrorTimeout": "Tiden er ute. Vennligst sjekk kommunikasjonsmiljøet ditt og prøv igjen. Hvis det ikke løser seg, vennligst kontakt oss via Innstillinger > Spørsmål. Detaljer: {message}",
   "purchaseErrorNetworkError": "Det er et nettverksproblem. Vennligst sjekk nettverksforholdene dine og prøv igjen. Hvis problemet vedvarer, vennligst kontakt oss via Innstillinger > Forespørsel. Detaljer: {message}",
   "sixMonthPlan": "6 måneders plan",

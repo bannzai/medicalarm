@@ -130,7 +130,7 @@
   "premiumCancelDescription": "・Satın aldıktan sonra otomatik yenilemeyi {storeName} uygulamasının hesap ayarlarından iptal edebilirsiniz. (Otomatik yenileme uygulamanın içinden iptal edilemez.)",
   "purchaseErrorRestoreFailed": "Önceki satın alma bilgileri bulunamadı. Hesabınızı kontrol edip tekrar deneyin",
   "purchaseErrorUserNotFound": "Kullanıcı doğrulanamadı. Uygulamayı yeniden başlatıp tekrar deneyin. Ayrıntılar: {message}",
-  "purchaseErrorActivationPending": "Ödeme etkinleştirilmesi tamamlanmamıştır. Lütfen bir süre bekleyip tekrar kontrol ediniz.",
+  "purchaseErrorActivationPending": "Abonelik etkinleştirme tamamlanmadı. Lütfen bir süre sonra tekrar kontrol edin.",
   "purchaseErrorTimeout": "Zaman aşımına uğradı. Lütfen ağ bağlantınızı kontrol edip yeniden deneyin. Sorun çözülmezse, Ayarlar > İletişim sekmesinden bizimle iletişime geçin. Ayrıntılar: {message}",
   "purchaseErrorNetworkError": "İletişim hatası. Lütfen iletişim ortamınızı kontrol edip tekrar deneyin. Çözülmezse Ayarlar > İletişim kısmından bizimle iletişime geçebilirsiniz. Ayrıntılar: {message}",
   "sixMonthPlan": "6 aylık plan",

@@ -130,7 +130,7 @@
   "premiumCancelDescription": "・Po nakupu lahko samodejno podaljšanje prekličete v nastavitvah računa aplikacije {storeName}. (Samodejnega podaljšanja ni mogoče preklicati v sami aplikaciji.)",
   "purchaseErrorRestoreFailed": "Podatki o prejšnjem nakupu niso bili najdeni. Preverite svoj račun in poskusite znova",
   "purchaseErrorUserNotFound": "Uporabnika ni bilo mogoče preveriti. Znova zaženite aplikacijo in poskusite znova. Podrobnosti: {message}",
-  "purchaseErrorActivationPending": "Aktivacija plačila še ni bila dokončana. Prosimo, da se po nekaj časa ponovno prepričate.",
+  "purchaseErrorActivationPending": "Aktivacija naročnine ni dokončana. Preverite znova pozneje.",
   "purchaseErrorTimeout": "Potečanje je poteklo. Preverite svoj komunikacijski okolje in poskusite znova. Če težava ni odpravljena, nas kontaktirajte preko Nastavitve > Poizvedba. Podrobnosti: {message}",
   "purchaseErrorNetworkError": "Nekaj je narobe s povezavo. Preverite omrežno okolje in poskusite znova. Če težava ne bo odpravljena, nas kontaktirajte prek Nastavitve > Povpraševanje. Podrobnosti: {message}",
   "sixMonthPlan": "6-mesečni načrt",

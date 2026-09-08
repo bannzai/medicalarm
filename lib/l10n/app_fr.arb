@@ -130,7 +130,7 @@
   "premiumCancelDescription": "・Après l’achat, vous pouvez résilier le renouvellement automatique dans les réglages du compte de l’app {storeName}. (Le renouvellement automatique ne peut pas être résilié depuis l’app.)",
   "purchaseErrorRestoreFailed": "Les informations de l’achat précédent sont introuvables. Vérifiez votre compte et réessayez",
   "purchaseErrorUserNotFound": "Impossible de vérifier l’utilisateur. Redémarrez l’app et réessayez. Détails : {message}",
-  "purchaseErrorActivationPending": "L'activation de votre abonnement n'est pas encore terminée. Veuillez vérifier à nouveau dans quelques instants.",
+  "purchaseErrorActivationPending": "L’activation de l’abonnement n’est pas terminée. Veuillez vérifier à nouveau plus tard.",
   "purchaseErrorTimeout": "Le délai a expiré. Veuillez vérifier votre connexion et réessayer. Si le problème persiste, veuillez nous contacter via Paramètres > Contactez-nous. Détails : {message}",
   "purchaseErrorNetworkError": "Il y a un problème de connexion. Veuillez vérifier votre environnement de connexion et réessayez. Si le problème persiste, veuillez nous contacter via Paramètres > Contacter. Détails : {message}",
   "sixMonthPlan": "Plan de 6 mois",

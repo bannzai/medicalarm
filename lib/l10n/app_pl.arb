@@ -130,7 +130,7 @@
   "premiumCancelDescription": "・Po zakupie możesz anulować automatyczne odnawianie w ustawieniach konta aplikacji {storeName}. (Automatycznego odnawiania nie można anulować w samej aplikacji.)",
   "purchaseErrorRestoreFailed": "Nie znaleziono informacji o poprzednim zakupie. Sprawdź swoje konto i spróbuj ponownie",
   "purchaseErrorUserNotFound": "Nie udało się zweryfikować użytkownika. Uruchom ponownie aplikację i spróbuj jeszcze raz. Szczegóły: {message}",
-  "purchaseErrorActivationPending": "Aktywacja subskrypcji nie została jeszcze zakończona. Proszę spróbować ponownie za jakiś czas.",
+  "purchaseErrorActivationPending": "Aktywacja subskrypcji nie została ukończona. Sprawdź ponownie później.",
   "purchaseErrorTimeout": "Upłynął czas oczekiwania. Proszę sprawdzić warunki komunikacyjne i spróbować ponownie. Jeśli problem nie zostanie rozwiązany, proszę skontaktować się z nami przez Ustawienia > Zapytanie. Szczegóły: {message}",
   "purchaseErrorNetworkError": "Wystąpił błąd połączenia. Sprawdź swoje połączenie i spróbuj ponownie. Jeśli problem nie ustąpi, skontaktuj się z nami przez Ustawienia > Kontakt. Szczegóły: {message}",
   "sixMonthPlan": "Plan 6 miesięcy",

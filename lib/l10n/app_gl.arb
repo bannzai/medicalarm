@@ -130,7 +130,7 @@
   "premiumCancelDescription": "・Despois da compra, podes cancelar a renovación automática na configuración da conta da aplicación {storeName}. (A renovación automática non se pode cancelar desde a aplicación.)",
   "purchaseErrorRestoreFailed": "Non se atopou a información da compra anterior. Comproba a túa conta e téntao de novo",
   "purchaseErrorUserNotFound": "Non foi posible verificar o usuario. Reinicia a aplicación e téntao de novo. Detalles: {message}",
-  "purchaseErrorActivationPending": "Non se completou a activación do pagamento. Por favor, agarde un momento e verifique de novo.",
+  "purchaseErrorActivationPending": "A activación da subscrición non se completou. Comprobe de novo máis tarde.",
   "purchaseErrorTimeout": "Tempo de esgotamento. Verifique a súa conexión de rede e intente de novo. Se o problema persiste, contáctenos a través de Configuración > Consulta. Detalles: {message}",
   "purchaseErrorNetworkError": "Hai problemas de comunicación. Comprobe o seu entorno de comunicación e intente de novo. Se o problema persiste, por favor contacta connosco a través de Configuración > Consulta. Detalles: {message}",
   "sixMonthPlan": "plan de 6 meses",

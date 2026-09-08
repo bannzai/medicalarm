@@ -130,7 +130,7 @@
   "premiumCancelDescription": "・Satın aldıqdan sonra avtomatik yenilənməni {storeName} tətbiqinin hesab ayarlarından ləğv edə bilərsiniz. (Avtomatik yenilənməni tətbiqin içindən ləğv etmək mümkün deyil.)",
   "purchaseErrorRestoreFailed": "Əvvəlki alış məlumatları tapılmadı. Hesabınızı yoxlayın və yenidən cəhd edin",
   "purchaseErrorUserNotFound": "İstifadəçi təsdiqlənə bilmədi. Tətbiqi yenidən başladın və yenidən cəhd edin. Təfərrüatlar: {message}",
-  "purchaseErrorActivationPending": "Ödəmə aktivləşdirilməmişdir. Zəhmət olmasa bir müddət sonra yenidən yoxlayın.",
+  "purchaseErrorActivationPending": "Abunəliyin aktivləşdirilməsi tamamlanmayıb. Zəhmət olmasa, bir müddət sonra yenidən yoxlayın.",
   "purchaseErrorTimeout": "Timeout oldu. Xahiş edirik, əlaqə mühitinizi yoxlayın və yenidən cəhd edin. Hələ də problem yaranarsa, Ayarlar > Əlaqə bölməsindən bizimlə əlaqə saxlayın. Ətraflı: {message}",
   "purchaseErrorNetworkError": "Şəbəkə qalxanında nasazlıq var. Şəbəkə şərtlərini yoxlayın və yenidən cəhd edin. Hələ də həll olunmursa, ayarlar > Əlaqə bölməsindən bizimlə əlaqə saxlayın. Ətraflı: {message}",
   "sixMonthPlan": "6 ay planı",

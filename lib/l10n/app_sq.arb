@@ -130,7 +130,7 @@
   "premiumCancelDescription": "・Pas blerjes, rinovimin automatik mund ta anuloni te cilësimet e llogarisë në aplikacionin {storeName}. (Rinovimi automatik nuk mund të anulohet nga vetë aplikacioni.)",
   "purchaseErrorRestoreFailed": "Informacioni për blerjen e mëparshme nuk u gjet. Kontrolloni llogarinë tuaj dhe provoni përsëri",
   "purchaseErrorUserNotFound": "Përdoruesi nuk mund të verifikohej. Rinisni aplikacionin dhe provo përsëri. Detaje: {message}",
-  "purchaseErrorActivationPending": "Aktivizimi i pagesës nuk është përfunduar. Ju lutemi prisni pak kohë dhe kontrolloni përsëri.",
+  "purchaseErrorActivationPending": "Aktivizimi i abonimit nuk ka përfunduar. Kontrollojeni përsëri më vonë.",
   "purchaseErrorTimeout": "Keni në kohë për të dalë. Kontrolloni ambientin tuaj të komunikimit dhe provoni përsëri. Nëse problemi vazhdon, ju lutemi kontaktoni në Caktimet > Kërkesa. Detajet: {message}",
   "purchaseErrorNetworkError": "Ka kaqenë lëvizjet. Ju lutemi kontrolloni ambientin e komunikimit dhe provoni përsëri. Nëse problemi vazhdon, ju lutemi kontaktoni përmes cilësimeve > Kërkesë. Detajet: {message}",
   "sixMonthPlan": "Plani 6-mujor",

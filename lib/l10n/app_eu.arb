@@ -130,7 +130,7 @@
   "premiumCancelDescription": "・Erosketa egin ondoren, berritze automatikoa {storeName} aplikazioaren kontu-ezarpenetan bertan behera utz dezakezu. (Berritze automatikoa ezin da aplikaziotik bertatik bertan behera utzi.)",
   "purchaseErrorRestoreFailed": "Ez da aurkitu aurreko erosketaren informaziorik. Egiaztatu kontua eta saiatu berriro",
   "purchaseErrorUserNotFound": "Ezin izan da erabiltzailea egiaztatu. Berrabiarazi aplikazioa eta saiatu berriro. Xehetasunak: {message}",
-  "purchaseErrorActivationPending": "Ordainketa aktibatzeko prozesua amaitu gabe dago. Mesedez, itxaron pixka bat eta berriro ere egiaztatu.",
+  "purchaseErrorActivationPending": "Harpidetzaren aktibazioa ez da amaitu. Egiaztatu berriro pixka bat geroago.",
   "purchaseErrorTimeout": "Denbora amaitu da. Mesedez, ziurtatu komunikazio-ingurunea eta saiatu berriro. Arazoa konpondu ez bada, jar zaitez harremanetan konfigurazioa > Kontsulta bidez. Xehetasunak: {message}",
   "purchaseErrorNetworkError": "Komunikazio akats baten berri ematen du. Mesedez, ziurtatu komunikazio ingurunea eta berriro saiatu. Arazoa konpondu ez bada, mesedez, joan ezazu Ezarpenak > Kontsulta eta kontaktatu gu. Zehaztasuna: {message}",
   "sixMonthPlan": "6 hilabeteko plana",

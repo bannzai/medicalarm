@@ -130,7 +130,7 @@
   "premiumCancelDescription": "・Ar ôl prynu, gallwch ganslo’r adnewyddu awtomatig yng ngosodiadau cyfrif ap {storeName}. (Ni ellir canslo’r adnewyddu awtomatig o’r ap ei hun.)",
   "purchaseErrorRestoreFailed": "Ni chanfuwyd gwybodaeth am y pryniant blaenorol. Gwiriwch eich cyfrif a rhowch gynnig arall arni",
   "purchaseErrorUserNotFound": "Nid oedd modd cadarnhau’r defnyddiwr. Ailgychwynnwch yr ap a rhowch gynnig arall arni. Manylion: {message}",
-  "purchaseErrorActivationPending": "Nid yw gwaith activadu taliadau wedi'i gwblhau. Aroswch ychydig i wirio eto.",
+  "purchaseErrorActivationPending": "Nid yw gweithredu’r tanysgrifiad wedi’i gwblhau. Gwiriwch eto ymhen ychydig.",
   "purchaseErrorTimeout": "Mae'r amser yn dod i ben. Gwiriwch y cyflyrau cyfathrebu ac rhowch cynnig arall. Os nad yw'n cael ei datrys, cysylltwch â ni drwy Ddewislen > Cwestiynau. Manylion: {message}",
   "purchaseErrorNetworkError": "Mae nameth gysylltiad. Gwiriwch y sefyllfa gysylltu a chymhwyswch eto. Os nad yw hyn yn datrys y broblem, cysylltwch drwy fynd i Ddewisiadau > Cysylltu. Manylion: {message}",
   "sixMonthPlan": "Cynllun 6 mis",

@@ -130,7 +130,7 @@
   "premiumCancelDescription": "・Pēc iegādes automātisko atjaunošanu varat atcelt lietotnes {storeName} konta iestatījumos. (Automātisko atjaunošanu nevar atcelt pašā lietotnē.)",
   "purchaseErrorRestoreFailed": "Iepriekšējā pirkuma informācija nav atrasta. Pārbaudiet savu kontu un mēģiniet vēlreiz",
   "purchaseErrorUserNotFound": "Lietotāju neizdevās verificēt. Restartējiet lietotni un mēģiniet vēlreiz. Detalizēta informācija: {message}",
-  "purchaseErrorActivationPending": "Abonēšanas aktivizācija nav pabeigta. Lūdzu, pagaidiet kādu laiku un pārbaudiet vēlreiz.",
+  "purchaseErrorActivationPending": "Abonementa aktivizēšana nav pabeigta. Lūdzu, pārbaudiet vēlāk.",
   "purchaseErrorTimeout": "Laika ir beattie tikmēr. Lūdzu, pārbaudiet savus sakarus un mēģiniet vēlreiz. Ja problēma joprojām pastāv, lūdzu, sazinieties ar mums, dodoties uz Iestatījumi > Kontakti. Detalizēta informācija: {message}",
   "purchaseErrorNetworkError": "Ir irģestrēts savienojuma traucējums. Lūdzu, pārbaudiet savienojuma vidi un mēģiniet vēlreiz. Ja tas neatrisina problēmu, lūdzu, sazinieties ar mums, izmantojot Iestatījumi > Kontakti. Detalizēta informācija: {message}",
   "sixMonthPlan": "6 mēnešu plāns",

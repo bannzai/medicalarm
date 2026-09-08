@@ -130,7 +130,7 @@
   "premiumCancelDescription": "・Baada ya kununua, unaweza kughairi usasishaji wa kiotomatiki katika mipangilio ya akaunti ya programu ya {storeName}. (Usasishaji wa kiotomatiki hauwezi kughairiwa ndani ya programu.)",
   "purchaseErrorRestoreFailed": "Maelezo ya ununuzi uliopita hayakupatikana. Kagua akaunti yako na ujaribu tena",
   "purchaseErrorUserNotFound": "Mtumiaji hakuweza kuthibitishwa. Anzisha programu upya na ujaribu tena. Maelezo: {message}",
-  "purchaseErrorActivationPending": "Malipo hayajawezeshwa bado. Tafadhali subiri kwa muda kabla ya kuangalia tena.",
+  "purchaseErrorActivationPending": "Uwezeshaji wa usajili haujakamilika. Tafadhali angalia tena baadaye.",
   "purchaseErrorTimeout": "Timu ya muda imemalizika. Tafadhali hakikisha mazingira ya mawasiliano kabla ya kujaribu tena. Ikiwa tatizo halitatuli, tafadhali wasiliana nasi kupitia mipangilio > Maswali. Maelezo zaidi: {message}",
   "purchaseErrorNetworkError": "Kuwa na uhusiano mbaya. Tafadhali angalia mazingira yako ya mtandao kisha jaribu tena. Ikiwa huwezi kutatua shida hiyo, tafadhali wasiliana nasi kupitia Mpangilio > Maswali. Maelezo zaidi: {message}",
   "sixMonthPlan": "mpango wa miezi 6",
