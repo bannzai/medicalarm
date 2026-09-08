@@ -141,7 +141,7 @@
   "confirmBeforeRegistration": "Tarkista tiedot ennen rekisteröitymistä.",
   "autoRenewalNotice": "Tilauskauden päätyttyä tilaus uusiutuu automaattisesti.",
   "restorePurchase": "Aiemmin ostaneille",
-  "purchaseRestored": "Osto tiedot on palautettu",
+  "purchaseRestored": "Ostotiedot palautettiin",
   "medicationTimeFollowup": "Lääkkeenottoajan seurantamuistutus",
   "updateRequired": "Päivitys on tarpeen",
   "updateRequiredMessage": "Ole hyvä ja päivitä {storeName} uuteen versioon.",

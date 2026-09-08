@@ -141,7 +141,7 @@
   "confirmBeforeRegistration": "Lütfen inceleyip kaydolun.",
   "autoRenewalNotice": "Abonelik süresi sona erdikten sonra otomatik olarak yenilenir.",
   "restorePurchase": "Daha önce satın alanlar için",
-  "purchaseRestored": "Satın alma bilgileri geri yüklendi.",
+  "purchaseRestored": "Satın alma bilgileri geri yüklendi",
   "medicationTimeFollowup": "İlaç alma zamanının takibi",
   "updateRequired": "Güncelleme gerekli",
   "updateRequiredMessage": "{storeName}'den en son sürüme güncelleyin.",

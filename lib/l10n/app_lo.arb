@@ -141,7 +141,7 @@
   "confirmBeforeRegistration": "ກະລຸນາກວດສອບກ່ອນລົງທະບຽນ.",
   "autoRenewalNotice": "ຫຼັງຈາກໄລຍະການສະໝັກໃຊ້ງານສິ້ນສຸດ ລາຍການນີ້ຈະຕໍ່ອາຍຸອັດຕະໂນມັດ.",
   "restorePurchase": "ສຳລັບຜູ້ທີ່ເຄີຍຊື້ແລ້ວ",
-  "purchaseRestored": "ການແລກປ່ອນຂໍ້ມູນການຊື້ແລ້ວແລ້ວ",
+  "purchaseRestored": "ກູ້ຄືນຂໍ້ມູນການຊື້ແລ້ວ",
   "medicationTimeFollowup": "ການຕິດຕາມເວລາຮັບບຳລຸງ",
   "updateRequired": "ຈະຕ້ອງປ່ອນແອບໃໝ່",
   "updateRequiredMessage": "{storeName}ແຕ່ອັບເດດໃໝ່ສຸດໃໝ່",

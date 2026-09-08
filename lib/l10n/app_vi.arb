@@ -141,7 +141,7 @@
   "confirmBeforeRegistration": "Vui lòng xem lại trước khi đăng ký.",
   "autoRenewalNotice": "Sau khi thời hạn gói đăng ký kết thúc, gói sẽ tự động gia hạn.",
   "restorePurchase": "Dành cho những người đã mua trước đây",
-  "purchaseRestored": "Thông tin mua hàng đã được khôi phục.",
+  "purchaseRestored": "Đã khôi phục thông tin mua hàng",
   "medicationTimeFollowup": "Theo dõi thời gian dùng thuốc",
   "updateRequired": "Cần cập nhật",
   "updateRequiredMessage": "Vui lòng cập nhật lên phiên bản mới nhất từ {storeName}",

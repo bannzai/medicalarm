@@ -141,7 +141,7 @@
   "confirmBeforeRegistration": "Zəhmət olmasa, nəzərdən keçirdikdən sonra qeydiyyatdan keçin.",
   "autoRenewalNotice": "Abunəlik müddəti bitdikdən sonra avtomatik yenilənəcək.",
   "restorePurchase": "Əvvəllər satın alanlar üçün",
-  "purchaseRestored": "Alış məlumatları bərpa edildi",
+  "purchaseRestored": "Satınalma məlumatları bərpa edildi",
   "medicationTimeFollowup": "İlaç qəbulu vaxtının izlənməsi",
   "updateRequired": "Güncəlləmə tələb olunur",
   "updateRequiredMessage": "{storeName}dan ən son versiyaya yeniləməyinizi xahiş edirik",

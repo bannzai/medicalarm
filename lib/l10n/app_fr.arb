@@ -141,7 +141,7 @@
   "confirmBeforeRegistration": "Veuillez vérifier les informations avant de vous inscrire.",
   "autoRenewalNotice": "À la fin de la période d’abonnement, celui-ci sera renouvelé automatiquement.",
   "restorePurchase": "Pour ceux qui ont déjà acheté",
-  "purchaseRestored": "Les informations d'achat ont été restaurées.",
+  "purchaseRestored": "Les informations d’achat ont été restaurées",
   "medicationTimeFollowup": "Suivi de l'heure de prise",
   "updateRequired": "Une mise à jour est requise",
   "updateRequiredMessage": "Veuillez mettre à jour vers la dernière version de {storeName}.",

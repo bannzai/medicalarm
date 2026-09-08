@@ -141,7 +141,7 @@
   "confirmBeforeRegistration": "გთხოვთ, გაეცნოთ ინფორმაციას და შემდეგ დარეგისტრირდეთ.",
   "autoRenewalNotice": "გამოწერის ვადის დასრულების შემდეგ ის ავტომატურად განახლდება.",
   "restorePurchase": "მათთვის, ვინც ადრე შეიძინა",
-  "purchaseRestored": "შExceptional ყიდვის ინფორმაცია აღდგენილი",
+  "purchaseRestored": "შეძენის ინფორმაცია აღდგენილია",
   "medicationTimeFollowup": "მკურნალობის დროის კვალი",
   "updateRequired": "გართული აწარმოებს",
   "updateRequiredMessage": "განახლება საჭიროა {storeName}-დან.",

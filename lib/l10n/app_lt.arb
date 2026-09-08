@@ -141,7 +141,7 @@
   "confirmBeforeRegistration": "Prieš registruodamiesi, peržiūrėkite informaciją.",
   "autoRenewalNotice": "Pasibaigus prenumeratos laikotarpiui, ji bus automatiškai pratęsta.",
   "restorePurchase": "Anksčiau įsigijusiems",
-  "purchaseRestored": "Įsigijimo informacija buvo atkūrė.",
+  "purchaseRestored": "Pirkimo informacija atkurta",
   "medicationTimeFollowup": "Vaistų vartojimo laiko stebėjimas",
   "updateRequired": "Reikia atnaujinimo",
   "updateRequiredMessage": "Prašome atnaujinti į naujausią versiją iš {storeName}",

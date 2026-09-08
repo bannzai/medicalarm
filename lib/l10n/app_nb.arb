@@ -141,7 +141,7 @@
   "confirmBeforeRegistration": "Gå gjennom informasjonen før du registrerer deg.",
   "autoRenewalNotice": "Etter at abonnementsperioden er over, fornyes det automatisk.",
   "restorePurchase": "For deg som har kjøpt tidligere",
-  "purchaseRestored": "Kjøpsinformasjonen har blitt gjenopprettet.",
+  "purchaseRestored": "Kjøpsinformasjonen er gjenopprettet",
   "medicationTimeFollowup": "Oppfølging av inntakstidspunkt",
   "updateRequired": "Oppdatering er nødvendig",
   "updateRequiredMessage": "Vennligst oppdater til den nyeste versjonen fra {storeName}",

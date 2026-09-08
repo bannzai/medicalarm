@@ -141,7 +141,7 @@
   "confirmBeforeRegistration": "Прегледајте информације пре регистрације.",
   "autoRenewalNotice": "Након истека периода претплате, она ће се аутоматски обновити.",
   "restorePurchase": "За оне који су раније купили",
-  "purchaseRestored": "Обновили сте информације о куповини",
+  "purchaseRestored": "Информације о куповини су враћене",
   "medicationTimeFollowup": "Накнадно обавештавање о времену узимања",
   "updateRequired": "Потребно је ажурирање",
   "updateRequiredMessage": "Ажурирајте на најновију верзију из {storeName}",

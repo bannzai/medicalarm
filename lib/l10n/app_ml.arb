@@ -141,7 +141,7 @@
   "confirmBeforeRegistration": "ദയവായി പരിശോധിച്ച ശേഷം രജിസ്റ്റർ ചെയ്യുക.",
   "autoRenewalNotice": "സബ്‌സ്‌ക്രിപ്ഷൻ കാലയളവ് അവസാനിച്ചതിന് ശേഷം ഇത് സ്വയമേവ പുതുക്കും.",
   "restorePurchase": "മുമ്പ് വാങ്ങിയവർക്കായി",
-  "purchaseRestored": "നിങ്ങളുടെ വാങ്ങലുകളുടെ വിവരങ്ങൾ തിരിച്ചുപിടിച്ചിരുന്നു",
+  "purchaseRestored": "വാങ്ങൽ വിവരങ്ങൾ പുനഃസ്ഥാപിച്ചു",
   "medicationTimeFollowup": "മഞ്ഞെത്തുമ്പോൾ മുടിവാക്കുന്നത്",
   "updateRequired": "അപ്ഡേറ്റ് ആവശ്യമുണ്ട്",
   "updateRequiredMessage": "{storeName}നിന്ന് ഏറ്റവും പുതിയ പതിപ്പിലേക്ക് പുതുക്കുക.",

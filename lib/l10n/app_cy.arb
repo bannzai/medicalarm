@@ -141,7 +141,7 @@
   "confirmBeforeRegistration": "Adolygwch cyn cofrestru.",
   "autoRenewalNotice": "Ar ôl i’r cyfnod tanysgrifio ddod i ben, bydd yn adnewyddu’n awtomatig.",
   "restorePurchase": "I’r rhai sydd wedi prynu o’r blaen",
-  "purchaseRestored": "Adferwyd gwybodaeth brynu.",
+  "purchaseRestored": "Mae gwybodaeth y pryniant wedi’i hadfer",
   "medicationTimeFollowup": "Dilyniant Amser Meddyginiaeth",
   "updateRequired": "Mae angen diweddariad.",
   "updateRequiredMessage": "Diupdate i'r fersiwn ddiweddaraf o {storeName}",

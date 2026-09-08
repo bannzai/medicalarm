@@ -141,7 +141,7 @@
   "confirmBeforeRegistration": "దయచేసి సమీక్షించిన తర్వాత నమోదు చేసుకోండి.",
   "autoRenewalNotice": "సబ్‌స్క్రిప్షన్ వ్యవధి ముగిసిన తర్వాత ఇది ఆటోమేటిక్‌గా పునరుద్ధరించబడుతుంది.",
   "restorePurchase": "ఇంతకు ముందు కొనుగోలు చేసిన వారి కోసం",
-  "purchaseRestored": "మీ కొనుగోలు సమాచారాన్ని పునరుద్ధరించబడింది",
+  "purchaseRestored": "కొనుగోలు సమాచారం పునరుద్ధరించబడింది",
   "medicationTimeFollowup": "వైద్యానికి సమయానికి అనుసరించడం",
   "updateRequired": "అప్‌డేట్ అవసరం",
   "updateRequiredMessage": "దయచేసి {storeName} నుండి తాజా సంచికకు అప్‌డేట్ చేయండి.",

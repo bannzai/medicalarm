@@ -141,7 +141,7 @@
   "confirmBeforeRegistration": "Перегляньте інформацію перед реєстрацією.",
   "autoRenewalNotice": "Після завершення періоду підписки її буде автоматично продовжено.",
   "restorePurchase": "Для тих, хто вже купував",
-  "purchaseRestored": "Your purchase information has been restored.",
+  "purchaseRestored": "Інформацію про покупку відновлено",
   "medicationTimeFollowup": "Follow-up on medication time",
   "updateRequired": "An update is required.",
   "updateRequiredMessage": "Please update to the latest version from {storeName}.",

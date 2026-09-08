@@ -141,7 +141,7 @@
   "confirmBeforeRegistration": "Bitte prüfen Sie die Informationen, bevor Sie sich registrieren.",
   "autoRenewalNotice": "Nach Ablauf des Abonnementzeitraums wird es automatisch verlängert.",
   "restorePurchase": "Für alle, die bereits gekauft haben",
-  "purchaseRestored": "Kaufinformationen wurden wiederhergestellt.",
+  "purchaseRestored": "Kaufinformationen wurden wiederhergestellt",
   "medicationTimeFollowup": "Nachverfolgung der Einnahmezeit",
   "updateRequired": "Ein Update ist erforderlich",
   "updateRequiredMessage": "Bitte aktualisieren Sie auf die neueste Version von {storeName}.",

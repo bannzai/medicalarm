@@ -141,7 +141,7 @@
   "confirmBeforeRegistration": "يرجى المراجعة قبل التسجيل.",
   "autoRenewalNotice": "سيتم التجديد تلقائيًا بعد انتهاء مدة الاشتراك.",
   "restorePurchase": "لمن اشتروا سابقًا",
-  "purchaseRestored": "تم استعادة معلومات الشراء",
+  "purchaseRestored": "تمت استعادة معلومات الشراء",
   "medicationTimeFollowup": "متابعة وقت تناول الدواء",
   "updateRequired": "تحديث مطلوب",
   "updateRequiredMessage": "يرجى تحديث التطبيق إلى أحدث إصدار من {storeName}",

@@ -141,7 +141,7 @@
   "confirmBeforeRegistration": "অনুগ্রহ করে পর্যালোচনা করে নিবন্ধন করুন।",
   "autoRenewalNotice": "সাবস্ক্রিপশনের মেয়াদ শেষ হলে এটি স্বয়ংক্রিয়ভাবে নবায়ন হবে।",
   "restorePurchase": "যারা আগে কিনেছেন তাদের জন্য",
-  "purchaseRestored": "ক্রয় তথ্য পুনরুদ্ধার করা হয়েছে",
+  "purchaseRestored": "ক্রয়ের তথ্য পুনরুদ্ধার করা হয়েছে",
   "medicationTimeFollowup": "গ্রহণের সময়ের ফলোআপ",
   "updateRequired": "আপডেট প্রয়োজন",
   "updateRequiredMessage": "{storeName} থেকে সর্বশেষ সংস্করণটিতে আপডেট করুন",

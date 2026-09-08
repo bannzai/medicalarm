@@ -141,7 +141,7 @@
   "confirmBeforeRegistration": "Тексеріп шығып, тіркеліңіз.",
   "autoRenewalNotice": "Жазылым мерзімі аяқталғаннан кейін ол автоматты түрде ұзартылады.",
   "restorePurchase": "Бұрын сатып алғандар үшін",
-  "purchaseRestored": "Сатып алу ақпаратын қалпына келтірдім",
+  "purchaseRestored": "Сатып алу ақпараты қалпына келтірілді",
   "medicationTimeFollowup": "Дәрі-дәрмек қабылдау уақытын бақылау",
   "updateRequired": "Жаңартуды орнату қажет",
   "updateRequiredMessage": "{storeName}-дан соңғы нұсқаға жаңартыңыз",

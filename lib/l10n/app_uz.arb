@@ -141,7 +141,7 @@
   "confirmBeforeRegistration": "Iltimos, ko‘rib chiqib, ro‘yxatdan o‘ting.",
   "autoRenewalNotice": "Obuna muddati tugagandan so‘ng, u avtomatik ravishda yangilanadi.",
   "restorePurchase": "Avval xarid qilganlar uchun",
-  "purchaseRestored": "Sotib olish ma'lumotlari tiklandi",
+  "purchaseRestored": "Xarid maʼlumotlari tiklandi",
   "medicationTimeFollowup": "Qabul qilish vaqti haqida qayd",
   "updateRequired": "Yangilanish zarur",
   "updateRequiredMessage": "{storeName} dan soʻnggi versiyasiga yangilang",

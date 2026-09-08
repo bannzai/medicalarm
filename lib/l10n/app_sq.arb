@@ -141,7 +141,7 @@
   "confirmBeforeRegistration": "Ju lutemi shqyrtojeni përpara se të regjistroheni.",
   "autoRenewalNotice": "Pas përfundimit të periudhës së abonimit, ai do të rinovohet automatikisht.",
   "restorePurchase": "Për ata që kanë blerë më parë",
-  "purchaseRestored": "Informacionet e blerjes janë rikuperuar.",
+  "purchaseRestored": "Informacionet e blerjes u rikthyen",
   "medicationTimeFollowup": "Ndjekja e kohës së marrjes",
   "updateRequired": "Përditësimi është i nevojshëm",
   "updateRequiredMessage": "Ju lutem përditësoni në versionin më të fundit nga {storeName}.",

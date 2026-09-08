@@ -141,7 +141,7 @@
   "confirmBeforeRegistration": "Please review before registering.",
   "autoRenewalNotice": "It will automatically renew after the subscription period ends.",
   "restorePurchase": "For those who purchased previously",
-  "purchaseRestored": "Restored purchase information.",
+  "purchaseRestored": "Purchase information restored",
   "medicationTimeFollowup": "Follow-up on Medication Time",
   "updateRequired": "An update is required",
   "updateRequiredMessage": "Please update to the latest version from {storeName}.",

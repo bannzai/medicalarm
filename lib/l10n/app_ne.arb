@@ -141,7 +141,7 @@
   "confirmBeforeRegistration": "कृपया समीक्षा गरेपछि दर्ता गर्नुहोस्।",
   "autoRenewalNotice": "सदस्यता अवधि समाप्त भएपछि यो स्वतः नवीकरण हुनेछ।",
   "restorePurchase": "पहिले नै खरिद गर्नुभएकाहरूका लागि",
-  "purchaseRestored": "ما خریدو معلومات بحال شو",
+  "purchaseRestored": "खरिदसम्बन्धी जानकारी पुनर्स्थापना गरियो",
   "medicationTimeFollowup": "औषधि लिनको समयको अनुगमन",
   "updateRequired": "अपडेट गर्न आवश्यक छ",
   "updateRequiredMessage": "{storeName} मा नवीनतम संस्करणमा अपग्रेड गर्नुहोस्",

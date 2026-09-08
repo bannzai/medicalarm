@@ -141,7 +141,7 @@
   "confirmBeforeRegistration": "Pirms reģistrēšanās, lūdzu, iepazīstieties ar informāciju.",
   "autoRenewalNotice": "Pēc abonementa perioda beigām tas tiks automātiski atjaunots.",
   "restorePurchase": "Tiem, kas iegādājās iepriekš",
-  "purchaseRestored": "Iegūta pirkuma informācija",
+  "purchaseRestored": "Pirkuma informācija ir atjaunota",
   "medicationTimeFollowup": "Zāļu lietošanas laika sekošana",
   "updateRequired": "Jums ir nepieciešams atjauninājums",
   "updateRequiredMessage": "Lūdzu, atjaunojiet uz jaunāko versiju no {storeName}.",

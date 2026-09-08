@@ -141,7 +141,7 @@
   "confirmBeforeRegistration": "Przed rejestracją zapoznaj się z informacjami.",
   "autoRenewalNotice": "Po zakończeniu okresu subskrypcji zostanie ona automatycznie odnowiona.",
   "restorePurchase": "Dla osób, które kupiły wcześniej",
-  "purchaseRestored": "Przywrócono informacje o zakupach",
+  "purchaseRestored": "Przywrócono informacje o zakupie",
   "medicationTimeFollowup": "Śledzenie czasu przyjmowania leków",
   "updateRequired": "Wymagana jest aktualizacja",
   "updateRequiredMessage": "Proszę zaktualizować do najnowszej wersji z {storeName}",

@@ -141,7 +141,7 @@
   "confirmBeforeRegistration": "יש לעבור על הפרטים לפני ההרשמה.",
   "autoRenewalNotice": "לאחר סיום תקופת המינוי, המינוי יתחדש אוטומטית.",
   "restorePurchase": "למי שכבר רכשו בעבר",
-  "purchaseRestored": "שחזרנו את פרטי הרכישה",
+  "purchaseRestored": "פרטי הרכישה שוחזרו",
   "medicationTimeFollowup": "מעקב בזמן נטילה",
   "updateRequired": "דרושה עדכון",
   "updateRequiredMessage": "אנא עדכן לגרסה האחרונה מ-{storeName}",

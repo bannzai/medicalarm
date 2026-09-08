@@ -141,7 +141,7 @@
   "confirmBeforeRegistration": "Pred registráciou si všetko skontrolujte.",
   "autoRenewalNotice": "Po skončení obdobia predplatného sa automaticky obnoví.",
   "restorePurchase": "Pre tých, ktorí už predtým zakúpili",
-  "purchaseRestored": "Obnovenie informácií o nákupe sa úspešne dokončilo.",
+  "purchaseRestored": "Informácie o nákupe boli obnovené",
   "medicationTimeFollowup": "Sledovanie času užívania",
   "updateRequired": "Je potrebná aktualizácia",
   "updateRequiredMessage": "Aktualizujte na najnovšiu verziu z {storeName}",

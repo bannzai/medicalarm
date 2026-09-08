@@ -141,7 +141,7 @@
   "confirmBeforeRegistration": "Palun tutvuge teabega enne registreerumist.",
   "autoRenewalNotice": "Pärast tellimusperioodi lõppu uuendatakse seda automaatselt.",
   "restorePurchase": "Varem ostnutele",
-  "purchaseRestored": "Ostuteave teave on taastatud",
+  "purchaseRestored": "Ostuinfo taastati",
   "medicationTimeFollowup": "Ravimite võtmise aja jälgimine",
   "updateRequired": "Vajalik on uuendus",
   "updateRequiredMessage": "Palun uue versiooni saamiseks {storeName} uuendage.",
