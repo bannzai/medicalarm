@@ -204,7 +204,7 @@
   "members": "Miembros",
   "memberFallbackName": "Miembros",
   "yourDisplayName": "Tu nombre visible",
-  "displayNameInputHint": "Introduce el nombre visible",
+  "displayNameInputHint": "Introduce el nombre para mostrar",
   "ownerLabel": "Propietario",
   "youLabel": "Tú",
   "removeMemberConfirmTitle": "¿Quieres eliminar al miembro?",

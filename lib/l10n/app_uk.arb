@@ -204,7 +204,7 @@
   "members": "Учасники",
   "memberFallbackName": "Учасники",
   "yourDisplayName": "Ваше ім’я, що відображається",
-  "displayNameInputHint": "Введіть ім’я, що відображатиметься",
+  "displayNameInputHint": "Введіть ім’я для відображення",
   "ownerLabel": "Власник",
   "youLabel": "Ви",
   "removeMemberConfirmTitle": "Видалити учасника?",
