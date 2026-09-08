@@ -234,7 +234,7 @@
   "achievementWeeklyLabel": "Medication taken this week",
   "achievementWeeklyCountSuffix": "/{scheduledCount} times",
   "achievementStreakLabel": "Streak",
-  "achievementStreakDaysSuffix": " days",
+  "achievementStreakDaysSuffix": "days",
   "achievementMonthlyRateLabel": "Achievement in {month}",
   "achievementLegendAllTaken": "All",
   "achievementLegendPartiallyTaken": "Some",
