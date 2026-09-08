@@ -126,7 +126,7 @@
   "purchaseErrorPaymentPending": "Ordainketa zain dago. Egiaztatu {storeName} saioa hasita duzun {accountName} kontuarekin.",
   "premiumUserThanksTitle": "Premium kidea zara",
   "premiumUserThanksMessage": "Eskerrik asko Medicalarm erabiltzeagatik.\nZuen laguntzari esker, Medicalarm martxan mantentzen jarrai dezakegu.",
-  "premiumPricePerMonth": "({price}/hilean)",
+  "premiumPricePerMonth": "({price}/hile)",
   "premiumCancelDescription": "・Erosketa egin ondoren, berritze automatikoa {storeName} aplikazioaren kontu-ezarpenetan bertan behera utz dezakezu. (Berritze automatikoa ezin da aplikaziotik bertatik bertan behera utzi.)",
   "purchaseErrorRestoreFailed": "Ez da aurkitu aurreko erosketaren informaziorik. Egiaztatu kontua eta saiatu berriro",
   "purchaseErrorUserNotFound": "Ezin izan da erabiltzailea egiaztatu. Berrabiarazi aplikazioa eta saiatu berriro. Xehetasunak: {message}",

@@ -126,7 +126,7 @@
   "purchaseErrorPaymentPending": "Төлөм күтүлүүдө. Кирген {accountName} аккаунтуңуз менен {storeName} кызматын текшериңиз.",
   "premiumUserThanksTitle": "Сиз Premium мүчөсүсүз",
   "premiumUserThanksMessage": "Medicalarm колдонгонуңуз үчүн рахмат.\nСиздин колдооңуздун аркасында Medicalarm ишин уланта алабыз.",
-  "premiumPricePerMonth": "({price}/ай)",
+  "premiumPricePerMonth": "({price}/айына)",
   "premiumCancelDescription": "・Сатып алгандан кийин автоматтык узартууну {storeName} колдонмосунун аккаунт жөндөөлөрүнөн жокко чыгара аласыз. (Автоматтык узартууну колдонмонун ичинен жокко чыгаруу мүмкүн эмес.)",
   "purchaseErrorRestoreFailed": "Мурунку сатып алуу маалыматы табылган жок. Каттоо эсебиңизди текшерип, кайра аракет кылыңыз",
   "purchaseErrorUserNotFound": "Колдонуучуну ырастоо мүмкүн болгон жок. Колдонмону кайра иштетип, кайра аракет кылыңыз. Толук маалымат: {message}",
