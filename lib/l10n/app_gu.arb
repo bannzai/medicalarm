@@ -124,7 +124,7 @@
   "purchaseErrorOperationInProgress": "ખરીદીની પ્રક્રિયા પહેલેથી જ ચાલી રહી છે. કૃપા કરીને થોડા સમય પછી ફરી પ્રયાસ કરો.",
   "purchaseErrorInsufficientPermissions": "તમે {accountName} વડે પ્લાનનું સબ્સ્ક્રિપ્શન લઈ શકતા નથી. તમારી ચુકવણીની માહિતી તપાસો અને ફરી પ્રયાસ કરો",
   "purchaseErrorPaymentPending": "ચુકવણી બાકી છે. સાઇન ઇન કરેલા {accountName} વડે {storeName} તપાસો.",
-  "premiumUserThanksTitle": "પીએમમિયમ સભ્ય છે",
+  "premiumUserThanksTitle": "તમે પ્રીમિયમ સભ્ય છો",
   "premiumUserThanksMessage": "તમારા ઉપયોગ માટે આભાર. તમારાં કારણે Medicalarm નું સંચાલન ચાલુ રાખી શકીએ છીએ.",
   "premiumPricePerMonth": "(ર){price}/માસ",
   "premiumCancelDescription": "જ્યારે તમે ખરીદો છો, ત્યારે આપડે {storeName} એપ્લિકેશનની અકાઉન્ટ સેટિંગ્સમાં આપોઆપ સુધારોને રદ કરી શકો છો.(એપ્લિકેશનમાંથી આપોઆપ સુધારોને રદ કરવામાં આવતું નથી)।",

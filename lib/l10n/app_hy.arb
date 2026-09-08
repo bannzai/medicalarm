@@ -124,7 +124,7 @@
   "purchaseErrorOperationInProgress": "Գնման գործընթացն արդեն ընթացքի մեջ է։ Խնդրում ենք փորձել կրկին ավելի ուշ։",
   "purchaseErrorInsufficientPermissions": "Դուք չեք կարող բաժանորդագրվել որևէ փաթեթի՝ {accountName}-ի միջոցով։ Ստուգեք վճարման տվյալները և կրկին փորձեք",
   "purchaseErrorPaymentPending": "Վճարումը սպասման մեջ է։ Ստուգեք {storeName}-ը մուտք գործած {accountName} հաշվով։",
-  "premiumUserThanksTitle": "Պրեմիում անդամ է",
+  "premiumUserThanksTitle": "Դուք պրեմիում անդամ եք",
   "premiumUserThanksMessage": "Շնորհակալություն օգտագործման համար։ Ձեր շնորհիվ Medicalarm-ի գործունեությունը շարունակվում է։",
   "premiumPricePerMonth": "({price}/ամսյակ)",
   "premiumCancelDescription": "• Վճարումից հետո ինքնալրացումից հրաժարումը կարող եք իրականացնել {storeName} հավելվածի հաշվի կարգավորումներում։ (Հավելվածի ներսում ինքնալրացման հրաժարում իրականացնելու հնարավորությունները չունեք)։",

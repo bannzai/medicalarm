@@ -124,7 +124,7 @@
   "purchaseErrorOperationInProgress": "ଏକ କ୍ରୟ ପ୍ରକ୍ରିୟା ଇତିମଧ୍ୟରେ ଚାଲୁଛି। ଦୟାକରି କିଛି ସମୟ ପରେ ପୁଣି ଚେଷ୍ଟା କରନ୍ତୁ।",
   "purchaseErrorInsufficientPermissions": "ଆପଣ {accountName} ବ୍ୟବହାର କରି କୌଣସି ପ୍ଲାନ୍‌ରେ ସବ୍‌ସ୍କ୍ରାଇବ୍‌ କରିପାରିବେ ନାହିଁ। ଆପଣଙ୍କର ପେମେଣ୍ଟ୍‌ ସୂଚନା ଯାଞ୍ଚ କରି ପୁଣି ଚେଷ୍ଟା କରନ୍ତୁ",
   "purchaseErrorPaymentPending": "ପେମେଣ୍ଟ୍ ବିଚାରାଧୀନ ଅଛି। ଲଗ୍‌ଇନ୍‌ କରାଯାଇଥିବା {accountName} ବ୍ୟବହାର କରି {storeName} ଯାଞ୍ଚ କରନ୍ତୁ।",
-  "premiumUserThanksTitle": "આપ નિમિક્રમક સભ્ય છો",
+  "premiumUserThanksTitle": "ଆପଣ ଜଣେ ପ୍ରିମିୟମ ସଦସ୍ୟ",
   "premiumUserThanksMessage": "আপনার ব্যবহারের জন্য ধন্যবাদ। আপনার জন্য Medicalarm-এর পরিচালনা অব্যাহত রাখতে পারছি।",
   "premiumPricePerMonth": "({price}/месяц)",
   "premiumCancelDescription": "• 购买后，您可以在 {storeName} 应用程序的帐户设置中取消自动续订。（无法通过应用程序内取消自动续订。）",

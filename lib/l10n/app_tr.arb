@@ -124,7 +124,7 @@
   "purchaseErrorOperationInProgress": "Satın alma işlemi zaten devam ediyor. Lütfen daha sonra tekrar deneyin.",
   "purchaseErrorInsufficientPermissions": "{accountName} ile bir plana abone olamazsınız. Ödeme bilgilerinizi kontrol edip tekrar deneyin",
   "purchaseErrorPaymentPending": "Ödeme beklemede. Giriş yaptığınız {accountName} hesabıyla {storeName} hizmetini kontrol edin.",
-  "premiumUserThanksTitle": "Premium Üyesisiniz",
+  "premiumUserThanksTitle": "Premium üyesisiniz",
   "premiumUserThanksMessage": "Kullanımınız için teşekkür ederiz.\nSayenizde Medicalarm'ın işletimini sürdürebiliyoruz.",
   "premiumPricePerMonth": "({price}/ay)",
   "premiumCancelDescription": "• Satın aldıktan sonra, otomatik yenilemeyi {storeName} uygulamasının hesap ayarlarından iptal edebilirsiniz. (Uygulama içinden otomatik yenilemeyi iptal edemezsiniz).",

@@ -124,7 +124,7 @@
   "purchaseErrorOperationInProgress": "A purchase is already in progress. Please try again later.",
   "purchaseErrorInsufficientPermissions": "You can’t subscribe to a plan with {accountName}. Check your payment information and try again",
   "purchaseErrorPaymentPending": "Payment is pending. Please check {storeName} with the signed-in account {accountName}.",
-  "premiumUserThanksTitle": "Premium Member",
+  "premiumUserThanksTitle": "You’re a premium member",
   "premiumUserThanksMessage": "Thank you for using our service. Thanks to you, we are able to continue operating Medicalarm.",
   "premiumPricePerMonth": "({price}/month)",
   "premiumCancelDescription": "After purchase, auto-renewal cancellation can be done in the account settings of the {storeName} app. (You cannot cancel auto-renewal from within the app).",

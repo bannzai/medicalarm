@@ -124,7 +124,7 @@
   "purchaseErrorOperationInProgress": "Pirkimas jau vykdomas. Bandykite dar kartą vėliau.",
   "purchaseErrorInsufficientPermissions": "Naudodami {accountName} negalite užsiprenumeruoti plano. Patikrinkite mokėjimo informaciją ir bandykite dar kartą",
   "purchaseErrorPaymentPending": "Mokėjimas laukia patvirtinimo. Patikrinkite {storeName} naudodami prisijungtą paskyrą {accountName}.",
-  "premiumUserThanksTitle": "Esate Premium narys",
+  "premiumUserThanksTitle": "Esate „Premium“ narys",
   "premiumUserThanksMessage": "Dėkojame, kad naudojatės mūsų paslaugomis.\nDėl jūsų palaikymo galime tęsti Medicalarm veiklą.",
   "premiumPricePerMonth": "({price}/mėn)",
   "premiumCancelDescription": "• Po pirkimo automatinį atnaujinimą galite atšaukti {storeName} programėlės paskyros nustatymuose. (Negalite atšaukti automatinio atnaujinimo iš programėlės.)",

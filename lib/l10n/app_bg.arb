@@ -124,7 +124,7 @@
   "purchaseErrorOperationInProgress": "Покупката вече се обработва. Моля, опитайте отново по-късно.",
   "purchaseErrorInsufficientPermissions": "Не можете да се абонирате за план с {accountName}. Проверете данните си за плащане и опитайте отново",
   "purchaseErrorPaymentPending": "Плащането е в изчакване. Проверете {storeName} с влезлия в профила {accountName}.",
-  "premiumUserThanksTitle": "Премиум член",
+  "premiumUserThanksTitle": "Вие сте премиум член",
   "premiumUserThanksMessage": "Благодарим ви за ползването на услугата. Благодарение на вас можем да продължим функционирането на Medicalarm.",
   "premiumPricePerMonth": "({price} на месец)",
   "premiumCancelDescription": "След закупуването можете да прекратите автоматичното подновяване в настройките на акаунта в приложението {storeName}. (Не можете да прекратите автоматичното подновяване от приложението.)",

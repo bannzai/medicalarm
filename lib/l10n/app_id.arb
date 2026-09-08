@@ -124,7 +124,7 @@
   "purchaseErrorOperationInProgress": "Proses pembelian sedang berlangsung. Silakan coba lagi nanti.",
   "purchaseErrorInsufficientPermissions": "Anda tidak dapat berlangganan paket dengan {accountName}. Periksa informasi pembayaran Anda, lalu coba lagi",
   "purchaseErrorPaymentPending": "Pembayaran tertunda. Periksa {storeName} menggunakan akun {accountName} yang sedang login.",
-  "premiumUserThanksTitle": "Anggota premium",
+  "premiumUserThanksTitle": "Anda adalah anggota premium",
   "premiumUserThanksMessage": "Terima kasih telah menggunakan layanan kami.\nBerkat Anda, kami dapat terus menjalankan Medicalarm.",
   "premiumPricePerMonth": "({price}/bulan)",
   "premiumCancelDescription": "• Setelah pembelian, pembatalan pembaruan otomatis dapat dilakukan di pengaturan akun {storeName} aplikasi. (Pembatalan pembaruan otomatis tidak dapat dilakukan dari dalam aplikasi).",

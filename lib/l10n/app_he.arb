@@ -124,7 +124,7 @@
   "purchaseErrorOperationInProgress": "תהליך רכישה כבר מתבצע. יש לנסות שוב מאוחר יותר.",
   "purchaseErrorInsufficientPermissions": "אי אפשר להירשם לתוכנית באמצעות {accountName}. יש לבדוק את פרטי התשלום ולנסות שוב",
   "purchaseErrorPaymentPending": "התשלום ממתין לעיבוד. יש לבדוק את {storeName} באמצעות החשבון המחובר {accountName}.",
-  "premiumUserThanksTitle": "אתה חבר פרימיום",
+  "premiumUserThanksTitle": "אתם חברי פרימיום",
   "premiumUserThanksMessage": "תודה על השימוש שלכם.\nבזכותכם, אנו יכולים להמשיך להפעיל את Medicalarm.",
   "premiumPricePerMonth": "({price}/חודש)",
   "premiumCancelDescription": "לאחר הרכישה, ניתן לבטל את חידוש המנוי בהגדרות החשבון של אפליקציית {storeName}. (לא ניתן לבטל את חידוש המנוי מתוך האפליקציה).",

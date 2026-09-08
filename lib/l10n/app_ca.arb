@@ -124,7 +124,7 @@
   "purchaseErrorOperationInProgress": "La compra ja està en curs. Torneu-ho a provar més tard.",
   "purchaseErrorInsufficientPermissions": "No pots subscriure’t a un pla amb {accountName}. Comprova la informació de pagament i torna-ho a provar",
   "purchaseErrorPaymentPending": "El pagament està pendent. Comprova {storeName} amb el compte amb què has iniciat sessió, {accountName}.",
-  "premiumUserThanksTitle": "Sóc membre premium",
+  "premiumUserThanksTitle": "Ets membre premium",
   "premiumUserThanksMessage": "Gràcies per fer servir l'aplicació. Gràcies a vosaltres, podem continuar gestionant Medicalarm.",
   "premiumPricePerMonth": "({price}/mes)",
   "premiumCancelDescription": "- Després de la compra, pot cancel·lar l'actualització automàtica a la configuració del compte de l'aplicació {storeName}. (No es pot cancel·lar l'actualització automàtica des de l'aplicació).",

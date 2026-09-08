@@ -124,7 +124,7 @@
   "purchaseErrorOperationInProgress": "Худалдан авалт аль хэдийн явагдаж байна. Түр хүлээгээд дахин оролдоно уу.",
   "purchaseErrorInsufficientPermissions": "{accountName}-аар багцад бүртгүүлэх боломжгүй. Төлбөрийн мэдээллээ шалгаад дахин оролдоно уу",
   "purchaseErrorPaymentPending": "Төлбөр хүлээгдэж байна. Нэвтэрсэн {accountName} бүртгэлээр {storeName}-г шалгана уу.",
-  "premiumUserThanksTitle": "Тусгай гишүүн",
+  "premiumUserThanksTitle": "Та премиум гишүүн байна",
   "premiumUserThanksMessage": "Танд баярлалаа. Medicalarm-ыг удирдах боломжийг бидэнд олгосон таны талархалд бид баярлаж байна.",
   "premiumPricePerMonth": "({price}/саранг)",
   "premiumCancelDescription": "· Худалдан авсаны дараа {storeName} програмын дансны тохиргоонд автоматаар шинэчлэх захиалгыг татаж авах боломжтой. (Програм дотроос автоматаар шинэчлэх захиалгыг татаж авах боломжгүй).",

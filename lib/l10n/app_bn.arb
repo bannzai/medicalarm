@@ -124,7 +124,7 @@
   "purchaseErrorOperationInProgress": "একটি ক্রয় প্রক্রিয়া ইতিমধ্যে চলছে। অনুগ্রহ করে কিছুক্ষণ পরে আবার চেষ্টা করুন।",
   "purchaseErrorInsufficientPermissions": "আপনার {accountName} দিয়ে কোনো প্ল্যানে সাবস্ক্রাইব করা যাচ্ছে না। পেমেন্টের তথ্য যাচাই করে আবার চেষ্টা করুন",
   "purchaseErrorPaymentPending": "পেমেন্টটি আটকে আছে। লগ-ইন করা {accountName} দিয়ে {storeName} পরীক্ষা করুন।",
-  "premiumUserThanksTitle": "প্রিমিয়াম সদস্য",
+  "premiumUserThanksTitle": "আপনি একজন প্রিমিয়াম সদস্য",
   "premiumUserThanksMessage": "আপনার ব্যবহারের জন্য ধন্যবাদ। আপনার সহায়তায় Medicalarm এর পরিচালনা অব্যাহত রাখতে সক্ষম হয়েছি।",
   "premiumPricePerMonth": "({price}/মাস)",
   "premiumCancelDescription": "•ক্রয়ের পরে স্বয়ংক্রিয় হালনাগাদকরণ বাতিল {storeName} অ্যাপের অ্যাকাউন্ট সেটিংসে করা যাবে। (অ্যাপের ভিতর থেকে স্বয়ংক্রিয় হালনাগাদকরণ বাতিল করা যাবে না)।",

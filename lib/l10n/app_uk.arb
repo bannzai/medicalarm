@@ -124,7 +124,7 @@
   "purchaseErrorOperationInProgress": "Покупка вже виконується. Повторіть спробу пізніше.",
   "purchaseErrorInsufficientPermissions": "Ви не можете оформити підписку на план за допомогою {accountName}. Перевірте платіжні дані та спробуйте ще раз",
   "purchaseErrorPaymentPending": "Платіж очікує на обробку. Перевірте {storeName} за допомогою облікового запису {accountName}, під яким ви ввійшли.",
-  "premiumUserThanksTitle": "Premium Member",
+  "premiumUserThanksTitle": "Ви преміум-учасник",
   "premiumUserThanksMessage": "Thank you for using our service.\nThanks to you, we are able to continue operating Medicalarm.",
   "premiumPricePerMonth": "({price}/month)",
   "premiumCancelDescription": "After purchase, you can cancel the auto-renewal in the account settings of the {storeName} app. (You cannot cancel the auto-renewal from within the app).",

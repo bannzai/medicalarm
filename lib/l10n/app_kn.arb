@@ -124,7 +124,7 @@
   "purchaseErrorOperationInProgress": "ಖರೀದಿ ಪ್ರಕ್ರಿಯೆಯು ಈಗಾಗಲೇ ಪ್ರಗತಿಯಲ್ಲಿದೆ. ದಯವಿಟ್ಟು ಸ್ವಲ್ಪ ಸಮಯದ ನಂತರ ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.",
   "purchaseErrorInsufficientPermissions": "{accountName} ಬಳಸಿ ಪ್ಲಾನ್‌ಗೆ ಚಂದಾದಾರರಾಗಲು ಸಾಧ್ಯವಿಲ್ಲ. ನಿಮ್ಮ ಪಾವತಿ ಮಾಹಿತಿಯನ್ನು ಪರಿಶೀಲಿಸಿ ಮತ್ತು ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ",
   "purchaseErrorPaymentPending": "ಪಾವತಿ ಬಾಕಿಯಿದೆ. ಸೈನ್ ಇನ್ ಮಾಡಿರುವ {accountName} ಬಳಸಿ {storeName} ಅನ್ನು ಪರಿಶೀಲಿಸಿ.",
-  "premiumUserThanksTitle": "ಪ್ರೀಮಿಯಮ್ ಸದಸ್ಯ",
+  "premiumUserThanksTitle": "ನೀವು ಪ್ರೀಮಿಯಂ ಸದಸ್ಯರಾಗಿದ್ದೀರಿ",
   "premiumUserThanksMessage": "ನಿಮ್ಮ ಬಳಸಣೆಗಾಗಿ ಧನ್ಯವಾದಗಳು.\nನಿಮ್ಮ ನೆರವು ಅರ್ಥಶಾಸ್ತ್ರವನ್ನು ಮುಂದುವರಿಸಲು Medicalarm ಅನ್ನು ನಿರ್ವಹಿಸಲು ಸಾಧ್ಯವಾಗಿದೆ.",
   "premiumPricePerMonth": "({price}/महिना)",
   "premiumCancelDescription": "• ಖರೀದಿಯ ನಂತರ, ಸ್ವಯಂಚಾಲಿತ ನವೀಕರಣವನ್ನು {storeName} ಆಪ್‌ನ ಖಾತಾ ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಬಳಸಿಕೊಂಡು ರದ್ದು ಮಾಡಬಹುದು。(ಆಪ್‌ ಒಳತಂಡಗಳಿಂದ ಸ್ವಯಂಚಾಲಿತ ನವೀಕರಣವನ್ನು ರದ್ದು ಮಾಡಲಾಗುವುದಿಲ್ಲ)।",

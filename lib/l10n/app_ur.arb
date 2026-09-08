@@ -124,7 +124,7 @@
   "purchaseErrorOperationInProgress": "خریداری کا عمل پہلے ہی جاری ہے۔ براہِ کرم کچھ دیر بعد دوبارہ کوشش کریں۔",
   "purchaseErrorInsufficientPermissions": "آپ {accountName} کے ذریعے کسی پلان کی رکنیت حاصل نہیں کر سکتے۔ اپنی ادائیگی کی معلومات چیک کریں اور دوبارہ کوشش کریں",
   "purchaseErrorPaymentPending": "ادائیگی زیرِ التوا ہے۔ سائن اِن کیے گئے {accountName} اکاؤنٹ سے {storeName} کو چیک کریں۔",
-  "premiumUserThanksTitle": "یہ ایک پریمیم ممبر ہے",
+  "premiumUserThanksTitle": "آپ پریمیم رکن ہیں",
   "premiumUserThanksMessage": "آپ کا شکریہ۔آپ کی وجہ سے Medicalarm کی خدمات جاری رکھنے میں کامیاب رہے ہیں۔",
   "premiumPricePerMonth": "({price}/ماہ)",
   "premiumCancelDescription": "خریداری کرنے کے بعد، خودکار تجدید کی منسوخی {storeName} ایپ کی اکاؤنٹ کی ترتیبات میں کی جا سکتی ہے۔ (ایپ کے اندر سے خودکار تجدید کی منسوخی نہیں کی جا سکتی).",

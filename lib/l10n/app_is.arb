@@ -124,7 +124,7 @@
   "purchaseErrorOperationInProgress": "Kaup stendur nú þegar yfir. Vinsamlegast reyndu aftur síðar.",
   "purchaseErrorInsufficientPermissions": "Þú getur ekki gerst áskrifandi að áskrift með {accountName}. Athugaðu greiðsluupplýsingarnar þínar og reyndu aftur",
   "purchaseErrorPaymentPending": "Greiðslan er í bið. Athugaðu {storeName} með innskráða reikningnum {accountName}.",
-  "premiumUserThanksTitle": "Premium meðlimur",
+  "premiumUserThanksTitle": "Þú ert úrvalsmeðlimur",
   "premiumUserThanksMessage": "Takk fyrir að nota okkur.\nMeð hjálp þinni getum við haldið áfram að reka Medicalarm.",
   "premiumPricePerMonth": "({price}/mánuði)",
   "premiumCancelDescription": "Eftir kaup geturðu sagt upp sjálfvirkri endurnýjun í {storeName} appinu í reikningastillingunum. (Ekki er hægt að segja upp sjálfvirkri endurnýjun frá appinu.)",

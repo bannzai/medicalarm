@@ -124,7 +124,7 @@
   "purchaseErrorOperationInProgress": "Ostutehing on juba pooleli. Proovige hiljem uuesti.",
   "purchaseErrorInsufficientPermissions": "Kontoga {accountName} ei saa paketti tellida. Kontrollige oma makseteavet ja proovige uuesti",
   "purchaseErrorPaymentPending": "Makse on ootel. Kontrollige {storeName} sisselogitud kontoga {accountName}.",
-  "premiumUserThanksTitle": "Oled premium liige",
+  "premiumUserThanksTitle": "Olete Premiumi liige",
   "premiumUserThanksMessage": "Aitäh, et kasutasite meid. Teie abiga saame jätkata Medicalarmi haldamist.",
   "premiumPricePerMonth": "({price}/kuu)",
   "premiumCancelDescription": "Ostmisel saate automaatse uuendamise tühistada {storeName} rakenduse konto seadetes. (Rakenduse seest ei ole võimalik automaatset uuendamist tühistada).",

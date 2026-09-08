@@ -124,7 +124,7 @@
   "purchaseErrorOperationInProgress": "En Chauf isch scho am Laufe. Bitte probier’s spöter nomol.",
   "purchaseErrorInsufficientPermissions": "Mit {accountName} chasch kei Plan abonniere. Prüef dini Zahlungsinformatione und versuechs nomal",
   "purchaseErrorPaymentPending": "D Zahlig isch no offe. Prüef {storeName} mit em agmäldete Konto {accountName}.",
-  "premiumUserThanksTitle": "Premium Mitglied",
+  "premiumUserThanksTitle": "Du bisch Premium-Mitglied",
   "premiumUserThanksMessage": "Danke für Ihre Nutzung. Dank Ihnen können wir Medicalarm weiterhin betreiben.",
   "premiumPricePerMonth": "({price}/Monat)",
   "premiumCancelDescription": "• Nach em Kauff kann d'Kündigung vo dr automatesch Verlängerig i de Account-Einstelligs vo de {storeName} App gmacht werde. (D'Kündigung vo de automatesche Verlängerig kann nöd innerhalb vo de App dürchgfiihrt werde).",

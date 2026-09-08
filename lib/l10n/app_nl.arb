@@ -124,7 +124,7 @@
   "purchaseErrorOperationInProgress": "Er wordt al een aankoop verwerkt. Probeer het later opnieuw.",
   "purchaseErrorInsufficientPermissions": "Je kunt met {accountName} geen abonnement nemen. Controleer je betaalgegevens en probeer het opnieuw",
   "purchaseErrorPaymentPending": "De betaling is in behandeling. Controleer {storeName} met het ingelogde account {accountName}.",
-  "premiumUserThanksTitle": "Premium lid",
+  "premiumUserThanksTitle": "Je bent premiumlid",
   "premiumUserThanksMessage": "Bedankt voor uw gebruik. Dankzij u kunnen we Medicalarm blijven runnen.",
   "premiumPricePerMonth": "({price}/maand)",
   "premiumCancelDescription": "• Na aankoop kunt u de automatische verlenging annuleren via de accountinstellingen van de {storeName} app. (Automatische verlenging kan niet vanuit de app worden geannuleerd).",

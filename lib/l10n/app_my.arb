@@ -124,7 +124,7 @@
   "purchaseErrorOperationInProgress": "ဝယ်ယူမှုလုပ်ငန်းစဉ်ကို လုပ်ဆောင်နေပြီးဖြစ်သည်။ ခဏကြာပြီးနောက် ထပ်မံကြိုးစားပါ။",
   "purchaseErrorInsufficientPermissions": "{accountName} ဖြင့် အစီအစဉ်ကို စာရင်းသွင်း၍မရပါ။ ငွေပေးချေမှုအချက်အလက်ကို စစ်ဆေးပြီး ထပ်မံကြိုးစားပါ",
   "purchaseErrorPaymentPending": "ငွေပေးချေမှုကို ဆိုင်းငံ့ထားသည်။ လော့ဂ်အင်ဝင်ထားသော {accountName} ဖြင့် {storeName} ကို စစ်ဆေးပါ။",
-  "premiumUserThanksTitle": "Ahli premium",
+  "premiumUserThanksTitle": "သင်သည် ပရီမီယံအဖွဲ့ဝင်ဖြစ်သည်",
   "premiumUserThanksMessage": "Terima kasih atas penggunaan anda.\nBerkat anda, kami dapat terus menjalankan Medicalarm.",
   "premiumPricePerMonth": "({price}/sebulan)",
   "premiumCancelDescription": "• Setelah pembelian, pembatalan pembaruan otomatis boleh dilakukan di pengaturan akun aplikasi {storeName}. (Pembatalan pembaruan otomatis tidak boleh dilakukan dari dalam aplikasi).",

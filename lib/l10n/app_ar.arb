@@ -124,7 +124,7 @@
   "purchaseErrorOperationInProgress": "تجري عملية شراء بالفعل. يُرجى المحاولة مرة أخرى لاحقًا.",
   "purchaseErrorInsufficientPermissions": "لا يمكنك الاشتراك في خطة باستخدام {accountName}. يُرجى التحقق من معلومات الدفع والمحاولة مرة أخرى",
   "purchaseErrorPaymentPending": "الدفع معلّق. يُرجى التحقق من {storeName} باستخدام الحساب المسجّل دخوله {accountName}.",
-  "premiumUserThanksTitle": "أنت عضو متميز",
+  "premiumUserThanksTitle": "أنت عضو مميز",
   "premiumUserThanksMessage": "شكرًا لاستخدامك. بفضل دعمكم، يمكننا الاستمرار في تشغيل Medicalarm.",
   "premiumPricePerMonth": "({price}/شهر)",
   "premiumCancelDescription": "• يمكنك إلغاء التجديد التلقائي بعد الشراء عن طريق إعدادات الحساب في تطبيق {storeName}. (لا يمكن إلغاء التجديد التلقائي من داخل التطبيق).",

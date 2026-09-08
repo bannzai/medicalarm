@@ -124,7 +124,7 @@
   "purchaseErrorOperationInProgress": "May isinasagawang pagbili na. Pakisubukang muli mamaya.",
   "purchaseErrorInsufficientPermissions": "Hindi ka makakapag-subscribe sa isang plan gamit ang {accountName}. Suriin ang impormasyon ng pagbabayad at subukan muli",
   "purchaseErrorPaymentPending": "Naka-pending ang pagbabayad. Pakitingnan ang {storeName} gamit ang naka-sign-in na account na {accountName}.",
-  "premiumUserThanksTitle": "Ikaw ay isang premium na miyembro.",
+  "premiumUserThanksTitle": "Premium member ka",
   "premiumUserThanksMessage": "Salamat sa iyong paggamit. Dahil sa inyo, patuloy namin ang pagpapatakbo ng Medicalarm.",
   "premiumPricePerMonth": "(₱{price}/buwan)",
   "premiumCancelDescription": "Pagkatapos bumili, maaari mong kanselahin ang awtomatikong pag-update sa mga setting ng account ng {storeName} app. (Hindi mo maikansela ang awtomatikong pag-update mula sa loob ng app).",

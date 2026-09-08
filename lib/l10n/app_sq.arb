@@ -124,7 +124,7 @@
   "purchaseErrorOperationInProgress": "Një blerje është tashmë në proces. Ju lutemi provoni sërish më vonë.",
   "purchaseErrorInsufficientPermissions": "Nuk mund të abonoheni në një plan me {accountName}. Kontrolloni informacionet e pagesës dhe provoni përsëri",
   "purchaseErrorPaymentPending": "Pagesa është në pritje. Kontrolloni {storeName} me llogarinë e identifikuar {accountName}.",
-  "premiumUserThanksTitle": "Anëtar Premium",
+  "premiumUserThanksTitle": "Jeni anëtar premium",
   "premiumUserThanksMessage": "Faleminderit për përdorimin tuaj. Falë jush, ne jemi në gjendje të vazhdojmë funksionimin e Medicalarm.",
   "premiumPricePerMonth": "({price}/muaj)",
   "premiumCancelDescription": "Pas pas blerjes, anulimi automatik i rinovimit mund të bëhet në cilësimet e llogarisë së aplikacionit {storeName}. (Anulimi automatik i rinovimit nuk mund të bëhet nga brenda aplikacionit).",

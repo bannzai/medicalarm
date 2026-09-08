@@ -124,7 +124,7 @@
   "purchaseErrorOperationInProgress": "Ukuthenga sekuyaqhubeka. Sicela uzame futhi emuva kwesikhashana.",
   "purchaseErrorInsufficientPermissions": "Awukwazi ukubhalisela uhlelo nge-{accountName}. Hlola imininingwane yakho yokukhokha bese uzama futhi",
   "purchaseErrorPaymentPending": "Inkokhelo isalindile. Hlola i-{storeName} usebenzisa i-akhawunti ongene ngayo ethi {accountName}.",
-  "premiumUserThanksTitle": "Ngum member yePremium",
+  "premiumUserThanksTitle": "Uyilungu le-premium",
   "premiumUserThanksMessage": "Ngiyabonga ngokusebenzisa i-app yethu. Ngenxa yenu, sikwazile ukuqhubeka nokusebenzisa iMedicalarm.",
   "premiumPricePerMonth": "(R {price}/inyanga)",
   "premiumCancelDescription": "Ngemuva kokuthenga, ungayeka ukuvuselela ngokuzenzakalelayo kuzilungiselelo ze-akhawunti ye-{storeName} app. (Akukwazi ukwehla ukuvuselelwa ngokuzenzakalelayo kusuka ngaphakathi kwesoftware).",

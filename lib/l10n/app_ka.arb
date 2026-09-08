@@ -124,7 +124,7 @@
   "purchaseErrorOperationInProgress": "შეძენის პროცესი უკვე მიმდინარეობს. გთხოვთ, მოგვიანებით სცადოთ ხელახლა.",
   "purchaseErrorInsufficientPermissions": "{accountName}-ით გეგმაზე გამოწერა შეუძლებელია. შეამოწმეთ გადახდის ინფორმაცია და სცადეთ ხელახლა",
   "purchaseErrorPaymentPending": "გადახდა მოლოდინშია. შეამოწმეთ {storeName} ანგარიშით {accountName}, რომლითაც შესული ხართ.",
-  "premiumUserThanksTitle": "პრემიუმ წევრი ხართ",
+  "premiumUserThanksTitle": "თქვენ პრემიუმ წევრი ხართ",
   "premiumUserThanksMessage": "მადლობთ, რომ იყენებთ ჩვენს აპლიკაციას. მადლობა თქვენ, ჩვენ შეგვიძლია განვაგრძოთ Medicalarm-ის მართვა.",
   "premiumPricePerMonth": "({price}/თვეში)",
   "premiumCancelDescription": "• ყიდვის შემდეგ, თვითმხილველის ავტომატურად განახლების გაწყვეტა შეგიძლიათ {storeName} აპლიკაციის ანგარიში და დაბრუნების პარამეტრებში.(აპლიკაციის შიგნით თვითმხილველის ავტომატურად განახლების გაწყვეტა შეუძლებელია).",

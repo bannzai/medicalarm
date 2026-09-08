@@ -124,7 +124,7 @@
   "purchaseErrorOperationInProgress": "Μια αγορά βρίσκεται ήδη σε εξέλιξη. Δοκιμάστε ξανά αργότερα.",
   "purchaseErrorInsufficientPermissions": "Δεν μπορείτε να εγγραφείτε σε πρόγραμμα με το {accountName}. Ελέγξτε τα στοιχεία πληρωμής σας και δοκιμάστε ξανά",
   "purchaseErrorPaymentPending": "Η πληρωμή εκκρεμεί. Ελέγξτε το {storeName} με τον συνδεδεμένο λογαριασμό {accountName}.",
-  "premiumUserThanksTitle": "Είστε μέλος premium",
+  "premiumUserThanksTitle": "Είστε μέλος Premium",
   "premiumUserThanksMessage": "Σας ευχαριστούμε για τη χρήση μας. Χάρη σε εσάς, μπορούμε να συνεχίσουμε τη λειτουργία του Medicalarm.",
   "premiumPricePerMonth": "({price}/μήνα)",
   "premiumCancelDescription": "Αμέσως μετά την αγορά, η ακύρωση της αυτόματης ανανέωσης μπορεί να γίνει από τις ρυθμίσεις του λογαριασμού στην εφαρμογή {storeName}. (Η ακύρωση της αυτόματης ανανέωσης δεν μπορεί να γίνει εντός της εφαρμογής).",

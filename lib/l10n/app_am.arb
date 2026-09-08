@@ -124,7 +124,7 @@
   "purchaseErrorOperationInProgress": "የግዢ ሂደት እየተካሄደ ነው። እባክዎ ቆይተው እንደገና ይሞክሩ።",
   "purchaseErrorInsufficientPermissions": "በ{accountName} ዕቅድ መመዝገብ አይችሉም። የክፍያ መረጃዎን ካረጋገጡ በኋላ እንደገና ይሞክሩ",
   "purchaseErrorPaymentPending": "ክፍያው ቆሟል። በገባበት {accountName} በመጠቀም {storeName}ን ያረጋግጡ።",
-  "premiumUserThanksTitle": "ፕሪምየም አባል ነው",
+  "premiumUserThanksTitle": "እርስዎ የፕሪሚየም አባል ነዎት",
   "premiumUserThanksMessage": "እናመሰግናለን በእርግጥ የMedicalarm አውጪ ማስተናገድ ለማጽናት እንደምን እንደምታምሩን ተመለከት",
   "premiumPricePerMonth": "({price}/ወር)",
   "premiumCancelDescription": "• ግዥ በኋላ፣ የእቃ መለወጥ መስፈርት በ{storeName} አፕ አካውንት ማቅረብ ላይ ይቀጥላል። (ከዚህ በተለያዩ መንገዶች እዚህ ቀጥለት ይቀጥላል አለመፈጠር)።",

@@ -124,7 +124,7 @@
   "purchaseErrorOperationInProgress": "A vásárlás már folyamatban van. Kérjük, próbálja újra később.",
   "purchaseErrorInsufficientPermissions": "A(z) {accountName} fiókkal nem lehet előfizetni egy csomagra. Ellenőrizd a fizetési adatokat, majd próbáld újra",
   "purchaseErrorPaymentPending": "A fizetés függőben van. Ellenőrizd a {storeName} szolgáltatást a bejelentkezett {accountName} fiókkal.",
-  "premiumUserThanksTitle": "Prémium tagja van.",
+  "premiumUserThanksTitle": "Prémiumtag vagy",
   "premiumUserThanksMessage": "Köszönjük, hogy használja az alkalmazást. Hála Önnek, folytathatjuk a Medicalarm üzemeltetését.",
   "premiumPricePerMonth": "({price}/hónap)",
   "premiumCancelDescription": "A vásárlás után a {storeName} alkalmazás fiókbeállításaiban lemondhatja az automatikus megújítást. (Az alkalmazáson belül nem lehet lemondani az automatikus megújítást.)",

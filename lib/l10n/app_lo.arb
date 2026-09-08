@@ -124,7 +124,7 @@
   "purchaseErrorOperationInProgress": "ກຳລັງດຳເນີນການຊື້ຢູ່ແລ້ວ. ກະລຸນາລອງໃໝ່ພາຍຫຼັງ.",
   "purchaseErrorInsufficientPermissions": "ທ່ານບໍ່ສາມາດສະໝັກແຜນດ້ວຍ {accountName} ໄດ້. ກະລຸນາກວດສອບຂໍ້ມູນການຊຳລະເງິນ ແລະລອງອີກຄັ້ງ",
   "purchaseErrorPaymentPending": "ການຊຳລະເງິນຄ້າງຢູ່. ກະລຸນາກວດສອບ {storeName} ດ້ວຍບັນຊີ {accountName} ທີ່ທ່ານເຂົ້າລະບົບຢູ່.",
-  "premiumUserThanksTitle": "ປະເພດພິເສດ",
+  "premiumUserThanksTitle": "ທ່ານເປັນສະມາຊິກ Premium",
   "premiumUserThanksMessage": "ຂอบຄຸນສໍາລັບການໃຊ້ງານຂອງທ່ານ.\nອີກທັງສໍາລັບຄວາມຊ່ວຍເຫລືອທີ່ບໍລິສັດ Medicalarm ສາມາດບຳລຸງງານໄດ້ເລັດດໍາລັງ.",
   "premiumPricePerMonth": "({price}/ດືນ)",
   "premiumCancelDescription": "・ຫຼັງຈາກຊື້, ສາມາດຍົກເລີກການອັບເດດເອີ້ນສິນຄ້າໄດ້ທີ່ການຕັ້ງບັນຊີຂອງ{storeName} (ບໍ່ສາມາດຍົກເລີກໃນແອບເອັບ) 。",

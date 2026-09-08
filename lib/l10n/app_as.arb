@@ -124,7 +124,7 @@
   "purchaseErrorOperationInProgress": "এটা ক্ৰয় প্ৰক্ৰিয়া ইতিমধ্যে চলি আছে। অনুগ্ৰহ কৰি কিছু সময় পিছত পুনৰ চেষ্টা কৰক।",
   "purchaseErrorInsufficientPermissions": "আপোনাৰ {accountName} ব্যৱহাৰ কৰি প্লেনত সদস্যভুক্ত হ’ব নোৱাৰে। আপোনাৰ পেমেণ্টৰ তথ্য পৰীক্ষা কৰি পুনৰ চেষ্টা কৰক",
   "purchaseErrorPaymentPending": "পেমেণ্ট ৰৈ আছে। লগ ইন কৰা {accountName} ব্যৱহাৰ কৰি {storeName} পৰীক্ষা কৰক।",
-  "premiumUserThanksTitle": "প্ৰিমিয়াম সদস্য",
+  "premiumUserThanksTitle": "আপুনি এজন প্ৰিমিয়াম সদস্য",
   "premiumUserThanksMessage": "আপনার ব্যবহারের জন্য ধন্যবাদ।আপনার কারণে Medicalarm এর পরিচালনা চালিয়ে যেতে পারছি।",
   "premiumPricePerMonth": "({price}/মাহ)",
   "premiumCancelDescription": "• ক্রয়ের পর, স্বয়ংক্রিয় আপডেট বাতিল করা যাবে {storeName} অ্যাপের অ্যাকাউন্ট সেটিংসে। (অ্যাপে থেকে স্বয়ংক্রিয় আপডেট বাতিল করা যাবে না)।",
