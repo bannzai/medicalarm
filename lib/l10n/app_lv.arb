@@ -48,7 +48,7 @@
   "doseReceiver": "Zāļu lietotājs",
   "defaultDoseReceiver": "Es",
   "doseReceiverMaxCount": "Varat reģistrēt līdz {count} personām, kas lieto medikamentus",
-  "increaseLimitWithPremium": "Palieliniet limitu uz {count} ar premium plānu",
+  "increaseLimitWithPremium": "Palieliniet ierobežojumu līdz {count}, izmantojot Premium plānu",
   "addDoseReceiver": "Pievienot lietotāju",
   "newDoseReceiver": "Jauni lietotāji",
   "reloginRequired": "Lūdzu, pierakstieties vēlreiz",

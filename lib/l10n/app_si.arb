@@ -48,7 +48,7 @@
   "doseReceiver": "ඖෂධය ලබාගන්නා පුද්ගලයා",
   "defaultDoseReceiver": "මම",
   "doseReceiverMaxCount": "ඔබට උපරිම වශයෙන් ඖෂධ ගන්නා පුද්ගලයන් {count} දෙනෙකු ලියාපදිංචි කළ හැකිය",
-  "increaseLimitWithPremium": "ප්‍රිමියම් සැලැස්මේදී සීමාව {count}කට වැඩි කරන්න",
+  "increaseLimitWithPremium": "Premium සැලසුම සමඟ සීමාව {count} දක්වා වැඩි කරන්න",
   "addDoseReceiver": "අනුභවකයා ඇතුල් කරන්න",
   "newDoseReceiver": "නව ඖෂධ භාවිතා කරන්නා",
   "reloginRequired": "මල්පැන් ඇති කරුණාකර නැවත අදාළකරන්න",

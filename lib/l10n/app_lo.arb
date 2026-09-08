@@ -48,7 +48,7 @@
   "doseReceiver": "ຜູ້ກິນຢາ",
   "defaultDoseReceiver": "ຕົນເອງ",
   "doseReceiverMaxCount": "ທ່ານສາມາດລົງທະບຽນຜູ້ໃຊ້ຢາໄດ້ສູງສຸດ {count} ຄົນ",
-  "increaseLimitWithPremium": "ເພີ່ມຂອບເຂດໃນແຜນພໍ່ແບບພໍ່ເພີ່ມຂະແໜນແບບຍຸ່ງແລະສູງໃຫ້ເພີ່ມເຂດຈິງສູງເປັນ {count}.",
+  "increaseLimitWithPremium": "ເພີ່ມຂີດຈຳກັດເປັນ {count} ດ້ວຍແຜນ Premium",
   "addDoseReceiver": "ພິເສດຄົນຮັບບຳລຸງ",
   "newDoseReceiver": "ຜູ້ໃຊ້ໃໝ່",
   "reloginRequired": "ກະລຸນາໍ ລັອກອິນໄວໆໃໝ່",

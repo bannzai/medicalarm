@@ -48,7 +48,7 @@
   "doseReceiver": "Lääkkeen käyttäjä",
   "defaultDoseReceiver": "Minä",
   "doseReceiverMaxCount": "Voit rekisteröidä enintään {count} lääkkeiden käyttäjää",
-  "increaseLimitWithPremium": "Lisäät ylärajaa {count} premium-suunnitelmassa.",
+  "increaseLimitWithPremium": "Nosta raja arvoon {count} Premium-tilauksella",
   "addDoseReceiver": "Lisää käytön käyttäjä",
   "newDoseReceiver": "Uusi käyttäjä",
   "reloginRequired": "Ole hyvä ja kirjaudu uudelleen",

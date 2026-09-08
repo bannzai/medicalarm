@@ -48,7 +48,7 @@
   "doseReceiver": "Umiinom ng gamot",
   "defaultDoseReceiver": "Ako",
   "doseReceiverMaxCount": "Maaari kang magparehistro ng hanggang {count} taong umiinom ng gamot",
-  "increaseLimitWithPremium": "Dagdagan ang limit sa premium na plano hanggang {count}.",
+  "increaseLimitWithPremium": "Taasan ang limit sa {count} gamit ang Premium plan",
   "addDoseReceiver": "Magdagdag ng umiinom",
   "newDoseReceiver": "Bagong umiinom",
   "reloginRequired": "Mangyaring mag-logout at mag-log in muli",

@@ -48,7 +48,7 @@
   "doseReceiver": "Medikamentenehmer",
   "defaultDoseReceiver": "Ich selbst",
   "doseReceiverMaxCount": "Sie können bis zu {count} Personen registrieren, die Medikamente einnehmen",
-  "increaseLimitWithPremium": "Erhöhen Sie das Limit auf {count} im Premium-Plan.",
+  "increaseLimitWithPremium": "Limit mit dem Premium-Abo auf {count} erhöhen",
   "addDoseReceiver": "Benutzer hinzufügen",
   "newDoseReceiver": "Neuer Einnahmer",
   "reloginRequired": "Bitte melden Sie sich erneut an",

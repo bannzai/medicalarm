@@ -48,7 +48,7 @@
   "doseReceiver": "נוטל התרופה",
   "defaultDoseReceiver": "אני",
   "doseReceiverMaxCount": "ניתן לרשום עד {count} נוטלי תרופות",
-  "increaseLimitWithPremium": "העלה את הגבול ל-{count} בתוכנית פרימיום",
+  "increaseLimitWithPremium": "הגדלת המגבלה ל־{count} עם תוכנית Premium",
   "addDoseReceiver": "הוסף נוטל תרופות",
   "newDoseReceiver": "משתמש חדש",
   "reloginRequired": "אנא התחבר שוב",

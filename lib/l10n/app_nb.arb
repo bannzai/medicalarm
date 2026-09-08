@@ -48,7 +48,7 @@
   "doseReceiver": "Medisinbruker",
   "defaultDoseReceiver": "Meg selv",
   "doseReceiverMaxCount": "Du kan registrere opptil {count} personer som tar medisiner",
-  "increaseLimitWithPremium": "Øk grensen til {count} med premiumplanen",
+  "increaseLimitWithPremium": "Øk grensen til {count} med Premium-abonnementet",
   "addDoseReceiver": "Legemiddelforbruker",
   "newDoseReceiver": "Ny bruker",
   "reloginRequired": "Vennligst logg inn igjen",

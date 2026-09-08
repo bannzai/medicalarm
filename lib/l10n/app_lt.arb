@@ -48,7 +48,7 @@
   "doseReceiver": "Vaistų vartotojas",
   "defaultDoseReceiver": "Aš",
   "doseReceiverMaxCount": "Galite užregistruoti iki {count} vaistus vartojančių asmenų",
-  "increaseLimitWithPremium": "Papildomame premium plano riba iki {count}",
+  "increaseLimitWithPremium": "Naudodami „Premium“ planą padidinkite limitą iki {count}",
   "addDoseReceiver": "Pridėti vartotoją",
   "newDoseReceiver": "Naujas vartotojas",
   "reloginRequired": "Prašome vėl prisijungti",

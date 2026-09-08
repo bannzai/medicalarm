@@ -48,7 +48,7 @@
   "doseReceiver": "متناول الدواء",
   "defaultDoseReceiver": "نفسي",
   "doseReceiverMaxCount": "يمكنك تسجيل ما يصل إلى {count} من متناولي الأدوية",
-  "increaseLimitWithPremium": "قم بزيادة الحد الأقصى إلى {count} مع خطة البريميوم",
+  "increaseLimitWithPremium": "زيادة الحد إلى {count} مع الخطة المميزة",
   "addDoseReceiver": "إضافة متناول الدواء",
   "newDoseReceiver": "مستخدم جديد",
   "reloginRequired": "يرجى إعادة تسجيل الدخول",

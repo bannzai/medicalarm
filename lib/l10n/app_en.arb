@@ -48,7 +48,7 @@
   "doseReceiver": "Medication taker",
   "defaultDoseReceiver": "Myself",
   "doseReceiverMaxCount": "You can register up to {count} medication users",
-  "increaseLimitWithPremium": "Increase the limit to {count} with the premium plan.",
+  "increaseLimitWithPremium": "Increase the limit to {count} with the Premium plan",
   "addDoseReceiver": "Add a medication taker",
   "newDoseReceiver": "New User",
   "reloginRequired": "Please re-login",

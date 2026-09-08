@@ -48,7 +48,7 @@
   "doseReceiver": "服药者",
   "defaultDoseReceiver": "我",
   "doseReceiverMaxCount": "最多可注册 {count} 位服药者",
-  "increaseLimitWithPremium": "在高级计划中将上限增加到{count}",
+  "increaseLimitWithPremium": "使用 Premium 方案将上限提高到 {count}",
   "addDoseReceiver": "添加服用者",
   "newDoseReceiver": "新服用者",
   "reloginRequired": "请重新登录",

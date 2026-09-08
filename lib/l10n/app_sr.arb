@@ -48,7 +48,7 @@
   "doseReceiver": "Особа која узима лек",
   "defaultDoseReceiver": "Ја",
   "doseReceiverMaxCount": "Можете регистровати највише {count} особа које узимају лекове",
-  "increaseLimitWithPremium": "Премиум планом повишите лимит на {count}",
+  "increaseLimitWithPremium": "Повећајте ограничење на {count} уз Premium план",
   "addDoseReceiver": "Додајте корисника",
   "newDoseReceiver": "Нови корисник лијека",
   "reloginRequired": "Молим вас да се поново пријавите",

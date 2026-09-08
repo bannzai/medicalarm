@@ -48,7 +48,7 @@
   "doseReceiver": "औषध सेवनकर्ता",
   "defaultDoseReceiver": "म आफैं",
   "doseReceiverMaxCount": "तपाईंले बढीमा {count} जना औषधि सेवन गर्ने व्यक्तिहरू दर्ता गर्न सक्नुहुन्छ",
-  "increaseLimitWithPremium": "प्रीमियम योजना अन्तर्गत {count} मा सीमा बढाउनुहोस्",
+  "increaseLimitWithPremium": "Premium योजनासँगै सीमा {count} सम्म बढाउनुहोस्",
   "addDoseReceiver": "खुराककर्ता थप्नुहोस्",
   "newDoseReceiver": "नयाँ स्वीकारकर्ता",
   "reloginRequired": "कृपया पुनः लग इन गर्नुहोस्",

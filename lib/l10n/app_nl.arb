@@ -48,7 +48,7 @@
   "doseReceiver": "Medicijngebruiker",
   "defaultDoseReceiver": "Mezelf",
   "doseReceiverMaxCount": "U kunt maximaal {count} medicijngebruikers registreren",
-  "increaseLimitWithPremium": "Verhoog de limiet naar {count} met het premiumplan.",
+  "increaseLimitWithPremium": "Verhoog de limiet naar {count} met het Premium-abonnement",
   "addDoseReceiver": "Voeg gebruiker toe",
   "newDoseReceiver": "Nieuwe gebruiker",
   "reloginRequired": "Gelieve opnieuw in te loggen",

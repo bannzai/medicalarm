@@ -48,7 +48,7 @@
   "doseReceiver": "Person sy'n cymryd y feddyginiaeth",
   "defaultDoseReceiver": "Fi",
   "doseReceiverMaxCount": "Gallwch gofrestru hyd at {count} o bobl sy’n cymryd meddyginiaeth",
-  "increaseLimitWithPremium": "Cynyddu'r terfyn i {count} gyda'r cynllun premiwm",
+  "increaseLimitWithPremium": "Cynyddu’r terfyn i {count} gyda’r cynllun Premium",
   "addDoseReceiver": "Ychwanegwch y defnyddiwr",
   "newDoseReceiver": "Defnyddiwr newydd",
   "reloginRequired": "Ailwch i fewngofnodi",

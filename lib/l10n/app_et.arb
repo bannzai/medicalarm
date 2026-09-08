@@ -48,7 +48,7 @@
   "doseReceiver": "Ravimi võtja",
   "defaultDoseReceiver": "Mina",
   "doseReceiverMaxCount": "Saate registreerida kuni {count} ravimikasutajat",
-  "increaseLimitWithPremium": "Suurenda piirmäära {count} premium plaaniga",
+  "increaseLimitWithPremium": "Suurendage Premium-paketiga limiit väärtuseni {count}",
   "addDoseReceiver": "Lisa kasutaja",
   "newDoseReceiver": "Uus kasutaja",
   "reloginRequired": "Palun logige uuesti sisse",

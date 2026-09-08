@@ -48,7 +48,7 @@
   "doseReceiver": "អ្នកប្រើថ្នាំ",
   "defaultDoseReceiver": "ខ្លួនខ្ញុំ",
   "doseReceiverMaxCount": "អ្នកអាចចុះឈ្មោះអ្នកប្រើថ្នាំបានរហូតដល់ {count} នាក់",
-  "increaseLimitWithPremium": "ជំរុញកំណត់បន្ទាន់នៃការប្រាកដថាលេខអតិបរិមាឡើងទៅ{count}ជាមួយផែនការព្រីម្យូម",
+  "increaseLimitWithPremium": "បង្កើនកម្រិតកំណត់ដល់ {count} ជាមួយគម្រោង Premium",
   "addDoseReceiver": "បន្ថែមអ្នកប្រើប្រាស់",
   "newDoseReceiver": "អ្នកប្រើរៀបចំថ្មី",
   "reloginRequired": "សូមមកចូលឡើយ",

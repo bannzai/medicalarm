@@ -48,7 +48,7 @@
   "doseReceiver": "Persona que toma el medicamento",
   "defaultDoseReceiver": "Yo",
   "doseReceiverMaxCount": "Puedes registrar hasta {count} personas que toman medicamentos",
-  "increaseLimitWithPremium": "Aumentar el límite a {count} con el plan premium",
+  "increaseLimitWithPremium": "Aumenta el límite a {count} con el plan Premium",
   "addDoseReceiver": "Agregar tomador",
   "newDoseReceiver": "Nuevo usuario de medicación",
   "reloginRequired": "Vuelva a iniciar sesión",

@@ -48,7 +48,7 @@
   "doseReceiver": "Դեղամիջոց ընդունող անձ",
   "defaultDoseReceiver": "Ես",
   "doseReceiverMaxCount": "Կարող եք գրանցել մինչև {count} դեղորայք ընդունող անձի",
-  "increaseLimitWithPremium": "Ապրանքային պլանում սահմանափակումը {count} -ին բարձրացրեք",
+  "increaseLimitWithPremium": "Premium ծրագրով ավելացրեք սահմանաչափը մինչև {count}",
   "addDoseReceiver": "Ահեղին ավելացնել",
   "newDoseReceiver": " Նոր ընդունող",
   "reloginRequired": "Խնդրում ենք վերագումարել",

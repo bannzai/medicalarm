@@ -48,7 +48,7 @@
   "doseReceiver": "መድኃኒት ተጠቃሚ",
   "defaultDoseReceiver": "ራሴ",
   "doseReceiverMaxCount": "እስከ {count} መድኃኒት ተጠቃሚዎችን መመዝገብ ይችላሉ",
-  "increaseLimitWithPremium": "ከፕሪሚየም እቅፍ ጋር ወደ አንድ አዋቂ {count} ይጨምር",
+  "increaseLimitWithPremium": "በPremium ዕቅድ ገደቡን ወደ {count} ያሳድጉ",
   "addDoseReceiver": "መድረሻን አክል",
   "newDoseReceiver": "አዲስ የመውለድ ተጠቃሚ",
   "reloginRequired": "እባክዎን ወደ ድረ-ገጹ ይቀጥሉ",
