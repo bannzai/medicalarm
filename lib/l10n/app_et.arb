@@ -198,7 +198,7 @@
   "invitationCodeShareDescription": "Liikmete kutsumiseks jagage seda koodi",
   "invitationCodeExpiresAt": "Kehtiv kuni: {date}",
   "copyInvitationCode": "Kopeeri kood",
-  "invitationCodeCopied": "Kutse kood kopeeritud",
+  "invitationCodeCopied": "Kutse kood kopeeriti",
   "issueInvitationCode": "Loo kutsekood",
   "groupSettings": "Grupi seaded",
   "members": "Liikmed",

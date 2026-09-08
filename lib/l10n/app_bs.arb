@@ -198,7 +198,7 @@
   "invitationCodeShareDescription": "Podijelite ovaj kod da pozovete članove",
   "invitationCodeExpiresAt": "Važi do: {date}",
   "copyInvitationCode": "Kopiraj kod",
-  "invitationCodeCopied": "Pozivni kod je kopiran",
+  "invitationCodeCopied": "Kod pozivnice je kopiran",
   "issueInvitationCode": "Generiši pozivni kod",
   "groupSettings": "Postavke grupe",
   "members": "Članovi",
