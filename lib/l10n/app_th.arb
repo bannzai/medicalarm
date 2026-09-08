@@ -236,7 +236,7 @@
   "achievementStreakLabel": "บันทึกต่อเนื่อง",
   "achievementStreakDaysSuffix": "วัน",
   "achievementMonthlyRateLabel": "อัตราความสำเร็จของ {month}",
-  "achievementLegendAllTaken": "รับประทานครบทั้งหมดแล้ว",
+  "achievementLegendAllTaken": "ทั้งหมด",
   "achievementLegendPartiallyTaken": "บางส่วน",
   "achievementLegendNoneTaken": "ยังไม่ได้รับประทานยา"
 }

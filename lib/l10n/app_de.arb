@@ -236,7 +236,7 @@
   "achievementStreakLabel": "Aufeinanderfolgende Einträge",
   "achievementStreakDaysSuffix": "Tage",
   "achievementMonthlyRateLabel": "Erfüllungsrate für {month}",
-  "achievementLegendAllTaken": "Alle eingenommen",
+  "achievementLegendAllTaken": "Alle",
   "achievementLegendPartiallyTaken": "Teilweise",
   "achievementLegendNoneTaken": "Nichts eingenommen"
 }

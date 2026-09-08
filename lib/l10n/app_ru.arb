@@ -236,7 +236,7 @@
   "achievementStreakLabel": "Последовательные записи",
   "achievementStreakDaysSuffix": "дн.",
   "achievementMonthlyRateLabel": "Показатель выполнения за {month}",
-  "achievementLegendAllTaken": "Все приняты",
+  "achievementLegendAllTaken": "Все",
   "achievementLegendPartiallyTaken": "Частично",
   "achievementLegendNoneTaken": "Ничего не принято"
 }
