@@ -186,7 +186,7 @@
   "groupManagement": "Gestió de grups",
   "createGroup": "Crear grup",
   "groupName": "Nom del grup",
-  "groupNameInputHint": "Introduïu el nom del grup",
+  "groupNameInputHint": "Introdueix el nom del grup",
   "groupIcon": "Icona",
   "groupMemberCount": "{count} membres",
   "defaultGroupBadge": "Per defecte",

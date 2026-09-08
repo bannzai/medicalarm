@@ -186,7 +186,7 @@
   "groupManagement": "Hópastjórnun",
   "createGroup": "Búa til hóp",
   "groupName": "Heiti hóps",
-  "groupNameInputHint": "Sláðu inn heiti hópsins",
+  "groupNameInputHint": "Sláðu inn heiti hóps",
   "groupIcon": "Tákn",
   "groupMemberCount": "{count} meðlimir",
   "defaultGroupBadge": "Sjálfgefið",

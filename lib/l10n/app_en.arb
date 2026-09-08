@@ -186,7 +186,7 @@
   "groupManagement": "Group Management",
   "createGroup": "Create Group",
   "groupName": "Group name",
-  "groupNameInputHint": "Enter a group name",
+  "groupNameInputHint": "Enter group name",
   "groupIcon": "Icon",
   "groupMemberCount": "{count} members",
   "defaultGroupBadge": "Default",

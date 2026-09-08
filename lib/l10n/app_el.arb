@@ -186,7 +186,7 @@
   "groupManagement": "Διαχείριση ομάδων",
   "createGroup": "Δημιουργία ομάδας",
   "groupName": "Όνομα ομάδας",
-  "groupNameInputHint": "Εισαγάγετε το όνομα της ομάδας",
+  "groupNameInputHint": "Εισαγάγετε όνομα ομάδας",
   "groupIcon": "Εικονίδιο",
   "groupMemberCount": "{count} μέλη",
   "defaultGroupBadge": "Προεπιλεγμένο",

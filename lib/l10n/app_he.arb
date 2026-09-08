@@ -186,7 +186,7 @@
   "groupManagement": "ניהול קבוצות",
   "createGroup": "יצירת קבוצה",
   "groupName": "שם הקבוצה",
-  "groupNameInputHint": "הזן את שם הקבוצה",
+  "groupNameInputHint": "הזן שם קבוצה",
   "groupIcon": "סמל",
   "groupMemberCount": "{count} חברים",
   "defaultGroupBadge": "ברירת מחדל",

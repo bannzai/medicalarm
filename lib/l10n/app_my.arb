@@ -186,7 +186,7 @@
   "groupManagement": "အဖွဲ့များ စီမံခန့်ခွဲခြင်း",
   "createGroup": "အုပ်စုဖန်တီးရန်",
   "groupName": "အဖွဲ့အမည်",
-  "groupNameInputHint": "အဖွဲ့အမည်ကို ထည့်ပါ",
+  "groupNameInputHint": "အဖွဲ့အမည်ထည့်ပါ",
   "groupIcon": "အိုင်ကွန်",
   "groupMemberCount": "အဖွဲ့ဝင် {count} ဦး",
   "defaultGroupBadge": "မူရင်း",
