@@ -43,7 +43,7 @@
   "medicineFormValidationError": "Nom va dori qabul qilish jadvalini kiriting",
   "quantity": "Miqdor",
   "quantityExample": "Masalan: 1 tabletka, 100 mg",
-  "medicationStartDate": "Qabul qilishni boshlash sanasi",
+  "medicationStartDate": "Dori qabul qilishni boshlash sanasi",
   "otherInformation": "Boshqa",
   "doseReceiver": "Dori qabul qiluvchi",
   "defaultDoseReceiver": "O‘zim",

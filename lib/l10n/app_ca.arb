@@ -43,7 +43,7 @@
   "medicineFormValidationError": "Introduïu el nom i l’horari de presa del medicament",
   "quantity": "Quantitat",
   "quantityExample": "Exemple: 1 comprimit, 100 mg",
-  "medicationStartDate": "Data d'inici de la presa",
+  "medicationStartDate": "Data d’inici de la medicació",
   "otherInformation": "Altres",
   "doseReceiver": "Persona que pren el medicament",
   "defaultDoseReceiver": "Jo",

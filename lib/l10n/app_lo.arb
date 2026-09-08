@@ -43,7 +43,7 @@
   "medicineFormValidationError": "ປ້ອນຊື່ ແລະ ຕາຕະລາງການກິນຢາ",
   "quantity": "ປະລິມານ",
   "quantityExample": "ຕົວຢ່າງ: 1 ເມັດ, 100 ມກ.",
-  "medicationStartDate": "ວັນທີ່ເລີ່ມໃຊ້ຢາ",
+  "medicationStartDate": "ວັນທີ່ເລີ່ມກິນຢາ",
   "otherInformation": "ອື່ນໆ",
   "doseReceiver": "ຜູ້ກິນຢາ",
   "defaultDoseReceiver": "ຕົນເອງ",

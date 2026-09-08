@@ -43,7 +43,7 @@
   "medicineFormValidationError": "Ilagay ang pangalan at iskedyul ng pag-inom ng gamot",
   "quantity": "Dami",
   "quantityExample": "Halimbawa: 1 tableta, 100 mg",
-  "medicationStartDate": "Petsa ng pagsisimula ng pag-inom",
+  "medicationStartDate": "Petsa ng pagsisimula ng pag-inom ng gamot",
   "otherInformation": "Iba pa",
   "doseReceiver": "Umiinom ng gamot",
   "defaultDoseReceiver": "Ako",

@@ -43,7 +43,7 @@
   "medicineFormValidationError": "Атауын және дәрі қабылдау кестесін енгізіңіз",
   "quantity": "Мөлшері",
   "quantityExample": "Мысалы: 1 таблетка, 100 мг",
-  "medicationStartDate": "Қабылдауды бастау күні",
+  "medicationStartDate": "Дәрі қабылдауды бастау күні",
   "otherInformation": "Басқа",
   "doseReceiver": "Дәрі қабылдаушы",
   "defaultDoseReceiver": "Өзім",

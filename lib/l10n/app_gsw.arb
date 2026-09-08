@@ -43,7 +43,7 @@
   "medicineFormValidationError": "Name und Einnahmeplan eingeben",
   "quantity": "Menge",
   "quantityExample": "Bispiel: 1 Tablette, 100 mg",
-  "medicationStartDate": "Startdatum vo de Einnahm",
+  "medicationStartDate": "Startdatum vo de Medikamenteneinnahm",
   "otherInformation": "Weitere",
   "doseReceiver": "Medikamentenutzer",
   "defaultDoseReceiver": "Ich",

@@ -43,7 +43,7 @@
   "medicineFormValidationError": "Մուտքագրեք անունը և դեղորայքի ընդունման ժամանակացույցը",
   "quantity": "መጠን",
   "quantityExample": "ምሳሌ፦ 1 ጽላት፣ 100 ሚ.ግ.",
-  "medicationStartDate": "የመውሰድ መጀመሪያ ቀን",
+  "medicationStartDate": "የመድኃኒት መጀመሪያ ቀን",
   "otherInformation": "ሌላ",
   "doseReceiver": "መድኃኒት ተጠቃሚ",
   "defaultDoseReceiver": "ራሴ",

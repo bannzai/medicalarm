@@ -43,7 +43,7 @@
   "medicineFormValidationError": "नाम और दवा लेने का शेड्यूल दर्ज करें",
   "quantity": "मात्रा",
   "quantityExample": "उदाहरण: 1 गोली, 100 mg",
-  "medicationStartDate": "सेवन शुरू करने की तारीख",
+  "medicationStartDate": "दवा शुरू करने की तारीख",
   "otherInformation": "अन्य",
   "doseReceiver": "दवा लेने वाला",
   "defaultDoseReceiver": "मैं",

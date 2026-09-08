@@ -43,7 +43,7 @@
   "medicineFormValidationError": "పేరు మరియు మందు తీసుకునే షెడ్యూల్‌ను నమోదు చేయండి",
   "quantity": "పరిమాణం",
   "quantityExample": "ఉదాహరణ: 1 మాత్ర, 100 mg",
-  "medicationStartDate": "తీసుకోవడం ప్రారంభించే తేదీ",
+  "medicationStartDate": "మందు ప్రారంభించే తేదీ",
   "otherInformation": "ఇతరాలు",
   "doseReceiver": "మందు తీసుకునే వ్యక్తి",
   "defaultDoseReceiver": "నేను",

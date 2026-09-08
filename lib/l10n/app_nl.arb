@@ -43,7 +43,7 @@
   "medicineFormValidationError": "Voer de naam en het innameschema in",
   "quantity": "Hoeveelheid",
   "quantityExample": "Voorbeeld: 1 tablet, 100 mg",
-  "medicationStartDate": "Startdatum inname",
+  "medicationStartDate": "Startdatum medicatie",
   "otherInformation": "Overig",
   "doseReceiver": "Medicijngebruiker",
   "defaultDoseReceiver": "Mezelf",

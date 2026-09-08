@@ -43,7 +43,7 @@
   "medicineFormValidationError": "შეიყვანეთ სახელი და მედიკამენტის მიღების გრაფიკი",
   "quantity": "რაოდენობა",
   "quantityExample": "მაგალითი: 1 ტაბლეტი, 100 მგ",
-  "medicationStartDate": "მიღების დაწყების თარიღი",
+  "medicationStartDate": "მედიკამენტის მიღების დაწყების თარიღი",
   "otherInformation": "სხვა",
   "doseReceiver": "მედიკამენტის მიმღები",
   "defaultDoseReceiver": "მე",

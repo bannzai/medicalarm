@@ -43,7 +43,7 @@
   "medicineFormValidationError": "Inserisci il nome e il programma di assunzione del farmaco",
   "quantity": "Quantità",
   "quantityExample": "Esempio: 1 compressa, 100 mg",
-  "medicationStartDate": "Data di inizio assunzione",
+  "medicationStartDate": "Data di inizio dell’assunzione",
   "otherInformation": "Altro",
   "doseReceiver": "Persona che assume il farmaco",
   "defaultDoseReceiver": "Io",

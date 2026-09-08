@@ -43,7 +43,7 @@
   "medicineFormValidationError": "Masukkan nama dan jadual pengambilan ubat",
   "quantity": "Kuantiti",
   "quantityExample": "Contoh: 1 tablet, 100 mg",
-  "medicationStartDate": "Tarikh mula pengambilan",
+  "medicationStartDate": "Tarikh mula mengambil ubat",
   "otherInformation": "Lain-lain",
   "doseReceiver": "Orang yang mengambil ubat",
   "defaultDoseReceiver": "Saya",

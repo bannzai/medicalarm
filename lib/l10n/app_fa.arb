@@ -43,7 +43,7 @@
   "medicineFormValidationError": "نام و برنامه مصرف دارو را وارد کنید",
   "quantity": "مقدار",
   "quantityExample": "مثال: ۱ قرص، ۱۰۰ میلی‌گرم",
-  "medicationStartDate": "تاریخ شروع مصرف",
+  "medicationStartDate": "تاریخ شروع مصرف دارو",
   "otherInformation": "سایر",
   "doseReceiver": "مصرف‌کننده دارو",
   "defaultDoseReceiver": "خودم",

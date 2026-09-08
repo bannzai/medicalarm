@@ -43,7 +43,7 @@
   "medicineFormValidationError": "Ange namn och medicinschema",
   "quantity": "Mängd",
   "quantityExample": "Exempel: 1 tablett, 100 mg",
-  "medicationStartDate": "Startdatum för intag",
+  "medicationStartDate": "Startdatum för medicinering",
   "otherInformation": "Övrigt",
   "doseReceiver": "Medicinanvändare",
   "defaultDoseReceiver": "Jag själv",

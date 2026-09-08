@@ -43,7 +43,7 @@
   "medicineFormValidationError": "ਨਾਮ ਅਤੇ ਦਵਾਈ ਲੈਣ ਦਾ ਸਮਾਂ-ਸਾਰਣੀ ਦਰਜ ਕਰੋ",
   "quantity": "ਮਾਤਰਾ",
   "quantityExample": "ਉਦਾਹਰਨ: 1 ਗੋਲੀ, 100 mg",
-  "medicationStartDate": "ਦਵਾਈ ਲੈਣ ਦੀ ਸ਼ੁਰੂਆਤੀ ਤਾਰੀਖ",
+  "medicationStartDate": "ਦਵਾਈ ਸ਼ੁਰੂ ਕਰਨ ਦੀ ਮਿਤੀ",
   "otherInformation": "ਹੋਰ",
   "doseReceiver": "ਦਵਾਈ ਲੈਣ ਵਾਲਾ",
   "defaultDoseReceiver": "ਮੈਂ",

@@ -43,7 +43,7 @@
   "medicineFormValidationError": "नाव आणि औषध घेण्याचे वेळापत्रक प्रविष्ट करा",
   "quantity": "मात्रा",
   "quantityExample": "उदाहरण: १ गोळी, १०० मिग्रॅ",
-  "medicationStartDate": "सेवन सुरू करण्याची तारीख",
+  "medicationStartDate": "औषध सुरू करण्याची तारीख",
   "otherInformation": "इतर",
   "doseReceiver": "औषध घेणारी व्यक्ती",
   "defaultDoseReceiver": "मी",

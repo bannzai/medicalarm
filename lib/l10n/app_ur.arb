@@ -43,7 +43,7 @@
   "medicineFormValidationError": "نام اور دوا لینے کا شیڈول درج کریں",
   "quantity": "مقدار",
   "quantityExample": "مثال: 1 گولی، 100 ملی گرام",
-  "medicationStartDate": "استعمال شروع کرنے کی تاریخ",
+  "medicationStartDate": "دوا شروع کرنے کی تاریخ",
   "otherInformation": "دیگر",
   "doseReceiver": "دوا لینے والا",
   "defaultDoseReceiver": "میں",

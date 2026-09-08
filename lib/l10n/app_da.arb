@@ -43,7 +43,7 @@
   "medicineFormValidationError": "Indtast navn og medicinplan",
   "quantity": "Mængde",
   "quantityExample": "Eksempel: 1 tablet, 100 mg",
-  "medicationStartDate": "Startdato for indtagelse",
+  "medicationStartDate": "Startdato for medicin",
   "otherInformation": "Andet",
   "doseReceiver": "Medicinbruger",
   "defaultDoseReceiver": "Mig selv",

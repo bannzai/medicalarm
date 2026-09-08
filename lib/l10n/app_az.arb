@@ -43,7 +43,7 @@
   "medicineFormValidationError": "Adı və dərman qəbul cədvəlini daxil edin",
   "quantity": "Miqdar",
   "quantityExample": "Məsələn: 1 tablet, 100 mq",
-  "medicationStartDate": "Qəbulun başlanğıc tarixi",
+  "medicationStartDate": "Dərmana başlama tarixi",
   "otherInformation": "Digər",
   "doseReceiver": "Dərman qəbul edən şəxs",
   "defaultDoseReceiver": "Özüm",
