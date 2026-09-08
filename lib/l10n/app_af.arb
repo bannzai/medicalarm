@@ -123,7 +123,7 @@
   "purchaseErrorUnexpectedBackend": "Aankope is tans nie beskikbaar nie. Probeer asseblief later weer. As die probleem voortduur, kontak ons via Instellings > Kontak ons. Besonderhede: {message}",
   "purchaseErrorOperationInProgress": "Daar is reeds ’n aankoop aan die gang. Probeer asseblief later weer.",
   "purchaseErrorInsufficientPermissions": "Jy kan met jou {accountName} nie op die plan inteken nie. Gaan jou betalingsinligting na en probeer weer.",
-  "purchaseErrorPaymentPending": "Betaling is hangende. Kontroleer {storeName} met die aangemelde {accountName}.",
+  "purchaseErrorPaymentPending": "Die betaling is hangende. Gaan {storeName} na met die aangemelde {accountName}.",
   "premiumUserThanksTitle": "Jy is ’n premiumlid",
   "premiumUserThanksMessage": "Dankie dat jy ons diens gebruik.\nDanksy jou kan ons voortgaan om Medicalarm te bedryf.",
   "premiumPricePerMonth": "({price}/maand)",

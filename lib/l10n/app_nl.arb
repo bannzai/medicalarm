@@ -123,7 +123,7 @@
   "purchaseErrorUnexpectedBackend": "Aankopen zijn momenteel niet beschikbaar. Probeer het later opnieuw. Neem bij aanhoudende problemen contact met ons op via Instellingen > Contact. Details: {message}",
   "purchaseErrorOperationInProgress": "Er wordt al een aankoop verwerkt. Controleer het later opnieuw.",
   "purchaseErrorInsufficientPermissions": "Je kunt je met {accountName} niet op het abonnement abonneren. Controleer je betaalgegevens en probeer het opnieuw.",
-  "purchaseErrorPaymentPending": "De betaling is in behandeling. Controleer {storeName} met het ingelogde account {accountName}.",
+  "purchaseErrorPaymentPending": "De betaling staat nog open. Controleer {storeName} met het ingelogde {accountName}.",
   "premiumUserThanksTitle": "Je bent premiumlid",
   "premiumUserThanksMessage": "Bedankt dat u onze dienst gebruikt.\nDankzij u kunnen we Medicalarm blijven onderhouden.",
   "premiumPricePerMonth": "({price}/maand)",

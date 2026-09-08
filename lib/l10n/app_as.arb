@@ -123,7 +123,7 @@
   "purchaseErrorUnexpectedBackend": "এতিয়া ক্ৰয় কৰিব নোৱাৰি। অলপ পিছত পুনৰ চেষ্টা কৰক। সমস্যাটো সমাধান নহ’লে, ছেটিংছ > যোগাযোগৰ জৰিয়তে আমাক জনাওক। বিৱৰণ: {message}",
   "purchaseErrorOperationInProgress": "ক্ৰয় প্ৰক্ৰিয়া ইতিমধ্যে চলি আছে। অনুগ্ৰহ কৰি কিছু সময় পিছত পুনৰ চেষ্টা কৰক।",
   "purchaseErrorInsufficientPermissions": "আপোনাৰ {accountName} ব্যৱহাৰ কৰি প্লেনটোত চাবস্ক্ৰাইব কৰিব নোৱাৰে। পেমেণ্টৰ তথ্য পৰীক্ষা কৰি পুনৰ চেষ্টা কৰক।",
-  "purchaseErrorPaymentPending": "পেমেণ্ট ৰৈ আছে। লগ ইন কৰা {accountName} ব্যৱহাৰ কৰি {storeName} পৰীক্ষা কৰক।",
+  "purchaseErrorPaymentPending": "পেমেণ্টটো অপেক্ষাৰত আছে। লগ ইন কৰা {accountName} ব্যৱহাৰ কৰি {storeName} পৰীক্ষা কৰক।",
   "premiumUserThanksTitle": "আপুনি এজন প্ৰিমিয়াম সদস্য",
   "premiumUserThanksMessage": "আমাৰ সেৱা ব্যৱহাৰ কৰাৰ বাবে ধন্যবাদ।\nআপোনাৰ সহায়ৰ বাবেই আমি Medicalarm চলাই যাব পাৰিছোঁ।",
   "premiumPricePerMonth": "({price}/মাহ)",

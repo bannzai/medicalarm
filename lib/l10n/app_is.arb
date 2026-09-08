@@ -123,7 +123,7 @@
   "purchaseErrorUnexpectedBackend": "Ekki er hægt að kaupa eins og er. Prófaðu aftur síðar. Ef vandamálið leysist ekki skaltu hafa samband við okkur í Stillingar > Hafa samband. Upplýsingar: {message}",
   "purchaseErrorOperationInProgress": "Kaup stendur nú þegar yfir. Vinsamlegast athugaðu aftur síðar.",
   "purchaseErrorInsufficientPermissions": "Þú getur ekki gerst áskrifandi að áskriftinni með {accountName}. Athugaðu greiðsluupplýsingarnar og reyndu aftur.",
-  "purchaseErrorPaymentPending": "Greiðslan er í bið. Athugaðu {storeName} með innskráða reikningnum {accountName}.",
+  "purchaseErrorPaymentPending": "Greiðslan er í bið. Athugaðu {storeName} með innskráða {accountName}.",
   "premiumUserThanksTitle": "Þú ert úrvalsmeðlimur",
   "premiumUserThanksMessage": "Takk fyrir að nota þjónustuna okkar.\nÞökk sé þér getum við haldið áfram að reka Medicalarm.",
   "premiumPricePerMonth": "({price}/mánuði)",

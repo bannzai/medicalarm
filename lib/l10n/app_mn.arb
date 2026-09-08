@@ -123,7 +123,7 @@
   "purchaseErrorUnexpectedBackend": "Одоогоор худалдан авалт хийх боломжгүй байна. Хэсэг хугацааны дараа дахин оролдоно уу. Асуудал шийдэгдэхгүй бол Тохиргоо > Холбоо барих хэсгээр бидэнтэй холбогдоно уу. Дэлгэрэнгүй: {message}",
   "purchaseErrorOperationInProgress": "Худалдан авалт аль хэдийн явагдаж байна. Хэсэг хугацааны дараа дахин шалгана уу.",
   "purchaseErrorInsufficientPermissions": "{accountName}-ээр төлөвлөгөөнд бүртгүүлэх боломжгүй. Төлбөрийн мэдээллээ шалгаад дахин оролдоно уу.",
-  "purchaseErrorPaymentPending": "Төлбөр хүлээгдэж байна. Нэвтэрсэн {accountName} бүртгэлээр {storeName}-г шалгана уу.",
+  "purchaseErrorPaymentPending": "Төлбөр хүлээгдэж байна. Нэвтэрсэн {accountName} ашиглан {storeName}-г шалгана уу.",
   "premiumUserThanksTitle": "Та премиум гишүүн байна",
   "premiumUserThanksMessage": "Манай үйлчилгээг ашиглаж байгаад баярлалаа.\nТаны ачаар бид Medicalarm-ийг үргэлжлүүлэн ажиллуулах боломжтой байна.",
   "premiumPricePerMonth": "({price}/сар)",

@@ -123,7 +123,7 @@
   "purchaseErrorUnexpectedBackend": "अहिले खरिद गर्न सकिँदैन। केही समयपछि फेरि प्रयास गर्नुहोस्। समस्या समाधान नभएमा, सेटिङहरू > सम्पर्क मार्फत हामीलाई सम्पर्क गर्नुहोस्। विवरण: {message}",
   "purchaseErrorOperationInProgress": "खरिद प्रक्रिया पहिले नै चलिरहेको छ। कृपया केही समयपछि फेरि जाँच गर्नुहोस्।",
   "purchaseErrorInsufficientPermissions": "तपाईं {accountName} प्रयोग गरेर योजनाको सदस्यता लिन सक्नुहुन्न। भुक्तानीसम्बन्धी जानकारी जाँच गरी पुनः प्रयास गर्नुहोस्।",
-  "purchaseErrorPaymentPending": "भुक्तानी पेन्डिङमा छ। लगइन गरिएको {accountName} प्रयोग गरी {storeName} जाँच गर्नुहोस्।",
+  "purchaseErrorPaymentPending": "भुक्तानी पेन्डिङमा छ। लग इन गरिएको {accountName} प्रयोग गरी {storeName} जाँच गर्नुहोस्।",
   "premiumUserThanksTitle": "तपाईं प्रिमियम सदस्य हुनुहुन्छ",
   "premiumUserThanksMessage": "हाम्रो सेवा प्रयोग गर्नुभएकोमा धन्यवाद।\nतपाईंको सहयोगले हामी Medicalarm सञ्चालन गर्न जारी राख्न सकेका छौँ।",
   "premiumPricePerMonth": "({price}/महिना)",

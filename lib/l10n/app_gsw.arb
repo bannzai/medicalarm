@@ -123,7 +123,7 @@
   "purchaseErrorUnexpectedBackend": "S Chaufe isch im Momänt nöd möglich. Bitte probiers spöter nomal. Wenn s Problem wiiterbesteit, meld dich über Iistellige > Kontakt bi eus. Details: {message}",
   "purchaseErrorOperationInProgress": "En Chauf isch bereits im Gang. Bitte probiere es spöter nomal.",
   "purchaseErrorInsufficientPermissions": "Mit {accountName} chönd Sie de Plan nöd abonniere. Prüefed Sie Ihri Zahligsinformatione und versueched Sie’s nomal.",
-  "purchaseErrorPaymentPending": "D Zahlig isch no offe. Prüef {storeName} mit em agmäldete Konto {accountName}.",
+  "purchaseErrorPaymentPending": "D Zahlig isch usstehend. Bitte prüefed {storeName} mit em agmäldete {accountName}.",
   "premiumUserThanksTitle": "Du bisch Premium-Mitglied",
   "premiumUserThanksMessage": "Danke, dass Sie üsen Dienst nutze.\nDank Ihne chöi mir Medicalarm wiiterfüehre.",
   "premiumPricePerMonth": "({price}/Monet)",

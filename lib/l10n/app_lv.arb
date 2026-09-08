@@ -123,7 +123,7 @@
   "purchaseErrorUnexpectedBackend": "Pašlaik pirkums nav pieejams. Lūdzu, mēģiniet vēlreiz vēlāk. Ja problēma turpinās, sazinieties ar mums sadaļā Iestatījumi > Sazināties. Detalizēta informācija: {message}",
   "purchaseErrorOperationInProgress": "Pirkums jau tiek apstrādāts. Lūdzu, pārbaudiet vēlāk.",
   "purchaseErrorInsufficientPermissions": "Ar {accountName} nevarat abonēt plānu. Pārbaudiet maksājuma informāciju un mēģiniet vēlreiz.",
-  "purchaseErrorPaymentPending": "Maksājums tiek apstrādāts. Pārbaudiet {storeName}, izmantojot pierakstīto kontu {accountName}.",
+  "purchaseErrorPaymentPending": "Maksājums tiek apstrādāts. Pārbaudiet {storeName}, izmantojot kontu {accountName}, kurā esat pierakstījies.",
   "premiumUserThanksTitle": "Jūs esat Premium dalībnieks",
   "premiumUserThanksMessage": "Paldies, ka izmantojat mūsu pakalpojumu.\nPateicoties jums, mēs varam turpināt Medicalarm darbību.",
   "premiumPricePerMonth": "({price}/mēn.)",

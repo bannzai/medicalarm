@@ -123,7 +123,7 @@
   "purchaseErrorUnexpectedBackend": "ବର୍ତ୍ତମାନ କ୍ରୟ କରିହେବ ନାହିଁ। କିଛି ସମୟ ପରେ ପୁଣି ଚେଷ୍ଟା କରନ୍ତୁ। ସମସ୍ୟା ରହିଲେ, ସେଟିଂସ୍ > ଯୋଗାଯୋଗ ମାଧ୍ୟମରେ ଆମ ସହିତ ଯୋଗାଯୋଗ କରନ୍ତୁ। ବିବରଣୀ: {message}",
   "purchaseErrorOperationInProgress": "କ୍ରୟ ପ୍ରକ୍ରିୟା ପୂର୍ବରୁ ଚାଲିଛି। ଦୟାକରି କିଛି ସମୟ ପରେ ପୁଣି ଯାଞ୍ଚ କରନ୍ତୁ।",
   "purchaseErrorInsufficientPermissions": "ଆପଣ {accountName} ମାଧ୍ୟମରେ ପ୍ଲାନ୍‌କୁ ସବ୍ସ୍କ୍ରାଇବ୍ କରିପାରିବେ ନାହିଁ। ପେମେଣ୍ଟ ସୂଚନା ଯାଞ୍ଚ କରି ପୁଣି ଚେଷ୍ଟା କରନ୍ତୁ।",
-  "purchaseErrorPaymentPending": "ପେମେଣ୍ଟ୍ ବିଚାରାଧୀନ ଅଛି। ଲଗ୍‌ଇନ୍‌ କରାଯାଇଥିବା {accountName} ବ୍ୟବହାର କରି {storeName} ଯାଞ୍ଚ କରନ୍ତୁ।",
+  "purchaseErrorPaymentPending": "ପେମେଣ୍ଟ୍‌ଟି ବିଚାରାଧୀନ ଅଛି। ଲଗ୍‌ଇନ୍‌ କରାଯାଇଥିବା {accountName} ବ୍ୟବହାର କରି {storeName} ଯାଞ୍ଚ କରନ୍ତୁ।",
   "premiumUserThanksTitle": "ଆପଣ ଜଣେ ପ୍ରିମିୟମ ସଦସ୍ୟ",
   "premiumUserThanksMessage": "ଆମର ସେବା ବ୍ୟବହାର କରିଥିବାରୁ ଧନ୍ୟବାଦ।\nଆପଣଙ୍କ ଯୋଗୁଁ ଆମେ Medicalarm ଚଳାଇ ରଖିପାରୁଛୁ।",
   "premiumPricePerMonth": "({price}/ମାସ)",

@@ -123,7 +123,7 @@
   "purchaseErrorUnexpectedBackend": "ຕອນນີ້ບໍ່ສາມາດຊື້ໄດ້. ກະລຸນາລອງໃໝ່ພາຍຫຼັງ. ຖ້າບັນຫາຍັງບໍ່ຫາຍໄປ, ຕິດຕໍ່ຫາພວກເຮົາຜ່ານ ການຕັ້ງຄ່າ > ຕິດຕໍ່ພວກເຮົາ. ລາຍລະອຽດ: {message}",
   "purchaseErrorOperationInProgress": "ການຊື້ກຳລັງດຳເນີນຢູ່ແລ້ວ. ກະລຸນາກວດສອບອີກຄັ້ງພາຍຫຼັງ.",
   "purchaseErrorInsufficientPermissions": "ທ່ານບໍ່ສາມາດສະໝັກໃຊ້ແຜນດ້ວຍ {accountName} ໄດ້. ກວດສອບຂໍ້ມູນການຊຳລະ ແລ້ວລອງອີກຄັ້ງ.",
-  "purchaseErrorPaymentPending": "ການຊຳລະເງິນຄ້າງຢູ່. ກະລຸນາກວດສອບ {storeName} ດ້ວຍບັນຊີ {accountName} ທີ່ທ່ານເຂົ້າລະບົບຢູ່.",
+  "purchaseErrorPaymentPending": "ການຊຳລະເງິນກຳລັງລໍຖ້າ. ກະລຸນາກວດສອບ {storeName} ດ້ວຍ {accountName} ທີ່ທ່ານເຂົ້າລະບົບ.",
   "premiumUserThanksTitle": "ທ່ານເປັນສະມາຊິກ Premium",
   "premiumUserThanksMessage": "ຂອບໃຈທີ່ໃຊ້ບໍລິການຂອງພວກເຮົາ.\nດ້ວຍການສະໜັບສະໜູນຈາກທ່ານ ພວກເຮົາຈຶ່ງສາມາດດຳເນີນ Medicalarm ຕໍ່ໄປໄດ້.",
   "premiumPricePerMonth": "({price}/ເດືອນ)",

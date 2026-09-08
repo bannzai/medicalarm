@@ -123,7 +123,7 @@
   "purchaseErrorUnexpectedBackend": "فی الحال خریداری ممکن نہیں ہے۔ کچھ دیر بعد دوبارہ کوشش کریں۔ اگر مسئلہ برقرار رہے تو ترتیبات > ہم سے رابطہ کریں کے ذریعے ہم سے رابطہ کریں۔ تفصیلات: {message}",
   "purchaseErrorOperationInProgress": "خریداری کا عمل پہلے ہی جاری ہے۔ براہِ کرم کچھ دیر بعد دوبارہ چیک کریں۔",
   "purchaseErrorInsufficientPermissions": "آپ {accountName} کے ذریعے پلان کی رکنیت نہیں لے سکتے۔ ادائیگی کی معلومات چیک کریں اور دوبارہ کوشش کریں۔",
-  "purchaseErrorPaymentPending": "ادائیگی زیرِ التوا ہے۔ سائن اِن کیے گئے {accountName} اکاؤنٹ سے {storeName} کو چیک کریں۔",
+  "purchaseErrorPaymentPending": "ادائیگی زیر التوا ہے۔ سائن اِن کیے گئے {accountName} سے {storeName} چیک کریں۔",
   "premiumUserThanksTitle": "آپ پریمیم رکن ہیں",
   "premiumUserThanksMessage": "ہماری سروس استعمال کرنے کا شکریہ۔\nآپ کی بدولت ہم Medicalarm کو جاری رکھ سکتے ہیں۔",
   "premiumPricePerMonth": "({price}/ماہ)",

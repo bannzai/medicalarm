@@ -123,7 +123,7 @@
   "purchaseErrorUnexpectedBackend": "தற்போது வாங்க முடியாது. சிறிது நேரம் கழித்து மீண்டும் முயற்சிக்கவும். சிக்கல் தொடர்ந்தால், அமைப்புகள் > எங்களைத் தொடர்புகொள்ளவும் மூலம் எங்களைத் தொடர்புகொள்ளவும். விவரங்கள்: {message}",
   "purchaseErrorOperationInProgress": "வாங்குதல் ஏற்கனவே நடைபெற்று வருகிறது. சிறிது நேரம் கழித்து மீண்டும் சரிபார்க்கவும்.",
   "purchaseErrorInsufficientPermissions": "{accountName} மூலம் திட்டத்திற்கு சந்தா செலுத்த முடியாது. உங்கள் கட்டணத் தகவலைச் சரிபார்த்து மீண்டும் முயற்சிக்கவும்.",
-  "purchaseErrorPaymentPending": "கட்டணம் நிலுவையில் உள்ளது. உள்நுழைந்துள்ள {accountName} கணக்கைப் பயன்படுத்தி {storeName} ஐச் சரிபார்க்கவும்.",
+  "purchaseErrorPaymentPending": "கட்டணம் நிலுவையில் உள்ளது. உள்நுழைந்துள்ள {accountName} மூலம் {storeName}ஐச் சரிபார்க்கவும்.",
   "premiumUserThanksTitle": "நீங்கள் பிரீமியம் உறுப்பினர்",
   "premiumUserThanksMessage": "எங்கள் சேவையைப் பயன்படுத்தியதற்கு நன்றி.\nஉங்கள் ஆதரவால் Medicalarm செயல்பாட்டைத் தொடர்ந்து நடத்த முடிகிறது.",
   "premiumPricePerMonth": "({price}/மாதம்)",

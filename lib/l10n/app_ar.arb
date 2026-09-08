@@ -123,7 +123,7 @@
   "purchaseErrorUnexpectedBackend": "لا يمكن إتمام الشراء حاليًا. يُرجى المحاولة مرة أخرى لاحقًا. إذا استمرت المشكلة، يُرجى التواصل معنا من الإعدادات > اتصل بنا. التفاصيل: {message}",
   "purchaseErrorOperationInProgress": "تجري عملية شراء بالفعل. يُرجى التحقق مرة أخرى لاحقًا.",
   "purchaseErrorInsufficientPermissions": "لا يمكنك الاشتراك في الخطة باستخدام {accountName}. تحقّق من معلومات الدفع وحاول مرة أخرى.",
-  "purchaseErrorPaymentPending": "الدفع معلّق. يُرجى التحقق من {storeName} باستخدام الحساب المسجّل دخوله {accountName}.",
+  "purchaseErrorPaymentPending": "الدفع قيد الانتظار. يُرجى التحقق من {storeName} باستخدام {accountName} المُسجّل الدخول.",
   "premiumUserThanksTitle": "أنت عضو مميز",
   "premiumUserThanksMessage": "شكرًا لاستخدامكم التطبيق.\nبفضلكم، نتمكن من مواصلة تشغيل Medicalarm.",
   "premiumPricePerMonth": "({price}/شهريًا)",

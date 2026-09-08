@@ -123,7 +123,7 @@
   "purchaseErrorUnexpectedBackend": "Køb er ikke muligt lige nu. Prøv igen senere. Hvis problemet fortsætter, kan du kontakte os via Indstillinger > Kontakt os. Detaljer: {message}",
   "purchaseErrorOperationInProgress": "Et køb er allerede i gang. Prøv igen senere.",
   "purchaseErrorInsufficientPermissions": "Du kan ikke abonnere på abonnementet med {accountName}. Kontrollér dine betalingsoplysninger, og prøv igen.",
-  "purchaseErrorPaymentPending": "Betalingen afventer. Kontrollér {storeName} med den konto, du er logget ind på: {accountName}.",
+  "purchaseErrorPaymentPending": "Betalingen afventer behandling. Kontrollér {storeName} med den loggede {accountName}.",
   "premiumUserThanksTitle": "Du er premium-medlem",
   "premiumUserThanksMessage": "Tak, fordi du bruger vores tjeneste.\nTakket være dig kan vi fortsætte driften af Medicalarm.",
   "premiumPricePerMonth": "({price}/måned)",

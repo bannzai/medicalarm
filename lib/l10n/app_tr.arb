@@ -123,7 +123,7 @@
   "purchaseErrorUnexpectedBackend": "Şu anda satın alma işlemi yapılamıyor. Lütfen bir süre sonra tekrar deneyin. Sorun devam ederse Ayarlar > Bize ulaşın üzerinden bizimle iletişime geçin. Ayrıntılar: {message}",
   "purchaseErrorOperationInProgress": "Satın alma işlemi zaten devam ediyor. Lütfen daha sonra tekrar kontrol edin.",
   "purchaseErrorInsufficientPermissions": "{accountName} ile plana abone olamazsınız. Ödeme bilgilerinizi kontrol edip tekrar deneyin.",
-  "purchaseErrorPaymentPending": "Ödeme beklemede. Giriş yaptığınız {accountName} hesabıyla {storeName} hizmetini kontrol edin.",
+  "purchaseErrorPaymentPending": "Ödeme beklemede. Giriş yaptığınız {accountName} ile {storeName} hizmetini kontrol edin.",
   "premiumUserThanksTitle": "Premium üyesisiniz",
   "premiumUserThanksMessage": "Hizmetimizi kullandığınız için teşekkür ederiz.\nSizin sayenizde Medicalarm’ı işletmeye devam edebiliyoruz.",
   "premiumPricePerMonth": "({price}/ay)",

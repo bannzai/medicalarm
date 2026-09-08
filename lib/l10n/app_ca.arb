@@ -123,7 +123,7 @@
   "purchaseErrorUnexpectedBackend": "La compra no està disponible ara. Torna-ho a provar més tard. Si el problema continua, contacta amb nosaltres a Configuració > Contacte. Detalls: {message}",
   "purchaseErrorOperationInProgress": "La compra ja està en curs. Torneu-ho a provar més tard.",
   "purchaseErrorInsufficientPermissions": "No pots subscriure’t al pla amb {accountName}. Comprova la informació de pagament i torna-ho a provar.",
-  "purchaseErrorPaymentPending": "El pagament està pendent. Comprova {storeName} amb el compte amb què has iniciat sessió, {accountName}.",
+  "purchaseErrorPaymentPending": "El pagament està pendent. Comproveu {storeName} amb el compte {accountName} amb què heu iniciat sessió.",
   "premiumUserThanksTitle": "Ets membre premium",
   "premiumUserThanksMessage": "Gràcies per utilitzar el nostre servei.\nGràcies a vosaltres, podem continuar mantenint Medicalarm.",
   "premiumPricePerMonth": "({price}/mes)",

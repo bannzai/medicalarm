@@ -123,7 +123,7 @@
   "purchaseErrorUnexpectedBackend": "Šiuo metu įsigyti negalima. Pabandykite dar kartą vėliau. Jei problema išlieka, susisiekite su mumis skiltyje Nustatymai > Susisiekti. Išsami informacija: {message}",
   "purchaseErrorOperationInProgress": "Pirkimas jau vykdomas. Patikrinkite dar kartą vėliau.",
   "purchaseErrorInsufficientPermissions": "Naudodami {accountName} negalite užsisakyti plano. Patikrinkite mokėjimo informaciją ir bandykite dar kartą.",
-  "purchaseErrorPaymentPending": "Mokėjimas laukia patvirtinimo. Patikrinkite {storeName} naudodami prisijungtą paskyrą {accountName}.",
+  "purchaseErrorPaymentPending": "Mokėjimas laukia patvirtinimo. Patikrinkite {storeName} naudodami prisijungtą {accountName}.",
   "premiumUserThanksTitle": "Esate „Premium“ narys",
   "premiumUserThanksMessage": "Dėkojame, kad naudojatės mūsų paslauga.\nJūsų dėka galime toliau vykdyti Medicalarm veiklą.",
   "premiumPricePerMonth": "({price}/mėn.)",
