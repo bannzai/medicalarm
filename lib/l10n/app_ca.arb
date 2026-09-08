@@ -73,7 +73,7 @@
   "everyXDaysFormat": "Cada {count} dies",
   "cycleDaysFormat": "Prendre durant {consecutiveDays} dies / descansar {restDays} dies",
   "consecutiveDaysFormat": "Prendre durant {count} dies",
-  "restDaysFormat": "{count} dies sense prendre el medicament",
+  "restDaysFormat": "{count} dies de pausa de la medicació",
   "limitedTimeDiscount": "Fes-lo servir per sempre a un preu especial",
   "monthlyPlan": "Pla mensual",
   "annualPlan": "Pla anual",

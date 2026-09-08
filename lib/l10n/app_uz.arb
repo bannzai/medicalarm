@@ -73,7 +73,7 @@
   "everyXDaysFormat": "Har {count} kunda",
   "cycleDaysFormat": "{consecutiveDays} kun qabul qilish / {restDays} kun tanaffus",
   "consecutiveDaysFormat": "{count} kun qabul qilish",
-  "restDaysFormat": "{count} kun dori qabul qilmaslik",
+  "restDaysFormat": "{count} kun dori qabul qilish tanaffusi",
   "limitedTimeDiscount": "Hozir maxsus narxda abadiy foydalaning",
   "monthlyPlan": "Oylik reja",
   "annualPlan": "Yillik reja",

@@ -73,7 +73,7 @@
   "everyXDaysFormat": "Çdo {count} ditë",
   "cycleDaysFormat": "Merrni për {consecutiveDays} ditë / pushim për {restDays} ditë",
   "consecutiveDaysFormat": "Merreni për {count} ditë",
-  "restDaysFormat": "{count} ditë pa ilaçe",
+  "restDaysFormat": "{count} ditë pauzë nga ilaçi",
   "limitedTimeDiscount": "Përdoreni përgjithmonë me një çmim special",
   "monthlyPlan": "Plan mujor",
   "annualPlan": "Plani vjetor",

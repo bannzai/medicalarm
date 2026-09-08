@@ -73,7 +73,7 @@
   "everyXDaysFormat": "Alle {count} Tage",
   "cycleDaysFormat": "{consecutiveDays} Tage einnehmen / {restDays} Tage Pause",
   "consecutiveDaysFormat": "{count} Tage einnehmen",
-  "restDaysFormat": "{count} Tage Medikamentenpause",
+  "restDaysFormat": "{count} Tage Einnahmepause",
   "limitedTimeDiscount": "Jetzt zum Sonderpreis dauerhaft nutzen",
   "monthlyPlan": "Monatlicher Tarif",
   "annualPlan": "Jahresplan",

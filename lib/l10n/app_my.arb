@@ -73,7 +73,7 @@
   "everyXDaysFormat": "{count} ရက်တစ်ကြိမ်",
   "cycleDaysFormat": "{consecutiveDays} ရက် သောက်ရန် / {restDays} ရက် နားရန်",
   "consecutiveDaysFormat": "{count} ရက် သောက်ရန်",
-  "restDaysFormat": "ဆေးသောက်ခြင်းကို {count} ရက် ရပ်နားရန်",
+  "restDaysFormat": "ဆေးမသောက်ရသော {count} ရက်",
   "limitedTimeDiscount": "ယခုပင် အထူးဈေးနှုန်းဖြင့် အမြဲတမ်းအသုံးပြုနိုင်ပါသည်",
   "monthlyPlan": "လစဉ်အစီအစဉ်",
   "annualPlan": "နှစ်စဉ်အစီအစဉ်",

@@ -73,7 +73,7 @@
   "everyXDaysFormat": "ყოველ {count} დღეში",
   "cycleDaysFormat": "მიღება {consecutiveDays} დღის განმავლობაში / {restDays} დღიანი შესვენება",
   "consecutiveDaysFormat": "მიიღეთ {count} დღის განმავლობაში",
-  "restDaysFormat": "მედიკამენტის შეწყვეტა {count} დღით",
+  "restDaysFormat": "{count} დღე მედიკამენტის შეწყვეტა",
   "limitedTimeDiscount": "ისარგებლეთ სამუდამოდ სპეციალურ ფასად",
   "monthlyPlan": "ყოველთვიური გეგმა",
   "annualPlan": "წლიური გეგმა",

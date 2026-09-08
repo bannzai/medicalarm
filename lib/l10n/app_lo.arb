@@ -73,7 +73,7 @@
   "everyXDaysFormat": "ທຸກໆ {count} ມື້",
   "cycleDaysFormat": "ໃຊ້ຢາ {consecutiveDays} ມື້ / ພັກຢາ {restDays} ມື້",
   "consecutiveDaysFormat": "ໃຊ້ເປັນເວລາ {count} ມື້",
-  "restDaysFormat": "ຢຸດໃຊ້ຢາ {count} ມື້",
+  "restDaysFormat": "ພັກກິນຢາ {count} ມື້",
   "limitedTimeDiscount": "ໃຊ້ໄດ້ຕະຫຼອດໄປໃນລາຄາພິເສດຕອນນີ້",
   "monthlyPlan": "ແຜນລາຍເດືອນ",
   "annualPlan": "ແຜນລາຍປີ",

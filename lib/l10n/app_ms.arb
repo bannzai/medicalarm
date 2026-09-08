@@ -73,7 +73,7 @@
   "everyXDaysFormat": "Setiap {count} hari",
   "cycleDaysFormat": "Ambil selama {consecutiveDays} hari / rehat selama {restDays} hari",
   "consecutiveDaysFormat": "Ambil selama {count} hari",
-  "restDaysFormat": "{count} hari berhenti mengambil ubat",
+  "restDaysFormat": "{count} hari tanpa mengambil ubat",
   "limitedTimeDiscount": "Gunakannya selama-lamanya pada harga istimewa sekarang",
   "monthlyPlan": "Pelan bulanan",
   "annualPlan": "Pelan tahunan",

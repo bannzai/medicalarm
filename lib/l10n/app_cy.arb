@@ -73,7 +73,7 @@
   "everyXDaysFormat": "Bob {count} diwrnod",
   "cycleDaysFormat": "Cymryd am {consecutiveDays} diwrnod / seibiant o {restDays} diwrnod",
   "consecutiveDaysFormat": "Cymryd am {count} diwrnod",
-  "restDaysFormat": "{count} diwrnod heb feddyginiaeth",
+  "restDaysFormat": "{count} diwrnod heb gymryd meddyginiaeth",
   "limitedTimeDiscount": "Defnyddiwch ef am byth am bris arbennig",
   "monthlyPlan": "Cynllun misol",
   "annualPlan": "Cynllun blynyddol",

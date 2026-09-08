@@ -73,7 +73,7 @@
   "everyXDaysFormat": "Ik pēc {count} dienām",
   "cycleDaysFormat": "Lietot {consecutiveDays} dienas / {restDays} dienu pārtraukums",
   "consecutiveDaysFormat": "Lietot {count} dienas",
-  "restDaysFormat": "{count} dienu pārtraukums zāļu lietošanā",
+  "restDaysFormat": "{count} dienu zāļu lietošanas pārtraukums",
   "limitedTimeDiscount": "Izmantojiet to neierobežoti par īpašu cenu",
   "monthlyPlan": "Mēneša plāns",
   "annualPlan": "Gada plāns",

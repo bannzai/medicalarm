@@ -73,7 +73,7 @@
   "everyXDaysFormat": "ପ୍ରତି {count} ଦିନରେ",
   "cycleDaysFormat": "{consecutiveDays} ଦିନ ଔଷଧ ସେବନ / {restDays} ଦିନ ବିରତି",
   "consecutiveDaysFormat": "{count} ଦିନ ସେବନ",
-  "restDaysFormat": "{count} ଦିନ ଔଷଧ ବନ୍ଦ",
+  "restDaysFormat": "{count} ଦିନ ଔଷଧ ବିରତି",
   "limitedTimeDiscount": "ଏବେ ସ୍ୱତନ୍ତ୍ର ମୂଲ୍ୟରେ ସବୁଦିନ ପାଇଁ ବ୍ୟବହାର କରନ୍ତୁ",
   "monthlyPlan": "ମାସିକ ପ୍ଲାନ୍",
   "annualPlan": "ବାର୍ଷିକ ପ୍ଲାନ୍",

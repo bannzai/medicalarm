@@ -73,7 +73,7 @@
   "everyXDaysFormat": "{count} päivän välein",
   "cycleDaysFormat": "Käyttö {consecutiveDays} päivän ajan / {restDays} päivän tauko",
   "consecutiveDaysFormat": "Käytä {count} päivän ajan",
-  "restDaysFormat": "{count} päivän lääkitystauko",
+  "restDaysFormat": "{count} päivää ilman lääkettä",
   "limitedTimeDiscount": "Käytä sitä nyt ikuisesti erikoishintaan",
   "monthlyPlan": "Kuukausipaketti",
   "annualPlan": "Vuosipaketti",

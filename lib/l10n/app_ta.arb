@@ -73,7 +73,7 @@
   "everyXDaysFormat": "ஒவ்வொரு {count} நாட்களுக்கு ஒருமுறை",
   "cycleDaysFormat": "{consecutiveDays} நாட்கள் எடுத்துக்கொள்ளவும் / {restDays} நாட்கள் இடைவெளி",
   "consecutiveDaysFormat": "{count} நாட்கள் உட்கொள்ளவும்",
-  "restDaysFormat": "{count} நாட்கள் மருந்து இடைநிறுத்தம்",
+  "restDaysFormat": "{count} நாட்கள் மருந்து இடைவெளி",
   "limitedTimeDiscount": "இப்போதே சிறப்பு விலையில் எப்போதும் பயன்படுத்துங்கள்",
   "monthlyPlan": "மாதாந்திரத் திட்டம்",
   "annualPlan": "ஆண்டுத் திட்டம்",

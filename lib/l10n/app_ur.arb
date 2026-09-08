@@ -73,7 +73,7 @@
   "everyXDaysFormat": "ہر {count} دن بعد",
   "cycleDaysFormat": "{consecutiveDays} دن دوا لیں / {restDays} دن وقفہ",
   "consecutiveDaysFormat": "{count} دن تک لیں",
-  "restDaysFormat": "{count} دن دوا بند",
+  "restDaysFormat": "{count} دن دوا سے وقفہ",
   "limitedTimeDiscount": "ابھی خصوصی قیمت پر ہمیشہ کے لیے استعمال کریں",
   "monthlyPlan": "ماہانہ پلان",
   "annualPlan": "سالانہ پلان",

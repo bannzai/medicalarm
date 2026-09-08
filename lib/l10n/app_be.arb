@@ -73,7 +73,7 @@
   "everyXDaysFormat": "Кожныя {count} дзён",
   "cycleDaysFormat": "Прымаць {consecutiveDays} дні / перапынак {restDays} дні",
   "consecutiveDaysFormat": "Прымаць {count} дзён",
-  "restDaysFormat": "Перапынак у прыёме лекаў: {count} дзён",
+  "restDaysFormat": "{count} дзён без прыёму лекаў",
   "limitedTimeDiscount": "Карыстайцеся назаўжды па спецыяльнай цане",
   "monthlyPlan": "Штомесячны план",
   "annualPlan": "Гадавы план",

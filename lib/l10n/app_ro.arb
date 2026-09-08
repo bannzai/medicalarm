@@ -73,7 +73,7 @@
   "everyXDaysFormat": "La fiecare {count} zile",
   "cycleDaysFormat": "Administrare timp de {consecutiveDays} zile / pauză de {restDays} zile",
   "consecutiveDaysFormat": "Administrare timp de {count} zile",
-  "restDaysFormat": "{count} zile fără medicamente",
+  "restDaysFormat": "{count} zile de pauză de la medicație",
   "limitedTimeDiscount": "Folosește-l pentru totdeauna la un preț special",
   "monthlyPlan": "Plan lunar",
   "annualPlan": "Plan anual",

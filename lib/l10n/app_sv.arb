@@ -73,7 +73,7 @@
   "everyXDaysFormat": "Var {count}:e dag",
   "cycleDaysFormat": "Ta i {consecutiveDays} dagar / {restDays} dagars paus",
   "consecutiveDaysFormat": "Ta i {count} dagar",
-  "restDaysFormat": "{count} dagar utan medicin",
+  "restDaysFormat": "{count} dagars medicinpaus",
   "limitedTimeDiscount": "Använd det för alltid till ett specialpris",
   "monthlyPlan": "Månadsplan",
   "annualPlan": "Årsplan",

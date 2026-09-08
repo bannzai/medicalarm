@@ -73,7 +73,7 @@
   "everyXDaysFormat": "Ар {count} күндө",
   "cycleDaysFormat": "{consecutiveDays} күн ичүү / {restDays} күн тыныгуу",
   "consecutiveDaysFormat": "{count} күн ичүү",
-  "restDaysFormat": "{count} күн дары ичпөө",
+  "restDaysFormat": "Дары ичпей турган {count} күн",
   "limitedTimeDiscount": "Азыр атайын баада түбөлүккө колдонуңуз",
   "monthlyPlan": "Айлык план",
   "annualPlan": "Жылдык план",

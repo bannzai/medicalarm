@@ -73,7 +73,7 @@
   "everyXDaysFormat": "Mỗi {count} ngày",
   "cycleDaysFormat": "Uống trong {consecutiveDays} ngày / nghỉ {restDays} ngày",
   "consecutiveDaysFormat": "Uống trong {count} ngày",
-  "restDaysFormat": "Nghỉ dùng thuốc {count} ngày",
+  "restDaysFormat": "{count} ngày ngừng thuốc",
   "limitedTimeDiscount": "Dùng mãi mãi với mức giá đặc biệt ngay hôm nay",
   "monthlyPlan": "Gói hàng tháng",
   "annualPlan": "Gói hằng năm",

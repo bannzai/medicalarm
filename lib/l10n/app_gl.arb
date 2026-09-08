@@ -73,7 +73,7 @@
   "everyXDaysFormat": "Cada {count} días",
   "cycleDaysFormat": "Tomar durante {consecutiveDays} días / descansar {restDays} días",
   "consecutiveDaysFormat": "Tomar durante {count} días",
-  "restDaysFormat": "{count} días sen tomar a medicación",
+  "restDaysFormat": "{count} días sen medicación",
   "limitedTimeDiscount": "Úsao para sempre a un prezo especial",
   "monthlyPlan": "Plan mensual",
   "annualPlan": "Plan anual",

@@ -73,7 +73,7 @@
   "everyXDaysFormat": "প্ৰতি {count} দিনৰ মূৰে মূৰে",
   "cycleDaysFormat": "{consecutiveDays} দিন ঔষধ সেৱন / {restDays} দিন বিৰতি",
   "consecutiveDaysFormat": "{count} দিন সেৱন",
-  "restDaysFormat": "{count} দিন ঔষধ বন্ধ",
+  "restDaysFormat": "{count} দিন ঔষধ বিৰতি",
   "limitedTimeDiscount": "এতিয়া বিশেষ মূল্যত চিৰদিনৰ বাবে ব্যৱহাৰ কৰক",
   "monthlyPlan": "মাহেকীয়া পৰিকল্পনা",
   "annualPlan": "বাৰ্ষিক পৰিকল্পনা",
