@@ -226,7 +226,7 @@
   "minimumDoseIntervalDescription": "Lágmarkstími milli skammta",
   "minimumDoseIntervalNone": "Ekkert",
   "minimumDoseIntervalHoursFormat": "Að minnsta kosti {hours} klukkustundir",
-  "doseIntervalWarningTitle": "Nauðsynlegt bil milli skammta er ekki liðið",
+  "doseIntervalWarningTitle": "Tímabilið milli skammta er ekki liðið",
   "doseIntervalWarningMessage": "Þú hefur þegar tekið lyfið kl. {latestTakeTime}. Stillingin krefst að minnsta kosti {minimumDoseIntervalHours} klukkustunda á milli skammta. Viltu samt skrá það?",
   "doseIntervalWarningTakeAnyway": "Skrá",
   "doseIntervalNotificationWarning": "⚠️ Ekki eru liðnir {minimumDoseIntervalHours} klukkustundir frá síðasta skammti",

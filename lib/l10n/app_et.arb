@@ -226,7 +226,7 @@
   "minimumDoseIntervalDescription": "Minimaalne aeg annuste vahel",
   "minimumDoseIntervalNone": "Puudub",
   "minimumDoseIntervalHoursFormat": "Vähemalt {hours} tundi",
-  "doseIntervalWarningTitle": "Annustamisvahe ei ole veel täitunud",
+  "doseIntervalWarningTitle": "Annustamisintervall ei ole veel möödunud",
   "doseIntervalWarningMessage": "Võtsite annuse juba kell {latestTakeTime}. Seadistus nõuab annuste vahele vähemalt {minimumDoseIntervalHours} tundi. Kas soovite selle siiski registreerida?",
   "doseIntervalWarningTakeAnyway": "Salvesta",
   "doseIntervalNotificationWarning": "⚠️ Viimasest annusest ei ole möödunud {minimumDoseIntervalHours} tundi",

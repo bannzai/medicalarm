@@ -226,7 +226,7 @@
   "minimumDoseIntervalDescription": "Mindestabstand zwischen den Einnahmen",
   "minimumDoseIntervalNone": "Keine",
   "minimumDoseIntervalHoursFormat": "Mindestens {hours} Stunden",
-  "doseIntervalWarningTitle": "Der erforderliche Abstand zwischen den Einnahmen ist noch nicht vergangen",
+  "doseIntervalWarningTitle": "Der Einnahmeabstand ist noch nicht verstrichen",
   "doseIntervalWarningMessage": "Sie haben das Medikament bereits um {latestTakeTime} eingenommen. Die Einstellung sieht einen Mindestabstand von {minimumDoseIntervalHours} Stunden zwischen den Einnahmen vor. Möchten Sie die Einnahme trotzdem erfassen?",
   "doseIntervalWarningTakeAnyway": "Aufzeichnen",
   "doseIntervalNotificationWarning": "⚠️ Seit der letzten Einnahme sind noch keine {minimumDoseIntervalHours} Stunden vergangen",

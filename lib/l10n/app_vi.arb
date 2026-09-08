@@ -226,7 +226,7 @@
   "minimumDoseIntervalDescription": "Thời gian tối thiểu giữa các liều",
   "minimumDoseIntervalNone": "Không có",
   "minimumDoseIntervalHoursFormat": "Ít nhất {hours} giờ",
-  "doseIntervalWarningTitle": "Chưa hết khoảng thời gian cần thiết giữa các liều",
+  "doseIntervalWarningTitle": "Khoảng cách giữa các liều chưa đủ",
   "doseIntervalWarningMessage": "Bạn đã uống thuốc vào lúc {latestTakeTime}. Cài đặt yêu cầu khoảng cách giữa các liều ít nhất {minimumDoseIntervalHours} giờ. Bạn vẫn muốn ghi lại chứ?",
   "doseIntervalWarningTakeAnyway": "Ghi lại",
   "doseIntervalNotificationWarning": "⚠️ Chưa đủ {minimumDoseIntervalHours} giờ kể từ lần uống thuốc trước",
