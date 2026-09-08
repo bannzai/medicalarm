@@ -227,7 +227,7 @@
   "minimumDoseIntervalNone": "Tidak ada",
   "minimumDoseIntervalHoursFormat": "Minimal {hours} jam",
   "doseIntervalWarningTitle": "Jarak waktu minum obat belum berlalu",
-  "doseIntervalWarningMessage": "Anda sudah meminumnya pada {latestTakeTime}. Pengaturan menetapkan jeda minimal {minimumDoseIntervalHours} jam antara setiap dosis. Tetap catat dosis ini?",
+  "doseIntervalWarningMessage": "Anda sudah tercatat minum obat pada {latestTakeTime}. Pengaturan mengharuskan jeda setidaknya {minimumDoseIntervalHours} jam antar dosis. Tetap catat?",
   "doseIntervalWarningTakeAnyway": "Catat",
   "doseIntervalNotificationWarning": "⚠️ Belum {minimumDoseIntervalHours} jam berlalu sejak dosis terakhir",
   "ossLicense": "Lisensi OSS",

@@ -227,7 +227,7 @@
   "minimumDoseIntervalNone": "Yoxdur",
   "minimumDoseIntervalHoursFormat": "Ən azı {hours} saat",
   "doseIntervalWarningTitle": "Doza intervalı hələ tamamlanmayıb",
-  "doseIntervalWarningMessage": "Dərmanı {latestTakeTime} tarixində qəbul etmisiniz. Parametrlər əvvəlki qəbuldan ən azı {minimumDoseIntervalHours} saat keçməsini tələb edir. Buna baxmayaraq qeyd etmək istəyirsiniz?",
+  "doseIntervalWarningMessage": "{latestTakeTime} tarixində dərman qəbul etdiyiniz artıq qeyd olunub. Dozalar arasında ən azı {minimumDoseIntervalHours} saat fasilə olması üçün tənzimlənib. Yenə də qeyd etmək istəyirsiniz?",
   "doseIntervalWarningTakeAnyway": "Qeyd et",
   "doseIntervalNotificationWarning": "⚠️ Əvvəlki dozadan sonra {minimumDoseIntervalHours} saat keçməyib",
   "ossLicense": "OSS lisenziyaları",

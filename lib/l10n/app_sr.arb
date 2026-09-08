@@ -227,7 +227,7 @@
   "minimumDoseIntervalNone": "Нема",
   "minimumDoseIntervalHoursFormat": "Најмање {hours} сати",
   "doseIntervalWarningTitle": "Интервал између доза још није прошао",
-  "doseIntervalWarningMessage": "Лек сте већ узели у {latestTakeTime}. Подешено је да између доза мора да прође најмање {minimumDoseIntervalHours} сати. Ипак забележити узимање?",
+  "doseIntervalWarningMessage": "Већ је забележено да сте узели лек у {latestTakeTime}. Подешено је да између доза буде најмање {minimumDoseIntervalHours} сати. Ипак забележити?",
   "doseIntervalWarningTakeAnyway": "Забележи",
   "doseIntervalNotificationWarning": "⚠️ Од претходне дозе није прошло {minimumDoseIntervalHours} сати",
   "ossLicense": "OSS лиценце",

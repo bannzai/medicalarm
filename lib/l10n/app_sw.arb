@@ -227,7 +227,7 @@
   "minimumDoseIntervalNone": "Hakuna",
   "minimumDoseIntervalHoursFormat": "Angalau saa {hours}",
   "doseIntervalWarningTitle": "Muda kati ya dozi bado haujatimia",
-  "doseIntervalWarningMessage": "Umeshakunywa dawa saa {latestTakeTime}. Mipangilio inahitaji kuwe na angalau saa {minimumDoseIntervalHours} kati ya dozi. Unataka kuirekodi hata hivyo?",
+  "doseIntervalWarningMessage": "Tayari imerekodiwa kuwa ulimeza dawa saa {latestTakeTime}. Mpangilio unahitaji kuwe na angalau saa {minimumDoseIntervalHours} kati ya dozi. Urekodi hata hivyo?",
   "doseIntervalWarningTakeAnyway": "Rekodi",
   "doseIntervalNotificationWarning": "⚠️ Haijapita saa {minimumDoseIntervalHours} tangu dozi ya mwisho",
   "ossLicense": "Leseni za OSS",

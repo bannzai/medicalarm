@@ -227,7 +227,7 @@
   "minimumDoseIntervalNone": "אין",
   "minimumDoseIntervalHoursFormat": "לפחות {hours} שעות",
   "doseIntervalWarningTitle": "מרווח הזמן בין המנות עדיין לא חלף",
-  "doseIntervalWarningMessage": "כבר נטלת את התרופה ב־{latestTakeTime}. בהגדרות נקבע מרווח של לפחות {minimumDoseIntervalHours} שעות בין מנות. האם לתעד זאת בכל זאת?",
+  "doseIntervalWarningMessage": "כבר תועדה נטילת תרופה בשעה {latestTakeTime}. ההגדרה דורשת מרווח של לפחות {minimumDoseIntervalHours} שעות בין מנות. לתעד בכל זאת?",
   "doseIntervalWarningTakeAnyway": "תיעוד",
   "doseIntervalNotificationWarning": "⚠️ לא עברו {minimumDoseIntervalHours} שעות מאז המנה הקודמת",
   "ossLicense": "רישיונות OSS",

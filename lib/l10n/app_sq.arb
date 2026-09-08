@@ -227,7 +227,7 @@
   "minimumDoseIntervalNone": "Asnjë",
   "minimumDoseIntervalHoursFormat": "Të paktën {hours} orë",
   "doseIntervalWarningTitle": "Intervali ndërmjet dozave ende nuk ka kaluar",
-  "doseIntervalWarningMessage": "E keni marrë ilaçin në {latestTakeTime}. Cilësimi kërkon të paktën {minimumDoseIntervalHours} orë ndërmjet dozave. Dëshironi ta regjistroni gjithsesi?",
+  "doseIntervalWarningMessage": "Marrja e ilaçit në {latestTakeTime} është regjistruar tashmë. Cilësimi kërkon të paktën {minimumDoseIntervalHours} orë ndërmjet dozave. Ta regjistrojmë gjithsesi?",
   "doseIntervalWarningTakeAnyway": "Regjistro",
   "doseIntervalNotificationWarning": "⚠️ Nuk kanë kaluar {minimumDoseIntervalHours} orë nga doza e fundit",
   "ossLicense": "Licencat OSS",

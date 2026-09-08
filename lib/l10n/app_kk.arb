@@ -227,7 +227,7 @@
   "minimumDoseIntervalNone": "Жоқ",
   "minimumDoseIntervalHoursFormat": "Кемінде {hours} сағат",
   "doseIntervalWarningTitle": "Дозалар арасындағы уақыт әлі өткен жоқ",
-  "doseIntervalWarningMessage": "Сіз дәріні {latestTakeTime} уақытында қабылдап қойғансыз. Баптаулар бойынша қабылдаулар арасында кемінде {minimumDoseIntervalHours} сағат болуы керек. Соған қарамастан тіркейсіз бе?",
+  "doseIntervalWarningMessage": "Дәріні {latestTakeTime} уақытында қабылдағаныңыз әлдеқашан тіркелген. Баптауда дозалар арасында кемінде {minimumDoseIntervalHours} сағат болуы керек. Сонда да тіркейсіз бе?",
   "doseIntervalWarningTakeAnyway": "Жазу",
   "doseIntervalNotificationWarning": "⚠️ Соңғы қабылдаудан бері {minimumDoseIntervalHours} сағат өткен жоқ",
   "ossLicense": "OSS лицензиялары",

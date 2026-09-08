@@ -227,7 +227,7 @@
   "minimumDoseIntervalNone": "Жок",
   "minimumDoseIntervalHoursFormat": "Кеминде {hours} саат",
   "doseIntervalWarningTitle": "Дозалардын ортосундагы убакыт аралыгы али бүтө элек",
-  "doseIntervalWarningMessage": "Сиз дарыны {latestTakeTime} убактысында мурун эле ичкенсиз. Жөндөөлөр боюнча дозалардын ортосунда кеминде {minimumDoseIntervalHours} саат болушу керек. Ошого карабай жаздырасызбы?",
+  "doseIntervalWarningMessage": "Дарыны {latestTakeTime} убакта ичкениңиз буга чейин катталган. Жөндөө дозалардын ортосунда кеминде {minimumDoseIntervalHours} саат болушун талап кылат. Ошентсе да катталсынбы?",
   "doseIntervalWarningTakeAnyway": "Каттоо",
   "doseIntervalNotificationWarning": "⚠️ Акыркы дозадан бери {minimumDoseIntervalHours} саат өткөн жок",
   "ossLicense": "OSS лицензиялары",

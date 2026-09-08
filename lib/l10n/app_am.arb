@@ -227,7 +227,7 @@
   "minimumDoseIntervalNone": "የለም",
   "minimumDoseIntervalHoursFormat": "Առնվազն {hours} ժամ",
   "doseIntervalWarningTitle": "የመድኃኒት መውሰጃ ክፍተት ገና አላለፈም",
-  "doseIntervalWarningMessage": "በ{latestTakeTime} ላይ መድሃኒቱን እንደወሰዱ ተመዝግቧል። በሁለት መድሃኒት መውሰዶች መካከል ቢያንስ {minimumDoseIntervalHours} ሰዓታት እንዲሆኑ ተዘጋጅቷል። አሁንም መመዝገብ ይፈልጋሉ?",
+  "doseIntervalWarningMessage": "በ{latestTakeTime} መድኃኒቱን እንደወሰዱ ተመዝግቧል። በመድኃኒቶች መካከል ቢያንስ {minimumDoseIntervalHours} ሰዓት እንዲሆን ተዘጋጅቷል። እንደገና መዝግብ?",
   "doseIntervalWarningTakeAnyway": "መዝግብ",
   "doseIntervalNotificationWarning": "⚠️ ካለፈው መውሰድ ጀምሮ {minimumDoseIntervalHours} ሰዓት አልሞላም",
   "ossLicense": "OSS ፈቃዶች",

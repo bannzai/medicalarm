@@ -227,7 +227,7 @@
   "minimumDoseIntervalNone": "Няма",
   "minimumDoseIntervalHoursFormat": "Не менш за {hours} гадз.",
   "doseIntervalWarningTitle": "Інтэрвал паміж прыёмамі яшчэ не мінуў",
-  "doseIntervalWarningMessage": "Вы ўжо прынялі дозу ў {latestTakeTime}. Налада прадугледжвае інтэрвал не менш за {minimumDoseIntervalHours} гадзін паміж прыёмамі. Усё роўна запісаць прыём?",
+  "doseIntervalWarningMessage": "Прыём ужо запісаны ў {latestTakeTime}. Паміж прыёмамі павінна прайсці не менш за {minimumDoseIntervalHours} гадзін. Усё роўна запісаць?",
   "doseIntervalWarningTakeAnyway": "Запісаць",
   "doseIntervalNotificationWarning": "⚠️ З моманту апошняга прыёму не прайшло {minimumDoseIntervalHours} гадзін",
   "ossLicense": "Ліцэнзіі OSS",

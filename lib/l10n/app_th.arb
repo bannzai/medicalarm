@@ -227,7 +227,7 @@
   "minimumDoseIntervalNone": "ไม่มี",
   "minimumDoseIntervalHoursFormat": "อย่างน้อย {hours} ชั่วโมง",
   "doseIntervalWarningTitle": "ยังไม่พ้นระยะห่างระหว่างการรับประทานยา",
-  "doseIntervalWarningMessage": "คุณรับประทานยาไปแล้วเมื่อ {latestTakeTime} การตั้งค่ากำหนดให้เว้นระยะระหว่างยาอย่างน้อย {minimumDoseIntervalHours} ชั่วโมง ต้องการบันทึกต่อหรือไม่",
+  "doseIntervalWarningMessage": "มีการบันทึกว่าคุณรับประทานยาเวลา {latestTakeTime} แล้ว การตั้งค่ากำหนดให้เว้นระหว่างยาอย่างน้อย {minimumDoseIntervalHours} ชั่วโมง ต้องการบันทึกต่อไปหรือไม่",
   "doseIntervalWarningTakeAnyway": "บันทึก",
   "doseIntervalNotificationWarning": "⚠️ ยังไม่ครบ {minimumDoseIntervalHours} ชั่วโมงนับจากครั้งที่รับประทานยาครั้งล่าสุด",
   "ossLicense": "ใบอนุญาต OSS",

@@ -227,7 +227,7 @@
   "minimumDoseIntervalNone": "Ingen",
   "minimumDoseIntervalHoursFormat": "Minst {hours} timmar",
   "doseIntervalWarningTitle": "Tidsintervallet mellan doserna har inte gått än",
-  "doseIntervalWarningMessage": "Du har redan tagit dosen kl. {latestTakeTime}. Inställningen kräver minst {minimumDoseIntervalHours} timmar mellan doserna. Vill du registrera den ändå?",
+  "doseIntervalWarningMessage": "Det finns redan en registrering av att du tog medicinen kl. {latestTakeTime}. Inställningen kräver minst {minimumDoseIntervalHours} timmar mellan doserna. Vill du registrera det ändå?",
   "doseIntervalWarningTakeAnyway": "Registrera",
   "doseIntervalNotificationWarning": "⚠️ Det har inte gått {minimumDoseIntervalHours} timmar sedan den senaste dosen",
   "ossLicense": "OSS-licenser",
