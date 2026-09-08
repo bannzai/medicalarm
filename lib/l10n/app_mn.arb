@@ -126,7 +126,7 @@
   "purchaseErrorPaymentPending": "Төлбөр хүлээгдэж байна. Нэвтэрсэн {accountName} бүртгэлээр {storeName}-г шалгана уу.",
   "premiumUserThanksTitle": "Та премиум гишүүн байна",
   "premiumUserThanksMessage": "Манай үйлчилгээг ашиглаж байгаад баярлалаа.\nТаны ачаар бид Medicalarm-ийг үргэлжлүүлэн ажиллуулах боломжтой байна.",
-  "premiumPricePerMonth": "({price}/саранг)",
+  "premiumPricePerMonth": "({price}/сар)",
   "premiumCancelDescription": "· Худалдан авсаны дараа {storeName} програмын дансны тохиргоонд автоматаар шинэчлэх захиалгыг татаж авах боломжтой. (Програм дотроос автоматаар шинэчлэх захиалгыг татаж авах боломжгүй).",
   "purchaseErrorRestoreFailed": "Өмнөх худалдан авалтын мэдээлэл олдсонгүй. Утга станцын дансаа шалгаад дахин оролдоно уу.",
   "purchaseErrorUserNotFound": "Хэрэглэгчийг олж чадсангүй. Аппийг дахин асаан, дахин оролдоно уу. Дэлгэрэнгүй: {message}",

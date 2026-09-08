@@ -126,7 +126,7 @@
   "purchaseErrorPaymentPending": "付款待处理。请使用已登录的 {accountName} 检查 {storeName}。",
   "premiumUserThanksTitle": "您是高级会员",
   "premiumUserThanksMessage": "感谢您使用我们的服务。\n多亏了您的支持，我们才能继续运营 Medicalarm。",
-  "premiumPricePerMonth": "（{price}元/月）",
+  "premiumPricePerMonth": "({price}/月)",
   "premiumCancelDescription": "・在购买后，您可以在{storeName}应用的账户设置中取消自动续订。(应用内无法取消自动续订)。",
   "purchaseErrorRestoreFailed": "未找到之前的购买信息。请确认您的帐户，然后再试一次。",
   "purchaseErrorUserNotFound": "无法找到用户。请重启应用程序，并重试。详细信息：{message}",

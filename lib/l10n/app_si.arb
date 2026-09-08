@@ -126,7 +126,7 @@
   "purchaseErrorPaymentPending": "ගෙවීම පොරොත්තුවේ ඇත. පුරනය වී ඇති {accountName} භාවිතයෙන් {storeName} පරීක්ෂා කරන්න.",
   "premiumUserThanksTitle": "ඔබ Premium සාමාජිකයෙකි",
   "premiumUserThanksMessage": "අපගේ සේවාව භාවිත කිරීම ගැන ස්තුතියි.\nඔබ නිසා අපට Medicalarm අඛණ්ඩව පවත්වාගෙන යා හැකියි.",
-  "premiumPricePerMonth": "({price}/月)",
+  "premiumPricePerMonth": "({price}/මසකට)",
   "premiumCancelDescription": "・ඔයාලා මිලදීගන්නා පසුව, ස්වයං නවීකරණය අත්හිටවීමට {storeName} යෙදුමේ ගිණුම් සකසීම් තුළින් කළ හැක. (යෙදුමේ අභ්‍යන්තරයෙන් ස්වයං නවීකරණය අත්හිටවීමට නොහැක) ।",
   "purchaseErrorRestoreFailed": "ඔබගේ අසනීප විස්තර (පැරණි මිලදී ගැනීම් ආදිය) සොයා ගත නොහැක. ඔබගේ ගිණුම නැවත පරීක්ෂා කර නැවත උත්සහ කරන්න.",
   "purchaseErrorUserNotFound": "පරිශීලකයා සොයාගත නොහැකි විය. කරුණාකර යෙදුම නැවත ක්ෂණිකව ආරම්භ කර නැවත උත්සාහ කරන්න. විශේෂයෙන්: {message}",

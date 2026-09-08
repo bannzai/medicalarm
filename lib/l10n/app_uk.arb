@@ -126,7 +126,7 @@
   "purchaseErrorPaymentPending": "Платіж очікує на обробку. Перевірте {storeName} за допомогою облікового запису {accountName}, під яким ви ввійшли.",
   "premiumUserThanksTitle": "Ви преміум-учасник",
   "premiumUserThanksMessage": "Дякуємо, що користуєтеся нашим сервісом.\nЗавдяки вам ми можемо продовжувати роботу Medicalarm.",
-  "premiumPricePerMonth": "({price}/month)",
+  "premiumPricePerMonth": "({price}/місяць)",
   "premiumCancelDescription": "After purchase, you can cancel the auto-renewal in the account settings of the {storeName} app. (You cannot cancel the auto-renewal from within the app).",
   "purchaseErrorRestoreFailed": "There is no previous purchase information found. Please check your account and try again.",
   "purchaseErrorUserNotFound": "The user could not be found. Please restart the app and try again. Details: {message}",

@@ -126,7 +126,7 @@
   "purchaseErrorPaymentPending": "ငွေပေးချေမှုကို ဆိုင်းငံ့ထားသည်။ လော့ဂ်အင်ဝင်ထားသော {accountName} ဖြင့် {storeName} ကို စစ်ဆေးပါ။",
   "premiumUserThanksTitle": "သင်သည် ပရီမီယံအဖွဲ့ဝင်ဖြစ်သည်",
   "premiumUserThanksMessage": "ကျွန်ုပ်တို့၏ဝန်ဆောင်မှုကို အသုံးပြုသည့်အတွက် ကျေးဇူးတင်ပါသည်။\nသင့်ကျေးဇူးကြောင့် Medicalarm ကို ဆက်လက်လုပ်ဆောင်နိုင်ပါသည်။",
-  "premiumPricePerMonth": "({price}/sebulan)",
+  "premiumPricePerMonth": "({price}/လ)",
   "premiumCancelDescription": "• Setelah pembelian, pembatalan pembaruan otomatis boleh dilakukan di pengaturan akun aplikasi {storeName}. (Pembatalan pembaruan otomatis tidak boleh dilakukan dari dalam aplikasi).",
   "purchaseErrorRestoreFailed": "Maklumat pembelian sebelum ini tidak dijumpai. Sila semak akaun anda dan cuba lagi.",
   "purchaseErrorUserNotFound": "Pengguna tidak dapat disahkan. Sila mulakan semula aplikasi dan cuba lagi. Butiran: {message}",

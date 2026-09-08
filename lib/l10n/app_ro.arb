@@ -126,7 +126,7 @@
   "purchaseErrorPaymentPending": "Plata este în așteptare. Verificați {storeName} folosind contul conectat {accountName}.",
   "premiumUserThanksTitle": "Ești membru premium",
   "premiumUserThanksMessage": "Vă mulțumim că folosiți serviciul nostru.\nDatorită vouă, putem continua să operăm Medicalarm.",
-  "premiumPricePerMonth": "({price}/luna)",
+  "premiumPricePerMonth": "({price}/lună)",
   "premiumCancelDescription": "• După achiziție, anularea reînnoirii automate se poate face din setările contului din aplicația {storeName}. (Anularea reînnoirii automate nu poate fi făcută din interiorul aplicației).",
   "purchaseErrorRestoreFailed": "Informațiile anterioare de achiziție nu au fost găsite. Vă rugăm să verificați contul și să încercați din nou.",
   "purchaseErrorUserNotFound": "Utilizatorul nu a fost găsit. Vă rugăm să reporniți aplicația și să încercați din nou. Detalii: {message}",

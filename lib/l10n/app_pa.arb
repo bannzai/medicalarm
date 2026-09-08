@@ -126,7 +126,7 @@
   "purchaseErrorPaymentPending": "ਭੁਗਤਾਨ ਬਕਾਇਆ ਹੈ। ਸਾਈਨ ਇਨ ਕੀਤੇ {accountName} ਨਾਲ {storeName} ਦੀ ਜਾਂਚ ਕਰੋ।",
   "premiumUserThanksTitle": "ਤੁਸੀਂ ਪ੍ਰੀਮੀਅਮ ਮੈਂਬਰ ਹੋ",
   "premiumUserThanksMessage": "ਸਾਡੀ ਸੇਵਾ ਵਰਤਣ ਲਈ ਧੰਨਵਾਦ।\nਤੁਹਾਡੇ ਸਹਿਯੋਗ ਨਾਲ ਅਸੀਂ Medicalarm ਨੂੰ ਜਾਰੀ ਰੱਖ ਸਕਦੇ ਹਾਂ।",
-  "premiumPricePerMonth": "(ਤਨਖਾਹ {price}/ਮਹੀਨਾ)",
+  "premiumPricePerMonth": "({price}/ਮਹੀਨਾ)",
   "premiumCancelDescription": "ਖਰੀਦ ਦੇ ਬਾਅਦ, ਆਪਣੇ ਸਵੈ-ਅਪਡੇਟ ਨੂੰ ਰੱਦ ਕਰਨ ਲਈ {storeName} ਐਪ ਦੇ ਖਾਤਾ ਸੈਟਿੰਗਾਂ 'ਚ ਜਾਓ। (ऐਪ ਦੇ ਅੰਦਰੋਂ ਸਵੈ-ਅਪਡੇਟ ਨੂੰ ਰੱਦ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਦਾ)।",
   "purchaseErrorRestoreFailed": "ਪਿਛਲੇ ਖਰੀਦਣ ਦੀ ਜਾਣਕਾਰੀ ਮਿਲੀ ਨਹੀਂ। ਕ੍ਰਿਪਾ ਕਰਕੇ ਆਪਣੇ ਖਾਤੇ ਦੀ ਜਾਂਚ ਕਰੋ ਅਤੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ",
   "purchaseErrorUserNotFound": "ਯੂਜ਼ਰ ਦੀ ਪੁਸ਼ਟੀ ਨਹੀਂ ਹੋਈ। ਕਿਰਪਾ ਕਰਕੇ ਐਪ ਨੂੰ ਦੁਬਾਰਾ ਚਾਲੂ ਕਰੋ ਅਤੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ। ਵੇਰਵਾ: {message}",

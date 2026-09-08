@@ -126,7 +126,7 @@
   "purchaseErrorPaymentPending": "Maksājums tiek apstrādāts. Pārbaudiet {storeName}, izmantojot pierakstīto kontu {accountName}.",
   "premiumUserThanksTitle": "Jūs esat Premium dalībnieks",
   "premiumUserThanksMessage": "Paldies, ka izmantojat mūsu pakalpojumu.\nPateicoties jums, mēs varam turpināt Medicalarm darbību.",
-  "premiumPricePerMonth": "({price}/mēnesī)",
+  "premiumPricePerMonth": "({price}/mēn.)",
   "premiumCancelDescription": "• Pirkuma veikšanas pēc automātiskās atjaunošanas atcelšana var tikt veikta {storeName} lietotnes konta iestatījumos. (Automātiskās atjaunošanas atcelšana nevar tikt veikta no lietotnes.)",
   "purchaseErrorRestoreFailed": "Iepriekšējā pirkuma informācija netika atrasta. Lūdzu, pārbaudiet savu kontu un mēģiniet vēlreiz.",
   "purchaseErrorUserNotFound": "Lietotājs nevarēja tikt apstiprināts. Lūdzu, restartējiet lietotni un mēģiniet vēlreiz. Sīkāka informācija: {message}",

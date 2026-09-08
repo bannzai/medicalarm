@@ -126,7 +126,7 @@
   "purchaseErrorPaymentPending": "Mokėjimas laukia patvirtinimo. Patikrinkite {storeName} naudodami prisijungtą paskyrą {accountName}.",
   "premiumUserThanksTitle": "Esate „Premium“ narys",
   "premiumUserThanksMessage": "Dėkojame, kad naudojatės mūsų paslauga.\nJūsų dėka galime toliau vykdyti Medicalarm veiklą.",
-  "premiumPricePerMonth": "({price}/mėn)",
+  "premiumPricePerMonth": "({price}/mėn.)",
   "premiumCancelDescription": "• Po pirkimo automatinį atnaujinimą galite atšaukti {storeName} programėlės paskyros nustatymuose. (Negalite atšaukti automatinio atnaujinimo iš programėlės.)",
   "purchaseErrorRestoreFailed": "Ankstesnių pirkimų informacijos nerasta. Prašome patikrinti savo paskyrą ir bandyti dar kartą.",
   "purchaseErrorUserNotFound": "Vartotojas negali būti patvirtintas. Prašome iš naujo paleisti programą ir bandyti dar kartą. Išsamesnė informacija: {message}",

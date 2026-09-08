@@ -126,7 +126,7 @@
   "purchaseErrorPaymentPending": "ಪಾವತಿ ಬಾಕಿಯಿದೆ. ಸೈನ್ ಇನ್ ಮಾಡಿರುವ {accountName} ಬಳಸಿ {storeName} ಅನ್ನು ಪರಿಶೀಲಿಸಿ.",
   "premiumUserThanksTitle": "ನೀವು ಪ್ರೀಮಿಯಂ ಸದಸ್ಯರಾಗಿದ್ದೀರಿ",
   "premiumUserThanksMessage": "ನಮ್ಮ ಸೇವೆಯನ್ನು ಬಳಸಿದ್ದಕ್ಕಾಗಿ ಧನ್ಯವಾದಗಳು.\nನಿಮ್ಮ ಕಾರಣದಿಂದಾಗಿ ನಾವು Medicalarm ಅನ್ನು ಮುಂದುವರಿಸಿ ನಡೆಸಲು ಸಾಧ್ಯವಾಗುತ್ತಿದೆ.",
-  "premiumPricePerMonth": "({price}/महिना)",
+  "premiumPricePerMonth": "({price}/ತಿಂಗಳು)",
   "premiumCancelDescription": "• ಖರೀದಿಯ ನಂತರ, ಸ್ವಯಂಚಾಲಿತ ನವೀಕರಣವನ್ನು {storeName} ಆಪ್‌ನ ಖಾತಾ ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಬಳಸಿಕೊಂಡು ರದ್ದು ಮಾಡಬಹುದು。(ಆಪ್‌ ಒಳತಂಡಗಳಿಂದ ಸ್ವಯಂಚಾಲಿತ ನವೀಕರಣವನ್ನು ರದ್ದು ಮಾಡಲಾಗುವುದಿಲ್ಲ)।",
   "purchaseErrorRestoreFailed": "ಹಿಂದಿನ ಖರೀದಿ ಮಾಹಿತಿಯು ಕಂಡುಬಂದಿಲ್ಲ. ದಯವಿಟ್ಟು ನಿಮ್ಮ ಖಾತೆಯನ್ನು ಪರಿಶೀಲಿಸಿ ಮತ್ತು ಪುನಃ ಪ್ರಯತ್ನಿಸಿ.",
   "purchaseErrorUserNotFound": "ಬಳಕೆದಾರರನ್ನು ಶೋಧಿಸಲು ಸಾಧ್ಯವಾಗುತ್ತಿಲ್ಲ. ದಯವಿಟ್ಟು ಆ್ಯಪ್ ಅನ್ನು ಪುನಾರಂಭಿಸಿ ಪುನಃ ಪ್ರಯತ್ನಿಸಿ. ವಿವರ: {message}",

@@ -126,7 +126,7 @@
   "purchaseErrorPaymentPending": "ການຊຳລະເງິນຄ້າງຢູ່. ກະລຸນາກວດສອບ {storeName} ດ້ວຍບັນຊີ {accountName} ທີ່ທ່ານເຂົ້າລະບົບຢູ່.",
   "premiumUserThanksTitle": "ທ່ານເປັນສະມາຊິກ Premium",
   "premiumUserThanksMessage": "ຂອບໃຈທີ່ໃຊ້ບໍລິການຂອງພວກເຮົາ.\nດ້ວຍການສະໜັບສະໜູນຈາກທ່ານ ພວກເຮົາຈຶ່ງສາມາດດຳເນີນ Medicalarm ຕໍ່ໄປໄດ້.",
-  "premiumPricePerMonth": "({price}/ດືນ)",
+  "premiumPricePerMonth": "({price}/ເດືອນ)",
   "premiumCancelDescription": "・ຫຼັງຈາກຊື້, ສາມາດຍົກເລີກການອັບເດດເອີ້ນສິນຄ້າໄດ້ທີ່ການຕັ້ງບັນຊີຂອງ{storeName} (ບໍ່ສາມາດຍົກເລີກໃນແອບເອັບ) 。",
   "purchaseErrorRestoreFailed": "ບໍ່ພົບຂໍໍ່ອນການຊື້ກ່ຽວກັບກໍ໑ດການໃຊ້າລາຍລະອຽດ. ກະລຸນາກວດສອບບັດສິບທີ່ອາສາບູລິຄິດຫຼືລອຍພິມລອດເກີນໄປໃໝ່.",
   "purchaseErrorUserNotFound": "ບັນດາຜູ້ໃຊ້ບໍ່ສາມາດຍືນຢືນບໍ່ໄດ້. ຂໍແລະໃຊ້ໄອເມວອີນໃໝ່ ແລະ ລອງໃໝ່ເອົາບໍ່ໄດ້. ລາຍລະອຽດ: {message}",

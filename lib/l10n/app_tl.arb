@@ -126,7 +126,7 @@
   "purchaseErrorPaymentPending": "Naka-pending ang pagbabayad. Pakitingnan ang {storeName} gamit ang naka-sign-in na account na {accountName}.",
   "premiumUserThanksTitle": "Premium member ka",
   "premiumUserThanksMessage": "Salamat sa paggamit ng aming serbisyo.\nDahil sa iyo, maipagpapatuloy namin ang pagpapatakbo ng Medicalarm.",
-  "premiumPricePerMonth": "(₱{price}/buwan)",
+  "premiumPricePerMonth": "({price}/buwan)",
   "premiumCancelDescription": "Pagkatapos bumili, maaari mong kanselahin ang awtomatikong pag-update sa mga setting ng account ng {storeName} app. (Hindi mo maikansela ang awtomatikong pag-update mula sa loob ng app).",
   "purchaseErrorRestoreFailed": "Hindi wala pang impormasyon sa pagbili. Mangyaring suriin ang iyong account at subukan muli.",
   "purchaseErrorUserNotFound": "Hindi na matagpuan ang gumagamit. Mangyaring i-restart ang app at subukan muli. Detalye: {message}",

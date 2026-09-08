@@ -126,7 +126,7 @@
   "purchaseErrorPaymentPending": "Төлөм күтүлүүдө. Кирип турган {accountName} аккаунту менен {storeName} кызматын текшериңиз.",
   "premiumUserThanksTitle": "Сиз премиум мүчөсүз",
   "premiumUserThanksMessage": "Кызматыбызды колдонгонуңуз үчүн рахмат.\nСиздин аркаңызда Medicalarm ишин уланта алабыз.",
-  "premiumPricePerMonth": "({price}/айына)",
+  "premiumPricePerMonth": "({price}/ай)",
   "premiumCancelDescription": "- Сатып алгандан кийин, автоматтык жаңыртылганды токтотуу {storeName} колдонмосунун эсептөө параметрлеринде жүргүзүлөт. (Колдонмону колдонуп автоматтык жаңыртууну токтотууга болбойт).",
   "purchaseErrorRestoreFailed": "Эрип алынган маалымат табылбедi. Сураныч, аккаунтуңузду текшерип, кайра аракет кылыңыз.",
   "purchaseErrorUserNotFound": "Колдонуучу тапкан жок. Программаны кайра иштетип, кайра аракет кылыңыз. Тейлөөчү маалымат: {message}",

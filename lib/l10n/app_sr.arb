@@ -126,7 +126,7 @@
   "purchaseErrorPaymentPending": "Плаћање је на чекању. Проверите {storeName} помоћу пријављеног налога {accountName}.",
   "premiumUserThanksTitle": "Ви сте премијум члан",
   "premiumUserThanksMessage": "Хвала вам што користите нашу услугу.\nЗахваљујући вама, можемо да наставимо са радом апликације Medicalarm.",
-  "premiumPricePerMonth": "({price}/месяц)",
+  "premiumPricePerMonth": "({price}/месечно)",
   "premiumCancelDescription": "• Након што купите, можете да откажете автоматску обнову у подешавањима налога {storeName} апликације. (Не можете отказати автоматску обнову изнутра апликације).",
   "purchaseErrorRestoreFailed": "Нема информација о претходним куповинама. Проверавајте свој налог и покушајте поново.",
   "purchaseErrorUserNotFound": "Корисник није могао бити пронађен. Поновите покушај поновним покретањем апликације. Детаљи: {message}",

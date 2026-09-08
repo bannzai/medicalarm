@@ -126,7 +126,7 @@
   "purchaseErrorPaymentPending": "A fizetés függőben van. Ellenőrizd a {storeName} szolgáltatást a bejelentkezett {accountName} fiókkal.",
   "premiumUserThanksTitle": "Prémiumtag vagy",
   "premiumUserThanksMessage": "Köszönjük, hogy használja szolgáltatásunkat.\nÖnnek köszönhetően folytathatjuk a Medicalarm működtetését.",
-  "premiumPricePerMonth": "({price}/hónap)",
+  "premiumPricePerMonth": "({price}/hó)",
   "premiumCancelDescription": "A vásárlás után a {storeName} alkalmazás fiókbeállításaiban lemondhatja az automatikus megújítást. (Az alkalmazáson belül nem lehet lemondani az automatikus megújítást.)",
   "purchaseErrorRestoreFailed": "Nem található korábbi vásárlási információ. Kérjük, ellenőrizze a fiókját, és próbálja meg újra.",
   "purchaseErrorUserNotFound": "A felhasználó nem található. Kérjük, indítsa újra az alkalmazást, és próbálkozzon újra. Részletek: {message}",
