@@ -235,7 +235,7 @@
   "achievementWeeklyCountSuffix": "/{scheduledCount} ganger",
   "achievementStreakLabel": "Sammenhengende registreringer",
   "achievementStreakDaysSuffix": "dager",
-  "achievementMonthlyRateLabel": "Oppfyllelsesgrad for {month}",
+  "achievementMonthlyRateLabel": "Etterlevelsesgrad for {month}",
   "achievementLegendAllTaken": "Alle tatt",
   "achievementLegendPartiallyTaken": "Delvis",
   "achievementLegendNoneTaken": "Ingen tatt"

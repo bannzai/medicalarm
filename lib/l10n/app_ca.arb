@@ -235,7 +235,7 @@
   "achievementWeeklyCountSuffix": "/{scheduledCount} vegades",
   "achievementStreakLabel": "Registre consecutiu",
   "achievementStreakDaysSuffix": "dies",
-  "achievementMonthlyRateLabel": "Percentatge d’assoliment de {month}",
+  "achievementMonthlyRateLabel": "Taxa d’assoliment de {month}",
   "achievementLegendAllTaken": "Totes preses",
   "achievementLegendPartiallyTaken": "Parcialment",
   "achievementLegendNoneTaken": "Cap presa"

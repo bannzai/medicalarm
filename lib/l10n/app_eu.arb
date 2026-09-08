@@ -235,7 +235,7 @@
   "achievementWeeklyCountSuffix": "/{scheduledCount} aldiz",
   "achievementStreakLabel": "Jarraiko erregistroa",
   "achievementStreakDaysSuffix": "egun",
-  "achievementMonthlyRateLabel": "{month} hilabeteko betetze-maila",
+  "achievementMonthlyRateLabel": "{month}(e)ko betetze-tasa",
   "achievementLegendAllTaken": "Denak hartuta",
   "achievementLegendPartiallyTaken": "Partzialki",
   "achievementLegendNoneTaken": "Bat ere ez da hartu"

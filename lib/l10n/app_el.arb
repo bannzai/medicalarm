@@ -235,7 +235,7 @@
   "achievementWeeklyCountSuffix": "/{scheduledCount} φορές",
   "achievementStreakLabel": "Συνεχόμενες καταγραφές",
   "achievementStreakDaysSuffix": "ημέρες",
-  "achievementMonthlyRateLabel": "Ποσοστό επίτευξης για τον {month}",
+  "achievementMonthlyRateLabel": "Ποσοστό επίτευξης για {month}",
   "achievementLegendAllTaken": "Όλα λήφθηκαν",
   "achievementLegendPartiallyTaken": "Μερικώς",
   "achievementLegendNoneTaken": "Καμία λήψη"

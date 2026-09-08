@@ -235,7 +235,7 @@
   "achievementWeeklyCountSuffix": "/{scheduledCount} gange",
   "achievementStreakLabel": "Fortløbende registrering",
   "achievementStreakDaysSuffix": "dage",
-  "achievementMonthlyRateLabel": "Opfyldelsesgrad for {month}",
+  "achievementMonthlyRateLabel": "Gennemførelsesrate for {month}",
   "achievementLegendAllTaken": "Alle taget",
   "achievementLegendPartiallyTaken": "Delvist",
   "achievementLegendNoneTaken": "Ingen taget"

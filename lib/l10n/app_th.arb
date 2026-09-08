@@ -235,7 +235,7 @@
   "achievementWeeklyCountSuffix": "/{scheduledCount} ครั้ง",
   "achievementStreakLabel": "บันทึกต่อเนื่อง",
   "achievementStreakDaysSuffix": "วัน",
-  "achievementMonthlyRateLabel": "อัตราการบรรลุเป้าหมายของ {month}",
+  "achievementMonthlyRateLabel": "อัตราความสำเร็จของ {month}",
   "achievementLegendAllTaken": "รับประทานครบทั้งหมดแล้ว",
   "achievementLegendPartiallyTaken": "บางส่วน",
   "achievementLegendNoneTaken": "ยังไม่ได้รับประทานยา"

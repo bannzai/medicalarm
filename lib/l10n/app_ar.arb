@@ -235,7 +235,7 @@
   "achievementWeeklyCountSuffix": "/{scheduledCount} مرة",
   "achievementStreakLabel": "سجل متتالي",
   "achievementStreakDaysSuffix": "يوم",
-  "achievementMonthlyRateLabel": "معدل الالتزام لشهر {month}",
+  "achievementMonthlyRateLabel": "معدل الالتزام في {month}",
   "achievementLegendAllTaken": "تم تناولها كلها",
   "achievementLegendPartiallyTaken": "جزئيًا",
   "achievementLegendNoneTaken": "لم يتم تناول أي جرعة"

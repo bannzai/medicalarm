@@ -235,7 +235,7 @@
   "achievementWeeklyCountSuffix": "/{scheduledCount} kertaa",
   "achievementStreakLabel": "Peräkkäiset kirjaukset",
   "achievementStreakDaysSuffix": "päivää",
-  "achievementMonthlyRateLabel": "{month} saavutustaso",
+  "achievementMonthlyRateLabel": "Toteutumisaste kuukaudelle {month}",
   "achievementLegendAllTaken": "Kaikki otettu",
   "achievementLegendPartiallyTaken": "Osittain",
   "achievementLegendNoneTaken": "Ei otettu"

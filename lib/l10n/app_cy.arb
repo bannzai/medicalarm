@@ -235,7 +235,7 @@
   "achievementWeeklyCountSuffix": "/{scheduledCount} gwaith",
   "achievementStreakLabel": "Cofnod parhaus",
   "achievementStreakDaysSuffix": "diwrnod",
-  "achievementMonthlyRateLabel": "Cyfradd gyflawni ar gyfer {month}",
+  "achievementMonthlyRateLabel": "Cyfradd cwblhau {month}",
   "achievementLegendAllTaken": "Popeth wedi'i gymryd",
   "achievementLegendPartiallyTaken": "Yn rhannol",
   "achievementLegendNoneTaken": "Dim wedi’i gymryd"

@@ -235,7 +235,7 @@
   "achievementWeeklyCountSuffix": "/{scheduledCount} volte",
   "achievementStreakLabel": "Registrazioni consecutive",
   "achievementStreakDaysSuffix": "giorni",
-  "achievementMonthlyRateLabel": "Tasso di completamento di {month}",
+  "achievementMonthlyRateLabel": "Percentuale di completamento di {month}",
   "achievementLegendAllTaken": "Tutte assunte",
   "achievementLegendPartiallyTaken": "Parzialmente",
   "achievementLegendNoneTaken": "Nessuna assunzione"

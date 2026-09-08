@@ -235,7 +235,7 @@
   "achievementWeeklyCountSuffix": "/{scheduledCount} пати",
   "achievementStreakLabel": "Последователни записи",
   "achievementStreakDaysSuffix": "дена",
-  "achievementMonthlyRateLabel": "Стапка на исполнетост за {month}",
+  "achievementMonthlyRateLabel": "Стапка на оствареност за {month}",
   "achievementLegendAllTaken": "Сите се земени",
   "achievementLegendPartiallyTaken": "Делумно",
   "achievementLegendNoneTaken": "Ништо не е земено"

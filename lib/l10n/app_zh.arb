@@ -235,7 +235,7 @@
   "achievementWeeklyCountSuffix": "/{scheduledCount} 次",
   "achievementStreakLabel": "连续记录",
   "achievementStreakDaysSuffix": "天",
-  "achievementMonthlyRateLabel": "{month}的达成率",
+  "achievementMonthlyRateLabel": "{month}达成率",
   "achievementLegendAllTaken": "全部服用",
   "achievementLegendPartiallyTaken": "部分",
   "achievementLegendNoneTaken": "均未服用"

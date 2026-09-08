@@ -235,7 +235,7 @@
   "achievementWeeklyCountSuffix": "/{scheduledCount} times",
   "achievementStreakLabel": "Streak",
   "achievementStreakDaysSuffix": "days",
-  "achievementMonthlyRateLabel": "Achievement in {month}",
+  "achievementMonthlyRateLabel": "Achievement rate for {month}",
   "achievementLegendAllTaken": "All",
   "achievementLegendPartiallyTaken": "Some",
   "achievementLegendNoneTaken": "None"
