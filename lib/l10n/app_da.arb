@@ -228,7 +228,7 @@
   "minimumDoseIntervalHoursFormat": "{hours} timer eller mere",
   "doseIntervalWarningTitle": "Minimumsintervallet mellem doser er ikke udløbet",
   "doseIntervalWarningMessage": "Det er allerede registreret, at du tog medicinen kl. {latestTakeTime}. Indstillingen kræver mindst {minimumDoseIntervalHours} timer mellem doser. Vil du registrere den alligevel?",
-  "doseIntervalWarningTakeAnyway": "Registrér",
+  "doseIntervalWarningTakeAnyway": "Registrer",
   "doseIntervalNotificationWarning": "⚠️ Der er ikke gået {minimumDoseIntervalHours} timer siden sidste dosis",
   "ossLicense": "OSS-licenser",
   "achievementWeeklyLabel": "Ugens medicin",

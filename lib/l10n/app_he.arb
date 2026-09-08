@@ -228,7 +228,7 @@
   "minimumDoseIntervalHoursFormat": "לפחות {hours} שעות",
   "doseIntervalWarningTitle": "טרם חלף פרק הזמן המינימלי בין המנות",
   "doseIntervalWarningMessage": "כבר נרשמה נטילת תרופה בשעה {latestTakeTime}. לפי ההגדרות, יש להמתין לפחות {minimumDoseIntervalHours} שעות בין מנות. בכל זאת לרשום אותה?",
-  "doseIntervalWarningTakeAnyway": "תעד",
+  "doseIntervalWarningTakeAnyway": "תיעוד",
   "doseIntervalNotificationWarning": "⚠️ לא עברו {minimumDoseIntervalHours} שעות מאז המנה הקודמת",
   "ossLicense": "רישיונות OSS",
   "achievementWeeklyLabel": "תרופות השבוע",

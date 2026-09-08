@@ -228,7 +228,7 @@
   "minimumDoseIntervalHoursFormat": "{hours} часа или повеќе",
   "doseIntervalWarningTitle": "Минималниот интервал помеѓу дозите сè уште не поминал",
   "doseIntervalWarningMessage": "Веќе е забележано дека сте го земале лекот во {latestTakeTime}. Поставено е помеѓу дозите да има најмалку {minimumDoseIntervalHours} часа. Сепак да го запишете?",
-  "doseIntervalWarningTakeAnyway": "Евидентирај",
+  "doseIntervalWarningTakeAnyway": "Сними",
   "doseIntervalNotificationWarning": "⚠️ Немаат поминато {minimumDoseIntervalHours} часа од претходната доза",
   "ossLicense": "OSS лиценци",
   "achievementWeeklyLabel": "Лекови за оваа недела",

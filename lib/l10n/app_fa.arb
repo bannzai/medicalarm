@@ -228,7 +228,7 @@
   "minimumDoseIntervalHoursFormat": "حداقل {hours} ساعت",
   "doseIntervalWarningTitle": "حداقل فاصله بین دوزها هنوز سپری نشده است",
   "doseIntervalWarningMessage": "مصرف دارو در {latestTakeTime} قبلاً ثبت شده است. تنظیمات به حداقل {minimumDoseIntervalHours} ساعت فاصله بین نوبت‌ها نیاز دارد. بااین‌حال می‌خواهید آن را ثبت کنید؟",
-  "doseIntervalWarningTakeAnyway": "ثبت",
+  "doseIntervalWarningTakeAnyway": "ثبت کردن",
   "doseIntervalNotificationWarning": "⚠️ از زمان مصرف دوز قبلی {minimumDoseIntervalHours} ساعت نگذشته است",
   "ossLicense": "مجوزهای OSS",
   "achievementWeeklyLabel": "داروهای این هفته",

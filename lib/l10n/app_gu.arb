@@ -228,7 +228,7 @@
   "minimumDoseIntervalHoursFormat": "{hours} કલાક કે તેથી વધુ",
   "doseIntervalWarningTitle": "ડોઝ વચ્ચેનો લઘુત્તમ સમય હજુ પૂર્ણ થયો નથી",
   "doseIntervalWarningMessage": "{latestTakeTime} સમયે દવા લીધી હોવાનું પહેલેથી નોંધાયેલું છે. સેટિંગ મુજબ દરેક ડોઝ વચ્ચે ઓછામાં ઓછા {minimumDoseIntervalHours} કલાકનું અંતર હોવું જોઈએ. તેમ છતાં નોંધ કરશો?",
-  "doseIntervalWarningTakeAnyway": "નોંધો",
+  "doseIntervalWarningTakeAnyway": "રેકોર્ડ કરો",
   "doseIntervalNotificationWarning": "⚠️ અગાઉની માત્રા લીધા પછી {minimumDoseIntervalHours} કલાક થયા નથી",
   "ossLicense": "OSS લાઇસન્સ",
   "achievementWeeklyLabel": "આ અઠવાડિયાની દવા",
