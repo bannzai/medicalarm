@@ -61,7 +61,7 @@
   "medicine": "İlaçlar",
   "inquiry": "Bize ulaşın",
   "ok": "Tamam",
-  "medicationScheduleLimit": "Kullanım takvimi en fazla {count} kez kaydedilebilir.",
+  "medicationScheduleLimit": "En fazla {count} ilaç alma programı kaydedebilirsiniz.",
   "increaseMedicationScheduleLimit": "Premium plan ile üst sınırı {count} olarak artırın",
   "addMedicationSchedule": "Düzenli alım takvimini ekle",
   "medicationScheduleNotificationSetting": "İlaç alma programı bildirim ayarları",

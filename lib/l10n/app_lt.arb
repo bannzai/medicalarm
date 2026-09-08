@@ -61,7 +61,7 @@
   "medicine": "Vaistai",
   "inquiry": "Susisiekite su mumis",
   "ok": "Gerai",
-  "medicationScheduleLimit": "Vaistų vartojimo tvarkaraštį galima registruoti iki {count} kartų.",
+  "medicationScheduleLimit": "Galite užregistruoti iki {count} vaistų vartojimo tvarkaraščių.",
   "increaseMedicationScheduleLimit": "Padidinti vartojimo grafiko limitą iki {count} su premium planu.",
   "addMedicationSchedule": "Pridėti vartojimo tvarkaraštį",
   "medicationScheduleNotificationSetting": "Vaistų vartojimo grafiko pranešimų nustatymas",

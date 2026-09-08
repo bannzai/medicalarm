@@ -61,7 +61,7 @@
   "medicine": "Farmaci",
   "inquiry": "Contattaci",
   "ok": "OK",
-  "medicationScheduleLimit": "È possibile registrare fino a {count} programmi di assunzione.",
+  "medicationScheduleLimit": "Puoi registrare fino a {count} programmi di assunzione dei farmaci.",
   "increaseMedicationScheduleLimit": "Aumenta il limite a {count} con il piano premium",
   "addMedicationSchedule": "Aggiungi programma di assunzione",
   "medicationScheduleNotificationSetting": "Impostazioni delle notifiche del programma di assunzione",

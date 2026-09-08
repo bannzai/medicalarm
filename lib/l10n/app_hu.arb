@@ -61,7 +61,7 @@
   "medicine": "Gyógyszerek",
   "inquiry": "Kapcsolatfelvétel",
   "ok": "OK",
-  "medicationScheduleLimit": "A medication schedule can be registered up to {count} times.",
+  "medicationScheduleLimit": "Legfeljebb {count} gyógyszerszedési ütemezést regisztrálhat.",
   "increaseMedicationScheduleLimit": "Növelje a maximális mennyiséget {count} -ra prémium csomaggal.",
   "addMedicationSchedule": "Gyógyszerszedési ütemterv hozzáadása",
   "medicationScheduleNotificationSetting": "Gyógyszeres ütemezés értesítési beállítás",

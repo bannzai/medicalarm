@@ -61,7 +61,7 @@
   "medicine": "Medicaments",
   "inquiry": "Contacteu amb nosaltres",
   "ok": "D’acord",
-  "medicationScheduleLimit": "Podeu registrar fins a {count} horaris de presa.",
+  "medicationScheduleLimit": "Pots registrar fins a {count} horaris de presa de medicaments.",
   "increaseMedicationScheduleLimit": "Augmenta el límit a {count} amb el pla premium",
   "addMedicationSchedule": "Afegir un horari de presa",
   "medicationScheduleNotificationSetting": "Configuració de notificacions d'horari de presa",

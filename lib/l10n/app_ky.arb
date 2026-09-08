@@ -61,7 +61,7 @@
   "medicine": "Дарылар",
   "inquiry": "Биз менен байланышуу",
   "ok": "Макул",
-  "medicationScheduleLimit": "Дозаны пландо {count} дарыяларды каттоого киргизүүгө болот.",
+  "medicationScheduleLimit": "{count} чейин дары ичүү графигин каттай аласыз.",
   "increaseMedicationScheduleLimit": "Премиум план аркылуу чектөө {count} га өйдөтүү",
   "addMedicationSchedule": "Дозаны пландын кошуу",
   "medicationScheduleNotificationSetting": "Дарыя графигин нотациясы",

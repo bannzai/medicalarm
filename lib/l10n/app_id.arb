@@ -61,7 +61,7 @@
   "medicine": "Obat",
   "inquiry": "Hubungi kami",
   "ok": "OK",
-  "medicationScheduleLimit": "Jadwal minum obat dapat didaftarkan hingga {count}.",
+  "medicationScheduleLimit": "Anda dapat mendaftarkan hingga {count} jadwal minum obat.",
   "increaseMedicationScheduleLimit": "Tingkatkan batas hingga {count} dengan rencana premium",
   "addMedicationSchedule": "Tambah Jadwal Minum",
   "medicationScheduleNotificationSetting": "Pengaturan Pemberitahuan Jadwal Penggunaan",

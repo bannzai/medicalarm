@@ -61,7 +61,7 @@
   "medicine": "Medicijnen",
   "inquiry": "Neem contact op",
   "ok": "OK",
-  "medicationScheduleLimit": "U kunt tot {count} innameschema's registreren.",
+  "medicationScheduleLimit": "Je kunt maximaal {count} innameschema’s registreren.",
   "increaseMedicationScheduleLimit": "Verhoog het limiet naar {count} met het premiumplan",
   "addMedicationSchedule": "Schema toevoegen",
   "medicationScheduleNotificationSetting": "Medicatietijdschema-notificatie-instellingen",

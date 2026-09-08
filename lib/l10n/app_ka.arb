@@ -61,7 +61,7 @@
   "medicine": "მედიკამენტები",
   "inquiry": "დაგვიკავშირდით",
   "ok": "კარგი",
-  "medicationScheduleLimit": "გახსოვდეს, რომ თქვენ შეგიძლიათ რეგისტრიროთ შეწვდომის განრიგი {count} ჯერ.",
+  "medicationScheduleLimit": "შეგიძლიათ დაარეგისტრიროთ მედიკამენტების მიღების მაქსიმუმ {count} განრიგი.",
   "increaseMedicationScheduleLimit": "პრემიუმ გეგმაში ლიმიტის გაზრდა {count}-ზე",
   "addMedicationSchedule": "მედიკამენტების გრაფიკის დამატება",
   "medicationScheduleNotificationSetting": "მკურნალობის განრიგის შეტყობინების პარამეტრები",

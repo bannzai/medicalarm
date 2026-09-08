@@ -61,7 +61,7 @@
   "medicine": "תרופות",
   "inquiry": "צור קשר",
   "ok": "אישור",
-  "medicationScheduleLimit": "ניתן לרשום עד {count} לוחות זמנים לשימוש.",
+  "medicationScheduleLimit": "ניתן לרשום עד {count} לוחות זמנים לנטילת תרופות.",
   "increaseMedicationScheduleLimit": "הגדל את הגבול ל-{count} בתוכנית פרימיום",
   "addMedicationSchedule": "הוסף לוח זמנים ללקיחה",
   "medicationScheduleNotificationSetting": "הגדרת התראות על לוח הזמנים של התרופות",

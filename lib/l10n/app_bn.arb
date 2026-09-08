@@ -61,7 +61,7 @@
   "medicine": "ওষুধ",
   "inquiry": "যোগাযোগ করুন",
   "ok": "ঠিক আছে",
-  "medicationScheduleLimit": "আপনি {count} পর্যন্ত ঔষধ গ্রহণের সময়সূচী রেজিস্টার করতে পারেন।",
+  "medicationScheduleLimit": "আপনি সর্বাধিক {count}টি ওষুধ খাওয়ার সময়সূচি নিবন্ধন করতে পারবেন।",
   "increaseMedicationScheduleLimit": "প্রিমিয়াম পরিকল্পনায় সীমা {count} এ বাড়ান",
   "addMedicationSchedule": "ডোজ সময়সূচী যোগ করুন",
   "medicationScheduleNotificationSetting": "ওষুধ গ্রহণের সময়সূচী বিজ্ঞপ্তি সেটিং",

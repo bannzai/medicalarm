@@ -61,7 +61,7 @@
   "medicine": "Sendagaiak",
   "inquiry": "Jarri gurekin harremanetan",
   "ok": "Ados",
-  "medicationScheduleLimit": "Egunerako hartzeko plana {count} arte erregistratu daiteke.",
+  "medicationScheduleLimit": "Gehienez {count} botika-hartze ordutegi erregistra ditzakezu.",
   "increaseMedicationScheduleLimit": "Prestatutako planarekin gehienezkora iritsi {count} handitzeko",
   "addMedicationSchedule": "Datu bazkideak gehitu",
   "medicationScheduleNotificationSetting": "Hartzeko ordutegiaren jakinarazpen ezarpenak",

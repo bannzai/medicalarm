@@ -61,7 +61,7 @@
   "medicine": "Ravimid",
   "inquiry": "Võta meiega ühendust",
   "ok": "OK",
-  "medicationScheduleLimit": "Ravimid registreeritakse kuni {count} kava.",
+  "medicationScheduleLimit": "Saate registreerida kuni {count} ravimivõtmise ajakava.",
   "increaseMedicationScheduleLimit": "Tõsta premium-plaaniga piirang {count}ni",
   "addMedicationSchedule": "Lisa raviskeemide ajakava",
   "medicationScheduleNotificationSetting": "Ravimi ajakava teavituste seadistamine",

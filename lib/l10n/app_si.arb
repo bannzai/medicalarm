@@ -61,7 +61,7 @@
   "medicine": "ඖෂධ",
   "inquiry": "අප අමතන්න",
   "ok": "හරි",
-  "medicationScheduleLimit": "ඔබට ප්‍රතිකාර කාලසටහනට {count}ක් දක්වා பதிவு කිරීමට පුළුවන්.",
+  "medicationScheduleLimit": "ඔබට ඖෂධ ගැනීමේ කාලසටහන් {count}ක් දක්වා ලියාපදිංචි කළ හැක.",
   "increaseMedicationScheduleLimit": "ප්‍රීමියම් සැලසුමෙන් උපරිමය {count} දක්වා වැඩි කරනු ලැබේ.",
   "addMedicationSchedule": "තරු මාලාවේලට භසක් එක් කරන්න",
   "medicationScheduleNotificationSetting": "ඉතිරිව ඇති දිනපතා බෙරකාලීන නිවේදනයන් සැකසීම",

@@ -61,7 +61,7 @@
   "medicine": "Lijekovi",
   "inquiry": "Kontaktirajte nas",
   "ok": "U redu",
-  "medicationScheduleLimit": "Možete registrirati do {count} rasporeda uzimanja.",
+  "medicationScheduleLimit": "Možete registrirati do {count} rasporeda uzimanja lijekova.",
   "increaseMedicationScheduleLimit": "Povećajte ograničenje na {count} s premium planom",
   "addMedicationSchedule": "Dodaj raspored uzimanja",
   "medicationScheduleNotificationSetting": "Postavke obavijesti o rasporedu uzimanja",

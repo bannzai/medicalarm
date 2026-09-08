@@ -61,7 +61,7 @@
   "medicine": "മരുന്നുകൾ",
   "inquiry": "ഞങ്ങളെ ബന്ധപ്പെടുക",
   "ok": "ശരി",
-  "medicationScheduleLimit": "മരുന്നുതിന്റെ ഷെഡ്യൂളുകൾ {count} വരെയുള്ളതായി രജിസ്റ്റർ ചെയ്യാം.",
+  "medicationScheduleLimit": "നിങ്ങൾക്ക് പരമാവധി {count} മരുന്ന് കഴിക്കൽ ഷെഡ്യൂളുകൾ രജിസ്റ്റർ ചെയ്യാം.",
   "increaseMedicationScheduleLimit": "പ്രൈമിയം പദ്ധതിയിൽ കണക്കിനെ {count} ആക്കുക",
   "addMedicationSchedule": "ഉപയോഗം ശേഖരത്തിൽ ചേർക്കുക",
   "medicationScheduleNotificationSetting": "ചികിത്സ സംവിധാനം അറിയിപ്പ് ക്രമീകരിക്കൽ",

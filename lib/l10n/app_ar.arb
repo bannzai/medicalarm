@@ -61,7 +61,7 @@
   "medicine": "الأدوية",
   "inquiry": "اتصل بنا",
   "ok": "موافق",
-  "medicationScheduleLimit": "يمكنك تسجيل ما يصل إلى {count} جداول للدواء.",
+  "medicationScheduleLimit": "يمكنك تسجيل ما يصل إلى {count} من جداول تناول الأدوية.",
   "increaseMedicationScheduleLimit": "زيادة الحد في خطة البريميوم إلى {count}",
   "addMedicationSchedule": "إضافة جدول الجرعات",
   "medicationScheduleNotificationSetting": "إعداد إشعارات جدول الجرعات",

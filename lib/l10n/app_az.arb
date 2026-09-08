@@ -61,7 +61,7 @@
   "medicine": "Dərmanlar",
   "inquiry": "Əlaqə",
   "ok": "OK",
-  "medicationScheduleLimit": "Qəbul cədvəli {count} ədəd qədər qeyd edilə bilər.",
+  "medicationScheduleLimit": "{count}-dək dərman qəbulu cədvəli qeydiyyatdan keçirə bilərsiniz.",
   "increaseMedicationScheduleLimit": "Premium plan ilə limitinizi {count} artırın",
   "addMedicationSchedule": "Qəbul cədvəlini əlavə et",
   "medicationScheduleNotificationSetting": "Dərman qəbulu cədvəli bildiriş parametrləri",

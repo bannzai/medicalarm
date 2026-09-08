@@ -61,7 +61,7 @@
   "medicine": "Zdravila",
   "inquiry": "Stopite v stik z nami",
   "ok": "V redu",
-  "medicationScheduleLimit": "Načrt zdravljenja lahko registrirate do {count} enot.",
+  "medicationScheduleLimit": "Registrirate lahko do {count} urnikov jemanja zdravil.",
   "increaseMedicationScheduleLimit": "Povečajte omejitev na {count} s premium načrtom",
   "addMedicationSchedule": "Dodajanje razporeda jemanja",
   "medicationScheduleNotificationSetting": "Nastavitev obvestil za urnik jemanja",

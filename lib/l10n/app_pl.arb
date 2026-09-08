@@ -61,7 +61,7 @@
   "medicine": "Leki",
   "inquiry": "Skontaktuj się z nami",
   "ok": "OK",
-  "medicationScheduleLimit": "Możesz zarejestrować do {count} harmonogramów przyjmowania leków.",
+  "medicationScheduleLimit": "Możesz zarejestrować maksymalnie {count} harmonogramów przyjmowania leków.",
   "increaseMedicationScheduleLimit": "Zwiększ limit do {count} w planie premium",
   "addMedicationSchedule": "Dodaj harmonogram przyjmowania leków",
   "medicationScheduleNotificationSetting": "Ustawienia powiadomień harmonogramu przyjmowania leków",

@@ -61,7 +61,7 @@
   "medicine": "Medikamente",
   "inquiry": "Kontakt",
   "ok": "OK",
-  "medicationScheduleLimit": "D Diärde kanns {count} Medikamente registriert werde.",
+  "medicationScheduleLimit": "Du chasch bis zu {count} Medikamenten-Iinahmeplän registriere.",
   "increaseMedicationScheduleLimit": "Erhöhen Sie das Limit auf {count} im Premium-Plan.",
   "addMedicationSchedule": "Schemata zur Nomm verwalte",
   "medicationScheduleNotificationSetting": "Medikament-Stunden-Benachrichtigungs-Einstellunge",

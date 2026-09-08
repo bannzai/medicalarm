@@ -61,7 +61,7 @@
   "medicine": "మందులు",
   "inquiry": "మమ్మల్ని సంప్రదించండి",
   "ok": "సరే",
-  "medicationScheduleLimit": "మీరు{count} మందుల షెడ్యూల్ నమోదు చేయడానికి వరకు నమోదు చేయవచ్చు.",
+  "medicationScheduleLimit": "మీరు గరిష్ఠంగా {count} మందుల వినియోగ షెడ్యూళ్లను నమోదు చేయవచ్చు.",
   "increaseMedicationScheduleLimit": "ప్రీమియం పథకం ద్వారా పరిమితిని {count} కు పెంచండి",
   "addMedicationSchedule": "షెడ్యూల్‌లో టాబ్లెట్ చేర్చండి",
   "medicationScheduleNotificationSetting": "మందులు తీసుకునే షెడ్యూల్ నోటిఫికేషన్ సెటప్",

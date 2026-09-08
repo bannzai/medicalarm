@@ -61,7 +61,7 @@
   "medicine": "Lieky",
   "inquiry": "Kontaktujte nás",
   "ok": "OK",
-  "medicationScheduleLimit": "Môžete zaregistrovať až {count} plánov užívania.",
+  "medicationScheduleLimit": "Môžete zaregistrovať až {count} rozvrhov užívania liekov.",
   "increaseMedicationScheduleLimit": "Zvýšte limit v prémiovom pláne na {count}",
   "addMedicationSchedule": "Pridať plán užívania",
   "medicationScheduleNotificationSetting": "Nastavenie upozornení na harmonogram užívania",

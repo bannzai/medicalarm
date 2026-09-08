@@ -61,7 +61,7 @@
   "medicine": "መድኃኒቶች",
   "inquiry": "ያግኙን",
   "ok": "እሺ",
-  "medicationScheduleLimit": "አንድ ወቅት የተመዘገቡ አንዳንድ አረጋዊ ጊዜ ላይ ኦብረግክ{count} እንድያወጡ ወይም ላይ ይወዳዳሉ።",
+  "medicationScheduleLimit": "እስከ {count} የመድኃኒት መውሰጃ መርሃ ግብሮችን መመዝገብ ይችላሉ።",
   "increaseMedicationScheduleLimit": "በፕሪምየም እቅድ ውስጥ እንዲሆን ገደብዎን ወደ {count} ያስገነባ",
   "addMedicationSchedule": "መድህን ቀን ወቅት ይጨምሩ",
   "medicationScheduleNotificationSetting": "የመይነት ጊዜ ማሳወቅ መቅጣት አስተዳደር",

@@ -61,7 +61,7 @@
   "medicine": "औषधिहरू",
   "inquiry": "सम्पर्क गर्नुहोस्",
   "ok": "ठीक छ",
-  "medicationScheduleLimit": "तपाईँले {count} सम्मको औषधि तालिका दर्ता गर्न सक्नुहुन्छ।",
+  "medicationScheduleLimit": "तपाईंले बढीमा {count} वटा औषधि सेवन तालिका दर्ता गर्न सक्नुहुन्छ।",
   "increaseMedicationScheduleLimit": "प्रीमियम योजनामा {count} सम्मको सीमा बढाउनुहोस्",
   "addMedicationSchedule": "दवा सेवन तालिका थप्नुहोस्",
   "medicationScheduleNotificationSetting": "मेडिसिन कार्यक्रमसम्बन्धी सूचनाको सेटिंग",

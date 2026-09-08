@@ -61,7 +61,7 @@
   "medicine": "Medicamente",
   "inquiry": "Contactați-ne",
   "ok": "OK",
-  "medicationScheduleLimit": "Puteți înregistra până la {count} programări pentru medicație.",
+  "medicationScheduleLimit": "Puteți înregistra până la {count} programe de administrare a medicamentelor.",
   "increaseMedicationScheduleLimit": "Crește limita la {count} cu planul premium.",
   "addMedicationSchedule": "Adăugați programul de administrare",
   "medicationScheduleNotificationSetting": "Setări notificare program de administrare",

@@ -61,7 +61,7 @@
   "medicine": "દવાઓ",
   "inquiry": "અમારો સંપર્ક કરો",
   "ok": "ઠીક છે",
-  "medicationScheduleLimit": "તમે {count} તરફથી દવાઓની તસ્તવીર કરી શકો છો.",
+  "medicationScheduleLimit": "તમે વધુમાં વધુ {count} દવા લેવાના સમયપત્રકો નોંધાવી શકો છો.",
   "increaseMedicationScheduleLimit": "પ્રિમિયમ પ્લાન દ્વારા મર્યાદાને {count}માં વધારવા",
   "addMedicationSchedule": "ડોઝ શડ્યૂલ ઉમેરો",
   "medicationScheduleNotificationSetting": "દવા લેવાવાનું સમયપત્રક સૂચના સેટિંગ",

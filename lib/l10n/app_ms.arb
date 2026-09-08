@@ -61,7 +61,7 @@
   "medicine": "Ubat",
   "inquiry": "Hubungi kami",
   "ok": "OK",
-  "medicationScheduleLimit": "Jadual pengambilan ubat boleh didaftarkan sehingga {count}.",
+  "medicationScheduleLimit": "Anda boleh mendaftarkan sehingga {count} jadual pengambilan ubat.",
   "increaseMedicationScheduleLimit": "Tingkatkan had kepada {count} dengan pelan premium",
   "addMedicationSchedule": "Tambah Jadual Pengambilan",
   "medicationScheduleNotificationSetting": "Tetapan pemberitahuan jadual pengambilan",

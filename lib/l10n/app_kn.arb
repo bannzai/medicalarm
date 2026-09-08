@@ -61,7 +61,7 @@
   "medicine": "ಔಷಧಿಗಳು",
   "inquiry": "ನಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸಿ",
   "ok": "ಸರಿ",
-  "medicationScheduleLimit": "ಮಾರ್ಗಸೂಚಿಯ ನಿಗದಿಯನ್ನು {count}ಗೂ ನೊಂದಾಯಿಸಬಹುದು.",
+  "medicationScheduleLimit": "ನೀವು ಗರಿಷ್ಠ {count} ಔಷಧ ಸೇವನೆ ವೇಳಾಪಟ್ಟಿಗಳನ್ನು ನೋಂದಾಯಿಸಬಹುದು.",
   "increaseMedicationScheduleLimit": "ಪ್ರೀಮಿಯಮ್ ಯೋಜನೆಯೊಂದಿಗೆ ಹದಿನಾರು {count} ಗೆ ಹೆಚ್ಚಿಸಲಾಗುತ್ತದೆ",
   "addMedicationSchedule": "ಔಷಧ ತೆಗೆದುಕೊಳ್ಳುವ ವೇಳಾಪಟ್ಟಿಯನ್ನು ಸೇರಿಸಿ",
   "medicationScheduleNotificationSetting": "ಔಷಧೇಳುವ ವೇಳಾಪಟ್ಟಿಗೆ ಸೂಚನೆಗಳನ್ನು ಹೊಂದಿಸಲು",

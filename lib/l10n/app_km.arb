@@ -61,7 +61,7 @@
   "medicine": "ថ្នាំ",
   "inquiry": "ទាក់ទងមកយើងខ្ញុំ",
   "ok": "យល់ព្រម",
-  "medicationScheduleLimit": "អ្នកអាចចុះបញ្ជីកម្មវិធីប្រើប្រាស់បានដល់{count}។",
+  "medicationScheduleLimit": "អ្នកអាចចុះឈ្មោះកាលវិភាគប្រើថ្នាំបានរហូតដល់ {count}។",
   "increaseMedicationScheduleLimit": "បន្ថែមកំណត់ឱ្យកើនឡើងជាង {count} ក្នុងផែនទីពាណិជ្ជកម្ម",
   "addMedicationSchedule": "ប្តូរពេលវេលាសម្រាប់ការទទួល",
   "medicationScheduleNotificationSetting": "ការកំណត់ការជូនដំណឹងកាលវិភាគការទទួលยา",

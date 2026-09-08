@@ -61,7 +61,7 @@
   "medicine": "औषधे",
   "inquiry": "आमच्याशी संपर्क साधा",
   "ok": "ठीक आहे",
-  "medicationScheduleLimit": "आपण {count} औषध वेळापत्रक नोंदवू शकता.",
+  "medicationScheduleLimit": "तुम्ही {count} पर्यंत औषध घेण्याचे वेळापत्रक नोंदवू शकता.",
   "increaseMedicationScheduleLimit": "प्रीमियम योजना अंतर्गत मर्यादा {count} पर्यंत वाढवण्याची माहिती",
   "addMedicationSchedule": "तुमचा औषध कार्यक्रम जोडा",
   "medicationScheduleNotificationSetting": "औषधि पिण्याच्या वेळापत्रकाच्या सूचना सेटिंग",

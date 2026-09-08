@@ -61,7 +61,7 @@
   "medicine": "Zāles",
   "inquiry": "Sazināties ar mums",
   "ok": "Labi",
-  "medicationScheduleLimit": "Zāles lietošanas grafiku var reģistrēt līdz {count} reizēm.",
+  "medicationScheduleLimit": "Varat reģistrēt līdz {count} zāļu lietošanas grafikiem.",
   "increaseMedicationScheduleLimit": "Palieliniet limita, izmantojot premium plānu, līdz {count}",
   "addMedicationSchedule": "Pievienot medikamentu grafiku",
   "medicationScheduleNotificationSetting": "Zāļu lietošanas grafika paziņojumu iestatīšana",

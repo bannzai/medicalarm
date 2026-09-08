@@ -61,7 +61,7 @@
   "medicine": "Medikamente",
   "inquiry": "Kontakt",
   "ok": "OK",
-  "medicationScheduleLimit": "Sie können bis zu {count} Medikamentenpläne registrieren.",
+  "medicationScheduleLimit": "Sie können bis zu {count} Einnahmepläne registrieren.",
   "increaseMedicationScheduleLimit": "Erhöhen Sie das Limit auf {count} mit dem Premium-Plan.",
   "addMedicationSchedule": "Medikationszeitplan hinzufügen",
   "medicationScheduleNotificationSetting": "Benachrichtigungseinstellungen für den Medikamenteneinnahmezeitplan",

@@ -61,7 +61,7 @@
   "medicine": "Φάρμακα",
   "inquiry": "Επικοινωνία",
   "ok": "OK",
-  "medicationScheduleLimit": "Μπορείτε να καταχωρίσετε έως {count} προγράμματα φαρμακευτικής αγωγής.",
+  "medicationScheduleLimit": "Μπορείτε να καταχωρίσετε έως και {count} προγράμματα λήψης φαρμάκων.",
   "increaseMedicationScheduleLimit": "Αυξήστε το όριο σε {count} με το πρόγραμμα Premium.",
   "addMedicationSchedule": "Προσθήκη προγράμματος λήψης",
   "medicationScheduleNotificationSetting": "Ρύθμιση ειδοποιήσεων προγράμματος φαρμακευτικής αγωγής",

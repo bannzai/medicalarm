@@ -61,7 +61,7 @@
   "medicine": "Эмүүд",
   "inquiry": "Бидэнтэй холбогдох",
   "ok": "За",
-  "medicationScheduleLimit": "Танд {count} хүртэлх хэрэглээний хуваарийг бүртгэх боломжтой.",
+  "medicationScheduleLimit": "Та {count} хүртэл эм уух хуваарь бүртгэх боломжтой.",
   "increaseMedicationScheduleLimit": "Премиум төлөвлөгөөний дагуу хязгаарыг {count} болгож нэмэгдүүлэх",
   "addMedicationSchedule": "Тайлангийн хуваарийг нэмэх",
   "medicationScheduleNotificationSetting": "Эмчилгээний хуваарийн мэдэгдлийн тохиргоо",

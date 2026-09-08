@@ -61,7 +61,7 @@
   "medicine": "ဆေးဝါးများ",
   "inquiry": "ဆက်သွယ်ရန်",
   "ok": "အိုကေ",
-  "medicationScheduleLimit": "Jadual pengambilan ubat boleh didaftarkan sehingga {count}.",
+  "medicationScheduleLimit": "ဆေးသောက်ချိန်ဇယားကို အများဆုံး {count} ခုအထိ မှတ်ပုံတင်နိုင်ပါသည်။",
   "increaseMedicationScheduleLimit": "Meningkatkan had kepada {count} dengan pelan premium",
   "addMedicationSchedule": "Tambah Jadual Pengambilan",
   "medicationScheduleNotificationSetting": "Tetapan Pemberitahuan Jadual Pengambilan",

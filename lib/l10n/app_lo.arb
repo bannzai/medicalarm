@@ -61,7 +61,7 @@
   "medicine": "ຢາ",
   "inquiry": "ຕິດຕໍ່ພວກເຮົາ",
   "ok": "ຕົກລົງ",
-  "medicationScheduleLimit": "ສາມາດເລືອກຕາຕະລາງສໍາລັບການຮັກສາສະດຸນຄັນຄັນລົດລູນບັນທຶກຟາສິນຂອງທ່ານໄດ້ຫຼາຍກວ່າ {count} ຄັນ.",
+  "medicationScheduleLimit": "ທ່ານສາມາດລົງທະບຽນຕາຕະລາງການກິນຢາໄດ້ສູງສຸດ {count} ລາຍການ.",
   "increaseMedicationScheduleLimit": "ເພີ່ນຂະບວນສໍາລັບຄວາມຈິງ {count} ສູງສິດໃນແພນສົດທີ່ສາມັດໃນພວກເຂົ້າໃນຊ້າດຮັບ",
   "addMedicationSchedule": "ເພິ່ນເພີ່ມເຕີມຕາຕະລາງການໃຊ້ເສັງໃນແອບ",
   "medicationScheduleNotificationSetting": "ການຕັ້ງຄ່າການແຈ້ງໃນແບບລະບຽບສຽງສໍາລັບການເຮັດວຽນສະຖານການໃຊ້ເສັ້ນໃນແອັບ",

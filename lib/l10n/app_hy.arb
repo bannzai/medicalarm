@@ -61,7 +61,7 @@
   "medicine": "Դեղեր",
   "inquiry": "Կապ մեզ հետ",
   "ok": "Լավ",
-  "medicationScheduleLimit": "Դեղ ընդունելու գրաֆիկը կարող է գրանցվել մինչև {count} անգամ։",
+  "medicationScheduleLimit": "Դուք կարող եք գրանցել մինչև {count} դեղորայքի ընդունման ժամանակացույց։",
   "increaseMedicationScheduleLimit": "Պրեմիում պլանով ավելացնել սահմանաչափը մինչև {count}",
   "addMedicationSchedule": "Ավելացնել դեղամիջոցի դավաճանության գրաֆիկ",
   "medicationScheduleNotificationSetting": "Դեղամիջոցների ժամանակացույցի ծանուցման կարգավորումներ",
