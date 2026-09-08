@@ -114,7 +114,7 @@
   "purchaseErrorInvalidPayment": "Plata nu a reușit. Verificați dacă metoda de plată este valabilă și încercați din nou.",
   "purchaseErrorProductUnavailable": "Planul selectat nu este disponibil pentru achiziție momentan. Reporniți aplicația și încercați din nou.",
   "purchaseErrorAlreadyPurchased": "Ați achiziționat deja un plan. Pentru a restabili informațiile despre achiziție pe acest dispozitiv, selectați „Pentru cei care au cumpărat deja”.",
-  "purchaseErrorReceiptInUse": "Deja achiziționat sau informațiile despre achiziție sunt folosite de alt utilizator. Verificați {accountName}.",
+  "purchaseErrorReceiptInUse": "Achiziționat deja sau informațiile despre achiziție sunt folosite de alt utilizator. Verificați {accountName}.",
   "purchaseErrorInvalidReceipt": "Informațiile despre achiziție nu sunt valide. Verifică informațiile despre achiziție.",
   "purchaseErrorMissingReceipt": "Informațiile cumpărătorului nu există. Conectați-vă pe acest dispozitiv cu {accountName} și încercați din nou.",
   "purchaseErrorNetwork": "Conexiunea la rețea este instabilă. Verificați conexiunea și încercați din nou.",

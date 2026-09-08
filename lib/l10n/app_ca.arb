@@ -114,7 +114,7 @@
   "purchaseErrorInvalidPayment": "El pagament ha fallat. Comproveu que el mètode de pagament sigui vàlid i torneu-ho a provar.",
   "purchaseErrorProductUnavailable": "El pla seleccionat no està disponible per a la venda en aquest moment. Reinicieu l’app i torneu-ho a provar.",
   "purchaseErrorAlreadyPurchased": "Ja has comprat un pla. Per restaurar la informació de compra en aquest dispositiu, selecciona «Per a qui ja ha comprat».",
-  "purchaseErrorReceiptInUse": "Ja s’ha comprat o la informació de compra l’utilitza un altre usuari. Comprova {accountName}.",
+  "purchaseErrorReceiptInUse": "Ja s’ha comprat o la informació de compra l’està utilitzant un altre usuari. Comprova {accountName}.",
   "purchaseErrorInvalidReceipt": "La informació de compra no és vàlida. Comprova la informació de compra.",
   "purchaseErrorMissingReceipt": "No hi ha informació del comprador. Inicieu la sessió en aquest dispositiu amb {accountName} i torneu-ho a provar.",
   "purchaseErrorNetwork": "L'estat de la xarxa és inestable. Comproveu la connexió i torneu-ho a provar.",

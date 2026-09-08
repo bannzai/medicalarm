@@ -114,7 +114,7 @@
   "purchaseErrorInvalidPayment": "Die Zahlung ist fehlgeschlagen. Bitte prüfen Sie, ob Ihre Zahlungsmethode gültig ist, und versuchen Sie es erneut.",
   "purchaseErrorProductUnavailable": "Der ausgewählte Tarif ist derzeit nicht erhältlich. Bitte starte die App neu und versuche es erneut.",
   "purchaseErrorAlreadyPurchased": "Sie haben bereits einen Tarif gekauft. Um Ihre Kaufdaten auf diesem Gerät wiederherzustellen, wählen Sie „Für bereits gekaufte Abos“.",
-  "purchaseErrorReceiptInUse": "Bereits gekauft oder die Kaufinformationen werden von einem anderen Nutzer verwendet. Überprüfe {accountName}.",
+  "purchaseErrorReceiptInUse": "Bereits gekauft oder die Kaufinformationen werden von einem anderen Benutzer verwendet. Überprüfe {accountName}.",
   "purchaseErrorInvalidReceipt": "Ungültige Kaufinformationen. Überprüfe deine Kaufinformationen.",
   "purchaseErrorMissingReceipt": "Es sind keine Käuferinformationen vorhanden. Melden Sie sich auf diesem Gerät mit {accountName} an und versuchen Sie es erneut.",
   "purchaseErrorNetwork": "Die Netzwerkverbindung ist instabil. Überprüfen Sie Ihre Verbindung und versuchen Sie es erneut.",

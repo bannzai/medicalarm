@@ -114,7 +114,7 @@
   "purchaseErrorInvalidPayment": "Betalningen misslyckades. Kontrollera att din betalningsmetod är giltig och försök igen.",
   "purchaseErrorProductUnavailable": "Den valda planen är för närvarande inte tillgänglig för köp. Starta om appen och försök igen.",
   "purchaseErrorAlreadyPurchased": "Du har redan köpt en plan. Om du vill återställa köpinformationen på den här enheten väljer du ”För dig som har köpt tidigare”.",
-  "purchaseErrorReceiptInUse": "Redan köpt, eller så används köpinformationen av en annan användare. Kontrollera {accountName}.",
+  "purchaseErrorReceiptInUse": "Redan köpt eller så används köpinformationen av en annan användare. Kontrollera {accountName}.",
   "purchaseErrorInvalidReceipt": "Ogiltig köpinformation. Kontrollera din köpinformation.",
   "purchaseErrorMissingReceipt": "Det finns ingen information om köparen. Logga in på den här enheten med {accountName} och försök igen.",
   "purchaseErrorNetwork": "Nätverksanslutningen är instabil. Kontrollera anslutningen och försök igen.",

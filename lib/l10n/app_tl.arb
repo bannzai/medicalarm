@@ -114,7 +114,7 @@
   "purchaseErrorInvalidPayment": "Hindi naging matagumpay ang pagbabayad. Tiyaking valid ang paraan ng pagbabayad at subukan muli.",
   "purchaseErrorProductUnavailable": "Hindi kasalukuyang available para bilhin ang napiling plan. I-restart ang app at subukan muli.",
   "purchaseErrorAlreadyPurchased": "Nakapagpili ka na ng plan. Para i-restore ang impormasyon ng iyong purchase sa device na ito, piliin ang “Para sa mga nakabili na dati.”",
-  "purchaseErrorReceiptInUse": "Nabili na, o ginagamit ng ibang user ang impormasyon ng pagbili. Suriin ang {accountName}.",
+  "purchaseErrorReceiptInUse": "Nabili na o ginagamit ng ibang user ang impormasyon ng pagbili. Suriin ang {accountName}.",
   "purchaseErrorInvalidReceipt": "Hindi wasto ang impormasyon ng pagbili. Pakitingnan ang impormasyon ng iyong pagbili.",
   "purchaseErrorMissingReceipt": "Walang impormasyon tungkol sa bumili. Mag-sign in sa device na ito gamit ang {accountName} at subukan muli.",
   "purchaseErrorNetwork": "Hindi stable ang network. Suriin ang koneksyon at subukan muli.",

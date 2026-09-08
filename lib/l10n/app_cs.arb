@@ -114,7 +114,7 @@
   "purchaseErrorInvalidPayment": "Platba se nezdařila. Zkontrolujte, zda je váš způsob platby platný, a zkuste to znovu.",
   "purchaseErrorProductUnavailable": "Vybraný tarif momentálně není k dispozici k zakoupení. Restartujte aplikaci a zkuste to znovu.",
   "purchaseErrorAlreadyPurchased": "Plán jste již zakoupili. Chcete-li na tomto zařízení obnovit informace o nákupu, vyberte „Pro ty, kteří již nakoupili“.",
-  "purchaseErrorReceiptInUse": "Tato položka již byla zakoupena nebo nákupní údaje používá jiný uživatel. Zkontrolujte {accountName}.",
+  "purchaseErrorReceiptInUse": "Produkt již byl zakoupen nebo informace o nákupu používá jiný uživatel. Zkontrolujte {accountName}.",
   "purchaseErrorInvalidReceipt": "Neplatné údaje o nákupu. Zkontrolujte údaje o nákupu.",
   "purchaseErrorMissingReceipt": "Informace o kupujícím neexistují. Přihlaste se na tomto zařízení pomocí účtu {accountName} a zkuste to znovu.",
   "purchaseErrorNetwork": "Stav sítě je nestabilní. Zkontrolujte připojení a zkuste to znovu.",

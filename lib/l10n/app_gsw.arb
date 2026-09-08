@@ -114,7 +114,7 @@
   "purchaseErrorInvalidPayment": "D’Zahlig isch fehlgschlage. Bitte prüefe, ob dini Zahligsmethode gültig isch, und versuech es nomal.",
   "purchaseErrorProductUnavailable": "De usgwählti Plan isch im Momänt nöd erhältlich. Bitte start d’App neu und versuech’s nomol.",
   "purchaseErrorAlreadyPurchased": "Du hesch scho en Plan kauft. Zum dini Chauf-Informatione uf däm Gerät wiederhärstelle, wähl «Für alli, wo scho kauft händ».",
-  "purchaseErrorReceiptInUse": "Bereits kauft oder d’Kaufinformatione werde vo eme andere Benutzer verwendet. Überprüef {accountName}.",
+  "purchaseErrorReceiptInUse": "Bereits kauft oder d’Kaufinformatione werde vo mene andere Benutzer verwendet. Prüef {accountName}.",
   "purchaseErrorInvalidReceipt": "Ungültigi Chaufsinformatione. Bitte überprüef dini Chaufsinformatione.",
   "purchaseErrorMissingReceipt": "Es sind kei Käuferdate vorhande. Melde Sie sich uf däm Gerät mit {accountName} aa und probiere Sie es nomol.",
   "purchaseErrorNetwork": "D Netzverbindig isch instabil. Prüefed Sie d Verbindig und versueched Sie es nomol.",

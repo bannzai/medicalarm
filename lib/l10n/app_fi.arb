@@ -114,7 +114,7 @@
   "purchaseErrorInvalidPayment": "Maksu epäonnistui. Tarkista, että maksutapasi on voimassa, ja yritä uudelleen.",
   "purchaseErrorProductUnavailable": "Valittu tilaus ei ole tällä hetkellä ostettavissa. Käynnistä sovellus uudelleen ja yritä uudelleen.",
   "purchaseErrorAlreadyPurchased": "Olet jo ostanut tilauksen. Voit palauttaa ostotietosi tähän laitteeseen valitsemalla ”Aiemmin ostaneille”.",
-  "purchaseErrorReceiptInUse": "Ostettu jo aiemmin tai toinen käyttäjä käyttää ostotietoja. Tarkista {accountName}.",
+  "purchaseErrorReceiptInUse": "Ostettu jo, tai toinen käyttäjä käyttää ostotietoja. Tarkista {accountName}.",
   "purchaseErrorInvalidReceipt": "Virheelliset ostotiedot. Tarkista ostotietosi.",
   "purchaseErrorMissingReceipt": "Ostajan tietoja ei ole. Kirjaudu tähän laitteeseen tunnuksella {accountName} ja yritä uudelleen.",
   "purchaseErrorNetwork": "Verkkoyhteys on epävakaa. Tarkista yhteys ja yritä uudelleen.",
