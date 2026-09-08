@@ -231,5 +231,6 @@
   "doseIntervalWarningTakeAnyway": "Itala",
   "doseIntervalNotificationWarning": "⚠️ Wala pang {minimumDoseIntervalHours} oras mula sa huling pag-inom",
   "ossLicense": "Mga Lisensya ng OSS",
-  "achievementWeeklyLabel": "Pag-inom ng gamot ngayong linggo"
+  "achievementWeeklyLabel": "Pag-inom ng gamot ngayong linggo",
+  "achievementWeeklyCountSuffix": "/{scheduledCount} beses"
 }

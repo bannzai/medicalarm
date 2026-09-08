@@ -231,5 +231,6 @@
   "doseIntervalWarningTakeAnyway": "Zabeleži",
   "doseIntervalNotificationWarning": "⚠️ Od zadnjega odmerka še ni minilo {minimumDoseIntervalHours} ur",
   "ossLicense": "Licence OSS",
-  "achievementWeeklyLabel": "Jemanje zdravil ta teden"
+  "achievementWeeklyLabel": "Jemanje zdravil ta teden",
+  "achievementWeeklyCountSuffix": "/{scheduledCount}-krat"
 }

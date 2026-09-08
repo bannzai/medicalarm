@@ -231,5 +231,6 @@
   "doseIntervalWarningTakeAnyway": "تسجيل",
   "doseIntervalNotificationWarning": "⚠️ لم تمر {minimumDoseIntervalHours} ساعة منذ الجرعة السابقة",
   "ossLicense": "تراخيص OSS",
-  "achievementWeeklyLabel": "تناول الدواء هذا الأسبوع"
+  "achievementWeeklyLabel": "تناول الدواء هذا الأسبوع",
+  "achievementWeeklyCountSuffix": "/{scheduledCount} مرة"
 }

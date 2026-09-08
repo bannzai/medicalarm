@@ -231,5 +231,6 @@
   "doseIntervalWarningTakeAnyway": "Գրանցել",
   "doseIntervalNotificationWarning": "⚠️ Նախորդ ընդունումից դեռ չի անցել {minimumDoseIntervalHours} ժամ",
   "ossLicense": "OSS լիցենզիաներ",
-  "achievementWeeklyLabel": "Այս շաբաթվա դեղորայքի ընդունում"
+  "achievementWeeklyLabel": "Այս շաբաթվա դեղորայքի ընդունում",
+  "achievementWeeklyCountSuffix": "/{scheduledCount} անգամ"
 }

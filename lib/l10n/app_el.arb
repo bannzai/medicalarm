@@ -231,5 +231,6 @@
   "doseIntervalWarningTakeAnyway": "Καταγραφή",
   "doseIntervalNotificationWarning": "⚠️ Δεν έχουν περάσει {minimumDoseIntervalHours} ώρες από την τελευταία λήψη",
   "ossLicense": "Άδειες OSS",
-  "achievementWeeklyLabel": "Λήψη φαρμάκων αυτή την εβδομάδα"
+  "achievementWeeklyLabel": "Λήψη φαρμάκων αυτή την εβδομάδα",
+  "achievementWeeklyCountSuffix": "/{scheduledCount} φορές"
 }

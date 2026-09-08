@@ -231,5 +231,6 @@
   "doseIntervalWarningTakeAnyway": "ରେକର୍ଡ କରନ୍ତୁ",
   "doseIntervalNotificationWarning": "⚠️ ପୂର୍ବ ଡୋଜ୍ ନେବା ପରେ {minimumDoseIntervalHours} ଘଣ୍ଟା ବିତିନାହିଁ",
   "ossLicense": "OSS ଲାଇସେନ୍ସ",
-  "achievementWeeklyLabel": "ଏହି ସପ୍ତାହର ଔଷଧ ସେବନ"
+  "achievementWeeklyLabel": "ଏହି ସପ୍ତାହର ଔଷଧ ସେବନ",
+  "achievementWeeklyCountSuffix": "/{scheduledCount} ଥର"
 }

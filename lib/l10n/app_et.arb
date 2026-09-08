@@ -231,5 +231,6 @@
   "doseIntervalWarningTakeAnyway": "Salvesta",
   "doseIntervalNotificationWarning": "⚠️ Viimasest annusest ei ole möödunud {minimumDoseIntervalHours} tundi",
   "ossLicense": "OSS-litsentsid",
-  "achievementWeeklyLabel": "Selle nädala ravimite võtmine"
+  "achievementWeeklyLabel": "Selle nädala ravimite võtmine",
+  "achievementWeeklyCountSuffix": "/{scheduledCount} korda"
 }

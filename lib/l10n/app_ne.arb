@@ -231,5 +231,6 @@
   "doseIntervalWarningTakeAnyway": "रेकर्ड गर्नुहोस्",
   "doseIntervalNotificationWarning": "⚠️ अघिल्लो मात्रा लिएको {minimumDoseIntervalHours} घण्टा पूरा भएको छैन",
   "ossLicense": "OSS इजाजतपत्रहरू",
-  "achievementWeeklyLabel": "यस हप्ताको औषधि सेवन"
+  "achievementWeeklyLabel": "यस हप्ताको औषधि सेवन",
+  "achievementWeeklyCountSuffix": "/{scheduledCount} पटक"
 }

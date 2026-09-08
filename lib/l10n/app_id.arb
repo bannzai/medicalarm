@@ -231,5 +231,6 @@
   "doseIntervalWarningTakeAnyway": "Catat",
   "doseIntervalNotificationWarning": "⚠️ Belum {minimumDoseIntervalHours} jam berlalu sejak dosis terakhir",
   "ossLicense": "Lisensi OSS",
-  "achievementWeeklyLabel": "Minum obat minggu ini"
+  "achievementWeeklyLabel": "Minum obat minggu ini",
+  "achievementWeeklyCountSuffix": "/{scheduledCount} kali"
 }

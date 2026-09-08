@@ -231,5 +231,6 @@
   "doseIntervalWarningTakeAnyway": "Rögzítés",
   "doseIntervalNotificationWarning": "⚠️ Az előző adag óta még nem telt el {minimumDoseIntervalHours} óra",
   "ossLicense": "OSS-licencek",
-  "achievementWeeklyLabel": "E heti gyógyszerbevétel"
+  "achievementWeeklyLabel": "E heti gyógyszerbevétel",
+  "achievementWeeklyCountSuffix": "/{scheduledCount} alkalom"
 }

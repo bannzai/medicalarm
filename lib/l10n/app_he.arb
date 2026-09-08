@@ -231,5 +231,6 @@
   "doseIntervalWarningTakeAnyway": "תיעוד",
   "doseIntervalNotificationWarning": "⚠️ לא עברו {minimumDoseIntervalHours} שעות מאז המנה הקודמת",
   "ossLicense": "רישיונות OSS",
-  "achievementWeeklyLabel": "נטילת תרופות השבוע"
+  "achievementWeeklyLabel": "נטילת תרופות השבוע",
+  "achievementWeeklyCountSuffix": "/{scheduledCount} פעמים"
 }

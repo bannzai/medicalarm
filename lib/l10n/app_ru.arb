@@ -231,5 +231,6 @@
   "doseIntervalWarningTakeAnyway": "Записать",
   "doseIntervalNotificationWarning": "⚠️ С момента последнего приема прошло менее {minimumDoseIntervalHours} часов",
   "ossLicense": "Лицензии OSS",
-  "achievementWeeklyLabel": "Приём лекарств на этой неделе"
+  "achievementWeeklyLabel": "Приём лекарств на этой неделе",
+  "achievementWeeklyCountSuffix": "/{scheduledCount} раз"
 }

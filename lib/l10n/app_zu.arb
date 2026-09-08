@@ -231,5 +231,6 @@
   "doseIntervalWarningTakeAnyway": "Qopha",
   "doseIntervalNotificationWarning": "⚠️ Akukadluleki amahora angu-{minimumDoseIntervalHours} kusukela ekuphuzeni umthamo wokugcina",
   "ossLicense": "Amalayisense e-OSS",
-  "achievementWeeklyLabel": "Ukuphuza imithi kuleli sonto"
+  "achievementWeeklyLabel": "Ukuphuza imithi kuleli sonto",
+  "achievementWeeklyCountSuffix": "/{scheduledCount} izikhathi"
 }

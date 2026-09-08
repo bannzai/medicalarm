@@ -231,5 +231,6 @@
   "doseIntervalWarningTakeAnyway": "રેકોર્ડ કરો",
   "doseIntervalNotificationWarning": "⚠️ છેલ્લી દવા લીધા પછી {minimumDoseIntervalHours} કલાક થયા નથી",
   "ossLicense": "OSS લાઇસન્સ",
-  "achievementWeeklyLabel": "આ અઠવાડિયે દવા લેવી"
+  "achievementWeeklyLabel": "આ અઠવાડિયે દવા લેવી",
+  "achievementWeeklyCountSuffix": "/{scheduledCount} વખત"
 }

@@ -231,5 +231,6 @@
   "doseIntervalWarningTakeAnyway": "Erregistratu",
   "doseIntervalNotificationWarning": "⚠️ Azken dosia hartu zenuenetik ez dira {minimumDoseIntervalHours} ordu igaro",
   "ossLicense": "OSS lizentziak",
-  "achievementWeeklyLabel": "Aste honetako botikak hartzea"
+  "achievementWeeklyLabel": "Aste honetako botikak hartzea",
+  "achievementWeeklyCountSuffix": "/{scheduledCount} aldiz"
 }

@@ -231,5 +231,6 @@
   "doseIntervalWarningTakeAnyway": "Rekod",
   "doseIntervalNotificationWarning": "⚠️ Belum {minimumDoseIntervalHours} jam berlalu sejak dos terakhir",
   "ossLicense": "Lesen OSS",
-  "achievementWeeklyLabel": "Pengambilan ubat minggu ini"
+  "achievementWeeklyLabel": "Pengambilan ubat minggu ini",
+  "achievementWeeklyCountSuffix": "/{scheduledCount} kali"
 }

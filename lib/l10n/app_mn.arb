@@ -231,5 +231,6 @@
   "doseIntervalWarningTakeAnyway": "Бүртгэх",
   "doseIntervalNotificationWarning": "⚠️ Сүүлийн тунг хэрэглэснээс хойш {minimumDoseIntervalHours} цаг өнгөрөөгүй байна",
   "ossLicense": "OSS лицензүүд",
-  "achievementWeeklyLabel": "Энэ долоо хоногийн эмийн хэрэглээ"
+  "achievementWeeklyLabel": "Энэ долоо хоногийн эмийн хэрэглээ",
+  "achievementWeeklyCountSuffix": "/{scheduledCount} удаа"
 }
