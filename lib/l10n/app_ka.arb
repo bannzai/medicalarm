@@ -211,7 +211,7 @@
   "removeMemberConfirmMessage": "{name}-ის ჯგუფიდან წაშლა",
   "joinGroup": "ჯგუფში გაწევრიანება",
   "invitationCodeInputLabel": "მოწვევის კოდი (8 სიმბოლო)",
-  "invitationCodeInputHint": "შეიყვანეთ 8-სიმბოლოიანი კოდი",
+  "invitationCodeInputHint": "შეიყვანეთ 8-ნიშნა კოდი",
   "join": "შეერთება",
   "recordedByMember": "{name}-მა ჩაიწერა",
   "accountLink": "ანგარიშის გადატანა",

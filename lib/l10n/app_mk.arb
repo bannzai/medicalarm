@@ -211,7 +211,7 @@
   "removeMemberConfirmMessage": "Отстранување на {name} од групата",
   "joinGroup": "Придружи се на група",
   "invitationCodeInputLabel": "Код за покана (8 знаци)",
-  "invitationCodeInputHint": "Внесете го кодот со 8 знаци",
+  "invitationCodeInputHint": "Внесете го кодот од 8 знаци",
   "join": "Приклучи се",
   "recordedByMember": "Евидентирал/а {name}",
   "accountLink": "Пренос на сметка",

@@ -211,7 +211,7 @@
   "removeMemberConfirmMessage": "យក {name} ចេញពីក្រុម",
   "joinGroup": "ចូលរួមក្រុម",
   "invitationCodeInputLabel": "កូដអញ្ជើញ (8 តួអក្សរ)",
-  "invitationCodeInputHint": "បញ្ចូលលេខកូដ ៨ តួអក្សរ",
+  "invitationCodeInputHint": "បញ្ចូលកូដ ៨ តួអក្សរ",
   "join": "ចូលរួម",
   "recordedByMember": "កត់ត្រាដោយ {name}",
   "accountLink": "ការផ្ទេរគណនី",

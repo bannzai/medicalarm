@@ -211,7 +211,7 @@
   "removeMemberConfirmMessage": "गटातून {name} यांना काढा",
   "joinGroup": "गटात सामील व्हा",
   "invitationCodeInputLabel": "आमंत्रण कोड (8 अक्षरे)",
-  "invitationCodeInputHint": "८ अक्षरी कोड टाका",
+  "invitationCodeInputHint": "८ अक्षरांचा कोड एंटर करा",
   "join": "सामील व्हा",
   "recordedByMember": "{name} यांनी नोंदवले",
   "accountLink": "खाते हस्तांतरण",

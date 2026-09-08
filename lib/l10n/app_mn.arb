@@ -211,7 +211,7 @@
   "removeMemberConfirmMessage": "{name}-г бүлгээс хасах",
   "joinGroup": "Бүлэгт нэгдэх",
   "invitationCodeInputLabel": "Урих код (8 тэмдэгт)",
-  "invitationCodeInputHint": "8 тэмдэгттэй код оруулна уу",
+  "invitationCodeInputHint": "8 тэмдэгттэй кодыг оруулна уу",
   "join": "Нэгдэх",
   "recordedByMember": "{name} бүртгэв",
   "accountLink": "Бүртгэл шилжүүлэх",

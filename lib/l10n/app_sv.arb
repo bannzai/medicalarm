@@ -211,7 +211,7 @@
   "removeMemberConfirmMessage": "Ta bort {name} från gruppen",
   "joinGroup": "Gå med i en grupp",
   "invitationCodeInputLabel": "Inbjudningskod (8 tecken)",
-  "invitationCodeInputHint": "Ange den 8 tecken långa koden",
+  "invitationCodeInputHint": "Ange koden med 8 tecken",
   "join": "Gå med",
   "recordedByMember": "Registrerat av {name}",
   "accountLink": "Kontoöverföring",

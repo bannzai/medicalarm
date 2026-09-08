@@ -211,7 +211,7 @@
   "removeMemberConfirmMessage": "Выдаліць {name} з групы",
   "joinGroup": "Далучыцца да групы",
   "invitationCodeInputLabel": "Код запрашэння (8 сімвалаў)",
-  "invitationCodeInputHint": "Увядзіце 8-значны код",
+  "invitationCodeInputHint": "Увядзіце 8-знакавы код",
   "join": "Далучыцца",
   "recordedByMember": "Запісана: {name}",
   "accountLink": "Перанос уліковага запісу",

@@ -211,7 +211,7 @@
   "removeMemberConfirmMessage": "Poista {name} ryhmästä",
   "joinGroup": "Liity ryhmään",
   "invitationCodeInputLabel": "Kutsukoodi (8 merkkiä)",
-  "invitationCodeInputHint": "Anna 8-merkkinen koodi",
+  "invitationCodeInputHint": "Syötä 8-merkkinen koodi",
   "join": "Liity",
   "recordedByMember": "{name} kirjasi",
   "accountLink": "Tilin siirto",

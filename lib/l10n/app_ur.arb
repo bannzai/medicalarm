@@ -211,7 +211,7 @@
   "removeMemberConfirmMessage": "گروپ سے {name} کو ہٹائیں",
   "joinGroup": "گروپ میں شامل ہوں",
   "invitationCodeInputLabel": "دعوتی کوڈ (8 حروف)",
-  "invitationCodeInputHint": "8 حروف پر مشتمل کوڈ درج کریں",
+  "invitationCodeInputHint": "8 حروف والا کوڈ درج کریں",
   "join": "شامل ہوں",
   "recordedByMember": "{name} نے درج کیا",
   "accountLink": "اکاؤنٹ کی منتقلی",
