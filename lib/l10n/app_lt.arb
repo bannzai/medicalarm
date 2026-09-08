@@ -199,7 +199,7 @@
   "invitationCodeExpiresAt": "Galioja iki: {date}",
   "copyInvitationCode": "Kopijuoti kodą",
   "invitationCodeCopied": "Kvietimo kodas nukopijuotas",
-  "issueInvitationCode": "Sukurti kvietimo kodą",
+  "issueInvitationCode": "Generuoti kvietimo kodą",
   "groupSettings": "Grupės nustatymai",
   "members": "Nariai",
   "memberFallbackName": "Narys",

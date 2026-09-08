@@ -199,7 +199,7 @@
   "invitationCodeExpiresAt": "Vrijedi do: {date}",
   "copyInvitationCode": "Kopiraj kôd",
   "invitationCodeCopied": "Pozivni kôd je kopiran",
-  "issueInvitationCode": "Izradi pozivni kôd",
+  "issueInvitationCode": "Generiraj pozivni kôd",
   "groupSettings": "Postavke grupe",
   "members": "Članovi",
   "memberFallbackName": "Član",

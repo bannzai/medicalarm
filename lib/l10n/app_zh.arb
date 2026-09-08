@@ -199,7 +199,7 @@
   "invitationCodeExpiresAt": "有效期至：{date}",
   "copyInvitationCode": "复制代码",
   "invitationCodeCopied": "邀请代码已复制",
-  "issueInvitationCode": "生成邀请代码",
+  "issueInvitationCode": "生成邀请码",
   "groupSettings": "群组设置",
   "members": "成员",
   "memberFallbackName": "成员",

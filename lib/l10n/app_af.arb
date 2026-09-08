@@ -199,7 +199,7 @@
   "invitationCodeExpiresAt": "Geldig tot: {date}",
   "copyInvitationCode": "Kopieer kode",
   "invitationCodeCopied": "Uitnodigingskode gekopieer",
-  "issueInvitationCode": "Genereer uitnodigingskode",
+  "issueInvitationCode": "Skep uitnodigingskode",
   "groupSettings": "Groepinstellings",
   "members": "Lede",
   "memberFallbackName": "Lid",

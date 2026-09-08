@@ -199,7 +199,7 @@
   "invitationCodeExpiresAt": "የሚያገለግልበት ጊዜ: {date}",
   "copyInvitationCode": "ኮዱን ቅዳ",
   "invitationCodeCopied": "የግብዣ ኮዱ ተቀድቷል",
-  "issueInvitationCode": "የግብዣ ኮድ አውጣ",
+  "issueInvitationCode": "የግብዣ ኮድ ይፍጠሩ",
   "groupSettings": "የቡድን ቅንብሮች",
   "members": "አባላት",
   "memberFallbackName": "አባል",

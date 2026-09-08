@@ -199,7 +199,7 @@
   "invitationCodeExpiresAt": "صالح حتى: {date}",
   "copyInvitationCode": "نسخ الرمز",
   "invitationCodeCopied": "تم نسخ رمز الدعوة",
-  "issueInvitationCode": "إصدار رمز دعوة",
+  "issueInvitationCode": "إنشاء رمز دعوة",
   "groupSettings": "إعدادات المجموعة",
   "members": "الأعضاء",
   "memberFallbackName": "عضو",

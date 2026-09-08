@@ -199,7 +199,7 @@
   "invitationCodeExpiresAt": "Gyldig til: {date}",
   "copyInvitationCode": "Kopier kode",
   "invitationCodeCopied": "Invitasjonskoden er kopiert",
-  "issueInvitationCode": "Lag invitasjonskode",
+  "issueInvitationCode": "Opprett invitasjonskode",
   "groupSettings": "Gruppeinnstillinger",
   "members": "Medlemmer",
   "memberFallbackName": "Medlem",

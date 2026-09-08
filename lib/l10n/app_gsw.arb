@@ -199,7 +199,7 @@
   "invitationCodeExpiresAt": "Gültig bis: {date}",
   "copyInvitationCode": "Code kopiere",
   "invitationCodeCopied": "Iiladigscode kopiert",
-  "issueInvitationCode": "Einladungscode erstellen",
+  "issueInvitationCode": "Iiladigscode generiere",
   "groupSettings": "Gruppeneinstellungen",
   "members": "Mitglieder",
   "memberFallbackName": "Mitglied",

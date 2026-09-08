@@ -199,7 +199,7 @@
   "invitationCodeExpiresAt": "Valid until: {date}",
   "copyInvitationCode": "Copy code",
   "invitationCodeCopied": "Invitation code copied",
-  "issueInvitationCode": "Issue invitation code",
+  "issueInvitationCode": "Generate invitation code",
   "groupSettings": "Group settings",
   "members": "Members",
   "memberFallbackName": "Member",

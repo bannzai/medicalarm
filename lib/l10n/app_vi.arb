@@ -199,7 +199,7 @@
   "invitationCodeExpiresAt": "Có hiệu lực đến: {date}",
   "copyInvitationCode": "Sao chép mã",
   "invitationCodeCopied": "Đã sao chép mã lời mời",
-  "issueInvitationCode": "Tạo mã mời",
+  "issueInvitationCode": "Tạo mã lời mời",
   "groupSettings": "Cài đặt nhóm",
   "members": "Thành viên",
   "memberFallbackName": "Thành viên",

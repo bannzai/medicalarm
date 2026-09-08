@@ -199,7 +199,7 @@
   "invitationCodeExpiresAt": "Ισχύει έως: {date}",
   "copyInvitationCode": "Αντιγραφή κωδικού",
   "invitationCodeCopied": "Ο κωδικός πρόσκλησης αντιγράφηκε",
-  "issueInvitationCode": "Έκδοση κωδικού πρόσκλησης",
+  "issueInvitationCode": "Δημιουργία κωδικού πρόσκλησης",
   "groupSettings": "Ρυθμίσεις ομάδας",
   "members": "Μέλη",
   "memberFallbackName": "Μέλος",

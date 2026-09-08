@@ -199,7 +199,7 @@
   "invitationCodeExpiresAt": "Derīgs līdz: {date}",
   "copyInvitationCode": "Kopēt kodu",
   "invitationCodeCopied": "Uzaicinājuma kods nokopēts",
-  "issueInvitationCode": "Izveidot ielūguma kodu",
+  "issueInvitationCode": "Ģenerēt ielūguma kodu",
   "groupSettings": "Grupas iestatījumi",
   "members": "Dalībnieki",
   "memberFallbackName": "Dalībnieks",
