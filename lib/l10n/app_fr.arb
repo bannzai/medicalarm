@@ -124,7 +124,7 @@
   "purchaseErrorOperationInProgress": "Un achat est déjà en cours. Veuillez réessayer plus tard.",
   "purchaseErrorInsufficientPermissions": "Vous ne pouvez pas souscrire au forfait avec {accountName}. Vérifiez vos informations de paiement, puis réessayez.",
   "purchaseErrorPaymentPending": "Le paiement est en attente. Vérifiez {storeName} avec le compte connecté {accountName}.",
-  "premiumUserThanksTitle": "Vous êtes membre premium",
+  "premiumUserThanksTitle": "Vous êtes membre Premium",
   "premiumUserThanksMessage": "Merci d’utiliser notre service.\nGrâce à vous, nous pouvons continuer à faire fonctionner Medicalarm.",
   "premiumPricePerMonth": "({price}/mois)",
   "premiumCancelDescription": "・Après l’achat, vous pouvez résilier le renouvellement automatique dans les réglages du compte de l’app {storeName}. (Le renouvellement automatique ne peut pas être résilié depuis l’app.)",

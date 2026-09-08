@@ -124,7 +124,7 @@
   "purchaseErrorOperationInProgress": "Куповина је већ у току. Проверите поново касније.",
   "purchaseErrorInsufficientPermissions": "Не можете да се претплатите на план помоћу налога {accountName}. Проверите податке о плаћању и покушајте поново.",
   "purchaseErrorPaymentPending": "Плаћање је на чекању. Проверите {storeName} помоћу пријављеног налога {accountName}.",
-  "premiumUserThanksTitle": "Ви сте премијум члан",
+  "premiumUserThanksTitle": "Ви сте Premium члан",
   "premiumUserThanksMessage": "Хвала вам што користите нашу услугу.\nЗахваљујући вама, можемо да наставимо са радом апликације Medicalarm.",
   "premiumPricePerMonth": "({price}/месечно)",
   "premiumCancelDescription": "・Након куповине, аутоматско обнављање можете отказати у подешавањима налога апликације {storeName}. (Аутоматско обнављање није могуће отказати из саме апликације.)",

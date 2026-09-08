@@ -124,7 +124,7 @@
   "purchaseErrorOperationInProgress": "Zakup jest już w toku. Spróbuj ponownie później.",
   "purchaseErrorInsufficientPermissions": "Nie możesz subskrybować planu za pomocą {accountName}. Sprawdź informacje o płatności i spróbuj ponownie.",
   "purchaseErrorPaymentPending": "Płatność oczekuje na przetworzenie. Sprawdź {storeName} za pomocą zalogowanego konta {accountName}.",
-  "premiumUserThanksTitle": "Jesteś członkiem Premium",
+  "premiumUserThanksTitle": "Jesteś użytkownikiem Premium",
   "premiumUserThanksMessage": "Dziękujemy za korzystanie z naszej usługi.\nDzięki Tobie możemy nadal rozwijać Medicalarm.",
   "premiumPricePerMonth": "({price}/miesiąc)",
   "premiumCancelDescription": "・Po zakupie możesz anulować automatyczne odnawianie w ustawieniach konta aplikacji {storeName}. (Automatycznego odnawiania nie można anulować w samej aplikacji.)",

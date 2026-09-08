@@ -124,7 +124,7 @@
   "purchaseErrorOperationInProgress": "የግዢ ሂደት እየተካሄደ ነው። እባክዎ ቆይተው እንደገና ይመልከቱ።",
   "purchaseErrorInsufficientPermissions": "በ{accountName} ዕቅዱን መመዝገብ አይችሉም። የክፍያ መረጃዎን ይመልከቱና እንደገና ይሞክሩ።",
   "purchaseErrorPaymentPending": "ክፍያው በመጠባበቅ ላይ ነው። በገባበት {accountName} በመጠቀም {storeName}ን ያረጋግጡ።",
-  "premiumUserThanksTitle": "እርስዎ የፕሪሚየም አባል ነዎት",
+  "premiumUserThanksTitle": "Դուք պրեմիում անդամ եք",
   "premiumUserThanksMessage": "ስለሚጠቀሙበት እናመሰግናለን።\nለእርስዎ ምስጋና ይግባውና Medicalarmን ማስኬድ መቀጠል ችለናል።",
   "premiumPricePerMonth": "({price}/ወር)",
   "premiumCancelDescription": "・ከገዙ በኋላ ራስ-ሰር እድሳትን በ{storeName} መተግበሪያ የመለያ ቅንብሮች ውስጥ መሰረዝ ይችላሉ። (ራስ-ሰር እድሳትን ከመተግበሪያው ውስጥ መሰረዝ አይቻልም።)",

@@ -124,7 +124,7 @@
   "purchaseErrorOperationInProgress": "È già in corso un acquisto. Controlla di nuovo più tardi.",
   "purchaseErrorInsufficientPermissions": "Non puoi abbonarti al piano con {accountName}. Controlla i dati di pagamento e riprova.",
   "purchaseErrorPaymentPending": "Il pagamento è in sospeso. Controlla {storeName} con l’account {accountName} con cui hai effettuato l’accesso.",
-  "premiumUserThanksTitle": "Sei un membro premium",
+  "premiumUserThanksTitle": "Sei un membro Premium",
   "premiumUserThanksMessage": "Grazie per utilizzare il nostro servizio.\nGrazie a te, possiamo continuare a gestire Medicalarm.",
   "premiumPricePerMonth": "({price}/mese)",
   "premiumCancelDescription": "・Dopo l’acquisto, puoi annullare il rinnovo automatico nelle impostazioni dell’account dell’app {storeName}. (Il rinnovo automatico non può essere annullato dall’app.)",

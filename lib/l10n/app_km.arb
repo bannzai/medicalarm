@@ -124,7 +124,7 @@
   "purchaseErrorOperationInProgress": "ដំណើរការទិញកំពុងដំណើរការរួចហើយ។ សូមពិនិត្យម្តងទៀតនៅពេលក្រោយ។",
   "purchaseErrorInsufficientPermissions": "អ្នកមិនអាចជាវគម្រោងដោយប្រើ {accountName} បានទេ។ សូមពិនិត្យព័ត៌មានការទូទាត់ ហើយព្យាយាមម្តងទៀត។",
   "purchaseErrorPaymentPending": "ការទូទាត់កំពុងរង់ចាំ។ សូមពិនិត្យ {storeName} ដោយប្រើ {accountName} ដែលបានចូល។",
-  "premiumUserThanksTitle": "អ្នកគឺជាសមាជិក Premium",
+  "premiumUserThanksTitle": "អ្នកជាសមាជិក Premium",
   "premiumUserThanksMessage": "សូមអរគុណដែលបានប្រើប្រាស់សេវាកម្មរបស់យើង។\nដោយសារអ្នក យើងអាចបន្តដំណើរការ Medicalarm បាន។",
   "premiumPricePerMonth": "({price}/ខែ)",
   "premiumCancelDescription": "・បន្ទាប់ពីការទិញ អ្នកអាចបោះបង់ការបន្តដោយស្វ័យប្រវត្តិនៅក្នុងការកំណត់គណនីរបស់កម្មវិធី {storeName}។ (មិនអាចបោះបង់ការបន្តដោយស្វ័យប្រវត្តិពីក្នុងកម្មវិធីបានទេ។)",

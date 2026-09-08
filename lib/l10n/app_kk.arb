@@ -124,7 +124,7 @@
   "purchaseErrorOperationInProgress": "Сатып алу процесі әлдеқашан жүріп жатыр. Біраз уақыттан кейін қайта тексеріңіз.",
   "purchaseErrorInsufficientPermissions": "{accountName} арқылы жоспарға жазыла алмайсыз. Төлем ақпаратын тексеріп, қайтадан көріңіз.",
   "purchaseErrorPaymentPending": "Төлем өңделуін күтуде. Жүйеге кірген {accountName} арқылы {storeName} қызметін тексеріңіз.",
-  "premiumUserThanksTitle": "Сіз премиум мүшесіз",
+  "premiumUserThanksTitle": "Сіз Premium мүшесісіз",
   "premiumUserThanksMessage": "Қызметімізді пайдаланғаныңызға рақмет.\nСіздің қолдауыңыздың арқасында Medicalarm жұмысын жалғастыра аламыз.",
   "premiumPricePerMonth": "({price}/ай)",
   "premiumCancelDescription": "・Сатып алғаннан кейін автоматты жаңартудан {storeName} қолданбасының есептік жазба параметрлерінен бас тарта аласыз. (Автоматты жаңартудан қолданбаның ішінен бас тарту мүмкін емес.)",

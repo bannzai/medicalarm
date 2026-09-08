@@ -124,7 +124,7 @@
   "purchaseErrorOperationInProgress": "Xarid jarayoni allaqachon davom etmoqda. Iltimos, birozdan so‘ng qayta tekshiring.",
   "purchaseErrorInsufficientPermissions": "{accountName} orqali rejaga obuna bo‘la olmaysiz. To‘lov ma’lumotlarini tekshirib, qayta urinib ko‘ring.",
   "purchaseErrorPaymentPending": "To‘lov kutilmoqda. Tizimga kirilgan {accountName} orqali {storeName}ni tekshiring.",
-  "premiumUserThanksTitle": "Siz premium aʼzosiz",
+  "premiumUserThanksTitle": "Siz Premium aʼzosiz",
   "premiumUserThanksMessage": "Xizmatimizdan foydalanganingiz uchun rahmat.\nSiz tufayli Medicalarm faoliyatini davom ettira olamiz.",
   "premiumPricePerMonth": "({price}/oy)",
   "premiumCancelDescription": "・Xariddan so‘ng avtomatik yangilanishni {storeName} ilovasining hisob sozlamalarida bekor qilishingiz mumkin. (Avtomatik yangilanishni ilovaning o‘zidan bekor qilib bo‘lmaydi.)",

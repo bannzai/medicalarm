@@ -124,7 +124,7 @@
   "purchaseErrorOperationInProgress": "Pembelian sedang dijalankan. Sila semak semula kemudian.",
   "purchaseErrorInsufficientPermissions": "Anda tidak boleh melanggan pelan dengan {accountName}. Semak maklumat pembayaran anda dan cuba lagi.",
   "purchaseErrorPaymentPending": "Pembayaran sedang menunggu. Sila semak {storeName} menggunakan {accountName} yang telah dilog masuk.",
-  "premiumUserThanksTitle": "Anda ialah ahli premium",
+  "premiumUserThanksTitle": "Anda ialah ahli Premium",
   "premiumUserThanksMessage": "Terima kasih kerana menggunakan perkhidmatan kami.\nBerkat anda, kami dapat terus mengendalikan Medicalarm.",
   "premiumPricePerMonth": "({price}/bulan)",
   "premiumCancelDescription": "・Selepas pembelian, anda boleh membatalkan pembaharuan automatik dalam tetapan akaun aplikasi {storeName}. (Pembaharuan automatik tidak boleh dibatalkan dari dalam aplikasi.)",

@@ -124,7 +124,7 @@
   "purchaseErrorOperationInProgress": "Mae proses brynu eisoes ar y gweill. Rhowch gynnig arall arni yn nes ymlaen.",
   "purchaseErrorInsufficientPermissions": "Ni allwch danysgrifio i’r cynllun gyda {accountName}. Gwiriwch eich gwybodaeth dalu a rhowch gynnig arall arni.",
   "purchaseErrorPaymentPending": "Mae’r taliad yn yr arfaeth. Gwiriwch {storeName} gan ddefnyddio’r cyfrif {accountName} rydych wedi mewngofnodi iddo.",
-  "premiumUserThanksTitle": "Rydych chi’n aelod premiwm",
+  "premiumUserThanksTitle": "Rydych chi'n aelod premiwm",
   "premiumUserThanksMessage": "Diolch am ddefnyddio ein gwasanaeth.\nDiolch i chi, gallwn barhau i weithredu Medicalarm.",
   "premiumPricePerMonth": "({price}/mis)",
   "premiumCancelDescription": "・Ar ôl prynu, gallwch ganslo’r adnewyddu awtomatig yng ngosodiadau cyfrif ap {storeName}. (Ni ellir canslo’r adnewyddu awtomatig o’r ap ei hun.)",

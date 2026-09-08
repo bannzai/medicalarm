@@ -124,7 +124,7 @@
   "purchaseErrorOperationInProgress": "Ett köp pågår redan. Kontrollera igen senare.",
   "purchaseErrorInsufficientPermissions": "Du kan inte prenumerera på planen med {accountName}. Kontrollera betalningsinformationen och försök igen.",
   "purchaseErrorPaymentPending": "Betalningen väntar på behandling. Kontrollera {storeName} med det inloggade {accountName}.",
-  "premiumUserThanksTitle": "Du är premiummedlem",
+  "premiumUserThanksTitle": "Du är Premium-medlem",
   "premiumUserThanksMessage": "Tack för att du använder vår tjänst.\nTack vare dig kan vi fortsätta driva Medicalarm.",
   "premiumPricePerMonth": "({price}/månad)",
   "premiumCancelDescription": "・Efter köpet kan du avsluta automatisk förnyelse i kontoinställningarna i appen {storeName}. (Automatisk förnyelse kan inte avslutas i själva appen.)",

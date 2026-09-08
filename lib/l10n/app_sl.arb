@@ -124,7 +124,7 @@
   "purchaseErrorOperationInProgress": "Nakup že poteka. Poskusite znova pozneje.",
   "purchaseErrorInsufficientPermissions": "S računom {accountName} se na paket ne morete naročiti. Preverite podatke o plačilu in poskusite znova.",
   "purchaseErrorPaymentPending": "Plačilo je na čakanju. Preverite {storeName} s prijavljenim računom {accountName}.",
-  "premiumUserThanksTitle": "Ste premium član",
+  "premiumUserThanksTitle": "Ste član Premium",
   "premiumUserThanksMessage": "Hvala, ker uporabljate našo storitev.\nZahvaljujoč vam lahko nadaljujemo delovanje aplikacije Medicalarm.",
   "premiumPricePerMonth": "({price}/mesec)",
   "premiumCancelDescription": "・Po nakupu lahko samodejno podaljšanje prekličete v nastavitvah računa aplikacije {storeName}. (Samodejnega podaljšanja ni mogoče preklicati v sami aplikaciji.)",
