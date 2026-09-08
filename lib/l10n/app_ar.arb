@@ -31,7 +31,7 @@
   "delete": "حذف",
   "deleteAccount": "حذف الحساب",
   "deleteAccountConfirm": "سيتم حذف معلومات المستخدم",
-  "deleteAccountMessage": "عند حذف الحساب، سيتم حذف جميع معلومات المستخدم.",
+  "deleteAccountMessage": "عند حذف حسابك، سيتم حذف جميع معلومات المستخدم الخاصة بك.",
   "medicationFrequency": "وتيرة تناول الدواء",
   "daily": "يوميًا",
   "everyXDays": "كل X أيام",

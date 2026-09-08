@@ -31,7 +31,7 @@
   "delete": "Poista",
   "deleteAccount": "Poista tili",
   "deleteAccountConfirm": "Käyttäjän tiedot poistetaan",
-  "deleteAccountMessage": "Kun poistat tilin, kaikki käyttäjätiedot poistetaan.",
+  "deleteAccountMessage": "Kun poistat tilisi, kaikki käyttäjätietosi poistetaan.",
   "medicationFrequency": "Lääkkeen ottotiheys",
   "daily": "Päivittäin",
   "everyXDays": "X päivän välein",
