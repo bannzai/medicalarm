@@ -113,7 +113,7 @@
   "purchaseErrorStoreProblem": "Errore bat gertatu da {storeName} zerbitzuan. Saiatu berriro pixka bat geroago.",
   "purchaseErrorInvalidPayment": "Ordainketak huts egin du. Egiaztatu ordainketa-metodoa baliozkoa dela eta saiatu berriro.",
   "purchaseErrorProductUnavailable": "Hautatutako plana ez dago salgai une honetan. Berrabiarazi aplikazioa eta saiatu berriro.",
-  "purchaseErrorAlreadyPurchased": "Jada erosi duzue. Gailu honetan erosketa-informazioa berreskuratu nahi baduzu, mesedez, joan «Aurretik erosi zutenek hona» aukera.",
+  "purchaseErrorAlreadyPurchased": "Dagoeneko plan bat erosi duzu. Gailu honetan erosketa-informazioa leheneratzeko, hautatu «Aurretik erosi dutenentzat».",
   "purchaseErrorReceiptInUse": "Jada erositako. Erosketa-informazioa beste erabiltzaile batzuen artean erabiltzen da. Mesedez, egiaztatu {accountName}.",
   "purchaseErrorInvalidReceipt": "Erosketa informazio baliogabea da. Mesedez, egiaztatu erosketa informazioa.",
   "purchaseErrorMissingReceipt": "Ezin da erosi duen erabiltzailearen informaziorik aurkitu. Mesedez, saiatzen jarri {accountName} gailuan saioa hasi ondoren.",

@@ -113,7 +113,7 @@
   "purchaseErrorStoreProblem": "У {storeName} сталася помилка. Повторіть спробу пізніше.",
   "purchaseErrorInvalidPayment": "Не вдалося здійснити оплату. Перевірте, чи дійсний ваш спосіб оплати, і спробуйте ще раз.",
   "purchaseErrorProductUnavailable": "Вибраний план наразі недоступний для придбання. Перезапустіть застосунок і спробуйте ще раз.",
-  "purchaseErrorAlreadyPurchased": "You have already purchased a plan. If you want to restore your purchase information on this device, please restore your purchase information by selecting \"If you have purchased before, click here\".",
+  "purchaseErrorAlreadyPurchased": "Ви вже придбали план. Щоб відновити інформацію про покупку на цьому пристрої, виберіть «Для тих, хто вже купував».",
   "purchaseErrorReceiptInUse": "Already purchased. The purchase information is being used by a different user. Please check {accountName}.",
   "purchaseErrorInvalidReceipt": "This is invalid purchase information. Please check your purchase information.",
   "purchaseErrorMissingReceipt": "There is no information about the buyer. Please sign in to the device with {accountName} and try again.",

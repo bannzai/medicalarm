@@ -113,7 +113,7 @@
   "purchaseErrorStoreProblem": "Nagkaroon ng error sa {storeName}. Pakisubukang muli makalipas ang ilang sandali.",
   "purchaseErrorInvalidPayment": "Hindi natuloy ang pagbabayad. Tiyaking valid ang iyong paraan ng pagbabayad at subukan muli.",
   "purchaseErrorProductUnavailable": "Hindi kasalukuyang available para bilhin ang napiling plan. I-restart ang app at subukan muli.",
-  "purchaseErrorAlreadyPurchased": "Mayroon ka nang biniling plano. Kung nais mong ibalik ang impormasyon ng pagbili sa device na ito, mangyaring i-click ang \"Dito ang mga naunang bumili\" upang maibalik ang impormasyon ng pagbili.",
+  "purchaseErrorAlreadyPurchased": "Nakabili ka na ng plano. Para i-restore ang impormasyon ng iyong binili sa device na ito, piliin ang “Para sa mga nakabili na dati.”",
   "purchaseErrorReceiptInUse": "Binili na. Ang impormasyon ng pagbili ay ginagamit ng ibang gumagamit. Mangyaring suriin ang {accountName}.",
   "purchaseErrorInvalidReceipt": "Ito ay hindi wastong impormasyon sa pagbili. Pakisuri ang impormasyon sa pagbili.",
   "purchaseErrorMissingReceipt": "Walang umiiral na impormasyon ng bumibili. Mangyaring subukan muli sa pag-sign in gamit ang {accountName} sa iyong aparato.",

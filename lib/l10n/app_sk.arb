@@ -113,7 +113,7 @@
   "purchaseErrorStoreProblem": "V službe {storeName} sa vyskytla chyba. Skúste to znova neskôr.",
   "purchaseErrorInvalidPayment": "Platba sa nepodarila. Skontrolujte, či je váš spôsob platby platný, a skúste to znova.",
   "purchaseErrorProductUnavailable": "Vybraný plán momentálne nie je v predaji. Reštartujte aplikáciu a skúste to znova.",
-  "purchaseErrorAlreadyPurchased": "Už ste zakúpili plán. Ak chcete obnoviť informácie o nákupe na tomto zariadení, prosím kliknite na \"Odkaz pre tých, ktorí už zakúpili\".",
+  "purchaseErrorAlreadyPurchased": "Plán ste si už zakúpili. Ak chcete na tomto zariadení obnoviť informácie o nákupe, vyberte „Pre tých, ktorí už nakúpili“.",
   "purchaseErrorReceiptInUse": "Už zakúpené. Nákupné informácie sú používané iným používateľom. Skontrolujte {accountName}.",
   "purchaseErrorInvalidReceipt": "Neplatné informácie o nákupe. Skontrolujte prosím informácie o nákupe.",
   "purchaseErrorMissingReceipt": "Neexistujú žiadne informácie o kupujúcom. Skúste sa prihlásiť do zariadenia s menom účtu {accountName}.",

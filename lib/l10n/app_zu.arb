@@ -113,7 +113,7 @@
   "purchaseErrorStoreProblem": "Kube nephutha ku-{storeName}. Sicela uphinde uzame ngemva kwesikhashana.",
   "purchaseErrorInvalidPayment": "Inkokhelo yehlulekile. Sicela uhlole ukuthi indlela yakho yokukhokha isemthethweni bese uzama futhi.",
   "purchaseErrorProductUnavailable": "Uhlelo olukhethiwe okwamanje alutholakali ukuze luthengwe. Sicela uqale kabusha uhlelo lokusebenza bese uzama futhi.",
-  "purchaseErrorAlreadyPurchased": "Usukhumbula ukuthi usuthenge iphakheji. Uma uhlela ukuvuselela imininingwane yokuthenga kule ndawo, sicela uthinte \"Abathenge phambilini nansi.\" ukuze uvuselele imininingwane yokuthenga.",
+  "purchaseErrorAlreadyPurchased": "Usuvele ulithengile icebo. Ukuze ubuyisele ulwazi lokuthenga kule divayisi, khetha “Okwabake bathenga ngaphambilini”.",
   "purchaseErrorReceiptInUse": "Uthengela ngaphambili. Ulwazi lokuthenga lusetshenziswa omunye umsebenzisi. Sicela uhlole {accountName}.",
   "purchaseErrorInvalidReceipt": "Lolu ulwazi lokuthenga alusemthethweni. Sicela uqinisekise ulwazi lokuthenga.",
   "purchaseErrorMissingReceipt": "Azikho izinkcukacha zomthengi. Sicela ungene kwi-device yakho usebenzisa {accountName} ukuze uzame.",

@@ -113,7 +113,7 @@
   "purchaseErrorStoreProblem": "{storeName}-palvelussa tapahtui virhe. Yritä myöhemmin uudelleen.",
   "purchaseErrorInvalidPayment": "Maksu epäonnistui. Tarkista, että maksutapasi on voimassa, ja yritä uudelleen.",
   "purchaseErrorProductUnavailable": "Valittu tilaus ei ole tällä hetkellä ostettavissa. Käynnistä sovellus uudelleen ja yritä uudelleen.",
-  "purchaseErrorAlreadyPurchased": "Olet jo ostanut suunnitelman. Jos haluat palauttaa ostotiedot tältä laitteelta, voit palauttaa ostotiedot valitsemalla \"Palauta aiemmin ostettu\".",
+  "purchaseErrorAlreadyPurchased": "Olet jo ostanut paketin. Palauta ostotietosi tällä laitteella valitsemalla ”Aiemmin ostaneille”.",
   "purchaseErrorReceiptInUse": "Olet jo ostanut. Ostotiedot käytetään toisella käyttäjällä. Tarkista {accountName}.",
   "purchaseErrorInvalidReceipt": "Virheellinen ostopaikkatieto. Varmista ostopaikkatiedot.",
   "purchaseErrorMissingReceipt": "Ostajan tietoja ei ole olemassa. Yritä kirjautua laitteeseen tilillä {accountName}.",

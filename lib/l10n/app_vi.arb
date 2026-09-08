@@ -113,7 +113,7 @@
   "purchaseErrorStoreProblem": "Đã xảy ra lỗi với {storeName}. Vui lòng thử lại sau.",
   "purchaseErrorInvalidPayment": "Thanh toán không thành công. Vui lòng kiểm tra phương thức thanh toán của bạn còn hợp lệ rồi thử lại.",
   "purchaseErrorProductUnavailable": "Gói đã chọn hiện không có sẵn để mua. Vui lòng khởi động lại ứng dụng và thử lại.",
-  "purchaseErrorAlreadyPurchased": "Bạn đã mua gói này. Nếu bạn muốn khôi phục thông tin mua hàng trên thiết bị này, hãy nhấp vào \"Người đã mua trước đây hãy bấm vào đây\" để khôi phục thông tin mua hàng.",
+  "purchaseErrorAlreadyPurchased": "Bạn đã mua gói này. Để khôi phục thông tin mua hàng trên thiết bị này, hãy chọn “Dành cho người đã mua trước đây”.",
   "purchaseErrorReceiptInUse": "Đã mua trước đó. Thông tin mua hàng đang được sử dụng bởi người dùng khác. Vui lòng kiểm tra {accountName}",
   "purchaseErrorInvalidReceipt": "Thông tin mua hàng không hợp lệ. Vui lòng kiểm tra lại thông tin mua hàng.",
   "purchaseErrorMissingReceipt": "Thông tin của người mua không tồn tại. Vui lòng đăng nhập thiết bị với {accountName} để thử lại.",

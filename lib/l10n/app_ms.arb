@@ -113,7 +113,7 @@
   "purchaseErrorStoreProblem": "Ralat berlaku pada {storeName}. Sila cuba lagi sebentar lagi.",
   "purchaseErrorInvalidPayment": "Pembayaran gagal. Sila semak sama ada kaedah pembayaran anda sah dan cuba lagi.",
   "purchaseErrorProductUnavailable": "Pelan yang dipilih kini tidak tersedia untuk dibeli. Sila mulakan semula apl dan cuba lagi.",
-  "purchaseErrorAlreadyPurchased": "Anda sudah membeli pelan. Jika anda ingin memulihkan maklumat pembelian pada peranti ini, sila pergi ke \"Pemulihan maklumat pembelian\" dari pautan yang disediakan.",
+  "purchaseErrorAlreadyPurchased": "Anda telah membeli pelan ini. Untuk memulihkan maklumat pembelian pada peranti ini, pilih “Untuk yang pernah membeli”.",
   "purchaseErrorReceiptInUse": "Sudah dibeli. Maklumat pembelian digunakan oleh pengguna lain. Sila semak {accountName}.",
   "purchaseErrorInvalidReceipt": "Maklumat pembelian tidak sah. Sila semak maklumat pembelian anda.",
   "purchaseErrorMissingReceipt": "Maklumat pembeli tidak wujud. Sila log masuk ke peranti dengan {accountName} dan cuba lagi.",

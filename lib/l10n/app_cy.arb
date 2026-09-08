@@ -113,7 +113,7 @@
   "purchaseErrorStoreProblem": "Mae gwall wedi digwydd yn {storeName}. Rhowch gynnig arall arni ymhen ychydig.",
   "purchaseErrorInvalidPayment": "Methodd y taliad. Gwiriwch fod eich dull talu’n ddilys a rhowch gynnig arall arni.",
   "purchaseErrorProductUnavailable": "Nid yw’r cynllun a ddewiswyd ar werth ar hyn o bryd. Ailgychwynnwch yr ap a rhowch gynnig arall arni.",
-  "purchaseErrorAlreadyPurchased": "Mae cynllun wedi cael ei brynu eisoes. Os ydych am adfer gwybodaeth brynu ar y dyfais hon, ple উদ্যোগiwch \"Mae'r rhai a brynodd cyn hyn yma\" i adfer gwybodaeth brynu.",
+  "purchaseErrorAlreadyPurchased": "Rydych eisoes wedi prynu cynllun. I adfer eich gwybodaeth brynu ar y ddyfais hon, dewiswch “Ar gyfer y rhai sydd wedi prynu o’r blaen”.",
   "purchaseErrorReceiptInUse": "Eisoel wedi'i brynu eisoes. Mae'r gwybodaeth brynu yn cael ei defnyddio gan ddefnyddiwr arall. Gofynnwch am {accountName}.",
   "purchaseErrorInvalidReceipt": "Gwybodaeth gaffael annilys. Gwiriwch y wybodaeth gaffael.",
   "purchaseErrorMissingReceipt": "Nid oes gwybodaeth am y prynwr. Pleserwch fewngofnodi i'r dyfais gyda {accountName} ac ymarferwch.",

@@ -113,7 +113,7 @@
   "purchaseErrorStoreProblem": "S'ha produït un error a {storeName}. Torneu-ho a provar més tard.",
   "purchaseErrorInvalidPayment": "No s'ha pogut completar el pagament. Comproveu que el mètode de pagament sigui vàlid i torneu-ho a provar.",
   "purchaseErrorProductUnavailable": "El pla seleccionat no està disponible actualment per a la compra. Reinicieu l’app i torneu-ho a provar.",
-  "purchaseErrorAlreadyPurchased": "Ja t'has comprat un pla. Si vols restaurar la informació de compra en aquest dispositiu, si us plau, fes clic a \"Si ja has comprat abans, fes clic aquí\" per restaurar la informació de compra.",
+  "purchaseErrorAlreadyPurchased": "Ja has comprat un pla. Per restaurar la informació de compra en aquest dispositiu, selecciona «Per a qui ja ha comprat».",
   "purchaseErrorReceiptInUse": "Ja ja adquirit. La informació de compra ja s'està utilitzant amb un altre usuari. Comproveu {accountName}.",
   "purchaseErrorInvalidReceipt": "La informació de compra no és vàlida. Comprova la informació de compra.",
   "purchaseErrorMissingReceipt": "No hi ha informació sobre l' comprador. Si us plau, inicieu sessió al dispositiu amb {accountName} i torneu-ho a provar.",

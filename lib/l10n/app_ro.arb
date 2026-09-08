@@ -113,7 +113,7 @@
   "purchaseErrorStoreProblem": "A apărut o eroare la {storeName}. Încercați din nou mai târziu.",
   "purchaseErrorInvalidPayment": "Plata a eșuat. Verificați dacă metoda de plată este validă și încercați din nou.",
   "purchaseErrorProductUnavailable": "Planul selectat nu este disponibil momentan pentru achiziție. Reporniți aplicația și încercați din nou.",
-  "purchaseErrorAlreadyPurchased": "Ați achiziționat deja planul. Dacă doriți să restaurați informațiile de achiziție pe acest dispozitiv, vă rugăm să utilizați opțiunea „Cei care au cumpărat anterior, faceți clic aici” pentru a restabili informațiile de achiziție.",
+  "purchaseErrorAlreadyPurchased": "Ați achiziționat deja un plan. Pentru a restabili informațiile despre achiziție pe acest dispozitiv, selectați „Pentru cei care au cumpărat deja”.",
   "purchaseErrorReceiptInUse": "Deja achiziționat. Informațiile de achiziție sunt utilizate de un alt utilizator. Vă rugăm să verificați {accountName}.",
   "purchaseErrorInvalidReceipt": "Informații de achiziție nevalide. Vă rugăm să verificați informațiile de achiziție.",
   "purchaseErrorMissingReceipt": "Informațiile despre cumpărător nu există. Vă rugăm să vă conectați la dispozitiv cu {accountName} și să încercați din nou.",

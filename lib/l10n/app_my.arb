@@ -113,7 +113,7 @@
   "purchaseErrorStoreProblem": "{storeName} တွင် အမှားတစ်ခု ဖြစ်ပွားနေပါသည်။ ခဏအကြာတွင် ထပ်မံကြိုးစားပါ။",
   "purchaseErrorInvalidPayment": "ငွေပေးချေမှု မအောင်မြင်ပါ။ သင့်ငွေပေးချေမှုနည်းလမ်း မှန်ကန်မှုရှိမရှိ စစ်ဆေးပြီး ထပ်မံကြိုးစားပါ။",
   "purchaseErrorProductUnavailable": "ရွေးချယ်ထားသော အစီအစဉ်ကို လက်ရှိတွင် ဝယ်ယူ၍မရပါ။ အက်ပ်ကို ပြန်လည်စတင်ပြီး ထပ်မံကြိုးစားပါ။",
-  "purchaseErrorAlreadyPurchased": "Anda sudah membeli pelan. Jika anda ingin memulihkan maklumat pembelian pada peranti ini, sila pulihkan maklumat pembelian melalui \"Sesiapa yang membeli sebelum ini, klik di sini\".",
+  "purchaseErrorAlreadyPurchased": "သင်သည် အစီအစဉ်ကို ဝယ်ယူပြီးဖြစ်သည်။ ဤစက်တွင် ဝယ်ယူမှုအချက်အလက်ကို ပြန်လည်ရယူရန် “ယခင်က ဝယ်ယူထားသူများအတွက်” ကို ရွေးချယ်ပါ။",
   "purchaseErrorReceiptInUse": "Telah dibeli. Maklumat pembelian digunakan oleh pengguna lain. Sila semak {accountName}.",
   "purchaseErrorInvalidReceipt": "Maklumat pembelian tidak sah. Sila semak maklumat pembelian.",
   "purchaseErrorMissingReceipt": "Tiada maklumat pembeli yang wujud. Sila log masuk ke peranti menggunakan {accountName} dan cuba lagi.",

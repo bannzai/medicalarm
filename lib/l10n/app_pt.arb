@@ -113,7 +113,7 @@
   "purchaseErrorStoreProblem": "Ocorreu um erro em {storeName}. Tente novamente mais tarde.",
   "purchaseErrorInvalidPayment": "O pagamento falhou. Verifique se o seu método de pagamento é válido e tente novamente.",
   "purchaseErrorProductUnavailable": "O plano selecionado não está disponível para compra no momento. Reinicie a aplicação e tente novamente.",
-  "purchaseErrorAlreadyPurchased": "Você já comprou um plano. Para restaurar as informações de compra neste dispositivo, selecione \"Se você já comprou anteriormente, clique aqui\" para restaurar as informações de compra.",
+  "purchaseErrorAlreadyPurchased": "Você já comprou um plano. Para restaurar as informações da compra neste dispositivo, selecione “Para quem já comprou”.",
   "purchaseErrorReceiptInUse": "Já comprado. As informações de compra estão sendo usadas por outro usuário. Verifique {accountName}.",
   "purchaseErrorInvalidReceipt": "As informações de compra são inválidas. Por favor, verifique as informações de compra.",
   "purchaseErrorMissingReceipt": "Não existem informações sobre o comprador. Faça login no dispositivo com {accountName} e experimente.",

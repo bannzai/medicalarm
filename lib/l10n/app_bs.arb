@@ -113,7 +113,7 @@
   "purchaseErrorStoreProblem": "Došlo je do greške u {storeName}. Pokušajte ponovo nakon nekog vremena.",
   "purchaseErrorInvalidPayment": "Plaćanje nije uspjelo. Provjerite da li je vaš način plaćanja važeći i pokušajte ponovo.",
   "purchaseErrorProductUnavailable": "Odabrani plan trenutno nije dostupan za kupovinu. Ponovo pokrenite aplikaciju i pokušajte ponovo.",
-  "purchaseErrorAlreadyPurchased": "Već ste kupili plan. Ako želite da povratite informacije o kupovini na ovom uređaju, molimo vas da odete na 'Oni koji su prethodno kupili, ovdje'.",
+  "purchaseErrorAlreadyPurchased": "Već ste kupili plan. Da biste vratili podatke o kupovini na ovom uređaju, izaberite „Za one koji su ranije kupili“.",
   "purchaseErrorReceiptInUse": "Već je kupljeno. Informacije o kupovini se koriste za drugog korisnika. Provjerite {accountName}.",
   "purchaseErrorInvalidReceipt": "Nevažeće informacije o kupovini. Molimo provjerite informacije o kupovini.",
   "purchaseErrorMissingReceipt": "Informacije o kupcu ne postoje. Molimo prijavite se na uređaj s {accountName} i pokušajte ponovo.",
