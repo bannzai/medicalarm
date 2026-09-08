@@ -207,7 +207,7 @@
   "displayNameInputHint": "Adja meg a megjelenítendő nevet",
   "ownerLabel": "Tulajdonos",
   "youLabel": "Te",
-  "removeMemberConfirmTitle": "Eltávolítja a tagot?",
+  "removeMemberConfirmTitle": "Eltávolítja ezt a tagot?",
   "removeMemberConfirmMessage": "{name} eltávolítása a csoportból",
   "joinGroup": "Csatlakozás a csoporthoz",
   "invitationCodeInputLabel": "Meghívókód (8 karakter)",

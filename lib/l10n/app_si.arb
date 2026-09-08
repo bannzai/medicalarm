@@ -207,7 +207,7 @@
   "displayNameInputHint": "පෙන්වන නම ඇතුළත් කරන්න",
   "ownerLabel": "හිමිකරු",
   "youLabel": "ඔබ",
-  "removeMemberConfirmTitle": "සාමාජිකයා ඉවත් කරන්නද?",
+  "removeMemberConfirmTitle": "මෙම සාමාජිකයා ඉවත් කිරීමට අවශ්‍යද?",
   "removeMemberConfirmMessage": "සමූහයෙන් {name} ඉවත් කරන්න",
   "joinGroup": "සමූහයට එක්වන්න",
   "invitationCodeInputLabel": "ආරාධනා කේතය (අක්ෂර 8)",

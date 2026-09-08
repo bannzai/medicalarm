@@ -207,7 +207,7 @@
   "displayNameInputHint": "Įveskite rodomą vardą",
   "ownerLabel": "Savininkas",
   "youLabel": "Jūs",
-  "removeMemberConfirmTitle": "Ar pašalinti narį?",
+  "removeMemberConfirmTitle": "Ar norite pašalinti šį narį?",
   "removeMemberConfirmMessage": "Pašalinti {name} iš grupės",
   "joinGroup": "Prisijungti prie grupės",
   "invitationCodeInputLabel": "Kvietimo kodas (8 simboliai)",

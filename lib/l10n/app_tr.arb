@@ -207,7 +207,7 @@
   "displayNameInputHint": "Görünen adı girin",
   "ownerLabel": "Sahip",
   "youLabel": "Siz",
-  "removeMemberConfirmTitle": "Üye kaldırılsın mı?",
+  "removeMemberConfirmTitle": "Bu üyeyi kaldırmak istiyor musunuz?",
   "removeMemberConfirmMessage": "{name} gruptan kaldırılacak",
   "joinGroup": "Gruba katıl",
   "invitationCodeInputLabel": "Davet kodu (8 karakter)",

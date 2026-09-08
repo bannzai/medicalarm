@@ -207,7 +207,7 @@
   "displayNameInputHint": "Ievadiet redzamo vārdu",
   "ownerLabel": "Īpašnieks",
   "youLabel": "Jūs",
-  "removeMemberConfirmTitle": "Vai noņemt dalībnieku?",
+  "removeMemberConfirmTitle": "Vai vēlaties noņemt šo dalībnieku?",
   "removeMemberConfirmMessage": "Noņemt {name} no grupas",
   "joinGroup": "Pievienoties grupai",
   "invitationCodeInputLabel": "Uzaicinājuma kods (8 rakstzīmes)",

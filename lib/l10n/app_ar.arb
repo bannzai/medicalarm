@@ -207,7 +207,7 @@
   "displayNameInputHint": "أدخل اسم العرض",
   "ownerLabel": "المالك",
   "youLabel": "أنت",
-  "removeMemberConfirmTitle": "هل تريد إزالة العضو؟",
+  "removeMemberConfirmTitle": "هل تريد إزالة هذا العضو؟",
   "removeMemberConfirmMessage": "إزالة {name} من المجموعة",
   "joinGroup": "الانضمام إلى المجموعة",
   "invitationCodeInputLabel": "رمز الدعوة (8 أحرف)",

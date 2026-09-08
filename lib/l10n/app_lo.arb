@@ -207,7 +207,7 @@
   "displayNameInputHint": "ປ້ອນຊື່ສະແດງ",
   "ownerLabel": "ເຈົ້າຂອງ",
   "youLabel": "ເຈົ້າ",
-  "removeMemberConfirmTitle": "ຕ້ອງການລຶບສະມາຊິກບໍ?",
+  "removeMemberConfirmTitle": "ທ່ານຕ້ອງການລຶບສະມາຊິກນີ້ບໍ?",
   "removeMemberConfirmMessage": "ລຶບ {name} ອອກຈາກກຸ່ມ",
   "joinGroup": "ເຂົ້າຮ່ວມກຸ່ມ",
   "invitationCodeInputLabel": "ລະຫັດເຊີນ (8 ຕົວອັກສອນ)",

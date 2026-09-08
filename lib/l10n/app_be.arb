@@ -207,7 +207,7 @@
   "displayNameInputHint": "Увядзіце імя для адлюстравання",
   "ownerLabel": "Уладальнік",
   "youLabel": "Вы",
-  "removeMemberConfirmTitle": "Выдаліць удзельніка?",
+  "removeMemberConfirmTitle": "Вы хочаце выдаліць гэтага ўдзельніка?",
   "removeMemberConfirmMessage": "Выдаліць {name} з групы",
   "joinGroup": "Далучыцца да групы",
   "invitationCodeInputLabel": "Код запрашэння (8 сімвалаў)",

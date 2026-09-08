@@ -207,7 +207,7 @@
   "displayNameInputHint": "Rhowch enw arddangos",
   "ownerLabel": "Perchennog",
   "youLabel": "Chi",
-  "removeMemberConfirmTitle": "Ydych chi am dynnu’r aelod?",
+  "removeMemberConfirmTitle": "Ydych chi am ddileu’r aelod hwn?",
   "removeMemberConfirmMessage": "Tynnu {name} o’r grŵp",
   "joinGroup": "Ymuno â’r grŵp",
   "invitationCodeInputLabel": "Cod gwahoddiad (8 nod)",

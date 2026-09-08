@@ -207,7 +207,7 @@
   "displayNameInputHint": "Харуулах нэр оруулна уу",
   "ownerLabel": "Эзэмшигч",
   "youLabel": "Та",
-  "removeMemberConfirmTitle": "Гишүүнийг хасах уу?",
+  "removeMemberConfirmTitle": "Энэ гишүүнийг хасах уу?",
   "removeMemberConfirmMessage": "{name}-г бүлгээс хасах",
   "joinGroup": "Бүлэгт нэгдэх",
   "invitationCodeInputLabel": "Урилгын код (8 тэмдэгт)",

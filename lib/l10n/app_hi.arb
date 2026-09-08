@@ -207,7 +207,7 @@
   "displayNameInputHint": "डिस्प्ले नाम दर्ज करें",
   "ownerLabel": "मालिक",
   "youLabel": "आप",
-  "removeMemberConfirmTitle": "क्या आप सदस्य को हटाना चाहते हैं?",
+  "removeMemberConfirmTitle": "क्या आप इस सदस्य को हटाना चाहते हैं?",
   "removeMemberConfirmMessage": "{name} को समूह से हटाएँ",
   "joinGroup": "समूह में शामिल हों",
   "invitationCodeInputLabel": "आमंत्रण कोड (8 अक्षर)",

@@ -207,7 +207,7 @@
   "displayNameInputHint": "Մուտքագրեք ցուցադրվող անունը",
   "ownerLabel": "Սեփականատեր",
   "youLabel": "Դուք",
-  "removeMemberConfirmTitle": "Հեռացնե՞լ անդամին։",
+  "removeMemberConfirmTitle": "Ցանկանո՞ւմ եք հեռացնել այս անդամին։",
   "removeMemberConfirmMessage": "Հեռացնե՞լ {name}-ին խմբից",
   "joinGroup": "Միանալ խմբին",
   "invitationCodeInputLabel": "Հրավերի կոդ (8 նիշ)",

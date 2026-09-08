@@ -207,7 +207,7 @@
   "displayNameInputHint": "Введіть ім’я для відображення",
   "ownerLabel": "Власник",
   "youLabel": "Ви",
-  "removeMemberConfirmTitle": "Видалити учасника?",
+  "removeMemberConfirmTitle": "Видалити цього учасника?",
   "removeMemberConfirmMessage": "Видалити {name} з групи",
   "joinGroup": "Приєднатися до групи",
   "invitationCodeInputLabel": "Код запрошення (8 символів)",

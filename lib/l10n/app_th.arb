@@ -207,7 +207,7 @@
   "displayNameInputHint": "ป้อนชื่อที่แสดง",
   "ownerLabel": "เจ้าของ",
   "youLabel": "คุณ",
-  "removeMemberConfirmTitle": "ต้องการลบสมาชิกหรือไม่?",
+  "removeMemberConfirmTitle": "คุณต้องการลบสมาชิกนี้หรือไม่",
   "removeMemberConfirmMessage": "นำ {name} ออกจากกลุ่ม",
   "joinGroup": "เข้าร่วมกลุ่ม",
   "invitationCodeInputLabel": "รหัสเชิญ (8 ตัวอักษร)",

@@ -207,7 +207,7 @@
   "displayNameInputHint": "نام نمایشی را وارد کنید",
   "ownerLabel": "مالک",
   "youLabel": "شما",
-  "removeMemberConfirmTitle": "عضو حذف شود؟",
+  "removeMemberConfirmTitle": "آیا می‌خواهید این عضو را حذف کنید؟",
   "removeMemberConfirmMessage": "{name} از گروه حذف شود",
   "joinGroup": "پیوستن به گروه",
   "invitationCodeInputLabel": "کد دعوت (۸ نویسه)",

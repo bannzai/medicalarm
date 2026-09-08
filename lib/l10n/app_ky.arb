@@ -207,7 +207,7 @@
   "displayNameInputHint": "Көрсөтүлүүчү атты киргизиңиз",
   "ownerLabel": "Ээси",
   "youLabel": "Сиз",
-  "removeMemberConfirmTitle": "Мүчөнү алып салгыңыз келеби?",
+  "removeMemberConfirmTitle": "Бул мүчөнү өчүргүңүз келеби?",
   "removeMemberConfirmMessage": "{name} топтон чыгарылат",
   "joinGroup": "Топко кошулуу",
   "invitationCodeInputLabel": "Чакыруу коду (8 белги)",

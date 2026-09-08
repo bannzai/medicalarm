@@ -207,7 +207,7 @@
   "displayNameInputHint": "Внесете име за приказ",
   "ownerLabel": "Сопственик",
   "youLabel": "Вие",
-  "removeMemberConfirmTitle": "Да се отстрани членот?",
+  "removeMemberConfirmTitle": "Дали сакате да го отстраните овој член?",
   "removeMemberConfirmMessage": "Отстранување на {name} од групата",
   "joinGroup": "Приклучи се на групата",
   "invitationCodeInputLabel": "Код за покана (8 знаци)",

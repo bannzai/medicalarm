@@ -207,7 +207,7 @@
   "displayNameInputHint": "Anna näyttönimi",
   "ownerLabel": "Omistaja",
   "youLabel": "Sinä",
-  "removeMemberConfirmTitle": "Haluatko poistaa jäsenen?",
+  "removeMemberConfirmTitle": "Haluatko poistaa tämän jäsenen?",
   "removeMemberConfirmMessage": "Poistetaanko {name} ryhmästä?",
   "joinGroup": "Liity ryhmään",
   "invitationCodeInputLabel": "Kutsukoodi (8 merkkiä)",

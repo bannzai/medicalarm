@@ -207,7 +207,7 @@
   "displayNameInputHint": "Zadajte zobrazované meno",
   "ownerLabel": "Vlastník",
   "youLabel": "Vy",
-  "removeMemberConfirmTitle": "Chcete člena odstrániť?",
+  "removeMemberConfirmTitle": "Chcete tohto člena odstrániť?",
   "removeMemberConfirmMessage": "Odstrániť {name} zo skupiny",
   "joinGroup": "Pripojiť sa k skupine",
   "invitationCodeInputLabel": "Pozývací kód (8 znakov)",

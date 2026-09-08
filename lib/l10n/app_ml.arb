@@ -207,7 +207,7 @@
   "displayNameInputHint": "പ്രദർശിപ്പിക്കേണ്ട പേര് നൽകുക",
   "ownerLabel": "ഉടമ",
   "youLabel": "നിങ്ങൾ",
-  "removeMemberConfirmTitle": "അംഗത്തെ നീക്കം ചെയ്യണോ?",
+  "removeMemberConfirmTitle": "ഈ അംഗത്തെ നീക്കം ചെയ്യണോ?",
   "removeMemberConfirmMessage": "ഗ്രൂപ്പിൽ നിന്ന് {name}-നെ നീക്കം ചെയ്യുക",
   "joinGroup": "ഗ്രൂപ്പിൽ ചേരുക",
   "invitationCodeInputLabel": "ക്ഷണ കോഡ് (8 അക്ഷരങ്ങൾ)",

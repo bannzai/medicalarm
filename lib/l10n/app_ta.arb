@@ -207,7 +207,7 @@
   "displayNameInputHint": "காட்டப்படும் பெயரை உள்ளிடவும்",
   "ownerLabel": "உரிமையாளர்",
   "youLabel": "நீங்கள்",
-  "removeMemberConfirmTitle": "உறுப்பினரை அகற்றவா?",
+  "removeMemberConfirmTitle": "இந்த உறுப்பினரை அகற்ற விரும்புகிறீர்களா?",
   "removeMemberConfirmMessage": "குழுவிலிருந்து {name} அகற்றப்படுவார்",
   "joinGroup": "குழுவில் சேரவும்",
   "invitationCodeInputLabel": "அழைப்புக் குறியீடு (8 எழுத்துகள்)",

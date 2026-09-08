@@ -207,7 +207,7 @@
   "displayNameInputHint": "Skriv inn visningsnavn",
   "ownerLabel": "Eier",
   "youLabel": "Du",
-  "removeMemberConfirmTitle": "Vil du fjerne medlemmet?",
+  "removeMemberConfirmTitle": "Vil du fjerne dette medlemmet?",
   "removeMemberConfirmMessage": "Fjern {name} fra gruppen",
   "joinGroup": "Bli med i gruppen",
   "invitationCodeInputLabel": "Invitasjonskode (8 tegn)",

@@ -207,7 +207,7 @@
   "displayNameInputHint": "Introdueix el nom visible",
   "ownerLabel": "Propietari",
   "youLabel": "Tu",
-  "removeMemberConfirmTitle": "Vols eliminar el membre?",
+  "removeMemberConfirmTitle": "Vols eliminar aquest membre?",
   "removeMemberConfirmMessage": "Eliminar {name} del grup",
   "joinGroup": "Unir-se al grup",
   "invitationCodeInputLabel": "Codi d’invitació (8 caràcters)",

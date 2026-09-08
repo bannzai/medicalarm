@@ -207,7 +207,7 @@
   "displayNameInputHint": "Introduceți numele afișat",
   "ownerLabel": "Proprietar",
   "youLabel": "Tu",
-  "removeMemberConfirmTitle": "Doriți să eliminați membrul?",
+  "removeMemberConfirmTitle": "Doriți să eliminați acest membru?",
   "removeMemberConfirmMessage": "Elimină {name} din grup",
   "joinGroup": "Alătură-te grupului",
   "invitationCodeInputLabel": "Cod de invitație (8 caractere)",

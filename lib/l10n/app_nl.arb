@@ -207,7 +207,7 @@
   "displayNameInputHint": "Voer een weergavenaam in",
   "ownerLabel": "Eigenaar",
   "youLabel": "Jij",
-  "removeMemberConfirmTitle": "Wil je het lid verwijderen?",
+  "removeMemberConfirmTitle": "Wil je dit lid verwijderen?",
   "removeMemberConfirmMessage": "{name} uit de groep verwijderen",
   "joinGroup": "Deelnemen aan groep",
   "invitationCodeInputLabel": "Uitnodigingscode (8 tekens)",

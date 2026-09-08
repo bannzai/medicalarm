@@ -207,7 +207,7 @@
   "displayNameInputHint": "Sartu bistaratzeko izena",
   "ownerLabel": "Jabea",
   "youLabel": "Zu",
-  "removeMemberConfirmTitle": "Kidea kendu nahi duzu?",
+  "removeMemberConfirmTitle": "Kide hau kendu nahi duzu?",
   "removeMemberConfirmMessage": "Kendu {name} taldetik",
   "joinGroup": "Taldearekin bat egin",
   "invitationCodeInputLabel": "Gonbidapen-kodea (8 karaktere)",

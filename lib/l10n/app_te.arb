@@ -207,7 +207,7 @@
   "displayNameInputHint": "ప్రదర్శించబడే పేరును నమోదు చేయండి",
   "ownerLabel": "యజమాని",
   "youLabel": "మీరు",
-  "removeMemberConfirmTitle": "సభ్యుడిని తొలగించాలా?",
+  "removeMemberConfirmTitle": "మీరు ఈ సభ్యుడిని తొలగించాలనుకుంటున్నారా?",
   "removeMemberConfirmMessage": "గ్రూప్ నుండి {name}ని తీసివేయండి",
   "joinGroup": "సమూహంలో చేరండి",
   "invitationCodeInputLabel": "ఆహ్వాన కోడ్ (8 అక్షరాలు)",

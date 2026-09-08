@@ -207,7 +207,7 @@
   "displayNameInputHint": "Enter display name",
   "ownerLabel": "Owner",
   "youLabel": "You",
-  "removeMemberConfirmTitle": "Remove this member?",
+  "removeMemberConfirmTitle": "Do you want to remove this member?",
   "removeMemberConfirmMessage": "Remove {name} from the group",
   "joinGroup": "Join Group",
   "invitationCodeInputLabel": "Invitation code (8 characters)",

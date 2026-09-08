@@ -207,7 +207,7 @@
   "displayNameInputHint": "הזן שם תצוגה",
   "ownerLabel": "בעלים",
   "youLabel": "אתה",
-  "removeMemberConfirmTitle": "להסיר את החבר?",
+  "removeMemberConfirmTitle": "האם להסיר את החבר הזה?",
   "removeMemberConfirmMessage": "הסרת {name} מהקבוצה",
   "joinGroup": "הצטרפות לקבוצה",
   "invitationCodeInputLabel": "קוד הזמנה (8 תווים)",
