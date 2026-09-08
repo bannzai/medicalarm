@@ -60,7 +60,7 @@
   "viewFaq": "查看常见问题",
   "medicine": "药物",
   "inquiry": "联系我们",
-  "ok": "好的",
+  "ok": "确定",
   "medicationScheduleLimit": "服用时间表最多可以注册{count}个。",
   "increaseMedicationScheduleLimit": "在高级计划中将上限增加到{count}",
   "addMedicationSchedule": "添加服用计划",

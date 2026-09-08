@@ -60,7 +60,7 @@
   "viewFaq": "GYIK megtekintése",
   "medicine": "Gyógyszerek",
   "inquiry": "Kapcsolatfelvétel",
-  "ok": " rendben",
+  "ok": "OK",
   "medicationScheduleLimit": "A medication schedule can be registered up to {count} times.",
   "increaseMedicationScheduleLimit": "Növelje a maximális mennyiséget {count} -ra prémium csomaggal.",
   "addMedicationSchedule": "Gyógyszerszedési ütemterv hozzáadása",
