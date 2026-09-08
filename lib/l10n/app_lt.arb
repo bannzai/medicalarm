@@ -62,7 +62,7 @@
   "inquiry": "Susisiekite su mumis",
   "ok": "Gerai",
   "medicationScheduleLimit": "Galite užregistruoti iki {count} vaistų vartojimo tvarkaraščių.",
-  "increaseMedicationScheduleLimit": "Padidinkite limitą iki {count} naudodami „Premium“ planą",
+  "increaseMedicationScheduleLimit": "Naudodami „Premium“ planą padidinkite limitą iki {count}",
   "addMedicationSchedule": "Pridėti vaistų vartojimo tvarkaraštį",
   "medicationScheduleNotificationSetting": "Vaistų vartojimo tvarkaraščio pranešimų nustatymai",
   "notificationSetting": "Pranešimų nustatymai",

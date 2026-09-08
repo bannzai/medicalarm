@@ -62,7 +62,7 @@
   "inquiry": "Bize ulaşın",
   "ok": "Tamam",
   "medicationScheduleLimit": "En fazla {count} ilaç alma programı kaydedebilirsiniz.",
-  "increaseMedicationScheduleLimit": "Premium planla sınırı {count} değerine yükseltin",
+  "increaseMedicationScheduleLimit": "Premium planıyla sınırı {count} değerine yükseltin",
   "addMedicationSchedule": "İlaç alma programı ekle",
   "medicationScheduleNotificationSetting": "İlaç alma programı bildirim ayarları",
   "notificationSetting": "Bildirim ayarları",

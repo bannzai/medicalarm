@@ -62,7 +62,7 @@
   "inquiry": "Kapcsolat",
   "ok": "OK",
   "medicationScheduleLimit": "Legfeljebb {count} gyógyszerszedési ütemezést regisztrálhat.",
-  "increaseMedicationScheduleLimit": "A korlát növelése {count}-re Premium csomaggal",
+  "increaseMedicationScheduleLimit": "Növeld a korlátot {count} értékre Premium csomaggal",
   "addMedicationSchedule": "Gyógyszeres ütemezés hozzáadása",
   "medicationScheduleNotificationSetting": "Gyógyszerszedési ütemezés értesítési beállításai",
   "notificationSetting": "Értesítési beállítások",

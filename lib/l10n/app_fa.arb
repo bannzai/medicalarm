@@ -62,7 +62,7 @@
   "inquiry": "تماس با ما",
   "ok": "باشه",
   "medicationScheduleLimit": "می‌توانید حداکثر {count} برنامه مصرف دارو ثبت کنید.",
-  "increaseMedicationScheduleLimit": "افزایش سقف به {count} با طرح پریمیوم",
+  "increaseMedicationScheduleLimit": "با طرح Premium، محدودیت را به {count} افزایش دهید",
   "addMedicationSchedule": "افزودن برنامه مصرف دارو",
   "medicationScheduleNotificationSetting": "تنظیمات اعلان برنامه مصرف دارو",
   "notificationSetting": "تنظیمات اعلان‌ها",

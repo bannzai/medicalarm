@@ -62,7 +62,7 @@
   "inquiry": "Կապ մեզ հետ",
   "ok": "Լավ",
   "medicationScheduleLimit": "Կարող եք գրանցել մինչև {count} դեղի ընդունման ժամանակացույց։",
-  "increaseMedicationScheduleLimit": "Premium պլանով սահմանաչափը հասցրեք {count}-ի",
+  "increaseMedicationScheduleLimit": "Premium ծրագրով սահմանաչափը հասցրեք {count}-ի",
   "addMedicationSchedule": "Ավելացնել դեղորայքի ընդունման ժամանակացույց",
   "medicationScheduleNotificationSetting": "Դեղորայքի ընդունման ժամանակացույցի ծանուցումների կարգավորումներ",
   "notificationSetting": "Ծանուցումների կարգավորումներ",

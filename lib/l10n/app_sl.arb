@@ -62,7 +62,7 @@
   "inquiry": "Stopite v stik z nami",
   "ok": "V redu",
   "medicationScheduleLimit": "Registrirate lahko do {count} urnikov jemanja zdravil.",
-  "increaseMedicationScheduleLimit": "Povečajte omejitev na {count} s paketom Premium",
+  "increaseMedicationScheduleLimit": "S paketom Premium povečajte omejitev na {count}",
   "addMedicationSchedule": "Dodaj urnik jemanja zdravil",
   "medicationScheduleNotificationSetting": "Nastavitve obvestil urnika jemanja zdravil",
   "notificationSetting": "Nastavitve obvestil",

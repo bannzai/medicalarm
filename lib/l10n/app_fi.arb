@@ -62,7 +62,7 @@
   "inquiry": "Ota yhteyttä",
   "ok": "OK",
   "medicationScheduleLimit": "Voit rekisteröidä enintään {count} lääkkeenottoaikataulua.",
-  "increaseMedicationScheduleLimit": "Nosta raja {count}:een Premium-tilauksella",
+  "increaseMedicationScheduleLimit": "Nosta raja Premium-tilauksella arvoon {count}",
   "addMedicationSchedule": "Lisää lääkitysaikataulu",
   "medicationScheduleNotificationSetting": "Lääkitysaikataulun ilmoitusasetukset",
   "notificationSetting": "Ilmoitusasetukset",
