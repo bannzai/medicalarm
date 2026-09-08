@@ -229,7 +229,7 @@
   "doseIntervalWarningTitle": "ঔষধ গ্ৰহণৰ ব্যৱধান পূৰ হোৱা নাই",
   "doseIntervalWarningMessage": "{latestTakeTime}-ত ঔষধ গ্ৰহণ কৰা বুলি ইতিমধ্যে নথিভুক্ত আছে। ড’জৰ মাজত কমেও {minimumDoseIntervalHours} ঘণ্টাৰ ব্যৱধান ৰাখিবলৈ ছেট কৰা হৈছে। তথাপিও নথিভুক্ত কৰিবনে?",
   "doseIntervalWarningTakeAnyway": "লিপিবদ্ধ কৰক",
-  "doseIntervalNotificationWarning": "⚠️ পূৰ্বৰ পালি লোৱাৰ পৰা {minimumDoseIntervalHours} ঘণ্টা পাৰ হোৱা নাই",
+  "doseIntervalNotificationWarning": "⚠️ আগৰ পালি লোৱাৰ পৰা {minimumDoseIntervalHours} ঘণ্টা হোৱা নাই",
   "ossLicense": "OSS অনুজ্ঞাপত্ৰসমূহ",
   "achievementWeeklyLabel": "এই সপ্তাহৰ ঔষধ সেৱন",
   "achievementWeeklyCountSuffix": "/{scheduledCount} বাৰ",

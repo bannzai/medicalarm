@@ -229,7 +229,7 @@
   "doseIntervalWarningTitle": "服药间隔尚未达到",
   "doseIntervalWarningMessage": "已记录您在 {latestTakeTime} 服用了药物。设置要求两次服药之间至少间隔 {minimumDoseIntervalHours} 小时。仍要记录吗？",
   "doseIntervalWarningTakeAnyway": "记录",
-  "doseIntervalNotificationWarning": "⚠️ 距离上次服用还未满{minimumDoseIntervalHours}小时",
+  "doseIntervalNotificationWarning": "⚠️ 距离上次服药还不到 {minimumDoseIntervalHours} 小时",
   "ossLicense": "OSS 许可证",
   "achievementWeeklyLabel": "本周服药",
   "achievementWeeklyCountSuffix": "/{scheduledCount} 次",

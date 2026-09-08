@@ -229,7 +229,7 @@
   "doseIntervalWarningTitle": "Annustamisintervall ei ole veel möödunud",
   "doseIntervalWarningMessage": "Ravimi võtmine on juba registreeritud ajal {latestTakeTime}. Annuste vahele peab jääma vähemalt {minimumDoseIntervalHours} tundi. Kas registreerida siiski?",
   "doseIntervalWarningTakeAnyway": "Salvesta",
-  "doseIntervalNotificationWarning": "⚠️ Viimasest annusest ei ole möödunud {minimumDoseIntervalHours} tundi",
+  "doseIntervalNotificationWarning": "⚠️ Eelmisest annusest ei ole möödunud {minimumDoseIntervalHours} tundi",
   "ossLicense": "OSS-litsentsid",
   "achievementWeeklyLabel": "Selle nädala ravimite võtmine",
   "achievementWeeklyCountSuffix": "/{scheduledCount} korda",

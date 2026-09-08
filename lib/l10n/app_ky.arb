@@ -229,7 +229,7 @@
   "doseIntervalWarningTitle": "Дозалардын ортосундагы убакыт аралыгы али бүтө элек",
   "doseIntervalWarningMessage": "Дарыны {latestTakeTime} убакта ичкениңиз буга чейин катталган. Жөндөө дозалардын ортосунда кеминде {minimumDoseIntervalHours} саат болушун талап кылат. Ошентсе да катталсынбы?",
   "doseIntervalWarningTakeAnyway": "Каттоо",
-  "doseIntervalNotificationWarning": "⚠️ Акыркы дозадан бери {minimumDoseIntervalHours} саат өткөн жок",
+  "doseIntervalNotificationWarning": "⚠️ Мурунку дозаны кабыл алгандан бери {minimumDoseIntervalHours} саат өткөн жок",
   "ossLicense": "OSS лицензиялары",
   "achievementWeeklyLabel": "Бул аптадагы дары ичүү",
   "achievementWeeklyCountSuffix": "/{scheduledCount} жолу",

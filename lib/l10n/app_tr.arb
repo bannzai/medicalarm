@@ -229,7 +229,7 @@
   "doseIntervalWarningTitle": "Dozlar arasındaki süre henüz dolmadı",
   "doseIntervalWarningMessage": "{latestTakeTime} tarihinde ilaç aldığınız zaten kaydedildi. Dozlar arasında en az {minimumDoseIntervalHours} saat olması gerekiyor. Yine de kaydedilsin mi?",
   "doseIntervalWarningTakeAnyway": "Kaydet",
-  "doseIntervalNotificationWarning": "⚠️ Son dozadan bu yana {minimumDoseIntervalHours} saat geçmedi",
+  "doseIntervalNotificationWarning": "⚠️ Önceki dozadan bu yana {minimumDoseIntervalHours} saat geçmedi",
   "ossLicense": "OSS lisansları",
   "achievementWeeklyLabel": "Bu haftaki ilaç alımı",
   "achievementWeeklyCountSuffix": "/{scheduledCount} kez",

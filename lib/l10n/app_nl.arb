@@ -229,7 +229,7 @@
   "doseIntervalWarningTitle": "Het interval tussen de innames is nog niet verstreken",
   "doseIntervalWarningMessage": "Er is al geregistreerd dat je het medicijn om {latestTakeTime} hebt ingenomen. Er moet volgens de instelling minstens {minimumDoseIntervalHours} uur tussen innames zitten. Toch registreren?",
   "doseIntervalWarningTakeAnyway": "Registreren",
-  "doseIntervalNotificationWarning": "⚠️ Er zijn nog geen {minimumDoseIntervalHours} uur verstreken sinds de vorige dosis",
+  "doseIntervalNotificationWarning": "⚠️ Sinds de vorige dosis zijn er nog geen {minimumDoseIntervalHours} uur verstreken",
   "ossLicense": "OSS-licenties",
   "achievementWeeklyLabel": "Medicatie-inname deze week",
   "achievementWeeklyCountSuffix": "/{scheduledCount} keer",

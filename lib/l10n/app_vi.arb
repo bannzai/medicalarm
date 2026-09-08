@@ -229,7 +229,7 @@
   "doseIntervalWarningTitle": "Khoảng cách giữa các liều chưa đủ",
   "doseIntervalWarningMessage": "Bạn đã ghi nhận đã uống thuốc vào {latestTakeTime}. Cài đặt yêu cầu cách nhau ít nhất {minimumDoseIntervalHours} giờ giữa các liều. Vẫn ghi nhận chứ?",
   "doseIntervalWarningTakeAnyway": "Ghi lại",
-  "doseIntervalNotificationWarning": "⚠️ Chưa đủ {minimumDoseIntervalHours} giờ kể từ lần uống thuốc trước",
+  "doseIntervalNotificationWarning": "⚠️ Chưa đủ {minimumDoseIntervalHours} giờ kể từ lần uống trước",
   "ossLicense": "Giấy phép OSS",
   "achievementWeeklyLabel": "Uống thuốc trong tuần này",
   "achievementWeeklyCountSuffix": "/{scheduledCount} lần",

@@ -229,7 +229,7 @@
   "doseIntervalWarningTitle": "Інтэрвал паміж прыёмамі яшчэ не мінуў",
   "doseIntervalWarningMessage": "Прыём ужо запісаны ў {latestTakeTime}. Паміж прыёмамі павінна прайсці не менш за {minimumDoseIntervalHours} гадзін. Усё роўна запісаць?",
   "doseIntervalWarningTakeAnyway": "Запісаць",
-  "doseIntervalNotificationWarning": "⚠️ З моманту апошняга прыёму не прайшло {minimumDoseIntervalHours} гадзін",
+  "doseIntervalNotificationWarning": "⚠️ З моманту папярэдняга прыёму не прайшло {minimumDoseIntervalHours} гадзін",
   "ossLicense": "Ліцэнзіі OSS",
   "achievementWeeklyLabel": "Прыём лекаў на гэтым тыдні",
   "achievementWeeklyCountSuffix": "/{scheduledCount} разоў",

@@ -229,7 +229,7 @@
   "doseIntervalWarningTitle": "Tarpas tarp dozių dar nepraėjo",
   "doseIntervalWarningMessage": "Jau užregistruota, kad vaistus išgėrėte {latestTakeTime}. Nustatyta, kad tarp dozių turi būti bent {minimumDoseIntervalHours} valandų tarpas. Vis tiek registruoti?",
   "doseIntervalWarningTakeAnyway": "Įrašyti",
-  "doseIntervalNotificationWarning": "⚠️ Nuo paskutinės dozės nepraėjo {minimumDoseIntervalHours} val.",
+  "doseIntervalNotificationWarning": "⚠️ Nuo paskutinės dozės išgėrimo nepraėjo {minimumDoseIntervalHours} val.",
   "ossLicense": "OSS licencijos",
   "achievementWeeklyLabel": "Šios savaitės vaistų vartojimas",
   "achievementWeeklyCountSuffix": "/{scheduledCount} kartų",

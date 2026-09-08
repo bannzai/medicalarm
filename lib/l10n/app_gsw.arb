@@ -229,7 +229,7 @@
   "doseIntervalWarningTitle": "Dr Einnahmeabstand isch no nöd abgloffe",
   "doseIntervalWarningMessage": "D Iinnahm um {latestTakeTime} isch scho erfasst. Zwüsche de Iinnahme müend mindestens {minimumDoseIntervalHours} Stund ligge. Trotzdem erfasse?",
   "doseIntervalWarningTakeAnyway": "Iitrage",
-  "doseIntervalNotificationWarning": "⚠️ Syt dr letschte Iinah si no kei {minimumDoseIntervalHours} Stunde vergaa",
+  "doseIntervalNotificationWarning": "⚠️ Sit dr letschte Dosis sind no kei {minimumDoseIntervalHours} Stund ver gange",
   "ossLicense": "OSS-Lizänze",
   "achievementWeeklyLabel": "Medikament i dere Wuche",
   "achievementWeeklyCountSuffix": "/{scheduledCount} Mol",

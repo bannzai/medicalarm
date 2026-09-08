@@ -229,7 +229,7 @@
   "doseIntervalWarningTitle": "Isikhathi phakathi kwemithamo asikapheli",
   "doseIntervalWarningMessage": "Sekuvele kuqoshiwe ukuthi uphuze umuthi ngo-{latestTakeTime}. Isilungiselelo sidinga ukuthi kube okungenani amahora angu-{minimumDoseIntervalHours} phakathi kwemithamo. Usafuna ukukurekhoda?",
   "doseIntervalWarningTakeAnyway": "Qopha",
-  "doseIntervalNotificationWarning": "⚠️ Akukadluleki amahora angu-{minimumDoseIntervalHours} kusukela ekuphuzeni umthamo wokugcina",
+  "doseIntervalNotificationWarning": "⚠️ Akukadluli amahora angu-{minimumDoseIntervalHours} kusukela emthamo wokugcina",
   "ossLicense": "Amalayisense e-OSS",
   "achievementWeeklyLabel": "Ukuphuza imithi kuleli sonto",
   "achievementWeeklyCountSuffix": "/{scheduledCount} izikhathi",

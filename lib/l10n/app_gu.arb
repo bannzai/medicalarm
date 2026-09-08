@@ -229,7 +229,7 @@
   "doseIntervalWarningTitle": "દવાઓ લેવાનો અંતરાલ હજુ પૂરો થયો નથી",
   "doseIntervalWarningMessage": "{latestTakeTime} વાગ્યે દવા લીધી હોવાનું પહેલેથી નોંધાયેલું છે. ડોઝ વચ્ચે ઓછામાં ઓછો {minimumDoseIntervalHours} કલાકનો અંતર રાખવાનું સેટિંગ છે. તેમ છતાં નોંધ કરવી છે?",
   "doseIntervalWarningTakeAnyway": "નોંધો",
-  "doseIntervalNotificationWarning": "⚠️ છેલ્લી દવા લીધા પછી {minimumDoseIntervalHours} કલાક થયા નથી",
+  "doseIntervalNotificationWarning": "⚠️ અગાઉની માત્રા લીધા પછી {minimumDoseIntervalHours} કલાક થયા નથી",
   "ossLicense": "OSS લાઇસન્સ",
   "achievementWeeklyLabel": "આ અઠવાડિયે દવા લેવી",
   "achievementWeeklyCountSuffix": "/{scheduledCount} વખત",

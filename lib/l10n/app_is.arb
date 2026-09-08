@@ -229,7 +229,7 @@
   "doseIntervalWarningTitle": "Tímabilið milli skammta er ekki liðið",
   "doseIntervalWarningMessage": "Lyfjataka hefur þegar verið skráð kl. {latestTakeTime}. Stillingin krefst að minnsta kosti {minimumDoseIntervalHours} klukkustunda á milli skammta. Skrá samt?",
   "doseIntervalWarningTakeAnyway": "Skrá",
-  "doseIntervalNotificationWarning": "⚠️ Ekki eru liðnir {minimumDoseIntervalHours} klukkustundir frá síðasta skammti",
+  "doseIntervalNotificationWarning": "⚠️ Ekki eru liðnar {minimumDoseIntervalHours} klukkustundir frá síðasta skammti",
   "ossLicense": "OSS-leyfi",
   "achievementWeeklyLabel": "Lyfjatökur í þessari viku",
   "achievementWeeklyCountSuffix": "/{scheduledCount} sinnum",

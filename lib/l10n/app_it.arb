@@ -229,7 +229,7 @@
   "doseIntervalWarningTitle": "L’intervallo tra le dosi non è ancora trascorso",
   "doseIntervalWarningMessage": "L’assunzione è già stata registrata alle {latestTakeTime}. L’impostazione richiede un intervallo di almeno {minimumDoseIntervalHours} ore tra le dosi. Registrarla comunque?",
   "doseIntervalWarningTakeAnyway": "Registra",
-  "doseIntervalNotificationWarning": "⚠️ Non sono trascorse {minimumDoseIntervalHours} ore dall’ultima dose",
+  "doseIntervalNotificationWarning": "⚠️ Non sono ancora trascorse {minimumDoseIntervalHours} ore dall’ultima dose",
   "ossLicense": "Licenze OSS",
   "achievementWeeklyLabel": "Assunzioni di farmaci questa settimana",
   "achievementWeeklyCountSuffix": "/{scheduledCount} volte",

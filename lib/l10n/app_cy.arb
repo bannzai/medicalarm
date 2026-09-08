@@ -229,7 +229,7 @@
   "doseIntervalWarningTitle": "Nid yw’r cyfnod rhwng dosau wedi dod i ben eto",
   "doseIntervalWarningMessage": "Mae cofnod eich bod wedi cymryd y feddyginiaeth am {latestTakeTime}. Mae’r gosodiad yn gofyn am o leiaf {minimumDoseIntervalHours} awr rhwng dosau. Cofnodi beth bynnag?",
   "doseIntervalWarningTakeAnyway": "Cofnodi",
-  "doseIntervalNotificationWarning": "⚠️ Nid oes {minimumDoseIntervalHours} awr wedi mynd heibio ers y dos diwethaf",
+  "doseIntervalNotificationWarning": "⚠️ Nid yw {minimumDoseIntervalHours} awr wedi mynd heibio ers y dos diwethaf",
   "ossLicense": "Trwyddedau OSS",
   "achievementWeeklyLabel": "Cymryd meddyginiaeth yr wythnos hon",
   "achievementWeeklyCountSuffix": "/{scheduledCount} gwaith",

@@ -229,7 +229,7 @@
   "doseIntervalWarningTitle": "Intervalul dintre doze nu a trecut încă",
   "doseIntervalWarningMessage": "Administrarea de la {latestTakeTime} este deja înregistrată. Setarea impune un interval de cel puțin {minimumDoseIntervalHours} ore între doze. Înregistrați oricum?",
   "doseIntervalWarningTakeAnyway": "Înregistrează",
-  "doseIntervalNotificationWarning": "⚠️ Nu au trecut {minimumDoseIntervalHours} ore de la ultima doză",
+  "doseIntervalNotificationWarning": "⚠️ Nu au trecut {minimumDoseIntervalHours} ore de la doza anterioară",
   "ossLicense": "Licențe OSS",
   "achievementWeeklyLabel": "Administrarea medicamentelor în această săptămână",
   "achievementWeeklyCountSuffix": "/{scheduledCount} ori",

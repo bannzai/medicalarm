@@ -229,7 +229,7 @@
   "doseIntervalWarningTitle": "औषधांच्या डोसमधील अंतर अजून पूर्ण झालेले नाही",
   "doseIntervalWarningMessage": "{latestTakeTime} वाजता औषध घेतल्याची नोंद आधीच आहे. डोसांमध्ये किमान {minimumDoseIntervalHours} तासांचे अंतर ठेवण्याची सेटिंग आहे. तरीही नोंद करायची का?",
   "doseIntervalWarningTakeAnyway": "नोंद करा",
-  "doseIntervalNotificationWarning": "⚠️ शेवटचा डोस घेतल्यापासून {minimumDoseIntervalHours} तास झालेले नाहीत",
+  "doseIntervalNotificationWarning": "⚠️ मागील डोस घेतल्यापासून {minimumDoseIntervalHours} तास झालेले नाहीत",
   "ossLicense": "OSS परवाने",
   "achievementWeeklyLabel": "या आठवड्यातील औषध सेवन",
   "achievementWeeklyCountSuffix": "/{scheduledCount} वेळा",

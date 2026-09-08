@@ -229,7 +229,7 @@
   "doseIntervalWarningTitle": "Інтервал між прийомами ще не минув",
   "doseIntervalWarningMessage": "Прийом о {latestTakeTime} уже записано. Між прийомами має минути щонайменше {minimumDoseIntervalHours} годин. Усе одно записати?",
   "doseIntervalWarningTakeAnyway": "Записати",
-  "doseIntervalNotificationWarning": "⚠️ Від останнього прийому не минуло {minimumDoseIntervalHours} годин",
+  "doseIntervalNotificationWarning": "⚠️ Від попереднього прийому не минуло {minimumDoseIntervalHours} годин",
   "ossLicense": "Ліцензії OSS",
   "achievementWeeklyLabel": "Прийом ліків цього тижня",
   "achievementWeeklyCountSuffix": "/{scheduledCount} разів",
