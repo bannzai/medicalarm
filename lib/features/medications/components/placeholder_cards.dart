@@ -35,7 +35,7 @@ class MedicationPlaceholderCards extends ConsumerWidget {
     return Column(
       children: [
         for (final schedule in plan.schedules) ...[
-          MedicationPlaceholderTile(plan: plan, schedule: schedule, doseReceiverName: doseReceiver.name),
+          MedicationPlaceholderTile(key: ValueKey(schedule.id), plan: plan, schedule: schedule, doseReceiverName: doseReceiver.name),
           const SizedBox(height: 10),
         ],
       ],

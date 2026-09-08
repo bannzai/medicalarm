@@ -10,7 +10,7 @@ appId: com.bannzai.medicalarm
     id: "onboarding_placeholder_delete_onboarding-8"
 - assertNotVisible: "08:00"
 - assertVisible: "19:00"
-- takeScreenshot: ../../tmp/onboarding-followup-one-deleted
+- takeScreenshot: tmp/onboarding-followup-one-deleted
 - tapOn:
     id: "onboarding_placeholder_delete_onboarding-19"
 - assertNotVisible: "お薬が未登録です"
@@ -27,4 +27,4 @@ appId: com.bannzai.medicalarm
 - assertNotVisible: "900000001"
 - assertNotVisible: "900000002"
 - assertNotVisible: "900000003"
-- takeScreenshot: ../../tmp/onboarding-followup-manual-notifications-cleared
+- takeScreenshot: tmp/onboarding-followup-manual-notifications-cleared
