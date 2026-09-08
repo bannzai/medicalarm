@@ -71,7 +71,7 @@
   "enableNotificationInSilentMode": "Anfon hysbysiadau yn y modd tawel hefyd",
   "silentModeNotificationDescription": "Hyd yn oed pan fo’r Modd Ffocws YMLAEN neu pan fo’r ddyfais yn dawel, caiff hysbysiadau critigol eu dangos ar y sgrin glo a chaiff sain ei chwarae.",
   "everyXDaysFormat": "Bob {count} diwrnod",
-  "cycleDaysFormat": "{consecutiveDays} diwrnod yn cymryd / {restDays} diwrnod yn seibiant",
+  "cycleDaysFormat": "Cymryd am {consecutiveDays} diwrnod / seibiant o {restDays} diwrnod",
   "consecutiveDaysFormat": "{count} diwrnod o feddiant",
   "restDaysFormat": "{count} diwrnod heb gymryd meddyginiaeth",
   "limitedTimeDiscount": "Rydych yn gallu defnyddio am bris cyfyngedig nawr",

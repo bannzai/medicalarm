@@ -71,7 +71,7 @@
   "enableNotificationInSilentMode": "Jakinarazi isilik moduan ere",
   "silentModeNotificationDescription": "Foku modua aktibatuta dagoenean edo gailua isilik dagoenean ere, alerta kritikoak blokeo-pantailan agertzen dira eta soinua erreproduzitzen da.",
   "everyXDaysFormat": "{count} egunean behin",
-  "cycleDaysFormat": "{consecutiveDays} egun hartzen/{restDays} egun eten",
+  "cycleDaysFormat": "{consecutiveDays} egunez hartu / {restDays} eguneko atsedenaldia",
   "consecutiveDaysFormat": "{count} egun hartu",
   "restDaysFormat": "{count} egunez medikamentu hartu gabe",
   "limitedTimeDiscount": "Orain prezio mugatua duen kanpaina batetik baliatuz, betiere erabil dezakezu.",

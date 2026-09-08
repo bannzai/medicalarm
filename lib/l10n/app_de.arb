@@ -71,7 +71,7 @@
   "enableNotificationInSilentMode": "Auch im Lautlosmodus benachrichtigen",
   "silentModeNotificationDescription": "Auch wenn der Fokusmodus aktiviert oder das Gerät stummgeschaltet ist, werden kritische Mitteilungen auf dem Sperrbildschirm angezeigt und ein Ton wird abgespielt.",
   "everyXDaysFormat": "Alle {count} Tage",
-  "cycleDaysFormat": "{consecutiveDays} Tage Einnahme / {restDays} Tage Pause",
+  "cycleDaysFormat": "{consecutiveDays} Tage einnehmen / {restDays} Tage Pause",
   "consecutiveDaysFormat": "{count} Tage eingenommen",
   "restDaysFormat": "{count} Tage der Medikation",
   "limitedTimeDiscount": "Jetzt zu einem Sonderpreis, den Sie dauerhaft nutzen können.",

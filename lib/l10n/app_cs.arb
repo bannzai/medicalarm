@@ -71,7 +71,7 @@
   "enableNotificationInSilentMode": "Upozorňovat i v tichém režimu",
   "silentModeNotificationDescription": "I když je zapnutý režim Soustředění nebo je zařízení ztlumené, kritická oznámení se zobrazí na zamčené obrazovce a přehraje se zvuk.",
   "everyXDaysFormat": "Každých {count} dní",
-  "cycleDaysFormat": "{consecutiveDays} dní užívání/{restDays} dní pauzy",
+  "cycleDaysFormat": "Užívat {consecutiveDays} dní / vynechat {restDays} dní",
   "consecutiveDaysFormat": "{count} dní užívání",
   "restDaysFormat": "{count} dní bez léků",
   "limitedTimeDiscount": "Nyní můžete používat za speciální cenu navždy.",

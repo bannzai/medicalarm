@@ -71,7 +71,7 @@
   "enableNotificationInSilentMode": "Tuma arifa hata katika hali ya kimya",
   "silentModeNotificationDescription": "Hata Modi ya Kuzingatia ikiwa imewashwa au kifaa kikiwa kimenyamazishwa, arifa muhimu huonyeshwa kwenye skrini iliyofungwa na sauti huchezwa.",
   "everyXDaysFormat": "Kila baada ya siku {count}",
-  "cycleDaysFormat": "{consecutiveDays} siku za matumizi/{restDays} siku za kupumzika",
+  "cycleDaysFormat": "Tumia kwa siku {consecutiveDays} / pumzika kwa siku {restDays}",
   "consecutiveDaysFormat": "{count} siku za kutumia",
   "restDaysFormat": "{count} siku za kukosa dawa",
   "limitedTimeDiscount": "Sasa unaweza kuendelea kutumia kwa bei ya kipekee",

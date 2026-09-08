@@ -71,7 +71,7 @@
   "enableNotificationInSilentMode": "সাইলেন্ট মোডেও বিজ্ঞপ্তি দিন",
   "silentModeNotificationDescription": "ফোকাস মোড চালু থাকলেও বা ডিভাইস নীরব থাকলেও, গুরুত্বপূর্ণ বিজ্ঞপ্তি লক স্ক্রিনে দেখা যাবে এবং শব্দ বাজবে।",
   "everyXDaysFormat": "প্রতি {count} দিন অন্তর",
-  "cycleDaysFormat": "{consecutiveDays} দিনের ডোজ/{restDays} দিন বিশ্রাম",
+  "cycleDaysFormat": "{consecutiveDays} দিন ওষুধ সেবন / {restDays} দিন বিরতি",
   "consecutiveDaysFormat": "{count} দিনের ঔষধ সেবন",
   "restDaysFormat": "{count} দিন ঔষধ গ্রহণ বন্ধ",
   "limitedTimeDiscount": "এখন সীমিত সময়ের জন্য বিশেষ মূল্যে ব্যবহার করতে পারবেন",

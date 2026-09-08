@@ -71,7 +71,7 @@
   "enableNotificationInSilentMode": "સાયલન્ટ મોડમાં પણ સૂચના આપો",
   "silentModeNotificationDescription": "ફોકસ મોડ ચાલુ હોય અથવા ડિવાઇસ સાઇલન્ટ હોય ત્યારે પણ, ગંભીર સૂચનાઓ લૉક સ્ક્રીન પર દેખાશે અને અવાજ વાગશે.",
   "everyXDaysFormat": "દર {count} દિવસે",
-  "cycleDaysFormat": "{consecutiveDays}દિવસોનો ઉપયોગ/{restDays}દિવસોનો આરામ",
+  "cycleDaysFormat": "{consecutiveDays} દિવસ દવા લો / {restDays} દિવસ વિરામ લો",
   "consecutiveDaysFormat": "{count} દિવસો સુધી લેહે",
   "restDaysFormat": "{count} દિવસ રોગટુટ",
   "limitedTimeDiscount": "હવે મર્યાદિત કિંમત માટે સદૈવ ઉપયોગ માટે ઉપલબ્ધ છે",

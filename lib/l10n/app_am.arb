@@ -71,7 +71,7 @@
   "enableNotificationInSilentMode": "በጸጥታ ሁነታም ማሳወቂያ ላክ",
   "silentModeNotificationDescription": "እንኳን የትኩረት ሁነታ በርቶ ወይም መሣሪያው ድምፅ አልባ ሆኖ ቢሆንም፣ ወሳኝ ማሳወቂያዎች በመቆለፊያ ማያ ገጽ ላይ ይታያሉ እና ድምፅ ይเล่นል።",
   "everyXDaysFormat": "ყოველ {count} დღეში",
-  "cycleDaysFormat": "{consecutiveDays} ዕለት መውሰድ / {restDays} ዕለት ፈተን",
+  "cycleDaysFormat": "መድኃኒቱን ለ{consecutiveDays} ቀናት ይውሰዱ / ለ{restDays} ቀናት ያቁሙ",
   "consecutiveDaysFormat": "{count} ቀን እንዲያይ",
   "restDaysFormat": "{count} ቀን ወቅታውን ይወስዳል",
   "limitedTimeDiscount": "አሁን ለምዕባለ ዋጋ በተወሰነ ይጠቀሙ",

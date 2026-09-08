@@ -71,7 +71,7 @@
   "enableNotificationInSilentMode": "ارسال اعلان حتی در حالت بی‌صدا",
   "silentModeNotificationDescription": "حتی وقتی حالت تمرکز روشن است یا دستگاه روی حالت بی‌صدا قرار دارد، هشدارهای مهم روی صفحه قفل نمایش داده می‌شوند و صدا پخش می‌شود.",
   "everyXDaysFormat": "هر {count} روز",
-  "cycleDaysFormat": "{consecutiveDays} روز مصرف/{restDays} روز عدم مصرف",
+  "cycleDaysFormat": "مصرف به‌مدت {consecutiveDays} روز / توقف به‌مدت {restDays} روز",
   "consecutiveDaysFormat": "{count} روز مصرف",
   "restDaysFormat": "{count} روز عدم مصرف",
   "limitedTimeDiscount": "اکنون با قیمت محدود می‌توانید به طور نامحدود از آن استفاده کنید.",

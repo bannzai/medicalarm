@@ -71,7 +71,7 @@
   "enableNotificationInSilentMode": "Дыбыссыз режимде де хабарландыру жіберу",
   "silentModeNotificationDescription": "Фокус режимі ҚОСУЛЫ болса немесе құрылғы дыбыссыз режимде тұрса да, маңызды хабарландырулар құлыптау экранында көрсетіліп, дыбыс ойнатылады.",
   "everyXDaysFormat": "Әр {count} күн сайын",
-  "cycleDaysFormat": "{consecutiveDays} күн қабылдау/{restDays} күн демалу",
+  "cycleDaysFormat": "{consecutiveDays} күн қабылдау / {restDays} күн үзіліс",
   "consecutiveDaysFormat": "{count} күн қабылдау",
   "restDaysFormat": "{count} күн дәрі қабылдамаған",
   "limitedTimeDiscount": "Қазір шектеулі бағамен мәңгі пайдалануға болады",

@@ -71,7 +71,7 @@
   "enableNotificationInSilentMode": "무음 모드에서도 알림 보내기",
   "silentModeNotificationDescription": "집중 모드가 켜져 있거나 기기가 무음 상태여도 중요한 알림이 잠금 화면에 표시되고 소리가 재생됩니다.",
   "everyXDaysFormat": "{count}일마다",
-  "cycleDaysFormat": "{consecutiveDays}일 복용/{restDays}일 휴약",
+  "cycleDaysFormat": "{consecutiveDays}일 복용 / {restDays}일 휴약",
   "consecutiveDaysFormat": "{count}일 복용",
   "restDaysFormat": "{count}일 복용 중단",
   "limitedTimeDiscount": "지금 한정 가격으로 영구 사용 가능",

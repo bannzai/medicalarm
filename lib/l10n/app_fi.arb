@@ -71,7 +71,7 @@
   "enableNotificationInSilentMode": "Ilmoita myös äänettömässä tilassa",
   "silentModeNotificationDescription": "Vaikka Keskity-tila olisi käytössä tai laite äänettömällä, kriittiset ilmoitukset näkyvät lukitusnäytössä ja toistavat äänen.",
   "everyXDaysFormat": "{count} päivän välein",
-  "cycleDaysFormat": "{consecutiveDays} päivän käyttö/{restDays} päivän tauko",
+  "cycleDaysFormat": "Käytä {consecutiveDays} päivää / pidä {restDays} päivän tauko",
   "consecutiveDaysFormat": "{count} päivää otettu",
   "restDaysFormat": "{count} päivää ilman lääkitystä",
   "limitedTimeDiscount": "Nyt saat rajoitetun hinnan, jota voit käyttää loputtomiin.",

@@ -71,7 +71,7 @@
   "enableNotificationInSilentMode": "சைலன்ட் பயன்முறையிலும் அறிவிக்கவும்",
   "silentModeNotificationDescription": "ஃபோகஸ் பயன்முறை இயக்கப்பட்டிருந்தாலும் அல்லது சாதனம் அமைதியாக இருந்தாலும், முக்கியமான எச்சரிக்கைகள் பூட்டுத் திரையில் காட்டப்பட்டு ஒலி இயக்கப்படும்.",
   "everyXDaysFormat": "{count} நாட்களுக்கு ஒருமுறை",
-  "cycleDaysFormat": "{consecutiveDays} நாட்கள் மருந்து/{restDays} நாட்கள் விடுப்பு",
+  "cycleDaysFormat": "{consecutiveDays} நாட்கள் எடுத்துக்கொள்ளவும் / {restDays} நாட்கள் இடைவெளி",
   "consecutiveDaysFormat": "{count} நாட்கள் எடுத்துக் கொண்டது",
   "restDaysFormat": "{count} நாட்கள் மருந்தை எடுத்துக்கொள்ளவில்லை",
   "limitedTimeDiscount": "இப்போது வரம்புள்ள விலைக்குள் எதற்கும் பயன்படுத்தலாம்",

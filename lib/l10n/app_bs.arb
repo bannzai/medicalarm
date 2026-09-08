@@ -71,7 +71,7 @@
   "enableNotificationInSilentMode": "Obavještavaj i u tihom režimu",
   "silentModeNotificationDescription": "Čak i kada je Režim fokusa uključen ili je uređaj utišan, kritične obavijesti prikazuju se na zaključanom ekranu i reprodukuje se zvuk.",
   "everyXDaysFormat": "Svakih {count} dana",
-  "cycleDaysFormat": "{consecutiveDays} dana uzimanja/{restDays} dana pauze",
+  "cycleDaysFormat": "Uzimati {consecutiveDays} dana / pauza {restDays} dana",
   "consecutiveDaysFormat": "{count} dana uzimanja",
   "restDaysFormat": "{count} dana bez terapije",
   "limitedTimeDiscount": "Sada imate priliku da koristite po sniženoj cijeni.",

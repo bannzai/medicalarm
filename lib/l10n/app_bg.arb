@@ -71,7 +71,7 @@
   "enableNotificationInSilentMode": "Известия и в безшумен режим",
   "silentModeNotificationDescription": "Дори когато режимът „Фокус“ е включен или устройството е без звук, критичните известия се показват на заключения екран и се възпроизвежда звук.",
   "everyXDaysFormat": "На всеки {count} дни",
-  "cycleDaysFormat": "{consecutiveDays} дни прием / {restDays} дни почивка",
+  "cycleDaysFormat": "Прием за {consecutiveDays} дни / почивка за {restDays} дни",
   "consecutiveDaysFormat": "{count} дни на прием",
   "restDaysFormat": "{count} дни пропуснати лекарства",
   "limitedTimeDiscount": "Сега можете да използвате на ограничена цена завинаги",

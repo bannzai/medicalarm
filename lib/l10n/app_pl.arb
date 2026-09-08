@@ -71,7 +71,7 @@
   "enableNotificationInSilentMode": "Wysyłaj powiadomienia także w trybie cichym",
   "silentModeNotificationDescription": "Nawet gdy tryb skupienia jest włączony lub urządzenie jest wyciszone, krytyczne alerty są wyświetlane na ekranie blokady i odtwarzany jest dźwięk.",
   "everyXDaysFormat": "Co {count} dni",
-  "cycleDaysFormat": "{consecutiveDays} dni zażycia / {restDays} dni przerwy",
+  "cycleDaysFormat": "Przyjmować przez {consecutiveDays} dni / przerwa przez {restDays} dni",
   "consecutiveDaysFormat": "{count} dni przyjęcia",
   "restDaysFormat": "{count} dni bez leczenia",
   "limitedTimeDiscount": "Teraz w limitowanej cenie, z którą będziesz mógł korzystać na zawsze",

@@ -71,7 +71,7 @@
   "enableNotificationInSilentMode": "Teavita ka hääletus režiimis",
   "silentModeNotificationDescription": "Isegi kui fookusrežiim on sisse lülitatud või seade on hääletu, kuvatakse kriitilised teavitused lukustuskuval ja esitatakse heli.",
   "everyXDaysFormat": "Iga {count} päeva järel",
-  "cycleDaysFormat": "{consecutiveDays} päev(a) kasutamine/{restDays} päev(a) pausi",
+  "cycleDaysFormat": "Võtta {consecutiveDays} päeva / paus {restDays} päeva",
   "consecutiveDaysFormat": "{count} päeva võetud",
   "restDaysFormat": "{count} päeva ravimiteta",
   "limitedTimeDiscount": "Nüüd saate piiratud aja jooksul hinnaga, millega saate jätkuvalt kasutada",

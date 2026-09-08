@@ -71,7 +71,7 @@
   "enableNotificationInSilentMode": "Invia notifiche anche in modalità silenziosa",
   "silentModeNotificationDescription": "Anche quando la modalità Full immersion è attiva o il dispositivo è silenzioso, gli avvisi critici vengono mostrati sulla schermata di blocco e riproducono un suono.",
   "everyXDaysFormat": "Ogni {count} giorni",
-  "cycleDaysFormat": "{consecutiveDays} giorni di assunzione/{restDays} giorni di pausa",
+  "cycleDaysFormat": "Assumere per {consecutiveDays} giorni / fare una pausa di {restDays} giorni",
   "consecutiveDaysFormat": "{count} giorni di assunzione",
   "restDaysFormat": "{count} giorni di sospensione",
   "limitedTimeDiscount": "Ora puoi utilizzare a un prezzo esclusivo per sempre!",

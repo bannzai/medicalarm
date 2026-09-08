@@ -71,7 +71,7 @@
   "enableNotificationInSilentMode": "ಸೈಲೆಂಟ್ ಮೋಡ್‌ನಲ್ಲಿಯೂ ಅಧಿಸೂಚನೆ ಕಳುಹಿಸಿ",
   "silentModeNotificationDescription": "ಫೋಕಸ್ ಮೋಡ್ ಆನ್ ಆಗಿದ್ದರೂ ಅಥವಾ ಸಾಧನ ಸೈಲೆಂಟ್‌ನಲ್ಲಿದ್ದರೂ, ಪ್ರಮುಖ ಎಚ್ಚರಿಕೆಗಳು ಲಾಕ್ ಸ್ಕ್ರೀನ್‌ನಲ್ಲಿ ಕಾಣಿಸುತ್ತವೆ ಮತ್ತು ಧ್ವನಿ ಪ್ಲೇ ಆಗುತ್ತದೆ.",
   "everyXDaysFormat": "ಪ್ರತಿ {count} ದಿನಗಳಿಗೊಮ್ಮೆ",
-  "cycleDaysFormat": "{consecutiveDays} ದಿನಗಳ ಎತ್ತುವಿಕೆ/{restDays} ದಿನಗಳ ವಿಶ್ರಾಂತಿ",
+  "cycleDaysFormat": "{consecutiveDays} ದಿನ ತೆಗೆದುಕೊಳ್ಳಿ / {restDays} ದಿನ ವಿರಾಮ",
   "consecutiveDaysFormat": "{count}ದಿನಗಳಿಗೂ",
   "restDaysFormat": "{count}ದಿನ ಔಷಧ ತೆಗೆದುಕೊಳ್ಳುವಿಕೆ ತಪ್ಪಿಸಿ",
   "limitedTimeDiscount": "ಈಗ ಮಾತ್ರ ವಿಶೇಷ ದರದಲ್ಲಿ ಸದಾಕಾಲ ಬಳಸಲು ಸಾಧ್ಯ",

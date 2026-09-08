@@ -71,7 +71,7 @@
   "enableNotificationInSilentMode": "შეტყობინებების გაგზავნა უხმო რეჟიმშიც",
   "silentModeNotificationDescription": "მაშინაც კი, როცა ფოკუსის რეჟიმი ჩართულია ან მოწყობილობა დადუმებულია, კრიტიკული შეტყობინებები გამოჩნდება დაბლოკვის ეკრანზე და ხმა ჩაირთვება.",
   "everyXDaysFormat": "ყოველ {count} დღეში",
-  "cycleDaysFormat": "{consecutiveDays} დღის მიღება/{restDays} დღის შესვენება",
+  "cycleDaysFormat": "მიიღეთ {consecutiveDays} დღის განმავლობაში / შეისვენეთ {restDays} დღე",
   "consecutiveDaysFormat": "{count} დღის აღების",
   "restDaysFormat": "{count} დღის განმავლობაში მედიკამენტების მიღება შეწყვეტილია",
   "limitedTimeDiscount": "ახლა შეზღუდული ფასით შეგიძლიათ გამოიყენოთ მუდმივად",

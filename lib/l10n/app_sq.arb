@@ -71,7 +71,7 @@
   "enableNotificationInSilentMode": "Njofto edhe në modalitetin pa zë",
   "silentModeNotificationDescription": "Edhe kur modaliteti i përqendrimit është aktiv ose pajisja është në heshtje, sinjalizimet kritike shfaqen në ekranin e kyçur dhe luhet një tingull.",
   "everyXDaysFormat": "Çdo {count} ditë",
-  "cycleDaysFormat": "{consecutiveDays} ditë marrjeje/{restDays} ditë pushimi",
+  "cycleDaysFormat": "Merreni për {consecutiveDays} ditë / pushim për {restDays} ditë",
   "consecutiveDaysFormat": "{count} ditë të përdorimit",
   "restDaysFormat": "{count} ditë pa medikamente",
   "limitedTimeDiscount": "Tani tani me çmimin e kufizuar mund të përdoret për një kohë të gjatë",

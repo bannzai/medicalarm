@@ -71,7 +71,7 @@
   "enableNotificationInSilentMode": "Au im Stummmodus benachrichtige",
   "silentModeNotificationDescription": "Au wenn de Fokusmodus iigschaltet isch oder s’Grät stummgschaltet isch, werde kritische Mitteilige uf em Sperrbildschirm azeigt und en Ton abgspielt.",
   "everyXDaysFormat": "Alle {count} Täg",
-  "cycleDaysFormat": "{consecutiveDays} Tag e nehme/{restDays} Tag Pause",
+  "cycleDaysFormat": "{consecutiveDays} Täg iineh / {restDays} Täg Pause",
   "consecutiveDaysFormat": "{count} Tag e nimmi",
   "restDaysFormat": "{count} Tag ohne Medikation",
   "limitedTimeDiscount": "Jetzt gibt es einen begrenzten Preis, den Sie dauerhaft nutzen können.",

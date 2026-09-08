@@ -71,7 +71,7 @@
   "enableNotificationInSilentMode": "Magpadala rin ng mga abiso sa silent mode",
   "silentModeNotificationDescription": "Kahit naka-on ang Focus mode o naka-silent ang device, lalabas ang mga kritikal na alerto sa Lock Screen at magpe-play ang tunog.",
   "everyXDaysFormat": "Bawat {count} araw",
-  "cycleDaysFormat": "{consecutiveDays} araw na pag-inom/{restDays} araw na pahinga",
+  "cycleDaysFormat": "Uminom sa loob ng {consecutiveDays} araw / magpahinga nang {restDays} araw",
   "consecutiveDaysFormat": "{count} araw na pag-inom",
   "restDaysFormat": "{count} araw na walang pag-inom",
   "limitedTimeDiscount": "Sa kasalukuyan, may limitadong presyo na magagamit nang permanente",

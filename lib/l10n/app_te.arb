@@ -71,7 +71,7 @@
   "enableNotificationInSilentMode": "సైలెంట్ మోడ్‌లో కూడా నోటిఫికేషన్ పంపండి",
   "silentModeNotificationDescription": "ఫోకస్ మోడ్ ఆన్‌లో ఉన్నా లేదా పరికరం సైలెంట్‌లో ఉన్నా, కీలక హెచ్చరికలు లాక్ స్క్రీన్‌పై కనిపిస్తాయి మరియు శబ్దం వినిపిస్తుంది.",
   "everyXDaysFormat": "ప్రతి {count} రోజులకు",
-  "cycleDaysFormat": "{consecutiveDays} రోజులు మందు తాగే/{restDays} రోజులు మందు విరమించు",
+  "cycleDaysFormat": "{consecutiveDays} రోజులు తీసుకోండి / {restDays} రోజులు విరామం",
   "consecutiveDaysFormat": "{count} రోజుల మోతాదు",
   "restDaysFormat": "{count} రోజులు మందు తీసుకోలేదు",
   "limitedTimeDiscount": "ఇప్పుడు ప్రత్యేక ధరతో ఎప్పటికీ ఉపయోగించండి",

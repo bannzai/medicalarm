@@ -71,7 +71,7 @@
   "enableNotificationInSilentMode": "නිහඬ ප්‍රකාරයේදීත් දැනුම්දීම් යවන්න",
   "silentModeNotificationDescription": "නාභිගත ප්‍රකාරය සක්‍රිය කර තිබුණත් හෝ උපාංගය නිහඬ කර තිබුණත්, තීරණාත්මක ඇඟවීම් අගුළු තිරයේ පෙන්වා ශබ්දයක් වාදනය කෙරේ.",
   "everyXDaysFormat": "සෑම දින {count}කට වරක්",
-  "cycleDaysFormat": "{consecutiveDays} දිනයන් திட்டය/{restDays} දින නිශ්ක්‍රිය",
+  "cycleDaysFormat": "දින {consecutiveDays}ක් ලබා ගන්න / දින {restDays}ක් විවේක ගන්න",
   "consecutiveDaysFormat": "{count} දින පරීක්ෂණ",
   "restDaysFormat": "{count} කරුණු නිවාඩු",
   "limitedTimeDiscount": "ඉදිරිපත් දිනයන්හි සීමිත මිලකට සෑම විටම භාවිතා කළ හැක",

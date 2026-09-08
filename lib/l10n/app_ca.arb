@@ -71,7 +71,7 @@
   "enableNotificationInSilentMode": "Notifica també en mode silenciós",
   "silentModeNotificationDescription": "Fins i tot quan el mode de concentració està activat o el dispositiu està en silenci, les notificacions crítiques es mostren a la pantalla bloquejada i reprodueixen un so.",
   "everyXDaysFormat": "Cada {count} dies",
-  "cycleDaysFormat": "{consecutiveDays} dies de presa/{restDays} dies de pausa",
+  "cycleDaysFormat": "Prendre durant {consecutiveDays} dies / descansar {restDays} dies",
   "consecutiveDaysFormat": "{count} dies de presa",
   "restDaysFormat": "{count} dies sense medicació",
   "limitedTimeDiscount": "Ara, ara, ara, un preu exclusiu al qual podràs accedir per sempre.",

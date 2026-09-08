@@ -71,7 +71,7 @@
   "enableNotificationInSilentMode": "Kirim notifikasi dalam mode senyap",
   "silentModeNotificationDescription": "Meskipun mode Fokus aktif atau perangkat dalam mode senyap, peringatan kritis tetap muncul di Layar Terkunci dan memutar suara.",
   "everyXDaysFormat": "Setiap {count} hari",
-  "cycleDaysFormat": "{consecutiveDays} hari pemakaian/{restDays} hari berhenti",
+  "cycleDaysFormat": "Minum selama {consecutiveDays} hari / jeda selama {restDays} hari",
   "consecutiveDaysFormat": "{count} hari minum",
   "restDaysFormat": "{count} hari tidak minum obat",
   "limitedTimeDiscount": "Sekarang tersedia dengan harga terbatas yang dapat digunakan selamanya",

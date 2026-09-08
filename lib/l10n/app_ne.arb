@@ -71,7 +71,7 @@
   "enableNotificationInSilentMode": "साइलेन्ट मोडमा पनि सूचना पठाउनुहोस्",
   "silentModeNotificationDescription": "फोकस मोड अन भएको वा यन्त्र साइलेन्टमा रहेको अवस्थामा पनि, गम्भीर सूचनाहरू लक स्क्रिनमा देखिन्छन् र आवाज बज्छ।",
   "everyXDaysFormat": "हरेक {count} दिनमा",
-  "cycleDaysFormat": "{consecutiveDays} दिनको औषधि/{restDays} दिनको विश्राम",
+  "cycleDaysFormat": "{consecutiveDays} दिन सेवन गर्नुहोस् / {restDays} दिन विश्राम गर्नुहोस्",
   "consecutiveDaysFormat": "{count} दिन सेवन",
   "restDaysFormat": "{count} दिनको औषधि नखाने",
   "limitedTimeDiscount": "अब सीमित मूल्यमा सदाको लागि प्रयोग गर्न सकिन्छ",

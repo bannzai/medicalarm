@@ -71,7 +71,7 @@
   "enableNotificationInSilentMode": "Notificar tamén en modo silencioso",
   "silentModeNotificationDescription": "Mesmo cando o modo Concentración está activado ou o dispositivo está en silencio, as notificacións críticas móstranse na pantalla bloqueada e reproducen un son.",
   "everyXDaysFormat": "Cada {count} días",
-  "cycleDaysFormat": "{consecutiveDays} días de toma/{restDays} días de descanso",
+  "cycleDaysFormat": "Tomar durante {consecutiveDays} días / descansar {restDays} días",
   "consecutiveDaysFormat": "{count} días de toma",
   "restDaysFormat": "{count} días sen medicación",
   "limitedTimeDiscount": "Agora mesmo, aproveita un prezo limitado para utilizalo para sempre.",

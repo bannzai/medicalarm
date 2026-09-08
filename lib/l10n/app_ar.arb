@@ -71,7 +71,7 @@
   "enableNotificationInSilentMode": "إرسال إشعارات حتى في الوضع الصامت",
   "silentModeNotificationDescription": "حتى عند تشغيل وضع التركيز أو كتم صوت الجهاز، تظهر التنبيهات الحرجة على شاشة القفل ويُشغَّل صوت.",
   "everyXDaysFormat": "كل {count} يومًا",
-  "cycleDaysFormat": "{consecutiveDays} أيام تناول الأدوية / {restDays} أيام توقف تناول الأدوية",
+  "cycleDaysFormat": "تناول الدواء لمدة {consecutiveDays} يومًا / أوقفه لمدة {restDays} يومًا",
   "consecutiveDaysFormat": "{count} يوم المتابعة",
   "restDaysFormat": "{count} يوم بدون تناول الدواء",
   "limitedTimeDiscount": "الآن بسعر حصري يمكنك استخدامه مدى الحياة",

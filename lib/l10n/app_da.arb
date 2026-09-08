@@ -71,7 +71,7 @@
   "enableNotificationInSilentMode": "Send også notifikationer i lydløs tilstand",
   "silentModeNotificationDescription": "Selv når Fokus er slået til, eller enheden er på lydløs, vises kritiske notifikationer på låseskærmen, og der afspilles en lyd.",
   "everyXDaysFormat": "Hver {count}. dag",
-  "cycleDaysFormat": "{consecutiveDays} dages medicin/{restDays} dages pause",
+  "cycleDaysFormat": "Tag medicin i {consecutiveDays} dage / pause i {restDays} dage",
   "consecutiveDaysFormat": "{count} dages indtagelse",
   "restDaysFormat": "{count} dages pause forbrug",
   "limitedTimeDiscount": "Nu kan du bruge det til en særlig pris for altid.",

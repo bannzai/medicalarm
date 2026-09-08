@@ -71,7 +71,7 @@
   "enableNotificationInSilentMode": "Senda tilkynningar í hljóðlausri stillingu",
   "silentModeNotificationDescription": "Jafnvel þegar kveikt er á Fókusstillingu eða slökkt á hljóði tækisins birtast mikilvægar tilkynningar á læsiskjánum og hljóð er spilað.",
   "everyXDaysFormat": "Á {count} daga fresti",
-  "cycleDaysFormat": "{consecutiveDays} dagar í notkun/{restDays} daga í hvíld",
+  "cycleDaysFormat": "Taka í {consecutiveDays} daga / gera hlé í {restDays} daga",
   "consecutiveDaysFormat": "{count} dagar tekið",
   "restDaysFormat": "{count} daga frí",
   "limitedTimeDiscount": "Núna geturðu notað það á takmörkuðu verði að eilífu.",

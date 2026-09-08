@@ -71,7 +71,7 @@
   "enableNotificationInSilentMode": "Чимээгүй горимд ч мэдэгдэл илгээх",
   "silentModeNotificationDescription": "Фокус горим АСААЛТТАЙ эсвэл төхөөрөмж дуугүй байсан ч чухал мэдэгдэл түгжээтэй дэлгэц дээр харагдаж, дуу гарна.",
   "everyXDaysFormat": "{count} хоног тутамд",
-  "cycleDaysFormat": "{consecutiveDays} хоног хэрэглэж/{restDays} хоног амар",
+  "cycleDaysFormat": "{consecutiveDays} өдөр уух / {restDays} өдөр завсарлах",
   "consecutiveDaysFormat": "{count} хоног",
   "restDaysFormat": "{count} өдөр эм ууж чадаагүй",
   "limitedTimeDiscount": "Одоо хязгаарлагдмал үнээр насан туршдаа ашиглах боломжтой",

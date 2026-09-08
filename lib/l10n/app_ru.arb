@@ -71,7 +71,7 @@
   "enableNotificationInSilentMode": "Уведомлять даже в беззвучном режиме",
   "silentModeNotificationDescription": "Даже если режим «Фокусирование» включён или устройство находится в беззвучном режиме, критические уведомления отображаются на экране блокировки и воспроизводится звук.",
   "everyXDaysFormat": "Каждые {count} дней",
-  "cycleDaysFormat": "{consecutiveDays} дней приема/{restDays} дней перерыва",
+  "cycleDaysFormat": "Принимать {consecutiveDays} дней / перерыв {restDays} дней",
   "consecutiveDaysFormat": "{count} дней приема",
   "restDaysFormat": "{count} дней без лечения",
   "limitedTimeDiscount": "Теперь это доступно по ограниченной цене на всё время использования",

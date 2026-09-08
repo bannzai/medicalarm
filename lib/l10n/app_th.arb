@@ -71,7 +71,7 @@
   "enableNotificationInSilentMode": "ส่งการแจ้งเตือนแม้อยู่ในโหมดเงียบ",
   "silentModeNotificationDescription": "แม้เปิดโหมดโฟกัสหรือปิดเสียงอุปกรณ์อยู่ การแจ้งเตือนสำคัญจะแสดงบนหน้าจอล็อกและมีเสียงเล่น",
   "everyXDaysFormat": "ทุก {count} วัน",
-  "cycleDaysFormat": "{consecutiveDays} วันที่ใช้ยา/{restDays} วันที่พักยา",
+  "cycleDaysFormat": "รับประทานยา {consecutiveDays} วัน / พักยา {restDays} วัน",
   "consecutiveDaysFormat": "{count} วัน การใช้ยา",
   "restDaysFormat": "{count} วันหยุดยา",
   "limitedTimeDiscount": "ตอนนี้ใช้ราคาโปรโมชันพิเศษได้ตลอดไป",

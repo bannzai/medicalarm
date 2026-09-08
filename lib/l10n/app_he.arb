@@ -71,7 +71,7 @@
   "enableNotificationInSilentMode": "שליחת התראות גם במצב שקט",
   "silentModeNotificationDescription": "גם כאשר מצב ריכוז מופעל או שהמכשיר על שקט, התראות קריטיות מוצגות במסך הנעילה ומושמע צליל.",
   "everyXDaysFormat": "כל {count} ימים",
-  "cycleDaysFormat": "{consecutiveDays} ימי נטילה/{restDays} ימי הפסקה",
+  "cycleDaysFormat": "ליטול במשך {consecutiveDays} ימים / להפסיק למשך {restDays} ימים",
   "consecutiveDaysFormat": "{count} ימי נטילה",
   "restDaysFormat": "{count} ימי הפסקת תרופות",
   "limitedTimeDiscount": "עכשיו במחיר מוגבל לשימוש קבוע",
