@@ -96,7 +96,7 @@
   "cancelSubscriptionInstruction": "ဝယ်ယူပြီးနောက် အလိုအလျောက်သက်တမ်းတိုးခြင်းကို {storeName} အက်ပ်၏ အကောင့်ဆက်တင်များမှ ပယ်ဖျက်နိုင်ပါသည်။ (အက်ပ်အတွင်းမှ အလိုအလျောက်သက်တမ်းတိုးခြင်းကို ပယ်ဖျက်၍မရပါ။)",
   "headache": "ခေါင်းကိုက်ခြင်း",
   "stomachache": "ဗိုက်နာခြင်း",
-  "nausea": "Muntah",
+  "nausea": "ပျို့ခြင်း",
   "anemia": "Anemia",
   "diarrhea": "Cirit",
   "constipation": "Sembelit",
