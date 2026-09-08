@@ -45,9 +45,9 @@ class MedicinesPageBody extends HookConsumerWidget {
       ),
       body: FloatingActionButtonLayout(
         scaffoldBody: ListView(
-          // 下余白は FloatingActionButtonLayout が下部に敷く不透明な領域の分。服薬チェック画面と同じ値にして、
-          // 末尾のカード (右下の Switch を含む) をボタン列の上まで送れるようにする (#288)
-          padding: const EdgeInsets.only(top: 16.0, bottom: 100.0),
+          // 下余白は FloatingActionButtonLayout が本文の末尾に重ねるフェード (24) より大きくし、
+          // 末尾までスクロールした時にカード右下の Switch がフェードにかからないようにする (#288)
+          padding: const EdgeInsets.only(top: 16.0, bottom: 40.0),
           children: medicines
               .map((medicine) => Column(
                     children: [
