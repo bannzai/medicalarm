@@ -202,7 +202,7 @@
   "issueInvitationCode": "আমন্ত্রণ কোড জারি করুন",
   "groupSettings": "গ্রুপ সেটিংস",
   "members": "সদস্যরা",
-  "memberFallbackName": "সদস্যরা",
+  "memberFallbackName": "সদস্য",
   "yourDisplayName": "আপনার প্রদর্শন নাম",
   "displayNameInputHint": "প্রদর্শনের নাম লিখুন",
   "ownerLabel": "মালিক",

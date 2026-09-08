@@ -202,7 +202,7 @@
   "issueInvitationCode": "Генериране на код за покана",
   "groupSettings": "Настройки на групата",
   "members": "Членове",
-  "memberFallbackName": "Членове",
+  "memberFallbackName": "Член",
   "yourDisplayName": "Вашето показвано име",
   "displayNameInputHint": "Въведете име за показване",
   "ownerLabel": "Собственик",

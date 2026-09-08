@@ -202,7 +202,7 @@
   "issueInvitationCode": "Genera el codi d’invitació",
   "groupSettings": "Configuració del grup",
   "members": "Membres",
-  "memberFallbackName": "Membres",
+  "memberFallbackName": "Membre",
   "yourDisplayName": "El vostre nom visible",
   "displayNameInputHint": "Introdueix el nom visible",
   "ownerLabel": "Propietari",
