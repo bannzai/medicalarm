@@ -142,7 +142,7 @@
   "autoRenewalNotice": "സബ്‌സ്‌ക്രിപ്ഷൻ കാലയളവ് അവസാനിച്ചതിന് ശേഷം ഇത് സ്വയമേവ പുതുക്കും.",
   "restorePurchase": "മുമ്പ് വാങ്ങിയവർക്ക്",
   "purchaseRestored": "വാങ്ങൽ വിവരങ്ങൾ പുനഃസ്ഥാപിച്ചു",
-  "medicationTimeFollowup": "മരുന്ന് കഴിക്കുന്ന സമയത്തിന്റെ തുടർ ഓർമ്മപ്പെടുത്തൽ",
+  "medicationTimeFollowup": "മരുന്ന് കഴിക്കേണ്ട സമയത്തിന്റെ ഫോളോ-അപ്പ്",
   "updateRequired": "അപ്‌ഡേറ്റ് ആവശ്യമാണ്",
   "updateRequiredMessage": "ദയവായി {storeName}-ൽ നിന്ന് ഏറ്റവും പുതിയ പതിപ്പിലേക്ക് അപ്‌ഡേറ്റ് ചെയ്യുക",
   "screenshotMedicationHistoriesMemo": "ഉച്ചയ്ക്ക് കൂടുതൽ നേരം ഉറങ്ങിയതിനാൽ മരുന്ന് കഴിക്കാൻ വൈകി.",

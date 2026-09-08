@@ -142,7 +142,7 @@
   "autoRenewalNotice": "След изтичане на периода на абонамента той ще се поднови автоматично.",
   "restorePurchase": "За тези, които са закупили преди",
   "purchaseRestored": "Информацията за покупката е възстановена",
-  "medicationTimeFollowup": "Проследяване на времето за прием на лекарството",
+  "medicationTimeFollowup": "Проследяване на приема на лекарството",
   "updateRequired": "Необходимо е обновяване",
   "updateRequiredMessage": "Моля, актуализирайте до най-новата версия от {storeName}",
   "screenshotMedicationHistoriesMemo": "Взех лекарството си по-късно, защото спах прекалено дълго следобед.",

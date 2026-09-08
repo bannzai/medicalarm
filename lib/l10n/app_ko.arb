@@ -142,7 +142,7 @@
   "autoRenewalNotice": "구독 기간이 끝나면 자동으로 갱신됩니다.",
   "restorePurchase": "이전에 구매하신 분",
   "purchaseRestored": "구매 정보가 복원되었습니다",
-  "medicationTimeFollowup": "약 복용 시간 후속 알림",
+  "medicationTimeFollowup": "복약 시간 후속 알림",
   "updateRequired": "업데이트가 필요합니다",
   "updateRequiredMessage": "{storeName}에서 최신 버전으로 업데이트해 주세요",
   "screenshotMedicationHistoriesMemo": "낮잠을 너무 오래 자서 약을 늦게 먹었습니다.",

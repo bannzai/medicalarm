@@ -142,7 +142,7 @@
   "autoRenewalNotice": "Na afloop van de abonnementsperiode wordt het abonnement automatisch verlengd.",
   "restorePurchase": "Voor wie eerder heeft gekocht",
   "purchaseRestored": "Aankoopgegevens zijn hersteld",
-  "medicationTimeFollowup": "Opvolging van het medicatiemoment",
+  "medicationTimeFollowup": "Opvolging van het tijdstip van medicatie-inname",
   "updateRequired": "Update vereist",
   "updateRequiredMessage": "Werk bij naar de nieuwste versie via {storeName}",
   "screenshotMedicationHistoriesMemo": "Ik heb mijn medicijn later ingenomen omdat ik te lang had geslapen.",

@@ -142,7 +142,7 @@
   "autoRenewalNotice": "Po skončení období předplatného se předplatné automaticky obnoví.",
   "restorePurchase": "Pro ty, kteří již dříve zakoupili",
   "purchaseRestored": "Informace o nákupu byly obnoveny",
-  "medicationTimeFollowup": "Sledování času užití léku",
+  "medicationTimeFollowup": "Následné upozornění na užití léku",
   "updateRequired": "Je vyžadována aktualizace",
   "updateRequiredMessage": "Aktualizujte prosím na nejnovější verzi z {storeName}",
   "screenshotMedicationHistoriesMemo": "Lék jsem si vzal(a) později, protože jsem odpoledne příliš dlouho spal(a).",

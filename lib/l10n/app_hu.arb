@@ -142,7 +142,7 @@
   "autoRenewalNotice": "Az előfizetési időszak lejárta után az előfizetés automatikusan megújul.",
   "restorePurchase": "A korábban vásárlóknak",
   "purchaseRestored": "A vásárlási információk visszaállítva",
-  "medicationTimeFollowup": "Gyógyszerbevétel időpontjának nyomon követése",
+  "medicationTimeFollowup": "Gyógyszerbevétel nyomon követése",
   "updateRequired": "Frissítés szükséges",
   "updateRequiredMessage": "Kérjük, frissítsen a {storeName} legújabb verziójára",
   "screenshotMedicationHistoriesMemo": "Később vettem be a gyógyszeremet, mert túl sokáig aludtam délután.",

@@ -142,7 +142,7 @@
   "autoRenewalNotice": "Բաժանորդագրության ժամկետի ավարտից հետո այն ինքնաբերաբար կերկարաձգվի։",
   "restorePurchase": "Նախկինում գնածների համար",
   "purchaseRestored": "Գնման տեղեկությունները վերականգնվել են",
-  "medicationTimeFollowup": "Դեղորայք ընդունելու ժամի հետևում",
+  "medicationTimeFollowup": "Դեղամիջոցն ընդունելու ժամանակի հետևում",
   "updateRequired": "Թարմացում է պահանջվում",
   "updateRequiredMessage": "Խնդրում ենք թարմացնել {storeName}-ից հասանելի վերջին տարբերակին",
   "screenshotMedicationHistoriesMemo": "Դեղս ուշ ընդունեցի, քանի որ կեսօրին չափազանց երկար էի քնել։",

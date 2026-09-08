@@ -142,7 +142,7 @@
   "autoRenewalNotice": "সাবস্ক্রিপশনের মেয়াদ শেষ হলে এটি স্বয়ংক্রিয়ভাবে নবায়ন হবে।",
   "restorePurchase": "যারা আগে কিনেছেন তাদের জন্য",
   "purchaseRestored": "ক্রয়ের তথ্য পুনরুদ্ধার করা হয়েছে",
-  "medicationTimeFollowup": "ওষুধ খাওয়ার সময়ের অনুস্মারক",
+  "medicationTimeFollowup": "ওষুধ খাওয়ার সময়ের ফলো-আপ",
   "updateRequired": "আপডেট প্রয়োজন",
   "updateRequiredMessage": "অনুগ্রহ করে {storeName} থেকে সর্বশেষ সংস্করণে আপডেট করুন",
   "screenshotMedicationHistoriesMemo": "বেশি সময় দুপুরে ঘুমিয়ে পড়ায় ওষুধ খেতে দেরি হয়েছে।",

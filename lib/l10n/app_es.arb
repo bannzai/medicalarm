@@ -142,7 +142,7 @@
   "autoRenewalNotice": "Se renovará automáticamente después de que finalice el periodo de suscripción.",
   "restorePurchase": "Para quienes compraron anteriormente",
   "purchaseRestored": "Se ha restaurado la información de compra",
-  "medicationTimeFollowup": "Seguimiento de la hora de tomar el medicamento",
+  "medicationTimeFollowup": "Seguimiento de la hora de tomar la medicación",
   "updateRequired": "Se requiere una actualización",
   "updateRequiredMessage": "Actualiza a la última versión desde {storeName}",
   "screenshotMedicationHistoriesMemo": "Tomé mi medicamento tarde porque dormí demasiado la siesta.",

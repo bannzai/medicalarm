@@ -142,7 +142,7 @@
   "autoRenewalNotice": "Захиалгын хугацаа дууссаны дараа автоматаар сунгагдана.",
   "restorePurchase": "Өмнө нь худалдан авсан хүмүүст",
   "purchaseRestored": "Худалдан авалтын мэдээллийг сэргээсэн",
-  "medicationTimeFollowup": "Эм уух цагийн хяналт",
+  "medicationTimeFollowup": "Эм уух цагийн дагах сануулга",
   "updateRequired": "Шинэчлэх шаардлагатай",
   "updateRequiredMessage": "{storeName}-оос хамгийн сүүлийн хувилбар руу шинэчилнэ үү",
   "screenshotMedicationHistoriesMemo": "Өдрийн цагаар хэт удаан унтсан тул эмээ оройтож уусан.",

@@ -142,7 +142,7 @@
   "autoRenewalNotice": "Müqavilə müddəti başa çatdıqdan sonra avtomatik yenilənəcək.",
   "restorePurchase": "Əvvəllər satın alanlar üçün",
   "purchaseRestored": "Satınalma məlumatları bərpa edildi",
-  "medicationTimeFollowup": "Dərman qəbul vaxtının izlənməsi",
+  "medicationTimeFollowup": "Dərman qəbulunun təqibi",
   "updateRequired": "Yeniləmə tələb olunur",
   "updateRequiredMessage": "Lütfən, {storeName}-dan ən son versiyaya yeniləyin",
   "screenshotMedicationHistoriesMemo": "Günorta çox yatdığım üçün dərmanımı gec qəbul etdim.",

@@ -142,7 +142,7 @@
   "autoRenewalNotice": "När prenumerationsperioden löper ut förnyas den automatiskt.",
   "restorePurchase": "För dig som har köpt tidigare",
   "purchaseRestored": "Köpinformationen har återställts",
-  "medicationTimeFollowup": "Uppföljning av medicineringstid",
+  "medicationTimeFollowup": "Uppföljning av medicintid",
   "updateRequired": "Uppdatering krävs",
   "updateRequiredMessage": "Uppdatera till den senaste versionen från {storeName}",
   "screenshotMedicationHistoriesMemo": "Jag tog min medicin senare eftersom jag sov för länge på eftermiddagen.",
