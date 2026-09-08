@@ -72,7 +72,7 @@
   "silentModeNotificationDescription": "Фокус горим АСААЛТТАЙ эсвэл төхөөрөмж дуугүй байсан ч чухал мэдэгдэл түгжээтэй дэлгэц дээр харагдаж, дуу гарна.",
   "everyXDaysFormat": "{count} өдөр тутам",
   "cycleDaysFormat": "{consecutiveDays} өдөр хэрэглэх / {restDays} өдөр завсарлах",
-  "consecutiveDaysFormat": "{count} өдөр эм уух",
+  "consecutiveDaysFormat": "{count} өдөр уух",
   "restDaysFormat": "{count} өдөр эм уухгүй",
   "limitedTimeDiscount": "Одоо тусгай үнээр насан туршдаа ашиглаарай",
   "monthlyPlan": "Сарын төлөвлөгөө",

@@ -72,7 +72,7 @@
   "silentModeNotificationDescription": "Нават калі рэжым засяроджання ўключаны або прылада ў бязгучным рэжыме, важныя апавяшчэнні паказваюцца на экране блакіроўкі і прайграваецца гук.",
   "everyXDaysFormat": "Кожныя {count} дзён",
   "cycleDaysFormat": "Прымаць {consecutiveDays} дні / перапынак {restDays} дні",
-  "consecutiveDaysFormat": "Прыём лекаў {count} дзён",
+  "consecutiveDaysFormat": "Прымаць {count} дзён",
   "restDaysFormat": "Перапынак у прыёме лекаў: {count} дзён",
   "limitedTimeDiscount": "Карыстайцеся назаўжды па спецыяльнай цане",
   "monthlyPlan": "Штомесячны план",

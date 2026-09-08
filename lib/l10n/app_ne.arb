@@ -72,7 +72,7 @@
   "silentModeNotificationDescription": "फोकस मोड अन गरिएको वा यन्त्र म्यूट गरिएको अवस्थामा पनि, महत्वपूर्ण अलर्टहरू लक स्क्रिनमा देखिन्छन् र आवाज बज्छ।",
   "everyXDaysFormat": "हरेक {count} दिनमा",
   "cycleDaysFormat": "{consecutiveDays} दिन सेवन / {restDays} दिन विश्राम",
-  "consecutiveDaysFormat": "{count} दिन औषध सेवन",
+  "consecutiveDaysFormat": "{count} दिन सेवन",
   "restDaysFormat": "{count} दिन औषधि बन्द",
   "limitedTimeDiscount": "अहिले विशेष मूल्यमा सधैँ प्रयोग गर्नुहोस्",
   "monthlyPlan": "मासिक योजना",

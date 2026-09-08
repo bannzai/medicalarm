@@ -72,7 +72,7 @@
   "silentModeNotificationDescription": "Aunque el modo Concentración esté activado o el dispositivo esté en silencio, las notificaciones críticas aparecen en la pantalla bloqueada y reproducen un sonido.",
   "everyXDaysFormat": "Cada {count} días",
   "cycleDaysFormat": "Tomar durante {consecutiveDays} días / descansar {restDays} días",
-  "consecutiveDaysFormat": "Tomar medicación durante {count} días",
+  "consecutiveDaysFormat": "Tomar durante {count} días",
   "restDaysFormat": "{count} días sin medicación",
   "limitedTimeDiscount": "Úsalo para siempre a un precio especial",
   "monthlyPlan": "Plan mensual",

@@ -72,7 +72,7 @@
   "silentModeNotificationDescription": "Focus මාදිලිය ON කර තිබුණත් හෝ උපාංගය නිහඬ කර තිබුණත්, වැදගත් ඇඟවීම් අගුළු තිරයේ පෙන්වා ශබ්දයක් වාදනය කෙරේ.",
   "everyXDaysFormat": "සෑම දින {count}කට වරක්",
   "cycleDaysFormat": "දින {consecutiveDays}ක් ඖෂධ ගැනීම / දින {restDays}ක විවේකය",
-  "consecutiveDaysFormat": "දින {count}ක් ඖෂධ ගැනීම",
+  "consecutiveDaysFormat": "දින {count}ක් භාවිත කරන්න",
   "restDaysFormat": "{count} දින ඖෂධ විරාමය",
   "limitedTimeDiscount": "දැන් විශේෂ මිලකට සදාකාලිකව භාවිත කරන්න",
   "monthlyPlan": "මාසික සැලසුම",

@@ -72,7 +72,7 @@
   "silentModeNotificationDescription": "ఫోకస్ మోడ్ ఆన్‌లో ఉన్నా లేదా పరికరం మ్యూట్‌లో ఉన్నా, ముఖ్యమైన హెచ్చరికలు లాక్ స్క్రీన్‌పై కనిపిస్తాయి మరియు శబ్దం ప్లే అవుతుంది.",
   "everyXDaysFormat": "ప్రతి {count} రోజులకు",
   "cycleDaysFormat": "{consecutiveDays} రోజులు మందు తీసుకోవాలి / {restDays} రోజులు విరామం",
-  "consecutiveDaysFormat": "{count} రోజుల పాటు మందులు తీసుకోవడం",
+  "consecutiveDaysFormat": "{count} రోజుల పాటు తీసుకోండి",
   "restDaysFormat": "{count} రోజులు మందుల విరామం",
   "limitedTimeDiscount": "ఇప్పుడే ప్రత్యేక ధరతో ఎప్పటికీ ఉపయోగించండి",
   "monthlyPlan": "నెలవారీ ప్లాన్",

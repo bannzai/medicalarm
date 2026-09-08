@@ -72,7 +72,7 @@
   "silentModeNotificationDescription": "ເຖິງແມ່ນໂໝດໂຟກັສເປີດຢູ່ ຫຼືອຸປະກອນຢູ່ໃນໂໝດປິດສຽງ, ການແຈ້ງເຕືອນສຳຄັນຈະສະແດງໃນໜ້າຈໍລັອກ ແລະມີສຽງ.",
   "everyXDaysFormat": "ທຸກໆ {count} ມື້",
   "cycleDaysFormat": "ໃຊ້ຢາ {consecutiveDays} ມື້ / ພັກຢາ {restDays} ມື້",
-  "consecutiveDaysFormat": "ໃຊ້ຢາເປັນເວລາ {count} ມື້",
+  "consecutiveDaysFormat": "ໃຊ້ເປັນເວລາ {count} ມື້",
   "restDaysFormat": "ຢຸດໃຊ້ຢາ {count} ມື້",
   "limitedTimeDiscount": "ໃຊ້ໄດ້ຕະຫຼອດໄປໃນລາຄາພິເສດຕອນນີ້",
   "monthlyPlan": "ແຜນລາຍເດືອນ",

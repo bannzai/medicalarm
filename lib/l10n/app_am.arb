@@ -72,7 +72,7 @@
   "silentModeNotificationDescription": "የትኩረት ሁነታ በርቶ ወይም መሣሪያው ድምፅ አልባ ሆኖ ቢሆንም፣ አስፈላጊ ማሳወቂያዎች በመቆለፊያ ማያ ገጽ ላይ ይታያሉ እና ድምፅ ይጫወታል።",
   "everyXDaysFormat": "ყოველ {count} დღეში",
   "cycleDaysFormat": "መድሃኒት ለ{consecutiveDays} ቀናት መውሰድ / ለ{restDays} ቀናት እረፍት",
-  "consecutiveDaysFormat": "{count} ቀን መድኃኒት መውሰድ",
+  "consecutiveDaysFormat": "ዕፅ ለ{count} ቀናት ይውሰዱ",
   "restDaysFormat": "{count} օր դադար դեղորայքից",
   "limitedTimeDiscount": "አሁን በልዩ ዋጋ ለዘላለም ይጠቀሙበት",
   "monthlyPlan": "Ամսական ծրագիր",

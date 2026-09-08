@@ -72,7 +72,7 @@
   "silentModeNotificationDescription": "Even when Focus mode is ON or the device is muted, critical alerts appear on the Lock Screen and play a sound.",
   "everyXDaysFormat": "Every {count} days",
   "cycleDaysFormat": "Take for {consecutiveDays} days / pause for {restDays} days",
-  "consecutiveDaysFormat": "Medication for {count} days",
+  "consecutiveDaysFormat": "Take for {count} days",
   "restDaysFormat": "{count} days off medication",
   "limitedTimeDiscount": "Use it forever at a special price now",
   "monthlyPlan": "Monthly Plan",

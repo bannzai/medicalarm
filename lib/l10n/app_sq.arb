@@ -72,7 +72,7 @@
   "silentModeNotificationDescription": "Edhe kur modaliteti Fokus është AKTIV ose pajisja është në heshtje, sinjalizimet kritike shfaqen në ekranin e kyçur dhe luhet një tingull.",
   "everyXDaysFormat": "Çdo {count} ditë",
   "cycleDaysFormat": "Merrni për {consecutiveDays} ditë / pushim për {restDays} ditë",
-  "consecutiveDaysFormat": "Marrja e ilaçeve për {count} ditë",
+  "consecutiveDaysFormat": "Merreni për {count} ditë",
   "restDaysFormat": "{count} ditë pa ilaçe",
   "limitedTimeDiscount": "Përdoreni përgjithmonë me një çmim special",
   "monthlyPlan": "Plan mujor",

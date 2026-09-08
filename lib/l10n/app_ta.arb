@@ -72,7 +72,7 @@
   "silentModeNotificationDescription": "ஃபோகஸ் பயன்முறை இயக்கத்தில் இருந்தாலும் அல்லது சாதனம் அமைதியாக இருந்தாலும், முக்கியமான எச்சரிக்கைகள் பூட்டுத் திரையில் காட்டப்பட்டு ஒலி இயக்கப்படும்.",
   "everyXDaysFormat": "ஒவ்வொரு {count} நாட்களுக்கு ஒருமுறை",
   "cycleDaysFormat": "{consecutiveDays} நாட்கள் எடுத்துக்கொள்ளவும் / {restDays} நாட்கள் இடைவெளி",
-  "consecutiveDaysFormat": "{count} நாட்கள் மருந்து உட்கொள்ளுதல்",
+  "consecutiveDaysFormat": "{count} நாட்கள் உட்கொள்ளவும்",
   "restDaysFormat": "{count} நாட்கள் மருந்து இடைநிறுத்தம்",
   "limitedTimeDiscount": "இப்போதே சிறப்பு விலையில் எப்போதும் பயன்படுத்துங்கள்",
   "monthlyPlan": "மாதாந்திரத் திட்டம்",

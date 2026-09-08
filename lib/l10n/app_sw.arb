@@ -72,7 +72,7 @@
   "silentModeNotificationDescription": "Hata Modi ya Kuzingatia ikiwa IMEWASHWA au kifaa kikiwa kimenyamazishwa, arifa muhimu huonekana kwenye Skrini ya Kufunga na sauti huchezwa.",
   "everyXDaysFormat": "Kila baada ya siku {count}",
   "cycleDaysFormat": "Tumia kwa siku {consecutiveDays} / pumzika kwa siku {restDays}",
-  "consecutiveDaysFormat": "Kutumia dawa kwa siku {count}",
+  "consecutiveDaysFormat": "Tumia kwa siku {count}",
   "restDaysFormat": "Siku {count} bila kutumia dawa",
   "limitedTimeDiscount": "Tumia milele kwa bei maalum sasa",
   "monthlyPlan": "Mpango wa kila mwezi",

@@ -72,7 +72,7 @@
   "silentModeNotificationDescription": "Nawet gdy tryb skupienia jest włączony lub urządzenie jest wyciszone, krytyczne alerty są wyświetlane na ekranie blokady i odtwarzany jest dźwięk.",
   "everyXDaysFormat": "Co {count} dni",
   "cycleDaysFormat": "Przyjmowanie przez {consecutiveDays} dni / {restDays} dni przerwy",
-  "consecutiveDaysFormat": "Przyjmowanie leków przez {count} dni",
+  "consecutiveDaysFormat": "Przyjmować przez {count} dni",
   "restDaysFormat": "{count} dni przerwy w przyjmowaniu leku",
   "limitedTimeDiscount": "Korzystaj z niego bezterminowo w specjalnej cenie",
   "monthlyPlan": "Plan miesięczny",

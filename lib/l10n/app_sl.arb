@@ -72,7 +72,7 @@
   "silentModeNotificationDescription": "Tudi ko je vklopljen način osredotočenosti ali je naprava utišana, se kritična opozorila prikažejo na zaklenjenem zaslonu in predvaja se zvok.",
   "everyXDaysFormat": "Vsakih {count} dni",
   "cycleDaysFormat": "Jemanje {consecutiveDays} dni / {restDays} dni premora",
-  "consecutiveDaysFormat": "Jemanje zdravil {count} dni",
+  "consecutiveDaysFormat": "Jemati {count} dni",
   "restDaysFormat": "{count} dni premora pri jemanju zdravila",
   "limitedTimeDiscount": "Uporabljajte ga za vedno po posebni ceni",
   "monthlyPlan": "Mesečni paket",

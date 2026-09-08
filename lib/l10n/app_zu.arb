@@ -72,7 +72,7 @@
   "silentModeNotificationDescription": "Ngisho noma i-Focus mode IVULIWE noma idivayisi ithulisiwe, izexwayiso ezibalulekile ziyavela Esikrinini Sokukhiya futhi kudlalwe umsindo.",
   "everyXDaysFormat": "Njalo ezinsukwini ezi-{count}",
   "cycleDaysFormat": "Phuza izinsuku ezi-{consecutiveDays} / phumula izinsuku ezi-{restDays}",
-  "consecutiveDaysFormat": "Ukuphuza umuthi izinsuku ezi-{count}",
+  "consecutiveDaysFormat": "Phuza izinsuku ezingu-{count}",
   "restDaysFormat": "Izinsuku ezingu-{count} zokungaphuzi umuthi",
   "limitedTimeDiscount": "Yisebenzise unomphela ngentengo ekhethekile uma ubhalisa manje",
   "monthlyPlan": "Uhlelo lwanyanga zonke",

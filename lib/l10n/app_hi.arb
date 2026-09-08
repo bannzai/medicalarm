@@ -72,7 +72,7 @@
   "silentModeNotificationDescription": "फ़ोकस मोड चालू होने या डिवाइस के साइलेंट होने पर भी, महत्वपूर्ण अलर्ट लॉक स्क्रीन पर दिखाई देते हैं और ध्वनि बजती है।",
   "everyXDaysFormat": "हर {count} दिन",
   "cycleDaysFormat": "{consecutiveDays} दिनों तक दवा लें / {restDays} दिनों का विराम",
-  "consecutiveDaysFormat": "{count} दिनों तक दवा लेना",
+  "consecutiveDaysFormat": "{count} दिनों तक लें",
   "restDaysFormat": "{count} दिन दवा बंद",
   "limitedTimeDiscount": "अभी विशेष कीमत पर हमेशा इस्तेमाल करें",
   "monthlyPlan": "मासिक प्लान",

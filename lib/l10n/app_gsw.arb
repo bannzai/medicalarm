@@ -72,7 +72,7 @@
   "silentModeNotificationDescription": "Au wenn de Fokusmodus aktiviert isch oder s’Grät stumm gschaltet isch, werde kritische Benachrichtigunge uf em Sperrbildschirm azeigt und en Ton abgspielt.",
   "everyXDaysFormat": "Alli {count} Täg",
   "cycleDaysFormat": "{consecutiveDays} Täg iineh / {restDays} Täg Pause",
-  "consecutiveDaysFormat": "Medikament i {count} Täg",
+  "consecutiveDaysFormat": "Für {count} Täg iineh",
   "restDaysFormat": "{count} Täg Medikamentepause",
   "limitedTimeDiscount": "Jetzt zum Spezialpriis für immer nutze",
   "monthlyPlan": "Monatlichi Option",

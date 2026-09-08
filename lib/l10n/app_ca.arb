@@ -72,7 +72,7 @@
   "silentModeNotificationDescription": "Encara que el mode de concentració estigui activat o el dispositiu estigui en silenci, les notificacions crítiques es mostren a la pantalla bloquejada i es reprodueix un so.",
   "everyXDaysFormat": "Cada {count} dies",
   "cycleDaysFormat": "Prendre durant {consecutiveDays} dies / descansar {restDays} dies",
-  "consecutiveDaysFormat": "Prendre la medicació durant {count} dies",
+  "consecutiveDaysFormat": "Prendre durant {count} dies",
   "restDaysFormat": "{count} dies sense prendre el medicament",
   "limitedTimeDiscount": "Fes-lo servir per sempre a un preu especial",
   "monthlyPlan": "Pla mensual",

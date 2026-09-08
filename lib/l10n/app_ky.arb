@@ -72,7 +72,7 @@
   "silentModeNotificationDescription": "Фокус режими КҮЙҮК же түзмөк үнсүз режимде болсо да, маанилүү эскертмелер кулпуланган экранда көрсөтүлүп, үн чыгарылат.",
   "everyXDaysFormat": "Ар {count} күндө",
   "cycleDaysFormat": "{consecutiveDays} күн ичүү / {restDays} күн тыныгуу",
-  "consecutiveDaysFormat": "Дарыны {count} күн ичүү",
+  "consecutiveDaysFormat": "{count} күн ичүү",
   "restDaysFormat": "{count} күн дары ичпөө",
   "limitedTimeDiscount": "Азыр атайын баада түбөлүккө колдонуңуз",
   "monthlyPlan": "Айлык план",

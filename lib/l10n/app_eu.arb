@@ -72,7 +72,7 @@
   "silentModeNotificationDescription": "Fokatze-modua AKTIBATUTA dagoenean edo gailua isilik dagoenean ere, alerta kritikoak blokeo-pantailan bistaratzen dira eta soinua erreproduzitzen da.",
   "everyXDaysFormat": "{count} egunetik behin",
   "cycleDaysFormat": "{consecutiveDays} egunez hartu / {restDays} eguneko atsedenaldia",
-  "consecutiveDaysFormat": "Botikak {count} egunez hartzea",
+  "consecutiveDaysFormat": "{count} egunez hartu",
   "restDaysFormat": "{count} egun botikarik gabe",
   "limitedTimeDiscount": "Erabili betiko orain, prezio berezian",
   "monthlyPlan": "Hileko plana",

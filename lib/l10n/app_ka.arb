@@ -72,7 +72,7 @@
   "silentModeNotificationDescription": "ფოკუსის რეჟიმის ჩართვისას ან მოწყობილობის დადუმებისასაც კი, კრიტიკული შეტყობინებები ჩაკეტილ ეკრანზე გამოჩნდება და ხმა ჩაირთვება.",
   "everyXDaysFormat": "ყოველ {count} დღეში",
   "cycleDaysFormat": "მიღება {consecutiveDays} დღის განმავლობაში / {restDays} დღიანი შესვენება",
-  "consecutiveDaysFormat": "მედიკამენტის მიღება {count} დღის განმავლობაში",
+  "consecutiveDaysFormat": "მიიღეთ {count} დღის განმავლობაში",
   "restDaysFormat": "მედიკამენტის შეწყვეტა {count} დღით",
   "limitedTimeDiscount": "ისარგებლეთ სამუდამოდ სპეციალურ ფასად",
   "monthlyPlan": "ყოველთვიური გეგმა",

@@ -72,7 +72,7 @@
   "silentModeNotificationDescription": "Ook wanneer de focusmodus is ingeschakeld of het apparaat op stil staat, worden kritieke meldingen op het toegangsscherm weergegeven en wordt er een geluid afgespeeld.",
   "everyXDaysFormat": "Elke {count} dagen",
   "cycleDaysFormat": "{consecutiveDays} dagen innemen / {restDays} dagen pauze",
-  "consecutiveDaysFormat": "Medicatie gedurende {count} dagen",
+  "consecutiveDaysFormat": "{count} dagen innemen",
   "restDaysFormat": "{count} dagen medicatiepauze",
   "limitedTimeDiscount": "Gebruik het nu voor altijd tegen een speciale prijs",
   "monthlyPlan": "Maandabonnement",

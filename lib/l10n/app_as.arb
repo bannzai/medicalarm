@@ -72,7 +72,7 @@
   "silentModeNotificationDescription": "ফ’কাছ মোড ON বা ডিভাইচ নীৰৱ অৱস্থাত থাকিলেও, গুৰুত্বপূৰ্ণ জাননী লক স্ক্ৰীণত প্ৰদৰ্শিত হয় আৰু শব্দ বজোৱা হয়।",
   "everyXDaysFormat": "প্ৰতি {count} দিনৰ মূৰে মূৰে",
   "cycleDaysFormat": "{consecutiveDays} দিন ঔষধ সেৱন / {restDays} দিন বিৰতি",
-  "consecutiveDaysFormat": "{count} দিন ঔষধ সেবন",
+  "consecutiveDaysFormat": "{count} দিন সেৱন",
   "restDaysFormat": "{count} দিন ঔষধ বন্ধ",
   "limitedTimeDiscount": "এতিয়া বিশেষ মূল্যত চিৰদিনৰ বাবে ব্যৱহাৰ কৰক",
   "monthlyPlan": "মাহেকীয়া পৰিকল্পনা",

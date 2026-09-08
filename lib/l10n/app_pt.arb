@@ -72,7 +72,7 @@
   "silentModeNotificationDescription": "Mesmo quando o modo Foco está ativado ou o dispositivo está silenciado, os alertas críticos aparecem no ecrã bloqueado e reproduzem um som.",
   "everyXDaysFormat": "A cada {count} dias",
   "cycleDaysFormat": "Tomar durante {consecutiveDays} dias / pausa de {restDays} dias",
-  "consecutiveDaysFormat": "Tomar medicação durante {count} dias",
+  "consecutiveDaysFormat": "Tomar durante {count} dias",
   "restDaysFormat": "{count} dias de pausa na medicação",
   "limitedTimeDiscount": "Use para sempre a um preço especial",
   "monthlyPlan": "Plano mensal",

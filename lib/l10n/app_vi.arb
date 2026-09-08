@@ -72,7 +72,7 @@
   "silentModeNotificationDescription": "Ngay cả khi Chế độ tập trung đang BẬT hoặc thiết bị ở chế độ im lặng, các cảnh báo quan trọng vẫn hiển thị trên Màn hình khóa và phát âm thanh.",
   "everyXDaysFormat": "Mỗi {count} ngày",
   "cycleDaysFormat": "Uống trong {consecutiveDays} ngày / nghỉ {restDays} ngày",
-  "consecutiveDaysFormat": "Uống thuốc trong {count} ngày",
+  "consecutiveDaysFormat": "Uống trong {count} ngày",
   "restDaysFormat": "Nghỉ dùng thuốc {count} ngày",
   "limitedTimeDiscount": "Dùng mãi mãi với mức giá đặc biệt ngay hôm nay",
   "monthlyPlan": "Gói hàng tháng",

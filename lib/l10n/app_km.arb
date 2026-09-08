@@ -72,7 +72,7 @@
   "silentModeNotificationDescription": "ទោះបីជាមុខងារ Focus បើក ឬឧបករណ៍បិទសំឡេងក៏ដោយ ក៏ការជូនដំណឹងសំខាន់ៗនៅតែបង្ហាញលើអេក្រង់ចាក់សោ ហើយមានសំឡេងចាក់។",
   "everyXDaysFormat": "រៀងរាល់ {count} ថ្ងៃ",
   "cycleDaysFormat": "ប្រើថ្នាំរយៈពេល {consecutiveDays} ថ្ងៃ / សម្រាករយៈពេល {restDays} ថ្ងៃ",
-  "consecutiveDaysFormat": "ប្រើថ្នាំរយៈពេល {count} ថ្ងៃ",
+  "consecutiveDaysFormat": "ប្រើរយៈពេល {count} ថ្ងៃ",
   "restDaysFormat": "ឈប់ប្រើថ្នាំរយៈពេល {count} ថ្ងៃ",
   "limitedTimeDiscount": "ប្រើប្រាស់បានជារៀងរហូតក្នុងតម្លៃពិសេសឥឡូវនេះ",
   "monthlyPlan": "គម្រោងប្រចាំខែ",

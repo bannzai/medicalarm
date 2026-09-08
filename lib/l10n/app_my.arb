@@ -72,7 +72,7 @@
   "silentModeNotificationDescription": "အာရုံစိုက်မုဒ် ဖွင့်ထားချိန် သို့မဟုတ် စက်ကို အသံတိတ်ထားချိန်တွင်ပင် အရေးကြီးသတိပေးချက်များကို လော့ခ်မျက်နှာပြင်တွင် ပြသပြီး အသံဖွင့်ပေးသည်။",
   "everyXDaysFormat": "{count} ရက်တစ်ကြိမ်",
   "cycleDaysFormat": "{consecutiveDays} ရက် သောက်ရန် / {restDays} ရက် နားရန်",
-  "consecutiveDaysFormat": "{count} ရက် ဆေးသောက်ခြင်း",
+  "consecutiveDaysFormat": "{count} ရက် သောက်ရန်",
   "restDaysFormat": "ဆေးသောက်ခြင်းကို {count} ရက် ရပ်နားရန်",
   "limitedTimeDiscount": "ယခုပင် အထူးဈေးနှုန်းဖြင့် အမြဲတမ်းအသုံးပြုနိုင်ပါသည်",
   "monthlyPlan": "လစဉ်အစီအစဉ်",

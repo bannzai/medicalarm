@@ -72,7 +72,7 @@
   "silentModeNotificationDescription": "Hyd yn oed pan fo’r Modd Ffocws YMLAEN neu pan fo’r ddyfais yn dawel, caiff hysbysiadau critigol eu dangos ar y sgrin glo ac mae sain yn cael ei chwarae.",
   "everyXDaysFormat": "Bob {count} diwrnod",
   "cycleDaysFormat": "Cymryd am {consecutiveDays} diwrnod / seibiant o {restDays} diwrnod",
-  "consecutiveDaysFormat": "Cymryd meddyginiaeth am {count} diwrnod",
+  "consecutiveDaysFormat": "Cymryd am {count} diwrnod",
   "restDaysFormat": "{count} diwrnod heb feddyginiaeth",
   "limitedTimeDiscount": "Defnyddiwch ef am byth am bris arbennig",
   "monthlyPlan": "Cynllun misol",

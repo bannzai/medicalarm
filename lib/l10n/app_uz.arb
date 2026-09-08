@@ -72,7 +72,7 @@
   "silentModeNotificationDescription": "Fokus rejimi YOQILGAN yoki qurilma ovozsiz holatda bo‘lsa ham, muhim ogohlantirishlar qulflangan ekranda ko‘rsatiladi va ovoz eshittiriladi.",
   "everyXDaysFormat": "Har {count} kunda",
   "cycleDaysFormat": "{consecutiveDays} kun qabul qilish / {restDays} kun tanaffus",
-  "consecutiveDaysFormat": "{count} kun dori qabul qilish",
+  "consecutiveDaysFormat": "{count} kun qabul qilish",
   "restDaysFormat": "{count} kun dori qabul qilmaslik",
   "limitedTimeDiscount": "Hozir maxsus narxda abadiy foydalaning",
   "monthlyPlan": "Oylik reja",

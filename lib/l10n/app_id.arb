@@ -72,7 +72,7 @@
   "silentModeNotificationDescription": "Meskipun mode Fokus AKTIF atau perangkat dibisukan, peringatan penting tetap muncul di Layar Terkunci dan suara diputar.",
   "everyXDaysFormat": "Setiap {count} hari",
   "cycleDaysFormat": "Minum selama {consecutiveDays} hari / jeda selama {restDays} hari",
-  "consecutiveDaysFormat": "Minum obat selama {count} hari",
+  "consecutiveDaysFormat": "Minum selama {count} hari",
   "restDaysFormat": "{count} hari berhenti minum obat",
   "limitedTimeDiscount": "Gunakan selamanya dengan harga khusus sekarang",
   "monthlyPlan": "Paket bulanan",

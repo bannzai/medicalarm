@@ -72,7 +72,7 @@
   "silentModeNotificationDescription": "فوکس موڈ آن ہونے یا ڈیوائس خاموش ہونے کے باوجود، اہم انتباہات لاک اسکرین پر دکھائے جاتے ہیں اور آواز چلتی ہے۔",
   "everyXDaysFormat": "ہر {count} دن بعد",
   "cycleDaysFormat": "{consecutiveDays} دن دوا لیں / {restDays} دن وقفہ",
-  "consecutiveDaysFormat": "{count} دن تک دوا لینا",
+  "consecutiveDaysFormat": "{count} دن تک لیں",
   "restDaysFormat": "{count} دن دوا بند",
   "limitedTimeDiscount": "ابھی خصوصی قیمت پر ہمیشہ کے لیے استعمال کریں",
   "monthlyPlan": "ماہانہ پلان",

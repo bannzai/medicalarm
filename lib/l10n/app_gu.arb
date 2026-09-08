@@ -72,7 +72,7 @@
   "silentModeNotificationDescription": "ફોકસ મોડ ચાલુ હોય અથવા ડિવાઇસ સાઇલન્ટ હોય ત્યારે પણ, મહત્વપૂર્ણ ચેતવણીઓ લૉક સ્ક્રીન પર દેખાય છે અને અવાજ વગાડવામાં આવે છે.",
   "everyXDaysFormat": "દર {count} દિવસે",
   "cycleDaysFormat": "{consecutiveDays} દિવસ દવા લેવી / {restDays} દિવસ વિરામ",
-  "consecutiveDaysFormat": "{count} દિવસ દવા લેવી",
+  "consecutiveDaysFormat": "{count} દિવસ સુધી સેવન",
   "restDaysFormat": "{count} દિવસ દવા બંધ",
   "limitedTimeDiscount": "હમણાં વિશેષ કિંમતે કાયમ માટે ઉપયોગ કરો",
   "monthlyPlan": "માસિક પ્લાન",

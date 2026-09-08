@@ -72,7 +72,7 @@
   "silentModeNotificationDescription": "Net ir įjungus fokusavimo režimą arba nutildžius įrenginį, svarbūs įspėjimai rodomi užrakinimo ekrane ir leidžiamas garsas.",
   "everyXDaysFormat": "Kas {count} dienas",
   "cycleDaysFormat": "Vartoti {consecutiveDays} dienas / {restDays} dienų pertrauka",
-  "consecutiveDaysFormat": "Vaistų vartojimas {count} dienas",
+  "consecutiveDaysFormat": "Vartoti {count} dienas",
   "restDaysFormat": "{count} dienų vaistų vartojimo pertrauka",
   "limitedTimeDiscount": "Dabar naudokitės visą laiką už specialią kainą",
   "monthlyPlan": "Mėnesio planas",
