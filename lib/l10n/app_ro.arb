@@ -71,7 +71,7 @@
   "enableNotificationInSilentMode": "Trimite notificări chiar și în modul silențios",
   "silentModeNotificationDescription": "Chiar și atunci când modul Concentrare este activat sau dispozitivul este silențios, alertele critice apar pe ecranul de blocare și se redă un sunet.",
   "everyXDaysFormat": "La fiecare {count} zile",
-  "cycleDaysFormat": "Luați timp de {consecutiveDays} zile / pauză timp de {restDays} zile",
+  "cycleDaysFormat": "Administrare timp de {consecutiveDays} zile / pauză de {restDays} zile",
   "consecutiveDaysFormat": "Administrarea medicamentelor timp de {count} zile",
   "restDaysFormat": "{count} zile fără medicamente",
   "limitedTimeDiscount": "Folosește-l pentru totdeauna la un preț special",

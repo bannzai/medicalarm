@@ -71,7 +71,7 @@
   "enableNotificationInSilentMode": "Notifier même en mode silencieux",
   "silentModeNotificationDescription": "Même lorsque le mode Concentration est activé ou que l’appareil est en mode silencieux, les alertes critiques s’affichent sur l’écran verrouillé et un son est diffusé.",
   "everyXDaysFormat": "Tous les {count} jours",
-  "cycleDaysFormat": "Prendre pendant {consecutiveDays} jours / faire une pause de {restDays} jours",
+  "cycleDaysFormat": "Prendre pendant {consecutiveDays} jours / arrêter pendant {restDays} jours",
   "consecutiveDaysFormat": "Prise de médicaments pendant {count} jours",
   "restDaysFormat": "{count} jours d’arrêt du traitement",
   "limitedTimeDiscount": "Profitez-en pour toujours à prix spécial",

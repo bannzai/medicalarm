@@ -71,7 +71,7 @@
   "enableNotificationInSilentMode": "Értesítések küldése néma módban is",
   "silentModeNotificationDescription": "Akkor is, ha a Fókusz mód be van kapcsolva, vagy a készülék le van némítva, a kritikus értesítések megjelennek a zárolási képernyőn, és hang szólal meg.",
   "everyXDaysFormat": "{count} naponta",
-  "cycleDaysFormat": "Szedés {consecutiveDays} napon át / szünet {restDays} napig",
+  "cycleDaysFormat": "Szedés {consecutiveDays} napig / {restDays} nap szünet",
   "consecutiveDaysFormat": "Gyógyszerszedés {count} napon át",
   "restDaysFormat": "{count} nap gyógyszerszünet",
   "limitedTimeDiscount": "Használja mostantól örökké kedvezményes áron",

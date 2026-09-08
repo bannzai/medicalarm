@@ -71,7 +71,7 @@
   "enableNotificationInSilentMode": "Hantar pemberitahuan walaupun dalam mod senyap",
   "silentModeNotificationDescription": "Walaupun mod Fokus HIDUP atau peranti diletakkan pada senyap, amaran kritikal dipaparkan pada Skrin Kunci dan bunyi dimainkan.",
   "everyXDaysFormat": "Setiap {count} hari",
-  "cycleDaysFormat": "Ambil selama {consecutiveDays} hari / berhenti selama {restDays} hari",
+  "cycleDaysFormat": "Ambil selama {consecutiveDays} hari / rehat selama {restDays} hari",
   "consecutiveDaysFormat": "Pengambilan ubat selama {count} hari",
   "restDaysFormat": "{count} hari berhenti mengambil ubat",
   "limitedTimeDiscount": "Gunakannya selama-lamanya pada harga istimewa sekarang",

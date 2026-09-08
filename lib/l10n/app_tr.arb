@@ -71,7 +71,7 @@
   "enableNotificationInSilentMode": "Sessiz modda bile bildirim gönder",
   "silentModeNotificationDescription": "Odak modu AÇIK olsa veya cihaz sessizde olsa bile kritik uyarılar Kilit Ekranı'nda gösterilir ve ses çalınır.",
   "everyXDaysFormat": "Her {count} günde bir",
-  "cycleDaysFormat": "{consecutiveDays} gün kullanın / {restDays} gün ara verin",
+  "cycleDaysFormat": "{consecutiveDays} gün kullan / {restDays} gün ara ver",
   "consecutiveDaysFormat": "{count} gün ilaç kullanımı",
   "restDaysFormat": "{count} gün ilaç molası",
   "limitedTimeDiscount": "Şimdi özel fiyatla ömür boyu kullanın",

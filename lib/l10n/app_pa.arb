@@ -71,7 +71,7 @@
   "enableNotificationInSilentMode": "ਸਾਈਲੈਂਟ ਮੋਡ ਵਿੱਚ ਵੀ ਸੂਚਨਾਵਾਂ ਭੇਜੋ",
   "silentModeNotificationDescription": "ਫੋਕਸ ਮੋਡ ਚਾਲੂ ਹੋਣ ਜਾਂ ਡਿਵਾਈਸ ਦੇ ਮਿਊਟ ਹੋਣ ’ਤੇ ਵੀ, ਮਹੱਤਵਪੂਰਨ ਚੇਤਾਵਨੀਆਂ ਲੌਕ ਸਕ੍ਰੀਨ ’ਤੇ ਦਿਖਾਈ ਦਿੰਦੀਆਂ ਹਨ ਅਤੇ ਆਵਾਜ਼ ਚਲਦੀ ਹੈ।",
   "everyXDaysFormat": "ਹਰ {count} ਦਿਨਾਂ ਬਾਅਦ",
-  "cycleDaysFormat": "{consecutiveDays} ਦਿਨ ਦਵਾਈ ਲਓ / {restDays} ਦਿਨ ਵਿਰਾਮ",
+  "cycleDaysFormat": "{consecutiveDays} ਦਿਨ ਦਵਾਈ ਲੈਣੀ / {restDays} ਦਿਨ বিরਾਮ",
   "consecutiveDaysFormat": "{count} ਦਿਨਾਂ ਲਈ ਦਵਾਈ ਲੈਣਾ",
   "restDaysFormat": "{count} ਦਿਨ ਦਵਾਈ ਬੰਦ",
   "limitedTimeDiscount": "ਹੁਣੇ ਵਿਸ਼ੇਸ਼ ਕੀਮਤ ’ਤੇ ਹਮੇਸ਼ਾ ਲਈ ਵਰਤੋ",

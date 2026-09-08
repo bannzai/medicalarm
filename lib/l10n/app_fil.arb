@@ -71,7 +71,7 @@
   "enableNotificationInSilentMode": "Magpadala ng mga notification kahit nasa silent mode",
   "silentModeNotificationDescription": "Kahit naka-ON ang Focus mode o naka-mute ang device, lalabas ang mahahalagang alerto sa Lock Screen at magpe-play ng tunog.",
   "everyXDaysFormat": "Bawat {count} araw",
-  "cycleDaysFormat": "Inumin nang {consecutiveDays} araw / magpahinga nang {restDays} araw",
+  "cycleDaysFormat": "Uminom sa loob ng {consecutiveDays} araw / pahinga ng {restDays} araw",
   "consecutiveDaysFormat": "Pag-inom ng gamot sa loob ng {count} araw",
   "restDaysFormat": "{count} araw na pahinga sa pag-inom ng gamot",
   "limitedTimeDiscount": "Gamitin ito habang-buhay sa espesyal na presyo",

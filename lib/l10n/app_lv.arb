@@ -71,7 +71,7 @@
   "enableNotificationInSilentMode": "Sūtīt paziņojumus arī klusuma režīmā",
   "silentModeNotificationDescription": "Pat ja fokusa režīms ir ieslēgts vai ierīce ir klusuma režīmā, kritiskie paziņojumi tiek rādīti bloķēšanas ekrānā un tiek atskaņota skaņa.",
   "everyXDaysFormat": "Ik pēc {count} dienām",
-  "cycleDaysFormat": "Lietot {consecutiveDays} dienas / pārtraukums {restDays} dienas",
+  "cycleDaysFormat": "Lietot {consecutiveDays} dienas / {restDays} dienu pārtraukums",
   "consecutiveDaysFormat": "Zāļu lietošana {count} dienas",
   "restDaysFormat": "{count} dienu pārtraukums zāļu lietošanā",
   "limitedTimeDiscount": "Izmantojiet to neierobežoti par īpašu cenu",

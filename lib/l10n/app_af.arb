@@ -71,7 +71,7 @@
   "enableNotificationInSilentMode": "Stuur kennisgewings selfs in stilmodus",
   "silentModeNotificationDescription": "Selfs wanneer Fokusmodus AAN is of die toestel stil is, word kritieke kennisgewings op die sluitskerm vertoon en ’n klank gespeel.",
   "everyXDaysFormat": "Elke {count} dae",
-  "cycleDaysFormat": "Neem medikasie vir {consecutiveDays} dae / hou ’n pouse van {restDays} dae",
+  "cycleDaysFormat": "{consecutiveDays} dae neem / {restDays} dae pouse",
   "consecutiveDaysFormat": "Medikasie vir {count} dae",
   "restDaysFormat": "{count} dae sonder medikasie",
   "limitedTimeDiscount": "Gebruik dit nou vir altyd teen ’n spesiale prys",

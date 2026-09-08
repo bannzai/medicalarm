@@ -71,7 +71,7 @@
   "enableNotificationInSilentMode": "Ծանուցել նույնիսկ անձայն ռեժիմում",
   "silentModeNotificationDescription": "Նույնիսկ երբ Կենտրոնացման ռեժիմը միացված է կամ սարքը լուռ է, կարևոր ծանուցումները ցուցադրվում են կողպէկրանին, և ձայն է հնչում։",
   "everyXDaysFormat": "Յուրաքանչյուր {count} օրը մեկ",
-  "cycleDaysFormat": "Ընդունել {consecutiveDays} օր / ընդմիջում՝ {restDays} օր",
+  "cycleDaysFormat": "Դեղամիջոցն ընդունել {consecutiveDays} օր / {restDays} օր դադար",
   "consecutiveDaysFormat": "Դեղամիջոցի ընդունում՝ {count} օր",
   "restDaysFormat": "{count} օր դադար դեղորայքից",
   "limitedTimeDiscount": "Օգտվեք ընդմիշտ՝ հատուկ գնով",

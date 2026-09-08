@@ -71,7 +71,7 @@
   "enableNotificationInSilentMode": "സൈലന്റ് മോഡിലും അറിയിപ്പുകൾ അയയ്ക്കുക",
   "silentModeNotificationDescription": "ഫോക്കസ് മോഡ് ഓണായിരിക്കുമ്പോഴും ഉപകരണം നിശ്ശബ്ദമാക്കിയിരിക്കുമ്പോഴും ഗുരുതരമായ അറിയിപ്പുകൾ ലോക്ക് സ്‌ക്രീനിൽ പ്രദർശിപ്പിക്കുകയും ശബ്ദം പ്ലേ ചെയ്യുകയും ചെയ്യും.",
   "everyXDaysFormat": "ഓരോ {count} ദിവസത്തിലും",
-  "cycleDaysFormat": "{consecutiveDays} ദിവസം കഴിക്കുക / {restDays} ദിവസം ഇടവേള",
+  "cycleDaysFormat": "{consecutiveDays} ദിവസം മരുന്ന് കഴിക്കുക / {restDays} ദിവസം ഇടവേള",
   "consecutiveDaysFormat": "{count} ദിവസം മരുന്ന് കഴിക്കൽ",
   "restDaysFormat": "{count} ദിവസം മരുന്ന് നിർത്തുക",
   "limitedTimeDiscount": "ഇപ്പോൾ പ്രത്യേക വിലയിൽ എന്നേക്കും ഉപയോഗിക്കൂ",

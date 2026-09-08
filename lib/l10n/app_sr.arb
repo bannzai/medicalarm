@@ -71,7 +71,7 @@
   "enableNotificationInSilentMode": "Шаљи обавештења и у нечујном режиму",
   "silentModeNotificationDescription": "Чак и када је режим фокуса укључен или је уређај у нечујном режиму, критична обавештења се приказују на закључаном екрану и пушта се звук.",
   "everyXDaysFormat": "Сваких {count} дана",
-  "cycleDaysFormat": "Узимати {consecutiveDays} дана / пауза {restDays} дана",
+  "cycleDaysFormat": "Узимање {consecutiveDays} дана / пауза од {restDays} дана",
   "consecutiveDaysFormat": "Узимање лекова {count} дана",
   "restDaysFormat": "{count} дана без узимања лека",
   "limitedTimeDiscount": "Користите га заувек по посебној цени",

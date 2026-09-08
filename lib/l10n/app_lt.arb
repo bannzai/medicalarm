@@ -71,7 +71,7 @@
   "enableNotificationInSilentMode": "Siųsti pranešimus ir veikiant tyliuoju režimu",
   "silentModeNotificationDescription": "Net ir įjungus fokusavimo režimą arba nutildžius įrenginį, svarbūs įspėjimai rodomi užrakinimo ekrane ir leidžiamas garsas.",
   "everyXDaysFormat": "Kas {count} dienas",
-  "cycleDaysFormat": "Vartoti {consecutiveDays} dienas / daryti {restDays} dienų pertrauką",
+  "cycleDaysFormat": "Vartoti {consecutiveDays} dienas / {restDays} dienų pertrauka",
   "consecutiveDaysFormat": "Vaistų vartojimas {count} dienas",
   "restDaysFormat": "{count} dienų vaistų vartojimo pertrauka",
   "limitedTimeDiscount": "Dabar naudokitės visą laiką už specialią kainą",
