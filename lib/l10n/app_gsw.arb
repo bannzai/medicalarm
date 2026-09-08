@@ -185,7 +185,7 @@
   "groups": "Gruppen",
   "groupManagement": "Gruppenverwaltung",
   "createGroup": "Gruppe erstellen",
-  "groupName": "Gruppename",
+  "groupName": "Name der Gruppe",
   "groupNameInputHint": "Gruppenname eingeben",
   "groupIcon": "Symbol",
   "groupMemberCount": "{count} Mitglieder",
