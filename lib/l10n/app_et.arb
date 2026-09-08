@@ -73,7 +73,7 @@
   "everyXDaysFormat": "Iga {count} päeva järel",
   "cycleDaysFormat": "Võtta {consecutiveDays} päeva / paus {restDays} päeva",
   "consecutiveDaysFormat": "Ravimite võtmine {count} päeva",
-  "restDaysFormat": "{count} päeva ravimiteta",
+  "restDaysFormat": "{count} päeva ravimipaus",
   "limitedTimeDiscount": "Nüüd saate piiratud aja jooksul hinnaga, millega saate jätkuvalt kasutada",
   "monthlyPlan": "kuupõhise plaani",
   "annualPlan": "Aastaplaan",

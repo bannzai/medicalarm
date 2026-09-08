@@ -73,7 +73,7 @@
   "everyXDaysFormat": "ഓരോ {count} ദിവസവും",
   "cycleDaysFormat": "{consecutiveDays} ദിവസം കഴിക്കുക / {restDays} ദിവസം ഇടവേള",
   "consecutiveDaysFormat": "{count} ദിവസം മരുന്ന് കഴിക്കൽ",
-  "restDaysFormat": "{count} ദിവസങ്ങൾ മരുന്നില്ല",
+  "restDaysFormat": "{count} ദിവസം മരുന്ന് നിർത്തുക",
   "limitedTimeDiscount": "അടുത്ത കാലത്തെ പരിമിതിച്ച നിരക്കിൽ സ്ഥിരമായി ഉപയോഗിക്കാൻ കഴിയും",
   "monthlyPlan": "മാസികമായ പദ്ധതി",
   "annualPlan": "വർഷിക പദ്ധതി",

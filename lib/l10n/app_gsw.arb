@@ -73,7 +73,7 @@
   "everyXDaysFormat": "Alle {count} Täg",
   "cycleDaysFormat": "{consecutiveDays} Täg iineh / {restDays} Täg Pause",
   "consecutiveDaysFormat": "Medikament i {count} Täg",
-  "restDaysFormat": "{count} Tag ohne Medikation",
+  "restDaysFormat": "{count} Täg Medikamentepause",
   "limitedTimeDiscount": "Jetzt gibt es einen begrenzten Preis, den Sie dauerhaft nutzen können.",
   "monthlyPlan": "Monatsabonnement",
   "annualPlan": "Jahresabo",

@@ -73,7 +73,7 @@
   "everyXDaysFormat": "כל {count} ימים",
   "cycleDaysFormat": "ליטול במשך {consecutiveDays} ימים / להפסיק למשך {restDays} ימים",
   "consecutiveDaysFormat": "נטילת תרופות במשך {count} ימים",
-  "restDaysFormat": "{count} ימי הפסקת תרופות",
+  "restDaysFormat": "הפסקת תרופה למשך {count} ימים",
   "limitedTimeDiscount": "עכשיו במחיר מוגבל לשימוש קבוע",
   "monthlyPlan": "מנוי חודשי",
   "annualPlan": "תכנית שנתית",

@@ -73,7 +73,7 @@
   "everyXDaysFormat": "{count} egunean behin",
   "cycleDaysFormat": "{consecutiveDays} egunez hartu / {restDays} eguneko atsedenaldia",
   "consecutiveDaysFormat": "Botikak {count} egunez hartzea",
-  "restDaysFormat": "{count} egunez medikamentu hartu gabe",
+  "restDaysFormat": "{count} egun botikarik gabe",
   "limitedTimeDiscount": "Orain prezio mugatua duen kanpaina batetik baliatuz, betiere erabil dezakezu.",
   "monthlyPlan": "Hilekoa plana",
   "annualPlan": "Urteko plana",

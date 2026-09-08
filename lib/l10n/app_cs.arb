@@ -73,7 +73,7 @@
   "everyXDaysFormat": "Každých {count} dní",
   "cycleDaysFormat": "Užívat {consecutiveDays} dní / vynechat {restDays} dní",
   "consecutiveDaysFormat": "Užívání léků po dobu {count} dní",
-  "restDaysFormat": "{count} dní bez léků",
+  "restDaysFormat": "{count} dní bez užívání léku",
   "limitedTimeDiscount": "Nyní můžete používat za speciální cenu navždy.",
   "monthlyPlan": "Měsíční plán",
   "annualPlan": "Roční plán",

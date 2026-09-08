@@ -73,7 +73,7 @@
   "everyXDaysFormat": "ყოველ {count} დღეში",
   "cycleDaysFormat": "መድኃኒቱን ለ{consecutiveDays} ቀናት ይውሰዱ / ለ{restDays} ቀናት ያቁሙ",
   "consecutiveDaysFormat": "{count} ቀን መድኃኒት መውሰድ",
-  "restDaysFormat": "{count} ቀን ወቅታውን ይወስዳል",
+  "restDaysFormat": "{count} օր դադար դեղորայքից",
   "limitedTimeDiscount": "አሁን ለምዕባለ ዋጋ በተወሰነ ይጠቀሙ",
   "monthlyPlan": "ወርሃዊ እቃ",
   "annualPlan": "አመታዊ እቅድ",

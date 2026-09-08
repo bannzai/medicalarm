@@ -73,7 +73,7 @@
   "everyXDaysFormat": "ทุก {count} วัน",
   "cycleDaysFormat": "รับประทานยา {consecutiveDays} วัน / พักยา {restDays} วัน",
   "consecutiveDaysFormat": "รับประทานยาเป็นเวลา {count} วัน",
-  "restDaysFormat": "{count} วันหยุดยา",
+  "restDaysFormat": "หยุดยา {count} วัน",
   "limitedTimeDiscount": "ตอนนี้ใช้ราคาโปรโมชันพิเศษได้ตลอดไป",
   "monthlyPlan": "แผนรายเดือน",
   "annualPlan": "แผนรายปี",

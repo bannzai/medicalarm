@@ -73,7 +73,7 @@
   "everyXDaysFormat": "Кожні {count} днів",
   "cycleDaysFormat": "Приймати {consecutiveDays} днів / перерва {restDays} днів",
   "consecutiveDaysFormat": "Прийом ліків протягом {count} днів",
-  "restDaysFormat": "{count} days without medication",
+  "restDaysFormat": "Перерва в прийомі ліків: {count} дн.",
   "limitedTimeDiscount": "Get it now at a limited time price for permanent use.",
   "monthlyPlan": "Monthly Plan",
   "annualPlan": "Annual Plan",

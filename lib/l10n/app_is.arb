@@ -73,7 +73,7 @@
   "everyXDaysFormat": "Á {count} daga fresti",
   "cycleDaysFormat": "Taka í {consecutiveDays} daga / gera hlé í {restDays} daga",
   "consecutiveDaysFormat": "Lyf í {count} daga",
-  "restDaysFormat": "{count} daga frí",
+  "restDaysFormat": "{count} dagar án lyfjatöku",
   "limitedTimeDiscount": "Núna geturðu notað það á takmörkuðu verði að eilífu.",
   "monthlyPlan": "Mánaðaráskrift",
   "annualPlan": "Ársgjald áætlun",

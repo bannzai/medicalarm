@@ -73,7 +73,7 @@
   "everyXDaysFormat": "Kas {count} dienas",
   "cycleDaysFormat": "Vartoti {consecutiveDays} dienas / daryti {restDays} dienų pertrauką",
   "consecutiveDaysFormat": "Vaistų vartojimas {count} dienas",
-  "restDaysFormat": "{count} dienų be vaistų",
+  "restDaysFormat": "{count} dienų vaistų vartojimo pertrauka",
   "limitedTimeDiscount": "Dabar galite naudotis ribota kaina visada",
   "monthlyPlan": "Mėnesinis planas",
   "annualPlan": "Metinė prenumerata",

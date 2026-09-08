@@ -73,7 +73,7 @@
   "everyXDaysFormat": "Bawat {count} araw",
   "cycleDaysFormat": "Uminom sa loob ng {consecutiveDays} araw / magpahinga nang {restDays} araw",
   "consecutiveDaysFormat": "Pag-inom ng gamot sa loob ng {count} araw",
-  "restDaysFormat": "{count} araw na walang pag-inom",
+  "restDaysFormat": "{count} araw na pahinga sa gamot",
   "limitedTimeDiscount": "Sa kasalukuyan, may limitadong presyo na magagamit nang permanente",
   "monthlyPlan": "Buwanang Plano",
   "annualPlan": "Taunang Plano",

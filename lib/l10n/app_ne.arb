@@ -73,7 +73,7 @@
   "everyXDaysFormat": "हरेक {count} दिनमा",
   "cycleDaysFormat": "{consecutiveDays} दिन सेवन गर्नुहोस् / {restDays} दिन विश्राम गर्नुहोस्",
   "consecutiveDaysFormat": "{count} दिन औषध सेवन",
-  "restDaysFormat": "{count} दिनको औषधि नखाने",
+  "restDaysFormat": "{count} दिन औषधि बन्द",
   "limitedTimeDiscount": "अब सीमित मूल्यमा सदाको लागि प्रयोग गर्न सकिन्छ",
   "monthlyPlan": "महिना शुल्क योजना",
   "annualPlan": "वार्षिक योजना",

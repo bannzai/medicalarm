@@ -73,7 +73,7 @@
   "everyXDaysFormat": "Κάθε {count} ημέρες",
   "cycleDaysFormat": "Λήψη για {consecutiveDays} ημέρες / διακοπή για {restDays} ημέρες",
   "consecutiveDaysFormat": "Λήψη φαρμάκων για {count} ημέρες",
-  "restDaysFormat": "{count} ημέρες απουσίας από τη φαρμακευτική αγωγή",
+  "restDaysFormat": "{count} ημέρες διακοπής φαρμάκου",
   "limitedTimeDiscount": "Τώρα μπορείτε να το χρησιμοποιήσετε σε περιορισμένη τιμή για πάντα.",
   "monthlyPlan": "Μηνιαίο πρόγραμμα",
   "annualPlan": "Ετήσιο σχέδιο",

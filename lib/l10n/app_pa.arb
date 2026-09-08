@@ -73,7 +73,7 @@
   "everyXDaysFormat": "ਹਰ {count} ਦਿਨਾਂ ਬਾਅਦ",
   "cycleDaysFormat": "{consecutiveDays} ਦਿਨ ਦਵਾਈ ਲਓ / {restDays} ਦਿਨ ਵਿਰਾਮ",
   "consecutiveDaysFormat": "{count} ਦਿਨਾਂ ਲਈ ਦਵਾਈ ਲੈਣਾ",
-  "restDaysFormat": "{count} ਦਿਨਾਂ ਲਈ ਦਵਾਈ ਲੈਣ ਤੋਂ ਪਰاهیਤ",
+  "restDaysFormat": "{count} ਦਿਨ ਦਵਾਈ ਬੰਦ",
   "limitedTimeDiscount": "ਹੁਣ ਸੀਮਿਤ ਕੀਮਤ 'ਤੇ ਸਦਾ ਲਈ ਵਰਤ ਸਕਦੇ ਹੋ",
   "monthlyPlan": "ਮਾਸਿਕ ਯੋਜਨਾ",
   "annualPlan": "ਸਾਲਾਨਾ ਯੋਜਨਾ",

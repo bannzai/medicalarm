@@ -73,7 +73,7 @@
   "everyXDaysFormat": "हर {count} दिन में",
   "cycleDaysFormat": "{consecutiveDays} दिनों तक लें / {restDays} दिनों का विराम",
   "consecutiveDaysFormat": "{count} दिनों तक दवा लेना",
-  "restDaysFormat": "{count} दिन दवा नहीं ली",
+  "restDaysFormat": "{count} दिन दवा बंद",
   "limitedTimeDiscount": "अभी सीमित समय के लिए विशेष मूल्य पर हमेशा के लिए उपयोग करें",
   "monthlyPlan": "मासिक योजना",
   "annualPlan": "सालाना योजना",

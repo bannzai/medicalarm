@@ -73,7 +73,7 @@
   "everyXDaysFormat": "{count} naponta",
   "cycleDaysFormat": "Szedés {consecutiveDays} napon át / szünet {restDays} napig",
   "consecutiveDaysFormat": "Gyógyszerszedés {count} napon át",
-  "restDaysFormat": "{count} nap gyógyszerszedés kihagyás",
+  "restDaysFormat": "{count} nap gyógyszerszünet",
   "limitedTimeDiscount": "Most már korlátozott áron örökre használható",
   "monthlyPlan": "Havi előfizetés",
   "annualPlan": "Éves előfizetés",

@@ -73,7 +73,7 @@
   "everyXDaysFormat": "Svakih {count} dana",
   "cycleDaysFormat": "Uzimati {consecutiveDays} dana / pauza {restDays} dana",
   "consecutiveDaysFormat": "Uzimanje lijeka {count} dana",
-  "restDaysFormat": "{count} dana bez terapije",
+  "restDaysFormat": "{count} dana bez lijeka",
   "limitedTimeDiscount": "Sada imate priliku da koristite po sniženoj cijeni.",
   "monthlyPlan": "Mjesečni plan",
   "annualPlan": "Godišnji plan",

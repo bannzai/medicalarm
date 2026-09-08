@@ -73,7 +73,7 @@
   "everyXDaysFormat": "{count} хоног тутамд",
   "cycleDaysFormat": "{consecutiveDays} өдөр уух / {restDays} өдөр завсарлах",
   "consecutiveDaysFormat": "{count} өдөр эм уух",
-  "restDaysFormat": "{count} өдөр эм ууж чадаагүй",
+  "restDaysFormat": "{count} өдөр эм уухгүй",
   "limitedTimeDiscount": "Одоо хязгаарлагдмал үнээр насан туршдаа ашиглах боломжтой",
   "monthlyPlan": "Сар бүрийн төлөвлөгөө",
   "annualPlan": "Жилийн төлөвлөгөө",

@@ -73,7 +73,7 @@
   "everyXDaysFormat": "Յուրաքանչյուր {count} օրը մեկ",
   "cycleDaysFormat": "Ընդունել {consecutiveDays} օր / ընդմիջում՝ {restDays} օր",
   "consecutiveDaysFormat": "Դեղամիջոցի ընդունում՝ {count} օր",
-  "restDaysFormat": "{count} օր դեղամիջոց չընդունելու",
+  "restDaysFormat": "{count} օր դադար դեղորայքից",
   "limitedTimeDiscount": "Այժմ սահմանափակ գներով կարող եք օգտագործել մշտապես",
   "monthlyPlan": "ամսական ծրագիր",
   "annualPlan": "ամսական ծրագիր",

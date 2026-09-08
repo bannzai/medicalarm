@@ -73,7 +73,7 @@
   "everyXDaysFormat": "Әр {count} күн сайын",
   "cycleDaysFormat": "{consecutiveDays} күн қабылдау / {restDays} күн үзіліс",
   "consecutiveDaysFormat": "Дәрі қабылдау: {count} күн",
-  "restDaysFormat": "{count} күн дәрі қабылдамаған",
+  "restDaysFormat": "Дәрі қабылдаусыз {count} күн",
   "limitedTimeDiscount": "Қазір шектеулі бағамен мәңгі пайдалануға болады",
   "monthlyPlan": "Ай сайынғы жоспар",
   "annualPlan": "Жылдық жоспар",

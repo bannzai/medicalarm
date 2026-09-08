@@ -73,7 +73,7 @@
   "everyXDaysFormat": "Her {count} günde bir",
   "cycleDaysFormat": "{consecutiveDays} gün kullanın / {restDays} gün ara verin",
   "consecutiveDaysFormat": "{count} gün ilaç kullanımı",
-  "restDaysFormat": "{count} gün ilaç almadı",
+  "restDaysFormat": "{count} gün ilaç molası",
   "limitedTimeDiscount": "Şimdi sınırlı fiyatla sürekli kullanabilirsiniz.",
   "monthlyPlan": "Aylık plan",
   "annualPlan": "Yıllık plan",

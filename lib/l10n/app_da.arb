@@ -73,7 +73,7 @@
   "everyXDaysFormat": "Hver {count}. dag",
   "cycleDaysFormat": "Tag medicin i {consecutiveDays} dage / pause i {restDays} dage",
   "consecutiveDaysFormat": "Medicin i {count} dage",
-  "restDaysFormat": "{count} dages pause forbrug",
+  "restDaysFormat": "{count} dage uden medicin",
   "limitedTimeDiscount": "Nu kan du bruge det til en særlig pris for altid.",
   "monthlyPlan": "Månedligt abonnement",
   "annualPlan": "Årsplan",

@@ -73,7 +73,7 @@
   "everyXDaysFormat": "{count}일마다",
   "cycleDaysFormat": "{consecutiveDays}일 복용 / {restDays}일 휴약",
   "consecutiveDaysFormat": "{count}일 복용",
-  "restDaysFormat": "{count}일 복용 중단",
+  "restDaysFormat": "{count}일 휴약",
   "limitedTimeDiscount": "지금 한정 가격으로 영구 사용 가능",
   "monthlyPlan": "월간 계획",
   "annualPlan": "연간 요금제",

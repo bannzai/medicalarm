@@ -73,7 +73,7 @@
   "everyXDaysFormat": "Ogni {count} giorni",
   "cycleDaysFormat": "Assumere per {consecutiveDays} giorni / fare una pausa di {restDays} giorni",
   "consecutiveDaysFormat": "Assunzione di farmaci per {count} giorni",
-  "restDaysFormat": "{count} giorni di sospensione",
+  "restDaysFormat": "{count} giorni di sospensione del farmaco",
   "limitedTimeDiscount": "Ora puoi utilizzare a un prezzo esclusivo per sempre!",
   "monthlyPlan": "piano mensile",
   "annualPlan": "Piano annuale",

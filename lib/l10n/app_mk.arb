@@ -73,7 +73,7 @@
   "everyXDaysFormat": "На секои {count} дена",
   "cycleDaysFormat": "Земање {consecutiveDays} дена / пауза {restDays} дена",
   "consecutiveDaysFormat": "Земање лекови {count} дена",
-  "restDaysFormat": "{count} дена без лекови",
+  "restDaysFormat": "{count} дена пауза од лекот",
   "limitedTimeDiscount": "Сега можете да го користите на ограничена цена",
   "monthlyPlan": "Месечен план",
   "annualPlan": "Годишен план",

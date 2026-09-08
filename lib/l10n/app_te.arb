@@ -73,7 +73,7 @@
   "everyXDaysFormat": "ప్రతి {count} రోజులకు",
   "cycleDaysFormat": "{consecutiveDays} రోజులు తీసుకోండి / {restDays} రోజులు విరామం",
   "consecutiveDaysFormat": "{count} రోజుల పాటు మందులు తీసుకోవడం",
-  "restDaysFormat": "{count} రోజులు మందు తీసుకోలేదు",
+  "restDaysFormat": "{count} రోజులు మందుల విరామం",
   "limitedTimeDiscount": "ఇప్పుడు ప్రత్యేక ధరతో ఎప్పటికీ ఉపయోగించండి",
   "monthlyPlan": "మాసిక పథకం",
   "annualPlan": "సంవత్సరానికి ఉపయోక్తా పథకం",
