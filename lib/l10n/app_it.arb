@@ -50,7 +50,7 @@
   "doseReceiverMaxCount": "Puoi registrare fino a {count} persone che assumono farmaci",
   "increaseLimitWithPremium": "Aumenta il limite a {count} con il piano Premium",
   "addDoseReceiver": "Aggiungi persona che assume farmaci",
-  "newDoseReceiver": "Nuovo utilizzatore",
+  "newDoseReceiver": "Nuovo utilizzatore di farmaci",
   "reloginRequired": "Effettua nuovamente il login",
   "reloginMessage": "Per eliminare l'account, è necessario accedere di nuovo.",
   "relogin": "Ricollegati",

@@ -50,7 +50,7 @@
   "doseReceiverMaxCount": "คุณสามารถลงทะเบียนผู้รับประทานยาได้สูงสุด {count} คน",
   "increaseLimitWithPremium": "เพิ่มขีดจำกัดเป็น {count} ด้วยแพ็กเกจ Premium",
   "addDoseReceiver": "เพิ่มผู้รับประทานยา",
-  "newDoseReceiver": "ผู้ใช้ใหม่",
+  "newDoseReceiver": "ผู้ใช้ยารายใหม่",
   "reloginRequired": "กรุณาเข้าสู่ระบบอีกครั้ง",
   "reloginMessage": "หากต้องการลบบัญชีของคุณ โปรดเข้าสู่ระบบอีกครั้ง",
   "relogin": "เข้าสู่ระบบอีกครั้ง",

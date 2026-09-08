@@ -50,7 +50,7 @@
   "doseReceiverMaxCount": "You can register up to {count} medication users",
   "increaseLimitWithPremium": "Increase the limit to {count} with the Premium plan",
   "addDoseReceiver": "Add medication user",
-  "newDoseReceiver": "New User",
+  "newDoseReceiver": "New medication user",
   "reloginRequired": "Please re-login",
   "reloginMessage": "To delete your account, please log in again.",
   "relogin": "Re-login",

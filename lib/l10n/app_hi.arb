@@ -50,7 +50,7 @@
   "doseReceiverMaxCount": "आप अधिकतम {count} दवा लेने वाले लोगों को पंजीकृत कर सकते हैं",
   "increaseLimitWithPremium": "प्रीमियम प्लान के साथ सीमा {count} तक बढ़ाएँ",
   "addDoseReceiver": "दवा लेने वाला व्यक्ति जोड़ें",
-  "newDoseReceiver": "नई दवा लेने वाला",
+  "newDoseReceiver": "नया दवा उपयोगकर्ता",
   "reloginRequired": "कृपया फिर से लॉगिन करें",
   "reloginMessage": "अपने खाते को हटाने के लिए, कृपया फिर से लॉगिन करें।",
   "relogin": "पुनः लॉग इन करें",

@@ -50,7 +50,7 @@
   "doseReceiverMaxCount": "ທ່ານສາມາດລົງທະບຽນຜູ້ໃຊ້ຢາໄດ້ສູງສຸດ {count} ຄົນ",
   "increaseLimitWithPremium": "ເພີ່ມຂີດຈຳກັດເປັນ {count} ດ້ວຍແຜນ Premium",
   "addDoseReceiver": "ເພີ່ມຜູ້ໃຊ້ຢາ",
-  "newDoseReceiver": "ຜູ້ໃຊ້ໃໝ່",
+  "newDoseReceiver": "ຜູ້ໃຊ້ຢາຄົນໃໝ່",
   "reloginRequired": "ກະລຸນາໍ ລັອກອິນໄວໆໃໝ່",
   "reloginMessage": "ເພື່ອລົບບັດທີ່ບນທະບຽນ ຂອບດອດໃຫ້ລົງໃໝ່.",
   "relogin": "ລົງລະບົບອີກຄັ້ງ",

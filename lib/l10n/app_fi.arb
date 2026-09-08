@@ -50,7 +50,7 @@
   "doseReceiverMaxCount": "Voit rekisteröidä enintään {count} lääkkeiden käyttäjää",
   "increaseLimitWithPremium": "Nosta raja arvoon {count} Premium-tilauksella",
   "addDoseReceiver": "Lisää lääkkeen käyttäjä",
-  "newDoseReceiver": "Uusi käyttäjä",
+  "newDoseReceiver": "Uusi lääkkeiden käyttäjä",
   "reloginRequired": "Ole hyvä ja kirjaudu uudelleen",
   "reloginMessage": "Poistaaksesi tilin, kirjaudu sisään uudelleen.",
   "relogin": "Kirjaudu sisään uudelleen",
