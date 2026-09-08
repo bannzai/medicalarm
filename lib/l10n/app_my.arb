@@ -125,7 +125,7 @@
   "purchaseErrorInsufficientPermissions": "{accountName} ဖြင့် အစီအစဉ်ကို စာရင်းသွင်း၍ မရပါ။ ငွေပေးချေမှုအချက်အလက်ကို စစ်ဆေးပြီး ထပ်မံကြိုးစားပါ။",
   "purchaseErrorPaymentPending": "ငွေပေးချေမှုကို ဆိုင်းငံ့ထားသည်။ လော့ဂ်အင်ဝင်ထားသော {accountName} ဖြင့် {storeName} ကို စစ်ဆေးပါ။",
   "premiumUserThanksTitle": "သင်သည် Premium အဖွဲ့ဝင်ဖြစ်သည်",
-  "premiumUserThanksMessage": "ကျွန်ုပ်တို့၏ဝန်ဆောင်မှုကို အသုံးပြုသည့်အတွက် ကျေးဇူးတင်ပါသည်။\nသင့်ကျေးဇူးကြောင့် Medicalarm ကို ဆက်လက်လုပ်ဆောင်နိုင်ပါသည်။",
+  "premiumUserThanksMessage": "Medicalarm ကို အသုံးပြုသည့်အတွက် ကျေးဇူးတင်ပါသည်။\nသင့်ရဲ့ ပံ့ပိုးမှုကြောင့် Medicalarm ကို ဆက်လက်လည်ပတ်နိုင်ပါသည်။",
   "premiumPricePerMonth": "({price}/လ)",
   "premiumCancelDescription": "・ဝယ်ယူပြီးနောက် အလိုအလျောက်သက်တမ်းတိုးခြင်းကို {storeName} အက်ပ်၏ အကောင့်ဆက်တင်များမှ ပယ်ဖျက်နိုင်ပါသည်။ (အက်ပ်အတွင်းမှ အလိုအလျောက်သက်တမ်းတိုးခြင်းကို ပယ်ဖျက်၍မရပါ။)",
   "purchaseErrorRestoreFailed": "ယခင်ဝယ်ယူမှုအချက်အလက်ကို ရှာမတွေ့ပါ။ သင့်အကောင့်ကို စစ်ဆေးပြီး ထပ်မံကြိုးစားပါ",

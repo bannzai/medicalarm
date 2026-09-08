@@ -125,7 +125,7 @@
   "purchaseErrorInsufficientPermissions": "Anda tidak dapat berlangganan paket dengan {accountName}. Periksa informasi pembayaran Anda, lalu coba lagi.",
   "purchaseErrorPaymentPending": "Pembayaran masih tertunda. Periksa {storeName} dengan {accountName} yang sedang login.",
   "premiumUserThanksTitle": "Anda adalah anggota Premium",
-  "premiumUserThanksMessage": "Terima kasih telah menggunakan layanan kami.\nBerkat Anda, kami dapat terus mengoperasikan Medicalarm.",
+  "premiumUserThanksMessage": "Terima kasih telah menggunakan Medicalarm.\nBerkat dukungan Anda, kami dapat terus menjalankan Medicalarm.",
   "premiumPricePerMonth": "({price}/bulan)",
   "premiumCancelDescription": "・Setelah membeli, Anda dapat membatalkan perpanjangan otomatis di pengaturan akun aplikasi {storeName}. (Perpanjangan otomatis tidak dapat dibatalkan dari dalam aplikasi.)",
   "purchaseErrorRestoreFailed": "Informasi pembelian sebelumnya tidak ditemukan. Periksa akun Anda dan coba lagi",

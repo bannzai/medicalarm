@@ -125,7 +125,7 @@
   "purchaseErrorInsufficientPermissions": "আপনার {accountName} দিয়ে প্ল্যানে সাবস্ক্রাইব করা যাচ্ছে না। পেমেন্টের তথ্য যাচাই করে আবার চেষ্টা করুন।",
   "purchaseErrorPaymentPending": "পেমেন্টটি মুলতুবি আছে। লগইন করা {accountName} দিয়ে {storeName} পরীক্ষা করুন।",
   "premiumUserThanksTitle": "আপনি একজন প্রিমিয়াম সদস্য",
-  "premiumUserThanksMessage": "আমাদের সেবা ব্যবহার করার জন্য ধন্যবাদ।\nআপনাদের কারণেই আমরা Medicalarm পরিচালনা চালিয়ে যেতে পারছি।",
+  "premiumUserThanksMessage": "Medicalarm ব্যবহার করার জন্য ধন্যবাদ।\nআপনাদের সহায়তায় আমরা Medicalarm-এর কার্যক্রম চালিয়ে যেতে পারছি।",
   "premiumPricePerMonth": "({price}/মাস)",
   "premiumCancelDescription": "・কেনার পর {storeName} অ্যাপের অ্যাকাউন্ট সেটিংস থেকে স্বয়ংক্রিয় নবায়ন বাতিল করতে পারবেন। (অ্যাপের ভেতর থেকে স্বয়ংক্রিয় নবায়ন বাতিল করা যায় না।)",
   "purchaseErrorRestoreFailed": "আগের কেনাকাটার তথ্য পাওয়া যায়নি। আপনার অ্যাকাউন্ট পরীক্ষা করে আবার চেষ্টা করুন",

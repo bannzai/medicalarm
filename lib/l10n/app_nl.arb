@@ -125,7 +125,7 @@
   "purchaseErrorInsufficientPermissions": "Je kunt je met {accountName} niet op het abonnement abonneren. Controleer je betaalgegevens en probeer het opnieuw.",
   "purchaseErrorPaymentPending": "De betaling staat nog open. Controleer {storeName} met het ingelogde {accountName}.",
   "premiumUserThanksTitle": "Je bent Premium-lid",
-  "premiumUserThanksMessage": "Bedankt dat u onze dienst gebruikt.\nDankzij u kunnen we Medicalarm blijven onderhouden.",
+  "premiumUserThanksMessage": "Bedankt dat u Medicalarm gebruikt.\nDankzij uw steun kunnen we Medicalarm blijven onderhouden.",
   "premiumPricePerMonth": "({price}/maand)",
   "premiumCancelDescription": "・Na aankoop kunt u automatische verlenging annuleren via de accountinstellingen van de {storeName}-app. (Automatische verlenging kan niet vanuit de app zelf worden geannuleerd.)",
   "purchaseErrorRestoreFailed": "Informatie over de vorige aankoop is niet gevonden. Controleer je account en probeer het opnieuw",

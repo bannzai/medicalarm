@@ -125,7 +125,7 @@
   "purchaseErrorInsufficientPermissions": "{accountName}-ით გეგმაზე გამოწერა შეუძლებელია. შეამოწმეთ გადახდის ინფორმაცია და სცადეთ ხელახლა.",
   "purchaseErrorPaymentPending": "გადახდა მოლოდინის რეჟიმშია. შეამოწმეთ {storeName} შესული {accountName}-ით.",
   "premiumUserThanksTitle": "თქვენ Premium წევრი ხართ",
-  "premiumUserThanksMessage": "გმადლობთ, რომ ჩვენს სერვისს იყენებთ.\nთქვენი წყალობით შეგვიძლია Medicalarm-ის მუშაობა გავაგრძელოთ.",
+  "premiumUserThanksMessage": "გმადლობთ, რომ Medicalarm-ს იყენებთ.\nთქვენი მხარდაჭერის წყალობით Medicalarm-ის მუშაობის გაგრძელებას ვახერხებთ.",
   "premiumPricePerMonth": "({price}/თვე)",
   "premiumCancelDescription": "・შეძენის შემდეგ ავტომატური განახლების გაუქმება შეგიძლიათ {storeName} აპის ანგარიშის პარამეტრებიდან. (ავტომატური განახლების გაუქმება აპიდან შეუძლებელია.)",
   "purchaseErrorRestoreFailed": "წინა შესყიდვის ინფორმაცია ვერ მოიძებნა. შეამოწმეთ თქვენი ანგარიში და ხელახლა სცადეთ",

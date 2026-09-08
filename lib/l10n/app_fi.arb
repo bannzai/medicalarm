@@ -125,7 +125,7 @@
   "purchaseErrorInsufficientPermissions": "Et voi tilata tilausta tilillä {accountName}. Tarkista maksutietosi ja yritä uudelleen.",
   "purchaseErrorPaymentPending": "Maksu on odottamassa. Tarkista {storeName} sisäänkirjautuneella tilillä {accountName}.",
   "premiumUserThanksTitle": "Olet Premium-jäsen",
-  "premiumUserThanksMessage": "Kiitos, että käytät palveluamme.\nSinun ansiostasi voimme jatkaa Medicalarmin ylläpitoa.",
+  "premiumUserThanksMessage": "Kiitos, että käytät Medicalarmia.\nTukenne ansiosta voimme jatkaa Medicalarmin ylläpitoa.",
   "premiumPricePerMonth": "({price}/kk)",
   "premiumCancelDescription": "・Oston jälkeen voit peruuttaa automaattisen uusimisen {storeName}-apin tiliasetuksista. (Automaattista uusimista ei voi peruuttaa itse sovelluksessa.)",
   "purchaseErrorRestoreFailed": "Aiemman ostoksen tietoja ei löytynyt. Tarkista tilisi ja yritä uudelleen",

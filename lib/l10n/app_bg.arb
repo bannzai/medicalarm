@@ -125,7 +125,7 @@
   "purchaseErrorInsufficientPermissions": "Не можете да се абонирате за плана с {accountName}. Проверете данните за плащане и опитайте отново.",
   "purchaseErrorPaymentPending": "Плащането е в изчакване. Моля, проверете {storeName} с влезлия в профила ви {accountName}.",
   "premiumUserThanksTitle": "Вие сте премиум член",
-  "premiumUserThanksMessage": "Благодарим ви, че използвате нашата услуга.\nБлагодарение на вас можем да продължим да поддържаме Medicalarm.",
+  "premiumUserThanksMessage": "Благодарим ви, че използвате Medicalarm.\nБлагодарение на вас можем да продължим работата на Medicalarm.",
   "premiumPricePerMonth": "({price}/месец)",
   "premiumCancelDescription": "・След покупката можете да отмените автоматичното подновяване от настройките на акаунта в приложението {storeName}. (Автоматичното подновяване не може да бъде отменено от самото приложение.)",
   "purchaseErrorRestoreFailed": "Предишната информация за покупката не е намерена. Проверете акаунта си и опитайте отново",

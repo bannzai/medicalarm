@@ -125,7 +125,7 @@
   "purchaseErrorInsufficientPermissions": "Ezin duzu planerako harpidetzarik egin {accountName} kontuarekin. Egiaztatu ordainketa-informazioa eta saiatu berriro.",
   "purchaseErrorPaymentPending": "Ordainketa zain dago. Egiaztatu {storeName} saioa hasita duzun {accountName} kontuarekin.",
   "premiumUserThanksTitle": "Premium kidea zara",
-  "premiumUserThanksMessage": "Eskerrik asko gure zerbitzua erabiltzeagatik.\nZuei esker, Medicalarm mantentzen jarrai dezakegu.",
+  "premiumUserThanksMessage": "Eskerrik asko Medicalarm erabiltzeagatik.\nZuen laguntzari esker, Medicalarm martxan mantentzen jarrai dezakegu.",
   "premiumPricePerMonth": "({price}/hilean)",
   "premiumCancelDescription": "・Erosketa egin ondoren, berritze automatikoa {storeName} aplikazioaren kontu-ezarpenetan bertan behera utz dezakezu. (Berritze automatikoa ezin da aplikaziotik bertatik bertan behera utzi.)",
   "purchaseErrorRestoreFailed": "Ez da aurkitu aurreko erosketaren informaziorik. Egiaztatu kontua eta saiatu berriro",

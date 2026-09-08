@@ -125,7 +125,7 @@
   "purchaseErrorInsufficientPermissions": "{accountName} аркылуу планга жазыла албайсыз. Төлөм маалыматыңызды текшерип, кайра аракет кылыңыз.",
   "purchaseErrorPaymentPending": "Төлөм күтүлүүдө. Кирген {accountName} аккаунтуңуз менен {storeName} кызматын текшериңиз.",
   "premiumUserThanksTitle": "Сиз Premium мүчөсүсүз",
-  "premiumUserThanksMessage": "Кызматыбызды колдонгонуңуз үчүн рахмат.\nСиздин аркаңызда Medicalarm ишин уланта алабыз.",
+  "premiumUserThanksMessage": "Medicalarm колдонгонуңуз үчүн рахмат.\nСиздин колдооңуздун аркасында Medicalarm ишин уланта алабыз.",
   "premiumPricePerMonth": "({price}/ай)",
   "premiumCancelDescription": "・Сатып алгандан кийин автоматтык узартууну {storeName} колдонмосунун аккаунт жөндөөлөрүнөн жокко чыгара аласыз. (Автоматтык узартууну колдонмонун ичинен жокко чыгаруу мүмкүн эмес.)",
   "purchaseErrorRestoreFailed": "Мурунку сатып алуу маалыматы табылган жок. Каттоо эсебиңизди текшерип, кайра аракет кылыңыз",

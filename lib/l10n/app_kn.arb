@@ -125,7 +125,7 @@
   "purchaseErrorInsufficientPermissions": "{accountName} ಬಳಸಿ ಪ್ಲಾನ್‌ಗೆ ಚಂದಾದಾರರಾಗಲು ಸಾಧ್ಯವಿಲ್ಲ. ಪಾವತಿ ಮಾಹಿತಿಯನ್ನು ಪರಿಶೀಲಿಸಿ ಮತ್ತು ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.",
   "purchaseErrorPaymentPending": "ಪಾವತಿ ಬಾಕಿಯಿದೆ. ಸೈನ್ ಇನ್ ಮಾಡಿದ {accountName} ಬಳಸಿ {storeName} ಪರಿಶೀಲಿಸಿ.",
   "premiumUserThanksTitle": "ನೀವು ಪ್ರೀಮಿಯಂ ಸದಸ್ಯರಾಗಿದ್ದೀರಿ",
-  "premiumUserThanksMessage": "ನಮ್ಮ ಸೇವೆಯನ್ನು ಬಳಸಿದ್ದಕ್ಕಾಗಿ ಧನ್ಯವಾದಗಳು.\nನಿಮ್ಮ ಕಾರಣದಿಂದಾಗಿ ನಾವು Medicalarm ಅನ್ನು ಮುಂದುವರಿಸಿ ನಡೆಸಲು ಸಾಧ್ಯವಾಗುತ್ತಿದೆ.",
+  "premiumUserThanksMessage": "Medicalarm ಬಳಸಿದ್ದಕ್ಕಾಗಿ ಧನ್ಯವಾದಗಳು.\nನಿಮ್ಮ ಬೆಂಬಲದಿಂದ ನಾವು Medicalarm ಅನ್ನು ಮುಂದುವರಿಸಿ ನಿರ್ವಹಿಸಬಹುದು.",
   "premiumPricePerMonth": "({price}/ತಿಂಗಳು)",
   "premiumCancelDescription": "・ಖರೀದಿಸಿದ ನಂತರ, {storeName} ಆ್ಯಪ್‌ನ ಖಾತೆ ಸೆಟ್ಟಿಂಗ್‌ಗಳಲ್ಲಿ ಸ್ವಯಂಚಾಲಿತ ನವೀಕರಣವನ್ನು ರದ್ದು ಮಾಡಬಹುದು. (ಆ್ಯಪ್‌ನ ಒಳಗಿನಿಂದ ಸ್ವಯಂಚಾಲಿತ ನವೀಕರಣವನ್ನು ರದ್ದು ಮಾಡಲು ಸಾಧ್ಯವಿಲ್ಲ.)",
   "purchaseErrorRestoreFailed": "ಹಿಂದಿನ ಖರೀದಿ ಮಾಹಿತಿ ಕಂಡುಬಂದಿಲ್ಲ. ನಿಮ್ಮ ಖಾತೆಯನ್ನು ಪರಿಶೀಲಿಸಿ ಮತ್ತು ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ",

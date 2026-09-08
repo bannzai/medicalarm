@@ -125,7 +125,7 @@
   "purchaseErrorInsufficientPermissions": "Kontoga {accountName} ei saa plaani tellida. Kontrolli oma makseteavet ja proovi uuesti.",
   "purchaseErrorPaymentPending": "Makse on ootel. Kontrollige {storeName} sisselogitud kontoga {accountName}.",
   "premiumUserThanksTitle": "Olete Premiumi liige",
-  "premiumUserThanksMessage": "Täname, et kasutate meie teenust.\nTänu teile saame Medicalarmi tegevust jätkata.",
+  "premiumUserThanksMessage": "Täname, et kasutate Medicalarmi.\nTänu teie toetusele saame Medicalarmi tegevust jätkata.",
   "premiumPricePerMonth": "({price}/kuu)",
   "premiumCancelDescription": "・Pärast ostu saate automaatse uuendamise tühistada rakenduse {storeName} konto seadetes. (Automaatset uuendamist ei saa rakenduses endas tühistada.)",
   "purchaseErrorRestoreFailed": "Eelmise ostu teavet ei leitud. Kontrolli oma kontot ja proovi uuesti",

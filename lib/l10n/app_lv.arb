@@ -125,7 +125,7 @@
   "purchaseErrorInsufficientPermissions": "Ar {accountName} nevarat abonēt plānu. Pārbaudiet maksājuma informāciju un mēģiniet vēlreiz.",
   "purchaseErrorPaymentPending": "Maksājums tiek apstrādāts. Pārbaudiet {storeName}, izmantojot kontu {accountName}, kurā esat pierakstījies.",
   "premiumUserThanksTitle": "Jūs esat Premium dalībnieks",
-  "premiumUserThanksMessage": "Paldies, ka izmantojat mūsu pakalpojumu.\nPateicoties jums, mēs varam turpināt Medicalarm darbību.",
+  "premiumUserThanksMessage": "Paldies, ka izmantojat Medicalarm.\nPateicoties jūsu atbalstam, varam turpināt Medicalarm darbību.",
   "premiumPricePerMonth": "({price}/mēn.)",
   "premiumCancelDescription": "・Pēc iegādes automātisko atjaunošanu varat atcelt lietotnes {storeName} konta iestatījumos. (Automātisko atjaunošanu nevar atcelt pašā lietotnē.)",
   "purchaseErrorRestoreFailed": "Iepriekšējā pirkuma informācija nav atrasta. Pārbaudiet savu kontu un mēģiniet vēlreiz",

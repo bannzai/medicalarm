@@ -125,7 +125,7 @@
   "purchaseErrorInsufficientPermissions": "Δεν μπορείτε να εγγραφείτε στο πρόγραμμα με το {accountName}. Ελέγξτε τα στοιχεία πληρωμής και δοκιμάστε ξανά.",
   "purchaseErrorPaymentPending": "Η πληρωμή εκκρεμεί. Ελέγξτε το {storeName} με τον συνδεδεμένο λογαριασμό {accountName}.",
   "premiumUserThanksTitle": "Είστε μέλος Premium",
-  "premiumUserThanksMessage": "Σας ευχαριστούμε που χρησιμοποιείτε την υπηρεσία μας.\nΧάρη σε εσάς, μπορούμε να συνεχίσουμε τη λειτουργία του Medicalarm.",
+  "premiumUserThanksMessage": "Σας ευχαριστούμε που χρησιμοποιείτε το Medicalarm.\nΧάρη στην υποστήριξή σας μπορούμε να συνεχίσουμε τη λειτουργία του Medicalarm.",
   "premiumPricePerMonth": "({price}/μήνα)",
   "premiumCancelDescription": "・Μετά την αγορά, μπορείτε να ακυρώσετε την αυτόματη ανανέωση από τις ρυθμίσεις λογαριασμού της εφαρμογής {storeName}. (Η αυτόματη ανανέωση δεν μπορεί να ακυρωθεί μέσα από την εφαρμογή.)",
   "purchaseErrorRestoreFailed": "Δεν βρέθηκαν πληροφορίες για την προηγούμενη αγορά. Ελέγξτε τον λογαριασμό σας και δοκιμάστε ξανά",

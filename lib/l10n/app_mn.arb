@@ -125,7 +125,7 @@
   "purchaseErrorInsufficientPermissions": "{accountName}-ээр төлөвлөгөөнд бүртгүүлэх боломжгүй. Төлбөрийн мэдээллээ шалгаад дахин оролдоно уу.",
   "purchaseErrorPaymentPending": "Төлбөр хүлээгдэж байна. Нэвтэрсэн {accountName} ашиглан {storeName}-г шалгана уу.",
   "premiumUserThanksTitle": "Та Premium гишүүн байна",
-  "premiumUserThanksMessage": "Манай үйлчилгээг ашиглаж байгаад баярлалаа.\nТаны ачаар бид Medicalarm-ийг үргэлжлүүлэн ажиллуулах боломжтой байна.",
+  "premiumUserThanksMessage": "Medicalarm-ийг ашигласанд баярлалаа.\nТаны дэмжлэгийн ачаар бид Medicalarm-ийг үргэлжлүүлэн ажиллуулж байна.",
   "premiumPricePerMonth": "({price}/сар)",
   "premiumCancelDescription": "・Худалдан авсны дараа {storeName} аппын бүртгэлийн тохиргооноос автоматаар сунгалтыг цуцалж болно. (Автоматаар сунгалтыг апп дотроос цуцлах боломжгүй.)",
   "purchaseErrorRestoreFailed": "Өмнөх худалдан авалтын мэдээлэл олдсонгүй. Бүртгэлээ шалгаад дахин оролдоно уу",

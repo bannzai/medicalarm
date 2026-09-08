@@ -125,7 +125,7 @@
   "purchaseErrorInsufficientPermissions": "Nu vă puteți abona la plan cu {accountName}. Verificați informațiile de plată și încercați din nou.",
   "purchaseErrorPaymentPending": "Plata este în așteptare. Verificați {storeName} folosind contul {accountName} conectat.",
   "premiumUserThanksTitle": "Sunteți membru Premium",
-  "premiumUserThanksMessage": "Vă mulțumim că folosiți serviciul nostru.\nDatorită vouă, putem continua să operăm Medicalarm.",
+  "premiumUserThanksMessage": "Vă mulțumim că utilizați Medicalarm.\nDatorită sprijinului dumneavoastră, putem continua să operăm Medicalarm.",
   "premiumPricePerMonth": "({price}/lună)",
   "premiumCancelDescription": "・După achiziție, puteți anula reînnoirea automată din setările contului aplicației {storeName}. (Reînnoirea automată nu poate fi anulată din aplicație.)",
   "purchaseErrorRestoreFailed": "Informațiile despre achiziția anterioară nu au fost găsite. Verificați contul și încercați din nou",

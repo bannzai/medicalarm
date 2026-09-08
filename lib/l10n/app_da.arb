@@ -125,7 +125,7 @@
   "purchaseErrorInsufficientPermissions": "Du kan ikke abonnere på abonnementet med {accountName}. Kontrollér dine betalingsoplysninger, og prøv igen.",
   "purchaseErrorPaymentPending": "Betalingen afventer behandling. Kontrollér {storeName} med den loggede {accountName}.",
   "premiumUserThanksTitle": "Du er premium-medlem",
-  "premiumUserThanksMessage": "Tak, fordi du bruger vores tjeneste.\nTakket være dig kan vi fortsætte driften af Medicalarm.",
+  "premiumUserThanksMessage": "Tak, fordi du bruger Medicalarm.\nTakket være jeres støtte kan vi fortsætte driften af Medicalarm.",
   "premiumPricePerMonth": "({price}/måned)",
   "premiumCancelDescription": "・Efter købet kan du annullere automatisk fornyelse i kontoindstillingerne i appen {storeName}. (Automatisk fornyelse kan ikke annulleres i selve appen.)",
   "purchaseErrorRestoreFailed": "Oplysninger om tidligere køb blev ikke fundet. Kontrollér din konto, og prøv igen",

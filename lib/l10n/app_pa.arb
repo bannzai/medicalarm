@@ -125,7 +125,7 @@
   "purchaseErrorInsufficientPermissions": "ਤੁਸੀਂ {accountName} ਨਾਲ ਪਲਾਨ ਦੀ ਗਾਹਕੀ ਨਹੀਂ ਲੈ ਸਕਦੇ। ਭੁਗਤਾਨ ਜਾਣਕਾਰੀ ਦੀ ਜਾਂਚ ਕਰਕੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।",
   "purchaseErrorPaymentPending": "ਭੁਗਤਾਨ ਲੰਬਿਤ ਹੈ। ਸਾਈਨ ਇਨ ਕੀਤੇ {accountName} ਨਾਲ {storeName} ਦੀ ਜਾਂਚ ਕਰੋ।",
   "premiumUserThanksTitle": "ਤੁਸੀਂ ਪ੍ਰੀਮੀਅਮ ਮੈਂਬਰ ਹੋ",
-  "premiumUserThanksMessage": "ਸਾਡੀ ਸੇਵਾ ਵਰਤਣ ਲਈ ਧੰਨਵਾਦ।\nਤੁਹਾਡੇ ਸਹਿਯੋਗ ਨਾਲ ਅਸੀਂ Medicalarm ਨੂੰ ਜਾਰੀ ਰੱਖ ਸਕਦੇ ਹਾਂ।",
+  "premiumUserThanksMessage": "Medicalarm ਵਰਤਣ ਲਈ ਤੁਹਾਡਾ ਧੰਨਵਾਦ।\nਤੁਹਾਡੇ ਸਹਿਯੋਗ ਸਦਕਾ ਅਸੀਂ Medicalarm ਨੂੰ ਚਲਾਉਣਾ ਜਾਰੀ ਰੱਖ ਸਕਦੇ ਹਾਂ।",
   "premiumPricePerMonth": "({price}/ਮਹੀਨਾ)",
   "premiumCancelDescription": "・ਖਰੀਦ ਤੋਂ ਬਾਅਦ, ਤੁਸੀਂ {storeName} ਐਪ ਦੀਆਂ ਖਾਤਾ ਸੈਟਿੰਗਾਂ ਵਿੱਚੋਂ ਸਵੈਚਲਿਤ ਨਵੀਨੀਕਰਨ ਰੱਦ ਕਰ ਸਕਦੇ ਹੋ। (ਐਪ ਦੇ ਅੰਦਰੋਂ ਸਵੈਚਲਿਤ ਨਵੀਨੀਕਰਨ ਰੱਦ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਦਾ।)",
   "purchaseErrorRestoreFailed": "ਪਿਛਲੀ ਖਰੀਦਦਾਰੀ ਦੀ ਜਾਣਕਾਰੀ ਨਹੀਂ ਮਿਲੀ। ਆਪਣਾ ਖਾਤਾ ਜਾਂਚੋ ਅਤੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ",

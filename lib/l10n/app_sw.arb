@@ -125,7 +125,7 @@
   "purchaseErrorInsufficientPermissions": "Huwezi kujisajili kwenye mpango kwa kutumia {accountName}. Kagua maelezo yako ya malipo na ujaribu tena.",
   "purchaseErrorPaymentPending": "Malipo yanasubiri. Tafadhali angalia {storeName} ukitumia {accountName} uliyoingia nayo.",
   "premiumUserThanksTitle": "Wewe ni mwanachama wa Premium",
-  "premiumUserThanksMessage": "Asante kwa kutumia huduma yetu.\nShukrani kwako, tunaweza kuendelea kuendesha Medicalarm.",
+  "premiumUserThanksMessage": "Asante kwa kutumia Medicalarm.\nShukrani kwa msaada wako, tunaweza kuendelea kuiendesha Medicalarm.",
   "premiumPricePerMonth": "({price}/mwezi)",
   "premiumCancelDescription": "・Baada ya kununua, unaweza kughairi usasishaji wa kiotomatiki katika mipangilio ya akaunti ya programu ya {storeName}. (Usasishaji wa kiotomatiki hauwezi kughairiwa ndani ya programu.)",
   "purchaseErrorRestoreFailed": "Maelezo ya ununuzi uliopita hayakupatikana. Kagua akaunti yako na ujaribu tena",

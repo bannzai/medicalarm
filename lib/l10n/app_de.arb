@@ -125,7 +125,7 @@
   "purchaseErrorInsufficientPermissions": "Mit {accountName} können Sie den Plan nicht abonnieren. Überprüfen Sie Ihre Zahlungsinformationen und versuchen Sie es erneut.",
   "purchaseErrorPaymentPending": "Die Zahlung steht noch aus. Bitte überprüfe {storeName} mit dem angemeldeten {accountName}.",
   "premiumUserThanksTitle": "Du bist Premium-Mitglied",
-  "premiumUserThanksMessage": "Vielen Dank, dass Sie unseren Dienst nutzen.\nDank Ihnen können wir Medicalarm weiter betreiben.",
+  "premiumUserThanksMessage": "Vielen Dank, dass Sie Medicalarm nutzen.\nDank Ihrer Unterstützung können wir Medicalarm weiter betreiben.",
   "premiumPricePerMonth": "({price}/Monat)",
   "premiumCancelDescription": "・Nach dem Kauf können Sie die automatische Verlängerung in den Kontoeinstellungen der App {storeName} kündigen. (Die automatische Verlängerung kann nicht direkt in der App gekündigt werden.)",
   "purchaseErrorRestoreFailed": "Informationen zum vorherigen Kauf wurden nicht gefunden. Überprüfe dein Konto und versuche es erneut",

@@ -125,7 +125,7 @@
   "purchaseErrorInsufficientPermissions": "আপোনাৰ {accountName} ব্যৱহাৰ কৰি প্লেনটোত চাবস্ক্ৰাইব কৰিব নোৱাৰে। পেমেণ্টৰ তথ্য পৰীক্ষা কৰি পুনৰ চেষ্টা কৰক।",
   "purchaseErrorPaymentPending": "পেমেণ্টটো অপেক্ষাৰত আছে। লগ ইন কৰা {accountName} ব্যৱহাৰ কৰি {storeName} পৰীক্ষা কৰক।",
   "premiumUserThanksTitle": "আপুনি প্ৰিমিয়াম সদস্য",
-  "premiumUserThanksMessage": "আমাৰ সেৱা ব্যৱহাৰ কৰাৰ বাবে ধন্যবাদ।\nআপোনাৰ সহায়ৰ বাবেই আমি Medicalarm চলাই যাব পাৰিছোঁ।",
+  "premiumUserThanksMessage": "Medicalarm ব্যৱহাৰ কৰাৰ বাবে ধন্যবাদ।\nআপোনাৰ সহায়ৰ বাবে আমি Medicalarm চলাই যাব পাৰিছোঁ।",
   "premiumPricePerMonth": "({price}/মাহ)",
   "premiumCancelDescription": "・ক্ৰয় কৰাৰ পিছত, {storeName} এপৰ একাউণ্ট ছেটিংছৰ পৰা স্বয়ংক্ৰিয় নবীকৰণ বাতিল কৰিব পাৰিব। (এপৰ ভিতৰৰ পৰা স্বয়ংক্ৰিয় নবীকৰণ বাতিল কৰিব নোৱাৰি।)",
   "purchaseErrorRestoreFailed": "পূৰ্বৰ ক্ৰয়ৰ তথ্য পোৱা নগ’ল। আপোনাৰ একাউণ্ট পৰীক্ষা কৰি পুনৰ চেষ্টা কৰক",

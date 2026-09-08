@@ -125,7 +125,7 @@
   "purchaseErrorInsufficientPermissions": "Non podes subscribirte ao plan con {accountName}. Comproba a información de pagamento e téntao de novo.",
   "purchaseErrorPaymentPending": "O pagamento está pendente. Comproba {storeName} coa conta {accountName} coa que iniciaches sesión.",
   "premiumUserThanksTitle": "Es membro Premium",
-  "premiumUserThanksMessage": "Grazas por utilizar o noso servizo.\nGrazas a vós, podemos continuar mantendo Medicalarm.",
+  "premiumUserThanksMessage": "Grazas por usar Medicalarm.\nGrazas ao voso apoio, podemos seguir mantendo Medicalarm.",
   "premiumPricePerMonth": "({price}/mes)",
   "premiumCancelDescription": "・Despois da compra, podes cancelar a renovación automática na configuración da conta da aplicación {storeName}. (A renovación automática non se pode cancelar desde a aplicación.)",
   "purchaseErrorRestoreFailed": "Non se atopou a información da compra anterior. Comproba a túa conta e téntao de novo",

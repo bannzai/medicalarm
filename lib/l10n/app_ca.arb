@@ -125,7 +125,7 @@
   "purchaseErrorInsufficientPermissions": "No pots subscriure’t al pla amb {accountName}. Comprova la informació de pagament i torna-ho a provar.",
   "purchaseErrorPaymentPending": "El pagament està pendent. Comproveu {storeName} amb el compte {accountName} amb què heu iniciat sessió.",
   "premiumUserThanksTitle": "Ets membre premium",
-  "premiumUserThanksMessage": "Gràcies per utilitzar el nostre servei.\nGràcies a vosaltres, podem continuar mantenint Medicalarm.",
+  "premiumUserThanksMessage": "Gràcies per utilitzar Medicalarm.\nGràcies al vostre suport, podem continuar gestionant Medicalarm.",
   "premiumPricePerMonth": "({price}/mes)",
   "premiumCancelDescription": "・Després de la compra, pots cancel·lar la renovació automàtica a la configuració del compte de l’app {storeName}. (No es pot cancel·lar la renovació automàtica des de l’app.)",
   "purchaseErrorRestoreFailed": "No s'ha trobat la informació de la compra anterior. Comprova el compte i torna-ho a provar",

@@ -125,7 +125,7 @@
   "purchaseErrorInsufficientPermissions": "तपाईं {accountName} प्रयोग गरेर योजनाको सदस्यता लिन सक्नुहुन्न। भुक्तानीसम्बन्धी जानकारी जाँच गरी पुनः प्रयास गर्नुहोस्।",
   "purchaseErrorPaymentPending": "भुक्तानी पेन्डिङमा छ। लग इन गरिएको {accountName} प्रयोग गरी {storeName} जाँच गर्नुहोस्।",
   "premiumUserThanksTitle": "तपाईं प्रिमियम सदस्य हुनुहुन्छ",
-  "premiumUserThanksMessage": "हाम्रो सेवा प्रयोग गर्नुभएकोमा धन्यवाद।\nतपाईंको सहयोगले हामी Medicalarm सञ्चालन गर्न जारी राख्न सकेका छौँ।",
+  "premiumUserThanksMessage": "Medicalarm प्रयोग गर्नुभएकोमा धन्यवाद।\nतपाईंको सहयोगका कारण हामी Medicalarm सञ्चालनलाई निरन्तरता दिन सक्छौँ।",
   "premiumPricePerMonth": "({price}/महिना)",
   "premiumCancelDescription": "・खरिद गरेपछि, {storeName} एपको खाता सेटिङबाट स्वतः नवीकरण रद्द गर्न सक्नुहुन्छ। (एपभित्रबाट स्वतः नवीकरण रद्द गर्न सकिँदैन।)",
   "purchaseErrorRestoreFailed": "अघिल्लो खरिदसम्बन्धी जानकारी फेला परेन। आफ्नो खाता जाँच गरी पुनः प्रयास गर्नुहोस्",

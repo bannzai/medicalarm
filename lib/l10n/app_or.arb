@@ -125,7 +125,7 @@
   "purchaseErrorInsufficientPermissions": "ଆପଣ {accountName} ମାଧ୍ୟମରେ ପ୍ଲାନ୍‌କୁ ସବ୍ସ୍କ୍ରାଇବ୍ କରିପାରିବେ ନାହିଁ। ପେମେଣ୍ଟ ସୂଚନା ଯାଞ୍ଚ କରି ପୁଣି ଚେଷ୍ଟା କରନ୍ତୁ।",
   "purchaseErrorPaymentPending": "ପେମେଣ୍ଟ୍‌ଟି ବିଚାରାଧୀନ ଅଛି। ଲଗ୍‌ଇନ୍‌ କରାଯାଇଥିବା {accountName} ବ୍ୟବହାର କରି {storeName} ଯାଞ୍ଚ କରନ୍ତୁ।",
   "premiumUserThanksTitle": "ଆପଣ ଜଣେ ପ୍ରିମିୟମ ସଦସ୍ୟ",
-  "premiumUserThanksMessage": "ଆମର ସେବା ବ୍ୟବହାର କରିଥିବାରୁ ଧନ୍ୟବାଦ।\nଆପଣଙ୍କ ଯୋଗୁଁ ଆମେ Medicalarm ଚଳାଇ ରଖିପାରୁଛୁ।",
+  "premiumUserThanksMessage": "Medicalarm ବ୍ୟବହାର କରିଥିବାରୁ ଧନ୍ୟବାଦ।\nଆପଣଙ୍କ ସହଯୋଗ ଯୋଗୁଁ ଆମେ Medicalarm ଚାଲୁ ରଖିପାରୁଛୁ।",
   "premiumPricePerMonth": "({price}/ମାସ)",
   "premiumCancelDescription": "・କିଣିବା ପରେ, {storeName} ଆପ୍‌ର ଆକାଉଣ୍ଟ ସେଟିଂସ୍‌ରୁ ସ୍ୱୟଂଚାଳିତ ନବୀକରଣ ବାତିଲ କରିପାରିବେ। (ଆପ୍‌ ଭିତରୁ ସ୍ୱୟଂଚାଳିତ ନବୀକରଣ ବାତିଲ କରିହେବ ନାହିଁ।)",
   "purchaseErrorRestoreFailed": "ପୂର୍ବ କ୍ରୟ ସୂଚନା ମିଳିଲା ନାହିଁ। ଆପଣଙ୍କ ଆକାଉଣ୍ଟ ଯାଞ୍ଚ କରି ପୁଣି ଚେଷ୍ଟା କରନ୍ତୁ",

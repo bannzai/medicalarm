@@ -125,7 +125,7 @@
   "purchaseErrorInsufficientPermissions": "आप {accountName} से प्लान की सदस्यता नहीं ले सकते। भुगतान की जानकारी जाँचें और फिर कोशिश करें।",
   "purchaseErrorPaymentPending": "भुगतान लंबित है। साइन इन किए गए {accountName} से {storeName} की जाँच करें।",
   "premiumUserThanksTitle": "आप प्रीमियम सदस्य हैं",
-  "premiumUserThanksMessage": "हमारी सेवा का उपयोग करने के लिए धन्यवाद।\nआपके सहयोग से हम Medicalarm का संचालन जारी रख पा रहे हैं।",
+  "premiumUserThanksMessage": "Medicalarm का उपयोग करने के लिए धन्यवाद।\nआपके सहयोग की बदौलत हम Medicalarm का संचालन जारी रख पा रहे हैं।",
   "premiumPricePerMonth": "({price}/माह)",
   "premiumCancelDescription": "・खरीदारी के बाद, आप {storeName} ऐप की खाता सेटिंग में अपने-आप नवीनीकरण रद्द कर सकते हैं। (ऐप के अंदर से अपने-आप नवीनीकरण रद्द नहीं किया जा सकता।)",
   "purchaseErrorRestoreFailed": "पिछली खरीदारी की जानकारी नहीं मिली। अपना खाता जाँचें और फिर कोशिश करें",

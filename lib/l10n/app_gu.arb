@@ -125,7 +125,7 @@
   "purchaseErrorInsufficientPermissions": "તમે {accountName} વડે પ્લાનમાં સબ્સ્ક્રાઇબ કરી શકતા નથી. તમારી ચુકવણીની માહિતી તપાસો અને ફરી પ્રયાસ કરો.",
   "purchaseErrorPaymentPending": "ચુકવણી બાકી છે. સાઇન ઇન કરેલા {accountName} વડે {storeName} તપાસો.",
   "premiumUserThanksTitle": "તમે પ્રીમિયમ સભ્ય છો",
-  "premiumUserThanksMessage": "અમારી સેવા ઉપયોગ કરવા બદલ આભાર.\nતમારા કારણે અમે Medicalarmનું સંચાલન ચાલુ રાખી શકીએ છીએ.",
+  "premiumUserThanksMessage": "Medicalarm નો ઉપયોગ કરવા બદલ આભાર.\nતમારા સહયોગથી અમે Medicalarmનું સંચાલન ચાલુ રાખી શકીએ છીએ.",
   "premiumPricePerMonth": "({price}/મહિનો)",
   "premiumCancelDescription": "・ખરીદી કર્યા પછી, તમે {storeName} ઍપની એકાઉન્ટ સેટિંગ્સમાં ઑટોમૅટિક નવીકરણ રદ કરી શકો છો. (ઍપની અંદરથી ઑટોમૅટિક નવીકરણ રદ કરી શકાતું નથી.)",
   "purchaseErrorRestoreFailed": "પહેલાંની ખરીદીની માહિતી મળી નથી. તમારું એકાઉન્ટ તપાસો અને ફરી પ્રયાસ કરો",

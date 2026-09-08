@@ -125,7 +125,7 @@
   "purchaseErrorInsufficientPermissions": "A(z) {accountName} fiókkal nem fizethet elő a csomagra. Ellenőrizze fizetési adatait, majd próbálja újra.",
   "purchaseErrorPaymentPending": "A fizetés függőben van. Ellenőrizd a {storeName} szolgáltatást a bejelentkezett {accountName} fiókkal.",
   "premiumUserThanksTitle": "Ön Prémium-tag",
-  "premiumUserThanksMessage": "Köszönjük, hogy használja szolgáltatásunkat.\nÖnnek köszönhetően folytathatjuk a Medicalarm működtetését.",
+  "premiumUserThanksMessage": "Köszönjük, hogy a Medicalarmot használja.\nAz Ön támogatásának köszönhetően folytathatjuk a Medicalarm működtetését.",
   "premiumPricePerMonth": "({price}/hó)",
   "premiumCancelDescription": "・Vásárlás után az automatikus megújítás a {storeName} alkalmazás fiókbeállításaiban mondható le. (Az automatikus megújítás az alkalmazáson belül nem mondható le.)",
   "purchaseErrorRestoreFailed": "A korábbi vásárlás adatai nem találhatók. Ellenőrizd a fiókodat, majd próbáld újra",

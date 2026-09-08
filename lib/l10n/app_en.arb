@@ -125,7 +125,7 @@
   "purchaseErrorInsufficientPermissions": "You can’t subscribe to the plan with {accountName}. Check your payment information and try again.",
   "purchaseErrorPaymentPending": "The payment is pending. Please check {storeName} with the signed-in {accountName}.",
   "premiumUserThanksTitle": "You’re a Premium member",
-  "premiumUserThanksMessage": "Thank you for using our service.\nThanks to you, we can continue operating Medicalarm.",
+  "premiumUserThanksMessage": "Thank you for using Medicalarm.\nYour support makes it possible for us to keep Medicalarm running.",
   "premiumPricePerMonth": "({price}/month)",
   "premiumCancelDescription": "・After purchase, you can cancel auto-renewal in the account settings of the {storeName} app. (Auto-renewal cannot be canceled from within the app.)",
   "purchaseErrorRestoreFailed": "Previous purchase information was not found. Check your account and try again",

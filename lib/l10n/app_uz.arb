@@ -125,7 +125,7 @@
   "purchaseErrorInsufficientPermissions": "{accountName} orqali rejaga obuna bo‘la olmaysiz. To‘lov ma’lumotlarini tekshirib, qayta urinib ko‘ring.",
   "purchaseErrorPaymentPending": "To‘lov kutilmoqda. Tizimga kirilgan {accountName} orqali {storeName}ni tekshiring.",
   "premiumUserThanksTitle": "Siz Premium aʼzosiz",
-  "premiumUserThanksMessage": "Xizmatimizdan foydalanganingiz uchun rahmat.\nSiz tufayli Medicalarm faoliyatini davom ettira olamiz.",
+  "premiumUserThanksMessage": "Medicalarm’dan foydalanganingiz uchun rahmat.\nSizning qo‘llab-quvvatlashingiz tufayli Medicalarm faoliyatini davom ettira olamiz.",
   "premiumPricePerMonth": "({price}/oy)",
   "premiumCancelDescription": "・Xariddan so‘ng avtomatik yangilanishni {storeName} ilovasining hisob sozlamalarida bekor qilishingiz mumkin. (Avtomatik yangilanishni ilovaning o‘zidan bekor qilib bo‘lmaydi.)",
   "purchaseErrorRestoreFailed": "Avvalgi xarid maʼlumotlari topilmadi. Hisobingizni tekshirib, qayta urinib ko‘ring",

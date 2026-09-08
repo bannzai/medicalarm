@@ -125,7 +125,7 @@
   "purchaseErrorInsufficientPermissions": "Ви не можете оформити підписку на план за допомогою {accountName}. Перевірте платіжні дані та повторіть спробу.",
   "purchaseErrorPaymentPending": "Платіж очікує обробки. Перевірте {storeName} за допомогою облікового запису {accountName}, під яким ви ввійшли.",
   "premiumUserThanksTitle": "Ви є преміум-учасником",
-  "premiumUserThanksMessage": "Дякуємо, що користуєтеся нашим сервісом.\nЗавдяки вам ми можемо продовжувати роботу Medicalarm.",
+  "premiumUserThanksMessage": "Дякуємо, що користуєтеся Medicalarm.\nЗавдяки вашій підтримці ми можемо продовжувати роботу Medicalarm.",
   "premiumPricePerMonth": "({price}/місяць)",
   "premiumCancelDescription": "・Після покупки автоматичне поновлення можна скасувати в налаштуваннях облікового запису програми {storeName}. (Скасувати автоматичне поновлення в самій програмі неможливо.)",
   "purchaseErrorRestoreFailed": "Інформацію про попередню покупку не знайдено. Перевірте обліковий запис і спробуйте ще раз",

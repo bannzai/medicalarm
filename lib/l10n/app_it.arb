@@ -125,7 +125,7 @@
   "purchaseErrorInsufficientPermissions": "Non puoi abbonarti al piano con {accountName}. Controlla i dati di pagamento e riprova.",
   "purchaseErrorPaymentPending": "Il pagamento è in sospeso. Controlla {storeName} con l’account {accountName} con cui hai effettuato l’accesso.",
   "premiumUserThanksTitle": "Sei un membro Premium",
-  "premiumUserThanksMessage": "Grazie per utilizzare il nostro servizio.\nGrazie a te, possiamo continuare a gestire Medicalarm.",
+  "premiumUserThanksMessage": "Grazie per utilizzare Medicalarm.\nGrazie al vostro supporto, possiamo continuare a gestire Medicalarm.",
   "premiumPricePerMonth": "({price}/mese)",
   "premiumCancelDescription": "・Dopo l’acquisto, puoi annullare il rinnovo automatico nelle impostazioni dell’account dell’app {storeName}. (Il rinnovo automatico non può essere annullato dall’app.)",
   "purchaseErrorRestoreFailed": "Non sono state trovate informazioni sull’acquisto precedente. Controlla il tuo account e riprova",
