@@ -28,7 +28,7 @@
   "error": "אירעה שגיאה",
   "unexpectedError": "אירעה שגיאה בלתי צפויה",
   "cancel": "ביטול",
-  "delete": "מחק",
+  "delete": "מחיקה",
   "deleteAccount": "מחק חשבון",
   "deleteAccountConfirm": "מקדימה את המידע של המשתמש",
   "deleteAccountMessage": "אם תסיר את החשבון, כל המידע של המשתמש יימחק.",

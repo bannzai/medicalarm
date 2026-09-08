@@ -28,7 +28,7 @@
   "error": "خطایی رخ داد",
   "unexpectedError": "خطای غیرمنتظره‌ای رخ داد",
   "cancel": "لغو",
-  "delete": "حذف کردن",
+  "delete": "حذف",
   "deleteAccount": "حذف حساب",
   "deleteAccountConfirm": "اطلاعات کاربر حذف خواهد شد",
   "deleteAccountMessage": "با حذف حساب کاربری، تمام اطلاعات کاربر حذف خواهد شد.",
