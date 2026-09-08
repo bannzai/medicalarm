@@ -181,7 +181,7 @@
   "revertedByMember": "Отказао/ла {name}",
   "medicationTakenAtLabel": "{time} Узето",
   "medicineResumedSnackbar": "Узимање лека је настављено",
-  "medicineEditTooltip": "Уреди лек",
+  "medicineEditTooltip": "Измени лек",
   "groups": "Групе",
   "groupManagement": "Управљање групама",
   "createGroup": "Креирај групу",
