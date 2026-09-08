@@ -118,7 +118,7 @@
   "purchaseErrorInvalidReceipt": "Подаци о куповини нису важећи. Проверите податке о куповини.",
   "purchaseErrorMissingReceipt": "Подаци о купцу не постоје. Пријавите се на уређај помоћу налога {accountName} и покушајте поново.",
   "purchaseErrorNetwork": "Мрежна веза је нестабилна. Проверите везу и покушајте поново.",
-  "purchaseNotAllowed": "Куповине нису дозвољене на овом уређају",
+  "purchaseNotAllowed": "Куповина није дозвољена на овом уређају",
   "purchaseErrorInvalidCredentials": "Kupovina nije uspela. Pokušajte ponovo kasnije. Ako problem i dalje postoji, obratite nam se preko Podešavanja > Kontaktirajte nas. Detalji: {message}",
   "purchaseErrorUnexpectedBackend": "Kupovinu trenutno nije moguće dovršiti. Pokušajte ponovo kasnije. Ako problem i dalje postoji, kontaktirajte nas preko Podešavanja > Kontakt. Detalji: {message}",
   "purchaseErrorOperationInProgress": "Куповина је већ у току. Покушајте поново касније.",

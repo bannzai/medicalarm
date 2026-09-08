@@ -118,7 +118,7 @@
   "purchaseErrorInvalidReceipt": "Ógildar kaupupplýsingar. Athugaðu kaupupplýsingarnar þínar.",
   "purchaseErrorMissingReceipt": "Upplýsingar um kaupanda finnast ekki. Skráðu þig inn á tækið með {accountName} og reyndu aftur.",
   "purchaseErrorNetwork": "Nettengingin er óstöðug. Athugaðu tenginguna og reyndu aftur.",
-  "purchaseNotAllowed": "Kaup eru ekki leyfð í þessu tæki",
+  "purchaseNotAllowed": "Kaup eru ekki leyfð á þessu tæki",
   "purchaseErrorInvalidCredentials": "Ekki tókst að ganga frá kaupum. Reyndu aftur síðar. Ef vandamálið heldur áfram skaltu hafa samband við okkur í Stillingar > Hafðu samband. Upplýsingar: {message}",
   "purchaseErrorUnexpectedBackend": "Ekki er hægt að ljúka kaupunum eins og er. Prófaðu aftur síðar. Ef vandamálið heldur áfram skaltu hafa samband við okkur í Stillingar > Hafðu samband. Upplýsingar: {message}",
   "purchaseErrorOperationInProgress": "Kaup stendur nú þegar yfir. Vinsamlegast reyndu aftur síðar.",
