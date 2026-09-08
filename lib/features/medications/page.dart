@@ -6,6 +6,7 @@ import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:intl/intl.dart';
 import 'package:medicalarm/components/admob/admob.dart';
+import 'package:medicalarm/components/avatar/dose_receiver_avatar.dart';
 import 'package:medicalarm/components/banner/account_link_banner.dart';
 import 'package:medicalarm/components/calendar/weekly/pager.dart';
 import 'package:medicalarm/components/error/error_alert.dart';
@@ -36,6 +37,7 @@ import 'package:medicalarm/utils/date_time/date_time_ext.dart';
 import 'package:medicalarm/features/localization/l.dart';
 import 'package:medicalarm/utils/functions/firebase_functions.dart';
 import 'package:medicalarm/utils/local_notification/client.dart';
+import 'package:medicalarm/utils/member/operator_member_display_name.dart';
 import 'package:medicalarm/utils/purchase/purchase.dart';
 import 'package:purchases_flutter/models/customer_info_wrapper.dart';
 import 'package:url_launcher/url_launcher.dart';
@@ -238,12 +240,20 @@ class MedicationGroupTile extends StatelessWidget {
               ),
             ),
             const SizedBox(height: 4),
-            Text(
-              tileValue.doseReceiver.name,
-              style: const TextStyle(
-                fontSize: 18,
-                fontWeight: FontWeight.bold,
-              ),
+            Row(
+              children: [
+                DoseReceiverAvatar(doseReceiver: tileValue.doseReceiver, size: 32),
+                const SizedBox(width: 8),
+                Expanded(
+                  child: Text(
+                    tileValue.doseReceiver.name,
+                    style: const TextStyle(
+                      fontSize: 18,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                ),
+              ],
             ),
             const SizedBox(height: 4),
             for (final scheduleRow in tileValue.scheduleRows) ...[
@@ -283,6 +293,9 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
     final medicationHistoryUndoRevert = ref.watch(medicationHistoryUndoRevertProvider);
     final recentMedicationHistoriesFetch = ref.watch(recentMedicationHistoriesFetchProvider);
     final registerReminderLocalNotification = ref.watch(registerReminderLocalNotificationProvider);
+    // 他メンバーが記録した行に「誰が記録したか」を添えるための表示名。自分の記録・不明の場合は null
+    final recorderName =
+        scheduleRow.medicationHistory == null ? null : operatorMemberDisplayName(ref: ref, history: scheduleRow.medicationHistory!);
 
     // 行キーが安定化され snapshot 更新で widget が再生成されなくなったため、他メンバーの操作による
     // 記録の増減をローカルの isChecked へ反映する
@@ -567,22 +580,40 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
               ),
             ),
             const SizedBox(width: 8),
-            GestureDetector(
-              child: Text(
-                scheduleRow.medicine.name,
-                style: const TextStyle(fontSize: 16),
+            // 記録者表示が加わって横幅が不足した時に、薬名を省略して行あふれを防ぐ。
+            // Spacer を並べると flex の取り合いで薬名が余白より先に省略されるため、Expanded が余白ごと引き受け、
+            // Align でタップ領域と表示をテキスト幅に保つ
+            Expanded(
+              child: Align(
+                alignment: Alignment.centerLeft,
+                child: GestureDetector(
+                  child: Text(
+                    scheduleRow.medicine.name,
+                    style: const TextStyle(fontSize: 16),
+                    overflow: TextOverflow.ellipsis,
+                  ),
+                  onTap: () {
+                    analytics.logEvent(name: 'medications_medicine_name_tapped');
+                    showMedicineForm(context, scheduleRow.medicine);
+                  },
+                ),
               ),
-              onTap: () {
-                analytics.logEvent(name: 'medications_medicine_name_tapped');
-                showMedicineForm(context, scheduleRow.medicine);
-              },
             ),
-            const Spacer(),
-            // 同名・同時刻で並ぶ行を見分けるための識別情報として、チェック済みの行に記録時刻を表示する (#253)
+            // 同名・同時刻で並ぶ行を見分けるための識別情報として、チェック済みの行に記録時刻を表示する (#253)。
+            // 他メンバーの記録には記録者も併記して「誰が記録したか」を判別できるようにする (#277)
             if (isChecked.value && scheduleRow.medicationHistory != null) ...[
-              Text(
-                L.medicationTakenAtLabel(DateFormat.Hm().format(scheduleRow.medicationHistory!.recordedDateTime)),
-                style: const TextStyle(fontSize: 12, color: TextColor.gray),
+              // 記録者名が長い場合もラベル単体で行幅を超えないよう、画面幅の半分を上限に省略表示する。
+              // Flexible にすると Expanded の薬名と flex 領域を等分してしまい、ラベルが短くても薬名が半分幅で省略される
+              ConstrainedBox(
+                constraints: BoxConstraints(maxWidth: MediaQuery.sizeOf(context).width / 2),
+                child: Text(
+                  recorderName == null
+                      ? L.medicationTakenAtLabel(DateFormat.Hm().format(scheduleRow.medicationHistory!.recordedDateTime))
+                      : '${L.medicationTakenAtLabel(DateFormat.Hm().format(scheduleRow.medicationHistory!.recordedDateTime))}'
+                          ' · ${L.recordedByMember(recorderName)}',
+                  style: const TextStyle(fontSize: 12, color: TextColor.gray),
+                  overflow: TextOverflow.ellipsis,
+                ),
               ),
               const SizedBox(width: 8),
             ],
