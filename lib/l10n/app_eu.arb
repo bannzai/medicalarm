@@ -43,7 +43,7 @@
   "medicineFormValidationError": "Sartu izena eta hartzeko ordutegia",
   "quantity": "Kopurua",
   "quantityExample": "Adibidez: tableta 1, 100 mg",
-  "medicationStartDate": "Hartzearen hasierako data",
+  "medicationStartDate": "Hartzen hasiera-data",
   "otherInformation": "Gainerako",
   "doseReceiver": "Hartzailera",
   "defaultDoseReceiver": "Nire burua",

@@ -43,7 +43,7 @@
   "medicineFormValidationError": "请输入名称和服用时间表",
   "quantity": "用量",
   "quantityExample": "例如：1片、100毫克",
-  "medicationStartDate": "服用开始日期",
+  "medicationStartDate": "用药开始日期",
   "otherInformation": "其他",
   "doseReceiver": "服用者",
   "defaultDoseReceiver": "自己",

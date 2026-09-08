@@ -43,7 +43,7 @@
   "medicineFormValidationError": "Masukkan nama dan jadwal minum obat",
   "quantity": "Jumlah",
   "quantityExample": "Contoh: 1 tablet, 100 mg",
-  "medicationStartDate": "Tanggal Mulai Pengobatan",
+  "medicationStartDate": "Tanggal mulai minum",
   "otherInformation": "Lainnya",
   "doseReceiver": "Pemberi obat",
   "defaultDoseReceiver": "Diri sendiri",

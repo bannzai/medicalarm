@@ -43,7 +43,7 @@
   "medicineFormValidationError": "Մուտքագրեք անվանումը և ընդունման ժամանակացույցը",
   "quantity": "Քանակ",
   "quantityExample": "Օրինակ՝ 1 հաբ, 100 մգ",
-  "medicationStartDate": "Դեղերի ընդունման սկսած օրը",
+  "medicationStartDate": "Դեղի ընդունման մեկնարկի ամսաթիվ",
   "otherInformation": "Այլ",
   "doseReceiver": "Օգտատեր",
   "defaultDoseReceiver": "Ձեզը",

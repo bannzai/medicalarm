@@ -43,7 +43,7 @@
   "medicineFormValidationError": "Нэр болон хэрэглэх хуваарийг оруулна уу",
   "quantity": "Тоо хэмжээ",
   "quantityExample": "Жишээ: 1 шахмал, 100 мг",
-  "medicationStartDate": "Эмчилгээний эхлэх өдөр",
+  "medicationStartDate": "Ууж эхлэх огноо",
   "otherInformation": "Бусад",
   "doseReceiver": "Эмчилэгч",
   "defaultDoseReceiver": "Би",

@@ -43,7 +43,7 @@
   "medicineFormValidationError": "Vui lòng nhập tên và lịch uống thuốc",
   "quantity": "Liều lượng",
   "quantityExample": "Ví dụ: 1 viên, 100 mg",
-  "medicationStartDate": "Ngày bắt đầu sử dụng",
+  "medicationStartDate": "Ngày bắt đầu dùng thuốc",
   "otherInformation": "Khác",
   "doseReceiver": "Người dùng thuốc",
   "defaultDoseReceiver": "Của tôi",

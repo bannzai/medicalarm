@@ -43,7 +43,7 @@
   "medicineFormValidationError": "Sláðu inn heiti og lyfjatökuáætlun",
   "quantity": "Magn",
   "quantityExample": "Dæmi: 1 tafla, 100 mg",
-  "medicationStartDate": "Upphafsdagur lyfjameðferðar",
+  "medicationStartDate": "Upphafsdagur lyfjatöku",
   "otherInformation": "Aðrir",
   "doseReceiver": "Notandi",
   "defaultDoseReceiver": "sjálfur",

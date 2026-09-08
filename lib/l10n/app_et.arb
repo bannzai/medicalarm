@@ -43,7 +43,7 @@
   "medicineFormValidationError": "Sisestage nimi ja võtmise ajakava",
   "quantity": "Kogus",
   "quantityExample": "Näide: 1 tablett, 100 mg",
-  "medicationStartDate": "Ravimi alguspäev",
+  "medicationStartDate": "Ravimi võtmise alguskuupäev",
   "otherInformation": "Muud",
   "doseReceiver": "Ravimitaja",
   "defaultDoseReceiver": "ise",

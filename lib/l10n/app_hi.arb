@@ -43,7 +43,7 @@
   "medicineFormValidationError": "कृपया नाम और दवा लेने का समय-सारणी दर्ज करें",
   "quantity": "मात्रा",
   "quantityExample": "उदाहरण: 1 टैबलेट, 100 mg",
-  "medicationStartDate": "चिकित्सा सेवन की शुरुआत की तारीख",
+  "medicationStartDate": "सेवन शुरू करने की तारीख",
   "otherInformation": "अन्य",
   "doseReceiver": "उपभोक्ता",
   "defaultDoseReceiver": "अपने आप",

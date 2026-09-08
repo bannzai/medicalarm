@@ -43,7 +43,7 @@
   "medicineFormValidationError": "অনুগ্ৰহ কৰি নাম আৰু ঔষধ সেৱনৰ সময়সূচী দিয়ক",
   "quantity": "পৰিমাণ",
   "quantityExample": "উদাহৰণ: ১টা টেবলেট, ১০০ মি.গ্ৰা.",
-  "medicationStartDate": "ঔষধ গ্রহণের শুরু তারিখ",
+  "medicationStartDate": "সেৱন আৰম্ভ কৰাৰ তাৰিখ",
   "otherInformation": "অন্য",
   "doseReceiver": "ঔষধ গ্রহণকারী",
   "defaultDoseReceiver": "নিজেকে",

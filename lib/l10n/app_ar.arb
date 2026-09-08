@@ -43,7 +43,7 @@
   "medicineFormValidationError": "يرجى إدخال الاسم وجدول تناول الدواء",
   "quantity": "الكمية",
   "quantityExample": "مثال: قرص واحد، 100 ملغ",
-  "medicationStartDate": "تاريخ بدء الجرعة",
+  "medicationStartDate": "تاريخ بدء تناول الدواء",
   "otherInformation": "أخرى",
   "doseReceiver": "المستخدم",
   "defaultDoseReceiver": "أنا",

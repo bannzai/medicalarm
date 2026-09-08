@@ -43,7 +43,7 @@
   "medicineFormValidationError": "పేరు మరియు మందు తీసుకునే షెడ్యూల్‌ను నమోదు చేయండి",
   "quantity": "మోతాదు",
   "quantityExample": "ఉదాహరణ: 1 టాబ్లెట్, 100 mg",
-  "medicationStartDate": "మందు తీసుకోవడం ప్రారంభించే తేది",
+  "medicationStartDate": "తీసుకోవడం ప్రారంభించే తేదీ",
   "otherInformation": "ఇతర",
   "doseReceiver": "పోతు వివాదం",
   "defaultDoseReceiver": "నా",

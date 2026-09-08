@@ -43,7 +43,7 @@
   "medicineFormValidationError": "יש להזין את השם ואת לוח הזמנים לנטילה",
   "quantity": "כמות",
   "quantityExample": "לדוגמה: טבליה אחת, 100 מ״ג",
-  "medicationStartDate": "תאריך התחלת טיפול",
+  "medicationStartDate": "תאריך תחילת נטילת התרופה",
   "otherInformation": "אחר",
   "doseReceiver": "נוטל תרופות",
   "defaultDoseReceiver": "אני",

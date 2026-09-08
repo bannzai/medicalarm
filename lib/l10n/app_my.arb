@@ -43,7 +43,7 @@
   "medicineFormValidationError": "အမည်နှင့် ဆေးသောက်ချိန်ဇယားကို ထည့်သွင်းပါ",
   "quantity": "ပမာဏ",
   "quantityExample": "ဥပမာ - ဆေးပြား ၁ ပြား၊ ၁၀၀ မီလီဂရမ်",
-  "medicationStartDate": "Tarikh Mula Pengambilan",
+  "medicationStartDate": "သောက်သုံးစတင်သည့်ရက်စွဲ",
   "otherInformation": "Lain-lain",
   "doseReceiver": "Pengguna",
   "defaultDoseReceiver": "diri",

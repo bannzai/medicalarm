@@ -43,7 +43,7 @@
   "medicineFormValidationError": "Adı ve kullanım programını girin",
   "quantity": "Miktar",
   "quantityExample": "Örnek: 1 tablet, 100 mg",
-  "medicationStartDate": "Başlangıç tarihi",
+  "medicationStartDate": "İlaç kullanımına başlama tarihi",
   "otherInformation": "Diğer",
   "doseReceiver": "Kullanıcı",
   "defaultDoseReceiver": "kendin",

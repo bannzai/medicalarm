@@ -43,7 +43,7 @@
   "medicineFormValidationError": "कृपया नाम र औषधि सेवन तालिका प्रविष्ट गर्नुहोस्",
   "quantity": "मात्रा",
   "quantityExample": "उदाहरण: १ ट्याब्लेट, १०० mg",
-  "medicationStartDate": "आरम्भ गर्ने मिति",
+  "medicationStartDate": "सेवन सुरु गर्ने मिति",
   "otherInformation": "अन्य",
   "doseReceiver": "दवाई लिने वाला",
   "defaultDoseReceiver": "आफ्नो",

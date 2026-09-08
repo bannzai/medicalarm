@@ -43,7 +43,7 @@
   "medicineFormValidationError": "እባክዎ ስም እና የመውሰጃ መርሃ ግብር ያስገቡ",
   "quantity": "መጠን",
   "quantityExample": "ምሳሌ፦ 1 ጽላት፣ 100 ሚ.ግ.",
-  "medicationStartDate": "መውጣት መነሻ ቀን",
+  "medicationStartDate": "የመውሰድ መጀመሪያ ቀን",
   "otherInformation": "ከሌላ በላይ",
   "doseReceiver": "የመጠጣት ተጠቃሚ",
   "defaultDoseReceiver": "እኔ",

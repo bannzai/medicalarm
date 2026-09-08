@@ -43,7 +43,7 @@
   "medicineFormValidationError": "Adja meg a nevet és a szedési ütemezést",
   "quantity": "Mennyiség",
   "quantityExample": "Példa: 1 tabletta, 100 mg",
-  "medicationStartDate": "Kezdési dátum",
+  "medicationStartDate": "Szedés kezdő dátuma",
   "otherInformation": "Egyéb",
   "doseReceiver": "Gyógyszerszedő",
   "defaultDoseReceiver": "saját",

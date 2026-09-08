@@ -43,7 +43,7 @@
   "medicineFormValidationError": "නම සහ ඖෂධ ලබාගැනීමේ කාලසටහන ඇතුළත් කරන්න",
   "quantity": "ප්‍රමාණය",
   "quantityExample": "උදාහරණය: පෙති 1ක්, මිලිග්‍රෑම් 100",
-  "medicationStartDate": "ආරම්භයේ පෝෂණය දිනය",
+  "medicationStartDate": "ගැනීම ආරම්භ කරන දිනය",
   "otherInformation": "අනෙක්",
   "doseReceiver": "ඖෂධ ලබාගන්නා අය",
   "defaultDoseReceiver": "මටම",

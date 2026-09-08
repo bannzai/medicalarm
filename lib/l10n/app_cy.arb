@@ -43,7 +43,7 @@
   "medicineFormValidationError": "Rhowch yr enw a’r amserlen gymryd",
   "quantity": "Swm",
   "quantityExample": "Enghraifft: 1 dabled, 100 mg",
-  "medicationStartDate": "Dyddiad cychwyn cymryd",
+  "medicationStartDate": "Dyddiad dechrau cymryd",
   "otherInformation": "Eraill",
   "doseReceiver": "Cyffwrdd",
   "defaultDoseReceiver": "fy nghyda",

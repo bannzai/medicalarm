@@ -43,7 +43,7 @@
   "medicineFormValidationError": "Anna nimi ja annosteluaikataulu",
   "quantity": "Määrä",
   "quantityExample": "Esimerkki: 1 tabletti, 100 mg",
-  "medicationStartDate": "Aloituspäivä",
+  "medicationStartDate": "Käytön aloituspäivä",
   "otherInformation": "Muut",
   "doseReceiver": "Käyttäjä",
   "defaultDoseReceiver": "itse",

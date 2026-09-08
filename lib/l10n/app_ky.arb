@@ -43,7 +43,7 @@
   "medicineFormValidationError": "Атын жана кабыл алуу графигин киргизиңиз",
   "quantity": "Өлчөмү",
   "quantityExample": "Мисалы: 1 таблетка, 100 мг",
-  "medicationStartDate": "Дары кабыл алуунун башталыш күнү",
+  "medicationStartDate": "Кабылдоону баштоо күнү",
   "otherInformation": "Башка маалымат",
   "doseReceiver": "Дарынычылар",
   "defaultDoseReceiver": "өзүм",

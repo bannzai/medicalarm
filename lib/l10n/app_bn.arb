@@ -43,7 +43,7 @@
   "medicineFormValidationError": "নাম ও ওষুধ খাওয়ার সময়সূচি লিখুন",
   "quantity": "পরিমাণ",
   "quantityExample": "উদাহরণ: ১টি ট্যাবলেট, ১০০ মি.গ্রা.",
-  "medicationStartDate": "ওষুধ গ্রহণের শুরু তারিখ",
+  "medicationStartDate": "সেবন শুরুর তারিখ",
   "otherInformation": "অন্যান্য",
   "doseReceiver": "প্রবণ",
   "defaultDoseReceiver": "আমার",

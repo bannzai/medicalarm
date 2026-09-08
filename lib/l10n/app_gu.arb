@@ -43,7 +43,7 @@
   "medicineFormValidationError": "કૃપા કરીને નામ અને દવા લેવાનું સમયપત્રક દાખલ કરો",
   "quantity": "જથ્થો",
   "quantityExample": "ઉદાહરણ: 1 ટેબ્લેટ, 100 મિલિગ્રામ",
-  "medicationStartDate": "દવા શરૂ કરવાની તારીખ",
+  "medicationStartDate": "દવા લેવાનું શરૂ કરવાની તારીખ",
   "otherInformation": "અન્ય",
   "doseReceiver": "લેબલમાંથી દવા લેતા વ્યકિત",
   "defaultDoseReceiver": "હું",

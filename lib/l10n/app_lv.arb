@@ -43,7 +43,7 @@
   "medicineFormValidationError": "Ievadiet nosaukumu un lietošanas grafiku",
   "quantity": "Daudzums",
   "quantityExample": "Piemērs: 1 tablete, 100 mg",
-  "medicationStartDate": "Zāļu lietošanas sākuma datums",
+  "medicationStartDate": "Lietošanas sākuma datums",
   "otherInformation": "Cits cits",
   "doseReceiver": "Lietotājs",
   "defaultDoseReceiver": "Seņģis",

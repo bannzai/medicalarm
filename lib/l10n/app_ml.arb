@@ -43,7 +43,7 @@
   "medicineFormValidationError": "പേരും മരുന്ന് കഴിക്കേണ്ട സമയക്രമവും നൽകുക",
   "quantity": "അളവ്",
   "quantityExample": "ഉദാഹരണം: 1 ഗുളിക, 100 മി.ഗ്രാം",
-  "medicationStartDate": "മരുന്നു തുടങ്ങുന്ന തീയതി",
+  "medicationStartDate": "കഴിക്കാൻ തുടങ്ങുന്ന തീയതി",
   "otherInformation": "മറ്റുള്ളവ",
   "doseReceiver": "മരുന്ന് എടുത്തുവരുന്നവന്",
   "defaultDoseReceiver": "എനിക്കു",

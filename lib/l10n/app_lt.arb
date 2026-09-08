@@ -43,7 +43,7 @@
   "medicineFormValidationError": "Įveskite pavadinimą ir vartojimo tvarkaraštį",
   "quantity": "Kiekis",
   "quantityExample": "Pavyzdys: 1 tabletė, 100 mg",
-  "medicationStartDate": "Pradžios data",
+  "medicationStartDate": "Vartojimo pradžios data",
   "otherInformation": "Kita kita",
   "doseReceiver": "Vartotojas",
   "defaultDoseReceiver": "Aš",

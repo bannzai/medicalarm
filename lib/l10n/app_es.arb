@@ -43,7 +43,7 @@
   "medicineFormValidationError": "Introduce el nombre y el horario de toma",
   "quantity": "Cantidad",
   "quantityExample": "Ejemplo: 1 comprimido, 100 mg",
-  "medicationStartDate": "Fecha de inicio de medicación",
+  "medicationStartDate": "Fecha de inicio de la toma",
   "otherInformation": "Otros",
   "doseReceiver": "Usuario",
   "defaultDoseReceiver": "Yo",

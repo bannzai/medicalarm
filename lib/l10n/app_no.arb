@@ -43,7 +43,7 @@
   "medicineFormValidationError": "Skriv inn navn og doseringsplan",
   "quantity": "Mengde",
   "quantityExample": "Eksempel: 1 tablett, 100 mg",
-  "medicationStartDate": "Start date for medication",
+  "medicationStartDate": "Startdato for inntak",
   "otherInformation": "Annet",
   "doseReceiver": "Medisiner",
   "defaultDoseReceiver": "meg selv",

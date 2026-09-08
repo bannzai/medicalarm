@@ -43,7 +43,7 @@
   "medicineFormValidationError": "Please enter the name and medication schedule",
   "quantity": "Quantity",
   "quantityExample": "Example: 1 tablet, 100 mg",
-  "medicationStartDate": "Start Date",
+  "medicationStartDate": "Medication start date",
   "otherInformation": "Other",
   "doseReceiver": "Medication User",
   "defaultDoseReceiver": "User",

@@ -43,7 +43,7 @@
   "medicineFormValidationError": "Введите название и расписание приёма",
   "quantity": "Количество",
   "quantityExample": "Пример: 1 таблетка, 100 мг",
-  "medicationStartDate": "Дата начала приема",
+  "medicationStartDate": "Дата начала приёма",
   "otherInformation": "Другие",
   "doseReceiver": "Пациент",
   "defaultDoseReceiver": "Я",

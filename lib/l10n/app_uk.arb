@@ -43,7 +43,7 @@
   "medicineFormValidationError": "Введіть назву та розклад прийому",
   "quantity": "Кількість",
   "quantityExample": "Наприклад: 1 таблетка, 100 мг",
-  "medicationStartDate": "Start Date",
+  "medicationStartDate": "Дата початку прийому",
   "otherInformation": "Other",
   "doseReceiver": "Medication Taker",
   "defaultDoseReceiver": "self",

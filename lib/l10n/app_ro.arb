@@ -43,7 +43,7 @@
   "medicineFormValidationError": "Introduceți numele și programul de administrare",
   "quantity": "Cantitate",
   "quantityExample": "Exemplu: 1 comprimat, 100 mg",
-  "medicationStartDate": "Data de început a administrării",
+  "medicationStartDate": "Data începerii administrării",
   "otherInformation": "Altele",
   "doseReceiver": "Persoana care ia medicamente",
   "defaultDoseReceiver": "eu",

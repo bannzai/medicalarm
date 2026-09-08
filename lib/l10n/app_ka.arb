@@ -43,7 +43,7 @@
   "medicineFormValidationError": "შეიყვანეთ სახელი და მიღების განრიგი",
   "quantity": "რაოდენობა",
   "quantityExample": "მაგალითად: 1 ტაბლეტი, 100 მგ",
-  "medicationStartDate": "მკურნალობის დაწყების თარიღი",
+  "medicationStartDate": "მიღების დაწყების თარიღი",
   "otherInformation": "სხვა",
   "doseReceiver": "მიმართვის მფლობელი",
   "defaultDoseReceiver": "ჩემი",

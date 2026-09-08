@@ -43,7 +43,7 @@
   "medicineFormValidationError": "กรุณากรอกชื่อและตารางการรับประทานยา",
   "quantity": "ปริมาณ",
   "quantityExample": "ตัวอย่าง: 1 เม็ด, 100 มก.",
-  "medicationStartDate": "วันที่เริ่มการใช้",
+  "medicationStartDate": "วันที่เริ่มรับประทาน",
   "otherInformation": "อื่นๆ",
   "doseReceiver": "ผู้ใช้ยา",
   "defaultDoseReceiver": "ตัวเอง",

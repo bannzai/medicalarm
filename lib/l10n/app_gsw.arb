@@ -43,7 +43,7 @@
   "medicineFormValidationError": "Gib de Name und de Iinahmeplan ii",
   "quantity": "Mängi",
   "quantityExample": "Bispiel: 1 Tablette, 100 mg",
-  "medicationStartDate": "Beginnsdatum der Medikation",
+  "medicationStartDate": "Startdatum vo de Einnahm",
   "otherInformation": "Andere",
   "doseReceiver": "Medikamentennehmer",
   "defaultDoseReceiver": "Säi",

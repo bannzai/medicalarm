@@ -43,7 +43,7 @@
   "medicineFormValidationError": "Wprowadź nazwę i harmonogram przyjmowania",
   "quantity": "Ilość",
   "quantityExample": "Przykład: 1 tabletka, 100 mg",
-  "medicationStartDate": "Data rozpoczęcia dawkowania",
+  "medicationStartDate": "Data rozpoczęcia przyjmowania",
   "otherInformation": "Inne",
   "doseReceiver": "Osoba przyjmująca leki",
   "defaultDoseReceiver": "Ja",

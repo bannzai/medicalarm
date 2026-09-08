@@ -43,7 +43,7 @@
   "medicineFormValidationError": "សូមបញ្ចូលឈ្មោះ និងកាលវិភាគប្រើថ្នាំ",
   "quantity": "បរិមាណ",
   "quantityExample": "ឧទាហរណ៍៖ ថ្នាំគ្រាប់ 1 គ្រាប់, 100 មីលីក្រាម",
-  "medicationStartDate": "ថ្ងៃចាប់ផ្តើមអាហារព្យាបាល",
+  "medicationStartDate": "កាលបរិច្ឆេទចាប់ផ្តើមប្រើថ្នាំ",
   "otherInformation": "អ្វីផ្សេងទៀត",
   "doseReceiver": "អ្នកប្រើប្រាស់",
   "defaultDoseReceiver": "ខ្លួនឯង",

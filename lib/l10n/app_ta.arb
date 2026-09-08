@@ -43,7 +43,7 @@
   "medicineFormValidationError": "பெயர் மற்றும் மருந்து உட்கொள்ளும் அட்டவணையை உள்ளிடவும்",
   "quantity": "அளவு",
   "quantityExample": "எடுத்துக்காட்டு: 1 மாத்திரை, 100 mg",
-  "medicationStartDate": "மருந்து தொடக்க தேதி",
+  "medicationStartDate": "உட்கொள்ளத் தொடங்கும் தேதி",
   "otherInformation": "மற்றவை",
   "doseReceiver": "மருந்து எடுத்துக்கொள்ளும் நபர்",
   "defaultDoseReceiver": "ஏற்கணிப்பு",

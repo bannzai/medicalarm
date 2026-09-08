@@ -43,7 +43,7 @@
   "medicineFormValidationError": "Внесете име и распоред на земање",
   "quantity": "Количина",
   "quantityExample": "Пример: 1 таблета, 100 mg",
-  "medicationStartDate": "Датум на започнување на лекови",
+  "medicationStartDate": "Почетен датум на земање",
   "otherInformation": "Останато",
   "doseReceiver": "Примач на лекови",
   "defaultDoseReceiver": "себе",
