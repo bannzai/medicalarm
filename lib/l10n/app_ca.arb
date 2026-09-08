@@ -197,7 +197,7 @@
   "invitationCode": "Codi d’invitació",
   "invitationCodeShareDescription": "Comparteix aquest codi per convidar membres",
   "invitationCodeExpiresAt": "Vàlid fins al: {date}",
-  "copyInvitationCode": "Copia el codi",
+  "copyInvitationCode": "Copiar el codi",
   "invitationCodeCopied": "Codi d’invitació copiat",
   "issueInvitationCode": "Genera un codi d’invitació",
   "groupSettings": "Configuració del grup",
