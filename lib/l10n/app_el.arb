@@ -122,7 +122,7 @@
   "purchaseErrorInvalidCredentials": "Η αγορά απέτυχε. Δοκιμάστε ξανά αργότερα. Αν το πρόβλημα συνεχιστεί, επικοινωνήστε μαζί μας από Ρυθμίσεις > Επικοινωνία. Λεπτομέρειες: {message}",
   "purchaseErrorUnexpectedBackend": "Η αγορά δεν είναι δυνατή αυτήν τη στιγμή. Δοκιμάστε ξανά αργότερα. Αν το πρόβλημα παραμένει, επικοινωνήστε μαζί μας από τις Ρυθμίσεις > Επικοινωνία. Λεπτομέρειες: {message}",
   "purchaseErrorOperationInProgress": "Μια αγορά βρίσκεται ήδη σε εξέλιξη. Ελέγξτε ξανά αργότερα.",
-  "purchaseErrorInsufficientPermissions": "Δεν μπορείτε να εγγραφείτε σε πρόγραμμα με το {accountName}. Ελέγξτε τα στοιχεία πληρωμής σας και δοκιμάστε ξανά",
+  "purchaseErrorInsufficientPermissions": "Δεν μπορείτε να εγγραφείτε στο πρόγραμμα με το {accountName}. Ελέγξτε τα στοιχεία πληρωμής και δοκιμάστε ξανά.",
   "purchaseErrorPaymentPending": "Η πληρωμή εκκρεμεί. Ελέγξτε το {storeName} με τον συνδεδεμένο λογαριασμό {accountName}.",
   "premiumUserThanksTitle": "Είστε μέλος Premium",
   "premiumUserThanksMessage": "Σας ευχαριστούμε που χρησιμοποιείτε την υπηρεσία μας.\nΧάρη σε εσάς, μπορούμε να συνεχίσουμε τη λειτουργία του Medicalarm.",

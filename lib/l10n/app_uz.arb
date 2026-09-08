@@ -122,7 +122,7 @@
   "purchaseErrorInvalidCredentials": "Xarid amalga oshmadi. Birozdan so‘ng qayta urinib ko‘ring. Muammo davom etsa, Sozlamalar > Biz bilan bog‘lanish orqali bizga murojaat qiling. Tafsilotlar: {message}",
   "purchaseErrorUnexpectedBackend": "Hozir xarid qilib bo‘lmaydi. Birozdan so‘ng qayta urinib ko‘ring. Muammo hal bo‘lmasa, Sozlamalar > Biz bilan bog‘lanish orqali murojaat qiling. Tafsilotlar: {message}",
   "purchaseErrorOperationInProgress": "Xarid jarayoni allaqachon davom etmoqda. Iltimos, birozdan so‘ng qayta tekshiring.",
-  "purchaseErrorInsufficientPermissions": "{accountName} bilan rejaga obuna bo‘la olmaysiz. To‘lov ma’lumotlaringizni tekshirib, qayta urinib ko‘ring",
+  "purchaseErrorInsufficientPermissions": "{accountName} orqali rejaga obuna bo‘la olmaysiz. To‘lov ma’lumotlarini tekshirib, qayta urinib ko‘ring.",
   "purchaseErrorPaymentPending": "To‘lov kutilmoqda. Tizimga kirilgan {accountName} orqali {storeName}ni tekshiring.",
   "premiumUserThanksTitle": "Siz premium aʼzosiz",
   "premiumUserThanksMessage": "Xizmatimizdan foydalanganingiz uchun rahmat.\nSiz tufayli Medicalarm faoliyatini davom ettira olamiz.",

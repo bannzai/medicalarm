@@ -122,7 +122,7 @@
   "purchaseErrorInvalidCredentials": "购买失败。请稍后重试。如果问题仍然存在，请通过“设置”>“联系我们”与我们联系。详细信息：{message}",
   "purchaseErrorUnexpectedBackend": "目前无法购买。请稍后再试。如果问题仍未解决，请通过“设置”>“联系我们”与我们联系。详细信息：{message}",
   "purchaseErrorOperationInProgress": "购买流程已在进行中，请稍后再试。",
-  "purchaseErrorInsufficientPermissions": "您无法使用 {accountName} 订阅套餐。请检查付款信息后重试",
+  "purchaseErrorInsufficientPermissions": "无法使用 {accountName} 订阅该方案。请检查付款信息后重试。",
   "purchaseErrorPaymentPending": "付款待处理。请使用已登录的 {accountName} 检查 {storeName}。",
   "premiumUserThanksTitle": "您是高级会员",
   "premiumUserThanksMessage": "感谢您使用我们的服务。\n多亏了您的支持，我们才能继续运营 Medicalarm。",

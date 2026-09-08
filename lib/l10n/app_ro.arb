@@ -122,7 +122,7 @@
   "purchaseErrorInvalidCredentials": "Achiziția a eșuat. Încercați din nou mai târziu. Dacă problema persistă, contactați-ne din Setări > Contactați-ne. Detalii: {message}",
   "purchaseErrorUnexpectedBackend": "Achiziția nu este disponibilă momentan. Încercați din nou mai târziu. Dacă problema persistă, contactați-ne din Setări > Contact. Detalii: {message}",
   "purchaseErrorOperationInProgress": "O achiziție este deja în curs. Verificați din nou mai târziu.",
-  "purchaseErrorInsufficientPermissions": "Nu vă puteți abona la un plan cu {accountName}. Verificați informațiile de plată și încercați din nou",
+  "purchaseErrorInsufficientPermissions": "Nu vă puteți abona la plan cu {accountName}. Verificați informațiile de plată și încercați din nou.",
   "purchaseErrorPaymentPending": "Plata este în așteptare. Verificați {storeName} folosind contul conectat {accountName}.",
   "premiumUserThanksTitle": "Ești membru premium",
   "premiumUserThanksMessage": "Vă mulțumim că folosiți serviciul nostru.\nDatorită vouă, putem continua să operăm Medicalarm.",

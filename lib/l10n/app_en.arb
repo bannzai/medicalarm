@@ -122,7 +122,7 @@
   "purchaseErrorInvalidCredentials": "The purchase failed. Please try again later. If the problem persists, contact us via Settings > Contact Us. Details: {message}",
   "purchaseErrorUnexpectedBackend": "Purchases are currently unavailable. Please try again later. If the issue persists, contact us via Settings > Contact us. Details: {message}",
   "purchaseErrorOperationInProgress": "A purchase is already in progress. Please check again later.",
-  "purchaseErrorInsufficientPermissions": "You can’t subscribe to a plan with {accountName}. Check your payment information and try again",
+  "purchaseErrorInsufficientPermissions": "You can’t subscribe to the plan with {accountName}. Check your payment information and try again.",
   "purchaseErrorPaymentPending": "Payment is pending. Please check {storeName} with the signed-in account {accountName}.",
   "premiumUserThanksTitle": "You’re a premium member",
   "premiumUserThanksMessage": "Thank you for using our service.\nThanks to you, we can continue operating Medicalarm.",

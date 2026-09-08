@@ -122,7 +122,7 @@
   "purchaseErrorInvalidCredentials": "Pembelian gagal. Silakan coba lagi nanti. Jika masalah berlanjut, hubungi kami melalui Pengaturan > Hubungi Kami. Detail: {message}",
   "purchaseErrorUnexpectedBackend": "Pembelian saat ini tidak tersedia. Silakan coba lagi nanti. Jika masalah berlanjut, hubungi kami melalui Pengaturan > Hubungi kami. Detail: {message}",
   "purchaseErrorOperationInProgress": "Proses pembelian sedang berlangsung. Silakan periksa kembali nanti.",
-  "purchaseErrorInsufficientPermissions": "Anda tidak dapat berlangganan paket dengan {accountName}. Periksa informasi pembayaran Anda, lalu coba lagi",
+  "purchaseErrorInsufficientPermissions": "Anda tidak dapat berlangganan paket dengan {accountName}. Periksa informasi pembayaran Anda, lalu coba lagi.",
   "purchaseErrorPaymentPending": "Pembayaran tertunda. Periksa {storeName} menggunakan akun {accountName} yang sedang login.",
   "premiumUserThanksTitle": "Anda adalah anggota premium",
   "premiumUserThanksMessage": "Terima kasih telah menggunakan layanan kami.\nBerkat Anda, kami dapat terus mengoperasikan Medicalarm.",

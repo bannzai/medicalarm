@@ -122,7 +122,7 @@
   "purchaseErrorInvalidCredentials": "L’achat a échoué. Veuillez réessayer plus tard. Si le problème persiste, contactez-nous via Réglages > Nous contacter. Détails : {message}",
   "purchaseErrorUnexpectedBackend": "L’achat est actuellement indisponible. Veuillez réessayer plus tard. Si le problème persiste, contactez-nous via Réglages > Nous contacter. Détails : {message}",
   "purchaseErrorOperationInProgress": "Un achat est déjà en cours. Veuillez réessayer plus tard.",
-  "purchaseErrorInsufficientPermissions": "Vous ne pouvez pas souscrire à un forfait avec {accountName}. Vérifiez vos informations de paiement, puis réessayez",
+  "purchaseErrorInsufficientPermissions": "Vous ne pouvez pas souscrire au forfait avec {accountName}. Vérifiez vos informations de paiement, puis réessayez.",
   "purchaseErrorPaymentPending": "Le paiement est en attente. Vérifiez {storeName} avec le compte connecté {accountName}.",
   "premiumUserThanksTitle": "Vous êtes membre premium",
   "premiumUserThanksMessage": "Merci d’utiliser notre service.\nGrâce à vous, nous pouvons continuer à faire fonctionner Medicalarm.",

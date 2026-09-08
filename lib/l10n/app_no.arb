@@ -122,7 +122,7 @@
   "purchaseErrorInvalidCredentials": "Kjøpet mislyktes. Prøv igjen senere. Hvis problemet vedvarer, kan du kontakte oss via Innstillinger > Kontakt oss. Detaljer: {message}",
   "purchaseErrorUnexpectedBackend": "Kjøp er ikke tilgjengelig akkurat nå. Prøv igjen senere. Hvis problemet vedvarer, kan du kontakte oss via Innstillinger > Kontakt oss. Detaljer: {message}",
   "purchaseErrorOperationInProgress": "Et kjøp pågår allerede. Sjekk igjen senere.",
-  "purchaseErrorInsufficientPermissions": "Du kan ikke abonnere på et abonnement med {accountName}. Kontroller betalingsinformasjonen din og prøv igjen",
+  "purchaseErrorInsufficientPermissions": "Du kan ikke abonnere på planen med {accountName}. Kontroller betalingsinformasjonen og prøv igjen.",
   "purchaseErrorPaymentPending": "Betalingen venter. Sjekk {storeName} med den innloggede kontoen {accountName}.",
   "premiumUserThanksTitle": "Du er premium-medlem",
   "premiumUserThanksMessage": "Takk for at du bruker tjenesten vår.\nTakket være deg kan vi fortsette driften av Medicalarm.",

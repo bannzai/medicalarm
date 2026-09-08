@@ -122,7 +122,7 @@
   "purchaseErrorInvalidCredentials": "खरेदी अयशस्वी झाली. कृपया काही वेळाने पुन्हा प्रयत्न करा. समस्या कायम राहिल्यास, सेटिंग्ज > आमच्याशी संपर्क साधा येथे जाऊन आमच्याशी संपर्क साधा. तपशील: {message}",
   "purchaseErrorUnexpectedBackend": "सध्या खरेदी करता येत नाही. थोड्या वेळाने पुन्हा प्रयत्न करा. समस्या कायम राहिल्यास, सेटिंग्ज > आमच्याशी संपर्क साधा येथे आमच्याशी संपर्क साधा. तपशील: {message}",
   "purchaseErrorOperationInProgress": "खरेदीची प्रक्रिया आधीच सुरू आहे. कृपया थोड्या वेळाने पुन्हा तपासा.",
-  "purchaseErrorInsufficientPermissions": "तुम्ही {accountName} वापरून प्लॅनचे सदस्यत्व घेऊ शकत नाही. तुमची पेमेंट माहिती तपासा आणि पुन्हा प्रयत्न करा",
+  "purchaseErrorInsufficientPermissions": "तुम्ही {accountName} वापरून प्लॅनचे सदस्यत्व घेऊ शकत नाही. पेमेंटची माहिती तपासा आणि पुन्हा प्रयत्न करा.",
   "purchaseErrorPaymentPending": "पेमेंट प्रलंबित आहे. साइन इन केलेल्या {accountName} द्वारे {storeName} तपासा.",
   "premiumUserThanksTitle": "तुम्ही प्रीमियम सदस्य आहात",
   "premiumUserThanksMessage": "आमची सेवा वापरल्याबद्दल धन्यवाद.\nतुमच्यामुळे आम्ही Medicalarm चे संचालन सुरू ठेवू शकतो.",

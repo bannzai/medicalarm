@@ -122,7 +122,7 @@
   "purchaseErrorInvalidCredentials": "შეძენა ვერ შესრულდა. გთხოვთ, მოგვიანებით სცადოთ ხელახლა. თუ პრობლემა გაგრძელდება, დაგვიკავშირდით მენიუდან პარამეტრები > დაგვიკავშირდით. დეტალები: {message}",
   "purchaseErrorUnexpectedBackend": "ამჟამად შეძენა შეუძლებელია. მოგვიანებით სცადეთ ხელახლა. თუ პრობლემა არ მოგვარდება, დაგვიკავშირდით მენიუდან პარამეტრები > დაგვიკავშირდით. დეტალები: {message}",
   "purchaseErrorOperationInProgress": "შეძენის პროცესი უკვე მიმდინარეობს. გთხოვთ, მოგვიანებით ხელახლა შეამოწმოთ.",
-  "purchaseErrorInsufficientPermissions": "{accountName}-ით გეგმაზე გამოწერა შეუძლებელია. შეამოწმეთ გადახდის ინფორმაცია და სცადეთ ხელახლა",
+  "purchaseErrorInsufficientPermissions": "{accountName}-ით გეგმაზე გამოწერა შეუძლებელია. შეამოწმეთ გადახდის ინფორმაცია და სცადეთ ხელახლა.",
   "purchaseErrorPaymentPending": "გადახდა მოლოდინშია. შეამოწმეთ {storeName} ანგარიშით {accountName}, რომლითაც შესული ხართ.",
   "premiumUserThanksTitle": "თქვენ პრემიუმ წევრი ხართ",
   "premiumUserThanksMessage": "გმადლობთ, რომ ჩვენს სერვისს იყენებთ.\nთქვენი წყალობით შეგვიძლია Medicalarm-ის მუშაობა გავაგრძელოთ.",

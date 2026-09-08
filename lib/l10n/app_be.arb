@@ -122,7 +122,7 @@
   "purchaseErrorInvalidCredentials": "Не ўдалося выканаць пакупку. Паспрабуйце яшчэ раз пазней. Калі праблема не знікне, звярніцеся да нас праз Налады > Звязацца з намі. Падрабязнасці: {message}",
   "purchaseErrorUnexpectedBackend": "Зараз пакупка немагчымая. Паспрабуйце яшчэ раз пазней. Калі праблема не знікне, звярніцеся да нас праз Налады > Звязацца з намі. Падрабязнасці: {message}",
   "purchaseErrorOperationInProgress": "Працэс пакупкі ўжо выконваецца. Паўтарыце спробу пазней.",
-  "purchaseErrorInsufficientPermissions": "З дапамогай {accountName} немагчыма аформіць падпіску на план. Праверце плацежную інфармацыю і паспрабуйце яшчэ раз",
+  "purchaseErrorInsufficientPermissions": "З дапамогай {accountName} немагчыма падпісацца на план. Праверце плацежныя даныя і паспрабуйце яшчэ раз.",
   "purchaseErrorPaymentPending": "Плацеж прыпынены. Праверце {storeName} з дапамогай уліковага запісу {accountName}, пад якім вы ўвайшлі.",
   "premiumUserThanksTitle": "Вы прэміум-удзельнік",
   "premiumUserThanksMessage": "Дзякуй, што карыстаецеся нашым сэрвісам.\nДзякуючы вам мы можам працягваць працу Medicalarm.",

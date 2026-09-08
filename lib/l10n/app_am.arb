@@ -122,7 +122,7 @@
   "purchaseErrorInvalidCredentials": "ግዢው አልተሳካም። እባክዎ ከጥቂት ጊዜ በኋላ ይሞክሩ። ችግሩ ከቀጠለ፣ ከቅንብሮች > ያግኙን በኩል ያነጋግሩን። ዝርዝሮች፦ {message}",
   "purchaseErrorUnexpectedBackend": "አሁን ግዢ ማድረግ አይችሉም። እባክዎ ከጥቂት ጊዜ በኋላ እንደገና ይሞክሩ። ችግሩ ካልተፈታ፣ በቅንብሮች > ያግኙን በኩል ያነጋግሩን። ዝርዝሮች፦ {message}",
   "purchaseErrorOperationInProgress": "የግዢ ሂደት እየተካሄደ ነው። እባክዎ ቆይተው እንደገና ይመልከቱ።",
-  "purchaseErrorInsufficientPermissions": "በ{accountName} ዕቅድ መመዝገብ አይችሉም። የክፍያ መረጃዎን ካረጋገጡ በኋላ እንደገና ይሞክሩ",
+  "purchaseErrorInsufficientPermissions": "በ{accountName} ዕቅዱን መመዝገብ አይችሉም። የክፍያ መረጃዎን ይመልከቱና እንደገና ይሞክሩ።",
   "purchaseErrorPaymentPending": "ክፍያው ቆሟል። በገባበት {accountName} በመጠቀም {storeName}ን ያረጋግጡ።",
   "premiumUserThanksTitle": "እርስዎ የፕሪሚየም አባል ነዎት",
   "premiumUserThanksMessage": "ስለሚጠቀሙበት እናመሰግናለን።\nለእርስዎ ምስጋና ይግባውና Medicalarmን ማስኬድ መቀጠል ችለናል።",

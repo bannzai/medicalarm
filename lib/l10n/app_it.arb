@@ -122,7 +122,7 @@
   "purchaseErrorInvalidCredentials": "L’acquisto non è riuscito. Riprova più tardi. Se il problema persiste, contattaci tramite Impostazioni > Contattaci. Dettagli: {message}",
   "purchaseErrorUnexpectedBackend": "Al momento non è possibile effettuare acquisti. Riprova più tardi. Se il problema persiste, contattaci da Impostazioni > Contattaci. Dettagli: {message}",
   "purchaseErrorOperationInProgress": "È già in corso un acquisto. Controlla di nuovo più tardi.",
-  "purchaseErrorInsufficientPermissions": "Non puoi abbonarti a un piano con {accountName}. Controlla le informazioni di pagamento e riprova",
+  "purchaseErrorInsufficientPermissions": "Non puoi abbonarti al piano con {accountName}. Controlla i dati di pagamento e riprova.",
   "purchaseErrorPaymentPending": "Il pagamento è in sospeso. Controlla {storeName} con l’account {accountName} con cui hai effettuato l’accesso.",
   "premiumUserThanksTitle": "Sei un membro premium",
   "premiumUserThanksMessage": "Grazie per utilizzare il nostro servizio.\nGrazie a te, possiamo continuare a gestire Medicalarm.",

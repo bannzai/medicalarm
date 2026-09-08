@@ -122,7 +122,7 @@
   "purchaseErrorInvalidCredentials": "Nabigo ang pagbili. Subukan muli mamaya. Kung magpapatuloy ang problema, makipag-ugnayan sa amin sa Mga Setting > Makipag-ugnayan sa amin. Mga detalye: {message}",
   "purchaseErrorUnexpectedBackend": "Hindi available ang pagbili sa ngayon. Subukan muli pagkalipas ng ilang sandali. Kung magpapatuloy ang problema, makipag-ugnayan sa amin sa Mga Setting > Makipag-ugnayan sa amin. Mga detalye: {message}",
   "purchaseErrorOperationInProgress": "May isinasagawang pagbili na. Pakisuri muli mamaya.",
-  "purchaseErrorInsufficientPermissions": "Hindi ka makakapag-subscribe sa isang plan gamit ang {accountName}. Suriin ang impormasyon ng pagbabayad at subukan muli",
+  "purchaseErrorInsufficientPermissions": "Hindi ka makapag-subscribe sa plan gamit ang {accountName}. Suriin ang impormasyon ng pagbabayad at subukan muli.",
   "purchaseErrorPaymentPending": "Naka-pending ang pagbabayad. Pakitingnan ang {storeName} gamit ang naka-sign-in na account na {accountName}.",
   "premiumUserThanksTitle": "Premium member ka",
   "premiumUserThanksMessage": "Salamat sa paggamit ng aming serbisyo.\nDahil sa iyo, maipagpapatuloy namin ang pagpapatakbo ng Medicalarm.",
