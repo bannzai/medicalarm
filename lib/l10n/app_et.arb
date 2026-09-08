@@ -114,7 +114,7 @@
   "purchaseErrorInvalidPayment": "Makse ebaõnnestus. Kontrollige, kas teie makseviis on kehtiv, ja proovige uuesti.",
   "purchaseErrorProductUnavailable": "Valitud pakett ei ole praegu müügil. Taaskäivitage rakendus ja proovige uuesti.",
   "purchaseErrorAlreadyPurchased": "Olete juba plaani ostnud. Ostuteabe taastamiseks selles seadmes valige „Varem ostnud kasutajatele“.",
-  "purchaseErrorReceiptInUse": "Juba on juba ostetud. Ostuteave on teise kasutaja all. Palun kontrollige {accountName}.",
+  "purchaseErrorReceiptInUse": "Juba ostetud või kasutab ostuteavet teine kasutaja. Kontrollige {accountName}.",
   "purchaseErrorInvalidReceipt": "Keeruline ostuteave. Palun kontrollige ostuteavet.",
   "purchaseErrorMissingReceipt": "Ostjateavet ei leitud. Palun logige sisse seadmesse {accountName} abil ja proovige uuesti.",
   "purchaseErrorNetwork": "Võrguseisund on ebastabiilne. Palun kontrollige ühenduse olekut ja proovige uuesti.",

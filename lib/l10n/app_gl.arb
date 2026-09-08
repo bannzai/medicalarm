@@ -114,7 +114,7 @@
   "purchaseErrorInvalidPayment": "Produciuse un erro no pagamento. Comproba que o método de pagamento sexa válido e téntao de novo.",
   "purchaseErrorProductUnavailable": "O plan seleccionado non está dispoñible para a compra neste momento. Reinicia a aplicación e téntao de novo.",
   "purchaseErrorAlreadyPurchased": "Xa compraches un plan. Para restaurar a información da compra neste dispositivo, selecciona «Para quen xa comprou».",
-  "purchaseErrorReceiptInUse": "Xa xa comprada. A información da compra está en uso por outro usuario. Por favor, verifica {accountName}.",
+  "purchaseErrorReceiptInUse": "Xa se comprou ou outro usuario está a usar a información da compra. Comproba {accountName}.",
   "purchaseErrorInvalidReceipt": "Información de compra non válida. Por favor, verifique a información de compra.",
   "purchaseErrorMissingReceipt": "Non se atopan informacións do comprador. Proba de iniciar sesión no dispositivo con {accountName}.",
   "purchaseErrorNetwork": "A conexión á rede é inestable. Comproba a túa conexión e intenta de novo.",

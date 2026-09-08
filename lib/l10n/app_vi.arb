@@ -114,7 +114,7 @@
   "purchaseErrorInvalidPayment": "Thanh toán không thành công. Vui lòng kiểm tra phương thức thanh toán của bạn còn hợp lệ rồi thử lại.",
   "purchaseErrorProductUnavailable": "Gói đã chọn hiện không có sẵn để mua. Vui lòng khởi động lại ứng dụng và thử lại.",
   "purchaseErrorAlreadyPurchased": "Bạn đã mua gói này. Để khôi phục thông tin mua hàng trên thiết bị này, hãy chọn “Dành cho người đã mua trước đây”.",
-  "purchaseErrorReceiptInUse": "Đã mua trước đó. Thông tin mua hàng đang được sử dụng bởi người dùng khác. Vui lòng kiểm tra {accountName}",
+  "purchaseErrorReceiptInUse": "Đã mua hoặc thông tin mua hàng đang được người dùng khác sử dụng. Hãy kiểm tra {accountName}.",
   "purchaseErrorInvalidReceipt": "Thông tin mua hàng không hợp lệ. Vui lòng kiểm tra lại thông tin mua hàng.",
   "purchaseErrorMissingReceipt": "Thông tin của người mua không tồn tại. Vui lòng đăng nhập thiết bị với {accountName} để thử lại.",
   "purchaseErrorNetwork": "Trạng thái mạng không ổn định. Vui lòng kiểm tra tình trạng kết nối của bạn và thử lại.",

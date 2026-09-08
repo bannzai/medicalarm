@@ -114,7 +114,7 @@
   "purchaseErrorInvalidPayment": "El pago ha fallado. Comprueba que tu método de pago sea válido y vuelve a intentarlo.",
   "purchaseErrorProductUnavailable": "El plan seleccionado no está disponible para la compra en este momento. Reinicia la app e inténtalo de nuevo.",
   "purchaseErrorAlreadyPurchased": "Ya has comprado un plan. Para restaurar la información de compra en este dispositivo, selecciona «Para quienes ya han comprado».",
-  "purchaseErrorReceiptInUse": "Ya comprado. La información de compra está siendo utilizada por otro usuario. Por favor, verifica {accountName}.",
+  "purchaseErrorReceiptInUse": "Ya se ha comprado o la información de compra está siendo utilizada por otro usuario. Comprueba {accountName}.",
   "purchaseErrorInvalidReceipt": "La información de compra es inválida. Por favor, verifica la información de compra.",
   "purchaseErrorMissingReceipt": "No existe información del comprador. Por favor, inicie sesión en el dispositivo con {accountName} y pruebe nuevamente.",
   "purchaseErrorNetwork": "El estado de la red es inestable. Por favor, verifique la conexión antes de intentar de nuevo.",

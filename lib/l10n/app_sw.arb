@@ -114,7 +114,7 @@
   "purchaseErrorInvalidPayment": "Malipo hayakufaulu. Tafadhali hakikisha kuwa njia yako ya malipo ni halali, kisha ujaribu tena.",
   "purchaseErrorProductUnavailable": "Mpango uliochaguliwa haupatikani kwa ununuzi kwa sasa. Tafadhali anzisha upya programu na ujaribu tena.",
   "purchaseErrorAlreadyPurchased": "Tayari umenunua mpango. Ili kurejesha maelezo ya ununuzi kwenye kifaa hiki, chagua “Kwa waliowahi kununua”.",
-  "purchaseErrorReceiptInUse": "Tayari umenunua. Taarifa ya ununuzi inatumika na mtumiaji mwingine. Tafadhali angalia {accountName}.",
+  "purchaseErrorReceiptInUse": "Tayari imenunuliwa, au maelezo ya ununuzi yanatumiwa na mtumiaji mwingine. Angalia {accountName}.",
   "purchaseErrorInvalidReceipt": "Taarifa ya ununuzi isiyo sahihi. Tafadhali thibitisha taarifa za ununuzi.",
   "purchaseErrorMissingReceipt": "Hakuna taarifa ya mnunuzi. Tafadhali jaribu kuingia kwenye kifaa chako kwa kutumia {accountName}.",
   "purchaseErrorNetwork": "Hali ya mtandao si yenye kuaminika. Tafadhali thibitisha hali ya muunganisho kabla ya kujaribu tena.",

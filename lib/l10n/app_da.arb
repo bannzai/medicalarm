@@ -114,7 +114,7 @@
   "purchaseErrorInvalidPayment": "Betalingen mislykkedes. Kontrollér, at din betalingsmetode er gyldig, og prøv igen.",
   "purchaseErrorProductUnavailable": "Den valgte plan er ikke til salg i øjeblikket. Genstart appen, og prøv igen.",
   "purchaseErrorAlreadyPurchased": "Du har allerede købt et abonnement. Hvis du vil gendanne dine købsoplysninger på denne enhed, skal du vælge „Til dig, der har købt før“.",
-  "purchaseErrorReceiptInUse": "Allerede købt. Købsoplysningerne bruges af en anden bruger. Tjek {accountName}.",
+  "purchaseErrorReceiptInUse": "Allerede købt, eller købsoplysningerne bruges af en anden bruger. Kontrollér {accountName}.",
   "purchaseErrorInvalidReceipt": "Ugyldige købsoplysninger. Kontroller venligst købsoplysningerne.",
   "purchaseErrorMissingReceipt": "Der køberinformation findes ikke. Prøv at logge ind på enheden med {accountName}.",
   "purchaseErrorNetwork": "Netværksforbindelsen er ustabil. Kontroller forbindelsen, og prøv igen.",

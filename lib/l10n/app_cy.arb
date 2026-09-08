@@ -114,7 +114,7 @@
   "purchaseErrorInvalidPayment": "Methodd y taliad. Gwiriwch fod eich dull talu’n ddilys a rhowch gynnig arall arni.",
   "purchaseErrorProductUnavailable": "Nid yw’r cynllun a ddewiswyd ar werth ar hyn o bryd. Ailgychwynnwch yr ap a rhowch gynnig arall arni.",
   "purchaseErrorAlreadyPurchased": "Rydych eisoes wedi prynu cynllun. I adfer eich gwybodaeth brynu ar y ddyfais hon, dewiswch “Ar gyfer y rhai sydd wedi prynu o’r blaen”.",
-  "purchaseErrorReceiptInUse": "Eisoel wedi'i brynu eisoes. Mae'r gwybodaeth brynu yn cael ei defnyddio gan ddefnyddiwr arall. Gofynnwch am {accountName}.",
+  "purchaseErrorReceiptInUse": "Prynwyd eisoes, neu mae’r wybodaeth brynu’n cael ei defnyddio gan ddefnyddiwr arall. Gwiriwch {accountName}.",
   "purchaseErrorInvalidReceipt": "Gwybodaeth gaffael annilys. Gwiriwch y wybodaeth gaffael.",
   "purchaseErrorMissingReceipt": "Nid oes gwybodaeth am y prynwr. Pleserwch fewngofnodi i'r dyfais gyda {accountName} ac ymarferwch.",
   "purchaseErrorNetwork": "Mae'r cyflwr rhwydweithio'n afreolaidd. Gwiriwch y statws cysylltu cyn ceisio eto.",

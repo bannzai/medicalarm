@@ -114,7 +114,7 @@
   "purchaseErrorInvalidPayment": "გადახდა ვერ შესრულდა. შეამოწმეთ, რომ გადახდის მეთოდი მოქმედია და კვლავ სცადეთ.",
   "purchaseErrorProductUnavailable": "არჩეული გეგმა ამჟამად გასაყიდად ხელმისაწვდომი არ არის. გთხოვთ, გადატვირთოთ აპი და ხელახლა სცადოთ.",
   "purchaseErrorAlreadyPurchased": "თქვენ უკვე შეიძინეთ გეგმა. ამ მოწყობილობაზე შესყიდვის ინფორმაციის აღსადგენად აირჩიეთ „მათთვის, ვინც ადრე შეიძინა“.",
-  "purchaseErrorReceiptInUse": "წAlready purchased. The purchase information is being used by another user. Please check {accountName}.",
+  "purchaseErrorReceiptInUse": "უკვე შეძენილია, ან შეძენის ინფორმაციას სხვა მომხმარებელი იყენებს. შეამოწმეთ {accountName}.",
   "purchaseErrorInvalidReceipt": "არასწორი შემოსავლის ინფორმაციაა. გთხოვთ, გადაამოწმოთ შემოსავლის ინფორმაცია.",
   "purchaseErrorMissingReceipt": "ძალიან გთხოვთ, რომ შეიტანოთ მონაცემები. იმარჯვისთვის საჭიროა, რომ შეწვდოთ {accountName} ანგარიშზე.",
   "purchaseErrorNetwork": "რამგებიანი ქსელის მდგომარეობა. დაადასტურეთ კავშირის სტატუსი და თავიდან სცადეთ.",

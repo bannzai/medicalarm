@@ -114,7 +114,7 @@
   "purchaseErrorInvalidPayment": "Inkokhelo yehlulekile. Sicela uhlole ukuthi indlela yakho yokukhokha isemthethweni bese uzama futhi.",
   "purchaseErrorProductUnavailable": "Uhlelo olukhethiwe okwamanje alutholakali ukuze luthengwe. Sicela uqale kabusha uhlelo lokusebenza bese uzama futhi.",
   "purchaseErrorAlreadyPurchased": "Usuvele ulithengile icebo. Ukuze ubuyisele ulwazi lokuthenga kule divayisi, khetha “Okwabake bathenga ngaphambilini”.",
-  "purchaseErrorReceiptInUse": "Uthengela ngaphambili. Ulwazi lokuthenga lusetshenziswa omunye umsebenzisi. Sicela uhlole {accountName}.",
+  "purchaseErrorReceiptInUse": "Sekuthengiwe, noma ulwazi lokuthenga lusetshenziswa ngomunye umsebenzisi. Hlola i-{accountName}.",
   "purchaseErrorInvalidReceipt": "Lolu ulwazi lokuthenga alusemthethweni. Sicela uqinisekise ulwazi lokuthenga.",
   "purchaseErrorMissingReceipt": "Azikho izinkcukacha zomthengi. Sicela ungene kwi-device yakho usebenzisa {accountName} ukuze uzame.",
   "purchaseErrorNetwork": "Isimo senethiwekhi asiqinile. Sicela uhlole isimo sokuxhumana ngaphambi kokuzama.",

@@ -114,7 +114,7 @@
   "purchaseErrorInvalidPayment": "付款失败。请确认您的付款方式有效后重试。",
   "purchaseErrorProductUnavailable": "所选方案目前暂不提供购买。请重启应用后再试。",
   "purchaseErrorAlreadyPurchased": "您已购买过该方案。如需在此设备上恢复购买信息，请选择“之前购买过的用户”。",
-  "purchaseErrorReceiptInUse": "已购买。购买信息已被其他用户使用。请检查{accountName}。",
+  "purchaseErrorReceiptInUse": "已购买，或购买信息正在被其他用户使用。请检查 {accountName}。",
   "purchaseErrorInvalidReceipt": "无效的购买信息。请确认购买信息。",
   "purchaseErrorMissingReceipt": "不存在购买者信息。请使用 {accountName} 在设备上登录后重试。",
   "purchaseErrorNetwork": "网络状态不稳定。请确认连接情况后再试。",

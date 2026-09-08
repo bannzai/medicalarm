@@ -114,7 +114,7 @@
   "purchaseErrorInvalidPayment": "Płatność się nie powiodła. Sprawdź, czy Twoja metoda płatności jest prawidłowa, i spróbuj ponownie.",
   "purchaseErrorProductUnavailable": "Wybrany plan nie jest obecnie dostępny w sprzedaży. Uruchom ponownie aplikację i spróbuj jeszcze raz.",
   "purchaseErrorAlreadyPurchased": "Ten plan został już kupiony. Aby przywrócić informacje o zakupie na tym urządzeniu, wybierz „Dla osób, które już kupiły”.",
-  "purchaseErrorReceiptInUse": "Już zakupione. Informacje o zakupie są używane przez innego użytkownika. Sprawdź {accountName}.",
+  "purchaseErrorReceiptInUse": "Już kupiono lub informacje o zakupie są używane przez innego użytkownika. Sprawdź {accountName}.",
   "purchaseErrorInvalidReceipt": "Nieprawidłowe informacje o zakupie. Proszę sprawdzić informacje o zakupie.",
   "purchaseErrorMissingReceipt": "Nie ma informacji o nabywcy. Proszę spróbować zalogować się na urządzeniu jako {accountName}.",
   "purchaseErrorNetwork": "Stan sieci jest niestabilny. Proszę sprawdzić status połączenia i spróbować ponownie.",

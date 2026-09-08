@@ -114,7 +114,7 @@
   "purchaseErrorInvalidPayment": "Mokėjimas nepavyko. Patikrinkite, ar jūsų mokėjimo būdas galioja, ir bandykite dar kartą.",
   "purchaseErrorProductUnavailable": "Pasirinktas planas šiuo metu neparduodamas. Paleiskite programėlę iš naujo ir bandykite dar kartą.",
   "purchaseErrorAlreadyPurchased": "Šį planą jau įsigijote. Norėdami šiame įrenginyje atkurti pirkimo informaciją, pasirinkite „Jau pirkusiems“.",
-  "purchaseErrorReceiptInUse": "Jau įsigyta. {accountName} patikrinkite, nes pirkimo informacija naudojama kito vartotojo.",
+  "purchaseErrorReceiptInUse": "Jau įsigyta arba pirkimo informaciją naudoja kitas naudotojas. Patikrinkite {accountName}.",
   "purchaseErrorInvalidReceipt": "Neteisinga pirkimo informacija. Patikrinkite pirkimo informaciją.",
   "purchaseErrorMissingReceipt": "Pirkėjo informacija nerastas. Prašome prisijungti prie įrenginio naudojant {accountName} ir bandyti dar kartą.",
   "purchaseErrorNetwork": "Tinklo būsena nestabili. Patikrinkite ryšio būklę ir bandykite dar kartą.",

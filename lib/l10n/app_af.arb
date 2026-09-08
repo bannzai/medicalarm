@@ -114,7 +114,7 @@
   "purchaseErrorInvalidPayment": "Betaling kon nie voltooi word nie. Kontroleer asseblief of jou betaalmetode geldig is en probeer weer.",
   "purchaseErrorProductUnavailable": "Die geselekte plan is tans nie te koop nie. Herbegin asseblief die app en probeer weer.",
   "purchaseErrorAlreadyPurchased": "Jy het reeds ’n plan gekoop. As jy jou aankoop op hierdie toestel wil herstel, kies “Vir diegene wat voorheen gekoop het”.",
-  "purchaseErrorReceiptInUse": "Reeds al aangeskaf. Die aankoopbesonderhede word deur 'n ander gebruiker gebruik. Gaan asseblief {accountName} na.",
+  "purchaseErrorReceiptInUse": "Reeds gekoop, of die aankoopinligting word deur ’n ander gebruiker gebruik. Gaan {accountName} na.",
   "purchaseErrorInvalidReceipt": "Ongeldige aankoopbesonderhede. Vervaardig asseblief die aankoopbesonderhede.",
   "purchaseErrorMissingReceipt": "Geen koperinligting gevind nie. Probeer asseblief om met {accountName} op die toestel aan te meld.",
   "purchaseErrorNetwork": "Die netwerktoestand is onbetroubaar. Kontroleer die verbintenis toestand en probeer weer.",

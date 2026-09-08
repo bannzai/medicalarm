@@ -114,7 +114,7 @@
   "purchaseErrorInvalidPayment": "Payment failed. Please check that your payment method is valid and try again.",
   "purchaseErrorProductUnavailable": "The selected plan is not currently available for purchase. Please restart the app and try again.",
   "purchaseErrorAlreadyPurchased": "You have already purchased a plan. To restore your purchase information on this device, select “For those who purchased before.”",
-  "purchaseErrorReceiptInUse": "Already purchased. The purchase information is being used by another user. Please check {accountName}.",
+  "purchaseErrorReceiptInUse": "Already purchased, or the purchase information is being used by another user. Check {accountName}.",
   "purchaseErrorInvalidReceipt": "Invalid purchase information. Please check your purchase details.",
   "purchaseErrorMissingReceipt": "No buyer information exists. Please sign in to the device with {accountName} and try again.",
   "purchaseErrorNetwork": "The network connection is unstable. Please check the connection status and try again.",

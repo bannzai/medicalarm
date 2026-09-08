@@ -114,7 +114,7 @@
   "purchaseErrorInvalidPayment": "Plačilo ni uspelo. Preverite, ali je vaš način plačila veljaven, in poskusite znova.",
   "purchaseErrorProductUnavailable": "Izbrani paket trenutno ni naprodaj. Znova zaženite aplikacijo in poskusite še enkrat.",
   "purchaseErrorAlreadyPurchased": "Načrt ste že kupili. Če želite v tej napravi obnoviti podatke o nakupu, izberite »Za tiste, ki so že kupili«.­",
-  "purchaseErrorReceiptInUse": "Že je že kupljeno. Nakup podatkov se uporablja z drugim uporabnikom. Preverite {accountName}.",
+  "purchaseErrorReceiptInUse": "To je že kupljeno ali podatke o nakupu uporablja drug uporabnik. Preverite {accountName}.",
   "purchaseErrorInvalidReceipt": "Neveljavne informacije o nakupu. Prosimo, preverite informacije o nakupu.",
   "purchaseErrorMissingReceipt": "Podatki o kupcu ne obstajajo. Poskusite se prijaviti v napravo z {accountName}.",
   "purchaseErrorNetwork": "Stanje omrežne povezave ni stabilno. Preverite stanje povezave in poskusite znova.",
