@@ -110,7 +110,7 @@
   "insomnia": "Անքնություն",
   "monthlyPlanDiscountFormat": "{percent}% ከወርሃዊ ያነሰ",
   "purchaseErrorUnknown": "ያልታወቀ ስህተት ተከስቷል። እባክዎ ቆይተው እንደገና ይሞክሩ። ችግሩ ካልተፈታ፣ በቅንብሮች > አግኙን በኩል ያነጋግሩን። ዝርዝሮች፦ {message}",
-  "purchaseErrorStoreProblem": "{storeName} ውስጥ ግድም ተከስቷል። እ παρα አነሰ ጊዜ ይቀይሩና እንደገና ይሞክሩ።",
+  "purchaseErrorStoreProblem": "በ{storeName} ላይ ስህተት ተከስቷል። እባክዎ ከጥቂት ጊዜ በኋላ ዳግም ይሞክሩ።",
   "purchaseErrorInvalidPayment": "እቅፍ ያልተደረገባት ነው። እባኮትን የተጠቃሚ አስተዳደር እና የቅዱስ ሰነድ የሚጠቀም የወንድም እቅፍ ያልተደረገባት ማስጠንቀቅ ይፈቅድ።",
   "purchaseErrorProductUnavailable": "እቅፍ የሚታይ እቅፍ አሁን የሚሸጥ አይደለም። እቅፍ ይድረስ ማለት እባክህ አፕ ድግግሞ አሟላ ይሞከሩ።",
   "purchaseErrorAlreadyPurchased": "ይህ የተገዙባቸው ትክክለኛ ነው። በዚህ መሣሪያ ላይ የተገዙባቸውን መረጃ ለመሥረዝ \"ቀደመ የተገዙ ግን እንደዚህ\" ይጠቀሙ።",

@@ -110,7 +110,7 @@
   "insomnia": "失眠",
   "monthlyPlanDiscountFormat": "相比月度方案优惠{percent}%",
   "purchaseErrorUnknown": "发生未知错误。请稍后重试。如果问题仍未解决，请通过设置 > 联系我们与我们联系。详细信息：{message}",
-  "purchaseErrorStoreProblem": "{storeName}发生错误。请稍后再试。",
+  "purchaseErrorStoreProblem": "{storeName}发生错误。请稍后重试。",
   "purchaseErrorInvalidPayment": "支付失败。请检查是否为有效的支付方式，并重新尝试。",
   "purchaseErrorProductUnavailable": "当前未销售该计划。请您重新启动应用后再试。",
   "purchaseErrorAlreadyPurchased": "您已经购买了计划。如果您想在此设备上恢复购买信息，请点击“以前购买的用户请点击这里”恢复购买信息。",

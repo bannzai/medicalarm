@@ -110,7 +110,7 @@
   "insomnia": "Nespavost",
   "monthlyPlanDiscountFormat": "O {percent}% levnější než měsíční plán",
   "purchaseErrorUnknown": "Došlo k neznámé chybě. Zkuste to znovu později. Pokud problém přetrvává, kontaktujte nás přes Nastavení > Kontakt. Podrobnosti: {message}",
-  "purchaseErrorStoreProblem": "Ve zpracování došlo k chybě ve {storeName}. Prosím zkuste to znovu za chvíli.",
+  "purchaseErrorStoreProblem": "V {storeName} došlo k chybě. Zkuste to znovu za chvíli.",
   "purchaseErrorInvalidPayment": "Platba se nezdařila. Zkontrolujte platnou platební metodu a zkuste to znovu.",
   "purchaseErrorProductUnavailable": "Tento plán není aktuálně k dispozici. Omlouváme se, ale zkuste prosím aplikaci restartovat a znovu to vyzkoušet.",
   "purchaseErrorAlreadyPurchased": "Již jste zakoupili plán. Pokud chcete obnovit informace o nákupu na tomto zařízení, klikněte na \"Zde obnovte informace o předchozím nákupu\".",

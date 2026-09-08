@@ -110,7 +110,7 @@
   "insomnia": "Nemiga",
   "monthlyPlanDiscountFormat": "{percent}% pigiau nei mokant kas mėnesį",
   "purchaseErrorUnknown": "Įvyko nežinoma klaida. Pabandykite dar kartą vėliau. Jei problema neišsisprendžia, susisiekite su mumis: Nustatymai > Kontaktai. Išsami informacija: {message}",
-  "purchaseErrorStoreProblem": "Išsaugotoje {storeName} įvyko klaida. Prašome palaukti ir bandyti dar kartą.",
+  "purchaseErrorStoreProblem": "Įvyko {storeName} klaida. Pabandykite dar kartą vėliau.",
   "purchaseErrorInvalidPayment": "Apmokėjimas nepavyko. Patikrinkite, ar mokėjimo būdas yra galiojantis, ir bandykite dar kartą.",
   "purchaseErrorProductUnavailable": "Pasirinktas planas šiuo metu nėra parduodamas. Atsiprašome, bet prašome perkrauti programą ir bandyti dar kartą.",
   "purchaseErrorAlreadyPurchased": "Jau esate įsigiję planą. Norėdami atkurti pirkimo informaciją šiame įrenginyje, spustelėkite „Anksčiau pirkusiems čia\".",

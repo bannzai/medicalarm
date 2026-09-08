@@ -110,7 +110,7 @@
   "insomnia": "Insonnia",
   "monthlyPlanDiscountFormat": "{percent}% di sconto rispetto al piano mensile",
   "purchaseErrorUnknown": "Si è verificato un errore sconosciuto. Riprova più tardi. Se il problema persiste, contattaci da Impostazioni > Contatti. Dettagli: {message}",
-  "purchaseErrorStoreProblem": "Si è verificato un errore su {storeName}. Per favore, attendi un momento e riprova.",
+  "purchaseErrorStoreProblem": "Si è verificato un errore con {storeName}. Riprova più tardi.",
   "purchaseErrorInvalidPayment": "Il pagamento è fallito. Controlla se il metodo di pagamento è valido e riprova.",
   "purchaseErrorProductUnavailable": "Il piano selezionato non è attualmente in vendita. Ci scusiamo per il disagio, ti preghiamo di riavviare l'app e riprovare.",
   "purchaseErrorAlreadyPurchased": "Hai già acquistato un piano. Se desideri ripristinare le informazioni di acquisto su questo dispositivo, ti preghiamo di fare clic su \"Se hai già acquistato, fai clic qui\".",

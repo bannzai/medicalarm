@@ -110,7 +110,7 @@
   "insomnia": "Yuxusuzluq",
   "monthlyPlanDiscountFormat": "Aylıq plandan {percent}% endirim",
   "purchaseErrorUnknown": "Naməlum xəta baş verdi. Bir qədər sonra yenidən cəhd edin. Problem həll olunmazsa, Parametrlər > Əlaqə bölməsindən bizimlə əlaqə saxlayın. Təfərrüatlar: {message}",
-  "purchaseErrorStoreProblem": "{storeName} ilə bir səhv baş verdi. Lütfən bir az gözləyin və yenidən cəhd edin.",
+  "purchaseErrorStoreProblem": "{storeName} ilə bağlı xəta baş verdi. Zəhmət olmasa, bir qədər sonra yenidən cəhd edin.",
   "purchaseErrorInvalidPayment": "Ödəniş uğursuz oldu. Zəhmət olmasa, etibarlı ödəniş metodunu yoxlayın və yenidən cəhd edin.",
   "purchaseErrorProductUnavailable": "Hal-hazırda seçilmiş plan satışda deyil. Zəhmət olmasa, tətbiqi yenidən başladın və bir daha cəhd et.",
   "purchaseErrorAlreadyPurchased": "Artıq plan alınıb. Bu cihazda satınalma məlumatlarını bərpa etmək üçün \"Əvvəlki satın alanlar üçün bura klikləyin\" düyməsinə basın.",

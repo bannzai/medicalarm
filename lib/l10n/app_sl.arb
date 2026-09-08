@@ -110,7 +110,7 @@
   "insomnia": "Nespečnost",
   "monthlyPlanDiscountFormat": "{percent}% ceneje kot mesečni paket",
   "purchaseErrorUnknown": "Prišlo je do neznane napake. Poskusite znova pozneje. Če težava ne bo odpravljena, nas kontaktirajte v Nastavitve > Stik. Podrobnosti: {message}",
-  "purchaseErrorStoreProblem": "Prišlo je do napake v {storeName}. Poskusite znova čez nekaj časa.",
+  "purchaseErrorStoreProblem": "V {storeName} je prišlo do napake. Poskusite znova pozneje.",
   "purchaseErrorInvalidPayment": "Plačilo ni uspelo. Preverite, ali je metoda plačila veljavna, in poskusite znova.",
   "purchaseErrorProductUnavailable": "Izbrani načrt trenutno ni na voljo. Opravičujemo se za nevšečnosti, vendar prosimo, da znova zaženete aplikacijo in poskusite znova.",
   "purchaseErrorAlreadyPurchased": "Že ste že kupili načrte. Če želite obnoviti podatke o nakupu na tej napravi, prosim, kliknite \"Obnovite podatke o prejšnjem nakupu\".",

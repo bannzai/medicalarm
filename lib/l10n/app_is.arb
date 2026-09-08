@@ -110,7 +110,7 @@
   "insomnia": "Svefnleysi",
   "monthlyPlanDiscountFormat": "{percent}% afsláttur miðað við mánaðaráskrift",
   "purchaseErrorUnknown": "Óþekkt villa kom upp. Prófaðu aftur síðar. Ef vandamálið leysist ekki skaltu hafa samband við okkur í Stillingar > Hafðu samband. Upplýsingar: {message}",
-  "purchaseErrorStoreProblem": "Villa {storeName} er villur. Vinsamlegast reyndu aftur síðar.",
+  "purchaseErrorStoreProblem": "Villa kom upp í {storeName}. Vinsamlegast reyndu aftur síðar.",
   "purchaseErrorInvalidPayment": "Greiðslan mistókst. Vinsamlegast skaltu athuga hvort greiðsluaðferðin sé gild og reyndu aftur.",
   "purchaseErrorProductUnavailable": "Áætlunin er ekki til sölu núna. Vinsamlegast endurræstu appið og reyndu aftur.",
   "purchaseErrorAlreadyPurchased": "Þú hefur þegar keypt áætlunina. Ef þú vilt endurreisa kaupin þín á þessu tæki skaltu smella á \"Smelltu hér ef þú hefur áður keypt\" til að endurreisa kaupaupplýsingar.",

@@ -110,7 +110,7 @@
   "insomnia": "Unettomuus",
   "monthlyPlanDiscountFormat": "{percent}% alennus kuukausitilaukseen verrattuna",
   "purchaseErrorUnknown": "Tapahtui tuntematon virhe. Yritä myöhemmin uudelleen. Jos ongelma jatkuu, ota meihin yhteyttä kohdasta Asetukset > Ota yhteyttä. Tiedot: {message}",
-  "purchaseErrorStoreProblem": "Virhe esiintyy kaupassa {storeName}. Odota hetki ja yritä uudelleen.",
+  "purchaseErrorStoreProblem": "{storeName}-palvelussa tapahtui virhe. Yritä myöhemmin uudelleen.",
   "purchaseErrorInvalidPayment": "Maksaminen epäonnistui. Varmista, että maksutapa on voimassa, ja yritä uudelleen.",
   "purchaseErrorProductUnavailable": "Valittua suunnitelmaa ei ole tällä hetkellä myynnissä. Pahoittelemme vaivannäköä, mutta kokeilethän sovelluksen uudelleenkäynnistystä.",
   "purchaseErrorAlreadyPurchased": "Olet jo ostanut suunnitelman. Jos haluat palauttaa ostotiedot tältä laitteelta, voit palauttaa ostotiedot valitsemalla \"Palauta aiemmin ostettu\".",

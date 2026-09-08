@@ -110,7 +110,7 @@
   "insomnia": "Slapeloosheid",
   "monthlyPlanDiscountFormat": "{percent}% korting ten opzichte van maandelijks",
   "purchaseErrorUnknown": "Er is een onbekende fout opgetreden. Probeer het later opnieuw. Als het probleem aanhoudt, neem dan contact met ons op via Instellingen > Contact. Details: {message}",
-  "purchaseErrorStoreProblem": "Er is een fout opgetreden bij {storeName}. Probeer het over een tijdje opnieuw.",
+  "purchaseErrorStoreProblem": "Er is een fout opgetreden bij {storeName}. Probeer het later opnieuw.",
   "purchaseErrorInvalidPayment": "De betaling is mislukt. Controleer of uw betaalmethode geldig is en probeer het opnieuw.",
   "purchaseErrorProductUnavailable": "Het geselecteerde abonnement is momenteel niet beschikbaar. Onze excuses voor het ongemak, maar probeer de app opnieuw op te starten.",
   "purchaseErrorAlreadyPurchased": "U heeft al een abonnement gekocht. Als u de aankoopgegevens op dit apparaat wilt herstellen, kunt u de aankoopgegevens herstellen door op \"Al eerder gekocht? Klik hier\" te klikken.",

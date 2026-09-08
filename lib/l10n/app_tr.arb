@@ -110,7 +110,7 @@
   "insomnia": "Uykusuzluk",
   "monthlyPlanDiscountFormat": "Aylık plana göre %{percent} indirim",
   "purchaseErrorUnknown": "Bilinmeyen bir hata oluştu. Lütfen daha sonra tekrar deneyin. Sorun çözülmezse Ayarlar > İletişim üzerinden bizimle iletişime geçin. Ayrıntılar: {message}",
-  "purchaseErrorStoreProblem": "{storeName} ile bir hata oluştu. Lütfen bir süre bekleyip tekrar deneyin.",
+  "purchaseErrorStoreProblem": "{storeName} ile ilgili bir hata oluştu. Lütfen bir süre sonra tekrar deneyin.",
   "purchaseErrorInvalidPayment": "Ödeme işlemi başarısız oldu. Lütfen geçerli bir ödeme yöntemi olup olmadığını kontrol edin ve tekrar deneyin.",
   "purchaseErrorProductUnavailable": "Şu an için hedef plan mevcut değildir. Lütfen uygulamayı yeniden başlatarak tekrar deneyin.",
   "purchaseErrorAlreadyPurchased": "Zaten plan satın almışsınız. Bu cihazda satın alma bilgilerini geri yüklemek için \"Daha önce satın alanlar buraya tıklayın\" ile satın alma bilgilerini geri yükleyin.",

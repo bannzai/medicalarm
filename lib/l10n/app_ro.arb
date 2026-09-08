@@ -110,7 +110,7 @@
   "insomnia": "Insomnie",
   "monthlyPlanDiscountFormat": "{percent}% reducere față de planul lunar",
   "purchaseErrorUnknown": "A apărut o eroare necunoscută. Încercați din nou mai târziu. Dacă problema persistă, contactați-ne din Setări > Contact. Detalii: {message}",
-  "purchaseErrorStoreProblem": "A apărut o eroare la {storeName}. Te rugăm să aștepți câteva momente și să încerci din nou.",
+  "purchaseErrorStoreProblem": "A apărut o eroare la {storeName}. Încercați din nou mai târziu.",
   "purchaseErrorInvalidPayment": "Plata a eșuat. Verificați dacă metoda de plată este validă și încercați din nou.",
   "purchaseErrorProductUnavailable": "Planul vizat nu este disponibil în prezent. Vă rugăm să reporniți aplicația și să încercați din nou.",
   "purchaseErrorAlreadyPurchased": "Ați achiziționat deja planul. Dacă doriți să restaurați informațiile de achiziție pe acest dispozitiv, vă rugăm să utilizați opțiunea „Cei care au cumpărat anterior, faceți clic aici” pentru a restabili informațiile de achiziție.",
