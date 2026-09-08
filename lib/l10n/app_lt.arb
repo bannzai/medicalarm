@@ -222,7 +222,7 @@
   "accountLinkedWithGoogle": "Susieta su Google",
   "accountLinkedSnackbar": "Paskyra perkelta",
   "accountLinkBannerText": "Bendrinant grupę primygtinai rekomenduojame nustatyti paskyros perkėlimą",
-  "minimumDoseInterval": "Tarpas tarp dozių",
+  "minimumDoseInterval": "Dozių vartojimo intervalas",
   "minimumDoseIntervalDescription": "Mažiausias laiko tarpas tarp dozių",
   "minimumDoseIntervalNone": "Nėra",
   "minimumDoseIntervalHoursFormat": "Mažiausiai {hours} val.",

@@ -222,7 +222,7 @@
   "accountLinkedWithGoogle": "Saistīts ar Google",
   "accountLinkedSnackbar": "Konts pārsūtīts",
   "accountLinkBannerText": "Kopīgojot grupu, ļoti iesakām iestatīt konta pārsūtīšanu",
-  "minimumDoseInterval": "Intervāls starp devām",
+  "minimumDoseInterval": "Devu lietošanas intervāls",
   "minimumDoseIntervalDescription": "Minimālais laiks starp devām",
   "minimumDoseIntervalNone": "Nav",
   "minimumDoseIntervalHoursFormat": "Vismaz {hours} stundas",

@@ -222,7 +222,7 @@
   "accountLinkedWithGoogle": "Google සමඟ සම්බන්ධ කර ඇත",
   "accountLinkedSnackbar": "ගිණුම මාරු කරන ලදී",
   "accountLinkBannerText": "කණ්ඩායමක් බෙදාගන්නා විට, ගිණුම් මාරු කිරීම සකසන ලෙස අපි තරයේ නිර්දේශ කරමු",
-  "minimumDoseInterval": "මාත්‍රා අතර පරතරය",
+  "minimumDoseInterval": "මාත්‍රා අතර කාල පරතරය",
   "minimumDoseIntervalDescription": "මාත්‍රා අතර තැබිය යුතු අවම කාලය",
   "minimumDoseIntervalNone": "නැත",
   "minimumDoseIntervalHoursFormat": "අවම වශයෙන් පැය {hours}ක්",

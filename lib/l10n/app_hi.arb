@@ -222,7 +222,7 @@
   "accountLinkedWithGoogle": "Google से लिंक है",
   "accountLinkedSnackbar": "अकाउंट ट्रांसफ़र हो गया",
   "accountLinkBannerText": "समूह साझा करते समय, हम खाता स्थानांतरण सेट अप करने की पुरज़ोर सलाह देते हैं",
-  "minimumDoseInterval": "खुराकों के बीच अंतर",
+  "minimumDoseInterval": "खुराक का अंतराल",
   "minimumDoseIntervalDescription": "खुराकों के बीच न्यूनतम समय",
   "minimumDoseIntervalNone": "कोई नहीं",
   "minimumDoseIntervalHoursFormat": "कम से कम {hours} घंटे",

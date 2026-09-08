@@ -222,7 +222,7 @@
   "accountLinkedWithGoogle": "Միացված է Google-ին",
   "accountLinkedSnackbar": "Հաշիվը փոխանցվեց",
   "accountLinkBannerText": "Խումբը համօգտագործելիս խստորեն խորհուրդ ենք տալիս կարգավորել հաշվի փոխանցումը",
-  "minimumDoseInterval": "Դեղաչափերի միջև ընդմիջում",
+  "minimumDoseInterval": "Ընդմիջում դեղաչափերի միջև",
   "minimumDoseIntervalDescription": "Դեղաչափերի միջև նվազագույն ժամանակը",
   "minimumDoseIntervalNone": "Չկա",
   "minimumDoseIntervalHoursFormat": "Առնվազն {hours} ժամ",

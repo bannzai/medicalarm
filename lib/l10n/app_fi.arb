@@ -222,7 +222,7 @@
   "accountLinkedWithGoogle": "Yhdistetty Googleen",
   "accountLinkedSnackbar": "Tili siirretty",
   "accountLinkBannerText": "Kun jaat ryhmän, suosittelemme vahvasti tilin siirron määrittämistä",
-  "minimumDoseInterval": "Annosteluväli",
+  "minimumDoseInterval": "Annosväli",
   "minimumDoseIntervalDescription": "Annosten välinen vähimmäisaika",
   "minimumDoseIntervalNone": "Ei mitään",
   "minimumDoseIntervalHoursFormat": "Vähintään {hours} tuntia",

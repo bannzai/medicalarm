@@ -222,7 +222,7 @@
   "accountLinkedWithGoogle": "Terhubung ke Google",
   "accountLinkedSnackbar": "Akun berhasil dipindahkan",
   "accountLinkBannerText": "Saat berbagi grup, kami sangat menyarankan untuk menyiapkan transfer akun",
-  "minimumDoseInterval": "Jeda minum obat",
+  "minimumDoseInterval": "Interval minum konsumsi",
   "minimumDoseIntervalDescription": "Waktu minimum antara dosis",
   "minimumDoseIntervalNone": "Tidak ada",
   "minimumDoseIntervalHoursFormat": "Minimal {hours} jam",

@@ -222,7 +222,7 @@
   "accountLinkedWithGoogle": "Google менен байланыштырылды",
   "accountLinkedSnackbar": "Каттоо эсеби өткөрүлдү",
   "accountLinkBannerText": "Топ бөлүшүп жатканда, аккаунтту өткөрүп берүү жөндөөсүн орнотууну катуу сунуштайбыз",
-  "minimumDoseInterval": "Дозалар аралыгы",
+  "minimumDoseInterval": "Кабыл алуу аралыгы",
   "minimumDoseIntervalDescription": "Кабыл алуулардын ортосундагы минималдуу убакыт",
   "minimumDoseIntervalNone": "Жок",
   "minimumDoseIntervalHoursFormat": "Кеминде {hours} саат",
