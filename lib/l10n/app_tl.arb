@@ -179,7 +179,7 @@
   "medicationHistoryReverted": "Kinansela ang tala ng pag-inom ng gamot",
   "revertedTime": "Oras ng pagkansela",
   "revertedByMember": "Kinansela ni {name}",
-  "medicationTakenAtLabel": "Nainom noong {time}",
+  "medicationTakenAtLabel": "{time} Nainom na",
   "medicineResumedSnackbar": "Ipinagpatuloy ang pag-inom ng gamot",
   "medicineEditTooltip": "I-edit ang gamot",
   "groups": "Mga Grupo",

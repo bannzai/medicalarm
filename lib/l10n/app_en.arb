@@ -179,7 +179,7 @@
   "medicationHistoryReverted": "Medication record reverted",
   "revertedTime": "Cancellation time",
   "revertedByMember": "Canceled by {name}",
-  "medicationTakenAtLabel": "Taken at {time}",
+  "medicationTakenAtLabel": "{time} Taken",
   "medicineResumedSnackbar": "Medication resumed",
   "medicineEditTooltip": "Edit medication",
   "groups": "Groups",

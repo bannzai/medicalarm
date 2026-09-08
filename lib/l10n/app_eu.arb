@@ -179,7 +179,7 @@
   "medicationHistoryReverted": "Botikaren erregistroa leheneratuta",
   "revertedTime": "Ezeztatzeko ordua",
   "revertedByMember": "{name}(e)k ezeztatu du",
-  "medicationTakenAtLabel": "{time} hartuta",
+  "medicationTakenAtLabel": "{time} Hartutakoa",
   "medicineResumedSnackbar": "Sendagaiaren hartzea berrabiarazi da",
   "medicineEditTooltip": "Editatu botika",
   "groups": "Taldeak",

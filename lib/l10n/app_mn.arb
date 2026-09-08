@@ -179,7 +179,7 @@
   "medicationHistoryReverted": "Эм уусан бүртгэлийг цуцалсан",
   "revertedTime": "Цуцалсан цаг",
   "revertedByMember": "{name} цуцалсан",
-  "medicationTakenAtLabel": "{time}-д уусан",
+  "medicationTakenAtLabel": "{time} Уусан",
   "medicineResumedSnackbar": "Эм уухыг дахин эхлүүллээ",
   "medicineEditTooltip": "Эмийг засах",
   "groups": "Бүлгүүд",

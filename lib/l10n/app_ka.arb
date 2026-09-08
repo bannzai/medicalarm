@@ -179,7 +179,7 @@
   "medicationHistoryReverted": "მედიკამენტის მიღების ჩანაწერი გაუქმდა",
   "revertedTime": "გაუქმების დრო",
   "revertedByMember": "გააუქმა {name}-მა",
-  "medicationTakenAtLabel": "მიღებულია {time}-ზე",
+  "medicationTakenAtLabel": "{time} მიღებულია",
   "medicineResumedSnackbar": "მედიკამენტის მიღება განახლდა",
   "medicineEditTooltip": "მედიკამენტის რედაქტირება",
   "groups": "ჯგუფები",

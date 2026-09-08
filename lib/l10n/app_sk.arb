@@ -179,7 +179,7 @@
   "medicationHistoryReverted": "Záznam o užití lieku zrušený",
   "revertedTime": "Čas zrušenia",
   "revertedByMember": "Zrušil(a) {name}",
-  "medicationTakenAtLabel": "Užité o {time}",
+  "medicationTakenAtLabel": "{time} Užitý",
   "medicineResumedSnackbar": "Užívanie lieku bolo obnovené",
   "medicineEditTooltip": "Upraviť liek",
   "groups": "Skupiny",

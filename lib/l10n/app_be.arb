@@ -179,7 +179,7 @@
   "medicationHistoryReverted": "Адмена запісу аб прыёме лекаў",
   "revertedTime": "Час адмены",
   "revertedByMember": "Скасавана карыстальнікам {name}",
-  "medicationTakenAtLabel": "Прынята ў {time}",
+  "medicationTakenAtLabel": "{time} Прынята",
   "medicineResumedSnackbar": "Прыём прэпарата адноўлены",
   "medicineEditTooltip": "Рэдагаваць лекі",
   "groups": "Групы",

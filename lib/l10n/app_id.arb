@@ -179,7 +179,7 @@
   "medicationHistoryReverted": "Catatan minum obat dibatalkan",
   "revertedTime": "Waktu pembatalan",
   "revertedByMember": "Dibatalkan oleh {name}",
-  "medicationTakenAtLabel": "Diminum pada {time}",
+  "medicationTakenAtLabel": "{time} Sudah diminum",
   "medicineResumedSnackbar": "Penggunaan obat dilanjutkan",
   "medicineEditTooltip": "Edit obat",
   "groups": "Grup",

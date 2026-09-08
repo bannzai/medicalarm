@@ -179,7 +179,7 @@
   "medicationHistoryReverted": "Дәрі қабылдау жазбасы қайтарылды",
   "revertedTime": "Болдырмау уақыты",
   "revertedByMember": "{name} бас тартты",
-  "medicationTakenAtLabel": "{time} қабылданды",
+  "medicationTakenAtLabel": "{time} Қабылданды",
   "medicineResumedSnackbar": "Дәрі қабылдау қайта басталды",
   "medicineEditTooltip": "Дәріні өңдеу",
   "groups": "Топтар",

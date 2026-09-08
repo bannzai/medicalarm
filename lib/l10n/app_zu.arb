@@ -179,7 +179,7 @@
   "medicationHistoryReverted": "Irekhodi lokuphuza umuthi lihoxisiwe",
   "revertedTime": "Isikhathi sokukhansela",
   "revertedByMember": "Kukhanselwe ngu-{name}",
-  "medicationTakenAtLabel": "Iphuzwe ngo-{time}",
+  "medicationTakenAtLabel": "{time} Kuphuzwe",
   "medicineResumedSnackbar": "Ukuqhubeka nokuphuza umuthi kuqalisiwe",
   "medicineEditTooltip": "Hlela umuthi",
   "groups": "Amaqembu",

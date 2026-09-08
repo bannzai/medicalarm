@@ -179,7 +179,7 @@
   "medicationHistoryReverted": "Vaistų vartojimo įrašas atšauktas",
   "revertedTime": "Atšaukimo laikas",
   "revertedByMember": "Atšaukė {name}",
-  "medicationTakenAtLabel": "Išgerta {time}",
+  "medicationTakenAtLabel": "{time} Išgerta",
   "medicineResumedSnackbar": "Vaistų vartojimas atnaujintas",
   "medicineEditTooltip": "Redaguoti vaistą",
   "groups": "Grupės",

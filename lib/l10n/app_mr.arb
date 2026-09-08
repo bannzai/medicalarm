@@ -179,7 +179,7 @@
   "medicationHistoryReverted": "औषध सेवनाची नोंद रद्द केली",
   "revertedTime": "रद्द करण्याची वेळ",
   "revertedByMember": "{name} यांनी रद्द केले",
-  "medicationTakenAtLabel": "{time} वाजता घेतले",
+  "medicationTakenAtLabel": "{time} घेतले",
   "medicineResumedSnackbar": "औषध घेणे पुन्हा सुरू केले",
   "medicineEditTooltip": "औषध संपादित करा",
   "groups": "गट",

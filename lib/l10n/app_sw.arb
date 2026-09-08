@@ -179,7 +179,7 @@
   "medicationHistoryReverted": "Rekodi ya unywaji wa dawa imeghairiwa",
   "revertedTime": "Muda wa kughairi",
   "revertedByMember": "Imeghairiwa na {name}",
-  "medicationTakenAtLabel": "Imetumiwa saa {time}",
+  "medicationTakenAtLabel": "{time} Imekunywa",
   "medicineResumedSnackbar": "Unywaji wa dawa umeanzishwa tena",
   "medicineEditTooltip": "Hariri dawa",
   "groups": "Vikundi",

@@ -179,7 +179,7 @@
   "medicationHistoryReverted": "Lääkkeenottotieto kumottu",
   "revertedTime": "Peruutusaika",
   "revertedByMember": "{name} perui",
-  "medicationTakenAtLabel": "Otettu klo {time}",
+  "medicationTakenAtLabel": "{time} Otettu",
   "medicineResumedSnackbar": "Lääkkeen ottaminen jatkui",
   "medicineEditTooltip": "Muokkaa lääkettä",
   "groups": "Ryhmät",

@@ -179,7 +179,7 @@
   "medicationHistoryReverted": "Dori qabul qilish qaydi bekor qilindi",
   "revertedTime": "Bekor qilingan vaqt",
   "revertedByMember": "{name} bekor qildi",
-  "medicationTakenAtLabel": "{time} da qabul qilindi",
+  "medicationTakenAtLabel": "{time} Qabul qilindi",
   "medicineResumedSnackbar": "Dorini qabul qilish qayta boshlandi",
   "medicineEditTooltip": "Dorixona vositasini tahrirlash",
   "groups": "Guruhlar",

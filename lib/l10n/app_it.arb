@@ -179,7 +179,7 @@
   "medicationHistoryReverted": "Registrazione dell’assunzione annullata",
   "revertedTime": "Ora dell’annullamento",
   "revertedByMember": "Annullato da {name}",
-  "medicationTakenAtLabel": "Assunto alle {time}",
+  "medicationTakenAtLabel": "{time} Assunto",
   "medicineResumedSnackbar": "L’assunzione del farmaco è ripresa",
   "medicineEditTooltip": "Modifica farmaco",
   "groups": "Gruppi",

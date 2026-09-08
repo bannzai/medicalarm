@@ -179,7 +179,7 @@
   "medicationHistoryReverted": "Medikasie-inskrywing gekanselleer",
   "revertedTime": "Kanselleringstyd",
   "revertedByMember": "Gekanselleer deur {name}",
-  "medicationTakenAtLabel": "{time} Ingeneem",
+  "medicationTakenAtLabel": "{time} Geneem",
   "medicineResumedSnackbar": "Die gebruik van die medikasie is hervat",
   "medicineEditTooltip": "Wysig medikasie",
   "groups": "Groepe",

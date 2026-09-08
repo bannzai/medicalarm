@@ -179,7 +179,7 @@
   "medicationHistoryReverted": "Zapis jemanja zdravila razveljavljen",
   "revertedTime": "Čas preklica",
   "revertedByMember": "Preklical(a) {name}",
-  "medicationTakenAtLabel": "Vzeto ob {time}",
+  "medicationTakenAtLabel": "{time} Zaužito",
   "medicineResumedSnackbar": "Jemanje zdravila je bilo ponovno uvedeno",
   "medicineEditTooltip": "Uredi zdravilo",
   "groups": "Skupine",

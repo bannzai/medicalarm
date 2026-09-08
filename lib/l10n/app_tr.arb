@@ -179,7 +179,7 @@
   "medicationHistoryReverted": "İlaç alım kaydı geri alındı",
   "revertedTime": "İptal zamanı",
   "revertedByMember": "{name} tarafından iptal edildi",
-  "medicationTakenAtLabel": "{time} alındı",
+  "medicationTakenAtLabel": "{time} Alındı",
   "medicineResumedSnackbar": "İlacın kullanımına yeniden başlandı",
   "medicineEditTooltip": "İlacı düzenle",
   "groups": "Gruplar",

@@ -179,7 +179,7 @@
   "medicationHistoryReverted": "Rexistro de medicación revertido",
   "revertedTime": "Hora de cancelación",
   "revertedByMember": "Cancelado por {name}",
-  "medicationTakenAtLabel": "Tomado ás {time}",
+  "medicationTakenAtLabel": "{time} Tomado",
   "medicineResumedSnackbar": "Retomouse a toma do medicamento",
   "medicineEditTooltip": "Editar medicamento",
   "groups": "Grupos",

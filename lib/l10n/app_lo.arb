@@ -179,7 +179,7 @@
   "medicationHistoryReverted": "ບັນທຶກການກິນຢາຖືກຍົກເລີກ",
   "revertedTime": "ເວລາຍົກເລີກ",
   "revertedByMember": "ຍົກເລີກໂດຍ {name}",
-  "medicationTakenAtLabel": "ໄດ້ກິນໃນເວລາ {time}",
+  "medicationTakenAtLabel": "{time} ໄດ້ຮັບປະທານແລ້ວ",
   "medicineResumedSnackbar": "ໄດ້ເລີ່ມກິນຢາອີກຄັ້ງແລ້ວ",
   "medicineEditTooltip": "ແກ້ໄຂຢາ",
   "groups": "ກຸ່ມ",

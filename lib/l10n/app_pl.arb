@@ -179,7 +179,7 @@
   "medicationHistoryReverted": "Wpis przyjęcia leku anulowany",
   "revertedTime": "Czas anulowania",
   "revertedByMember": "Anulowane przez {name}",
-  "medicationTakenAtLabel": "Przyjęto o {time}",
+  "medicationTakenAtLabel": "{time} Przyjęto",
   "medicineResumedSnackbar": "Wznowiono przyjmowanie leku",
   "medicineEditTooltip": "Edytuj lek",
   "groups": "Grupy",

@@ -179,7 +179,7 @@
   "medicationHistoryReverted": "Medikamenteneintrag rückgängig gemacht",
   "revertedTime": "Stornierigsziit",
   "revertedByMember": "Vo {name} storniert",
-  "medicationTakenAtLabel": "Um {time} iignoh",
+  "medicationTakenAtLabel": "{time} Eingeno",
   "medicineResumedSnackbar": "D Medikament isch wieder gnoh worde",
   "medicineEditTooltip": "Medikament bearbeite",
   "groups": "Gruppen",

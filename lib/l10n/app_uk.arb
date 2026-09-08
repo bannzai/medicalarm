@@ -179,7 +179,7 @@
   "medicationHistoryReverted": "Запис про прийом ліків скасовано",
   "revertedTime": "Час скасування",
   "revertedByMember": "Скасовано користувачем {name}",
-  "medicationTakenAtLabel": "Прийнято о {time}",
+  "medicationTakenAtLabel": "{time} Прийнято",
   "medicineResumedSnackbar": "Прийом ліків відновлено",
   "medicineEditTooltip": "Редагувати ліки",
   "groups": "Групи",

@@ -179,7 +179,7 @@
   "medicationHistoryReverted": "Otkazivanje zapisa o uzimanju lijeka",
   "revertedTime": "Vrijeme poništavanja",
   "revertedByMember": "Otkazao/la {name}",
-  "medicationTakenAtLabel": "Uzeto u {time}",
+  "medicationTakenAtLabel": "{time} Uzeto",
   "medicineResumedSnackbar": "Uzimanje lijeka je nastavljeno",
   "medicineEditTooltip": "Uredi lijek",
   "groups": "Grupe",

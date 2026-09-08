@@ -179,7 +179,7 @@
   "medicationHistoryReverted": "Regjistrimi i marrjes së ilaçit u anulua",
   "revertedTime": "Koha e anulimit",
   "revertedByMember": "Anuluar nga {name}",
-  "medicationTakenAtLabel": "Marrë në {time}",
+  "medicationTakenAtLabel": "{time} Marrë",
   "medicineResumedSnackbar": "Marrja e ilaçit u rifillua",
   "medicineEditTooltip": "Redakto ilaçin",
   "groups": "Grupet",

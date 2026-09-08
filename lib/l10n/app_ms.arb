@@ -179,7 +179,7 @@
   "medicationHistoryReverted": "Rekod pengambilan ubat dibatalkan",
   "revertedTime": "Masa pembatalan",
   "revertedByMember": "Dibatalkan oleh {name}",
-  "medicationTakenAtLabel": "Diambil pada {time}",
+  "medicationTakenAtLabel": "{time} Sudah diambil",
   "medicineResumedSnackbar": "Pengambilan ubat disambung semula",
   "medicineEditTooltip": "Edit ubat",
   "groups": "Kumpulan",

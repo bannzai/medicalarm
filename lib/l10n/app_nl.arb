@@ -179,7 +179,7 @@
   "medicationHistoryReverted": "Medicatieregistratie teruggedraaid",
   "revertedTime": "Tijdstip van annulering",
   "revertedByMember": "Geannuleerd door {name}",
-  "medicationTakenAtLabel": "Ingenomen om {time}",
+  "medicationTakenAtLabel": "{time} Ingenomen",
   "medicineResumedSnackbar": "Het innemen van het medicijn is hervat",
   "medicineEditTooltip": "Medicijn bewerken",
   "groups": "Groepen",

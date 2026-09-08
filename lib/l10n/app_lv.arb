@@ -179,7 +179,7 @@
   "medicationHistoryReverted": "Zāļu lietošanas ieraksts atcelts",
   "revertedTime": "Atcelšanas laiks",
   "revertedByMember": "Atcēla {name}",
-  "medicationTakenAtLabel": "Izdzerts plkst. {time}",
+  "medicationTakenAtLabel": "{time} Izdzerts",
   "medicineResumedSnackbar": "Zāļu lietošana atsākta",
   "medicineEditTooltip": "Rediģēt zāles",
   "groups": "Grupas",

@@ -179,7 +179,7 @@
   "medicationHistoryReverted": "Записот за земање лек е откажан",
   "revertedTime": "Време на откажување",
   "revertedByMember": "Откажано од {name}",
-  "medicationTakenAtLabel": "Земено во {time}",
+  "medicationTakenAtLabel": "{time} Земено",
   "medicineResumedSnackbar": "Земањето на лекот е продолжено",
   "medicineEditTooltip": "Уреди лек",
   "groups": "Групи",

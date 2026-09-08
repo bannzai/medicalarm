@@ -179,7 +179,7 @@
   "medicationHistoryReverted": "Diddymu cofnod meddyginiaeth",
   "revertedTime": "Amser canslo",
   "revertedByMember": "Wedi’i ganslo gan {name}",
-  "medicationTakenAtLabel": "Wedi'i gymryd am {time}",
+  "medicationTakenAtLabel": "{time} Wedi'i gymryd",
   "medicineResumedSnackbar": "Ailddechreuwyd cymryd y feddyginiaeth",
   "medicineEditTooltip": "Golygu meddyginiaeth",
   "groups": "Grwpiau",

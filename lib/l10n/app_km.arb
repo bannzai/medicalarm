@@ -179,7 +179,7 @@
   "medicationHistoryReverted": "កំណត់ត្រាលេបថ្នាំត្រូវបានលុបចោល",
   "revertedTime": "ម៉ោងបោះបង់",
   "revertedByMember": "បានលុបចោលដោយ {name}",
-  "medicationTakenAtLabel": "បានលេបនៅម៉ោង {time}",
+  "medicationTakenAtLabel": "{time} បានលេបរួច",
   "medicineResumedSnackbar": "ការប្រើថ្នាំត្រូវបានបន្តឡើងវិញ",
   "medicineEditTooltip": "កែសម្រួលថ្នាំ",
   "groups": "ក្រុម",

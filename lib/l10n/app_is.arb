@@ -179,7 +179,7 @@
   "medicationHistoryReverted": "Skráning lyfjatöku afturkölluð",
   "revertedTime": "Tími afturköllunar",
   "revertedByMember": "Hætt við af {name}",
-  "medicationTakenAtLabel": "Tekið kl. {time}",
+  "medicationTakenAtLabel": "{time} Tekið",
   "medicineResumedSnackbar": "Taka lyfsins var hafin",
   "medicineEditTooltip": "Breyta lyfi",
   "groups": "Hópar",

@@ -179,7 +179,7 @@
   "medicationHistoryReverted": "Medisinregistrering tilbakestilt",
   "revertedTime": "Kanselleringstidspunkt",
   "revertedByMember": "Kansellert av {name}",
-  "medicationTakenAtLabel": "Tatt kl. {time}",
+  "medicationTakenAtLabel": "{time} Tatt",
   "medicineResumedSnackbar": "Medisineringen er gjenopptatt",
   "medicineEditTooltip": "Rediger medisin",
   "groups": "Grupper",

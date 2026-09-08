@@ -179,7 +179,7 @@
   "medicationHistoryReverted": "Запись о приёме лекарства отменена",
   "revertedTime": "Время отмены",
   "revertedByMember": "Отменено пользователем {name}",
-  "medicationTakenAtLabel": "Принято в {time}",
+  "medicationTakenAtLabel": "{time} Принято",
   "medicineResumedSnackbar": "Приём лекарства возобновлён",
   "medicineEditTooltip": "Редактировать лекарство",
   "groups": "Группы",

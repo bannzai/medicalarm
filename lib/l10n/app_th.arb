@@ -179,7 +179,7 @@
   "medicationHistoryReverted": "ยกเลิกบันทึกการรับประทานยา",
   "revertedTime": "เวลาที่ยกเลิก",
   "revertedByMember": "ยกเลิกโดย {name}",
-  "medicationTakenAtLabel": "รับประทานแล้วเมื่อ {time}",
+  "medicationTakenAtLabel": "{time} รับประทานแล้ว",
   "medicineResumedSnackbar": "กลับมาใช้ยาอีกครั้งแล้ว",
   "medicineEditTooltip": "แก้ไขยา",
   "groups": "กลุ่ม",
