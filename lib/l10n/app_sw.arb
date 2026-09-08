@@ -74,7 +74,7 @@
   "cycleDaysFormat": "Tumia kwa siku {consecutiveDays} / pumzika kwa siku {restDays}",
   "consecutiveDaysFormat": "Kutumia dawa kwa siku {count}",
   "restDaysFormat": "Siku {count} bila kutumia dawa",
-  "limitedTimeDiscount": "Sasa unaweza kuendelea kutumia kwa bei ya kipekee",
+  "limitedTimeDiscount": "Tumia milele kwa bei maalum sasa",
   "monthlyPlan": "Mpango wa kila mwezi",
   "annualPlan": "Mpango wa mwaka",
   "weeklyPlan": "Mipango ya kila wiki",

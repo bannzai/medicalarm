@@ -74,7 +74,7 @@
   "cycleDaysFormat": "Merreni për {consecutiveDays} ditë / pushim për {restDays} ditë",
   "consecutiveDaysFormat": "Marrja e ilaçeve për {count} ditë",
   "restDaysFormat": "{count} ditë pa ilaçe",
-  "limitedTimeDiscount": "Tani tani me çmimin e kufizuar mund të përdoret për një kohë të gjatë",
+  "limitedTimeDiscount": "Përdoreni përgjithmonë me një çmim special",
   "monthlyPlan": "Plani mujor",
   "annualPlan": "Plani i përvitshëm",
   "weeklyPlan": "Plani javor",

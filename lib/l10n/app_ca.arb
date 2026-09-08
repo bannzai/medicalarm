@@ -74,7 +74,7 @@
   "cycleDaysFormat": "Prendre durant {consecutiveDays} dies / descansar {restDays} dies",
   "consecutiveDaysFormat": "Prendre la medicació durant {count} dies",
   "restDaysFormat": "{count} dies sense prendre el medicament",
-  "limitedTimeDiscount": "Ara, ara, ara, un preu exclusiu al qual podràs accedir per sempre.",
+  "limitedTimeDiscount": "Fes-lo servir per sempre a un preu especial",
   "monthlyPlan": "Plaça mensual",
   "annualPlan": "Plaça anual",
   "weeklyPlan": "pla mensual",

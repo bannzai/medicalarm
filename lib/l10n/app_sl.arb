@@ -74,7 +74,7 @@
   "cycleDaysFormat": "Jemanje {consecutiveDays} dni / premor {restDays} dni",
   "consecutiveDaysFormat": "Jemanje zdravil {count} dni",
   "restDaysFormat": "{count} dni premora pri jemanju zdravila",
-  "limitedTimeDiscount": "Zdaj lahko uporabljate po posebni ceni za vedno",
+  "limitedTimeDiscount": "Uporabljajte ga za vedno po posebni ceni",
   "monthlyPlan": "Mesečna tarifa",
   "annualPlan": "letni načrt",
   "weeklyPlan": "Tedenski načrt",

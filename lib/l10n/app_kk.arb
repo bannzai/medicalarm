@@ -74,7 +74,7 @@
   "cycleDaysFormat": "{consecutiveDays} күн қабылдау / {restDays} күн үзіліс",
   "consecutiveDaysFormat": "Дәрі қабылдау: {count} күн",
   "restDaysFormat": "Дәрі қабылдаусыз {count} күн",
-  "limitedTimeDiscount": "Қазір шектеулі бағамен мәңгі пайдалануға болады",
+  "limitedTimeDiscount": "Қазір арнайы бағамен мәңгі пайдаланыңыз",
   "monthlyPlan": "Ай сайынғы жоспар",
   "annualPlan": "Жылдық жоспар",
   "weeklyPlan": "Апта сайынғы тариф",

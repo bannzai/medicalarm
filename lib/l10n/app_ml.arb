@@ -74,7 +74,7 @@
   "cycleDaysFormat": "{consecutiveDays} ദിവസം കഴിക്കുക / {restDays} ദിവസം ഇടവേള",
   "consecutiveDaysFormat": "{count} ദിവസം മരുന്ന് കഴിക്കൽ",
   "restDaysFormat": "{count} ദിവസം മരുന്ന് നിർത്തുക",
-  "limitedTimeDiscount": "അടുത്ത കാലത്തെ പരിമിതിച്ച നിരക്കിൽ സ്ഥിരമായി ഉപയോഗിക്കാൻ കഴിയും",
+  "limitedTimeDiscount": "ഇപ്പോൾ പ്രത്യേക വിലയിൽ എന്നേക്കും ഉപയോഗിക്കൂ",
   "monthlyPlan": "മാസികമായ പദ്ധതി",
   "annualPlan": "വർഷിക പദ്ധതി",
   "weeklyPlan": "സപ്താഹിക പദ്ധതി",

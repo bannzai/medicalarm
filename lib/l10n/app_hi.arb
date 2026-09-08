@@ -74,7 +74,7 @@
   "cycleDaysFormat": "{consecutiveDays} दिनों तक लें / {restDays} दिनों का विराम",
   "consecutiveDaysFormat": "{count} दिनों तक दवा लेना",
   "restDaysFormat": "{count} दिन दवा बंद",
-  "limitedTimeDiscount": "अभी सीमित समय के लिए विशेष मूल्य पर हमेशा के लिए उपयोग करें",
+  "limitedTimeDiscount": "अभी विशेष कीमत पर हमेशा इस्तेमाल करें",
   "monthlyPlan": "मासिक योजना",
   "annualPlan": "सालाना योजना",
   "weeklyPlan": "साप्ताहिक योजना",

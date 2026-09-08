@@ -74,7 +74,7 @@
   "cycleDaysFormat": "Przyjmować przez {consecutiveDays} dni / przerwa przez {restDays} dni",
   "consecutiveDaysFormat": "Przyjmowanie leków przez {count} dni",
   "restDaysFormat": "{count} dni przerwy w przyjmowaniu leku",
-  "limitedTimeDiscount": "Teraz w limitowanej cenie, z którą będziesz mógł korzystać na zawsze",
+  "limitedTimeDiscount": "Korzystaj z niego bezterminowo w specjalnej cenie",
   "monthlyPlan": "Plan miesięczny",
   "annualPlan": "roczny plan",
   "weeklyPlan": "Plan tygodniowy",

@@ -74,7 +74,7 @@
   "cycleDaysFormat": "Minum selama {consecutiveDays} hari / jeda selama {restDays} hari",
   "consecutiveDaysFormat": "Minum obat selama {count} hari",
   "restDaysFormat": "{count} hari berhenti minum obat",
-  "limitedTimeDiscount": "Sekarang tersedia dengan harga terbatas yang dapat digunakan selamanya",
+  "limitedTimeDiscount": "Gunakan selamanya dengan harga khusus sekarang",
   "monthlyPlan": "Rencana bulanan",
   "annualPlan": "Rencana tahunan",
   "weeklyPlan": "Rencana mingguan",

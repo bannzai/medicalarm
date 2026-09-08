@@ -74,7 +74,7 @@
   "cycleDaysFormat": "{consecutiveDays} دن تک لیں / {restDays} دن کا وقفہ",
   "consecutiveDaysFormat": "{count} دن تک دوا لینا",
   "restDaysFormat": "{count} دن دوا بند",
-  "limitedTimeDiscount": "ابھی محدود قیمت پر ہمیشہ کے لئے استعمال کریں",
+  "limitedTimeDiscount": "ابھی خصوصی قیمت پر ہمیشہ کے لیے استعمال کریں",
   "monthlyPlan": "ماہانہ منصوبہ",
   "annualPlan": "سالانہ منصوبہ",
   "weeklyPlan": "ہفتہ وار منصوبہ",

@@ -74,7 +74,7 @@
   "cycleDaysFormat": "ប្រើថ្នាំរយៈពេល {consecutiveDays} ថ្ងៃ / សម្រាករយៈពេល {restDays} ថ្ងៃ",
   "consecutiveDaysFormat": "ប្រើថ្នាំរយៈពេល {count} ថ្ងៃ",
   "restDaysFormat": "ឈប់ប្រើថ្នាំរយៈពេល {count} ថ្ងៃ",
-  "limitedTimeDiscount": "ឥឡូវនេះ អ្នកអាចប្រើបានក្នុងតម្លៃខ្ចីពិសេសដោយមិនមានការកំណត់។",
+  "limitedTimeDiscount": "ប្រើប្រាស់បានជារៀងរហូតក្នុងតម្លៃពិសេសឥឡូវនេះ",
   "monthlyPlan": "ផែនការបម្រុងទឹកប្រាក់ប្រចាំខែ",
   "annualPlan": "ផែនការប្រាក់កម្ចីប្រចាំឆ្នាំ",
   "weeklyPlan": "គម្រោងប្រចាំសប្ដាហ៍",

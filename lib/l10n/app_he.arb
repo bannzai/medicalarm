@@ -74,7 +74,7 @@
   "cycleDaysFormat": "ליטול במשך {consecutiveDays} ימים / להפסיק למשך {restDays} ימים",
   "consecutiveDaysFormat": "נטילת תרופות במשך {count} ימים",
   "restDaysFormat": "הפסקת תרופה למשך {count} ימים",
-  "limitedTimeDiscount": "עכשיו במחיר מוגבל לשימוש קבוע",
+  "limitedTimeDiscount": "השתמשו בו לתמיד במחיר מיוחד עכשיו",
   "monthlyPlan": "מנוי חודשי",
   "annualPlan": "תכנית שנתית",
   "weeklyPlan": "תוכנית שבועית",

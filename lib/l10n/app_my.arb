@@ -74,7 +74,7 @@
   "cycleDaysFormat": "{consecutiveDays} ရက် သောက်ရန် / {restDays} ရက် နားရန်",
   "consecutiveDaysFormat": "{count} ရက် ဆေးသောက်ခြင်း",
   "restDaysFormat": "ဆေးသောက်ခြင်းကို {count} ရက် ရပ်နားရန်",
-  "limitedTimeDiscount": "Sekarang, gunakan dengan harga istimewa yang terhad.",
+  "limitedTimeDiscount": "ယခုပင် အထူးဈေးနှုန်းဖြင့် အမြဲတမ်းအသုံးပြုနိုင်ပါသည်",
   "monthlyPlan": "Pelan Bulanan",
   "annualPlan": "Pelan Tahunan",
   "weeklyPlan": "Pelan Mingguan",

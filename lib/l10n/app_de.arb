@@ -74,7 +74,7 @@
   "cycleDaysFormat": "{consecutiveDays} Tage einnehmen / {restDays} Tage Pause",
   "consecutiveDaysFormat": "Medikamenteneinnahme an {count} Tagen",
   "restDaysFormat": "{count} Tage Medikamentenpause",
-  "limitedTimeDiscount": "Jetzt zu einem Sonderpreis, den Sie dauerhaft nutzen können.",
+  "limitedTimeDiscount": "Jetzt zum Sonderpreis dauerhaft nutzen",
   "monthlyPlan": "Monatsabonnement",
   "annualPlan": "Jahresabonnement",
   "weeklyPlan": "Wöchentlicher Plan",

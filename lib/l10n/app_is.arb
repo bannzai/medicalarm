@@ -74,7 +74,7 @@
   "cycleDaysFormat": "Taka í {consecutiveDays} daga / gera hlé í {restDays} daga",
   "consecutiveDaysFormat": "Lyf í {count} daga",
   "restDaysFormat": "{count} dagar án lyfjatöku",
-  "limitedTimeDiscount": "Núna geturðu notað það á takmörkuðu verði að eilífu.",
+  "limitedTimeDiscount": "Notaðu það að eilífu á sérstöku verði",
   "monthlyPlan": "Mánaðaráskrift",
   "annualPlan": "Ársgjald áætlun",
   "weeklyPlan": "Viku áætlun",

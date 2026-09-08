@@ -74,7 +74,7 @@
   "cycleDaysFormat": "{consecutiveDays} egunez hartu / {restDays} eguneko atsedenaldia",
   "consecutiveDaysFormat": "Botikak {count} egunez hartzea",
   "restDaysFormat": "{count} egun botikarik gabe",
-  "limitedTimeDiscount": "Orain prezio mugatua duen kanpaina batetik baliatuz, betiere erabil dezakezu.",
+  "limitedTimeDiscount": "Erabili betiko orain, prezio berezian",
   "monthlyPlan": "Hilekoa plana",
   "annualPlan": "Urteko plana",
   "weeklyPlan": "Asteko plan",

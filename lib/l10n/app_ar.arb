@@ -74,7 +74,7 @@
   "cycleDaysFormat": "تناول الدواء لمدة {consecutiveDays} يومًا / أوقفه لمدة {restDays} يومًا",
   "consecutiveDaysFormat": "تناول الدواء لمدة {count} يومًا",
   "restDaysFormat": "إيقاف الدواء لمدة {count} يومًا",
-  "limitedTimeDiscount": "الآن بسعر حصري يمكنك استخدامه مدى الحياة",
+  "limitedTimeDiscount": "استخدمه الآن مدى الحياة بسعر خاص",
   "monthlyPlan": "خطة اشتراك شهرية",
   "annualPlan": "الخطة السنوية",
   "weeklyPlan": "خطة أسبوعية",

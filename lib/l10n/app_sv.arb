@@ -74,7 +74,7 @@
   "cycleDaysFormat": "Ta i {consecutiveDays} dagar / pausa i {restDays} dagar",
   "consecutiveDaysFormat": "Medicinering i {count} dagar",
   "restDaysFormat": "{count} dagar utan medicin",
-  "limitedTimeDiscount": "Just now, you can use it at a limited price forever",
+  "limitedTimeDiscount": "Använd det för alltid till ett specialpris",
   "monthlyPlan": "Månadsplan",
   "annualPlan": "Årsplan",
   "weeklyPlan": "Veckoprenumeration",

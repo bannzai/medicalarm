@@ -74,7 +74,7 @@
   "cycleDaysFormat": "දින {consecutiveDays}ක් ලබා ගන්න / දින {restDays}ක් විවේක ගන්න",
   "consecutiveDaysFormat": "දින {count}ක් ඖෂධ ගැනීම",
   "restDaysFormat": "{count} දින ඖෂධ විරාමය",
-  "limitedTimeDiscount": "ඉදිරිපත් දිනයන්හි සීමිත මිලකට සෑම විටම භාවිතා කළ හැක",
+  "limitedTimeDiscount": "දැන් විශේෂ මිලකට සදාකාලිකව භාවිත කරන්න",
   "monthlyPlan": "මාසික සැළසුම",
   "annualPlan": "අවුරුද්දක් සමුදීම",
   "weeklyPlan": "සතිපතා යෝජනා",

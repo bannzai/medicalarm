@@ -74,7 +74,7 @@
   "cycleDaysFormat": "Szedés {consecutiveDays} napon át / szünet {restDays} napig",
   "consecutiveDaysFormat": "Gyógyszerszedés {count} napon át",
   "restDaysFormat": "{count} nap gyógyszerszünet",
-  "limitedTimeDiscount": "Most már korlátozott áron örökre használható",
+  "limitedTimeDiscount": "Használja mostantól örökké kedvezményes áron",
   "monthlyPlan": "Havi előfizetés",
   "annualPlan": "Éves előfizetés",
   "weeklyPlan": "Heti terv",

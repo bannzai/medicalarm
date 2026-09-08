@@ -74,7 +74,7 @@
   "cycleDaysFormat": "Uống trong {consecutiveDays} ngày / nghỉ {restDays} ngày",
   "consecutiveDaysFormat": "Uống thuốc trong {count} ngày",
   "restDaysFormat": "Nghỉ dùng thuốc {count} ngày",
-  "limitedTimeDiscount": "Hiện tại có thể sử dụng với mức giá ưu đãi chỉ trong thời gian giới hạn.",
+  "limitedTimeDiscount": "Dùng mãi mãi với mức giá đặc biệt ngay hôm nay",
   "monthlyPlan": "Gói hàng tháng",
   "annualPlan": "Gói hàng năm",
   "weeklyPlan": "Gói hàng tuần",

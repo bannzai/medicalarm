@@ -74,7 +74,7 @@
   "cycleDaysFormat": "{consecutiveDays}일 복용 / {restDays}일 휴약",
   "consecutiveDaysFormat": "{count}일 복용",
   "restDaysFormat": "{count}일 휴약",
-  "limitedTimeDiscount": "지금 한정 가격으로 영구 사용 가능",
+  "limitedTimeDiscount": "지금 특별한 가격으로 평생 이용하세요",
   "monthlyPlan": "월간 계획",
   "annualPlan": "연간 요금제",
   "weeklyPlan": "주간 요금제",

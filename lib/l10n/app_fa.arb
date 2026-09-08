@@ -74,7 +74,7 @@
   "cycleDaysFormat": "مصرف به‌مدت {consecutiveDays} روز / توقف به‌مدت {restDays} روز",
   "consecutiveDaysFormat": "مصرف دارو به مدت {count} روز",
   "restDaysFormat": "{count} روز قطع مصرف دارو",
-  "limitedTimeDiscount": "اکنون با قیمت محدود می‌توانید به طور نامحدود از آن استفاده کنید.",
+  "limitedTimeDiscount": "همین حالا با قیمتی ویژه برای همیشه استفاده کنید",
   "monthlyPlan": "طرح ماهانه",
   "annualPlan": "طرح سالانه",
   "weeklyPlan": "برنامه هفتگی",
