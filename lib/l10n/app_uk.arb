@@ -38,7 +38,7 @@
   "specificWeekdays": "Певні дні тижня",
   "cycle": "Цикл",
   "cycleDescription": "Напр.) приймати ліки 21 день / зробити перерву на 7 днів",
-  "everyXDaysDescription": "e.g. every 2 days, every 3 days",
+  "everyXDaysDescription": "Наприклад: кожні 2 дні, кожні 3 дні",
   "specificWeekdaysDescription": "e.g.) only on Monday, Wednesday and Friday",
   "medicineFormValidationError": "Please enter the name and dosage schedule.",
   "quantity": "Dosage",

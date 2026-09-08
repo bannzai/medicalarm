@@ -38,7 +38,7 @@
   "specificWeekdays": "Dies específics de la setmana",
   "cycle": "Cicle",
   "cycleDescription": "Ex.) Prendre el medicament durant 21 dies / fer una pausa de 7 dies",
-  "everyXDaysDescription": "Ex) cada 2 dies, cada 3 dies",
+  "everyXDaysDescription": "Ex.: cada 2 dies, cada 3 dies",
   "specificWeekdaysDescription": "ex) només dilluns, dimecres i divendres",
   "medicineFormValidationError": "Si us plau, introduïu el nom i el calendari de presa de medicaments.",
   "quantity": "capacitat",

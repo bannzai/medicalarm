@@ -38,7 +38,7 @@
   "specificWeekdays": "Аптанын белгилүү күндөрү",
   "cycle": "Цикл",
   "cycleDescription": "Мис.) 21 күн дары ичүү / 7 күн тыныгуу",
-  "everyXDaysDescription": "(2 күндө, 3 күндө)",
+  "everyXDaysDescription": "Мисалы: ар 2 күн сайын, ар 3 күн сайын",
   "specificWeekdaysDescription": "Мисалы) Дүйшөмбү гана, Шаршемби жана Бейшенби",
   "medicineFormValidationError": "Аты жана дарыларды кабыл алуу графигин киргизиңиз",
   "quantity": "Капаситет",

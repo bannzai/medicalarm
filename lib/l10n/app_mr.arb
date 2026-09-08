@@ -38,7 +38,7 @@
   "specificWeekdays": "आठवड्याचे विशिष्ट दिवस",
   "cycle": "चक्र",
   "cycleDescription": "उदा.) २१ दिवस औषध घेणे / ७ दिवसांचा विराम",
-  "everyXDaysDescription": "उदाहरण) २ दिवसांनंतर, ३ दिवसांनंतर",
+  "everyXDaysDescription": "उदा.: दर २ दिवसांनी, दर ३ दिवसांनी",
   "specificWeekdaysDescription": "उदाहरण) फक्त सोमवारी, बुधवारी आणि शुक्रवारी",
   "medicineFormValidationError": "कृपया नाव आणि औषध घेण्याचा वेळ भरा.",
   "quantity": "क्षमता",

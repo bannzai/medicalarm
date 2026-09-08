@@ -38,7 +38,7 @@
   "specificWeekdays": "Bestemte ugedage",
   "cycle": "Cyklus",
   "cycleDescription": "Fx) Tag medicinen i 21 dage / hold 7 dages pause",
-  "everyXDaysDescription": "Hver 2. dag, Hver 3. dag",
+  "everyXDaysDescription": "Fx.: hver 2. dag, hver 3. dag",
   "specificWeekdaysDescription": "f.eks. kun mandag, onsdag og fredag",
   "medicineFormValidationError": "Indtast navn og medicineringsplan",
   "quantity": "Kapacitet",

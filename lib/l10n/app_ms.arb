@@ -38,7 +38,7 @@
   "specificWeekdays": "Hari tertentu dalam minggu",
   "cycle": "Kitaran",
   "cycleDescription": "Contoh) Ambil ubat selama 21 hari / rehat selama 7 hari",
-  "everyXDaysDescription": "Setiap hari",
+  "everyXDaysDescription": "Contoh: setiap 2 hari, setiap 3 hari",
   "specificWeekdaysDescription": "contoh) Hanya pada hari Isnin, pada hari Rabu dan Jumaat",
   "medicineFormValidationError": "Sila masukkan nama dan jadual pengambilan ubat",
   "quantity": "Kapasiti",

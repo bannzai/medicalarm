@@ -38,7 +38,7 @@
   "specificWeekdays": "Specific weekdays",
   "cycle": "Cycle",
   "cycleDescription": "E.g.) Take medication for 21 days / pause for 7 days",
-  "everyXDaysDescription": "every 2 days, every 3 days",
+  "everyXDaysDescription": "E.g., every 2 days, every 3 days",
   "specificWeekdaysDescription": "e.g.) Only on Mondays, Wednesdays, and Fridays",
   "medicineFormValidationError": "Please enter your name and medication schedule.",
   "quantity": "Dosage",

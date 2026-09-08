@@ -38,7 +38,7 @@
   "specificWeekdays": "Określone dni tygodnia",
   "cycle": "Cykl",
   "cycleDescription": "Np.) Przyjmowanie leku przez 21 dni / 7 dni przerwy",
-  "everyXDaysDescription": "co 2 dni, co 3 dni",
+  "everyXDaysDescription": "Np.: co 2 dni, co 3 dni",
   "specificWeekdaysDescription": "Przykład) Tylko w poniedziałki, w środy i piątki",
   "medicineFormValidationError": "Proszę wprowadzić nazwę i harmonogram przyjmowania leku.",
   "quantity": "Pojemność",

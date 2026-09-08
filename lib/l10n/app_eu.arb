@@ -38,7 +38,7 @@
   "specificWeekdays": "Asteko egun zehatzak",
   "cycle": "Zikloa",
   "cycleDescription": "Adib.) Hartu sendaga 21 egunez / egin 7 eguneko atsedenaldia",
-  "everyXDaysDescription": "aditu) 2 egunero, 3 egunero",
+  "everyXDaysDescription": "Adib.: 2 egunetik behin, 3 egunetik behin",
   "specificWeekdaysDescription": " Adibideak: Astelehenetan bakarrik, Asteazkenean eta Ostiralean",
   "medicineFormValidationError": "Sartu izena eta botika hartzeko ordutegia",
   "quantity": "Hartutera",

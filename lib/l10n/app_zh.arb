@@ -38,7 +38,7 @@
   "specificWeekdays": "特定星期",
   "cycle": "周期",
   "cycleDescription": "例）服药21天 / 停药7天",
-  "everyXDaysDescription": "每隔X天服用的频率说明",
+  "everyXDaysDescription": "例如：每2天、每3天",
   "specificWeekdaysDescription": "例如）仅在星期一，星期三和星期五",
   "medicineFormValidationError": "请输入名称和服用计划",
   "quantity": "容量",

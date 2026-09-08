@@ -38,7 +38,7 @@
   "specificWeekdays": "Določeni dnevi v tednu",
   "cycle": "Cikel",
   "cycleDescription": "Npr.) Jemanje zdravila 21 dni / 7 dni premora",
-  "everyXDaysDescription": "na vsakih X dni",
+  "everyXDaysDescription": "Npr.: vsaka 2 dni, vsake 3 dni",
   "specificWeekdaysDescription": "Primerjanje z dnevi: samo v ponedeljek, sreda in petek",
   "medicineFormValidationError": "Prosim, vnesite ime in urnik jemanja",
   "quantity": "Zaloga",

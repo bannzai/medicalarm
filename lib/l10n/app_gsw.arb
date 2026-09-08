@@ -38,7 +38,7 @@
   "specificWeekdays": "Bestimmti Wuchetäg",
   "cycle": "Zyklus",
   "cycleDescription": "Bispil.) 21 Täg Medikament näh / 7 Täg Pause mache",
-  "everyXDaysDescription": "zwi mal, drei mal",
+  "everyXDaysDescription": "Z. B.: alli 2 Täg, alli 3 Täg",
   "specificWeekdaysDescription": "Bispiel) Nur Montags, Mittwochs und Freitags",
   "medicineFormValidationError": "Bitte geben Sie den Namen und den Einnahmezeitplan ein.",
   "quantity": "Kapazität",

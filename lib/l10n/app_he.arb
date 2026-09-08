@@ -38,7 +38,7 @@
   "specificWeekdays": "ימים מסוימים בשבוע",
   "cycle": "מחזור",
   "cycleDescription": "לדוגמה) ליטול את התרופה במשך 21 ימים / להפסיק למשך 7 ימים",
-  "everyXDaysDescription": "למשל) כל יומיים, כל שלושה ימים",
+  "everyXDaysDescription": "לדוגמה: כל יומיים, כל 3 ימים",
   "specificWeekdaysDescription": "דוגמה) ביום שני בלבד, ביום רביעי וביום שישי",
   "medicineFormValidationError": "אנא הזן את השם ולוח הזמנים של התרופה",
   "quantity": "קיבולת",

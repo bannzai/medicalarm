@@ -38,7 +38,7 @@
   "specificWeekdays": "Долоо хоногийн тодорхой өдрүүд",
   "cycle": "Цикл",
   "cycleDescription": "Жишээ) 21 хоног эм уух / 7 хоног завсарлах",
-  "everyXDaysDescription": "жилийн өдөр тутам",
+  "everyXDaysDescription": "Жишээ: 2 хоног тутам, 3 хоног тутам",
   "specificWeekdaysDescription": "Жишээ) Понеделник, Лхагва, Баас",
   "medicineFormValidationError": "Нэр болон эмийн хэрэглээгийн хуваарийг оруулаарай",
   "quantity": "Багтаамж",

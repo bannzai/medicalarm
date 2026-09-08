@@ -38,7 +38,7 @@
   "specificWeekdays": "Одредени денови во неделата",
   "cycle": "Циклус",
   "cycleDescription": "На пр.) Земaње лекови 21 ден / 7 дена пауза",
-  "everyXDaysDescription": "на секој ден",
+  "everyXDaysDescription": "На пр.: на секои 2 дена, на секои 3 дена",
   "specificWeekdaysDescription": "на пр. понеделник, среда и петок",
   "medicineFormValidationError": "Внесете ги името и распоредот на лековите.",
   "quantity": "Капацитет",

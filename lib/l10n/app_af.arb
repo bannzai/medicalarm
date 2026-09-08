@@ -38,7 +38,7 @@
   "specificWeekdays": "Spesifieke weeksdae",
   "cycle": "Siklus",
   "cycleDescription": "Byv.) Neem medikasie vir 21 dae / hou 7 dae pouse",
-  "everyXDaysDescription": "voorbeeld) Elke 2 dae",
+  "everyXDaysDescription": "Byvoorbeeld: elke 2 dae, elke 3 dae",
   "specificWeekdaysDescription": "Byvoorbeeld) Slegs Maandae, Woensdae en Vrydae",
   "medicineFormValidationError": "Voer asseblief die naam en 'n skedule van die medikasie in.",
   "quantity": "Hoeveelheid",

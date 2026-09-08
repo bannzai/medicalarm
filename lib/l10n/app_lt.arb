@@ -38,7 +38,7 @@
   "specificWeekdays": "Konkrečios savaitės dienos",
   "cycle": "Ciklas",
   "cycleDescription": "Pvz.) Vartoti vaistus 21 dieną / daryti 7 dienų pertrauką",
-  "everyXDaysDescription": "pvz., kas 2 dienas, kas 3 dienas",
+  "everyXDaysDescription": "Pvz.: kas 2 dienas, kas 3 dienas",
   "specificWeekdaysDescription": "pavyzdys) Tik pirmadieniais, trečiadieniais ir penktadieniais",
   "medicineFormValidationError": "Įveskite vardą ir vartojimo tvarkaraštį",
   "quantity": "Talpa",

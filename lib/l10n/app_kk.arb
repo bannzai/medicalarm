@@ -38,7 +38,7 @@
   "specificWeekdays": "Аптаның белгілі күндері",
   "cycle": "Цикл",
   "cycleDescription": "Мыс.) Дәріні 21 күн қабылдау / 7 күн үзіліс жасау",
-  "everyXDaysDescription": "күн сайын, күн сайын",
+  "everyXDaysDescription": "Мысалы: әр 2 күн сайын, әр 3 күн сайын",
   "specificWeekdaysDescription": "Мысал) Дүйсенбі күні, Сәрсенбі мен Жұма",
   "medicineFormValidationError": "Атыңыз бен қабылдау кестеңізді енгізіңіз",
   "quantity": "Көлемі",

@@ -38,7 +38,7 @@
   "specificWeekdays": "Anumite zile ale săptămânii",
   "cycle": "Ciclu",
   "cycleDescription": "Ex.) Luați medicamentul timp de 21 de zile / faceți o pauză de 7 zile",
-  "everyXDaysDescription": "Exemplu) La fiecare 2 zile, la fiecare 3 zile",
+  "everyXDaysDescription": "Ex.: la fiecare 2 zile, la fiecare 3 zile",
   "specificWeekdaysDescription": "Exemplu) Numai luni, miercuri și vineri",
   "medicineFormValidationError": "Vă rugăm să introduceți numele și programul de administrare a medicamentelor.",
   "quantity": "Cantitate",

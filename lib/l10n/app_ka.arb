@@ -38,7 +38,7 @@
   "specificWeekdays": "კვირის კონკრეტული დღეები",
   "cycle": "ციკლი",
   "cycleDescription": "მაგ.) მედიკამენტის მიღება 21 დღის განმავლობაში / 7-დღიანი შესვენება",
-  "everyXDaysDescription": "მაგალითად) 2 დღეში ერთხელ, 3 დღეში ერთხელ",
+  "everyXDaysDescription": "მაგ.: ყოველ 2 დღეში, ყოველ 3 დღეში",
   "specificWeekdaysDescription": "მაგალითად) მხოლოდ ორშაბათი, ოთხშაბათისა და პარასკევის",
   "medicineFormValidationError": "გთხოვთ შეიყვანოთ სახელი და მედიკამენტების გამოყენების განრიგი.",
   "quantity": "ტევადობა",

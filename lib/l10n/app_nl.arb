@@ -38,7 +38,7 @@
   "specificWeekdays": "Specifieke dagen van de week",
   "cycle": "Cyclus",
   "cycleDescription": "Bijv.) 21 dagen medicatie innemen / 7 dagen pauze",
-  "everyXDaysDescription": "Bijvoorbeeld) Om de 2 dagen, om de 3 dagen",
+  "everyXDaysDescription": "Bijv.: elke 2 dagen, elke 3 dagen",
   "specificWeekdaysDescription": "Bijvoorbeeld) Alleen maandag, woensdag en vrijdag",
   "medicineFormValidationError": "Voer uw naam en medicatieschema in",
   "quantity": "Aantal",

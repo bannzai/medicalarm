@@ -38,7 +38,7 @@
   "specificWeekdays": "Días específicos de la semana",
   "cycle": "Ciclo",
   "cycleDescription": "Ej.) Tomar el medicamento durante 21 días / descansar 7 días",
-  "everyXDaysDescription": "Ej) cada 2 días, cada 3 días",
+  "everyXDaysDescription": "Ej.: cada 2 días, cada 3 días",
   "specificWeekdaysDescription": "Ejemplo) Solo los lunes, miércoles y viernes",
   "medicineFormValidationError": "Por favor, ingresa el nombre y el horario de toma del medicamento",
   "quantity": "Dosis",

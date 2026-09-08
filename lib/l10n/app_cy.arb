@@ -38,7 +38,7 @@
   "specificWeekdays": "Diwrnodau penodol o’r wythnos",
   "cycle": "Cylch",
   "cycleDescription": "e.e.) Cymryd y feddyginiaeth am 21 diwrnod / cymryd seibiant am 7 diwrnod",
-  "everyXDaysDescription": "enghraifft) bob 2 ddiwrnod, bob 3 diwrnod",
+  "everyXDaysDescription": "Er enghraifft: bob 2 ddiwrnod, bob 3 diwrnod",
   "specificWeekdaysDescription": "er enghraifft) Dim ond ddydd Llun, Dydd Mercher a Dydd Gwener",
   "medicineFormValidationError": "Rhowch eich enw a'ch amserlen gymryd meddyginiaeth",
   "quantity": "capasiti",

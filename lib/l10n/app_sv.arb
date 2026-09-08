@@ -38,7 +38,7 @@
   "specificWeekdays": "Specifika veckodagar",
   "cycle": "Cykel",
   "cycleDescription": "T.ex.) Ta läkemedlet i 21 dagar / gör ett uppehåll i 7 dagar",
-  "everyXDaysDescription": "Varannan dag, Var tredje dag",
+  "everyXDaysDescription": "T.ex.: varannan dag, var tredje dag",
   "specificWeekdaysDescription": "Måndagar endast, onsdagar och fredagar",
   "medicineFormValidationError": "Ange namn och schema för läkemedelsadministration",
   "quantity": "Dosering",
