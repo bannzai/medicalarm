@@ -224,7 +224,7 @@
   "accountLinkBannerText": "Wenn Sie e Gruppe teile, empfehle mir dringend, d Kontoübertragig iizrichte.",
   "minimumDoseInterval": "Einnahmeabstand",
   "minimumDoseIntervalDescription": "Mindestabstand zwüsche de Iinahme",
-  "minimumDoseIntervalNone": "Keine",
+  "minimumDoseIntervalNone": "Kei",
   "minimumDoseIntervalHoursFormat": "Mindestens {hours} Stunden",
   "doseIntervalWarningTitle": "Dr erforderlig Abstand zwüsche de Dosis isch no nid verstriche",
   "doseIntervalWarningMessage": "Sie hän d'Dosis bereits um {latestTakeTime} iignoh. I de Iistellige isch en Mindestabstand vo {minimumDoseIntervalHours} Stund zwüsche de Einnahme vorgseh. Wänd Sie d'Einnahm trotzdem erfasse?",
