@@ -143,7 +143,7 @@
   "restorePurchase": "สำหรับผู้ที่เคยซื้อแล้ว",
   "purchaseRestored": "กู้คืนข้อมูลการซื้อแล้ว",
   "medicationTimeFollowup": "ติดตามเวลารับประทานยา",
-  "updateRequired": "ต้องการการอัปเดต",
+  "updateRequired": "จำเป็นต้องอัปเดต",
   "updateRequiredMessage": "กรุณาอัปเดตเป็นเวอร์ชันล่าสุดจาก {storeName}",
   "screenshotMedicationHistoriesMemo": "นอนกลางวันนานเกินไปทำให้เวลาที่ต้องทานยาล่าช้า",
   "screenshotMedicationDoserReceiver1": "ตัวเอง",

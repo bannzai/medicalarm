@@ -143,7 +143,7 @@
   "restorePurchase": "Өмнө нь худалдан авсан хүмүүст зориулсан",
   "purchaseRestored": "Худалдан авалтын мэдээллийг сэргээсэн",
   "medicationTimeFollowup": "Эм уух цагийн хяналт",
-  "updateRequired": "Аппликейшн бүтээгдэхүүн шинэчлэх шаардлагатай.",
+  "updateRequired": "Шинэчлэх шаардлагатай",
   "updateRequiredMessage": "{storeName} -аас хамгийн сүүлийн хувилбарт шинэчлэлт хийнэ үү",
   "screenshotMedicationHistoriesMemo": "Өдөр дунд наадмаар хэт их унтаж, эмээ уух цаг хоцорсон.",
   "screenshotMedicationDoserReceiver1": "Өөрийн",

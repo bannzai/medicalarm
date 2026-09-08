@@ -143,7 +143,7 @@
   "restorePurchase": "Dla osób, które kupiły wcześniej",
   "purchaseRestored": "Przywrócono informacje o zakupie",
   "medicationTimeFollowup": "Przypomnienie o przyjęciu leku",
-  "updateRequired": "Wymagana jest aktualizacja",
+  "updateRequired": "Wymagana aktualizacja",
   "updateRequiredMessage": "Proszę zaktualizować do najnowszej wersji z {storeName}",
   "screenshotMedicationHistoriesMemo": "Zaspałem na drzemkę, przez co spóźniłem się z zażyciem leku.",
   "screenshotMedicationDoserReceiver1": "jałowy",

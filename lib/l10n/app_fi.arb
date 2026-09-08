@@ -143,7 +143,7 @@
   "restorePurchase": "Aiemmin ostaneille",
   "purchaseRestored": "Ostotiedot palautettiin",
   "medicationTimeFollowup": "Lääkkeenottoajan seuranta",
-  "updateRequired": "Päivitys on tarpeen",
+  "updateRequired": "Päivitys vaaditaan",
   "updateRequiredMessage": "Ole hyvä ja päivitä {storeName} uuteen versioon.",
   "screenshotMedicationHistoriesMemo": "Nukuin liian pitkään, ja lääkeannoksen ottaminen viivästyi.",
   "screenshotMedicationDoserReceiver1": "itsenäinen",

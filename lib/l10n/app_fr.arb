@@ -143,7 +143,7 @@
   "restorePurchase": "Pour ceux qui ont déjà acheté",
   "purchaseRestored": "Les informations d’achat ont été restaurées",
   "medicationTimeFollowup": "Suivi de l’heure de prise du médicament",
-  "updateRequired": "Une mise à jour est requise",
+  "updateRequired": "Mise à jour requise",
   "updateRequiredMessage": "Veuillez mettre à jour vers la dernière version de {storeName}.",
   "screenshotMedicationHistoriesMemo": "J'ai trop fait la sieste et je suis en retard pour prendre mes médicaments.",
   "screenshotMedicationDoserReceiver1": "Moi",

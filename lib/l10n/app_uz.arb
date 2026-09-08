@@ -143,7 +143,7 @@
   "restorePurchase": "Avval xarid qilganlar uchun",
   "purchaseRestored": "Xarid maʼlumotlari tiklandi",
   "medicationTimeFollowup": "Dori qabul qilish vaqtini kuzatish",
-  "updateRequired": "Yangilanish zarur",
+  "updateRequired": "Yangilash talab qilinadi",
   "updateRequiredMessage": "{storeName} dan soʻnggi versiyasiga yangilang",
   "screenshotMedicationHistoriesMemo": "Kunduzgi uxlayman, dori ichish vaqti kechikdi.",
   "screenshotMedicationDoserReceiver1": "o'z zimmasida",

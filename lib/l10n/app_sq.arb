@@ -143,7 +143,7 @@
   "restorePurchase": "Për ata që kanë blerë më parë",
   "purchaseRestored": "Informacionet e blerjes u rikthyen",
   "medicationTimeFollowup": "Ndjekja e orarit të marrjes së ilaçit",
-  "updateRequired": "Përditësimi është i nevojshëm",
+  "updateRequired": "Kërkohet përditësim",
   "updateRequiredMessage": "Ju lutem përditësoni në versionin më të fundit nga {storeName}.",
   "screenshotMedicationHistoriesMemo": "Kam një gjumë të gjatë dhe harrova të merrja ilaçin në kohë.",
   "screenshotMedicationDoserReceiver1": "Vetja",

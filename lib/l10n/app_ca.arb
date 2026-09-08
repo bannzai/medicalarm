@@ -143,7 +143,7 @@
   "restorePurchase": "Per a qui ja ha comprat",
   "purchaseRestored": "S’ha restaurat la informació de compra",
   "medicationTimeFollowup": "Seguiment de l’hora de prendre la medicació",
-  "updateRequired": "Cal necessària una actualització",
+  "updateRequired": "Cal actualitzar",
   "updateRequiredMessage": "Actualitzeu a la darrera versió des de {storeName}",
   "screenshotMedicationHistoriesMemo": "He dormit massa i he arribat tard per prendre la medicina.",
   "screenshotMedicationDoserReceiver1": "jo mateix",

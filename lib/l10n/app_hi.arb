@@ -143,7 +143,7 @@
   "restorePurchase": "जिन्होंने पहले खरीदा है उनके लिए",
   "purchaseRestored": "खरीदारी की जानकारी पुनर्स्थापित कर दी गई है",
   "medicationTimeFollowup": "दवा लेने के समय का फॉलो-अप",
-  "updateRequired": "अपडेट की आवश्यकता है",
+  "updateRequired": "अपडेट आवश्यक है",
   "updateRequiredMessage": "कृपया {storeName} से नवीनतम संस्करण में अपडेट करें",
   "screenshotMedicationHistoriesMemo": "दोपहर की नींद लेने के कारण दवा लेने का समय लेट हो गया",
   "screenshotMedicationDoserReceiver1": "अपने आप",
