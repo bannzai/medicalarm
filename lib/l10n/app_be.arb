@@ -70,7 +70,7 @@
   "followupNotificationDescription": "Калі прыём лекаў не будзе запісаны на працягу 30 хвілін пасля першага апавяшчэння, будзе адпраўлена паўторнае апавяшчэнне.",
   "enableNotificationInSilentMode": "Апавяшчаць нават у бязгучным рэжыме",
   "silentModeNotificationDescription": "Нават калі рэжым засяроджання ўключаны або прылада ў бязгучным рэжыме, важныя апавяшчэнні паказваюцца на экране блакіроўкі і прайграваецца гук.",
-  "everyXDaysFormat": "Кожныя {count} дні",
+  "everyXDaysFormat": "Кожныя {count} дзён",
   "cycleDaysFormat": "Прымаць {consecutiveDays} днёў / перапынак {restDays} днёў",
   "consecutiveDaysFormat": "Прыём лекаў {count} дзён",
   "restDaysFormat": "Перапынак у прыёме лекаў: {count} дзён",

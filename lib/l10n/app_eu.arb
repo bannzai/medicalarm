@@ -70,7 +70,7 @@
   "followupNotificationDescription": "Lehen jakinarazpenetik 30 minutura sendaga hartzea erregistratzen ez bada, jarraipen-jakinarazpen bat bidaliko da.",
   "enableNotificationInSilentMode": "Bidali jakinarazpenak isilik dagoen moduan ere",
   "silentModeNotificationDescription": "Fokatze-modua AKTIBATUTA dagoenean edo gailua isilik dagoenean ere, alerta kritikoak blokeo-pantailan bistaratzen dira eta soinua erreproduzitzen da.",
-  "everyXDaysFormat": "{count} egunean behin",
+  "everyXDaysFormat": "{count} egunetik behin",
   "cycleDaysFormat": "{consecutiveDays} egunez hartu / {restDays} eguneko atsedenaldia",
   "consecutiveDaysFormat": "Botikak {count} egunez hartzea",
   "restDaysFormat": "{count} egun botikarik gabe",

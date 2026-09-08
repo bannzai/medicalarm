@@ -70,7 +70,7 @@
   "followupNotificationDescription": "Биринчи эскертмеден кийин 30 мүнөттүн ичинде дары ичкениңиз жазылбаса, кийинки эскертме жөнөтүлөт.",
   "enableNotificationInSilentMode": "Үнсүз режимде да эскертмелерди жөнөтүү",
   "silentModeNotificationDescription": "Фокус режими КҮЙҮК же түзмөк үнсүз режимде болсо да, маанилүү эскертмелер кулпуланган экранда көрсөтүлүп, үн чыгарылат.",
-  "everyXDaysFormat": "Ар бир {count} күндө",
+  "everyXDaysFormat": "Ар {count} күндө",
   "cycleDaysFormat": "{consecutiveDays} күн кабыл алуу / {restDays} күн тыныгуу",
   "consecutiveDaysFormat": "Дарыны {count} күн ичүү",
   "restDaysFormat": "{count} күн дары ичпөө",

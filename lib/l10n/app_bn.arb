@@ -70,7 +70,7 @@
   "followupNotificationDescription": "প্রথম বিজ্ঞপ্তির ৩০ মিনিটের মধ্যে ওষুধ সেবন রেকর্ড না করলে, একটি অনুসরণী বিজ্ঞপ্তি পাঠানো হবে।",
   "enableNotificationInSilentMode": "সাইলেন্ট মোডেও বিজ্ঞপ্তি পাঠান",
   "silentModeNotificationDescription": "ফোকাস মোড চালু থাকা অবস্থায় বা ডিভাইসটি নীরব থাকলেও, গুরুতর বিজ্ঞপ্তি লক স্ক্রিনে প্রদর্শিত হয় এবং শব্দ বাজে।",
-  "everyXDaysFormat": "প্রতি {count} দিন অন্তর",
+  "everyXDaysFormat": "প্রতি {count} দিন পরপর",
   "cycleDaysFormat": "{consecutiveDays} দিন ওষুধ সেবন / {restDays} দিন বিরতি",
   "consecutiveDaysFormat": "{count} দিন ওষুধ সেবন",
   "restDaysFormat": "{count} দিন ওষুধ বন্ধ",

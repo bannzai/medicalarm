@@ -70,7 +70,7 @@
   "followupNotificationDescription": "Wenn d Iinahm vom Medikament innert 30 Minute nach dr erschte Benachrichtigung nöd erfasst wird, wird e Folgebenachrichtigung gschickt.",
   "enableNotificationInSilentMode": "Au im Stummmodus benachrichtige",
   "silentModeNotificationDescription": "Au wenn de Fokusmodus aktiviert isch oder s’Grät stumm gschaltet isch, werde kritische Benachrichtigunge uf em Sperrbildschirm azeigt und en Ton abgspielt.",
-  "everyXDaysFormat": "Alle {count} Täg",
+  "everyXDaysFormat": "Alli {count} Täg",
   "cycleDaysFormat": "{consecutiveDays} Täg iineh / {restDays} Täg Pause",
   "consecutiveDaysFormat": "Medikament i {count} Täg",
   "restDaysFormat": "{count} Täg Medikamentepause",
