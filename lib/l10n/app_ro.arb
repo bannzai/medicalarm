@@ -87,7 +87,7 @@
   "editDiaryTooltip": "Editează jurnalul",
   "medicineRegistrationLimit": "Numărul medicamentelor înregistrate",
   "doseReceiverRegistrationLimit": "Numărul persoanelor înregistrate care iau medicamente",
-  "notificationScheduleLimit": "Numărul programărilor de notificări",
+  "notificationScheduleLimit": "Numărul programărilor notificărilor",
   "addMedicine": "Adaugă medicament",
   "medicineMaxCount": "Puteți înregistra până la {count} medicamente.",
   "increaseMedicineLimitWithPremium": "Măriți limita la {count} cu planul Premium",

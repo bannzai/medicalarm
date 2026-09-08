@@ -87,7 +87,7 @@
   "editDiaryTooltip": "ডায়েৰী সম্পাদনা কৰক",
   "medicineRegistrationLimit": "পঞ্জীয়ন কৰা ঔষধৰ সংখ্যা",
   "doseReceiverRegistrationLimit": "পঞ্জীয়ন কৰা ঔষধ সেৱনকাৰীৰ সংখ্যা",
-  "notificationScheduleLimit": "জাননী সময়সূচীৰ সংখ্যা",
+  "notificationScheduleLimit": "অধিসূচনা সূচীৰ সংখ্যা",
   "addMedicine": "ঔষধ যোগ কৰক",
   "medicineMaxCount": "আপুনি সৰ্বাধিক {count}টা ঔষধ পঞ্জীয়ন কৰিব পাৰে।",
   "increaseMedicineLimitWithPremium": "প্ৰিমিয়াম প্লেনেৰে সীমা {count} লৈ বৃদ্ধি কৰক",

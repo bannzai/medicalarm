@@ -87,7 +87,7 @@
   "editDiaryTooltip": "Օրագրի խմբագրում",
   "medicineRegistrationLimit": "የተመዘገቡ መድኃኒቶች ብዛት",
   "doseReceiverRegistrationLimit": "Գրանցված դեղորայք ընդունողների քանակը",
-  "notificationScheduleLimit": "የማሳወቂያ መርሃ ግብሮች ብዛት",
+  "notificationScheduleLimit": "የማሳወቂያ መርሐ ግብሮች ብዛት",
   "addMedicine": "መድኃኒት አክል",
   "medicineMaxCount": "እስከ {count} መድኃኒቶች መመዝገብ ይችላሉ።",
   "increaseMedicineLimitWithPremium": "Պրեմիում պլանով ավելացրեք սահմանաչափը մինչև {count}",

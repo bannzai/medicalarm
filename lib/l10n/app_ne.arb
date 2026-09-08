@@ -87,7 +87,7 @@
   "editDiaryTooltip": "डायरी सम्पादन गर्नुहोस्",
   "medicineRegistrationLimit": "दर्ता गरिएका औषधिहरूको सङ्ख्या",
   "doseReceiverRegistrationLimit": "दर्ता गरिएका औषधि सेवनकर्ताहरूको संख्या",
-  "notificationScheduleLimit": "सूचना तालिकाहरूको सङ्ख्या",
+  "notificationScheduleLimit": "सूचना तालिकाहरूको संख्या",
   "addMedicine": "औषधि थप्नुहोस्",
   "medicineMaxCount": "तपाईंले बढीमा {count} वटा औषधि दर्ता गर्न सक्नुहुन्छ।",
   "increaseMedicineLimitWithPremium": "प्रिमियम योजनासँग सीमा {count} मा बढाउनुहोस्",
