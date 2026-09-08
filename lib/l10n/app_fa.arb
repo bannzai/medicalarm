@@ -31,7 +31,7 @@
   "delete": "حذف",
   "deleteAccount": "حذف حساب",
   "deleteAccountConfirm": "اطلاعات کاربر حذف خواهد شد",
-  "deleteAccountMessage": "با حذف حساب کاربری، تمام اطلاعات کاربر حذف خواهد شد.",
+  "deleteAccountMessage": "با حذف حساب، همه اطلاعات کاربر حذف می‌شود.",
   "medicationFrequency": "فراوانی مصرف",
   "daily": "هر روز",
   "everyXDays": "هر روز",

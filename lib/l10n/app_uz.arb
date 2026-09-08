@@ -31,7 +31,7 @@
   "delete": "O‘chirish",
   "deleteAccount": "Hisobni o‘chirish",
   "deleteAccountConfirm": "Foydalanuvchi maʼlumotlari o‘chiriladi",
-  "deleteAccountMessage": "Hisobni o'chirish orqali barcha foydalanuvchi ma'lumoti o'chiriladi.",
+  "deleteAccountMessage": "Hisobni o‘chirsangiz, foydalanuvchiga oid barcha ma’lumotlar o‘chiriladi.",
   "medicationFrequency": "Qabul qilish chastotasi",
   "daily": "Har kuni",
   "everyXDays": "X kundan bir marta",

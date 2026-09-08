@@ -31,7 +31,7 @@
   "delete": "Eyða",
   "deleteAccount": "Eyða reikningi",
   "deleteAccountConfirm": "Notandaupplýsingum verður eytt",
-  "deleteAccountMessage": "Þegar þú eyðir reikningnum þínum verður öll notendaupplýsingin eytt.",
+  "deleteAccountMessage": "Ef þú eyðir reikningnum verður öllum notendaupplýsingum eytt.",
   "medicationFrequency": "Lyfjatíðni",
   "daily": "Hver dag",
   "everyXDays": "daga",

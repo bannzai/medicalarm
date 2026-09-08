@@ -31,7 +31,7 @@
   "delete": "删除",
   "deleteAccount": "删除账户",
   "deleteAccountConfirm": "将删除用户信息",
-  "deleteAccountMessage": "删除账户将删除所有用户信息。",
+  "deleteAccountMessage": "删除账户后，所有用户信息都将被删除。",
   "medicationFrequency": "服用频率",
   "daily": "每天",
   "everyXDays": "每X天",

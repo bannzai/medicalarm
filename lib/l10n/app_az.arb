@@ -31,7 +31,7 @@
   "delete": "Sil",
   "deleteAccount": "Hesabı sil",
   "deleteAccountConfirm": "İstifadəçi məlumatları silinəcək",
-  "deleteAccountMessage": "Hesabı silmək istifadəçi məlumatlarının hamısının silinəcəyini bildirir.",
+  "deleteAccountMessage": "Hesabı sildikdə bütün istifadəçi məlumatlarınız silinəcək.",
   "medicationFrequency": "İstifadə tezliyi",
   "daily": "Hər gün",
   "everyXDays": "X gündən bir",

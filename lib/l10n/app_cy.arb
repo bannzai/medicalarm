@@ -31,7 +31,7 @@
   "delete": "Dileu",
   "deleteAccount": "Dileu’r cyfrif",
   "deleteAccountConfirm": "Bydd gwybodaeth y defnyddiwr yn cael ei dileu",
-  "deleteAccountMessage": "Os yw'r cyfrif yn cael ei ddileu, bydd gwybodaeth y defnyddiwr i gyd yn cael ei dileu.",
+  "deleteAccountMessage": "Os byddwch yn dileu’r cyfrif, bydd holl wybodaeth y defnyddiwr yn cael ei dileu.",
   "medicationFrequency": "Ffrequency cymryd",
   "daily": "bob dydd",
   "everyXDays": "bob dydd X",

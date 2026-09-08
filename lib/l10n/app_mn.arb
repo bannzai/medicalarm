@@ -31,7 +31,7 @@
   "delete": "Устгах",
   "deleteAccount": "Бүртгэл устгах",
   "deleteAccountConfirm": "Хэрэглэгчийн мэдээллийг устгана",
-  "deleteAccountMessage": "Таны дансыг устгавал, хэрэглэгчийн мэдээлэл бүгд устгагдана.",
+  "deleteAccountMessage": "Бүртгэлээ устгавал хэрэглэгчийн бүх мэдээлэл устгагдана.",
   "medicationFrequency": "Эмчилгээний давтамж",
   "daily": "Өдөр бүр",
   "everyXDays": "X өдөр тутам",

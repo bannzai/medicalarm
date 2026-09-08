@@ -31,7 +31,7 @@
   "delete": "מחיקה",
   "deleteAccount": "מחיקת החשבון",
   "deleteAccountConfirm": "פרטי המשתמש יימחקו",
-  "deleteAccountMessage": "אם תסיר את החשבון, כל המידע של המשתמש יימחק.",
+  "deleteAccountMessage": "מחיקת החשבון תמחק את כל פרטי המשתמש.",
   "medicationFrequency": "תדירות השימוש",
   "daily": "כל יום",
   "everyXDays": "כל X ימים",

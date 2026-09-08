@@ -31,7 +31,7 @@
   "delete": "ລຶບ",
   "deleteAccount": "ລຶບບັນຊີ",
   "deleteAccountConfirm": "ຂໍ້ມູນຜູ້ໃຊ້ຈະຖືກລຶບ",
-  "deleteAccountMessage": "ໃນການລຶບບັນຊີ ຂໍເອົາຄະແນນຂອງຜູ້ໃຊ້ທັງໝົດໄປໃສ່ຈິ່ນ.",
+  "deleteAccountMessage": "ການລຶບບັນຊີຈະລຶບຂໍ້ມູນຜູ້ໃຊ້ທັງໝົດ.",
   "medicationFrequency": "ຄວາມບໍ່ບັນດານການເຮັດພາຍໃນການອາກາດສິດສິລງ",
   "daily": "ທຸກໆມື້",
   "everyXDays": "例) 2 ມື້",

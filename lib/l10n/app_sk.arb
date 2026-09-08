@@ -31,7 +31,7 @@
   "delete": "Odstrániť",
   "deleteAccount": "Odstrániť účet",
   "deleteAccountConfirm": "Informácie o používateľovi budú vymazané",
-  "deleteAccountMessage": "Ak máte účet vymazať, všetky používateľské údaje budú natrvalo odstránené.",
+  "deleteAccountMessage": "Po odstránení účtu sa odstránia všetky informácie o používateľovi.",
   "medicationFrequency": "Frekvencia užívania",
   "daily": " každodenne",
   "everyXDays": "dní",

@@ -31,7 +31,7 @@
   "delete": "Обриши",
   "deleteAccount": "Избриши налог",
   "deleteAccountConfirm": "Подаци о кориснику ће бити обрисани",
-  "deleteAccountMessage": "Када избришете налог, све информације о кориснику ће бити уклоњене.",
+  "deleteAccountMessage": "Brisanjem naloga biće izbrisane sve informacije o korisniku.",
   "medicationFrequency": "Честотa узимања",
   "daily": "Свакодневно",
   "everyXDays": "Svaki X dan",

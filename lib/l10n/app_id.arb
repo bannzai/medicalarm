@@ -31,7 +31,7 @@
   "delete": "Hapus",
   "deleteAccount": "Hapus akun",
   "deleteAccountConfirm": "Informasi pengguna akan dihapus",
-  "deleteAccountMessage": "Menghapus akun akan menghapus semua informasi pengguna.",
+  "deleteAccountMessage": "Jika akun dihapus, semua informasi pengguna akan dihapus.",
   "medicationFrequency": "Frekuensi pengobatan",
   "daily": "Setelan frekuensi untuk penggunaan setiap hari",
   "everyXDays": "Setiap X hari",

@@ -31,7 +31,7 @@
   "delete": "Tanggalin",
   "deleteAccount": "I-delete ang account",
   "deleteAccountConfirm": "Ide-delete ang impormasyon ng user",
-  "deleteAccountMessage": "Kapag tinanggal mo ang account, lahat ng impormasyon ng gumagamit ay tatanggalin.",
+  "deleteAccountMessage": "Kapag tinanggal ang account, mabubura ang lahat ng impormasyon ng user.",
   "medicationFrequency": "Dalas ng gamot",
   "daily": "Araw-araw",
   "everyXDays": "Bawat X na araw",

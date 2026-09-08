@@ -31,7 +31,7 @@
   "delete": "Delete",
   "deleteAccount": "Delete account",
   "deleteAccountConfirm": "User information will be deleted",
-  "deleteAccountMessage": "Deleting your account will remove all user information.",
+  "deleteAccountMessage": "Deleting your account will delete all user information.",
   "medicationFrequency": "Medication Frequency",
   "daily": "Every day",
   "everyXDays": "Every X days",

@@ -31,7 +31,7 @@
   "delete": "Kustuta",
   "deleteAccount": "Kustuta konto",
   "deleteAccountConfirm": "Kasutaja teave kustutatakse",
-  "deleteAccountMessage": "Konto kustutamisel kustutatakse kogu kasutaja teave.",
+  "deleteAccountMessage": "Konto kustutamisel kustutatakse kogu kasutajateave.",
   "medicationFrequency": "Ravimite sagedus",
   "daily": "iga päev",
   "everyXDays": "päeva pärast",

@@ -31,7 +31,7 @@
   "delete": "ลบ",
   "deleteAccount": "ลบบัญชี",
   "deleteAccountConfirm": "ข้อมูลผู้ใช้จะถูกลบ",
-  "deleteAccountMessage": "เมื่อคุณลบบัญชี ข้อมูลผู้ใช้ทั้งหมดจะถูกลบออก",
+  "deleteAccountMessage": "เมื่อลบบัญชี ข้อมูลผู้ใช้ทั้งหมดจะถูกลบ",
   "medicationFrequency": "ความถี่ในการใช้ยา",
   "daily": "ทุกวัน",
   "everyXDays": "ทุก X วัน",

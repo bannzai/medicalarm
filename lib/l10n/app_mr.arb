@@ -31,7 +31,7 @@
   "delete": "हटवा",
   "deleteAccount": "खाते हटवा",
   "deleteAccountConfirm": "वापरकर्त्याची माहिती हटवली जाईल",
-  "deleteAccountMessage": "जर तुम्ही खातं मिटवलं, तर वापरकर्ता माहिती सर्व काढून टाकली जाईल.",
+  "deleteAccountMessage": "खाते हटवल्यास वापरकर्त्याची सर्व माहिती हटवली जाईल.",
   "medicationFrequency": "औषधि घेण्याची वारंवारता",
   "daily": "प्रत्येक दिवस",
   "everyXDays": "X दिवसांनी",

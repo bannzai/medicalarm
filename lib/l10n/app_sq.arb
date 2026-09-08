@@ -31,7 +31,7 @@
   "delete": "Fshi",
   "deleteAccount": "Fshi llogarinë",
   "deleteAccountConfirm": "Informacionet e përdoruesit do të fshihen",
-  "deleteAccountMessage": "Kur për të fshirë llogarinë, të gjitha informacionet e përdoruesit do të fshihen.",
+  "deleteAccountMessage": "Fshirja e llogarisë do të fshijë të gjitha informacionet e përdoruesit.",
   "medicationFrequency": "Frekuenca e përdorimit",
   "daily": "Cdo ditë",
   "everyXDays": "X ditë",

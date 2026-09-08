@@ -31,7 +31,7 @@
   "delete": "ဖျက်ရန်",
   "deleteAccount": "အကောင့်ဖျက်ရန်",
   "deleteAccountConfirm": "အသုံးပြုသူအချက်အလက်ကို ဖျက်မည်",
-  "deleteAccountMessage": "Apabila anda memadamkan akaun, semua maklumat pengguna akan dipadam.",
+  "deleteAccountMessage": "အကောင့်ကို ဖျက်ပါက အသုံးပြုသူအချက်အလက်အားလုံး ဖျက်ပစ်ပါမည်။",
   "medicationFrequency": "Kekerapan Pengambilan",
   "daily": "Seting frekuensi untuk mengambil ubat setiap hari",
   "everyXDays": "hari sekali",

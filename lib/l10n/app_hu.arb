@@ -31,7 +31,7 @@
   "delete": "Törlés",
   "deleteAccount": "Fiók törlése",
   "deleteAccountConfirm": "A felhasználói adatok törlődnek",
-  "deleteAccountMessage": "Ha törli a fiókját, az összes felhasználói információ törlésre kerül.",
+  "deleteAccountMessage": "A fiók törlésével minden felhasználói információ törlődik.",
   "medicationFrequency": "Adagolás gyakoriság",
   "daily": "Minden nap",
   "everyXDays": "X naponként",
