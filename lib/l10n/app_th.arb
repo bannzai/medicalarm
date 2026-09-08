@@ -237,5 +237,6 @@
   "achievementStreakDaysSuffix": "วัน",
   "achievementMonthlyRateLabel": "อัตราการบรรลุเป้าหมายของ {month}",
   "achievementLegendAllTaken": "รับประทานครบทั้งหมดแล้ว",
-  "achievementLegendPartiallyTaken": "บางส่วน"
+  "achievementLegendPartiallyTaken": "บางส่วน",
+  "achievementLegendNoneTaken": "ยังไม่ได้รับประทานยา"
 }

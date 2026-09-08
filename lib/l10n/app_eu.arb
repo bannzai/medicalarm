@@ -237,5 +237,6 @@
   "achievementStreakDaysSuffix": "egun",
   "achievementMonthlyRateLabel": "{month} hilabeteko betetze-maila",
   "achievementLegendAllTaken": "Denak hartuta",
-  "achievementLegendPartiallyTaken": "Partzialki"
+  "achievementLegendPartiallyTaken": "Partzialki",
+  "achievementLegendNoneTaken": "Bat ere ez da hartu"
 }

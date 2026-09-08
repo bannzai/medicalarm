@@ -237,5 +237,6 @@
   "achievementStreakDaysSuffix": "dana",
   "achievementMonthlyRateLabel": "Stopa ostvarenja za {month}",
   "achievementLegendAllTaken": "Sve uzeto",
-  "achievementLegendPartiallyTaken": "Djelomično"
+  "achievementLegendPartiallyTaken": "Djelomično",
+  "achievementLegendNoneTaken": "Ništa nije uzeto"
 }

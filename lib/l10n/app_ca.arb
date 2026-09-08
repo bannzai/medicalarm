@@ -237,5 +237,6 @@
   "achievementStreakDaysSuffix": "dies",
   "achievementMonthlyRateLabel": "Percentatge d’assoliment de {month}",
   "achievementLegendAllTaken": "Totes preses",
-  "achievementLegendPartiallyTaken": "Parcialment"
+  "achievementLegendPartiallyTaken": "Parcialment",
+  "achievementLegendNoneTaken": "Cap presa"
 }

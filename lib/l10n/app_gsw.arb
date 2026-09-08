@@ -237,5 +237,6 @@
   "achievementStreakDaysSuffix": "Täg",
   "achievementMonthlyRateLabel": "Erfülligsquote für {month}",
   "achievementLegendAllTaken": "Alli iinah",
-  "achievementLegendPartiallyTaken": "Teilwiis"
+  "achievementLegendPartiallyTaken": "Teilwiis",
+  "achievementLegendNoneTaken": "Nüt gnoh"
 }

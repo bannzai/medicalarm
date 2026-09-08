@@ -237,5 +237,6 @@
   "achievementStreakDaysSuffix": "өдөр",
   "achievementMonthlyRateLabel": "{month}-ийн биелэлтийн хувь",
   "achievementLegendAllTaken": "Бүгдийг уусан",
-  "achievementLegendPartiallyTaken": "Хэсэгчлэн"
+  "achievementLegendPartiallyTaken": "Хэсэгчлэн",
+  "achievementLegendNoneTaken": "Аль нь ч уугаагүй"
 }

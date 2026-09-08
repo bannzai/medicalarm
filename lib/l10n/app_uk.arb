@@ -237,5 +237,6 @@
   "achievementStreakDaysSuffix": "днів",
   "achievementMonthlyRateLabel": "Показник виконання за {month}",
   "achievementLegendAllTaken": "Усі прийняті",
-  "achievementLegendPartiallyTaken": "Частково"
+  "achievementLegendPartiallyTaken": "Частково",
+  "achievementLegendNoneTaken": "Нічого не прийнято"
 }

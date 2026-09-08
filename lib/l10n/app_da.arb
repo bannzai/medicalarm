@@ -237,5 +237,6 @@
   "achievementStreakDaysSuffix": "dage",
   "achievementMonthlyRateLabel": "Opfyldelsesgrad for {month}",
   "achievementLegendAllTaken": "Alle taget",
-  "achievementLegendPartiallyTaken": "Delvist"
+  "achievementLegendPartiallyTaken": "Delvist",
+  "achievementLegendNoneTaken": "Ingen taget"
 }

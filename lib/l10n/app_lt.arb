@@ -237,5 +237,6 @@
   "achievementStreakDaysSuffix": "dienos",
   "achievementMonthlyRateLabel": "{month} įvykdymo rodiklis",
   "achievementLegendAllTaken": "Visi išgerta",
-  "achievementLegendPartiallyTaken": "Iš dalies"
+  "achievementLegendPartiallyTaken": "Iš dalies",
+  "achievementLegendNoneTaken": "Nė viena dozė neišgerta"
 }

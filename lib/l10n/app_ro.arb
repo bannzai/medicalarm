@@ -237,5 +237,6 @@
   "achievementStreakDaysSuffix": "zile",
   "achievementMonthlyRateLabel": "Rata de îndeplinire pentru {month}",
   "achievementLegendAllTaken": "Toate luate",
-  "achievementLegendPartiallyTaken": "Parțial"
+  "achievementLegendPartiallyTaken": "Parțial",
+  "achievementLegendNoneTaken": "Niciuna administrată"
 }

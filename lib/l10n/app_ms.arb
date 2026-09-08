@@ -237,5 +237,6 @@
   "achievementStreakDaysSuffix": "hari",
   "achievementMonthlyRateLabel": "Kadar pencapaian bagi {month}",
   "achievementLegendAllTaken": "Semua diambil",
-  "achievementLegendPartiallyTaken": "Sebahagian"
+  "achievementLegendPartiallyTaken": "Sebahagian",
+  "achievementLegendNoneTaken": "Tiada yang diambil"
 }

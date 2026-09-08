@@ -237,5 +237,6 @@
   "achievementStreakDaysSuffix": "दिन",
   "achievementMonthlyRateLabel": "{month} की पूर्ति दर",
   "achievementLegendAllTaken": "सभी ले ली गईं",
-  "achievementLegendPartiallyTaken": "आंशिक रूप से"
+  "achievementLegendPartiallyTaken": "आंशिक रूप से",
+  "achievementLegendNoneTaken": "कोई खुराक नहीं ली गई"
 }

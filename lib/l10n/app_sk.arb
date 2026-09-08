@@ -237,5 +237,6 @@
   "achievementStreakDaysSuffix": "dní",
   "achievementMonthlyRateLabel": "Miera splnenia za {month}",
   "achievementLegendAllTaken": "Všetky užité",
-  "achievementLegendPartiallyTaken": "Čiastočne"
+  "achievementLegendPartiallyTaken": "Čiastočne",
+  "achievementLegendNoneTaken": "Nič nebolo užité"
 }

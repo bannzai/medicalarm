@@ -237,5 +237,6 @@
   "achievementStreakDaysSuffix": "araw",
   "achievementMonthlyRateLabel": "Rate ng pagkumpleto para sa {month}",
   "achievementLegendAllTaken": "Lahat nainom",
-  "achievementLegendPartiallyTaken": "Bahagya"
+  "achievementLegendPartiallyTaken": "Bahagya",
+  "achievementLegendNoneTaken": "Walang nainom"
 }

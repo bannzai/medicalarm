@@ -237,5 +237,6 @@
   "achievementStreakDaysSuffix": "dienas",
   "achievementMonthlyRateLabel": "{month} izpildes līmenis",
   "achievementLegendAllTaken": "Viss lietots",
-  "achievementLegendPartiallyTaken": "Daļēji"
+  "achievementLegendPartiallyTaken": "Daļēji",
+  "achievementLegendNoneTaken": "Nav lietota neviena deva"
 }

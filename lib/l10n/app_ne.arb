@@ -237,5 +237,6 @@
   "achievementStreakDaysSuffix": "दिन",
   "achievementMonthlyRateLabel": "{month} को उपलब्धि दर",
   "achievementLegendAllTaken": "सबै सेवन गरियो",
-  "achievementLegendPartiallyTaken": "आंशिक रूपमा"
+  "achievementLegendPartiallyTaken": "आंशिक रूपमा",
+  "achievementLegendNoneTaken": "कुनै पनि लिइएन"
 }

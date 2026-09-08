@@ -237,5 +237,6 @@
   "achievementStreakDaysSuffix": "päivää",
   "achievementMonthlyRateLabel": "{month} saavutustaso",
   "achievementLegendAllTaken": "Kaikki otettu",
-  "achievementLegendPartiallyTaken": "Osittain"
+  "achievementLegendPartiallyTaken": "Osittain",
+  "achievementLegendNoneTaken": "Ei otettu"
 }

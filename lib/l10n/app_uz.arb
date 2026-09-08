@@ -237,5 +237,6 @@
   "achievementStreakDaysSuffix": "kun",
   "achievementMonthlyRateLabel": "{month} oyidagi bajarilish darajasi",
   "achievementLegendAllTaken": "Hammasi qabul qilindi",
-  "achievementLegendPartiallyTaken": "Qisman"
+  "achievementLegendPartiallyTaken": "Qisman",
+  "achievementLegendNoneTaken": "Hech biri qabul qilinmadi"
 }

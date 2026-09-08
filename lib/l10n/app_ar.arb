@@ -237,5 +237,6 @@
   "achievementStreakDaysSuffix": "يوم",
   "achievementMonthlyRateLabel": "معدل الالتزام لشهر {month}",
   "achievementLegendAllTaken": "تم تناولها كلها",
-  "achievementLegendPartiallyTaken": "جزئيًا"
+  "achievementLegendPartiallyTaken": "جزئيًا",
+  "achievementLegendNoneTaken": "لم يتم تناول أي جرعة"
 }

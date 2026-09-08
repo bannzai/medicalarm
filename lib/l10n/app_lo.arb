@@ -237,5 +237,6 @@
   "achievementStreakDaysSuffix": "ວັນ",
   "achievementMonthlyRateLabel": "ອັດຕາການບັນລຸຂອງ {month}",
   "achievementLegendAllTaken": "ໄດ້ກິນຄົບທັງໝົດ",
-  "achievementLegendPartiallyTaken": "ບາງສ່ວນ"
+  "achievementLegendPartiallyTaken": "ບາງສ່ວນ",
+  "achievementLegendNoneTaken": "ບໍ່ໄດ້ກິນ"
 }

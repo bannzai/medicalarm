@@ -237,5 +237,6 @@
   "achievementStreakDaysSuffix": "дзён",
   "achievementMonthlyRateLabel": "Паказчык выканання за {month}",
   "achievementLegendAllTaken": "Усе прыняты",
-  "achievementLegendPartiallyTaken": "Часткова"
+  "achievementLegendPartiallyTaken": "Часткова",
+  "achievementLegendNoneTaken": "Нічога не прынята"
 }

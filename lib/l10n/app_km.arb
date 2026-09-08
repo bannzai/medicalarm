@@ -237,5 +237,6 @@
   "achievementStreakDaysSuffix": "ថ្ងៃ",
   "achievementMonthlyRateLabel": "អត្រាសម្រេចបានសម្រាប់ {month}",
   "achievementLegendAllTaken": "បានលេបទាំងអស់",
-  "achievementLegendPartiallyTaken": "មួយផ្នែក"
+  "achievementLegendPartiallyTaken": "មួយផ្នែក",
+  "achievementLegendNoneTaken": "មិនបានលេបថ្នាំទេ"
 }

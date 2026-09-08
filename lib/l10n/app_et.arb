@@ -237,5 +237,6 @@
   "achievementStreakDaysSuffix": "päeva",
   "achievementMonthlyRateLabel": "{month} täitmise määr",
   "achievementLegendAllTaken": "Kõik võetud",
-  "achievementLegendPartiallyTaken": "Osaliselt"
+  "achievementLegendPartiallyTaken": "Osaliselt",
+  "achievementLegendNoneTaken": "Ühtegi annust pole võetud"
 }

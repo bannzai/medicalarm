@@ -237,5 +237,6 @@
   "achievementStreakDaysSuffix": "دن",
   "achievementMonthlyRateLabel": "{month} کی تکمیل کی شرح",
   "achievementLegendAllTaken": "سب لے لی گئی ہیں",
-  "achievementLegendPartiallyTaken": "جزوی طور پر"
+  "achievementLegendPartiallyTaken": "جزوی طور پر",
+  "achievementLegendNoneTaken": "کوئی خوراک نہیں لی گئی"
 }

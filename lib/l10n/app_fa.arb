@@ -237,5 +237,6 @@
   "achievementStreakDaysSuffix": "روز",
   "achievementMonthlyRateLabel": "نرخ پایبندی در {month}",
   "achievementLegendAllTaken": "همه مصرف شده‌اند",
-  "achievementLegendPartiallyTaken": "جزئی"
+  "achievementLegendPartiallyTaken": "جزئی",
+  "achievementLegendNoneTaken": "هیچ دوزی مصرف نشده است"
 }

@@ -237,5 +237,6 @@
   "achievementStreakDaysSuffix": "күн",
   "achievementMonthlyRateLabel": "{month} айындагы аткаруу көрсөткүчү",
   "achievementLegendAllTaken": "Баары кабыл алынды",
-  "achievementLegendPartiallyTaken": "Жарым-жартылай"
+  "achievementLegendPartiallyTaken": "Жарым-жартылай",
+  "achievementLegendNoneTaken": "Эч нерсе кабыл алынган жок"
 }

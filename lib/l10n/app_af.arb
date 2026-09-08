@@ -237,5 +237,6 @@
   "achievementStreakDaysSuffix": "dae",
   "achievementMonthlyRateLabel": "Voltooiingskoers vir {month}",
   "achievementLegendAllTaken": "Alles geneem",
-  "achievementLegendPartiallyTaken": "Gedeeltelik"
+  "achievementLegendPartiallyTaken": "Gedeeltelik",
+  "achievementLegendNoneTaken": "Geen geneem nie"
 }

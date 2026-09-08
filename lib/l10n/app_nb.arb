@@ -237,5 +237,6 @@
   "achievementStreakDaysSuffix": "dager",
   "achievementMonthlyRateLabel": "Oppfyllelsesgrad for {month}",
   "achievementLegendAllTaken": "Alle tatt",
-  "achievementLegendPartiallyTaken": "Delvis"
+  "achievementLegendPartiallyTaken": "Delvis",
+  "achievementLegendNoneTaken": "Ingen tatt"
 }

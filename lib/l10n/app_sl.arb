@@ -237,5 +237,6 @@
   "achievementStreakDaysSuffix": "dni",
   "achievementMonthlyRateLabel": "Stopnja izpolnitve za {month}",
   "achievementLegendAllTaken": "Vse vzeto",
-  "achievementLegendPartiallyTaken": "Delno"
+  "achievementLegendPartiallyTaken": "Delno",
+  "achievementLegendNoneTaken": "Nobeno zdravilo ni bilo vzeto"
 }

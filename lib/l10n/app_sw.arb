@@ -237,5 +237,6 @@
   "achievementStreakDaysSuffix": "siku",
   "achievementMonthlyRateLabel": "Kiwango cha utimilifu kwa {month}",
   "achievementLegendAllTaken": "Zote zimechukuliwa",
-  "achievementLegendPartiallyTaken": "Kwa sehemu"
+  "achievementLegendPartiallyTaken": "Kwa sehemu",
+  "achievementLegendNoneTaken": "Hakuna iliyotumiwa"
 }

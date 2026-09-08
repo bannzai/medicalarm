@@ -237,5 +237,6 @@
   "achievementStreakDaysSuffix": "օր",
   "achievementMonthlyRateLabel": "{month}-ի կատարման ցուցանիշը",
   "achievementLegendAllTaken": "Բոլորն ընդունված են",
-  "achievementLegendPartiallyTaken": "Մասամբ"
+  "achievementLegendPartiallyTaken": "Մասամբ",
+  "achievementLegendNoneTaken": "Ոչ մի դեղաչափ չի ընդունվել"
 }

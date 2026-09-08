@@ -237,5 +237,6 @@
   "achievementStreakDaysSuffix": "ημέρες",
   "achievementMonthlyRateLabel": "Ποσοστό επίτευξης για τον {month}",
   "achievementLegendAllTaken": "Όλα λήφθηκαν",
-  "achievementLegendPartiallyTaken": "Μερικώς"
+  "achievementLegendPartiallyTaken": "Μερικώς",
+  "achievementLegendNoneTaken": "Καμία λήψη"
 }

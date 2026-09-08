@@ -237,5 +237,6 @@
   "achievementStreakDaysSuffix": "ditë",
   "achievementMonthlyRateLabel": "Shkalla e përmbushjes për {month}",
   "achievementLegendAllTaken": "Të gjitha janë marrë",
-  "achievementLegendPartiallyTaken": "Pjesërisht"
+  "achievementLegendPartiallyTaken": "Pjesërisht",
+  "achievementLegendNoneTaken": "Asnjë e marrë"
 }

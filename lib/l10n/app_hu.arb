@@ -237,5 +237,6 @@
   "achievementStreakDaysSuffix": "nap",
   "achievementMonthlyRateLabel": "{month} teljesítési aránya",
   "achievementLegendAllTaken": "Mind bevéve",
-  "achievementLegendPartiallyTaken": "Részben"
+  "achievementLegendPartiallyTaken": "Részben",
+  "achievementLegendNoneTaken": "Egyik sem lett bevéve"
 }
