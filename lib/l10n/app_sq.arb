@@ -111,7 +111,7 @@
   "monthlyPlanDiscountFormat": "{percent}% zbritje krahasuar me planin mujor",
   "purchaseErrorUnknown": "Ndodhi një gabim i panjohur. Provo përsëri më vonë. Nëse problemi vazhdon, na kontakto përmes Cilësimet > Na kontakto. Detajet: {message}",
   "purchaseErrorStoreProblem": "Ndodhi një gabim te {storeName}. Ju lutemi, provoni përsëri më vonë.",
-  "purchaseErrorInvalidPayment": "Pagesa dështoi. Kontrolloni nëse mënyra juaj e pagesës është e vlefshme dhe provoni përsëri.",
+  "purchaseErrorInvalidPayment": "Pagesa dështoi. Kontrolloni nëse mënyra e pagesës është e vlefshme dhe provoni përsëri.",
   "purchaseErrorProductUnavailable": "Plani i zgjedhur nuk është aktualisht i disponueshëm për blerje. Rinisni aplikacionin dhe provoni përsëri.",
   "purchaseErrorAlreadyPurchased": "Ju tashmë keni blerë një plan. Për të rikthyer informacionet e blerjes në këtë pajisje, zgjidhni “Për ata që kanë blerë më parë”.",
   "purchaseErrorReceiptInUse": "Është blerë tashmë ose informacioni i blerjes po përdoret nga një përdorues tjetër. Kontrolloni {accountName}.",

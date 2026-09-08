@@ -111,7 +111,7 @@
   "monthlyPlanDiscountFormat": "{percent}% kedvezmény a havi csomaghoz képest",
   "purchaseErrorUnknown": "Ismeretlen hiba történt. Próbálja meg később újra. Ha a probléma továbbra is fennáll, lépjen kapcsolatba velünk a Beállítások > Kapcsolat menüponton keresztül. Részletek: {message}",
   "purchaseErrorStoreProblem": "Hiba történt a(z) {storeName} szolgáltatásban. Próbálja újra később.",
-  "purchaseErrorInvalidPayment": "A fizetés sikertelen. Ellenőrizze, hogy érvényes-e a fizetési módja, majd próbálja újra.",
+  "purchaseErrorInvalidPayment": "A fizetés nem sikerült. Ellenőrizze, hogy érvényes-e a fizetési módja, majd próbálja újra.",
   "purchaseErrorProductUnavailable": "A kiválasztott csomag jelenleg nem vásárolható meg. Indítsa újra az alkalmazást, majd próbálja újra.",
   "purchaseErrorAlreadyPurchased": "Ezt a csomagot már megvásárolta. A vásárlási adatok visszaállításához ezen az eszközön válassza a „Korábban vásárlóknak” lehetőséget.",
   "purchaseErrorReceiptInUse": "Már megvásárolta, vagy a vásárlási adatokat egy másik felhasználó használja. Ellenőrizze a(z) {accountName} fiókot.",

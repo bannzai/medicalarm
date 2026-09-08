@@ -111,7 +111,7 @@
   "monthlyPlanDiscountFormat": "Giảm {percent}% so với gói hàng tháng",
   "purchaseErrorUnknown": "Đã xảy ra lỗi không xác định. Vui lòng thử lại sau. Nếu sự cố vẫn tiếp diễn, hãy liên hệ với chúng tôi qua Cài đặt > Liên hệ với chúng tôi. Chi tiết: {message}",
   "purchaseErrorStoreProblem": "Đã xảy ra lỗi với {storeName}. Vui lòng thử lại sau.",
-  "purchaseErrorInvalidPayment": "Thanh toán không thành công. Vui lòng kiểm tra phương thức thanh toán của bạn còn hợp lệ rồi thử lại.",
+  "purchaseErrorInvalidPayment": "Thanh toán không thành công. Vui lòng kiểm tra phương thức thanh toán còn hiệu lực và thử lại.",
   "purchaseErrorProductUnavailable": "Gói đã chọn hiện không có sẵn để mua. Vui lòng khởi động lại ứng dụng và thử lại.",
   "purchaseErrorAlreadyPurchased": "Bạn đã mua gói này. Để khôi phục thông tin mua hàng trên thiết bị này, hãy chọn “Dành cho người đã mua trước đây”.",
   "purchaseErrorReceiptInUse": "Đã mua hoặc thông tin mua hàng đang được người dùng khác sử dụng. Hãy kiểm tra {accountName}.",

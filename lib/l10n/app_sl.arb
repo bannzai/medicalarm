@@ -111,7 +111,7 @@
   "monthlyPlanDiscountFormat": "{percent}% popust glede na mesečni paket",
   "purchaseErrorUnknown": "Prišlo je do neznane napake. Poskusite znova pozneje. Če težava ne bo odpravljena, nas lahko kontaktirate prek Nastavitve > Kontaktiraj nas. Podrobnosti: {message}",
   "purchaseErrorStoreProblem": "V storitvi {storeName} je prišlo do napake. Poskusite znova pozneje.",
-  "purchaseErrorInvalidPayment": "Plačilo ni uspelo. Preverite, ali je vaš način plačila veljaven, in poskusite znova.",
+  "purchaseErrorInvalidPayment": "Plačilo ni uspelo. Preverite, ali je vaše plačilno sredstvo veljavno, in poskusite znova.",
   "purchaseErrorProductUnavailable": "Izbrani paket trenutno ni naprodaj. Znova zaženite aplikacijo in poskusite še enkrat.",
   "purchaseErrorAlreadyPurchased": "Načrt ste že kupili. Če želite v tej napravi obnoviti podatke o nakupu, izberite »Za tiste, ki so že kupili«.­",
   "purchaseErrorReceiptInUse": "To je že kupljeno ali podatke o nakupu uporablja drug uporabnik. Preverite {accountName}.",

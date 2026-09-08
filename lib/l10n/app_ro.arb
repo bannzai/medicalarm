@@ -111,7 +111,7 @@
   "monthlyPlanDiscountFormat": "Reducere de {percent}% față de planul lunar",
   "purchaseErrorUnknown": "A apărut o eroare necunoscută. Încercați din nou mai târziu. Dacă problema persistă, contactați-ne din Setări > Contactați-ne. Detalii: {message}",
   "purchaseErrorStoreProblem": "A apărut o eroare la {storeName}. Încercați din nou mai târziu.",
-  "purchaseErrorInvalidPayment": "Plata a eșuat. Verificați dacă metoda de plată este validă și încercați din nou.",
+  "purchaseErrorInvalidPayment": "Plata nu a reușit. Verificați dacă metoda de plată este valabilă și încercați din nou.",
   "purchaseErrorProductUnavailable": "Planul selectat nu este disponibil momentan pentru achiziție. Reporniți aplicația și încercați din nou.",
   "purchaseErrorAlreadyPurchased": "Ați achiziționat deja un plan. Pentru a restabili informațiile despre achiziție pe acest dispozitiv, selectați „Pentru cei care au cumpărat deja”.",
   "purchaseErrorReceiptInUse": "Deja achiziționat sau informațiile despre achiziție sunt folosite de alt utilizator. Verificați {accountName}.",

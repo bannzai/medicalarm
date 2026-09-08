@@ -111,7 +111,7 @@
   "monthlyPlanDiscountFormat": "Punguzo la {percent}% ikilinganishwa na mpango wa kila mwezi",
   "purchaseErrorUnknown": "Hitilafu isiyojulikana imetokea. Tafadhali jaribu tena baadaye. Tatizo likiendelea, wasiliana nasi kupitia Mipangilio > Wasiliana nasi. Maelezo: {message}",
   "purchaseErrorStoreProblem": "Hitilafu imetokea kwenye {storeName}. Tafadhali jaribu tena baadaye.",
-  "purchaseErrorInvalidPayment": "Malipo hayakufaulu. Tafadhali hakikisha kuwa njia yako ya malipo ni halali, kisha ujaribu tena.",
+  "purchaseErrorInvalidPayment": "Malipo yameshindwa. Hakikisha njia yako ya malipo ni halali kisha ujaribu tena.",
   "purchaseErrorProductUnavailable": "Mpango uliochaguliwa haupatikani kwa ununuzi kwa sasa. Tafadhali anzisha upya programu na ujaribu tena.",
   "purchaseErrorAlreadyPurchased": "Tayari umenunua mpango. Ili kurejesha maelezo ya ununuzi kwenye kifaa hiki, chagua “Kwa waliowahi kununua”.",
   "purchaseErrorReceiptInUse": "Tayari imenunuliwa, au maelezo ya ununuzi yanatumiwa na mtumiaji mwingine. Angalia {accountName}.",

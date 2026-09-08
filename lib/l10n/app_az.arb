@@ -111,7 +111,7 @@
   "monthlyPlanDiscountFormat": "Aylıq plandan {percent}% endirim",
   "purchaseErrorUnknown": "Naməlum xəta baş verdi. Zəhmət olmasa, bir qədər sonra yenidən cəhd edin. Problem həll olunmasa, Parametrlər > Bizimlə əlaqə bölməsindən bizə müraciət edin. Təfərrüatlar: {message}",
   "purchaseErrorStoreProblem": "{storeName} ilə bağlı xəta baş verdi. Zəhmət olmasa, bir az sonra yenidən cəhd edin.",
-  "purchaseErrorInvalidPayment": "Ödəniş uğursuz oldu. Ödəniş üsulunuzun etibarlı olduğunu yoxlayın və yenidən cəhd edin.",
+  "purchaseErrorInvalidPayment": "Ödəniş uğursuz oldu. Zəhmət olmasa, etibarlı ödəniş üsulundan istifadə etdiyinizi yoxlayın və yenidən cəhd edin.",
   "purchaseErrorProductUnavailable": "Seçilmiş plan hazırda satışda deyil. Zəhmət olmasa, tətbiqi yenidən başladın və yenidən cəhd edin.",
   "purchaseErrorAlreadyPurchased": "Siz artıq plan almısınız. Satınalma məlumatınızı bu cihazda bərpa etmək üçün “Əvvəllər satın alanlar buraya” seçimini edin.",
   "purchaseErrorReceiptInUse": "Artıq satın alınıb və ya alış məlumatları başqa istifadəçi tərəfindən istifadə olunur. {accountName} hesabını yoxlayın.",
