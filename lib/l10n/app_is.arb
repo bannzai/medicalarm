@@ -207,7 +207,7 @@
   "displayNameInputHint": "Sláðu inn birtingarnafn",
   "ownerLabel": "Eigandi",
   "youLabel": "Þú",
-  "removeMemberConfirmTitle": "Fjarlægja meðlim?",
+  "removeMemberConfirmTitle": "Viltu fjarlægja meðliminn?",
   "removeMemberConfirmMessage": "Fjarlægja {name} úr hópnum",
   "joinGroup": "Skrá sig í hóp",
   "invitationCodeInputLabel": "Boðskóði (8 stafir)",

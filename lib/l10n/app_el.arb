@@ -207,7 +207,7 @@
   "displayNameInputHint": "Εισαγάγετε όνομα εμφάνισης",
   "ownerLabel": "Ιδιοκτήτης",
   "youLabel": "Εσείς",
-  "removeMemberConfirmTitle": "Θέλετε να καταργήσετε το μέλος;",
+  "removeMemberConfirmTitle": "Θέλετε να αφαιρέσετε το μέλος;",
   "removeMemberConfirmMessage": "Αφαίρεση του {name} από την ομάδα",
   "joinGroup": "Συμμετοχή σε ομάδα",
   "invitationCodeInputLabel": "Κωδικός πρόσκλησης (8 χαρακτήρες)",

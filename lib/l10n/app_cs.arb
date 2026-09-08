@@ -207,7 +207,7 @@
   "displayNameInputHint": "Zadejte zobrazované jméno",
   "ownerLabel": "Vlastník",
   "youLabel": "Vy",
-  "removeMemberConfirmTitle": "Chcete odebrat člena?",
+  "removeMemberConfirmTitle": "Chcete člena odebrat?",
   "removeMemberConfirmMessage": "Odebrat {name} ze skupiny",
   "joinGroup": "Připojit se ke skupině",
   "invitationCodeInputLabel": "Pozvánkový kód (8 znaků)",

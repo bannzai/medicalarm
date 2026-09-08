@@ -207,7 +207,7 @@
   "displayNameInputHint": "Vnesite prikazno ime",
   "ownerLabel": "Lastnik",
   "youLabel": "Vi",
-  "removeMemberConfirmTitle": "Želite odstraniti člana?",
+  "removeMemberConfirmTitle": "Ali želite odstraniti člana?",
   "removeMemberConfirmMessage": "Odstrani {name} iz skupine",
   "joinGroup": "Pridruži se skupini",
   "invitationCodeInputLabel": "Vabilna koda (8 znakov)",

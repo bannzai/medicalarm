@@ -207,7 +207,7 @@
   "displayNameInputHint": "შეიყვანეთ საჩვენებელი სახელი",
   "ownerLabel": "მფლობელი",
   "youLabel": "თქვენ",
-  "removeMemberConfirmTitle": "წავშალოთ წევრი?",
+  "removeMemberConfirmTitle": "გსურთ წევრის წაშლა?",
   "removeMemberConfirmMessage": "{name}-ის ჯგუფიდან წაშლა",
   "joinGroup": "ჯგუფში გაწევრიანება",
   "invitationCodeInputLabel": "მოსაწვევი კოდი (8 სიმბოლო)",

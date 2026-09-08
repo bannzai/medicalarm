@@ -207,7 +207,7 @@
   "displayNameInputHint": "Sisestage kuvatav nimi",
   "ownerLabel": "Omanik",
   "youLabel": "Sina",
-  "removeMemberConfirmTitle": "Kas eemaldada liige?",
+  "removeMemberConfirmTitle": "Kas soovite liikme eemaldada?",
   "removeMemberConfirmMessage": "Eemalda {name} grupist",
   "joinGroup": "Liitu grupiga",
   "invitationCodeInputLabel": "Kutsekood (8 märki)",

@@ -207,7 +207,7 @@
   "displayNameInputHint": "Көрсетілетін атты енгізіңіз",
   "ownerLabel": "Иесі",
   "youLabel": "Сіз",
-  "removeMemberConfirmTitle": "Мүшені жою керек пе?",
+  "removeMemberConfirmTitle": "Қатысушыны өшіру керек пе?",
   "removeMemberConfirmMessage": "{name} топтан жойылады",
   "joinGroup": "Топқа қосылу",
   "invitationCodeInputLabel": "Шақыру коды (8 таңба)",

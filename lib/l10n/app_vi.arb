@@ -207,7 +207,7 @@
   "displayNameInputHint": "Nhập tên hiển thị",
   "ownerLabel": "Chủ sở hữu",
   "youLabel": "Bạn",
-  "removeMemberConfirmTitle": "Bạn có muốn xóa thành viên không?",
+  "removeMemberConfirmTitle": "Xóa thành viên này?",
   "removeMemberConfirmMessage": "Xóa {name} khỏi nhóm",
   "joinGroup": "Tham gia nhóm",
   "invitationCodeInputLabel": "Mã lời mời (8 ký tự)",
