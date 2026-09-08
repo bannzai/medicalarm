@@ -199,7 +199,7 @@
   "invitationCodeExpiresAt": "காலாவதி: {date}",
   "copyInvitationCode": "குறியீட்டை நகலெடுக்கவும்",
   "invitationCodeCopied": "அழைப்புக் குறியீடு நகலெடுக்கப்பட்டது",
-  "issueInvitationCode": "அழைப்புக் குறியீட்டை உருவாக்கு",
+  "issueInvitationCode": "அழைப்புக் குறியீட்டை உருவாக்கவும்",
   "groupSettings": "குழு அமைப்புகள்",
   "members": "உறுப்பினர்கள்",
   "memberFallbackName": "உறுப்பினர்கள்",

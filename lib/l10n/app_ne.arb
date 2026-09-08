@@ -199,7 +199,7 @@
   "invitationCodeExpiresAt": "मान्य हुने मिति: {date}",
   "copyInvitationCode": "कोड प्रतिलिपि गर्नुहोस्",
   "invitationCodeCopied": "निमन्त्रणा कोड प्रतिलिपि गरियो",
-  "issueInvitationCode": "आमन्त्रण कोड सिर्जना गर्नुहोस्",
+  "issueInvitationCode": "निमन्त्रणा कोड जारी गर्नुहोस्",
   "groupSettings": "समूह सेटिङहरू",
   "members": "सदस्यहरू",
   "memberFallbackName": "सदस्यहरू",

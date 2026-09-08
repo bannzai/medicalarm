@@ -199,7 +199,7 @@
   "invitationCodeExpiresAt": "သက်တမ်းကုန်ဆုံးရက်: {date}",
   "copyInvitationCode": "ကုဒ်ကို ကူးယူရန်",
   "invitationCodeCopied": "ဖိတ်ကြားကုဒ်ကို ကူးယူပြီးပါပြီ",
-  "issueInvitationCode": "ဖိတ်ကြားမှုကုဒ် ထုတ်ပေးရန်",
+  "issueInvitationCode": "ဖိတ်ကြားမှုကုဒ် ထုတ်ရန်",
   "groupSettings": "အဖွဲ့ဆက်တင်များ",
   "members": "အဖွဲ့ဝင်များ",
   "memberFallbackName": "အဖွဲ့ဝင်များ",

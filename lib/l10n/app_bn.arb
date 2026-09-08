@@ -199,7 +199,7 @@
   "invitationCodeExpiresAt": "মেয়াদ শেষ: {date}",
   "copyInvitationCode": "কোড কপি করুন",
   "invitationCodeCopied": "আমন্ত্রণ কোড কপি করা হয়েছে",
-  "issueInvitationCode": "আমন্ত্রণ কোড তৈরি করুন",
+  "issueInvitationCode": "আমন্ত্রণ কোড জারি করুন",
   "groupSettings": "গ্রুপ সেটিংস",
   "members": "সদস্যরা",
   "memberFallbackName": "সদস্যরা",

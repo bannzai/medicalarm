@@ -199,7 +199,7 @@
   "invitationCodeExpiresAt": "Vàlid fins al: {date}",
   "copyInvitationCode": "Copiar el codi",
   "invitationCodeCopied": "Codi d’invitació copiat",
-  "issueInvitationCode": "Genera un codi d’invitació",
+  "issueInvitationCode": "Genera el codi d’invitació",
   "groupSettings": "Configuració del grup",
   "members": "Membres",
   "memberFallbackName": "Membres",
