@@ -196,7 +196,7 @@
   "increaseGroupLimitWithPremium": "ప్రీమియం ప్లాన్‌తో అదనపు గ్రూప్‌లను సృష్టించవచ్చు",
   "invitationCode": "ఆహ్వాన కోడ్",
   "invitationCodeShareDescription": "సభ్యులను ఆహ్వానించడానికి ఈ కోడ్‌ను షేర్ చేయండి",
-  "invitationCodeExpiresAt": "గడువు ముగిసే తేదీ: {date}",
+  "invitationCodeExpiresAt": "చెల్లుబాటు తేదీ: {date}",
   "copyInvitationCode": "కోడ్‌ను కాపీ చేయండి",
   "invitationCodeCopied": "ఆహ్వాన కోడ్ కాపీ చేయబడింది",
   "issueInvitationCode": "ఆహ్వాన కోడ్‌ను రూపొందించండి",

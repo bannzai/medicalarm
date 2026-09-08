@@ -196,7 +196,7 @@
   "increaseGroupLimitWithPremium": "С планом Premium можно создавать дополнительные группы",
   "invitationCode": "Код приглашения",
   "invitationCodeShareDescription": "Поделитесь этим кодом, чтобы пригласить участников",
-  "invitationCodeExpiresAt": "Действителен до: {date}",
+  "invitationCodeExpiresAt": "Действительно до: {date}",
   "copyInvitationCode": "Скопировать код",
   "invitationCodeCopied": "Код приглашения скопирован",
   "issueInvitationCode": "Создать код приглашения",

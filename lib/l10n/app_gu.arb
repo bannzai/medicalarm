@@ -196,7 +196,7 @@
   "increaseGroupLimitWithPremium": "પ્રીમિયમ પ્લાન સાથે તમે વધારાના ગ્રૂપ બનાવી શકો છો",
   "invitationCode": "આમંત્રણ કોડ",
   "invitationCodeShareDescription": "સભ્યોને આમંત્રિત કરવા માટે આ કોડ શેર કરો",
-  "invitationCodeExpiresAt": "સમાપ્ત થવાની તારીખ: {date}",
+  "invitationCodeExpiresAt": "સમાપ્તિ: {date}",
   "copyInvitationCode": "કોડ કૉપિ કરો",
   "invitationCodeCopied": "આમંત્રણ કોડ કૉપિ કરવામાં આવ્યો",
   "issueInvitationCode": "આમંત્રણ કોડ બનાવો",

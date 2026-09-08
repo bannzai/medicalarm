@@ -196,7 +196,7 @@
   "increaseGroupLimitWithPremium": "Premium გეგმით შეგიძლიათ დამატებითი ჯგუფების შექმნა",
   "invitationCode": "მოწვევის კოდი",
   "invitationCodeShareDescription": "გააზიარეთ ეს კოდი წევრების მოსაწვევად",
-  "invitationCodeExpiresAt": "მოქმედების ვადა: {date}",
+  "invitationCodeExpiresAt": "ძალაშია: {date}",
   "copyInvitationCode": "კოდის კოპირება",
   "invitationCodeCopied": "მოწვევის კოდი დაკოპირდა",
   "issueInvitationCode": "მოსაწვევი კოდის შექმნა",

@@ -196,7 +196,7 @@
   "increaseGroupLimitWithPremium": "สร้างกลุ่มเพิ่มเติมได้ด้วยแพ็กเกจ Premium",
   "invitationCode": "รหัสคำเชิญ",
   "invitationCodeShareDescription": "แชร์รหัสนี้เพื่อเชิญสมาชิก",
-  "invitationCodeExpiresAt": "หมดอายุ: {date}",
+  "invitationCodeExpiresAt": "ใช้ได้ถึง: {date}",
   "copyInvitationCode": "คัดลอกรหัส",
   "invitationCodeCopied": "คัดลอกรหัสคำเชิญแล้ว",
   "issueInvitationCode": "สร้างรหัสเชิญ",

@@ -196,7 +196,7 @@
   "increaseGroupLimitWithPremium": "Ungakha amaqembu engeziwe ngohlelo lwe-Premium",
   "invitationCode": "Ikhodi yesimemo",
   "invitationCodeShareDescription": "Yabelana ngale khodi ukuze umeme amalungu",
-  "invitationCodeExpiresAt": "Kuphelelwa yisikhathi: {date}",
+  "invitationCodeExpiresAt": "Isebenza kuze kube: {date}",
   "copyInvitationCode": "Kopisha ikhodi",
   "invitationCodeCopied": "Ikhodi yesimemo ikopishiwe",
   "issueInvitationCode": "Dala ikhodi yesimemo",

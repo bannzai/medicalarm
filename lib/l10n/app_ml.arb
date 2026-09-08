@@ -196,7 +196,7 @@
   "increaseGroupLimitWithPremium": "പ്രീമിയം പ്ലാനിലൂടെ അധിക ഗ്രൂപ്പുകൾ സൃഷ്ടിക്കാം",
   "invitationCode": "ക്ഷണക്കോഡ്",
   "invitationCodeShareDescription": "അംഗങ്ങളെ ക്ഷണിക്കാൻ ഈ കോഡ് പങ്കിടുക",
-  "invitationCodeExpiresAt": "കാലഹരണപ്പെടുന്ന തീയതി: {date}",
+  "invitationCodeExpiresAt": "കാലാവധി: {date}",
   "copyInvitationCode": "കോഡ് പകർത്തുക",
   "invitationCodeCopied": "ക്ഷണ കോഡ് പകർത്തി",
   "issueInvitationCode": "ക്ഷണ കോഡ് സൃഷ്ടിക്കുക",

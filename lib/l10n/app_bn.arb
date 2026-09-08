@@ -196,7 +196,7 @@
   "increaseGroupLimitWithPremium": "প্রিমিয়াম প্ল্যানে অতিরিক্ত গ্রুপ তৈরি করতে পারবেন",
   "invitationCode": "আমন্ত্রণ কোড",
   "invitationCodeShareDescription": "এই কোড শেয়ার করে সদস্যদের আমন্ত্রণ জানাতে পারেন",
-  "invitationCodeExpiresAt": "মেয়াদ শেষের তারিখ: {date}",
+  "invitationCodeExpiresAt": "মেয়াদ শেষ: {date}",
   "copyInvitationCode": "কোড কপি করুন",
   "invitationCodeCopied": "আমন্ত্রণ কোড কপি করা হয়েছে",
   "issueInvitationCode": "আমন্ত্রণ কোড তৈরি করুন",
