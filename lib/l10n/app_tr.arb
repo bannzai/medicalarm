@@ -180,7 +180,7 @@
   "revertedTime": "İptal zamanı",
   "revertedByMember": "{name} tarafından iptal edildi",
   "medicationTakenAtLabel": "{time} Alındı",
-  "medicineResumedSnackbar": "İlacın kullanımına yeniden başlandı",
+  "medicineResumedSnackbar": "İlacın kullanımına devam edildi",
   "medicineEditTooltip": "İlacı düzenle",
   "groups": "Gruplar",
   "groupManagement": "Grup yönetimi",

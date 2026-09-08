@@ -180,7 +180,7 @@
   "revertedTime": "Kanselleringstyd",
   "revertedByMember": "Gekanselleer deur {name}",
   "medicationTakenAtLabel": "{time} Geneem",
-  "medicineResumedSnackbar": "Die gebruik van die medikasie is hervat",
+  "medicineResumedSnackbar": "Die medikasie is hervat",
   "medicineEditTooltip": "Wysig medikasie",
   "groups": "Groepe",
   "groupManagement": "Groepbestuur",

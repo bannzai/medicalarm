@@ -180,7 +180,7 @@
   "revertedTime": "Visszavonás ideje",
   "revertedByMember": "{name} visszavonta",
   "medicationTakenAtLabel": "{time} Bevéve",
-  "medicineResumedSnackbar": "A gyógyszer szedését folytattuk",
+  "medicineResumedSnackbar": "A gyógyszer szedése folytatódott",
   "medicineEditTooltip": "Gyógyszer szerkesztése",
   "groups": "Csoportok",
   "groupManagement": "Csoportok kezelése",
