@@ -1192,14 +1192,14 @@
   },
   "achievementLegendAllTaken": "全部",
   "@achievementLegendAllTaken": {
-    "description": "カレンダーの達成ドットの凡例で、その日の予定をすべて服用したことを表すラベル"
+    "description": "カレンダーの達成ドットの凡例で、その日の予定をすべて服用したことを表すラベル。カードの右端に3行並ぶ狭い欄に収めるため、主語や動詞を補わず1語程度に収める (英語は All)"
   },
   "achievementLegendPartiallyTaken": "一部",
   "@achievementLegendPartiallyTaken": {
-    "description": "カレンダーの達成ドットの凡例で、その日の予定の一部だけを服用したことを表すラベル"
+    "description": "カレンダーの達成ドットの凡例で、その日の予定の一部だけを服用したことを表すラベル。カードの右端に3行並ぶ狭い欄に収めるため、主語や動詞を補わず1語程度に収める (英語は Some)"
   },
   "achievementLegendNoneTaken": "なし",
   "@achievementLegendNoneTaken": {
-    "description": "カレンダーの達成ドットの凡例で、その日の予定を1件も服用していないことを表すラベル"
+    "description": "カレンダーの達成ドットの凡例で、その日の予定を1件も服用していないことを表すラベル。カードの右端に3行並ぶ狭い欄に収めるため、主語や動詞を補わず1語程度に収める (英語は None)"
   }
 }
