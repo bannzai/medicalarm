@@ -35,7 +35,7 @@
   "medicationFrequency": "İlaç alma sıklığı",
   "daily": "Her gün",
   "everyXDays": "Her X günde bir",
-  "specificWeekdays": "Haftanın belirli günleri",
+  "specificWeekdays": "Belirli haftanın günleri",
   "cycle": "Döngü",
   "cycleDescription": "Örn.) 21 gün ilaç kullanma / 7 gün ara verme",
   "everyXDaysDescription": "Örn.: 2 günde bir, 3 günde bir",

@@ -35,7 +35,7 @@
   "medicationFrequency": "用药频率",
   "daily": "每天",
   "everyXDays": "每X天",
-  "specificWeekdays": "特定星期",
+  "specificWeekdays": "指定星期",
   "cycle": "周期",
   "cycleDescription": "例）服药21天 / 停药7天",
   "everyXDaysDescription": "例如：每2天、每3天",
