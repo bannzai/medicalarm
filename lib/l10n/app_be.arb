@@ -145,7 +145,7 @@
   "medicationTimeFollowup": "Напамін пра час прыёму лекаў",
   "updateRequired": "Патрабуецца абнаўленне",
   "updateRequiredMessage": "Абнавіце да апошняй версіі з {storeName}",
-  "screenshotMedicationHistoriesMemo": "Занадта доўга спаў, таму час прыёму лекі затрымаўся.",
+  "screenshotMedicationHistoriesMemo": "Я позна прыняў(-ла) лекі, бо занадта доўга спаў(-ла) днём.",
   "screenshotMedicationDoserReceiver1": "свой",
   "screenshotMedicationDoserReceiver2": "Мана-сан",
   "screenshotMedicationQuontityMemo1": "1 таблетка",

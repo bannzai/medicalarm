@@ -145,7 +145,7 @@
   "medicationTimeFollowup": "Przypomnienie o przyjęciu leku",
   "updateRequired": "Wymagana aktualizacja",
   "updateRequiredMessage": "Zaktualizuj do najnowszej wersji z {storeName}",
-  "screenshotMedicationHistoriesMemo": "Zaspałem na drzemkę, przez co spóźniłem się z zażyciem leku.",
+  "screenshotMedicationHistoriesMemo": "Lek przyjąłem(-ęłam) później, ponieważ zbyt długo spałem(-am) w ciągu dnia.",
   "screenshotMedicationDoserReceiver1": "jałowy",
   "screenshotMedicationDoserReceiver2": "Mana-chan",
   "screenshotMedicationQuontityMemo1": "1 tablet",

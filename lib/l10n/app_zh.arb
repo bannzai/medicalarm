@@ -145,7 +145,7 @@
   "medicationTimeFollowup": "服药时间跟进",
   "updateRequired": "需要更新",
   "updateRequiredMessage": "请从{storeName}更新到最新版本",
-  "screenshotMedicationHistoriesMemo": "因为午睡过久，导致吃药时间延迟",
+  "screenshotMedicationHistoriesMemo": "午睡过久，导致吃药晚了。",
   "screenshotMedicationDoserReceiver1": "自己",
   "screenshotMedicationDoserReceiver2": "玛娜",
   "screenshotMedicationQuontityMemo1": "1片",

@@ -145,7 +145,7 @@
   "medicationTimeFollowup": "약 복용 시간 후속 알림",
   "updateRequired": "업데이트가 필요합니다",
   "updateRequiredMessage": "{storeName}에서 최신 버전으로 업데이트해 주세요",
-  "screenshotMedicationHistoriesMemo": "낮잠을 너무 자서 약 먹는 시간이 늦어졌다",
+  "screenshotMedicationHistoriesMemo": "낮잠을 너무 오래 자서 약을 늦게 먹었습니다.",
   "screenshotMedicationDoserReceiver1": "자신",
   "screenshotMedicationDoserReceiver2": "마나",
   "screenshotMedicationQuontityMemo1": "1정",
