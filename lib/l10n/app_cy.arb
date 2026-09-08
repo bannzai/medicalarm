@@ -232,7 +232,7 @@
   "doseIntervalNotificationWarning": "⚠️ Nid yw {minimumDoseIntervalHours} awr wedi mynd heibio ers y dos diwethaf",
   "ossLicense": "Trwyddedau OSS",
   "achievementWeeklyLabel": "Meddyginiaeth yr wythnos hon",
-  "achievementWeeklyCountSuffix": "/{scheduledCount} gwaith",
+  "achievementWeeklyCountSuffix": "/{scheduledCount} o weithiau",
   "achievementStreakLabel": "Cofnod parhaus",
   "achievementStreakDaysSuffix": "diwrnod",
   "achievementMonthlyRateLabel": "Cyfradd cwblhau {month}",
