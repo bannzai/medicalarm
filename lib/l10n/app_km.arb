@@ -237,5 +237,6 @@
   "achievementStreakDaysSuffix": "ថ្ងៃ",
   "achievementMonthlyRateLabel": "អត្រាសម្រេចបាន៖ {month}",
   "achievementLegendAllTaken": "ទាំងអស់",
-  "achievementLegendPartiallyTaken": "មួយផ្នែក"
+  "achievementLegendPartiallyTaken": "មួយផ្នែក",
+  "achievementLegendNoneTaken": "គ្មាន"
 }

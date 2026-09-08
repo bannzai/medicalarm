@@ -237,5 +237,6 @@
   "achievementStreakDaysSuffix": "ရက်",
   "achievementMonthlyRateLabel": "အောင်မြင်မှုနှုန်း: {month}",
   "achievementLegendAllTaken": "အားလုံး",
-  "achievementLegendPartiallyTaken": "တစ်စိတ်တစ်ပိုင်း"
+  "achievementLegendPartiallyTaken": "တစ်စိတ်တစ်ပိုင်း",
+  "achievementLegendNoneTaken": "မရှိပါ"
 }

@@ -237,5 +237,6 @@
   "achievementStreakDaysSuffix": "يوم",
   "achievementMonthlyRateLabel": "معدل الإنجاز: {month}",
   "achievementLegendAllTaken": "الكل",
-  "achievementLegendPartiallyTaken": "بعض"
+  "achievementLegendPartiallyTaken": "بعض",
+  "achievementLegendNoneTaken": "لا شيء"
 }

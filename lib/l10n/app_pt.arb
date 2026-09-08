@@ -237,5 +237,6 @@
   "achievementStreakDaysSuffix": "dias",
   "achievementMonthlyRateLabel": "Taxa de cumprimento: {month}",
   "achievementLegendAllTaken": "Todos",
-  "achievementLegendPartiallyTaken": "Parcialmente"
+  "achievementLegendPartiallyTaken": "Parcialmente",
+  "achievementLegendNoneTaken": "Nenhuma"
 }

@@ -237,5 +237,6 @@
   "achievementStreakDaysSuffix": "diwrnod",
   "achievementMonthlyRateLabel": "Cyfradd cyflawni: {month}",
   "achievementLegendAllTaken": "Pob",
-  "achievementLegendPartiallyTaken": "Yn rhannol"
+  "achievementLegendPartiallyTaken": "Yn rhannol",
+  "achievementLegendNoneTaken": "Dim"
 }

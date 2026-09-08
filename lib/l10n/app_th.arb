@@ -237,5 +237,6 @@
   "achievementStreakDaysSuffix": "วัน",
   "achievementMonthlyRateLabel": "อัตราความสำเร็จ: {month}",
   "achievementLegendAllTaken": "ทั้งหมด",
-  "achievementLegendPartiallyTaken": "บางส่วน"
+  "achievementLegendPartiallyTaken": "บางส่วน",
+  "achievementLegendNoneTaken": "ไม่มี"
 }

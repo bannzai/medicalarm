@@ -237,5 +237,6 @@
   "achievementStreakDaysSuffix": "дни",
   "achievementMonthlyRateLabel": "Процент изпълнение: {month}",
   "achievementLegendAllTaken": "Всички",
-  "achievementLegendPartiallyTaken": "Частично"
+  "achievementLegendPartiallyTaken": "Частично",
+  "achievementLegendNoneTaken": "Няма"
 }

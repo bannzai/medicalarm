@@ -237,5 +237,6 @@
   "achievementStreakDaysSuffix": "күн",
   "achievementMonthlyRateLabel": "Аткаруу көрсөткүчү: {month}",
   "achievementLegendAllTaken": "Баары",
-  "achievementLegendPartiallyTaken": "Жарым-жартылай"
+  "achievementLegendPartiallyTaken": "Жарым-жартылай",
+  "achievementLegendNoneTaken": "Жок"
 }

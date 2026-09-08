@@ -237,5 +237,6 @@
   "achievementStreakDaysSuffix": "দিন",
   "achievementMonthlyRateLabel": "সাফল্যৰ হাৰ: {month}",
   "achievementLegendAllTaken": "সকলো",
-  "achievementLegendPartiallyTaken": "আংশিক"
+  "achievementLegendPartiallyTaken": "আংশিক",
+  "achievementLegendNoneTaken": "একোৱেই নহয়"
 }

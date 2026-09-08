@@ -237,5 +237,6 @@
   "achievementStreakDaysSuffix": "өдөр",
   "achievementMonthlyRateLabel": "Биелэлтийн хувь: {month}",
   "achievementLegendAllTaken": "Бүгд",
-  "achievementLegendPartiallyTaken": "Зарим"
+  "achievementLegendPartiallyTaken": "Зарим",
+  "achievementLegendNoneTaken": "Байхгүй"
 }

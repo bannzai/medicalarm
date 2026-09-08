@@ -237,5 +237,6 @@
   "achievementStreakDaysSuffix": "kun",
   "achievementMonthlyRateLabel": "Bajarilish darajasi: {month}",
   "achievementLegendAllTaken": "Barchasi",
-  "achievementLegendPartiallyTaken": "Qisman"
+  "achievementLegendPartiallyTaken": "Qisman",
+  "achievementLegendNoneTaken": "Yo‘q"
 }

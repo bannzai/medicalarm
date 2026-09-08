@@ -237,5 +237,6 @@
   "achievementStreakDaysSuffix": "izinsuku",
   "achievementMonthlyRateLabel": "Izinga lokufezekisa: {month}",
   "achievementLegendAllTaken": "Konke",
-  "achievementLegendPartiallyTaken": "Ingxenye"
+  "achievementLegendPartiallyTaken": "Ingxenye",
+  "achievementLegendNoneTaken": "Akukho"
 }

@@ -237,5 +237,6 @@
   "achievementStreakDaysSuffix": "ວັນ",
   "achievementMonthlyRateLabel": "ອັດຕາການບັນລຸ: {month}",
   "achievementLegendAllTaken": "ທັງໝົດ",
-  "achievementLegendPartiallyTaken": "ບາງສ່ວນ"
+  "achievementLegendPartiallyTaken": "ບາງສ່ວນ",
+  "achievementLegendNoneTaken": "ບໍ່ມີ"
 }

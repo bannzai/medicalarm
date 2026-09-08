@@ -237,5 +237,6 @@
   "achievementStreakDaysSuffix": "دن",
   "achievementMonthlyRateLabel": "تکمیل کی شرح: {month}",
   "achievementLegendAllTaken": "سب",
-  "achievementLegendPartiallyTaken": "جزوی"
+  "achievementLegendPartiallyTaken": "جزوی",
+  "achievementLegendNoneTaken": "کوئی نہیں"
 }

@@ -237,5 +237,6 @@
   "achievementStreakDaysSuffix": "nap",
   "achievementMonthlyRateLabel": "Teljesítési arány: {month}",
   "achievementLegendAllTaken": "Mind",
-  "achievementLegendPartiallyTaken": "Részben"
+  "achievementLegendPartiallyTaken": "Részben",
+  "achievementLegendNoneTaken": "Egy sem"
 }

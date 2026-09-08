@@ -237,5 +237,6 @@
   "achievementStreakDaysSuffix": "päivää",
   "achievementMonthlyRateLabel": "Toteutumisaste: {month}",
   "achievementLegendAllTaken": "Kaikki",
-  "achievementLegendPartiallyTaken": "Osittain"
+  "achievementLegendPartiallyTaken": "Osittain",
+  "achievementLegendNoneTaken": "Ei mitään"
 }

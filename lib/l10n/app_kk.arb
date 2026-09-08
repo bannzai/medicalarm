@@ -237,5 +237,6 @@
   "achievementStreakDaysSuffix": "күн",
   "achievementMonthlyRateLabel": "Орындалу көрсеткіші: {month}",
   "achievementLegendAllTaken": "Барлығы",
-  "achievementLegendPartiallyTaken": "Ішінара"
+  "achievementLegendPartiallyTaken": "Ішінара",
+  "achievementLegendNoneTaken": "Жоқ"
 }

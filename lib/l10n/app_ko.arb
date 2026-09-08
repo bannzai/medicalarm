@@ -237,5 +237,6 @@
   "achievementStreakDaysSuffix": "일",
   "achievementMonthlyRateLabel": "달성률: {month}",
   "achievementLegendAllTaken": "모두",
-  "achievementLegendPartiallyTaken": "일부"
+  "achievementLegendPartiallyTaken": "일부",
+  "achievementLegendNoneTaken": "없음"
 }

@@ -237,5 +237,6 @@
   "achievementStreakDaysSuffix": "dae",
   "achievementMonthlyRateLabel": "Prestasiekoers: {month}",
   "achievementLegendAllTaken": "Alles",
-  "achievementLegendPartiallyTaken": "Gedeeltelik"
+  "achievementLegendPartiallyTaken": "Gedeeltelik",
+  "achievementLegendNoneTaken": "Geen"
 }

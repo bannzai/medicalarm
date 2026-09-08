@@ -237,5 +237,6 @@
   "achievementStreakDaysSuffix": "dienas",
   "achievementMonthlyRateLabel": "Izpildes rādītājs: {month}",
   "achievementLegendAllTaken": "Visi",
-  "achievementLegendPartiallyTaken": "Daļēji"
+  "achievementLegendPartiallyTaken": "Daļēji",
+  "achievementLegendNoneTaken": "Neviena"
 }

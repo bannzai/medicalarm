@@ -237,5 +237,6 @@
   "achievementStreakDaysSuffix": "օր",
   "achievementMonthlyRateLabel": "Կատարման ցուցանիշ՝ {month}",
   "achievementLegendAllTaken": "Բոլորը",
-  "achievementLegendPartiallyTaken": "Մասամբ"
+  "achievementLegendPartiallyTaken": "Մասամբ",
+  "achievementLegendNoneTaken": "Ոչ մեկը"
 }

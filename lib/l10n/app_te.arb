@@ -237,5 +237,6 @@
   "achievementStreakDaysSuffix": "రోజులు",
   "achievementMonthlyRateLabel": "సాధన రేటు: {month}",
   "achievementLegendAllTaken": "అన్నీ",
-  "achievementLegendPartiallyTaken": "పాక్షికంగా"
+  "achievementLegendPartiallyTaken": "పాక్షికంగా",
+  "achievementLegendNoneTaken": "ఏదీ లేదు"
 }

@@ -237,5 +237,6 @@
   "achievementStreakDaysSuffix": "দিন",
   "achievementMonthlyRateLabel": "সাফল্যের হার: {month}",
   "achievementLegendAllTaken": "সব",
-  "achievementLegendPartiallyTaken": "আংশিক"
+  "achievementLegendPartiallyTaken": "আংশিক",
+  "achievementLegendNoneTaken": "কিছুই নয়"
 }

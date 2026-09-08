@@ -237,5 +237,6 @@
   "achievementStreakDaysSuffix": "zile",
   "achievementMonthlyRateLabel": "Rata de îndeplinire: {month}",
   "achievementLegendAllTaken": "Toate",
-  "achievementLegendPartiallyTaken": "Parțial"
+  "achievementLegendPartiallyTaken": "Parțial",
+  "achievementLegendNoneTaken": "Niciuna"
 }

@@ -237,5 +237,6 @@
   "achievementStreakDaysSuffix": "dagen",
   "achievementMonthlyRateLabel": "Voltooiingspercentage: {month}",
   "achievementLegendAllTaken": "Alle",
-  "achievementLegendPartiallyTaken": "Gedeeltelijk"
+  "achievementLegendPartiallyTaken": "Gedeeltelijk",
+  "achievementLegendNoneTaken": "Geen"
 }

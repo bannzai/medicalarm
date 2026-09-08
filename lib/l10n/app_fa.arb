@@ -237,5 +237,6 @@
   "achievementStreakDaysSuffix": "روز",
   "achievementMonthlyRateLabel": "نرخ پایبندی: {month}",
   "achievementLegendAllTaken": "همه",
-  "achievementLegendPartiallyTaken": "جزئی"
+  "achievementLegendPartiallyTaken": "جزئی",
+  "achievementLegendNoneTaken": "هیچ‌کدام"
 }

@@ -237,5 +237,6 @@
   "achievementStreakDaysSuffix": "நாட்கள்",
   "achievementMonthlyRateLabel": "நிறைவேற்ற விகிதம்: {month}",
   "achievementLegendAllTaken": "அனைத்தும்",
-  "achievementLegendPartiallyTaken": "பகுதி"
+  "achievementLegendPartiallyTaken": "பகுதி",
+  "achievementLegendNoneTaken": "எதுவுமில்லை"
 }

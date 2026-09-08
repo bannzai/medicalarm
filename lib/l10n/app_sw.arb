@@ -237,5 +237,6 @@
   "achievementStreakDaysSuffix": "siku",
   "achievementMonthlyRateLabel": "Kiwango cha utimilifu: {month}",
   "achievementLegendAllTaken": "Zote",
-  "achievementLegendPartiallyTaken": "Sehemu"
+  "achievementLegendPartiallyTaken": "Sehemu",
+  "achievementLegendNoneTaken": "Hakuna"
 }

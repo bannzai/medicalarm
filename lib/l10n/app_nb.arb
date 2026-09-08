@@ -237,5 +237,6 @@
   "achievementStreakDaysSuffix": "dager",
   "achievementMonthlyRateLabel": "Oppfyllelsesgrad: {month}",
   "achievementLegendAllTaken": "Alle",
-  "achievementLegendPartiallyTaken": "Delvis"
+  "achievementLegendPartiallyTaken": "Delvis",
+  "achievementLegendNoneTaken": "Ingen"
 }

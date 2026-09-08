@@ -237,5 +237,6 @@
   "achievementStreakDaysSuffix": "ദിവസങ്ങൾ",
   "achievementMonthlyRateLabel": "നേട്ട നിരക്ക്: {month}",
   "achievementLegendAllTaken": "എല്ലാം",
-  "achievementLegendPartiallyTaken": "ഭാഗികമായി"
+  "achievementLegendPartiallyTaken": "ഭാഗികമായി",
+  "achievementLegendNoneTaken": "ഒന്നുമില്ല"
 }

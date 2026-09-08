@@ -237,5 +237,6 @@
   "achievementStreakDaysSuffix": "ngày",
   "achievementMonthlyRateLabel": "Tỷ lệ hoàn thành: {month}",
   "achievementLegendAllTaken": "Tất cả",
-  "achievementLegendPartiallyTaken": "Một phần"
+  "achievementLegendPartiallyTaken": "Một phần",
+  "achievementLegendNoneTaken": "Không có"
 }

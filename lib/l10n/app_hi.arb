@@ -237,5 +237,6 @@
   "achievementStreakDaysSuffix": "दिन",
   "achievementMonthlyRateLabel": "उपलब्धि दर: {month}",
   "achievementLegendAllTaken": "सभी",
-  "achievementLegendPartiallyTaken": "आंशिक"
+  "achievementLegendPartiallyTaken": "आंशिक",
+  "achievementLegendNoneTaken": "कोई नहीं"
 }

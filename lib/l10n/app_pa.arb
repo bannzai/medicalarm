@@ -237,5 +237,6 @@
   "achievementStreakDaysSuffix": "ਦਿਨ",
   "achievementMonthlyRateLabel": "ਪ੍ਰਾਪਤੀ ਦਰ: {month}",
   "achievementLegendAllTaken": "ਸਾਰੇ",
-  "achievementLegendPartiallyTaken": "ਅੰਸ਼ਕ"
+  "achievementLegendPartiallyTaken": "ਅੰਸ਼ਕ",
+  "achievementLegendNoneTaken": "ਕੋਈ ਨਹੀਂ"
 }

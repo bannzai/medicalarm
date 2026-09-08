@@ -237,5 +237,6 @@
   "achievementStreakDaysSuffix": "dage",
   "achievementMonthlyRateLabel": "Gennemførelsesrate: {month}",
   "achievementLegendAllTaken": "Alle",
-  "achievementLegendPartiallyTaken": "Delvist"
+  "achievementLegendPartiallyTaken": "Delvist",
+  "achievementLegendNoneTaken": "Ingen"
 }

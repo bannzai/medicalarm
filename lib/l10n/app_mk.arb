@@ -237,5 +237,6 @@
   "achievementStreakDaysSuffix": "дена",
   "achievementMonthlyRateLabel": "Стапка на исполнетост: {month}",
   "achievementLegendAllTaken": "Сите",
-  "achievementLegendPartiallyTaken": "Делумно"
+  "achievementLegendPartiallyTaken": "Делумно",
+  "achievementLegendNoneTaken": "Ниту едно"
 }

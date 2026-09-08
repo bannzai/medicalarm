@@ -237,5 +237,6 @@
   "achievementStreakDaysSuffix": "giorni",
   "achievementMonthlyRateLabel": "Tasso di completamento: {month}",
   "achievementLegendAllTaken": "Tutto",
-  "achievementLegendPartiallyTaken": "Parzialmente"
+  "achievementLegendPartiallyTaken": "Parzialmente",
+  "achievementLegendNoneTaken": "Nessuna"
 }

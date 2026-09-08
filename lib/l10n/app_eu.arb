@@ -237,5 +237,6 @@
   "achievementStreakDaysSuffix": "egun",
   "achievementMonthlyRateLabel": "Betetze-maila: {month}",
   "achievementLegendAllTaken": "Guztiak",
-  "achievementLegendPartiallyTaken": "Zati batean"
+  "achievementLegendPartiallyTaken": "Zati batean",
+  "achievementLegendNoneTaken": "Bat ere ez"
 }

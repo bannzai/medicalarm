@@ -237,5 +237,6 @@
   "achievementStreakDaysSuffix": "dies",
   "achievementMonthlyRateLabel": "Taxa d’assoliment: {month}",
   "achievementLegendAllTaken": "Tot",
-  "achievementLegendPartiallyTaken": "Parcialment"
+  "achievementLegendPartiallyTaken": "Parcialment",
+  "achievementLegendNoneTaken": "Cap"
 }

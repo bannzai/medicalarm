@@ -237,5 +237,6 @@
   "achievementStreakDaysSuffix": "dagar",
   "achievementMonthlyRateLabel": "Frammistöðuhlutfall: {month}",
   "achievementLegendAllTaken": "Allt",
-  "achievementLegendPartiallyTaken": "Að hluta"
+  "achievementLegendPartiallyTaken": "Að hluta",
+  "achievementLegendNoneTaken": "Ekkert"
 }

@@ -237,5 +237,6 @@
   "achievementStreakDaysSuffix": "araw",
   "achievementMonthlyRateLabel": "Rate ng pagkamit: {month}",
   "achievementLegendAllTaken": "Lahat",
-  "achievementLegendPartiallyTaken": "Bahagya"
+  "achievementLegendPartiallyTaken": "Bahagya",
+  "achievementLegendNoneTaken": "Wala"
 }

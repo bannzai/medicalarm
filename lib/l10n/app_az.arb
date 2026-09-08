@@ -237,5 +237,6 @@
   "achievementStreakDaysSuffix": "gün",
   "achievementMonthlyRateLabel": "Nailiyyət dərəcəsi: {month}",
   "achievementLegendAllTaken": "Hamısı",
-  "achievementLegendPartiallyTaken": "Qismən"
+  "achievementLegendPartiallyTaken": "Qismən",
+  "achievementLegendNoneTaken": "Heç biri"
 }
