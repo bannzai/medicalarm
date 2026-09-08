@@ -143,7 +143,7 @@
   "restorePurchase": "Նախկինում գնածների համար",
   "purchaseRestored": "Գնման տեղեկությունները վերականգնվել են",
   "medicationTimeFollowup": "Դեղամիջոցն ընդունելու ժամանակի հետևում",
-  "updateRequired": "Թարմացում է պահանջվում",
+  "updateRequired": "Պահանջվում է թարմացում",
   "updateRequiredMessage": "Խնդրում ենք թարմացնել {storeName}-ից հասանելի վերջին տարբերակին",
   "screenshotMedicationHistoriesMemo": "Դեղս ուշ ընդունեցի, քանի որ կեսօրին չափազանց երկար էի քնել։",
   "screenshotMedicationDoserReceiver1": "Ես ինքս",
