@@ -235,7 +235,7 @@
   "achievementWeeklyCountSuffix": "/{scheduledCount} marta",
   "achievementStreakLabel": "Ketma-ket",
   "achievementStreakDaysSuffix": "kun",
-  "achievementMonthlyRateLabel": "{month} uchun bajarilish darajasi",
+  "achievementMonthlyRateLabel": "Bajarilish darajasi: {month}",
   "achievementLegendAllTaken": "Barchasi",
   "achievementLegendPartiallyTaken": "Ba'zilari",
   "achievementLegendNoneTaken": "Yo‘q"

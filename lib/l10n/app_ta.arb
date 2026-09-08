@@ -235,7 +235,7 @@
   "achievementWeeklyCountSuffix": "/{scheduledCount} முறை",
   "achievementStreakLabel": "தொடர்ச்சியான பதிவு",
   "achievementStreakDaysSuffix": "நாட்கள்",
-  "achievementMonthlyRateLabel": "{month} நிறைவு விகிதம்",
+  "achievementMonthlyRateLabel": "நிறைவேற்ற விகிதம்: {month}",
   "achievementLegendAllTaken": "அனைத்தும்",
   "achievementLegendPartiallyTaken": "சில",
   "achievementLegendNoneTaken": "எதுவுமில்லை"

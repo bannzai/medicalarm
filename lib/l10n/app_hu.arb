@@ -235,7 +235,7 @@
   "achievementWeeklyCountSuffix": "/{scheduledCount} alkalom",
   "achievementStreakLabel": "Sorozat",
   "achievementStreakDaysSuffix": "nap",
-  "achievementMonthlyRateLabel": "{month} teljesítési aránya",
+  "achievementMonthlyRateLabel": "Teljesítési arány: {month}",
   "achievementLegendAllTaken": "Mind",
   "achievementLegendPartiallyTaken": "Néhány",
   "achievementLegendNoneTaken": "Egyik sem"

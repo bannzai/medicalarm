@@ -235,7 +235,7 @@
   "achievementWeeklyCountSuffix": "/{scheduledCount} ଥର",
   "achievementStreakLabel": "କ୍ରମାଗତ ରେକର୍ଡ",
   "achievementStreakDaysSuffix": "ଦିନ",
-  "achievementMonthlyRateLabel": "{month}ର ସଫଳତା ହାର",
+  "achievementMonthlyRateLabel": "ସମ୍ପୂର୍ଣ୍ଣତା ହାର: {month}",
   "achievementLegendAllTaken": "ସବୁ",
   "achievementLegendPartiallyTaken": "କିଛି",
   "achievementLegendNoneTaken": "କିଛି ନାହିଁ"

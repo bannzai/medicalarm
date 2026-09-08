@@ -235,7 +235,7 @@
   "achievementWeeklyCountSuffix": "/{scheduledCount} keer",
   "achievementStreakLabel": "Reeks",
   "achievementStreakDaysSuffix": "dae",
-  "achievementMonthlyRateLabel": "Voltooiingskoers vir {month}",
+  "achievementMonthlyRateLabel": "Voltooiingskoers: {month}",
   "achievementLegendAllTaken": "Alles",
   "achievementLegendPartiallyTaken": "Gedeeltelik",
   "achievementLegendNoneTaken": "Geen"

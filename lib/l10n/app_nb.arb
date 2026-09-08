@@ -235,7 +235,7 @@
   "achievementWeeklyCountSuffix": "/{scheduledCount} ganger",
   "achievementStreakLabel": "Rekke",
   "achievementStreakDaysSuffix": "dager",
-  "achievementMonthlyRateLabel": "Oppfyllelsesgrad for {month}",
+  "achievementMonthlyRateLabel": "Oppfyllelsesgrad: {month}",
   "achievementLegendAllTaken": "Alle",
   "achievementLegendPartiallyTaken": "Noen",
   "achievementLegendNoneTaken": "Ingen"

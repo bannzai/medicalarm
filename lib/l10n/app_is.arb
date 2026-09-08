@@ -235,7 +235,7 @@
   "achievementWeeklyCountSuffix": "/{scheduledCount} sinnum",
   "achievementStreakLabel": "Run",
   "achievementStreakDaysSuffix": "dagar",
-  "achievementMonthlyRateLabel": "Frammistöðuhlutfall fyrir {month}",
+  "achievementMonthlyRateLabel": "Hlutfall lokinna: {month}",
   "achievementLegendAllTaken": "Allt",
   "achievementLegendPartiallyTaken": "Sum",
   "achievementLegendNoneTaken": "Ekkert"

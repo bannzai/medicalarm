@@ -235,7 +235,7 @@
   "achievementWeeklyCountSuffix": "/{scheduledCount} kertaa",
   "achievementStreakLabel": "Putki",
   "achievementStreakDaysSuffix": "päivää",
-  "achievementMonthlyRateLabel": "Toteutumisaste kuukaudelle {month}",
+  "achievementMonthlyRateLabel": "Toteutumisaste: {month}",
   "achievementLegendAllTaken": "Kaikki",
   "achievementLegendPartiallyTaken": "Jotkin",
   "achievementLegendNoneTaken": "Ei mitään"

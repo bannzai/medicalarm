@@ -235,7 +235,7 @@
   "achievementWeeklyCountSuffix": "/{scheduledCount} సార్లు",
   "achievementStreakLabel": "వరుస రికార్డు",
   "achievementStreakDaysSuffix": "రోజులు",
-  "achievementMonthlyRateLabel": "{month} సాధన రేటు",
+  "achievementMonthlyRateLabel": "పూర్తి రేటు: {month}",
   "achievementLegendAllTaken": "అన్నీ",
   "achievementLegendPartiallyTaken": "కొన్ని",
   "achievementLegendNoneTaken": "ఏదీ లేదు"

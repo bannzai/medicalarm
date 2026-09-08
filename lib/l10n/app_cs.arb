@@ -235,7 +235,7 @@
   "achievementWeeklyCountSuffix": "/{scheduledCount}krát",
   "achievementStreakLabel": "Série",
   "achievementStreakDaysSuffix": "dny",
-  "achievementMonthlyRateLabel": "Míra splnění za {month}",
+  "achievementMonthlyRateLabel": "Míra splnění: {month}",
   "achievementLegendAllTaken": "Vše",
   "achievementLegendPartiallyTaken": "Některé",
   "achievementLegendNoneTaken": "Nic"

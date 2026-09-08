@@ -235,7 +235,7 @@
   "achievementWeeklyCountSuffix": "/{scheduledCount} o weithiau",
   "achievementStreakLabel": "Cyfres",
   "achievementStreakDaysSuffix": "diwrnodau",
-  "achievementMonthlyRateLabel": "Cyfradd cwblhau {month}",
+  "achievementMonthlyRateLabel": "Cyfradd cwblhau: {month}",
   "achievementLegendAllTaken": "Pob",
   "achievementLegendPartiallyTaken": "Rhai",
   "achievementLegendNoneTaken": "Dim"

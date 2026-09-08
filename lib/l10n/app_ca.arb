@@ -235,7 +235,7 @@
   "achievementWeeklyCountSuffix": "/{scheduledCount} vegades",
   "achievementStreakLabel": "Ratxa",
   "achievementStreakDaysSuffix": "dies",
-  "achievementMonthlyRateLabel": "Taxa d’assoliment de {month}",
+  "achievementMonthlyRateLabel": "Taxa de compliment: {month}",
   "achievementLegendAllTaken": "Tot",
   "achievementLegendPartiallyTaken": "Algunes",
   "achievementLegendNoneTaken": "Cap"

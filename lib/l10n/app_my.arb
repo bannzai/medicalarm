@@ -235,7 +235,7 @@
   "achievementWeeklyCountSuffix": "/{scheduledCount} ကြိမ်",
   "achievementStreakLabel": "ဆက်တိုက်မှတ်တမ်း",
   "achievementStreakDaysSuffix": "ရက်",
-  "achievementMonthlyRateLabel": "{month} အောင်မြင်မှုနှုန်း",
+  "achievementMonthlyRateLabel": "ပြီးမြောက်မှုနှုန်း: {month}",
   "achievementLegendAllTaken": "အားလုံး",
   "achievementLegendPartiallyTaken": "အချို့",
   "achievementLegendNoneTaken": "မရှိပါ"

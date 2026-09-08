@@ -235,7 +235,7 @@
   "achievementWeeklyCountSuffix": "/{scheduledCount} തവണ",
   "achievementStreakLabel": "തുടർച്ചയായ റെക്കോർഡ്",
   "achievementStreakDaysSuffix": "ദിവസം",
-  "achievementMonthlyRateLabel": "{month}-ലെ പൂർത്തീകരണ നിരക്ക്",
+  "achievementMonthlyRateLabel": "പൂർത്തീകരണ നിരക്ക്: {month}",
   "achievementLegendAllTaken": "എല്ലാം",
   "achievementLegendPartiallyTaken": "ചിലത്",
   "achievementLegendNoneTaken": "ഒന്നുമില്ല"

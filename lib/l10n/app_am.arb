@@ -235,7 +235,7 @@
   "achievementWeeklyCountSuffix": "/{scheduledCount} ጊዜ",
   "achievementStreakLabel": "ተከታታይ ስኬት",
   "achievementStreakDaysSuffix": "ቀናት",
-  "achievementMonthlyRateLabel": "የ{month} የመፈጸም መጠን",
+  "achievementMonthlyRateLabel": "የ{month} የማሳካት መጠን",
   "achievementLegendAllTaken": "ሁሉም",
   "achievementLegendPartiallyTaken": "ከፊል",
   "achievementLegendNoneTaken": "የለም"

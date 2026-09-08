@@ -235,7 +235,7 @@
   "achievementWeeklyCountSuffix": "/{scheduledCount} gange",
   "achievementStreakLabel": "Række",
   "achievementStreakDaysSuffix": "dage",
-  "achievementMonthlyRateLabel": "Gennemførelsesrate for {month}",
+  "achievementMonthlyRateLabel": "Gennemførelsesrate: {month}",
   "achievementLegendAllTaken": "Alle",
   "achievementLegendPartiallyTaken": "Nogle",
   "achievementLegendNoneTaken": "Ingen"

@@ -235,7 +235,7 @@
   "achievementWeeklyCountSuffix": "/{scheduledCount} жолу",
   "achievementStreakLabel": "Катарынан",
   "achievementStreakDaysSuffix": "күн",
-  "achievementMonthlyRateLabel": "{month} айынын аткаруу көрсөткүчү",
+  "achievementMonthlyRateLabel": "Аткаруу көрсөткүчү: {month}",
   "achievementLegendAllTaken": "Баары",
   "achievementLegendPartiallyTaken": "Айрым",
   "achievementLegendNoneTaken": "Жок"

@@ -235,7 +235,7 @@
   "achievementWeeklyCountSuffix": "/{scheduledCount} volte",
   "achievementStreakLabel": "Serie",
   "achievementStreakDaysSuffix": "giorni",
-  "achievementMonthlyRateLabel": "Percentuale di completamento di {month}",
+  "achievementMonthlyRateLabel": "Tasso di completamento: {month}",
   "achievementLegendAllTaken": "Tutti",
   "achievementLegendPartiallyTaken": "Alcune",
   "achievementLegendNoneTaken": "Nessuna"

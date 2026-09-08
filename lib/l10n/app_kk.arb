@@ -235,7 +235,7 @@
   "achievementWeeklyCountSuffix": "/{scheduledCount} рет",
   "achievementStreakLabel": "Қатарынан",
   "achievementStreakDaysSuffix": "күн",
-  "achievementMonthlyRateLabel": "{month} айындағы орындалу деңгейі",
+  "achievementMonthlyRateLabel": "Орындалу көрсеткіші: {month}",
   "achievementLegendAllTaken": "Барлығы",
   "achievementLegendPartiallyTaken": "Кейбірі",
   "achievementLegendNoneTaken": "Жоқ"

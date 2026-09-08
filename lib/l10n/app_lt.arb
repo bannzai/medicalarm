@@ -235,7 +235,7 @@
   "achievementWeeklyCountSuffix": "/{scheduledCount} kartus",
   "achievementStreakLabel": "Iš eilės",
   "achievementStreakDaysSuffix": "dienos",
-  "achievementMonthlyRateLabel": "{month} įvykdymo rodiklis",
+  "achievementMonthlyRateLabel": "Įvykdymo rodiklis: {month}",
   "achievementLegendAllTaken": "Visi",
   "achievementLegendPartiallyTaken": "Kai kurios",
   "achievementLegendNoneTaken": "Nėra"

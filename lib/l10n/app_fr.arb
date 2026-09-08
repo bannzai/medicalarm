@@ -235,7 +235,7 @@
   "achievementWeeklyCountSuffix": "/{scheduledCount} fois",
   "achievementStreakLabel": "Série",
   "achievementStreakDaysSuffix": "jours",
-  "achievementMonthlyRateLabel": "Taux de réussite de {month}",
+  "achievementMonthlyRateLabel": "Taux de suivi : {month}",
   "achievementLegendAllTaken": "Tous",
   "achievementLegendPartiallyTaken": "Certaines",
   "achievementLegendNoneTaken": "Aucune"

@@ -235,7 +235,7 @@
   "achievementWeeklyCountSuffix": "/{scheduledCount} mara",
   "achievementStreakLabel": "Mfululizo",
   "achievementStreakDaysSuffix": "siku",
-  "achievementMonthlyRateLabel": "Kiwango cha utimilifu cha {month}",
+  "achievementMonthlyRateLabel": "Kiwango cha utimilifu: {month}",
   "achievementLegendAllTaken": "Zote",
   "achievementLegendPartiallyTaken": "Baadhi",
   "achievementLegendNoneTaken": "Hakuna"

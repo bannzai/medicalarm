@@ -235,7 +235,7 @@
   "achievementWeeklyCountSuffix": "/{scheduledCount} ครั้ง",
   "achievementStreakLabel": "สถิติต่อเนื่อง",
   "achievementStreakDaysSuffix": "วัน",
-  "achievementMonthlyRateLabel": "อัตราความสำเร็จของ {month}",
+  "achievementMonthlyRateLabel": "อัตราการทำสำเร็จ: {month}",
   "achievementLegendAllTaken": "ทั้งหมด",
   "achievementLegendPartiallyTaken": "บางส่วน",
   "achievementLegendNoneTaken": "ไม่มี"

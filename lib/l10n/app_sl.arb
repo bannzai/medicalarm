@@ -235,7 +235,7 @@
   "achievementWeeklyCountSuffix": "/{scheduledCount}-krat",
   "achievementStreakLabel": "Niz",
   "achievementStreakDaysSuffix": "dni",
-  "achievementMonthlyRateLabel": "Stopnja doseganja za {month}",
+  "achievementMonthlyRateLabel": "Stopnja izpolnitve: {month}",
   "achievementLegendAllTaken": "Vse",
   "achievementLegendPartiallyTaken": "Nekatere",
   "achievementLegendNoneTaken": "Nobena"

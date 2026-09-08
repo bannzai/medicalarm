@@ -235,7 +235,7 @@
   "achievementWeeklyCountSuffix": "/{scheduledCount} անգամ",
   "achievementStreakLabel": "Շարք",
   "achievementStreakDaysSuffix": "օր",
-  "achievementMonthlyRateLabel": "{month}-ի կատարման ցուցանիշը",
+  "achievementMonthlyRateLabel": "Կատարման տոկոսը՝ {month}",
   "achievementLegendAllTaken": "Բոլորը",
   "achievementLegendPartiallyTaken": "Որոշ",
   "achievementLegendNoneTaken": "Չկա"

@@ -235,7 +235,7 @@
   "achievementWeeklyCountSuffix": "/{scheduledCount} ಬಾರಿ",
   "achievementStreakLabel": "ಸತತ ದಾಖಲೆ",
   "achievementStreakDaysSuffix": "ದಿನಗಳು",
-  "achievementMonthlyRateLabel": "{month}ರ ಸಾಧನೆ ಪ್ರಮಾಣ",
+  "achievementMonthlyRateLabel": "ಪೂರ್ಣಗೊಳಿಸುವಿಕೆಯ ದರ: {month}",
   "achievementLegendAllTaken": "ಎಲ್ಲವೂ",
   "achievementLegendPartiallyTaken": "ಕೆಲವು",
   "achievementLegendNoneTaken": "ಯಾವುದೂ ಇಲ್ಲ"

@@ -235,7 +235,7 @@
   "achievementWeeklyCountSuffix": "/{scheduledCount} वेळा",
   "achievementStreakLabel": "सलग नोंद",
   "achievementStreakDaysSuffix": "दिवस",
-  "achievementMonthlyRateLabel": "{month} चा पालन दर",
+  "achievementMonthlyRateLabel": "पूर्णतेचा दर: {month}",
   "achievementLegendAllTaken": "सर्व",
   "achievementLegendPartiallyTaken": "काही",
   "achievementLegendNoneTaken": "काहीही नाही"

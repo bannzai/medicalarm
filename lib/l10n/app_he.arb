@@ -235,7 +235,7 @@
   "achievementWeeklyCountSuffix": "/{scheduledCount} פעמים",
   "achievementStreakLabel": "רצף",
   "achievementStreakDaysSuffix": "ימים",
-  "achievementMonthlyRateLabel": "שיעור העמידה ביעדים עבור {month}",
+  "achievementMonthlyRateLabel": "שיעור השלמה: {month}",
   "achievementLegendAllTaken": "הכול",
   "achievementLegendPartiallyTaken": "חלק",
   "achievementLegendNoneTaken": "אין"

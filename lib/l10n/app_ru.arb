@@ -235,7 +235,7 @@
   "achievementWeeklyCountSuffix": "/{scheduledCount} раз",
   "achievementStreakLabel": "Серия",
   "achievementStreakDaysSuffix": "дней",
-  "achievementMonthlyRateLabel": "Показатель выполнения за {month}",
+  "achievementMonthlyRateLabel": "Показатель выполнения: {month}",
   "achievementLegendAllTaken": "Все",
   "achievementLegendPartiallyTaken": "Некоторые",
   "achievementLegendNoneTaken": "Нет"

@@ -235,7 +235,7 @@
   "achievementWeeklyCountSuffix": "/{scheduledCount} ori",
   "achievementStreakLabel": "Serie",
   "achievementStreakDaysSuffix": "zile",
-  "achievementMonthlyRateLabel": "Rata de realizare pentru {month}",
+  "achievementMonthlyRateLabel": "Rata de îndeplinire: {month}",
   "achievementLegendAllTaken": "Toate",
   "achievementLegendPartiallyTaken": "Unele",
   "achievementLegendNoneTaken": "Niciuna"

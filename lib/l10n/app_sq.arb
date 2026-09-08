@@ -235,7 +235,7 @@
   "achievementWeeklyCountSuffix": "/{scheduledCount} herë",
   "achievementStreakLabel": "Varg",
   "achievementStreakDaysSuffix": "ditë",
-  "achievementMonthlyRateLabel": "Shkalla e përmbushjes për {month}",
+  "achievementMonthlyRateLabel": "Shkalla e përmbushjes: {month}",
   "achievementLegendAllTaken": "Të gjitha",
   "achievementLegendPartiallyTaken": "Disa",
   "achievementLegendNoneTaken": "Asnjë"

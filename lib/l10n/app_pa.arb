@@ -235,7 +235,7 @@
   "achievementWeeklyCountSuffix": "/{scheduledCount} ਵਾਰ",
   "achievementStreakLabel": "ਲਗਾਤਾਰ ਰਿਕਾਰਡ",
   "achievementStreakDaysSuffix": "ਦਿਨ",
-  "achievementMonthlyRateLabel": "{month} ਦੀ ਪਾਲਣਾ ਦਰ",
+  "achievementMonthlyRateLabel": "ਪੂਰਤੀ ਦਰ: {month}",
   "achievementLegendAllTaken": "ਸਭ",
   "achievementLegendPartiallyTaken": "ਕੁਝ",
   "achievementLegendNoneTaken": "ਕੋਈ ਨਹੀਂ"

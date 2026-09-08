@@ -235,7 +235,7 @@
   "achievementWeeklyCountSuffix": "/{scheduledCount} Mal",
   "achievementStreakLabel": "Serie",
   "achievementStreakDaysSuffix": "Tage",
-  "achievementMonthlyRateLabel": "Erfüllungsrate für {month}",
+  "achievementMonthlyRateLabel": "Erfüllungsrate: {month}",
   "achievementLegendAllTaken": "Alle",
   "achievementLegendPartiallyTaken": "Einige",
   "achievementLegendNoneTaken": "Keine"

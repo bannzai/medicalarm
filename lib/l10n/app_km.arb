@@ -235,7 +235,7 @@
   "achievementWeeklyCountSuffix": "/{scheduledCount} ដង",
   "achievementStreakLabel": "កំណត់ត្រាបន្តបន្ទាប់",
   "achievementStreakDaysSuffix": "ថ្ងៃ",
-  "achievementMonthlyRateLabel": "អត្រាសម្រេចបានសម្រាប់ {month}",
+  "achievementMonthlyRateLabel": "អត្រាសម្រេចបាន៖ {month}",
   "achievementLegendAllTaken": "ទាំងអស់",
   "achievementLegendPartiallyTaken": "ខ្លះ",
   "achievementLegendNoneTaken": "គ្មាន"

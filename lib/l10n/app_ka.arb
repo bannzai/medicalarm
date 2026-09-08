@@ -235,7 +235,7 @@
   "achievementWeeklyCountSuffix": "/{scheduledCount}-ჯერ",
   "achievementStreakLabel": "ზედიზედ შესრულება",
   "achievementStreakDaysSuffix": "დღე",
-  "achievementMonthlyRateLabel": "{month}-ის შესრულების მაჩვენებელი",
+  "achievementMonthlyRateLabel": "შესრულების მაჩვენებელი: {month}",
   "achievementLegendAllTaken": "ყველა",
   "achievementLegendPartiallyTaken": "ზოგი",
   "achievementLegendNoneTaken": "არცერთი"

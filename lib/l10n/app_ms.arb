@@ -235,7 +235,7 @@
   "achievementWeeklyCountSuffix": "/{scheduledCount} kali",
   "achievementStreakLabel": "Berturut-turut",
   "achievementStreakDaysSuffix": "hari",
-  "achievementMonthlyRateLabel": "Kadar pematuhan bagi {month}",
+  "achievementMonthlyRateLabel": "Kadar pencapaian: {month}",
   "achievementLegendAllTaken": "Semua",
   "achievementLegendPartiallyTaken": "Sebahagian",
   "achievementLegendNoneTaken": "Tiada"

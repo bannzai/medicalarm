@@ -235,7 +235,7 @@
   "achievementWeeklyCountSuffix": "/{scheduledCount} بار",
   "achievementStreakLabel": "رکورد متوالی",
   "achievementStreakDaysSuffix": "روز",
-  "achievementMonthlyRateLabel": "نرخ پایبندی در {month}",
+  "achievementMonthlyRateLabel": "نرخ پایبندی: {month}",
   "achievementLegendAllTaken": "همه",
   "achievementLegendPartiallyTaken": "برخی",
   "achievementLegendNoneTaken": "هیچ‌کدام"

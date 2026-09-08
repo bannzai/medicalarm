@@ -235,7 +235,7 @@
   "achievementWeeklyCountSuffix": "/{scheduledCount} বাৰ",
   "achievementStreakLabel": "ধাৰাবাহিক ৰেকৰ্ড",
   "achievementStreakDaysSuffix": "দিন",
-  "achievementMonthlyRateLabel": "{month}ৰ সফলতাৰ হাৰ",
+  "achievementMonthlyRateLabel": "সম্পূৰ্ণতাৰ হাৰ: {month}",
   "achievementLegendAllTaken": "সকলো",
   "achievementLegendPartiallyTaken": "আংশিক",
   "achievementLegendNoneTaken": "একো নাই"

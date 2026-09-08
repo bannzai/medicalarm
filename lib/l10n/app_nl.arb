@@ -235,7 +235,7 @@
   "achievementWeeklyCountSuffix": "/{scheduledCount} keer",
   "achievementStreakLabel": "Reeks",
   "achievementStreakDaysSuffix": "dagen",
-  "achievementMonthlyRateLabel": "Voltooiingspercentage voor {month}",
+  "achievementMonthlyRateLabel": "Voltooiingspercentage: {month}",
   "achievementLegendAllTaken": "Alle",
   "achievementLegendPartiallyTaken": "Sommige",
   "achievementLegendNoneTaken": "Geen"

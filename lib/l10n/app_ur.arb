@@ -235,7 +235,7 @@
   "achievementWeeklyCountSuffix": "/{scheduledCount} بار",
   "achievementStreakLabel": "مسلسل ریکارڈ",
   "achievementStreakDaysSuffix": "دن",
-  "achievementMonthlyRateLabel": "{month} کی تکمیل کی شرح",
+  "achievementMonthlyRateLabel": "تکمیل کی شرح: {month}",
   "achievementLegendAllTaken": "سب",
   "achievementLegendPartiallyTaken": "کچھ",
   "achievementLegendNoneTaken": "کوئی نہیں"

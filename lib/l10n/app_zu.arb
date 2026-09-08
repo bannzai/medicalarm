@@ -235,7 +235,7 @@
   "achievementWeeklyCountSuffix": "/{scheduledCount} izikhathi",
   "achievementStreakLabel": "Uchungechunge",
   "achievementStreakDaysSuffix": "izinsuku",
-  "achievementMonthlyRateLabel": "Izinga lokufezekisa lika-{month}",
+  "achievementMonthlyRateLabel": "Izinga lokuqedwa: {month}",
   "achievementLegendAllTaken": "Konke",
   "achievementLegendPartiallyTaken": "Ezinye",
   "achievementLegendNoneTaken": "Lutho"
