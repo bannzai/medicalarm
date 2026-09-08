@@ -109,7 +109,7 @@
   "chestTightness": "Borsspanning",
   "insomnia": "Slapeloosheid",
   "monthlyPlanDiscountFormat": "{percent}% afslag teenoor maandeliks",
-  "purchaseErrorUnknown": "'n Onbekende fout het voorgekom. Probeer asseblief weer na 'n rukkie. As nie opgelos nie, kontak ons asseblief via Instellings > Navraag. Besonderhede: {message}",
+  "purchaseErrorUnknown": "Daar het ’n onbekende fout voorgekom. Probeer asseblief later weer. As die probleem voortduur, kontak ons via Instellings > Kontak. Besonderhede: {message}",
   "purchaseErrorStoreProblem": "Daar is 'n fout by {storeName}. Wag asseblief 'n bietjie en probeer weer.",
   "purchaseErrorInvalidPayment": "Die betaling het misluk. Kontroleer asseblief of dit 'n geldige betaalmetode is en probeer weer.",
   "purchaseErrorProductUnavailable": "Die betrokke plan is tans nie beskikbaar nie. Ons vra om verskoning, maar probeer asseblief om die app weer te begin.",

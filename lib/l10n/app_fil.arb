@@ -109,7 +109,7 @@
   "chestTightness": "Paninikip ng dibdib",
   "insomnia": "Hindi pagkakatulog",
   "monthlyPlanDiscountFormat": "{percent}% mas mura kaysa buwan-buwan",
-  "purchaseErrorUnknown": "Isang hindi natukoy na error ang nangyari. Mangyaring subukan muli pagkatapos ng ilang sandali. Kung hindi ito malulutas, mangyaring makipag-ugnay sa pamamagitan ng Mga Setting > Pagtatanong. Detalye: {message}",
+  "purchaseErrorUnknown": "May naganap na hindi kilalang error. Subukan muli pagkalipas ng ilang sandali. Kung hindi malutas ang problema, makipag-ugnayan sa amin sa Mga Setting > Makipag-ugnayan. Mga detalye: {message}",
   "purchaseErrorStoreProblem": "May naganap na error sa {storeName}. Mangyaring maghintay ng ilang sandali at subukang muli.",
   "purchaseErrorInvalidPayment": "Nabigo ang pagbabayad. Mangyaring suriin kung ang iyong paraan ng pagbabayad ay wasto at subukan muli.",
   "purchaseErrorProductUnavailable": "Ang piniling plano ay kasalukuyang hindi ibinibenta. Paumanhin, mangyaring i-restart ang app at subukan muli.",

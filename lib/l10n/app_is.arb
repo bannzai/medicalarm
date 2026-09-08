@@ -109,7 +109,7 @@
   "chestTightness": "Spennuþrýstingur",
   "insomnia": "Svefnleysi",
   "monthlyPlanDiscountFormat": "{percent}% afsláttur miðað við mánaðaráskrift",
-  "purchaseErrorUnknown": "Ókunnugur villa hefur komið fram. Vinsamlegast reyndu aftur síðar. Ef vandamálið er ekki leyst skaltu hafa samband í gegnum Stillingar > Fregnir. Nánar: {message}",
+  "purchaseErrorUnknown": "Óþekkt villa kom upp. Prófaðu aftur síðar. Ef vandamálið leysist ekki skaltu hafa samband við okkur í Stillingar > Hafðu samband. Upplýsingar: {message}",
   "purchaseErrorStoreProblem": "Villa {storeName} er villur. Vinsamlegast reyndu aftur síðar.",
   "purchaseErrorInvalidPayment": "Greiðslan mistókst. Vinsamlegast skaltu athuga hvort greiðsluaðferðin sé gild og reyndu aftur.",
   "purchaseErrorProductUnavailable": "Áætlunin er ekki til sölu núna. Vinsamlegast endurræstu appið og reyndu aftur.",

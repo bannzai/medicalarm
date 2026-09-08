@@ -109,7 +109,7 @@
   "chestTightness": "Напруження в грудях",
   "insomnia": "Безсоння",
   "monthlyPlanDiscountFormat": "Знижка {percent}% порівняно з місячним планом",
-  "purchaseErrorUnknown": "An unknown error has occurred. Please try again later. If the issue persists, please contact us through Settings > Inquiry. Details: {message}",
+  "purchaseErrorUnknown": "Сталася невідома помилка. Спробуйте ще раз пізніше. Якщо проблему не вирішено, зв’яжіться з нами через Налаштування > Контакти. Деталі: {message}",
   "purchaseErrorStoreProblem": "An error has occurred at {storeName}. Please wait a moment and try again.",
   "purchaseErrorInvalidPayment": "Payment failed. Please check if you have a valid payment method and try again.",
   "purchaseErrorProductUnavailable": "The specified plan is currently not available for sale. We apologize for the inconvenience, but please restart the app and try again.",

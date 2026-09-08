@@ -109,7 +109,7 @@
   "chestTightness": "Tensión mamaria",
   "insomnia": "Insomnio",
   "monthlyPlanDiscountFormat": "{percent}% de descuento frente al plan mensual",
-  "purchaseErrorUnknown": "Se ha producido un error desconocido. Por favor, inténtelo de nuevo más tarde. Si el problema persiste, contáctenos a través de Configuración > Consultas. Detalles: {message}",
+  "purchaseErrorUnknown": "Se produjo un error desconocido. Inténtalo de nuevo más tarde. Si el problema persiste, ponte en contacto con nosotros desde Ajustes > Contacto. Detalles: {message}",
   "purchaseErrorStoreProblem": "Se ha producido un error en {storeName}. Por favor, espere un momento y vuelva a intentarlo.",
   "purchaseErrorInvalidPayment": "El pago ha fallado. Por favor, verifique si su método de pago es válido e intente de nuevo.",
   "purchaseErrorProductUnavailable": "El plan objetivo no está actualmente a la venta. Por favor, reinicie la aplicación e inténtelo de nuevo.",

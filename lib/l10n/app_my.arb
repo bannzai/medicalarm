@@ -109,7 +109,7 @@
   "chestTightness": "ရင်သားတင်းကျပ်ခြင်း",
   "insomnia": "အိပ်မပျော်ခြင်း",
   "monthlyPlanDiscountFormat": "လစဉ်အစီအစဉ်ထက် {percent}% လျှော့စျေး",
-  "purchaseErrorUnknown": "Ralat tidak diketahui telah berlaku. Sila tunggu sebentar dan cuba lagi. Jika masalah ini berlanjutan, sila hubungi kami melalui Tetapan > Pertanyaan. Maklumat lanjut: {message}",
+  "purchaseErrorUnknown": "အမည်မသိ အမှားတစ်ခု ဖြစ်ပေါ်ခဲ့သည်။ ခဏကြာပြီးနောက် ထပ်မံကြိုးစားပါ။ ပြဿနာမပြေလည်ပါက ဆက်တင်များ > ဆက်သွယ်ရန်မှတစ်ဆင့် ကျွန်ုပ်တို့ထံ ဆက်သွယ်ပါ။ အသေးစိတ်: {message}",
   "purchaseErrorStoreProblem": "Error berlaku di {storeName}. Sila tunggu sebentar dan cuba lagi.",
   "purchaseErrorInvalidPayment": "Pembayaran gagal. Sila semak sama ada kaedah pembayaran anda sah dan cuba lagi.",
   "purchaseErrorProductUnavailable": "Rancangan yang dipilih tidak tersedia untuk dijual pada masa ini. Sila mulakan semula aplikasi dan cuba lagi.",

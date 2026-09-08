@@ -109,7 +109,7 @@
   "chestTightness": "Brustspanna",
   "insomnia": "Schlaflosigkeit",
   "monthlyPlanDiscountFormat": "{percent}% Rabatt gegenüber monatlich",
-  "purchaseErrorUnknown": "Es isch e unerklärlichs Fehler aufgetreten. Bitte versuech's später no einisch. Wenn es nöd gelöst wird, kontaktier bitte über Einstellungen > Kontakt. Details: {message}",
+  "purchaseErrorUnknown": "E unbekannte Fähler isch uftrete. Bitte probiere es spöter nomol. Wenn s Problem wiiterbestoht, kontaktiere üs über Iistellige > Kontakt. Details: {message}",
   "purchaseErrorStoreProblem": "Es isch e Fehler bi {storeName} aufgetrete. Bitte versuech ä chli zuewarte und es nomol probiere.",
   "purchaseErrorInvalidPayment": "D'Zahlung isch nöd geglückt. Bitte überprüefe Sie, öb e gültigi Zahlungsmethode vorliegt, und versueche Sie es nomal.",
   "purchaseErrorProductUnavailable": "Dä Betreff-Plän isch zur Zet nüt verfügbar. Bitte startä Sie d'App nöi und probierä Sie et nochmal.",

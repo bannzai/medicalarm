@@ -109,7 +109,7 @@
   "chestTightness": "Napetost u grudima",
   "insomnia": "Nesanica",
   "monthlyPlanDiscountFormat": "{percent}% popusta u odnosu na mjesečni plan",
-  "purchaseErrorUnknown": "Dogodila se greška nepoznatog uzroka. Molimo pokušajte ponovo nakon nekoliko minuta. Ako se problem ne reši, kontaktirajte nas putem Podešavanja > Upit. Detalji: {message}",
+  "purchaseErrorUnknown": "Došlo je do nepoznate greške. Pokušajte ponovo kasnije. Ako problem i dalje postoji, kontaktirajte nas putem Postavke > Kontakt. Detalji: {message}",
   "purchaseErrorStoreProblem": "Dogodila se greška u {storeName}. Molimo pokušajte ponovo za nekoliko minuta.",
   "purchaseErrorInvalidPayment": "Plaćanje je neuspjelo. Molimo provjerite da li je metoda plaćanja važeća i pokušajte ponovo.",
   "purchaseErrorProductUnavailable": "Trenutni plan nije dostupan za prodaju. Molimo vas da ponovo pokrenete aplikaciju i pokušate ponovo.",

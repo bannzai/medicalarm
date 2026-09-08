@@ -109,7 +109,7 @@
   "chestTightness": "Napetost v dojkah",
   "insomnia": "Nespečnost",
   "monthlyPlanDiscountFormat": "{percent}% ceneje kot mesečni paket",
-  "purchaseErrorUnknown": "Prišlo je do neznane napake. Počakajte nekaj časa in poskusite znova. Če težave ne odpravite, se obrnite na nas preko Nastavitve > Poizvedba. Podrobnosti: {message}",
+  "purchaseErrorUnknown": "Prišlo je do neznane napake. Poskusite znova pozneje. Če težava ne bo odpravljena, nas kontaktirajte v Nastavitve > Stik. Podrobnosti: {message}",
   "purchaseErrorStoreProblem": "Prišlo je do napake v {storeName}. Poskusite znova čez nekaj časa.",
   "purchaseErrorInvalidPayment": "Plačilo ni uspelo. Preverite, ali je metoda plačila veljavna, in poskusite znova.",
   "purchaseErrorProductUnavailable": "Izbrani načrt trenutno ni na voljo. Opravičujemo se za nevšečnosti, vendar prosimo, da znova zaženete aplikacijo in poskusite znova.",

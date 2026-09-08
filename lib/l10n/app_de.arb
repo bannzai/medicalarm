@@ -109,7 +109,7 @@
   "chestTightness": "Brustspannen",
   "insomnia": "Schlaflosigkeit",
   "monthlyPlanDiscountFormat": "{percent}% günstiger als monatlich",
-  "purchaseErrorUnknown": "Ein unbekannter Fehler ist aufgetreten. Bitte versuchen Sie es später erneut. Wenn das Problem weiterhin besteht, kontaktieren Sie uns bitte über Einstellungen > Kontakt. Einzelheiten: {message}",
+  "purchaseErrorUnknown": "Ein unbekannter Fehler ist aufgetreten. Bitte versuchen Sie es später erneut. Wenn das Problem weiterhin besteht, kontaktieren Sie uns über Einstellungen > Kontakt. Details: {message}",
   "purchaseErrorStoreProblem": "Es ist ein Fehler im {storeName} aufgetreten. Bitte warten Sie eine Weile und versuchen Sie es erneut.",
   "purchaseErrorInvalidPayment": "Die Zahlung ist fehlgeschlagen. Bitte überprüfen Sie, ob Ihre Zahlungsmethode gültig ist, und versuchen Sie es erneut.",
   "purchaseErrorProductUnavailable": "Dieser Plan ist derzeit nicht erhältlich. Bitte starten Sie die App neu und versuchen Sie es erneut.",

@@ -109,7 +109,7 @@
   "chestTightness": "Breast tenderness",
   "insomnia": "Insomnia",
   "monthlyPlanDiscountFormat": "{percent}% off monthly",
-  "purchaseErrorUnknown": "An unknown error has occurred. Please wait and try again. If the problem persists, please contact us from Settings > Inquiry. Details: {message}",
+  "purchaseErrorUnknown": "An unknown error occurred. Please try again later. If the problem persists, contact us via Settings > Contact. Details: {message}",
   "purchaseErrorStoreProblem": "An error has occurred at {storeName}. Please wait a moment and try again.",
   "purchaseErrorInvalidPayment": "Payment failed. Please check if your payment method is valid and try again.",
   "purchaseErrorProductUnavailable": "The target plan is currently not available for purchase. Please try restarting the app.",

@@ -109,7 +109,7 @@
   "chestTightness": "Payudara terasa tegang",
   "insomnia": "Insomnia",
   "monthlyPlanDiscountFormat": "Diskaun {percent}% berbanding pelan bulanan",
-  "purchaseErrorUnknown": "Ralat yang tidak diketahui telah berlaku. Sila cuba lagi selepas beberapa ketika. Jika masalah ini berlanjutan, sila hubungi kami melalui Pengaturan > Pertanyaan. Maklumat lanjut: {message}",
+  "purchaseErrorUnknown": "Ralat yang tidak diketahui berlaku. Sila cuba lagi kemudian. Jika masalah berterusan, hubungi kami melalui Tetapan > Hubungi Kami. Butiran: {message}",
   "purchaseErrorStoreProblem": "Ralat berlaku di {storeName}. Sila tunggu seketika dan cuba lagi.",
   "purchaseErrorInvalidPayment": "Pembayaran gagal. Sila semak sama ada kaedah pembayaran anda adalah sah sebelum cuba lagi.",
   "purchaseErrorProductUnavailable": "Pelan yang dimaksud tidak tersedia untuk dijual pada masa ini. Silakan tutup aplikasi dan coba lagi.",

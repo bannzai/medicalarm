@@ -109,7 +109,7 @@
   "chestTightness": "Căng tức ngực",
   "insomnia": "Mất ngủ",
   "monthlyPlanDiscountFormat": "Giảm {percent}% so với gói hàng tháng",
-  "purchaseErrorUnknown": "Đã xảy ra lỗi không rõ nguyên nhân. Vui lòng thử lại sau một thời gian. Nếu vấn đề không được giải quyết, vui lòng liên hệ qua Cài đặt > Hỗ trợ. Chi tiết: {message}",
+  "purchaseErrorUnknown": "Đã xảy ra lỗi không xác định. Vui lòng thử lại sau. Nếu vấn đề vẫn tiếp diễn, hãy liên hệ với chúng tôi tại Cài đặt > Liên hệ. Chi tiết: {message}",
   "purchaseErrorStoreProblem": "Đã xảy ra lỗi tại {storeName}. Vui lòng đợi một chút và thử lại.",
   "purchaseErrorInvalidPayment": "Thanh toán không thành công. Vui lòng kiểm tra xem phương thức thanh toán có hợp lệ hay không và thử lại.",
   "purchaseErrorProductUnavailable": "Gói dịch vụ này hiện không có sẵn. Xin vui lòng khởi động lại ứng dụng và thử lại.",

@@ -109,7 +109,7 @@
   "chestTightness": "Krūšu jutīgums",
   "insomnia": "Bezmiegs",
   "monthlyPlanDiscountFormat": "Par {percent}% lētāk nekā mēneša plāns",
-  "purchaseErrorUnknown": "Radās nezināma kļūda. Lūdzu, mēģiniet vēlreiz pēc kāda laika. Ja problēma joprojām pastāv, sazinieties ar mums, dodoties uz Iestatījumi > Jautājumi. Detalizēti: {message}",
+  "purchaseErrorUnknown": "Radās nezināma kļūda. Lūdzu, mēģiniet vēlreiz vēlāk. Ja problēma joprojām pastāv, sazinieties ar mums sadaļā Iestatījumi > Kontakti. Detalizēta informācija: {message}",
   "purchaseErrorStoreProblem": "{storeName} ir radusies kļūda. Lūdzu, pagaidiet brīdi un mēģiniet vēlreiz.",
   "purchaseErrorInvalidPayment": "Maksājums neizdevās. Lūdzu, pārbaudiet, vai maksājuma veids ir derīgs, un mēģiniet vēlreiz.",
   "purchaseErrorProductUnavailable": "Norādītais plāns šobrīd netiek pārdots. Lūdzu, restartējiet lietotni un mēģiniet vēlreiz.",

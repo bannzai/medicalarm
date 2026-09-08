@@ -109,7 +109,7 @@
   "chestTightness": "Bularretako tentsioa",
   "insomnia": "Insomnioa",
   "monthlyPlanDiscountFormat": "%{percent}eko deskontua hileko planarekin alderatuta",
-  "purchaseErrorUnknown": "Ezarpen ezezaguna gertatu da. Itxaroten itzultzean saiatu mesedez. Ezarri > Kontsulta bidez jarri kontaktuan ez bada konpontzen. Xehetasunak: {message}",
+  "purchaseErrorUnknown": "Errore ezezagun bat gertatu da. Saiatu berriro geroago. Arazoak jarraitzen badu, jar zaitez gurekin harremanetan Ezarpenak > Kontaktua ataletik. Xehetasunak: {message}",
   "purchaseErrorStoreProblem": "{storeName}n errore bat gertatu da. Mesedez, itxaron batzuetan eta saiatu berriro.",
   "purchaseErrorInvalidPayment": "Orda ezin izan da. Mesedez, egiaztatu ordainketa-metodoa baliogarria den eta saiatu berriro.",
   "purchaseErrorProductUnavailable": "Ezin da ekoizpen plan hori eskuratu. Mesedez, berriz abiarazi aplikazioa eta saiatu berriro.",

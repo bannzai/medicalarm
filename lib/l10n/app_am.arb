@@ -109,7 +109,7 @@
   "chestTightness": "የጡት መጨናነቅ",
   "insomnia": "Անքնություն",
   "monthlyPlanDiscountFormat": "{percent}% ከወርሃዊ ያነሰ",
-  "purchaseErrorUnknown": "በዚህ የተደረገ የመረጃ እቅፍ ይኖርበታል። ጊዜውን እና እንደገና ይሞክሩ። እንደሚታይ ያልተፈጸመ ከሆነ እባኮትን ወደ ቅንብር > እንደገና መግለጫ ይደርሱ። ዝርዝር: {message}",
+  "purchaseErrorUnknown": "ያልታወቀ ስህተት ተከስቷል። እባክዎ ቆይተው እንደገና ይሞክሩ። ችግሩ ካልተፈታ፣ በቅንብሮች > አግኙን በኩል ያነጋግሩን። ዝርዝሮች፦ {message}",
   "purchaseErrorStoreProblem": "{storeName} ውስጥ ግድም ተከስቷል። እ παρα አነሰ ጊዜ ይቀይሩና እንደገና ይሞክሩ።",
   "purchaseErrorInvalidPayment": "እቅፍ ያልተደረገባት ነው። እባኮትን የተጠቃሚ አስተዳደር እና የቅዱስ ሰነድ የሚጠቀም የወንድም እቅፍ ያልተደረገባት ማስጠንቀቅ ይፈቅድ።",
   "purchaseErrorProductUnavailable": "እቅፍ የሚታይ እቅፍ አሁን የሚሸጥ አይደለም። እቅፍ ይድረስ ማለት እባክህ አፕ ድግግሞ አሟላ ይሞከሩ።",

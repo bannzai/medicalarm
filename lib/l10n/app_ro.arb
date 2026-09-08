@@ -109,7 +109,7 @@
   "chestTightness": "Tensiune la nivelul sânilor",
   "insomnia": "Insomnie",
   "monthlyPlanDiscountFormat": "{percent}% reducere față de planul lunar",
-  "purchaseErrorUnknown": "A apărut o eroare necunoscută. Vă rugăm să așteptați și să încercați din nou. Dacă problema persistă, vă rugăm să ne contactați din Setări > Întrebare. Detalii: {message}",
+  "purchaseErrorUnknown": "A apărut o eroare necunoscută. Încercați din nou mai târziu. Dacă problema persistă, contactați-ne din Setări > Contact. Detalii: {message}",
   "purchaseErrorStoreProblem": "A apărut o eroare la {storeName}. Te rugăm să aștepți câteva momente și să încerci din nou.",
   "purchaseErrorInvalidPayment": "Plata a eșuat. Verificați dacă metoda de plată este validă și încercați din nou.",
   "purchaseErrorProductUnavailable": "Planul vizat nu este disponibil în prezent. Vă rugăm să reporniți aplicația și să încercați din nou.",

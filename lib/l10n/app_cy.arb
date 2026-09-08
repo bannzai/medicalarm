@@ -109,7 +109,7 @@
   "chestTightness": "Tyndra yn y fron",
   "insomnia": "Insomnia",
   "monthlyPlanDiscountFormat": "{percent}% i ffwrdd o gymharu â’r cynllun misol",
-  "purchaseErrorUnknown": "Mae gwall anhysbys wedi digwydd. Os gwelwch yn dda rhowch amser a phrofwch eto. Os nad yw'n cael ei ddatrys, cysylltwch â ni trwy fynd i Ddewisiadau > Cysylltiad. Manylion: {message}",
+  "purchaseErrorUnknown": "Digwyddodd gwall anhysbys. Rhowch gynnig arall arni yn nes ymlaen. Os na chaiff y broblem ei datrys, cysylltwch â ni drwy Gosodiadau > Cysylltu â ni. Manylion: {message}",
   "purchaseErrorStoreProblem": "Mae gwall wedi digwydd yn {storeName}. Os gwelwch yn dda, aroswch am ychydig a cheisiwch eto.",
   "purchaseErrorInvalidPayment": "Methiant y talu. Gwiriwch a yw'r dull talu a ddefnyddiwch yn ddilys cyn trio eto.",
   "purchaseErrorProductUnavailable": "Nid yw'r cynllun penodol ar gael ar hyn o bryd. Mae'n ddrwg gennyf, ond rhowch gynnig arno ar ôl ailgychwyn yr ap.",

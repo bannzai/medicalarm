@@ -109,7 +109,7 @@
   "chestTightness": "Tendosje në gjoks",
   "insomnia": "Pagjumësi",
   "monthlyPlanDiscountFormat": "{percent}% zbritje krahasuar me planin mujor",
-  "purchaseErrorUnknown": "Ka një gabim të panjohur. Ju lutemi provoni përsëri më vonë. Nëse problemi vazhdon, ju lutemi kontaktoni përmes Cilësimeve > Kontakt. Detaje: {message}",
+  "purchaseErrorUnknown": "Ndodhi një gabim i panjohur. Provo përsëri më vonë. Nëse problemi vazhdon, na kontakto te Cilësimet > Kontakti. Detaje: {message}",
   "purchaseErrorStoreProblem": "Ka ndodhi një gabim në {storeName}. Ju lutemi prisni pak dhe provoni përsëri.",
   "purchaseErrorInvalidPayment": "Pagesa dështoi. Ju lutemi kontrolloni nëse mënyra e pagesës është e vlefshme dhe provoni përsëri.",
   "purchaseErrorProductUnavailable": "Plani i synuar aktualisht nuk është në shitje. Ju lutemi, rindizni aplikacionin dhe përpiquni përsëri.",

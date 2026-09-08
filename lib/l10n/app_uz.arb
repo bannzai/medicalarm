@@ -109,7 +109,7 @@
   "chestTightness": "Ko‘krakdagi taranglik",
   "insomnia": "Uyqusizlik",
   "monthlyPlanDiscountFormat": "Oylik rejaga nisbatan {percent}% chegirma",
-  "purchaseErrorUnknown": "Noma'lum xato ro'y berdi. Iltimos, biroz kuting va yana urving. Agar muammo hal bo'lmasa, Sozlamalar > Murojaat orqali biz bilan bog'laning. Tafsilotlar: {message}",
+  "purchaseErrorUnknown": "Noma’lum xatolik yuz berdi. Birozdan so‘ng qayta urinib ko‘ring. Muammo hal bo‘lmasa, Sozlamalar > Bog‘lanish bo‘limi orqali biz bilan bog‘laning. Tafsilotlar: {message}",
   "purchaseErrorStoreProblem": "{storeName}da xatolik yuz berdi. Iltimos, bir oz vaqt kutib yana urinib ko'ring.",
   "purchaseErrorInvalidPayment": "To'lov amalga oshirilmadi. Iltimos, to'lov usulining haqiqiyligini tekshirib, qayta urinib ko'ring.",
   "purchaseErrorProductUnavailable": "Hozirda maqsadli rejalar mavjud emas. Iltimos, ilovani qayta ishga tushirib ko'ring.",

@@ -109,7 +109,7 @@
   "chestTightness": "Spente bryster",
   "insomnia": "Søvnløshet",
   "monthlyPlanDiscountFormat": "{percent}% rabatt sammenlignet med månedsplanen",
-  "purchaseErrorUnknown": "Det oppstod en feil av ukjent årsak. Vennligst prøv igjen senere. Hvis problemet vedvarer, ta kontakt via Innstillinger > Kontakt. Detaljer: {message}",
+  "purchaseErrorUnknown": "Det oppstod en ukjent feil. Prøv igjen senere. Hvis problemet vedvarer, kan du kontakte oss via Innstillinger > Kontakt. Detaljer: {message}",
   "purchaseErrorStoreProblem": "Det har oppstått en feil hos {storeName}. Vennligst vent en stund og prøv igjen.",
   "purchaseErrorInvalidPayment": "Betalingen mislyktes. Vennligst sjekk om betalingsmetoden er gyldig og prøv igjen.",
   "purchaseErrorProductUnavailable": "Den aktuelle planen er ikke tilgjengelig for salg. Vi ber om unnskyldning, men vennligst start appen på nytt og prøv igjen.",

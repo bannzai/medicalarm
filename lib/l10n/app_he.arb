@@ -109,7 +109,7 @@
   "chestTightness": "רגישות בשדיים",
   "insomnia": "נדודי שינה",
   "monthlyPlanDiscountFormat": "{percent}% הנחה לעומת התוכנית החודשית",
-  "purchaseErrorUnknown": "אירעה שגיאה בלתי ידועה. אנא המתן מעט ונסה שוב. אם הבעיה לא נפתרת, פנה אלינו דרך הגדרות > פנייה. פרטים: {message}",
+  "purchaseErrorUnknown": "אירעה שגיאה לא ידועה. נסו שוב מאוחר יותר. אם הבעיה נמשכת, פנו אלינו דרך הגדרות > יצירת קשר. פרטים: {message}",
   "purchaseErrorStoreProblem": "שגיאה מתרחשת ב-{storeName}. אנא המתן זמן מה ונסו שוב.",
   "purchaseErrorInvalidPayment": "שילוב התשלום נכשל. אנא ודא שזהו אמצעי תשלום תקף ונסה שוב.",
   "purchaseErrorProductUnavailable": "המסלול המיועד אינו זמין כרגע. אנו מתנצלים, אנא נסה מחדש על ידי הפעלת האפליקציה מחדש.",
