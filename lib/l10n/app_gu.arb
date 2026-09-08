@@ -89,7 +89,7 @@
   "doseReceiverRegistrationLimit": "નોંધાયેલા દવા લેનારા લોકોની સંખ્યા",
   "notificationScheduleLimit": "સૂચના શેડ્યૂલની સંખ્યા",
   "addMedicine": "દવા ઉમેરો",
-  "medicineMaxCount": "আপણે {count}টি સુધીમાં દવા નોંધાવી શકો છો.",
+  "medicineMaxCount": "તમે વધુમાં વધુ {count} દવાઓ નોંધાવી શકો છો.",
   "increaseMedicineLimitWithPremium": "પ્રિમિયમ યોજનામાં {count} સુધીની લિમિટ વધારાં",
   "aboutApp": "એપ્લિકેશન વિશે",
   "viewPremiumPlan": "પ્રીમિયમ યોજના જુઓ",

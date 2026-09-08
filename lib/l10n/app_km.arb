@@ -89,7 +89,7 @@
   "doseReceiverRegistrationLimit": "ចំនួនអ្នកប្រើថ្នាំដែលបានចុះឈ្មោះ",
   "notificationScheduleLimit": "ចំនួនកាលវិភាគការជូនដំណឹង",
   "addMedicine": "បន្ថែមថ្នាំ",
-  "medicineMaxCount": "សារពើភ័ណ្ឌឱសថ អាចចុះឈ្មោះបាន ដល់ {count} នាក់។",
+  "medicineMaxCount": "អ្នកអាចចុះឈ្មោះថ្នាំបានរហូតដល់ {count} មុខ។",
   "increaseMedicineLimitWithPremium": "បង្កើនចំនួនអតិបរមាដល់ {count} ជាមួយគម្រោង Premium",
   "aboutApp": "អំពីកម្មវិធី",
   "viewPremiumPlan": "មើលផែនការ​ព្រីមៀម",

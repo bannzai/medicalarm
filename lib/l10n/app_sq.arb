@@ -89,7 +89,7 @@
   "doseReceiverRegistrationLimit": "numri i personave të regjistruar që marrin ilaçe",
   "notificationScheduleLimit": "Numri i orareve të njoftimeve",
   "addMedicine": "Shto ilaç",
-  "medicineMaxCount": "Mundësi për regjistrimin e deri në {count} ilaçe.",
+  "medicineMaxCount": "Mund të regjistroni deri në {count} ilaçe.",
   "increaseMedicineLimitWithPremium": "Shkalla premium e rrit kufirin në {count}",
   "aboutApp": "Për Shkëmbimin e Aplikacionit",
   "viewPremiumPlan": "Shiko planin premium",

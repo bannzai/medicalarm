@@ -89,7 +89,7 @@
   "doseReceiverRegistrationLimit": "inani labantu ababhalisiwe abasebenzisa imithi",
   "notificationScheduleLimit": "Inani lamashejuli ezaziso",
   "addMedicine": "Engeza umuthi",
-  "medicineMaxCount": "Ungaphezulu kwemithi {count} ungayibhalisa.",
+  "medicineMaxCount": "Ungabhalisa imithi efika ku-{count}.",
   "increaseMedicineLimitWithPremium": "Phakanyiswa uhlelo lwe-Premium ukuze wandise umkhawulo ukuze u-{count}",
   "aboutApp": "Mayelana ne-app",
   "viewPremiumPlan": "Buka uHlelo lwePremium",

@@ -89,7 +89,7 @@
   "doseReceiverRegistrationLimit": "катталган дары ичкен адамдардын саны",
   "notificationScheduleLimit": "Билдирмелердин графиктеринин саны",
   "addMedicine": "Дары кошуу",
-  "medicineMaxCount": "Дары {count} жыттен катталса болот.",
+  "medicineMaxCount": "Эң көп дегенде {count} дары каттай аласыз.",
   "increaseMedicineLimitWithPremium": "Премиум планына катышуу менен максимумду {count} га жакындатуу",
   "aboutApp": "Килемчилик",
   "viewPremiumPlan": "Премиум пландарын көрүү",

@@ -89,7 +89,7 @@
   "doseReceiverRegistrationLimit": "ro‘yxatdan o‘tgan dori qabul qiluvchilar soni",
   "notificationScheduleLimit": "Bildirishnomalar jadvallari soni",
   "addMedicine": "Dori qo‘shish",
-  "medicineMaxCount": "Dori  {count} ta giyohni ro'yxatdan o'tkazishingiz mumkin.",
+  "medicineMaxCount": "Siz ko‘pi bilan {count} ta dori ro‘yxatdan o‘tkazishingiz mumkin.",
   "increaseMedicineLimitWithPremium": "Premium rejasi bilan cheklovni {count} ga oshirish",
   "aboutApp": "Ilova haqida",
   "viewPremiumPlan": "Premium rejimini ko'ring",

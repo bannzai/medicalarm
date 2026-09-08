@@ -89,7 +89,7 @@
   "doseReceiverRegistrationLimit": "kayıtlı ilaç kullanan kişi sayısı",
   "notificationScheduleLimit": "Bildirim planı sayısı",
   "addMedicine": "İlaç ekle",
-  "medicineMaxCount": "İlaç sayısı {count} adet ile sınırlıdır.",
+  "medicineMaxCount": "En fazla {count} ilaç kaydedebilirsiniz.",
   "increaseMedicineLimitWithPremium": "Premium plan ile limitinizi {count} olarak artırın.",
   "aboutApp": "Uygulama Hakkında",
   "viewPremiumPlan": "Premium planı görüntüle",

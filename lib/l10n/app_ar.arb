@@ -89,7 +89,7 @@
   "doseReceiverRegistrationLimit": "عدد الأشخاص المسجلين الذين يتناولون الأدوية",
   "notificationScheduleLimit": "عدد جداول الإشعارات",
   "addMedicine": "إضافة دواء",
-  "medicineMaxCount": "يمكنك تسجيل حتى {count} دواء.",
+  "medicineMaxCount": "يمكنك تسجيل ما يصل إلى {count} من الأدوية.",
   "increaseMedicineLimitWithPremium": "قم بزيادة الحد الأقصى إلى {count} مع خطة البريميوم",
   "aboutApp": "حول التطبيق",
   "viewPremiumPlan": "عرض خطة البريميوم",

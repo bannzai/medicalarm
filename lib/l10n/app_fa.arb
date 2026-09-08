@@ -89,7 +89,7 @@
   "doseReceiverRegistrationLimit": "تعداد افراد ثبت‌شده‌ای که دارو مصرف می‌کنند",
   "notificationScheduleLimit": "تعداد برنامه‌های اعلان",
   "addMedicine": "افزودن دارو",
-  "medicineMaxCount": "شما می‌توانید حداکثر {count} دارو ثبت کنید.",
+  "medicineMaxCount": "می‌توانید حداکثر {count} دارو ثبت کنید.",
   "increaseMedicineLimitWithPremium": "با برنامه پریمیوم، حداکثر تعداد را به {count} افزایش دهید.",
   "aboutApp": "درباره برنامه",
   "viewPremiumPlan": "نمایش طرح پریمیوم",

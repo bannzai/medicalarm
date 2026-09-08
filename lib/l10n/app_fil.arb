@@ -89,7 +89,7 @@
   "doseReceiverRegistrationLimit": "bilang ng mga rehistradong umiinom ng gamot",
   "notificationScheduleLimit": "Bilang ng mga iskedyul ng notification",
   "addMedicine": "Magdagdag ng gamot",
-  "medicineMaxCount": "Maaari kang magrehistro ng hanggang {count} na gamot.",
+  "medicineMaxCount": "Maaari kang magrehistro ng hanggang {count} gamot.",
   "increaseMedicineLimitWithPremium": "Itakdang itataas ang limitasyon sa pagrehistro ng gamot sa premium plan sa {count}.",
   "aboutApp": "Tungkol sa App",
   "viewPremiumPlan": "Tingnan ang Premium Plan",

@@ -89,7 +89,7 @@
   "doseReceiverRegistrationLimit": "die aantal geregistreerde persone wat medikasie gebruik",
   "notificationScheduleLimit": "Aantal kennisgewingskedules",
   "addMedicine": "Voeg medikasie by",
-  "medicineMaxCount": "U kan tot {count} medisyne registreer.",
+  "medicineMaxCount": "Jy kan tot {count} medisyne registreer.",
   "increaseMedicineLimitWithPremium": "Verhoog die limiet tot {count} met die premium plan",
   "aboutApp": "Oor die toepassing",
   "viewPremiumPlan": "Kyk Premium-plan",

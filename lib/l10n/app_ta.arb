@@ -89,7 +89,7 @@
   "doseReceiverRegistrationLimit": "பதிவு செய்யப்பட்ட மருந்து உட்கொள்பவர்களின் எண்ணிக்கை",
   "notificationScheduleLimit": "அறிவிப்பு அட்டவணைகளின் எண்ணிக்கை",
   "addMedicine": "மருந்தைச் சேர்க்கவும்",
-  "medicineMaxCount": "நீங்கள் {count} மருந்துகளை பதிவு செய்யலாம்.",
+  "medicineMaxCount": "நீங்கள் அதிகபட்சம் {count} மருந்துகளைப் பதிவு செய்யலாம்.",
   "increaseMedicineLimitWithPremium": "பிரீமியம் திட்டத்தில் வரம்புகளை {count} என அதிகரிக்கவும்",
   "aboutApp": "பயன்பாட்டைப் பற்றி",
   "viewPremiumPlan": "அதிகார அம்சங்களைப் பார்க்கவும்",

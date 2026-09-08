@@ -89,7 +89,7 @@
   "doseReceiverRegistrationLimit": "кількість зареєстрованих людей, які приймають ліки",
   "notificationScheduleLimit": "Кількість розкладів сповіщень",
   "addMedicine": "Додати ліки",
-  "medicineMaxCount": "You can register up to {count} medications.",
+  "medicineMaxCount": "Можна зареєструвати до {count} ліків.",
   "increaseMedicineLimitWithPremium": "Increase the limit to {count} with the premium plan",
   "aboutApp": "About the App",
   "viewPremiumPlan": "View Premium Plan",

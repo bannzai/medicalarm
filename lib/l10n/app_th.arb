@@ -89,7 +89,7 @@
   "doseReceiverRegistrationLimit": "จำนวนผู้ที่ลงทะเบียนและรับประทานยา",
   "notificationScheduleLimit": "จำนวนกำหนดการแจ้งเตือน",
   "addMedicine": "เพิ่มยา",
-  "medicineMaxCount": "คุณสามารถลงทะเบียนยาได้สูงสุด {count} ชนิด",
+  "medicineMaxCount": "คุณสามารถลงทะเบียนยาได้สูงสุด {count} รายการ",
   "increaseMedicineLimitWithPremium": "เพิ่มขีดจำกัดเป็น {count} ในแผนพรีเมียม",
   "aboutApp": "เกี่ยวกับแอป",
   "viewPremiumPlan": "ดูแผนพรีเมียม",

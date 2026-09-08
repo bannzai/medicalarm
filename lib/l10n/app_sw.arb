@@ -89,7 +89,7 @@
   "doseReceiverRegistrationLimit": "idadi ya watu waliosajiliwa wanaotumia dawa",
   "notificationScheduleLimit": "Idadi ya ratiba za arifa",
   "addMedicine": "Ongeza dawa",
-  "medicineMaxCount": "Unaweza kujiandikisha madawa {count} pekee.",
+  "medicineMaxCount": "Unaweza kusajili hadi dawa {count}.",
   "increaseMedicineLimitWithPremium": "Ongezeko la mpaka hadi {count} katika mpango wa Premium",
   "aboutApp": "Kuhusu programu",
   "viewPremiumPlan": "Tazama mpango wa Premium",

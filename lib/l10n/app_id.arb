@@ -89,7 +89,7 @@
   "doseReceiverRegistrationLimit": "jumlah orang yang terdaftar dan mengonsumsi obat",
   "notificationScheduleLimit": "Jumlah jadwal notifikasi",
   "addMedicine": "Tambah obat",
-  "medicineMaxCount": "Anda dapat mendaftar hingga {count} obat.",
+  "medicineMaxCount": "Anda dapat mendaftarkan hingga {count} obat.",
   "increaseMedicineLimitWithPremium": "Tingkatkan batas pendaftaran obat Anda menjadi {count} dengan paket premium.",
   "aboutApp": "Tentang Aplikasi",
   "viewPremiumPlan": "Lihat Rencana Premium",

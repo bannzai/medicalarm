@@ -89,7 +89,7 @@
   "doseReceiverRegistrationLimit": "reģistrēto medikamentu lietotāju skaits",
   "notificationScheduleLimit": "Paziņojumu grafiku skaits",
   "addMedicine": "Pievienot zāles",
-  "medicineMaxCount": "Zāles var reģistrēt līdz {count} gabaliem.",
+  "medicineMaxCount": "Varat reģistrēt līdz {count} medikamentiem.",
   "increaseMedicineLimitWithPremium": "Palieliniet augšējo robežu līdz {count} ar premium plānu.",
   "aboutApp": "Par lietotni",
   "viewPremiumPlan": "Apskatīt premium plānu",

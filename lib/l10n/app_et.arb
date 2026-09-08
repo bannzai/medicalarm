@@ -89,7 +89,7 @@
   "doseReceiverRegistrationLimit": "registreeritud ravimivõtjate arv",
   "notificationScheduleLimit": "Teavituste ajakavade arv",
   "addMedicine": "Lisa ravim",
-  "medicineMaxCount": "Rohusid saab registreerida kuni {count}.",
+  "medicineMaxCount": "Saate registreerida kuni {count} ravimit.",
   "increaseMedicineLimitWithPremium": "Suurenda preemia plaani raames üleminekut {count}",
   "aboutApp": "Rakendusest",
   "viewPremiumPlan": "Vaata premium plaani",

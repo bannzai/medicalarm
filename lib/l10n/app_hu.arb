@@ -89,7 +89,7 @@
   "doseReceiverRegistrationLimit": "a gyógyszert szedő regisztrált személyek száma",
   "notificationScheduleLimit": "Értesítési ütemezések száma",
   "addMedicine": "Gyógyszer hozzáadása",
-  "medicineMaxCount": "Legjobb, ha legfeljebb {count} gyógyszert tud regisztrálni.",
+  "medicineMaxCount": "Legfeljebb {count} gyógyszert regisztrálhat.",
   "increaseMedicineLimitWithPremium": "A prémium tervvel növelheti a regisztrált gyógyszerek számát {count}-ra.",
   "aboutApp": "Az alkalmazásról",
   "viewPremiumPlan": "Nézd meg a prèmium tervet",

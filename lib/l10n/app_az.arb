@@ -89,7 +89,7 @@
   "doseReceiverRegistrationLimit": "qeydiyyatdan keçmiş dərman istifadəçilərinin sayı",
   "notificationScheduleLimit": "Bildiriş cədvəllərinin sayı",
   "addMedicine": "Dərman əlavə et",
-  "medicineMaxCount": "Dərmanları {count} ədədədək qeyd edə bilərsiniz.",
+  "medicineMaxCount": "Ən çox {count} dərman qeydiyyatdan keçirə bilərsiniz.",
   "increaseMedicineLimitWithPremium": "Premium plan ilə məhdudiyyəti {count}-ə artırın",
   "aboutApp": "Tətbiq haqqında",
   "viewPremiumPlan": "Premium planı görüntülə",

@@ -89,7 +89,7 @@
   "doseReceiverRegistrationLimit": "število registriranih oseb, ki jemljejo zdravila",
   "notificationScheduleLimit": "Število urnikov obvestil",
   "addMedicine": "Dodaj zdravilo",
-  "medicineMaxCount": "Lahko registrirate do {count} zdravil.",
+  "medicineMaxCount": "Registrirate lahko največ {count} zdravil.",
   "increaseMedicineLimitWithPremium": "Povečajte limite na {count} s premium načrtom",
   "aboutApp": "O aplikaciji",
   "viewPremiumPlan": "Oglejte si premium načrt",

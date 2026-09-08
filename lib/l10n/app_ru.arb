@@ -89,7 +89,7 @@
   "doseReceiverRegistrationLimit": "количество зарегистрированных людей, принимающих лекарства",
   "notificationScheduleLimit": "Количество расписаний уведомлений",
   "addMedicine": "Добавить лекарство",
-  "medicineMaxCount": "Вы можете зарегистрировать до {count} лекарств.",
+  "medicineMaxCount": "Можно зарегистрировать до {count} лекарств.",
   "increaseMedicineLimitWithPremium": "Увеличьте лимит на {count} с помощью премиум-плана.",
   "aboutApp": "О приложении",
   "viewPremiumPlan": "Посмотреть премиум-план",

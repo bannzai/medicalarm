@@ -89,7 +89,7 @@
   "doseReceiverRegistrationLimit": "liczba zarejestrowanych osób przyjmujących leki",
   "notificationScheduleLimit": "Liczba harmonogramów powiadomień",
   "addMedicine": "Dodaj lek",
-  "medicineMaxCount": "Możesz zarejestrować do {count} leków.",
+  "medicineMaxCount": "Możesz zarejestrować maksymalnie {count} leków.",
   "increaseMedicineLimitWithPremium": "Zwiększ limit do {count} w planie premium",
   "aboutApp": "O aplikacji",
   "viewPremiumPlan": "Zobacz plan premium",

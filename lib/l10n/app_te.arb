@@ -89,7 +89,7 @@
   "doseReceiverRegistrationLimit": "నమోదైన మందులు తీసుకునే వ్యక్తుల సంఖ్య",
   "notificationScheduleLimit": "నోటిఫికేషన్ షెడ్యూళ్ల సంఖ్య",
   "addMedicine": "మందును జోడించండి",
-  "medicineMaxCount": "మీరు {count} మందులు నమోదుచేయవచ్చు.",
+  "medicineMaxCount": "మీరు గరిష్టంగా {count} మందులను నమోదు చేయవచ్చు.",
   "increaseMedicineLimitWithPremium": "ప్రీమియం ప్లాన్‌లో పరిమితిని {count} వరకు పెంచండి",
   "aboutApp": "యాప్ గురించి",
   "viewPremiumPlan": "ప్రెమియం ప్లాన్‌ని చూడండి",

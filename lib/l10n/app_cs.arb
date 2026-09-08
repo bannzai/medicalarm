@@ -89,7 +89,7 @@
   "doseReceiverRegistrationLimit": "počet registrovaných osob užívajících léky",
   "notificationScheduleLimit": "Počet plánů oznámení",
   "addMedicine": "Přidat lék",
-  "medicineMaxCount": "Můžete registrovat až {count} léků.",
+  "medicineMaxCount": "Můžete zaregistrovat až {count} léků.",
   "increaseMedicineLimitWithPremium": "Zvyšte limit na {count} s prémiovým plánem",
   "aboutApp": "O aplikaci",
   "viewPremiumPlan": "Zobrazit prémiový plán",
