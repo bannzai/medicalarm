@@ -75,7 +75,7 @@
   "consecutiveDaysFormat": "Приём лекарств в течение {count} дней",
   "restDaysFormat": "Перерыв в приёме лекарств: {count} дн.",
   "limitedTimeDiscount": "Пользуйтесь навсегда по специальной цене",
-  "monthlyPlan": "Ежемесячный план",
+  "monthlyPlan": "Месячный план",
   "annualPlan": "Годовой план",
   "weeklyPlan": "Недельный план",
   "premiumRequired": "Доступно при подписке на премиум-план.",

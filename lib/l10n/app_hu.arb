@@ -75,7 +75,7 @@
   "consecutiveDaysFormat": "Gyógyszerszedés {count} napon át",
   "restDaysFormat": "{count} nap gyógyszerszünet",
   "limitedTimeDiscount": "Használja mostantól örökké kedvezményes áron",
-  "monthlyPlan": "Havi előfizetés",
+  "monthlyPlan": "Havi csomag",
   "annualPlan": "Éves előfizetés",
   "weeklyPlan": "Heti terv",
   "premiumRequired": "A prémium tervhez való csatlakozással elérhető.",
