@@ -132,7 +132,7 @@
   "purchaseErrorUserNotFound": "The user could not be verified. Restart the app and try again. Details: {message}",
   "purchaseErrorActivationPending": "Subscription activation is not complete. Please check again later.",
   "purchaseErrorTimeout": "The request timed out. Check your network connection and try again. If the problem persists, contact us via Settings > Contact. Details: {message}",
-  "purchaseErrorNetworkError": "There is a communication failure. Please check your network environment and try again. If the issue persists, please contact us through Settings > Inquiry. Details: {message}",
+  "purchaseErrorNetworkError": "There was a connection problem. Check your network connection and try again. If the problem persists, contact us via Settings > Contact Us. Details: {message}",
   "sixMonthPlan": "6-month plan",
   "premiumContractPeriod": "The contract period is one month from the purchase date.",
   "privacyPolicy": "Privacy Policy",

@@ -132,7 +132,7 @@
   "purchaseErrorUserNotFound": "Mtumiaji hakuweza kuthibitishwa. Anzisha programu upya na ujaribu tena. Maelezo: {message}",
   "purchaseErrorActivationPending": "Uwezeshaji wa usajili haujakamilika. Tafadhali angalia tena baadaye.",
   "purchaseErrorTimeout": "Muda wa kusubiri umeisha. Angalia muunganisho wako wa mtandao na ujaribu tena. Tatizo likiendelea, wasiliana nasi kupitia Mipangilio > Wasiliana nasi. Maelezo: {message}",
-  "purchaseErrorNetworkError": "Kuwa na uhusiano mbaya. Tafadhali angalia mazingira yako ya mtandao kisha jaribu tena. Ikiwa huwezi kutatua shida hiyo, tafadhali wasiliana nasi kupitia Mpangilio > Maswali. Maelezo zaidi: {message}",
+  "purchaseErrorNetworkError": "Kuna tatizo la muunganisho. Angalia muunganisho wako wa mtandao kisha ujaribu tena. Tatizo likiendelea, wasiliana nasi kupitia Mipangilio > Wasiliana nasi. Maelezo: {message}",
   "sixMonthPlan": "mpango wa miezi 6",
   "premiumContractPeriod": "Muda wa mkataba ni mwezi mmoja kuanzia tarehe ya oduka.",
   "privacyPolicy": "Sera ya Faragha",

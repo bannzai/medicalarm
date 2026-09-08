@@ -132,7 +132,7 @@
   "purchaseErrorUserNotFound": "Nie udało się zweryfikować użytkownika. Uruchom ponownie aplikację i spróbuj jeszcze raz. Szczegóły: {message}",
   "purchaseErrorActivationPending": "Aktywacja subskrypcji nie została ukończona. Sprawdź ponownie później.",
   "purchaseErrorTimeout": "Upłynął limit czasu. Sprawdź połączenie z siecią i spróbuj ponownie. Jeśli problem będzie się powtarzał, skontaktuj się z nami przez Ustawienia > Kontakt. Szczegóły: {message}",
-  "purchaseErrorNetworkError": "Wystąpił błąd połączenia. Sprawdź swoje połączenie i spróbuj ponownie. Jeśli problem nie ustąpi, skontaktuj się z nami przez Ustawienia > Kontakt. Szczegóły: {message}",
+  "purchaseErrorNetworkError": "Wystąpił problem z połączeniem. Sprawdź połączenie z siecią i spróbuj ponownie. Jeśli problem będzie nadal występować, skontaktuj się z nami, wybierając Ustawienia > Skontaktuj się z nami. Szczegóły: {message}",
   "sixMonthPlan": "Plan 6 miesięcy",
   "premiumContractPeriod": "Okres umowy wynosi 1 miesiąc od daty zakupu.",
   "privacyPolicy": "Polityka prywatności",

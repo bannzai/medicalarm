@@ -132,7 +132,7 @@
   "purchaseErrorUserNotFound": "D Benutzer het nöd chönne verifiziert werde. Starte d App neu und probier’s nomol. Details: {message}",
   "purchaseErrorActivationPending": "D Aktivierig vom Abo isch no nöd abgschlosse. Bitte später nomol prüefe.",
   "purchaseErrorTimeout": "D’Ziit isch abgloffe. Prüefed Si Ihri Netzwerchverbindig und versueched Si’s nomal. Wenn s’Problem wiiterbesteit, nehmed Si über Istellige > Kontakt mit eus Kontakt uf. Details: {message}",
-  "purchaseErrorNetworkError": "I bi der Netzwerkproblem. Bitte prufen Sie Ihre Netzwerkbedingungen und versuchen Sie es erneut. Falls das Problem nicht behoben wird, kontaktieren Sie uns bitte unter Einstellungen > Anfrage. Details: {message}",
+  "purchaseErrorNetworkError": "Es isch es Verbindigsproblem ufträte. Bitte überprüefed Sie Ihri Netzwerverbindig und probiered Sie es nomol. Wenn s Problem wiiterbesteit, chönd Sie eus über Iistellige > Kontakt ufneh. Details: {message}",
   "sixMonthPlan": "6 Monat Plan",
   "premiumContractPeriod": "Die Vertragsdauer beträgt einen Monat ab dem Kaufdatum.",
   "privacyPolicy": "Privacy Policy",

@@ -132,7 +132,7 @@
   "purchaseErrorUserNotFound": "Brukeren kunne ikke bekreftes. Start appen på nytt og prøv igjen. Detaljer: {message}",
   "purchaseErrorActivationPending": "Aktiveringen av abonnementet er ikke fullført. Sjekk igjen senere.",
   "purchaseErrorTimeout": "Tidsavbrudd. Kontroller nettverkstilkoblingen og prøv igjen. Hvis problemet vedvarer, kan du kontakte oss via Innstillinger > Kontakt. Detaljer: {message}",
-  "purchaseErrorNetworkError": "Det er et kommunikasjonsproblem. Vennligst sjekk nettverksforholdene dine og prøv igjen. Hvis problemet vedvarer, vennligst kontakt oss via Innstillinger > Kontakt oss. Detaljer: {message}",
+  "purchaseErrorNetworkError": "Det oppsto et tilkoblingsproblem. Sjekk nettverkstilkoblingen og prøv igjen. Hvis problemet vedvarer, kan du kontakte oss via Innstillinger > Kontakt oss. Detaljer: {message}",
   "sixMonthPlan": "6-månedersplan",
   "premiumContractPeriod": "Kontraktperioden er fra kjøpsdatoen i 1 måned.",
   "privacyPolicy": "Personvernerklæring",

@@ -132,7 +132,7 @@
   "purchaseErrorUserNotFound": "Die gebruiker kon nie geverifieer word nie. Herbegin die app en probeer weer. Besonderhede: {message}",
   "purchaseErrorActivationPending": "Die aktivering van u intekening is nog nie voltooi nie. Probeer asseblief later weer.",
   "purchaseErrorTimeout": "Die versoek het ’n tydverstryking gehad. Gaan u netwerkverbinding na en probeer weer. As die probleem voortduur, kontak ons via Instellings > Kontak. Besonderhede: {message}",
-  "purchaseErrorNetworkError": "Daar is 'n kommunikasiefout. Controleer asseblief u kommunikasie-omstandighede en probeer weer. As dit nie oplos nie, kontak ons asseblief via Instellings > Kontak. Besonderhede: {message}",
+  "purchaseErrorNetworkError": "Daar is ’n verbindingsprobleem. Gaan u netwerkverbinding na en probeer weer. As die probleem voortduur, kontak ons via Instellings > Kontak ons. Besonderhede: {message}",
   "sixMonthPlan": "6 maande plan",
   "premiumContractPeriod": "Die kontrakperiode is een maand vanaf die koopdatum.",
   "privacyPolicy": "Privaatheidsbeleid",

@@ -132,7 +132,7 @@
   "purchaseErrorUserNotFound": "အသုံးပြုသူကို အတည်ပြု၍မရပါ။ အက်ပ်ကို ပြန်လည်စတင်ပြီး ထပ်မံကြိုးစားပါ။ အသေးစိတ်: {message}",
   "purchaseErrorActivationPending": "စာရင်းသွင်းမှုကို အသက်သွင်းခြင်း မပြီးဆုံးသေးပါ။ ခဏအကြာတွင် ထပ်မံစစ်ဆေးပါ။",
   "purchaseErrorTimeout": "အချိန်ကုန်သွားပါပြီ။ သင့်ကွန်ရက်ချိတ်ဆက်မှုကို စစ်ဆေးပြီး ထပ်မံကြိုးစားပါ။ ပြဿနာဆက်ရှိနေပါက ဆက်တင်များ > ဆက်သွယ်ရန်မှတစ်ဆင့် ကျွန်ုပ်တို့ကို ဆက်သွယ်ပါ။ အသေးစိတ်: {message}",
-  "purchaseErrorNetworkError": "Terdapat ralat sambungan. Sila semak keadaan rangkaian anda dan cuba lagi. Jika masalah tidak diselesaikan, sila hubungi kami melalui Tetapan > Pertanyaan. Butiran: {message}",
+  "purchaseErrorNetworkError": "ချိတ်ဆက်မှု ပြဿနာ ဖြစ်ပေါ်ခဲ့သည်။ သင့်ကွန်ရက်ချိတ်ဆက်မှုကို စစ်ဆေးပြီး ထပ်မံကြိုးစားပါ။ ပြဿနာ ဆက်လက်ဖြစ်ပေါ်ပါက ဆက်တင်များ > ကျွန်ုပ်တို့ကို ဆက်သွယ်ရန် မှတစ်ဆင့် ဆက်သွယ်ပါ။ အသေးစိတ်: {message}",
   "sixMonthPlan": "Rancangan 6 bulan",
   "premiumContractPeriod": "Tempoh kontrak adalah selama 1 bulan dari tarikh pembelian.",
   "privacyPolicy": "Dasar Privasi",

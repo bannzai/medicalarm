@@ -132,7 +132,7 @@
   "purchaseErrorUserNotFound": "Hindi ma-verify ang user. I-restart ang app at subukan muli. Mga detalye: {message}",
   "purchaseErrorActivationPending": "Hindi pa kumpleto ang pag-activate ng subscription. Pakitingnan itong muli mamaya.",
   "purchaseErrorTimeout": "Nag-time out ang kahilingan. Suriin ang koneksyon sa network at subukan muli. Kung magpapatuloy ang problema, makipag-ugnayan sa amin sa Mga Setting > Makipag-ugnayan. Mga detalye: {message}",
-  "purchaseErrorNetworkError": "Kakulangan sa komunikasyon. Pakisuri ang iyong kapaligiran sa komunikasyon at subukang muli. Kung hindi ito malulutas, mangyaring makipag-ugnayan sa pamamagitan ng Mga Setting > Pagtatanong. Detalye: {message}",
+  "purchaseErrorNetworkError": "Nagkaroon ng problema sa koneksyon. Suriin ang koneksyon sa network at subukang muli. Kung hindi pa rin maayos, makipag-ugnayan sa amin sa Mga Setting > Makipag-ugnayan sa amin. Mga detalye: {message}",
   "sixMonthPlan": "6 na buwan na plano",
   "premiumContractPeriod": "Ang kontrata ay mula sa petsa ng pagbili ng 1 buwan.",
   "privacyPolicy": "Patakaran sa Privacy",

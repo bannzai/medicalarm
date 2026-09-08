@@ -132,7 +132,7 @@
   "purchaseErrorUserNotFound": "Korisnik nije mogao biti potvrđen. Ponovo pokrenite aplikaciju i pokušajte ponovo. Detalji: {message}",
   "purchaseErrorActivationPending": "Aktivacija pretplate nije završena. Provjerite ponovo nakon nekog vremena.",
   "purchaseErrorTimeout": "Isteklo je vrijeme. Provjerite mrežnu vezu i pokušajte ponovo. Ako problem ne bude riješen, kontaktirajte nas putem Postavke > Kontakt. Detalji: {message}",
-  "purchaseErrorNetworkError": "Došlo je do greške u komunikaciji. Provjerite svoje komunikacijsko okruženje i pokušajte ponovo. Ako se problem ne riješi, obratite se putem Postavke > Upit. Detalji: {message}",
+  "purchaseErrorNetworkError": "Došlo je do problema s vezom. Provjerite mrežnu vezu i pokušajte ponovo. Ako problem ne bude riješen, obratite nam se putem Postavke > Kontaktirajte nas. Detalji: {message}",
   "sixMonthPlan": "6-mjesečni plan",
   "premiumContractPeriod": "Ugovor je na snazi od datuma kupovine na period od 1 mjeseca.",
   "privacyPolicy": "Politika privatnosti",

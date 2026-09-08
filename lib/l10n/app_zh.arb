@@ -132,7 +132,7 @@
   "purchaseErrorUserNotFound": "无法验证用户。请重新启动应用后再试。详细信息：{message}",
   "purchaseErrorActivationPending": "订阅激活尚未完成。请稍后再检查。",
   "purchaseErrorTimeout": "请求超时。请检查网络连接后重试。如果问题仍未解决，请通过“设置”>“联系我们”与我们联系。详细信息：{message}",
-  "purchaseErrorNetworkError": "网络故障。请确认您的通信环境，然后再试一次。如果问题仍未解决，请通过 设置 > 联系我们 进行查询。详细信息：{message}",
+  "purchaseErrorNetworkError": "连接出现问题。请检查网络连接后重试。如果问题仍未解决，请前往“设置”>“联系我们”与我们联系。详情：{message}",
   "sixMonthPlan": "6个月计划",
   "premiumContractPeriod": "合同期限是从购买之日起一个月。",
   "privacyPolicy": "隐私政策",

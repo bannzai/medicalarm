@@ -132,7 +132,7 @@
   "purchaseErrorUserNotFound": "Nid oedd modd cadarnhau’r defnyddiwr. Ailgychwynnwch yr ap a rhowch gynnig arall arni. Manylion: {message}",
   "purchaseErrorActivationPending": "Nid yw gweithredu’r tanysgrifiad wedi’i gwblhau. Gwiriwch eto ymhen ychydig.",
   "purchaseErrorTimeout": "Daeth y terfyn amser i ben. Gwiriwch eich cysylltiad rhwydwaith a rhowch gynnig arall arni. Os na chaiff y broblem ei datrys, cysylltwch â ni drwy Gosodiadau > Cysylltu. Manylion: {message}",
-  "purchaseErrorNetworkError": "Mae nameth gysylltiad. Gwiriwch y sefyllfa gysylltu a chymhwyswch eto. Os nad yw hyn yn datrys y broblem, cysylltwch drwy fynd i Ddewisiadau > Cysylltu. Manylion: {message}",
+  "purchaseErrorNetworkError": "Mae problem gyda’r cysylltiad. Gwiriwch eich cysylltiad rhwydwaith a rhowch gynnig arall arni. Os na chaiff y broblem ei datrys, cysylltwch â ni drwy Gosodiadau > Cysylltu â ni. Manylion: {message}",
   "sixMonthPlan": "Cynllun 6 mis",
   "premiumContractPeriod": "Mae cyfnod y cytundeb yn un mis o'r diwrnod prynu.",
   "privacyPolicy": "Polisi Preifatrwydd",

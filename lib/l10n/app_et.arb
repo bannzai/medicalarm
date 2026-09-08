@@ -132,7 +132,7 @@
   "purchaseErrorUserNotFound": "Kasutaja kinnitamine ebaõnnestus. Taaskäivitage rakendus ja proovige uuesti. Üksikasjad: {message}",
   "purchaseErrorActivationPending": "Tellimuse aktiveerimine pole veel lõpule viidud. Kontrollige palun hiljem uuesti.",
   "purchaseErrorTimeout": "Ühendus aegus. Kontrollige võrguühendust ja proovige uuesti. Kui probleem püsib, võtke meiega ühendust menüüs Seaded > Kontakt. Üksikasjad: {message}",
-  "purchaseErrorNetworkError": "Ühenduse viga. Kontrollige oma ühenduse tingimusi ja proovige uuesti. Kui probleem ei lahene, võtke ühendust seades > Küsimus. Üksikasjad: {message}",
+  "purchaseErrorNetworkError": "Ühendusega tekkis probleem. Kontrollige võrguühendust ja proovige uuesti. Kui probleem püsib, võtke meiega ühendust menüüs Seaded > Võta ühendust. Üksikasjad: {message}",
   "sixMonthPlan": "6-kuuline plaan",
   "premiumContractPeriod": "Lepinguperiood on 1 kuu alates ostupäevast.",
   "privacyPolicy": "Privaatsuspoliitika",

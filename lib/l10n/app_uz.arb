@@ -132,7 +132,7 @@
   "purchaseErrorUserNotFound": "Foydalanuvchini tasdiqlab bo‘lmadi. Ilovani qayta ishga tushirib, yana urinib ko‘ring. Tafsilotlar: {message}",
   "purchaseErrorActivationPending": "Obunani faollashtirish yakunlanmadi. Iltimos, birozdan so‘ng qayta tekshiring.",
   "purchaseErrorTimeout": "Vaqt tugadi. Tarmoq ulanishingizni tekshirib, qayta urinib ko‘ring. Muammo hal bo‘lmasa, Sozlamalar > Bog‘lanish bo‘limi orqali biz bilan bog‘laning. Tafsilotlar: {message}",
-  "purchaseErrorNetworkError": "Aloqa uzilishi sodir bo'ldi. Iltimos, aloqa muhitini tekshirib, qayta urinib ko'ring. Agar hal bo'lmasa, Sozlamalar > Murojaat orqali bizga murojaat qiling. Tafsilotlar: {message}",
+  "purchaseErrorNetworkError": "Ulanishda muammo yuz berdi. Tarmoq ulanishini tekshiring va qayta urinib ko‘ring. Muammo davom etsa, Sozlamalar > Biz bilan bog‘lanish orqali bizga murojaat qiling. Tafsilotlar: {message}",
   "sixMonthPlan": "6 oylik reja",
   "premiumContractPeriod": "Shartnoma muddati sotib olingan kundan boshlab 1 oy davom etadi.",
   "privacyPolicy": "Maxfiylik siyosati",

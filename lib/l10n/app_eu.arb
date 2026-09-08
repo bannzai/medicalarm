@@ -132,7 +132,7 @@
   "purchaseErrorUserNotFound": "Ezin izan da erabiltzailea egiaztatu. Berrabiarazi aplikazioa eta saiatu berriro. Xehetasunak: {message}",
   "purchaseErrorActivationPending": "Harpidetzaren aktibazioa ez da amaitu. Egiaztatu berriro pixka bat geroago.",
   "purchaseErrorTimeout": "Denbora-muga gainditu da. Egiaztatu sareko konexioa eta saiatu berriro. Arazoak jarraitzen badu, jarri gurekin harremanetan Ezarpenak > Kontaktua atalean. Xehetasunak: {message}",
-  "purchaseErrorNetworkError": "Komunikazio akats baten berri ematen du. Mesedez, ziurtatu komunikazio ingurunea eta berriro saiatu. Arazoa konpondu ez bada, mesedez, joan ezazu Ezarpenak > Kontsulta eta kontaktatu gu. Zehaztasuna: {message}",
+  "purchaseErrorNetworkError": "Konexio-arazo bat gertatu da. Egiaztatu sareko konexioa eta saiatu berriro. Arazoak jarraitzen badu, jar zaitez gurekin harremanetan Ezarpenak > Jarri gurekin harremanetan aukeratik. Xehetasunak: {message}",
   "sixMonthPlan": "6 hilabeteko plana",
   "premiumContractPeriod": "Hitzarmen luzapena erosketa egunez hasi eta hilabetez irauten du.",
   "privacyPolicy": "Pribatutasun-politika",

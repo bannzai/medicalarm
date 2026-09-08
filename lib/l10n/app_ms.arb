@@ -132,7 +132,7 @@
   "purchaseErrorUserNotFound": "Pengguna tidak dapat disahkan. Mulakan semula aplikasi dan cuba lagi. Butiran: {message}",
   "purchaseErrorActivationPending": "Pengaktifan langganan belum selesai. Sila semak semula kemudian.",
   "purchaseErrorTimeout": "Masa tamat. Semak sambungan rangkaian anda dan cuba lagi. Jika masalah berterusan, hubungi kami melalui Tetapan > Hubungi. Butiran: {message}",
-  "purchaseErrorNetworkError": "Koneksi terputus. Sila semak persekitaran sambungan anda dan cuba lagi. Jika masalah berterusan, sila hubungi kami melalui Tetapan > Pertanyaan. Butiran: {message}",
+  "purchaseErrorNetworkError": "Berlaku masalah sambungan. Semak sambungan rangkaian anda dan cuba lagi. Jika masalah berterusan, hubungi kami melalui Tetapan > Hubungi Kami. Butiran: {message}",
   "sixMonthPlan": "Pelan 6 Bulan",
   "premiumContractPeriod": "Tempoh kontrak adalah selama 1 bulan dari tarikh pembelian.",
   "privacyPolicy": "Dasar Privasi",
