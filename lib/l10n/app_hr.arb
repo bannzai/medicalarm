@@ -111,7 +111,7 @@
   "monthlyPlanDiscountFormat": "{percent}% popusta u odnosu na mjesečni plan",
   "purchaseErrorUnknown": "Došlo je do nepoznate pogreške. Pokušajte ponovno kasnije. Ako se problem ne riješi, obratite nam se putem Postavke > Kontakt. Pojedinosti: {message}",
   "purchaseErrorStoreProblem": "Došlo je do pogreške u usluzi {storeName}. Pokušajte ponovno kasnije.",
-  "purchaseErrorInvalidPayment": "Plaćanje nije uspjelo. Provjerite je li vaša metoda plaćanja valjana i pokušajte ponovo.",
+  "purchaseErrorInvalidPayment": "Plaćanje nije uspjelo. Provjerite je li vaš način plaćanja važeći i pokušajte ponovno.",
   "purchaseErrorProductUnavailable": "Odabrani plan trenutno nije dostupan. Molimo vas da ponovno pokrenete aplikaciju i pokušate ponovo.",
   "purchaseErrorAlreadyPurchased": "Već ste kupili plan. Ako želite obnoviti informacije o kupnji na ovom uređaju, molimo vas da odaberete \"Oni koji su već kupili, ovdje\".",
   "purchaseErrorReceiptInUse": "Već kupljeno. Informacije o kupnji koristi drugi korisnik. Provjerite {accountName}.",

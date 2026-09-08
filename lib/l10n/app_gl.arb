@@ -111,7 +111,7 @@
   "monthlyPlanDiscountFormat": "{percent}% de desconto fronte ao plan mensual",
   "purchaseErrorUnknown": "Produciuse un erro descoñecido. Téntao de novo máis tarde. Se o problema persiste, ponte en contacto connosco desde Axustes > Contacto. Detalles: {message}",
   "purchaseErrorStoreProblem": "Produciuse un erro en {storeName}. Téntao de novo máis tarde.",
-  "purchaseErrorInvalidPayment": "Non se puido procesar o pagamento. Verifique se o método de pagamento é válido e inténtao de novo.",
+  "purchaseErrorInvalidPayment": "Produciuse un erro no pagamento. Comproba que o método de pagamento sexa válido e téntao de novo.",
   "purchaseErrorProductUnavailable": "O plan que buscas non está dispoñible actualmente. Por favor, reinicia a aplicación e tenta novamente.",
   "purchaseErrorAlreadyPurchased": "Xa xa se comprou un plan. Se desexa restaurar a información de compra neste dispositivo, por favor, faga clic en \"Restaurar compra anterior aquí\".",
   "purchaseErrorReceiptInUse": "Xa xa comprada. A información da compra está en uso por outro usuario. Por favor, verifica {accountName}.",

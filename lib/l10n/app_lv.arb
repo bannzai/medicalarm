@@ -111,7 +111,7 @@
   "monthlyPlanDiscountFormat": "Par {percent}% lētāk nekā mēneša plāns",
   "purchaseErrorUnknown": "Radās nezināma kļūda. Lūdzu, mēģiniet vēlreiz vēlāk. Ja problēma joprojām pastāv, sazinieties ar mums sadaļā Iestatījumi > Kontakti. Detalizēta informācija: {message}",
   "purchaseErrorStoreProblem": "Radās kļūda pakalpojumā {storeName}. Lūdzu, mēģiniet vēlreiz vēlāk.",
-  "purchaseErrorInvalidPayment": "Maksājums neizdevās. Lūdzu, pārbaudiet, vai maksājuma veids ir derīgs, un mēģiniet vēlreiz.",
+  "purchaseErrorInvalidPayment": "Maksājums neizdevās. Pārbaudiet, vai jūsu maksāšanas veids ir derīgs, un mēģiniet vēlreiz.",
   "purchaseErrorProductUnavailable": "Norādītais plāns šobrīd netiek pārdots. Lūdzu, restartējiet lietotni un mēģiniet vēlreiz.",
   "purchaseErrorAlreadyPurchased": "Jūs jau esat iegādājušies plānu. Ja vēlaties atjaunot pirkuma informāciju šajā ierīcē, lūdzu, izmantojiet saiti \"Iepriekš iegādājušies, noklikšķiniet šeit\", lai atjaunotu pirkuma informāciju.",
   "purchaseErrorReceiptInUse": "Jau iegādāts. Iegādes informācija tiek izmantota citam lietotājam. Lūdzu, pārbaudiet {accountName}.",

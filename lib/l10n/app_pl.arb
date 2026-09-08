@@ -111,7 +111,7 @@
   "monthlyPlanDiscountFormat": "{percent}% taniej niż miesięcznie",
   "purchaseErrorUnknown": "Wystąpił nieznany błąd. Spróbuj ponownie później. Jeśli problem będzie nadal występował, skontaktuj się z nami przez Ustawienia > Kontakt. Szczegóły: {message}",
   "purchaseErrorStoreProblem": "Wystąpił błąd w usłudze {storeName}. Spróbuj ponownie później.",
-  "purchaseErrorInvalidPayment": "Nie udało się zrealizować płatności. Proszę sprawdzić, czy metoda płatności jest ważna, a następnie spróbować ponownie.",
+  "purchaseErrorInvalidPayment": "Płatność się nie powiodła. Sprawdź, czy Twoja metoda płatności jest prawidłowa, i spróbuj ponownie.",
   "purchaseErrorProductUnavailable": "Wybrany plan nie jest obecnie dostępny. Proszę spróbować ponownie po ponownym uruchomieniu aplikacji.",
   "purchaseErrorAlreadyPurchased": "Już zakupiono plan. Aby odzyskać informacje o zakupie na tym urządzeniu, proszę przejść do sekcji „Odzyskaj informacje o zakupie, jeśli wcześniej dokonałeś zakupu”.",
   "purchaseErrorReceiptInUse": "Już zakupione. Informacje o zakupie są używane przez innego użytkownika. Sprawdź {accountName}.",

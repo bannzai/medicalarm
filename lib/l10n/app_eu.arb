@@ -111,7 +111,7 @@
   "monthlyPlanDiscountFormat": "%{percent}eko deskontua hileko planarekin alderatuta",
   "purchaseErrorUnknown": "Errore ezezagun bat gertatu da. Saiatu berriro geroago. Arazoak jarraitzen badu, jar zaitez gurekin harremanetan Ezarpenak > Kontaktua ataletik. Xehetasunak: {message}",
   "purchaseErrorStoreProblem": "Errore bat gertatu da {storeName} zerbitzuan. Saiatu berriro pixka bat geroago.",
-  "purchaseErrorInvalidPayment": "Orda ezin izan da. Mesedez, egiaztatu ordainketa-metodoa baliogarria den eta saiatu berriro.",
+  "purchaseErrorInvalidPayment": "Ordainketak huts egin du. Egiaztatu ordainketa-metodoa baliozkoa dela eta saiatu berriro.",
   "purchaseErrorProductUnavailable": "Ezin da ekoizpen plan hori eskuratu. Mesedez, berriz abiarazi aplikazioa eta saiatu berriro.",
   "purchaseErrorAlreadyPurchased": "Jada erosi duzue. Gailu honetan erosketa-informazioa berreskuratu nahi baduzu, mesedez, joan «Aurretik erosi zutenek hona» aukera.",
   "purchaseErrorReceiptInUse": "Jada erositako. Erosketa-informazioa beste erabiltzaile batzuen artean erabiltzen da. Mesedez, egiaztatu {accountName}.",

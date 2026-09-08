@@ -111,7 +111,7 @@
   "monthlyPlanDiscountFormat": "{percent}% rabatt sammenlignet med månedsplanen",
   "purchaseErrorUnknown": "Det oppstod en ukjent feil. Prøv igjen senere. Hvis problemet vedvarer, kan du kontakte oss via Innstillinger > Kontakt. Detaljer: {message}",
   "purchaseErrorStoreProblem": "Det har oppstått en feil med {storeName}. Prøv igjen senere.",
-  "purchaseErrorInvalidPayment": "Betalingen mislyktes. Vennligst sjekk om betalingsmetoden er gyldig og prøv igjen.",
+  "purchaseErrorInvalidPayment": "Betalingen mislyktes. Kontroller at betalingsmetoden din er gyldig, og prøv igjen.",
   "purchaseErrorProductUnavailable": "Den aktuelle planen er ikke tilgjengelig for salg. Vi ber om unnskyldning, men vennligst start appen på nytt og prøv igjen.",
   "purchaseErrorAlreadyPurchased": "Du har allerede kjøpt en plan. Hvis du vil gjenopprette kjøpsinformasjonen på denne enheten, vennligst klikk på \"Gjenopprett kjøpsinformasjon her\".",
   "purchaseErrorReceiptInUse": "Allerede kjøpt. Kjøpsinformasjonen brukes av en annen bruker. Vennligst sjekk {accountName}",

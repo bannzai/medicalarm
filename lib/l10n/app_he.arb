@@ -111,7 +111,7 @@
   "monthlyPlanDiscountFormat": "{percent}% הנחה לעומת התוכנית החודשית",
   "purchaseErrorUnknown": "אירעה שגיאה לא ידועה. נסו שוב מאוחר יותר. אם הבעיה נמשכת, פנו אלינו דרך הגדרות > יצירת קשר. פרטים: {message}",
   "purchaseErrorStoreProblem": "אירעה שגיאה ב־{storeName}. נסו שוב מאוחר יותר.",
-  "purchaseErrorInvalidPayment": "שילוב התשלום נכשל. אנא ודא שזהו אמצעי תשלום תקף ונסה שוב.",
+  "purchaseErrorInvalidPayment": "התשלום נכשל. יש לבדוק שאמצעי התשלום שלך תקף ולנסות שוב.",
   "purchaseErrorProductUnavailable": "המסלול המיועד אינו זמין כרגע. אנו מתנצלים, אנא נסה מחדש על ידי הפעלת האפליקציה מחדש.",
   "purchaseErrorAlreadyPurchased": "כבר רכשת את התכנית. אם ברצונך לשחזר את פרטי הרכישה במכשיר זה, אנא לחץ על \"הכוונה לרוכשים הקודמים\" כדי לשחזר את פרטי הרכישה.",
   "purchaseErrorReceiptInUse": "כבר נרכש. המידע על רכישה נמצא בשימוש על ידי משתמש אחר. נא לבדוק את {accountName}.",

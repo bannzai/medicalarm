@@ -111,7 +111,7 @@
   "monthlyPlanDiscountFormat": "Isaphulelo esingu-{percent}% kunohlelo lwanyanga zonke",
   "purchaseErrorUnknown": "Kuvele iphutha elingaziwa. Sicela uzame futhi ngokuhamba kwesikhathi. Uma inkinga ingaxazululeki, xhumana nathi kokuthi Izilungiselelo > Xhumana nathi. Imininingwane: {message}",
   "purchaseErrorStoreProblem": "Kube nephutha ku-{storeName}. Sicela uphinde uzame ngemva kwesikhashana.",
-  "purchaseErrorInvalidPayment": "Ukuphatha kwezezimali kwehluleka. Sicela uqinisekise ukuthi indlela yokukhokha iyasebenza, bese uzama futhi.",
+  "purchaseErrorInvalidPayment": "Inkokhelo yehlulekile. Sicela uhlole ukuthi indlela yakho yokukhokha isemthethweni bese uzama futhi.",
   "purchaseErrorProductUnavailable": "Le phakheji engamukeliwa okwamanje ayithengiswa. Siyacela ukuthi uqale kabusha uhlelo lokusebenza bese uzama futhi.",
   "purchaseErrorAlreadyPurchased": "Usukhumbula ukuthi usuthenge iphakheji. Uma uhlela ukuvuselela imininingwane yokuthenga kule ndawo, sicela uthinte \"Abathenge phambilini nansi.\" ukuze uvuselele imininingwane yokuthenga.",
   "purchaseErrorReceiptInUse": "Uthengela ngaphambili. Ulwazi lokuthenga lusetshenziswa omunye umsebenzisi. Sicela uhlole {accountName}.",

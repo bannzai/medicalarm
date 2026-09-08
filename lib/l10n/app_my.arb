@@ -111,7 +111,7 @@
   "monthlyPlanDiscountFormat": "လစဉ်အစီအစဉ်ထက် {percent}% လျှော့စျေး",
   "purchaseErrorUnknown": "အမည်မသိ အမှားတစ်ခု ဖြစ်ပေါ်ခဲ့သည်။ ခဏကြာပြီးနောက် ထပ်မံကြိုးစားပါ။ ပြဿနာမပြေလည်ပါက ဆက်တင်များ > ဆက်သွယ်ရန်မှတစ်ဆင့် ကျွန်ုပ်တို့ထံ ဆက်သွယ်ပါ။ အသေးစိတ်: {message}",
   "purchaseErrorStoreProblem": "{storeName} တွင် အမှားတစ်ခု ဖြစ်ပွားနေပါသည်။ ခဏအကြာတွင် ထပ်မံကြိုးစားပါ။",
-  "purchaseErrorInvalidPayment": "Pembayaran gagal. Sila semak sama ada kaedah pembayaran anda sah dan cuba lagi.",
+  "purchaseErrorInvalidPayment": "ငွေပေးချေမှု မအောင်မြင်ပါ။ သင့်ငွေပေးချေမှုနည်းလမ်း မှန်ကန်မှုရှိမရှိ စစ်ဆေးပြီး ထပ်မံကြိုးစားပါ။",
   "purchaseErrorProductUnavailable": "Rancangan yang dipilih tidak tersedia untuk dijual pada masa ini. Sila mulakan semula aplikasi dan cuba lagi.",
   "purchaseErrorAlreadyPurchased": "Anda sudah membeli pelan. Jika anda ingin memulihkan maklumat pembelian pada peranti ini, sila pulihkan maklumat pembelian melalui \"Sesiapa yang membeli sebelum ini, klik di sini\".",
   "purchaseErrorReceiptInUse": "Telah dibeli. Maklumat pembelian digunakan oleh pengguna lain. Sila semak {accountName}.",

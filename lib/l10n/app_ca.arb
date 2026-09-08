@@ -111,7 +111,7 @@
   "monthlyPlanDiscountFormat": "{percent}% de descompte respecte al pla mensual",
   "purchaseErrorUnknown": "S’ha produït un error desconegut. Torna-ho a provar més tard. Si el problema persisteix, contacta amb nosaltres des d’Ajustos > Contacte. Detalls: {message}",
   "purchaseErrorStoreProblem": "S'ha produït un error a {storeName}. Torneu-ho a provar més tard.",
-  "purchaseErrorInvalidPayment": "El pagament ha fallat. Comproveu si teniu un mètode de pagament vàlid i torneu-ho a intentar.",
+  "purchaseErrorInvalidPayment": "No s'ha pogut completar el pagament. Comproveu que el mètode de pagament sigui vàlid i torneu-ho a provar.",
   "purchaseErrorProductUnavailable": "El pla objectiu actualment no està disponible. Si us plau, torneu a iniciar l'aplicació i torneu-ho a provar.",
   "purchaseErrorAlreadyPurchased": "Ja t'has comprat un pla. Si vols restaurar la informació de compra en aquest dispositiu, si us plau, fes clic a \"Si ja has comprat abans, fes clic aquí\" per restaurar la informació de compra.",
   "purchaseErrorReceiptInUse": "Ja ja adquirit. La informació de compra ja s'està utilitzant amb un altre usuari. Comproveu {accountName}.",

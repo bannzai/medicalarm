@@ -111,7 +111,7 @@
   "monthlyPlanDiscountFormat": "{percent}% ceneje kot mesečni paket",
   "purchaseErrorUnknown": "Prišlo je do neznane napake. Poskusite znova pozneje. Če težava ne bo odpravljena, nas kontaktirajte v Nastavitve > Stik. Podrobnosti: {message}",
   "purchaseErrorStoreProblem": "V {storeName} je prišlo do napake. Poskusite znova pozneje.",
-  "purchaseErrorInvalidPayment": "Plačilo ni uspelo. Preverite, ali je metoda plačila veljavna, in poskusite znova.",
+  "purchaseErrorInvalidPayment": "Plačilo ni uspelo. Preverite, ali je vaš način plačila veljaven, in poskusite znova.",
   "purchaseErrorProductUnavailable": "Izbrani načrt trenutno ni na voljo. Opravičujemo se za nevšečnosti, vendar prosimo, da znova zaženete aplikacijo in poskusite znova.",
   "purchaseErrorAlreadyPurchased": "Že ste že kupili načrte. Če želite obnoviti podatke o nakupu na tej napravi, prosim, kliknite \"Obnovite podatke o prejšnjem nakupu\".",
   "purchaseErrorReceiptInUse": "Že je že kupljeno. Nakup podatkov se uporablja z drugim uporabnikom. Preverite {accountName}.",

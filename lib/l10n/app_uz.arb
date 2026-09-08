@@ -111,7 +111,7 @@
   "monthlyPlanDiscountFormat": "Oylik rejaga nisbatan {percent}% chegirma",
   "purchaseErrorUnknown": "Noma’lum xatolik yuz berdi. Birozdan so‘ng qayta urinib ko‘ring. Muammo hal bo‘lmasa, Sozlamalar > Bog‘lanish bo‘limi orqali biz bilan bog‘laning. Tafsilotlar: {message}",
   "purchaseErrorStoreProblem": "{storeName} bilan bog‘liq xatolik yuz berdi. Birozdan so‘ng qayta urinib ko‘ring.",
-  "purchaseErrorInvalidPayment": "To'lov amalga oshirilmadi. Iltimos, to'lov usulining haqiqiyligini tekshirib, qayta urinib ko'ring.",
+  "purchaseErrorInvalidPayment": "To‘lov amalga oshmadi. To‘lov usulingiz yaroqli ekanini tekshirib, qayta urinib ko‘ring.",
   "purchaseErrorProductUnavailable": "Hozirda maqsadli rejalar mavjud emas. Iltimos, ilovani qayta ishga tushirib ko'ring.",
   "purchaseErrorAlreadyPurchased": "Siz allaqachon reja sotib oldingiz. Ushbu qurilmada xarid ma'lumotlarini tiklash uchun \"Avvalroq sotib olganlar uchun bu yerdan\" havolasiga o'ting.",
   "purchaseErrorReceiptInUse": "Siz allaqachon sotib oldingiz. {accountName} ni tekshirib ko'ring, chunki xarid ma'lumotlari boshqa foydalanuvchi tomonidan ishlatilmoqda.",

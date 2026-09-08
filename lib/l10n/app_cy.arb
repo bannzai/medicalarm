@@ -111,7 +111,7 @@
   "monthlyPlanDiscountFormat": "{percent}% i ffwrdd o gymharu â’r cynllun misol",
   "purchaseErrorUnknown": "Digwyddodd gwall anhysbys. Rhowch gynnig arall arni yn nes ymlaen. Os na chaiff y broblem ei datrys, cysylltwch â ni drwy Gosodiadau > Cysylltu â ni. Manylion: {message}",
   "purchaseErrorStoreProblem": "Mae gwall wedi digwydd yn {storeName}. Rhowch gynnig arall arni ymhen ychydig.",
-  "purchaseErrorInvalidPayment": "Methiant y talu. Gwiriwch a yw'r dull talu a ddefnyddiwch yn ddilys cyn trio eto.",
+  "purchaseErrorInvalidPayment": "Methodd y taliad. Gwiriwch fod eich dull talu’n ddilys a rhowch gynnig arall arni.",
   "purchaseErrorProductUnavailable": "Nid yw'r cynllun penodol ar gael ar hyn o bryd. Mae'n ddrwg gennyf, ond rhowch gynnig arno ar ôl ailgychwyn yr ap.",
   "purchaseErrorAlreadyPurchased": "Mae cynllun wedi cael ei brynu eisoes. Os ydych am adfer gwybodaeth brynu ar y dyfais hon, ple উদ্যোগiwch \"Mae'r rhai a brynodd cyn hyn yma\" i adfer gwybodaeth brynu.",
   "purchaseErrorReceiptInUse": "Eisoel wedi'i brynu eisoes. Mae'r gwybodaeth brynu yn cael ei defnyddio gan ddefnyddiwr arall. Gofynnwch am {accountName}.",

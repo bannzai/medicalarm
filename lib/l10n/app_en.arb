@@ -111,7 +111,7 @@
   "monthlyPlanDiscountFormat": "{percent}% off monthly",
   "purchaseErrorUnknown": "An unknown error occurred. Please try again later. If the problem persists, contact us via Settings > Contact. Details: {message}",
   "purchaseErrorStoreProblem": "There was a problem with {storeName}. Please try again later.",
-  "purchaseErrorInvalidPayment": "Payment failed. Please check if your payment method is valid and try again.",
+  "purchaseErrorInvalidPayment": "Payment failed. Please check that your payment method is valid and try again.",
   "purchaseErrorProductUnavailable": "The target plan is currently not available for purchase. Please try restarting the app.",
   "purchaseErrorAlreadyPurchased": "You have already purchased the plan. If you want to restore your purchase information on this device, please click on \"If you have purchased before\" to restore your purchase information.",
   "purchaseErrorReceiptInUse": "Already purchased. The purchase information is being used by another user. Please check {accountName}.",

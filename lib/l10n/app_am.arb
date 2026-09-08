@@ -111,7 +111,7 @@
   "monthlyPlanDiscountFormat": "{percent}% ከወርሃዊ ያነሰ",
   "purchaseErrorUnknown": "ያልታወቀ ስህተት ተከስቷል። እባክዎ ቆይተው እንደገና ይሞክሩ። ችግሩ ካልተፈታ፣ በቅንብሮች > አግኙን በኩል ያነጋግሩን። ዝርዝሮች፦ {message}",
   "purchaseErrorStoreProblem": "በ{storeName} ላይ ስህተት ተከስቷል። እባክዎ ከጥቂት ጊዜ በኋላ ዳግም ይሞክሩ።",
-  "purchaseErrorInvalidPayment": "እቅፍ ያልተደረገባት ነው። እባኮትን የተጠቃሚ አስተዳደር እና የቅዱስ ሰነድ የሚጠቀም የወንድም እቅፍ ያልተደረገባት ማስጠንቀቅ ይፈቅድ።",
+  "purchaseErrorInvalidPayment": "ክፍያው አልተሳካም። እባክዎ የክፍያ ዘዴዎ ልክ መሆኑን ያረጋግጡና እንደገና ይሞክሩ።",
   "purchaseErrorProductUnavailable": "እቅፍ የሚታይ እቅፍ አሁን የሚሸጥ አይደለም። እቅፍ ይድረስ ማለት እባክህ አፕ ድግግሞ አሟላ ይሞከሩ።",
   "purchaseErrorAlreadyPurchased": "ይህ የተገዙባቸው ትክክለኛ ነው። በዚህ መሣሪያ ላይ የተገዙባቸውን መረጃ ለመሥረዝ \"ቀደመ የተገዙ ግን እንደዚህ\" ይጠቀሙ።",
   "purchaseErrorReceiptInUse": "እቅድ ያላየው ነው። የግዢ መረጃ በሌላ ተጠቃሚ ውስጥ ተጠቃሚ ነው። {accountName}ን መረጃ ይመልከቱ።",
