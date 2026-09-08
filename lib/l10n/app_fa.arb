@@ -195,7 +195,7 @@
   "groupCreationLimitReached": "در طرح رایگان نمی‌توانید گروه بیشتری ایجاد کنید.",
   "increaseGroupLimitWithPremium": "با طرح پریمیوم می‌توانید گروه‌های بیشتری ایجاد کنید",
   "invitationCode": "کد دعوت",
-  "invitationCodeShareDescription": "برای دعوت از اعضا، این کد را به اشتراک بگذارید",
+  "invitationCodeShareDescription": "این کد را برای دعوت از اعضا به اشتراک بگذارید",
   "invitationCodeExpiresAt": "معتبر تا: {date}",
   "copyInvitationCode": "کپی کد",
   "invitationCodeCopied": "کد دعوت کپی شد",

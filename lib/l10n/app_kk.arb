@@ -195,7 +195,7 @@
   "groupCreationLimitReached": "Тегін жоспарда бұдан артық топ жасай алмайсыз.",
   "increaseGroupLimitWithPremium": "Premium жоспарымен қосымша топтар жасай аласыз",
   "invitationCode": "Шақыру коды",
-  "invitationCodeShareDescription": "Мүшелерді шақыру үшін осы кодты бөлісіңіз",
+  "invitationCodeShareDescription": "Мүшелерді шақыру үшін осы кодпен бөлісіңіз",
   "invitationCodeExpiresAt": "Жарамдылық мерзімі: {date}",
   "copyInvitationCode": "Кодты көшіру",
   "invitationCodeCopied": "Шақыру коды көшірілді",
