@@ -63,7 +63,7 @@
   "ok": "U redu",
   "medicationScheduleLimit": "Možete registrirati do {count} rasporeda uzimanja lijekova.",
   "increaseMedicationScheduleLimit": "Povećajte ograničenje na {count} uz Premium plan",
-  "addMedicationSchedule": "Dodaj raspored uzimanja",
+  "addMedicationSchedule": "Dodaj raspored uzimanja lijeka",
   "medicationScheduleNotificationSetting": "Postavke obavijesti o rasporedu uzimanja",
   "notificationSetting": "Postavke obavijesti",
   "enableFollowupNotification": "Uključi obavijesti o praćenju",

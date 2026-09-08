@@ -63,7 +63,7 @@
   "ok": "OK",
   "medicationScheduleLimit": "{count}-dək dərman qəbulu cədvəli qeydiyyatdan keçirə bilərsiniz.",
   "increaseMedicationScheduleLimit": "Premium planla limiti {count}-ə artırın",
-  "addMedicationSchedule": "Qəbul cədvəlini əlavə et",
+  "addMedicationSchedule": "Dərman qəbul cədvəli əlavə et",
   "medicationScheduleNotificationSetting": "Dərman qəbulu cədvəli bildiriş parametrləri",
   "notificationSetting": "Bildiriş ayarları",
   "enableFollowupNotification": "İzləmə bildirişini aktivləşdirin",

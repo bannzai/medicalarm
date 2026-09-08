@@ -63,7 +63,7 @@
   "ok": "Labi",
   "medicationScheduleLimit": "Varat reģistrēt līdz {count} zāļu lietošanas grafikiem.",
   "increaseMedicationScheduleLimit": "Palielināt limitu līdz {count}, izmantojot Premium plānu",
-  "addMedicationSchedule": "Pievienot medikamentu grafiku",
+  "addMedicationSchedule": "Pievienot zāļu lietošanas grafiku",
   "medicationScheduleNotificationSetting": "Zāļu lietošanas grafika paziņojumu iestatīšana",
   "notificationSetting": "Paziņojumu iestatījumi",
   "enableFollowupNotification": "Ieslēgt sekošanas paziņojumus",

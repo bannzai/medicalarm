@@ -63,7 +63,7 @@
   "ok": "OK",
   "medicationScheduleLimit": "Jy kan tot {count} medikasieskedules registreer.",
   "increaseMedicationScheduleLimit": "Verhoog die limiet na {count} met die Premium-plan",
-  "addMedicationSchedule": "Voeg inname-skedule by",
+  "addMedicationSchedule": "Voeg medikasieskedule by",
   "medicationScheduleNotificationSetting": "Korreksie van die instelling van die medikasie skedule kennisgewing",
   "notificationSetting": "Kennisgewing instellings",
   "enableFollowupNotification": "Aktiveer opvolgkennisgewings",

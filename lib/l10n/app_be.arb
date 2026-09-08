@@ -63,7 +63,7 @@
   "ok": "Добра",
   "medicationScheduleLimit": "Можна зарэгістраваць да {count} раскладаў прыёму лекаў.",
   "increaseMedicationScheduleLimit": "Павялічыць ліміт да {count} з прэміум-планам",
-  "addMedicationSchedule": "Дадаць расклад прыёму лекі",
+  "addMedicationSchedule": "Дадаць расклад прыёму лекаў",
   "medicationScheduleNotificationSetting": "Наладка апавяшчэння графіка прыёму",
   "notificationSetting": "Настройка апавядання",
   "enableFollowupNotification": "Уключыць апавяшчэнні аб дадатковым маніторынгу",

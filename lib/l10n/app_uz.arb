@@ -63,7 +63,7 @@
   "ok": "OK",
   "medicationScheduleLimit": "Ko‘pi bilan {count} ta dori qabul qilish jadvalini ro‘yxatdan o‘tkazishingiz mumkin.",
   "increaseMedicationScheduleLimit": "Premium tarif bilan limitni {count} gacha oshirish",
-  "addMedicationSchedule": "Qabul jadvalini qo'shish",
+  "addMedicationSchedule": "Dori qabul qilish jadvalini qo‘shish",
   "medicationScheduleNotificationSetting": "Doriq rejasi uchun xabarnoma sozlamalari",
   "notificationSetting": "Bildirishnoma sozlamalari",
   "enableFollowupNotification": "Kuzatish xabarnomasini yoqish",

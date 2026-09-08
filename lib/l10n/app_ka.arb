@@ -63,7 +63,7 @@
   "ok": "კარგი",
   "medicationScheduleLimit": "შეგიძლიათ დაარეგისტრიროთ მედიკამენტების მიღების მაქსიმუმ {count} განრიგი.",
   "increaseMedicationScheduleLimit": "Premium გეგმით ლიმიტის {count}-მდე გაზრდა",
-  "addMedicationSchedule": "მედიკამენტების გრაფიკის დამატება",
+  "addMedicationSchedule": "მედიკამენტების მიღების განრიგის დამატება",
   "medicationScheduleNotificationSetting": "მკურნალობის განრიგის შეტყობინების პარამეტრები",
   "notificationSetting": "შეტყობინების პარამეტრები",
   "enableFollowupNotification": "შეფასების შეტყობინების აქტივაცია",

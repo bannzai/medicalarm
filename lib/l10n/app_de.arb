@@ -63,7 +63,7 @@
   "ok": "OK",
   "medicationScheduleLimit": "Sie können bis zu {count} Einnahmepläne registrieren.",
   "increaseMedicationScheduleLimit": "Limit mit dem Premium-Abo auf {count} erhöhen",
-  "addMedicationSchedule": "Medikationszeitplan hinzufügen",
+  "addMedicationSchedule": "Medikamentenplan hinzufügen",
   "medicationScheduleNotificationSetting": "Benachrichtigungseinstellungen für den Medikamenteneinnahmezeitplan",
   "notificationSetting": "Benachrichtigungseinstellungen",
   "enableFollowupNotification": "Folgenachricht aktivieren",

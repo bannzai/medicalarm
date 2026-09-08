@@ -63,7 +63,7 @@
   "ok": "យល់ព្រម",
   "medicationScheduleLimit": "អ្នកអាចចុះឈ្មោះកាលវិភាគប្រើថ្នាំបានរហូតដល់ {count}។",
   "increaseMedicationScheduleLimit": "បង្កើនកម្រិតកំណត់ដល់ {count} ជាមួយគម្រោង Premium",
-  "addMedicationSchedule": "ប្តូរពេលវេលាសម្រាប់ការទទួល",
+  "addMedicationSchedule": "បន្ថែមកាលវិភាគប្រើថ្នាំ",
   "medicationScheduleNotificationSetting": "ការកំណត់ការជូនដំណឹងកាលវិភាគការទទួលยา",
   "notificationSetting": "កំណត់ការជូនដំណឹង",
   "enableFollowupNotification": "បញ្ជូនម៉ាស៊ីនកំណត់ការតាមដានឱ្យអនុវត្ត",

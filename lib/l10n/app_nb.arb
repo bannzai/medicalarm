@@ -63,7 +63,7 @@
   "ok": "OK",
   "medicationScheduleLimit": "Du kan registrere opptil {count} medisineringsplaner.",
   "increaseMedicationScheduleLimit": "Øk grensen til {count} med Premium-abonnementet",
-  "addMedicationSchedule": "Legg til medisineringstidspunkt",
+  "addMedicationSchedule": "Legg til medisinplan",
   "medicationScheduleNotificationSetting": "Innstilling av medisineringstidspåminnelse",
   "notificationSetting": "Varslingsinnstillinger",
   "enableFollowupNotification": "Aktiver påminnelse for oppfølging",

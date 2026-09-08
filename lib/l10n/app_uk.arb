@@ -63,7 +63,7 @@
   "ok": "Гаразд",
   "medicationScheduleLimit": "Можна зареєструвати до {count} розкладів приймання ліків.",
   "increaseMedicationScheduleLimit": "Збільшити ліміт до {count} із планом Premium",
-  "addMedicationSchedule": "Add Dosage Schedule",
+  "addMedicationSchedule": "Додати розклад приймання ліків",
   "medicationScheduleNotificationSetting": "Medication Schedule Notification Settings",
   "notificationSetting": "Notification Settings",
   "enableFollowupNotification": "Enable follow-up notifications",

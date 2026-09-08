@@ -63,7 +63,7 @@
   "ok": "OK",
   "medicationScheduleLimit": "Du kan registrera upp till {count} läkemedelsscheman.",
   "increaseMedicationScheduleLimit": "Öka gränsen till {count} med Premium-planen",
-  "addMedicationSchedule": "Lägg till doseringsschema",
+  "addMedicationSchedule": "Lägg till läkemedelsschema",
   "medicationScheduleNotificationSetting": "Meddelandeinställningar för doseringsschema",
   "notificationSetting": "Notisinställningar",
   "enableFollowupNotification": "Aktivera följa upp meddelanden",

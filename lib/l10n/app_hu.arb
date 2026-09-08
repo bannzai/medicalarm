@@ -63,7 +63,7 @@
   "ok": "OK",
   "medicationScheduleLimit": "Legfeljebb {count} gyógyszerszedési ütemezést regisztrálhat.",
   "increaseMedicationScheduleLimit": "A korlát növelése {count}-re Premium csomaggal",
-  "addMedicationSchedule": "Gyógyszerszedési ütemterv hozzáadása",
+  "addMedicationSchedule": "Gyógyszeres ütemezés hozzáadása",
   "medicationScheduleNotificationSetting": "Gyógyszeres ütemezés értesítési beállítás",
   "notificationSetting": "Értesítési beállítások",
   "enableFollowupNotification": "Kövesse nyomon az értesítéseket",

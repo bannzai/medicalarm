@@ -63,7 +63,7 @@
   "ok": "సరే",
   "medicationScheduleLimit": "మీరు గరిష్ఠంగా {count} మందుల వినియోగ షెడ్యూళ్లను నమోదు చేయవచ్చు.",
   "increaseMedicationScheduleLimit": "ప్రీమియం ప్లాన్‌తో పరిమితిని {count}కి పెంచండి",
-  "addMedicationSchedule": "షెడ్యూల్‌లో టాబ్లెట్ చేర్చండి",
+  "addMedicationSchedule": "మందులు తీసుకునే షెడ్యూల్‌ను జోడించండి",
   "medicationScheduleNotificationSetting": "మందులు తీసుకునే షెడ్యూల్ నోటిఫికేషన్ సెటప్",
   "notificationSetting": "అంచనా ప్రణాళిక",
   "enableFollowupNotification": "ఫాలోఅప్ నోటిఫికేషన్‌లను ప్రారంభించు",

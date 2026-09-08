@@ -63,7 +63,7 @@
   "ok": "OK",
   "medicationScheduleLimit": "Bạn có thể đăng ký tối đa {count} lịch uống thuốc.",
   "increaseMedicationScheduleLimit": "Tăng giới hạn lên {count} với gói Premium",
-  "addMedicationSchedule": "Thêm lịch trình dùng thuốc",
+  "addMedicationSchedule": "Thêm lịch uống thuốc",
   "medicationScheduleNotificationSetting": "Cài đặt thông báo lịch uống thuốc",
   "notificationSetting": "Cài đặt thông báo",
   "enableFollowupNotification": "Bật thông báo theo dõi",

@@ -63,7 +63,7 @@
   "ok": "OK",
   "medicationScheduleLimit": "Μπορείτε να καταχωρίσετε έως και {count} προγράμματα λήψης φαρμάκων.",
   "increaseMedicationScheduleLimit": "Αυξήστε το όριο σε {count} με το πρόγραμμα Premium",
-  "addMedicationSchedule": "Προσθήκη προγράμματος λήψης",
+  "addMedicationSchedule": "Προσθήκη προγράμματος λήψης φαρμάκων",
   "medicationScheduleNotificationSetting": "Ρύθμιση ειδοποιήσεων προγράμματος φαρμακευτικής αγωγής",
   "notificationSetting": "Ρυθμίσεις ειδοποιήσεων",
   "enableFollowupNotification": "Ενεργοποίηση της ειδοποίησης παρακολούθησης",

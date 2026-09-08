@@ -63,7 +63,7 @@
   "ok": "Макул",
   "medicationScheduleLimit": "{count} чейин дары ичүү графигин каттай аласыз.",
   "increaseMedicationScheduleLimit": "Premium планы менен чекти {count}ге чейин көбөйтүү",
-  "addMedicationSchedule": "Дозаны пландын кошуу",
+  "addMedicationSchedule": "Дары ичүү графигин кошуу",
   "medicationScheduleNotificationSetting": "Дарыя графигин нотациясы",
   "notificationSetting": "Эскертүү орнотулуулары",
   "enableFollowupNotification": "Келтирүү эскертүүлөрүн иштетүү",

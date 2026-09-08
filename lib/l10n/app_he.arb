@@ -63,7 +63,7 @@
   "ok": "אישור",
   "medicationScheduleLimit": "ניתן לרשום עד {count} לוחות זמנים לנטילת תרופות.",
   "increaseMedicationScheduleLimit": "הגדלת המגבלה ל־{count} באמצעות תוכנית Premium",
-  "addMedicationSchedule": "הוסף לוח זמנים ללקיחה",
+  "addMedicationSchedule": "הוספת לוח זמנים לנטילת תרופות",
   "medicationScheduleNotificationSetting": "הגדרת התראות על לוח הזמנים של התרופות",
   "notificationSetting": "הגדרות התראות",
   "enableFollowupNotification": "הפעל התראות מעקב",

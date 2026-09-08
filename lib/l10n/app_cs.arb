@@ -63,7 +63,7 @@
   "ok": "OK",
   "medicationScheduleLimit": "Můžete zaregistrovat až {count} rozvrhů užívání léků.",
   "increaseMedicationScheduleLimit": "Zvyšte limit na {count} s prémiovým tarifem",
-  "addMedicationSchedule": "Přidat plán užívání",
+  "addMedicationSchedule": "Přidat plán užívání léků",
   "medicationScheduleNotificationSetting": "Nastavení upozornění na plán užívání",
   "notificationSetting": "Nastavení notifikací",
   "enableFollowupNotification": "Povolit upozornění pro sledování",

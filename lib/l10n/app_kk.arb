@@ -63,7 +63,7 @@
   "ok": "Жақсы",
   "medicationScheduleLimit": "{count}-ке дейін дәрі қабылдау кестесін тіркей аласыз.",
   "increaseMedicationScheduleLimit": "Premium жоспарымен шекті {count}-ге дейін арттыру",
-  "addMedicationSchedule": "Емдеуді жоспарлауды қосу",
+  "addMedicationSchedule": "Дәрі қабылдау кестесін қосу",
   "medicationScheduleNotificationSetting": "Дәрі қабылдау кестесінің хабарландыру параметрі",
   "notificationSetting": "Хабарландыру параметрлері",
   "enableFollowupNotification": "Күзету хабарламаларын қосу",

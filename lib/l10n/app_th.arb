@@ -63,7 +63,7 @@
   "ok": "ตกลง",
   "medicationScheduleLimit": "คุณสามารถลงทะเบียนตารางการรับประทานยาได้สูงสุด {count} รายการ",
   "increaseMedicationScheduleLimit": "เพิ่มขีดจำกัดเป็น {count} ด้วยแพ็กเกจ Premium",
-  "addMedicationSchedule": "เพิ่มตารางการใช้ยา",
+  "addMedicationSchedule": "เพิ่มตารางการรับประทานยา",
   "medicationScheduleNotificationSetting": "การตั้งค่าการแจ้งเตือนตารางการใช้ยา",
   "notificationSetting": "การตั้งค่าแจ้งเตือน",
   "enableFollowupNotification": "เปิดการแจ้งเตือนติดตาม",

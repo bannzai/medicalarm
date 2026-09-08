@@ -63,7 +63,7 @@
   "ok": "OK",
   "medicationScheduleLimit": "Pode registar até {count} horários de toma de medicamentos.",
   "increaseMedicationScheduleLimit": "Aumente o limite para {count} com o plano Premium",
-  "addMedicationSchedule": "Adicionar programação de medicação",
+  "addMedicationSchedule": "Adicionar horário da medicação",
   "medicationScheduleNotificationSetting": "Configuração de Notificações do Cronograma de Medicação",
   "notificationSetting": "Configurações de Notificação",
   "enableFollowupNotification": "Ativar notificações de acompanhamento",

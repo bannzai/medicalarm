@@ -63,7 +63,7 @@
   "ok": "Í lagi",
   "medicationScheduleLimit": "Þú getur skráð allt að {count} lyfjatökuáætlanir.",
   "increaseMedicationScheduleLimit": "Hækkaðu hámarkið í {count} með Premium-áskrift",
-  "addMedicationSchedule": "Bæta við lyfjaskráningu",
+  "addMedicationSchedule": "Bæta við lyfjatökuáætlun",
   "medicationScheduleNotificationSetting": "Skilgreining á tilkynningum um skammtatímasetningu",
   "notificationSetting": "Tilkynningarstilla",
   "enableFollowupNotification": "Virkja eftirfylgni tilkynningar",

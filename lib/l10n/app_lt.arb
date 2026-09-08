@@ -63,7 +63,7 @@
   "ok": "Gerai",
   "medicationScheduleLimit": "Galite užregistruoti iki {count} vaistų vartojimo tvarkaraščių.",
   "increaseMedicationScheduleLimit": "Padidinkite limitą iki {count} naudodami „Premium“ planą",
-  "addMedicationSchedule": "Pridėti vartojimo tvarkaraštį",
+  "addMedicationSchedule": "Pridėti vaistų vartojimo tvarkaraštį",
   "medicationScheduleNotificationSetting": "Vaistų vartojimo grafiko pranešimų nustatymas",
   "notificationSetting": "Pranešimų nustatymai",
   "enableFollowupNotification": "Įgalinti sekimo pranešimus",

@@ -63,7 +63,7 @@
   "ok": "V redu",
   "medicationScheduleLimit": "Registrirate lahko do {count} urnikov jemanja zdravil.",
   "increaseMedicationScheduleLimit": "Povečajte omejitev na {count} s paketom Premium",
-  "addMedicationSchedule": "Dodajanje razporeda jemanja",
+  "addMedicationSchedule": "Dodaj urnik jemanja zdravil",
   "medicationScheduleNotificationSetting": "Nastavitev obvestil za urnik jemanja",
   "notificationSetting": "Nastavitve obvestil",
   "enableFollowupNotification": "Omogoči obvestila za spremljanje",

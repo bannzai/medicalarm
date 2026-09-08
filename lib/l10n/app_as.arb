@@ -63,7 +63,7 @@
   "ok": "ঠিক আছে",
   "medicationScheduleLimit": "আপুনি {count}টালৈকে ঔষধ সেৱনৰ সময়সূচী পঞ্জীয়ন কৰিব পাৰে।",
   "increaseMedicationScheduleLimit": "প্ৰিমিয়াম প্লেনে সীমা {count} লৈ বৃদ্ধি কৰক",
-  "addMedicationSchedule": "নতুন ঔষধ গ্রহণের সময়সূচী যোগ করুন",
+  "addMedicationSchedule": "ঔষধ সেৱনৰ সময়সূচী যোগ কৰক",
   "medicationScheduleNotificationSetting": "মেডিকেশন সময়সূচী বিজ্ঞপ্তি সেটিং",
   "notificationSetting": "অবগতির সেটিংস",
   "enableFollowupNotification": "ফলোআপ বিজ্ঞপ্তি সক্রিয় করুন",

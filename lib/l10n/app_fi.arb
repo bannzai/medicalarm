@@ -63,7 +63,7 @@
   "ok": "OK",
   "medicationScheduleLimit": "Voit rekisteröidä enintään {count} lääkitysaikataulua.",
   "increaseMedicationScheduleLimit": "Nosta raja {count}:een Premium-tilauksella",
-  "addMedicationSchedule": "Lisää lääkitys aikataulu",
+  "addMedicationSchedule": "Lisää lääkitysaikataulu",
   "medicationScheduleNotificationSetting": "Lääkkeiden ottosuunnitelman ilmoitusasetukset",
   "notificationSetting": "Ilmoitusasetukset",
   "enableFollowupNotification": "Ota seurantailmoitukset käyttöön",

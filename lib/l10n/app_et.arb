@@ -63,7 +63,7 @@
   "ok": "OK",
   "medicationScheduleLimit": "Saate registreerida kuni {count} ravimivõtmise ajakava.",
   "increaseMedicationScheduleLimit": "Suurenda limiit Premium-paketiga väärtuseni {count}",
-  "addMedicationSchedule": "Lisa raviskeemide ajakava",
+  "addMedicationSchedule": "Lisa ravimite võtmise ajakava",
   "medicationScheduleNotificationSetting": "Ravimi ajakava teavituste seadistamine",
   "notificationSetting": "Teavituste seadistamine",
   "enableFollowupNotification": "Aktiivige järelmeetmete teavitused",

@@ -63,7 +63,7 @@
   "ok": "ОК",
   "medicationScheduleLimit": "Можно зарегистрировать до {count} расписаний приёма лекарств.",
   "increaseMedicationScheduleLimit": "Увеличить лимит до {count} с планом Premium",
-  "addMedicationSchedule": "Добавить расписание приема",
+  "addMedicationSchedule": "Добавить расписание приёма лекарств",
   "medicationScheduleNotificationSetting": "Настройки уведомлений о расписании приема",
   "notificationSetting": "Настройки уведомлений",
   "enableFollowupNotification": "Включите уведомления о последующем обследовании",

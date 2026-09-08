@@ -63,7 +63,7 @@
   "ok": "ОК",
   "medicationScheduleLimit": "Можете да регистрирате до {count} графика за прием на лекарства.",
   "increaseMedicationScheduleLimit": "Увеличете лимита до {count} с Premium план",
-  "addMedicationSchedule": "Добавяне на график за прием",
+  "addMedicationSchedule": "Добавяне на график за прием на лекарства",
   "medicationScheduleNotificationSetting": "Настройка известия за график на приема",
   "notificationSetting": "Настройки на уведомления",
   "enableFollowupNotification": "Активирайте уведомления за проследяване",

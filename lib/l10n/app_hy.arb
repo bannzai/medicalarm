@@ -63,7 +63,7 @@
   "ok": "Լավ",
   "medicationScheduleLimit": "Դուք կարող եք գրանցել մինչև {count} դեղորայքի ընդունման ժամանակացույց։",
   "increaseMedicationScheduleLimit": "Premium պլանով սահմանաչափը հասցրեք {count}-ի",
-  "addMedicationSchedule": "Ավելացնել դեղամիջոցի դավաճանության գրաֆիկ",
+  "addMedicationSchedule": "Ավելացնել դեղորայքի ընդունման ժամանակացույց",
   "medicationScheduleNotificationSetting": "Դեղամիջոցների ժամանակացույցի ծանուցման կարգավորումներ",
   "notificationSetting": "Անհայտացման կարգավորումներ",
   "enableFollowupNotification": "Enabled follow-up notifications",

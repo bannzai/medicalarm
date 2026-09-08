@@ -63,7 +63,7 @@
   "ok": "እሺ",
   "medicationScheduleLimit": "እስከ {count} የመድኃኒት መውሰጃ መርሃ ግብሮችን መመዝገብ ይችላሉ።",
   "increaseMedicationScheduleLimit": "በPremium ዕቅድ ገደቡን ወደ {count} ያሳድጉ",
-  "addMedicationSchedule": "መድህን ቀን ወቅት ይጨምሩ",
+  "addMedicationSchedule": "የመድሃኒት መውሰጃ መርሃ ግብር ያክሉ",
   "medicationScheduleNotificationSetting": "የመይነት ጊዜ ማሳወቅ መቅጣት አስተዳደር",
   "notificationSetting": "መረጃ መስመር ይቀንሱ",
   "enableFollowupNotification": "እንከፍከፍ ማሳያ ማስታወቂያ ማንበብ አስቀድመን እንደሚለው እንደ ምርጥ አይቻልም",

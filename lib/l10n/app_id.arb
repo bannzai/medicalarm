@@ -63,7 +63,7 @@
   "ok": "OK",
   "medicationScheduleLimit": "Anda dapat mendaftarkan hingga {count} jadwal minum obat.",
   "increaseMedicationScheduleLimit": "Tingkatkan batas menjadi {count} dengan paket Premium",
-  "addMedicationSchedule": "Tambah Jadwal Minum",
+  "addMedicationSchedule": "Tambahkan jadwal minum obat",
   "medicationScheduleNotificationSetting": "Pengaturan Pemberitahuan Jadwal Penggunaan",
   "notificationSetting": "Pengaturan Notifikasi",
   "enableFollowupNotification": "Aktifkan pemberitahuan tindak lanjut",

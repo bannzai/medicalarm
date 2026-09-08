@@ -63,7 +63,7 @@
   "ok": "Kulungile",
   "medicationScheduleLimit": "Ungabhalisa amashejuli okuphuza imithi afinyelela ku-{count}.",
   "increaseMedicationScheduleLimit": "Khulisa umkhawulo ube ngu-{count} ngohlelo lwe-Premium",
-  "addMedicationSchedule": "Faka amandla uhlelo lokusebenzisa",
+  "addMedicationSchedule": "Engeza uhlelo lokuphuza imithi",
   "medicationScheduleNotificationSetting": "Izilungiselelo zokusazisa ngesikhathi sokuthatha imishanguzo",
   "notificationSetting": "Ukucushwa kwezaziso",
   "enableFollowupNotification": "Vula izaziso zokulandela",

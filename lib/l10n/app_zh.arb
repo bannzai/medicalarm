@@ -63,7 +63,7 @@
   "ok": "确定",
   "medicationScheduleLimit": "最多可以登记 {count} 个服药计划。",
   "increaseMedicationScheduleLimit": "使用 Premium 方案将上限提高至 {count}",
-  "addMedicationSchedule": "添加服用计划",
+  "addMedicationSchedule": "添加服药计划",
   "medicationScheduleNotificationSetting": "服药计划通知设置",
   "notificationSetting": "通知设置",
   "enableFollowupNotification": "启用跟进通知",

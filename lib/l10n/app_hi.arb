@@ -63,7 +63,7 @@
   "ok": "ठीक है",
   "medicationScheduleLimit": "आप {count} तक दवा लेने के शेड्यूल दर्ज कर सकते हैं।",
   "increaseMedicationScheduleLimit": "प्रीमियम प्लान के साथ सीमा बढ़ाकर {count} करें",
-  "addMedicationSchedule": "दवा लेने का कार्यक्रम जोड़ें",
+  "addMedicationSchedule": "दवा लेने का शेड्यूल जोड़ें",
   "medicationScheduleNotificationSetting": "दवा लेने का कार्यक्रम सूचनाएँ सेटिंग",
   "notificationSetting": "सूचना सेटिंग्स",
   "enableFollowupNotification": "फॉलोअप नोटिफिकेशन सक्षम करें",

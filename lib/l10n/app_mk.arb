@@ -63,7 +63,7 @@
   "ok": "Во ред",
   "medicationScheduleLimit": "Можете да регистрирате до {count} распореди за земање лекови.",
   "increaseMedicationScheduleLimit": "Зголемете го ограничувањето на {count} со Premium планот",
-  "addMedicationSchedule": "Додади распоред за лекови",
+  "addMedicationSchedule": "Додај распоред за земање лекови",
   "medicationScheduleNotificationSetting": "Поставување известување за распоред на земање лекови",
   "notificationSetting": "Поставки на известување",
   "enableFollowupNotification": "Вклучи известувања за следење",

@@ -63,7 +63,7 @@
   "ok": "Në rregull",
   "medicationScheduleLimit": "Mund të regjistroni deri në {count} orare të marrjes së barnave.",
   "increaseMedicationScheduleLimit": "Rriteni kufirin në {count} me planin Premium",
-  "addMedicationSchedule": "Shtoni orarin e marrjes",
+  "addMedicationSchedule": "Shto orarin e marrjes së ilaçeve",
   "medicationScheduleNotificationSetting": "Cilësimi i njoftimeve për orarin e marrjes",
   "notificationSetting": "Cilësimi i njoftimeve",
   "enableFollowupNotification": "Aktivizo njoftimet e ndjekjes",
