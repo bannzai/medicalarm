@@ -29,7 +29,7 @@
   "unexpectedError": "خطای غیرمنتظره‌ای رخ داد",
   "cancel": "لغو",
   "delete": "حذف",
-  "deleteAccount": "حذف حساب",
+  "deleteAccount": "حذف حساب کاربری",
   "deleteAccountConfirm": "اطلاعات کاربر حذف خواهد شد",
   "deleteAccountMessage": "با حذف حساب، همه اطلاعات کاربر حذف می‌شود.",
   "medicationFrequency": "دفعات مصرف دارو",
