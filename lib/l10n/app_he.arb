@@ -30,7 +30,7 @@
   "cancel": "ביטול",
   "delete": "מחיקה",
   "deleteAccount": "מחיקת החשבון",
-  "deleteAccountConfirm": "מקדימה את המידע של המשתמש",
+  "deleteAccountConfirm": "פרטי המשתמש יימחקו",
   "deleteAccountMessage": "אם תסיר את החשבון, כל המידע של המשתמש יימחק.",
   "medicationFrequency": "תדירות השימוש",
   "daily": "כל יום",

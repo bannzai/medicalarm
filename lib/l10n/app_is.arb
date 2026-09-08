@@ -30,7 +30,7 @@
   "cancel": "Hætta við",
   "delete": "Eyða",
   "deleteAccount": "Eyða reikningi",
-  "deleteAccountConfirm": "Eyða notendaupplýsingum",
+  "deleteAccountConfirm": "Notandaupplýsingum verður eytt",
   "deleteAccountMessage": "Þegar þú eyðir reikningnum þínum verður öll notendaupplýsingin eytt.",
   "medicationFrequency": "Lyfjatíðni",
   "daily": "Hver dag",

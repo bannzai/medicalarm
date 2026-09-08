@@ -30,7 +30,7 @@
   "cancel": "Peruuta",
   "delete": "Poista",
   "deleteAccount": "Poista tili",
-  "deleteAccountConfirm": "Poistetaan käyttäjätiedot",
+  "deleteAccountConfirm": "Käyttäjätiedot poistetaan",
   "deleteAccountMessage": "Kun poistat tilin, kaikki käyttäjätiedot poistetaan.",
   "medicationFrequency": "Lääkkeen ottotiheys",
   "daily": "Joka päivä",

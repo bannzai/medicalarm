@@ -30,7 +30,7 @@
   "cancel": "Otkaži",
   "delete": "Obriši",
   "deleteAccount": "Izbriši račun",
-  "deleteAccountConfirm": "Izbrišite korisničke informacije",
+  "deleteAccountConfirm": "Podaci o korisniku će biti izbrisani",
   "deleteAccountMessage": "Brisanjem računa, sve korisničke informacije će biti obrisane.",
   "medicationFrequency": "Učestalost uzimanja",
   "daily": "Svaki dan",

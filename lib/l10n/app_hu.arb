@@ -30,7 +30,7 @@
   "cancel": "Mégse",
   "delete": "Törlés",
   "deleteAccount": "Fiók törlése",
-  "deleteAccountConfirm": "Felhasználói adatok törlése",
+  "deleteAccountConfirm": "A felhasználói adatok törlődnek",
   "deleteAccountMessage": "Ha törli a fiókját, az összes felhasználói információ törlésre kerül.",
   "medicationFrequency": "Adagolás gyakoriság",
   "daily": "Minden nap",

@@ -30,7 +30,7 @@
   "cancel": "Tühista",
   "delete": "Kustuta",
   "deleteAccount": "Kustuta konto",
-  "deleteAccountConfirm": "Kustutatakse kasutaja teave",
+  "deleteAccountConfirm": "Kasutaja teave kustutatakse",
   "deleteAccountMessage": "Konto kustutamisel kustutatakse kogu kasutaja teave.",
   "medicationFrequency": "Ravimite sagedus",
   "daily": "iga päev",

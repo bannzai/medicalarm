@@ -30,7 +30,7 @@
   "cancel": "Annuler",
   "delete": "Supprimer",
   "deleteAccount": "Supprimer le compte",
-  "deleteAccountConfirm": "Supprimer les informations de l'utilisateur",
+  "deleteAccountConfirm": "Les informations utilisateur seront supprimées",
   "deleteAccountMessage": "Si vous supprimez votre compte, toutes les informations utilisateur seront supprimées.",
   "medicationFrequency": "Fréquence de prise",
   "daily": "tous les jours",

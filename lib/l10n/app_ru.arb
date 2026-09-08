@@ -30,7 +30,7 @@
   "cancel": "Отмена",
   "delete": "Удалить",
   "deleteAccount": "Удалить аккаунт",
-  "deleteAccountConfirm": "Удалить информацию о пользователе",
+  "deleteAccountConfirm": "Информация о пользователе будет удалена",
   "deleteAccountMessage": "Если вы удалите аккаунт, вся информация о пользователе будет удалена.",
   "medicationFrequency": "Частота приема",
   "daily": "Каждый день",

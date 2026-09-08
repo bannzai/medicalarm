@@ -30,7 +30,7 @@
   "cancel": "Avbryt",
   "delete": "Slett",
   "deleteAccount": "Slett konto",
-  "deleteAccountConfirm": "Sletter brukerinfo",
+  "deleteAccountConfirm": "Brukerinformasjonen slettes",
   "deleteAccountMessage": "Når du sletter kontoen, blir all brukerinformasjon slettet.",
   "medicationFrequency": "Medisineringsfrekvens",
   "daily": "Hver dag",

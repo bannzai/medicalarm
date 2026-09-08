@@ -30,7 +30,7 @@
   "cancel": "取消",
   "delete": "删除",
   "deleteAccount": "删除账户",
-  "deleteAccountConfirm": "删除用户信息",
+  "deleteAccountConfirm": "将删除用户信息",
   "deleteAccountMessage": "删除账户将删除所有用户信息。",
   "medicationFrequency": "服用频率",
   "daily": "每天",

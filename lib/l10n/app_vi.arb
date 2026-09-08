@@ -30,7 +30,7 @@
   "cancel": "Hủy",
   "delete": "Xóa",
   "deleteAccount": "Xóa tài khoản",
-  "deleteAccountConfirm": "Xóa thông tin người dùng",
+  "deleteAccountConfirm": "Thông tin người dùng sẽ bị xóa",
   "deleteAccountMessage": "Khi bạn xóa tài khoản, tất cả thông tin người dùng sẽ bị xóa.",
   "medicationFrequency": "Tần suất sử dụng",
   "daily": "Hàng ngày",

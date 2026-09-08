@@ -30,7 +30,7 @@
   "cancel": "İptal",
   "delete": "Sil",
   "deleteAccount": "Hesabı sil",
-  "deleteAccountConfirm": "Kullanıcı bilgilerini sil",
+  "deleteAccountConfirm": "Kullanıcı bilgileri silinecek",
   "deleteAccountMessage": "Hesabınızı sildikten sonra, kullanıcı bilgileriniz tamamen silinecektir.",
   "medicationFrequency": "Kullanım Sıklığı",
   "daily": "her gün",

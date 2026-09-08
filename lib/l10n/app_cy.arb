@@ -30,7 +30,7 @@
   "cancel": "Canslo",
   "delete": "Dileu",
   "deleteAccount": "Dileu’r cyfrif",
-  "deleteAccountConfirm": "Dileu gwybodaeth y defnyddiwr",
+  "deleteAccountConfirm": "Bydd gwybodaeth y defnyddiwr yn cael ei dileu",
   "deleteAccountMessage": "Os yw'r cyfrif yn cael ei ddileu, bydd gwybodaeth y defnyddiwr i gyd yn cael ei dileu.",
   "medicationFrequency": "Ffrequency cymryd",
   "daily": "bob dydd",
