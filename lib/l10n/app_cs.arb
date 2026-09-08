@@ -119,7 +119,7 @@
   "purchaseErrorMissingReceipt": "Informace o kupujícím neexistují. Přihlaste se na zařízení pomocí účtu {accountName} a zkuste to znovu.",
   "purchaseErrorNetwork": "Síťové připojení je nestabilní. Zkontrolujte připojení a zkuste to znovu.",
   "purchaseNotAllowed": "Nákupy nejsou na tomto zařízení povoleny",
-  "purchaseErrorInvalidCredentials": "Nákup se nezdařil. Zkuste to znovu později. Pokud problém přetrvá, kontaktujte nás v Nastavení > Kontaktujte nás. Podrobnosti: {message}",
+  "purchaseErrorInvalidCredentials": "Nákup se nezdařil. Zkuste to znovu později. Pokud problém přetrvá, kontaktujte nás v nabídce Nastavení > Kontaktujte nás. Podrobnosti: {message}",
   "purchaseErrorUnexpectedBackend": "Nákup nyní nelze dokončit. Zkuste to znovu později. Pokud problém přetrvá, kontaktujte nás přes Nastavení > Kontakt. Podrobnosti: {message}",
   "purchaseErrorOperationInProgress": "Nákup již probíhá. Zkuste to znovu později.",
   "purchaseErrorInsufficientPermissions": "S účtem {accountName} se nemůžete přihlásit k odběru plánu. Zkontrolujte platební údaje a zkuste to znovu",

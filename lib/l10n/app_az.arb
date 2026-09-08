@@ -119,7 +119,7 @@
   "purchaseErrorMissingReceipt": "Alıcının məlumatları mövcud deyil. Cihazda {accountName} ilə daxil olun və yenidən cəhd edin.",
   "purchaseErrorNetwork": "Şəbəkə bağlantısı qeyri-sabitdir. Bağlantınızı yoxlayın və yenidən cəhd edin.",
   "purchaseNotAllowed": "Bu cihazda alış-verişə icazə verilmir",
-  "purchaseErrorInvalidCredentials": "Satınalma uğursuz oldu. Bir qədər sonra yenidən cəhd edin. Problem davam edərsə, Parametrlər > Bizimlə əlaqə bölməsindən bizə müraciət edin. Təfərrüatlar: {message}",
+  "purchaseErrorInvalidCredentials": "Satınalma uğursuz oldu. Bir az sonra yenidən cəhd edin. Problem davam edərsə, Parametrlər > Bizimlə əlaqə bölməsindən bizə müraciət edin. Təfərrüatlar: {message}",
   "purchaseErrorUnexpectedBackend": "Hazırda satınalma mümkün deyil. Bir qədər sonra yenidən cəhd edin. Problem həll olunmasa, Parametrlər > Bizimlə əlaqə bölməsindən bizə müraciət edin. Təfərrüatlar: {message}",
   "purchaseErrorOperationInProgress": "Satınalma əməliyyatı artıq davam edir. Zəhmət olmasa, bir müddət sonra yenidən cəhd edin.",
   "purchaseErrorInsufficientPermissions": "{accountName} ilə plana abunə ola bilməzsiniz. Ödəniş məlumatlarınızı yoxlayın və yenidən cəhd edin",

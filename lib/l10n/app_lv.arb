@@ -119,7 +119,7 @@
   "purchaseErrorMissingReceipt": "Pircēja informācija nav pieejama. Pierakstieties ierīcē ar {accountName} un mēģiniet vēlreiz.",
   "purchaseErrorNetwork": "Tīkla savienojums ir nestabils. Pārbaudiet savienojumu un mēģiniet vēlreiz.",
   "purchaseNotAllowed": "Šajā ierīcē pirkumi nav atļauti",
-  "purchaseErrorInvalidCredentials": "Pirkums neizdevās. Pēc kāda laika mēģiniet vēlreiz. Ja problēma joprojām pastāv, sazinieties ar mums sadaļā Iestatījumi > Sazināties ar mums. Detalizēta informācija: {message}",
+  "purchaseErrorInvalidCredentials": "Pirkums neizdevās. Lūdzu, mēģiniet vēlreiz vēlāk. Ja problēma turpinās, sazinieties ar mums sadaļā Iestatījumi > Sazināties ar mums. Detalizēta informācija: {message}",
   "purchaseErrorUnexpectedBackend": "Šobrīd pirkumu nevar pabeigt. Lūdzu, mēģiniet vēlreiz vēlāk. Ja problēma atkārtojas, sazinieties ar mums sadaļā Iestatījumi > Saziņa. Detalizēta informācija: {message}",
   "purchaseErrorOperationInProgress": "Pirkums jau tiek apstrādāts. Lūdzu, mēģiniet vēlāk vēlreiz.",
   "purchaseErrorInsufficientPermissions": "Ar {accountName} nevarat abonēt plānu. Pārbaudiet maksājuma informāciju un mēģiniet vēlreiz",

@@ -119,7 +119,7 @@
   "purchaseErrorMissingReceipt": "Podatki o kupcu ne obstajajo. V napravi se prijavite z računom {accountName} in poskusite znova.",
   "purchaseErrorNetwork": "Omrežna povezava je nestabilna. Preverite povezavo in poskusite znova.",
   "purchaseNotAllowed": "Nakupi v tej napravi niso dovoljeni",
-  "purchaseErrorInvalidCredentials": "Nakup ni uspel. Poskusite znova pozneje. Če težava ne bo odpravljena, nas kontaktirajte v meniju Nastavitve > Stik z nami. Podrobnosti: {message}",
+  "purchaseErrorInvalidCredentials": "Nakup ni uspel. Poskusite znova pozneje. Če težava ne odpravi, nas kontaktirajte prek Nastavitve > Stik z nami. Podrobnosti: {message}",
   "purchaseErrorUnexpectedBackend": "Nakupa trenutno ni mogoče dokončati. Poskusite znova pozneje. Če težava ne izgine, nas kontaktirajte prek Nastavitve > Stik. Podrobnosti: {message}",
   "purchaseErrorOperationInProgress": "Nakup je že v postopku. Poskusite znova pozneje.",
   "purchaseErrorInsufficientPermissions": "S računom {accountName} se ne morete naročiti na paket. Preverite podatke za plačilo in poskusite znova",

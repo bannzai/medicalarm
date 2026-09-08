@@ -119,7 +119,7 @@
   "purchaseErrorMissingReceipt": "Podaci o kupcu ne postoje. Prijavite se na uređaj pomoću naloga {accountName} i pokušajte ponovo.",
   "purchaseErrorNetwork": "Mrežna veza je nestabilna. Provjerite vezu i pokušajte ponovo.",
   "purchaseNotAllowed": "Kupovina nije dozvoljena na ovom uređaju",
-  "purchaseErrorInvalidCredentials": "Kupovina nije uspjela. Pokušajte ponovo kasnije. Ako se problem nastavi, obratite nam se putem Postavke > Kontaktirajte nas. Detalji: {message}",
+  "purchaseErrorInvalidCredentials": "Kupovina nije uspjela. Pokušajte ponovo kasnije. Ako problem potraje, kontaktirajte nas putem Postavke > Kontaktirajte nas. Detalji: {message}",
   "purchaseErrorUnexpectedBackend": "Kupovinu trenutno nije moguće dovršiti. Pokušajte ponovo kasnije. Ako problem i dalje postoji, kontaktirajte nas putem Postavke > Kontakt. Detalji: {message}",
   "purchaseErrorOperationInProgress": "Kupovina je već u toku. Pokušajte ponovo kasnije.",
   "purchaseErrorInsufficientPermissions": "Ne možete se pretplatiti na plan putem računa {accountName}. Provjerite podatke za plaćanje i pokušajte ponovo",

@@ -119,7 +119,7 @@
   "purchaseErrorMissingReceipt": "Det finns ingen information om köparen. Logga in på enheten med {accountName} och försök igen.",
   "purchaseErrorNetwork": "Nätverksanslutningen är instabil. Kontrollera anslutningen och försök igen.",
   "purchaseNotAllowed": "Köp tillåts inte på den här enheten",
-  "purchaseErrorInvalidCredentials": "Köpet misslyckades. Försök igen senare. Om problemet kvarstår kan du kontakta oss via Inställningar > Kontakta oss. Detaljer: {message}",
+  "purchaseErrorInvalidCredentials": "Köpet kunde inte genomföras. Försök igen senare. Om problemet kvarstår kan du kontakta oss via Inställningar > Kontakta oss. Detaljer: {message}",
   "purchaseErrorUnexpectedBackend": "Köpet kan inte slutföras just nu. Försök igen senare. Om problemet kvarstår kan du kontakta oss via Inställningar > Kontakt. Detaljer: {message}",
   "purchaseErrorOperationInProgress": "Ett köp pågår redan. Försök igen senare.",
   "purchaseErrorInsufficientPermissions": "Du kan inte prenumerera på en plan med {accountName}. Kontrollera betalningsinformationen och försök igen",

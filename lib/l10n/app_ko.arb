@@ -119,7 +119,7 @@
   "purchaseErrorMissingReceipt": "구매자 정보가 없습니다. 기기에서 {accountName}(으)로 로그인한 후 다시 시도해 주세요.",
   "purchaseErrorNetwork": "네트워크 연결이 불안정합니다. 연결 상태를 확인한 후 다시 시도해 주세요.",
   "purchaseNotAllowed": "이 기기에서는 구매가 허용되지 않습니다",
-  "purchaseErrorInvalidCredentials": "구매에 실패했습니다. 잠시 후 다시 시도해 주세요. 문제가 계속되면 설정 > 문의하기에서 문의해 주세요. 세부 정보: {message}",
+  "purchaseErrorInvalidCredentials": "구매에 실패했습니다. 잠시 후 다시 시도해 주세요. 문제가 계속되면 설정 > 문의하기를 통해 문의해 주세요. 세부 정보: {message}",
   "purchaseErrorUnexpectedBackend": "현재 구매를 완료할 수 없습니다. 잠시 후 다시 시도해 주세요. 문제가 계속되면 설정 > 문의하기에서 문의해 주세요. 세부 정보: {message}",
   "purchaseErrorOperationInProgress": "구매가 이미 진행 중입니다. 잠시 후 다시 시도해 주세요.",
   "purchaseErrorInsufficientPermissions": "{accountName}으로는 요금제에 가입할 수 없습니다. 결제 정보를 확인한 후 다시 시도해 주세요",

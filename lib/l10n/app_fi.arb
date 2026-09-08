@@ -119,7 +119,7 @@
   "purchaseErrorMissingReceipt": "Ostajan tietoja ei ole. Kirjaudu laitteelle tilillä {accountName} ja yritä uudelleen.",
   "purchaseErrorNetwork": "Verkkoyhteys on epävakaa. Tarkista yhteys ja yritä uudelleen.",
   "purchaseNotAllowed": "Ostokset eivät ole sallittuja tällä laitteella",
-  "purchaseErrorInvalidCredentials": "Osto epäonnistui. Yritä myöhemmin uudelleen. Jos ongelma jatkuu, ota meihin yhteyttä kohdassa Asetukset > Ota yhteyttä. Tiedot: {message}",
+  "purchaseErrorInvalidCredentials": "Osto epäonnistui. Yritä myöhemmin uudelleen. Jos ongelma jatkuu, ota meihin yhteyttä kohdasta Asetukset > Ota yhteyttä. Tiedot: {message}",
   "purchaseErrorUnexpectedBackend": "Ostosta ei voi suorittaa juuri nyt. Yritä hetken kuluttua uudelleen. Jos ongelma jatkuu, ota meihin yhteyttä kohdasta Asetukset > Yhteydenotto. Tiedot: {message}",
   "purchaseErrorOperationInProgress": "Ostoprosessi on jo käynnissä. Yritä myöhemmin uudelleen.",
   "purchaseErrorInsufficientPermissions": "Et voi tilata tilausta tilillä {accountName}. Tarkista maksutietosi ja yritä uudelleen",

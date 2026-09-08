@@ -119,7 +119,7 @@
   "purchaseErrorMissingReceipt": "Không có thông tin người mua. Hãy đăng nhập vào thiết bị bằng {accountName} rồi thử lại.",
   "purchaseErrorNetwork": "Kết nối mạng không ổn định. Hãy kiểm tra kết nối và thử lại.",
   "purchaseNotAllowed": "Không được phép mua hàng trên thiết bị này",
-  "purchaseErrorInvalidCredentials": "Không thể hoàn tất giao dịch mua. Vui lòng thử lại sau. Nếu sự cố vẫn tiếp diễn, hãy liên hệ với chúng tôi trong Cài đặt > Liên hệ với chúng tôi. Chi tiết: {message}",
+  "purchaseErrorInvalidCredentials": "Không thể hoàn tất giao dịch mua. Vui lòng thử lại sau. Nếu sự cố vẫn tiếp diễn, hãy liên hệ với chúng tôi qua Cài đặt > Liên hệ với chúng tôi. Chi tiết: {message}",
   "purchaseErrorUnexpectedBackend": "Hiện không thể hoàn tất giao dịch mua. Vui lòng thử lại sau. Nếu vấn đề vẫn tiếp diễn, hãy liên hệ với chúng tôi qua Cài đặt > Liên hệ. Chi tiết: {message}",
   "purchaseErrorOperationInProgress": "Giao dịch mua đang được tiến hành. Vui lòng thử lại sau.",
   "purchaseErrorInsufficientPermissions": "Bạn không thể đăng ký gói bằng {accountName}. Hãy kiểm tra thông tin thanh toán và thử lại",

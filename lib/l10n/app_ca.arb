@@ -119,7 +119,7 @@
   "purchaseErrorMissingReceipt": "No hi ha informació del comprador. Inicia la sessió al dispositiu amb {accountName} i torna-ho a provar.",
   "purchaseErrorNetwork": "La connexió de xarxa és inestable. Comproveu la connexió i torneu-ho a provar.",
   "purchaseNotAllowed": "No es permeten compres en aquest dispositiu",
-  "purchaseErrorInvalidCredentials": "No s’ha pogut completar la compra. Torneu-ho a provar més tard. Si el problema continua, poseu-vos en contacte amb nosaltres a Configuració > Contacta amb nosaltres. Detalls: {message}",
+  "purchaseErrorInvalidCredentials": "La compra ha fallat. Torna-ho a provar més tard. Si el problema continua, contacta amb nosaltres a Configuració > Contacta amb nosaltres. Detalls: {message}",
   "purchaseErrorUnexpectedBackend": "No es pot completar la compra en aquest moment. Torna-ho a provar més tard. Si el problema persisteix, contacta amb nosaltres a Configuració > Contacte. Detalls: {message}",
   "purchaseErrorOperationInProgress": "La compra ja està en curs. Torneu-ho a provar més tard.",
   "purchaseErrorInsufficientPermissions": "No pots subscriure’t a un pla amb {accountName}. Comprova la informació de pagament i torna-ho a provar",

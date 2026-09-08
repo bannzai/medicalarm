@@ -119,7 +119,7 @@
   "purchaseErrorMissingReceipt": "Es sind keine Käuferinformationen vorhanden. Melden Sie sich auf dem Gerät mit {accountName} an und versuchen Sie es erneut.",
   "purchaseErrorNetwork": "Die Netzwerkverbindung ist instabil. Überprüfen Sie Ihre Verbindung und versuchen Sie es erneut.",
   "purchaseNotAllowed": "Käufe sind auf diesem Gerät nicht erlaubt",
-  "purchaseErrorInvalidCredentials": "Der Kauf ist fehlgeschlagen. Bitte versuchen Sie es später erneut. Wenn das Problem weiterhin besteht, kontaktieren Sie uns unter Einstellungen > Kontakt. Details: {message}",
+  "purchaseErrorInvalidCredentials": "Der Kauf ist fehlgeschlagen. Bitte versuchen Sie es später erneut. Wenn das Problem weiterhin besteht, kontaktieren Sie uns über Einstellungen > Kontakt. Details: {message}",
   "purchaseErrorUnexpectedBackend": "Der Kauf kann derzeit nicht abgeschlossen werden. Bitte versuchen Sie es später erneut. Wenn das Problem weiterhin besteht, kontaktieren Sie uns über Einstellungen > Kontakt. Details: {message}",
   "purchaseErrorOperationInProgress": "Ein Kaufvorgang läuft bereits. Bitte versuchen Sie es später erneut.",
   "purchaseErrorInsufficientPermissions": "Mit {accountName} kannst du keinen Tarif abonnieren. Überprüfe deine Zahlungsdaten und versuche es erneut",
