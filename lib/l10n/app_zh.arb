@@ -173,7 +173,7 @@
   "currentlyInPremiumTrial": "您目前正在体验 Premium 试用版",
   "medicationPause": "启用用药",
   "medicationPauseDescription": "关闭后，该药物将从用药页面和通知中移除。",
-  "medicinePausedSnackbar": "已暂时停用药物",
+  "medicinePausedSnackbar": "已暂时停止服药",
   "medicationHistoryDeletedSnackbar": "已撤销服药记录",
   "undo": "撤销",
   "medicationHistoryReverted": "服药记录已撤销",

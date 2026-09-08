@@ -173,7 +173,7 @@
   "currentlyInPremiumTrial": "Obecnie korzystasz z wersji próbnej Premium",
   "medicationPause": "Włącz lek",
   "medicationPauseDescription": "Po wyłączeniu lek zostanie wykluczony z ekranu leków i powiadomień.",
-  "medicinePausedSnackbar": "Tymczasowo wstrzymano przyjmowanie leku",
+  "medicinePausedSnackbar": "Przyjmowanie leku zostało tymczasowo wstrzymane",
   "medicationHistoryDeletedSnackbar": "Cofnięto zapis przyjęcia leku",
   "undo": "Cofnij",
   "medicationHistoryReverted": "Cofnięto wpis przyjęcia leku",

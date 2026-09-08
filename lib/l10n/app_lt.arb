@@ -173,7 +173,7 @@
   "currentlyInPremiumTrial": "Šiuo metu naudojatės „Premium“ bandomuoju laikotarpiu",
   "medicationPause": "Įjungti vaistų vartojimą",
   "medicationPauseDescription": "Išjungus, jis nebus rodomas vaistų ekrane ir pranešimuose.",
-  "medicinePausedSnackbar": "Vaistų vartojimas laikinai pristabdytas",
+  "medicinePausedSnackbar": "Vaistų vartojimas laikinai sustabdytas",
   "medicationHistoryDeletedSnackbar": "Vaistų vartojimo įrašas anuliuotas",
   "undo": "Anuliuoti",
   "medicationHistoryReverted": "Vaistų vartojimo įrašas atšauktas",
