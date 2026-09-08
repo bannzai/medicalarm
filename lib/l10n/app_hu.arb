@@ -220,7 +220,7 @@
   "linkWithGoogle": "Fiók átvitele Google-lal",
   "accountLinkedWithApple": "Összekapcsolva az Apple-lel",
   "accountLinkedWithGoogle": "Összekapcsolva a Google-lel",
-  "accountLinkedSnackbar": "A fiók átkerült",
+  "accountLinkedSnackbar": "A fiók átvitele sikerült",
   "accountLinkBannerText": "Csoportmegosztás esetén erősen javasoljuk a fiókátadás beállítását.",
   "minimumDoseInterval": "Adagolási időköz",
   "minimumDoseIntervalDescription": "Az adagok közötti minimális idő",
