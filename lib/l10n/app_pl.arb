@@ -128,7 +128,7 @@
   "premiumUserThanksMessage": "Dziękujemy za korzystanie z Medicalarm.\nDzięki Waszemu wsparciu możemy nadal rozwijać Medicalarm.",
   "premiumPricePerMonth": "({price}/miesiąc)",
   "premiumCancelDescription": "・Po zakupie możesz anulować automatyczne odnowienie w ustawieniach konta aplikacji {storeName}. (Automatycznego odnowienia nie można anulować w aplikacji.)",
-  "purchaseErrorRestoreFailed": "Nie znaleziono informacji o poprzednim zakupie. Sprawdź swoje konto i spróbuj ponownie",
+  "purchaseErrorRestoreFailed": "Nie znaleziono informacji o wcześniejszych zakupach. Sprawdź swoje konto i spróbuj ponownie.",
   "purchaseErrorUserNotFound": "Nie udało się zweryfikować użytkownika. Uruchom ponownie aplikację i spróbuj jeszcze raz. Szczegóły: {message}",
   "purchaseErrorActivationPending": "Aktywacja subskrypcji nie została ukończona. Sprawdź ponownie później.",
   "purchaseErrorTimeout": "Upłynął limit czasu. Sprawdź połączenie z siecią i spróbuj ponownie. Jeśli problem będzie się powtarzał, skontaktuj się z nami przez Ustawienia > Kontakt. Szczegóły: {message}",

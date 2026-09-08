@@ -128,7 +128,7 @@
   "premiumUserThanksMessage": "Medicalarmን ስለሚጠቀሙ እናመሰግናለን።\nለእርስዎ ድጋፍ Medicalarmን ማስቀጠል ችለናል።",
   "premiumPricePerMonth": "({price}/ወር)",
   "premiumCancelDescription": "・ከግዢ በኋላ ራስ-ሰር እድሳትን በ{storeName} መተግበሪያ የመለያ ቅንብሮች ውስጥ መሰረዝ ይችላሉ። (ራስ-ሰር እድሳትን ከመተግበሪያው ውስጥ መሰረዝ አይችሉም።)",
-  "purchaseErrorRestoreFailed": "የቀድሞ የግዢ መረጃ አልተገኘም። መለያዎን ያረጋግጡና እንደገና ይሞክሩ",
+  "purchaseErrorRestoreFailed": "የቀድሞ የግዢ መረጃ አልተገኘም። መለያዎን ያረጋግጡና እንደገና ይሞክሩ።",
   "purchaseErrorUserNotFound": "ተጠቃሚው ሊረጋገጥ አልቻለም። እባክዎ መተግበሪያውን ዳግም ያስጀምሩና እንደገና ይሞክሩ። ዝርዝር፦ {message}",
   "purchaseErrorActivationPending": "የክፍያ ማግበር ሂደቱ አልተጠናቀቀም። እባክዎ ከጥቂት ጊዜ በኋላ ይመልከቱ።",
   "purchaseErrorTimeout": "ጊዜ አልቋል። እባክዎ የኔትወርክ ግንኙነትዎን ያረጋግጡና እንደገና ይሞክሩ። ችግሩ ካልተፈታ፣ በቅንብሮች > አግኙን በኩል ያግኙን። ዝርዝር፦ {message}",

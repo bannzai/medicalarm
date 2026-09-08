@@ -128,7 +128,7 @@
   "premiumUserThanksMessage": "Asante kwa kutumia Medicalarm.\nShukrani kwa msaada wako, tunaweza kuendelea kuiendesha Medicalarm.",
   "premiumPricePerMonth": "({price}/mwezi)",
   "premiumCancelDescription": "・Baada ya kununua, unaweza kughairi usasishaji wa kiotomatiki katika mipangilio ya akaunti ya programu ya {storeName}. (Usasishaji wa kiotomatiki hauwezi kughairiwa ndani ya programu.)",
-  "purchaseErrorRestoreFailed": "Maelezo ya ununuzi uliopita hayakupatikana. Kagua akaunti yako na ujaribu tena",
+  "purchaseErrorRestoreFailed": "Maelezo ya ununuzi uliopita hayakupatikana. Kagua akaunti yako na ujaribu tena.",
   "purchaseErrorUserNotFound": "Mtumiaji hakuweza kuthibitishwa. Anzisha programu upya na ujaribu tena. Maelezo: {message}",
   "purchaseErrorActivationPending": "Uwezeshaji wa usajili haujakamilika. Tafadhali angalia tena baadaye.",
   "purchaseErrorTimeout": "Muda wa kusubiri umeisha. Angalia muunganisho wako wa mtandao na ujaribu tena. Tatizo likiendelea, wasiliana nasi kupitia Mipangilio > Wasiliana nasi. Maelezo: {message}",

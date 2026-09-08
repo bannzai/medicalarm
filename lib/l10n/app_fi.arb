@@ -128,7 +128,7 @@
   "premiumUserThanksMessage": "Kiitos, että käytät Medicalarmia.\nTukenne ansiosta voimme jatkaa Medicalarmin ylläpitoa.",
   "premiumPricePerMonth": "({price}/kk)",
   "premiumCancelDescription": "・Oston jälkeen voit peruuttaa automaattisen uusimisen {storeName}-apin tiliasetuksista. (Automaattista uusimista ei voi peruuttaa tässä apissa.)",
-  "purchaseErrorRestoreFailed": "Aiemman ostoksen tietoja ei löytynyt. Tarkista tilisi ja yritä uudelleen",
+  "purchaseErrorRestoreFailed": "Aiemmista ostoista ei löytynyt tietoja. Tarkista tilisi ja yritä uudelleen.",
   "purchaseErrorUserNotFound": "Käyttäjää ei voitu vahvistaa. Käynnistä sovellus uudelleen ja yritä uudelleen. Tiedot: {message}",
   "purchaseErrorActivationPending": "Tilauksen aktivointi ei ole vielä valmis. Tarkista tilanne myöhemmin uudelleen.",
   "purchaseErrorTimeout": "Aikakatkaisu. Tarkista verkkoyhteytesi ja yritä uudelleen. Jos ongelma jatkuu, ota meihin yhteyttä kohdassa Asetukset > Ota yhteyttä. Lisätiedot: {message}",

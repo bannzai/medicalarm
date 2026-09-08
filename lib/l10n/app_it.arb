@@ -128,7 +128,7 @@
   "premiumUserThanksMessage": "Grazie per utilizzare Medicalarm.\nGrazie al vostro supporto, possiamo continuare a gestire Medicalarm.",
   "premiumPricePerMonth": "({price}/mese)",
   "premiumCancelDescription": "・Dopo l’acquisto, puoi annullare il rinnovo automatico nelle impostazioni dell’account dell’app {storeName}. (Il rinnovo automatico non può essere annullato dall’app.)",
-  "purchaseErrorRestoreFailed": "Non sono state trovate informazioni sull’acquisto precedente. Controlla il tuo account e riprova",
+  "purchaseErrorRestoreFailed": "Non sono state trovate informazioni sugli acquisti precedenti. Controlla il tuo account e riprova.",
   "purchaseErrorUserNotFound": "Non è stato possibile verificare l’utente. Riavvia l’app e riprova. Dettagli: {message}",
   "purchaseErrorActivationPending": "L’attivazione dell’abbonamento non è completata. Controlla di nuovo più tardi.",
   "purchaseErrorTimeout": "Si è verificato un timeout. Controlla la connessione di rete e riprova. Se il problema persiste, contattaci da Impostazioni > Contatti. Dettagli: {message}",

@@ -128,7 +128,7 @@
   "premiumUserThanksMessage": "Cảm ơn bạn đã sử dụng Medicalarm.\nNhờ sự ủng hộ của bạn, chúng tôi có thể tiếp tục vận hành Medicalarm.",
   "premiumPricePerMonth": "({price}/tháng)",
   "premiumCancelDescription": "・Sau khi mua, bạn có thể hủy gia hạn tự động trong phần cài đặt tài khoản của ứng dụng {storeName}. (Không thể hủy gia hạn tự động trong ứng dụng.)",
-  "purchaseErrorRestoreFailed": "Không tìm thấy thông tin mua hàng trước đó. Hãy kiểm tra tài khoản và thử lại",
+  "purchaseErrorRestoreFailed": "Không tìm thấy thông tin mua hàng trước đây. Hãy kiểm tra tài khoản của bạn và thử lại.",
   "purchaseErrorUserNotFound": "Không thể xác minh người dùng. Hãy khởi động lại ứng dụng rồi thử lại. Chi tiết: {message}",
   "purchaseErrorActivationPending": "Quá trình kích hoạt gói đăng ký chưa hoàn tất. Vui lòng kiểm tra lại sau.",
   "purchaseErrorTimeout": "Đã hết thời gian chờ. Hãy kiểm tra kết nối mạng và thử lại. Nếu sự cố vẫn tiếp diễn, hãy liên hệ với chúng tôi tại Cài đặt > Liên hệ. Chi tiết: {message}",

@@ -128,7 +128,7 @@
   "premiumUserThanksMessage": "Merci d’utiliser Medicalarm.\nGrâce à votre soutien, nous pouvons continuer à faire fonctionner Medicalarm.",
   "premiumPricePerMonth": "({price}/mois)",
   "premiumCancelDescription": "・Après l’achat, vous pouvez résilier le renouvellement automatique dans les réglages du compte de l’app {storeName}. (Le renouvellement automatique ne peut pas être résilié depuis l’app.)",
-  "purchaseErrorRestoreFailed": "Les informations de l’achat précédent sont introuvables. Vérifiez votre compte et réessayez",
+  "purchaseErrorRestoreFailed": "Les informations sur les achats précédents sont introuvables. Vérifiez votre compte, puis réessayez.",
   "purchaseErrorUserNotFound": "Impossible de vérifier l’utilisateur. Redémarrez l’app et réessayez. Détails : {message}",
   "purchaseErrorActivationPending": "L’activation de l’abonnement n’est pas terminée. Veuillez vérifier à nouveau plus tard.",
   "purchaseErrorTimeout": "Le délai d’attente a été dépassé. Vérifiez votre connexion réseau, puis réessayez. Si le problème persiste, contactez-nous via Réglages > Contact. Détails : {message}",

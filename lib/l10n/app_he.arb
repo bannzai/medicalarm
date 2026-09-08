@@ -128,7 +128,7 @@
   "premiumUserThanksMessage": "תודה על השימוש ב‑Medicalarm.\nבזכות התמיכה שלכם, אנחנו יכולים להמשיך להפעיל את Medicalarm.",
   "premiumPricePerMonth": "({price}/חודש)",
   "premiumCancelDescription": "・לאחר הרכישה, ניתן לבטל את החידוש האוטומטי בהגדרות החשבון באפליקציית {storeName}. (לא ניתן לבטל את החידוש האוטומטי מתוך האפליקציה.)",
-  "purchaseErrorRestoreFailed": "פרטי הרכישה הקודמת לא נמצאו. יש לבדוק את החשבון ולנסות שוב",
+  "purchaseErrorRestoreFailed": "לא ניתן למצוא מידע על רכישות קודמות. יש לבדוק את החשבון ולנסות שוב.",
   "purchaseErrorUserNotFound": "לא ניתן לאמת את המשתמש. יש להפעיל מחדש את האפליקציה ולנסות שוב. פרטים: {message}",
   "purchaseErrorActivationPending": "הפעלת המינוי עדיין לא הושלמה. יש לבדוק שוב מאוחר יותר.",
   "purchaseErrorTimeout": "תם הזמן הקצוב. בדקו את חיבור הרשת ונסו שוב. אם הבעיה נמשכת, פנו אלינו דרך הגדרות > יצירת קשר. פרטים: {message}",

@@ -128,7 +128,7 @@
   "premiumUserThanksMessage": "Baie dankie dat jy Medicalarm gebruik.\nDanksy jou ondersteuning kan ons Medicalarm voortgaan bedryf.",
   "premiumPricePerMonth": "({price}/maand)",
   "premiumCancelDescription": "・Ná aankoop kan jy outomatiese hernuwing in die rekeninginstellings van die {storeName}-app kanselleer. (Outomatiese hernuwing kan nie binne die app gekanselleer word nie.)",
-  "purchaseErrorRestoreFailed": "Vorige aankoopinligting is nie gevind nie. Gaan jou rekening na en probeer weer",
+  "purchaseErrorRestoreFailed": "Vorige aankoopinligting is nie gevind nie. Kontroleer jou rekening en probeer weer.",
   "purchaseErrorUserNotFound": "Die gebruiker kon nie geverifieer word nie. Herbegin die app en probeer weer. Besonderhede: {message}",
   "purchaseErrorActivationPending": "Die aktivering van u intekening is nog nie voltooi nie. Probeer asseblief later weer.",
   "purchaseErrorTimeout": "Die versoek het ’n tydverstryking gehad. Gaan u netwerkverbinding na en probeer weer. As die probleem voortduur, kontak ons via Instellings > Kontak. Besonderhede: {message}",

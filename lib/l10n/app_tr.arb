@@ -128,7 +128,7 @@
   "premiumUserThanksMessage": "Medicalarm'ı kullandığınız için teşekkür ederiz.\nSayenizde Medicalarm'ı işletmeye devam edebiliyoruz.",
   "premiumPricePerMonth": "({price}/ay)",
   "premiumCancelDescription": "・Satın alma işleminden sonra otomatik yenilemeyi {storeName} uygulamasının hesap ayarlarından iptal edebilirsiniz. (Otomatik yenileme uygulama içinden iptal edilemez.)",
-  "purchaseErrorRestoreFailed": "Önceki satın alma bilgileri bulunamadı. Hesabınızı kontrol edip tekrar deneyin",
+  "purchaseErrorRestoreFailed": "Önceki satın alma bilgileri bulunamadı. Hesabınızı kontrol edip tekrar deneyin.",
   "purchaseErrorUserNotFound": "Kullanıcı doğrulanamadı. Uygulamayı yeniden başlatıp tekrar deneyin. Ayrıntılar: {message}",
   "purchaseErrorActivationPending": "Abonelik etkinleştirme tamamlanmadı. Lütfen bir süre sonra tekrar kontrol edin.",
   "purchaseErrorTimeout": "Zaman aşımına uğradı. Ağ bağlantınızı kontrol edip tekrar deneyin. Sorun devam ederse Ayarlar > İletişim bölümünden bize ulaşın. Ayrıntılar: {message}",

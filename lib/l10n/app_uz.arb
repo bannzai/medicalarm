@@ -128,7 +128,7 @@
   "premiumUserThanksMessage": "Medicalarm’dan foydalanganingiz uchun rahmat.\nSizning qo‘llab-quvvatlashingiz tufayli Medicalarm faoliyatini davom ettira olamiz.",
   "premiumPricePerMonth": "({price}/oyiga)",
   "premiumCancelDescription": "・Xariddan so‘ng avtomatik yangilanishni {storeName} ilovasining hisob sozlamalarida bekor qilishingiz mumkin. (Avtomatik yangilanishni ilova ichidan bekor qilib bo‘lmaydi.)",
-  "purchaseErrorRestoreFailed": "Avvalgi xarid maʼlumotlari topilmadi. Hisobingizni tekshirib, qayta urinib ko‘ring",
+  "purchaseErrorRestoreFailed": "Avvalgi xaridlar haqidagi maʼlumot topilmadi. Hisobingizni tekshirib, qayta urinib ko‘ring.",
   "purchaseErrorUserNotFound": "Foydalanuvchini tasdiqlab bo‘lmadi. Ilovani qayta ishga tushirib, yana urinib ko‘ring. Tafsilotlar: {message}",
   "purchaseErrorActivationPending": "Obunani faollashtirish yakunlanmadi. Iltimos, birozdan so‘ng qayta tekshiring.",
   "purchaseErrorTimeout": "Vaqt tugadi. Tarmoq ulanishingizni tekshirib, qayta urinib ko‘ring. Muammo hal bo‘lmasa, Sozlamalar > Bog‘lanish bo‘limi orqali biz bilan bog‘laning. Tafsilotlar: {message}",

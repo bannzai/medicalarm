@@ -128,7 +128,7 @@
   "premiumUserThanksMessage": "Salamat sa paggamit ng Medicalarm.\nDahil sa inyong suporta, maipagpapatuloy namin ang pagpapatakbo ng Medicalarm.",
   "premiumPricePerMonth": "({price}/buwan)",
   "premiumCancelDescription": "・Pagkatapos bumili, maaari mong kanselahin ang awtomatikong pag-renew sa mga setting ng account ng {storeName} app. (Hindi maaaring kanselahin ang awtomatikong pag-renew mula sa loob ng app.)",
-  "purchaseErrorRestoreFailed": "Hindi nakita ang impormasyon ng nakaraang pagbili. Suriin ang iyong account at subukan muli",
+  "purchaseErrorRestoreFailed": "Hindi makita ang impormasyon ng mga nakaraang pagbili. Suriin ang iyong account at subukan muli.",
   "purchaseErrorUserNotFound": "Hindi ma-verify ang user. I-restart ang app at subukan muli. Mga detalye: {message}",
   "purchaseErrorActivationPending": "Hindi pa kumpleto ang pag-activate ng subscription. Pakitingnan itong muli mamaya.",
   "purchaseErrorTimeout": "Nag-time out ang kahilingan. Suriin ang koneksyon sa network at subukan muli. Kung magpapatuloy ang problema, makipag-ugnayan sa amin sa Mga Setting > Makipag-ugnayan. Mga detalye: {message}",

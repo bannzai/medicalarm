@@ -128,7 +128,7 @@
   "premiumUserThanksMessage": "Hvala, ker uporabljate Medicalarm.\nZ vašo podporo lahko še naprej zagotavljamo delovanje Medicalarm.",
   "premiumPricePerMonth": "({price}/mesec)",
   "premiumCancelDescription": "・Po nakupu lahko samodejno podaljšanje prekličete v nastavitvah računa v aplikaciji {storeName}. (Samodejnega podaljšanja v aplikaciji ni mogoče preklicati.)",
-  "purchaseErrorRestoreFailed": "Podatki o prejšnjem nakupu niso bili najdeni. Preverite svoj račun in poskusite znova",
+  "purchaseErrorRestoreFailed": "Podatkov o prejšnjih nakupih ni bilo mogoče najti. Preverite svoj račun in poskusite znova.",
   "purchaseErrorUserNotFound": "Uporabnika ni bilo mogoče preveriti. Znova zaženite aplikacijo in poskusite znova. Podrobnosti: {message}",
   "purchaseErrorActivationPending": "Aktivacija naročnine ni dokončana. Preverite znova pozneje.",
   "purchaseErrorTimeout": "Časovna omejitev je potekla. Preverite omrežno povezavo in poskusite znova. Če težava ni odpravljena, nam pišite v Nastavitve > Stik. Podrobnosti: {message}",

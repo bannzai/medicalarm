@@ -128,7 +128,7 @@
   "premiumUserThanksMessage": "Vielen Dank, dass Sie Medicalarm nutzen.\nDank Ihrer Unterstützung können wir Medicalarm weiter betreiben.",
   "premiumPricePerMonth": "({price}/Monat)",
   "premiumCancelDescription": "・Nach dem Kauf können Sie die automatische Verlängerung in den Kontoeinstellungen der {storeName}-App kündigen. (Die automatische Verlängerung kann nicht in der App gekündigt werden.)",
-  "purchaseErrorRestoreFailed": "Informationen zum vorherigen Kauf wurden nicht gefunden. Überprüfe dein Konto und versuche es erneut",
+  "purchaseErrorRestoreFailed": "Informationen zu früheren Käufen wurden nicht gefunden. Überprüfe deinen Account und versuche es erneut.",
   "purchaseErrorUserNotFound": "Der Benutzer konnte nicht verifiziert werden. Starten Sie die App neu und versuchen Sie es erneut. Details: {message}",
   "purchaseErrorActivationPending": "Die Aktivierung des Abonnements ist noch nicht abgeschlossen. Bitte prüfen Sie es später erneut.",
   "purchaseErrorTimeout": "Zeitüberschreitung. Bitte überprüfen Sie Ihre Netzwerkverbindung und versuchen Sie es erneut. Wenn das Problem weiterhin besteht, kontaktieren Sie uns über Einstellungen > Kontakt. Details: {message}",
