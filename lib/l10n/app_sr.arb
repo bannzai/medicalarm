@@ -37,7 +37,7 @@
   "everyXDays": "На сваких X дана",
   "specificWeekdays": "Одређени дани у недељи",
   "cycle": "Циклус",
-  "cycleDescription": "例) 21. dan uzimanje/7. dan pauza",
+  "cycleDescription": "Нпр.) Узимати лек 21 дан / направити паузу од 7 дана",
   "everyXDaysDescription": "Svaki drugi dan, Svaki treći dan",
   "specificWeekdaysDescription": "例) Понедељак само, Среда и Петак",
   "medicineFormValidationError": "Молимо вас да унесете име и распоред узимања лекова.",

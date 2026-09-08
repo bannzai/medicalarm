@@ -37,7 +37,7 @@
   "everyXDays": "כל X ימים",
   "specificWeekdays": "ימים מסוימים בשבוע",
   "cycle": "מחזור",
-  "cycleDescription": "דוגמה) 21 ימים של נטילה/7 ימי הפסקה",
+  "cycleDescription": "לדוגמה) ליטול את התרופה במשך 21 ימים / להפסיק למשך 7 ימים",
   "everyXDaysDescription": "למשל) כל יומיים, כל שלושה ימים",
   "specificWeekdaysDescription": "דוגמה) ביום שני בלבד, ביום רביעי וביום שישי",
   "medicineFormValidationError": "אנא הזן את השם ולוח הזמנים של התרופה",

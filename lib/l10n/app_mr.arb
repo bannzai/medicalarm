@@ -37,7 +37,7 @@
   "everyXDays": "दर X दिवसांनी",
   "specificWeekdays": "आठवड्याचे विशिष्ट दिवस",
   "cycle": "चक्र",
-  "cycleDescription": "उदाहरण) 21वा दिवशी औषध घेतले/7वा दिवशी औषध घेतले नाही",
+  "cycleDescription": "उदा.) २१ दिवस औषध घेणे / ७ दिवसांचा विराम",
   "everyXDaysDescription": "उदाहरण) २ दिवसांनंतर, ३ दिवसांनंतर",
   "specificWeekdaysDescription": "उदाहरण) फक्त सोमवारी, बुधवारी आणि शुक्रवारी",
   "medicineFormValidationError": "कृपया नाव आणि औषध घेण्याचा वेळ भरा.",

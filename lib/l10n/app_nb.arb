@@ -37,7 +37,7 @@
   "everyXDays": "Hver X. dag",
   "specificWeekdays": "Bestemte ukedager",
   "cycle": "Syklus",
-  "cycleDescription": "Eksempel) 21 dager med medisinering / 7 dager med pause",
+  "cycleDescription": "Eksempel) Ta medisinen i 21 dager / 7 dagers pause",
   "everyXDaysDescription": "hver dag",
   "specificWeekdaysDescription": "Eksempel) Bare mandag, onsdag og fredag",
   "medicineFormValidationError": "Vennligst skriv inn navn og medisineringsplan.",

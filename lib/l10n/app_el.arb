@@ -37,7 +37,7 @@
   "everyXDays": "Κάθε X ημέρες",
   "specificWeekdays": "Συγκεκριμένες ημέρες της εβδομάδας",
   "cycle": "Κύκλος",
-  "cycleDescription": "Παράδειγμα) 21η ημέρα λήψης/7η ημέρα διακοπής",
+  "cycleDescription": "Π.χ.) Λήψη του φαρμάκου για 21 ημέρες / διακοπή για 7 ημέρες",
   "everyXDaysDescription": "κάθε 2 ημέρες, κάθε 3 ημέρες",
   "specificWeekdaysDescription": "π.χ. Δευτέρα μόνο, Τετάρτη και Παρασκευή",
   "medicineFormValidationError": "Παρακαλώ εισαγάγετε το όνομα και το πρόγραμμα λήψης.",

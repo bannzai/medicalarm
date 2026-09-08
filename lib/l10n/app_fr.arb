@@ -37,7 +37,7 @@
   "everyXDays": "Tous les X jours",
   "specificWeekdays": "Jours spécifiques de la semaine",
   "cycle": "Cycle",
-  "cycleDescription": "Exemple) Prise le 21 / 7 jours d'arrêt",
+  "cycleDescription": "Ex.) Prendre le médicament pendant 21 jours / faire une pause de 7 jours",
   "everyXDaysDescription": "ex) tous les 2 jours, tous les 3 jours",
   "specificWeekdaysDescription": "Exemple) uniquement le lundi, mercredi et vendredi",
   "medicineFormValidationError": "Veuillez entrer le nom et le calendrier de prise.",

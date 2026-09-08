@@ -37,7 +37,7 @@
   "everyXDays": "Her X günde bir",
   "specificWeekdays": "Haftanın belirli günleri",
   "cycle": "Döngü",
-  "cycleDescription": "Örnek) 21. günde ilaç alımı/7. günde ara verme",
+  "cycleDescription": "Örn.) 21 gün ilaç kullanma / 7 gün ara verme",
   "everyXDaysDescription": "Örnek) 2 günde bir, 3 günde bir",
   "specificWeekdaysDescription": "Örnek) Sadece Pazartesi, Çarşamba ve Cuma",
   "medicineFormValidationError": "Lütfen adı ve kullanım programını girin.",

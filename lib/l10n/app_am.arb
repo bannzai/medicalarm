@@ -37,7 +37,7 @@
   "everyXDays": "በየ X ቀኑ",
   "specificWeekdays": "የተወሰኑ የሳምንቱ ቀናት",
   "cycle": "ዑደት",
-  "cycleDescription": "21ኛ ቀን መጠጣት/7ኛ ቀን አንቀሳቅስ",
+  "cycleDescription": "ምሳሌ) መድኃኒቱን ለ21 ቀናት መውሰድ / ለ7 ቀናት ማቆም",
   "everyXDaysDescription": "ምሳሌ) በ2 ቀን እና በ3 ቀን",
   "specificWeekdaysDescription": "እንደ ምሳሌ) እሑዳይ ብቻ, ነሐሴ እና ቅዳሜ",
   "medicineFormValidationError": "እባክዎ እባክዎ የሚጠቀሙትን ስም እና የማስታወቂያ ጊዜዎችን ያስገቡ",

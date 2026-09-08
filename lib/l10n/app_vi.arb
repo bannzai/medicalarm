@@ -37,7 +37,7 @@
   "everyXDays": "Mỗi X ngày",
   "specificWeekdays": "Các ngày cụ thể trong tuần",
   "cycle": "Chu kỳ",
-  "cycleDescription": "Ví dụ) Uống vào ngày 21/ Nghỉ thuốc 7 ngày",
+  "cycleDescription": "VD) Uống thuốc trong 21 ngày / nghỉ 7 ngày",
   "everyXDaysDescription": "Ví dụ) Mỗi 2 ngày, mỗi 3 ngày",
   "specificWeekdaysDescription": "Ví dụ) Chỉ vào thứ Hai, thứ Tư và thứ Sáu",
   "medicineFormValidationError": "Vui lòng nhập tên và lịch trình dùng thuốc",

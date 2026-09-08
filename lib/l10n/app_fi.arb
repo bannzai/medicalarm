@@ -37,7 +37,7 @@
   "everyXDays": "X päivän välein",
   "specificWeekdays": "Tietyt viikonpäivät",
   "cycle": "Jakso",
-  "cycleDescription": "Esimerkki) 21 päivän käyttö/7 päivän tauko",
+  "cycleDescription": "Esim.) Lääkettä 21 päivän ajan / 7 päivän tauko",
   "everyXDaysDescription": "Esimerkki) 2 päivän välein, 3 päivän välein",
   "specificWeekdaysDescription": "esim) vain maanantaisin, keskiviikkoisin ja perjantaisin",
   "medicineFormValidationError": "Anna nimesi ja lääkkeesi aikataulu.",

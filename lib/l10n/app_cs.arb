@@ -37,7 +37,7 @@
   "everyXDays": "Každých X dní",
   "specificWeekdays": "Konkrétní dny v týdnu",
   "cycle": "Cyklus",
-  "cycleDescription": "Příklad) 21 dní užívání/7 dní pauzy",
+  "cycleDescription": "Např.) Užívat lék 21 dní / 7 dní vynechat",
   "everyXDaysDescription": "například každé 2 dny, každé 3 dny",
   "specificWeekdaysDescription": "například) pouze v pondělí, ve středu a v pátek",
   "medicineFormValidationError": "Zadejte své jméno a plán užívání léků",

@@ -37,7 +37,7 @@
   "everyXDays": "Setiap X hari",
   "specificWeekdays": "Hari tertentu dalam seminggu",
   "cycle": "Siklus",
-  "cycleDescription": "Contoh) 21 hari minum/7 hari tidak minum",
+  "cycleDescription": "Contoh) Minum obat selama 21 hari / jeda selama 7 hari",
   "everyXDaysDescription": "Setiap X hari",
   "specificWeekdaysDescription": "contoh) hanya hari Senin, Rabu dan Jumat",
   "medicineFormValidationError": "Silakan masukkan nama dan jadwal konsumsi obat",

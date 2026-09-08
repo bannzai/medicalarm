@@ -37,7 +37,7 @@
   "everyXDays": "Ik pēc X dienām",
   "specificWeekdays": "Noteiktas nedēļas dienas",
   "cycle": "Cikls",
-  "cycleDescription": "21. diena lietošanas / 7. diena pārtraukums",
+  "cycleDescription": "Piem.) Lietot zāles 21 dienu / 7 dienu pārtraukums",
   "everyXDaysDescription": "piemēram) ik pēc 2 dienām, ik pēc 3 dienām",
   "specificWeekdaysDescription": "Piemēram) tikai pirmdienās, trešdienās un piektdienās",
   "medicineFormValidationError": "Lūdzu, ievadiet vārdu un zāļu lietošanas grafiku.",
