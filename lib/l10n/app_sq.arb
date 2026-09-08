@@ -93,7 +93,7 @@
   "increaseMedicineLimitWithPremium": "Rriteni kufirin në {count} me planin Premium",
   "aboutApp": "Rreth aplikacionit",
   "viewPremiumPlan": "Shiko planin Premium",
-  "cancelSubscriptionInstruction": "Pas blerjes, rinovimin automatik mund ta anuloni te cilësimet e llogarisë së aplikacionit {storeName}. (Rinovimi automatik nuk mund të anulohet nga aplikacioni.)",
+  "cancelSubscriptionInstruction": "Pas blerjes, mund ta anuloni rinovimin automatik te cilësimet e llogarisë në aplikacionin {storeName}. (Rinovimi automatik nuk mund të anulohet nga aplikacioni.)",
   "headache": "Dhimbje koke",
   "stomachache": "Dhimbje barku",
   "nausea": "Të përziera",

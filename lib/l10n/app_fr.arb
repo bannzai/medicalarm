@@ -93,7 +93,7 @@
   "increaseMedicineLimitWithPremium": "Augmenter la limite à {count} avec le forfait Premium",
   "aboutApp": "À propos de l’app",
   "viewPremiumPlan": "Voir le forfait Premium",
-  "cancelSubscriptionInstruction": "Après l’achat, vous pouvez annuler le renouvellement automatique dans les paramètres du compte de l’application {storeName}. (Le renouvellement automatique ne peut pas être annulé depuis l’application.)",
+  "cancelSubscriptionInstruction": "Après l’achat, vous pouvez résilier le renouvellement automatique dans les réglages du compte de l’app {storeName}. (Le renouvellement automatique ne peut pas être résilié depuis l’app.)",
   "headache": "Mal de tête",
   "stomachache": "Douleur abdominale",
   "nausea": "Nausées",

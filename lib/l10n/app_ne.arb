@@ -93,7 +93,7 @@
   "increaseMedicineLimitWithPremium": "प्रिमियम योजनासँग सीमा {count} मा बढाउनुहोस्",
   "aboutApp": "एपबारे",
   "viewPremiumPlan": "प्रिमियम योजना हेर्नुहोस्",
-  "cancelSubscriptionInstruction": "खरिदपछि {storeName} एपको खाता सेटिङबाट स्वचालित नवीकरण रद्द गर्न सक्नुहुन्छ। (एपभित्रबाट स्वचालित नवीकरण रद्द गर्न सकिँदैन।)",
+  "cancelSubscriptionInstruction": "खरिद गरेपछि, {storeName} एपको खाता सेटिङबाट स्वचालित नवीकरण रद्द गर्न सक्नुहुन्छ। (एपभित्रबाट स्वचालित नवीकरण रद्द गर्न सकिँदैन।)",
   "headache": "टाउको दुखाइ",
   "stomachache": "पेट दुखाइ",
   "nausea": "वाकवाकी",

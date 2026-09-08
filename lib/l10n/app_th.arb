@@ -93,7 +93,7 @@
   "increaseMedicineLimitWithPremium": "เพิ่มขีดจำกัดเป็น {count} ด้วยแพ็กเกจ Premium",
   "aboutApp": "เกี่ยวกับแอป",
   "viewPremiumPlan": "ดูแพ็กเกจ Premium",
-  "cancelSubscriptionInstruction": "หลังการซื้อ คุณสามารถยกเลิกการต่ออายุอัตโนมัติได้ในการตั้งค่าบัญชีของแอป {storeName} (ไม่สามารถยกเลิกการต่ออายุอัตโนมัติจากภายในแอปได้)",
+  "cancelSubscriptionInstruction": "หลังจากซื้อแล้ว คุณสามารถยกเลิกการต่ออายุอัตโนมัติได้ในการตั้งค่าบัญชีของแอป {storeName} (ไม่สามารถยกเลิกการต่ออายุอัตโนมัติจากภายในแอปได้)",
   "headache": "ปวดศีรษะ",
   "stomachache": "ปวดท้อง",
   "nausea": "คลื่นไส้",

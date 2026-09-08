@@ -93,7 +93,7 @@
   "increaseMedicineLimitWithPremium": "Premium rejasi bilan limitni {count} gacha oshiring",
   "aboutApp": "Ilova haqida",
   "viewPremiumPlan": "Premium rejasini ko‘rish",
-  "cancelSubscriptionInstruction": "Xariddan so‘ng avtomatik yangilanishni {storeName} ilovasining hisob sozlamalaridan bekor qilishingiz mumkin. (Avtomatik yangilanishni ilova ichidan bekor qilib bo‘lmaydi.)",
+  "cancelSubscriptionInstruction": "Xariddan so‘ng avtomatik yangilanishni {storeName} ilovasining hisob sozlamalarida bekor qilishingiz mumkin. (Avtomatik yangilanishni ilova ichidan bekor qilib bo‘lmaydi.)",
   "headache": "Bosh og‘rig‘i",
   "stomachache": "Qorin og‘rig‘i",
   "nausea": "Ko‘ngil aynishi",

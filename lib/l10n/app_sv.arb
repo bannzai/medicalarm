@@ -93,7 +93,7 @@
   "increaseMedicineLimitWithPremium": "Öka gränsen till {count} med Premium-planen",
   "aboutApp": "Om appen",
   "viewPremiumPlan": "Visa Premium-plan",
-  "cancelSubscriptionInstruction": "Efter köpet kan du avsluta den automatiska förnyelsen i {storeName}-appens kontoinställningar. (Automatisk förnyelse kan inte avslutas i appen.)",
+  "cancelSubscriptionInstruction": "Efter köpet kan du avsluta automatisk förnyelse i kontoinställningarna i {storeName}-appen. (Automatisk förnyelse kan inte avslutas i appen.)",
   "headache": "Huvudvärk",
   "stomachache": "Magsmärta",
   "nausea": "Illamående",

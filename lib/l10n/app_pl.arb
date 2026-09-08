@@ -93,7 +93,7 @@
   "increaseMedicineLimitWithPremium": "Zwiększ limit do {count} w planie Premium",
   "aboutApp": "O aplikacji",
   "viewPremiumPlan": "Zobacz plan Premium",
-  "cancelSubscriptionInstruction": "Po zakupie możesz anulować automatyczne odnawianie w ustawieniach konta aplikacji {storeName}. (Automatycznego odnawiania nie można anulować w aplikacji.)",
+  "cancelSubscriptionInstruction": "Po zakupie możesz anulować automatyczne odnowienie w ustawieniach konta aplikacji {storeName}. (Automatycznego odnowienia nie można anulować w aplikacji.)",
   "headache": "Ból głowy",
   "stomachache": "Ból brzucha",
   "nausea": "Nudności",

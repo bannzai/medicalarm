@@ -93,7 +93,7 @@
   "increaseMedicineLimitWithPremium": "افزایش سقف به {count} با طرح پریمیوم",
   "aboutApp": "دربارهٔ برنامه",
   "viewPremiumPlan": "مشاهده طرح پریمیوم",
-  "cancelSubscriptionInstruction": "پس از خرید، می‌توانید تمدید خودکار را از تنظیمات حساب برنامه {storeName} لغو کنید. (لغو تمدید خودکار از داخل برنامه امکان‌پذیر نیست.)",
+  "cancelSubscriptionInstruction": "پس از خرید، می‌توانید تمدید خودکار را از تنظیمات حساب برنامه {storeName} لغو کنید. (تمدید خودکار از داخل برنامه قابل لغو نیست.)",
   "headache": "سردرد",
   "stomachache": "درد شکم",
   "nausea": "تهوع",

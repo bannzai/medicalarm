@@ -93,7 +93,7 @@
   "increaseMedicineLimitWithPremium": "Nosta raja {count}:een Premium-tilauksella",
   "aboutApp": "Tietoja sovelluksesta",
   "viewPremiumPlan": "Näytä Premium-paketti",
-  "cancelSubscriptionInstruction": "Oston jälkeen voit peruuttaa automaattisen uusimisen {storeName}-sovelluksen tiliasetuksista. (Automaattista uusimista ei voi peruuttaa sovelluksessa.)",
+  "cancelSubscriptionInstruction": "Oston jälkeen voit peruuttaa automaattisen uusimisen {storeName}-apin tiliasetuksista. (Automaattista uusimista ei voi peruuttaa apissa.)",
   "headache": "Päänsärky",
   "stomachache": "Vatsakipu",
   "nausea": "Pahoinvointi",

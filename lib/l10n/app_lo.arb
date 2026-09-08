@@ -93,7 +93,7 @@
   "increaseMedicineLimitWithPremium": "ເພີ່ມຂີດຈຳກັດເປັນ {count} ດ້ວຍແຜນ Premium",
   "aboutApp": "ກ່ຽວກັບແອັບ",
   "viewPremiumPlan": "ເບິ່ງແຜນ Premium",
-  "cancelSubscriptionInstruction": "ຫຼັງຈາກຊື້ແລ້ວ ທ່ານສາມາດຍົກເລີກການຕໍ່ອາຍຸອັດຕະໂນມັດໄດ້ໃນການຕັ້ງຄ່າບັນຊີຂອງແອັບ {storeName}. (ບໍ່ສາມາດຍົກເລີກການຕໍ່ອາຍຸອັດຕະໂນມັດຈາກໃນແອັບໄດ້.)",
+  "cancelSubscriptionInstruction": "ຫຼັງຈາກຊື້ແລ້ວ ທ່ານສາມາດຍົກເລີກການຕໍ່ອາຍຸອັດຕະໂນມັດໄດ້ຈາກການຕັ້ງຄ່າບັນຊີຂອງແອັບ {storeName}. (ບໍ່ສາມາດຍົກເລີກການຕໍ່ອາຍຸອັດຕະໂນມັດຈາກພາຍໃນແອັບໄດ້.)",
   "headache": "ເຈັບຫົວ",
   "stomachache": "ປວດທ້ອງ",
   "nausea": "ອາການປວດຮາກ",

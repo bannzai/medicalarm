@@ -93,7 +93,7 @@
   "increaseMedicineLimitWithPremium": "Tingkatkan batas menjadi {count} dengan paket Premium",
   "aboutApp": "Tentang Aplikasi",
   "viewPremiumPlan": "Lihat Paket Premium",
-  "cancelSubscriptionInstruction": "Setelah pembelian, Anda dapat membatalkan perpanjangan otomatis melalui pengaturan akun aplikasi {storeName}. (Perpanjangan otomatis tidak dapat dibatalkan dari dalam aplikasi.)",
+  "cancelSubscriptionInstruction": "Setelah pembelian, Anda dapat membatalkan perpanjangan otomatis di pengaturan akun aplikasi {storeName}. (Perpanjangan otomatis tidak dapat dibatalkan dari dalam aplikasi.)",
   "headache": "Sakit kepala",
   "stomachache": "Sakit perut",
   "nausea": "Mual",

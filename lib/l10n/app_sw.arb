@@ -93,7 +93,7 @@
   "increaseMedicineLimitWithPremium": "Ongeza kikomo hadi {count} kwa mpango wa Premium",
   "aboutApp": "Kuhusu programu",
   "viewPremiumPlan": "Angalia mpango wa Premium",
-  "cancelSubscriptionInstruction": "Baada ya ununuzi, unaweza kughairi usasishaji wa kiotomatiki katika mipangilio ya akaunti ya programu ya {storeName}. (Usasishaji wa kiotomatiki hauwezi kughairiwa ndani ya programu.)",
+  "cancelSubscriptionInstruction": "Baada ya kununua, unaweza kughairi uhuishaji wa kiotomatiki katika mipangilio ya akaunti ya programu ya {storeName}. (Uhuishaji wa kiotomatiki hauwezi kughairiwa ndani ya programu.)",
   "headache": "Maumivu ya kichwa",
   "stomachache": "Maumivu ya tumbo",
   "nausea": "Kichefuchefu",

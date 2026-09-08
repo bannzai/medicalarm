@@ -93,7 +93,7 @@
   "increaseMedicineLimitWithPremium": "A limit növelése {count}-ra a Prémium csomaggal",
   "aboutApp": "Az alkalmazásról",
   "viewPremiumPlan": "Prémium csomag megtekintése",
-  "cancelSubscriptionInstruction": "A vásárlás után az automatikus megújítást a {storeName} alkalmazás fiókbeállításaiban mondhatja le. (Az automatikus megújítás az alkalmazásból nem mondható le.)",
+  "cancelSubscriptionInstruction": "A vásárlás után az automatikus megújítást a {storeName} alkalmazás fiókbeállításaiban mondhatja le. (Az automatikus megújítás az alkalmazáson belül nem mondható le.)",
   "headache": "Fejfájás",
   "stomachache": "Hasi fájdalom",
   "nausea": "Hányinger",

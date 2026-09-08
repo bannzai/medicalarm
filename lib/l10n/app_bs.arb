@@ -93,7 +93,7 @@
   "increaseMedicineLimitWithPremium": "Povećajte ograničenje na {count} uz Premium plan",
   "aboutApp": "O aplikaciji",
   "viewPremiumPlan": "Pogledajte Premium plan",
-  "cancelSubscriptionInstruction": "Nakon kupovine možete otkazati automatsko obnavljanje u postavkama računa aplikacije {storeName}. (Automatsko obnavljanje nije moguće otkazati iz aplikacije.)",
+  "cancelSubscriptionInstruction": "Nakon kupovine možete otkazati automatsko obnavljanje u postavkama računa aplikacije {storeName}. (Automatsko obnavljanje nije moguće otkazati u aplikaciji.)",
   "headache": "Glavobolja",
   "stomachache": "Bol u stomaku",
   "nausea": "Mučnina",
