@@ -139,7 +139,7 @@
   "termsOfService": "Användarvillkor",
   "specifiedCommercialTransactionAct": "Information enligt lagen om specificerade kommersiella transaktioner",
   "confirmBeforeRegistration": "Granska informationen innan du registrerar dig.",
-  "autoRenewalNotice": "Efter kontraktets slutdatum kommer det automatiskt att förnyas.",
+  "autoRenewalNotice": "Efter att prenumerationsperioden löpt ut förnyas den automatiskt.",
   "restorePurchase": "Tidigare köpt? Här",
   "purchaseRestored": "Återställde köpinformation",
   "medicationTimeFollowup": "Uppföljning av läkemedelstid",

@@ -139,7 +139,7 @@
   "termsOfService": "Kasutustingimused",
   "specifiedCommercialTransactionAct": "Teave vastavalt teatavate äritehingute seadusele",
   "confirmBeforeRegistration": "Palun tutvuge teabega enne registreerumist.",
-  "autoRenewalNotice": "Pärast lepingu kehtivusaja lõppu toimub automaatne uuendamine.",
+  "autoRenewalNotice": "Pärast tellimusperioodi lõppu uuendatakse seda automaatselt.",
   "restorePurchase": "Need help? Contact us.",
   "purchaseRestored": "Ostuteave teave on taastatud",
   "medicationTimeFollowup": "Ravimite võtmise aja jälgimine",

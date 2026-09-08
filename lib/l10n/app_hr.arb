@@ -139,7 +139,7 @@
   "termsOfService": "Uslovi korištenja",
   "specifiedCommercialTransactionAct": "Informacije u skladu sa Zakonom o određenim komercijalnim transakcijama",
   "confirmBeforeRegistration": "Pregledajte informacije prije registracije.",
-  "autoRenewalNotice": "Nakon završetka ugovornog razdoblja doći će do automatske obnove.",
+  "autoRenewalNotice": "Nakon isteka razdoblja pretplate, ona će se automatski obnoviti.",
   "restorePurchase": "Oni koji su prethodno kupili ovdje",
   "purchaseRestored": "Obnovili smo informacije o kupnji",
   "medicationTimeFollowup": "Praćenje vremena uzimanja",

@@ -139,7 +139,7 @@
   "termsOfService": "ข้อกำหนดการใช้บริการ",
   "specifiedCommercialTransactionAct": "การเปิดเผยข้อมูลตามกฎหมายว่าด้วยธุรกรรมทางการค้าที่กำหนด",
   "confirmBeforeRegistration": "โปรดตรวจสอบก่อนลงทะเบียน",
-  "autoRenewalNotice": "หลังจากสิ้นสุดระยะเวลาสัญญาแล้วจะมีการต่ออายุอัตโนมัติ.",
+  "autoRenewalNotice": "หลังจากสิ้นสุดระยะเวลาการสมัครสมาชิก ระบบจะต่ออายุโดยอัตโนมัติ",
   "restorePurchase": "ผู้ที่เคยซื้อไปแล้วที่นี่",
   "purchaseRestored": "ข้อมูลการซื้อได้ถูกกู้คืนเรียบร้อยแล้ว",
   "medicationTimeFollowup": "ติดตามเวลาการใช้ยา",
