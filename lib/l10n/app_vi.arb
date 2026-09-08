@@ -236,5 +236,6 @@
   "achievementStreakLabel": "Chuỗi liên tiếp",
   "achievementStreakDaysSuffix": "ngày",
   "achievementMonthlyRateLabel": "Tỷ lệ hoàn thành trong {month}",
-  "achievementLegendAllTaken": "Đã uống hết"
+  "achievementLegendAllTaken": "Đã uống hết",
+  "achievementLegendPartiallyTaken": "Một phần"
 }

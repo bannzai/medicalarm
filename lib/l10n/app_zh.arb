@@ -236,5 +236,6 @@
   "achievementStreakLabel": "连续记录",
   "achievementStreakDaysSuffix": "日",
   "achievementMonthlyRateLabel": "{month}的达成率",
-  "achievementLegendAllTaken": "全部服用"
+  "achievementLegendAllTaken": "全部服用",
+  "achievementLegendPartiallyTaken": "部分"
 }

@@ -236,5 +236,6 @@
   "achievementStreakLabel": "سلسلة متتالية",
   "achievementStreakDaysSuffix": "يوم",
   "achievementMonthlyRateLabel": "معدل الالتزام لشهر {month}",
-  "achievementLegendAllTaken": "تم تناولها كلها"
+  "achievementLegendAllTaken": "تم تناولها كلها",
+  "achievementLegendPartiallyTaken": "جزئيًا"
 }

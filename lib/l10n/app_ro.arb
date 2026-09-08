@@ -236,5 +236,6 @@
   "achievementStreakLabel": "Serie",
   "achievementStreakDaysSuffix": "zile",
   "achievementMonthlyRateLabel": "Rata de îndeplinire pentru {month}",
-  "achievementLegendAllTaken": "Toate luate"
+  "achievementLegendAllTaken": "Toate luate",
+  "achievementLegendPartiallyTaken": "Parțial"
 }

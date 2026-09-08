@@ -236,5 +236,6 @@
   "achievementStreakLabel": "Samfelld röð",
   "achievementStreakDaysSuffix": "dagar",
   "achievementMonthlyRateLabel": "Framkvæmdarhlutfall fyrir {month}",
-  "achievementLegendAllTaken": "Allt tekið"
+  "achievementLegendAllTaken": "Allt tekið",
+  "achievementLegendPartiallyTaken": "Að hluta"
 }

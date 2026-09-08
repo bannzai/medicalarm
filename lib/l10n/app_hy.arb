@@ -236,5 +236,6 @@
   "achievementStreakLabel": "Անընդմեջ շարք",
   "achievementStreakDaysSuffix": "օր",
   "achievementMonthlyRateLabel": "{month}-ի կատարման ցուցանիշը",
-  "achievementLegendAllTaken": "Բոլորն ընդունված են"
+  "achievementLegendAllTaken": "Բոլորն ընդունված են",
+  "achievementLegendPartiallyTaken": "Մասամբ"
 }

@@ -236,5 +236,6 @@
   "achievementStreakLabel": "Nepārtraukta sērija",
   "achievementStreakDaysSuffix": "dienas",
   "achievementMonthlyRateLabel": "{month} izpildes līmenis",
-  "achievementLegendAllTaken": "Viss lietots"
+  "achievementLegendAllTaken": "Viss lietots",
+  "achievementLegendPartiallyTaken": "Daļēji"
 }

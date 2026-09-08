@@ -236,5 +236,6 @@
   "achievementStreakLabel": "ಸತತ ಸರಣಿ",
   "achievementStreakDaysSuffix": "ದಿನಗಳು",
   "achievementMonthlyRateLabel": "{month}ರ ಸಾಧನೆ ಪ್ರಮಾಣ",
-  "achievementLegendAllTaken": "ಎಲ್ಲವನ್ನೂ ತೆಗೆದುಕೊಳ್ಳಲಾಗಿದೆ"
+  "achievementLegendAllTaken": "ಎಲ್ಲವನ್ನೂ ತೆಗೆದುಕೊಳ್ಳಲಾಗಿದೆ",
+  "achievementLegendPartiallyTaken": "ಭಾಗಶಃ"
 }

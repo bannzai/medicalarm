@@ -236,5 +236,6 @@
   "achievementStreakLabel": "កំណត់ត្រាបន្តបន្ទាប់",
   "achievementStreakDaysSuffix": "ថ្ងៃ",
   "achievementMonthlyRateLabel": "អត្រាសម្រេចបានសម្រាប់ {month}",
-  "achievementLegendAllTaken": "បានលេបទាំងអស់"
+  "achievementLegendAllTaken": "បានលេបទាំងអស់",
+  "achievementLegendPartiallyTaken": "មួយផ្នែក"
 }

@@ -236,5 +236,6 @@
   "achievementStreakLabel": "ਲਗਾਤਾਰ ਰਿਕਾਰਡ",
   "achievementStreakDaysSuffix": "ਦਿਨ",
   "achievementMonthlyRateLabel": "{month} ਦੀ ਪ੍ਰਾਪਤੀ ਦਰ",
-  "achievementLegendAllTaken": "ਸਭ ਲੈ ਲਈਆਂ"
+  "achievementLegendAllTaken": "ਸਭ ਲੈ ਲਈਆਂ",
+  "achievementLegendPartiallyTaken": "ਅੰਸ਼ਕ ਤੌਰ 'ਤੇ"
 }

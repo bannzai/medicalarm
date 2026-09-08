@@ -236,5 +236,6 @@
   "achievementStreakLabel": "Ketma-ketlik",
   "achievementStreakDaysSuffix": "kun",
   "achievementMonthlyRateLabel": "{month} oyidagi bajarilish darajasi",
-  "achievementLegendAllTaken": "Hammasi qabul qilindi"
+  "achievementLegendAllTaken": "Hammasi qabul qilindi",
+  "achievementLegendPartiallyTaken": "Qisman"
 }

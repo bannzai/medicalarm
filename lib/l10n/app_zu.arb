@@ -236,5 +236,6 @@
   "achievementStreakLabel": "Ukulandelana",
   "achievementStreakDaysSuffix": "izinsuku",
   "achievementMonthlyRateLabel": "Izinga lokufezekisa lika-{month}",
-  "achievementLegendAllTaken": "Konke kuphuziwe"
+  "achievementLegendAllTaken": "Konke kuphuziwe",
+  "achievementLegendPartiallyTaken": "Ngokwengxenye"
 }

@@ -236,5 +236,6 @@
   "achievementStreakLabel": "સળંગ શ્રેણી",
   "achievementStreakDaysSuffix": "દિવસ",
   "achievementMonthlyRateLabel": "{month}નો સિદ્ધિ દર",
-  "achievementLegendAllTaken": "બધું લઈ લીધું છે"
+  "achievementLegendAllTaken": "બધું લઈ લીધું છે",
+  "achievementLegendPartiallyTaken": "આંશિક રીતે"
 }

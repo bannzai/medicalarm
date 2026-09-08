@@ -236,5 +236,6 @@
   "achievementStreakLabel": "연속 기록",
   "achievementStreakDaysSuffix": "일",
   "achievementMonthlyRateLabel": "{month} 달성률",
-  "achievementLegendAllTaken": "모두 복용함"
+  "achievementLegendAllTaken": "모두 복용함",
+  "achievementLegendPartiallyTaken": "일부"
 }

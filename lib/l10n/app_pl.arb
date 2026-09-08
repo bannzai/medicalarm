@@ -236,5 +236,6 @@
   "achievementStreakLabel": "Seria",
   "achievementStreakDaysSuffix": "dni",
   "achievementMonthlyRateLabel": "Wskaźnik realizacji za {month}",
-  "achievementLegendAllTaken": "Wszystkie przyjęte"
+  "achievementLegendAllTaken": "Wszystkie przyjęte",
+  "achievementLegendPartiallyTaken": "Częściowo"
 }

@@ -236,5 +236,6 @@
   "achievementStreakLabel": "Sunod-sunod na tala",
   "achievementStreakDaysSuffix": "araw",
   "achievementMonthlyRateLabel": "Rate ng pagkamit para sa {month}",
-  "achievementLegendAllTaken": "Lahat nainom"
+  "achievementLegendAllTaken": "Lahat nainom",
+  "achievementLegendPartiallyTaken": "Bahagya"
 }

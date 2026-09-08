@@ -236,5 +236,6 @@
   "achievementStreakLabel": "Ardıcıl seriya",
   "achievementStreakDaysSuffix": "gün",
   "achievementMonthlyRateLabel": "{month} üzrə yerinə yetirmə faizi",
-  "achievementLegendAllTaken": "Hamısı qəbul edilib"
+  "achievementLegendAllTaken": "Hamısı qəbul edilib",
+  "achievementLegendPartiallyTaken": "Qismən"
 }

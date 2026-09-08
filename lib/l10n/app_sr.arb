@@ -236,5 +236,6 @@
   "achievementStreakLabel": "Низ",
   "achievementStreakDaysSuffix": "дана",
   "achievementMonthlyRateLabel": "Стопа остварења за {month}",
-  "achievementLegendAllTaken": "Све узето"
+  "achievementLegendAllTaken": "Све узето",
+  "achievementLegendPartiallyTaken": "Делимично"
 }

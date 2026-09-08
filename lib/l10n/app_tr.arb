@@ -236,5 +236,6 @@
   "achievementStreakLabel": "Seri",
   "achievementStreakDaysSuffix": "gün",
   "achievementMonthlyRateLabel": "{month} tamamlama oranı",
-  "achievementLegendAllTaken": "Tümü alındı"
+  "achievementLegendAllTaken": "Tümü alındı",
+  "achievementLegendPartiallyTaken": "Kısmen"
 }

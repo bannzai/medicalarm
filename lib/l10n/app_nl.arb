@@ -236,5 +236,6 @@
   "achievementStreakLabel": "Reeks",
   "achievementStreakDaysSuffix": "dagen",
   "achievementMonthlyRateLabel": "Voltooiingspercentage voor {month}",
-  "achievementLegendAllTaken": "Alles ingenomen"
+  "achievementLegendAllTaken": "Alles ingenomen",
+  "achievementLegendPartiallyTaken": "Gedeeltelijk"
 }

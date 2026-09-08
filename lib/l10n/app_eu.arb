@@ -236,5 +236,6 @@
   "achievementStreakLabel": "Jarraikako marka",
   "achievementStreakDaysSuffix": "egun",
   "achievementMonthlyRateLabel": "{month} hilabeteko betetze-maila",
-  "achievementLegendAllTaken": "Denak hartuta"
+  "achievementLegendAllTaken": "Denak hartuta",
+  "achievementLegendPartiallyTaken": "Partzialki"
 }

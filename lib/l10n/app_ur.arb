@@ -236,5 +236,6 @@
   "achievementStreakLabel": "مسلسل ریکارڈ",
   "achievementStreakDaysSuffix": "دن",
   "achievementMonthlyRateLabel": "{month} کی تکمیل کی شرح",
-  "achievementLegendAllTaken": "سب لے لی گئی ہیں"
+  "achievementLegendAllTaken": "سب لے لی گئی ہیں",
+  "achievementLegendPartiallyTaken": "جزوی طور پر"
 }

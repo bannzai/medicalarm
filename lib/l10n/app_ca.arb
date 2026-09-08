@@ -236,5 +236,6 @@
   "achievementStreakLabel": "Ratxa consecutiva",
   "achievementStreakDaysSuffix": "dies",
   "achievementMonthlyRateLabel": "Percentatge d’assoliment de {month}",
-  "achievementLegendAllTaken": "Totes preses"
+  "achievementLegendAllTaken": "Totes preses",
+  "achievementLegendPartiallyTaken": "Parcialment"
 }

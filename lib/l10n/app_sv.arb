@@ -236,5 +236,6 @@
   "achievementStreakLabel": "Sammanhängande serie",
   "achievementStreakDaysSuffix": "dagar",
   "achievementMonthlyRateLabel": "Uppfyllelsegrad för {month}",
-  "achievementLegendAllTaken": "Alla tagna"
+  "achievementLegendAllTaken": "Alla tagna",
+  "achievementLegendPartiallyTaken": "Delvis"
 }

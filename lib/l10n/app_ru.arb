@@ -236,5 +236,6 @@
   "achievementStreakLabel": "Серия",
   "achievementStreakDaysSuffix": "дн.",
   "achievementMonthlyRateLabel": "Показатель выполнения за {month}",
-  "achievementLegendAllTaken": "Все приняты"
+  "achievementLegendAllTaken": "Все приняты",
+  "achievementLegendPartiallyTaken": "Частично"
 }

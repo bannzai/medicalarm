@@ -236,5 +236,6 @@
   "achievementStreakLabel": "רצף",
   "achievementStreakDaysSuffix": "ימים",
   "achievementMonthlyRateLabel": "שיעור עמידה ביעדים עבור {month}",
-  "achievementLegendAllTaken": "הכול נלקח"
+  "achievementLegendAllTaken": "הכול נלקח",
+  "achievementLegendPartiallyTaken": "חלקית"
 }

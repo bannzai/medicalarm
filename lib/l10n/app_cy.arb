@@ -236,5 +236,6 @@
   "achievementStreakLabel": "Cyfres olynol",
   "achievementStreakDaysSuffix": "diwrnod",
   "achievementMonthlyRateLabel": "Cyfradd gyflawni ar gyfer {month}",
-  "achievementLegendAllTaken": "Popeth wedi'i gymryd"
+  "achievementLegendAllTaken": "Popeth wedi'i gymryd",
+  "achievementLegendPartiallyTaken": "Yn rhannol"
 }

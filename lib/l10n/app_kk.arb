@@ -236,5 +236,6 @@
   "achievementStreakLabel": "Қатарынан орындалған күндер",
   "achievementStreakDaysSuffix": "күн",
   "achievementMonthlyRateLabel": "{month} айындағы орындалу деңгейі",
-  "achievementLegendAllTaken": "Барлығы қабылданды"
+  "achievementLegendAllTaken": "Барлығы қабылданды",
+  "achievementLegendPartiallyTaken": "Ішінара"
 }
