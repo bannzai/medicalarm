@@ -86,7 +86,7 @@
   "writeDiary": "Skryf 'n dagboekinskrywing",
   "editDiaryTooltip": "Redigeer dagboek",
   "medicineRegistrationLimit": "Aantal geregistreerde medisyne",
-  "doseReceiverRegistrationLimit": "die aantal geregistreerde persone wat medikasie gebruik",
+  "doseReceiverRegistrationLimit": "Aantal geregistreerde medikasiegebruiker",
   "notificationScheduleLimit": "Aantal kennisgewingskedules",
   "addMedicine": "Voeg medikasie by",
   "medicineMaxCount": "Jy kan tot {count} medisyne registreer.",

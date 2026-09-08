@@ -86,7 +86,7 @@
   "writeDiary": "เขียนบันทึกประจำวัน",
   "editDiaryTooltip": "แก้ไขไดอารี",
   "medicineRegistrationLimit": "จำนวนยาที่ลงทะเบียน",
-  "doseReceiverRegistrationLimit": "จำนวนผู้ที่ลงทะเบียนและรับประทานยา",
+  "doseReceiverRegistrationLimit": "จำนวนผู้ใช้ยาที่ลงทะเบียน",
   "notificationScheduleLimit": "จำนวนกำหนดการแจ้งเตือน",
   "addMedicine": "เพิ่มยา",
   "medicineMaxCount": "คุณสามารถลงทะเบียนยาได้สูงสุด {count} รายการ",

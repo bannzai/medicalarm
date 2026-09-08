@@ -86,7 +86,7 @@
   "writeDiary": "Kirjoita päiväkirjamerkintä",
   "editDiaryTooltip": "Muokkaa päiväkirjaa",
   "medicineRegistrationLimit": "Rekisteröityjen lääkkeiden määrä",
-  "doseReceiverRegistrationLimit": "rekisteröityjen lääkkeen käyttäjien määrä",
+  "doseReceiverRegistrationLimit": "Rekisteröityjen lääkkeiden käyttäjien määrä",
   "notificationScheduleLimit": "Ilmoitusaikataulujen määrä",
   "addMedicine": "Lisää lääke",
   "medicineMaxCount": "Voit rekisteröidä enintään {count} lääkettä.",

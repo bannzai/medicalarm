@@ -86,7 +86,7 @@
   "writeDiary": "Rakstīt dienasgrāmatu",
   "editDiaryTooltip": "Rediģēt dienasgrāmatu",
   "medicineRegistrationLimit": "Reģistrēto zāļu skaits",
-  "doseReceiverRegistrationLimit": "reģistrēto medikamentu lietotāju skaits",
+  "doseReceiverRegistrationLimit": "Reģistrēto medikamentu lietotāju skaits",
   "notificationScheduleLimit": "Paziņojumu grafiku skaits",
   "addMedicine": "Pievienot zāles",
   "medicineMaxCount": "Varat reģistrēt līdz {count} medikamentiem.",

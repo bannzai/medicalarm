@@ -86,7 +86,7 @@
   "writeDiary": "የዕለት ማስታወሻ ይጻፉ",
   "editDiaryTooltip": "Օրագրի խմբագրում",
   "medicineRegistrationLimit": "የተመዘገቡ መድኃኒቶች ብዛት",
-  "doseReceiverRegistrationLimit": "የተመዘገቡ መድኃኒት ተጠቃሚዎች ብዛት",
+  "doseReceiverRegistrationLimit": "Գրանցված դեղորայք ընդունողների քանակը",
   "notificationScheduleLimit": "የማሳወቂያ መርሃ ግብሮች ብዛት",
   "addMedicine": "መድኃኒት አክል",
   "medicineMaxCount": "እስከ {count} መድኃኒቶች መመዝገብ ይችላሉ።",

@@ -86,7 +86,7 @@
   "writeDiary": "Күндөлүк жазуу",
   "editDiaryTooltip": "Күндөлүктү түзөтүү",
   "medicineRegistrationLimit": "Катталган дарылардын саны",
-  "doseReceiverRegistrationLimit": "катталган дары ичкен адамдардын саны",
+  "doseReceiverRegistrationLimit": "Катталган дары ичкендердин саны",
   "notificationScheduleLimit": "Билдирмелердин графиктеринин саны",
   "addMedicine": "Дары кошуу",
   "medicineMaxCount": "Эң көп дегенде {count} дары каттай аласыз.",

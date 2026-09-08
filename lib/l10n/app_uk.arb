@@ -86,7 +86,7 @@
   "writeDiary": "Написати в щоденнику",
   "editDiaryTooltip": "Редагувати щоденник",
   "medicineRegistrationLimit": "Кількість зареєстрованих ліків",
-  "doseReceiverRegistrationLimit": "кількість зареєстрованих людей, які приймають ліки",
+  "doseReceiverRegistrationLimit": "Кількість зареєстрованих людей, які приймають ліки",
   "notificationScheduleLimit": "Кількість розкладів сповіщень",
   "addMedicine": "Додати ліки",
   "medicineMaxCount": "Можна зареєструвати до {count} ліків.",

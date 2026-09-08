@@ -86,7 +86,7 @@
   "writeDiary": "Scrie în jurnal",
   "editDiaryTooltip": "Editează jurnalul",
   "medicineRegistrationLimit": "Numărul medicamentelor înregistrate",
-  "doseReceiverRegistrationLimit": "numărul persoanelor înregistrate care iau medicamente",
+  "doseReceiverRegistrationLimit": "Numărul persoanelor înregistrate care iau medicamente",
   "notificationScheduleLimit": "Numărul programărilor de notificări",
   "addMedicine": "Adaugă medicament",
   "medicineMaxCount": "Puteți înregistra până la {count} medicamente.",

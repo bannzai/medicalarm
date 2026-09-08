@@ -86,7 +86,7 @@
   "writeDiary": "Kundalik yozish",
   "editDiaryTooltip": "Kundalikni tahrirlash",
   "medicineRegistrationLimit": "Ro‘yxatdan o‘tkazilgan dorilar soni",
-  "doseReceiverRegistrationLimit": "ro‘yxatdan o‘tgan dori qabul qiluvchilar soni",
+  "doseReceiverRegistrationLimit": "Ro‘yxatdan o‘tgan dori qabul qiluvchilar soni",
   "notificationScheduleLimit": "Bildirishnomalar jadvallari soni",
   "addMedicine": "Dori qo‘shish",
   "medicineMaxCount": "Siz ko‘pi bilan {count} ta dori ro‘yxatdan o‘tkazishingiz mumkin.",

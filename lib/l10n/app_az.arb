@@ -86,7 +86,7 @@
   "writeDiary": "Gündəlik yazın",
   "editDiaryTooltip": "Gündəliyi redaktə et",
   "medicineRegistrationLimit": "Qeydiyyata alınan dərmanların sayı",
-  "doseReceiverRegistrationLimit": "qeydiyyatdan keçmiş dərman istifadəçilərinin sayı",
+  "doseReceiverRegistrationLimit": "Qeydiyyatdan keçmiş dərman qəbul edənlərin sayı",
   "notificationScheduleLimit": "Bildiriş cədvəllərinin sayı",
   "addMedicine": "Dərman əlavə et",
   "medicineMaxCount": "Ən çox {count} dərman qeydiyyatdan keçirə bilərsiniz.",

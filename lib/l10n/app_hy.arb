@@ -86,7 +86,7 @@
   "writeDiary": "Գրել օրագրում",
   "editDiaryTooltip": "Խմբագրել օրագիրը",
   "medicineRegistrationLimit": "Գրանցված դեղերի քանակը",
-  "doseReceiverRegistrationLimit": "գրանցված դեղորայք ընդունող անձանց քանակը",
+  "doseReceiverRegistrationLimit": "Գրանցված դեղորայք ընդունողների քանակը",
   "notificationScheduleLimit": "Ծանուցումների ժամանակացույցների քանակը",
   "addMedicine": "Ավելացնել դեղորայք",
   "medicineMaxCount": "Դուք կարող եք գրանցել մինչև {count} դեղամիջոց։",

@@ -86,7 +86,7 @@
   "writeDiary": "Shkruaj në ditar",
   "editDiaryTooltip": "Redakto ditarin",
   "medicineRegistrationLimit": "Numri i barnave të regjistruara",
-  "doseReceiverRegistrationLimit": "numri i personave të regjistruar që marrin ilaçe",
+  "doseReceiverRegistrationLimit": "Numri i personave të regjistruara që marrin ilaçe",
   "notificationScheduleLimit": "Numri i orareve të njoftimeve",
   "addMedicine": "Shto ilaç",
   "medicineMaxCount": "Mund të regjistroni deri në {count} ilaçe.",

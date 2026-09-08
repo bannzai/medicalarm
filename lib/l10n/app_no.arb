@@ -86,7 +86,7 @@
   "writeDiary": "Skriv dagbok",
   "editDiaryTooltip": "Rediger dagbok",
   "medicineRegistrationLimit": "Antall registrerte medisiner",
-  "doseReceiverRegistrationLimit": "antallet registrerte personer som tar medisiner",
+  "doseReceiverRegistrationLimit": "Antall registrerte medisinbrukere",
   "notificationScheduleLimit": "Antall varslingsplaner",
   "addMedicine": "Legg til medisin",
   "medicineMaxCount": "Du kan registrere opptil {count} medisiner.",

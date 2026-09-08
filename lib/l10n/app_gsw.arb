@@ -86,7 +86,7 @@
   "writeDiary": "Tagebuech iitragä",
   "editDiaryTooltip": "Tagebuech bearbeite",
   "medicineRegistrationLimit": "Aazahl vo registrierte Medikament",
-  "doseReceiverRegistrationLimit": "d’Zahl vo de registrierte Persone, wo Medikament nehmed",
+  "doseReceiverRegistrationLimit": "Aazahl vo registrierte Medikamentenutzer",
   "notificationScheduleLimit": "Aazahl vo de Benachrichtigigsplän",
   "addMedicine": "Medikament hinzuefüege",
   "medicineMaxCount": "Sie chönd bis zu {count} Medikament registriere.",

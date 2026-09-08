@@ -86,7 +86,7 @@
   "writeDiary": "ຂຽນບັນທຶກປະຈຳວັນ",
   "editDiaryTooltip": "ແກ້ໄຂບັນທຶກປະຈຳວັນ",
   "medicineRegistrationLimit": "ຈຳນວນຢາທີ່ລົງທະບຽນ",
-  "doseReceiverRegistrationLimit": "ຈຳນວນຜູ້ທີ່ລົງທະບຽນແລະໃຊ້ຢາ",
+  "doseReceiverRegistrationLimit": "ຈຳນວນຜູ້ໃຊ້ຢາທີ່ລົງທະບຽນ",
   "notificationScheduleLimit": "ຈຳນວນຕາຕະລາງການແຈ້ງເຕືອນ",
   "addMedicine": "ເພີ່ມຢາ",
   "medicineMaxCount": "ທ່ານສາມາດລົງທະບຽນຢາໄດ້ສູງສຸດ {count} ລາຍການ.",

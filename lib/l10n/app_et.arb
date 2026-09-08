@@ -86,7 +86,7 @@
   "writeDiary": "Kirjuta päevikusse",
   "editDiaryTooltip": "Muuda päevikut",
   "medicineRegistrationLimit": "Registreeritud ravimite arv",
-  "doseReceiverRegistrationLimit": "registreeritud ravimivõtjate arv",
+  "doseReceiverRegistrationLimit": "Registreeritud ravimikasutajate arv",
   "notificationScheduleLimit": "Teavituste ajakavade arv",
   "addMedicine": "Lisa ravim",
   "medicineMaxCount": "Saate registreerida kuni {count} ravimit.",

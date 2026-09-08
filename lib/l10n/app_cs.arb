@@ -86,7 +86,7 @@
   "writeDiary": "Napsat deník",
   "editDiaryTooltip": "Upravit deník",
   "medicineRegistrationLimit": "Počet registrovaných léků",
-  "doseReceiverRegistrationLimit": "počet registrovaných osob užívajících léky",
+  "doseReceiverRegistrationLimit": "Počet registrovaných uživatelů léků",
   "notificationScheduleLimit": "Počet plánů oznámení",
   "addMedicine": "Přidat lék",
   "medicineMaxCount": "Můžete zaregistrovat až {count} léků.",

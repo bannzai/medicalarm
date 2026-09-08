@@ -86,7 +86,7 @@
   "writeDiary": "Bhala idayari",
   "editDiaryTooltip": "Hlela idayari",
   "medicineRegistrationLimit": "Inani lemithi ebhalisiwe",
-  "doseReceiverRegistrationLimit": "inani labantu ababhalisiwe abasebenzisa imithi",
+  "doseReceiverRegistrationLimit": "Inani labasebenzisi bemithi ababhalisiwe",
   "notificationScheduleLimit": "Inani lamashejuli ezaziso",
   "addMedicine": "Engeza umuthi",
   "medicineMaxCount": "Ungabhalisa imithi efika ku-{count}.",

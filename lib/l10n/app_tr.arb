@@ -86,7 +86,7 @@
   "writeDiary": "Günlük yaz",
   "editDiaryTooltip": "Günlüğü düzenle",
   "medicineRegistrationLimit": "Kayıtlı ilaç sayısı",
-  "doseReceiverRegistrationLimit": "kayıtlı ilaç kullanan kişi sayısı",
+  "doseReceiverRegistrationLimit": "Kayıtlı ilaç kullanıcılarının sayısı",
   "notificationScheduleLimit": "Bildirim planı sayısı",
   "addMedicine": "İlaç ekle",
   "medicineMaxCount": "En fazla {count} ilaç kaydedebilirsiniz.",
