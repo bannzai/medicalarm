@@ -231,7 +231,7 @@
   "doseIntervalWarningTakeAnyway": "Erregistratu",
   "doseIntervalNotificationWarning": "⚠️ Ez dira {minimumDoseIntervalHours} ordu igaro aurreko dositik",
   "ossLicense": "OSS lizentziak",
-  "achievementWeeklyLabel": "Aste honetako botikak hartzea",
+  "achievementWeeklyLabel": "Aste honetako medikazioa",
   "achievementWeeklyCountSuffix": "/{scheduledCount} aldiz",
   "achievementStreakLabel": "Jarraikako marka",
   "achievementStreakDaysSuffix": "egun",

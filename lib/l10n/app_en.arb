@@ -231,7 +231,7 @@
   "doseIntervalWarningTakeAnyway": "Record",
   "doseIntervalNotificationWarning": "⚠️ {minimumDoseIntervalHours} hours have not passed since the last dose",
   "ossLicense": "OSS Licenses",
-  "achievementWeeklyLabel": "This week",
+  "achievementWeeklyLabel": "Medication taken this week",
   "achievementWeeklyCountSuffix": "/{scheduledCount} times",
   "achievementStreakLabel": "Streak",
   "achievementStreakDaysSuffix": " days",

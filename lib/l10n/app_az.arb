@@ -231,7 +231,7 @@
   "doseIntervalWarningTakeAnyway": "Qeyd et",
   "doseIntervalNotificationWarning": "⚠️ Əvvəlki dozadan sonra {minimumDoseIntervalHours} saat keçməyib",
   "ossLicense": "OSS lisenziyaları",
-  "achievementWeeklyLabel": "Bu həftə dərman qəbulu",
+  "achievementWeeklyLabel": "Bu həftə qəbul edilən dərmanlar",
   "achievementWeeklyCountSuffix": "/{scheduledCount} dəfə",
   "achievementStreakLabel": "Ardıcıl seriya",
   "achievementStreakDaysSuffix": "gün",

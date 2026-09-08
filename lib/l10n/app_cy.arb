@@ -231,7 +231,7 @@
   "doseIntervalWarningTakeAnyway": "Cofnodi",
   "doseIntervalNotificationWarning": "⚠️ Nid yw {minimumDoseIntervalHours} awr wedi mynd heibio ers y dos diwethaf",
   "ossLicense": "Trwyddedau OSS",
-  "achievementWeeklyLabel": "Cymryd meddyginiaeth yr wythnos hon",
+  "achievementWeeklyLabel": "Meddyginiaeth yr wythnos hon",
   "achievementWeeklyCountSuffix": "/{scheduledCount} gwaith",
   "achievementStreakLabel": "Cyfres olynol",
   "achievementStreakDaysSuffix": "diwrnod",

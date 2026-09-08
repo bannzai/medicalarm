@@ -231,7 +231,7 @@
   "doseIntervalWarningTakeAnyway": "บันทึก",
   "doseIntervalNotificationWarning": "⚠️ ยังไม่ครบ {minimumDoseIntervalHours} ชั่วโมงนับจากรับประทานครั้งล่าสุด",
   "ossLicense": "ใบอนุญาต OSS",
-  "achievementWeeklyLabel": "การรับประทานยาในสัปดาห์นี้",
+  "achievementWeeklyLabel": "ยาประจำสัปดาห์นี้",
   "achievementWeeklyCountSuffix": "/{scheduledCount} ครั้ง",
   "achievementStreakLabel": "สถิติต่อเนื่อง",
   "achievementStreakDaysSuffix": "วัน",

@@ -231,7 +231,7 @@
   "doseIntervalWarningTakeAnyway": "Zabilježi",
   "doseIntervalNotificationWarning": "⚠️ Od prethodne doze nije prošlo {minimumDoseIntervalHours} sati",
   "ossLicense": "OSS licence",
-  "achievementWeeklyLabel": "Uzimanje lijekova ovog tjedna",
+  "achievementWeeklyLabel": "Lijekovi ovog tjedna",
   "achievementWeeklyCountSuffix": "/{scheduledCount} puta",
   "achievementStreakLabel": "Niz",
   "achievementStreakDaysSuffix": "dana",

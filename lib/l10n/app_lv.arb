@@ -231,7 +231,7 @@
   "doseIntervalWarningTakeAnyway": "Reģistrēt",
   "doseIntervalNotificationWarning": "⚠️ Kopš pēdējās devas lietošanas nav pagājušas {minimumDoseIntervalHours} stundas",
   "ossLicense": "OSS licences",
-  "achievementWeeklyLabel": "Zāļu lietošana šonedēļ",
+  "achievementWeeklyLabel": "Šīs nedēļas zāles",
   "achievementWeeklyCountSuffix": "/{scheduledCount} reizes",
   "achievementStreakLabel": "Nepārtraukta sērija",
   "achievementStreakDaysSuffix": "dienas",

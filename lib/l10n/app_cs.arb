@@ -231,7 +231,7 @@
   "doseIntervalWarningTakeAnyway": "Zaznamenat",
   "doseIntervalNotificationWarning": "⚠️ Od poslední dávky neuplynulo {minimumDoseIntervalHours} hodin",
   "ossLicense": "Licence OSS",
-  "achievementWeeklyLabel": "Užívání léků tento týden",
+  "achievementWeeklyLabel": "Léky užité tento týden",
   "achievementWeeklyCountSuffix": "/{scheduledCount}×",
   "achievementStreakLabel": "Série",
   "achievementStreakDaysSuffix": "dní",

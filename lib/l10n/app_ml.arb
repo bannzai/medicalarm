@@ -231,7 +231,7 @@
   "doseIntervalWarningTakeAnyway": "രേഖപ്പെടുത്തുക",
   "doseIntervalNotificationWarning": "⚠️ മുമ്പത്തെ ഡോസ് എടുത്തിട്ട് {minimumDoseIntervalHours} മണിക്കൂർ കഴിഞ്ഞിട്ടില്ല",
   "ossLicense": "OSS ലൈസൻസുകൾ",
-  "achievementWeeklyLabel": "ഈ ആഴ്ചയിലെ മരുന്ന് കഴിക്കൽ",
+  "achievementWeeklyLabel": "ഈ ആഴ്ചയിലെ മരുന്നുകൾ",
   "achievementWeeklyCountSuffix": "/{scheduledCount} തവണ",
   "achievementStreakLabel": "തുടർച്ചയായ റെക്കോർഡ്",
   "achievementStreakDaysSuffix": "ദിവസങ്ങൾ",

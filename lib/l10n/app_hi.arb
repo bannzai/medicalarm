@@ -231,7 +231,7 @@
   "doseIntervalWarningTakeAnyway": "रिकॉर्ड करें",
   "doseIntervalNotificationWarning": "⚠️ पिछली खुराक लिए हुए {minimumDoseIntervalHours} घंटे नहीं हुए हैं",
   "ossLicense": "OSS लाइसेंस",
-  "achievementWeeklyLabel": "इस सप्ताह दवा लेना",
+  "achievementWeeklyLabel": "इस सप्ताह की दवाएँ",
   "achievementWeeklyCountSuffix": "/{scheduledCount} बार",
   "achievementStreakLabel": "लगातार रिकॉर्ड",
   "achievementStreakDaysSuffix": "दिन",

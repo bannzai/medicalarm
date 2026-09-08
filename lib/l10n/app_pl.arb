@@ -231,7 +231,7 @@
   "doseIntervalWarningTakeAnyway": "Zapisz",
   "doseIntervalNotificationWarning": "⚠️ Od przyjęcia poprzedniej dawki nie minęło {minimumDoseIntervalHours} godzin",
   "ossLicense": "Licencje OSS",
-  "achievementWeeklyLabel": "Przyjęcia leków w tym tygodniu",
+  "achievementWeeklyLabel": "Leki w tym tygodniu",
   "achievementWeeklyCountSuffix": "/{scheduledCount} razy",
   "achievementStreakLabel": "Seria",
   "achievementStreakDaysSuffix": "dni",

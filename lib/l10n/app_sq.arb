@@ -231,7 +231,7 @@
   "doseIntervalWarningTakeAnyway": "Regjistro",
   "doseIntervalNotificationWarning": "⚠️ Nuk kanë kaluar {minimumDoseIntervalHours} orë nga doza e fundit",
   "ossLicense": "Licencat OSS",
-  "achievementWeeklyLabel": "Marrja e ilaçeve këtë javë",
+  "achievementWeeklyLabel": "Barnat e kësaj jave",
   "achievementWeeklyCountSuffix": "/{scheduledCount} herë",
   "achievementStreakLabel": "Seri e njëpasnjëshme",
   "achievementStreakDaysSuffix": "ditë",

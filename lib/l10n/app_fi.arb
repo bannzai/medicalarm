@@ -231,7 +231,7 @@
   "doseIntervalWarningTakeAnyway": "Kirjaa",
   "doseIntervalNotificationWarning": "⚠️ Edellisestä annoksesta ei ole kulunut {minimumDoseIntervalHours} tuntia",
   "ossLicense": "OSS-lisenssit",
-  "achievementWeeklyLabel": "Lääkkeenotto tällä viikolla",
+  "achievementWeeklyLabel": "Tämän viikon lääkkeet",
   "achievementWeeklyCountSuffix": "/{scheduledCount} kertaa",
   "achievementStreakLabel": "Putki",
   "achievementStreakDaysSuffix": "päivää",

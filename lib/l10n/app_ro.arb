@@ -231,7 +231,7 @@
   "doseIntervalWarningTakeAnyway": "Înregistrează",
   "doseIntervalNotificationWarning": "⚠️ Nu au trecut {minimumDoseIntervalHours} ore de la doza anterioară",
   "ossLicense": "Licențe OSS",
-  "achievementWeeklyLabel": "Administrarea medicamentelor în această săptămână",
+  "achievementWeeklyLabel": "Medicamentele din această săptămână",
   "achievementWeeklyCountSuffix": "/{scheduledCount} ori",
   "achievementStreakLabel": "Serie",
   "achievementStreakDaysSuffix": "zile",

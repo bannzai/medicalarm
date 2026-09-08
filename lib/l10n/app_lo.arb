@@ -231,7 +231,7 @@
   "doseIntervalWarningTakeAnyway": "ບັນທຶກ",
   "doseIntervalNotificationWarning": "⚠️ ຍັງບໍ່ຮອດ {minimumDoseIntervalHours} ຊົ່ວໂມງນັບຈາກການກິນຢາຄັ້ງກ່ອນ",
   "ossLicense": "ໃບອະນຸຍາດ OSS",
-  "achievementWeeklyLabel": "ການກິນຢາໃນອາທິດນີ້",
+  "achievementWeeklyLabel": "ຢາປະຈຳອາທິດນີ້",
   "achievementWeeklyCountSuffix": "/{scheduledCount} ຄັ້ງ",
   "achievementStreakLabel": "ສະຖິຕິຕໍ່ເນື່ອງ",
   "achievementStreakDaysSuffix": "ວັນ",

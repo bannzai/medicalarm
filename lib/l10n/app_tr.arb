@@ -231,7 +231,7 @@
   "doseIntervalWarningTakeAnyway": "Kaydet",
   "doseIntervalNotificationWarning": "⚠️ Önceki dozadan bu yana {minimumDoseIntervalHours} saat geçmedi",
   "ossLicense": "OSS lisansları",
-  "achievementWeeklyLabel": "Bu haftaki ilaç alımı",
+  "achievementWeeklyLabel": "Bu haftaki ilaçlar",
   "achievementWeeklyCountSuffix": "/{scheduledCount} kez",
   "achievementStreakLabel": "Seri",
   "achievementStreakDaysSuffix": "gün",

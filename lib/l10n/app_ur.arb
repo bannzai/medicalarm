@@ -231,7 +231,7 @@
   "doseIntervalWarningTakeAnyway": "ریکارڈ کریں",
   "doseIntervalNotificationWarning": "⚠️ پچھلی خوراک لیے ہوئے {minimumDoseIntervalHours} گھنٹے نہیں گزرے",
   "ossLicense": "OSS لائسنسز",
-  "achievementWeeklyLabel": "اس ہفتے دوا لینا",
+  "achievementWeeklyLabel": "اس ہفتے کی ادویات",
   "achievementWeeklyCountSuffix": "/{scheduledCount} بار",
   "achievementStreakLabel": "مسلسل ریکارڈ",
   "achievementStreakDaysSuffix": "دن",

@@ -231,7 +231,7 @@
   "doseIntervalWarningTakeAnyway": "වාර්තා කරන්න",
   "doseIntervalNotificationWarning": "⚠️ අවසන් මාත්‍රාව ලබාගෙන {minimumDoseIntervalHours} පැය ගත වී නැත",
   "ossLicense": "OSS බලපත්‍ර",
-  "achievementWeeklyLabel": "මෙම සතියේ ඖෂධ ගැනීම",
+  "achievementWeeklyLabel": "මෙම සතියේ ඖෂධ",
   "achievementWeeklyCountSuffix": "/{scheduledCount} වරක්",
   "achievementStreakLabel": "අඛණ්ඩ වාර්තාව",
   "achievementStreakDaysSuffix": "දින",

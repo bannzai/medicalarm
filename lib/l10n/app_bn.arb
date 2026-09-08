@@ -231,7 +231,7 @@
   "doseIntervalWarningTakeAnyway": "রেকর্ড করুন",
   "doseIntervalNotificationWarning": "⚠️ আগের ডোজ নেওয়ার পর {minimumDoseIntervalHours} ঘণ্টা পার হয়নি",
   "ossLicense": "OSS লাইসেন্স",
-  "achievementWeeklyLabel": "এই সপ্তাহের ওষুধ সেবন",
+  "achievementWeeklyLabel": "এই সপ্তাহের ওষুধ",
   "achievementWeeklyCountSuffix": "/{scheduledCount} বার",
   "achievementStreakLabel": "ধারাবাহিকতা",
   "achievementStreakDaysSuffix": "দিন",

@@ -231,7 +231,7 @@
   "doseIntervalWarningTakeAnyway": "Registra",
   "doseIntervalNotificationWarning": "⚠️ Non sono ancora trascorse {minimumDoseIntervalHours} ore dall’ultima dose",
   "ossLicense": "Licenze OSS",
-  "achievementWeeklyLabel": "Assunzioni di farmaci questa settimana",
+  "achievementWeeklyLabel": "Farmaci di questa settimana",
   "achievementWeeklyCountSuffix": "/{scheduledCount} volte",
   "achievementStreakLabel": "Serie",
   "achievementStreakDaysSuffix": "giorni",

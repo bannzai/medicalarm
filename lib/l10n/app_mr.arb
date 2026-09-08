@@ -231,7 +231,7 @@
   "doseIntervalWarningTakeAnyway": "नोंद करा",
   "doseIntervalNotificationWarning": "⚠️ मागील डोस घेतल्यापासून {minimumDoseIntervalHours} तास झालेले नाहीत",
   "ossLicense": "OSS परवाने",
-  "achievementWeeklyLabel": "या आठवड्यातील औषध सेवन",
+  "achievementWeeklyLabel": "या आठवड्यातील औषधे",
   "achievementWeeklyCountSuffix": "/{scheduledCount} वेळा",
   "achievementStreakLabel": "सलग नोंद",
   "achievementStreakDaysSuffix": "दिवस",

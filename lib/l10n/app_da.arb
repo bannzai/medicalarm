@@ -231,7 +231,7 @@
   "doseIntervalWarningTakeAnyway": "Registrér",
   "doseIntervalNotificationWarning": "⚠️ Der er ikke gået {minimumDoseIntervalHours} timer siden sidste dosis",
   "ossLicense": "OSS-licenser",
-  "achievementWeeklyLabel": "Medicinindtagelser i denne uge",
+  "achievementWeeklyLabel": "Ugens medicin",
   "achievementWeeklyCountSuffix": "/{scheduledCount} gange",
   "achievementStreakLabel": "Sammenhængende serie",
   "achievementStreakDaysSuffix": "dage",
