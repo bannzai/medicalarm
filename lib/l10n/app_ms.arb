@@ -127,7 +127,7 @@
   "premiumUserThanksTitle": "Anda ialah ahli premium",
   "premiumUserThanksMessage": "Terima kasih kerana menggunakan perkhidmatan kami.\nBerkat anda, kami dapat terus mengendalikan Medicalarm.",
   "premiumPricePerMonth": "({price}/bulan)",
-  "premiumCancelDescription": "- Selepas pembelian, pembatalan pembaharuan automatik boleh dilakukan dalam tetapan akaun aplikasi {storeName}. (Pembatalan pembaharuan automatik tidak boleh dilakukan dari dalam aplikasi).",
+  "premiumCancelDescription": "・Selepas pembelian, anda boleh membatalkan pembaharuan automatik dalam tetapan akaun aplikasi {storeName}. (Pembaharuan automatik tidak boleh dibatalkan dari dalam aplikasi.)",
   "purchaseErrorRestoreFailed": "Maklumat pembelian sebelumnya tidak dapat dijumpai. Sila semak akaun anda dan cuba sekali lagi.",
   "purchaseErrorUserNotFound": "Pengguna tidak dapat disahkan. Sila mulakan semula aplikasi dan cuba lagi. Maklumat lanjut: {message}",
   "purchaseErrorActivationPending": "Pengesahan pembayaran belum selesai. Sila semak semula selepas beberapa waktu.",

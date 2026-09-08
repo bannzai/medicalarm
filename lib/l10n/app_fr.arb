@@ -127,7 +127,7 @@
   "premiumUserThanksTitle": "Vous êtes membre premium",
   "premiumUserThanksMessage": "Merci d’utiliser notre service.\nGrâce à vous, nous pouvons continuer à faire fonctionner Medicalarm.",
   "premiumPricePerMonth": "({price}/mois)",
-  "premiumCancelDescription": "Après l'achat, vous pouvez annuler le renouvellement automatique dans les paramètres du compte de l'application {storeName}. (L'annulation du renouvellement automatique ne peut pas être effectuée depuis l'application).",
+  "premiumCancelDescription": "・Après l’achat, vous pouvez résilier le renouvellement automatique dans les réglages du compte de l’app {storeName}. (Le renouvellement automatique ne peut pas être résilié depuis l’app.)",
   "purchaseErrorRestoreFailed": "Aucune information sur les achats précédents n'a été trouvée. Veuillez vérifier votre compte et réessayer.",
   "purchaseErrorUserNotFound": "L'utilisateur n'a pas pu être trouvé. Veuillez redémarrer l'application et réessayer. Détails : {message}",
   "purchaseErrorActivationPending": "L'activation de votre abonnement n'est pas encore terminée. Veuillez vérifier à nouveau dans quelques instants.",

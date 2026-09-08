@@ -127,7 +127,7 @@
   "premiumUserThanksTitle": "ଆପଣ ଜଣେ ପ୍ରିମିୟମ ସଦସ୍ୟ",
   "premiumUserThanksMessage": "ଆମର ସେବା ବ୍ୟବହାର କରିଥିବାରୁ ଧନ୍ୟବାଦ।\nଆପଣଙ୍କ ଯୋଗୁଁ ଆମେ Medicalarm ଚଳାଇ ରଖିପାରୁଛୁ।",
   "premiumPricePerMonth": "({price}/ମାସ)",
-  "premiumCancelDescription": "• 购买后，您可以在 {storeName} 应用程序的帐户设置中取消自动续订。（无法通过应用程序内取消自动续订。）",
+  "premiumCancelDescription": "・କିଣିବା ପରେ, {storeName} ଆପ୍‌ର ଆକାଉଣ୍ଟ ସେଟିଂସ୍‌ରୁ ସ୍ୱୟଂଚାଳିତ ନବୀକରଣ ବାତିଲ କରିପାରିବେ। (ଆପ୍‌ ଭିତରୁ ସ୍ୱୟଂଚାଳିତ ନବୀକରଣ ବାତିଲ କରିହେବ ନାହିଁ।)",
   "purchaseErrorRestoreFailed": "အထူးသဖြင့် ရောင်းဝယ်သူ့ အချက်အလက်များကို ရရှိမနေပါ။ သို့သော် မင်းရဲ့ အကောင့်ကို စစ်ဆေးပြီး နောက်တစ်ကြိမ် လုပ်ဆောင်ပါ။",
   "purchaseErrorUserNotFound": "အမှုဆောင်ကို မပြသနိုင်ခဲ့သည်။ အက်ပလီကေးကို ပြန်လည် ဖွင့်ပြီး ထပ်မံ ကြိုးစားပါ။ ဖော်ပြချက်: {message}",
   "purchaseErrorActivationPending": "課金の有効化が完了しておりません。しばらく時間をおいてからご確認ください",

@@ -127,7 +127,7 @@
   "premiumUserThanksTitle": "Ви преміум-учасник",
   "premiumUserThanksMessage": "Дякуємо, що користуєтеся нашим сервісом.\nЗавдяки вам ми можемо продовжувати роботу Medicalarm.",
   "premiumPricePerMonth": "({price}/місяць)",
-  "premiumCancelDescription": "After purchase, you can cancel the auto-renewal in the account settings of the {storeName} app. (You cannot cancel the auto-renewal from within the app).",
+  "premiumCancelDescription": "・Після покупки автоматичне поновлення можна скасувати в налаштуваннях облікового запису програми {storeName}. (Скасувати автоматичне поновлення в самій програмі неможливо.)",
   "purchaseErrorRestoreFailed": "There is no previous purchase information found. Please check your account and try again.",
   "purchaseErrorUserNotFound": "The user could not be found. Please restart the app and try again. Details: {message}",
   "purchaseErrorActivationPending": "The activation of the payment has not been completed. Please check again after some time.",

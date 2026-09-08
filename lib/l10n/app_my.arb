@@ -127,7 +127,7 @@
   "premiumUserThanksTitle": "သင်သည် ပရီမီယံအဖွဲ့ဝင်ဖြစ်သည်",
   "premiumUserThanksMessage": "ကျွန်ုပ်တို့၏ဝန်ဆောင်မှုကို အသုံးပြုသည့်အတွက် ကျေးဇူးတင်ပါသည်။\nသင့်ကျေးဇူးကြောင့် Medicalarm ကို ဆက်လက်လုပ်ဆောင်နိုင်ပါသည်။",
   "premiumPricePerMonth": "({price}/လ)",
-  "premiumCancelDescription": "• Setelah pembelian, pembatalan pembaruan otomatis boleh dilakukan di pengaturan akun aplikasi {storeName}. (Pembatalan pembaruan otomatis tidak boleh dilakukan dari dalam aplikasi).",
+  "premiumCancelDescription": "・ဝယ်ယူပြီးနောက် အလိုအလျောက်သက်တမ်းတိုးခြင်းကို {storeName} အက်ပ်၏ အကောင့်ဆက်တင်များမှ ပယ်ဖျက်နိုင်ပါသည်။ (အက်ပ်အတွင်းမှ အလိုအလျောက်သက်တမ်းတိုးခြင်းကို ပယ်ဖျက်၍မရပါ။)",
   "purchaseErrorRestoreFailed": "Maklumat pembelian sebelum ini tidak dijumpai. Sila semak akaun anda dan cuba lagi.",
   "purchaseErrorUserNotFound": "Pengguna tidak dapat disahkan. Sila mulakan semula aplikasi dan cuba lagi. Butiran: {message}",
   "purchaseErrorActivationPending": "Pengaktifan caj tidak selesai. Sila semak semula selepas beberapa ketika.",

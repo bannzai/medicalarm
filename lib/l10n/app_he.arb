@@ -127,7 +127,7 @@
   "premiumUserThanksTitle": "אתם חברי פרימיום",
   "premiumUserThanksMessage": "תודה על השימוש בשירות שלנו.\nבזכותכם, אנחנו יכולים להמשיך להפעיל את Medicalarm.",
   "premiumPricePerMonth": "({price}/לחודש)",
-  "premiumCancelDescription": "לאחר הרכישה, ניתן לבטל את חידוש המנוי בהגדרות החשבון של אפליקציית {storeName}. (לא ניתן לבטל את חידוש המנוי מתוך האפליקציה).",
+  "premiumCancelDescription": "・לאחר הרכישה, ניתן לבטל את החידוש האוטומטי בהגדרות החשבון של אפליקציית {storeName}. (אי אפשר לבטל את החידוש האוטומטי מתוך האפליקציה.)",
   "purchaseErrorRestoreFailed": "לא נמצאה מידע רכישה קודם. אנא בדוק את החשבון שלך ומנסה שוב.",
   "purchaseErrorUserNotFound": "המשתמש לא נמצא. אנא סגור ופתח את האפליקציה מחדש והנסה שוב. פרטים: {message}",
   "purchaseErrorActivationPending": "לא הושלמה הפעלת המנוי. אנא המתן מעט לפני שתחזור לבדוק.",

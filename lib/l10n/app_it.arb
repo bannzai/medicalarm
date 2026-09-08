@@ -127,7 +127,7 @@
   "premiumUserThanksTitle": "Sei un membro premium",
   "premiumUserThanksMessage": "Grazie per utilizzare il nostro servizio.\nGrazie a te, possiamo continuare a gestire Medicalarm.",
   "premiumPricePerMonth": "({price}/mese)",
-  "premiumCancelDescription": "• Dopo l'acquisto, è possibile annullare l'auto-rinnovo nelle impostazioni dell'account dell'app {storeName}. (Non è possibile annullare l'auto-rinnovo all'interno dell'app).",
+  "premiumCancelDescription": "・Dopo l’acquisto, puoi annullare il rinnovo automatico nelle impostazioni dell’account dell’app {storeName}. (Il rinnovo automatico non può essere annullato dall’app.)",
   "purchaseErrorRestoreFailed": "Non è stato possibile trovare le informazioni di acquisto precedenti. Controlla il tuo account e riprova.",
   "purchaseErrorUserNotFound": "L'utente non è stato trovato. Riavvia l'app e riprova. Dettagli: {message}",
   "purchaseErrorActivationPending": "L'attivazione del pagamento non è stata completata. Si prega di controllare dopo un po' di tempo.",

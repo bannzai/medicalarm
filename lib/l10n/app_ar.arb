@@ -127,7 +127,7 @@
   "premiumUserThanksTitle": "أنت عضو مميز",
   "premiumUserThanksMessage": "شكرًا لاستخدامكم التطبيق.\nبفضلكم، نتمكن من مواصلة تشغيل Medicalarm.",
   "premiumPricePerMonth": "({price}/شهريًا)",
-  "premiumCancelDescription": "• يمكنك إلغاء التجديد التلقائي بعد الشراء عن طريق إعدادات الحساب في تطبيق {storeName}. (لا يمكن إلغاء التجديد التلقائي من داخل التطبيق).",
+  "premiumCancelDescription": "・بعد الشراء، يمكنك إلغاء التجديد التلقائي من إعدادات الحساب في تطبيق {storeName}. (لا يمكن إلغاء التجديد التلقائي من داخل التطبيق.)",
   "purchaseErrorRestoreFailed": "لا يمكن العثور على معلومات الشراء السابقة. يرجى التحقق من حسابك والمحاولة مرة أخرى.",
   "purchaseErrorUserNotFound": "لم يتمكن المستخدم من التأكيد. يرجى إعادة تشغيل التطبيق والمحاولة مرة أخرى. التفاصيل: {message}",
   "purchaseErrorActivationPending": "لم يتم تفعيل الاشتراك بعد. يرجى الانتظار لبعض الوقت والتحقق مرة أخرى.",

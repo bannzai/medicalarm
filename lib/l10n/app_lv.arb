@@ -127,7 +127,7 @@
   "premiumUserThanksTitle": "Jūs esat Premium dalībnieks",
   "premiumUserThanksMessage": "Paldies, ka izmantojat mūsu pakalpojumu.\nPateicoties jums, mēs varam turpināt Medicalarm darbību.",
   "premiumPricePerMonth": "({price}/mēn.)",
-  "premiumCancelDescription": "• Pirkuma veikšanas pēc automātiskās atjaunošanas atcelšana var tikt veikta {storeName} lietotnes konta iestatījumos. (Automātiskās atjaunošanas atcelšana nevar tikt veikta no lietotnes.)",
+  "premiumCancelDescription": "・Pēc iegādes automātisko atjaunošanu varat atcelt lietotnes {storeName} konta iestatījumos. (Automātisko atjaunošanu nevar atcelt pašā lietotnē.)",
   "purchaseErrorRestoreFailed": "Iepriekšējā pirkuma informācija netika atrasta. Lūdzu, pārbaudiet savu kontu un mēģiniet vēlreiz.",
   "purchaseErrorUserNotFound": "Lietotājs nevarēja tikt apstiprināts. Lūdzu, restartējiet lietotni un mēģiniet vēlreiz. Sīkāka informācija: {message}",
   "purchaseErrorActivationPending": "Abonēšanas aktivizācija nav pabeigta. Lūdzu, pagaidiet kādu laiku un pārbaudiet vēlreiz.",

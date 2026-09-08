@@ -127,7 +127,7 @@
   "premiumUserThanksTitle": "Wewe ni mwanachama wa Premium",
   "premiumUserThanksMessage": "Asante kwa kutumia huduma yetu.\nShukrani kwako, tunaweza kuendelea kuendesha Medicalarm.",
   "premiumPricePerMonth": "({price}/mwezi)",
-  "premiumCancelDescription": "Baada ya kununua, unaweza kufuta usajili wa kujisajili kwenye mipangilio ya akaunti ya {storeName} kwenye programu. (Haiwezekani kufuta usajili wa kujisajili ndani ya programu.)",
+  "premiumCancelDescription": "・Baada ya kununua, unaweza kughairi usasishaji wa kiotomatiki katika mipangilio ya akaunti ya programu ya {storeName}. (Usasishaji wa kiotomatiki hauwezi kughairiwa ndani ya programu.)",
   "purchaseErrorRestoreFailed": "Habari ya zamani za ununuzi haipatikani. Tafadhali angalia akaunti yako na ujaribu tena.",
   "purchaseErrorUserNotFound": "Mtumiaji hakuweza kupatikana. Tafadhali anzisha upya programu na ujaribu tena. Maelezo: {message}",
   "purchaseErrorActivationPending": "Malipo hayajawezeshwa bado. Tafadhali subiri kwa muda kabla ya kuangalia tena.",

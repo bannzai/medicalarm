@@ -127,7 +127,7 @@
   "premiumUserThanksTitle": "እርስዎ የፕሪሚየም አባል ነዎት",
   "premiumUserThanksMessage": "ስለሚጠቀሙበት እናመሰግናለን።\nለእርስዎ ምስጋና ይግባውና Medicalarmን ማስኬድ መቀጠል ችለናል።",
   "premiumPricePerMonth": "({price}/ወር)",
-  "premiumCancelDescription": "• ግዥ በኋላ፣ የእቃ መለወጥ መስፈርት በ{storeName} አፕ አካውንት ማቅረብ ላይ ይቀጥላል። (ከዚህ በተለያዩ መንገዶች እዚህ ቀጥለት ይቀጥላል አለመፈጠር)።",
+  "premiumCancelDescription": "・ከገዙ በኋላ ራስ-ሰር እድሳትን በ{storeName} መተግበሪያ የመለያ ቅንብሮች ውስጥ መሰረዝ ይችላሉ። (ራስ-ሰር እድሳትን ከመተግበሪያው ውስጥ መሰረዝ አይቻልም።)",
   "purchaseErrorRestoreFailed": "እቅፍ ግድብ መረጃ የተቀናበረ አለም ይገኛል። እባክዎን ወደ እንግዴ ክፍል ይመለከቱ እና እባክዎን ይሞክሩ።",
   "purchaseErrorUserNotFound": "እቅፍ ይላል የተጠቃሚው ይፈግር አይቻልም። እባኮትን ፕሮግራም ይቀይሩና ይሞክሩት አንደኡ። ዝርዝር: {message}",
   "purchaseErrorActivationPending": "ንብረት ማስተካከያ አልተጠቃለም። ጥቂት ጊዜ በኋላ ይመለከቱ እባኮት።",

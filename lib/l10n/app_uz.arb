@@ -127,7 +127,7 @@
   "premiumUserThanksTitle": "Siz premium aʼzosiz",
   "premiumUserThanksMessage": "Xizmatimizdan foydalanganingiz uchun rahmat.\nSiz tufayli Medicalarm faoliyatini davom ettira olamiz.",
   "premiumPricePerMonth": "({price}/oy)",
-  "premiumCancelDescription": "- Xarid qilinganidan keyin, avtomatik yangilanishni bekor qilish {storeName} ilovasidagi hisob sozlamalari orqali amalga oshirilishi mumkin. (Ilova ichidan avtomatik yangilanishni bekor qilish mumkin emas).",
+  "premiumCancelDescription": "・Xariddan so‘ng avtomatik yangilanishni {storeName} ilovasining hisob sozlamalarida bekor qilishingiz mumkin. (Avtomatik yangilanishni ilovaning o‘zidan bekor qilib bo‘lmaydi.)",
   "purchaseErrorRestoreFailed": "Old purchase information could not be found. Please check your account and try again.",
   "purchaseErrorUserNotFound": "Foydalanuvchini topa olmadi. Iltimos, ilovani qayta ishga tushiring va yana bir bor urinib ko'ring. Tafsilotlar: {message}",
   "purchaseErrorActivationPending": "Toʻlovni faol holatga keltirish tugallanmagan. Iltimos, bir oz vaqt oling va keyin qayta tekshiring.",

@@ -127,7 +127,7 @@
   "premiumUserThanksTitle": "Premium kidea zara",
   "premiumUserThanksMessage": "Eskerrik asko gure zerbitzua erabiltzeagatik.\nZuei esker, Medicalarm mantentzen jarrai dezakegu.",
   "premiumPricePerMonth": "({price}/hilean)",
-  "premiumCancelDescription": "• Erosketan ondoren, automatikoki berritzea bertan behera uzteko {storeName} aplikazioaren kontu-ezarpenak erabil daitezke. (Aplikazioaren barruan automatikoki berritzea bertan behera uzteko ezin da egin).",
+  "premiumCancelDescription": "・Erosketa egin ondoren, berritze automatikoa {storeName} aplikazioaren kontu-ezarpenetan bertan behera utz dezakezu. (Berritze automatikoa ezin da aplikaziotik bertatik bertan behera utzi.)",
   "purchaseErrorRestoreFailed": "Ezin da aurreko erosketa-informaziorik aurkitu. Mesedez, egiaztatu zure kontua eta saiatu berriro.",
   "purchaseErrorUserNotFound": "Ezin izan du erabiltzaileak baieztatu. Aplikazioa itzuli eta berriro saiatu mesedez. Xehetasunak: {message}",
   "purchaseErrorActivationPending": "Ordainketa aktibatzeko prozesua amaitu gabe dago. Mesedez, itxaron pixka bat eta berriro ere egiaztatu.",
