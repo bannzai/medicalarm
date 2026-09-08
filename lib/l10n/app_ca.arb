@@ -29,7 +29,7 @@
   "unexpectedError": "S'ha produït un error inesperat",
   "cancel": "Cancel·la",
   "delete": "Eliminar",
-  "deleteAccount": "Esborrar compte",
+  "deleteAccount": "Eliminar el compte",
   "deleteAccountConfirm": "S'eliminarà la informació de l'usuari",
   "deleteAccountMessage": "En eliminar el compte, se suprimiran totes les dades de l'usuari.",
   "medicationFrequency": "Freqüència de presa",

@@ -29,7 +29,7 @@
   "unexpectedError": "Възникна неочаквана грешка",
   "cancel": "Отказ",
   "delete": "Изтриване",
-  "deleteAccount": "Премахване на акаунт",
+  "deleteAccount": "Изтриване на акаунта",
   "deleteAccountConfirm": "Ще изтрием информацията на потребителя",
   "deleteAccountMessage": "Когато изтриете акаунта, цялата информация за потребителя ще бъде изтрита.",
   "medicationFrequency": "Честота на прием",

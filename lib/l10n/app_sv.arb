@@ -29,7 +29,7 @@
   "unexpectedError": "Ett oväntat fel inträffade",
   "cancel": "Avbryt",
   "delete": "Ta bort",
-  "deleteAccount": "Ta bort konto",
+  "deleteAccount": "Radera konto",
   "deleteAccountConfirm": "Ta bort användarinformation",
   "deleteAccountMessage": "När du tar bort ditt konto raderas all användarinformation.",
   "medicationFrequency": "Doseringens frekvens",

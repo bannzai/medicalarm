@@ -29,7 +29,7 @@
   "unexpectedError": "Se produjo un error inesperado",
   "cancel": "Cancelar",
   "delete": "Eliminar",
-  "deleteAccount": "Eliminar cuenta",
+  "deleteAccount": "Eliminar la cuenta",
   "deleteAccountConfirm": "Eliminar información del usuario",
   "deleteAccountMessage": "Al eliminar la cuenta, se eliminará toda la información del usuario.",
   "medicationFrequency": "Frecuencia de dosificación",

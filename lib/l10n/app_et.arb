@@ -29,7 +29,7 @@
   "unexpectedError": "Ilmnes ootamatu viga",
   "cancel": "Tühista",
   "delete": "Kustuta",
-  "deleteAccount": "Konto kustutamine",
+  "deleteAccount": "Kustuta konto",
   "deleteAccountConfirm": "Kustutatakse kasutaja teave",
   "deleteAccountMessage": "Konto kustutamisel kustutatakse kogu kasutaja teave.",
   "medicationFrequency": "Ravimite sagedus",
