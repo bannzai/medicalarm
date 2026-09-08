@@ -12,6 +12,7 @@ import 'package:medicalarm/provider/medication_history.dart';
 import 'package:medicalarm/provider/medicine.dart';
 import 'package:medicalarm/utils/analytics/analytics.dart';
 import 'package:medicalarm/utils/date_time/date_time_ext.dart';
+import 'package:medicalarm/utils/purchase/purchase.dart';
 
 class MonthCalendarPager extends HookConsumerWidget {
   const MonthCalendarPager({
@@ -25,11 +26,15 @@ class MonthCalendarPager extends HookConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final medicines = ref.watch(allMedicinesProvider).valueOrNull;
     final medicationHistories = ref.watch(medicationHistoriesByDateRangeProvider(monthDateTimeRange(month: displayedMonth))).valueOrNull;
+    final hasPremiumEntitlement = ref.watch(customerInfoProvider).asData?.value.hasPremiumEntitlement;
 
     // 日付タイルごとに集計すると 1 か月分の走査を日数回繰り返すため、表示月の分だけまとめて求める (#278)。
-    // 集計に必要なデータが揃っていない間は空のまま(ドット無し)にして、従来どおりカレンダーを表示する
+    // 集計に必要なデータが揃っていない間と、過去月を非加入者が見ている間(達成率カードと同じ制限)は
+    // 空のまま(ドット無し)にして、従来どおりカレンダーを表示する
     final achievements = useMemoized(() {
-      if (medicines == null || medicationHistories == null) {
+      if (medicines == null ||
+          medicationHistories == null ||
+          !canDisplayMonthlyAchievement(month: displayedMonth, today: today(), hasPremiumEntitlement: hasPremiumEntitlement)) {
         return <int, DayMedicationAchievement?>{};
       }
       final todayDate = today().date();
@@ -48,7 +53,7 @@ class MonthCalendarPager extends HookConsumerWidget {
                   date: DateTime(displayedMonth.year, displayedMonth.month, day),
                 ),
       };
-    }, [medicines, medicationHistories, displayedMonth]);
+    }, [medicines, medicationHistories, displayedMonth, hasPremiumEntitlement]);
 
     return Container(
       decoration: const BoxDecoration(

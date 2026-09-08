@@ -29,6 +29,18 @@ bool isDateWithinHistoryRetention({required DateTime date, required DateTime tod
   return !date.date().isBefore(today.date().addDays(-maxConsecutiveLookbackDays));
 }
 
+/// [month] の達成状況(月間達成率・日別の達成ドット)を表示してよいかどうか (#278)。
+/// 過去の服薬記録の振り返りは履歴画面・日付詳細シートと同じくプレミアム加入者に限定するため、
+/// 今月より前の月は加入者にだけ表示する。今月は続けている実感を非加入でも得られるように制限しない。
+/// [hasPremiumEntitlement] が null (課金状態が未解決) の間も表示しない。解決が遅い・失敗した場合に
+/// 制限を迂回して過去の達成状況を閲覧できてしまうため
+bool canDisplayMonthlyAchievement({required DateTime month, required DateTime today, required bool? hasPremiumEntitlement}) {
+  if (!DateTime(month.year, month.month).isBefore(DateTime(today.year, today.month))) {
+    return true;
+  }
+  return hasPremiumEntitlement == true;
+}
+
 /// [medicine] が [date] の服薬予定に該当するかどうか (#278)。
 /// 開始前・停止中・アーカイブ済みの期間を除外したうえで、服用頻度([MedicationFrequency.isScheduledOnDate])で判定する。
 /// 停止・アーカイブはその操作日当日から予定に数えない。当日途中の操作で、その日の残りの予定が未達成として数えられるのを避けるため

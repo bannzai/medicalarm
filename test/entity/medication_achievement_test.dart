@@ -108,6 +108,33 @@ void main() {
     });
   });
 
+  // #278: 過去月の達成状況の閲覧制限。過去の服薬記録の振り返りは履歴画面・日付詳細シートと同じくプレミアム加入者に限定する
+  group('canDisplayMonthlyAchievement', () {
+    test('今月は非加入でも表示する', () {
+      expect(canDisplayMonthlyAchievement(month: DateTime(2026, 9), today: DateTime(2026, 9, 10), hasPremiumEntitlement: false), isTrue);
+    });
+
+    test('今月は課金状態が未解決でも表示する', () {
+      expect(canDisplayMonthlyAchievement(month: DateTime(2026, 9), today: DateTime(2026, 9, 10), hasPremiumEntitlement: null), isTrue);
+    });
+
+    test('過去月は加入者にだけ表示する', () {
+      expect(canDisplayMonthlyAchievement(month: DateTime(2026, 8), today: DateTime(2026, 9, 10), hasPremiumEntitlement: true), isTrue);
+    });
+
+    test('過去月は非加入者には表示しない', () {
+      expect(canDisplayMonthlyAchievement(month: DateTime(2026, 8), today: DateTime(2026, 9, 10), hasPremiumEntitlement: false), isFalse);
+    });
+
+    test('過去月は課金状態が未解決の間も表示しない', () {
+      expect(canDisplayMonthlyAchievement(month: DateTime(2026, 8), today: DateTime(2026, 9, 10), hasPremiumEntitlement: null), isFalse);
+    });
+
+    test('未来月は制限しない(集計対象が無く達成率は - になる)', () {
+      expect(canDisplayMonthlyAchievement(month: DateTime(2026, 10), today: DateTime(2026, 9, 10), hasPremiumEntitlement: false), isTrue);
+    });
+  });
+
   // #278: 達成集計の予定日判定。服薬予定一覧(medicationGroups)と同じ頻度判定に、
   // 開始前・停止・アーカイブの除外を加えたもの
   group('isMedicineScheduledOnDate', () {

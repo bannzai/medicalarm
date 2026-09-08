@@ -4,10 +4,13 @@ import 'package:intl/intl.dart';
 import 'package:medicalarm/components/calendar/day/achievement_dot.dart';
 import 'package:medicalarm/entity/medication_achievement.dart';
 import 'package:medicalarm/features/localization/l.dart';
+import 'package:medicalarm/features/preium_introduction/premium_introduction_sheet.dart';
 import 'package:medicalarm/provider/medication_history.dart';
 import 'package:medicalarm/provider/medicine.dart';
 import 'package:medicalarm/style/color.dart';
+import 'package:medicalarm/utils/analytics/analytics.dart';
 import 'package:medicalarm/utils/date_time/date_time_ext.dart';
+import 'package:medicalarm/utils/purchase/purchase.dart';
 
 /// カレンダー画面の月間カレンダー上部に置く達成率カード (#278)。
 /// 表示中の月の達成率と、カレンダーに並ぶ達成ドットの凡例を表示する
@@ -19,9 +22,15 @@ class CalendarAchievementSummary extends HookConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final medicines = ref.watch(allMedicinesProvider).valueOrNull;
     final medicationHistories = ref.watch(medicationHistoriesByDateRangeProvider(monthDateTimeRange(month: displayedMonth))).valueOrNull;
+    final customerInfo = ref.watch(customerInfoProvider).asData?.value;
     // カレンダー本体の表示を妨げないよう、集計に必要なデータが揃うまでは何も表示しない
     if (medicines == null || medicationHistories == null) {
       return const SizedBox.shrink();
+    }
+
+    // 過去月の達成状況は集計値も含めてプレミアム加入者に限定し、非加入者には加入導線を出す
+    if (!canDisplayMonthlyAchievement(month: displayedMonth, today: today(), hasPremiumEntitlement: customerInfo?.hasPremiumEntitlement)) {
+      return const CalendarAchievementPremiumGate();
     }
 
     final monthlyCounts = monthlyMedicationCounts(
@@ -64,6 +73,41 @@ class CalendarAchievementSummary extends HookConsumerWidget {
                 CalendarAchievementLegend(achievement: achievement),
               ],
             ],
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+/// 過去月の達成状況を非加入者に見せない時に、達成率カードの代わりに置くプレミアム加入導線 (#278)。
+/// カードごと消すと理由が伝わらないため、日付詳細シートの過去日制限と同じ鍵アイコンと加入導線のリンクを出す
+class CalendarAchievementPremiumGate extends StatelessWidget {
+  const CalendarAchievementPremiumGate({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      padding: const EdgeInsets.symmetric(vertical: 2, horizontal: 14),
+      decoration: BoxDecoration(
+        color: Colors.white,
+        borderRadius: BorderRadius.circular(12),
+        border: Border.all(color: AppColors.border),
+      ),
+      child: Row(
+        children: [
+          Icon(Icons.lock_outline, size: 20, color: Theme.of(context).colorScheme.primary),
+          Expanded(
+            child: TextButton(
+              onPressed: () {
+                analytics.logEvent(name: 'calendar_achievement_premium_pressed');
+                showPremiumIntroductionSheet(context);
+              },
+              child: Text(
+                L.premiumRequired,
+                style: const TextStyle(color: Colors.blue, fontWeight: FontWeight.bold, decoration: TextDecoration.underline),
+              ),
+            ),
           ),
         ],
       ),
