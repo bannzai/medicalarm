@@ -134,7 +134,7 @@
   "purchaseErrorTimeout": "Ühendus aegus. Kontrollige võrguühendust ja proovige uuesti. Kui probleem püsib, võtke meiega ühendust menüüs Seaded > Kontakt. Üksikasjad: {message}",
   "purchaseErrorNetworkError": "Ühendusega tekkis probleem. Kontrollige võrguühendust ja proovige uuesti. Kui probleem püsib, võtke meiega ühendust menüüs Seaded > Võta ühendust. Üksikasjad: {message}",
   "sixMonthPlan": "6 kuu plaan",
-  "premiumContractPeriod": "Lepinguperiood on 1 kuu alates ostupäevast.",
+  "premiumContractPeriod": "Tellimus kehtib üks kuu alates ostukuupäevast.",
   "privacyPolicy": "Privaatsuspoliitika",
   "termsOfService": "Kasutustingimused",
   "specifiedCommercialTransactionAct": "Teave, mis põhineb nõuetele, mis tulenevad müügilepingute seadusest",

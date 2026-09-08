@@ -134,7 +134,7 @@
   "purchaseErrorTimeout": "Si è verificato un timeout. Controlla la connessione di rete e riprova. Se il problema persiste, contattaci da Impostazioni > Contatti. Dettagli: {message}",
   "purchaseErrorNetworkError": "Si è verificato un problema di connessione. Controlla la connessione di rete e riprova. Se il problema persiste, contattaci da Impostazioni > Contattaci. Dettagli: {message}",
   "sixMonthPlan": "Piano di 6 mesi",
-  "premiumContractPeriod": "Il periodo di contratto è di un mese a partire dalla data di acquisto.",
+  "premiumContractPeriod": "Il periodo dell’abbonamento è di un mese dalla data di acquisto.",
   "privacyPolicy": "Informativa sulla privacy",
   "termsOfService": "Termini e condizioni",
   "specifiedCommercialTransactionAct": "Dichiarazione ai sensi della legge sulle transazioni commerciali specifiche",

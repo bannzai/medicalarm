@@ -134,7 +134,7 @@
   "purchaseErrorTimeout": "Đã hết thời gian chờ. Hãy kiểm tra kết nối mạng và thử lại. Nếu sự cố vẫn tiếp diễn, hãy liên hệ với chúng tôi tại Cài đặt > Liên hệ. Chi tiết: {message}",
   "purchaseErrorNetworkError": "Đã xảy ra lỗi kết nối. Hãy kiểm tra kết nối mạng rồi thử lại. Nếu sự cố vẫn tiếp diễn, hãy liên hệ với chúng tôi qua Cài đặt > Liên hệ với chúng tôi. Chi tiết: {message}",
   "sixMonthPlan": "Gói 6 tháng",
-  "premiumContractPeriod": "Thời gian hợp đồng là 1 tháng kể từ ngày mua.",
+  "premiumContractPeriod": "Thời hạn đăng ký là 1 tháng kể từ ngày mua.",
   "privacyPolicy": "Chính sách bảo mật",
   "termsOfService": "Điều khoản sử dụng",
   "specifiedCommercialTransactionAct": "Biểu thị theo yêu cầu của Luật Thương mại đặc biệt",

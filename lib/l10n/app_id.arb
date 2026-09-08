@@ -134,7 +134,7 @@
   "purchaseErrorTimeout": "Waktu permintaan habis. Periksa koneksi jaringan Anda dan coba lagi. Jika masalah berlanjut, hubungi kami melalui Pengaturan > Kontak. Detail: {message}",
   "purchaseErrorNetworkError": "Terjadi masalah koneksi. Periksa koneksi jaringan Anda, lalu coba lagi. Jika masalah berlanjut, hubungi kami melalui Pengaturan > Hubungi Kami. Detail: {message}",
   "sixMonthPlan": "Paket 6 bulan",
-  "premiumContractPeriod": "Periode kontrak adalah 1 bulan dari tanggal pembelian.",
+  "premiumContractPeriod": "Masa berlangganan adalah satu bulan sejak tanggal pembelian.",
   "privacyPolicy": "Kebijakan Privasi",
   "termsOfService": "Ketentuan Penggunaan",
   "specifiedCommercialTransactionAct": "Pernyataan Berdasarkan Undang-Undang Perdagangan Tertentu",

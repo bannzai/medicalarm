@@ -134,7 +134,7 @@
   "purchaseErrorTimeout": "Le délai d’attente a été dépassé. Vérifiez votre connexion réseau, puis réessayez. Si le problème persiste, contactez-nous via Réglages > Contact. Détails : {message}",
   "purchaseErrorNetworkError": "Un problème de connexion est survenu. Vérifiez votre connexion réseau, puis réessayez. Si le problème persiste, contactez-nous via Réglages > Nous contacter. Détails : {message}",
   "sixMonthPlan": "Forfait de 6 mois",
-  "premiumContractPeriod": "La période de contrat est de 1 mois à partir de la date d'achat.",
+  "premiumContractPeriod": "La période d’abonnement est d’un mois à compter de la date d’achat.",
   "privacyPolicy": "Politique de confidentialité",
   "termsOfService": "Conditions d'utilisation",
   "specifiedCommercialTransactionAct": "Mention légale en vertu de la loi sur des transactions commerciales spécifiques",

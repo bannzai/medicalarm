@@ -134,7 +134,7 @@
   "purchaseErrorTimeout": "The request timed out. Check your network connection and try again. If the problem persists, contact us via Settings > Contact. Details: {message}",
   "purchaseErrorNetworkError": "There was a connection problem. Check your network connection and try again. If the problem persists, contact us via Settings > Contact Us. Details: {message}",
   "sixMonthPlan": "6-Month Plan",
-  "premiumContractPeriod": "The contract period is one month from the purchase date.",
+  "premiumContractPeriod": "The subscription period is one month from the date of purchase.",
   "privacyPolicy": "Privacy Policy",
   "termsOfService": "Terms of Service",
   "specifiedCommercialTransactionAct": "Notation based on the Act on Specified Commercial Transactions",

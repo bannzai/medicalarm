@@ -134,7 +134,7 @@
   "purchaseErrorTimeout": "Vaqt tugadi. Tarmoq ulanishingizni tekshirib, qayta urinib ko‘ring. Muammo hal bo‘lmasa, Sozlamalar > Bog‘lanish bo‘limi orqali biz bilan bog‘laning. Tafsilotlar: {message}",
   "purchaseErrorNetworkError": "Ulanishda muammo yuz berdi. Tarmoq ulanishini tekshiring va qayta urinib ko‘ring. Muammo davom etsa, Sozlamalar > Biz bilan bog‘lanish orqali bizga murojaat qiling. Tafsilotlar: {message}",
   "sixMonthPlan": "6 oylik reja",
-  "premiumContractPeriod": "Shartnoma muddati sotib olingan kundan boshlab 1 oy davom etadi.",
+  "premiumContractPeriod": "Obuna muddati xarid qilingan kundan boshlab 1 oyni tashkil qiladi.",
   "privacyPolicy": "Maxfiylik siyosati",
   "termsOfService": "Foydalanuvchi shartnomasi",
   "specifiedCommercialTransactionAct": "Maxsus savdo bitimlari to'g'risidagi qonunga muvofiq e'lon",

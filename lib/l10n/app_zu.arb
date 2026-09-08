@@ -134,7 +134,7 @@
   "purchaseErrorTimeout": "Isikhathi siphelile. Hlola uxhumano lwakho lwenethiwekhi bese uzama futhi. Uma inkinga iqhubeka, xhumana nathi kokuthi Izilungiselelo > Xhumana nathi. Imininingwane: {message}",
   "purchaseErrorNetworkError": "Kube nenkinga yokuxhumeka. Hlola uxhumano lwakho lwenethiwekhi bese uzama futhi. Uma inkinga iqhubeka, xhumana nathi kokuthi Izilungiselelo > Xhumana nathi. Imininingwane: {message}",
   "sixMonthPlan": "Uhlelo lwezinyanga ezi-6",
-  "premiumContractPeriod": "Isikhathi sokuvumelana si-Premium siqala ezinsukwini ezingu-30 kusukela ngosuku lokuthenga.",
+  "premiumContractPeriod": "Isikhathi sokubhalisa yinyanga eyodwa kusukela ngosuku lokuthenga.",
   "privacyPolicy": "uMthetho Wobumfihlo",
   "termsOfService": "imigomo yokusebenzisa",
   "specifiedCommercialTransactionAct": " ukubekwa kwemigomo yeMithetho Yokuhweba Ethile",

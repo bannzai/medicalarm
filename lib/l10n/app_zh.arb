@@ -134,7 +134,7 @@
   "purchaseErrorTimeout": "请求超时。请检查网络连接后重试。如果问题仍未解决，请通过“设置”>“联系我们”与我们联系。详细信息：{message}",
   "purchaseErrorNetworkError": "连接出现问题。请检查网络连接后重试。如果问题仍未解决，请前往“设置”>“联系我们”与我们联系。详情：{message}",
   "sixMonthPlan": "6个月方案",
-  "premiumContractPeriod": "合同期限是从购买之日起一个月。",
+  "premiumContractPeriod": "订阅期限为购买日起1个月。",
   "privacyPolicy": "隐私政策",
   "termsOfService": "服务条款",
   "specifiedCommercialTransactionAct": "根据特定商业交易法的声明",

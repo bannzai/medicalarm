@@ -134,7 +134,7 @@
   "purchaseErrorTimeout": "Časovna omejitev je potekla. Preverite omrežno povezavo in poskusite znova. Če težava ni odpravljena, nam pišite v Nastavitve > Stik. Podrobnosti: {message}",
   "purchaseErrorNetworkError": "Prišlo je do težave s povezavo. Preverite omrežno povezavo in poskusite znova. Če težava ne bo odpravljena, nam pišite prek Nastavitve > Stik z nami. Podrobnosti: {message}",
   "sixMonthPlan": "6-mesečni paket",
-  "premiumContractPeriod": "Obdobje pogodbe traja en mesec od dneva nakupa.",
+  "premiumContractPeriod": "Obdobje naročnine je en mesec od datuma nakupa.",
   "privacyPolicy": "Politika zasebnosti",
   "termsOfService": "Pogoji uporabe",
   "specifiedCommercialTransactionAct": "Izjava v skladu z zakonom o posebni trgovinski dejavnosti",

@@ -134,7 +134,7 @@
   "purchaseErrorTimeout": "O tempo limite foi excedido. Verifique a sua ligação de rede e tente novamente. Se o problema persistir, contacte-nos em Definições > Contacto. Detalhes: {message}",
   "purchaseErrorNetworkError": "Ocorreu um problema de ligação. Verifique a sua ligação à rede e tente novamente. Se o problema persistir, contacte-nos em Definições > Contacte-nos. Detalhes: {message}",
   "sixMonthPlan": "Plano de 6 meses",
-  "premiumContractPeriod": "O período de contrato é de 1 mês a partir da data de compra.",
+  "premiumContractPeriod": "O período da subscrição é de um mês a partir da data de compra.",
   "privacyPolicy": "Política de Privacidade",
   "termsOfService": "Termos de Uso",
   "specifiedCommercialTransactionAct": "Declaração de acordo com a Lei sobre Transações Comerciais Específicas",

@@ -134,7 +134,7 @@
   "purchaseErrorTimeout": "Se agotó el tiempo de espera. Comprueba tu conexión de red y vuelve a intentarlo. Si el problema persiste, contáctanos desde Ajustes > Contacto. Detalles: {message}",
   "purchaseErrorNetworkError": "Se produjo un problema de conexión. Comprueba tu conexión de red y vuelve a intentarlo. Si el problema persiste, ponte en contacto con nosotros desde Ajustes > Contacto. Detalles: {message}",
   "sixMonthPlan": "Plan de 6 meses",
-  "premiumContractPeriod": "El periodo de contrato es de 1 mes a partir de la fecha de compra.",
+  "premiumContractPeriod": "El periodo de suscripción es de un mes desde la fecha de compra.",
   "privacyPolicy": "Política de privacidad",
   "termsOfService": "Términos de uso",
   "specifiedCommercialTransactionAct": "Declaración conforme a la Ley de Regulación de Comercio Específico",

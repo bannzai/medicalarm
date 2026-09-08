@@ -134,7 +134,7 @@
   "purchaseErrorTimeout": "ጊዜ አልቋል። እባክዎ የኔትወርክ ግንኙነትዎን ያረጋግጡና እንደገና ይሞክሩ። ችግሩ ካልተፈታ፣ በቅንብሮች > አግኙን በኩል ያግኙን። ዝርዝር፦ {message}",
   "purchaseErrorNetworkError": "የግንኙነት ችግር ተፈጥሯል። የኔትወርክ ግንኙነትዎን ያረጋግጡና እንደገና ይሞክሩ። ካልተፈታ፣ ከቅንብሮች > አግኙን በኩል ያግኙን። ዝርዝሮች፦ {message}",
   "sixMonthPlan": "የ6 ወራት ዕቅድ",
-  "premiumContractPeriod": "ኮንትራት ወቅት ከግዢ ቀን 1 ወር ነው።",
+  "premiumContractPeriod": "የደንበኝነት ጊዜው ከግዢ ቀን ጀምሮ አንድ ወር ነው።",
   "privacyPolicy": "የግል ፖሊሲ",
   "termsOfService": "መጠቀም ይወዳድር",
   "specifiedCommercialTransactionAct": "የተለያዩ የንግድ ሥርዓቶች መረጃ መታወቂያ",

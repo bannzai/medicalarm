@@ -134,7 +134,7 @@
   "purchaseErrorTimeout": "Die versoek het ’n tydverstryking gehad. Gaan u netwerkverbinding na en probeer weer. As die probleem voortduur, kontak ons via Instellings > Kontak. Besonderhede: {message}",
   "purchaseErrorNetworkError": "Daar is ’n verbindingsprobleem. Gaan u netwerkverbinding na en probeer weer. As die probleem voortduur, kontak ons via Instellings > Kontak ons. Besonderhede: {message}",
   "sixMonthPlan": "6-maandeplan",
-  "premiumContractPeriod": "Die kontrakperiode is een maand vanaf die koopdatum.",
+  "premiumContractPeriod": "Die intekenperiode is een maand vanaf die aankoopdatum.",
   "privacyPolicy": "Privaatheidsbeleid",
   "termsOfService": "gebruikersvoorwaardes",
   "specifiedCommercialTransactionAct": "Verklaring volgens die Wet op Bepaalde Handelspraktyke",

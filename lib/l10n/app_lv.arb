@@ -134,7 +134,7 @@
   "purchaseErrorTimeout": "Noildze iestājās. Pārbaudiet tīkla savienojumu un mēģiniet vēlreiz. Ja problēma joprojām pastāv, sazinieties ar mums sadaļā Iestatījumi > Kontakti. Detalizēta informācija: {message}",
   "purchaseErrorNetworkError": "Radās savienojuma problēma. Pārbaudiet tīkla savienojumu un mēģiniet vēlreiz. Ja problēma joprojām pastāv, sazinieties ar mums sadaļā Iestatījumi > Sazināties ar mums. Detalizēta informācija: {message}",
   "sixMonthPlan": "6 mēnešu plāns",
-  "premiumContractPeriod": "Līguma termiņš ir 1 mēnesis no iegādes datuma.",
+  "premiumContractPeriod": "Abonementa darbības laiks ir viens mēnesis no pirkuma datuma.",
   "privacyPolicy": "Privātuma politika",
   "termsOfService": "Lietošanas noteikumi",
   "specifiedCommercialTransactionAct": "Informācija saskaņā ar Noteikumiem par īpašiem tirdzniecības darījumiem",

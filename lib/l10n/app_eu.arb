@@ -134,7 +134,7 @@
   "purchaseErrorTimeout": "Denbora-muga gainditu da. Egiaztatu sareko konexioa eta saiatu berriro. Arazoak jarraitzen badu, jarri gurekin harremanetan Ezarpenak > Kontaktua atalean. Xehetasunak: {message}",
   "purchaseErrorNetworkError": "Konexio-arazo bat gertatu da. Egiaztatu sareko konexioa eta saiatu berriro. Arazoak jarraitzen badu, jar zaitez gurekin harremanetan Ezarpenak > Jarri gurekin harremanetan aukeratik. Xehetasunak: {message}",
   "sixMonthPlan": "6 hilabeteko plana",
-  "premiumContractPeriod": "Hitzarmen luzapena erosketa egunez hasi eta hilabetez irauten du.",
+  "premiumContractPeriod": "Harpidetza-aldia hilabetekoa da, erosketa-datatik aurrera.",
   "privacyPolicy": "Pribatutasun-politika",
   "termsOfService": "Erabilera baldintzak",
   "specifiedCommercialTransactionAct": "Salmenta bereziak arautzen dituen legearen arabera",

@@ -134,7 +134,7 @@
   "purchaseErrorTimeout": "Időtúllépés történt. Ellenőrizze a hálózati kapcsolatot, majd próbálja újra. Ha a probléma továbbra is fennáll, lépjen kapcsolatba velünk a Beállítások > Kapcsolat menüpontban. Részletek: {message}",
   "purchaseErrorNetworkError": "Csatlakozási probléma történt. Ellenőrizze a hálózati kapcsolatot, majd próbálja újra. Ha a probléma továbbra is fennáll, lépjen kapcsolatba velünk a Beállítások > Kapcsolat menüpontban. Részletek: {message}",
   "sixMonthPlan": "6 hónapos csomag",
-  "premiumContractPeriod": "A szerződés időtartama a vásárlás dátumától számított 1 hónap.",
+  "premiumContractPeriod": "Az előfizetés időtartama a vásárlás napjától számított egy hónap.",
   "privacyPolicy": "Adatvédelmi irányelvek",
   "termsOfService": "Felhasználási feltételek",
   "specifiedCommercialTransactionAct": "A speciális kereskedelmi törvény alapján készített nyilatkozat",

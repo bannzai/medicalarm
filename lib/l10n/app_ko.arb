@@ -134,7 +134,7 @@
   "purchaseErrorTimeout": "시간이 초과되었습니다. 네트워크 연결을 확인한 후 다시 시도해 주세요. 문제가 계속되면 설정 > 문의하기에서 문의해 주세요. 세부 정보: {message}",
   "purchaseErrorNetworkError": "연결에 문제가 발생했습니다. 네트워크 연결을 확인한 후 다시 시도해 주세요. 문제가 계속되면 설정 > 문의하기에서 문의해 주세요. 세부 정보: {message}",
   "sixMonthPlan": "6개월 플랜",
-  "premiumContractPeriod": "계약 기간은 구매일로부터 1개월입니다.",
+  "premiumContractPeriod": "구독 기간은 구매일로부터 1개월입니다.",
   "privacyPolicy": "개인정보처리방침",
   "termsOfService": "이용 약관",
   "specifiedCommercialTransactionAct": "특정 상거래법에 따른 고지",
