@@ -46,7 +46,7 @@
   "medicationStartDate": "İlaç kullanımına başlama tarihi",
   "otherInformation": "Diğer",
   "doseReceiver": "İlaç kullanan kişi",
-  "defaultDoseReceiver": "kendin",
+  "defaultDoseReceiver": "Kendim",
   "doseReceiverMaxCount": "Kullanıcılar en fazla {count} kişi kaydedebilir.",
   "increaseLimitWithPremium": "Premium plan ile limitinizi {count} artırın.",
   "addDoseReceiver": "Kullanıcı ekle",

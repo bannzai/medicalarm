@@ -46,7 +46,7 @@
   "medicationStartDate": "วันที่เริ่มรับประทาน",
   "otherInformation": "อื่นๆ",
   "doseReceiver": "ผู้รับประทานยา",
-  "defaultDoseReceiver": "ตัวเอง",
+  "defaultDoseReceiver": "ฉันเอง",
   "doseReceiverMaxCount": "ผู้ใช้สามารถลงทะเบียนได้สูงสุด {count} คน",
   "increaseLimitWithPremium": "เพิ่มขีดจำกัดเป็น {count} ในแผนพรีเมียม",
   "addDoseReceiver": "เพิ่มผู้ใช้",

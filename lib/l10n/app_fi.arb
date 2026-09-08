@@ -46,7 +46,7 @@
   "medicationStartDate": "Käytön aloituspäivä",
   "otherInformation": "Muut",
   "doseReceiver": "Lääkkeen käyttäjä",
-  "defaultDoseReceiver": "itse",
+  "defaultDoseReceiver": "Minä",
   "doseReceiverMaxCount": "Käyttäjiä voi rekisteröidä enimmillään {count} henkilöä",
   "increaseLimitWithPremium": "Lisäät ylärajaa {count} premium-suunnitelmassa.",
   "addDoseReceiver": "Lisää käytön käyttäjä",

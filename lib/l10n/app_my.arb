@@ -46,7 +46,7 @@
   "medicationStartDate": "သောက်သုံးစတင်သည့်ရက်စွဲ",
   "otherInformation": "အခြား",
   "doseReceiver": "ဆေးသောက်သူ",
-  "defaultDoseReceiver": "diri",
+  "defaultDoseReceiver": "မိမိ",
   "doseReceiverMaxCount": "Pengguna boleh mendaftar sehingga {count} orang.",
   "increaseLimitWithPremium": "Meningkatkan had kepada {count} dengan pelan premium",
   "addDoseReceiver": "Tambah Pengguna",

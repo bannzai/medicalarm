@@ -46,7 +46,7 @@
   "medicationStartDate": "Data e fillimit të marrjes",
   "otherInformation": "Të tjera",
   "doseReceiver": "Personi që merr ilaçin",
-  "defaultDoseReceiver": "vetë",
+  "defaultDoseReceiver": "Unë",
   "doseReceiverMaxCount": "Numri maksimal i përdoruesve të regjistruar është {count} persona.",
   "increaseLimitWithPremium": "Rritni kufirin në {count} me planin premium",
   "addDoseReceiver": "Shto përdoruesin e barnave",

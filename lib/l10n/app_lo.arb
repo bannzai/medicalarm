@@ -46,7 +46,7 @@
   "medicationStartDate": "ວັນທີ່ເລີ່ມໃຊ້ຢາ",
   "otherInformation": "ອື່ນໆ",
   "doseReceiver": "ຜູ້ກິນຢາ",
-  "defaultDoseReceiver": "ຕົນเอง",
+  "defaultDoseReceiver": "ຕົນເອງ",
   "doseReceiverMaxCount": "ສະມາດສາມາດລົງຄະແນນສົກສະດຸດສານໃນລະບົບສົກສະນິຄັນສາເພື່ອບລົບ ໃຈ{count} ຄົນໃນເກດີເວທິໄວດ່ມສວຜູປັບຈະໃທ",
   "increaseLimitWithPremium": "ເພີ່ມຂອບເຂດໃນແຜນພໍ່ແບບພໍ່ເພີ່ມຂະແໜນແບບຍຸ່ງແລະສູງໃຫ້ເພີ່ມເຂດຈິງສູງເປັນ {count}.",
   "addDoseReceiver": "ພິເສດຄົນຮັບບຳລຸງ",

@@ -46,7 +46,7 @@
   "medicationStartDate": "Дата пачатку прыёму",
   "otherInformation": "Іншае",
   "doseReceiver": "Той, хто прымае лекі",
-  "defaultDoseReceiver": "Сабе",
+  "defaultDoseReceiver": "Я сам",
   "doseReceiverMaxCount": "Колькасць зарэгістраваных карыстальнікаў можна павялічыць да {count}.",
   "increaseLimitWithPremium": "Павышэнне межаў да {count} з прэміум-планам",
   "addDoseReceiver": "Дадаць пацыента",

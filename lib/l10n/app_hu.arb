@@ -46,7 +46,7 @@
   "medicationStartDate": "Szedés kezdő dátuma",
   "otherInformation": "Egyéb",
   "doseReceiver": "Gyógyszerszedő",
-  "defaultDoseReceiver": "saját",
+  "defaultDoseReceiver": "Én",
   "doseReceiverMaxCount": "A felhasználók maximálisan {count} főig regisztrálhatók.",
   "increaseLimitWithPremium": "Növelje a korlátot {count} prémium tervvel",
   "addDoseReceiver": "Felhasználó hozzáadása",

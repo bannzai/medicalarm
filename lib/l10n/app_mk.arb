@@ -46,7 +46,7 @@
   "medicationStartDate": "Почетен датум на земање",
   "otherInformation": "Друго",
   "doseReceiver": "Лице што го зема лекот",
-  "defaultDoseReceiver": "себе",
+  "defaultDoseReceiver": "Јас",
   "doseReceiverMaxCount": "Можете да регистрирате максимум {count} лица.",
   "increaseLimitWithPremium": "Зголемете лимитот на {count} со премиум планот.",
   "addDoseReceiver": "Додади пациент",

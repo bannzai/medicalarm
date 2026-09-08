@@ -46,7 +46,7 @@
   "medicationStartDate": "Usuku lokuqala ukuphuza imithi",
   "otherInformation": "Okunye",
   "doseReceiver": "Umuntu ophuza umuthi",
-  "defaultDoseReceiver": "mina",
+  "defaultDoseReceiver": "Mina",
   "doseReceiverMaxCount": "Abasebenzisi bangabhalisela abantu abangama{count} kuphela.",
   "increaseLimitWithPremium": "Phakela phezulu ku-premium plan ukuze wandise umkhawulo u-{count}",
   "addDoseReceiver": "Faka umsebenzisi",

@@ -46,7 +46,7 @@
   "medicationStartDate": "የመውሰድ መጀመሪያ ቀን",
   "otherInformation": "ሌላ",
   "doseReceiver": "መድኃኒት ተጠቃሚ",
-  "defaultDoseReceiver": "እኔ",
+  "defaultDoseReceiver": "ራሴ",
   "doseReceiverMaxCount": "እንደ ተመለከተ ታዋቂ {count} ሰዎች ወይም ወይም ወይም ወይም ወይም ወይም ወይም.",
   "increaseLimitWithPremium": "ከፕሪሚየም እቅፍ ጋር ወደ አንድ አዋቂ {count} ይጨምር",
   "addDoseReceiver": "መድረሻን አክል",

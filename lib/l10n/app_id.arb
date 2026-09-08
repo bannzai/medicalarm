@@ -46,7 +46,7 @@
   "medicationStartDate": "Tanggal mulai minum",
   "otherInformation": "Lainnya",
   "doseReceiver": "Orang yang minum obat",
-  "defaultDoseReceiver": "Diri sendiri",
+  "defaultDoseReceiver": "Saya",
   "doseReceiverMaxCount": "Pengguna dapat mendaftar hingga {count} orang.",
   "increaseLimitWithPremium": "Tingkatkan batas menjadi {count} dengan rencana premium",
   "addDoseReceiver": "Tambahkan pengambil obat",

@@ -46,7 +46,7 @@
   "medicationStartDate": "ගැනීම ආරම්භ කරන දිනය",
   "otherInformation": "වෙනත්",
   "doseReceiver": "ඖෂධය ලබාගන්නා පුද්ගලයා",
-  "defaultDoseReceiver": "මටම",
+  "defaultDoseReceiver": "මම",
   "doseReceiverMaxCount": "උපයෝගිතාකරුවන් {count} දෙනෙකු දක්වා සංග්‍රහ කළ හැක",
   "increaseLimitWithPremium": "ප්‍රිමියම් සැලැස්මේදී සීමාව {count}කට වැඩි කරන්න",
   "addDoseReceiver": "අනුභවකයා ඇතුල් කරන්න",

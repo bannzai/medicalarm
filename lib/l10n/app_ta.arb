@@ -46,7 +46,7 @@
   "medicationStartDate": "உட்கொள்ளத் தொடங்கும் தேதி",
   "otherInformation": "மற்றவை",
   "doseReceiver": "மருந்து உட்கொள்பவர்",
-  "defaultDoseReceiver": "ஏற்கணிப்பு",
+  "defaultDoseReceiver": "நான்",
   "doseReceiverMaxCount": "உள்ளதுடன் {count} பேர் வரை பதிவு செய்யலாம்",
   "increaseLimitWithPremium": "பிரீமியம் திட்டத்தில் வரம்பினை {count} க்கு அதிகரிக்க",
   "addDoseReceiver": "திரவியக்கரமானவை சேர்க்கவும்",

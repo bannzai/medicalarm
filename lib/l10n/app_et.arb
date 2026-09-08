@@ -46,7 +46,7 @@
   "medicationStartDate": "Ravimi võtmise alguskuupäev",
   "otherInformation": "Muu",
   "doseReceiver": "Ravimi võtja",
-  "defaultDoseReceiver": "ise",
+  "defaultDoseReceiver": "Mina",
   "doseReceiverMaxCount": "Kasutajad võivad registreerida kuni {count} inimest",
   "increaseLimitWithPremium": "Suurenda piirmäära {count} premium plaaniga",
   "addDoseReceiver": "Lisa kasutaja",

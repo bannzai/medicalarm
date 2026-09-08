@@ -46,7 +46,7 @@
   "medicationStartDate": "Data d'inici de la presa",
   "otherInformation": "Altres",
   "doseReceiver": "Persona que pren el medicament",
-  "defaultDoseReceiver": "jo",
+  "defaultDoseReceiver": "Jo",
   "doseReceiverMaxCount": "Es poden registrar fins a {count} usuaris.",
   "increaseLimitWithPremium": "Augmenta el límit a {count} amb el pla premium",
   "addDoseReceiver": "Afegir un pacient",

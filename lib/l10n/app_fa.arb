@@ -46,7 +46,7 @@
   "medicationStartDate": "تاریخ شروع مصرف",
   "otherInformation": "سایر",
   "doseReceiver": "مصرف‌کننده دارو",
-  "defaultDoseReceiver": "خود",
+  "defaultDoseReceiver": "خودم",
   "doseReceiverMaxCount": "تعداد مصرف کنندگان می تواند تا {count} نفر ثبت نام شود.",
   "increaseLimitWithPremium": "با طرح پریمیوم ، حداکثر را به {count} افزایش دهید.",
   "addDoseReceiver": "افزودن مصرف کننده",

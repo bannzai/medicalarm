@@ -46,7 +46,7 @@
   "medicationStartDate": "Lietošanas sākuma datums",
   "otherInformation": "Cits",
   "doseReceiver": "Zāļu lietotājs",
-  "defaultDoseReceiver": "Seņģis",
+  "defaultDoseReceiver": "Es",
   "doseReceiverMaxCount": "Lietotājiem var reģistrēt līdz {count} personām.",
   "increaseLimitWithPremium": "Palieliniet limitu uz {count} ar premium plānu",
   "addDoseReceiver": "Pievienot lietotāju",

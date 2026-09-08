@@ -46,7 +46,7 @@
   "medicationStartDate": "Qabul qilishni boshlash sanasi",
   "otherInformation": "Boshqa",
   "doseReceiver": "Dori qabul qiluvchi",
-  "defaultDoseReceiver": "O'zim",
+  "defaultDoseReceiver": "O‘zim",
   "doseReceiverMaxCount": "Doriqchilar soni eng ko'p {count} kishiga ro'yxatdan o'tkazilishi mumkin.",
   "increaseLimitWithPremium": "Premium reja bilan cheklovni {count} ga oshirish",
   "addDoseReceiver": "Qabul qiluvchi qo'shish",

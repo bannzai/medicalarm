@@ -46,7 +46,7 @@
   "medicationStartDate": "Tarikh mula pengambilan",
   "otherInformation": "Lain-lain",
   "doseReceiver": "Orang yang mengambil ubat",
-  "defaultDoseReceiver": "sendiri",
+  "defaultDoseReceiver": "Saya",
   "doseReceiverMaxCount": "Pengguna boleh mendaftar sehingga {count} orang",
   "increaseLimitWithPremium": "Tingkatkan had kepada {count} dengan pelan premium",
   "addDoseReceiver": "Tambah Pengguna",

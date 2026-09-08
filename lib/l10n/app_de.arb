@@ -46,7 +46,7 @@
   "medicationStartDate": "Einnahmebeginn",
   "otherInformation": "Weitere",
   "doseReceiver": "Medikamentenehmer",
-  "defaultDoseReceiver": "Eigen",
+  "defaultDoseReceiver": "Ich selbst",
   "doseReceiverMaxCount": "Es können bis zu {count} Benutzer registriert werden.",
   "increaseLimitWithPremium": "Erhöhen Sie das Limit auf {count} im Premium-Plan.",
   "addDoseReceiver": "Benutzer hinzufügen",

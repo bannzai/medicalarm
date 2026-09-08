@@ -46,7 +46,7 @@
   "medicationStartDate": "ସେବନ ଆରମ୍ଭ ତାରିଖ",
   "otherInformation": "ଅନ୍ୟାନ୍ୟ",
   "doseReceiver": "ଔଷଧ ସେବନକାରୀ",
-  "defaultDoseReceiver": "निजी",
+  "defaultDoseReceiver": "ମୁଁ",
   "doseReceiverMaxCount": "最大{count}人の服用者を登録できます",
   "increaseLimitWithPremium": "プレミアムプランで上限を{count}に増やす",
   "addDoseReceiver": "ລໍາບຽດຜູ້ໃຊ້",

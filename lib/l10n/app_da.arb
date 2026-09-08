@@ -46,7 +46,7 @@
   "medicationStartDate": "Startdato for indtagelse",
   "otherInformation": "Andet",
   "doseReceiver": "Medicinbruger",
-  "defaultDoseReceiver": "mig selv",
+  "defaultDoseReceiver": "Mig selv",
   "doseReceiverMaxCount": "Der kan registreres op til {count} personer som indtagere.",
   "increaseLimitWithPremium": "Øg grænsen til {count} med premiumplanen",
   "addDoseReceiver": "Tilføj indtager",

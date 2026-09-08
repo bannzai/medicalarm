@@ -46,7 +46,7 @@
   "medicationStartDate": "Dátum začatia užívania",
   "otherInformation": "Ďalšie",
   "doseReceiver": "Užívateľ lieku",
-  "defaultDoseReceiver": "ja",
+  "defaultDoseReceiver": "Ja",
   "doseReceiverMaxCount": "Maximálne {count} používateľov môže byť registrovaných",
   "increaseLimitWithPremium": "Zvýšte limit na {count} s prémiovým plánom",
   "addDoseReceiver": "Pridať užívateľa",

@@ -46,7 +46,7 @@
   "medicationStartDate": "Startdato for inntak",
   "otherInformation": "Annet",
   "doseReceiver": "Medisinbruker",
-  "defaultDoseReceiver": "meg selv",
+  "defaultDoseReceiver": "Meg selv",
   "doseReceiverMaxCount": "Det kan registreres opptil {count} brukere.",
   "increaseLimitWithPremium": "Øk grensen til {count} med premiumplanen",
   "addDoseReceiver": "Legemiddelbruker legges til",

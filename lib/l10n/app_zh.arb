@@ -46,7 +46,7 @@
   "medicationStartDate": "用药开始日期",
   "otherInformation": "其他",
   "doseReceiver": "服药者",
-  "defaultDoseReceiver": "自己",
+  "defaultDoseReceiver": "我",
   "doseReceiverMaxCount": "最多可注册{count}名服用者",
   "increaseLimitWithPremium": "在高级计划中将上限增加到{count}",
   "addDoseReceiver": "添加服用者",

@@ -46,7 +46,7 @@
   "medicationStartDate": "Startdatum för intag",
   "otherInformation": "Övrigt",
   "doseReceiver": "Medicinanvändare",
-  "defaultDoseReceiver": "Mig själv",
+  "defaultDoseReceiver": "Jag själv",
   "doseReceiverMaxCount": "Användare kan registrera upp till {count} personer.",
   "increaseLimitWithPremium": "Öka gränsen till {count} med premiumplanen",
   "addDoseReceiver": "Lägg till användare",

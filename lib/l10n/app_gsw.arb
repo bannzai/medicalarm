@@ -46,7 +46,7 @@
   "medicationStartDate": "Startdatum vo de Einnahm",
   "otherInformation": "Weitere",
   "doseReceiver": "Medikamentenutzer",
-  "defaultDoseReceiver": "Säi",
+  "defaultDoseReceiver": "Ich",
   "doseReceiverMaxCount": "D'Verbrüchers si max {count} Persone registrierbar.",
   "increaseLimitWithPremium": "Erhöhung des Limits auf {count} mit dem Premium-Plan",
   "addDoseReceiver": "Einen Medikamentennehmer hinzufüge",

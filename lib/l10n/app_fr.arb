@@ -46,7 +46,7 @@
   "medicationStartDate": "Date de début de prise",
   "otherInformation": "Autres",
   "doseReceiver": "Personne prenant le médicament",
-  "defaultDoseReceiver": "Moi",
+  "defaultDoseReceiver": "Moi-même",
   "doseReceiverMaxCount": "Le nombre maximum d'utilisateurs pouvant être enregistrés est de {count}.",
   "increaseLimitWithPremium": "Augmentez votre limite à {count} avec le plan premium.",
   "addDoseReceiver": "Ajouter un utilisateur",

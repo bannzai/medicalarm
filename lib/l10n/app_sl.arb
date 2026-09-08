@@ -46,7 +46,7 @@
   "medicationStartDate": "Datum začetka jemanja",
   "otherInformation": "Drugo",
   "doseReceiver": "Oseba, ki jemlje zdravilo",
-  "defaultDoseReceiver": "sebe",
+  "defaultDoseReceiver": "Jaz",
   "doseReceiverMaxCount": "Število uporabnikov, ki jih je mogoče registrirati, je največ {count}.",
   "increaseLimitWithPremium": "Povečajte omejitev na {count} s premium načrtom",
   "addDoseReceiver": "Dodaj uporabnika",

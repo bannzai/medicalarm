@@ -46,7 +46,7 @@
   "medicationStartDate": "កាលបរិច្ឆេទចាប់ផ្តើមប្រើថ្នាំ",
   "otherInformation": "ផ្សេងទៀត",
   "doseReceiver": "អ្នកប្រើថ្នាំ",
-  "defaultDoseReceiver": "ខ្លួនឯង",
+  "defaultDoseReceiver": "ខ្លួនខ្ញុំ",
   "doseReceiverMaxCount": "អ្នកអាចចុះបញ្ជីអ្នកឈានមុខបានអតិបរិមា {count} នាក់",
   "increaseLimitWithPremium": "ជំរុញកំណត់បន្ទាន់នៃការប្រាកដថាលេខអតិបរិមាឡើងទៅ{count}ជាមួយផែនការព្រីម្យូម",
   "addDoseReceiver": "បន្ថែមអ្នកប្រើប្រាស់",

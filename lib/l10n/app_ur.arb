@@ -46,7 +46,7 @@
   "medicationStartDate": "استعمال شروع کرنے کی تاریخ",
   "otherInformation": "دیگر",
   "doseReceiver": "دوا لینے والا",
-  "defaultDoseReceiver": "خود",
+  "defaultDoseReceiver": "میں",
   "doseReceiverMaxCount": "مریضوں کی زیادہ سے زیادہ {count} تعداد میں رجسٹریشن کی جاسکتی ہے",
   "increaseLimitWithPremium": "پریمیئم پلان کے ذریعے حد کو {count} تک بڑھائیں",
   "addDoseReceiver": "مریض کو شامل کریں",

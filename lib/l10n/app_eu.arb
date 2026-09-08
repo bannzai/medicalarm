@@ -46,7 +46,7 @@
   "medicationStartDate": "Hartzen hasiera-data",
   "otherInformation": "Bestelakoak",
   "doseReceiver": "Botika hartzailea",
-  "defaultDoseReceiver": "Nire burua",
+  "defaultDoseReceiver": "Ni",
   "doseReceiverMaxCount": "Medikazioa egiten duten pertsonak {count} pertsona arte zaitezke erregistratu.",
   "increaseLimitWithPremium": "Premium planarekin muga {count}ra igo",
   "addDoseReceiver": "Hartzailera gehitu",

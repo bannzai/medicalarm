@@ -46,7 +46,7 @@
   "medicationStartDate": "Startdatum inname",
   "otherInformation": "Overig",
   "doseReceiver": "Medicijngebruiker",
-  "defaultDoseReceiver": "Ikzelf",
+  "defaultDoseReceiver": "Mezelf",
   "doseReceiverMaxCount": "Tot {count} gebruikers kunnen worden geregistreerd.",
   "increaseLimitWithPremium": "Verhoog de limiet naar {count} met het premiumplan.",
   "addDoseReceiver": "Voeg gebruiker toe",

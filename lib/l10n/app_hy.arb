@@ -46,7 +46,7 @@
   "medicationStartDate": "Դեղի ընդունման մեկնարկի ամսաթիվ",
   "otherInformation": "Այլ",
   "doseReceiver": "Դեղամիջոց ընդունող անձ",
-  "defaultDoseReceiver": "Ձեզը",
+  "defaultDoseReceiver": "Ես",
   "doseReceiverMaxCount": "Նշանակառուները կարող են գրանցվել առավելագույնը {count} մարդ",
   "increaseLimitWithPremium": "Ապրանքային պլանում սահմանափակումը {count} -ին բարձրացրեք",
   "addDoseReceiver": "Ահեղին ավելացնել",

@@ -46,7 +46,7 @@
   "medicationStartDate": "Petsa ng pagsisimula ng pag-inom",
   "otherInformation": "Iba pa",
   "doseReceiver": "Umiinom ng gamot",
-  "defaultDoseReceiver": "sarili",
+  "defaultDoseReceiver": "Ako",
   "doseReceiverMaxCount": "Maaaring magrehistro ng hanggang {count} na tao ang mga umiinom ng gamot.",
   "increaseLimitWithPremium": "Pataasin ang limitasyon sa {count} gamit ang Premium Plan",
   "addDoseReceiver": "Magdagdag ng gumagamit ng gamot",

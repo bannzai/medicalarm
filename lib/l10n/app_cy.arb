@@ -46,7 +46,7 @@
   "medicationStartDate": "Dyddiad dechrau cymryd",
   "otherInformation": "Arall",
   "doseReceiver": "Person sy'n cymryd y feddyginiaeth",
-  "defaultDoseReceiver": "fy nghyda",
+  "defaultDoseReceiver": "Fi",
   "doseReceiverMaxCount": "Gallir cofrestredig hyd at {count} o ddefnyddwyr.",
   "increaseLimitWithPremium": "Cynyddu'r terfyn i {count} gyda'r cynllun premiwm",
   "addDoseReceiver": "Ychwanegwch y defnyddiwr",
