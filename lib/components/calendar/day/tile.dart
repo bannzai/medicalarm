@@ -129,7 +129,8 @@ class _BackgroundCircle extends StatelessWidget {
       width: 32,
       height: 32,
       decoration: BoxDecoration(
-        color: AppColors.primary,
+        // 選択日の数字は白のため、コントラスト比 4.5:1 を満たす primaryFilled を塗る (#287)
+        color: AppColors.primaryFilled,
         borderRadius: BorderRadius.circular(16),
       ),
     );
