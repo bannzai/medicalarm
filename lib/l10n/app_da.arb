@@ -118,7 +118,7 @@
   "purchaseErrorInvalidReceipt": "Ugyldige købsoplysninger. Kontrollér dine købsoplysninger.",
   "purchaseErrorMissingReceipt": "Der findes ingen oplysninger om køberen. Log ind på denne enhed med {accountName}, og prøv igen.",
   "purchaseErrorNetwork": "Netværksforbindelsen er ustabil. Kontrollér forbindelsen, og prøv igen.",
-  "purchaseNotAllowed": "Køb på denne enhed er ikke tilladt",
+  "purchaseNotAllowed": "Køb er ikke tilladt på denne enhed",
   "purchaseErrorInvalidCredentials": "Købet mislykkedes. Vent et øjeblik og prøv igen. Hvis problemet ikke løses, bedes du kontakte os via Indstillinger > Kontakt. Detaljer: {message}",
   "purchaseErrorUnexpectedBackend": "Du kan ikke foretage køb i øjeblikket. Prøv venligst igen senere. Hvis problemet ikke løses, kontakt venligst os via Indstillinger > Spørgsmål. Detaljer: {message}",
   "purchaseErrorOperationInProgress": "Købsprocessen er i gang separat. Venligst vent lidt tid og tjek igen.",

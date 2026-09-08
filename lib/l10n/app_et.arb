@@ -118,7 +118,7 @@
   "purchaseErrorInvalidReceipt": "Ostuteave ei kehti. Kontrolli ostuteavet.",
   "purchaseErrorMissingReceipt": "Ostja teave puudub. Logige selles seadmes sisse kontoga {accountName} ja proovige uuesti.",
   "purchaseErrorNetwork": "Võrguühendus on ebastabiilne. Kontrollige ühendust ja proovige uuesti.",
-  "purchaseNotAllowed": "Sellel seadmel ei ole ostmine lubatud.",
+  "purchaseNotAllowed": "Selle seadmega ei ole ostmine lubatud",
   "purchaseErrorInvalidCredentials": "Ostmine ebaõnnestus. Palun oota ja proovi uuesti. Kui probleem püsib, kontakteeru palun seadmest > Klienditoe kaudu. Üksikasjad: {message}",
   "purchaseErrorUnexpectedBackend": "Praegu ei saa osta. Palun proovige hiljem uuesti. Kui see probleem ei lahene, võtke meiega ühendust jaotises Seaded > Kontakt. Üksikasjad: {message}",
   "purchaseErrorOperationInProgress": "Ostuprotsess on juba käimas. Palun oota ja kontrolli uuesti.",

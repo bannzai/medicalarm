@@ -118,7 +118,7 @@
   "purchaseErrorInvalidReceipt": "As informações da compra são inválidas. Verifique as informações da compra.",
   "purchaseErrorMissingReceipt": "As informações do comprador não estão disponíveis. Inicie sessão neste dispositivo com {accountName} e tente novamente.",
   "purchaseErrorNetwork": "A ligação de rede está instável. Verifique a ligação e tente novamente.",
-  "purchaseNotAllowed": "As compras não são permitidas neste dispositivo.",
+  "purchaseNotAllowed": "As compras não são permitidas neste dispositivo",
   "purchaseErrorInvalidCredentials": "Falha na compra. Tente novamente após algum tempo. Se o problema persistir, entre em contato através de Configurações > Perguntas. Detalhes: {message}",
   "purchaseErrorUnexpectedBackend": "Atualmente, não é possível realizar a compra. Por favor, tente novamente mais tarde. Se o problema persistir, entre em contato através de Configurações > Contato. Detalhes: {message}",
   "purchaseErrorOperationInProgress": "O processamento da compra está em andamento. Por favor, aguarde um momento e tente novamente.",

@@ -118,7 +118,7 @@
   "purchaseErrorInvalidReceipt": "Informasi pembelian tidak valid. Periksa informasi pembelian Anda.",
   "purchaseErrorMissingReceipt": "Informasi pembeli tidak tersedia. Masuk ke perangkat ini dengan {accountName}, lalu coba lagi.",
   "purchaseErrorNetwork": "Koneksi jaringan tidak stabil. Periksa koneksi Anda, lalu coba lagi.",
-  "purchaseNotAllowed": "Pembelian di perangkat ini tidak diizinkan.",
+  "purchaseNotAllowed": "Pembelian tidak diizinkan di perangkat ini",
   "purchaseErrorInvalidCredentials": "Pembelian gagal. Silakan coba lagi setelah beberapa saat. Jika masalah tetap tidak teratasi, silakan hubungi kami melalui Pengaturan > Kontak. Detail: {message}",
   "purchaseErrorUnexpectedBackend": "Saat ini tidak dapat melakukan pembelian. Silakan coba lagi setelah beberapa saat. Jika masalah ini tidak teratasi, silakan hubungi kami melalui Pengaturan > Kontak. Detail: {message}",
   "purchaseErrorOperationInProgress": "Proses pembelian sedang berlangsung. Silakan tunggu beberapa saat dan periksa kembali.",

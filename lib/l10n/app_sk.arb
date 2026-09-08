@@ -118,7 +118,7 @@
   "purchaseErrorInvalidReceipt": "Neplatné údaje o nákupe. Skontrolujte údaje o nákupe.",
   "purchaseErrorMissingReceipt": "Informácie o kupujúcom neexistujú. Prihláste sa na tomto zariadení pomocou účtu {accountName} a skúste to znova.",
   "purchaseErrorNetwork": "Stav siete je nestabilný. Skontrolujte pripojenie a skúste to znova.",
-  "purchaseNotAllowed": "Tento zariadenie nemá povolené nákupy.",
+  "purchaseNotAllowed": "Nákupy nie sú na tomto zariadení povolené",
   "purchaseErrorInvalidCredentials": "Nákup sa nepodaril. Počkajte chvíľu a skúste to znova. Ak problém pretrváva, kontaktujte nás prostredníctvom Nastavenia > Kontakt. Podrobnosti: {message}",
   "purchaseErrorUnexpectedBackend": "Momentálne nie je možné zakúpiť. Skúste to znova neskôr. Ak problém pretrvá, kontaktujte nás cez Nastavenia > Kontaktovanie. Podrobnosti: {message}",
   "purchaseErrorOperationInProgress": "Spracovanie nákupu prebieha samostatne. Skontrolujte to prosím znova o chvíľu.",

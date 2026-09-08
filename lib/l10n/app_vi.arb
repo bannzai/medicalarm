@@ -118,7 +118,7 @@
   "purchaseErrorInvalidReceipt": "Thông tin mua hàng không hợp lệ. Vui lòng kiểm tra thông tin mua hàng.",
   "purchaseErrorMissingReceipt": "Không có thông tin người mua. Hãy đăng nhập vào thiết bị này bằng {accountName} rồi thử lại.",
   "purchaseErrorNetwork": "Kết nối mạng không ổn định. Hãy kiểm tra kết nối và thử lại.",
-  "purchaseNotAllowed": "Thiết bị này không được phép mua hàng.",
+  "purchaseNotAllowed": "Không được phép mua hàng trên thiết bị này",
   "purchaseErrorInvalidCredentials": "Mua không thành công. Xin vui lòng thử lại sau một thời gian. Nếu vấn đề vẫn chưa được giải quyết, vui lòng liên hệ với chúng tôi qua Cài đặt > Gửi yêu cầu. Chi tiết: {message}",
   "purchaseErrorUnexpectedBackend": "Hiện tại không thể mua. Vui lòng thử lại sau một thời gian. Nếu vẫn không giải quyết được, xin vui lòng liên hệ qua Cài đặt > Liên hệ. Chi tiết: {message}",
   "purchaseErrorOperationInProgress": "Quá trình thanh toán đang được xử lý. Vui lòng kiểm tra lại sau.",

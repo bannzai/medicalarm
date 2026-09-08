@@ -118,7 +118,7 @@
   "purchaseErrorInvalidReceipt": "Mae'r wybodaeth brynu'n annilys. Gwiriwch eich gwybodaeth brynu.",
   "purchaseErrorMissingReceipt": "Nid yw gwybodaeth y prynwr yn bodoli. Mewngofnodwch i’r ddyfais hon gan ddefnyddio {accountName} a rhowch gynnig arall arni.",
   "purchaseErrorNetwork": "Mae cyflwr y rhwydwaith yn ansefydlog. Gwiriwch y cysylltiad a rhowch gynnig arall arni.",
-  "purchaseNotAllowed": "Nid yw prynu ar y ddyfais hon wedi'i ganiatáu.",
+  "purchaseNotAllowed": "Ni chaniateir prynuadau ar y ddyfais hon",
   "purchaseErrorInvalidCredentials": "Buynwyd yn anwastad. Mynnwch ailgynnig ar ôl amser. Os nad yw'n cael ei ddatrys, cysylltwch â ni trwy fynd i Gosodiadau > Cysylltu â ni. Manylion: {message}",
   "purchaseErrorUnexpectedBackend": "Ar hyn o bryd, ni ellir prynu. Os gwelwch yn dda, rhowch amser i mewn a cheisiwch eto. Os na fydd hyn yn ei datrys, cysylltwch drwy fynd i Ddewisiadau > Cysylltiad. Manylion: {message}",
   "purchaseErrorOperationInProgress": "Mae'r broses brynu yn parhau yn arbenig. Byddwch yn garedig yn aros ychydig cyn i chi wirio eto.",

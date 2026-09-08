@@ -118,7 +118,7 @@
   "purchaseErrorInvalidReceipt": "Podatki o nakupu niso veljavni. Preverite podatke o nakupu.",
   "purchaseErrorMissingReceipt": "Podatki o kupcu ne obstajajo. V tej napravi se prijavite z računom {accountName} in poskusite znova.",
   "purchaseErrorNetwork": "Omrežna povezava je nestabilna. Preverite povezavo in poskusite znova.",
-  "purchaseNotAllowed": "Nakup na tem napravi ni dovoljen.",
+  "purchaseNotAllowed": "Nakupi v tej napravi niso dovoljeni",
   "purchaseErrorInvalidCredentials": "Nakup ni uspelo. Počakajte nekaj časa in poskusite znova. Če težava ne izgine, nas kontaktirajte prek Nastavitve > Povpraševanje. Podrobnosti: {message}",
   "purchaseErrorUnexpectedBackend": "Trenutno ni mogoče kupiti. Poskusite znova čez nekaj časa. Če težava ne preneha, nas kontaktirajte preko Nastavitve > Povpraševanje. Podrobnosti: {message}",
   "purchaseErrorOperationInProgress": "Postopek nakupa se že nadaljuje. Prosim, ponovno preverite čez nekaj časa.",

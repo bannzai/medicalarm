@@ -118,7 +118,7 @@
   "purchaseErrorInvalidReceipt": "פרטי הרכישה אינם תקינים. יש לבדוק את פרטי הרכישה.",
   "purchaseErrorMissingReceipt": "פרטי הרוכש אינם קיימים. יש להתחבר למכשיר הזה באמצעות {accountName} ולנסות שוב.",
   "purchaseErrorNetwork": "מצב הרשת אינו יציב. בדקו את החיבור ונסו שוב.",
-  "purchaseNotAllowed": "אינך מורשה לרכוש במכשיר הזה",
+  "purchaseNotAllowed": "רכישות אינן מורשות במכשיר הזה",
   "purchaseErrorInvalidCredentials": "לא הצלחנו לבצע את הרכישה. אנא המתן קצת ונסה שוב. אם הבעיה לא נפתרת, פנה אלינו דרך הגדרות > שאלות. פרטים: {message}",
   "purchaseErrorUnexpectedBackend": "הקנייה לא אפשרית כרגע. אנא חכה והנסה שוב מאוחר יותר. אם זה לא נפתר, צור קשר דרך הגדרות > פניות. פרטים: {message}",
   "purchaseErrorOperationInProgress": "תהליך הרכישה מתקדם בנפרד. אנא המתן זמן מה על מנת לבדוק שוב.",

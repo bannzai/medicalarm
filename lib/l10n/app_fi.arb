@@ -118,7 +118,7 @@
   "purchaseErrorInvalidReceipt": "Virheelliset ostotiedot. Tarkista ostotietosi.",
   "purchaseErrorMissingReceipt": "Ostajan tietoja ei ole. Kirjaudu tähän laitteeseen tunnuksella {accountName} ja yritä uudelleen.",
   "purchaseErrorNetwork": "Verkkoyhteys on epävakaa. Tarkista yhteys ja yritä uudelleen.",
-  "purchaseNotAllowed": "Tätä laitetta ei ole sallittu ostamaan.",
+  "purchaseNotAllowed": "Ostokset eivät ole sallittuja tällä laitteella",
   "purchaseErrorInvalidCredentials": "Osto epäonnistui. Odota hetki ja yritä uudelleen. Jos ongelma ei ratkea, ota yhteyttä valitsemalla Asetukset > Ota yhteyttä. Yksityiskohtaiset tiedot: {message}",
   "purchaseErrorUnexpectedBackend": "Tällä hetkellä osto ei ole mahdollista. Yritä myöhemmin uudelleen. Jos ongelma ei ratkea, ota yhteyttä kohta asetukset > Yhteydenotto. Lisätiedot: {message}",
   "purchaseErrorOperationInProgress": "Ostoprocessi on käynnissä erikseen. Odota hetki ja tarkista uudelleen.",

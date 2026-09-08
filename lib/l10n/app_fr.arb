@@ -118,7 +118,7 @@
   "purchaseErrorInvalidReceipt": "Les informations d’achat sont invalides. Vérifiez vos informations d’achat.",
   "purchaseErrorMissingReceipt": "Les informations sur l’acheteur sont introuvables. Connectez-vous à cet appareil avec {accountName}, puis réessayez.",
   "purchaseErrorNetwork": "La connexion réseau est instable. Vérifiez votre connexion, puis réessayez.",
-  "purchaseNotAllowed": "L'achat sur cet appareil n'est pas autorisé.",
+  "purchaseNotAllowed": "Les achats ne sont pas autorisés sur cet appareil",
   "purchaseErrorInvalidCredentials": "L'achat a échoué. Veuillez réessayer après un certain temps. Si le problème persiste, veuillez nous contacter via Réglages > Assistance. Détails : {message}",
   "purchaseErrorUnexpectedBackend": "Achat impossible pour le moment. Veuillez réessayer plus tard. Si le problème persiste, contactez-nous via Réglages > Demande. Détails : {message}",
   "purchaseErrorOperationInProgress": "Le traitement de l'achat est en cours séparément. Veuillez patienter et vérifier à nouveau.",
