@@ -115,7 +115,7 @@
   "purchaseErrorProductUnavailable": "Il piano selezionato non è attualmente disponibile per l’acquisto. Riavvia l’app e riprova.",
   "purchaseErrorAlreadyPurchased": "Hai già acquistato un piano. Per ripristinare le informazioni sull’acquisto su questo dispositivo, seleziona «Per chi ha già acquistato».",
   "purchaseErrorReceiptInUse": "Già acquistato oppure le informazioni sull’acquisto sono utilizzate da un altro utente. Controlla {accountName}.",
-  "purchaseErrorInvalidReceipt": "Informazioni di acquisto non valide. Controlla le informazioni di acquisto.",
+  "purchaseErrorInvalidReceipt": "Informazioni di acquisto non valide. Verifica le informazioni di acquisto.",
   "purchaseErrorMissingReceipt": "Le informazioni sull’acquirente non esistono. Accedi a questo dispositivo con {accountName} e riprova.",
   "purchaseErrorNetwork": "La connessione di rete è instabile. Controlla la connessione e riprova.",
   "purchaseNotAllowed": "Gli acquisti non sono consentiti su questo dispositivo",

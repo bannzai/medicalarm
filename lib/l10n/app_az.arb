@@ -115,7 +115,7 @@
   "purchaseErrorProductUnavailable": "Seçilmiş plan hazırda satışda deyil. Zəhmət olmasa tətbiqi yenidən başladın və təkrar cəhd edin.",
   "purchaseErrorAlreadyPurchased": "Siz artıq plan almısınız. Alış məlumatınızı bu cihazda bərpa etmək üçün “Əvvəl satın alanlar buradan” seçimini edin.",
   "purchaseErrorReceiptInUse": "Artıq satın alınıb və ya alış məlumatları başqa istifadəçi tərəfindən istifadə olunur. {accountName} məlumatını yoxlayın.",
-  "purchaseErrorInvalidReceipt": "Satınalma məlumatları etibarsızdır. Zəhmət olmasa, satınalma məlumatlarınızı yoxlayın.",
+  "purchaseErrorInvalidReceipt": "Satınalma məlumatları yanlışdır. Satınalma məlumatlarınızı yoxlayın.",
   "purchaseErrorMissingReceipt": "Alıcı məlumatları mövcud deyil. Bu cihazda {accountName} ilə daxil olun və yenidən cəhd edin.",
   "purchaseErrorNetwork": "Şəbəkə bağlantısı qeyri-sabitdir. Bağlantını yoxlayın və yenidən cəhd edin.",
   "purchaseNotAllowed": "Bu cihazda satınalma icazə verilmir",

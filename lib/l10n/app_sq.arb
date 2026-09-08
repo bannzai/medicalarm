@@ -115,7 +115,7 @@
   "purchaseErrorProductUnavailable": "Plani i zgjedhur nuk është aktualisht i disponueshëm për blerje. Rinisni aplikacionin dhe provoni përsëri.",
   "purchaseErrorAlreadyPurchased": "Ju tashmë e keni blerë planin. Për të rikthyer informacionet e blerjes në këtë pajisje, zgjidhni “Për ata që kanë blerë më parë”.",
   "purchaseErrorReceiptInUse": "Tashmë është blerë ose informacioni i blerjes po përdoret nga një përdorues tjetër. Kontrolloni {accountName}.",
-  "purchaseErrorInvalidReceipt": "Informacionet e blerjes janë të pavlefshme. Kontrolloni informacionet e blerjes.",
+  "purchaseErrorInvalidReceipt": "Informacionet e blerjes nuk janë të vlefshme. Verifikoni informacionet e blerjes.",
   "purchaseErrorMissingReceipt": "Informacioni i blerësit nuk ekzistojnë. Hyni në këtë pajisje me {accountName} dhe provoni përsëri.",
   "purchaseErrorNetwork": "Lidhja me rrjetin është e paqëndrueshme. Kontrolloni lidhjen dhe provoni përsëri.",
   "purchaseNotAllowed": "Blerjet nuk lejohen në këtë pajisje",

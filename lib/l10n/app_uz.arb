@@ -115,7 +115,7 @@
   "purchaseErrorProductUnavailable": "Tanlangan tarif hozirda sotuvda emas. Iltimos, ilovani qayta ishga tushirib, yana urinib ko‘ring.",
   "purchaseErrorAlreadyPurchased": "Siz bu rejani allaqachon sotib olgansiz. Xarid maʼlumotlarini ushbu qurilmada tiklash uchun “Avval xarid qilganlar uchun” bandini tanlang.",
   "purchaseErrorReceiptInUse": "Allaqachon xarid qilingan yoki xarid maʼlumotlaridan boshqa foydalanuvchi foydalanmoqda. {accountName}ni tekshiring.",
-  "purchaseErrorInvalidReceipt": "Xarid maʼlumotlari yaroqsiz. Xarid maʼlumotlaringizni tekshiring.",
+  "purchaseErrorInvalidReceipt": "Xarid maʼlumotlari noto‘g‘ri. Xarid maʼlumotlaringizni tekshiring.",
   "purchaseErrorMissingReceipt": "Xaridor maʼlumotlari mavjud emas. Ushbu qurilmaga {accountName} orqali kiring va qaytadan urinib ko‘ring.",
   "purchaseErrorNetwork": "Tarmoq holati beqaror. Ulanishni tekshiring va qayta urinib ko‘ring.",
   "purchaseNotAllowed": "Bu qurilmada xarid qilishga ruxsat berilmagan",

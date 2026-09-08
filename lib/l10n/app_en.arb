@@ -115,7 +115,7 @@
   "purchaseErrorProductUnavailable": "The selected plan is currently unavailable for purchase. Please restart the app and try again.",
   "purchaseErrorAlreadyPurchased": "You have already purchased a plan. To restore your purchase information on this device, select “For those who have purchased before.”",
   "purchaseErrorReceiptInUse": "Already purchased, or the purchase information is being used by another user. Check {accountName}.",
-  "purchaseErrorInvalidReceipt": "Invalid purchase information. Please check your purchase information.",
+  "purchaseErrorInvalidReceipt": "Invalid purchase information. Please verify your purchase information.",
   "purchaseErrorMissingReceipt": "Purchaser information is unavailable. Sign in to this device with {accountName} and try again.",
   "purchaseErrorNetwork": "The network connection is unstable. Check your connection and try again.",
   "purchaseNotAllowed": "Purchases are not allowed on this device",

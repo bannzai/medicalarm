@@ -115,7 +115,7 @@
   "purchaseErrorProductUnavailable": "Hautatutako plana ez dago salgai une honetan. Berrabiarazi aplikazioa eta saiatu berriro.",
   "purchaseErrorAlreadyPurchased": "Dagoeneko plan bat erosi duzu. Gailu honetan erosketa-informazioa leheneratzeko, hautatu «Aurretik erosi dutenentzat».",
   "purchaseErrorReceiptInUse": "Dagoeneko erosita dago, edo erosketa-informazioa beste erabiltzaile batek erabiltzen ari da. Egiaztatu {accountName}.",
-  "purchaseErrorInvalidReceipt": "Erosketa-informazioa ez da baliozkoa. Egiaztatu erosketa-informazioa.",
+  "purchaseErrorInvalidReceipt": "Erosketa-informazioa baliogabea da. Egiaztatu erosketa-informazioa.",
   "purchaseErrorMissingReceipt": "Eroslearen informaziorik ez dago. Hasi saioa gailu honetan {accountName} erabiliz eta saiatu berriro.",
   "purchaseErrorNetwork": "Sareko konexioa ezegonkorra da. Egiaztatu konexioa eta saiatu berriro.",
   "purchaseNotAllowed": "Erosketak ez daude baimenduta gailu honetan",

@@ -115,7 +115,7 @@
   "purchaseErrorProductUnavailable": "Valitud pakett ei ole praegu müügil. Taaskäivitage rakendus ja proovige uuesti.",
   "purchaseErrorAlreadyPurchased": "Olete juba paketi ostnud. Ostuteabe taastamiseks selles seadmes valige „Varem ostnud kasutajatele“.",
   "purchaseErrorReceiptInUse": "Juba ostetud või kasutab ostuteavet teine kasutaja. Kontrollige {accountName}.",
-  "purchaseErrorInvalidReceipt": "Ostuteave ei kehti. Kontrolli ostuteavet.",
+  "purchaseErrorInvalidReceipt": "Ostuinfo ei kehti. Kontrolli oma ostuinfot.",
   "purchaseErrorMissingReceipt": "Ostja teave puudub. Logige selles seadmes sisse kontoga {accountName} ja proovige uuesti.",
   "purchaseErrorNetwork": "Võrguühendus on ebastabiilne. Kontrollige ühendust ja proovige uuesti.",
   "purchaseNotAllowed": "Selle seadmega ei ole ostmine lubatud",
