@@ -34,7 +34,7 @@
   "deleteAccountMessage": "När du raderar kontot raderas all användarinformation.",
   "medicationFrequency": "Läkemedelsfrekvens",
   "daily": "Dagligen",
-  "everyXDays": "var dagar",
+  "everyXDays": "Var X:e dag",
   "specificWeekdays": "Specifika dagar",
   "cycle": "Cykel",
   "cycleDescription": "Exempel) 21 dagars dosering / 7 dagars paus",

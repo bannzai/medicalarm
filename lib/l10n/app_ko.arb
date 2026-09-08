@@ -34,7 +34,7 @@
   "deleteAccountMessage": "계정을 삭제하면 모든 사용자 정보가 삭제됩니다.",
   "medicationFrequency": "복용 빈도",
   "daily": "매일",
-  "everyXDays": "일 마다",
+  "everyXDays": "X일마다",
   "specificWeekdays": "특정 요일",
   "cycle": "주기",
   "cycleDescription": "예) 21일 복용/7일 휴약",

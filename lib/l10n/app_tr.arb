@@ -34,7 +34,7 @@
   "deleteAccountMessage": "Hesabı sildiğinizde tüm kullanıcı bilgileri silinir.",
   "medicationFrequency": "İlaç alma sıklığı",
   "daily": "Her gün",
-  "everyXDays": "her gün X",
+  "everyXDays": "Her X günde bir",
   "specificWeekdays": "Belirli günler",
   "cycle": "Dönem",
   "cycleDescription": "Örnek) 21. günde ilaç alımı/7. günde ara verme",

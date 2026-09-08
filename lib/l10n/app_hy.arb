@@ -34,7 +34,7 @@
   "deleteAccountMessage": "Հաշիվը ջնջելու դեպքում օգտատիրոջ ամբողջ տեղեկատվությունը կջնջվի։",
   "medicationFrequency": "Դեղի ընդունման հաճախականությունը",
   "daily": "Ամեն օր",
-  "everyXDays": "օրվա ընթացքում",
+  "everyXDays": "Ամեն X օրը մեկ",
   "specificWeekdays": "Հատուկ օրեր",
   "cycle": "Ուղղություն",
   "cycleDescription": "օր 21 օգտագործել/օր 7 հանգստանալ",

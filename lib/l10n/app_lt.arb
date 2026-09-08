@@ -34,7 +34,7 @@
   "deleteAccountMessage": "Ištrynus paskyrą, visa naudotojo informacija bus ištrinta.",
   "medicationFrequency": "Vaistų vartojimo dažnis",
   "daily": "Kasdien",
-  "everyXDays": "kas dienų",
+  "everyXDays": "Kas X dienas",
   "specificWeekdays": "konkretūs savaitės dienos",
   "cycle": "Ciklas",
   "cycleDescription": "pavyzdys) 21 diena vartojimo/7 dienos pertraukos",

@@ -34,7 +34,7 @@
   "deleteAccountMessage": "Kontua ezabatzen baduzu, erabiltzailearen informazio guztia ezabatuko da.",
   "medicationFrequency": "Botikak hartzeko maiztasuna",
   "daily": "Egunero",
-  "everyXDays": "egunero",
+  "everyXDays": "X egunetik behin",
   "specificWeekdays": "Aste jakin batzuk",
   "cycle": "ziklo",
   "cycleDescription": "Adibideko 21 egunetarako / 7 egunetan atseden hartu",

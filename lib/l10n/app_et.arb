@@ -34,7 +34,7 @@
   "deleteAccountMessage": "Konto kustutamisel kustutatakse kogu kasutajateave.",
   "medicationFrequency": "Ravimi võtmise sagedus",
   "daily": "Iga päev",
-  "everyXDays": "päeva pärast",
+  "everyXDays": "Iga X päeva järel",
   "specificWeekdays": "Teatud nädalapäev",
   "cycle": "tsükkel",
   "cycleDescription": "21. päev ravim / 7. päev paus",

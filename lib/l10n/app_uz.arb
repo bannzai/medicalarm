@@ -34,7 +34,7 @@
   "deleteAccountMessage": "Hisobni o‘chirsangiz, foydalanuvchiga oid barcha ma’lumotlar o‘chiriladi.",
   "medicationFrequency": "Dori qabul qilish tez-tezligi",
   "daily": "Har kuni",
-  "everyXDays": "X kundan bir marta",
+  "everyXDays": "Har X kunda",
   "specificWeekdays": "Belgilangan kunlar",
   "cycle": "davr",
   "cycleDescription": "21-kuniga qabul qilish/7-kunlik tanaffus",

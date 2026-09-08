@@ -34,7 +34,7 @@
   "deleteAccountMessage": "መለያዎን ከሰረዙ ሁሉም የተጠቃሚ መረጃዎ ይሰረዛል።",
   "medicationFrequency": "የመድኃኒት አወሳሰድ ድግግሞሽ",
   "daily": "በየቀኑ",
-  "everyXDays": "ቀን ባይሆን ወይም ማህበራዊ ሠርተር አላዊ ነን እገባ፣ ስለዚያ እንግዲት ይቆይ",
+  "everyXDays": "በየ X ቀኑ",
   "specificWeekdays": "ጠቅላላ ቀን",
   "cycle": "ጊዜ",
   "cycleDescription": "21ኛ ቀን መጠጣት/7ኛ ቀን አንቀሳቅስ",

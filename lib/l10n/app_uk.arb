@@ -34,7 +34,7 @@
   "deleteAccountMessage": "Після видалення облікового запису всю інформацію про користувача буде видалено.",
   "medicationFrequency": "Частота прийому ліків",
   "daily": "Щодня",
-  "everyXDays": "every X days",
+  "everyXDays": "Кожні X днів",
   "specificWeekdays": "Specific day of the week",
   "cycle": "Cycle",
   "cycleDescription": "Example) 21 days taking/7 days off medication",

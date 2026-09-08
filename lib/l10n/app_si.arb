@@ -34,7 +34,7 @@
   "deleteAccountMessage": "ගිණුම මකා දැමූ විට, සියලුම පරිශීලක තොරතුරු මකා දැමේ.",
   "medicationFrequency": "ඖෂධ ලබාගැනීමේ වාර ගණන",
   "daily": "දිනපතා",
-  "everyXDays": "දිනෙන් දින",
+  "everyXDays": "සෑම X දිනකට වරක්",
   "specificWeekdays": "සතිපතා",
   "cycle": "සයිකල්",
   "cycleDescription": "අදාළ දින 21 ක්, භාවිතය/7 දින එදිනෙදා නොවීමක්",

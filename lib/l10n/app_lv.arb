@@ -34,7 +34,7 @@
   "deleteAccountMessage": "Dzēšot kontu, visa lietotāja informācija tiks dzēsta.",
   "medicationFrequency": "Zāļu lietošanas biežums",
   "daily": "Katru dienu",
-  "everyXDays": "X dienu intervāls",
+  "everyXDays": "Ik pēc X dienām",
   "specificWeekdays": "Noteikti specifiska diena",
   "cycle": "Cikls",
   "cycleDescription": "21. diena lietošanas / 7. diena pārtraukums",

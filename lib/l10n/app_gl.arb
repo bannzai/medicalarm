@@ -34,7 +34,7 @@
   "deleteAccountMessage": "Ao eliminar a conta, eliminarase toda a información do usuario.",
   "medicationFrequency": "Frecuencia de toma do medicamento",
   "daily": "Diariamente",
-  "everyXDays": "días",
+  "everyXDays": "Cada X días",
   "specificWeekdays": "día específico",
   "cycle": "Ciclo",
   "cycleDescription": "Exemplo) 21 días de toma / 7 días de descanso",

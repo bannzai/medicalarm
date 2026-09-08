@@ -34,7 +34,7 @@
   "deleteAccountMessage": "A fiók törlésével minden felhasználói információ törlődik.",
   "medicationFrequency": "Gyógyszerbevétel gyakorisága",
   "daily": "Naponta",
-  "everyXDays": "X naponként",
+  "everyXDays": "X naponta",
   "specificWeekdays": "heti napok",
   "cycle": "Ciklus",
   "cycleDescription": "példa) 21 nap szedés/7 nap szünet",

@@ -34,7 +34,7 @@
   "deleteAccountMessage": "Каттоо эсебин өчүрсөңүз, колдонуучуга байланыштуу бардык маалымат өчүрүлөт.",
   "medicationFrequency": "Дары ичүү жыштыгы",
   "daily": "Күн сайын",
-  "everyXDays": "күн сайын",
+  "everyXDays": "Ар X күндө",
   "specificWeekdays": "Белгилүү бир күнү",
   "cycle": "Цикл",
   "cycleDescription": "21-но куну кабыл алуу/7-кун дарыны токтотуу",

@@ -34,7 +34,7 @@
   "deleteAccountMessage": "खाता मेटाउँदा प्रयोगकर्ताका सबै जानकारी मेटिनेछन्।",
   "medicationFrequency": "औषध सेवनको आवृत्ति",
   "daily": "दैनिक",
-  "everyXDays": "दिनमा",
+  "everyXDays": "हरेक X दिनमा",
   "specificWeekdays": "विशिष्ट दिनहरू",
   "cycle": "चक्र",
   "cycleDescription": "उदाहरण) 21 दिनको सेवन/7 दिनको विश्राम",

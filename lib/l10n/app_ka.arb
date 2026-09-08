@@ -34,7 +34,7 @@
   "deleteAccountMessage": "ანგარიშის წაშლისას მომხმარებლის ყველა ინფორმაცია წაიშლება.",
   "medicationFrequency": "მედიკამენტის მიღების სიხშირე",
   "daily": "ყოველდღე",
-  "everyXDays": "X ימים",
+  "everyXDays": "ყოველ X დღეში",
   "specificWeekdays": "특정 요일",
   "cycle": "周期",
   "cycleDescription": "მაგალითი) 21 დღის განმავლობაში მიღება/7 დღის განმავლობაში შესვენება",

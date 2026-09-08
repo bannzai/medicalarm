@@ -34,7 +34,7 @@
   "deleteAccountMessage": "با حذف حساب، همه اطلاعات کاربر حذف می‌شود.",
   "medicationFrequency": "دفعات مصرف دارو",
   "daily": "هر روز",
-  "everyXDays": "هر روز",
+  "everyXDays": "هر X روز",
   "specificWeekdays": "روز خاص",
   "cycle": "دوره",
   "cycleDescription": "مثال) ۲۱ روز مصرف/۷ روز استراحت",

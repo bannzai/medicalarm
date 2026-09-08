@@ -34,7 +34,7 @@
   "deleteAccountMessage": "खाते हटवल्यास वापरकर्त्याची सर्व माहिती हटवली जाईल.",
   "medicationFrequency": "औषध घेण्याची वारंवारता",
   "daily": "दररोज",
-  "everyXDays": "X दिवसांनी",
+  "everyXDays": "दर X दिवसांनी",
   "specificWeekdays": "विशिष्ट आठवडे",
   "cycle": "आवृत्ती",
   "cycleDescription": "उदाहरण) 21वा दिवशी औषध घेतले/7वा दिवशी औषध घेतले नाही",

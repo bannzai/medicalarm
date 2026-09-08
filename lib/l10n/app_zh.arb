@@ -34,7 +34,7 @@
   "deleteAccountMessage": "删除账户后，所有用户信息都将被删除。",
   "medicationFrequency": "服药频率",
   "daily": "每天",
-  "everyXDays": "每X天",
+  "everyXDays": "每 X 天",
   "specificWeekdays": "特定的星期",
   "cycle": "周期",
   "cycleDescription": "例如）21日服用/7日休药",

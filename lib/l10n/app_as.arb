@@ -34,7 +34,7 @@
   "deleteAccountMessage": "একাউণ্ট মচিলে আপোনাৰ সকলো ব্যৱহাৰকাৰী তথ্য মচি পেলোৱা হ’ব।",
   "medicationFrequency": "ঔষধ সেৱনৰ সঘনতা",
   "daily": "দৈনিক",
-  "everyXDays": "দিন অন্তর",
+  "everyXDays": "প্ৰতি X দিনৰ মূৰে মূৰে",
   "specificWeekdays": "নিশ্চিত দিন",
   "cycle": "চক্র",
   "cycleDescription": "例) 21 \n তৰিখৰ ঔষধ খোৱা/7  \n দিনৰ ৰব-চাৰ/বিৰতি",

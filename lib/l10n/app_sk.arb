@@ -34,7 +34,7 @@
   "deleteAccountMessage": "Po odstránení účtu sa odstránia všetky informácie o používateľovi.",
   "medicationFrequency": "Frekvencia užívania lieku",
   "daily": "Každý deň",
-  "everyXDays": "dní",
+  "everyXDays": "Každých X dní",
   "specificWeekdays": "špecifický deň",
   "cycle": "cyklus",
   "cycleDescription": "Príklad) 21 dní užívania/7 dní liečebnej prestávky",

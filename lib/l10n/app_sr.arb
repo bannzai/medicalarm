@@ -34,7 +34,7 @@
   "deleteAccountMessage": "Brisanjem naloga biće izbrisane sve informacije o korisniku.",
   "medicationFrequency": "Учесталост узимања лека",
   "daily": "Сваког дана",
-  "everyXDays": "Svaki X dan",
+  "everyXDays": "На сваких X дана",
   "specificWeekdays": "Одређени дан у недељи",
   "cycle": "Цикл",
   "cycleDescription": "例) 21. dan uzimanje/7. dan pauza",
