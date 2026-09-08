@@ -211,7 +211,7 @@
   "removeMemberConfirmMessage": "গোটৰ পৰা {name}-ক আঁতৰাব",
   "joinGroup": "গোটত যোগদান কৰক",
   "invitationCodeInputLabel": "আমন্ত্ৰণ ক’ড (৮টা আখৰ)",
-  "invitationCodeInputHint": "৮ আখৰৰ ক'ড লিখক",
+  "invitationCodeInputHint": "৮টা আখৰৰ ক’ড লিখক",
   "join": "যোগদান কৰক",
   "recordedByMember": "ৰেকৰ্ড কৰিছে: {name}",
   "accountLink": "একাউণ্ট স্থানান্তৰ",

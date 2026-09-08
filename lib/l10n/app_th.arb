@@ -211,7 +211,7 @@
   "removeMemberConfirmMessage": "นำ {name} ออกจากกลุ่ม",
   "joinGroup": "เข้าร่วมกลุ่ม",
   "invitationCodeInputLabel": "รหัสเชิญ (8 ตัวอักษร)",
-  "invitationCodeInputHint": "ป้อนรหัส 8 ตัวอักษร",
+  "invitationCodeInputHint": "กรอกรหัส 8 ตัวอักษร",
   "join": "เข้าร่วม",
   "recordedByMember": "บันทึกโดย {name}",
   "accountLink": "โอนบัญชี",

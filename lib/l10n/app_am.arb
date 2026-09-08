@@ -211,7 +211,7 @@
   "removeMemberConfirmMessage": "{name}-ը խմբից կհեռացվի",
   "joinGroup": "ቡድኑን ይቀላቀሉ",
   "invitationCodeInputLabel": "የግብዣ ኮድ (8 ቁምፊዎች)",
-  "invitationCodeInputHint": "8 ቁምፊ ያለውን ኮድ ያስገቡ",
+  "invitationCodeInputHint": "የ8 ቁምፊ ኮድ ያስገቡ",
   "join": "ይቀላቀሉ",
   "recordedByMember": "በ{name} የተመዘገበ",
   "accountLink": "የመለያ ማስተላለፍ",

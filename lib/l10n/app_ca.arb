@@ -211,7 +211,7 @@
   "removeMemberConfirmMessage": "Eliminar {name} del grup",
   "joinGroup": "Unir-se al grup",
   "invitationCodeInputLabel": "Codi d’invitació (8 caràcters)",
-  "invitationCodeInputHint": "Introduïu el codi de 8 caràcters",
+  "invitationCodeInputHint": "Introdueix el codi de 8 caràcters",
   "join": "Unir-se",
   "recordedByMember": "Registrat per {name}",
   "accountLink": "Transferència del compte",

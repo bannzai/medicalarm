@@ -211,7 +211,7 @@
   "removeMemberConfirmMessage": "הסרת {name} מהקבוצה",
   "joinGroup": "הצטרפות לקבוצה",
   "invitationCodeInputLabel": "קוד הזמנה (8 תווים)",
-  "invitationCodeInputHint": "הזינו את הקוד בן 8 התווים",
+  "invitationCodeInputHint": "הזן את הקוד בן 8 התווים",
   "join": "הצטרפות",
   "recordedByMember": "נרשם על ידי {name}",
   "accountLink": "העברת חשבון",

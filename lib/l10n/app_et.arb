@@ -211,7 +211,7 @@
   "removeMemberConfirmMessage": "Eemaldada {name} grupist",
   "joinGroup": "Liitu grupiga",
   "invitationCodeInputLabel": "Kutse kood (8 märki)",
-  "invitationCodeInputHint": "Sisestage 8-märgiline kood",
+  "invitationCodeInputHint": "Sisestage 8-kohaline kood",
   "join": "Liitu",
   "recordedByMember": "Salvestaja: {name}",
   "accountLink": "Konto ülekandmine",

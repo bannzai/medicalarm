@@ -211,7 +211,7 @@
   "removeMemberConfirmMessage": "Видалити {name} з групи",
   "joinGroup": "Приєднатися до групи",
   "invitationCodeInputLabel": "Код запрошення (8 символів)",
-  "invitationCodeInputHint": "Введіть 8-символьний код",
+  "invitationCodeInputHint": "Введіть 8-значний код",
   "join": "Приєднатися",
   "recordedByMember": "Запис внесено користувачем {name}",
   "accountLink": "Перенесення облікового запису",

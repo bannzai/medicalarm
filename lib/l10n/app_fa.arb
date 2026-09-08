@@ -211,7 +211,7 @@
   "removeMemberConfirmMessage": "{name} از گروه حذف شود",
   "joinGroup": "پیوستن به گروه",
   "invitationCodeInputLabel": "کد دعوت (۸ نویسه)",
-  "invitationCodeInputHint": "کد ۸ نویسه‌ای را وارد کنید",
+  "invitationCodeInputHint": "کد ۸ کاراکتری را وارد کنید",
   "join": "پیوستن",
   "recordedByMember": "ثبت‌شده توسط {name}",
   "accountLink": "انتقال حساب",

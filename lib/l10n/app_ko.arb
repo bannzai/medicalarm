@@ -211,7 +211,7 @@
   "removeMemberConfirmMessage": "그룹에서 {name}님을 삭제합니다",
   "joinGroup": "그룹 참여",
   "invitationCodeInputLabel": "초대 코드(8자)",
-  "invitationCodeInputHint": "8자리 코드 입력",
+  "invitationCodeInputHint": "8자리 코드를 입력하세요",
   "join": "참여하기",
   "recordedByMember": "{name}님이 기록함",
   "accountLink": "계정 이전",

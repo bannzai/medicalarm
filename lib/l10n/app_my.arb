@@ -211,7 +211,7 @@
   "removeMemberConfirmMessage": "အဖွဲ့မှ {name} ကို ဖယ်ရှားမည်",
   "joinGroup": "အဖွဲ့သို့ ပါဝင်ရန်",
   "invitationCodeInputLabel": "ဖိတ်ကြားကုဒ် (စာလုံး ၈ လုံး)",
-  "invitationCodeInputHint": "စာလုံး ၈ လုံးပါ ကုဒ်ကို ထည့်ပါ",
+  "invitationCodeInputHint": "အက္ခရာ ၈ လုံးပါကုဒ်ကို ထည့်ပါ",
   "join": "ပါဝင်ရန်",
   "recordedByMember": "မှတ်တမ်းတင်သူ: {name}",
   "accountLink": "အကောင့်လွှဲပြောင်းခြင်း",
