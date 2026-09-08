@@ -7,7 +7,7 @@
   "medicineRegistration": "Registrer medisin",
   "medicineName": "Navn på medisin",
   "medicineList": "Medisinliste",
-  "medicationSchedule": "Medisineringsplan",
+  "medicationSchedule": "Tidsplan for medisininntak",
   "medicationTime": "Aktiver varsler når det er tid for å ta medisinen",
   "medicationTimeDescription": "Send varsler basert på medisineringstidspunktet",
   "close": "Lukk",
