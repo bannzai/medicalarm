@@ -224,7 +224,7 @@
   "accountLinkBannerText": "هنگام اشتراک‌گذاری گروه، اکیداً توصیه می‌کنیم انتقال حساب را تنظیم کنید",
   "minimumDoseInterval": "فاصله بین دوزها",
   "minimumDoseIntervalDescription": "حداقل فاصله زمانی بین نوبت‌های مصرف",
-  "minimumDoseIntervalNone": "ندارد",
+  "minimumDoseIntervalNone": "تنظیم نشده است",
   "minimumDoseIntervalHoursFormat": "حداقل {hours} ساعت",
   "doseIntervalWarningTitle": "فاصله بین دوزها هنوز سپری نشده است",
   "doseIntervalWarningMessage": "مصرف دارو در {latestTakeTime} قبلاً ثبت شده است. تنظیمات، فاصله حداقل {minimumDoseIntervalHours} ساعت بین دوزها را تعیین کرده است. با این حال ثبت شود؟",

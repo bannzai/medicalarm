@@ -224,7 +224,7 @@
   "accountLinkBannerText": "בזמן שיתוף קבוצה, מומלץ מאוד להגדיר העברת חשבון",
   "minimumDoseInterval": "מרווח בין מנות",
   "minimumDoseIntervalDescription": "הזמן המינימלי בין מנות",
-  "minimumDoseIntervalNone": "אין",
+  "minimumDoseIntervalNone": "לא הוגדר",
   "minimumDoseIntervalHoursFormat": "לפחות {hours} שעות",
   "doseIntervalWarningTitle": "מרווח הזמן בין המנות עדיין לא חלף",
   "doseIntervalWarningMessage": "כבר תועדה נטילת תרופה בשעה {latestTakeTime}. ההגדרה דורשת מרווח של לפחות {minimumDoseIntervalHours} שעות בין מנות. לתעד בכל זאת?",

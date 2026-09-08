@@ -224,7 +224,7 @@
   "accountLinkBannerText": "共享群组时，强烈建议设置账户转移",
   "minimumDoseInterval": "服药间隔",
   "minimumDoseIntervalDescription": "上次服药后需间隔的最短时间",
-  "minimumDoseIntervalNone": "无",
+  "minimumDoseIntervalNone": "未设置",
   "minimumDoseIntervalHoursFormat": "至少 {hours} 小时",
   "doseIntervalWarningTitle": "服药间隔尚未达到",
   "doseIntervalWarningMessage": "已记录您在 {latestTakeTime} 服用了药物。设置要求两次服药之间至少间隔 {minimumDoseIntervalHours} 小时。仍要记录吗？",
