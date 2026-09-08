@@ -235,5 +235,6 @@
   "achievementWeeklyCountSuffix": "/{scheduledCount} puta",
   "achievementStreakLabel": "Uzastopni niz",
   "achievementStreakDaysSuffix": "dana",
-  "achievementMonthlyRateLabel": "Stopa ostvarenja za {month}"
+  "achievementMonthlyRateLabel": "Stopa ostvarenja za {month}",
+  "achievementLegendAllTaken": "Sve uzeto"
 }

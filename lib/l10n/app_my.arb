@@ -235,5 +235,6 @@
   "achievementWeeklyCountSuffix": "/{scheduledCount} ကြိမ်",
   "achievementStreakLabel": "ဆက်တိုက်မှတ်တမ်း",
   "achievementStreakDaysSuffix": "ရက်",
-  "achievementMonthlyRateLabel": "{month} အောင်မြင်မှုနှုန်း"
+  "achievementMonthlyRateLabel": "{month} အောင်မြင်မှုနှုန်း",
+  "achievementLegendAllTaken": "အားလုံးသောက်ပြီး"
 }

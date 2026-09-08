@@ -235,5 +235,6 @@
   "achievementWeeklyCountSuffix": "/{scheduledCount} වරක්",
   "achievementStreakLabel": "අඛණ්ඩ වාර්තාව",
   "achievementStreakDaysSuffix": "දින",
-  "achievementMonthlyRateLabel": "{month} සඳහා සම්පූර්ණ කිරීමේ අනුපාතය"
+  "achievementMonthlyRateLabel": "{month} සඳහා සම්පූර්ණ කිරීමේ අනුපාතය",
+  "achievementLegendAllTaken": "සියල්ල ගෙන ඇත"
 }

@@ -235,5 +235,6 @@
   "achievementWeeklyCountSuffix": "/{scheduledCount} пъти",
   "achievementStreakLabel": "Поредица",
   "achievementStreakDaysSuffix": "дни",
-  "achievementMonthlyRateLabel": "Процент изпълнение за {month}"
+  "achievementMonthlyRateLabel": "Процент изпълнение за {month}",
+  "achievementLegendAllTaken": "Всички са приети"
 }

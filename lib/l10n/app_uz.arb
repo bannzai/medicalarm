@@ -235,5 +235,6 @@
   "achievementWeeklyCountSuffix": "/{scheduledCount} marta",
   "achievementStreakLabel": "Ketma-ketlik",
   "achievementStreakDaysSuffix": "kun",
-  "achievementMonthlyRateLabel": "{month} oyidagi bajarilish darajasi"
+  "achievementMonthlyRateLabel": "{month} oyidagi bajarilish darajasi",
+  "achievementLegendAllTaken": "Hammasi qabul qilindi"
 }

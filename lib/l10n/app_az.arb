@@ -235,5 +235,6 @@
   "achievementWeeklyCountSuffix": "/{scheduledCount} dəfə",
   "achievementStreakLabel": "Ardıcıl seriya",
   "achievementStreakDaysSuffix": "gün",
-  "achievementMonthlyRateLabel": "{month} üzrə yerinə yetirmə faizi"
+  "achievementMonthlyRateLabel": "{month} üzrə yerinə yetirmə faizi",
+  "achievementLegendAllTaken": "Hamısı qəbul edilib"
 }

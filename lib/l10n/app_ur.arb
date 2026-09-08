@@ -235,5 +235,6 @@
   "achievementWeeklyCountSuffix": "/{scheduledCount} بار",
   "achievementStreakLabel": "مسلسل ریکارڈ",
   "achievementStreakDaysSuffix": "دن",
-  "achievementMonthlyRateLabel": "{month} کی تکمیل کی شرح"
+  "achievementMonthlyRateLabel": "{month} کی تکمیل کی شرح",
+  "achievementLegendAllTaken": "سب لے لی گئی ہیں"
 }

@@ -235,5 +235,6 @@
   "achievementWeeklyCountSuffix": "/{scheduledCount} Mol",
   "achievementStreakLabel": "Serie",
   "achievementStreakDaysSuffix": "Täg",
-  "achievementMonthlyRateLabel": "Erfülligsquote für {month}"
+  "achievementMonthlyRateLabel": "Erfülligsquote für {month}",
+  "achievementLegendAllTaken": "Alli iinah"
 }

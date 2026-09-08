@@ -235,5 +235,6 @@
   "achievementWeeklyCountSuffix": "/{scheduledCount} ganger",
   "achievementStreakLabel": "Sammenhengende rekke",
   "achievementStreakDaysSuffix": "dager",
-  "achievementMonthlyRateLabel": "Oppfyllelsesgrad for {month}"
+  "achievementMonthlyRateLabel": "Oppfyllelsesgrad for {month}",
+  "achievementLegendAllTaken": "Alle tatt"
 }

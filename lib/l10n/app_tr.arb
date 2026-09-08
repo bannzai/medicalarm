@@ -235,5 +235,6 @@
   "achievementWeeklyCountSuffix": "/{scheduledCount} kez",
   "achievementStreakLabel": "Seri",
   "achievementStreakDaysSuffix": "gün",
-  "achievementMonthlyRateLabel": "{month} tamamlama oranı"
+  "achievementMonthlyRateLabel": "{month} tamamlama oranı",
+  "achievementLegendAllTaken": "Tümü alındı"
 }

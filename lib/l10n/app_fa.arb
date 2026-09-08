@@ -235,5 +235,6 @@
   "achievementWeeklyCountSuffix": "/{scheduledCount} بار",
   "achievementStreakLabel": "رکورد متوالی",
   "achievementStreakDaysSuffix": "روز",
-  "achievementMonthlyRateLabel": "نرخ پایبندی در {month}"
+  "achievementMonthlyRateLabel": "نرخ پایبندی در {month}",
+  "achievementLegendAllTaken": "همه مصرف شده‌اند"
 }

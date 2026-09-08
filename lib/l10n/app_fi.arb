@@ -235,5 +235,6 @@
   "achievementWeeklyCountSuffix": "/{scheduledCount} kertaa",
   "achievementStreakLabel": "Putki",
   "achievementStreakDaysSuffix": "päivää",
-  "achievementMonthlyRateLabel": "{month} saavutustaso"
+  "achievementMonthlyRateLabel": "{month} saavutustaso",
+  "achievementLegendAllTaken": "Kaikki otettu"
 }

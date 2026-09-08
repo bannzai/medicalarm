@@ -235,5 +235,6 @@
   "achievementWeeklyCountSuffix": "/{scheduledCount} жолу",
   "achievementStreakLabel": "Удаалаш серия",
   "achievementStreakDaysSuffix": "күн",
-  "achievementMonthlyRateLabel": "{month} айындагы аткаруу көрсөткүчү"
+  "achievementMonthlyRateLabel": "{month} айындагы аткаруу көрсөткүчү",
+  "achievementLegendAllTaken": "Баары кабыл алынды"
 }

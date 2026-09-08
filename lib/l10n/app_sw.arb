@@ -235,5 +235,6 @@
   "achievementWeeklyCountSuffix": "/{scheduledCount} mara",
   "achievementStreakLabel": "Mfululizo",
   "achievementStreakDaysSuffix": "siku",
-  "achievementMonthlyRateLabel": "Kiwango cha utimilifu kwa {month}"
+  "achievementMonthlyRateLabel": "Kiwango cha utimilifu kwa {month}",
+  "achievementLegendAllTaken": "Zote zimechukuliwa"
 }

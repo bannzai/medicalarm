@@ -235,5 +235,6 @@
   "achievementWeeklyCountSuffix": "/{scheduledCount} разів",
   "achievementStreakLabel": "Серія",
   "achievementStreakDaysSuffix": "днів",
-  "achievementMonthlyRateLabel": "Показник виконання за {month}"
+  "achievementMonthlyRateLabel": "Показник виконання за {month}",
+  "achievementLegendAllTaken": "Усі прийняті"
 }

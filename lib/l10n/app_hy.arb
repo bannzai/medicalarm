@@ -235,5 +235,6 @@
   "achievementWeeklyCountSuffix": "/{scheduledCount} անգամ",
   "achievementStreakLabel": "Անընդմեջ շարք",
   "achievementStreakDaysSuffix": "օր",
-  "achievementMonthlyRateLabel": "{month}-ի կատարման ցուցանիշը"
+  "achievementMonthlyRateLabel": "{month}-ի կատարման ցուցանիշը",
+  "achievementLegendAllTaken": "Բոլորն ընդունված են"
 }

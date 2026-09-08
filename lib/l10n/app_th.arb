@@ -235,5 +235,6 @@
   "achievementWeeklyCountSuffix": "/{scheduledCount} ครั้ง",
   "achievementStreakLabel": "สถิติต่อเนื่อง",
   "achievementStreakDaysSuffix": "วัน",
-  "achievementMonthlyRateLabel": "อัตราการบรรลุเป้าหมายของ {month}"
+  "achievementMonthlyRateLabel": "อัตราการบรรลุเป้าหมายของ {month}",
+  "achievementLegendAllTaken": "รับประทานครบทั้งหมดแล้ว"
 }

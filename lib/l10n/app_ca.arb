@@ -235,5 +235,6 @@
   "achievementWeeklyCountSuffix": "/{scheduledCount} vegades",
   "achievementStreakLabel": "Ratxa consecutiva",
   "achievementStreakDaysSuffix": "dies",
-  "achievementMonthlyRateLabel": "Percentatge d’assoliment de {month}"
+  "achievementMonthlyRateLabel": "Percentatge d’assoliment de {month}",
+  "achievementLegendAllTaken": "Totes preses"
 }

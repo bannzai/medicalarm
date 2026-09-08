@@ -235,5 +235,6 @@
   "achievementWeeklyCountSuffix": "/{scheduledCount} aldiz",
   "achievementStreakLabel": "Jarraikako marka",
   "achievementStreakDaysSuffix": "egun",
-  "achievementMonthlyRateLabel": "{month} hilabeteko betetze-maila"
+  "achievementMonthlyRateLabel": "{month} hilabeteko betetze-maila",
+  "achievementLegendAllTaken": "Denak hartuta"
 }

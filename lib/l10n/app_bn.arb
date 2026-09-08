@@ -235,5 +235,6 @@
   "achievementWeeklyCountSuffix": "/{scheduledCount} বার",
   "achievementStreakLabel": "ধারাবাহিকতা",
   "achievementStreakDaysSuffix": "দিন",
-  "achievementMonthlyRateLabel": "{month}-এর সাফল্যের হার"
+  "achievementMonthlyRateLabel": "{month}-এর সাফল্যের হার",
+  "achievementLegendAllTaken": "সবগুলো খাওয়া হয়েছে"
 }
