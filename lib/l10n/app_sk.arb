@@ -115,7 +115,7 @@
   "purchaseErrorProductUnavailable": "Vybraný plán momentálne nie je v predaji. Reštartujte aplikáciu a skúste to znova.",
   "purchaseErrorAlreadyPurchased": "Plán ste si už zakúpili. Ak chcete na tomto zariadení obnoviť informácie o nákupe, vyberte „Pre tých, ktorí už nakúpili“.",
   "purchaseErrorReceiptInUse": "Už zakúpené alebo informácie o nákupe používa iný používateľ. Skontrolujte {accountName}.",
-  "purchaseErrorInvalidReceipt": "Neplatné informácie o nákupe. Skontrolujte prosím informácie o nákupe.",
+  "purchaseErrorInvalidReceipt": "Neplatné údaje o nákupe. Skontrolujte údaje o nákupe.",
   "purchaseErrorMissingReceipt": "Neexistujú žiadne informácie o kupujúcom. Skúste sa prihlásiť do zariadenia s menom účtu {accountName}.",
   "purchaseErrorNetwork": "Sieťový stav je nestabilný. Skontrolujte pripojenie a skúste to znova.",
   "purchaseNotAllowed": "Tento zariadenie nemá povolené nákupy.",

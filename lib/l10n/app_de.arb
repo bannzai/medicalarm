@@ -115,7 +115,7 @@
   "purchaseErrorProductUnavailable": "Der ausgewählte Tarif ist derzeit nicht erhältlich. Bitte starten Sie die App neu und versuchen Sie es erneut.",
   "purchaseErrorAlreadyPurchased": "Sie haben bereits einen Plan gekauft. Um Ihre Kaufinformationen auf diesem Gerät wiederherzustellen, wählen Sie „Für bereits getätigte Käufe“.",
   "purchaseErrorReceiptInUse": "Bereits gekauft oder die Kaufinformationen werden von einem anderen Nutzer verwendet. Überprüfe {accountName}.",
-  "purchaseErrorInvalidReceipt": "Ungültige Kaufinformationen. Bitte überprüfen Sie die Kaufinformationen.",
+  "purchaseErrorInvalidReceipt": "Ungültige Kaufinformationen. Überprüfe deine Kaufinformationen.",
   "purchaseErrorMissingReceipt": "Es liegen keine Käuferinformationen vor. Bitte melden Sie sich mit {accountName} auf dem Gerät an und versuchen Sie es erneut.",
   "purchaseErrorNetwork": "Die Netzwerkverbindung ist instabil. Bitte überprüfen Sie den Verbindungsstatus und versuchen Sie es erneut.",
   "purchaseNotAllowed": "Der Kauf auf diesem Gerät ist nicht erlaubt.",

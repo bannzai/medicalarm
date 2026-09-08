@@ -115,7 +115,7 @@
   "purchaseErrorProductUnavailable": "De usgwählti Plan isch im Momänt nöd erhältlich. Bitte starte d’App neu und probier’s nomal.",
   "purchaseErrorAlreadyPurchased": "Sie händ de Plan scho kauft. Zum dini Chaufdate uf dem Gerät wiederherzstelle, wähl «Für die, wo scho kauft händ».",
   "purchaseErrorReceiptInUse": "Bereits kauft oder d’Kaufinformatione werde vo eme andere Benutzer verwendet. Überprüef {accountName}.",
-  "purchaseErrorInvalidReceipt": "I d'kaufinformatio isch ungültig. Bitte überprüfe d'Kaufinformatio.",
+  "purchaseErrorInvalidReceipt": "Ungültigi Chaufsinformatione. Bitte überprüef dini Chaufsinformatione.",
   "purchaseErrorMissingReceipt": "Es existiert kei Kauffräg. Probieret, mit {accountName} uf em Gerät iizlogge.",
   "purchaseErrorNetwork": "Di Netzwerkkondition is unstabiel. Bitte überprüfe die Verbindig, und versuch's nochmal.",
   "purchaseNotAllowed": "Die Käufe sind auf diesem Gerät nicht erlaubt.",

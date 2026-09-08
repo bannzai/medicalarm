@@ -115,7 +115,7 @@
   "purchaseErrorProductUnavailable": "A kiválasztott csomag jelenleg nem vásárolható meg. Indítsa újra az alkalmazást, majd próbálja újra.",
   "purchaseErrorAlreadyPurchased": "Ezt a csomagot már megvásárolta. A vásárlási adatok visszaállításához ezen az eszközön válassza a „Korábban vásárlóknak” lehetőséget.",
   "purchaseErrorReceiptInUse": "Már megvásárolta, vagy a vásárlási adatokat egy másik felhasználó használja. Ellenőrizze a(z) {accountName} fiókot.",
-  "purchaseErrorInvalidReceipt": "Érvénytelen vásárlási információ. Kérjük, ellenőrizze a vásárlási információkat.",
+  "purchaseErrorInvalidReceipt": "Érvénytelen vásárlási adatok. Ellenőrizze a vásárlási adatokat.",
   "purchaseErrorMissingReceipt": "Nincs vásárlói információ. Kérjük, jelentkezzen be a {accountName} fiókjába a készüléken, és próbálja meg újra.",
   "purchaseErrorNetwork": "A hálózati állapot instabil. Kérjük, ellenőrizze a kapcsolatot, majd próbálja meg újra.",
   "purchaseNotAllowed": "A vásárlás nem engedélyezett ezen az eszközön.",

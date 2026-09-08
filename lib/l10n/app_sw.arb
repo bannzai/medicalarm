@@ -115,7 +115,7 @@
   "purchaseErrorProductUnavailable": "Mpango uliochaguliwa haupatikani kwa ununuzi kwa sasa. Tafadhali anzisha upya programu na ujaribu tena.",
   "purchaseErrorAlreadyPurchased": "Tayari umenunua mpango. Ili kurejesha maelezo ya ununuzi kwenye kifaa hiki, chagua “Kwa waliowahi kununua”.",
   "purchaseErrorReceiptInUse": "Tayari imenunuliwa, au maelezo ya ununuzi yanatumiwa na mtumiaji mwingine. Angalia {accountName}.",
-  "purchaseErrorInvalidReceipt": "Taarifa ya ununuzi isiyo sahihi. Tafadhali thibitisha taarifa za ununuzi.",
+  "purchaseErrorInvalidReceipt": "Maelezo ya ununuzi si sahihi. Tafadhali kagua maelezo yako ya ununuzi.",
   "purchaseErrorMissingReceipt": "Hakuna taarifa ya mnunuzi. Tafadhali jaribu kuingia kwenye kifaa chako kwa kutumia {accountName}.",
   "purchaseErrorNetwork": "Hali ya mtandao si yenye kuaminika. Tafadhali thibitisha hali ya muunganisho kabla ya kujaribu tena.",
   "purchaseNotAllowed": "Ununu na kifaa hiki hakiruhusiwi kununua",

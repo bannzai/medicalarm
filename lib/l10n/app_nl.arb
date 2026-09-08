@@ -115,7 +115,7 @@
   "purchaseErrorProductUnavailable": "Het geselecteerde abonnement is momenteel niet beschikbaar voor aankoop. Start de app opnieuw en probeer het opnieuw.",
   "purchaseErrorAlreadyPurchased": "U hebt al een abonnement gekocht. Als u uw aankoopgegevens op dit apparaat wilt herstellen, kiest u ‘Voor wie al eerder heeft gekocht’.",
   "purchaseErrorReceiptInUse": "Al gekocht of de aankoopgegevens worden door een andere gebruiker gebruikt. Controleer {accountName}.",
-  "purchaseErrorInvalidReceipt": "Ongeldige aankoopinformatie. Controleer de aankoopinformatie.",
+  "purchaseErrorInvalidReceipt": "Ongeldige aankoopgegevens. Controleer je aankoopgegevens.",
   "purchaseErrorMissingReceipt": "Er zijn geen koperinformatie gevonden. Probeer in te loggen op het apparaat met {accountName}.",
   "purchaseErrorNetwork": "De netwerkstatus is instabiel. Controleer de verbindingsstatus en probeer het opnieuw.",
   "purchaseNotAllowed": "Aankoop is niet toegestaan op dit apparaat.",

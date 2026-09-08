@@ -115,7 +115,7 @@
   "purchaseErrorProductUnavailable": "Le forfait sélectionné n’est actuellement pas disponible à l’achat. Veuillez redémarrer l’app et réessayer.",
   "purchaseErrorAlreadyPurchased": "Vous avez déjà acheté un forfait. Pour restaurer vos informations d’achat sur cet appareil, sélectionnez « Pour ceux qui ont déjà acheté ».",
   "purchaseErrorReceiptInUse": "Déjà acheté, ou les informations d’achat sont utilisées par un autre utilisateur. Vérifiez {accountName}.",
-  "purchaseErrorInvalidReceipt": "Informations d'achat non valides. Veuillez vérifier les informations d'achat.",
+  "purchaseErrorInvalidReceipt": "Les informations d’achat sont invalides. Vérifiez vos informations d’achat.",
   "purchaseErrorMissingReceipt": "Aucune information sur l'acheteur n'existe. Veuillez vous connecter sur l'appareil avec {accountName} et réessayer.",
   "purchaseErrorNetwork": "L'état du réseau est instable. Veuillez vérifier votre connexion avant de réessayer.",
   "purchaseNotAllowed": "L'achat sur cet appareil n'est pas autorisé.",

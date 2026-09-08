@@ -115,7 +115,7 @@
   "purchaseErrorProductUnavailable": "Valda áskriftarleiðin er ekki í boði eins og er. Endurræstu appið og reyndu aftur.",
   "purchaseErrorAlreadyPurchased": "Þú hefur þegar keypt áskrift. Til að endurheimta kaupupplýsingar þínar á þessu tæki skaltu velja „Fyrir þá sem hafa keypt áður“.",
   "purchaseErrorReceiptInUse": "Þegar keypt eða kaupupplýsingarnar eru notaðar af öðrum notanda. Athugaðu {accountName}.",
-  "purchaseErrorInvalidReceipt": "Rangmál kaupsins er ólöglegt. Vinsamlegast staðfestu kaupin.",
+  "purchaseErrorInvalidReceipt": "Ógildar kaupupplýsingar. Athugaðu kaupupplýsingarnar þínar.",
   "purchaseErrorMissingReceipt": "Engin kaupandans upplýsingarnar eru ekki til. Vinsamlegast skráðu þig inn á tækið með {accountName} og reyndu aftur.",
   "purchaseErrorNetwork": "Netvörfustaða er óstöðug. Vinsamlegast athugaðu tengimynstrið áður en þú reynir aftur.",
   "purchaseNotAllowed": "Þessi tæki hefur ekki heimild til að kaupa.",

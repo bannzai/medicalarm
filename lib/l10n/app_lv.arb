@@ -115,7 +115,7 @@
   "purchaseErrorProductUnavailable": "Izvēlētais plāns pašlaik nav pieejams iegādei. Restartējiet lietotni un mēģiniet vēlreiz.",
   "purchaseErrorAlreadyPurchased": "Jūs jau iegādājāties plānu. Lai šajā ierīcē atjaunotu pirkuma informāciju, izvēlieties “Iepriekšējiem pircējiem”.",
   "purchaseErrorReceiptInUse": "Jau iegādāts vai pirkuma informāciju izmanto cits lietotājs. Pārbaudiet {accountName}.",
-  "purchaseErrorInvalidReceipt": "Nepareiza iegādes informācija. Lūdzu, pārbaudiet iegādes informāciju.",
+  "purchaseErrorInvalidReceipt": "Pirkuma informācija nav derīga. Pārbaudiet pirkuma informāciju.",
   "purchaseErrorMissingReceipt": "Pircēja informācija neeksistē. Lūdzu, pierakstieties ierīcē, izmantojot {accountName}, un mēģiniet vēlreiz.",
   "purchaseErrorNetwork": "Tīklošanas stāvoklis ir nestabils. Lūdzu, pārbaudiet savienojuma stāvokli un mēģiniet vēlreiz.",
   "purchaseNotAllowed": "Šis ierīces pirkums nav atļauts.",

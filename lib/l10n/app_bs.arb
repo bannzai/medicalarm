@@ -115,7 +115,7 @@
   "purchaseErrorProductUnavailable": "Odabrani plan trenutno nije dostupan za kupovinu. Ponovo pokrenite aplikaciju i pokušajte ponovo.",
   "purchaseErrorAlreadyPurchased": "Već ste kupili plan. Da biste vratili podatke o kupovini na ovom uređaju, izaberite „Za one koji su ranije kupili“.",
   "purchaseErrorReceiptInUse": "Već je kupljeno ili drugi korisnik koristi podatke o kupovini. Provjerite {accountName}.",
-  "purchaseErrorInvalidReceipt": "Nevažeće informacije o kupovini. Molimo provjerite informacije o kupovini.",
+  "purchaseErrorInvalidReceipt": "Nevažeći podaci o kupovini. Provjerite podatke o kupovini.",
   "purchaseErrorMissingReceipt": "Informacije o kupcu ne postoje. Molimo prijavite se na uređaj s {accountName} i pokušajte ponovo.",
   "purchaseErrorNetwork": "Stanje mreže je nestabilno. Molimo provjerite svoju vezu i pokušajte ponovo.",
   "purchaseNotAllowed": "Kupovina nije dozvoljena na ovom uređaju.",

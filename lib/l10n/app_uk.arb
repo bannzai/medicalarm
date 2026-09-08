@@ -115,7 +115,7 @@
   "purchaseErrorProductUnavailable": "Вибраний план наразі недоступний для придбання. Перезапустіть застосунок і спробуйте ще раз.",
   "purchaseErrorAlreadyPurchased": "Ви вже придбали план. Щоб відновити інформацію про покупку на цьому пристрої, виберіть «Для тих, хто вже купував».",
   "purchaseErrorReceiptInUse": "Вже придбано або інформація про покупку використовується іншим користувачем. Перевірте {accountName}.",
-  "purchaseErrorInvalidReceipt": "This is invalid purchase information. Please check your purchase information.",
+  "purchaseErrorInvalidReceipt": "Недійсна інформація про покупку. Перевірте інформацію про покупку.",
   "purchaseErrorMissingReceipt": "There is no information about the buyer. Please sign in to the device with {accountName} and try again.",
   "purchaseErrorNetwork": "The network condition is unstable. Please check your connection status and try again.",
   "purchaseNotAllowed": "Purchases are not allowed on this device.",

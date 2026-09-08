@@ -115,7 +115,7 @@
   "purchaseErrorProductUnavailable": "Die geselekte plan is tans nie te koop nie. Herbegin asseblief die app en probeer weer.",
   "purchaseErrorAlreadyPurchased": "Jy het reeds ’n plan gekoop. As jy jou aankoop op hierdie toestel wil herstel, kies “Vir diegene wat voorheen gekoop het”.",
   "purchaseErrorReceiptInUse": "Reeds gekoop, of die aankoopinligting word deur ’n ander gebruiker gebruik. Gaan {accountName} na.",
-  "purchaseErrorInvalidReceipt": "Ongeldige aankoopbesonderhede. Vervaardig asseblief die aankoopbesonderhede.",
+  "purchaseErrorInvalidReceipt": "Ongeldige aankoopinligting. Gaan jou aankoopinligting na.",
   "purchaseErrorMissingReceipt": "Geen koperinligting gevind nie. Probeer asseblief om met {accountName} op die toestel aan te meld.",
   "purchaseErrorNetwork": "Die netwerktoestand is onbetroubaar. Kontroleer die verbintenis toestand en probeer weer.",
   "purchaseNotAllowed": "Hierdie toestel is nie toegelaat om aankope te maak nie.",

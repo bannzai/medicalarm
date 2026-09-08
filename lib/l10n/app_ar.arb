@@ -115,7 +115,7 @@
   "purchaseErrorProductUnavailable": "الخطة المحددة غير متاحة للبيع حاليًا. يُرجى إعادة تشغيل التطبيق ثم المحاولة مرة أخرى.",
   "purchaseErrorAlreadyPurchased": "لقد اشتريت خطة بالفعل. لاستعادة معلومات الشراء على هذا الجهاز، اختر «لمن اشتروا من قبل».",
   "purchaseErrorReceiptInUse": "تم الشراء مسبقًا، أو أن معلومات الشراء مستخدمة من مستخدم آخر. تحقّق من {accountName}.",
-  "purchaseErrorInvalidReceipt": "معلومات الشراء غير صحيحة. يرجى التحقق من معلومات الشراء.",
+  "purchaseErrorInvalidReceipt": "معلومات الشراء غير صالحة. يُرجى التحقق من معلومات الشراء.",
   "purchaseErrorMissingReceipt": "لا توجد معلومات عن المشتري. يرجى تسجيل الدخول إلى الجهاز باستخدام {accountName} لتجربة ذلك.",
   "purchaseErrorNetwork": "حالة الشبكة غير مستقرة. يرجى التحقق من حالة الاتصال والمحاولة مرة أخرى.",
   "purchaseNotAllowed": "لا يُسمح بالشراء على هذا الجهاز",

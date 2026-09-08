@@ -115,7 +115,7 @@
   "purchaseErrorProductUnavailable": "התוכנית שנבחרה אינה זמינה לרכישה כרגע. יש להפעיל מחדש את האפליקציה ולנסות שוב.",
   "purchaseErrorAlreadyPurchased": "כבר רכשת תוכנית. כדי לשחזר את פרטי הרכישה במכשיר הזה, בחר/י „למי שכבר רכשו“.",
   "purchaseErrorReceiptInUse": "כבר נרכש, או שפרטי הרכישה נמצאים בשימוש של משתמש אחר. יש לבדוק את {accountName}.",
-  "purchaseErrorInvalidReceipt": "פרטי רכישה לא חוקיים. אנא בדוק את פרטי הרכישה שלך",
+  "purchaseErrorInvalidReceipt": "פרטי הרכישה אינם תקינים. יש לבדוק את פרטי הרכישה.",
   "purchaseErrorMissingReceipt": "אין מידע על הרוכש. אנא התחבר למכשיר באמצעות {accountName} ונסה שוב.",
   "purchaseErrorNetwork": "מצב הרשת אינו יציב. אנא בדוק את מצב החיבור שלך לפני שתנסה שוב.",
   "purchaseNotAllowed": "אינך מורשה לרכוש במכשיר הזה",

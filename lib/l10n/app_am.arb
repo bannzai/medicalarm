@@ -115,7 +115,7 @@
   "purchaseErrorProductUnavailable": "የተመረጠው ዕቅድ በአሁኑ ጊዜ ለሽያጭ አይቀርብም። እባክዎ መተግበሪያውን ዳግም ያስጀምሩና እንደገና ይሞክሩ።",
   "purchaseErrorAlreadyPurchased": "እርስዎ አስቀድመው ዕቅድ ገዝተዋል። የግዢ መረጃዎን በዚህ መሣሪያ ላይ ለመመለስ «ከዚህ በፊት የገዙ ሰዎች እዚህ ይጫኑ»ን ይምረጡ።",
   "purchaseErrorReceiptInUse": "አስቀድመው ገዝተዋል፣ ወይም የግዢ መረጃው በሌላ ተጠቃሚ እየተጠቀመበት ነው። {accountName}ን ያረጋግጡ።",
-  "purchaseErrorInvalidReceipt": "ይኸው ከተሳሳተ ግዢ መረጃ ነው። እባኮትን ግዢ መረጃዎን ይረጋጉ።",
+  "purchaseErrorInvalidReceipt": "የግዢ መረጃው ልክ አይደለም። እባክዎ የግዢ መረጃዎን ያረጋግጡ።",
   "purchaseErrorMissingReceipt": "ተግዳሮች መረጃ አልተገኘም። {accountName} ጋር በመርከብ ላይ ይግቡ እና ይሞክሩ።",
   "purchaseErrorNetwork": "መርምሮች በተቀየሩ ገንዘብ እድል እንዳለ ይመርምሩ። ለመጨረሻ ለእቅፍ ይሞክሩ።",
   "purchaseNotAllowed": "ይህ የመሣሪያ ላይ ግዢ መፈቀድ የተከለከለ አይደለም",
