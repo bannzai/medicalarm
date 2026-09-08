@@ -233,7 +233,7 @@
   "ossLicense": "OSS лицензүүд",
   "achievementWeeklyLabel": "Энэ долоо хоногийн эм уусан байдал",
   "achievementWeeklyCountSuffix": "/{scheduledCount} удаа",
-  "achievementStreakLabel": "Дараалсан бүртгэл",
+  "achievementStreakLabel": "Дараалсан",
   "achievementStreakDaysSuffix": "хоног",
   "achievementMonthlyRateLabel": "{month}-ын биелэлтийн хувь",
   "achievementLegendAllTaken": "Бүгд",

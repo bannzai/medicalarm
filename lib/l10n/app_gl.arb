@@ -233,7 +233,7 @@
   "ossLicense": "Licenzas OSS",
   "achievementWeeklyLabel": "Medicacion desta semana",
   "achievementWeeklyCountSuffix": "/{scheduledCount} veces",
-  "achievementStreakLabel": "Rexistro consecutivo",
+  "achievementStreakLabel": "Racha",
   "achievementStreakDaysSuffix": "días",
   "achievementMonthlyRateLabel": "Taxa de cumprimento de {month}",
   "achievementLegendAllTaken": "Todo",

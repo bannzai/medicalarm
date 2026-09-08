@@ -233,7 +233,7 @@
   "ossLicense": "OSS litsenziyalari",
   "achievementWeeklyLabel": "Bu haftadagi dori qabul qilish",
   "achievementWeeklyCountSuffix": "/{scheduledCount} marta",
-  "achievementStreakLabel": "Ketma-ket qaydlar",
+  "achievementStreakLabel": "Ketma-ket",
   "achievementStreakDaysSuffix": "kun",
   "achievementMonthlyRateLabel": "{month} uchun bajarilish darajasi",
   "achievementLegendAllTaken": "Barchasi",

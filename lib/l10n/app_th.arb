@@ -233,7 +233,7 @@
   "ossLicense": "ใบอนุญาต OSS",
   "achievementWeeklyLabel": "การรับประทานยาในสัปดาห์นี้",
   "achievementWeeklyCountSuffix": "/{scheduledCount} ครั้ง",
-  "achievementStreakLabel": "บันทึกต่อเนื่อง",
+  "achievementStreakLabel": "สถิติต่อเนื่อง",
   "achievementStreakDaysSuffix": "วัน",
   "achievementMonthlyRateLabel": "อัตราความสำเร็จของ {month}",
   "achievementLegendAllTaken": "ทั้งหมด",

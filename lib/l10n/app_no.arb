@@ -233,7 +233,7 @@
   "ossLicense": "OSS-lisenser",
   "achievementWeeklyLabel": "Medisininntak denne veka",
   "achievementWeeklyCountSuffix": "/{scheduledCount} ganger",
-  "achievementStreakLabel": "Sammenhengende registreringer",
+  "achievementStreakLabel": "Rekke",
   "achievementStreakDaysSuffix": "dager",
   "achievementMonthlyRateLabel": "Etterlevelsesgrad for {month}",
   "achievementLegendAllTaken": "Alle",

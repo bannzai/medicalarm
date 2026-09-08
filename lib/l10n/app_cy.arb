@@ -233,7 +233,7 @@
   "ossLicense": "Trwyddedau OSS",
   "achievementWeeklyLabel": "Meddyginiaeth yr wythnos hon",
   "achievementWeeklyCountSuffix": "/{scheduledCount} o weithiau",
-  "achievementStreakLabel": "Cofnod parhaus",
+  "achievementStreakLabel": "Cyfres",
   "achievementStreakDaysSuffix": "diwrnod",
   "achievementMonthlyRateLabel": "Cyfradd cwblhau {month}",
   "achievementLegendAllTaken": "Pob",

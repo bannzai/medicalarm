@@ -233,7 +233,7 @@
   "ossLicense": "OSS լիցենզիաներ",
   "achievementWeeklyLabel": "Այս շաբաթվա դեղորայքի ընդունում",
   "achievementWeeklyCountSuffix": "/{scheduledCount} անգամ",
-  "achievementStreakLabel": "Հաջորդական գրանցում",
+  "achievementStreakLabel": "Շարք",
   "achievementStreakDaysSuffix": "օր",
   "achievementMonthlyRateLabel": "{month}-ի կատարման ցուցանիշը",
   "achievementLegendAllTaken": "Բոլորը",

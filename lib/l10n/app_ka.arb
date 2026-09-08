@@ -233,7 +233,7 @@
   "ossLicense": "OSS ლიცენზიები",
   "achievementWeeklyLabel": "ამ კვირის მედიკამენტების მიღება",
   "achievementWeeklyCountSuffix": "/{scheduledCount}-ჯერ",
-  "achievementStreakLabel": "თანმიმდევრული ჩანაწერი",
+  "achievementStreakLabel": "ზედიზედ შესრულება",
   "achievementStreakDaysSuffix": "დღე",
   "achievementMonthlyRateLabel": "{month}-ის შესრულების მაჩვენებელი",
   "achievementLegendAllTaken": "ყველა",

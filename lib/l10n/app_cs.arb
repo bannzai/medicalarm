@@ -233,7 +233,7 @@
   "ossLicense": "Licence OSS",
   "achievementWeeklyLabel": "Užívání léků tento týden",
   "achievementWeeklyCountSuffix": "/{scheduledCount}krát",
-  "achievementStreakLabel": "Série záznamů",
+  "achievementStreakLabel": "Série",
   "achievementStreakDaysSuffix": "dní",
   "achievementMonthlyRateLabel": "Míra splnění za {month}",
   "achievementLegendAllTaken": "Vše",

@@ -233,7 +233,7 @@
   "ossLicense": "Lesen OSS",
   "achievementWeeklyLabel": "Pengambilan ubat minggu ini",
   "achievementWeeklyCountSuffix": "/{scheduledCount} kali",
-  "achievementStreakLabel": "Rekod berturut-turut",
+  "achievementStreakLabel": "Berturut-turut",
   "achievementStreakDaysSuffix": "hari",
   "achievementMonthlyRateLabel": "Kadar pematuhan bagi {month}",
   "achievementLegendAllTaken": "Semua",

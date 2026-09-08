@@ -233,7 +233,7 @@
   "ossLicense": "OSS ലൈസൻസുകൾ",
   "achievementWeeklyLabel": "ഈ ആഴ്ചയിലെ മരുന്ന് കഴിക്കൽ",
   "achievementWeeklyCountSuffix": "/{scheduledCount} തവണ",
-  "achievementStreakLabel": "തുടർച്ചയായ രേഖ",
+  "achievementStreakLabel": "തുടർച്ചയായ റെക്കോർഡ്",
   "achievementStreakDaysSuffix": "ദിവസം",
   "achievementMonthlyRateLabel": "{month}-ലെ പൂർത്തീകരണ നിരക്ക്",
   "achievementLegendAllTaken": "എല്ലാം",

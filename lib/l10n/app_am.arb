@@ -233,7 +233,7 @@
   "ossLicense": "የOSS ፈቃዶች",
   "achievementWeeklyLabel": "የዚህ ሳምንት መድኃኒት አወሳሰድ",
   "achievementWeeklyCountSuffix": "/{scheduledCount} ጊዜ",
-  "achievementStreakLabel": "Անընդմեջ գրանցում",
+  "achievementStreakLabel": "ተከታታይ ስኬት",
   "achievementStreakDaysSuffix": "ቀን",
   "achievementMonthlyRateLabel": "የ{month} የመፈጸም መጠን",
   "achievementLegendAllTaken": "ሁሉም",

@@ -233,7 +233,7 @@
   "ossLicense": "OSS உரிமங்கள்",
   "achievementWeeklyLabel": "இந்த வார மருந்து உட்கொள்ளல்",
   "achievementWeeklyCountSuffix": "/{scheduledCount} முறை",
-  "achievementStreakLabel": "தொடர் பதிவு",
+  "achievementStreakLabel": "தொடர்ச்சியான பதிவு",
   "achievementStreakDaysSuffix": "நாட்கள்",
   "achievementMonthlyRateLabel": "{month} நிறைவு விகிதம்",
   "achievementLegendAllTaken": "அனைத்தும்",

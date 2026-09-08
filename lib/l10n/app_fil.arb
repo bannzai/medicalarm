@@ -233,7 +233,7 @@
   "ossLicense": "Mga lisensya ng OSS",
   "achievementWeeklyLabel": "Pag-inom ng gamot ngayong linggo",
   "achievementWeeklyCountSuffix": "/{scheduledCount} beses",
-  "achievementStreakLabel": "Tuloy-tuloy na tala",
+  "achievementStreakLabel": "Sunod-sunod",
   "achievementStreakDaysSuffix": "araw",
   "achievementMonthlyRateLabel": "Rate ng pagsunod para sa {month}",
   "achievementLegendAllTaken": "Lahat",

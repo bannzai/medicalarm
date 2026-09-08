@@ -233,7 +233,7 @@
   "ossLicense": "OSS-lisensies",
   "achievementWeeklyLabel": "Medikasie hierdie week",
   "achievementWeeklyCountSuffix": "/{scheduledCount} keer",
-  "achievementStreakLabel": "Aaneenlopende rekord",
+  "achievementStreakLabel": "Reeks",
   "achievementStreakDaysSuffix": "dae",
   "achievementMonthlyRateLabel": "Voltooiingskoers vir {month}",
   "achievementLegendAllTaken": "Alles",

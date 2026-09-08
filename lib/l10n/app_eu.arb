@@ -233,7 +233,7 @@
   "ossLicense": "OSS lizentziak",
   "achievementWeeklyLabel": "Aste honetako medikazioa",
   "achievementWeeklyCountSuffix": "/{scheduledCount} aldiz",
-  "achievementStreakLabel": "Jarraiko erregistroa",
+  "achievementStreakLabel": "Jarraikako erregistroa",
   "achievementStreakDaysSuffix": "egun",
   "achievementMonthlyRateLabel": "{month}(e)ko betetze-tasa",
   "achievementLegendAllTaken": "Guztiak",

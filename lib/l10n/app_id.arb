@@ -233,7 +233,7 @@
   "ossLicense": "Lisensi OSS",
   "achievementWeeklyLabel": "Minum obat minggu ini",
   "achievementWeeklyCountSuffix": "/{scheduledCount} kali",
-  "achievementStreakLabel": "Catatan beruntun",
+  "achievementStreakLabel": "Beruntun",
   "achievementStreakDaysSuffix": "hari",
   "achievementMonthlyRateLabel": "Tingkat pencapaian {month}",
   "achievementLegendAllTaken": "Semua",

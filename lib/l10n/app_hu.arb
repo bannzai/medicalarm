@@ -233,7 +233,7 @@
   "ossLicense": "OSS-licencek",
   "achievementWeeklyLabel": "E heti gyógyszerszedés",
   "achievementWeeklyCountSuffix": "/{scheduledCount} alkalom",
-  "achievementStreakLabel": "Sorozatos bejegyzés",
+  "achievementStreakLabel": "Sorozat",
   "achievementStreakDaysSuffix": "nap",
   "achievementMonthlyRateLabel": "{month} teljesítési aránya",
   "achievementLegendAllTaken": "Mind",

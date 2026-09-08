@@ -233,7 +233,7 @@
   "ossLicense": "OSS лиценци",
   "achievementWeeklyLabel": "Земање лекови оваа недела",
   "achievementWeeklyCountSuffix": "/{scheduledCount} пати",
-  "achievementStreakLabel": "Последователни записи",
+  "achievementStreakLabel": "Низа",
   "achievementStreakDaysSuffix": "дена",
   "achievementMonthlyRateLabel": "Стапка на оствареност за {month}",
   "achievementLegendAllTaken": "Сите",
