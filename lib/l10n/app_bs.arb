@@ -107,7 +107,7 @@
   "abnormalBleeding": "Abnormalno krvarenje",
   "lossOfAppetite": "Gubitak apetita",
   "chestTightness": "Napetost u grudima",
-  "insomnia": "Nesanic",
+  "insomnia": "Nesanica",
   "monthlyPlanDiscountFormat": "Popust od {percent}% na mjesečnu cijenu",
   "purchaseErrorUnknown": "Dogodila se greška nepoznatog uzroka. Molimo pokušajte ponovo nakon nekoliko minuta. Ako se problem ne reši, kontaktirajte nas putem Podešavanja > Upit. Detalji: {message}",
   "purchaseErrorStoreProblem": "Dogodila se greška u {storeName}. Molimo pokušajte ponovo za nekoliko minuta.",

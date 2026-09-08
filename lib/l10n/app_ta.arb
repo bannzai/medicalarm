@@ -107,7 +107,7 @@
   "abnormalBleeding": "அசாதாரண இரத்தப்போக்கு",
   "lossOfAppetite": "பசியின்மை",
   "chestTightness": "மார்பக இறுக்கம்",
-  "insomnia": "துக்கம்",
+  "insomnia": "தூக்கமின்மை",
   "monthlyPlanDiscountFormat": "மாதாந்திரத்திற்கு {percent}%DISCOUNT",
   "purchaseErrorUnknown": "காரணம் தெரியாத பிழை ஏற்பட்டது. வரிக் காலத்தின் பிறகு மறுபடியும் முயற்சி செய்யவும். தீர்க்கப்படாவிட்டால், அமைப்பு > தொடர்பு மூலம் எங்களுடன் தொடர்புகொள்ளவும். விவரம்: {message}",
   "purchaseErrorStoreProblem": "{storeName}ல் பிழை ஏற்பட்டுள்ளது. சில நேரங்கள் காத்திருங்கள் மற்றும் மீண்டும் முயற்சிக்கவும்.",

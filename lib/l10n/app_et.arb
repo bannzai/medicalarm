@@ -107,7 +107,7 @@
   "abnormalBleeding": "Ebanormaalne verejooks",
   "lossOfAppetite": "Söögiisu puudumine",
   "chestTightness": "Rindade pinge",
-  "insomnia": "Unehäired",
+  "insomnia": "Unetus",
   "monthlyPlanDiscountFormat": "{percent}% Soodustus kuumakse eest",
   "purchaseErrorUnknown": "Ilmnenematu viga on põhjustatud. Palun proovige uuesti mõne aja pärast. Kui probleem püsib, võtke palun ühendust seadistused > Klienditeenindus. Üksikasjad: {message}",
   "purchaseErrorStoreProblem": "{storeName} on ilmnen tõrge. Palun oodake mõni hetk ja proovige uuesti.",

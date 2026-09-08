@@ -107,7 +107,7 @@
   "abnormalBleeding": "Hindi normal na pagdurugo",
   "lossOfAppetite": "Kawalan ng gana sa pagkain",
   "chestTightness": "Paninikip ng dibdib",
-  "insomnia": "Kakulangan sa tulog",
+  "insomnia": "Hindi pagkakatulog",
   "monthlyPlanDiscountFormat": "{percent}% OFF mula sa buwanang bayad",
   "purchaseErrorUnknown": "Isang hindi natukoy na error ang nangyari. Mangyaring subukan muli pagkatapos ng ilang sandali. Kung hindi ito malulutas, mangyaring makipag-ugnay sa pamamagitan ng Mga Setting > Pagtatanong. Detalye: {message}",
   "purchaseErrorStoreProblem": "May naganap na error sa {storeName}. Mangyaring maghintay ng ilang sandali at subukang muli.",

@@ -107,7 +107,7 @@
   "abnormalBleeding": "Rendellenes vérzés",
   "lossOfAppetite": "Étvágytalanság",
   "chestTightness": "Mellfeszülés",
-  "insomnia": "insomnia",
+  "insomnia": "Álmatlanság",
   "monthlyPlanDiscountFormat": "{percent}% kedvezmény a havi díjból",
   "purchaseErrorUnknown": "Okkalmatlan hiba történt. Kérem, próbálja újra egy későbbi időpontban. Ha a probléma továbbra is fennáll, kérjük, lépjen kapcsolatba velünk a Beállítások > Kapcsolatfelvétel menüpont alatt. Részletek: {message}",
   "purchaseErrorStoreProblem": "Hiba történt a {storeName} alkalmazásban. Kérjük, várjon egy kicsit, és próbálja meg újra.",

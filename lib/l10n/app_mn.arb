@@ -107,7 +107,7 @@
   "abnormalBleeding": "Хэвийн бус цус алдалт",
   "lossOfAppetite": "Хоолны дуршил буурах",
   "chestTightness": "Хөх хөндүүрлэх",
-  "insomnia": "Унтаа",
+  "insomnia": "Нойргүйдэл",
   "monthlyPlanDiscountFormat": "Сар дундын төлбөрөөс {percent}% ХУГАЦААТАЙ",
   "purchaseErrorUnknown": "Тодорхойгүй алдаа гарч байна. Нэг хугацаа хүлээгээд дахин оролдоно уу. Хэрэв шийдэгдэхгүй бол Тохиргоо > Холбоо барих хэсгээс холбоо барина уу. Дэлгэрэнгүй: {message}",
   "purchaseErrorStoreProblem": "{storeName} дээр алдаа гарч байна. Түр зуур хүлээгээд дахин оролдоно уу.",

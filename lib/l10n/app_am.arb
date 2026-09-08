@@ -107,7 +107,7 @@
   "abnormalBleeding": "ያልተለመደ ደም መፍሰስ",
   "lossOfAppetite": "የምግብ ፍላጎት ማጣት",
   "chestTightness": "የጡት መጨናነቅ",
-  "insomnia": "የእንቅልት ጉዳት",
+  "insomnia": "Անքնություն",
   "monthlyPlanDiscountFormat": "ወርሃዊ በ{percent}% ቅነስ",
   "purchaseErrorUnknown": "በዚህ የተደረገ የመረጃ እቅፍ ይኖርበታል። ጊዜውን እና እንደገና ይሞክሩ። እንደሚታይ ያልተፈጸመ ከሆነ እባኮትን ወደ ቅንብር > እንደገና መግለጫ ይደርሱ። ዝርዝር: {message}",
   "purchaseErrorStoreProblem": "{storeName} ውስጥ ግድም ተከስቷል። እ παρα አነሰ ጊዜ ይቀይሩና እንደገና ይሞክሩ።",

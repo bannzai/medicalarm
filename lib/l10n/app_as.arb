@@ -107,7 +107,7 @@
   "abnormalBleeding": "অস্বাভাৱিক ৰক্তক্ষৰণ",
   "lossOfAppetite": "ভোক নলগা",
   "chestTightness": "স্তনত টান",
-  "insomnia": "অবিভক্ত",
+  "insomnia": "অনিদ্ৰা",
   "monthlyPlanDiscountFormat": "মাসিক মূল্যের চেয়ে {percent}% ছাড়",
   "purchaseErrorUnknown": "অজানা কারণে একটি ত্রুটি ঘটেছে। কিছু সময় অপেক্ষা করে আবার চেষ্টা করুন। যদি এটি সমাধান না হয়, তাহলে সেটিংস > যোগাযোগের মাধ্যমে আমাদের সাথে যোগাযোগ করুন। বিস্তারিত: {message}",
   "purchaseErrorStoreProblem": "{storeName} তে একটি ত্রুটি ঘটেছে। কিছুক্ষণ অপেক্ষা করুন এবং আবার চেষ্টা করুন।",

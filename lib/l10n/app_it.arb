@@ -107,7 +107,7 @@
   "abnormalBleeding": "Sanguinamento anomalo",
   "lossOfAppetite": "Perdita di appetito",
   "chestTightness": "Tensione mammaria",
-  "insomnia": "insonnia",
+  "insomnia": "Insonnia",
   "monthlyPlanDiscountFormat": "{percent}% di sconto sul piano mensile",
   "purchaseErrorUnknown": "Si è verificato un errore sconosciuto. Attendere qualche istante e riprovare. Se il problema persiste, contattaci tramite Impostazioni > Contatto. Dettagli: {message}",
   "purchaseErrorStoreProblem": "Si è verificato un errore su {storeName}. Per favore, attendi un momento e riprova.",

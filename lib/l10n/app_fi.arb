@@ -107,7 +107,7 @@
   "abnormalBleeding": "Epänormaali verenvuoto",
   "lossOfAppetite": "Ruokahaluttomuus",
   "chestTightness": "Rintojen pingotus",
-  "insomnia": "Unihäiriö",
+  "insomnia": "Unettomuus",
   "monthlyPlanDiscountFormat": "{percent}% alennus kuukausihinnasta",
   "purchaseErrorUnknown": "Tuntematon virhe on tapahtunut. Yritä uudelleen myöhemmin. Jos ongelma ei ratkea, ota yhteyttä kohdasta Asetukset > Ota yhteyttä. Yksityiskohdat: {message}",
   "purchaseErrorStoreProblem": "Virhe esiintyy kaupassa {storeName}. Odota hetki ja yritä uudelleen.",

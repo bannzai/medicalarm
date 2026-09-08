@@ -107,7 +107,7 @@
   "abnormalBleeding": "Gwaedu annormal",
   "lossOfAppetite": "Colli archwaeth",
   "chestTightness": "Tyndra yn y fron",
-  "insomnia": "Methiant",
+  "insomnia": "Insomnia",
   "monthlyPlanDiscountFormat": "{percent}% IFF YN BLAEN",
   "purchaseErrorUnknown": "Mae gwall anhysbys wedi digwydd. Os gwelwch yn dda rhowch amser a phrofwch eto. Os nad yw'n cael ei ddatrys, cysylltwch â ni trwy fynd i Ddewisiadau > Cysylltiad. Manylion: {message}",
   "purchaseErrorStoreProblem": "Mae gwall wedi digwydd yn {storeName}. Os gwelwch yn dda, aroswch am ychydig a cheisiwch eto.",

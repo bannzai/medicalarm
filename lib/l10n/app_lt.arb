@@ -107,7 +107,7 @@
   "abnormalBleeding": "Nenormalus kraujavimas",
   "lossOfAppetite": "Apetito stoka",
   "chestTightness": "Krūtų tempimas",
-  "insomnia": "Nesąmonė",
+  "insomnia": "Nemiga",
   "monthlyPlanDiscountFormat": "{percent}% NUOLAIDA nuo mėnesinio plano",
   "purchaseErrorUnknown": "Įvyko nežinoma klaida. Prašome palaukti ir bandyti dar kartą. Jei problema neišsisprendžia, kreipkitės per Nustatymai > Klausimai. Detalės: {message}",
   "purchaseErrorStoreProblem": "Išsaugotoje {storeName} įvyko klaida. Prašome palaukti ir bandyti dar kartą.",

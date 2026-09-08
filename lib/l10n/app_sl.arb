@@ -107,7 +107,7 @@
   "abnormalBleeding": "Nenormalna krvavitev",
   "lossOfAppetite": "Izguba apetita",
   "chestTightness": "Napetost v dojkah",
-  "insomnia": "Brezspanje",
+  "insomnia": "Nespečnost",
   "monthlyPlanDiscountFormat": "{percent}% POPUST NA MONTANO ČLANARINO",
   "purchaseErrorUnknown": "Prišlo je do neznane napake. Počakajte nekaj časa in poskusite znova. Če težave ne odpravite, se obrnite na nas preko Nastavitve > Poizvedba. Podrobnosti: {message}",
   "purchaseErrorStoreProblem": "Prišlo je do napake v {storeName}. Poskusite znova čez nekaj časa.",
