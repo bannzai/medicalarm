@@ -89,7 +89,7 @@
   "doseReceiverRegistrationLimit": "Antal registrerede medicinbrugere",
   "notificationScheduleLimit": "Antal notifikationsplaner",
   "addMedicine": "Tilføj medicin",
-  "medicineMaxCount": "Du kan registrere op til {count} medicinpræparater.",
+  "medicineMaxCount": "Du kan registrere op til {count} lægemidler.",
   "increaseMedicineLimitWithPremium": "Hæv grænsen til {count} med Premium-planen",
   "aboutApp": "Om appen",
   "viewPremiumPlan": "Se premiumplan",

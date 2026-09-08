@@ -89,7 +89,7 @@
   "doseReceiverRegistrationLimit": "မှတ်ပုံတင်ထားသော ဆေးသောက်သူ အရေအတွက်",
   "notificationScheduleLimit": "အသိပေးချက်အချိန်ဇယား အရေအတွက်",
   "addMedicine": "ဆေးထည့်ရန်",
-  "medicineMaxCount": "ဆေးဝါး {count} ခုအထိ စာရင်းသွင်းနိုင်ပါသည်။",
+  "medicineMaxCount": "ဆေးဝါး {count} ခုအထိ မှတ်ပုံတင်နိုင်ပါသည်။",
   "increaseMedicineLimitWithPremium": "Premium အစီအစဉ်ဖြင့် ကန့်သတ်ချက်ကို {count} အထိ တိုးမြှင့်ပါ",
   "aboutApp": "အက်ပ်အကြောင်း",
   "viewPremiumPlan": "Premium အစီအစဉ်ကို ကြည့်ရန်",

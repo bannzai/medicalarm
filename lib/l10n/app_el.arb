@@ -89,7 +89,7 @@
   "doseReceiverRegistrationLimit": "Αριθμός εγγεγραμμένων ατόμων που λαμβάνουν φάρμακα",
   "notificationScheduleLimit": "Αριθμός προγραμμάτων ειδοποιήσεων",
   "addMedicine": "Προσθήκη φαρμάκου",
-  "medicineMaxCount": "Μπορείτε να καταχωρίσετε έως και {count} φάρμακα.",
+  "medicineMaxCount": "Μπορείτε να καταχωρίσετε έως {count} φάρμακα.",
   "increaseMedicineLimitWithPremium": "Αυξήστε το όριο σε {count} με το Premium πρόγραμμα",
   "aboutApp": "Σχετικά με την εφαρμογή",
   "viewPremiumPlan": "Δείτε το πρόγραμμα Premium",

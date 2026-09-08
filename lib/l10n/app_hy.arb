@@ -89,7 +89,7 @@
   "doseReceiverRegistrationLimit": "Գրանցված դեղորայք ընդունողների քանակը",
   "notificationScheduleLimit": "Ծանուցումների ժամանակացույցների քանակը",
   "addMedicine": "Ավելացնել դեղորայք",
-  "medicineMaxCount": "Դուք կարող եք գրանցել մինչև {count} դեղամիջոց։",
+  "medicineMaxCount": "Կարող եք գրանցել մինչև {count} դեղամիջոց։",
   "increaseMedicineLimitWithPremium": "Պրեմիում պլանով ավելացրեք սահմանաչափը մինչև {count}",
   "aboutApp": "Հավելվածի մասին",
   "viewPremiumPlan": "Դիտել Պրեմիում պլանը",

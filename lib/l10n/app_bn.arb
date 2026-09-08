@@ -89,7 +89,7 @@
   "doseReceiverRegistrationLimit": "নিবন্ধিত ওষুধ গ্রহণকারীর সংখ্যা",
   "notificationScheduleLimit": "বিজ্ঞপ্তির সময়সূচির সংখ্যা",
   "addMedicine": "ওষুধ যোগ করুন",
-  "medicineMaxCount": "আপনি সর্বাধিক {count}টি ওষুধ নিবন্ধন করতে পারবেন।",
+  "medicineMaxCount": "আপনি সর্বোচ্চ {count}টি ওষুধ নিবন্ধন করতে পারবেন।",
   "increaseMedicineLimitWithPremium": "প্রিমিয়াম প্ল্যানে সীমা {count}-এ বাড়ান",
   "aboutApp": "অ্যাপ সম্পর্কে",
   "viewPremiumPlan": "প্রিমিয়াম প্ল্যান দেখুন",

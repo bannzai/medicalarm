@@ -89,7 +89,7 @@
   "doseReceiverRegistrationLimit": "已登记用药者人数",
   "notificationScheduleLimit": "通知计划数量",
   "addMedicine": "添加药物",
-  "medicineMaxCount": "您最多可以登记 {count} 种药物。",
+  "medicineMaxCount": "最多可以登记 {count} 种药物。",
   "increaseMedicineLimitWithPremium": "使用 Premium 方案将上限提高至 {count}",
   "aboutApp": "关于应用",
   "viewPremiumPlan": "查看高级方案",
