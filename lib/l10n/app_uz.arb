@@ -68,7 +68,7 @@
   "notificationSetting": "Bildirishnoma sozlamalari",
   "enableFollowupNotification": "Kuzatuv bildirishnomalarini yoqing",
   "followupNotificationDescription": "Birinchi bildirishnomadan keyin 30 daqiqa ichida dori qabul qilganingizni qayd etmasangiz, kuzatuv bildirishnomasi yuboriladi.",
-  "enableNotificationInSilentMode": "Tinch rejimida ham xabarnoma beradi",
+  "enableNotificationInSilentMode": "Ovozsiz rejimda ham bildirishnoma yuborish",
   "silentModeNotificationDescription": "Diqqat rejimi yoqilganda yoki qurilma sukutda boʻlsa ham, muhim xabarnomalar qulflangandan so'ng ekranda koʻrsatiladi, ovoz ijro etiladi.",
   "everyXDaysFormat": "{count} кунда",
   "cycleDaysFormat": "{consecutiveDays} кун қабул / {restDays} кун дам олиш",

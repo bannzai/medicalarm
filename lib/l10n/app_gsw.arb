@@ -68,7 +68,7 @@
   "notificationSetting": "Benachrichtigungseinstellungen",
   "enableFollowupNotification": "Folgebenachrichtigunge aktiviere",
   "followupNotificationDescription": "Wenn Sie die Einnahme des Medikaments nicht innerhalb von 30 Minuten nach der ersten Mitteilung erfassen, wird eine Folge-Mitteilung gesendet.",
-  "enableNotificationInSilentMode": "Benachrichtigungen au regelbare Mute-Modus",
+  "enableNotificationInSilentMode": "Au im Stummmodus benachrichtige",
   "silentModeNotificationDescription": "In de Konzentrationsmodus oder wenn das Gerät auf lautlos ist, werden wichtige Benachrichtigungen auf dem Sperrbildschirm angezeigt und ein Ton wird abgespielt.",
   "everyXDaysFormat": "{count} Tag gsw",
   "cycleDaysFormat": "{consecutiveDays} Tag e nehme/{restDays} Tag Pause",

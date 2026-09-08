@@ -68,7 +68,7 @@
   "notificationSetting": "Mga Setting ng Notification",
   "enableFollowupNotification": "I-enable ang mga follow-up na notification",
   "followupNotificationDescription": "Kung hindi mo itatala ang pag-inom ng gamot sa loob ng 30 minuto mula sa unang notification, magpapadala ng follow-up notification.",
-  "enableNotificationInSilentMode": "Magbigay ng abiso kahit nasa paraan ng tahimik",
+  "enableNotificationInSilentMode": "Magpadala rin ng mga notification sa silent mode",
   "silentModeNotificationDescription": "Kahit na ang mode ng konsentrasyon ay ON o ang aparato ay tahimik, ang mga mahahalagang abiso ay ipapakita sa lock screen at ang tunog ay ipapagana.",
   "everyXDaysFormat": "{count} araw-araw",
   "cycleDaysFormat": "{consecutiveDays} araw ng pag-inom/{restDays} araw ng pahinga",

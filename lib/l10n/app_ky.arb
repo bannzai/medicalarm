@@ -68,7 +68,7 @@
   "notificationSetting": "Билдирме жөндөөлөрү",
   "enableFollowupNotification": "Кийинки эскертмелерди иштетүү",
   "followupNotificationDescription": "Биринчи билдирүүдөн кийин 30 мүнөттүн ичинде дары ичкениңизди жазбасаңыз, кийинки билдирүү жөнөтүлөт.",
-  "enableNotificationInSilentMode": "Тынч режимде да билдирүүлөрдү көрсөтүү",
+  "enableNotificationInSilentMode": "Үнсүз режимде да эскертүү жөнөтүү",
   "silentModeNotificationDescription": "Кыйналган режимде же коймондо (муздоо) болсо да, маанилүү билдирүүлөр жабык экранда көрсөтүлөт, үн ойнотулат.",
   "everyXDaysFormat": "{count} күнү",
   "cycleDaysFormat": "{consecutiveDays} күн кабыл алуу/{restDays} күн эс алуу",

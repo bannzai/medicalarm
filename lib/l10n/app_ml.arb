@@ -68,7 +68,7 @@
   "notificationSetting": "അറിയിപ്പ് ക്രമീകരണങ്ങൾ",
   "enableFollowupNotification": "തുടർ അറിയിപ്പുകൾ പ്രവർത്തനക്ഷമമാക്കുക",
   "followupNotificationDescription": "ആദ്യ അറിയിപ്പിന് ശേഷം 30 മിനിറ്റിനുള്ളിൽ മരുന്ന് കഴിച്ചതായി രേഖപ്പെടുത്തിയില്ലെങ്കിൽ, തുടർ അറിയിപ്പ് അയയ്ക്കും.",
-  "enableNotificationInSilentMode": "മാനർ മോഡിലും അറിയിപ്പ് നൽകുക",
+  "enableNotificationInSilentMode": "സൈലന്റ് മോഡിലും അറിയിപ്പുകൾ അയയ്ക്കുക",
   "silentModeNotificationDescription": "കേന്ദ്രിത മോഡ് ON ആണെങ്കിൽ അല്ലെങ്കിൽ ഉപകരണം ശ്വാസകോശത്തിലായിരിക്കുമ്പോഴും, പ്രധാന അറിയിപ്പുകൾ ലോക്ക് സ്ക്രീനിൽ കാഴ്ചവെക്കപ്പെടും ശബ്ദം പ്ലേഡ് ചെയ്യപ്പെടും.",
   "everyXDaysFormat": "{count} ദിവസം ഒന്നിച്ചു",
   "cycleDaysFormat": "{consecutiveDays} ദിവസങ്ങൾ മരുന്നു വാങ്ങുന്നു / {restDays} ദിവസങ്ങൾ വിശ്രമിക്കുന്നു",

@@ -68,7 +68,7 @@
   "notificationSetting": "Подешавања обавештења",
   "enableFollowupNotification": "Омогући накнадна обавештења",
   "followupNotificationDescription": "Ако не забележите узимање лека у року од 30 минута од првог обавештења, биће послато накнадно обавештење.",
-  "enableNotificationInSilentMode": "Обавештава и у режиму тишине",
+  "enableNotificationInSilentMode": "Обавештавај и у тихом режиму",
   "silentModeNotificationDescription": "Обавештења о важним догађајима ће се приказивати на закључаном екрану и звук ће се пуштати, чак и када је укључен режим концентрације или је уређај на беззвучном режиму.",
   "everyXDaysFormat": "{count} дана",
   "cycleDaysFormat": "{consecutiveDays} дана узимања/{restDays} дана паузе",

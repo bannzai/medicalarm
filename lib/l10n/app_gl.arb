@@ -68,7 +68,7 @@
   "notificationSetting": "Configuración das notificacións",
   "enableFollowupNotification": "Activar as notificacións de seguimento",
   "followupNotificationDescription": "Se non rexistras a toma do medicamento nos 30 minutos seguintes á primeira notificación, enviarase unha notificación de seguimento.",
-  "enableNotificationInSilentMode": "Notificación incluso en modo silencioso",
+  "enableNotificationInSilentMode": "Notificar tamén en modo silencioso",
   "silentModeNotificationDescription": "As notificacións importantes mostrarase na pantalla de bloqueo e reprodúzase son mesmo cando o modo de concentración está activado ou o dispositivo está en modo silencioso.",
   "everyXDaysFormat": "{count} días",
   "cycleDaysFormat": "{consecutiveDays} días de toma/{restDays} días de descanso",

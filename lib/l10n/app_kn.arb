@@ -68,7 +68,7 @@
   "notificationSetting": "ಅಧಿಸೂಚನೆ ಸೆಟ್ಟಿಂಗ್‌ಗಳು",
   "enableFollowupNotification": "ಫಾಲೋ-ಅಪ್ ಅಧಿಸೂಚನೆಗಳನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ",
   "followupNotificationDescription": "ಮೊದಲ ಅಧಿಸೂಚನೆಯ 30 ನಿಮಿಷಗಳ ಒಳಗೆ ಔಷಧಿ ತೆಗೆದುಕೊಂಡಿರುವುದನ್ನು ದಾಖಲಿಸದಿದ್ದರೆ, ಅನುಸರಣೆ ಅಧಿಸೂಚನೆಯನ್ನು ಕಳುಹಿಸಲಾಗುತ್ತದೆ.",
-  "enableNotificationInSilentMode": "ಮನರಿಂಗ್ ಮೋಡ್‌ನಲ್ಲಿ ಸೂಚನೆ ನೀಡುವುದು",
+  "enableNotificationInSilentMode": "ಸೈಲೆಂಟ್ ಮೋಡ್‌ನಲ್ಲಿಯೂ ಅಧಿಸೂಚನೆ ಕಳುಹಿಸಿ",
   "silentModeNotificationDescription": "ಕೇಂದ್ರಿತ ಮೋಡ್ ಓನ್ ಆಗಿರುವಾಗ ಅಥವಾ ಸಾಧನ ಘೋಷಣೆಸ್ಥಿತಿಯಲ್ಲಿ ಇರೋದಾದರೂ, ಪ್ರಮುಖ ಅಧಿಸೂಚನೆಗಳು ತೀವ್ರ ಆಡಿಯೋವು ವರ್ಣಾತ್ಮಕ ಸಂತಸದ ಸಹಿತ ಕಡ್ಡಾಯವಾಗಿ ತೋರಿಸಲಾಗುತ್ತದೆ",
   "everyXDaysFormat": "{count}ದಿನಕ್ಕೊಮ್ಮೆ",
   "cycleDaysFormat": "{consecutiveDays} ದಿನಗಳ ಎತ್ತುವಿಕೆ/{restDays} ದಿನಗಳ ವಿಶ್ರಾಂತಿ",

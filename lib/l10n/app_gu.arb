@@ -68,7 +68,7 @@
   "notificationSetting": "સૂચના સેટિંગ્સ",
   "enableFollowupNotification": "ફોલો-અપ સૂચનાઓ સક્ષમ કરો",
   "followupNotificationDescription": "પ્રથમ સૂચનાના 30 મિનિટમાં દવા લીધી હોવાનું નોંધવામાં નહીં આવે તો અનુસૂચના મોકલવામાં આવશે.",
-  "enableNotificationInSilentMode": "માણર મોડમાં સૂચનાઓ આપવું",
+  "enableNotificationInSilentMode": "સાયલન્ટ મોડમાં પણ સૂચના આપો",
   "silentModeNotificationDescription": "એકંદર મોડ ચાલુ હોય તેવા સમયે અથવા ડિવાઇસ મૌન હોય ત્યારે પણ, મહત્વપૂર્ણ સૂચનાના સંદેશાઓ લોક સ્ક્રીનમાં દેખાય છે. અવાજ વગાડાશે.",
   "everyXDaysFormat": "{count}દિવસમાં",
   "cycleDaysFormat": "{consecutiveDays}દિવસોનો ઉપયોગ/{restDays}દિવસોનો આરામ",

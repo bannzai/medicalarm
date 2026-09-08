@@ -68,7 +68,7 @@
   "notificationSetting": "ਸੂਚਨਾ ਸੈਟਿੰਗਾਂ",
   "enableFollowupNotification": "ਫਾਲੋ-ਅੱਪ ਸੂਚਨਾਵਾਂ ਚਾਲੂ ਕਰੋ",
   "followupNotificationDescription": "ਜੇਕਰ ਤੁਸੀਂ ਪਹਿਲੀ ਸੂਚਨਾ ਤੋਂ 30 ਮਿੰਟਾਂ ਦੇ ਅੰਦਰ ਦਵਾਈ ਲੈਣ ਦਾ ਰਿਕਾਰਡ ਨਹੀਂ ਕਰਦੇ, ਤਾਂ ਇੱਕ ਫਾਲੋ-ਅੱਪ ਸੂਚਨਾ ਭੇਜੀ ਜਾਵੇਗੀ।",
-  "enableNotificationInSilentMode": "ਮਨੋਰਮ ਕਰਨ ਦੇ ਮੋਡ ਵਿੱਚ ਵੀ ਸੂਚਨਾ",
+  "enableNotificationInSilentMode": "ਸਾਈਲੈਂਟ ਮੋਡ ਵਿੱਚ ਵੀ ਸੂਚਨਾ ਭੇਜੋ",
   "silentModeNotificationDescription": "ਜੇਕਰ ਕੇਂਦ੍ਰਿਤ ਮੋਡ ON ਹੈ ਜਾਂ ਉਪਕਰਨ ਨੇ ਸੌਂਗ ਲਿਆ ਹੈ, ਤਾਂ ਗੰਭੀਰ ਸੂਚਨਾਵਾਂ ਲੌਕ ਸਕ੍ਰੀਨ 'ਤੇ ਦਿਖਾਈ ਦਿੱਤੀਆਂ ਜਾਣਗੀਆਂ ਅਤੇ ਧੁਨ ਚਾਲੂ ਕੀਤੀ ਜਾਣਗੀ।",
   "everyXDaysFormat": "{count} ਦਿਨਾਂ ਵਿੱਚ",
   "cycleDaysFormat": "{consecutiveDays} ਰੋਜ਼ਾਂ ਦੀ ਦਵਾਈ/{restDays} ਰੋਜ਼ਾਂ ਦੀ ਛੁੱਟੀ",

@@ -68,7 +68,7 @@
   "notificationSetting": "အသိပေးချက် ဆက်တင်များ",
   "enableFollowupNotification": "နောက်ဆက်တွဲ အသိပေးချက်များကို ဖွင့်ပါ",
   "followupNotificationDescription": "ပထမဆုံး အသိပေးချက်မှ မိနစ် ၃၀ အတွင်း ဆေးသောက်ပြီးကြောင်း မှတ်တမ်းမတင်ပါက နောက်ဆက်တွဲ အသိပေးချက်တစ်စောင် ပို့ပါမည်။",
-  "enableNotificationInSilentMode": "Hantar pemberitahuan walaupun dalam mod senyap",
+  "enableNotificationInSilentMode": "အသံတိတ်မုဒ်တွင်လည်း အကြောင်းကြားချက်ပို့ရန်",
   "silentModeNotificationDescription": "Walau mod tumpuan dihidupkan atau peranti dalam mod senyap, pemberitahuan penting akan dipaparkan pada skrin kunci dan bunyi akan dimainkan.",
   "everyXDaysFormat": "{count} hari",
   "cycleDaysFormat": "{consecutiveDays} နေ့  သောက်ခြင်း/{restDays} နေ့  တားထားခြင်း",

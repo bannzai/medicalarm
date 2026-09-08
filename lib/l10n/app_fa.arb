@@ -68,7 +68,7 @@
   "notificationSetting": "تنظیمات اعلان‌ها",
   "enableFollowupNotification": "فعال کردن اعلان‌های پیگیری",
   "followupNotificationDescription": "اگر تا ۳۰ دقیقه پس از اعلان اول، مصرف دارو را ثبت نکنید، یک اعلان پیگیری ارسال می‌شود.",
-  "enableNotificationInSilentMode": "در حالت بی‌صدا نیز اطلاع‌رسانی می‌کند",
+  "enableNotificationInSilentMode": "ارسال اعلان حتی در حالت بی‌صدا",
   "silentModeNotificationDescription": "در حالت تمرکز فعال یا زمانی که دستگاه در حالت بی‌صدا باشد، اعلان‌های مهم در صفحه قفل نمایش داده می‌شوند و صدا پخش می‌شود.",
   "everyXDaysFormat": "هر {count} روز",
   "cycleDaysFormat": "{consecutiveDays} روز مصرف/{restDays} روز عدم مصرف",

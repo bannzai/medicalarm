@@ -68,7 +68,7 @@
   "notificationSetting": "ବିଜ୍ଞପ୍ତି ସେଟିଂସ୍",
   "enableFollowupNotification": "ଫଲୋ-ଅପ୍ ବିଜ୍ଞପ୍ତି ସକ୍ରିୟ କରନ୍ତୁ",
   "followupNotificationDescription": "ପ୍ରଥମ ବିଜ୍ଞପ୍ତିର ୩୦ ମିନିଟ୍ ମଧ୍ୟରେ ଔଷଧ ଖାଇଥିବାର ରେକର୍ଡ ନକଲେ, ଏକ ଅନୁସରଣ ବିଜ୍ଞପ୍ତି ପଠାଯିବ।",
-  "enableNotificationInSilentMode": "通知 कार्यान्वयन साधारण आहे",
+  "enableNotificationInSilentMode": "ସାଇଲେଣ୍ଟ ମୋଡ୍‌ରେ ମଧ୍ୟ ବିଜ୍ଞପ୍ତି ପଠାନ୍ତୁ",
   "silentModeNotificationDescription": "जब संचालित मोड चालू हो या उपकरण मूक हो, तब महत्त्वपूर्ण सूचनाएँ लॉक स्क्रीनमा प्रदर्शित हुनेछन् र ध्वनि बज्नेछ।",
   "everyXDaysFormat": "{count} ଦିନ ପରେ",
   "cycleDaysFormat": "{consecutiveDays} 針日 শুভন্তি / {restDays} 針日 বিশ্রাম",

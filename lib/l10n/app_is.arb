@@ -68,7 +68,7 @@
   "notificationSetting": "Tilkynningastillingar",
   "enableFollowupNotification": "Virkja eftirfylgnitilkynningar",
   "followupNotificationDescription": "Ef þú skráir ekki lyfjatökuna innan 30 mínútna frá fyrstu tilkynningu verður send eftirfylgnitilkynning.",
-  "enableNotificationInSilentMode": "Tilkynna jafnvel í hljóðlágu máli",
+  "enableNotificationInSilentMode": "Senda tilkynningar í hljóðlausri stillingu",
   "silentModeNotificationDescription": "Alvar þess að ekki er hægt að hindra mikilvægar tilkynningar á lásaskjánum, jafnvel þegar einbeitingarmóður er virkur eða þegar tækið er hljóðlaust.",
   "everyXDaysFormat": "{count} daga frekvens",
   "cycleDaysFormat": "{consecutiveDays} dagar í notkun/{restDays} daga í hvíld",
