@@ -3,6 +3,7 @@ import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:intl/intl.dart';
 import 'package:medicalarm/components/calendar/monthly/pager.dart';
+import 'package:medicalarm/features/calendar/components/achievement_summary.dart';
 import 'package:medicalarm/features/localization/l.dart';
 import 'package:medicalarm/style/color.dart';
 import 'package:medicalarm/utils/analytics/analytics.dart';
@@ -58,6 +59,10 @@ class CalendarPage extends HookConsumerWidget {
               ),
               // テーマの dividerColor (黒) を避け、カレンダーの罫線と揃えた薄い色にする
               const Divider(height: 1, color: AppColors.border),
+              Padding(
+                padding: const EdgeInsets.fromLTRB(16, 12, 16, 12),
+                child: CalendarAchievementSummary(displayedMonth: displayedMonth.value),
+              ),
               MonthCalendarPager(displayedMonth: displayedMonth.value),
             ],
           ),

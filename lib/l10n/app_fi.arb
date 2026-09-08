@@ -230,5 +230,13 @@
   "doseIntervalWarningMessage": "Olet ottanut annoksen jo klo {latestTakeTime}. Asetuksissa annosten väliksi on määritetty vähintään {minimumDoseIntervalHours} tuntia. Haluatko kirjata sen silti?",
   "doseIntervalWarningTakeAnyway": "Kirjaa",
   "doseIntervalNotificationWarning": "⚠️ Edellisestä annoksesta ei ole kulunut {minimumDoseIntervalHours} tuntia",
-  "ossLicense": "OSS-lisenssit"
+  "ossLicense": "OSS-lisenssit",
+  "achievementWeeklyLabel": "Lääkkeenotto tällä viikolla",
+  "achievementWeeklyCountSuffix": "/{scheduledCount} kertaa",
+  "achievementStreakLabel": "Putki",
+  "achievementStreakDaysSuffix": "päivää",
+  "achievementMonthlyRateLabel": "Toteutumisaste: {month}",
+  "achievementLegendAllTaken": "Kaikki",
+  "achievementLegendPartiallyTaken": "Osittain",
+  "achievementLegendNoneTaken": "Ei mitään"
 }

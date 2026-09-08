@@ -251,6 +251,8 @@ class WeeklyCalendarPager extends StatelessWidget {
                         diary: diary,
                         onTap: (date) {},
                         selected: isSameDay(date, this.date.value),
+                        // 達成ドットの表示は月間カレンダーだけの機能 (#278)
+                        medicationAchievement: null,
                       );
                     },
                   ),

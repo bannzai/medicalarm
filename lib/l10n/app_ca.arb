@@ -230,5 +230,13 @@
   "doseIntervalWarningMessage": "Ja heu pres la dosi a les {latestTakeTime}. La configuració estableix que han de passar com a mínim {minimumDoseIntervalHours} hores entre les dosis. Voleu registrar-la igualment?",
   "doseIntervalWarningTakeAnyway": "Registrar",
   "doseIntervalNotificationWarning": "⚠️ No han passat {minimumDoseIntervalHours} hores des de l’última dosi",
-  "ossLicense": "Llicències OSS"
+  "ossLicense": "Llicències OSS",
+  "achievementWeeklyLabel": "Presa de medicació aquesta setmana",
+  "achievementWeeklyCountSuffix": "/{scheduledCount} vegades",
+  "achievementStreakLabel": "Ratxa consecutiva",
+  "achievementStreakDaysSuffix": "dies",
+  "achievementMonthlyRateLabel": "Taxa d’assoliment: {month}",
+  "achievementLegendAllTaken": "Tot",
+  "achievementLegendPartiallyTaken": "Parcialment",
+  "achievementLegendNoneTaken": "Cap"
 }

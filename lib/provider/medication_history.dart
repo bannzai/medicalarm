@@ -1,4 +1,5 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:flutter/material.dart';
 import 'package:medicalarm/entity/group_member_notification_settings.dart';
 import 'package:medicalarm/entity/medication_history.dart';
 import 'package:medicalarm/entity/medicine.dart';
@@ -8,6 +9,7 @@ import 'package:medicalarm/utils/alarm_kit_service.dart';
 import 'package:medicalarm/utils/analytics/analytics.dart';
 import 'package:medicalarm/utils/analytics/error.dart';
 import 'package:medicalarm/utils/date_time/date_time_ext.dart';
+import 'package:riverpod/riverpod.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 
 part 'medication_history.g.dart';
@@ -27,6 +29,21 @@ Stream<List<MedicationHistory>> medicationHistoriesByDate(MedicationHistoriesRef
         'scheduledRecordedDate',
         isGreaterThanOrEqualTo: date.date(),
         isLessThanOrEqualTo: date.date().add(const Duration(days: 1)).subtract(const Duration(seconds: 1)),
+      )
+      .snapshots()
+      .map((event) => event.docs.map((doc) => doc.data()).toList());
+}
+
+/// 指定した期間の服薬記録 (#278)。月間の達成率・達成ドットのように、1 日ではなく期間で集計する画面で使う
+@Riverpod(dependencies: [currentGroupDatabase])
+Stream<List<MedicationHistory>> medicationHistoriesByDateRange(Ref ref, DateTimeRange dateTimeRange) {
+  final database = ref.watch(currentGroupDatabaseProvider);
+  return database
+      .medicationHistoriesReference()
+      .where(
+        'scheduledRecordedDate',
+        isGreaterThanOrEqualTo: dateTimeRange.start.date(),
+        isLessThanOrEqualTo: dateTimeRange.end,
       )
       .snapshots()
       .map((event) => event.docs.map((doc) => doc.data()).toList());

@@ -230,5 +230,13 @@
   "doseIntervalWarningMessage": "Zdravilo ste že vzeli ob {latestTakeTime}. Nastavljeno je, da mora biti med odmerkoma vsaj {minimumDoseIntervalHours} ur. Ali ga vseeno zabeležite?",
   "doseIntervalWarningTakeAnyway": "Zabeleži",
   "doseIntervalNotificationWarning": "⚠️ Od zadnjega odmerka še ni minilo {minimumDoseIntervalHours} ur",
-  "ossLicense": "Licence OSS"
+  "ossLicense": "Licence OSS",
+  "achievementWeeklyLabel": "Jemanje zdravil ta teden",
+  "achievementWeeklyCountSuffix": "/{scheduledCount}-krat",
+  "achievementStreakLabel": "Niz",
+  "achievementStreakDaysSuffix": "dni",
+  "achievementMonthlyRateLabel": "Stopnja izpolnjenosti: {month}",
+  "achievementLegendAllTaken": "Vse",
+  "achievementLegendPartiallyTaken": "Delno",
+  "achievementLegendNoneTaken": "Nobeno"
 }

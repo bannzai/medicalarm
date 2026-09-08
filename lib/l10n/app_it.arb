@@ -230,5 +230,13 @@
   "doseIntervalWarningMessage": "Hai già assunto il farmaco alle {latestTakeTime}. L’impostazione prevede un intervallo di almeno {minimumDoseIntervalHours} ore tra le dosi. Vuoi registrarlo comunque?",
   "doseIntervalWarningTakeAnyway": "Registra",
   "doseIntervalNotificationWarning": "⚠️ Non sono trascorse {minimumDoseIntervalHours} ore dall’ultima dose",
-  "ossLicense": "Licenze OSS"
+  "ossLicense": "Licenze OSS",
+  "achievementWeeklyLabel": "Assunzioni di farmaci questa settimana",
+  "achievementWeeklyCountSuffix": "/{scheduledCount} volte",
+  "achievementStreakLabel": "Serie",
+  "achievementStreakDaysSuffix": "giorni",
+  "achievementMonthlyRateLabel": "Tasso di completamento: {month}",
+  "achievementLegendAllTaken": "Tutto",
+  "achievementLegendPartiallyTaken": "Parzialmente",
+  "achievementLegendNoneTaken": "Nessuna"
 }

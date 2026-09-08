@@ -230,5 +230,13 @@
   "doseIntervalWarningMessage": "Jūs jau lietojāt zāles plkst. {latestTakeTime}. Iestatījumos noteikts, ka starp devām jābūt vismaz {minimumDoseIntervalHours} stundu intervālam. Vai tomēr reģistrēt šo devu?",
   "doseIntervalWarningTakeAnyway": "Ierakstīt",
   "doseIntervalNotificationWarning": "⚠️ Kopš pēdējās devas nav pagājušas {minimumDoseIntervalHours} stundas",
-  "ossLicense": "OSS licences"
+  "ossLicense": "OSS licences",
+  "achievementWeeklyLabel": "Zāļu lietošana šonedēļ",
+  "achievementWeeklyCountSuffix": "/{scheduledCount} reizes",
+  "achievementStreakLabel": "Nepārtraukta sērija",
+  "achievementStreakDaysSuffix": "dienas",
+  "achievementMonthlyRateLabel": "Izpildes rādītājs: {month}",
+  "achievementLegendAllTaken": "Visi",
+  "achievementLegendPartiallyTaken": "Daļēji",
+  "achievementLegendNoneTaken": "Neviena"
 }

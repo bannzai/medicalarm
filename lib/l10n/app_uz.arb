@@ -230,5 +230,13 @@
   "doseIntervalWarningMessage": "Siz dorini {latestTakeTime} da allaqachon qabul qilgansiz. Sozlamaga ko‘ra, dozalar orasida kamida {minimumDoseIntervalHours} soatlik tanaffus bo‘lishi kerak. Shunday bo‘lsa ham qayd etilsinmi?",
   "doseIntervalWarningTakeAnyway": "Qayd etish",
   "doseIntervalNotificationWarning": "⚠️ Oxirgi dozani qabul qilganingizdan beri {minimumDoseIntervalHours} soat o‘tmadi",
-  "ossLicense": "OSS litsenziyalari"
+  "ossLicense": "OSS litsenziyalari",
+  "achievementWeeklyLabel": "Bu haftadagi dori qabul qilish",
+  "achievementWeeklyCountSuffix": "/{scheduledCount} marta",
+  "achievementStreakLabel": "Ketma-ketlik",
+  "achievementStreakDaysSuffix": "kun",
+  "achievementMonthlyRateLabel": "Bajarilish darajasi: {month}",
+  "achievementLegendAllTaken": "Barchasi",
+  "achievementLegendPartiallyTaken": "Qisman",
+  "achievementLegendNoneTaken": "Yo‘q"
 }

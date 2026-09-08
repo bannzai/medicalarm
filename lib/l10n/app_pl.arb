@@ -230,5 +230,13 @@
   "doseIntervalWarningMessage": "Lek został już przyjęty o {latestTakeTime}. Ustawiono co najmniej {minimumDoseIntervalHours} godzin przerwy między dawkami. Czy mimo to zapisać przyjęcie?",
   "doseIntervalWarningTakeAnyway": "Zapisz",
   "doseIntervalNotificationWarning": "⚠️ Od przyjęcia poprzedniej dawki nie minęło {minimumDoseIntervalHours} godzin",
-  "ossLicense": "Licencje OSS"
+  "ossLicense": "Licencje OSS",
+  "achievementWeeklyLabel": "Przyjęcia leków w tym tygodniu",
+  "achievementWeeklyCountSuffix": "/{scheduledCount} razy",
+  "achievementStreakLabel": "Seria",
+  "achievementStreakDaysSuffix": "dni",
+  "achievementMonthlyRateLabel": "Wskaźnik realizacji: {month}",
+  "achievementLegendAllTaken": "Wszystkie",
+  "achievementLegendPartiallyTaken": "Częściowo",
+  "achievementLegendNoneTaken": "Brak"
 }

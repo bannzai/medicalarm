@@ -230,5 +230,13 @@
   "doseIntervalWarningMessage": "Դեղամիջոցն արդեն ընդունել եք {latestTakeTime}-ին։ Կարգավորմամբ ընդունումների միջև պետք է անցնի առնվազն {minimumDoseIntervalHours} ժամ։ Այնուամենայնիվ գրանցե՞լ ընդունումը։",
   "doseIntervalWarningTakeAnyway": "Գրանցել",
   "doseIntervalNotificationWarning": "⚠️ Նախորդ ընդունումից դեռ չի անցել {minimumDoseIntervalHours} ժամ",
-  "ossLicense": "OSS լիցենզիաներ"
+  "ossLicense": "OSS լիցենզիաներ",
+  "achievementWeeklyLabel": "Այս շաբաթվա դեղորայքի ընդունում",
+  "achievementWeeklyCountSuffix": "/{scheduledCount} անգամ",
+  "achievementStreakLabel": "Անընդմեջ շարք",
+  "achievementStreakDaysSuffix": "օր",
+  "achievementMonthlyRateLabel": "Կատարման ցուցանիշ՝ {month}",
+  "achievementLegendAllTaken": "Բոլորը",
+  "achievementLegendPartiallyTaken": "Մասամբ",
+  "achievementLegendNoneTaken": "Ոչ մեկը"
 }

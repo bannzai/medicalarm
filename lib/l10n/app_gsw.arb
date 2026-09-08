@@ -230,5 +230,13 @@
   "doseIntervalWarningMessage": "Sie hän d'Dosis bereits um {latestTakeTime} iignoh. I de Iistellige isch en Mindestabstand vo {minimumDoseIntervalHours} Stund zwüsche de Einnahme vorgseh. Wänd Sie d'Einnahm trotzdem erfasse?",
   "doseIntervalWarningTakeAnyway": "Aufzeichne",
   "doseIntervalNotificationWarning": "⚠️ Syt dr letschte Iinah si no kei {minimumDoseIntervalHours} Stunde vergaa",
-  "ossLicense": "OSS-Lizänze"
+  "ossLicense": "OSS-Lizänze",
+  "achievementWeeklyLabel": "Medikament i dere Wuche",
+  "achievementWeeklyCountSuffix": "/{scheduledCount} Mol",
+  "achievementStreakLabel": "Serie",
+  "achievementStreakDaysSuffix": "Täg",
+  "achievementMonthlyRateLabel": "Erfülligsquote: {month}",
+  "achievementLegendAllTaken": "Alle",
+  "achievementLegendPartiallyTaken": "Teilwiis",
+  "achievementLegendNoneTaken": "Kei"
 }

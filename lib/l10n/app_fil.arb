@@ -230,5 +230,13 @@
   "doseIntervalWarningMessage": "Nainom mo na ito noong {latestTakeTime}. Nakatakda ang pagitan na hindi bababa sa {minimumDoseIntervalHours} oras sa pagitan ng mga pag-inom. Itatala mo pa rin ba ito?",
   "doseIntervalWarningTakeAnyway": "Itala",
   "doseIntervalNotificationWarning": "⚠️ Wala pang {minimumDoseIntervalHours} oras mula sa huling pag-inom",
-  "ossLicense": "Mga Lisensya ng OSS"
+  "ossLicense": "Mga Lisensya ng OSS",
+  "achievementWeeklyLabel": "Pag-inom ng gamot ngayong linggo",
+  "achievementWeeklyCountSuffix": "/{scheduledCount} beses",
+  "achievementStreakLabel": "Sunod-sunod na tala",
+  "achievementStreakDaysSuffix": "araw",
+  "achievementMonthlyRateLabel": "Rate ng pagkamit: {month}",
+  "achievementLegendAllTaken": "Lahat",
+  "achievementLegendPartiallyTaken": "Bahagya",
+  "achievementLegendNoneTaken": "Wala"
 }

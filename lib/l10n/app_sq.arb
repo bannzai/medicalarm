@@ -230,5 +230,13 @@
   "doseIntervalWarningMessage": "E keni marrë ilaçin në {latestTakeTime}. Cilësimi kërkon të paktën {minimumDoseIntervalHours} orë ndërmjet dozave. Dëshironi ta regjistroni gjithsesi?",
   "doseIntervalWarningTakeAnyway": "Regjistro",
   "doseIntervalNotificationWarning": "⚠️ Nuk kanë kaluar {minimumDoseIntervalHours} orë nga doza e fundit",
-  "ossLicense": "Licencat OSS"
+  "ossLicense": "Licencat OSS",
+  "achievementWeeklyLabel": "Marrja e ilaçeve këtë javë",
+  "achievementWeeklyCountSuffix": "/{scheduledCount} herë",
+  "achievementStreakLabel": "Seri e njëpasnjëshme",
+  "achievementStreakDaysSuffix": "ditë",
+  "achievementMonthlyRateLabel": "Shkalla e përmbushjes: {month}",
+  "achievementLegendAllTaken": "Të gjitha",
+  "achievementLegendPartiallyTaken": "Pjesërisht",
+  "achievementLegendNoneTaken": "Asnjë"
 }

@@ -230,5 +230,13 @@
   "doseIntervalWarningMessage": "Xa tomaches a dose ás {latestTakeTime}. A configuración establece un intervalo mínimo de {minimumDoseIntervalHours} horas entre as doses. Queres rexistrala igualmente?",
   "doseIntervalWarningTakeAnyway": "Rexistrar",
   "doseIntervalNotificationWarning": "⚠️ Non pasaron {minimumDoseIntervalHours} horas desde a última toma",
-  "ossLicense": "Licenzas OSS"
+  "ossLicense": "Licenzas OSS",
+  "achievementWeeklyLabel": "Tomas de medicación desta semana",
+  "achievementWeeklyCountSuffix": "/{scheduledCount} veces",
+  "achievementStreakLabel": "Racha",
+  "achievementStreakDaysSuffix": "días",
+  "achievementMonthlyRateLabel": "Taxa de cumprimento: {month}",
+  "achievementLegendAllTaken": "Todo",
+  "achievementLegendPartiallyTaken": "Parcialmente",
+  "achievementLegendNoneTaken": "Ningunha"
 }

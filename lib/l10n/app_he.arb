@@ -230,5 +230,13 @@
   "doseIntervalWarningMessage": "כבר נטלת את התרופה ב־{latestTakeTime}. בהגדרות נקבע מרווח של לפחות {minimumDoseIntervalHours} שעות בין מנות. האם לתעד זאת בכל זאת?",
   "doseIntervalWarningTakeAnyway": "תיעוד",
   "doseIntervalNotificationWarning": "⚠️ לא עברו {minimumDoseIntervalHours} שעות מאז המנה הקודמת",
-  "ossLicense": "רישיונות OSS"
+  "ossLicense": "רישיונות OSS",
+  "achievementWeeklyLabel": "נטילת תרופות השבוע",
+  "achievementWeeklyCountSuffix": "/{scheduledCount} פעמים",
+  "achievementStreakLabel": "רצף",
+  "achievementStreakDaysSuffix": "ימים",
+  "achievementMonthlyRateLabel": "שיעור עמידה: {month}",
+  "achievementLegendAllTaken": "הכול",
+  "achievementLegendPartiallyTaken": "חלקי",
+  "achievementLegendNoneTaken": "אין"
 }

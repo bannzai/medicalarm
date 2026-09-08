@@ -230,5 +230,13 @@
   "doseIntervalWarningMessage": "Vous avez déjà pris ce médicament à {latestTakeTime}. Le réglage prévoit un intervalle d’au moins {minimumDoseIntervalHours} heures entre les prises. Voulez-vous quand même l’enregistrer ?",
   "doseIntervalWarningTakeAnyway": "Enregistrer",
   "doseIntervalNotificationWarning": "⚠️ Moins de {minimumDoseIntervalHours} heures se sont écoulées depuis la dernière prise",
-  "ossLicense": "Licences OSS"
+  "ossLicense": "Licences OSS",
+  "achievementWeeklyLabel": "Prises de médicaments cette semaine",
+  "achievementWeeklyCountSuffix": "/{scheduledCount} fois",
+  "achievementStreakLabel": "Série",
+  "achievementStreakDaysSuffix": "jours",
+  "achievementMonthlyRateLabel": "Taux de réalisation : {month}",
+  "achievementLegendAllTaken": "Tous",
+  "achievementLegendPartiallyTaken": "Partiel",
+  "achievementLegendNoneTaken": "Aucun"
 }

@@ -230,5 +230,13 @@
   "doseIntervalWarningMessage": "Вы уже приняли лекарство в {latestTakeTime}. Настройка предусматривает интервал между приёмами не менее {minimumDoseIntervalHours} часов. Всё равно записать приём?",
   "doseIntervalWarningTakeAnyway": "Записать",
   "doseIntervalNotificationWarning": "⚠️ С момента последнего приема прошло менее {minimumDoseIntervalHours} часов",
-  "ossLicense": "Лицензии OSS"
+  "ossLicense": "Лицензии OSS",
+  "achievementWeeklyLabel": "Приём лекарств на этой неделе",
+  "achievementWeeklyCountSuffix": "/{scheduledCount} раз",
+  "achievementStreakLabel": "Серия",
+  "achievementStreakDaysSuffix": "дн.",
+  "achievementMonthlyRateLabel": "Процент выполнения: {month}",
+  "achievementLegendAllTaken": "Все",
+  "achievementLegendPartiallyTaken": "Частично",
+  "achievementLegendNoneTaken": "Нет"
 }

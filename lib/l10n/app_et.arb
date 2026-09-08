@@ -230,5 +230,13 @@
   "doseIntervalWarningMessage": "Võtsite annuse juba kell {latestTakeTime}. Seadistus nõuab annuste vahele vähemalt {minimumDoseIntervalHours} tundi. Kas soovite selle siiski registreerida?",
   "doseIntervalWarningTakeAnyway": "Salvesta",
   "doseIntervalNotificationWarning": "⚠️ Viimasest annusest ei ole möödunud {minimumDoseIntervalHours} tundi",
-  "ossLicense": "OSS-litsentsid"
+  "ossLicense": "OSS-litsentsid",
+  "achievementWeeklyLabel": "Selle nädala ravimite võtmine",
+  "achievementWeeklyCountSuffix": "/{scheduledCount} korda",
+  "achievementStreakLabel": "Järjestikune seeria",
+  "achievementStreakDaysSuffix": "päeva",
+  "achievementMonthlyRateLabel": "Täitmise määr: {month}",
+  "achievementLegendAllTaken": "Kõik",
+  "achievementLegendPartiallyTaken": "Osaliselt",
+  "achievementLegendNoneTaken": "Puudub"
 }

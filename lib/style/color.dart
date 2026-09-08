@@ -14,6 +14,10 @@ abstract class AppColors {
   static const Color border = Color(0xFFE0E0E0);
   static const Color disabled = Color(0xFFE0E0E0);
 
+  // カレンダー達成ドットの「未服用あり」を示す暖色 (#278)。issue #274 のデザインモックで指定された新規色で、
+  // danger の赤(#B00020)より穏やかに注意を示す。達成(primary)と並べても攻撃的に見えないトーンを選んでいる
+  static const Color achievementNone = Color(0xFFE8B5A8);
+
   static const Color sunday = Color(0xFFE17F7F);
   static const Color saturday = Color(0xFF7FB9E1);
   static const Color weekday = Color(0xFF7E7E7E);

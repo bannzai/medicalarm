@@ -230,5 +230,13 @@
   "doseIntervalWarningMessage": "Dávku jste užili v {latestTakeTime}. Nastavení vyžaduje mezi dávkami odstup alespoň {minimumDoseIntervalHours} hodin. Chcete ji přesto zaznamenat?",
   "doseIntervalWarningTakeAnyway": "Zaznamenat",
   "doseIntervalNotificationWarning": "⚠️ Od poslední dávky neuplynulo {minimumDoseIntervalHours} hodin",
-  "ossLicense": "Licence OSS"
+  "ossLicense": "Licence OSS",
+  "achievementWeeklyLabel": "Užívání léků tento týden",
+  "achievementWeeklyCountSuffix": "/{scheduledCount}×",
+  "achievementStreakLabel": "Série",
+  "achievementStreakDaysSuffix": "dní",
+  "achievementMonthlyRateLabel": "Míra splnění: {month}",
+  "achievementLegendAllTaken": "Vše",
+  "achievementLegendPartiallyTaken": "Částečně",
+  "achievementLegendNoneTaken": "Nic"
 }

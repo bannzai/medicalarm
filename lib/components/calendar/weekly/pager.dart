@@ -56,6 +56,8 @@ class WeeklyCalendarPager extends HookConsumerWidget {
                           this.date.value = date;
                         },
                         selected: isSameDay(date, this.date.value),
+                        // 達成ドットの表示は月間カレンダーだけの機能 (#278)
+                        medicationAchievement: null,
                       );
                     },
                   ),

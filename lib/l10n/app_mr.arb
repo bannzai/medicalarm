@@ -230,5 +230,13 @@
   "doseIntervalWarningMessage": "तुम्ही {latestTakeTime} वाजता औषध घेतले आहे. सेटिंगनुसार डोसच्या दरम्यान किमान {minimumDoseIntervalHours} तासांचे अंतर असावे. तरीही नोंद करायची आहे का?",
   "doseIntervalWarningTakeAnyway": "नोंद करा",
   "doseIntervalNotificationWarning": "⚠️ शेवटचा डोस घेतल्यापासून {minimumDoseIntervalHours} तास झालेले नाहीत",
-  "ossLicense": "OSS परवाने"
+  "ossLicense": "OSS परवाने",
+  "achievementWeeklyLabel": "या आठवड्यातील औषध सेवन",
+  "achievementWeeklyCountSuffix": "/{scheduledCount} वेळा",
+  "achievementStreakLabel": "सलग नोंद",
+  "achievementStreakDaysSuffix": "दिवस",
+  "achievementMonthlyRateLabel": "पूर्तता दर: {month}",
+  "achievementLegendAllTaken": "सर्व",
+  "achievementLegendPartiallyTaken": "अंशतः",
+  "achievementLegendNoneTaken": "काहीही नाही"
 }

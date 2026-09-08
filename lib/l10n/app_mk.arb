@@ -230,5 +230,13 @@
   "doseIntervalWarningMessage": "Лекот веќе сте го земале во {latestTakeTime}. Поставено е помеѓу дозите да има најмалку {minimumDoseIntervalHours} часа. Сепак да го запишете?",
   "doseIntervalWarningTakeAnyway": "Забележи",
   "doseIntervalNotificationWarning": "⚠️ Не поминале {minimumDoseIntervalHours} часа од последната доза",
-  "ossLicense": "OSS лиценци"
+  "ossLicense": "OSS лиценци",
+  "achievementWeeklyLabel": "Земање лекови оваа недела",
+  "achievementWeeklyCountSuffix": "/{scheduledCount} пати",
+  "achievementStreakLabel": "Низа",
+  "achievementStreakDaysSuffix": "дена",
+  "achievementMonthlyRateLabel": "Стапка на исполнетост: {month}",
+  "achievementLegendAllTaken": "Сите",
+  "achievementLegendPartiallyTaken": "Делумно",
+  "achievementLegendNoneTaken": "Ниту едно"
 }

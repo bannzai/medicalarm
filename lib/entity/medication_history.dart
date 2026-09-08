@@ -44,13 +44,16 @@ enum MedicationHistoryActionKind {
 /// take のうち、それを打ち消す revert が存在しないものだけが「服用済み」の根拠になる。
 /// revert ドキュメント自体は同じコレクションに混在するため、take 以外は結果に含めない
 List<MedicationHistory> effectiveTakeMedicationHistories(List<MedicationHistory> medicationHistories) {
+  // 打ち消された take の id を先に集めてから絞り込む。take ごとに全件を走査すると記録数の 2 乗に比例した
+  // 比較になり、1 年分の記録を集計する達成サマリー(#278)で画面の描画が同期的に止まるため
+  final revertedTakeIDs = <String>{};
+  for (final history in medicationHistories) {
+    if (history.action case RevertMedicationHistoryAction(takeAction: final takeAction)) {
+      revertedTakeIDs.add(takeAction.id);
+    }
+  }
   return medicationHistories
-      .where((history) =>
-          history.action is TakeMedicationHistoryAction &&
-          !medicationHistories.any((other) => switch (other.action) {
-                RevertMedicationHistoryAction(takeAction: final takeAction) => takeAction.id == history.id,
-                TakeMedicationHistoryAction() || SkipMedicationHistoryAction() => false,
-              }))
+      .where((history) => history.action is TakeMedicationHistoryAction && !revertedTakeIDs.contains(history.id))
       .toList();
 }
 

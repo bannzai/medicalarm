@@ -230,5 +230,13 @@
   "doseIntervalWarningMessage": "Вы ўжо прынялі дозу ў {latestTakeTime}. Налада прадугледжвае інтэрвал не менш за {minimumDoseIntervalHours} гадзін паміж прыёмамі. Усё роўна запісаць прыём?",
   "doseIntervalWarningTakeAnyway": "Запісаць",
   "doseIntervalNotificationWarning": "⚠️ З моманту апошняга прыёму не прайшло {minimumDoseIntervalHours} гадзін",
-  "ossLicense": "Ліцэнзіі OSS"
+  "ossLicense": "Ліцэнзіі OSS",
+  "achievementWeeklyLabel": "Прыём лекаў на гэтым тыдні",
+  "achievementWeeklyCountSuffix": "/{scheduledCount} разоў",
+  "achievementStreakLabel": "Паслядоўная серыя",
+  "achievementStreakDaysSuffix": "дзён",
+  "achievementMonthlyRateLabel": "Паказчык выканання: {month}",
+  "achievementLegendAllTaken": "Усе",
+  "achievementLegendPartiallyTaken": "Часткова",
+  "achievementLegendNoneTaken": "Няма"
 }

@@ -230,5 +230,13 @@
   "doseIntervalWarningMessage": "ನೀವು ಈಗಾಗಲೇ {latestTakeTime}ಕ್ಕೆ ಔಷಧಿಯನ್ನು ತೆಗೆದುಕೊಂಡಿದ್ದೀರಿ. ಸೆಟ್ಟಿಂಗ್ ಪ್ರಕಾರ, ಎರಡು ಡೋಸ್‌ಗಳ ನಡುವೆ ಕನಿಷ್ಠ {minimumDoseIntervalHours} ಗಂಟೆಗಳ ಅಂತರವಿರಬೇಕು. ಆದರೂ ದಾಖಲಿಸುವುದೇ?",
   "doseIntervalWarningTakeAnyway": "ದಾಖಲಿಸಿ",
   "doseIntervalNotificationWarning": "⚠️ ಕೊನೆಯ ಡೋಸ್ ತೆಗೆದುಕೊಂಡು {minimumDoseIntervalHours} ಗಂಟೆಗಳು ಕಳೆದಿಲ್ಲ",
-  "ossLicense": "OSS ಪರವಾನಗಿಗಳು"
+  "ossLicense": "OSS ಪರವಾನಗಿಗಳು",
+  "achievementWeeklyLabel": "ಈ ವಾರದ ಔಷಧ ಸೇವನೆ",
+  "achievementWeeklyCountSuffix": "/{scheduledCount} ಬಾರಿ",
+  "achievementStreakLabel": "ಸತತ ಸರಣಿ",
+  "achievementStreakDaysSuffix": "ದಿನಗಳು",
+  "achievementMonthlyRateLabel": "ಸಾಧನೆ ಪ್ರಮಾಣ: {month}",
+  "achievementLegendAllTaken": "ಎಲ್ಲಾ",
+  "achievementLegendPartiallyTaken": "ಭಾಗಶಃ",
+  "achievementLegendNoneTaken": "ಯಾವುದೂ ಇಲ್ಲ"
 }
