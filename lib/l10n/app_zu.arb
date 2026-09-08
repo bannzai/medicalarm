@@ -116,7 +116,7 @@
   "purchaseErrorAlreadyPurchased": "Usuvele uthenge uhlelo. Ukuze ubuyisele imininingwane yokuthenga kule divayisi, khetha “Oseke wathenga ngaphambilini”.",
   "purchaseErrorReceiptInUse": "Sekuthengiwe, noma imininingwane yokuthenga isetshenziswa ngomunye umsebenzisi. Hlola i-{accountName}.",
   "purchaseErrorInvalidReceipt": "Ulwazi lokuthenga aluvumelekile. Sicela uhlole ulwazi lwakho lokuthenga.",
-  "purchaseErrorMissingReceipt": "Alukho ulwazi lomthengi. Ngena kule divayisi usebenzisa i-{accountName}, bese uzama futhi.",
+  "purchaseErrorMissingReceipt": "Alukho ulwazi lomthengi. Ngena ngemvume kudivayisi usebenzisa i-{accountName}, bese uzama futhi.",
   "purchaseErrorNetwork": "Uxhumano lwenethiwekhi aluzinzile. Hlola uxhumano bese uzama futhi.",
   "purchaseNotAllowed": "Ukuthenga akuvunyelwe kule divayisi",
   "purchaseErrorInvalidCredentials": "Ukuthenga kuhlulekile. Sicela uzame futhi kamuva. Uma inkinga iqhubeka, xhumana nathi kokuthi Izilungiselelo > Xhumana nathi. Imininingwane: {message}",

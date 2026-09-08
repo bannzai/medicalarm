@@ -116,7 +116,7 @@
   "purchaseErrorAlreadyPurchased": "Ta paket ste že kupili. Če želite v tej napravi obnoviti podatke o nakupu, izberite »Za tiste, ki so že kupili«. ",
   "purchaseErrorReceiptInUse": "Že kupljeno ali podatke o nakupu uporablja drug uporabnik. Preverite {accountName}.",
   "purchaseErrorInvalidReceipt": "Podatki o nakupu niso veljavni. Preverite podatke o nakupu.",
-  "purchaseErrorMissingReceipt": "Podatki o kupcu ne obstajajo. V tej napravi se prijavite z računom {accountName} in poskusite znova.",
+  "purchaseErrorMissingReceipt": "Podatki o kupcu ne obstajajo. V napravi se prijavite z računom {accountName} in poskusite znova.",
   "purchaseErrorNetwork": "Omrežna povezava je nestabilna. Preverite povezavo in poskusite znova.",
   "purchaseNotAllowed": "Nakupi v tej napravi niso dovoljeni",
   "purchaseErrorInvalidCredentials": "Nakup ni uspel. Poskusite znova pozneje. Če težava ne bo odpravljena, nas kontaktirajte v meniju Nastavitve > Stik z nami. Podrobnosti: {message}",

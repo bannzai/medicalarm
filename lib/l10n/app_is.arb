@@ -116,7 +116,7 @@
   "purchaseErrorAlreadyPurchased": "Þú hefur þegar keypt áskrift. Til að endurheimta kaupupplýsingarnar þínar á þessu tæki skaltu velja „Fyrir þá sem hafa keypt áður“.",
   "purchaseErrorReceiptInUse": "Þegar keypt eða kaupupplýsingarnar eru notaðar af öðrum notanda. Athugaðu {accountName}.",
   "purchaseErrorInvalidReceipt": "Ógildar kaupupplýsingar. Athugaðu kaupupplýsingarnar þínar.",
-  "purchaseErrorMissingReceipt": "Upplýsingar um kaupanda eru ekki fyrir hendi. Skráðu þig inn í þetta tæki með {accountName} og reyndu aftur.",
+  "purchaseErrorMissingReceipt": "Upplýsingar um kaupanda finnast ekki. Skráðu þig inn á tækið með {accountName} og reyndu aftur.",
   "purchaseErrorNetwork": "Nettengingin er óstöðug. Athugaðu tenginguna og reyndu aftur.",
   "purchaseNotAllowed": "Kaup eru ekki leyfð í þessu tæki",
   "purchaseErrorInvalidCredentials": "Ekki tókst að ganga frá kaupum. Reyndu aftur síðar. Ef vandamálið heldur áfram skaltu hafa samband við okkur í Stillingar > Hafðu samband. Upplýsingar: {message}",

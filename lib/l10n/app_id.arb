@@ -116,7 +116,7 @@
   "purchaseErrorAlreadyPurchased": "Anda sudah membeli paket ini. Untuk memulihkan informasi pembelian di perangkat ini, pilih “Untuk yang sudah pernah membeli”.",
   "purchaseErrorReceiptInUse": "Sudah dibeli, atau informasi pembelian sedang digunakan oleh pengguna lain. Periksa {accountName}.",
   "purchaseErrorInvalidReceipt": "Informasi pembelian tidak valid. Periksa informasi pembelian Anda.",
-  "purchaseErrorMissingReceipt": "Informasi pembeli tidak tersedia. Masuk ke perangkat ini dengan {accountName}, lalu coba lagi.",
+  "purchaseErrorMissingReceipt": "Informasi pembeli tidak tersedia. Masuk ke perangkat dengan {accountName}, lalu coba lagi.",
   "purchaseErrorNetwork": "Koneksi jaringan tidak stabil. Periksa koneksi Anda, lalu coba lagi.",
   "purchaseNotAllowed": "Pembelian tidak diizinkan di perangkat ini",
   "purchaseErrorInvalidCredentials": "Pembelian gagal. Silakan coba lagi nanti. Jika masalah berlanjut, hubungi kami melalui Pengaturan > Hubungi Kami. Detail: {message}",

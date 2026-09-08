@@ -116,7 +116,7 @@
   "purchaseErrorAlreadyPurchased": "Ezt a csomagot már megvásárolta. A vásárlási adatok visszaállításához ezen az eszközön válassza a „Korábban vásárlóknak” lehetőséget.",
   "purchaseErrorReceiptInUse": "Már megvásárolta, vagy a vásárlási információkat egy másik felhasználó használja. Ellenőrizze a(z) {accountName} adatait.",
   "purchaseErrorInvalidReceipt": "Érvénytelen vásárlási adatok. Ellenőrizd a vásárlási adatokat.",
-  "purchaseErrorMissingReceipt": "A vásárló adatai nem találhatók. Jelentkezzen be ezen az eszközön a(z) {accountName} használatával, majd próbálja újra.",
+  "purchaseErrorMissingReceipt": "A vásárló adatai nem találhatók. Jelentkezzen be az eszközön a(z) {accountName} fiókkal, majd próbálja újra.",
   "purchaseErrorNetwork": "A hálózati kapcsolat instabil. Ellenőrizze a kapcsolatot, majd próbálja újra.",
   "purchaseNotAllowed": "A vásárlás nem engedélyezett ezen az eszközön",
   "purchaseErrorInvalidCredentials": "A vásárlás sikertelen. Próbálja meg később újra. Ha a probléma továbbra is fennáll, lépjen kapcsolatba velünk a Beállítások > Kapcsolat menüpontban. Részletek: {message}",

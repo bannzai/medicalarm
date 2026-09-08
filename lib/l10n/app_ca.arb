@@ -116,7 +116,7 @@
   "purchaseErrorAlreadyPurchased": "Ja has comprat un pla. Per restaurar la informació de compra en aquest dispositiu, selecciona «Per a qui ja ha comprat».",
   "purchaseErrorReceiptInUse": "Ja s’ha comprat o la informació de compra l’està utilitzant un altre usuari. Comprova {accountName}.",
   "purchaseErrorInvalidReceipt": "La informació de compra no és vàlida. Comprova la informació de compra.",
-  "purchaseErrorMissingReceipt": "No hi ha informació del comprador. Inicieu la sessió en aquest dispositiu amb {accountName} i torneu-ho a provar.",
+  "purchaseErrorMissingReceipt": "No hi ha informació del comprador. Inicia la sessió al dispositiu amb {accountName} i torna-ho a provar.",
   "purchaseErrorNetwork": "L'estat de la xarxa és inestable. Comproveu la connexió i torneu-ho a provar.",
   "purchaseNotAllowed": "Les compres no estan permeses en aquest dispositiu",
   "purchaseErrorInvalidCredentials": "No s’ha pogut completar la compra. Torneu-ho a provar més tard. Si el problema continua, poseu-vos en contacte amb nosaltres a Configuració > Contacta amb nosaltres. Detalls: {message}",

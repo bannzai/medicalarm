@@ -116,7 +116,7 @@
   "purchaseErrorAlreadyPurchased": "Овај план сте већ купили. Да бисте вратили информације о куповини на овом уређају, изаберите „За оне који су већ купили“.",
   "purchaseErrorReceiptInUse": "Већ је купљено или информације о куповини користи други корисник. Проверите {accountName}.",
   "purchaseErrorInvalidReceipt": "Подаци о куповини нису важећи. Проверите податке о куповини.",
-  "purchaseErrorMissingReceipt": "Подаци о купцу не постоје. Пријавите се на овом уређају помоћу налога {accountName} и покушајте поново.",
+  "purchaseErrorMissingReceipt": "Подаци о купцу не постоје. Пријавите се на уређај помоћу налога {accountName} и покушајте поново.",
   "purchaseErrorNetwork": "Мрежна веза је нестабилна. Проверите везу и покушајте поново.",
   "purchaseNotAllowed": "Куповине нису дозвољене на овом уређају",
   "purchaseErrorInvalidCredentials": "Kupovina nije uspela. Pokušajte ponovo kasnije. Ako problem i dalje postoji, obratite nam se preko Podešavanja > Kontaktirajte nas. Detalji: {message}",

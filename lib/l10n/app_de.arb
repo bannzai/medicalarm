@@ -116,7 +116,7 @@
   "purchaseErrorAlreadyPurchased": "Sie haben bereits einen Tarif gekauft. Um Ihre Kaufdaten auf diesem Gerät wiederherzustellen, wählen Sie „Für bereits gekaufte Abos“.",
   "purchaseErrorReceiptInUse": "Bereits gekauft oder die Kaufinformationen werden von einem anderen Benutzer verwendet. Überprüfe {accountName}.",
   "purchaseErrorInvalidReceipt": "Ungültige Kaufinformationen. Überprüfe deine Kaufinformationen.",
-  "purchaseErrorMissingReceipt": "Es sind keine Käuferinformationen vorhanden. Melden Sie sich auf diesem Gerät mit {accountName} an und versuchen Sie es erneut.",
+  "purchaseErrorMissingReceipt": "Es sind keine Käuferinformationen vorhanden. Melden Sie sich auf dem Gerät mit {accountName} an und versuchen Sie es erneut.",
   "purchaseErrorNetwork": "Die Netzwerkverbindung ist instabil. Überprüfen Sie Ihre Verbindung und versuchen Sie es erneut.",
   "purchaseNotAllowed": "Käufe sind auf diesem Gerät nicht erlaubt",
   "purchaseErrorInvalidCredentials": "Der Kauf ist fehlgeschlagen. Bitte versuchen Sie es später erneut. Wenn das Problem weiterhin besteht, kontaktieren Sie uns unter Einstellungen > Kontakt. Details: {message}",

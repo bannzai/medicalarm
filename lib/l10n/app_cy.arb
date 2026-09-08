@@ -116,7 +116,7 @@
   "purchaseErrorAlreadyPurchased": "Rydych chi eisoes wedi prynu cynllun. I adfer eich gwybodaeth brynu ar y ddyfais hon, dewiswch “I’r rhai sydd wedi prynu o’r blaen”.",
   "purchaseErrorReceiptInUse": "Wedi’i brynu eisoes, neu mae’r wybodaeth brynu’n cael ei defnyddio gan ddefnyddiwr arall. Gwiriwch {accountName}.",
   "purchaseErrorInvalidReceipt": "Mae'r wybodaeth brynu'n annilys. Gwiriwch eich gwybodaeth brynu.",
-  "purchaseErrorMissingReceipt": "Nid yw gwybodaeth y prynwr yn bodoli. Mewngofnodwch i’r ddyfais hon gan ddefnyddio {accountName} a rhowch gynnig arall arni.",
+  "purchaseErrorMissingReceipt": "Nid yw gwybodaeth y prynwr yn bodoli. Mewngofnodwch i’r ddyfais gyda {accountName} a rhowch gynnig arall arni.",
   "purchaseErrorNetwork": "Mae cyflwr y rhwydwaith yn ansefydlog. Gwiriwch y cysylltiad a rhowch gynnig arall arni.",
   "purchaseNotAllowed": "Ni chaniateir prynuadau ar y ddyfais hon",
   "purchaseErrorInvalidCredentials": "Methodd y pryniant. Rhowch gynnig arall arni yn nes ymlaen. Os bydd y broblem yn parhau, cysylltwch â ni drwy Gosodiadau > Cysylltu â ni. Manylion: {message}",

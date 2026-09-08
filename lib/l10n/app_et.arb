@@ -116,7 +116,7 @@
   "purchaseErrorAlreadyPurchased": "Olete juba paketi ostnud. Ostuteabe taastamiseks selles seadmes valige „Varem ostnud kasutajatele“.",
   "purchaseErrorReceiptInUse": "Juba ostetud või kasutab ostuteavet teine kasutaja. Kontrollige {accountName}.",
   "purchaseErrorInvalidReceipt": "Ostuinfo ei kehti. Kontrolli oma ostuinfot.",
-  "purchaseErrorMissingReceipt": "Ostja teave puudub. Logige selles seadmes sisse kontoga {accountName} ja proovige uuesti.",
+  "purchaseErrorMissingReceipt": "Ostja teave puudub. Logige seadmesse sisse kontoga {accountName} ja proovige uuesti.",
   "purchaseErrorNetwork": "Võrguühendus on ebastabiilne. Kontrollige ühendust ja proovige uuesti.",
   "purchaseNotAllowed": "Selle seadmega ei ole ostmine lubatud",
   "purchaseErrorInvalidCredentials": "Ostu sooritamine ebaõnnestus. Proovige mõne aja pärast uuesti. Kui probleem püsib, võtke meiega ühendust menüüs Seaded > Võtke meiega ühendust. Üksikasjad: {message}",

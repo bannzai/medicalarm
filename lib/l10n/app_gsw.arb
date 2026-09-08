@@ -116,7 +116,7 @@
   "purchaseErrorAlreadyPurchased": "Du hesch scho en Plan kauft. Zum dini Chauf-Informatione uf däm Gerät wiederhärstelle, wähl «Für alli, wo scho kauft händ».",
   "purchaseErrorReceiptInUse": "Bereits kauft oder d’Kaufinformatione werde vo mene andere Benutzer verwendet. Prüef {accountName}.",
   "purchaseErrorInvalidReceipt": "D’Kaufinformatione sind ungültig. Bitte überprüef dini Kaufinformatione.",
-  "purchaseErrorMissingReceipt": "Es sind kei Käuferdate vorhande. Melde Sie sich uf däm Gerät mit {accountName} aa und probiere Sie es nomol.",
+  "purchaseErrorMissingReceipt": "Es sind kei Käuferdate vorhanden. Mälde di uf em Gerät mit {accountName} aa und versuechs nomol.",
   "purchaseErrorNetwork": "D Netzverbindig isch instabil. Prüefed Sie d Verbindig und versueched Sie es nomol.",
   "purchaseNotAllowed": "Chäuf sind uf däm Gerät nöd erlaubt",
   "purchaseErrorInvalidCredentials": "De Chauf isch fehlgschlage. Bitte probiered Si es spöter nomal. Wenn s Problem wiiterbesteit, melded Si sich über Iistellige > Kontakt zu eus. Details: {message}",

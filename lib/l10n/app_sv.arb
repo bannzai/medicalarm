@@ -116,7 +116,7 @@
   "purchaseErrorAlreadyPurchased": "Du har redan köpt en plan. Om du vill återställa köpinformationen på den här enheten väljer du ”För dig som har köpt tidigare”.",
   "purchaseErrorReceiptInUse": "Redan köpt eller så används köpinformationen av en annan användare. Kontrollera {accountName}.",
   "purchaseErrorInvalidReceipt": "Ogiltig köpinformation. Kontrollera din köpinformation.",
-  "purchaseErrorMissingReceipt": "Det finns ingen information om köparen. Logga in på den här enheten med {accountName} och försök igen.",
+  "purchaseErrorMissingReceipt": "Det finns ingen information om köparen. Logga in på enheten med {accountName} och försök igen.",
   "purchaseErrorNetwork": "Nätverksanslutningen är instabil. Kontrollera anslutningen och försök igen.",
   "purchaseNotAllowed": "Köp tillåts inte på den här enheten",
   "purchaseErrorInvalidCredentials": "Köpet misslyckades. Försök igen senare. Om problemet kvarstår kan du kontakta oss via Inställningar > Kontakta oss. Detaljer: {message}",

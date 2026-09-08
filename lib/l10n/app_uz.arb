@@ -116,7 +116,7 @@
   "purchaseErrorAlreadyPurchased": "Siz bu rejani allaqachon sotib olgansiz. Xarid maʼlumotlarini ushbu qurilmada tiklash uchun “Avval xarid qilganlar uchun” bandini tanlang.",
   "purchaseErrorReceiptInUse": "Allaqachon xarid qilingan yoki xarid maʼlumotlaridan boshqa foydalanuvchi foydalanmoqda. {accountName}ni tekshiring.",
   "purchaseErrorInvalidReceipt": "Xarid maʼlumotlari noto‘g‘ri. Xarid maʼlumotlaringizni tekshiring.",
-  "purchaseErrorMissingReceipt": "Xaridor maʼlumotlari mavjud emas. Ushbu qurilmaga {accountName} orqali kiring va qaytadan urinib ko‘ring.",
+  "purchaseErrorMissingReceipt": "Xaridor maʼlumotlari mavjud emas. Qurilmaga {accountName} orqali kiring va qayta urinib ko‘ring.",
   "purchaseErrorNetwork": "Tarmoq holati beqaror. Ulanishni tekshiring va qayta urinib ko‘ring.",
   "purchaseNotAllowed": "Bu qurilmada xarid qilishga ruxsat berilmagan",
   "purchaseErrorInvalidCredentials": "Xarid amalga oshmadi. Birozdan so‘ng qayta urinib ko‘ring. Muammo davom etsa, Sozlamalar > Biz bilan bog‘lanish bo‘limi orqali bizga murojaat qiling. Tafsilotlar: {message}",

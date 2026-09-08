@@ -116,7 +116,7 @@
   "purchaseErrorAlreadyPurchased": "Ten plan został już przez Ciebie kupiony. Aby przywrócić informacje o zakupie na tym urządzeniu, wybierz „Dla osób, które już kupiły”.",
   "purchaseErrorReceiptInUse": "Już zakupiono lub informacje o zakupie są używane przez innego użytkownika. Sprawdź {accountName}.",
   "purchaseErrorInvalidReceipt": "Nieprawidłowe informacje o zakupie. Sprawdź informacje o zakupie.",
-  "purchaseErrorMissingReceipt": "Brak informacji o kupującym. Zaloguj się na tym urządzeniu za pomocą {accountName} i spróbuj ponownie.",
+  "purchaseErrorMissingReceipt": "Brak informacji o nabywcy. Zaloguj się na urządzeniu za pomocą konta {accountName} i spróbuj ponownie.",
   "purchaseErrorNetwork": "Połączenie sieciowe jest niestabilne. Sprawdź połączenie i spróbuj ponownie.",
   "purchaseNotAllowed": "Zakupy nie są dozwolone na tym urządzeniu",
   "purchaseErrorInvalidCredentials": "Nie udało się dokonać zakupu. Spróbuj ponownie później. Jeśli problem będzie się powtarzał, skontaktuj się z nami w sekcji Ustawienia > Skontaktuj się z nami. Szczegóły: {message}",
