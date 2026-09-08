@@ -65,7 +65,7 @@
   "increaseMedicationScheduleLimit": "በPremium ዕቅድ ገደቡን ወደ {count} ያሳድጉ",
   "addMedicationSchedule": "የመድሃኒት መውሰጃ መርሃ ግብር ያክሉ",
   "medicationScheduleNotificationSetting": "የመድኃኒት መውሰጃ መርሃ ግብር ማሳወቂያ ቅንብሮች",
-  "notificationSetting": "መረጃ መስመር ይቀንሱ",
+  "notificationSetting": "የማሳወቂያ ቅንብሮች",
   "enableFollowupNotification": "እንከፍከፍ ማሳያ ማስታወቂያ ማንበብ አስቀድመን እንደሚለው እንደ ምርጥ አይቻልም",
   "followupNotificationDescription": "ከመጀመሪያ ማሳያ በ30 ደቂቀ ምልክት ውስጥ መድሃኒትን ያከብዱ አለመሆን አንቀጽ አርደው ይገኛል።",
   "enableNotificationInSilentMode": "መነሻ ሞዴ ቢሆንም የማስታወሻ መልእክት ይላካል",

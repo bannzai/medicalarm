@@ -65,7 +65,7 @@
   "increaseMedicationScheduleLimit": "প্রিমিয়াম প্ল্যানে সীমা বাড়িয়ে {count} করুন",
   "addMedicationSchedule": "ওষুধ সেবনের সময়সূচি যোগ করুন",
   "medicationScheduleNotificationSetting": "ওষুধ খাওয়ার সময়সূচির বিজ্ঞপ্তি সেটিংস",
-  "notificationSetting": "নটিফিকেশন সেটিংস",
+  "notificationSetting": "বিজ্ঞপ্তি সেটিংস",
   "enableFollowupNotification": "ফলোআপ নোটিফিকেশন সক্রিয় করুন",
   "followupNotificationDescription": "প্রথম নোটিফিকেশন থেকে 30 মিনিটের মধ্যে যদি আপনি ওষুধ গ্রহণের রেকর্ড না করেন, তবে একটি ফলো-আপ নোটিফিকেশন পাঠানো হবে।",
   "enableNotificationInSilentMode": "মনা মোডে আপনাকে জানানো হবে",

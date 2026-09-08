@@ -65,7 +65,7 @@
   "increaseMedicationScheduleLimit": "افزایش سقف به {count} با طرح پریمیوم",
   "addMedicationSchedule": "افزودن برنامه مصرف دارو",
   "medicationScheduleNotificationSetting": "تنظیمات اعلان برنامه مصرف دارو",
-  "notificationSetting": "تنظیمات اطلاع رسانی",
+  "notificationSetting": "تنظیمات اعلان‌ها",
   "enableFollowupNotification": "فعالسازی اعلان‌های پیگیری",
   "followupNotificationDescription": "اگر در عرض 30 دقیقه پس از اولین اعلان، مصرف دارو ثبت نشود، یک اعلان پیگیری ارسال می‌شود.",
   "enableNotificationInSilentMode": "در حالت بی‌صدا نیز اطلاع‌رسانی می‌کند",

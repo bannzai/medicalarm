@@ -65,7 +65,7 @@
   "increaseMedicationScheduleLimit": "Cynyddu'r terfyn i {count} gyda'r cynllun Premium",
   "addMedicationSchedule": "Ychwanegu amserlen meddyginiaeth",
   "medicationScheduleNotificationSetting": "Gosodiadau hysbysiadau amserlen cymryd meddyginiaeth",
-  "notificationSetting": "Gosodiad Hysbysiadau",
+  "notificationSetting": "Gosodiadau hysbysiadau",
   "enableFollowupNotification": "Galluogi hysbysiadau dilyniant",
   "followupNotificationDescription": "Os yw defnyddiwr yn methu â chofrestru cymryd meddyginiaeth o fewn 30 munud i'r hysbysiad cyntaf, bydd notification dilynol yn cael ei anfon.",
   "enableNotificationInSilentMode": "Hysbysu hyd yn oed ar fodd peidiog",

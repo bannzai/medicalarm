@@ -65,7 +65,7 @@
   "increaseMedicationScheduleLimit": "ပရီမီယမ်အစီအစဉ်ဖြင့် ကန့်သတ်ချက်ကို {count} အထိ တိုးမြှင့်ရန်",
   "addMedicationSchedule": "ဆေးသောက်ချိန်ဇယား ထည့်ရန်",
   "medicationScheduleNotificationSetting": "ဆေးသောက်ချိန်ဇယား အသိပေးချက် ဆက်တင်များ",
-  "notificationSetting": "Tetapan Pemberitahuan",
+  "notificationSetting": "အသိပေးချက် ဆက်တင်များ",
   "enableFollowupNotification": "Mengaktifkan pemberitahuan susulan",
   "followupNotificationDescription": "Sekiranya anda tidak merekod pengambilan ubat dalam masa 30 minit selepas notifikasi pertama, notifikasi susulan akan dihantar.",
   "enableNotificationInSilentMode": "Hantar pemberitahuan walaupun dalam mod senyap",

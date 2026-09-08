@@ -65,7 +65,7 @@
   "increaseMedicationScheduleLimit": "Premium պլանով սահմանաչափը հասցրեք {count}-ի",
   "addMedicationSchedule": "Ավելացնել դեղորայքի ընդունման ժամանակացույց",
   "medicationScheduleNotificationSetting": "Դեղորայքի ընդունման ժամանակացույցի ծանուցումների կարգավորումներ",
-  "notificationSetting": "Անհայտացման կարգավորումներ",
+  "notificationSetting": "Ծանուցումների կարգավորումներ",
   "enableFollowupNotification": "Enabled follow-up notifications",
   "followupNotificationDescription": "Եթե առաջին ծանուցումից 30 րոպեի ընթացքում դեղամիջոցը չգրանցվի, կհետեւի լրացուցիչ ծանուցում։",
   "enableNotificationInSilentMode": "Տեղեկացնել նաև մոլորակի ռեժիմում",

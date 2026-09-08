@@ -65,7 +65,7 @@
   "increaseMedicationScheduleLimit": "பிரீமியம் திட்டத்துடன் வரம்பை {count} ஆக அதிகரிக்கவும்",
   "addMedicationSchedule": "மருந்து உட்கொள்ளும் அட்டவணையைச் சேர்க்கவும்",
   "medicationScheduleNotificationSetting": "மருந்து உட்கொள்ளும் அட்டவணை அறிவிப்பு அமைப்புகள்",
-  "notificationSetting": "அறிவிப்புகள் அமைப்பு",
+  "notificationSetting": "அறிவிப்பு அமைப்புகள்",
   "enableFollowupNotification": "காப்பகக் கானொலிகளை செயல்படுத்துக",
   "followupNotificationDescription": "முதல் அறிவிப்பிற்கு 30 நிமிடங்களுக்கு உள்ளானால், நீங்கள் மருந்தைப் பதிவு செய்யவில்லை என்றால், ஒரு தொடர்ச்சி அறிவிப்பு அனுப்பப்படும்.",
   "enableNotificationInSilentMode": "மானர் மோடில் கூட அறிவிக்கிறது",

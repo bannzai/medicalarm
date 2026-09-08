@@ -65,7 +65,7 @@
   "increaseMedicationScheduleLimit": "Premium planla sınırı {count} değerine yükseltin",
   "addMedicationSchedule": "İlaç alma programı ekle",
   "medicationScheduleNotificationSetting": "İlaç alma programı bildirim ayarları",
-  "notificationSetting": "Bildirim Ayarları",
+  "notificationSetting": "Bildirim ayarları",
   "enableFollowupNotification": "Takip bildirimini etkinleştir",
   "followupNotificationDescription": "İlk bildirimden sonra 30 dakika içinde ilaç alımını kaydetmezseniz, takip bildirimleri gönderilecektir.",
   "enableNotificationInSilentMode": "Seste modda bile bildirim yap",

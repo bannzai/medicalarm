@@ -65,7 +65,7 @@
   "increaseMedicationScheduleLimit": "پریمیم پلان کے ساتھ حد کو {count} تک بڑھائیں",
   "addMedicationSchedule": "ادویات لینے کا شیڈول شامل کریں",
   "medicationScheduleNotificationSetting": "ادویات لینے کے شیڈول کی اطلاعات کی ترتیبات",
-  "notificationSetting": "نوٹیفکیشن کی ترتیب",
+  "notificationSetting": "اطلاعات کی ترتیبات",
   "enableFollowupNotification": "فالواں اپ通知 کو فعال کریں",
   "followupNotificationDescription": "اگر پہلے نوٹیفکیشن کے 30 منٹ کے اندر دوا لینے کا ریکارڈ نہیں بنایا جاتا تو فالو اپ نوٹیفکیشن بھیجا جائے گا۔",
   "enableNotificationInSilentMode": "خاموش وضع میں بھی اطلاع دینا",

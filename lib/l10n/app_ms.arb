@@ -65,7 +65,7 @@
   "increaseMedicationScheduleLimit": "Tingkatkan had kepada {count} dengan pelan Premium",
   "addMedicationSchedule": "Tambah jadual pengambilan ubat",
   "medicationScheduleNotificationSetting": "Tetapan pemberitahuan jadual pengambilan ubat",
-  "notificationSetting": "Tetapan Notifikasi",
+  "notificationSetting": "Tetapan pemberitahuan",
   "enableFollowupNotification": "Mengaktifkan pemberitahuan susulan",
   "followupNotificationDescription": "Jika anda tidak merekodkan pengambilan ubat dalam masa 30 minit dari notifikasi pertama, notifikasi susulan akan dihantar.",
   "enableNotificationInSilentMode": "Notifikasi walaupun dalam mod senyap",

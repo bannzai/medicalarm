@@ -65,7 +65,7 @@
   "increaseMedicationScheduleLimit": "Hækkaðu hámarkið í {count} með Premium-áskrift",
   "addMedicationSchedule": "Bæta við lyfjatökuáætlun",
   "medicationScheduleNotificationSetting": "Stillingar tilkynninga fyrir lyfjaáætlun",
-  "notificationSetting": "Tilkynningarstilla",
+  "notificationSetting": "Tilkynningastillingar",
   "enableFollowupNotification": "Virkja eftirfylgni tilkynningar",
   "followupNotificationDescription": "Efnisráðning verður send ef þú skráir ekki inntöku innan 30 mínútna frá fyrstu tilkynningu.",
   "enableNotificationInSilentMode": "Tilkynna jafnvel í hljóðlágu máli",

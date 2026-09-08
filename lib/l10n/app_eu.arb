@@ -65,7 +65,7 @@
   "increaseMedicationScheduleLimit": "Handitu muga {count}-ra Premium planarekin",
   "addMedicationSchedule": "Gehitu botiken hartzeko ordutegia",
   "medicationScheduleNotificationSetting": "Medikazioa hartzeko ordutegiaren jakinarazpen-ezarpenak",
-  "notificationSetting": "Jakinarazpenen ezarpena",
+  "notificationSetting": "Jakinarazpenen ezarpenak",
   "enableFollowupNotification": "Jarraipen jakinarazpenak aktibatu",
   "followupNotificationDescription": "Lehenengo jakinarazpenetik 30 minututan barru, medikazioa erregistratzen ez bada, jarraipen jakinarazpena bidaliko da.",
   "enableNotificationInSilentMode": "Isiltzen ez denean jakinarazteko",

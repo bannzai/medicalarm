@@ -65,7 +65,7 @@
   "increaseMedicationScheduleLimit": "Augmenter la limite à {count} avec le forfait Premium",
   "addMedicationSchedule": "Ajouter un calendrier de prise de médicaments",
   "medicationScheduleNotificationSetting": "Réglages des notifications du programme de prise de médicaments",
-  "notificationSetting": "Paramètres de notification",
+  "notificationSetting": "Réglages des notifications",
   "enableFollowupNotification": "Activer les notifications de suivi",
   "followupNotificationDescription": "Si vous n'enregistrez pas votre prise de médicament dans les 30 minutes suivant la première notification, une notification de suivi sera envoyée.",
   "enableNotificationInSilentMode": "Notifier même en mode silencieux",

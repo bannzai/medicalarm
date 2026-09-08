@@ -65,7 +65,7 @@
   "increaseMedicationScheduleLimit": "Aumente o limite para {count} com o plano Premium",
   "addMedicationSchedule": "Adicionar horário da medicação",
   "medicationScheduleNotificationSetting": "Definições de notificações do horário da medicação",
-  "notificationSetting": "Configurações de Notificação",
+  "notificationSetting": "Definições de notificações",
   "enableFollowupNotification": "Ativar notificações de acompanhamento",
   "followupNotificationDescription": "Se a medicação não for registrada dentro de 30 minutos após a primeira notificação, será enviado um lembrete de acompanhamento.",
   "enableNotificationInSilentMode": "Notificações mesmo no modo silencioso",

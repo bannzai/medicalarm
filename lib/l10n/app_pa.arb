@@ -65,7 +65,7 @@
   "increaseMedicationScheduleLimit": "ਪ੍ਰੀਮੀਅਮ ਪਲਾਨ ਨਾਲ ਸੀਮਾ ਵਧਾ ਕੇ {count} ਕਰੋ",
   "addMedicationSchedule": "ਦਵਾਈ ਲੈਣ ਦਾ ਸਮਾਂ-ਸੂਚੀ ਸ਼ਾਮਲ ਕਰੋ",
   "medicationScheduleNotificationSetting": "ਦਵਾਈ ਲੈਣ ਦੇ ਸਮਾਂ-ਸਾਰਣੀ ਦੀਆਂ ਸੂਚਨਾ ਸੈਟਿੰਗਾਂ",
-  "notificationSetting": " ਨੋਟੀਫਿਕੇਸ਼ਨ ਸੈਟਿੰਗ",
+  "notificationSetting": "ਸੂਚਨਾ ਸੈਟਿੰਗਾਂ",
   "enableFollowupNotification": "ਫਾਲੋਅੱਪ ਨੋਟਿਫਿਕੇਸ਼ਨ ਸਕਰੀਅਤ ਕਰੋ",
   "followupNotificationDescription": "ਜੇਕਰ ਪਹਿਲੀ ਨੋਟੀਫਿਕੇਸ਼ਨ ਤੋਂ 30 ਮਿੰਟਾਂ ਦੇ ਅੰਦਰ ਦਵਾਈਆਂ ਦੀ ਕੀਮਤ ਦਰਜ ਨਾ ਕੀਤੀ ਗਿਆ, ਤਾਂ ਫਾਲੋਅੱਪ ਨੋਟੀਫਿਕੇਸ਼ਨ ਭੇਜਿਆ ਜਾਵੇਗਾ।",
   "enableNotificationInSilentMode": "ਮਨੋਰਮ ਕਰਨ ਦੇ ਮੋਡ ਵਿੱਚ ਵੀ ਸੂਚਨਾ",

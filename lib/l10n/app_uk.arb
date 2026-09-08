@@ -65,7 +65,7 @@
   "increaseMedicationScheduleLimit": "Збільшити ліміт до {count} із планом Premium",
   "addMedicationSchedule": "Додати розклад приймання ліків",
   "medicationScheduleNotificationSetting": "Налаштування сповіщень про розклад приймання ліків",
-  "notificationSetting": "Notification Settings",
+  "notificationSetting": "Налаштування сповіщень",
   "enableFollowupNotification": "Enable follow-up notifications",
   "followupNotificationDescription": "If you do not record your medication within 30 minutes of the initial notification, a follow-up reminder will be sent.",
   "enableNotificationInSilentMode": "Notify even in silent mode",

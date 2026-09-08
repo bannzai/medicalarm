@@ -65,7 +65,7 @@
   "increaseMedicationScheduleLimit": "Zvyšte limit na {count} s prémiovým tarifem",
   "addMedicationSchedule": "Přidat plán užívání léků",
   "medicationScheduleNotificationSetting": "Nastavení oznámení plánu užívání léků",
-  "notificationSetting": "Nastavení notifikací",
+  "notificationSetting": "Nastavení oznámení",
   "enableFollowupNotification": "Povolit upozornění pro sledování",
   "followupNotificationDescription": "Pokud nedojde k zaznamenání užívání léků během 30 minut od první notifikace, bude odesláno připomínkové upozornění.",
   "enableNotificationInSilentMode": "Oznámení i v režimu nerušit",

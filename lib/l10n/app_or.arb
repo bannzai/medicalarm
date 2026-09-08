@@ -65,7 +65,7 @@
   "increaseMedicationScheduleLimit": "ପ୍ରିମିୟମ୍ ପ୍ଲାନ୍ ସହିତ ସୀମାକୁ {count} କୁ ବଢ଼ାନ୍ତୁ",
   "addMedicationSchedule": "ଔଷଧ ସେବନ ସୂଚୀ ଯୋଡନ୍ତୁ",
   "medicationScheduleNotificationSetting": "ଔଷଧ ସେବନ ସୂଚୀ ବିଜ୍ଞପ୍ତି ସେଟିଂସ୍",
-  "notificationSetting": "ସୂଚନା ସେଟିଂ",
+  "notificationSetting": "ବିଜ୍ଞପ୍ତି ସେଟିଂସ୍",
   "enableFollowupNotification": "మీటింగ్ ఫాలోఅప్ నోటిఫికేషన్‌లను ప్రారంభించు",
   "followupNotificationDescription": "यदि पहले सूचना के 30 मिनट के भीतर कोई दवा दर्ज नहीं की गई है, तो एक फॉलो-अप सूचना भेजी जाएगी।",
   "enableNotificationInSilentMode": "通知 कार्यान्वयन साधारण आहे",

@@ -65,7 +65,7 @@
   "increaseMedicationScheduleLimit": "ເພີ່ມຂີດຈຳກັດເປັນ {count} ດ້ວຍແຜນ Premium",
   "addMedicationSchedule": "ເພີ່ມຕາຕະລາງການກິນຢາ",
   "medicationScheduleNotificationSetting": "ການຕັ້ງຄ່າການແຈ້ງເຕືອນຕາຕະລາງການກິນຢາ",
-  "notificationSetting": "ການຕັ້ງຄ່າແຈ້ງ",
+  "notificationSetting": "ການຕັ້ງຄ່າການແຈ້ງເຕືອນ",
   "enableFollowupNotification": "ເປີເດີ້ບົດແຈ້ງຕາມທີ່ຈະໃຊ້ດັບໃຊ່",
   "followupNotificationDescription": "ຖ້າບໍ່ມີການບັນທຶກການເຮັດດັ່ງສຽງຈາກການແຈ້ງແນະໃນ30ນາທີສຳລັບການລົບຄວາມງາມປະຕິເສດການທີ່ຖືກສົ່ງອອກໃສ່ຕົຕລວມກັນ.",
   "enableNotificationInSilentMode": "ສະແດງການແຈ້ງໃນເວລາແບບບໍ່ສຽງສໍາລັບແນວທາງໃນແອັບ ອັບອີຈັນຈໍ່ແກັດ",

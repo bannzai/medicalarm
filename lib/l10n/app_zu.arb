@@ -65,7 +65,7 @@
   "increaseMedicationScheduleLimit": "Khulisa umkhawulo ube ngu-{count} ngohlelo lwe-Premium",
   "addMedicationSchedule": "Engeza uhlelo lokuphuza imithi",
   "medicationScheduleNotificationSetting": "Izilungiselelo zezaziso zeshejuli yokuphuza imithi",
-  "notificationSetting": "Ukucushwa kwezaziso",
+  "notificationSetting": "Izilungiselelo zezaziso",
   "enableFollowupNotification": "Vula izaziso zokulandela",
   "followupNotificationDescription": "Uma i-Notification yokulandela izothunyelwa uma ungakabhalisi ukuthatha imithi phakathi kuka-30 imizuzu kusukela i-Notification yokuqala.",
   "enableNotificationInSilentMode": "Vula izaziso ngisho uma kusemodeshi yokuthula",

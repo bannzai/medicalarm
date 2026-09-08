@@ -65,7 +65,7 @@
   "increaseMedicationScheduleLimit": "പ്രീമിയം പ്ലാനിലൂടെ പരിധി {count} ആയി വർധിപ്പിക്കുക",
   "addMedicationSchedule": "മരുന്ന് കഴിക്കുന്ന ഷെഡ്യൂൾ ചേർക്കുക",
   "medicationScheduleNotificationSetting": "മരുന്ന് കഴിക്കുന്ന സമയക്രമ അറിയിപ്പ് ക്രമീകരണങ്ങൾ",
-  "notificationSetting": "നോട്ടിഫിക്കേഷൻ ക്രമീകരണങ്ങൾ",
+  "notificationSetting": "അറിയിപ്പ് ക്രമീകരണങ്ങൾ",
   "enableFollowupNotification": "ഫോളോപ്‌അപ്പ് വിജ്ഞാപനങ്ങൾ সক্ষমമാക്കുക",
   "followupNotificationDescription": "നിങ്ങളുടെ ആദ്യത്തെ അറിയിപ്പിൽ നിന്ന് 30 മിനുട്ടുകൾക്കുള്ളിൽ മരുന്ന് രേഖപ്പെടുത്താത്തതെങ്കിൽ, ഫോളോ അപ് അറിയിപ്പ് അയച്ച 됩니다.",
   "enableNotificationInSilentMode": "മാനർ മോഡിലും അറിയിപ്പ് നൽകുക",

@@ -65,7 +65,7 @@
   "increaseMedicationScheduleLimit": "Premium გეგმით ლიმიტის {count}-მდე გაზრდა",
   "addMedicationSchedule": "მედიკამენტების მიღების განრიგის დამატება",
   "medicationScheduleNotificationSetting": "მედიკამენტების მიღების განრიგის შეტყობინებების პარამეტრები",
-  "notificationSetting": "შეტყობინების პარამეტრები",
+  "notificationSetting": "შეტყობინებების პარამეტრები",
   "enableFollowupNotification": "შეფასების შეტყობინების აქტივაცია",
   "followupNotificationDescription": "თუ პირველ შეტყობინებამდე 30 წუთი არ გაქვთ წამლის რეგისტრირებული, გაგზავნილ იქნება შემდგომი შეტყობინება.",
   "enableNotificationInSilentMode": "ცSilent რეჟიმშიც შეტყობინება",

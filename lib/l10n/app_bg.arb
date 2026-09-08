@@ -65,7 +65,7 @@
   "increaseMedicationScheduleLimit": "Увеличете лимита до {count} с Premium план",
   "addMedicationSchedule": "Добавяне на график за прием на лекарства",
   "medicationScheduleNotificationSetting": "Настройки на известията за графика на прием на лекарства",
-  "notificationSetting": "Настройки на уведомления",
+  "notificationSetting": "Настройки за известия",
   "enableFollowupNotification": "Активирайте уведомления за проследяване",
   "followupNotificationDescription": "Ако не запишете приема на медикаменти в рамките на 30 минути след първоначалното уведомление, ще бъде изпратено последващо уведомление.",
   "enableNotificationInSilentMode": "Получавате известие дори в режим на безшумно",
