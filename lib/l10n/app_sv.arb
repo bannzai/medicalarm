@@ -174,7 +174,7 @@
   "medicationPause": "Aktivera medicin",
   "medicationPauseDescription": "När den stängs av tas den bort från läkemedelsskärmen och aviseringarna.",
   "medicinePausedSnackbar": "Intaget av läkemedlet har pausats tillfälligt",
-  "medicationHistoryDeletedSnackbar": "Registreringen av läkemedelsintaget har ångrats",
+  "medicationHistoryDeletedSnackbar": "Läkemedelsregistreringen har ångrats",
   "undo": "Ångra",
   "medicationHistoryReverted": "Läkemedelsregistrering återställd",
   "revertedTime": "Avbokningstid",

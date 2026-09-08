@@ -174,7 +174,7 @@
   "medicationPause": "Dorini faollashtirish",
   "medicationPauseDescription": "O‘chirilganda, u dorilar ekranidan va bildirishnomalardan olib tashlanadi.",
   "medicinePausedSnackbar": "Dori qabul qilish vaqtincha to‘xtatildi",
-  "medicationHistoryDeletedSnackbar": "Dori qabul qilish qaydi bekor qilindi",
+  "medicationHistoryDeletedSnackbar": "Dori qabul qilish yozuvi bekor qilindi",
   "undo": "Bekor qilish",
   "medicationHistoryReverted": "Dori qabul qilish qaydi bekor qilindi",
   "revertedTime": "Bekor qilingan vaqt",

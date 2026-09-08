@@ -174,7 +174,7 @@
   "medicationPause": "Activar medicación",
   "medicationPauseDescription": "Al desactivarlo, se excluirá de la pantalla de medicamentos y de las notificaciones.",
   "medicinePausedSnackbar": "La toma del medicamento se ha pausado temporalmente",
-  "medicationHistoryDeletedSnackbar": "Se deshizo el registro de medicación",
+  "medicationHistoryDeletedSnackbar": "Se deshizo el registro de toma del medicamento",
   "undo": "Deshacer",
   "medicationHistoryReverted": "Registro de medicación revertido",
   "revertedTime": "Hora de cancelación",

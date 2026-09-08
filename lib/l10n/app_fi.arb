@@ -174,7 +174,7 @@
   "medicationPause": "Ota lääkitys käyttöön",
   "medicationPauseDescription": "Kun tämä poistetaan käytöstä, se poistetaan lääkkeiden näytöstä ja ilmoituksista.",
   "medicinePausedSnackbar": "Lääkkeen ottaminen on keskeytetty väliaikaisesti",
-  "medicationHistoryDeletedSnackbar": "Lääkkeenottomerkintä kumottiin",
+  "medicationHistoryDeletedSnackbar": "Lääkkeen ottamisen merkintä kumottiin",
   "undo": "Kumoa",
   "medicationHistoryReverted": "Lääkkeenottomerkintä kumottu",
   "revertedTime": "Peruutusaika",

@@ -174,7 +174,7 @@
   "medicationPause": "Galluogi'r feddyginiaeth",
   "medicationPauseDescription": "Pan gaiff ei ddiffodd, caiff ei eithrio o sgrin meddyginiaethau a hysbysiadau.",
   "medicinePausedSnackbar": "Mae cymryd y feddyginiaeth wedi'i oedi dros dro",
-  "medicationHistoryDeletedSnackbar": "Mae’r cofnod cymryd meddyginiaeth wedi’i ddadwneud",
+  "medicationHistoryDeletedSnackbar": "Mae cofnod cymryd y feddyginiaeth wedi’i ddadwneud",
   "undo": "Dadwneud",
   "medicationHistoryReverted": "Cofnod meddyginiaeth wedi’i ddadwneud",
   "revertedTime": "Amser canslo",

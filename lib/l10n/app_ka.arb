@@ -174,7 +174,7 @@
   "medicationPause": "მედიკამენტის გააქტიურება",
   "medicationPauseDescription": "გამორთვისას ის აღარ გამოჩნდება მედიკამენტების ეკრანსა და შეტყობინებებში.",
   "medicinePausedSnackbar": "მედიკამენტის მიღება დროებით შეჩერდა",
-  "medicationHistoryDeletedSnackbar": "მედიკამენტის მიღების ჩანაწერი გაუქმდა",
+  "medicationHistoryDeletedSnackbar": "წამლის მიღების ჩანაწერი გაუქმდა",
   "undo": "გაუქმება",
   "medicationHistoryReverted": "მედიკამენტის მიღების ჩანაწერი გაუქმდა",
   "revertedTime": "გაუქმების დრო",

@@ -174,7 +174,7 @@
   "medicationPause": "Omogući lijek",
   "medicationPauseDescription": "Kada se isključi, lijek se uklanja sa zaslona lijekova i iz obavijesti.",
   "medicinePausedSnackbar": "Uzimanje lijeka privremeno je pauzirano",
-  "medicationHistoryDeletedSnackbar": "Evidencija uzimanja lijeka je poništena",
+  "medicationHistoryDeletedSnackbar": "Zapis uzimanja lijeka je poništen",
   "undo": "Poništi",
   "medicationHistoryReverted": "Evidencija uzimanja lijeka poništena",
   "revertedTime": "Vrijeme poništavanja",

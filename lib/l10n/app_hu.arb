@@ -174,7 +174,7 @@
   "medicationPause": "Gyógyszer aktiválása",
   "medicationPauseDescription": "Kikapcsoláskor a gyógyszer nem jelenik meg a gyógyszerképernyőn és az értesítésekben.",
   "medicinePausedSnackbar": "A gyógyszer szedése átmenetileg szünetel",
-  "medicationHistoryDeletedSnackbar": "A gyógyszerbevétel bejegyzése visszavonva",
+  "medicationHistoryDeletedSnackbar": "A gyógyszerbevétel rögzítése visszavonva",
   "undo": "Visszavonás",
   "medicationHistoryReverted": "A gyógyszerbevételi bejegyzés visszavonva",
   "revertedTime": "Visszavonás ideje",

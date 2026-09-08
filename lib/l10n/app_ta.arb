@@ -174,7 +174,7 @@
   "medicationPause": "மருந்தை இயக்கவும்",
   "medicationPauseDescription": "அணைத்தால், இது மருந்துத் திரையிலும் அறிவிப்புகளிலும் காட்டப்படாது.",
   "medicinePausedSnackbar": "மருந்து உட்கொள்வது தற்காலிகமாக நிறுத்தப்பட்டுள்ளது",
-  "medicationHistoryDeletedSnackbar": "மருந்து எடுத்த பதிவு ரத்து செய்யப்பட்டது",
+  "medicationHistoryDeletedSnackbar": "மருந்து உட்கொண்ட பதிவு ரத்து செய்யப்பட்டது",
   "undo": "செயல்தவிர்",
   "medicationHistoryReverted": "மருந்து எடுத்த பதிவு ரத்து செய்யப்பட்டது",
   "revertedTime": "ரத்து செய்த நேரம்",

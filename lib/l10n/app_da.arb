@@ -174,7 +174,7 @@
   "medicationPause": "Aktivér medicinen",
   "medicationPauseDescription": "Når den slås fra, fjernes den fra medicinskærmen og notifikationer.",
   "medicinePausedSnackbar": "Indtagelse af medicinen er midlertidigt sat på pause",
-  "medicationHistoryDeletedSnackbar": "Registreringen af medicinindtagelsen er annulleret",
+  "medicationHistoryDeletedSnackbar": "Medicinregistreringen er annulleret",
   "undo": "Fortryd",
   "medicationHistoryReverted": "Medicinregistrering fortrudt",
   "revertedTime": "Annulleringstidspunkt",
