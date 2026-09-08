@@ -176,7 +176,7 @@
   "medicinePausedSnackbar": "ការលេបថ្នាំត្រូវបានផ្អាកជាបណ្តោះអាសន្ន",
   "medicationHistoryDeletedSnackbar": "កំណត់ត្រាការលេបថ្នាំត្រូវបានមិនធ្វើវិញ",
   "undo": "មិនធ្វើវិញ",
-  "medicationHistoryReverted": "កំណត់ត្រាលេបថ្នាំត្រូវបានបោះបង់",
+  "medicationHistoryReverted": "កំណត់ត្រាលេបថ្នាំត្រូវបានលុបចោល",
   "revertedTime": "ពេលវេលាលុបចោល",
   "revertedByMember": "បានលុបចោលដោយ {name}",
   "medicationTakenAtLabel": "បានលេបនៅម៉ោង {time}",

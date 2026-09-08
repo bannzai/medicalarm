@@ -176,7 +176,7 @@
   "medicinePausedSnackbar": "Эм уухыг түр зогсоолоо",
   "medicationHistoryDeletedSnackbar": "Эм уусан бүртгэлийг цуцаллаа",
   "undo": "Буцаах",
-  "medicationHistoryReverted": "Эм уусан бүртгэлийг буцаалаа",
+  "medicationHistoryReverted": "Эм уусан бүртгэлийг цуцалсан",
   "revertedTime": "Цуцалсан цаг",
   "revertedByMember": "{name} цуцалсан",
   "medicationTakenAtLabel": "{time}-д уусан",

@@ -176,7 +176,7 @@
   "medicinePausedSnackbar": "Pansamantalang itinigil ang pag-inom ng gamot",
   "medicationHistoryDeletedSnackbar": "Inalis ang tala ng pag-inom ng gamot",
   "undo": "I-undo",
-  "medicationHistoryReverted": "Binalik ang tala ng pag-inom ng gamot",
+  "medicationHistoryReverted": "Kinansela ang tala ng pag-inom ng gamot",
   "revertedTime": "Oras ng pagkansela",
   "revertedByMember": "Kinansela ni {name}",
   "medicationTakenAtLabel": "Nainom noong {time}",

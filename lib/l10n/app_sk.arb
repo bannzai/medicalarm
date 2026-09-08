@@ -176,7 +176,7 @@
   "medicinePausedSnackbar": "Užívanie lieku bolo dočasne pozastavené",
   "medicationHistoryDeletedSnackbar": "Záznam o užití lieku bol zrušený",
   "undo": "Vrátiť späť",
-  "medicationHistoryReverted": "Záznam o užití lieku bol zrušený",
+  "medicationHistoryReverted": "Záznam o užití lieku zrušený",
   "revertedTime": "Čas zrušenia",
   "revertedByMember": "Zrušil(a) {name}",
   "medicationTakenAtLabel": "Užité o {time}",

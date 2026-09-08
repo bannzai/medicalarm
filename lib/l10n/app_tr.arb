@@ -176,7 +176,7 @@
   "medicinePausedSnackbar": "İlacın alımı geçici olarak duraklatıldı",
   "medicationHistoryDeletedSnackbar": "İlaç alma kaydı geri alındı",
   "undo": "Geri al",
-  "medicationHistoryReverted": "İlaç alma kaydı geri alındı",
+  "medicationHistoryReverted": "İlaç alım kaydı geri alındı",
   "revertedTime": "İptal zamanı",
   "revertedByMember": "{name} iptal etti",
   "medicationTakenAtLabel": "{time} alındı",

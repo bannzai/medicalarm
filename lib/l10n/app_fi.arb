@@ -176,7 +176,7 @@
   "medicinePausedSnackbar": "Lääkkeen ottaminen on keskeytetty väliaikaisesti",
   "medicationHistoryDeletedSnackbar": "Lääkkeen ottamisen merkintä kumottiin",
   "undo": "Kumoa",
-  "medicationHistoryReverted": "Lääkkeenottomerkintä kumottu",
+  "medicationHistoryReverted": "Lääkkeenottotieto kumottu",
   "revertedTime": "Peruutusaika",
   "revertedByMember": "{name} peruutti",
   "medicationTakenAtLabel": "Otettu klo {time}",

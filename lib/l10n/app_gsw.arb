@@ -176,7 +176,7 @@
   "medicinePausedSnackbar": "D Iinah vo dem Medikament isch vorübergehend pausiert worde",
   "medicationHistoryDeletedSnackbar": "Medikamenteneitrag rückgängig gmacht",
   "undo": "Rückgängig",
-  "medicationHistoryReverted": "Medikamenteneinnahme rückgängig gemacht",
+  "medicationHistoryReverted": "Medikamenteneintrag rückgängig gemacht",
   "revertedTime": "Stornierigszyt",
   "revertedByMember": "Vo {name} abbroche",
   "medicationTakenAtLabel": "Um {time} iignoh",

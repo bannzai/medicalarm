@@ -176,7 +176,7 @@
   "medicinePausedSnackbar": "Taka lyfsins hefur verið gert hlé á tímabundið",
   "medicationHistoryDeletedSnackbar": "Skráning lyfjainntöku afturkölluð",
   "undo": "Afturkalla",
-  "medicationHistoryReverted": "Skráning lyfjainntöku afturkölluð",
+  "medicationHistoryReverted": "Skráning lyfjatöku afturkölluð",
   "revertedTime": "Tími afturköllunar",
   "revertedByMember": "Hætt við af {name}",
   "medicationTakenAtLabel": "Tekið kl. {time}",

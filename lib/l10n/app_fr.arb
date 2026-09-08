@@ -176,7 +176,7 @@
   "medicinePausedSnackbar": "La prise du médicament a été temporairement suspendue",
   "medicationHistoryDeletedSnackbar": "L’enregistrement de la prise du médicament a été annulé",
   "undo": "Annuler",
-  "medicationHistoryReverted": "Prise de médicament annulée",
+  "medicationHistoryReverted": "Enregistrement de prise de médicament annulé",
   "revertedTime": "Heure d’annulation",
   "revertedByMember": "Annulé par {name}",
   "medicationTakenAtLabel": "Pris à {time}",

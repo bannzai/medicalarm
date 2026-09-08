@@ -176,7 +176,7 @@
   "medicinePausedSnackbar": "Ravimi võtmine on ajutiselt peatatud",
   "medicationHistoryDeletedSnackbar": "Ravimi võtmise kirje tühistati",
   "undo": "Võta tagasi",
-  "medicationHistoryReverted": "Ravimi võtmise kirje tühistatud",
+  "medicationHistoryReverted": "Ravimivõtmise kirje tühistatud",
   "revertedTime": "Tühistamise aeg",
   "revertedByMember": "Tühistas {name}",
   "medicationTakenAtLabel": "Võetud kell {time}",

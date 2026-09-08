@@ -176,7 +176,7 @@
   "medicinePausedSnackbar": "Kunywa dawa kumesitishwa kwa muda",
   "medicationHistoryDeletedSnackbar": "Rekodi ya unywaji wa dawa imebatilishwa",
   "undo": "Tendua",
-  "medicationHistoryReverted": "Rekodi ya unywaji wa dawa imebatilishwa",
+  "medicationHistoryReverted": "Rekodi ya unywaji wa dawa imeghairiwa",
   "revertedTime": "Muda wa kughairi",
   "revertedByMember": "Imeghairiwa na {name}",
   "medicationTakenAtLabel": "Imetumiwa saa {time}",

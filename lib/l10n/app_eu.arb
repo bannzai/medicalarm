@@ -176,7 +176,7 @@
   "medicinePausedSnackbar": "Sendagaiaren hartzea aldi baterako pausatu da",
   "medicationHistoryDeletedSnackbar": "Botikaren hartze-erregistroa desegin da",
   "undo": "Desegin",
-  "medicationHistoryReverted": "Botikak hartzeko erregistroa desegin da",
+  "medicationHistoryReverted": "Botikaren erregistroa leheneratuta",
   "revertedTime": "Ezeztatzeko ordua",
   "revertedByMember": "{name}(e)k ezeztatu du",
   "medicationTakenAtLabel": "{time} hartuta",

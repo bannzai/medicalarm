@@ -176,7 +176,7 @@
   "medicinePausedSnackbar": "औषध घेणे तात्पुरते थांबवले आहे",
   "medicationHistoryDeletedSnackbar": "औषध घेतल्याची नोंद रद्द केली",
   "undo": "पूर्ववत करा",
-  "medicationHistoryReverted": "औषध घेतल्याची नोंद रद्द केली",
+  "medicationHistoryReverted": "औषध सेवनाची नोंद रद्द केली",
   "revertedTime": "रद्द करण्याची वेळ",
   "revertedByMember": "{name} यांनी रद्द केले",
   "medicationTakenAtLabel": "{time} वाजता घेतले",

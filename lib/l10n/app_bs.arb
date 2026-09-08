@@ -176,7 +176,7 @@
   "medicinePausedSnackbar": "Uzimanje lijeka je privremeno pauzirano",
   "medicationHistoryDeletedSnackbar": "Zapis uzimanja lijeka je poništen",
   "undo": "Poništi",
-  "medicationHistoryReverted": "Evidencija uzimanja lijeka je poništena",
+  "medicationHistoryReverted": "Otkazivanje zapisa o uzimanju lijeka",
   "revertedTime": "Vrijeme poništavanja",
   "revertedByMember": "Otkazao/la {name}",
   "medicationTakenAtLabel": "Uzeto u {time}",

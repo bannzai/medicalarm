@@ -176,7 +176,7 @@
   "medicinePausedSnackbar": "Die neem van die medisyne is tydelik onderbreek",
   "medicationHistoryDeletedSnackbar": "Medikasie-inskrywing ongedaan gemaak",
   "undo": "Ontdoen",
-  "medicationHistoryReverted": "Medikasie-aantekening teruggedraai",
+  "medicationHistoryReverted": "Medikasie-inskrywing gekanselleer",
   "revertedTime": "Kansellasietyd",
   "revertedByMember": "Deur {name} gekanselleer",
   "medicationTakenAtLabel": "{time} Ingeneem",

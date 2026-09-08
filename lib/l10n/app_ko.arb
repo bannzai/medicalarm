@@ -176,7 +176,7 @@
   "medicinePausedSnackbar": "약 복용을 일시 중지했습니다",
   "medicationHistoryDeletedSnackbar": "복약 기록을 취소했습니다",
   "undo": "실행 취소",
-  "medicationHistoryReverted": "복약 기록이 취소되었습니다",
+  "medicationHistoryReverted": "복약 기록 취소됨",
   "revertedTime": "취소 시간",
   "revertedByMember": "{name}님이 취소함",
   "medicationTakenAtLabel": "{time} 복용함",
