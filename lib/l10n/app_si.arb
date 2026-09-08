@@ -179,7 +179,7 @@
   "medicationHistoryReverted": "ඖෂධ ගැනීමේ වාර්තාව අවලංගු කරන ලදී",
   "revertedTime": "අවලංගු කළ වේලාව",
   "revertedByMember": "{name} විසින් අවලංගු කරන ලදී",
-  "medicationTakenAtLabel": "{time} ට ගත්තා",
+  "medicationTakenAtLabel": "{time} ට ගන්නා ලදී",
   "medicineResumedSnackbar": "ඖෂධ ගැනීම නැවත ආරම්භ කර ඇත",
   "medicineEditTooltip": "ඖෂධය සංස්කරණය කරන්න",
   "groups": "කණ්ඩායම්",

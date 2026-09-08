@@ -179,7 +179,7 @@
   "medicationHistoryReverted": "רישום נטילת התרופה בוטל",
   "revertedTime": "שעת הביטול",
   "revertedByMember": "בוטל על ידי {name}",
-  "medicationTakenAtLabel": "נלקח ב־{time}",
+  "medicationTakenAtLabel": "נלקח בשעה {time}",
   "medicineResumedSnackbar": "נטילת התרופה חודשה",
   "medicineEditTooltip": "עריכת תרופה",
   "groups": "קבוצות",

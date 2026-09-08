@@ -179,7 +179,7 @@
   "medicationHistoryReverted": "የመድሃኒት መዝገብ ተሰርዟል",
   "revertedTime": "የመሰረዝ ሰዓት",
   "revertedByMember": "በ{name} ተሰርዟል",
-  "medicationTakenAtLabel": "በ{time} ተወስዷል",
+  "medicationTakenAtLabel": "{time} ተወስዷል",
   "medicineResumedSnackbar": "የመድኃኒት አጠቃቀም ቀጥሏል",
   "medicineEditTooltip": "መድኃኒት አርትዕ",
   "groups": "ቡድኖች",
