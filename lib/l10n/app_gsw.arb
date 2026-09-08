@@ -41,7 +41,7 @@
   "everyXDaysDescription": "Z. B. alli 2 Täg, alli 3 Täg",
   "specificWeekdaysDescription": "Z. B. numme am Mäntig; am Mittwuch und am Friitig",
   "medicineFormValidationError": "Name und Einnahmeplan eingeben",
-  "quantity": "Mängi",
+  "quantity": "Menge",
   "quantityExample": "Bispiel: 1 Tablette, 100 mg",
   "medicationStartDate": "Startdatum vo de Einnahm",
   "otherInformation": "Weitere",

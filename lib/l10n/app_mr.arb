@@ -41,7 +41,7 @@
   "everyXDaysDescription": "उदा., दर २ दिवसांनी, दर ३ दिवसांनी",
   "specificWeekdaysDescription": "उदा.: फक्त सोमवारी; बुधवारी आणि शुक्रवारी",
   "medicineFormValidationError": "नाव आणि औषध घेण्याचे वेळापत्रक प्रविष्ट करा",
-  "quantity": "प्रमाण",
+  "quantity": "मात्रा",
   "quantityExample": "उदाहरण: 1 गोळी, 100 मिग्रॅ",
   "medicationStartDate": "सेवन सुरू करण्याची तारीख",
   "otherInformation": "इतर",

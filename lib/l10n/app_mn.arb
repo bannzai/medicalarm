@@ -41,7 +41,7 @@
   "everyXDaysDescription": "Жишээ нь: 2 өдөр тутамд, 3 өдөр тутамд",
   "specificWeekdaysDescription": "Жишээ нь: зөвхөн даваа гарагт; лхагва, баасан гарагт",
   "medicineFormValidationError": "Нэр болон эм уух хуваарийг оруулна уу",
-  "quantity": "Тоо хэмжээ",
+  "quantity": "Тун",
   "quantityExample": "Жишээ: 1 шахмал, 100 мг",
   "medicationStartDate": "Ууж эхлэх огноо",
   "otherInformation": "Бусад",
