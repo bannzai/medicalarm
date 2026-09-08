@@ -90,7 +90,7 @@
   "notificationScheduleLimit": "Bilangan jadual pemberitahuan",
   "addMedicine": "Tambah ubat",
   "medicineMaxCount": "Anda boleh mendaftarkan sehingga {count} ubat.",
-  "increaseMedicineLimitWithPremium": "Tingkatkan had kepada {count} dengan pelan premium",
+  "increaseMedicineLimitWithPremium": "Tingkatkan had kepada {count} dengan pelan Premium",
   "aboutApp": "Tentang Aplikasi",
   "viewPremiumPlan": "Lihat Pelan Premium",
   "cancelSubscriptionInstruction": "Setelah pembelian, pembatalan pembaruan automatik boleh dilakukan di dalam tetapan akaun aplikasi {storeName}. (Pembatalan pembaruan automatik tidak boleh dilakukan dari dalam aplikasi).",

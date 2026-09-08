@@ -90,7 +90,7 @@
   "notificationScheduleLimit": "Bilang ng mga iskedyul ng notification",
   "addMedicine": "Magdagdag ng gamot",
   "medicineMaxCount": "Maaari kang magrehistro ng hanggang {count} gamot.",
-  "increaseMedicineLimitWithPremium": "Itakdang itataas ang limitasyon sa pagrehistro ng gamot sa premium plan sa {count}.",
+  "increaseMedicineLimitWithPremium": "Dagdagan ang limit sa {count} gamit ang Premium plan",
   "aboutApp": "Tungkol sa App",
   "viewPremiumPlan": "Tingnan ang Premium Plan",
   "cancelSubscriptionInstruction": "Pagkatapos ng pagbili, maaari mong kanselahin ang auto-renewal sa mga setting ng account ng {storeName} app. (Hindi mo maikakansela ang auto-renewal mula sa loob ng app.)",

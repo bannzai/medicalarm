@@ -90,7 +90,7 @@
   "notificationScheduleLimit": "Билдирмелердин графиктеринин саны",
   "addMedicine": "Дары кошуу",
   "medicineMaxCount": "Эң көп дегенде {count} дары каттай аласыз.",
-  "increaseMedicineLimitWithPremium": "Премиум планына катышуу менен максимумду {count} га жакындатуу",
+  "increaseMedicineLimitWithPremium": "Premium планы менен чекти {count}ге чейин көбөйтүңүз",
   "aboutApp": "Килемчилик",
   "viewPremiumPlan": "Премиум пландарын көрүү",
   "cancelSubscriptionInstruction": "Сатып алгандан кийин, автоматтык жаңыртууну токтотуу {storeName} тиркемесинин аккарштуулук жөндөөлөрүндө жүргүзүлөт. (Тиркемеден автоматтык жаңыртууну токтотуу жүргүзүлбөйт).",

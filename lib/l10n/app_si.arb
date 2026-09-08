@@ -90,7 +90,7 @@
   "notificationScheduleLimit": "දැනුම්දීම් කාලසටහන් ගණන",
   "addMedicine": "ඖෂධය එක් කරන්න",
   "medicineMaxCount": "ඔබට උපරිම වශයෙන් ඖෂධ {count}ක් ලියාපදිංචි කළ හැක.",
-  "increaseMedicineLimitWithPremium": "ප්‍රීමියම් සැලැස්මකින් සීමාව {count} දක්වා වැඩිවීමේ සළකුණ",
+  "increaseMedicineLimitWithPremium": "Premium සැලසුම සමඟ සීමාව {count} දක්වා වැඩි කරන්න",
   "aboutApp": "ඔබේ ඇප් පිළිබඳ",
   "viewPremiumPlan": "පැමිණිම් ගිණුම බලන්න",
   "cancelSubscriptionInstruction": "ගැනීමෙන් පසුව, ස්වයංක්‍රීය නවීකරණය අවලංගු කිරීම {storeName} යෙදුමේ ගිණුම සකසීම් මැදිහත්වීමෙන් කළ හැක. (යෙදුමේ සිට ස්වයංක්‍රීය නවීකරණය අවලංගු කළ නොහැක) .",

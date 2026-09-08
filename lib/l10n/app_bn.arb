@@ -90,7 +90,7 @@
   "notificationScheduleLimit": "বিজ্ঞপ্তির সময়সূচির সংখ্যা",
   "addMedicine": "ওষুধ যোগ করুন",
   "medicineMaxCount": "আপনি সর্বাধিক {count}টি ওষুধ নিবন্ধন করতে পারবেন।",
-  "increaseMedicineLimitWithPremium": "প্রীমিয়াম পরিকল্পনায় সীমা {count} এ বাড়ানো",
+  "increaseMedicineLimitWithPremium": "প্রিমিয়াম প্ল্যানে সীমা {count}-এ বাড়ান",
   "aboutApp": "অ্যাপ সম্পর্কে",
   "viewPremiumPlan": "প্রিমিয়াম পরিকল্পনা দেখুন",
   "cancelSubscriptionInstruction": "কেনার পর, স্বয়ংক্রিয় আপডেট বাতিল করা যাবে {storeName} অ্যাপের অ্যাকাউন্ট সেটিংসে। (অ্যাপের মাধ্যমে স্বয়ংক্রিয় আপডেট বাতিল করা যাবে না)।",

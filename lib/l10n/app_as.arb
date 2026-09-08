@@ -90,7 +90,7 @@
   "notificationScheduleLimit": "জাননী সময়সূচীৰ সংখ্যা",
   "addMedicine": "ঔষধ যোগ কৰক",
   "medicineMaxCount": "আপুনি সৰ্বাধিক {count}টা ঔষধ পঞ্জীয়ন কৰিব পাৰে।",
-  "increaseMedicineLimitWithPremium": "প্ৰিমিয়াম পৰিকল্পনাৰ সৈতে সম্ভৱনাক {count}লৈ বৃদ্ধি কৰক",
+  "increaseMedicineLimitWithPremium": "প্ৰিমিয়াম প্লেনেৰে সীমা {count} লৈ বৃদ্ধি কৰক",
   "aboutApp": "অ্যাপ সম্পর্কে",
   "viewPremiumPlan": "প্ৰিমিয়াম প্ল্যান চাওক",
   "cancelSubscriptionInstruction": "কিনুন পর, স্বয়ংক্রিয় আপডেট বাতিল {storeName} অ্যাপের অ্যাকাউন্ট সেটিংসের মাধ্যমে করা যাবে। (অ্যাপের ভিতর থেকে স্বয়ংক্রিয় আপডেট বাতিল করা যাবে না)।",

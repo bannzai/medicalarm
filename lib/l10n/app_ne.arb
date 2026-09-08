@@ -90,7 +90,7 @@
   "notificationScheduleLimit": "सूचना तालिकाहरूको सङ्ख्या",
   "addMedicine": "औषधि थप्नुहोस्",
   "medicineMaxCount": "तपाईंले बढीमा {count} वटा औषधि दर्ता गर्न सक्नुहुन्छ।",
-  "increaseMedicineLimitWithPremium": "प्रीमियम योजना संगको अधिकतम सीमा {count} मा बढाउनुहोस्।",
+  "increaseMedicineLimitWithPremium": "प्रिमियम योजनासँग सीमा {count} मा बढाउनुहोस्",
   "aboutApp": "ऐप बारेमा",
   "viewPremiumPlan": "प्रीमियम योजना हेर्नुहोस्",
   "cancelSubscriptionInstruction": "खरीद गरेपछि, स्वचालित नवीकरण रद्द {storeName} अनुप्रयोगको खाता सेटिंगमा गर्न सकिन्छ। (अनुप्रयोग भित्रबाट स्वचालित नवीकरण रद्द गर्न सकिँदैन)।",

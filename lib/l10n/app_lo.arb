@@ -90,7 +90,7 @@
   "notificationScheduleLimit": "ຈຳນວນຕາຕະລາງການແຈ້ງເຕືອນ",
   "addMedicine": "ເພີ່ມຢາ",
   "medicineMaxCount": "ທ່ານສາມາດລົງທະບຽນຢາໄດ້ສູງສຸດ {count} ລາຍການ.",
-  "increaseMedicineLimitWithPremium": "ເພີ່ມຂອບເຂດໃນແຜນບໍ່ລາຄາສູງເປັນ {count}",
+  "increaseMedicineLimitWithPremium": "ເພີ່ມຂີດຈຳກັດເປັນ {count} ດ້ວຍແຜນ Premium",
   "aboutApp": "ແອບແມ່ນກ່ຽວກັບ",
   "viewPremiumPlan": "ເບິ່ງບັດແພນພຣີເມີນ",
   "cancelSubscriptionInstruction": "購入後、自動更新の解約は{storeName}アプリのアカウント設定で行えます。(アプリ内から自動更新の解約は行なえません)。",

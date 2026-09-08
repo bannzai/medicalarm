@@ -90,7 +90,7 @@
   "notificationScheduleLimit": "عدد جداول الإشعارات",
   "addMedicine": "إضافة دواء",
   "medicineMaxCount": "يمكنك تسجيل ما يصل إلى {count} من الأدوية.",
-  "increaseMedicineLimitWithPremium": "قم بزيادة الحد الأقصى إلى {count} مع خطة البريميوم",
+  "increaseMedicineLimitWithPremium": "زيادة الحد إلى {count} مع الخطة المميزة",
   "aboutApp": "حول التطبيق",
   "viewPremiumPlan": "عرض خطة البريميوم",
   "cancelSubscriptionInstruction": "بعد الشراء، يمكنك إلغاء التجديد التلقائي من إعدادات حساب {storeName} داخل التطبيق. (لا يمكن إلغاء التجديد التلقائي من داخل التطبيق).",

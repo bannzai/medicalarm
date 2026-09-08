@@ -90,7 +90,7 @@
   "notificationScheduleLimit": "Antal aviseringsscheman",
   "addMedicine": "Lägg till läkemedel",
   "medicineMaxCount": "Du kan registrera upp till {count} läkemedel.",
-  "increaseMedicineLimitWithPremium": "Öka gränsen till {count} med premiumplanen",
+  "increaseMedicineLimitWithPremium": "Öka gränsen till {count} med Premium-planen",
   "aboutApp": "Om appen",
   "viewPremiumPlan": "Visa premiumplan",
   "cancelSubscriptionInstruction": "Efter köpet kan du avbryta automatisk förnyelse i {storeName}-appens kontoinställningar. (Automatisk förnyelse kan inte avbrytas från appen.)",

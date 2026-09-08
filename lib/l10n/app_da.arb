@@ -90,7 +90,7 @@
   "notificationScheduleLimit": "Antal notifikationsplaner",
   "addMedicine": "Tilføj medicin",
   "medicineMaxCount": "Du kan registrere op til {count} medicinpræparater.",
-  "increaseMedicineLimitWithPremium": "Forøg grænsen til {count} med premiumplanen",
+  "increaseMedicineLimitWithPremium": "Hæv grænsen til {count} med Premium-planen",
   "aboutApp": "Om appen",
   "viewPremiumPlan": "Se premiumplanen",
   "cancelSubscriptionInstruction": "Efter køb kan du annullere automatisk fornyelse i {storeName} appens kontoindstillinger. (Du kan ikke annullere automatisk fornyelse fra appen).",

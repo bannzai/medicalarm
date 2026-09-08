@@ -90,7 +90,7 @@
   "notificationScheduleLimit": "შეტყობინებების განრიგების რაოდენობა",
   "addMedicine": "მედიკამენტის დამატება",
   "medicineMaxCount": "შეგიძლიათ დაარეგისტრიროთ მაქსიმუმ {count} მედიკამენტი.",
-  "increaseMedicineLimitWithPremium": "პრემიუმ გეგმით ზღვარი გაზარდეთ {count} მარშრუტზე.",
+  "increaseMedicineLimitWithPremium": "Premium გეგმით ლიმიტი გაზარდეთ {count}-მდე",
   "aboutApp": "წარმოგიდგენთ აპლიკაციას",
   "viewPremiumPlan": "პრემიუმ გეგმას შეხედეთ",
   "cancelSubscriptionInstruction": "შიძინთქავთ მისი გაწვდილიებას, ავტომატური განახლების გაწვდილიება შეგიძლიათ {storeName} აპლიკაციის ანგარიშის პარამეტრებში. (აპლიკაციიდან ავტომატური განახლებების გაწვდილიება არ შეიძლება).",

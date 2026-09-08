@@ -90,7 +90,7 @@
   "notificationScheduleLimit": "Idadi ya ratiba za arifa",
   "addMedicine": "Ongeza dawa",
   "medicineMaxCount": "Unaweza kusajili hadi dawa {count}.",
-  "increaseMedicineLimitWithPremium": "Ongezeko la mpaka hadi {count} katika mpango wa Premium",
+  "increaseMedicineLimitWithPremium": "Ongeza kikomo hadi {count} ukitumia mpango wa Premium",
   "aboutApp": "Kuhusu programu",
   "viewPremiumPlan": "Tazama mpango wa Premium",
   "cancelSubscriptionInstruction": "Baada ya kununua, unaweza kusitisha uwazi wa kiotomatiki kupitia mipangilio ya akaunti ya {storeName} kwenye programu. (Haiwezekani kusitisha uwazi wa kiotomatiki kutoka ndani ya programu.)",

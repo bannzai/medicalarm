@@ -90,7 +90,7 @@
   "notificationScheduleLimit": "Número de programacións de notificacións",
   "addMedicine": "Engadir medicamento",
   "medicineMaxCount": "Podes rexistrar ata {count} medicamentos.",
-  "increaseMedicineLimitWithPremium": "Aumenta o límite a {count} co plan premium",
+  "increaseMedicineLimitWithPremium": "Aumenta o límite a {count} co plan Premium",
   "aboutApp": "Sobre a aplicación",
   "viewPremiumPlan": "Ver o plans premium",
   "cancelSubscriptionInstruction": "Despois da compra, pode cancelar a renovación automática nas configuracións da conta da aplicación {storeName}. (Non se pode cancelar a renovación automática desde dentro da aplicación).",

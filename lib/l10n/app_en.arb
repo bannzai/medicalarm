@@ -90,7 +90,7 @@
   "notificationScheduleLimit": "Number of notification schedules",
   "addMedicine": "Add medicine",
   "medicineMaxCount": "You can register up to {count} medications.",
-  "increaseMedicineLimitWithPremium": "Increase the limit to {count} with the premium plan.",
+  "increaseMedicineLimitWithPremium": "Increase the limit to {count} with the Premium plan",
   "aboutApp": "About the App",
   "viewPremiumPlan": "View Premium Plan",
   "cancelSubscriptionInstruction": "After purchase, you can cancel the auto-renewal in the account settings of the {storeName} app. (Auto-renewal cancellation cannot be done from within the app).",

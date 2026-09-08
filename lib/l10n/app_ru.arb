@@ -90,7 +90,7 @@
   "notificationScheduleLimit": "Количество расписаний уведомлений",
   "addMedicine": "Добавить лекарство",
   "medicineMaxCount": "Можно зарегистрировать до {count} лекарств.",
-  "increaseMedicineLimitWithPremium": "Увеличьте лимит на {count} с помощью премиум-плана.",
+  "increaseMedicineLimitWithPremium": "Увеличьте лимит до {count} с премиум-планом",
   "aboutApp": "О приложении",
   "viewPremiumPlan": "Посмотреть премиум-план",
   "cancelSubscriptionInstruction": "После покупки вы можете отменить автоматическое обновление в настройках аккаунта приложения {storeName}. (Отмена автоматического обновления недоступна в приложении.)",

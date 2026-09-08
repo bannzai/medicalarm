@@ -90,7 +90,7 @@
   "notificationScheduleLimit": "Мэдэгдлийн хуваарийн тоо",
   "addMedicine": "Эм нэмэх",
   "medicineMaxCount": "Та {count} хүртэл эм бүртгэх боломжтой.",
-  "increaseMedicineLimitWithPremium": "Премиум төлөвлөгөөнд дээд хязгаарыг {count} хүртэл нэмэгдүүлэх",
+  "increaseMedicineLimitWithPremium": "Premium багцаар хязгаарыг {count} болгож нэмэгдүүлээрэй",
   "aboutApp": "Аппликейшн тухай",
   "viewPremiumPlan": "Төлбөртэй төлөвлөгөөг үзэх",
   "cancelSubscriptionInstruction": "Худалдаж авсны дараа, автомат шинэчлэлтийг {storeName} аппын акаунтын тохиргоонд зогсоож болно. (Апп дотор автомат шинэчлэлтийг зогсоох боломжгүй).",

@@ -90,7 +90,7 @@
   "notificationScheduleLimit": "Aantal kennisgewingskedules",
   "addMedicine": "Voeg medikasie by",
   "medicineMaxCount": "Jy kan tot {count} medisyne registreer.",
-  "increaseMedicineLimitWithPremium": "Verhoog die limiet tot {count} met die premium plan",
+  "increaseMedicineLimitWithPremium": "Verhoog die limiet na {count} met die Premium-plan",
   "aboutApp": "Oor die toepassing",
   "viewPremiumPlan": "Kyk Premium-plan",
   "cancelSubscriptionInstruction": "Na aankoop kan jy die outomatiese hernuwing annuleer in die rekeninginstellings van die {storeName} app. (Jy kan nie die outomatiese hernuwing binnenshuise in die app annuleer).",

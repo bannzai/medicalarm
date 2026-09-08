@@ -90,7 +90,7 @@
   "notificationScheduleLimit": "အကြောင်းကြားချက် အချိန်ဇယားအရေအတွက်",
   "addMedicine": "ဆေးထည့်ရန်",
   "medicineMaxCount": "ဆေးဝါး {count} ခုအထိ စာရင်းသွင်းနိုင်ပါသည်။",
-  "increaseMedicineLimitWithPremium": "Tingkatkan had kepada {count} dengan pelan premium",
+  "increaseMedicineLimitWithPremium": "Premium အစီအစဉ်ဖြင့် ကန့်သတ်ချက်ကို {count} အထိ တိုးမြှင့်ပါ",
   "aboutApp": "Tentang Aplikasi",
   "viewPremiumPlan": "Lihat pelan premium",
   "cancelSubscriptionInstruction": "Selepas pembelian, anda boleh membatalkan pembaharuan automatik dalam tetapan akaun aplikasi {storeName}. (Pembatalan pembaharuan automatik tidak boleh dilakukan dari dalam aplikasi).",

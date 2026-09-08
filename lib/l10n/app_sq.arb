@@ -90,7 +90,7 @@
   "notificationScheduleLimit": "Numri i orareve të njoftimeve",
   "addMedicine": "Shto ilaç",
   "medicineMaxCount": "Mund të regjistroni deri në {count} ilaçe.",
-  "increaseMedicineLimitWithPremium": "Shkalla premium e rrit kufirin në {count}",
+  "increaseMedicineLimitWithPremium": "Rriteni kufirin në {count} me planin Premium",
   "aboutApp": "Për Shkëmbimin e Aplikacionit",
   "viewPremiumPlan": "Shiko planin premium",
   "cancelSubscriptionInstruction": "Pas blerjes, mund të anullohet rinovimi automatik në cilësimet e llogarisë {storeName} brenda aplikacionit. (Rinovimi automatik nuk mund të anulohet nga brenda aplikacionit.)",

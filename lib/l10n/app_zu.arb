@@ -90,7 +90,7 @@
   "notificationScheduleLimit": "Inani lamashejuli ezaziso",
   "addMedicine": "Engeza umuthi",
   "medicineMaxCount": "Ungabhalisa imithi efika ku-{count}.",
-  "increaseMedicineLimitWithPremium": "Phakanyiswa uhlelo lwe-Premium ukuze wandise umkhawulo ukuze u-{count}",
+  "increaseMedicineLimitWithPremium": "Khulisa umkhawulo ube ngu-{count} ngohlelo lwe-Premium",
   "aboutApp": "Mayelana ne-app",
   "viewPremiumPlan": "Buka uHlelo lwePremium",
   "cancelSubscriptionInstruction": "Ngemuva kokuthenga, ungayeka ukuvuselelwa ngokuzenzakalela ezilungiselelweni ze-akhawunti ye-{storeName} app. (Ungakwazi ukuhoxisa ukuvuselelwa okuzenzakalelayo ngaphakathi kwesoftware.)",

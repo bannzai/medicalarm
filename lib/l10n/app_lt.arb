@@ -90,7 +90,7 @@
   "notificationScheduleLimit": "Pranešimų tvarkaraščių skaičius",
   "addMedicine": "Pridėti vaistą",
   "medicineMaxCount": "Galite užregistruoti iki {count} vaistų.",
-  "increaseMedicineLimitWithPremium": "Didžiausia riba, kurią galima padidinti su „Premium“ planu, yra {count}.",
+  "increaseMedicineLimitWithPremium": "Naudodami „Premium“ planą padidinkite limitą iki {count}",
   "aboutApp": "Apie programėlę",
   "viewPremiumPlan": "Peržiūrėti premium planą",
   "cancelSubscriptionInstruction": "Po pirkimo automatinį atnaujinimą galite nutraukti {storeName} programos paskyros nustatymuose. (Programoje automatinio atnaujinimo nutraukti negalima).",

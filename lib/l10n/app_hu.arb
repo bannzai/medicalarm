@@ -90,7 +90,7 @@
   "notificationScheduleLimit": "Értesítési ütemezések száma",
   "addMedicine": "Gyógyszer hozzáadása",
   "medicineMaxCount": "Legfeljebb {count} gyógyszert regisztrálhat.",
-  "increaseMedicineLimitWithPremium": "A prémium tervvel növelheti a regisztrált gyógyszerek számát {count}-ra.",
+  "increaseMedicineLimitWithPremium": "Növelje a korlátot {count} értékre a Prémium csomaggal",
   "aboutApp": "Az alkalmazásról",
   "viewPremiumPlan": "Nézd meg a prèmium tervet",
   "cancelSubscriptionInstruction": "A vásárlás után az automatikus megújítást a {storeName} alkalmazás fiókbeállításaiban lehet lemondani. (Az alkalmazáson belül nem lehet lemondani az automatikus megújítást.)",

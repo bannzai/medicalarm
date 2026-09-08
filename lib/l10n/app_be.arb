@@ -90,7 +90,7 @@
   "notificationScheduleLimit": "Колькасць раскладаў апавяшчэнняў",
   "addMedicine": "Дадаць лекі",
   "medicineMaxCount": "Можна зарэгістраваць да {count} лекаў.",
-  "increaseMedicineLimitWithPremium": "Павышэнне максімуму для запісаў лекаў у прэміум-плане да {count}",
+  "increaseMedicineLimitWithPremium": "Павялічце ліміт да {count} з прэміум-планам",
   "aboutApp": "Пра прыкладанні",
   "viewPremiumPlan": "Паказаць прэміум-план",
   "cancelSubscriptionInstruction": "Пасля пакупкі вы можаце адмовіцца ад аўтаматычнага абнаўлення ў наладах акаўнта {storeName} прыкладання. (Аднаўляць аўтаматычнае абнаўленне знутры прыкладання нельга).",

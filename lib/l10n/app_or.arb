@@ -90,7 +90,7 @@
   "notificationScheduleLimit": "ବିଜ୍ଞପ୍ତି ସୂଚୀ ସଂଖ୍ୟା",
   "addMedicine": "ଔଷଧ ଯୋଡ଼ନ୍ତୁ",
   "medicineMaxCount": "ଆପଣ ସର୍ବାଧିକ {count}ଟି ଔଷଧ ପଞ୍ଜିକରଣ କରିପାରିବେ।",
-  "increaseMedicineLimitWithPremium": "プレミアムプランで上限を{count}に増やす",
+  "increaseMedicineLimitWithPremium": "ପ୍ରିମିୟମ୍ ପ୍ଲାନ୍ ସହିତ ସୀମାକୁ {count} ପର୍ଯ୍ୟନ୍ତ ବଢ଼ାନ୍ତୁ",
   "aboutApp": "অ্যাপ সম্পর্কে",
   "viewPremiumPlan": "ପ୍ରିମିୟମ୍ ପ୍ଲାନ୍ ଦେଖନ୍ତୁ",
   "cancelSubscriptionInstruction": "खरीदने के बाद, स्वचालित नवीनीकरण रद्द {storeName} ऐप के खाते की सेटिंग्स में किया जा सकता है। (ऐप के भीतर से स्वचालित नवीनीकरण रद्द नहीं किया जा सकता)।",

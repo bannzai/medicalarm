@@ -90,7 +90,7 @@
   "notificationScheduleLimit": "Fjöldi tilkynningaáætlana",
   "addMedicine": "Bæta við lyfi",
   "medicineMaxCount": "Þú getur skráð allt að {count} lyf.",
-  "increaseMedicineLimitWithPremium": "Auka takmarkið í {count} með Premium áætlun",
+  "increaseMedicineLimitWithPremium": "Hækkaðu hámarkið í {count} með Premium-áskriftinni",
   "aboutApp": "Um app um upplýsingum um appið",
   "viewPremiumPlan": "Skoða Premium áætlun",
   "cancelSubscriptionInstruction": "Eftir kaup geturðu sagt upp sjálfvirkum endurnýjun í {storeName} appinu í aðgangsstillingum. (Ekki er hægt að segja upp sjálfvirkri endurnýjun innan appsins).",

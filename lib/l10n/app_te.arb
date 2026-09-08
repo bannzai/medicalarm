@@ -90,7 +90,7 @@
   "notificationScheduleLimit": "నోటిఫికేషన్ షెడ్యూళ్ల సంఖ్య",
   "addMedicine": "మందును జోడించండి",
   "medicineMaxCount": "మీరు గరిష్టంగా {count} మందులను నమోదు చేయవచ్చు.",
-  "increaseMedicineLimitWithPremium": "ప్రీమియం ప్లాన్‌లో పరిమితిని {count} వరకు పెంచండి",
+  "increaseMedicineLimitWithPremium": "ప్రీమియం ప్లాన్‌తో పరిమితిని {count}కి పెంచండి",
   "aboutApp": "యాప్ గురించి",
   "viewPremiumPlan": "ప్రెమియం ప్లాన్‌ని చూడండి",
   "cancelSubscriptionInstruction": "కొనుగోలు చేసిన తరువాత, స్వయంచాలకంగా నవీకరించినన్ని రద్దు చేయడానికి {storeName} యాప్ యొక్క ఖాతా సెట్టింగ్స్ లో చేయవచ్చు. (యాప్ లో నుండి స్వయంచాలక నవీకరణని రద్దు చేయడం సాధ్యం లేదు).",

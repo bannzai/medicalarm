@@ -90,7 +90,7 @@
   "notificationScheduleLimit": "Aantal meldingsschema's",
   "addMedicine": "Medicijn toevoegen",
   "medicineMaxCount": "Je kunt maximaal {count} medicijnen registreren.",
-  "increaseMedicineLimitWithPremium": "Verhoog de limiet naar {count} met het premium abonnement.",
+  "increaseMedicineLimitWithPremium": "Verhoog de limiet naar {count} met het Premium-abonnement",
   "aboutApp": "Over de app",
   "viewPremiumPlan": "Bekijk premiumplan",
   "cancelSubscriptionInstruction": "Na aankoop kunt u de automatische verlenging annuleren in de accountinstellingen van de {storeName} app. (Automatische verlenging kan niet vanuit de app zelf worden geannuleerd).",

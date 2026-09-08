@@ -90,7 +90,7 @@
   "notificationScheduleLimit": "Broj rasporeda obavijesti",
   "addMedicine": "Dodaj lijek",
   "medicineMaxCount": "Možete registrovati do {count} lijekova.",
-  "increaseMedicineLimitWithPremium": "Povećajte limit na {count} sa premium planom",
+  "increaseMedicineLimitWithPremium": "Povećajte ograničenje na {count} uz Premium plan",
   "aboutApp": "O aplikaciji",
   "viewPremiumPlan": "Pogledajte premium plan",
   "cancelSubscriptionInstruction": "Nakon kupovine, otkazivanje automatskog obnavljanja može se izvršiti u postavkama računa {storeName} aplikacije. (Otkazivanje automatskog obnavljanja nije moguće izvršiti unutar aplikacije).",

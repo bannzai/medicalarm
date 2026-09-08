@@ -90,7 +90,7 @@
   "notificationScheduleLimit": "Numărul programărilor de notificări",
   "addMedicine": "Adaugă medicament",
   "medicineMaxCount": "Puteți înregistra până la {count} medicamente.",
-  "increaseMedicineLimitWithPremium": "Crește limita la {count} cu planul premium",
+  "increaseMedicineLimitWithPremium": "Măriți limita la {count} cu planul Premium",
   "aboutApp": "Despre aplicație",
   "viewPremiumPlan": "Vezi planul premium",
   "cancelSubscriptionInstruction": "După achiziție, anularea actualizării automate se poate face din setările contului {storeName} din aplicație. (Anularea actualizării automate nu se poate face din interiorul aplicației).",

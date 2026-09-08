@@ -90,7 +90,7 @@
   "notificationScheduleLimit": "Počet plánů oznámení",
   "addMedicine": "Přidat lék",
   "medicineMaxCount": "Můžete zaregistrovat až {count} léků.",
-  "increaseMedicineLimitWithPremium": "Zvyšte limit na {count} s prémiovým plánem",
+  "increaseMedicineLimitWithPremium": "Zvyšte limit na {count} s prémiovým tarifem",
   "aboutApp": "O aplikaci",
   "viewPremiumPlan": "Zobrazit prémiový plán",
   "cancelSubscriptionInstruction": "Po zakoupení můžete zrušit automatické obnovení v nastavení účtu aplikace {storeName}. (Zrušení automatického obnovení nelze provést přímo v aplikaci).",
