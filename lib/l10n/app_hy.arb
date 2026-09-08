@@ -175,7 +175,7 @@
   "medicationPauseDescription": "Անջատելու դեպքում այն կհեռացվի դեղերի էկրանից և ծանուցումներից։",
   "medicinePausedSnackbar": "Դեղամիջոցի ընդունումը ժամանակավորապես դադարեցվեց",
   "medicationHistoryDeletedSnackbar": "Դեղի ընդունման գրառումը չեղարկվեց",
-  "undo": "Հետարկել",
+  "undo": "Չեղարկել",
   "medicationHistoryReverted": "Դեղորայքի ընդունման գրառման չեղարկում",
   "revertedTime": "Չեղարկման ժամանակը",
   "revertedByMember": "{name}-ը չեղարկել է",
