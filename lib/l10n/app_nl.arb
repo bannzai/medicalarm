@@ -121,7 +121,7 @@
   "purchaseNotAllowed": "Aankopen zijn niet toegestaan op dit apparaat",
   "purchaseErrorInvalidCredentials": "Aankoop mislukt. Probeer het later opnieuw. Als het probleem aanhoudt, neem dan contact met ons op via Instellingen > Contact opnemen. Details: {message}",
   "purchaseErrorUnexpectedBackend": "De aankoop kan momenteel niet worden voltooid. Probeer het later opnieuw. Neem contact met ons op via Instellingen > Contact als het probleem aanhoudt. Details: {message}",
-  "purchaseErrorOperationInProgress": "De aankoopverwerking is al aan de gang. Controleer het later opnieuw.",
+  "purchaseErrorOperationInProgress": "Er wordt al een aankoop verwerkt. Probeer het later opnieuw.",
   "purchaseErrorInsufficientPermissions": "Met uw {accountName} kunt u zich niet aanmelden voor het plan. Controleer uw betalingsinformatie en probeer het opnieuw.",
   "purchaseErrorPaymentPending": "Betaling is onderbroken. Controleer {storeName} met het ingelogde account {accountName}.",
   "premiumUserThanksTitle": "Premium lid",

@@ -121,7 +121,7 @@
   "purchaseNotAllowed": "Purchases are not allowed on this device",
   "purchaseErrorInvalidCredentials": "The purchase failed. Please try again later. If the problem persists, contact us via Settings > Contact Us. Details: {message}",
   "purchaseErrorUnexpectedBackend": "The purchase can’t be completed right now. Please try again later. If the problem persists, contact us via Settings > Contact. Details: {message}",
-  "purchaseErrorOperationInProgress": "The purchase process is being processed separately. Please check again after some time.",
+  "purchaseErrorOperationInProgress": "A purchase is already in progress. Please try again later.",
   "purchaseErrorInsufficientPermissions": "Your {accountName} is not eligible to join the plan. Please check your payment information and try again.",
   "purchaseErrorPaymentPending": "Your payment is currently on hold. Please check {storeName} with your logged-in account {accountName}.",
   "premiumUserThanksTitle": "Premium Member",

@@ -121,7 +121,7 @@
   "purchaseNotAllowed": "ଏହି ଡିଭାଇସ୍‌ରେ କ୍ରୟ ଅନୁମୋଦିତ ନୁହେଁ",
   "purchaseErrorInvalidCredentials": "କ୍ରୟ ବିଫଳ ହୋଇଛି। କିଛି ସମୟ ପରେ ପୁଣି ଚେଷ୍ଟା କରନ୍ତୁ। ସମସ୍ୟା ଜାରି ରହିଲେ, ସେଟିଂସ୍ > ଆମ ସହ ଯୋଗାଯୋଗ କରନ୍ତୁ ମାଧ୍ୟମରେ ଆମ ସହ ଯୋଗାଯୋଗ କରନ୍ତୁ। ବିବରଣୀ: {message}",
   "purchaseErrorUnexpectedBackend": "ବର୍ତ୍ତମାନ କ୍ରୟ ସମ୍ପୂର୍ଣ୍ଣ କରିହେବ ନାହିଁ। କିଛି ସମୟ ପରେ ପୁଣି ଚେଷ୍ଟା କରନ୍ତୁ। ସମସ୍ୟା ରହିଲେ, ସେଟିଂସ୍ > ଯୋଗାଯୋଗ ମାଧ୍ୟମରେ ଆମ ସହ ଯୋଗାଯୋଗ କରନ୍ତୁ। ବିବରଣୀ: {message}",
-  "purchaseErrorOperationInProgress": "ग購入 प्रक्रिया पहले से ही प्रगति पर है। कृपया कुछ समय प्रतीक्षा करें और फिर से जांचें।",
+  "purchaseErrorOperationInProgress": "ଏକ କ୍ରୟ ପ୍ରକ୍ରିୟା ଇତିମଧ୍ୟରେ ଚାଲୁଛି। ଦୟାକରି କିଛି ସମୟ ପରେ ପୁଣି ଚେଷ୍ଟା କରନ୍ତୁ।",
   "purchaseErrorInsufficientPermissions": "आपके {accountName} पर योजना में शामिल करने के लिए अनुमति नहीं है। कृपया अपने भुगतान जानकारी की जांच करें और फिर से प्रयास करें।",
   "purchaseErrorPaymentPending": "あなたの支払いは途中で保留されています。ログイン中の{accountName}アカウントで{storeName}を確認してください。",
   "premiumUserThanksTitle": "આપ નિમિક્રમક સભ્ય છો",

@@ -121,7 +121,7 @@
   "purchaseNotAllowed": "Ni chaniateir prynuadau ar y ddyfais hon",
   "purchaseErrorInvalidCredentials": "Methodd y pryniant. Rhowch gynnig arall arni yn nes ymlaen. Os bydd y broblem yn parhau, cysylltwch â ni drwy Gosodiadau > Cysylltu â ni. Manylion: {message}",
   "purchaseErrorUnexpectedBackend": "Nid oes modd cwblhau’r pryniant ar hyn o bryd. Rhowch gynnig arall arni rywbryd eto. Os bydd y broblem yn parhau, cysylltwch â ni drwy Gosodiadau > Cysylltu â ni. Manylion: {message}",
-  "purchaseErrorOperationInProgress": "Mae'r broses brynu yn parhau yn arbenig. Byddwch yn garedig yn aros ychydig cyn i chi wirio eto.",
+  "purchaseErrorOperationInProgress": "Mae proses brynu eisoes ar y gweill. Rhowch gynnig arall arni yn nes ymlaen.",
   "purchaseErrorInsufficientPermissions": "Mae'n ddrwg gennyf, ond ni ellir ymuno â'r cynllun gydag eich {accountName}. Aroswch i wirio eich gwybodaeth talu a cheisio eto.",
   "purchaseErrorPaymentPending": "Mae'r taliad wedi ei stopio ar hyn o bryd. Gwiriwch {storeName} gyda {accountName} a ydych yn mewngofnodi.",
   "premiumUserThanksTitle": "Member o'r Premiwm",

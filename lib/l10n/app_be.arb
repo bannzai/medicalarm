@@ -121,7 +121,7 @@
   "purchaseNotAllowed": "Пакупкі на гэтай прыладзе не дазволены",
   "purchaseErrorInvalidCredentials": "Не ўдалося выканаць пакупку. Паўтарыце спробу пазней. Калі праблема не знікне, звярніцеся да нас праз Налады > Звязацца з намі. Падрабязнасці: {message}",
   "purchaseErrorUnexpectedBackend": "Зараз пакупку немагчыма завяршыць. Паспрабуйце яшчэ раз пазней. Калі праблема не знікне, звярніцеся да нас праз Налады > Звязацца з намі. Падрабязнасці: {message}",
-  "purchaseErrorOperationInProgress": "Апрацоўка пакупкі была ўжо запушчана. Праз некаторы час праверце яшчэ раз.",
+  "purchaseErrorOperationInProgress": "Працэс пакупкі ўжо выконваецца. Паўтарыце спробу пазней.",
   "purchaseErrorInsufficientPermissions": "У вашым {accountName} не атрымалася падпісацца на план. Праверце вашу інфармацыю аб плацяжах і паспрабуйце яшчэ раз.",
   "purchaseErrorPaymentPending": "Плацеж знаходзіцца на паўторнай стадыі. Калі ласка, праверце {storeName} для {accountName}",
   "premiumUserThanksTitle": "Вы прэміум-член.",

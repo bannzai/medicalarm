@@ -121,7 +121,7 @@
   "purchaseNotAllowed": "Les achats ne sont pas autorisés sur cet appareil",
   "purchaseErrorInvalidCredentials": "L’achat a échoué. Veuillez réessayer plus tard. Si le problème persiste, contactez-nous via Réglages > Nous contacter. Détails : {message}",
   "purchaseErrorUnexpectedBackend": "L’achat ne peut pas être effectué pour le moment. Veuillez réessayer plus tard. Si le problème persiste, contactez-nous via Réglages > Contact. Détails : {message}",
-  "purchaseErrorOperationInProgress": "Le traitement de l'achat est en cours séparément. Veuillez patienter et vérifier à nouveau.",
+  "purchaseErrorOperationInProgress": "Un achat est déjà en cours. Veuillez réessayer plus tard.",
   "purchaseErrorInsufficientPermissions": "Votre {accountName} ne peut pas s'abonner au plan. Veuillez vérifier vos informations de paiement et réessayer.",
   "purchaseErrorPaymentPending": "Le paiement est en attente. Veuillez vérifier {storeName} avec votre compte {accountName}.",
   "premiumUserThanksTitle": "Membre premium",

@@ -121,7 +121,7 @@
   "purchaseNotAllowed": "خرید در این دستگاه مجاز نیست",
   "purchaseErrorInvalidCredentials": "خرید ناموفق بود. لطفاً کمی بعد دوباره امتحان کنید. اگر مشکل ادامه داشت، از مسیر تنظیمات > تماس با ما با ما تماس بگیرید. جزئیات: {message}",
   "purchaseErrorUnexpectedBackend": "در حال حاضر امکان تکمیل خرید وجود ندارد. لطفاً کمی بعد دوباره تلاش کنید. اگر مشکل برطرف نشد، از مسیر تنظیمات > تماس با ما با ما تماس بگیرید. جزئیات: {message}",
-  "purchaseErrorOperationInProgress": "پردازش خرید در حال حاضر در حال انجام است. لطفا کمی صبر کنید و دوباره بررسی کنید.",
+  "purchaseErrorOperationInProgress": "فرآیند خرید دیگری در حال انجام است. لطفاً بعداً دوباره تلاش کنید.",
   "purchaseErrorInsufficientPermissions": "شما نمی‌توانید به طرح با {accountName} خود بپیوندید. لطفاً اطلاعات پرداخت خود را بررسی کرده و دوباره امتحان کنید.",
   "purchaseErrorPaymentPending": "پرداخت در حال حاضر متوقف شده است. لطفاً با {accountName} وارد شده و {storeName} را بررسی کنید.",
   "premiumUserThanksTitle": "شما یک عضو پریمیوم هستید",

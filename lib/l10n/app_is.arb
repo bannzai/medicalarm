@@ -121,7 +121,7 @@
   "purchaseNotAllowed": "Kaup eru ekki leyfð í þessu tæki",
   "purchaseErrorInvalidCredentials": "Ekki tókst að ganga frá kaupum. Reyndu aftur síðar. Ef vandamálið heldur áfram skaltu hafa samband við okkur í Stillingar > Hafðu samband. Upplýsingar: {message}",
   "purchaseErrorUnexpectedBackend": "Ekki er hægt að ljúka kaupunum eins og er. Prófaðu aftur síðar. Ef vandamálið heldur áfram skaltu hafa samband við okkur í Stillingar > Hafðu samband. Upplýsingar: {message}",
-  "purchaseErrorOperationInProgress": "Kaupjafarþjónusta er að öðrum kosti í gangi. Vinsamlegast athugaðu aftur síðar",
+  "purchaseErrorOperationInProgress": "Kaup stendur nú þegar yfir. Vinsamlegast reyndu aftur síðar.",
   "purchaseErrorInsufficientPermissions": "Með {accountName} þínu er ekki hægt að skrá sig í áætlunina. Vinsamlegast athugaðu greiðsluinformationið þitt og reyndu aftur.",
   "purchaseErrorPaymentPending": "Greiðslunni hefur verið stoppað. Vinsamlegast athugið {storeName} með {accountName} innskráð.",
   "premiumUserThanksTitle": "Premium meðlimur",

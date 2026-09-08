@@ -121,7 +121,7 @@
   "purchaseNotAllowed": "Ununuzi hauruhusiwi kwenye kifaa hiki",
   "purchaseErrorInvalidCredentials": "Ununuzi umeshindikana. Tafadhali jaribu tena baadaye. Tatizo likiendelea, wasiliana nasi kupitia Mipangilio > Wasiliana nasi. Maelezo: {message}",
   "purchaseErrorUnexpectedBackend": "Ununuzi hauwezi kukamilishwa kwa sasa. Tafadhali jaribu tena baadaye. Tatizo likiendelea, wasiliana nasi kupitia Mipangilio > Wasiliana nasi. Maelezo: {message}",
-  "purchaseErrorOperationInProgress": "Ununuzi unafanyika tofauti. Tafadhali subiri kidogo na uangalie tena.",
+  "purchaseErrorOperationInProgress": "Mchakato wa ununuzi tayari unaendelea. Tafadhali jaribu tena baadaye.",
   "purchaseErrorInsufficientPermissions": "Hauna uwezo wa kujiunga na mpango na {accountName} yako. Tafadhali angalia habari za malipo yako kisha jaribu tena.",
   "purchaseErrorPaymentPending": "Malipo yamesimama katikati. Tafadhali angalia {storeName} na {accountName} zilizomo kwenye akaunti yako.",
   "premiumUserThanksTitle": "Mwanachama wa Premium",

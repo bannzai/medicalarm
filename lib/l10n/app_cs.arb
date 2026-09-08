@@ -121,7 +121,7 @@
   "purchaseNotAllowed": "Nákupy nejsou na tomto zařízení povoleny",
   "purchaseErrorInvalidCredentials": "Nákup se nezdařil. Zkuste to znovu později. Pokud problém přetrvá, kontaktujte nás v Nastavení > Kontaktujte nás. Podrobnosti: {message}",
   "purchaseErrorUnexpectedBackend": "Nákup nyní nelze dokončit. Zkuste to znovu později. Pokud problém přetrvá, kontaktujte nás přes Nastavení > Kontakt. Podrobnosti: {message}",
-  "purchaseErrorOperationInProgress": "Zpracování nákupu probíhá samostatně. Zkontrolujte to prosím znovu později.",
+  "purchaseErrorOperationInProgress": "Nákup již probíhá. Zkuste to znovu později.",
   "purchaseErrorInsufficientPermissions": "Váš účet {accountName} nemá povolení k připojení k plánu. Prosím zkontrolujte své platební informace a zkuste to znovu.",
   "purchaseErrorPaymentPending": "Platba byla zastavena. Zkontrolujte {storeName} s {accountName} přihlášeným",
   "premiumUserThanksTitle": "Jste prémiový člen",

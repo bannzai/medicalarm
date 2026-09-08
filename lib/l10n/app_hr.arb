@@ -121,7 +121,7 @@
   "purchaseNotAllowed": "Kupnje nisu dopuštene na ovom uređaju",
   "purchaseErrorInvalidCredentials": "Kupnja nije uspjela. Pokušajte ponovno kasnije. Ako se problem nastavi, obratite nam se putem Postavke > Kontaktirajte nas. Pojedinosti: {message}",
   "purchaseErrorUnexpectedBackend": "Kupnju trenutno nije moguće dovršiti. Pokušajte ponovno kasnije. Ako se problem nastavi, obratite nam se putem Postavke > Kontakt. Pojedinosti: {message}",
-  "purchaseErrorOperationInProgress": "Kupnja se trenutno obrađuje. Molimo vas da pričekate i ponovno provjerite.",
+  "purchaseErrorOperationInProgress": "Kupnja je već u tijeku. Pokušajte ponovno kasnije.",
   "purchaseErrorInsufficientPermissions": "Na vašem {accountName} ne možete pristupiti pretplati na plan. Molimo provjerite svoje podatke o plaćanju i pokušajte ponovo.",
   "purchaseErrorPaymentPending": "Plaćanje je prekinuto. Molimo provjerite {storeName} s vašim računom {accountName}.",
   "premiumUserThanksTitle": "Premium član",

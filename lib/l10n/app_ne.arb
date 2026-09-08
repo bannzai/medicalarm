@@ -121,7 +121,7 @@
   "purchaseNotAllowed": "यस उपकरणमा खरिद गर्न अनुमति छैन",
   "purchaseErrorInvalidCredentials": "खरिद असफल भयो। केही समयपछि फेरि प्रयास गर्नुहोस्। समस्या जारी रहेमा, सेटिङहरू > हामीलाई सम्पर्क गर्नुहोस् मार्फत सम्पर्क गर्नुहोस्। विवरण: {message}",
   "purchaseErrorUnexpectedBackend": "अहिले खरिद पूरा गर्न सकिँदैन। केही समयपछि फेरि प्रयास गर्नुहोस्। समस्या समाधान नभएमा सेटिङहरू > सम्पर्कबाट हामीलाई सम्पर्क गर्नुहोस्। विवरण: {message}",
-  "purchaseErrorOperationInProgress": "खरीद प्रक्रिया अलग से प्रगति पर है। कृपया थोड़ी देर बाद फिर से जांच करें",
+  "purchaseErrorOperationInProgress": "खरिद प्रक्रिया पहिले नै जारी छ। कृपया केही समयपछि पुनः प्रयास गर्नुहोस्।",
   "purchaseErrorInsufficientPermissions": "तपाईँको {accountName} मा योजनामा पर्न सक्नुहुन्न। कृपया भुक्तानीको जानकारी जाँच गरेर पुनः प्रयास गर्नुहोस्।",
   "purchaseErrorPaymentPending": "भुक्तानी बीचमा रोकिनु भएको छ। कृपया {accountName} मा लगइन गर्नुहोस् र {storeName} जाँच गर्नुहोस्।",
   "premiumUserThanksTitle": "यो प्रीमियम सदस्य हो",

@@ -121,7 +121,7 @@
   "purchaseNotAllowed": "આ ઉપકરણ પર ખરીદીની મંજૂરી નથી",
   "purchaseErrorInvalidCredentials": "ખરીદી નિષ્ફળ થઈ. થોડા સમય પછી ફરી પ્રયાસ કરો. સમસ્યા ચાલુ રહે તો સેટિંગ્સ > અમારો સંપર્ક કરો મારફતે અમારો સંપર્ક કરો. વિગતો: {message}",
   "purchaseErrorUnexpectedBackend": "હાલમાં ખરીદી પૂર્ણ કરી શકાતી નથી. કૃપા કરીને થોડી વાર પછી ફરી પ્રયાસ કરો. સમસ્યા ચાલુ રહે તો સેટિંગ્સ > સંપર્ક દ્વારા અમારો સંપર્ક કરો. વિગતો: {message}",
-  "purchaseErrorOperationInProgress": "ખરીદ પ્રક્રિયા અલગથી આગળ વધતી રહે છે. કૃપા કરીને થોડો સમય કોલીને ફરીથી તપાસો",
+  "purchaseErrorOperationInProgress": "ખરીદીની પ્રક્રિયા પહેલેથી જ ચાલી રહી છે. કૃપા કરીને થોડા સમય પછી ફરી પ્રયાસ કરો.",
   "purchaseErrorInsufficientPermissions": "તમારા {accountName} પર યોજના માટે સામેલ થયા નથી. મહેરબાની કરીને તમારી ચુકવણીની માહિતી તપાસો અને પુનઃપ્રયત્ન કરો.",
   "purchaseErrorPaymentPending": "ચુકવણી રોકાઈ ગઈ છે. નોંધણી થયેલ {accountName} ની સાથે {storeName} ચકાસો.",
   "premiumUserThanksTitle": "પીએમમિયમ સભ્ય છે",

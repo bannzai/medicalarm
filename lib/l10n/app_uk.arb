@@ -121,7 +121,7 @@
   "purchaseNotAllowed": "Покупки на цьому пристрої не дозволені",
   "purchaseErrorInvalidCredentials": "Не вдалося здійснити покупку. Повторіть спробу пізніше. Якщо проблема не зникне, зв’яжіться з нами через Налаштування > Зв’язатися з нами. Подробиці: {message}",
   "purchaseErrorUnexpectedBackend": "Зараз не вдається завершити покупку. Спробуйте ще раз пізніше. Якщо проблема не зникне, зв’яжіться з нами через Налаштування > Зв’язатися з нами. Подробиці: {message}",
-  "purchaseErrorOperationInProgress": "The purchase process is already in progress. Please wait a moment and check again.",
+  "purchaseErrorOperationInProgress": "Покупка вже виконується. Повторіть спробу пізніше.",
   "purchaseErrorInsufficientPermissions": "Your {accountName} cannot subscribe to the plan. Please check your payment information and try again.",
   "purchaseErrorPaymentPending": "Your payment is currently on hold. Please verify {storeName} with your logged-in account {accountName}.",
   "premiumUserThanksTitle": "Premium Member",

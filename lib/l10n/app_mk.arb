@@ -121,7 +121,7 @@
   "purchaseNotAllowed": "Купувањата не се дозволени на овој уред",
   "purchaseErrorInvalidCredentials": "Купувањето не успеа. Обидете се повторно подоцна. Ако проблемот продолжи, контактирајте нè преку Поставки > Контактирајте нè. Детали: {message}",
   "purchaseErrorUnexpectedBackend": "Купувањето не може да се заврши во моментов. Обидете се повторно подоцна. Ако проблемот продолжи, контактирајте нè преку Поставки > Контакт. Детали: {message}",
-  "purchaseErrorOperationInProgress": "Обработката на купувањето е во процес. Ве молиме почекајте малку и повторно проверете.",
+  "purchaseErrorOperationInProgress": "Купувањето веќе е во тек. Обидете се повторно подоцна.",
   "purchaseErrorInsufficientPermissions": "Вашата {accountName} не може да се приклучи на планот. Ве молиме потврдете ги вашите информации за плаќање и обидете се повторно.",
   "purchaseErrorPaymentPending": "Плаќањето е прекинато. Ве молиме проверете {storeName} со {accountName} на влез.",
   "premiumUserThanksTitle": "Премиум член",

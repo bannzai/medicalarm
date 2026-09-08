@@ -121,7 +121,7 @@
   "purchaseNotAllowed": "Achizițiile nu sunt permise pe acest dispozitiv",
   "purchaseErrorInvalidCredentials": "Achiziția a eșuat. Încercați din nou mai târziu. Dacă problema persistă, contactați-ne din Setări > Contactați-ne. Detalii: {message}",
   "purchaseErrorUnexpectedBackend": "Achiziția nu poate fi finalizată momentan. Încercați din nou mai târziu. Dacă problema persistă, contactați-ne din Setări > Contact. Detalii: {message}",
-  "purchaseErrorOperationInProgress": "Procesul de achiziție este în curs de desfășurare. Vă rugăm să așteptați și să verificați din nou.",
+  "purchaseErrorOperationInProgress": "O achiziție este deja în desfășurare. Încercați din nou mai târziu.",
   "purchaseErrorInsufficientPermissions": "Nu puteți să vă abonați la plan cu {accountName}. Vă rugăm să verificați informațiile de plată și să încercați din nou.",
   "purchaseErrorPaymentPending": "Plata a fost oprită în timpul procesului. Vă rugăm să verificați {storeName} cu contul {accountName}.",
   "premiumUserThanksTitle": "Sunteți membru premium",

@@ -121,7 +121,7 @@
   "purchaseNotAllowed": "Køb er ikke tilladt på denne enhed",
   "purchaseErrorInvalidCredentials": "Købet mislykkedes. Prøv igen senere. Hvis problemet fortsætter, kan du kontakte os via Indstillinger > Kontakt os. Detaljer: {message}",
   "purchaseErrorUnexpectedBackend": "Købet kan ikke gennemføres lige nu. Prøv igen senere. Hvis problemet fortsætter, kan du kontakte os via Indstillinger > Kontakt. Detaljer: {message}",
-  "purchaseErrorOperationInProgress": "Købsprocessen er i gang separat. Venligst vent lidt tid og tjek igen.",
+  "purchaseErrorOperationInProgress": "Et køb er allerede i gang. Prøv igen senere.",
   "purchaseErrorInsufficientPermissions": "Du kan ikke tilmelde dig planen med din {accountName}. Kontrollér dine betalingsoplysninger, og prøv igen.",
   "purchaseErrorPaymentPending": "Betalingen er stoppet midt i. Kontrollér {storeName} med {accountName}.",
   "premiumUserThanksTitle": "Du er en premium medlem.",

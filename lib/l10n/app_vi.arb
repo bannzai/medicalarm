@@ -121,7 +121,7 @@
   "purchaseNotAllowed": "Không được phép mua hàng trên thiết bị này",
   "purchaseErrorInvalidCredentials": "Không thể hoàn tất giao dịch mua. Vui lòng thử lại sau. Nếu sự cố vẫn tiếp diễn, hãy liên hệ với chúng tôi trong Cài đặt > Liên hệ với chúng tôi. Chi tiết: {message}",
   "purchaseErrorUnexpectedBackend": "Hiện không thể hoàn tất giao dịch mua. Vui lòng thử lại sau. Nếu vấn đề vẫn tiếp diễn, hãy liên hệ với chúng tôi qua Cài đặt > Liên hệ. Chi tiết: {message}",
-  "purchaseErrorOperationInProgress": "Quá trình thanh toán đang được xử lý. Vui lòng kiểm tra lại sau.",
+  "purchaseErrorOperationInProgress": "Giao dịch mua đang được tiến hành. Vui lòng thử lại sau.",
   "purchaseErrorInsufficientPermissions": "Tài khoản {accountName} của bạn không thể đăng ký gói. Vui lòng kiểm tra thông tin thanh toán của bạn và thử lại.",
   "purchaseErrorPaymentPending": "Thanh toán đã bị dừng lại. Vui lòng kiểm tra {storeName} bằng tài khoản đang đăng nhập {accountName}.",
   "premiumUserThanksTitle": "Bạn là thành viên cao cấp",

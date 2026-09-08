@@ -121,7 +121,7 @@
   "purchaseNotAllowed": "Покупките не са разрешени на това устройство",
   "purchaseErrorInvalidCredentials": "Покупката не бе извършена. Опитайте отново след известно време. Ако проблемът продължи, свържете се с нас чрез Настройки > Свържете се с нас. Подробности: {message}",
   "purchaseErrorUnexpectedBackend": "Покупката не може да бъде извършена в момента. Опитайте отново след малко. Ако проблемът продължи, свържете се с нас чрез Настройки > Контакт. Подробности: {message}",
-  "purchaseErrorOperationInProgress": "Обработката на покупката вече е в ход. Моля, проверете отново след малко.",
+  "purchaseErrorOperationInProgress": "Покупката вече се обработва. Моля, опитайте отново по-късно.",
   "purchaseErrorInsufficientPermissions": "Вашият {accountName} не може да се присъедини към плана. Моля, проверете информацията за плащане и опитайте отново.",
   "purchaseErrorPaymentPending": "Плащането е спряно. Моля, проверете {storeName} с {accountName}.",
   "premiumUserThanksTitle": "Премиум член",

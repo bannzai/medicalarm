@@ -121,7 +121,7 @@
   "purchaseNotAllowed": "Selle seadmega ei ole ostmine lubatud",
   "purchaseErrorInvalidCredentials": "Ostu sooritamine ebaõnnestus. Proovige mõne aja pärast uuesti. Kui probleem püsib, võtke meiega ühendust menüüs Seaded > Võtke meiega ühendust. Üksikasjad: {message}",
   "purchaseErrorUnexpectedBackend": "Ostu ei saa praegu lõpule viia. Proovige mõne aja pärast uuesti. Kui probleem püsib, võtke meiega ühendust menüüs Seaded > Kontakt. Üksikasjad: {message}",
-  "purchaseErrorOperationInProgress": "Ostuprotsess on juba käimas. Palun oota ja kontrolli uuesti.",
+  "purchaseErrorOperationInProgress": "Ostutehing on juba pooleli. Proovige hiljem uuesti.",
   "purchaseErrorInsufficientPermissions": "Teie {accountName} ei saa liituda plaaniga. Kontrollige oma mak信息 ja proovige uuesti.",
   "purchaseErrorPaymentPending": "Teie makse on pooleli. Kontrollige {storeName} sisse logitud kontoga {accountName}.",
   "premiumUserThanksTitle": "Oled premium liige",

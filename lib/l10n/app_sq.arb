@@ -121,7 +121,7 @@
   "purchaseNotAllowed": "Blerjet nuk lejohen në këtë pajisje",
   "purchaseErrorInvalidCredentials": "Blerja dështoi. Provo përsëri më vonë. Nëse problemi vazhdon, na kontakto te Cilësimet > Na kontakto. Detaje: {message}",
   "purchaseErrorUnexpectedBackend": "Blerja nuk mund të përfundojë tani. Provo përsëri më vonë. Nëse problemi vazhdon, na kontakto te Cilësimet > Kontakti. Detajet: {message}",
-  "purchaseErrorOperationInProgress": "Procesi i blerjes është duke vazhduar veçmas. Ju lutemi prisni pak dhe provoni përsëri.",
+  "purchaseErrorOperationInProgress": "Një blerje është tashmë në proces. Ju lutemi provoni sërish më vonë.",
   "purchaseErrorInsufficientPermissions": "Me keni {accountName} nuk mund të regjistroheni për planin. Ju lutemi kontrolloni informacionin tuaj të pagesës dhe provoni përsëri.",
   "purchaseErrorPaymentPending": "Pagesa është pezulluar. Ju lutemi kontrolloni {storeName} me {accountName} tuaj të identifikuar",
   "premiumUserThanksTitle": "Anëtar Premium",
