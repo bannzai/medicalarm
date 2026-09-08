@@ -41,7 +41,7 @@
   "everyXDaysDescription": "მაგ.: ყოველ 2 დღეში, ყოველ 3 დღეში",
   "specificWeekdaysDescription": "მაგ.: მხოლოდ ორშაბათს, ან ოთხშაბათსა და პარასკევს",
   "medicineFormValidationError": "შეიყვანეთ სახელი და მიღების განრიგი",
-  "quantity": "ტევადობა",
+  "quantity": "რაოდენობა",
   "quantityExample": "მაგ: 1 ტაბლეტი, 100მგ",
   "medicationStartDate": "მკურნალობის დაწყების თარიღი",
   "otherInformation": "სხვა",

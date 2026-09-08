@@ -41,7 +41,7 @@
   "everyXDaysDescription": "Pvz.: kas 2 dienas, kas 3 dienas",
   "specificWeekdaysDescription": "Pvz., tik pirmadieniais arba trečiadieniais ir penktadieniais",
   "medicineFormValidationError": "Įveskite pavadinimą ir vartojimo tvarkaraštį",
-  "quantity": "Talpa",
+  "quantity": "Kiekis",
   "quantityExample": "pavyzdys: 1 tabletė, 100mg",
   "medicationStartDate": "Pradžios data",
   "otherInformation": "Kita kita",

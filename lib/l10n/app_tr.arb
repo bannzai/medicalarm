@@ -41,7 +41,7 @@
   "everyXDaysDescription": "Örn.: 2 günde bir, 3 günde bir",
   "specificWeekdaysDescription": "Örn. yalnızca pazartesi veya çarşamba ve cuma günleri",
   "medicineFormValidationError": "Adı ve kullanım programını girin",
-  "quantity": "Kapasite",
+  "quantity": "Miktar",
   "quantityExample": "örneğin: 1 tablet, 100mg",
   "medicationStartDate": "Başlangıç tarihi",
   "otherInformation": "Diğer",

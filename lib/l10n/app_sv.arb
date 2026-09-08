@@ -41,7 +41,7 @@
   "everyXDaysDescription": "T.ex.: varannan dag, var tredje dag",
   "specificWeekdaysDescription": "T.ex. endast måndagar, eller onsdagar och fredagar",
   "medicineFormValidationError": "Ange namn och doseringsschema",
-  "quantity": "Dosering",
+  "quantity": "Mängd",
   "quantityExample": "Exempel: 1 tablett, 100 mg",
   "medicationStartDate": "Start date for taking medication",
   "otherInformation": "Övrigt",

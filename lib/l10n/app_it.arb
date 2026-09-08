@@ -41,7 +41,7 @@
   "everyXDaysDescription": "Es.: ogni 2 giorni, ogni 3 giorni",
   "specificWeekdaysDescription": "Es.: solo il lunedì, oppure il mercoledì e il venerdì",
   "medicineFormValidationError": "Inserisci il nome e il programma di assunzione",
-  "quantity": "Dose",
+  "quantity": "Quantità",
   "quantityExample": "es. 1 compressa, 100mg",
   "medicationStartDate": "Data di inizio assunzione",
   "otherInformation": "Altro",

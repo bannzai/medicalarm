@@ -41,7 +41,7 @@
   "everyXDaysDescription": "Ex.: cada 2 dies, cada 3 dies",
   "specificWeekdaysDescription": "Ex.: només els dilluns, o els dimecres i divendres",
   "medicineFormValidationError": "Introduïu el nom i l’horari de presa",
-  "quantity": "capacitat",
+  "quantity": "Quantitat",
   "quantityExample": "Ex.: 1 comprimit, 100mg",
   "medicationStartDate": "Data d'inici de la medicació",
   "otherInformation": "Altres",

@@ -41,7 +41,7 @@
   "everyXDaysDescription": "Bijv.: elke 2 dagen, elke 3 dagen",
   "specificWeekdaysDescription": "Bijv. alleen op maandag, of op woensdag en vrijdag",
   "medicineFormValidationError": "Voer de naam en het innameschema in",
-  "quantity": "Aantal",
+  "quantity": "Hoeveelheid",
   "quantityExample": "Bijv: 1 tablet, 100 mg",
   "medicationStartDate": "Startdatum van medicatie",
   "otherInformation": "Overige",

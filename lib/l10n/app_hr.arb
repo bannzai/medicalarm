@@ -41,7 +41,7 @@
   "everyXDaysDescription": "Npr.: svaka 2 dana, svaka 3 dana",
   "specificWeekdaysDescription": "Npr. samo ponedjeljkom, srijedom i petkom",
   "medicineFormValidationError": "Unesite naziv i raspored uzimanja",
-  "quantity": "Kapacitet",
+  "quantity": "Količina",
   "quantityExample": "Primjer: 1 tableta, 100mg",
   "medicationStartDate": "Datum početka uzimanja",
   "otherInformation": "Ostalo",

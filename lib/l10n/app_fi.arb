@@ -41,7 +41,7 @@
   "everyXDaysDescription": "Esim.: 2 päivän välein, 3 päivän välein",
   "specificWeekdaysDescription": "Esim. vain maanantaisin tai keskiviikkoisin ja perjantaisin",
   "medicineFormValidationError": "Anna nimi ja annosteluaikataulu",
-  "quantity": "Kapasiteetti",
+  "quantity": "Määrä",
   "quantityExample": "Esim: 1 tabletti, 100mg",
   "medicationStartDate": "Aloituspäivä",
   "otherInformation": "Muut",

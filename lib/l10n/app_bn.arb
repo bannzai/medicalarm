@@ -41,7 +41,7 @@
   "everyXDaysDescription": "যেমন: প্রতি ২ দিন পরপর, প্রতি ৩ দিন পরপর",
   "specificWeekdaysDescription": "যেমন: শুধু সোমবার, অথবা বুধবার ও শুক্রবার",
   "medicineFormValidationError": "নাম ও ওষুধ খাওয়ার সময়সূচি লিখুন",
-  "quantity": "আবেদন",
+  "quantity": "পরিমাণ",
   "quantityExample": "যেমন: ১ ট্যাবলেট, ১০০ মিগ্রা",
   "medicationStartDate": "ওষুধ গ্রহণের শুরু তারিখ",
   "otherInformation": "অন্যান্য",

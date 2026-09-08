@@ -41,7 +41,7 @@
   "everyXDaysDescription": "Напр.: на всеки 2 дни, на всеки 3 дни",
   "specificWeekdaysDescription": "Напр. само в понеделник, в сряда и петък",
   "medicineFormValidationError": "Въведете име и график за прием",
-  "quantity": "Капацитет",
+  "quantity": "Количество",
   "quantityExample": "Пример: 1 таблетка, 100мг",
   "medicationStartDate": "Дата на започване на прилагане",
   "otherInformation": "Други",

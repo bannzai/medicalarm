@@ -41,7 +41,7 @@
   "everyXDaysDescription": "Piem.: ik pēc 2 dienām, ik pēc 3 dienām",
   "specificWeekdaysDescription": "Piem., tikai pirmdienās vai trešdienās un piektdienās",
   "medicineFormValidationError": "Ievadiet nosaukumu un lietošanas grafiku",
-  "quantity": "Iespēja",
+  "quantity": "Daudzums",
   "quantityExample": "Piemērs: 1 tablete, 100 mg",
   "medicationStartDate": "Zāļu lietošanas sākuma datums",
   "otherInformation": "Cits cits",

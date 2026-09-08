@@ -41,7 +41,7 @@
   "everyXDaysDescription": "E.g., every 2 days, every 3 days",
   "specificWeekdaysDescription": "E.g. Mondays only, or Wednesdays and Fridays",
   "medicineFormValidationError": "Please enter the name and medication schedule",
-  "quantity": "Dosage",
+  "quantity": "Quantity",
   "quantityExample": "e.g.: 1 tablet, 100mg",
   "medicationStartDate": "Start Date",
   "otherInformation": "Other",

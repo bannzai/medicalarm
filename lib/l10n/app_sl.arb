@@ -41,7 +41,7 @@
   "everyXDaysDescription": "Npr.: vsaka 2 dni, vsake 3 dni",
   "specificWeekdaysDescription": "Npr. samo ob ponedeljkih ali ob sredah in petkih",
   "medicineFormValidationError": "Vnesite ime in urnik jemanja",
-  "quantity": "Zaloga",
+  "quantity": "Količina",
   "quantityExample": "Primer: 1 tableta, 100mg",
   "medicationStartDate": "Datum začetka jemanja",
   "otherInformation": "Drugo",

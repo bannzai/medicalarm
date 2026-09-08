@@ -41,7 +41,7 @@
   "everyXDaysDescription": "Məsələn: hər 2 gündən bir, hər 3 gündən bir",
   "specificWeekdaysDescription": "Məsələn, yalnız bazar ertəsi, çərşənbə və cümə",
   "medicineFormValidationError": "Adı və qəbul cədvəlini daxil edin",
-  "quantity": "Həcmi",
+  "quantity": "Miqdar",
   "quantityExample": "məsələn: 1 ədəd, 100mg",
   "medicationStartDate": "İlk dozun tarixi",
   "otherInformation": "Digər",

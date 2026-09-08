@@ -41,7 +41,7 @@
   "everyXDaysDescription": "Ví dụ: mỗi 2 ngày, mỗi 3 ngày",
   "specificWeekdaysDescription": "Ví dụ: chỉ vào thứ Hai, hoặc thứ Tư và thứ Sáu",
   "medicineFormValidationError": "Vui lòng nhập tên và lịch uống thuốc",
-  "quantity": "Dung tích",
+  "quantity": "Liều lượng",
   "quantityExample": "Ví dụ: 1 viên, 100mg",
   "medicationStartDate": "Ngày bắt đầu sử dụng",
   "otherInformation": "Khác",

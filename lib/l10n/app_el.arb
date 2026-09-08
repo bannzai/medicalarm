@@ -41,7 +41,7 @@
   "everyXDaysDescription": "Π.χ.: κάθε 2 ημέρες, κάθε 3 ημέρες",
   "specificWeekdaysDescription": "Π.χ. μόνο Δευτέρα ή Τετάρτη και Παρασκευή",
   "medicineFormValidationError": "Εισαγάγετε το όνομα και το πρόγραμμα λήψης",
-  "quantity": "Δοσολογία",
+  "quantity": "Ποσότητα",
   "quantityExample": "παράδειγμα: 1 δισκίο, 100mg",
   "medicationStartDate": "Ημερομηνία έναρξης λήψης",
   "otherInformation": "Άλλα",

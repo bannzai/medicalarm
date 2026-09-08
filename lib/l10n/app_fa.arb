@@ -41,7 +41,7 @@
   "everyXDaysDescription": "مثلاً: هر ۲ روز، هر ۳ روز",
   "specificWeekdaysDescription": "مثلاً فقط دوشنبه‌ها، یا چهارشنبه‌ها و جمعه‌ها",
   "medicineFormValidationError": "لطفاً نام و برنامه مصرف را وارد کنید",
-  "quantity": "حجم",
+  "quantity": "مقدار",
   "quantityExample": "مثال: 1 عدد، 100 میلی‌گرم",
   "medicationStartDate": "تاریخ شروع مصرف",
   "otherInformation": "سایر",

@@ -41,7 +41,7 @@
   "everyXDaysDescription": "לדוגמה: כל יומיים, כל 3 ימים",
   "specificWeekdaysDescription": "לדוגמה: רק בימי שני, או בימי רביעי ושישי",
   "medicineFormValidationError": "יש להזין את השם ואת לוח הזמנים לנטילה",
-  "quantity": "קיבולת",
+  "quantity": "כמות",
   "quantityExample": "דוגמה: 1 כדור, 100 מ\"ג",
   "medicationStartDate": "תאריך התחלת טיפול",
   "otherInformation": "אחר",

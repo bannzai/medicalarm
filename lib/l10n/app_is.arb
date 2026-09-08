@@ -41,7 +41,7 @@
   "everyXDaysDescription": "Dæmi: á 2 daga fresti, á 3 daga fresti",
   "specificWeekdaysDescription": "T.d. aðeins á mánudögum, eða á miðvikudögum og föstudögum",
   "medicineFormValidationError": "Sláðu inn heiti og lyfjatökuáætlun",
-  "quantity": "skammtur",
+  "quantity": "Magn",
   "quantityExample": "Dæmi: 1 tafla, 100 mg",
   "medicationStartDate": "Upphafsdagur lyfjameðferðar",
   "otherInformation": "Aðrir",

@@ -41,7 +41,7 @@
   "everyXDaysDescription": "Օրինակ՝ 2 օրը մեկ, 3 օրը մեկ",
   "specificWeekdaysDescription": "Օրինակ՝ միայն երկուշաբթի, կամ չորեքշաբթի և ուրբաթ",
   "medicineFormValidationError": "Մուտքագրեք անվանումը և ընդունման ժամանակացույցը",
-  "quantity": "Հզորություն",
+  "quantity": "Քանակ",
   "quantityExample": "օրինակ: 1 նետ, 100մգ",
   "medicationStartDate": "Դեղերի ընդունման սկսած օրը",
   "otherInformation": "Այլ",

@@ -41,7 +41,7 @@
   "everyXDaysDescription": "مثال: كل يومين، كل 3 أيام",
   "specificWeekdaysDescription": "مثال: أيام الاثنين فقط، أو الأربعاء والجمعة",
   "medicineFormValidationError": "يرجى إدخال الاسم وجدول تناول الدواء",
-  "quantity": "الجرعة",
+  "quantity": "الكمية",
   "quantityExample": "مثال: 1 حبة، 100 ملغ",
   "medicationStartDate": "تاريخ بدء الجرعة",
   "otherInformation": "أخرى",

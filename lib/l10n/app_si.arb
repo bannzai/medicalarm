@@ -41,7 +41,7 @@
   "everyXDaysDescription": "උදා: දින 2කට වරක්, දින 3කට වරක්",
   "specificWeekdaysDescription": "උදා: සඳුදා පමණක්, නැතහොත් බදාදා සහ සිකුරාදා",
   "medicineFormValidationError": "නම සහ ඖෂධ ලබාගැනීමේ කාලසටහන ඇතුළත් කරන්න",
-  "quantity": "ඝනත්වය",
+  "quantity": "ප්‍රමාණය",
   "quantityExample": "උදා: 1 ටැබ්ලට්, 100mg",
   "medicationStartDate": "ආරම්භයේ පෝෂණය දිනය",
   "otherInformation": "අනෙක්",

@@ -41,7 +41,7 @@
   "everyXDaysDescription": "Ej.: cada 2 días, cada 3 días",
   "specificWeekdaysDescription": "Ej.: solo los lunes, o los miércoles y viernes",
   "medicineFormValidationError": "Introduce el nombre y el horario de toma",
-  "quantity": "Dosis",
+  "quantity": "Cantidad",
   "quantityExample": "Ejemplo: 1 tableta, 100 mg",
   "medicationStartDate": "Fecha de inicio de medicación",
   "otherInformation": "Otros",

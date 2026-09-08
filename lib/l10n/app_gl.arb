@@ -41,7 +41,7 @@
   "everyXDaysDescription": "Ex.: cada 2 días, cada 3 días",
   "specificWeekdaysDescription": "Ex.: só os luns, ou os mércores e venres",
   "medicineFormValidationError": "Introduce o nome e o horario de toma",
-  "quantity": "Capacidade",
+  "quantity": "Cantidade",
   "quantityExample": "exemplo: 1 comprimido, 100mg",
   "medicationStartDate": "Data de comezo da toma",
   "otherInformation": "Outros",

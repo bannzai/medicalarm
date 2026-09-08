@@ -41,7 +41,7 @@
   "everyXDaysDescription": "ਉਦਾਹਰਨ: ਹਰ 2 ਦਿਨਾਂ ਬਾਅਦ, ਹਰ 3 ਦਿਨਾਂ ਬਾਅਦ",
   "specificWeekdaysDescription": "ਉਦਾਹਰਨ ਵਜੋਂ, ਸਿਰਫ਼ ਸੋਮਵਾਰ ਜਾਂ ਬੁੱਧਵਾਰ ਅਤੇ ਸ਼ੁੱਕਰਵਾਰ",
   "medicineFormValidationError": "ਕਿਰਪਾ ਕਰਕੇ ਨਾਮ ਅਤੇ ਦਵਾਈ ਲੈਣ ਦਾ ਸਮਾਂ-ਸਾਰਣੀ ਦਰਜ ਕਰੋ",
-  "quantity": "ਭਰਨ",
+  "quantity": "ਮਾਤਰਾ",
   "quantityExample": "ਉਦਾਹਰਨ: 1 ਗੋਲੀਆਂ, 100 ਮਿਗ੍ਰਾਮ",
   "medicationStartDate": "ਦਵਾਈ ਦੀ ਸਟਾਰਟ ਮਿਤੀ",
   "otherInformation": "ਹੋਰ",

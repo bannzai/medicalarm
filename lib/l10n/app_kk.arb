@@ -41,7 +41,7 @@
   "everyXDaysDescription": "Мысалы: әр 2 күн сайын, әр 3 күн сайын",
   "specificWeekdaysDescription": "Мысалы, тек дүйсенбіде немесе сәрсенбі мен жұмада",
   "medicineFormValidationError": "Атауы мен қабылдау кестесін енгізіңіз",
-  "quantity": "Көлемі",
+  "quantity": "Мөлшері",
   "quantityExample": "мысал: 1 таблетка, 100мг",
   "medicationStartDate": "Қабылдау басталатын күн",
   "otherInformation": "Басқа",

@@ -41,7 +41,7 @@
   "everyXDaysDescription": "Наприклад: кожні 2 дні, кожні 3 дні",
   "specificWeekdaysDescription": "Напр.: лише в понеділок або в середу та п’ятницю",
   "medicineFormValidationError": "Введіть назву та розклад прийому",
-  "quantity": "Dosage",
+  "quantity": "Кількість",
   "quantityExample": "e.g., 1 tablet, 100mg",
   "medicationStartDate": "Start Date",
   "otherInformation": "Other",

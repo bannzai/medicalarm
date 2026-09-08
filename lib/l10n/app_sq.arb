@@ -41,7 +41,7 @@
   "everyXDaysDescription": "P.sh.: çdo 2 ditë, çdo 3 ditë",
   "specificWeekdaysDescription": "P.sh. vetëm të hënave, ose të mërkurave dhe të premteve",
   "medicineFormValidationError": "Futni emrin dhe orarin e marrjes",
-  "quantity": "Kapaciteti",
+  "quantity": "Sasia",
   "quantityExample": "Shembuj: 1 tabletë, 100mg",
   "medicationStartDate": "Data e fillimit të marrjes",
   "otherInformation": "Të tjera",

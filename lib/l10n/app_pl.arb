@@ -41,7 +41,7 @@
   "everyXDaysDescription": "Np.: co 2 dni, co 3 dni",
   "specificWeekdaysDescription": "Np. tylko w poniedziałki albo w środy i piątki",
   "medicineFormValidationError": "Wprowadź nazwę i harmonogram przyjmowania",
-  "quantity": "Pojemność",
+  "quantity": "Ilość",
   "quantityExample": "Przykład: 1 tabletka, 100 mg",
   "medicationStartDate": "Data rozpoczęcia dawkowania",
   "otherInformation": "Inne",

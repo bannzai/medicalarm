@@ -41,7 +41,7 @@
   "everyXDaysDescription": "Masalan: har 2 kunda, har 3 kunda",
   "specificWeekdaysDescription": "Masalan, faqat dushanba kunlari yoki chorshanba va juma kunlari",
   "medicineFormValidationError": "Nom va qabul qilish jadvalini kiriting",
-  "quantity": "Hajm",
+  "quantity": "Miqdor",
   "quantityExample": "masala: 1 tablet, 100mg",
   "medicationStartDate": "Qabul qilishni boshlash sanasi",
   "otherInformation": "Boshqa",

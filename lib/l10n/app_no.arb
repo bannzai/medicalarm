@@ -41,7 +41,7 @@
   "everyXDaysDescription": "F.eks.: hver 2. dag, hver 3. dag",
   "specificWeekdaysDescription": "F.eks. kun mandager, eller onsdager og fredager",
   "medicineFormValidationError": "Skriv inn navn og doseringsplan",
-  "quantity": "Kapacitet",
+  "quantity": "Mengde",
   "quantityExample": "Eksempel: 1 tablett, 100mg",
   "medicationStartDate": "Start date for medication",
   "otherInformation": "Annet",
