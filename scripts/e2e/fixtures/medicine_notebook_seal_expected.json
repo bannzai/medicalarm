@@ -1,0 +1,20 @@
+{
+  "medicines": [
+    {
+      "name": "レバミピド錠100mg 「EE」",
+      "schedules": [
+        { "hour": 8, "minute": 0, "quantityMemo": "1錠" },
+        { "hour": 12, "minute": 0, "quantityMemo": "1錠" },
+        { "hour": 19, "minute": 0, "quantityMemo": "1錠" }
+      ]
+    },
+    {
+      "name": "モンテルカスト錠10mg 「KM」",
+      "schedules": [{ "hour": 22, "minute": 0, "quantityMemo": "1錠" }]
+    },
+    {
+      "name": "カロナール錠300mg",
+      "schedules": []
+    }
+  ]
+}

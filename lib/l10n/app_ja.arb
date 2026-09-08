@@ -1100,6 +1100,66 @@
   "@accountLinkBannerText": {
     "description": "グループ共有中かつ未リンクのときにホーム上部へ表示する推奨バナーの文言"
   },
+  "medicineImageImport": "画像から登録",
+  "@medicineImageImport": {
+    "description": "お薬手帳・処方箋などの画像から薬を登録するボタンのラベル"
+  },
+  "medicineImageImportReviewTitle": "読み取ったお薬",
+  "@medicineImageImportReviewTitle": {
+    "description": "画像から読み取った薬の候補を確認するシートのタイトル"
+  },
+  "medicineImageImportEmpty": "画像からお薬を読み取れませんでした",
+  "@medicineImageImportEmpty": {
+    "description": "画像から薬の候補を 1 件も読み取れなかった場合にシートへ表示する文言"
+  },
+  "medicineImageImportSelectableLimit": "登録できるのは残り{count}件までです",
+  "@medicineImageImportSelectableLimit": {
+    "description": "読み取った候補が薬の登録数制限の残り枠を超えている場合の注意書き",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "2"
+      }
+    }
+  },
+  "medicineImageImportAddCount": "{count}件を追加",
+  "@medicineImageImportAddCount": {
+    "description": "レビューシートで選択中の候補を登録する確定ボタンのラベル",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "3"
+      }
+    }
+  },
+  "medicineImageImportCompletedSnackbar": "{count}件のお薬を登録しました",
+  "@medicineImageImportCompletedSnackbar": {
+    "description": "画像から読み取った薬の登録完了時に表示する SnackBar",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "3"
+      }
+    }
+  },
+  "medicineImageImportTimeFallbackCaption": "服用時刻を読み取れなかったため仮の時刻です。登録後に編集できます",
+  "@medicineImageImportTimeFallbackCaption": {
+    "description": "服用時刻を抽出できず仮の時刻を設定した候補にレビューシートで表示する注意書き"
+  },
+  "medicineImageImportDroppedSchedulesCaption": "上限を超えた服用時刻{count}件は登録されません",
+  "@medicineImageImportDroppedSchedulesCaption": {
+    "description": "スケジュール数の上限で除外された服用時刻がある候補にレビューシートで表示する注意書き",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "medicineImageImportGroupChangedError": "グループが切り替わったため登録を中止しました",
+  "@medicineImageImportGroupChangedError": {
+    "description": "画像からの登録処理中に表示中のグループが切り替わり、登録を中止した場合に表示するエラー"
+  },
   "minimumDoseInterval": "服用間隔",
   "@minimumDoseInterval": {
     "description": "薬フォームの最低服用間隔設定タイルのタイトル"

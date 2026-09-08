@@ -41,3 +41,10 @@ if (
 ) {
   exports.sendMedicationRecordNotification = require("./functions/sendMedicationRecordNotification/function");
 }
+
+if (
+  !process.env.FUNCTION_NAME ||
+  process.env.FUNCTION_NAME === "generateMedicinesFromImage"
+) {
+  exports.generateMedicinesFromImage = require("./functions/generateMedicinesFromImage/function");
+}

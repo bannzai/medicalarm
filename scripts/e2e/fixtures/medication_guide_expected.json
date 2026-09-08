@@ -1,0 +1,27 @@
+{
+  "medicines": [
+    {
+      "name": "アムロジピン錠5mg 「トーワ」",
+      "schedules": [{ "hour": 8, "minute": 0, "quantityMemo": "1錠" }]
+    },
+    {
+      "name": "ロキソプロフェンNa錠60mg 「サワイ」",
+      "schedules": [
+        { "hour": 8, "minute": 0, "quantityMemo": "1錠" },
+        { "hour": 19, "minute": 0, "quantityMemo": "1錠" }
+      ]
+    },
+    {
+      "name": "酸化マグネシウム錠330mg 「ヨシダ」",
+      "schedules": [
+        { "hour": 8, "minute": 0, "quantityMemo": "1錠" },
+        { "hour": 12, "minute": 0, "quantityMemo": "1錠" },
+        { "hour": 19, "minute": 0, "quantityMemo": "1錠" }
+      ]
+    },
+    {
+      "name": "ゾルピデム酒石酸塩錠5mg 「サワイ」",
+      "schedules": [{ "hour": 22, "minute": 0, "quantityMemo": "1錠" }]
+    }
+  ]
+}

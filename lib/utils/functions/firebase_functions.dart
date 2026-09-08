@@ -4,11 +4,7 @@ final functions = FirebaseFunctions.instanceFor(region: 'asia-northeast1');
 
 extension FirebaseFunctionsExt on FirebaseFunctions {
   Future<bool> startPromotion({required int promotionDayCount}) async {
-    final result = await httpsCallable('startPromotion').call(
-      {
-        'promotionDayCount': promotionDayCount,
-      },
-    );
+    final result = await httpsCallable('startPromotion').call({'promotionDayCount': promotionDayCount});
     final response = mapToJSON(result.data);
     if (response['result'] != 'OK') {
       throw Exception(response['error']['message']);
@@ -19,11 +15,7 @@ extension FirebaseFunctionsExt on FirebaseFunctions {
   // グループを作成する。auth uid をサーバー側で使用するため createUserID は渡さない。
   // iconName は home / family / hospital / medication / elderly / favorite のいずれか。戻り値は作成されたグループの ID。
   Future<String> createGroup({required String? name, required bool setAsDefault, required String iconName}) async {
-    final result = await httpsCallable('createGroup').call({
-      'name': name,
-      'setAsDefault': setAsDefault,
-      'iconName': iconName,
-    });
+    final result = await httpsCallable('createGroup').call({'name': name, 'setAsDefault': setAsDefault, 'iconName': iconName});
     final response = mapToJSON(result.data);
     if (response['result'] != 'OK') {
       throw Exception(response['error']['message']);
@@ -49,16 +41,10 @@ extension FirebaseFunctionsExt on FirebaseFunctions {
   // medicationHistoryID はサーバー側が「実際に書かれた履歴」を検証するために渡す。
   // 送信失敗は記録の成否に影響させないため、呼び出し側は unawaited で呼び catch する。
   // ソログループなど送信対象 0 件の場合はサーバー側でスキップされる。
-  Future<void> sendMedicationRecordNotification({
-    required String groupID,
-    required String medicineID,
-    required String medicationHistoryID,
-  }) async {
-    final result = await httpsCallable('sendMedicationRecordNotification').call({
-      'groupID': groupID,
-      'medicineID': medicineID,
-      'medicationHistoryID': medicationHistoryID,
-    });
+  Future<void> sendMedicationRecordNotification({required String groupID, required String medicineID, required String medicationHistoryID}) async {
+    final result = await httpsCallable(
+      'sendMedicationRecordNotification',
+    ).call({'groupID': groupID, 'medicineID': medicineID, 'medicationHistoryID': medicationHistoryID});
     final response = mapToJSON(result.data);
     if (response['result'] != 'OK') {
       throw Exception(response['error']['message']);
@@ -82,6 +68,19 @@ extension FirebaseFunctionsExt on FirebaseFunctions {
     if (response['result'] != 'OK') {
       throw Exception(response['error']['message']);
     }
+  }
+
+  // 画像(お薬手帳・処方箋・薬袋など)から薬の登録候補を抽出する。
+  // 戻り値は薬ごとの { name: String, schedules: [{ hour, minute, quantityMemo }] } の Map。
+  // 抽出結果は保存前にユーザーがレビューシートで取捨選択するため、entity には変換せずそのまま返す。
+  // 月間利用回数の上限(無料/プレミアム)を超えた場合はサーバーがエラーメッセージを返す。
+  Future<List<Map<String, dynamic>>> generateMedicinesFromImage({required String mimeType, required String base64Image}) async {
+    final result = await httpsCallable('generateMedicinesFromImage').call({'mimeType': mimeType, 'base64Image': base64Image});
+    final response = mapToJSON(result.data);
+    if (response['result'] != 'OK') {
+      throw Exception(response['error']['message']);
+    }
+    return (response['data']['medicines'] as List<dynamic>).cast<Map<String, dynamic>>();
   }
 }
 

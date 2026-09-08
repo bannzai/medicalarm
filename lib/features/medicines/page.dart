@@ -45,7 +45,7 @@ class MedicinesPageBody extends HookConsumerWidget {
       ),
       body: FloatingActionButtonLayout(
         scaffoldBody: ListView(
-          padding: const EdgeInsets.symmetric(vertical: 16.0),
+          padding: const EdgeInsets.only(top: 16.0, bottom: medicalAddFloatingActionButtonBottomInset),
           children: medicines
               .map((medicine) => Column(
                     children: [
