@@ -94,12 +94,18 @@ class MedicationsPageBody extends HookConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final page = useState(todayCalendarPageIndex);
     final pageController = usePageController(initialPage: page.value);
-    pageController.addListener(() {
-      final pageControllerPage = pageController.page;
-      if (pageControllerPage != null) {
-        page.value = pageControllerPage.toInt();
+    // build のたびに addListener すると再構築の回数だけリスナーが積み上がるため、初回だけ登録して破棄時に解除する
+    useEffect(() {
+      void listener() {
+        final pageControllerPage = pageController.page;
+        if (pageControllerPage != null) {
+          page.value = pageControllerPage.toInt();
+        }
       }
-    });
+
+      pageController.addListener(listener);
+      return () => pageController.removeListener(listener);
+    }, [pageController]);
 
     // 時刻依存の表示 (進捗ヒーローの次に飲む予定・飲み忘れかもバッジ) は build 時の DateTime.now() を参照するため、
     // 画面を表示したまま予定時刻をまたいでも追従するよう 1 分ごとに再構築する。
@@ -247,6 +253,8 @@ class MedicationGroupTile extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Row(
+              // 文字を拡大した端末でバッジが横にはみ出さないよう、Spacer で押し出さず余白の配分で右寄せする
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 Text(
                   tileValue.scheduleTime.toTimeString(),
@@ -256,17 +264,19 @@ class MedicationGroupTile extends StatelessWidget {
                     color: isMissedDose ? AppColors.missedDoseWarning : primaryColor,
                   ),
                 ),
-                const Spacer(),
                 if (isMissedDose) ...[
-                  Container(
-                    padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
-                    decoration: BoxDecoration(
-                      color: AppColors.missedDoseWarningBackground,
-                      borderRadius: BorderRadius.circular(12),
-                    ),
-                    child: Text(
-                      L.missedDoseSuspectedBadge,
-                      style: const TextStyle(fontSize: 12, fontWeight: FontWeight.bold, color: AppColors.missedDoseWarning),
+                  // 残り幅を超える時はバッジ内で文言を折り返す
+                  Flexible(
+                    child: Container(
+                      padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
+                      decoration: BoxDecoration(
+                        color: AppColors.missedDoseWarningBackground,
+                        borderRadius: BorderRadius.circular(12),
+                      ),
+                      child: Text(
+                        L.missedDoseSuspectedBadge,
+                        style: const TextStyle(fontSize: 12, fontWeight: FontWeight.bold, color: AppColors.missedDoseWarning),
+                      ),
                     ),
                   ),
                 ],

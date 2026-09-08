@@ -62,7 +62,8 @@ class MedicationsProgressHero extends StatelessWidget {
             const SizedBox(height: 8),
             Row(
               children: [
-                Icon(Icons.schedule, size: 14, color: Colors.white.withValues(alpha: 0.8)),
+                // 半透明にすると primary 背景とのコントラストがさらに落ちるため、アイコンも文字も白のまま使う
+                const Icon(Icons.schedule, size: 14, color: Colors.white),
                 const SizedBox(width: 6),
                 Expanded(
                   child: Text(
@@ -71,7 +72,7 @@ class MedicationsProgressHero extends StatelessWidget {
                       next.doseReceiver.name,
                       next.scheduleRows.firstWhere((row) => row.medicationHistory == null).medicine.name,
                     ),
-                    style: TextStyle(fontSize: 13, color: Colors.white.withValues(alpha: 0.9)),
+                    style: const TextStyle(fontSize: 13, color: Colors.white),
                     overflow: TextOverflow.ellipsis,
                   ),
                 ),
