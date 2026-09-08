@@ -66,7 +66,7 @@
   "addMedicationSchedule": "Dərman qəbul cədvəli əlavə et",
   "medicationScheduleNotificationSetting": "Dərman qəbulu cədvəli bildiriş ayarları",
   "notificationSetting": "Bildiriş ayarları",
-  "enableFollowupNotification": "İzləmə bildirişini aktivləşdirin",
+  "enableFollowupNotification": "İzləmə bildirişlərini aktivləşdirin",
   "followupNotificationDescription": "İlk bildirişdən 30 dəqiqə ərzində dərman qəbulunu qeydə almadıqda, izləmə bildirişi göndəriləcək.",
   "enableNotificationInSilentMode": "Sabit rejimdə də bildiriş göndər",
   "silentModeNotificationDescription": "Konsentrasiya rejimi aktiv olduqda və ya cihaz səssiz vəziyyətdə olduqda belə, mühüm bildirişlər kilid ekranında görünəcək və səs ifa olunacaq.",

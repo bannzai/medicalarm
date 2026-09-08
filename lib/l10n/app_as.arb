@@ -66,7 +66,7 @@
   "addMedicationSchedule": "ঔষধ সেৱনৰ সময়সূচী যোগ কৰক",
   "medicationScheduleNotificationSetting": "ঔষধ খোৱাৰ সময়সূচীৰ জাননী ছেটিংছ",
   "notificationSetting": "জাননী ছেটিংছ",
-  "enableFollowupNotification": "ফলোআপ বিজ্ঞপ্তি সক্রিয় করুন",
+  "enableFollowupNotification": "ফ’ল’আপ জাননী সক্ৰিয় কৰক",
   "followupNotificationDescription": "যদি প্রথম বিজ্ঞপ্তির ৩০ মিনিটের মধ্যে ঔষধ গ্রহণের রেকর্ড না করা হয়, তবে একটি ফলো-আপ বিজ্ঞপ্তি পাঠানো হবে।",
   "enableNotificationInSilentMode": "মনা মোডে নোটিফিকেশন করবে",
   "silentModeNotificationDescription": "বিহীন বা ডিভাইস নিষ্ক্রিয় থাকা সত্ত্বেও, গুরুত্বপূর্ণ বিজ্ঞপ্তিগুলি লক স্ক্রীনে প্রদর্শিত হবে এবং শব্দ বাজানো হবে।",

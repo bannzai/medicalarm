@@ -66,7 +66,7 @@
   "addMedicationSchedule": "İlaç alma programı ekle",
   "medicationScheduleNotificationSetting": "İlaç alma programı bildirim ayarları",
   "notificationSetting": "Bildirim ayarları",
-  "enableFollowupNotification": "Takip bildirimini etkinleştir",
+  "enableFollowupNotification": "Takip bildirimlerini etkinleştir",
   "followupNotificationDescription": "İlk bildirimden sonra 30 dakika içinde ilaç alımını kaydetmezseniz, takip bildirimleri gönderilecektir.",
   "enableNotificationInSilentMode": "Seste modda bile bildirim yap",
   "silentModeNotificationDescription": "Açık odak modu veya cihazın sessiz olduğu durumlarda bile, önemli bildirimler kilit ekranında görüntülenecek ve ses çalınacaktır.",

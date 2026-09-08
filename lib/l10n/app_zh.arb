@@ -66,7 +66,7 @@
   "addMedicationSchedule": "添加服药计划",
   "medicationScheduleNotificationSetting": "服药计划通知设置",
   "notificationSetting": "通知设置",
-  "enableFollowupNotification": "启用跟进通知",
+  "enableFollowupNotification": "启用后续通知",
   "followupNotificationDescription": "如果在第一次通知后的30分钟内未记录服药，则会发送后续通知。",
   "enableNotificationInSilentMode": "在静音模式下也会通知",
   "silentModeNotificationDescription": "即使集中模式开启或设备处于静音状态，重要通知仍会显示在锁屏上，并且会播放声音。",

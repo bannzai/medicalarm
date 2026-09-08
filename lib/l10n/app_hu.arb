@@ -66,7 +66,7 @@
   "addMedicationSchedule": "Gyógyszeres ütemezés hozzáadása",
   "medicationScheduleNotificationSetting": "Gyógyszerszedési ütemezés értesítési beállításai",
   "notificationSetting": "Értesítési beállítások",
-  "enableFollowupNotification": "Kövesse nyomon az értesítéseket",
+  "enableFollowupNotification": "Utólagos értesítések engedélyezése",
   "followupNotificationDescription": "Ha az első értesítéstől számított 30 percen belül nem rögzíti a gyógyszerszedést, akkor követő értesítést kap.",
   "enableNotificationInSilentMode": "Értesítések a néma módban is",
   "silentModeNotificationDescription": "A fontos értesítések megjelennek a zárolt képernyőn, még ha a fókusz mód be van kapcsolva, vagy az eszköz némítva is van, a hangok is lejátszásra kerülnek.",

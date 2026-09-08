@@ -66,7 +66,7 @@
   "addMedicationSchedule": "เพิ่มตารางการรับประทานยา",
   "medicationScheduleNotificationSetting": "การตั้งค่าการแจ้งเตือนตารางการรับประทานยา",
   "notificationSetting": "การตั้งค่าการแจ้งเตือน",
-  "enableFollowupNotification": "เปิดการแจ้งเตือนติดตาม",
+  "enableFollowupNotification": "เปิดใช้การแจ้งเตือนติดตามผล",
   "followupNotificationDescription": "หากไม่มีการบันทึกการใช้ยาในช่วง 30 นาทีหลังจากการแจ้งเตือนครั้งแรก จะมีการส่งการแจ้งเตือนตามมา",
   "enableNotificationInSilentMode": "แจ้งเตือนแม้ในโหมดสั่น",
   "silentModeNotificationDescription": "แม้ในขณะเปิดโหมดจดจ่อหรืออุปกรณ์อยู่ในโหมดเสียงปิด การแจ้งเตือนที่สำคัญจะปรากฏบนหน้าจอล็อกและมีเสียงแจ้งเตือนด้วย",

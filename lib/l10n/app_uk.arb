@@ -66,7 +66,7 @@
   "addMedicationSchedule": "Додати розклад приймання ліків",
   "medicationScheduleNotificationSetting": "Налаштування сповіщень про розклад приймання ліків",
   "notificationSetting": "Налаштування сповіщень",
-  "enableFollowupNotification": "Enable follow-up notifications",
+  "enableFollowupNotification": "Увімкнути подальші сповіщення",
   "followupNotificationDescription": "If you do not record your medication within 30 minutes of the initial notification, a follow-up reminder will be sent.",
   "enableNotificationInSilentMode": "Notify even in silent mode",
   "silentModeNotificationDescription": "Important notifications will be displayed on the lock screen and a sound will be played even when Focus Mode is ON or the device is on silent.",

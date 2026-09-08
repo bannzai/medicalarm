@@ -66,7 +66,7 @@
   "addMedicationSchedule": "ඖෂධ ගැනීමේ කාලසටහන එක් කරන්න",
   "medicationScheduleNotificationSetting": "ඖෂධ ගැනීමේ කාලසටහන් දැනුම්දීම් සැකසීම්",
   "notificationSetting": "දැනුම්දීම් සැකසීම්",
-  "enableFollowupNotification": "ආධාරක නිවේදන ක්‍රියාත්මක කිරීම",
+  "enableFollowupNotification": "පසු විපරම් දැනුම්දීම් සබල කරන්න",
   "followupNotificationDescription": "ඔබ පළමු නිවේදනයෙන් 30 මිනිත්තුක් ඇතුලුව ඖෂධකරණය සටහන් නොකරනවා නම්, අනිවාර්ය නිවේදනයක් යවනු ලබයි.",
   "enableNotificationInSilentMode": "ඇමතුම් සිද්ධීන් වෙනුවට සවිස්තරාත්මක තොරතුරු ලබාදීම",
   "silentModeNotificationDescription": "මෙම පණිවුඩය සංකේතය මෝඩියුලයේ විශේෂිත ප්‍රධාන අළුත් දේවල් තහවුරු කිරීමේ සංගිණය ලබාදේ.",

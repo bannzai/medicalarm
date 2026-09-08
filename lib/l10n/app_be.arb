@@ -66,7 +66,7 @@
   "addMedicationSchedule": "Дадаць расклад прыёму лекаў",
   "medicationScheduleNotificationSetting": "Налады апавяшчэнняў пра расклад прыёму лекаў",
   "notificationSetting": "Налады апавяшчэнняў",
-  "enableFollowupNotification": "Уключыць апавяшчэнні аб дадатковым маніторынгу",
+  "enableFollowupNotification": "Уключыць апавяшчэнні для наступных напамінаў",
   "followupNotificationDescription": "Калі на працягу 30 хвілін з моманту першай апавяшчэння не будзе запісана прымаанне лекі, будзе адпраўлена дадатковае апавяшчэнне.",
   "enableNotificationInSilentMode": "Апавясціць нават у рэжыме маўчання",
   "silentModeNotificationDescription": "У рэжыме канцэнтрацыі або калі прылада ў беззвучным рэжыме, важныя апавяшчэнні будуць адлюстроўвацца на экране блакавання з прайграваннем гуку.",

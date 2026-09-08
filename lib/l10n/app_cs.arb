@@ -66,7 +66,7 @@
   "addMedicationSchedule": "Přidat plán užívání léků",
   "medicationScheduleNotificationSetting": "Nastavení oznámení plánu užívání léků",
   "notificationSetting": "Nastavení oznámení",
-  "enableFollowupNotification": "Povolit upozornění pro sledování",
+  "enableFollowupNotification": "Povolit následná upozornění",
   "followupNotificationDescription": "Pokud nedojde k zaznamenání užívání léků během 30 minut od první notifikace, bude odesláno připomínkové upozornění.",
   "enableNotificationInSilentMode": "Oznámení i v režimu nerušit",
   "silentModeNotificationDescription": "Ať už je režim soustředění zapnutý, nebo je zařízení ztlumené, důležité upozornění se zobrazí na zamčené obrazovce a bude přehráno zvukem.",

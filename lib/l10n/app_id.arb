@@ -66,7 +66,7 @@
   "addMedicationSchedule": "Tambahkan jadwal minum obat",
   "medicationScheduleNotificationSetting": "Pengaturan notifikasi jadwal minum obat",
   "notificationSetting": "Pengaturan notifikasi",
-  "enableFollowupNotification": "Aktifkan pemberitahuan tindak lanjut",
+  "enableFollowupNotification": "Aktifkan notifikasi tindak lanjut",
   "followupNotificationDescription": "Jika Anda tidak mencatat pengobatan dalam waktu 30 menit setelah pemberitahuan pertama, notifikasi tindak lanjut akan dikirim.",
   "enableNotificationInSilentMode": "Aktifkan notifikasi bahkan saat dalam mode senyap",
   "silentModeNotificationDescription": "Pemberitahuan penting akan ditampilkan di layar kunci dan suara akan diputar meskipun Mode Fokus aktif atau perangkat dalam keadaan bisu.",

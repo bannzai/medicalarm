@@ -66,7 +66,7 @@
   "addMedicationSchedule": "Ychwanegu amserlen meddyginiaeth",
   "medicationScheduleNotificationSetting": "Gosodiadau hysbysiadau amserlen cymryd meddyginiaeth",
   "notificationSetting": "Gosodiadau hysbysiadau",
-  "enableFollowupNotification": "Galluogi hysbysiadau dilyniant",
+  "enableFollowupNotification": "Galluogi hysbysiadau dilynol",
   "followupNotificationDescription": "Os yw defnyddiwr yn methu â chofrestru cymryd meddyginiaeth o fewn 30 munud i'r hysbysiad cyntaf, bydd notification dilynol yn cael ei anfon.",
   "enableNotificationInSilentMode": "Hysbysu hyd yn oed ar fodd peidiog",
   "silentModeNotificationDescription": "Mae negesau pwysig yn ymddangos ar y sgrin clo a bydd sain yn chwarae, hyd yn oed pan fydd y modd canolbwyntio wedi'i actifadu neu pan fo'r dyfais ar dawel.",

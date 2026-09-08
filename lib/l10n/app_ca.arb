@@ -66,7 +66,7 @@
   "addMedicationSchedule": "Afegeix un horari de medicació",
   "medicationScheduleNotificationSetting": "Configuració de notificacions de l’horari de medicació",
   "notificationSetting": "Configuració de notificacions",
-  "enableFollowupNotification": "Activar notificaciones de seguiment",
+  "enableFollowupNotification": "Activa les notificacions de seguiment",
   "followupNotificationDescription": "Si no es registra el medicament durant els 30 minuts següents a la primera notificació, es enviarà una notificació de seguiment.",
   "enableNotificationInSilentMode": "Notificació en mode silenci",
   "silentModeNotificationDescription": "Les notificacions importants es mostraran a la pantalla de bloqueig, fins i tot si el mode de concentració està activat o el dispositiu està silenciat.",

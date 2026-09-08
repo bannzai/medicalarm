@@ -66,7 +66,7 @@
   "addMedicationSchedule": "Lisa ravimite võtmise ajakava",
   "medicationScheduleNotificationSetting": "Ravimite võtmise ajakava teavituste seaded",
   "notificationSetting": "Teavituste seaded",
-  "enableFollowupNotification": "Aktiivige järelmeetmete teavitused",
+  "enableFollowupNotification": "Luba järelteavitused",
   "followupNotificationDescription": "Kui te ei registreeri ravimi võtmist 30 minuti jooksul esimesest teatisest, saadetakse järgnev teade.",
   "enableNotificationInSilentMode": "Teavitab ka häiresüsteemis",
   "silentModeNotificationDescription": "Olukorraga, kui keskendumise režiim on sisse lülitatud või seade on vaigistatud, kuvatakse kriitilised teavitused lukustatud ekraanil ja helisignaal kõlab.",

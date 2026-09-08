@@ -66,7 +66,7 @@
   "addMedicationSchedule": "Дары ичүү графигин кошуу",
   "medicationScheduleNotificationSetting": "Дары ичүү графигинин билдирме жөндөөлөрү",
   "notificationSetting": "Билдирме жөндөөлөрү",
-  "enableFollowupNotification": "Келтирүү эскертүүлөрүн иштетүү",
+  "enableFollowupNotification": "Кийинки эскертмелерди иштетүү",
   "followupNotificationDescription": "Эгер биринчи билдирүүдөн 30 мүнөттүн ичинде дары ичкиликтин жазылышы болмосо, кошумча билдирүү жөнөтүлөт.",
   "enableNotificationInSilentMode": "Тынч режимде да билдирүүлөрдү көрсөтүү",
   "silentModeNotificationDescription": "Кыйналган режимде же коймондо (муздоо) болсо да, маанилүү билдирүүлөр жабык экранда көрсөтүлөт, үн ойнотулат.",

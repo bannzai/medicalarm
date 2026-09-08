@@ -66,7 +66,7 @@
   "addMedicationSchedule": "Medikamentenplan hinzuefüege",
   "medicationScheduleNotificationSetting": "Benachrichtigungseinstellungen für de Medikamentenplan",
   "notificationSetting": "Benachrichtigungseinstellungen",
-  "enableFollowupNotification": "Follow-up-Benachrichtigung aktivieren",
+  "enableFollowupNotification": "Folgebenachrichtigunge aktiviere",
   "followupNotificationDescription": "Wenn Sie innerhalb von 30 Minuten nach der ersten Benachrichtigung keine Medikamenteneinnahme aufzeichnen, wird eine Erinnerungsbenachrichtigung gesendet.",
   "enableNotificationInSilentMode": "Benachrichtigungen au regelbare Mute-Modus",
   "silentModeNotificationDescription": "In de Konzentrationsmodus oder wenn das Gerät auf lautlos ist, werden wichtige Benachrichtigungen auf dem Sperrbildschirm angezeigt und ein Ton wird abgespielt.",

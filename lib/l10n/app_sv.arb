@@ -66,7 +66,7 @@
   "addMedicationSchedule": "Lägg till läkemedelsschema",
   "medicationScheduleNotificationSetting": "Aviseringsinställningar för medicineringsschema",
   "notificationSetting": "Notisinställningar",
-  "enableFollowupNotification": "Aktivera följa upp meddelanden",
+  "enableFollowupNotification": "Aktivera uppföljningsaviseringar",
   "followupNotificationDescription": "Om du inte registrerar medicineringen inom 30 minuter efter den första notifikationen, skickas en uppföljningsnotifikation.",
   "enableNotificationInSilentMode": "Notis även i tyst läge",
   "silentModeNotificationDescription": "Viktiga meddelanden visas på låsskärmen och ljud spelas upp även när fokusläget är på eller när enheten är ljudlös.",

@@ -66,7 +66,7 @@
   "addMedicationSchedule": "ಔಷಧ ಸೇವನೆಯ ವೇಳಾಪಟ್ಟಿಯನ್ನು ಸೇರಿಸಿ",
   "medicationScheduleNotificationSetting": "ಔಷಧ ಸೇವನೆಯ ವೇಳಾಪಟ್ಟಿ ಅಧಿಸೂಚನೆ ಸೆಟ್ಟಿಂಗ್‌ಗಳು",
   "notificationSetting": "ಅಧಿಸೂಚನೆ ಸೆಟ್ಟಿಂಗ್‌ಗಳು",
-  "enableFollowupNotification": "ನಿಕ್ಕುವದನ್ನು ಅನುಗುಣಪಡಿಸಲು",
+  "enableFollowupNotification": "ಫಾಲೋ-ಅಪ್ ಅಧಿಸೂಚನೆಗಳನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ",
   "followupNotificationDescription": "ಮೊದಲ ನೋಟಿಫಿಕೇಶನಿನಿಂದ 30 ನಿಮಿಷಗಳನ್ನು ಒಳಗೊಂಡಂತೆ ಕುಡಿಯಲು ದಾಖಲೆ ಮಾಡಲು ಮೇಲ್ಮಟ್ಟದ ನೋಟಿಫಿಕೇಶನ್ ಕಳುಹಿಸಲಾಗುತ್ತದೆ.",
   "enableNotificationInSilentMode": "ಮನರಿಂಗ್ ಮೋಡ್‌ನಲ್ಲಿ ಸೂಚನೆ ನೀಡುವುದು",
   "silentModeNotificationDescription": "ಕೇಂದ್ರಿತ ಮೋಡ್ ಓನ್ ಆಗಿರುವಾಗ ಅಥವಾ ಸಾಧನ ಘೋಷಣೆಸ್ಥಿತಿಯಲ್ಲಿ ಇರೋದಾದರೂ, ಪ್ರಮುಖ ಅಧಿಸೂಚನೆಗಳು ತೀವ್ರ ಆಡಿಯೋವು ವರ್ಣಾತ್ಮಕ ಸಂತಸದ ಸಹಿತ ಕಡ್ಡಾಯವಾಗಿ ತೋರಿಸಲಾಗುತ್ತದೆ",

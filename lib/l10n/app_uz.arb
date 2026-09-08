@@ -66,7 +66,7 @@
   "addMedicationSchedule": "Dori qabul qilish jadvalini qo‘shish",
   "medicationScheduleNotificationSetting": "Dori qabul qilish jadvali bildirishnomalari sozlamalari",
   "notificationSetting": "Bildirishnoma sozlamalari",
-  "enableFollowupNotification": "Kuzatish xabarnomasini yoqish",
+  "enableFollowupNotification": "Kuzatuv bildirishnomalarini yoqing",
   "followupNotificationDescription": "Birinchi xabardan 30 daqiqa ichida dori qabul qilmasangiz, kuzatuv xabari yuboriladi.",
   "enableNotificationInSilentMode": "Tinch rejimida ham xabarnoma beradi",
   "silentModeNotificationDescription": "Diqqat rejimi yoqilganda yoki qurilma sukutda boʻlsa ham, muhim xabarnomalar qulflangandan so'ng ekranda koʻrsatiladi, ovoz ijro etiladi.",

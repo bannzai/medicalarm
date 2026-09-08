@@ -66,7 +66,7 @@
   "addMedicationSchedule": "ဆေးသောက်ချိန်ဇယား ထည့်ရန်",
   "medicationScheduleNotificationSetting": "ဆေးသောက်ချိန်ဇယား အသိပေးချက် ဆက်တင်များ",
   "notificationSetting": "အသိပေးချက် ဆက်တင်များ",
-  "enableFollowupNotification": "Mengaktifkan pemberitahuan susulan",
+  "enableFollowupNotification": "နောက်ဆက်တွဲ အသိပေးချက်များကို ဖွင့်ပါ",
   "followupNotificationDescription": "Sekiranya anda tidak merekod pengambilan ubat dalam masa 30 minit selepas notifikasi pertama, notifikasi susulan akan dihantar.",
   "enableNotificationInSilentMode": "Hantar pemberitahuan walaupun dalam mod senyap",
   "silentModeNotificationDescription": "Walau mod tumpuan dihidupkan atau peranti dalam mod senyap, pemberitahuan penting akan dipaparkan pada skrin kunci dan bunyi akan dimainkan.",

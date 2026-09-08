@@ -66,7 +66,7 @@
   "addMedicationSchedule": "ଔଷଧ ସେବନ ସୂଚୀ ଯୋଡନ୍ତୁ",
   "medicationScheduleNotificationSetting": "ଔଷଧ ସେବନ ସୂଚୀ ବିଜ୍ଞପ୍ତି ସେଟିଂସ୍",
   "notificationSetting": "ବିଜ୍ଞପ୍ତି ସେଟିଂସ୍",
-  "enableFollowupNotification": "మీటింగ్ ఫాలోఅప్ నోటిఫికేషన్‌లను ప్రారంభించు",
+  "enableFollowupNotification": "ଫଲୋ-ଅପ୍ ବିଜ୍ଞପ୍ତି ସକ୍ରିୟ କରନ୍ତୁ",
   "followupNotificationDescription": "यदि पहले सूचना के 30 मिनट के भीतर कोई दवा दर्ज नहीं की गई है, तो एक फॉलो-अप सूचना भेजी जाएगी।",
   "enableNotificationInSilentMode": "通知 कार्यान्वयन साधारण आहे",
   "silentModeNotificationDescription": "जब संचालित मोड चालू हो या उपकरण मूक हो, तब महत्त्वपूर्ण सूचनाएँ लॉक स्क्रीनमा प्रदर्शित हुनेछन् र ध्वनि बज्नेछ।",
