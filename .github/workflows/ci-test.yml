@@ -1,0 +1,32 @@
+# managed-by: setup-ci (bannzai/castle)
+# setup-ci のテンプレートに、このアプリの設定ファイル準備を追加している。
+name: CI 単体テスト (Flutter)
+
+on:
+  pull_request:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+      - uses: subosito/flutter-action@1a449444c387b1966244ae4d4f8c696479add0b2 # v2.23.0
+        with:
+          flutter-version: "3.41.9"
+          channel: stable
+          cache: true
+      - name: 依存関係を取得する
+        run: flutter pub get
+      # 単体テストでは外部の課金 API を使わないため、実際のキーは不要。
+      - name: テスト用の設定サンプルを配置する
+        run: cp lib/secret/secret.dart.sample lib/secret/secret.dart
+      - name: 単体テストを実行する
+        run: flutter test

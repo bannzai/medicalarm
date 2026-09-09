@@ -1,0 +1,63 @@
+# managed-by: setup-ci (bannzai/castle)
+# setup-ci のテンプレートに、既存 Simulator ビルドと同じ設定復元と日本語設定を追加している。
+name: CI E2E (Flutter iOS)
+
+on:
+  schedule:
+    - cron: '23 18 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  e2e:
+    runs-on: macos-26
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+      - uses: subosito/flutter-action@1a449444c387b1966244ae4d4f8c696479add0b2 # v2.23.0
+        with:
+          flutter-version: "3.41.9"
+          channel: stable
+          cache: true
+      - name: 依存関係を取得する
+        run: flutter pub get
+      - name: ビルド用の設定を復元する
+        env:
+          FILE_FIREBASE_IOS: ${{ secrets.FILE_FIREBASE_IOS }}
+          REVENUE_CAT_PUBLIC_API_KEY: ${{ secrets.REVENUE_CAT_PUBLIC_API_KEY }}
+        run: |
+          [ -n "$FILE_FIREBASE_IOS" ] || { echo "FILE_FIREBASE_IOS が空です" >&2; exit 1; }
+          [ -n "$REVENUE_CAT_PUBLIC_API_KEY" ] || { echo "REVENUE_CAT_PUBLIC_API_KEY が空です" >&2; exit 1; }
+          printf '%s' "$FILE_FIREBASE_IOS" | base64 -d > ios/Firebase/GoogleService-Info.plist
+          [ -s ios/Firebase/GoogleService-Info.plist ] || { echo "設定の復元に失敗しました" >&2; exit 1; }
+          sed -e "s|\[REVENUE_CAT_PUBLIC_API_KEY\]|$REVENUE_CAT_PUBLIC_API_KEY|g" lib/secret/secret.dart.sample > lib/secret/secret.dart
+      # flavor・entrypoint・--dart-define を使うプロジェクトではビルド引数が変わるため、コマンド全体を変数にする。
+      # コマンドの値に `: ` が含まれても不正な YAML にならないよう、block scalar で埋め込む
+      - name: シミュレータ向けにビルドする
+        run: |
+          flutter build ios --simulator --debug
+      - name: シミュレータを起動する
+        run: |
+          xcrun simctl boot "iPhone 17"
+          xcrun simctl bootstatus "iPhone 17" -b
+          xcrun simctl spawn booted defaults write NSGlobalDomain AppleLanguages -array ja
+          xcrun simctl spawn booted defaults write NSGlobalDomain AppleLocale -string ja_JP
+      - name: アプリをインストールする
+        run: xcrun simctl install booted "build/ios/iphonesimulator/Runner.app"
+      # インストーラーの取得元スクリプトは常に最新版を入れるため、リリース成果物をバージョン固定して取得し、
+      # ダウンロード内容が想定と一致することを sha256 で検証してから使う
+      - name: maestro をインストールする
+        run: |
+          cd "$RUNNER_TEMP"
+          curl -fsSL -o maestro.zip "https://github.com/mobile-dev-inc/maestro/releases/download/cli-2.10.0/maestro.zip"
+          echo "29b675e10cc12080e445e9bfb2e2b4e4dfb9c0f2e30d5884120d258b5e1cd991  maestro.zip" | shasum -a 256 -c -
+          unzip -q maestro.zip -d maestro-cli
+          echo "$RUNNER_TEMP/maestro-cli/maestro/bin" >> "$GITHUB_PATH"
+      - name: E2E フローを実行する
+        run: maestro test "maestro/flows"
