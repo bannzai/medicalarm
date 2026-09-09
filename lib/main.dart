@@ -5,6 +5,7 @@ import 'package:cloud_functions/cloud_functions.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_crashlytics/firebase_crashlytics.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'package:google_sign_in/google_sign_in.dart';
@@ -21,28 +22,48 @@ import 'package:medicalarm/utils/push_notification/fcm_notification.dart';
 import 'package:purchases_flutter/purchases_flutter.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
+/// 起動初期化の各ステップの開始・完了・失敗を os_log へ出す。
+/// runApp 前の初期化はどこで停止しても画面が LaunchImage のまま (起動白画面) になり
+/// 原因箇所を外から特定できないため、ログで切り分けられるよう常設する。
+Future<T> _bootStep<T>(String stepName, Future<T> future) async {
+  debugPrint('[BOOT] start $stepName ${DateTime.now().toIso8601String()}');
+  try {
+    final result = await future;
+    debugPrint('[BOOT] done $stepName ${DateTime.now().toIso8601String()}');
+    return result;
+  } catch (e) {
+    debugPrint('[BOOT] fail $stepName: $e');
+    rethrow;
+  }
+}
+
 void main() async {
   runZonedGuarded(() async {
     WidgetsFlutterBinding.ensureInitialized();
+    debugPrint('[BOOT] ensureInitialized done');
 
     Intl.defaultLocale = 'ja';
 
     await (
-      MobileAds.instance.initialize(),
+      _bootStep('MobileAds.initialize', MobileAds.instance.initialize()),
       // emulator 接続時は本番プロジェクト(GoogleService-Info.plist)に触れないよう demo プロジェクト ID で初期化する。
       // demo-* プレフィックスは Firebase Emulator の完全オフラインモードで、非エミュレート API への到達を Emulator 側が遮断する。
-      const bool.fromEnvironment('USE_FIREBASE_EMULATOR')
-          ? Firebase.initializeApp(
-              options: const FirebaseOptions(
-                // FIRInstallations が API キーの形式(AIza 開頭 39 文字)を検証しクラッシュするため、形式だけ満たすダミー値にする
-                apiKey: 'AIzaSyDUMMYKEYFORDEMOEMULATOR0123456789',
-                appId: '1:123456789012:ios:1234567890abcdef',
-                messagingSenderId: '123456789012',
-                projectId: 'demo-medicalarm',
-              ),
-            )
-          : Firebase.initializeApp(),
+      _bootStep(
+        'Firebase.initializeApp',
+        const bool.fromEnvironment('USE_FIREBASE_EMULATOR')
+            ? Firebase.initializeApp(
+                options: const FirebaseOptions(
+                  // FIRInstallations が API キーの形式(AIza 開頭 39 文字)を検証しクラッシュするため、形式だけ満たすダミー値にする
+                  apiKey: 'AIzaSyDUMMYKEYFORDEMOEMULATOR0123456789',
+                  appId: '1:123456789012:ios:1234567890abcdef',
+                  messagingSenderId: '123456789012',
+                  projectId: 'demo-medicalarm',
+                ),
+              )
+            : Firebase.initializeApp(),
+      ),
     ).wait;
+    debugPrint('[BOOT] firebase+ads wait done');
 
     // ローカルの Firebase Emulator に接続する開発用ゲート。
     // `--dart-define=USE_FIREBASE_EMULATOR=true` を付けたビルドのみ有効で、デフォルト(未指定)では本番に接続する。
@@ -69,10 +90,11 @@ void main() async {
 
     // ignore: prefer_typing_uninitialized_variables
     final (_, sharedPreferences, _) = await (
-      LocalNotificationService.setupTimeZone(),
-      SharedPreferences.getInstance(),
-      setupRemoteConfig(),
+      _bootStep('setupTimeZone', LocalNotificationService.setupTimeZone()),
+      _bootStep('SharedPreferences.getInstance', SharedPreferences.getInstance()),
+      _bootStep('setupRemoteConfig', setupRemoteConfig()),
     ).wait;
+    debugPrint('[BOOT] triple wait done');
 
     // AppLocalizationsの初期化を待つ
     WidgetsBinding.instance.addPostFrameCallback((timeStamp) async {
@@ -105,7 +127,15 @@ void main() async {
       ],
       child: const App(),
     ));
-  }, (error, stack) => FirebaseCrashlytics.instance.recordError(error, stack));
+    debugPrint('[BOOT] runApp called');
+  }, (error, stack) {
+    // release ビルドで error・stack をコンソールへ出すと機微情報が端末ログに残り得るため debug に限定する。
+    // release の記録は従来どおり Crashlytics が担う
+    if (kDebugMode) {
+      debugPrint('[BOOT] zone error: $error\n$stack');
+    }
+    FirebaseCrashlytics.instance.recordError(error, stack);
+  });
 }
 
 class App extends StatelessWidget {
@@ -146,6 +176,10 @@ class App extends StatelessWidget {
           contentPadding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 20.0),
         ),
         appBarTheme: const AppBarTheme(
+          // 白文字・白アイコンを載せる塗り面のため、primary ではなくコントラスト比を満たす primaryFilled を使う (#287)
+          backgroundColor: AppColors.primaryFilled,
+          // M2 の既定前景は colorScheme.onPrimary で、seed 由来の値が白から外れると 4.5:1 を割り込むため白に固定する
+          foregroundColor: Colors.white,
           elevation: 1,
         ),
         textButtonTheme: TextButtonThemeData(
@@ -156,6 +190,9 @@ class App extends StatelessWidget {
         ),
         elevatedButtonTheme: ElevatedButtonThemeData(
           style: ElevatedButton.styleFrom(
+            // ラベルは白のため、コントラスト比 4.5:1 を満たす primaryFilled を背景にする (#287)
+            backgroundColor: AppColors.primaryFilled,
+            foregroundColor: Colors.white,
             shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
             padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 12.0),
             minimumSize: const Size(double.infinity, 48.0),
@@ -165,8 +202,9 @@ class App extends StatelessWidget {
         ),
         floatingActionButtonTheme: const FloatingActionButtonThemeData(
           // M2 の FAB 既定背景は colorScheme.secondary にフォールバックするため、
-          // 作成系の主要アクション(グループ作成 FAB 等)がアクセントカラーにならないようブランド色に固定する
-          backgroundColor: AppColors.primary,
+          // 作成系の主要アクション(グループ作成 FAB 等)がアクセントカラーにならないようブランド色に固定する。
+          // アイコン・ラベルは白のため、コントラスト比 4.5:1 を満たす primaryFilled を使う (#287)
+          backgroundColor: AppColors.primaryFilled,
           foregroundColor: Colors.white,
           extendedTextStyle: TextStyle(fontSize: 16.0, fontWeight: FontWeight.bold),
         ),

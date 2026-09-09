@@ -45,7 +45,9 @@ class MedicinesPageBody extends HookConsumerWidget {
       ),
       body: FloatingActionButtonLayout(
         scaffoldBody: ListView(
-          padding: const EdgeInsets.symmetric(vertical: 16.0),
+          // 下余白は FloatingActionButtonLayout が本文の末尾に重ねるフェード (24) より大きくし、
+          // 末尾までスクロールした時にカード右下の Switch がフェードにかからないようにする (#288)
+          padding: const EdgeInsets.only(top: 16.0, bottom: 40.0),
           children: medicines
               .map((medicine) => Column(
                     children: [

@@ -13,7 +13,6 @@ import 'package:medicalarm/features/resolver/current_group.dart';
 import 'package:medicalarm/features/resolver/database.dart';
 import 'package:medicalarm/features/resolver/force_update.dart';
 import 'package:medicalarm/features/resolver/group_migration.dart';
-import 'package:medicalarm/features/resolver/in_app_review.dart';
 import 'package:medicalarm/features/resolver/purchase_setup.dart';
 import 'package:medicalarm/utils/analytics/analytics.dart';
 
@@ -55,7 +54,6 @@ class RootPage extends HookConsumerWidget {
                                       debugPrint('Resolved: OnboardingResolver');
                                       Widget home() => Stack(
                                             children: [
-                                              const InAppReviewResolver(),
                                               AppUserStreamResolver(stream: (user) => analyticsDebugIsEnabled = user.analyticsDebugIsEnabled),
                                               const HomePage(),
                                             ],
