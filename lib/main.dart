@@ -16,6 +16,7 @@ import 'package:medicalarm/l10n/app_localizations.dart';
 import 'package:medicalarm/provider/shared_preferences.dart';
 import 'package:medicalarm/style/color.dart';
 import 'package:medicalarm/utils/config/remote_config.dart';
+import 'package:medicalarm/utils/firebase/app_check.dart';
 import 'package:medicalarm/utils/local_notification/client.dart';
 import 'package:medicalarm/utils/purchase/purchase.dart';
 import 'package:medicalarm/utils/push_notification/fcm_notification.dart';
@@ -64,6 +65,11 @@ void main() async {
       ),
     ).wait;
     debugPrint('[BOOT] firebase+ads wait done');
+
+    // オフラインの demo プロジェクトでは端末認証サービスへ接続しない。
+    if (!const bool.fromEnvironment('USE_FIREBASE_EMULATOR')) {
+      await activateFirebaseAppCheck(isDebugMode: kDebugMode);
+    }
 
     // ローカルの Firebase Emulator に接続する開発用ゲート。
     // `--dart-define=USE_FIREBASE_EMULATOR=true` を付けたビルドのみ有効で、デフォルト(未指定)では本番に接続する。

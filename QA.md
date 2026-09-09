@@ -7,6 +7,14 @@ last_verified_at: 2026-07-16
 
 # QA 全体ガイド
 
+## App Check 導入時の未検証範囲（2026-09-09）
+
+App Check 導入後の起動・Firebase 通信・トークン取得・メトリクスは未検証。
+Apple 側の App Attest capability が未有効で、配布用プロファイルの再生成も未実施。
+Firebase 側のプロバイダ・デバッグトークン登録は今回のクライアント側変更に含めない。
+ローカルのリソース検査は CPU 使用率 100%・メモリ圧迫ありで通過しなかったため、ビルドと Maestro E2E は未実施。
+以下の既存エビデンスと最終検証日時は App Check 導入前の記録であり、今回の変更を検証済みとするものではない。
+
 ## 対象環境
 
 - Firebase project: `medicalarm-prod`（firebase/.firebaserc の default。dev 環境はなく、QA も prod に対して行う）
