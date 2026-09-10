@@ -31,7 +31,10 @@ import 'package:medicalarm/features/localization/l.dart';
 class MedicineFormPage extends HookConsumerWidget {
   final Medicine? medicine;
 
-  const MedicineFormPage({super.key, required this.medicine});
+  /// オンボーディングで用意した時刻。通常の新規登録では時刻を指定しないため空にする。
+  final List<MedicationSchedule> initialSchedules;
+
+  const MedicineFormPage({super.key, required this.medicine, this.initialSchedules = const []});
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
@@ -40,7 +43,7 @@ class MedicineFormPage extends HookConsumerWidget {
     final frequency = useState(medicine?.frequency ?? const MedicationFrequency.daily());
     final begin = useState(medicine?.beganDateTime ?? today());
     final minimumDoseIntervalHours = useState(medicine?.minimumDoseIntervalHours);
-    final schedules = useState(medicine?.schedules ?? []);
+    final schedules = useState(medicine?.schedules ?? initialSchedules);
     final primaryColor = Theme.of(context).colorScheme.primary;
     final memo = useState(medicine?.memo ?? '');
     final memoImageURL = useState(medicine?.memoImageURL ?? '');
@@ -209,7 +212,7 @@ class MedicineFormPage extends HookConsumerWidget {
                                         unawaited(registerReminderLocalNotification());
 
                                         if (context.mounted) {
-                                          Navigator.pop(context);
+                                          Navigator.pop(context, true);
                                         }
                                       } catch (e) {
                                         if (context.mounted) {
@@ -238,12 +241,13 @@ class MedicineFormPage extends HookConsumerWidget {
   }
 }
 
-void showMedicineForm(BuildContext context, Medicine? medicine) {
-  showModalBottomSheet(
+/// フォームを開き、保存した場合だけ true を返す。通常の登録では初期時刻を用意しない。
+Future<bool?> showMedicineForm(BuildContext context, Medicine? medicine, {List<MedicationSchedule> initialSchedules = const []}) {
+  return showModalBottomSheet<bool>(
     context: context,
     useSafeArea: true,
     isScrollControlled: true,
     backgroundColor: Colors.transparent,
-    builder: (context) => MedicineFormPage(medicine: medicine),
+    builder: (context) => MedicineFormPage(medicine: medicine, initialSchedules: initialSchedules),
   );
 }

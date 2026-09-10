@@ -1,0 +1,36 @@
+# 2回で回答した薬未登録の専用QAアカウントで実行する。
+appId: com.bannzai.medicalarm
+---
+- runFlow: allow_notification.yaml
+- scrollUntilVisible:
+    element:
+      id: "onboarding_placeholder_delete_onboarding-8"
+    direction: DOWN
+- tapOn:
+    text: "Dismiss"
+    optional: true
+- tapOn:
+    id: "onboarding_placeholder_delete_onboarding-8"
+- assertNotVisible: "08:00"
+- assertVisible: "19:00"
+- takeScreenshot: tmp/onboarding-followup-one-deleted
+- tapOn:
+    text: "Dismiss"
+    optional: true
+- tapOn:
+    id: "onboarding_placeholder_delete_onboarding-19"
+- assertNotVisible: "お薬が未登録です"
+- stopApp
+- launchApp:
+    clearState: false
+- assertNotVisible: "お薬が未登録です"
+- tapOn: "(?s)設定.*"
+- scrollUntilVisible:
+    element:
+      text: "Local Notifications"
+    direction: DOWN
+- tapOn: "Local Notifications"
+- assertNotVisible: "(?s).*900000001.*"
+- assertNotVisible: "(?s).*900000002.*"
+- assertNotVisible: "(?s).*900000003.*"
+- takeScreenshot: tmp/onboarding-followup-manual-notifications-cleared

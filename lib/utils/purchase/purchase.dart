@@ -181,6 +181,11 @@ class Purchase {
       if (!premiumEntitlement.isActive) {
         throw FormatException(L.purchaseErrorActivationPending);
       }
+      // 購入完了とトライアル開始 (period_type = trial) を区別して計測する。ペイウォール表示 → トライアル開始率の算出に使う
+      analytics.logEvent(
+        name: 'purchase_completed',
+        parameters: {'product_identifier': premiumEntitlement.productIdentifier, 'period_type': premiumEntitlement.periodType.name},
+      );
       return Future.value(true);
     } on PlatformException catch (exception, stack) {
       analytics.logEvent(

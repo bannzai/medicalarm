@@ -5,6 +5,7 @@ import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:medicalarm/entity/group_member_notification_settings.dart';
 import 'package:medicalarm/entity/medication_history.dart';
 import 'package:medicalarm/entity/medicine.dart';
+import 'package:medicalarm/entity/onboarding_medication_plan.dart';
 import 'package:medicalarm/features/medications/entity/grouped.dart';
 import 'package:medicalarm/provider/app_user.dart';
 import 'package:medicalarm/provider/group_member_notification_settings.dart';
@@ -31,9 +32,45 @@ const scheduleNotificationIdentifierOffset = 100000;
 const reminderNotificationIdentifierOffset = 1000000000;
 const followupNotificationIdentifierOffset = 2000000000;
 
+/// 既存の服薬通知（10 億以上）と重ならない仮設定専用の ID。
+const onboardingMedicationPlanNotificationIDs = [900000001, 900000002, 900000003];
+
 // NOTE: It can not be use Future.wait(processes) when register notification.
 class LocalNotificationService {
   final plugin = FlutterLocalNotificationsPlugin();
+
+  /// 薬の未登録を案内する通知だけを取り消す。
+  Future<void> cancelOnboardingMedicationPlanNotifications() async {
+    for (final notificationID in onboardingMedicationPlanNotificationIDs) {
+      await cancelNotification(localNotificationID: notificationID);
+    }
+  }
+
+  /// 薬・用量が未確定なので通常通知だけを設定し、服用記録の操作は付けない。
+  Future<void> registerOnboardingMedicationPlanNotifications({required OnboardingMedicationPlan plan}) async {
+    final now = tz.TZDateTime.now(tz.local);
+    for (final (index, schedule) in plan.schedules.indexed) {
+      final scheduledDate = tz.TZDateTime(tz.local, now.year, now.month, now.day, schedule.hour, schedule.minute);
+      await plugin.zonedSchedule(
+        onboardingMedicationPlanNotificationIDs[index],
+        L.addMedicine,
+        L.onboardingMedicationPlanNotificationBody,
+        scheduledDate.isAfter(now) ? scheduledDate : tz.TZDateTime(tz.local, now.year, now.month, now.day + 1, schedule.hour, schedule.minute),
+        const NotificationDetails(
+          iOS: DarwinNotificationDetails(
+            presentAlert: false,
+            presentBanner: true,
+            presentList: true,
+            presentSound: true,
+            interruptionLevel: InterruptionLevel.active,
+          ),
+          android: AndroidNotificationDetails('onboarding_medication_plan', 'Medicalarm'),
+        ),
+        androidScheduleMode: AndroidScheduleMode.inexactAllowWhileIdle,
+        matchDateTimeComponents: DateTimeComponents.time,
+      );
+    }
+  }
 
   static Future<void> setupTimeZone() async {
     tz.initializeTimeZones();

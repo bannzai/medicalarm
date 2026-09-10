@@ -1,0 +1,53 @@
+# 薬未登録の専用QAアカウントで実行する。初回起動の案内は allow_notification.yaml が完走する。
+appId: com.bannzai.medicalarm
+---
+- runFlow: allow_notification.yaml
+- scrollUntilVisible:
+    element:
+      text: "お薬が未登録です"
+    direction: DOWN
+- assertVisible: "08:00"
+- takeScreenshot: tmp/onboarding-followup-placeholder
+- stopApp
+- launchApp:
+    clearState: false
+- assertNotVisible: "はじめる"
+- scrollUntilVisible:
+    element:
+      text: "お薬が未登録です"
+    direction: DOWN
+# 仮カードの登録ボタンは常駐の追加ボタンとは識別子で区別する。
+- tapOn:
+    text: "Dismiss"
+    optional: true
+- tapOn:
+    id: "onboarding_placeholder_add_onboarding-8"
+- assertVisible: "08:00"
+- assertVisible: "19:00"
+- takeScreenshot: tmp/onboarding-followup-form
+- tapOn:
+    point: "7%,8%"
+- assertVisible: "お薬が未登録です"
+- tapOn:
+    text: "Dismiss"
+    optional: true
+- tapOn:
+    id: "onboarding_placeholder_add_onboarding-8"
+- tapOn: "薬の名前"
+- inputText: "Onboarding QA"
+- tapOn: "完了"
+- tapOn: "保存"
+- extendedWaitUntil:
+    notVisible: "お薬が未登録です"
+    timeout: 15000
+- assertVisible: "(?s).*Onboarding QA.*"
+- takeScreenshot: tmp/onboarding-followup-registered
+- tapOn: "(?s)設定.*"
+- scrollUntilVisible:
+    element:
+      text: "Local Notifications"
+    direction: DOWN
+- tapOn: "Local Notifications"
+- assertNotVisible: "(?s).*900000001.*"
+- assertNotVisible: "(?s).*900000002.*"
+- takeScreenshot: tmp/onboarding-followup-notifications-cleared

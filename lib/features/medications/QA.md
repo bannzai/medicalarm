@@ -489,3 +489,26 @@ simtunnel（GitHub Actions macOS Runner 上の iPhone 17 / iOS 26.5、英語ロ�
 
 - **AdMob native ad validator オーバーレイが操作をブロックする**: 開発ビルドで表示される AdMob native ad validator の警告（root QA.md 参照）は、画面座標 x:0-335 y:355-510 に固定表示され、この範囲に重なる要素（チェックボックス・ボタン等）へのタップを奪う。回避策: (1) 対象要素がこの範囲外（y>510）に来るよう、事前にスケジュールや薬を追加してカードの並び順を調整してから操作する。(2) 服薬画面（AdMob 広告を表示する画面）から直接開いたフォームにはオーバーレイが残るが、お薬一覧画面（MedicinesPage、広告なし）経由でフォームを開けばオーバーレイの影響を受けない
 - **FAB 警告文言と最終カードの表示重なり (解消済み)**: 上限到達時に `lib/components/fab/layout.dart` の固定 FAB エリアがスクロール領域の最終カードに重なる表示崩れ。issue #288 として起票され、PR #291 でボタン列を本文の下に置く構成に変えて解消した (上記「登録上限」項目の 2026-09-08 のエビデンス参照)
+
+## 未登録の服薬時刻
+
+- [x] **仮カードの表示と保持**: オンボーディングを「あとで」で完了すると回答回数に応じた時刻の仮カードを表示する。服用者はデフォルトの服用者で、薬名と服薬チェック欄は持たない。再起動しても残る
+  - 自動化: auto (maestro/flows/onboarding_medication_plan.yaml)
+- [x] **仮カードから登録**: お薬を追加から時刻を初期入力したフォームへ進める。登録後は全仮カードが消えて実際の薬のカードになる
+  - 自動化: auto (maestro/flows/onboarding_medication_plan.yaml)
+- [x] **時刻ごとの削除**: 仮カードの削除ボタンでその時刻と通知だけを削除し、残りの時刻は保持する。最後のカードを削除すると再起動後も表示されない
+  - 自動化: auto (maestro/flows/onboarding_medication_plan_delete.yaml)
+- [ ] **登録案内の通知**: 通知一覧に仮カードと同数の薬登録案内が表示される。Critical Alertや服薬記録のアクションは持たない。削除・薬登録後に対象の通知が消える
+  - 自動化: auto (maestro/flows/onboarding_medication_plan.yaml / onboarding_medication_plan_delete.yaml)
+
+## 2026-09-08の追加実装の検証
+
+対象コード: `c4e57849`。iOS 26.5の専用シミュレータで今回の追加部分を検証した。既存項目全体は再検証していないため、frontmatterの最終検証コミットは更新していない。
+
+- 2回を回答し、ペイウォールを閉じると08:00・19:00の登録案内が表示された。「あとで」で仮カードを表示し、再起動後も保持された
+- 仮カードから開いた登録フォームに08:00・19:00が初期入力された。保存せず閉じても仮カードが残った。時刻を編集する操作と、登録案内から直接フォームへ進む経路は今回のシミュレータでは未検証
+- 薬名「Onboarding QA」の保存後に実薬のカードと服薬チェック欄が表示され、仮カードが消えた。通知一覧も実薬の通知に切り替わった
+- 別の専用シミュレータで08:00だけを削除すると19:00が残り、最後の時刻の削除と再起動後は仮カードと通知が消えた。通知一覧で薬登録案内の文面を確認した。指定時刻の実際の通知受信は未検証
+- Maestroの通し実行は登録側が保存ボタン検出、削除側が広告オーバーレイ等でexit 1。分割した追検証は登録後・通知解除と最後の手動削除・再起動をそれぞれexit 0で確認した。通しテスト成功とは扱わない
+- ローカルログ: `tmp/onboarding-followup-maestro-registration.log`、`tmp/onboarding-followup-maestro-registration-finish.log`、`tmp/onboarding-followup-maestro-delete-last-dismiss.log`
+- 画像: https://github.com/bannzai/medicalarm/pull/273 の「今回の検証」へ添付

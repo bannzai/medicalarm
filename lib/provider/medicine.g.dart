@@ -21,7 +21,7 @@ final activeMedicinesProvider = AutoDisposeStreamProvider<List<Medicine>>.intern
 @Deprecated('Will be removed in 3.0. Use Ref instead')
 // ignore: unused_element
 typedef ActiveMedicinesRef = AutoDisposeStreamProviderRef<List<Medicine>>;
-String _$medicineAddHash() => r'adc9e6b19acfe85d2b2ef5c70f2c6a2ab483c341';
+String _$medicineAddHash() => r'b4c2d061d4ddc9d87043b7a641551af0cdc58ba1';
 
 /// See also [medicineAdd].
 @ProviderFor(medicineAdd)
@@ -29,12 +29,14 @@ final medicineAddProvider = AutoDisposeProvider<MedicineAdd>.internal(
   medicineAdd,
   name: r'medicineAddProvider',
   debugGetCreateSourceHash: const bool.fromEnvironment('dart.vm.product') ? null : _$medicineAddHash,
-  dependencies: <ProviderOrFamily>[currentGroupDatabaseProvider, appUserIDProvider],
+  dependencies: <ProviderOrFamily>[currentGroupDatabaseProvider, appUserIDProvider, onboardingMedicationPlanStoreProvider],
   allTransitiveDependencies: <ProviderOrFamily>{
     currentGroupDatabaseProvider,
     ...?currentGroupDatabaseProvider.allTransitiveDependencies,
     appUserIDProvider,
-    ...?appUserIDProvider.allTransitiveDependencies
+    ...?appUserIDProvider.allTransitiveDependencies,
+    onboardingMedicationPlanStoreProvider,
+    ...?onboardingMedicationPlanStoreProvider.allTransitiveDependencies
   },
 );
 
