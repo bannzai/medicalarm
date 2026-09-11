@@ -3,6 +3,7 @@
   "onboardingMedicationRegistrationTitle": "Regjistroni ilaçin tuaj të parë",
   "onboardingMedicationRegistrationBody": "Kemi përgatitur përkohësisht oraret e marrjes së ilaçeve\nMund t’i ndryshoni sipas ilaçeve tuaja",
   "onboardingMedicationLater": "Më vonë",
+  "onboardingMedicationPlaceholderTitle": "Nuk ka ilaçe të regjistruara",
   "retry": "Rivendos",
   "save": "Ruaj",
   "memo": "Shënim",

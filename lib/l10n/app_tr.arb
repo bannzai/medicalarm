@@ -3,6 +3,7 @@
   "onboardingMedicationRegistrationTitle": "İlk ilacınızı kaydedin",
   "onboardingMedicationRegistrationBody": "İlaç alma saatlerini şimdilik hazırladık\nİlaçlarınıza göre değiştirebilirsiniz",
   "onboardingMedicationLater": "Daha sonra",
+  "onboardingMedicationPlaceholderTitle": "Kayıtlı ilaç yok",
   "retry": "Tekrar dene",
   "save": "Kaydet",
   "memo": "Not",

@@ -3,6 +3,7 @@
   "onboardingMedicationRegistrationTitle": "سجّل دواءك الأول",
   "onboardingMedicationRegistrationBody": "أعددنا أوقات تناول الأدوية مبدئيًا\nيمكنك تغييرها بما يتناسب مع أدويتك",
   "onboardingMedicationLater": "لاحقًا",
+  "onboardingMedicationPlaceholderTitle": "لا توجد أدوية مسجّلة",
   "retry": "إعادة المحاولة",
   "save": "حفظ",
   "memo": "مذكرة",

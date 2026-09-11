@@ -3,6 +3,7 @@
   "onboardingMedicationRegistrationTitle": "Алғашқы дәріңізді тіркеңіз",
   "onboardingMedicationRegistrationBody": "Дәрі қабылдау уақыттарын әзірге дайындап қойдық\nОларды дәрілеріңізге қарай өзгерте аласыз",
   "onboardingMedicationLater": "Кейінірек",
+  "onboardingMedicationPlaceholderTitle": "Ешбір дәрі тіркелмеген",
   "retry": "Қайтадан сынау",
   "save": "Сақтау",
   "memo": "Ескерту",

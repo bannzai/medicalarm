@@ -3,6 +3,7 @@
   "onboardingMedicationRegistrationTitle": "Анхны эмээ бүртгүүлээрэй",
   "onboardingMedicationRegistrationBody": "Эм уух цагийг түр тохирууллаа\nТа эмэндээ тохируулан өөрчилж болно",
   "onboardingMedicationLater": "Дараа",
+  "onboardingMedicationPlaceholderTitle": "Бүртгэгдсэн эм байхгүй байна",
   "retry": "Дахин оролдох",
   "save": "Хадгал",
   "memo": "Бичлэг",

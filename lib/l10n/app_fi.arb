@@ -3,6 +3,7 @@
   "onboardingMedicationRegistrationTitle": "Rekisteröi ensimmäinen lääkkeesi",
   "onboardingMedicationRegistrationBody": "Lääkkeiden ottoajat on määritetty alustavasti\nVoit muuttaa niitä lääkkeidesi mukaan",
   "onboardingMedicationLater": "Myöhemmin",
+  "onboardingMedicationPlaceholderTitle": "Lääkkeitä ei ole rekisteröity",
   "retry": "Uudelleenyritys",
   "save": "Tallenna",
   "memo": "Muistio",

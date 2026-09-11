@@ -3,6 +3,7 @@
   "onboardingMedicationRegistrationTitle": "Zaregistrujte svoj prvý liek",
   "onboardingMedicationRegistrationBody": "Časy užívania liekov sme predbežne nastavili\nMôžete ich zmeniť podľa svojich liekov",
   "onboardingMedicationLater": "Neskôr",
+  "onboardingMedicationPlaceholderTitle": "Nie sú zaregistrované žiadne lieky",
   "retry": "Skúsiť znova",
   "save": "Uložiť",
   "memo": "Poznámka",

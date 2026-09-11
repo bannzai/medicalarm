@@ -3,6 +3,7 @@
   "onboardingMedicationRegistrationTitle": "Зарегистрируйте свой первый препарат",
   "onboardingMedicationRegistrationBody": "Мы предварительно подготовили время приёма лекарств\nВы можете изменить его в соответствии со своими лекарствами",
   "onboardingMedicationLater": "Позже",
+  "onboardingMedicationPlaceholderTitle": "Лекарства не зарегистрированы",
   "retry": "Повторить",
   "save": "Сохранить",
   "memo": "Заметка",

@@ -3,6 +3,7 @@
   "onboardingMedicationRegistrationTitle": "اولین داروی خود را ثبت کنید",
   "onboardingMedicationRegistrationBody": "زمان‌های مصرف دارو را به‌طور موقت آماده کردیم\nمی‌توانید آن‌ها را متناسب با داروهایتان تغییر دهید",
   "onboardingMedicationLater": "بعداً",
+  "onboardingMedicationPlaceholderTitle": "هیچ دارویی ثبت نشده است",
   "retry": "تلاش مجدد",
   "save": "ذخیره",
   "memo": "یادداشت",

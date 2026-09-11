@@ -3,6 +3,7 @@
   "onboardingMedicationRegistrationTitle": "Užregistruokite pirmąjį vaistą",
   "onboardingMedicationRegistrationBody": "Vaistų vartojimo laikus laikinai nustatėme\nGalite juos pakeisti pagal savo vaistus",
   "onboardingMedicationLater": "Vėliau",
+  "onboardingMedicationPlaceholderTitle": "Vaistų neužregistruota",
   "retry": "Bandykite dar kartą",
   "save": "Išsaugoti",
   "memo": "Pastaba",

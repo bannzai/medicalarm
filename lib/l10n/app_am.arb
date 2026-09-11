@@ -3,6 +3,7 @@
   "onboardingMedicationRegistrationTitle": "የመጀመሪያውን መድኃኒትዎን ይመዝግቡ",
   "onboardingMedicationRegistrationBody": "የመድኃኒት መውሰጃ ሰዓቶችን በጊዜያዊነት አዘጋጅተናል\nእንደ መድኃኒቶችዎ መሠረት መቀየር ይችላሉ",
   "onboardingMedicationLater": "በኋላ",
+  "onboardingMedicationPlaceholderTitle": "ምንም መድኃኒት አልተመዘገበም",
   "retry": "መደገፍ",
   "save": "ይቀመጥ",
   "memo": "መዝገብ",

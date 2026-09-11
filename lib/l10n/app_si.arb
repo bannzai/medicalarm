@@ -3,6 +3,7 @@
   "onboardingMedicationRegistrationTitle": "ඔබේ පළමු ඖෂධය ලියාපදිංචි කරන්න",
   "onboardingMedicationRegistrationBody": "ඖෂධ ගන්නා වේලාවන් තාවකාලිකව සකස් කර ඇත\nඔබේ ඖෂධ අනුව ඒවා වෙනස් කළ හැකිය",
   "onboardingMedicationLater": "පසුව",
+  "onboardingMedicationPlaceholderTitle": "ඖෂධ කිසිවක් ලියාපදිංචි කර නැත",
   "retry": "ප්‍රරීක්ෂණය",
   "save": "සුරක්ෂිත කරන්න",
   "memo": "සටහන",

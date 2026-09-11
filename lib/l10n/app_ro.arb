@@ -3,6 +3,7 @@
   "onboardingMedicationRegistrationTitle": "Înregistrați primul medicament",
   "onboardingMedicationRegistrationBody": "Am pregătit provizoriu orele de administrare a medicamentelor\nLe puteți modifica în funcție de medicamentele dumneavoastră",
   "onboardingMedicationLater": "Mai târziu",
+  "onboardingMedicationPlaceholderTitle": "Nu există medicamente înregistrate",
   "retry": "Reîncercați",
   "save": "Salvează",
   "memo": "Notă",

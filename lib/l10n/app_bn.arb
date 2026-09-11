@@ -3,6 +3,7 @@
   "onboardingMedicationRegistrationTitle": "আপনার প্রথম ওষুধটি নিবন্ধন করুন",
   "onboardingMedicationRegistrationBody": "ওষুধ খাওয়ার সময়গুলো আপাতত সেট করে দিয়েছি\nআপনার ওষুধ অনুযায়ী এগুলো পরিবর্তন করতে পারবেন",
   "onboardingMedicationLater": "পরে",
+  "onboardingMedicationPlaceholderTitle": "কোনো ওষুধ নিবন্ধিত নেই",
   "retry": "পুনরায় চেষ্টা করুন",
   "save": "সংরক্ষণ",
   "memo": "মেমো",

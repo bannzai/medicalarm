@@ -3,6 +3,7 @@
   "onboardingMedicationRegistrationTitle": "登记您的第一种药物",
   "onboardingMedicationRegistrationBody": "我们已暂时设置好服药时间\n你可以根据所用药物进行修改",
   "onboardingMedicationLater": "稍后",
+  "onboardingMedicationPlaceholderTitle": "尚未登记药物",
   "retry": "重试",
   "save": "保存",
   "memo": "备注",

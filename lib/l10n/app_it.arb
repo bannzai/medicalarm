@@ -3,6 +3,7 @@
   "onboardingMedicationRegistrationTitle": "Registra il tuo primo farmaco",
   "onboardingMedicationRegistrationBody": "Abbiamo impostato provvisoriamente gli orari di assunzione dei farmaci\nPuoi modificarli in base ai tuoi farmaci",
   "onboardingMedicationLater": "Più tardi",
+  "onboardingMedicationPlaceholderTitle": "Nessun farmaco registrato",
   "retry": "Riprova",
   "save": "Salva",
   "memo": "Nota",
