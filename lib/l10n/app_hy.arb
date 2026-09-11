@@ -1,5 +1,11 @@
 {
   "@@locale": "hy",
+  "onboardingMedicationRegistrationTitle": "Գրանցեք ձեր առաջին դեղը",
+  "onboardingMedicationRegistrationBody": "Դեղերի ընդունման ժամերը ժամանակավորապես պատրաստել ենք\nԴրանք կարող եք փոխել՝ ձեր դեղերին համապատասխան",
+  "onboardingMedicationLater": "Ավելի ուշ",
+  "onboardingMedicationPlaceholderTitle": "Դեղեր գրանցված չեն",
+  "onboardingMedicationPlaceholderBody": "Այս ժամին ձեզ կհիշեցնենք գրանցել ձեր դեղը",
+  "onboardingMedicationPlanNotificationBody": "Գրանցեք ձեր դեղը և սահմանեք այն ընդունելու հիշեցում",
   "retry": "Նորից փորձել",
   "save": "Պահպանել",
   "memo": "Հիշեցում",

@@ -1,5 +1,11 @@
 {
   "@@locale": "ro",
+  "onboardingMedicationRegistrationTitle": "Înregistrați primul medicament",
+  "onboardingMedicationRegistrationBody": "Am pregătit provizoriu orele de administrare a medicamentelor\nLe puteți modifica în funcție de medicamentele dumneavoastră",
+  "onboardingMedicationLater": "Mai târziu",
+  "onboardingMedicationPlaceholderTitle": "Nu există medicamente înregistrate",
+  "onboardingMedicationPlaceholderBody": "Vă vom anunța să înregistrați medicamentul la această oră",
+  "onboardingMedicationPlanNotificationBody": "Înregistrați medicamentul și setați un memento pentru administrare",
   "retry": "Reîncercați",
   "save": "Salvează",
   "memo": "Notă",

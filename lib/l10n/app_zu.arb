@@ -1,5 +1,11 @@
 {
   "@@locale": "zu",
+  "onboardingMedicationRegistrationTitle": "Bhalisa umuthi wakho wokuqala",
+  "onboardingMedicationRegistrationBody": "Silungiselele okwesikhashana izikhathi zokuphuza imithi\nUngazishintsha zihambisane nemithi yakho",
+  "onboardingMedicationLater": "Kamuva",
+  "onboardingMedicationPlaceholderTitle": "Ayikho imithi ebhalisiwe",
+  "onboardingMedicationPlaceholderBody": "Sizokwazisa ukuthi ubhalise umuthi wakho ngalesi sikhathi",
+  "onboardingMedicationPlanNotificationBody": "Bhalisa umuthi wakho bese usetha isikhumbuzi sokuwuphuza",
   "retry": "Phindezela",
   "save": "Gcina",
   "memo": "Memorandum",

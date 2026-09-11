@@ -1,5 +1,11 @@
 {
   "@@locale": "lt",
+  "onboardingMedicationRegistrationTitle": "Užregistruokite pirmąjį vaistą",
+  "onboardingMedicationRegistrationBody": "Vaistų vartojimo laikus laikinai nustatėme\nGalite juos pakeisti pagal savo vaistus",
+  "onboardingMedicationLater": "Vėliau",
+  "onboardingMedicationPlaceholderTitle": "Vaistų neužregistruota",
+  "onboardingMedicationPlaceholderBody": "Šiuo metu priminsime užregistruoti vaistus",
+  "onboardingMedicationPlanNotificationBody": "Užregistruokite vaistą ir nustatykite priminimą jį išgerti",
   "retry": "Bandykite dar kartą",
   "save": "Išsaugoti",
   "memo": "Pastaba",

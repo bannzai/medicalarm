@@ -1,5 +1,11 @@
 {
   "@@locale": "bs",
+  "onboardingMedicationRegistrationTitle": "Registrujte svoj prvi lijek",
+  "onboardingMedicationRegistrationBody": "Privremeno smo pripremili vremena za uzimanje lijekova\nMožete ih promijeniti prema svojim lijekovima",
+  "onboardingMedicationLater": "Kasnije",
+  "onboardingMedicationPlaceholderTitle": "Nema registrovanih lijekova",
+  "onboardingMedicationPlaceholderBody": "U ovo vrijeme ćemo vas obavijestiti da registrujete lijek",
+  "onboardingMedicationPlanNotificationBody": "Registrujte lijek i postavite podsjetnik za uzimanje",
   "retry": "Ponovno pokušaj",
   "save": "Spremi",
   "memo": "Bilješka",

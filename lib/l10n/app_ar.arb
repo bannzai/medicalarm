@@ -1,5 +1,11 @@
 {
   "@@locale": "ar",
+  "onboardingMedicationRegistrationTitle": "سجّل دواءك الأول",
+  "onboardingMedicationRegistrationBody": "أعددنا أوقات تناول الأدوية مبدئيًا\nيمكنك تغييرها بما يتناسب مع أدويتك",
+  "onboardingMedicationLater": "لاحقًا",
+  "onboardingMedicationPlaceholderTitle": "لا توجد أدوية مسجّلة",
+  "onboardingMedicationPlaceholderBody": "سنذكّرك بتسجيل دوائك في هذا الوقت",
+  "onboardingMedicationPlanNotificationBody": "سجّل دواءك واضبط تذكيرًا بتناوله",
   "retry": "إعادة المحاولة",
   "save": "حفظ",
   "memo": "مذكرة",

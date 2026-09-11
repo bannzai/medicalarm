@@ -1,5 +1,11 @@
 {
   "@@locale": "az",
+  "onboardingMedicationRegistrationTitle": "İlk dərmanınızı qeydiyyatdan keçirin",
+  "onboardingMedicationRegistrationBody": "Dərman qəbul etmə vaxtlarını ilkin olaraq hazırladıq\nOnları dərmanlarınıza uyğun dəyişə bilərsiniz",
+  "onboardingMedicationLater": "Sonra",
+  "onboardingMedicationPlaceholderTitle": "Heç bir dərman qeydiyyatdan keçirilməyib",
+  "onboardingMedicationPlaceholderBody": "Bu vaxt dərmanınızı qeyd etməyinizi xatırladacağıq",
+  "onboardingMedicationPlanNotificationBody": "Dərmanınızı qeydiyyatdan keçirin və qəbul xatırladıcısı qurun",
   "retry": "Təkrar cəhd",
   "save": "Saxla",
   "memo": "Qeyd",

@@ -2,9 +2,18 @@
   "@@locale": "ja",
   "onboardingMedicationRegistrationTitle": "最初のお薬を登録しましょう",
   "onboardingMedicationRegistrationBody": "服用時刻を仮に用意しました\nお薬に合わせて変更できます",
+  "@onboardingMedicationRegistrationBody": {
+    "description": "オンボーディングの回答から服用時刻を仮に作ってあることを伝え、お薬に合わせて変えられると案内する説明文。「仮に用意した」は、アプリが下書きとして先に作った状態を指す"
+  },
   "onboardingMedicationLater": "あとで",
+  "@onboardingMedicationLater": {
+    "description": "オンボーディングのお薬登録画面で、登録せずに画面を閉じて後回しにするボタンのテキスト。時刻ではなく「今はやらない」の意味"
+  },
   "onboardingMedicationPlaceholderTitle": "お薬が未登録です",
   "onboardingMedicationPlaceholderBody": "この時刻にお薬の登録をお知らせします",
+  "@onboardingMedicationPlaceholderBody": {
+    "description": "仮の服用時刻だけがある状態のカードに出す説明文。「この時刻」は同じカードに表示している時刻を指し、その時刻になったらお薬の登録を通知で知らせると伝える"
+  },
   "onboardingMedicationPlanNotificationBody": "お薬を登録して服薬リマインダーを設定しましょう",
   "retry": "再試行",
   "@retry": {

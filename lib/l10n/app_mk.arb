@@ -1,5 +1,11 @@
 {
   "@@locale": "mk",
+  "onboardingMedicationRegistrationTitle": "Регистрирајте го првиот лек",
+  "onboardingMedicationRegistrationBody": "Привремено ги подготвивме времињата за земање лекови\nМожете да ги промените според вашите лекови",
+  "onboardingMedicationLater": "Подоцна",
+  "onboardingMedicationPlaceholderTitle": "Нема регистрирани лекови",
+  "onboardingMedicationPlaceholderBody": "Во ова време ќе ве известиме да го регистрирате лекот",
+  "onboardingMedicationPlanNotificationBody": "Регистрирајте го лекот и поставете потсетник за земање",
   "retry": "Пробај повторно",
   "save": "Зачувај",
   "memo": "Запис",

@@ -1,5 +1,11 @@
 {
   "@@locale": "et",
+  "onboardingMedicationRegistrationTitle": "Registreerige oma esimene ravim",
+  "onboardingMedicationRegistrationBody": "Seadsime ravimite võtmise ajad esialgu\nSaad neid vastavalt oma ravimitele muuta",
+  "onboardingMedicationLater": "Hiljem",
+  "onboardingMedicationPlaceholderTitle": "Ravimeid pole registreeritud",
+  "onboardingMedicationPlaceholderBody": "Anname sulle sel ajal teada, et registreeriksid oma ravimi",
+  "onboardingMedicationPlanNotificationBody": "Registreerige oma ravim ja seadistage ravimi võtmise meeldetuletus",
   "retry": "Uuesti proovida",
   "save": "Salvesta",
   "memo": "Märkus",
