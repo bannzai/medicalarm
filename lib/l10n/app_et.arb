@@ -4,6 +4,7 @@
   "onboardingMedicationRegistrationBody": "Seadsime ravimite võtmise ajad esialgu\nSaad neid vastavalt oma ravimitele muuta",
   "onboardingMedicationLater": "Hiljem",
   "onboardingMedicationPlaceholderTitle": "Ravimeid pole registreeritud",
+  "onboardingMedicationPlaceholderBody": "Anname sulle sel ajal teada, et registreeriksid oma ravimi",
   "retry": "Uuesti proovida",
   "save": "Salvesta",
   "memo": "Märkus",

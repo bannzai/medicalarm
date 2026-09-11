@@ -4,6 +4,7 @@
   "onboardingMedicationRegistrationBody": "Vi har ställt in tiderna för medicinintag tillfälligt\nDu kan ändra dem efter dina mediciner",
   "onboardingMedicationLater": "Senare",
   "onboardingMedicationPlaceholderTitle": "Inga läkemedel registrerade",
+  "onboardingMedicationPlaceholderBody": "Vi påminner dig om att registrera din medicin vid den här tiden",
   "retry": "Försök igen",
   "save": "Spara",
   "memo": "Anteckning",

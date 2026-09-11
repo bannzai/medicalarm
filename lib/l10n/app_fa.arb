@@ -4,6 +4,7 @@
   "onboardingMedicationRegistrationBody": "زمان‌های مصرف دارو را به‌طور موقت آماده کردیم\nمی‌توانید آن‌ها را متناسب با داروهایتان تغییر دهید",
   "onboardingMedicationLater": "بعداً",
   "onboardingMedicationPlaceholderTitle": "هیچ دارویی ثبت نشده است",
+  "onboardingMedicationPlaceholderBody": "در این زمان به شما یادآوری می‌کنیم دارویتان را ثبت کنید",
   "retry": "تلاش مجدد",
   "save": "ذخیره",
   "memo": "یادداشت",

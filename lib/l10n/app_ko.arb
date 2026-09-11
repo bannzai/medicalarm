@@ -4,6 +4,7 @@
   "onboardingMedicationRegistrationBody": "약 복용 시간을 임시로 설정했어요\n복용 중인 약에 맞게 변경할 수 있어요",
   "onboardingMedicationLater": "나중에",
   "onboardingMedicationPlaceholderTitle": "등록된 약이 없습니다",
+  "onboardingMedicationPlaceholderBody": "이 시간에 복약을 등록하라고 알려드려요",
   "retry": "재시도",
   "save": "저장",
   "memo": "메모",

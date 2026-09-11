@@ -4,6 +4,7 @@
   "onboardingMedicationRegistrationBody": "Botikak hartzeko orduak behin-behinean prestatu ditugu\nZure botiken arabera alda ditzakezu",
   "onboardingMedicationLater": "Geroago",
   "onboardingMedicationPlaceholderTitle": "Ez dago botikarik erregistratuta",
+  "onboardingMedicationPlaceholderBody": "Ordu honetan zure botika erregistratzeko jakinaraziko dizugu",
   "retry": "Saiatuko",
   "save": "Gordeatu",
   "memo": "Ohar",

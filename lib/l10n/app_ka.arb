@@ -4,6 +4,7 @@
   "onboardingMedicationRegistrationBody": "წამლების მიღების დროები დროებით მოვამზადეთ\nშეგიძლიათ შეცვალოთ ისინი თქვენი წამლების შესაბამისად",
   "onboardingMedicationLater": "მოგვიანებით",
   "onboardingMedicationPlaceholderTitle": "მედიკამენტები რეგისტრირებული არ არის",
+  "onboardingMedicationPlaceholderBody": "ამ დროს შეგატყობინებთ, რომ დაარეგისტრიროთ თქვენი წამალი",
   "retry": "აერტად მოსმენა",
   "save": "შენახვა",
   "memo": "მოახსენე",

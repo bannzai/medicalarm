@@ -4,6 +4,7 @@
   "onboardingMedicationRegistrationBody": "Wstępnie ustawiliśmy godziny przyjmowania leków\nMożesz je zmienić zgodnie ze swoimi lekami",
   "onboardingMedicationLater": "Później",
   "onboardingMedicationPlaceholderTitle": "Nie zarejestrowano żadnych leków",
+  "onboardingMedicationPlaceholderBody": "O tej porze przypomnimy Ci o zarejestrowaniu leku",
   "retry": "Spróbuj ponownie",
   "save": "Zapisz",
   "memo": "Notatka",

@@ -4,6 +4,7 @@
   "onboardingMedicationRegistrationBody": "Časy užívání léků jsme prozatím nastavili\nMůžete je změnit podle svých léků",
   "onboardingMedicationLater": "Později",
   "onboardingMedicationPlaceholderTitle": "Nejsou zaregistrovány žádné léky",
+  "onboardingMedicationPlaceholderBody": "V tomto čase vás upozorníme, abyste zaznamenali užití léku",
   "retry": "Zkusit znovu",
   "save": "Uložit",
   "memo": "Poznámka",

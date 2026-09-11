@@ -4,6 +4,7 @@
   "onboardingMedicationRegistrationBody": "Vi har satt opp tidspunkter for medisininntak foreløpig\nDu kan endre dem etter medisinene dine",
   "onboardingMedicationLater": "Senere",
   "onboardingMedicationPlaceholderTitle": "Ingen medisiner er registrert",
+  "onboardingMedicationPlaceholderBody": "Vi varsler deg om å registrere medisinen din på dette tidspunktet",
   "retry": "Prøv igjen",
   "save": "Lagre",
   "memo": "Merk",

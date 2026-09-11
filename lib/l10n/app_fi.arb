@@ -4,6 +4,7 @@
   "onboardingMedicationRegistrationBody": "Lääkkeiden ottoajat on määritetty alustavasti\nVoit muuttaa niitä lääkkeidesi mukaan",
   "onboardingMedicationLater": "Myöhemmin",
   "onboardingMedicationPlaceholderTitle": "Lääkkeitä ei ole rekisteröity",
+  "onboardingMedicationPlaceholderBody": "Muistutamme sinua kirjaamaan lääkkeesi tähän aikaan",
   "retry": "Uudelleenyritys",
   "save": "Tallenna",
   "memo": "Muistio",

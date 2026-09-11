@@ -4,6 +4,7 @@
   "onboardingMedicationRegistrationBody": "הגדרנו את זמני נטילת התרופות באופן זמני\nאפשר לשנות אותם בהתאם לתרופות שלך",
   "onboardingMedicationLater": "מאוחר יותר",
   "onboardingMedicationPlaceholderTitle": "לא נרשמו תרופות",
+  "onboardingMedicationPlaceholderBody": "נזכיר לך לרשום את התרופה שלך בשעה זו",
   "retry": "נסה שוב",
   "save": "שמור",
   "memo": "הערה",

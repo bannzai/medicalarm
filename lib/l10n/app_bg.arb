@@ -4,6 +4,7 @@
   "onboardingMedicationRegistrationBody": "Временно подготвихме часовете за прием на лекарствата\nМожете да ги промените според лекарствата си",
   "onboardingMedicationLater": "По-късно",
   "onboardingMedicationPlaceholderTitle": "Няма регистрирани лекарства",
+  "onboardingMedicationPlaceholderBody": "Ще ви напомним да регистрирате лекарството си по това време",
   "retry": "Опитайте отново",
   "save": "Запази",
   "memo": "Наблюдение",

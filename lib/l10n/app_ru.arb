@@ -4,6 +4,7 @@
   "onboardingMedicationRegistrationBody": "Мы предварительно подготовили время приёма лекарств\nВы можете изменить его в соответствии со своими лекарствами",
   "onboardingMedicationLater": "Позже",
   "onboardingMedicationPlaceholderTitle": "Лекарства не зарегистрированы",
+  "onboardingMedicationPlaceholderBody": "В это время мы напомним вам зарегистрировать лекарство",
   "retry": "Повторить",
   "save": "Сохранить",
   "memo": "Заметка",

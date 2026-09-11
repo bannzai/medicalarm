@@ -4,6 +4,7 @@
   "onboardingMedicationRegistrationBody": "Við höfum sett upp lyfjatökutímana til bráðabirgða\nÞú getur breytt þeim eftir lyfjunum þínum",
   "onboardingMedicationLater": "Síðar",
   "onboardingMedicationPlaceholderTitle": "Engin lyf skráð",
+  "onboardingMedicationPlaceholderBody": "Við látum þig vita að skrá lyfið þitt á þessum tíma",
   "retry": "Reattempt",
   "save": "Vista",
   "memo": "Athugasemd",

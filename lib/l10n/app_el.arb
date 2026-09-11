@@ -4,6 +4,7 @@
   "onboardingMedicationRegistrationBody": "Προετοιμάσαμε προσωρινά τις ώρες λήψης των φαρμάκων σας\nΜπορείτε να τις αλλάξετε σύμφωνα με τα φάρμακά σας",
   "onboardingMedicationLater": "Αργότερα",
   "onboardingMedicationPlaceholderTitle": "Δεν έχουν καταχωριστεί φάρμακα",
+  "onboardingMedicationPlaceholderBody": "Θα σας ειδοποιήσουμε να καταχωρίσετε το φάρμακό σας αυτή την ώρα",
   "retry": "Αναδοχή",
   "save": "Αποθήκευση",
   "memo": "Σημείωση",

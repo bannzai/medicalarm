@@ -4,6 +4,7 @@
   "onboardingMedicationRegistrationBody": "Nous avons configuré provisoirement les heures de prise des médicaments\nVous pouvez les modifier selon vos médicaments",
   "onboardingMedicationLater": "Plus tard",
   "onboardingMedicationPlaceholderTitle": "Aucun médicament enregistré",
+  "onboardingMedicationPlaceholderBody": "Nous vous rappellerons d’enregistrer votre médicament à cette heure",
   "retry": "Réessayer",
   "save": "Enregistrer",
   "memo": "Note",

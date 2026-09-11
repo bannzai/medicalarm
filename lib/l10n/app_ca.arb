@@ -4,6 +4,7 @@
   "onboardingMedicationRegistrationBody": "Hem preparat provisionalment les hores de presa dels medicaments\nPots canviar-les segons la teva medicació",
   "onboardingMedicationLater": "Més tard",
   "onboardingMedicationPlaceholderTitle": "No hi ha cap medicament registrat",
+  "onboardingMedicationPlaceholderBody": "En aquesta hora t’avisarem perquè registris la medicació",
   "retry": "Tornar a provar",
   "save": "Desar",
   "memo": "Nota",

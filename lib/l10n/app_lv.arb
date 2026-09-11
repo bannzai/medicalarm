@@ -4,6 +4,7 @@
   "onboardingMedicationRegistrationBody": "Zāļu lietošanas laiki ir provizoriski iestatīti\nVarat tos mainīt atbilstoši savām zālēm",
   "onboardingMedicationLater": "Vēlāk",
   "onboardingMedicationPlaceholderTitle": "Nav reģistrētu medikamentu",
+  "onboardingMedicationPlaceholderBody": "Šajā laikā atgādināsim reģistrēt zāles",
   "retry": "Mēģināt vēlreiz",
   "save": "Saglabāt",
   "memo": "Piezīme",

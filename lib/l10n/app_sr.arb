@@ -4,6 +4,7 @@
   "onboardingMedicationRegistrationBody": "Привремено смо припремили времена за узимање лекова\nМожете их променити у складу са својим лековима",
   "onboardingMedicationLater": "Касније",
   "onboardingMedicationPlaceholderTitle": "Нема регистрованих лекова",
+  "onboardingMedicationPlaceholderBody": "У ово време ћемо вас обавестити да региструјете лек",
   "retry": "Поново покушај",
   "save": "Сачувај",
   "memo": " beleška",

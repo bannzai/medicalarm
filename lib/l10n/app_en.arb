@@ -4,6 +4,7 @@
   "onboardingMedicationRegistrationBody": "We’ve set up your medication times for now\nYou can change them to match your medication",
   "onboardingMedicationLater": "Later",
   "onboardingMedicationPlaceholderTitle": "No medications registered",
+  "onboardingMedicationPlaceholderBody": "We’ll remind you to log your medication at this time",
   "retry": "Retry",
   "save": "Save",
   "memo": "Note",
