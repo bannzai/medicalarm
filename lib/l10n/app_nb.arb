@@ -2,6 +2,7 @@
   "@@locale": "nb",
   "onboardingMedicationRegistrationTitle": "Registrer din første medisin",
   "onboardingMedicationRegistrationBody": "Vi har satt opp tidspunkter for medisininntak foreløpig\nDu kan endre dem etter medisinene dine",
+  "onboardingMedicationLater": "Senere",
   "retry": "Prøv igjen",
   "save": "Lagre",
   "memo": "Merk",

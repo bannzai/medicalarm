@@ -2,6 +2,7 @@
   "@@locale": "is",
   "onboardingMedicationRegistrationTitle": "Skráðu fyrsta lyfið þitt",
   "onboardingMedicationRegistrationBody": "Við höfum sett upp lyfjatökutímana til bráðabirgða\nÞú getur breytt þeim eftir lyfjunum þínum",
+  "onboardingMedicationLater": "Síðar",
   "retry": "Reattempt",
   "save": "Vista",
   "memo": "Athugasemd",

@@ -2,6 +2,7 @@
   "@@locale": "hi",
   "onboardingMedicationRegistrationTitle": "अपनी पहली दवा रजिस्टर करें",
   "onboardingMedicationRegistrationBody": "दवाएँ लेने का समय हमने अभी अस्थायी रूप से तैयार किया है\nआप अपनी दवाओं के अनुसार इसे बदल सकते हैं",
+  "onboardingMedicationLater": "बाद में",
   "retry": "फिर से प्रयास करें",
   "save": "सहेजें",
   "memo": "नोट",

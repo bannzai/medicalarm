@@ -2,6 +2,7 @@
   "@@locale": "cy",
   "onboardingMedicationRegistrationTitle": "Cofrestrwch eich meddyginiaeth gyntaf",
   "onboardingMedicationRegistrationBody": "Rydym wedi paratoi amseroedd cymryd y meddyginiaethau dros dro\nGallwch eu newid yn ôl eich meddyginiaeth",
+  "onboardingMedicationLater": "Yn ddiweddarach",
   "retry": "Ail-oli",
   "save": "Cadw",
   "memo": "Nodyn",

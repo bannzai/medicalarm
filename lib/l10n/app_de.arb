@@ -2,6 +2,7 @@
   "@@locale": "de",
   "onboardingMedicationRegistrationTitle": "Registrieren Sie Ihr erstes Medikament",
   "onboardingMedicationRegistrationBody": "Wir haben die Einnahmezeiten vorläufig eingerichtet\nDu kannst sie an deine Medikamente anpassen",
+  "onboardingMedicationLater": "Später",
   "retry": "Erneut versuchen",
   "save": "Speichern",
   "memo": "Notiz",

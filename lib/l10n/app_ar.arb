@@ -2,6 +2,7 @@
   "@@locale": "ar",
   "onboardingMedicationRegistrationTitle": "سجّل دواءك الأول",
   "onboardingMedicationRegistrationBody": "أعددنا أوقات تناول الأدوية مبدئيًا\nيمكنك تغييرها بما يتناسب مع أدويتك",
+  "onboardingMedicationLater": "لاحقًا",
   "retry": "إعادة المحاولة",
   "save": "حفظ",
   "memo": "مذكرة",

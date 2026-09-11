@@ -2,6 +2,7 @@
   "@@locale": "gl",
   "onboardingMedicationRegistrationTitle": "Rexistra o teu primeiro medicamento",
   "onboardingMedicationRegistrationBody": "Preparamos provisionalmente as horas de toma dos medicamentos\nPodes cambialas segundo os teus medicamentos",
+  "onboardingMedicationLater": "Máis tarde",
   "retry": "Repetir",
   "save": "Gardar",
   "memo": "Nota",

@@ -2,6 +2,7 @@
   "@@locale": "kk",
   "onboardingMedicationRegistrationTitle": "Алғашқы дәріңізді тіркеңіз",
   "onboardingMedicationRegistrationBody": "Дәрі қабылдау уақыттарын әзірге дайындап қойдық\nОларды дәрілеріңізге қарай өзгерте аласыз",
+  "onboardingMedicationLater": "Кейінірек",
   "retry": "Қайтадан сынау",
   "save": "Сақтау",
   "memo": "Ескерту",

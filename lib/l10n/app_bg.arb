@@ -2,6 +2,7 @@
   "@@locale": "bg",
   "onboardingMedicationRegistrationTitle": "Регистрирайте първото си лекарство",
   "onboardingMedicationRegistrationBody": "Временно подготвихме часовете за прием на лекарствата\nМожете да ги промените според лекарствата си",
+  "onboardingMedicationLater": "По-късно",
   "retry": "Опитайте отново",
   "save": "Запази",
   "memo": "Наблюдение",

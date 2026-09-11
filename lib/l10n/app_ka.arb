@@ -2,6 +2,7 @@
   "@@locale": "ka",
   "onboardingMedicationRegistrationTitle": "დაარეგისტრირეთ თქვენი პირველი მედიკამენტი",
   "onboardingMedicationRegistrationBody": "წამლების მიღების დროები დროებით მოვამზადეთ\nშეგიძლიათ შეცვალოთ ისინი თქვენი წამლების შესაბამისად",
+  "onboardingMedicationLater": "მოგვიანებით",
   "retry": "აერტად მოსმენა",
   "save": "შენახვა",
   "memo": "მოახსენე",

@@ -2,6 +2,7 @@
   "@@locale": "lv",
   "onboardingMedicationRegistrationTitle": "Reģistrējiet savas pirmās zāles",
   "onboardingMedicationRegistrationBody": "Zāļu lietošanas laiki ir provizoriski iestatīti\nVarat tos mainīt atbilstoši savām zālēm",
+  "onboardingMedicationLater": "Vēlāk",
   "retry": "Mēģināt vēlreiz",
   "save": "Saglabāt",
   "memo": "Piezīme",

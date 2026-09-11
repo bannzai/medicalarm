@@ -2,6 +2,7 @@
   "@@locale": "fr",
   "onboardingMedicationRegistrationTitle": "Enregistrez votre premier médicament",
   "onboardingMedicationRegistrationBody": "Nous avons configuré provisoirement les heures de prise des médicaments\nVous pouvez les modifier selon vos médicaments",
+  "onboardingMedicationLater": "Plus tard",
   "retry": "Réessayer",
   "save": "Enregistrer",
   "memo": "Note",

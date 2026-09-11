@@ -2,6 +2,7 @@
   "@@locale": "hu",
   "onboardingMedicationRegistrationTitle": "Regisztrálja az első gyógyszerét",
   "onboardingMedicationRegistrationBody": "Ideiglenesen beállítottuk a gyógyszerek bevételi időpontjait\nA gyógyszereihez igazítva módosíthatja őket",
+  "onboardingMedicationLater": "Később",
   "retry": "Újrapróbálás",
   "save": "Mentés",
   "memo": "Megjegyzés",

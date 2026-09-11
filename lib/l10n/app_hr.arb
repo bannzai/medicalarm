@@ -2,6 +2,7 @@
   "@@locale": "hr",
   "onboardingMedicationRegistrationTitle": "Registrirajte svoj prvi lijek",
   "onboardingMedicationRegistrationBody": "Privremeno smo pripremili vremena za uzimanje lijekova\nMožete ih promijeniti prema svojim lijekovima",
+  "onboardingMedicationLater": "Kasnije",
   "retry": "Pokušaj ponovo",
   "save": "Spremi",
   "memo": "Bilješka",

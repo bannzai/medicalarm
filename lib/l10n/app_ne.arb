@@ -2,6 +2,7 @@
   "@@locale": "ne",
   "onboardingMedicationRegistrationTitle": "आफ्नो पहिलो औषधि दर्ता गर्नुहोस्",
   "onboardingMedicationRegistrationBody": "औषधि खाने समयहरू अस्थायी रूपमा तयार गरेका छौँ\nतपाईं आफ्ना औषधिअनुसार तिनलाई परिवर्तन गर्न सक्नुहुन्छ",
+  "onboardingMedicationLater": "पछि",
   "retry": "पुनः प्रयास करें",
   "save": "सुरक्षित गर्नुहोस्",
   "memo": "नोट",

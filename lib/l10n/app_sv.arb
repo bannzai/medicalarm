@@ -2,6 +2,7 @@
   "@@locale": "sv",
   "onboardingMedicationRegistrationTitle": "Registrera ditt första läkemedel",
   "onboardingMedicationRegistrationBody": "Vi har ställt in tiderna för medicinintag tillfälligt\nDu kan ändra dem efter dina mediciner",
+  "onboardingMedicationLater": "Senare",
   "retry": "Försök igen",
   "save": "Spara",
   "memo": "Anteckning",
