@@ -5,6 +5,7 @@
   "onboardingMedicationLater": "Later",
   "onboardingMedicationPlaceholderTitle": "No medications registered",
   "onboardingMedicationPlaceholderBody": "We’ll remind you to log your medication at this time",
+  "onboardingMedicationPlanNotificationBody": "Register your medication and set a medication reminder",
   "retry": "Retry",
   "save": "Save",
   "memo": "Note",

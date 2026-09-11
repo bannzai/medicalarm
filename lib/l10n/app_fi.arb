@@ -5,6 +5,7 @@
   "onboardingMedicationLater": "Myöhemmin",
   "onboardingMedicationPlaceholderTitle": "Lääkkeitä ei ole rekisteröity",
   "onboardingMedicationPlaceholderBody": "Muistutamme sinua kirjaamaan lääkkeesi tähän aikaan",
+  "onboardingMedicationPlanNotificationBody": "Rekisteröi lääkkeesi ja aseta lääkemuistutus",
   "retry": "Uudelleenyritys",
   "save": "Tallenna",
   "memo": "Muistio",

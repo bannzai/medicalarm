@@ -5,6 +5,7 @@
   "onboardingMedicationLater": "ภายหลัง",
   "onboardingMedicationPlaceholderTitle": "ยังไม่มีการลงทะเบียนยา",
   "onboardingMedicationPlaceholderBody": "เราจะแจ้งเตือนให้คุณบันทึกยาของคุณในเวลานี้",
+  "onboardingMedicationPlanNotificationBody": "ลงทะเบียนยาและตั้งการแจ้งเตือนให้รับประทานยา",
   "retry": "ลองอีกครั้ง",
   "save": "บันทึก",
   "memo": "บันทึก",

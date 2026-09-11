@@ -5,6 +5,7 @@
   "onboardingMedicationLater": "Més tard",
   "onboardingMedicationPlaceholderTitle": "No hi ha cap medicament registrat",
   "onboardingMedicationPlaceholderBody": "En aquesta hora t’avisarem perquè registris la medicació",
+  "onboardingMedicationPlanNotificationBody": "Registra el teu medicament i configura un recordatori per prendre’l",
   "retry": "Tornar a provar",
   "save": "Desar",
   "memo": "Nota",

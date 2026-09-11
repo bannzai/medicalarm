@@ -5,6 +5,7 @@
   "onboardingMedicationLater": "Más tarde",
   "onboardingMedicationPlaceholderTitle": "No hay medicamentos registrados",
   "onboardingMedicationPlaceholderBody": "Te avisaremos para que registres tu medicamento a esta hora",
+  "onboardingMedicationPlanNotificationBody": "Registra tu medicamento y configura un recordatorio para tomarlo",
   "retry": "Reintentar",
   "save": "Guardar",
   "memo": "Nota",

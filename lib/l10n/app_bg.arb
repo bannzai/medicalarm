@@ -5,6 +5,7 @@
   "onboardingMedicationLater": "По-късно",
   "onboardingMedicationPlaceholderTitle": "Няма регистрирани лекарства",
   "onboardingMedicationPlaceholderBody": "Ще ви напомним да регистрирате лекарството си по това време",
+  "onboardingMedicationPlanNotificationBody": "Регистрирайте лекарството си и задайте напомняне за прием",
   "retry": "Опитайте отново",
   "save": "Запази",
   "memo": "Наблюдение",

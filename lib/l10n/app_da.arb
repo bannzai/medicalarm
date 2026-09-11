@@ -5,6 +5,7 @@
   "onboardingMedicationLater": "Senere",
   "onboardingMedicationPlaceholderTitle": "Ingen medicin er registreret",
   "onboardingMedicationPlaceholderBody": "Vi giver dig besked om at registrere din medicin på dette tidspunkt",
+  "onboardingMedicationPlanNotificationBody": "Registrer din medicin, og indstil en påmindelse om at tage den",
   "retry": "Prøv igen",
   "save": "Gem",
   "memo": "Notat",

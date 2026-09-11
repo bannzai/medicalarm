@@ -5,6 +5,7 @@
   "onboardingMedicationLater": "Daha sonra",
   "onboardingMedicationPlaceholderTitle": "Kayıtlı ilaç yok",
   "onboardingMedicationPlaceholderBody": "Bu saatte ilacınızı kaydetmeniz için sizi bilgilendireceğiz",
+  "onboardingMedicationPlanNotificationBody": "İlacınızı kaydedin ve ilaç alma hatırlatıcısı ayarlayın",
   "retry": "Tekrar dene",
   "save": "Kaydet",
   "memo": "Not",

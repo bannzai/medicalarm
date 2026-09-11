@@ -5,6 +5,7 @@
   "onboardingMedicationLater": "Кийинчерээк",
   "onboardingMedicationPlaceholderTitle": "Эч кандай дары катталган эмес",
   "onboardingMedicationPlaceholderBody": "Бул убакта дарыңызды каттоону эскертебиз",
+  "onboardingMedicationPlanNotificationBody": "Дарыңызды каттап, аны ичүү тууралуу эстеткичти коюңуз",
   "retry": "Кайра аракет кылуу",
   "save": "сакталуу",
   "memo": "Эскертүү",

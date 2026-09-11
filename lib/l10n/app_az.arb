@@ -5,6 +5,7 @@
   "onboardingMedicationLater": "Sonra",
   "onboardingMedicationPlaceholderTitle": "Heç bir dərman qeydiyyatdan keçirilməyib",
   "onboardingMedicationPlaceholderBody": "Bu vaxt dərmanınızı qeyd etməyinizi xatırladacağıq",
+  "onboardingMedicationPlanNotificationBody": "Dərmanınızı qeydiyyatdan keçirin və qəbul xatırladıcısı qurun",
   "retry": "Təkrar cəhd",
   "save": "Saxla",
   "memo": "Qeyd",

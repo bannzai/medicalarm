@@ -5,6 +5,7 @@
   "onboardingMedicationLater": "Később",
   "onboardingMedicationPlaceholderTitle": "Nincs regisztrált gyógyszer",
   "onboardingMedicationPlaceholderBody": "Ekkor emlékeztetünk a gyógyszer bevitelének rögzítésére",
+  "onboardingMedicationPlanNotificationBody": "Regisztrálja gyógyszerét, és állítson be emlékeztetőt a bevételére",
   "retry": "Újrapróbálás",
   "save": "Mentés",
   "memo": "Megjegyzés",
