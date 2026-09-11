@@ -1,5 +1,11 @@
 {
   "@@locale": "nl",
+  "onboardingMedicationRegistrationTitle": "Registreer je eerste medicijn",
+  "onboardingMedicationRegistrationBody": "We hebben de innametijden voorlopig ingesteld\nJe kunt ze aanpassen aan je medicijnen",
+  "onboardingMedicationLater": "Later",
+  "onboardingMedicationPlaceholderTitle": "Geen medicijnen geregistreerd",
+  "onboardingMedicationPlaceholderBody": "Op dit tijdstip krijg je een melding om je medicijn te registreren",
+  "onboardingMedicationPlanNotificationBody": "Registreer je medicijn en stel een herinnering in om het in te nemen",
   "retry": "Opnieuw proberen",
   "save": "Opslaan",
   "memo": "Notitie",

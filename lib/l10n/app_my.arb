@@ -1,5 +1,11 @@
 {
   "@@locale": "my",
+  "onboardingMedicationRegistrationTitle": "သင်၏ပထမဆုံးဆေးကို စာရင်းသွင်းပါ",
+  "onboardingMedicationRegistrationBody": "ဆေးသောက်ချိန်များကို ယာယီသတ်မှတ်ပေးထားပါသည်\nသင့်ဆေးများနှင့်ကိုက်ညီအောင် ပြောင်းလဲနိုင်ပါသည်",
+  "onboardingMedicationLater": "နောက်မှ",
+  "onboardingMedicationPlaceholderTitle": "မှတ်ပုံတင်ထားသော ဆေးဝါးများ မရှိပါ",
+  "onboardingMedicationPlaceholderBody": "ဤအချိန်တွင် သင့်ဆေးကို မှတ်တမ်းတင်ရန် အသိပေးပါမည်",
+  "onboardingMedicationPlanNotificationBody": "သင့်ဆေးကို မှတ်ပုံတင်ပြီး ဆေးသောက်ရန် သတိပေးချက် သတ်မှတ်ပါ",
   "retry": "Ulangi",
   "save": "Simpan",
   "memo": "Nota",

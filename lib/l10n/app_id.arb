@@ -1,5 +1,11 @@
 {
   "@@locale": "id",
+  "onboardingMedicationRegistrationTitle": "Daftarkan obat pertama Anda",
+  "onboardingMedicationRegistrationBody": "Kami telah menyiapkan jadwal minum obat untuk sementara\nAnda dapat mengubahnya sesuai dengan obat Anda",
+  "onboardingMedicationLater": "Nanti",
+  "onboardingMedicationPlaceholderTitle": "Belum ada obat yang terdaftar",
+  "onboardingMedicationPlaceholderBody": "Kami akan mengingatkan Anda untuk mencatat obat pada waktu ini",
+  "onboardingMedicationPlanNotificationBody": "Daftarkan obat Anda dan atur pengingat minum obat",
   "retry": "Coba lagi",
   "save": "Simpan",
   "memo": "Catatan",

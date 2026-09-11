@@ -1,5 +1,11 @@
 {
   "@@locale": "tl",
+  "onboardingMedicationRegistrationTitle": "Irehistro ang iyong unang gamot",
+  "onboardingMedicationRegistrationBody": "Pansamantala naming inayos ang mga oras ng pag-inom ng gamot\nMaaari mong baguhin ang mga ito ayon sa iyong mga gamot",
+  "onboardingMedicationLater": "Mamaya",
+  "onboardingMedicationPlaceholderTitle": "Walang nakarehistrong gamot",
+  "onboardingMedicationPlaceholderBody": "Aabisuhan ka namin na irehistro ang iyong gamot sa oras na ito",
+  "onboardingMedicationPlanNotificationBody": "Irehistro ang iyong gamot at magtakda ng paalala sa pag-inom nito",
   "retry": "Subukan muli",
   "save": "Itago",
   "memo": "Tala",

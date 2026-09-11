@@ -1,5 +1,11 @@
 {
   "@@locale": "km",
+  "onboardingMedicationRegistrationTitle": "ចុះឈ្មោះថ្នាំដំបូងរបស់អ្នក",
+  "onboardingMedicationRegistrationBody": "យើងបានរៀបចំពេលវេលាលេបថ្នាំជាបណ្តោះអាសន្ន\nអ្នកអាចផ្លាស់ប្តូរវាឱ្យសមនឹងថ្នាំរបស់អ្នក",
+  "onboardingMedicationLater": "ពេលក្រោយ",
+  "onboardingMedicationPlaceholderTitle": "មិនទាន់មានថ្នាំណាមួយត្រូវបានចុះបញ្ជីទេ",
+  "onboardingMedicationPlaceholderBody": "យើងនឹងជូនដំណឹងអ្នកឱ្យកត់ត្រាថ្នាំរបស់អ្នកនៅពេលនេះ",
+  "onboardingMedicationPlanNotificationBody": "ចុះឈ្មោះថ្នាំរបស់អ្នក ហើយកំណត់ការរំលឹកការលេបថ្នាំ",
   "retry": "ព្យាយាមម្តងទៀត",
   "save": "រក្សាទុក",
   "memo": "កំណត់ចំណាំ",

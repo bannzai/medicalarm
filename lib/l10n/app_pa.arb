@@ -1,5 +1,11 @@
 {
   "@@locale": "pa",
+  "onboardingMedicationRegistrationTitle": "ਆਪਣੀ ਪਹਿਲੀ ਦਵਾਈ ਰਜਿਸਟਰ ਕਰੋ",
+  "onboardingMedicationRegistrationBody": "ਦਵਾਈ ਲੈਣ ਦੇ ਸਮੇਂ ਅਸਥਾਈ ਤੌਰ 'ਤੇ ਤਿਆਰ ਕੀਤੇ ਹਨ\nਤੁਸੀਂ ਆਪਣੀਆਂ ਦਵਾਈਆਂ ਮੁਤਾਬਕ ਇਨ੍ਹਾਂ ਨੂੰ ਬਦਲ ਸਕਦੇ ਹੋ",
+  "onboardingMedicationLater": "ਬਾਅਦ ਵਿੱਚ",
+  "onboardingMedicationPlaceholderTitle": "ਕੋਈ ਦਵਾਈ ਰਜਿਸਟਰ ਨਹੀਂ ਕੀਤੀ ਗਈ",
+  "onboardingMedicationPlaceholderBody": "ਇਸ ਸਮੇਂ ਤੁਹਾਨੂੰ ਆਪਣੀ ਦਵਾਈ ਦਰਜ ਕਰਨ ਲਈ ਸੂਚਿਤ ਕੀਤਾ ਜਾਵੇਗਾ",
+  "onboardingMedicationPlanNotificationBody": "ਆਪਣੀ ਦਵਾਈ ਰਜਿਸਟਰ ਕਰੋ ਅਤੇ ਦਵਾਈ ਲੈਣ ਲਈ ਯਾਦ-ਦਹਾਨੀ ਸੈੱਟ ਕਰੋ",
   "retry": "ਫਿਰ ਤੋਂ ਕੋਸ਼ਿਸ਼ ਕਰੋ",
   "save": "ਸੁਰੱਖਿਆ",
   "memo": "ਨੋਟ",

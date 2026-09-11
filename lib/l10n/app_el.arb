@@ -1,5 +1,11 @@
 {
   "@@locale": "el",
+  "onboardingMedicationRegistrationTitle": "Καταχωρίστε το πρώτο σας φάρμακο",
+  "onboardingMedicationRegistrationBody": "Προετοιμάσαμε προσωρινά τις ώρες λήψης των φαρμάκων σας\nΜπορείτε να τις αλλάξετε σύμφωνα με τα φάρμακά σας",
+  "onboardingMedicationLater": "Αργότερα",
+  "onboardingMedicationPlaceholderTitle": "Δεν έχουν καταχωριστεί φάρμακα",
+  "onboardingMedicationPlaceholderBody": "Θα σας ειδοποιήσουμε να καταχωρίσετε το φάρμακό σας αυτή την ώρα",
+  "onboardingMedicationPlanNotificationBody": "Καταχωρίστε το φάρμακό σας και ρυθμίστε υπενθύμιση λήψης",
   "retry": "Αναδοχή",
   "save": "Αποθήκευση",
   "memo": "Σημείωση",

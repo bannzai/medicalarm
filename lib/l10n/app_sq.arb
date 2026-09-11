@@ -1,5 +1,11 @@
 {
   "@@locale": "sq",
+  "onboardingMedicationRegistrationTitle": "Regjistroni ilaçin tuaj të parë",
+  "onboardingMedicationRegistrationBody": "Kemi përgatitur përkohësisht oraret e marrjes së ilaçeve\nMund t’i ndryshoni sipas ilaçeve tuaja",
+  "onboardingMedicationLater": "Më vonë",
+  "onboardingMedicationPlaceholderTitle": "Nuk ka ilaçe të regjistruara",
+  "onboardingMedicationPlaceholderBody": "Në këtë orë do t’ju njoftojmë të regjistroni ilaçin",
+  "onboardingMedicationPlanNotificationBody": "Regjistroni ilaçin dhe caktoni një kujtesë për ta marrë",
   "retry": "Rivendos",
   "save": "Ruaj",
   "memo": "Shënim",

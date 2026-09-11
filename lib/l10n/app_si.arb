@@ -1,5 +1,11 @@
 {
   "@@locale": "si",
+  "onboardingMedicationRegistrationTitle": "ඔබේ පළමු ඖෂධය ලියාපදිංචි කරන්න",
+  "onboardingMedicationRegistrationBody": "ඖෂධ ගන්නා වේලාවන් තාවකාලිකව සකස් කර ඇත\nඔබේ ඖෂධ අනුව ඒවා වෙනස් කළ හැකිය",
+  "onboardingMedicationLater": "පසුව",
+  "onboardingMedicationPlaceholderTitle": "ඖෂධ කිසිවක් ලියාපදිංචි කර නැත",
+  "onboardingMedicationPlaceholderBody": "මෙම වේලාවේදී ඔබේ ඖෂධය සටහන් කරන ලෙස දැනුම් දෙන්නෙමු",
+  "onboardingMedicationPlanNotificationBody": "ඔබේ ඖෂධය ලියාපදිංචි කර ගැනීමේ සිහි කැඳවීමක් සකසන්න",
   "retry": "ප්‍රරීක්ෂණය",
   "save": "සුරක්ෂිත කරන්න",
   "memo": "සටහන",

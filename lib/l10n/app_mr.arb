@@ -1,5 +1,11 @@
 {
   "@@locale": "mr",
+  "onboardingMedicationRegistrationTitle": "तुमचे पहिले औषध नोंदवा",
+  "onboardingMedicationRegistrationBody": "औषध घेण्याच्या वेळा तात्पुरत्या स्वरूपात तयार केल्या आहेत\nतुमच्या औषधांनुसार त्या बदलू शकता",
+  "onboardingMedicationLater": "नंतर",
+  "onboardingMedicationPlaceholderTitle": "कोणतीही औषधे नोंदणीकृत नाहीत",
+  "onboardingMedicationPlaceholderBody": "या वेळी तुमचे औषध नोंदवण्याची सूचना दिली जाईल",
+  "onboardingMedicationPlanNotificationBody": "तुमचे औषध नोंदवा आणि औषध घेण्याची आठवण सेट करा",
   "retry": "पुन्हा प्रयत्न करा",
   "save": "साठवणे",
   "memo": "नोट",

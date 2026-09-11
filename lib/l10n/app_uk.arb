@@ -1,5 +1,11 @@
 {
   "@@locale": "uk",
+  "onboardingMedicationRegistrationTitle": "Зареєструйте свій перший препарат",
+  "onboardingMedicationRegistrationBody": "Ми попередньо підготували час прийому ліків\nВи можете змінити його відповідно до своїх ліків",
+  "onboardingMedicationLater": "Пізніше",
+  "onboardingMedicationPlaceholderTitle": "Ліки не зареєстровані",
+  "onboardingMedicationPlaceholderBody": "У цей час ми нагадаємо вам зареєструвати ліки",
+  "onboardingMedicationPlanNotificationBody": "Зареєструйте ліки та налаштуйте нагадування про їх прийом",
   "retry": "Retry",
   "save": "Save",
   "memo": "Memo",
