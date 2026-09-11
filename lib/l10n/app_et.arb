@@ -1,6 +1,7 @@
 {
   "@@locale": "et",
   "onboardingMedicationRegistrationTitle": "Registreerige oma esimene ravim",
+  "onboardingMedicationRegistrationBody": "Seadsime ravimite võtmise ajad esialgu\nSaad neid vastavalt oma ravimitele muuta",
   "retry": "Uuesti proovida",
   "save": "Salvesta",
   "memo": "Märkus",

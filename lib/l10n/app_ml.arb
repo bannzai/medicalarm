@@ -1,6 +1,7 @@
 {
   "@@locale": "ml",
   "onboardingMedicationRegistrationTitle": "നിങ്ങളുടെ ആദ്യ മരുന്ന് രജിസ്റ്റർ ചെയ്യൂ",
+  "onboardingMedicationRegistrationBody": "മരുന്ന് കഴിക്കേണ്ട സമയങ്ങൾ താൽക്കാലികമായി തയ്യാറാക്കിയിട്ടുണ്ട്\nനിങ്ങളുടെ മരുന്നുകൾക്കനുസരിച്ച് അവ മാറ്റാം",
   "retry": "പുനരാഖ്യാനം",
   "save": "സംരക്ഷിക്കുക",
   "memo": "മെമ്മോ",

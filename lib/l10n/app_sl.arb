@@ -1,6 +1,7 @@
 {
   "@@locale": "sl",
   "onboardingMedicationRegistrationTitle": "Registrirajte svoje prvo zdravilo",
+  "onboardingMedicationRegistrationBody": "Čase jemanja zdravil smo začasno nastavili\nSpremenite jih lahko glede na svoja zdravila",
   "retry": "Ponovno poskusi",
   "save": "Shrani",
   "memo": "Opomba",

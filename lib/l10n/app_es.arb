@@ -1,6 +1,7 @@
 {
   "@@locale": "es",
   "onboardingMedicationRegistrationTitle": "Registra tu primer medicamento",
+  "onboardingMedicationRegistrationBody": "Hemos configurado provisionalmente las horas de toma de los medicamentos\nPuedes cambiarlas según tus medicamentos",
   "retry": "Reintentar",
   "save": "Guardar",
   "memo": "Nota",

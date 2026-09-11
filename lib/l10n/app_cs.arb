@@ -1,6 +1,7 @@
 {
   "@@locale": "cs",
   "onboardingMedicationRegistrationTitle": "Zaregistrujte svůj první lék",
+  "onboardingMedicationRegistrationBody": "Časy užívání léků jsme prozatím nastavili\nMůžete je změnit podle svých léků",
   "retry": "Zkusit znovu",
   "save": "Uložit",
   "memo": "Poznámka",

@@ -1,6 +1,7 @@
 {
   "@@locale": "kn",
   "onboardingMedicationRegistrationTitle": "ನಿಮ್ಮ ಮೊದಲ ಔಷಧಿಯನ್ನು ನೋಂದಾಯಿಸಿ",
+  "onboardingMedicationRegistrationBody": "ಔಷಧಿ ತೆಗೆದುಕೊಳ್ಳುವ ಸಮಯಗಳನ್ನು ತಾತ್ಕಾಲಿಕವಾಗಿ ಸಿದ್ಧಪಡಿಸಿದ್ದೇವೆ\nನಿಮ್ಮ ಔಷಧಿಗಳಿಗೆ ಅನುಗುಣವಾಗಿ ಅವುಗಳನ್ನು ಬದಲಾಯಿಸಬಹುದು",
   "retry": "ಮರುಪ್ರಯತ್ನ",
   "save": "ಉಳಿತಾಯ",
   "memo": "ಮಾನಂದ",

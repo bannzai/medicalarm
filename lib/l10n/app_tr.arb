@@ -1,6 +1,7 @@
 {
   "@@locale": "tr",
   "onboardingMedicationRegistrationTitle": "İlk ilacınızı kaydedin",
+  "onboardingMedicationRegistrationBody": "İlaç alma saatlerini şimdilik hazırladık\nİlaçlarınıza göre değiştirebilirsiniz",
   "retry": "Tekrar dene",
   "save": "Kaydet",
   "memo": "Not",

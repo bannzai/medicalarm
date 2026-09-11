@@ -1,6 +1,7 @@
 {
   "@@locale": "da",
   "onboardingMedicationRegistrationTitle": "Registrer din første medicin",
+  "onboardingMedicationRegistrationBody": "Vi har foreløbigt indstillet tidspunkterne for medicinindtagelse\nDu kan ændre dem, så de passer til din medicin",
   "retry": "Prøv igen",
   "save": "Gem",
   "memo": "Notat",

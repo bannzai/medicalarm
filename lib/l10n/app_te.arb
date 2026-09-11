@@ -1,6 +1,7 @@
 {
   "@@locale": "te",
   "onboardingMedicationRegistrationTitle": "మీ మొదటి మందును నమోదు చేయండి",
+  "onboardingMedicationRegistrationBody": "మందులు తీసుకునే సమయాలను తాత్కాలికంగా సిద్ధం చేశాము\nమీ మందులకు అనుగుణంగా వాటిని మార్చవచ్చు",
   "retry": "పునరుద్ధరణ",
   "save": "సేవ్",
   "memo": "మెమో",

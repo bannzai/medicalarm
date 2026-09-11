@@ -1,6 +1,7 @@
 {
   "@@locale": "uz",
   "onboardingMedicationRegistrationTitle": "Birinchi dorini ro‘yxatdan o‘tkazing",
+  "onboardingMedicationRegistrationBody": "Dori qabul qilish vaqtlarini vaqtincha tayyorladik\nUlarni dorilaringizga moslab o‘zgartirishingiz mumkin",
   "retry": "Qayta urinish",
   "save": "Saqlash",
   "memo": "Esdalik",

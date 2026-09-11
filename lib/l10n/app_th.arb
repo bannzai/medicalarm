@@ -1,6 +1,7 @@
 {
   "@@locale": "th",
   "onboardingMedicationRegistrationTitle": "ลงทะเบียนยาตัวแรกของคุณ",
+  "onboardingMedicationRegistrationBody": "เราเตรียมเวลารับประทานยาไว้ให้เบื้องต้นแล้ว\nคุณสามารถเปลี่ยนเวลาให้เหมาะกับยาของคุณได้",
   "retry": "ลองอีกครั้ง",
   "save": "บันทึก",
   "memo": "บันทึก",

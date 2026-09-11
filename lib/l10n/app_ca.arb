@@ -1,6 +1,7 @@
 {
   "@@locale": "ca",
   "onboardingMedicationRegistrationTitle": "Registra el teu primer medicament",
+  "onboardingMedicationRegistrationBody": "Hem preparat provisionalment les hores de presa dels medicaments\nPots canviar-les segons la teva medicació",
   "retry": "Tornar a provar",
   "save": "Desar",
   "memo": "Nota",

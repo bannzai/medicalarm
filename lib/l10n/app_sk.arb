@@ -1,6 +1,7 @@
 {
   "@@locale": "sk",
   "onboardingMedicationRegistrationTitle": "Zaregistrujte svoj prvý liek",
+  "onboardingMedicationRegistrationBody": "Časy užívania liekov sme predbežne nastavili\nMôžete ich zmeniť podľa svojich liekov",
   "retry": "Skúsiť znova",
   "save": "Uložiť",
   "memo": "Poznámka",

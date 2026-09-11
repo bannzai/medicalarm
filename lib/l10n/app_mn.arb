@@ -1,6 +1,7 @@
 {
   "@@locale": "mn",
   "onboardingMedicationRegistrationTitle": "Анхны эмээ бүртгүүлээрэй",
+  "onboardingMedicationRegistrationBody": "Эм уух цагийг түр тохирууллаа\nТа эмэндээ тохируулан өөрчилж болно",
   "retry": "Дахин оролдох",
   "save": "Хадгал",
   "memo": "Бичлэг",

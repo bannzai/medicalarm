@@ -1,6 +1,7 @@
 {
   "@@locale": "as",
   "onboardingMedicationRegistrationTitle": "আপোনাৰ প্ৰথম ঔষধটো পঞ্জীয়ন কৰক",
+  "onboardingMedicationRegistrationBody": "ঔষধ খোৱাৰ সময়সমূহ অস্থায়ীভাৱে প্ৰস্তুত কৰা হৈছে\nআপোনাৰ ঔষধ অনুসৰি সেইসমূহ সলনি কৰিব পাৰে",
   "retry": "পুনরায় চেষ্টা করুন",
   "save": "সংরক্ষণ করুন",
   "memo": "মেমো",

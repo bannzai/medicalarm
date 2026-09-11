@@ -1,6 +1,7 @@
 {
   "@@locale": "ky",
   "onboardingMedicationRegistrationTitle": "Биринчи дарыңызды каттаңыз",
+  "onboardingMedicationRegistrationBody": "Дары ичүү убакыттарын убактылуу даярдап койдук\nАларды дарыларыңызга жараша өзгөртө аласыз",
   "retry": "Кайра аракет кылуу",
   "save": "сакталуу",
   "memo": "Эскертүү",

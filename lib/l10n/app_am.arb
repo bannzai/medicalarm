@@ -1,6 +1,7 @@
 {
   "@@locale": "am",
   "onboardingMedicationRegistrationTitle": "የመጀመሪያውን መድኃኒትዎን ይመዝግቡ",
+  "onboardingMedicationRegistrationBody": "የመድኃኒት መውሰጃ ሰዓቶችን በጊዜያዊነት አዘጋጅተናል\nእንደ መድኃኒቶችዎ መሠረት መቀየር ይችላሉ",
   "retry": "መደገፍ",
   "save": "ይቀመጥ",
   "memo": "መዝገብ",

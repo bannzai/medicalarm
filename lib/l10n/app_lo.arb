@@ -1,6 +1,7 @@
 {
   "@@locale": "lo",
   "onboardingMedicationRegistrationTitle": "ລົງທະບຽນຢາຊະນິດທຳອິດຂອງທ່ານ",
+  "onboardingMedicationRegistrationBody": "ພວກເຮົາໄດ້ຈັດກຽມເວລາກິນຢາໄວ້ຊົ່ວຄາວ\nທ່ານສາມາດປ່ຽນໃຫ້ກົງກັບຢາຂອງທ່ານໄດ້",
   "retry": "ກັງຄືນ",
   "save": "ບັນທຶກ",
   "memo": "ບັນທຶກ",

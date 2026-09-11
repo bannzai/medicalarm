@@ -1,6 +1,7 @@
 {
   "@@locale": "fi",
   "onboardingMedicationRegistrationTitle": "Rekisteröi ensimmäinen lääkkeesi",
+  "onboardingMedicationRegistrationBody": "Lääkkeiden ottoajat on määritetty alustavasti\nVoit muuttaa niitä lääkkeidesi mukaan",
   "retry": "Uudelleenyritys",
   "save": "Tallenna",
   "memo": "Muistio",

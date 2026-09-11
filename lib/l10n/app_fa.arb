@@ -1,6 +1,7 @@
 {
   "@@locale": "fa",
   "onboardingMedicationRegistrationTitle": "اولین داروی خود را ثبت کنید",
+  "onboardingMedicationRegistrationBody": "زمان‌های مصرف دارو را به‌طور موقت آماده کردیم\nمی‌توانید آن‌ها را متناسب با داروهایتان تغییر دهید",
   "retry": "تلاش مجدد",
   "save": "ذخیره",
   "memo": "یادداشت",

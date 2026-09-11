@@ -1,6 +1,7 @@
 {
   "@@locale": "ms",
   "onboardingMedicationRegistrationTitle": "Daftarkan ubat pertama anda",
+  "onboardingMedicationRegistrationBody": "Kami telah menyediakan waktu pengambilan ubat buat sementara\nAnda boleh mengubahnya mengikut ubat anda",
   "retry": "Cuba",
   "save": "Simpan",
   "memo": "Nota",

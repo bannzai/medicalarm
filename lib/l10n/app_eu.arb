@@ -1,6 +1,7 @@
 {
   "@@locale": "eu",
   "onboardingMedicationRegistrationTitle": "Erregistratu zure lehen botika",
+  "onboardingMedicationRegistrationBody": "Botikak hartzeko orduak behin-behinean prestatu ditugu\nZure botiken arabera alda ditzakezu",
   "retry": "Saiatuko",
   "save": "Gordeatu",
   "memo": "Ohar",
