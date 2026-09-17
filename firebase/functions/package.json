@@ -19,7 +19,7 @@
   "dependencies": {
     "@types/uuid": "^9.0.2",
     "axios": "^1.20.0",
-    "firebase-admin": "^12.7.0",
+    "firebase-admin": "^14.3.0",
     "firebase-functions": "^6.1.0",
     "fp-ts": "^2.16.11",
     "io-ts": "^2.2.22",
