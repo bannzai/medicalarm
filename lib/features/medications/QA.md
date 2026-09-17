@@ -156,7 +156,7 @@ QAテスト薬A（07:00, 13:00）と QAテスト薬B（10:00）を登録し、07
 
 </details>
 
-### **チェック解除で取消の記録**: チェックボックスをオフにすると取消(revert)が追記され、未チェック表示になる。SnackBar の「元に戻す」でチェック済みに戻せる
+### **チェック解除で取消の記録**: チェックボックスをオフにすると取消(revert)が追記され、未チェック表示になる。チェックし直すと新しい服薬記録として追記される
 
 <details><summary>動作確認スクショ</summary>
 
@@ -164,7 +164,7 @@ QAテスト薬A（07:00, 13:00）と QAテスト薬B（10:00）を登録し、07
 
 <img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260718/6360b553-5e6f-454a-9fc3-6216d269622d.png" width="320">
 
-チェック済みの行をオフにすると `medicationHistoryRevertProvider` により取消(revert)ドキュメントが即時追記され(take は残る)、未チェック表示 + Undo つき SnackBar が表示される。「元に戻す」で `medicationHistoryUndoRevertProvider` が revert を取り下げチェック済みに戻る
+チェック済みの行をオフにすると `medicationHistoryRevertProvider` により取消(revert)ドキュメントが即時追記され(take は残る)、未チェック表示 + SnackBar が表示される。チェックし直すと新しい take ドキュメントが追記されてチェック済みに戻る
 
 </details>
 
