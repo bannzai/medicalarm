@@ -11,7 +11,7 @@ secret:
 .PHONY: verify
 verify:
 	flutter pub get
-# make secret で生成した本物の secret.dart を失わないよう、無い時だけ CI (ci-lint.yml) と同じサンプルから作る
-	[ -f lib/secret/secret.dart ] || sed "s/\"/'/g" lib/secret/secret.dart.sample > lib/secret/secret.dart
+# make secret で生成した本物の secret.dart を失わないよう、無い時だけ CI (ci-test.yml) と同じサンプルから作る
+	[ -f lib/secret/secret.dart ] || cp lib/secret/secret.dart.sample lib/secret/secret.dart
 	flutter analyze
 	flutter test
