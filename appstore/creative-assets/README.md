@@ -14,7 +14,7 @@ castle issue https://github.com/bannzai/castle/issues/1503 の「各リポジト
 | 訴求 (ディレクトリ) | 用途 | header の IMAGE_ID | search results の IMAGE_ID | 配置先 |
 |---|---|---|---|---|
 | default | 既定の製品ページ | 2b000019-1c25-8dea-802b-b211151fb62b | 46800019-1c25-8dea-802b-518f3a37503f | 未配置 (配置先が承認済みのため、画像の承認後に配置する) |
-| family | CPP family-care-202610 | (未アップロード) | (未アップロード) | - |
+| family | CPP family-care-202610 | 7e000019-1c25-8dea-802a-71f6f4f62421 | 0c800019-1c25-8dea-803b-491c846303f9 | 配置 4 件 (ローカライズ x 種別) |
 
 ## 再生成と検証の手順
 
