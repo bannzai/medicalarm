@@ -40,7 +40,8 @@ dependencies:
   firebase_core: ^4.15.0
   firebase_analytics:
   firebase_auth: 
-  firebase_messaging:
+  # UIScene で起動コールバックを取り逃がしても APNs を登録し直す 16.7.0 以上
+  firebase_messaging: ^16.7.0
   firebase_remote_config: 
   cloud_firestore:
   cloud_functions: 
@@ -82,7 +83,8 @@ dependencies:
   sign_in_with_apple: ^7.0.1
   google_sign_in: ^7.2.0
   crypto: ^3.0.6
-  firebase_app_check: ^0.4.0+1
+  # activate の providerApple / providerAndroid を使うため 0.4.8 以上
+  firebase_app_check: ^0.4.8
 
 dev_dependencies:
   firebase_core_platform_interface: ^8.1.1
