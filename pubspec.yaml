@@ -37,7 +37,7 @@ dependencies:
   shared_preferences: ^2.2.2
   flutter_svg: ^2.0.9
 
-  firebase_core: ^4.1.0
+  firebase_core: ^4.15.0
   firebase_analytics:
   firebase_auth: 
   firebase_messaging:
@@ -85,7 +85,7 @@ dependencies:
   firebase_app_check: ^0.4.0+1
 
 dev_dependencies:
-  firebase_core_platform_interface: ^6.0.0
+  firebase_core_platform_interface: ^8.1.1
   flutter_test:
     sdk: flutter
 
