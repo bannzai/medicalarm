@@ -188,6 +188,9 @@ void main() {
           {'id': reminderNotificationIdentifierOffset + 1, 'title': '', 'body': '', 'payload': ''},
         ];
       }
+      if (call.method == 'checkPermissions') {
+        return _iOSPermissions(isEnabled: true, isProvisionalEnabled: false);
+      }
       return true;
     });
     tz_data.initializeTimeZones();
@@ -209,4 +212,52 @@ void main() {
     await service.cancelOnboardingMedicationPlanNotifications();
     expect(calls.where((call) => call.method == 'cancel').map((call) => call.arguments), onboardingMedicationPlanNotificationIDs);
   });
+
+  // iOS 27 は未許可のまま zonedSchedule すると UNErrorDomain 2003 で失敗し、オンボーディングの完了を止めるため、
+  // 許可の状態ごとに OS への登録の有無を固定する
+  for (final (description, isEnabled, isProvisionalEnabled, expectedScheduleCount) in [
+    ('iOSで通知が未許可なら仮設定を OS に登録せず、エラーにもしない', false, false, 0),
+    ('iOSで通知が仮許可 (provisional) なら仮設定を OS に登録する', false, true, 2),
+  ]) {
+    test(description, () async {
+      final calls = <MethodCall>[];
+      const channel = MethodChannel('dexterous.com/flutter/local_notifications');
+      debugDefaultTargetPlatformOverride = TargetPlatform.iOS;
+      addTearDown(() {
+        debugDefaultTargetPlatformOverride = null;
+        TestDefaultBinaryMessengerBinding.instance.defaultBinaryMessenger.setMockMethodCallHandler(channel, null);
+      });
+      TestDefaultBinaryMessengerBinding.instance.defaultBinaryMessenger.setMockMethodCallHandler(channel, (call) async {
+        calls.add(call);
+        if (call.method == 'checkPermissions') {
+          return _iOSPermissions(isEnabled: isEnabled, isProvisionalEnabled: isProvisionalEnabled);
+        }
+        if (call.method == 'zonedSchedule' && !isEnabled && !isProvisionalEnabled) {
+          throw PlatformException(code: 'Error 2003', message: 'Repository could not save notification. Source is not authorized.');
+        }
+        return true;
+      });
+      tz_data.initializeTimeZones();
+      IOSFlutterLocalNotificationsPlugin.registerWith();
+      final service = LocalNotificationService();
+      await service.initialize();
+      final plan = await container
+          .read(onboardingMedicationPlanStoreProvider(userID: 'user-a', groupID: 'group-a').notifier)
+          .create(dailyDoseCount: 2, hasMedicines: false);
+      await service.registerOnboardingMedicationPlanNotifications(plan: plan!);
+      expect(calls.where((call) => call.method == 'zonedSchedule').length, expectedScheduleCount);
+    });
+  }
+}
+
+/// flutter_local_notifications の iOS 実装が checkPermissions で返す辞書。
+Map<String, bool> _iOSPermissions({required bool isEnabled, required bool isProvisionalEnabled}) {
+  return {
+    'isEnabled': isEnabled,
+    'isSoundEnabled': isEnabled,
+    'isAlertEnabled': isEnabled,
+    'isBadgeEnabled': isEnabled,
+    'isProvisionalEnabled': isProvisionalEnabled,
+    'isCriticalEnabled': false,
+  };
 }

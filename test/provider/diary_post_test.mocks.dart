@@ -9,7 +9,8 @@ import 'package:cloud_firestore/cloud_firestore.dart' as _i2;
 import 'package:medicalarm/entity/diary.dart' as _i9;
 import 'package:medicalarm/entity/dose_receiver.dart' as _i7;
 import 'package:medicalarm/entity/group.dart' as _i5;
-import 'package:medicalarm/entity/group_member_notification_settings.dart' as _i11;
+import 'package:medicalarm/entity/group_member_notification_settings.dart'
+    as _i11;
 import 'package:medicalarm/entity/group_user_profile.dart' as _i10;
 import 'package:medicalarm/entity/medication_history.dart' as _i8;
 import 'package:medicalarm/entity/medicine.dart' as _i6;
@@ -31,7 +32,8 @@ import 'package:mockito/src/dummies.dart' as _i4;
 // ignore_for_file: camel_case_types
 // ignore_for_file: subtype_of_sealed_class
 
-class _FakeDocumentReference_0<T extends Object?> extends _i1.SmartFake implements _i2.DocumentReference<T> {
+class _FakeDocumentReference_0<T extends Object?> extends _i1.SmartFake
+    implements _i2.DocumentReference<T> {
   _FakeDocumentReference_0(
     Object parent,
     Invocation parentInvocation,
@@ -41,7 +43,8 @@ class _FakeDocumentReference_0<T extends Object?> extends _i1.SmartFake implemen
         );
 }
 
-class _FakeCollectionReference_1<T extends Object?> extends _i1.SmartFake implements _i2.CollectionReference<T> {
+class _FakeCollectionReference_1<T extends Object?> extends _i1.SmartFake
+    implements _i2.CollectionReference<T> {
   _FakeCollectionReference_1(
     Object parent,
     Invocation parentInvocation,
@@ -51,7 +54,8 @@ class _FakeCollectionReference_1<T extends Object?> extends _i1.SmartFake implem
         );
 }
 
-class _FakeFirebaseFirestore_2 extends _i1.SmartFake implements _i2.FirebaseFirestore {
+class _FakeFirebaseFirestore_2 extends _i1.SmartFake
+    implements _i2.FirebaseFirestore {
   _FakeFirebaseFirestore_2(
     Object parent,
     Invocation parentInvocation,
@@ -61,7 +65,8 @@ class _FakeFirebaseFirestore_2 extends _i1.SmartFake implements _i2.FirebaseFire
         );
 }
 
-class _FakeDocumentSnapshot_3<T extends Object?> extends _i1.SmartFake implements _i2.DocumentSnapshot<T> {
+class _FakeDocumentSnapshot_3<T extends Object?> extends _i1.SmartFake
+    implements _i2.DocumentSnapshot<T> {
   _FakeDocumentSnapshot_3(
     Object parent,
     Invocation parentInvocation,
@@ -111,7 +116,8 @@ class MockGroupDatabase extends _i1.Mock implements _i3.GroupDatabase {
       ) as _i2.DocumentReference<_i5.Group>);
 
   @override
-  _i2.CollectionReference<_i6.Medicine> medicinesReference() => (super.noSuchMethod(
+  _i2.CollectionReference<_i6.Medicine> medicinesReference() =>
+      (super.noSuchMethod(
         Invocation.method(
           #medicinesReference,
           [],
@@ -133,7 +139,9 @@ class MockGroupDatabase extends _i1.Mock implements _i3.GroupDatabase {
       ) as _i2.CollectionReference<_i6.Medicine>);
 
   @override
-  _i2.DocumentReference<_i6.Medicine> medicineReference({required String? medicineID}) => (super.noSuchMethod(
+  _i2.DocumentReference<_i6.Medicine> medicineReference(
+          {required String? medicineID}) =>
+      (super.noSuchMethod(
         Invocation.method(
           #medicineReference,
           [],
@@ -158,7 +166,8 @@ class MockGroupDatabase extends _i1.Mock implements _i3.GroupDatabase {
       ) as _i2.DocumentReference<_i6.Medicine>);
 
   @override
-  _i2.CollectionReference<_i7.DoseReceiver> doseReceiversReference() => (super.noSuchMethod(
+  _i2.CollectionReference<_i7.DoseReceiver> doseReceiversReference() =>
+      (super.noSuchMethod(
         Invocation.method(
           #doseReceiversReference,
           [],
@@ -180,7 +189,9 @@ class MockGroupDatabase extends _i1.Mock implements _i3.GroupDatabase {
       ) as _i2.CollectionReference<_i7.DoseReceiver>);
 
   @override
-  _i2.DocumentReference<_i7.DoseReceiver> doseReceiverReference({required String? doseReceiverID}) => (super.noSuchMethod(
+  _i2.DocumentReference<_i7.DoseReceiver> doseReceiverReference(
+          {required String? doseReceiverID}) =>
+      (super.noSuchMethod(
         Invocation.method(
           #doseReceiverReference,
           [],
@@ -205,26 +216,28 @@ class MockGroupDatabase extends _i1.Mock implements _i3.GroupDatabase {
       ) as _i2.DocumentReference<_i7.DoseReceiver>);
 
   @override
-  _i2.CollectionReference<_i8.MedicationHistory> medicationHistoriesReference() => (super.noSuchMethod(
-        Invocation.method(
-          #medicationHistoriesReference,
-          [],
-        ),
-        returnValue: _FakeCollectionReference_1<_i8.MedicationHistory>(
-          this,
-          Invocation.method(
-            #medicationHistoriesReference,
-            [],
-          ),
-        ),
-        returnValueForMissingStub: _FakeCollectionReference_1<_i8.MedicationHistory>(
-          this,
-          Invocation.method(
-            #medicationHistoriesReference,
-            [],
-          ),
-        ),
-      ) as _i2.CollectionReference<_i8.MedicationHistory>);
+  _i2.CollectionReference<_i8.MedicationHistory>
+      medicationHistoriesReference() => (super.noSuchMethod(
+            Invocation.method(
+              #medicationHistoriesReference,
+              [],
+            ),
+            returnValue: _FakeCollectionReference_1<_i8.MedicationHistory>(
+              this,
+              Invocation.method(
+                #medicationHistoriesReference,
+                [],
+              ),
+            ),
+            returnValueForMissingStub:
+                _FakeCollectionReference_1<_i8.MedicationHistory>(
+              this,
+              Invocation.method(
+                #medicationHistoriesReference,
+                [],
+              ),
+            ),
+          ) as _i2.CollectionReference<_i8.MedicationHistory>);
 
   @override
   _i2.CollectionReference<_i9.Diary> diariesReference() => (super.noSuchMethod(
@@ -249,7 +262,8 @@ class MockGroupDatabase extends _i1.Mock implements _i3.GroupDatabase {
       ) as _i2.CollectionReference<_i9.Diary>);
 
   @override
-  _i2.DocumentReference<_i9.Diary> diaryReference({required String? diaryID}) => (super.noSuchMethod(
+  _i2.DocumentReference<_i9.Diary> diaryReference({required String? diaryID}) =>
+      (super.noSuchMethod(
         Invocation.method(
           #diaryReference,
           [],
@@ -274,7 +288,8 @@ class MockGroupDatabase extends _i1.Mock implements _i3.GroupDatabase {
       ) as _i2.DocumentReference<_i9.Diary>);
 
   @override
-  _i2.CollectionReference<_i10.GroupUserProfile> userProfilesReference() => (super.noSuchMethod(
+  _i2.CollectionReference<_i10.GroupUserProfile> userProfilesReference() =>
+      (super.noSuchMethod(
         Invocation.method(
           #userProfilesReference,
           [],
@@ -286,7 +301,8 @@ class MockGroupDatabase extends _i1.Mock implements _i3.GroupDatabase {
             [],
           ),
         ),
-        returnValueForMissingStub: _FakeCollectionReference_1<_i10.GroupUserProfile>(
+        returnValueForMissingStub:
+            _FakeCollectionReference_1<_i10.GroupUserProfile>(
           this,
           Invocation.method(
             #userProfilesReference,
@@ -296,7 +312,9 @@ class MockGroupDatabase extends _i1.Mock implements _i3.GroupDatabase {
       ) as _i2.CollectionReference<_i10.GroupUserProfile>);
 
   @override
-  _i2.DocumentReference<_i10.GroupUserProfile> userProfileReference({required String? userID}) => (super.noSuchMethod(
+  _i2.DocumentReference<_i10.GroupUserProfile> userProfileReference(
+          {required String? userID}) =>
+      (super.noSuchMethod(
         Invocation.method(
           #userProfileReference,
           [],
@@ -310,7 +328,8 @@ class MockGroupDatabase extends _i1.Mock implements _i3.GroupDatabase {
             {#userID: userID},
           ),
         ),
-        returnValueForMissingStub: _FakeDocumentReference_0<_i10.GroupUserProfile>(
+        returnValueForMissingStub:
+            _FakeDocumentReference_0<_i10.GroupUserProfile>(
           this,
           Invocation.method(
             #userProfileReference,
@@ -321,36 +340,41 @@ class MockGroupDatabase extends _i1.Mock implements _i3.GroupDatabase {
       ) as _i2.DocumentReference<_i10.GroupUserProfile>);
 
   @override
-  _i2.DocumentReference<_i11.GroupMemberNotificationSettings> memberNotificationSettingsReference({required String? userID}) => (super.noSuchMethod(
-        Invocation.method(
-          #memberNotificationSettingsReference,
-          [],
-          {#userID: userID},
-        ),
-        returnValue: _FakeDocumentReference_0<_i11.GroupMemberNotificationSettings>(
-          this,
-          Invocation.method(
-            #memberNotificationSettingsReference,
-            [],
-            {#userID: userID},
-          ),
-        ),
-        returnValueForMissingStub: _FakeDocumentReference_0<_i11.GroupMemberNotificationSettings>(
-          this,
-          Invocation.method(
-            #memberNotificationSettingsReference,
-            [],
-            {#userID: userID},
-          ),
-        ),
-      ) as _i2.DocumentReference<_i11.GroupMemberNotificationSettings>);
+  _i2.DocumentReference<_i11.GroupMemberNotificationSettings>
+      memberNotificationSettingsReference({required String? userID}) =>
+          (super.noSuchMethod(
+            Invocation.method(
+              #memberNotificationSettingsReference,
+              [],
+              {#userID: userID},
+            ),
+            returnValue:
+                _FakeDocumentReference_0<_i11.GroupMemberNotificationSettings>(
+              this,
+              Invocation.method(
+                #memberNotificationSettingsReference,
+                [],
+                {#userID: userID},
+              ),
+            ),
+            returnValueForMissingStub:
+                _FakeDocumentReference_0<_i11.GroupMemberNotificationSettings>(
+              this,
+              Invocation.method(
+                #memberNotificationSettingsReference,
+                [],
+                {#userID: userID},
+              ),
+            ),
+          ) as _i2.DocumentReference<_i11.GroupMemberNotificationSettings>);
 }
 
 /// A class which mocks [DocumentReference].
 ///
 /// See the documentation for Mockito's code generation for more information.
 // ignore: must_be_immutable
-class MockDiaryDocumentReference extends _i1.Mock implements _i2.DocumentReference<_i9.Diary> {
+class MockDiaryDocumentReference extends _i1.Mock
+    implements _i2.DocumentReference<_i9.Diary> {
   @override
   _i2.FirebaseFirestore get firestore => (super.noSuchMethod(
         Invocation.getter(#firestore),
@@ -404,7 +428,9 @@ class MockDiaryDocumentReference extends _i1.Mock implements _i2.DocumentReferen
       ) as String);
 
   @override
-  _i2.CollectionReference<Map<String, dynamic>> collection(String? collectionPath) => (super.noSuchMethod(
+  _i2.CollectionReference<Map<String, dynamic>> collection(
+          String? collectionPath) =>
+      (super.noSuchMethod(
         Invocation.method(
           #collection,
           [collectionPath],
@@ -416,7 +442,8 @@ class MockDiaryDocumentReference extends _i1.Mock implements _i2.DocumentReferen
             [collectionPath],
           ),
         ),
-        returnValueForMissingStub: _FakeCollectionReference_1<Map<String, dynamic>>(
+        returnValueForMissingStub:
+            _FakeCollectionReference_1<Map<String, dynamic>>(
           this,
           Invocation.method(
             #collection,
@@ -446,19 +473,23 @@ class MockDiaryDocumentReference extends _i1.Mock implements _i2.DocumentReferen
       ) as _i12.Future<void>);
 
   @override
-  _i12.Future<_i2.DocumentSnapshot<_i9.Diary>> get([_i2.GetOptions? options]) => (super.noSuchMethod(
+  _i12.Future<_i2.DocumentSnapshot<_i9.Diary>> get([_i2.GetOptions? options]) =>
+      (super.noSuchMethod(
         Invocation.method(
           #get,
           [options],
         ),
-        returnValue: _i12.Future<_i2.DocumentSnapshot<_i9.Diary>>.value(_FakeDocumentSnapshot_3<_i9.Diary>(
+        returnValue: _i12.Future<_i2.DocumentSnapshot<_i9.Diary>>.value(
+            _FakeDocumentSnapshot_3<_i9.Diary>(
           this,
           Invocation.method(
             #get,
             [options],
           ),
         )),
-        returnValueForMissingStub: _i12.Future<_i2.DocumentSnapshot<_i9.Diary>>.value(_FakeDocumentSnapshot_3<_i9.Diary>(
+        returnValueForMissingStub:
+            _i12.Future<_i2.DocumentSnapshot<_i9.Diary>>.value(
+                _FakeDocumentSnapshot_3<_i9.Diary>(
           this,
           Invocation.method(
             #get,
@@ -482,7 +513,8 @@ class MockDiaryDocumentReference extends _i1.Mock implements _i2.DocumentReferen
           },
         ),
         returnValue: _i12.Stream<_i2.DocumentSnapshot<_i9.Diary>>.empty(),
-        returnValueForMissingStub: _i12.Stream<_i2.DocumentSnapshot<_i9.Diary>>.empty(),
+        returnValueForMissingStub:
+            _i12.Stream<_i2.DocumentSnapshot<_i9.Diary>>.empty(),
       ) as _i12.Stream<_i2.DocumentSnapshot<_i9.Diary>>);
 
   @override

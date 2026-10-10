@@ -99,5 +99,15 @@ Exception? mapToDisplayedException(PlatformException exception) {
       return FormatException(L.purchaseErrorUnknown('${exception.message}:${exception.details}'));
     case PurchasesErrorCode.offlineConnectionError:
       return FormatException(L.purchaseErrorNetworkError('${exception.message}:${exception.details}'));
+    // purchases_flutter 10.x で増えた code。Web 購入トークン・カスタム entitlement 計算モード・StoreKit 1・Test Store は
+    // このアプリで使わない経路のため、個別の文言を持たず他の未分類の code と同じ扱いにする (#370)
+    case PurchasesErrorCode.expiredWebPurchaseToken:
+    case PurchasesErrorCode.featureNotAvailableInCustomEntitlementsComputationMode:
+    case PurchasesErrorCode.featureNotSupportedWithStoreKit1:
+    case PurchasesErrorCode.invalidWebPurchaseToken:
+    case PurchasesErrorCode.purchaseBelongsToOtherUser:
+    case PurchasesErrorCode.signatureVerificationFailed:
+    case PurchasesErrorCode.testStoreSimulatedPurchaseError:
+      return FormatException(L.purchaseErrorUnknown('${exception.message}:${exception.details}'));
   }
 }

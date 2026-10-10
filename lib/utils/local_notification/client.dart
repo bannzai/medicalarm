@@ -47,7 +47,15 @@ class LocalNotificationService {
   }
 
   /// 薬・用量が未確定なので通常通知だけを設定し、服用記録の操作は付けない。
+  /// iOS で通知が未許可 (未決定・拒否) の間は OS へ登録せずに戻る。
   Future<void> registerOnboardingMedicationPlanNotifications({required OnboardingMedicationPlan plan}) async {
+    // iOS 27 は未許可のまま登録すると UNErrorDomain 2003 (Source is not authorized) で失敗し、オンボーディングの
+    // 完了が止まる。許可は後からホーム画面で求めるため、ここでは見送り、許可ダイアログの後 (app が inactive → resumed)
+    // に OnboardingMedicationPlanResolver の同期で登録する。Android は実装が無く null になるので従来どおり登録する (#370)
+    final permissions = await plugin.resolvePlatformSpecificImplementation<IOSFlutterLocalNotificationsPlugin>()?.checkPermissions();
+    if (permissions != null && !permissions.isEnabled && !permissions.isProvisionalEnabled) {
+      return;
+    }
     final now = tz.TZDateTime.now(tz.local);
     for (final (index, schedule) in plan.schedules.indexed) {
       final scheduledDate = tz.TZDateTime(tz.local, now.year, now.month, now.day, schedule.hour, schedule.minute);
