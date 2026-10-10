@@ -23,16 +23,18 @@ appId: com.bannzai.medicalarm
 - extendedWaitUntil:
     visible: "(日記を書く|日記を編集)"
     timeout: 15000
+# 「日記を編集」を先に判定する。「日記を書く」をタップした後の投稿画面では「日記を書く」が見えないため、
+# notVisible で分岐すると投稿画面で「日記を編集」を探しに行って失敗する (#373)
+- runFlow:
+    when:
+      visible: "日記を編集"
+    commands:
+      - tapOn: "日記を編集"
 - runFlow:
     when:
       visible: "日記を書く"
     commands:
       - tapOn: "日記を書く"
-- runFlow:
-    when:
-      notVisible: "日記を書く"
-    commands:
-      - tapOn: "日記を編集"
 - extendedWaitUntil:
     visible: "保存"
     timeout: 5000
