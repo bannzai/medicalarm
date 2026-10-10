@@ -35,7 +35,7 @@ last_verified_at: 2026-09-03
 ## 1. 表示条件
 
 - [x] **初回起動で表示**: シミュレータ初期化後の起動で、通知許可 / ATT ダイアログの前後に「飲み忘れの不安をなくそう」の画面が表示される
-  - 自動化: auto (maestro/flows/allow_notification.yaml が「はじめる」を検出して onboarding.yaml を実行する)
+  - 自動化: auto (maestro/flows/helpers/allow_notification.yaml が「はじめる」を検出して onboarding.yaml を実行する)
 - [x] **再表示されない**: ペイウォールを閉じてホームに到達した後、アプリを再起動しても直接服薬画面が表示される
   - 自動化: manual (再起動の操作が必要。`xcrun simctl terminate <UDID> com.bannzai.medicalarm` → `xcrun simctl launch <UDID> com.bannzai.medicalarm`)
 
@@ -48,7 +48,7 @@ last_verified_at: 2026-09-03
 <details><summary>動作確認スクショ</summary>
 
 **確認日: 2026-09-03**
-`xcrun simctl erase` した新規匿名ユーザー状態で起動すると、通知許可 / ATT ダイアログより前に「飲み忘れの不安をなくそう」の価値宣言画面が表示された (プログレスバーは 1/7)。`maestro test --udid <UDID> maestro/flows/allow_notification.yaml` も「はじめる」を検出して onboarding.yaml を実行し exit 0 で完了した。
+`xcrun simctl erase` した新規匿名ユーザー状態で起動すると、通知許可 / ATT ダイアログより前に「飲み忘れの不安をなくそう」の価値宣言画面が表示された (プログレスバーは 1/7)。`maestro test --udid <UDID> maestro/flows/helpers/allow_notification.yaml` も「はじめる」を検出して onboarding.yaml を実行し exit 0 で完了した。
 <img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/09/02/72220832-563f-4437-b80d-c01a26d1cc8e-01-welcome.png" width="320">
 
 </details>
@@ -70,7 +70,7 @@ last_verified_at: 2026-09-03
 ## 2. ファネルの完走
 
 - [x] **JP 短尺の完走**: 「はじめる」→「たまにある」→「自分」→「2回」→「1〜2種類」の順にタップすると、プラン生成演出 (約 2.4 秒) を経て「あなた専用のプラン」が表示される。プログレスバーが進む
-  - 自動化: auto (maestro/flows/onboarding.yaml)
+  - 自動化: auto (maestro/flows/helpers/onboarding.yaml)
 - [x] **US 長尺の完走**: シミュレータの言語を英語にして起動すると、「Have you ever missed a dose?」の後に「Ever felt anxious...」「By the time you notice...」、質問 3 つの後に「What changes with Medicalarm」「Set your goal」が挟まり、結果画面に「Goal: …」が表示される
   - 自動化: manual (シミュレータの言語切り替えが必要)。手順: `xcrun simctl shutdown <UDID>` → `xcrun simctl erase <UDID>` → `xcrun simctl boot <UDID>` → `xcrun simctl install <UDID> build/ios/iphonesimulator/Runner.app` → `xcrun simctl launch <UDID> com.bannzai.medicalarm -AppleLanguages "(en)" -AppleLocale en_US`
 - [x] **戻る操作**: 質問画面の左上の戻るボタンで前の質問に戻り、回答済みの選択肢が強調表示される。価値宣言・プラン生成・結果画面には戻るボタンが無い
@@ -85,7 +85,7 @@ last_verified_at: 2026-09-03
 <details><summary>動作確認スクショ</summary>
 
 **確認日: 2026-09-03**
-日本語ロケールで 7 画面の短尺になることを確認した (ログにも `onboarding_started {form: short, total: 7}` が出力される)。「たまにある」→「自分」→「2回」→「1〜2種類」の順にタップして、プラン生成演出 (「あなた専用のプランを作成中」+ 円形プログレス + 「準備ができました」) を経て「あなた専用のプラン」に到達した。各画面でプログレスバーが 1/7 → 2/7 → 3/7 → 4/7 → 5/7 → ほぼ満杯 → 満杯と進むことも確認した。`maestro test --udid <UDID> maestro/flows/allow_notification.yaml` (onboarding.yaml を実行) は exit 0。
+日本語ロケールで 7 画面の短尺になることを確認した (ログにも `onboarding_started {form: short, total: 7}` が出力される)。「たまにある」→「自分」→「2回」→「1〜2種類」の順にタップして、プラン生成演出 (「あなた専用のプランを作成中」+ 円形プログレス + 「準備ができました」) を経て「あなた専用のプラン」に到達した。各画面でプログレスバーが 1/7 → 2/7 → 3/7 → 4/7 → 5/7 → ほぼ満杯 → 満杯と進むことも確認した。`maestro test --udid <UDID> maestro/flows/helpers/allow_notification.yaml` (onboarding.yaml を実行) は exit 0。
 価値宣言 (1/7):
 <img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/09/02/72220832-563f-4437-b80d-c01a26d1cc8e-01-welcome.png" width="320">
 飲み忘れ質問 (2/7):
@@ -143,7 +143,7 @@ Before/After (What changes with Medicalarm):
 - [x] **結果画面の反映**: 結果画面のカードに選んだ服用者・1 日の通知・管理する薬の回答が表示される。「自分と家族」「3回以上」「3〜5種類」のいずれかを選ぶと「プレミアムプランがおすすめ」が表示され、「自分」「2回」「1〜2種類」ではプレミアム訴求が出ない
   - 自動化: manual (回答の組み合わせを変えて 2 パターン確認する必要がある)
 - [x] **ペイウォールへの接続**: 「プランを始める」で既存のプレミアム紹介シートが開き、閉じると最初の薬登録の案内が表示される。「あとで」を選ぶと回答した回数分の仮カードを持つ服薬画面へ進む
-  - 自動化: auto (maestro/flows/onboarding.yaml)
+  - 自動化: auto (maestro/flows/helpers/onboarding.yaml)
 
 #### 動作確認
 <details>
@@ -167,7 +167,7 @@ Before/After (What changes with Medicalarm):
 <details><summary>動作確認スクショ</summary>
 
 **確認日: 2026-09-03**
-結果画面の「プランを始める」で既存の PremiumIntroductionSheet (「プレミアムプラン」ヘッダー・月額プラン $2.99 / 年額プラン $22.99) が開き、左上の閉じるボタン (×) で閉じると通知許可ダイアログを経て服薬画面 (タブバー: 服薬 / 履歴 / カレンダー / 設定) に到達した。`maestro test --udid <UDID> maestro/flows/allow_notification.yaml` (onboarding.yaml がペイウォールの開閉まで実行) は exit 0。
+結果画面の「プランを始める」で既存の PremiumIntroductionSheet (「プレミアムプラン」ヘッダー・月額プラン $2.99 / 年額プラン $22.99) が開き、左上の閉じるボタン (×) で閉じると通知許可ダイアログを経て服薬画面 (タブバー: 服薬 / 履歴 / カレンダー / 設定) に到達した。`maestro test --udid <UDID> maestro/flows/helpers/allow_notification.yaml` (onboarding.yaml がペイウォールの開閉まで実行) は exit 0。
 プレミアム紹介シート:
 <img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/09/02/121f0494-a250-4c51-a058-22aa897a3fdf-m09-paywall.png" width="320">
 閉じた後の服薬画面 (mobile 操作):

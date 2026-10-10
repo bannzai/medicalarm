@@ -1,13 +1,32 @@
-# 薬を登録した状態でお薬一覧画面（MedicinesPage）まで遷移する。
+# 「テスト薬」が登録済みかつ服用中の状態で、お薬一覧画面（MedicinesPage）まで遷移する。
 # お薬一覧画面は服薬画面 AppBar 右上の編集アイコンから遷移する。
+# 直前のフローが一時停止したまま終わっていても同じ状態に収束するよう、服薬画面にテスト薬が無ければ先に再開する (#373)。
 appId: com.bannzai.medicalarm
 ---
 - runFlow: register_and_pause.yaml
+# 服薬画面は一時停止中の薬を表示しない。見えなければ一時停止中なので、一覧の Switch で再開してから戻る
+- runFlow:
+    when:
+      notVisible: "(?s).*テスト薬.*"
+    commands:
+      - tapOn: "薬を編集"
+      - extendedWaitUntil:
+          visible: "お薬一覧"
+          timeout: 15000
+      - tapOn:
+          id: "medicine_pause_switch"
+      - extendedWaitUntil:
+          visible: "薬の服用を再開しました"
+          timeout: 5000
+      - tapOn: "戻る"
+      - extendedWaitUntil:
+          visible: "(?s).*テスト薬.*"
+          timeout: 5000
 # 服薬画面 AppBar 右上の編集アイコン（IconButton tooltip "薬を編集"）
 - tapOn: "薬を編集"
 - extendedWaitUntil:
     visible: "お薬一覧"
-    timeout: 5000
+    timeout: 15000
 # MedicinesPageSection は Semantics 上 1 ノードに束ねられ accessibilityText が "テスト薬\n自分\n10:00" になるため、複数行を含む正規表現で検出する
 - extendedWaitUntil:
     visible: "(?s).*テスト薬.*"

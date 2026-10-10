@@ -4,7 +4,7 @@
 # 日記の有無どちらの状態からでも同じ結果に収束するため、繰り返し実行できる(冪等)。
 appId: com.bannzai.medicalarm
 ---
-- runFlow: allow_notification.yaml
+- runFlow: helpers/allow_notification.yaml
 # タブの accessibility ラベルは「カレンダー\nタブ: 3/4」のため、改行を跨いで前方一致させる
 - tapOn: "(?s)カレンダー.*"
 - takeScreenshot: tmp/maestro/calendar_page
@@ -18,7 +18,11 @@ appId: com.bannzai.medicalarm
     timeout: 5000
 - assertVisible: "服薬履歴"
 - takeScreenshot: tmp/maestro/calendar_day_detail_sheet
-# 日記が無い日は「日記を書く」、既にある日(再実行時)は編集アイコン(tooltip: 日記を編集)から開く
+# 日記が無い日は「日記を書く」、既にある日(再実行時)は編集アイコン(tooltip: 日記を編集)から開く。
+# 日記の取得中はどちらも出ない(インジケータ)ため、取得が終わるまで待ってから分岐する (#373)
+- extendedWaitUntil:
+    visible: "(日記を書く|日記を編集)"
+    timeout: 15000
 - runFlow:
     when:
       visible: "日記を書く"

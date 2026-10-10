@@ -41,15 +41,16 @@ make secret  # 環境変数 FILE_FIREBASE_IOS / REVENUE_CAT_PUBLIC_API_KEY が�
 
 - /ios-simulator: iOS Simulator を扱う際の起点。シミュレータ管理は /sim-manager 前提
 - /verify-ui-mobile-mcp: mobile-mcp による画面探索・タップ・スクリーンショット撮影
-- /maestro-flutter: 既存 E2E フローの実行（`maestro test maestro/flows/`）
-  - `allow_notification.yaml`: 起動直後の OS ダイアログ（通知許可・ATT）とプロモーション画面（表示されている場合のみ）を閉じ、新規ユーザーの初回起動で出るオンボーディング（「はじめる」が見えた場合のみ）を `onboarding.yaml` で完走する helper。他フローの先頭から `runFlow` で呼ばれる
-  - `onboarding.yaml`: 初回起動のオンボーディング（JP 短尺）を完走し、ペイウォールを閉じて服薬画面に到達する。表示条件と項目は lib/features/onboarding/QA.md
+- /maestro-flutter: 既存 E2E フローの実行（`maestro test maestro/flows/`。実行順は `maestro/flows/config.yaml` の `executionOrder` で固定。`helpers/` 配下は単独実行の対象外）
+  - `helpers/allow_notification.yaml`: 起動直後の OS ダイアログ（通知許可・ATT）とプロモーション画面（表示されている場合のみ）を閉じ、新規ユーザーの初回起動で出るオンボーディング（「はじめる」が見えた場合のみ）を `onboarding.yaml` で完走する helper。他フローの先頭から `runFlow` で呼ばれる
+  - `helpers/onboarding.yaml`: 初回起動のオンボーディング（JP 短尺）を完走し、ペイウォールを閉じて服薬画面に到達する。表示条件と項目は lib/features/onboarding/QA.md
+  - `onboarding_medication_plan.yaml` / `onboarding_medication_plan_delete.yaml`: 先頭で `launchApp` の `clearState: true` と `clearKeychain: true` により新規の匿名ユーザーを作ってから始める（Firebase Auth の匿名ユーザーは Keychain に保持されるため、Keychain を消すと次の起動で AppUser が新規作成されオンボーディングが出る）
   - `register_and_pause.yaml` / `full_pause_feature.yaml` / `toggle_switch.yaml` / `resume_and_edit.yaml` / `form_pause.yaml`: 薬の登録〜一時停止・再開の一連
 - ユニットテスト: `flutter test` / 静的解析: `flutter analyze`
 
 ### 再現が難しい操作の手順
 
-- 起動直後は通知許可 → ATT → プロモーション（★5 レビュー訴求。アカウント作成から1日超経過など PromotionStartResolver の条件成立時のみ）→ AdMob validator 警告（開発ビルド）の順不同でダイアログが重なる。新規の匿名ユーザー（シミュレータ初期化後の初回起動）ではこれらに加えてオンボーディング（OnboardingResolver。作成から1日以内・完了記録なし・非プレミアムで表示）がホーム画面の前に出る。mobile-mcp で手動確認する場合も、まず `maestro test maestro/flows/allow_notification.yaml` で突破してから操作を始めるのが確実
+- 起動直後は通知許可 → ATT → プロモーション（★5 レビュー訴求。アカウント作成から1日超経過など PromotionStartResolver の条件成立時のみ）→ AdMob validator 警告（開発ビルド）の順不同でダイアログが重なる。新規の匿名ユーザー（シミュレータ初期化後の初回起動）ではこれらに加えてオンボーディング（OnboardingResolver。作成から1日以内・完了記録なし・非プレミアムで表示）がホーム画面の前に出る。mobile-mcp で手動確認する場合も、まず `maestro test maestro/flows/helpers/allow_notification.yaml` で突破してから操作を始めるのが確実
 - `flutter build ios --simulator` + `xcrun simctl install/launch` でアプリを起動すると、`lib/main.dart` の `setupRemoteConfig()`（`fetchAndActivate()` の `fetchTimeout` が1分）が同期待ちのため、シミュレータのネットワーク到達性によっては最大60秒程度 LaunchImage（白画面）のまま初回フレームが描画されない。`mobile_list_elements_on_screen` で `LaunchImage` が居座っていないかを確認し、白画面でも即座に失敗と判断しない
   - 2026-09-03 の QA では、erase 直後のシミュレータへの初回起動で白画面が3〜4分続いた（`log show --predicate 'process == "Runner"'` を見ると Firebase Analytics の起動自体が launch から67秒後、resolver の解決完了はさらに後）。60秒で見切らず、`xcrun simctl launch` 後は最低でも200秒待ってからスクリーンショットで判断する。プロセスの生存は `xcrun simctl spawn <UDID> launchctl list | grep medicalarm` で確認できる（`xcrun simctl terminate` が `found nothing to terminate` を返す場合はアプリが落ちている）
 - mobile-mcp（`mcp__mobile__*`）は WebDriverAgent を XCUITest として起動する（maestro のログに `Running tests...` が出る）ため、対象アプリがバックグラウンドに落ちる。その状態では `mobile_list_elements_on_screen` がアプリではなく Springboard のアイコン一覧を返し、`flutter run` の debug connection も `The OS has terminated the Flutter debug connection for being inactive in the background for too long.` で切れる。このプロジェクトの画面操作は maestro（`maestro test --udid <UDID> <flow>`）で行う。テキストラベルの無いアイコンボタンは `tapOn: point: "7%,10%"` のように割合座標で指定できる
@@ -64,7 +65,7 @@ make secret  # 環境変数 FILE_FIREBASE_IOS / REVENUE_CAT_PUBLIC_API_KEY が�
 
 ## 1. 起動・初期化
 
-- [x] **初回起動で服薬画面に到達**: クリーンインストール（`xcrun simctl uninstall <UDID> com.bannzai.medicalarm` でアプリ削除 → 再インストール）後の起動で、通知許可・ATT ダイアログを経て服薬画面が表示される。クリーンインストール操作は手動で行う（maestro/flows/allow_notification.yaml は `clearState: false` で表示中ダイアログの突破のみを行い、状態のリセットはしない）
+- [x] **初回起動で服薬画面に到達**: クリーンインストール（`xcrun simctl uninstall <UDID> com.bannzai.medicalarm` でアプリ削除 → 再インストール）後の起動で、通知許可・ATT ダイアログを経て服薬画面が表示される。クリーンインストール操作は手動で行う（maestro/flows/helpers/allow_notification.yaml は `clearState: false` で表示中ダイアログの突破のみを行い、状態のリセットはしない）
 - [x] **2 回目以降の起動**: 再起動時はダイアログ群が再表示されず、直接服薬画面が表示される
 - [x] **匿名認証とデータ永続化**: 再起動しても登録済みの薬・服薬記録が保持されている（匿名ユーザーが維持されている）
 
@@ -72,13 +73,13 @@ make secret  # 環境変数 FILE_FIREBASE_IOS / REVENUE_CAT_PUBLIC_API_KEY が�
 <details>
 <summary>動作確認エビデンス</summary>
 
-### **初回起動で服薬画面に到達**: クリーンインストール（`xcrun simctl uninstall <UDID> com.bannzai.medicalarm` でアプリ削除 → 再インストール）後の起動で、通知許可・ATT ダイアログを経て服薬画面が表示される。クリーンインストール操作は手動で行う（maestro/flows/allow_notification.yaml は `clearState: false` で表示中ダイアログの突破のみを行い、状態のリセットはしない）
+### **初回起動で服薬画面に到達**: クリーンインストール（`xcrun simctl uninstall <UDID> com.bannzai.medicalarm` でアプリ削除 → 再インストール）後の起動で、通知許可・ATT ダイアログを経て服薬画面が表示される。クリーンインストール操作は手動で行う（maestro/flows/helpers/allow_notification.yaml は `clearState: false` で表示中ダイアログの突破のみを行い、状態のリセットはしない）
 
 <details><summary>動作確認スクショ</summary>
 
 **確認日: 2026-07-16**
-シミュレータを `xcrun simctl erase` した新規匿名ユーザー状態から起動し、通知許可・ATT ダイアログ（maestro/flows/allow_notification.yaml で突破）を経て服薬画面に到達することを、2台のシミュレータ（A・B）それぞれで確認した。
-2026-09-03 追記: 新規ユーザーの初回起動でオンボーディング（lib/features/onboarding/）が挟まる経路でも、`maestro test --udid <UDID> maestro/flows/allow_notification.yaml`（onboarding.yaml をファネル完走〜ペイウォール閉じるまで実行）が exit 0 で完了し、服薬画面に到達することを確認した。
+シミュレータを `xcrun simctl erase` した新規匿名ユーザー状態から起動し、通知許可・ATT ダイアログ（maestro/flows/helpers/allow_notification.yaml で突破）を経て服薬画面に到達することを、2台のシミュレータ（A・B）それぞれで確認した。
+2026-09-03 追記: 新規ユーザーの初回起動でオンボーディング（lib/features/onboarding/）が挟まる経路でも、`maestro test --udid <UDID> maestro/flows/helpers/allow_notification.yaml`（onboarding.yaml をファネル完走〜ペイウォール閉じるまで実行）が exit 0 で完了し、服薬画面に到達することを確認した。
 <img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260716/690706d7-9613-4140-bbbc-d1bc2ead38ce.png" width="380" />
 
 </details>
@@ -126,4 +127,4 @@ make secret  # 環境変数 FILE_FIREBASE_IOS / REVENUE_CAT_PUBLIC_API_KEY が�
 - `localization`: 文言解決の基盤（l.dart / resolver.dart）。画面を持たない
 - `resolver`: DI・匿名認証・DB 解決・課金セットアップ・強制アップデート等の基盤。起動が成功して服薬画面に到達することを横断確認項目 1 でカバー
 - `root`: レゾルバ積層と HomePage 表示のみ。横断確認項目 1 でカバー
-- `promotion_start`: ★5 レビュー訴求画面。表示条件は PromotionStartResolver（lib/features/promotion_start/resolver.dart）が判定する「プレミアム未加入・トライアル未使用・アカウント作成から1日超経過・前回キャンセルから7日超経過」の全成立で、クリーンインストール直後の初回起動では表示されない。時間経過に依存して安定再現できないため個別 QA.md は持たず、表示された場合に「今はしない」で閉じて服薬画面に到達できることは maestro/flows/allow_notification.yaml の条件付きタップでカバー
+- `promotion_start`: ★5 レビュー訴求画面。表示条件は PromotionStartResolver（lib/features/promotion_start/resolver.dart）が判定する「プレミアム未加入・トライアル未使用・アカウント作成から1日超経過・前回キャンセルから7日超経過」の全成立で、クリーンインストール直後の初回起動では表示されない。時間経過に依存して安定再現できないため個別 QA.md は持たず、表示された場合に「今はしない」で閉じて服薬画面に到達できることは maestro/flows/helpers/allow_notification.yaml の条件付きタップでカバー

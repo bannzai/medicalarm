@@ -1,7 +1,13 @@
-# 2回で回答した薬未登録の専用QAアカウントで実行する。
+# 2回で回答した薬未登録の新規ユーザーで、仮カードを 1 件ずつ削除して案内通知が消えることを確認する。
+# 新規の匿名ユーザーはこのフローで作る。アプリの状態と iOS Keychain (Firebase Auth の匿名ユーザーの保持先) を消して起動すると、
+# 次の起動で AppUser が新規作成されオンボーディング (helpers/onboarding.yaml) が出る。同じ Simulator で続けて走る他のフローの
+# 状態 (薬の登録・仮カードの削除済み) に依存しないため (#373)。
 appId: com.bannzai.medicalarm
 ---
-- runFlow: allow_notification.yaml
+- launchApp:
+    clearState: true
+    clearKeychain: true
+- runFlow: helpers/allow_notification.yaml
 - scrollUntilVisible:
     element:
       id: "onboarding_placeholder_delete_onboarding-8"
@@ -23,6 +29,11 @@ appId: com.bannzai.medicalarm
 - stopApp
 - launchApp:
     clearState: false
+# 再起動直後は Firebase 初期化と Remote Config の取得 (タイムアウト 60 秒) で白画面が続く。
+# 白画面では notVisible が空振りで真になるため、タブバーが出るまで待ってから判定する
+- extendedWaitUntil:
+    visible: "(?s)設定.*"
+    timeout: 240000
 - assertNotVisible: "お薬が未登録です"
 - tapOn: "(?s)設定.*"
 - scrollUntilVisible:

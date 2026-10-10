@@ -1,7 +1,12 @@
-# 薬未登録の専用QAアカウントで実行する。初回起動の案内は allow_notification.yaml が完走する。
+# 2回で回答した薬未登録の新規ユーザーで、仮カードから最初の薬を登録して仮カードと案内通知が消えることを確認する。
+# 新規の匿名ユーザーはこのフローで作る (理由と仕組みは onboarding_medication_plan_delete.yaml の先頭コメント)。
+# 初回起動の案内は helpers/allow_notification.yaml が完走する。
 appId: com.bannzai.medicalarm
 ---
-- runFlow: allow_notification.yaml
+- launchApp:
+    clearState: true
+    clearKeychain: true
+- runFlow: helpers/allow_notification.yaml
 - scrollUntilVisible:
     element:
       text: "お薬が未登録です"
@@ -11,6 +16,10 @@ appId: com.bannzai.medicalarm
 - stopApp
 - launchApp:
     clearState: false
+# 再起動直後の白画面では notVisible が空振りで真になるため、タブバーが出るまで待ってから判定する (onboarding_medication_plan_delete.yaml と同じ)
+- extendedWaitUntil:
+    visible: "(?s)設定.*"
+    timeout: 240000
 - assertNotVisible: "はじめる"
 - scrollUntilVisible:
     element:

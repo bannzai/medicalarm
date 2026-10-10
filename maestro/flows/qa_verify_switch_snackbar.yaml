@@ -11,6 +11,6 @@ appId: com.bannzai.medicalarm
 - tapOn:
     id: "medicine_pause_switch"
 - extendedWaitUntil:
-    visible: "(?s).*(一時停止しました|再開しました).*"
+    visible: "(薬の服用を一時停止しました|薬の服用を再開しました)"
     timeout: 5000
 - takeScreenshot: tmp/qa_switch_single_tap

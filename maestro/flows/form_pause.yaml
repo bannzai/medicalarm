@@ -12,5 +12,5 @@ appId: com.bannzai.medicalarm
     timeout: 5000
 - tapOn: "(?s).*服薬を有効にする.*"
 - extendedWaitUntil:
-    visible: "一時停止しました"
+    visible: "薬の服用を一時停止しました"
     timeout: 5000

@@ -5,7 +5,9 @@
 #   3. 初回の Special Gift（★5レビュー）プロモーション（"今はしない"）
 #   4. 開発ビルドで出る AdMob native ad validator 警告（"Dismiss"）
 #   5. 新規ユーザーの初回起動で出るオンボーディング（"はじめる" が見えたら onboarding.yaml で完走する）
-# `runFlow: allow_notification.yaml` で他フローから呼び出して使用する。
+# `runFlow: helpers/allow_notification.yaml` で他フローから呼び出して使用する。
+# helpers/ 配下は `maestro test maestro/flows` の実行対象 (config.yaml の flows の既定 `*` = ルート直下のみ) に含まれない。
+# 単独で実行すると、オンボーディング完了済みのユーザーでは「はじめる」が無く失敗するため (#373)。
 appId: com.bannzai.medicalarm
 ---
 - launchApp:
