@@ -173,8 +173,19 @@ class _FakeFuture_12<T1> extends _i1.SmartFake implements _i4.Future<T1> {
         );
 }
 
-class _FakeTransaction_13 extends _i1.SmartFake implements _i2.Transaction {
-  _FakeTransaction_13(
+class _FakePipelineSource_13 extends _i1.SmartFake
+    implements _i2.PipelineSource {
+  _FakePipelineSource_13(
+    Object parent,
+    Invocation parentInvocation,
+  ) : super(
+          parent,
+          parentInvocation,
+        );
+}
+
+class _FakeTransaction_14 extends _i1.SmartFake implements _i2.Transaction {
+  _FakeTransaction_14(
     Object parent,
     Invocation parentInvocation,
   ) : super(
@@ -1864,6 +1875,28 @@ class MockFirebaseFirestore extends _i1.Mock implements _i2.FirebaseFirestore {
       ) as _i4.Future<void>);
 
   @override
+  _i2.PipelineSource pipeline() => (super.noSuchMethod(
+        Invocation.method(
+          #pipeline,
+          [],
+        ),
+        returnValue: _FakePipelineSource_13(
+          this,
+          Invocation.method(
+            #pipeline,
+            [],
+          ),
+        ),
+        returnValueForMissingStub: _FakePipelineSource_13(
+          this,
+          Invocation.method(
+            #pipeline,
+            [],
+          ),
+        ),
+      ) as _i2.PipelineSource);
+
+  @override
   _i4.Future<void> setIndexConfigurationFromJSON(String? json) =>
       (super.noSuchMethod(
         Invocation.method(
@@ -1912,14 +1945,14 @@ class MockTransaction extends _i1.Mock implements _i2.Transaction {
           #delete,
           [documentReference],
         ),
-        returnValue: _FakeTransaction_13(
+        returnValue: _FakeTransaction_14(
           this,
           Invocation.method(
             #delete,
             [documentReference],
           ),
         ),
-        returnValueForMissingStub: _FakeTransaction_13(
+        returnValueForMissingStub: _FakeTransaction_14(
           this,
           Invocation.method(
             #delete,
@@ -1931,7 +1964,7 @@ class MockTransaction extends _i1.Mock implements _i2.Transaction {
   @override
   _i2.Transaction update(
     _i2.DocumentReference<Object?>? documentReference,
-    Map<String, dynamic>? data,
+    Map<Object, Object?>? data,
   ) =>
       (super.noSuchMethod(
         Invocation.method(
@@ -1941,7 +1974,7 @@ class MockTransaction extends _i1.Mock implements _i2.Transaction {
             data,
           ],
         ),
-        returnValue: _FakeTransaction_13(
+        returnValue: _FakeTransaction_14(
           this,
           Invocation.method(
             #update,
@@ -1951,7 +1984,7 @@ class MockTransaction extends _i1.Mock implements _i2.Transaction {
             ],
           ),
         ),
-        returnValueForMissingStub: _FakeTransaction_13(
+        returnValueForMissingStub: _FakeTransaction_14(
           this,
           Invocation.method(
             #update,
@@ -1978,7 +2011,7 @@ class MockTransaction extends _i1.Mock implements _i2.Transaction {
             options,
           ],
         ),
-        returnValue: _FakeTransaction_13(
+        returnValue: _FakeTransaction_14(
           this,
           Invocation.method(
             #set,
@@ -1989,7 +2022,7 @@ class MockTransaction extends _i1.Mock implements _i2.Transaction {
             ],
           ),
         ),
-        returnValueForMissingStub: _FakeTransaction_13(
+        returnValueForMissingStub: _FakeTransaction_14(
           this,
           Invocation.method(
             #set,
