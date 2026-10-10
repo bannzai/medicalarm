@@ -31,7 +31,7 @@ launched_at: 2025-03-04   # 公開日 (YYYY-MM-DD)。App Store の初回公開�
 - [x] Crashlytics のアラートの Slack 転送 (#medicalarm-notification。PR #356)
 - [ ] 画像から服薬する薬の予定を作る (#257。PR #267)
 - [ ] デザインのリニューアル (#274)
-- [ ] 2026-05-03 の App Store 公開 (202605.02.205812) 以降に main へ入った変更 (オンボーディング、起動時のストアレビュー訴求の削除 #294 等) のリリース (`scripts/release.sh`)。前提: nightly E2E が通ること (#373) と QA.md の記録の追随
+- [ ] App Store の公開版 (202605.02.205812、2026-05-03。`fetch-app-metadata.sh 6740401642 --country jp` の `version` / `currentVersionReleaseDate` を 2026-10-11 に実測。main の `pubspec.yaml` は 202607.15 でタグもあるがストアには出ていない) 以降に main へ入った変更 (オンボーディング、起動時のストアレビュー訴求の削除 #294 等) のリリース (`scripts/release.sh`)。前提: 次の E2E の項目が済むことと QA.md の記録の追随
 - [ ] nightly E2E (`CI E2E (Flutter iOS)`) が main で通る状態 (#373。2026-09-09 の初回から 32 回すべて失敗)
 
 ## デザインの方向
@@ -45,7 +45,7 @@ launched_at: 2025-03-04   # 公開日 (YYYY-MM-DD)。App Store の初回公開�
 | 2026-09-29 | 既存アプリへの後付け | 下書きを agent が作成。bannzai が直すか黙認する。しきい値は 2026-09-29 時点の実測 (平均評価 4.27 / 11 件、直近 14 日の ★1〜2 レビュー 0 件、直近 14 日の FATAL issue 0 件) を基準に「現状維持なら継続、明確に落ちたら打ち切り」で置いた | agent |
 | 2026-10-11 | 無人ループ | App Store の唯一の直近レビュー (2026-08-03、★5、「ことあるごとにレビューしろと出てくる」) は公開中の 202605.02 に残る起動時のストアレビュー訴求 (`in_app_review`。#294 で削除済み、未リリース) への不満と読む。レビュー訴求の追加の変更 (プロモーション画面 `PromotionStartPage` の表示頻度) は issue にせず、#294 を含むリリース後に新しいレビューで再評価する | agent |
 | 2026-10-11 | 無人ループ | リリース (release-app skill) は見送る。理由: QA.md の記録が 2026-07-16 で止まり `check_qa_gate.sh` が fail、nightly E2E が初回から全失敗で回帰を検知できない。E2E の修復 (#373) を先に出し、通ってから QA → リリースに進む | agent |
-| 2026-10-11 | 無人ループ | 判定基準「直近14日の★1〜2レビュー数」の計測元 `fetch-reviews.sh` がレビュー 1 件の feed で 0 件を返す不具合を見つけ、castle 側で修正した (https://github.com/bannzai/castle/pull/1609 )。今回の値 0 件は修正後のスクリプトで確認した | agent |
+| 2026-10-11 | 無人ループ | 判定基準「直近14日の★1〜2レビュー数」の計測元 `fetch-reviews.sh` がレビュー 1 件の feed で 0 件を返す不具合を見つけ、castle 側で修正した (https://github.com/bannzai/castle/pull/1609 )。修正後のスクリプトで feed 全体のレビューは 1 件 (★5、2026-08-03) で、判定基準の値「直近 14 日の ★1〜2 レビュー数」は 0 件 | agent |
 
 ## agent に任せること
 
