@@ -44,18 +44,21 @@ class MedicinesPageBody extends HookConsumerWidget {
         title: Text(L.medicineList),
       ),
       body: FloatingActionButtonLayout(
-        scaffoldBody: ListView(
-          // 下余白は FloatingActionButtonLayout が本文の末尾に重ねるフェード (24) より大きくし、
-          // 末尾までスクロールした時にカード右下の Switch がフェードにかからないようにする (#288)
-          padding: const EdgeInsets.only(top: 16.0, bottom: 40.0),
-          children: medicines
-              .map((medicine) => Column(
-                    children: [
-                      MedicinesPageSection(medicine: medicine),
-                      const SizedBox(height: 10),
-                    ],
-                  ))
-              .toList(),
+        // 左右の safe area (iPhone Duo の右端のステータス表示の列) にカードの編集アイコンと Switch が重ならないよう避ける (#370)
+        scaffoldBody: SafeArea(
+          child: ListView(
+            // 下余白は FloatingActionButtonLayout が本文の末尾に重ねるフェード (24) より大きくし、
+            // 末尾までスクロールした時にカード右下の Switch がフェードにかからないようにする (#288)
+            padding: const EdgeInsets.only(top: 16.0, bottom: 40.0),
+            children: medicines
+                .map((medicine) => Column(
+                      children: [
+                        MedicinesPageSection(medicine: medicine),
+                        const SizedBox(height: 10),
+                      ],
+                    ))
+                .toList(),
+          ),
         ),
         floatingActionButton: MedicalAddFloatingActionButtonChild(
           medicines: medicines,
