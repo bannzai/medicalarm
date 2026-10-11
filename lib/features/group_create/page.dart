@@ -3,6 +3,7 @@ import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:medicalarm/components/error/error_alert.dart';
 import 'package:medicalarm/components/loading/loading.dart';
+import 'package:medicalarm/components/sheet/full_screen_modal_bottom_sheet.dart';
 import 'package:medicalarm/features/group/group_icon.dart';
 import 'package:medicalarm/features/group/invitation_code_dialog.dart';
 import 'package:medicalarm/features/localization/l.dart';
@@ -159,11 +160,8 @@ class _GroupIconOption extends StatelessWidget {
 }
 
 void showGroupCreateForm(BuildContext context) {
-  showModalBottomSheet(
+  showFullScreenModalBottomSheet(
     context: context,
-    useSafeArea: true,
-    isScrollControlled: true,
-    backgroundColor: Colors.transparent,
     builder: (context) => const GroupCreatePage(),
   );
 }

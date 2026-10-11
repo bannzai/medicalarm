@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
+import 'package:medicalarm/components/sheet/full_screen_modal_bottom_sheet.dart';
 import 'package:medicalarm/features/localization/l.dart';
 import 'package:medicalarm/utils/analytics/analytics.dart';
 
@@ -70,10 +71,7 @@ class TextEditSheet extends HookWidget {
 }
 
 Future<String?> showTextEditSheet(BuildContext context, {required String text, FormFieldValidator<String>? validator}) async {
-  return await showModalBottomSheet<String?>(
-    useSafeArea: true,
-    backgroundColor: Colors.transparent,
-    isScrollControlled: true,
+  return await showFullScreenModalBottomSheet<String?>(
     context: context,
     builder: (context) => TextEditSheet(text: text, validator: validator),
   );
