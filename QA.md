@@ -105,6 +105,34 @@ make secret  # 環境変数 FILE_FIREBASE_IOS / REVENUE_CAT_PUBLIC_API_KEY が�
 
 </details>
 
+## 2. iPhone Duo (外側・内側ディスプレイ) での主要画面の表示
+
+- [x] **主要画面が外側・内側の両方で崩れない**: iPhone Duo の Simulator (iOS 27.1) で、オンボーディング (価値宣言・質問・プラン生成・結果)・ペイウォール・薬登録の案内・お薬登録フォーム・服用頻度・服用者・通知設定・ホームの 4 タブ・お薬一覧を、閉じた姿勢 (外側) → 開いた姿勢 (内側) → 閉じ直した姿勢の順に撮り、見切れ・重なり・不自然な余白・固定幅による偏りが無い。全画面のモーダルシートが右端のステータス表示の列を避けて狭まらず、お薬一覧のカードがその列に重ならない
+  - 自動化: manual (姿勢の切り替えは `~/.claude/skills/ios-simulator/scripts/duo-pose.sh` で Device Hub を操作するためローカルの Mac でのみ可能)
+
+### 実行ナレッジ: iPhone Duo の Simulator で外側・内側ディスプレイを確認する
+
+- 起動は `sim-boot "<名前>" "iPhone Duo"` (機種名を渡す。iOS 27.1 のランタイムが要る)。姿勢の切り替えと撮影の順は ios-simulator skill Phase 2「折りたたみ端末の外側・内側ディスプレイを切り替える」が SSOT。外側は `xcrun simctl io <UDID> screenshot --display=primary`、内側は `--display=primary-1`
+- 内側ディスプレイは横向き (2853×2007 px) で描画される。時刻・Wi-Fi の表示は右端の列に置かれ、アプリの内容はその左側に収まる (OS の配置で、崩れではない)
+- Device Hub の姿勢ボタンを押しても内側が有効にならなくなることがある (`duo-pose.sh set ... open` が TIMEOUT)。`xcrun simctl shutdown` → `sim-boot` で Simulator を再起動すると復旧する
+- プラン生成の演出 (約 2.4 秒) は姿勢の切り替え (6〜15 秒) が間に合わないため、外側だけを連写 (`xcrun simctl io ... screenshot` のループ) で撮る
+
+#### 動作確認
+<details>
+<summary>動作確認エビデンス</summary>
+
+### **主要画面が外側・内側の両方で崩れない**
+
+<details><summary>動作確認スクショ</summary>
+
+**確認日: 2026-10-11**
+iPhone Duo の Simulator (iOS 27.1、Xcode 27.1 27A9275) で主要画面を 3 姿勢で撮影した。全画面のモーダルシート (お薬登録フォーム・服用頻度・服用者・ペイウォール) とお薬一覧の崩れを修正し、修正後に崩れが無いことを確認した。全画面のスクリーンショットと修正前後の比較は issue https://github.com/bannzai/medicalarm/issues/370 を Closes する PR に載せている。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/11/67c158b5-545c-478f-bb3d-1f7ddb1f2957-duo-10-medicine-form-after-outer.png" width="300" /> <img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/11/bc31f287-375f-482a-997b-7ca2a599fd0b-duo-10-medicine-form-after-inner.png" width="420" />
+
+</details>
+
+</details>
+
 ## 機能別 QA.md
 
 - [onboarding](lib/features/onboarding/QA.md) — 初回起動の課金転換型オンボーディング
