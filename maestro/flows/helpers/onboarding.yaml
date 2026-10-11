@@ -1,6 +1,7 @@
 # 初回起動のオンボーディング (JP 短尺) を完走し、結果画面からプレミアム紹介シート (ペイウォール) を開いて閉じ、
 # 服薬画面に到達する helper。新規の匿名ユーザー (AppUser 作成から 1 日以内・オンボーディング未完了) でのみ表示される。
 # `runFlow: onboarding.yaml` で allow_notification.yaml から呼び出して使用する。
+# helpers/ 配下は `maestro test maestro/flows` の実行対象に含まれない (allow_notification.yaml の先頭コメントを参照)。
 appId: com.bannzai.medicalarm
 ---
 - tapOn: "はじめる"

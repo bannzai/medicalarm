@@ -1,0 +1,21 @@
+# `maestro test maestro/flows` のワークスペース設定 (#373)。
+# flows は既定の `*` (このディレクトリ直下の YAML だけ) のままにし、helpers/ 配下の runFlow 用 helper を単独実行の対象から外す。
+#
+# executionOrder: 1 台の Simulator で同じ匿名ユーザー (Firestore の状態) を引き継いで走るため、順序を固定する。
+# - 先頭の onboarding_medication_plan_delete は CI の新品 Simulator (新規ユーザー) で仮カードの削除までを行い、薬が無い状態で終わる
+# - 薬のフロー群は「テスト薬」1 件だけが登録されている状態を前提にする (medicine_pause_switch の識別子はカードごとに重複するため)。
+#   各フローは前提状態 (登録済み・服用中) を自分で作るので、この並びは必須ではなく、一時停止と再開が交互になる自然な順にしている
+# - 末尾の onboarding_medication_plan は Keychain を消して新規ユーザーで開始し、薬「Onboarding QA」を登録して終わる。
+#   登録後は仮カードが消えるため、仮カードを前提にする delete より後に置く
+executionOrder:
+  continueOnFailure: true
+  flowsOrder:
+    - onboarding_medication_plan_delete
+    - register_and_pause
+    - full_pause_feature
+    - toggle_switch
+    - resume_and_edit
+    - form_pause
+    - qa_verify_switch_snackbar
+    - qa_verify_calendar
+    - onboarding_medication_plan

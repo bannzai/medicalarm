@@ -59,5 +59,17 @@ jobs:
           echo "29b675e10cc12080e445e9bfb2e2b4e4dfb9c0f2e30d5884120d258b5e1cd991  maestro.zip" | shasum -a 256 -c -
           unzip -q maestro.zip -d maestro-cli
           echo "$RUNNER_TEMP/maestro-cli/maestro/bin" >> "$GITHUB_PATH"
+      # ローカル Mac で E2E を再現しない運用 (#373) のため、失敗したフローのスクリーンショット・コマンドログを
+      # artifact に残し、GitHub Actions の結果だけで原因を特定できるようにする
       - name: E2E フローを実行する
-        run: maestro test "maestro/flows"
+        run: maestro test --test-output-dir "$RUNNER_TEMP/maestro-output" "maestro/flows"
+      - name: Maestro の出力を artifact に残す
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: maestro-output
+          path: |
+            ${{ runner.temp }}/maestro-output
+            tmp
+            maestro/flows/tmp
+          if-no-files-found: ignore
