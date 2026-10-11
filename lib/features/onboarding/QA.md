@@ -201,3 +201,10 @@ maestro flow 実行後の服薬画面:
 - Maestroの通し実行は登録側が保存ボタン検出、削除側が広告オーバーレイ等でexit 1。分割した追検証は登録後・通知解除と最後の手動削除・再起動をそれぞれexit 0で確認した。通しテスト成功とは扱わない
 - ローカルログ: `tmp/onboarding-followup-maestro-registration.log`、`tmp/onboarding-followup-maestro-registration-finish.log`、`tmp/onboarding-followup-maestro-delete-last-dismiss.log`
 - 画像: https://github.com/bannzai/medicalarm/pull/273 の「今回の検証」へ添付
+
+## 2026-10-11 CI E2E での通し実行の記録
+
+対象コード: `6907e9bc` (#373)。GitHub Actions の `CI E2E (Flutter iOS)` (macos-26 runner・iPhone 17・新品の Simulator) で `maestro test maestro/flows` を実行した。アプリ本体のコードは変えていないため、frontmatter の最終検証コミットは更新していない。
+
+- `onboarding_medication_plan.yaml` (登録側) と `onboarding_medication_plan_delete.yaml` (削除側) がどちらも Passed になり、2026-09-08 の記録で未達だった通し実行が成功した: https://github.com/bannzai/medicalarm/actions/runs/38092951947
+- 「回答した時刻の引き継ぎ」の項目のうち、時刻を編集する操作はフローに含まれず未検証のため、チェックは入れていない
