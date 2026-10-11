@@ -28,41 +28,47 @@ class TextEditSheet extends HookWidget {
             color: Colors.white,
             borderRadius: BorderRadius.only(topLeft: Radius.circular(16), topRight: Radius.circular(16)),
           ),
-          child: Stack(
-            children: [
-              SingleChildScrollView(
-                controller: scrollController,
-                child: Padding(
-                  padding: const EdgeInsets.only(bottom: 20, top: 40, left: 16, right: 16),
-                  child: TextFormField(
-                    focusNode: focusNode,
-                    initialValue: text.value,
-                    validator: validator,
-                    minLines: 1,
-                    maxLines: 10,
-                    decoration: const InputDecoration(
-                      border: UnderlineInputBorder(),
-                      enabledBorder: UnderlineInputBorder(),
-                      focusedBorder: UnderlineInputBorder(),
+          // シートの背景は左右の safe area の下まで広げ、入力欄と保存ボタンだけを左右の safe area の内側に置く
+          // (他のシートの Scaffold / SafeArea と同じ役割。上下は従来どおりシート自身が余白を持つ)
+          child: SafeArea(
+            top: false,
+            bottom: false,
+            child: Stack(
+              children: [
+                SingleChildScrollView(
+                  controller: scrollController,
+                  child: Padding(
+                    padding: const EdgeInsets.only(bottom: 20, top: 40, left: 16, right: 16),
+                    child: TextFormField(
+                      focusNode: focusNode,
+                      initialValue: text.value,
+                      validator: validator,
+                      minLines: 1,
+                      maxLines: 10,
+                      decoration: const InputDecoration(
+                        border: UnderlineInputBorder(),
+                        enabledBorder: UnderlineInputBorder(),
+                        focusedBorder: UnderlineInputBorder(),
+                      ),
+                      onChanged: (value) {
+                        text.value = value;
+                      },
                     ),
-                    onChanged: (value) {
-                      text.value = value;
-                    },
                   ),
                 ),
-              ),
-              Positioned(
-                top: 10,
-                right: 10,
-                child: TextButton(
-                  onPressed: () {
-                    analytics.logEvent(name: 'text_edit_sheet_save_pressed');
-                    Navigator.of(context).pop(text.value);
-                  },
-                  child: Text(L.save),
+                Positioned(
+                  top: 10,
+                  right: 10,
+                  child: TextButton(
+                    onPressed: () {
+                      analytics.logEvent(name: 'text_edit_sheet_save_pressed');
+                      Navigator.of(context).pop(text.value);
+                    },
+                    child: Text(L.save),
+                  ),
                 ),
-              ),
-            ],
+              ],
+            ),
           ),
         );
       },
