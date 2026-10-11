@@ -9,6 +9,7 @@ import 'package:medicalarm/components/error/error_alert.dart';
 import 'package:medicalarm/components/fab/layout.dart';
 import 'package:medicalarm/components/keyboard/toolbar.dart';
 import 'package:medicalarm/components/loading/loading.dart';
+import 'package:medicalarm/components/sheet/full_screen_modal_bottom_sheet.dart';
 import 'package:medicalarm/entity/dose_receiver.dart';
 import 'package:medicalarm/entity/medication_frequency.dart';
 import 'package:medicalarm/entity/medicine.dart';
@@ -243,11 +244,8 @@ class MedicineFormPage extends HookConsumerWidget {
 
 /// フォームを開き、保存した場合だけ true を返す。通常の登録では初期時刻を用意しない。
 Future<bool?> showMedicineForm(BuildContext context, Medicine? medicine, {List<MedicationSchedule> initialSchedules = const []}) {
-  return showModalBottomSheet<bool>(
+  return showFullScreenModalBottomSheet<bool>(
     context: context,
-    useSafeArea: true,
-    isScrollControlled: true,
-    backgroundColor: Colors.transparent,
     builder: (context) => MedicineFormPage(medicine: medicine, initialSchedules: initialSchedules),
   );
 }

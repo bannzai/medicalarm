@@ -3,6 +3,7 @@ import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:flutter/material.dart';
 import 'package:medicalarm/components/premium/premium_features.dart';
+import 'package:medicalarm/components/sheet/full_screen_modal_bottom_sheet.dart';
 import 'package:medicalarm/style/color.dart';
 import 'package:purchases_flutter/purchases_flutter.dart';
 import 'package:medicalarm/components/loading/indicator.dart';
@@ -143,11 +144,8 @@ class _Body extends HookConsumerWidget {
 Future<void> showPremiumIntroductionSheet(BuildContext context) async {
   analytics.setCurrentScreen(screenName: 'PremiumIntroductionSheet');
 
-  await showModalBottomSheet(
+  await showFullScreenModalBottomSheet(
     context: context,
     builder: (_) => const PremiumIntroductionSheet(),
-    backgroundColor: Colors.transparent,
-    isScrollControlled: true,
-    useSafeArea: true,
   );
 }
