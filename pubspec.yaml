@@ -117,6 +117,10 @@ dev_dependencies:
 # The following section is specific to Flutter packages.
 flutter:
   generate: true
+  config:
+    # Flutter 3.44 の既定 (有効) をプロジェクトで固定する。開発者の `flutter config --no-enable-swift-package-manager`
+    # (グローバル設定) が効いて、CI (SwiftPM) と手元 (CocoaPods) で plugin の取り込み方と Podfile.lock が食い違うのを防ぐ (#385)
+    enable-swift-package-manager: true
   assets:
     - assets/
 
