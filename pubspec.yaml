@@ -47,7 +47,8 @@ dependencies:
   cloud_functions: 
   firebase_crashlytics: 
   firebase_storage:
-  google_mobile_ads: ^5.0.0
+  # Swift Package Manager 対応 (8.0.0 以上) で CocoaPods への依存を外す (#385)
+  google_mobile_ads: ^9.1.0
 
   freezed_annotation: ^3.1.0
   json_annotation: ^4.8.0
@@ -80,7 +81,8 @@ dependencies:
 
   # アカウント引き継ぎ(匿名認証 → Apple / Google リンク)用。
   # firebase_auth 6 系と併用し currentUser.linkWithCredential にクレデンシャルを渡す。
-  sign_in_with_apple: ^7.0.1
+  # Swift Package Manager 対応 (8.0.0 以上) で CocoaPods への依存を外す (#385)
+  sign_in_with_apple: ^8.0.0
   google_sign_in: ^7.2.0
   crypto: ^3.0.6
   # activate の providerApple / providerAndroid を使うため 0.4.8 以上
@@ -116,13 +118,9 @@ dev_dependencies:
 flutter:
   generate: true
   config:
-    # Flutter 3.44 で既定になった Swift Package Manager を、このプロジェクトでは無効にする。
-    # google_mobile_ads・sign_in_with_apple が SwiftPM 未対応で、CI の `flutter build ios --simulator` の
-    # pod install が CocoaPods と SwiftPM の依存の衝突で失敗するため (#383)。
-    # 無効化の手順: https://docs.flutter.dev/packages-and-plugins/swift-package-manager/for-app-developers#how-to-turn-off-swift-package-manager
-    # 同ページのとおり CocoaPods のレジストリは 2026-12-02 に read-only になり、将来の Flutter では無効化できなくなる。
-    # #385 で両 plugin を SwiftPM 対応版に上げたらこの設定を外す。
-    enable-swift-package-manager: false
+    # Flutter 3.44 の既定 (有効) をプロジェクトで固定する。開発者の `flutter config --no-enable-swift-package-manager`
+    # (グローバル設定) が効いて、CI (SwiftPM) と手元 (CocoaPods) で plugin の取り込み方と Podfile.lock が食い違うのを防ぐ (#385)
+    enable-swift-package-manager: true
   assets:
     - assets/
 
