@@ -11,12 +11,15 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 import 'package:medicalarm/screenshot/screenshot_medication_histories.dart';
 
+import 'screenshot_config.dart';
+
 void main() {
   final binding = IntegrationTestWidgetsFlutterBinding.ensureInitialized();
 
   group('end-to-end test', () {
-    const locales = AppLocalizations.supportedLocales;
+    final locales = AppLocalizations.supportedLocales.where(isScreenshotTargetLocale);
     for (final locale in locales) {
+      final screenshotBoundaryKey = GlobalKey();
       testWidgets('screenshot medication histories $locale', (tester) async {
         debugPrint('Intl.defaultLocale: ${Intl.defaultLocale}, locale.languageCode: ${locale.languageCode}');
         Intl.defaultLocale = locale.languageCode;
@@ -88,7 +91,7 @@ void main() {
               ),
               debugShowCheckedModeBanner: false,
               locale: locale,
-              home: const ScreenshotMedicationHistoriesPage(),
+              home: RepaintBoundary(key: screenshotBoundaryKey, child: const ScreenshotMedicationHistoriesPage()),
               localizationsDelegates: AppLocalizations.localizationsDelegates,
               supportedLocales: AppLocalizations.supportedLocales,
             ),
@@ -100,7 +103,12 @@ void main() {
         await tester.pumpAndSettle(const Duration(seconds: 3));
         await binding.convertFlutterSurfaceToImage();
         await tester.pumpAndSettle();
-        await binding.takeScreenshot('artifacts/screenshots/screenshot_medication_histories--${locale.languageCode}.png');
+        await takeScreenshotForStore(
+          binding: binding,
+          tester: tester,
+          boundaryKey: screenshotBoundaryKey,
+          screenshotName: '$screenshotOutputDirectory/screenshot_medication_histories--${locale.languageCode}.png',
+        );
       });
     }
   });
