@@ -130,14 +130,22 @@ class MedicinesPageSection extends HookConsumerWidget {
         Positioned(
           right: 12,
           top: 0,
-          child: IconButton(
-            padding: EdgeInsets.zero,
-            tooltip: L.medicineEditTooltip,
-            onPressed: () {
-              analytics.logEvent(name: 'medicines_edit_pressed');
-              showMedicineForm(context, medicine);
-            },
-            icon: const Icon(Icons.edit, size: 20),
+          // E2E (maestro) は、ListView の項目のノードに束ねられる tooltip の文字列ではなく、右下の Switch と同じく identifier で探す (#388)。
+          // MergeSemantics で identifier を IconButton のタップ操作と同じ 1 ノードにまとめる。iOS は label・操作を持たないノードを
+          // アクセシビリティ要素にせず、identifier だけのノードは XCUITest (maestro) から見えないため
+          child: MergeSemantics(
+            child: Semantics(
+              identifier: 'medicine_edit_button',
+              child: IconButton(
+                padding: EdgeInsets.zero,
+                tooltip: L.medicineEditTooltip,
+                onPressed: () {
+                  analytics.logEvent(name: 'medicines_edit_pressed');
+                  showMedicineForm(context, medicine);
+                },
+                icon: const Icon(Icons.edit, size: 20),
+              ),
+            ),
           ),
         ),
         Positioned(
