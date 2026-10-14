@@ -155,8 +155,9 @@ capture() {
 }
 
 # システム言語 (曜日の言語) ごとに撮影する言語の組。set_system_language のコメントを参照
-LANGUAGE_CODES_WITH_ENGLISH_WEEKDAYS=$(echo "$LANGUAGE_CODES" | tr ',' '\n' | grep -v '^ja$' | paste -sd, -)
-LANGUAGE_CODES_WITH_JAPANESE_WEEKDAYS=$(echo "$LANGUAGE_CODES" | tr ',' '\n' | grep '^ja$' | paste -sd, -)
+# (grep は一致が無いと exit 1 になり pipefail で止まるため、片方の組が空でも進めるよう || true で吸収する)
+LANGUAGE_CODES_WITH_ENGLISH_WEEKDAYS=$(echo "$LANGUAGE_CODES" | tr ',' '\n' | { grep -v '^ja$' || true; } | paste -sd, -)
+LANGUAGE_CODES_WITH_JAPANESE_WEEKDAYS=$(echo "$LANGUAGE_CODES" | tr ',' '\n' | { grep '^ja$' || true; } | paste -sd, -)
 
 if [ "$SKIP_CAPTURE" -eq 0 ]; then
   rm -rf "$RAW_DIR/outer" "$RAW_DIR/inner"
@@ -182,9 +183,9 @@ fi
 # ---- キャッチコピーの文字画像 ----
 rm -rf "$TEXT_DIR"
 mkdir -p "$TEXT_DIR"
-python3 -I - "$TEXT_JSON" "$TEXT_DIR" "${LANGUAGE_DIRECTORIES[@]}" <<'PY' > "$TEXT_DIR/jobs.json"
+python3 -I - "$TEXT_JSON" "$TEXT_DIR" "$COPY_COLOR" "${LANGUAGE_DIRECTORIES[@]}" <<'PY' > "$TEXT_DIR/jobs.json"
 import json, sys
-text_json, text_dir, *languages = sys.argv[1:]
+text_json, text_dir, color, *languages = sys.argv[1:]
 copies = json.load(open(text_json))
 jobs = []
 for language in languages:
@@ -194,11 +195,11 @@ for language in languages:
     for entry in entries:
         index = entry["index"]
         # 外側 (縦 1398 幅): 既存の 6.5 インチ版 (幅 1284 に 120px) と同じ比率の文字の大きさ
-        jobs.append({"text": entry["title"], "output": f"{text_dir}/{language}_{index}_outer_title.png", "width": 1240, "fontSize": 104, "weight": "bold", "color": "#800080"})
-        jobs.append({"text": entry["subtitle"], "output": f"{text_dir}/{language}_{index}_outer_subtitle.png", "width": 1240, "fontSize": 56, "weight": "regular", "color": "#800080"})
+        jobs.append({"text": entry["title"], "output": f"{text_dir}/{language}_{index}_outer_title.png", "width": 1240, "fontSize": 104, "weight": "bold", "color": color})
+        jobs.append({"text": entry["subtitle"], "output": f"{text_dir}/{language}_{index}_outer_subtitle.png", "width": 1240, "fontSize": 56, "weight": "regular", "color": color})
         # 内側 (横 2853 幅): 左の列 (幅 1000) に置く
-        jobs.append({"text": entry["title"], "output": f"{text_dir}/{language}_{index}_inner_title.png", "width": 1000, "fontSize": 112, "weight": "bold", "color": "#800080"})
-        jobs.append({"text": entry["subtitle"], "output": f"{text_dir}/{language}_{index}_inner_subtitle.png", "width": 1000, "fontSize": 60, "weight": "regular", "color": "#800080"})
+        jobs.append({"text": entry["title"], "output": f"{text_dir}/{language}_{index}_inner_title.png", "width": 1000, "fontSize": 112, "weight": "bold", "color": color})
+        jobs.append({"text": entry["subtitle"], "output": f"{text_dir}/{language}_{index}_inner_subtitle.png", "width": 1000, "fontSize": 60, "weight": "regular", "color": color})
 json.dump(jobs, sys.stdout, ensure_ascii=False)
 PY
 swift scripts/translation/render_text.swift "$TEXT_DIR/jobs.json"
