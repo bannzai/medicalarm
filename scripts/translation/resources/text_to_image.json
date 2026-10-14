@@ -322,6 +322,23 @@
             "index": 2
         }
     ],
+    "ja": [
+        {
+            "title": "複数の薬を管理",
+            "subtitle": "服用者も複数人登録できます",
+            "index": 0
+        },
+        {
+            "title": "詳細な履歴",
+            "subtitle": "飲み忘れの不安が消えます",
+            "index": 1
+        },
+        {
+            "title": "絶対に気づく通知",
+            "subtitle": "マナーモードでも届き、繰り返し通知",
+            "index": 2
+        }
+    ],
     "ko": [
         {
             "title": "Manage Multiple Meds",
