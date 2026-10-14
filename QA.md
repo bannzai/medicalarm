@@ -152,7 +152,10 @@ iPhone Duo の Simulator (iOS 27.1、Xcode 27.1 27A9275) で主要画面を 3 �
 
 ## QA 対象外
 
-- `localization`: 文言解決の基盤（l.dart / resolver.dart）。画面を持たない
-- `resolver`: DI・匿名認証・DB 解決・課金セットアップ・強制アップデート等の基盤。起動が成功して服薬画面に到達することを横断確認項目 1 でカバー
-- `root`: レゾルバ積層と HomePage 表示のみ。横断確認項目 1 でカバー
-- `promotion_start`: ★5 レビュー訴求画面。表示条件は PromotionStartResolver（lib/features/promotion_start/resolver.dart）が判定する「プレミアム未加入・トライアル未使用・アカウント作成から1日超経過・前回キャンセルから7日超経過」の全成立で、クリーンインストール直後の初回起動では表示されない。時間経過に依存して安定再現できないため個別 QA.md は持たず、表示された場合に「今はしない」で閉じて服薬画面に到達できることは maestro/flows/helpers/allow_notification.yaml の条件付きタップでカバー
+| feature | 理由 |
+| --- | --- |
+| `localization` | 文言解決の基盤（l.dart / resolver.dart）。画面を持たない |
+| `resolver` | DI・匿名認証・DB 解決・課金セットアップ・強制アップデート等の基盤。起動が成功して服薬画面に到達することを横断確認項目 1 でカバー |
+| `root` | レゾルバ積層と HomePage 表示のみ。横断確認項目 1 でカバー |
+| `group` | グループのアイコン（group_icon.dart）と招待コードダイアログ（invitation_code_dialog.dart）の共通部品で、単独の画面を持たない。利用元の group_create・group_setting・group_list・medications（グループ切替チップ）の QA.md でカバー |
+| `promotion_start` | ★5 レビュー訴求画面。表示条件は PromotionStartResolver（lib/features/promotion_start/resolver.dart）が判定する「プレミアム未加入・トライアル未使用・アカウント作成から1日超経過・前回キャンセルから7日超経過」の全成立で、クリーンインストール直後の初回起動では表示されない。時間経過に依存して安定再現できないため個別 QA.md は持たず、表示された場合に「今はしない」で閉じて服薬画面に到達できることは maestro/flows/helpers/allow_notification.yaml の条件付きタップでカバー |
