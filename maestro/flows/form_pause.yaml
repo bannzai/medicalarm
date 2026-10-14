@@ -2,7 +2,10 @@
 appId: com.bannzai.medicalarm
 ---
 - runFlow: full_pause_feature.yaml
-- tapOn: "薬を編集"
+# MedicinesPage カード右上の編集アイコン (Semantics identifier "medicine_edit_button")。
+# tooltip の文字列はカードのノードに束ねられ単独の要素にならないため、Switch と同じく id で探す (#388)
+- tapOn:
+    id: "medicine_edit_button"
 - extendedWaitUntil:
     visible: "お薬登録画面"
     timeout: 5000
