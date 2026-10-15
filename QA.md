@@ -1,7 +1,7 @@
 ---
 feature: _root
 verification: mobile-mcp
-last_verified_commit: ebcfd81fb3b432696218ceb32ea3df0434611c3b
+last_verified_commit: acda6a47ee88b4db42b4621e2cea866ec98eea9c
 last_verified_at: 2026-10-16
 ---
 
@@ -11,6 +11,10 @@ last_verified_at: 2026-10-16
 
 2026-10-15 に main の HEAD と同じアプリのコードのデバッグビルド (simtunnel の iOS Simulator) で、起動・Firestore の読み書き・Cloud Functions の呼び出し (グループ作成・招待コード発行・招待コードでの参加) が動くことを確認した。
 本番ビルドの App Attest によるトークン取得と App Check のメトリクスは、配布ビルドと実機が要るため未検証 (#340 の実機確認に含む)。
+
+## last_verified_commit の扱い (2026-10-16)
+
+2026-10-16 の QA は main の ebcfd81f のビルドで行った。その後に main へ入った root の変更は documents/DIRECTION.md (#407。方向性の文書の記述だけで、アプリのコードは変わらない) だけのため、last_verified_commit をそれを含む commit に進めた。
 
 ## 対象環境
 
