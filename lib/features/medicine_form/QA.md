@@ -147,13 +147,13 @@ last_verified_at: 2026-07-14
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-07-14**
-
-「服用者」行から服用者選択画面に遷移し「自分」を確認:
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260714/dd435b72-0df5-4f5f-a75e-15aaf1d1195a.png" width="320">
-
-メモに「QAメモテスト」を入力し、メモ画像をフォトライブラリから選択・アップロードして反映:
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260714/c9718397-260f-464e-bb90-cd42db0c6ce2.png" width="320">
+**確認日: 2026-10-15**
+「その他」セクションに服用者の行とメモ欄 (0/300 → 11/300) が表示された。カメラのボタンで「カメラ」「フォトライブラリ」の選択肢が出て、フォトライブラリから写真を選ぶとボタンがその写真のサムネイルに変わった。保存した後に編集で開くと、メモとメモ画像が残っていた。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/d3d23233-cb33-4187-b1d5-b864b68af859-mf10-other-info.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/eac68b33-6884-4258-93cc-c6a7a3e14526-mf12-image-picker.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/8f77c3e9-3ae6-48d6-b645-f2d680c49c87-mf14-photo-library2.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/1409d8d4-eb2e-4581-bcd7-d74acada181f-mf16-image-after-wait.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/2ddf2788-b69b-4e03-a59d-8f1dbc4d8b53-mf17-edit-memo-image.jpg" width="320">
 
 </details>
 

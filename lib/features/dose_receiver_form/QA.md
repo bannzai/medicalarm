@@ -77,10 +77,9 @@ last_verified_at: 2026-07-14
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-07-14**
-
-「新しい服用者」を「新しい服用者2号」に編集して確定後、画面を閉じて再度開き直しても（Firestore への反映を確認するため）名前が更新されたまま維持されていることを確認:
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260714/6a241916-503d-4e8d-b8f8-7b699132e03c.png" width="320">
+**確認日: 2026-10-15**
+服用者の名前欄を「UsX」に書き換えて確定 (Return) し、フォームを閉じて開き直すと「UsX」のまま表示された。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/d50bda0c-ffc1-42da-b1a8-a2aae487d41c-dr04-name-persisted.jpg" width="320">
 
 </details>
 
@@ -115,7 +114,7 @@ last_verified_at: 2026-07-14
 - [x] **上限文言（無料）**: 無料ユーザーは服用者2人まで。上限到達時に「服用者は最大2人まで登録できます」を赤字で表示し、「服用者を追加」ボタンが無効になる
 - [x] **プレミアム導線**: 無料ユーザーが上限到達時、「プレミアムプランで上限を10に増やす」リンクを表示し、タップするとプレミアム紹介シートが表示される
 - [ ] **上限（プレミアム）**: プレミアムユーザーは服用者10人まで登録できる
-  - ⏭️ スキップ: プレミアム化には RevenueCat の実購入完了（entitlement 反映）が必要で、シミュレータでは購入画面の表示までしか検証できない（`lib/features/medications/QA.md` の「プレミアム未加入では広告あり / 加入では非表示」項目と同じ制約）。StoreKit Configuration ファイル（`ios/Runner/StoreKitConfiguration.storekit`）は存在するが、`xcrun simctl launch` 起動では適用されず、Xcode スキーム経由の実行が必要
+  - ⏭️ スキップ: プレミアム会員の状態を Simulator で作れない (Sandbox での購入が要る)。購入後の確認は #340 の Sandbox 購入の項目に含めた
 
 #### 動作確認
 <details>

@@ -195,9 +195,9 @@ last_verified_at: 2026-09-08
 
 - [x] **バナー広告**: プレミアム未加入の場合、一覧上部に AdMob バナー広告が表示される
 - [ ] **プレミアム未加入では広告あり / 加入では非表示**: プレミアム加入時は AdMob バナーが表示されない
-  - ⏭️ スキップ: プレミアム化には RevenueCat の実購入完了（entitlement 反映）が必要で、シミュレータでは購入画面の表示までしか検証できない（`lib/features/preium_introduction/QA.md` の「購入導線」項目と同じ制約）。StoreKit Configuration ファイル（`ios/Runner/StoreKitConfiguration.storekit`）は存在するが、`xcrun simctl launch` 起動では適用されず、Xcode スキーム経由の実行が必要
+  - ⏭️ スキップ: 未加入で広告が出ることは確認した (「バナー広告」の項目)。加入時に消えることはプレミアム会員の状態を Simulator で作れないため #340 の Sandbox 購入の項目に含めた
 - [ ] **トライアル中バナー**: プロモーション期間中は「現在プレミアムトライアル中です」バナーが表示され、タップするとプレミアム紹介シートが開く
-  - ⏭️ スキップ: `isInPromotion` は RevenueCat の `rc_promo_Premium` プロモーションエンタイトルメントが必要（`lib/utils/purchase/purchase.dart:82`）。テスト環境でプロモーションを付与する手段がなく再現不可
+  - ⏭️ スキップ: プロモーション期間中の状態は、アカウント作成から 1 日以上の経過などの条件が要り、新規ユーザーの Simulator では作れない
 
 #### 動作確認
 <details>
@@ -269,11 +269,9 @@ last_verified_at: 2026-09-08
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-07-14**
-
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260714/00bad76a-8fbb-4d09-8344-fb2a7651750a.png" width="320">
-
-「プレミアムプランで上限を10に増やす」リンクをタップし、プレミアム紹介シート（プレミアムプラン）が開くことを確認
+**確認日: 2026-10-15**
+薬を 2 件登録すると服薬画面に「プレミアムプランで上限を10に増やす」が表示され、タップするとプレミアム紹介シートが開いた。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/dc4f59da-1768-476d-bf67-37d395070ba7-med07-limit.jpg" width="320">
 
 </details>
 
@@ -327,8 +325,10 @@ AppBar 右上の編集アイコンをタップするとお薬一覧画面に遷�
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-07-16**
-「家族グループ」チップに切り替えると、そのグループに登録した「共有薬X」が表示され、「マイグループ」チップに戻すと別データ（移行テスト薬A/B）が表示された。
+**確認日: 2026-10-15**
+マイグループのチップでは Memo Med・Second Med が表示され、作成した「Care」のチップに切り替えると薬が 1 件も無い表示に切り替わった。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/70c08a72-d6ab-47bc-ae7e-0b86e04fca5d-gc10-home-not-switched.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/603ad4b3-ecc9-4cd5-82f8-1ecbc63eaebf-m08-chip-care.jpg" width="320">
 
 </details>
 
@@ -336,8 +336,9 @@ AppBar 右上の編集アイコンをタップするとお薬一覧画面に遷�
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-07-16**
-「家族グループ」チップに切り替えた状態でアプリを完全終了・再起動したところ、再起動後も「家族グループ」が選択された状態（既定チップがハイライト）で復元された。
+**確認日: 2026-10-15**
+「Care」に切り替えた状態でアプリを終了して起動し直すと、「Care」のチップが選択されたままだった。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/36991f7e-b918-412a-9a21-5e03d0572398-m09-chip-persisted.jpg" width="320">
 
 </details>
 

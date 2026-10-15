@@ -78,9 +78,9 @@ last_verified_at: 2026-07-14
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-07-14**
-
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260714/9ef93ad2-9aab-487e-8874-908c7e850934.png" width="320">
+**確認日: 2026-10-15**
+服薬画面の中央を右から左へスワイプしても「服薬」タブのままで、ほかのタブに切り替わらなかった。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/9ac75777-9e7e-4ecf-9405-83ac163721cc-h01-after-swipe.jpg" width="320">
 
 </details>
 

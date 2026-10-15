@@ -15,7 +15,7 @@ last_verified_at: 2026-07-14
 - [x] **お薬カードの表示**: 登録済みの薬がカードで並び、各カードに薬名・服用者名・服用スケジュールの時刻が表示される
 - [x] **容量メモ・メモの表示**: スケジュールに容量メモがある場合は時刻の右側に、薬にメモがある場合はカード下部に表示される
 - [ ] **アーカイブ済みの除外**: archivedDateTime が設定された薬はお薬一覧に表示されない
-  - ⏭️ スキップ: `archivedDateTime` を設定する UI 導線がアプリ内に存在しない（`lib/`・`firebase/` 全体を grep しても書き込み箇所はエンティティ定義と `activeMedicinesProvider` のフィルタ条件のみ）。Firestore への直接書き込みでの検証はアプリの動作確認の範囲を超えるためスキップ
+  - ⏭️ スキップ: アプリに薬をアーカイブする操作が無く、archivedDateTime の付いた薬を画面操作では作れない。Firestore に直接書き込む準備は今回行っていない
 
 #### 動作確認
 <details>
@@ -46,13 +46,9 @@ last_verified_at: 2026-07-14
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-07-14**
-
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260714/94dd70dc-462a-4ed5-9ed2-d66e26361062.png" width="320">
-
-容量欄に「1錠」、薬メモに「QAメモテスト」を設定し、時刻右側とカード下部にそれぞれ表示されることを確認（テスト薬名: QAテスト薬A）。
-
-⚠️ 動作確認中に発見した不具合: 容量欄（`MedicineScheduleQuantityMemoTextField`）は `onFieldSubmitted`（キーボード return/done 押下）でしか親の状態に反映されない実装で、他の欄（薬メモ等）と異なり `onChanged` を使っていない。入力後に return を押さず他要素をタップしてフォーカスを外すと、保存時に入力内容が破棄される。さらに編集画面を再度開いても容量欄は常に空欄で表示され、保存済みの値がプリフィルされない（`TextFormField` に `initialValue`/`controller` が設定されていないため）。GitHub issue 起票を試みたが `gh issue list` 等の確認コマンドが権限承認待ちでブロックされ、issue 作成の成否を確認できていない。詳細は本 QA セッションの完了報告を参照。
+**確認日: 2026-10-15**
+08:00 の容量に「2tabs」(改行で確定)、メモに「after meals」を入れて保存すると、お薬一覧のカードで 08:00 の右に「2tabs」、カード下部に「after meals」が表示された。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/9cdde3fe-3d57-4850-ae42-654fb5da5364-med05-memo-quantity.jpg" width="320">
 
 </details>
 
@@ -84,11 +80,9 @@ last_verified_at: 2026-07-14
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-07-14**
-
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260714/9a965121-c8cb-45ae-bd17-64cebcf4f30a.png" width="320">
-
-上限に達した状態ではボタンが無効化されるため、登録数を一時的に1件へ減らした状態で確認した。
+**確認日: 2026-10-15**
+お薬一覧の下部の「お薬を追加」をタップすると、空の新規お薬登録画面 (モーダル) が開いた。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/fdff9733-855f-4377-a7d0-c92bdbb584af-med06-add-from-list.jpg" width="320">
 
 </details>
 
@@ -96,23 +90,9 @@ last_verified_at: 2026-07-14
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-09-08**
-
-simtunnel (GitHub Actions macOS Runner 上のリモート iOS Simulator、英語ロケール) で、薬 2 件 (無料上限) の薬名を 50 文字・メモを 300 文字にしてカードを伸ばし、一覧がスクロールする状態で確認。commit 2a7b48b9。
-
-未スクロール: 上限メッセージとプレミアムリンクが帯の上に単独で表示され、2 枚目のカードはフェードで切れて文字が重ならない。「Add Medication」ボタンは灰色で無効化されている
-
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/09/08/6e2abdaa-deca-48f9-abaf-7be2938b589d-shot-medicines-limit-top.jpg" width="320">
-
-末尾までスクロール: 末尾カード右下の Switch (下端 y:643pt) が上限メッセージ (上端 y:697pt) より上に完全に見える (修正前は同じ位置で Switch が y:712pt にあり、上限メッセージとリンクの裏に隠れていた)
-
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/09/08/21531ea4-c40d-4a1e-969e-50d4b3debac4-shot-medicines-limit-scrolled.jpg" width="320">
-
-**確認日: 2026-07-14**
-
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260714/2ecb9f22-de81-4272-a53b-369219d4a983.png" width="320">
-
-無料ユーザーの上限（2件）に到達した状態で「お薬は2つまで登録できます。」「プレミアムプランで上限を10に増やす」が表示され、「お薬を追加」ボタンが無効化されることを確認（`Medicine.maxCount`: free=2, premium=10）。
+**確認日: 2026-10-15**
+2 件目を登録すると、お薬一覧に「お薬は2つまで登録できます。」と「プレミアムプランで上限を10に増やす」が表示され、「お薬を追加」ボタンはグレーで押せない表示になった。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/dc4f59da-1768-476d-bf67-37d395070ba7-med07-limit.jpg" width="320">
 
 </details>
 

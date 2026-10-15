@@ -157,7 +157,7 @@ last_verified_at: 2026-07-15
 ## 5. プレミアム会員時の表示
 
 - [ ] **会員向け表示**: プレミアム会員（isPremium）の場合、特典カードと購入ボタンは表示されず、「プレミアムメンバーです」とお礼メッセージが表示される
-  - ⏭️ スキップ: プレミアム化には RevenueCat の実購入完了（entitlement 反映）が必要で、シミュレータでは購入画面（Apple Account サインインダイアログ）の表示までしか検証できない（`lib/features/dose_receiver_form/QA.md` の「上限（プレミアム）」項目と同じ制約）。StoreKit Configuration ファイル（`ios/Runner/StoreKitConfiguration.storekit`）は存在するが、`xcrun simctl launch` 起動では適用されず、Xcode スキーム経由の実行が必要なため今回は対象外とした
+  - ⏭️ スキップ: プレミアム会員の状態を Simulator で作れない (Sandbox での購入が要る)。購入後の表示は #340 の Sandbox 購入の項目に含めた
 
 #### 動作確認
 <details>

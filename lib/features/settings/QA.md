@@ -21,9 +21,9 @@ last_verified_at: 2026-08-12
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-07-14**
-
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260714/71309b20-3d12-472d-977e-371f892b1c00.png" width="320">
+**確認日: 2026-10-15**
+「プレミアムプラン」セクションの「プレミアムプランを見る」をタップすると、プレミアム紹介シート (月額 $2.99・年額 $22.99) が開いた。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/4f66c280-ff92-4b39-9f55-0987f176ab2a-st09-premium-link.jpg" width="320">
 
 </details>
 

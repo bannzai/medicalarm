@@ -177,7 +177,9 @@ last_verified_at: 2026-08-10
 
 <details><summary>動作確認スクショ</summary>
 
-（未実行）
+**確認日: 2026-10-15**
+服薬記録が無い今日 (10/15) のシートを開くと、服薬履歴のセクションに「服薬履歴がありません」と表示された。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/cc947f04-b81a-448b-8d93-a86531cef4f4-cal08-no-record.jpg" width="320">
 
 </details>
 

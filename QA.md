@@ -7,13 +7,10 @@ last_verified_at: 2026-07-16
 
 # QA 全体ガイド
 
-## App Check 導入時の未検証範囲（2026-09-09）
+## App Check の検証範囲（2026-10-15 更新）
 
-App Check 導入後の起動・Firebase 通信・トークン取得・メトリクスは未検証。
-Apple 側の App Attest capability が未有効で、配布用プロファイルの再生成も未実施。
-Firebase 側のプロバイダ・デバッグトークン登録は今回のクライアント側変更に含めない。
-ローカルのリソース検査は CPU 使用率 100%・メモリ圧迫ありで通過しなかったため、ビルドと Maestro E2E は未実施。
-以下の既存エビデンスと最終検証日時は App Check 導入前の記録であり、今回の変更を検証済みとするものではない。
+2026-10-15 に main の HEAD と同じアプリのコードのデバッグビルド (simtunnel の iOS Simulator) で、起動・Firestore の読み書き・Cloud Functions の呼び出し (グループ作成・招待コード発行・招待コードでの参加) が動くことを確認した。
+本番ビルドの App Attest によるトークン取得と App Check のメトリクスは、配布ビルドと実機が要るため未検証 (#340 の実機確認に含む)。
 
 ## 対象環境
 
@@ -77,10 +74,10 @@ make secret  # 環境変数 FILE_FIREBASE_IOS / REVENUE_CAT_PUBLIC_API_KEY が�
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-07-16**
-シミュレータを `xcrun simctl erase` した新規匿名ユーザー状態から起動し、通知許可・ATT ダイアログ（maestro/flows/helpers/allow_notification.yaml で突破）を経て服薬画面に到達することを、2台のシミュレータ（A・B）それぞれで確認した。
-2026-09-03 追記: 新規ユーザーの初回起動でオンボーディング（lib/features/onboarding/）が挟まる経路でも、`maestro test --udid <UDID> maestro/flows/helpers/allow_notification.yaml`（onboarding.yaml をファネル完走〜ペイウォール閉じるまで実行）が exit 0 で完了し、服薬画面に到達することを確認した。
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260716/690706d7-9613-4140-bbbc-d1bc2ead38ce.png" width="380" />
+**確認日: 2026-10-15**
+simtunnel の Simulator にアプリを新規インストールしたユーザー 5 人 (日本語 4・英語 1) それぞれで、初回起動からオンボーディング・ペイウォール・ATT・通知許可のダイアログを経て服薬画面に到達した。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/6eb92f56-685d-4e52-a955-cbef3f518bf6-ob01-welcome.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/c0d369a6-655f-4e1e-9791-bff08015c6ab-ob11-placeholder-cards.jpg" width="320">
 
 </details>
 
@@ -88,9 +85,10 @@ make secret  # 環境変数 FILE_FIREBASE_IOS / REVENUE_CAT_PUBLIC_API_KEY が�
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-07-16**
-初回ダイアログ承諾後、アプリの完全終了・再起動を複数回行ったが、以降はダイアログが再表示されず直接服薬画面に到達した（本セッションで10回以上の再起動を実施し全て確認）。
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260716/138599b3-f920-4a7d-99af-3a8b8d84db9f.png" width="380" />
+**確認日: 2026-10-15**
+アプリを終了して起動し直すと、オンボーディングとダイアログは表示されずに服薬画面が直接表示された (各ユーザーで複数回)。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/d8e1b0cd-a3d8-4a20-8ad9-882f872abbab-ob12-relaunch.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/36991f7e-b918-412a-9a21-5e03d0572398-m09-chip-persisted.jpg" width="320">
 
 </details>
 
@@ -98,9 +96,10 @@ make secret  # 環境変数 FILE_FIREBASE_IOS / REVENUE_CAT_PUBLIC_API_KEY が�
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-07-16**
-登録した薬・服薬記録（移行テスト薬A/B、共有薬X）が、アプリの完全終了・再起動を挟んでも欠落・重複なく保持されることを複数回確認した。
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260716/be935c90-709e-4551-a73a-c3cb862cb3c9.png" width="380" />
+**確認日: 2026-10-15**
+起動し直しても、登録した薬・服薬記録・選んだグループが保持されていた。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/d8e1b0cd-a3d8-4a20-8ad9-882f872abbab-ob12-relaunch.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/36991f7e-b918-412a-9a21-5e03d0572398-m09-chip-persisted.jpg" width="320">
 
 </details>
 
@@ -128,6 +127,7 @@ make secret  # 環境変数 FILE_FIREBASE_IOS / REVENUE_CAT_PUBLIC_API_KEY が�
 
 **確認日: 2026-10-11**
 iPhone Duo の Simulator (iOS 27.1、Xcode 27.1 27A9275) で主要画面を 3 姿勢で撮影した (プラン生成だけは外側のみ)。全画面のモーダルシート (お薬登録フォーム・服用頻度・服用者・ペイウォール) とお薬一覧の崩れを修正し、修正後に崩れが無いことを確認した。全画面のスクリーンショットと修正前後の比較は issue https://github.com/bannzai/medicalarm/issues/370 を Closes する PR に載せている。
+2026-10-15 追記: 2026-10-11 の確認以降の lib/ の変更は、お薬一覧のカードの編集アイコンに Semantics identifier を付けた変更 (9f97f7ec) だけで画面の配置は変わらないため、Duo では撮り直していない。
 <img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/11/67c158b5-545c-478f-bb3d-1f7ddb1f2957-duo-10-medicine-form-after-outer.png" alt="iPhone Duo 外側ディスプレイのお薬登録フォーム (修正後)" width="300" /> <img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/11/bc31f287-375f-482a-997b-7ca2a599fd0b-duo-10-medicine-form-after-inner.png" alt="iPhone Duo 内側ディスプレイのお薬登録フォーム (修正後)" width="420" />
 
 </details>
