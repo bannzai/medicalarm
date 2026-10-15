@@ -51,7 +51,15 @@ appId: com.bannzai.medicalarm
     timeout: 15000
 - assertVisible: "(?s).*Onboarding QA.*"
 - takeScreenshot: tmp/onboarding-followup-registered
-- tapOn: "(?s)設定.*"
+# 広告の検証ポップアップが設定タブのタップを吸うことがあるため、設定画面が出るまでやり直す (onboarding_medication_plan_delete.yaml と同じ)
+- retry:
+    maxRetries: 3
+    commands:
+      - tapOn:
+          text: "Dismiss"
+          optional: true
+      - tapOn: "(?s)設定.*"
+      - assertVisible: "グループの管理"
 - scrollUntilVisible:
     element:
       text: "Local Notifications"

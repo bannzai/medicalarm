@@ -35,7 +35,16 @@ appId: com.bannzai.medicalarm
     visible: "(?s)設定.*"
     timeout: 240000
 - assertNotVisible: "お薬が未登録です"
-- tapOn: "(?s)設定.*"
+# 再起動後に読み込まれるネイティブ広告の「AdMob native ad validator」のポップアップが設定タブのタップを吸い、
+# 服薬タブのまま Local Notifications を探して失敗したことがある (#387)。ポップアップを閉じてから設定画面が出るまでやり直す
+- retry:
+    maxRetries: 3
+    commands:
+      - tapOn:
+          text: "Dismiss"
+          optional: true
+      - tapOn: "(?s)設定.*"
+      - assertVisible: "グループの管理"
 - scrollUntilVisible:
     element:
       text: "Local Notifications"

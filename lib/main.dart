@@ -108,7 +108,23 @@ void main() async {
     });
 
     // MEMO: FirebaseCrashlytics#recordFlutterError called dumpErrorToConsole in function.
-    FlutterError.onError = FirebaseCrashlytics.instance.recordFlutterError;
+    FlutterError.onError = (details) {
+      // nightly E2E で赤画面 (ErrorWidget) が出た時、FlutterError.presentError の出力が simulator のログ (os_log) に残らず
+      // Dart のスタックトレースを取れなかった (#387)。debugPrint の間引き (debugPrintThrottled) を通らない print で
+      // 最初の例外とスタックトレースも出す。debug に限定する理由は zone error と同じ
+      if (kDebugMode) {
+        print('[FlutterError] ${details.exceptionAsString()}\n${details.stack}');
+      }
+      FirebaseCrashlytics.instance.recordFlutterError(details);
+    };
+    // onError を通らずに赤画面になる経路でも例外を残すため、赤画面を作る時にも出す (#387)
+    final errorWidgetBuilder = ErrorWidget.builder;
+    ErrorWidget.builder = (details) {
+      if (kDebugMode) {
+        print('[ErrorWidget] ${details.exceptionAsString()}\n${details.stack}');
+      }
+      return errorWidgetBuilder(details);
+    };
 
     runApp(ProviderScope(
       overrides: [
