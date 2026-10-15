@@ -1,8 +1,8 @@
 ---
 feature: onboarding
 verification: maestro, mobile-mcp
-last_verified_commit: 90f723b1ead9d5e66c12ce4331a8e8b602a105e8
-last_verified_at: 2026-09-03
+last_verified_commit: 263630555ac273bca24b8c4df556f018b9a8578d
+last_verified_at: 2026-10-16
 ---
 
 # onboarding QA
@@ -47,9 +47,9 @@ last_verified_at: 2026-09-03
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-09-03**
-`xcrun simctl erase` した新規匿名ユーザー状態で起動すると、通知許可 / ATT ダイアログより前に「飲み忘れの不安をなくそう」の価値宣言画面が表示された (プログレスバーは 1/7)。`maestro test --udid <UDID> maestro/flows/helpers/allow_notification.yaml` も「はじめる」を検出して onboarding.yaml を実行し exit 0 で完了した。
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/09/02/72220832-563f-4437-b80d-c01a26d1cc8e-01-welcome.png" width="320">
+**確認日: 2026-10-15**
+simtunnel (iPhone 17) に新規インストールしたアプリを日本語ロケールで起動すると、通知許可・ATT ダイアログより前に「飲み忘れの不安をなくそう」の価値宣言画面が表示された (プログレスバー 1/7)。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/6eb92f56-685d-4e52-a955-cbef3f518bf6-ob01-welcome.jpg" width="320">
 
 </details>
 
@@ -57,9 +57,9 @@ last_verified_at: 2026-09-03
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-09-03**
-ペイウォールを閉じて服薬画面に到達した後、`xcrun simctl terminate` → `xcrun simctl launch` で再起動したところ、オンボーディングは表示されず直接服薬画面が表示された。
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/09/02/55dd64fe-47ea-49da-a2a7-0cd903527222-m11-relaunch.png" width="320">
+**確認日: 2026-10-15**
+ペイウォールを閉じて「あとで」で服薬画面に到達した後、アプリを終了して起動し直すと、オンボーディングは表示されず服薬画面 (仮カード付き) が表示された。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/d8e1b0cd-a3d8-4a20-8ad9-882f872abbab-ob12-relaunch.jpg" width="320">
 
 </details>
 
@@ -84,22 +84,15 @@ last_verified_at: 2026-09-03
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-09-03**
-日本語ロケールで 7 画面の短尺になることを確認した (ログにも `onboarding_started {form: short, total: 7}` が出力される)。「たまにある」→「自分」→「2回」→「1〜2種類」の順にタップして、プラン生成演出 (「あなた専用のプランを作成中」+ 円形プログレス + 「準備ができました」) を経て「あなた専用のプラン」に到達した。各画面でプログレスバーが 1/7 → 2/7 → 3/7 → 4/7 → 5/7 → ほぼ満杯 → 満杯と進むことも確認した。`maestro test --udid <UDID> maestro/flows/helpers/allow_notification.yaml` (onboarding.yaml を実行) は exit 0。
-価値宣言 (1/7):
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/09/02/72220832-563f-4437-b80d-c01a26d1cc8e-01-welcome.png" width="320">
-飲み忘れ質問 (2/7):
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/09/02/24896cc7-05a9-4faa-82c7-7ac358e4d1ed-m02-pain-forgot.png" width="320">
-管理対象 (3/7):
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/09/02/aaa80b9d-096b-4403-995a-45e3a315f0ba-m03-care-target.png" width="320">
-服用回数 (4/7):
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/09/02/afbbfae5-b2c6-489b-b5a8-036acfe0adc5-m05-daily-dose-count.png" width="320">
-薬の数 (5/7):
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/09/02/b8aaa71a-a8ab-4c0c-9a0b-6d878d18bd9f-m06-medicine-count.png" width="320">
-プラン生成演出:
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/09/02/47f4ea6a-e384-439d-ba3b-a10434b2585a-m07b-plan-generating.png" width="320">
-結果画面:
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/09/02/c22d3e6f-e0e6-4d7c-8b11-c023acafa160-r03-plan-result-ja.png" width="320">
+**確認日: 2026-10-15**
+「はじめる」→「たまにある」→「自分」→「2回」→「1〜2種類」の順にタップし、プラン生成演出 (「あなた専用のプランを作成中」) を経て「あなた専用のプラン」に到達した。プログレスバーの値は 14 → 29 → 43 → 57 → 71 → 100 (アクセシビリティの値) と進んだ。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/6eb92f56-685d-4e52-a955-cbef3f518bf6-ob01-welcome.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/58869b45-7033-4b8c-b8b4-e2a93f0852af-ob02-pain-forgot.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/bc69018f-4b2c-4176-9115-10a34a89bb0f-ob03-care-target.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/9239127b-c433-4234-adfd-09841ad89e92-ob05-daily-dose-count.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/32508dff-de91-4714-86e2-a82ab2cc6906-ob06-medicine-count.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/b09dc26d-bc2e-452e-9f54-789ec329195d-ob07-plan-generating.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/1a657f61-6ce0-4bf0-a2a0-238e0aaa038a-ob08-plan-result-ja.jpg" width="320">
 
 </details>
 
@@ -107,20 +100,18 @@ last_verified_at: 2026-09-03
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-09-03**
-シミュレータを erase して英語で起動し、「Get started」→「Often」(Have you ever missed a dose?) →「Often」(Ever felt anxious…) →「Next」(By the time you notice…) →「Myself and my family」→「3 times or more」→「6 or more」→「Next」(What changes with Medicalarm) →「Watch over my family's medication」(Set your goal) の順にタップして完走した。結果画面に「Goal: Watch over my family's medication」と「Premium plan recommended」が表示された。
-価値宣言 (1/11):
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/09/02/d3987acc-783d-4fbb-a44c-7234de02a64d-u01-welcome.png" width="320">
-ペイン 2 問目 (Ever felt anxious…):
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/09/02/092c4ac5-9d0e-4691-93da-6acb8e2ea6c9-u03-pain-worry.png" width="320">
-価値提示 (By the time you notice…):
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/09/02/47dd3c96-29d9-4241-8aff-ec989d26a9d9-u04-value-reminder.png" width="320">
-Before/After (What changes with Medicalarm):
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/09/02/059ca03c-3311-4a59-825d-18f5dc3272e2-u06-before-after.png" width="320">
-目標設定 (Set your goal):
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/09/02/387e0dc7-4255-4dba-a938-46fe8d2cb318-u07-goal.png" width="320">
-結果画面 (Goal: … / Premium plan recommended):
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/09/02/506c239b-af95-44ac-8378-3cf9d9bc7ed4-r04-plan-result-en.png" width="320">
+**確認日: 2026-10-15**
+新規インストールしたアプリを `-AppleLanguages (en) -AppleLocale en_US` で起動すると、「Say goodbye to missed doses」→「Have you ever missed a dose?」→「Ever felt anxious because…」→「By the time you notice…」→ 管理対象・回数・薬の数の質問 3 つ →「What changes with Medicalarm」→「Set your goal」と進み、結果画面「Your personal plan」に「Goal: Never miss a dose」が表示された。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/9a2f9a37-4785-4e3b-b727-94fbaf9ff2d4-us01-welcome.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/2b1221dd-2f53-4652-9b94-185410093819-us02.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/dc450e94-c2a0-41ee-a79d-a98457b33dd4-us03.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/3f64671c-e67f-4415-b100-674f5ce754a3-us04.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/ce959c03-18ca-4185-b294-24e7e00e0b11-us05.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/a676a03f-ed36-4771-ab92-fc9dc473c117-us06.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/141aa46d-fe8f-4fb3-af1b-d439e87c0f48-us07.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/4479c1ec-4e7c-463e-9fe2-86145aac1f27-us08.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/6fea72be-2a32-4a3b-8387-83322d69cd56-us09.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/29930130-bf80-44a9-a8c4-c55ad55800b3-us10.jpg" width="320">
 
 </details>
 
@@ -128,9 +119,11 @@ Before/After (What changes with Medicalarm):
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-09-03**
-管理対象の質問画面 (3/7) で左上の戻るボタンをタップすると飲み忘れ質問 (2/7) に戻り、直前に選んだ「たまにある」がピンクの枠線と塗りで強調表示された。プログレスバーも 2/7 に戻る。価値宣言・プラン生成・結果画面のスクショには戻るボタンが無いことも確認済み (上記「JP 短尺の完走」のスクショ)。
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/09/02/0552f814-d659-4aef-bca0-4c4bec327aa2-m04-back-highlight.png" width="320">
+**確認日: 2026-10-15**
+管理対象の質問画面 (3/7) で左上の戻るボタンをタップすると飲み忘れ質問 (2/7) に戻り、直前に選んだ「たまにある」が枠線と塗りで強調表示された。価値宣言・プラン生成演出・結果画面には戻るボタンが無かった (結果画面「Your personal plan」の要素一覧にも戻るボタンは無かった)。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/f8722806-eefc-45e2-8d3c-4cf2a96669c0-ob04-back-highlight.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/b09dc26d-bc2e-452e-9f54-789ec329195d-ob07-plan-generating.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/29930130-bf80-44a9-a8c4-c55ad55800b3-us10.jpg" width="320">
 
 </details>
 
@@ -153,12 +146,10 @@ Before/After (What changes with Medicalarm):
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-09-03**
-無料上限内の回答 (JP:「自分」「2回」「1〜2種類」) では、カードに 服用者=自分 / 1日の通知=2回 / 管理する薬=1〜2種類 が表示され、プレミアム訴求は出なかった。無料上限を超える回答 (US:「Myself and my family」「3 times or more」「6 or more」) では、カードに回答が反映された上で「Premium plan recommended」が表示された。
-無料上限内 (プレミアム訴求なし):
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/09/02/c22d3e6f-e0e6-4d7c-8b11-c023acafa160-r03-plan-result-ja.png" width="320">
-上限超過 (プレミアム訴求あり):
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/09/02/506c239b-af95-44ac-8378-3cf9d9bc7ed4-r04-plan-result-en.png" width="320">
+**確認日: 2026-10-15**
+「自分」「2回」「1〜2種類」ではカードに回答が表示され、プレミアム訴求は出なかった。別の新規ユーザーで「自分と家族」「3回以上」「3〜5種類」を選ぶと、カードに回答が反映された上で「プレミアムプランがおすすめ」と無料上限を超える旨が表示された。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/1a657f61-6ce0-4bf0-a2a0-238e0aaa038a-ob08-plan-result-ja.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/9bd964cc-2cc6-469e-95c6-b3590a0656d8-ob15-plan-result-premium.jpg" width="320">
 
 </details>
 
@@ -166,14 +157,11 @@ Before/After (What changes with Medicalarm):
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-09-03**
-結果画面の「プランを始める」で既存の PremiumIntroductionSheet (「プレミアムプラン」ヘッダー・月額プラン $2.99 / 年額プラン $22.99) が開き、左上の閉じるボタン (×) で閉じると通知許可ダイアログを経て服薬画面 (タブバー: 服薬 / 履歴 / カレンダー / 設定) に到達した。`maestro test --udid <UDID> maestro/flows/helpers/allow_notification.yaml` (onboarding.yaml がペイウォールの開閉まで実行) は exit 0。
-プレミアム紹介シート:
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/09/02/121f0494-a250-4c51-a058-22aa897a3fdf-m09-paywall.png" width="320">
-閉じた後の服薬画面 (mobile 操作):
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/09/02/8f1e150b-b9a7-4244-a6f0-ed8fc0f9b2d0-m10-medications.png" width="320">
-maestro flow 実行後の服薬画面:
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/09/02/668812e2-46c3-455f-a118-2a1efa11c1ce-m12-maestro-home.png" width="320">
+**確認日: 2026-10-15**
+「プランを始める」でプレミアム紹介シート (月額 $2.99 / 年額 $22.99) が開き、閉じると「最初のお薬を登録しましょう」の案内 (08:00・19:00) が表示された。「あとで」を選ぶと ATT・通知許可を経て、08:00・19:00 の仮カードを持つ服薬画面に進んだ。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/57a9acd0-d3e3-473a-82f8-41f1eddbe3eb-ob09-paywall.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/45a5ae72-856d-4c5f-a5fb-23d591c050cc-ob10-registration-guide.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/c0d369a6-655f-4e1e-9791-bff08015c6ab-ob11-placeholder-cards.jpg" width="320">
 
 </details>
 
@@ -183,12 +171,55 @@ maestro flow 実行後の服薬画面:
 
 ## 4. 最初の薬登録
 
-- [ ] **回答した時刻の引き継ぎ**: 2回の回答で登録案内に08:00・19:00が表示され、お薬を追加するとフォームにも同じ時刻が初期入力される。時刻は編集できる
+- [x] **回答した時刻の引き継ぎ**: 2回の回答で登録案内に08:00・19:00が表示され、お薬を追加するとフォームにも同じ時刻が初期入力される。時刻は編集できる
   - 自動化: auto (maestro/flows/onboarding_medication_plan.yaml)
 - [x] **フォームを閉じた場合**: 保存せず閉じると服薬画面へ進み、お薬が未登録の仮カードが残る
   - 自動化: auto (maestro/flows/onboarding_medication_plan.yaml)
 - [x] **登録後の仮カード解除**: 最初のお薬を保存すると実際の薬名と服薬チェック欄が表示され、仮カードと薬登録案内の通知が解除される
   - 自動化: auto (maestro/flows/onboarding_medication_plan.yaml)
+
+#### 動作確認
+<details>
+<summary>動作確認エビデンス</summary>
+
+### **回答した時刻の引き継ぎ**: 2回の回答で登録案内に08:00・19:00が表示され、お薬を追加するとフォームにも同じ時刻が初期入力される。時刻は編集できる
+
+<details><summary>動作確認スクショ</summary>
+
+**確認日: 2026-10-15**
+2回の回答で登録案内に 08:00・19:00 が表示され、仮カードの「お薬を追加」から開いたフォームに 08:00・19:00 が初期入力された。08:00 をタップして時刻ピッカーで 09:00 に変更でき、行に反映された。別の新規ユーザー (3回以上) では登録案内の「お薬を追加」から直接フォームへ進め、無料上限の 2 件 (08:00・12:00) が初期入力された。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/45a5ae72-856d-4c5f-a5fb-23d591c050cc-ob10-registration-guide.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/26cef2f6-b5ad-45a9-bd5a-5463250c683e-mf01-form-prefilled.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/e75cc4dd-01ee-4beb-9a09-8c39d619b02b-mf02-time-edited.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/caf0a2ad-9fed-45f1-92f8-6b29580af601-ob16-guide-to-form-capped.jpg" width="320">
+
+</details>
+
+### **フォームを閉じた場合**: 保存せず閉じると服薬画面へ進み、お薬が未登録の仮カードが残る
+
+<details><summary>動作確認スクショ</summary>
+
+**確認日: 2026-10-15**
+仮カードから開いたフォームを保存せず左上の戻るで閉じると、服薬画面に 08:00・19:00 の仮カードが残った。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/d6fc4709-c63c-4b1e-911e-16e750c5a2f1-ob13-placeholder-remains.jpg" width="320">
+
+</details>
+
+### **登録後の仮カード解除**: 最初のお薬を保存すると実際の薬名と服薬チェック欄が表示され、仮カードと薬登録案内の通知が解除される
+
+<details><summary>動作確認スクショ</summary>
+
+**確認日: 2026-10-15**
+薬名「QA Medicine」で保存すると、実際の薬名と服薬チェック欄のカードに切り替わり、仮カードは消えた。別の新規ユーザーで DEBUG の Local Notifications を開くと、仮カード 2 枚に対して「お薬を追加」の通知が 2 件 (payload 空) 予約されており、08:00 の仮カードを削除すると 1 件に減った。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/f3ce287f-706d-4159-a8b9-ca62991f221c-ob14-registered.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/a75420f1-e111-4992-b53a-fe054aa002da-b01-placeholder-notifications.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/88f4ae74-453b-455e-aef7-8cf1603257d7-b03-notifications-after-delete.jpg" width="320">
+
+</details>
+
+</details>
+
+---
 
 ## 2026-09-08の追加実装の検証
 

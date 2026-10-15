@@ -1,8 +1,8 @@
 ---
 feature: medications
 verification: mobile-mcp
-last_verified_commit: 7ddb0bffabab934d027e6bb2e0c3dfca0e37b8eb
-last_verified_at: 2026-09-08
+last_verified_commit: 263630555ac273bca24b8c4df556f018b9a8578d
+last_verified_at: 2026-10-16
 ---
 
 # medications QA
@@ -24,11 +24,9 @@ last_verified_at: 2026-09-08
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-07-14**
-
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260714/eb1ea0a2-b7f6-4786-97eb-0ac114a6c359.png" width="320">
-
-「お薬」/「7/12 - 7/18」が表示されている
+**確認日: 2026-10-15**
+上段に「お薬」、下段に表示中の週の範囲「10/11 - 10/17」が表示された。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/8d0d68de-fd86-44d6-aa03-7c00d31447a6-m01-home-cards.jpg" width="320">
 
 </details>
 
@@ -36,11 +34,9 @@ last_verified_at: 2026-09-08
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-07-14**
-
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260714/eb1ea0a2-b7f6-4786-97eb-0ac114a6c359.png" width="320">
-
-選択中の 14 がピンク背景で判別できる
+**確認日: 2026-10-15**
+上部に週表示のカレンダーが表示され、選択中の 15 が丸で強調された。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/8d0d68de-fd86-44d6-aa03-7c00d31447a6-m01-home-cards.jpg" width="320">
 
 </details>
 
@@ -48,11 +44,9 @@ last_verified_at: 2026-09-08
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-07-14**
-
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260714/eb1ea0a2-b7f6-4786-97eb-0ac114a6c359.png" width="320">
-
-カレンダー下に「7/14」と前後日への矢印ボタンが表示されている
+**確認日: 2026-10-15**
+カレンダーの下に選択日のバッジ「10/15」が表示された。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/8d0d68de-fd86-44d6-aa03-7c00d31447a6-m01-home-cards.jpg" width="320">
 
 </details>
 
@@ -60,11 +54,10 @@ last_verified_at: 2026-09-08
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-07-14**
-
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260714/6a033b5f-ee88-4f1a-8f1d-db6d50f4b8eb.png" width="320">
-
-QAテスト薬A（07:00, 13:00）と QAテスト薬B（10:00）を登録し、07:00 → 10:00 → 13:00 の昇順でカードが並ぶことを確認（07:00 のカードは開発ビルド固有の AdMob native ad validator オーバーレイに隠れて画面上は見えないが、mobile-mcp のアクセシビリティツリーで y=381 に存在し、10:00(y=496)・13:00(y=611) より上に位置することを確認済み。詳細は下部の既知の制約を参照）
+**確認日: 2026-10-15**
+服用予定の薬が「時刻＋服用者」ごとのカードにまとまり、12:00 → 19:00 (編集後は 10:00 → 12:00) と時刻の昇順で並んだ。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/8d0d68de-fd86-44d6-aa03-7c00d31447a6-m01-home-cards.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/9544eb73-e069-459e-a67f-680f55c0f62a-m06-updated-cards.jpg" width="320">
 
 </details>
 
@@ -72,11 +65,10 @@ QAテスト薬A（07:00, 13:00）と QAテスト薬B（10:00）を登録し、07
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-07-14**
-
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260714/eb1ea0a2-b7f6-4786-97eb-0ac114a6c359.png" width="320">
-
-「13:00」（プライマリカラー・太字）、「自分」、チェックボックス＋「QAテスト薬A」が表示されている
+**確認日: 2026-10-15**
+各カードに時刻 (プライマリカラー・太字)、服用者名、薬名の行が表示された。容量を保存した薬では、薬名の行の右に容量 (2tabs) が表示された。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/8d0d68de-fd86-44d6-aa03-7c00d31447a6-m01-home-cards.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/70c08a72-d6ab-47bc-ae7e-0b86e04fca5d-gc10-home-not-switched.jpg" width="320">
 
 </details>
 
@@ -84,11 +76,9 @@ QAテスト薬A（07:00, 13:00）と QAテスト薬B（10:00）を登録し、07
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-07-14**
-
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260714/963db522-2166-492e-b862-02132cfab201.png" width="320">
-
-薬の服用開始日（7/14）より前の 7/12 を選択し、カードが1件も表示されないことを確認
+**確認日: 2026-10-15**
+服用開始日 (10/15) より前の 10/14 を選ぶとカードが 1 件も表示されなかった。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/47ec725c-d1a0-4085-a19b-9eb00474e2dd-m05-no-schedule-day.jpg" width="320">
 
 </details>
 
@@ -109,11 +99,9 @@ QAテスト薬A（07:00, 13:00）と QAテスト薬B（10:00）を登録し、07
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-07-14**
-
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260714/28ccae0c-cc6b-462b-a410-b1577d4e3392.png" width="320">
-
-カレンダーを左スワイプすると AppBar が「7/12 - 7/18」→「7/19 - 7/25」に更新される（選択日自体は 7/14 のまま変わらず、下部のカード表示も維持される仕様を確認）
+**確認日: 2026-10-15**
+週カレンダーを左へスワイプすると次の週 (18〜24) に切り替わり、AppBar の範囲が「10/18 - 10/24」に変わった。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/ec83b804-6668-41e1-bc3c-470acd1896ba-m04-next-week.jpg" width="320">
 
 </details>
 
@@ -121,11 +109,10 @@ QAテスト薬A（07:00, 13:00）と QAテスト薬B（10:00）を登録し、07
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-07-14**
-
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260714/f3da7d77-5afc-4ad7-8c65-81ca37ebf5eb.png" width="320">
-
-カレンダー上の日付をタップすると選択日が切り替わり（例: 7/15）、TodayBadge と服薬グループ一覧が選択日に応じて更新される
+**確認日: 2026-10-15**
+カレンダーの日付 (17・14) をタップすると、その日付の服薬グループ一覧とバッジに切り替わった。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/cf82c6ed-7117-459c-972d-85195ab83236-m03-future-disabled.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/47ec725c-d1a0-4085-a19b-9eb00474e2dd-m05-no-schedule-day.jpg" width="320">
 
 </details>
 
@@ -136,9 +123,11 @@ QAテスト薬A（07:00, 13:00）と QAテスト薬B（10:00）を登録し、07
 ## 3. 服用の記録
 
 - [x] **チェックで記録**: 薬の行のチェックボックスをオンにすると服用記録が保存され、チェック状態が維持される
-- [x] **チェック解除で削除**: チェックボックスをオフにするとその服用記録が削除される
+- [x] **チェック解除で取消の記録**: チェックボックスをオフにすると取消(revert)が追記され、未チェック表示になる。SnackBar の「元に戻す」でチェック済みに戻せる
 - [x] **未来日の無効化**: 選択日が今日より後（未来）の場合、チェックボックスは操作不可（disabled）になる
 - [x] **薬名タップで編集**: 薬名をタップすると、その薬の編集フォーム（お薬登録シート）が開く
+- [x] **服用間隔の注意**: お薬登録フォームで服用間隔（「{hours}時間以上」）を設定した薬は、前回の服用から設定時間が空いていない状態で別のスケジュールをチェックすると「服用間隔が空いていません」ダイアログが表示される。「キャンセル」では記録されず、「記録する」で記録される (#81)
+  - 自動化: manual (同じ薬に 2 つのスケジュールを登録し、1 つ目をチェックした直後に 2 つ目をチェックして確認する)
 
 #### 動作確認
 <details>
@@ -148,11 +137,9 @@ QAテスト薬A（07:00, 13:00）と QAテスト薬B（10:00）を登録し、07
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-07-14**
-
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260714/eb1ea0a2-b7f6-4786-97eb-0ac114a6c359.png" width="320">
-
-チェックボックスをオンにすると `medicationHistoryTakeProvider` により服用記録が保存され、再描画後もチェック済み状態が維持される
+**確認日: 2026-10-15**
+12:00 の QA Medicine のチェックボックスをオンにすると「12:09 服用済」と表示され、チェック状態が維持された。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/10487a52-caa4-4c79-8268-b7fb18a54601-m02-checked.jpg" width="320">
 
 </details>
 
@@ -160,11 +147,12 @@ QAテスト薬A（07:00, 13:00）と QAテスト薬B（10:00）を登録し、07
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-07-18**
-
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260718/6360b553-5e6f-454a-9fc3-6216d269622d.png" width="320">
-
-チェック済みの行をオフにすると `medicationHistoryRevertProvider` により取消(revert)ドキュメントが即時追記され(take は残る)、未チェック表示 + Undo つき SnackBar が表示される。「元に戻す」で `medicationHistoryUndoRevertProvider` が revert を取り下げチェック済みに戻る
+**確認日: 2026-10-15**
+19:00 のチェックを外すと未チェック表示になり「服薬記録を取り消しました」と「元に戻す」の SnackBar が表示され、履歴に取消のカードが並んだ。08:00 のチェックを外した直後に「元に戻す」をタップすると、元の記録時刻 (20:17 服用済) のチェック済み表示に戻った。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/31aaf02d-c352-4386-9363-a35719ed1dd8-md03-uncheck-snackbar.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/e483bc23-6ef3-407f-96fc-7c92b96a3525-md05-undo-before.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/4c511bf9-8c20-47f3-920c-4db6f6707897-md05-undo-after.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/7ee6e842-142d-4b66-87f4-de2fb2851e28-mh01-revert-card.jpg" width="320">
 
 </details>
 
@@ -172,11 +160,9 @@ QAテスト薬A（07:00, 13:00）と QAテスト薬B（10:00）を登録し、07
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-07-14**
-
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260714/fc769969-39d4-4a6b-838d-e1eef52faff8.png" width="320">
-
-未来日 7/15 を選択してチェックボックスをタップしても値が変化しない（disabled）ことを、アクセシビリティツリー上の Switch value が "0" のまま変わらないことで確認
+**確認日: 2026-10-15**
+未来日の 10/17 を選ぶとチェックボックスをタップしても未チェックのままだった。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/cf82c6ed-7117-459c-972d-85195ab83236-m03-future-disabled.jpg" width="320">
 
 </details>
 
@@ -184,11 +170,20 @@ QAテスト薬A（07:00, 13:00）と QAテスト薬B（10:00）を登録し、07
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-07-14**
+**確認日: 2026-10-15**
+薬名「QA Medicine」をタップすると、その薬の編集モードのお薬登録画面が開いた。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/41de6792-9b09-41e9-b6d6-d9636de009bf-mf04-pause-snackbar.jpg" width="320">
 
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260714/0f2fa698-994e-450b-87e1-cd7869837cc0.png" width="320">
+</details>
 
-カード内の薬名「QAテスト薬A」をタップすると「お薬登録画面」（編集フォーム）が開く
+### **服用間隔の注意**: お薬登録フォームで服用間隔（「{hours}時間以上」）を設定した薬は、前回の服用から設定時間が空いていない状態で別のスケジュールをチェックすると「服用間隔が空いていません」ダイアログが表示される。「キャンセル」では記録されず、「記録する」で記録される (#81)
+
+<details><summary>動作確認スクショ</summary>
+
+**確認日: 2026-10-15**
+服用間隔を「6時間以上」にした薬で 08:00 をチェックした直後に 19:00 をチェックすると、「服用間隔が空いていません」「20:17 に服用済みです。前回の服用から6時間以上空ける設定になっています。それでも記録しますか？」のダイアログが表示された。「キャンセル」では未チェックのままで、もう一度チェックして「記録する」を選ぶと記録された。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/fb8ce372-a740-4702-bd2d-a3640282a766-md01-dose-interval-warning.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/93c18282-26be-44a6-a55c-b47a26483472-md02-recorded-anyway.jpg" width="320">
 
 </details>
 
@@ -200,9 +195,9 @@ QAテスト薬A（07:00, 13:00）と QAテスト薬B（10:00）を登録し、07
 
 - [x] **バナー広告**: プレミアム未加入の場合、一覧上部に AdMob バナー広告が表示される
 - [ ] **プレミアム未加入では広告あり / 加入では非表示**: プレミアム加入時は AdMob バナーが表示されない
-  - ⏭️ スキップ: プレミアム化には RevenueCat の実購入完了（entitlement 反映）が必要で、シミュレータでは購入画面の表示までしか検証できない（`lib/features/preium_introduction/QA.md` の「購入導線」項目と同じ制約）。StoreKit Configuration ファイル（`ios/Runner/StoreKitConfiguration.storekit`）は存在するが、`xcrun simctl launch` 起動では適用されず、Xcode スキーム経由の実行が必要
+  - ⏭️ スキップ: 未加入で広告が出ることは確認した (「バナー広告」の項目)。加入時に消えることはプレミアム会員の状態を Simulator で作れないため #340 の Sandbox 購入の項目に含めた
 - [ ] **トライアル中バナー**: プロモーション期間中は「現在プレミアムトライアル中です」バナーが表示され、タップするとプレミアム紹介シートが開く
-  - ⏭️ スキップ: `isInPromotion` は RevenueCat の `rc_promo_Premium` プロモーションエンタイトルメントが必要（`lib/utils/purchase/purchase.dart:82`）。テスト環境でプロモーションを付与する手段がなく再現不可
+  - ⏭️ スキップ: プロモーション期間中の状態は、アカウント作成から 1 日以上の経過などの条件が要り、新規ユーザーの Simulator では作れない
 
 #### 動作確認
 <details>
@@ -212,11 +207,9 @@ QAテスト薬A（07:00, 13:00）と QAテスト薬B（10:00）を登録し、07
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-07-14**
-
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260714/eb1ea0a2-b7f6-4786-97eb-0ac114a6c359.png" width="320">
-
-非premiumの匿名ユーザーで一覧上部に「Test mode: ...」の AdMob バナーが表示されている（開発ビルドのため test ad が表示され、native ad validator の警告も併せて表示される。詳細は下部の既知の制約を参照）
+**確認日: 2026-10-15**
+プレミアム未加入で、一覧の上部に AdMob の広告 (Test mode) が表示された。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/8d0d68de-fd86-44d6-aa03-7c00d31447a6-m01-home-cards.jpg" width="320">
 
 </details>
 
@@ -256,11 +249,9 @@ QAテスト薬A（07:00, 13:00）と QAテスト薬B（10:00）を登録し、07
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-07-14**
-
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260714/963db522-2166-492e-b862-02132cfab201.png" width="320">
-
-登録数が上限未満の状態で服薬画面下部に「＋ お薬を追加」ボタンが有効表示される。ボタン実体（`MedicalAddFloatingActionButtonChild`）は `lib/features/medicines/page.dart` と共通のため、タップでお薬登録フォームが開く挙動は同一コンポーネント経由で実施（QAテスト薬A・Bの登録に使用し、正常に動作することを確認済み）
+**確認日: 2026-10-15**
+下部の「お薬を追加」をタップすると新規のお薬登録フォームが開いた。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/677bb164-60d2-490a-872d-17b79a4118eb-mf09-new-defaults-validation.jpg" width="320">
 
 </details>
 
@@ -268,23 +259,9 @@ QAテスト薬A（07:00, 13:00）と QAテスト薬B（10:00）を登録し、07
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-09-08**
-
-simtunnel (GitHub Actions macOS Runner 上のリモート iOS Simulator、英語ロケール) で、薬 2 件 (無料上限) にスケジュールを各 2 件登録してカードを 4 枚にし、一覧がスクロールする状態で確認。commit 2a7b48b9。
-
-未スクロール: 上限メッセージ「You can register up to 2 medications.」とプレミアムリンクが帯の上に単独で表示され、10:00 のカードはフェードで切れて文字が重ならない
-
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/09/08/22c2635e-6014-4da1-bfb8-9d227dbcad9e-shot-medications-limit-top.jpg" width="320">
-
-末尾までスクロール: 末尾 16:00 カードのチェックボックス (下端 y:502pt) がプレミアムリンク (上端 y:644pt) より上に完全に見える。「Add Medication」ボタンは灰色で無効化されている
-
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/09/08/9ea4ef80-8275-4577-a4ca-a6695f09bdcd-shot-medications-limit-scrolled.jpg" width="320">
-
-**確認日: 2026-07-14**
-
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260714/6a033b5f-ee88-4f1a-8f1d-db6d50f4b8eb.png" width="320">
-
-薬を2件（無料上限）登録した状態で「お薬は2つまで登録できます。」が表示され、「お薬を追加」ボタンをタップしてもフォームが開かない（無効化）ことを確認
+**確認日: 2026-10-15**
+薬を 2 件登録すると「お薬は2つまで登録できます。」が表示され、「お薬を追加」ボタンはグレーで押せない表示になった。末尾までスクロールすると、上限の文言は下部の帯の上に表示され、末尾のカードのチェックボックスは帯より上に完全に見えた。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/82e69638-d73a-406a-bd89-010512186e83-m07-limit-band.jpg" width="320">
 
 </details>
 
@@ -292,11 +269,9 @@ simtunnel (GitHub Actions macOS Runner 上のリモート iOS Simulator、英語
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-07-14**
-
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260714/00bad76a-8fbb-4d09-8344-fb2a7651750a.png" width="320">
-
-「プレミアムプランで上限を10に増やす」リンクをタップし、プレミアム紹介シート（プレミアムプラン）が開くことを確認
+**確認日: 2026-10-15**
+薬を 2 件登録すると服薬画面に「プレミアムプランで上限を10に増やす」が表示され、タップするとプレミアム紹介シートが開いた。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/dc4f59da-1768-476d-bf67-37d395070ba7-med07-limit.jpg" width="320">
 
 </details>
 
@@ -304,11 +279,9 @@ simtunnel (GitHub Actions macOS Runner 上のリモート iOS Simulator、英語
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-07-14**
-
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260714/c0e5b113-7266-4af2-9357-6699b30c69a5.png" width="320">
-
-AppBar 右上の編集アイコンをタップすると「お薬一覧」画面（MedicinesPage）に遷移する
+**確認日: 2026-10-15**
+AppBar 右上の編集アイコンをタップするとお薬一覧画面に遷移した。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/5f3c1dc6-6031-4ab4-8aa0-07a06499e75d-med02-list-two.jpg" width="320">
 
 </details>
 
@@ -327,40 +300,45 @@ AppBar 右上の編集アイコンをタップすると「お薬一覧」画面�
 <details>
 <summary>動作確認エビデンス</summary>
 
-### **所属グループが 1 つの間、ホーム上部にチップが表示されない**
+### 所属グループが 1 つの間、ホーム上部にチップが表示されない
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-07-16**
-グループが「マイグループ」1つのみの間、ホーム上部に切替チップが表示されないことを確認した（グループ作成前の状態）。
+**確認日: 2026-10-15**
+所属グループが 1 つのユーザー (A) のホームにはグループ切替チップが表示されなかった。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/8d0d68de-fd86-44d6-aa03-7c00d31447a6-m01-home-cards.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/de917326-27e9-45fa-afcd-6a9ef8eba2e4-sync01-a-sees-c-record.jpg" width="320">
 
 </details>
 
-### **2 グループ以上でホーム上部に切替チップが表示され、選択中がハイライトされる**
+### 2 グループ以上でホーム上部に切替チップが表示され、選択中がハイライトされる
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-07-16**
-「マイグループ」「家族グループ」の2つ作成後、ホーム上部に両方のチップが表示され、選択中のチップがハイライト（濃い背景色）で区別された。
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260716/365e1305-cf26-41e5-98d0-1f2302c631e9.png" width="380" />
+**確認日: 2026-10-15**
+自分のグループと参加先の 2 グループに所属する B のホーム上部にチップが 2 つ並び、選択中のチップがグレーで強調された。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/4c0d7322-84c6-4150-8b51-aeb4333732a3-c01-medications-joined.jpg" width="320">
 
 </details>
 
-### **チップで切り替えると表示される薬・記録がそのグループのものに切り替わる**
+### チップで切り替えると表示される薬・記録がそのグループのものに切り替わる
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-07-16**
-「家族グループ」チップに切り替えると、そのグループに登録した「共有薬X」が表示され、「マイグループ」チップに戻すと別データ（移行テスト薬A/B）が表示された。
+**確認日: 2026-10-15**
+マイグループのチップでは Memo Med・Second Med が表示され、作成した「Care」のチップに切り替えると薬が 1 件も無い表示に切り替わった。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/70c08a72-d6ab-47bc-ae7e-0b86e04fca5d-gc10-home-not-switched.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/603ad4b3-ecc9-4cd5-82f8-1ecbc63eaebf-m08-chip-care.jpg" width="320">
 
 </details>
 
-### **切替後にアプリを再起動しても選択したグループが維持される（defaultGroupID 永続化）**
+### 切替後にアプリを再起動しても選択したグループが維持される（defaultGroupID 永続化）
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-07-16**
-「家族グループ」チップに切り替えた状態でアプリを完全終了・再起動したところ、再起動後も「家族グループ」が選択された状態（既定チップがハイライト）で復元された。
+**確認日: 2026-10-15**
+「Care」に切り替えた状態でアプリを終了して起動し直すと、「Care」のチップが選択されたままだった。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/36991f7e-b918-412a-9a21-5e03d0572398-m09-chip-persisted.jpg" width="320">
 
 </details>
 
@@ -373,50 +351,53 @@ AppBar 右上の編集アイコンをタップすると「お薬一覧」画面�
 - [x] 時刻グループカードのヘッダーで、服用者名の先頭に識別色の円形アバター（先頭 1 文字）が表示される
 - [x] 服用者ごとにアバターの色が分かれ、同一服用者は履歴画面でも同じ色になる
 - [x] 自分が記録した服用済み行には記録者名が表示されない（記録時刻のみ）
-- [ ] 他メンバーが記録した服用済み行に「◯◯が記録」が併記される
-  - ⏭️ スキップ: グループに 2 人目のユーザーが参加して服薬記録を書き込んだ状態が必要で、simulator 1 台の匿名ユーザーでは作れない。表示ロジックは履歴画面の記録者表示（`lib/features/medications_histories/QA.md` の「記録者表示（#241 グループ機能）」で検証済み）を `lib/utils/member/operator_member_display_name.dart` へ共通化したもの
+- [x] 他メンバーが記録した服用済み行に「◯◯が記録」が併記される
 
 #### 動作確認
 <details>
 <summary>動作確認エビデンス</summary>
 
-### **時刻グループカードのヘッダーで、服用者名の先頭に識別色の円形アバター（先頭 1 文字）が表示される**
+### 時刻グループカードのヘッダーで、服用者名の先頭に識別色の円形アバター（先頭 1 文字）が表示される
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-09-08**
-
-simtunnel（GitHub Actions macOS Runner 上の iPhone 17 / iOS 26、英語ロケール）で確認。10:00 の 2 枚のカードのヘッダーに、Mama（茶 #B96A4A・頭文字 M）と Taro（緑 #3E8B85・頭文字 T）のアバターが表示された。
-
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/09/08/c5c0817b-ca86-4d22-a041-25d108c2ca1f-medications-tab-avatar.jpg" width="380" />
+**確認日: 2026-10-15**
+カードのヘッダーで、服用者名「自分」の前に識別色の円形アバター (「自」) が表示された。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/8d0d68de-fd86-44d6-aa03-7c00d31447a6-m01-home-cards.jpg" width="320">
 
 </details>
 
-### **服用者ごとにアバターの色が分かれ、同一服用者は履歴画面でも同じ色になる**
+### 服用者ごとにアバターの色が分かれ、同一服用者は履歴画面でも同じ色になる
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-09-08**
-
-同一セッションの履歴画面（`lib/features/medications_histories/QA.md` の「服用者の識別色アバター（#277）」）と見比べ、Mama = 茶・Taro = 緑で両画面とも一致することを確認した。
+**確認日: 2026-10-15**
+「新しい服用者」は青、「自分」は茶色のアバターで色が分かれ、「自分」は履歴画面でも同じ茶色だった。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/9544eb73-e069-459e-a67f-680f55c0f62a-m06-updated-cards.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/82e69638-d73a-406a-bd89-010512186e83-m07-limit-band.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/7ee6e842-142d-4b66-87f4-de2fb2851e28-mh01-revert-card.jpg" width="320">
 
 </details>
 
-### **自分が記録した服用済み行には記録者名が表示されない（記録時刻のみ）**
+### 自分が記録した服用済み行には記録者名が表示されない（記録時刻のみ）
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-09-08**
-
-自分（匿名ユーザー）でチェックを入れた行の表示が「Taken at 08:48」だけになり、記録者名が併記されないことを確認した（上のスクリーンショット）。
+**確認日: 2026-10-15**
+自分でチェックした行には記録時刻 (12:09 服用済) だけが表示され、記録者名は表示されなかった。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/10487a52-caa4-4c79-8268-b7fb18a54601-m02-checked.jpg" width="320">
 
 </details>
 
-### **他メンバーが記録した服用済み行に「◯◯が記録」が併記される**
+### 他メンバーが記録した服用済み行に「◯◯が記録」が併記される
 
 <details><summary>動作確認スクショ</summary>
 
-⏭️ スキップ（上記チェックリストの理由欄を参照）
+**確認日: 2026-10-15**
+A の画面で B が記録した行に「13:36 服用済 · メンバーさんが記録」、B の画面で A が記録した行に「13:37 服用済 · Momさんが記録」と併記された (#253 で失敗していた共有の記録が消えないことも確認)。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/de917326-27e9-45fa-afcd-6a9ef8eba2e4-sync01-a-sees-c-record.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/e96697fd-a474-47a8-9e90-0b8b94abe911-sync03-c-both-records.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/303c210a-1c2f-46d1-bb58-9b45b37a3336-sync06-c-name-reflected.jpg" width="320">
 
 </details>
 
@@ -429,8 +410,7 @@ simtunnel（GitHub Actions macOS Runner 上の iPhone 17 / iOS 26、英語ロケ
 - [x] **AppBar の塗り**: 服薬画面・お薬一覧の AppBar が `AppColors.primaryFilled`（#BA4F49。白文字と 4.88:1）で塗られ、白のタイトル・アイコンが読める
 - [x] **週カレンダーの選択円**: 選択中の日付の丸背景が primaryFilled で、白の日付数字が読める
 - [x] **主ボタン**: 「お薬を追加」FAB とお薬登録フォームの「保存」ボタンの背景が primaryFilled で、白のラベルが読める
-- [ ] **プレミアム紹介シートのヘッダー・割引バッジ**: ヘッダー背景と「月額より{percent}%OFF」バッジが primaryFilled で塗られる
-  - ⏭️ スキップ: simtunnel（GitHub Actions macOS Runner）の simulator では RevenueCat の offerings 取得が完了せず、シートがローディング表示のままで確認できなかった（`lib/features/preium_introduction/QA.md` の購入導線と同じ制約）。塗りの差し替え自体は `test/features/primary_filled_contrast_test.dart` と同じ定数参照のためユニットテストの範囲でカバー
+- [x] **プレミアム紹介シートのヘッダー・割引バッジ**: ヘッダー背景と「月額より{percent}%OFF」バッジが primaryFilled で塗られる
 
 #### 動作確認
 <details>
@@ -440,12 +420,10 @@ simtunnel（GitHub Actions macOS Runner 上の iPhone 17 / iOS 26、英語ロケ
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-09-08**
-
-simtunnel（GitHub Actions macOS Runner 上の iPhone 17 / iOS 26.5、英語ロケール）で確認。服薬画面の AppBar「Medication / 9/6 - 9/12」と編集アイコン、お薬一覧の AppBar「Medication List」が濃いコーラルの背景に白で表示された。
-
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/09/08/ea0a018d-1ae4-4172-83bb-793d86ecd707-shot-02.jpg" width="320">
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/09/08/c67aa20d-0056-4eed-8580-13708b5bcf3c-shot-06.jpg" width="320">
+**確認日: 2026-10-15**
+服薬画面・お薬一覧の AppBar が赤茶色 (primaryFilled) で塗られ、白のタイトル・アイコンが読めた。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/8d0d68de-fd86-44d6-aa03-7c00d31447a6-m01-home-cards.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/5f3c1dc6-6031-4ab4-8aa0-07a06499e75d-med02-list-two.jpg" width="320">
 
 </details>
 
@@ -453,11 +431,9 @@ simtunnel（GitHub Actions macOS Runner 上の iPhone 17 / iOS 26.5、英語ロ�
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-09-08**
-
-選択中の「8」の丸背景が AppBar と同じ濃いコーラルになり、白の数字が読めることを確認した。
-
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/09/08/ea0a018d-1ae4-4172-83bb-793d86ecd707-shot-02.jpg" width="320">
+**確認日: 2026-10-15**
+選択中の日付 (15) の丸背景が primaryFilled で、白の数字が読めた。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/8d0d68de-fd86-44d6-aa03-7c00d31447a6-m01-home-cards.jpg" width="320">
 
 </details>
 
@@ -465,11 +441,10 @@ simtunnel（GitHub Actions macOS Runner 上の iPhone 17 / iOS 26.5、英語ロ�
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-09-08**
-
-服薬画面・お薬一覧の「Add Medication」と、名前とスケジュールを入力して有効化したお薬登録フォームの「Save」が濃いコーラルの背景に白のラベルで表示された。フォームの AppBar（白背景 + primary 文字）は本 issue のスコープ外で従来どおり。
-
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/09/08/45000ef7-203a-483f-9959-3717bb4c1640-shot-07.jpg" width="320">
+**確認日: 2026-10-15**
+「お薬を追加」とお薬登録フォームの「保存」の背景が primaryFilled で、白のラベルが読めた。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/8d0d68de-fd86-44d6-aa03-7c00d31447a6-m01-home-cards.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/677bb164-60d2-490a-872d-17b79a4118eb-mf09-new-defaults-validation.jpg" width="320">
 
 </details>
 
@@ -477,7 +452,9 @@ simtunnel（GitHub Actions macOS Runner 上の iPhone 17 / iOS 26.5、英語ロ�
 
 <details><summary>動作確認スクショ</summary>
 
-⏭️ スキップ（上記チェックリストの理由欄を参照）
+**確認日: 2026-10-15**
+今回の simtunnel では offerings を取得でき、プレミアム紹介シートのヘッダー背景と「月額より35%OFF」のバッジが primaryFilled で塗られていることを確認した。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/a3a225e3-5805-44a8-84af-ff2297e8432c-pi01-paywall.jpg" width="320">
 
 </details>
 
@@ -488,7 +465,7 @@ simtunnel（GitHub Actions macOS Runner 上の iPhone 17 / iOS 26.5、英語ロ�
 ## 既知の制約・発見事項
 
 - **AdMob native ad validator オーバーレイが操作をブロックする**: 開発ビルドで表示される AdMob native ad validator の警告（root QA.md 参照）は、画面座標 x:0-335 y:355-510 に固定表示され、この範囲に重なる要素（チェックボックス・ボタン等）へのタップを奪う。回避策: (1) 対象要素がこの範囲外（y>510）に来るよう、事前にスケジュールや薬を追加してカードの並び順を調整してから操作する。(2) 服薬画面（AdMob 広告を表示する画面）から直接開いたフォームにはオーバーレイが残るが、お薬一覧画面（MedicinesPage、広告なし）経由でフォームを開けばオーバーレイの影響を受けない
-- **FAB 警告文言と最終カードの表示重なり (解消済み)**: 上限到達時に `lib/components/fab/layout.dart` の固定 FAB エリアがスクロール領域の最終カードに重なる表示崩れ。issue #288 として起票され、PR #291 でボタン列を本文の下に置く構成に変えて解消した (上記「登録上限」項目の 2026-09-08 のエビデンス参照)
+- **FAB 警告文言と最終カードの表示重なり (解消済み)**: 上限到達時に `lib/components/fab/layout.dart` の固定 FAB エリアがスクロール領域の最終カードに重なる表示崩れ。issue #288 として起票され、PR #291 でボタン列を本文の下に置く構成に変えて解消した (上記「登録上限」項目で 2026-10-15 にも重ならないことを確認した)
 
 ## 未登録の服薬時刻
 
@@ -496,10 +473,63 @@ simtunnel（GitHub Actions macOS Runner 上の iPhone 17 / iOS 26.5、英語ロ�
   - 自動化: auto (maestro/flows/onboarding_medication_plan.yaml)
 - [x] **仮カードから登録**: お薬を追加から時刻を初期入力したフォームへ進める。登録後は全仮カードが消えて実際の薬のカードになる
   - 自動化: auto (maestro/flows/onboarding_medication_plan.yaml)
-- [x] **時刻ごとの削除**: 仮カードの削除ボタンでその時刻と通知だけを削除し、残りの時刻は保持する。最後のカードを削除すると再起動後も表示されない
+- [ ] **時刻ごとの削除**: 仮カードの削除ボタンでその時刻と通知だけを削除し、残りの時刻は保持する。最後のカードを削除すると再起動後も表示されない
+  - ⏭️ スキップ: 仮カードの「削除する」でその時刻だけが消えて残りが保持されることと、通知が 1 件減ることは確認したが、最後のカードを削除して再起動する操作は今回行っていない
   - 自動化: auto (maestro/flows/onboarding_medication_plan_delete.yaml)
-- [ ] **登録案内の通知**: 通知一覧に仮カードと同数の薬登録案内が表示される。Critical Alertや服薬記録のアクションは持たない。削除・薬登録後に対象の通知が消える
+- [x] **登録案内の通知**: 通知一覧に仮カードと同数の薬登録案内が表示される。Critical Alertや服薬記録のアクションは持たない。削除・薬登録後に対象の通知が消える
   - 自動化: auto (maestro/flows/onboarding_medication_plan.yaml / onboarding_medication_plan_delete.yaml)
+
+#### 動作確認
+<details>
+<summary>動作確認エビデンス</summary>
+
+### **仮カードの表示と保持**: オンボーディングを「あとで」で完了すると回答回数に応じた時刻の仮カードを表示する。服用者はデフォルトの服用者で、薬名と服薬チェック欄は持たない。再起動しても残る
+
+<details><summary>動作確認スクショ</summary>
+
+**確認日: 2026-10-15**
+オンボーディングを「あとで」で終えると、2回の回答に応じた 08:00・19:00 の仮カードが表示された。服用者はデフォルトの服用者で、薬名と服薬チェック欄は無く、アプリを起動し直しても残った。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/c0d369a6-655f-4e1e-9791-bff08015c6ab-ob11-placeholder-cards.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/d8e1b0cd-a3d8-4a20-8ad9-882f872abbab-ob12-relaunch.jpg" width="320">
+
+</details>
+
+### **仮カードから登録**: お薬を追加から時刻を初期入力したフォームへ進める。登録後は全仮カードが消えて実際の薬のカードになる
+
+<details><summary>動作確認スクショ</summary>
+
+**確認日: 2026-10-15**
+仮カードの「お薬を追加」から時刻入りのフォームへ進み、登録すると仮カードがすべて消えて実際の薬のカードになった。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/26cef2f6-b5ad-45a9-bd5a-5463250c683e-mf01-form-prefilled.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/f3ce287f-706d-4159-a8b9-ca62991f221c-ob14-registered.jpg" width="320">
+
+</details>
+
+### **時刻ごとの削除**: 仮カードの削除ボタンでその時刻と通知だけを削除し、残りの時刻は保持する。最後のカードを削除すると再起動後も表示されない
+
+<details><summary>動作確認スクショ</summary>
+
+**確認日: 2026-10-15**
+仮カードの「削除する」でその時刻のカードだけが消え、残りの時刻のカードは残った (別の新規ユーザー 2 人で確認)。最後のカードを削除して再起動する操作は今回行っていない (このため項目は ⏭️ にした)。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/c35f0f4d-3b9b-486a-aef2-6423baaf748b-ob17-placeholder-deleted.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/c96b940e-c3c9-4a2d-9bed-a56638a3df9a-b02-after-delete.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/88f4ae74-453b-455e-aef7-8cf1603257d7-b03-notifications-after-delete.jpg" width="320">
+
+</details>
+
+### **登録案内の通知**: 通知一覧に仮カードと同数の薬登録案内が表示される。Critical Alertや服薬記録のアクションは持たない。削除・薬登録後に対象の通知が消える
+
+<details><summary>動作確認スクショ</summary>
+
+**確認日: 2026-10-15**
+DEBUG の Local Notifications に、仮カード 2 枚に対して「お薬を追加」の通知が 2 件 (payload 空) 予約されていた。仮カードを 1 枚削除すると 1 件に減った。薬を登録したユーザーでは、薬登録案内の通知は無く、服薬リマインダー (お薬の時間です / 服薬記録をつけ忘れていませんか？) だけが予約されていた。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/a75420f1-e111-4992-b53a-fe054aa002da-b01-placeholder-notifications.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/88f4ae74-453b-455e-aef7-8cf1603257d7-b03-notifications-after-delete.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/0057582a-e389-4285-886a-8c78f2b849df-st08-local-notifications.jpg" width="320">
+
+</details>
+
+</details>
 
 ## 2026-09-08の追加実装の検証
 

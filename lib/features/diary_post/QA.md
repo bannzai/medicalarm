@@ -1,40 +1,20 @@
 ---
 feature: diary_post
 verification: mobile-mcp
-last_verified_commit: ceab6b15bfd78420f8bbb9a67bd045e58f0f4362
-last_verified_at: 2026-07-14
+last_verified_commit: 263630555ac273bca24b8c4df556f018b9a8578d
+last_verified_at: 2026-10-16
 ---
 
 # diary_post QA
 
 到達手順: カレンダータブの日付タイルをタップして開く日付詳細シート（CalendarDayDetailSheet）の「日記を書く」ボタンまたは編集アイコンをタップすると、その日付の日記投稿画面（DiaryPostPage）がフルスクリーンダイアログで開く。
 
-> ℹ️ 下記の注記は #62 のカレンダー機能追加（カレンダータブ → 日付詳細シート経由の導線接続）で解消済み。次回の QA 実行時に下記スキップ項目を検証すること。
-
-> ⚠️ **2026-07-14 時点で到達不能（未実装/未接続）**: `WeeklyCalendarPager`（`lib/components/calendar/weekly/pager.dart`）の日付タップは `date.value = date` で選択日を変えるのみで、`DiaryPostPage` へは遷移しない。`DiaryPostPage` へ遷移する `transitionWhenCalendarDayTapped`（`lib/components/calendar/weekly/line.dart`）は `MonthCalendarPager`（`lib/components/calendar/monthly/pager.dart`、2025-01-19 追加のWIPコミット「WIP add calendar"」以降どのページからも呼ばれていない）からしか呼ばれておらず、実質デッドコード。服薬画面（medications）・服薬履歴画面（medications_histories）のいずれの週カレンダーからも `DiaryPostPage` へ到達できないことを実機タップで確認済み（下記スクショ: 服薬履歴で日付 14 をタップしても選択日が変わるだけで日記投稿画面は開かない）。アプリ内に他の導線（設定・ディープリンク等）も存在しない
->
-> `entity/diary.dart` に `[DiarySetting:WIP]` `[DiaryMemo:WIP]` のコメントで「ファーストリリースから外す」とあり、日記機能自体が意図的に未完成のまま据え置かれている可能性がある。到達不能が意図的な未リリース状態か回帰バグかは切り分けられなかったため、gh issue 化はせずここに事実のみ記録する（判断はユーザーに委ねる）
->
-> <details><summary>導線消失の証跡スクショ</summary>
->
-> **確認日: 2026-07-14**
->
-> <img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260714/fba8c457-7e28-490b-830f-8356aa3ba130.png" width="320">
->
-> </details>
->
-> 以下の全項目はこの理由で未検証（スキップ）。
-
 ## 1. 画面表示
 
-- [ ] **日付見出し**: 画面上部に対象日付が `YYYY年M月D日` 形式で表示される
-  - ⏭️ スキップ: 日記投稿画面への導線が存在しないため未実施（詳細は本ページ冒頭の注記参照）
-- [ ] **メモ入力欄**: プレースホルダー「メモ」の入力欄が表示され、既存の日記があればそのメモが初期表示される
-  - ⏭️ スキップ: 日記投稿画面への導線が存在しないため未実施（詳細は本ページ冒頭の注記参照）
-- [ ] **閉じるボタン**: AppBar 左上に閉じる（×）アイコンが表示される
-  - ⏭️ スキップ: 日記投稿画面への導線が存在しないため未実施（詳細は本ページ冒頭の注記参照）
-- [ ] **保存ボタン**: AppBar 右上に「保存」ボタンが表示される
-  - ⏭️ スキップ: 日記投稿画面への導線が存在しないため未実施（詳細は本ページ冒頭の注記参照）
+- [x] **日付見出し**: 画面上部に対象日付が `YYYY年M月D日` 形式で表示される
+- [x] **メモ入力欄**: プレースホルダー「メモ」の入力欄が表示され、既存の日記があればそのメモが初期表示される
+- [x] **閉じるボタン**: AppBar 左上に閉じる（×）アイコンが表示される
+- [x] **保存ボタン**: AppBar 右上に「保存」ボタンが表示される
 
 #### 動作確認
 <details>
@@ -44,7 +24,9 @@ last_verified_at: 2026-07-14
 
 <details><summary>動作確認スクショ</summary>
 
-（未実行）
+**確認日: 2026-10-15**
+カレンダーの日付詳細シートの「日記を書く」から開くと、上部に「2026年10月15日」と表示された。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/d9934582-2f31-4e27-ac53-d9a9fa430bbc-dp01-diary-post.jpg" width="320">
 
 </details>
 
@@ -52,7 +34,10 @@ last_verified_at: 2026-07-14
 
 <details><summary>動作確認スクショ</summary>
 
-（未実行）
+**確認日: 2026-10-15**
+プレースホルダー「メモ」の入力欄が表示された。日記がある日に編集アイコンから開くと、保存済みのメモ (line one / line two) が初期表示された。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/d9934582-2f31-4e27-ac53-d9a9fa430bbc-dp01-diary-post.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/00240202-43b3-45b6-a1b1-df4c5808cc38-cal07-records-and-revert.jpg" width="320">
 
 </details>
 
@@ -60,7 +45,9 @@ last_verified_at: 2026-07-14
 
 <details><summary>動作確認スクショ</summary>
 
-（未実行）
+**確認日: 2026-10-15**
+AppBar 左上に閉じる (×) アイコンが表示された。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/8ccd4316-8bf6-4cb5-946e-d00ce712867b-dp02-multiline-toolbar.jpg" width="320">
 
 </details>
 
@@ -68,7 +55,9 @@ last_verified_at: 2026-07-14
 
 <details><summary>動作確認スクショ</summary>
 
-（未実行）
+**確認日: 2026-10-15**
+AppBar 右上に「保存」ボタンが表示された。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/8ccd4316-8bf6-4cb5-946e-d00ce712867b-dp02-multiline-toolbar.jpg" width="320">
 
 </details>
 
@@ -78,12 +67,10 @@ last_verified_at: 2026-07-14
 
 ## 2. メモの入力
 
-- [ ] **複数行入力**: メモ欄は複数行入力に対応する
-  - ⏭️ スキップ: 日記投稿画面への導線が存在しないため未実施（詳細は本ページ冒頭の注記参照）
+- [x] **複数行入力**: メモ欄は複数行入力に対応する
 - [ ] **文字数上限**: メモは最大120文字まで入力でき、入力欄に文字数カウンターが表示される
-  - ⏭️ スキップ: 日記投稿画面への導線が存在しないため未実施（詳細は本ページ冒頭の注記参照）
-- [ ] **キーボードツールバー**: 入力欄フォーカス時にキーボード上部へ「完了」ボタンを持つツールバーが表示され、タップでキーボードが閉じる
-  - ⏭️ スキップ: 日記投稿画面への導線が存在しないため未実施（詳細は本ページ冒頭の注記参照）
+  - ⏭️ スキップ: 文字数カウンター (0 文字で「残り 120 文字」、17 文字で 17/120) は確認したが、120 文字を超える入力はしていない
+- [x] **キーボードツールバー**: 入力欄フォーカス時にキーボード上部へ「完了」ボタンを持つツールバーが表示され、タップでキーボードが閉じる
 
 #### 動作確認
 <details>
@@ -93,7 +80,9 @@ last_verified_at: 2026-07-14
 
 <details><summary>動作確認スクショ</summary>
 
-（未実行）
+**確認日: 2026-10-15**
+改行を含めて入力すると「line one」「line two」の 2 行で表示された。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/8ccd4316-8bf6-4cb5-946e-d00ce712867b-dp02-multiline-toolbar.jpg" width="320">
 
 </details>
 
@@ -101,7 +90,10 @@ last_verified_at: 2026-07-14
 
 <details><summary>動作確認スクショ</summary>
 
-（未実行）
+**確認日: 2026-10-15**
+入力欄の下に文字数カウンター (0 文字で「残り 120 文字」、17 文字で 17/120) が表示された。120 文字を超える入力はしていない (このため項目は ⏭️ にした)。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/d9934582-2f31-4e27-ac53-d9a9fa430bbc-dp01-diary-post.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/8ccd4316-8bf6-4cb5-946e-d00ce712867b-dp02-multiline-toolbar.jpg" width="320">
 
 </details>
 
@@ -109,7 +101,9 @@ last_verified_at: 2026-07-14
 
 <details><summary>動作確認スクショ</summary>
 
-（未実行）
+**確認日: 2026-10-15**
+入力欄にフォーカスするとキーボードの上に「完了」が表示され、タップするとキーボードが閉じた。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/8ccd4316-8bf6-4cb5-946e-d00ce712867b-dp02-multiline-toolbar.jpg" width="320">
 
 </details>
 
@@ -119,10 +113,8 @@ last_verified_at: 2026-07-14
 
 ## 3. 保存・閉じる
 
-- [ ] **保存**: 「保存」をタップするとメモが日記として保存され、画面が閉じる
-  - ⏭️ スキップ: 日記投稿画面への導線が存在しないため未実施（詳細は本ページ冒頭の注記参照）
-- [ ] **閉じる**: 閉じる（×）アイコンをタップすると保存せずに画面が閉じる
-  - ⏭️ スキップ: 日記投稿画面への導線が存在しないため未実施（詳細は本ページ冒頭の注記参照）
+- [x] **保存**: 「保存」をタップするとメモが日記として保存され、画面が閉じる
+- [x] **閉じる**: 閉じる（×）アイコンをタップすると保存せずに画面が閉じる
 
 #### 動作確認
 <details>
@@ -132,7 +124,9 @@ last_verified_at: 2026-07-14
 
 <details><summary>動作確認スクショ</summary>
 
-（未実行）
+**確認日: 2026-10-15**
+「保存」をタップすると画面が閉じ、日付詳細シートの日記セクションに保存したメモが表示された。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/dcdb7857-1aef-41cf-b626-dd00894149dc-cal04-diary-saved.jpg" width="320">
 
 </details>
 
@@ -140,7 +134,9 @@ last_verified_at: 2026-07-14
 
 <details><summary>動作確認スクショ</summary>
 
-（未実行）
+**確認日: 2026-10-15**
+編集で開いて「 edited」を足した後に × で閉じると、シートの日記は「line one / line two」のまま変わらなかった (保存されていない)。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/dcdb7857-1aef-41cf-b626-dd00894149dc-cal04-diary-saved.jpg" width="320">
 
 </details>
 
