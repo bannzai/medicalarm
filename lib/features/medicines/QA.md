@@ -1,7 +1,7 @@
 ---
 feature: medicines
 verification: mobile-mcp,maestro
-last_verified_commit: b28392fae518a7b8dc861588de798f90678346d6
+last_verified_commit: e5dcb6401545189dd7116f2f1b066521cb099053
 last_verified_at: 2026-10-15
 ---
 
@@ -91,8 +91,9 @@ last_verified_at: 2026-10-15
 <details><summary>動作確認スクショ</summary>
 
 **確認日: 2026-10-15**
-2 件目を登録すると、お薬一覧に「お薬は2つまで登録できます。」と「プレミアムプランで上限を10に増やす」が表示され、「お薬を追加」ボタンはグレーで押せない表示になった。
+2 件目を登録すると、お薬一覧に「お薬は2つまで登録できます。」と「プレミアムプランで上限を10に増やす」が表示され、「お薬を追加」ボタンはグレーで押せない表示になった。お薬一覧はカード 2 枚が画面に収まってスクロールせず、上限の文言は下部の帯の上にあってカードの文字・Switch と重ならなかった。末尾までスクロールした時の確認は、同じ帯の構成の服薬画面で行った (medications の「登録上限」)。
 <img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/dc4f59da-1768-476d-bf67-37d395070ba7-med07-limit.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/82e69638-d73a-406a-bd89-010512186e83-m07-limit-band.jpg" width="320">
 
 </details>
 
@@ -115,8 +116,10 @@ last_verified_at: 2026-10-15
 
 Snackbar はデフォルトの表示時間が短く、`tapOn` → `screenshot` を別々のツール呼び出し（mobile-mcp 等）で行うと往復のレイテンシで表示が消えてから撮影されることが多い。maestro flow 内で `tapOn` → `extendedWaitUntil`（Snackbar 文言の出現待ち。ポーリングのため出現した時点で即座に返る）→ `takeScreenshot` の順に置くと、Firestore 書き込み完了前の空振り撮影を避けつつ表示時間内に確実に捕捉できる。`maestro/flows/qa_verify_switch_snackbar.yaml` に手順を残した（テスト薬の登録〜お薬一覧への遷移は flow 内で行うため単体実行可。`medicine_pause_switch` の Semantics identifier はカードごとに重複しており、テスト薬以外のカードがあると `tapOn: {id: ...}` が意図しないカードを操作する）。
 
-- [x] **Switch を OFF**: カード右下の Switch を OFF にすると「薬の服用を一時停止しました」の Snackbar が表示され、服薬画面からその薬が消える (maestro/flows/toggle_switch.yaml でカバー)
-- [x] **Switch を ON**: 一時停止中の Switch を ON に戻すと「薬の服用を再開しました」の Snackbar が表示され、服薬画面に薬が戻る (maestro/flows/resume_and_edit.yaml でカバー)
+- [ ] **Switch を OFF**: カード右下の Switch を OFF にすると「薬の服用を一時停止しました」の Snackbar が表示され、服薬画面からその薬が消える (maestro/flows/toggle_switch.yaml でカバー)
+  - ⏭️ スキップ: SnackBar の表示は確認したが、服薬画面からその薬が消えることは今回見ていない
+- [ ] **Switch を ON**: 一時停止中の Switch を ON に戻すと「薬の服用を再開しました」の Snackbar が表示され、服薬画面に薬が戻る (maestro/flows/resume_and_edit.yaml でカバー)
+  - ⏭️ スキップ: SnackBar の表示は確認したが、服薬画面に薬が戻ることは今回見ていない
 
 #### 動作確認
 <details>
@@ -127,7 +130,7 @@ Snackbar はデフォルトの表示時間が短く、`tapOn` → `screenshot` �
 <details><summary>動作確認スクショ</summary>
 
 **確認日: 2026-10-15**
-カード右下の Switch を OFF にすると「薬の服用を一時停止しました」の SnackBar が表示された。
+カード右下の Switch を OFF にすると「薬の服用を一時停止しました」の SnackBar が表示された。服薬画面から消えることは見ていない (このため項目は ⏭️ にした)。
 <img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/9b17c352-a618-4f37-9015-6f9f9e20ac60-med03-switch-off.jpg" width="320">
 
 </details>
@@ -137,7 +140,7 @@ Snackbar はデフォルトの表示時間が短く、`tapOn` → `screenshot` �
 <details><summary>動作確認スクショ</summary>
 
 **確認日: 2026-10-15**
-一時停止中の Switch を ON に戻すと「薬の服用を再開しました」の SnackBar が表示された。
+一時停止中の Switch を ON に戻すと「薬の服用を再開しました」の SnackBar が表示された。服薬画面に戻ることは見ていない (このため項目は ⏭️ にした)。
 <img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/c5a5c8bb-7110-470d-b4f7-6c87e3215b89-med04-switch-on.jpg" width="320">
 
 </details>

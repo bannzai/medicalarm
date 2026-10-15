@@ -1,7 +1,7 @@
 ---
 feature: group_create
 verification: mobile-mcp
-last_verified_commit: b28392fae518a7b8dc861588de798f90678346d6
+last_verified_commit: e5dcb6401545189dd7116f2f1b066521cb099053
 last_verified_at: 2026-10-15
 ---
 
@@ -46,7 +46,9 @@ last_verified_at: 2026-10-15
 ## 2. 作成フロー
 
 - [x] 作成に成功すると招待コードダイアログが表示される（8 桁コード + 有効期限の表示）
-- [x] コピーで招待コードがクリップボードに入り、確認の SnackBar が表示される
+- [x] コピーで確認の SnackBar が表示される
+- [ ] コピーで招待コードがクリップボードに入る
+  - ⏭️ スキップ: simtunnel の Simulator のクリップボードの中身を読む手段を今回使っておらず、SnackBar の表示だけを確認した
 - [x] ダイアログを閉じるとグループ一覧に戻り、新しいグループが一覧に表示される
 - [x] 作成しても表示中グループ（ホームの表示対象）は切り替わらない（shoppinglist 踏襲の仕様）
 - [ ] Firebase Console の `/groups/{新規groupID}` に ownerUserID = 自分・memberUserIDs = [自分] が入っている
@@ -67,7 +69,7 @@ last_verified_at: 2026-10-15
 
 </details>
 
-### コピーで招待コードがクリップボードに入り、確認の SnackBar が表示される
+### コピーで確認の SnackBar が表示される
 
 <details><summary>動作確認スクショ</summary>
 

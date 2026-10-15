@@ -1,7 +1,7 @@
 ---
 feature: medicine_form
 verification: mobile-mcp,maestro
-last_verified_commit: b28392fae518a7b8dc861588de798f90678346d6
+last_verified_commit: e5dcb6401545189dd7116f2f1b066521cb099053
 last_verified_at: 2026-10-15
 ---
 
@@ -74,7 +74,7 @@ last_verified_at: 2026-10-15
 - [x] **服用間隔**: 「服用間隔」行（説明「前回の服用から最低限空ける時間」）は初期値が「なし」で、タップすると数値ピッカーが開く。選んだ時間が「{hours}時間以上」として反映され、0 を選ぶと「なし」に戻る (#81)
 - [x] **服用スケジュールの追加**: 「服用スケジュールを追加」で時刻10:00のスケジュール行が追加される。上限到達時は「服用スケジュールは{count}つまで登録できます。」が表示され追加ボタンが無効化される
 - [ ] **服用スケジュールの編集・削除**: スケジュール行で時刻・容量を編集でき、ゴミ箱アイコンで行を削除できる。歯車アイコンで通知設定画面へ遷移する
-  - ❌ 失敗: 時刻の編集 (08:00→09:00)・ゴミ箱での行の削除・歯車からの通知設定画面への遷移はできたが、容量欄は入力後に改行 (Return) を押さずに「保存」すると保存されず、容量を保存済みの薬を編集で開くと容量欄が空で表示される。再現手順: 既存の薬を編集で開く → 容量欄に「1tab」と入力 → 改行せず「保存」→ お薬一覧に容量が出ない。改行してから保存すると一覧には出るが、再び編集で開くと容量欄は空。issue: https://github.com/bannzai/medicalarm/issues/402
+  - ❌ 失敗: 時刻の編集 (08:00→09:00)・ゴミ箱での行の削除・歯車からの通知設定画面への遷移はできたが、容量欄は入力後に改行 (Return) を押さずに「保存」すると保存されず、容量を保存済みの薬を編集で開くと容量欄が空で表示される。issue: https://github.com/bannzai/medicalarm/issues/402
 - [x] **その他情報**: 服用者の選択、メモ（最大300文字）、メモ画像の設定ができる
 
 #### 動作確認
@@ -128,16 +128,14 @@ last_verified_at: 2026-10-15
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-07-14**
-
-時刻を19:00・容量を「1錠」に編集:
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260714/88e7ef7c-8bd9-4efc-91ed-75b124ce7b1c.png" width="320">
-
-歯車アイコンから服用スケジュール通知設定画面に遷移:
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260714/8cea8f9e-f152-4689-b11d-09bd30428170.png" width="320">
-
-ゴミ箱アイコンで2件目の行を削除:
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260714/a61a1f1e-09c8-401c-8c1c-5180cfacc3d7.png" width="320">
+**確認日: 2026-10-15**
+時刻をタップして 08:00 → 09:00 に変えられ、ゴミ箱で 19:00 の行を消せ、歯車で通知設定画面に進めた。容量は、改行して確定した「2tabs」はお薬一覧に表示されたが、改行せずに保存した容量は保存されず、保存済みの容量 (2tabs) がある薬を編集で開くと容量欄が空だった (❌、#402)。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/e75cc4dd-01ee-4beb-9a09-8c39d619b02b-mf02-time-edited.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/67f18292-7f72-435a-8889-cf58006db7b5-mf07-schedule-added-limit.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/356b6dc2-2bd7-4cad-ad03-f6eaf5d8eee3-ss01-schedule-setting.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/5ff3e92e-4c21-4335-b478-b2d0bbe1662c-mf08-quantity-not-prefilled.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/9cdde3fe-3d57-4850-ae42-654fb5da5364-med05-memo-quantity.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/2ddf2788-b69b-4e03-a59d-8f1dbc4d8b53-mf17-edit-memo-image.jpg" width="320">
 
 </details>
 

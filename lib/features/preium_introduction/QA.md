@@ -1,7 +1,7 @@
 ---
 feature: preium_introduction
 verification: mobile-mcp
-last_verified_commit: b3cd437d234b08e067c228af9b06b929d2b869bd
+last_verified_commit: e5dcb6401545189dd7116f2f1b066521cb099053
 last_verified_at: 2026-10-15
 ---
 

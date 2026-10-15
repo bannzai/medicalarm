@@ -1,7 +1,7 @@
 ---
 feature: medication_frequency_form
 verification: mobile-mcp
-last_verified_commit: b28392fae518a7b8dc861588de798f90678346d6
+last_verified_commit: e5dcb6401545189dd7116f2f1b066521cb099053
 last_verified_at: 2026-10-15
 ---
 

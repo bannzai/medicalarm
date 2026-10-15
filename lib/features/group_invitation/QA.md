@@ -1,7 +1,7 @@
 ---
 feature: group_invitation
 verification: mobile-mcp
-last_verified_commit: b3cd437d234b08e067c228af9b06b929d2b869bd
+last_verified_commit: e5dcb6401545189dd7116f2f1b066521cb099053
 last_verified_at: 2026-10-15
 ---
 
@@ -28,7 +28,7 @@ last_verified_at: 2026-10-15
 <details><summary>動作確認スクショ</summary>
 
 **確認日: 2026-10-15**
-6 文字 (EES8HP) の入力で「参加する」ボタンがグレーの押せない表示だった。
+6 文字 (EES8**) の入力で「参加する」ボタンがグレーの押せない表示だった。
 <img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/2fa7ccfc-69e5-429e-95e6-e70060cbd113-gi01-short-lowercase.jpg" width="320">
 
 </details>
@@ -138,7 +138,12 @@ B が一度参加に使った「6AW4****」で、A に削除された後の B �
 
 <details><summary>動作確認スクショ</summary>
 
-（未実行）
+**確認日: 2026-10-15**
+1 回目の参加の後に開いた A のメンバー一覧には B が並んだ。A が B を削除した後の 2 回目の再参加では、B の画面は「メンバー2人」なのに A のグループ一覧は「メンバー1人」のままで、A を起動し直すと B が表示された。3 回目の再参加では、開いたままの A のメンバー一覧に B がすぐ現れた (❌、#404)。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/47488e7e-4e98-4f8c-aa12-2af8a2994912-gs05-members.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/2de99069-b146-4cf7-8a72-faf3052ffea3-gl03-a-after-rejoin.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/8fbadb3f-646d-457b-9ff3-161c3b103ee7-gs13-a-members-after-relaunch.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/7ff1d277-269e-46ee-8992-e13e7aef908b-gs18-a-member-realtime-ok.jpg" width="320">
 
 </details>
 

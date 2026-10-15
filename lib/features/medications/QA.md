@@ -1,7 +1,7 @@
 ---
 feature: medications
 verification: mobile-mcp
-last_verified_commit: b28392fae518a7b8dc861588de798f90678346d6
+last_verified_commit: e5dcb6401545189dd7116f2f1b066521cb099053
 last_verified_at: 2026-10-15
 ---
 
@@ -66,9 +66,9 @@ last_verified_at: 2026-10-15
 <details><summary>動作確認スクショ</summary>
 
 **確認日: 2026-10-15**
-各カードに時刻 (プライマリカラー・太字)、服用者名、薬名の行が表示された。
+各カードに時刻 (プライマリカラー・太字)、服用者名、薬名の行が表示された。容量を保存した薬では、薬名の行の右に容量 (2tabs) が表示された。
 <img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/8d0d68de-fd86-44d6-aa03-7c00d31447a6-m01-home-cards.jpg" width="320">
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/830f4cae-a115-4fd8-af93-3946d74e7887-sync02-a-both-records.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/70c08a72-d6ab-47bc-ae7e-0b86e04fca5d-gc10-home-not-switched.jpg" width="320">
 
 </details>
 
@@ -473,7 +473,8 @@ A の画面で B が記録した行に「13:36 服用済 · メンバーさん�
   - 自動化: auto (maestro/flows/onboarding_medication_plan.yaml)
 - [x] **仮カードから登録**: お薬を追加から時刻を初期入力したフォームへ進める。登録後は全仮カードが消えて実際の薬のカードになる
   - 自動化: auto (maestro/flows/onboarding_medication_plan.yaml)
-- [x] **時刻ごとの削除**: 仮カードの削除ボタンでその時刻と通知だけを削除し、残りの時刻は保持する。最後のカードを削除すると再起動後も表示されない
+- [ ] **時刻ごとの削除**: 仮カードの削除ボタンでその時刻と通知だけを削除し、残りの時刻は保持する。最後のカードを削除すると再起動後も表示されない
+  - ⏭️ スキップ: 仮カードの「削除する」でその時刻だけが消えて残りが保持されることと、通知が 1 件減ることは確認したが、最後のカードを削除して再起動する操作は今回行っていない
   - 自動化: auto (maestro/flows/onboarding_medication_plan_delete.yaml)
 - [x] **登録案内の通知**: 通知一覧に仮カードと同数の薬登録案内が表示される。Critical Alertや服薬記録のアクションは持たない。削除・薬登録後に対象の通知が消える
   - 自動化: auto (maestro/flows/onboarding_medication_plan.yaml / onboarding_medication_plan_delete.yaml)
@@ -509,9 +510,10 @@ A の画面で B が記録した行に「13:36 服用済 · メンバーさん�
 <details><summary>動作確認スクショ</summary>
 
 **確認日: 2026-10-15**
-仮カードの「削除する」でその時刻のカードだけが消え、残りの時刻のカードは残った (別の新規ユーザー 2 人で確認)。最後のカードの削除と再起動は今回は行っていない (2026-09-08 の記録で確認済み)。
+仮カードの「削除する」でその時刻のカードだけが消え、残りの時刻のカードは残った (別の新規ユーザー 2 人で確認)。最後のカードを削除して再起動する操作は今回行っていない (このため項目は ⏭️ にした)。
 <img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/c35f0f4d-3b9b-486a-aef2-6423baaf748b-ob17-placeholder-deleted.jpg" width="320">
 <img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/c96b940e-c3c9-4a2d-9bed-a56638a3df9a-b02-after-delete.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/88f4ae74-453b-455e-aef7-8cf1603257d7-b03-notifications-after-delete.jpg" width="320">
 
 </details>
 

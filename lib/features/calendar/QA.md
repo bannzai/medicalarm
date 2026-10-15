@@ -1,7 +1,7 @@
 ---
 feature: calendar
 verification: maestro
-last_verified_commit: b28392fae518a7b8dc861588de798f90678346d6
+last_verified_commit: e5dcb6401545189dd7116f2f1b066521cb099053
 last_verified_at: 2026-10-15
 ---
 
@@ -9,7 +9,7 @@ last_verified_at: 2026-10-15
 
 到達手順: ホーム下部タブの「カレンダー」をタップすると月間カレンダー画面（CalendarPage）が開く。
 
-検証方法: `maestro test maestro/flows/qa_verify_calendar.yaml`（日記の新規作成導線・編集導線の 2 回実行）+ 過去日検証の一時フロー + スクリーンショット目視。実行時のシミュレータアカウントに服薬記録が無かったため、服薬記録カードの表示系は未検証（下記の各項目に明記）。
+検証方法: `maestro test maestro/flows/qa_verify_calendar.yaml`（日記の新規作成導線・編集導線の 2 回実行）+ 過去日検証の一時フロー + スクリーンショット目視。2026-10-15 の再確認では、服薬記録・取消記録のある日を作って服薬記録カードの表示も確認した (各項目のエビデンス)。
 
 ## 1. カレンダー画面の表示
 
