@@ -1,7 +1,7 @@
 ---
 feature: _root
 verification: mobile-mcp
-last_verified_commit: acda6a47ee88b4db42b4621e2cea866ec98eea9c
+last_verified_commit: 23f092d8e9aac29cee958a4f50f727f5c288306b
 last_verified_at: 2026-10-16
 ---
 
@@ -14,7 +14,7 @@ last_verified_at: 2026-10-16
 
 ## last_verified_commit の扱い (2026-10-16)
 
-2026-10-16 の QA は main の ebcfd81f のビルドで行った。その後に main へ入った root の変更は documents/DIRECTION.md (#407。方向性の文書の記述だけで、アプリのコードは変わらない) だけのため、last_verified_commit をそれを含む commit に進めた。
+2026-10-16 の QA (#409) で動作を確かめたビルドは main の ebcfd81f で、last_verified_commit の commit そのものはビルドして確かめていない。ebcfd81f から last_verified_commit (#409 のマージ後の main の acda6a47 に、この節を足した commit) までの差分は、QA.md 3 ファイル (#409・#410 の記録) と documents/DIRECTION.md (#407。方向性の文書の記述だけ) で、アプリのコード・依存・ビルド設定は変わらないため (`git diff --stat` で確認)、QA のゲートを通すために last_verified_commit を進めた。
 
 ## 対象環境
 
