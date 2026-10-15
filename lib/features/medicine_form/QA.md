@@ -148,6 +148,17 @@ last_verified_at: 2026-07-14
 ゴミ箱アイコンで2件目の行を削除:
 <img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260714/a61a1f1e-09c8-401c-8c1c-5180cfacc3d7.png" width="320">
 
+**確認日: 2026-10-15** (#402。容量欄の保存と編集時の初期表示)
+
+容量に「1錠」を入力し、Return を押さずに保存をタップ:
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/6acc7e26-bcef-44ff-89dc-dac4ca163635-1-typed-no-return.jpg" width="320">
+
+お薬一覧のカードに保存した容量「1錠」が表示される:
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/3f316bc0-0dac-447e-875b-a59ab3212abc-2-medicine-list.jpg" width="320">
+
+編集で開くと容量欄に保存済みの「1錠」が初期表示される:
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/802974fc-6e36-41d7-9ea3-0d754fab719c-3-edit-prefilled.jpg" width="320">
+
 </details>
 
 ### **その他情報**: 服用者の選択、メモ（最大300文字）、メモ画像の設定ができる

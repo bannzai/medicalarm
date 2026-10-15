@@ -23,6 +23,8 @@ class MedicineScheduleSection extends StatelessWidget {
         const SizedBox(height: 10),
         for (final (index, schedule) in schedules.value.indexed) ...[
           Padding(
+            // 容量欄は initialValue を初回だけ読むため、行を削除した時に後ろの行が削除した行の入力状態を引き継がないよう schedule ごとに区別する (#402)
+            key: ValueKey(schedule.id),
             padding: const EdgeInsets.symmetric(horizontal: 16.0),
             child: Row(
               children: [
