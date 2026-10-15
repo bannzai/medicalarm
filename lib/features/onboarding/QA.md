@@ -1,8 +1,8 @@
 ---
 feature: onboarding
 verification: maestro, mobile-mcp
-last_verified_commit: e5dcb6401545189dd7116f2f1b066521cb099053
-last_verified_at: 2026-10-15
+last_verified_commit: 263630555ac273bca24b8c4df556f018b9a8578d
+last_verified_at: 2026-10-16
 ---
 
 # onboarding QA
@@ -120,9 +120,10 @@ simtunnel (iPhone 17) に新規インストールしたアプリを日本語ロ�
 <details><summary>動作確認スクショ</summary>
 
 **確認日: 2026-10-15**
-管理対象の質問画面 (3/7) で左上の戻るボタンをタップすると飲み忘れ質問 (2/7) に戻り、直前に選んだ「たまにある」が枠線と塗りで強調表示された。価値宣言・プラン生成演出の画面には戻るボタンが無い。
+管理対象の質問画面 (3/7) で左上の戻るボタンをタップすると飲み忘れ質問 (2/7) に戻り、直前に選んだ「たまにある」が枠線と塗りで強調表示された。価値宣言・プラン生成演出・結果画面には戻るボタンが無かった (結果画面「Your personal plan」の要素一覧にも戻るボタンは無かった)。
 <img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/f8722806-eefc-45e2-8d3c-4cf2a96669c0-ob04-back-highlight.jpg" width="320">
 <img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/b09dc26d-bc2e-452e-9f54-789ec329195d-ob07-plan-generating.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/29930130-bf80-44a9-a8c4-c55ad55800b3-us10.jpg" width="320">
 
 </details>
 

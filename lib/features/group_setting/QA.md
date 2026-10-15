@@ -1,8 +1,8 @@
 ---
 feature: group_setting
 verification: mobile-mcp
-last_verified_commit: e5dcb6401545189dd7116f2f1b066521cb099053
-last_verified_at: 2026-10-15
+last_verified_commit: 263630555ac273bca24b8c4df556f018b9a8578d
+last_verified_at: 2026-10-16
 ---
 
 # group_setting QA

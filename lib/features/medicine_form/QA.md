@@ -1,8 +1,8 @@
 ---
 feature: medicine_form
 verification: mobile-mcp,maestro
-last_verified_commit: e5dcb6401545189dd7116f2f1b066521cb099053
-last_verified_at: 2026-10-15
+last_verified_commit: 263630555ac273bca24b8c4df556f018b9a8578d
+last_verified_at: 2026-10-16
 ---
 
 # medicine_form QA
@@ -13,7 +13,8 @@ last_verified_at: 2026-10-15
 
 - [x] **AppBar タイトル**: AppBar に「お薬登録画面」と表示される
 - [x] **新規登録時の初期値**: 新規で開くと薬の名前が空、服用頻度が「毎日」、服用開始日が当日、服用スケジュールが空、服用者が「自分」で表示される
-- [x] **編集時のプリフィル**: 既存の薬を編集で開くと各項目に登録済みの値が入り、AppBar 右上に削除アイコンが表示される
+- [ ] **編集時のプリフィル**: 既存の薬を編集で開くと各項目に登録済みの値が入り、AppBar 右上に削除アイコンが表示される
+  - ❌ 失敗: 薬名・服用頻度・服用開始日・服用間隔・スケジュールの時刻・メモ・メモ画像は入ったが、容量欄だけは保存済みの値が表示されない。issue: https://github.com/bannzai/medicalarm/issues/402
 - [x] **一時停止トグルの表示条件**: 「服薬を有効にする」トグルは編集モードのときのみ表示される
 
 #### 動作確認
@@ -45,9 +46,10 @@ last_verified_at: 2026-10-15
 <details><summary>動作確認スクショ</summary>
 
 **確認日: 2026-10-15**
-既存の薬「QA Medicine」を服薬画面の薬名タップとお薬一覧の編集アイコンの両方から開くと、薬名・服用頻度・服用開始日・服用間隔・スケジュールの時刻が入り、AppBar 右上に削除アイコンが表示された。容量欄だけは保存済みの値が表示されない (「服用スケジュールの編集・削除」の ❌ を参照)。
+既存の薬を服薬画面の薬名タップとお薬一覧の編集アイコンの両方から開くと、薬名・服用頻度・服用開始日・服用間隔・スケジュールの時刻・メモ・メモ画像が入り、AppBar 右上に削除アイコンが表示された。容量欄だけは保存済みの値 (2tabs) が表示されなかった (❌、#402)。
 <img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/41de6792-9b09-41e9-b6d6-d9636de009bf-mf04-pause-snackbar.jpg" width="320">
 <img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/5ff3e92e-4c21-4335-b478-b2d0bbe1662c-mf08-quantity-not-prefilled.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/2ddf2788-b69b-4e03-a59d-8f1dbc4d8b53-mf17-edit-memo-image.jpg" width="320">
 
 </details>
 
