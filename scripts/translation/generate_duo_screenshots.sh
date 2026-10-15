@@ -15,7 +15,7 @@
 #   DUO_POSE_SCRIPT    : 姿勢を切り替える ios-simulator skill のスクリプト (既定 ~/.claude/skills/ios-simulator/scripts/duo-pose.sh)
 #
 # 出力:
-#   artifacts/duo/raw/{outer,inner}/screenshot_<ページ>--<言語コード>.png  撮影した素の画面 (integration_test の takeScreenshot)
+#   artifacts/duo/raw/{outer,inner}/screenshot_<ページ>--<言語コード>.png  撮影した素の画面 (Flutter の描画ツリーを RenderRepaintBoundary.toImage で撮ったもの)
 #   artifacts/duo/text/                                                キャッチコピーの文字画像
 #   artifacts/appstore_iphone_duo/<言語>/<index>_APP_IPHONE_DUO_1_outer.png  外側 1398×2034 (alpha なし)
 #   artifacts/appstore_iphone_duo/<言語>/<index>_APP_IPHONE_DUO_2_inner.png  内側 2853×2007 (alpha なし)
