@@ -33,12 +33,12 @@ class MedicineImageImportCandidate {
   });
 
   MedicineImageImportCandidate copyWith({String? name, bool? selected}) => MedicineImageImportCandidate(
-        name: name ?? this.name,
-        schedules: schedules,
-        selected: selected ?? this.selected,
-        isScheduleTimeFallback: isScheduleTimeFallback,
-        droppedScheduleCount: droppedScheduleCount,
-      );
+    name: name ?? this.name,
+    schedules: schedules,
+    selected: selected ?? this.selected,
+    isScheduleTimeFallback: isScheduleTimeFallback,
+    droppedScheduleCount: droppedScheduleCount,
+  );
 }
 
 /// 画像から読み取った候補をユーザーが取捨選択・名前編集するシートを表示する。
@@ -168,10 +168,7 @@ class MedicineImageImportReviewSheet extends HookWidget {
                                           ),
                                           Text(
                                             // 画像インポートは頻度=毎日で登録するため、その前提をシートにも明示する
-                                            '${L.daily} ${candidate.schedules.map(
-                                                  (schedule) =>
-                                                      '${schedule.toTimeString()}${schedule.quantityMemo.isNotEmpty ? ' ${schedule.quantityMemo}' : ''}',
-                                                ).join(' / ')}',
+                                            '${L.daily} ${candidate.schedules.map((schedule) => '${schedule.toTimeString()}${schedule.quantityMemo.isNotEmpty ? ' ${schedule.quantityMemo}' : ''}').join(' / ')}',
                                             style: const TextStyle(fontSize: 12, color: TextColor.gray),
                                           ),
                                           if (candidate.isScheduleTimeFallback) ...[
@@ -198,7 +195,6 @@ class MedicineImageImportReviewSheet extends HookWidget {
                           Padding(
                             padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 8.0),
                             child: Row(
-                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
                               children: [
                                 TextButton(
                                   onPressed: () {
@@ -206,13 +202,19 @@ class MedicineImageImportReviewSheet extends HookWidget {
                                   },
                                   child: Text(L.cancel),
                                 ),
-                                ElevatedButton(
-                                  onPressed: selectedCount > 0
-                                      ? () {
-                                          Navigator.of(context).pop(submittableCandidates);
-                                        }
-                                      : null,
-                                  child: Text(L.medicineImageImportAddCount(selectedCount)),
+                                const SizedBox(width: 16),
+                                // アプリテーマの ElevatedButton は minimumSize の幅が double.infinity (main.dart)。
+                                // Row の中では幅の上限が無く infinite width でシート全体の layout が落ちるため、
+                                // Expanded で幅を確定させる
+                                Expanded(
+                                  child: ElevatedButton(
+                                    onPressed: selectedCount > 0
+                                        ? () {
+                                            Navigator.of(context).pop(submittableCandidates);
+                                          }
+                                        : null,
+                                    child: Text(L.medicineImageImportAddCount(selectedCount)),
+                                  ),
                                 ),
                               ],
                             ),

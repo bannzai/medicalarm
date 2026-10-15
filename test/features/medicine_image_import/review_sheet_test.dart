@@ -39,6 +39,11 @@ Future<List<MedicineImageImportCandidate>? Function()> pumpAndOpenSheet(
   List<MedicineImageImportCandidate>? result;
   await tester.pumpWidget(
     MaterialApp(
+      // アプリテーマ (main.dart) と同じ minimumSize 幅 double.infinity を再現する。
+      // Row 内の ElevatedButton が infinite width でシートの layout を落とす退行をこのテストで検出するため
+      theme: ThemeData(
+        elevatedButtonTheme: ElevatedButtonThemeData(style: ElevatedButton.styleFrom(minimumSize: const Size(double.infinity, 48.0))),
+      ),
       home: Scaffold(
         body: Builder(
           builder: (context) => TextButton(
@@ -171,7 +176,11 @@ void main() {
   testWidgets('名前を空にした候補は選択枠を占有せず、確定件数からも外れる', (tester) async {
     final readResult = await pumpAndOpenSheet(
       tester,
-      candidates: [candidate(name: 'ロキソニン'), candidate(name: 'ガスター'), candidate(name: 'ムコダイン')],
+      candidates: [
+        candidate(name: 'ロキソニン'),
+        candidate(name: 'ガスター'),
+        candidate(name: 'ムコダイン'),
+      ],
       maxSelectableCount: 2,
     );
 
@@ -194,7 +203,10 @@ void main() {
   testWidgets('上限まで選択済みの状態で、名前を空にした候補に名前を入れ直すと選択が外れ確定件数が上限を超えない', (tester) async {
     await pumpAndOpenSheet(
       tester,
-      candidates: [candidate(name: 'ロキソニン'), candidate(name: 'ガスター')],
+      candidates: [
+        candidate(name: 'ロキソニン'),
+        candidate(name: 'ガスター'),
+      ],
       maxSelectableCount: 1,
     );
 
@@ -222,7 +234,10 @@ void main() {
   testWidgets('選択済みかつ名前が空の候補に、枠が埋まった後から名前を入力しても確定件数が上限を超えない', (tester) async {
     await pumpAndOpenSheet(
       tester,
-      candidates: [candidate(name: ''), candidate(name: 'ガスター')],
+      candidates: [
+        candidate(name: ''),
+        candidate(name: 'ガスター'),
+      ],
       maxSelectableCount: 1,
     );
 
