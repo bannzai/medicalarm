@@ -1,7 +1,7 @@
 ---
 feature: _root
 verification: mobile-mcp
-last_verified_commit: ebcfd81fb3b432696218ceb32ea3df0434611c3b
+last_verified_commit: 23f092d8e9aac29cee958a4f50f727f5c288306b
 last_verified_at: 2026-10-16
 ---
 
@@ -11,6 +11,10 @@ last_verified_at: 2026-10-16
 
 2026-10-15 に main の HEAD と同じアプリのコードのデバッグビルド (simtunnel の iOS Simulator) で、起動・Firestore の読み書き・Cloud Functions の呼び出し (グループ作成・招待コード発行・招待コードでの参加) が動くことを確認した。
 本番ビルドの App Attest によるトークン取得と App Check のメトリクスは、配布ビルドと実機が要るため未検証 (#340 の実機確認に含む)。
+
+## last_verified_commit の扱い (2026-10-16)
+
+2026-10-16 の QA (#409) で動作を確かめたビルドは main の ebcfd81f で、last_verified_commit の commit そのものはビルドして確かめていない。ebcfd81f から last_verified_commit (#409 のマージ後の main の acda6a47 に、この節を足した commit) までの差分は、QA.md 3 ファイル (#409・#410 の記録) と documents/DIRECTION.md (#407。方向性の文書の記述だけ) で、アプリのコード・依存・ビルド設定は変わらないため (`git diff --stat` で確認)、QA のゲートを通すために last_verified_commit を進めた。
 
 ## 対象環境
 
