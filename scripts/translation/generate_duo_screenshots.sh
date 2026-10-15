@@ -213,6 +213,21 @@ image_height() {
   magick identify -format '%h' "$1"
 }
 
+# 撮影した素の画面がそのディスプレイの大きさ (px) かを確かめ、違えば理由を stderr に出して return 1 する。
+# rounded_screen が合成の大きさへ強制的に縮めるため、--skip-capture で外側の画像を内側の場所に置いても最終検証では
+# 見つからず、歪んだ画像がそのまま通る。合成の前にここで止める
+verify_raw() {
+  local file=$1 width=$2 height=$3 info
+  if ! info=$(magick identify -format '%w %h' "$file"); then
+    echo "ERROR: cannot read raw image: $file" >&2
+    return 1
+  fi
+  if [ "$info" != "$width $height" ]; then
+    echo "ERROR: raw $file is '$info', expected '$width $height'" >&2
+    return 1
+  fi
+}
+
 # 撮影した画面を指定の大きさに合わせ、角を丸めた PNG を作る
 rounded_screen() {
   local input=$1 width=$2 height=$3 radius=$4 output=$5
@@ -281,6 +296,8 @@ for language in "${LANGUAGE_DIRECTORIES[@]}"; do
   mkdir -p "$OUTPUT_DIR/$language"
   for index in "${!PAGES[@]}"; do
     page=${PAGES[$index]}
+    verify_raw "$RAW_DIR/outer/${page}--${code}.png" "$OUTER_WIDTH" "$OUTER_HEIGHT"
+    verify_raw "$RAW_DIR/inner/${page}--${code}.png" "$INNER_WIDTH" "$INNER_HEIGHT"
     compose_outer "$language" "$index" "$RAW_DIR/outer/${page}--${code}.png" "$OUTPUT_DIR/$language/${index}_APP_IPHONE_DUO_1_outer.png"
     compose_inner "$language" "$index" "$RAW_DIR/inner/${page}--${code}.png" "$OUTPUT_DIR/$language/${index}_APP_IPHONE_DUO_2_inner.png"
     echo "composed $language $index"

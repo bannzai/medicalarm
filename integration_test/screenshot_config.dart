@@ -46,7 +46,12 @@ Future<void> takeScreenshotForStore({
   // toImage と toByteData は実時間の非同期処理のため、FakeAsync の外で動かす
   final bytes = await tester.runAsync(() async {
     final image = await (boundaryKey.currentContext!.findRenderObject()! as RenderRepaintBoundary).toImage(pixelRatio: tester.view.devicePixelRatio);
-    return (await image.toByteData(format: ImageByteFormat.png))!.buffer.asUint8List();
+    // toByteData は native の画像を解放しないため、ロケールごとの撮影で内側 (2853×2007) の画像が GC まで残らないよう自分で解放する
+    try {
+      return (await image.toByteData(format: ImageByteFormat.png))!.buffer.asUint8List();
+    } finally {
+      image.dispose();
+    }
   });
   binding.reportData ??= <String, dynamic>{};
   binding.reportData!['screenshots'] ??= <dynamic>[];
