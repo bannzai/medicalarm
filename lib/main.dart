@@ -120,8 +120,8 @@ void main() async {
     // MEMO: FirebaseCrashlytics#recordFlutterError called dumpErrorToConsole in function.
     FlutterError.onError = (details) {
       // nightly E2E で赤画面 (ErrorWidget) が出た時、FlutterError.presentError の出力が simulator のログ (os_log) に残らず
-      // Dart のスタックトレースを取れなかった (#387)。debugPrint の間引き (debugPrintThrottled) を通らない print で
-      // 最初の例外とスタックトレースも出す。debug に限定する理由は zone error と同じ
+      // Dart のスタックトレースを取れなかった (#387)。同じログに debugPrint の行は残っており、欠けた原因は特定できていない。
+      // presentError とは別の経路の print でも最初の例外とスタックトレースを出す。debug に限定する理由は zone error と同じ
       if (kDebugMode) {
         _printErrorDetailsByLine(label: 'FlutterError', details: details);
       }
