@@ -51,7 +51,7 @@ last_verified_at: 2026-10-16
 <img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/2ddf2788-b69b-4e03-a59d-8f1dbc4d8b53-mf17-edit-memo-image.jpg" width="320">
 
 **確認日: 2026-10-16** (#403 の後。main の ebcfd81f を simtunnel でビルドした iPhone 17 / iOS 26.5 の Simulator)
-容量「1tab」を保存した薬をお薬一覧の編集アイコンから開くと、薬名・服用頻度・服用開始日・服用間隔・「服薬を有効にする」・スケジュールの時刻に加えて、容量欄にも「1tab」が入り、AppBar 右上に削除アイコンが表示された。
+容量「1tab」を保存した薬をお薬一覧の編集アイコンから開くと、薬名・服用頻度・服用開始日・服用間隔・「服薬を有効にする」・スケジュールの時刻に加えて、容量欄にも「1tab」が入り、AppBar 右上に削除アイコンが表示された。この薬はメモ・メモ画像を登録していないため、その 2 項目は 2026-10-15 の確認による (#403 はメモ欄を変えていない)。
 <img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/95fed0e5-08dd-472f-a763-b3fa4daa5634-a-42.jpg" width="320">
 
 </details>
@@ -153,7 +153,7 @@ last_verified_at: 2026-10-16
 <img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/802974fc-6e36-41d7-9ea3-0d754fab719c-3-edit-prefilled.jpg" width="320">
 
 **確認日: 2026-10-16** (#403 のマージ後の main の ebcfd81f を simtunnel でビルドした iPhone 17 / iOS 26.5 の Simulator)
-お薬一覧から新規登録を開き、追加したスケジュール行の容量欄に「1tab」を入力して、改行 (Return) を押さずに「保存」をタップした。お薬一覧のカードに容量「1tab」が表示され、編集で開くと容量欄に「1tab」が入っていた。アプリを起動し直した後の服薬画面にも「1tab」が表示された。時刻の編集・ゴミ箱での行の削除・歯車からの遷移は #403 で変わっていないため、2026-10-15 の確認による。
+お薬一覧から新規登録を開き、追加したスケジュール行の容量欄に「1tab」を入力して、改行 (Return) を押さずに「保存」をタップした。お薬一覧のカードに容量「1tab」が表示され、編集で開くと容量欄に「1tab」が入っていた。アプリを起動し直した後の服薬画面にも「1tab」が表示された。時刻の編集と歯車からの遷移は、2026-10-15 の確認の結果をそのまま使っている (#403 は容量欄と、行への key の追加だけを変えた)。key の追加が影響するゴミ箱での行の削除は、#403 で追加された widget test「先頭の服用スケジュールを削除すると残った行の容量欄に残った行の値が表示される」(test/features/medicine_form/quantity_memo_text_field_test.dart) が ebcfd81f で通ることを確認した (Simulator では再実行していない)。
 <img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/f87ff1c0-c5db-4da5-9b99-79aaf7ee16ac-a-40.jpg" width="320">
 <img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/2374bf56-0ad1-4693-9477-24c5e8abfc95-a-41.jpg" width="320">
 <img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/95fed0e5-08dd-472f-a763-b3fa4daa5634-a-42.jpg" width="320">
