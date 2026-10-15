@@ -22,49 +22,14 @@ last_verified_at: 2026-07-16
 <details>
 <summary>動作確認エビデンス</summary>
 
-### **所属グループがすべて 1 人の間、ホームにアカウント引き継ぎバナーが表示されない**
-
-<details><summary>動作確認スクショ</summary>
-
-**確認日: 2026-07-16**
-A から B（唯一の共有先）を削除し、所属する全グループが1人に戻った直後のホーム画面で、アカウント引き継ぎバナーが表示されないことを確認した（要素一覧に「グループ共有中は...」の文言が存在しないことで確認）。
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260716/4979fc7a-ddff-48c8-a8d4-b414f829fc9c.png" width="380" />
-
-</details>
-
-### **メンバー 2 人以上のグループに所属すると、ホーム上部にバナーが表示される**
-
-<details><summary>動作確認スクショ</summary>
-
-**確認日: 2026-07-16**
-B が家族グループ（メンバー2人）に参加後、ホーム上部に「グループ共有中はアカウント引き継ぎ設定を強くおすすめします」バナーが表示された。
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260716/a0551165-b106-4bd2-a4b2-3e884a04d7f3.png" width="380" />
-
-</details>
-
-### **バナーに閉じるボタンがない（強い推奨のため常時表示の仕様）**
-
-<details><summary>動作確認スクショ</summary>
-
-**確認日: 2026-07-16**
-上記バナー表示画面のアクセシビリティ要素一覧に閉じるボタン（X アイコン等）が存在しないことを確認した。
-
-</details>
-
-### **バナータップでアカウントリンクのシートが開く**
-
-<details><summary>動作確認スクショ</summary>
-
-**確認日: 2026-07-16**
-バナーには右矢印アイコンが表示されておりタップ可能であることを確認した。実際のタップでの遷移確認は、設定タブのアカウント引き継ぎセクションのタップ動作（下記2章）と同一の導線であるため合わせて確認済みとする。
-
-</details>
-
 ### 所属グループがすべて 1 人の間、ホームにアカウント引き継ぎバナーが表示されない
 
 <details><summary>動作確認スクショ</summary>
 
-（未実行）
+**確認日: 2026-10-15**
+1 人のグループだけに所属している新規ユーザーと、共有グループから削除された後の B のホームには、アカウント引き継ぎのバナーが表示されなかった。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/c0d369a6-655f-4e1e-9791-bff08015c6ab-ob11-placeholder-cards.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/2ef30af0-8bd5-4fe7-9291-1b71f72fc29b-gs10-c-after-removed.jpg" width="320">
 
 </details>
 
@@ -72,7 +37,10 @@ B が家族グループ（メンバー2人）に参加後、ホーム上部に�
 
 <details><summary>動作確認スクショ</summary>
 
-（未実行）
+**確認日: 2026-10-15**
+2 人のグループに参加した B と、B が参加した A のホーム上部に「グループ共有中はアカウント引き継ぎ設定を強くおすすめします」のバナーが表示された。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/4c0d7322-84c6-4150-8b51-aeb4333732a3-c01-medications-joined.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/de917326-27e9-45fa-afcd-6a9ef8eba2e4-sync01-a-sees-c-record.jpg" width="320">
 
 </details>
 
@@ -80,7 +48,9 @@ B が家族グループ（メンバー2人）に参加後、ホーム上部に�
 
 <details><summary>動作確認スクショ</summary>
 
-（未実行）
+**確認日: 2026-10-15**
+バナーには右端の矢印だけがあり、閉じるボタンは無かった。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/4c0d7322-84c6-4150-8b51-aeb4333732a3-c01-medications-joined.jpg" width="320">
 
 </details>
 
@@ -88,7 +58,9 @@ B が家族グループ（メンバー2人）に参加後、ホーム上部に�
 
 <details><summary>動作確認スクショ</summary>
 
-（未実行）
+**確認日: 2026-10-15**
+バナーをタップすると「アカウント引き継ぎ」のシート (説明文と「Apple でアカウントを引き継ぐ」「Google でアカウントを引き継ぐ」) が開いた。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/8b592d5a-d061-40b4-8d41-f3cacce18779-al05-banner-sheet.jpg" width="320">
 
 </details>
 
@@ -101,38 +73,21 @@ B が家族グループ（メンバー2人）に参加後、ホーム上部に�
 - [x] 設定タブに「アカウント引き継ぎ」セクションがあり、Apple でリンク / Google でリンクの行が表示される
 - [x] （Console 設定完了前）タップするとエラーが表示されるが、アプリはクラッシュせず操作を継続できる
 - [ ] （Console 設定完了後）Apple / Google のリンクに成功するとリンク済み表示に変わり、バナーが消える
-  - ⏭️ スキップ: 「予想・未確認の点」に記載の通り、Firebase Console でのプロバイダ有効化等が未完了のため確認不可
+  - ⏭️ スキップ: Google は Info.plist の GIDClientID が未設定、Apple は Apple アカウントにサインインした端末が必要で、リンクを成功させられない。Firebase Console の設定と実機での確認はユーザー作業として #340 に移管した
 - [ ] （Console 設定完了後）リンク後も薬・記録・グループのデータがそのまま表示される（uid が変わらないこと）
-  - ⏭️ スキップ: 同上、Console 設定未完了のため確認不可
+  - ⏭️ スキップ: 同上。リンクを成功させられないため #340 に移管した
 
 #### 動作確認
 <details>
 <summary>動作確認エビデンス</summary>
 
-### **設定タブに「アカウント引き継ぎ」セクションがあり、Apple でリンク / Google でリンクの行が表示される**
-
-<details><summary>動作確認スクショ</summary>
-
-**確認日: 2026-07-16**
-設定タブに「アカウント引き継ぎ」セクションがあり、「Apple でアカウントを引き継ぐ」「Google でアカウントを引き継ぐ」の2行が表示された。
-
-</details>
-
-### **（Console 設定完了前）タップするとエラーが表示されるが、アプリはクラッシュせず操作を継続できる**
-
-<details><summary>動作確認スクショ</summary>
-
-**確認日: 2026-07-16**
-「Apple でアカウントを引き継ぐ」をタップすると、まず OS の「Apple Account にサインインしてください」ダイアログが表示され、それを閉じるとアプリ内で `SignInWithAppleAuthorizationException` のエラーダイアログが表示された。「閉じる」で正常に設定画面へ戻り、他の操作（他ボタンのタップ等）も引き続き可能でクラッシュは発生しなかった。
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260716/69e7f211-3ce4-4c3c-93fe-a1f69d9461da.png" width="380" />
-
-</details>
-
 ### 設定タブに「アカウント引き継ぎ」セクションがあり、Apple でリンク / Google でリンクの行が表示される
 
 <details><summary>動作確認スクショ</summary>
 
-（未実行）
+**確認日: 2026-10-15**
+設定タブに「アカウント引き継ぎ」セクションと「Apple でアカウントを引き継ぐ」「Google でアカウントを引き継ぐ」の行が表示された。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/85a53b2e-82f6-4ccb-b357-37fd5a23e388-al04-settings-after.jpg" width="320">
 
 </details>
 
@@ -140,7 +95,12 @@ B が家族グループ（メンバー2人）に参加後、ホーム上部に�
 
 <details><summary>動作確認スクショ</summary>
 
-（未実行）
+**確認日: 2026-10-15**
+Google の行では「PlatformException(google_sign_in, No active configuration. Make sure GIDClientID is set in Info.plist., ...)」のエラーダイアログが表示された。Apple の行では Simulator が Apple アカウント未サインインのため OS のダイアログが出て、閉じると「SignInWithAppleAuthorizationException(... エラー1000)」のエラーダイアログが表示された。どちらも閉じた後に設定画面を操作できた。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/189edb23-2703-4446-930a-d6de51f922b7-al01-google.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/f435379e-3625-41fa-9bbb-92676e0dd4c0-al02-apple.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/1bf1b115-73fb-41c7-8762-aa5b9a005871-al03-apple-closed.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/85a53b2e-82f6-4ccb-b357-37fd5a23e388-al04-settings-after.jpg" width="320">
 
 </details>
 

@@ -100,20 +100,18 @@ simtunnel (iPhone 17) に新規インストールしたアプリを日本語ロ�
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-09-03**
-シミュレータを erase して英語で起動し、「Get started」→「Often」(Have you ever missed a dose?) →「Often」(Ever felt anxious…) →「Next」(By the time you notice…) →「Myself and my family」→「3 times or more」→「6 or more」→「Next」(What changes with Medicalarm) →「Watch over my family's medication」(Set your goal) の順にタップして完走した。結果画面に「Goal: Watch over my family's medication」と「Premium plan recommended」が表示された。
-価値宣言 (1/11):
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/09/02/d3987acc-783d-4fbb-a44c-7234de02a64d-u01-welcome.png" width="320">
-ペイン 2 問目 (Ever felt anxious…):
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/09/02/092c4ac5-9d0e-4691-93da-6acb8e2ea6c9-u03-pain-worry.png" width="320">
-価値提示 (By the time you notice…):
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/09/02/47dd3c96-29d9-4241-8aff-ec989d26a9d9-u04-value-reminder.png" width="320">
-Before/After (What changes with Medicalarm):
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/09/02/059ca03c-3311-4a59-825d-18f5dc3272e2-u06-before-after.png" width="320">
-目標設定 (Set your goal):
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/09/02/387e0dc7-4255-4dba-a938-46fe8d2cb318-u07-goal.png" width="320">
-結果画面 (Goal: … / Premium plan recommended):
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/09/02/506c239b-af95-44ac-8378-3cf9d9bc7ed4-r04-plan-result-en.png" width="320">
+**確認日: 2026-10-15**
+新規インストールしたアプリを `-AppleLanguages (en) -AppleLocale en_US` で起動すると、「Say goodbye to missed doses」→「Have you ever missed a dose?」→「Ever felt anxious because…」→「By the time you notice…」→ 管理対象・回数・薬の数の質問 3 つ →「What changes with Medicalarm」→「Set your goal」と進み、結果画面「Your personal plan」に「Goal: Never miss a dose」が表示された。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/9a2f9a37-4785-4e3b-b727-94fbaf9ff2d4-us01-welcome.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/2b1221dd-2f53-4652-9b94-185410093819-us02.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/dc450e94-c2a0-41ee-a79d-a98457b33dd4-us03.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/3f64671c-e67f-4415-b100-674f5ce754a3-us04.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/ce959c03-18ca-4185-b294-24e7e00e0b11-us05.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/a676a03f-ed36-4771-ab92-fc9dc473c117-us06.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/141aa46d-fe8f-4fb3-af1b-d439e87c0f48-us07.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/4479c1ec-4e7c-463e-9fe2-86145aac1f27-us08.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/6fea72be-2a32-4a3b-8387-83322d69cd56-us09.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/29930130-bf80-44a9-a8c4-c55ad55800b3-us10.jpg" width="320">
 
 </details>
 

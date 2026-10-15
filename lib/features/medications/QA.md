@@ -65,11 +65,10 @@ last_verified_at: 2026-09-08
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-07-14**
-
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260714/eb1ea0a2-b7f6-4786-97eb-0ac114a6c359.png" width="320">
-
-「13:00」（プライマリカラー・太字）、「自分」、チェックボックス＋「QAテスト薬A」が表示されている
+**確認日: 2026-10-15**
+各カードに時刻 (プライマリカラー・太字)、服用者名、薬名の行が表示された。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/8d0d68de-fd86-44d6-aa03-7c00d31447a6-m01-home-cards.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/830f4cae-a115-4fd8-af93-3946d74e7887-sync02-a-both-records.jpg" width="320">
 
 </details>
 
@@ -307,8 +306,10 @@ AppBar 右上の編集アイコンをタップするとお薬一覧画面に遷�
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-07-16**
-グループが「マイグループ」1つのみの間、ホーム上部に切替チップが表示されないことを確認した（グループ作成前の状態）。
+**確認日: 2026-10-15**
+所属グループが 1 つのユーザー (A) のホームにはグループ切替チップが表示されなかった。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/8d0d68de-fd86-44d6-aa03-7c00d31447a6-m01-home-cards.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/de917326-27e9-45fa-afcd-6a9ef8eba2e4-sync01-a-sees-c-record.jpg" width="320">
 
 </details>
 
@@ -316,9 +317,9 @@ AppBar 右上の編集アイコンをタップするとお薬一覧画面に遷�
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-07-16**
-「マイグループ」「家族グループ」の2つ作成後、ホーム上部に両方のチップが表示され、選択中のチップがハイライト（濃い背景色）で区別された。
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260716/365e1305-cf26-41e5-98d0-1f2302c631e9.png" width="380" />
+**確認日: 2026-10-15**
+自分のグループと参加先の 2 グループに所属する B のホーム上部にチップが 2 つ並び、選択中のチップがグレーで強調された。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/4c0d7322-84c6-4150-8b51-aeb4333732a3-c01-medications-joined.jpg" width="320">
 
 </details>
 
@@ -349,8 +350,7 @@ AppBar 右上の編集アイコンをタップするとお薬一覧画面に遷�
 - [x] 時刻グループカードのヘッダーで、服用者名の先頭に識別色の円形アバター（先頭 1 文字）が表示される
 - [x] 服用者ごとにアバターの色が分かれ、同一服用者は履歴画面でも同じ色になる
 - [x] 自分が記録した服用済み行には記録者名が表示されない（記録時刻のみ）
-- [ ] 他メンバーが記録した服用済み行に「◯◯が記録」が併記される
-  - ⏭️ スキップ: グループに 2 人目のユーザーが参加して服薬記録を書き込んだ状態が必要で、simulator 1 台の匿名ユーザーでは作れない。表示ロジックは履歴画面の記録者表示（`lib/features/medications_histories/QA.md` の「記録者表示（#241 グループ機能）」で検証済み）を `lib/utils/member/operator_member_display_name.dart` へ共通化したもの
+- [x] 他メンバーが記録した服用済み行に「◯◯が記録」が併記される
 
 #### 動作確認
 <details>
@@ -392,7 +392,11 @@ AppBar 右上の編集アイコンをタップするとお薬一覧画面に遷�
 
 <details><summary>動作確認スクショ</summary>
 
-⏭️ スキップ（上記チェックリストの理由欄を参照）
+**確認日: 2026-10-15**
+A の画面で B が記録した行に「13:36 服用済 · メンバーさんが記録」、B の画面で A が記録した行に「13:37 服用済 · Momさんが記録」と併記された (#253 で失敗していた共有の記録が消えないことも確認)。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/de917326-27e9-45fa-afcd-6a9ef8eba2e4-sync01-a-sees-c-record.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/e96697fd-a474-47a8-9e90-0b8b94abe911-sync03-c-both-records.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/303c210a-1c2f-46d1-bb58-9b45b37a3336-sync06-c-name-reflected.jpg" width="320">
 
 </details>
 

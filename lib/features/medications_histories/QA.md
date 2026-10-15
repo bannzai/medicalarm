@@ -53,11 +53,10 @@ last_verified_at: 2026-07-16
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-07-14**
-
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260714/be5f2b42-fc79-4cd4-95fd-deb45dc64363.png" width="320">
-
-「QAテスト薬A」（プライマリカラー・太字）、「自分」、「予定時刻: 7月14日 11:00」、「記録時間: 7月14日 22:54」が表示されている（このスケジュールは数量メモ未設定のため数量メモ欄は空）
+**確認日: 2026-10-15**
+各カードに薬名 (プライマリカラー・太字)、服用者名、「予定時刻」「記録時間」(月日＋時刻) が表示された。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/7ee6e842-142d-4b66-87f4-de2fb2851e28-mh01-revert-card.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/51a8a8f6-76d4-482f-bfe9-e594088d290a-mh02-memo-saved.jpg" width="320">
 
 </details>
 
@@ -158,11 +157,9 @@ last_verified_at: 2026-07-16
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-07-14**
-
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260714/7d0c1f5b-73c7-4c9e-a518-6afe93d84675.png" width="320">
-
-カード右下の編集アイコンをタップするとテキスト編集シートが開く（既存メモが空のため初期表示は空欄）
+**確認日: 2026-10-15**
+カード右下の編集アイコンをタップするとメモの編集シートが開き、「after lunch」を保存した後にもう一度開くと既存のメモが入っていた。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/51a8a8f6-76d4-482f-bfe9-e594088d290a-mh02-memo-saved.jpg" width="320">
 
 </details>
 
@@ -239,9 +236,9 @@ last_verified_at: 2026-07-16
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-07-16**
-B の履歴画面で、A（displayName「お母さん」設定済み）が記録した服薬履歴に「お母さんさんが記録」という記録者ラベルが表示された。
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260716/777d1bc8-0cc0-45fe-ac19-1e239b70c177.png" width="380" />
+**確認日: 2026-10-15**
+A の履歴で、表示名未設定の B が記録したカードに「メンバーさんが記録」、B の取消のカードに「メンバーさんが取消」と表示された。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/15940d0f-77f3-4f38-9e50-c0db5a39daf2-sync05-a-history.jpg" width="320">
 
 </details>
 
@@ -249,8 +246,9 @@ B の履歴画面で、A（displayName「お母さん」設定済み）が記録
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-07-16**
-A 自身の履歴画面で、A 自身が記録した服薬履歴には記録者ラベルが表示されないことをコード（`_recorderDisplayName` が `recordedByUserID == 自分のuid` の場合 null を返す実装）と実機の両方で確認した。
+**確認日: 2026-10-15**
+A 自身が記録した 19:00 のカードには記録者ラベルが無かった。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/15940d0f-77f3-4f38-9e50-c0db5a39daf2-sync05-a-history.jpg" width="320">
 
 </details>
 
