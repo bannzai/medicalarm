@@ -31,8 +31,6 @@
 #
 # 冪等: 同じ入力なら同じ出力を上書きする。raw / 合成結果の両方を作り直す。
 set -euo pipefail
-# UDID=$(set_system_language ...) のようなコマンド置換の中でも set -e を効かせる (defaults write や shutdown の失敗を見逃さない)
-shopt -s inherit_errexit
 
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd -P)"
 cd "$SCRIPT_DIR/../.."
@@ -133,9 +131,11 @@ boot_simulator() {
 # 元のシステム言語は復元しない (撮影専用の simulator で、次回の実行でも自分で設定し直すため)
 set_system_language() {
   local udid=$1 language=$2 locale=$3
-  xcrun simctl spawn "$udid" defaults write .GlobalPreferences AppleLanguages -array "$language"
-  xcrun simctl spawn "$udid" defaults write .GlobalPreferences AppleLocale -string "$locale"
-  xcrun simctl shutdown "$udid"
+  # UDID=$(set_system_language ...) のコマンド置換の中では set -e が効かないため、各行の失敗を return 1 で伝える
+  # (macOS 標準の bash 3.2 には inherit_errexit が無い)
+  xcrun simctl spawn "$udid" defaults write .GlobalPreferences AppleLanguages -array "$language" || return 1
+  xcrun simctl spawn "$udid" defaults write .GlobalPreferences AppleLocale -string "$locale" || return 1
+  xcrun simctl shutdown "$udid" || return 1
   boot_simulator
 }
 
