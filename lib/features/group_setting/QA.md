@@ -184,7 +184,7 @@ B のグループ設定のメンバー一覧には削除ボタンが無かった
 <details><summary>動作確認スクショ</summary>
 
 **確認日: 2026-10-15**
-「招待コードを発行」をタップすると 8 桁のコード (6AW4X9Y3) と「有効期限: 2026/10/22 13:32」のダイアログが表示された。
+「招待コードを発行」をタップすると 8 桁のコード (6AW4****) と「有効期限: 2026/10/22 13:32」のダイアログが表示された。
 <img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/ade7d7d1-940d-4d4f-a5ea-17b125893f73-gs04-invite.jpg" width="320">
 
 </details>
@@ -194,7 +194,7 @@ B のグループ設定のメンバー一覧には削除ボタンが無かった
 <details><summary>動作確認スクショ</summary>
 
 **確認日: 2026-10-15**
-同じグループで続けて発行すると毎回別のコードになった (別ユーザーの 2 回、A の 3 回: 6AW4X9Y3 / 9XCACEEC / Q4YA45HR)。後から発行した 9XCACEEC と Q4YA45HR はどちらも参加に使えた。
+同じグループで続けて発行すると毎回別のコードになった (別ユーザーの 2 回、A の 3 回: 6AW4**** / 9XCA**** / Q4YA****)。後から発行した 9XCA**** と Q4YA**** はどちらも参加に使えた。
 <img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/6fc3e42c-7fbd-419b-8feb-c48dd0e5f44e-gs01-invite-1.jpg" width="320">
 <img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/1b604777-6c42-4957-909c-96ae93e3ea62-gs02-invite-2.jpg" width="320">
 <img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/ade7d7d1-940d-4d4f-a5ea-17b125893f73-gs04-invite.jpg" width="320">

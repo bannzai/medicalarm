@@ -73,7 +73,7 @@ last_verified_at: 2026-10-15
 <details><summary>動作確認スクショ</summary>
 
 **確認日: 2026-10-15**
-A が発行した「6AW4X9Y3」で B が参加すると、B のグループ一覧に参加先 (メンバー2人・既定) が並び、服薬画面が参加先のグループ (A の薬 Sync Med) に切り替わった。
+A が発行した「6AW4****」で B が参加すると、B のグループ一覧に参加先 (メンバー2人・既定) が並び、服薬画面が参加先のグループ (A の薬 Sync Med) に切り替わった。
 <img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/a85b5e23-d7f3-4aae-8c97-02ae6087211a-gi03-joined-list.jpg" width="320">
 <img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/4c0d7322-84c6-4150-8b51-aeb4333732a3-c01-medications-joined.jpg" width="320">
 
@@ -84,7 +84,7 @@ A が発行した「6AW4X9Y3」で B が参加すると、B のグループ一�
 <details><summary>動作確認スクショ</summary>
 
 **確認日: 2026-10-15**
-B が一度参加に使った「6AW4X9Y3」で、A に削除された後の B がもう一度参加しようとすると「Exception: この招待コードは既に使用されています」のエラーが表示された。
+B が一度参加に使った「6AW4****」で、A に削除された後の B がもう一度参加しようとすると「Exception: この招待コードは既に使用されています」のエラーが表示された。
 <img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/659fb107-818f-490b-8585-1ab004fe5e50-gi05-used-code.jpg" width="320">
 
 </details>
@@ -104,7 +104,7 @@ B が一度参加に使った「6AW4X9Y3」で、A に削除された後の B �
 <details><summary>動作確認スクショ</summary>
 
 **確認日: 2026-10-15**
-「9XCACEEC」で参加した B が同じコードでもう一度参加を押すと、エラーにならずグループ一覧に戻り、参加先は「メンバー2人」のまま重複しなかった。
+「9XCA****」で参加した B が同じコードでもう一度参加を押すと、エラーにならずグループ一覧に戻り、参加先は「メンバー2人」のまま重複しなかった。
 <img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/a85b5e23-d7f3-4aae-8c97-02ae6087211a-gi03-joined-list.jpg" width="320">
 
 </details>
