@@ -310,6 +310,32 @@ describe("generateMedicinesFromImage", () => {
     expect(result.error?.message).toBe("AI からの応答が空でした");
   });
 
+  test("異常系: AI が読み取りを拒否した場合、refusal の文面を含まない固定メッセージで NG を返す", async () => {
+    setup({});
+    mockChatCompletionsCreate.mockResolvedValueOnce({
+      choices: [
+        {
+          message: {
+            content: null,
+            refusal: "この画像には患者の氏名が含まれるため読み取れません",
+          },
+        },
+      ],
+    });
+
+    const result = await handler({
+      auth: { uid: "me" },
+      data: { mimeType: "image/jpeg", base64Image: validBase64Image },
+    });
+
+    expect(result.result).toBe("NG");
+    expect(result.statusCode).toBe(500);
+    expect(result.error?.message).toBe(
+      "AI が画像の読み取りを拒否しました。お薬の情報が写った画像でもう一度お試しください"
+    );
+    expect(result.error?.message).not.toContain("患者の氏名");
+  });
+
   test("異常系: AI 呼び出しが失敗した場合は NG を返す (利用回数は戻さない)", async () => {
     setup({});
     mockChatCompletionsCreate.mockRejectedValueOnce(new Error("OpenAI API error"));

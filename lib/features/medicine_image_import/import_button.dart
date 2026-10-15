@@ -132,6 +132,18 @@ class MedicineImageImportButton extends HookConsumerWidget {
           showErrorAlert(context, L.medicineImageImportGroupChangedError);
           return;
         }
+        // AI 抽出・レビュー中に通常のフォームから薬が追加されていると、build 時に計算した残り枠が
+        // 古くなり Medicine.maxCount を超えて保存できてしまうため、保存直前に最新の一覧で再計算する
+        if (countCreatedByUser(
+                  items: ref.read(activeMedicinesProvider).valueOrNull ?? medicines,
+                  userID: appUserID,
+                  creatorUserID: (medicine) => medicine.userID,
+                ) +
+                selectedCandidates.length >
+            medicineMaxCount) {
+          showErrorAlert(context, L.medicineMaxCount(medicineMaxCount));
+          return;
+        }
         // 複数件の登録は WriteBatch で原子的に行う (途中失敗による部分保存と、再実行時の重複登録を防ぐ)
         await medicineAdd.callAll(
           medicineInputs: [

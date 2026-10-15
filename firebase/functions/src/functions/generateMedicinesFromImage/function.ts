@@ -287,7 +287,11 @@ async function generateMedicinesFromImageHandler(req: {
     }
     const message = completion.choices[0]?.message;
     if (message?.refusal != null) {
-      throw new Error(message.refusal);
+      // refusal の文面はモデルが画像の内容 (薬名・患者情報) を引用して生成しうるため、
+      // Cloud Logging・クライアント応答のどちらにも残さず固定文言に置き換える
+      throw new Error(
+        "AI が画像の読み取りを拒否しました。お薬の情報が写った画像でもう一度お試しください"
+      );
     }
     if (message?.content == null) {
       throw new Error("AI からの応答が空でした");
