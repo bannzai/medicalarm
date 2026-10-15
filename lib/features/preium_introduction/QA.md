@@ -1,7 +1,7 @@
 ---
 feature: preium_introduction
 verification: mobile-mcp
-last_verified_commit: b28392fae518a7b8dc861588de798f90678346d6
+last_verified_commit: b3cd437d234b08e067c228af9b06b929d2b869bd
 last_verified_at: 2026-10-15
 ---
 
@@ -69,7 +69,9 @@ last_verified_at: 2026-10-15
 
 - [x] **月額プラン**: 「月額プラン」の行にストアの価格が表示される
 - [x] **年額プラン・割引バッジ**: 「年額プラン」の行にストアの価格が表示され、右上に「月額より{percent}%OFF」の割引バッジが表示される（percent は月額×12と年額の価格差から算出）
-- [x] **購入導線**: 月額・年額いずれかをタップすると購入処理が開始される。購入成功時に「Medicalarmプレミアム登録完了」ダイアログが表示される（RevenueCat 購入のため、シミュレータでは購入画面の表示までを確認）
+- [x] **購入導線**: 月額・年額いずれかをタップすると購入処理が開始される
+- [ ] **購入成功ダイアログ**: 購入成功時に「Medicalarmプレミアム登録完了」ダイアログが表示される
+  - ⏭️ スキップ: Simulator では StoreKit の購入が成立せず、購入成功まで進めない (購入を始めると Apple Account のサインインのダイアログで止まる)。Sandbox での購入と合わせて #340 で確認する
 
 #### 動作確認
 <details>
@@ -95,13 +97,21 @@ last_verified_at: 2026-10-15
 
 </details>
 
-### **購入導線**: 月額・年額いずれかをタップすると購入処理が開始される。購入成功時に「Medicalarmプレミアム登録完了」ダイアログが表示される（RevenueCat 購入のため、シミュレータでは購入画面の表示までを確認）
+### **購入導線**: 月額・年額いずれかをタップすると購入処理が開始される
 
 <details><summary>動作確認スクショ</summary>
 
 **確認日: 2026-10-15**
 年額プランをタップすると購入処理が始まり、Simulator では「Sign in to Apple Account」のダイアログが表示された (Cancel で閉じた)。どちらのパッケージが渡るかは画面では判別できないため、test/features/preium_introduction/purchase_buttons_test.dart の「年額プランボタンをタップすると年額パッケージが購入処理に渡される」「月額プランボタンをタップすると月額パッケージが購入処理に渡される」を `flutter test` で実行して pass を確認した (#248 の修正)。購入成功時のダイアログは Sandbox での購入が要るため #340 に移管した。
 <img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/a3a225e3-5805-44a8-84af-ff2297e8432c-pi01-paywall.jpg" width="320">
+
+</details>
+
+### **購入成功ダイアログ**: 購入成功時に「Medicalarmプレミアム登録完了」ダイアログが表示される
+
+<details><summary>動作確認スクショ</summary>
+
+（未実行）
 
 </details>
 

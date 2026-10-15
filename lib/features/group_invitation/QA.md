@@ -1,7 +1,7 @@
 ---
 feature: group_invitation
 verification: mobile-mcp
-last_verified_commit: b28392fae518a7b8dc861588de798f90678346d6
+last_verified_commit: b3cd437d234b08e067c228af9b06b929d2b869bd
 last_verified_at: 2026-10-15
 ---
 
@@ -61,7 +61,8 @@ last_verified_at: 2026-10-15
 
 - [x] 有効なコードで参加に成功し、表示中グループが参加先に切り替わる
 - [x] 使用済みコード（他のユーザーが参加済み）では「既に使用されています」相当のエラーが表示される
-- [x] 形式は正しいが存在しないコードではエラーが表示される
+- [ ] 形式は正しいが存在しないコードではエラーが表示される
+  - ⏭️ スキップ: 存在しない「ABCDEFGH」で参加を押した 2 回は、どちらも Cloud Functions に届く前の NetworkException で、存在しないコードへのサーバーの応答を確認できていない。エラーダイアログを閉じた後に再操作できることだけは確認した。次の QA で使われていないことが確かなコードで確認し直す
 - [x] 参加に成功した B が同じコードで再度参加操作をしてもエラーで固まらない（冪等）
 
 #### 動作確認
@@ -94,7 +95,7 @@ B が一度参加に使った「6AW4****」で、A に削除された後の B �
 <details><summary>動作確認スクショ</summary>
 
 **確認日: 2026-10-15**
-存在しない「ABCDEFGH」で参加を押すとエラーダイアログが表示され、閉じると入力画面に戻って再操作できた (この時は B の runner から Cloud Functions に届かず「NetworkException」のエラーだった。B を別の runner で起動し直した後は正常に参加できた)。
+存在しない「ABCDEFGH」で参加を押すとエラーダイアログが表示され、閉じると入力画面に戻って再操作できた。ただしこのエラーは B の runner から Cloud Functions に届かなかった「NetworkException」で、存在しないコードへのサーバーの応答ではない (このため項目は ⏭️ にした)。
 <img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/9d28f448-0fb2-46cd-af08-f1a2f68d4e7a-gi02-valid-format-uppercased.jpg" width="320">
 
 </details>
