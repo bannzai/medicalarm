@@ -38,6 +38,16 @@ Future<T> _bootStep<T>(String stepName, Future<T> future) async {
   }
 }
 
+/// [details] の例外とスタックトレースを、[label] を前置して 1 行ずつ print する。
+/// os_log は 1 件を 1024 バイトまでに切り詰めるため、数 KB になるスタックトレースを 1 回の print で出すと途中で切れる
+/// (出典: https://developer.apple.com/forums/thread/775950 )
+void _printErrorDetailsByLine({required String label, required FlutterErrorDetails details}) {
+  for (final line in '${details.exceptionAsString()}\n${details.stack}'.split('\n')) {
+    // ignore: avoid_print
+    print('[$label] $line');
+  }
+}
+
 void main() async {
   runZonedGuarded(() async {
     WidgetsFlutterBinding.ensureInitialized();
@@ -108,7 +118,24 @@ void main() async {
     });
 
     // MEMO: FirebaseCrashlytics#recordFlutterError called dumpErrorToConsole in function.
-    FlutterError.onError = FirebaseCrashlytics.instance.recordFlutterError;
+    FlutterError.onError = (details) {
+      // nightly E2E で赤画面 (ErrorWidget) が出た時、FlutterError.presentError の出力が simulator のログ (os_log) に残らず
+      // Dart のスタックトレースを取れなかった (#387)。同じログに debugPrint の行は残っており、欠けた原因は特定できていない。
+      // presentError とは別の経路の print でも最初の例外とスタックトレースを出す。debug に限定する理由は zone error と同じ
+      if (kDebugMode) {
+        _printErrorDetailsByLine(label: 'FlutterError', details: details);
+      }
+      FirebaseCrashlytics.instance.recordFlutterError(details);
+    };
+    // build 中の例外は onError の後に赤画面を作るため通常は上と重複して出る。onError の差し替えや
+    // onError 自体の失敗で上の出力が欠けても例外を残せるよう、赤画面を作る時にも出す (#387)
+    final errorWidgetBuilder = ErrorWidget.builder;
+    ErrorWidget.builder = (details) {
+      if (kDebugMode) {
+        _printErrorDetailsByLine(label: 'ErrorWidget', details: details);
+      }
+      return errorWidgetBuilder(details);
+    };
 
     runApp(ProviderScope(
       overrides: [
