@@ -31,8 +31,8 @@ launched_at: 2025-03-04   # 公開日 (YYYY-MM-DD)。App Store の初回公開�
 - [x] Crashlytics のアラートの Slack 転送 (#medicalarm-notification。PR #356)
 - [ ] 画像から服薬する薬の予定を作る (#257。PR #267)
 - [ ] デザインのリニューアル (#274)
-- [ ] App Store の公開版 (202605.02.205812、2026-05-03。`fetch-app-metadata.sh 6740401642 --country jp` の `version` / `currentVersionReleaseDate` を 2026-10-11 に実測。main の `pubspec.yaml` は 202607.15 でタグもあるがストアには出ていない) 以降に main へ入った変更 (オンボーディング、起動時のストアレビュー訴求の削除 #294 等) のリリース (`scripts/release.sh`)。前提: 次の E2E の項目が済むことと QA.md の記録の追随
-- [ ] nightly E2E (`CI E2E (Flutter iOS)`) が main で通る状態 (#373 → PR #381 でフローは全件 Passed になったが、Flutter 3.44.9 (#371) の Swift Package Manager 既定化で main の iOS ビルドが落ちる。2026-10-11〜13 の 3 回失敗。#383)
+- [ ] App Store の公開版 (202605.02.205812、2026-05-03。`fetch-app-metadata.sh 6740401642 --country jp` の `version` / `currentVersionReleaseDate` を 2026-10-11 に実測。main の `pubspec.yaml` は 202607.15 でタグもあるがストアには出ていない) 以降に main へ入った変更 (オンボーディング、起動時のストアレビュー訴求の削除 #294 等) のリリース (`scripts/release.sh`)。前提: QA.md の記録の追随 (#393。2026-10-15 に `check_qa_gate.sh --features-dir lib/features` が `GATE:fail`)。次の E2E の項目は済んだ
+- [x] nightly E2E (`CI E2E (Flutter iOS)`) が main で通る状態 (#383 → PR #386 で iOS ビルドを直し、main の schedule の run が 2026-10-14 に success: https://github.com/bannzai/medicalarm/actions/runs/38617042800 。間欠的な失敗は #387)
 
 ## デザインの方向
 
@@ -48,6 +48,8 @@ launched_at: 2025-03-04   # 公開日 (YYYY-MM-DD)。App Store の初回公開�
 | 2026-10-11 | 無人ループ | 判定基準「直近14日の★1〜2レビュー数」の計測元 `fetch-reviews.sh` がレビュー 1 件の feed で 0 件を返す不具合を見つけ、castle 側で修正した (https://github.com/bannzai/castle/pull/1609 )。修正後のスクリプトで feed 全体のレビューは 1 件 (★5、2026-08-03) で、判定基準の値「直近 14 日の ★1〜2 レビュー数」は 0 件 | agent |
 | 2026-10-13 | 判定日 | 継続。3 指標とも継続のしきい値を満たす (平均評価 4.27 / 11 件、直近 14 日の ★1〜2 レビュー 0 件、直近 14 日の FATAL issue 0 件。`documents/loop/metrics-2026-10-13.json`)。転換の条件「直近 14 日の新規レビューが 2 回連続 0 件」は、新規レビューが無い状態が公開版 202605.02 のまま続いているため今回は数えず (未リリースの改善が届いていない状態での獲得側の転換は早い)、リリース後の判定日から数える。次の判定日は 2026-10-27 | agent |
 | 2026-10-14 | 無人ループ | 判定日の文書の変更 (判定の行・判定日の前進・指標の記録) と日次の分析の変更 (必要な機能の E2E の項目) を、同じファイルへの PR を 2 本重ねて競合させないため 1 本の PR `product-loop/2026-10-13` にまとめた | agent |
+| 2026-10-15 | 無人ループ | リリース前の QA (#393) は現在の main を対象にし、open の #392 (google_mobile_ads・sign_in_with_apple の SwiftPM 対応版への更新) のマージを待たない。#386 で CI の iOS ビルドは直っており、#392 はストアのビルドの前提ではない。#392 が後でマージされて QA のゲートが再び fail になったら、次のリリースの前に差分の QA をし直す | agent |
+| 2026-10-15 | 無人ループ | 判定基準「直近14日のFATALクラッシュissue数」は、このマシンの firebase CLI に認証済みアカウントが無く (`firebase login:list` が `No authorized accounts`) 取得できなかったため UNMEASURED とした。`firebase login` は対話認証で bannzai にしかできない。判定日 (2026-10-27) までに戻らなければ、その指標を除いて判定する | agent |
 
 ## agent に任せること
 
