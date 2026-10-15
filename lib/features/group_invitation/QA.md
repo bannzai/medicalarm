@@ -1,7 +1,7 @@
 ---
 feature: group_invitation
 verification: mobile-mcp
-last_verified_commit: 263630555ac273bca24b8c4df556f018b9a8578d
+last_verified_commit: ebcfd81fb3b432696218ceb32ea3df0434611c3b
 last_verified_at: 2026-10-16
 ---
 
@@ -115,8 +115,7 @@ B が一度参加に使った「6AW4****」で、A に削除された後の B �
 
 ## 3. マルチユーザー同期（A・B 両視点）
 
-- [ ] B の参加後、A のグループ設定のメンバー一覧に B がリアルタイムで現れる
-  - ❌ 失敗: B の参加 3 回 (初回の参加と、A に削除された後の再参加 2 回) のうち、1 回目の再参加だけ A のメンバー一覧とグループ一覧が「メンバー1人」のまま更新されず、A のアプリを起動し直すまで B が表示されなかった。初回の参加と 2 回目の再参加では反映された。原因は未確認。issue: https://github.com/bannzai/medicalarm/issues/404
+- [x] B の参加後、A のグループ設定のメンバー一覧に B がリアルタイムで現れる
 - [x] B がグループ切替チップで共有グループに切り替えると、A が登録した薬が表示される
 - [x] B が服薬チェックすると、A の服薬記録一覧にもB の記録がリアルタイムで現れる
 - [x] A から見て B の記録に記録者ラベルが表示される（B の displayName 未設定時は「メンバー」フォールバック）。A 自身の記録にはラベルが出ない
@@ -139,11 +138,20 @@ B が一度参加に使った「6AW4****」で、A に削除された後の B �
 <details><summary>動作確認スクショ</summary>
 
 **確認日: 2026-10-15**
-初回の参加の後に開いた A のメンバー一覧には B が並んだ。A が B を削除した後の 1 回目の再参加では、B の画面は「メンバー2人」なのに A のグループ一覧は「メンバー1人」のままで、A を起動し直すと B が表示された。2 回目の再参加では、開いたままの A のメンバー一覧に B がすぐ現れた (❌、#404)。
+初回の参加の後に開いた A のメンバー一覧には B が並んだ。A が B を削除した後の 1 回目の再参加では、B の画面は「メンバー2人」なのに A のグループ一覧は「メンバー1人」のままで、A を起動し直すと B が表示された。2 回目の再参加では、開いたままの A のメンバー一覧に B がすぐ現れた (#404)。
 <img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/47488e7e-4e98-4f8c-aa12-2af8a2994912-gs05-members.jpg" width="320">
 <img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/2de99069-b146-4cf7-8a72-faf3052ffea3-gl03-a-after-rejoin.jpg" width="320">
 <img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/8fbadb3f-646d-457b-9ff3-161c3b103ee7-gs13-a-members-after-relaunch.jpg" width="320">
 <img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/7ff1d277-269e-46ee-8992-e13e7aef908b-gs18-a-member-realtime-ok.jpg" width="320">
+
+**確認日: 2026-10-16** (main の ebcfd81f を simtunnel でビルドした iPhone 17 / iOS 26.5 の Simulator 2 台。A・B とも新規の匿名ユーザー)
+B の参加 4 回 (初回の参加と、A が B を削除 → A が新しい招待コードを発行 → B が再参加、を 3 回) のすべてで、A のアプリを起動し直さずに B が反映された。初回と再参加 1・2 回目は A のグループ設定のメンバー一覧を開いたまま、再参加 3 回目は A のグループ一覧を開いたままにし、B が「参加する」を押してから 3 秒後の A の画面に B (メンバー一覧の 2 人目・グループ一覧の「2 members」) が出ていた。2026-10-15 の不具合 (再参加の後に A のメンバー一覧とグループ一覧が更新されない) は再現しなかった。#404 の ❌ はこの結果で ✅ にした。原因は確認できておらず、今回は再現しなかったことだけが根拠である。方向性の文書 (documents/DIRECTION.md) の 2026-10-16 の決定「#404 の ❌ は #404 を閉じるかの判断と切り離し、同じ QA 項目を simtunnel で実行し直して、再現しなければ ✅ に書き換えて未再現の回数を #404 に記録する。再現したら ❌ のままにしてリリースを止める」に従った。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/7c1c49cf-4bf0-4272-8549-125fd558d226-a-52.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/85edafa8-54f8-44ba-8fda-6147db98816b-a-r1-t3.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/9f0c3018-0ed6-4dfe-a8c4-fc92d20e99dc-a-r2-t3.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/e23f4d2c-7720-44d7-b4b2-7b63a05d545c-a-r3-list.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/1b772448-d3b9-4374-9413-c92f53ae6a7f-a-r3-t3.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/601dfaf3-0c1e-412b-a6a7-eeb01ad5c437-b-r3.jpg" width="320">
 
 </details>
 

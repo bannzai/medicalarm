@@ -1,7 +1,7 @@
 ---
 feature: _root
 verification: mobile-mcp
-last_verified_commit: 263630555ac273bca24b8c4df556f018b9a8578d
+last_verified_commit: ebcfd81fb3b432696218ceb32ea3df0434611c3b
 last_verified_at: 2026-10-16
 ---
 
@@ -65,6 +65,7 @@ make secret  # 環境変数 FILE_FIREBASE_IOS / REVENUE_CAT_PUBLIC_API_KEY が�
 - [x] **初回起動で服薬画面に到達**: クリーンインストール（`xcrun simctl uninstall <UDID> com.bannzai.medicalarm` でアプリ削除 → 再インストール）後の起動で、通知許可・ATT ダイアログを経て服薬画面が表示される。クリーンインストール操作は手動で行う（maestro/flows/helpers/allow_notification.yaml は `clearState: false` で表示中ダイアログの突破のみを行い、状態のリセットはしない）
 - [x] **2 回目以降の起動**: 再起動時はダイアログ群が再表示されず、直接服薬画面が表示される
 - [x] **匿名認証とデータ永続化**: 再起動しても登録済みの薬・服薬記録が保持されている（匿名ユーザーが維持されている）
+- [x] **Swift Package Manager で取り込んだネイティブ plugin**: iOS のビルドが通り、服薬画面に AdMob の広告 (ネイティブ広告) が表示され、設定タブの「Apple でアカウントを引き継ぐ」をタップすると Apple でのサインインの OS の画面が開く（#392 で google_mobile_ads・sign_in_with_apple を SwiftPM 対応版に上げた。リンクの成功は lib/features/account_link/QA.md のとおり実機が要るため、ここでは画面遷移までを見る）
 
 #### 動作確認
 <details>
@@ -79,6 +80,13 @@ simtunnel の Simulator にアプリを新規インストールしたユーザ�
 <img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/6eb92f56-685d-4e52-a955-cbef3f518bf6-ob01-welcome.jpg" width="320">
 <img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/c0d369a6-655f-4e1e-9791-bff08015c6ab-ob11-placeholder-cards.jpg" width="320">
 
+**確認日: 2026-10-16** (#392 の SwiftPM 化の後。main の ebcfd81f を simtunnel でビルドした iPhone 17 / iOS 26.5 の Simulator)
+アプリを新規インストールした Simulator で、初回起動からオンボーディング・ペイウォールを閉じた後に ATT → 通知許可のダイアログが出て、服薬画面に到達した。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/290f9350-a11d-40af-a1be-149c1f061c08-a-01-first-launch.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/90add54f-7d1a-4680-9a42-bc2ea497b70f-a-13.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/8e25b01a-863b-45d1-920f-6dabe202c6cc-a-14.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/e7045fb5-7316-47e0-b630-088581234ba0-a-15.jpg" width="320">
+
 </details>
 
 ### **2 回目以降の起動**: 再起動時はダイアログ群が再表示されず、直接服薬画面が表示される
@@ -90,6 +98,10 @@ simtunnel の Simulator にアプリを新規インストールしたユーザ�
 <img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/d8e1b0cd-a3d8-4a20-8ad9-882f872abbab-ob12-relaunch.jpg" width="320">
 <img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/36991f7e-b918-412a-9a21-5e03d0572398-m09-chip-persisted.jpg" width="320">
 
+**確認日: 2026-10-16** (#392 の SwiftPM 化の後。main の ebcfd81f の simtunnel の Simulator)
+アプリを終了して起動し直すと、ATT・通知許可・オンボーディングは出ずに服薬画面が直接表示された (開発ビルドの AdMob validator の警告だけが出る)。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/5a238fb8-3b52-4ea3-b3f6-7ffef968c3a3-a-45.jpg" width="320">
+
 </details>
 
 ### **匿名認証とデータ永続化**: 再起動しても登録済みの薬・服薬記録が保持されている（匿名ユーザーが維持されている）
@@ -100,6 +112,21 @@ simtunnel の Simulator にアプリを新規インストールしたユーザ�
 起動し直しても、登録した薬・服薬記録・選んだグループが保持されていた。
 <img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/d8e1b0cd-a3d8-4a20-8ad9-882f872abbab-ob12-relaunch.jpg" width="320">
 <img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/36991f7e-b918-412a-9a21-5e03d0572398-m09-chip-persisted.jpg" width="320">
+
+**確認日: 2026-10-16** (#392 の SwiftPM 化の後。main の ebcfd81f の simtunnel の Simulator)
+登録した薬「QA408」(10:00・容量 1tab) が、アプリを終了して起動し直した後も服薬画面に表示された。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/5a238fb8-3b52-4ea3-b3f6-7ffef968c3a3-a-45.jpg" width="320">
+
+</details>
+
+### **Swift Package Manager で取り込んだネイティブ plugin**: iOS のビルドが通り、服薬画面に AdMob の広告 (ネイティブ広告) が表示され、設定タブの「Apple でアカウントを引き継ぐ」をタップすると Apple でのサインインの OS の画面が開く（#392 で google_mobile_ads・sign_in_with_apple を SwiftPM 対応版に上げた。リンクの成功は lib/features/account_link/QA.md のとおり実機が要るため、ここでは画面遷移までを見る）
+
+<details><summary>動作確認スクショ</summary>
+
+**確認日: 2026-10-16**
+main の ebcfd81f (#392 の後) を simtunnel の build job (`flutter build ios --simulator --debug`) でビルドでき (https://github.com/bannzai/medicalarm/actions/runs/38767934016 )、iPhone 17 / iOS 26.5 の Simulator で起動した。服薬画面に AdMob のテスト広告 (「Test mode: Flood-It!」) が表示された。設定タブの「Apple でアカウントを引き継ぐ」(英語表示では「Transfer with Apple」) をタップすると、OS の「Sign in to your Apple Account」のダイアログが開いた (Simulator が Apple Account に未サインインのため、OS がサインインを促す画面になる)。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/e7045fb5-7316-47e0-b630-088581234ba0-a-15.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/9cb2395f-2394-49f9-b627-b6ac680b279d-a-18.jpg" width="320">
 
 </details>
 
@@ -128,6 +155,7 @@ simtunnel の Simulator にアプリを新規インストールしたユーザ�
 **確認日: 2026-10-11**
 iPhone Duo の Simulator (iOS 27.1、Xcode 27.1 27A9275) で主要画面を 3 姿勢で撮影した (プラン生成だけは外側のみ)。全画面のモーダルシート (お薬登録フォーム・服用頻度・服用者・ペイウォール) とお薬一覧の崩れを修正し、修正後に崩れが無いことを確認した。全画面のスクリーンショットと修正前後の比較は issue https://github.com/bannzai/medicalarm/issues/370 を Closes する PR に載せている。
 2026-10-15 追記: 2026-10-11 の確認以降の lib/ の変更は、お薬一覧のカードの編集アイコンに Semantics identifier を付けた変更 (9f97f7ec) だけで画面の配置は変わらないため、Duo では撮り直していない。
+2026-10-16 追記: その後の lib/ の変更は、容量欄の入力を入力のたびに保存する変更 (#403。行に key を付けた以外に配置の変更は無い) と、デバッグビルドで例外をログに出す変更 (#406) で、画面の配置は変わらないため Duo では撮り直していない。#392 の SwiftPM 化は依存の取り込み方の変更で、画面の配置は変わらない。
 <img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/11/67c158b5-545c-478f-bb3d-1f7ddb1f2957-duo-10-medicine-form-after-outer.png" alt="iPhone Duo 外側ディスプレイのお薬登録フォーム (修正後)" width="300" /> <img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/11/bc31f287-375f-482a-997b-7ca2a599fd0b-duo-10-medicine-form-after-inner.png" alt="iPhone Duo 内側ディスプレイのお薬登録フォーム (修正後)" width="420" />
 
 </details>
