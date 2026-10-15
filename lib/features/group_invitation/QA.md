@@ -1,8 +1,8 @@
 ---
 feature: group_invitation
 verification: mobile-mcp
-last_verified_commit: efbd9632640d4658431631749be373ec8652c0f2
-last_verified_at: 2026-07-16
+last_verified_commit: b28392fae518a7b8dc861588de798f90678346d6
+last_verified_at: 2026-10-15
 ---
 
 # group_invitation QA
@@ -123,7 +123,8 @@ B が一度参加に使った「6AW4X9Y3」で、A に削除された後の B �
 - [x] B がグループ設定で表示名を設定すると、A 側の記録者ラベル・メンバー一覧に反映される
 - [ ] B の端末で共有薬のリマインダーローカル通知がスケジュールされる（スケジュール時刻を数分後に設定して通知バナー表示を確認）
   - ⏭️ スキップ: 通知バナーの表示は時刻の経過を待つ必要があり、今回の simtunnel のセッションでは確認していない。予約の内容は DEBUG の Local Notifications 画面で確認できるため、次の QA で確認する
-- [x] 非作成者 B の通知個別設定を開くと、初期値で Critical Alert とアラーム機能（AlarmKit）が OFF になっている（共有薬の Critical Alert が勝手に鳴らない設計）
+- [ ] 非作成者 B の通知個別設定を開くと、初期値で Critical Alert とアラーム機能（AlarmKit）が OFF になっている（共有薬の Critical Alert が勝手に鳴らない設計）
+  - ⏭️ スキップ: B が A の共有薬の通知設定を開いた時、アクセシビリティの値では「マナーモードでも通知する」と「アラーム機能」が OFF (value=0) だったが、スクリーンショットの取得が MJPEG フレームの取得失敗で撮れず、画像のエビデンスが無い。次の QA で撮り直す
 - [x] A が記録済みのスケジュールは B 側でも記録済み表示になる（重複記録にならない）
 
 注: 服薬記録時の他メンバーへの FCM push の**実配信確認は本 QA の対象外**（ユーザー判断で除外。関数の実行は Cloud Logging の sendMedicationRecordNotification のログで確認できれば十分）。

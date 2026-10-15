@@ -1,8 +1,8 @@
 ---
 feature: dose_receiver_form
 verification: mobile-mcp
-last_verified_commit: ceab6b15bfd78420f8bbb9a67bd045e58f0f4362
-last_verified_at: 2026-07-14
+last_verified_commit: b28392fae518a7b8dc861588de798f90678346d6
+last_verified_at: 2026-10-15
 ---
 
 # dose_receiver_form QA

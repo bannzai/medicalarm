@@ -1,8 +1,8 @@
 ---
 feature: onboarding
 verification: maestro, mobile-mcp
-last_verified_commit: 90f723b1ead9d5e66c12ce4331a8e8b602a105e8
-last_verified_at: 2026-09-03
+last_verified_commit: b28392fae518a7b8dc861588de798f90678346d6
+last_verified_at: 2026-10-15
 ---
 
 # onboarding QA

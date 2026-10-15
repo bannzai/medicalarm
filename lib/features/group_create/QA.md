@@ -1,8 +1,8 @@
 ---
 feature: group_create
 verification: mobile-mcp
-last_verified_commit: efbd9632640d4658431631749be373ec8652c0f2
-last_verified_at: 2026-07-17
+last_verified_commit: b28392fae518a7b8dc861588de798f90678346d6
+last_verified_at: 2026-10-15
 ---
 
 # group_create QA

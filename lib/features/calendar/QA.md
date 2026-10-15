@@ -1,8 +1,8 @@
 ---
 feature: calendar
 verification: maestro
-last_verified_commit: 258bf23b3f31c54d3bb0374562dfc179160b04e7
-last_verified_at: 2026-08-10
+last_verified_commit: b28392fae518a7b8dc861588de798f90678346d6
+last_verified_at: 2026-10-15
 ---
 
 # calendar QA
