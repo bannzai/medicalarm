@@ -38,6 +38,16 @@ Future<T> _bootStep<T>(String stepName, Future<T> future) async {
   }
 }
 
+/// [details] の例外とスタックトレースを、[label] を前置して 1 行ずつ print する。
+/// os_log は 1 件を 1024 バイトまでに切り詰めるため、数 KB になるスタックトレースを 1 回の print で出すと途中で切れる
+/// (出典: https://developer.apple.com/forums/thread/775950 )
+void _printErrorDetailsByLine({required String label, required FlutterErrorDetails details}) {
+  for (final line in '${details.exceptionAsString()}\n${details.stack}'.split('\n')) {
+    // ignore: avoid_print
+    print('[$label] $line');
+  }
+}
+
 void main() async {
   runZonedGuarded(() async {
     WidgetsFlutterBinding.ensureInitialized();
@@ -113,15 +123,16 @@ void main() async {
       // Dart のスタックトレースを取れなかった (#387)。debugPrint の間引き (debugPrintThrottled) を通らない print で
       // 最初の例外とスタックトレースも出す。debug に限定する理由は zone error と同じ
       if (kDebugMode) {
-        print('[FlutterError] ${details.exceptionAsString()}\n${details.stack}');
+        _printErrorDetailsByLine(label: 'FlutterError', details: details);
       }
       FirebaseCrashlytics.instance.recordFlutterError(details);
     };
-    // onError を通らずに赤画面になる経路でも例外を残すため、赤画面を作る時にも出す (#387)
+    // build 中の例外は onError の後に赤画面を作るため通常は上と重複して出る。onError の差し替えや
+    // onError 自体の失敗で上の出力が欠けても例外を残せるよう、赤画面を作る時にも出す (#387)
     final errorWidgetBuilder = ErrorWidget.builder;
     ErrorWidget.builder = (details) {
       if (kDebugMode) {
-        print('[ErrorWidget] ${details.exceptionAsString()}\n${details.stack}');
+        _printErrorDetailsByLine(label: 'ErrorWidget', details: details);
       }
       return errorWidgetBuilder(details);
     };
