@@ -53,6 +53,8 @@ last_verified_at: 2026-07-14
 
 ⚠️ 動作確認中に発見した不具合: 容量欄（`MedicineScheduleQuantityMemoTextField`）は `onFieldSubmitted`（キーボード return/done 押下）でしか親の状態に反映されない実装で、他の欄（薬メモ等）と異なり `onChanged` を使っていない。入力後に return を押さず他要素をタップしてフォーカスを外すと、保存時に入力内容が破棄される。さらに編集画面を再度開いても容量欄は常に空欄で表示され、保存済みの値がプリフィルされない（`TextFormField` に `initialValue`/`controller` が設定されていないため）。GitHub issue 起票を試みたが `gh issue list` 等の確認コマンドが権限承認待ちでブロックされ、issue 作成の成否を確認できていない。詳細は本 QA セッションの完了報告を参照。
 
+✅ 2026-10-15: 上記の不具合は #402 で修正済み (入力のたびに反映し、編集時に保存済みの値を初期表示する)。確認結果は `lib/features/medicine_form/QA.md` の「服用スケジュールの編集・削除」に記録した。
+
 </details>
 
 ### **アーカイブ済みの除外**: archivedDateTime が設定された薬はお薬一覧に表示されない
