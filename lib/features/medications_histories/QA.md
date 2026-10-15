@@ -13,7 +13,7 @@ last_verified_at: 2026-07-16
 - [x] **週カレンダー・本日バッジ**: 画面上部に週表示カレンダーと選択日を示すバッジ（TodayBadge）が表示される
 - [x] **履歴カード**: 選択日に服用記録がある場合、記録ごとにカードが一覧表示される
 - [x] **カード内容**: 各カードに薬名（プライマリカラー・太字）、数量メモ（右寄せ）、服用者名、「予定時刻」（月日＋スケジュール時刻）、「記録時間」（月日＋記録時刻）が表示される
-- [ ] **取消記録のカード**: 服薬画面でチェックを外すと、その取消（revert）が「服薬記録の取り消し」ラベル付きのカードとして一覧に並び、「予定時刻」と「取消時間」が表示される。取消カードにはメモの編集ボタンが無い (#253)
+- [x] **取消記録のカード**: 服薬画面でチェックを外すと、その取消（revert）が「服薬記録の取り消し」ラベル付きのカードとして一覧に並び、「予定時刻」と「取消時間」が表示される。取消カードにはメモの編集ボタンが無い (#253)
 
 #### 動作確認
 <details>
@@ -23,11 +23,9 @@ last_verified_at: 2026-07-16
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-07-14**
-
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260714/be5f2b42-fc79-4cd4-95fd-deb45dc64363.png" width="320">
-
-AppBar に「服薬履歴」が表示されている
+**確認日: 2026-10-15**
+履歴タブを開くと AppBar に「服薬履歴」と表示された。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/7ee6e842-142d-4b66-87f4-de2fb2851e28-mh01-revert-card.jpg" width="320">
 
 </details>
 
@@ -35,11 +33,9 @@ AppBar に「服薬履歴」が表示されている
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-07-14**
-
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260714/be5f2b42-fc79-4cd4-95fd-deb45dc64363.png" width="320">
-
-週表示カレンダー（12〜18の日付、14が選択中でハイライト）と、選択日を示す「← 7/14 →」バッジが表示されている
+**確認日: 2026-10-15**
+上部に週表示のカレンダーと選択日のバッジ (10/14) が表示された。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/7ee6e842-142d-4b66-87f4-de2fb2851e28-mh01-revert-card.jpg" width="320">
 
 </details>
 
@@ -47,11 +43,9 @@ AppBar に「服薬履歴」が表示されている
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-07-14**
-
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260714/be5f2b42-fc79-4cd4-95fd-deb45dc64363.png" width="320">
-
-服薬画面（medications タブ）でQAテスト薬Aの11:00スケジュールにチェックを入れて服用記録を作成した後、服薬履歴タブで7/14を選択するとカードが1件表示される
+**確認日: 2026-10-15**
+服用記録がある日に、記録ごとのカードが一覧表示された。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/7ee6e842-142d-4b66-87f4-de2fb2851e28-mh01-revert-card.jpg" width="320">
 
 </details>
 
@@ -64,6 +58,16 @@ AppBar に「服薬履歴」が表示されている
 <img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260714/be5f2b42-fc79-4cd4-95fd-deb45dc64363.png" width="320">
 
 「QAテスト薬A」（プライマリカラー・太字）、「自分」、「予定時刻: 7月14日 11:00」、「記録時間: 7月14日 22:54」が表示されている（このスケジュールは数量メモ未設定のため数量メモ欄は空）
+
+</details>
+
+### **取消記録のカード**: 服薬画面でチェックを外すと、その取消（revert）が「服薬記録の取り消し」ラベル付きのカードとして一覧に並び、「予定時刻」と「取消時間」が表示される。取消カードにはメモの編集ボタンが無い (#253)
+
+<details><summary>動作確認スクショ</summary>
+
+**確認日: 2026-10-15**
+服薬画面で 19:00 のチェックを外すと、「服薬記録の取り消し」ラベル付きのカード (予定時刻 10月14日 19:00・取消時間 10月14日 20:18) が一覧に並んだ。取消カードにはメモの編集アイコンが無かった。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/7ee6e842-142d-4b66-87f4-de2fb2851e28-mh01-revert-card.jpg" width="320">
 
 </details>
 
@@ -120,11 +124,9 @@ AppBar に「服薬履歴」が表示されている
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-07-14**
-
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260714/da1d9b31-397d-49a9-9c2f-8a24536f01ae.png" width="320">
-
-7/16選択状態から週内の「14」をタップすると、7/14の服薬履歴一覧（QAテスト薬Aのカード）に切り替わった
+**確認日: 2026-10-15**
+カレンダーの 14 をタップすると、10/14 の履歴表示に切り替わった。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/154d998e-a836-4646-a5fa-29378197e06d-mh03-past-blur.jpg" width="320">
 
 </details>
 
@@ -146,11 +148,9 @@ AppBar に「服薬履歴」が表示されている
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-07-14**
-
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260714/be5f2b42-fc79-4cd4-95fd-deb45dc64363.png" width="320">
-
-メモ未入力の履歴カードに「メモなし」と表示されている
+**確認日: 2026-10-15**
+メモが空の履歴カードに「メモなし」と表示された。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/7ee6e842-142d-4b66-87f4-de2fb2851e28-mh01-revert-card.jpg" width="320">
 
 </details>
 
@@ -170,11 +170,9 @@ AppBar に「服薬履歴」が表示されている
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-07-14**
-
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260714/ac0cf1d9-bf32-4880-9ef6-75d2bcf6471a.png" width="320">
-
-「QA確認用メモ」と入力して保存すると、カードのメモ表示が「メモなし」から「QA確認用メモ」に更新された
+**確認日: 2026-10-15**
+編集シートで「after lunch」を入力して「保存」をタップすると、カードの表示が「after lunch」に変わった。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/51a8a8f6-76d4-482f-bfe9-e594088d290a-mh02-memo-saved.jpg" width="320">
 
 </details>
 
@@ -196,11 +194,9 @@ AppBar に「服薬履歴」が表示されている
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-07-14**
-
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260714/23efa350-4b7a-4d7f-8a50-65b36aac820e.png" width="320">
-
-今日（7/14）より前の7/13を選択すると、一覧全体にブラーがかかり「プレミアムプランの加入で閲覧が可能です」リンクが中央に表示される
+**確認日: 2026-10-15**
+プレミアム未加入で今日 (10/15) より前の 10/14 を選ぶと、一覧にブラーがかかり「プレミアムプランの加入で閲覧が可能です」が表示された。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/154d998e-a836-4646-a5fa-29378197e06d-mh03-past-blur.jpg" width="320">
 
 </details>
 
@@ -208,11 +204,10 @@ AppBar に「服薬履歴」が表示されている
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-07-14**
-
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260714/69c2efe4-266c-486c-a461-7fbbd985de31.png" width="320">
-
-「プレミアムプランの加入で閲覧が可能です」リンクをタップするとプレミアム紹介シートが開き、特典の一つとして「服用履歴をすべて表示」が示される
+**確認日: 2026-10-15**
+「プレミアムプランの加入で閲覧が可能です」をタップするとプレミアム紹介シートが開いた。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/154d998e-a836-4646-a5fa-29378197e06d-mh03-past-blur.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/a3a225e3-5805-44a8-84af-ff2297e8432c-pi01-paywall.jpg" width="320">
 
 </details>
 
@@ -220,11 +215,9 @@ AppBar に「服薬履歴」が表示されている
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-07-14**
-
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260714/be5f2b42-fc79-4cd4-95fd-deb45dc64363.png" width="320">
-
-今日（7/14）を選択した状態ではブラー制限がかからず、履歴カードがそのまま表示される（項目2で確認した未来日7/16でも同様に制限なし）
+**確認日: 2026-10-15**
+今日 (10/15) を選んでいる間はブラー制限が表示されず、記録のカードがそのまま表示された。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/51a8a8f6-76d4-482f-bfe9-e594088d290a-mh02-memo-saved.jpg" width="320">
 
 </details>
 
@@ -288,11 +281,9 @@ B が表示名未設定の間は記録者ラベルが「メンバー」フォー
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-09-08**
-
-simtunnel（GitHub Actions macOS Runner 上の iPhone 17 / iOS 26、英語ロケール）で確認。服用者 Mama（茶 #B96A4A・頭文字 M）と Taro（緑 #3E8B85・頭文字 T）の履歴カードに、それぞれの識別色のアバターが表示された。
-
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/09/08/19cf6788-6db8-494b-8732-7eca4e06703b-history-tab-avatar.jpg" width="380" />
+**確認日: 2026-10-15**
+履歴カードの服用者名「自分」の前に、識別色の円形アバター (「自」) が表示された。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/7ee6e842-142d-4b66-87f4-de2fb2851e28-mh01-revert-card.jpg" width="320">
 
 </details>
 
@@ -300,9 +291,9 @@ simtunnel（GitHub Actions macOS Runner 上の iPhone 17 / iOS 26、英語ロケ
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-09-08**
-
-Iron Tablet のチェックを外して取消カード（Medication record canceled）を作り、同じカード内に服用カードと同じ Mama のアバター（茶・M）が表示されることを確認した（上のスクリーンショットの 2 枚目のカード）。
+**確認日: 2026-10-15**
+取消のカードにも同じ色の「自」のアバターが表示された。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/7ee6e842-142d-4b66-87f4-de2fb2851e28-mh01-revert-card.jpg" width="320">
 
 </details>
 
@@ -310,9 +301,10 @@ Iron Tablet のチェックを外して取消カード（Medication record cance
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-09-08**
-
-同一セッションの服薬チェック画面（`lib/features/medications/QA.md` の「服用者の識別色アバターと記録者表示」）と見比べ、Mama = 茶・Taro = 緑で両画面とも一致することを確認した。
+**確認日: 2026-10-15**
+服用者「自分」のアバターは、服薬チェック画面と履歴画面で同じ茶色だった。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/7ee6e842-142d-4b66-87f4-de2fb2851e28-mh01-revert-card.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/31aaf02d-c352-4386-9363-a35719ed1dd8-md03-uncheck-snackbar.jpg" width="320">
 
 </details>
 

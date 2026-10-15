@@ -52,6 +52,30 @@ last_verified_at: 2026-07-16
 
 </details>
 
+### 8 桁未満では参加ボタンが無効
+
+<details><summary>動作確認スクショ</summary>
+
+（未実行）
+
+</details>
+
+### 除外文字（I / L / O / U / Z / 0 / 1 / 2）を含む入力では参加ボタンが無効
+
+<details><summary>動作確認スクショ</summary>
+
+（未実行）
+
+</details>
+
+### 小文字で入力しても大文字化される
+
+<details><summary>動作確認スクショ</summary>
+
+（未実行）
+
+</details>
+
 </details>
 
 ---
@@ -95,6 +119,38 @@ B が招待コード「M7GT5ACM」で参加に成功し、グループ一覧で�
 **確認日: 2026-07-16**
 既に参加済みの B が再度「M7GT5ACM」を入力して参加操作をしたところ、エラー表示やフリーズなくグループ一覧に戻り、メンバー数も2人のまま変化しなかった（冪等）。
 <img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260716/12b9ee65-12f9-467d-90c6-0e26757a4b65.png" width="380" />
+
+</details>
+
+### 有効なコードで参加に成功し、表示中グループが参加先に切り替わる
+
+<details><summary>動作確認スクショ</summary>
+
+（未実行）
+
+</details>
+
+### 使用済みコード（他のユーザーが参加済み）では「既に使用されています」相当のエラーが表示される
+
+<details><summary>動作確認スクショ</summary>
+
+（未実行）
+
+</details>
+
+### 形式は正しいが存在しないコードではエラーが表示される
+
+<details><summary>動作確認スクショ</summary>
+
+（未実行）
+
+</details>
+
+### 参加に成功した B が同じコードで再度参加操作をしてもエラーで固まらない（冪等）
+
+<details><summary>動作確認スクショ</summary>
+
+（未実行）
 
 </details>
 
@@ -187,6 +243,70 @@ B（非作成者）が共有薬のスケジュール通知設定を開いたと�
 **確認日: 2026-07-16**
 A が記録した「共有薬X」の 10:00 スケジュールが、B のホーム画面でも既にチェック済み（switch=1）で表示され、重複記録のボタン等は現れなかった。
 <img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260716/c6e57c11-bd8a-45bb-9dde-6476af51baa2.png" width="380" />
+
+</details>
+
+### B の参加後、A のグループ設定のメンバー一覧に B がリアルタイムで現れる
+
+<details><summary>動作確認スクショ</summary>
+
+（未実行）
+
+</details>
+
+### B がグループ切替チップで共有グループに切り替えると、A が登録した薬が表示される
+
+<details><summary>動作確認スクショ</summary>
+
+（未実行）
+
+</details>
+
+### B が服薬チェックすると、A の服薬記録一覧にもB の記録がリアルタイムで現れる
+
+<details><summary>動作確認スクショ</summary>
+
+（未実行）
+
+</details>
+
+### A から見て B の記録に記録者ラベルが表示される（B の displayName 未設定時は「メンバー」フォールバック）。A 自身の記録にはラベルが出ない
+
+<details><summary>動作確認スクショ</summary>
+
+（未実行）
+
+</details>
+
+### B がグループ設定で表示名を設定すると、A 側の記録者ラベル・メンバー一覧に反映される
+
+<details><summary>動作確認スクショ</summary>
+
+（未実行）
+
+</details>
+
+### B の端末で共有薬のリマインダーローカル通知がスケジュールされる（スケジュール時刻を数分後に設定して通知バナー表示を確認）
+
+<details><summary>動作確認スクショ</summary>
+
+（未実行）
+
+</details>
+
+### 非作成者 B の通知個別設定を開くと、初期値で Critical Alert とアラーム機能（AlarmKit）が OFF になっている（共有薬の Critical Alert が勝手に鳴らない設計）
+
+<details><summary>動作確認スクショ</summary>
+
+（未実行）
+
+</details>
+
+### A が記録済みのスケジュールは B 側でも記録済み表示になる（重複記録にならない）
+
+<details><summary>動作確認スクショ</summary>
+
+（未実行）
 
 </details>
 

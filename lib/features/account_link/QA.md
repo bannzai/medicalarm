@@ -60,6 +60,38 @@ B が家族グループ（メンバー2人）に参加後、ホーム上部に�
 
 </details>
 
+### 所属グループがすべて 1 人の間、ホームにアカウント引き継ぎバナーが表示されない
+
+<details><summary>動作確認スクショ</summary>
+
+（未実行）
+
+</details>
+
+### メンバー 2 人以上のグループに所属すると、ホーム上部にバナーが表示される
+
+<details><summary>動作確認スクショ</summary>
+
+（未実行）
+
+</details>
+
+### バナーに閉じるボタンがない（強い推奨のため常時表示の仕様）
+
+<details><summary>動作確認スクショ</summary>
+
+（未実行）
+
+</details>
+
+### バナータップでアカウントリンクのシートが開く
+
+<details><summary>動作確認スクショ</summary>
+
+（未実行）
+
+</details>
+
 </details>
 
 ---
@@ -93,6 +125,38 @@ B が家族グループ（メンバー2人）に参加後、ホーム上部に�
 **確認日: 2026-07-16**
 「Apple でアカウントを引き継ぐ」をタップすると、まず OS の「Apple Account にサインインしてください」ダイアログが表示され、それを閉じるとアプリ内で `SignInWithAppleAuthorizationException` のエラーダイアログが表示された。「閉じる」で正常に設定画面へ戻り、他の操作（他ボタンのタップ等）も引き続き可能でクラッシュは発生しなかった。
 <img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260716/69e7f211-3ce4-4c3c-93fe-a1f69d9461da.png" width="380" />
+
+</details>
+
+### 設定タブに「アカウント引き継ぎ」セクションがあり、Apple でリンク / Google でリンクの行が表示される
+
+<details><summary>動作確認スクショ</summary>
+
+（未実行）
+
+</details>
+
+### （Console 設定完了前）タップするとエラーが表示されるが、アプリはクラッシュせず操作を継続できる
+
+<details><summary>動作確認スクショ</summary>
+
+（未実行）
+
+</details>
+
+### （Console 設定完了後）Apple / Google のリンクに成功するとリンク済み表示に変わり、バナーが消える
+
+<details><summary>動作確認スクショ</summary>
+
+（未実行）
+
+</details>
+
+### （Console 設定完了後）リンク後も薬・記録・グループのデータがそのまま表示される（uid が変わらないこと）
+
+<details><summary>動作確認スクショ</summary>
+
+（未実行）
 
 </details>
 

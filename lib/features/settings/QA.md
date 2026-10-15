@@ -47,9 +47,9 @@ last_verified_at: 2026-08-12
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-07-14**
-
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260714/553f3b7e-4ba4-4d29-9459-a38146f52d9b.png" width="320">
+**確認日: 2026-10-15**
+「利用規約」行をタップすると Safari に切り替わり、利用規約ページが表示された。左上の「◀ Medicalarm」でアプリに戻れた。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/f06c8095-c657-4097-834b-39826c6be7b8-st02-terms.jpg" width="320">
 
 </details>
 
@@ -57,9 +57,9 @@ last_verified_at: 2026-08-12
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-07-14**
-
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260714/d7495752-3a72-40a0-b86b-8d33e23318be.png" width="320">
+**確認日: 2026-10-15**
+「プライバシーポリシー」行をタップすると Safari でプライバシーポリシーページが表示された。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/130d7b6f-230d-4bdf-aa1e-22db59b8c3de-st03-privacy.jpg" width="320">
 
 </details>
 
@@ -67,9 +67,9 @@ last_verified_at: 2026-08-12
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-07-14**
-
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260714/7693e1e4-ac90-4943-a2fd-54117f10aa7f.png" width="320">
+**確認日: 2026-10-15**
+「特定商取引法に基づく表記」行をタップすると Safari で該当ページが表示された (スクショは連絡先のメールアドレスが写らないよう上部だけを切り出した)。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/52f81792-696e-4c24-9635-bbbfe5503b97-st04-tokusho-top.jpg" width="320">
 
 </details>
 
@@ -77,9 +77,9 @@ last_verified_at: 2026-08-12
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-07-14**
-
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260714/66fe90fd-c027-4b72-9993-e7ab2b349490.png" width="320">
+**確認日: 2026-10-15**
+「お問い合わせ」行をタップすると Safari で「Medicalarmお問い合わせ」の Google フォームが表示された (スクショは上部だけを切り出した)。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/2bbe4039-6c23-4e0d-a0d3-d9d6c8cf2bc3-st05-contact-top.jpg" width="320">
 
 </details>
 
@@ -87,19 +87,9 @@ last_verified_at: 2026-08-12
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-08-12**
-
-設定画面の「アプリについて」セクションに「OSSライセンス」行が追加されている。
-
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260812/41121287-1b83-4416-806a-89825d8d24bc.png" width="320" />
-
-タップすると `showLicensePage` のライセンス画面が開き、`PackageInfo.fromPlatform()` から取得したアプリ名「Medicalarm」とバージョン「202607.15.102935」、依存パッケージの一覧（`_fe_analyzer_shared` / `_flutterfire_internals` / `abseil-cpp` など）が表示される。
-
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260812/55c21d34-d883-46f4-9fad-143f108445c0.png" width="320" />
-
-パッケージ行をタップするとライセンス本文が読める。
-
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260812/647bc214-ad39-46e9-bd5b-bfba5ad206ab.png" width="320" />
+**確認日: 2026-10-15**
+「OSSライセンス」行をタップするとライセンス画面が開き、「Medicalarm」「202607.15.102935」「Powered by Flutter」と依存パッケージの一覧が表示された。_fe_analyzer_shared の行をタップするとライセンス本文が表示された。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/790a53be-7910-4342-9c8b-1cbed08c0e65-st06-oss.jpg" width="320">
 
 </details>
 
@@ -121,9 +111,9 @@ last_verified_at: 2026-08-12
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-07-14**
-
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260714/36ea1989-54f0-42ee-84f1-bb8f17967dc4.png" width="320">
+**確認日: 2026-10-15**
+デバッグビルドで「アカウントを削除する」ボタンが表示され、タップすると「ユーザー情報を削除します」の確認ダイアログ (キャンセル / 削除する) が表示された。キャンセルを選んだ。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/e55b96ad-84ea-435d-8e45-9306384bd215-st07-delete-dialog.jpg" width="320">
 
 </details>
 
@@ -131,9 +121,9 @@ last_verified_at: 2026-08-12
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-07-14**
-
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260714/2e12243c-006b-441f-aed7-4a77e6705549.png" width="320">
+**確認日: 2026-10-15**
+「DEBUG」セクションの「Local Notifications」行をタップすると、予約中のリマインダー通知 (id / title / body / payload) の一覧ページが表示された。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/0057582a-e389-4285-886a-8c78f2b849df-st08-local-notifications.jpg" width="320">
 
 </details>
 

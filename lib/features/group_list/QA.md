@@ -96,6 +96,54 @@ last_verified_at: 2026-07-17
 
 </details>
 
+### 初回起動時にローディングを経てホームが表示される（移行が完了し、無限スピナーにならない）
+
+<details><summary>動作確認スクショ</summary>
+
+（未実行）
+
+</details>
+
+### 移行後、既存の薬・服用者・服薬記録がすべてそのまま表示される（データ欠落・重複がない）
+
+<details><summary>動作確認スクショ</summary>
+
+（未実行）
+
+</details>
+
+### Firebase Console で `/groups/{groupID}` 配下に medicines / doseReceivers / medicationHistories がコピーされ、`/users/{uid}` 配下の旧データも残置されている
+
+<details><summary>動作確認スクショ</summary>
+
+（未実行）
+
+</details>
+
+### `users/{uid}` に `defaultGroupID` と `groupMigratedDateTime` が設定されている
+
+<details><summary>動作確認スクショ</summary>
+
+（未実行）
+
+</details>
+
+### 2 回目以降の起動では移行が走らない（起動が通常速度・データが増殖しない）
+
+<details><summary>動作確認スクショ</summary>
+
+（未実行）
+
+</details>
+
+### 新規ユーザー（データなし・シミュレータ erase 後）の初回起動でもソログループが自動作成されてホームに到達する
+
+<details><summary>動作確認スクショ</summary>
+
+（未実行）
+
+</details>
+
 </details>
 
 ---
@@ -161,6 +209,46 @@ last_verified_at: 2026-07-17
 
 </details>
 
+### 設定タブにグループ管理への導線があり、タップで一覧が表示される
+
+<details><summary>動作確認スクショ</summary>
+
+（未実行）
+
+</details>
+
+### 移行で作られたソログループが 1 件表示される（名前未設定の表示・メンバー 1 人）
+
+<details><summary>動作確認スクショ</summary>
+
+（未実行）
+
+</details>
+
+### グループカードにアイコン・名前・メンバー数・既定バッジが表示される
+
+<details><summary>動作確認スクショ</summary>
+
+（未実行）
+
+</details>
+
+### 行タップでグループ設定画面へ遷移する
+
+<details><summary>動作確認スクショ</summary>
+
+（未実行）
+
+</details>
+
+### 「招待コードで参加」導線が表示され、タップで招待コード入力画面が開く
+
+<details><summary>動作確認スクショ</summary>
+
+（未実行）
+
+</details>
+
 </details>
 
 ---
@@ -191,6 +279,22 @@ Aがソログループ+「家族グループ」を作成した時点で「無料
 **確認日: 2026-07-16**
 B（オーナーではない）がAの「家族グループ」に招待コードで参加した後も、B自身のグループ一覧では「グループを作成」FABが有効のままだった（B自身はオーナー0件のため）。
 <img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260716/4d1df3b5-5565-46a9-872d-bc6e3a29dc50.png" width="380" />
+
+</details>
+
+### 無料ユーザー: ソロ + 追加 1 グループを作成すると、作成 FAB が非表示になり上限案内とプレミアム誘導が表示される
+
+<details><summary>動作確認スクショ</summary>
+
+（未実行）
+
+</details>
+
+### 上限判定は「自分がオーナーのグループ数」であり、招待で参加しただけのグループはカウントされない（A の上限状態で B のグループに参加しても FAB の表示状態が変わらない）
+
+<details><summary>動作確認スクショ</summary>
+
+（未実行）
 
 </details>
 

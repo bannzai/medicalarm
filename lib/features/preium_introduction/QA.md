@@ -22,8 +22,9 @@ last_verified_at: 2026-07-15
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-07-15**
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260715/21831e6e-2a63-43fa-b550-d7b9586d885a.png" width="320">
+**確認日: 2026-10-15**
+シート上部にヘッダー画像とタイトル「プレミアムプラン」が表示された。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/a3a225e3-5805-44a8-84af-ff2297e8432c-pi01-paywall.jpg" width="320">
 
 </details>
 
@@ -31,9 +32,10 @@ last_verified_at: 2026-07-15
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-07-15**
-閉じるボタンをタップし、設定画面に戻ることを確認:
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260715/719b49f0-99ea-4b15-80fc-f9177f719699.png" width="320">
+**確認日: 2026-10-15**
+左上の閉じるボタン (×) でシートが閉じた (オンボーディングから開いた時は、閉じると最初の薬登録の案内に進んだ)。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/a3a225e3-5805-44a8-84af-ff2297e8432c-pi01-paywall.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/45a5ae72-856d-4c5f-a5fb-23d591c050cc-ob10-registration-guide.jpg" width="320">
 
 </details>
 
@@ -53,8 +55,9 @@ last_verified_at: 2026-07-15
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-07-15**
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260715/21831e6e-2a63-43fa-b550-d7b9586d885a.png" width="320">
+**確認日: 2026-10-15**
+非会員で「広告の非表示」「服用履歴をすべて表示」「薬の登録数を2 → 10」「通知のスケジュール数を2 → 5」「服用者の登録数を2 → 10」が表示された。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/a3a225e3-5805-44a8-84af-ff2297e8432c-pi01-paywall.jpg" width="320">
 
 </details>
 
@@ -66,8 +69,7 @@ last_verified_at: 2026-07-15
 
 - [x] **月額プラン**: 「月額プラン」の行にストアの価格が表示される
 - [x] **年額プラン・割引バッジ**: 「年額プラン」の行にストアの価格が表示され、右上に「月額より{percent}%OFF」の割引バッジが表示される（percent は月額×12と年額の価格差から算出）
-- [ ] **購入導線**: 月額・年額いずれかをタップすると購入処理が開始される。購入成功時に「Medicalarmプレミアム登録完了」ダイアログが表示される（RevenueCat 購入のため、シミュレータでは購入画面の表示までを確認）
-  - ❌ 失敗: 「年額プラン」をタップしても実際には月額プラン（`monthlyPackage`）の購入処理が呼ばれる。月額プランのタップは正しく月額の購入フローに入ることを確認済み。原因は `lib/features/preium_introduction/components/purchase_buttons.dart` の `AnnualPurchaseButton` の `onTap` コールバックが、引数で渡される `annualPackage` を使わず外側のクロージャの `monthlyPackage` を `_purchase` に渡していること。再現手順: 設定タブ→「プレミアムプランを見る」→年額プランをタップ→`xcrun simctl spawn <UDID> log show --last 3m --predicate 'process == "Runner"' --style compact | grep "flutter:"` でアプリログを確認すると `pressed_annual_purchase_button` イベント発火後に月額パッケージへの購入APIコールが行われる（StoreKit のサインインダイアログ自体はどちらのボタンでも同一表示のため画面上の差分では判別できない）。issue: https://github.com/bannzai/medicalarm/issues/248
+- [x] **購入導線**: 月額・年額いずれかをタップすると購入処理が開始される。購入成功時に「Medicalarmプレミアム登録完了」ダイアログが表示される（RevenueCat 購入のため、シミュレータでは購入画面の表示までを確認）
 
 #### 動作確認
 <details>
@@ -77,8 +79,9 @@ last_verified_at: 2026-07-15
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-07-15**
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260715/21831e6e-2a63-43fa-b550-d7b9586d885a.png" width="320">
+**確認日: 2026-10-15**
+「月額プラン」の行に $2.99 が表示された。simtunnel の Simulator でも RevenueCat の offerings を取得でき、ローディングのままにはならなかった。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/a3a225e3-5805-44a8-84af-ff2297e8432c-pi01-paywall.jpg" width="320">
 
 </details>
 
@@ -86,9 +89,9 @@ last_verified_at: 2026-07-15
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-07-15**
-月額 $2.99・年額 $22.99・割引バッジ「月額より35%OFF」を確認:
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260715/21831e6e-2a63-43fa-b550-d7b9586d885a.png" width="320">
+**確認日: 2026-10-15**
+「年額プラン」の行に $22.99、右上に「月額より35%OFF」のバッジが表示された。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/a3a225e3-5805-44a8-84af-ff2297e8432c-pi01-paywall.jpg" width="320">
 
 </details>
 
@@ -96,11 +99,9 @@ last_verified_at: 2026-07-15
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-07-15**
-月額プランをタップし、Apple Account サインインダイアログ（StoreKit 購入フロー）まで到達することを確認（シミュレータのため実購入は未完了・キャンセルして検証終了）:
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260715/47bfd2f9-419b-40fb-b070-717f36e056a3.png" width="320">
-
-年額プランのタップは上記チェックリストの通り失敗（月額パッケージが購入される）のため未チェック。
+**確認日: 2026-10-15**
+年額プランをタップすると購入処理が始まり、Simulator では「Sign in to Apple Account」のダイアログが表示された (Cancel で閉じた)。どちらのパッケージが渡るかは画面では判別できないため、test/features/preium_introduction/purchase_buttons_test.dart の「年額プランボタンをタップすると年額パッケージが購入処理に渡される」「月額プランボタンをタップすると月額パッケージが購入処理に渡される」を `flutter test` で実行して pass を確認した (#248 の修正)。購入成功時のダイアログは Sandbox での購入が要るため #340 に移管した。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/a3a225e3-5805-44a8-84af-ff2297e8432c-pi01-paywall.jpg" width="320">
 
 </details>
 
@@ -122,18 +123,9 @@ last_verified_at: 2026-07-15
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-07-15**
-
-RichText内の各リンクはテキスト全体ではなく、対象の文言（例: "プライバシーポリシー"）の実際のグリフ座標を狙ってタップする必要がある（accessibility要素は行全体やスパンの断片単位でまとまっており、リンクテキスト自体は個別要素として現れない）。
-
-プライバシーポリシー:
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260715/0fc09ec6-ebb1-4e2f-933b-cb7525447278.png" width="320">
-
-利用規約:
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260715/a58c1f8f-014d-4308-bce0-d729d4f0cae5.png" width="320">
-
-特定商取引法に基づく表記:
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260715/62b6ecac-c3d3-42f0-8e9e-6388f3daa61c.png" width="320">
+**確認日: 2026-10-15**
+フッターの「プライバシーポリシー」をタップするとアプリ内のブラウザでプライバシーポリシーのページが開いた。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/09b83704-02c0-477a-a05c-726bf66a690a-pi02-privacy-webview.jpg" width="320">
 
 </details>
 
@@ -141,8 +133,9 @@ RichText内の各リンクはテキスト全体ではなく、対象の文言（
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-07-15**
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260715/21831e6e-2a63-43fa-b550-d7b9586d885a.png" width="320">
+**確認日: 2026-10-15**
+契約期間 (購入日から1ヶ月間)・自動更新・App Store での解約方法の注意書きが表示された。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/a3a225e3-5805-44a8-84af-ff2297e8432c-pi01-paywall.jpg" width="320">
 
 </details>
 
@@ -150,9 +143,10 @@ RichText内の各リンクはテキスト全体ではなく、対象の文言（
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-07-15**
-シミュレータには有効な購入情報が存在しないため、想定通り「不明なエラーが発生しました。以前の購入情報が見つかりません。」のエラーダイアログが表示された（復元処理自体は実行されている）:
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260715/f8c02c82-b051-407d-8278-0c8984626ab4.png" width="320">
+**確認日: 2026-10-15**
+「以前購入した方はこちら」をタップすると復元が実行され、購入履歴の無い Simulator では「以前の購入情報が見つかりません。アカウントをお確かめの上再度お試しください」のダイアログが表示された。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/39a22bdc-ddbf-40ad-aefb-e5e698f5f5de-pi03-restore.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/a488e6eb-ca91-4aee-b875-4f8ac79605ce-pi04-restore-result.jpg" width="320">
 
 </details>
 

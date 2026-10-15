@@ -21,9 +21,9 @@ last_verified_at: 2026-07-14
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-07-14**
-
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260714/766a3845-ad07-402e-81a2-2a1961e4056d.png" width="320">
+**確認日: 2026-10-15**
+アプリを起動し直すと「服薬」タブが選択された状態で表示された。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/d8e1b0cd-a3d8-4a20-8ad9-882f872abbab-ob12-relaunch.jpg" width="320">
 
 </details>
 
@@ -31,9 +31,9 @@ last_verified_at: 2026-07-14
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-07-14**
-
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260714/766a3845-ad07-402e-81a2-2a1961e4056d.png" width="320">
+**確認日: 2026-10-15**
+下部に「服薬」(タイマー)「履歴」(リスト)「カレンダー」(カレンダー)「設定」(歯車) の 4 タブが左から並んだ (アクセシビリティのラベルも「タブ: 1/4」〜「タブ: 4/4」)。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/c0d369a6-655f-4e1e-9791-bff08015c6ab-ob11-placeholder-cards.jpg" width="320">
 
 </details>
 
@@ -41,9 +41,10 @@ last_verified_at: 2026-07-14
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-07-14**
-
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260714/766a3845-ad07-402e-81a2-2a1961e4056d.png" width="320">
+**確認日: 2026-10-15**
+選択中のタブのラベル・アイコンはプライマリカラー、未選択のタブはグレーで表示された。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/c0d369a6-655f-4e1e-9791-bff08015c6ab-ob11-placeholder-cards.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/00b1af95-7457-4c22-b0a3-f4d42321213d-cal01-month.jpg" width="320">
 
 </details>
 
@@ -64,9 +65,12 @@ last_verified_at: 2026-07-14
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-07-14**
-
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260714/0797fb4c-599b-460a-86da-59002185283c.png" width="320">
+**確認日: 2026-10-15**
+各タブをタップすると、服薬画面・服薬履歴画面・カレンダー画面・設定画面に切り替わった。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/8d0d68de-fd86-44d6-aa03-7c00d31447a6-m01-home-cards.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/7ee6e842-142d-4b66-87f4-de2fb2851e28-mh01-revert-card.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/00b1af95-7457-4c22-b0a3-f4d42321213d-cal01-month.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/68c527f7-96ca-419b-8b85-9f7ace2f89e6-st01-settings.jpg" width="320">
 
 </details>
 
@@ -96,9 +100,9 @@ last_verified_at: 2026-07-14
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-07-14**
-
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260714/07a9a563-4bf3-49f6-9277-0b76ee2e8861.png" width="320">
+**確認日: 2026-10-15**
+新規ユーザーがオンボーディングを終えてホームに入る時に、OS のプッシュ通知の許可ダイアログ (Would Like to Send You Notifications) が表示された。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/c0d369a6-655f-4e1e-9791-bff08015c6ab-ob11-placeholder-cards.jpg" width="320">
 
 </details>
 

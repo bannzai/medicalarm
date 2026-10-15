@@ -13,8 +13,7 @@ last_verified_at: 2026-07-14
 
 - [x] **フォーム表示**: ボトムシート上部にタイトル「服用者」が表示され、登録済みの服用者が一覧表示される
 - [x] **デフォルト服用者**: 初期状態では服用者「自分」が1件存在する
-- [ ] **選択状態の初期値**: フォームを開いた時点で選択中の服用者のラジオボタンが選択状態になっている
-  - ❌ 失敗: 既存の薬（服用者フォームで一度も選び直したことがない薬）の編集画面から服用者フォームを開くと、現在の服用者「自分」のラジオボタンが選択状態にならない（空の丸のまま）。原因は `lib/provider/dose_receiver.dart:19-32` の `DoseReceiverAdd.call()` が `collectionRef.add()`（Firestore が別途ランダムなドキュメントIDを採番）で書き込む一方、`lib/features/resolver/database.dart:63` の読み込み時コンバータが `id` フィールドを実際のドキュメントID（ランダム文字列）で上書きするため、`lib/entity/dose_receiver.dart:29-33` の `DoseReceiver.firstUser()`（新規の薬のデフォルト値、固定値 `id: 'firstUser'`）と一覧側の実際の `id` が一致しないこと。一度ラジオボタンを選び直す（＝一覧側の実際の `id` を持つオブジェクトで上書きする）と、以降は正しく選択状態が復元される。issue: https://github.com/bannzai/medicalarm/issues/246
+- [x] **選択状態の初期値**: フォームを開いた時点で選択中の服用者のラジオボタンが選択状態になっている
 
 #### 動作確認
 <details>
@@ -24,8 +23,9 @@ last_verified_at: 2026-07-14
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-07-14**
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260714/357b5176-5ead-46a4-a8fb-855734a8b77e.png" width="320">
+**確認日: 2026-10-15**
+お薬登録画面 (編集) の「服用者」行をタップすると、上部にタイトル「服用者」のシートが開き、登録済みの服用者が一覧表示された。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/251829eb-8243-4d6c-ba0c-59479afd385b-dr01-radio-selected.jpg" width="320">
 
 </details>
 
@@ -33,8 +33,9 @@ last_verified_at: 2026-07-14
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-07-14**
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260714/357b5176-5ead-46a4-a8fb-855734a8b77e.png" width="320">
+**確認日: 2026-10-15**
+新規ユーザーの初期状態で服用者が 1 件存在した。simtunnel の workflow がインストール直後に英語ロケールで 1 度起動するため、その時点で作られた服用者の名前は英語の「User」で表示された (日本語ロケールで最初に起動した場合の「自分」の表示はこの環境では確認していない)。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/251829eb-8243-4d6c-ba0c-59479afd385b-dr01-radio-selected.jpg" width="320">
 
 </details>
 
@@ -42,10 +43,9 @@ last_verified_at: 2026-07-14
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-07-14（失敗）**
-
-「QAテスト薬A」（服用者は初期値「自分」のまま、一度も服用者フォームで選び直していない）の編集画面から服用者フォームを開いた直後。服用者は1件（自分）のみだが、ラジオボタンが選択されていない:
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260714/357b5176-5ead-46a4-a8fb-855734a8b77e.png" width="320">
+**確認日: 2026-10-15**
+服用者フォームで一度も選び直していない既存の薬の編集画面から開くと、現在の服用者のラジオボタンが選択状態 (値 1) で表示された (#246 の修正を確認)。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/251829eb-8243-4d6c-ba0c-59479afd385b-dr01-radio-selected.jpg" width="320">
 
 </details>
 
@@ -66,10 +66,10 @@ last_verified_at: 2026-07-14
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-07-14**
-
-「自分」のラジオボタンをタップすると選択状態（塗りつぶし）に切り替わり、服用者フォームを閉じた後も呼び出し元の医薬品登録フォームの「服用者」タイルに「自分」が表示され続けることを確認:
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260714/aee2c871-8dce-4e96-995d-7d94f814a48a.png" width="320">
+**確認日: 2026-10-15**
+追加した「新しい服用者」のラジオボタンをタップすると選択が切り替わり、シートを閉じるとお薬登録画面の服用者が「新しい服用者」になった。保存後は服薬画面のカードの服用者も「新しい服用者」に変わった。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/9f434766-8308-46d1-8c3b-63171a1deae2-dr02-limit.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/9544eb73-e069-459e-a67f-680f55c0f62a-m06-updated-cards.jpg" width="320">
 
 </details>
 
@@ -100,10 +100,9 @@ last_verified_at: 2026-07-14
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-07-14**
-
-「服用者を追加」タップ後、一覧の先頭に「新しい服用者」が追加されることを確認（この操作により服用者が2件になり、無料上限に達している）:
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260714/9a98d8d4-93cd-42c3-ab61-8e2a9efd2791.png" width="320">
+**確認日: 2026-10-15**
+「服用者を追加」をタップすると「新しい服用者」が一覧に追加された。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/9f434766-8308-46d1-8c3b-63171a1deae2-dr02-limit.jpg" width="320">
 
 </details>
 
@@ -126,10 +125,9 @@ last_verified_at: 2026-07-14
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-07-14**
-
-服用者が2件（無料上限）になると「服用者は最大2人まで登録できます」が赤字で表示され、「服用者を追加」ボタンが無効化される:
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260714/9a98d8d4-93cd-42c3-ab61-8e2a9efd2791.png" width="320">
+**確認日: 2026-10-15**
+2 人目を追加すると「服用者は最大2人まで登録できます」が赤字で表示され、「服用者を追加」ボタンは押せない表示になった。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/9f434766-8308-46d1-8c3b-63171a1deae2-dr02-limit.jpg" width="320">
 
 </details>
 
@@ -137,10 +135,10 @@ last_verified_at: 2026-07-14
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-07-14**
-
-「プレミアムプランで上限を10に増やす」リンクをタップし、プレミアム紹介シート（「服用者の登録数を2 → 10」を含む）が開くことを確認:
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260714/7628f060-0c37-496d-a237-9fe973235096.png" width="320">
+**確認日: 2026-10-15**
+上限到達時に「プレミアムプランで上限を10に増やす」リンクが表示され、タップするとプレミアム紹介シートが開いた。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/9f434766-8308-46d1-8c3b-63171a1deae2-dr02-limit.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/a3a225e3-5805-44a8-84af-ff2297e8432c-pi01-paywall.jpg" width="320">
 
 </details>
 

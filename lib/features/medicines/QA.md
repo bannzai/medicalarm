@@ -25,9 +25,9 @@ last_verified_at: 2026-07-14
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-07-14**
-
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260714/2ecb9f22-de81-4272-a53b-369219d4a983.png" width="320">
+**確認日: 2026-10-15**
+服薬画面の AppBar 右上の編集アイコンから開くと、AppBar に「お薬一覧」と表示された。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/5f3c1dc6-6031-4ab4-8aa0-07a06499e75d-med02-list-two.jpg" width="320">
 
 </details>
 
@@ -35,9 +35,10 @@ last_verified_at: 2026-07-14
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-07-14**
-
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260714/2ecb9f22-de81-4272-a53b-369219d4a983.png" width="320">
+**確認日: 2026-10-15**
+登録済みの薬がカードで並び、薬名・服用者名・スケジュールの時刻 (QA Medicine: 新しい服用者 / 12:00・10:00、QA Second: 自分 / 10:00) が表示された。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/8be022fe-907b-45c2-bde2-2bf09c65088e-med01-medicines-list.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/5f3c1dc6-6031-4ab4-8aa0-07a06499e75d-med02-list-two.jpg" width="320">
 
 </details>
 
@@ -119,9 +120,10 @@ simtunnel (GitHub Actions macOS Runner 上のリモート iOS Simulator、英語
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-07-14**
-
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260714/7c03fe6a-18d4-451d-9c80-ad8fbc162516.png" width="320">
+**確認日: 2026-10-15**
+カード右上の編集アイコン (識別子 medicine_edit_button) をタップすると、その薬の編集モードのお薬登録画面が開いた。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/8be022fe-907b-45c2-bde2-2bf09c65088e-med01-medicines-list.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/5ff3e92e-4c21-4335-b478-b2d0bbe1662c-mf08-quantity-not-prefilled.jpg" width="320">
 
 </details>
 
@@ -144,11 +146,9 @@ Snackbar はデフォルトの表示時間が短く、`tapOn` → `screenshot` �
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-07-14**
-
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260714/ce4e07f9-a7a5-4d1d-973a-baeec8630442.png" width="320">
-
-服薬画面のアクセシビリティツリー上でも Switch OFF 後にカードが表示されないことを確認（AdMob ネイティブ広告のテスト用オーバーレイが画面を覆っており、目視のスクリーンショットでは確認できなかったため `mobile_list_elements_on_screen` で確認）。
+**確認日: 2026-10-15**
+カード右下の Switch を OFF にすると「薬の服用を一時停止しました」の SnackBar が表示された。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/9b17c352-a618-4f37-9015-6f9f9e20ac60-med03-switch-off.jpg" width="320">
 
 </details>
 
@@ -156,11 +156,9 @@ Snackbar はデフォルトの表示時間が短く、`tapOn` → `screenshot` �
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-07-14**
-
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260714/1a401d1a-978b-418f-9336-f6bddbdf039f.png" width="320">
-
-服薬画面のアクセシビリティツリー上で Switch ON 後にカードが再表示されることを確認。
+**確認日: 2026-10-15**
+一時停止中の Switch を ON に戻すと「薬の服用を再開しました」の SnackBar が表示された。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/c5a5c8bb-7110-470d-b4f7-6c87e3215b89-med04-switch-on.jpg" width="320">
 
 </details>
 

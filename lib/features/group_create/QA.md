@@ -38,6 +38,22 @@ last_verified_at: 2026-07-17
 
 </details>
 
+### 名前が空の間は作成ボタンが無効
+
+<details><summary>動作確認スクショ</summary>
+
+（未実行）
+
+</details>
+
+### アイコン 6 種（いえ / 家族 / 病院 / 薬 / 介護 / ハート相当）が表示され、選択状態がハイライトされる
+
+<details><summary>動作確認スクショ</summary>
+
+（未実行）
+
+</details>
+
 </details>
 
 ---
@@ -99,6 +115,46 @@ last_verified_at: 2026-07-17
 
 **確認日: 2026-07-17**
 本番 Firestore（medicalarm-prod）の `/groups/fr1HdTKYsJT55YtcwPk6`（作成した「家族グループ」）を REST API で直接読み取り、`ownerUserID` = A（uid `LnTX76H0cWhUkiD0Wa64mr9KJaa2`）、`memberUserIDs` = `[A]`、`iconName` = `family`、`name` = 「家族グループ」であることを確認した（B 削除後の現在の memberUserIDs も `[A]` で、作成時の状態と一致）。
+
+</details>
+
+### 作成に成功すると招待コードダイアログが表示される（8 桁コード + 有効期限の表示）
+
+<details><summary>動作確認スクショ</summary>
+
+（未実行）
+
+</details>
+
+### コピーで招待コードがクリップボードに入り、確認の SnackBar が表示される
+
+<details><summary>動作確認スクショ</summary>
+
+（未実行）
+
+</details>
+
+### ダイアログを閉じるとグループ一覧に戻り、新しいグループが一覧に表示される
+
+<details><summary>動作確認スクショ</summary>
+
+（未実行）
+
+</details>
+
+### 作成しても表示中グループ（ホームの表示対象）は切り替わらない（shoppinglist 踏襲の仕様）
+
+<details><summary>動作確認スクショ</summary>
+
+（未実行）
+
+</details>
+
+### Firebase Console の `/groups/{新規groupID}` に ownerUserID = 自分・memberUserIDs = [自分] が入っている
+
+<details><summary>動作確認スクショ</summary>
+
+（未実行）
 
 </details>
 
