@@ -31,6 +31,8 @@
 #
 # 冪等: 同じ入力なら同じ出力を上書きする。raw / 合成結果の両方を作り直す。
 set -euo pipefail
+# UDID=$(set_system_language ...) のようなコマンド置換の中でも set -e を効かせる (defaults write や shutdown の失敗を見逃さない)
+shopt -s inherit_errexit
 
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd -P)"
 cd "$SCRIPT_DIR/../.."
@@ -137,6 +139,8 @@ set_system_language() {
   boot_simulator
 }
 
+# simulator を姿勢 (closed / open) に切り替え、3 ページを言語コード (カンマ区切り) の分だけ撮って RAW_DIR/<display> に置く。
+# flutter drive が失敗したら set -e で止まる
 capture() {
   local udid=$1 pose=$2 display=$3 language_codes=$4 page
   set_pose "$udid" "$pose"
@@ -204,6 +208,7 @@ json.dump(jobs, sys.stdout, ensure_ascii=False)
 PY
 swift scripts/translation/render_text.swift "$TEXT_DIR/jobs.json"
 
+# PNG の高さ (px) を返す。文字画像の下に端末枠を置く位置の計算に使う
 image_height() {
   magick identify -format '%h' "$1"
 }
@@ -283,6 +288,7 @@ for language in "${LANGUAGE_DIRECTORIES[@]}"; do
 done
 
 # ---- 機械検証: 寸法・alpha・枚数 ----
+# ファイルが指定の幅・高さで alpha 無しかを sips で確かめ、違えば理由を stderr に出して return 1 する。枚数は呼び出し側で数える
 verify() {
   local file=$1 width=$2 height=$3 info
   info=$(sips -g pixelWidth -g pixelHeight -g hasAlpha "$file" | tail -3 | awk '{print $2}' | paste -sd' ' -)
