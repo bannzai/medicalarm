@@ -1,0 +1,62 @@
+# 2回で回答した薬未登録の新規ユーザーで、仮カードから最初の薬を登録して仮カードと案内通知が消えることを確認する。
+# 新規の匿名ユーザーはこのフローで作る (理由と仕組みは onboarding_medication_plan_delete.yaml の先頭コメント)。
+# 初回起動の案内は helpers/allow_notification.yaml が完走する。
+appId: com.bannzai.medicalarm
+---
+- launchApp:
+    clearState: true
+    clearKeychain: true
+- runFlow: helpers/allow_notification.yaml
+- scrollUntilVisible:
+    element:
+      text: "お薬が未登録です"
+    direction: DOWN
+- assertVisible: "08:00"
+- takeScreenshot: tmp/onboarding-followup-placeholder
+- stopApp
+- launchApp:
+    clearState: false
+# 再起動直後の白画面では notVisible が空振りで真になるため、タブバーが出るまで待ってから判定する (onboarding_medication_plan_delete.yaml と同じ)
+- extendedWaitUntil:
+    visible: "(?s)設定.*"
+    timeout: 240000
+- assertNotVisible: "はじめる"
+- scrollUntilVisible:
+    element:
+      text: "お薬が未登録です"
+    direction: DOWN
+# 仮カードの登録ボタンは常駐の追加ボタンとは識別子で区別する。
+- tapOn:
+    text: "Dismiss"
+    optional: true
+- tapOn:
+    id: "onboarding_placeholder_add_onboarding-8"
+- assertVisible: "08:00"
+- assertVisible: "19:00"
+- takeScreenshot: tmp/onboarding-followup-form
+- tapOn:
+    point: "7%,8%"
+- assertVisible: "お薬が未登録です"
+- tapOn:
+    text: "Dismiss"
+    optional: true
+- tapOn:
+    id: "onboarding_placeholder_add_onboarding-8"
+- tapOn: "薬の名前"
+- inputText: "Onboarding QA"
+- tapOn: "完了"
+- tapOn: "保存"
+- extendedWaitUntil:
+    notVisible: "お薬が未登録です"
+    timeout: 15000
+- assertVisible: "(?s).*Onboarding QA.*"
+- takeScreenshot: tmp/onboarding-followup-registered
+- tapOn: "(?s)設定.*"
+- scrollUntilVisible:
+    element:
+      text: "Local Notifications"
+    direction: DOWN
+- tapOn: "Local Notifications"
+- assertNotVisible: "(?s).*900000001.*"
+- assertNotVisible: "(?s).*900000002.*"
+- takeScreenshot: tmp/onboarding-followup-notifications-cleared

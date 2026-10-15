@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:medicalarm/components/premium/premium_features.dart';
+import 'package:medicalarm/style/color.dart';
 import 'package:medicalarm/utils/analytics/analytics.dart';
 import 'package:medicalarm/utils/config/remote_config.dart';
 import 'package:medicalarm/provider/remote_config_parameter.dart';
@@ -379,8 +380,6 @@ class PromotionStartButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final primaryColor = Theme.of(context).colorScheme.primary;
-
     return ElevatedButton(
       onPressed: () {
         analytics.logEvent(name: 'pressed_promotion_start');
@@ -393,7 +392,8 @@ class PromotionStartButton extends StatelessWidget {
         }
       },
       style: ElevatedButton.styleFrom(
-        backgroundColor: primaryColor,
+        // アイコンとラベルは白のため、コントラスト比 4.5:1 を満たす primaryFilled を背景にする (#287)
+        backgroundColor: AppColors.primaryFilled,
         shape: const StadiumBorder(),
         padding: const EdgeInsets.symmetric(vertical: 16),
       ),

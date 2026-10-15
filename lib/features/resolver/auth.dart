@@ -5,13 +5,30 @@ import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:medicalarm/components/loading/indicator.dart';
 import 'package:medicalarm/components/retry/page.dart';
 import 'package:medicalarm/provider/app_user.dart';
+import 'package:medicalarm/provider/onboarding_medication_plan.dart';
+import 'package:medicalarm/utils/analytics/error.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 
 part 'auth.g.dart';
 
 @Riverpod(keepAlive: true, dependencies: [])
 Stream<User?> firebaseUserChanges(FirebaseUserChangesRef ref) {
-  return FirebaseAuth.instance.userChanges();
+  String? previousUserID;
+  var receivedUser = false;
+  // 認証境界では古いアカウントの通知を解除してから新しいユーザーを公開する。
+  return FirebaseAuth.instance.userChanges().asyncMap((user) async {
+    if (!receivedUser || previousUserID != user?.uid) {
+      try {
+        await cancelOnboardingMedicationPlanNotifications();
+      } catch (error, stackTrace) {
+        // 補助通知の失敗で認証を止めない。初期化後とアプリ復帰時の同期でも解除を再試行する。
+        errorLogger.recordError(error, stackTrace);
+      }
+    }
+    previousUserID = user?.uid;
+    receivedUser = true;
+    return user;
+  });
 }
 
 class AuthResolver extends HookConsumerWidget {

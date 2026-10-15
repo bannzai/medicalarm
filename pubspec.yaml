@@ -19,7 +19,7 @@ publish_to: "none" # Remove this line if you wish to publish to pub.dev
 version: 202607.15.102935+12
 
 environment:
-  sdk: ">=3.2.4 <4.0.0"
+  sdk: ">=3.10.0 <4.0.0"
 
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions
@@ -37,16 +37,18 @@ dependencies:
   shared_preferences: ^2.2.2
   flutter_svg: ^2.0.9
 
-  firebase_core: ^4.1.0
+  firebase_core: ^4.15.0
   firebase_analytics:
   firebase_auth: 
-  firebase_messaging:
+  # UIScene で起動コールバックを取り逃がしても APNs を登録し直す 16.7.0 以上
+  firebase_messaging: ^16.7.0
   firebase_remote_config: 
   cloud_firestore:
   cloud_functions: 
   firebase_crashlytics: 
   firebase_storage:
-  google_mobile_ads: ^5.0.0
+  # Swift Package Manager 対応 (8.0.0 以上) で CocoaPods への依存を外す (#385)
+  google_mobile_ads: ^9.1.0
 
   freezed_annotation: ^3.1.0
   json_annotation: ^4.8.0
@@ -59,18 +61,17 @@ dependencies:
   url_launcher: ^6.3.0
   package_info_plus: ^9.0.0
   mockito: ^5.4.6
-  in_app_review: ^2.0.8
   async_value_group: ^1.0.0
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.6
-  purchases_flutter: ^9.6.2
+  purchases_flutter: ^10.15.2
   collection: ^1.18.0
 
   image_picker: ^1.1.2
   image: ^4.5.2
-  image_cropper: ^10.0.0+1
+  image_cropper: ^12.2.1
   uuid: ^4.5.1
   widget_arrows: ^0.6.0
   flutter_timezone: ^5.0.0
@@ -80,11 +81,15 @@ dependencies:
 
   # アカウント引き継ぎ(匿名認証 → Apple / Google リンク)用。
   # firebase_auth 6 系と併用し currentUser.linkWithCredential にクレデンシャルを渡す。
-  sign_in_with_apple: ^7.0.1
+  # Swift Package Manager 対応 (8.0.0 以上) で CocoaPods への依存を外す (#385)
+  sign_in_with_apple: ^8.0.0
   google_sign_in: ^7.2.0
   crypto: ^3.0.6
+  # activate の providerApple / providerAndroid を使うため 0.4.8 以上
+  firebase_app_check: ^0.4.8
 
 dev_dependencies:
+  firebase_core_platform_interface: ^8.1.1
   flutter_test:
     sdk: flutter
 
@@ -112,6 +117,10 @@ dev_dependencies:
 # The following section is specific to Flutter packages.
 flutter:
   generate: true
+  config:
+    # Flutter 3.44 の既定 (有効) をプロジェクトで固定する。開発者の `flutter config --no-enable-swift-package-manager`
+    # (グローバル設定) が効いて、CI (SwiftPM) と手元 (CocoaPods) で plugin の取り込み方と Podfile.lock が食い違うのを防ぐ (#385)
+    enable-swift-package-manager: true
   assets:
     - assets/
 

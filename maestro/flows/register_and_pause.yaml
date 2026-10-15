@@ -1,12 +1,16 @@
-# 起動直後のダイアログを閉じてから「テスト薬」を新規登録する。
+# 起動直後のダイアログを閉じてから「テスト薬」を新規登録し、服薬画面で終わる。
 # 既に「テスト薬」が登録済みの環境（連続実行時や Firestore 残存時）は登録ステップをスキップする。
+# 登録済みかの判定と登録はお薬一覧画面で行う。服薬画面は一時停止中の薬を表示しないため、
+# 服薬画面の可視性で判定すると一時停止中に 2 件目を登録してしまう (#373)。
 appId: com.bannzai.medicalarm
 ---
-- runFlow: allow_notification.yaml
-# Firestore からの初回同期前に notVisible 判定が走ると、既存登録があっても
-# 二重登録されてしまうため、起動直後に少し待ってからフラグ判定する。
-- waitForAnimationToEnd:
-    timeout: 2000
+- runFlow: helpers/allow_notification.yaml
+# 服薬画面 AppBar 右上の編集アイコン（IconButton tooltip "薬を編集"）
+- tapOn: "薬を編集"
+# お薬一覧のタイトルは Firestore からの取得完了後に描画されるため、見えた時点で登録済みの薬が出揃っている
+- extendedWaitUntil:
+    visible: "お薬一覧"
+    timeout: 15000
 - runFlow:
     when:
       notVisible: "(?s).*テスト薬.*"
@@ -17,6 +21,13 @@ appId: com.bannzai.medicalarm
       - tapOn: "完了"
       - tapOn: "服用スケジュールを追加"
       - tapOn: "保存"
+# MedicinesPageSection は Semantics 上 1 ノードに束ねられ accessibilityText が "テスト薬\n自分\n10:00" になるため、複数行を含む正規表現で検出する
 - extendedWaitUntil:
     visible: "(?s).*テスト薬.*"
     timeout: 5000
+- tapOn: "戻る"
+- extendedWaitUntil:
+    visible: "(?s)服薬.*"
+    timeout: 5000
+- waitForAnimationToEnd:
+    timeout: 2000

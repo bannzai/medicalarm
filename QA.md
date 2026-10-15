@@ -7,6 +7,14 @@ last_verified_at: 2026-07-16
 
 # QA 全体ガイド
 
+## App Check 導入時の未検証範囲（2026-09-09）
+
+App Check 導入後の起動・Firebase 通信・トークン取得・メトリクスは未検証。
+Apple 側の App Attest capability が未有効で、配布用プロファイルの再生成も未実施。
+Firebase 側のプロバイダ・デバッグトークン登録は今回のクライアント側変更に含めない。
+ローカルのリソース検査は CPU 使用率 100%・メモリ圧迫ありで通過しなかったため、ビルドと Maestro E2E は未実施。
+以下の既存エビデンスと最終検証日時は App Check 導入前の記録であり、今回の変更を検証済みとするものではない。
+
 ## 対象環境
 
 - Firebase project: `medicalarm-prod`（firebase/.firebaserc の default。dev 環境はなく、QA も prod に対して行う）
@@ -33,15 +41,21 @@ make secret  # 環境変数 FILE_FIREBASE_IOS / REVENUE_CAT_PUBLIC_API_KEY が�
 
 - /ios-simulator: iOS Simulator を扱う際の起点。シミュレータ管理は /sim-manager 前提
 - /verify-ui-mobile-mcp: mobile-mcp による画面探索・タップ・スクリーンショット撮影
-- /maestro-flutter: 既存 E2E フローの実行（`maestro test maestro/flows/`）
-  - `allow_notification.yaml`: 起動直後の OS ダイアログ（通知許可・ATT）とプロモーション画面（表示されている場合のみ）を閉じる helper。他フローの先頭から `runFlow` で呼ばれる
+- /maestro-flutter: 既存 E2E フローの実行（`maestro test maestro/flows/`。実行順は `maestro/flows/config.yaml` の `executionOrder` で固定。`helpers/` 配下は単独実行の対象外）
+  - `helpers/allow_notification.yaml`: 起動直後の OS ダイアログ（通知許可・ATT）とプロモーション画面（表示されている場合のみ）を閉じ、新規ユーザーの初回起動で出るオンボーディング（「はじめる」が見えた場合のみ）を `onboarding.yaml` で完走する helper。他フローの先頭から `runFlow` で呼ばれる
+  - `helpers/onboarding.yaml`: 初回起動のオンボーディング（JP 短尺）を完走し、ペイウォールを閉じて服薬画面に到達する。表示条件と項目は lib/features/onboarding/QA.md
+  - `onboarding_medication_plan.yaml` / `onboarding_medication_plan_delete.yaml`: 先頭で `launchApp` の `clearState: true` と `clearKeychain: true` により新規の匿名ユーザーを作ってから始める（Firebase Auth の匿名ユーザーは Keychain に保持されるため、Keychain を消すと次の起動で AppUser が新規作成されオンボーディングが出る）
   - `register_and_pause.yaml` / `full_pause_feature.yaml` / `toggle_switch.yaml` / `resume_and_edit.yaml` / `form_pause.yaml`: 薬の登録〜一時停止・再開の一連
 - ユニットテスト: `flutter test` / 静的解析: `flutter analyze`
 
 ### 再現が難しい操作の手順
 
-- 起動直後は通知許可 → ATT → プロモーション（★5 レビュー訴求。アカウント作成から1日超経過など PromotionStartResolver の条件成立時のみ）→ AdMob validator 警告（開発ビルド）の順不同でダイアログが重なる。mobile-mcp で手動確認する場合も、まず `maestro test maestro/flows/allow_notification.yaml` で突破してから操作を始めるのが確実
+- 起動直後は通知許可 → ATT → プロモーション（★5 レビュー訴求。アカウント作成から1日超経過など PromotionStartResolver の条件成立時のみ）→ AdMob validator 警告（開発ビルド）の順不同でダイアログが重なる。新規の匿名ユーザー（シミュレータ初期化後の初回起動）ではこれらに加えてオンボーディング（OnboardingResolver。作成から1日以内・完了記録なし・非プレミアムで表示）がホーム画面の前に出る。mobile-mcp で手動確認する場合も、まず `maestro test maestro/flows/helpers/allow_notification.yaml` で突破してから操作を始めるのが確実
 - `flutter build ios --simulator` + `xcrun simctl install/launch` でアプリを起動すると、`lib/main.dart` の `setupRemoteConfig()`（`fetchAndActivate()` の `fetchTimeout` が1分）が同期待ちのため、シミュレータのネットワーク到達性によっては最大60秒程度 LaunchImage（白画面）のまま初回フレームが描画されない。`mobile_list_elements_on_screen` で `LaunchImage` が居座っていないかを確認し、白画面でも即座に失敗と判断しない
+  - 2026-09-03 の QA では、erase 直後のシミュレータへの初回起動で白画面が3〜4分続いた（`log show --predicate 'process == "Runner"'` を見ると Firebase Analytics の起動自体が launch から67秒後、resolver の解決完了はさらに後）。60秒で見切らず、`xcrun simctl launch` 後は最低でも200秒待ってからスクリーンショットで判断する。プロセスの生存は `xcrun simctl spawn <UDID> launchctl list | grep medicalarm` で確認できる（`xcrun simctl terminate` が `found nothing to terminate` を返す場合はアプリが落ちている）
+- mobile-mcp（`mcp__mobile__*`）は WebDriverAgent を XCUITest として起動する（maestro のログに `Running tests...` が出る）ため、対象アプリがバックグラウンドに落ちる。その状態では `mobile_list_elements_on_screen` がアプリではなく Springboard のアイコン一覧を返し、`flutter run` の debug connection も `The OS has terminated the Flutter debug connection for being inactive in the background for too long.` で切れる。このプロジェクトの画面操作は maestro（`maestro test --udid <UDID> <flow>`）で行う。テキストラベルの無いアイコンボタンは `tapOn: point: "7%,10%"` のように割合座標で指定できる
+- maestro の `takeScreenshot` は tap 後の settle 待ちを挟むため、数秒で自動遷移する演出画面（オンボーディングのプラン生成演出など）は撮り逃す。別シェルで `xcrun simctl io <UDID> screenshot` を連続実行するループを回した状態で maestro の tap flow を走らせ、後からフレームを選ぶ
+- 複数行に折り返される Text ウィジェット（`\n` を含む l10n 文言。例: 「薬を飲み忘れたことは\nありますか」）は、maestro の `assertVisible` / `extendedWaitUntil` で画面表示どおりの1行の文字列として一致しない。選択肢のボタンラベルなど単一行の文言で判定する
 - 画像を使う QA（画像からの薬の一括登録）では、事前に `xcrun simctl addmedia <UDID> scripts/e2e/fixtures/*.png` でテスト画像をシミュレータの写真ライブラリへ取り込んでおく。写真ライブラリを初めて開くとアクセス許可のダイアログが出るため、mobile-mcp で許可してから画像を選ぶ。テスト画像と期待する抽出結果は `scripts/e2e/fixtures/` にあり、内容は lib/features/medicine_image_import/QA.md を参照
 - 非対話実行でも `flutter run -d <UDID>` はプロセスが常駐し続けるため、`run_in_background: true` で起動し、ログファイルを `grep` でポーリングして起動完了（`Flutter run key commands.` の出力）を待つ必要がある（フォアグラウンドで実行すると turn がブロックされたまま完了しない）
 - AdMob native ad validator の警告（開発ビルドのみ表示）は `overlayWebView` 内の要素で `mobile_list_elements_on_screen` にテキストとして現れず、`Dismiss` ボタン座標の目視推定タップが当たりにくい。無理に閉じようとせず、下部タブバー操作は overlay の下でも独立して機能するためそのまま操作を継続してよい
@@ -52,7 +66,7 @@ make secret  # 環境変数 FILE_FIREBASE_IOS / REVENUE_CAT_PUBLIC_API_KEY が�
 
 ## 1. 起動・初期化
 
-- [x] **初回起動で服薬画面に到達**: クリーンインストール（`xcrun simctl uninstall <UDID> com.bannzai.medicalarm` でアプリ削除 → 再インストール）後の起動で、通知許可・ATT ダイアログを経て服薬画面が表示される。クリーンインストール操作は手動で行う（maestro/flows/allow_notification.yaml は `clearState: false` で表示中ダイアログの突破のみを行い、状態のリセットはしない）
+- [x] **初回起動で服薬画面に到達**: クリーンインストール（`xcrun simctl uninstall <UDID> com.bannzai.medicalarm` でアプリ削除 → 再インストール）後の起動で、通知許可・ATT ダイアログを経て服薬画面が表示される。クリーンインストール操作は手動で行う（maestro/flows/helpers/allow_notification.yaml は `clearState: false` で表示中ダイアログの突破のみを行い、状態のリセットはしない）
 - [x] **2 回目以降の起動**: 再起動時はダイアログ群が再表示されず、直接服薬画面が表示される
 - [x] **匿名認証とデータ永続化**: 再起動しても登録済みの薬・服薬記録が保持されている（匿名ユーザーが維持されている）
 
@@ -60,12 +74,13 @@ make secret  # 環境変数 FILE_FIREBASE_IOS / REVENUE_CAT_PUBLIC_API_KEY が�
 <details>
 <summary>動作確認エビデンス</summary>
 
-### **初回起動で服薬画面に到達**: クリーンインストール（`xcrun simctl uninstall <UDID> com.bannzai.medicalarm` でアプリ削除 → 再インストール）後の起動で、通知許可・ATT ダイアログを経て服薬画面が表示される。クリーンインストール操作は手動で行う（maestro/flows/allow_notification.yaml は `clearState: false` で表示中ダイアログの突破のみを行い、状態のリセットはしない）
+### **初回起動で服薬画面に到達**: クリーンインストール（`xcrun simctl uninstall <UDID> com.bannzai.medicalarm` でアプリ削除 → 再インストール）後の起動で、通知許可・ATT ダイアログを経て服薬画面が表示される。クリーンインストール操作は手動で行う（maestro/flows/helpers/allow_notification.yaml は `clearState: false` で表示中ダイアログの突破のみを行い、状態のリセットはしない）
 
 <details><summary>動作確認スクショ</summary>
 
 **確認日: 2026-07-16**
-シミュレータを `xcrun simctl erase` した新規匿名ユーザー状態から起動し、通知許可・ATT ダイアログ（maestro/flows/allow_notification.yaml で突破）を経て服薬画面に到達することを、2台のシミュレータ（A・B）それぞれで確認した。
+シミュレータを `xcrun simctl erase` した新規匿名ユーザー状態から起動し、通知許可・ATT ダイアログ（maestro/flows/helpers/allow_notification.yaml で突破）を経て服薬画面に到達することを、2台のシミュレータ（A・B）それぞれで確認した。
+2026-09-03 追記: 新規ユーザーの初回起動でオンボーディング（lib/features/onboarding/）が挟まる経路でも、`maestro test --udid <UDID> maestro/flows/helpers/allow_notification.yaml`（onboarding.yaml をファネル完走〜ペイウォール閉じるまで実行）が exit 0 で完了し、服薬画面に到達することを確認した。
 <img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260716/690706d7-9613-4140-bbbc-d1bc2ead38ce.png" width="380" />
 
 </details>
@@ -92,8 +107,37 @@ make secret  # 環境変数 FILE_FIREBASE_IOS / REVENUE_CAT_PUBLIC_API_KEY が�
 
 </details>
 
+## 2. iPhone Duo (外側・内側ディスプレイ) での主要画面の表示
+
+- [x] **主要画面が外側・内側の両方で崩れない**: iPhone Duo の Simulator (iOS 27.1) で、オンボーディング (価値宣言・質問・結果)・ペイウォール・薬登録の案内・お薬登録フォーム・服用頻度・服用者・通知設定・ホームの 4 タブ・お薬一覧を、閉じた姿勢 (外側) → 開いた姿勢 (内側) → 閉じ直した姿勢の順に撮り、見切れ・重なり・不自然な余白・固定幅による偏りが無い。オンボーディングのプラン生成は自動で進む演出のため閉じた姿勢の外側だけを撮り、内側・閉じ直しは未確認。全画面のモーダルシートが右端のステータス表示の列を避けて狭まらず、お薬一覧のカードがその列に重ならない
+  - 自動化: manual (姿勢の切り替えは `~/.claude/skills/ios-simulator/scripts/duo-pose.sh` で Device Hub を操作するためローカルの Mac でのみ可能)
+
+### 実行ナレッジ: iPhone Duo の Simulator で外側・内側ディスプレイを確認する
+
+- 起動は `sim-boot "<名前>" "iPhone Duo"` (機種名を渡す。iOS 27.1 のランタイムが要る)。姿勢の切り替えと撮影の順は ios-simulator skill Phase 2「折りたたみ端末の外側・内側ディスプレイを切り替える」が SSOT。外側は `xcrun simctl io <UDID> screenshot --display=primary`、内側は `--display=primary-1`
+- 内側ディスプレイは横向き (2853×2007 px) で描画される。時刻・Wi-Fi の表示は右端の列に置かれ、アプリの内容はその左側に収まる (OS の配置で、崩れではない)
+- Device Hub の姿勢ボタンを押しても内側が有効にならなくなることがある (`duo-pose.sh set ... open` が TIMEOUT)。`xcrun simctl shutdown` → `sim-boot` で Simulator を再起動すると復旧する
+- プラン生成の演出 (約 2.4 秒) は姿勢の切り替え (6〜15 秒) が間に合わないため、外側だけを連写 (`xcrun simctl io ... screenshot` のループ) で撮る
+
+#### 動作確認
+<details>
+<summary>動作確認エビデンス</summary>
+
+### **主要画面が外側・内側の両方で崩れない**
+
+<details><summary>動作確認スクショ</summary>
+
+**確認日: 2026-10-11**
+iPhone Duo の Simulator (iOS 27.1、Xcode 27.1 27A9275) で主要画面を 3 姿勢で撮影した (プラン生成だけは外側のみ)。全画面のモーダルシート (お薬登録フォーム・服用頻度・服用者・ペイウォール) とお薬一覧の崩れを修正し、修正後に崩れが無いことを確認した。全画面のスクリーンショットと修正前後の比較は issue https://github.com/bannzai/medicalarm/issues/370 を Closes する PR に載せている。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/11/67c158b5-545c-478f-bb3d-1f7ddb1f2957-duo-10-medicine-form-after-outer.png" alt="iPhone Duo 外側ディスプレイのお薬登録フォーム (修正後)" width="300" /> <img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/11/bc31f287-375f-482a-997b-7ca2a599fd0b-duo-10-medicine-form-after-inner.png" alt="iPhone Duo 内側ディスプレイのお薬登録フォーム (修正後)" width="420" />
+
+</details>
+
+</details>
+
 ## 機能別 QA.md
 
+- [onboarding](lib/features/onboarding/QA.md) — 初回起動の課金転換型オンボーディング
 - [medicines](lib/features/medicines/QA.md) — お薬一覧・一時停止/再開
 - [medicine_form](lib/features/medicine_form/QA.md) — 薬の登録・編集・削除
 - [medicine_image_import](lib/features/medicine_image_import/QA.md) — 画像（お薬手帳・処方箋）からの薬の一括登録
@@ -113,4 +157,4 @@ make secret  # 環境変数 FILE_FIREBASE_IOS / REVENUE_CAT_PUBLIC_API_KEY が�
 - `localization`: 文言解決の基盤（l.dart / resolver.dart）。画面を持たない
 - `resolver`: DI・匿名認証・DB 解決・課金セットアップ・強制アップデート等の基盤。起動が成功して服薬画面に到達することを横断確認項目 1 でカバー
 - `root`: レゾルバ積層と HomePage 表示のみ。横断確認項目 1 でカバー
-- `promotion_start`: ★5 レビュー訴求画面。表示条件は PromotionStartResolver（lib/features/promotion_start/resolver.dart）が判定する「プレミアム未加入・トライアル未使用・アカウント作成から1日超経過・前回キャンセルから7日超経過」の全成立で、クリーンインストール直後の初回起動では表示されない。時間経過に依存して安定再現できないため個別 QA.md は持たず、表示された場合に「今はしない」で閉じて服薬画面に到達できることは maestro/flows/allow_notification.yaml の条件付きタップでカバー
+- `promotion_start`: ★5 レビュー訴求画面。表示条件は PromotionStartResolver（lib/features/promotion_start/resolver.dart）が判定する「プレミアム未加入・トライアル未使用・アカウント作成から1日超経過・前回キャンセルから7日超経過」の全成立で、クリーンインストール直後の初回起動では表示されない。時間経過に依存して安定再現できないため個別 QA.md は持たず、表示された場合に「今はしない」で閉じて服薬画面に到達できることは maestro/flows/helpers/allow_notification.yaml の条件付きタップでカバー

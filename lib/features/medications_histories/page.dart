@@ -1,10 +1,10 @@
 import 'dart:ui';
 
-import 'package:collection/collection.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:intl/intl.dart';
+import 'package:medicalarm/components/avatar/dose_receiver_avatar.dart';
 import 'package:medicalarm/components/calendar/day/today_badge.dart';
 import 'package:medicalarm/components/calendar/weekly/pager.dart';
 import 'package:medicalarm/components/loading/indicator.dart';
@@ -12,13 +12,11 @@ import 'package:medicalarm/components/retry/page.dart';
 import 'package:medicalarm/components/text/edit_sheet.dart';
 import 'package:medicalarm/entity/medication_history.dart';
 import 'package:medicalarm/features/preium_introduction/premium_introduction_sheet.dart';
-import 'package:medicalarm/provider/app_user.dart';
-import 'package:medicalarm/provider/current_group_id.dart';
-import 'package:medicalarm/provider/group_user_profile.dart';
 import 'package:medicalarm/provider/medication_history.dart';
 import 'package:medicalarm/style/color.dart';
 import 'package:medicalarm/utils/analytics/analytics.dart';
 import 'package:medicalarm/utils/date_time/date_time_ext.dart';
+import 'package:medicalarm/utils/member/operator_member_display_name.dart';
 import 'package:medicalarm/utils/purchase/purchase.dart';
 import 'package:medicalarm/features/localization/l.dart';
 
@@ -172,25 +170,6 @@ class MedicationHistoryEmpty extends StatelessWidget {
   }
 }
 
-/// 服薬記録の操作者(記録者・取消者)が「自分以外のメンバー」の場合に表示名を返す。
-/// displayName が未登録・プロフィール不在でもフォールバック文言([L.memberFallbackName])を返し、操作者表示を必ず出す。
-/// 操作者が自分・不明の場合は null を返し、操作者表示を出さない。
-String? _operatorMemberDisplayName(WidgetRef ref, MedicationHistory history) {
-  final recordedByUserID = history.recordedByUserID;
-  if (recordedByUserID == null || recordedByUserID == ref.watch(appUserIDProvider)) {
-    return null;
-  }
-  final currentGroupID = ref.watch(currentGroupIDProvider);
-  final displayName = currentGroupID == null
-      ? null
-      : ref
-          .watch(groupUserProfilesProvider(groupID: currentGroupID))
-          .valueOrNull
-          ?.firstWhereOrNull((profile) => profile.userID == recordedByUserID)
-          ?.displayName;
-  return (displayName?.isNotEmpty ?? false) ? displayName : L.memberFallbackName;
-}
-
 class MedicationHistoryTile extends HookConsumerWidget {
   const MedicationHistoryTile({
     super.key,
@@ -205,7 +184,7 @@ class MedicationHistoryTile extends HookConsumerWidget {
     final schedule = history.action.medicationSchedule;
     final primaryColor = Theme.of(context).colorScheme.primary;
     final memoUpdate = ref.watch(medicationHistoryMemoUpdateProvider);
-    final recorderName = _operatorMemberDisplayName(ref, history);
+    final recorderName = operatorMemberDisplayName(ref: ref, history: history);
 
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 16.0),
@@ -238,7 +217,13 @@ class MedicationHistoryTile extends HookConsumerWidget {
               ],
             ),
             const SizedBox(height: 4),
-            Text(medicine.doseReceiver.name, style: const TextStyle(fontSize: 16, fontWeight: FontWeight.bold)),
+            Row(
+              children: [
+                DoseReceiverAvatar(doseReceiver: medicine.doseReceiver, size: 28),
+                const SizedBox(width: 8),
+                Expanded(child: Text(medicine.doseReceiver.name, style: const TextStyle(fontSize: 16, fontWeight: FontWeight.bold))),
+              ],
+            ),
             if (recorderName != null) ...[
               const SizedBox(height: 4),
               Text(L.recordedByMember(recorderName), style: const TextStyle(fontSize: 12, color: TextColor.gray)),
@@ -315,7 +300,7 @@ class MedicationHistoryRevertTile extends HookConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final medicine = history.medicine;
     final schedule = history.action.medicationSchedule;
-    final reverterName = _operatorMemberDisplayName(ref, history);
+    final reverterName = operatorMemberDisplayName(ref: ref, history: history);
 
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 16.0),
@@ -352,7 +337,13 @@ class MedicationHistoryRevertTile extends HookConsumerWidget {
               ],
             ),
             const SizedBox(height: 4),
-            Text(medicine.doseReceiver.name, style: const TextStyle(fontSize: 16, fontWeight: FontWeight.bold)),
+            Row(
+              children: [
+                DoseReceiverAvatar(doseReceiver: medicine.doseReceiver, size: 28),
+                const SizedBox(width: 8),
+                Expanded(child: Text(medicine.doseReceiver.name, style: const TextStyle(fontSize: 16, fontWeight: FontWeight.bold))),
+              ],
+            ),
             if (reverterName != null) ...[
               const SizedBox(height: 4),
               Text(L.revertedByMember(reverterName), style: const TextStyle(fontSize: 12, color: TextColor.gray)),

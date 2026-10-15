@@ -4,6 +4,7 @@ import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:medicalarm/components/error/error_alert.dart';
 import 'package:medicalarm/components/loading/loading.dart';
+import 'package:medicalarm/components/sheet/full_screen_modal_bottom_sheet.dart';
 import 'package:medicalarm/features/localization/l.dart';
 import 'package:medicalarm/provider/current_group_id.dart';
 import 'package:medicalarm/provider/group_invitation.dart';
@@ -118,11 +119,8 @@ class _UpperCaseTextInputFormatter extends TextInputFormatter {
 }
 
 void showGroupInvitationForm(BuildContext context) {
-  showModalBottomSheet(
+  showFullScreenModalBottomSheet(
     context: context,
-    useSafeArea: true,
-    isScrollControlled: true,
-    backgroundColor: Colors.transparent,
     builder: (context) => const GroupInvitationPage(),
   );
 }

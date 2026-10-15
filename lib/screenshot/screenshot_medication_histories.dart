@@ -176,8 +176,10 @@ class MedicationHistoryTile extends HookConsumerWidget {
           children: [
             Row(
               children: [
-                Center(child: Text(medicine.name, style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold, color: primaryColor))),
-                const Spacer(),
+                // iPhone Duo の外側ディスプレイ (右端のステータス列を除くと iPhone 16 Pro Max より狭い) で
+                // ro の薬名「medicament împotriva durerilor de cap」が 25px あふれたため、折り返せるようにする
+                // (Spacer を残すと flex の折半で薬名が行の半分の幅で折り返すため、Expanded だけで右端まで押す)
+                Expanded(child: Text(medicine.name, style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold, color: primaryColor))),
                 Text(
                   schedule.quantityMemo,
                   style: const TextStyle(fontSize: 12),

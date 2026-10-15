@@ -13,13 +13,15 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'package:medicalarm/screenshot/screenshot_medications.dart';
 
 import 'fake/providers.dart';
+import 'screenshot_config.dart';
 
 void main() {
   final binding = IntegrationTestWidgetsFlutterBinding.ensureInitialized();
 
   group('end-to-end test', () {
-    const locales = AppLocalizations.supportedLocales;
+    final locales = AppLocalizations.supportedLocales.where(isScreenshotTargetLocale);
     for (final locale in locales) {
+      final screenshotBoundaryKey = GlobalKey();
       testWidgets('screenshot medications $locale', (tester) async {
         final sharedPreferences = await SharedPreferences.getInstance();
         L = lookupAppLocalizations(locale);
@@ -35,6 +37,7 @@ void main() {
               medicationHistoryTakeProvider.overrideWithValue(FakeMedicationHistoryTake()),
               medicationHistoryRevertProvider.overrideWithValue(FakeMedicationHistoryRevert()),
               medicationHistoryUndoRevertProvider.overrideWithValue(FakeMedicationHistoryUndoRevert()),
+              recentMedicationHistoriesFetchProvider.overrideWithValue(FakeRecentMedicationHistoriesFetch()),
               registerReminderLocalNotificationProvider.overrideWithValue(FakeRegisterReminderLocalNotification()),
             ],
             child: MaterialApp(
@@ -92,7 +95,7 @@ void main() {
               ),
               debugShowCheckedModeBanner: false,
               locale: locale,
-              home: const ScreenshotMedicationsPage(),
+              home: RepaintBoundary(key: screenshotBoundaryKey, child: const ScreenshotMedicationsPage()),
               localizationsDelegates: AppLocalizations.localizationsDelegates,
               supportedLocales: AppLocalizations.supportedLocales,
             ),
@@ -104,7 +107,12 @@ void main() {
         await tester.pumpAndSettle(const Duration(seconds: 3));
         await binding.convertFlutterSurfaceToImage();
         await tester.pumpAndSettle();
-        await binding.takeScreenshot('artifacts/screenshots/screenshot_medications--${locale.languageCode}.png');
+        await takeScreenshotForStore(
+          binding: binding,
+          tester: tester,
+          boundaryKey: screenshotBoundaryKey,
+          screenshotName: '$screenshotOutputDirectory/screenshot_medications--${locale.languageCode}.png',
+        );
       });
     }
   });

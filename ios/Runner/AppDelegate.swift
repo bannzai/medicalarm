@@ -3,17 +3,25 @@ import UIKit
 import AlarmKit
 
 @main
-@objc class AppDelegate: FlutterAppDelegate {
+@objc class AppDelegate: FlutterAppDelegate, FlutterImplicitEngineDelegate {
   private var channel: FlutterMethodChannel?
 
   override func application(
     _ application: UIApplication,
     didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?
   ) -> Bool {
-    let viewController = window?.rootViewController as! FlutterViewController
+    return super.application(application, didFinishLaunchingWithOptions: launchOptions)
+  }
+
+  // UIScene ライフサイクル (Info.plist の UIApplicationSceneManifest) では didFinishLaunchingWithOptions の時点で
+  // window.rootViewController の FlutterViewController がまだ無いため、プラグインの登録と MethodChannel の作成は
+  // 暗黙の FlutterEngine が初期化された後のこのコールバックで行う (https://docs.flutter.dev/to/uiscene-migration)。
+  // iOS 27 SDK (Xcode 27) でビルドしたアプリは UIScene を採用しないと起動時にクラッシュする (#370)
+  func didInitializeImplicitFlutterEngine(_ engineBridge: FlutterImplicitEngineBridge) {
+    GeneratedPluginRegistrant.register(with: engineBridge.pluginRegistry)
     channel = FlutterMethodChannel(
       name: "method.channel.bannzai.Medicalarm",
-      binaryMessenger: viewController.binaryMessenger
+      binaryMessenger: engineBridge.applicationRegistrar.messenger()
     )
 
     channel?.setMethodCallHandler({ call, _completionHandler in
@@ -141,9 +149,6 @@ import AlarmKit
         return
       }
     })
-
-    GeneratedPluginRegistrant.register(with: self)
-    return super.application(application, didFinishLaunchingWithOptions: launchOptions)
   }
 }
 

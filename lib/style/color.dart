@@ -3,6 +3,12 @@ import 'package:flutter/material.dart';
 // Ref: https://saruwakakun.com/design/gallery/palette
 abstract class AppColors {
   static const Color primary = Color(0xFFEE817B);
+  // 白文字を載せる塗り面のためのブランド色 (#287)。primary(#EE817B) は白とのコントラスト比 2.60:1 で
+  // WCAG AA の通常文字 4.5:1 に届かないため、白文字が載る面だけこの色に差し替える。
+  // primary と同じ色相のまま彩度を落として暗くしたコーラルで、白とのコントラスト比 4.88:1。
+  // primary はアイコン・見出し・タブ等のアクセントとアプリアイコンとの整合のため据え置く
+  // 用途: 白文字を載せるブランド面(AppBar・ElevatedButton・FAB・カレンダーの選択円・バナー等)
+  static const Color primaryFilled = Color(0xFFBA4F49);
   // 画面がピンク一色になるのを避けるためのアクセントカラー (#265)。上記パレットにはピンク系以外の
   // 同伴色がないため独自選定。高彩度の補色ティール案(#009688)は目に強すぎるため不採用となり、
   // 低彩度4候補(グレー/ブルーグレー/スチールブルー/くすみティール)の実機比較でユーザーが Material Blue Grey 600 を選択した。

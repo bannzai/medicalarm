@@ -5,7 +5,8 @@
 // ignore_for_file: no_leading_underscores_for_library_prefixes
 import 'dart:async' as _i7;
 
-import 'package:medicalarm/entity/group_member_notification_settings.dart' as _i9;
+import 'package:medicalarm/entity/group_member_notification_settings.dart'
+    as _i9;
 import 'package:medicalarm/entity/medication_history.dart' as _i3;
 import 'package:medicalarm/entity/medicine.dart' as _i8;
 import 'package:medicalarm/features/resolver/database.dart' as _i2;
@@ -39,7 +40,8 @@ class _FakeGroupDatabase_0 extends _i1.SmartFake implements _i2.GroupDatabase {
         );
 }
 
-class _FakeMedicationHistory_1 extends _i1.SmartFake implements _i3.MedicationHistory {
+class _FakeMedicationHistory_1 extends _i1.SmartFake
+    implements _i3.MedicationHistory {
   _FakeMedicationHistory_1(
     Object parent,
     Invocation parentInvocation,
@@ -49,7 +51,8 @@ class _FakeMedicationHistory_1 extends _i1.SmartFake implements _i3.MedicationHi
         );
 }
 
-class _FakeRef_2<State extends Object?> extends _i1.SmartFake implements _i4.Ref<State> {
+class _FakeRef_2<State extends Object?> extends _i1.SmartFake
+    implements _i4.Ref<State> {
   _FakeRef_2(
     Object parent,
     Invocation parentInvocation,
@@ -62,7 +65,8 @@ class _FakeRef_2<State extends Object?> extends _i1.SmartFake implements _i4.Ref
 /// A class which mocks [MedicationHistoryTake].
 ///
 /// See the documentation for Mockito's code generation for more information.
-class MockMedicationHistoryTake extends _i1.Mock implements _i5.MedicationHistoryTake {
+class MockMedicationHistoryTake extends _i1.Mock
+    implements _i5.MedicationHistoryTake {
   @override
   _i2.GroupDatabase get database => (super.noSuchMethod(
         Invocation.getter(#database),
@@ -111,7 +115,8 @@ class MockMedicationHistoryTake extends _i1.Mock implements _i5.MedicationHistor
             #memberSettings: memberSettings,
           },
         ),
-        returnValue: _i7.Future<_i3.MedicationHistory>.value(_FakeMedicationHistory_1(
+        returnValue:
+            _i7.Future<_i3.MedicationHistory>.value(_FakeMedicationHistory_1(
           this,
           Invocation.method(
             #call,
@@ -126,7 +131,8 @@ class MockMedicationHistoryTake extends _i1.Mock implements _i5.MedicationHistor
             },
           ),
         )),
-        returnValueForMissingStub: _i7.Future<_i3.MedicationHistory>.value(_FakeMedicationHistory_1(
+        returnValueForMissingStub:
+            _i7.Future<_i3.MedicationHistory>.value(_FakeMedicationHistory_1(
           this,
           Invocation.method(
             #call,
@@ -147,7 +153,8 @@ class MockMedicationHistoryTake extends _i1.Mock implements _i5.MedicationHistor
 /// A class which mocks [MedicationHistoryRevert].
 ///
 /// See the documentation for Mockito's code generation for more information.
-class MockMedicationHistoryRevert extends _i1.Mock implements _i5.MedicationHistoryRevert {
+class MockMedicationHistoryRevert extends _i1.Mock
+    implements _i5.MedicationHistoryRevert {
   @override
   _i2.GroupDatabase get database => (super.noSuchMethod(
         Invocation.getter(#database),
@@ -175,13 +182,16 @@ class MockMedicationHistoryRevert extends _i1.Mock implements _i5.MedicationHist
       ) as String);
 
   @override
-  _i7.Future<_i3.MedicationHistory> call({required _i3.MedicationHistory? takeMedicationHistory}) => (super.noSuchMethod(
+  _i7.Future<_i3.MedicationHistory> call(
+          {required _i3.MedicationHistory? takeMedicationHistory}) =>
+      (super.noSuchMethod(
         Invocation.method(
           #call,
           [],
           {#takeMedicationHistory: takeMedicationHistory},
         ),
-        returnValue: _i7.Future<_i3.MedicationHistory>.value(_FakeMedicationHistory_1(
+        returnValue:
+            _i7.Future<_i3.MedicationHistory>.value(_FakeMedicationHistory_1(
           this,
           Invocation.method(
             #call,
@@ -189,7 +199,8 @@ class MockMedicationHistoryRevert extends _i1.Mock implements _i5.MedicationHist
             {#takeMedicationHistory: takeMedicationHistory},
           ),
         )),
-        returnValueForMissingStub: _i7.Future<_i3.MedicationHistory>.value(_FakeMedicationHistory_1(
+        returnValueForMissingStub:
+            _i7.Future<_i3.MedicationHistory>.value(_FakeMedicationHistory_1(
           this,
           Invocation.method(
             #call,
@@ -203,7 +214,8 @@ class MockMedicationHistoryRevert extends _i1.Mock implements _i5.MedicationHist
 /// A class which mocks [MedicationHistoryUndoRevert].
 ///
 /// See the documentation for Mockito's code generation for more information.
-class MockMedicationHistoryUndoRevert extends _i1.Mock implements _i5.MedicationHistoryUndoRevert {
+class MockMedicationHistoryUndoRevert extends _i1.Mock
+    implements _i5.MedicationHistoryUndoRevert {
   @override
   _i2.GroupDatabase get database => (super.noSuchMethod(
         Invocation.getter(#database),
@@ -218,7 +230,9 @@ class MockMedicationHistoryUndoRevert extends _i1.Mock implements _i5.Medication
       ) as _i2.GroupDatabase);
 
   @override
-  _i7.Future<bool> call({required _i3.MedicationHistory? revertMedicationHistory}) => (super.noSuchMethod(
+  _i7.Future<bool> call(
+          {required _i3.MedicationHistory? revertMedicationHistory}) =>
+      (super.noSuchMethod(
         Invocation.method(
           #call,
           [],
@@ -232,7 +246,8 @@ class MockMedicationHistoryUndoRevert extends _i1.Mock implements _i5.Medication
 /// A class which mocks [RecentMedicationHistoriesFetch].
 ///
 /// See the documentation for Mockito's code generation for more information.
-class MockRecentMedicationHistoriesFetch extends _i1.Mock implements _i5.RecentMedicationHistoriesFetch {
+class MockRecentMedicationHistoriesFetch extends _i1.Mock
+    implements _i5.RecentMedicationHistoriesFetch {
   @override
   _i2.GroupDatabase get database => (super.noSuchMethod(
         Invocation.getter(#database),
@@ -247,21 +262,27 @@ class MockRecentMedicationHistoriesFetch extends _i1.Mock implements _i5.RecentM
       ) as _i2.GroupDatabase);
 
   @override
-  _i7.Future<List<_i3.MedicationHistory>> call({required DateTime? recordedSinceDateTime}) => (super.noSuchMethod(
+  _i7.Future<List<_i3.MedicationHistory>> call(
+          {required DateTime? recordedSinceDateTime}) =>
+      (super.noSuchMethod(
         Invocation.method(
           #call,
           [],
           {#recordedSinceDateTime: recordedSinceDateTime},
         ),
-        returnValue: _i7.Future<List<_i3.MedicationHistory>>.value(<_i3.MedicationHistory>[]),
-        returnValueForMissingStub: _i7.Future<List<_i3.MedicationHistory>>.value(<_i3.MedicationHistory>[]),
+        returnValue: _i7.Future<List<_i3.MedicationHistory>>.value(
+            <_i3.MedicationHistory>[]),
+        returnValueForMissingStub:
+            _i7.Future<List<_i3.MedicationHistory>>.value(
+                <_i3.MedicationHistory>[]),
       ) as _i7.Future<List<_i3.MedicationHistory>>);
 }
 
 /// A class which mocks [RegisterReminderLocalNotification].
 ///
 /// See the documentation for Mockito's code generation for more information.
-class MockRegisterReminderLocalNotification extends _i1.Mock implements _i10.RegisterReminderLocalNotification {
+class MockRegisterReminderLocalNotification extends _i1.Mock
+    implements _i10.RegisterReminderLocalNotification {
   @override
   _i4.Ref<Object?> get ref => (super.noSuchMethod(
         Invocation.getter(#ref),
