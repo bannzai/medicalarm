@@ -31,7 +31,7 @@ launched_at: 2025-03-04   # 公開日 (YYYY-MM-DD)。App Store の初回公開�
 - [x] Crashlytics のアラートの Slack 転送 (#medicalarm-notification。PR #356)
 - [ ] 画像から服薬する薬の予定を作る (#257。PR #267)
 - [ ] デザインのリニューアル (#274)
-- [ ] App Store の公開版 (202605.02.205812、2026-05-03。`fetch-app-metadata.sh 6740401642 --country jp` の `version` / `currentVersionReleaseDate` を 2026-10-11 に実測。main の `pubspec.yaml` は 202607.15 でタグもあるがストアには出ていない) 以降に main へ入った変更 (オンボーディング、起動時のストアレビュー訴求の削除 #294 等) のリリース (`scripts/release.sh`)。前提: (1) QA.md の記録の追随は #393 (PR #405) で済んだが、その後にマージされた #403 (容量欄の修正 #402)・#392 (SwiftPM 化) と、QA で見つかった ❌ (#402・#404) のため、2026-10-16 に main の HEAD (`273518fd`) で `check_qa_gate.sh --features-dir lib/features` がまだ `GATE:fail`。差分の QA で解消する。(2) #340 の実機・Sandbox での確認 5 件 (購入と復元・プレミアム会員の表示・年額プランの購入ダイアログ・アカウント引き継ぎ・本番ビルドの App Check) は bannzai の作業。次の E2E の項目は済んだ
+- [ ] App Store の公開版 (202605.02.205812、2026-05-03。`fetch-app-metadata.sh 6740401642 --country jp` の `version` / `currentVersionReleaseDate` を 2026-10-11 に実測。main の `pubspec.yaml` は 202607.15 でタグもあるがストアには出ていない) 以降に main へ入った変更 (オンボーディング、起動時のストアレビュー訴求の削除 #294 等) のリリース (`scripts/release.sh`)。前提: (1) QA.md の記録の追随は #393 (PR #405) と差分の QA #408 (PR #409・#410) で済み、2026-10-17 に main の HEAD (`f14b9388`) で `check_qa_gate.sh --features-dir lib/features` が `GATE:pass`。この後に `lib/` などアプリのコードを変える PR がマージされたら、リリースの前に差分の QA をし直す。(2) #340 の実機・Sandbox での確認 5 件 (購入と復元・プレミアム会員の表示・年額プランの購入ダイアログ・アカウント引き継ぎ・本番ビルドの App Check) は bannzai の作業。次の E2E の項目は済んだ
 - [x] nightly E2E (`CI E2E (Flutter iOS)`) が main で通る状態 (#383 → PR #386 で iOS ビルドを直し、main の schedule の run が 2026-10-14 に success: https://github.com/bannzai/medicalarm/actions/runs/38617042800 。間欠的な失敗は #387)
 
 ## デザインの方向
@@ -51,6 +51,7 @@ launched_at: 2025-03-04   # 公開日 (YYYY-MM-DD)。App Store の初回公開�
 | 2026-10-15 | 無人ループ | リリース前の QA (#393) は現在の main を対象にし、open の #392 (google_mobile_ads・sign_in_with_apple の SwiftPM 対応版への更新) のマージを待たない。#386 で CI の iOS ビルドは直っており、#392 はストアのビルドの前提ではない。#392 が後でマージされて QA のゲートが再び fail になったら、次のリリースの前に差分の QA をし直す | agent |
 | 2026-10-15 | 無人ループ | 判定基準「直近14日のFATALクラッシュissue数」は、このマシンの firebase CLI に認証済みアカウントが無く (`firebase login:list` が `No authorized accounts`) 取得できなかったため UNMEASURED とした。`firebase login` は対話認証で bannzai にしかできない。判定日 (2026-10-27) までに戻らなければ、その指標を除いて判定する | agent |
 | 2026-10-16 | 無人ループ | QA で 1 回だけ観測した「メンバーの再参加がオーナーの画面に反映されない」(#404) の ❌ は、#404 を閉じるかの判断と切り離して扱う。無人実装の調査 (ローカルの Simulator 2 台で 5 回) で再現せず、アプリ側の原因が見つかっていないため、リリース前の差分の QA で同じ QA 項目を simtunnel で実行し直し、再現しなければ ✅ に書き換えて未再現の回数を #404 に記録する。再現したら ❌ のままにしてリリースを止める | agent |
+| 2026-10-17 | 無人ループ | 判定基準「直近14日のFATALクラッシュissue数」の取得の失敗の原因が変わった。`crashlytics.sh top-issues` は ADC (`ai-agent@bannzai.iam.gserviceaccount.com`) で認証が通り、quota project 339671052451 (medicalarm-prod) で Firebase Crashlytics API が無効のため HTTP 403 `SERVICE_DISABLED` で失敗した。スクリプトが示す対処 `gcloud services enable firebasecrashlytics.googleapis.com --project medicalarm-prod` は、同スクリプトが「確認を取ってから実行する」としており、確認の経路が無い無人ループでは実行しない。bannzai の作業として「ユーザー作業の一覧」#281 に記録し、2026-10-15 の行のとおり判定日 (2026-10-27) までに戻らなければこの指標を除いて判定する | agent |
 
 ## agent に任せること
 
