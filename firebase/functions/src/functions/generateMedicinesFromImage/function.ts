@@ -35,15 +35,22 @@ const maxNameLength = 50;
 const maxQuantityMemoLength = 100;
 
 /// 出力トークンの上限。maxMedicinesPerImage x maxSchedulesPerMedicine を満たす応答
-/// (薬 20 件 x スケジュール 10 件) の実測でも 4000 トークンに満たないため、暴走時のコスト・
-/// レイテンシの歯止めとして 4096 を上限にする。上限に当たった応答は JSON が途中で切れるため、
-/// finish_reason を見てエラーにする。
-const maxCompletionTokens = 4096;
+/// (薬 20 件 x スケジュール 10 件) の実測でも 4000 トークンに満たないが、gpt-5 系は
+/// reasoning トークンもこの上限に数えるため、2 倍の 8192 を暴走時のコスト・レイテンシの
+/// 歯止めにする。上限に当たった応答は JSON が途中で切れるため、finish_reason を見てエラーにする。
+const maxCompletionTokens = 8192;
 
-/// 画像抽出に使う OpenAI モデル。リポジトリ既存の OpenAI 利用 (scripts/translation) と同じ
-/// gpt-4.1-mini に揃える。vision 入力と Structured Outputs (json_schema strict) をサポートし、
-/// 処方箋 1 枚のテキスト抽出には十分な性能で単価が安い。
-const openAIModel = "gpt-4.1-mini";
+/// 画像抽出に使う OpenAI モデル。入力 $0.25 / 出力 $2.00 per 1M トークンで、以前の
+/// gpt-4.1-mini (入力 $0.40 / 出力 $1.60) より入力が安い。実測の出力は 1 画像 80〜230
+/// トークンで入力 (画像 1400〜3600 トークン) が支配的なため、1 呼び出しあたり約 25% 安くなる。
+/// さらに安い gpt-5-nano は fixtures 3 枚の実測で服用時刻の変換ミス・薬名の OCR ミスが
+/// 出たため採用しない (検証: 2026-10-18、reasoning minimal / low の両方で誤り)。
+const openAIModel = "gpt-5-mini";
+
+/// gpt-5 系は reasoning モデルのため、推論の深さを最小にして単純なテキスト抽出での
+/// レイテンシと reasoning トークンの消費を抑える。minimal でも fixtures 3 枚の抽出が
+/// 期待値と完全一致することを実測済み (2026-10-18)。
+const openAIReasoningEffort = "minimal" as const;
 
 /** 画像から抽出した薬 1 件分のスケジュール。クライアントの MedicationSchedule の入力素材になる。 */
 interface GeneratedMedicineSchedule {
@@ -215,6 +222,7 @@ async function generateMedicinesFromImageHandler(req: {
     const completion = await openai.chat.completions.create({
       model: openAIModel,
       max_completion_tokens: maxCompletionTokens,
+      reasoning_effort: openAIReasoningEffort,
       messages: [
         {
           role: "user",
