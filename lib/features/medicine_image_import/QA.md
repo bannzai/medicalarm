@@ -59,7 +59,7 @@ bash scripts/e2e/generate_medicines_from_image.sh
 
 **確認日: 2026-10-15**
 ローカル sim-boot（SIMSLIM_EXCEPT=store,photos）の iPhone シミュレータで確認
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/be17aca9-dd49-43d0-abed-ed9e6eb2d2e1-13_medicines_list.png" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/be17aca9-dd49-43d0-abed-ed9e6eb2d2e1-13_medicines_list.png" width="320" alt="お薬一覧の「お薬を追加」の下に「画像から登録」ボタンが表示されている">
 
 </details>
 
@@ -69,9 +69,9 @@ bash scripts/e2e/generate_medicines_from_image.sh
 
 **確認日: 2026-10-15**
 ダイアログ表示:
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/65954818-ff5c-49f8-9450-add971306987-09_after_dismiss2.png" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/65954818-ff5c-49f8-9450-add971306987-09_after_dismiss2.png" width="320" alt="カメラで撮影とフォトライブラリを選ぶダイアログが表示されている">
 「閉じる」タップ後（何も起きずお薬一覧に戻る）:
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/6b5c1976-a4a8-4bc9-9b19-ab688e5cb676-14_after_dialog_close.png" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/6b5c1976-a4a8-4bc9-9b19-ab688e5cb676-14_after_dialog_close.png" width="320" alt="ダイアログを閉じた後のお薬一覧">
 
 </details>
 
@@ -81,7 +81,7 @@ bash scripts/e2e/generate_medicines_from_image.sh
 
 **確認日: 2026-10-25**
 画像から 2 件登録して無料上限に達した後、お薬一覧で「お薬を追加」「画像から登録」の両ボタンが無効表示になる（「お薬は2つまで登録できます。」の案内つき）
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/25/26a3b3f7-5a51-4c3d-bf2a-57f437c23de2-02_medicine_list.png" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/25/26a3b3f7-5a51-4c3d-bf2a-57f437c23de2-02_medicine_list.png" width="320" alt="無料上限到達でお薬を追加と画像から登録の両ボタンが無効表示のお薬一覧">
 
 </details>
 
@@ -100,8 +100,9 @@ bash scripts/e2e/generate_medicines_from_image.sh
 - [ ] **仮時刻の注意書き**: 服用時刻を読み取れなかった候補には「服用時刻を読み取れなかったため仮の時刻です。登録後に編集できます」が表示され、時刻が 10:00 になる
   - 自動化: manual（medicine_notebook_seal.png の頓服薬カロナールで再現する）
   - ⏭️ スキップ: 月間利用回数の消費を抑えるため今回は未実施
-- [x] **除外された服用時刻の注意書き**: スケジュール上限を超える候補には「上限を超えた服用時刻N件は登録されません」が表示され、表示されている時刻と実際に登録される時刻が一致する
+- [ ] **除外された服用時刻の注意書き**: スケジュール上限を超える候補には「上限を超えた服用時刻N件は登録されません」が表示され、表示されている時刻と実際に登録される時刻が一致する
   - 自動化: manual（無料ユーザーで medication_guide.png を読み取ると酸化マグネシウム（3 件）で再現する）
+  - 注意書きの表示と時刻の切り詰め表示は 2026-10-25 に確認済み（下のエビデンス）。該当候補を登録して登録時刻の一致まで確認するのは未実施（登録枠の残り 2 件に入らなかったため）
 - [ ] **読み取れなかった場合**: 薬が写っていない画像を選ぶと「画像からお薬を読み取れませんでした」が表示され、「閉じる」で何も登録されずに閉じる
   - 自動化: manual（薬が写っていない画像を別途用意して確認する）
   - ⏭️ スキップ: 月間利用回数の消費を抑えるため今回は未実施。空候補の表示は test/features/medicine_image_import/review_sheet_test.dart でカバー
@@ -116,7 +117,7 @@ bash scripts/e2e/generate_medicines_from_image.sh
 
 **確認日: 2026-10-15**
 「画像から登録」ボタン内にローディングが表示される（二重実行はこのローディングと同じ isLoading ガードで抑止。連打の再現は未実施）
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/3f468a61-696f-40e9-bfb7-5fb422effb55-05_after_select_photo.png" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/3f468a61-696f-40e9-bfb7-5fb422effb55-05_after_select_photo.png" width="320" alt="画像から登録ボタンが読み取り中のローディング表示になっている">
 
 </details>
 
@@ -126,7 +127,7 @@ bash scripts/e2e/generate_medicines_from_image.sh
 
 **確認日: 2026-10-25**（gpt-5-mini への変更後の本番バックエンドで再実施）
 medication_guide.png の読み取りで薬 4 種（アムロジピン / ロキソプロフェンNa / 酸化マグネシウム / ゾルピデム）が薬名・「毎日」・服用時刻・服用量つきで並ぶ
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/25/6f1ee589-694d-4c9d-abe0-c7f8ccea2cb3-00_review_sheet.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/25/6f1ee589-694d-4c9d-abe0-c7f8ccea2cb3-00_review_sheet.jpg" width="320" alt="medication_guide の読み取り結果のレビューシートに薬 4 種が並んでいる">
 
 </details>
 
@@ -136,7 +137,7 @@ medication_guide.png の読み取りで薬 4 種（アムロジピン / ロキ�
 
 **確認日: 2026-10-25**（gpt-5-mini への変更後の本番バックエンドで再実施）
 上の「レビューシートの表示」のスクショのとおり、4 薬とも期待値と一致（酸化マグネシウムは 8:00/12:00 表示 + 上限超過 1 件の注意書きで、切り捨て挙動も期待どおり）。シートを経由しない抽出結果の照合は、同日の本番 E2E（tmp/e2e-deployed-*.log）で 3 画像とも期待値 JSON と完全一致
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/25/6f1ee589-694d-4c9d-abe0-c7f8ccea2cb3-00_review_sheet.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/25/6f1ee589-694d-4c9d-abe0-c7f8ccea2cb3-00_review_sheet.jpg" width="320" alt="レビューシートの 4 薬の名前・頻度・時刻・服用量が期待値と一致している">
 
 </details>
 
@@ -154,7 +155,7 @@ medication_guide.png の読み取りで薬 4 種（アムロジピン / ロキ�
 
 **確認日: 2026-10-25**
 酸化マグネシウム（3 時刻）に「上限を超えた服用時刻1件は登録されません」が表示され、時刻は 8:00/12:00 の 2 件に切り詰めて表示される（上の「レビューシートの表示」のスクショ）。この候補自体は残り登録枠 2 件の初期選択から外れていたため、切り詰め後の時刻での登録までは未実施（登録時の切り詰めは test/features/medicine_image_import/review_sheet_test.dart でカバー）
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/25/6f1ee589-694d-4c9d-abe0-c7f8ccea2cb3-00_review_sheet.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/25/6f1ee589-694d-4c9d-abe0-c7f8ccea2cb3-00_review_sheet.jpg" width="320" alt="酸化マグネシウムに上限を超えた服用時刻 1 件は登録されませんの注意書きが表示されている">
 
 </details>
 
@@ -206,7 +207,7 @@ medication_guide.png の読み取りで薬 4 種（アムロジピン / ロキ�
 
 **確認日: 2026-10-15**
 medicine_bag.png の読み取り結果。候補が初期選択され、確定ボタンに「1件を追加」が表示される（薬名・「毎日 08:00 1錠 / 19:00 1錠」の表示もこのスクショで確認）
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/409c3af5-ff1a-41b0-ab7b-f9e7be132c03-11_review_sheet.png" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/409c3af5-ff1a-41b0-ab7b-f9e7be132c03-11_review_sheet.png" width="320" alt="medicine_bag の読み取り結果のレビューシートで候補が初期選択されている">
 
 </details>
 
@@ -249,14 +250,14 @@ medicine_bag.png の読み取り結果。候補が初期選択され、確定ボ
 **確認日: 2026-10-15**
 「1件を追加」で登録され、服薬画面とお薬一覧に反映されることを確認（SnackBar は表示が一瞬で撮影できず未確認）。
 服薬画面への反映:
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/abc70ee7-5d26-4488-b383-b07950e80980-12_after_add.png" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/abc70ee7-5d26-4488-b383-b07950e80980-12_after_add.png" width="320" alt="登録後の服薬画面に該当時刻の枠が表示されている">
 お薬一覧への反映:
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/be17aca9-dd49-43d0-abed-ed9e6eb2d2e1-13_medicines_list.png" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/be17aca9-dd49-43d0-abed-ed9e6eb2d2e1-13_medicines_list.png" width="320" alt="登録後のお薬一覧にクラリスロマイシン錠が表示されている">
 
 **確認日: 2026-10-25**（gpt-5-mini への変更後の本番バックエンドで再実施）
 medication_guide.png から「2件を追加」で登録し、SnackBar「2件のお薬を登録しました」の表示を撮影。お薬一覧にはアムロジピン（08:00）とロキソプロフェンNa（08:00/19:00）が並ぶ
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/25/2ef421db-21af-43fb-916c-e8a2ac1052f3-01_registered_snackbar.png" width="320">
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/25/26a3b3f7-5a51-4c3d-bf2a-57f437c23de2-02_medicine_list.png" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/25/2ef421db-21af-43fb-916c-e8a2ac1052f3-01_registered_snackbar.png" width="320" alt="2件のお薬を登録しましたの SnackBar が表示されている">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/25/26a3b3f7-5a51-4c3d-bf2a-57f437c23de2-02_medicine_list.png" width="320" alt="お薬一覧にアムロジピン錠とロキソプロフェンNa錠が表示されている">
 
 </details>
 
@@ -266,7 +267,7 @@ medication_guide.png から「2件を追加」で登録し、SnackBar「2件の�
 
 **確認日: 2026-10-15**
 編集画面で頻度「毎日」・開始日 2026/10/15（当日）・服用間隔「なし」・時刻 08:00/19:00 を確認。服用量は編集画面の容量欄が initialValue を持たない main 由来の既存実装のため、お薬一覧の「1錠」表示で確認（服用者「自分」も一覧で確認）
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/f747b81d-a2cc-45c3-8ac9-802b3d462167-15_edit_form.png" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/f747b81d-a2cc-45c3-8ac9-802b3d462167-15_edit_form.png" width="320" alt="編集画面に登録した薬の頻度・開始日・時刻が表示されている">
 
 </details>
 
@@ -276,11 +277,11 @@ medication_guide.png から「2件を追加」で登録し、SnackBar「2件の�
 
 **確認日: 2026-10-15**
 服薬画面に 08:00・19:00 の枠が表示される
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/abc70ee7-5d26-4488-b383-b07950e80980-12_after_add.png" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/abc70ee7-5d26-4488-b383-b07950e80980-12_after_add.png" width="320" alt="服薬画面に 08:00 と 19:00 の枠が表示されている">
 
 **確認日: 2026-10-25**（gpt-5-mini への変更後の本番バックエンドで再実施）
 服薬画面に 08:00 枠（アムロジピン・ロキソプロフェンNa）と 19:00 枠（ロキソプロフェンNa）が表示される
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/25/bdfed361-6b37-433b-8597-8e9dea8e9464-03_medications_0800_1900.png" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/25/bdfed361-6b37-433b-8597-8e9dea8e9464-03_medications_0800_1900.png" width="320" alt="服薬画面に 08:00 枠 2 薬と 19:00 枠 1 薬が表示されている">
 
 </details>
 
