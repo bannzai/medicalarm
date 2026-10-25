@@ -29,9 +29,9 @@ launched_at: 2025-03-04   # 公開日 (YYYY-MM-DD)。App Store の初回公開�
 - [x] 服薬記録・履歴・カレンダー・日記
 - [x] 課金転換型のオンボーディングとプレミアム紹介画面、AdMob 広告
 - [x] Crashlytics のアラートの Slack 転送 (#medicalarm-notification。PR #356)
-- [ ] 画像から服薬する薬の予定を作る (#257。PR #267)
+- [x] 画像から服薬する薬の予定を作る (#257。PR #267 が 2026-10-25 に main へマージ。callable `generateMedicinesFromImage` は prod にデプロイ済み (2026-10-26 に `firebase functions:list --project medicalarm-prod` で `ACTIVE` を確認)。アプリはストア未リリースで、下のリリースの項目に含まれる)
 - [ ] デザインのリニューアル (#274)
-- [ ] App Store の公開版 (202605.02.205812、2026-05-03。`fetch-app-metadata.sh 6740401642 --country jp` の `version` / `currentVersionReleaseDate` を 2026-10-11 に実測。main の `pubspec.yaml` は 202607.15 でタグもあるがストアには出ていない) 以降に main へ入った変更 (オンボーディング、起動時のストアレビュー訴求の削除 #294 等) のリリース (`scripts/release.sh`)。前提: (1) QA.md の記録の追随は #393 (PR #405) と差分の QA #408 (PR #409・#410) で済み、2026-10-17 に main の HEAD (`f14b9388`) で `check_qa_gate.sh --features-dir lib/features` が `GATE:pass`。この後に `lib/` などアプリのコードを変える PR がマージされたら、リリースの前に差分の QA をし直す。(2) #340 の実機・Sandbox での確認 5 件 (購入と復元・プレミアム会員の表示・年額プランの購入ダイアログ・アカウント引き継ぎ・本番ビルドの App Check) は bannzai の作業。次の E2E の項目は済んだ
+- [ ] App Store の公開版 (202605.02.205812、2026-05-03。`fetch-app-metadata.sh 6740401642 --country jp` の `version` / `currentVersionReleaseDate` を 2026-10-11 に実測。main の `pubspec.yaml` は 202607.15 でタグもあるがストアには出ていない) 以降に main へ入った変更 (オンボーディング、起動時のストアレビュー訴求の削除 #294、画像からの薬の登録 #267 等) のリリース (`scripts/release.sh`。作業は #423)。前提: (1) リリース前の QA ゲート。2026-10-17 の `GATE:pass` (`f14b9388`) は、その後の #267 などアプリのコードを変える PR のマージで main の HEAD に当てはまらなくなり、`check_qa_gate.sh` が QA データベース (tansu) の記録で判定するため、tansu への登録と run-qa の全項目の実行を #422 で行っている。(2) #340 の実機・Sandbox での確認 5 件 (購入と復元・プレミアム会員の表示・年額プランの購入ダイアログ・アカウント引き継ぎ・本番ビルドの App Check) は bannzai の作業。次の E2E の項目は済んだ
 - [x] nightly E2E (`CI E2E (Flutter iOS)`) が main で通る状態 (#383 → PR #386 で iOS ビルドを直し、main の schedule の run が 2026-10-14 に success: https://github.com/bannzai/medicalarm/actions/runs/38617042800 。間欠的な失敗は #387)
 
 ## デザインの方向
