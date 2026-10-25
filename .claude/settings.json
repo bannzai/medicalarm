@@ -26,7 +26,23 @@
       "Bash(bash /Users/bannzai/.claude/skills/run-qa/scripts/affected_features.sh:*)",
       "Bash(bash /Users/bannzai/.claude/skills/run-qa/scripts/mark_verified.sh:*)",
       "Bash(bash /Users/bannzai/.claude/skills/setup-qa/scripts/sync_evidence.sh:*)",
-      "mcp__mobile"
+      "mcp__mobile",
+      "Bash(puts:*)",
+      "Skill(run-qa)",
+      "Skill(run-qa *)",
+      "Skill(puts)",
+      "Skill(puts *)",
+      "Bash(tansu qa:*)",
+      "Bash(tansu query:*)",
+      "mcp__tansu",
+      "Bash(bash /Users/bannzai/.claude/skills/run-qa/scripts/record_result.sh:*)",
+      "Bash(bash /Users/bannzai/.claude/skills/run-qa/scripts/check_recorded.sh:*)",
+      "Bash(bash /Users/bannzai/.claude/skills/setup-qa/scripts/register_qa.sh:*)",
+      "Skill(sim-manager)",
+      "Skill(sim-manager *)",
+      "Bash(bash /Users/bannzai/.claude/skills/ios-simulator/scripts/ios-wda.sh:*)",
+      "Bash(bash /Users/bannzai/.claude/skills/ios-simulator/scripts/wait-for-local-resources.sh:*)",
+      "Bash(gh api:*)"
     ]
   }
 }
