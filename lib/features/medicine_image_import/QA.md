@@ -1,8 +1,8 @@
 ---
 feature: medicine_image_import
 verification: mobile-mcp
-last_verified_commit: 418d2945918380b93f5e789206be79229d5a9c78
-last_verified_at: 2026-10-15
+last_verified_commit: 6633b912da0918c0539c2619fd3567e63d901833
+last_verified_at: 2026-10-25
 ---
 
 # medicine_image_import QA
@@ -46,9 +46,8 @@ bash scripts/e2e/generate_medicines_from_image.sh
   - 自動化: manual（写真ライブラリからの画像選択が OS のピッカー経由で maestro から安定操作できないため、mobile-mcp で目視確認する）
 - [x] **画像選択ダイアログ**: タップすると「カメラ」「フォトライブラリ」を選ぶダイアログが表示され、「閉じる」で何も起きずに閉じる
   - 自動化: manual（同上）
-- [ ] **登録数上限時の無効化**: 自分が作成した薬が上限（無料 2 件 / プレミアム 10 件）に達していると「画像から登録」ボタンが無効になる
+- [x] **登録数上限時の無効化**: 自分が作成した薬が上限（無料 2 件 / プレミアム 10 件）に達していると「画像から登録」ボタンが無効になる
   - 自動化: manual（上限到達状態を手で作る必要があるため）
-  - ⏭️ スキップ: 上限到達状態（無料 2 件）の作り込みを今回は行っていない。残り枠の判定ロジックは test/features/medicine_image_import/review_sheet_test.dart と import_button.dart の再計算ガードでカバー
 
 #### 動作確認
 <details>
@@ -80,7 +79,9 @@ bash scripts/e2e/generate_medicines_from_image.sh
 
 <details><summary>動作確認スクショ</summary>
 
-（未実行）
+**確認日: 2026-10-25**
+画像から 2 件登録して無料上限に達した後、お薬一覧で「お薬を追加」「画像から登録」の両ボタンが無効表示になる（「お薬は2つまで登録できます。」の案内つき）
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/25/26a3b3f7-5a51-4c3d-bf2a-57f437c23de2-02_medicine_list.png" width="320">
 
 </details>
 
@@ -92,18 +93,15 @@ bash scripts/e2e/generate_medicines_from_image.sh
 
 - [x] **読み取り中の表示**: 画像を選ぶとボタンがローディング表示になり、二重実行できない
   - 自動化: manual（AI 呼び出し中の一時的な表示のため）
-- [ ] **レビューシートの表示**: 読み取りが終わるとシートが開き、テスト画像（medication_guide.png）の薬 4 種が候補として並び、それぞれ薬名・「毎日」・服用時刻・服用量が表示される
+- [x] **レビューシートの表示**: 読み取りが終わるとシートが開き、テスト画像（medication_guide.png）の薬 4 種が候補として並び、それぞれ薬名・「毎日」・服用時刻・服用量が表示される
   - 自動化: manual（写真ライブラリからの画像選択を伴うため）
-  - ⏭️ スキップ: 月間利用回数の消費を抑えるため medication_guide.png（4 種）は未実施。シートの表示自体（薬名・「毎日」・服用時刻・服用量）は medicine_bag.png（1 種）の読み取りで 2026-10-15 に確認済み（下の「初期選択」のスクショ）
-- [ ] **抽出結果の妥当性**: 表示される内容が `scripts/e2e/fixtures/medication_guide_expected.json` と一致する（アムロジピン 8:00、ロキソプロフェンNa 8:00/19:00、酸化マグネシウム 8:00/12:00/19:00、ゾルピデム 22:00。ただし無料ユーザーはスケジュール上限 2 件で切り捨てられる）
+- [x] **抽出結果の妥当性**: 表示される内容が `scripts/e2e/fixtures/medication_guide_expected.json` と一致する（アムロジピン 8:00、ロキソプロフェンNa 8:00/19:00、酸化マグネシウム 8:00/12:00/19:00、ゾルピデム 22:00。ただし無料ユーザーはスケジュール上限 2 件で切り捨てられる）
   - 自動化: manual（AI の出力内容の照合のため）
-  - ⏭️ スキップ: 同上の理由で medication_guide.png は未実施。medicine_bag.png では `medicine_bag_expected.json`（クラリスロマイシン錠200mg「サワイ」 08:00/19:00 各1錠）との一致を 2026-10-15 に確認済み
 - [ ] **仮時刻の注意書き**: 服用時刻を読み取れなかった候補には「服用時刻を読み取れなかったため仮の時刻です。登録後に編集できます」が表示され、時刻が 10:00 になる
   - 自動化: manual（medicine_notebook_seal.png の頓服薬カロナールで再現する）
   - ⏭️ スキップ: 月間利用回数の消費を抑えるため今回は未実施
-- [ ] **除外された服用時刻の注意書き**: スケジュール上限を超える候補には「上限を超えた服用時刻N件は登録されません」が表示され、表示されている時刻と実際に登録される時刻が一致する
+- [x] **除外された服用時刻の注意書き**: スケジュール上限を超える候補には「上限を超えた服用時刻N件は登録されません」が表示され、表示されている時刻と実際に登録される時刻が一致する
   - 自動化: manual（無料ユーザーで medication_guide.png を読み取ると酸化マグネシウム（3 件）で再現する）
-  - ⏭️ スキップ: 月間利用回数の消費を抑えるため今回は未実施。表示ロジックは test/features/medicine_image_import/review_sheet_test.dart でカバー
 - [ ] **読み取れなかった場合**: 薬が写っていない画像を選ぶと「画像からお薬を読み取れませんでした」が表示され、「閉じる」で何も登録されずに閉じる
   - 自動化: manual（薬が写っていない画像を別途用意して確認する）
   - ⏭️ スキップ: 月間利用回数の消費を抑えるため今回は未実施。空候補の表示は test/features/medicine_image_import/review_sheet_test.dart でカバー
@@ -126,7 +124,9 @@ bash scripts/e2e/generate_medicines_from_image.sh
 
 <details><summary>動作確認スクショ</summary>
 
-（未実行）
+**確認日: 2026-10-25**（gpt-5-mini への変更後の本番バックエンドで再実施）
+medication_guide.png の読み取りで薬 4 種（アムロジピン / ロキソプロフェンNa / 酸化マグネシウム / ゾルピデム）が薬名・「毎日」・服用時刻・服用量つきで並ぶ
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/25/6f1ee589-694d-4c9d-abe0-c7f8ccea2cb3-00_review_sheet.jpg" width="320">
 
 </details>
 
@@ -134,7 +134,9 @@ bash scripts/e2e/generate_medicines_from_image.sh
 
 <details><summary>動作確認スクショ</summary>
 
-（未実行）
+**確認日: 2026-10-25**（gpt-5-mini への変更後の本番バックエンドで再実施）
+上の「レビューシートの表示」のスクショのとおり、4 薬とも期待値と一致（酸化マグネシウムは 8:00/12:00 表示 + 上限超過 1 件の注意書きで、切り捨て挙動も期待どおり）。シートを経由しない抽出結果の照合は、同日の本番 E2E（tmp/e2e-deployed-*.log）で 3 画像とも期待値 JSON と完全一致
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/25/6f1ee589-694d-4c9d-abe0-c7f8ccea2cb3-00_review_sheet.jpg" width="320">
 
 </details>
 
@@ -150,7 +152,9 @@ bash scripts/e2e/generate_medicines_from_image.sh
 
 <details><summary>動作確認スクショ</summary>
 
-（未実行）
+**確認日: 2026-10-25**
+酸化マグネシウム（3 時刻）に「上限を超えた服用時刻1件は登録されません」が表示され、時刻は 8:00/12:00 の 2 件に切り詰めて表示される（上の「レビューシートの表示」のスクショ）。この候補自体は残り登録枠 2 件の初期選択から外れていたため、切り詰め後の時刻での登録までは未実施（登録時の切り詰めは test/features/medicine_image_import/review_sheet_test.dart でカバー）
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/25/6f1ee589-694d-4c9d-abe0-c7f8ccea2cb3-00_review_sheet.jpg" width="320">
 
 </details>
 
@@ -249,6 +253,11 @@ medicine_bag.png の読み取り結果。候補が初期選択され、確定ボ
 お薬一覧への反映:
 <img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/be17aca9-dd49-43d0-abed-ed9e6eb2d2e1-13_medicines_list.png" width="320">
 
+**確認日: 2026-10-25**（gpt-5-mini への変更後の本番バックエンドで再実施）
+medication_guide.png から「2件を追加」で登録し、SnackBar「2件のお薬を登録しました」の表示を撮影。お薬一覧にはアムロジピン（08:00）とロキソプロフェンNa（08:00/19:00）が並ぶ
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/25/2ef421db-21af-43fb-916c-e8a2ac1052f3-01_registered_snackbar.png" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/25/26a3b3f7-5a51-4c3d-bf2a-57f437c23de2-02_medicine_list.png" width="320">
+
 </details>
 
 ### **登録内容**: 登録された薬を編集で開くと、服用頻度が「毎日」、服用者が「自分」、服用開始日が当日、最低服用間隔が未設定で、シートに表示されていた時刻・服用量が入っている
@@ -268,6 +277,10 @@ medicine_bag.png の読み取り結果。候補が初期選択され、確定ボ
 **確認日: 2026-10-15**
 服薬画面に 08:00・19:00 の枠が表示される
 <img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/abc70ee7-5d26-4488-b383-b07950e80980-12_after_add.png" width="320">
+
+**確認日: 2026-10-25**（gpt-5-mini への変更後の本番バックエンドで再実施）
+服薬画面に 08:00 枠（アムロジピン・ロキソプロフェンNa）と 19:00 枠（ロキソプロフェンNa）が表示される
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/25/bdfed361-6b37-433b-8597-8e9dea8e9464-03_medications_0800_1900.png" width="320">
 
 </details>
 
