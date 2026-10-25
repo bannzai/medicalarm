@@ -41,9 +41,11 @@ echo "匿名認証: OK"
 WORK_DIR=$(mktemp -d)
 trap 'rm -rf "$WORK_DIR"' EXIT
 
-# クライアント(base64CompressImage)と同じく JPEG で送る
+# クライアント(base64CompressImage)と同じく JPEG で送る。base64 を引数で渡すと
+# 高解像度写真で ARG_MAX を超えて jq が起動できないため、ファイル経由 (--rawfile) で読む
 sips -s format jpeg "$IMAGE_PATH" --out "$WORK_DIR/image.jpg" > /dev/null
-jq -n --arg image "$(base64 -i "$WORK_DIR/image.jpg" | tr -d '\n')" \
+base64 -i "$WORK_DIR/image.jpg" | tr -d '\n' > "$WORK_DIR/image.b64"
+jq -n --rawfile image "$WORK_DIR/image.b64" \
   '{data: {mimeType: "image/jpeg", base64Image: $image}}' > "$WORK_DIR/request.json"
 
 echo "呼び出し: https://${REGION}-${PROJECT_ID}.cloudfunctions.net/generateMedicinesFromImage"
