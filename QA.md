@@ -57,6 +57,7 @@ make secret  # 環境変数 FILE_FIREBASE_IOS / REVENUE_CAT_PUBLIC_API_KEY が�
 - mobile-mcp（`mcp__mobile__*`）は WebDriverAgent を XCUITest として起動する（maestro のログに `Running tests...` が出る）ため、対象アプリがバックグラウンドに落ちる。その状態では `mobile_list_elements_on_screen` がアプリではなく Springboard のアイコン一覧を返し、`flutter run` の debug connection も `The OS has terminated the Flutter debug connection for being inactive in the background for too long.` で切れる。このプロジェクトの画面操作は maestro（`maestro test --udid <UDID> <flow>`）で行う。テキストラベルの無いアイコンボタンは `tapOn: point: "7%,10%"` のように割合座標で指定できる
 - maestro の `takeScreenshot` は tap 後の settle 待ちを挟むため、数秒で自動遷移する演出画面（オンボーディングのプラン生成演出など）は撮り逃す。別シェルで `xcrun simctl io <UDID> screenshot` を連続実行するループを回した状態で maestro の tap flow を走らせ、後からフレームを選ぶ
 - 複数行に折り返される Text ウィジェット（`\n` を含む l10n 文言。例: 「薬を飲み忘れたことは\nありますか」）は、maestro の `assertVisible` / `extendedWaitUntil` で画面表示どおりの1行の文字列として一致しない。選択肢のボタンラベルなど単一行の文言で判定する
+- 画像を使う QA（画像からの薬の一括登録）では、事前に `xcrun simctl addmedia <UDID> scripts/e2e/fixtures/*.png` でテスト画像をシミュレータの写真ライブラリへ取り込んでおく。simslim 既定の `--except store` のままだと addmedia が PHPhotosErrorDomain 3301 で失敗するため、`SIMSLIM_EXCEPT=store,photos sim-boot` で photos カテゴリを残して起動する。写真ライブラリを初めて開くとアクセス許可のダイアログが出るため、mobile-mcp で許可してから画像を選ぶ。テスト画像と期待する抽出結果は `scripts/e2e/fixtures/` にあり、内容は lib/features/medicine_image_import/QA.md を参照
 - 非対話実行でも `flutter run -d <UDID>` はプロセスが常駐し続けるため、`run_in_background: true` で起動し、ログファイルを `grep` でポーリングして起動完了（`Flutter run key commands.` の出力）を待つ必要がある（フォアグラウンドで実行すると turn がブロックされたまま完了しない）
 - AdMob native ad validator の警告（開発ビルドのみ表示）は `overlayWebView` 内の要素で `mobile_list_elements_on_screen` にテキストとして現れず、`Dismiss` ボタン座標の目視推定タップが当たりにくい。無理に閉じようとせず、下部タブバー操作は overlay の下でも独立して機能するためそのまま操作を継続してよい
   - この overlay は画面座標 x:0-335 y:355-510 に固定表示され、この範囲に重なるチェックボックス・ボタン等へのタップを奪う（`mobile_list_elements_on_screen` にはアクセシビリティ要素として現れるが、実タップは overlay 側が受け取る）。回避策: (1) 対象要素がこの範囲外（y>510）に来るよう事前に他のスケジュール・データを追加して並び順をずらす、(2) 広告を表示する画面から直接開いたモーダルには overlay が残るので、広告のない画面（例: 服薬画面ではなくお薬一覧画面）経由でフォームを開く
@@ -171,6 +172,7 @@ iPhone Duo の Simulator (iOS 27.1、Xcode 27.1 27A9275) で主要画面を 3 �
 - [onboarding](lib/features/onboarding/QA.md) — 初回起動の課金転換型オンボーディング
 - [medicines](lib/features/medicines/QA.md) — お薬一覧・一時停止/再開
 - [medicine_form](lib/features/medicine_form/QA.md) — 薬の登録・編集・削除
+- [medicine_image_import](lib/features/medicine_image_import/QA.md) — 画像（お薬手帳・処方箋）からの薬の一括登録
 - [medicine_schedule_setting_form](lib/features/medicine_schedule_setting_form/QA.md) — スケジュールごとの通知設定
 - [medication_frequency_form](lib/features/medication_frequency_form/QA.md) — 服用頻度設定
 - [medications](lib/features/medications/QA.md) — 服薬画面（ホーム）

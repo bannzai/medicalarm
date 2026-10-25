@@ -47,9 +47,9 @@ class MedicinesPageBody extends HookConsumerWidget {
         // 左右の safe area (iPhone Duo の右端のステータス表示の列) にカードの編集アイコンと Switch が重ならないよう避ける (#370)
         scaffoldBody: SafeArea(
           child: ListView(
-            // 下余白は FloatingActionButtonLayout が本文の末尾に重ねるフェード (24) より大きくし、
-            // 末尾までスクロールした時にカード右下の Switch がフェードにかからないようにする (#288)
-            padding: const EdgeInsets.only(top: 16.0, bottom: 40.0),
+            // 下余白は 2 段の FAB (薬の追加・画像から登録) の高さぶん取り、末尾のカードが FAB と
+            // FloatingActionButtonLayout が本文の末尾に重ねるフェード (24) のどちらにもかからないようにする (#288)
+            padding: const EdgeInsets.only(top: 16.0, bottom: medicalAddFloatingActionButtonBottomInset),
             children: medicines
                 .map((medicine) => Column(
                       children: [
