@@ -122,7 +122,13 @@ class SettingPage extends StatelessWidget {
                 ),
                 const _Divider(),
                 ListTile(
-                  title: Text(L.inquiry),
+                  title: Text(
+                    L.inquiry,
+                    style: const TextStyle(
+                      fontWeight: FontWeight.w300,
+                      fontSize: 16,
+                    ),
+                  ),
                   trailing: const Icon(Icons.chevron_right),
                   onTap: () {
                     analytics.logEvent(name: 'settings_inquiry_tapped');
