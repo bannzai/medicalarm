@@ -114,10 +114,16 @@ class LocalNotificationService {
         ?.requestPermissions(sound: true, badge: true, alert: true, provisional: true);
   }
 
+  /// Critical Alert を含めて通知の許可を求め、Critical Alert が許可されているかを返す。iOS 以外は null を返す。
+  /// requestPermissions の戻り値は通知全体の許可を表し、通常の通知が許可済みなら Critical Alert を拒否しても true になるため、
+  /// 許可を求めた後の設定から Critical Alert の許可を読む (#427)
   Future<bool?> requestPermissionWithCriticalAlert() async {
-    return await plugin
-        .resolvePlatformSpecificImplementation<IOSFlutterLocalNotificationsPlugin>()
-        ?.requestPermissions(sound: true, badge: true, alert: true, provisional: true, critical: true);
+    final iOSPlugin = plugin.resolvePlatformSpecificImplementation<IOSFlutterLocalNotificationsPlugin>();
+    if (iOSPlugin == null) {
+      return null;
+    }
+    await iOSPlugin.requestPermissions(sound: true, badge: true, alert: true, provisional: true, critical: true);
+    return (await iOSPlugin.checkPermissions())?.isCriticalEnabled;
   }
 
   // iOSでは 以下の二つを実行しているだけなので今のところエラーは発生しない
