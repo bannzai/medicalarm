@@ -89,3 +89,15 @@ iOS,Androidアプリをサポートします。Firebase の設定ファイルは
 #### 規約
 - 原則: onDocumentCreated,onDocumentUpdated によるトリガーによる処理を禁止します。コードがトレースしにくくなり、思わぬタイミングで発動してしまうのでコントロールがむず痒いためです
 - Deployはユーザーが行うので禁止
+
+<!-- qa-config begin -->
+## QA
+
+本リポジトリの手動 QA の項目と実行記録は QA データベース (tansu。 https://github.com/bannzai/tansu ) で管理し、CLI (`tansu`) か MCP サーバー (`tansu mcp`) で読み書きする (整備: setup-qa skill、実施・記録: run-qa skill)。project はこのリポジトリの `owner/repo`、feature はユーザー操作で到達できる機能の単位、item がチェック項目、run が確認結果 1 回分。
+
+- 機能実装・UI 変更を含む PR は、作成前に該当 feature の QA を実施し、結果を HEAD の commit で QA データベースに記録する (`tansu qa record`)。確認できなかった項目は skip / later と理由を記録する (検証したことにしない)
+- PR body には `tansu qa export --repo <owner/repo> --format pr-summary --since "$(git merge-base origin/<base> HEAD)"` の出力を貼り、何をどう確認したかをレビューできるようにする
+- 再テストが要る feature は `tansu qa verified --repo <owner/repo> --commit "$(git rev-parse HEAD)" --json` で確かめる
+- QA の起動方法・ログイン方法・動作確認手段・実行ナレッジ・QA 対象外の feature は project の行の本文を参照する (`tansu query project --json --where repo=<owner/repo>`)
+- 何をどこに書くかは setup-qa skill の `references/qa-db-content.md` を SSOT とする。新規 feature の追加時は setup-qa skill の `register_qa.sh` で feature と item を登録する
+<!-- qa-config end -->

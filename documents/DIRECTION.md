@@ -52,6 +52,7 @@ launched_at: 2025-03-04   # 公開日 (YYYY-MM-DD)。App Store の初回公開�
 | 2026-10-15 | 無人ループ | 判定基準「直近14日のFATALクラッシュissue数」は、このマシンの firebase CLI に認証済みアカウントが無く (`firebase login:list` が `No authorized accounts`) 取得できなかったため UNMEASURED とした。`firebase login` は対話認証で bannzai にしかできない。判定日 (2026-10-27) までに戻らなければ、その指標を除いて判定する | agent |
 | 2026-10-16 | 無人ループ | QA で 1 回だけ観測した「メンバーの再参加がオーナーの画面に反映されない」(#404) の ❌ は、#404 を閉じるかの判断と切り離して扱う。無人実装の調査 (ローカルの Simulator 2 台で 5 回) で再現せず、アプリ側の原因が見つかっていないため、リリース前の差分の QA で同じ QA 項目を simtunnel で実行し直し、再現しなければ ✅ に書き換えて未再現の回数を #404 に記録する。再現したら ❌ のままにしてリリースを止める | agent |
 | 2026-10-17 | 無人ループ | 判定基準「直近14日のFATALクラッシュissue数」の取得の失敗の原因が変わった。`crashlytics.sh top-issues` は ADC (`ai-agent@bannzai.iam.gserviceaccount.com`) で認証が通り、quota project 339671052451 (medicalarm-prod) で Firebase Crashlytics API が無効のため HTTP 403 `SERVICE_DISABLED` で失敗した。スクリプトが示す対処 `gcloud services enable firebasecrashlytics.googleapis.com --project medicalarm-prod` は、同スクリプトが「確認を取ってから実行する」としており、確認の経路が無い無人ループでは実行しない。bannzai の作業として「ユーザー作業の一覧」#281 に記録し、2026-10-15 の行のとおり判定日 (2026-10-27) までに戻らなければこの指標を除いて判定する | agent |
+| 2026-10-26 | 無人ループ | QA の記録先を `QA.md` (ルートと `lib/features/*/QA.md`) から QA データベース (tansu) に移す (#422)。release-app skill の `check_qa_gate.sh` が tansu の記録で判定するため。項目は `QA.md` を正データにして setup-qa skill の `register_qa.sh` で登録し、以後の QA は run-qa skill で tansu に記録する。`QA.md` ファイルの削除は可逆な方を選んでこの時点では行わず、tansu での運用が 1 回回ってから別 issue で判断する | agent |
 
 ## agent に任せること
 
