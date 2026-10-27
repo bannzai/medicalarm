@@ -1,6 +1,6 @@
 ---
 status: launched          # evaluating | building | launched | pivoting | retiring | retired
-decision_date: 2026-10-27 # 次の判定日 (YYYY-MM-DD)。判定のたびに cycle_days 後へ進める
+decision_date: 2026-11-10 # 次の判定日 (YYYY-MM-DD)。判定のたびに cycle_days 後へ進める
 cycle_days: 14            # 判定の周期 (7 または 14)
 veto_wait_hours: 12       # 公開後の無人ループの拒否権の待ち時間 (既定 12)
 daily_issue_cap: 3        # 1 日に生成してよい改善 issue の上限 (意味の門。既定 3)
@@ -31,7 +31,7 @@ launched_at: 2025-03-04   # 公開日 (YYYY-MM-DD)。App Store の初回公開�
 - [x] Crashlytics のアラートの Slack 転送 (#medicalarm-notification。PR #356)
 - [x] 画像から服薬する薬の予定を作る (#257。PR #267 が 2026-10-25 に main へマージ。callable `generateMedicinesFromImage` は prod にデプロイ済み (2026-10-26 に `firebase functions:list --project medicalarm-prod` で `ACTIVE` を確認)。アプリはストア未リリースで、下のリリースの項目に含まれる)
 - [ ] デザインのリニューアル (#274)
-- [ ] App Store の公開版 (202605.02.205812、2026-05-03。`fetch-app-metadata.sh 6740401642 --country jp` の `version` / `currentVersionReleaseDate` を 2026-10-11 に実測。main の `pubspec.yaml` は 202607.15 でタグもあるがストアには出ていない) 以降に main へ入った変更 (オンボーディング、起動時のストアレビュー訴求の削除 #294、画像からの薬の登録 #267 等) のリリース (`scripts/release.sh`。作業は #423)。前提: (1) リリース前の QA ゲート。2026-10-17 の `GATE:pass` (`f14b9388`) は、その後の #267 などアプリのコードを変える PR のマージで main の HEAD に当てはまらなくなり、`check_qa_gate.sh` が QA データベース (tansu) の記録で判定するため、tansu への登録と run-qa の全項目の実行を #422 で行っている。(2) #340 の実機・Sandbox での確認 5 件 (購入と復元・プレミアム会員の表示・年額プランの購入ダイアログ・アカウント引き継ぎ・本番ビルドの App Check) は bannzai の作業。次の E2E の項目は済んだ
+- [ ] App Store の公開版 (202605.02.205812、2026-05-03。`fetch-app-metadata.sh 6740401642 --country jp` の `version` / `currentVersionReleaseDate` を 2026-10-11 に実測。main の `pubspec.yaml` は 202607.15 でタグもあるがストアには出ていない) 以降に main へ入った変更 (オンボーディング、起動時のストアレビュー訴求の削除 #294、画像からの薬の登録 #267 等) のリリース (`scripts/release.sh`。作業は #423)。前提: (1) リリース前の QA ゲート。#422 (PR #431、2026-10-26 にクローズ) で QA の記録を QA データベース (tansu) に移して全項目を実行したが、`check_qa_gate.sh` は `GATE:fail` のまま。理由は 2 つで、1 つは medicine_schedule_setting_form「マナーモードでも通知」の NG (#427)。もう 1 つは、#425 が自分のブランチで記録した settings の記録。#425 はその後 main にマージされたため、main で再判定する。#427 の修正後に QA を記録し直してゲートを通す。(2) #340 の実機・Sandbox での確認 5 件 (購入と復元・プレミアム会員の表示・年額プランの購入ダイアログ・アカウント引き継ぎ・本番ビルドの App Check) は bannzai の作業。次の E2E の項目は済んだ
 - [x] nightly E2E (`CI E2E (Flutter iOS)`) が main で通る状態 (#383 → PR #386 で iOS ビルドを直し、main の schedule の run が 2026-10-14 に success: https://github.com/bannzai/medicalarm/actions/runs/38617042800 。間欠的な失敗は #387)
 
 ## デザインの方向
@@ -53,6 +53,8 @@ launched_at: 2025-03-04   # 公開日 (YYYY-MM-DD)。App Store の初回公開�
 | 2026-10-16 | 無人ループ | QA で 1 回だけ観測した「メンバーの再参加がオーナーの画面に反映されない」(#404) の ❌ は、#404 を閉じるかの判断と切り離して扱う。無人実装の調査 (ローカルの Simulator 2 台で 5 回) で再現せず、アプリ側の原因が見つかっていないため、リリース前の差分の QA で同じ QA 項目を simtunnel で実行し直し、再現しなければ ✅ に書き換えて未再現の回数を #404 に記録する。再現したら ❌ のままにしてリリースを止める | agent |
 | 2026-10-17 | 無人ループ | 判定基準「直近14日のFATALクラッシュissue数」の取得の失敗の原因が変わった。`crashlytics.sh top-issues` は ADC (`ai-agent@bannzai.iam.gserviceaccount.com`) で認証が通り、quota project 339671052451 (medicalarm-prod) で Firebase Crashlytics API が無効のため HTTP 403 `SERVICE_DISABLED` で失敗した。スクリプトが示す対処 `gcloud services enable firebasecrashlytics.googleapis.com --project medicalarm-prod` は、同スクリプトが「確認を取ってから実行する」としており、確認の経路が無い無人ループでは実行しない。bannzai の作業として「ユーザー作業の一覧」#281 に記録し、2026-10-15 の行のとおり判定日 (2026-10-27) までに戻らなければこの指標を除いて判定する | agent |
 | 2026-10-26 | 無人ループ | QA の記録先を `QA.md` (ルートと `lib/features/*/QA.md`) から QA データベース (tansu) に移す (#422)。release-app skill の `check_qa_gate.sh` が tansu の記録で判定するため。項目は `QA.md` を正データにして setup-qa skill の `register_qa.sh` で登録し、以後の QA は run-qa skill で tansu に記録する。`QA.md` ファイルの削除は可逆な方を選んでこの時点では行わず、tansu での運用が 1 回回ってから別 issue で判断する | agent |
+| 2026-10-27 | 判定日 | 継続。3 指標とも継続のしきい値を満たした (平均評価 4.27 / 11 件、直近 14 日の ★1〜2 レビュー 0 件、直近 14 日の FATAL issue 0 件。`documents/loop/metrics-2026-10-27.json`)。FATAL の指標は nodenv の node (`~/.anyenv/envs/nodenv/shims`) を PATH に通した `crashlytics.sh top-issues` で取れた。転換の条件「直近 14 日の新規レビューが 2 回連続 0 件」は、公開版が 202605.02 のまま未リリースのため、2026-10-13 の行のとおり今回も数えない。次の判定日は 2026-11-10 | agent |
+| 2026-10-27 | 無人ループ | #422 の QA で見つかった #427〜#430 は、新しい issue を作らずにそのまま使う。#427 と #430 は同じ `notification_setting/section.dart` を変えるため 1 つにまとめ、#428 とともに無人実装に出す。#427 はリリース前ゲートの NG の項目で、#428 は同時刻の通知を取りこぼす不具合。#429 は issue 自身が「今日これ 1 件しか出せないとしても出すか」を「出さない」としているため、後に回す | agent |
 
 ## agent に任せること
 
