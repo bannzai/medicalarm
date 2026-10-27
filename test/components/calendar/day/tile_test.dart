@@ -9,6 +9,8 @@ import 'package:medicalarm/utils/date_time/weekday.dart';
 // #429: 週カレンダーの日付セルは CalendarConst.weeklyTileHeight の高さに収まる必要がある。
 // 日記のメモがある日はメモのアイコン (CalendarDayBadge) が日付の下に並ぶため、その分も含めて収まることを確かめる
 void main() {
+  /// 週カレンダーと同じ高さ (CalendarConst.weeklyTileHeight) の行に、2026-10-26 の CalendarDayTile を 1 つ置いた画面を返す。
+  /// [diary] はその日の日記 (無い日は null)、[selected] は日付セルの選択状態。
   Widget weeklyLine({required Diary? diary, required bool selected}) {
     return ProviderScope(
       child: MaterialApp(
