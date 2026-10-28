@@ -186,7 +186,7 @@ class Purchase {
         name: 'purchase_completed',
         parameters: {'product_identifier': premiumEntitlement.productIdentifier, 'period_type': premiumEntitlement.periodType.name},
       );
-      return Future.value(true);
+      return true;
     } on PlatformException catch (exception, stack) {
       analytics.logEvent(
           name: 'catched_purchase_exception',

@@ -137,7 +137,7 @@ class PremiumIntroductionFotter extends StatelessWidget {
         analytics.logEvent(name: 'done_restore_purchase_info', parameters: {
           'entitlements': entitlements.identifier,
         });
-        return Future.value(true);
+        return true;
       }
       analytics.logEvent(name: 'undone_restore_purchase_info', parameters: {
         'entitlements': entitlements?.identifier ?? '',
