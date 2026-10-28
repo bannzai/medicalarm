@@ -11,12 +11,13 @@ part 'feature_request.g.dart';
 class FeatureRequestSubmit {
   FeatureRequestSubmit();
 
+  /// [content] (要望の本文) と任意の [emailAddress] を、アプリのバージョン・プラットフォームと合わせて送る。
+  /// 送信に失敗した時は Cloud Functions の例外をそのまま投げる。
   Future<void> call({required String content, required String? emailAddress}) async {
-    final packageInfo = await PackageInfo.fromPlatform();
     await functions.submitFeatureRequest(
       content: content.trim(),
       emailAddress: emailAddress?.trim(),
-      appVersion: packageInfo.version,
+      appVersion: (await PackageInfo.fromPlatform()).version,
       platform: Platform.isIOS ? 'iOS' : 'Android',
     );
   }

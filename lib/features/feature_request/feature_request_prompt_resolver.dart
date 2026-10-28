@@ -34,12 +34,17 @@ class FeatureRequestPromptResolver extends HookConsumerWidget {
   }
 }
 
+/// [createdDateTime] (ユーザーの作成日時) と前回の表示日時が表示条件を満たす時だけ、ダイアログを出して表示日時を保存する。
+/// 「要望を送る」が押された時は機能要望フォームを開く。
 Future<void> _maybeShowPrompt({required BuildContext context, required DateTime createdDateTime}) async {
+  // 3 日と 30 日は Focus アプリの LaunchPageResolver の表示条件に揃えた値 (アプリを試す前の利用者に聞かず、聞く頻度を月 1 回までにする)
   if (DateTime.now().difference(createdDateTime).inDays < 3) return;
 
   final prefs = await SharedPreferences.getInstance();
-  final lastShownEpoch = prefs.getDouble(DoubleKey.featureRequestPromptShownDateTimeInterval) ?? 0;
-  final lastShown = DateTime.fromMillisecondsSinceEpoch((lastShownEpoch * 1000).toInt());
+  // 1 行に収めると 60 文字を超える条件式になるため、前回の表示日時を変数にまとめる (CLAUDE.md の一時変数の規約)。
+  // 未表示の時は epoch 0 (1970 年) として 30 日の条件を満たす扱いにする
+  final lastShown =
+      DateTime.fromMillisecondsSinceEpoch(((prefs.getDouble(DoubleKey.featureRequestPromptShownDateTimeInterval) ?? 0) * 1000).toInt());
   if (DateTime.now().difference(lastShown).inDays < 30) return;
 
   if (!context.mounted) return;
@@ -50,6 +55,7 @@ Future<void> _maybeShowPrompt({required BuildContext context, required DateTime 
   analytics.logEvent(name: 'feature_request_prompt_shown');
 
   if (!context.mounted) return;
+  // showDialog の呼び出しごと条件式に入れると 60 文字を超えるため、選択結果を変数にまとめる (CLAUDE.md の一時変数の規約)
   final accepted = await showDialog<bool>(
     context: context,
     builder: (dialogContext) => AlertDialog(

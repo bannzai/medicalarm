@@ -82,6 +82,35 @@ describe("submitFeatureRequest", () => {
     expect(mockPost.mock.calls[0][1].text).toContain("&lt;!channel&gt; A&amp;B &lt;https://example.com|x&gt;");
   });
 
+  it("絵文字だけで 5000 文字の本文は、アプリの文字数の数え方と同じく上限内として受け付ける", async () => {
+    mockPost.mockResolvedValue({ status: 200 });
+
+    const response = await handler({ auth: { uid: "user-1" }, data: { content: "😀".repeat(5000) } });
+
+    expect(response.statusCode).toBe(200);
+  });
+
+  it("5001 文字の本文は 400 を返す", async () => {
+    const response = await handler({ auth: { uid: "user-1" }, data: { content: "あ".repeat(5001) } });
+
+    expect(response.statusCode).toBe(400);
+    expect(mockPost).not.toHaveBeenCalled();
+  });
+
+  it("アプリの判定を通るメールアドレス (末尾が 1 文字) は受け付ける", async () => {
+    mockPost.mockResolvedValue({ status: 200 });
+
+    const response = await handler({ auth: { uid: "user-1" }, data: { content: "要望", emailAddress: "a@b.c" } });
+
+    expect(response.statusCode).toBe(200);
+  });
+
+  it("@ を含まないメールアドレスは 400 を返す", async () => {
+    const response = await handler({ auth: { uid: "user-1" }, data: { content: "要望", emailAddress: "invalid" } });
+
+    expect(response.statusCode).toBe(400);
+  });
+
   it("未認証の時、Slack に送らず 401 を返す", async () => {
     const response = await handler({ auth: null, data: { content: "要望" } });
 

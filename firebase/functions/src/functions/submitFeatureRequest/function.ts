@@ -9,14 +9,35 @@ import { report } from "../../core/slack";
 /** 機能要望通知用 Slack Incoming Webhook の URL。チャンネルは URL 側で固定されるため Channel ID は不要。 */
 const slackWebhookUrlSecret = defineSecret("SLACK_FEATURE_REQUEST_WEBHOOK_URL");
 
+/** 本文の文字数の上限。アプリのフォーム (lib/features/feature_request/page.dart の maxLength) と同じ値にする。 */
+const contentMaxLength = 5000;
+
+/**
+ * アプリのフォームと同じメールアドレスの判定 (lib/features/feature_request/page.dart の validator)。
+ * アプリが通した入力をサーバーが拒否すると、任意項目のメールアドレスのせいで要望全体が届かなくなるため揃える。
+ */
+const emailAddressPattern = /^[^@\s]+@[^@\s]+\.[^@\s]+$/;
+
+/**
+ * 見た目の 1 文字 (書記素クラスタ) 単位の文字数を返す。Flutter の TextField の maxLength は書記素クラスタで数えるため、
+ * UTF-16 のコード単位で数える String.length では絵文字が 2 以上に数えられ、アプリが通した本文を拒否してしまう。
+ */
+function countGraphemes(text: string): number {
+  return [...new Intl.Segmenter().segment(text)].length;
+}
+
 /** クライアントから送られてくる機能要望リクエスト。 */
 const RequestSchema = z.object({
-  content: z.string().min(1).max(5000),
+  content: z
+    .string()
+    .min(1)
+    .refine((content) => countGraphemes(content) <= contentMaxLength),
   emailAddress: z
     .string()
-    .email()
+    .regex(emailAddressPattern)
     .optional()
     .or(z.literal("").transform(() => undefined)),
+  // アプリのバージョン (pubspec.yaml の version の名前部分。例: 202607.15.102935) は十数文字のため、余裕を持たせた上限にする
   appVersion: z.string().max(50).optional(),
   platform: z.enum(["iOS", "Android"]).optional(),
 });

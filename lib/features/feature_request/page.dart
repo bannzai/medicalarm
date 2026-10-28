@@ -8,6 +8,7 @@ import 'package:medicalarm/provider/feature_request.dart';
 import 'package:medicalarm/theme/form.dart';
 import 'package:medicalarm/utils/analytics/analytics.dart';
 
+/// 機能要望の本文と任意のメールアドレスを入力して送るフォーム。送信に成功すると閉じて SnackBar を出す。
 class FeatureRequestFormPage extends HookConsumerWidget {
   const FeatureRequestFormPage({super.key});
 
@@ -51,9 +52,11 @@ class FeatureRequestFormPage extends HookConsumerWidget {
                         TextFormField(
                           minLines: 6,
                           maxLines: 12,
+                          // Slack の 1 投稿の text は 40,000 文字で切り詰められるため、付帯情報を足しても十分に収まる長さにする。
+                          // サーバー (submitFeatureRequest の contentMaxLength) と同じ値にする
                           maxLength: 5000,
                           decoration: InputDecoration(hintText: L.featureRequestContentHint),
-                          onChanged: (v) => content.value = v,
+                          onChanged: (inputContent) => content.value = inputContent,
                         ),
                         const SizedBox(height: 4),
                         Text(L.featureRequestContentFooter, style: const TextStyle(fontSize: 12, color: Colors.grey)),
