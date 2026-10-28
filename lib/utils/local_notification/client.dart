@@ -286,13 +286,11 @@ class RegisterReminderLocalNotification {
       );
 
       // 通知 id は日付と時刻から決まるため、服用者ごとのグループを別々に予約すると同じ時刻の通知が後から予約した方に上書きされる (#428)。
-      // すでに日毎のrowsに服用記録がついているグループを除き、残りを時刻ごとにまとめて 1 つの通知に全服用者の薬を並べる
-      final scheduleRowsByScheduleTime = groupBy(
+      // 服用済みのグループは従来どおり通知に含めない
+      for (final (scheduleTimeIndex, MapEntry(key: scheduleTime, value: scheduleRows)) in groupBy(
         groupedValues.where((group) => group.scheduleRows.any((row) => row.medicationHistory == null)),
         (group) => group.scheduleTime,
-      ).map((scheduleTime, groups) => MapEntry(scheduleTime, groups.expand((group) => group.scheduleRows).toList()));
-
-      for (final (scheduleTimeIndex, MapEntry(key: scheduleTime, value: scheduleRows)) in scheduleRowsByScheduleTime.entries.indexed) {
+      ).map((scheduleTime, groups) => MapEntry(scheduleTime, groups.expand((group) => group.scheduleRows).toList())).entries.indexed) {
         analytics.debug(name: 'run_register_reminder_notification', parameters: {
           'scheduleTimeIndex': scheduleTimeIndex,
           'scheduleTime': scheduleTime.toTimeString(),
