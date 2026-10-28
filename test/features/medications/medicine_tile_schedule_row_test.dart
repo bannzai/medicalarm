@@ -370,6 +370,50 @@ void main() {
       expect(captured.map((medicationHistory) => (medicationHistory as MedicationHistory).id), ['history-1']);
     });
 
+    // 取消済みの古い take の snapshot で未チェックに戻ると、ユーザーがチェックし直して take が重複し、
+    // 後のアンチェックで片方しか取り消せない
+    testWidgets('チェックし直しの take の書き込み中に古い take の取消が行に届いても、チェック済みのまま表示する', (tester) async {
+      final retakeCompleter = Completer<MedicationHistory>();
+      when(medicationHistoryTake.call(
+        medicationHistory: anyNamed('medicationHistory'),
+        newMedicationHistoryID: anyNamed('newMedicationHistoryID'),
+        recordedDateTime: anyNamed('recordedDateTime'),
+        scheduledRecordedDate: anyNamed('scheduledRecordedDate'),
+        medicine: anyNamed('medicine'),
+        medicationSchedule: anyNamed('medicationSchedule'),
+        memberSettings: anyNamed('memberSettings'),
+      )).thenAnswer((_) => retakeCompleter.future);
+      when(medicationHistoryTake.newMedicationHistoryID()).thenReturn('history-2');
+      await pumpScheduleRow(tester, scheduleRow: buildCheckedScheduleRow());
+
+      // アンチェック → チェックし直し(history-2 の書き込み中)
+      await tester.tap(find.byType(Checkbox));
+      await tester.pumpAndSettle();
+      await tester.tap(find.byType(Checkbox));
+      await tester.pump();
+      // history-1 の取消が行に反映される
+      await pumpScheduleRow(tester, scheduleRow: buildUncheckedScheduleRow());
+      await tester.pump();
+      expect(tester.widget<Checkbox>(find.byType(Checkbox)).value, true);
+
+      await tester.tap(find.byType(Checkbox));
+      await tester.pump();
+      retakeCompleter.complete(buildMedicationHistory().copyWith(id: 'history-2'));
+      await tester.pumpAndSettle();
+
+      final captured = verify(medicationHistoryRevert.call(takeMedicationHistory: captureAnyNamed('takeMedicationHistory'))).captured;
+      expect(captured.map((medicationHistory) => (medicationHistory as MedicationHistory).id), ['history-1', 'history-2']);
+      verify(medicationHistoryTake.call(
+        medicationHistory: anyNamed('medicationHistory'),
+        newMedicationHistoryID: anyNamed('newMedicationHistoryID'),
+        recordedDateTime: anyNamed('recordedDateTime'),
+        scheduledRecordedDate: anyNamed('scheduledRecordedDate'),
+        medicine: anyNamed('medicine'),
+        medicationSchedule: anyNamed('medicationSchedule'),
+        memberSettings: anyNamed('memberSettings'),
+      )).called(1);
+    });
+
     testWidgets('take の書き込み中に他メンバーの記録が行に届いても、アンチェックは自分の take を取り消す', (tester) async {
       final takeCompleter = Completer<MedicationHistory>();
       when(medicationHistoryTake.call(
