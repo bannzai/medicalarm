@@ -74,6 +74,14 @@ describe("submitFeatureRequest", () => {
     );
   });
 
+  it("内容のメンション・リンクの記法を Slack の制御構文として解釈させないようエスケープして送る", async () => {
+    mockPost.mockResolvedValue({ status: 200 });
+
+    await handler({ auth: { uid: "user-1" }, data: { content: "<!channel> A&B <https://example.com|x>" } });
+
+    expect(mockPost.mock.calls[0][1].text).toContain("&lt;!channel&gt; A&amp;B &lt;https://example.com|x&gt;");
+  });
+
   it("未認証の時、Slack に送らず 401 を返す", async () => {
     const response = await handler({ auth: null, data: { content: "要望" } });
 

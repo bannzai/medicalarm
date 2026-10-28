@@ -98,7 +98,8 @@ class FeatureRequestFormPage extends HookConsumerWidget {
                                     } catch (e) {
                                       if (context.mounted) showErrorAlert(context, e.toString());
                                     } finally {
-                                      isSubmitting.value = false;
+                                      // 送信中にフォームを閉じると useState の ValueNotifier が破棄されるため、破棄後は更新しない
+                                      if (context.mounted) isSubmitting.value = false;
                                     }
                                   }
                                 : null,

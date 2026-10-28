@@ -21,6 +21,14 @@ const RequestSchema = z.object({
   platform: z.enum(["iOS", "Android"]).optional(),
 });
 
+/**
+ * ユーザー入力を Slack の mrkdwn の制御構文 (`<!channel>` などのメンションやリンク) として解釈させないよう、
+ * Slack が求める `&`・`<`・`>` のエスケープをした文字列を返す (https://docs.slack.dev/messaging/formatting-message-text#escaping )。
+ */
+function escapeSlackText(text: string): string {
+  return text.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+}
+
 module.exports = onCall(
   {
     memory: "256MiB",
@@ -50,10 +58,10 @@ module.exports = onCall(
     const { content, emailAddress, appVersion, platform } = parsed.data;
 
     const lines: string[] = ["💡 新規機能要望", "", `[UserID] ${userID}`];
-    if (emailAddress) lines.push(`[Email] ${emailAddress}`);
-    if (appVersion) lines.push(`[AppVersion] ${appVersion}`);
+    if (emailAddress) lines.push(`[Email] ${escapeSlackText(emailAddress)}`);
+    if (appVersion) lines.push(`[AppVersion] ${escapeSlackText(appVersion)}`);
     if (platform) lines.push(`[Platform] ${platform}`);
-    lines.push("━━━━━━━━━━━━━━━━━━━━", "内容:", content, "━━━━━━━━━━━━━━━━━━━━");
+    lines.push("━━━━━━━━━━━━━━━━━━━━", "内容:", escapeSlackText(content), "━━━━━━━━━━━━━━━━━━━━");
 
     try {
       await axios.post(slackWebhookUrlSecret.value(), { text: lines.join("\n") });
