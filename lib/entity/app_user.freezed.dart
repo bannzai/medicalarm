@@ -1,6 +1,6 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
 // coverage:ignore-file
-// ignore_for_file: type=lint
+// ignore_for_file: type=lint, type=warning, deprecated_member_use, deprecated_member_use_from_same_package
 // ignore_for_file: unused_element, deprecated_member_use, deprecated_member_use_from_same_package, use_function_type_syntax_for_parameters, unnecessary_const, avoid_init_to_null, invalid_override_different_default_values_named, prefer_expression_function_bodies, annotate_overrides, invalid_annotation_target, unnecessary_question_mark
 
 part of 'app_user.dart';
@@ -9,603 +9,307 @@ part of 'app_user.dart';
 // FreezedGenerator
 // **************************************************************************
 
+// GENERATED CODE - DO NOT MODIFY BY HAND
 // dart format off
 T _$identity<T>(T value) => value;
 
 /// @nodoc
 mixin _$AppUser {
-  String? get id; // 起動時に表示・書き込み対象とするグループの ID。アプリ開始時点では未作成のため nullable。
-// 初回はグループ移行(GroupMigrationResolver)がソログループを作成してセットする。
-  String? get defaultGroupID; // グループ移行の完了マーカー。defaultGroupID とは別に持つことで、
-// 「グループは作成済みだがデータコピー途中で失敗」した状態を次回起動時に検知しリカバリできる。
-  @NullableTimestampConverter()
-  DateTime? get groupMigratedDateTime;
-  bool get analyticsDebugIsEnabled;
-  @NullableTimestampConverter()
-  DateTime? get maybeTrialDeadlineDate;
-  @NullableTimestampConverter()
-  DateTime? get promotionStartPageCancelButtonTappedDateTime; // 初回起動のオンボーディング (features/onboarding) と薬登録の案内を完了した日時。null なら未完了
-  @NullableTimestampConverter()
-  DateTime? get onboardingCompletedDateTime;
-  @ClientCreatedTimestamp()
-  DateTime? get createdDateTime;
-  @ClientUpdatedTimestamp()
-  DateTime? get updatedDateTime;
-  @ServerCreatedTimestamp()
-  DateTime? get serverCreatedDateTime;
-  @ServerUpdatedTimestamp()
-  DateTime? get serverUpdatedDateTime;
 
-  /// Create a copy of AppUser
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  $AppUserCopyWith<AppUser> get copyWith => _$AppUserCopyWithImpl<AppUser>(this as AppUser, _$identity);
+ String? get id; String? get defaultGroupID;@NullableTimestampConverter() DateTime? get groupMigratedDateTime; bool get analyticsDebugIsEnabled;@NullableTimestampConverter() DateTime? get maybeTrialDeadlineDate;@NullableTimestampConverter() DateTime? get promotionStartPageCancelButtonTappedDateTime;@NullableTimestampConverter() DateTime? get onboardingCompletedDateTime;@ClientCreatedTimestamp() DateTime? get createdDateTime;@ClientUpdatedTimestamp() DateTime? get updatedDateTime;@ServerCreatedTimestamp() DateTime? get serverCreatedDateTime;@ServerUpdatedTimestamp() DateTime? get serverUpdatedDateTime;
+/// Create a copy of AppUser
+/// with the given fields replaced by the non-null parameter values.
+@JsonKey(includeFromJson: false, includeToJson: false)
+@pragma('vm:prefer-inline')
+$AppUserCopyWith<AppUser> get copyWith => _$AppUserCopyWithImpl<AppUser>(this as AppUser, _$identity);
 
   /// Serializes this AppUser to a JSON map.
   Map<String, dynamic> toJson();
 
-  @override
-  bool operator ==(Object other) {
-    return identical(this, other) ||
-        (other.runtimeType == runtimeType &&
-            other is AppUser &&
-            (identical(other.id, id) || other.id == id) &&
-            (identical(other.defaultGroupID, defaultGroupID) || other.defaultGroupID == defaultGroupID) &&
-            (identical(other.groupMigratedDateTime, groupMigratedDateTime) || other.groupMigratedDateTime == groupMigratedDateTime) &&
-            (identical(other.analyticsDebugIsEnabled, analyticsDebugIsEnabled) || other.analyticsDebugIsEnabled == analyticsDebugIsEnabled) &&
-            (identical(other.maybeTrialDeadlineDate, maybeTrialDeadlineDate) || other.maybeTrialDeadlineDate == maybeTrialDeadlineDate) &&
-            (identical(other.promotionStartPageCancelButtonTappedDateTime, promotionStartPageCancelButtonTappedDateTime) ||
-                other.promotionStartPageCancelButtonTappedDateTime == promotionStartPageCancelButtonTappedDateTime) &&
-            (identical(other.onboardingCompletedDateTime, onboardingCompletedDateTime) ||
-                other.onboardingCompletedDateTime == onboardingCompletedDateTime) &&
-            (identical(other.createdDateTime, createdDateTime) || other.createdDateTime == createdDateTime) &&
-            (identical(other.updatedDateTime, updatedDateTime) || other.updatedDateTime == updatedDateTime) &&
-            (identical(other.serverCreatedDateTime, serverCreatedDateTime) || other.serverCreatedDateTime == serverCreatedDateTime) &&
-            (identical(other.serverUpdatedDateTime, serverUpdatedDateTime) || other.serverUpdatedDateTime == serverUpdatedDateTime));
-  }
 
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @override
-  int get hashCode => Object.hash(
-      runtimeType,
-      id,
-      defaultGroupID,
-      groupMigratedDateTime,
-      analyticsDebugIsEnabled,
-      maybeTrialDeadlineDate,
-      promotionStartPageCancelButtonTappedDateTime,
-      onboardingCompletedDateTime,
-      createdDateTime,
-      updatedDateTime,
-      serverCreatedDateTime,
-      serverUpdatedDateTime);
+@override
+bool operator ==(Object other) {
+  final _this = this as AppUser;
+  return identical(this, other) || (other.runtimeType == runtimeType&&other is AppUser&&(identical(other.id, _this.id) || other.id == _this.id)&&(identical(other.defaultGroupID, _this.defaultGroupID) || other.defaultGroupID == _this.defaultGroupID)&&(identical(other.groupMigratedDateTime, _this.groupMigratedDateTime) || other.groupMigratedDateTime == _this.groupMigratedDateTime)&&(identical(other.analyticsDebugIsEnabled, _this.analyticsDebugIsEnabled) || other.analyticsDebugIsEnabled == _this.analyticsDebugIsEnabled)&&(identical(other.maybeTrialDeadlineDate, _this.maybeTrialDeadlineDate) || other.maybeTrialDeadlineDate == _this.maybeTrialDeadlineDate)&&(identical(other.promotionStartPageCancelButtonTappedDateTime, _this.promotionStartPageCancelButtonTappedDateTime) || other.promotionStartPageCancelButtonTappedDateTime == _this.promotionStartPageCancelButtonTappedDateTime)&&(identical(other.onboardingCompletedDateTime, _this.onboardingCompletedDateTime) || other.onboardingCompletedDateTime == _this.onboardingCompletedDateTime)&&(identical(other.createdDateTime, _this.createdDateTime) || other.createdDateTime == _this.createdDateTime)&&(identical(other.updatedDateTime, _this.updatedDateTime) || other.updatedDateTime == _this.updatedDateTime)&&(identical(other.serverCreatedDateTime, _this.serverCreatedDateTime) || other.serverCreatedDateTime == _this.serverCreatedDateTime)&&(identical(other.serverUpdatedDateTime, _this.serverUpdatedDateTime) || other.serverUpdatedDateTime == _this.serverUpdatedDateTime));
+}
 
-  @override
-  String toString() {
-    return 'AppUser(id: $id, defaultGroupID: $defaultGroupID, groupMigratedDateTime: $groupMigratedDateTime, analyticsDebugIsEnabled: $analyticsDebugIsEnabled, maybeTrialDeadlineDate: $maybeTrialDeadlineDate, promotionStartPageCancelButtonTappedDateTime: $promotionStartPageCancelButtonTappedDateTime, onboardingCompletedDateTime: $onboardingCompletedDateTime, createdDateTime: $createdDateTime, updatedDateTime: $updatedDateTime, serverCreatedDateTime: $serverCreatedDateTime, serverUpdatedDateTime: $serverUpdatedDateTime)';
-  }
+@JsonKey(includeFromJson: false, includeToJson: false)
+@override
+int get hashCode {
+  final _this = this as AppUser;
+  return Object.hash(runtimeType,_this.id,_this.defaultGroupID,_this.groupMigratedDateTime,_this.analyticsDebugIsEnabled,_this.maybeTrialDeadlineDate,_this.promotionStartPageCancelButtonTappedDateTime,_this.onboardingCompletedDateTime,_this.createdDateTime,_this.updatedDateTime,_this.serverCreatedDateTime,_this.serverUpdatedDateTime);
+}
+
+@override
+String toString() {
+  final _this = this as AppUser;
+  return 'AppUser(id: ${_this.id}, defaultGroupID: ${_this.defaultGroupID}, groupMigratedDateTime: ${_this.groupMigratedDateTime}, analyticsDebugIsEnabled: ${_this.analyticsDebugIsEnabled}, maybeTrialDeadlineDate: ${_this.maybeTrialDeadlineDate}, promotionStartPageCancelButtonTappedDateTime: ${_this.promotionStartPageCancelButtonTappedDateTime}, onboardingCompletedDateTime: ${_this.onboardingCompletedDateTime}, createdDateTime: ${_this.createdDateTime}, updatedDateTime: ${_this.updatedDateTime}, serverCreatedDateTime: ${_this.serverCreatedDateTime}, serverUpdatedDateTime: ${_this.serverUpdatedDateTime})';
+}
+
+
 }
 
 /// @nodoc
-abstract mixin class $AppUserCopyWith<$Res> {
+abstract mixin class $AppUserCopyWith<$Res>  {
   factory $AppUserCopyWith(AppUser value, $Res Function(AppUser) _then) = _$AppUserCopyWithImpl;
-  @useResult
-  $Res call(
-      {String? id,
-      String? defaultGroupID,
-      @NullableTimestampConverter() DateTime? groupMigratedDateTime,
-      bool analyticsDebugIsEnabled,
-      @NullableTimestampConverter() DateTime? maybeTrialDeadlineDate,
-      @NullableTimestampConverter() DateTime? promotionStartPageCancelButtonTappedDateTime,
-      @NullableTimestampConverter() DateTime? onboardingCompletedDateTime,
-      @ClientCreatedTimestamp() DateTime? createdDateTime,
-      @ClientUpdatedTimestamp() DateTime? updatedDateTime,
-      @ServerCreatedTimestamp() DateTime? serverCreatedDateTime,
-      @ServerUpdatedTimestamp() DateTime? serverUpdatedDateTime});
-}
+@useResult
+$Res call({
+ String? id, String? defaultGroupID,@NullableTimestampConverter() DateTime? groupMigratedDateTime, bool analyticsDebugIsEnabled,@NullableTimestampConverter() DateTime? maybeTrialDeadlineDate,@NullableTimestampConverter() DateTime? promotionStartPageCancelButtonTappedDateTime,@NullableTimestampConverter() DateTime? onboardingCompletedDateTime,@ClientCreatedTimestamp() DateTime? createdDateTime,@ClientUpdatedTimestamp() DateTime? updatedDateTime,@ServerCreatedTimestamp() DateTime? serverCreatedDateTime,@ServerUpdatedTimestamp() DateTime? serverUpdatedDateTime
+});
 
+
+
+
+}
 /// @nodoc
-class _$AppUserCopyWithImpl<$Res> implements $AppUserCopyWith<$Res> {
+class _$AppUserCopyWithImpl<$Res>
+    implements $AppUserCopyWith<$Res> {
   _$AppUserCopyWithImpl(this._self, this._then);
 
   final AppUser _self;
   final $Res Function(AppUser) _then;
 
-  /// Create a copy of AppUser
-  /// with the given fields replaced by the non-null parameter values.
-  @pragma('vm:prefer-inline')
-  @override
-  $Res call({
-    Object? id = freezed,
-    Object? defaultGroupID = freezed,
-    Object? groupMigratedDateTime = freezed,
-    Object? analyticsDebugIsEnabled = null,
-    Object? maybeTrialDeadlineDate = freezed,
-    Object? promotionStartPageCancelButtonTappedDateTime = freezed,
-    Object? onboardingCompletedDateTime = freezed,
-    Object? createdDateTime = freezed,
-    Object? updatedDateTime = freezed,
-    Object? serverCreatedDateTime = freezed,
-    Object? serverUpdatedDateTime = freezed,
-  }) {
-    return _then(_self.copyWith(
-      id: freezed == id
-          ? _self.id
-          : id // ignore: cast_nullable_to_non_nullable
-              as String?,
-      defaultGroupID: freezed == defaultGroupID
-          ? _self.defaultGroupID
-          : defaultGroupID // ignore: cast_nullable_to_non_nullable
-              as String?,
-      groupMigratedDateTime: freezed == groupMigratedDateTime
-          ? _self.groupMigratedDateTime
-          : groupMigratedDateTime // ignore: cast_nullable_to_non_nullable
-              as DateTime?,
-      analyticsDebugIsEnabled: null == analyticsDebugIsEnabled
-          ? _self.analyticsDebugIsEnabled
-          : analyticsDebugIsEnabled // ignore: cast_nullable_to_non_nullable
-              as bool,
-      maybeTrialDeadlineDate: freezed == maybeTrialDeadlineDate
-          ? _self.maybeTrialDeadlineDate
-          : maybeTrialDeadlineDate // ignore: cast_nullable_to_non_nullable
-              as DateTime?,
-      promotionStartPageCancelButtonTappedDateTime: freezed == promotionStartPageCancelButtonTappedDateTime
-          ? _self.promotionStartPageCancelButtonTappedDateTime
-          : promotionStartPageCancelButtonTappedDateTime // ignore: cast_nullable_to_non_nullable
-              as DateTime?,
-      onboardingCompletedDateTime: freezed == onboardingCompletedDateTime
-          ? _self.onboardingCompletedDateTime
-          : onboardingCompletedDateTime // ignore: cast_nullable_to_non_nullable
-              as DateTime?,
-      createdDateTime: freezed == createdDateTime
-          ? _self.createdDateTime
-          : createdDateTime // ignore: cast_nullable_to_non_nullable
-              as DateTime?,
-      updatedDateTime: freezed == updatedDateTime
-          ? _self.updatedDateTime
-          : updatedDateTime // ignore: cast_nullable_to_non_nullable
-              as DateTime?,
-      serverCreatedDateTime: freezed == serverCreatedDateTime
-          ? _self.serverCreatedDateTime
-          : serverCreatedDateTime // ignore: cast_nullable_to_non_nullable
-              as DateTime?,
-      serverUpdatedDateTime: freezed == serverUpdatedDateTime
-          ? _self.serverUpdatedDateTime
-          : serverUpdatedDateTime // ignore: cast_nullable_to_non_nullable
-              as DateTime?,
-    ));
-  }
+/// Create a copy of AppUser
+/// with the given fields replaced by the non-null parameter values.
+@pragma('vm:prefer-inline') @override $Res call({Object? id = freezed,Object? defaultGroupID = freezed,Object? groupMigratedDateTime = freezed,Object? analyticsDebugIsEnabled = null,Object? maybeTrialDeadlineDate = freezed,Object? promotionStartPageCancelButtonTappedDateTime = freezed,Object? onboardingCompletedDateTime = freezed,Object? createdDateTime = freezed,Object? updatedDateTime = freezed,Object? serverCreatedDateTime = freezed,Object? serverUpdatedDateTime = freezed,}) {
+  return _then(AppUser(
+id: freezed == id ? _self.id : id // ignore: cast_nullable_to_non_nullable
+as String?,defaultGroupID: freezed == defaultGroupID ? _self.defaultGroupID : defaultGroupID // ignore: cast_nullable_to_non_nullable
+as String?,groupMigratedDateTime: freezed == groupMigratedDateTime ? _self.groupMigratedDateTime : groupMigratedDateTime // ignore: cast_nullable_to_non_nullable
+as DateTime?,analyticsDebugIsEnabled: null == analyticsDebugIsEnabled ? _self.analyticsDebugIsEnabled : analyticsDebugIsEnabled // ignore: cast_nullable_to_non_nullable
+as bool,maybeTrialDeadlineDate: freezed == maybeTrialDeadlineDate ? _self.maybeTrialDeadlineDate : maybeTrialDeadlineDate // ignore: cast_nullable_to_non_nullable
+as DateTime?,promotionStartPageCancelButtonTappedDateTime: freezed == promotionStartPageCancelButtonTappedDateTime ? _self.promotionStartPageCancelButtonTappedDateTime : promotionStartPageCancelButtonTappedDateTime // ignore: cast_nullable_to_non_nullable
+as DateTime?,onboardingCompletedDateTime: freezed == onboardingCompletedDateTime ? _self.onboardingCompletedDateTime : onboardingCompletedDateTime // ignore: cast_nullable_to_non_nullable
+as DateTime?,createdDateTime: freezed == createdDateTime ? _self.createdDateTime : createdDateTime // ignore: cast_nullable_to_non_nullable
+as DateTime?,updatedDateTime: freezed == updatedDateTime ? _self.updatedDateTime : updatedDateTime // ignore: cast_nullable_to_non_nullable
+as DateTime?,serverCreatedDateTime: freezed == serverCreatedDateTime ? _self.serverCreatedDateTime : serverCreatedDateTime // ignore: cast_nullable_to_non_nullable
+as DateTime?,serverUpdatedDateTime: freezed == serverUpdatedDateTime ? _self.serverUpdatedDateTime : serverUpdatedDateTime // ignore: cast_nullable_to_non_nullable
+as DateTime?,
+  ));
 }
+
+}
+
 
 /// Adds pattern-matching-related methods to [AppUser].
 extension AppUserPatterns on AppUser {
-  /// A variant of `map` that fallback to returning `orElse`.
-  ///
-  /// It is equivalent to doing:
-  /// ```dart
-  /// switch (sealedClass) {
-  ///   case final Subclass value:
-  ///     return ...;
-  ///   case _:
-  ///     return orElse();
-  /// }
-  /// ```
+/// A variant of `map` that fallback to returning `orElse`.
+///
+/// It is equivalent to doing:
+/// ```dart
+/// switch (sealedClass) {
+///   case final Subclass value:
+///     return ...;
+///   case _:
+///     return orElse();
+/// }
+/// ```
 
-  @optionalTypeArgs
-  TResult maybeMap<TResult extends Object?>(
-    TResult Function(_AppUser value)? $default, {
-    required TResult orElse(),
-  }) {
-    final _that = this;
-    switch (_that) {
-      case _AppUser() when $default != null:
-        return $default(_that);
-      case _:
-        return orElse();
-    }
-  }
+@optionalTypeArgs TResult maybeMap<TResult extends Object?>(TResult Function( _AppUser value)?  $default,{required TResult orElse(),}){
+final _that = this;
+switch (_that) {
+case _AppUser() when $default != null:
+return $default(_that);case _:
+  return orElse();
 
-  /// A `switch`-like method, using callbacks.
-  ///
-  /// Callbacks receives the raw object, upcasted.
-  /// It is equivalent to doing:
-  /// ```dart
-  /// switch (sealedClass) {
-  ///   case final Subclass value:
-  ///     return ...;
-  ///   case final Subclass2 value:
-  ///     return ...;
-  /// }
-  /// ```
+}
+}
+/// A `switch`-like method, using callbacks.
+///
+/// Callbacks receives the raw object, upcasted.
+/// It is equivalent to doing:
+/// ```dart
+/// switch (sealedClass) {
+///   case final Subclass value:
+///     return ...;
+///   case final Subclass2 value:
+///     return ...;
+/// }
+/// ```
 
-  @optionalTypeArgs
-  TResult map<TResult extends Object?>(
-    TResult Function(_AppUser value) $default,
-  ) {
-    final _that = this;
-    switch (_that) {
-      case _AppUser():
-        return $default(_that);
-      case _:
-        throw StateError('Unexpected subclass');
-    }
-  }
+@optionalTypeArgs TResult map<TResult extends Object?>(TResult Function( _AppUser value)  $default,){
+final _that = this;
+switch (_that) {
+case _AppUser():
+return $default(_that);case _:
+  throw StateError('Unexpected subclass');
 
-  /// A variant of `map` that fallback to returning `null`.
-  ///
-  /// It is equivalent to doing:
-  /// ```dart
-  /// switch (sealedClass) {
-  ///   case final Subclass value:
-  ///     return ...;
-  ///   case _:
-  ///     return null;
-  /// }
-  /// ```
+}
+}
+/// A variant of `map` that fallback to returning `null`.
+///
+/// It is equivalent to doing:
+/// ```dart
+/// switch (sealedClass) {
+///   case final Subclass value:
+///     return ...;
+///   case _:
+///     return null;
+/// }
+/// ```
 
-  @optionalTypeArgs
-  TResult? mapOrNull<TResult extends Object?>(
-    TResult? Function(_AppUser value)? $default,
-  ) {
-    final _that = this;
-    switch (_that) {
-      case _AppUser() when $default != null:
-        return $default(_that);
-      case _:
-        return null;
-    }
-  }
+@optionalTypeArgs TResult? mapOrNull<TResult extends Object?>(TResult? Function( _AppUser value)?  $default,){
+final _that = this;
+switch (_that) {
+case _AppUser() when $default != null:
+return $default(_that);case _:
+  return null;
 
-  /// A variant of `when` that fallback to an `orElse` callback.
-  ///
-  /// It is equivalent to doing:
-  /// ```dart
-  /// switch (sealedClass) {
-  ///   case Subclass(:final field):
-  ///     return ...;
-  ///   case _:
-  ///     return orElse();
-  /// }
-  /// ```
+}
+}
+/// A variant of `when` that fallback to an `orElse` callback.
+///
+/// It is equivalent to doing:
+/// ```dart
+/// switch (sealedClass) {
+///   case Subclass(:final field):
+///     return ...;
+///   case _:
+///     return orElse();
+/// }
+/// ```
 
-  @optionalTypeArgs
-  TResult maybeWhen<TResult extends Object?>(
-    TResult Function(
-            String? id,
-            String? defaultGroupID,
-            @NullableTimestampConverter() DateTime? groupMigratedDateTime,
-            bool analyticsDebugIsEnabled,
-            @NullableTimestampConverter() DateTime? maybeTrialDeadlineDate,
-            @NullableTimestampConverter() DateTime? promotionStartPageCancelButtonTappedDateTime,
-            @NullableTimestampConverter() DateTime? onboardingCompletedDateTime,
-            @ClientCreatedTimestamp() DateTime? createdDateTime,
-            @ClientUpdatedTimestamp() DateTime? updatedDateTime,
-            @ServerCreatedTimestamp() DateTime? serverCreatedDateTime,
-            @ServerUpdatedTimestamp() DateTime? serverUpdatedDateTime)?
-        $default, {
-    required TResult orElse(),
-  }) {
-    final _that = this;
-    switch (_that) {
-      case _AppUser() when $default != null:
-        return $default(
-            _that.id,
-            _that.defaultGroupID,
-            _that.groupMigratedDateTime,
-            _that.analyticsDebugIsEnabled,
-            _that.maybeTrialDeadlineDate,
-            _that.promotionStartPageCancelButtonTappedDateTime,
-            _that.onboardingCompletedDateTime,
-            _that.createdDateTime,
-            _that.updatedDateTime,
-            _that.serverCreatedDateTime,
-            _that.serverUpdatedDateTime);
-      case _:
-        return orElse();
-    }
-  }
+@optionalTypeArgs TResult maybeWhen<TResult extends Object?>(TResult Function( String? id,  String? defaultGroupID, @NullableTimestampConverter()  DateTime? groupMigratedDateTime,  bool analyticsDebugIsEnabled, @NullableTimestampConverter()  DateTime? maybeTrialDeadlineDate, @NullableTimestampConverter()  DateTime? promotionStartPageCancelButtonTappedDateTime, @NullableTimestampConverter()  DateTime? onboardingCompletedDateTime, @ClientCreatedTimestamp()  DateTime? createdDateTime, @ClientUpdatedTimestamp()  DateTime? updatedDateTime, @ServerCreatedTimestamp()  DateTime? serverCreatedDateTime, @ServerUpdatedTimestamp()  DateTime? serverUpdatedDateTime)?  $default,{required TResult orElse(),}) {final _that = this;
+switch (_that) {
+case _AppUser() when $default != null:
+return $default(_that.id,_that.defaultGroupID,_that.groupMigratedDateTime,_that.analyticsDebugIsEnabled,_that.maybeTrialDeadlineDate,_that.promotionStartPageCancelButtonTappedDateTime,_that.onboardingCompletedDateTime,_that.createdDateTime,_that.updatedDateTime,_that.serverCreatedDateTime,_that.serverUpdatedDateTime);case _:
+  return orElse();
 
-  /// A `switch`-like method, using callbacks.
-  ///
-  /// As opposed to `map`, this offers destructuring.
-  /// It is equivalent to doing:
-  /// ```dart
-  /// switch (sealedClass) {
-  ///   case Subclass(:final field):
-  ///     return ...;
-  ///   case Subclass2(:final field2):
-  ///     return ...;
-  /// }
-  /// ```
+}
+}
+/// A `switch`-like method, using callbacks.
+///
+/// As opposed to `map`, this offers destructuring.
+/// It is equivalent to doing:
+/// ```dart
+/// switch (sealedClass) {
+///   case Subclass(:final field):
+///     return ...;
+///   case Subclass2(:final field2):
+///     return ...;
+/// }
+/// ```
 
-  @optionalTypeArgs
-  TResult when<TResult extends Object?>(
-    TResult Function(
-            String? id,
-            String? defaultGroupID,
-            @NullableTimestampConverter() DateTime? groupMigratedDateTime,
-            bool analyticsDebugIsEnabled,
-            @NullableTimestampConverter() DateTime? maybeTrialDeadlineDate,
-            @NullableTimestampConverter() DateTime? promotionStartPageCancelButtonTappedDateTime,
-            @NullableTimestampConverter() DateTime? onboardingCompletedDateTime,
-            @ClientCreatedTimestamp() DateTime? createdDateTime,
-            @ClientUpdatedTimestamp() DateTime? updatedDateTime,
-            @ServerCreatedTimestamp() DateTime? serverCreatedDateTime,
-            @ServerUpdatedTimestamp() DateTime? serverUpdatedDateTime)
-        $default,
-  ) {
-    final _that = this;
-    switch (_that) {
-      case _AppUser():
-        return $default(
-            _that.id,
-            _that.defaultGroupID,
-            _that.groupMigratedDateTime,
-            _that.analyticsDebugIsEnabled,
-            _that.maybeTrialDeadlineDate,
-            _that.promotionStartPageCancelButtonTappedDateTime,
-            _that.onboardingCompletedDateTime,
-            _that.createdDateTime,
-            _that.updatedDateTime,
-            _that.serverCreatedDateTime,
-            _that.serverUpdatedDateTime);
-      case _:
-        throw StateError('Unexpected subclass');
-    }
-  }
+@optionalTypeArgs TResult when<TResult extends Object?>(TResult Function( String? id,  String? defaultGroupID, @NullableTimestampConverter()  DateTime? groupMigratedDateTime,  bool analyticsDebugIsEnabled, @NullableTimestampConverter()  DateTime? maybeTrialDeadlineDate, @NullableTimestampConverter()  DateTime? promotionStartPageCancelButtonTappedDateTime, @NullableTimestampConverter()  DateTime? onboardingCompletedDateTime, @ClientCreatedTimestamp()  DateTime? createdDateTime, @ClientUpdatedTimestamp()  DateTime? updatedDateTime, @ServerCreatedTimestamp()  DateTime? serverCreatedDateTime, @ServerUpdatedTimestamp()  DateTime? serverUpdatedDateTime)  $default,) {final _that = this;
+switch (_that) {
+case _AppUser():
+return $default(_that.id,_that.defaultGroupID,_that.groupMigratedDateTime,_that.analyticsDebugIsEnabled,_that.maybeTrialDeadlineDate,_that.promotionStartPageCancelButtonTappedDateTime,_that.onboardingCompletedDateTime,_that.createdDateTime,_that.updatedDateTime,_that.serverCreatedDateTime,_that.serverUpdatedDateTime);case _:
+  throw StateError('Unexpected subclass');
 
-  /// A variant of `when` that fallback to returning `null`
-  ///
-  /// It is equivalent to doing:
-  /// ```dart
-  /// switch (sealedClass) {
-  ///   case Subclass(:final field):
-  ///     return ...;
-  ///   case _:
-  ///     return null;
-  /// }
-  /// ```
+}
+}
+/// A variant of `when` that fallback to returning `null`
+///
+/// It is equivalent to doing:
+/// ```dart
+/// switch (sealedClass) {
+///   case Subclass(:final field):
+///     return ...;
+///   case _:
+///     return null;
+/// }
+/// ```
 
-  @optionalTypeArgs
-  TResult? whenOrNull<TResult extends Object?>(
-    TResult? Function(
-            String? id,
-            String? defaultGroupID,
-            @NullableTimestampConverter() DateTime? groupMigratedDateTime,
-            bool analyticsDebugIsEnabled,
-            @NullableTimestampConverter() DateTime? maybeTrialDeadlineDate,
-            @NullableTimestampConverter() DateTime? promotionStartPageCancelButtonTappedDateTime,
-            @NullableTimestampConverter() DateTime? onboardingCompletedDateTime,
-            @ClientCreatedTimestamp() DateTime? createdDateTime,
-            @ClientUpdatedTimestamp() DateTime? updatedDateTime,
-            @ServerCreatedTimestamp() DateTime? serverCreatedDateTime,
-            @ServerUpdatedTimestamp() DateTime? serverUpdatedDateTime)?
-        $default,
-  ) {
-    final _that = this;
-    switch (_that) {
-      case _AppUser() when $default != null:
-        return $default(
-            _that.id,
-            _that.defaultGroupID,
-            _that.groupMigratedDateTime,
-            _that.analyticsDebugIsEnabled,
-            _that.maybeTrialDeadlineDate,
-            _that.promotionStartPageCancelButtonTappedDateTime,
-            _that.onboardingCompletedDateTime,
-            _that.createdDateTime,
-            _that.updatedDateTime,
-            _that.serverCreatedDateTime,
-            _that.serverUpdatedDateTime);
-      case _:
-        return null;
-    }
-  }
+@optionalTypeArgs TResult? whenOrNull<TResult extends Object?>(TResult? Function( String? id,  String? defaultGroupID, @NullableTimestampConverter()  DateTime? groupMigratedDateTime,  bool analyticsDebugIsEnabled, @NullableTimestampConverter()  DateTime? maybeTrialDeadlineDate, @NullableTimestampConverter()  DateTime? promotionStartPageCancelButtonTappedDateTime, @NullableTimestampConverter()  DateTime? onboardingCompletedDateTime, @ClientCreatedTimestamp()  DateTime? createdDateTime, @ClientUpdatedTimestamp()  DateTime? updatedDateTime, @ServerCreatedTimestamp()  DateTime? serverCreatedDateTime, @ServerUpdatedTimestamp()  DateTime? serverUpdatedDateTime)?  $default,) {final _that = this;
+switch (_that) {
+case _AppUser() when $default != null:
+return $default(_that.id,_that.defaultGroupID,_that.groupMigratedDateTime,_that.analyticsDebugIsEnabled,_that.maybeTrialDeadlineDate,_that.promotionStartPageCancelButtonTappedDateTime,_that.onboardingCompletedDateTime,_that.createdDateTime,_that.updatedDateTime,_that.serverCreatedDateTime,_that.serverUpdatedDateTime);case _:
+  return null;
+
+}
+}
+
 }
 
 /// @nodoc
 
 @JsonSerializable(explicitToJson: true)
 class _AppUser extends AppUser {
-  const _AppUser(
-      {this.id,
-      this.defaultGroupID,
-      @NullableTimestampConverter() this.groupMigratedDateTime,
-      this.analyticsDebugIsEnabled = false,
-      @NullableTimestampConverter() this.maybeTrialDeadlineDate,
-      @NullableTimestampConverter() this.promotionStartPageCancelButtonTappedDateTime,
-      @NullableTimestampConverter() this.onboardingCompletedDateTime,
-      @ClientCreatedTimestamp() this.createdDateTime,
-      @ClientUpdatedTimestamp() this.updatedDateTime,
-      @ServerCreatedTimestamp() this.serverCreatedDateTime,
-      @ServerUpdatedTimestamp() this.serverUpdatedDateTime})
-      : super._();
+  const _AppUser({this.id, this.defaultGroupID, @NullableTimestampConverter() this.groupMigratedDateTime, this.analyticsDebugIsEnabled = false, @NullableTimestampConverter() this.maybeTrialDeadlineDate, @NullableTimestampConverter() this.promotionStartPageCancelButtonTappedDateTime, @NullableTimestampConverter() this.onboardingCompletedDateTime, @ClientCreatedTimestamp() this.createdDateTime, @ClientUpdatedTimestamp() this.updatedDateTime, @ServerCreatedTimestamp() this.serverCreatedDateTime, @ServerUpdatedTimestamp() this.serverUpdatedDateTime}): super._();
   factory _AppUser.fromJson(Map<String, dynamic> json) => _$AppUserFromJson(json);
 
-  @override
-  final String? id;
-// 起動時に表示・書き込み対象とするグループの ID。アプリ開始時点では未作成のため nullable。
-// 初回はグループ移行(GroupMigrationResolver)がソログループを作成してセットする。
-  @override
-  final String? defaultGroupID;
-// グループ移行の完了マーカー。defaultGroupID とは別に持つことで、
-// 「グループは作成済みだがデータコピー途中で失敗」した状態を次回起動時に検知しリカバリできる。
-  @override
-  @NullableTimestampConverter()
-  final DateTime? groupMigratedDateTime;
-  @override
-  @JsonKey()
-  final bool analyticsDebugIsEnabled;
-  @override
-  @NullableTimestampConverter()
-  final DateTime? maybeTrialDeadlineDate;
-  @override
-  @NullableTimestampConverter()
-  final DateTime? promotionStartPageCancelButtonTappedDateTime;
-// 初回起動のオンボーディング (features/onboarding) と薬登録の案内を完了した日時。null なら未完了
-  @override
-  @NullableTimestampConverter()
-  final DateTime? onboardingCompletedDateTime;
-  @override
-  @ClientCreatedTimestamp()
-  final DateTime? createdDateTime;
-  @override
-  @ClientUpdatedTimestamp()
-  final DateTime? updatedDateTime;
-  @override
-  @ServerCreatedTimestamp()
-  final DateTime? serverCreatedDateTime;
-  @override
-  @ServerUpdatedTimestamp()
-  final DateTime? serverUpdatedDateTime;
+@override final  String? id;
+@override final  String? defaultGroupID;
+@override@NullableTimestampConverter() final  DateTime? groupMigratedDateTime;
+@override@JsonKey() final  bool analyticsDebugIsEnabled;
+@override@NullableTimestampConverter() final  DateTime? maybeTrialDeadlineDate;
+@override@NullableTimestampConverter() final  DateTime? promotionStartPageCancelButtonTappedDateTime;
+@override@NullableTimestampConverter() final  DateTime? onboardingCompletedDateTime;
+@override@ClientCreatedTimestamp() final  DateTime? createdDateTime;
+@override@ClientUpdatedTimestamp() final  DateTime? updatedDateTime;
+@override@ServerCreatedTimestamp() final  DateTime? serverCreatedDateTime;
+@override@ServerUpdatedTimestamp() final  DateTime? serverUpdatedDateTime;
 
-  /// Create a copy of AppUser
-  /// with the given fields replaced by the non-null parameter values.
-  @override
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  _$AppUserCopyWith<_AppUser> get copyWith => __$AppUserCopyWithImpl<_AppUser>(this, _$identity);
+/// Create a copy of AppUser
+/// with the given fields replaced by the non-null parameter values.
+@override @JsonKey(includeFromJson: false, includeToJson: false)
+@pragma('vm:prefer-inline')
+_$AppUserCopyWith<_AppUser> get copyWith => __$AppUserCopyWithImpl<_AppUser>(this, _$identity);
 
-  @override
-  Map<String, dynamic> toJson() {
-    return _$AppUserToJson(
-      this,
-    );
-  }
+@override
+Map<String, dynamic> toJson() {
+  return _$AppUserToJson(this, );
+}
 
-  @override
-  bool operator ==(Object other) {
-    return identical(this, other) ||
-        (other.runtimeType == runtimeType &&
-            other is _AppUser &&
-            (identical(other.id, id) || other.id == id) &&
-            (identical(other.defaultGroupID, defaultGroupID) || other.defaultGroupID == defaultGroupID) &&
-            (identical(other.groupMigratedDateTime, groupMigratedDateTime) || other.groupMigratedDateTime == groupMigratedDateTime) &&
-            (identical(other.analyticsDebugIsEnabled, analyticsDebugIsEnabled) || other.analyticsDebugIsEnabled == analyticsDebugIsEnabled) &&
-            (identical(other.maybeTrialDeadlineDate, maybeTrialDeadlineDate) || other.maybeTrialDeadlineDate == maybeTrialDeadlineDate) &&
-            (identical(other.promotionStartPageCancelButtonTappedDateTime, promotionStartPageCancelButtonTappedDateTime) ||
-                other.promotionStartPageCancelButtonTappedDateTime == promotionStartPageCancelButtonTappedDateTime) &&
-            (identical(other.onboardingCompletedDateTime, onboardingCompletedDateTime) ||
-                other.onboardingCompletedDateTime == onboardingCompletedDateTime) &&
-            (identical(other.createdDateTime, createdDateTime) || other.createdDateTime == createdDateTime) &&
-            (identical(other.updatedDateTime, updatedDateTime) || other.updatedDateTime == updatedDateTime) &&
-            (identical(other.serverCreatedDateTime, serverCreatedDateTime) || other.serverCreatedDateTime == serverCreatedDateTime) &&
-            (identical(other.serverUpdatedDateTime, serverUpdatedDateTime) || other.serverUpdatedDateTime == serverUpdatedDateTime));
-  }
+@override
+bool operator ==(Object other) {
+    return identical(this, other) || (other.runtimeType == runtimeType&&other is _AppUser&&(identical(other.id, id) || other.id == id)&&(identical(other.defaultGroupID, defaultGroupID) || other.defaultGroupID == defaultGroupID)&&(identical(other.groupMigratedDateTime, groupMigratedDateTime) || other.groupMigratedDateTime == groupMigratedDateTime)&&(identical(other.analyticsDebugIsEnabled, analyticsDebugIsEnabled) || other.analyticsDebugIsEnabled == analyticsDebugIsEnabled)&&(identical(other.maybeTrialDeadlineDate, maybeTrialDeadlineDate) || other.maybeTrialDeadlineDate == maybeTrialDeadlineDate)&&(identical(other.promotionStartPageCancelButtonTappedDateTime, promotionStartPageCancelButtonTappedDateTime) || other.promotionStartPageCancelButtonTappedDateTime == promotionStartPageCancelButtonTappedDateTime)&&(identical(other.onboardingCompletedDateTime, onboardingCompletedDateTime) || other.onboardingCompletedDateTime == onboardingCompletedDateTime)&&(identical(other.createdDateTime, createdDateTime) || other.createdDateTime == createdDateTime)&&(identical(other.updatedDateTime, updatedDateTime) || other.updatedDateTime == updatedDateTime)&&(identical(other.serverCreatedDateTime, serverCreatedDateTime) || other.serverCreatedDateTime == serverCreatedDateTime)&&(identical(other.serverUpdatedDateTime, serverUpdatedDateTime) || other.serverUpdatedDateTime == serverUpdatedDateTime));
+}
 
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @override
-  int get hashCode => Object.hash(
-      runtimeType,
-      id,
-      defaultGroupID,
-      groupMigratedDateTime,
-      analyticsDebugIsEnabled,
-      maybeTrialDeadlineDate,
-      promotionStartPageCancelButtonTappedDateTime,
-      onboardingCompletedDateTime,
-      createdDateTime,
-      updatedDateTime,
-      serverCreatedDateTime,
-      serverUpdatedDateTime);
+@JsonKey(includeFromJson: false, includeToJson: false)
+@override
+int get hashCode {
+    return Object.hash(runtimeType,id,defaultGroupID,groupMigratedDateTime,analyticsDebugIsEnabled,maybeTrialDeadlineDate,promotionStartPageCancelButtonTappedDateTime,onboardingCompletedDateTime,createdDateTime,updatedDateTime,serverCreatedDateTime,serverUpdatedDateTime);
+}
 
-  @override
-  String toString() {
+@override
+String toString() {
     return 'AppUser(id: $id, defaultGroupID: $defaultGroupID, groupMigratedDateTime: $groupMigratedDateTime, analyticsDebugIsEnabled: $analyticsDebugIsEnabled, maybeTrialDeadlineDate: $maybeTrialDeadlineDate, promotionStartPageCancelButtonTappedDateTime: $promotionStartPageCancelButtonTappedDateTime, onboardingCompletedDateTime: $onboardingCompletedDateTime, createdDateTime: $createdDateTime, updatedDateTime: $updatedDateTime, serverCreatedDateTime: $serverCreatedDateTime, serverUpdatedDateTime: $serverUpdatedDateTime)';
-  }
+}
+
+
 }
 
 /// @nodoc
 abstract mixin class _$AppUserCopyWith<$Res> implements $AppUserCopyWith<$Res> {
   factory _$AppUserCopyWith(_AppUser value, $Res Function(_AppUser) _then) = __$AppUserCopyWithImpl;
-  @override
-  @useResult
-  $Res call(
-      {String? id,
-      String? defaultGroupID,
-      @NullableTimestampConverter() DateTime? groupMigratedDateTime,
-      bool analyticsDebugIsEnabled,
-      @NullableTimestampConverter() DateTime? maybeTrialDeadlineDate,
-      @NullableTimestampConverter() DateTime? promotionStartPageCancelButtonTappedDateTime,
-      @NullableTimestampConverter() DateTime? onboardingCompletedDateTime,
-      @ClientCreatedTimestamp() DateTime? createdDateTime,
-      @ClientUpdatedTimestamp() DateTime? updatedDateTime,
-      @ServerCreatedTimestamp() DateTime? serverCreatedDateTime,
-      @ServerUpdatedTimestamp() DateTime? serverUpdatedDateTime});
-}
+@override @useResult
+$Res call({
+ String? id, String? defaultGroupID,@NullableTimestampConverter() DateTime? groupMigratedDateTime, bool analyticsDebugIsEnabled,@NullableTimestampConverter() DateTime? maybeTrialDeadlineDate,@NullableTimestampConverter() DateTime? promotionStartPageCancelButtonTappedDateTime,@NullableTimestampConverter() DateTime? onboardingCompletedDateTime,@ClientCreatedTimestamp() DateTime? createdDateTime,@ClientUpdatedTimestamp() DateTime? updatedDateTime,@ServerCreatedTimestamp() DateTime? serverCreatedDateTime,@ServerUpdatedTimestamp() DateTime? serverUpdatedDateTime
+});
 
+
+
+
+}
 /// @nodoc
-class __$AppUserCopyWithImpl<$Res> implements _$AppUserCopyWith<$Res> {
+class __$AppUserCopyWithImpl<$Res>
+    implements _$AppUserCopyWith<$Res> {
   __$AppUserCopyWithImpl(this._self, this._then);
 
   final _AppUser _self;
   final $Res Function(_AppUser) _then;
 
-  /// Create a copy of AppUser
-  /// with the given fields replaced by the non-null parameter values.
-  @override
-  @pragma('vm:prefer-inline')
-  $Res call({
-    Object? id = freezed,
-    Object? defaultGroupID = freezed,
-    Object? groupMigratedDateTime = freezed,
-    Object? analyticsDebugIsEnabled = null,
-    Object? maybeTrialDeadlineDate = freezed,
-    Object? promotionStartPageCancelButtonTappedDateTime = freezed,
-    Object? onboardingCompletedDateTime = freezed,
-    Object? createdDateTime = freezed,
-    Object? updatedDateTime = freezed,
-    Object? serverCreatedDateTime = freezed,
-    Object? serverUpdatedDateTime = freezed,
-  }) {
-    return _then(_AppUser(
-      id: freezed == id
-          ? _self.id
-          : id // ignore: cast_nullable_to_non_nullable
-              as String?,
-      defaultGroupID: freezed == defaultGroupID
-          ? _self.defaultGroupID
-          : defaultGroupID // ignore: cast_nullable_to_non_nullable
-              as String?,
-      groupMigratedDateTime: freezed == groupMigratedDateTime
-          ? _self.groupMigratedDateTime
-          : groupMigratedDateTime // ignore: cast_nullable_to_non_nullable
-              as DateTime?,
-      analyticsDebugIsEnabled: null == analyticsDebugIsEnabled
-          ? _self.analyticsDebugIsEnabled
-          : analyticsDebugIsEnabled // ignore: cast_nullable_to_non_nullable
-              as bool,
-      maybeTrialDeadlineDate: freezed == maybeTrialDeadlineDate
-          ? _self.maybeTrialDeadlineDate
-          : maybeTrialDeadlineDate // ignore: cast_nullable_to_non_nullable
-              as DateTime?,
-      promotionStartPageCancelButtonTappedDateTime: freezed == promotionStartPageCancelButtonTappedDateTime
-          ? _self.promotionStartPageCancelButtonTappedDateTime
-          : promotionStartPageCancelButtonTappedDateTime // ignore: cast_nullable_to_non_nullable
-              as DateTime?,
-      onboardingCompletedDateTime: freezed == onboardingCompletedDateTime
-          ? _self.onboardingCompletedDateTime
-          : onboardingCompletedDateTime // ignore: cast_nullable_to_non_nullable
-              as DateTime?,
-      createdDateTime: freezed == createdDateTime
-          ? _self.createdDateTime
-          : createdDateTime // ignore: cast_nullable_to_non_nullable
-              as DateTime?,
-      updatedDateTime: freezed == updatedDateTime
-          ? _self.updatedDateTime
-          : updatedDateTime // ignore: cast_nullable_to_non_nullable
-              as DateTime?,
-      serverCreatedDateTime: freezed == serverCreatedDateTime
-          ? _self.serverCreatedDateTime
-          : serverCreatedDateTime // ignore: cast_nullable_to_non_nullable
-              as DateTime?,
-      serverUpdatedDateTime: freezed == serverUpdatedDateTime
-          ? _self.serverUpdatedDateTime
-          : serverUpdatedDateTime // ignore: cast_nullable_to_non_nullable
-              as DateTime?,
-    ));
-  }
+/// Create a copy of AppUser
+/// with the given fields replaced by the non-null parameter values.
+@override @pragma('vm:prefer-inline') $Res call({Object? id = freezed,Object? defaultGroupID = freezed,Object? groupMigratedDateTime = freezed,Object? analyticsDebugIsEnabled = null,Object? maybeTrialDeadlineDate = freezed,Object? promotionStartPageCancelButtonTappedDateTime = freezed,Object? onboardingCompletedDateTime = freezed,Object? createdDateTime = freezed,Object? updatedDateTime = freezed,Object? serverCreatedDateTime = freezed,Object? serverUpdatedDateTime = freezed,}) {
+  return _then(_AppUser(
+id: freezed == id ? _self.id : id // ignore: cast_nullable_to_non_nullable
+as String?,defaultGroupID: freezed == defaultGroupID ? _self.defaultGroupID : defaultGroupID // ignore: cast_nullable_to_non_nullable
+as String?,groupMigratedDateTime: freezed == groupMigratedDateTime ? _self.groupMigratedDateTime : groupMigratedDateTime // ignore: cast_nullable_to_non_nullable
+as DateTime?,analyticsDebugIsEnabled: null == analyticsDebugIsEnabled ? _self.analyticsDebugIsEnabled : analyticsDebugIsEnabled // ignore: cast_nullable_to_non_nullable
+as bool,maybeTrialDeadlineDate: freezed == maybeTrialDeadlineDate ? _self.maybeTrialDeadlineDate : maybeTrialDeadlineDate // ignore: cast_nullable_to_non_nullable
+as DateTime?,promotionStartPageCancelButtonTappedDateTime: freezed == promotionStartPageCancelButtonTappedDateTime ? _self.promotionStartPageCancelButtonTappedDateTime : promotionStartPageCancelButtonTappedDateTime // ignore: cast_nullable_to_non_nullable
+as DateTime?,onboardingCompletedDateTime: freezed == onboardingCompletedDateTime ? _self.onboardingCompletedDateTime : onboardingCompletedDateTime // ignore: cast_nullable_to_non_nullable
+as DateTime?,createdDateTime: freezed == createdDateTime ? _self.createdDateTime : createdDateTime // ignore: cast_nullable_to_non_nullable
+as DateTime?,updatedDateTime: freezed == updatedDateTime ? _self.updatedDateTime : updatedDateTime // ignore: cast_nullable_to_non_nullable
+as DateTime?,serverCreatedDateTime: freezed == serverCreatedDateTime ? _self.serverCreatedDateTime : serverCreatedDateTime // ignore: cast_nullable_to_non_nullable
+as DateTime?,serverUpdatedDateTime: freezed == serverUpdatedDateTime ? _self.serverUpdatedDateTime : serverUpdatedDateTime // ignore: cast_nullable_to_non_nullable
+as DateTime?,
+  ));
+}
+
+
 }
 
 // dart format on

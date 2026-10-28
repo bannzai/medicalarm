@@ -6,20 +6,47 @@ part of 'onboarding.dart';
 // RiverpodGenerator
 // **************************************************************************
 
-String _$onboardingCompleteHash() => r'307c2dc382acee995c415300ebdd5edb3b887892';
+// GENERATED CODE - DO NOT MODIFY BY HAND
+// ignore_for_file: type=lint, type=warning
 
-/// See also [onboardingComplete].
 @ProviderFor(onboardingComplete)
-final onboardingCompleteProvider = AutoDisposeProvider<OnboardingComplete>.internal(
-  onboardingComplete,
-  name: r'onboardingCompleteProvider',
-  debugGetCreateSourceHash: const bool.fromEnvironment('dart.vm.product') ? null : _$onboardingCompleteHash,
-  dependencies: <ProviderOrFamily>[userDatabaseProvider],
-  allTransitiveDependencies: <ProviderOrFamily>{userDatabaseProvider, ...?userDatabaseProvider.allTransitiveDependencies},
-);
+final onboardingCompleteProvider = OnboardingCompleteProvider._();
 
-@Deprecated('Will be removed in 3.0. Use Ref instead')
-// ignore: unused_element
-typedef OnboardingCompleteRef = AutoDisposeProviderRef<OnboardingComplete>;
-// ignore_for_file: type=lint
-// ignore_for_file: subtype_of_sealed_class, invalid_use_of_internal_member, invalid_use_of_visible_for_testing_member, deprecated_member_use_from_same_package
+final class OnboardingCompleteProvider extends $FunctionalProvider<OnboardingComplete, OnboardingComplete, OnboardingComplete>
+    with $Provider<OnboardingComplete> {
+  OnboardingCompleteProvider._()
+    : super(
+        from: null,
+        argument: null,
+        retry: null,
+        name: r'onboardingCompleteProvider',
+        isAutoDispose: true,
+        dependencies: <ProviderOrFamily>[userDatabaseProvider],
+        $allTransitiveDependencies: <ProviderOrFamily>[
+          OnboardingCompleteProvider.$allTransitiveDependencies0,
+          OnboardingCompleteProvider.$allTransitiveDependencies1,
+        ],
+      );
+
+  static final $allTransitiveDependencies0 = userDatabaseProvider;
+  static final $allTransitiveDependencies1 = UserDatabaseProvider.$allTransitiveDependencies0;
+
+  @override
+  String debugGetCreateSourceHash() => _$onboardingCompleteHash();
+
+  @$internal
+  @override
+  $ProviderElement<OnboardingComplete> $createElement($ProviderPointer pointer) => $ProviderElement(pointer);
+
+  @override
+  OnboardingComplete create(Ref ref) {
+    return onboardingComplete(ref);
+  }
+
+  /// {@macro riverpod.override_with_value}
+  Override overrideWithValue(OnboardingComplete value) {
+    return $ProviderOverride(origin: this, providerOverride: $SyncValueProvider<OnboardingComplete>(value));
+  }
+}
+
+String _$onboardingCompleteHash() => r'04e22bd966b081d502b4331a82adf8481765c22e';

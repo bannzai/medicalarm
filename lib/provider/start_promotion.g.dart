@@ -6,20 +6,40 @@ part of 'start_promotion.dart';
 // RiverpodGenerator
 // **************************************************************************
 
-String _$startPromotionHash() => r'bf2ba7d8fb560d284f11f181956ea97e3e72f71d';
+// GENERATED CODE - DO NOT MODIFY BY HAND
+// ignore_for_file: type=lint, type=warning
 
-/// See also [startPromotion].
 @ProviderFor(startPromotion)
-final startPromotionProvider = AutoDisposeProvider<StartPromotion>.internal(
-  startPromotion,
-  name: r'startPromotionProvider',
-  debugGetCreateSourceHash: const bool.fromEnvironment('dart.vm.product') ? null : _$startPromotionHash,
-  dependencies: const <ProviderOrFamily>[],
-  allTransitiveDependencies: const <ProviderOrFamily>{},
-);
+final startPromotionProvider = StartPromotionProvider._();
 
-@Deprecated('Will be removed in 3.0. Use Ref instead')
-// ignore: unused_element
-typedef StartPromotionRef = AutoDisposeProviderRef<StartPromotion>;
-// ignore_for_file: type=lint
-// ignore_for_file: subtype_of_sealed_class, invalid_use_of_internal_member, invalid_use_of_visible_for_testing_member, deprecated_member_use_from_same_package
+final class StartPromotionProvider extends $FunctionalProvider<StartPromotion, StartPromotion, StartPromotion> with $Provider<StartPromotion> {
+  StartPromotionProvider._()
+    : super(
+        from: null,
+        argument: null,
+        retry: null,
+        name: r'startPromotionProvider',
+        isAutoDispose: true,
+        dependencies: <ProviderOrFamily>[],
+        $allTransitiveDependencies: <ProviderOrFamily>[],
+      );
+
+  @override
+  String debugGetCreateSourceHash() => _$startPromotionHash();
+
+  @$internal
+  @override
+  $ProviderElement<StartPromotion> $createElement($ProviderPointer pointer) => $ProviderElement(pointer);
+
+  @override
+  StartPromotion create(Ref ref) {
+    return startPromotion(ref);
+  }
+
+  /// {@macro riverpod.override_with_value}
+  Override overrideWithValue(StartPromotion value) {
+    return $ProviderOverride(origin: this, providerOverride: $SyncValueProvider<StartPromotion>(value));
+  }
+}
+
+String _$startPromotionHash() => r'bf2ba7d8fb560d284f11f181956ea97e3e72f71d';

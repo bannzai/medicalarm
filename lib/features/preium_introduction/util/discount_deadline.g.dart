@@ -6,414 +6,222 @@ part of 'discount_deadline.dart';
 // RiverpodGenerator
 // **************************************************************************
 
-String _$isOverDiscountDeadlineHash() => r'4336d52719c10c6d3e9acc171f33f9ebc744976b';
+// GENERATED CODE - DO NOT MODIFY BY HAND
+// ignore_for_file: type=lint, type=warning
 
-/// Copied from Dart SDK
-class _SystemHash {
-  _SystemHash._();
+@ProviderFor(Tick)
+final tickProvider = TickProvider._();
 
-  static int combine(int hash, int value) {
-    // ignore: parameter_assignments
-    hash = 0x1fffffff & (hash + value);
-    // ignore: parameter_assignments
-    hash = 0x1fffffff & (hash + ((0x0007ffff & hash) << 10));
-    return hash ^ (hash >> 6);
-  }
-
-  static int finish(int hash) {
-    // ignore: parameter_assignments
-    hash = 0x1fffffff & (hash + ((0x03ffffff & hash) << 3));
-    // ignore: parameter_assignments
-    hash = hash ^ (hash >> 11);
-    return 0x1fffffff & (hash + ((0x00003fff & hash) << 15));
-  }
-}
-
-/// See also [isOverDiscountDeadline].
-@ProviderFor(isOverDiscountDeadline)
-const isOverDiscountDeadlineProvider = IsOverDiscountDeadlineFamily();
-
-/// See also [isOverDiscountDeadline].
-class IsOverDiscountDeadlineFamily extends Family<bool> {
-  /// See also [isOverDiscountDeadline].
-  const IsOverDiscountDeadlineFamily();
-
-  /// See also [isOverDiscountDeadline].
-  IsOverDiscountDeadlineProvider call({
-    required DateTime? discountEntitlementDeadlineDate,
-  }) {
-    return IsOverDiscountDeadlineProvider(
-      discountEntitlementDeadlineDate: discountEntitlementDeadlineDate,
-    );
-  }
-
-  @override
-  IsOverDiscountDeadlineProvider getProviderOverride(
-    covariant IsOverDiscountDeadlineProvider provider,
-  ) {
-    return call(
-      discountEntitlementDeadlineDate: provider.discountEntitlementDeadlineDate,
-    );
-  }
-
-  static const Iterable<ProviderOrFamily>? _dependencies = null;
-
-  @override
-  Iterable<ProviderOrFamily>? get dependencies => _dependencies;
-
-  static const Iterable<ProviderOrFamily>? _allTransitiveDependencies = null;
-
-  @override
-  Iterable<ProviderOrFamily>? get allTransitiveDependencies => _allTransitiveDependencies;
-
-  @override
-  String? get name => r'isOverDiscountDeadlineProvider';
-}
-
-/// See also [isOverDiscountDeadline].
-class IsOverDiscountDeadlineProvider extends AutoDisposeProvider<bool> {
-  /// See also [isOverDiscountDeadline].
-  IsOverDiscountDeadlineProvider({
-    required DateTime? discountEntitlementDeadlineDate,
-  }) : this._internal(
-          (ref) => isOverDiscountDeadline(
-            ref as IsOverDiscountDeadlineRef,
-            discountEntitlementDeadlineDate: discountEntitlementDeadlineDate,
-          ),
-          from: isOverDiscountDeadlineProvider,
-          name: r'isOverDiscountDeadlineProvider',
-          debugGetCreateSourceHash: const bool.fromEnvironment('dart.vm.product') ? null : _$isOverDiscountDeadlineHash,
-          dependencies: IsOverDiscountDeadlineFamily._dependencies,
-          allTransitiveDependencies: IsOverDiscountDeadlineFamily._allTransitiveDependencies,
-          discountEntitlementDeadlineDate: discountEntitlementDeadlineDate,
-        );
-
-  IsOverDiscountDeadlineProvider._internal(
-    super._createNotifier, {
-    required super.name,
-    required super.dependencies,
-    required super.allTransitiveDependencies,
-    required super.debugGetCreateSourceHash,
-    required super.from,
-    required this.discountEntitlementDeadlineDate,
-  }) : super.internal();
-
-  final DateTime? discountEntitlementDeadlineDate;
-
-  @override
-  Override overrideWith(
-    bool Function(IsOverDiscountDeadlineRef provider) create,
-  ) {
-    return ProviderOverride(
-      origin: this,
-      override: IsOverDiscountDeadlineProvider._internal(
-        (ref) => create(ref as IsOverDiscountDeadlineRef),
-        from: from,
-        name: null,
+final class TickProvider extends $NotifierProvider<Tick, DateTime> {
+  TickProvider._()
+    : super(
+        from: null,
+        argument: null,
+        retry: null,
+        name: r'tickProvider',
+        isAutoDispose: true,
         dependencies: null,
-        allTransitiveDependencies: null,
-        debugGetCreateSourceHash: null,
-        discountEntitlementDeadlineDate: discountEntitlementDeadlineDate,
-      ),
-    );
+        $allTransitiveDependencies: null,
+      );
+
+  @override
+  String debugGetCreateSourceHash() => _$tickHash();
+
+  @$internal
+  @override
+  Tick create() => Tick();
+
+  /// {@macro riverpod.override_with_value}
+  Override overrideWithValue(DateTime value) {
+    return $ProviderOverride(origin: this, providerOverride: $SyncValueProvider<DateTime>(value));
   }
-
-  @override
-  AutoDisposeProviderElement<bool> createElement() {
-    return _IsOverDiscountDeadlineProviderElement(this);
-  }
-
-  @override
-  bool operator ==(Object other) {
-    return other is IsOverDiscountDeadlineProvider && other.discountEntitlementDeadlineDate == discountEntitlementDeadlineDate;
-  }
-
-  @override
-  int get hashCode {
-    var hash = _SystemHash.combine(0, runtimeType.hashCode);
-    hash = _SystemHash.combine(hash, discountEntitlementDeadlineDate.hashCode);
-
-    return _SystemHash.finish(hash);
-  }
-}
-
-@Deprecated('Will be removed in 3.0. Use Ref instead')
-// ignore: unused_element
-mixin IsOverDiscountDeadlineRef on AutoDisposeProviderRef<bool> {
-  /// The parameter `discountEntitlementDeadlineDate` of this provider.
-  DateTime? get discountEntitlementDeadlineDate;
-}
-
-class _IsOverDiscountDeadlineProviderElement extends AutoDisposeProviderElement<bool> with IsOverDiscountDeadlineRef {
-  _IsOverDiscountDeadlineProviderElement(super.provider);
-
-  @override
-  DateTime? get discountEntitlementDeadlineDate => (origin as IsOverDiscountDeadlineProvider).discountEntitlementDeadlineDate;
-}
-
-String _$hiddenCountdownDiscountDeadlineHash() => r'b3ea64dcbcf2abb780bc0c15b685b3344aaa0cc8';
-
-/// See also [hiddenCountdownDiscountDeadline].
-@ProviderFor(hiddenCountdownDiscountDeadline)
-const hiddenCountdownDiscountDeadlineProvider = HiddenCountdownDiscountDeadlineFamily();
-
-/// See also [hiddenCountdownDiscountDeadline].
-class HiddenCountdownDiscountDeadlineFamily extends Family<bool> {
-  /// See also [hiddenCountdownDiscountDeadline].
-  const HiddenCountdownDiscountDeadlineFamily();
-
-  /// See also [hiddenCountdownDiscountDeadline].
-  HiddenCountdownDiscountDeadlineProvider call({
-    required DateTime? discountEntitlementDeadlineDate,
-  }) {
-    return HiddenCountdownDiscountDeadlineProvider(
-      discountEntitlementDeadlineDate: discountEntitlementDeadlineDate,
-    );
-  }
-
-  @override
-  HiddenCountdownDiscountDeadlineProvider getProviderOverride(
-    covariant HiddenCountdownDiscountDeadlineProvider provider,
-  ) {
-    return call(
-      discountEntitlementDeadlineDate: provider.discountEntitlementDeadlineDate,
-    );
-  }
-
-  static final Iterable<ProviderOrFamily> _dependencies = <ProviderOrFamily>[customerInfoProvider];
-
-  @override
-  Iterable<ProviderOrFamily>? get dependencies => _dependencies;
-
-  static final Iterable<ProviderOrFamily> _allTransitiveDependencies = <ProviderOrFamily>{
-    customerInfoProvider,
-    ...?customerInfoProvider.allTransitiveDependencies
-  };
-
-  @override
-  Iterable<ProviderOrFamily>? get allTransitiveDependencies => _allTransitiveDependencies;
-
-  @override
-  String? get name => r'hiddenCountdownDiscountDeadlineProvider';
-}
-
-/// See also [hiddenCountdownDiscountDeadline].
-class HiddenCountdownDiscountDeadlineProvider extends AutoDisposeProvider<bool> {
-  /// See also [hiddenCountdownDiscountDeadline].
-  HiddenCountdownDiscountDeadlineProvider({
-    required DateTime? discountEntitlementDeadlineDate,
-  }) : this._internal(
-          (ref) => hiddenCountdownDiscountDeadline(
-            ref as HiddenCountdownDiscountDeadlineRef,
-            discountEntitlementDeadlineDate: discountEntitlementDeadlineDate,
-          ),
-          from: hiddenCountdownDiscountDeadlineProvider,
-          name: r'hiddenCountdownDiscountDeadlineProvider',
-          debugGetCreateSourceHash: const bool.fromEnvironment('dart.vm.product') ? null : _$hiddenCountdownDiscountDeadlineHash,
-          dependencies: HiddenCountdownDiscountDeadlineFamily._dependencies,
-          allTransitiveDependencies: HiddenCountdownDiscountDeadlineFamily._allTransitiveDependencies,
-          discountEntitlementDeadlineDate: discountEntitlementDeadlineDate,
-        );
-
-  HiddenCountdownDiscountDeadlineProvider._internal(
-    super._createNotifier, {
-    required super.name,
-    required super.dependencies,
-    required super.allTransitiveDependencies,
-    required super.debugGetCreateSourceHash,
-    required super.from,
-    required this.discountEntitlementDeadlineDate,
-  }) : super.internal();
-
-  final DateTime? discountEntitlementDeadlineDate;
-
-  @override
-  Override overrideWith(
-    bool Function(HiddenCountdownDiscountDeadlineRef provider) create,
-  ) {
-    return ProviderOverride(
-      origin: this,
-      override: HiddenCountdownDiscountDeadlineProvider._internal(
-        (ref) => create(ref as HiddenCountdownDiscountDeadlineRef),
-        from: from,
-        name: null,
-        dependencies: null,
-        allTransitiveDependencies: null,
-        debugGetCreateSourceHash: null,
-        discountEntitlementDeadlineDate: discountEntitlementDeadlineDate,
-      ),
-    );
-  }
-
-  @override
-  AutoDisposeProviderElement<bool> createElement() {
-    return _HiddenCountdownDiscountDeadlineProviderElement(this);
-  }
-
-  @override
-  bool operator ==(Object other) {
-    return other is HiddenCountdownDiscountDeadlineProvider && other.discountEntitlementDeadlineDate == discountEntitlementDeadlineDate;
-  }
-
-  @override
-  int get hashCode {
-    var hash = _SystemHash.combine(0, runtimeType.hashCode);
-    hash = _SystemHash.combine(hash, discountEntitlementDeadlineDate.hashCode);
-
-    return _SystemHash.finish(hash);
-  }
-}
-
-@Deprecated('Will be removed in 3.0. Use Ref instead')
-// ignore: unused_element
-mixin HiddenCountdownDiscountDeadlineRef on AutoDisposeProviderRef<bool> {
-  /// The parameter `discountEntitlementDeadlineDate` of this provider.
-  DateTime? get discountEntitlementDeadlineDate;
-}
-
-class _HiddenCountdownDiscountDeadlineProviderElement extends AutoDisposeProviderElement<bool> with HiddenCountdownDiscountDeadlineRef {
-  _HiddenCountdownDiscountDeadlineProviderElement(super.provider);
-
-  @override
-  DateTime? get discountEntitlementDeadlineDate => (origin as HiddenCountdownDiscountDeadlineProvider).discountEntitlementDeadlineDate;
-}
-
-String _$durationToDiscountPriceDeadlineHash() => r'cf08e12e1dea3d5475632bc452d12a78aec274b7';
-
-/// See also [durationToDiscountPriceDeadline].
-@ProviderFor(durationToDiscountPriceDeadline)
-const durationToDiscountPriceDeadlineProvider = DurationToDiscountPriceDeadlineFamily();
-
-/// See also [durationToDiscountPriceDeadline].
-class DurationToDiscountPriceDeadlineFamily extends Family<Duration> {
-  /// See also [durationToDiscountPriceDeadline].
-  const DurationToDiscountPriceDeadlineFamily();
-
-  /// See also [durationToDiscountPriceDeadline].
-  DurationToDiscountPriceDeadlineProvider call({
-    required DateTime discountEntitlementDeadlineDate,
-  }) {
-    return DurationToDiscountPriceDeadlineProvider(
-      discountEntitlementDeadlineDate: discountEntitlementDeadlineDate,
-    );
-  }
-
-  @override
-  DurationToDiscountPriceDeadlineProvider getProviderOverride(
-    covariant DurationToDiscountPriceDeadlineProvider provider,
-  ) {
-    return call(
-      discountEntitlementDeadlineDate: provider.discountEntitlementDeadlineDate,
-    );
-  }
-
-  static const Iterable<ProviderOrFamily>? _dependencies = null;
-
-  @override
-  Iterable<ProviderOrFamily>? get dependencies => _dependencies;
-
-  static const Iterable<ProviderOrFamily>? _allTransitiveDependencies = null;
-
-  @override
-  Iterable<ProviderOrFamily>? get allTransitiveDependencies => _allTransitiveDependencies;
-
-  @override
-  String? get name => r'durationToDiscountPriceDeadlineProvider';
-}
-
-/// See also [durationToDiscountPriceDeadline].
-class DurationToDiscountPriceDeadlineProvider extends AutoDisposeProvider<Duration> {
-  /// See also [durationToDiscountPriceDeadline].
-  DurationToDiscountPriceDeadlineProvider({
-    required DateTime discountEntitlementDeadlineDate,
-  }) : this._internal(
-          (ref) => durationToDiscountPriceDeadline(
-            ref as DurationToDiscountPriceDeadlineRef,
-            discountEntitlementDeadlineDate: discountEntitlementDeadlineDate,
-          ),
-          from: durationToDiscountPriceDeadlineProvider,
-          name: r'durationToDiscountPriceDeadlineProvider',
-          debugGetCreateSourceHash: const bool.fromEnvironment('dart.vm.product') ? null : _$durationToDiscountPriceDeadlineHash,
-          dependencies: DurationToDiscountPriceDeadlineFamily._dependencies,
-          allTransitiveDependencies: DurationToDiscountPriceDeadlineFamily._allTransitiveDependencies,
-          discountEntitlementDeadlineDate: discountEntitlementDeadlineDate,
-        );
-
-  DurationToDiscountPriceDeadlineProvider._internal(
-    super._createNotifier, {
-    required super.name,
-    required super.dependencies,
-    required super.allTransitiveDependencies,
-    required super.debugGetCreateSourceHash,
-    required super.from,
-    required this.discountEntitlementDeadlineDate,
-  }) : super.internal();
-
-  final DateTime discountEntitlementDeadlineDate;
-
-  @override
-  Override overrideWith(
-    Duration Function(DurationToDiscountPriceDeadlineRef provider) create,
-  ) {
-    return ProviderOverride(
-      origin: this,
-      override: DurationToDiscountPriceDeadlineProvider._internal(
-        (ref) => create(ref as DurationToDiscountPriceDeadlineRef),
-        from: from,
-        name: null,
-        dependencies: null,
-        allTransitiveDependencies: null,
-        debugGetCreateSourceHash: null,
-        discountEntitlementDeadlineDate: discountEntitlementDeadlineDate,
-      ),
-    );
-  }
-
-  @override
-  AutoDisposeProviderElement<Duration> createElement() {
-    return _DurationToDiscountPriceDeadlineProviderElement(this);
-  }
-
-  @override
-  bool operator ==(Object other) {
-    return other is DurationToDiscountPriceDeadlineProvider && other.discountEntitlementDeadlineDate == discountEntitlementDeadlineDate;
-  }
-
-  @override
-  int get hashCode {
-    var hash = _SystemHash.combine(0, runtimeType.hashCode);
-    hash = _SystemHash.combine(hash, discountEntitlementDeadlineDate.hashCode);
-
-    return _SystemHash.finish(hash);
-  }
-}
-
-@Deprecated('Will be removed in 3.0. Use Ref instead')
-// ignore: unused_element
-mixin DurationToDiscountPriceDeadlineRef on AutoDisposeProviderRef<Duration> {
-  /// The parameter `discountEntitlementDeadlineDate` of this provider.
-  DateTime get discountEntitlementDeadlineDate;
-}
-
-class _DurationToDiscountPriceDeadlineProviderElement extends AutoDisposeProviderElement<Duration> with DurationToDiscountPriceDeadlineRef {
-  _DurationToDiscountPriceDeadlineProviderElement(super.provider);
-
-  @override
-  DateTime get discountEntitlementDeadlineDate => (origin as DurationToDiscountPriceDeadlineProvider).discountEntitlementDeadlineDate;
 }
 
 String _$tickHash() => r'627ad686315be91a0a2217b100b7a79f091931b9';
 
-/// See also [Tick].
-@ProviderFor(Tick)
-final tickProvider = AutoDisposeNotifierProvider<Tick, DateTime>.internal(
-  Tick.new,
-  name: r'tickProvider',
-  debugGetCreateSourceHash: const bool.fromEnvironment('dart.vm.product') ? null : _$tickHash,
-  dependencies: null,
-  allTransitiveDependencies: null,
-);
+abstract class _$Tick extends $Notifier<DateTime> {
+  DateTime build();
+  @$mustCallSuper
+  @override
+  WhenComplete runBuild() {
+    final ref = this.ref as $Ref<DateTime, DateTime>;
+    final element = ref.element as $ClassProviderElement<AnyNotifier<DateTime, DateTime>, DateTime, Object?, Object?>;
+    return element.handleCreate(ref, build);
+  }
+}
 
-typedef _$Tick = AutoDisposeNotifier<DateTime>;
-// ignore_for_file: type=lint
-// ignore_for_file: subtype_of_sealed_class, invalid_use_of_internal_member, invalid_use_of_visible_for_testing_member, deprecated_member_use_from_same_package
+@ProviderFor(isOverDiscountDeadline)
+final isOverDiscountDeadlineProvider = IsOverDiscountDeadlineFamily._();
+
+final class IsOverDiscountDeadlineProvider extends $FunctionalProvider<bool, bool, bool> with $Provider<bool> {
+  IsOverDiscountDeadlineProvider._({required IsOverDiscountDeadlineFamily super.from, required DateTime? super.argument})
+    : super(retry: null, name: r'isOverDiscountDeadlineProvider', isAutoDispose: true, dependencies: null, $allTransitiveDependencies: null);
+
+  @override
+  String debugGetCreateSourceHash() => _$isOverDiscountDeadlineHash();
+
+  @override
+  String toString() {
+    return r'isOverDiscountDeadlineProvider'
+        ''
+        '($argument)';
+  }
+
+  @$internal
+  @override
+  $ProviderElement<bool> $createElement($ProviderPointer pointer) => $ProviderElement(pointer);
+
+  @override
+  bool create(Ref ref) {
+    final argument = this.argument as DateTime?;
+    return isOverDiscountDeadline(ref, discountEntitlementDeadlineDate: argument);
+  }
+
+  /// {@macro riverpod.override_with_value}
+  Override overrideWithValue(bool value) {
+    return $ProviderOverride(origin: this, providerOverride: $SyncValueProvider<bool>(value));
+  }
+
+  @override
+  bool operator ==(Object other) {
+    return other is IsOverDiscountDeadlineProvider && other.argument == argument;
+  }
+
+  @override
+  int get hashCode {
+    return argument.hashCode;
+  }
+}
+
+String _$isOverDiscountDeadlineHash() => r'f1077ee0cddf37489e05a9d64453f831b9b83ceb';
+
+final class IsOverDiscountDeadlineFamily extends $Family with $FunctionalFamilyOverride<bool, DateTime?> {
+  IsOverDiscountDeadlineFamily._()
+    : super(retry: null, name: r'isOverDiscountDeadlineProvider', dependencies: null, $allTransitiveDependencies: null, isAutoDispose: true);
+
+  IsOverDiscountDeadlineProvider call({required DateTime? discountEntitlementDeadlineDate}) =>
+      IsOverDiscountDeadlineProvider._(argument: discountEntitlementDeadlineDate, from: this);
+
+  @override
+  String toString() => r'isOverDiscountDeadlineProvider';
+}
+
+@ProviderFor(hiddenCountdownDiscountDeadline)
+final hiddenCountdownDiscountDeadlineProvider = HiddenCountdownDiscountDeadlineFamily._();
+
+final class HiddenCountdownDiscountDeadlineProvider extends $FunctionalProvider<bool, bool, bool> with $Provider<bool> {
+  HiddenCountdownDiscountDeadlineProvider._({required HiddenCountdownDiscountDeadlineFamily super.from, required DateTime? super.argument})
+    : super(retry: null, name: r'hiddenCountdownDiscountDeadlineProvider', isAutoDispose: true, dependencies: null, $allTransitiveDependencies: null);
+
+  static final $allTransitiveDependencies0 = customerInfoProvider;
+
+  @override
+  String debugGetCreateSourceHash() => _$hiddenCountdownDiscountDeadlineHash();
+
+  @override
+  String toString() {
+    return r'hiddenCountdownDiscountDeadlineProvider'
+        ''
+        '($argument)';
+  }
+
+  @$internal
+  @override
+  $ProviderElement<bool> $createElement($ProviderPointer pointer) => $ProviderElement(pointer);
+
+  @override
+  bool create(Ref ref) {
+    final argument = this.argument as DateTime?;
+    return hiddenCountdownDiscountDeadline(ref, discountEntitlementDeadlineDate: argument);
+  }
+
+  /// {@macro riverpod.override_with_value}
+  Override overrideWithValue(bool value) {
+    return $ProviderOverride(origin: this, providerOverride: $SyncValueProvider<bool>(value));
+  }
+
+  @override
+  bool operator ==(Object other) {
+    return other is HiddenCountdownDiscountDeadlineProvider && other.argument == argument;
+  }
+
+  @override
+  int get hashCode {
+    return argument.hashCode;
+  }
+}
+
+String _$hiddenCountdownDiscountDeadlineHash() => r'ed3bcf4fcf9e0a2b6310687d7f30fed90e890a83';
+
+final class HiddenCountdownDiscountDeadlineFamily extends $Family with $FunctionalFamilyOverride<bool, DateTime?> {
+  HiddenCountdownDiscountDeadlineFamily._()
+    : super(
+        retry: null,
+        name: r'hiddenCountdownDiscountDeadlineProvider',
+        dependencies: <ProviderOrFamily>[customerInfoProvider],
+        $allTransitiveDependencies: <ProviderOrFamily>[HiddenCountdownDiscountDeadlineProvider.$allTransitiveDependencies0],
+        isAutoDispose: true,
+      );
+
+  HiddenCountdownDiscountDeadlineProvider call({required DateTime? discountEntitlementDeadlineDate}) =>
+      HiddenCountdownDiscountDeadlineProvider._(argument: discountEntitlementDeadlineDate, from: this);
+
+  @override
+  String toString() => r'hiddenCountdownDiscountDeadlineProvider';
+}
+
+@ProviderFor(durationToDiscountPriceDeadline)
+final durationToDiscountPriceDeadlineProvider = DurationToDiscountPriceDeadlineFamily._();
+
+final class DurationToDiscountPriceDeadlineProvider extends $FunctionalProvider<Duration, Duration, Duration> with $Provider<Duration> {
+  DurationToDiscountPriceDeadlineProvider._({required DurationToDiscountPriceDeadlineFamily super.from, required DateTime super.argument})
+    : super(retry: null, name: r'durationToDiscountPriceDeadlineProvider', isAutoDispose: true, dependencies: null, $allTransitiveDependencies: null);
+
+  @override
+  String debugGetCreateSourceHash() => _$durationToDiscountPriceDeadlineHash();
+
+  @override
+  String toString() {
+    return r'durationToDiscountPriceDeadlineProvider'
+        ''
+        '($argument)';
+  }
+
+  @$internal
+  @override
+  $ProviderElement<Duration> $createElement($ProviderPointer pointer) => $ProviderElement(pointer);
+
+  @override
+  Duration create(Ref ref) {
+    final argument = this.argument as DateTime;
+    return durationToDiscountPriceDeadline(ref, discountEntitlementDeadlineDate: argument);
+  }
+
+  /// {@macro riverpod.override_with_value}
+  Override overrideWithValue(Duration value) {
+    return $ProviderOverride(origin: this, providerOverride: $SyncValueProvider<Duration>(value));
+  }
+
+  @override
+  bool operator ==(Object other) {
+    return other is DurationToDiscountPriceDeadlineProvider && other.argument == argument;
+  }
+
+  @override
+  int get hashCode {
+    return argument.hashCode;
+  }
+}
+
+String _$durationToDiscountPriceDeadlineHash() => r'69af541cac66dc59b8c1e0f61d7b1e55d1758450';
+
+final class DurationToDiscountPriceDeadlineFamily extends $Family with $FunctionalFamilyOverride<Duration, DateTime> {
+  DurationToDiscountPriceDeadlineFamily._()
+    : super(retry: null, name: r'durationToDiscountPriceDeadlineProvider', dependencies: null, $allTransitiveDependencies: null, isAutoDispose: true);
+
+  DurationToDiscountPriceDeadlineProvider call({required DateTime discountEntitlementDeadlineDate}) =>
+      DurationToDiscountPriceDeadlineProvider._(argument: discountEntitlementDeadlineDate, from: this);
+
+  @override
+  String toString() => r'durationToDiscountPriceDeadlineProvider';
+}
