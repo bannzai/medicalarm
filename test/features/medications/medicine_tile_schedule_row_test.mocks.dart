@@ -94,8 +94,31 @@ class MockMedicationHistoryTake extends _i1.Mock
       ) as String);
 
   @override
+  String newMedicationHistoryID() => (super.noSuchMethod(
+        Invocation.method(
+          #newMedicationHistoryID,
+          [],
+        ),
+        returnValue: _i6.dummyValue<String>(
+          this,
+          Invocation.method(
+            #newMedicationHistoryID,
+            [],
+          ),
+        ),
+        returnValueForMissingStub: _i6.dummyValue<String>(
+          this,
+          Invocation.method(
+            #newMedicationHistoryID,
+            [],
+          ),
+        ),
+      ) as String);
+
+  @override
   _i7.Future<_i3.MedicationHistory> call({
     required _i3.MedicationHistory? medicationHistory,
+    required String? newMedicationHistoryID,
     required DateTime? recordedDateTime,
     required DateTime? scheduledRecordedDate,
     required _i8.Medicine? medicine,
@@ -108,6 +131,7 @@ class MockMedicationHistoryTake extends _i1.Mock
           [],
           {
             #medicationHistory: medicationHistory,
+            #newMedicationHistoryID: newMedicationHistoryID,
             #recordedDateTime: recordedDateTime,
             #scheduledRecordedDate: scheduledRecordedDate,
             #medicine: medicine,
@@ -123,6 +147,7 @@ class MockMedicationHistoryTake extends _i1.Mock
             [],
             {
               #medicationHistory: medicationHistory,
+              #newMedicationHistoryID: newMedicationHistoryID,
               #recordedDateTime: recordedDateTime,
               #scheduledRecordedDate: scheduledRecordedDate,
               #medicine: medicine,
@@ -139,6 +164,7 @@ class MockMedicationHistoryTake extends _i1.Mock
             [],
             {
               #medicationHistory: medicationHistory,
+              #newMedicationHistoryID: newMedicationHistoryID,
               #recordedDateTime: recordedDateTime,
               #scheduledRecordedDate: scheduledRecordedDate,
               #medicine: medicine,

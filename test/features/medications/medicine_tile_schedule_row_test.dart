@@ -126,8 +126,11 @@ void main() {
     medicationHistoryRevert = MockMedicationHistoryRevert();
     recentMedicationHistoriesFetch = MockRecentMedicationHistoriesFetch();
     registerReminderLocalNotification = MockRegisterReminderLocalNotification();
+    // 新しい take の書き込み先 ID。既定の take の返り値 buildMedicationHistory() と同じ ID にする
+    when(medicationHistoryTake.newMedicationHistoryID()).thenReturn('history-1');
     when(medicationHistoryTake.call(
       medicationHistory: anyNamed('medicationHistory'),
+      newMedicationHistoryID: anyNamed('newMedicationHistoryID'),
       recordedDateTime: anyNamed('recordedDateTime'),
       scheduledRecordedDate: anyNamed('scheduledRecordedDate'),
       medicine: anyNamed('medicine'),
@@ -200,6 +203,7 @@ void main() {
       verify(registerReminderLocalNotification.call()).called(1);
       verifyNever(medicationHistoryTake.call(
         medicationHistory: anyNamed('medicationHistory'),
+        newMedicationHistoryID: anyNamed('newMedicationHistoryID'),
         recordedDateTime: anyNamed('recordedDateTime'),
         scheduledRecordedDate: anyNamed('scheduledRecordedDate'),
         medicine: anyNamed('medicine'),
@@ -221,6 +225,7 @@ void main() {
       expect(tester.widget<Checkbox>(find.byType(Checkbox)).value, true);
       final captured = verify(medicationHistoryTake.call(
         medicationHistory: captureAnyNamed('medicationHistory'),
+        newMedicationHistoryID: anyNamed('newMedicationHistoryID'),
         recordedDateTime: anyNamed('recordedDateTime'),
         scheduledRecordedDate: anyNamed('scheduledRecordedDate'),
         medicine: anyNamed('medicine'),
@@ -253,6 +258,7 @@ void main() {
       expect(tester.widget<Checkbox>(find.byType(Checkbox)).value, true);
       final captured = verify(medicationHistoryTake.call(
         medicationHistory: captureAnyNamed('medicationHistory'),
+        newMedicationHistoryID: anyNamed('newMedicationHistoryID'),
         recordedDateTime: anyNamed('recordedDateTime'),
         scheduledRecordedDate: anyNamed('scheduledRecordedDate'),
         medicine: anyNamed('medicine'),
@@ -270,12 +276,14 @@ void main() {
       final retakeMedicationHistory = buildMedicationHistory().copyWith(id: 'history-2');
       when(medicationHistoryTake.call(
         medicationHistory: anyNamed('medicationHistory'),
+        newMedicationHistoryID: anyNamed('newMedicationHistoryID'),
         recordedDateTime: anyNamed('recordedDateTime'),
         scheduledRecordedDate: anyNamed('scheduledRecordedDate'),
         medicine: anyNamed('medicine'),
         medicationSchedule: anyNamed('medicationSchedule'),
         memberSettings: anyNamed('memberSettings'),
       )).thenAnswer((_) => takeCompleter.future);
+      when(medicationHistoryTake.newMedicationHistoryID()).thenReturn('history-2');
       await pumpScheduleRow(tester, scheduleRow: buildCheckedScheduleRow());
 
       // アンチェック → チェックし直し → take の完了前に再アンチェック
@@ -300,6 +308,7 @@ void main() {
       var takeCount = 0;
       when(medicationHistoryTake.call(
         medicationHistory: anyNamed('medicationHistory'),
+        newMedicationHistoryID: anyNamed('newMedicationHistoryID'),
         recordedDateTime: anyNamed('recordedDateTime'),
         scheduledRecordedDate: anyNamed('scheduledRecordedDate'),
         medicine: anyNamed('medicine'),
@@ -308,6 +317,11 @@ void main() {
       )).thenAnswer((_) {
         takeCount += 1;
         return takeCount == 1 ? Future.value(buildMedicationHistory()) : retakeCompleter.future;
+      });
+      var newMedicationHistoryIDCount = 0;
+      when(medicationHistoryTake.newMedicationHistoryID()).thenAnswer((_) {
+        newMedicationHistoryIDCount += 1;
+        return newMedicationHistoryIDCount == 1 ? 'history-1' : 'history-2';
       });
       await pumpScheduleRow(tester, scheduleRow: buildUncheckedScheduleRow());
 
@@ -336,6 +350,7 @@ void main() {
       final takeCompleter = Completer<MedicationHistory>();
       when(medicationHistoryTake.call(
         medicationHistory: anyNamed('medicationHistory'),
+        newMedicationHistoryID: anyNamed('newMedicationHistoryID'),
         recordedDateTime: anyNamed('recordedDateTime'),
         scheduledRecordedDate: anyNamed('scheduledRecordedDate'),
         medicine: anyNamed('medicine'),
@@ -355,16 +370,48 @@ void main() {
       expect(captured.map((medicationHistory) => (medicationHistory as MedicationHistory).id), ['history-1']);
     });
 
+    testWidgets('take の書き込み中に他メンバーの記録が行に届いても、アンチェックは自分の take を取り消す', (tester) async {
+      final takeCompleter = Completer<MedicationHistory>();
+      when(medicationHistoryTake.call(
+        medicationHistory: anyNamed('medicationHistory'),
+        newMedicationHistoryID: anyNamed('newMedicationHistoryID'),
+        recordedDateTime: anyNamed('recordedDateTime'),
+        scheduledRecordedDate: anyNamed('scheduledRecordedDate'),
+        medicine: anyNamed('medicine'),
+        medicationSchedule: anyNamed('medicationSchedule'),
+        memberSettings: anyNamed('memberSettings'),
+      )).thenAnswer((_) => takeCompleter.future);
+      await pumpScheduleRow(tester, scheduleRow: buildUncheckedScheduleRow());
+
+      await tester.tap(find.byType(Checkbox));
+      await tester.pump();
+      // 他メンバーが同じ予定に記録した take (自分の書き込み先とは別の ID) が行に届く
+      final otherMemberScheduleRow = buildCheckedScheduleRow();
+      await pumpScheduleRow(
+        tester,
+        scheduleRow: otherMemberScheduleRow.copyWith(medicationHistory: otherMemberScheduleRow.medicationHistory!.copyWith(id: 'history-other')),
+      );
+      await tester.tap(find.byType(Checkbox));
+      await tester.pump();
+      takeCompleter.complete(buildMedicationHistory());
+      await tester.pumpAndSettle();
+
+      final captured = verify(medicationHistoryRevert.call(takeMedicationHistory: captureAnyNamed('takeMedicationHistory'))).captured;
+      expect(captured.map((medicationHistory) => (medicationHistory as MedicationHistory).id), ['history-1']);
+    });
+
     testWidgets('チェックし直しの take の完了後・行への反映前の再アンチェックは、その take を取り消す', (tester) async {
       final retakeMedicationHistory = buildMedicationHistory().copyWith(id: 'history-2');
       when(medicationHistoryTake.call(
         medicationHistory: anyNamed('medicationHistory'),
+        newMedicationHistoryID: anyNamed('newMedicationHistoryID'),
         recordedDateTime: anyNamed('recordedDateTime'),
         scheduledRecordedDate: anyNamed('scheduledRecordedDate'),
         medicine: anyNamed('medicine'),
         medicationSchedule: anyNamed('medicationSchedule'),
         memberSettings: anyNamed('memberSettings'),
       )).thenAnswer((_) async => retakeMedicationHistory);
+      when(medicationHistoryTake.newMedicationHistoryID()).thenReturn('history-2');
       await pumpScheduleRow(tester, scheduleRow: buildCheckedScheduleRow());
 
       await tester.tap(find.byType(Checkbox));
@@ -385,6 +432,7 @@ void main() {
     void verifyTakeCalled(int count) {
       final verification = verify(medicationHistoryTake.call(
         medicationHistory: anyNamed('medicationHistory'),
+        newMedicationHistoryID: anyNamed('newMedicationHistoryID'),
         recordedDateTime: anyNamed('recordedDateTime'),
         scheduledRecordedDate: anyNamed('scheduledRecordedDate'),
         medicine: anyNamed('medicine'),
@@ -397,6 +445,7 @@ void main() {
     void verifyTakeNeverCalled() {
       verifyNever(medicationHistoryTake.call(
         medicationHistory: anyNamed('medicationHistory'),
+        newMedicationHistoryID: anyNamed('newMedicationHistoryID'),
         recordedDateTime: anyNamed('recordedDateTime'),
         scheduledRecordedDate: anyNamed('scheduledRecordedDate'),
         medicine: anyNamed('medicine'),

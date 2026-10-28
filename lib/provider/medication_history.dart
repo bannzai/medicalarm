@@ -59,8 +59,14 @@ class MedicationHistoryTake {
 
   MedicationHistoryTake({required this.database, required this.userID});
 
+  /// 新しく追記する take ドキュメントの ID を採番する。書き込みの完了前に、行に反映された記録が
+  /// 自分の書き込んだ take かを ID で照合できるよう、[call] の前に呼び出し元で採番する
+  String newMedicationHistoryID() => database.medicationHistoriesReference().doc().id;
+
   Future<MedicationHistory> call({
     required MedicationHistory? medicationHistory,
+    // medicationHistory が null の時に新規作成するドキュメントの ID ([newMedicationHistoryID] で採番した値)。null なら自動採番する
+    required String? newMedicationHistoryID,
     required DateTime recordedDateTime,
     required DateTime scheduledRecordedDate,
     required Medicine medicine,
@@ -70,7 +76,7 @@ class MedicationHistoryTake {
   }) async {
     // 既存記録の再書き込みは同じドキュメントへ上書きする。常に新規 doc() を発行すると
     // パスと id フィールドの食い違う複製ドキュメントが増殖する (#253)
-    final docRef = database.medicationHistoriesReference().doc(medicationHistory?.id);
+    final docRef = database.medicationHistoriesReference().doc(medicationHistory?.id ?? newMedicationHistoryID);
 
     final newMedicationHistory = medicationHistory ??
         MedicationHistory(
