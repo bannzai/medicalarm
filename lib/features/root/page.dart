@@ -3,14 +3,17 @@ import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:medicalarm/features/feature_request/feature_request_prompt_resolver.dart';
 import 'package:medicalarm/features/home/page.dart';
 import 'package:medicalarm/features/localization/resolver.dart';
+import 'package:medicalarm/features/onboarding/resolver.dart';
+import 'package:medicalarm/features/onboarding/medication_plan_resolver.dart';
 import 'package:medicalarm/features/promotion_start/resolver.dart';
 import 'package:medicalarm/features/resolver/app_entity_prepare.dart';
 import 'package:medicalarm/features/resolver/app_user.dart';
 import 'package:medicalarm/features/resolver/app_user_create.dart';
 import 'package:medicalarm/features/resolver/auth.dart';
+import 'package:medicalarm/features/resolver/current_group.dart';
 import 'package:medicalarm/features/resolver/database.dart';
 import 'package:medicalarm/features/resolver/force_update.dart';
-import 'package:medicalarm/features/resolver/in_app_review.dart';
+import 'package:medicalarm/features/resolver/group_migration.dart';
 import 'package:medicalarm/features/resolver/purchase_setup.dart';
 import 'package:medicalarm/utils/analytics/analytics.dart';
 
@@ -37,25 +40,43 @@ class RootPage extends HookConsumerWidget {
                         userID: user.uid,
                         builder: (context) {
                           debugPrint('Resolved: PurchaseSetupResolver');
-                          return AppEntityPrepareResolver(
-                            userID: user.uid,
-                            builder: (context) {
-                              debugPrint('Resolved: AppEntityPrepareResolver');
-                              return PromotionStartResolver(
-                                  appUser: appUser,
-                                  builder: (context) {
-                                    debugPrint('Resolved: PromotionStartResolver');
-                                    return Stack(
-                                      children: [
-                                        const InAppReviewResolver(),
-                                        const FeatureRequestPromptResolver(),
-                                        AppUserStreamResolver(stream: (user) => analyticsDebugIsEnabled = user.analyticsDebugIsEnabled),
-                                        const HomePage(),
-                                      ],
-                                    );
-                                  });
-                            },
-                          );
+                          return GroupMigrationResolver(builder: (context) {
+                            debugPrint('Resolved: GroupMigrationResolver');
+                            return CurrentGroupResolver(builder: (context) {
+                              debugPrint('Resolved: CurrentGroupResolver');
+                              return AppEntityPrepareResolver(
+                                userID: user.uid,
+                                builder: (context) {
+                                  debugPrint('Resolved: AppEntityPrepareResolver');
+                                  return OnboardingMedicationPlanResolver(
+                                      child: OnboardingResolver(
+                                    appUser: appUser,
+                                    builder: (context, didCompleteOnboardingInThisSession) {
+                                      debugPrint('Resolved: OnboardingResolver');
+                                      Widget home() => Stack(
+                                            children: [
+                                              const FeatureRequestPromptResolver(),
+                                              AppUserStreamResolver(stream: (user) => analyticsDebugIsEnabled = user.analyticsDebugIsEnabled),
+                                              const HomePage(),
+                                            ],
+                                          );
+                                      // オンボーディングのペイウォールを閉じた直後に再エンゲージメント訴求 (PromotionStartResolver) を続けて出さないため。
+                                      // 次回起動以降は PromotionStartResolver の条件に従う
+                                      if (didCompleteOnboardingInThisSession) {
+                                        return home();
+                                      }
+                                      return PromotionStartResolver(
+                                          appUser: appUser,
+                                          builder: (context) {
+                                            debugPrint('Resolved: PromotionStartResolver');
+                                            return home();
+                                          });
+                                    },
+                                  ));
+                                },
+                              );
+                            });
+                          });
                         },
                       );
                     });

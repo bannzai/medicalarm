@@ -3,14 +3,17 @@ import 'package:medicalarm/entity/dose_receiver.dart';
 import 'package:medicalarm/entity/medication_frequency.dart';
 import 'package:medicalarm/entity/medicine.dart';
 import 'package:medicalarm/features/resolver/database.dart';
+import 'package:medicalarm/provider/app_user.dart';
+import 'package:medicalarm/provider/onboarding_medication_plan.dart';
+import 'package:medicalarm/utils/analytics/error.dart';
 import 'package:riverpod/riverpod.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 
 part 'medicine.g.dart';
 
-@Riverpod(dependencies: [userDatabase])
+@Riverpod(dependencies: [currentGroupDatabase])
 Stream<List<Medicine>> activeMedicines(ActiveMedicinesRef ref) {
-  final database = ref.watch(userDatabaseProvider);
+  final database = ref.watch(currentGroupDatabaseProvider);
   return database
       .medicinesReference()
       .snapshots()
@@ -18,9 +21,15 @@ Stream<List<Medicine>> activeMedicines(ActiveMedicinesRef ref) {
 }
 
 class MedicineAdd {
-  final UserDatabase database;
+  final GroupDatabase database;
+  // 作成者(creator)の uid。Medicine.userID に設定する。
+  final String userID;
 
-  MedicineAdd({required this.database});
+  /// 書き込み成功後に同じユーザー・グループの仮設定を削除する。
+  /// Firestore の書き込み先を固定したまま端末の状態を更新するため処理を注入する。
+  final Future<void> Function() removeOnboardingMedicationPlan;
+
+  MedicineAdd({required this.database, required this.userID, required this.removeOnboardingMedicationPlan});
 
   Future<Medicine> call({
     required String name,
@@ -29,12 +38,13 @@ class MedicineAdd {
     required DoseReceiver doseReceiver,
     required String memo,
     required String memoImageURL,
+    required int? minimumDoseIntervalHours,
     required DateTime beganDateTime,
   }) async {
     final collectionRef = database.medicinesReference();
     final docRef = collectionRef.doc();
     final medicine = Medicine(
-      userID: database.userID,
+      userID: userID,
       id: docRef.id,
       name: name.trim(),
       frequency: frequency,
@@ -42,21 +52,75 @@ class MedicineAdd {
       doseReceiver: doseReceiver,
       memo: memo,
       memoImageURL: memoImageURL,
+      minimumDoseIntervalHours: minimumDoseIntervalHours,
       beganDateTime: beganDateTime,
     );
     await docRef.set(medicine, SetOptions(merge: true));
+    try {
+      await removeOnboardingMedicationPlan();
+    } catch (error, stackTrace) {
+      // 薬の保存は成功済み。端末の通知解除失敗を登録失敗とすると再試行で薬が重複する。
+      // ホーム画面の薬の存在監視でも仮設定の削除を再試行する。
+      errorLogger.recordError(error, stackTrace);
+    }
     return medicine;
+  }
+
+  // 画像からの一括登録など、複数の薬を 1 回で登録する。call を 1 件ずつ await すると途中失敗で
+  // 一部だけ保存され、再実行時に重複登録になるため、WriteBatch で原子的に書き込む。
+  Future<List<Medicine>> callAll({
+    required List<
+            ({
+              String name,
+              MedicationFrequency frequency,
+              List<MedicationSchedule> schedules,
+              DoseReceiver doseReceiver,
+              String memo,
+              String memoImageURL,
+              int? minimumDoseIntervalHours,
+              DateTime beganDateTime
+            })>
+        medicineInputs,
+  }) async {
+    final collectionRef = database.medicinesReference();
+    final batch = collectionRef.firestore.batch();
+    final medicines = <Medicine>[];
+    for (final medicineInput in medicineInputs) {
+      final docRef = collectionRef.doc();
+      final medicine = Medicine(
+        userID: userID,
+        id: docRef.id,
+        name: medicineInput.name.trim(),
+        frequency: medicineInput.frequency,
+        schedules: medicineInput.schedules,
+        doseReceiver: medicineInput.doseReceiver,
+        memo: medicineInput.memo,
+        memoImageURL: medicineInput.memoImageURL,
+        minimumDoseIntervalHours: medicineInput.minimumDoseIntervalHours,
+        beganDateTime: medicineInput.beganDateTime,
+      );
+      batch.set(docRef, medicine, SetOptions(merge: true));
+      medicines.add(medicine);
+    }
+    await batch.commit();
+    return medicines;
   }
 }
 
-@Riverpod(dependencies: [userDatabase])
+@Riverpod(dependencies: [currentGroupDatabase, appUserID, OnboardingMedicationPlanStore])
 MedicineAdd medicineAdd(MedicineAddRef ref) {
-  final database = ref.watch(userDatabaseProvider);
-  return MedicineAdd(database: database);
+  final database = ref.watch(currentGroupDatabaseProvider);
+  final userID = ref.watch(appUserIDProvider);
+  return MedicineAdd(
+    database: database,
+    userID: userID,
+    removeOnboardingMedicationPlan: () =>
+        ref.read(onboardingMedicationPlanStoreProvider(userID: userID, groupID: database.groupID).notifier).remove(),
+  );
 }
 
 class MedicineUpdate {
-  final UserDatabase database;
+  final GroupDatabase database;
 
   MedicineUpdate({required this.database});
 
@@ -69,6 +133,7 @@ class MedicineUpdate {
     required DoseReceiver doseReceiver,
     required String memo,
     required String memoImageURL,
+    required int? minimumDoseIntervalHours,
     required DateTime beganDateTime,
   }) async {
     final docRef = database.medicineReference(medicineID: medicineID);
@@ -79,6 +144,7 @@ class MedicineUpdate {
       doseReceiver: doseReceiver,
       memo: memo,
       memoImageURL: memoImageURL,
+      minimumDoseIntervalHours: minimumDoseIntervalHours,
       beganDateTime: beganDateTime,
     );
     await docRef.set(newMedicine, SetOptions(merge: true));
@@ -86,14 +152,14 @@ class MedicineUpdate {
   }
 }
 
-@Riverpod(dependencies: [userDatabase])
+@Riverpod(dependencies: [currentGroupDatabase])
 MedicineUpdate medicineUpdate(Ref ref) {
-  final database = ref.watch(userDatabaseProvider);
+  final database = ref.watch(currentGroupDatabaseProvider);
   return MedicineUpdate(database: database);
 }
 
 class MedicineDelete {
-  final UserDatabase database;
+  final GroupDatabase database;
 
   MedicineDelete({required this.database});
 
@@ -103,15 +169,15 @@ class MedicineDelete {
   }
 }
 
-@Riverpod(dependencies: [userDatabase])
+@Riverpod(dependencies: [currentGroupDatabase])
 MedicineDelete medicineDelete(Ref ref) {
-  final database = ref.watch(userDatabaseProvider);
+  final database = ref.watch(currentGroupDatabaseProvider);
   return MedicineDelete(database: database);
 }
 
 // 指定した薬の pausedDateTime のみを更新する。停止時は DateTime.now()、再開時は null を渡す
 class MedicineSetPaused {
-  final UserDatabase database;
+  final GroupDatabase database;
 
   MedicineSetPaused({required this.database});
 
@@ -127,8 +193,8 @@ class MedicineSetPaused {
   }
 }
 
-@Riverpod(dependencies: [userDatabase])
+@Riverpod(dependencies: [currentGroupDatabase])
 MedicineSetPaused medicineSetPaused(Ref ref) {
-  final database = ref.watch(userDatabaseProvider);
+  final database = ref.watch(currentGroupDatabaseProvider);
   return MedicineSetPaused(database: database);
 }

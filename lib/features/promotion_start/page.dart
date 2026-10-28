@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:medicalarm/components/premium/premium_features.dart';
+import 'package:medicalarm/style/color.dart';
 import 'package:medicalarm/utils/analytics/analytics.dart';
 import 'package:medicalarm/utils/config/remote_config.dart';
 import 'package:medicalarm/provider/remote_config_parameter.dart';
@@ -88,6 +89,7 @@ class PromotionStartPage extends HookConsumerWidget {
         actions: [
           TextButton(
             onPressed: () {
+              analytics.logEvent(name: 'promo_start_error_ok_pressed');
               error.value = null;
             },
             child: const Text('OK'),
@@ -104,12 +106,14 @@ class PromotionStartPage extends HookConsumerWidget {
         actions: [
           TextButton(
             onPressed: () {
+              analytics.logEvent(name: 'promo_start_appstore_cancel');
               showAppStoreAlert.value = false;
             },
             child: Text(L.cancel),
           ),
           TextButton(
             onPressed: () {
+              analytics.logEvent(name: 'promo_start_appstore_open');
               showAppStoreAlert.value = false;
               openAppStore();
             },
@@ -184,7 +188,7 @@ class PromotionStartPage extends HookConsumerWidget {
                               borderRadius: BorderRadius.circular(20),
                               boxShadow: [
                                 BoxShadow(
-                                  color: Colors.grey.withOpacity(0.2),
+                                  color: Colors.grey.withValues(alpha: 0.2),
                                   spreadRadius: 5,
                                   blurRadius: 10,
                                   offset: const Offset(0, 3),
@@ -376,8 +380,6 @@ class PromotionStartButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final primaryColor = Theme.of(context).colorScheme.primary;
-
     return ElevatedButton(
       onPressed: () {
         analytics.logEvent(name: 'pressed_promotion_start');
@@ -390,7 +392,8 @@ class PromotionStartButton extends StatelessWidget {
         }
       },
       style: ElevatedButton.styleFrom(
-        backgroundColor: primaryColor,
+        // アイコンとラベルは白のため、コントラスト比 4.5:1 を満たす primaryFilled を背景にする (#287)
+        backgroundColor: AppColors.primaryFilled,
         shape: const StadiumBorder(),
         padding: const EdgeInsets.symmetric(vertical: 16),
       ),

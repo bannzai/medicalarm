@@ -1,4 +1,5 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:collection/collection.dart';
 import 'package:medicalarm/entity/timestamp.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:medicalarm/entity/medicine.dart';
@@ -12,7 +13,10 @@ abstract class MedicationHistory with _$MedicationHistory {
   @JsonSerializable(explicitToJson: true)
   const factory MedicationHistory({
     required String id,
+    // 作成者(creator)の userID。グループ共有では記録した本人とは限らないため recordedByUserID を別途持つ。
     required String userID,
+    // この記録を実際に行ったユーザーの uid。旧データには存在しないため nullable。新規記録では userID と同じ値が入る。
+    String? recordedByUserID,
     required Medicine medicine,
     required MedicationHistoryActionKind actionKind,
     required MedicationHistoryAction action,
@@ -34,6 +38,32 @@ enum MedicationHistoryActionKind {
   take,
   revert,
   skip,
+}
+
+/// 論理削除(revert アクションの追記)を考慮した「有効な服薬記録(take)」の一覧を返す (#253)。
+/// take のうち、それを打ち消す revert が存在しないものだけが「服用済み」の根拠になる。
+/// revert ドキュメント自体は同じコレクションに混在するため、take 以外は結果に含めない
+List<MedicationHistory> effectiveTakeMedicationHistories(List<MedicationHistory> medicationHistories) {
+  return medicationHistories
+      .where((history) =>
+          history.action is TakeMedicationHistoryAction &&
+          !medicationHistories.any((other) => switch (other.action) {
+                RevertMedicationHistoryAction(takeAction: final takeAction) => takeAction.id == history.id,
+                TakeMedicationHistoryAction() || SkipMedicationHistoryAction() => false,
+              }))
+      .toList();
+}
+
+/// 指定した薬の直近の有効な服用(take)の記録日時を返す。有効な take が無い場合は null。
+/// 最低服用間隔([Medicine.minimumDoseIntervalHours])の判定に使う (#81)
+DateTime? latestEffectiveTakeRecordedDateTime({
+  required List<MedicationHistory> medicationHistories,
+  required String medicineID,
+}) {
+  return effectiveTakeMedicationHistories(medicationHistories)
+      .where((history) => history.medicine.id == medicineID)
+      .map((history) => history.recordedDateTime)
+      .maxOrNull;
 }
 
 @freezed

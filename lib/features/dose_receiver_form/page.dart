@@ -1,12 +1,16 @@
+import 'package:collection/collection.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:medicalarm/components/retry/page.dart';
 import 'package:medicalarm/entity/dose_receiver.dart';
 import 'package:medicalarm/features/preium_introduction/premium_introduction_sheet.dart';
+import 'package:medicalarm/provider/app_user.dart';
 import 'package:medicalarm/provider/dose_receiver.dart';
 import 'package:medicalarm/style/button.dart';
 import 'package:medicalarm/theme/form.dart';
+import 'package:medicalarm/utils/analytics/analytics.dart';
+import 'package:medicalarm/utils/billing/created_count.dart';
 import 'package:medicalarm/utils/purchase/purchase.dart';
 import 'package:medicalarm/features/localization/l.dart';
 
@@ -48,19 +52,28 @@ class DoseReceiverFormPage extends HookConsumerWidget {
                       child: SingleChildScrollView(
                         child: Padding(
                           padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 16.0),
-                          child: Column(
-                            children: [
-                              for (final doseReceiver in doseReceivers) ...[
-                                DoseReceiverTextField(
-                                  key: ValueKey(doseReceiver.id),
-                                  doseReceiver: doseReceiver,
-                                  selectedDoseReceiver: selectedDoseReceiver,
-                                ),
-                                const SizedBox(height: 6),
+                          child: RadioGroup<String?>(
+                            groupValue: selectedDoseReceiver.value?.id,
+                            onChanged: (value) {
+                              analytics.logEvent(name: 'dose_rcvr_radio_selected');
+                              final tappedDoseReceiver = doseReceivers.firstWhereOrNull((doseReceiver) => doseReceiver.id == value);
+                              if (tappedDoseReceiver != null) {
+                                selectedDoseReceiver.value = tappedDoseReceiver;
+                              }
+                            },
+                            child: Column(
+                              children: [
+                                for (final doseReceiver in doseReceivers) ...[
+                                  DoseReceiverTextField(
+                                    key: ValueKey(doseReceiver.id),
+                                    doseReceiver: doseReceiver,
+                                  ),
+                                  const SizedBox(height: 6),
+                                ],
+                                const SizedBox(height: 10),
+                                DoseReceiverAddButton(doseReceivers: doseReceivers),
                               ],
-                              const SizedBox(height: 10),
-                              DoseReceiverAddButton(doseReceivers: doseReceivers),
-                            ],
+                            ),
                           ),
                         ),
                       ),
@@ -84,11 +97,9 @@ class DoseReceiverFormPage extends HookConsumerWidget {
 
 class DoseReceiverTextField extends HookConsumerWidget {
   final DoseReceiver doseReceiver;
-  final ValueNotifier<DoseReceiver?> selectedDoseReceiver;
   const DoseReceiverTextField({
     super.key,
     required this.doseReceiver,
-    required this.selectedDoseReceiver,
   });
 
   @override
@@ -99,14 +110,9 @@ class DoseReceiverTextField extends HookConsumerWidget {
       children: [
         Transform.scale(
           scale: 1.5,
+          // 選択状態と選択時の処理は祖先の RadioGroup が担う
           child: Radio<String?>(
             value: doseReceiver.id,
-            groupValue: selectedDoseReceiver.value?.id,
-            onChanged: (value) {
-              if (value != null) {
-                selectedDoseReceiver.value = doseReceiver;
-              }
-            },
           ),
         ),
         Expanded(
@@ -116,6 +122,7 @@ class DoseReceiverTextField extends HookConsumerWidget {
               name.value = value;
             },
             onFieldSubmitted: (value) {
+              analytics.logEvent(name: 'dose_rcvr_name_submitted');
               doseReceiverUpdate.call(doseReceiver: doseReceiver, name: value);
             },
           ),
@@ -136,14 +143,18 @@ class DoseReceiverAddButton extends HookConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final doseReceiverAdd = ref.watch(doseReceiverAddProvider);
     final customerInfo = ref.watch(customerInfoProvider).asData?.value;
+    final appUserID = ref.watch(appUserIDProvider);
+    final createdDoseReceiversCount =
+        countCreatedByUser(items: doseReceivers, userID: appUserID, creatorUserID: (doseReceiver) => doseReceiver.userID);
     return Column(
       children: [
-        if (doseReceivers.length >= DoseReceiver.maxCount(hasPremiumEntitlement: customerInfo?.hasPremiumEntitlement)) ...[
+        if (createdDoseReceiversCount >= DoseReceiver.maxCount(hasPremiumEntitlement: customerInfo?.hasPremiumEntitlement)) ...[
           Text(L.doseReceiverMaxCount(DoseReceiver.maxCount(hasPremiumEntitlement: customerInfo?.hasPremiumEntitlement)),
               style: const TextStyle(color: Colors.red)),
           if (customerInfo?.hasPremiumEntitlement == false) ...[
             TextButton(
               onPressed: () {
+                analytics.logEvent(name: 'dose_rcvr_premium_pressed');
                 showPremiumIntroductionSheet(context);
               },
               child: Text(
@@ -158,8 +169,9 @@ class DoseReceiverAddButton extends HookConsumerWidget {
           ],
         ],
         TextButton.icon(
-          onPressed: doseReceivers.length < DoseReceiver.maxCount(hasPremiumEntitlement: customerInfo?.hasPremiumEntitlement)
+          onPressed: createdDoseReceiversCount < DoseReceiver.maxCount(hasPremiumEntitlement: customerInfo?.hasPremiumEntitlement)
               ? () {
+                  analytics.logEvent(name: 'dose_rcvr_add_pressed');
                   doseReceiverAdd.call(name: L.newDoseReceiver);
                 }
               : null,

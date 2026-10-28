@@ -14,7 +14,7 @@ class MedicineFormSectionLayout extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final foregroundColor = Theme.of(context).colorScheme.primary;
+    final foregroundColor = Theme.of(context).colorScheme.secondary;
     return Padding(
       padding: const EdgeInsets.symmetric(vertical: 20.0),
       child: Column(

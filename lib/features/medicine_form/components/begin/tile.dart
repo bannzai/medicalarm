@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:medicalarm/components/container/flat_tile.dart';
+import 'package:medicalarm/utils/analytics/analytics.dart';
 import 'package:medicalarm/utils/date_time/date_time_ext.dart';
 import 'package:medicalarm/features/localization/l.dart';
 
@@ -22,6 +23,7 @@ class MedicationBeginTile extends StatelessWidget {
             ],
           ),
           onTap: () async {
+            analytics.logEvent(name: 'medicine_form_begin_tapped');
             final firstDate = today().subtract(const Duration(days: 365));
             final lastDate = today();
             final result = await showDatePicker(context: context, firstDate: firstDate, lastDate: lastDate);

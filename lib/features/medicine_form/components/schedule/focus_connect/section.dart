@@ -6,6 +6,7 @@ import 'package:medicalarm/components/alert/ok.dart';
 import 'package:medicalarm/entity/medicine.dart';
 import 'package:medicalarm/features/localization/l.dart';
 import 'package:medicalarm/features/medicine_form/components/section_layout.dart';
+import 'package:medicalarm/utils/analytics/analytics.dart';
 import 'package:medicalarm/utils/foundation/cast.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:uuid/uuid.dart';
@@ -48,6 +49,7 @@ class MedicineScheduleFocusConnectSettingSection extends HookConsumerWidget {
       children: [
         ListTile(
           onTap: () async {
+            analytics.logEvent(name: 'med_sched_focus_connect_tapped');
             final canOpen = await canLaunchUrl(Uri.parse('focus-connect://'));
             if (!canOpen) {
               if (context.mounted) {

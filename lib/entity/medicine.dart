@@ -19,6 +19,7 @@ abstract class Medicine with _$Medicine {
   @JsonSerializable(explicitToJson: true)
   const factory Medicine({
     required String id,
+    // 作成者(creator)の userID。グループ共有では他メンバーが閲覧・記録することもあるため所有者ではなく作成者を表す。
     required String userID,
     required String name,
     required MedicationFrequency frequency,
@@ -26,6 +27,9 @@ abstract class Medicine with _$Medicine {
     required DoseReceiver doseReceiver,
     required String memo,
     required String memoImageURL,
+    // 前回の服用から最低限空ける時間(時間単位)。null は間隔設定なし。
+    // 間隔が空いていない場合でも記録・通知は無効化せず、注意の表示だけを行う (#81)
+    required int? minimumDoseIntervalHours,
     @NullableTimestampConverter() DateTime? archivedDateTime,
     @NullableTimestampConverter() DateTime? pausedDateTime,
     @TimestampConverter() required DateTime beganDateTime,

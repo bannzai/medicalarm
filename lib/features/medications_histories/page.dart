@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:intl/intl.dart';
+import 'package:medicalarm/components/avatar/dose_receiver_avatar.dart';
 import 'package:medicalarm/components/calendar/day/today_badge.dart';
 import 'package:medicalarm/components/calendar/weekly/pager.dart';
 import 'package:medicalarm/components/loading/indicator.dart';
@@ -13,7 +14,9 @@ import 'package:medicalarm/entity/medication_history.dart';
 import 'package:medicalarm/features/preium_introduction/premium_introduction_sheet.dart';
 import 'package:medicalarm/provider/medication_history.dart';
 import 'package:medicalarm/style/color.dart';
+import 'package:medicalarm/utils/analytics/analytics.dart';
 import 'package:medicalarm/utils/date_time/date_time_ext.dart';
+import 'package:medicalarm/utils/member/operator_member_display_name.dart';
 import 'package:medicalarm/utils/purchase/purchase.dart';
 import 'package:medicalarm/features/localization/l.dart';
 
@@ -103,7 +106,12 @@ class MedicationsHistoryPageBody extends HookConsumerWidget {
                           final history = histories[index];
                           return Column(
                             children: [
-                              MedicationHistoryTile(history: history),
+                              // 取消(revert)の記録も服薬記録と同じ一覧に行として表示する (#253)
+                              if (history.action is RevertMedicationHistoryAction) ...[
+                                MedicationHistoryRevertTile(history: history),
+                              ] else ...[
+                                MedicationHistoryTile(history: history),
+                              ],
                               const SizedBox(height: 10),
                             ],
                           );
@@ -125,6 +133,7 @@ class MedicationsHistoryPageBody extends HookConsumerWidget {
                             Center(
                               child: TextButton(
                                 onPressed: () {
+                                  analytics.logEvent(name: 'med_histories_premium_pressed');
                                   showPremiumIntroductionSheet(context);
                                 },
                                 child: Text(
@@ -175,6 +184,7 @@ class MedicationHistoryTile extends HookConsumerWidget {
     final schedule = history.action.medicationSchedule;
     final primaryColor = Theme.of(context).colorScheme.primary;
     final memoUpdate = ref.watch(medicationHistoryMemoUpdateProvider);
+    final recorderName = operatorMemberDisplayName(ref: ref, history: history);
 
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 16.0),
@@ -207,7 +217,17 @@ class MedicationHistoryTile extends HookConsumerWidget {
               ],
             ),
             const SizedBox(height: 4),
-            Text(medicine.doseReceiver.name, style: const TextStyle(fontSize: 16, fontWeight: FontWeight.bold)),
+            Row(
+              children: [
+                DoseReceiverAvatar(doseReceiver: medicine.doseReceiver, size: 28),
+                const SizedBox(width: 8),
+                Expanded(child: Text(medicine.doseReceiver.name, style: const TextStyle(fontSize: 16, fontWeight: FontWeight.bold))),
+              ],
+            ),
+            if (recorderName != null) ...[
+              const SizedBox(height: 4),
+              Text(L.recordedByMember(recorderName), style: const TextStyle(fontSize: 12, color: TextColor.gray)),
+            ],
             const SizedBox(height: 4),
             Column(
               children: [
@@ -249,12 +269,107 @@ class MedicationHistoryTile extends HookConsumerWidget {
                 ],
                 IconButton(
                   onPressed: () async {
+                    analytics.logEvent(name: 'med_histories_memo_edit_pressed');
                     final result = await showTextEditSheet(context, text: history.memo);
                     if (result != null) {
                       memoUpdate.call(medicationHistory: history, memo: result);
                     }
                   },
                   icon: const Icon(Icons.edit),
+                ),
+              ],
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+/// 取消(revert)の記録行。誰が・いつ服薬記録を取り消したかを表示する (#253)。
+/// 服薬記録(take)の行と違い、取消の記録にメモは付けないため編集ボタンは持たない。
+class MedicationHistoryRevertTile extends HookConsumerWidget {
+  const MedicationHistoryRevertTile({
+    super.key,
+    required this.history,
+  });
+
+  final MedicationHistory history;
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final medicine = history.medicine;
+    final schedule = history.action.medicationSchedule;
+    final reverterName = operatorMemberDisplayName(ref: ref, history: history);
+
+    return Padding(
+      padding: const EdgeInsets.symmetric(horizontal: 16.0),
+      child: Container(
+        padding: const EdgeInsets.symmetric(vertical: 10.0, horizontal: 10.0),
+        decoration: BoxDecoration(
+          color: Colors.white,
+          borderRadius: BorderRadius.circular(8),
+          border: Border.all(color: AppColors.border),
+          boxShadow: [
+            BoxShadow(
+              color: Colors.black.withValues(alpha: 0.1),
+              spreadRadius: 2,
+              blurRadius: 5,
+              offset: const Offset(0, 3), // 影の位置を調整
+            ),
+          ],
+        ),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Row(
+              children: [
+                // 取消ラベルと並ぶため、長い薬名は折り返さず省略して横幅あふれを防ぐ
+                Expanded(
+                  child: Text(
+                    medicine.name,
+                    style: const TextStyle(fontSize: 16, fontWeight: FontWeight.bold, color: TextColor.gray),
+                    overflow: TextOverflow.ellipsis,
+                  ),
+                ),
+                const SizedBox(width: 8),
+                Text(L.medicationHistoryReverted, style: const TextStyle(fontSize: 12, fontWeight: FontWeight.bold, color: TextColor.danger)),
+              ],
+            ),
+            const SizedBox(height: 4),
+            Row(
+              children: [
+                DoseReceiverAvatar(doseReceiver: medicine.doseReceiver, size: 28),
+                const SizedBox(width: 8),
+                Expanded(child: Text(medicine.doseReceiver.name, style: const TextStyle(fontSize: 16, fontWeight: FontWeight.bold))),
+              ],
+            ),
+            if (reverterName != null) ...[
+              const SizedBox(height: 4),
+              Text(L.revertedByMember(reverterName), style: const TextStyle(fontSize: 12, color: TextColor.gray)),
+            ],
+            const SizedBox(height: 4),
+            Column(
+              children: [
+                Row(
+                  children: [
+                    Text(L.scheduledTime),
+                    const Spacer(),
+                    Text(
+                      '${DateFormat(DateFormat.MONTH_DAY).format(history.scheduledRecordedDate)} ${schedule.toTimeString()}',
+                      style: const TextStyle(fontWeight: FontWeight.bold, color: TextColor.gray),
+                    ),
+                  ],
+                ),
+                Row(
+                  children: [
+                    Text(L.revertedTime),
+                    const Spacer(),
+                    Text(
+                      '${DateFormat(DateFormat.MONTH_DAY).format(history.recordedDateTime)} ${DateFormat(DateFormat.HOUR24_MINUTE).format(history.recordedDateTime)}',
+                      style: const TextStyle(fontWeight: FontWeight.bold, color: TextColor.danger),
+                    ),
+                  ],
                 ),
               ],
             ),

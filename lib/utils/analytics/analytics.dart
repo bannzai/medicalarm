@@ -14,7 +14,8 @@ class Analytics {
     }
   }
 
-  void logEvent({required String name, Map<String, Object>? parameters}) async {
+  // exit(0) 直前の送信のように完了を待ちたい呼び出し元があるため Future を返す。通常の呼び出し元は await 不要
+  Future<void> logEvent({required String name, Map<String, Object>? parameters}) async {
     assert(name.length <= 40, 'firebase analytics log event name limit length up to 40');
     if (kDebugMode) {
       print('[INFO] logEvent name: $name, parameters: $parameters');

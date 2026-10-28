@@ -16,16 +16,20 @@ class DiaryPostMemo extends HookConsumerWidget {
         minHeight: 40,
         maxHeight: 200,
       ),
-      child: TextFormField(
-        decoration: InputDecoration(
-          hintText: L.memo,
-          border: const OutlineInputBorder(),
+      // 入力済みで hintText が隠れても E2E (maestro) からタップできるよう identifier を付与する
+      child: Semantics(
+        identifier: 'diary_post_memo_field',
+        child: TextFormField(
+          decoration: InputDecoration(
+            hintText: L.memo,
+            border: const OutlineInputBorder(),
+          ),
+          initialValue: memo.value,
+          onChanged: (value) => memo.value = value,
+          maxLines: null,
+          maxLength: 120,
+          focusNode: focusNode,
         ),
-        initialValue: memo.value,
-        onChanged: (value) => memo.value = value,
-        maxLines: null,
-        maxLength: 120,
-        focusNode: focusNode,
       ),
     );
   }

@@ -10,7 +10,9 @@ import 'package:medicalarm/features/localization/l.dart';
 
 class MedicineScheduleSection extends StatelessWidget {
   final ValueNotifier<List<MedicationSchedule>> schedules;
-  const MedicineScheduleSection({super.key, required this.schedules});
+  // 編集中の既存薬。新規薬(未保存)作成時は null。個別通知設定の書き込み先分岐に使う。
+  final Medicine? medicine;
+  const MedicineScheduleSection({super.key, required this.schedules, required this.medicine});
 
   @override
   Widget build(BuildContext context) {
@@ -21,6 +23,8 @@ class MedicineScheduleSection extends StatelessWidget {
         const SizedBox(height: 10),
         for (final (index, schedule) in schedules.value.indexed) ...[
           Padding(
+            // 容量欄は initialValue を初回だけ読むため、行を削除した時に後ろの行が削除した行の入力状態を引き継がないよう schedule ごとに区別する (#402)
+            key: ValueKey(schedule.id),
             padding: const EdgeInsets.symmetric(horizontal: 16.0),
             child: Row(
               children: [
@@ -33,7 +37,7 @@ class MedicineScheduleSection extends StatelessWidget {
                   width: 180,
                   child: MedicineScheduleQuantityMemoTextField(schedule: schedule, schedules: schedules, index: index),
                 ),
-                MedicineScheduleNotificationSettingButton(schedule: schedule, schedules: schedules, index: index),
+                MedicineScheduleNotificationSettingButton(schedule: schedule, schedules: schedules, index: index, medicine: medicine),
                 MedicineScheduleDeleteButton(schedule: schedule, schedules: schedules),
               ],
             ),

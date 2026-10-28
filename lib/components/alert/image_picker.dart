@@ -4,6 +4,7 @@ import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:medicalarm/components/loading/loading.dart';
 import 'package:medicalarm/features/localization/l.dart';
+import 'package:medicalarm/utils/analytics/analytics.dart';
 
 class ImagePickerDialog extends HookConsumerWidget {
   const ImagePickerDialog({super.key});
@@ -23,6 +24,7 @@ class ImagePickerDialog extends HookConsumerWidget {
               title: Text(L.camera),
               leading: const Icon(Icons.photo_camera),
               onTap: () async {
+                analytics.logEvent(name: 'image_picker_camera_selected');
                 final XFile? photo = await imagePicker.pickImage(source: ImageSource.camera);
 
                 if (photo != null) {
@@ -36,6 +38,7 @@ class ImagePickerDialog extends HookConsumerWidget {
               title: Text(L.photoLibrary),
               leading: const Icon(Icons.photo_album),
               onTap: () async {
+                analytics.logEvent(name: 'image_picker_gallery_selected');
                 final XFile? photo = await imagePicker.pickImage(source: ImageSource.gallery);
                 if (photo != null) {
                   if (context.mounted) {
@@ -50,6 +53,7 @@ class ImagePickerDialog extends HookConsumerWidget {
       actions: [
         TextButton(
           onPressed: () {
+            analytics.logEvent(name: 'image_picker_close_pressed');
             Navigator.pop(context, null);
           },
           child: Text(L.close),

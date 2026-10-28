@@ -14,14 +14,16 @@ T _$identity<T>(T value) => value;
 
 /// @nodoc
 mixin _$Medicine {
-  String get id;
+  String get id; // 作成者(creator)の userID。グループ共有では他メンバーが閲覧・記録することもあるため所有者ではなく作成者を表す。
   String get userID;
   String get name;
   MedicationFrequency get frequency;
   List<MedicationSchedule> get schedules;
   DoseReceiver get doseReceiver;
   String get memo;
-  String get memoImageURL;
+  String get memoImageURL; // 前回の服用から最低限空ける時間(時間単位)。null は間隔設定なし。
+// 間隔が空いていない場合でも記録・通知は無効化せず、注意の表示だけを行う (#81)
+  int? get minimumDoseIntervalHours;
   @NullableTimestampConverter()
   DateTime? get archivedDateTime;
   @NullableTimestampConverter()
@@ -59,6 +61,7 @@ mixin _$Medicine {
             (identical(other.doseReceiver, doseReceiver) || other.doseReceiver == doseReceiver) &&
             (identical(other.memo, memo) || other.memo == memo) &&
             (identical(other.memoImageURL, memoImageURL) || other.memoImageURL == memoImageURL) &&
+            (identical(other.minimumDoseIntervalHours, minimumDoseIntervalHours) || other.minimumDoseIntervalHours == minimumDoseIntervalHours) &&
             (identical(other.archivedDateTime, archivedDateTime) || other.archivedDateTime == archivedDateTime) &&
             (identical(other.pausedDateTime, pausedDateTime) || other.pausedDateTime == pausedDateTime) &&
             (identical(other.beganDateTime, beganDateTime) || other.beganDateTime == beganDateTime) &&
@@ -70,12 +73,28 @@ mixin _$Medicine {
 
   @JsonKey(includeFromJson: false, includeToJson: false)
   @override
-  int get hashCode => Object.hash(runtimeType, id, userID, name, frequency, const DeepCollectionEquality().hash(schedules), doseReceiver, memo,
-      memoImageURL, archivedDateTime, pausedDateTime, beganDateTime, createdDateTime, updatedDateTime, serverCreatedDateTime, serverUpdatedDateTime);
+  int get hashCode => Object.hash(
+      runtimeType,
+      id,
+      userID,
+      name,
+      frequency,
+      const DeepCollectionEquality().hash(schedules),
+      doseReceiver,
+      memo,
+      memoImageURL,
+      minimumDoseIntervalHours,
+      archivedDateTime,
+      pausedDateTime,
+      beganDateTime,
+      createdDateTime,
+      updatedDateTime,
+      serverCreatedDateTime,
+      serverUpdatedDateTime);
 
   @override
   String toString() {
-    return 'Medicine(id: $id, userID: $userID, name: $name, frequency: $frequency, schedules: $schedules, doseReceiver: $doseReceiver, memo: $memo, memoImageURL: $memoImageURL, archivedDateTime: $archivedDateTime, pausedDateTime: $pausedDateTime, beganDateTime: $beganDateTime, createdDateTime: $createdDateTime, updatedDateTime: $updatedDateTime, serverCreatedDateTime: $serverCreatedDateTime, serverUpdatedDateTime: $serverUpdatedDateTime)';
+    return 'Medicine(id: $id, userID: $userID, name: $name, frequency: $frequency, schedules: $schedules, doseReceiver: $doseReceiver, memo: $memo, memoImageURL: $memoImageURL, minimumDoseIntervalHours: $minimumDoseIntervalHours, archivedDateTime: $archivedDateTime, pausedDateTime: $pausedDateTime, beganDateTime: $beganDateTime, createdDateTime: $createdDateTime, updatedDateTime: $updatedDateTime, serverCreatedDateTime: $serverCreatedDateTime, serverUpdatedDateTime: $serverUpdatedDateTime)';
   }
 }
 
@@ -92,6 +111,7 @@ abstract mixin class $MedicineCopyWith<$Res> {
       DoseReceiver doseReceiver,
       String memo,
       String memoImageURL,
+      int? minimumDoseIntervalHours,
       @NullableTimestampConverter() DateTime? archivedDateTime,
       @NullableTimestampConverter() DateTime? pausedDateTime,
       @TimestampConverter() DateTime beganDateTime,
@@ -124,6 +144,7 @@ class _$MedicineCopyWithImpl<$Res> implements $MedicineCopyWith<$Res> {
     Object? doseReceiver = null,
     Object? memo = null,
     Object? memoImageURL = null,
+    Object? minimumDoseIntervalHours = freezed,
     Object? archivedDateTime = freezed,
     Object? pausedDateTime = freezed,
     Object? beganDateTime = null,
@@ -165,6 +186,10 @@ class _$MedicineCopyWithImpl<$Res> implements $MedicineCopyWith<$Res> {
           ? _self.memoImageURL
           : memoImageURL // ignore: cast_nullable_to_non_nullable
               as String,
+      minimumDoseIntervalHours: freezed == minimumDoseIntervalHours
+          ? _self.minimumDoseIntervalHours
+          : minimumDoseIntervalHours // ignore: cast_nullable_to_non_nullable
+              as int?,
       archivedDateTime: freezed == archivedDateTime
           ? _self.archivedDateTime
           : archivedDateTime // ignore: cast_nullable_to_non_nullable
@@ -319,6 +344,7 @@ extension MedicinePatterns on Medicine {
             DoseReceiver doseReceiver,
             String memo,
             String memoImageURL,
+            int? minimumDoseIntervalHours,
             @NullableTimestampConverter() DateTime? archivedDateTime,
             @NullableTimestampConverter() DateTime? pausedDateTime,
             @TimestampConverter() DateTime beganDateTime,
@@ -341,6 +367,7 @@ extension MedicinePatterns on Medicine {
             _that.doseReceiver,
             _that.memo,
             _that.memoImageURL,
+            _that.minimumDoseIntervalHours,
             _that.archivedDateTime,
             _that.pausedDateTime,
             _that.beganDateTime,
@@ -377,6 +404,7 @@ extension MedicinePatterns on Medicine {
             DoseReceiver doseReceiver,
             String memo,
             String memoImageURL,
+            int? minimumDoseIntervalHours,
             @NullableTimestampConverter() DateTime? archivedDateTime,
             @NullableTimestampConverter() DateTime? pausedDateTime,
             @TimestampConverter() DateTime beganDateTime,
@@ -398,6 +426,7 @@ extension MedicinePatterns on Medicine {
             _that.doseReceiver,
             _that.memo,
             _that.memoImageURL,
+            _that.minimumDoseIntervalHours,
             _that.archivedDateTime,
             _that.pausedDateTime,
             _that.beganDateTime,
@@ -433,6 +462,7 @@ extension MedicinePatterns on Medicine {
             DoseReceiver doseReceiver,
             String memo,
             String memoImageURL,
+            int? minimumDoseIntervalHours,
             @NullableTimestampConverter() DateTime? archivedDateTime,
             @NullableTimestampConverter() DateTime? pausedDateTime,
             @TimestampConverter() DateTime beganDateTime,
@@ -454,6 +484,7 @@ extension MedicinePatterns on Medicine {
             _that.doseReceiver,
             _that.memo,
             _that.memoImageURL,
+            _that.minimumDoseIntervalHours,
             _that.archivedDateTime,
             _that.pausedDateTime,
             _that.beganDateTime,
@@ -480,6 +511,7 @@ class _Medicine extends Medicine {
       required this.doseReceiver,
       required this.memo,
       required this.memoImageURL,
+      required this.minimumDoseIntervalHours,
       @NullableTimestampConverter() this.archivedDateTime,
       @NullableTimestampConverter() this.pausedDateTime,
       @TimestampConverter() required this.beganDateTime,
@@ -493,6 +525,7 @@ class _Medicine extends Medicine {
 
   @override
   final String id;
+// 作成者(creator)の userID。グループ共有では他メンバーが閲覧・記録することもあるため所有者ではなく作成者を表す。
   @override
   final String userID;
   @override
@@ -513,6 +546,10 @@ class _Medicine extends Medicine {
   final String memo;
   @override
   final String memoImageURL;
+// 前回の服用から最低限空ける時間(時間単位)。null は間隔設定なし。
+// 間隔が空いていない場合でも記録・通知は無効化せず、注意の表示だけを行う (#81)
+  @override
+  final int? minimumDoseIntervalHours;
   @override
   @NullableTimestampConverter()
   final DateTime? archivedDateTime;
@@ -562,6 +599,7 @@ class _Medicine extends Medicine {
             (identical(other.doseReceiver, doseReceiver) || other.doseReceiver == doseReceiver) &&
             (identical(other.memo, memo) || other.memo == memo) &&
             (identical(other.memoImageURL, memoImageURL) || other.memoImageURL == memoImageURL) &&
+            (identical(other.minimumDoseIntervalHours, minimumDoseIntervalHours) || other.minimumDoseIntervalHours == minimumDoseIntervalHours) &&
             (identical(other.archivedDateTime, archivedDateTime) || other.archivedDateTime == archivedDateTime) &&
             (identical(other.pausedDateTime, pausedDateTime) || other.pausedDateTime == pausedDateTime) &&
             (identical(other.beganDateTime, beganDateTime) || other.beganDateTime == beganDateTime) &&
@@ -573,12 +611,28 @@ class _Medicine extends Medicine {
 
   @JsonKey(includeFromJson: false, includeToJson: false)
   @override
-  int get hashCode => Object.hash(runtimeType, id, userID, name, frequency, const DeepCollectionEquality().hash(_schedules), doseReceiver, memo,
-      memoImageURL, archivedDateTime, pausedDateTime, beganDateTime, createdDateTime, updatedDateTime, serverCreatedDateTime, serverUpdatedDateTime);
+  int get hashCode => Object.hash(
+      runtimeType,
+      id,
+      userID,
+      name,
+      frequency,
+      const DeepCollectionEquality().hash(_schedules),
+      doseReceiver,
+      memo,
+      memoImageURL,
+      minimumDoseIntervalHours,
+      archivedDateTime,
+      pausedDateTime,
+      beganDateTime,
+      createdDateTime,
+      updatedDateTime,
+      serverCreatedDateTime,
+      serverUpdatedDateTime);
 
   @override
   String toString() {
-    return 'Medicine(id: $id, userID: $userID, name: $name, frequency: $frequency, schedules: $schedules, doseReceiver: $doseReceiver, memo: $memo, memoImageURL: $memoImageURL, archivedDateTime: $archivedDateTime, pausedDateTime: $pausedDateTime, beganDateTime: $beganDateTime, createdDateTime: $createdDateTime, updatedDateTime: $updatedDateTime, serverCreatedDateTime: $serverCreatedDateTime, serverUpdatedDateTime: $serverUpdatedDateTime)';
+    return 'Medicine(id: $id, userID: $userID, name: $name, frequency: $frequency, schedules: $schedules, doseReceiver: $doseReceiver, memo: $memo, memoImageURL: $memoImageURL, minimumDoseIntervalHours: $minimumDoseIntervalHours, archivedDateTime: $archivedDateTime, pausedDateTime: $pausedDateTime, beganDateTime: $beganDateTime, createdDateTime: $createdDateTime, updatedDateTime: $updatedDateTime, serverCreatedDateTime: $serverCreatedDateTime, serverUpdatedDateTime: $serverUpdatedDateTime)';
   }
 }
 
@@ -596,6 +650,7 @@ abstract mixin class _$MedicineCopyWith<$Res> implements $MedicineCopyWith<$Res>
       DoseReceiver doseReceiver,
       String memo,
       String memoImageURL,
+      int? minimumDoseIntervalHours,
       @NullableTimestampConverter() DateTime? archivedDateTime,
       @NullableTimestampConverter() DateTime? pausedDateTime,
       @TimestampConverter() DateTime beganDateTime,
@@ -630,6 +685,7 @@ class __$MedicineCopyWithImpl<$Res> implements _$MedicineCopyWith<$Res> {
     Object? doseReceiver = null,
     Object? memo = null,
     Object? memoImageURL = null,
+    Object? minimumDoseIntervalHours = freezed,
     Object? archivedDateTime = freezed,
     Object? pausedDateTime = freezed,
     Object? beganDateTime = null,
@@ -671,6 +727,10 @@ class __$MedicineCopyWithImpl<$Res> implements _$MedicineCopyWith<$Res> {
           ? _self.memoImageURL
           : memoImageURL // ignore: cast_nullable_to_non_nullable
               as String,
+      minimumDoseIntervalHours: freezed == minimumDoseIntervalHours
+          ? _self.minimumDoseIntervalHours
+          : minimumDoseIntervalHours // ignore: cast_nullable_to_non_nullable
+              as int?,
       archivedDateTime: freezed == archivedDateTime
           ? _self.archivedDateTime
           : archivedDateTime // ignore: cast_nullable_to_non_nullable

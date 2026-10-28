@@ -1,5 +1,20 @@
 {
   "@@locale": "ja",
+  "onboardingMedicationRegistrationTitle": "最初のお薬を登録しましょう",
+  "onboardingMedicationRegistrationBody": "服用時刻を仮に用意しました\nお薬に合わせて変更できます",
+  "@onboardingMedicationRegistrationBody": {
+    "description": "オンボーディングの回答から服用時刻を仮に作ってあることを伝え、お薬に合わせて変えられると案内する説明文。「仮に用意した」は、アプリが下書きとして先に作った状態を指す"
+  },
+  "onboardingMedicationLater": "あとで",
+  "@onboardingMedicationLater": {
+    "description": "オンボーディングのお薬登録画面で、登録せずに画面を閉じて後回しにするボタンのテキスト。時刻ではなく「今はやらない」の意味"
+  },
+  "onboardingMedicationPlaceholderTitle": "お薬が未登録です",
+  "onboardingMedicationPlaceholderBody": "この時刻にお薬の登録をお知らせします",
+  "@onboardingMedicationPlaceholderBody": {
+    "description": "仮の服用時刻だけがある状態のカードに出す説明文。「この時刻」は同じカードに表示している時刻を指し、その時刻になったらお薬の登録を通知で知らせると伝える"
+  },
+  "onboardingMedicationPlanNotificationBody": "お薬を登録して服薬リマインダーを設定しましょう",
   "retry": "再試行",
   "@retry": {
     "description": "エラーが発生した際やデータの読み込みに失敗した際に、再度処理を実行するためのボタンテキスト"
@@ -375,6 +390,22 @@
   "history": "履歴",
   "@history": {
     "description": "履歴タブのタイトル"
+  },
+  "calendar": "カレンダー",
+  "@calendar": {
+    "description": "カレンダータブおよびカレンダー画面のタイトル"
+  },
+  "diary": "日記",
+  "@diary": {
+    "description": "カレンダーの日付詳細に表示する日記セクションのタイトル"
+  },
+  "writeDiary": "日記を書く",
+  "@writeDiary": {
+    "description": "その日の日記がまだない場合に表示する日記投稿画面への導線ボタンテキスト"
+  },
+  "editDiaryTooltip": "日記を編集",
+  "@editDiaryTooltip": {
+    "description": "カレンダーの日付詳細シートにある日記編集アイコンの tooltip"
   },
   "medicineRegistrationLimit": "薬の登録数を",
   "@medicineRegistrationLimit": {
@@ -856,6 +887,42 @@
   "@medicinePausedSnackbar": {
     "description": "薬を一時停止したときに表示するSnackbarのメッセージ"
   },
+  "medicationHistoryDeletedSnackbar": "服薬記録を取り消しました",
+  "@medicationHistoryDeletedSnackbar": {
+    "description": "服薬チェックを外したときに表示する、Undo つき SnackBar のメッセージ"
+  },
+  "undo": "元に戻す",
+  "@undo": {
+    "description": "直前の操作を取り消す SnackBar のアクションラベル"
+  },
+  "medicationHistoryReverted": "服薬記録の取り消し",
+  "@medicationHistoryReverted": {
+    "description": "服薬履歴タブで取消(revert)の記録行に表示するラベル"
+  },
+  "revertedTime": "取消時間",
+  "@revertedTime": {
+    "description": "服薬履歴タブの取消行に表示する、取消操作をした日時のラベル"
+  },
+  "revertedByMember": "{name}さんが取消",
+  "@revertedByMember": {
+    "description": "服薬記録の取消を自分以外のメンバーが行った場合に表示するラベル",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "太郎"
+      }
+    }
+  },
+  "medicationTakenAtLabel": "{time} 服用済",
+  "@medicationTakenAtLabel": {
+    "description": "チェック済みの服薬行に表示する記録時刻ラベル。同名・同時刻の行を見分ける識別情報",
+    "placeholders": {
+      "time": {
+        "type": "String",
+        "example": "10:02"
+      }
+    }
+  },
   "medicineResumedSnackbar": "薬の服用を再開しました",
   "@medicineResumedSnackbar": {
     "description": "一時停止中の薬を再開したときに表示するSnackbarのメッセージ"
@@ -863,6 +930,546 @@
   "medicineEditTooltip": "薬を編集",
   "@medicineEditTooltip": {
     "description": "お薬一覧カード右上の編集アイコンの tooltip"
+  },
+  "groups": "グループ",
+  "@groups": {
+    "description": "グループ一覧画面のタイトルおよび設定画面のグループセクション見出し"
+  },
+  "groupManagement": "グループの管理",
+  "@groupManagement": {
+    "description": "設定画面からグループ一覧画面へ遷移する項目のラベル"
+  },
+  "createGroup": "グループを作成",
+  "@createGroup": {
+    "description": "グループを新規作成するボタン・画面タイトルのラベル"
+  },
+  "groupName": "グループ名",
+  "@groupName": {
+    "description": "グループ名入力フィールドのラベル"
+  },
+  "groupNameInputHint": "グループ名を入力",
+  "@groupNameInputHint": {
+    "description": "グループ名入力フィールドのプレースホルダー"
+  },
+  "groupIcon": "アイコン",
+  "@groupIcon": {
+    "description": "グループ作成画面のアイコン選択セクションのラベル"
+  },
+  "groupMemberCount": "メンバー{count}人",
+  "@groupMemberCount": {
+    "description": "グループのメンバー人数を表示するラベル",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "2"
+      }
+    }
+  },
+  "defaultGroupBadge": "既定",
+  "@defaultGroupBadge": {
+    "description": "既定グループであることを示すバッジのラベル"
+  },
+  "soloGroupName": "マイグループ",
+  "@soloGroupName": {
+    "description": "名前が未設定のソログループを一覧・チップで表示する際のフォールバック名"
+  },
+  "joinWithInvitationCode": "招待コードで参加",
+  "@joinWithInvitationCode": {
+    "description": "招待コード入力画面へ遷移する項目のラベル"
+  },
+  "groupCreationLimitReached": "無料プランではこれ以上グループを作成できません",
+  "@groupCreationLimitReached": {
+    "description": "グループ作成数の上限に達した際に表示する案内文"
+  },
+  "increaseGroupLimitWithPremium": "プレミアムプランでグループを追加作成できます",
+  "@increaseGroupLimitWithPremium": {
+    "description": "プレミアムプランでグループ作成上限を増やせることを案内するリンクのラベル"
+  },
+  "invitationCode": "招待コード",
+  "@invitationCode": {
+    "description": "招待コードを表示するダイアログのタイトル"
+  },
+  "invitationCodeShareDescription": "このコードを共有してメンバーを招待できます",
+  "@invitationCodeShareDescription": {
+    "description": "招待コードダイアログの説明文"
+  },
+  "invitationCodeExpiresAt": "有効期限: {date}",
+  "@invitationCodeExpiresAt": {
+    "description": "招待コードの有効期限を表示するラベル",
+    "placeholders": {
+      "date": {
+        "type": "String",
+        "example": "2026/07/19 12:00"
+      }
+    }
+  },
+  "copyInvitationCode": "コードをコピー",
+  "@copyInvitationCode": {
+    "description": "招待コードをクリップボードにコピーするボタンのラベル"
+  },
+  "invitationCodeCopied": "招待コードをコピーしました",
+  "@invitationCodeCopied": {
+    "description": "招待コードをコピーした際に表示するSnackbarのメッセージ"
+  },
+  "issueInvitationCode": "招待コードを発行",
+  "@issueInvitationCode": {
+    "description": "グループ設定画面で招待コードを発行するボタンのラベル"
+  },
+  "groupSettings": "グループ設定",
+  "@groupSettings": {
+    "description": "グループ設定画面のタイトル"
+  },
+  "members": "メンバー",
+  "@members": {
+    "description": "グループ設定画面のメンバー一覧セクションの見出し"
+  },
+  "memberFallbackName": "メンバー",
+  "@memberFallbackName": {
+    "description": "表示名が未設定のメンバーを表示する際のフォールバック名"
+  },
+  "yourDisplayName": "あなたの表示名",
+  "@yourDisplayName": {
+    "description": "グループ内の自分の表示名を編集するフィールドのラベル"
+  },
+  "displayNameInputHint": "表示名を入力",
+  "@displayNameInputHint": {
+    "description": "表示名入力フィールドのプレースホルダー"
+  },
+  "ownerLabel": "オーナー",
+  "@ownerLabel": {
+    "description": "グループのオーナーであることを示すラベル"
+  },
+  "youLabel": "あなた",
+  "@youLabel": {
+    "description": "メンバー一覧で自分自身を示すラベル"
+  },
+  "removeMemberConfirmTitle": "メンバーを削除しますか？",
+  "@removeMemberConfirmTitle": {
+    "description": "メンバー削除の確認ダイアログのタイトル"
+  },
+  "removeMemberConfirmMessage": "{name}をグループから削除します",
+  "@removeMemberConfirmMessage": {
+    "description": "メンバー削除の確認ダイアログの本文",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "たろう"
+      }
+    }
+  },
+  "joinGroup": "グループに参加",
+  "@joinGroup": {
+    "description": "招待コード入力画面のタイトル"
+  },
+  "invitationCodeInputLabel": "招待コード（8文字）",
+  "@invitationCodeInputLabel": {
+    "description": "招待コード入力フィールドのラベル"
+  },
+  "invitationCodeInputHint": "8文字のコードを入力",
+  "@invitationCodeInputHint": {
+    "description": "招待コード入力フィールドのプレースホルダー"
+  },
+  "join": "参加する",
+  "@join": {
+    "description": "招待コードでグループに参加するボタンのラベル"
+  },
+  "recordedByMember": "{name}さんが記録",
+  "@recordedByMember": {
+    "description": "服薬記録を自分以外のメンバーが記録した場合に表示するラベル",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "たろう"
+      }
+    }
+  },
+  "accountLink": "アカウント引き継ぎ",
+  "@accountLink": {
+    "description": "設定画面・シートのアカウント引き継ぎセクションのタイトル"
+  },
+  "accountLinkDescription": "Apple または Google と連携すると、機種変更やアプリの再インストール後もデータを引き継げます。",
+  "@accountLinkDescription": {
+    "description": "アカウント引き継ぎシートの説明文"
+  },
+  "linkWithApple": "Apple でアカウントを引き継ぐ",
+  "@linkWithApple": {
+    "description": "Apple アカウントとリンクする行のラベル"
+  },
+  "linkWithGoogle": "Google でアカウントを引き継ぐ",
+  "@linkWithGoogle": {
+    "description": "Google アカウントとリンクする行のラベル"
+  },
+  "accountLinkedWithApple": "Apple 連携済み",
+  "@accountLinkedWithApple": {
+    "description": "Apple アカウントとリンク済みの場合に表示するラベル"
+  },
+  "accountLinkedWithGoogle": "Google 連携済み",
+  "@accountLinkedWithGoogle": {
+    "description": "Google アカウントとリンク済みの場合に表示するラベル"
+  },
+  "accountLinkedSnackbar": "アカウントを引き継ぎました",
+  "@accountLinkedSnackbar": {
+    "description": "アカウント引き継ぎ(リンク)成功時に表示する SnackBar"
+  },
+  "accountLinkBannerText": "グループ共有中はアカウント引き継ぎ設定を強くおすすめします",
+  "@accountLinkBannerText": {
+    "description": "グループ共有中かつ未リンクのときにホーム上部へ表示する推奨バナーの文言"
+  },
+  "medicineImageImport": "画像から登録",
+  "@medicineImageImport": {
+    "description": "お薬手帳・処方箋などの画像から薬を登録するボタンのラベル"
+  },
+  "medicineImageImportReviewTitle": "読み取ったお薬",
+  "@medicineImageImportReviewTitle": {
+    "description": "画像から読み取った薬の候補を確認するシートのタイトル"
+  },
+  "medicineImageImportEmpty": "画像からお薬を読み取れませんでした",
+  "@medicineImageImportEmpty": {
+    "description": "画像から薬の候補を 1 件も読み取れなかった場合にシートへ表示する文言"
+  },
+  "medicineImageImportSelectableLimit": "登録できるのは残り{count}件までです",
+  "@medicineImageImportSelectableLimit": {
+    "description": "読み取った候補が薬の登録数制限の残り枠を超えている場合の注意書き",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "2"
+      }
+    }
+  },
+  "medicineImageImportAddCount": "{count}件を追加",
+  "@medicineImageImportAddCount": {
+    "description": "レビューシートで選択中の候補を登録する確定ボタンのラベル",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "3"
+      }
+    }
+  },
+  "medicineImageImportCompletedSnackbar": "{count}件のお薬を登録しました",
+  "@medicineImageImportCompletedSnackbar": {
+    "description": "画像から読み取った薬の登録完了時に表示する SnackBar",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "3"
+      }
+    }
+  },
+  "medicineImageImportTimeFallbackCaption": "服用時刻を読み取れなかったため仮の時刻です。登録後に編集できます",
+  "@medicineImageImportTimeFallbackCaption": {
+    "description": "服用時刻を抽出できず仮の時刻を設定した候補にレビューシートで表示する注意書き"
+  },
+  "medicineImageImportDroppedSchedulesCaption": "上限を超えた服用時刻{count}件は登録されません",
+  "@medicineImageImportDroppedSchedulesCaption": {
+    "description": "スケジュール数の上限で除外された服用時刻がある候補にレビューシートで表示する注意書き",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "medicineImageImportGroupChangedError": "グループが切り替わったため登録を中止しました",
+  "@medicineImageImportGroupChangedError": {
+    "description": "画像からの登録処理中に表示中のグループが切り替わり、登録を中止した場合に表示するエラー"
+  },
+  "minimumDoseInterval": "服用間隔",
+  "@minimumDoseInterval": {
+    "description": "薬フォームの最低服用間隔設定タイルのタイトル"
+  },
+  "minimumDoseIntervalDescription": "前回の服用から最低限空ける時間",
+  "@minimumDoseIntervalDescription": {
+    "description": "薬フォームの最低服用間隔設定タイルの説明文"
+  },
+  "minimumDoseIntervalNone": "なし",
+  "@minimumDoseIntervalNone": {
+    "description": "最低服用間隔が未設定の場合にタイルへ表示する値"
+  },
+  "minimumDoseIntervalHoursFormat": "{hours}時間以上",
+  "@minimumDoseIntervalHoursFormat": {
+    "description": "設定済みの最低服用間隔をタイルへ表示する形式",
+    "placeholders": {
+      "hours": {
+        "type": "int",
+        "example": "6"
+      }
+    }
+  },
+  "doseIntervalWarningTitle": "服用間隔が空いていません",
+  "@doseIntervalWarningTitle": {
+    "description": "最低服用間隔が空いていない状態で服薬記録をつけようとした時の注意ダイアログのタイトル"
+  },
+  "doseIntervalWarningMessage": "{latestTakeTime} に服用済みです。前回の服用から{minimumDoseIntervalHours}時間以上空ける設定になっています。それでも記録しますか？",
+  "@doseIntervalWarningMessage": {
+    "description": "最低服用間隔が空いていない状態で服薬記録をつけようとした時の注意ダイアログの本文",
+    "placeholders": {
+      "latestTakeTime": {
+        "type": "String",
+        "example": "10:02"
+      },
+      "minimumDoseIntervalHours": {
+        "type": "int",
+        "example": "6"
+      }
+    }
+  },
+  "doseIntervalWarningTakeAnyway": "記録する",
+  "@doseIntervalWarningTakeAnyway": {
+    "description": "服用間隔の注意ダイアログで、注意を理解した上で記録を続行するボタン"
+  },
+  "doseIntervalNotificationWarning": "⚠️ 前回の服用から{minimumDoseIntervalHours}時間空いていません",
+  "@doseIntervalNotificationWarning": {
+    "description": "通知が鳴る時点でも最低服用間隔が空いていない薬に対して、通知文面へ追記する注意文",
+    "placeholders": {
+      "minimumDoseIntervalHours": {
+        "type": "int",
+        "example": "6"
+      }
+    }
+  },
+  "ossLicense": "OSSライセンス",
+  "@ossLicense": {
+    "description": "設定画面から利用しているOSSのライセンス一覧を開く項目のテキスト"
+  },
+  "onboardingWelcomeTitle": "飲み忘れの不安を\nなくそう",
+  "@onboardingWelcomeTitle": {
+    "description": "オンボーディング 1 画面目 (価値宣言) の見出し"
+  },
+  "onboardingWelcomeBody": "薬を登録して通知を受け取り\n服用の記録を振り返る",
+  "@onboardingWelcomeBody": {
+    "description": "オンボーディング 1 画面目 (価値宣言) の本文"
+  },
+  "onboardingWelcomeFeatureReminder": "服用時刻に通知",
+  "@onboardingWelcomeFeatureReminder": {
+    "description": "オンボーディング 1 画面目の特徴リスト: 通知"
+  },
+  "onboardingWelcomeFeatureCriticalAlert": "マナーモードでも鳴る Critical Alert",
+  "@onboardingWelcomeFeatureCriticalAlert": {
+    "description": "オンボーディング 1 画面目の特徴リスト: Critical Alert (固有名詞。訳さない)"
+  },
+  "onboardingWelcomeFeatureFamily": "家族の服薬もまとめて管理",
+  "@onboardingWelcomeFeatureFamily": {
+    "description": "オンボーディング 1 画面目の特徴リスト: 複数人の管理"
+  },
+  "onboardingStart": "はじめる",
+  "@onboardingStart": {
+    "description": "オンボーディング 1 画面目のボタン。ファネルに入る"
+  },
+  "onboardingNext": "次へ",
+  "@onboardingNext": {
+    "description": "オンボーディングの価値提示画面で次の画面へ進むボタン"
+  },
+  "onboardingBack": "戻る",
+  "@onboardingBack": {
+    "description": "オンボーディングの前の画面へ戻るボタンのツールチップ"
+  },
+  "onboardingPainForgotTitle": "薬を飲み忘れたことは\nありますか",
+  "@onboardingPainForgotTitle": {
+    "description": "オンボーディングのペイン認識質問: 飲み忘れ経験"
+  },
+  "onboardingFrequencyOften": "よくある",
+  "@onboardingFrequencyOften": {
+    "description": "オンボーディングの頻度の選択肢: よくある"
+  },
+  "onboardingFrequencySometimes": "たまにある",
+  "@onboardingFrequencySometimes": {
+    "description": "オンボーディングの頻度の選択肢: たまにある"
+  },
+  "onboardingFrequencyRarely": "ほとんどない",
+  "@onboardingFrequencyRarely": {
+    "description": "オンボーディングの頻度の選択肢: ほとんどない"
+  },
+  "onboardingFrequencyNever": "ない",
+  "@onboardingFrequencyNever": {
+    "description": "オンボーディングの頻度の選択肢: ない"
+  },
+  "onboardingPainWorryTitle": "飲んだかどうか思い出せず\n不安になったことは",
+  "@onboardingPainWorryTitle": {
+    "description": "オンボーディングのペイン認識質問: 飲んだか思い出せない不安 (US 長尺のみ)"
+  },
+  "onboardingValueReminderTitle": "飲み忘れは\n気づいた時には遅い",
+  "@onboardingValueReminderTitle": {
+    "description": "オンボーディングの価値提示画面の見出し (US 長尺のみ)"
+  },
+  "onboardingValueReminderBody": "Medicalarm は服用時刻に通知します\nマナーモードでも Critical Alert で気づけます",
+  "@onboardingValueReminderBody": {
+    "description": "オンボーディングの価値提示画面の本文 (US 長尺のみ)"
+  },
+  "onboardingCareTargetTitle": "誰の服薬を管理しますか",
+  "@onboardingCareTargetTitle": {
+    "description": "オンボーディングのパーソナライズ質問: 管理対象"
+  },
+  "onboardingCareTargetSubtitle": "回答に合わせてプランを作ります",
+  "@onboardingCareTargetSubtitle": {
+    "description": "オンボーディングのパーソナライズ質問 (管理対象) の補足"
+  },
+  "onboardingCareTargetSelf": "自分",
+  "@onboardingCareTargetSelf": {
+    "description": "オンボーディングの管理対象の選択肢: 自分"
+  },
+  "onboardingCareTargetFamily": "家族",
+  "@onboardingCareTargetFamily": {
+    "description": "オンボーディングの管理対象の選択肢: 家族"
+  },
+  "onboardingCareTargetSelfAndFamily": "自分と家族",
+  "@onboardingCareTargetSelfAndFamily": {
+    "description": "オンボーディングの管理対象の選択肢: 自分と家族"
+  },
+  "onboardingDailyDoseCountTitle": "1日に何回\n薬を飲みますか",
+  "@onboardingDailyDoseCountTitle": {
+    "description": "オンボーディングのパーソナライズ質問: 1 日の服用回数"
+  },
+  "onboardingDailyDoseCountSubtitle": "通知の回数を決めるために使います",
+  "@onboardingDailyDoseCountSubtitle": {
+    "description": "オンボーディングのパーソナライズ質問 (服用回数) の補足"
+  },
+  "onboardingDailyDoseOnce": "1回",
+  "@onboardingDailyDoseOnce": {
+    "description": "オンボーディングの服用回数の選択肢: 1 回"
+  },
+  "onboardingDailyDoseTwice": "2回",
+  "@onboardingDailyDoseTwice": {
+    "description": "オンボーディングの服用回数の選択肢: 2 回"
+  },
+  "onboardingDailyDoseThreeOrMore": "3回以上",
+  "@onboardingDailyDoseThreeOrMore": {
+    "description": "オンボーディングの服用回数の選択肢: 3 回以上"
+  },
+  "onboardingMedicineCountTitle": "管理する薬は\nいくつありますか",
+  "@onboardingMedicineCountTitle": {
+    "description": "オンボーディングのパーソナライズ質問: 薬の数"
+  },
+  "onboardingMedicineCountOneToTwo": "1〜2種類",
+  "@onboardingMedicineCountOneToTwo": {
+    "description": "オンボーディングの薬の数の選択肢: 1〜2 種類"
+  },
+  "onboardingMedicineCountThreeToFive": "3〜5種類",
+  "@onboardingMedicineCountThreeToFive": {
+    "description": "オンボーディングの薬の数の選択肢: 3〜5 種類"
+  },
+  "onboardingMedicineCountSixOrMore": "6種類以上",
+  "@onboardingMedicineCountSixOrMore": {
+    "description": "オンボーディングの薬の数の選択肢: 6 種類以上"
+  },
+  "onboardingBeforeAfterTitle": "Medicalarm で変わること",
+  "@onboardingBeforeAfterTitle": {
+    "description": "オンボーディングの Before / After 画面の見出し (US 長尺のみ)"
+  },
+  "onboardingBeforeLabel": "これまで",
+  "@onboardingBeforeLabel": {
+    "description": "オンボーディングの Before / After 画面の Before ラベル"
+  },
+  "onboardingAfterLabel": "これから",
+  "@onboardingAfterLabel": {
+    "description": "オンボーディングの Before / After 画面の After ラベル"
+  },
+  "onboardingBeforeItemForgot": "気づいたら飲み忘れていた",
+  "@onboardingBeforeItemForgot": {
+    "description": "オンボーディングの Before 項目: 飲み忘れ"
+  },
+  "onboardingBeforeItemUnsure": "飲んだか思い出せない",
+  "@onboardingBeforeItemUnsure": {
+    "description": "オンボーディングの Before 項目: 記憶の不安"
+  },
+  "onboardingBeforeItemFamily": "家族の分まで把握できない",
+  "@onboardingBeforeItemFamily": {
+    "description": "オンボーディングの Before 項目: 家族の把握"
+  },
+  "onboardingAfterItemReminder": "服用時刻に通知が届く",
+  "@onboardingAfterItemReminder": {
+    "description": "オンボーディングの After 項目: 通知"
+  },
+  "onboardingAfterItemRecord": "記録が残りすぐ確認できる",
+  "@onboardingAfterItemRecord": {
+    "description": "オンボーディングの After 項目: 記録"
+  },
+  "onboardingAfterItemFamily": "家族の服薬状況もひと目でわかる",
+  "@onboardingAfterItemFamily": {
+    "description": "オンボーディングの After 項目: 家族"
+  },
+  "onboardingGoalTitle": "目標を決めましょう",
+  "@onboardingGoalTitle": {
+    "description": "オンボーディングのコミットメント画面 (目標設定) の見出し (US 長尺のみ)"
+  },
+  "onboardingGoalSubtitle": "目標はプランに反映されます",
+  "@onboardingGoalSubtitle": {
+    "description": "オンボーディングの目標設定画面の補足"
+  },
+  "onboardingGoalZeroMissed": "飲み忘れをゼロにする",
+  "@onboardingGoalZeroMissed": {
+    "description": "オンボーディングの目標の選択肢: 飲み忘れゼロ"
+  },
+  "onboardingGoalKeepRecording": "服用を記録し続ける",
+  "@onboardingGoalKeepRecording": {
+    "description": "オンボーディングの目標の選択肢: 記録の継続"
+  },
+  "onboardingGoalWatchFamily": "家族の服薬を見守る",
+  "@onboardingGoalWatchFamily": {
+    "description": "オンボーディングの目標の選択肢: 家族の見守り"
+  },
+  "onboardingPlanGeneratingTitle": "あなた専用のプランを作成中",
+  "@onboardingPlanGeneratingTitle": {
+    "description": "オンボーディングのプラン生成演出の見出し"
+  },
+  "onboardingPlanGeneratingAnalyzing": "回答を分析しています",
+  "@onboardingPlanGeneratingAnalyzing": {
+    "description": "オンボーディングのプラン生成演出のメッセージ 1"
+  },
+  "onboardingPlanGeneratingSchedule": "通知プランを組み立てています",
+  "@onboardingPlanGeneratingSchedule": {
+    "description": "オンボーディングのプラン生成演出のメッセージ 2"
+  },
+  "onboardingPlanGeneratingReady": "準備ができました",
+  "@onboardingPlanGeneratingReady": {
+    "description": "オンボーディングのプラン生成演出のメッセージ 3"
+  },
+  "onboardingPlanResultTitle": "あなた専用のプラン",
+  "@onboardingPlanResultTitle": {
+    "description": "オンボーディングの結果画面の見出し"
+  },
+  "onboardingPlanResultGoalFormat": "目標: {goal}",
+  "@onboardingPlanResultGoalFormat": {
+    "description": "オンボーディングの結果画面に表示する目標。{goal} は選んだ目標の文言",
+    "placeholders": {
+      "goal": {
+        "type": "String",
+        "example": "飲み忘れをゼロにする"
+      }
+    }
+  },
+  "onboardingPlanDoseReceivers": "服用者",
+  "@onboardingPlanDoseReceivers": {
+    "description": "オンボーディングの結果画面の行ラベル: 服用者"
+  },
+  "onboardingPlanDailyReminders": "1日の通知",
+  "@onboardingPlanDailyReminders": {
+    "description": "オンボーディングの結果画面の行ラベル: 1 日の通知回数"
+  },
+  "onboardingPlanMedicines": "管理する薬",
+  "@onboardingPlanMedicines": {
+    "description": "オンボーディングの結果画面の行ラベル: 薬の数"
+  },
+  "onboardingPlanCriticalAlert": "Critical Alert",
+  "@onboardingPlanCriticalAlert": {
+    "description": "オンボーディングの結果画面の行ラベル: Critical Alert (固有名詞。訳さない)"
+  },
+  "onboardingPlanCriticalAlertValue": "マナーモードでも通知",
+  "@onboardingPlanCriticalAlertValue": {
+    "description": "オンボーディングの結果画面の Critical Alert 行の値"
+  },
+  "onboardingPremiumRecommendedTitle": "プレミアムプランがおすすめ",
+  "@onboardingPremiumRecommendedTitle": {
+    "description": "オンボーディングの結果画面で無料プランの上限を超える時に出す訴求の見出し"
+  },
+  "onboardingPremiumRecommendedBody": "このプランは無料プランの登録上限を超えます\nプレミアムプランならすべて登録できます",
+  "@onboardingPremiumRecommendedBody": {
+    "description": "オンボーディングの結果画面で無料プランの上限を超える時に出す訴求の本文"
+  },
+  "onboardingPlanStart": "プランを始める",
+  "@onboardingPlanStart": {
+    "description": "オンボーディングの結果画面の CTA。プレミアム紹介シートへ進む"
   },
   "featureRequestTitle": "機能要望",
   "@featureRequestTitle": {

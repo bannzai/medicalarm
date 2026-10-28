@@ -14,6 +14,7 @@ abstract class DoseReceiver with _$DoseReceiver {
   @JsonSerializable(explicitToJson: true)
   const factory DoseReceiver({
     required String id,
+    // 作成者(creator)の userID。グループ共有では他メンバーが閲覧することもあるため所有者ではなく作成者を表す。
     required String userID,
     required String name,
     @ClientCreatedTimestamp() DateTime? createdDateTime,

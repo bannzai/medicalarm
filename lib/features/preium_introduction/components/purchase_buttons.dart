@@ -51,7 +51,7 @@ class PurchaseButtons extends HookConsumerWidget {
                 annualPackage: annualPackage,
                 onTap: (annualPackage) async {
                   analytics.logEvent(name: 'pressed_annual_purchase_button');
-                  await _purchase(context, monthlyPackage, purchase);
+                  await _purchase(context, annualPackage, purchase);
                 },
               ),
               Positioned(

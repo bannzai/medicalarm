@@ -37,3 +37,6 @@ Runner/GeneratedPluginRegistrant.*
 build
 
 vendor
+
+# fastlane が実行のたびに再生成するレポート（timing 値のみ変わり差分ノイズになる）
+fastlane/report.xml

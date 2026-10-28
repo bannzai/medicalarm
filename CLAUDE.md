@@ -1,29 +1,24 @@
 # Medicalarm
 
-Medicalarmは薬の飲み忘れの不安をなくす。をコンセプトとした服薬管理アプリです。iOSアプリです。Critical Alertが備え付けられているアプリです。
-複数人の人を管理できることを前提にして設計されております。お子さんがいる方など、誰かの代わりに服薬管理をする必要がある場合にも特に便利にお使いいただけます
-アプリ上では薬を登録してリマインダーの設定をすることで通知を受け取り、服用日時を服薬記録として振り返ることができます
+薬の飲み忘れの不安をなくすための、複数人の服薬管理アプリ。
 
 ## ライブラリ
-@pubspec.yaml を参照。以下基礎的な部分の概要です
-
-- firebase_auth: ユーザー認証。匿名認証がアプリ開始時に走る
-- cloud_firestore: DB。基本的にsnapshot listenerによりデータを取得
-- purchases_flutter(RevenueCat): サブスクリプション管理
-- flutter_hooks: インターナルな状態管理。Pageより下の状態管理。コンポーネント間の状態管理
-- riverpod: アプリ全体の状態管理。全体で使用する設定。非同期処理の結果をAsyncValueを通じて使用する
-- freezed: firestoreのドキュメントごとの構造を表現。そのほかのデータ構造を表現
+@pubspec.yaml を参照。
 
 ## コーディング
-コーディング時に見て欲しいルール
-
 ### コーディング規約
 - 余計な中間表現のclassを作らない。firestoreやshared_preferencesから取得したデータをそのまま使用する。やむを得ない場合はfirestoreやshared_preferencesのデータを合成したclassの作成もよしとするが必要な理由はコメントで記述すること
 - 一時変数はnullableな変数のアンラップの用途以外で宣言しない。2箇所以上繰り返し使われるものや、長すぎる条件式(60文字超)をまとめる、その要素を表現するために関連する変数が3つ以上の場合は検討する。「わかりやすくなる」という主観的な目的では行わない。
 - コンポーネント内で状態管理の完結を目指す。
 - 親からの状態共有は ValueNotifier を子コンポーネント間で共有する。コールバックは使わない。もし使用したい場合は理由をコメントに書く
 - ValueNotifierのaddListenerは基本的にわかりづらいのでやらない。許容するケースは SharedPreferences と同期をしたい時
-- 関数、メソッドの引数は、{required} をつけましょう。引数ラベルがないとわかりづらいです
+- 関数・メソッドの引数は原則 `{required}` でラベルが呼び出し元につくようにする
+- コンストラクタの引数も nullable であっても `required` をつける。ただしtimestamp等のメタデータフィールドは除く
+- Entityのフィールド名は省略せず、長くても実態がわかる名前をつける
+- FirestoreのDBをクライアントから操作する場合は、`call` 関数を定義したclassを通じて行い、Providerからそのインスタンスを返す（参考: @lib/provider/medicine.dart の `MedicineAdd`）
+- firestoreのDBに書き込むProviderでは、ref.readを使用してClosureの中で呼ぶ
+- エラーメッセージについては、基本的にそのまま表示する（`e.toString()` の加工・プレフィックス除去等はしない）
+- Firestoreのサブコレクションに保存されるEntityは、親ドキュメントのIDをフィールドとして保持する（詳細: `documents/entity-parent-id-rules.md`）
 
 ### ケーススタディ
 #### 一覧画面・マスター画面
@@ -32,9 +27,6 @@ Medicalarmは薬の飲み忘れの不安をなくす。をコンセプトとし�
   * 参考Provider: @lib/provider/medicine.dart
 
 #### フォーム画面
-- final state = useState(0); のようにuseStateを多用すると思います
-- ref.watch(mutationProvider) のようにFirestoreの変更をする場合は専用の call 関数を持つclassのproviderを作成してください。 ref: @lib/provider/medicine.dart の `MedicineAdd`
-
 既存の以下の画面を参考にしてください
 - @lib/features/medicine_form/page.dart 
 - @lib/features/dose_receiver_form/page.dart 
@@ -42,24 +34,17 @@ Medicalarmは薬の飲み忘れの不安をなくす。をコンセプトとし�
 - @lib/features/medicine_schedule_setting_form/page.dart
 
 ### ファイル構成・命名規則
-- **エンティティ**: `lib/entity/`: Firestoreのドキュメントを表現するクラス。また、Widgetの表現にどうしても必要な中間表現、いわゆるドメインモデルも含まれる
-- **Provider**: `lib/provider/`: Riverpodプロバイダー
-- **機能別ディレクトリ**: `lib/features/`: 各画面・機能ごとにディレクトリを分割
-- **コンポーネント**: `lib/components/` 
-  * Deprecated: atoms/molecules/organisms/page/templateのAtomic Design構成
-  * components/の下は特にルールなく都合よくパッケージを切っていきましょう
-- **スタイル**: アプリのコンポーネントに適応するスタイル群。Button等に共通で使用するStyleがある
-- **テーマ**: アプリ全体のスタイルを決定するテーマ。例えばForm画面のテーマなどがある
-- **ユーティリティ**: 便利関数。クラスたち
+- `lib/entity/` にはFirestoreのドキュメントを表現するクラスと、Widgetの表現にどうしても必要なドメインモデルを置く。
+- `lib/features/` は画面・機能ごとにディレクトリを分割する。
+- コンポーネントは `lib/components/` 配下で都合よくパッケージを分割する。atoms/molecules/organisms/page/templateのAtomic Design構成は非推奨。
 
-### Lintルール (analysis_options.yaml)
-- 1ラインは150行
-- その他は、 @analysis_options.yaml を参照
+### Lint・フォーマット
+- @analysis_options.yaml を参照。フォーマットは `dart format lib -l 150`。
 
 ### コード生成
 - `build_runner` を使用
 - 対象: freezed, json_serializable, riverpod_generator
-- 実行コマンド: `flutter pub run build_runner build --delete-conflicting-outputs;dart format lib -l 150`
+- 実行コマンド: `flutter pub run build_runner build --delete-conflicting-outputs`。生成後は「Lint・フォーマット」のコマンドを実行する。
 
 ### テスト
 - テストファイルは `test/` ディレクトリに配置
@@ -87,12 +72,14 @@ iOS,Androidアプリをサポートします。Firebase の設定ファイルは
 - Widget Test: widget 上の表示の条件分岐が多い・複雑の場合に書く:`flutter test`
 - 静的解析: `flutter analyze`
 - Maestro E2E テスト: `maestro test maestro/flows/`。 `./maestro` にテストを記載する
+- 動作確認 (UI・挙動): `/ios-simulator` skill を起点にし、**特別な理由がない限り simtunnel (GitHub Actions macOS Runner 上のリモート iOS Simulator) で行う**。ローカル simulator (sim-boot) は既定にしない。issue や手順書にローカル前提の記述 (`make secret` からの `flutter run`・`sim-boot` 等) があっても、それだけではローカルに倒す理由にしない
+  - 手順: 検証対象のブランチを push してから `SIMTUNNEL_REPO=bannzai/medicalarm ~/ghq/github.com/bannzai/simtunnel/local/simtunnel up <セッション名> --ref <ブランチ> --wait` で起動する (`--ref` を省略すると main がビルドされる)。caller workflow は `.github/workflows/simulator-session.yml`、セッション名は `medicalarm-<worktree 名>` (例: `medicalarm-issue-12`。tailnet ホスト名が repo 横断で衝突しないよう worktree 名だけにしない)。セッション名は `^[a-z0-9-]+$` のみ許可されるため、worktree 名に大文字・`_`・`/` が含まれる場合は小文字化し `-` に置換して正規化し、`up`・操作 (`--session`)・`down` で同じ正規化後の名前を使う。操作・スクリーンショットは `/ios-simulator` skill の `scripts/ios-wda.sh --session <セッション名>` (セッション途中から使う場合) か、`.mcp.json` に書き込んだ mobile-mcp 互換ツールで行う。確認が終わったら `SIMTUNNEL_REPO=bannzai/medicalarm ~/ghq/github.com/bannzai/simtunnel/local/simtunnel down <セッション名>` で閉じる (`up` と同じ repo を渡す。macOS runner の並列上限を CI と共有するため放置しない)
+  - 到達困難な状態 (課金状態・日時経過等) は開発者メニューで作る。リモートでは `xcrun simctl` や起動引数を使えないため、必要な操作が無ければ開発者メニューに追加してから検証する
+  - ローカル sim-boot (`/sim-manager`) に倒してよいのは、mobile-mcp 互換ツールの操作だけでは検証が成立しない場合 (Maestro E2E・`xcrun simctl` が検証の本体である手順) と、`/ios-simulator` skill Phase 1 が定める運用上の条件 (検証対象が未 push・即時性が必要・セッション自動終了時間を超える作業・macOS Runner の並列上限・tailnet 未接続・repo が private に変わった・simtunnel の実行権限が無い非対話実行・Secrets 未登録で導入が未完了) に当たる場合だけ。いずれの場合も、ローカルに倒した理由を完了報告に明記する (使い分けの SSOT は `/ios-simulator` skill Phase 1)
 
 ### Firebase
-firebase/ ディレクトリ配下についてです。主にbackendで動くFirebase Functionsの設定です。
-
 #### ビルド・テスト・検証方法
-以下のコマンドは全て `firebase/functions/functions/` ディレクトリで実行する
+以下のコマンドは全て `firebase/functions/` ディレクトリで実行する
 
 - Linter (ESLint + Prettier): `npm run lint` (自動修正: `npm run lint:fix`)
 - ビルド: `npm run build` (内部で `tsc` を実行)
@@ -100,19 +87,17 @@ firebase/ ディレクトリ配下についてです。主にbackendで動くFir
 - Firebase Emulator での検証: `npm run serve` (ビルド後に Emulator 起動)
 
 #### 規約
-Firebase Functions の規約です
 - 原則: onDocumentCreated,onDocumentUpdated によるトリガーによる処理を禁止します。コードがトレースしにくくなり、思わぬタイミングで発動してしまうのでコントロールがむず痒いためです
 - Deployはユーザーが行うので禁止
 
-### コーディング規約
-- Entityのフィールド名は省略せず、長くても実態がわかる名前をつける（例: `categoryID` ではなく `groupShoppingListItemCategoryID`）
-- FirestoreのDBをクライアントから操作する場合は、`call` 関数を定義したclassを通じて行う（例: `ShoppingListAdd`, `CreateGroup` など。Providerからそのclassのインスタンスを返却する）
-- 関数の引数は原則 `{required}` でラベルが呼び出し元につくようにする
-- コンストラクタの引数も nullable であっても `required` をつける。ただしtimestamp等のメタデータフィールドは除く
-- firestoreのDBに書き込むProviderでは、ref.readを使用してClosureの中で呼ぶ
-- エラーメッセージについては、基本的にそのまま表示する（`e.toString()` の加工・プレフィックス除去等はしない）
-- Firestoreのサブコレクションに保存されるEntityは、親ドキュメントのIDをフィールドとして保持する（詳細: `documents/entity-parent-id-rules.md`）
+<!-- qa-config begin -->
+## QA
 
-### テスト方針
-- 実装後は手動テスト前に必ず、ユニットテスト・MaestroによるE2Eテストを実行する。該当するものがなければテストを新規作成をする。作成・実行が難しい場合はユーザーに報告する
+本リポジトリの手動 QA の項目と実行記録は QA データベース (tansu。 https://github.com/bannzai/tansu ) で管理し、CLI (`tansu`) か MCP サーバー (`tansu mcp`) で読み書きする (整備: setup-qa skill、実施・記録: run-qa skill)。project はこのリポジトリの `owner/repo`、feature はユーザー操作で到達できる機能の単位、item がチェック項目、run が確認結果 1 回分。
 
+- 機能実装・UI 変更を含む PR は、作成前に該当 feature の QA を実施し、結果を HEAD の commit で QA データベースに記録する (`tansu qa record`)。確認できなかった項目は skip / later と理由を記録する (検証したことにしない)
+- PR body には `tansu qa export --repo <owner/repo> --format pr-summary --since "$(git merge-base origin/<base> HEAD)"` の出力を貼り、何をどう確認したかをレビューできるようにする
+- 再テストが要る feature は `tansu qa verified --repo <owner/repo> --commit "$(git rev-parse HEAD)" --json` で確かめる
+- QA の起動方法・ログイン方法・動作確認手段・実行ナレッジ・QA 対象外の feature は project の行の本文を参照する (`tansu query project --json --where repo=<owner/repo>`)
+- 何をどこに書くかは setup-qa skill の `references/qa-db-content.md` を SSOT とする。新規 feature の追加時は setup-qa skill の `register_qa.sh` で feature と item を登録する
+<!-- qa-config end -->

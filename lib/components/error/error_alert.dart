@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:medicalarm/components/button/buttons.dart';
 import 'package:medicalarm/features/localization/l.dart';
+import 'package:medicalarm/utils/analytics/analytics.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 void showErrorAlert(BuildContext? context, Object error) {
@@ -65,12 +66,14 @@ class ErrorAlert extends StatelessWidget {
           AlertButton(
             text: L.viewFaq,
             onPressed: () async {
+              analytics.logEvent(name: 'error_alert_faq_pressed');
               launchUrl(Uri.parse(faq));
             },
           ),
         AlertButton(
           text: L.close,
           onPressed: () async {
+            analytics.logEvent(name: 'error_alert_close_pressed');
             Navigator.of(context).pop();
           },
         ),

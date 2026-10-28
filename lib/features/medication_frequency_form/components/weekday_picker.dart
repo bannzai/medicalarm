@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:medicalarm/utils/analytics/analytics.dart';
 import 'package:medicalarm/utils/date_time/weekday.dart';
 
 class WeekdayPicker extends StatelessWidget {
@@ -16,6 +17,7 @@ class WeekdayPicker extends StatelessWidget {
             ),
             trailing: weekdays.value.contains(weekday) ? const Icon(Icons.check) : null,
             onTap: () {
+              analytics.logEvent(name: 'med_freq_weekday_toggled');
               if (weekdays.value.contains(weekday)) {
                 weekdays.value = [...weekdays.value]..removeWhere((e) => e == weekday);
               } else {

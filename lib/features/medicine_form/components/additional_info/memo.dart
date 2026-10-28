@@ -9,6 +9,7 @@ import 'package:medicalarm/components/error/error_alert.dart';
 import 'package:medicalarm/components/loading/loading.dart';
 import 'package:medicalarm/features/localization/l.dart';
 import 'package:medicalarm/provider/app_user.dart';
+import 'package:medicalarm/utils/analytics/analytics.dart';
 import 'package:medicalarm/utils/image/image.dart';
 import 'package:medicalarm/utils/storage/firebase_cloud_storage.dart';
 
@@ -72,6 +73,7 @@ class ImagePickerButton extends HookConsumerWidget {
       isLoading: isLoading.value,
       child: GestureDetector(
         onTap: () async {
+          analytics.logEvent(name: 'medicine_form_memo_image_tapped');
           try {
             if (isLoading.value) {
               return;

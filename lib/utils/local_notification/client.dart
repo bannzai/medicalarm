@@ -2,9 +2,13 @@ import 'dart:async';
 import 'dart:math';
 import 'package:collection/collection.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
+import 'package:medicalarm/entity/group_member_notification_settings.dart';
 import 'package:medicalarm/entity/medication_history.dart';
 import 'package:medicalarm/entity/medicine.dart';
+import 'package:medicalarm/entity/onboarding_medication_plan.dart';
 import 'package:medicalarm/features/medications/entity/grouped.dart';
+import 'package:medicalarm/provider/app_user.dart';
+import 'package:medicalarm/provider/group_member_notification_settings.dart';
 import 'package:medicalarm/provider/medication_history.dart';
 import 'package:medicalarm/provider/medicine.dart';
 import 'package:medicalarm/utils/alarm_kit_service.dart';
@@ -28,9 +32,53 @@ const scheduleNotificationIdentifierOffset = 100000;
 const reminderNotificationIdentifierOffset = 1000000000;
 const followupNotificationIdentifierOffset = 2000000000;
 
+/// 既存の服薬通知（10 億以上）と重ならない仮設定専用の ID。
+const onboardingMedicationPlanNotificationIDs = [900000001, 900000002, 900000003];
+
 // NOTE: It can not be use Future.wait(processes) when register notification.
 class LocalNotificationService {
   final plugin = FlutterLocalNotificationsPlugin();
+
+  /// 薬の未登録を案内する通知だけを取り消す。
+  Future<void> cancelOnboardingMedicationPlanNotifications() async {
+    for (final notificationID in onboardingMedicationPlanNotificationIDs) {
+      await cancelNotification(localNotificationID: notificationID);
+    }
+  }
+
+  /// 薬・用量が未確定なので通常通知だけを設定し、服用記録の操作は付けない。
+  /// iOS で通知が未許可 (未決定・拒否) の間は OS へ登録せずに戻る。
+  Future<void> registerOnboardingMedicationPlanNotifications({required OnboardingMedicationPlan plan}) async {
+    // iOS 27 は未許可のまま登録すると UNErrorDomain 2003 (Source is not authorized) で失敗し、オンボーディングの
+    // 完了が止まる。許可は後からホーム画面で求めるため、ここでは見送り、許可ダイアログの後 (app が inactive → resumed)
+    // に OnboardingMedicationPlanResolver の同期で登録する。Android は実装が無く null になるので従来どおり登録する (#370)
+    final permissions = await plugin.resolvePlatformSpecificImplementation<IOSFlutterLocalNotificationsPlugin>()?.checkPermissions();
+    if (permissions != null && !permissions.isEnabled && !permissions.isProvisionalEnabled) {
+      return;
+    }
+    final now = tz.TZDateTime.now(tz.local);
+    for (final (index, schedule) in plan.schedules.indexed) {
+      final scheduledDate = tz.TZDateTime(tz.local, now.year, now.month, now.day, schedule.hour, schedule.minute);
+      await plugin.zonedSchedule(
+        onboardingMedicationPlanNotificationIDs[index],
+        L.addMedicine,
+        L.onboardingMedicationPlanNotificationBody,
+        scheduledDate.isAfter(now) ? scheduledDate : tz.TZDateTime(tz.local, now.year, now.month, now.day + 1, schedule.hour, schedule.minute),
+        const NotificationDetails(
+          iOS: DarwinNotificationDetails(
+            presentAlert: false,
+            presentBanner: true,
+            presentList: true,
+            presentSound: true,
+            interruptionLevel: InterruptionLevel.active,
+          ),
+          android: AndroidNotificationDetails('onboarding_medication_plan', 'Medicalarm'),
+        ),
+        androidScheduleMode: AndroidScheduleMode.inexactAllowWhileIdle,
+        matchDateTimeComponents: DateTimeComponents.time,
+      );
+    }
+  }
 
   static Future<void> setupTimeZone() async {
     tz.initializeTimeZones();
@@ -158,14 +206,33 @@ class RegisterReminderLocalNotification {
     await (Future.microtask(() => null), cancelReminderLocalNotification()).wait;
     analytics.debug(name: 'cancel_reminder_notification');
 
-    final (medicines, medicationHistories) = await (
+    final (medicines, medicationHistories, memberNotificationSettings) = await (
       ref.read(activeMedicinesProvider.future),
       ref.read(medicationHistoriesByDateProvider(today()).future),
+      ref.read(groupMemberNotificationSettingsProvider.future),
     ).wait;
+
+    // 通知文面の間隔警告(#81)は日付をまたいだ直近の服用も対象にするため、当日分(medicationHistories)とは別に
+    // recordedDateTime 基準で取得する。間隔設定のある薬が無ければ読まない
+    final longestMinimumDoseIntervalHours = medicines.map((medicine) => medicine.minimumDoseIntervalHours).nonNulls.maxOrNull;
+    List<MedicationHistory> recentMedicationHistories = [];
+    if (longestMinimumDoseIntervalHours != null) {
+      try {
+        recentMedicationHistories = await ref
+            .read(recentMedicationHistoriesFetchProvider)
+            .call(recordedSinceDateTime: DateTime.now().subtract(Duration(hours: longestMinimumDoseIntervalHours)));
+      } catch (e, st) {
+        // 間隔警告は補助機能。取得に失敗しても通知の再登録自体は止めない(キャンセル済みの通知が消えたままになるのを防ぐ)
+        errorLogger.recordError(e, st);
+      }
+    }
 
     await run(
       medicines: medicines,
       medicationHistories: medicationHistories,
+      recentMedicationHistories: recentMedicationHistories,
+      memberNotificationSettings: memberNotificationSettings,
+      currentUserID: ref.read(appUserIDProvider),
       loopCount: 0,
     );
   }
@@ -174,6 +241,12 @@ class RegisterReminderLocalNotification {
   static Future<void> run({
     required List<Medicine> medicines,
     required List<MedicationHistory> medicationHistories,
+    // 間隔警告(#81)の判定専用。当日分に限らず、最低服用間隔の範囲内に記録された服薬記録を渡す
+    required List<MedicationHistory> recentMedicationHistories,
+    // 自分のメンバー個別通知設定。未作成なら null。有効設定の解決に使う
+    required GroupMemberNotificationSettings? memberNotificationSettings,
+    // 有効設定の解決で作成者判定に使う自分の uid
+    required String currentUserID,
     // NOTE: [LocalNotificationReminder] 例えば frequency が cycleで、consecutiveDaysよりも後ろで、restDaysの期間にいる場合の再評価が必要になる
     // ループをいっぱい回してfuturesが空にならない場合までを採用する。上限をloopCount==10としている
     required int loopCount,
@@ -184,6 +257,23 @@ class RegisterReminderLocalNotification {
 
     final List<Future<void>> futures = [];
     final tzNow = tz.TZDateTime.now(tz.local);
+
+    // 最低服用間隔が設定された薬で、通知が鳴る時点でも前回の服用から間隔が空いていない場合に付ける注意文 (#81)。
+    // 通知は無効化せず、文面への注意の追記だけを行う
+    String doseIntervalWarningLineOf({required MedicationGroupScheduleRow scheduleRow, required DateTime fireDateTime}) {
+      final minimumDoseIntervalHours = scheduleRow.medicine.minimumDoseIntervalHours;
+      if (minimumDoseIntervalHours == null) {
+        return '';
+      }
+      final latestTakeRecordedDateTime = latestEffectiveTakeRecordedDateTime(
+        medicationHistories: recentMedicationHistories,
+        medicineID: scheduleRow.medicine.id,
+      );
+      if (latestTakeRecordedDateTime == null || !fireDateTime.isBefore(latestTakeRecordedDateTime.add(Duration(hours: minimumDoseIntervalHours)))) {
+        return '';
+      }
+      return '${L.doseIntervalNotificationWarning(minimumDoseIntervalHours)}\n';
+    }
 
     final offset = loopCount * registerDays;
     var badgeNumber = 0;
@@ -235,18 +325,27 @@ class RegisterReminderLocalNotification {
         // continue群が抜けてからインクリメント
         badgeNumber += 1;
 
+        // メンバー個別設定 → テンプレートの順で、自分(currentUserID)にとって有効な通知設定を解決する
+        MemberScheduleNotificationSetting effectiveSettingOf(MedicationGroupScheduleRow row) => resolveEffectiveNotificationSetting(
+              medicine: row.medicine,
+              schedule: row.medicationSchedule,
+              memberSettings: memberNotificationSettings,
+              currentUserID: currentUserID,
+            );
+
         // 通知をまとめて送るので、スケジュールの中にcriticalAlertを使うものが一つでもある場合はcriticalAlertを使う
-        final useCriticalAlert = group.scheduleRows.any((element) => element.medicationSchedule.notificationSetting.useCriticalAlert);
-        final largestCriticalAlertVolume = group.scheduleRows.map((e) => e.medicationSchedule.notificationSetting.criticalAlertVolume).max;
+        final useCriticalAlert = group.scheduleRows.any((row) => effectiveSettingOf(row).useCriticalAlert);
+        final largestCriticalAlertVolume = group.scheduleRows.map((row) => effectiveSettingOf(row).criticalAlertVolume).max;
 
         // 通知をまとめて送るので、スケジュールの中にAlarmKitを使うものが一つでもある場合はAlarmKitを使う
-        final useAlarmKit = group.scheduleRows.any((element) => element.medicationSchedule.notificationSetting.useAlarmKit);
+        final useAlarmKit = group.scheduleRows.any((row) => effectiveSettingOf(row).useAlarmKit);
 
-        final reminderEnabledScheduleRows = group.scheduleRows.where((element) => element.medicationSchedule.notificationSetting.isReminderEnabled);
+        final reminderEnabledScheduleRows = group.scheduleRows.where((row) => effectiveSettingOf(row).isReminderEnabled);
         if (reminderEnabledScheduleRows.isNotEmpty) {
           var message = '';
           for (final scheduleRow in reminderEnabledScheduleRows) {
             message += '${scheduleRow.medicine.doseReceiver.name} ${scheduleRow.medicine.name} ${scheduleRow.quantityMemo}\n';
+            message += doseIntervalWarningLineOf(scheduleRow: scheduleRow, fireDateTime: reminderDateTime);
           }
           final notificationID = _calcLocalNotificationID(
             isReminder: true,
@@ -332,11 +431,13 @@ class RegisterReminderLocalNotification {
           );
         }
 
-        final followUpEnabledScheduleRows = group.scheduleRows.where((element) => element.medicationSchedule.notificationSetting.isFollowupEnabled);
+        final followUpEnabledScheduleRows = group.scheduleRows.where((row) => effectiveSettingOf(row).isFollowupEnabled);
         if (followUpEnabledScheduleRows.isNotEmpty) {
+          final followupDateTime = reminderDateTime.add(const Duration(minutes: 30));
           var message = '';
           for (final scheduleRow in followUpEnabledScheduleRows) {
             message += '${scheduleRow.medicine.doseReceiver.name} ${scheduleRow.medicine.name} ${scheduleRow.quantityMemo}\n';
+            message += doseIntervalWarningLineOf(scheduleRow: scheduleRow, fireDateTime: followupDateTime);
           }
           final notificationID = _calcLocalNotificationID(
             isReminder: false,
@@ -349,8 +450,6 @@ class RegisterReminderLocalNotification {
           futures.add(
             Future(() async {
               try {
-                final followupDateTime = reminderDateTime.add(const Duration(minutes: 30));
-
                 // Local Notificationを登録
                 await localNotificationService.plugin.zonedSchedule(
                   notificationID,
@@ -428,7 +527,14 @@ class RegisterReminderLocalNotification {
 
     if (futures.isEmpty) {
       // NOTE: [LocalNotificationReminder] 例えば frequency が cycleで、consecutiveDaysよりも後ろで、restDaysの期間にいる場合の再評価が必要になる
-      run(medicines: medicines, medicationHistories: medicationHistories, loopCount: loopCount + 1);
+      run(
+        medicines: medicines,
+        medicationHistories: medicationHistories,
+        recentMedicationHistories: recentMedicationHistories,
+        memberNotificationSettings: memberNotificationSettings,
+        currentUserID: currentUserID,
+        loopCount: loopCount + 1,
+      );
       return;
     }
     analytics.debug(name: 'rrrn_e_before_run', parameters: {

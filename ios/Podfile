@@ -1,9 +1,5 @@
 # Uncomment this line to define a global platform for your project
-platform :ios, '16.0'
-
-# Source Code: https://github.com/FirebaseExtended/flutterfire/blob/efdcc16aa2f3d45a3835f0eb73801ba88e808e07/packages/firebase_core/firebase_core/ios/firebase_core.podspec#L6-L8
-# It should be with https://github.com/invertase/firestore-ios-sdk-frameworks.git :tag
-$FirebaseSDKVersion='11.10.0'
+platform :ios, '15.0'
 
 # CocoaPods analytics sends network stats synchronously affecting flutter build latency.
 ENV['COCOAPODS_DISABLE_STATS'] = 'true'
@@ -35,8 +31,11 @@ target 'Runner' do
   use_frameworks!
   use_modular_headers!
 
-  # Ref: https://github.dev/FirebaseExtended/flutterfire/tree/master/packages/firebase_core/firebase_core/ios/firebase_sdk_version.rb#L1-L2
-  pod 'FirebaseFirestore', :git => 'https://github.com/invertase/firestore-ios-sdk-frameworks.git', :tag => $FirebaseSDKVersion
+  # Firestore のビルド時間を短縮する precompiled の pod (invertase/firestore-ios-sdk-frameworks) は置かない。
+  # Swift Package Manager が有効な時は cloud_firestore が SwiftPM 経由で FirebaseFirestore を取り込み、
+  # Podfile に手で足した pod は Flutter が除外しないため二重リンクになる
+  # (https://docs.flutter.dev/packages-and-plugins/swift-package-manager/for-app-developers 「If you have manually edited
+  # your Podfile to add CocoaPods dependencies ... you must manually remove those changes」。#385)
 
   flutter_install_all_ios_pods File.dirname(File.realpath(__FILE__))
   target 'RunnerTests' do
@@ -62,6 +61,11 @@ post_install do |installer|
       # workaround: https://github.com/CocoaPods/CocoaPods/issues/11196#issuecomment-1058716826
       if config.build_settings['WRAPPER_EXTENSION'] == 'bundle'
         config.build_settings['DEVELOPMENT_TEAM'] = 'TQPN82UBBY'
+      end
+      # Xcode 27.1 (27A9275) は deployment target が 15.0 未満の target を Target Integrity のエラーにしてビルドを止める
+      # (podspec が 9.0〜13.0 を宣言する pod の target が 91 件あった)。Runner と同じ 15.0 に揃える (#370)
+      if config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'].to_f < 15.0
+        config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '15.0'
       end
     end
   end

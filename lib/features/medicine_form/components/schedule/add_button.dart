@@ -7,6 +7,7 @@ import 'package:medicalarm/features/preium_introduction/premium_introduction_she
 import 'package:medicalarm/style/button.dart';
 import 'package:medicalarm/style/color.dart';
 import 'package:medicalarm/features/localization/l.dart';
+import 'package:medicalarm/utils/analytics/analytics.dart';
 import 'package:medicalarm/utils/local_notification/client.dart';
 import 'package:medicalarm/utils/purchase/purchase.dart';
 import 'package:uuid/uuid.dart';
@@ -33,6 +34,7 @@ class MedicineScheduleAddButton extends HookConsumerWidget {
           if (customerInfo?.hasPremiumEntitlement == false) ...[
             TextButton(
               onPressed: () {
+                analytics.logEvent(name: 'med_schedule_add_premium_pressed');
                 showPremiumIntroductionSheet(context);
               },
               child: Text(
@@ -50,6 +52,7 @@ class MedicineScheduleAddButton extends HookConsumerWidget {
           onPressed: schedules.value.length >= MedicationSchedule.maxCount(hasPremiumEntitlement: customerInfo?.hasPremiumEntitlement)
               ? null
               : () {
+                  analytics.logEvent(name: 'med_schedule_add_pressed');
                   unawaited(registerReminderLocalNotification());
                   schedules.value = [
                     ...schedules.value,

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:medicalarm/entity/medicine.dart';
+import 'package:medicalarm/utils/analytics/analytics.dart';
 
 class MedicineScheduleDeleteButton extends StatelessWidget {
   const MedicineScheduleDeleteButton({
@@ -15,6 +16,7 @@ class MedicineScheduleDeleteButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return IconButton(
       onPressed: () {
+        analytics.logEvent(name: 'med_schedule_delete_pressed');
         schedules.value = schedules.value.where((element) => element != schedule).toList();
       },
       icon: const Icon(Icons.delete),

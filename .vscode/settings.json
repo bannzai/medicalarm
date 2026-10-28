@@ -1,0 +1,8 @@
+{
+  "dart.analysisExcludedFolders": ["test/helper/mock.mocks.dart"],
+  "dart.lineLength": 150,
+  "[dart]": {
+    "editor.rulers": [150]
+  },
+  "makefile.configureOnOpen": false
+}

@@ -173,7 +173,7 @@ class Purchase {
   /// Return value is used to display the completion page
   Future<bool> call(Package package) async {
     try {
-      final purchaserInfo = await Purchases.purchasePackage(package);
+      final purchaserInfo = await Purchases.purchase(PurchaseParams.package(package));
       final premiumEntitlement = purchaserInfo.customerInfo.entitlements.all[premiumEntitlementIdentifier];
       if (premiumEntitlement == null) {
         throw AssertionError('unexpected premium entitlements is not exists');
@@ -181,7 +181,12 @@ class Purchase {
       if (!premiumEntitlement.isActive) {
         throw FormatException(L.purchaseErrorActivationPending);
       }
-      return Future.value(true);
+      // 購入完了とトライアル開始 (period_type = trial) を区別して計測する。ペイウォール表示 → トライアル開始率の算出に使う
+      analytics.logEvent(
+        name: 'purchase_completed',
+        parameters: {'product_identifier': premiumEntitlement.productIdentifier, 'period_type': premiumEntitlement.periodType.name},
+      );
+      return true;
     } on PlatformException catch (exception, stack) {
       analytics.logEvent(
           name: 'catched_purchase_exception',

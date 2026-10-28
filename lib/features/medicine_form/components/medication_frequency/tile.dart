@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:medicalarm/components/container/flat_tile.dart';
+import 'package:medicalarm/components/sheet/full_screen_modal_bottom_sheet.dart';
 import 'package:medicalarm/entity/medication_frequency.dart';
 import 'package:medicalarm/features/medication_frequency_form/page.dart';
 import 'package:medicalarm/features/localization/l.dart';
+import 'package:medicalarm/utils/analytics/analytics.dart';
 
 class MedicationFrequencyTile extends StatelessWidget {
   final ValueNotifier<MedicationFrequency> frequency;
@@ -22,11 +24,9 @@ class MedicationFrequencyTile extends StatelessWidget {
             ],
           ),
           onTap: () {
-            showModalBottomSheet(
+            analytics.logEvent(name: 'medicine_form_freq_tile_tapped');
+            showFullScreenModalBottomSheet(
               context: context,
-              useSafeArea: true,
-              isScrollControlled: true,
-              backgroundColor: Colors.transparent,
               builder: (context) => MedicationFrequencyFormPage(frequency: frequency),
             );
           },

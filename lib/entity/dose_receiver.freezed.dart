@@ -14,7 +14,7 @@ T _$identity<T>(T value) => value;
 
 /// @nodoc
 mixin _$DoseReceiver {
-  String get id;
+  String get id; // 作成者(creator)の userID。グループ共有では他メンバーが閲覧することもあるため所有者ではなく作成者を表す。
   String get userID;
   String get name;
   @ClientCreatedTimestamp()
@@ -327,6 +327,7 @@ class _DoseReceiver extends DoseReceiver {
 
   @override
   final String id;
+// 作成者(creator)の userID。グループ共有では他メンバーが閲覧することもあるため所有者ではなく作成者を表す。
   @override
   final String userID;
   @override

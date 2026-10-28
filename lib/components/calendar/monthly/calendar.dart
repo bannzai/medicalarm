@@ -5,6 +5,7 @@ import 'package:medicalarm/components/calendar/const.dart';
 import 'package:medicalarm/components/calendar/weekly/badge.dart';
 import 'package:medicalarm/components/loading/indicator.dart';
 import 'package:medicalarm/entity/diary.dart';
+import 'package:medicalarm/style/color.dart';
 import 'package:medicalarm/provider/diary.dart';
 import 'package:medicalarm/utils/date_time/weekday.dart';
 
@@ -38,13 +39,15 @@ class MonthCalendar extends HookConsumerWidget {
                 ),
               ),
             ),
-            const Divider(height: 1),
+            // アプリ全体のテーマは dividerColor: Colors.black のため、カレンダーの罫線には
+            // 明示的に薄い色を指定する。黒罫線だとグリッドが太く重い印象になる (Pilll の月間カレンダーと同じ薄グレー基調)
+            const Divider(height: 1, color: AppColors.border),
             ...List.generate(CalendarConst.maxLineCount, (offset) {
               if (weeks.length <= offset) {
                 return const Column(
                   children: [
                     SizedBox(height: CalendarConst.monthlyTileHeight),
-                    Divider(height: 1),
+                    Divider(height: 1, color: AppColors.border),
                   ],
                 );
               }
@@ -53,7 +56,7 @@ class MonthCalendar extends HookConsumerWidget {
               return Column(
                 children: [
                   weekCalendar,
-                  const Divider(height: 1),
+                  const Divider(height: 1, color: AppColors.border),
                 ],
               );
             }),

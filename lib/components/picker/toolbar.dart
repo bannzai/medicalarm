@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:medicalarm/style/color.dart';
 import 'package:medicalarm/features/localization/l.dart';
+import 'package:medicalarm/utils/analytics/analytics.dart';
 
 class PickerToolbar extends StatelessWidget {
   final VoidCallback done;
@@ -16,6 +17,7 @@ class PickerToolbar extends StatelessWidget {
         children: <Widget>[
           CupertinoButton(
             onPressed: () {
+              analytics.logEvent(name: 'picker_toolbar_cancel_pressed');
               cancel();
             },
             padding: const EdgeInsets.symmetric(
@@ -33,6 +35,7 @@ class PickerToolbar extends StatelessWidget {
           ),
           CupertinoButton(
             onPressed: () {
+              analytics.logEvent(name: 'picker_toolbar_done_pressed');
               done();
             },
             padding: const EdgeInsets.symmetric(
