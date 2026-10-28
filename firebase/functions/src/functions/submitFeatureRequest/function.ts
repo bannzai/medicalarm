@@ -52,6 +52,7 @@ function escapeSlackText(text: string): string {
 
 module.exports = onCall(
   {
+    // Firestore を読まず Slack への HTTP 送信 1 回だけの処理のため、他の関数 (1GiB) より小さい Cloud Functions の既定値で足りる
     memory: "256MiB",
     region: "asia-northeast1",
     secrets: [slackWebhookUrlSecret],

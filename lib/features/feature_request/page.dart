@@ -67,11 +67,12 @@ class FeatureRequestFormPage extends HookConsumerWidget {
                           keyboardType: TextInputType.emailAddress,
                           autovalidateMode: AutovalidateMode.onUserInteraction,
                           decoration: const InputDecoration(hintText: 'name@example.com'),
-                          validator: (v) {
-                            if (v == null || v.isEmpty) return null;
-                            return RegExp(r'^[^@\s]+@[^@\s]+\.[^@\s]+$').hasMatch(v) ? null : L.featureRequestEmailInvalid;
+                          validator: (inputEmailAddress) {
+                            if (inputEmailAddress == null || inputEmailAddress.isEmpty) return null;
+                            // サーバー (submitFeatureRequest の emailAddressPattern) と同じ判定にする
+                            return RegExp(r'^[^@\s]+@[^@\s]+\.[^@\s]+$').hasMatch(inputEmailAddress) ? null : L.featureRequestEmailInvalid;
                           },
-                          onChanged: (v) => emailAddress.value = v,
+                          onChanged: (inputEmailAddress) => emailAddress.value = inputEmailAddress,
                         ),
                         const SizedBox(height: 4),
                         Text(L.featureRequestEmailFooter, style: const TextStyle(fontSize: 12, color: Colors.grey)),
