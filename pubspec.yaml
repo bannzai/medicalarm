@@ -55,15 +55,15 @@ dependencies:
   freezed_annotation: ^3.1.0
   json_annotation: ^4.8.0
 
-  riverpod: ^2.6.1
-  hooks_riverpod: ^2.6.1
-  riverpod_annotation: ^2.6.1
+  # Dart 3.13 (Flutter 3.47) の SDK を解析できる analyzer 14 系を使うため、riverpod_generator 4 系に合わせて riverpod 3 系にする (#447)
+  riverpod: ^3.4.3
+  hooks_riverpod: ^3.4.3
+  riverpod_annotation: ^4.0.7
   flutter_hooks: ^0.21.3+1
 
   url_launcher: ^6.3.0
   package_info_plus: ^9.0.0
-  mockito: ^5.4.6
-  async_value_group: ^1.0.0
+  mockito: ^5.8.1
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -101,12 +101,10 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^6.0.0
-  build_runner: ^2.5.4
-  json_serializable:
-  freezed: ^3.1.0
-  custom_lint: ^0.7.6
-  riverpod_lint: ^2.3.10
-  riverpod_generator: ^2.6.5
+  build_runner: ^2.16.2
+  json_serializable: ^6.14.1
+  freezed: ^4.0.2
+  riverpod_generator: ^4.0.9
   integration_test:
     sdk: flutter
   flutter_driver:
