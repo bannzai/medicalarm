@@ -81,7 +81,7 @@ jobs:
       id-token: write # Tailscale の OIDC (workload identity federation) 認証に必要
       contents: read
     # タグ運用はしないため main の commit SHA で固定する（更新時は SHA を書き換える）
-    uses: bannzai/simtunnel/.github/workflows/session.yml@031ba3bb123bbc201205dcd9ecad09d49681392c # main 2026-09-01
+    uses: bannzai/simtunnel/.github/workflows/session.yml@a190b7d0f81bc87bf7760f3acff7a851819e4e61 # main 2026-10-28
     with:
       session: ${{ inputs.session }}
       device: ${{ inputs.device }}
