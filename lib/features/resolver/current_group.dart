@@ -35,7 +35,7 @@ class CurrentGroupResolver extends HookConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final currentGroupID = ref.watch(currentGroupIDProvider);
-    final appUser = ref.watch(appUserProvider).valueOrNull;
+    final appUser = ref.watch(appUserProvider).value;
     final defaultGroupID = appUser?.defaultGroupID;
     final migrated = appUser?.groupMigratedDateTime != null;
     final currentGroupIDNotifier = ref.watch(currentGroupIDProvider.notifier);
@@ -77,7 +77,7 @@ class CurrentGroupResolver extends HookConsumerWidget {
     // permission-denied のまま復帰しない。userGroups がロード済みで currentGroupID が
     // 所属グループに存在しなければ、有効なグループ(defaultGroupID→先頭→null)へ付け替える。
     useEffect(() {
-      final groups = userGroups.valueOrNull;
+      final groups = userGroups.value;
       // ロード前(AsyncLoading)は判定材料が無いため何もしない(誤リセット防止)。
       if (groups == null || currentGroupID == null || groups.any((group) => group.id == currentGroupID)) {
         return null;

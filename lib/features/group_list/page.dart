@@ -42,7 +42,7 @@ class GroupListPageBody extends HookConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final appUserID = ref.watch(appUserIDProvider);
-    final defaultGroupID = ref.watch(appUserProvider).valueOrNull?.defaultGroupID;
+    final defaultGroupID = ref.watch(appUserProvider).value?.defaultGroupID;
     final hasPremiumEntitlement = ref.watch(customerInfoProvider).asData?.value.hasPremiumEntitlement ?? false;
     // 作成上限は「自分が作成した(ownerUserID == 自分)グループ数」で判定する（個別課金ポリシー）。
     final ownedGroupCount = groups.where((group) => group.ownerUserID == appUserID).length;

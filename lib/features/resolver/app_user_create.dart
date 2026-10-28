@@ -30,7 +30,7 @@ class AppUserCreate {
 }
 
 @Riverpod(dependencies: [userDatabase])
-AppUserCreate appUserCreate(AppUserCreateRef ref) {
+AppUserCreate appUserCreate(Ref ref) {
   return AppUserCreate(userDatabase: ref.watch(userDatabaseProvider));
 }
 

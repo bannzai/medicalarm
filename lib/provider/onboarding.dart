@@ -17,6 +17,6 @@ class OnboardingComplete {
 }
 
 @Riverpod(dependencies: [userDatabase])
-OnboardingComplete onboardingComplete(OnboardingCompleteRef ref) {
+OnboardingComplete onboardingComplete(Ref ref) {
   return OnboardingComplete(userDatabase: ref.watch(userDatabaseProvider));
 }

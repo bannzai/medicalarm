@@ -18,6 +18,8 @@ import 'package:medicalarm/utils/date_time/date_time_ext.dart';
 import 'package:medicalarm/utils/purchase/purchase.dart';
 import 'package:medicalarm/features/localization/l.dart';
 
+// 撮影用の画面で、integration_test が ProviderScope の overrides で provider を差し替えて描画する。
+// riverpod_lint 3 の provider_dependencies が求める @Dependencies (experimental) は付けず、下の 2 つの widget でだけ止める (#447)
 class ScreenshotMedicationHistoriesPage extends HookWidget {
   const ScreenshotMedicationHistoriesPage({super.key});
 
@@ -40,6 +42,7 @@ class ScreenshotMedicationHistoriesPage extends HookWidget {
   }
 }
 
+// ignore: provider_dependencies
 class MedicationsHistoryPageBody extends HookConsumerWidget {
   final ValueNotifier<DateTime> date;
   final PageController pageController;
@@ -140,6 +143,7 @@ class MedicationHistoryEmpty extends StatelessWidget {
   }
 }
 
+// ignore: provider_dependencies
 class MedicationHistoryTile extends HookConsumerWidget {
   const MedicationHistoryTile({
     super.key,

@@ -44,13 +44,13 @@ class AppEntityPrepareResolver extends HookConsumerWidget {
       return null;
     }, [doseReceivers, retryCount.value]);
 
-    if (doseReceivers.valueOrNull?.isEmpty == true && initializationError.value != null) {
+    if (doseReceivers.value?.isEmpty == true && initializationError.value != null) {
       return Retry(
         retry: () => retryCount.value++,
         child: RetryPage(exception: initializationError.value!),
       );
     }
-    if (doseReceivers.valueOrNull?.isEmpty == true) {
+    if (doseReceivers.value?.isEmpty == true) {
       return const IndicatorPage();
     }
     return builder(context);

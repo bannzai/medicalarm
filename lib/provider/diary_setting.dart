@@ -6,7 +6,7 @@
 
 // [DiarySetting:WIP] 服用者ごとのタグをどういう風に管理するのが良いかわかなかったのでファーストリリースから外す
 // @Riverpod(dependencies: [userDatabase])
-// Stream<DiarySetting> diarySetting(DiarySettingRef ref) {
+// Stream<DiarySetting> diarySetting(Ref ref) {
 //   final database = ref.watch(userDatabaseProvider);
 //   return database.diarySettingReference().snapshots().map((event) => event.data()!);
 // }

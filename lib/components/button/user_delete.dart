@@ -241,7 +241,7 @@ bool isLinkedAppleFor(User user) {
 
 final isAppleLinkedProvider = Provider((ref) {
   final user = ref.watch(firebaseUserChangesProvider);
-  final userValue = user.valueOrNull;
+  final userValue = user.value;
   if (userValue == null) {
     return false;
   }
@@ -250,7 +250,7 @@ final isAppleLinkedProvider = Provider((ref) {
 
 final isGoogleLinkedProvider = Provider((ref) {
   final user = ref.watch(firebaseUserChangesProvider);
-  final userValue = user.valueOrNull;
+  final userValue = user.value;
   if (userValue == null) {
     return false;
   }

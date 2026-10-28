@@ -6,13 +6,12 @@ import 'package:medicalarm/features/resolver/database.dart';
 import 'package:medicalarm/provider/app_user.dart';
 import 'package:medicalarm/provider/onboarding_medication_plan.dart';
 import 'package:medicalarm/utils/analytics/error.dart';
-import 'package:riverpod/riverpod.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 
 part 'medicine.g.dart';
 
 @Riverpod(dependencies: [currentGroupDatabase])
-Stream<List<Medicine>> activeMedicines(ActiveMedicinesRef ref) {
+Stream<List<Medicine>> activeMedicines(Ref ref) {
   final database = ref.watch(currentGroupDatabaseProvider);
   return database
       .medicinesReference()
@@ -108,7 +107,7 @@ class MedicineAdd {
 }
 
 @Riverpod(dependencies: [currentGroupDatabase, appUserID, OnboardingMedicationPlanStore])
-MedicineAdd medicineAdd(MedicineAddRef ref) {
+MedicineAdd medicineAdd(Ref ref) {
   final database = ref.watch(currentGroupDatabaseProvider);
   final userID = ref.watch(appUserIDProvider);
   return MedicineAdd(

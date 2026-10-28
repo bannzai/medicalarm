@@ -1,3 +1,6 @@
+// riverpod_lint 3 は scoped provider を読む関数に @Dependencies を求めるが、テストは ProviderContainer を直接作って
+// 読むため、widget ツリーの依存の伝播を検査するこの lint の対象外にする (#447)
+// ignore_for_file: provider_dependencies
 import 'dart:async';
 
 import 'package:flutter/foundation.dart';

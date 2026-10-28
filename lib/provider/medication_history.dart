@@ -13,13 +13,13 @@ import 'package:riverpod_annotation/riverpod_annotation.dart';
 part 'medication_history.g.dart';
 
 @Riverpod(dependencies: [currentGroupDatabase])
-Stream<List<MedicationHistory>> medicationHistories(MedicationHistoriesRef ref) {
+Stream<List<MedicationHistory>> medicationHistories(Ref ref) {
   final database = ref.watch(currentGroupDatabaseProvider);
   return database.medicationHistoriesReference().snapshots().map((event) => event.docs.map((doc) => doc.data()).toList());
 }
 
 @Riverpod(dependencies: [currentGroupDatabase])
-Stream<List<MedicationHistory>> medicationHistoriesByDate(MedicationHistoriesRef ref, DateTime date) {
+Stream<List<MedicationHistory>> medicationHistoriesByDate(Ref ref, DateTime date) {
   final database = ref.watch(currentGroupDatabaseProvider);
   return database
       .medicationHistoriesReference()
@@ -48,7 +48,7 @@ class RecentMedicationHistoriesFetch {
 }
 
 @Riverpod(dependencies: [currentGroupDatabase])
-RecentMedicationHistoriesFetch recentMedicationHistoriesFetch(RecentMedicationHistoriesFetchRef ref) {
+RecentMedicationHistoriesFetch recentMedicationHistoriesFetch(Ref ref) {
   return RecentMedicationHistoriesFetch(database: ref.watch(currentGroupDatabaseProvider));
 }
 
@@ -116,7 +116,7 @@ class MedicationHistoryTake {
 }
 
 @Riverpod(dependencies: [currentGroupDatabase, appUserID])
-MedicationHistoryTake medicationHistoryTake(MedicationHistoryTakeRef ref) {
+MedicationHistoryTake medicationHistoryTake(Ref ref) {
   return MedicationHistoryTake(database: ref.watch(currentGroupDatabaseProvider), userID: ref.watch(appUserIDProvider));
 }
 
@@ -157,7 +157,7 @@ class MedicationHistoryRevert {
 }
 
 @Riverpod(dependencies: [currentGroupDatabase, appUserID])
-MedicationHistoryRevert medicationHistoryRevert(MedicationHistoryRevertRef ref) {
+MedicationHistoryRevert medicationHistoryRevert(Ref ref) {
   return MedicationHistoryRevert(database: ref.watch(currentGroupDatabaseProvider), userID: ref.watch(appUserIDProvider));
 }
 
@@ -204,7 +204,7 @@ class MedicationHistoryUndoRevert {
 }
 
 @Riverpod(dependencies: [currentGroupDatabase])
-MedicationHistoryUndoRevert medicationHistoryUndoRevert(MedicationHistoryUndoRevertRef ref) {
+MedicationHistoryUndoRevert medicationHistoryUndoRevert(Ref ref) {
   return MedicationHistoryUndoRevert(ref.watch(currentGroupDatabaseProvider));
 }
 
@@ -222,6 +222,6 @@ class MedicationHistoryMemoUpdate {
 }
 
 @Riverpod(dependencies: [currentGroupDatabase])
-MedicationHistoryMemoUpdate medicationHistoryMemoUpdate(MedicationHistoryMemoUpdateRef ref) {
+MedicationHistoryMemoUpdate medicationHistoryMemoUpdate(Ref ref) {
   return MedicationHistoryMemoUpdate(ref.watch(currentGroupDatabaseProvider));
 }
