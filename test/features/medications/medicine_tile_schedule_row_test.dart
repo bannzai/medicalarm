@@ -414,6 +414,38 @@ void main() {
       )).called(1);
     });
 
+    testWidgets('チェックとアンチェックを書き込みの完了前に繰り返しても、反映された各 take を取り消す', (tester) async {
+      // オフラインを模して、どちらの take の書き込みも完了させない
+      when(medicationHistoryTake.call(
+        medicationHistory: anyNamed('medicationHistory'),
+        newMedicationHistoryID: anyNamed('newMedicationHistoryID'),
+        recordedDateTime: anyNamed('recordedDateTime'),
+        scheduledRecordedDate: anyNamed('scheduledRecordedDate'),
+        medicine: anyNamed('medicine'),
+        medicationSchedule: anyNamed('medicationSchedule'),
+        memberSettings: anyNamed('memberSettings'),
+      )).thenAnswer((_) => Completer<MedicationHistory>().future);
+      var newMedicationHistoryIDCount = 0;
+      when(medicationHistoryTake.newMedicationHistoryID()).thenAnswer((_) {
+        newMedicationHistoryIDCount += 1;
+        return newMedicationHistoryIDCount == 1 ? 'history-1' : 'history-2';
+      });
+      await pumpScheduleRow(tester, scheduleRow: buildUncheckedScheduleRow());
+
+      // チェック(history-1) → アンチェック → チェック(history-2) → アンチェック
+      for (var i = 0; i < 4; i++) {
+        await tester.tap(find.byType(Checkbox));
+        await tester.pump();
+      }
+      // history-1 のローカルの書き込みが行に反映される
+      await pumpScheduleRow(tester, scheduleRow: buildCheckedScheduleRow());
+      await tester.pump();
+
+      expect(tester.widget<Checkbox>(find.byType(Checkbox)).value, false);
+      final captured = verify(medicationHistoryRevert.call(takeMedicationHistory: captureAnyNamed('takeMedicationHistory'))).captured;
+      expect(captured.map((medicationHistory) => (medicationHistory as MedicationHistory).id), ['history-1']);
+    });
+
     testWidgets('take の書き込み中に他メンバーの記録が行に届いても、アンチェックは自分の take を取り消す', (tester) async {
       final takeCompleter = Completer<MedicationHistory>();
       when(medicationHistoryTake.call(

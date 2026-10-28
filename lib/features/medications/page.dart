@@ -260,8 +260,9 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
     // 行に反映される前のアンチェックが、取消対象を行に残っている取消済みの古い take ではなくこの take から引き継ぐために保持する
     final pendingTake = useRef<({String medicationHistoryID, Completer<MedicationHistory?> write})?>(null);
     // 行に反映される前にアンチェックされ、取消対象として完了を待っている take。待っている間に記録が行へ反映された時に
-    // 書き込みの完了を待たずに取消へ進めることと、その記録を未チェックとして表示するために保持する
-    final revertingTake = useRef<({String medicationHistoryID, Completer<MedicationHistory?> write})?>(null);
+    // 書き込みの完了を待たずに取消へ進めることと、その記録を未チェックとして表示するために保持する。
+    // チェックとアンチェックを書き込みの完了前に繰り返すと複数の take が同時に取消を待つため、すべて保持する
+    final revertingTakes = useRef(<({String medicationHistoryID, Completer<MedicationHistory?> write})>[]);
     // 実行中の間隔チェック(takeWithIntervalCheck)の世代。チェックのたびに進め、
     // フェッチ・ダイアログ待ちの古い継続が最新の操作を追い越して記録しないようにする (#81)
     final takeOperationGeneration = useRef(0);
@@ -277,22 +278,25 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
     useEffect(() {
       final medicationHistory = scheduleRow.medicationHistory;
       // 取消を待っている take の記録が行に反映された場合は、取消がまだ行に未反映なので未チェックとして扱い続ける
-      final revertingTakeMedicationHistoryID = revertingTake.value?.medicationHistoryID;
-      final isRevertingTakeShown = medicationHistory != null && medicationHistory.id == revertingTakeMedicationHistoryID;
+      final isRevertingTakeShown =
+          medicationHistory != null && revertingTakes.value.any((revertingTake) => revertingTake.medicationHistoryID == medicationHistory.id);
       // 行の記録が入れ替わった = 自分の revert 発行前後の snapshot 遅延は解消済み。
       // ただし表示されたのが取消を待っている take なら、その取消はまだ行に未反映
       hasPendingRevert.value = isRevertingTakeShown;
       // take の記録が行に反映されたら、以降のアンチェックは行の記録をそのまま取消対象にできるので下ろす。
       // Firestore の set の Future はサーバーの応答まで完了せずオフラインでは待ち続けるため、反映された記録を take の結果として渡す。
       // 遅れて届いた古い take や他メンバーの記録と取り違えないよう、書き込み先の ID が一致する記録だけを対象にする
-      for (final takeRef in [pendingTake, revertingTake]) {
-        final takeValue = takeRef.value;
-        if (takeValue != null && medicationHistory != null && medicationHistory.id == takeValue.medicationHistoryID) {
-          if (!takeValue.write.isCompleted) {
+      if (medicationHistory != null) {
+        final pendingTakeValue = pendingTake.value;
+        for (final takeValue in [?pendingTakeValue, ...revertingTakes.value]) {
+          if (takeValue.medicationHistoryID == medicationHistory.id && !takeValue.write.isCompleted) {
             takeValue.write.complete(medicationHistory);
           }
-          takeRef.value = null;
         }
+        if (pendingTakeValue?.medicationHistoryID == medicationHistory.id) {
+          pendingTake.value = null;
+        }
+        revertingTakes.value.removeWhere((revertingTake) => revertingTake.medicationHistoryID == medicationHistory.id);
       }
       // 行に反映される前の take はチェック済みのまま表示する。取消済みの古い take の snapshot が遅れて届いて未チェックに
       // 戻すと、チェックし直しで take が重複し、後のアンチェックで片方しか取り消せない
@@ -447,11 +451,11 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
         // アンチェックされたのでチェック済みの表示対象から外し、取消対象として完了を待つ。
         // 待っている間に行へ記録が反映された時は useEffect が完了させる
         pendingTake.value = null;
-        revertingTake.value = pendingTakeValue;
+        revertingTakes.value.add(pendingTakeValue);
         medicationHistory = await pendingTakeValue.write.future;
         // 書き込めた take は、記録が行に反映されるまで(useEffect が下ろすまで)未チェックとして表示するために残す
-        if (medicationHistory == null && revertingTake.value == pendingTakeValue) {
-          revertingTake.value = null;
+        if (medicationHistory == null) {
+          revertingTakes.value.remove(pendingTakeValue);
         }
       } else if (hasPendingRevert.value) {
         // 自分の取消が行に未反映で、表示中の take は取消済み。もう一度取り消すと取消の記録が重複する
