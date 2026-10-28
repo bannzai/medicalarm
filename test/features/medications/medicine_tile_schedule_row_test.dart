@@ -330,6 +330,31 @@ void main() {
       expect(captured.map((medicationHistory) => (medicationHistory as MedicationHistory).id), ['history-1', 'history-2']);
     });
 
+    // オフライン・低速回線では take の書き込みの Future が完了しないまま、ローカルの書き込みが行に反映される。
+    // この状態のアンチェックが書き込みの完了を待つと、取消が発行されないままサーバーに take だけが残る
+    testWidgets('take の書き込み完了前でも、行に反映された記録のアンチェックは待たずに取り消す', (tester) async {
+      final takeCompleter = Completer<MedicationHistory>();
+      when(medicationHistoryTake.call(
+        medicationHistory: anyNamed('medicationHistory'),
+        recordedDateTime: anyNamed('recordedDateTime'),
+        scheduledRecordedDate: anyNamed('scheduledRecordedDate'),
+        medicine: anyNamed('medicine'),
+        medicationSchedule: anyNamed('medicationSchedule'),
+        memberSettings: anyNamed('memberSettings'),
+      )).thenAnswer((_) => takeCompleter.future);
+      await pumpScheduleRow(tester, scheduleRow: buildUncheckedScheduleRow());
+
+      await tester.tap(find.byType(Checkbox));
+      await tester.pump();
+      // ローカルの書き込みが行に反映される
+      await pumpScheduleRow(tester, scheduleRow: buildCheckedScheduleRow());
+      await tester.tap(find.byType(Checkbox));
+      await tester.pump();
+
+      final captured = verify(medicationHistoryRevert.call(takeMedicationHistory: captureAnyNamed('takeMedicationHistory'))).captured;
+      expect(captured.map((medicationHistory) => (medicationHistory as MedicationHistory).id), ['history-1']);
+    });
+
     testWidgets('チェックし直しの take の完了後・行への反映前の再アンチェックは、その take を取り消す', (tester) async {
       final retakeMedicationHistory = buildMedicationHistory().copyWith(id: 'history-2');
       when(medicationHistoryTake.call(

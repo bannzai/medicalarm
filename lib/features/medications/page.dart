@@ -256,10 +256,13 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
     // 既存 take は revert に打ち消されたままなので、上書きしてもチェック済みには戻らない
     final hasPendingRevert = useRef(false);
     // 新しい記録を追記する take が書き込む記録。take の開始から、その記録が行の snapshot に反映されるか
-    // 再アンチェックの取消対象に使われるまで非 null で、値は書き込んだ記録 (失敗時は null)。
-    // 行に反映される前の再アンチェックが、取消対象を行に残っている取消済みの古い take ではなく
+    // アンチェックの取消対象に使われるまで非 null で、値は書き込んだ記録 (失敗時は null)。
+    // 行に反映される前のアンチェックが、取消対象を行に残っている取消済みの古い take ではなく
     // この take の結果から引き継ぐために保持する
     final pendingTakeWrite = useRef<Completer<MedicationHistory?>?>(null);
+    // この行で最後に取り消した take の ID。取消前の take の snapshot が遅れて届いた時に、
+    // 実行中の take の記録と取り違えないために保持する
+    final revertedMedicationHistoryID = useRef<String?>(null);
     // 実行中の間隔チェック(takeWithIntervalCheck)の世代。チェックのたびに進め、
     // フェッチ・ダイアログ待ちの古い継続が最新の操作を追い越して記録しないようにする (#81)
     final takeOperationGeneration = useRef(0);
@@ -276,16 +279,16 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
       isChecked.value = scheduleRow.medicationHistory != null;
       // 行の記録が入れ替わった = 自分の revert 発行前後の snapshot 遅延は解消済み
       hasPendingRevert.value = false;
-      // 行に反映されたのが take の書き込んだ記録なら、以降の再アンチェックは行の記録をそのまま取消対象にできるので下ろす。
-      // 遅れて届いた別の記録(取消前の古い take 等)では下ろさない。take の記録の ID は書き込みの完了まで分からないため完了を待って照合する
+      // take の記録が行に反映されたら、以降の再アンチェックは行の記録をそのまま取消対象にできるので下ろす。
+      // Firestore の set の Future はサーバーの応答まで完了せずオフラインでは待ち続けるため、反映された記録を take の結果として渡す。
+      // 自分が取り消した take の snapshot が遅れて届いた場合は、take の記録ではないので渡さない
       final takeWrite = pendingTakeWrite.value;
-      final medicationHistoryID = scheduleRow.medicationHistory?.id;
-      if (takeWrite != null && medicationHistoryID != null) {
-        unawaited(takeWrite.future.then((takenMedicationHistory) {
-          if (takenMedicationHistory?.id == medicationHistoryID && pendingTakeWrite.value == takeWrite) {
-            pendingTakeWrite.value = null;
-          }
-        }));
+      final medicationHistory = scheduleRow.medicationHistory;
+      if (takeWrite != null && medicationHistory != null && medicationHistory.id != revertedMedicationHistoryID.value) {
+        if (!takeWrite.isCompleted) {
+          takeWrite.complete(medicationHistory);
+        }
+        pendingTakeWrite.value = null;
       }
       return null;
     }, [scheduleRow.medicationHistory?.id]);
@@ -428,7 +431,7 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
       final takeWrite = pendingTakeWrite.value;
       final MedicationHistory? medicationHistory;
       if (takeWrite != null) {
-        // チェックし直しの take が完了する前の再アンチェック。行に残っているのは取消済みの古い take なので、
+        // take の記録が行に反映される前のアンチェック。行に残っているのは記録なしか取消済みの古い take なので、
         // take の完了を待ってその結果を取り消す。古い take を取り消すと、後から完了した take でチェック済みに戻ってしまう。
         // 待っている間のチェックし直しが古い take への上書きにならないよう、待つ前に立てる
         hasPendingRevert.value = true;
@@ -453,6 +456,7 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
       // 「既存 take への上書き」と誤解釈され、後から完了した revert に打ち消されてしまう。
       // take を待った場合も、待っている間に行へ記録が反映されると useEffect が下ろすため立て直す
       hasPendingRevert.value = true;
+      revertedMedicationHistoryID.value = medicationHistory.id;
 
       try {
         await medicationHistoryRevert.call(takeMedicationHistory: medicationHistory);
