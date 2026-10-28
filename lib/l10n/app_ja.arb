@@ -319,6 +319,30 @@
   "@silentModeNotificationDescription": {
     "description": "マナーモード時の通知の説明文"
   },
+  "alarmKitNotification": "アラーム機能",
+  "@alarmKitNotification": {
+    "description": "目覚まし時計のように鳴る通知 (iOS の AlarmKit) を有効にするスイッチのラベル"
+  },
+  "alarmKitNotificationDescription": "目覚まし同様の通知が鳴ります。サイレントモードや集中モード時でも確実に通知されます",
+  "@alarmKitNotificationDescription": {
+    "description": "アラーム機能のスイッチの説明文"
+  },
+  "focusConnectBlockOtherApps": "通知受信から服薬記録するまで他のアプリをブロックする",
+  "@focusConnectBlockOtherApps": {
+    "description": "連携アプリ Focus で、服薬の通知を受けてから服薬を記録するまで他のアプリを使えなくする設定のラベル"
+  },
+  "focusConnectBlockOtherAppsDescription": "通知受信から服薬記録するまで他のアプリをブロックする機能が有効になります。",
+  "@focusConnectBlockOtherAppsDescription": {
+    "description": "Focus 連携で他のアプリをブロックする設定の説明文"
+  },
+  "focusNotInstalled": "Focusがインストールされていません",
+  "@focusNotInstalled": {
+    "description": "連携アプリ Focus が端末に無い時のダイアログのタイトル。Focus はアプリ名なので翻訳しない"
+  },
+  "focusInstallMessage": "Focusをインストールします",
+  "@focusInstallMessage": {
+    "description": "Focus が無い時のダイアログの本文。OK を押すと App Store の Focus のページを開く。Focus はアプリ名なので翻訳しない"
+  },
   "everyXDaysFormat": "{count}日ごと",
   "@everyXDaysFormat": {
     "description": "X日ごとの服用頻度を表示する際のフォーマット",
