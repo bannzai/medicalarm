@@ -294,6 +294,42 @@ void main() {
       expect(captured.map((medicationHistory) => (medicationHistory as MedicationHistory).id), ['history-1', 'history-2']);
     });
 
+    testWidgets('チェックし直しの take の実行中に古い take の snapshot が遅れて届いても、再アンチェックはチェックし直しの take を取り消す', (tester) async {
+      final retakeCompleter = Completer<MedicationHistory>();
+      final retakeMedicationHistory = buildMedicationHistory().copyWith(id: 'history-2');
+      var takeCount = 0;
+      when(medicationHistoryTake.call(
+        medicationHistory: anyNamed('medicationHistory'),
+        recordedDateTime: anyNamed('recordedDateTime'),
+        scheduledRecordedDate: anyNamed('scheduledRecordedDate'),
+        medicine: anyNamed('medicine'),
+        medicationSchedule: anyNamed('medicationSchedule'),
+        memberSettings: anyNamed('memberSettings'),
+      )).thenAnswer((_) {
+        takeCount += 1;
+        return takeCount == 1 ? Future.value(buildMedicationHistory()) : retakeCompleter.future;
+      });
+      await pumpScheduleRow(tester, scheduleRow: buildUncheckedScheduleRow());
+
+      // 新規チェック(history-1) → アンチェック → チェックし直し(history-2 の書き込み中)
+      await tester.tap(find.byType(Checkbox));
+      await tester.pumpAndSettle();
+      await tester.tap(find.byType(Checkbox));
+      await tester.pumpAndSettle();
+      await tester.tap(find.byType(Checkbox));
+      await tester.pump();
+      // history-1 の snapshot が遅れて行に届く
+      await pumpScheduleRow(tester, scheduleRow: buildCheckedScheduleRow());
+      retakeCompleter.complete(retakeMedicationHistory);
+      await tester.pumpAndSettle();
+
+      await tester.tap(find.byType(Checkbox));
+      await tester.pumpAndSettle();
+
+      final captured = verify(medicationHistoryRevert.call(takeMedicationHistory: captureAnyNamed('takeMedicationHistory'))).captured;
+      expect(captured.map((medicationHistory) => (medicationHistory as MedicationHistory).id), ['history-1', 'history-2']);
+    });
+
     testWidgets('チェックし直しの take の完了後・行への反映前の再アンチェックは、その take を取り消す', (tester) async {
       final retakeMedicationHistory = buildMedicationHistory().copyWith(id: 'history-2');
       when(medicationHistoryTake.call(

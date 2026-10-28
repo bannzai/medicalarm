@@ -276,16 +276,16 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
       isChecked.value = scheduleRow.medicationHistory != null;
       // 行の記録が入れ替わった = 自分の revert 発行前後の snapshot 遅延は解消済み
       hasPendingRevert.value = false;
-      // 行に take の記録が反映されたら、以降の再アンチェックは行の記録をそのまま取消対象にできる。
-      // Firestore の set の Future はサーバーの応答まで完了せずオフラインでは待ち続けるため、
-      // 書き込みの完了前でも反映された記録を take の結果として渡し、再アンチェックを待たせ続けない
+      // 行に反映されたのが take の書き込んだ記録なら、以降の再アンチェックは行の記録をそのまま取消対象にできるので下ろす。
+      // 遅れて届いた別の記録(取消前の古い take 等)では下ろさない。take の記録の ID は書き込みの完了まで分からないため完了を待って照合する
       final takeWrite = pendingTakeWrite.value;
-      final medicationHistory = scheduleRow.medicationHistory;
-      if (takeWrite != null && medicationHistory != null) {
-        if (!takeWrite.isCompleted) {
-          takeWrite.complete(medicationHistory);
-        }
-        pendingTakeWrite.value = null;
+      final medicationHistoryID = scheduleRow.medicationHistory?.id;
+      if (takeWrite != null && medicationHistoryID != null) {
+        unawaited(takeWrite.future.then((takenMedicationHistory) {
+          if (takenMedicationHistory?.id == medicationHistoryID && pendingTakeWrite.value == takeWrite) {
+            pendingTakeWrite.value = null;
+          }
+        }));
       }
       return null;
     }, [scheduleRow.medicationHistory?.id]);
