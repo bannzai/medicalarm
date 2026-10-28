@@ -283,7 +283,6 @@ void main() {
     // 取り消すと、後から完了した新しい take が残ってチェック済みに戻り、最後の取消が失われる
     testWidgets('チェックし直しの take の書き込み完了前の再アンチェックは、完了した take を取り消す', (tester) async {
       final takeCompleter = Completer<MedicationHistory>();
-      final retakeMedicationHistory = buildMedicationHistory().copyWith(id: 'history-2');
       when(medicationHistoryTake.call(
         medicationHistory: anyNamed('medicationHistory'),
         newMedicationHistoryID: anyNamed('newMedicationHistoryID'),
@@ -304,7 +303,7 @@ void main() {
       await tester.tap(find.byType(Checkbox));
       await tester.pump();
 
-      takeCompleter.complete(retakeMedicationHistory);
+      takeCompleter.complete(buildMedicationHistory().copyWith(id: 'history-2'));
       await tester.pumpAndSettle();
 
       expect(tester.widget<Checkbox>(find.byType(Checkbox)).value, false);
@@ -314,7 +313,6 @@ void main() {
 
     testWidgets('チェックし直しの take の実行中に古い take の snapshot が遅れて届いても、再アンチェックはチェックし直しの take を取り消す', (tester) async {
       final retakeCompleter = Completer<MedicationHistory>();
-      final retakeMedicationHistory = buildMedicationHistory().copyWith(id: 'history-2');
       var takeCount = 0;
       when(medicationHistoryTake.call(
         medicationHistory: anyNamed('medicationHistory'),
@@ -344,7 +342,7 @@ void main() {
       await tester.pump();
       // history-1 の snapshot が遅れて行に届く
       await pumpScheduleRow(tester, scheduleRow: buildCheckedScheduleRow());
-      retakeCompleter.complete(retakeMedicationHistory);
+      retakeCompleter.complete(buildMedicationHistory().copyWith(id: 'history-2'));
       await tester.pumpAndSettle();
 
       await tester.tap(find.byType(Checkbox));
@@ -456,6 +454,34 @@ void main() {
       expect(captured.map((medicationHistory) => (medicationHistory as MedicationHistory).id), ['history-1']);
     });
 
+    // 取消が失敗すると元の take が有効なまま残るため、チェックし直しで新しい take を追記すると記録が重複する
+    testWidgets('取消の書き込み中にチェックし直して取消が失敗した場合、新しい take を追記せず元の take のチェック済みに戻す', (tester) async {
+      final revertCompleter = Completer<MedicationHistory>();
+      when(medicationHistoryRevert.call(takeMedicationHistory: anyNamed('takeMedicationHistory'))).thenAnswer((_) => revertCompleter.future);
+      final originalErrorLogger = errorLogger;
+      errorLogger = _NoopErrorLogger();
+      addTearDown(() => errorLogger = originalErrorLogger);
+      await pumpScheduleRow(tester, scheduleRow: buildCheckedScheduleRow());
+
+      await tester.tap(find.byType(Checkbox));
+      await tester.pump();
+      await tester.tap(find.byType(Checkbox));
+      await tester.pump();
+      revertCompleter.completeError(Exception('revert failed'));
+      await tester.pumpAndSettle();
+
+      expect(tester.widget<Checkbox>(find.byType(Checkbox)).value, true);
+      verifyNever(medicationHistoryTake.call(
+        medicationHistory: anyNamed('medicationHistory'),
+        newMedicationHistoryID: anyNamed('newMedicationHistoryID'),
+        recordedDateTime: anyNamed('recordedDateTime'),
+        scheduledRecordedDate: anyNamed('scheduledRecordedDate'),
+        medicine: anyNamed('medicine'),
+        medicationSchedule: anyNamed('medicationSchedule'),
+        memberSettings: anyNamed('memberSettings'),
+      ));
+    });
+
     testWidgets('アンチェック済みの古い take の書き込みが失敗しても、後のチェックし直しの表示を戻さない', (tester) async {
       final firstTakeCompleter = Completer<MedicationHistory>();
       var takeCount = 0;
@@ -525,7 +551,6 @@ void main() {
     });
 
     testWidgets('チェックし直しの take の完了後・行への反映前の再アンチェックは、その take を取り消す', (tester) async {
-      final retakeMedicationHistory = buildMedicationHistory().copyWith(id: 'history-2');
       when(medicationHistoryTake.call(
         medicationHistory: anyNamed('medicationHistory'),
         newMedicationHistoryID: anyNamed('newMedicationHistoryID'),
@@ -534,7 +559,7 @@ void main() {
         medicine: anyNamed('medicine'),
         medicationSchedule: anyNamed('medicationSchedule'),
         memberSettings: anyNamed('memberSettings'),
-      )).thenAnswer((_) async => retakeMedicationHistory);
+      )).thenAnswer((_) async => buildMedicationHistory().copyWith(id: 'history-2'));
       when(medicationHistoryTake.newMedicationHistoryID()).thenReturn('history-2');
       await pumpScheduleRow(tester, scheduleRow: buildCheckedScheduleRow());
 

@@ -255,6 +255,9 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
     // この間のチェックし直しを「既存 take への上書き」ではなく「新しい take の追記」として扱うために保持する。
     // 既存 take は revert に打ち消されたままなので、上書きしてもチェック済みには戻らない
     final hasPendingRevert = useRef(false);
+    // 最後のアンチェックが発行する取消の書き込みの結果 (取り消せたら true)。取消の書き込み中のチェックし直しが、
+    // 取消の失敗で元の take が有効なまま残った時に新しい take を重ねて記録を重複させないよう、結果を待つために保持する
+    final pendingRevertWrite = useRef<Future<bool>?>(null);
     // 新しい記録を追記する take の書き込み先の ID と、書き込んだ記録 (失敗時は null)。take の開始から、その記録が
     // 行の snapshot に反映されるかアンチェックされるまで非 null で、この間はチェック済みとして表示する。
     // 行に反映される前のアンチェックが、取消対象を行に残っている取消済みの古い take ではなくこの take から引き継ぐために保持する
@@ -445,9 +448,8 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
       isChecked.value = false;
     }
 
-    // アンチェック操作。take ドキュメントは削除せず、取消(revert)アクションを即時追記する論理削除 (#253)。
-    // 誤タップでも他メンバーの記録は失われず、チェックし直せば新しい take の追記でチェック済みへ戻せる
-    Future<void> revert() async {
+    // アンチェックで取消を書き込む。取り消せた場合は true、取消対象が無い・書き込みに失敗した場合は false を返す
+    Future<bool> revertTake() async {
       final pendingTakeValue = pendingTake.value;
       final MedicationHistory? medicationHistory;
       if (pendingTakeValue != null) {
@@ -464,16 +466,13 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
         if (medicationHistory == null) {
           revertingTakes.value.remove(pendingTakeValue);
         }
-      } else if (hasPendingRevert.value) {
-        // 自分の取消が行に未反映で、表示中の take は取消済み。もう一度取り消すと取消の記録が重複する
-        return;
       } else {
         medicationHistory = scheduleRow.medicationHistory;
       }
       if (medicationHistory == null) {
         // 他メンバーの取消が先行して未チェック扱いになっている場合と、待った take が失敗した場合。
         // 取消対象が無いので表示の同期だけに留める
-        return;
+        return false;
       }
 
       // await より前に立てる。書き込み完了を待ってから立てると、書き込み中のチェックし直しが
@@ -491,7 +490,7 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
           isChecked.value = scheduleRow.medicationHistory != null;
           showErrorAlert(context, e.toString());
         }
-        return;
+        return false;
       }
       unawaited(registerReminderLocalNotification.call());
 
@@ -499,6 +498,40 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
         ScaffoldMessenger.of(context).showSnackBar(
           SnackBar(content: Text(L.medicationHistoryDeletedSnackbar)),
         );
+      }
+      return true;
+    }
+
+    // アンチェック操作。take ドキュメントは削除せず、取消(revert)アクションを即時追記する論理削除 (#253)。
+    // 誤タップでも他メンバーの記録は失われず、チェックし直せば新しい take の追記でチェック済みへ戻せる
+    Future<void> revert() async {
+      if (pendingTake.value == null && hasPendingRevert.value) {
+        // 自分の取消が行に未反映で、表示中の take は取消済み。もう一度取り消すと取消の記録が重複する
+        return;
+      }
+      final revertWrite = Completer<bool>();
+      pendingRevertWrite.value = revertWrite.future;
+      try {
+        revertWrite.complete(await revertTake());
+      } finally {
+        // 予期しない例外で終わった場合も、結果を待っているチェックし直しを止めない
+        if (!revertWrite.isCompleted) {
+          revertWrite.complete(false);
+        }
+      }
+    }
+
+    // 取消の書き込み中のチェックし直し。取消が失敗すると元の take が有効なまま残るため、新しい take を追記すると
+    // 記録が重複する。取消の結果を待ち、取り消せた時だけ新しい take を追記する
+    Future<void> takeAfterRevert({required Future<bool> revertWrite}) async {
+      final operationGeneration = ++takeOperationGeneration.value;
+      final isReverted = await revertWrite;
+      // 待っている間にアンチェック・別のチェックし直しが行われた場合は、後の操作に任せる
+      if (!context.mounted || takeOperationGeneration.value != operationGeneration || !isChecked.value) {
+        return;
+      }
+      if (isReverted) {
+        await takeWithIntervalCheck(medicationHistory: null);
       }
     }
 
@@ -527,7 +560,12 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
                         if (newValue) {
                           // 自分の revert が snapshot に未反映の間のチェックし直しは、revert に打ち消された
                           // 既存 take へ上書きしても戻らないため、新しい take の追記として記録する
-                          unawaited(takeWithIntervalCheck(medicationHistory: hasPendingRevert.value ? null : scheduleRow.medicationHistory));
+                          final revertWrite = pendingRevertWrite.value;
+                          if (hasPendingRevert.value && revertWrite != null) {
+                            unawaited(takeAfterRevert(revertWrite: revertWrite));
+                          } else {
+                            unawaited(takeWithIntervalCheck(medicationHistory: hasPendingRevert.value ? null : scheduleRow.medicationHistory));
+                          }
                         } else {
                           unawaited(revert());
                         }
