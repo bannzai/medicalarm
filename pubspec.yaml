@@ -37,16 +37,18 @@ dependencies:
   shared_preferences: ^2.2.2
   flutter_svg: ^2.0.9
 
-  firebase_core: ^4.15.0
-  firebase_analytics:
-  firebase_auth: 
+  firebase_core: ^4.15.2
+  firebase_analytics: ^12.6.1
+  firebase_auth: ^6.7.1 
   # UIScene で起動コールバックを取り逃がしても APNs を登録し直す 16.7.0 以上
-  firebase_messaging: ^16.7.0
-  firebase_remote_config: 
-  cloud_firestore:
-  cloud_functions: 
-  firebase_crashlytics: 
-  firebase_storage:
+  firebase_messaging: ^16.7.1
+  firebase_remote_config: ^6.7.1 
+  # eMudhra の中間 CA の失効に対応した FirebaseFirestore 12.19.3 を使う 6.10.2 以上。他の FlutterFire も
+  # 同じ BoM 4.20.2 に揃える (https://firebase.google.com/support/guides/compromised-emudhra-intermediate-ca)
+  cloud_firestore: ^6.10.2
+  cloud_functions: ^6.5.1 
+  firebase_crashlytics: ^5.4.1 
+  firebase_storage: ^13.6.1
   # Swift Package Manager 対応 (8.0.0 以上) で CocoaPods への依存を外す (#385)
   google_mobile_ads: ^9.1.0
 
@@ -86,7 +88,7 @@ dependencies:
   google_sign_in: ^7.2.0
   crypto: ^3.0.6
   # activate の providerApple / providerAndroid を使うため 0.4.8 以上
-  firebase_app_check: ^0.4.8
+  firebase_app_check: ^0.4.9
 
 dev_dependencies:
   firebase_core_platform_interface: ^8.1.1

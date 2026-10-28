@@ -35,8 +35,12 @@ analyzer:
     missing_required_param: error
     missing_return: error
     invalid_annotation_target: ignore
+    analysis_options_deprecated_plugins: ignore
   exclude:
     - "lib/**/*.g.dart"
     - "lib/**/*.freezed.dart"
     - "test/**/*.mocks.dart"
+    - build/**
+    - android/**
+    - ios/**
 
