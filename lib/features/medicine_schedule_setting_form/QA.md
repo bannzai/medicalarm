@@ -1,8 +1,8 @@
 ---
 feature: medicine_schedule_setting_form
 verification: mobile-mcp
-last_verified_commit: ceab6b15bfd78420f8bbb9a67bd045e58f0f4362
-last_verified_at: 2026-07-14
+last_verified_commit: 263630555ac273bca24b8c4df556f018b9a8578d
+last_verified_at: 2026-10-16
 ---
 
 # medicine_schedule_setting_form QA
@@ -28,9 +28,9 @@ Critical Alert（マナーモードでも通知）・AlarmKit（アラーム機�
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-07-14**
-
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260714/00c10058-1c5d-46eb-82b1-e7bcc7f69845.png" width="320">
+**確認日: 2026-10-15**
+お薬登録画面 (編集) のスケジュール行の歯車から開くと、AppBar に「服用スケジュール通知設定」と表示された。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/356b6dc2-2bd7-4cad-ad03-f6eaf5d8eee3-ss01-schedule-setting.jpg" width="320">
 
 </details>
 
@@ -38,9 +38,9 @@ Critical Alert（マナーモードでも通知）・AlarmKit（アラーム機�
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-07-14**
-
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260714/775caccf-0588-4433-81e1-6d13d8abe6c1.png" width="320">
+**確認日: 2026-10-15**
+フォローアップ通知を ON にした状態で「服用時の通知を有効にする」を OFF にすると、フォローアップ通知も OFF になった (アクセシビリティの値で確認)。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/356b6dc2-2bd7-4cad-ad03-f6eaf5d8eee3-ss01-schedule-setting.jpg" width="320">
 
 </details>
 
@@ -48,9 +48,9 @@ Critical Alert（マナーモードでも通知）・AlarmKit（アラーム機�
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-07-14**
-
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260714/d9ab8efe-8398-49b4-97d3-0c7ab7f192fe.png" width="320">
+**確認日: 2026-10-15**
+服用時の通知が OFF の間に「フォローアップ通知を有効にする」をタップしても OFF のままだった。服用時の通知を ON に戻すと ON にできた。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/356b6dc2-2bd7-4cad-ad03-f6eaf5d8eee3-ss01-schedule-setting.jpg" width="320">
 
 </details>
 
@@ -58,9 +58,10 @@ Critical Alert（マナーモードでも通知）・AlarmKit（アラーム機�
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-07-14**
-
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260714/5a14ea53-500c-42d0-9082-8c8bdc516ba8.png" width="320">
+**確認日: 2026-10-15**
+「マナーモードでも通知する」を ON にすると OS の Critical Alerts の許可ダイアログが表示され、Allow を選ぶと ON になった。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/bd0d9cd8-7ac2-483f-87ea-f17d466445f0-ss02-critical-alert-request.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/20d34788-fa37-4596-ade3-3c69953baf1d-ss03-critical-on-slider.jpg" width="320">
 
 </details>
 
@@ -68,9 +69,10 @@ Critical Alert（マナーモードでも通知）・AlarmKit（アラーム機�
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-07-14**
-
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260714/2c6fa400-b66b-48f1-aec8-d4c5ebcc20b5.png" width="320">
+**確認日: 2026-10-15**
+「マナーモードでも通知する」が OFF の間は音量スライダーが操作できない要素 (値 50% の表示だけ) で、ON にすると操作できる色のスライダーに変わった。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/356b6dc2-2bd7-4cad-ad03-f6eaf5d8eee3-ss01-schedule-setting.jpg" width="320">
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/20d34788-fa37-4596-ade3-3c69953baf1d-ss03-critical-on-slider.jpg" width="320">
 
 </details>
 
@@ -78,9 +80,9 @@ Critical Alert（マナーモードでも通知）・AlarmKit（アラーム機�
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-07-14**
-
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260714/8a392ebd-b3ff-482f-8f9d-967616f8375d.png" width="320">
+**確認日: 2026-10-15**
+iOS 26 の Simulator で「アラーム機能」トグルが表示され、ON にすると OS の「alarms and timers」の許可ダイアログが表示された。Don't Allow を選ぶと OFF のままだった。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/b7d59b70-8b50-4b17-844a-6918001f6853-ss04-alarmkit-request.jpg" width="320">
 
 </details>
 
@@ -101,9 +103,9 @@ Critical Alert（マナーモードでも通知）・AlarmKit（アラーム機�
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-07-14**
-
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260714/931b6298-2ada-42eb-b7b8-58e38e7aa85a.png" width="320">
+**確認日: 2026-10-15**
+「通知受信から服薬記録するまで他のアプリをブロックする」項目が未連携の空のチェックボックスで表示された。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/20d34788-fa37-4596-ade3-3c69953baf1d-ss03-critical-on-slider.jpg" width="320">
 
 </details>
 
@@ -111,9 +113,9 @@ Critical Alert（マナーモードでも通知）・AlarmKit（アラーム機�
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-07-14**
-
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260714/aae09037-16cf-4705-86c4-b47bfe689584.png" width="320">
+**確認日: 2026-10-15**
+Focus アプリが入っていない Simulator で項目をタップすると「Focusがインストールされていません」ダイアログが表示された。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/4f775d10-16f7-4c85-8443-2757edb1b55d-ss05-focus-not-installed.jpg" width="320">
 
 </details>
 

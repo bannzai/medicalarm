@@ -13,7 +13,8 @@ class DiscountBadge extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       padding: const EdgeInsets.only(left: 8, right: 8, top: 4, bottom: 4),
-      decoration: BoxDecoration(borderRadius: BorderRadius.circular(12), color: AppColors.primary),
+      // バッジ文言は白のため、コントラスト比 4.5:1 を満たす primaryFilled を塗る (#287)
+      decoration: BoxDecoration(borderRadius: BorderRadius.circular(12), color: AppColors.primaryFilled),
       child: Text(
         text,
         style: const TextStyle(

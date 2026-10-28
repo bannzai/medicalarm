@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:medicalarm/features/localization/l.dart';
+import 'package:medicalarm/style/color.dart';
 import 'package:medicalarm/utils/analytics/analytics.dart';
 
 class PremiumCompleteDialog extends StatelessWidget {
@@ -39,7 +40,8 @@ class PremiumCompleteDialog extends StatelessWidget {
             width: 180,
             child: ElevatedButton(
               style: ElevatedButton.styleFrom(
-                backgroundColor: Theme.of(context).primaryColor,
+                // ラベルはテーマ既定の白のため、コントラスト比 4.5:1 を満たす primaryFilled を背景にする (#287)
+                backgroundColor: AppColors.primaryFilled,
               ),
               onPressed: () async {
                 analytics.logEvent(name: 'premium_complete_close_pressed');

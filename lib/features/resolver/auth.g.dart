@@ -6,7 +6,7 @@ part of 'auth.dart';
 // RiverpodGenerator
 // **************************************************************************
 
-String _$firebaseUserChangesHash() => r'7640fb519be2781b52dfbaa306b26ede6d0fc3cc';
+String _$firebaseUserChangesHash() => r'990cd9b10c34b9e2ffb3e077a22cb505c13eefa8';
 
 /// See also [firebaseUserChanges].
 @ProviderFor(firebaseUserChanges)

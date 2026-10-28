@@ -4,6 +4,7 @@ import 'package:medicalarm/components/button/user_delete.dart';
 import 'package:medicalarm/features/account_link/sheet.dart';
 import 'package:medicalarm/features/localization/l.dart';
 import 'package:medicalarm/provider/user_groups.dart';
+import 'package:medicalarm/style/color.dart';
 import 'package:medicalarm/utils/analytics/analytics.dart';
 
 /// グループ共有中(いずれかのグループの memberUserIDs が 2 人以上)かつ未リンク(Apple / Google のいずれも未連携)のとき、
@@ -21,7 +22,6 @@ class AccountLinkBanner extends ConsumerWidget {
       return const SizedBox.shrink();
     }
 
-    final primaryColor = Theme.of(context).colorScheme.primary;
     return GestureDetector(
       onTap: () {
         analytics.logEvent(name: 'account_link_banner_tapped');
@@ -30,7 +30,9 @@ class AccountLinkBanner extends ConsumerWidget {
       child: Container(
         width: double.infinity,
         padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
-        color: primaryColor.withValues(alpha: 0.8),
+        // 文字とアイコンは白のため primaryFilled を塗る (#287)。alpha を残すと背景の白と混ざって
+        // 実効色が明るくなりコントラスト比 4.5:1 に届かないため、不透明にする
+        color: AppColors.primaryFilled,
         child: Row(
           children: [
             const Icon(Icons.link, color: Colors.white, size: 20),

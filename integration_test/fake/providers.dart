@@ -42,3 +42,6 @@ class FakeMedicationHistoryTake extends Mock implements MedicationHistoryTake {}
 class FakeMedicationHistoryRevert extends Mock implements MedicationHistoryRevert {}
 
 class FakeRegisterReminderLocalNotification extends Mock implements RegisterReminderLocalNotification {}
+
+/// 薬一覧の行 (MedicineTileScheduleRow) が watch する間隔チェック用の取得。Firestore のグループを持たない撮影では呼ばれない
+class FakeRecentMedicationHistoriesFetch extends Mock implements RecentMedicationHistoriesFetch {}

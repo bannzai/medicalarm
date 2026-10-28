@@ -1,8 +1,8 @@
 ---
 feature: medication_frequency_form
 verification: mobile-mcp
-last_verified_commit: ceab6b15bfd78420f8bbb9a67bd045e58f0f4362
-last_verified_at: 2026-07-14
+last_verified_commit: 263630555ac273bca24b8c4df556f018b9a8578d
+last_verified_at: 2026-10-16
 ---
 
 # medication_frequency_form QA
@@ -22,9 +22,9 @@ last_verified_at: 2026-07-14
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-07-14**
-
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260714/25d3eb5e-a201-4799-a12a-067c578a3f64.png" width="320">
+**確認日: 2026-10-15**
+「服用頻度」セクションに「毎日」「X日ごと」(例) 2日ごと、3日ごと)「特定の曜日」(例) 月曜日のみ, 水曜日と金曜日)「周期」(例) 21日服用/7日休薬) の 4 項目が表示された。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/ddbe6beb-a08c-428a-9bf1-1691a7139df6-mff01-daily.jpg" width="320">
 
 </details>
 
@@ -32,9 +32,9 @@ last_verified_at: 2026-07-14
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-07-14**
-
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260714/25d3eb5e-a201-4799-a12a-067c578a3f64.png" width="320">
+**確認日: 2026-10-15**
+選んだタイプ (例: 特定の曜日) の右にチェックアイコンが表示された。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/1dcf2c99-dc55-4188-a2c3-e9dbf81e7af5-mff03-weekdays.jpg" width="320">
 
 </details>
 
@@ -47,7 +47,8 @@ last_verified_at: 2026-07-14
 - [x] **毎日**: 「毎日」を選ぶと詳細設定は表示されない
 - [x] **X日ごと**: 「X日ごと」を選ぶと「{count}日ごと」行が表示され、タップすると数値ピッカーで間隔を変更できる
 - [x] **特定の曜日**: 「特定の曜日」を選ぶと曜日リストが表示され、タップで各曜日の選択／解除ができる（選択中はチェック表示）
-- [x] **周期**: 「周期」を選ぶと「{count}日服用」「{count}日休薬」行が表示され、それぞれ数値ピッカーで変更できる。加えて「おすすめアプリ」セクションに Pilll のインストール導線が表示される
+- [ ] **周期**: 「周期」を選ぶと「{count}日服用」「{count}日休薬」行が表示され、それぞれ数値ピッカーで変更できる。加えて「おすすめアプリ」セクションに Pilll のインストール導線が表示される
+  - ⏭️ スキップ: 「21日服用」「7日休薬」の行と Pilll のインストール導線が表示されることは確認したが、それぞれの数値ピッカーでの変更はしていない
 
 #### 動作確認
 <details>
@@ -57,9 +58,9 @@ last_verified_at: 2026-07-14
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-07-14**
-
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260714/25d3eb5e-a201-4799-a12a-067c578a3f64.png" width="320">
+**確認日: 2026-10-15**
+「毎日」の時は詳細設定のセクションが表示されなかった。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/ddbe6beb-a08c-428a-9bf1-1691a7139df6-mff01-daily.jpg" width="320">
 
 </details>
 
@@ -67,9 +68,9 @@ last_verified_at: 2026-07-14
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-07-14**
-
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260714/6a08d296-cb1d-4239-865f-cd5b099feba9.png" width="320">
+**確認日: 2026-10-15**
+「X日ごと」を選ぶと「1日ごと」行が表示され、タップした数値ピッカーで 2 を選ぶと「2日ごと」に変わった。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/2d9edd72-1e39-4431-9c0e-720dde8091d6-mff02-every-2days.jpg" width="320">
 
 </details>
 
@@ -77,9 +78,9 @@ last_verified_at: 2026-07-14
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-07-14**
-
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260714/e288eba0-595c-4eb9-b124-e51095bf87a4.png" width="320">
+**確認日: 2026-10-15**
+「特定の曜日」を選ぶと曜日の一覧が全曜日チェック済みで表示され、「月曜日」をタップするとチェックが外れた。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/1dcf2c99-dc55-4188-a2c3-e9dbf81e7af5-mff03-weekdays.jpg" width="320">
 
 </details>
 
@@ -87,9 +88,9 @@ last_verified_at: 2026-07-14
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-07-14**
-
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260714/1dc3c59f-aa4d-4bc0-9aa1-db670c2632d4.png" width="320">
+**確認日: 2026-10-15**
+「周期」を選ぶと「21日服用」「7日休薬」行と、「おすすめアプリ」セクションの「Pilllをインストール」が表示された。数値ピッカーでの変更はしていない (このため項目は ⏭️ にした)。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/08d8a0e8-bfc3-423d-8db2-893f65dbd452-mff04-cycle.jpg" width="320">
 
 </details>
 
@@ -109,9 +110,9 @@ last_verified_at: 2026-07-14
 
 <details><summary>動作確認スクショ</summary>
 
-**確認日: 2026-07-14**
-
-<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/bannzai/medicalarm/20260714/d5d20de1-d05e-4b42-a2c5-e52ec33c9cb5.png" width="320">
+**確認日: 2026-10-15**
+「X日ごと」を選んで下部の「保存」をタップすると画面が閉じ、お薬登録画面の服用頻度の行が「1日ごと」に変わった。
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/10/15/5f2caa1b-deff-4b3e-b470-1cac71118026-mff05-reflected.jpg" width="320">
 
 </details>
 

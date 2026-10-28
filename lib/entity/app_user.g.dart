@@ -14,6 +14,7 @@ _AppUser _$AppUserFromJson(Map<String, dynamic> json) => _AppUser(
       maybeTrialDeadlineDate: const NullableTimestampConverter().fromJson(json['maybeTrialDeadlineDate'] as Timestamp?),
       promotionStartPageCancelButtonTappedDateTime:
           const NullableTimestampConverter().fromJson(json['promotionStartPageCancelButtonTappedDateTime'] as Timestamp?),
+      onboardingCompletedDateTime: const NullableTimestampConverter().fromJson(json['onboardingCompletedDateTime'] as Timestamp?),
       createdDateTime: const ClientCreatedTimestamp().fromJson(json['createdDateTime'] as Timestamp?),
       updatedDateTime: const ClientUpdatedTimestamp().fromJson(json['updatedDateTime'] as Timestamp?),
       serverCreatedDateTime: const ServerCreatedTimestamp().fromJson(json['serverCreatedDateTime']),
@@ -28,6 +29,7 @@ Map<String, dynamic> _$AppUserToJson(_AppUser instance) => <String, dynamic>{
       'maybeTrialDeadlineDate': const NullableTimestampConverter().toJson(instance.maybeTrialDeadlineDate),
       'promotionStartPageCancelButtonTappedDateTime':
           const NullableTimestampConverter().toJson(instance.promotionStartPageCancelButtonTappedDateTime),
+      'onboardingCompletedDateTime': const NullableTimestampConverter().toJson(instance.onboardingCompletedDateTime),
       'createdDateTime': const ClientCreatedTimestamp().toJson(instance.createdDateTime),
       'updatedDateTime': const ClientUpdatedTimestamp().toJson(instance.updatedDateTime),
       'serverCreatedDateTime': const ServerCreatedTimestamp().toJson(instance.serverCreatedDateTime),

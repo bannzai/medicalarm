@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:intl/intl.dart';
 import 'package:medicalarm/components/loading/indicator.dart';
+import 'package:medicalarm/components/sheet/full_screen_modal_bottom_sheet.dart';
 import 'package:medicalarm/entity/medication_history.dart';
 import 'package:medicalarm/features/diary_post/page.dart';
 import 'package:medicalarm/features/localization/l.dart';
@@ -185,11 +186,8 @@ class CalendarDayDetailSheet extends HookConsumerWidget {
 
 /// [CalendarDayDetailSheet] をモーダルボトムシートとして表示する
 void showCalendarDayDetailSheet(BuildContext context, {required DateTime date}) {
-  showModalBottomSheet(
+  showFullScreenModalBottomSheet(
     context: context,
-    useSafeArea: true,
-    isScrollControlled: true,
-    backgroundColor: Colors.transparent,
     builder: (context) => CalendarDayDetailSheet(date: date),
   );
 }
