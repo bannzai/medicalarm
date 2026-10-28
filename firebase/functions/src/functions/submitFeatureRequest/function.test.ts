@@ -1,16 +1,13 @@
 // submitFeatureRequest のユニットテスト。axios と Slack のエラー通知をモックしてハンドラを直接実行し、
 // Slack Incoming Webhook へ送る本文の形式を確かめる。
 
-type OnCallResult = {
-  result: "OK" | "NG";
-  statusCode: number;
-  data?: Record<string, unknown>;
-  error?: { message: string };
-};
+import type { OnCallResponse } from "../../core/response";
+
+/** onCall のモックが返す、テストから直接呼ぶハンドラ。 */
 type Handler = (req: {
   auth?: { uid?: string | null } | null;
   data?: Record<string, unknown>;
-}) => Promise<OnCallResult>;
+}) => Promise<OnCallResponse>;
 
 jest.mock("firebase-functions/v2/https", () => ({
   onCall: (_opts: unknown, handler: unknown) => handler,

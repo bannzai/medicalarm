@@ -17,11 +17,7 @@ class FeatureRequestFormPage extends HookConsumerWidget {
     final content = useState('');
     final emailAddress = useState('');
     final isSubmitting = useState(false);
-    final featureRequestSubmit = ref.watch(featureRequestSubmitProvider);
     final formKey = useMemoized(GlobalKey<FormState>.new, const []);
-    final primaryColor = Theme.of(context).colorScheme.primary;
-
-    final canSubmit = content.value.trim().isNotEmpty && !isSubmitting.value;
 
     return DraggableScrollableSheet(
       initialChildSize: 1.0,
@@ -32,7 +28,7 @@ class FeatureRequestFormPage extends HookConsumerWidget {
           child: FormTheme(
             child: Scaffold(
               appBar: AppBar(
-                title: Text(L.featureRequestTitle, style: TextStyle(color: primaryColor)),
+                title: Text(L.featureRequestTitle, style: TextStyle(color: Theme.of(context).colorScheme.primary)),
                 leading: IconButton(
                   icon: const Icon(Icons.close),
                   onPressed: () => Navigator.of(context).pop(),
@@ -80,7 +76,7 @@ class FeatureRequestFormPage extends HookConsumerWidget {
                         SizedBox(
                           width: double.infinity,
                           child: ElevatedButton(
-                            onPressed: canSubmit
+                            onPressed: content.value.trim().isNotEmpty && !isSubmitting.value
                                 ? () async {
                                     if (!(formKey.currentState?.validate() ?? false)) return;
                                     isSubmitting.value = true;
@@ -89,7 +85,7 @@ class FeatureRequestFormPage extends HookConsumerWidget {
                                         'has_email': emailAddress.value.isNotEmpty ? 'true' : 'false',
                                         'content_length': content.value.length,
                                       });
-                                      await featureRequestSubmit.call(
+                                      await ref.read(featureRequestSubmitProvider).call(
                                         content: content.value,
                                         emailAddress: emailAddress.value.isEmpty ? null : emailAddress.value,
                                       );

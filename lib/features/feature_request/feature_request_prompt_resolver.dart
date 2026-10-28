@@ -44,12 +44,12 @@ Future<void> _maybeShowPrompt({required BuildContext context, required DateTime 
   // 1 行に収めると 60 文字を超える条件式になるため、前回の表示日時を変数にまとめる (CLAUDE.md の一時変数の規約)。
   // 未表示の時は epoch 0 (1970 年) として 30 日の条件を満たす扱いにする
   final lastShown =
-      DateTime.fromMillisecondsSinceEpoch(((prefs.getDouble(DoubleKey.featureRequestPromptShownDateTimeInterval) ?? 0) * 1000).toInt());
+      DateTime.fromMillisecondsSinceEpoch(((prefs.getDouble(DoubleKey.featureRequestPromptLastShownEpochSeconds) ?? 0) * 1000).toInt());
   if (DateTime.now().difference(lastShown).inDays < 30) return;
 
   if (!context.mounted) return;
   await prefs.setDouble(
-    DoubleKey.featureRequestPromptShownDateTimeInterval,
+    DoubleKey.featureRequestPromptLastShownEpochSeconds,
     DateTime.now().millisecondsSinceEpoch / 1000.0,
   );
   analytics.logEvent(name: 'feature_request_prompt_shown');
