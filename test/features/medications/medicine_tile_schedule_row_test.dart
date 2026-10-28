@@ -262,6 +262,61 @@ void main() {
       expect(captured, hasLength(1));
       expect(captured.single, isNull);
     });
+
+    // チェックし直しの take が行に反映される前の再アンチェックで、行に残っている取消済みの古い take を
+    // 取り消すと、後から完了した新しい take が残ってチェック済みに戻り、最後の取消が失われる
+    testWidgets('チェックし直しの take の書き込み完了前の再アンチェックは、完了した take を取り消す', (tester) async {
+      final takeCompleter = Completer<MedicationHistory>();
+      final retakeMedicationHistory = buildMedicationHistory().copyWith(id: 'history-2');
+      when(medicationHistoryTake.call(
+        medicationHistory: anyNamed('medicationHistory'),
+        recordedDateTime: anyNamed('recordedDateTime'),
+        scheduledRecordedDate: anyNamed('scheduledRecordedDate'),
+        medicine: anyNamed('medicine'),
+        medicationSchedule: anyNamed('medicationSchedule'),
+        memberSettings: anyNamed('memberSettings'),
+      )).thenAnswer((_) => takeCompleter.future);
+      await pumpScheduleRow(tester, scheduleRow: buildCheckedScheduleRow());
+
+      // アンチェック → チェックし直し → take の完了前に再アンチェック
+      await tester.tap(find.byType(Checkbox));
+      await tester.pump();
+      await tester.tap(find.byType(Checkbox));
+      await tester.pump();
+      await tester.tap(find.byType(Checkbox));
+      await tester.pump();
+
+      takeCompleter.complete(retakeMedicationHistory);
+      await tester.pumpAndSettle();
+
+      expect(tester.widget<Checkbox>(find.byType(Checkbox)).value, false);
+      final captured = verify(medicationHistoryRevert.call(takeMedicationHistory: captureAnyNamed('takeMedicationHistory'))).captured;
+      expect(captured.map((medicationHistory) => (medicationHistory as MedicationHistory).id), ['history-1', 'history-2']);
+    });
+
+    testWidgets('チェックし直しの take の完了後・行への反映前の再アンチェックは、その take を取り消す', (tester) async {
+      final retakeMedicationHistory = buildMedicationHistory().copyWith(id: 'history-2');
+      when(medicationHistoryTake.call(
+        medicationHistory: anyNamed('medicationHistory'),
+        recordedDateTime: anyNamed('recordedDateTime'),
+        scheduledRecordedDate: anyNamed('scheduledRecordedDate'),
+        medicine: anyNamed('medicine'),
+        medicationSchedule: anyNamed('medicationSchedule'),
+        memberSettings: anyNamed('memberSettings'),
+      )).thenAnswer((_) async => retakeMedicationHistory);
+      await pumpScheduleRow(tester, scheduleRow: buildCheckedScheduleRow());
+
+      await tester.tap(find.byType(Checkbox));
+      await tester.pumpAndSettle();
+      await tester.tap(find.byType(Checkbox));
+      await tester.pumpAndSettle();
+      // 行の記録は古い take のまま (snapshot 未反映) で再アンチェック
+      await tester.tap(find.byType(Checkbox));
+      await tester.pumpAndSettle();
+
+      final captured = verify(medicationHistoryRevert.call(takeMedicationHistory: captureAnyNamed('takeMedicationHistory'))).captured;
+      expect(captured.map((medicationHistory) => (medicationHistory as MedicationHistory).id), ['history-1', 'history-2']);
+    });
   });
 
   // #81: 最低服用間隔が空いていない場合は注意ダイアログを挟む。記録自体は無効化しない

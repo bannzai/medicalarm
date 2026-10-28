@@ -255,6 +255,11 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
     // この間のチェックし直しを「既存 take への上書き」ではなく「新しい take の追記」として扱うために保持する。
     // 既存 take は revert に打ち消されたままなので、上書きしてもチェック済みには戻らない
     final hasPendingRevert = useRef(false);
+    // 新しい記録を追記する take が書き込む記録。take の開始から、その記録が行の snapshot に反映されるか
+    // 再アンチェックの取消対象に使われるまで非 null で、値は書き込んだ記録 (失敗時は null)。
+    // 行に反映される前の再アンチェックが、取消対象を行に残っている取消済みの古い take ではなく
+    // この take の結果から引き継ぐために保持する
+    final pendingTakeWrite = useRef<Completer<MedicationHistory?>?>(null);
     // 実行中の間隔チェック(takeWithIntervalCheck)の世代。チェックのたびに進め、
     // フェッチ・ダイアログ待ちの古い継続が最新の操作を追い越して記録しないようにする (#81)
     final takeOperationGeneration = useRef(0);
@@ -271,67 +276,98 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
       isChecked.value = scheduleRow.medicationHistory != null;
       // 行の記録が入れ替わった = 自分の revert 発行前後の snapshot 遅延は解消済み
       hasPendingRevert.value = false;
+      // 行に take の記録が反映されたら、以降の再アンチェックは行の記録をそのまま取消対象にできる。
+      // Firestore の set の Future はサーバーの応答まで完了せずオフラインでは待ち続けるため、
+      // 書き込みの完了前でも反映された記録を take の結果として渡し、再アンチェックを待たせ続けない
+      final takeWrite = pendingTakeWrite.value;
+      final medicationHistory = scheduleRow.medicationHistory;
+      if (takeWrite != null && medicationHistory != null) {
+        if (!takeWrite.isCompleted) {
+          takeWrite.complete(medicationHistory);
+        }
+        pendingTakeWrite.value = null;
+      }
       return null;
     }, [scheduleRow.medicationHistory?.id]);
 
     Future<void> take({required MedicationHistory? medicationHistory}) async {
-      // 記録の書き込みで snapshot が更新されると、この widget は再ビルドされる。
-      // await をまたいで ref を触るとウィジェット破棄後アクセスで例外になるため、ref 依存値は await の前に読み出す。
-      final groupID = ref.read(currentGroupIDProvider);
-      final currentUserID = ref.read(appUserIDProvider);
-      // memberSettings は take 内の AlarmKit 判定と Focus 連携の解決で共用するため、write より前に読み出して解決する。
-      final memberSettings = await ref.read(groupMemberNotificationSettingsProvider.future);
-
-      final MedicationHistory newMedicationHistory;
+      // 最初の await より前に登録する。memberSettings の取得待ちの間の再アンチェックも、この take の結果を取消対象にするため。
+      // 既存記録の再書き込みは書き込み先が行に表示中の記録と同じで、再アンチェックは行の記録を取り消せばよいため登録しない
+      final takeWrite = Completer<MedicationHistory?>();
+      if (medicationHistory == null) {
+        pendingTakeWrite.value = takeWrite;
+      }
       try {
-        newMedicationHistory = await medicationHistoryTake.call(
-          medicationHistory: medicationHistory,
-          scheduledRecordedDate: scheduleRow.date,
-          recordedDateTime: medicationHistory?.recordedDateTime ?? DateTime.now(),
-          medicine: scheduleRow.medicine,
-          medicationSchedule: scheduleRow.medicationSchedule,
-          memberSettings: memberSettings,
-        );
-      } catch (e, st) {
-        // 記録が作られていないのにチェック済み表示のままだと飲み忘れを誘発するため、表示を実状態へ戻す
-        errorLogger.recordError(e, st);
-        if (context.mounted) {
-          isChecked.value = !hasPendingRevert.value && scheduleRow.medicationHistory != null;
-          showErrorAlert(context, e.toString());
+        // 記録の書き込みで snapshot が更新されると、この widget は再ビルドされる。
+        // await をまたいで ref を触るとウィジェット破棄後アクセスで例外になるため、ref 依存値は await の前に読み出す。
+        final groupID = ref.read(currentGroupIDProvider);
+        final currentUserID = ref.read(appUserIDProvider);
+        // memberSettings は take 内の AlarmKit 判定と Focus 連携の解決で共用するため、write より前に読み出して解決する。
+        final memberSettings = await ref.read(groupMemberNotificationSettingsProvider.future);
+
+        final MedicationHistory newMedicationHistory;
+        try {
+          newMedicationHistory = await medicationHistoryTake.call(
+            medicationHistory: medicationHistory,
+            scheduledRecordedDate: scheduleRow.date,
+            recordedDateTime: medicationHistory?.recordedDateTime ?? DateTime.now(),
+            medicine: scheduleRow.medicine,
+            medicationSchedule: scheduleRow.medicationSchedule,
+            memberSettings: memberSettings,
+          );
+        } catch (e, st) {
+          // 記録が作られていないのにチェック済み表示のままだと飲み忘れを誘発するため、表示を実状態へ戻す
+          errorLogger.recordError(e, st);
+          if (context.mounted) {
+            isChecked.value = !hasPendingRevert.value && scheduleRow.medicationHistory != null;
+            showErrorAlert(context, e.toString());
+          }
+          return;
         }
-        return;
-      }
-      unawaited(registerReminderLocalNotification.call());
+        if (!takeWrite.isCompleted) {
+          takeWrite.complete(newMedicationHistory);
+        }
+        unawaited(registerReminderLocalNotification.call());
 
-      // 同じグループの他メンバーへ服薬記録を push 通知する。失敗しても記録は成功扱いにするため unawaited + catch。
-      // ソログループなど送信対象が 0 件の場合はサーバー側でスキップされる。
-      if (groupID != null) {
-        unawaited(
-          functions
-              .sendMedicationRecordNotification(
-            groupID: groupID,
-            medicineID: scheduleRow.medicine.id,
-            medicationHistoryID: newMedicationHistory.id,
-          )
-              .catchError((Object e, StackTrace st) {
-            errorLogger.recordError(e, st);
-          }),
-        );
-      }
+        // 同じグループの他メンバーへ服薬記録を push 通知する。失敗しても記録は成功扱いにするため unawaited + catch。
+        // ソログループなど送信対象が 0 件の場合はサーバー側でスキップされる。
+        if (groupID != null) {
+          unawaited(
+            functions
+                .sendMedicationRecordNotification(
+              groupID: groupID,
+              medicineID: scheduleRow.medicine.id,
+              medicationHistoryID: newMedicationHistory.id,
+            )
+                .catchError((Object e, StackTrace st) {
+              errorLogger.recordError(e, st);
+            }),
+          );
+        }
 
-      // Focus 連携は端末個人の設定のため、テンプレート直読みではなく有効設定の解決経由で取得する
-      final focusConnectScheduleID = resolveEffectiveNotificationSetting(
-        medicine: scheduleRow.medicine,
-        schedule: scheduleRow.medicationSchedule,
-        memberSettings: memberSettings,
-        currentUserID: currentUserID,
-      ).focusConnectScheduleID;
-      if (focusConnectScheduleID != null) {
-        await launchUrl(
-          Uri.parse(
-            'focus-connect://schedule/unlock?focusConnectScheduleID=$focusConnectScheduleID&focusConnectAppID=$focusConnectAppID',
-          ),
-        );
+        // Focus 連携は端末個人の設定のため、テンプレート直読みではなく有効設定の解決経由で取得する
+        final focusConnectScheduleID = resolveEffectiveNotificationSetting(
+          medicine: scheduleRow.medicine,
+          schedule: scheduleRow.medicationSchedule,
+          memberSettings: memberSettings,
+          currentUserID: currentUserID,
+        ).focusConnectScheduleID;
+        if (focusConnectScheduleID != null) {
+          await launchUrl(
+            Uri.parse(
+              'focus-connect://schedule/unlock?focusConnectScheduleID=$focusConnectScheduleID&focusConnectAppID=$focusConnectAppID',
+            ),
+          );
+        }
+      } finally {
+        // 書き込み前の失敗(memberSettings の取得失敗を含む)でも、待っている再アンチェックを止めない。
+        // 成功した take は、行に記録が反映されるまで(useEffect が下ろすまで)取消対象として残す
+        if (!takeWrite.isCompleted) {
+          takeWrite.complete(null);
+          if (pendingTakeWrite.value == takeWrite) {
+            pendingTakeWrite.value = null;
+          }
+        }
       }
     }
 
@@ -389,14 +425,33 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
     // アンチェック操作。take ドキュメントは削除せず、取消(revert)アクションを即時追記する論理削除 (#253)。
     // 誤タップでも他メンバーの記録は失われず、チェックし直せば新しい take の追記でチェック済みへ戻せる
     Future<void> revert() async {
-      final medicationHistory = scheduleRow.medicationHistory;
+      final takeWrite = pendingTakeWrite.value;
+      final MedicationHistory? medicationHistory;
+      if (takeWrite != null) {
+        // チェックし直しの take が完了する前の再アンチェック。行に残っているのは取消済みの古い take なので、
+        // take の完了を待ってその結果を取り消す。古い take を取り消すと、後から完了した take でチェック済みに戻ってしまう。
+        // 待っている間のチェックし直しが古い take への上書きにならないよう、待つ前に立てる
+        hasPendingRevert.value = true;
+        medicationHistory = await takeWrite.future;
+        // 取消対象として使い終えたので下ろす。残すと次のアンチェックで同じ take の取消が重複する
+        if (pendingTakeWrite.value == takeWrite) {
+          pendingTakeWrite.value = null;
+        }
+      } else if (hasPendingRevert.value) {
+        // 自分の取消が行に未反映で、表示中の take は取消済み。もう一度取り消すと取消の記録が重複する
+        return;
+      } else {
+        medicationHistory = scheduleRow.medicationHistory;
+      }
       if (medicationHistory == null) {
-        // 他メンバーの取消が先行して未チェック扱いになっている場合。取消対象が無いので表示の同期だけに留める
+        // 他メンバーの取消が先行して未チェック扱いになっている場合と、待った take が失敗した場合。
+        // 取消対象が無いので表示の同期だけに留める
         return;
       }
 
       // await より前に立てる。書き込み完了を待ってから立てると、書き込み中のチェックし直しが
-      // 「既存 take への上書き」と誤解釈され、後から完了した revert に打ち消されてしまう
+      // 「既存 take への上書き」と誤解釈され、後から完了した revert に打ち消されてしまう。
+      // take を待った場合も、待っている間に行へ記録が反映されると useEffect が下ろすため立て直す
       hasPendingRevert.value = true;
 
       try {
