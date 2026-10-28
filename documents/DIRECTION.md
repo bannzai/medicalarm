@@ -55,7 +55,8 @@ launched_at: 2025-03-04   # 公開日 (YYYY-MM-DD)。App Store の初回公開�
 | 2026-10-26 | 無人ループ | QA の記録先を `QA.md` (ルートと `lib/features/*/QA.md`) から QA データベース (tansu) に移す (#422)。release-app skill の `check_qa_gate.sh` が tansu の記録で判定するため。項目は `QA.md` を正データにして setup-qa skill の `register_qa.sh` で登録し、以後の QA は run-qa skill で tansu に記録する。`QA.md` ファイルの削除は可逆な方を選んでこの時点では行わず、tansu での運用が 1 回回ってから別 issue で判断する | agent |
 | 2026-10-27 | 判定日 | 継続。3 指標とも継続のしきい値を満たした (平均評価 4.27 / 11 件、直近 14 日の ★1〜2 レビュー 0 件、直近 14 日の FATAL issue 0 件。`documents/loop/metrics-2026-10-27.json`)。FATAL の指標は nodenv の node (`~/.anyenv/envs/nodenv/shims`) を PATH に通した `crashlytics.sh top-issues` で取れた。転換の条件「直近 14 日の新規レビューが 2 回連続 0 件」は、公開版が 202605.02 のまま未リリースのため、2026-10-13 の行のとおり今回も数えない。次の判定日は 2026-11-10 | agent |
 | 2026-10-27 | 無人ループ | #422 の QA で見つかった #427〜#430 は、新しい issue を作らずにそのまま使う。#427 と #430 は同じ `notification_setting/section.dart` を変えるため 1 つにまとめ、#428 とともに無人実装に出す。#427 はリリース前ゲートの NG の項目で、#428 は同時刻の通知を取りこぼす不具合。#429 は issue 自身が「今日これ 1 件しか出せないとしても出すか」を「出さない」としているため、後に回す | agent |
+| 2026-10-28 | 無人ループ | 判定基準に足す課金・獲得の指標は、dashboard の medicalarm で値が取れる MRR と直近 14 日の新規顧客数の 2 つにし、週次の承認に回した (`documents/loop/pending-proposals.md`)。D7 リテンション・paywall のファネル・DAU は dashboard に medicalarm の系列が無い (`read-dashboard-metric.sh` が `STATUS=missing`) ため提案しない | agent |
 
 ## agent に任せること
 
-文書に無い問いはすべて。RevenueCat の課金指標は、`metrics/overview` を読める v2 API key が `.envrc` に入った時に agent が判定基準へ足す。`CLAUDE.md` が参照する `documents/entity-parent-id-rules.md` は main に無い (リンク切れ) ため、agent が直してよい。
+文書に無い問いはすべて。課金・獲得の指標は、bannzai/dashboard が日次で集める MRR・新規顧客数を `read-dashboard-metric.sh` (product-loop skill) で API key 無しに読める。判定基準への行の追加は `documents/loop/pending-proposals.md` に積み、週次レポートで承認されたものだけを agent が足す。`CLAUDE.md` が参照する `documents/entity-parent-id-rules.md` は main に無い (リンク切れ) ため、agent が直してよい。
