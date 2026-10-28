@@ -332,10 +332,17 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
             memberSettings: memberSettings,
           );
         } catch (e, st) {
-          // 記録が作られていないのにチェック済み表示のままだと飲み忘れを誘発するため、表示を実状態へ戻す
+          // 記録が作られていないのにチェック済み表示のままだと飲み忘れを誘発するため、表示を実状態へ戻す。
+          // 既にアンチェックされた take や、後から別の take が始まっている場合は、表示が後の操作のものなので戻さない
           errorLogger.recordError(e, st);
+          final isLatestTake = newMedicationHistoryID == null ? pendingTake.value == null : pendingTake.value?.write == takeWrite;
+          if (isLatestTake) {
+            pendingTake.value = null;
+          }
           if (context.mounted) {
-            isChecked.value = !hasPendingRevert.value && scheduleRow.medicationHistory != null;
+            if (isLatestTake) {
+              isChecked.value = !hasPendingRevert.value && scheduleRow.medicationHistory != null;
+            }
             showErrorAlert(context, e.toString());
           }
           return;

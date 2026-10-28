@@ -12,6 +12,7 @@ import 'package:medicalarm/features/medications/page.dart';
 import 'package:medicalarm/provider/app_user.dart';
 import 'package:medicalarm/provider/group_member_notification_settings.dart';
 import 'package:medicalarm/provider/medication_history.dart';
+import 'package:medicalarm/utils/analytics/error.dart';
 import 'package:medicalarm/utils/local_notification/client.dart';
 import 'package:mockito/annotations.dart';
 import 'package:mockito/mockito.dart';
@@ -107,6 +108,15 @@ MedicationGroupScheduleRow buildUncheckedScheduleRow({int? minimumDoseIntervalHo
     quantityMemo: '',
     date: DateTime.now(),
   );
+}
+
+/// 失敗の記録を捨てる [ErrorLogger]。take の失敗経路を Firebase 未初期化のテスト環境で通すために使う
+class _NoopErrorLogger implements ErrorLogger {
+  @override
+  void recordError(dynamic exception, StackTrace? stack) {}
+
+  @override
+  void log(String message) {}
 }
 
 @GenerateNiceMocks([
@@ -444,6 +454,44 @@ void main() {
       expect(tester.widget<Checkbox>(find.byType(Checkbox)).value, false);
       final captured = verify(medicationHistoryRevert.call(takeMedicationHistory: captureAnyNamed('takeMedicationHistory'))).captured;
       expect(captured.map((medicationHistory) => (medicationHistory as MedicationHistory).id), ['history-1']);
+    });
+
+    testWidgets('アンチェック済みの古い take の書き込みが失敗しても、後のチェックし直しの表示を戻さない', (tester) async {
+      final firstTakeCompleter = Completer<MedicationHistory>();
+      var takeCount = 0;
+      when(medicationHistoryTake.call(
+        medicationHistory: anyNamed('medicationHistory'),
+        newMedicationHistoryID: anyNamed('newMedicationHistoryID'),
+        recordedDateTime: anyNamed('recordedDateTime'),
+        scheduledRecordedDate: anyNamed('scheduledRecordedDate'),
+        medicine: anyNamed('medicine'),
+        medicationSchedule: anyNamed('medicationSchedule'),
+        memberSettings: anyNamed('memberSettings'),
+      )).thenAnswer((_) {
+        takeCount += 1;
+        return takeCount == 1 ? firstTakeCompleter.future : Completer<MedicationHistory>().future;
+      });
+      var newMedicationHistoryIDCount = 0;
+      when(medicationHistoryTake.newMedicationHistoryID()).thenAnswer((_) {
+        newMedicationHistoryIDCount += 1;
+        return newMedicationHistoryIDCount == 1 ? 'history-1' : 'history-2';
+      });
+      // 失敗の記録先の Crashlytics は Firebase 未初期化のテスト環境では使えないため、記録しない実装に差し替える
+      final originalErrorLogger = errorLogger;
+      errorLogger = _NoopErrorLogger();
+      addTearDown(() => errorLogger = originalErrorLogger);
+      await pumpScheduleRow(tester, scheduleRow: buildUncheckedScheduleRow());
+
+      // チェック(history-1) → アンチェック → チェック(history-2)
+      for (var i = 0; i < 3; i++) {
+        await tester.tap(find.byType(Checkbox));
+        await tester.pump();
+      }
+      firstTakeCompleter.completeError(Exception('take failed'));
+      await tester.pump();
+      await tester.pump();
+
+      expect(tester.widget<Checkbox>(find.byType(Checkbox)).value, true);
     });
 
     testWidgets('take の書き込み中に他メンバーの記録が行に届いても、アンチェックは自分の take を取り消す', (tester) async {
