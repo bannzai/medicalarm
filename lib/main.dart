@@ -138,11 +138,14 @@ void main() async {
     };
 
     runApp(ProviderScope(
+      // riverpod 3 は失敗した provider を既定で自動再試行し、その間は loading 扱いになる。
+      // riverpod 2 と同じく失敗をすぐ RetryPage 等で見せ、再試行は利用者の操作に任せるため無効にする (#447)
+      retry: (retryCount, error) => null,
       overrides: [
         sharedPreferencesProvider.overrideWith((ref) => sharedPreferences),
         // emulator 環境では RevenueCat の実キー(lib/secret/secret.dart)が無くても動かせるよう、
         // customerInfo に無課金状態の fake を流す。実キー無しだと customerInfo が永遠に emit されず
-        // MedicationsPage(group2 で customerInfo を待つ)が表示できないため。
+        // MedicationsPage(groupAsyncValues2 で customerInfo を待つ)が表示できないため。
         if (const bool.fromEnvironment('USE_FIREBASE_EMULATOR'))
           customerInfoProvider.overrideWith(
             (ref) => Stream.value(CustomerInfo.fromJson({

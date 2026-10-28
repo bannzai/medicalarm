@@ -17,6 +17,7 @@ import 'package:medicalarm/provider/app_user.dart';
 import 'package:medicalarm/utils/analytics/analytics.dart';
 import 'package:medicalarm/utils/analytics/error.dart';
 import 'package:medicalarm/utils/purchase/purchase.dart';
+import 'package:medicalarm/utils/riverpod/read_future.dart';
 
 /// 初回起動時にオンボーディングを表示する条件。
 /// - 完了記録 (onboardingCompletedDateTime) が無い
@@ -134,7 +135,7 @@ class OnboardingResolver extends HookConsumerWidget {
           analytics.logEvent(name: 'onboarding_paywall_closed');
           final medicationPlan = await onboardingMedicationPlan.create(
             dailyDoseCount: dailyDoseCount.scheduleCount,
-            hasMedicines: await ref.read(hasRegisteredMedicinesProvider.future),
+            hasMedicines: await readFutureKeepingAliveFromWidget(ref: ref, provider: hasRegisteredMedicinesProvider.future),
           );
           if (!context.mounted) return;
           if (medicationPlan != null) {
