@@ -45,20 +45,24 @@ describe("submitFeatureRequest", () => {
     });
 
     expect(response).toEqual({ result: "OK", statusCode: 200, data: { ok: true } });
-    expect(mockPost).toHaveBeenCalledWith("https://hooks.slack.test/feature-request", {
-      text: [
-        "💡 新規機能要望",
-        "",
-        "[UserID] user-1",
-        "[Email] test@example.com",
-        "[AppVersion] 1.2.3",
-        "[Platform] iOS",
-        "━━━━━━━━━━━━━━━━━━━━",
-        "内容:",
-        "通知音を選びたい",
-        "━━━━━━━━━━━━━━━━━━━━",
-      ].join("\n"),
-    });
+    expect(mockPost).toHaveBeenCalledWith(
+      "https://hooks.slack.test/feature-request",
+      {
+        text: [
+          "💡 新規機能要望",
+          "",
+          "[UserID] user-1",
+          "[Email] test@example.com",
+          "[AppVersion] 1.2.3",
+          "[Platform] iOS",
+          "━━━━━━━━━━━━━━━━━━━━",
+          "内容:",
+          "通知音を選びたい",
+          "━━━━━━━━━━━━━━━━━━━━",
+        ].join("\n"),
+      },
+      { timeout: 10000 }
+    );
   });
 
   it("メールアドレスが空文字の時、[Email] の行を送らない", async () => {
@@ -129,5 +133,14 @@ describe("submitFeatureRequest", () => {
 
     expect(response).toEqual({ result: "NG", statusCode: 500, error: { message: "webhook down" } });
     expect(mockReport).toHaveBeenCalledWith("user-1", "submitFeatureRequest", expect.any(Error));
+  });
+
+  it("エラーチャンネルへの通知も失敗した時も、500 を返す", async () => {
+    mockPost.mockRejectedValue(new Error("webhook down"));
+    mockReport.mockRejectedValue(new Error("report down"));
+
+    const response = await handler({ auth: { uid: "user-1" }, data: { content: "要望" } });
+
+    expect(response).toEqual({ result: "NG", statusCode: 500, error: { message: "webhook down" } });
   });
 });

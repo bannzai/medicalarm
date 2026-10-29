@@ -19,11 +19,16 @@ const contentMaxLength = 5000;
 const emailAddressPattern = /^[^@\s]+@[^@\s]+\.[^@\s]+$/;
 
 /**
- * 見た目の 1 文字 (書記素クラスタ) 単位の文字数を返す。Flutter の TextField の maxLength は書記素クラスタで数えるため、
- * UTF-16 のコード単位で数える String.length では絵文字が 2 以上に数えられ、アプリが通した本文を拒否してしまう。
+ * [text] の見た目の 1 文字 (書記素クラスタ) 単位の文字数が [limit] 以下なら true を返す。Flutter の TextField の maxLength は
+ * 書記素クラスタで数えるため、UTF-16 のコード単位で数える String.length では絵文字が 2 以上に数えられ、アプリが通した本文を拒否してしまう。
+ * 巨大な入力で全セグメントの配列を作るとメモリを使い切るため、上限を超えた時点で数えるのをやめる。
  */
-function countGraphemes(text: string): number {
-  return [...new Intl.Segmenter().segment(text)].length;
+function isWithinGraphemeLimit({ text, limit }: { text: string; limit: number }): boolean {
+  const iterator = new Intl.Segmenter().segment(text)[Symbol.iterator]();
+  for (let count = 0; !iterator.next().done; count += 1) {
+    if (count >= limit) return false;
+  }
+  return true;
 }
 
 /** クライアントから送られてくる機能要望リクエスト。 */
@@ -31,7 +36,7 @@ const RequestSchema = z.object({
   content: z
     .string()
     .min(1)
-    .refine((content) => countGraphemes(content) <= contentMaxLength),
+    .refine((content) => isWithinGraphemeLimit({ text: content, limit: contentMaxLength })),
   emailAddress: z
     .string()
     .regex(emailAddressPattern)
@@ -86,12 +91,18 @@ module.exports = onCall(
     lines.push("━━━━━━━━━━━━━━━━━━━━", "内容:", escapeSlackText(content), "━━━━━━━━━━━━━━━━━━━━");
 
     try {
-      await axios.post(slackWebhookUrlSecret.value(), { text: lines.join("\n") });
+      // Slack が応答しない時に関数の既定のタイムアウト (60 秒) まで待たないよう、Incoming Webhook の通常の応答 (1 秒未満) に十分な余裕を持たせた 10 秒で切る
+      await axios.post(slackWebhookUrlSecret.value(), { text: lines.join("\n") }, { timeout: 10000 });
       functions.logger.info("feature request notified", { userID });
       return { result: "OK", statusCode: 200, data: { ok: true } };
     } catch (error) {
       functions.logger.error("slack post failed", error);
-      await report(userID, "submitFeatureRequest", error);
+      try {
+        await report(userID, "submitFeatureRequest", error);
+      } catch (reportError) {
+        // エラー通知の失敗で、クライアントへ返す 500 の応答を失わない
+        functions.logger.error("slack error report failed", reportError);
+      }
       return {
         result: "NG",
         statusCode: 500,
