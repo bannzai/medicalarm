@@ -40,6 +40,7 @@ class CurrentGroupResolver extends HookConsumerWidget {
     final migrated = appUser?.groupMigratedDateTime != null;
     final currentGroupIDNotifier = ref.watch(currentGroupIDProvider.notifier);
     final createGroup = ref.watch(createGroupProvider);
+    final serverAppUserFetch = ref.watch(serverAppUserFetchProvider);
     final isCreatingFallbackGroup = useState(false);
     final userGroups = ref.watch(userGroupsProvider);
 
@@ -49,7 +50,13 @@ class CurrentGroupResolver extends HookConsumerWidget {
         if (migrated && defaultGroupID == null && !isCreatingFallbackGroup.value) {
           isCreatingFallbackGroup.value = true;
           try {
-            await createGroup.call(name: null, setAsDefault: true, iconName: 'home');
+            // 初回起動の移行では、リスナーが groupMigratedDateTime の書き込みの確定を、createGroup がサーバーで書いた
+            // defaultGroupID の受信より前に流すことがある。その値で作り直すと 2 つ目のソログループができるため、サーバーの値で判定し直す (#465)。
+            // 取得に失敗した時 (オフライン等) は作り直さずに記録する。createGroup も Cloud Functions の呼び出しで、同じ状況では失敗するため
+            final serverAppUser = await serverAppUserFetch();
+            if (serverAppUser?.groupMigratedDateTime != null && serverAppUser?.defaultGroupID == null) {
+              await createGroup.call(name: null, setAsDefault: true, iconName: 'home');
+            }
           } catch (e, st) {
             errorLogger.recordError(e, st);
           } finally {
