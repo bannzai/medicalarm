@@ -4,9 +4,13 @@
     "noImplicitReturns": true,
     "noUnusedLocals": true,
     "outDir": "lib",
+    // zod 4 の型定義 (v4/locales/index.d.cts) は esModuleInterop 前提の default import を含む。
+    // esModuleInterop は出力の JS を変えるため、型定義の検査だけを外す
+    "skipLibCheck": true,
     "sourceMap": true,
     "strict": true,
-    "target": "es2017"
+    "target": "es2017",
+    "lib": ["es2017", "es2022.intl"]
   },
   "compileOnSave": true,
   "include": [

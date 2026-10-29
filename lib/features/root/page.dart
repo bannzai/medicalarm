@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
+import 'package:medicalarm/features/feature_request/feature_request_prompt_resolver.dart';
 import 'package:medicalarm/features/home/page.dart';
 import 'package:medicalarm/features/localization/resolver.dart';
 import 'package:medicalarm/features/onboarding/resolver.dart';
@@ -54,6 +55,7 @@ class RootPage extends HookConsumerWidget {
                                       debugPrint('Resolved: OnboardingResolver');
                                       Widget home() => Stack(
                                             children: [
+                                              const FeatureRequestPromptResolver(),
                                               AppUserStreamResolver(stream: (user) => analyticsDebugIsEnabled = user.analyticsDebugIsEnabled),
                                               const HomePage(),
                                             ],

@@ -49,6 +49,13 @@ if (
   exports.generateMedicinesFromImage = require("./functions/generateMedicinesFromImage/function");
 }
 
+if (
+  !process.env.FUNCTION_NAME ||
+  process.env.FUNCTION_NAME === "submitFeatureRequest"
+) {
+  exports.submitFeatureRequest = require("./functions/submitFeatureRequest/function");
+}
+
 // firebase-crashlytics-alert-setup begin (bannzai/castle の skill が管理する区間。手で編集しない)
 // eslint の no-var-requires は require(...).x の形を弾くため、TypeScript の import = require 構文で読み込む
 import crashlyticsAlert = require("./lib/crashlyticsAlert");
