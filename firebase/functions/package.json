@@ -2,6 +2,7 @@
   "name": "functions",
   "scripts": {
     "lint": "eslint --ext .js,.ts .",
+    "lint:fix": "eslint --ext .js,.ts . --fix",
     "format": "eslint --help",
     "build": "tsc",
     "rebuild": "rm -rf lib && npm run build",
