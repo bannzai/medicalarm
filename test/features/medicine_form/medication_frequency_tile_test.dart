@@ -51,8 +51,8 @@ List<String> _lineTexts(WidgetTester tester, {required String text}) {
   return lineTexts;
 }
 
-// 薬の登録フォームの服用頻度の行で、値が長くてもラベルが単語の途中で折り返されないことを検証する。
-// https://github.com/bannzai/medicalarm/issues/466
+/// 薬の登録フォームの服用頻度の行で、値が長くてもラベルが単語の途中で折り返されないことを検証する。
+/// https://github.com/bannzai/medicalarm/issues/466
 void main() {
   tearDown(() {
     L = lookupAppLocalizations(const Locale('ja'));
