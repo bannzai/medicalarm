@@ -309,5 +309,18 @@
   "onboardingPlanCriticalAlertValue": "Rings even in silent mode",
   "onboardingPremiumRecommendedTitle": "Premium plan recommended",
   "onboardingPremiumRecommendedBody": "This plan goes beyond the free limits\nPremium lets you register everything",
-  "onboardingPlanStart": "Start my plan"
+  "onboardingPlanStart": "Start my plan",
+  "featureRequestTitle": "Feature Request",
+  "featureRequestPromptTitle": "Would you like to send a feature request to Medicalarm?",
+  "featureRequestPromptMessage": "Tell us what you'd like to see in Medicalarm. You can also send requests anytime from Settings > Feature Request.",
+  "featureRequestPromptCta": "Send Feature Request",
+  "later": "Later",
+  "featureRequestContentLabel": "Your request",
+  "featureRequestContentHint": "What feature would you like?",
+  "featureRequestContentFooter": "It helps us if you describe how you'd use it in your daily routine.",
+  "featureRequestEmailLabel": "Email address (optional)",
+  "featureRequestEmailFooter": "We may use it to ask for details, but we can't promise a reply.",
+  "featureRequestEmailInvalid": "Please enter a valid email address",
+  "featureRequestThanks": "Thanks for your feedback!",
+  "send": "Send"
 }

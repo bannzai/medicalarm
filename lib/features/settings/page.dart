@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:medicalarm/components/button/inquiry.dart';
 import 'package:medicalarm/components/button/user_delete.dart';
 import 'package:medicalarm/features/account_link/tiles.dart';
+import 'package:medicalarm/features/feature_request/page.dart';
 import 'package:medicalarm/features/group_list/page.dart';
 import 'package:medicalarm/features/settings/components/local_notifications.dart';
 import 'package:medicalarm/features/settings/components/premium_introduction.dart';
@@ -118,6 +119,21 @@ class SettingPage extends StatelessWidget {
                       applicationName: packageInfo.appName,
                       applicationVersion: packageInfo.version,
                     );
+                  },
+                ),
+                const _Divider(),
+                ListTile(
+                  title: Text(
+                    L.featureRequestTitle,
+                    style: const TextStyle(
+                      fontWeight: FontWeight.w300,
+                      fontSize: 16,
+                    ),
+                  ),
+                  trailing: const Icon(Icons.chevron_right),
+                  onTap: () {
+                    analytics.logEvent(name: 'did_select_feature_request');
+                    showFeatureRequestForm(context);
                   },
                 ),
                 const _Divider(),

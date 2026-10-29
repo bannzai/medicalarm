@@ -206,6 +206,16 @@ class App extends StatelessWidget {
           focusedBorder: const OutlineInputBorder(
             borderSide: BorderSide(color: AppColors.primary),
           ),
+          // 未指定だと validator のエラー表示中だけ Flutter 既定の下線の枠になり、他の入力欄の角丸の枠とそろわない。
+          // 色はエラー文と同じ colorScheme.error にする
+          errorBorder: OutlineInputBorder(
+            borderSide: BorderSide(color: colorScheme.error),
+            borderRadius: BorderRadius.circular(8),
+          ),
+          focusedErrorBorder: OutlineInputBorder(
+            borderSide: BorderSide(color: colorScheme.error),
+            borderRadius: BorderRadius.circular(8),
+          ),
           contentPadding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 20.0),
         ),
         appBarTheme: const AppBarTheme(
