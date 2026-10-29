@@ -246,7 +246,8 @@ final isAppleLinkedProvider = Provider((ref) {
     return false;
   }
   return isLinkedAppleFor(userValue);
-});
+  // riverpod 3 の debug ビルドは、scoped な provider を dependencies に無いまま読むと StateError にする (#447)
+}, dependencies: [firebaseUserChangesProvider]);
 
 final isGoogleLinkedProvider = Provider((ref) {
   final user = ref.watch(firebaseUserChangesProvider);
@@ -255,4 +256,4 @@ final isGoogleLinkedProvider = Provider((ref) {
     return false;
   }
   return isLinkedGoogleFor(userValue);
-});
+}, dependencies: [firebaseUserChangesProvider]);

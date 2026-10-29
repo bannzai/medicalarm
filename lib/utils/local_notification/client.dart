@@ -155,6 +155,14 @@ class LocalNotificationService {
 // 必要な状態が全て揃ったら(AsyncData)の時のみ値を返す。そうじゃない場合はnullを返す
 final registerReminderLocalNotificationProvider = Provider(
   (ref) => RegisterReminderLocalNotification(ref),
+  // riverpod 3 の debug ビルドは、scoped な provider を dependencies に無いまま読むと StateError にする (#447)
+  dependencies: [
+    activeMedicinesProvider,
+    medicationHistoriesByDateProvider,
+    groupMemberNotificationSettingsProvider,
+    recentMedicationHistoriesFetchProvider,
+    appUserIDProvider,
+  ],
 );
 
 // Reminder
