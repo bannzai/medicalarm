@@ -115,10 +115,16 @@ class LocalNotificationService {
         ?.requestPermissions(sound: true, badge: true, alert: true, provisional: true);
   }
 
+  /// Critical Alert を含めて通知の許可を求め、Critical Alert が許可されているかを返す。iOS 以外は null を返す。
+  /// requestPermissions の戻り値は通知全体の許可を表し、通常の通知が許可済みなら Critical Alert を拒否しても true になるため、
+  /// 許可を求めた後の設定から Critical Alert の許可を読む (#427)
   Future<bool?> requestPermissionWithCriticalAlert() async {
-    return await plugin
-        .resolvePlatformSpecificImplementation<IOSFlutterLocalNotificationsPlugin>()
-        ?.requestPermissions(sound: true, badge: true, alert: true, provisional: true, critical: true);
+    final iOSPlugin = plugin.resolvePlatformSpecificImplementation<IOSFlutterLocalNotificationsPlugin>();
+    if (iOSPlugin == null) {
+      return null;
+    }
+    await iOSPlugin.requestPermissions(sound: true, badge: true, alert: true, provisional: true, critical: true);
+    return (await iOSPlugin.checkPermissions())?.isCriticalEnabled;
   }
 
   // iOSでは 以下の二つを実行しているだけなので今のところエラーは発生しない
@@ -294,39 +300,38 @@ class RegisterReminderLocalNotification {
         date: date,
       );
 
-      for (final (groupIndex, group) in groupedValues.indexed) {
+      // 通知 id は日付と時刻から決まるため、服用者ごとのグループを別々に予約すると同じ時刻の通知が後から予約した方に上書きされる (#428)。
+      // 服用済みのグループは従来どおり通知に含めない
+      for (final (scheduleTimeIndex, MapEntry(key: scheduleTime, value: scheduleRows)) in groupBy(
+        groupedValues.where((group) => group.scheduleRows.any((row) => row.medicationHistory == null)),
+        (group) => group.scheduleTime,
+      ).map((scheduleTime, groups) => MapEntry(scheduleTime, groups.expand((group) => group.scheduleRows).toList())).entries.indexed) {
         analytics.debug(name: 'run_register_reminder_notification', parameters: {
-          'groupIndex': groupIndex,
-          'groupID': group.id,
+          'scheduleTimeIndex': scheduleTimeIndex,
+          'scheduleTime': scheduleTime.toTimeString(),
         });
 
-        // すでに日毎のrowsに服用記録がついている場合はスキップ
-        final isTakenAll = group.scheduleRows.every((element) => element.medicationHistory != null);
-        if (isTakenAll) {
-          continue;
-        }
-
         // 本日服用予定だった、過去のスケジュールはスキップする
-        final isPast = group.scheduleTime.hour < tzNow.hour || (group.scheduleTime.hour == tzNow.hour && group.scheduleTime.minute < tzNow.minute);
+        final isPast = scheduleTime.hour < tzNow.hour || (scheduleTime.hour == tzNow.hour && scheduleTime.minute < tzNow.minute);
         if (dayOffset == 0 && isPast) {
           analytics.debug(name: 'rrrn_skip_past_schedule', parameters: {
             'dayOffset': dayOffset,
-            'scheduleTimeHour': group.scheduleTime.hour,
-            'scheduleTimeMinute': group.scheduleTime.minute,
+            'scheduleTimeHour': scheduleTime.hour,
+            'scheduleTimeMinute': scheduleTime.minute,
             'tzNowHour': tzNow.hour,
             'tzNowMinute': tzNow.minute,
           });
           continue;
         }
 
-        final reminderDateTime = date.add(Duration(hours: group.scheduleTime.hour)).add(Duration(minutes: group.scheduleTime.minute));
+        final reminderDateTime = date.add(Duration(hours: scheduleTime.hour)).add(Duration(minutes: scheduleTime.minute));
         if (reminderDateTime.isBefore(tzNow)) {
           analytics.debug(name: 'rrrn_is_before_now', parameters: {
             'dayOffset': dayOffset,
             'tzNow': tzNow,
             'reminderDateTime': reminderDateTime,
-            'scheduleHour': group.scheduleTime.hour,
-            'scheduleMinute': group.scheduleTime.minute,
+            'scheduleHour': scheduleTime.hour,
+            'scheduleMinute': scheduleTime.minute,
           });
           continue;
         }
@@ -343,13 +348,13 @@ class RegisterReminderLocalNotification {
             );
 
         // 通知をまとめて送るので、スケジュールの中にcriticalAlertを使うものが一つでもある場合はcriticalAlertを使う
-        final useCriticalAlert = group.scheduleRows.any((row) => effectiveSettingOf(row).useCriticalAlert);
-        final largestCriticalAlertVolume = group.scheduleRows.map((row) => effectiveSettingOf(row).criticalAlertVolume).max;
+        final useCriticalAlert = scheduleRows.any((row) => effectiveSettingOf(row).useCriticalAlert);
+        final largestCriticalAlertVolume = scheduleRows.map((row) => effectiveSettingOf(row).criticalAlertVolume).max;
 
         // 通知をまとめて送るので、スケジュールの中にAlarmKitを使うものが一つでもある場合はAlarmKitを使う
-        final useAlarmKit = group.scheduleRows.any((row) => effectiveSettingOf(row).useAlarmKit);
+        final useAlarmKit = scheduleRows.any((row) => effectiveSettingOf(row).useAlarmKit);
 
-        final reminderEnabledScheduleRows = group.scheduleRows.where((row) => effectiveSettingOf(row).isReminderEnabled);
+        final reminderEnabledScheduleRows = scheduleRows.where((row) => effectiveSettingOf(row).isReminderEnabled);
         if (reminderEnabledScheduleRows.isNotEmpty) {
           var message = '';
           for (final scheduleRow in reminderEnabledScheduleRows) {
@@ -360,8 +365,8 @@ class RegisterReminderLocalNotification {
             isReminder: true,
             month: date.month,
             day: date.day,
-            hour: group.scheduleTime.hour,
-            minute: group.scheduleTime.minute,
+            hour: scheduleTime.hour,
+            minute: scheduleTime.minute,
           );
 
           futures.add(
@@ -419,8 +424,8 @@ class RegisterReminderLocalNotification {
                   'message': message,
                   'reminderDateTime': reminderDateTime,
                   'notificationID': notificationID,
-                  'scheduleTimeHour': group.scheduleTime.hour,
-                  'scheduleTimeMinute': group.scheduleTime.minute,
+                  'scheduleTimeHour': scheduleTime.hour,
+                  'scheduleTimeMinute': scheduleTime.minute,
                   'useAlarmKit': useAlarmKit,
                 });
               } catch (e, st) {
@@ -432,15 +437,15 @@ class RegisterReminderLocalNotification {
                   'message': message,
                   'reminderDateTime': reminderDateTime,
                   'notificationID': notificationID,
-                  'scheduleTimeHour': group.scheduleTime.hour,
-                  'scheduleTimeMinute': group.scheduleTime.minute,
+                  'scheduleTimeHour': scheduleTime.hour,
+                  'scheduleTimeMinute': scheduleTime.minute,
                 });
               }
             }),
           );
         }
 
-        final followUpEnabledScheduleRows = group.scheduleRows.where((row) => effectiveSettingOf(row).isFollowupEnabled);
+        final followUpEnabledScheduleRows = scheduleRows.where((row) => effectiveSettingOf(row).isFollowupEnabled);
         if (followUpEnabledScheduleRows.isNotEmpty) {
           final followupDateTime = reminderDateTime.add(const Duration(minutes: 30));
           var message = '';
@@ -452,8 +457,8 @@ class RegisterReminderLocalNotification {
             isReminder: false,
             month: date.month,
             day: date.day,
-            hour: group.scheduleTime.hour,
-            minute: group.scheduleTime.minute,
+            hour: scheduleTime.hour,
+            minute: scheduleTime.minute,
           );
 
           futures.add(
@@ -511,8 +516,8 @@ class RegisterReminderLocalNotification {
                   'message': message,
                   'reminderDateTime': reminderDateTime,
                   'notificationID': notificationID,
-                  'scheduleTimeHour': group.scheduleTime.hour,
-                  'scheduleTimeMinute': group.scheduleTime.minute,
+                  'scheduleTimeHour': scheduleTime.hour,
+                  'scheduleTimeMinute': scheduleTime.minute,
                   'useAlarmKit': useAlarmKit,
                 });
               } catch (e, st) {
@@ -524,8 +529,8 @@ class RegisterReminderLocalNotification {
                   'message': message,
                   'reminderDateTime': reminderDateTime,
                   'notificationID': notificationID,
-                  'scheduleTimeHour': group.scheduleTime.hour,
-                  'scheduleTimeMinute': group.scheduleTime.minute,
+                  'scheduleTimeHour': scheduleTime.hour,
+                  'scheduleTimeMinute': scheduleTime.minute,
                 });
               }
             }),

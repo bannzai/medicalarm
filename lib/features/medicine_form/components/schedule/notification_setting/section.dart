@@ -90,8 +90,8 @@ class MedicineScheduleNotificationSettingSection extends HookConsumerWidget {
                 useAlarmKit.value = value;
               }
             },
-            title: const Text('アラーム機能'),
-            subtitle: const Text('目覚まし同様の通知が鳴ります。サイレントモードや集中モード時でも確実に通知されます'),
+            title: Text(L.alarmKitNotification),
+            subtitle: Text(L.alarmKitNotificationDescription),
           ),
         ],
         const SizedBox(height: 10),

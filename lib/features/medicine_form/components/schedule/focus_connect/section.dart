@@ -56,8 +56,8 @@ class MedicineScheduleFocusConnectSettingSection extends HookConsumerWidget {
                 showOKDialog(
                   context,
                   icon: Icons.install_desktop,
-                  title: 'Focusがインストールされていません',
-                  message: 'Focusをインストールします',
+                  title: L.focusNotInstalled,
+                  message: L.focusInstallMessage,
                   ok: () async {
                     await launchUrl(
                       Uri.parse('https://apps.apple.com/app/id1663997320'),
@@ -85,8 +85,8 @@ class MedicineScheduleFocusConnectSettingSection extends HookConsumerWidget {
               );
             }
           },
-          title: const Text('通知受信から服薬記録するまで他のアプリをブロックする'),
-          subtitle: const Text('通知受信から服薬記録するまで他のアプリをブロックする機能が有効になります。'),
+          title: Text(L.focusConnectBlockOtherApps),
+          subtitle: Text(L.focusConnectBlockOtherAppsDescription),
           trailing: focusConnectScheduleID.value != null ? const Icon(Icons.check) : const Icon(Icons.check_box_outline_blank),
         ),
       ],

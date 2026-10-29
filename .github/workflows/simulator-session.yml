@@ -69,7 +69,7 @@ jobs:
           flutter-version: '3.47.8'
       - run: flutter pub get
       - run: flutter build ios --simulator --debug
-      - uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
         with:
           name: simulator-app
           path: build/ios/iphonesimulator # .app の親ディレクトリ（.app 直指定は中身が flatten される）
@@ -81,7 +81,7 @@ jobs:
       id-token: write # Tailscale の OIDC (workload identity federation) 認証に必要
       contents: read
     # タグ運用はしないため main の commit SHA で固定する（更新時は SHA を書き換える）
-    uses: bannzai/simtunnel/.github/workflows/session.yml@031ba3bb123bbc201205dcd9ecad09d49681392c # main 2026-09-01
+    uses: bannzai/simtunnel/.github/workflows/session.yml@a190b7d0f81bc87bf7760f3acff7a851819e4e61 # main 2026-10-28
     with:
       session: ${{ inputs.session }}
       device: ${{ inputs.device }}

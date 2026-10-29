@@ -238,45 +238,6 @@ final class MedicationHistoryRevertProvider extends $FunctionalProvider<Medicati
 
 String _$medicationHistoryRevertHash() => r'98f2dfb4f37f453972f45158882663c813026ab6';
 
-@ProviderFor(medicationHistoryUndoRevert)
-final medicationHistoryUndoRevertProvider = MedicationHistoryUndoRevertProvider._();
-
-final class MedicationHistoryUndoRevertProvider
-    extends $FunctionalProvider<MedicationHistoryUndoRevert, MedicationHistoryUndoRevert, MedicationHistoryUndoRevert>
-    with $Provider<MedicationHistoryUndoRevert> {
-  MedicationHistoryUndoRevertProvider._()
-    : super(
-        from: null,
-        argument: null,
-        retry: null,
-        name: r'medicationHistoryUndoRevertProvider',
-        isAutoDispose: true,
-        dependencies: <ProviderOrFamily>[currentGroupDatabaseProvider],
-        $allTransitiveDependencies: <ProviderOrFamily>[MedicationHistoryUndoRevertProvider.$allTransitiveDependencies0],
-      );
-
-  static final $allTransitiveDependencies0 = currentGroupDatabaseProvider;
-
-  @override
-  String debugGetCreateSourceHash() => _$medicationHistoryUndoRevertHash();
-
-  @$internal
-  @override
-  $ProviderElement<MedicationHistoryUndoRevert> $createElement($ProviderPointer pointer) => $ProviderElement(pointer);
-
-  @override
-  MedicationHistoryUndoRevert create(Ref ref) {
-    return medicationHistoryUndoRevert(ref);
-  }
-
-  /// {@macro riverpod.override_with_value}
-  Override overrideWithValue(MedicationHistoryUndoRevert value) {
-    return $ProviderOverride(origin: this, providerOverride: $SyncValueProvider<MedicationHistoryUndoRevert>(value));
-  }
-}
-
-String _$medicationHistoryUndoRevertHash() => r'a1e35b34b630c3e7c8658a04a60c49c4f61c8e11';
-
 @ProviderFor(medicationHistoryMemoUpdate)
 final medicationHistoryMemoUpdateProvider = MedicationHistoryMemoUpdateProvider._();
 

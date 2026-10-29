@@ -319,6 +319,30 @@
   "@silentModeNotificationDescription": {
     "description": "マナーモード時の通知の説明文"
   },
+  "alarmKitNotification": "アラーム機能",
+  "@alarmKitNotification": {
+    "description": "目覚まし時計のように鳴る通知 (iOS の AlarmKit) を有効にするスイッチのラベル"
+  },
+  "alarmKitNotificationDescription": "目覚まし同様の通知が鳴ります。サイレントモードや集中モード時でも確実に通知されます",
+  "@alarmKitNotificationDescription": {
+    "description": "アラーム機能のスイッチの説明文"
+  },
+  "focusConnectBlockOtherApps": "通知受信から服薬記録するまで他のアプリをブロックする",
+  "@focusConnectBlockOtherApps": {
+    "description": "連携アプリ Focus で、服薬の通知を受けてから服薬を記録するまで他のアプリを使えなくする設定のラベル"
+  },
+  "focusConnectBlockOtherAppsDescription": "通知受信から服薬記録するまで他のアプリをブロックする機能が有効になります。",
+  "@focusConnectBlockOtherAppsDescription": {
+    "description": "Focus 連携で他のアプリをブロックする設定の説明文"
+  },
+  "focusNotInstalled": "Focusがインストールされていません",
+  "@focusNotInstalled": {
+    "description": "連携アプリ Focus が端末に無い時のダイアログのタイトル。Focus はアプリ名なので翻訳しない"
+  },
+  "focusInstallMessage": "Focusをインストールします",
+  "@focusInstallMessage": {
+    "description": "Focus が無い時のダイアログの本文。OK を押すと App Store の Focus のページを開く。Focus はアプリ名なので翻訳しない"
+  },
   "everyXDaysFormat": "{count}日ごと",
   "@everyXDaysFormat": {
     "description": "X日ごとの服用頻度を表示する際のフォーマット",
@@ -1470,5 +1494,57 @@
   "onboardingPlanStart": "プランを始める",
   "@onboardingPlanStart": {
     "description": "オンボーディングの結果画面の CTA。プレミアム紹介シートへ進む"
+  },
+  "featureRequestTitle": "機能要望",
+  "@featureRequestTitle": {
+    "description": "機能要望フォーム/設定画面メニューのタイトル"
+  },
+  "featureRequestPromptTitle": "Medicalarmに機能要望を送ってみませんか？",
+  "@featureRequestPromptTitle": {
+    "description": "起動時に表示する機能要望ダイアログのタイトル"
+  },
+  "featureRequestPromptMessage": "あったらうれしい機能や改善のアイデアを教えてください。設定画面の「機能要望」からいつでも送れます。",
+  "@featureRequestPromptMessage": {
+    "description": "起動時ダイアログの本文"
+  },
+  "featureRequestPromptCta": "要望を送る",
+  "@featureRequestPromptCta": {
+    "description": "起動時ダイアログの肯定ボタン"
+  },
+  "later": "あとで",
+  "@later": {
+    "description": "起動時ダイアログの否定ボタン"
+  },
+  "featureRequestContentLabel": "ご要望の内容",
+  "@featureRequestContentLabel": {
+    "description": "機能要望フォームの本文ラベル"
+  },
+  "featureRequestContentHint": "どんな機能が欲しいかご自由にお書きください",
+  "@featureRequestContentHint": {
+    "description": "機能要望フォーム本文のプレースホルダー"
+  },
+  "featureRequestContentFooter": "具体的にどのような場面で使いたいか書いていただけると検討の参考になります",
+  "@featureRequestContentFooter": {
+    "description": "機能要望フォーム本文の補足説明"
+  },
+  "featureRequestEmailLabel": "メールアドレス（任意）",
+  "@featureRequestEmailLabel": {
+    "description": "機能要望フォームのメール欄ラベル"
+  },
+  "featureRequestEmailFooter": "詳細を確認させていただく際に使用する場合があります。返信は約束できません",
+  "@featureRequestEmailFooter": {
+    "description": "機能要望フォームのメール欄補足"
+  },
+  "featureRequestEmailInvalid": "メールアドレスの形式が正しくありません",
+  "@featureRequestEmailInvalid": {
+    "description": "機能要望フォームのメール形式バリデーションエラー"
+  },
+  "featureRequestThanks": "ご要望をお送りしました。ありがとうございます",
+  "@featureRequestThanks": {
+    "description": "機能要望送信完了 SnackBar"
+  },
+  "send": "送信",
+  "@send": {
+    "description": "送信ボタン汎用"
   }
 }

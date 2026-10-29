@@ -1,7 +1,7 @@
 import * as admin from "firebase-admin";
 import { z } from "zod";
 
-export function firestoreConverter<T extends z.AnyZodObject>(
+export function firestoreConverter<T extends z.ZodObject>(
   schema: T
 ): admin.firestore.FirestoreDataConverter<z.infer<T>> {
   return {

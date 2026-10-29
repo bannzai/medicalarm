@@ -19,7 +19,8 @@ publish_to: "none" # Remove this line if you wish to publish to pub.dev
 version: 202607.15.102935+12
 
 environment:
-  sdk: ">=3.10.0 <4.0.0"
+  # app_links 7.2.2 が Dart 3.12 以上を要求するため
+  sdk: ">=3.12.0 <4.0.0"
 
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions
@@ -79,7 +80,7 @@ dependencies:
   flutter_timezone: ^5.0.0
   timezone: ^0.10.1
   flutter_local_notifications: ^19.1.0
-  app_links: ^6.4.0
+  app_links: ^7.2.2
 
   # アカウント引き継ぎ(匿名認証 → Apple / Google リンク)用。
   # firebase_auth 6 系と併用し currentUser.linkWithCredential にクレデンシャルを渡す。
