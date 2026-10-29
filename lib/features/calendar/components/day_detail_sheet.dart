@@ -28,7 +28,7 @@ class CalendarDayDetailSheet extends HookConsumerWidget {
     // DiaryPostPage で保存して戻った直後の内容をシートに反映するため、タップ時点の値を引き回さず provider を watch する
     final diariesAsync = ref.watch(diariesForDateTimeRangeProvider(
         dateTimeRange: DateTimeRange(start: date.date(), end: date.date().add(const Duration(days: 1)).subtract(const Duration(seconds: 1)))));
-    final diary = diariesAsync.valueOrNull?.firstWhereOrNull((diary) => isSameDay(diary.diaryDate, date));
+    final diary = diariesAsync.value?.firstWhereOrNull((diary) => isSameDay(diary.diaryDate, date));
     final medicationHistories = ref.watch(medicationHistoriesByDateProvider(date));
     final customerInfo = ref.watch(customerInfoProvider).asData?.value;
     final primaryColor = Theme.of(context).colorScheme.primary;

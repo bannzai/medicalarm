@@ -1,4 +1,4 @@
-import 'package:async_value_group/async_value_group.dart';
+import 'package:medicalarm/utils/riverpod/async_value_group.dart';
 import 'package:collection/collection.dart';
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
@@ -33,7 +33,7 @@ class GroupSettingPage extends HookConsumerWidget {
         ref.invalidate(groupProvider(groupID: groupID));
         ref.invalidate(groupUserProfilesProvider(groupID: groupID));
       },
-      child: AsyncValueGroup.group2(group, userProfiles).when(
+      child: groupAsyncValues2(first: group, second: userProfiles).when(
         data: (data) => GroupSettingPageBody(groupID: groupID, group: data.$1, userProfiles: data.$2),
         error: (error, stackTrace) => RetryPage(exception: error),
         loading: () => const IndicatorPage(),

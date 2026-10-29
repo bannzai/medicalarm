@@ -79,7 +79,7 @@ class GroupMigrationResolver extends HookConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final appUser = ref.watch(appUserProvider).valueOrNull;
+    final appUser = ref.watch(appUserProvider).value;
     final userDatabase = ref.watch(userDatabaseProvider);
     final createGroup = ref.watch(createGroupProvider);
     final isMigrating = useState(false);

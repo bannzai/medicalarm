@@ -111,7 +111,7 @@ Future<Offerings> offerings(Ref ref) {
 }
 
 @Riverpod(dependencies: [customerInfo])
-List<Package> currentOfferingPackages(CurrentOfferingPackagesRef ref) {
+List<Package> currentOfferingPackages(Ref ref) {
   final offerings = ref.watch(offeringsProvider).asData?.value;
   final customerInfo = ref.watch(customerInfoProvider).asData?.value;
   if (offerings == null || customerInfo == null) {
@@ -126,33 +126,33 @@ List<Package> currentOfferingPackages(CurrentOfferingPackagesRef ref) {
 }
 
 @Riverpod(dependencies: [currentOfferingPackages])
-Package? weeklyPackage(WeeklyPackageRef ref) {
+Package? weeklyPackage(Ref ref) {
   final currentOfferingPackages = ref.watch(currentOfferingPackagesProvider);
   return currentOfferingPackages.firstWhereOrNull((element) => element.packageType == PackageType.weekly);
 }
 
 @Riverpod(dependencies: [currentOfferingPackages])
-Package? monthlyPackage(MonthlyPackageRef ref) {
+Package? monthlyPackage(Ref ref) {
   final currentOfferingPackages = ref.watch(currentOfferingPackagesProvider);
   return currentOfferingPackages.firstWhereOrNull((element) => element.packageType == PackageType.monthly);
 }
 
 @Riverpod(dependencies: [currentOfferingPackages])
-Package? sixMonthPackage(SixMonthPackageRef ref) {
+Package? sixMonthPackage(Ref ref) {
   final currentOfferingPackages = ref.watch(currentOfferingPackagesProvider);
   return currentOfferingPackages.firstWhereOrNull((element) => element.packageType == PackageType.sixMonth);
 }
 
 @Riverpod(dependencies: [currentOfferingPackages])
-Package? annualPackage(SixMonthPackageRef ref) {
+Package? annualPackage(Ref ref) {
   final currentOfferingPackages = ref.watch(currentOfferingPackagesProvider);
   return currentOfferingPackages.firstWhereOrNull((element) => element.packageType == PackageType.annual);
 }
 
 @Riverpod(dependencies: [])
-Package? monthlyPremiumPackage(MonthlyPremiumPackageRef ref) {
+Package? monthlyPremiumPackage(Ref ref) {
   const premiumPackageOfferingType = OfferingType.premium;
-  final offering = ref.watch(offeringsProvider).valueOrNull?.all[premiumPackageOfferingType.identifier];
+  final offering = ref.watch(offeringsProvider).value?.all[premiumPackageOfferingType.identifier];
   if (offering == null) {
     return null;
   }

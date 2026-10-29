@@ -6,173 +6,112 @@ part of 'diary.dart';
 // RiverpodGenerator
 // **************************************************************************
 
-String _$diariesForDateTimeRangeHash() => r'cecf66d62d14f76645287a7726466dd4c0c8cf0a';
+// GENERATED CODE - DO NOT MODIFY BY HAND
+// ignore_for_file: type=lint, type=warning
 
-/// Copied from Dart SDK
-class _SystemHash {
-  _SystemHash._();
-
-  static int combine(int hash, int value) {
-    // ignore: parameter_assignments
-    hash = 0x1fffffff & (hash + value);
-    // ignore: parameter_assignments
-    hash = 0x1fffffff & (hash + ((0x0007ffff & hash) << 10));
-    return hash ^ (hash >> 6);
-  }
-
-  static int finish(int hash) {
-    // ignore: parameter_assignments
-    hash = 0x1fffffff & (hash + ((0x03ffffff & hash) << 3));
-    // ignore: parameter_assignments
-    hash = hash ^ (hash >> 11);
-    return 0x1fffffff & (hash + ((0x00003fff & hash) << 15));
-  }
-}
-
-/// See also [diariesForDateTimeRange].
 @ProviderFor(diariesForDateTimeRange)
-const diariesForDateTimeRangeProvider = DiariesForDateTimeRangeFamily();
+final diariesForDateTimeRangeProvider = DiariesForDateTimeRangeFamily._();
 
-/// See also [diariesForDateTimeRange].
-class DiariesForDateTimeRangeFamily extends Family<AsyncValue<List<Diary>>> {
-  /// See also [diariesForDateTimeRange].
-  const DiariesForDateTimeRangeFamily();
+final class DiariesForDateTimeRangeProvider extends $FunctionalProvider<AsyncValue<List<Diary>>, List<Diary>, Stream<List<Diary>>>
+    with $FutureModifier<List<Diary>>, $StreamProvider<List<Diary>> {
+  DiariesForDateTimeRangeProvider._({required DiariesForDateTimeRangeFamily super.from, required DateTimeRange<DateTime> super.argument})
+    : super(retry: null, name: r'diariesForDateTimeRangeProvider', isAutoDispose: true, dependencies: null, $allTransitiveDependencies: null);
 
-  /// See also [diariesForDateTimeRange].
-  DiariesForDateTimeRangeProvider call({
-    required DateTimeRange<DateTime> dateTimeRange,
-  }) {
-    return DiariesForDateTimeRangeProvider(
-      dateTimeRange: dateTimeRange,
-    );
+  static final $allTransitiveDependencies0 = currentGroupDatabaseProvider;
+
+  @override
+  String debugGetCreateSourceHash() => _$diariesForDateTimeRangeHash();
+
+  @override
+  String toString() {
+    return r'diariesForDateTimeRangeProvider'
+        ''
+        '($argument)';
   }
 
+  @$internal
   @override
-  DiariesForDateTimeRangeProvider getProviderOverride(
-    covariant DiariesForDateTimeRangeProvider provider,
-  ) {
-    return call(
-      dateTimeRange: provider.dateTimeRange,
-    );
-  }
-
-  static final Iterable<ProviderOrFamily> _dependencies = <ProviderOrFamily>[currentGroupDatabaseProvider];
+  $StreamProviderElement<List<Diary>> $createElement($ProviderPointer pointer) => $StreamProviderElement(pointer);
 
   @override
-  Iterable<ProviderOrFamily>? get dependencies => _dependencies;
-
-  static final Iterable<ProviderOrFamily> _allTransitiveDependencies = <ProviderOrFamily>{
-    currentGroupDatabaseProvider,
-    ...?currentGroupDatabaseProvider.allTransitiveDependencies
-  };
-
-  @override
-  Iterable<ProviderOrFamily>? get allTransitiveDependencies => _allTransitiveDependencies;
-
-  @override
-  String? get name => r'diariesForDateTimeRangeProvider';
-}
-
-/// See also [diariesForDateTimeRange].
-class DiariesForDateTimeRangeProvider extends AutoDisposeStreamProvider<List<Diary>> {
-  /// See also [diariesForDateTimeRange].
-  DiariesForDateTimeRangeProvider({
-    required DateTimeRange<DateTime> dateTimeRange,
-  }) : this._internal(
-          (ref) => diariesForDateTimeRange(
-            ref as DiariesForDateTimeRangeRef,
-            dateTimeRange: dateTimeRange,
-          ),
-          from: diariesForDateTimeRangeProvider,
-          name: r'diariesForDateTimeRangeProvider',
-          debugGetCreateSourceHash: const bool.fromEnvironment('dart.vm.product') ? null : _$diariesForDateTimeRangeHash,
-          dependencies: DiariesForDateTimeRangeFamily._dependencies,
-          allTransitiveDependencies: DiariesForDateTimeRangeFamily._allTransitiveDependencies,
-          dateTimeRange: dateTimeRange,
-        );
-
-  DiariesForDateTimeRangeProvider._internal(
-    super._createNotifier, {
-    required super.name,
-    required super.dependencies,
-    required super.allTransitiveDependencies,
-    required super.debugGetCreateSourceHash,
-    required super.from,
-    required this.dateTimeRange,
-  }) : super.internal();
-
-  final DateTimeRange<DateTime> dateTimeRange;
-
-  @override
-  Override overrideWith(
-    Stream<List<Diary>> Function(DiariesForDateTimeRangeRef provider) create,
-  ) {
-    return ProviderOverride(
-      origin: this,
-      override: DiariesForDateTimeRangeProvider._internal(
-        (ref) => create(ref as DiariesForDateTimeRangeRef),
-        from: from,
-        name: null,
-        dependencies: null,
-        allTransitiveDependencies: null,
-        debugGetCreateSourceHash: null,
-        dateTimeRange: dateTimeRange,
-      ),
-    );
-  }
-
-  @override
-  AutoDisposeStreamProviderElement<List<Diary>> createElement() {
-    return _DiariesForDateTimeRangeProviderElement(this);
+  Stream<List<Diary>> create(Ref ref) {
+    final argument = this.argument as DateTimeRange<DateTime>;
+    return diariesForDateTimeRange(ref, dateTimeRange: argument);
   }
 
   @override
   bool operator ==(Object other) {
-    return other is DiariesForDateTimeRangeProvider && other.dateTimeRange == dateTimeRange;
+    return other is DiariesForDateTimeRangeProvider && other.argument == argument;
   }
 
   @override
   int get hashCode {
-    var hash = _SystemHash.combine(0, runtimeType.hashCode);
-    hash = _SystemHash.combine(hash, dateTimeRange.hashCode);
-
-    return _SystemHash.finish(hash);
+    return argument.hashCode;
   }
 }
 
-@Deprecated('Will be removed in 3.0. Use Ref instead')
-// ignore: unused_element
-mixin DiariesForDateTimeRangeRef on AutoDisposeStreamProviderRef<List<Diary>> {
-  /// The parameter `dateTimeRange` of this provider.
-  DateTimeRange<DateTime> get dateTimeRange;
-}
+String _$diariesForDateTimeRangeHash() => r'cc7ab38b97f376178c8898a6846928d9b85dc229';
 
-class _DiariesForDateTimeRangeProviderElement extends AutoDisposeStreamProviderElement<List<Diary>> with DiariesForDateTimeRangeRef {
-  _DiariesForDateTimeRangeProviderElement(super.provider);
+final class DiariesForDateTimeRangeFamily extends $Family with $FunctionalFamilyOverride<Stream<List<Diary>>, DateTimeRange<DateTime>> {
+  DiariesForDateTimeRangeFamily._()
+    : super(
+        retry: null,
+        name: r'diariesForDateTimeRangeProvider',
+        dependencies: <ProviderOrFamily>[currentGroupDatabaseProvider],
+        $allTransitiveDependencies: <ProviderOrFamily>[DiariesForDateTimeRangeProvider.$allTransitiveDependencies0],
+        isAutoDispose: true,
+      );
+
+  DiariesForDateTimeRangeProvider call({required DateTimeRange<DateTime> dateTimeRange}) =>
+      DiariesForDateTimeRangeProvider._(argument: dateTimeRange, from: this);
 
   @override
-  DateTimeRange<DateTime> get dateTimeRange => (origin as DiariesForDateTimeRangeProvider).dateTimeRange;
+  String toString() => r'diariesForDateTimeRangeProvider';
 }
 
-String _$diaryPostHash() => r'80b8c3255e0b177892e9913d50844537321d76e7';
-
-/// See also [diaryPost].
 @ProviderFor(diaryPost)
-final diaryPostProvider = AutoDisposeProvider<DiaryPost>.internal(
-  diaryPost,
-  name: r'diaryPostProvider',
-  debugGetCreateSourceHash: const bool.fromEnvironment('dart.vm.product') ? null : _$diaryPostHash,
-  dependencies: <ProviderOrFamily>[currentGroupDatabaseProvider, appUserIDProvider],
-  allTransitiveDependencies: <ProviderOrFamily>{
-    currentGroupDatabaseProvider,
-    ...?currentGroupDatabaseProvider.allTransitiveDependencies,
-    appUserIDProvider,
-    ...?appUserIDProvider.allTransitiveDependencies
-  },
-);
+final diaryPostProvider = DiaryPostProvider._();
 
-@Deprecated('Will be removed in 3.0. Use Ref instead')
-// ignore: unused_element
-typedef DiaryPostRef = AutoDisposeProviderRef<DiaryPost>;
-// ignore_for_file: type=lint
-// ignore_for_file: subtype_of_sealed_class, invalid_use_of_internal_member, invalid_use_of_visible_for_testing_member, deprecated_member_use_from_same_package
+final class DiaryPostProvider extends $FunctionalProvider<DiaryPost, DiaryPost, DiaryPost> with $Provider<DiaryPost> {
+  DiaryPostProvider._()
+    : super(
+        from: null,
+        argument: null,
+        retry: null,
+        name: r'diaryPostProvider',
+        isAutoDispose: true,
+        dependencies: <ProviderOrFamily>[currentGroupDatabaseProvider, appUserIDProvider],
+        $allTransitiveDependencies: <ProviderOrFamily>{
+          DiaryPostProvider.$allTransitiveDependencies0,
+          DiaryPostProvider.$allTransitiveDependencies1,
+          DiaryPostProvider.$allTransitiveDependencies2,
+          DiaryPostProvider.$allTransitiveDependencies3,
+          DiaryPostProvider.$allTransitiveDependencies4,
+        },
+      );
+
+  static final $allTransitiveDependencies0 = currentGroupDatabaseProvider;
+  static final $allTransitiveDependencies1 = appUserIDProvider;
+  static final $allTransitiveDependencies2 = AppUserIDProvider.$allTransitiveDependencies0;
+  static final $allTransitiveDependencies3 = AppUserIDProvider.$allTransitiveDependencies1;
+  static final $allTransitiveDependencies4 = AppUserIDProvider.$allTransitiveDependencies2;
+
+  @override
+  String debugGetCreateSourceHash() => _$diaryPostHash();
+
+  @$internal
+  @override
+  $ProviderElement<DiaryPost> $createElement($ProviderPointer pointer) => $ProviderElement(pointer);
+
+  @override
+  DiaryPost create(Ref ref) {
+    return diaryPost(ref);
+  }
+
+  /// {@macro riverpod.override_with_value}
+  Override overrideWithValue(DiaryPost value) {
+    return $ProviderOverride(origin: this, providerOverride: $SyncValueProvider<DiaryPost>(value));
+  }
+}
+
+String _$diaryPostHash() => r'7539089473660c807d769fc28e9deb4012d0c00c';

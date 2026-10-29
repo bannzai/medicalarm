@@ -6,35 +6,82 @@ part of 'app_user.dart';
 // RiverpodGenerator
 // **************************************************************************
 
-String _$appUserIDHash() => r'4f06a266d5801bd41331f035ac4916bc2380ea3f';
+// GENERATED CODE - DO NOT MODIFY BY HAND
+// ignore_for_file: type=lint, type=warning
 
-/// See also [appUserID].
 @ProviderFor(appUserID)
-final appUserIDProvider = AutoDisposeProvider<String>.internal(
-  appUserID,
-  name: r'appUserIDProvider',
-  debugGetCreateSourceHash: const bool.fromEnvironment('dart.vm.product') ? null : _$appUserIDHash,
-  dependencies: <ProviderOrFamily>[appUserProvider],
-  allTransitiveDependencies: <ProviderOrFamily>{appUserProvider, ...?appUserProvider.allTransitiveDependencies},
-);
+final appUserIDProvider = AppUserIDProvider._();
 
-@Deprecated('Will be removed in 3.0. Use Ref instead')
-// ignore: unused_element
-typedef AppUserIDRef = AutoDisposeProviderRef<String>;
-String _$appUserHash() => r'd4db768e8c250fd8a19d1bb85ead8d5df365a312';
+final class AppUserIDProvider extends $FunctionalProvider<String, String, String> with $Provider<String> {
+  AppUserIDProvider._()
+    : super(
+        from: null,
+        argument: null,
+        retry: null,
+        name: r'appUserIDProvider',
+        isAutoDispose: true,
+        dependencies: <ProviderOrFamily>[appUserProvider],
+        $allTransitiveDependencies: <ProviderOrFamily>[
+          AppUserIDProvider.$allTransitiveDependencies0,
+          AppUserIDProvider.$allTransitiveDependencies1,
+          AppUserIDProvider.$allTransitiveDependencies2,
+        ],
+      );
 
-/// See also [appUser].
+  static final $allTransitiveDependencies0 = appUserProvider;
+  static final $allTransitiveDependencies1 = AppUserProvider.$allTransitiveDependencies0;
+  static final $allTransitiveDependencies2 = AppUserProvider.$allTransitiveDependencies1;
+
+  @override
+  String debugGetCreateSourceHash() => _$appUserIDHash();
+
+  @$internal
+  @override
+  $ProviderElement<String> $createElement($ProviderPointer pointer) => $ProviderElement(pointer);
+
+  @override
+  String create(Ref ref) {
+    return appUserID(ref);
+  }
+
+  /// {@macro riverpod.override_with_value}
+  Override overrideWithValue(String value) {
+    return $ProviderOverride(origin: this, providerOverride: $SyncValueProvider<String>(value));
+  }
+}
+
+String _$appUserIDHash() => r'4ae2d2fc3bf82fdbeb84d728db3e5758e3cd4099';
+
 @ProviderFor(appUser)
-final appUserProvider = AutoDisposeStreamProvider<AppUser>.internal(
-  appUser,
-  name: r'appUserProvider',
-  debugGetCreateSourceHash: const bool.fromEnvironment('dart.vm.product') ? null : _$appUserHash,
-  dependencies: <ProviderOrFamily>[userDatabaseProvider],
-  allTransitiveDependencies: <ProviderOrFamily>{userDatabaseProvider, ...?userDatabaseProvider.allTransitiveDependencies},
-);
+final appUserProvider = AppUserProvider._();
 
-@Deprecated('Will be removed in 3.0. Use Ref instead')
-// ignore: unused_element
-typedef AppUserRef = AutoDisposeStreamProviderRef<AppUser>;
-// ignore_for_file: type=lint
-// ignore_for_file: subtype_of_sealed_class, invalid_use_of_internal_member, invalid_use_of_visible_for_testing_member, deprecated_member_use_from_same_package
+final class AppUserProvider extends $FunctionalProvider<AsyncValue<AppUser>, AppUser, Stream<AppUser>>
+    with $FutureModifier<AppUser>, $StreamProvider<AppUser> {
+  AppUserProvider._()
+    : super(
+        from: null,
+        argument: null,
+        retry: null,
+        name: r'appUserProvider',
+        isAutoDispose: true,
+        dependencies: <ProviderOrFamily>[userDatabaseProvider],
+        $allTransitiveDependencies: <ProviderOrFamily>[AppUserProvider.$allTransitiveDependencies0, AppUserProvider.$allTransitiveDependencies1],
+      );
+
+  static final $allTransitiveDependencies0 = userDatabaseProvider;
+  static final $allTransitiveDependencies1 = UserDatabaseProvider.$allTransitiveDependencies0;
+
+  @override
+  String debugGetCreateSourceHash() => _$appUserHash();
+
+  @$internal
+  @override
+  $StreamProviderElement<AppUser> $createElement($ProviderPointer pointer) => $StreamProviderElement(pointer);
+
+  @override
+  Stream<AppUser> create(Ref ref) {
+    return appUser(ref);
+  }
+}
+
+String _$appUserHash() => r'ba194a96944f6c3713a705684d24bc1c358fd399';

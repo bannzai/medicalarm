@@ -7,7 +7,7 @@ import 'package:riverpod_annotation/riverpod_annotation.dart';
 part 'dose_receiver.g.dart';
 
 @Riverpod(dependencies: [currentGroupDatabase])
-Stream<List<DoseReceiver>> doseReceivers(DoseReceiversRef ref) {
+Stream<List<DoseReceiver>> doseReceivers(Ref ref) {
   final database = ref.watch(currentGroupDatabaseProvider);
   return database.doseReceiversReference().snapshots().map((event) => event.docs.map((doc) => doc.data()).toList());
 }
@@ -36,7 +36,7 @@ class DoseReceiverAdd {
 }
 
 @Riverpod(dependencies: [currentGroupDatabase, appUserID])
-DoseReceiverAdd doseReceiverAdd(DoseReceiverAddRef ref) {
+DoseReceiverAdd doseReceiverAdd(Ref ref) {
   return DoseReceiverAdd(database: ref.watch(currentGroupDatabaseProvider), userID: ref.watch(appUserIDProvider));
 }
 
@@ -62,7 +62,7 @@ class FirstDoseReceiverAdd {
 }
 
 @Riverpod(dependencies: [currentGroupDatabase, appUserID])
-FirstDoseReceiverAdd firstDoseReceiverAdd(FirstDoseReceiverAddRef ref) {
+FirstDoseReceiverAdd firstDoseReceiverAdd(Ref ref) {
   return FirstDoseReceiverAdd(database: ref.watch(currentGroupDatabaseProvider), userID: ref.watch(appUserIDProvider));
 }
 
@@ -84,7 +84,7 @@ class DoseReceiverUpdate {
 }
 
 @Riverpod(dependencies: [currentGroupDatabase])
-DoseReceiverUpdate doseReceiverUpdate(DoseReceiverUpdateRef ref) {
+DoseReceiverUpdate doseReceiverUpdate(Ref ref) {
   final database = ref.watch(currentGroupDatabaseProvider);
   return DoseReceiverUpdate(database: database);
 }

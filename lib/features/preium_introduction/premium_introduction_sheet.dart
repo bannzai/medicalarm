@@ -1,4 +1,4 @@
-import 'package:async_value_group/async_value_group.dart';
+import 'package:medicalarm/utils/riverpod/async_value_group.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:flutter/material.dart';
@@ -25,9 +25,9 @@ class PremiumIntroductionSheet extends HookConsumerWidget {
         ref.invalidate(customerInfoProvider);
         ref.invalidate(offeringsProvider);
       },
-      child: AsyncValueGroup.group2(
-        ref.watch(customerInfoProvider),
-        ref.watch(offeringsProvider),
+      child: groupAsyncValues2(
+        first: ref.watch(customerInfoProvider),
+        second: ref.watch(offeringsProvider),
       ).when(
         data: (data) => DraggableScrollableSheet(
           initialChildSize: 1,

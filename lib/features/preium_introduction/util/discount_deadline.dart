@@ -22,7 +22,7 @@ class Tick extends _$Tick {
 }
 
 @Riverpod()
-bool isOverDiscountDeadline(IsOverDiscountDeadlineRef ref, {required DateTime? discountEntitlementDeadlineDate}) {
+bool isOverDiscountDeadline(Ref ref, {required DateTime? discountEntitlementDeadlineDate}) {
   if (discountEntitlementDeadlineDate == null) {
     // NOTE: discountEntitlementDeadlineDate が存在しない時はbackendの方でまだ期限を決めていないのでfalse状態で扱う
     return false;
@@ -32,13 +32,13 @@ bool isOverDiscountDeadline(IsOverDiscountDeadlineRef ref, {required DateTime? d
 }
 
 @Riverpod(dependencies: [customerInfo])
-bool hiddenCountdownDiscountDeadline(HiddenCountdownDiscountDeadlineRef ref, {required DateTime? discountEntitlementDeadlineDate}) {
+bool hiddenCountdownDiscountDeadline(Ref ref, {required DateTime? discountEntitlementDeadlineDate}) {
   final customerInfo = ref.watch(customerInfoProvider).asData?.value;
   return customerInfo?.isInDiscountDuration == false;
 }
 
 @Riverpod()
-Duration durationToDiscountPriceDeadline(DurationToDiscountPriceDeadlineRef ref, {required DateTime discountEntitlementDeadlineDate}) {
+Duration durationToDiscountPriceDeadline(Ref ref, {required DateTime discountEntitlementDeadlineDate}) {
   final timerDate = ref.watch(tickProvider);
   return discountEntitlementDeadlineDate.difference(timerDate);
 }

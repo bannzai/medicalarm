@@ -29,7 +29,7 @@ class MedicationPlaceholderCards extends ConsumerWidget {
     if (groupID == null || ref.watch(hasRegisteredMedicinesProvider).asData?.value != false) return const SizedBox.shrink();
     final plan = ref.watch(onboardingMedicationPlanStoreProvider(userID: ref.watch(appUserIDProvider), groupID: groupID));
     if (plan == null || date.date().isBefore(plan.createdDateTime.date())) return const SizedBox.shrink();
-    final doseReceiver = ref.watch(doseReceiversProvider).valueOrNull?.firstWhereOrNull((receiver) => receiver.id == plan.doseReceiverID);
+    final doseReceiver = ref.watch(doseReceiversProvider).value?.firstWhereOrNull((receiver) => receiver.id == plan.doseReceiverID);
     if (doseReceiver == null) return const SizedBox.shrink();
 
     return Column(

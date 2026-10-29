@@ -6,215 +6,137 @@ part of 'onboarding_medication_plan.dart';
 // RiverpodGenerator
 // **************************************************************************
 
-String _$hasRegisteredMedicinesHash() => r'3ede91041b29267c59d0b095f678c453b01f624e';
+// GENERATED CODE - DO NOT MODIFY BY HAND
+// ignore_for_file: type=lint, type=warning
+/// アーカイブ済みを含め、薬が登録されたことを検知する。
+
+@ProviderFor(hasRegisteredMedicines)
+final hasRegisteredMedicinesProvider = HasRegisteredMedicinesProvider._();
 
 /// アーカイブ済みを含め、薬が登録されたことを検知する。
-///
-/// Copied from [hasRegisteredMedicines].
-@ProviderFor(hasRegisteredMedicines)
-final hasRegisteredMedicinesProvider = AutoDisposeStreamProvider<bool>.internal(
-  hasRegisteredMedicines,
-  name: r'hasRegisteredMedicinesProvider',
-  debugGetCreateSourceHash: const bool.fromEnvironment('dart.vm.product') ? null : _$hasRegisteredMedicinesHash,
-  dependencies: <ProviderOrFamily>[currentGroupDatabaseProvider],
-  allTransitiveDependencies: <ProviderOrFamily>{currentGroupDatabaseProvider, ...?currentGroupDatabaseProvider.allTransitiveDependencies},
-);
 
-@Deprecated('Will be removed in 3.0. Use Ref instead')
-// ignore: unused_element
-typedef HasRegisteredMedicinesRef = AutoDisposeStreamProviderRef<bool>;
-String _$onboardingMedicationPlanStoreHash() => r'1ede60d2d5acfdab44dd6fe0df18510d8a7248a9';
+final class HasRegisteredMedicinesProvider extends $FunctionalProvider<AsyncValue<bool>, bool, Stream<bool>>
+    with $FutureModifier<bool>, $StreamProvider<bool> {
+  /// アーカイブ済みを含め、薬が登録されたことを検知する。
+  HasRegisteredMedicinesProvider._()
+    : super(
+        from: null,
+        argument: null,
+        retry: null,
+        name: r'hasRegisteredMedicinesProvider',
+        isAutoDispose: true,
+        dependencies: <ProviderOrFamily>[currentGroupDatabaseProvider],
+        $allTransitiveDependencies: <ProviderOrFamily>[HasRegisteredMedicinesProvider.$allTransitiveDependencies0],
+      );
 
-/// Copied from Dart SDK
-class _SystemHash {
-  _SystemHash._();
+  static final $allTransitiveDependencies0 = currentGroupDatabaseProvider;
 
-  static int combine(int hash, int value) {
-    // ignore: parameter_assignments
-    hash = 0x1fffffff & (hash + value);
-    // ignore: parameter_assignments
-    hash = 0x1fffffff & (hash + ((0x0007ffff & hash) << 10));
-    return hash ^ (hash >> 6);
-  }
+  @override
+  String debugGetCreateSourceHash() => _$hasRegisteredMedicinesHash();
 
-  static int finish(int hash) {
-    // ignore: parameter_assignments
-    hash = 0x1fffffff & (hash + ((0x03ffffff & hash) << 3));
-    // ignore: parameter_assignments
-    hash = hash ^ (hash >> 11);
-    return 0x1fffffff & (hash + ((0x00003fff & hash) << 15));
+  @$internal
+  @override
+  $StreamProviderElement<bool> $createElement($ProviderPointer pointer) => $StreamProviderElement(pointer);
+
+  @override
+  Stream<bool> create(Ref ref) {
+    return hasRegisteredMedicines(ref);
   }
 }
 
-abstract class _$OnboardingMedicationPlanStore extends BuildlessNotifier<OnboardingMedicationPlan?> {
-  late final String userID;
-  late final String groupID;
-
-  OnboardingMedicationPlan? build({
-    required String userID,
-    required String groupID,
-  });
-}
+String _$hasRegisteredMedicinesHash() => r'3ede91041b29267c59d0b095f678c453b01f624e';
 
 /// アカウントとグループを境界に仮設定の保存・解除を管理する。
-///
-/// Copied from [OnboardingMedicationPlanStore].
+
 @ProviderFor(OnboardingMedicationPlanStore)
-const onboardingMedicationPlanStoreProvider = OnboardingMedicationPlanStoreFamily();
+final onboardingMedicationPlanStoreProvider = OnboardingMedicationPlanStoreFamily._();
 
 /// アカウントとグループを境界に仮設定の保存・解除を管理する。
-///
-/// Copied from [OnboardingMedicationPlanStore].
-class OnboardingMedicationPlanStoreFamily extends Family<OnboardingMedicationPlan?> {
+final class OnboardingMedicationPlanStoreProvider extends $NotifierProvider<OnboardingMedicationPlanStore, OnboardingMedicationPlan?> {
   /// アカウントとグループを境界に仮設定の保存・解除を管理する。
-  ///
-  /// Copied from [OnboardingMedicationPlanStore].
-  const OnboardingMedicationPlanStoreFamily();
+  OnboardingMedicationPlanStoreProvider._({
+    required OnboardingMedicationPlanStoreFamily super.from,
+    required ({String userID, String groupID}) super.argument,
+  }) : super(retry: null, name: r'onboardingMedicationPlanStoreProvider', isAutoDispose: false, dependencies: null, $allTransitiveDependencies: null);
 
-  /// アカウントとグループを境界に仮設定の保存・解除を管理する。
-  ///
-  /// Copied from [OnboardingMedicationPlanStore].
-  OnboardingMedicationPlanStoreProvider call({
-    required String userID,
-    required String groupID,
-  }) {
-    return OnboardingMedicationPlanStoreProvider(
-      userID: userID,
-      groupID: groupID,
-    );
+  static final $allTransitiveDependencies0 = sharedPreferencesProvider;
+
+  @override
+  String debugGetCreateSourceHash() => _$onboardingMedicationPlanStoreHash();
+
+  @override
+  String toString() {
+    return r'onboardingMedicationPlanStoreProvider'
+        ''
+        '$argument';
   }
 
+  @$internal
   @override
-  OnboardingMedicationPlanStoreProvider getProviderOverride(
-    covariant OnboardingMedicationPlanStoreProvider provider,
-  ) {
-    return call(
-      userID: provider.userID,
-      groupID: provider.groupID,
-    );
-  }
+  OnboardingMedicationPlanStore create() => OnboardingMedicationPlanStore();
 
-  static final Iterable<ProviderOrFamily> _dependencies = <ProviderOrFamily>[sharedPreferencesProvider];
-
-  @override
-  Iterable<ProviderOrFamily>? get dependencies => _dependencies;
-
-  static final Iterable<ProviderOrFamily> _allTransitiveDependencies = <ProviderOrFamily>{
-    sharedPreferencesProvider,
-    ...?sharedPreferencesProvider.allTransitiveDependencies
-  };
-
-  @override
-  Iterable<ProviderOrFamily>? get allTransitiveDependencies => _allTransitiveDependencies;
-
-  @override
-  String? get name => r'onboardingMedicationPlanStoreProvider';
-}
-
-/// アカウントとグループを境界に仮設定の保存・解除を管理する。
-///
-/// Copied from [OnboardingMedicationPlanStore].
-class OnboardingMedicationPlanStoreProvider extends NotifierProviderImpl<OnboardingMedicationPlanStore, OnboardingMedicationPlan?> {
-  /// アカウントとグループを境界に仮設定の保存・解除を管理する。
-  ///
-  /// Copied from [OnboardingMedicationPlanStore].
-  OnboardingMedicationPlanStoreProvider({
-    required String userID,
-    required String groupID,
-  }) : this._internal(
-          () => OnboardingMedicationPlanStore()
-            ..userID = userID
-            ..groupID = groupID,
-          from: onboardingMedicationPlanStoreProvider,
-          name: r'onboardingMedicationPlanStoreProvider',
-          debugGetCreateSourceHash: const bool.fromEnvironment('dart.vm.product') ? null : _$onboardingMedicationPlanStoreHash,
-          dependencies: OnboardingMedicationPlanStoreFamily._dependencies,
-          allTransitiveDependencies: OnboardingMedicationPlanStoreFamily._allTransitiveDependencies,
-          userID: userID,
-          groupID: groupID,
-        );
-
-  OnboardingMedicationPlanStoreProvider._internal(
-    super._createNotifier, {
-    required super.name,
-    required super.dependencies,
-    required super.allTransitiveDependencies,
-    required super.debugGetCreateSourceHash,
-    required super.from,
-    required this.userID,
-    required this.groupID,
-  }) : super.internal();
-
-  final String userID;
-  final String groupID;
-
-  @override
-  OnboardingMedicationPlan? runNotifierBuild(
-    covariant OnboardingMedicationPlanStore notifier,
-  ) {
-    return notifier.build(
-      userID: userID,
-      groupID: groupID,
-    );
-  }
-
-  @override
-  Override overrideWith(OnboardingMedicationPlanStore Function() create) {
-    return ProviderOverride(
-      origin: this,
-      override: OnboardingMedicationPlanStoreProvider._internal(
-        () => create()
-          ..userID = userID
-          ..groupID = groupID,
-        from: from,
-        name: null,
-        dependencies: null,
-        allTransitiveDependencies: null,
-        debugGetCreateSourceHash: null,
-        userID: userID,
-        groupID: groupID,
-      ),
-    );
-  }
-
-  @override
-  NotifierProviderElement<OnboardingMedicationPlanStore, OnboardingMedicationPlan?> createElement() {
-    return _OnboardingMedicationPlanStoreProviderElement(this);
+  /// {@macro riverpod.override_with_value}
+  Override overrideWithValue(OnboardingMedicationPlan? value) {
+    return $ProviderOverride(origin: this, providerOverride: $SyncValueProvider<OnboardingMedicationPlan?>(value));
   }
 
   @override
   bool operator ==(Object other) {
-    return other is OnboardingMedicationPlanStoreProvider && other.userID == userID && other.groupID == groupID;
+    return other is OnboardingMedicationPlanStoreProvider && other.argument == argument;
   }
 
   @override
   int get hashCode {
-    var hash = _SystemHash.combine(0, runtimeType.hashCode);
-    hash = _SystemHash.combine(hash, userID.hashCode);
-    hash = _SystemHash.combine(hash, groupID.hashCode);
-
-    return _SystemHash.finish(hash);
+    return argument.hashCode;
   }
 }
 
-@Deprecated('Will be removed in 3.0. Use Ref instead')
-// ignore: unused_element
-mixin OnboardingMedicationPlanStoreRef on NotifierProviderRef<OnboardingMedicationPlan?> {
-  /// The parameter `userID` of this provider.
-  String get userID;
+String _$onboardingMedicationPlanStoreHash() => r'1ede60d2d5acfdab44dd6fe0df18510d8a7248a9';
 
-  /// The parameter `groupID` of this provider.
-  String get groupID;
-}
+/// アカウントとグループを境界に仮設定の保存・解除を管理する。
 
-class _OnboardingMedicationPlanStoreProviderElement extends NotifierProviderElement<OnboardingMedicationPlanStore, OnboardingMedicationPlan?>
-    with OnboardingMedicationPlanStoreRef {
-  _OnboardingMedicationPlanStoreProviderElement(super.provider);
+final class OnboardingMedicationPlanStoreFamily extends $Family
+    with
+        $ClassFamilyOverride<
+          OnboardingMedicationPlanStore,
+          OnboardingMedicationPlan?,
+          OnboardingMedicationPlan?,
+          OnboardingMedicationPlan?,
+          ({String userID, String groupID})
+        > {
+  OnboardingMedicationPlanStoreFamily._()
+    : super(
+        retry: null,
+        name: r'onboardingMedicationPlanStoreProvider',
+        dependencies: <ProviderOrFamily>[sharedPreferencesProvider],
+        $allTransitiveDependencies: <ProviderOrFamily>[OnboardingMedicationPlanStoreProvider.$allTransitiveDependencies0],
+        isAutoDispose: false,
+      );
+
+  /// アカウントとグループを境界に仮設定の保存・解除を管理する。
+
+  OnboardingMedicationPlanStoreProvider call({required String userID, required String groupID}) =>
+      OnboardingMedicationPlanStoreProvider._(argument: (userID: userID, groupID: groupID), from: this);
 
   @override
-  String get userID => (origin as OnboardingMedicationPlanStoreProvider).userID;
-  @override
-  String get groupID => (origin as OnboardingMedicationPlanStoreProvider).groupID;
+  String toString() => r'onboardingMedicationPlanStoreProvider';
 }
-// ignore_for_file: type=lint
-// ignore_for_file: subtype_of_sealed_class, invalid_use_of_internal_member, invalid_use_of_visible_for_testing_member, deprecated_member_use_from_same_package
+
+/// アカウントとグループを境界に仮設定の保存・解除を管理する。
+
+abstract class _$OnboardingMedicationPlanStore extends $Notifier<OnboardingMedicationPlan?> {
+  late final _$args = ref.$arg as ({String userID, String groupID});
+  String get userID => _$args.userID;
+  String get groupID => _$args.groupID;
+
+  OnboardingMedicationPlan? build({required String userID, required String groupID});
+  @$mustCallSuper
+  @override
+  WhenComplete runBuild() {
+    final ref = this.ref as $Ref<OnboardingMedicationPlan?, OnboardingMedicationPlan?>;
+    final element =
+        ref.element
+            as $ClassProviderElement<AnyNotifier<OnboardingMedicationPlan?, OnboardingMedicationPlan?>, OnboardingMedicationPlan?, Object?, Object?>;
+    return element.handleCreate(ref, () => build(userID: _$args.userID, groupID: _$args.groupID));
+  }
+}

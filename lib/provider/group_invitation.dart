@@ -1,5 +1,4 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:medicalarm/features/resolver/database.dart';
 import 'package:medicalarm/utils/functions/firebase_functions.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';

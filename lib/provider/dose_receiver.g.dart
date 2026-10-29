@@ -6,75 +6,171 @@ part of 'dose_receiver.dart';
 // RiverpodGenerator
 // **************************************************************************
 
-String _$doseReceiversHash() => r'e064cc603158daa495cfbeee78db58f53f7dbe59';
+// GENERATED CODE - DO NOT MODIFY BY HAND
+// ignore_for_file: type=lint, type=warning
 
-/// See also [doseReceivers].
 @ProviderFor(doseReceivers)
-final doseReceiversProvider = AutoDisposeStreamProvider<List<DoseReceiver>>.internal(
-  doseReceivers,
-  name: r'doseReceiversProvider',
-  debugGetCreateSourceHash: const bool.fromEnvironment('dart.vm.product') ? null : _$doseReceiversHash,
-  dependencies: <ProviderOrFamily>[currentGroupDatabaseProvider],
-  allTransitiveDependencies: <ProviderOrFamily>{currentGroupDatabaseProvider, ...?currentGroupDatabaseProvider.allTransitiveDependencies},
-);
+final doseReceiversProvider = DoseReceiversProvider._();
 
-@Deprecated('Will be removed in 3.0. Use Ref instead')
-// ignore: unused_element
-typedef DoseReceiversRef = AutoDisposeStreamProviderRef<List<DoseReceiver>>;
-String _$doseReceiverAddHash() => r'b169e0be5c492e68e137992262d45eeef07bca19';
+final class DoseReceiversProvider extends $FunctionalProvider<AsyncValue<List<DoseReceiver>>, List<DoseReceiver>, Stream<List<DoseReceiver>>>
+    with $FutureModifier<List<DoseReceiver>>, $StreamProvider<List<DoseReceiver>> {
+  DoseReceiversProvider._()
+    : super(
+        from: null,
+        argument: null,
+        retry: null,
+        name: r'doseReceiversProvider',
+        isAutoDispose: true,
+        dependencies: <ProviderOrFamily>[currentGroupDatabaseProvider],
+        $allTransitiveDependencies: <ProviderOrFamily>[DoseReceiversProvider.$allTransitiveDependencies0],
+      );
 
-/// See also [doseReceiverAdd].
+  static final $allTransitiveDependencies0 = currentGroupDatabaseProvider;
+
+  @override
+  String debugGetCreateSourceHash() => _$doseReceiversHash();
+
+  @$internal
+  @override
+  $StreamProviderElement<List<DoseReceiver>> $createElement($ProviderPointer pointer) => $StreamProviderElement(pointer);
+
+  @override
+  Stream<List<DoseReceiver>> create(Ref ref) {
+    return doseReceivers(ref);
+  }
+}
+
+String _$doseReceiversHash() => r'aa01542c5e8d2c2ab18959569a7bc4cad6c25aba';
+
 @ProviderFor(doseReceiverAdd)
-final doseReceiverAddProvider = AutoDisposeProvider<DoseReceiverAdd>.internal(
-  doseReceiverAdd,
-  name: r'doseReceiverAddProvider',
-  debugGetCreateSourceHash: const bool.fromEnvironment('dart.vm.product') ? null : _$doseReceiverAddHash,
-  dependencies: <ProviderOrFamily>[currentGroupDatabaseProvider, appUserIDProvider],
-  allTransitiveDependencies: <ProviderOrFamily>{
-    currentGroupDatabaseProvider,
-    ...?currentGroupDatabaseProvider.allTransitiveDependencies,
-    appUserIDProvider,
-    ...?appUserIDProvider.allTransitiveDependencies
-  },
-);
+final doseReceiverAddProvider = DoseReceiverAddProvider._();
 
-@Deprecated('Will be removed in 3.0. Use Ref instead')
-// ignore: unused_element
-typedef DoseReceiverAddRef = AutoDisposeProviderRef<DoseReceiverAdd>;
-String _$firstDoseReceiverAddHash() => r'd4bc29455b7dd6abaa83131a2d0f1f61c16c0ce1';
+final class DoseReceiverAddProvider extends $FunctionalProvider<DoseReceiverAdd, DoseReceiverAdd, DoseReceiverAdd> with $Provider<DoseReceiverAdd> {
+  DoseReceiverAddProvider._()
+    : super(
+        from: null,
+        argument: null,
+        retry: null,
+        name: r'doseReceiverAddProvider',
+        isAutoDispose: true,
+        dependencies: <ProviderOrFamily>[currentGroupDatabaseProvider, appUserIDProvider],
+        $allTransitiveDependencies: <ProviderOrFamily>{
+          DoseReceiverAddProvider.$allTransitiveDependencies0,
+          DoseReceiverAddProvider.$allTransitiveDependencies1,
+          DoseReceiverAddProvider.$allTransitiveDependencies2,
+          DoseReceiverAddProvider.$allTransitiveDependencies3,
+          DoseReceiverAddProvider.$allTransitiveDependencies4,
+        },
+      );
 
-/// See also [firstDoseReceiverAdd].
+  static final $allTransitiveDependencies0 = currentGroupDatabaseProvider;
+  static final $allTransitiveDependencies1 = appUserIDProvider;
+  static final $allTransitiveDependencies2 = AppUserIDProvider.$allTransitiveDependencies0;
+  static final $allTransitiveDependencies3 = AppUserIDProvider.$allTransitiveDependencies1;
+  static final $allTransitiveDependencies4 = AppUserIDProvider.$allTransitiveDependencies2;
+
+  @override
+  String debugGetCreateSourceHash() => _$doseReceiverAddHash();
+
+  @$internal
+  @override
+  $ProviderElement<DoseReceiverAdd> $createElement($ProviderPointer pointer) => $ProviderElement(pointer);
+
+  @override
+  DoseReceiverAdd create(Ref ref) {
+    return doseReceiverAdd(ref);
+  }
+
+  /// {@macro riverpod.override_with_value}
+  Override overrideWithValue(DoseReceiverAdd value) {
+    return $ProviderOverride(origin: this, providerOverride: $SyncValueProvider<DoseReceiverAdd>(value));
+  }
+}
+
+String _$doseReceiverAddHash() => r'20bccde47267782bf9e433849b88dffb148ab673';
+
 @ProviderFor(firstDoseReceiverAdd)
-final firstDoseReceiverAddProvider = AutoDisposeProvider<FirstDoseReceiverAdd>.internal(
-  firstDoseReceiverAdd,
-  name: r'firstDoseReceiverAddProvider',
-  debugGetCreateSourceHash: const bool.fromEnvironment('dart.vm.product') ? null : _$firstDoseReceiverAddHash,
-  dependencies: <ProviderOrFamily>[currentGroupDatabaseProvider, appUserIDProvider],
-  allTransitiveDependencies: <ProviderOrFamily>{
-    currentGroupDatabaseProvider,
-    ...?currentGroupDatabaseProvider.allTransitiveDependencies,
-    appUserIDProvider,
-    ...?appUserIDProvider.allTransitiveDependencies
-  },
-);
+final firstDoseReceiverAddProvider = FirstDoseReceiverAddProvider._();
 
-@Deprecated('Will be removed in 3.0. Use Ref instead')
-// ignore: unused_element
-typedef FirstDoseReceiverAddRef = AutoDisposeProviderRef<FirstDoseReceiverAdd>;
-String _$doseReceiverUpdateHash() => r'c9416d8f0d6f5ab2e7c79d8750a1f241dd892b0b';
+final class FirstDoseReceiverAddProvider extends $FunctionalProvider<FirstDoseReceiverAdd, FirstDoseReceiverAdd, FirstDoseReceiverAdd>
+    with $Provider<FirstDoseReceiverAdd> {
+  FirstDoseReceiverAddProvider._()
+    : super(
+        from: null,
+        argument: null,
+        retry: null,
+        name: r'firstDoseReceiverAddProvider',
+        isAutoDispose: true,
+        dependencies: <ProviderOrFamily>[currentGroupDatabaseProvider, appUserIDProvider],
+        $allTransitiveDependencies: <ProviderOrFamily>{
+          FirstDoseReceiverAddProvider.$allTransitiveDependencies0,
+          FirstDoseReceiverAddProvider.$allTransitiveDependencies1,
+          FirstDoseReceiverAddProvider.$allTransitiveDependencies2,
+          FirstDoseReceiverAddProvider.$allTransitiveDependencies3,
+          FirstDoseReceiverAddProvider.$allTransitiveDependencies4,
+        },
+      );
 
-/// See also [doseReceiverUpdate].
+  static final $allTransitiveDependencies0 = currentGroupDatabaseProvider;
+  static final $allTransitiveDependencies1 = appUserIDProvider;
+  static final $allTransitiveDependencies2 = AppUserIDProvider.$allTransitiveDependencies0;
+  static final $allTransitiveDependencies3 = AppUserIDProvider.$allTransitiveDependencies1;
+  static final $allTransitiveDependencies4 = AppUserIDProvider.$allTransitiveDependencies2;
+
+  @override
+  String debugGetCreateSourceHash() => _$firstDoseReceiverAddHash();
+
+  @$internal
+  @override
+  $ProviderElement<FirstDoseReceiverAdd> $createElement($ProviderPointer pointer) => $ProviderElement(pointer);
+
+  @override
+  FirstDoseReceiverAdd create(Ref ref) {
+    return firstDoseReceiverAdd(ref);
+  }
+
+  /// {@macro riverpod.override_with_value}
+  Override overrideWithValue(FirstDoseReceiverAdd value) {
+    return $ProviderOverride(origin: this, providerOverride: $SyncValueProvider<FirstDoseReceiverAdd>(value));
+  }
+}
+
+String _$firstDoseReceiverAddHash() => r'f2d3dd22c2283fd7d2e7b44674969fdc990ae3cd';
+
 @ProviderFor(doseReceiverUpdate)
-final doseReceiverUpdateProvider = AutoDisposeProvider<DoseReceiverUpdate>.internal(
-  doseReceiverUpdate,
-  name: r'doseReceiverUpdateProvider',
-  debugGetCreateSourceHash: const bool.fromEnvironment('dart.vm.product') ? null : _$doseReceiverUpdateHash,
-  dependencies: <ProviderOrFamily>[currentGroupDatabaseProvider],
-  allTransitiveDependencies: <ProviderOrFamily>{currentGroupDatabaseProvider, ...?currentGroupDatabaseProvider.allTransitiveDependencies},
-);
+final doseReceiverUpdateProvider = DoseReceiverUpdateProvider._();
 
-@Deprecated('Will be removed in 3.0. Use Ref instead')
-// ignore: unused_element
-typedef DoseReceiverUpdateRef = AutoDisposeProviderRef<DoseReceiverUpdate>;
-// ignore_for_file: type=lint
-// ignore_for_file: subtype_of_sealed_class, invalid_use_of_internal_member, invalid_use_of_visible_for_testing_member, deprecated_member_use_from_same_package
+final class DoseReceiverUpdateProvider extends $FunctionalProvider<DoseReceiverUpdate, DoseReceiverUpdate, DoseReceiverUpdate>
+    with $Provider<DoseReceiverUpdate> {
+  DoseReceiverUpdateProvider._()
+    : super(
+        from: null,
+        argument: null,
+        retry: null,
+        name: r'doseReceiverUpdateProvider',
+        isAutoDispose: true,
+        dependencies: <ProviderOrFamily>[currentGroupDatabaseProvider],
+        $allTransitiveDependencies: <ProviderOrFamily>[DoseReceiverUpdateProvider.$allTransitiveDependencies0],
+      );
+
+  static final $allTransitiveDependencies0 = currentGroupDatabaseProvider;
+
+  @override
+  String debugGetCreateSourceHash() => _$doseReceiverUpdateHash();
+
+  @$internal
+  @override
+  $ProviderElement<DoseReceiverUpdate> $createElement($ProviderPointer pointer) => $ProviderElement(pointer);
+
+  @override
+  DoseReceiverUpdate create(Ref ref) {
+    return doseReceiverUpdate(ref);
+  }
+
+  /// {@macro riverpod.override_with_value}
+  Override overrideWithValue(DoseReceiverUpdate value) {
+    return $ProviderOverride(origin: this, providerOverride: $SyncValueProvider<DoseReceiverUpdate>(value));
+  }
+}
+
+String _$doseReceiverUpdateHash() => r'96d0ca51b3d5f7fa18886d6bbc1ffae7cc2333ac';

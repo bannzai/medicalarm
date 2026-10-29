@@ -6,20 +6,40 @@ part of 'group_create.dart';
 // RiverpodGenerator
 // **************************************************************************
 
-String _$createGroupHash() => r'fedd5b6118bab3c242ba0ce29bad36f0b71b412a';
+// GENERATED CODE - DO NOT MODIFY BY HAND
+// ignore_for_file: type=lint, type=warning
 
-/// See also [createGroup].
 @ProviderFor(createGroup)
-final createGroupProvider = AutoDisposeProvider<CreateGroup>.internal(
-  createGroup,
-  name: r'createGroupProvider',
-  debugGetCreateSourceHash: const bool.fromEnvironment('dart.vm.product') ? null : _$createGroupHash,
-  dependencies: null,
-  allTransitiveDependencies: null,
-);
+final createGroupProvider = CreateGroupProvider._();
 
-@Deprecated('Will be removed in 3.0. Use Ref instead')
-// ignore: unused_element
-typedef CreateGroupRef = AutoDisposeProviderRef<CreateGroup>;
-// ignore_for_file: type=lint
-// ignore_for_file: subtype_of_sealed_class, invalid_use_of_internal_member, invalid_use_of_visible_for_testing_member, deprecated_member_use_from_same_package
+final class CreateGroupProvider extends $FunctionalProvider<CreateGroup, CreateGroup, CreateGroup> with $Provider<CreateGroup> {
+  CreateGroupProvider._()
+    : super(
+        from: null,
+        argument: null,
+        retry: null,
+        name: r'createGroupProvider',
+        isAutoDispose: true,
+        dependencies: null,
+        $allTransitiveDependencies: null,
+      );
+
+  @override
+  String debugGetCreateSourceHash() => _$createGroupHash();
+
+  @$internal
+  @override
+  $ProviderElement<CreateGroup> $createElement($ProviderPointer pointer) => $ProviderElement(pointer);
+
+  @override
+  CreateGroup create(Ref ref) {
+    return createGroup(ref);
+  }
+
+  /// {@macro riverpod.override_with_value}
+  Override overrideWithValue(CreateGroup value) {
+    return $ProviderOverride(origin: this, providerOverride: $SyncValueProvider<CreateGroup>(value));
+  }
+}
+
+String _$createGroupHash() => r'fedd5b6118bab3c242ba0ce29bad36f0b71b412a';
