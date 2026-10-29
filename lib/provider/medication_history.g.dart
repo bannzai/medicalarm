@@ -6,238 +6,273 @@ part of 'medication_history.dart';
 // RiverpodGenerator
 // **************************************************************************
 
-String _$medicationHistoriesHash() => r'5e9765b4b3b4409d5a148413658a8fd393ed6986';
+// GENERATED CODE - DO NOT MODIFY BY HAND
+// ignore_for_file: type=lint, type=warning
 
-/// See also [medicationHistories].
 @ProviderFor(medicationHistories)
-final medicationHistoriesProvider = AutoDisposeStreamProvider<List<MedicationHistory>>.internal(
-  medicationHistories,
-  name: r'medicationHistoriesProvider',
-  debugGetCreateSourceHash: const bool.fromEnvironment('dart.vm.product') ? null : _$medicationHistoriesHash,
-  dependencies: <ProviderOrFamily>[currentGroupDatabaseProvider],
-  allTransitiveDependencies: <ProviderOrFamily>{currentGroupDatabaseProvider, ...?currentGroupDatabaseProvider.allTransitiveDependencies},
-);
+final medicationHistoriesProvider = MedicationHistoriesProvider._();
 
-@Deprecated('Will be removed in 3.0. Use Ref instead')
-// ignore: unused_element
-typedef MedicationHistoriesRef = AutoDisposeStreamProviderRef<List<MedicationHistory>>;
-String _$medicationHistoriesByDateHash() => r'17562d970bdc529035aa77d51aea754bee47a4a8';
+final class MedicationHistoriesProvider
+    extends $FunctionalProvider<AsyncValue<List<MedicationHistory>>, List<MedicationHistory>, Stream<List<MedicationHistory>>>
+    with $FutureModifier<List<MedicationHistory>>, $StreamProvider<List<MedicationHistory>> {
+  MedicationHistoriesProvider._()
+    : super(
+        from: null,
+        argument: null,
+        retry: null,
+        name: r'medicationHistoriesProvider',
+        isAutoDispose: true,
+        dependencies: <ProviderOrFamily>[currentGroupDatabaseProvider],
+        $allTransitiveDependencies: <ProviderOrFamily>[MedicationHistoriesProvider.$allTransitiveDependencies0],
+      );
 
-/// Copied from Dart SDK
-class _SystemHash {
-  _SystemHash._();
+  static final $allTransitiveDependencies0 = currentGroupDatabaseProvider;
 
-  static int combine(int hash, int value) {
-    // ignore: parameter_assignments
-    hash = 0x1fffffff & (hash + value);
-    // ignore: parameter_assignments
-    hash = 0x1fffffff & (hash + ((0x0007ffff & hash) << 10));
-    return hash ^ (hash >> 6);
-  }
+  @override
+  String debugGetCreateSourceHash() => _$medicationHistoriesHash();
 
-  static int finish(int hash) {
-    // ignore: parameter_assignments
-    hash = 0x1fffffff & (hash + ((0x03ffffff & hash) << 3));
-    // ignore: parameter_assignments
-    hash = hash ^ (hash >> 11);
-    return 0x1fffffff & (hash + ((0x00003fff & hash) << 15));
+  @$internal
+  @override
+  $StreamProviderElement<List<MedicationHistory>> $createElement($ProviderPointer pointer) => $StreamProviderElement(pointer);
+
+  @override
+  Stream<List<MedicationHistory>> create(Ref ref) {
+    return medicationHistories(ref);
   }
 }
 
-/// See also [medicationHistoriesByDate].
+String _$medicationHistoriesHash() => r'b95c693a63b3c05deedbe86c75a2022e98d31d1b';
+
 @ProviderFor(medicationHistoriesByDate)
-const medicationHistoriesByDateProvider = MedicationHistoriesByDateFamily();
+final medicationHistoriesByDateProvider = MedicationHistoriesByDateFamily._();
 
-/// See also [medicationHistoriesByDate].
-class MedicationHistoriesByDateFamily extends Family<AsyncValue<List<MedicationHistory>>> {
-  /// See also [medicationHistoriesByDate].
-  const MedicationHistoriesByDateFamily();
+final class MedicationHistoriesByDateProvider
+    extends $FunctionalProvider<AsyncValue<List<MedicationHistory>>, List<MedicationHistory>, Stream<List<MedicationHistory>>>
+    with $FutureModifier<List<MedicationHistory>>, $StreamProvider<List<MedicationHistory>> {
+  MedicationHistoriesByDateProvider._({required MedicationHistoriesByDateFamily super.from, required DateTime super.argument})
+    : super(retry: null, name: r'medicationHistoriesByDateProvider', isAutoDispose: true, dependencies: null, $allTransitiveDependencies: null);
 
-  /// See also [medicationHistoriesByDate].
-  MedicationHistoriesByDateProvider call(
-    DateTime date,
-  ) {
-    return MedicationHistoriesByDateProvider(
-      date,
-    );
+  static final $allTransitiveDependencies0 = currentGroupDatabaseProvider;
+
+  @override
+  String debugGetCreateSourceHash() => _$medicationHistoriesByDateHash();
+
+  @override
+  String toString() {
+    return r'medicationHistoriesByDateProvider'
+        ''
+        '($argument)';
   }
 
+  @$internal
   @override
-  MedicationHistoriesByDateProvider getProviderOverride(
-    covariant MedicationHistoriesByDateProvider provider,
-  ) {
-    return call(
-      provider.date,
-    );
-  }
-
-  static final Iterable<ProviderOrFamily> _dependencies = <ProviderOrFamily>[currentGroupDatabaseProvider];
+  $StreamProviderElement<List<MedicationHistory>> $createElement($ProviderPointer pointer) => $StreamProviderElement(pointer);
 
   @override
-  Iterable<ProviderOrFamily>? get dependencies => _dependencies;
-
-  static final Iterable<ProviderOrFamily> _allTransitiveDependencies = <ProviderOrFamily>{
-    currentGroupDatabaseProvider,
-    ...?currentGroupDatabaseProvider.allTransitiveDependencies
-  };
-
-  @override
-  Iterable<ProviderOrFamily>? get allTransitiveDependencies => _allTransitiveDependencies;
-
-  @override
-  String? get name => r'medicationHistoriesByDateProvider';
-}
-
-/// See also [medicationHistoriesByDate].
-class MedicationHistoriesByDateProvider extends AutoDisposeStreamProvider<List<MedicationHistory>> {
-  /// See also [medicationHistoriesByDate].
-  MedicationHistoriesByDateProvider(
-    DateTime date,
-  ) : this._internal(
-          (ref) => medicationHistoriesByDate(
-            ref as MedicationHistoriesByDateRef,
-            date,
-          ),
-          from: medicationHistoriesByDateProvider,
-          name: r'medicationHistoriesByDateProvider',
-          debugGetCreateSourceHash: const bool.fromEnvironment('dart.vm.product') ? null : _$medicationHistoriesByDateHash,
-          dependencies: MedicationHistoriesByDateFamily._dependencies,
-          allTransitiveDependencies: MedicationHistoriesByDateFamily._allTransitiveDependencies,
-          date: date,
-        );
-
-  MedicationHistoriesByDateProvider._internal(
-    super._createNotifier, {
-    required super.name,
-    required super.dependencies,
-    required super.allTransitiveDependencies,
-    required super.debugGetCreateSourceHash,
-    required super.from,
-    required this.date,
-  }) : super.internal();
-
-  final DateTime date;
-
-  @override
-  Override overrideWith(
-    Stream<List<MedicationHistory>> Function(MedicationHistoriesByDateRef provider) create,
-  ) {
-    return ProviderOverride(
-      origin: this,
-      override: MedicationHistoriesByDateProvider._internal(
-        (ref) => create(ref as MedicationHistoriesByDateRef),
-        from: from,
-        name: null,
-        dependencies: null,
-        allTransitiveDependencies: null,
-        debugGetCreateSourceHash: null,
-        date: date,
-      ),
-    );
-  }
-
-  @override
-  AutoDisposeStreamProviderElement<List<MedicationHistory>> createElement() {
-    return _MedicationHistoriesByDateProviderElement(this);
+  Stream<List<MedicationHistory>> create(Ref ref) {
+    final argument = this.argument as DateTime;
+    return medicationHistoriesByDate(ref, argument);
   }
 
   @override
   bool operator ==(Object other) {
-    return other is MedicationHistoriesByDateProvider && other.date == date;
+    return other is MedicationHistoriesByDateProvider && other.argument == argument;
   }
 
   @override
   int get hashCode {
-    var hash = _SystemHash.combine(0, runtimeType.hashCode);
-    hash = _SystemHash.combine(hash, date.hashCode);
-
-    return _SystemHash.finish(hash);
+    return argument.hashCode;
   }
 }
 
-@Deprecated('Will be removed in 3.0. Use Ref instead')
-// ignore: unused_element
-mixin MedicationHistoriesByDateRef on AutoDisposeStreamProviderRef<List<MedicationHistory>> {
-  /// The parameter `date` of this provider.
-  DateTime get date;
-}
+String _$medicationHistoriesByDateHash() => r'3556294ac88e3f365ba3d948764b547f79f7a373';
 
-class _MedicationHistoriesByDateProviderElement extends AutoDisposeStreamProviderElement<List<MedicationHistory>> with MedicationHistoriesByDateRef {
-  _MedicationHistoriesByDateProviderElement(super.provider);
+final class MedicationHistoriesByDateFamily extends $Family with $FunctionalFamilyOverride<Stream<List<MedicationHistory>>, DateTime> {
+  MedicationHistoriesByDateFamily._()
+    : super(
+        retry: null,
+        name: r'medicationHistoriesByDateProvider',
+        dependencies: <ProviderOrFamily>[currentGroupDatabaseProvider],
+        $allTransitiveDependencies: <ProviderOrFamily>[MedicationHistoriesByDateProvider.$allTransitiveDependencies0],
+        isAutoDispose: true,
+      );
+
+  MedicationHistoriesByDateProvider call(DateTime date) => MedicationHistoriesByDateProvider._(argument: date, from: this);
 
   @override
-  DateTime get date => (origin as MedicationHistoriesByDateProvider).date;
+  String toString() => r'medicationHistoriesByDateProvider';
 }
 
-String _$recentMedicationHistoriesFetchHash() => r'b00de1e6cdca7d7a3ba9662f5a00fef31f6a40b3';
-
-/// See also [recentMedicationHistoriesFetch].
 @ProviderFor(recentMedicationHistoriesFetch)
-final recentMedicationHistoriesFetchProvider = AutoDisposeProvider<RecentMedicationHistoriesFetch>.internal(
-  recentMedicationHistoriesFetch,
-  name: r'recentMedicationHistoriesFetchProvider',
-  debugGetCreateSourceHash: const bool.fromEnvironment('dart.vm.product') ? null : _$recentMedicationHistoriesFetchHash,
-  dependencies: <ProviderOrFamily>[currentGroupDatabaseProvider],
-  allTransitiveDependencies: <ProviderOrFamily>{currentGroupDatabaseProvider, ...?currentGroupDatabaseProvider.allTransitiveDependencies},
-);
+final recentMedicationHistoriesFetchProvider = RecentMedicationHistoriesFetchProvider._();
 
-@Deprecated('Will be removed in 3.0. Use Ref instead')
-// ignore: unused_element
-typedef RecentMedicationHistoriesFetchRef = AutoDisposeProviderRef<RecentMedicationHistoriesFetch>;
-String _$medicationHistoryTakeHash() => r'ada635b681520377dfddf2c595dd910346c5d406';
+final class RecentMedicationHistoriesFetchProvider
+    extends $FunctionalProvider<RecentMedicationHistoriesFetch, RecentMedicationHistoriesFetch, RecentMedicationHistoriesFetch>
+    with $Provider<RecentMedicationHistoriesFetch> {
+  RecentMedicationHistoriesFetchProvider._()
+    : super(
+        from: null,
+        argument: null,
+        retry: null,
+        name: r'recentMedicationHistoriesFetchProvider',
+        isAutoDispose: true,
+        dependencies: <ProviderOrFamily>[currentGroupDatabaseProvider],
+        $allTransitiveDependencies: <ProviderOrFamily>[RecentMedicationHistoriesFetchProvider.$allTransitiveDependencies0],
+      );
 
-/// See also [medicationHistoryTake].
+  static final $allTransitiveDependencies0 = currentGroupDatabaseProvider;
+
+  @override
+  String debugGetCreateSourceHash() => _$recentMedicationHistoriesFetchHash();
+
+  @$internal
+  @override
+  $ProviderElement<RecentMedicationHistoriesFetch> $createElement($ProviderPointer pointer) => $ProviderElement(pointer);
+
+  @override
+  RecentMedicationHistoriesFetch create(Ref ref) {
+    return recentMedicationHistoriesFetch(ref);
+  }
+
+  /// {@macro riverpod.override_with_value}
+  Override overrideWithValue(RecentMedicationHistoriesFetch value) {
+    return $ProviderOverride(origin: this, providerOverride: $SyncValueProvider<RecentMedicationHistoriesFetch>(value));
+  }
+}
+
+String _$recentMedicationHistoriesFetchHash() => r'816b783afae6d0bd7bde5b0efc115b50f80d3e88';
+
 @ProviderFor(medicationHistoryTake)
-final medicationHistoryTakeProvider = AutoDisposeProvider<MedicationHistoryTake>.internal(
-  medicationHistoryTake,
-  name: r'medicationHistoryTakeProvider',
-  debugGetCreateSourceHash: const bool.fromEnvironment('dart.vm.product') ? null : _$medicationHistoryTakeHash,
-  dependencies: <ProviderOrFamily>[currentGroupDatabaseProvider, appUserIDProvider],
-  allTransitiveDependencies: <ProviderOrFamily>{
-    currentGroupDatabaseProvider,
-    ...?currentGroupDatabaseProvider.allTransitiveDependencies,
-    appUserIDProvider,
-    ...?appUserIDProvider.allTransitiveDependencies
-  },
-);
+final medicationHistoryTakeProvider = MedicationHistoryTakeProvider._();
 
-@Deprecated('Will be removed in 3.0. Use Ref instead')
-// ignore: unused_element
-typedef MedicationHistoryTakeRef = AutoDisposeProviderRef<MedicationHistoryTake>;
-String _$medicationHistoryRevertHash() => r'6a5e8d3043d28bd3fb9733fc6fb8aa09e5a4d48c';
+final class MedicationHistoryTakeProvider extends $FunctionalProvider<MedicationHistoryTake, MedicationHistoryTake, MedicationHistoryTake>
+    with $Provider<MedicationHistoryTake> {
+  MedicationHistoryTakeProvider._()
+    : super(
+        from: null,
+        argument: null,
+        retry: null,
+        name: r'medicationHistoryTakeProvider',
+        isAutoDispose: true,
+        dependencies: <ProviderOrFamily>[currentGroupDatabaseProvider, appUserIDProvider],
+        $allTransitiveDependencies: <ProviderOrFamily>{
+          MedicationHistoryTakeProvider.$allTransitiveDependencies0,
+          MedicationHistoryTakeProvider.$allTransitiveDependencies1,
+          MedicationHistoryTakeProvider.$allTransitiveDependencies2,
+          MedicationHistoryTakeProvider.$allTransitiveDependencies3,
+          MedicationHistoryTakeProvider.$allTransitiveDependencies4,
+        },
+      );
 
-/// See also [medicationHistoryRevert].
+  static final $allTransitiveDependencies0 = currentGroupDatabaseProvider;
+  static final $allTransitiveDependencies1 = appUserIDProvider;
+  static final $allTransitiveDependencies2 = AppUserIDProvider.$allTransitiveDependencies0;
+  static final $allTransitiveDependencies3 = AppUserIDProvider.$allTransitiveDependencies1;
+  static final $allTransitiveDependencies4 = AppUserIDProvider.$allTransitiveDependencies2;
+
+  @override
+  String debugGetCreateSourceHash() => _$medicationHistoryTakeHash();
+
+  @$internal
+  @override
+  $ProviderElement<MedicationHistoryTake> $createElement($ProviderPointer pointer) => $ProviderElement(pointer);
+
+  @override
+  MedicationHistoryTake create(Ref ref) {
+    return medicationHistoryTake(ref);
+  }
+
+  /// {@macro riverpod.override_with_value}
+  Override overrideWithValue(MedicationHistoryTake value) {
+    return $ProviderOverride(origin: this, providerOverride: $SyncValueProvider<MedicationHistoryTake>(value));
+  }
+}
+
+String _$medicationHistoryTakeHash() => r'976567a1d7d3e441030c572a0ccf18f2657fdf25';
+
 @ProviderFor(medicationHistoryRevert)
-final medicationHistoryRevertProvider = AutoDisposeProvider<MedicationHistoryRevert>.internal(
-  medicationHistoryRevert,
-  name: r'medicationHistoryRevertProvider',
-  debugGetCreateSourceHash: const bool.fromEnvironment('dart.vm.product') ? null : _$medicationHistoryRevertHash,
-  dependencies: <ProviderOrFamily>[currentGroupDatabaseProvider, appUserIDProvider],
-  allTransitiveDependencies: <ProviderOrFamily>{
-    currentGroupDatabaseProvider,
-    ...?currentGroupDatabaseProvider.allTransitiveDependencies,
-    appUserIDProvider,
-    ...?appUserIDProvider.allTransitiveDependencies
-  },
-);
+final medicationHistoryRevertProvider = MedicationHistoryRevertProvider._();
 
-@Deprecated('Will be removed in 3.0. Use Ref instead')
-// ignore: unused_element
-typedef MedicationHistoryRevertRef = AutoDisposeProviderRef<MedicationHistoryRevert>;
-String _$medicationHistoryMemoUpdateHash() => r'0c32208f61f5215d1ed56b415717aec94bbb3509';
+final class MedicationHistoryRevertProvider extends $FunctionalProvider<MedicationHistoryRevert, MedicationHistoryRevert, MedicationHistoryRevert>
+    with $Provider<MedicationHistoryRevert> {
+  MedicationHistoryRevertProvider._()
+    : super(
+        from: null,
+        argument: null,
+        retry: null,
+        name: r'medicationHistoryRevertProvider',
+        isAutoDispose: true,
+        dependencies: <ProviderOrFamily>[currentGroupDatabaseProvider, appUserIDProvider],
+        $allTransitiveDependencies: <ProviderOrFamily>{
+          MedicationHistoryRevertProvider.$allTransitiveDependencies0,
+          MedicationHistoryRevertProvider.$allTransitiveDependencies1,
+          MedicationHistoryRevertProvider.$allTransitiveDependencies2,
+          MedicationHistoryRevertProvider.$allTransitiveDependencies3,
+          MedicationHistoryRevertProvider.$allTransitiveDependencies4,
+        },
+      );
 
-/// See also [medicationHistoryMemoUpdate].
+  static final $allTransitiveDependencies0 = currentGroupDatabaseProvider;
+  static final $allTransitiveDependencies1 = appUserIDProvider;
+  static final $allTransitiveDependencies2 = AppUserIDProvider.$allTransitiveDependencies0;
+  static final $allTransitiveDependencies3 = AppUserIDProvider.$allTransitiveDependencies1;
+  static final $allTransitiveDependencies4 = AppUserIDProvider.$allTransitiveDependencies2;
+
+  @override
+  String debugGetCreateSourceHash() => _$medicationHistoryRevertHash();
+
+  @$internal
+  @override
+  $ProviderElement<MedicationHistoryRevert> $createElement($ProviderPointer pointer) => $ProviderElement(pointer);
+
+  @override
+  MedicationHistoryRevert create(Ref ref) {
+    return medicationHistoryRevert(ref);
+  }
+
+  /// {@macro riverpod.override_with_value}
+  Override overrideWithValue(MedicationHistoryRevert value) {
+    return $ProviderOverride(origin: this, providerOverride: $SyncValueProvider<MedicationHistoryRevert>(value));
+  }
+}
+
+String _$medicationHistoryRevertHash() => r'98f2dfb4f37f453972f45158882663c813026ab6';
+
 @ProviderFor(medicationHistoryMemoUpdate)
-final medicationHistoryMemoUpdateProvider = AutoDisposeProvider<MedicationHistoryMemoUpdate>.internal(
-  medicationHistoryMemoUpdate,
-  name: r'medicationHistoryMemoUpdateProvider',
-  debugGetCreateSourceHash: const bool.fromEnvironment('dart.vm.product') ? null : _$medicationHistoryMemoUpdateHash,
-  dependencies: <ProviderOrFamily>[currentGroupDatabaseProvider],
-  allTransitiveDependencies: <ProviderOrFamily>{currentGroupDatabaseProvider, ...?currentGroupDatabaseProvider.allTransitiveDependencies},
-);
+final medicationHistoryMemoUpdateProvider = MedicationHistoryMemoUpdateProvider._();
 
-@Deprecated('Will be removed in 3.0. Use Ref instead')
-// ignore: unused_element
-typedef MedicationHistoryMemoUpdateRef = AutoDisposeProviderRef<MedicationHistoryMemoUpdate>;
-// ignore_for_file: type=lint
-// ignore_for_file: subtype_of_sealed_class, invalid_use_of_internal_member, invalid_use_of_visible_for_testing_member, deprecated_member_use_from_same_package
+final class MedicationHistoryMemoUpdateProvider
+    extends $FunctionalProvider<MedicationHistoryMemoUpdate, MedicationHistoryMemoUpdate, MedicationHistoryMemoUpdate>
+    with $Provider<MedicationHistoryMemoUpdate> {
+  MedicationHistoryMemoUpdateProvider._()
+    : super(
+        from: null,
+        argument: null,
+        retry: null,
+        name: r'medicationHistoryMemoUpdateProvider',
+        isAutoDispose: true,
+        dependencies: <ProviderOrFamily>[currentGroupDatabaseProvider],
+        $allTransitiveDependencies: <ProviderOrFamily>[MedicationHistoryMemoUpdateProvider.$allTransitiveDependencies0],
+      );
+
+  static final $allTransitiveDependencies0 = currentGroupDatabaseProvider;
+
+  @override
+  String debugGetCreateSourceHash() => _$medicationHistoryMemoUpdateHash();
+
+  @$internal
+  @override
+  $ProviderElement<MedicationHistoryMemoUpdate> $createElement($ProviderPointer pointer) => $ProviderElement(pointer);
+
+  @override
+  MedicationHistoryMemoUpdate create(Ref ref) {
+    return medicationHistoryMemoUpdate(ref);
+  }
+
+  /// {@macro riverpod.override_with_value}
+  Override overrideWithValue(MedicationHistoryMemoUpdate value) {
+    return $ProviderOverride(origin: this, providerOverride: $SyncValueProvider<MedicationHistoryMemoUpdate>(value));
+  }
+}
+
+String _$medicationHistoryMemoUpdateHash() => r'05ea876636a609af42728f90fb2ec12dae9ce2e4';

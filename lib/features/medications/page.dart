@@ -1,6 +1,7 @@
 import 'dart:async';
 
-import 'package:async_value_group/async_value_group.dart';
+import 'package:medicalarm/utils/riverpod/async_value_group.dart';
+import 'package:medicalarm/utils/riverpod/read_future.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
@@ -52,7 +53,7 @@ class MedicationsPage extends HookConsumerWidget {
     final date = useState(today());
     final medicines = ref.watch(activeMedicinesProvider);
     final medicationHistoriesAsync = ref.watch(medicationHistoriesByDateProvider(date.value.date()));
-    final medicationHistories = useState(medicationHistoriesAsync.asData?.valueOrNull ?? []);
+    final medicationHistories = useState(medicationHistoriesAsync.asData?.value ?? []);
     final customerInfo = ref.watch(customerInfoProvider);
 
     useEffect(() {
@@ -61,11 +62,11 @@ class MedicationsPage extends HookConsumerWidget {
         medicationHistories.value = asyncValue.value;
       }
       return null;
-    }, [medicationHistoriesAsync.asData?.valueOrNull]);
+    }, [medicationHistoriesAsync.asData?.value]);
 
     return Retry(
       retry: () => ref.invalidate(activeMedicinesProvider),
-      child: AsyncValueGroup.group2(medicines, customerInfo).when(
+      child: groupAsyncValues2(first: medicines, second: customerInfo).when(
         data: (data) => MedicationsPageBody(
           date: date,
           medicines: data.$1,
@@ -318,7 +319,7 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
         final groupID = ref.read(currentGroupIDProvider);
         final currentUserID = ref.read(appUserIDProvider);
         // memberSettings は take 内の AlarmKit 判定と Focus 連携の解決で共用するため、write より前に読み出して解決する。
-        final memberSettings = await ref.read(groupMemberNotificationSettingsProvider.future);
+        final memberSettings = await readFutureKeepingAliveFromWidget(ref: ref, provider: groupMemberNotificationSettingsProvider.future);
 
         final MedicationHistory newMedicationHistory;
         try {

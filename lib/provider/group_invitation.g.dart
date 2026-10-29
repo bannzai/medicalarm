@@ -6,35 +6,83 @@ part of 'group_invitation.dart';
 // RiverpodGenerator
 // **************************************************************************
 
+// GENERATED CODE - DO NOT MODIFY BY HAND
+// ignore_for_file: type=lint, type=warning
+
+@ProviderFor(createGroupInvitation)
+final createGroupInvitationProvider = CreateGroupInvitationProvider._();
+
+final class CreateGroupInvitationProvider extends $FunctionalProvider<CreateGroupInvitation, CreateGroupInvitation, CreateGroupInvitation>
+    with $Provider<CreateGroupInvitation> {
+  CreateGroupInvitationProvider._()
+    : super(
+        from: null,
+        argument: null,
+        retry: null,
+        name: r'createGroupInvitationProvider',
+        isAutoDispose: true,
+        dependencies: null,
+        $allTransitiveDependencies: null,
+      );
+
+  @override
+  String debugGetCreateSourceHash() => _$createGroupInvitationHash();
+
+  @$internal
+  @override
+  $ProviderElement<CreateGroupInvitation> $createElement($ProviderPointer pointer) => $ProviderElement(pointer);
+
+  @override
+  CreateGroupInvitation create(Ref ref) {
+    return createGroupInvitation(ref);
+  }
+
+  /// {@macro riverpod.override_with_value}
+  Override overrideWithValue(CreateGroupInvitation value) {
+    return $ProviderOverride(origin: this, providerOverride: $SyncValueProvider<CreateGroupInvitation>(value));
+  }
+}
+
 String _$createGroupInvitationHash() => r'd3a9136e65f68bc810f4895e771ee2dd50d6a361';
 
-/// See also [createGroupInvitation].
-@ProviderFor(createGroupInvitation)
-final createGroupInvitationProvider = AutoDisposeProvider<CreateGroupInvitation>.internal(
-  createGroupInvitation,
-  name: r'createGroupInvitationProvider',
-  debugGetCreateSourceHash: const bool.fromEnvironment('dart.vm.product') ? null : _$createGroupInvitationHash,
-  dependencies: null,
-  allTransitiveDependencies: null,
-);
-
-@Deprecated('Will be removed in 3.0. Use Ref instead')
-// ignore: unused_element
-typedef CreateGroupInvitationRef = AutoDisposeProviderRef<CreateGroupInvitation>;
-String _$acceptGroupInvitationHash() => r'bf63f948c8773b832b2c064d2d6157ef1dfaa271';
-
-/// See also [acceptGroupInvitation].
 @ProviderFor(acceptGroupInvitation)
-final acceptGroupInvitationProvider = AutoDisposeProvider<AcceptGroupInvitation>.internal(
-  acceptGroupInvitation,
-  name: r'acceptGroupInvitationProvider',
-  debugGetCreateSourceHash: const bool.fromEnvironment('dart.vm.product') ? null : _$acceptGroupInvitationHash,
-  dependencies: <ProviderOrFamily>[userDatabaseProvider],
-  allTransitiveDependencies: <ProviderOrFamily>{userDatabaseProvider, ...?userDatabaseProvider.allTransitiveDependencies},
-);
+final acceptGroupInvitationProvider = AcceptGroupInvitationProvider._();
 
-@Deprecated('Will be removed in 3.0. Use Ref instead')
-// ignore: unused_element
-typedef AcceptGroupInvitationRef = AutoDisposeProviderRef<AcceptGroupInvitation>;
-// ignore_for_file: type=lint
-// ignore_for_file: subtype_of_sealed_class, invalid_use_of_internal_member, invalid_use_of_visible_for_testing_member, deprecated_member_use_from_same_package
+final class AcceptGroupInvitationProvider extends $FunctionalProvider<AcceptGroupInvitation, AcceptGroupInvitation, AcceptGroupInvitation>
+    with $Provider<AcceptGroupInvitation> {
+  AcceptGroupInvitationProvider._()
+    : super(
+        from: null,
+        argument: null,
+        retry: null,
+        name: r'acceptGroupInvitationProvider',
+        isAutoDispose: true,
+        dependencies: <ProviderOrFamily>[userDatabaseProvider],
+        $allTransitiveDependencies: <ProviderOrFamily>[
+          AcceptGroupInvitationProvider.$allTransitiveDependencies0,
+          AcceptGroupInvitationProvider.$allTransitiveDependencies1,
+        ],
+      );
+
+  static final $allTransitiveDependencies0 = userDatabaseProvider;
+  static final $allTransitiveDependencies1 = UserDatabaseProvider.$allTransitiveDependencies0;
+
+  @override
+  String debugGetCreateSourceHash() => _$acceptGroupInvitationHash();
+
+  @$internal
+  @override
+  $ProviderElement<AcceptGroupInvitation> $createElement($ProviderPointer pointer) => $ProviderElement(pointer);
+
+  @override
+  AcceptGroupInvitation create(Ref ref) {
+    return acceptGroupInvitation(ref);
+  }
+
+  /// {@macro riverpod.override_with_value}
+  Override overrideWithValue(AcceptGroupInvitation value) {
+    return $ProviderOverride(origin: this, providerOverride: $SyncValueProvider<AcceptGroupInvitation>(value));
+  }
+}
+
+String _$acceptGroupInvitationHash() => r'bf63f948c8773b832b2c064d2d6157ef1dfaa271';

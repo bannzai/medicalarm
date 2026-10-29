@@ -54,5 +54,5 @@ class RegisterRemotePushNotificationToken {
 }
 
 @Riverpod(dependencies: [userDatabase])
-RegisterRemotePushNotificationToken registerRemotePushNotificationToken(RegisterRemotePushNotificationTokenRef ref) =>
+RegisterRemotePushNotificationToken registerRemotePushNotificationToken(Ref ref) =>
     RegisterRemotePushNotificationToken(ref.watch(userDatabaseProvider));

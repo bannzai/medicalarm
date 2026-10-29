@@ -19,7 +19,7 @@ String? operatorMemberDisplayName({required WidgetRef ref, required MedicationHi
       ? null
       : ref
           .watch(groupUserProfilesProvider(groupID: currentGroupID))
-          .valueOrNull
+          .value
           ?.firstWhereOrNull((profile) => profile.userID == recordedByUserID)
           ?.displayName;
   return (displayName?.isNotEmpty ?? false) ? displayName : L.memberFallbackName;

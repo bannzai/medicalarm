@@ -1,4 +1,3 @@
-import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:medicalarm/features/resolver/database.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 

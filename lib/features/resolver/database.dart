@@ -39,7 +39,7 @@ abstract class _CollectionPath {
 }
 
 @Riverpod(keepAlive: true, dependencies: [firebaseUserChanges])
-UserDatabase userDatabase(UserDatabaseRef ref) {
+UserDatabase userDatabase(Ref ref) {
   final stream = ref.watch(firebaseUserChangesProvider);
   final uid = stream.asData?.value?.uid ?? FirebaseAuth.instance.currentUser?.uid;
   if (uid == null) {

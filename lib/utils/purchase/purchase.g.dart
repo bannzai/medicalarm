@@ -6,125 +6,303 @@ part of 'purchase.dart';
 // RiverpodGenerator
 // **************************************************************************
 
+// GENERATED CODE - DO NOT MODIFY BY HAND
+// ignore_for_file: type=lint, type=warning
+
+@ProviderFor(customerInfo)
+final customerInfoProvider = CustomerInfoProvider._();
+
+final class CustomerInfoProvider extends $FunctionalProvider<AsyncValue<CustomerInfo>, CustomerInfo, Stream<CustomerInfo>>
+    with $FutureModifier<CustomerInfo>, $StreamProvider<CustomerInfo> {
+  CustomerInfoProvider._()
+    : super(
+        from: null,
+        argument: null,
+        retry: null,
+        name: r'customerInfoProvider',
+        isAutoDispose: true,
+        dependencies: <ProviderOrFamily>[],
+        $allTransitiveDependencies: <ProviderOrFamily>[],
+      );
+
+  @override
+  String debugGetCreateSourceHash() => _$customerInfoHash();
+
+  @$internal
+  @override
+  $StreamProviderElement<CustomerInfo> $createElement($ProviderPointer pointer) => $StreamProviderElement(pointer);
+
+  @override
+  Stream<CustomerInfo> create(Ref ref) {
+    return customerInfo(ref);
+  }
+}
+
 String _$customerInfoHash() => r'95362491215a91d0faca817d94b175846b87e9b3';
 
-/// See also [customerInfo].
-@ProviderFor(customerInfo)
-final customerInfoProvider = AutoDisposeStreamProvider<CustomerInfo>.internal(
-  customerInfo,
-  name: r'customerInfoProvider',
-  debugGetCreateSourceHash: const bool.fromEnvironment('dart.vm.product') ? null : _$customerInfoHash,
-  dependencies: const <ProviderOrFamily>[],
-  allTransitiveDependencies: const <ProviderOrFamily>{},
-);
+@ProviderFor(offerings)
+final offeringsProvider = OfferingsProvider._();
 
-@Deprecated('Will be removed in 3.0. Use Ref instead')
-// ignore: unused_element
-typedef CustomerInfoRef = AutoDisposeStreamProviderRef<CustomerInfo>;
+final class OfferingsProvider extends $FunctionalProvider<AsyncValue<Offerings>, Offerings, FutureOr<Offerings>>
+    with $FutureModifier<Offerings>, $FutureProvider<Offerings> {
+  OfferingsProvider._()
+    : super(
+        from: null,
+        argument: null,
+        retry: null,
+        name: r'offeringsProvider',
+        isAutoDispose: true,
+        dependencies: null,
+        $allTransitiveDependencies: null,
+      );
+
+  @override
+  String debugGetCreateSourceHash() => _$offeringsHash();
+
+  @$internal
+  @override
+  $FutureProviderElement<Offerings> $createElement($ProviderPointer pointer) => $FutureProviderElement(pointer);
+
+  @override
+  FutureOr<Offerings> create(Ref ref) {
+    return offerings(ref);
+  }
+}
+
 String _$offeringsHash() => r'a44517ca66731d95ed64ddb147c72567df8b12c7';
 
-/// See also [offerings].
-@ProviderFor(offerings)
-final offeringsProvider = AutoDisposeFutureProvider<Offerings>.internal(
-  offerings,
-  name: r'offeringsProvider',
-  debugGetCreateSourceHash: const bool.fromEnvironment('dart.vm.product') ? null : _$offeringsHash,
-  dependencies: null,
-  allTransitiveDependencies: null,
-);
-
-@Deprecated('Will be removed in 3.0. Use Ref instead')
-// ignore: unused_element
-typedef OfferingsRef = AutoDisposeFutureProviderRef<Offerings>;
-String _$currentOfferingPackagesHash() => r'648dc186cc0f3dd97c71697f0dba73f21834a5f6';
-
-/// See also [currentOfferingPackages].
 @ProviderFor(currentOfferingPackages)
-final currentOfferingPackagesProvider = AutoDisposeProvider<List<Package>>.internal(
-  currentOfferingPackages,
-  name: r'currentOfferingPackagesProvider',
-  debugGetCreateSourceHash: const bool.fromEnvironment('dart.vm.product') ? null : _$currentOfferingPackagesHash,
-  dependencies: <ProviderOrFamily>[customerInfoProvider],
-  allTransitiveDependencies: <ProviderOrFamily>{customerInfoProvider, ...?customerInfoProvider.allTransitiveDependencies},
-);
+final currentOfferingPackagesProvider = CurrentOfferingPackagesProvider._();
 
-@Deprecated('Will be removed in 3.0. Use Ref instead')
-// ignore: unused_element
-typedef CurrentOfferingPackagesRef = AutoDisposeProviderRef<List<Package>>;
-String _$weeklyPackageHash() => r'd8c57ae30ae72b9f75b0d9818af5433b1d7f4232';
+final class CurrentOfferingPackagesProvider extends $FunctionalProvider<List<Package>, List<Package>, List<Package>> with $Provider<List<Package>> {
+  CurrentOfferingPackagesProvider._()
+    : super(
+        from: null,
+        argument: null,
+        retry: null,
+        name: r'currentOfferingPackagesProvider',
+        isAutoDispose: true,
+        dependencies: <ProviderOrFamily>[customerInfoProvider],
+        $allTransitiveDependencies: <ProviderOrFamily>[CurrentOfferingPackagesProvider.$allTransitiveDependencies0],
+      );
 
-/// See also [weeklyPackage].
+  static final $allTransitiveDependencies0 = customerInfoProvider;
+
+  @override
+  String debugGetCreateSourceHash() => _$currentOfferingPackagesHash();
+
+  @$internal
+  @override
+  $ProviderElement<List<Package>> $createElement($ProviderPointer pointer) => $ProviderElement(pointer);
+
+  @override
+  List<Package> create(Ref ref) {
+    return currentOfferingPackages(ref);
+  }
+
+  /// {@macro riverpod.override_with_value}
+  Override overrideWithValue(List<Package> value) {
+    return $ProviderOverride(origin: this, providerOverride: $SyncValueProvider<List<Package>>(value));
+  }
+}
+
+String _$currentOfferingPackagesHash() => r'1758bdb951f3fa7d6a58d8f75a05d90a84a2e15c';
+
 @ProviderFor(weeklyPackage)
-final weeklyPackageProvider = AutoDisposeProvider<Package?>.internal(
-  weeklyPackage,
-  name: r'weeklyPackageProvider',
-  debugGetCreateSourceHash: const bool.fromEnvironment('dart.vm.product') ? null : _$weeklyPackageHash,
-  dependencies: <ProviderOrFamily>[currentOfferingPackagesProvider],
-  allTransitiveDependencies: <ProviderOrFamily>{currentOfferingPackagesProvider, ...?currentOfferingPackagesProvider.allTransitiveDependencies},
-);
+final weeklyPackageProvider = WeeklyPackageProvider._();
 
-@Deprecated('Will be removed in 3.0. Use Ref instead')
-// ignore: unused_element
-typedef WeeklyPackageRef = AutoDisposeProviderRef<Package?>;
-String _$monthlyPackageHash() => r'8d088c8a829e6aca119e35699a1be4045a053ba7';
+final class WeeklyPackageProvider extends $FunctionalProvider<Package?, Package?, Package?> with $Provider<Package?> {
+  WeeklyPackageProvider._()
+    : super(
+        from: null,
+        argument: null,
+        retry: null,
+        name: r'weeklyPackageProvider',
+        isAutoDispose: true,
+        dependencies: <ProviderOrFamily>[currentOfferingPackagesProvider],
+        $allTransitiveDependencies: <ProviderOrFamily>[
+          WeeklyPackageProvider.$allTransitiveDependencies0,
+          WeeklyPackageProvider.$allTransitiveDependencies1,
+        ],
+      );
 
-/// See also [monthlyPackage].
+  static final $allTransitiveDependencies0 = currentOfferingPackagesProvider;
+  static final $allTransitiveDependencies1 = CurrentOfferingPackagesProvider.$allTransitiveDependencies0;
+
+  @override
+  String debugGetCreateSourceHash() => _$weeklyPackageHash();
+
+  @$internal
+  @override
+  $ProviderElement<Package?> $createElement($ProviderPointer pointer) => $ProviderElement(pointer);
+
+  @override
+  Package? create(Ref ref) {
+    return weeklyPackage(ref);
+  }
+
+  /// {@macro riverpod.override_with_value}
+  Override overrideWithValue(Package? value) {
+    return $ProviderOverride(origin: this, providerOverride: $SyncValueProvider<Package?>(value));
+  }
+}
+
+String _$weeklyPackageHash() => r'724d6937d5857fac60f391f19dfad0cddf9440cd';
+
 @ProviderFor(monthlyPackage)
-final monthlyPackageProvider = AutoDisposeProvider<Package?>.internal(
-  monthlyPackage,
-  name: r'monthlyPackageProvider',
-  debugGetCreateSourceHash: const bool.fromEnvironment('dart.vm.product') ? null : _$monthlyPackageHash,
-  dependencies: <ProviderOrFamily>[currentOfferingPackagesProvider],
-  allTransitiveDependencies: <ProviderOrFamily>{currentOfferingPackagesProvider, ...?currentOfferingPackagesProvider.allTransitiveDependencies},
-);
+final monthlyPackageProvider = MonthlyPackageProvider._();
 
-@Deprecated('Will be removed in 3.0. Use Ref instead')
-// ignore: unused_element
-typedef MonthlyPackageRef = AutoDisposeProviderRef<Package?>;
-String _$sixMonthPackageHash() => r'e417483a34ad2622e2bbedfca167bb7fdf408ecd';
+final class MonthlyPackageProvider extends $FunctionalProvider<Package?, Package?, Package?> with $Provider<Package?> {
+  MonthlyPackageProvider._()
+    : super(
+        from: null,
+        argument: null,
+        retry: null,
+        name: r'monthlyPackageProvider',
+        isAutoDispose: true,
+        dependencies: <ProviderOrFamily>[currentOfferingPackagesProvider],
+        $allTransitiveDependencies: <ProviderOrFamily>[
+          MonthlyPackageProvider.$allTransitiveDependencies0,
+          MonthlyPackageProvider.$allTransitiveDependencies1,
+        ],
+      );
 
-/// See also [sixMonthPackage].
+  static final $allTransitiveDependencies0 = currentOfferingPackagesProvider;
+  static final $allTransitiveDependencies1 = CurrentOfferingPackagesProvider.$allTransitiveDependencies0;
+
+  @override
+  String debugGetCreateSourceHash() => _$monthlyPackageHash();
+
+  @$internal
+  @override
+  $ProviderElement<Package?> $createElement($ProviderPointer pointer) => $ProviderElement(pointer);
+
+  @override
+  Package? create(Ref ref) {
+    return monthlyPackage(ref);
+  }
+
+  /// {@macro riverpod.override_with_value}
+  Override overrideWithValue(Package? value) {
+    return $ProviderOverride(origin: this, providerOverride: $SyncValueProvider<Package?>(value));
+  }
+}
+
+String _$monthlyPackageHash() => r'689e548d5c66c21c5363b412f1518876e2a462a4';
+
 @ProviderFor(sixMonthPackage)
-final sixMonthPackageProvider = AutoDisposeProvider<Package?>.internal(
-  sixMonthPackage,
-  name: r'sixMonthPackageProvider',
-  debugGetCreateSourceHash: const bool.fromEnvironment('dart.vm.product') ? null : _$sixMonthPackageHash,
-  dependencies: <ProviderOrFamily>[currentOfferingPackagesProvider],
-  allTransitiveDependencies: <ProviderOrFamily>{currentOfferingPackagesProvider, ...?currentOfferingPackagesProvider.allTransitiveDependencies},
-);
+final sixMonthPackageProvider = SixMonthPackageProvider._();
 
-@Deprecated('Will be removed in 3.0. Use Ref instead')
-// ignore: unused_element
-typedef SixMonthPackageRef = AutoDisposeProviderRef<Package?>;
-String _$annualPackageHash() => r'a0f73f340ef0ae6dc39f6866c85fd2b785ebb251';
+final class SixMonthPackageProvider extends $FunctionalProvider<Package?, Package?, Package?> with $Provider<Package?> {
+  SixMonthPackageProvider._()
+    : super(
+        from: null,
+        argument: null,
+        retry: null,
+        name: r'sixMonthPackageProvider',
+        isAutoDispose: true,
+        dependencies: <ProviderOrFamily>[currentOfferingPackagesProvider],
+        $allTransitiveDependencies: <ProviderOrFamily>[
+          SixMonthPackageProvider.$allTransitiveDependencies0,
+          SixMonthPackageProvider.$allTransitiveDependencies1,
+        ],
+      );
 
-/// See also [annualPackage].
+  static final $allTransitiveDependencies0 = currentOfferingPackagesProvider;
+  static final $allTransitiveDependencies1 = CurrentOfferingPackagesProvider.$allTransitiveDependencies0;
+
+  @override
+  String debugGetCreateSourceHash() => _$sixMonthPackageHash();
+
+  @$internal
+  @override
+  $ProviderElement<Package?> $createElement($ProviderPointer pointer) => $ProviderElement(pointer);
+
+  @override
+  Package? create(Ref ref) {
+    return sixMonthPackage(ref);
+  }
+
+  /// {@macro riverpod.override_with_value}
+  Override overrideWithValue(Package? value) {
+    return $ProviderOverride(origin: this, providerOverride: $SyncValueProvider<Package?>(value));
+  }
+}
+
+String _$sixMonthPackageHash() => r'4d685f0ef38971eeef882d02403e75bc17dc6889';
+
 @ProviderFor(annualPackage)
-final annualPackageProvider = AutoDisposeProvider<Package?>.internal(
-  annualPackage,
-  name: r'annualPackageProvider',
-  debugGetCreateSourceHash: const bool.fromEnvironment('dart.vm.product') ? null : _$annualPackageHash,
-  dependencies: <ProviderOrFamily>[currentOfferingPackagesProvider],
-  allTransitiveDependencies: <ProviderOrFamily>{currentOfferingPackagesProvider, ...?currentOfferingPackagesProvider.allTransitiveDependencies},
-);
+final annualPackageProvider = AnnualPackageProvider._();
 
-@Deprecated('Will be removed in 3.0. Use Ref instead')
-// ignore: unused_element
-typedef AnnualPackageRef = AutoDisposeProviderRef<Package?>;
-String _$monthlyPremiumPackageHash() => r'0ffcc9f632f99e229be32bf0cf19246f0e04f71c';
+final class AnnualPackageProvider extends $FunctionalProvider<Package?, Package?, Package?> with $Provider<Package?> {
+  AnnualPackageProvider._()
+    : super(
+        from: null,
+        argument: null,
+        retry: null,
+        name: r'annualPackageProvider',
+        isAutoDispose: true,
+        dependencies: <ProviderOrFamily>[currentOfferingPackagesProvider],
+        $allTransitiveDependencies: <ProviderOrFamily>[
+          AnnualPackageProvider.$allTransitiveDependencies0,
+          AnnualPackageProvider.$allTransitiveDependencies1,
+        ],
+      );
 
-/// See also [monthlyPremiumPackage].
+  static final $allTransitiveDependencies0 = currentOfferingPackagesProvider;
+  static final $allTransitiveDependencies1 = CurrentOfferingPackagesProvider.$allTransitiveDependencies0;
+
+  @override
+  String debugGetCreateSourceHash() => _$annualPackageHash();
+
+  @$internal
+  @override
+  $ProviderElement<Package?> $createElement($ProviderPointer pointer) => $ProviderElement(pointer);
+
+  @override
+  Package? create(Ref ref) {
+    return annualPackage(ref);
+  }
+
+  /// {@macro riverpod.override_with_value}
+  Override overrideWithValue(Package? value) {
+    return $ProviderOverride(origin: this, providerOverride: $SyncValueProvider<Package?>(value));
+  }
+}
+
+String _$annualPackageHash() => r'cc12ef1ad61023813ede0e69f76202f15615928b';
+
 @ProviderFor(monthlyPremiumPackage)
-final monthlyPremiumPackageProvider = AutoDisposeProvider<Package?>.internal(
-  monthlyPremiumPackage,
-  name: r'monthlyPremiumPackageProvider',
-  debugGetCreateSourceHash: const bool.fromEnvironment('dart.vm.product') ? null : _$monthlyPremiumPackageHash,
-  dependencies: const <ProviderOrFamily>[],
-  allTransitiveDependencies: const <ProviderOrFamily>{},
-);
+final monthlyPremiumPackageProvider = MonthlyPremiumPackageProvider._();
 
-@Deprecated('Will be removed in 3.0. Use Ref instead')
-// ignore: unused_element
-typedef MonthlyPremiumPackageRef = AutoDisposeProviderRef<Package?>;
-// ignore_for_file: type=lint
-// ignore_for_file: subtype_of_sealed_class, invalid_use_of_internal_member, invalid_use_of_visible_for_testing_member, deprecated_member_use_from_same_package
+final class MonthlyPremiumPackageProvider extends $FunctionalProvider<Package?, Package?, Package?> with $Provider<Package?> {
+  MonthlyPremiumPackageProvider._()
+    : super(
+        from: null,
+        argument: null,
+        retry: null,
+        name: r'monthlyPremiumPackageProvider',
+        isAutoDispose: true,
+        dependencies: <ProviderOrFamily>[],
+        $allTransitiveDependencies: <ProviderOrFamily>[],
+      );
+
+  @override
+  String debugGetCreateSourceHash() => _$monthlyPremiumPackageHash();
+
+  @$internal
+  @override
+  $ProviderElement<Package?> $createElement($ProviderPointer pointer) => $ProviderElement(pointer);
+
+  @override
+  Package? create(Ref ref) {
+    return monthlyPremiumPackage(ref);
+  }
+
+  /// {@macro riverpod.override_with_value}
+  Override overrideWithValue(Package? value) {
+    return $ProviderOverride(origin: this, providerOverride: $SyncValueProvider<Package?>(value));
+  }
+}
+
+String _$monthlyPremiumPackageHash() => r'1328847b7552df99352df1507d989b1f940c2862';

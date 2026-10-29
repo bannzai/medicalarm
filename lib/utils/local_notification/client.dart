@@ -15,6 +15,7 @@ import 'package:medicalarm/utils/alarm_kit_service.dart';
 import 'package:medicalarm/utils/analytics/analytics.dart';
 import 'package:medicalarm/utils/analytics/error.dart';
 import 'package:medicalarm/utils/date_time/date_time_ext.dart';
+import 'package:medicalarm/utils/riverpod/read_future.dart';
 import 'package:medicalarm/features/localization/l.dart';
 import 'package:riverpod/riverpod.dart';
 import 'package:timezone/data/latest_all.dart' as tz;
@@ -160,6 +161,14 @@ class LocalNotificationService {
 // 必要な状態が全て揃ったら(AsyncData)の時のみ値を返す。そうじゃない場合はnullを返す
 final registerReminderLocalNotificationProvider = Provider(
   (ref) => RegisterReminderLocalNotification(ref),
+  // riverpod 3 の debug ビルドは、scoped な provider を dependencies に無いまま読むと StateError にする (#447)
+  dependencies: [
+    activeMedicinesProvider,
+    medicationHistoriesByDateProvider,
+    groupMemberNotificationSettingsProvider,
+    recentMedicationHistoriesFetchProvider,
+    appUserIDProvider,
+  ],
 );
 
 // Reminder
@@ -213,9 +222,9 @@ class RegisterReminderLocalNotification {
     analytics.debug(name: 'cancel_reminder_notification');
 
     final (medicines, medicationHistories, memberNotificationSettings) = await (
-      ref.read(activeMedicinesProvider.future),
-      ref.read(medicationHistoriesByDateProvider(today()).future),
-      ref.read(groupMemberNotificationSettingsProvider.future),
+      readFutureKeepingAlive(ref: ref, provider: activeMedicinesProvider.future),
+      readFutureKeepingAlive(ref: ref, provider: medicationHistoriesByDateProvider(today()).future),
+      readFutureKeepingAlive(ref: ref, provider: groupMemberNotificationSettingsProvider.future),
     ).wait;
 
     // 通知文面の間隔警告(#81)は日付をまたいだ直近の服用も対象にするため、当日分(medicationHistories)とは別に

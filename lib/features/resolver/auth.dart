@@ -12,7 +12,7 @@ import 'package:riverpod_annotation/riverpod_annotation.dart';
 part 'auth.g.dart';
 
 @Riverpod(keepAlive: true, dependencies: [])
-Stream<User?> firebaseUserChanges(FirebaseUserChangesRef ref) {
+Stream<User?> firebaseUserChanges(Ref ref) {
   String? previousUserID;
   var receivedUser = false;
   // 認証境界では古いアカウントの通知を解除してから新しいユーザーを公開する。

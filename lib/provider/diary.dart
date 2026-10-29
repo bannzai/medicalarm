@@ -8,7 +8,7 @@ import 'package:riverpod_annotation/riverpod_annotation.dart';
 part 'diary.g.dart';
 
 @Riverpod(dependencies: [currentGroupDatabase])
-Stream<List<Diary>> diariesForDateTimeRange(DiariesForDateTimeRangeRef ref, {required DateTimeRange dateTimeRange}) {
+Stream<List<Diary>> diariesForDateTimeRange(Ref ref, {required DateTimeRange dateTimeRange}) {
   final database = ref.watch(currentGroupDatabaseProvider);
   return database
       .diariesReference()
@@ -58,7 +58,7 @@ String diaryDocumentID({required DateTime diaryDate}) {
 }
 
 @Riverpod(dependencies: [currentGroupDatabase, appUserID])
-DiaryPost diaryPost(DiaryPostRef ref) {
+DiaryPost diaryPost(Ref ref) {
   return DiaryPost(database: ref.watch(currentGroupDatabaseProvider), userID: ref.watch(appUserIDProvider));
 }
 

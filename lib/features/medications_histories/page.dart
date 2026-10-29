@@ -35,7 +35,7 @@ class MedicationHistoriesPage extends HookConsumerWidget {
       }
     });
     final medicationHistoriesAsync = ref.watch(medicationHistoriesByDateProvider(date.value));
-    final medicationHistories = useState(medicationHistoriesAsync.asData?.valueOrNull ?? []);
+    final medicationHistories = useState(medicationHistoriesAsync.asData?.value ?? []);
 
     useEffect(() {
       final asyncValue = medicationHistoriesAsync.asData;
@@ -43,7 +43,7 @@ class MedicationHistoriesPage extends HookConsumerWidget {
         medicationHistories.value = asyncValue.value;
       }
       return null;
-    }, [medicationHistoriesAsync.asData?.valueOrNull]);
+    }, [medicationHistoriesAsync.asData?.value]);
 
     return Retry(
       retry: () => ref.invalidate(medicationHistoriesByDateProvider(date.value)),

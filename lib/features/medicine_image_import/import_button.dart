@@ -135,7 +135,7 @@ class MedicineImageImportButton extends HookConsumerWidget {
         // AI 抽出・レビュー中に通常のフォームから薬が追加されていると、build 時に計算した残り枠が
         // 古くなり Medicine.maxCount を超えて保存できてしまうため、保存直前に最新の一覧で再計算する
         if (countCreatedByUser(
-                  items: ref.read(activeMedicinesProvider).valueOrNull ?? medicines,
+                  items: ref.read(activeMedicinesProvider).value ?? medicines,
                   userID: appUserID,
                   creatorUserID: (medicine) => medicine.userID,
                 ) +

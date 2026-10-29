@@ -6,20 +6,46 @@ part of 'app_user_create.dart';
 // RiverpodGenerator
 // **************************************************************************
 
-String _$appUserCreateHash() => r'5347e10fddf40fb2c852b6fe39caccd7d8b96058';
+// GENERATED CODE - DO NOT MODIFY BY HAND
+// ignore_for_file: type=lint, type=warning
 
-/// See also [appUserCreate].
 @ProviderFor(appUserCreate)
-final appUserCreateProvider = AutoDisposeProvider<AppUserCreate>.internal(
-  appUserCreate,
-  name: r'appUserCreateProvider',
-  debugGetCreateSourceHash: const bool.fromEnvironment('dart.vm.product') ? null : _$appUserCreateHash,
-  dependencies: <ProviderOrFamily>[userDatabaseProvider],
-  allTransitiveDependencies: <ProviderOrFamily>{userDatabaseProvider, ...?userDatabaseProvider.allTransitiveDependencies},
-);
+final appUserCreateProvider = AppUserCreateProvider._();
 
-@Deprecated('Will be removed in 3.0. Use Ref instead')
-// ignore: unused_element
-typedef AppUserCreateRef = AutoDisposeProviderRef<AppUserCreate>;
-// ignore_for_file: type=lint
-// ignore_for_file: subtype_of_sealed_class, invalid_use_of_internal_member, invalid_use_of_visible_for_testing_member, deprecated_member_use_from_same_package
+final class AppUserCreateProvider extends $FunctionalProvider<AppUserCreate, AppUserCreate, AppUserCreate> with $Provider<AppUserCreate> {
+  AppUserCreateProvider._()
+    : super(
+        from: null,
+        argument: null,
+        retry: null,
+        name: r'appUserCreateProvider',
+        isAutoDispose: true,
+        dependencies: <ProviderOrFamily>[userDatabaseProvider],
+        $allTransitiveDependencies: <ProviderOrFamily>[
+          AppUserCreateProvider.$allTransitiveDependencies0,
+          AppUserCreateProvider.$allTransitiveDependencies1,
+        ],
+      );
+
+  static final $allTransitiveDependencies0 = userDatabaseProvider;
+  static final $allTransitiveDependencies1 = UserDatabaseProvider.$allTransitiveDependencies0;
+
+  @override
+  String debugGetCreateSourceHash() => _$appUserCreateHash();
+
+  @$internal
+  @override
+  $ProviderElement<AppUserCreate> $createElement($ProviderPointer pointer) => $ProviderElement(pointer);
+
+  @override
+  AppUserCreate create(Ref ref) {
+    return appUserCreate(ref);
+  }
+
+  /// {@macro riverpod.override_with_value}
+  Override overrideWithValue(AppUserCreate value) {
+    return $ProviderOverride(origin: this, providerOverride: $SyncValueProvider<AppUserCreate>(value));
+  }
+}
+
+String _$appUserCreateHash() => r'09c30e638b90b9fa8dacccfba2c9c2b5ea149c26';

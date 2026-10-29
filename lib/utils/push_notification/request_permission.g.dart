@@ -6,20 +6,48 @@ part of 'request_permission.dart';
 // RiverpodGenerator
 // **************************************************************************
 
-String _$registerRemotePushNotificationTokenHash() => r'784a31b40e44a5845506eb1e9827fef91687fe51';
+// GENERATED CODE - DO NOT MODIFY BY HAND
+// ignore_for_file: type=lint, type=warning
 
-/// See also [registerRemotePushNotificationToken].
 @ProviderFor(registerRemotePushNotificationToken)
-final registerRemotePushNotificationTokenProvider = AutoDisposeProvider<RegisterRemotePushNotificationToken>.internal(
-  registerRemotePushNotificationToken,
-  name: r'registerRemotePushNotificationTokenProvider',
-  debugGetCreateSourceHash: const bool.fromEnvironment('dart.vm.product') ? null : _$registerRemotePushNotificationTokenHash,
-  dependencies: <ProviderOrFamily>[userDatabaseProvider],
-  allTransitiveDependencies: <ProviderOrFamily>{userDatabaseProvider, ...?userDatabaseProvider.allTransitiveDependencies},
-);
+final registerRemotePushNotificationTokenProvider = RegisterRemotePushNotificationTokenProvider._();
 
-@Deprecated('Will be removed in 3.0. Use Ref instead')
-// ignore: unused_element
-typedef RegisterRemotePushNotificationTokenRef = AutoDisposeProviderRef<RegisterRemotePushNotificationToken>;
-// ignore_for_file: type=lint
-// ignore_for_file: subtype_of_sealed_class, invalid_use_of_internal_member, invalid_use_of_visible_for_testing_member, deprecated_member_use_from_same_package
+final class RegisterRemotePushNotificationTokenProvider
+    extends $FunctionalProvider<RegisterRemotePushNotificationToken, RegisterRemotePushNotificationToken, RegisterRemotePushNotificationToken>
+    with $Provider<RegisterRemotePushNotificationToken> {
+  RegisterRemotePushNotificationTokenProvider._()
+    : super(
+        from: null,
+        argument: null,
+        retry: null,
+        name: r'registerRemotePushNotificationTokenProvider',
+        isAutoDispose: true,
+        dependencies: <ProviderOrFamily>[userDatabaseProvider],
+        $allTransitiveDependencies: <ProviderOrFamily>[
+          RegisterRemotePushNotificationTokenProvider.$allTransitiveDependencies0,
+          RegisterRemotePushNotificationTokenProvider.$allTransitiveDependencies1,
+        ],
+      );
+
+  static final $allTransitiveDependencies0 = userDatabaseProvider;
+  static final $allTransitiveDependencies1 = UserDatabaseProvider.$allTransitiveDependencies0;
+
+  @override
+  String debugGetCreateSourceHash() => _$registerRemotePushNotificationTokenHash();
+
+  @$internal
+  @override
+  $ProviderElement<RegisterRemotePushNotificationToken> $createElement($ProviderPointer pointer) => $ProviderElement(pointer);
+
+  @override
+  RegisterRemotePushNotificationToken create(Ref ref) {
+    return registerRemotePushNotificationToken(ref);
+  }
+
+  /// {@macro riverpod.override_with_value}
+  Override overrideWithValue(RegisterRemotePushNotificationToken value) {
+    return $ProviderOverride(origin: this, providerOverride: $SyncValueProvider<RegisterRemotePushNotificationToken>(value));
+  }
+}
+
+String _$registerRemotePushNotificationTokenHash() => r'4d192b1a0861bdb57a4a3ccbba5fd594b0375fbf';

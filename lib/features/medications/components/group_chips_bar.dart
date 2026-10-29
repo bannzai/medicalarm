@@ -18,7 +18,7 @@ class GroupChipsBar extends HookConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final groups = ref.watch(userGroupsProvider).valueOrNull ?? [];
+    final groups = ref.watch(userGroupsProvider).value ?? [];
     final currentGroupID = ref.watch(currentGroupIDProvider);
 
     if (groups.length <= 1) {

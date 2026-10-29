@@ -16,7 +16,7 @@ class AccountLinkBanner extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final isShared = ref.watch(userGroupsProvider).valueOrNull?.any((group) => group.memberUserIDs.length > 1) ?? false;
+    final isShared = ref.watch(userGroupsProvider).value?.any((group) => group.memberUserIDs.length > 1) ?? false;
     final isLinked = ref.watch(isAppleLinkedProvider) || ref.watch(isGoogleLinkedProvider);
     if (!isShared || isLinked) {
       return const SizedBox.shrink();

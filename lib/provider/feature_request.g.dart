@@ -6,20 +6,41 @@ part of 'feature_request.dart';
 // RiverpodGenerator
 // **************************************************************************
 
-String _$featureRequestSubmitHash() => r'a69727f1c15c78ac06974b0d0ce9cce6c7afa901';
+// GENERATED CODE - DO NOT MODIFY BY HAND
+// ignore_for_file: type=lint, type=warning
 
-/// See also [featureRequestSubmit].
 @ProviderFor(featureRequestSubmit)
-final featureRequestSubmitProvider = AutoDisposeProvider<FeatureRequestSubmit>.internal(
-  featureRequestSubmit,
-  name: r'featureRequestSubmitProvider',
-  debugGetCreateSourceHash: const bool.fromEnvironment('dart.vm.product') ? null : _$featureRequestSubmitHash,
-  dependencies: const <ProviderOrFamily>[],
-  allTransitiveDependencies: const <ProviderOrFamily>{},
-);
+final featureRequestSubmitProvider = FeatureRequestSubmitProvider._();
 
-@Deprecated('Will be removed in 3.0. Use Ref instead')
-// ignore: unused_element
-typedef FeatureRequestSubmitRef = AutoDisposeProviderRef<FeatureRequestSubmit>;
-// ignore_for_file: type=lint
-// ignore_for_file: subtype_of_sealed_class, invalid_use_of_internal_member, invalid_use_of_visible_for_testing_member, deprecated_member_use_from_same_package
+final class FeatureRequestSubmitProvider extends $FunctionalProvider<FeatureRequestSubmit, FeatureRequestSubmit, FeatureRequestSubmit>
+    with $Provider<FeatureRequestSubmit> {
+  FeatureRequestSubmitProvider._()
+    : super(
+        from: null,
+        argument: null,
+        retry: null,
+        name: r'featureRequestSubmitProvider',
+        isAutoDispose: true,
+        dependencies: <ProviderOrFamily>[],
+        $allTransitiveDependencies: <ProviderOrFamily>[],
+      );
+
+  @override
+  String debugGetCreateSourceHash() => _$featureRequestSubmitHash();
+
+  @$internal
+  @override
+  $ProviderElement<FeatureRequestSubmit> $createElement($ProviderPointer pointer) => $ProviderElement(pointer);
+
+  @override
+  FeatureRequestSubmit create(Ref ref) {
+    return featureRequestSubmit(ref);
+  }
+
+  /// {@macro riverpod.override_with_value}
+  Override overrideWithValue(FeatureRequestSubmit value) {
+    return $ProviderOverride(origin: this, providerOverride: $SyncValueProvider<FeatureRequestSubmit>(value));
+  }
+}
+
+String _$featureRequestSubmitHash() => r'107c224848f86a344b481b9fc81cb5547ba8dad6';

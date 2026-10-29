@@ -7,7 +7,6 @@ import 'package:medicalarm/features/resolver/database.dart';
 import 'package:medicalarm/provider/shared_preferences.dart';
 import 'package:medicalarm/utils/local_notification/client.dart';
 import 'package:medicalarm/utils/shared_preferences/keys.dart';
-import 'package:riverpod/riverpod.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 
 part 'onboarding_medication_plan.g.dart';

@@ -24,6 +24,6 @@ class FeatureRequestSubmit {
 }
 
 @Riverpod(dependencies: [])
-FeatureRequestSubmit featureRequestSubmit(FeatureRequestSubmitRef ref) {
+FeatureRequestSubmit featureRequestSubmit(Ref ref) {
   return FeatureRequestSubmit();
 }
