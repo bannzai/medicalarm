@@ -87,6 +87,7 @@ void main() {
 
       final result = await medicationHistoryTake.call(
         medicationHistory: existingMedicationHistory,
+        newMedicationHistoryID: null,
         recordedDateTime: existingMedicationHistory.recordedDateTime,
         scheduledRecordedDate: existingMedicationHistory.scheduledRecordedDate,
         medicine: buildMedicine(),
@@ -99,9 +100,32 @@ void main() {
       expect(verify(documentReference.set(captureAny, captureAny)).captured.first, existingMedicationHistory);
     });
 
-    test('medicationHistory が null の場合は自動採番の doc へ新規作成する', () async {
+    // 呼び出し元は書き込みの完了前に、行に反映された記録が自分の take かを ID で照合する
+    test('medicationHistory が null で newMedicationHistoryID がある場合は、その ID の doc へ新規作成する', () async {
+      final newDocumentReference = MockMedicationHistoryDocumentReference();
+      when(collectionReference.doc('new-history-id')).thenReturn(newDocumentReference);
+      when(newDocumentReference.id).thenReturn('new-history-id');
+      when(newDocumentReference.set(any, any)).thenAnswer((_) async {});
+
       final result = await medicationHistoryTake.call(
         medicationHistory: null,
+        newMedicationHistoryID: 'new-history-id',
+        recordedDateTime: DateTime(2026, 7, 16, 9, 2),
+        scheduledRecordedDate: DateTime(2026, 7, 16),
+        medicine: buildMedicine(),
+        medicationSchedule: medicationSchedule,
+        memberSettings: null,
+      );
+
+      verify(collectionReference.doc('new-history-id')).called(1);
+      expect(result.id, 'new-history-id');
+      expect((verify(newDocumentReference.set(captureAny, captureAny)).captured.first as MedicationHistory).id, 'new-history-id');
+    });
+
+    test('medicationHistory と newMedicationHistoryID が null の場合は自動採番の doc へ新規作成する', () async {
+      final result = await medicationHistoryTake.call(
+        medicationHistory: null,
+        newMedicationHistoryID: null,
         recordedDateTime: DateTime(2026, 7, 16, 9, 2),
         scheduledRecordedDate: DateTime(2026, 7, 16),
         medicine: buildMedicine(),

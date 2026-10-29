@@ -36,7 +36,6 @@ void main() {
               sharedPreferencesProvider.overrideWith((ref) => sharedPreferences),
               medicationHistoryTakeProvider.overrideWithValue(FakeMedicationHistoryTake()),
               medicationHistoryRevertProvider.overrideWithValue(FakeMedicationHistoryRevert()),
-              medicationHistoryUndoRevertProvider.overrideWithValue(FakeMedicationHistoryUndoRevert()),
               recentMedicationHistoriesFetchProvider.overrideWithValue(FakeRecentMedicationHistoriesFetch()),
               registerReminderLocalNotificationProvider.overrideWithValue(FakeRegisterReminderLocalNotification()),
             ],
