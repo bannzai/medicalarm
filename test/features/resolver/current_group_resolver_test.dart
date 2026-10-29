@@ -43,15 +43,17 @@ Future<void> _pumpCurrentGroupResolver(
   required AppUser serverAppUser,
   required CreateGroup createGroup,
 }) {
-  return tester.pumpWidget(ProviderScope(
-    overrides: [
-      appUserProvider.overrideWith((ref) => appUserStream),
-      serverAppUserFetchProvider.overrideWith((ref) => _FakeServerAppUserFetch(serverAppUser: serverAppUser)),
-      createGroupProvider.overrideWith((ref) => createGroup),
-      userGroupsProvider.overrideWith((ref) => const Stream<List<Group>>.empty()),
-    ],
-    child: MaterialApp(home: CurrentGroupResolver(builder: (context) => const SizedBox.shrink())),
-  ));
+  return tester.pumpWidget(
+    ProviderScope(
+      overrides: [
+        appUserProvider.overrideWith((ref) => appUserStream),
+        serverAppUserFetchProvider.overrideWith((ref) => _FakeServerAppUserFetch(serverAppUser: serverAppUser)),
+        createGroupProvider.overrideWith((ref) => createGroup),
+        userGroupsProvider.overrideWith((ref) => const Stream<List<Group>>.empty()),
+      ],
+      child: MaterialApp(home: CurrentGroupResolver(builder: (context) => const SizedBox.shrink())),
+    ),
+  );
 }
 
 void main() {
