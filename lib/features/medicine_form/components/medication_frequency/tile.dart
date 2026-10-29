@@ -16,13 +16,16 @@ class MedicationFrequencyTile extends StatelessWidget {
       padding: const EdgeInsets.symmetric(horizontal: 12.0),
       child: FlatTile(
         child: ListTile(
-          title: Text(L.medicationFrequency),
-          trailing: Wrap(
+          // trailing は title より先に幅を取るため、長い値 (Cycle 等) を trailing に置くと title が 1 語より狭くなり
+          // 英語のラベルが単語の途中で折り返される。値を title の Row に移し、ラベルの幅を保って値の側を折り返す (#466)
+          title: Row(
             children: [
-              Text(frequency.value.displayName),
-              const Icon(Icons.chevron_right),
+              Text(L.medicationFrequency),
+              const SizedBox(width: 16),
+              Expanded(child: Text(frequency.value.displayName, textAlign: TextAlign.end)),
             ],
           ),
+          trailing: const Icon(Icons.chevron_right),
           onTap: () {
             analytics.logEvent(name: 'medicine_form_freq_tile_tapped');
             showFullScreenModalBottomSheet(
