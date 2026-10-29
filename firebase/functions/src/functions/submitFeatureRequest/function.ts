@@ -98,7 +98,12 @@ module.exports = onCall(
     } catch (error) {
       functions.logger.error("slack post failed", error);
       try {
-        await report(userID, "submitFeatureRequest", error);
+        // core/slack の report はタイムアウトを持たないため、エラー通知先が応答しない時も 500 の応答を返せるよう、
+        // Slack への送信と同じ 10 秒で待つのをやめる
+        await Promise.race([
+          report(userID, "submitFeatureRequest", error),
+          new Promise((_, reject) => setTimeout(() => reject(new Error("slack error report timed out")), 10000).unref()),
+        ]);
       } catch (reportError) {
         // エラー通知の失敗で、クライアントへ返す 500 の応答を失わない
         functions.logger.error("slack error report failed", reportError);

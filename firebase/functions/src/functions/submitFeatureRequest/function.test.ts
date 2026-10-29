@@ -143,4 +143,16 @@ describe("submitFeatureRequest", () => {
 
     expect(response).toEqual({ result: "NG", statusCode: 500, error: { message: "webhook down" } });
   });
+
+  it("エラーチャンネルへの通知が応答しない時も、10 秒で待つのをやめて 500 を返す", async () => {
+    jest.useFakeTimers();
+    mockPost.mockRejectedValue(new Error("webhook down"));
+    mockReport.mockReturnValue(new Promise(() => undefined));
+
+    const responsePromise = handler({ auth: { uid: "user-1" }, data: { content: "要望" } });
+    await jest.advanceTimersByTimeAsync(10000);
+
+    expect(await responsePromise).toEqual({ result: "NG", statusCode: 500, error: { message: "webhook down" } });
+    jest.useRealTimers();
+  });
 });
