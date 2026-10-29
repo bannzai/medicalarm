@@ -21,11 +21,14 @@ Stream<AppUser> appUser(Ref ref) {
 ///
 /// [appUserProvider] のリスナーは、クライアントの書き込みの確定を、Cloud Functions が先に書いた値の受信より前に流すことがある。
 /// その途中の値で判断できない処理が、サーバーの値で判定し直すために使う (#465)。
+/// Firestore の操作は `call` を持つ class を Provider から返す、というこのリポジトリの規約 (CLAUDE.md) に合わせて class にしている。
 class ServerAppUserFetch {
+  /// 取得する user ドキュメントの持ち主。
   final UserDatabase database;
 
   ServerAppUserFetch({required this.database});
 
+  /// サーバーの user ドキュメントを返す。端末のキャッシュは使わないため、サーバーに届かない時 (オフライン等) は例外を投げる。
   Future<AppUser?> call() async {
     return (await database.userReference().get(const GetOptions(source: Source.server))).data();
   }

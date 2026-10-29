@@ -13,6 +13,7 @@ import 'package:medicalarm/provider/user_groups.dart';
 
 /// 呼び出し回数を数える CreateGroup。Cloud Functions を呼ばずに作成した ID を返す。
 class _CountingCreateGroup implements CreateGroup {
+  /// call が呼ばれた回数。ソログループを作った回数を表す。
   int callCount = 0;
 
   @override
@@ -24,6 +25,7 @@ class _CountingCreateGroup implements CreateGroup {
 
 /// Firestore を読まずに [serverAppUser] をサーバーの user ドキュメントとして返す ServerAppUserFetch。
 class _FakeServerAppUserFetch extends ServerAppUserFetch {
+  /// サーバーにある user ドキュメントとして返す値。
   final AppUser serverAppUser;
 
   _FakeServerAppUserFetch({required this.serverAppUser}) : super(database: UserDatabase(userID: 'test-user'));
