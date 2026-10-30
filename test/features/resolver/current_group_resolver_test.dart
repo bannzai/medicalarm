@@ -79,12 +79,13 @@ Future<void> _pumpCurrentGroupResolver(
   required CreateGroup createGroup,
   int serverAppUserFetchFailureCount = 0,
 }) {
-  final serverAppUserFetch = _FakeServerAppUserFetch(serverAppUser: serverAppUser, remainingFailureCount: serverAppUserFetchFailureCount);
   return tester.pumpWidget(
     ProviderScope(
       overrides: [
         appUserProvider.overrideWith((ref) => appUserStream),
-        serverAppUserFetchProvider.overrideWith((ref) => serverAppUserFetch),
+        serverAppUserFetchProvider.overrideWith(
+          (ref) => _FakeServerAppUserFetch(serverAppUser: serverAppUser, remainingFailureCount: serverAppUserFetchFailureCount),
+        ),
         createGroupProvider.overrideWith((ref) => createGroup),
         userGroupsProvider.overrideWith((ref) => const Stream<List<Group>>.empty()),
       ],
