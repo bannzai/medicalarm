@@ -58,7 +58,7 @@ class CurrentGroupResolver extends HookConsumerWidget {
           try {
             // 初回起動の移行では、リスナーが groupMigratedDateTime の書き込みの確定を、createGroup がサーバーで書いた
             // defaultGroupID の受信より前に流すことがある。その値で作り直すと 2 つ目のソログループができるため、サーバーの値で判定し直す (#465)。
-            // 取得に失敗した時 (オフライン等) は作り直さずに記録する。createGroup も Cloud Functions の呼び出しで、同じ状況では失敗するため
+            // 取得に失敗した時 (オフライン等) は、サーバーの値を確かめられないまま作ると重複し得るため作り直さず、下の catch で再試行の画面を出す
             final serverAppUser = await serverAppUserFetch();
             if (serverAppUser?.groupMigratedDateTime != null && serverAppUser?.defaultGroupID == null) {
               await createGroup.call(name: null, setAsDefault: true, iconName: 'home');
