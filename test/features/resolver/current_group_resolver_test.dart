@@ -95,10 +95,7 @@ void main() {
         createGroup: createGroup,
       );
 
-      // removeGroupMember 等でソログループを失った状態。同じ値が再び流れても作り直しは重ねない
-      appUserController.add(_migratedAppUser(defaultGroupID: null));
-      await tester.pump();
-      await tester.pump();
+      // removeGroupMember 等でソログループを失った状態
       appUserController.add(_migratedAppUser(defaultGroupID: null));
       await tester.pump();
       await tester.pump();
