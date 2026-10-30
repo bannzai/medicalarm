@@ -9,10 +9,11 @@ appId: com.bannzai.medicalarm
 - tapOn: "(?s)カレンダー.*"
 - takeScreenshot: tmp/maestro/calendar_page
 # 今日の日付タイルをタップする。日付は実行日に依存するため実行時に算出する。
-# 既知の制約: 実行日が月末寄り(おおむね23日以降)だと、月初行に表示される前月のグレーアウトタイルと
-# 同じ数字が重複し、Maestro が前月側をタップしてフローが失敗することがある
-- evalScript: ${output.todayDay = String(new Date().getDate())}
-- tapOn: "${output.todayDay}"
+# 月初の行の前月のグレーアウトの日付と数字が重なる日 (月末寄り) に前月側をタップしないよう、数字の文字列ではなく
+# 当月の日付だけに付いた identifier (calendar_day_tile_yyyy-MM-dd) で探す (#387)
+- evalScript: ${output.todayDate = (function (date) { return date.getFullYear() + '-' + String(date.getMonth() + 1).padStart(2, '0') + '-' + String(date.getDate()).padStart(2, '0') })(new Date())}
+- tapOn:
+    id: "calendar_day_tile_${output.todayDate}"
 - extendedWaitUntil:
     visible: "日記"
     timeout: 5000
