@@ -34,6 +34,7 @@ class ServerAppUserFetch {
   }
 }
 
+/// 現在のユーザーの user ドキュメントをサーバーから取得する [ServerAppUserFetch] を返す。
 @Riverpod(dependencies: [userDatabase])
 ServerAppUserFetch serverAppUserFetch(Ref ref) {
   return ServerAppUserFetch(database: ref.watch(userDatabaseProvider));
