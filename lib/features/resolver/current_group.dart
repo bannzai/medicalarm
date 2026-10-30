@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:medicalarm/components/loading/indicator.dart';
+import 'package:medicalarm/components/retry/page.dart';
 import 'package:medicalarm/entity/group.dart';
 import 'package:medicalarm/provider/app_user.dart';
 import 'package:medicalarm/provider/current_group_id.dart';
@@ -40,7 +41,12 @@ class CurrentGroupResolver extends HookConsumerWidget {
     final migrated = appUser?.groupMigratedDateTime != null;
     final currentGroupIDNotifier = ref.watch(currentGroupIDProvider.notifier);
     final createGroup = ref.watch(createGroupProvider);
+    final serverAppUserFetch = ref.watch(serverAppUserFetchProvider);
     final isCreatingFallbackGroup = useState(false);
+    // 作り直しの失敗を保持し、Retry から再試行できるようにする。null なら失敗していない。
+    final fallbackGroupCreationError = useState<Object?>(null);
+    // 再試行のトリガー。インクリメントで作り直しの useEffect を再実行させる。
+    final retryCount = useState(0);
     final userGroups = ref.watch(userGroupsProvider);
 
     // フォールバック: 移行済みなのに defaultGroupID が null(ソログループを失った)場合はソログループを作り直す。
@@ -48,10 +54,19 @@ class CurrentGroupResolver extends HookConsumerWidget {
       void f() async {
         if (migrated && defaultGroupID == null && !isCreatingFallbackGroup.value) {
           isCreatingFallbackGroup.value = true;
+          fallbackGroupCreationError.value = null;
           try {
-            await createGroup.call(name: null, setAsDefault: true, iconName: 'home');
+            // 初回起動の移行では、リスナーが groupMigratedDateTime の書き込みの確定を、createGroup がサーバーで書いた
+            // defaultGroupID の受信より前に流すことがある。その値で作り直すと 2 つ目のソログループができるため、サーバーの値で判定し直す (#465)。
+            // 取得に失敗した時 (オフライン等) は、サーバーの値を確かめられないまま作ると重複し得るため作り直さず、下の catch で再試行の画面を出す
+            final serverAppUser = await serverAppUserFetch();
+            if (serverAppUser?.groupMigratedDateTime != null && serverAppUser?.defaultGroupID == null) {
+              await createGroup.call(name: null, setAsDefault: true, iconName: 'home');
+            }
           } catch (e, st) {
+            // 依存の値は失敗しても変わらず再実行されないため、Retry から再試行できるよう error を保持する (#470)。
             errorLogger.recordError(e, st);
+            fallbackGroupCreationError.value = e;
           } finally {
             isCreatingFallbackGroup.value = false;
           }
@@ -60,7 +75,7 @@ class CurrentGroupResolver extends HookConsumerWidget {
 
       f();
       return null;
-    }, [migrated, defaultGroupID]);
+    }, [migrated, defaultGroupID, retryCount.value]);
 
     // currentGroupID が未設定の時だけ defaultGroupID で初期化する。手動切替後(非null)は上書きしない。
     // build 中の state 変更を避けるため postFrame で反映する。
@@ -93,6 +108,13 @@ class CurrentGroupResolver extends HookConsumerWidget {
       return null;
     }, [currentGroupID, userGroups, defaultGroupID]);
 
+    final error = fallbackGroupCreationError.value;
+    if (currentGroupID == null && defaultGroupID == null && !isCreatingFallbackGroup.value && error != null) {
+      return Retry(
+        retry: () => retryCount.value++,
+        child: RetryPage(exception: error),
+      );
+    }
     if (currentGroupID == null) {
       return const IndicatorPage();
     }
