@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
+import 'package:intl/date_symbol_data_local.dart';
+import 'package:intl/intl.dart';
 import 'package:medicalarm/components/calendar/monthly/pager.dart';
 import 'package:medicalarm/entity/diary.dart';
 import 'package:medicalarm/provider/diary.dart';
@@ -29,5 +31,28 @@ void main() {
     expect(find.bySemanticsIdentifier('calendar_day_tile_2026-09-30'), findsNothing);
     // identifier が付いているのは当月側 (最終行) の 30 で、1 行目の前月の 30 ではない
     expect(tester.getCenter(find.bySemanticsIdentifier('calendar_day_tile_2026-10-30')).dy, greaterThan(tester.getCenter(find.text('30').first).dy));
+  });
+
+  testWidgets('数字を独自の文字で書く言語 (fa) が既定のロケールでも、identifier の日付は ASCII の数字になる', (tester) async {
+    final previousLocale = Intl.defaultLocale;
+    addTearDown(() => Intl.defaultLocale = previousLocale);
+    await initializeDateFormatting('fa');
+    Intl.defaultLocale = 'fa';
+
+    await tester.pumpWidget(
+      ProviderScope(
+        overrides: [
+          diariesForDateTimeRangeProvider(
+            dateTimeRange: DateTimeRange(start: DateTime(2026, 10, 1), end: DateTime(2026, 10, 31, 23, 59, 59)),
+          ).overrideWith((ref) => Stream.value(<Diary>[])),
+        ],
+        child: MaterialApp(
+          home: Scaffold(body: MonthCalendarPager(displayedMonth: DateTime(2026, 10, 1))),
+        ),
+      ),
+    );
+    await tester.pump();
+
+    expect(find.bySemanticsIdentifier('calendar_day_tile_2026-10-30'), findsOneWidget);
   });
 }

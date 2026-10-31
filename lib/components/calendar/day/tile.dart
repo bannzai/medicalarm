@@ -44,7 +44,8 @@ class CalendarDayTile extends StatelessWidget {
       // iOS は label・操作を持たないノードをアクセシビリティ要素にせず、identifier だけのノードは XCUITest (maestro) から見えないため (#388)
       child: MergeSemantics(
         child: Semantics(
-          identifier: onTap != null ? 'calendar_day_tile_${DateFormat('yyyy-MM-dd').format(date)}' : null,
+          // 端末の言語が fa・mr・ne 等だと intl は数字をその言語の数字にするため、E2E が組み立てる ASCII の日付と揃うよう en_US に固定する
+          identifier: onTap != null ? 'calendar_day_tile_${DateFormat('yyyy-MM-dd', 'en_US').format(date)}' : null,
           child: RawMaterialButton(
             onPressed: () => onTap != null ? onTap(date.date()) : null,
             child: SizedBox(
