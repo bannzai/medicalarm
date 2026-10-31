@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:intl/intl.dart';
 import 'package:medicalarm/components/calendar/day/badge.dart';
 import 'package:medicalarm/entity/diary.dart';
 import 'package:medicalarm/style/color.dart';
@@ -38,39 +39,48 @@ class CalendarDayTile extends StatelessWidget {
   Widget build(BuildContext context) {
     final onTap = this.onTap;
     return Expanded(
-      child: RawMaterialButton(
-        onPressed: () => onTap != null ? onTap(date.date()) : null,
-        child: SizedBox(
-          child: Column(
-            children: <Widget>[
-              SizedBox(
-                width: 40,
-                height: 40,
-                child: Stack(
-                  children: [
-                    if (selected)
-                      const Positioned(
-                        child: Align(
-                          alignment: Alignment.center,
-                          child: _BackgroundCircle(),
+      // 月初の行に並ぶ前月のグレーアウトの日付は当月の日付と数字が重なるため (2026 年 10 月なら 27〜30)、E2E (maestro) は数字の文字列ではなく
+      // タップできる日付だけに付けた日付の identifier で探す (#387)。MergeSemantics で identifier をボタンのタップ操作と同じ 1 ノードにまとめる。
+      // iOS は label・操作を持たないノードをアクセシビリティ要素にせず、identifier だけのノードは XCUITest (maestro) から見えないため (#388)
+      child: MergeSemantics(
+        child: Semantics(
+          // 端末の言語が fa・mr・ne 等だと intl は数字をその言語の数字にするため、E2E が組み立てる ASCII の日付と揃うよう en_US に固定する
+          identifier: onTap != null ? 'calendar_day_tile_${DateFormat('yyyy-MM-dd', 'en_US').format(date)}' : null,
+          child: RawMaterialButton(
+            onPressed: () => onTap != null ? onTap(date.date()) : null,
+            child: SizedBox(
+              child: Column(
+                children: <Widget>[
+                  SizedBox(
+                    width: 40,
+                    height: 40,
+                    child: Stack(
+                      children: [
+                        if (selected)
+                          const Positioned(
+                            child: Align(
+                              alignment: Alignment.center,
+                              child: _BackgroundCircle(),
+                            ),
+                          ),
+                        Positioned(
+                          child: Align(
+                            alignment: Alignment.center,
+                            child: _DayText(
+                              date: date,
+                              selected: selected,
+                              weekday: weekday,
+                              onTap: onTap,
+                            ),
+                          ),
                         ),
-                      ),
-                    Positioned(
-                      child: Align(
-                        alignment: Alignment.center,
-                        child: _DayText(
-                          date: date,
-                          selected: selected,
-                          weekday: weekday,
-                          onTap: onTap,
-                        ),
-                      ),
+                      ],
                     ),
-                  ],
-                ),
+                  ),
+                  CalendarDayBadge(date: date, diary: diary),
+                ],
               ),
-              CalendarDayBadge(date: date, diary: diary),
-            ],
+            ),
           ),
         ),
       ),
