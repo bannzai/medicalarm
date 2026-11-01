@@ -8,6 +8,12 @@ import 'package:medicalarm/features/medicine_form/components/schedule/quantity_m
 import 'package:medicalarm/features/medicine_form/components/section_layout.dart';
 import 'package:medicalarm/features/localization/l.dart';
 
+/// 時刻欄と容量欄の間隔。修正前 (#474 より前) の間隔 10 のまま、描画と容量欄の幅の計算で同じ値を使う
+const _reminderTimeToQuantityMemoGap = 10.0;
+
+/// 容量欄の幅の上限。既定の文字サイズでは修正前 (#474 より前) の固定幅 180 のまま表示する
+const _quantityMemoMaximumWidth = 180.0;
+
 class MedicineScheduleSection extends StatelessWidget {
   final ValueNotifier<List<MedicationSchedule>> schedules;
   // 編集中の既存薬。新規薬(未保存)作成時は null。個別通知設定の書き込み先分岐に使う。
@@ -37,11 +43,13 @@ class MedicineScheduleSection extends StatelessWidget {
                         Expanded(
                           child: MedicineScheduleReminderTime(schedule: schedule, schedules: schedules, index: index),
                         ),
-                        const SizedBox(width: 10),
+                        const SizedBox(width: _reminderTimeToQuantityMemoGap),
                         SizedBox(
                           height: 48,
-                          width: (constraints.maxWidth - 10 - medicineScheduleReminderTimeMinimumWidth(context: context, schedule: schedule))
-                              .clamp(0, 180),
+                          width: (constraints.maxWidth -
+                                  _reminderTimeToQuantityMemoGap -
+                                  medicineScheduleReminderTimeMinimumWidth(context: context, schedule: schedule))
+                              .clamp(0, _quantityMemoMaximumWidth),
                           child: MedicineScheduleQuantityMemoTextField(schedule: schedule, schedules: schedules, index: index),
                         ),
                       ],

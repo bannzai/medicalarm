@@ -16,7 +16,8 @@ class MedicationBeginTile extends StatelessWidget {
       child: FlatTile(
         child: ListTile(
           // 値を trailing に置くと、文字を拡大した時に trailing が先に幅を取り、英語のラベルが単語の途中で折り返される。
-          // 服用頻度の行 (#466) と同じく、ラベルと値を title の Wrap に並べる (#474)
+          // 服用頻度の行 (#466) と同じく、ラベルと値を title の Wrap に並べる (#474)。
+          // spacing は、値を trailing に置いていた時のラベルとの間隔 (ListTile の horizontalTitleGap の既定 16) に揃える
           title: Wrap(
             alignment: WrapAlignment.spaceBetween,
             spacing: 16,

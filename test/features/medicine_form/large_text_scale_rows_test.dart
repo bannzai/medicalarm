@@ -21,15 +21,16 @@ class _FakeRegisterReminderLocalNotification extends RegisterReminderLocalNotifi
   Future<void> call() async {}
 }
 
-// iOS のアクセシビリティの文字サイズの最大 (AX5) が本文の約 3 倍のため 3.0 を使う
+/// 文字を最大にした時の倍率。iOS のアクセシビリティの文字サイズの最大 (AX5) が本文の約 3 倍のため 3.0 を使う
 const _largestTextScaleFactor = 3.0;
 
-// テスト用フォント (FlutterTest) は 1 文字が fontSize 四方の幅になり実機のフォントより横に長い。
-// 服用開始日・服用スケジュールの見出し・服用者は、修正前の実装で幅 600 で実機 (iPhone 17) と同じく単語の途中で折り返す・はみ出すため 600 を使う
+/// 服用開始日・服用スケジュールの見出し・服用者を描画する幅。
+/// テスト用フォント (FlutterTest) は 1 文字が fontSize 四方の幅になり実機のフォントより横に長い。
+/// 修正前の実装で、幅 600 で実機 (iPhone 17) と同じく単語の途中で折り返す・はみ出すため 600 を使う
 const _labelRowSurfaceWidth = 600.0;
 
-// 服用スケジュールの行は、幅 600 では修正前の実装でも時刻欄に「08:00」が 1 行で収まり再現しないため、
-// 実機 (iPhone 17) の論理幅 402 を使う。修正前の実装では幅 402 で「08: / 00」と 2 行に割れる
+/// 服用スケジュールの行を描画する幅。幅 600 では修正前の実装でも時刻欄に「08:00」が 1 行で収まり再現しないため、
+/// 実機 (iPhone 17) の論理幅 402 を使う。修正前の実装では幅 402 で「08: / 00」と 2 行に割れる
 const _scheduleRowSurfaceWidth = 402.0;
 
 /// [child] を、幅 [width]・端末の文字サイズの倍率 [textScaleFactor] で描画する。

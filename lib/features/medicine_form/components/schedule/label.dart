@@ -4,11 +4,13 @@ import 'package:medicalarm/entity/medicine.dart';
 import 'package:medicalarm/style/color.dart';
 import 'package:medicalarm/utils/analytics/analytics.dart';
 
-// 時刻欄の文字の大きさ。時刻欄の描画と最小幅の計算 (medicineScheduleReminderTimeMinimumWidth) で同じ値を使う
+/// 時刻欄の時刻の文字の大きさ。修正前 (#474 より前) の 12 のまま、時刻欄の描画と最小幅の計算 ([medicineScheduleReminderTimeMinimumWidth]) で同じ値を使う
 const _reminderTimeTextStyle = TextStyle(fontSize: 12);
-// 時刻欄の枠と時刻の間の左右の余白。時刻欄の描画と最小幅の計算で同じ値を使う
+
+/// 時刻欄の枠と時刻の間の左右の余白。修正前 (#474 より前) の 8 のまま、時刻欄の描画と最小幅の計算で同じ値を使う
 const _reminderTimeHorizontalPadding = 8.0;
-// 時刻欄の枠線。時刻欄の描画と最小幅の計算で同じ値を使う
+
+/// 時刻欄の枠線。時刻欄の描画と最小幅の計算で同じ値を使う
 final _reminderTimeBorder = Border.all(color: AppColors.border);
 
 /// [schedule] の時刻を 1 行で表示するのに要る時刻欄の幅。端末の文字サイズの倍率を含めて測る。
