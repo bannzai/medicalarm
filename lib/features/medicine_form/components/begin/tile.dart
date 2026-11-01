@@ -15,13 +15,14 @@ class MedicationBeginTile extends StatelessWidget {
       padding: const EdgeInsets.symmetric(horizontal: 12.0),
       child: FlatTile(
         child: ListTile(
-          title: Text(L.medicationStartDate),
-          trailing: Wrap(
-            children: [
-              Text(DateFormat('yyyy/MM/dd').format(begin.value)),
-              const Icon(Icons.chevron_right),
-            ],
+          // 値を trailing に置くと、文字を拡大した時に trailing が先に幅を取り、英語のラベルが単語の途中で折り返される。
+          // 服用頻度の行 (#466) と同じく、ラベルと値を title の Wrap に並べる (#474)
+          title: Wrap(
+            alignment: WrapAlignment.spaceBetween,
+            spacing: 16,
+            children: [Text(L.medicationStartDate), Text(DateFormat('yyyy/MM/dd').format(begin.value))],
           ),
+          trailing: const Icon(Icons.chevron_right),
           onTap: () async {
             analytics.logEvent(name: 'medicine_form_begin_tapped');
             final firstDate = today().subtract(const Duration(days: 365));

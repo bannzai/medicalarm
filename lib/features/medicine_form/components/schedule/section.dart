@@ -29,13 +29,24 @@ class MedicineScheduleSection extends StatelessWidget {
             child: Row(
               children: [
                 Expanded(
-                  child: MedicineScheduleReminderTime(schedule: schedule, schedules: schedules, index: index),
-                ),
-                const SizedBox(width: 10),
-                SizedBox(
-                  height: 48,
-                  width: 180,
-                  child: MedicineScheduleQuantityMemoTextField(schedule: schedule, schedules: schedules, index: index),
+                  // 容量欄の幅を 180 に固定すると、文字を拡大した時に時刻欄が時刻の 1 行分より狭くなり「08: / 00」と割れる。
+                  // 時刻欄が時刻を 1 行で表示できる幅を残せない時だけ容量欄を縮める。既定の文字サイズでは容量欄は 180 のまま (#474)
+                  child: LayoutBuilder(
+                    builder: (context, constraints) => Row(
+                      children: [
+                        Expanded(
+                          child: MedicineScheduleReminderTime(schedule: schedule, schedules: schedules, index: index),
+                        ),
+                        const SizedBox(width: 10),
+                        SizedBox(
+                          height: 48,
+                          width: (constraints.maxWidth - 10 - medicineScheduleReminderTimeMinimumWidth(context: context, schedule: schedule))
+                              .clamp(0, 180),
+                          child: MedicineScheduleQuantityMemoTextField(schedule: schedule, schedules: schedules, index: index),
+                        ),
+                      ],
+                    ),
+                  ),
                 ),
                 MedicineScheduleNotificationSettingButton(schedule: schedule, schedules: schedules, index: index, medicine: medicine),
                 MedicineScheduleDeleteButton(schedule: schedule, schedules: schedules),

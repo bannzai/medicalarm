@@ -4,6 +4,26 @@ import 'package:medicalarm/entity/medicine.dart';
 import 'package:medicalarm/style/color.dart';
 import 'package:medicalarm/utils/analytics/analytics.dart';
 
+// 時刻欄の文字の大きさ。時刻欄の描画と最小幅の計算 (medicineScheduleReminderTimeMinimumWidth) で同じ値を使う
+const _reminderTimeTextStyle = TextStyle(fontSize: 12);
+// 時刻欄の枠と時刻の間の左右の余白。時刻欄の描画と最小幅の計算で同じ値を使う
+const _reminderTimeHorizontalPadding = 8.0;
+// 時刻欄の枠線。時刻欄の描画と最小幅の計算で同じ値を使う
+final _reminderTimeBorder = Border.all(color: AppColors.border);
+
+/// [schedule] の時刻を 1 行で表示するのに要る時刻欄の幅。端末の文字サイズの倍率を含めて測る。
+double medicineScheduleReminderTimeMinimumWidth({required BuildContext context, required MedicationSchedule schedule}) {
+  final textPainter = TextPainter(
+    text: TextSpan(text: schedule.toTimeString(), style: DefaultTextStyle.of(context).style.merge(_reminderTimeTextStyle)),
+    textDirection: Directionality.of(context),
+    textScaler: MediaQuery.textScalerOf(context),
+  )..layout();
+  // 小数の幅のまま渡すと丸め誤差で最後の文字が次の行へ送られることがあるため切り上げる
+  final textWidth = textPainter.width.ceilToDouble();
+  textPainter.dispose();
+  return textWidth + _reminderTimeHorizontalPadding * 2 + _reminderTimeBorder.dimensions.horizontal;
+}
+
 class MedicineScheduleReminderTime extends StatelessWidget {
   const MedicineScheduleReminderTime({
     super.key,
@@ -34,7 +54,7 @@ class MedicineScheduleReminderTime extends StatelessWidget {
       },
       child: Container(
         decoration: BoxDecoration(
-          border: Border.all(color: AppColors.border),
+          border: _reminderTimeBorder,
           color: Colors.white,
           borderRadius: BorderRadius.circular(4),
         ),
@@ -46,10 +66,10 @@ class MedicineScheduleReminderTime extends StatelessWidget {
         child: Align(
           alignment: Alignment.centerLeft,
           child: Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 8.0),
+            padding: const EdgeInsets.symmetric(horizontal: _reminderTimeHorizontalPadding),
             child: Text(
               schedule.toTimeString(),
-              style: const TextStyle(fontSize: 12),
+              style: _reminderTimeTextStyle,
             ),
           ),
         ),
