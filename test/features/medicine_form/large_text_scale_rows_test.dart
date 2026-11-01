@@ -81,6 +81,17 @@ MedicineScheduleSection _medicineScheduleSection() {
   );
 }
 
+/// 容量欄に入力した文字の、画面上の矩形。
+Rect _quantityMemoInputTextRect(WidgetTester tester) {
+  final editable = tester
+      .state<EditableTextState>(find.descendant(of: find.byType(MedicineScheduleQuantityMemoTextField), matching: find.byType(EditableText)))
+      .renderEditable;
+  return MatrixUtils.transformRect(
+    editable.getTransformTo(null),
+    editable.getBoxesForSelection(TextSelection(baseOffset: 0, extentOffset: editable.plainText.length)).single.toRect(),
+  );
+}
+
 /// 薬の登録フォームの服用開始日・服用スケジュールの見出し・服用スケジュールの行・服用者で、
 /// 英語表示で文字を拡大してもラベルが単語の途中で折り返されず、行からはみ出さないことを検証する。
 /// https://github.com/bannzai/medicalarm/issues/474
@@ -136,6 +147,18 @@ void main() {
       expect(lineTexts(tester, text: '08:00'), ['08:00']);
     });
 
+    // https://github.com/bannzai/medicalarm/issues/489
+    testWidgets('服用スケジュールの容量欄の浮いたラベルは入力した文字に重ならない', (WidgetTester tester) async {
+      await _pump(tester, width: _scheduleRowSurfaceWidth, textScaleFactor: _largestTextScaleFactor, child: _medicineScheduleSection());
+      await tester.enterText(find.byType(MedicineScheduleQuantityMemoTextField), '1 tablet');
+      await tester.pumpAndSettle();
+
+      expect(tester.takeException(), isNull);
+      final labelRect = tester.getRect(find.text(L.quantity));
+      final inputTextRect = _quantityMemoInputTextRect(tester);
+      expect(labelRect.overlaps(inputTextRect), isFalse, reason: 'ラベル $labelRect と入力した文字 $inputTextRect が重なっている');
+    });
+
     testWidgets('服用者のラベルは単語の境目で折り返されはみ出さない', (WidgetTester tester) async {
       await _pump(
         tester,
@@ -164,13 +187,13 @@ void main() {
       expect(lineTexts(tester, text: '2026/01/01'), ['2026/01/01']);
     });
 
-    testWidgets('服用スケジュールの見出しと時刻欄は 1 行で表示され、容量欄の幅は 180 のまま', (WidgetTester tester) async {
+    testWidgets('服用スケジュールの見出しと時刻欄は 1 行で表示され、容量欄の大きさは幅 180・高さ 48 のまま', (WidgetTester tester) async {
       await _pump(tester, width: _scheduleRowSurfaceWidth, textScaleFactor: 1.0, child: _medicineScheduleSection());
 
       expect(tester.takeException(), isNull);
       expect(lineTexts(tester, text: L.medicationSchedule), [L.medicationSchedule]);
       expect(lineTexts(tester, text: '08:00'), ['08:00']);
-      expect(tester.getSize(find.byType(MedicineScheduleQuantityMemoTextField)).width, 180);
+      expect(tester.getSize(find.byType(MedicineScheduleQuantityMemoTextField)), const Size(180, 48));
     });
 
     testWidgets('服用者のラベルと値は 1 行で表示される', (WidgetTester tester) async {
