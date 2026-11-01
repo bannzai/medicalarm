@@ -86,8 +86,10 @@ Rect _quantityMemoInputTextRect(WidgetTester tester) {
   final editable = tester
       .state<EditableTextState>(find.descendant(of: find.byType(MedicineScheduleQuantityMemoTextField), matching: find.byType(EditableText)))
       .renderEditable;
-  final box = editable.getBoxesForSelection(TextSelection(baseOffset: 0, extentOffset: editable.plainText.length)).single.toRect();
-  return MatrixUtils.transformRect(editable.getTransformTo(null), box);
+  return MatrixUtils.transformRect(
+    editable.getTransformTo(null),
+    editable.getBoxesForSelection(TextSelection(baseOffset: 0, extentOffset: editable.plainText.length)).single.toRect(),
+  );
 }
 
 /// 薬の登録フォームの服用開始日・服用スケジュールの見出し・服用スケジュールの行・服用者で、
