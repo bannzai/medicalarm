@@ -33,8 +33,15 @@ const _labelRowSurfaceWidth = 600.0;
 /// 実機 (iPhone 17) の論理幅 402 を使う。修正前の実装では幅 402 で「08: / 00」と 2 行に割れる
 const _scheduleRowSurfaceWidth = 402.0;
 
-/// [child] を、幅 [width]・端末の文字サイズの倍率 [textScaleFactor] で描画する。
-Future<void> _pump(WidgetTester tester, {required double width, required double textScaleFactor, required Widget child}) async {
+/// [child] を、幅 [width]・端末の文字サイズの倍率 [textScaleFactor]・文字を太くする設定 [boldText] で描画する。
+Future<void> _pump(
+  WidgetTester tester, {
+  required double width,
+  required double textScaleFactor,
+  required Widget child,
+  // iOS の文字を太くする設定の既定 (オフ)
+  bool boldText = false,
+}) async {
   // 服用スケジュールの見出し・行・追加ボタンが縦に収まる高さ
   const height = 1600.0;
   tester.view.physicalSize = Size(width, height);
@@ -49,7 +56,7 @@ Future<void> _pump(WidgetTester tester, {required double width, required double 
       ],
       child: MaterialApp(
         home: MediaQuery(
-          data: MediaQueryData(size: Size(width, height), textScaler: TextScaler.linear(textScaleFactor)),
+          data: MediaQueryData(size: Size(width, height), textScaler: TextScaler.linear(textScaleFactor), boldText: boldText),
           child: Scaffold(body: SingleChildScrollView(child: child)),
         ),
       ),
@@ -109,6 +116,19 @@ void main() {
 
     testWidgets('服用スケジュールの行の時刻欄は 1 行で表示されはみ出さない', (WidgetTester tester) async {
       await _pump(tester, width: _scheduleRowSurfaceWidth, textScaleFactor: _largestTextScaleFactor, child: _medicineScheduleSection());
+
+      expect(tester.takeException(), isNull);
+      expect(lineTexts(tester, text: '08:00'), ['08:00']);
+    });
+
+    testWidgets('文字を太くする設定でも服用スケジュールの行の時刻欄は 1 行で表示されはみ出さない', (WidgetTester tester) async {
+      await _pump(
+        tester,
+        width: _scheduleRowSurfaceWidth,
+        textScaleFactor: _largestTextScaleFactor,
+        boldText: true,
+        child: _medicineScheduleSection(),
+      );
 
       expect(tester.takeException(), isNull);
       expect(lineTexts(tester, text: '08:00'), ['08:00']);

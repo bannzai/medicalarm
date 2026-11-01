@@ -13,10 +13,17 @@ const _reminderTimeHorizontalPadding = 8.0;
 /// 時刻欄の枠線。時刻欄の描画と最小幅の計算で同じ値を使う
 final _reminderTimeBorder = Border.all(color: AppColors.border);
 
-/// [schedule] の時刻を 1 行で表示するのに要る時刻欄の幅。端末の文字サイズの倍率を含めて測る。
+/// [schedule] の時刻を 1 行で表示するのに要る時刻欄の幅。端末の文字サイズの倍率と、文字を太くする設定を含めて測る。
 double medicineScheduleReminderTimeMinimumWidth({required BuildContext context, required MedicationSchedule schedule}) {
   final textPainter = TextPainter(
-    text: TextSpan(text: schedule.toTimeString(), style: DefaultTextStyle.of(context).style.merge(_reminderTimeTextStyle)),
+    text: TextSpan(
+      text: schedule.toTimeString(),
+      // Text widget は端末の文字を太くする設定 (MediaQuery.boldTextOf) がオンの時に太字で描くため、測る側も同じ規則で太字にする
+      style: DefaultTextStyle.of(context)
+          .style
+          .merge(_reminderTimeTextStyle)
+          .merge(MediaQuery.boldTextOf(context) ? const TextStyle(fontWeight: FontWeight.bold) : null),
+    ),
     textDirection: Directionality.of(context),
     textScaler: MediaQuery.textScalerOf(context),
   )..layout();
