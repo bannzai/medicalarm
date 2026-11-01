@@ -8,6 +8,12 @@ import 'package:medicalarm/features/medicine_form/components/schedule/quantity_m
 import 'package:medicalarm/features/medicine_form/components/section_layout.dart';
 import 'package:medicalarm/features/localization/l.dart';
 
+/// 時刻欄と容量欄の間隔。修正前 (#474 より前) の間隔 10 のまま、描画と容量欄の幅の計算で同じ値を使う
+const _reminderTimeToQuantityMemoGap = 10.0;
+
+/// 容量欄の幅の上限。既定の文字サイズでは修正前 (#474 より前) の固定幅 180 のまま表示する
+const _quantityMemoMaximumWidth = 180.0;
+
 class MedicineScheduleSection extends StatelessWidget {
   final ValueNotifier<List<MedicationSchedule>> schedules;
   // 編集中の既存薬。新規薬(未保存)作成時は null。個別通知設定の書き込み先分岐に使う。
@@ -29,13 +35,26 @@ class MedicineScheduleSection extends StatelessWidget {
             child: Row(
               children: [
                 Expanded(
-                  child: MedicineScheduleReminderTime(schedule: schedule, schedules: schedules, index: index),
-                ),
-                const SizedBox(width: 10),
-                SizedBox(
-                  height: 48,
-                  width: 180,
-                  child: MedicineScheduleQuantityMemoTextField(schedule: schedule, schedules: schedules, index: index),
+                  // 容量欄の幅を 180 に固定すると、文字を拡大した時に時刻欄が時刻の 1 行分より狭くなり「08: / 00」と割れる。
+                  // 時刻欄が時刻を 1 行で表示できる幅を残せない時だけ容量欄を縮める。既定の文字サイズでは容量欄は 180 のまま (#474)
+                  child: LayoutBuilder(
+                    builder: (context, constraints) => Row(
+                      children: [
+                        Expanded(
+                          child: MedicineScheduleReminderTime(schedule: schedule, schedules: schedules, index: index),
+                        ),
+                        const SizedBox(width: _reminderTimeToQuantityMemoGap),
+                        SizedBox(
+                          height: 48,
+                          width: (constraints.maxWidth -
+                                  _reminderTimeToQuantityMemoGap -
+                                  medicineScheduleReminderTimeMinimumWidth(context: context, schedule: schedule))
+                              .clamp(0, _quantityMemoMaximumWidth),
+                          child: MedicineScheduleQuantityMemoTextField(schedule: schedule, schedules: schedules, index: index),
+                        ),
+                      ],
+                    ),
+                  ),
                 ),
                 MedicineScheduleNotificationSettingButton(schedule: schedule, schedules: schedules, index: index, medicine: medicine),
                 MedicineScheduleDeleteButton(schedule: schedule, schedules: schedules),

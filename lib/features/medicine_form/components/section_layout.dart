@@ -31,12 +31,15 @@ class MedicineFormSectionLayout extends StatelessWidget {
                   color: foregroundColor,
                 ),
                 const SizedBox(width: 8.0),
-                Text(
-                  text,
-                  style: TextStyle(
-                    fontWeight: FontWeight.normal,
-                    fontSize: 14,
-                    color: foregroundColor,
+                // 文字を拡大して見出しが行に収まらない時に、はみ出さず単語の境目で折り返すため Flexible で行の残りの幅に収める (#474)
+                Flexible(
+                  child: Text(
+                    text,
+                    style: TextStyle(
+                      fontWeight: FontWeight.normal,
+                      fontSize: 14,
+                      color: foregroundColor,
+                    ),
                   ),
                 ),
               ],
