@@ -1,6 +1,7 @@
 import 'dart:convert';
 import 'dart:io';
 
+import 'package:collection/collection.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 // カンナダ語・グジャラート語の arb に、別の言語の文字 (漢字・グルムキー文字等)・訳されずに残った英字・
@@ -55,6 +56,34 @@ void main() {
             .where((message) => (message.value as String).contains('\n') && !(template[message.key] as String? ?? '').contains('\n'))
             .map((message) => message.key)
             .toList();
+        expect(violations, isEmpty);
+      });
+
+      test('プレースホルダが原文 (ja) と同じ', () {
+        final violations = messages
+            .where(
+              (message) => !const SetEquality<String>().equals(
+                RegExp(r'\{(\w+)\}').allMatches(message.value as String).map((match) => match.group(1)!).toSet(),
+                RegExp(r'\{(\w+)\}').allMatches(template[message.key] as String? ?? '').map((match) => match.group(1)!).toSet(),
+              ),
+            )
+            .map((message) => message.key)
+            .toList();
+        expect(violations, isEmpty);
+      });
+
+      // 訳文の中で別のキーのボタン名・画面名を案内する時、利用者が画面で探せるようにその arb の該当キーの訳文と一致させる (#487)
+      test('文中で案内するボタン名・画面名が、その arb の該当キーの訳文と一致する', () {
+        final violations = <String>[];
+        for (final message in messages) {
+          final templateMessage = template[message.key] as String? ?? '';
+          if (templateMessage.contains('設定 > 問い合わせ') && !(message.value as String).contains('${arb['settings']} > ${arb['inquiry']}')) {
+            violations.add('${message.key}: settings > inquiry');
+          }
+          if (templateMessage.contains('「以前購入した方はこちら」') && !(message.value as String).contains(arb['restorePurchase'] as String)) {
+            violations.add('${message.key}: restorePurchase');
+          }
+        }
         expect(violations, isEmpty);
       });
     });
