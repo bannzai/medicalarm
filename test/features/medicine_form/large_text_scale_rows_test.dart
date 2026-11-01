@@ -121,6 +121,8 @@ void main() {
       expect(lineTexts(tester, text: '08:00'), ['08:00']);
     });
 
+    // テスト用フォント (FlutterTest) は太字でも文字の幅が変わらないため、時刻欄の最小幅の計算が太字を反映しているかは
+    // このテストでは検出できない (反映を外しても通る)。文字を太くする設定で例外が出ず 1 行に収まることだけを確かめる
     testWidgets('文字を太くする設定でも服用スケジュールの行の時刻欄は 1 行で表示されはみ出さない', (WidgetTester tester) async {
       await _pump(
         tester,
