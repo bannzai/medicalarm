@@ -3,6 +3,9 @@ import 'package:medicalarm/entity/medicine.dart';
 import 'package:medicalarm/features/localization/l.dart';
 import 'package:medicalarm/utils/analytics/analytics.dart';
 
+/// 容量欄に入力した文字の大きさ。服用スケジュールの行は、この文字が拡大されたかで容量欄の高さを伸ばすかを決める
+const quantityMemoFontSize = 12.0;
+
 class MedicineScheduleQuantityMemoTextField extends StatelessWidget {
   final MedicationSchedule schedule;
   final ValueNotifier<List<MedicationSchedule>> schedules;
@@ -27,7 +30,7 @@ class MedicineScheduleQuantityMemoTextField extends StatelessWidget {
       onFieldSubmitted: (value) {
         analytics.logEvent(name: 'med_schedule_quantity_submitted');
       },
-      style: const TextStyle(fontSize: 12),
+      style: const TextStyle(fontSize: quantityMemoFontSize),
       decoration: InputDecoration(
         labelText: L.quantity,
         hintText: L.quantityExample,

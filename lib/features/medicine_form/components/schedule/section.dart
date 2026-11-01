@@ -14,6 +14,9 @@ const _reminderTimeToQuantityMemoGap = 10.0;
 /// 容量欄の幅の上限。既定の文字サイズでは修正前 (#474 より前) の固定幅 180 のまま表示する
 const _quantityMemoMaximumWidth = 180.0;
 
+/// 容量欄の高さの下限。既定の文字サイズでは修正前 (#489 より前) の固定の高さ 48 のまま表示する
+const _quantityMemoMinimumHeight = 48.0;
+
 class MedicineScheduleSection extends StatelessWidget {
   final ValueNotifier<List<MedicationSchedule>> schedules;
   // 編集中の既存薬。新規薬(未保存)作成時は null。個別通知設定の書き込み先分岐に使う。
@@ -45,12 +48,18 @@ class MedicineScheduleSection extends StatelessWidget {
                         ),
                         const SizedBox(width: _reminderTimeToQuantityMemoGap),
                         SizedBox(
-                          height: 48,
                           width: (constraints.maxWidth -
                                   _reminderTimeToQuantityMemoGap -
                                   medicineScheduleReminderTimeMinimumWidth(context: context, schedule: schedule))
                               .clamp(0, _quantityMemoMaximumWidth),
-                          child: MedicineScheduleQuantityMemoTextField(schedule: schedule, schedules: schedules, index: index),
+                          // 高さを固定すると、文字を拡大した時に浮いたラベルと入力した文字が収まらず重なる。
+                          // 既定以下の文字サイズでは修正前 (#489 より前) の高さのまま表示し、文字を拡大した時だけ中身に合わせて伸ばす (#489)
+                          child: ConstrainedBox(
+                            constraints: MediaQuery.textScalerOf(context).scale(quantityMemoFontSize) <= quantityMemoFontSize
+                                ? const BoxConstraints.tightFor(height: _quantityMemoMinimumHeight)
+                                : const BoxConstraints(minHeight: _quantityMemoMinimumHeight),
+                            child: MedicineScheduleQuantityMemoTextField(schedule: schedule, schedules: schedules, index: index),
+                          ),
                         ),
                       ],
                     ),
