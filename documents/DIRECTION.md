@@ -58,6 +58,7 @@ launched_at: 2025-03-04   # 公開日 (YYYY-MM-DD)。App Store の初回公開�
 | 2026-10-28 | 無人ループ | 判定基準に足す課金・獲得の指標は、dashboard の medicalarm で値が取れる MRR と直近 14 日の新規顧客数の 2 つにし、週次の承認に回した (`documents/loop/pending-proposals.md`)。D7 リテンション・paywall のファネル・DAU は dashboard に medicalarm の系列が無い (`read-dashboard-metric.sh` が `STATUS=missing`) ため提案しない | agent |
 | 2026-10-30 | 無人ループ | #387 (nightly E2E の `qa_verify_calendar` の失敗) の無人実装は、open の PR #456 (riverpod 3 への移行) のマージ後に回す。2026-10-27・10-28 に 2 回続けて再発したが、#456 は失敗しているカレンダー画面を含むアプリ全体の provider の読み方を変えるため、今の main で原因を調べると #456 のマージで前提が変わる。#456 のマージ後の nightly でも失敗が続けば、その run を根拠に #387 を無人実装に出す | agent |
 | 2026-10-31 | 無人ループ | 2026-10-30 の行の条件を満たした (#456 のマージ後の 2026-10-30 の nightly も `qa_verify_calendar` の `"日記" is visible` で失敗) ため、#387 を `tmux-issue-setup -a` で無人実装に出した。PR #406 (マージ済み) の worktree `issue-387` が残っていて着手中の判定に当たったため、削除せず `issue-387-pr406-merged` へ移し、ローカルのブランチ名も同じ名前に変えてから起動した (新しい実装が origin/main から始まるようにするため) | agent |
+| 2026-11-02 | 無人ループ | CI の `analyze` が、`ignore_for_file: provider_dependencies` を持つ `test/provider/onboarding_medication_plan_test.dart` の `provider_dependencies` 警告で 1 回落ちた (PR #485 の run https://github.com/bannzai/medicalarm/actions/runs/41242844441 の 1 回目)。同じ main の内容で前後の run は成功し、失敗した job の再実行も成功したため、間欠的な失敗として再実行で通し、PR #485 をマージした。観測は 1 回だけのため issue にしない。同じ警告で `analyze` がもう一度落ちたら、その run を根拠に issue を作って無人実装に出す | agent |
 
 ## agent に任せること
 
