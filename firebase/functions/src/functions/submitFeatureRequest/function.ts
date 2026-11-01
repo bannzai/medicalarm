@@ -33,17 +33,23 @@ function isWithinGraphemeLimit({ text, limit }: { text: string; limit: number })
 
 /** クライアントから送られてくる機能要望リクエスト。 */
 const RequestSchema = z.object({
+  /** 利用者が書いた要望の本文。空は受け付けず、上限はアプリのフォームと同じ [contentMaxLength] 文字。 */
   content: z
     .string()
     .min(1)
     .refine((content) => isWithinGraphemeLimit({ text: content, limit: contentMaxLength })),
+  /** 返信先として利用者が任意で書いたメールアドレス。未入力の空文字は未指定として扱う。 */
   emailAddress: z
     .string()
     .regex(emailAddressPattern)
     .optional()
     .or(z.literal("").transform(() => undefined)),
-  // アプリのバージョン (pubspec.yaml の version の名前部分。例: 202607.15.102935) は十数文字のため、余裕を持たせた上限にする
+  /**
+   * 送信したアプリのバージョン (pubspec.yaml の version の名前部分。例: 202607.15.102935)。
+   * 十数文字のため、余裕を持たせた 50 文字を上限にする。
+   */
   appVersion: z.string().max(50).optional(),
+  /** 送信した端末の OS。 */
   platform: z.enum(["iOS", "Android"]).optional(),
 });
 
