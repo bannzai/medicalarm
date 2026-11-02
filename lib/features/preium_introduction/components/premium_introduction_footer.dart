@@ -71,7 +71,9 @@ class PremiumIntroductionFotter extends StatelessWidget {
                       },
                   ),
                   TextSpan(
-                    text: '${L.confirmBeforeRegistration}\n',
+                    // ja は「をご確認の上…」とリンクに続けて 1 文にし、zh も文の間に空白を置かないため区切りを入れない。
+                    // それ以外の言語は独立した文のため、空白を入れないとリンクの末尾の語と次の文の先頭の語がくっつく (#498)
+                    text: '${const ['ja', 'zh'].contains(L.localeName.split('_').first) ? '' : ' '}${L.confirmBeforeRegistration}\n',
                   ),
                   TextSpan(
                     text: '・${L.autoRenewalNotice}\n',
