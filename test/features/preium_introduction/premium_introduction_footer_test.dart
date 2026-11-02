@@ -25,15 +25,16 @@ void main() {
   // issue #498: 特定商取引法のリンクと次の文が空白なしで連結される不具合の回帰テスト
   for (final languageCode in ['en', 'kn', 'gu', 'th']) {
     testWidgets('$languageCode ではリンクと次の文の間に空白が入る', (tester) async {
-      final text = await pumpFooterText(tester, languageCode: languageCode);
-      expect(text, contains('${L.specifiedCommercialTransactionAct} ${L.confirmBeforeRegistration}\n'));
+      // pumpFooterText が L を切り替えた後に contains の中の L を評価させるため、引数の左から順に評価される順序に頼る
+      expect(await pumpFooterText(tester, languageCode: languageCode),
+          contains('${L.specifiedCommercialTransactionAct} ${L.confirmBeforeRegistration}\n'));
     });
   }
 
   for (final languageCode in ['ja', 'zh']) {
     testWidgets('$languageCode ではリンクと次の文が空白なしで続く', (tester) async {
-      final text = await pumpFooterText(tester, languageCode: languageCode);
-      expect(text, contains('${L.specifiedCommercialTransactionAct}${L.confirmBeforeRegistration}\n'));
+      expect(await pumpFooterText(tester, languageCode: languageCode),
+          contains('${L.specifiedCommercialTransactionAct}${L.confirmBeforeRegistration}\n'));
     });
   }
 }
