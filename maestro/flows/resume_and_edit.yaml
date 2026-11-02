@@ -1,5 +1,5 @@
 # 一時停止した状態から、カード Switch を再度 ON にして服薬画面にテスト薬が戻ることを確認する。
-# Snackbar「薬の服用を再開しました」を検証。
+# Snackbar は tapOn の完了待ちの間に消え得るため検証に使わず、Switch の状態 (checked) と服薬画面の結果で検証する (#480)。
 # 前提の一時停止は toggle_switch.yaml を呼ばずにこのフローで作る。toggle_switch は服用中を前提に再開から始めるため、
 # 一時停止のまま呼ぶと再開→停止の 2 往復になる (#373)。
 appId: com.bannzai.medicalarm
@@ -8,7 +8,9 @@ appId: com.bannzai.medicalarm
 - tapOn:
     id: "medicine_pause_switch"
 - extendedWaitUntil:
-    visible: "薬の服用を一時停止しました"
+    visible:
+      id: "medicine_pause_switch"
+      checked: false
     timeout: 5000
 - tapOn: "戻る"
 - extendedWaitUntil:
@@ -22,7 +24,9 @@ appId: com.bannzai.medicalarm
 - tapOn:
     id: "medicine_pause_switch"
 - extendedWaitUntil:
-    visible: "薬の服用を再開しました"
+    visible:
+      id: "medicine_pause_switch"
+      checked: true
     timeout: 5000
 - tapOn: "戻る"
 - extendedWaitUntil:

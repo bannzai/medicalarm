@@ -15,8 +15,11 @@ appId: com.bannzai.medicalarm
           timeout: 15000
       - tapOn:
           id: "medicine_pause_switch"
+      # Snackbar は tapOn の完了待ちの間に消え得るため、消えない Switch の状態で再開を確かめる (#480)
       - extendedWaitUntil:
-          visible: "薬の服用を再開しました"
+          visible:
+            id: "medicine_pause_switch"
+            checked: true
           timeout: 5000
       - tapOn: "戻る"
       - extendedWaitUntil:

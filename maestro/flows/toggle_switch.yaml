@@ -1,5 +1,6 @@
 # お薬一覧カード右下の Switch を OFF にして、服薬画面からテスト薬が消えることを確認する。
-# Switch の Snackbar「薬の服用を一時停止しました」を検証。
+# Snackbar「薬の服用を一時停止しました」(表示 4 秒) は、runner が重いと tapOn の完了待ち (約 19 秒の実例) の間に消えるため検証に使わず、
+# 消えない Switch の状態 (checked) と服薬画面の結果で検証する (#480)
 appId: com.bannzai.medicalarm
 ---
 - runFlow: full_pause_feature.yaml
@@ -7,7 +8,9 @@ appId: com.bannzai.medicalarm
 - tapOn:
     id: "medicine_pause_switch"
 - extendedWaitUntil:
-    visible: "薬の服用を一時停止しました"
+    visible:
+      id: "medicine_pause_switch"
+      checked: false
     timeout: 5000
 - tapOn: "戻る"
 - extendedWaitUntil:
