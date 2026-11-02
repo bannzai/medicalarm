@@ -579,11 +579,11 @@
   "@purchaseErrorProductUnavailable": {
     "description": "商品が利用できない場合のエラーメッセージ"
   },
-  "purchaseErrorAlreadyPurchased": "すでにプランを購入済みです。この端末で購入情報を復元する場合は「以前購入した方はこちら」から購入情報を復元してくさい",
+  "purchaseErrorAlreadyPurchased": "すでにプランを購入済みです。この端末で購入情報を復元する場合は「以前購入した方はこちら」から購入情報を復元してください",
   "@purchaseErrorAlreadyPurchased": {
     "description": "すでに購入済みの場合のエラーメッセージ"
   },
-  "purchaseErrorReceiptInUse": "既に購入済み。もくは購入情報は別のユーザーで使用されています。{accountName}を確認してください",
+  "purchaseErrorReceiptInUse": "既に購入済み。もしくは購入情報は別のユーザーで使用されています。{accountName}を確認してください",
   "@purchaseErrorReceiptInUse": {
     "description": "購入情報が他のユーザーで使用されている場合のエラーメッセージ",
     "placeholders": {
@@ -649,7 +649,7 @@
       }
     }
   },
-  "purchaseErrorPaymentPending": "支払いが途中で止まっております。ログイン中の{accountName}で{storeName}をお確かめくだい",
+  "purchaseErrorPaymentPending": "支払いが途中で止まっております。ログイン中の{accountName}で{storeName}をお確かめください",
   "@purchaseErrorPaymentPending": {
     "description": "支払いが保留中の場合のエラーメッセージ",
     "placeholders": {
