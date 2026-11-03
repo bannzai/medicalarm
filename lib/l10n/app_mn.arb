@@ -240,6 +240,7 @@
   "medicineImageImportSelectableLimit": "Та дахин хамгийн ихдээ {count} эм бүртгэх боломжтой.",
   "medicineImageImportAddCount": "{count} зүйл нэмэх",
   "medicineImageImportCompletedSnackbar": "{count} эмийг бүртгэлээ",
+  "medicineImageImportTimeFallbackCaption": "Эм уух цагийг уншиж чадсангүй. Тиймээс түр цаг тохируулсан. Хадгалсны дараа өөрчилж болно.",
   "minimumDoseInterval": "Тун хоорондын зай",
   "minimumDoseIntervalDescription": "Өмнөх тунгаас хойш тун хооронд баримтлах хамгийн бага хугацаа",
   "minimumDoseIntervalNone": "Байхгүй",

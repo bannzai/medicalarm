@@ -240,6 +240,7 @@
   "medicineImageImportSelectableLimit": "Gehienez {count} sendagai gehiago erregistra ditzakezu.",
   "medicineImageImportAddCount": "Gehitu {count} elementu",
   "medicineImageImportCompletedSnackbar": "{count} sendagai erregistratu dira",
+  "medicineImageImportTimeFallbackCaption": "Ezin izan da sendagaia hartzeko ordua irakurri; behin-behineko ordua ezarri da. Gorde ondoren alda dezakezu.",
   "minimumDoseInterval": "Dosi arteko tartea",
   "minimumDoseIntervalDescription": "Aurreko dositik gutxienez igaro beharreko denbora",
   "minimumDoseIntervalNone": "Bat ere ez",

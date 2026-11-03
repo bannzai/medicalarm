@@ -240,6 +240,7 @@
   "medicineImageImportSelectableLimit": "Du kan højst tilføje {count} lægemidler mere.",
   "medicineImageImportAddCount": "Tilføj {count} elementer",
   "medicineImageImportCompletedSnackbar": "Registrerede lægemidler: {count}",
+  "medicineImageImportTimeFallbackCaption": "Tidspunktet for indtagelse kunne ikke aflæses, så der er angivet et midlertidigt tidspunkt. Du kan redigere det efter registrering.",
   "minimumDoseInterval": "Doseringsinterval",
   "minimumDoseIntervalDescription": "Minimum tid mellem doser fra sidste dosis",
   "minimumDoseIntervalNone": "Ingen",

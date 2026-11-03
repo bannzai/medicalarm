@@ -240,6 +240,7 @@
   "medicineImageImportSelectableLimit": "Можете да добавите още най-много {count} лекарства.",
   "medicineImageImportAddCount": "Добавяне на {count} елемента",
   "medicineImageImportCompletedSnackbar": "Регистрирани лекарства: {count}",
+  "medicineImageImportTimeFallbackCaption": "Часът за прием на лекарството не беше разпознат, затова е зададен временен час. Можете да го редактирате след запазване.",
   "minimumDoseInterval": "Интервал между приемите",
   "minimumDoseIntervalDescription": "Минимално време между приемите от последния прием",
   "minimumDoseIntervalNone": "Няма",

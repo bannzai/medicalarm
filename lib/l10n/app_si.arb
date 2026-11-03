@@ -240,6 +240,7 @@
   "medicineImageImportSelectableLimit": "ඔබට තවත් ලියාපදිංචි කළ හැක්කේ ඖෂධ {count}ක් දක්වා පමණි.",
   "medicineImageImportAddCount": "අයිතම {count}ක් එක් කරන්න",
   "medicineImageImportCompletedSnackbar": "ඖෂධ {count}ක් ලියාපදිංචි කර ඇත",
+  "medicineImageImportTimeFallbackCaption": "ඖෂධය ගත යුතු වේලාව කියවිය නොහැකි වූ නිසා තාවකාලික වේලාවක් සකසා ඇත. සුරැකීමෙන් පසු එය වෙනස් කළ හැක.",
   "minimumDoseInterval": "මාත්‍රා අතර පරතරය",
   "minimumDoseIntervalDescription": "පෙර මාත්‍රාවෙන් පසු මාත්‍රා අතර අවම කාලය",
   "minimumDoseIntervalNone": "නැත",

@@ -240,6 +240,7 @@
   "medicineImageImportSelectableLimit": "तुम्ही आणखी जास्तीत जास्त {count} औषधे नोंदवू शकता.",
   "medicineImageImportAddCount": "{count} आयटम जोडा",
   "medicineImageImportCompletedSnackbar": "{count} औषधे नोंदवली",
+  "medicineImageImportTimeFallbackCaption": "औषध घेण्याची वेळ वाचता आली नाही, त्यामुळे तात्पुरती वेळ सेट केली आहे. जतन केल्यानंतर ती बदलू शकता.",
   "minimumDoseInterval": "डोसांमधील अंतर",
   "minimumDoseIntervalDescription": "मागील डोसनंतर डोसांमधील किमान अंतर",
   "minimumDoseIntervalNone": "काहीही नाही",

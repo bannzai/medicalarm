@@ -240,6 +240,7 @@
   "medicineImageImportSelectableLimit": "អ្នកអាចបន្ថែមថ្នាំបានត្រឹមតែ {count} មុខទៀតប៉ុណ្ណោះ។",
   "medicineImageImportAddCount": "បន្ថែម {count} ធាតុ",
   "medicineImageImportCompletedSnackbar": "បានចុះបញ្ជីថ្នាំចំនួន {count} មុខ",
+  "medicineImageImportTimeFallbackCaption": "មិនអាចអានម៉ោងលេបថ្នាំបានទេ ដូច្នេះបានកំណត់ម៉ោងបណ្ដោះអាសន្ន។ អ្នកអាចកែប្រែវាបន្ទាប់ពីរក្សាទុក។",
   "minimumDoseInterval": "ចន្លោះពេលរវាងដូស",
   "minimumDoseIntervalDescription": "រយៈពេលអប្បបរមារវាងដូស ចាប់ពីដូសមុន",
   "minimumDoseIntervalNone": "គ្មាន",

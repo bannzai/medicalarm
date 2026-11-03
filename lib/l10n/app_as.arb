@@ -240,6 +240,7 @@
   "medicineImageImportSelectableLimit": "আপুনি আৰু সৰ্বাধিক {count}টা ঔষধ পঞ্জীয়ন কৰিব পাৰিব।",
   "medicineImageImportAddCount": "{count}টা বস্তু যোগ কৰক",
   "medicineImageImportCompletedSnackbar": "{count}টা ঔষধ পঞ্জীয়ন কৰা হৈছে",
+  "medicineImageImportTimeFallbackCaption": "ঔষধ খোৱাৰ সময় পঢ়িব নোৱাৰাৰ বাবে অস্থায়ী সময় নিৰ্ধাৰণ কৰা হৈছে। পঞ্জীয়ন কৰাৰ পিছত সলনি কৰিব পাৰিব।",
   "minimumDoseInterval": "ঔষধ সেৱনৰ ব্যৱধান",
   "minimumDoseIntervalDescription": "আগৰ পালিৰ পিছত ন্যূনতম বিৰতিৰ সময়",
   "minimumDoseIntervalNone": "নাই",

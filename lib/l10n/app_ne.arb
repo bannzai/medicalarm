@@ -240,6 +240,7 @@
   "medicineImageImportSelectableLimit": "तपाईंले थप बढीमा {count} औषधि दर्ता गर्न सक्नुहुन्छ।",
   "medicineImageImportAddCount": "{count} वस्तु थप्नुहोस्",
   "medicineImageImportCompletedSnackbar": "{count} औषधि दर्ता गरियो",
+  "medicineImageImportTimeFallbackCaption": "औषधि खाने समय पढ्न सकिएन, त्यसैले अस्थायी समय राखिएको छ। सुरक्षित गरेपछि यसलाई बदल्न सक्नुहुन्छ।",
   "minimumDoseInterval": "खुराकबीचको अन्तराल",
   "minimumDoseIntervalDescription": "अघिल्लो मात्रा लिएपछि मात्राहरूबीचको न्यूनतम समय",
   "minimumDoseIntervalNone": "छैन",

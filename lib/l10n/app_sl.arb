@@ -240,6 +240,7 @@
   "medicineImageImportSelectableLimit": "Dodate lahko še največ {count} zdravil.",
   "medicineImageImportAddCount": "Dodaj {count} elementov",
   "medicineImageImportCompletedSnackbar": "Registrirana zdravila: {count}",
+  "medicineImageImportTimeFallbackCaption": "Časa jemanja zdravila ni bilo mogoče prebrati, zato je nastavljen začasni čas. Po shranjevanju ga lahko spremenite.",
   "minimumDoseInterval": "Razmik med odmerkoma",
   "minimumDoseIntervalDescription": "Najkrajši čas med odmerkoma od prejšnjega odmerka",
   "minimumDoseIntervalNone": "Brez",

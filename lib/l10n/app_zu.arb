@@ -240,6 +240,7 @@
   "medicineImageImportSelectableLimit": "Ungabhalisa eminye imithi engafika ku-{count} kuphela.",
   "medicineImageImportAddCount": "Engeza izinto ezingu-{count}",
   "medicineImageImportCompletedSnackbar": "Kubhaliswe imithi engu-{count}",
+  "medicineImageImportTimeFallbackCaption": "Isikhathi sokuphuza umuthi asikwazekanga ukufundwa, ngakho kubekwe isikhathi sesikhashana. Ungasishintsha ngemva kokulondoloza.",
   "minimumDoseInterval": "Isikhawu phakathi kwemithamo",
   "minimumDoseIntervalDescription": "Isikhathi esincane phakathi kwemithamo kusukela emthamo odlule",
   "minimumDoseIntervalNone": "Akukho",

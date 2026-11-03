@@ -240,6 +240,7 @@
   "medicineImageImportSelectableLimit": "మీరు ఇంకా గరిష్ఠంగా {count} మందులను జోడించవచ్చు.",
   "medicineImageImportAddCount": "{count} అంశాలను జోడించండి",
   "medicineImageImportCompletedSnackbar": "{count} మందులు నమోదు చేయబడ్డాయి",
+  "medicineImageImportTimeFallbackCaption": "మందు తీసుకునే సమయాన్ని చదవలేకపోయాము, కాబట్టి తాత్కాలిక సమయం సెట్ చేయబడింది. సేవ్ చేసిన తర్వాత దాన్ని మార్చవచ్చు.",
   "minimumDoseInterval": "మోతాదుల మధ్య విరామం",
   "minimumDoseIntervalDescription": "మునుపటి మోతాదు తర్వాత మోతాదుల మధ్య కనీస సమయం",
   "minimumDoseIntervalNone": "ఏదీ లేదు",

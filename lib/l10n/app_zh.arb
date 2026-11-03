@@ -240,6 +240,7 @@
   "medicineImageImportSelectableLimit": "您最多还可以添加 {count} 种药物。",
   "medicineImageImportAddCount": "添加 {count} 项",
   "medicineImageImportCompletedSnackbar": "已登记 {count} 种药品",
+  "medicineImageImportTimeFallbackCaption": "无法识别服药时间，因此暂时设置了一个时间。保存后可以修改。",
   "minimumDoseInterval": "服药间隔",
   "minimumDoseIntervalDescription": "两次服用之间的最短间隔时间",
   "minimumDoseIntervalNone": "无",

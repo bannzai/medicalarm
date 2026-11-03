@@ -240,6 +240,7 @@
   "medicineImageImportSelectableLimit": "Можете да додате још највише {count} лекова.",
   "medicineImageImportAddCount": "Додај {count} ставки",
   "medicineImageImportCompletedSnackbar": "Регистровани лекови: {count}",
+  "medicineImageImportTimeFallbackCaption": "Време узимања лека није могло да се прочита, па је постављено привремено време. Можете га изменити након чувања.",
   "minimumDoseInterval": "Размак између доза",
   "minimumDoseIntervalDescription": "Минимални размак између доза од претходне дозе",
   "minimumDoseIntervalNone": "Нема",

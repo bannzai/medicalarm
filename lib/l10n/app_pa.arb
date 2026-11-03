@@ -240,6 +240,7 @@
   "medicineImageImportSelectableLimit": "ਤੁਸੀਂ ਹੋਰ ਵੱਧ ਤੋਂ ਵੱਧ {count} ਦਵਾਈਆਂ ਦਰਜ ਕਰ ਸਕਦੇ ਹੋ।",
   "medicineImageImportAddCount": "{count} ਆਈਟਮਾਂ ਸ਼ਾਮਲ ਕਰੋ",
   "medicineImageImportCompletedSnackbar": "{count} ਦਵਾਈਆਂ ਰਜਿਸਟਰ ਕੀਤੀਆਂ ਗਈਆਂ",
+  "medicineImageImportTimeFallbackCaption": "ਦਵਾਈ ਲੈਣ ਦਾ ਸਮਾਂ ਪੜ੍ਹਿਆ ਨਹੀਂ ਜਾ ਸਕਿਆ, ਇਸ ਲਈ ਅਸਥਾਈ ਸਮਾਂ ਸੈੱਟ ਕੀਤਾ ਗਿਆ ਹੈ। ਸੁਰੱਖਿਅਤ ਕਰਨ ਤੋਂ ਬਾਅਦ ਤੁਸੀਂ ਇਸਨੂੰ ਬਦਲ ਸਕਦੇ ਹੋ।",
   "minimumDoseInterval": "ਖੁਰਾਕਾਂ ਵਿਚਕਾਰ ਅੰਤਰਾਲ",
   "minimumDoseIntervalDescription": "ਪਿਛਲੀ ਖੁਰਾਕ ਤੋਂ ਬਾਅਦ ਖੁਰਾਕਾਂ ਵਿਚਕਾਰ ਘੱਟੋ-ਘੱਟ ਸਮਾਂ",
   "minimumDoseIntervalNone": "ਕੋਈ ਨਹੀਂ",

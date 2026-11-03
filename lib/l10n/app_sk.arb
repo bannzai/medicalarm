@@ -240,6 +240,7 @@
   "medicineImageImportSelectableLimit": "Môžete pridať ešte najviac {count} liekov.",
   "medicineImageImportAddCount": "Pridať {count} položiek",
   "medicineImageImportCompletedSnackbar": "Zaregistrované lieky: {count}",
+  "medicineImageImportTimeFallbackCaption": "Čas užitia lieku sa nepodarilo prečítať, preto bol nastavený dočasný čas. Po uložení ho môžete upraviť.",
   "minimumDoseInterval": "Interval medzi dávkami",
   "minimumDoseIntervalDescription": "Minimálny odstup medzi dávkami od poslednej dávky",
   "minimumDoseIntervalNone": "Žiadne",

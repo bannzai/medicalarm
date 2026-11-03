@@ -240,6 +240,7 @@
   "medicineImageImportSelectableLimit": "Вы можаце дадаць яшчэ не больш за {count} лекаў.",
   "medicineImageImportAddCount": "Дадаць {count} элементаў",
   "medicineImageImportCompletedSnackbar": "Зарэгістравана лекаў: {count}",
+  "medicineImageImportTimeFallbackCaption": "Не ўдалося распазнаць час прыёму лекаў, таму ўстаноўлены часовы час. Пасля захавання яго можна змяніць.",
   "minimumDoseInterval": "Інтэрвал паміж прыёмамі",
   "minimumDoseIntervalDescription": "Мінімальны інтэрвал паміж прыёмамі пасля папярэдняга прыёму",
   "minimumDoseIntervalNone": "Няма",

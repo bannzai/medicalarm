@@ -240,6 +240,7 @@
   "medicineImageImportSelectableLimit": "Vous pouvez encore ajouter jusqu’à {count} médicaments.",
   "medicineImageImportAddCount": "Ajouter {count} éléments",
   "medicineImageImportCompletedSnackbar": "{count} médicaments enregistrés",
+  "medicineImageImportTimeFallbackCaption": "L’heure de prise n’a pas pu être lue. Une heure provisoire a été définie. Vous pourrez la modifier après l’enregistrement.",
   "minimumDoseInterval": "Intervalle entre les prises",
   "minimumDoseIntervalDescription": "Délai minimum entre les prises depuis la dernière prise",
   "minimumDoseIntervalNone": "Aucun",

@@ -240,6 +240,7 @@
   "medicineImageImportSelectableLimit": "Вы можете добавить ещё не более {count} лекарств.",
   "medicineImageImportAddCount": "Добавить {count} записей",
   "medicineImageImportCompletedSnackbar": "Зарегистрировано лекарств: {count}",
+  "medicineImageImportTimeFallbackCaption": "Не удалось распознать время приёма лекарства, поэтому установлено временное время. Его можно изменить после сохранения.",
   "minimumDoseInterval": "Интервал между приёмами",
   "minimumDoseIntervalDescription": "Минимальный интервал между приёмами после предыдущей дозы",
   "minimumDoseIntervalNone": "Нет",

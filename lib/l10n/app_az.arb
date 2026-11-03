@@ -240,6 +240,7 @@
   "medicineImageImportSelectableLimit": "Daha yalnız {count} dərman qeydiyyatdan keçirə bilərsiniz.",
   "medicineImageImportAddCount": "{count} element əlavə et",
   "medicineImageImportCompletedSnackbar": "{count} dərman qeydiyyata alındı",
+  "medicineImageImportTimeFallbackCaption": "Dərman qəbulu vaxtını oxumaq mümkün olmadığından müvəqqəti vaxt təyin edilib. Qeydiyyatdan sonra onu dəyişə bilərsiniz.",
   "minimumDoseInterval": "Doza intervalı",
   "minimumDoseIntervalDescription": "Əvvəlki dozadan sonra keçməli olan minimum vaxt",
   "minimumDoseIntervalNone": "Yoxdur",

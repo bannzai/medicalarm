@@ -240,6 +240,7 @@
   "medicineImageImportSelectableLimit": "Możesz dodać jeszcze maksymalnie {count} leków.",
   "medicineImageImportAddCount": "Dodaj {count} pozycji",
   "medicineImageImportCompletedSnackbar": "Zarejestrowano leków: {count}",
+  "medicineImageImportTimeFallbackCaption": "Nie udało się odczytać godziny przyjęcia leku, dlatego ustawiono godzinę tymczasową. Możesz ją zmienić po zapisaniu.",
   "minimumDoseInterval": "Odstęp między dawkami",
   "minimumDoseIntervalDescription": "Minimalny odstęp między dawkami od poprzedniej dawki",
   "minimumDoseIntervalNone": "Brak",

@@ -240,6 +240,7 @@
   "medicineImageImportSelectableLimit": "ከዚህ በኋላ እስከ {count} መድኃኒቶችን ብቻ መመዝገብ ይችላሉ።",
   "medicineImageImportAddCount": "{count} ንጥሎችን ጨምር",
   "medicineImageImportCompletedSnackbar": "{count} መድኃኒቶች ተመዝግበዋል",
+  "medicineImageImportTimeFallbackCaption": "መድኃኒቱን የሚወስዱበትን ሰዓት ማንበብ ስላልተቻለ ጊዜያዊ ሰዓት ተቀምጧል። ከመመዝገብ በኋላ ማስተካከል ይችላሉ።",
   "minimumDoseInterval": "የመውሰጃ ክፍተት",
   "minimumDoseIntervalDescription": "ከቀደመው የመድኃኒት መውሰድ በኋላ ቢያንስ የሚቆይ ጊዜ",
   "minimumDoseIntervalNone": "የለም",

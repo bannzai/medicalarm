@@ -240,6 +240,7 @@
   "medicineImageImportSelectableLimit": "ଆପଣ ଆଉ ସର୍ବାଧିକ {count}ଟି ଔଷଧ ଯୋଡ଼ିପାରିବେ।",
   "medicineImageImportAddCount": "{count}ଟି ଆଇଟମ୍ ଯୋଡ଼ନ୍ତୁ",
   "medicineImageImportCompletedSnackbar": "{count}ଟି ଔଷଧ ପଞ୍ଜୀକୃତ ହୋଇଛି",
+  "medicineImageImportTimeFallbackCaption": "ଔଷଧ ଖାଇବା ସମୟ ପଢ଼ି ହେଲା ନାହିଁ, ତେଣୁ ଏକ ଅସ୍ଥାୟୀ ସମୟ ରଖାଯାଇଛି। ସେଭ୍ କରିବା ପରେ ଏହାକୁ ବଦଳାଇ ପାରିବେ।",
   "minimumDoseInterval": "ଔଷଧ ସେବନ ବ୍ୟବଧାନ",
   "minimumDoseIntervalDescription": "ପୂର୍ବ ଡୋଜ୍ ପରଠାରୁ ଡୋଜ୍ ମଧ୍ୟରେ ସର୍ବନିମ୍ନ ସମୟ",
   "minimumDoseIntervalNone": "ନାହିଁ",

@@ -240,6 +240,7 @@
   "medicineImageImportSelectableLimit": "Դուք կարող եք ավելացնել ևս առավելագույնը {count} դեղ։",
   "medicineImageImportAddCount": "Ավելացնել {count} տարր",
   "medicineImageImportCompletedSnackbar": "Գրանցվել է {count} դեղամիջոց",
+  "medicineImageImportTimeFallbackCaption": "Դեղի ընդունման ժամը չհաջողվեց ընթերցել, ուստի սահմանվել է ժամանակավոր ժամ։ Գրանցելուց հետո կարող եք փոխել այն։",
   "minimumDoseInterval": "Դեղաչափերի միջև ընդմիջում",
   "minimumDoseIntervalDescription": "Նախորդ դեղաչափից հետո անհրաժեշտ նվազագույն ժամանակը",
   "minimumDoseIntervalNone": "Չկա",

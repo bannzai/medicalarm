@@ -240,6 +240,7 @@
   "medicineImageImportSelectableLimit": "Gallwch gofrestru hyd at {count} meddyginiaeth arall.",
   "medicineImageImportAddCount": "Ychwanegu {count} eitem",
   "medicineImageImportCompletedSnackbar": "Cofrestrwyd {count} o feddyginiaethau",
+  "medicineImageImportTimeFallbackCaption": "Nid oedd modd darllen amser cymryd y feddyginiaeth, felly gosodwyd amser dros dro. Gallwch ei newid ar ôl cadw.",
   "minimumDoseInterval": "Cyfwng rhwng dosau",
   "minimumDoseIntervalDescription": "Yr amser lleiaf rhwng dosau ers y dos blaenorol",
   "minimumDoseIntervalNone": "Dim",

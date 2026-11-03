@@ -240,6 +240,7 @@
   "medicineImageImportSelectableLimit": "ທ່ານສາມາດເພີ່ມຢາໄດ້ອີກສູງສຸດ {count} ລາຍການ.",
   "medicineImageImportAddCount": "ເພີ່ມ {count} ລາຍການ",
   "medicineImageImportCompletedSnackbar": "ລົງທະບຽນຢາ {count} ລາຍການແລ້ວ",
+  "medicineImageImportTimeFallbackCaption": "ບໍ່ສາມາດອ່ານເວລາກິນຢາໄດ້ ຈຶ່ງກຳນົດເວລາຊົ່ວຄາວໄວ້. ທ່ານສາມາດແກ້ໄຂໄດ້ຫຼັງຈາກບັນທຶກ.",
   "minimumDoseInterval": "ໄລຍະຫ່າງລະຫວ່າງການກິນຢາ",
   "minimumDoseIntervalDescription": "ໄລຍະເວລາຂັ້ນຕ່ຳລະຫວ່າງການກິນຢາ ຫຼັງຈາກຄັ້ງກ່ອນ",
   "minimumDoseIntervalNone": "ບໍ່ມີ",

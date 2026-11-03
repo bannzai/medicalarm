@@ -240,6 +240,7 @@
   "medicineImageImportSelectableLimit": "약을 최대 {count}개 더 등록할 수 있습니다.",
   "medicineImageImportAddCount": "{count}개 추가",
   "medicineImageImportCompletedSnackbar": "약 {count}개를 등록했습니다",
+  "medicineImageImportTimeFallbackCaption": "복용 시간을 읽지 못해 임시 시간이 설정되었습니다. 등록한 뒤 수정할 수 있습니다.",
   "minimumDoseInterval": "복용 간격",
   "minimumDoseIntervalDescription": "이전 복용 후 다음 복용까지의 최소 간격",
   "minimumDoseIntervalNone": "없음",

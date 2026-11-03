@@ -240,6 +240,7 @@
   "medicineImageImportSelectableLimit": "તમે હવે વધુમાં વધુ {count} દવાઓ નોંધાવી શકો છો.",
   "medicineImageImportAddCount": "{count} આઇટમ ઉમેરો",
   "medicineImageImportCompletedSnackbar": "{count} દવાઓ નોંધવામાં આવી",
+  "medicineImageImportTimeFallbackCaption": "દવા લેવાનો સમય વાંચી શકાયો નથી, તેથી અસ્થાયી સમય સેટ કર્યો છે. નોંધણી પછી તમે તેને બદલી શકો છો.",
   "minimumDoseInterval": "દવા લેવાના અંતરાલ",
   "minimumDoseIntervalDescription": "છેલ્લો ડોઝ લીધા પછી ઓછામાં ઓછો રાખવાનો સમય",
   "minimumDoseIntervalNone": "કંઈ નથી",

@@ -240,6 +240,7 @@
   "medicineImageImportSelectableLimit": "Maaari ka pang magdagdag ng hanggang {count} gamot.",
   "medicineImageImportAddCount": "Magdagdag ng {count} item",
   "medicineImageImportCompletedSnackbar": "Nairehistro ang {count} gamot",
+  "medicineImageImportTimeFallbackCaption": "Hindi mabasa ang oras ng pag-inom ng gamot, kaya pansamantalang oras ang itinakda. Maaari mo itong baguhin pagkatapos i-save.",
   "minimumDoseInterval": "Agwat ng pag-inom",
   "minimumDoseIntervalDescription": "Minimum na pagitan ng mga dosis mula sa huling pag-inom",
   "minimumDoseIntervalNone": "Wala",

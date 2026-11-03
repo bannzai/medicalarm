@@ -240,6 +240,7 @@
   "medicineImageImportSelectableLimit": "Je kunt nog maximaal {count} medicijnen toevoegen.",
   "medicineImageImportAddCount": "{count} items toevoegen",
   "medicineImageImportCompletedSnackbar": "{count} medicijnen geregistreerd",
+  "medicineImageImportTimeFallbackCaption": "Het tijdstip van inname kon niet worden gelezen. Daarom is een voorlopig tijdstip ingesteld. Je kunt dit na het opslaan wijzigen.",
   "minimumDoseInterval": "Tussenpoos tussen doses",
   "minimumDoseIntervalDescription": "Minimale tijd tussen doses sinds de vorige dosis",
   "minimumDoseIntervalNone": "Geen",

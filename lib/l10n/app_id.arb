@@ -240,6 +240,7 @@
   "medicineImageImportSelectableLimit": "Anda hanya dapat menambahkan hingga {count} obat lagi.",
   "medicineImageImportAddCount": "Tambahkan {count} item",
   "medicineImageImportCompletedSnackbar": "{count} obat berhasil didaftarkan",
+  "medicineImageImportTimeFallbackCaption": "Waktu minum obat tidak terbaca, jadi waktu sementara telah ditetapkan. Anda dapat mengubahnya setelah menyimpan.",
   "minimumDoseInterval": "Jarak antar dosis",
   "minimumDoseIntervalDescription": "Jeda minimum antar dosis sejak dosis terakhir",
   "minimumDoseIntervalNone": "Tidak ada",

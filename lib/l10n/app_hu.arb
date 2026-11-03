@@ -240,6 +240,7 @@
   "medicineImageImportSelectableLimit": "Még legfeljebb {count} gyógyszert adhat hozzá.",
   "medicineImageImportAddCount": "{count} elem hozzáadása",
   "medicineImageImportCompletedSnackbar": "Regisztrált gyógyszerek: {count}",
+  "medicineImageImportTimeFallbackCaption": "A gyógyszer bevételének időpontját nem sikerült beolvasni, ezért ideiglenes időpont lett beállítva. Mentés után módosíthatja.",
   "minimumDoseInterval": "Adagolási időköz",
   "minimumDoseIntervalDescription": "Az előző adag óta eltelő minimális idő a következő adagig",
   "minimumDoseIntervalNone": "Nincs",

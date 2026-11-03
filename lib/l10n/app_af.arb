@@ -240,6 +240,7 @@
   "medicineImageImportSelectableLimit": "Jy kan nog net {count} medisyne registreer.",
   "medicineImageImportAddCount": "Voeg {count} items by",
   "medicineImageImportCompletedSnackbar": "{count} medisyne geregistreer",
+  "medicineImageImportTimeFallbackCaption": "Die innametyd kon nie gelees word nie. ’n Tydelike tyd is ingestel. U kan dit ná registrasie wysig.",
   "minimumDoseInterval": "Dosisinterval",
   "minimumDoseIntervalDescription": "Minimum tyd tussen dosisse sedert die vorige dosis",
   "minimumDoseIntervalNone": "Geen",
