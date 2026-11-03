@@ -7,14 +7,14 @@ set -eu
 set -o pipefail
 
 # 綴りを間違えた引数で本番のリリースが走らないよう、未知の引数は拒否する
-case "${1:-}" in
-  "") DRY_RUN=0 ;;
-  --dry-run) DRY_RUN=1 ;;
-  *)
-    echo "Usage: $0 [--dry-run]" >&2
-    exit 2
-    ;;
-esac
+if [[ $# -eq 0 ]]; then
+  DRY_RUN=0
+elif [[ $# -eq 1 && "$1" == --dry-run ]]; then
+  DRY_RUN=1
+else
+  echo "Usage: $0 [--dry-run]" >&2
+  exit 2
+fi
 
 if [[ "$DRY_RUN" == 0 ]]; then
   set -x
@@ -28,12 +28,12 @@ command -v fvm >/dev/null || {
 : "${ASC_API_KEY_ID:?ASC_API_KEY_ID が未設定です}"
 : "${ASC_API_KEY_ISSUER_ID:?ASC_API_KEY_ISSUER_ID が未設定です}"
 # 探す場所は `xcrun altool --help` の --api-key の説明のとおり
-if ! [[ -f ./private_keys/AuthKey_$ASC_API_KEY_ID.p8 ||
-  -f ~/private_keys/AuthKey_$ASC_API_KEY_ID.p8 ||
-  -f ~/.private_keys/AuthKey_$ASC_API_KEY_ID.p8 ||
-  -f ~/.appstoreconnect/private_keys/AuthKey_$ASC_API_KEY_ID.p8 ||
-  -f ${API_PRIVATE_KEYS_DIR:-./private_keys}/AuthKey_$ASC_API_KEY_ID.p8 ]]; then
-  echo "AuthKey_$ASC_API_KEY_ID.p8 が見つかりません (~/.appstoreconnect/private_keys に置く)" >&2
+if ! [[ -r ./private_keys/AuthKey_$ASC_API_KEY_ID.p8 ||
+  -r ~/private_keys/AuthKey_$ASC_API_KEY_ID.p8 ||
+  -r ~/.private_keys/AuthKey_$ASC_API_KEY_ID.p8 ||
+  -r ~/.appstoreconnect/private_keys/AuthKey_$ASC_API_KEY_ID.p8 ||
+  -r ${API_PRIVATE_KEYS_DIR:-./private_keys}/AuthKey_$ASC_API_KEY_ID.p8 ]]; then
+  echo "読み取れる AuthKey_$ASC_API_KEY_ID.p8 が見つかりません (~/.appstoreconnect/private_keys に置く)" >&2
   exit 1
 fi
 

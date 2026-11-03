@@ -86,6 +86,20 @@ run_release ASC_API_KEY_ID=FAKEKEYID ASC_API_KEY_ISSUER_ID=FAKEISSUER zsh -f scr
 assert "未知の引数は exit 2" [ "$exit_code" -eq 2 ]
 assert "未知の引数では何も実行しない" calls_are ""
 
+run_release ASC_API_KEY_ID=FAKEKEYID ASC_API_KEY_ISSUER_ID=FAKEISSUER zsh -f scripts/release.sh ""
+assert "空の引数は exit 2" [ "$exit_code" -eq 2 ]
+assert "空の引数では何も実行しない" calls_are ""
+
+run_release ASC_API_KEY_ID=FAKEKEYID ASC_API_KEY_ISSUER_ID=FAKEISSUER zsh -f scripts/release.sh --dry-run extra
+assert "余分な引数は exit 2" [ "$exit_code" -eq 2 ]
+
+unreadable_key="$work_dir/home/.appstoreconnect/private_keys/AuthKey_UNREADABLE.p8"
+touch "$unreadable_key"
+chmod 000 "$unreadable_key"
+run_release ASC_API_KEY_ID=UNREADABLE ASC_API_KEY_ISSUER_ID=FAKEISSUER zsh -f scripts/release.sh
+assert "読み取れない API key のファイルでは失敗する" [ "$exit_code" -ne 0 ]
+assert "読み取れない API key のファイルでは何も実行しない" calls_are ""
+
 run_release ASC_API_KEY_ID=FAKEKEYID ASC_API_KEY_ISSUER_ID=FAKEISSUER zsh -f scripts/release.sh
 # 偽物のコマンドの呼び出しの記録が固定文字列を含むかを返す。
 calls_have() { grep -qF -- "$1" "$calls_file"; }
