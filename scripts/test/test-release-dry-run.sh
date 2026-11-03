@@ -20,6 +20,7 @@ EOF
   chmod +x "$stub_dir/$command_name"
 done
 
+# 第 1 引数の説明で、残りの引数の判定コマンドの成否を PASS / FAIL と表示する。失敗すると failures を増やす。
 assert() {
   local description=$1
   shift
@@ -38,8 +39,11 @@ run_release() {
   output=$(env -u ASC_API_KEY_ID -u ASC_API_KEY_ISSUER_ID -u APPLE_ID -u APPLE_APP_PASSWORD -u API_PRIVATE_KEYS_DIR HOME="$work_dir/home" PATH="$stub_dir:$PATH" CALLS_FILE="$calls_file" "$@" 2>&1) || exit_code=$?
 }
 
+# release.sh の出力が固定文字列を含むかを返す。
 output_has() { grep -qF -- "$1" <<<"$output"; }
+# release.sh の出力が正規表現に一致しないかを返す。
 output_lacks() { ! grep -qE -- "$1" <<<"$output"; }
+# 偽物のコマンドの呼び出しの記録全体が引数と等しいかを返す。
 calls_are() { [ "$(cat "$calls_file")" = "$1" ]; }
 
 pubspec_before=$(cksum pubspec.yaml)
@@ -83,7 +87,9 @@ assert "未知の引数は exit 2" [ "$exit_code" -eq 2 ]
 assert "未知の引数では何も実行しない" calls_are ""
 
 run_release ASC_API_KEY_ID=FAKEKEYID ASC_API_KEY_ISSUER_ID=FAKEISSUER zsh -f scripts/release.sh
+# 偽物のコマンドの呼び出しの記録が固定文字列を含むかを返す。
 calls_have() { grep -qF -- "$1" "$calls_file"; }
+# 偽物のコマンドの呼び出しの記録が正規表現に一致しないかを返す。
 calls_lack() { ! grep -qE -- "$1" "$calls_file"; }
 assert "本番の実行は exit 0" [ "$exit_code" -eq 0 ]
 assert "本番の実行は fvm の Flutter でビルドする" calls_have "fvm flutter build ipa --release"

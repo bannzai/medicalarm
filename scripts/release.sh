@@ -79,7 +79,7 @@ run gh pr merge --merge --delete-branch
 run git fetch origin
 run git switch -d origin/main
 
-# ビルドに使う版 (.fvmrc) をログに残す。PATH の Flutter は版が保証されない
+# ビルドに使う版をログに残す。PATH の Flutter は版が保証されないため、CI の flutter-version と同じ版を .fvmrc で固定している
 run fvm flutter --version
 if [[ "$DRY_RUN" == 1 ]]; then
   print -r -- "[dry-run] .fvmrc:" $(grep '"flutter"' .fvmrc)
