@@ -235,6 +235,7 @@
   "accountLinkedSnackbar": "ანგარიში გადმოიტანეს",
   "accountLinkBannerText": "ჯგუფის გაზიარებისას გირჩევთ, აუცილებლად დააყენოთ ანგარიშის გადატანა.",
   "medicineImageImport": "წამლის დამატება სურათიდან",
+  "medicineImageImportReviewTitle": "ამოცნობილი მედიკამენტები",
   "minimumDoseInterval": "დოზებს შორის ინტერვალი",
   "minimumDoseIntervalDescription": "წინა დოზის მიღებიდან გასავლელი მინიმალური დრო",
   "minimumDoseIntervalNone": "არცერთი",

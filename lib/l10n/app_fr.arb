@@ -235,6 +235,7 @@
   "accountLinkedSnackbar": "Compte transféré",
   "accountLinkBannerText": "Lorsque vous partagez un groupe, nous vous recommandons vivement de configurer le transfert du compte.",
   "medicineImageImport": "Ajouter un médicament depuis une image",
+  "medicineImageImportReviewTitle": "Médicaments reconnus",
   "minimumDoseInterval": "Intervalle entre les prises",
   "minimumDoseIntervalDescription": "Délai minimum entre les prises depuis la dernière prise",
   "minimumDoseIntervalNone": "Aucun",

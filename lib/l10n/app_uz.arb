@@ -235,6 +235,7 @@
   "accountLinkedSnackbar": "Hisob ko‘chirildi",
   "accountLinkBannerText": "Guruhni ulashayotganingizda, hisobni ko‘chirishni sozlashni qat’iy tavsiya qilamiz.",
   "medicineImageImport": "Rasmdan dori qo‘shish",
+  "medicineImageImportReviewTitle": "Aniqlangan dorilar",
   "minimumDoseInterval": "Dozalar orasidagi interval",
   "minimumDoseIntervalDescription": "Oldingi dozadan keyin dozalar orasidagi minimal vaqt",
   "minimumDoseIntervalNone": "Yo‘q",

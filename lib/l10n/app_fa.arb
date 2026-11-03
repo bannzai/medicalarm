@@ -235,6 +235,7 @@
   "accountLinkedSnackbar": "حساب منتقل شد",
   "accountLinkBannerText": "هنگام اشتراک‌گذاری گروه، اکیداً توصیه می‌کنیم انتقال حساب را تنظیم کنید.",
   "medicineImageImport": "افزودن دارو از تصویر",
+  "medicineImageImportReviewTitle": "داروهای شناسایی‌شده",
   "minimumDoseInterval": "فاصله بین دوزها",
   "minimumDoseIntervalDescription": "حداقل فاصله زمانی بین دوزها از آخرین دوز",
   "minimumDoseIntervalNone": "هیچ‌کدام",

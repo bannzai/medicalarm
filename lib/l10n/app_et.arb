@@ -235,6 +235,7 @@
   "accountLinkedSnackbar": "Konto on üle kantud",
   "accountLinkBannerText": "Grupi jagamise ajal soovitame tungivalt seadistada konto ülekandmise.",
   "medicineImageImport": "Lisa ravim pildilt",
+  "medicineImageImportReviewTitle": "Tuvastatud ravimid",
   "minimumDoseInterval": "Annustamisintervall",
   "minimumDoseIntervalDescription": "Minimaalne aeg annuste vahel alates eelmisest annusest",
   "minimumDoseIntervalNone": "Puudub",

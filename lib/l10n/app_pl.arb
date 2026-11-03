@@ -235,6 +235,7 @@
   "accountLinkedSnackbar": "Konto zostało przeniesione",
   "accountLinkBannerText": "Podczas udostępniania grupy zdecydowanie zalecamy skonfigurowanie przenoszenia konta.",
   "medicineImageImport": "Dodaj lek ze zdjęcia",
+  "medicineImageImportReviewTitle": "Rozpoznane leki",
   "minimumDoseInterval": "Odstęp między dawkami",
   "minimumDoseIntervalDescription": "Minimalny odstęp między dawkami od poprzedniej dawki",
   "minimumDoseIntervalNone": "Brak",

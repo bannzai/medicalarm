@@ -235,6 +235,7 @@
   "accountLinkedSnackbar": "Konto overført",
   "accountLinkBannerText": "Når du deler en gruppe, anbefaler vi på det kraftigste, at du konfigurerer kontooverførsel.",
   "medicineImageImport": "Tilføj medicin fra billede",
+  "medicineImageImportReviewTitle": "Genkendt medicin",
   "minimumDoseInterval": "Doseringsinterval",
   "minimumDoseIntervalDescription": "Minimum tid mellem doser fra sidste dosis",
   "minimumDoseIntervalNone": "Ingen",

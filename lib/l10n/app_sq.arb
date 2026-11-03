@@ -235,6 +235,7 @@
   "accountLinkedSnackbar": "Llogaria u transferua",
   "accountLinkBannerText": "Gjatë ndarjes së një grupi, rekomandojmë fuqimisht të konfiguroni transferimin e llogarisë.",
   "medicineImageImport": "Shto ilaç nga imazhi",
+  "medicineImageImportReviewTitle": "Barnat e identifikuara",
   "minimumDoseInterval": "Intervali midis dozave",
   "minimumDoseIntervalDescription": "Koha minimale ndërmjet dozave nga doza e mëparshme",
   "minimumDoseIntervalNone": "Asnjë",

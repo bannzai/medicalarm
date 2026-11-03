@@ -235,6 +235,7 @@
   "accountLinkedSnackbar": "Účet byl převeden",
   "accountLinkBannerText": "Při sdílení skupiny důrazně doporučujeme nastavit převod účtu.",
   "medicineImageImport": "Přidat lék z obrázku",
+  "medicineImageImportReviewTitle": "Rozpoznané léky",
   "minimumDoseInterval": "Interval mezi dávkami",
   "minimumDoseIntervalDescription": "Minimální odstup mezi dávkami od poslední dávky",
   "minimumDoseIntervalNone": "Žádné",
