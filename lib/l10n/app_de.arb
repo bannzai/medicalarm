@@ -321,5 +321,6 @@
   "featureRequestEmailLabel": "E-Mail-Adresse (optional)",
   "featureRequestEmailFooter": "Wir verwenden sie möglicherweise, um Einzelheiten zu klären. Eine Antwort können wir nicht garantieren.",
   "featureRequestEmailInvalid": "Das Format der E-Mail-Adresse ist ungültig",
-  "featureRequestThanks": "Ihr Vorschlag wurde gesendet. Vielen Dank."
+  "featureRequestThanks": "Ihr Vorschlag wurde gesendet. Vielen Dank.",
+  "send": "Senden"
 }

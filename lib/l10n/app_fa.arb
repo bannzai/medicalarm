@@ -321,5 +321,6 @@
   "featureRequestEmailLabel": "نشانی ایمیل (اختیاری)",
   "featureRequestEmailFooter": "ممکن است برای بررسی جزئیات از آن استفاده کنیم. نمی‌توانیم پاسخ‌گویی را تضمین کنیم.",
   "featureRequestEmailInvalid": "قالب نشانی ایمیل صحیح نیست",
-  "featureRequestThanks": "پیشنهاد شما ارسال شد. سپاسگزاریم."
+  "featureRequestThanks": "پیشنهاد شما ارسال شد. سپاسگزاریم.",
+  "send": "ارسال"
 }

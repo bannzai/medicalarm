@@ -321,5 +321,6 @@
   "featureRequestEmailLabel": "E-mailová adresa (nepovinné)",
   "featureRequestEmailFooter": "Môžeme ho použiť na upresnenie podrobností. Odpoveď nemôžeme zaručiť.",
   "featureRequestEmailInvalid": "Formát e-mailovej adresy nie je správny",
-  "featureRequestThanks": "Váš návrh bol odoslaný. Ďakujeme."
+  "featureRequestThanks": "Váš návrh bol odoslaný. Ďakujeme.",
+  "send": "Odoslať"
 }

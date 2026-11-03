@@ -321,5 +321,6 @@
   "featureRequestEmailLabel": "Электрондук почта дареги (милдеттүү эмес)",
   "featureRequestEmailFooter": "Аны чоо-жайын тактоо үчүн колдонушубуз мүмкүн. Жооп берилерине кепилдик бере албайбыз.",
   "featureRequestEmailInvalid": "Электрондук почта дарегинин форматы туура эмес",
-  "featureRequestThanks": "Сунушуңуз жөнөтүлдү. Рахмат."
+  "featureRequestThanks": "Сунушуңуз жөнөтүлдү. Рахмат.",
+  "send": "Жөнөтүү"
 }

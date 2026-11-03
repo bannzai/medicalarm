@@ -321,5 +321,6 @@
   "featureRequestEmailLabel": "Địa chỉ email (không bắt buộc)",
   "featureRequestEmailFooter": "Chúng tôi có thể dùng thông tin này để xác nhận chi tiết. Chúng tôi không thể đảm bảo sẽ phản hồi.",
   "featureRequestEmailInvalid": "Định dạng địa chỉ email không hợp lệ",
-  "featureRequestThanks": "Đã gửi đề xuất của bạn. Cảm ơn."
+  "featureRequestThanks": "Đã gửi đề xuất của bạn. Cảm ơn.",
+  "send": "Gửi"
 }

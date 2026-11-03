@@ -321,5 +321,6 @@
   "featureRequestEmailLabel": "Enderezo de correo electrónico (opcional)",
   "featureRequestEmailFooter": "Podemos usalo para aclarar detalles. Non podemos garantir unha resposta.",
   "featureRequestEmailInvalid": "O formato do enderezo de correo electrónico non é válido",
-  "featureRequestThanks": "Enviouse a túa suxestión. Grazas."
+  "featureRequestThanks": "Enviouse a túa suxestión. Grazas.",
+  "send": "Enviar"
 }

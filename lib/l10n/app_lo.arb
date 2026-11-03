@@ -321,5 +321,6 @@
   "featureRequestEmailLabel": "ທີ່ຢູ່ອີເມວ (ບໍ່ບັງຄັບ)",
   "featureRequestEmailFooter": "ພວກເຮົາອາດໃຊ້ມັນເພື່ອຢືນຢັນລາຍລະອຽດ. ບໍ່ສາມາດຮັບປະກັນວ່າຈະຕອບກັບໄດ້.",
   "featureRequestEmailInvalid": "ຮູບແບບທີ່ຢູ່ອີເມວບໍ່ຖືກຕ້ອງ",
-  "featureRequestThanks": "ສົ່ງຂໍ້ສະເໜີຂອງທ່ານແລ້ວ. ຂອບໃຈ."
+  "featureRequestThanks": "ສົ່ງຂໍ້ສະເໜີຂອງທ່ານແລ້ວ. ຂອບໃຈ.",
+  "send": "ສົ່ງ"
 }

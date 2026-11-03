@@ -321,5 +321,6 @@
   "featureRequestEmailLabel": "电子邮箱地址（选填）",
   "featureRequestEmailFooter": "我们可能会用它来核实详情，但无法保证回复。",
   "featureRequestEmailInvalid": "电子邮箱地址格式不正确",
-  "featureRequestThanks": "您的建议已发送。谢谢。"
+  "featureRequestThanks": "您的建议已发送。谢谢。",
+  "send": "发送"
 }

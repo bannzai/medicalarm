@@ -321,5 +321,6 @@
   "featureRequestEmailLabel": "Էլ. փոստի հասցե (ըստ ցանկության)",
   "featureRequestEmailFooter": "Այն կարող ենք օգտագործել մանրամասները ճշտելու համար։ Պատասխան չենք կարող երաշխավորել։",
   "featureRequestEmailInvalid": "Էլփոստի հասցեի ձևաչափը սխալ է",
-  "featureRequestThanks": "Ձեր առաջարկն ուղարկվել է։ Շնորհակալություն։"
+  "featureRequestThanks": "Ձեր առաջարկն ուղարկվել է։ Շնորհակալություն։",
+  "send": "Ուղարկել"
 }

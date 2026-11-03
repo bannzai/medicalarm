@@ -321,5 +321,6 @@
   "featureRequestEmailLabel": "Адреса е-поште (необавезно)",
   "featureRequestEmailFooter": "Можемо га користити за разјашњење детаља. Не можемо да гарантујемо одговор.",
   "featureRequestEmailInvalid": "Формат адресе е-поште није исправан",
-  "featureRequestThanks": "Ваш предлог је послат. Хвала вам."
+  "featureRequestThanks": "Ваш предлог је послат. Хвала вам.",
+  "send": "Пошаљи"
 }

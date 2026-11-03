@@ -321,5 +321,6 @@
   "featureRequestEmailLabel": "عنوان البريد الإلكتروني (اختياري)",
   "featureRequestEmailFooter": "قد نستخدمه للتحقق من التفاصيل. لا يمكننا ضمان الرد.",
   "featureRequestEmailInvalid": "تنسيق عنوان البريد الإلكتروني غير صحيح",
-  "featureRequestThanks": "تم إرسال اقتراحك. شكرًا لك."
+  "featureRequestThanks": "تم إرسال اقتراحك. شكرًا لك.",
+  "send": "إرسال"
 }

@@ -321,5 +321,6 @@
   "featureRequestEmailLabel": "इमेल ठेगाना (वैकल्पिक)",
   "featureRequestEmailFooter": "विवरण पुष्टि गर्न हामी यसको प्रयोग गर्न सक्छौँ। जवाफ दिने ग्यारेन्टी गर्न सक्दैनौँ।",
   "featureRequestEmailInvalid": "इमेल ठेगानाको ढाँचा सही छैन",
-  "featureRequestThanks": "तपाईंको सुझाव पठाइएको छ। धन्यवाद।"
+  "featureRequestThanks": "तपाईंको सुझाव पठाइएको छ। धन्यवाद।",
+  "send": "पठाउनुहोस्"
 }

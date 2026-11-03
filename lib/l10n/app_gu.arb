@@ -321,5 +321,6 @@
   "featureRequestEmailLabel": "ઇમેઇલ સરનામું (વૈકલ્પિક)",
   "featureRequestEmailFooter": "વિગતોની ખાતરી કરવા અમે તેનો ઉપયોગ કરી શકીએ છીએ. જવાબ આપવાની ખાતરી આપી શકતા નથી.",
   "featureRequestEmailInvalid": "ઇમેઇલ સરનામાનું ફોર્મેટ યોગ્ય નથી",
-  "featureRequestThanks": "તમારું સૂચન મોકલવામાં આવ્યું છે. આભાર."
+  "featureRequestThanks": "તમારું સૂચન મોકલવામાં આવ્યું છે. આભાર.",
+  "send": "મોકલો"
 }

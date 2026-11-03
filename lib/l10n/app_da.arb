@@ -321,5 +321,6 @@
   "featureRequestEmailLabel": "E-mailadresse (valgfrit)",
   "featureRequestEmailFooter": "Vi kan bruge den til at afklare detaljer. Vi kan ikke garantere et svar.",
   "featureRequestEmailInvalid": "E-mailadressens format er ugyldigt",
-  "featureRequestThanks": "Dit forslag er sendt. Tak."
+  "featureRequestThanks": "Dit forslag er sendt. Tak.",
+  "send": "Send"
 }

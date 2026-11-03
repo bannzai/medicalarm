@@ -321,5 +321,6 @@
   "featureRequestEmailLabel": "Anwani ya barua pepe (si lazima)",
   "featureRequestEmailFooter": "Tunaweza kuitumia kuthibitisha maelezo. Hatuwezi kuhakikisha kuwa utapata jibu.",
   "featureRequestEmailInvalid": "Muundo wa anwani ya barua pepe si sahihi",
-  "featureRequestThanks": "Pendekezo lako limetumwa. Asante."
+  "featureRequestThanks": "Pendekezo lako limetumwa. Asante.",
+  "send": "Tuma"
 }

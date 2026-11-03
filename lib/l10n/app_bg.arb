@@ -321,5 +321,6 @@
   "featureRequestEmailLabel": "Имейл адрес (незадължително)",
   "featureRequestEmailFooter": "Може да го използваме за уточняване на подробности. Не можем да гарантираме отговор.",
   "featureRequestEmailInvalid": "Форматът на имейл адреса е невалиден",
-  "featureRequestThanks": "Предложението ви е изпратено. Благодарим ви."
+  "featureRequestThanks": "Предложението ви е изпратено. Благодарим ви.",
+  "send": "Изпрати"
 }

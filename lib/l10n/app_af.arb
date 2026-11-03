@@ -321,5 +321,6 @@
   "featureRequestEmailLabel": "E-posadres (opsioneel)",
   "featureRequestEmailFooter": "Ons kan dit gebruik om besonderhede te bevestig. Ons kan nie ’n antwoord waarborg nie.",
   "featureRequestEmailInvalid": "Die e-posadres se formaat is ongeldig",
-  "featureRequestThanks": "Jou voorstel is gestuur. Dankie."
+  "featureRequestThanks": "Jou voorstel is gestuur. Dankie.",
+  "send": "Stuur"
 }

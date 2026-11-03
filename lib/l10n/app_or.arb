@@ -321,5 +321,6 @@
   "featureRequestEmailLabel": "ଇମେଲ୍ ଠିକଣା (ଇଚ୍ଛାଧୀନ)",
   "featureRequestEmailFooter": "ବିବରଣୀ ନିଶ୍ଚିତ କରିବାକୁ ଆମେ ଏହାକୁ ବ୍ୟବହାର କରିପାରୁ। ଉତ୍ତର ଦେବାର ନିଶ୍ଚିତତା ଦେଇପାରିବୁ ନାହିଁ।",
   "featureRequestEmailInvalid": "ଇମେଲ୍ ଠିକଣାର ଫର୍ମାଟ୍ ଠିକ୍ ନୁହେଁ",
-  "featureRequestThanks": "ଆପଣଙ୍କ ପରାମର୍ଶ ପଠାଯାଇଛି। ଧନ୍ୟବାଦ।"
+  "featureRequestThanks": "ଆପଣଙ୍କ ପରାମର୍ଶ ପଠାଯାଇଛି। ଧନ୍ୟବାଦ।",
+  "send": "ପଠାନ୍ତୁ"
 }

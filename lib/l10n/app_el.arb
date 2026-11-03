@@ -321,5 +321,6 @@
   "featureRequestEmailLabel": "Διεύθυνση email (προαιρετικά)",
   "featureRequestEmailFooter": "Μπορεί να το χρησιμοποιήσουμε για να διευκρινίσουμε λεπτομέρειες. Δεν μπορούμε να εγγυηθούμε απάντηση.",
   "featureRequestEmailInvalid": "Η μορφή της διεύθυνσης email δεν είναι έγκυρη",
-  "featureRequestThanks": "Η πρότασή σας στάλθηκε. Ευχαριστούμε."
+  "featureRequestThanks": "Η πρότασή σας στάλθηκε. Ευχαριστούμε.",
+  "send": "Αποστολή"
 }

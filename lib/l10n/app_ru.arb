@@ -321,5 +321,6 @@
   "featureRequestEmailLabel": "Адрес электронной почты (необязательно)",
   "featureRequestEmailFooter": "Мы можем использовать его для уточнения деталей. Мы не можем гарантировать ответ.",
   "featureRequestEmailInvalid": "Неверный формат адреса электронной почты",
-  "featureRequestThanks": "Ваше предложение отправлено. Спасибо."
+  "featureRequestThanks": "Ваше предложение отправлено. Спасибо.",
+  "send": "Отправить"
 }

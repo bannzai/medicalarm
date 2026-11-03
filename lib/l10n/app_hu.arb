@@ -321,5 +321,6 @@
   "featureRequestEmailLabel": "E-mail-cím (nem kötelező)",
   "featureRequestEmailFooter": "Felhasználhatjuk a részletek tisztázásához. Választ nem tudunk garantálni.",
   "featureRequestEmailInvalid": "Az e-mail-cím formátuma nem megfelelő",
-  "featureRequestThanks": "Javaslatát elküldtük. Köszönjük."
+  "featureRequestThanks": "Javaslatát elküldtük. Köszönjük.",
+  "send": "Küldés"
 }

@@ -321,5 +321,6 @@
   "featureRequestEmailLabel": "ईमेल पत्ता (ऐच्छिक)",
   "featureRequestEmailFooter": "तपशीलांची खात्री करण्यासाठी आम्ही याचा वापर करू शकतो. उत्तर देण्याची हमी देऊ शकत नाही.",
   "featureRequestEmailInvalid": "ईमेल पत्त्याचा फॉरमॅट योग्य नाही",
-  "featureRequestThanks": "तुमची सूचना पाठवली आहे. धन्यवाद."
+  "featureRequestThanks": "तुमची सूचना पाठवली आहे. धन्यवाद.",
+  "send": "पाठवा"
 }

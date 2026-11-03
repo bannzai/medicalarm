@@ -321,5 +321,6 @@
   "featureRequestEmailLabel": "Адрас электроннай пошты (неабавязкова)",
   "featureRequestEmailFooter": "Мы можам выкарыстаць яго, каб удакладніць дэталі. Адказ не гарантуецца.",
   "featureRequestEmailInvalid": "Няправільны фармат адраса электроннай пошты",
-  "featureRequestThanks": "Вашу прапанову адпраўлена. Дзякуй."
+  "featureRequestThanks": "Вашу прапанову адпраўлена. Дзякуй.",
+  "send": "Адправіць"
 }

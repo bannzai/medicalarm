@@ -321,5 +321,6 @@
   "featureRequestEmailLabel": "Sähköpostiosoite (valinnainen)",
   "featureRequestEmailFooter": "Voimme käyttää sitä tietojen tarkentamiseen. Emme voi taata vastausta.",
   "featureRequestEmailInvalid": "Sähköpostiosoitteen muoto on virheellinen",
-  "featureRequestThanks": "Ehdotuksesi on lähetetty. Kiitos."
+  "featureRequestThanks": "Ehdotuksesi on lähetetty. Kiitos.",
+  "send": "Lähetä"
 }

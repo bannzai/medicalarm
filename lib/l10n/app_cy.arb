@@ -321,5 +321,6 @@
   "featureRequestEmailLabel": "Cyfeiriad e-bost (dewisol)",
   "featureRequestEmailFooter": "Mae’n bosibl y byddwn yn ei ddefnyddio i gadarnhau manylion. Ni allwn warantu ateb.",
   "featureRequestEmailInvalid": "Nid yw fformat y cyfeiriad e-bost yn ddilys",
-  "featureRequestThanks": "Mae eich awgrym wedi'i anfon. Diolch."
+  "featureRequestThanks": "Mae eich awgrym wedi'i anfon. Diolch.",
+  "send": "Anfon"
 }

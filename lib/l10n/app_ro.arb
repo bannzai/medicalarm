@@ -321,5 +321,6 @@
   "featureRequestEmailLabel": "Adresă de e-mail (opțional)",
   "featureRequestEmailFooter": "Îl putem folosi pentru a clarifica detalii. Nu putem garanta un răspuns.",
   "featureRequestEmailInvalid": "Formatul adresei de e-mail nu este valid",
-  "featureRequestThanks": "Sugestia dvs. a fost trimisă. Vă mulțumim."
+  "featureRequestThanks": "Sugestia dvs. a fost trimisă. Vă mulțumim.",
+  "send": "Trimite"
 }

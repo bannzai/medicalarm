@@ -321,5 +321,6 @@
   "featureRequestEmailLabel": "የኢሜይል አድራሻ (አማራጭ)",
   "featureRequestEmailFooter": "ዝርዝሮችን ለማረጋገጥ ልንጠቀምበት እንችላለን። ምላሽ እንደሚሰጥ ማረጋገጥ አንችልም።",
   "featureRequestEmailInvalid": "የኢሜይል አድራሻው ቅርጸት ትክክል አይደለም",
-  "featureRequestThanks": "ጥቆማዎ ተልኳል። እናመሰግናለን።"
+  "featureRequestThanks": "ጥቆማዎ ተልኳል። እናመሰግናለን።",
+  "send": "ላክ"
 }

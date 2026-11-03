@@ -321,5 +321,6 @@
   "featureRequestEmailLabel": "E-posti aadress (valikuline)",
   "featureRequestEmailFooter": "Võime seda kasutada üksikasjade täpsustamiseks. Me ei saa vastust garanteerida.",
   "featureRequestEmailInvalid": "E-posti aadressi vorming ei ole õige",
-  "featureRequestThanks": "Teie ettepanek on saadetud. Aitäh."
+  "featureRequestThanks": "Teie ettepanek on saadetud. Aitäh.",
+  "send": "Saada"
 }

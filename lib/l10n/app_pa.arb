@@ -321,5 +321,6 @@
   "featureRequestEmailLabel": "ਈਮੇਲ ਪਤਾ (ਵਿਕਲਪਿਕ)",
   "featureRequestEmailFooter": "ਵੇਰਵਿਆਂ ਦੀ ਪੁਸ਼ਟੀ ਕਰਨ ਲਈ ਅਸੀਂ ਇਸਦੀ ਵਰਤੋਂ ਕਰ ਸਕਦੇ ਹਾਂ। ਅਸੀਂ ਜਵਾਬ ਦੀ ਗਾਰੰਟੀ ਨਹੀਂ ਦੇ ਸਕਦੇ।",
   "featureRequestEmailInvalid": "ਈਮੇਲ ਪਤੇ ਦਾ ਫਾਰਮੈਟ ਸਹੀ ਨਹੀਂ ਹੈ",
-  "featureRequestThanks": "ਤੁਹਾਡਾ ਸੁਝਾਅ ਭੇਜ ਦਿੱਤਾ ਗਿਆ ਹੈ। ਧੰਨਵਾਦ।"
+  "featureRequestThanks": "ਤੁਹਾਡਾ ਸੁਝਾਅ ਭੇਜ ਦਿੱਤਾ ਗਿਆ ਹੈ। ਧੰਨਵਾਦ।",
+  "send": "ਭੇਜੋ"
 }

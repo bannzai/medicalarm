@@ -321,5 +321,6 @@
   "featureRequestEmailLabel": "ಇಮೇಲ್ ವಿಳಾಸ (ಐಚ್ಛಿಕ)",
   "featureRequestEmailFooter": "ವಿವರಗಳನ್ನು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಲು ನಾವು ಇದನ್ನು ಬಳಸಬಹುದು. ಉತ್ತರ ನೀಡುವ ಭರವಸೆ ನೀಡಲಾಗುವುದಿಲ್ಲ.",
   "featureRequestEmailInvalid": "ಇಮೇಲ್ ವಿಳಾಸದ ಸ್ವರೂಪ ಸರಿಯಾಗಿಲ್ಲ",
-  "featureRequestThanks": "ನಿಮ್ಮ ಸಲಹೆಯನ್ನು ಕಳುಹಿಸಲಾಗಿದೆ. ಧನ್ಯವಾದಗಳು."
+  "featureRequestThanks": "ನಿಮ್ಮ ಸಲಹೆಯನ್ನು ಕಳುಹಿಸಲಾಗಿದೆ. ಧನ್ಯವಾದಗಳು.",
+  "send": "ಕಳುಹಿಸಿ"
 }

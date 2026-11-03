@@ -321,5 +321,6 @@
   "featureRequestEmailLabel": "El. pašto adresas (neprivaloma)",
   "featureRequestEmailFooter": "Galime jį naudoti detalėms patikslinti. Negalime garantuoti atsakymo.",
   "featureRequestEmailInvalid": "El. pašto adreso formatas neteisingas",
-  "featureRequestThanks": "Jūsų pasiūlymas išsiųstas. Ačiū."
+  "featureRequestThanks": "Jūsų pasiūlymas išsiųstas. Ačiū.",
+  "send": "Siųsti"
 }

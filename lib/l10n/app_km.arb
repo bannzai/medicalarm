@@ -321,5 +321,6 @@
   "featureRequestEmailLabel": "អាសយដ្ឋានអ៊ីមែល (មិនតម្រូវ)",
   "featureRequestEmailFooter": "យើងអាចប្រើវាដើម្បីបញ្ជាក់ព័ត៌មានលម្អិត។ យើងមិនអាចធានាថានឹងឆ្លើយតបបានទេ។",
   "featureRequestEmailInvalid": "ទម្រង់អាសយដ្ឋានអ៊ីមែលមិនត្រឹមត្រូវទេ",
-  "featureRequestThanks": "បានផ្ញើសំណើរបស់អ្នកហើយ។ សូមអរគុណ។"
+  "featureRequestThanks": "បានផ្ញើសំណើរបស់អ្នកហើយ។ សូមអរគុណ។",
+  "send": "ផ្ញើ"
 }

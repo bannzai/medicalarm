@@ -321,5 +321,6 @@
   "featureRequestEmailLabel": "E-mailadres (optioneel)",
   "featureRequestEmailFooter": "We kunnen het gebruiken om details te verduidelijken. We kunnen een antwoord niet garanderen.",
   "featureRequestEmailInvalid": "De indeling van het e-mailadres is ongeldig",
-  "featureRequestThanks": "Je suggestie is verzonden. Bedankt."
+  "featureRequestThanks": "Je suggestie is verzonden. Bedankt.",
+  "send": "Verzenden"
 }

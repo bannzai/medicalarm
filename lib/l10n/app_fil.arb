@@ -321,5 +321,6 @@
   "featureRequestEmailLabel": "Email address (opsyonal)",
   "featureRequestEmailFooter": "Maaari namin itong gamitin para linawin ang mga detalye. Hindi namin magagarantiya ang tugon.",
   "featureRequestEmailInvalid": "Hindi wasto ang format ng email address",
-  "featureRequestThanks": "Naipadala na ang iyong mungkahi. Salamat."
+  "featureRequestThanks": "Naipadala na ang iyong mungkahi. Salamat.",
+  "send": "Ipadala"
 }

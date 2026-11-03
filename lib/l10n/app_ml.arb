@@ -321,5 +321,6 @@
   "featureRequestEmailLabel": "ഇമെയിൽ വിലാസം (നിർബന്ധമല്ല)",
   "featureRequestEmailFooter": "വിശദാംശങ്ങൾ സ്ഥിരീകരിക്കാൻ ഞങ്ങൾ ഇത് ഉപയോഗിച്ചേക്കാം. മറുപടി ഉറപ്പുനൽകാനാകില്ല.",
   "featureRequestEmailInvalid": "ഇമെയിൽ വിലാസത്തിന്റെ ഫോർമാറ്റ് ശരിയല്ല",
-  "featureRequestThanks": "നിങ്ങളുടെ നിർദേശം അയച്ചു. നന്ദി."
+  "featureRequestThanks": "നിങ്ങളുടെ നിർദേശം അയച്ചു. നന്ദി.",
+  "send": "അയയ്ക്കുക"
 }

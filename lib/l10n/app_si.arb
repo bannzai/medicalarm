@@ -321,5 +321,6 @@
   "featureRequestEmailLabel": "ඊමේල් ලිපිනය (විකල්ප)",
   "featureRequestEmailFooter": "විස්තර තහවුරු කරගැනීමට අපි එය භාවිත කළ හැකිය. පිළිතුරක් ලබා දෙන බවට සහතික විය නොහැක.",
   "featureRequestEmailInvalid": "ඊමේල් ලිපිනයේ ආකෘතිය නිවැරදි නැත",
-  "featureRequestThanks": "ඔබේ යෝජනාව යවන ලදී. ස්තුතියි."
+  "featureRequestThanks": "ඔබේ යෝජනාව යවන ලදී. ස්තුතියි.",
+  "send": "යවන්න"
 }

@@ -321,5 +321,6 @@
   "featureRequestEmailLabel": "E-Mail-Adräss (optional)",
   "featureRequestEmailFooter": "Mir chönd s bruuche, zum Detail z kläre. Mir chönd kei Antwort garantiere.",
   "featureRequestEmailInvalid": "S Format vo dr E-Mail-Adräss isch nid gültig",
-  "featureRequestThanks": "Din Vorschlag isch verschickt worde. Merci."
+  "featureRequestThanks": "Din Vorschlag isch verschickt worde. Merci.",
+  "send": "Sände"
 }

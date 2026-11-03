@@ -321,5 +321,6 @@
   "featureRequestEmailLabel": "Alamat email (opsional)",
   "featureRequestEmailFooter": "Kami dapat menggunakannya untuk mengonfirmasi detail. Kami tidak dapat menjamin balasan.",
   "featureRequestEmailInvalid": "Format alamat email tidak valid",
-  "featureRequestThanks": "Saran Anda telah dikirim. Terima kasih."
+  "featureRequestThanks": "Saran Anda telah dikirim. Terima kasih.",
+  "send": "Kirim"
 }

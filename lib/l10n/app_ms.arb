@@ -321,5 +321,6 @@
   "featureRequestEmailLabel": "Alamat e-mel (pilihan)",
   "featureRequestEmailFooter": "Kami mungkin menggunakannya untuk mengesahkan butiran. Kami tidak dapat menjamin balasan.",
   "featureRequestEmailInvalid": "Format alamat e-mel tidak sah",
-  "featureRequestThanks": "Cadangan anda telah dihantar. Terima kasih."
+  "featureRequestThanks": "Cadangan anda telah dihantar. Terima kasih.",
+  "send": "Hantar"
 }

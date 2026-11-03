@@ -321,5 +321,6 @@
   "featureRequestEmailLabel": "Indirizzo email (facoltativo)",
   "featureRequestEmailFooter": "Potremmo usarlo per chiarire alcuni dettagli. Non possiamo garantire una risposta.",
   "featureRequestEmailInvalid": "Il formato dell'indirizzo email non è valido",
-  "featureRequestThanks": "Il tuo suggerimento è stato inviato. Grazie."
+  "featureRequestThanks": "Il tuo suggerimento è stato inviato. Grazie.",
+  "send": "Invia"
 }

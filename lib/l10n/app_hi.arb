@@ -321,5 +321,6 @@
   "featureRequestEmailLabel": "ईमेल पता (वैकल्पिक)",
   "featureRequestEmailFooter": "विवरण की पुष्टि के लिए हम इसका उपयोग कर सकते हैं। हम जवाब देने की गारंटी नहीं दे सकते।",
   "featureRequestEmailInvalid": "ईमेल पते का प्रारूप सही नहीं है",
-  "featureRequestThanks": "आपका सुझाव भेज दिया गया है। धन्यवाद।"
+  "featureRequestThanks": "आपका सुझाव भेज दिया गया है। धन्यवाद।",
+  "send": "भेजें"
 }

@@ -321,5 +321,6 @@
   "featureRequestEmailLabel": "Adresa e-pošte (neobavezno)",
   "featureRequestEmailFooter": "Možemo ga koristiti za provjeru detalja. Ne možemo garantovati odgovor.",
   "featureRequestEmailInvalid": "Format adrese e-pošte nije ispravan",
-  "featureRequestThanks": "Vaš prijedlog je poslan. Hvala vam."
+  "featureRequestThanks": "Vaš prijedlog je poslan. Hvala vam.",
+  "send": "Pošalji"
 }

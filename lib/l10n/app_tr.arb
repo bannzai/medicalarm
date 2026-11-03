@@ -321,5 +321,6 @@
   "featureRequestEmailLabel": "E-posta adresi (isteğe bağlı)",
   "featureRequestEmailFooter": "Ayrıntıları netleştirmek için kullanabiliriz. Yanıt vereceğimizi garanti edemeyiz.",
   "featureRequestEmailInvalid": "E-posta adresinin biçimi geçersiz",
-  "featureRequestThanks": "Öneriniz gönderildi. Teşekkür ederiz."
+  "featureRequestThanks": "Öneriniz gönderildi. Teşekkür ederiz.",
+  "send": "Gönder"
 }

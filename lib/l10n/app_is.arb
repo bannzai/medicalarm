@@ -321,5 +321,6 @@
   "featureRequestEmailLabel": "Netfang (valfrjálst)",
   "featureRequestEmailFooter": "Við gætum notað það til að staðfesta nánari upplýsingar. Við getum ekki ábyrgst svar.",
   "featureRequestEmailInvalid": "Snið netfangsins er ógilt",
-  "featureRequestThanks": "Tillaga þín hefur verið send. Takk fyrir."
+  "featureRequestThanks": "Tillaga þín hefur verið send. Takk fyrir.",
+  "send": "Senda"
 }

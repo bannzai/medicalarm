@@ -321,5 +321,6 @@
   "featureRequestEmailLabel": "ელფოსტის მისამართი (არასავალდებულო)",
   "featureRequestEmailFooter": "შესაძლოა, დეტალების დასაზუსტებლად გამოვიყენოთ. პასუხის გაცემას ვერ დაგპირდებით.",
   "featureRequestEmailInvalid": "ელფოსტის მისამართის ფორმატი არასწორია",
-  "featureRequestThanks": "თქვენი წინადადება გაიგზავნა. გმადლობთ."
+  "featureRequestThanks": "თქვენი წინადადება გაიგზავნა. გმადლობთ.",
+  "send": "გაგზავნა"
 }

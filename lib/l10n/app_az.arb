@@ -321,5 +321,6 @@
   "featureRequestEmailLabel": "E-poçt ünvanı (istəyə bağlı)",
   "featureRequestEmailFooter": "Təfərrüatları dəqiqləşdirmək üçün ondan istifadə edə bilərik. Cavab veriləcəyinə zəmanət verə bilmirik.",
   "featureRequestEmailInvalid": "E-poçt ünvanının formatı düzgün deyil",
-  "featureRequestThanks": "Təklifiniz göndərildi. Təşəkkür edirik."
+  "featureRequestThanks": "Təklifiniz göndərildi. Təşəkkür edirik.",
+  "send": "Göndər"
 }

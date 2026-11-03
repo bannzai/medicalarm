@@ -321,5 +321,6 @@
   "featureRequestEmailLabel": "Adresa e emailit (opsionale)",
   "featureRequestEmailFooter": "Mund ta përdorim për të sqaruar hollësitë. Nuk mund të garantojmë përgjigje.",
   "featureRequestEmailInvalid": "Formati i adresës së emailit nuk është i saktë",
-  "featureRequestThanks": "Sugjerimi juaj u dërgua. Faleminderit."
+  "featureRequestThanks": "Sugjerimi juaj u dërgua. Faleminderit.",
+  "send": "Dërgo"
 }
