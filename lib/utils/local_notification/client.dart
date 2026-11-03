@@ -301,7 +301,6 @@ class RegisterReminderLocalNotification {
       );
 
       // 通知 id は日付と時刻から決まるため、服用者ごとのグループを別々に予約すると同じ時刻の通知が後から予約した方に上書きされる (#428)。
-      // 服用済みのグループは従来どおり通知に含めない
       for (final (scheduleTimeIndex, MapEntry(key: scheduleTime, value: scheduleRows)) in groupBy(
         groupedValues.where((group) => group.scheduleRows.any((row) => row.medicationHistory == null)),
         (group) => group.scheduleTime,

@@ -115,10 +115,9 @@ void main() {
       loopCount: 1,
     );
 
-    final tomorrowCalls = zonedScheduleCalls.where((call) {
-      final scheduledDateTime = DateTime.parse(call.arguments['scheduledDateTime'] as String);
-      return isSameDay(scheduledDateTime, tomorrow);
-    }).toList();
+    final tomorrowCalls = zonedScheduleCalls
+        .where((call) => isSameDay(DateTime.parse(call.arguments['scheduledDateTime'] as String), tomorrow))
+        .toList();
     expect(tomorrowCalls.length, 2);
     for (final call in tomorrowCalls) {
       expect(call.arguments['body'], allOf(isNot(contains('Mom Loxonin')), contains('User Aspirin')));
