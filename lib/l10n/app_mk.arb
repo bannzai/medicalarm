@@ -80,6 +80,7 @@
   "alarmKitNotificationDescription": "Известувањето ќе се огласи како будилник. Ќе го добиете и во тивок режим или режим на фокусирање.",
   "focusConnectBlockOtherApps": "Блокирај ги другите апликации од приемот на известувањето до евидентирањето на земањето на лекот",
   "focusConnectBlockOtherAppsDescription": "Другите апликации ќе бидат блокирани од приемот на известувањето до евидентирањето на земањето на лекот.",
+  "focusNotInstalled": "Focus не е инсталиран",
   "everyXDaysFormat": "{count} дена",
   "cycleDaysFormat": "{consecutiveDays} дена меба/ {restDays} дена одмор",
   "consecutiveDaysFormat": "{count} дена за земање",

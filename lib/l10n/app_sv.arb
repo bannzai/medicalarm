@@ -80,6 +80,7 @@
   "alarmKitNotificationDescription": "Notisen låter som en väckarklocka. Du får den även i tyst läge eller fokusläge.",
   "focusConnectBlockOtherApps": "Blockera andra appar från att aviseringen tas emot tills läkemedelsintaget har registrerats",
   "focusConnectBlockOtherAppsDescription": "Andra appar blockeras från att du får aviseringen tills du registrerar att du har tagit läkemedlet.",
+  "focusNotInstalled": "Focus är inte installerat",
   "everyXDaysFormat": "{count} dagar",
   "cycleDaysFormat": "{consecutiveDays} dagar med medicin/{restDays} dagar utan medicin",
   "consecutiveDaysFormat": "{count} dagar medicinering",

@@ -80,6 +80,7 @@
   "alarmKitNotificationDescription": "შეტყობინება მაღვიძარასავით გაიჟღერებს. მას უხმო ან ფოკუსირების რეჟიმშიც მიიღებთ.",
   "focusConnectBlockOtherApps": "სხვა აპების დაბლოკვა შეტყობინების მიღებიდან წამლის მიღების აღრიცხვამდე",
   "focusConnectBlockOtherAppsDescription": "სხვა აპები დაიბლოკება შეტყობინების მიღებიდან წამლის მიღების დაფიქსირებამდე.",
+  "focusNotInstalled": "Focus არ არის დაინსტალირებული",
   "everyXDaysFormat": "{count} დღის საფუძველზე",
   "cycleDaysFormat": "{consecutiveDays} დღის მიღება/{restDays} დღის შესვენება",
   "consecutiveDaysFormat": "{count} დღის აღების",

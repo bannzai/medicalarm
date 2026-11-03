@@ -80,6 +80,7 @@
   "alarmKitNotificationDescription": "Teavitus kõlab nagu äratuskell. Saad selle kätte ka vaikses režiimis või keskendumisrežiimis.",
   "focusConnectBlockOtherApps": "Blokeeri muud rakendused teavituse saamisest kuni ravimi võtmise registreerimiseni",
   "focusConnectBlockOtherAppsDescription": "Muud rakendused blokeeritakse alates teavituse saamisest kuni ravimi võtmise kirja panemiseni.",
+  "focusNotInstalled": "Focus pole installitud",
   "everyXDaysFormat": "{count} päeva pärast",
   "cycleDaysFormat": "{consecutiveDays} päev(a) kasutamine/{restDays} päev(a) pausi",
   "consecutiveDaysFormat": "{count} päeva võetud",

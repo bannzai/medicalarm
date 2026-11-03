@@ -80,6 +80,7 @@
   "alarmKitNotificationDescription": "ਅਲਾਰਮ ਘੜੀ ਵਾਂਗ ਸੂਚਨਾ ਵੱਜੇਗੀ। ਸਾਈਲੈਂਟ ਜਾਂ ਫੋਕਸ ਮੋਡ ਵਿੱਚ ਵੀ ਤੁਹਾਨੂੰ ਸੂਚਨਾ ਮਿਲੇਗੀ।",
   "focusConnectBlockOtherApps": "ਸੂਚਨਾ ਮਿਲਣ ਤੋਂ ਲੈ ਕੇ ਦਵਾਈ ਲੈਣ ਦਾ ਰਿਕਾਰਡ ਦਰਜ ਕਰਨ ਤੱਕ ਹੋਰ ਐਪਾਂ ਬਲੌਕ ਕਰੋ",
   "focusConnectBlockOtherAppsDescription": "ਸੂਚਨਾ ਮਿਲਣ ਤੋਂ ਲੈ ਕੇ ਦਵਾਈ ਲੈਣ ਦਾ ਰਿਕਾਰਡ ਦਰਜ ਕਰਨ ਤੱਕ ਹੋਰ ਐਪਾਂ ਬਲੌਕ ਰਹਿਣਗੀਆਂ।",
+  "focusNotInstalled": "Focus ਇੰਸਟਾਲ ਨਹੀਂ ਹੈ",
   "everyXDaysFormat": "{count} ਦਿਨਾਂ ਵਿੱਚ",
   "cycleDaysFormat": "{consecutiveDays} ਰੋਜ਼ਾਂ ਦੀ ਦਵਾਈ/{restDays} ਰੋਜ਼ਾਂ ਦੀ ਛੁੱਟੀ",
   "consecutiveDaysFormat": "{count} ਦਿਨਾਂ ਦੀ ਖੁਰਾਕ",

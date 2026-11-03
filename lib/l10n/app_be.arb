@@ -80,6 +80,7 @@
   "alarmKitNotificationDescription": "Апавяшчэнне прагучыць як будзільнік. Вы атрымаеце яго нават у бязгучным рэжыме або рэжыме канцэнтрацыі.",
   "focusConnectBlockOtherApps": "Блакіраваць іншыя праграмы ад атрымання апавяшчэння да запісу прыёму лекаў",
   "focusConnectBlockOtherAppsDescription": "Іншыя праграмы будуць заблакіраваны з моманту атрымання апавяшчэння да запісу прыёму лекаў.",
+  "focusNotInstalled": "Focus не ўсталяваны",
   "everyXDaysFormat": "{count} дзён",
   "cycleDaysFormat": "{consecutiveDays} дзён прыёму/{restDays} дзён перапынку",
   "consecutiveDaysFormat": "{count} дзён ужывання",

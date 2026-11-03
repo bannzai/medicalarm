@@ -80,6 +80,7 @@
   "alarmKitNotificationDescription": "Die Mitteilung ertönt wie ein Wecker. Du erhältst sie auch im Lautlos- oder Fokusmodus.",
   "focusConnectBlockOtherApps": "Andere Apps vom Erhalt der Mitteilung bis zur Erfassung der Medikamenteneinnahme blockieren",
   "focusConnectBlockOtherAppsDescription": "Andere Apps werden vom Eingang der Mitteilung bis zur Erfassung der Medikamenteneinnahme blockiert.",
+  "focusNotInstalled": "Focus ist nicht installiert",
   "everyXDaysFormat": "{count} Tage",
   "cycleDaysFormat": "{consecutiveDays} Tage Einnahme / {restDays} Tage Pause",
   "consecutiveDaysFormat": "{count} Tage eingenommen",

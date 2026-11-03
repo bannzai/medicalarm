@@ -80,6 +80,7 @@
   "alarmKitNotificationDescription": "Sonará una notificación como un despertador. La recibirás incluso en modo silencio o concentración.",
   "focusConnectBlockOtherApps": "Bloquear otras apps desde que llega la notificación hasta que se registra la toma del medicamento",
   "focusConnectBlockOtherAppsDescription": "Se bloquearán otras aplicaciones desde que recibas la notificación hasta que registres la toma del medicamento.",
+  "focusNotInstalled": "Focus no está instalado",
   "everyXDaysFormat": "cada {count} días",
   "cycleDaysFormat": "{consecutiveDays} días de medicación/{restDays} días de pausa",
   "consecutiveDaysFormat": "{count} días de toma",

@@ -80,6 +80,7 @@
   "alarmKitNotificationDescription": "Obavijest će se oglasiti poput budilnika. Primit ćete je i u tihom načinu rada ili načinu fokusiranja.",
   "focusConnectBlockOtherApps": "Blokiraj druge aplikacije od prijema obavještenja do bilježenja uzimanja lijeka",
   "focusConnectBlockOtherAppsDescription": "Druge aplikacije bit će blokirane od prijema obavijesti do bilježenja uzimanja lijeka.",
+  "focusNotInstalled": "Focus nije instaliran",
   "everyXDaysFormat": "{count} dana",
   "cycleDaysFormat": "{consecutiveDays} dana uzimanja/{restDays} dana pauze",
   "consecutiveDaysFormat": "{count} dana uzimanja",

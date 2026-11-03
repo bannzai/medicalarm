@@ -80,6 +80,7 @@
   "alarmKitNotificationDescription": "اطلاع الارم گھڑی کی طرح بجے گی۔ خاموش یا فوکس موڈ میں بھی آپ کو اطلاع موصول ہوگی۔",
   "focusConnectBlockOtherApps": "اطلاع موصول ہونے سے دوا لینے کا اندراج کرنے تک دوسری ایپس بلاک کریں",
   "focusConnectBlockOtherAppsDescription": "اطلاع موصول ہونے سے لے کر دوا لینے کا ریکارڈ درج کرنے تک دیگر ایپس بلاک رہیں گی۔",
+  "focusNotInstalled": "Focus انسٹال نہیں ہے",
   "everyXDaysFormat": "{count} دنوں میں",
   "cycleDaysFormat": "{consecutiveDays} دن کی دوائی/{restDays} دن کی چھٹی",
   "consecutiveDaysFormat": "{count} دن کی دوا",

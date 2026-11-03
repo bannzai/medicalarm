@@ -80,6 +80,7 @@
   "alarmKitNotificationDescription": "Arifa italia kama saa ya kuamsha. Utaipokea hata ukiwa katika hali ya kimya au hali ya umakini.",
   "focusConnectBlockOtherApps": "Zuia programu nyingine kuanzia arifa inapopokelewa hadi matumizi ya dawa yanaporekodiwa",
   "focusConnectBlockOtherAppsDescription": "Programu nyingine zitazuiwa kuanzia unapopokea arifa hadi unaporekodi kuwa umetumia dawa.",
+  "focusNotInstalled": "Focus haijasakinishwa",
   "everyXDaysFormat": "kila {count} siku",
   "cycleDaysFormat": "{consecutiveDays} siku za matumizi/{restDays} siku za kupumzika",
   "consecutiveDaysFormat": "{count} siku za kutumia",

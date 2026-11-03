@@ -80,6 +80,7 @@
   "alarmKitNotificationDescription": "Oznámenie zaznie ako budík. Dostanete ho aj v tichom režime alebo režime Sústredenie.",
   "focusConnectBlockOtherApps": "Blokovať ostatné aplikácie od prijatia upozornenia do zaznamenania užitia lieku",
   "focusConnectBlockOtherAppsDescription": "Ostatné aplikácie budú blokované od prijatia upozornenia až do zaznamenania užitia lieku.",
+  "focusNotInstalled": "Focus nie je nainštalovaný",
   "everyXDaysFormat": "{count} dní",
   "cycleDaysFormat": "{consecutiveDays} dní užívania/{restDays} dní liečebného voľna",
   "consecutiveDaysFormat": "{count} dní užívania",

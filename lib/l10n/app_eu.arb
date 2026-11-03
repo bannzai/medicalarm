@@ -80,6 +80,7 @@
   "alarmKitNotificationDescription": "Jakinarazpenak iratzargailu baten antzera joko du. Modu isilean edo kontzentrazio moduan ere jasoko duzu.",
   "focusConnectBlockOtherApps": "Blokeatu beste aplikazioak jakinarazpena jasotzen denetik sendagaia hartu dela erregistratu arte",
   "focusConnectBlockOtherAppsDescription": "Beste aplikazioak blokeatuko dira jakinarazpena jasotzen duzunetik sendagaia hartu duzula erregistratu arte.",
+  "focusNotInstalled": "Focus ez dago instalatuta",
   "everyXDaysFormat": "{count} egunero",
   "cycleDaysFormat": "{consecutiveDays} egun hartzen/{restDays} egun eten",
   "consecutiveDaysFormat": "{count} egun hartu",

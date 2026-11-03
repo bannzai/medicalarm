@@ -80,6 +80,7 @@
   "alarmKitNotificationDescription": "通知会像闹钟一样响起。即使处于静音或专注模式，也能收到通知。",
   "focusConnectBlockOtherApps": "从收到通知到记录服药期间屏蔽其他应用",
   "focusConnectBlockOtherAppsDescription": "从收到通知到记录服药，其他应用将被屏蔽。",
+  "focusNotInstalled": "未安装 Focus",
   "everyXDaysFormat": "每{count}天",
   "cycleDaysFormat": "{consecutiveDays}天服用/{restDays}天休薬",
   "consecutiveDaysFormat": "{count}天服用",

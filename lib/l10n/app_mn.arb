@@ -80,6 +80,7 @@
   "alarmKitNotificationDescription": "Мэдэгдэл сэрүүлэг шиг дуугарна. Чимээгүй эсвэл төвлөрөх горимд байсан ч мэдэгдэл ирнэ.",
   "focusConnectBlockOtherApps": "Мэдэгдэл ирснээс эм ууснаа бүртгэх хүртэл бусад аппыг хориглох",
   "focusConnectBlockOtherAppsDescription": "Мэдэгдэл хүлээн авснаас эм ууснаа бүртгэх хүртэл бусад аппыг блоклоно.",
+  "focusNotInstalled": "Focus суулгаагүй байна",
   "everyXDaysFormat": "{count} өдөр тутам",
   "cycleDaysFormat": "{consecutiveDays} хоног хэрэглэж/{restDays} хоног амар",
   "consecutiveDaysFormat": "{count} хоног",

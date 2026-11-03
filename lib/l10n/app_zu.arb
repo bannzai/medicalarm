@@ -80,6 +80,7 @@
   "alarmKitNotificationDescription": "Isaziso sizokhala njengewashi le-alamu. Uzosithola ngisho noma ifoni ikumodi yokuthula noma yokugxila.",
   "focusConnectBlockOtherApps": "Vimba ezinye izinhlelo zokusebenza kusukela kwamukelwa isaziso kuze kube yilapho kubhaliswa ukuthi umuthi uthathiwe",
   "focusConnectBlockOtherAppsDescription": "Ezinye izinhlelo zokusebenza zizovinjelwa kusukela lapho kutholwa isaziso kuze kube yilapho kubhalwa phansi ukuthi umuthi uphuziwe.",
+  "focusNotInstalled": "I-Focus ayifakiwe",
   "everyXDaysFormat": "{count} ngosuku",
   "cycleDaysFormat": "{consecutiveDays} usuku sebenzisa/{restDays} usuku ukuphumula",
   "consecutiveDaysFormat": "{count} izinsuku zokusebenzisa",

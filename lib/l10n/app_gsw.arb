@@ -80,6 +80,7 @@
   "alarmKitNotificationDescription": "D Mitteilung tönt wie en Wecker. Du bechunsch si au im Lautlos- oder Fokusmodus.",
   "focusConnectBlockOtherApps": "Anderi Apps sperre, vom Iigang vo de Benachrichtigung bis d Medikamenteiinahm erfasst isch",
   "focusConnectBlockOtherAppsDescription": "Anderi Apps werde blockiert, vo dr Benachrichtigung aa bis d Medikamenteniiinahm erfasst isch.",
+  "focusNotInstalled": "Focus isch nöd installiert",
   "everyXDaysFormat": "{count} Tag gsw",
   "cycleDaysFormat": "{consecutiveDays} Tag e nehme/{restDays} Tag Pause",
   "consecutiveDaysFormat": "{count} Tag e nimmi",

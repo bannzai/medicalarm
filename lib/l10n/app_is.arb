@@ -80,6 +80,7 @@
   "alarmKitNotificationDescription": "Tilkynningin hljómar eins og vekjaraklukka. Þú færð hana einnig í hljóðlausri stillingu eða einbeitingarstillingu.",
   "focusConnectBlockOtherApps": "Loka á önnur öpp frá því að tilkynning berst þar til lyfjataka er skráð",
   "focusConnectBlockOtherAppsDescription": "Önnur forrit verða lokuð frá því að tilkynning berst þar til lyfjainntaka er skráð.",
+  "focusNotInstalled": "Focus er ekki uppsett",
   "everyXDaysFormat": "{count} daga frekvens",
   "cycleDaysFormat": "{consecutiveDays} dagar í notkun/{restDays} daga í hvíld",
   "consecutiveDaysFormat": "{count} dagar tekið",

@@ -80,6 +80,7 @@
   "alarmKitNotificationDescription": "နှိုးစက်ကဲ့သို့ အသိပေးချက် မြည်ပါမည်။ အသံတိတ်မုဒ် သို့မဟုတ် အာရုံစိုက်မုဒ်တွင်လည်း အသိပေးချက်ကို ရရှိပါမည်။",
   "focusConnectBlockOtherApps": "အကြောင်းကြားချက်ရရှိချိန်မှ ဆေးသောက်မှုကို မှတ်တမ်းတင်ချိန်အထိ အခြားအက်ပ်များကို ပိတ်ဆို့ပါ",
   "focusConnectBlockOtherAppsDescription": "အသိပေးချက်ရရှိချိန်မှ ဆေးသောက်ပြီးကြောင်း မှတ်တမ်းတင်သည်အထိ အခြားအက်ပ်များကို ပိတ်ဆို့ထားပါမည်။",
+  "focusNotInstalled": "Focus ကို ထည့်သွင်းမထားပါ",
   "everyXDaysFormat": "{count} hari",
   "cycleDaysFormat": "{consecutiveDays} နေ့  သောက်ခြင်း/{restDays} နေ့  တားထားခြင်း",
   "consecutiveDaysFormat": "{count} hari pengambilan",
