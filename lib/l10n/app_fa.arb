@@ -81,6 +81,7 @@
   "focusConnectBlockOtherApps": "مسدود کردن برنامه‌های دیگر از زمان دریافت اعلان تا ثبت مصرف دارو",
   "focusConnectBlockOtherAppsDescription": "برنامه‌های دیگر از زمان دریافت اعلان تا ثبت مصرف دارو مسدود می‌شوند.",
   "focusNotInstalled": "Focus نصب نشده است",
+  "focusInstallMessage": "Focus را نصب کنید",
   "everyXDaysFormat": "هر {count} روز",
   "cycleDaysFormat": "{consecutiveDays} روز مصرف/{restDays} روز عدم مصرف",
   "consecutiveDaysFormat": "{count} روز مصرف",

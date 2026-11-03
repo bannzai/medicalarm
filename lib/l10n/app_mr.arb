@@ -81,6 +81,7 @@
   "focusConnectBlockOtherApps": "सूचना मिळाल्यापासून औषध घेतल्याची नोंद करेपर्यंत इतर अ‍ॅप्स ब्लॉक करा",
   "focusConnectBlockOtherAppsDescription": "सूचना मिळाल्यापासून औषध घेतल्याची नोंद करेपर्यंत इतर अॅप्स अवरोधित राहतील.",
   "focusNotInstalled": "Focus इंस्टॉल केलेले नाही",
+  "focusInstallMessage": "Focus इंस्टॉल करा",
   "everyXDaysFormat": "{count} दिवसांनी",
   "cycleDaysFormat": "{consecutiveDays} दिवस औषध घेतले/{restDays} दिवस आराम",
   "consecutiveDaysFormat": "{count} दिवसांचा वापर",

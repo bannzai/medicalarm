@@ -81,6 +81,7 @@
   "focusConnectBlockOtherApps": "నోటిఫికేషన్ అందినప్పటి నుంచి మందు తీసుకున్నట్లు నమోదు చేసే వరకు ఇతర యాప్‌లను బ్లాక్ చేయండి",
   "focusConnectBlockOtherAppsDescription": "నోటిఫికేషన్ అందుకున్నప్పటి నుండి మందు తీసుకున్నట్లు నమోదు చేసే వరకు ఇతర యాప్‌లు బ్లాక్ చేయబడతాయి.",
   "focusNotInstalled": "Focus ఇన్‌స్టాల్ చేయబడలేదు",
+  "focusInstallMessage": "Focusను ఇన్‌స్టాల్ చేయండి",
   "everyXDaysFormat": "{count}రోజుల క్రమంలో",
   "cycleDaysFormat": "{consecutiveDays} రోజులు మందు తాగే/{restDays} రోజులు మందు విరమించు",
   "consecutiveDaysFormat": "{count} రోజుల మోతాదు",

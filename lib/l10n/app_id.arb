@@ -81,6 +81,7 @@
   "focusConnectBlockOtherApps": "Blokir aplikasi lain sejak notifikasi diterima hingga konsumsi obat dicatat",
   "focusConnectBlockOtherAppsDescription": "Aplikasi lain akan diblokir sejak notifikasi diterima hingga konsumsi obat dicatat.",
   "focusNotInstalled": "Focus belum terinstal",
+  "focusInstallMessage": "Instal Focus",
   "everyXDaysFormat": "setiap {count} hari",
   "cycleDaysFormat": "{consecutiveDays} hari pemakaian/{restDays} hari berhenti",
   "consecutiveDaysFormat": "{count} hari minum",

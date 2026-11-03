@@ -81,6 +81,7 @@
   "focusConnectBlockOtherApps": "I-block ang ibang app mula sa pagtanggap ng abiso hanggang sa maitala ang pag-inom ng gamot",
   "focusConnectBlockOtherAppsDescription": "Maba-block ang ibang app mula sa pagtanggap ng notification hanggang sa maitala ang pag-inom ng gamot.",
   "focusNotInstalled": "Hindi naka-install ang Focus",
+  "focusInstallMessage": "I-install ang Focus",
   "everyXDaysFormat": "{count} araw-araw",
   "cycleDaysFormat": "{consecutiveDays} araw ng pag-inom/{restDays} araw ng pahinga",
   "consecutiveDaysFormat": "{count} araw na pag-inom",

@@ -81,6 +81,7 @@
   "focusConnectBlockOtherApps": "חסימת אפליקציות אחרות מרגע קבלת ההתראה ועד לתיעוד נטילת התרופה",
   "focusConnectBlockOtherAppsDescription": "אפליקציות אחרות ייחסמו מרגע קבלת ההתראה ועד לרישום נטילת התרופה.",
   "focusNotInstalled": "Focus אינו מותקן",
+  "focusInstallMessage": "התקינו את Focus",
   "everyXDaysFormat": "{count} ימים",
   "cycleDaysFormat": "{consecutiveDays} ימי נטילה/{restDays} ימי הפסקה",
   "consecutiveDaysFormat": "{count} ימי נטילה",

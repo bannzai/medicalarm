@@ -81,6 +81,7 @@
   "focusConnectBlockOtherApps": "জাননী পোৱাৰ পৰা ঔষধ খোৱাৰ তথ্য নথিভুক্ত কৰালৈকে আন এপসমূহ ব্লক কৰক",
   "focusConnectBlockOtherAppsDescription": "জাননী পোৱাৰ পৰা ঔষধ খোৱা বুলি নথিভুক্ত নকৰালৈকে অন্য এপসমূহ বন্ধ থাকিব।",
   "focusNotInstalled": "Focus ইনষ্টল কৰা নাই",
+  "focusInstallMessage": "Focus ইনষ্টল কৰক",
   "everyXDaysFormat": "{count} দিনৰ অন্তৰত",
   "cycleDaysFormat": "{consecutiveDays} দিন সেবন/{restDays} দিন বিরতি",
   "consecutiveDaysFormat": "{count} দিন সেবন",

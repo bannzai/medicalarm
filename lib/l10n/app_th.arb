@@ -81,6 +81,7 @@
   "focusConnectBlockOtherApps": "บล็อกแอปอื่นตั้งแต่ได้รับการแจ้งเตือนจนกว่าจะบันทึกการกินยา",
   "focusConnectBlockOtherAppsDescription": "แอปอื่นจะถูกบล็อกตั้งแต่ได้รับการแจ้งเตือนจนกว่าจะบันทึกการรับประทานยา",
   "focusNotInstalled": "ยังไม่ได้ติดตั้ง Focus",
+  "focusInstallMessage": "ติดตั้ง Focus",
   "everyXDaysFormat": "ทุก {count} วัน",
   "cycleDaysFormat": "{consecutiveDays} วันที่ใช้ยา/{restDays} วันที่พักยา",
   "consecutiveDaysFormat": "{count} วัน การใช้ยา",

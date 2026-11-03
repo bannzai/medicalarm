@@ -81,6 +81,7 @@
   "focusConnectBlockOtherApps": "Արգելափակել այլ հավելվածները ծանուցումն ստանալուց մինչև դեղի ընդունումը գրանցելը",
   "focusConnectBlockOtherAppsDescription": "Այլ հավելվածները կարգելափակվեն ծանուցումը ստանալուց մինչև դեղի ընդունումը գրանցելը։",
   "focusNotInstalled": "Focus-ը տեղադրված չէ",
+  "focusInstallMessage": "Տեղադրեք Focus-ը",
   "everyXDaysFormat": "{count} օրն մեկ",
   "cycleDaysFormat": "{consecutiveDays} օր գումարած/{restDays} օր դեղը չընդունելու",
   "consecutiveDaysFormat": "{count} օր դեղամիջոցների",

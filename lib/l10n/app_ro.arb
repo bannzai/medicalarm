@@ -81,6 +81,7 @@
   "focusConnectBlockOtherApps": "Blochează alte aplicații de la primirea notificării până la înregistrarea administrării medicamentului",
   "focusConnectBlockOtherAppsDescription": "Alte aplicații vor fi blocate de la primirea notificării până la înregistrarea administrării medicamentului.",
   "focusNotInstalled": "Focus nu este instalată",
+  "focusInstallMessage": "Instalați Focus",
   "everyXDaysFormat": "la fiecare {count} zile",
   "cycleDaysFormat": "{consecutiveDays} zile de administrare/{restDays} zile de pauză",
   "consecutiveDaysFormat": "{count} zile de utilizare",

@@ -81,6 +81,7 @@
   "focusConnectBlockOtherApps": "Blokiraj druge aplikacije od prejema obvestila do beleženja zaužitja zdravila",
   "focusConnectBlockOtherAppsDescription": "Druge aplikacije bodo blokirane od prejema obvestila do beleženja zaužitja zdravila.",
   "focusNotInstalled": "Focus ni nameščen",
+  "focusInstallMessage": "Namestite Focus",
   "everyXDaysFormat": "{count} dni",
   "cycleDaysFormat": "{consecutiveDays} dni jemanja/{restDays} dni prekinitve jemanja",
   "consecutiveDaysFormat": "{count} dni jemanja",

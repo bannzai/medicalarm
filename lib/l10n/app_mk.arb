@@ -81,6 +81,7 @@
   "focusConnectBlockOtherApps": "Блокирај ги другите апликации од приемот на известувањето до евидентирањето на земањето на лекот",
   "focusConnectBlockOtherAppsDescription": "Другите апликации ќе бидат блокирани од приемот на известувањето до евидентирањето на земањето на лекот.",
   "focusNotInstalled": "Focus не е инсталиран",
+  "focusInstallMessage": "Инсталирајте Focus",
   "everyXDaysFormat": "{count} дена",
   "cycleDaysFormat": "{consecutiveDays} дена меба/ {restDays} дена одмор",
   "consecutiveDaysFormat": "{count} дена за земање",

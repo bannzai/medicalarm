@@ -81,6 +81,7 @@
   "focusConnectBlockOtherApps": "Хабарлама келгеннен дәрі қабылдау тіркелгенге дейін басқа қолданбаларды бұғаттау",
   "focusConnectBlockOtherAppsDescription": "Хабарлама алынған сәттен бастап дәрі қабылдау тіркелгенге дейін басқа қолданбалар бұғатталады.",
   "focusNotInstalled": "Focus орнатылмаған",
+  "focusInstallMessage": "Focus қолданбасын орнатыңыз",
   "everyXDaysFormat": "{count} күн сайын",
   "cycleDaysFormat": "{consecutiveDays} күн қабылдау/{restDays} күн демалу",
   "consecutiveDaysFormat": "{count} күн қабылдау",

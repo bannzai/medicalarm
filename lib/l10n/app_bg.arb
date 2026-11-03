@@ -81,6 +81,7 @@
   "focusConnectBlockOtherApps": "Блокиране на други приложения от получаването на известието до записването на приема на лекарството",
   "focusConnectBlockOtherAppsDescription": "Другите приложения ще бъдат блокирани от получаването на известието до записването на приема на лекарството.",
   "focusNotInstalled": "Focus не е инсталирано",
+  "focusInstallMessage": "Инсталирайте Focus",
   "everyXDaysFormat": "{count} дни",
   "cycleDaysFormat": "{consecutiveDays} дни прием / {restDays} дни почивка",
   "consecutiveDaysFormat": "{count} дни на прием",

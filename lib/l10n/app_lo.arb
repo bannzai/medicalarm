@@ -81,6 +81,7 @@
   "focusConnectBlockOtherApps": "ບລັອກແອັບອື່ນຕັ້ງແຕ່ໄດ້ຮັບແຈ້ງເຕືອນຈົນກວ່າຈະບັນທຶກການກິນຢາ",
   "focusConnectBlockOtherAppsDescription": "ແອັບອື່ນຈະຖືກບລັອກຕັ້ງແຕ່ໄດ້ຮັບແຈ້ງເຕືອນຈົນກວ່າຈະບັນທຶກການກິນຢາ.",
   "focusNotInstalled": "ຍັງບໍ່ໄດ້ຕິດຕັ້ງ Focus",
+  "focusInstallMessage": "ຕິດຕັ້ງ Focus",
   "everyXDaysFormat": "{count} ວັນໃນທຸກໆ",
   "cycleDaysFormat": "{consecutiveDays} ວັນ ຮັບບິດ / {restDays} ວັນ ພັກຮັບບິດ",
   "consecutiveDaysFormat": "{count} ວັນ ສຽງດັງການໃຊ້",

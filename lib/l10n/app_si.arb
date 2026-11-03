@@ -81,6 +81,7 @@
   "focusConnectBlockOtherApps": "දැනුම්දීම ලැබුණු මොහොතේ සිට ඖෂධය ගත් බව සටහන් කරන තුරු වෙනත් යෙදුම් අවහිර කරන්න",
   "focusConnectBlockOtherAppsDescription": "දැනුම්දීම ලැබුණු මොහොතේ සිට ඖෂධය ගත් බව සටහන් කරන තෙක් වෙනත් යෙදුම් අවහිර කෙරේ.",
   "focusNotInstalled": "Focus ස්ථාපනය කර නැත",
+  "focusInstallMessage": "Focus ස්ථාපනය කරන්න",
   "everyXDaysFormat": "{count}දාකට",
   "cycleDaysFormat": "{consecutiveDays} දිනයන් திட்டය/{restDays} දින නිශ්ක්‍රිය",
   "consecutiveDaysFormat": "{count} දින පරීක්ෂණ",

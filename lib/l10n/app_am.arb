@@ -81,6 +81,7 @@
   "focusConnectBlockOtherApps": "ማሳወቂያው ከደረሰ ጀምሮ መድኃኒት መውሰዱ እስኪመዘገብ ድረስ ሌሎች መተግበሪያዎችን አግድ",
   "focusConnectBlockOtherAppsDescription": "ማሳወቂያውን ከተቀበሉበት ጊዜ ጀምሮ መድኃኒት መውሰድዎን እስኪመዘግቡ ድረስ ሌሎች መተግበሪያዎች ይታገዳሉ።",
   "focusNotInstalled": "Focus አልተጫነም",
+  "focusInstallMessage": "Focusን ይጫኑ",
   "everyXDaysFormat": "{count} ጊዜ በእለት",
   "cycleDaysFormat": "{consecutiveDays} ዕለት መውሰድ / {restDays} ዕለት ፈተን",
   "consecutiveDaysFormat": "{count} ቀን እንዲያይ",

@@ -81,6 +81,7 @@
   "focusConnectBlockOtherApps": "ಅಧಿಸೂಚನೆ ಬಂದಾಗಿನಿಂದ ಔಷಧಿ ಸೇವನೆಯನ್ನು ದಾಖಲಿಸುವವರೆಗೆ ಇತರ ಆ್ಯಪ್‌ಗಳನ್ನು ನಿರ್ಬಂಧಿಸಿ",
   "focusConnectBlockOtherAppsDescription": "ಅಧಿಸೂಚನೆ ಬಂದಾಗಿನಿಂದ ಔಷಧಿ ತೆಗೆದುಕೊಂಡಿದ್ದನ್ನು ದಾಖಲಿಸುವವರೆಗೆ ಇತರ ಆ್ಯಪ್‌ಗಳನ್ನು ನಿರ್ಬಂಧಿಸಲಾಗುತ್ತದೆ.",
   "focusNotInstalled": "Focus ಇನ್‌ಸ್ಟಾಲ್ ಆಗಿಲ್ಲ",
+  "focusInstallMessage": "Focus ಅನ್ನು ಸ್ಥಾಪಿಸಿ",
   "everyXDaysFormat": "{count} ದಿನಗಳಿಗೊಮ್ಮೆ",
   "cycleDaysFormat": "{consecutiveDays} ದಿನ ಸೇವನೆ/{restDays} ದಿನ ವಿರಾಮ",
   "consecutiveDaysFormat": "{count} ದಿನ ಸೇವನೆ",

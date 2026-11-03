@@ -81,6 +81,7 @@
   "focusConnectBlockOtherApps": "Blokovať ostatné aplikácie od prijatia upozornenia do zaznamenania užitia lieku",
   "focusConnectBlockOtherAppsDescription": "Ostatné aplikácie budú blokované od prijatia upozornenia až do zaznamenania užitia lieku.",
   "focusNotInstalled": "Focus nie je nainštalovaný",
+  "focusInstallMessage": "Nainštalujte Focus",
   "everyXDaysFormat": "{count} dní",
   "cycleDaysFormat": "{consecutiveDays} dní užívania/{restDays} dní liečebného voľna",
   "consecutiveDaysFormat": "{count} dní užívania",

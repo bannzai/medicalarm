@@ -81,6 +81,7 @@
   "focusConnectBlockOtherApps": "Blokuj inne aplikacje od otrzymania powiadomienia do zapisania przyjęcia leku",
   "focusConnectBlockOtherAppsDescription": "Inne aplikacje będą blokowane od otrzymania powiadomienia do zapisania przyjęcia leku.",
   "focusNotInstalled": "Focus nie jest zainstalowany",
+  "focusInstallMessage": "Zainstaluj Focus",
   "everyXDaysFormat": "co {count} dni",
   "cycleDaysFormat": "{consecutiveDays} dni zażycia / {restDays} dni przerwy",
   "consecutiveDaysFormat": "{count} dni przyjęcia",

@@ -81,6 +81,7 @@
   "focusConnectBlockOtherApps": "Αποκλεισμός άλλων εφαρμογών από τη λήψη της ειδοποίησης έως την καταγραφή της λήψης φαρμάκου",
   "focusConnectBlockOtherAppsDescription": "Οι άλλες εφαρμογές θα αποκλείονται από τη λήψη της ειδοποίησης μέχρι την καταγραφή της λήψης του φαρμάκου.",
   "focusNotInstalled": "Το Focus δεν είναι εγκατεστημένο",
+  "focusInstallMessage": "Εγκαταστήστε το Focus",
   "everyXDaysFormat": "{count} ημέρες",
   "cycleDaysFormat": "{consecutiveDays} ημέρες λήψης/{restDays} ημέρες παύσης",
   "consecutiveDaysFormat": "{count} ημέρες λήψης",

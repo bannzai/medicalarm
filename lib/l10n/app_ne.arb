@@ -81,6 +81,7 @@
   "focusConnectBlockOtherApps": "सूचना प्राप्त भएदेखि औषधि सेवन गरेको अभिलेख नराखेसम्म अन्य एपहरू रोक्नुहोस्",
   "focusConnectBlockOtherAppsDescription": "सूचना प्राप्त भएदेखि औषधि खाएको अभिलेख नराखेसम्म अन्य एपहरू रोक्का रहनेछन्।",
   "focusNotInstalled": "Focus इन्स्टल गरिएको छैन",
+  "focusInstallMessage": "Focus इन्स्टल गर्नुहोस्",
   "everyXDaysFormat": "{count} दिनको अन्तरमा",
   "cycleDaysFormat": "{consecutiveDays} दिनको औषधि/{restDays} दिनको विश्राम",
   "consecutiveDaysFormat": "{count} दिन सेवन",

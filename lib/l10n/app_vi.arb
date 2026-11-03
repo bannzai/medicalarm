@@ -81,6 +81,7 @@
   "focusConnectBlockOtherApps": "Chặn các ứng dụng khác từ khi nhận thông báo đến khi ghi nhận đã uống thuốc",
   "focusConnectBlockOtherAppsDescription": "Các ứng dụng khác sẽ bị chặn từ khi nhận được thông báo cho đến khi ghi lại việc uống thuốc.",
   "focusNotInstalled": "Chưa cài đặt Focus",
+  "focusInstallMessage": "Cài đặt Focus",
   "everyXDaysFormat": "{count} ngày một lần",
   "cycleDaysFormat": "{consecutiveDays} ngày uống/{restDays} ngày nghỉ thuốc",
   "consecutiveDaysFormat": "{count} ngày sử dụng",

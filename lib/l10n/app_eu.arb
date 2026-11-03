@@ -81,6 +81,7 @@
   "focusConnectBlockOtherApps": "Blokeatu beste aplikazioak jakinarazpena jasotzen denetik sendagaia hartu dela erregistratu arte",
   "focusConnectBlockOtherAppsDescription": "Beste aplikazioak blokeatuko dira jakinarazpena jasotzen duzunetik sendagaia hartu duzula erregistratu arte.",
   "focusNotInstalled": "Focus ez dago instalatuta",
+  "focusInstallMessage": "Instalatu Focus",
   "everyXDaysFormat": "{count} egunero",
   "cycleDaysFormat": "{consecutiveDays} egun hartzen/{restDays} egun eten",
   "consecutiveDaysFormat": "{count} egun hartu",

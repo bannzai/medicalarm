@@ -81,6 +81,7 @@
   "focusConnectBlockOtherApps": "বিজ্ঞপ্তি পাওয়ার পর থেকে ওষুধ খাওয়া নথিভুক্ত করা পর্যন্ত অন্য অ্যাপ ব্লক করুন",
   "focusConnectBlockOtherAppsDescription": "বিজ্ঞপ্তি পাওয়ার পর থেকে ওষুধ সেবনের তথ্য নথিভুক্ত না করা পর্যন্ত অন্য অ্যাপ বন্ধ থাকবে।",
   "focusNotInstalled": "Focus ইনস্টল করা নেই",
+  "focusInstallMessage": "Focus ইনস্টল করুন",
   "everyXDaysFormat": "{count} দিনের মধ্যে",
   "cycleDaysFormat": "{consecutiveDays} দিনের ডোজ/{restDays} দিন বিশ্রাম",
   "consecutiveDaysFormat": "{count} দিনের ঔষধ সেবন",

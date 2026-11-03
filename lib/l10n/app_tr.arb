@@ -81,6 +81,7 @@
   "focusConnectBlockOtherApps": "Bildirimin alınmasından ilaç kullanımının kaydedilmesine kadar diğer uygulamaları engelle",
   "focusConnectBlockOtherAppsDescription": "Bildirim alındığı andan ilaç alımı kaydedilene kadar diğer uygulamalar engellenecek.",
   "focusNotInstalled": "Focus yüklü değil",
+  "focusInstallMessage": "Focus'u yükleyin",
   "everyXDaysFormat": "{count} günde bir kez",
   "cycleDaysFormat": "{consecutiveDays} gün ilaç kullanımı/{restDays} gün ara",
   "consecutiveDaysFormat": "{count} gün kullanıldı",

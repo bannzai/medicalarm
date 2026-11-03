@@ -81,6 +81,7 @@
   "focusConnectBlockOtherApps": "Билдирүү келгенден дары ичүү катталганга чейин башка колдонмолорду бөгөттөө",
   "focusConnectBlockOtherAppsDescription": "Билдирүү алынгандан тартып дары ичүү катталганга чейин башка колдонмолор бөгөттөлөт.",
   "focusNotInstalled": "Focus орнотулган эмес",
+  "focusInstallMessage": "Focus колдонмосун орнотуңуз",
   "everyXDaysFormat": "{count} күнү",
   "cycleDaysFormat": "{consecutiveDays} күн кабыл алуу/{restDays} күн эс алуу",
   "consecutiveDaysFormat": "{count} күн иче",

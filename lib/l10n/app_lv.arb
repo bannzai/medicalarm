@@ -81,6 +81,7 @@
   "focusConnectBlockOtherApps": "Bloķēt citas lietotnes no paziņojuma saņemšanas līdz zāļu lietošanas reģistrēšanai",
   "focusConnectBlockOtherAppsDescription": "Citas lietotnes tiks bloķētas no paziņojuma saņemšanas līdz zāļu lietošanas reģistrēšanai.",
   "focusNotInstalled": "Focus nav instalēta",
+  "focusInstallMessage": "Instalējiet Focus",
   "everyXDaysFormat": "{count} dienu intervāls",
   "cycleDaysFormat": "{consecutiveDays} dienas lietošanas / {restDays} dienas pārtraukuma",
   "consecutiveDaysFormat": "{count} dienas lietošana",

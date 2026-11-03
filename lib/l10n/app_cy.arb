@@ -81,6 +81,7 @@
   "focusConnectBlockOtherApps": "Rhwystro apiau eraill o dderbyn yr hysbysiad nes cofnodi cymryd y feddyginiaeth",
   "focusConnectBlockOtherAppsDescription": "Bydd apiau eraill yn cael eu rhwystro o dderbyn yr hysbysiad nes cofnodi bod y feddyginiaeth wedi’i chymryd.",
   "focusNotInstalled": "Nid yw Focus wedi’i osod",
+  "focusInstallMessage": "Gosodwch Focus",
   "everyXDaysFormat": "cada {count} diwrnod",
   "cycleDaysFormat": "{consecutiveDays} diwrnod yn cymryd / {restDays} diwrnod yn seibiant",
   "consecutiveDaysFormat": "{count} diwrnod o feddiant",

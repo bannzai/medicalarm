@@ -81,6 +81,7 @@
   "focusConnectBlockOtherApps": "Bildiriş gələndən dərman qəbulu qeydə alınanadək digər tətbiqləri bloklayın",
   "focusConnectBlockOtherAppsDescription": "Bildiriş alındığı andan dərman qəbulu qeyd edilənədək digər tətbiqlər bloklanacaq.",
   "focusNotInstalled": "Focus quraşdırılmayıb",
+  "focusInstallMessage": "Focus-u quraşdırın",
   "everyXDaysFormat": "{count} gün",
   "cycleDaysFormat": "{consecutiveDays} gün istifadə/{restDays} gün istirahət",
   "consecutiveDaysFormat": "{count} gün istifadə",

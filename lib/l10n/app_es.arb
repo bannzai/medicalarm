@@ -81,6 +81,7 @@
   "focusConnectBlockOtherApps": "Bloquear otras apps desde que llega la notificación hasta que se registra la toma del medicamento",
   "focusConnectBlockOtherAppsDescription": "Se bloquearán otras aplicaciones desde que recibas la notificación hasta que registres la toma del medicamento.",
   "focusNotInstalled": "Focus no está instalado",
+  "focusInstallMessage": "Instala Focus",
   "everyXDaysFormat": "cada {count} días",
   "cycleDaysFormat": "{consecutiveDays} días de medicación/{restDays} días de pausa",
   "consecutiveDaysFormat": "{count} días de toma",

@@ -81,6 +81,7 @@
   "focusConnectBlockOtherApps": "सूचना मिलने से लेकर दवा लेने का रिकॉर्ड दर्ज करने तक अन्य ऐप्स ब्लॉक करें",
   "focusConnectBlockOtherAppsDescription": "सूचना मिलने से लेकर दवा लेने का रिकॉर्ड दर्ज करने तक अन्य ऐप्स ब्लॉक रहेंगे।",
   "focusNotInstalled": "Focus इंस्टॉल नहीं है",
+  "focusInstallMessage": "Focus इंस्टॉल करें",
   "everyXDaysFormat": "{count} दिन पर",
   "cycleDaysFormat": "{consecutiveDays} दिन सेवन/{restDays} दिन विश्राम",
   "consecutiveDaysFormat": "{count} दिन दवा",

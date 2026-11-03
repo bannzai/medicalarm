@@ -81,6 +81,7 @@
   "focusConnectBlockOtherApps": "ବିଜ୍ଞପ୍ତି ପାଇବାଠାରୁ ଔଷଧ ଖାଇବାର ତଥ୍ୟ ଲେଖାହେବା ପର୍ଯ୍ୟନ୍ତ ଅନ୍ୟ ଆପ୍‌ଗୁଡ଼ିକୁ ବ୍ଲକ୍ କରନ୍ତୁ",
   "focusConnectBlockOtherAppsDescription": "ବିଜ୍ଞପ୍ତି ମିଳିବାଠାରୁ ଔଷଧ ଖାଇଥିବା ରେକର୍ଡ କରିବା ପର୍ଯ୍ୟନ୍ତ ଅନ୍ୟ ଆପ୍‌ଗୁଡ଼ିକ ଅବରୋଧ ହୋଇରହିବ।",
   "focusNotInstalled": "Focus ଇନଷ୍ଟଲ୍ ହୋଇନାହିଁ",
+  "focusInstallMessage": "Focus ଇନଷ୍ଟଲ୍ କରନ୍ତୁ",
   "everyXDaysFormat": "{count} ଦିନ ପରେ",
   "cycleDaysFormat": "{consecutiveDays} 針日 শুভন্তি / {restDays} 針日 বিশ্রাম",
   "consecutiveDaysFormat": "{count} ଦିନ ଦୌରନ୍ତି",

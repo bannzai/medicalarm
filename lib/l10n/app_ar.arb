@@ -81,6 +81,7 @@
   "focusConnectBlockOtherApps": "حظر التطبيقات الأخرى من وصول الإشعار حتى تسجيل تناول الدواء",
   "focusConnectBlockOtherAppsDescription": "سيتم حظر التطبيقات الأخرى من وقت تلقي الإشعار حتى تسجيل تناول الدواء.",
   "focusNotInstalled": "تطبيق Focus غير مثبت",
+  "focusInstallMessage": "ثبّت Focus",
   "everyXDaysFormat": "كل {count} يوم",
   "cycleDaysFormat": "{consecutiveDays} أيام تناول الأدوية / {restDays} أيام توقف تناول الأدوية",
   "consecutiveDaysFormat": "{count} يوم المتابعة",

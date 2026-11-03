@@ -81,6 +81,7 @@
   "focusConnectBlockOtherApps": "Bloker andre apps, fra notifikationen modtages, til medicinen er registreret som taget",
   "focusConnectBlockOtherAppsDescription": "Andre apps blokeres, fra du modtager notifikationen, til du registrerer, at medicinen er taget.",
   "focusNotInstalled": "Focus er ikke installeret",
+  "focusInstallMessage": "Installer Focus",
   "everyXDaysFormat": "{count} dage",
   "cycleDaysFormat": "{consecutiveDays} dages medicin/{restDays} dages pause",
   "consecutiveDaysFormat": "{count} dages indtagelse",

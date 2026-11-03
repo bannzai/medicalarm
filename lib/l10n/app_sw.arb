@@ -81,6 +81,7 @@
   "focusConnectBlockOtherApps": "Zuia programu nyingine kuanzia arifa inapopokelewa hadi matumizi ya dawa yanaporekodiwa",
   "focusConnectBlockOtherAppsDescription": "Programu nyingine zitazuiwa kuanzia unapopokea arifa hadi unaporekodi kuwa umetumia dawa.",
   "focusNotInstalled": "Focus haijasakinishwa",
+  "focusInstallMessage": "Sakinisha Focus",
   "everyXDaysFormat": "kila {count} siku",
   "cycleDaysFormat": "{consecutiveDays} siku za matumizi/{restDays} siku za kupumzika",
   "consecutiveDaysFormat": "{count} siku za kutumia",

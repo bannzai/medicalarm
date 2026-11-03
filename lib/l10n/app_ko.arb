@@ -81,6 +81,7 @@
   "focusConnectBlockOtherApps": "알림을 받은 때부터 복용을 기록할 때까지 다른 앱 차단",
   "focusConnectBlockOtherAppsDescription": "알림을 받은 때부터 복용을 기록할 때까지 다른 앱이 차단됩니다.",
   "focusNotInstalled": "Focus가 설치되어 있지 않습니다",
+  "focusInstallMessage": "Focus를 설치하세요",
   "everyXDaysFormat": "{count}일마다",
   "cycleDaysFormat": "{consecutiveDays}일 복용/{restDays}일 휴약",
   "consecutiveDaysFormat": "{count}일 복용",

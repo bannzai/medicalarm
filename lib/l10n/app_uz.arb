@@ -81,6 +81,7 @@
   "focusConnectBlockOtherApps": "Bildirishnoma kelganidan dori qabul qilingani qayd etilguncha boshqa ilovalarni bloklash",
   "focusConnectBlockOtherAppsDescription": "Bildirishnoma olingan paytdan dori qabul qilingani qayd etilguncha boshqa ilovalar bloklanadi.",
   "focusNotInstalled": "Focus o‘rnatilmagan",
+  "focusInstallMessage": "Focus ilovasini o‘rnating",
   "everyXDaysFormat": "{count} кунда",
   "cycleDaysFormat": "{consecutiveDays} кун қабул / {restDays} кун дам олиш",
   "consecutiveDaysFormat": "{count}-kun dori",

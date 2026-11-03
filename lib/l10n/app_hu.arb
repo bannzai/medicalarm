@@ -81,6 +81,7 @@
   "focusConnectBlockOtherApps": "Más alkalmazások letiltása az értesítéstől a gyógyszer bevételének rögzítéséig",
   "focusConnectBlockOtherAppsDescription": "A többi alkalmazás az értesítés beérkezésétől a gyógyszer bevételének rögzítéséig blokkolva lesz.",
   "focusNotInstalled": "A Focus nincs telepítve",
+  "focusInstallMessage": "Telepítse a Focus alkalmazást",
   "everyXDaysFormat": "{count} naponta",
   "cycleDaysFormat": "{consecutiveDays} nap gyógyszerszedés/{restDays} nap szünet",
   "consecutiveDaysFormat": "{count} napja szedve",

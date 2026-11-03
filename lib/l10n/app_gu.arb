@@ -81,6 +81,7 @@
   "focusConnectBlockOtherApps": "સૂચના મળ્યાથી દવા લીધાનું નોંધાય ત્યાં સુધી અન્ય ઍપ બ્લૉક કરો",
   "focusConnectBlockOtherAppsDescription": "સૂચના મળ્યાથી દવા લીધી હોવાની નોંધ કરો ત્યાં સુધી અન્ય ઍપ અવરોધિત રહેશે.",
   "focusNotInstalled": "Focus ઇન્સ્ટોલ કરેલું નથી",
+  "focusInstallMessage": "Focus ઇન્સ્ટોલ કરો",
   "everyXDaysFormat": "{count} દિવસમાં એકવાર",
   "cycleDaysFormat": "{consecutiveDays} દિવસ દવા/{restDays} દિવસ વિરામ",
   "consecutiveDaysFormat": "{count} દિવસ દવા",

@@ -81,6 +81,7 @@
   "focusConnectBlockOtherApps": "Blokiraj druge aplikacije od primitka obavijesti do bilježenja uzimanja lijeka",
   "focusConnectBlockOtherAppsDescription": "Druge aplikacije bit će blokirane od primitka obavijesti do bilježenja uzimanja lijeka.",
   "focusNotInstalled": "Focus nije instaliran",
+  "focusInstallMessage": "Instalirajte Focus",
   "everyXDaysFormat": "{count} dan",
   "cycleDaysFormat": "{consecutiveDays} dana uzimanja/{restDays} dana pauze",
   "consecutiveDaysFormat": "{count} dana uzimanja",

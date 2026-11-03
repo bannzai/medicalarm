@@ -81,6 +81,7 @@
   "focusConnectBlockOtherApps": "Blokkeer ander toepassings van die kennisgewing af totdat die medikasie aangeteken is",
   "focusConnectBlockOtherAppsDescription": "Ander toepassings word geblokkeer vanaf die kennisgewing ontvang word totdat die medisyne-inname aangeteken is.",
   "focusNotInstalled": "Focus is nie geïnstalleer nie",
+  "focusInstallMessage": "Installeer Focus",
   "everyXDaysFormat": "{count} dae",
   "cycleDaysFormat": "{consecutiveDays} dae geneem/{restDays} dae rus",
   "consecutiveDaysFormat": "{count} dae ingeneem",
