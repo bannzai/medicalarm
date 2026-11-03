@@ -77,6 +77,7 @@
   "enableNotificationInSilentMode": "Получавате известие дори в режим на безшумно",
   "silentModeNotificationDescription": "Съобщенията за важни известия ще се показват на заключения екран и ще се възпроизвеждат звуци, дори когато режимът на концентрация е активен или устройството е заглушено.",
   "alarmKitNotification": "Функция за аларма",
+  "alarmKitNotificationDescription": "Известието ще прозвучи като будилник. Ще го получите дори в безшумен режим или режим на фокусиране.",
   "everyXDaysFormat": "{count} дни",
   "cycleDaysFormat": "{consecutiveDays} дни прием / {restDays} дни почивка",
   "consecutiveDaysFormat": "{count} дни на прием",

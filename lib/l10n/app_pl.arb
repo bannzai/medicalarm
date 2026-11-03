@@ -77,6 +77,7 @@
   "enableNotificationInSilentMode": "Powiadomienia w trybie cichym",
   "silentModeNotificationDescription": "Powiadomienia krytyczne będą wyświetlane na ekranie blokady, a dźwięk zostanie odtworzony, nawet gdy tryb skupienia jest włączony lub urządzenie jest w trybie cichym.",
   "alarmKitNotification": "Funkcja alarmu",
+  "alarmKitNotificationDescription": "Powiadomienie zabrzmi jak budzik. Otrzymasz je również w trybie cichym lub trybie skupienia.",
   "everyXDaysFormat": "co {count} dni",
   "cycleDaysFormat": "{consecutiveDays} dni zażycia / {restDays} dni przerwy",
   "consecutiveDaysFormat": "{count} dni przyjęcia",

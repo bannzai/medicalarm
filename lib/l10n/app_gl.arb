@@ -77,6 +77,7 @@
   "enableNotificationInSilentMode": "Notificación incluso en modo silencioso",
   "silentModeNotificationDescription": "As notificacións importantes mostrarase na pantalla de bloqueo e reprodúzase son mesmo cando o modo de concentración está activado ou o dispositivo está en modo silencioso.",
   "alarmKitNotification": "Función de alarma",
+  "alarmKitNotificationDescription": "A notificación soará coma un espertador. Recibirala mesmo no modo silencio ou concentración.",
   "everyXDaysFormat": "{count} días",
   "cycleDaysFormat": "{consecutiveDays} días de toma/{restDays} días de descanso",
   "consecutiveDaysFormat": "{count} días de toma",

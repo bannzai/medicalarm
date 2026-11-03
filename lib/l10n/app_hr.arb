@@ -77,6 +77,7 @@
   "enableNotificationInSilentMode": "Obavijesti čak i kada je telefon u tihom modu",
   "silentModeNotificationDescription": "Obavijesti o važnim obavijestima će se prikazivati na zaključanom ekranu i zvuk će se reproducirati, čak i kada je način koncentracije uključen ili kada je uređaj na tiho.",
   "alarmKitNotification": "Funkcija alarma",
+  "alarmKitNotificationDescription": "Obavijest će se oglasiti poput budilice. Primit ćete je i u tihom načinu rada ili načinu rada Fokus.",
   "everyXDaysFormat": "{count} dan",
   "cycleDaysFormat": "{consecutiveDays} dana uzimanja/{restDays} dana pauze",
   "consecutiveDaysFormat": "{count} dana uzimanja",

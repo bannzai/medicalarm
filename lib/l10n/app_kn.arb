@@ -77,6 +77,7 @@
   "enableNotificationInSilentMode": "ಸೈಲೆಂಟ್ ಮೋಡ್‌ನಲ್ಲಿಯೂ ಅಧಿಸೂಚನೆ ನೀಡಿ",
   "silentModeNotificationDescription": "ಫೋಕಸ್ ಮೋಡ್ ಆನ್ ಆಗಿದ್ದರೂ ಅಥವಾ ಸಾಧನವನ್ನು ಮ್ಯೂಟ್ ಮಾಡಿದ್ದರೂ, ಪ್ರಮುಖ ಅಧಿಸೂಚನೆಗಳು ಲಾಕ್ ಸ್ಕ್ರೀನ್‌ನಲ್ಲಿ ಕಾಣಿಸುತ್ತವೆ ಮತ್ತು ಧ್ವನಿ ಪ್ಲೇ ಆಗುತ್ತದೆ",
   "alarmKitNotification": "ಅಲಾರಂ ವೈಶಿಷ್ಟ್ಯ",
+  "alarmKitNotificationDescription": "ಅಲಾರಾಂ ಗಡಿಯಾರದಂತೆ ಅಧಿಸೂಚನೆ ಧ್ವನಿಸುತ್ತದೆ. ಸೈಲೆಂಟ್ ಅಥವಾ ಫೋಕಸ್ ಮೋಡ್‌ನಲ್ಲಿಯೂ ನಿಮಗೆ ಅಧಿಸೂಚನೆ ಬರುತ್ತದೆ.",
   "everyXDaysFormat": "{count} ದಿನಗಳಿಗೊಮ್ಮೆ",
   "cycleDaysFormat": "{consecutiveDays} ದಿನ ಸೇವನೆ/{restDays} ದಿನ ವಿರಾಮ",
   "consecutiveDaysFormat": "{count} ದಿನ ಸೇವನೆ",

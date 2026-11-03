@@ -77,6 +77,7 @@
   "enableNotificationInSilentMode": "Benachrichtigungen auch im Lautlosmodus zulassen",
   "silentModeNotificationDescription": "Wichtige Benachrichtigungen werden sowohl im Fokusmodus als auch im lautlosen Modus auf dem Sperrbildschirm angezeigt und der Sound wird abgespielt.",
   "alarmKitNotification": "Alarmfunktion",
+  "alarmKitNotificationDescription": "Die Mitteilung ertönt wie ein Wecker. Du erhältst sie auch im Lautlos- oder Fokusmodus.",
   "everyXDaysFormat": "{count} Tage",
   "cycleDaysFormat": "{consecutiveDays} Tage Einnahme / {restDays} Tage Pause",
   "consecutiveDaysFormat": "{count} Tage eingenommen",

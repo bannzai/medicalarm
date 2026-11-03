@@ -77,6 +77,7 @@
   "enableNotificationInSilentMode": "Notificare în modul silentios",
   "silentModeNotificationDescription": "Notificările importante vor fi afișate pe ecranul de blocare și se va reda sunetul, chiar dacă modul de concentrare este activat sau dispozitivul este în modul silențios.",
   "alarmKitNotification": "Funcție de alarmă",
+  "alarmKitNotificationDescription": "Notificarea va suna ca un ceas deșteptător. O vei primi și în modul silențios sau de concentrare.",
   "everyXDaysFormat": "la fiecare {count} zile",
   "cycleDaysFormat": "{consecutiveDays} zile de administrare/{restDays} zile de pauză",
   "consecutiveDaysFormat": "{count} zile de utilizare",

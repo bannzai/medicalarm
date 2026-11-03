@@ -77,6 +77,7 @@
   "enableNotificationInSilentMode": "Notifica anche in modalità silenziosa",
   "silentModeNotificationDescription": "Anche quando la modalità di concentrazione è attivata o il dispositivo è in modalità silenziosa, le notifiche importanti vengono visualizzate sullo schermo di blocco con riproduzione audio.",
   "alarmKitNotification": "Funzione sveglia",
+  "alarmKitNotificationDescription": "La notifica suonerà come una sveglia. La riceverai anche in modalità silenziosa o Full immersion.",
   "everyXDaysFormat": "ogni {count} giorni",
   "cycleDaysFormat": "{consecutiveDays} giorni di assunzione/{restDays} giorni di pausa",
   "consecutiveDaysFormat": "{count} giorni di assunzione",

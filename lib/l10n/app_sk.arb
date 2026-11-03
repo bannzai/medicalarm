@@ -77,6 +77,7 @@
   "enableNotificationInSilentMode": "Odosielanie oznámení aj v tichom režime",
   "silentModeNotificationDescription": "Hlavné upozornenia sa zobrazia na zamknutej obrazovke a zvuk sa prehrá aj v prípade, ak je zapnutý režim sústredenia alebo je zariadenie v tichom režime.",
   "alarmKitNotification": "Funkcia budíka",
+  "alarmKitNotificationDescription": "Oznámenie zaznie ako budík. Dostanete ho aj v tichom režime alebo režime Sústredenie.",
   "everyXDaysFormat": "{count} dní",
   "cycleDaysFormat": "{consecutiveDays} dní užívania/{restDays} dní liečebného voľna",
   "consecutiveDaysFormat": "{count} dní užívania",

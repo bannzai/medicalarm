@@ -77,6 +77,7 @@
   "enableNotificationInSilentMode": "خاموش وضع میں بھی اطلاع دینا",
   "silentModeNotificationDescription": "جب توجہ کا موڈ آن ہو یا ڈیوائس خاموش ہو تو بھی اہم نوٹیفکیشن لاک اسکرین پر ظاہر ہوتے ہیں اور آواز بجائے گی۔",
   "alarmKitNotification": "الارم کی خصوصیت",
+  "alarmKitNotificationDescription": "اطلاع الارم گھڑی کی طرح بجے گی۔ خاموش یا فوکس موڈ میں بھی آپ کو اطلاع موصول ہوگی۔",
   "everyXDaysFormat": "{count} دنوں میں",
   "cycleDaysFormat": "{consecutiveDays} دن کی دوائی/{restDays} دن کی چھٹی",
   "consecutiveDaysFormat": "{count} دن کی دوا",

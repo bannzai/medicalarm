@@ -77,6 +77,7 @@
   "enableNotificationInSilentMode": "Ειδοποιεί ακόμα και σε αθόρυβη λειτουργία",
   "silentModeNotificationDescription": "Ακόμη και όταν είναι ενεργοποιημένη η Λειτουργία συγκέντρωσης ή όταν η συσκευή είναι σε σίγαση, οι σημαντικές ειδοποιήσεις εμφανίζονται στην οθόνη κλειδώματος και αναπαράγεται ήχος.",
   "alarmKitNotification": "Λειτουργία ξυπνητηριού",
+  "alarmKitNotificationDescription": "Θα ηχήσει μια ειδοποίηση σαν ξυπνητήρι. Θα τη λάβετε ακόμη και στην αθόρυβη λειτουργία ή στη λειτουργία Συγκέντρωσης.",
   "everyXDaysFormat": "{count} ημέρες",
   "cycleDaysFormat": "{consecutiveDays} ημέρες λήψης/{restDays} ημέρες παύσης",
   "consecutiveDaysFormat": "{count} ημέρες λήψης",

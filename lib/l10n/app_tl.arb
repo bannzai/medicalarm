@@ -77,6 +77,7 @@
   "enableNotificationInSilentMode": "Ipaalam kahit na nasa silent mode",
   "silentModeNotificationDescription": "Kahit na naka-ON ang Focus Mode o naka-silent ang device, ang mga mahalagang notification ay ipinapakita sa lock screen at tumutunog.",
   "alarmKitNotification": "Feature ng alarm",
+  "alarmKitNotificationDescription": "Tutunog ang notification na parang alarm clock. Matatanggap mo ito kahit naka-silent o Focus mode.",
   "everyXDaysFormat": "{count} araw-araw",
   "cycleDaysFormat": "{consecutiveDays} araw na pag-inom/{restDays} araw na pahinga",
   "consecutiveDaysFormat": "{count} araw na pag-inom",

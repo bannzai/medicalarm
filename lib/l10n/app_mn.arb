@@ -77,6 +77,7 @@
   "enableNotificationInSilentMode": "Чимээгүй горимд ч мэдээлэл хүргэнэ",
   "silentModeNotificationDescription": "Анхаарлын горим включэгдсэн эсвэл төхөөрөмж дуу чимээгүй үед ч, чухал мэдэгдлүүд нь дээд талын дэлгэцэнд гарч, дуугаар тоглох болно.",
   "alarmKitNotification": "Сэрүүлгийн функц",
+  "alarmKitNotificationDescription": "Мэдэгдэл сэрүүлэг шиг дуугарна. Чимээгүй эсвэл төвлөрөх горимд байсан ч мэдэгдэл ирнэ.",
   "everyXDaysFormat": "{count} өдөр тутам",
   "cycleDaysFormat": "{consecutiveDays} хоног хэрэглэж/{restDays} хоног амар",
   "consecutiveDaysFormat": "{count} хоног",

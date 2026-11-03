@@ -77,6 +77,7 @@
   "enableNotificationInSilentMode": "மானர் மோடில் கூட அறிவிக்கிறது",
   "silentModeNotificationDescription": "கூடிய கவனிப்பை இயக்கி இருந்தாலும் அல்லது சாதனம் நள்ளிரவு நிலைக்குச் சென்றாலும், முக்கிய அறிவிப்புகள் பூட்டு திரையில் காட்டப்படுவதாகவும், சவுட் பிளே ஆகும் என்பதையும் குறிப்பிடுகிறது.",
   "alarmKitNotification": "அலாரம் வசதி",
+  "alarmKitNotificationDescription": "அலாரம் கடிகாரத்தைப் போல அறிவிப்பு ஒலிக்கும். அமைதி அல்லது கவனம் செலுத்தும் பயன்முறையிலும் அறிவிப்பைப் பெறுவீர்கள்.",
   "everyXDaysFormat": "{count} நாளுக்கு ஒருமுறை",
   "cycleDaysFormat": "{consecutiveDays} நாட்கள் மருந்து/{restDays} நாட்கள் விடுப்பு",
   "consecutiveDaysFormat": "{count} நாட்கள் எடுத்துக் கொண்டது",

@@ -77,6 +77,7 @@
   "enableNotificationInSilentMode": "Уведомлять в беззвучном режиме",
   "silentModeNotificationDescription": "重大ные уведомления будут отображаться на экране блокировки и звуки будут воспроизведены даже при включенном режиме концентрации или если устройство находится в беззвучном режиме.",
   "alarmKitNotification": "Функция будильника",
+  "alarmKitNotificationDescription": "Уведомление прозвучит как будильник. Вы получите его даже в беззвучном режиме или режиме фокусирования.",
   "everyXDaysFormat": "{count} дней",
   "cycleDaysFormat": "{consecutiveDays} дней приема/{restDays} дней перерыва",
   "consecutiveDaysFormat": "{count} дней приема",

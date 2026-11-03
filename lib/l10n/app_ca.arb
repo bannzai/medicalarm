@@ -77,6 +77,7 @@
   "enableNotificationInSilentMode": "Notificació en mode silenci",
   "silentModeNotificationDescription": "Les notificacions importants es mostraran a la pantalla de bloqueig, fins i tot si el mode de concentració està activat o el dispositiu està silenciat.",
   "alarmKitNotification": "Funció d’alarma",
+  "alarmKitNotificationDescription": "Sonarà una notificació com si fos un despertador. També la rebràs en mode silenci o concentració.",
   "everyXDaysFormat": "{count} dies",
   "cycleDaysFormat": "{consecutiveDays} dies de presa/{restDays} dies de pausa",
   "consecutiveDaysFormat": "{count} dies de presa",

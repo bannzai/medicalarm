@@ -77,6 +77,7 @@
   "enableNotificationInSilentMode": "മാനർ മോഡിലും അറിയിപ്പ് നൽകുക",
   "silentModeNotificationDescription": "കേന്ദ്രിത മോഡ് ON ആണെങ്കിൽ അല്ലെങ്കിൽ ഉപകരണം ശ്വാസകോശത്തിലായിരിക്കുമ്പോഴും, പ്രധാന അറിയിപ്പുകൾ ലോക്ക് സ്ക്രീനിൽ കാഴ്ചവെക്കപ്പെടും ശബ്ദം പ്ലേഡ് ചെയ്യപ്പെടും.",
   "alarmKitNotification": "അലാറം സൗകര്യം",
+  "alarmKitNotificationDescription": "അലാറം ക്ലോക്ക് പോലെ അറിയിപ്പ് ശബ്ദിക്കും. സൈലന്റ് അല്ലെങ്കിൽ ഫോക്കസ് മോഡിലും നിങ്ങൾക്ക് അറിയിപ്പ് ലഭിക്കും.",
   "everyXDaysFormat": "{count} ദിവസം ഒന്നിച്ചു",
   "cycleDaysFormat": "{consecutiveDays} ദിവസങ്ങൾ മരുന്നു വാങ്ങുന്നു / {restDays} ദിവസങ്ങൾ വിശ്രമിക്കുന്നു",
   "consecutiveDaysFormat": "{count} ദിവസങ്ങളായിരുന്നു_taken",

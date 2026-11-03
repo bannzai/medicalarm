@@ -77,6 +77,7 @@
   "enableNotificationInSilentMode": "진동 모드에서도 알림하기",
   "silentModeNotificationDescription": "집중 모드가 켜져 있거나 장치가 무음 모드일 때도 중요한 알림은 잠금 화면에 표시되며 소리가 재생됩니다.",
   "alarmKitNotification": "알람 기능",
+  "alarmKitNotificationDescription": "알람처럼 알림이 울립니다. 무음 모드나 집중 모드에서도 알림을 받을 수 있습니다.",
   "everyXDaysFormat": "{count}일마다",
   "cycleDaysFormat": "{consecutiveDays}일 복용/{restDays}일 휴약",
   "consecutiveDaysFormat": "{count}일 복용",

@@ -77,6 +77,7 @@
   "enableNotificationInSilentMode": "Paziņot pat klusajā režīmā",
   "silentModeNotificationDescription": "Patiesi nozīmīgas ziņojumi tiks parādīti uz bloķēšanas ekrāna un atskaņoti krītoša skaņa, pat ja koncentrēšanās režīms ir ieslēgts vai ierīce ir izslēgta.",
   "alarmKitNotification": "Modinātāja funkcija",
+  "alarmKitNotificationDescription": "Paziņojums skanēs kā modinātājs. Jūs to saņemsiet arī klusuma vai fokusa režīmā.",
   "everyXDaysFormat": "{count} dienu intervāls",
   "cycleDaysFormat": "{consecutiveDays} dienas lietošanas / {restDays} dienas pārtraukuma",
   "consecutiveDaysFormat": "{count} dienas lietošana",

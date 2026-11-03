@@ -77,6 +77,7 @@
   "enableNotificationInSilentMode": "Varsel selv i stillemodus",
   "silentModeNotificationDescription": "Selv når konsentrasjonsmodus er på eller enheten er på lydløs, vil viktige varsler vises på låseskjermen, og lyden vil avspilles.",
   "alarmKitNotification": "Alarmfunksjon",
+  "alarmKitNotificationDescription": "Varslingen høres ut som en vekkerklokke. Du får den også i lydløs modus eller fokusmodus.",
   "everyXDaysFormat": "{count} dager",
   "cycleDaysFormat": "{consecutiveDays} dagers medisin/{restDays} dager pause",
   "consecutiveDaysFormat": "{count} dager tatt",

@@ -77,6 +77,7 @@
   "enableNotificationInSilentMode": "Да испраќа известување дури и кога е во мод на тишина",
   "silentModeNotificationDescription": "Сериозни известувања ќе бидат прикажани на заклучениот екран и ќе се репродуцира звук, дури и ако е вклучен режимот на концентрирање или уредот е без звук.",
   "alarmKitNotification": "Функција за аларм",
+  "alarmKitNotificationDescription": "Известувањето ќе се огласи како будилник. Ќе го добиете и во тивок режим или режим на фокусирање.",
   "everyXDaysFormat": "{count} дена",
   "cycleDaysFormat": "{consecutiveDays} дена меба/ {restDays} дена одмор",
   "consecutiveDaysFormat": "{count} дена за земање",

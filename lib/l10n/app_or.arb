@@ -77,6 +77,7 @@
   "enableNotificationInSilentMode": "通知 कार्यान्वयन साधारण आहे",
   "silentModeNotificationDescription": "जब संचालित मोड चालू हो या उपकरण मूक हो, तब महत्त्वपूर्ण सूचनाएँ लॉक स्क्रीनमा प्रदर्शित हुनेछन् र ध्वनि बज्नेछ।",
   "alarmKitNotification": "ଆଲାର୍ମ ସୁବିଧା",
+  "alarmKitNotificationDescription": "ଆଲାର୍ମ ଘଣ୍ଟା ପରି ବିଜ୍ଞପ୍ତି ବାଜିବ। ସାଇଲେଣ୍ଟ କିମ୍ବା ଫୋକସ୍ ମୋଡ୍‌ରେ ମଧ୍ୟ ଆପଣ ବିଜ୍ଞପ୍ତି ପାଇବେ।",
   "everyXDaysFormat": "{count} ଦିନ ପରେ",
   "cycleDaysFormat": "{consecutiveDays} 針日 শুভন্তি / {restDays} 針日 বিশ্রাম",
   "consecutiveDaysFormat": "{count} ଦିନ ଦୌରନ୍ତି",

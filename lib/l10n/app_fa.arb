@@ -77,6 +77,7 @@
   "enableNotificationInSilentMode": "در حالت بی‌صدا نیز اطلاع‌رسانی می‌کند",
   "silentModeNotificationDescription": "در حالت تمرکز فعال یا زمانی که دستگاه در حالت بی‌صدا باشد، اعلان‌های مهم در صفحه قفل نمایش داده می‌شوند و صدا پخش می‌شود.",
   "alarmKitNotification": "قابلیت زنگ هشدار",
+  "alarmKitNotificationDescription": "اعلان مانند ساعت زنگ‌دار به صدا درمی‌آید. حتی در حالت بی‌صدا یا تمرکز هم آن را دریافت می‌کنید.",
   "everyXDaysFormat": "هر {count} روز",
   "cycleDaysFormat": "{consecutiveDays} روز مصرف/{restDays} روز عدم مصرف",
   "consecutiveDaysFormat": "{count} روز مصرف",

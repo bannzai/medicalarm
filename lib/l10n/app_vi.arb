@@ -77,6 +77,7 @@
   "enableNotificationInSilentMode": "Thông báo ngay cả khi ở chế độ im lặng",
   "silentModeNotificationDescription": "Thông báo quan trọng sẽ hiển thị trên màn hình khóa ngay cả khi chế độ tập trung đang BẬT hoặc thiết bị ở chế độ im lặng, và âm thanh sẽ được phát.",
   "alarmKitNotification": "Tính năng báo thức",
+  "alarmKitNotificationDescription": "Thông báo sẽ phát âm thanh như đồng hồ báo thức. Bạn vẫn nhận được thông báo khi bật chế độ im lặng hoặc Tập trung.",
   "everyXDaysFormat": "{count} ngày một lần",
   "cycleDaysFormat": "{consecutiveDays} ngày uống/{restDays} ngày nghỉ thuốc",
   "consecutiveDaysFormat": "{count} ngày sử dụng",

@@ -77,6 +77,7 @@
   "enableNotificationInSilentMode": "Vula izaziso ngisho uma kusemodeshi yokuthula",
   "silentModeNotificationDescription": "Izaziso ezisemqoka zikhonjiswa esikrinini se-lock nangesikhathi imodi yokugxila ivuliwe noma umshini uvumile.",
   "alarmKitNotification": "Isici se-alamu",
+  "alarmKitNotificationDescription": "Isaziso sizokhala njengewashi le-alamu. Uzosithola ngisho noma ifoni ikumodi yokuthula noma yokugxila.",
   "everyXDaysFormat": "{count} ngosuku",
   "cycleDaysFormat": "{consecutiveDays} usuku sebenzisa/{restDays} usuku ukuphumula",
   "consecutiveDaysFormat": "{count} izinsuku zokusebenzisa",

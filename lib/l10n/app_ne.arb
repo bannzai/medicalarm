@@ -77,6 +77,7 @@
   "enableNotificationInSilentMode": "शांत मोडमा पनि सूचनाहरू पठाउने",
   "silentModeNotificationDescription": "गंभीर सूचनाहरू केन्द्रित मोड ON हुँदा वा उपकरण मूकमा हुँदा पनि लक स्क्रिनमा देखायो र ध्वनि बजाइयो।",
   "alarmKitNotification": "अलार्म सुविधा",
+  "alarmKitNotificationDescription": "अलार्म घडीझैँ सूचना बज्नेछ। साइलेन्ट वा फोकस मोडमा पनि तपाईंले सूचना पाउनुहुनेछ।",
   "everyXDaysFormat": "{count} दिनको अन्तरमा",
   "cycleDaysFormat": "{consecutiveDays} दिनको औषधि/{restDays} दिनको विश्राम",
   "consecutiveDaysFormat": "{count} दिन सेवन",

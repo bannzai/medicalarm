@@ -77,6 +77,7 @@
   "enableNotificationInSilentMode": "מקרי הודעות גם במצב שקט",
   "silentModeNotificationDescription": "במצב ריכוז שהוא דולק או כאשר המכשיר במצב שקט, התראות חשובות מוצגות על מסך הנעילה ומושמעות צלילים.",
   "alarmKitNotification": "תכונת שעון מעורר",
+  "alarmKitNotificationDescription": "תישמע התראה כמו שעון מעורר. ההתראה תתקבל גם במצב שקט או במצב ריכוז.",
   "everyXDaysFormat": "{count} ימים",
   "cycleDaysFormat": "{consecutiveDays} ימי נטילה/{restDays} ימי הפסקה",
   "consecutiveDaysFormat": "{count} ימי נטילה",

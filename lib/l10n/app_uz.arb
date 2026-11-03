@@ -77,6 +77,7 @@
   "enableNotificationInSilentMode": "Tinch rejimida ham xabarnoma beradi",
   "silentModeNotificationDescription": "Diqqat rejimi yoqilganda yoki qurilma sukutda boʻlsa ham, muhim xabarnomalar qulflangandan so'ng ekranda koʻrsatiladi, ovoz ijro etiladi.",
   "alarmKitNotification": "Budilnik funksiyasi",
+  "alarmKitNotificationDescription": "Bildirishnoma budilnik kabi jiringlaydi. Uni ovozsiz yoki diqqatni jamlash rejimida ham olasiz.",
   "everyXDaysFormat": "{count} кунда",
   "cycleDaysFormat": "{consecutiveDays} кун қабул / {restDays} кун дам олиш",
   "consecutiveDaysFormat": "{count}-kun dori",

@@ -77,6 +77,7 @@
   "enableNotificationInSilentMode": "ცSilent რეჟიმშიც შეტყობინება",
   "silentModeNotificationDescription": "კონცენტრაციის რეჟიმი ჩართული ყოფნისას ან მოწყობილობამ ხმამაღლა მიღებას, კრიტიკული შეტყობინებები ლოქ ინტერეფეისზე გამოჩნდება, ხოლო ზარები დაიწერება.",
   "alarmKitNotification": "მაღვიძარას ფუნქცია",
+  "alarmKitNotificationDescription": "შეტყობინება მაღვიძარასავით გაიჟღერებს. მას უხმო ან ფოკუსირების რეჟიმშიც მიიღებთ.",
   "everyXDaysFormat": "{count} დღის საფუძველზე",
   "cycleDaysFormat": "{consecutiveDays} დღის მიღება/{restDays} დღის შესვენება",
   "consecutiveDaysFormat": "{count} დღის აღების",

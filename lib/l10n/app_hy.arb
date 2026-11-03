@@ -77,6 +77,7 @@
   "enableNotificationInSilentMode": "Տեղեկացնել նաև մոլորակի ռեժիմում",
   "silentModeNotificationDescription": "Երբ կենտրոնացման ռեժիմը ակտիվ է, կամ սարքն անջատման (մենակ) ռեժիմում է, կարևոր ծանուցումները ամբողջ էկրանին (տրամկապի մեջ) ցուցադրվելու են՝ իրականացնելով ձայներ",
   "alarmKitNotification": "Զարթուցիչի գործառույթ",
+  "alarmKitNotificationDescription": "Ծանուցումը կհնչի զարթուցիչի պես։ Այն կստանաք նաև անձայն կամ կենտրոնացման ռեժիմում։",
   "everyXDaysFormat": "{count} օրն մեկ",
   "cycleDaysFormat": "{consecutiveDays} օր գումարած/{restDays} օր դեղը չընդունելու",
   "consecutiveDaysFormat": "{count} օր դեղամիջոցների",

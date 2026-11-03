@@ -77,6 +77,7 @@
   "enableNotificationInSilentMode": "Aktifkan notifikasi bahkan saat dalam mode senyap",
   "silentModeNotificationDescription": "Pemberitahuan penting akan ditampilkan di layar kunci dan suara akan diputar meskipun Mode Fokus aktif atau perangkat dalam keadaan bisu.",
   "alarmKitNotification": "Fitur alarm",
+  "alarmKitNotificationDescription": "Notifikasi akan berbunyi seperti alarm. Anda tetap akan menerimanya dalam mode senyap atau fokus.",
   "everyXDaysFormat": "setiap {count} hari",
   "cycleDaysFormat": "{consecutiveDays} hari pemakaian/{restDays} hari berhenti",
   "consecutiveDaysFormat": "{count} hari minum",

@@ -77,6 +77,7 @@
   "enableNotificationInSilentMode": "ඇමතුම් සිද්ධීන් වෙනුවට සවිස්තරාත්මක තොරතුරු ලබාදීම",
   "silentModeNotificationDescription": "මෙම පණිවුඩය සංකේතය මෝඩියුලයේ විශේෂිත ප්‍රධාන අළුත් දේවල් තහවුරු කිරීමේ සංගිණය ලබාදේ.",
   "alarmKitNotification": "අනතුරු ඇඟවීමේ විශේෂාංගය",
+  "alarmKitNotificationDescription": "එලාම් ඔරලෝසුවක් මෙන් දැනුම්දීමක් නාද වේ. නිහඬ හෝ අවධානය යොමු කිරීමේ ප්‍රකාරයේදීත් එය ඔබට ලැබේ.",
   "everyXDaysFormat": "{count}දාකට",
   "cycleDaysFormat": "{consecutiveDays} දිනයන් திட்டය/{restDays} දින නිශ්ක්‍රිය",
   "consecutiveDaysFormat": "{count} දින පරීක්ෂණ",

@@ -77,6 +77,7 @@
   "enableNotificationInSilentMode": "ਮਨੋਰਮ ਕਰਨ ਦੇ ਮੋਡ ਵਿੱਚ ਵੀ ਸੂਚਨਾ",
   "silentModeNotificationDescription": "ਜੇਕਰ ਕੇਂਦ੍ਰਿਤ ਮੋਡ ON ਹੈ ਜਾਂ ਉਪਕਰਨ ਨੇ ਸੌਂਗ ਲਿਆ ਹੈ, ਤਾਂ ਗੰਭੀਰ ਸੂਚਨਾਵਾਂ ਲੌਕ ਸਕ੍ਰੀਨ 'ਤੇ ਦਿਖਾਈ ਦਿੱਤੀਆਂ ਜਾਣਗੀਆਂ ਅਤੇ ਧੁਨ ਚਾਲੂ ਕੀਤੀ ਜਾਣਗੀ।",
   "alarmKitNotification": "ਅਲਾਰਮ ਸਹੂਲਤ",
+  "alarmKitNotificationDescription": "ਅਲਾਰਮ ਘੜੀ ਵਾਂਗ ਸੂਚਨਾ ਵੱਜੇਗੀ। ਸਾਈਲੈਂਟ ਜਾਂ ਫੋਕਸ ਮੋਡ ਵਿੱਚ ਵੀ ਤੁਹਾਨੂੰ ਸੂਚਨਾ ਮਿਲੇਗੀ।",
   "everyXDaysFormat": "{count} ਦਿਨਾਂ ਵਿੱਚ",
   "cycleDaysFormat": "{consecutiveDays} ਰੋਜ਼ਾਂ ਦੀ ਦਵਾਈ/{restDays} ਰੋਜ਼ਾਂ ਦੀ ਛੁੱਟੀ",
   "consecutiveDaysFormat": "{count} ਦਿਨਾਂ ਦੀ ਖੁਰਾਕ",

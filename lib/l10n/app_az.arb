@@ -77,6 +77,7 @@
   "enableNotificationInSilentMode": "Sabit rejimdə də bildiriş göndər",
   "silentModeNotificationDescription": "Konsentrasiya rejimi aktiv olduqda və ya cihaz səssiz vəziyyətdə olduqda belə, mühüm bildirişlər kilid ekranında görünəcək və səs ifa olunacaq.",
   "alarmKitNotification": "Siqnal funksiyası",
+  "alarmKitNotificationDescription": "Zəngli saat kimi bildiriş səslənəcək. Səssiz və ya Fokus rejimində də bildiriş alacaqsınız.",
   "everyXDaysFormat": "{count} gün",
   "cycleDaysFormat": "{consecutiveDays} gün istifadə/{restDays} gün istirahət",
   "consecutiveDaysFormat": "{count} gün istifadə",

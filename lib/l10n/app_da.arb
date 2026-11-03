@@ -77,6 +77,7 @@
   "enableNotificationInSilentMode": "Underretter i lydløs tilstand",
   "silentModeNotificationDescription": "Når fokusmode er tændt, eller enheden er stille, vises vigtige meddelelser på låseskærmen, og lyden afspilles.",
   "alarmKitNotification": "Alarmfunktion",
+  "alarmKitNotificationDescription": "Notifikationen lyder som et vækkeur. Du får den også i lydløs tilstand eller fokustilstand.",
   "everyXDaysFormat": "{count} dage",
   "cycleDaysFormat": "{consecutiveDays} dages medicin/{restDays} dages pause",
   "consecutiveDaysFormat": "{count} dages indtagelse",
