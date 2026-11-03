@@ -316,5 +316,6 @@
   "featureRequestPromptCta": "Öneri gönder",
   "later": "Daha sonra",
   "featureRequestContentLabel": "Talebinizin ayrıntıları",
-  "featureRequestContentHint": "İstediğiniz özelliği dilediğiniz gibi yazın"
+  "featureRequestContentHint": "İstediğiniz özelliği dilediğiniz gibi yazın",
+  "featureRequestContentFooter": "Hangi durumlarda kullanmak istediğinizi ayrıntılı olarak yazın. Bu, talebinizi değerlendirmemize yardımcı olur."
 }

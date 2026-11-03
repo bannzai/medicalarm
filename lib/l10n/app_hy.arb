@@ -316,5 +316,6 @@
   "featureRequestPromptCta": "Ուղարկել առաջարկ",
   "later": "Ավելի ուշ",
   "featureRequestContentLabel": "Ձեր առաջարկի մանրամասները",
-  "featureRequestContentHint": "Գրեք, թե ինչ գործառույթ կցանկանայիք"
+  "featureRequestContentHint": "Գրեք, թե ինչ գործառույթ կցանկանայիք",
+  "featureRequestContentFooter": "Խնդրում ենք նկարագրել, թե կոնկրետ ինչ իրավիճակներում կցանկանայիք այն օգտագործել։ Դա կօգնի մեզ դիտարկել ձեր առաջարկը։"
 }

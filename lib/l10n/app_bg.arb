@@ -316,5 +316,6 @@
   "featureRequestPromptCta": "Изпрати предложение",
   "later": "По-късно",
   "featureRequestContentLabel": "Подробности за предложението ви",
-  "featureRequestContentHint": "Напишете каква функция бихте искали"
+  "featureRequestContentHint": "Напишете каква функция бихте искали",
+  "featureRequestContentFooter": "Моля, опишете в какви ситуации бихте искали да го използвате. Това ще ни помогне да разгледаме предложението ви."
 }

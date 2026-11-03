@@ -316,5 +316,6 @@
   "featureRequestPromptCta": "Ұсыныс жіберу",
   "later": "Кейін",
   "featureRequestContentLabel": "Ұсынысыңыздың толық сипаттамасы",
-  "featureRequestContentHint": "Қандай функция қажет екенін еркін жазыңыз"
+  "featureRequestContentHint": "Қандай функция қажет екенін еркін жазыңыз",
+  "featureRequestContentFooter": "Оны қандай жағдайларда пайдаланғыңыз келетінін нақты жазыңыз. Бұл ұсынысыңызды қарастыруға көмектеседі."
 }

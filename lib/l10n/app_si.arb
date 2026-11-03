@@ -316,5 +316,6 @@
   "featureRequestPromptCta": "යෝජනාව යවන්න",
   "later": "පසුව",
   "featureRequestContentLabel": "ඔබේ ඉල්ලීමේ විස්තර",
-  "featureRequestContentHint": "ඔබට අවශ්‍ය විශේෂාංගය නිදහසේ ලියන්න"
+  "featureRequestContentHint": "ඔබට අවශ්‍ය විශේෂාංගය නිදහසේ ලියන්න",
+  "featureRequestContentFooter": "ඔබට මෙය භාවිත කිරීමට අවශ්‍ය නිශ්චිත අවස්ථා විස්තර කරන්න. එය ඔබගේ ඉල්ලීම සලකා බැලීමට අපට උපකාරී වේ."
 }

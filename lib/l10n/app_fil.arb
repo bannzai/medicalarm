@@ -316,5 +316,6 @@
   "featureRequestPromptCta": "Magpadala ng mungkahi",
   "later": "Mamaya",
   "featureRequestContentLabel": "Mga detalye ng iyong kahilingan",
-  "featureRequestContentHint": "Isulat kung anong feature ang gusto mo"
+  "featureRequestContentHint": "Isulat kung anong feature ang gusto mo",
+  "featureRequestContentFooter": "Ilarawan ang mga partikular na sitwasyong gusto mo itong gamitin. Makakatulong ito sa amin na suriin ang iyong kahilingan."
 }

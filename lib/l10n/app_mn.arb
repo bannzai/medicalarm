@@ -316,5 +316,6 @@
   "featureRequestPromptCta": "Санал илгээх",
   "later": "Дараа",
   "featureRequestContentLabel": "Таны хүсэлтийн дэлгэрэнгүй",
-  "featureRequestContentHint": "Ямар боломж хүсэж байгаагаа чөлөөтэй бичнэ үү"
+  "featureRequestContentHint": "Ямар боломж хүсэж байгаагаа чөлөөтэй бичнэ үү",
+  "featureRequestContentFooter": "Үүнийг ямар нөхцөлд ашиглахыг хүсэж байгаагаа тодорхой бичнэ үү. Энэ нь таны хүсэлтийг авч үзэхэд тусална."
 }

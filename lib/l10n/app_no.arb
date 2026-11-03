@@ -316,5 +316,6 @@
   "featureRequestPromptCta": "Send forslag",
   "later": "Senere",
   "featureRequestContentLabel": "Detaljer om forslaget ditt",
-  "featureRequestContentHint": "Skriv gjerne hvilken funksjon du ønsker deg"
+  "featureRequestContentHint": "Skriv gjerne hvilken funksjon du ønsker deg",
+  "featureRequestContentFooter": "Beskriv gjerne hvilke situasjoner du vil bruke det i. Det hjelper oss med å vurdere forslaget ditt."
 }

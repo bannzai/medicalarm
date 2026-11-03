@@ -316,5 +316,6 @@
   "featureRequestPromptCta": "Taklif yuborish",
   "later": "Keyinroq",
   "featureRequestContentLabel": "Taklifingiz tafsilotlari",
-  "featureRequestContentHint": "Qanday funksiya xohlashingizni bemalol yozing"
+  "featureRequestContentHint": "Qanday funksiya xohlashingizni bemalol yozing",
+  "featureRequestContentFooter": "Undan qaysi vaziyatlarda foydalanmoqchi ekaningizni aniq yozing. Bu so‘rovingizni ko‘rib chiqishimizga yordam beradi."
 }

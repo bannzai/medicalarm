@@ -316,5 +316,6 @@
   "featureRequestPromptCta": "Dërgo sugjerim",
   "later": "Më vonë",
   "featureRequestContentLabel": "Detajet e kërkesës suaj",
-  "featureRequestContentHint": "Shkruani çfarë funksioni do të dëshironit"
+  "featureRequestContentHint": "Shkruani çfarë funksioni do të dëshironit",
+  "featureRequestContentFooter": "Përshkruani konkretisht në cilat situata do të donit ta përdornit. Kjo do të na ndihmojë ta shqyrtojmë kërkesën tuaj."
 }

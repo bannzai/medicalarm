@@ -316,5 +316,6 @@
   "featureRequestPromptCta": "পরামর্শ পাঠান",
   "later": "পরে",
   "featureRequestContentLabel": "আপনার অনুরোধের বিবরণ",
-  "featureRequestContentHint": "আপনি কী ধরনের সুবিধা চান, নির্দ্বিধায় লিখুন"
+  "featureRequestContentHint": "আপনি কী ধরনের সুবিধা চান, নির্দ্বিধায় লিখুন",
+  "featureRequestContentFooter": "কোন পরিস্থিতিতে এটি ব্যবহার করতে চান, অনুগ্রহ করে নির্দিষ্ট করে লিখুন। এতে আপনার অনুরোধ বিবেচনা করতে আমাদের সুবিধা হবে।"
 }

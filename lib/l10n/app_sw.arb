@@ -316,5 +316,6 @@
   "featureRequestPromptCta": "Tuma pendekezo",
   "later": "Baadaye",
   "featureRequestContentLabel": "Maelezo ya ombi lako",
-  "featureRequestContentHint": "Andika kwa uhuru kipengele unachotaka"
+  "featureRequestContentHint": "Andika kwa uhuru kipengele unachotaka",
+  "featureRequestContentFooter": "Tafadhali eleza hali mahususi ambazo ungependa kuitumia. Hii itatusaidia kuzingatia ombi lako."
 }

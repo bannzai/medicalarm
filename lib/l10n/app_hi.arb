@@ -316,5 +316,6 @@
   "featureRequestPromptCta": "सुझाव भेजें",
   "later": "बाद में",
   "featureRequestContentLabel": "आपके अनुरोध का विवरण",
-  "featureRequestContentHint": "आप कौन-सी सुविधा चाहते हैं, बेझिझक लिखें"
+  "featureRequestContentHint": "आप कौन-सी सुविधा चाहते हैं, बेझिझक लिखें",
+  "featureRequestContentFooter": "कृपया बताएं कि आप इसे किन परिस्थितियों में इस्तेमाल करना चाहेंगे। इससे हमें आपके अनुरोध पर विचार करने में मदद मिलेगी।"
 }

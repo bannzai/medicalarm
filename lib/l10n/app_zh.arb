@@ -316,5 +316,6 @@
   "featureRequestPromptCta": "发送建议",
   "later": "稍后",
   "featureRequestContentLabel": "您的建议内容",
-  "featureRequestContentHint": "请自由填写您希望增加的功能"
+  "featureRequestContentHint": "请自由填写您希望增加的功能",
+  "featureRequestContentFooter": "请具体描述您希望在哪些情况下使用，以便我们评估您的建议。"
 }

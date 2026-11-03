@@ -316,5 +316,6 @@
   "featureRequestPromptCta": "Senda tillögu",
   "later": "Síðar",
   "featureRequestContentLabel": "Nánari upplýsingar um óskina",
-  "featureRequestContentHint": "Skrifaðu hvaða eiginleika þú vilt sjá"
+  "featureRequestContentHint": "Skrifaðu hvaða eiginleika þú vilt sjá",
+  "featureRequestContentFooter": "Lýstu því í hvaða aðstæðum þú vilt nota þetta. Það hjálpar okkur að meta tillöguna þína."
 }

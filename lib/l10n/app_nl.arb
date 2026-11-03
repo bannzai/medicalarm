@@ -316,5 +316,6 @@
   "featureRequestPromptCta": "Suggestie versturen",
   "later": "Later",
   "featureRequestContentLabel": "Details van uw verzoek",
-  "featureRequestContentHint": "Beschrijf welke functie u graag zou willen"
+  "featureRequestContentHint": "Beschrijf welke functie u graag zou willen",
+  "featureRequestContentFooter": "Beschrijf in welke situaties je dit wilt gebruiken. Dat helpt ons je verzoek te beoordelen."
 }

@@ -316,5 +316,6 @@
   "featureRequestPromptCta": "Kirim saran",
   "later": "Nanti",
   "featureRequestContentLabel": "Detail permintaan Anda",
-  "featureRequestContentHint": "Silakan tulis fitur yang Anda inginkan"
+  "featureRequestContentHint": "Silakan tulis fitur yang Anda inginkan",
+  "featureRequestContentFooter": "Jelaskan secara spesifik dalam situasi apa Anda ingin menggunakannya. Ini akan membantu kami mempertimbangkan permintaan Anda."
 }

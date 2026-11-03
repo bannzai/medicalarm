@@ -316,5 +316,6 @@
   "featureRequestPromptCta": "ጥቆማ ላክ",
   "later": "በኋላ",
   "featureRequestContentLabel": "የጥያቄዎ ዝርዝር",
-  "featureRequestContentHint": "ምን ዓይነት ባህሪ እንደሚፈልጉ በነፃነት ይጻፉ"
+  "featureRequestContentHint": "ምን ዓይነት ባህሪ እንደሚፈልጉ በነፃነት ይጻፉ",
+  "featureRequestContentFooter": "በምን ዓይነት ሁኔታ ሊጠቀሙበት እንደሚፈልጉ በዝርዝር ይግለጹ። ይህ ጥያቄዎን ለማጤን ይረዳናል።"
 }

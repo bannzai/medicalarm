@@ -316,5 +316,6 @@
   "featureRequestPromptCta": "წინადადების გაგზავნა",
   "later": "მოგვიანებით",
   "featureRequestContentLabel": "თქვენი მოთხოვნის დეტალები",
-  "featureRequestContentHint": "დაწერეთ, რა ფუნქცია გსურთ"
+  "featureRequestContentHint": "დაწერეთ, რა ფუნქცია გსურთ",
+  "featureRequestContentFooter": "გთხოვთ, აღწეროთ კონკრეტულად რა სიტუაციებში გსურთ მისი გამოყენება. ეს დაგვეხმარება თქვენი მოთხოვნის განხილვაში."
 }

@@ -316,5 +316,6 @@
   "featureRequestPromptCta": "Javaslat küldése",
   "later": "Később",
   "featureRequestContentLabel": "Javaslatának részletei",
-  "featureRequestContentHint": "Írja meg, milyen funkciót szeretne"
+  "featureRequestContentHint": "Írja meg, milyen funkciót szeretne",
+  "featureRequestContentFooter": "Kérjük, írja le, milyen helyzetekben szeretné használni. Ez segít mérlegelni a javaslatát."
 }

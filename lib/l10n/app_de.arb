@@ -316,5 +316,6 @@
   "featureRequestPromptCta": "Vorschlag senden",
   "later": "Später",
   "featureRequestContentLabel": "Details zu Ihrem Vorschlag",
-  "featureRequestContentHint": "Beschreiben Sie, welche Funktion Sie sich wünschen"
+  "featureRequestContentHint": "Beschreiben Sie, welche Funktion Sie sich wünschen",
+  "featureRequestContentFooter": "Beschreiben Sie bitte konkret, in welchen Situationen Sie die Funktion nutzen möchten. Das hilft uns, Ihren Vorschlag zu prüfen."
 }

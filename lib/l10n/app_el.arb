@@ -316,5 +316,6 @@
   "featureRequestPromptCta": "Αποστολή πρότασης",
   "later": "Αργότερα",
   "featureRequestContentLabel": "Λεπτομέρειες του αιτήματός σας",
-  "featureRequestContentHint": "Γράψτε ποια λειτουργία θα θέλατε"
+  "featureRequestContentHint": "Γράψτε ποια λειτουργία θα θέλατε",
+  "featureRequestContentFooter": "Περιγράψτε συγκεκριμένα σε ποιες περιπτώσεις θα θέλατε να το χρησιμοποιήσετε. Αυτό θα μας βοηθήσει να εξετάσουμε το αίτημά σας."
 }

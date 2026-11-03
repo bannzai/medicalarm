@@ -316,5 +316,6 @@
   "featureRequestPromptCta": "Hantar cadangan",
   "later": "Nanti",
   "featureRequestContentLabel": "Butiran permintaan anda",
-  "featureRequestContentHint": "Sila tulis ciri yang anda inginkan"
+  "featureRequestContentHint": "Sila tulis ciri yang anda inginkan",
+  "featureRequestContentFooter": "Sila terangkan secara khusus situasi anda ingin menggunakannya. Ini membantu kami mempertimbangkan permintaan anda."
 }

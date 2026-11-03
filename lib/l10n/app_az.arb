@@ -316,5 +316,6 @@
   "featureRequestPromptCta": "Təklif göndər",
   "later": "Sonra",
   "featureRequestContentLabel": "İstəyinizin təfərrüatları",
-  "featureRequestContentHint": "İstədiyiniz funksiyanı sərbəst şəkildə yazın"
+  "featureRequestContentHint": "İstədiyiniz funksiyanı sərbəst şəkildə yazın",
+  "featureRequestContentFooter": "Onu hansı hallarda istifadə etmək istədiyinizi ətraflı yazın. Bu, istəyinizi nəzərdən keçirməyimizə kömək edəcək."
 }

@@ -316,5 +316,6 @@
   "featureRequestPromptCta": "إرسال اقتراح",
   "later": "لاحقًا",
   "featureRequestContentLabel": "تفاصيل طلبك",
-  "featureRequestContentHint": "اكتب بحرية الميزة التي ترغب فيها"
+  "featureRequestContentHint": "اكتب بحرية الميزة التي ترغب فيها",
+  "featureRequestContentFooter": "يرجى وصف المواقف التي ترغب في استخدامه فيها بالتحديد، لمساعدتنا في دراسة طلبك."
 }

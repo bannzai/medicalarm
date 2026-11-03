@@ -316,5 +316,6 @@
   "featureRequestPromptCta": "Пошаљи предлог",
   "later": "Касније",
   "featureRequestContentLabel": "Детаљи вашег предлога",
-  "featureRequestContentHint": "Напишите коју функцију бисте желели"
+  "featureRequestContentHint": "Напишите коју функцију бисте желели",
+  "featureRequestContentFooter": "Опишите конкретне ситуације у којима бисте желели да то користите. То ће нам помоћи да размотримо ваш предлог."
 }

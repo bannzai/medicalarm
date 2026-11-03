@@ -316,5 +316,6 @@
   "featureRequestPromptCta": "Pošalji prijedlog",
   "later": "Kasnije",
   "featureRequestContentLabel": "Pojedinosti vašeg prijedloga",
-  "featureRequestContentHint": "Slobodno napišite koju značajku želite"
+  "featureRequestContentHint": "Slobodno napišite koju značajku želite",
+  "featureRequestContentFooter": "Opišite u kojim biste ga situacijama željeli koristiti. To će nam pomoći da razmotrimo vaš prijedlog."
 }

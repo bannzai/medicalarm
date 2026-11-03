@@ -316,5 +316,6 @@
   "featureRequestPromptCta": "Сунуш жөнөтүү",
   "later": "Кийинчерээк",
   "featureRequestContentLabel": "Сунушуңуздун чоо-жайы",
-  "featureRequestContentHint": "Кандай функцияны каалай турганыңызды эркин жазыңыз"
+  "featureRequestContentHint": "Кандай функцияны каалай турганыңызды эркин жазыңыз",
+  "featureRequestContentFooter": "Аны кандай жагдайларда колдонгуңуз келерин так жазып бериңиз. Бул сунушуңузду карап чыгууга жардам берет."
 }

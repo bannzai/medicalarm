@@ -316,5 +316,6 @@
   "featureRequestPromptCta": "ส่งข้อเสนอแนะ",
   "later": "ภายหลัง",
   "featureRequestContentLabel": "รายละเอียดคำขอของคุณ",
-  "featureRequestContentHint": "เขียนบอกได้เลยว่าคุณอยากได้ฟีเจอร์อะไร"
+  "featureRequestContentHint": "เขียนบอกได้เลยว่าคุณอยากได้ฟีเจอร์อะไร",
+  "featureRequestContentFooter": "โปรดระบุสถานการณ์ที่คุณต้องการใช้งานอย่างชัดเจน เพื่อช่วยให้เราพิจารณาคำขอของคุณได้"
 }

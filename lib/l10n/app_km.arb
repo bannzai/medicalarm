@@ -316,5 +316,6 @@
   "featureRequestPromptCta": "ផ្ញើសំណើ",
   "later": "ពេលក្រោយ",
   "featureRequestContentLabel": "ព័ត៌មានលម្អិតនៃសំណើរបស់អ្នក",
-  "featureRequestContentHint": "សូមសរសេរអំពីមុខងារដែលអ្នកចង់បាន"
+  "featureRequestContentHint": "សូមសរសេរអំពីមុខងារដែលអ្នកចង់បាន",
+  "featureRequestContentFooter": "សូមរៀបរាប់ឱ្យច្បាស់ថា អ្នកចង់ប្រើវាក្នុងស្ថានភាពណាខ្លះ។ វានឹងជួយយើងពិចារណាសំណើរបស់អ្នក។"
 }

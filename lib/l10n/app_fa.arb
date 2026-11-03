@@ -316,5 +316,6 @@
   "featureRequestPromptCta": "ارسال پیشنهاد",
   "later": "بعداً",
   "featureRequestContentLabel": "جزئیات درخواست شما",
-  "featureRequestContentHint": "بنویسید چه قابلیتی می‌خواهید"
+  "featureRequestContentHint": "بنویسید چه قابلیتی می‌خواهید",
+  "featureRequestContentFooter": "لطفاً توضیح دهید در چه موقعیت‌هایی می‌خواهید از آن استفاده کنید. این به بررسی درخواست شما کمک می‌کند."
 }

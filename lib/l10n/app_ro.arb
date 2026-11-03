@@ -316,5 +316,6 @@
   "featureRequestPromptCta": "Trimite o sugestie",
   "later": "Mai târziu",
   "featureRequestContentLabel": "Detaliile solicitării dvs.",
-  "featureRequestContentHint": "Scrieți ce funcție v-ați dori"
+  "featureRequestContentHint": "Scrieți ce funcție v-ați dori",
+  "featureRequestContentFooter": "Descrieți situațiile concrete în care ați dori să o folosiți. Acest lucru ne va ajuta să analizăm solicitarea."
 }
