@@ -312,5 +312,6 @@
   "onboardingPlanStart": "Aloita suunnitelmasi",
   "featureRequestTitle": "Ominaisuustoive",
   "featureRequestPromptTitle": "Haluatko ehdottaa uutta ominaisuutta Medicalarmiin?",
-  "featureRequestPromptMessage": "Kerro, millaisia ominaisuuksia toivoisit tai mitä voisimme parantaa. Voit lähettää ideasi milloin tahansa asetusten kohdasta ”Ominaisuustoiveet”."
+  "featureRequestPromptMessage": "Kerro, millaisia ominaisuuksia toivoisit tai mitä voisimme parantaa. Voit lähettää ideasi milloin tahansa asetusten kohdasta ”Ominaisuustoiveet”.",
+  "featureRequestPromptCta": "Lähetä ehdotus"
 }

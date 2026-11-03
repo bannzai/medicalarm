@@ -312,5 +312,6 @@
   "onboardingPlanStart": "Bắt đầu gói của bạn",
   "featureRequestTitle": "Đề xuất tính năng",
   "featureRequestPromptTitle": "Bạn muốn đề xuất tính năng mới cho Medicalarm?",
-  "featureRequestPromptMessage": "Hãy cho chúng tôi biết bạn muốn có tính năng nào hoặc chúng tôi có thể cải thiện điều gì. Bạn có thể gửi ý tưởng bất cứ lúc nào qua mục “Đề xuất tính năng” trong Cài đặt."
+  "featureRequestPromptMessage": "Hãy cho chúng tôi biết bạn muốn có tính năng nào hoặc chúng tôi có thể cải thiện điều gì. Bạn có thể gửi ý tưởng bất cứ lúc nào qua mục “Đề xuất tính năng” trong Cài đặt.",
+  "featureRequestPromptCta": "Gửi đề xuất"
 }

@@ -312,5 +312,6 @@
   "onboardingPlanStart": "Mulai rencana Anda",
   "featureRequestTitle": "Usulan fitur",
   "featureRequestPromptTitle": "Ingin menyarankan fitur baru untuk Medicalarm?",
-  "featureRequestPromptMessage": "Beri tahu kami fitur yang Anda inginkan atau hal yang bisa kami tingkatkan. Anda dapat mengirimkan ide kapan saja melalui “Usulan fitur” di Pengaturan."
+  "featureRequestPromptMessage": "Beri tahu kami fitur yang Anda inginkan atau hal yang bisa kami tingkatkan. Anda dapat mengirimkan ide kapan saja melalui “Usulan fitur” di Pengaturan.",
+  "featureRequestPromptCta": "Kirim saran"
 }

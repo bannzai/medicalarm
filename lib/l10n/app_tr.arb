@@ -312,5 +312,6 @@
   "onboardingPlanStart": "Planınızı başlatın",
   "featureRequestTitle": "Özellik önerisi",
   "featureRequestPromptTitle": "Medicalarm için yeni bir özellik önermek ister misiniz?",
-  "featureRequestPromptMessage": "Görmek istediğiniz özellikleri veya iyileştirme fikirlerinizi bizimle paylaşın. Fikirlerinizi dilediğiniz zaman Ayarlar’daki “Özellik önerisi” bölümünden gönderebilirsiniz."
+  "featureRequestPromptMessage": "Görmek istediğiniz özellikleri veya iyileştirme fikirlerinizi bizimle paylaşın. Fikirlerinizi dilediğiniz zaman Ayarlar’daki “Özellik önerisi” bölümünden gönderebilirsiniz.",
+  "featureRequestPromptCta": "Öneri gönder"
 }

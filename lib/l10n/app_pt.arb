@@ -312,5 +312,6 @@
   "onboardingPlanStart": "Começar o seu plano",
   "featureRequestTitle": "Sugestão de funcionalidade",
   "featureRequestPromptTitle": "Quer sugerir uma nova funcionalidade para o Medicalarm?",
-  "featureRequestPromptMessage": "Diga-nos que funcionalidades gostaria de ter ou o que podemos melhorar. Pode enviar as suas ideias a qualquer momento em «Sugestões de funcionalidades», nas Definições."
+  "featureRequestPromptMessage": "Diga-nos que funcionalidades gostaria de ter ou o que podemos melhorar. Pode enviar as suas ideias a qualquer momento em «Sugestões de funcionalidades», nas Definições.",
+  "featureRequestPromptCta": "Enviar sugestão"
 }

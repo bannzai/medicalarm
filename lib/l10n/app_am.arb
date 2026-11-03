@@ -312,5 +312,6 @@
   "onboardingPlanStart": "እቅድዎን ይጀምሩ",
   "featureRequestTitle": "የአዲስ ባህሪ ጥያቄ",
   "featureRequestPromptTitle": "ለMedicalarm አዲስ ባህሪ መጠቆም ይፈልጋሉ?",
-  "featureRequestPromptMessage": "ሊኖሩ የሚፈልጓቸውን ባህሪያት ወይም የማሻሻያ ሀሳቦች ያሳውቁን። በቅንብሮች ውስጥ ካለው «የባህሪ ጥያቄ» በማንኛውም ጊዜ መላክ ይችላሉ።"
+  "featureRequestPromptMessage": "ሊኖሩ የሚፈልጓቸውን ባህሪያት ወይም የማሻሻያ ሀሳቦች ያሳውቁን። በቅንብሮች ውስጥ ካለው «የባህሪ ጥያቄ» በማንኛውም ጊዜ መላክ ይችላሉ።",
+  "featureRequestPromptCta": "ጥቆማ ላክ"
 }

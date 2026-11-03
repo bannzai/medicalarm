@@ -312,5 +312,6 @@
   "onboardingPlanStart": "Hefðu áætlunina þína",
   "featureRequestTitle": "Tillaga að eiginleika",
   "featureRequestPromptTitle": "Viltu stinga upp á nýjum eiginleika fyrir Medicalarm?",
-  "featureRequestPromptMessage": "Segðu okkur hvaða eiginleika þú vilt sjá eða hvað við getum bætt. Þú getur sent hugmyndir þínar hvenær sem er í „Tillögur að eiginleikum“ í stillingum."
+  "featureRequestPromptMessage": "Segðu okkur hvaða eiginleika þú vilt sjá eða hvað við getum bætt. Þú getur sent hugmyndir þínar hvenær sem er í „Tillögur að eiginleikum“ í stillingum.",
+  "featureRequestPromptCta": "Senda tillögu"
 }

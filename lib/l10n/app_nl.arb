@@ -312,5 +312,6 @@
   "onboardingPlanStart": "Start je plan",
   "featureRequestTitle": "Functieverzoek",
   "featureRequestPromptTitle": "Wil je een nieuwe functie voor Medicalarm voorstellen?",
-  "featureRequestPromptMessage": "Vertel ons welke functies je graag zou zien of wat we kunnen verbeteren. Je kunt je ideeën op elk moment sturen via ‘Functieverzoeken’ in Instellingen."
+  "featureRequestPromptMessage": "Vertel ons welke functies je graag zou zien of wat we kunnen verbeteren. Je kunt je ideeën op elk moment sturen via ‘Functieverzoeken’ in Instellingen.",
+  "featureRequestPromptCta": "Suggestie versturen"
 }

@@ -312,5 +312,6 @@
   "onboardingPlanStart": "Start planen din",
   "featureRequestTitle": "Funksjonsforslag",
   "featureRequestPromptTitle": "Vil du foreslå en ny funksjon for Medicalarm?",
-  "featureRequestPromptMessage": "Fortell oss hvilke funksjoner du ønsker deg, eller hva vi kan forbedre. Du kan sende inn ideer når som helst via «Funksjonsforslag» i Innstillinger."
+  "featureRequestPromptMessage": "Fortell oss hvilke funksjoner du ønsker deg, eller hva vi kan forbedre. Du kan sende inn ideer når som helst via «Funksjonsforslag» i Innstillinger.",
+  "featureRequestPromptCta": "Send forslag"
 }

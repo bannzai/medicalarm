@@ -312,5 +312,6 @@
   "onboardingPlanStart": "开始您的计划",
   "featureRequestTitle": "功能建议",
   "featureRequestPromptTitle": "想为 Medicalarm 提议新功能吗？",
-  "featureRequestPromptMessage": "请告诉我们您希望添加哪些功能，或有哪些改进建议。您随时可以通过设置中的“功能建议”发送想法。"
+  "featureRequestPromptMessage": "请告诉我们您希望添加哪些功能，或有哪些改进建议。您随时可以通过设置中的“功能建议”发送想法。",
+  "featureRequestPromptCta": "发送建议"
 }

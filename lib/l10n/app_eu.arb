@@ -312,5 +312,6 @@
   "onboardingPlanStart": "Hasi zure plana",
   "featureRequestTitle": "Funtzio-eskaera",
   "featureRequestPromptTitle": "Medicalarm-erako eginbide berri bat proposatu nahi duzu?",
-  "featureRequestPromptMessage": "Esan zer funtzio gustatuko litzaizkizukeen edo zer hobetu genezakeen. Zure ideiak edozein unetan bidal ditzakezu Ezarpenetako «Funtzio-eskaerak» ataletik."
+  "featureRequestPromptMessage": "Esan zer funtzio gustatuko litzaizkizukeen edo zer hobetu genezakeen. Zure ideiak edozein unetan bidal ditzakezu Ezarpenetako «Funtzio-eskaerak» ataletik.",
+  "featureRequestPromptCta": "Bidali iradokizuna"
 }
