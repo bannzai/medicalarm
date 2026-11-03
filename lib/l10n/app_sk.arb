@@ -237,6 +237,7 @@
   "medicineImageImport": "Pridať liek z obrázka",
   "medicineImageImportReviewTitle": "Rozpoznané lieky",
   "medicineImageImportEmpty": "Na obrázku sa nepodarilo rozpoznať žiadny liek",
+  "medicineImageImportSelectableLimit": "Môžete pridať ešte najviac {count} liekov.",
   "minimumDoseInterval": "Interval medzi dávkami",
   "minimumDoseIntervalDescription": "Minimálny odstup medzi dávkami od poslednej dávky",
   "minimumDoseIntervalNone": "Žiadne",

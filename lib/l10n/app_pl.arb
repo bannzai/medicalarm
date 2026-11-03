@@ -237,6 +237,7 @@
   "medicineImageImport": "Dodaj lek ze zdjęcia",
   "medicineImageImportReviewTitle": "Rozpoznane leki",
   "medicineImageImportEmpty": "Nie udało się rozpoznać żadnego leku na zdjęciu",
+  "medicineImageImportSelectableLimit": "Możesz dodać jeszcze maksymalnie {count} leków.",
   "minimumDoseInterval": "Odstęp między dawkami",
   "minimumDoseIntervalDescription": "Minimalny odstęp między dawkami od poprzedniej dawki",
   "minimumDoseIntervalNone": "Brak",

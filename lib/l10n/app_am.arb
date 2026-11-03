@@ -237,6 +237,7 @@
   "medicineImageImport": "ከምስል መድኃኒት ያክሉ",
   "medicineImageImportReviewTitle": "ከምስሉ የተለዩ መድኃኒቶች",
   "medicineImageImportEmpty": "ከምስሉ መድኃኒት መለየት አልተቻለም",
+  "medicineImageImportSelectableLimit": "ከዚህ በኋላ እስከ {count} መድኃኒቶችን ብቻ መመዝገብ ይችላሉ።",
   "minimumDoseInterval": "የመውሰጃ ክፍተት",
   "minimumDoseIntervalDescription": "ከቀደመው የመድኃኒት መውሰድ በኋላ ቢያንስ የሚቆይ ጊዜ",
   "minimumDoseIntervalNone": "የለም",

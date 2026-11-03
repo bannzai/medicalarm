@@ -237,6 +237,7 @@
   "medicineImageImport": "Rasmdan dori qo‘shish",
   "medicineImageImportReviewTitle": "Aniqlangan dorilar",
   "medicineImageImportEmpty": "Rasmda hech qanday dori aniqlanmadi",
+  "medicineImageImportSelectableLimit": "Yana ko‘pi bilan {count} ta dori qo‘shishingiz mumkin.",
   "minimumDoseInterval": "Dozalar orasidagi interval",
   "minimumDoseIntervalDescription": "Oldingi dozadan keyin dozalar orasidagi minimal vaqt",
   "minimumDoseIntervalNone": "Yo‘q",

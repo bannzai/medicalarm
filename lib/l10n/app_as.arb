@@ -237,6 +237,7 @@
   "medicineImageImport": "ছবিৰ পৰা ঔষধ যোগ কৰক",
   "medicineImageImportReviewTitle": "চিনাক্ত কৰা ঔষধ",
   "medicineImageImportEmpty": "ছবিখনত কোনো ঔষধ চিনাক্ত কৰিব পৰা নগ’ল",
+  "medicineImageImportSelectableLimit": "আপুনি আৰু সৰ্বাধিক {count}টা ঔষধ পঞ্জীয়ন কৰিব পাৰিব।",
   "minimumDoseInterval": "ঔষধ সেৱনৰ ব্যৱধান",
   "minimumDoseIntervalDescription": "আগৰ পালিৰ পিছত ন্যূনতম বিৰতিৰ সময়",
   "minimumDoseIntervalNone": "নাই",

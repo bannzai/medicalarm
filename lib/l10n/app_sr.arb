@@ -237,6 +237,7 @@
   "medicineImageImport": "Додај лек са слике",
   "medicineImageImportReviewTitle": "Препознати лекови",
   "medicineImageImportEmpty": "Није могуће препознати лек на слици",
+  "medicineImageImportSelectableLimit": "Можете да додате још највише {count} лекова.",
   "minimumDoseInterval": "Размак између доза",
   "minimumDoseIntervalDescription": "Минимални размак између доза од претходне дозе",
   "minimumDoseIntervalNone": "Нема",

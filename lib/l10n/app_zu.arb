@@ -237,6 +237,7 @@
   "medicineImageImport": "Engeza umuthi osesithombeni",
   "medicineImageImportReviewTitle": "Imithi etholakele",
   "medicineImageImportEmpty": "Ayikho imithi ekwazile ukubonwa esithombeni",
+  "medicineImageImportSelectableLimit": "Ungabhalisa eminye imithi engafika ku-{count} kuphela.",
   "minimumDoseInterval": "Isikhawu phakathi kwemithamo",
   "minimumDoseIntervalDescription": "Isikhathi esincane phakathi kwemithamo kusukela emthamo odlule",
   "minimumDoseIntervalNone": "Akukho",

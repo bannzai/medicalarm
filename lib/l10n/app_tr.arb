@@ -237,6 +237,7 @@
   "medicineImageImport": "Görselden ilaç ekle",
   "medicineImageImportReviewTitle": "Tanınan ilaçlar",
   "medicineImageImportEmpty": "Görselde herhangi bir ilaç tanımlanamadı",
+  "medicineImageImportSelectableLimit": "En fazla {count} ilaç daha ekleyebilirsiniz.",
   "minimumDoseInterval": "Doz aralığı",
   "minimumDoseIntervalDescription": "Önceki dozdan sonra dozlar arasında geçmesi gereken minimum süre",
   "minimumDoseIntervalNone": "Yok",

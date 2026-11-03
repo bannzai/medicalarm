@@ -237,6 +237,7 @@
   "medicineImageImport": "ছবি থেকে ওষুধ যোগ করুন",
   "medicineImageImportReviewTitle": "শনাক্ত করা ওষুধ",
   "medicineImageImportEmpty": "ছবিতে কোনো ওষুধ শনাক্ত করা যায়নি",
+  "medicineImageImportSelectableLimit": "আপনি আরও সর্বোচ্চ {count}টি ওষুধ নিবন্ধন করতে পারবেন।",
   "minimumDoseInterval": "ওষুধ গ্রহণের ব্যবধান",
   "minimumDoseIntervalDescription": "আগের ডোজের পর ন্যূনতম বিরতির সময়",
   "minimumDoseIntervalNone": "নেই",

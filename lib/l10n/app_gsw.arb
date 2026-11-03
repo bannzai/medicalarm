@@ -237,6 +237,7 @@
   "medicineImageImport": "Medikament us em Bild dezuefüege",
   "medicineImageImportReviewTitle": "Erkännti Medikament",
   "medicineImageImportEmpty": "Uf em Bild het me kei Medikament chönne erkenne",
+  "medicineImageImportSelectableLimit": "Sie chönd no höchstens {count} Medikament hinzuefüege.",
   "minimumDoseInterval": "Einnahmeabstand",
   "minimumDoseIntervalDescription": "Mindestabstand zwüsche de Dosis sit em letschte Iinah",
   "minimumDoseIntervalNone": "Keine",

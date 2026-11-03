@@ -237,6 +237,7 @@
   "medicineImageImport": "Pievienot zāles no attēla",
   "medicineImageImportReviewTitle": "Atpazītās zāles",
   "medicineImageImportEmpty": "Attēlā neizdevās atpazīt nevienas zāles",
+  "medicineImageImportSelectableLimit": "Varat pievienot vēl ne vairāk kā {count} zāles.",
   "minimumDoseInterval": "Devu lietošanas intervāls",
   "minimumDoseIntervalDescription": "Minimālais laiks starp devām kopš iepriekšējās devas",
   "minimumDoseIntervalNone": "Nav",

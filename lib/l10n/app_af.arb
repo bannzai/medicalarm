@@ -237,6 +237,7 @@
   "medicineImageImport": "Voeg vanaf prent by",
   "medicineImageImportReviewTitle": "Geskande medisyne",
   "medicineImageImportEmpty": "Kon nie medisyne op die beeld herken nie",
+  "medicineImageImportSelectableLimit": "Jy kan nog net {count} medisyne registreer.",
   "minimumDoseInterval": "Dosisinterval",
   "minimumDoseIntervalDescription": "Minimum tyd tussen dosisse sedert die vorige dosis",
   "minimumDoseIntervalNone": "Geen",

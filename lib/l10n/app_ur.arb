@@ -237,6 +237,7 @@
   "medicineImageImport": "تصویر سے دوا شامل کریں",
   "medicineImageImportReviewTitle": "شناخت کی گئی ادویات",
   "medicineImageImportEmpty": "تصویر میں کسی دوا کی شناخت نہیں ہو سکی",
+  "medicineImageImportSelectableLimit": "آپ مزید زیادہ سے زیادہ {count} دوائیں درج کر سکتے ہیں۔",
   "minimumDoseInterval": "خوراکوں کے درمیان وقفہ",
   "minimumDoseIntervalDescription": "پچھلی خوراک کے بعد خوراکوں کے درمیان کم از کم وقفہ",
   "minimumDoseIntervalNone": "کوئی نہیں",

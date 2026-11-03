@@ -237,6 +237,7 @@
   "medicineImageImport": "Lisa ravim pildilt",
   "medicineImageImportReviewTitle": "Tuvastatud ravimid",
   "medicineImageImportEmpty": "Pildilt ei õnnestunud ühtegi ravimit tuvastada",
+  "medicineImageImportSelectableLimit": "Saate lisada veel kuni {count} ravimit.",
   "minimumDoseInterval": "Annustamisintervall",
   "minimumDoseIntervalDescription": "Minimaalne aeg annuste vahel alates eelmisest annusest",
   "minimumDoseIntervalNone": "Puudub",

@@ -237,6 +237,7 @@
   "medicineImageImport": "افزودن دارو از تصویر",
   "medicineImageImportReviewTitle": "داروهای شناسایی‌شده",
   "medicineImageImportEmpty": "هیچ دارویی در تصویر شناسایی نشد",
+  "medicineImageImportSelectableLimit": "فقط می‌توانید {count} داروی دیگر ثبت کنید.",
   "minimumDoseInterval": "فاصله بین دوزها",
   "minimumDoseIntervalDescription": "حداقل فاصله زمانی بین دوزها از آخرین دوز",
   "minimumDoseIntervalNone": "هیچ‌کدام",

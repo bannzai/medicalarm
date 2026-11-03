@@ -237,6 +237,7 @@
   "medicineImageImport": "Προσθήκη φαρμάκου από εικόνα",
   "medicineImageImportReviewTitle": "Φάρμακα που αναγνωρίστηκαν",
   "medicineImageImportEmpty": "Δεν αναγνωρίστηκε κανένα φάρμακο στην εικόνα",
+  "medicineImageImportSelectableLimit": "Μπορείτε να προσθέσετε έως {count} ακόμη φάρμακα.",
   "minimumDoseInterval": "Διάστημα μεταξύ δόσεων",
   "minimumDoseIntervalDescription": "Ελάχιστο χρονικό διάστημα μεταξύ δόσεων από την προηγούμενη δόση",
   "minimumDoseIntervalNone": "Κανένα",

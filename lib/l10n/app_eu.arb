@@ -237,6 +237,7 @@
   "medicineImageImport": "Gehitu sendagaia irudi batetik",
   "medicineImageImportReviewTitle": "Identifikatutako sendagaiak",
   "medicineImageImportEmpty": "Ezin izan da irudian botikarik identifikatu",
+  "medicineImageImportSelectableLimit": "Gehienez {count} sendagai gehiago erregistra ditzakezu.",
   "minimumDoseInterval": "Dosi arteko tartea",
   "minimumDoseIntervalDescription": "Aurreko dositik gutxienez igaro beharreko denbora",
   "minimumDoseIntervalNone": "Bat ere ez",

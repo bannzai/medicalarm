@@ -237,6 +237,7 @@
   "medicineImageImport": "Tambahkan obat dari gambar",
   "medicineImageImportReviewTitle": "Obat yang teridentifikasi",
   "medicineImageImportEmpty": "Tidak ada obat yang dapat dikenali dalam gambar",
+  "medicineImageImportSelectableLimit": "Anda hanya dapat menambahkan hingga {count} obat lagi.",
   "minimumDoseInterval": "Jarak antar dosis",
   "minimumDoseIntervalDescription": "Jeda minimum antar dosis sejak dosis terakhir",
   "minimumDoseIntervalNone": "Tidak ada",

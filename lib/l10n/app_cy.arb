@@ -237,6 +237,7 @@
   "medicineImageImport": "Ychwanegu meddyginiaeth o ddelwedd",
   "medicineImageImportReviewTitle": "Meddyginiaethau a adnabuwyd",
   "medicineImageImportEmpty": "Methu adnabod unrhyw feddyginiaeth yn y ddelwedd",
+  "medicineImageImportSelectableLimit": "Gallwch gofrestru hyd at {count} meddyginiaeth arall.",
   "minimumDoseInterval": "Cyfwng rhwng dosau",
   "minimumDoseIntervalDescription": "Yr amser lleiaf rhwng dosau ers y dos blaenorol",
   "minimumDoseIntervalNone": "Dim",

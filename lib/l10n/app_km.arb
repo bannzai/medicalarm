@@ -237,6 +237,7 @@
   "medicineImageImport": "បន្ថែមថ្នាំពីរូបភាព",
   "medicineImageImportReviewTitle": "ថ្នាំដែលបានសម្គាល់",
   "medicineImageImportEmpty": "មិនអាចសម្គាល់ឃើញថ្នាំណាមួយក្នុងរូបភាពបានទេ",
+  "medicineImageImportSelectableLimit": "អ្នកអាចបន្ថែមថ្នាំបានត្រឹមតែ {count} មុខទៀតប៉ុណ្ណោះ។",
   "minimumDoseInterval": "ចន្លោះពេលរវាងដូស",
   "minimumDoseIntervalDescription": "រយៈពេលអប្បបរមារវាងដូស ចាប់ពីដូសមុន",
   "minimumDoseIntervalNone": "គ្មាន",

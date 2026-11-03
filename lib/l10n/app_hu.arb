@@ -237,6 +237,7 @@
   "medicineImageImport": "Gyógyszer hozzáadása képről",
   "medicineImageImportReviewTitle": "Felismert gyógyszerek",
   "medicineImageImportEmpty": "Nem sikerült gyógyszert felismerni a képen",
+  "medicineImageImportSelectableLimit": "Még legfeljebb {count} gyógyszert adhat hozzá.",
   "minimumDoseInterval": "Adagolási időköz",
   "minimumDoseIntervalDescription": "Az előző adag óta eltelő minimális idő a következő adagig",
   "minimumDoseIntervalNone": "Nincs",

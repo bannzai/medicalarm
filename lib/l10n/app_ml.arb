@@ -237,6 +237,7 @@
   "medicineImageImport": "ചിത്രത്തിൽ നിന്ന് മരുന്ന് ചേർക്കുക",
   "medicineImageImportReviewTitle": "തിരിച്ചറിഞ്ഞ മരുന്നുകൾ",
   "medicineImageImportEmpty": "ചിത്രത്തിൽ മരുന്നുകളൊന്നും തിരിച്ചറിയാനായില്ല",
+  "medicineImageImportSelectableLimit": "നിങ്ങൾക്ക് ഇനി പരമാവധി {count} മരുന്നുകൾ കൂടി ചേർക്കാം.",
   "minimumDoseInterval": "ഡോസുകൾക്കിടയിലെ ഇടവേള",
   "minimumDoseIntervalDescription": "മുമ്പത്തെ ഡോസിന് ശേഷം ഡോസുകൾക്കിടയിലെ കുറഞ്ഞ സമയം",
   "minimumDoseIntervalNone": "ഇല്ല",

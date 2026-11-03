@@ -237,6 +237,7 @@
   "medicineImageImport": "Lägg till läkemedel från bild",
   "medicineImageImportReviewTitle": "Identifierade läkemedel",
   "medicineImageImportEmpty": "Det gick inte att identifiera något läkemedel på bilden",
+  "medicineImageImportSelectableLimit": "Du kan lägga till högst {count} läkemedel till.",
   "minimumDoseInterval": "Doseringsintervall",
   "minimumDoseIntervalDescription": "Minsta tid mellan doser sedan den senaste dosen",
   "minimumDoseIntervalNone": "Ingen",

@@ -237,6 +237,7 @@
   "medicineImageImport": "Afegeix un medicament des d’una imatge",
   "medicineImageImportReviewTitle": "Medicaments identificats",
   "medicineImageImportEmpty": "No s’ha pogut identificar cap medicament a la imatge",
+  "medicineImageImportSelectableLimit": "Només podeu afegir {count} medicaments més.",
   "minimumDoseInterval": "Interval entre dosis",
   "minimumDoseIntervalDescription": "Temps mínim entre dosis des de l’última presa",
   "minimumDoseIntervalNone": "Cap",

@@ -237,6 +237,7 @@
   "medicineImageImport": "Medicijn toevoegen vanuit afbeelding",
   "medicineImageImportReviewTitle": "Herkende medicijnen",
   "medicineImageImportEmpty": "Er kon geen medicijn op de afbeelding worden herkend",
+  "medicineImageImportSelectableLimit": "Je kunt nog maximaal {count} medicijnen toevoegen.",
   "minimumDoseInterval": "Tussenpoos tussen doses",
   "minimumDoseIntervalDescription": "Minimale tijd tussen doses sinds de vorige dosis",
   "minimumDoseIntervalNone": "Geen",

@@ -237,6 +237,7 @@
   "medicineImageImport": "Bæta lyfi við úr mynd",
   "medicineImageImportReviewTitle": "Greind lyf",
   "medicineImageImportEmpty": "Ekki tókst að bera kennsl á nein lyf á myndinni",
+  "medicineImageImportSelectableLimit": "Þú getur skráð í mesta lagi {count} lyf til viðbótar.",
   "minimumDoseInterval": "Tímabil milli skammta",
   "minimumDoseIntervalDescription": "Lágmarkstími á milli skammta frá síðasta skammti",
   "minimumDoseIntervalNone": "Ekkert",

@@ -237,6 +237,7 @@
   "medicineImageImport": "Добавяне на лекарство от снимка",
   "medicineImageImportReviewTitle": "Разпознати лекарства",
   "medicineImageImportEmpty": "Не успяхме да разпознаем лекарство на снимката",
+  "medicineImageImportSelectableLimit": "Можете да добавите още най-много {count} лекарства.",
   "minimumDoseInterval": "Интервал между приемите",
   "minimumDoseIntervalDescription": "Минимално време между приемите от последния прием",
   "minimumDoseIntervalNone": "Няма",

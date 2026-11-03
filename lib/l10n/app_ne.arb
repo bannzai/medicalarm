@@ -237,6 +237,7 @@
   "medicineImageImport": "तस्बिरबाट औषधि थप्नुहोस्",
   "medicineImageImportReviewTitle": "पहिचान गरिएका औषधिहरू",
   "medicineImageImportEmpty": "तस्बिरमा कुनै औषधि पहिचान गर्न सकिएन",
+  "medicineImageImportSelectableLimit": "तपाईंले थप बढीमा {count} औषधि दर्ता गर्न सक्नुहुन्छ।",
   "minimumDoseInterval": "खुराकबीचको अन्तराल",
   "minimumDoseIntervalDescription": "अघिल्लो मात्रा लिएपछि मात्राहरूबीचको न्यूनतम समय",
   "minimumDoseIntervalNone": "छैन",
