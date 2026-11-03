@@ -309,5 +309,6 @@
   "onboardingPlanCriticalAlertValue": "Kennisgewings selfs in stilmodus",
   "onboardingPremiumRecommendedTitle": "Die Premium-plan word aanbeveel",
   "onboardingPremiumRecommendedBody": "Hierdie plan oorskry die registrasielimiet van die gratis plan\nMet die Premium-plan kan jy alles registreer",
-  "onboardingPlanStart": "Begin jou plan"
+  "onboardingPlanStart": "Begin jou plan",
+  "featureRequestTitle": "Funksieversoek"
 }

@@ -309,5 +309,6 @@
   "onboardingPlanCriticalAlertValue": "Benachrichtigungen auch im Stummmodus",
   "onboardingPremiumRecommendedTitle": "Der Premium-Plan wird empfohlen",
   "onboardingPremiumRecommendedBody": "Dieser Plan überschreitet das Registrierungslimit des kostenlosen Plans\nMit dem Premium-Plan können Sie alles registrieren",
-  "onboardingPlanStart": "Ihren Plan starten"
+  "onboardingPlanStart": "Ihren Plan starten",
+  "featureRequestTitle": "Funktionswunsch"
 }

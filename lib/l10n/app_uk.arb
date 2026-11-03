@@ -309,5 +309,6 @@
   "onboardingPlanCriticalAlertValue": "Сповіщення навіть у беззвучному режимі",
   "onboardingPremiumRecommendedTitle": "Рекомендуємо преміум-план",
   "onboardingPremiumRecommendedBody": "Цей план перевищує ліміт реєстрацій безкоштовного плану\nЗ планом Premium ви зможете зареєструвати все",
-  "onboardingPlanStart": "Почати свій план"
+  "onboardingPlanStart": "Почати свій план",
+  "featureRequestTitle": "Пропозиція функції"
 }

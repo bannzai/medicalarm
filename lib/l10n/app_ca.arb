@@ -309,5 +309,6 @@
   "onboardingPlanCriticalAlertValue": "Notificacions fins i tot en mode silenciós",
   "onboardingPremiumRecommendedTitle": "Es recomana el pla Premium",
   "onboardingPremiumRecommendedBody": "Aquest pla supera el límit de registres del pla gratuït\nAmb el pla Premium, pots registrar-ho tot",
-  "onboardingPlanStart": "Comença el teu pla"
+  "onboardingPlanStart": "Comença el teu pla",
+  "featureRequestTitle": "Sol·licitud de funció"
 }

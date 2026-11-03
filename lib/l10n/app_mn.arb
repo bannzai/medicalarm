@@ -309,5 +309,6 @@
   "onboardingPlanCriticalAlertValue": "Чимээгүй горимд ч мэдэгдэл",
   "onboardingPremiumRecommendedTitle": "Premium багцыг санал болгож байна",
   "onboardingPremiumRecommendedBody": "Энэ багц нь үнэгүй багцын бүртгэлийн хязгаараас хэтэрнэ\nPremium багцаар бүх зүйлийг бүртгэх боломжтой",
-  "onboardingPlanStart": "Төлөвлөгөөгөө эхлүүлэх"
+  "onboardingPlanStart": "Төлөвлөгөөгөө эхлүүлэх",
+  "featureRequestTitle": "Шинэ боломжийн санал"
 }

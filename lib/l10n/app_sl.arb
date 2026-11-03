@@ -309,5 +309,6 @@
   "onboardingPlanCriticalAlertValue": "Obvestila tudi v tihem načinu",
   "onboardingPremiumRecommendedTitle": "Priporočamo paket Premium",
   "onboardingPremiumRecommendedBody": "Ta paket presega omejitev registracij brezplačnega paketa\nS paketom Premium lahko registrirate vse",
-  "onboardingPlanStart": "Začni svoj načrt"
+  "onboardingPlanStart": "Začni svoj načrt",
+  "featureRequestTitle": "Predlog funkcije"
 }

@@ -309,5 +309,6 @@
   "onboardingPlanCriticalAlertValue": "Известувања и во тивок режим",
   "onboardingPremiumRecommendedTitle": "Се препорачува Premium-планот",
   "onboardingPremiumRecommendedBody": "Овој план го надминува лимитот за регистрации на бесплатниот план\nСо Premium планот можете да регистрирате сè",
-  "onboardingPlanStart": "Започнете го вашиот план"
+  "onboardingPlanStart": "Започнете го вашиот план",
+  "featureRequestTitle": "Предлог за функција"
 }

@@ -309,5 +309,6 @@
   "onboardingPlanCriticalAlertValue": "Powiadomienia nawet w trybie cichym",
   "onboardingPremiumRecommendedTitle": "Polecamy plan Premium",
   "onboardingPremiumRecommendedBody": "Ten plan przekracza limit rejestracji w planie bezpłatnym\nW planie Premium możesz zarejestrować wszystko",
-  "onboardingPlanStart": "Rozpocznij swój plan"
+  "onboardingPlanStart": "Rozpocznij swój plan",
+  "featureRequestTitle": "Propozycja funkcji"
 }

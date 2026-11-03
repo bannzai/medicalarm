@@ -309,5 +309,6 @@
   "onboardingPlanCriticalAlertValue": "Pranešimai net įjungus tylųjį režimą",
   "onboardingPremiumRecommendedTitle": "Rekomenduojamas Premium planas",
   "onboardingPremiumRecommendedBody": "Šis planas viršija nemokamo plano registracijų limitą\nNaudodami Premium planą galite užregistruoti viską",
-  "onboardingPlanStart": "Pradėkite savo planą"
+  "onboardingPlanStart": "Pradėkite savo planą",
+  "featureRequestTitle": "Funkcijos pasiūlymas"
 }

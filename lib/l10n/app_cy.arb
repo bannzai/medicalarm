@@ -309,5 +309,6 @@
   "onboardingPlanCriticalAlertValue": "Hysbysiadau hyd yn oed yn y modd tawel",
   "onboardingPremiumRecommendedTitle": "Argymhellir y cynllun Premium",
   "onboardingPremiumRecommendedBody": "Mae’r cynllun hwn yn fwy na therfyn cofrestru’r cynllun rhad ac am ddim\nGyda’r cynllun Premium gallwch gofrestru popeth",
-  "onboardingPlanStart": "Dechrau ar eich cynllun"
+  "onboardingPlanStart": "Dechrau ar eich cynllun",
+  "featureRequestTitle": "Cais am nodwedd"
 }

@@ -309,5 +309,6 @@
   "onboardingPlanCriticalAlertValue": "ಸೈಲೆಂಟ್ ಮೋಡ್‌ನಲ್ಲೂ ಅಧಿಸೂಚನೆಗಳು",
   "onboardingPremiumRecommendedTitle": "ಪ್ರೀಮಿಯಂ ಪ್ಲಾನ್ ಅನ್ನು ಶಿಫಾರಸು ಮಾಡಲಾಗಿದೆ",
   "onboardingPremiumRecommendedBody": "ಈ ಯೋಜನೆಯು ಉಚಿತ ಯೋಜನೆಯ ನೋಂದಣಿ ಮಿತಿಯನ್ನು ಮೀರಿದೆ\nPremium ಯೋಜನೆಯೊಂದಿಗೆ ಎಲ್ಲವನ್ನೂ ನೋಂದಾಯಿಸಬಹುದು",
-  "onboardingPlanStart": "ನಿಮ್ಮ ಯೋಜನೆಯನ್ನು ಪ್ರಾರಂಭಿಸಿ"
+  "onboardingPlanStart": "ನಿಮ್ಮ ಯೋಜನೆಯನ್ನು ಪ್ರಾರಂಭಿಸಿ",
+  "featureRequestTitle": "ಹೊಸ ವೈಶಿಷ್ಟ್ಯಕ್ಕಾಗಿ ವಿನಂತಿ"
 }

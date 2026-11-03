@@ -309,5 +309,6 @@
   "onboardingPlanCriticalAlertValue": "შეტყობინებები უხმო რეჟიმშიც",
   "onboardingPremiumRecommendedTitle": "რეკომენდებულია Premium გეგმა",
   "onboardingPremiumRecommendedBody": "ეს გეგმა აღემატება უფასო გეგმის რეგისტრაციის ლიმიტს\nPremium გეგმით ყველაფრის რეგისტრაცია შეგიძლიათ",
-  "onboardingPlanStart": "დაიწყეთ თქვენი გეგმა"
+  "onboardingPlanStart": "დაიწყეთ თქვენი გეგმა",
+  "featureRequestTitle": "ფუნქციის შეთავაზება"
 }

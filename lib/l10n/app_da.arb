@@ -309,5 +309,6 @@
   "onboardingPlanCriticalAlertValue": "Notifikationer selv i lydløs tilstand",
   "onboardingPremiumRecommendedTitle": "Premium-planen anbefales",
   "onboardingPremiumRecommendedBody": "Denne plan overskrider registreringsgrænsen for gratisplanen\nMed Premium-planen kan du registrere alt",
-  "onboardingPlanStart": "Start din plan"
+  "onboardingPlanStart": "Start din plan",
+  "featureRequestTitle": "Forslag til funktion"
 }
