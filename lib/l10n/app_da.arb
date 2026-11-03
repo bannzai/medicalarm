@@ -318,5 +318,6 @@
   "featureRequestContentLabel": "Detaljer om dit forslag",
   "featureRequestContentHint": "Skriv gerne, hvilken funktion du ønsker dig",
   "featureRequestContentFooter": "Beskriv gerne, i hvilke situationer du vil bruge det. Det hjælper os med at vurdere dit forslag.",
-  "featureRequestEmailLabel": "E-mailadresse (valgfrit)"
+  "featureRequestEmailLabel": "E-mailadresse (valgfrit)",
+  "featureRequestEmailFooter": "Vi kan bruge den til at afklare detaljer. Vi kan ikke garantere et svar."
 }

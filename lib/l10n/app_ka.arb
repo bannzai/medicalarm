@@ -318,5 +318,6 @@
   "featureRequestContentLabel": "თქვენი მოთხოვნის დეტალები",
   "featureRequestContentHint": "დაწერეთ, რა ფუნქცია გსურთ",
   "featureRequestContentFooter": "გთხოვთ, აღწეროთ კონკრეტულად რა სიტუაციებში გსურთ მისი გამოყენება. ეს დაგვეხმარება თქვენი მოთხოვნის განხილვაში.",
-  "featureRequestEmailLabel": "ელფოსტის მისამართი (არასავალდებულო)"
+  "featureRequestEmailLabel": "ელფოსტის მისამართი (არასავალდებულო)",
+  "featureRequestEmailFooter": "შესაძლოა, დეტალების დასაზუსტებლად გამოვიყენოთ. პასუხის გაცემას ვერ დაგპირდებით."
 }

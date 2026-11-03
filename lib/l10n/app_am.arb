@@ -318,5 +318,6 @@
   "featureRequestContentLabel": "የጥያቄዎ ዝርዝር",
   "featureRequestContentHint": "ምን ዓይነት ባህሪ እንደሚፈልጉ በነፃነት ይጻፉ",
   "featureRequestContentFooter": "በምን ዓይነት ሁኔታ ሊጠቀሙበት እንደሚፈልጉ በዝርዝር ይግለጹ። ይህ ጥያቄዎን ለማጤን ይረዳናል።",
-  "featureRequestEmailLabel": "የኢሜይል አድራሻ (አማራጭ)"
+  "featureRequestEmailLabel": "የኢሜይል አድራሻ (አማራጭ)",
+  "featureRequestEmailFooter": "ዝርዝሮችን ለማረጋገጥ ልንጠቀምበት እንችላለን። ምላሽ እንደሚሰጥ ማረጋገጥ አንችልም።"
 }

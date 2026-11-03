@@ -318,5 +318,6 @@
   "featureRequestContentLabel": "ਤੁਹਾਡੀ ਬੇਨਤੀ ਦੇ ਵੇਰਵੇ",
   "featureRequestContentHint": "ਤੁਸੀਂ ਕਿਹੜੀ ਸਹੂਲਤ ਚਾਹੁੰਦੇ ਹੋ, ਬੇਝਿਜਕ ਲਿਖੋ",
   "featureRequestContentFooter": "ਕਿਰਪਾ ਕਰਕੇ ਸਪਸ਼ਟ ਤੌਰ 'ਤੇ ਲਿਖੋ ਕਿ ਤੁਸੀਂ ਇਸਨੂੰ ਕਿਹੜੀਆਂ ਸਥਿਤੀਆਂ ਵਿੱਚ ਵਰਤਣਾ ਚਾਹੁੰਦੇ ਹੋ। ਇਸ ਨਾਲ ਸਾਨੂੰ ਤੁਹਾਡੀ ਬੇਨਤੀ 'ਤੇ ਵਿਚਾਰ ਕਰਨ ਵਿੱਚ ਮਦਦ ਮਿਲੇਗੀ।",
-  "featureRequestEmailLabel": "ਈਮੇਲ ਪਤਾ (ਵਿਕਲਪਿਕ)"
+  "featureRequestEmailLabel": "ਈਮੇਲ ਪਤਾ (ਵਿਕਲਪਿਕ)",
+  "featureRequestEmailFooter": "ਵੇਰਵਿਆਂ ਦੀ ਪੁਸ਼ਟੀ ਕਰਨ ਲਈ ਅਸੀਂ ਇਸਦੀ ਵਰਤੋਂ ਕਰ ਸਕਦੇ ਹਾਂ। ਅਸੀਂ ਜਵਾਬ ਦੀ ਗਾਰੰਟੀ ਨਹੀਂ ਦੇ ਸਕਦੇ।"
 }

@@ -318,5 +318,6 @@
   "featureRequestContentLabel": "รายละเอียดคำขอของคุณ",
   "featureRequestContentHint": "เขียนบอกได้เลยว่าคุณอยากได้ฟีเจอร์อะไร",
   "featureRequestContentFooter": "โปรดระบุสถานการณ์ที่คุณต้องการใช้งานอย่างชัดเจน เพื่อช่วยให้เราพิจารณาคำขอของคุณได้",
-  "featureRequestEmailLabel": "ที่อยู่อีเมล (ไม่บังคับ)"
+  "featureRequestEmailLabel": "ที่อยู่อีเมล (ไม่บังคับ)",
+  "featureRequestEmailFooter": "เราอาจใช้ข้อมูลนี้เพื่อสอบถามรายละเอียดเพิ่มเติม แต่ไม่สามารถรับประกันว่าจะตอบกลับได้"
 }

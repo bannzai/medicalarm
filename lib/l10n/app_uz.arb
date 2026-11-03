@@ -318,5 +318,6 @@
   "featureRequestContentLabel": "Taklifingiz tafsilotlari",
   "featureRequestContentHint": "Qanday funksiya xohlashingizni bemalol yozing",
   "featureRequestContentFooter": "Undan qaysi vaziyatlarda foydalanmoqchi ekaningizni aniq yozing. Bu so‘rovingizni ko‘rib chiqishimizga yordam beradi.",
-  "featureRequestEmailLabel": "Elektron pochta manzili (ixtiyoriy)"
+  "featureRequestEmailLabel": "Elektron pochta manzili (ixtiyoriy)",
+  "featureRequestEmailFooter": "Tafsilotlarni aniqlashtirish uchun undan foydalanishimiz mumkin. Javob berilishini kafolatlay olmaymiz."
 }

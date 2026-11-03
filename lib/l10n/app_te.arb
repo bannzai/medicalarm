@@ -318,5 +318,6 @@
   "featureRequestContentLabel": "మీ అభ్యర్థన వివరాలు",
   "featureRequestContentHint": "మీకు ఏ ఫీచర్ కావాలో సంకోచించకుండా రాయండి",
   "featureRequestContentFooter": "మీరు దీన్ని ఏ సందర్భాల్లో ఉపయోగించాలనుకుంటున్నారో దయచేసి స్పష్టంగా రాయండి. మీ అభ్యర్థనను పరిశీలించడానికి ఇది మాకు సహాయపడుతుంది.",
-  "featureRequestEmailLabel": "ఇమెయిల్ చిరునామా (ఐచ్ఛికం)"
+  "featureRequestEmailLabel": "ఇమెయిల్ చిరునామా (ఐచ్ఛికం)",
+  "featureRequestEmailFooter": "వివరాలను నిర్ధారించడానికి దీన్ని ఉపయోగించవచ్చు. సమాధానం ఇస్తామని హామీ ఇవ్వలేము."
 }

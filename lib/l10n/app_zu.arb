@@ -318,5 +318,6 @@
   "featureRequestContentLabel": "Imininingwane yesicelo sakho",
   "featureRequestContentHint": "Bhala ngokukhululekile ukuthi yisiphi isici osifunayo",
   "featureRequestContentFooter": "Sicela uchaze izimo ezithile ongathanda ukukusebenzisa kuzo. Lokhu kuzosisiza sicabangele isicelo sakho.",
-  "featureRequestEmailLabel": "Ikheli le-imeyili (uyazikhethela)"
+  "featureRequestEmailLabel": "Ikheli le-imeyili (uyazikhethela)",
+  "featureRequestEmailFooter": "Singayisebenzisa ukuze siqinisekise imininingwane. Asikwazi ukuqinisekisa ukuthi uzothola impendulo."
 }

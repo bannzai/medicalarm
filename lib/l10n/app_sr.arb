@@ -318,5 +318,6 @@
   "featureRequestContentLabel": "Детаљи вашег предлога",
   "featureRequestContentHint": "Напишите коју функцију бисте желели",
   "featureRequestContentFooter": "Опишите конкретне ситуације у којима бисте желели да то користите. То ће нам помоћи да размотримо ваш предлог.",
-  "featureRequestEmailLabel": "Адреса е-поште (необавезно)"
+  "featureRequestEmailLabel": "Адреса е-поште (необавезно)",
+  "featureRequestEmailFooter": "Можемо га користити за разјашњење детаља. Не можемо да гарантујемо одговор."
 }

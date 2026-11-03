@@ -318,5 +318,6 @@
   "featureRequestContentLabel": "Detalhes do seu pedido",
   "featureRequestContentHint": "Escreva qual funcionalidade gostaria de ter",
   "featureRequestContentFooter": "Descreva em que situações específicas gostaria de usar esta funcionalidade. Isso ajudará a avaliar o seu pedido.",
-  "featureRequestEmailLabel": "Endereço de e-mail (opcional)"
+  "featureRequestEmailLabel": "Endereço de e-mail (opcional)",
+  "featureRequestEmailFooter": "Podemos usá-lo para esclarecer detalhes. Não podemos garantir uma resposta."
 }

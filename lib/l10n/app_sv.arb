@@ -318,5 +318,6 @@
   "featureRequestContentLabel": "Detaljer om ditt förslag",
   "featureRequestContentHint": "Skriv gärna vilken funktion du önskar",
   "featureRequestContentFooter": "Beskriv gärna i vilka situationer du vill använda det. Det hjälper oss att bedöma ditt förslag.",
-  "featureRequestEmailLabel": "E-postadress (valfritt)"
+  "featureRequestEmailLabel": "E-postadress (valfritt)",
+  "featureRequestEmailFooter": "Vi kan använda den för att reda ut detaljer. Vi kan inte garantera ett svar."
 }

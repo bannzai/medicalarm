@@ -318,5 +318,6 @@
   "featureRequestContentLabel": "Javaslatának részletei",
   "featureRequestContentHint": "Írja meg, milyen funkciót szeretne",
   "featureRequestContentFooter": "Kérjük, írja le, milyen helyzetekben szeretné használni. Ez segít mérlegelni a javaslatát.",
-  "featureRequestEmailLabel": "E-mail-cím (nem kötelező)"
+  "featureRequestEmailLabel": "E-mail-cím (nem kötelező)",
+  "featureRequestEmailFooter": "Felhasználhatjuk a részletek tisztázásához. Választ nem tudunk garantálni."
 }

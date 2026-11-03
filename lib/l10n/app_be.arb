@@ -318,5 +318,6 @@
   "featureRequestContentLabel": "Падрабязнасці вашай прапановы",
   "featureRequestContentHint": "Напішыце, якую функцыю вы хацелі б бачыць",
   "featureRequestContentFooter": "Калі ласка, апішыце, у якіх сітуацыях вы хацелі б гэтым карыстацца. Гэта дапаможа нам разгледзець ваш запыт.",
-  "featureRequestEmailLabel": "Адрас электроннай пошты (неабавязкова)"
+  "featureRequestEmailLabel": "Адрас электроннай пошты (неабавязкова)",
+  "featureRequestEmailFooter": "Мы можам выкарыстаць яго, каб удакладніць дэталі. Адказ не гарантуецца."
 }

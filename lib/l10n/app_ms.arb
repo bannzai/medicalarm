@@ -318,5 +318,6 @@
   "featureRequestContentLabel": "Butiran permintaan anda",
   "featureRequestContentHint": "Sila tulis ciri yang anda inginkan",
   "featureRequestContentFooter": "Sila terangkan secara khusus situasi anda ingin menggunakannya. Ini membantu kami mempertimbangkan permintaan anda.",
-  "featureRequestEmailLabel": "Alamat e-mel (pilihan)"
+  "featureRequestEmailLabel": "Alamat e-mel (pilihan)",
+  "featureRequestEmailFooter": "Kami mungkin menggunakannya untuk mengesahkan butiran. Kami tidak dapat menjamin balasan."
 }

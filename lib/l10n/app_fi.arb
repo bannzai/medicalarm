@@ -318,5 +318,6 @@
   "featureRequestContentLabel": "Ehdotuksesi tiedot",
   "featureRequestContentHint": "Kerro, millaisen ominaisuuden haluaisit",
   "featureRequestContentFooter": "Kerro, millaisissa tilanteissa haluaisit käyttää sitä. Se auttaa meitä arvioimaan ehdotustasi.",
-  "featureRequestEmailLabel": "Sähköpostiosoite (valinnainen)"
+  "featureRequestEmailLabel": "Sähköpostiosoite (valinnainen)",
+  "featureRequestEmailFooter": "Voimme käyttää sitä tietojen tarkentamiseen. Emme voi taata vastausta."
 }

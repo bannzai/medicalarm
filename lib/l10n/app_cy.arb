@@ -318,5 +318,6 @@
   "featureRequestContentLabel": "Manylion eich cais",
   "featureRequestContentHint": "Ysgrifennwch pa nodwedd yr hoffech ei chael",
   "featureRequestContentFooter": "Disgrifiwch y sefyllfaoedd penodol yr hoffech ei ddefnyddio ynddynt. Bydd hyn yn ein helpu i ystyried eich cais.",
-  "featureRequestEmailLabel": "Cyfeiriad e-bost (dewisol)"
+  "featureRequestEmailLabel": "Cyfeiriad e-bost (dewisol)",
+  "featureRequestEmailFooter": "Mae’n bosibl y byddwn yn ei ddefnyddio i gadarnhau manylion. Ni allwn warantu ateb."
 }

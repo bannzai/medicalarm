@@ -318,5 +318,6 @@
   "featureRequestContentLabel": "ລາຍລະອຽດຄຳຂໍຂອງທ່ານ",
   "featureRequestContentHint": "ຂຽນບອກໄດ້ເລີຍວ່າທ່ານຢາກໄດ້ຟັງຊັນແບບໃດ",
   "featureRequestContentFooter": "ກະລຸນາອະທິບາຍໃຫ້ຊັດເຈນວ່າທ່ານຢາກໃຊ້ມັນໃນສະຖານະການໃດ. ຂໍ້ມູນນີ້ຈະຊ່ວຍໃຫ້ພວກເຮົາພິຈາລະນາຄຳຂໍຂອງທ່ານ.",
-  "featureRequestEmailLabel": "ທີ່ຢູ່ອີເມວ (ບໍ່ບັງຄັບ)"
+  "featureRequestEmailLabel": "ທີ່ຢູ່ອີເມວ (ບໍ່ບັງຄັບ)",
+  "featureRequestEmailFooter": "ພວກເຮົາອາດໃຊ້ມັນເພື່ອຢືນຢັນລາຍລະອຽດ. ບໍ່ສາມາດຮັບປະກັນວ່າຈະຕອບກັບໄດ້."
 }

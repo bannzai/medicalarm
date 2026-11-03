@@ -318,5 +318,6 @@
   "featureRequestContentLabel": "Szczegóły Twojej propozycji",
   "featureRequestContentHint": "Napisz, jakiej funkcji potrzebujesz",
   "featureRequestContentFooter": "Opisz, w jakich konkretnie sytuacjach chcesz z tego korzystać. Pomoże nam to rozpatrzyć Twoją propozycję.",
-  "featureRequestEmailLabel": "Adres e-mail (opcjonalnie)"
+  "featureRequestEmailLabel": "Adres e-mail (opcjonalnie)",
+  "featureRequestEmailFooter": "Możemy go użyć do wyjaśnienia szczegółów. Nie możemy zagwarantować odpowiedzi."
 }

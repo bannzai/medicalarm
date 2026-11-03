@@ -318,5 +318,6 @@
   "featureRequestContentLabel": "Detalles da túa solicitude",
   "featureRequestContentHint": "Escribe que función che gustaría ter",
   "featureRequestContentFooter": "Describe en que situacións concretas che gustaría usalo. Isto axudaranos a valorar a túa proposta.",
-  "featureRequestEmailLabel": "Enderezo de correo electrónico (opcional)"
+  "featureRequestEmailLabel": "Enderezo de correo electrónico (opcional)",
+  "featureRequestEmailFooter": "Podemos usalo para aclarar detalles. Non podemos garantir unha resposta."
 }

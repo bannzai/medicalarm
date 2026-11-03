@@ -318,5 +318,6 @@
   "featureRequestContentLabel": "פרטי הבקשה שלך",
   "featureRequestContentHint": "אפשר לכתוב איזו תכונה היית רוצה",
   "featureRequestContentFooter": "נשמח אם תתארו באילו מצבים תרצו להשתמש בזה. התיאור יעזור לנו לבחון את הבקשה.",
-  "featureRequestEmailLabel": "כתובת אימייל (לא חובה)"
+  "featureRequestEmailLabel": "כתובת אימייל (לא חובה)",
+  "featureRequestEmailFooter": "ייתכן שנשתמש בו כדי לברר פרטים. אין באפשרותנו להבטיח מענה."
 }

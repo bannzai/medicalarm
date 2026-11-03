@@ -318,5 +318,6 @@
   "featureRequestContentLabel": "Details zu Ihrem Vorschlag",
   "featureRequestContentHint": "Schriibed Si, weli Funktion Si sich wünsche",
   "featureRequestContentFooter": "Beschriibed bitte gnau, i wellne Situatione Si das bruuche möchted. Das hilft eus, Ihre Vorschlag z prüefe.",
-  "featureRequestEmailLabel": "E-Mail-Adräss (optional)"
+  "featureRequestEmailLabel": "E-Mail-Adräss (optional)",
+  "featureRequestEmailFooter": "Mir chönd s bruuche, zum Detail z kläre. Mir chönd kei Antwort garantiere."
 }

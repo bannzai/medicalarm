@@ -318,5 +318,6 @@
   "featureRequestContentLabel": "Таны хүсэлтийн дэлгэрэнгүй",
   "featureRequestContentHint": "Ямар боломж хүсэж байгаагаа чөлөөтэй бичнэ үү",
   "featureRequestContentFooter": "Үүнийг ямар нөхцөлд ашиглахыг хүсэж байгаагаа тодорхой бичнэ үү. Энэ нь таны хүсэлтийг авч үзэхэд тусална.",
-  "featureRequestEmailLabel": "Имэйл хаяг (заавал биш)"
+  "featureRequestEmailLabel": "Имэйл хаяг (заавал биш)",
+  "featureRequestEmailFooter": "Дэлгэрэнгүй мэдээллийг тодруулахын тулд үүнийг ашиглаж магадгүй. Хариу өгөхийг баталгаажуулах боломжгүй."
 }

@@ -318,5 +318,6 @@
   "featureRequestContentLabel": "جزئیات درخواست شما",
   "featureRequestContentHint": "بنویسید چه قابلیتی می‌خواهید",
   "featureRequestContentFooter": "لطفاً توضیح دهید در چه موقعیت‌هایی می‌خواهید از آن استفاده کنید. این به بررسی درخواست شما کمک می‌کند.",
-  "featureRequestEmailLabel": "نشانی ایمیل (اختیاری)"
+  "featureRequestEmailLabel": "نشانی ایمیل (اختیاری)",
+  "featureRequestEmailFooter": "ممکن است برای بررسی جزئیات از آن استفاده کنیم. نمی‌توانیم پاسخ‌گویی را تضمین کنیم."
 }

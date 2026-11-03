@@ -318,5 +318,6 @@
   "featureRequestContentLabel": "Podrobnosti vašeho návrhu",
   "featureRequestContentHint": "Napište, jakou funkci byste si přáli",
   "featureRequestContentFooter": "Popište prosím konkrétní situace, ve kterých byste to chtěli používat. Pomůže nám to váš návrh posoudit.",
-  "featureRequestEmailLabel": "E-mailová adresa (nepovinné)"
+  "featureRequestEmailLabel": "E-mailová adresa (nepovinné)",
+  "featureRequestEmailFooter": "Můžeme jej použít k upřesnění podrobností. Odpověď nemůžeme zaručit."
 }

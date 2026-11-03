@@ -318,5 +318,6 @@
   "featureRequestContentLabel": "Detalls de la sol·licitud",
   "featureRequestContentHint": "Expliqueu quina funció us agradaria tenir",
   "featureRequestContentFooter": "Descriviu en quines situacions ho voldríeu fer servir. Això ens ajudarà a valorar la vostra proposta.",
-  "featureRequestEmailLabel": "Adreça electrònica (opcional)"
+  "featureRequestEmailLabel": "Adreça electrònica (opcional)",
+  "featureRequestEmailFooter": "El podem fer servir per confirmar detalls. No podem garantir una resposta."
 }

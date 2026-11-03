@@ -318,5 +318,6 @@
   "featureRequestContentLabel": "Λεπτομέρειες του αιτήματός σας",
   "featureRequestContentHint": "Γράψτε ποια λειτουργία θα θέλατε",
   "featureRequestContentFooter": "Περιγράψτε συγκεκριμένα σε ποιες περιπτώσεις θα θέλατε να το χρησιμοποιήσετε. Αυτό θα μας βοηθήσει να εξετάσουμε το αίτημά σας.",
-  "featureRequestEmailLabel": "Διεύθυνση email (προαιρετικά)"
+  "featureRequestEmailLabel": "Διεύθυνση email (προαιρετικά)",
+  "featureRequestEmailFooter": "Μπορεί να το χρησιμοποιήσουμε για να διευκρινίσουμε λεπτομέρειες. Δεν μπορούμε να εγγυηθούμε απάντηση."
 }
