@@ -242,6 +242,7 @@
   "medicineImageImportCompletedSnackbar": "{count} médicaments enregistrés",
   "medicineImageImportTimeFallbackCaption": "L’heure de prise n’a pas pu être lue. Une heure provisoire a été définie. Vous pourrez la modifier après l’enregistrement.",
   "medicineImageImportDroppedSchedulesCaption": "{count} horaires de prise dépassant la limite ne seront pas enregistrés",
+  "medicineImageImportGroupChangedError": "L’enregistrement a été annulé, car le groupe a changé.",
   "minimumDoseInterval": "Intervalle entre les prises",
   "minimumDoseIntervalDescription": "Délai minimum entre les prises depuis la dernière prise",
   "minimumDoseIntervalNone": "Aucun",

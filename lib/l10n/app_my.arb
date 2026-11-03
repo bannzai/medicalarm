@@ -242,6 +242,7 @@
   "medicineImageImportCompletedSnackbar": "ဆေး {count} မျိုးကို စာရင်းသွင်းပြီးပါပြီ",
   "medicineImageImportTimeFallbackCaption": "ဆေးသောက်ချိန်ကို ဖတ်၍မရသောကြောင့် ယာယီအချိန် သတ်မှတ်ထားသည်။ သိမ်းဆည်းပြီးနောက် ပြင်ဆင်နိုင်သည်။",
   "medicineImageImportDroppedSchedulesCaption": "ကန့်သတ်ချက်ကျော်လွန်သော ဆေးသောက်ချိန် {count} ခုကို မှတ်ပုံတင်မည်မဟုတ်ပါ",
+  "medicineImageImportGroupChangedError": "အဖွဲ့ပြောင်းလဲသွားသောကြောင့် စာရင်းသွင်းခြင်းကို ပယ်ဖျက်လိုက်ပါသည်။",
   "minimumDoseInterval": "ဆေးသောက်ချိန်ကြားကာလ",
   "minimumDoseIntervalDescription": "ယခင်ဆေးသောက်ပြီးနောက် ဆေးပမာဏများကြား အနည်းဆုံးကြာချိန်",
   "minimumDoseIntervalNone": "မရှိပါ",

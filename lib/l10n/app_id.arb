@@ -242,6 +242,7 @@
   "medicineImageImportCompletedSnackbar": "{count} obat berhasil didaftarkan",
   "medicineImageImportTimeFallbackCaption": "Waktu minum obat tidak terbaca, jadi waktu sementara telah ditetapkan. Anda dapat mengubahnya setelah menyimpan.",
   "medicineImageImportDroppedSchedulesCaption": "{count} waktu minum obat yang melebihi batas tidak akan didaftarkan",
+  "medicineImageImportGroupChangedError": "Pendaftaran dibatalkan karena grup berubah.",
   "minimumDoseInterval": "Jarak antar dosis",
   "minimumDoseIntervalDescription": "Jeda minimum antar dosis sejak dosis terakhir",
   "minimumDoseIntervalNone": "Tidak ada",

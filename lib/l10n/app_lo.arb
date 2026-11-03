@@ -242,6 +242,7 @@
   "medicineImageImportCompletedSnackbar": "ລົງທະບຽນຢາ {count} ລາຍການແລ້ວ",
   "medicineImageImportTimeFallbackCaption": "ບໍ່ສາມາດອ່ານເວລາກິນຢາໄດ້ ຈຶ່ງກຳນົດເວລາຊົ່ວຄາວໄວ້. ທ່ານສາມາດແກ້ໄຂໄດ້ຫຼັງຈາກບັນທຶກ.",
   "medicineImageImportDroppedSchedulesCaption": "ເວລາກິນຢາ {count} ລາຍການທີ່ເກີນຂີດຈຳກັດຈະບໍ່ຖືກບັນທຶກ",
+  "medicineImageImportGroupChangedError": "ຍົກເລີກການລົງທະບຽນແລ້ວ ເນື່ອງຈາກກຸ່ມປ່ຽນໄປ.",
   "minimumDoseInterval": "ໄລຍະຫ່າງລະຫວ່າງການກິນຢາ",
   "minimumDoseIntervalDescription": "ໄລຍະເວລາຂັ້ນຕ່ຳລະຫວ່າງການກິນຢາ ຫຼັງຈາກຄັ້ງກ່ອນ",
   "minimumDoseIntervalNone": "ບໍ່ມີ",

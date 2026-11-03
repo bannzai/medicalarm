@@ -242,6 +242,7 @@
   "medicineImageImportCompletedSnackbar": "{count} дәрі тіркелді",
   "medicineImageImportTimeFallbackCaption": "Дәріні қабылдау уақытын оқу мүмкін болмады, сондықтан уақытша уақыт қойылды. Сақтағаннан кейін оны өзгерте аласыз.",
   "medicineImageImportDroppedSchedulesCaption": "Шектен асқан дәрі қабылдаудың {count} уақыты тіркелмейді",
+  "medicineImageImportGroupChangedError": "Топ өзгергендіктен, тіркеу тоқтатылды.",
   "minimumDoseInterval": "Дозалар арасындағы аралық",
   "minimumDoseIntervalDescription": "Алдыңғы дозадан кейін өтуі тиіс ең аз уақыт",
   "minimumDoseIntervalNone": "Жоқ",

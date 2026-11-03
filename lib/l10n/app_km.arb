@@ -242,6 +242,7 @@
   "medicineImageImportCompletedSnackbar": "បានចុះបញ្ជីថ្នាំចំនួន {count} មុខ",
   "medicineImageImportTimeFallbackCaption": "មិនអាចអានម៉ោងលេបថ្នាំបានទេ ដូច្នេះបានកំណត់ម៉ោងបណ្ដោះអាសន្ន។ អ្នកអាចកែប្រែវាបន្ទាប់ពីរក្សាទុក។",
   "medicineImageImportDroppedSchedulesCaption": "ម៉ោងលេបថ្នាំចំនួន {count} ដែលលើសកំណត់ នឹងមិនត្រូវបានចុះឈ្មោះទេ",
+  "medicineImageImportGroupChangedError": "ការចុះឈ្មោះត្រូវបានលុបចោល ព្រោះក្រុមបានផ្លាស់ប្តូរ។",
   "minimumDoseInterval": "ចន្លោះពេលរវាងដូស",
   "minimumDoseIntervalDescription": "រយៈពេលអប្បបរមារវាងដូស ចាប់ពីដូសមុន",
   "minimumDoseIntervalNone": "គ្មាន",

@@ -242,6 +242,7 @@
   "medicineImageImportCompletedSnackbar": "Reģistrētas zāles: {count}",
   "medicineImageImportTimeFallbackCaption": "Neizdevās nolasīt zāļu lietošanas laiku, tāpēc iestatīts pagaidu laiks. Pēc saglabāšanas to varēsiet mainīt.",
   "medicineImageImportDroppedSchedulesCaption": "{count} zāļu lietošanas laiki, kas pārsniedz ierobežojumu, netiks saglabāti",
+  "medicineImageImportGroupChangedError": "Reģistrācija tika atcelta, jo mainījās grupa.",
   "minimumDoseInterval": "Devu lietošanas intervāls",
   "minimumDoseIntervalDescription": "Minimālais laiks starp devām kopš iepriekšējās devas",
   "minimumDoseIntervalNone": "Nav",

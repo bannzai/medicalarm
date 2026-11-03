@@ -242,6 +242,7 @@
   "medicineImageImportCompletedSnackbar": "Registrirano lijekova: {count}",
   "medicineImageImportTimeFallbackCaption": "Vrijeme uzimanja lijeka nije se moglo očitati, pa je postavljeno privremeno vrijeme. Možete ga urediti nakon spremanja.",
   "medicineImageImportDroppedSchedulesCaption": "{count} termina uzimanja lijeka iznad ograničenja neće biti dodano",
+  "medicineImageImportGroupChangedError": "Registracija je otkazana jer je grupa promijenjena.",
   "minimumDoseInterval": "Razmak između doza",
   "minimumDoseIntervalDescription": "Minimalni razmak između doza od prethodne doze",
   "minimumDoseIntervalNone": "Nema",

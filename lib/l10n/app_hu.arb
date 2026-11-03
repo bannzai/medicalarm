@@ -242,6 +242,7 @@
   "medicineImageImportCompletedSnackbar": "Regisztrált gyógyszerek: {count}",
   "medicineImageImportTimeFallbackCaption": "A gyógyszer bevételének időpontját nem sikerült beolvasni, ezért ideiglenes időpont lett beállítva. Mentés után módosíthatja.",
   "medicineImageImportDroppedSchedulesCaption": "A korlátot meghaladó {count} gyógyszerbevételi időpont nem lesz mentve",
+  "medicineImageImportGroupChangedError": "A regisztráció megszakadt, mert megváltozott a csoport.",
   "minimumDoseInterval": "Adagolási időköz",
   "minimumDoseIntervalDescription": "Az előző adag óta eltelő minimális idő a következő adagig",
   "minimumDoseIntervalNone": "Nincs",

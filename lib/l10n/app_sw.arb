@@ -242,6 +242,7 @@
   "medicineImageImportCompletedSnackbar": "Dawa {count} zimesajiliwa",
   "medicineImageImportTimeFallbackCaption": "Muda wa kutumia dawa haukuweza kusomwa, kwa hiyo muda wa muda umewekwa. Unaweza kuubadilisha baada ya kuhifadhi.",
   "medicineImageImportDroppedSchedulesCaption": "Nyakati {count} za kutumia dawa zinazozidi kikomo hazitasajiliwa",
+  "medicineImageImportGroupChangedError": "Usajili umeghairiwa kwa sababu kikundi kimebadilika.",
   "minimumDoseInterval": "Muda kati ya dozi",
   "minimumDoseIntervalDescription": "Muda wa chini kati ya dozi tangu dozi ya awali",
   "minimumDoseIntervalNone": "Hakuna",

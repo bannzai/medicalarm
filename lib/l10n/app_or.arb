@@ -242,6 +242,7 @@
   "medicineImageImportCompletedSnackbar": "{count}ଟି ଔଷଧ ପଞ୍ଜୀକୃତ ହୋଇଛି",
   "medicineImageImportTimeFallbackCaption": "ଔଷଧ ଖାଇବା ସମୟ ପଢ଼ି ହେଲା ନାହିଁ, ତେଣୁ ଏକ ଅସ୍ଥାୟୀ ସମୟ ରଖାଯାଇଛି। ସେଭ୍ କରିବା ପରେ ଏହାକୁ ବଦଳାଇ ପାରିବେ।",
   "medicineImageImportDroppedSchedulesCaption": "ସୀମା ଅତିକ୍ରମ କରିଥିବା ଔଷଧ ସେବନର {count}ଟି ସମୟ ପଞ୍ଜୀକୃତ ହେବ ନାହିଁ",
+  "medicineImageImportGroupChangedError": "ଗୋଷ୍ଠୀ ବଦଳିଯାଇଥିବାରୁ ପଞ୍ଜୀକରଣ ବାତିଲ କରାଯାଇଛି।",
   "minimumDoseInterval": "ଔଷଧ ସେବନ ବ୍ୟବଧାନ",
   "minimumDoseIntervalDescription": "ପୂର୍ବ ଡୋଜ୍ ପରଠାରୁ ଡୋଜ୍ ମଧ୍ୟରେ ସର୍ବନିମ୍ନ ସମୟ",
   "minimumDoseIntervalNone": "ନାହିଁ",

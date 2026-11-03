@@ -242,6 +242,7 @@
   "medicineImageImportCompletedSnackbar": "ඖෂධ {count}ක් ලියාපදිංචි කර ඇත",
   "medicineImageImportTimeFallbackCaption": "ඖෂධය ගත යුතු වේලාව කියවිය නොහැකි වූ නිසා තාවකාලික වේලාවක් සකසා ඇත. සුරැකීමෙන් පසු එය වෙනස් කළ හැක.",
   "medicineImageImportDroppedSchedulesCaption": "සීමාව ඉක්මවන ඖෂධ ගන්නා වේලාවන් {count}ක් ලියාපදිංචි නොකෙරේ",
+  "medicineImageImportGroupChangedError": "සමූහය වෙනස් වූ බැවින් ලියාපදිංචිය අවලංගු කරන ලදී.",
   "minimumDoseInterval": "මාත්‍රා අතර පරතරය",
   "minimumDoseIntervalDescription": "පෙර මාත්‍රාවෙන් පසු මාත්‍රා අතර අවම කාලය",
   "minimumDoseIntervalNone": "නැත",

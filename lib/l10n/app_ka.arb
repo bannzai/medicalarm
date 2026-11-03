@@ -242,6 +242,7 @@
   "medicineImageImportCompletedSnackbar": "დარეგისტრირდა {count} წამალი",
   "medicineImageImportTimeFallbackCaption": "წამლის მიღების დრო ვერ ამოვიკითხეთ, ამიტომ მითითებულია დროებითი დრო. შენახვის შემდეგ მისი შეცვლა შეგიძლიათ.",
   "medicineImageImportDroppedSchedulesCaption": "ლიმიტს გადაცილებული წამლის მიღების {count} დრო არ დარეგისტრირდება",
+  "medicineImageImportGroupChangedError": "რეგისტრაცია გაუქმდა, რადგან ჯგუფი შეიცვალა.",
   "minimumDoseInterval": "დოზებს შორის ინტერვალი",
   "minimumDoseIntervalDescription": "წინა დოზის მიღებიდან გასავლელი მინიმალური დრო",
   "minimumDoseIntervalNone": "არცერთი",

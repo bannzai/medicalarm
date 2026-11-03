@@ -242,6 +242,7 @@
   "medicineImageImportCompletedSnackbar": "{count}টা ঔষধ পঞ্জীয়ন কৰা হৈছে",
   "medicineImageImportTimeFallbackCaption": "ঔষধ খোৱাৰ সময় পঢ়িব নোৱাৰাৰ বাবে অস্থায়ী সময় নিৰ্ধাৰণ কৰা হৈছে। পঞ্জীয়ন কৰাৰ পিছত সলনি কৰিব পাৰিব।",
   "medicineImageImportDroppedSchedulesCaption": "সীমা অতিক্ৰম কৰা ঔষধ খোৱাৰ {count}টা সময় পঞ্জীয়ন কৰা নহ’ব",
+  "medicineImageImportGroupChangedError": "গোট সলনি হোৱাৰ বাবে পঞ্জীয়ন বাতিল কৰা হৈছে।",
   "minimumDoseInterval": "ঔষধ সেৱনৰ ব্যৱধান",
   "minimumDoseIntervalDescription": "আগৰ পালিৰ পিছত ন্যূনতম বিৰতিৰ সময়",
   "minimumDoseIntervalNone": "নাই",

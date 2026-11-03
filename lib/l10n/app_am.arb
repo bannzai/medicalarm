@@ -242,6 +242,7 @@
   "medicineImageImportCompletedSnackbar": "{count} መድኃኒቶች ተመዝግበዋል",
   "medicineImageImportTimeFallbackCaption": "መድኃኒቱን የሚወስዱበትን ሰዓት ማንበብ ስላልተቻለ ጊዜያዊ ሰዓት ተቀምጧል። ከመመዝገብ በኋላ ማስተካከል ይችላሉ።",
   "medicineImageImportDroppedSchedulesCaption": "ከተፈቀደው ገደብ በላይ የሆኑ {count} የመድኃኒት መውሰጃ ሰዓቶች አይመዘገቡም",
+  "medicineImageImportGroupChangedError": "ቡድኑ ስለተቀየረ ምዝገባው ተሰርዟል።",
   "minimumDoseInterval": "የመውሰጃ ክፍተት",
   "minimumDoseIntervalDescription": "ከቀደመው የመድኃኒት መውሰድ በኋላ ቢያንስ የሚቆይ ጊዜ",
   "minimumDoseIntervalNone": "የለም",

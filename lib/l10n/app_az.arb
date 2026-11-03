@@ -242,6 +242,7 @@
   "medicineImageImportCompletedSnackbar": "{count} dərman qeydiyyata alındı",
   "medicineImageImportTimeFallbackCaption": "Dərman qəbulu vaxtını oxumaq mümkün olmadığından müvəqqəti vaxt təyin edilib. Qeydiyyatdan sonra onu dəyişə bilərsiniz.",
   "medicineImageImportDroppedSchedulesCaption": "Limiti aşan {count} dərman qəbulu vaxtı qeydə alınmayacaq",
+  "medicineImageImportGroupChangedError": "Qrup dəyişdiyi üçün qeydiyyat ləğv edildi.",
   "minimumDoseInterval": "Doza intervalı",
   "minimumDoseIntervalDescription": "Əvvəlki dozadan sonra keçməli olan minimum vaxt",
   "minimumDoseIntervalNone": "Yoxdur",

@@ -242,6 +242,7 @@
   "medicineImageImportCompletedSnackbar": "Zarejestrowano leków: {count}",
   "medicineImageImportTimeFallbackCaption": "Nie udało się odczytać godziny przyjęcia leku, dlatego ustawiono godzinę tymczasową. Możesz ją zmienić po zapisaniu.",
   "medicineImageImportDroppedSchedulesCaption": "{count} godzin przyjmowania leku ponad limit nie zostanie zapisanych",
+  "medicineImageImportGroupChangedError": "Rejestracja została anulowana, ponieważ zmieniono grupę.",
   "minimumDoseInterval": "Odstęp między dawkami",
   "minimumDoseIntervalDescription": "Minimalny odstęp między dawkami od poprzedniej dawki",
   "minimumDoseIntervalNone": "Brak",

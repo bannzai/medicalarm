@@ -242,6 +242,7 @@
   "medicineImageImportCompletedSnackbar": "{count} medicamentos registados",
   "medicineImageImportTimeFallbackCaption": "Não foi possível ler a hora da toma, por isso foi definida uma hora provisória. Pode alterá-la depois de guardar.",
   "medicineImageImportDroppedSchedulesCaption": "Não serão registados {count} horários de toma de medicamentos que excedem o limite",
+  "medicineImageImportGroupChangedError": "O registo foi cancelado porque o grupo mudou.",
   "minimumDoseInterval": "Intervalo entre doses",
   "minimumDoseIntervalDescription": "Tempo mínimo entre doses desde a última toma",
   "minimumDoseIntervalNone": "Nenhum",

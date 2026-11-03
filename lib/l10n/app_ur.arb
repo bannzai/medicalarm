@@ -242,6 +242,7 @@
   "medicineImageImportCompletedSnackbar": "{count} دوائیں رجسٹر کر دی گئی ہیں",
   "medicineImageImportTimeFallbackCaption": "دوا لینے کا وقت پڑھا نہیں جا سکا، اس لیے عارضی وقت مقرر کیا گیا ہے۔ محفوظ کرنے کے بعد آپ اسے تبدیل کر سکتے ہیں۔",
   "medicineImageImportDroppedSchedulesCaption": "حد سے زیادہ دوا لینے کے {count} اوقات درج نہیں کیے جائیں گے",
+  "medicineImageImportGroupChangedError": "گروپ تبدیل ہونے کی وجہ سے رجسٹریشن منسوخ کر دی گئی ہے۔",
   "minimumDoseInterval": "خوراکوں کے درمیان وقفہ",
   "minimumDoseIntervalDescription": "پچھلی خوراک کے بعد خوراکوں کے درمیان کم از کم وقفہ",
   "minimumDoseIntervalNone": "کوئی نہیں",

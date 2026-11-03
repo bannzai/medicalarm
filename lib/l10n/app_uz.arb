@@ -242,6 +242,7 @@
   "medicineImageImportCompletedSnackbar": "{count} ta dori ro‘yxatdan o‘tkazildi",
   "medicineImageImportTimeFallbackCaption": "Dorini qabul qilish vaqtini o‘qib bo‘lmadi, shuning uchun vaqtinchalik vaqt belgilandi. Saqlagandan keyin uni o‘zgartirishingiz mumkin.",
   "medicineImageImportDroppedSchedulesCaption": "Cheklovdan oshgan {count} ta dori qabul qilish vaqti roʻyxatga olinmaydi",
+  "medicineImageImportGroupChangedError": "Guruh o‘zgargani uchun ro‘yxatdan o‘tkazish bekor qilindi.",
   "minimumDoseInterval": "Dozalar orasidagi interval",
   "minimumDoseIntervalDescription": "Oldingi dozadan keyin dozalar orasidagi minimal vaqt",
   "minimumDoseIntervalNone": "Yo‘q",

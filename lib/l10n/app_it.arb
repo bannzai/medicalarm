@@ -242,6 +242,7 @@
   "medicineImageImportCompletedSnackbar": "{count} farmaci registrati",
   "medicineImageImportTimeFallbackCaption": "Non è stato possibile leggere l’orario di assunzione, quindi è stato impostato un orario provvisorio. Puoi modificarlo dopo il salvataggio.",
   "medicineImageImportDroppedSchedulesCaption": "Non verranno registrati {count} orari di assunzione oltre il limite",
+  "medicineImageImportGroupChangedError": "La registrazione è stata annullata perché il gruppo è cambiato.",
   "minimumDoseInterval": "Intervallo tra le dosi",
   "minimumDoseIntervalDescription": "Intervallo minimo tra le dosi dall’ultima dose",
   "minimumDoseIntervalNone": "Nessuno",

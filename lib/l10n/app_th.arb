@@ -242,6 +242,7 @@
   "medicineImageImportCompletedSnackbar": "ลงทะเบียนยาแล้ว {count} รายการ",
   "medicineImageImportTimeFallbackCaption": "อ่านเวลาใช้ยาไม่ได้ จึงตั้งเวลาไว้ชั่วคราว คุณแก้ไขได้หลังจากบันทึก",
   "medicineImageImportDroppedSchedulesCaption": "เวลารับประทานยา {count} รายการที่เกินจำนวนสูงสุดจะไม่ถูกบันทึก",
+  "medicineImageImportGroupChangedError": "ยกเลิกการลงทะเบียนเนื่องจากมีการเปลี่ยนกลุ่ม",
   "minimumDoseInterval": "ช่วงห่างระหว่างการรับประทานยา",
   "minimumDoseIntervalDescription": "ระยะห่างขั้นต่ำระหว่างการรับประทานยาแต่ละครั้งจากครั้งก่อน",
   "minimumDoseIntervalNone": "ไม่มี",

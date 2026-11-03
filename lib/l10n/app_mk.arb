@@ -242,6 +242,7 @@
   "medicineImageImportCompletedSnackbar": "Регистрирани лекови: {count}",
   "medicineImageImportTimeFallbackCaption": "Не можеше да се прочита времето за земање на лекот, па е поставено привремено време. Може да го измените по зачувувањето.",
   "medicineImageImportDroppedSchedulesCaption": "{count} термини за земање лек над ограничувањето нема да се зачуваат",
+  "medicineImageImportGroupChangedError": "Регистрацијата е откажана бидејќи групата е сменета.",
   "minimumDoseInterval": "Интервал помеѓу дози",
   "minimumDoseIntervalDescription": "Минимално време помеѓу дозите од претходната доза",
   "minimumDoseIntervalNone": "Нема",
