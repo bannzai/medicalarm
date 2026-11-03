@@ -241,6 +241,7 @@
   "medicineImageImportAddCount": "{count} Einträge hinzufügen",
   "medicineImageImportCompletedSnackbar": "{count} Medikamente registriert",
   "medicineImageImportTimeFallbackCaption": "Die Einnahmezeit konnte nicht erkannt werden. Daher wurde eine vorläufige Uhrzeit festgelegt. Sie können sie nach dem Speichern ändern.",
+  "medicineImageImportDroppedSchedulesCaption": "{count} Einnahmezeiten über dem Limit werden nicht gespeichert",
   "minimumDoseInterval": "Einnahmeabstand",
   "minimumDoseIntervalDescription": "Mindestabstand zwischen den Einnahmen seit der letzten Einnahme",
   "minimumDoseIntervalNone": "Keine",

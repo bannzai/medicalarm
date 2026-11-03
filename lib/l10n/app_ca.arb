@@ -241,6 +241,7 @@
   "medicineImageImportAddCount": "Afegeix {count} elements",
   "medicineImageImportCompletedSnackbar": "S'han registrat {count} medicaments",
   "medicineImageImportTimeFallbackCaption": "No s’ha pogut llegir l’hora de la presa, així que s’ha establert una hora provisional. La pots editar després de desar-la.",
+  "medicineImageImportDroppedSchedulesCaption": "No s'afegiran les {count} hores de presa del medicament que superen el límit",
   "minimumDoseInterval": "Interval entre dosis",
   "minimumDoseIntervalDescription": "Temps mínim entre dosis des de l’última presa",
   "minimumDoseIntervalNone": "Cap",

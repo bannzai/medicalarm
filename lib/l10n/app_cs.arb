@@ -241,6 +241,7 @@
   "medicineImageImportAddCount": "Přidat {count} položek",
   "medicineImageImportCompletedSnackbar": "Zaregistrováno léků: {count}",
   "medicineImageImportTimeFallbackCaption": "Čas užití léku se nepodařilo přečíst, proto byl nastaven dočasný čas. Po uložení ho můžete upravit.",
+  "medicineImageImportDroppedSchedulesCaption": "{count} časů užití léku nad limit nebude uloženo",
   "minimumDoseInterval": "Interval mezi dávkami",
   "minimumDoseIntervalDescription": "Minimální odstup mezi dávkami od poslední dávky",
   "minimumDoseIntervalNone": "Žádné",

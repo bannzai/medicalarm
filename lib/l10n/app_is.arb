@@ -241,6 +241,7 @@
   "medicineImageImportAddCount": "Bæta við {count} atriðum",
   "medicineImageImportCompletedSnackbar": "Skráð lyf: {count}",
   "medicineImageImportTimeFallbackCaption": "Ekki tókst að lesa inn tíma lyfjatöku, svo bráðabirgðatími var stilltur. Þú getur breytt honum eftir að þú vistar.",
+  "medicineImageImportDroppedSchedulesCaption": "{count} lyfjatökutímar umfram hámarkið verða ekki skráðir",
   "minimumDoseInterval": "Tímabil milli skammta",
   "minimumDoseIntervalDescription": "Lágmarkstími á milli skammta frá síðasta skammti",
   "minimumDoseIntervalNone": "Ekkert",

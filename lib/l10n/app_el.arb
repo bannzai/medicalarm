@@ -241,6 +241,7 @@
   "medicineImageImportAddCount": "Προσθήκη {count} στοιχείων",
   "medicineImageImportCompletedSnackbar": "Καταχωρίστηκαν {count} φάρμακα",
   "medicineImageImportTimeFallbackCaption": "Δεν ήταν δυνατή η ανάγνωση της ώρας λήψης, οπότε ορίστηκε προσωρινή ώρα. Μπορείτε να την αλλάξετε μετά την αποθήκευση.",
+  "medicineImageImportDroppedSchedulesCaption": "Δεν θα καταχωριστούν {count} ώρες λήψης φαρμάκου που υπερβαίνουν το όριο",
   "minimumDoseInterval": "Διάστημα μεταξύ δόσεων",
   "minimumDoseIntervalDescription": "Ελάχιστο χρονικό διάστημα μεταξύ δόσεων από την προηγούμενη δόση",
   "minimumDoseIntervalNone": "Κανένα",

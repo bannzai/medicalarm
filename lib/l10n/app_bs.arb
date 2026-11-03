@@ -241,6 +241,7 @@
   "medicineImageImportAddCount": "Dodaj {count} stavki",
   "medicineImageImportCompletedSnackbar": "Registrovano lijekova: {count}",
   "medicineImageImportTimeFallbackCaption": "Vrijeme uzimanja lijeka nije se moglo očitati, pa je postavljeno privremeno vrijeme. Možete ga urediti nakon spremanja.",
+  "medicineImageImportDroppedSchedulesCaption": "{count} termina za uzimanje lijeka iznad ograničenja neće biti dodano",
   "minimumDoseInterval": "Razmak između doza",
   "minimumDoseIntervalDescription": "Minimalno vrijeme između doza od prethodne doze",
   "minimumDoseIntervalNone": "Nema",

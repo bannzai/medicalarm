@@ -241,6 +241,7 @@
   "medicineImageImportAddCount": "Tambah {count} item",
   "medicineImageImportCompletedSnackbar": "{count} ubat telah didaftarkan",
   "medicineImageImportTimeFallbackCaption": "Waktu pengambilan ubat tidak dapat dibaca, jadi waktu sementara telah ditetapkan. Anda boleh mengubahnya selepas menyimpan.",
+  "medicineImageImportDroppedSchedulesCaption": "{count} waktu pengambilan ubat yang melebihi had tidak akan didaftarkan",
   "minimumDoseInterval": "Jarak antara dos",
   "minimumDoseIntervalDescription": "Tempoh minimum antara dos sejak dos terakhir",
   "minimumDoseIntervalNone": "Tiada",

@@ -241,6 +241,7 @@
   "medicineImageImportAddCount": "{count} Iiträg dezue tue",
   "medicineImageImportCompletedSnackbar": "{count} Medikament registriert",
   "medicineImageImportTimeFallbackCaption": "D Iinahmziit het nöd chönne gläse werde. Drum isch e vorläufigi Ziit igstellt. Du chasch si nach em Spichere ändere.",
+  "medicineImageImportDroppedSchedulesCaption": "{count} Iinahmezyte über em Limit wärde nöd gspeicheret",
   "minimumDoseInterval": "Einnahmeabstand",
   "minimumDoseIntervalDescription": "Mindestabstand zwüsche de Dosis sit em letschte Iinah",
   "minimumDoseIntervalNone": "Keine",

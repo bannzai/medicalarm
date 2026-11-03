@@ -241,6 +241,7 @@
   "medicineImageImportAddCount": "{count} ಐಟಂಗಳನ್ನು ಸೇರಿಸಿ",
   "medicineImageImportCompletedSnackbar": "{count} ಔಷಧಿಗಳನ್ನು ನೋಂದಾಯಿಸಲಾಗಿದೆ",
   "medicineImageImportTimeFallbackCaption": "ಔಷಧಿ ತೆಗೆದುಕೊಳ್ಳುವ ಸಮಯವನ್ನು ಓದಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ, ಆದ್ದರಿಂದ ತಾತ್ಕಾಲಿಕ ಸಮಯವನ್ನು ನಿಗದಿಪಡಿಸಲಾಗಿದೆ. ಉಳಿಸಿದ ನಂತರ ಅದನ್ನು ಬದಲಾಯಿಸಬಹುದು.",
+  "medicineImageImportDroppedSchedulesCaption": "ಮಿತಿಯನ್ನು ಮೀರಿದ ಔಷಧ ತೆಗೆದುಕೊಳ್ಳುವ {count} ಸಮಯಗಳನ್ನು ದಾಖಲಿಸಲಾಗುವುದಿಲ್ಲ",
   "minimumDoseInterval": "ಡೋಸ್‌ಗಳ ನಡುವಿನ ಅಂತರ",
   "minimumDoseIntervalDescription": "ಹಿಂದಿನ ಡೋಸ್‌ನಿಂದ ಕನಿಷ್ಠ ಅಂತರದ ಸಮಯ",
   "minimumDoseIntervalNone": "ಯಾವುದೂ ಇಲ್ಲ",

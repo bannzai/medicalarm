@@ -241,6 +241,7 @@
   "medicineImageImportAddCount": "{count} ഇനങ്ങൾ ചേർക്കുക",
   "medicineImageImportCompletedSnackbar": "{count} മരുന്നുകൾ രജിസ്റ്റർ ചെയ്തു",
   "medicineImageImportTimeFallbackCaption": "മരുന്ന് കഴിക്കേണ്ട സമയം വായിച്ചെടുക്കാൻ കഴിഞ്ഞില്ല, അതിനാൽ താൽക്കാലിക സമയം നിശ്ചയിച്ചു. സേവ് ചെയ്ത ശേഷം ഇത് മാറ്റാം.",
+  "medicineImageImportDroppedSchedulesCaption": "പരിധി കവിയുന്ന മരുന്ന് കഴിക്കാനുള്ള {count} സമയങ്ങൾ രജിസ്റ്റർ ചെയ്യില്ല",
   "minimumDoseInterval": "ഡോസുകൾക്കിടയിലെ ഇടവേള",
   "minimumDoseIntervalDescription": "മുമ്പത്തെ ഡോസിന് ശേഷം ഡോസുകൾക്കിടയിലെ കുറഞ്ഞ സമയം",
   "minimumDoseIntervalNone": "ഇല്ല",

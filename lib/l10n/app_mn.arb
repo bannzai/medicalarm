@@ -241,6 +241,7 @@
   "medicineImageImportAddCount": "{count} зүйл нэмэх",
   "medicineImageImportCompletedSnackbar": "{count} эмийг бүртгэлээ",
   "medicineImageImportTimeFallbackCaption": "Эм уух цагийг уншиж чадсангүй. Тиймээс түр цаг тохируулсан. Хадгалсны дараа өөрчилж болно.",
+  "medicineImageImportDroppedSchedulesCaption": "Хязгаараас хэтэрсэн эм уух {count} цагийг бүртгэхгүй",
   "minimumDoseInterval": "Тун хоорондын зай",
   "minimumDoseIntervalDescription": "Өмнөх тунгаас хойш тун хооронд баримтлах хамгийн бага хугацаа",
   "minimumDoseIntervalNone": "Байхгүй",

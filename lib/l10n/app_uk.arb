@@ -241,6 +241,7 @@
   "medicineImageImportAddCount": "Додати {count} записів",
   "medicineImageImportCompletedSnackbar": "Зареєстровано ліків: {count}",
   "medicineImageImportTimeFallbackCaption": "Не вдалося розпізнати час прийому ліків, тому встановлено тимчасовий час. Після збереження його можна змінити.",
+  "medicineImageImportDroppedSchedulesCaption": "{count} часів прийому ліків понад ліміт не буде збережено",
   "minimumDoseInterval": "Інтервал між прийомами",
   "minimumDoseIntervalDescription": "Мінімальний інтервал між прийомами після попередньої дози",
   "minimumDoseIntervalNone": "Немає",

@@ -241,6 +241,7 @@
   "medicineImageImportAddCount": "Lägg till {count} objekt",
   "medicineImageImportCompletedSnackbar": "Registrerade läkemedel: {count}",
   "medicineImageImportTimeFallbackCaption": "Tiden för medicinintag kunde inte läsas av, så en tillfällig tid har angetts. Du kan ändra den när du har sparat.",
+  "medicineImageImportDroppedSchedulesCaption": "{count} tidpunkter för läkemedelsintag över gränsen kommer inte att sparas",
   "minimumDoseInterval": "Doseringsintervall",
   "minimumDoseIntervalDescription": "Minsta tid mellan doser sedan den senaste dosen",
   "minimumDoseIntervalNone": "Ingen",

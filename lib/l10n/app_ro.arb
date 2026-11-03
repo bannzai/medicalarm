@@ -241,6 +241,7 @@
   "medicineImageImportAddCount": "Adaugă {count} elemente",
   "medicineImageImportCompletedSnackbar": "Medicamente înregistrate: {count}",
   "medicineImageImportTimeFallbackCaption": "Ora administrării medicamentului nu a putut fi citită, așa că a fost setată o oră provizorie. O puteți modifica după salvare.",
+  "medicineImageImportDroppedSchedulesCaption": "{count} ore de administrare a medicamentului care depășesc limita nu vor fi salvate",
   "minimumDoseInterval": "Intervalul dintre doze",
   "minimumDoseIntervalDescription": "Intervalul minim dintre doze de la doza anterioară",
   "minimumDoseIntervalNone": "Niciunul",

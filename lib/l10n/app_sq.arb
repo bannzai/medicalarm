@@ -241,6 +241,7 @@
   "medicineImageImportAddCount": "Shto {count} artikuj",
   "medicineImageImportCompletedSnackbar": "U regjistruan {count} ilaçe",
   "medicineImageImportTimeFallbackCaption": "Ora e marrjes së ilaçit nuk u lexua dot, ndaj është caktuar një orë e përkohshme. Mund ta ndryshoni pas ruajtjes.",
+  "medicineImageImportDroppedSchedulesCaption": "{count} orare të marrjes së ilaçit mbi kufirin nuk do të regjistrohen",
   "minimumDoseInterval": "Intervali midis dozave",
   "minimumDoseIntervalDescription": "Koha minimale ndërmjet dozave nga doza e mëparshme",
   "minimumDoseIntervalNone": "Asnjë",

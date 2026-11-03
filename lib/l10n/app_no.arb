@@ -241,6 +241,7 @@
   "medicineImageImportAddCount": "Legg til {count} elementer",
   "medicineImageImportCompletedSnackbar": "Registrerte legemidler: {count}",
   "medicineImageImportTimeFallbackCaption": "Tidspunktet for medisininntak kunne ikke leses, så et midlertidig tidspunkt er angitt. Du kan endre det etter lagring.",
+  "medicineImageImportDroppedSchedulesCaption": "{count} tidspunkter for medisininntak over grensen blir ikke lagret",
   "minimumDoseInterval": "Doseringsintervall",
   "minimumDoseIntervalDescription": "Minste tid mellom doser siden forrige dose",
   "minimumDoseIntervalNone": "Ingen",

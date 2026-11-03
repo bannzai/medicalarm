@@ -241,6 +241,7 @@
   "medicineImageImportAddCount": "Lisää {count} kohdetta",
   "medicineImageImportCompletedSnackbar": "Rekisteröityjä lääkkeitä: {count}",
   "medicineImageImportTimeFallbackCaption": "Lääkkeen ottoaikaa ei voitu lukea, joten ajaksi asetettiin väliaikainen aika. Voit muokata sitä tallennuksen jälkeen.",
+  "medicineImageImportDroppedSchedulesCaption": "{count} rajan ylittävää lääkkeenottoaikaa ei tallenneta",
   "minimumDoseInterval": "Annosväli",
   "minimumDoseIntervalDescription": "Annosten välinen vähimmäisaika edellisestä annoksesta",
   "minimumDoseIntervalNone": "Ei mitään",

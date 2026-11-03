@@ -241,6 +241,7 @@
   "medicineImageImportAddCount": "إضافة {count} عناصر",
   "medicineImageImportCompletedSnackbar": "تم تسجيل {count} من الأدوية",
   "medicineImageImportTimeFallbackCaption": "تعذّرت قراءة وقت تناول الدواء، لذا حُدّد وقت مؤقت. يمكنك تعديله بعد التسجيل.",
+  "medicineImageImportDroppedSchedulesCaption": "لن تُسجَّل {count} من مواعيد تناول الدواء التي تتجاوز الحد الأقصى",
   "minimumDoseInterval": "الفاصل بين الجرعات",
   "minimumDoseIntervalDescription": "الحد الأدنى للوقت بين الجرعات منذ الجرعة السابقة",
   "minimumDoseIntervalNone": "لا يوجد",

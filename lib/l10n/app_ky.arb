@@ -241,6 +241,7 @@
   "medicineImageImportAddCount": "{count} нерсе кошуу",
   "medicineImageImportCompletedSnackbar": "{count} дары катталды",
   "medicineImageImportTimeFallbackCaption": "Дарыны ичүү убактысын окуу мүмкүн болгон жок, ошондуктан убактылуу убакыт коюлду. Сактагандан кийин аны өзгөртө аласыз.",
+  "medicineImageImportDroppedSchedulesCaption": "Чектен ашкан дары ичүү убактысынын {count}и катталбайт",
   "minimumDoseInterval": "Дозалардын ортосундагы аралык",
   "minimumDoseIntervalDescription": "Мурунку дозадан кийинки минималдуу аралык",
   "minimumDoseIntervalNone": "Жок",

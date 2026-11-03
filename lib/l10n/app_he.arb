@@ -241,6 +241,7 @@
   "medicineImageImportAddCount": "הוספת {count} פריטים",
   "medicineImageImportCompletedSnackbar": "נרשמו {count} תרופות",
   "medicineImageImportTimeFallbackCaption": "לא ניתן היה לקרוא את שעת נטילת התרופה, לכן נקבעה שעה זמנית. אפשר לערוך אותה לאחר השמירה.",
+  "medicineImageImportDroppedSchedulesCaption": "{count} מועדי נטילת תרופה שחורגים מהמגבלה לא יישמרו",
   "minimumDoseInterval": "מרווח בין מנות",
   "minimumDoseIntervalDescription": "הזמן המינימלי בין מנות מהמנה הקודמת",
   "minimumDoseIntervalNone": "אין",

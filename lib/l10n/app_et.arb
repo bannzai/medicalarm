@@ -241,6 +241,7 @@
   "medicineImageImportAddCount": "Lisa {count} kirjet",
   "medicineImageImportCompletedSnackbar": "Registreeritud ravimeid: {count}",
   "medicineImageImportTimeFallbackCaption": "Ravimi võtmise aega ei õnnestunud tuvastada, seega määrati ajutine kellaaeg. Saate seda pärast salvestamist muuta.",
+  "medicineImageImportDroppedSchedulesCaption": "{count} üle piirangu jäävat ravimi võtmise aega ei salvestata",
   "minimumDoseInterval": "Annustamisintervall",
   "minimumDoseIntervalDescription": "Minimaalne aeg annuste vahel alates eelmisest annusest",
   "minimumDoseIntervalNone": "Puudub",

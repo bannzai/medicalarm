@@ -241,6 +241,7 @@
   "medicineImageImportAddCount": "افزودن {count} مورد",
   "medicineImageImportCompletedSnackbar": "{count} دارو ثبت شد",
   "medicineImageImportTimeFallbackCaption": "زمان مصرف دارو خوانده نشد، بنابراین یک زمان موقت تعیین شده است. پس از ثبت می‌توانید آن را ویرایش کنید.",
+  "medicineImageImportDroppedSchedulesCaption": "{count} زمان مصرف دارو که از سقف مجاز فراتر رفته‌اند ثبت نمی‌شوند",
   "minimumDoseInterval": "فاصله بین دوزها",
   "minimumDoseIntervalDescription": "حداقل فاصله زمانی بین دوزها از آخرین دوز",
   "minimumDoseIntervalNone": "هیچ‌کدام",

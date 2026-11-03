@@ -241,6 +241,7 @@
   "medicineImageImportAddCount": "Añadir {count} elementos",
   "medicineImageImportCompletedSnackbar": "Se registraron {count} medicamentos",
   "medicineImageImportTimeFallbackCaption": "No se pudo leer la hora de la toma, así que se estableció una hora provisional. Puedes editarla después de guardar.",
+  "medicineImageImportDroppedSchedulesCaption": "No se registrarán {count} horarios de toma que superan el límite",
   "minimumDoseInterval": "Intervalo entre dosis",
   "minimumDoseIntervalDescription": "Tiempo mínimo entre dosis desde la última toma",
   "minimumDoseIntervalNone": "Ninguno",
