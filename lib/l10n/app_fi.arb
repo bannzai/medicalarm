@@ -239,6 +239,7 @@
   "medicineImageImportEmpty": "Kuvasta ei voitu tunnistaa lääkkeitä",
   "medicineImageImportSelectableLimit": "Voit lisätä enää enintään {count} lääkettä.",
   "medicineImageImportAddCount": "Lisää {count} kohdetta",
+  "medicineImageImportCompletedSnackbar": "Rekisteröityjä lääkkeitä: {count}",
   "minimumDoseInterval": "Annosväli",
   "minimumDoseIntervalDescription": "Annosten välinen vähimmäisaika edellisestä annoksesta",
   "minimumDoseIntervalNone": "Ei mitään",

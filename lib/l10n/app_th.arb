@@ -239,6 +239,7 @@
   "medicineImageImportEmpty": "ไม่สามารถระบุยาในภาพได้",
   "medicineImageImportSelectableLimit": "คุณเพิ่มยาได้อีกสูงสุด {count} รายการ",
   "medicineImageImportAddCount": "เพิ่ม {count} รายการ",
+  "medicineImageImportCompletedSnackbar": "ลงทะเบียนยาแล้ว {count} รายการ",
   "minimumDoseInterval": "ช่วงห่างระหว่างการรับประทานยา",
   "minimumDoseIntervalDescription": "ระยะห่างขั้นต่ำระหว่างการรับประทานยาแต่ละครั้งจากครั้งก่อน",
   "minimumDoseIntervalNone": "ไม่มี",

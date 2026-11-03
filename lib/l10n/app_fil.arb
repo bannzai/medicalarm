@@ -239,6 +239,7 @@
   "medicineImageImportEmpty": "Walang matukoy na gamot sa larawan",
   "medicineImageImportSelectableLimit": "Maaari ka pang magdagdag ng hanggang {count} gamot.",
   "medicineImageImportAddCount": "Magdagdag ng {count} item",
+  "medicineImageImportCompletedSnackbar": "Nairehistro ang {count} gamot",
   "minimumDoseInterval": "Agwat ng pag-inom",
   "minimumDoseIntervalDescription": "Minimum na pagitan ng mga dosis mula sa huling pag-inom",
   "minimumDoseIntervalNone": "Wala",

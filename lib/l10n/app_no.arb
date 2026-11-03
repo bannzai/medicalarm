@@ -239,6 +239,7 @@
   "medicineImageImportEmpty": "Kunne ikke gjenkjenne noen medisiner på bildet",
   "medicineImageImportSelectableLimit": "Du kan legge til høyst {count} legemidler til.",
   "medicineImageImportAddCount": "Legg til {count} elementer",
+  "medicineImageImportCompletedSnackbar": "Registrerte legemidler: {count}",
   "minimumDoseInterval": "Doseringsintervall",
   "minimumDoseIntervalDescription": "Minste tid mellom doser siden forrige dose",
   "minimumDoseIntervalNone": "Ingen",

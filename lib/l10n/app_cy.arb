@@ -239,6 +239,7 @@
   "medicineImageImportEmpty": "Methu adnabod unrhyw feddyginiaeth yn y ddelwedd",
   "medicineImageImportSelectableLimit": "Gallwch gofrestru hyd at {count} meddyginiaeth arall.",
   "medicineImageImportAddCount": "Ychwanegu {count} eitem",
+  "medicineImageImportCompletedSnackbar": "Cofrestrwyd {count} o feddyginiaethau",
   "minimumDoseInterval": "Cyfwng rhwng dosau",
   "minimumDoseIntervalDescription": "Yr amser lleiaf rhwng dosau ers y dos blaenorol",
   "minimumDoseIntervalNone": "Dim",

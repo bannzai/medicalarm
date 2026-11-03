@@ -239,6 +239,7 @@
   "medicineImageImportEmpty": "Nuk u arrit të identifikohej asnjë ilaç në imazh",
   "medicineImageImportSelectableLimit": "Mund të shtoni edhe deri në {count} barna.",
   "medicineImageImportAddCount": "Shto {count} artikuj",
+  "medicineImageImportCompletedSnackbar": "U regjistruan {count} ilaçe",
   "minimumDoseInterval": "Intervali midis dozave",
   "minimumDoseIntervalDescription": "Koha minimale ndërmjet dozave nga doza e mëparshme",
   "minimumDoseIntervalNone": "Asnjë",

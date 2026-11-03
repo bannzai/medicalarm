@@ -239,6 +239,7 @@
   "medicineImageImportEmpty": "Не ўдалося распазнаць лекі на здымку",
   "medicineImageImportSelectableLimit": "Вы можаце дадаць яшчэ не больш за {count} лекаў.",
   "medicineImageImportAddCount": "Дадаць {count} элементаў",
+  "medicineImageImportCompletedSnackbar": "Зарэгістравана лекаў: {count}",
   "minimumDoseInterval": "Інтэрвал паміж прыёмамі",
   "minimumDoseIntervalDescription": "Мінімальны інтэрвал паміж прыёмамі пасля папярэдняга прыёму",
   "minimumDoseIntervalNone": "Няма",

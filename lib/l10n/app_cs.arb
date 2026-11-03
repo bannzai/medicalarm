@@ -239,6 +239,7 @@
   "medicineImageImportEmpty": "Na obrázku se nepodařilo rozpoznat žádný lék",
   "medicineImageImportSelectableLimit": "Můžete přidat už jen {count} léků.",
   "medicineImageImportAddCount": "Přidat {count} položek",
+  "medicineImageImportCompletedSnackbar": "Zaregistrováno léků: {count}",
   "minimumDoseInterval": "Interval mezi dávkami",
   "minimumDoseIntervalDescription": "Minimální odstup mezi dávkami od poslední dávky",
   "minimumDoseIntervalNone": "Žádné",

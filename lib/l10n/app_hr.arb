@@ -239,6 +239,7 @@
   "medicineImageImportEmpty": "Nije moguće prepoznati lijek na slici",
   "medicineImageImportSelectableLimit": "Možete dodati još najviše {count} lijekova.",
   "medicineImageImportAddCount": "Dodaj {count} stavki",
+  "medicineImageImportCompletedSnackbar": "Registrirano lijekova: {count}",
   "minimumDoseInterval": "Razmak između doza",
   "minimumDoseIntervalDescription": "Minimalni razmak između doza od prethodne doze",
   "minimumDoseIntervalNone": "Nema",

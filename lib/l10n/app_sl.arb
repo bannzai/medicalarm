@@ -239,6 +239,7 @@
   "medicineImageImportEmpty": "Na sliki ni bilo mogoče prepoznati nobenega zdravila",
   "medicineImageImportSelectableLimit": "Dodate lahko še največ {count} zdravil.",
   "medicineImageImportAddCount": "Dodaj {count} elementov",
+  "medicineImageImportCompletedSnackbar": "Registrirana zdravila: {count}",
   "minimumDoseInterval": "Razmik med odmerkoma",
   "minimumDoseIntervalDescription": "Najkrajši čas med odmerkoma od prejšnjega odmerka",
   "minimumDoseIntervalNone": "Brez",

@@ -239,6 +239,7 @@
   "medicineImageImportEmpty": "Şəkildə heç bir dərman müəyyən edilə bilmədi",
   "medicineImageImportSelectableLimit": "Daha yalnız {count} dərman qeydiyyatdan keçirə bilərsiniz.",
   "medicineImageImportAddCount": "{count} element əlavə et",
+  "medicineImageImportCompletedSnackbar": "{count} dərman qeydiyyata alındı",
   "minimumDoseInterval": "Doza intervalı",
   "minimumDoseIntervalDescription": "Əvvəlki dozadan sonra keçməli olan minimum vaxt",
   "minimumDoseIntervalNone": "Yoxdur",

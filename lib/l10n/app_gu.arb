@@ -239,6 +239,7 @@
   "medicineImageImportEmpty": "ચિત્રમાં કોઈ દવા ઓળખી શકાઈ નથી",
   "medicineImageImportSelectableLimit": "તમે હવે વધુમાં વધુ {count} દવાઓ નોંધાવી શકો છો.",
   "medicineImageImportAddCount": "{count} આઇટમ ઉમેરો",
+  "medicineImageImportCompletedSnackbar": "{count} દવાઓ નોંધવામાં આવી",
   "minimumDoseInterval": "દવા લેવાના અંતરાલ",
   "minimumDoseIntervalDescription": "છેલ્લો ડોઝ લીધા પછી ઓછામાં ઓછો રાખવાનો સમય",
   "minimumDoseIntervalNone": "કંઈ નથી",

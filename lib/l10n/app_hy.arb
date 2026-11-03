@@ -239,6 +239,7 @@
   "medicineImageImportEmpty": "Պատկերում որևէ դեղ չհաջողվեց ճանաչել",
   "medicineImageImportSelectableLimit": "Դուք կարող եք ավելացնել ևս առավելագույնը {count} դեղ։",
   "medicineImageImportAddCount": "Ավելացնել {count} տարր",
+  "medicineImageImportCompletedSnackbar": "Գրանցվել է {count} դեղամիջոց",
   "minimumDoseInterval": "Դեղաչափերի միջև ընդմիջում",
   "minimumDoseIntervalDescription": "Նախորդ դեղաչափից հետո անհրաժեշտ նվազագույն ժամանակը",
   "minimumDoseIntervalNone": "Չկա",

@@ -239,6 +239,7 @@
   "medicineImageImportEmpty": "មិនអាចសម្គាល់ឃើញថ្នាំណាមួយក្នុងរូបភាពបានទេ",
   "medicineImageImportSelectableLimit": "អ្នកអាចបន្ថែមថ្នាំបានត្រឹមតែ {count} មុខទៀតប៉ុណ្ណោះ។",
   "medicineImageImportAddCount": "បន្ថែម {count} ធាតុ",
+  "medicineImageImportCompletedSnackbar": "បានចុះបញ្ជីថ្នាំចំនួន {count} មុខ",
   "minimumDoseInterval": "ចន្លោះពេលរវាងដូស",
   "minimumDoseIntervalDescription": "រយៈពេលអប្បបរមារវាងដូស ចាប់ពីដូសមុន",
   "minimumDoseIntervalNone": "គ្មាន",

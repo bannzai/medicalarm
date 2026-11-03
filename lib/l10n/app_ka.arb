@@ -239,6 +239,7 @@
   "medicineImageImportEmpty": "სურათზე მედიკამენტის ამოცნობა ვერ მოხერხდა",
   "medicineImageImportSelectableLimit": "შეგიძლიათ დაამატოთ კიდევ მაქსიმუმ {count} წამალი.",
   "medicineImageImportAddCount": "{count} ჩანაწერის დამატება",
+  "medicineImageImportCompletedSnackbar": "დარეგისტრირდა {count} წამალი",
   "minimumDoseInterval": "დოზებს შორის ინტერვალი",
   "minimumDoseIntervalDescription": "წინა დოზის მიღებიდან გასავლელი მინიმალური დრო",
   "minimumDoseIntervalNone": "არცერთი",

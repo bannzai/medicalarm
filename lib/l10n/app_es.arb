@@ -239,6 +239,7 @@
   "medicineImageImportEmpty": "No se pudo identificar ningún medicamento en la imagen",
   "medicineImageImportSelectableLimit": "Solo puedes añadir {count} medicamentos más.",
   "medicineImageImportAddCount": "Añadir {count} elementos",
+  "medicineImageImportCompletedSnackbar": "Se registraron {count} medicamentos",
   "minimumDoseInterval": "Intervalo entre dosis",
   "minimumDoseIntervalDescription": "Tiempo mínimo entre dosis desde la última toma",
   "minimumDoseIntervalNone": "Ninguno",

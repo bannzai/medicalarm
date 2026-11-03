@@ -239,6 +239,7 @@
   "medicineImageImportEmpty": "Pildilt ei õnnestunud ühtegi ravimit tuvastada",
   "medicineImageImportSelectableLimit": "Saate lisada veel kuni {count} ravimit.",
   "medicineImageImportAddCount": "Lisa {count} kirjet",
+  "medicineImageImportCompletedSnackbar": "Registreeritud ravimeid: {count}",
   "minimumDoseInterval": "Annustamisintervall",
   "minimumDoseIntervalDescription": "Minimaalne aeg annuste vahel alates eelmisest annusest",
   "minimumDoseIntervalNone": "Puudub",

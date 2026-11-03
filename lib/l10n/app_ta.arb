@@ -239,6 +239,7 @@
   "medicineImageImportEmpty": "படத்தில் எந்த மருந்தையும் அடையாளம் காண முடியவில்லை",
   "medicineImageImportSelectableLimit": "நீங்கள் இன்னும் அதிகபட்சம் {count} மருந்துகளைச் சேர்க்கலாம்.",
   "medicineImageImportAddCount": "{count} உருப்படிகளைச் சேர்",
+  "medicineImageImportCompletedSnackbar": "{count} மருந்துகள் பதிவு செய்யப்பட்டன",
   "minimumDoseInterval": "மருந்து உட்கொள்ளும் இடைவெளி",
   "minimumDoseIntervalDescription": "முந்தைய மருந்தளவுக்குப் பிறகு மருந்தளவுகளுக்கு இடையிலான குறைந்தபட்ச நேரம்",
   "minimumDoseIntervalNone": "எதுவுமில்லை",

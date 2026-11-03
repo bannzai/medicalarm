@@ -239,6 +239,7 @@
   "medicineImageImportEmpty": "Зураг дээрээс эм таньж чадсангүй",
   "medicineImageImportSelectableLimit": "Та дахин хамгийн ихдээ {count} эм бүртгэх боломжтой.",
   "medicineImageImportAddCount": "{count} зүйл нэмэх",
+  "medicineImageImportCompletedSnackbar": "{count} эмийг бүртгэлээ",
   "minimumDoseInterval": "Тун хоорондын зай",
   "minimumDoseIntervalDescription": "Өмнөх тунгаас хойш тун хооронд баримтлах хамгийн бага хугацаа",
   "minimumDoseIntervalNone": "Байхгүй",

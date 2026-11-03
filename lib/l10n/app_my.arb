@@ -239,6 +239,7 @@
   "medicineImageImportEmpty": "ပုံတွင် ဆေးကို မမှတ်မိနိုင်ပါ",
   "medicineImageImportSelectableLimit": "နောက်ထပ် ဆေး {count} မျိုးအထိသာ ထည့်သွင်းနိုင်ပါသည်။",
   "medicineImageImportAddCount": "{count} ခု ထည့်ရန်",
+  "medicineImageImportCompletedSnackbar": "ဆေး {count} မျိုးကို စာရင်းသွင်းပြီးပါပြီ",
   "minimumDoseInterval": "ဆေးသောက်ချိန်ကြားကာလ",
   "minimumDoseIntervalDescription": "ယခင်ဆေးသောက်ပြီးနောက် ဆေးပမာဏများကြား အနည်းဆုံးကြာချိန်",
   "minimumDoseIntervalNone": "မရှိပါ",

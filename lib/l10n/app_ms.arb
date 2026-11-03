@@ -239,6 +239,7 @@
   "medicineImageImportEmpty": "Tiada ubat dapat dikenal pasti dalam imej",
   "medicineImageImportSelectableLimit": "Anda boleh menambah paling banyak {count} ubat lagi.",
   "medicineImageImportAddCount": "Tambah {count} item",
+  "medicineImageImportCompletedSnackbar": "{count} ubat telah didaftarkan",
   "minimumDoseInterval": "Jarak antara dos",
   "minimumDoseIntervalDescription": "Tempoh minimum antara dos sejak dos terakhir",
   "minimumDoseIntervalNone": "Tiada",

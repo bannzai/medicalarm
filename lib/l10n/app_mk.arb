@@ -239,6 +239,7 @@
   "medicineImageImportEmpty": "Не можеше да се препознае лек на сликата",
   "medicineImageImportSelectableLimit": "Може да додадете уште најмногу {count} лекови.",
   "medicineImageImportAddCount": "Додај {count} ставки",
+  "medicineImageImportCompletedSnackbar": "Регистрирани лекови: {count}",
   "minimumDoseInterval": "Интервал помеѓу дози",
   "minimumDoseIntervalDescription": "Минимално време помеѓу дозите од претходната доза",
   "minimumDoseIntervalNone": "Нема",

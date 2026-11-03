@@ -239,6 +239,7 @@
   "medicineImageImportEmpty": "चित्रात कोणतेही औषध ओळखता आले नाही",
   "medicineImageImportSelectableLimit": "तुम्ही आणखी जास्तीत जास्त {count} औषधे नोंदवू शकता.",
   "medicineImageImportAddCount": "{count} आयटम जोडा",
+  "medicineImageImportCompletedSnackbar": "{count} औषधे नोंदवली",
   "minimumDoseInterval": "डोसांमधील अंतर",
   "minimumDoseIntervalDescription": "मागील डोसनंतर डोसांमधील किमान अंतर",
   "minimumDoseIntervalNone": "काहीही नाही",

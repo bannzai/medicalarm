@@ -239,6 +239,7 @@
   "medicineImageImportEmpty": "Не вдалося розпізнати ліки на зображенні",
   "medicineImageImportSelectableLimit": "Ви можете додати ще не більш ніж {count} ліків.",
   "medicineImageImportAddCount": "Додати {count} записів",
+  "medicineImageImportCompletedSnackbar": "Зареєстровано ліків: {count}",
   "minimumDoseInterval": "Інтервал між прийомами",
   "minimumDoseIntervalDescription": "Мінімальний інтервал між прийомами після попередньої дози",
   "minimumDoseIntervalNone": "Немає",

@@ -239,6 +239,7 @@
   "medicineImageImportEmpty": "Nu s-a putut identifica niciun medicament în imagine",
   "medicineImageImportSelectableLimit": "Mai puteți adăuga cel mult {count} medicamente.",
   "medicineImageImportAddCount": "Adaugă {count} elemente",
+  "medicineImageImportCompletedSnackbar": "Medicamente înregistrate: {count}",
   "minimumDoseInterval": "Intervalul dintre doze",
   "minimumDoseIntervalDescription": "Intervalul minim dintre doze de la doza anterioară",
   "minimumDoseIntervalNone": "Niciunul",
