@@ -314,5 +314,6 @@
   "featureRequestPromptTitle": "کیا آپ Medicalarm کے لیے کوئی نئی خصوصیت تجویز کرنا چاہیں گے؟",
   "featureRequestPromptMessage": "ہمیں بتائیں کہ آپ کون سی خصوصیات چاہتے ہیں یا ہم کیا بہتر بنا سکتے ہیں۔ آپ سیٹنگز میں «خصوصیت کی درخواست» کے ذریعے کسی بھی وقت اپنی تجاویز بھیج سکتے ہیں۔",
   "featureRequestPromptCta": "تجویز بھیجیں",
-  "later": "بعد میں"
+  "later": "بعد میں",
+  "featureRequestContentLabel": "آپ کی درخواست کی تفصیلات"
 }

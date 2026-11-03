@@ -314,5 +314,6 @@
   "featureRequestPromptTitle": "Ungathanda ukuphakamisa isici esisha se-Medicalarm?",
   "featureRequestPromptMessage": "Sitshele ukuthi yiziphi izici ongathanda zengezwe noma yini esingayithuthukisa. Ungathumela imibono yakho noma nini ngokusebenzisa “Isicelo sesici” kokuthi Izilungiselelo.",
   "featureRequestPromptCta": "Thumela isiphakamiso",
-  "later": "Kamuva"
+  "later": "Kamuva",
+  "featureRequestContentLabel": "Imininingwane yesicelo sakho"
 }

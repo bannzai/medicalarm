@@ -314,5 +314,6 @@
   "featureRequestPromptTitle": "هل تود اقتراح ميزة جديدة لتطبيق Medicalarm؟",
   "featureRequestPromptMessage": "أخبرنا بالميزات التي تود إضافتها أو أفكارك لتحسين التطبيق. يمكنك إرسالها في أي وقت من «اقتراح ميزة» في الإعدادات.",
   "featureRequestPromptCta": "إرسال اقتراح",
-  "later": "لاحقًا"
+  "later": "لاحقًا",
+  "featureRequestContentLabel": "تفاصيل طلبك"
 }

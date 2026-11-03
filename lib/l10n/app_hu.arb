@@ -314,5 +314,6 @@
   "featureRequestPromptTitle": "Szeretne új funkciót javasolni a Medicalarmhoz?",
   "featureRequestPromptMessage": "Írja meg, milyen funkcióknak örülne, vagy min javíthatnánk. Ötleteit bármikor elküldheti a Beállítások „Funkciójavaslat” menüpontjából.",
   "featureRequestPromptCta": "Javaslat küldése",
-  "later": "Később"
+  "later": "Később",
+  "featureRequestContentLabel": "Javaslatának részletei"
 }

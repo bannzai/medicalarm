@@ -314,5 +314,6 @@
   "featureRequestPromptTitle": "Möchtisch e neui Funktion für Medicalarm vorschlaa?",
   "featureRequestPromptMessage": "Säg üs, weli Funktione du gärn hättisch oder was mir chönnte verbessere. Dini Idee chasch jederziit über «Funktionswünsch» i de Istellige schicke.",
   "featureRequestPromptCta": "Vorschlag schicke",
-  "later": "Spöter"
+  "later": "Spöter",
+  "featureRequestContentLabel": "Details zu Ihrem Vorschlag"
 }

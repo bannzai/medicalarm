@@ -314,5 +314,6 @@
   "featureRequestPromptTitle": "Medicalarm માટે નવી સુવિધાનું સૂચન કરવું છે?",
   "featureRequestPromptMessage": "તમને કઈ સુવિધાઓ ગમશે અથવા અમે શું સુધારી શકીએ તે અમને જણાવો. સેટિંગ્સમાં «સુવિધા માટે વિનંતી» દ્વારા તમે ગમે ત્યારે તમારા સૂચનો મોકલી શકો છો.",
   "featureRequestPromptCta": "સૂચન મોકલો",
-  "later": "પછી"
+  "later": "પછી",
+  "featureRequestContentLabel": "તમારી વિનંતીની વિગતો"
 }

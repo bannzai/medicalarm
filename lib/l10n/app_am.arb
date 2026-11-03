@@ -314,5 +314,6 @@
   "featureRequestPromptTitle": "ለMedicalarm አዲስ ባህሪ መጠቆም ይፈልጋሉ?",
   "featureRequestPromptMessage": "ሊኖሩ የሚፈልጓቸውን ባህሪያት ወይም የማሻሻያ ሀሳቦች ያሳውቁን። በቅንብሮች ውስጥ ካለው «የባህሪ ጥያቄ» በማንኛውም ጊዜ መላክ ይችላሉ።",
   "featureRequestPromptCta": "ጥቆማ ላክ",
-  "later": "በኋላ"
+  "later": "በኋላ",
+  "featureRequestContentLabel": "የጥያቄዎ ዝርዝር"
 }

@@ -314,5 +314,6 @@
   "featureRequestPromptTitle": "Medicalarm සඳහා නව විශේෂාංගයක් යෝජනා කිරීමට කැමතිද?",
   "featureRequestPromptMessage": "ඔබ කැමති විශේෂාංග හෝ අපට වැඩිදියුණු කළ හැකි දේ ගැන අපට කියන්න. සැකසීම් තුළ ඇති “විශේෂාංග ඉල්ලීම” හරහා ඕනෑම වේලාවක ඔබේ අදහස් යැවිය හැකිය.",
   "featureRequestPromptCta": "යෝජනාව යවන්න",
-  "later": "පසුව"
+  "later": "පසුව",
+  "featureRequestContentLabel": "ඔබේ ඉල්ලීමේ විස්තර"
 }

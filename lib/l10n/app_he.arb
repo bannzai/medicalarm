@@ -314,5 +314,6 @@
   "featureRequestPromptTitle": "רוצה להציע תכונה חדשה ל־Medicalarm?",
   "featureRequestPromptMessage": "ספרו לנו אילו תכונות הייתם רוצים או מה נוכל לשפר. אפשר לשלוח רעיונות בכל עת דרך ״בקשה לתכונה״ בהגדרות.",
   "featureRequestPromptCta": "שליחת הצעה",
-  "later": "מאוחר יותר"
+  "later": "מאוחר יותר",
+  "featureRequestContentLabel": "פרטי הבקשה שלך"
 }

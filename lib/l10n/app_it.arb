@@ -314,5 +314,6 @@
   "featureRequestPromptTitle": "Vuoi suggerire una nuova funzione per Medicalarm?",
   "featureRequestPromptMessage": "Dicci quali funzioni vorresti o cosa potremmo migliorare. Puoi inviare le tue idee in qualsiasi momento da “Suggerisci una funzione” nelle Impostazioni.",
   "featureRequestPromptCta": "Invia un suggerimento",
-  "later": "Più tardi"
+  "later": "Più tardi",
+  "featureRequestContentLabel": "Dettagli della richiesta"
 }

@@ -314,5 +314,6 @@
   "featureRequestPromptTitle": "Kas soovite Medicalarmile uut funktsiooni soovitada?",
   "featureRequestPromptMessage": "Andke meile teada, milliseid funktsioone sooviksite või mida võiksime parandada. Saate oma ideid igal ajal saata seadete jaotisest „Funktsioonisoovid”.",
   "featureRequestPromptCta": "Saada ettepanek",
-  "later": "Hiljem"
+  "later": "Hiljem",
+  "featureRequestContentLabel": "Teie ettepaneku üksikasjad"
 }

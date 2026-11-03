@@ -314,5 +314,6 @@
   "featureRequestPromptTitle": "Хочаце прапанаваць новую функцыю для Medicalarm?",
   "featureRequestPromptMessage": "Раскажыце, якіх функцый вам не хапае або што можна палепшыць. Вы можаце адправіць свае ідэі ў любы час праз раздзел «Прапанаваць функцыю» ў наладах.",
   "featureRequestPromptCta": "Адправіць прапанову",
-  "later": "Пазней"
+  "later": "Пазней",
+  "featureRequestContentLabel": "Падрабязнасці вашай прапановы"
 }

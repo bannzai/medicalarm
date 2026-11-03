@@ -314,5 +314,6 @@
   "featureRequestPromptTitle": "Medicalarm에 새로운 기능을 제안하시겠어요?",
   "featureRequestPromptMessage": "추가되면 좋을 기능이나 개선 아이디어를 알려 주세요. 설정의 ‘기능 요청’에서 언제든지 보낼 수 있습니다.",
   "featureRequestPromptCta": "제안 보내기",
-  "later": "나중에"
+  "later": "나중에",
+  "featureRequestContentLabel": "요청 내용"
 }
