@@ -320,5 +320,6 @@
   "featureRequestContentFooter": "Lūdzu, aprakstiet konkrētas situācijas, kurās vēlaties to izmantot. Tas palīdzēs mums izvērtēt jūsu ierosinājumu.",
   "featureRequestEmailLabel": "E-pasta adrese (nav obligāti)",
   "featureRequestEmailFooter": "Varam to izmantot, lai precizētu informāciju. Atbildi nevaram garantēt.",
-  "featureRequestEmailInvalid": "E-pasta adreses formāts nav pareizs"
+  "featureRequestEmailInvalid": "E-pasta adreses formāts nav pareizs",
+  "featureRequestThanks": "Jūsu ieteikums ir nosūtīts. Paldies."
 }

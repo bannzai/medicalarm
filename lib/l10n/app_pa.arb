@@ -320,5 +320,6 @@
   "featureRequestContentFooter": "ਕਿਰਪਾ ਕਰਕੇ ਸਪਸ਼ਟ ਤੌਰ 'ਤੇ ਲਿਖੋ ਕਿ ਤੁਸੀਂ ਇਸਨੂੰ ਕਿਹੜੀਆਂ ਸਥਿਤੀਆਂ ਵਿੱਚ ਵਰਤਣਾ ਚਾਹੁੰਦੇ ਹੋ। ਇਸ ਨਾਲ ਸਾਨੂੰ ਤੁਹਾਡੀ ਬੇਨਤੀ 'ਤੇ ਵਿਚਾਰ ਕਰਨ ਵਿੱਚ ਮਦਦ ਮਿਲੇਗੀ।",
   "featureRequestEmailLabel": "ਈਮੇਲ ਪਤਾ (ਵਿਕਲਪਿਕ)",
   "featureRequestEmailFooter": "ਵੇਰਵਿਆਂ ਦੀ ਪੁਸ਼ਟੀ ਕਰਨ ਲਈ ਅਸੀਂ ਇਸਦੀ ਵਰਤੋਂ ਕਰ ਸਕਦੇ ਹਾਂ। ਅਸੀਂ ਜਵਾਬ ਦੀ ਗਾਰੰਟੀ ਨਹੀਂ ਦੇ ਸਕਦੇ।",
-  "featureRequestEmailInvalid": "ਈਮੇਲ ਪਤੇ ਦਾ ਫਾਰਮੈਟ ਸਹੀ ਨਹੀਂ ਹੈ"
+  "featureRequestEmailInvalid": "ਈਮੇਲ ਪਤੇ ਦਾ ਫਾਰਮੈਟ ਸਹੀ ਨਹੀਂ ਹੈ",
+  "featureRequestThanks": "ਤੁਹਾਡਾ ਸੁਝਾਅ ਭੇਜ ਦਿੱਤਾ ਗਿਆ ਹੈ। ਧੰਨਵਾਦ।"
 }

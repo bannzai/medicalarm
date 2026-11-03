@@ -320,5 +320,6 @@
   "featureRequestContentFooter": "Opisz, w jakich konkretnie sytuacjach chcesz z tego korzystać. Pomoże nam to rozpatrzyć Twoją propozycję.",
   "featureRequestEmailLabel": "Adres e-mail (opcjonalnie)",
   "featureRequestEmailFooter": "Możemy go użyć do wyjaśnienia szczegółów. Nie możemy zagwarantować odpowiedzi.",
-  "featureRequestEmailInvalid": "Format adresu e-mail jest nieprawidłowy"
+  "featureRequestEmailInvalid": "Format adresu e-mail jest nieprawidłowy",
+  "featureRequestThanks": "Twoja sugestia została wysłana. Dziękujemy."
 }

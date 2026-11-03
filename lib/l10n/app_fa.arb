@@ -320,5 +320,6 @@
   "featureRequestContentFooter": "لطفاً توضیح دهید در چه موقعیت‌هایی می‌خواهید از آن استفاده کنید. این به بررسی درخواست شما کمک می‌کند.",
   "featureRequestEmailLabel": "نشانی ایمیل (اختیاری)",
   "featureRequestEmailFooter": "ممکن است برای بررسی جزئیات از آن استفاده کنیم. نمی‌توانیم پاسخ‌گویی را تضمین کنیم.",
-  "featureRequestEmailInvalid": "قالب نشانی ایمیل صحیح نیست"
+  "featureRequestEmailInvalid": "قالب نشانی ایمیل صحیح نیست",
+  "featureRequestThanks": "پیشنهاد شما ارسال شد. سپاسگزاریم."
 }

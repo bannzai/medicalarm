@@ -320,5 +320,6 @@
   "featureRequestContentFooter": "براہِ کرم واضح کریں کہ آپ اسے کن صورتِ حال میں استعمال کرنا چاہیں گے۔ اس سے ہمیں آپ کی درخواست پر غور کرنے میں مدد ملے گی۔",
   "featureRequestEmailLabel": "ای میل پتہ (اختیاری)",
   "featureRequestEmailFooter": "ہم تفصیلات کی تصدیق کے لیے اسے استعمال کر سکتے ہیں۔ ہم جواب کی ضمانت نہیں دے سکتے۔",
-  "featureRequestEmailInvalid": "ای میل پتے کی ساخت درست نہیں ہے"
+  "featureRequestEmailInvalid": "ای میل پتے کی ساخت درست نہیں ہے",
+  "featureRequestThanks": "آپ کی تجویز بھیج دی گئی ہے۔ شکریہ۔"
 }

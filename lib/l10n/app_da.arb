@@ -320,5 +320,6 @@
   "featureRequestContentFooter": "Beskriv gerne, i hvilke situationer du vil bruge det. Det hjælper os med at vurdere dit forslag.",
   "featureRequestEmailLabel": "E-mailadresse (valgfrit)",
   "featureRequestEmailFooter": "Vi kan bruge den til at afklare detaljer. Vi kan ikke garantere et svar.",
-  "featureRequestEmailInvalid": "E-mailadressens format er ugyldigt"
+  "featureRequestEmailInvalid": "E-mailadressens format er ugyldigt",
+  "featureRequestThanks": "Dit forslag er sendt. Tak."
 }

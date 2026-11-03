@@ -320,5 +320,6 @@
   "featureRequestContentFooter": "Descriviu en quines situacions ho voldríeu fer servir. Això ens ajudarà a valorar la vostra proposta.",
   "featureRequestEmailLabel": "Adreça electrònica (opcional)",
   "featureRequestEmailFooter": "El podem fer servir per confirmar detalls. No podem garantir una resposta.",
-  "featureRequestEmailInvalid": "El format de l'adreça electrònica no és vàlid"
+  "featureRequestEmailInvalid": "El format de l'adreça electrònica no és vàlid",
+  "featureRequestThanks": "Hem enviat el teu suggeriment. Gràcies."
 }

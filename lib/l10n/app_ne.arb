@@ -320,5 +320,6 @@
   "featureRequestContentFooter": "तपाईं यसलाई कुन अवस्थामा प्रयोग गर्न चाहनुहुन्छ, कृपया स्पष्ट रूपमा लेख्नुहोस्। यसले तपाईंको अनुरोधबारे विचार गर्न हामीलाई मद्दत गर्छ।",
   "featureRequestEmailLabel": "इमेल ठेगाना (वैकल्पिक)",
   "featureRequestEmailFooter": "विवरण पुष्टि गर्न हामी यसको प्रयोग गर्न सक्छौँ। जवाफ दिने ग्यारेन्टी गर्न सक्दैनौँ।",
-  "featureRequestEmailInvalid": "इमेल ठेगानाको ढाँचा सही छैन"
+  "featureRequestEmailInvalid": "इमेल ठेगानाको ढाँचा सही छैन",
+  "featureRequestThanks": "तपाईंको सुझाव पठाइएको छ। धन्यवाद।"
 }

@@ -320,5 +320,6 @@
   "featureRequestContentFooter": "يرجى وصف المواقف التي ترغب في استخدامه فيها بالتحديد، لمساعدتنا في دراسة طلبك.",
   "featureRequestEmailLabel": "عنوان البريد الإلكتروني (اختياري)",
   "featureRequestEmailFooter": "قد نستخدمه للتحقق من التفاصيل. لا يمكننا ضمان الرد.",
-  "featureRequestEmailInvalid": "تنسيق عنوان البريد الإلكتروني غير صحيح"
+  "featureRequestEmailInvalid": "تنسيق عنوان البريد الإلكتروني غير صحيح",
+  "featureRequestThanks": "تم إرسال اقتراحك. شكرًا لك."
 }

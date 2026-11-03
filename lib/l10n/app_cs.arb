@@ -320,5 +320,6 @@
   "featureRequestContentFooter": "Popište prosím konkrétní situace, ve kterých byste to chtěli používat. Pomůže nám to váš návrh posoudit.",
   "featureRequestEmailLabel": "E-mailová adresa (nepovinné)",
   "featureRequestEmailFooter": "Můžeme jej použít k upřesnění podrobností. Odpověď nemůžeme zaručit.",
-  "featureRequestEmailInvalid": "Formát e-mailové adresy není platný"
+  "featureRequestEmailInvalid": "Formát e-mailové adresy není platný",
+  "featureRequestThanks": "Váš návrh byl odeslán. Děkujeme."
 }

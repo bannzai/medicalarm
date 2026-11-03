@@ -320,5 +320,6 @@
   "featureRequestContentFooter": "আপুনি কোনবোৰ পৰিস্থিতিত ইয়াক ব্যৱহাৰ কৰিব বিচাৰে, অনুগ্ৰহ কৰি স্পষ্টকৈ লিখক। ই আপোনাৰ অনুৰোধ বিবেচনা কৰাত আমাক সহায় কৰিব।",
   "featureRequestEmailLabel": "ইমেইল ঠিকনা (ঐচ্ছিক)",
   "featureRequestEmailFooter": "সবিশেষ নিশ্চিত কৰিবলৈ আমি ইয়াক ব্যৱহাৰ কৰিব পাৰোঁ। উত্তৰ দিয়াৰ নিশ্চয়তা দিব নোৱাৰোঁ।",
-  "featureRequestEmailInvalid": "ইমেইল ঠিকনাৰ বিন্যাস শুদ্ধ নহয়"
+  "featureRequestEmailInvalid": "ইমেইল ঠিকনাৰ বিন্যাস শুদ্ধ নহয়",
+  "featureRequestThanks": "আপোনাৰ পৰামৰ্শ পঠিওৱা হৈছে। ধন্যবাদ।"
 }

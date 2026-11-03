@@ -320,5 +320,6 @@
   "featureRequestContentFooter": "तुम्हाला हे कोणत्या परिस्थितीत वापरायचे आहे ते कृपया स्पष्टपणे लिहा. त्यामुळे तुमच्या विनंतीचा विचार करण्यास आम्हाला मदत होईल.",
   "featureRequestEmailLabel": "ईमेल पत्ता (ऐच्छिक)",
   "featureRequestEmailFooter": "तपशीलांची खात्री करण्यासाठी आम्ही याचा वापर करू शकतो. उत्तर देण्याची हमी देऊ शकत नाही.",
-  "featureRequestEmailInvalid": "ईमेल पत्त्याचा फॉरमॅट योग्य नाही"
+  "featureRequestEmailInvalid": "ईमेल पत्त्याचा फॉरमॅट योग्य नाही",
+  "featureRequestThanks": "तुमची सूचना पाठवली आहे. धन्यवाद."
 }

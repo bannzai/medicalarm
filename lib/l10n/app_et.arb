@@ -320,5 +320,6 @@
   "featureRequestContentFooter": "Kirjeldage palun täpsemalt, millistes olukordades sooviksite seda kasutada. See aitab meil teie ettepanekut kaaluda.",
   "featureRequestEmailLabel": "E-posti aadress (valikuline)",
   "featureRequestEmailFooter": "Võime seda kasutada üksikasjade täpsustamiseks. Me ei saa vastust garanteerida.",
-  "featureRequestEmailInvalid": "E-posti aadressi vorming ei ole õige"
+  "featureRequestEmailInvalid": "E-posti aadressi vorming ei ole õige",
+  "featureRequestThanks": "Teie ettepanek on saadetud. Aitäh."
 }

@@ -320,5 +320,6 @@
   "featureRequestContentFooter": "Beschriibed bitte gnau, i wellne Situatione Si das bruuche möchted. Das hilft eus, Ihre Vorschlag z prüefe.",
   "featureRequestEmailLabel": "E-Mail-Adräss (optional)",
   "featureRequestEmailFooter": "Mir chönd s bruuche, zum Detail z kläre. Mir chönd kei Antwort garantiere.",
-  "featureRequestEmailInvalid": "S Format vo dr E-Mail-Adräss isch nid gültig"
+  "featureRequestEmailInvalid": "S Format vo dr E-Mail-Adräss isch nid gültig",
+  "featureRequestThanks": "Din Vorschlag isch verschickt worde. Merci."
 }

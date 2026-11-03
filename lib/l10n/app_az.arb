@@ -320,5 +320,6 @@
   "featureRequestContentFooter": "Onu hansı hallarda istifadə etmək istədiyinizi ətraflı yazın. Bu, istəyinizi nəzərdən keçirməyimizə kömək edəcək.",
   "featureRequestEmailLabel": "E-poçt ünvanı (istəyə bağlı)",
   "featureRequestEmailFooter": "Təfərrüatları dəqiqləşdirmək üçün ondan istifadə edə bilərik. Cavab veriləcəyinə zəmanət verə bilmirik.",
-  "featureRequestEmailInvalid": "E-poçt ünvanının formatı düzgün deyil"
+  "featureRequestEmailInvalid": "E-poçt ünvanının formatı düzgün deyil",
+  "featureRequestThanks": "Təklifiniz göndərildi. Təşəkkür edirik."
 }

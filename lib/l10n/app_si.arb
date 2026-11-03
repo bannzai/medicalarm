@@ -320,5 +320,6 @@
   "featureRequestContentFooter": "ඔබට මෙය භාවිත කිරීමට අවශ්‍ය නිශ්චිත අවස්ථා විස්තර කරන්න. එය ඔබගේ ඉල්ලීම සලකා බැලීමට අපට උපකාරී වේ.",
   "featureRequestEmailLabel": "ඊමේල් ලිපිනය (විකල්ප)",
   "featureRequestEmailFooter": "විස්තර තහවුරු කරගැනීමට අපි එය භාවිත කළ හැකිය. පිළිතුරක් ලබා දෙන බවට සහතික විය නොහැක.",
-  "featureRequestEmailInvalid": "ඊමේල් ලිපිනයේ ආකෘතිය නිවැරදි නැත"
+  "featureRequestEmailInvalid": "ඊමේල් ලිපිනයේ ආකෘතිය නිවැරදි නැත",
+  "featureRequestThanks": "ඔබේ යෝජනාව යවන ලදී. ස්තුතියි."
 }

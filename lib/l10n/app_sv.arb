@@ -320,5 +320,6 @@
   "featureRequestContentFooter": "Beskriv gärna i vilka situationer du vill använda det. Det hjälper oss att bedöma ditt förslag.",
   "featureRequestEmailLabel": "E-postadress (valfritt)",
   "featureRequestEmailFooter": "Vi kan använda den för att reda ut detaljer. Vi kan inte garantera ett svar.",
-  "featureRequestEmailInvalid": "E-postadressens format är ogiltigt"
+  "featureRequestEmailInvalid": "E-postadressens format är ogiltigt",
+  "featureRequestThanks": "Ditt förslag har skickats. Tack."
 }
