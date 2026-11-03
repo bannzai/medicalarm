@@ -317,5 +317,6 @@
   "later": "Keyinroq",
   "featureRequestContentLabel": "Taklifingiz tafsilotlari",
   "featureRequestContentHint": "Qanday funksiya xohlashingizni bemalol yozing",
-  "featureRequestContentFooter": "Undan qaysi vaziyatlarda foydalanmoqchi ekaningizni aniq yozing. Bu so‘rovingizni ko‘rib chiqishimizga yordam beradi."
+  "featureRequestContentFooter": "Undan qaysi vaziyatlarda foydalanmoqchi ekaningizni aniq yozing. Bu so‘rovingizni ko‘rib chiqishimizga yordam beradi.",
+  "featureRequestEmailLabel": "Elektron pochta manzili (ixtiyoriy)"
 }

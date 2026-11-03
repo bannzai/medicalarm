@@ -317,5 +317,6 @@
   "later": "Vėliau",
   "featureRequestContentLabel": "Jūsų pasiūlymo informacija",
   "featureRequestContentHint": "Parašykite, kokios funkcijos norėtumėte",
-  "featureRequestContentFooter": "Aprašykite konkrečias situacijas, kuriose norėtumėte tai naudoti. Tai padės mums apsvarstyti jūsų pasiūlymą."
+  "featureRequestContentFooter": "Aprašykite konkrečias situacijas, kuriose norėtumėte tai naudoti. Tai padės mums apsvarstyti jūsų pasiūlymą.",
+  "featureRequestEmailLabel": "El. pašto adresas (neprivaloma)"
 }

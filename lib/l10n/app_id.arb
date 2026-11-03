@@ -317,5 +317,6 @@
   "later": "Nanti",
   "featureRequestContentLabel": "Detail permintaan Anda",
   "featureRequestContentHint": "Silakan tulis fitur yang Anda inginkan",
-  "featureRequestContentFooter": "Jelaskan secara spesifik dalam situasi apa Anda ingin menggunakannya. Ini akan membantu kami mempertimbangkan permintaan Anda."
+  "featureRequestContentFooter": "Jelaskan secara spesifik dalam situasi apa Anda ingin menggunakannya. Ini akan membantu kami mempertimbangkan permintaan Anda.",
+  "featureRequestEmailLabel": "Alamat email (opsional)"
 }

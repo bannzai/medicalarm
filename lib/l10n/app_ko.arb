@@ -317,5 +317,6 @@
   "later": "나중에",
   "featureRequestContentLabel": "요청 내용",
   "featureRequestContentHint": "원하는 기능을 자유롭게 적어 주세요",
-  "featureRequestContentFooter": "어떤 상황에서 사용하고 싶은지 구체적으로 적어 주시면 요청을 검토하는 데 도움이 됩니다."
+  "featureRequestContentFooter": "어떤 상황에서 사용하고 싶은지 구체적으로 적어 주시면 요청을 검토하는 데 도움이 됩니다.",
+  "featureRequestEmailLabel": "이메일 주소(선택 사항)"
 }

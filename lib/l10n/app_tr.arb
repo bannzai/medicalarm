@@ -317,5 +317,6 @@
   "later": "Daha sonra",
   "featureRequestContentLabel": "Talebinizin ayrıntıları",
   "featureRequestContentHint": "İstediğiniz özelliği dilediğiniz gibi yazın",
-  "featureRequestContentFooter": "Hangi durumlarda kullanmak istediğinizi ayrıntılı olarak yazın. Bu, talebinizi değerlendirmemize yardımcı olur."
+  "featureRequestContentFooter": "Hangi durumlarda kullanmak istediğinizi ayrıntılı olarak yazın. Bu, talebinizi değerlendirmemize yardımcı olur.",
+  "featureRequestEmailLabel": "E-posta adresi (isteğe bağlı)"
 }

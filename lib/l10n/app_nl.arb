@@ -317,5 +317,6 @@
   "later": "Later",
   "featureRequestContentLabel": "Details van uw verzoek",
   "featureRequestContentHint": "Beschrijf welke functie u graag zou willen",
-  "featureRequestContentFooter": "Beschrijf in welke situaties je dit wilt gebruiken. Dat helpt ons je verzoek te beoordelen."
+  "featureRequestContentFooter": "Beschrijf in welke situaties je dit wilt gebruiken. Dat helpt ons je verzoek te beoordelen.",
+  "featureRequestEmailLabel": "E-mailadres (optioneel)"
 }

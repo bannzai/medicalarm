@@ -317,5 +317,6 @@
   "later": "Més tard",
   "featureRequestContentLabel": "Detalls de la sol·licitud",
   "featureRequestContentHint": "Expliqueu quina funció us agradaria tenir",
-  "featureRequestContentFooter": "Descriviu en quines situacions ho voldríeu fer servir. Això ens ajudarà a valorar la vostra proposta."
+  "featureRequestContentFooter": "Descriviu en quines situacions ho voldríeu fer servir. Això ens ajudarà a valorar la vostra proposta.",
+  "featureRequestEmailLabel": "Adreça electrònica (opcional)"
 }

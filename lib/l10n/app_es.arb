@@ -317,5 +317,6 @@
   "later": "Más tarde",
   "featureRequestContentLabel": "Detalles de tu solicitud",
   "featureRequestContentHint": "Escribe qué función te gustaría tener",
-  "featureRequestContentFooter": "Describe en qué situaciones concretas te gustaría usarlo. Esto nos ayudará a valorar tu solicitud."
+  "featureRequestContentFooter": "Describe en qué situaciones concretas te gustaría usarlo. Esto nos ayudará a valorar tu solicitud.",
+  "featureRequestEmailLabel": "Correo electrónico (opcional)"
 }

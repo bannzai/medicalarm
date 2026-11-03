@@ -317,5 +317,6 @@
   "later": "מאוחר יותר",
   "featureRequestContentLabel": "פרטי הבקשה שלך",
   "featureRequestContentHint": "אפשר לכתוב איזו תכונה היית רוצה",
-  "featureRequestContentFooter": "נשמח אם תתארו באילו מצבים תרצו להשתמש בזה. התיאור יעזור לנו לבחון את הבקשה."
+  "featureRequestContentFooter": "נשמח אם תתארו באילו מצבים תרצו להשתמש בזה. התיאור יעזור לנו לבחון את הבקשה.",
+  "featureRequestEmailLabel": "כתובת אימייל (לא חובה)"
 }

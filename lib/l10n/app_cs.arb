@@ -317,5 +317,6 @@
   "later": "Později",
   "featureRequestContentLabel": "Podrobnosti vašeho návrhu",
   "featureRequestContentHint": "Napište, jakou funkci byste si přáli",
-  "featureRequestContentFooter": "Popište prosím konkrétní situace, ve kterých byste to chtěli používat. Pomůže nám to váš návrh posoudit."
+  "featureRequestContentFooter": "Popište prosím konkrétní situace, ve kterých byste to chtěli používat. Pomůže nám to váš návrh posoudit.",
+  "featureRequestEmailLabel": "E-mailová adresa (nepovinné)"
 }

@@ -317,5 +317,6 @@
   "later": "Senare",
   "featureRequestContentLabel": "Detaljer om ditt förslag",
   "featureRequestContentHint": "Skriv gärna vilken funktion du önskar",
-  "featureRequestContentFooter": "Beskriv gärna i vilka situationer du vill använda det. Det hjälper oss att bedöma ditt förslag."
+  "featureRequestContentFooter": "Beskriv gärna i vilka situationer du vill använda det. Det hjälper oss att bedöma ditt förslag.",
+  "featureRequestEmailLabel": "E-postadress (valfritt)"
 }

@@ -317,5 +317,6 @@
   "later": "لاحقًا",
   "featureRequestContentLabel": "تفاصيل طلبك",
   "featureRequestContentHint": "اكتب بحرية الميزة التي ترغب فيها",
-  "featureRequestContentFooter": "يرجى وصف المواقف التي ترغب في استخدامه فيها بالتحديد، لمساعدتنا في دراسة طلبك."
+  "featureRequestContentFooter": "يرجى وصف المواقف التي ترغب في استخدامه فيها بالتحديد، لمساعدتنا في دراسة طلبك.",
+  "featureRequestEmailLabel": "عنوان البريد الإلكتروني (اختياري)"
 }

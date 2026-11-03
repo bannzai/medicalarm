@@ -317,5 +317,6 @@
   "later": "Yn nes ymlaen",
   "featureRequestContentLabel": "Manylion eich cais",
   "featureRequestContentHint": "Ysgrifennwch pa nodwedd yr hoffech ei chael",
-  "featureRequestContentFooter": "Disgrifiwch y sefyllfaoedd penodol yr hoffech ei ddefnyddio ynddynt. Bydd hyn yn ein helpu i ystyried eich cais."
+  "featureRequestContentFooter": "Disgrifiwch y sefyllfaoedd penodol yr hoffech ei ddefnyddio ynddynt. Bydd hyn yn ein helpu i ystyried eich cais.",
+  "featureRequestEmailLabel": "Cyfeiriad e-bost (dewisol)"
 }

@@ -317,5 +317,6 @@
   "later": "Kasnije",
   "featureRequestContentLabel": "Pojedinosti vašeg prijedloga",
   "featureRequestContentHint": "Slobodno napišite koju značajku želite",
-  "featureRequestContentFooter": "Opišite u kojim biste ga situacijama željeli koristiti. To će nam pomoći da razmotrimo vaš prijedlog."
+  "featureRequestContentFooter": "Opišite u kojim biste ga situacijama željeli koristiti. To će nam pomoći da razmotrimo vaš prijedlog.",
+  "featureRequestEmailLabel": "Adresa e-pošte (neobavezno)"
 }

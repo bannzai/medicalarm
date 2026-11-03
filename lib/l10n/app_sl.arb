@@ -317,5 +317,6 @@
   "later": "Pozneje",
   "featureRequestContentLabel": "Podrobnosti vašega predloga",
   "featureRequestContentHint": "Napišite, katero funkcijo si želite",
-  "featureRequestContentFooter": "Opišite, v katerih primerih bi to želeli uporabljati. Tako bomo lažje preučili vaš predlog."
+  "featureRequestContentFooter": "Opišite, v katerih primerih bi to želeli uporabljati. Tako bomo lažje preučili vaš predlog.",
+  "featureRequestEmailLabel": "E-poštni naslov (neobvezno)"
 }

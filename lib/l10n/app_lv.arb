@@ -317,5 +317,6 @@
   "later": "Vēlāk",
   "featureRequestContentLabel": "Jūsu ierosinājuma apraksts",
   "featureRequestContentHint": "Uzrakstiet, kādu funkciju jūs vēlētos",
-  "featureRequestContentFooter": "Lūdzu, aprakstiet konkrētas situācijas, kurās vēlaties to izmantot. Tas palīdzēs mums izvērtēt jūsu ierosinājumu."
+  "featureRequestContentFooter": "Lūdzu, aprakstiet konkrētas situācijas, kurās vēlaties to izmantot. Tas palīdzēs mums izvērtēt jūsu ierosinājumu.",
+  "featureRequestEmailLabel": "E-pasta adrese (nav obligāti)"
 }
