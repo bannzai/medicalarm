@@ -79,6 +79,7 @@
   "alarmKitNotification": "Nodwedd larwm",
   "alarmKitNotificationDescription": "Bydd hysbysiad yn canu fel cloc larwm. Byddwch yn ei gael hyd yn oed yn y modd tawel neu’r modd ffocws.",
   "focusConnectBlockOtherApps": "Rhwystro apiau eraill o dderbyn yr hysbysiad nes cofnodi cymryd y feddyginiaeth",
+  "focusConnectBlockOtherAppsDescription": "Bydd apiau eraill yn cael eu rhwystro o dderbyn yr hysbysiad nes cofnodi bod y feddyginiaeth wedi’i chymryd.",
   "everyXDaysFormat": "cada {count} diwrnod",
   "cycleDaysFormat": "{consecutiveDays} diwrnod yn cymryd / {restDays} diwrnod yn seibiant",
   "consecutiveDaysFormat": "{count} diwrnod o feddiant",

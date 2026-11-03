@@ -79,6 +79,7 @@
   "alarmKitNotification": "Λειτουργία ξυπνητηριού",
   "alarmKitNotificationDescription": "Θα ηχήσει μια ειδοποίηση σαν ξυπνητήρι. Θα τη λάβετε ακόμη και στην αθόρυβη λειτουργία ή στη λειτουργία Συγκέντρωσης.",
   "focusConnectBlockOtherApps": "Αποκλεισμός άλλων εφαρμογών από τη λήψη της ειδοποίησης έως την καταγραφή της λήψης φαρμάκου",
+  "focusConnectBlockOtherAppsDescription": "Οι άλλες εφαρμογές θα αποκλείονται από τη λήψη της ειδοποίησης μέχρι την καταγραφή της λήψης του φαρμάκου.",
   "everyXDaysFormat": "{count} ημέρες",
   "cycleDaysFormat": "{consecutiveDays} ημέρες λήψης/{restDays} ημέρες παύσης",
   "consecutiveDaysFormat": "{count} ημέρες λήψης",

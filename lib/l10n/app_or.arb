@@ -79,6 +79,7 @@
   "alarmKitNotification": "ଆଲାର୍ମ ସୁବିଧା",
   "alarmKitNotificationDescription": "ଆଲାର୍ମ ଘଣ୍ଟା ପରି ବିଜ୍ଞପ୍ତି ବାଜିବ। ସାଇଲେଣ୍ଟ କିମ୍ବା ଫୋକସ୍ ମୋଡ୍‌ରେ ମଧ୍ୟ ଆପଣ ବିଜ୍ଞପ୍ତି ପାଇବେ।",
   "focusConnectBlockOtherApps": "ବିଜ୍ଞପ୍ତି ପାଇବାଠାରୁ ଔଷଧ ଖାଇବାର ତଥ୍ୟ ଲେଖାହେବା ପର୍ଯ୍ୟନ୍ତ ଅନ୍ୟ ଆପ୍‌ଗୁଡ଼ିକୁ ବ୍ଲକ୍ କରନ୍ତୁ",
+  "focusConnectBlockOtherAppsDescription": "ବିଜ୍ଞପ୍ତି ମିଳିବାଠାରୁ ଔଷଧ ଖାଇଥିବା ରେକର୍ଡ କରିବା ପର୍ଯ୍ୟନ୍ତ ଅନ୍ୟ ଆପ୍‌ଗୁଡ଼ିକ ଅବରୋଧ ହୋଇରହିବ।",
   "everyXDaysFormat": "{count} ଦିନ ପରେ",
   "cycleDaysFormat": "{consecutiveDays} 針日 শুভন্তি / {restDays} 針日 বিশ্রাম",
   "consecutiveDaysFormat": "{count} ଦିନ ଦୌରନ୍ତି",

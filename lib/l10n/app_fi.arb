@@ -79,6 +79,7 @@
   "alarmKitNotification": "Hälytystoiminto",
   "alarmKitNotificationDescription": "Ilmoitus soi herätyskellon tavoin. Saat sen myös äänettömässä tilassa tai keskittymistilassa.",
   "focusConnectBlockOtherApps": "Estä muiden sovellusten käyttö ilmoituksen saapumisesta lääkkeen ottamisen kirjaamiseen asti",
+  "focusConnectBlockOtherAppsDescription": "Muut sovellukset estetään ilmoituksen saapumisesta siihen asti, kunnes lääkkeen ottaminen on kirjattu.",
   "everyXDaysFormat": "{count} päivän välein",
   "cycleDaysFormat": "{consecutiveDays} päivän käyttö/{restDays} päivän tauko",
   "consecutiveDaysFormat": "{count} päivää otettu",

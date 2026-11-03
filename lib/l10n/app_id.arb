@@ -79,6 +79,7 @@
   "alarmKitNotification": "Fitur alarm",
   "alarmKitNotificationDescription": "Notifikasi akan berbunyi seperti alarm. Anda tetap akan menerimanya dalam mode senyap atau fokus.",
   "focusConnectBlockOtherApps": "Blokir aplikasi lain sejak notifikasi diterima hingga konsumsi obat dicatat",
+  "focusConnectBlockOtherAppsDescription": "Aplikasi lain akan diblokir sejak notifikasi diterima hingga konsumsi obat dicatat.",
   "everyXDaysFormat": "setiap {count} hari",
   "cycleDaysFormat": "{consecutiveDays} hari pemakaian/{restDays} hari berhenti",
   "consecutiveDaysFormat": "{count} hari minum",

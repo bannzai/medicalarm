@@ -79,6 +79,7 @@
   "alarmKitNotification": "Функція будильника",
   "alarmKitNotificationDescription": "Сповіщення пролунає як будильник. Ви отримаєте його навіть у беззвучному режимі чи режимі зосередження.",
   "focusConnectBlockOtherApps": "Блокувати інші застосунки від отримання сповіщення до запису про прийом ліків",
+  "focusConnectBlockOtherAppsDescription": "Інші застосунки буде заблоковано від отримання сповіщення до запису про прийом ліків.",
   "everyXDaysFormat": "every {count} days",
   "cycleDaysFormat": "{consecutiveDays} days taken/{restDays} days off",
   "consecutiveDaysFormat": "{count} days of medication",

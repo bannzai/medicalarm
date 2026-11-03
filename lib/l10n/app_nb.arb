@@ -79,6 +79,7 @@
   "alarmKitNotification": "Alarmfunksjon",
   "alarmKitNotificationDescription": "Varslingen høres ut som en vekkerklokke. Du får den også i lydløs modus eller fokusmodus.",
   "focusConnectBlockOtherApps": "Blokker andre apper fra varselet mottas til medisineringen er registrert",
+  "focusConnectBlockOtherAppsDescription": "Andre apper blokkeres fra du mottar varselet til du registrerer at medisinen er tatt.",
   "everyXDaysFormat": "{count} dager",
   "cycleDaysFormat": "{consecutiveDays} dagers medisin/{restDays} dager pause",
   "consecutiveDaysFormat": "{count} dager tatt",

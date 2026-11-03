@@ -79,6 +79,7 @@
   "alarmKitNotification": "அலாரம் வசதி",
   "alarmKitNotificationDescription": "அலாரம் கடிகாரத்தைப் போல அறிவிப்பு ஒலிக்கும். அமைதி அல்லது கவனம் செலுத்தும் பயன்முறையிலும் அறிவிப்பைப் பெறுவீர்கள்.",
   "focusConnectBlockOtherApps": "அறிவிப்பு வந்ததிலிருந்து மருந்து உட்கொண்டதைப் பதிவு செய்யும் வரை பிற செயலிகளைத் தடுக்கவும்",
+  "focusConnectBlockOtherAppsDescription": "அறிவிப்பு வந்ததிலிருந்து மருந்து எடுத்ததைப் பதிவு செய்யும் வரை பிற செயலிகள் தடுக்கப்படும்.",
   "everyXDaysFormat": "{count} நாளுக்கு ஒருமுறை",
   "cycleDaysFormat": "{consecutiveDays} நாட்கள் மருந்து/{restDays} நாட்கள் விடுப்பு",
   "consecutiveDaysFormat": "{count} நாட்கள் எடுத்துக் கொண்டது",

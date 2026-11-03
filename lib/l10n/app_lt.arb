@@ -79,6 +79,7 @@
   "alarmKitNotification": "Žadintuvo funkcija",
   "alarmKitNotificationDescription": "Pranešimas suskambės kaip žadintuvas. Jį gausite net įjungę tylųjį ar susikaupimo režimą.",
   "focusConnectBlockOtherApps": "Blokuoti kitas programas nuo pranešimo gavimo iki vaisto vartojimo užregistravimo",
+  "focusConnectBlockOtherAppsDescription": "Kitos programėlės bus blokuojamos nuo pranešimo gavimo iki vaistų vartojimo užregistravimo.",
   "everyXDaysFormat": "{count} dienų intervalais",
   "cycleDaysFormat": "{consecutiveDays} dienų vartojimas/{restDays} dienų gydymo pertrauka",
   "consecutiveDaysFormat": "{count} dienų vartojimas",

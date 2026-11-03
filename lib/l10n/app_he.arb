@@ -79,6 +79,7 @@
   "alarmKitNotification": "תכונת שעון מעורר",
   "alarmKitNotificationDescription": "תישמע התראה כמו שעון מעורר. ההתראה תתקבל גם במצב שקט או במצב ריכוז.",
   "focusConnectBlockOtherApps": "חסימת אפליקציות אחרות מרגע קבלת ההתראה ועד לתיעוד נטילת התרופה",
+  "focusConnectBlockOtherAppsDescription": "אפליקציות אחרות ייחסמו מרגע קבלת ההתראה ועד לרישום נטילת התרופה.",
   "everyXDaysFormat": "{count} ימים",
   "cycleDaysFormat": "{consecutiveDays} ימי נטילה/{restDays} ימי הפסקה",
   "consecutiveDaysFormat": "{count} ימי נטילה",

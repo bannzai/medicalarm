@@ -79,6 +79,7 @@
   "alarmKitNotification": "قابلیت زنگ هشدار",
   "alarmKitNotificationDescription": "اعلان مانند ساعت زنگ‌دار به صدا درمی‌آید. حتی در حالت بی‌صدا یا تمرکز هم آن را دریافت می‌کنید.",
   "focusConnectBlockOtherApps": "مسدود کردن برنامه‌های دیگر از زمان دریافت اعلان تا ثبت مصرف دارو",
+  "focusConnectBlockOtherAppsDescription": "برنامه‌های دیگر از زمان دریافت اعلان تا ثبت مصرف دارو مسدود می‌شوند.",
   "everyXDaysFormat": "هر {count} روز",
   "cycleDaysFormat": "{consecutiveDays} روز مصرف/{restDays} روز عدم مصرف",
   "consecutiveDaysFormat": "{count} روز مصرف",

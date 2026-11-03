@@ -79,6 +79,7 @@
   "alarmKitNotification": "এলাৰ্ম সুবিধা",
   "alarmKitNotificationDescription": "এলাৰ্ম ঘড়ীৰ দৰে জাননী বাজিব। নীৰৱ বা ফ’কাছ মোডতো জাননী পাব।",
   "focusConnectBlockOtherApps": "জাননী পোৱাৰ পৰা ঔষধ খোৱাৰ তথ্য নথিভুক্ত কৰালৈকে আন এপসমূহ ব্লক কৰক",
+  "focusConnectBlockOtherAppsDescription": "জাননী পোৱাৰ পৰা ঔষধ খোৱা বুলি নথিভুক্ত নকৰালৈকে অন্য এপসমূহ বন্ধ থাকিব।",
   "everyXDaysFormat": "{count} দিনৰ অন্তৰত",
   "cycleDaysFormat": "{consecutiveDays} দিন সেবন/{restDays} দিন বিরতি",
   "consecutiveDaysFormat": "{count} দিন সেবন",

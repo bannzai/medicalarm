@@ -79,6 +79,7 @@
   "alarmKitNotification": "Funkcja alarmu",
   "alarmKitNotificationDescription": "Powiadomienie zabrzmi jak budzik. Otrzymasz je również w trybie cichym lub trybie skupienia.",
   "focusConnectBlockOtherApps": "Blokuj inne aplikacje od otrzymania powiadomienia do zapisania przyjęcia leku",
+  "focusConnectBlockOtherAppsDescription": "Inne aplikacje będą blokowane od otrzymania powiadomienia do zapisania przyjęcia leku.",
   "everyXDaysFormat": "co {count} dni",
   "cycleDaysFormat": "{consecutiveDays} dni zażycia / {restDays} dni przerwy",
   "consecutiveDaysFormat": "{count} dni przyjęcia",

@@ -79,6 +79,7 @@
   "alarmKitNotification": "Ciri penggera",
   "alarmKitNotificationDescription": "Pemberitahuan akan berbunyi seperti jam penggera. Anda tetap akan menerimanya dalam mod senyap atau Fokus.",
   "focusConnectBlockOtherApps": "Sekat aplikasi lain dari penerimaan pemberitahuan hingga pengambilan ubat direkodkan",
+  "focusConnectBlockOtherAppsDescription": "Aplikasi lain akan disekat dari saat pemberitahuan diterima sehingga pengambilan ubat direkodkan.",
   "everyXDaysFormat": "setiap {count} hari",
   "cycleDaysFormat": "{consecutiveDays} hari pengambilan/{restDays} hari rehat",
   "consecutiveDaysFormat": "{count} hari pengambilan",

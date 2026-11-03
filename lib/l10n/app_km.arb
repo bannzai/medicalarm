@@ -79,6 +79,7 @@
   "alarmKitNotification": "មុខងារម៉ោងរោទ៍",
   "alarmKitNotificationDescription": "ការជូនដំណឹងនឹងបន្លឺសំឡេងដូចម៉ោងរោទ៍។ អ្នកនឹងទទួលបានវា ទោះនៅក្នុងរបៀបស្ងាត់ ឬរបៀបផ្តោតអារម្មណ៍ក៏ដោយ។",
   "focusConnectBlockOtherApps": "ទប់ស្កាត់កម្មវិធីផ្សេងៗ ចាប់ពីទទួលបានការជូនដំណឹង រហូតដល់កត់ត្រាការលេបថ្នាំ",
+  "focusConnectBlockOtherAppsDescription": "កម្មវិធីផ្សេងទៀតនឹងត្រូវបានទប់ស្កាត់ ចាប់ពីពេលទទួលបានការជូនដំណឹង រហូតដល់ការកត់ត្រាថាបានលេបថ្នាំ។",
   "everyXDaysFormat": "{count}ថ្ងៃម្តង",
   "cycleDaysFormat": "{consecutiveDays}ថ្ងៃចូលរបៀប/{restDays}ថ្ងៃសម្រាក",
   "consecutiveDaysFormat": "{count} ថ្ងៃសំរាប់ការប្រើចំរៀង",

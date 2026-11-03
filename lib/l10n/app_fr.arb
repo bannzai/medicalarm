@@ -79,6 +79,7 @@
   "alarmKitNotification": "Fonction d’alarme",
   "alarmKitNotificationDescription": "Une notification sonnera comme un réveil. Vous la recevrez même en mode silencieux ou Concentration.",
   "focusConnectBlockOtherApps": "Bloquer les autres applications de la réception de la notification à l’enregistrement de la prise du médicament",
+  "focusConnectBlockOtherAppsDescription": "Les autres applications seront bloquées de la réception de la notification jusqu’à l’enregistrement de la prise du médicament.",
   "everyXDaysFormat": "Tous les {count} jours",
   "cycleDaysFormat": "{consecutiveDays} jours de prise / {restDays} jours de pause",
   "consecutiveDaysFormat": "{count} jours de prise",

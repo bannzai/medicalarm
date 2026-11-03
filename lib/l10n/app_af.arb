@@ -79,6 +79,7 @@
   "alarmKitNotification": "Alarmfunksie",
   "alarmKitNotificationDescription": "’n Kennisgewing klink soos ’n wekker. Jy kry dit ook in stilmodus of fokusmodus.",
   "focusConnectBlockOtherApps": "Blokkeer ander toepassings van die kennisgewing af totdat die medikasie aangeteken is",
+  "focusConnectBlockOtherAppsDescription": "Ander toepassings word geblokkeer vanaf die kennisgewing ontvang word totdat die medisyne-inname aangeteken is.",
   "everyXDaysFormat": "{count} dae",
   "cycleDaysFormat": "{consecutiveDays} dae geneem/{restDays} dae rus",
   "consecutiveDaysFormat": "{count} dae ingeneem",

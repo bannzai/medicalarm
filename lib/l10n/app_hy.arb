@@ -79,6 +79,7 @@
   "alarmKitNotification": "Զարթուցիչի գործառույթ",
   "alarmKitNotificationDescription": "Ծանուցումը կհնչի զարթուցիչի պես։ Այն կստանաք նաև անձայն կամ կենտրոնացման ռեժիմում։",
   "focusConnectBlockOtherApps": "Արգելափակել այլ հավելվածները ծանուցումն ստանալուց մինչև դեղի ընդունումը գրանցելը",
+  "focusConnectBlockOtherAppsDescription": "Այլ հավելվածները կարգելափակվեն ծանուցումը ստանալուց մինչև դեղի ընդունումը գրանցելը։",
   "everyXDaysFormat": "{count} օրն մեկ",
   "cycleDaysFormat": "{consecutiveDays} օր գումարած/{restDays} օր դեղը չընդունելու",
   "consecutiveDaysFormat": "{count} օր դեղամիջոցների",

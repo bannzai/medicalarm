@@ -79,6 +79,7 @@
   "alarmKitNotification": "अलार्म सुविधा",
   "alarmKitNotificationDescription": "गजराच्या घड्याळासारखी सूचना वाजेल. सायलेंट किंवा फोकस मोडमध्येही तुम्हाला सूचना मिळेल.",
   "focusConnectBlockOtherApps": "सूचना मिळाल्यापासून औषध घेतल्याची नोंद करेपर्यंत इतर अ‍ॅप्स ब्लॉक करा",
+  "focusConnectBlockOtherAppsDescription": "सूचना मिळाल्यापासून औषध घेतल्याची नोंद करेपर्यंत इतर अॅप्स अवरोधित राहतील.",
   "everyXDaysFormat": "{count} दिवसांनी",
   "cycleDaysFormat": "{consecutiveDays} दिवस औषध घेतले/{restDays} दिवस आराम",
   "consecutiveDaysFormat": "{count} दिवसांचा वापर",

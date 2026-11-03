@@ -79,6 +79,7 @@
   "alarmKitNotification": "Funksioni i alarmit",
   "alarmKitNotificationDescription": "Njoftimi do të tingëllojë si zile zgjimi. Do ta marrësh edhe në modalitetin pa zë ose të përqendrimit.",
   "focusConnectBlockOtherApps": "Blloko aplikacionet e tjera nga marrja e njoftimit deri te regjistrimi i marrjes së ilaçit",
+  "focusConnectBlockOtherAppsDescription": "Aplikacionet e tjera do të bllokohen nga marrja e njoftimit deri në regjistrimin e marrjes së ilaçit.",
   "everyXDaysFormat": "{count} ditë",
   "cycleDaysFormat": "{consecutiveDays} ditë marrjeje/{restDays} ditë pushimi",
   "consecutiveDaysFormat": "{count} ditë të përdorimit",
