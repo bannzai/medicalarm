@@ -238,6 +238,7 @@
   "medicineImageImportReviewTitle": "Farmaci riconosciuti",
   "medicineImageImportEmpty": "Impossibile identificare farmaci nell’immagine",
   "medicineImageImportSelectableLimit": "Puoi aggiungere ancora fino a {count} farmaci.",
+  "medicineImageImportAddCount": "Aggiungi {count} elementi",
   "minimumDoseInterval": "Intervallo tra le dosi",
   "minimumDoseIntervalDescription": "Intervallo minimo tra le dosi dall’ultima dose",
   "minimumDoseIntervalNone": "Nessuno",

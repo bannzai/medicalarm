@@ -238,6 +238,7 @@
   "medicineImageImportReviewTitle": "Распознанные лекарства",
   "medicineImageImportEmpty": "Не удалось распознать лекарство на изображении",
   "medicineImageImportSelectableLimit": "Вы можете добавить ещё не более {count} лекарств.",
+  "medicineImageImportAddCount": "Добавить {count} записей",
   "minimumDoseInterval": "Интервал между приёмами",
   "minimumDoseIntervalDescription": "Минимальный интервал между приёмами после предыдущей дозы",
   "minimumDoseIntervalNone": "Нет",

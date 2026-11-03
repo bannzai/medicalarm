@@ -238,6 +238,7 @@
   "medicineImageImportReviewTitle": "الأدوية التي تم التعرّف عليها",
   "medicineImageImportEmpty": "تعذّر التعرّف على أي دواء في الصورة",
   "medicineImageImportSelectableLimit": "يمكنك تسجيل {count} أدوية إضافية فقط.",
+  "medicineImageImportAddCount": "إضافة {count} عناصر",
   "minimumDoseInterval": "الفاصل بين الجرعات",
   "minimumDoseIntervalDescription": "الحد الأدنى للوقت بين الجرعات منذ الجرعة السابقة",
   "minimumDoseIntervalNone": "لا يوجد",

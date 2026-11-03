@@ -238,6 +238,7 @@
   "medicineImageImportReviewTitle": "Atpažinti vaistai",
   "medicineImageImportEmpty": "Nuotraukoje nepavyko atpažinti jokių vaistų",
   "medicineImageImportSelectableLimit": "Galite pridėti dar ne daugiau kaip {count} vaistų.",
+  "medicineImageImportAddCount": "Pridėti {count} elementų",
   "minimumDoseInterval": "Dozių vartojimo intervalas",
   "minimumDoseIntervalDescription": "Minimalus laikas tarp dozių nuo paskutinės dozės",
   "minimumDoseIntervalNone": "Nėra",

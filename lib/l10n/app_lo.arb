@@ -238,6 +238,7 @@
   "medicineImageImportReviewTitle": "ຢາທີ່ລະບຸໄດ້",
   "medicineImageImportEmpty": "ບໍ່ສາມາດລະບຸຢາໃນຮູບພາບໄດ້",
   "medicineImageImportSelectableLimit": "ທ່ານສາມາດເພີ່ມຢາໄດ້ອີກສູງສຸດ {count} ລາຍການ.",
+  "medicineImageImportAddCount": "ເພີ່ມ {count} ລາຍການ",
   "minimumDoseInterval": "ໄລຍະຫ່າງລະຫວ່າງການກິນຢາ",
   "minimumDoseIntervalDescription": "ໄລຍະເວລາຂັ້ນຕ່ຳລະຫວ່າງການກິນຢາ ຫຼັງຈາກຄັ້ງກ່ອນ",
   "minimumDoseIntervalNone": "ບໍ່ມີ",

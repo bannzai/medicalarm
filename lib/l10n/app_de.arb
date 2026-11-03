@@ -238,6 +238,7 @@
   "medicineImageImportReviewTitle": "Erkannte Medikamente",
   "medicineImageImportEmpty": "Auf dem Bild konnte kein Medikament erkannt werden",
   "medicineImageImportSelectableLimit": "Sie können noch höchstens {count} Medikamente hinzufügen.",
+  "medicineImageImportAddCount": "{count} Einträge hinzufügen",
   "minimumDoseInterval": "Einnahmeabstand",
   "minimumDoseIntervalDescription": "Mindestabstand zwischen den Einnahmen seit der letzten Einnahme",
   "minimumDoseIntervalNone": "Keine",

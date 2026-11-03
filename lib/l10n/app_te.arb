@@ -238,6 +238,7 @@
   "medicineImageImportReviewTitle": "గుర్తించిన మందులు",
   "medicineImageImportEmpty": "చిత్రంలో ఏ మందునూ గుర్తించలేకపోయాము",
   "medicineImageImportSelectableLimit": "మీరు ఇంకా గరిష్ఠంగా {count} మందులను జోడించవచ్చు.",
+  "medicineImageImportAddCount": "{count} అంశాలను జోడించండి",
   "minimumDoseInterval": "మోతాదుల మధ్య విరామం",
   "minimumDoseIntervalDescription": "మునుపటి మోతాదు తర్వాత మోతాదుల మధ్య కనీస సమయం",
   "minimumDoseIntervalNone": "ఏదీ లేదు",

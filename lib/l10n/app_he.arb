@@ -238,6 +238,7 @@
   "medicineImageImportReviewTitle": "תרופות שזוהו",
   "medicineImageImportEmpty": "לא ניתן היה לזהות תרופה בתמונה",
   "medicineImageImportSelectableLimit": "אפשר להוסיף עוד עד {count} תרופות.",
+  "medicineImageImportAddCount": "הוספת {count} פריטים",
   "minimumDoseInterval": "מרווח בין מנות",
   "minimumDoseIntervalDescription": "הזמן המינימלי בין מנות מהמנה הקודמת",
   "minimumDoseIntervalNone": "אין",

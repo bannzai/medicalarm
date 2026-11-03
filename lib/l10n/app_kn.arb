@@ -238,6 +238,7 @@
   "medicineImageImportReviewTitle": "ಗುರುತಿಸಲಾದ ಔಷಧಿಗಳು",
   "medicineImageImportEmpty": "ಚಿತ್ರದಲ್ಲಿ ಯಾವುದೇ ಔಷಧಿಯನ್ನು ಗುರುತಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ",
   "medicineImageImportSelectableLimit": "ನೀವು ಇನ್ನೂ ಗರಿಷ್ಠ {count} ಔಷಧಿಗಳನ್ನು ಸೇರಿಸಬಹುದು.",
+  "medicineImageImportAddCount": "{count} ಐಟಂಗಳನ್ನು ಸೇರಿಸಿ",
   "minimumDoseInterval": "ಡೋಸ್‌ಗಳ ನಡುವಿನ ಅಂತರ",
   "minimumDoseIntervalDescription": "ಹಿಂದಿನ ಡೋಸ್‌ನಿಂದ ಕನಿಷ್ಠ ಅಂತರದ ಸಮಯ",
   "minimumDoseIntervalNone": "ಯಾವುದೂ ಇಲ್ಲ",

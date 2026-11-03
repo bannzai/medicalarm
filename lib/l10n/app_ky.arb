@@ -238,6 +238,7 @@
   "medicineImageImportReviewTitle": "Таанылган дарылар",
   "medicineImageImportEmpty": "Сүрөттөн эч бир дары таанылган жок",
   "medicineImageImportSelectableLimit": "Дагы эң көп {count} дары кошо аласыз.",
+  "medicineImageImportAddCount": "{count} нерсе кошуу",
   "minimumDoseInterval": "Дозалардын ортосундагы аралык",
   "minimumDoseIntervalDescription": "Мурунку дозадан кийинки минималдуу аралык",
   "minimumDoseIntervalNone": "Жок",

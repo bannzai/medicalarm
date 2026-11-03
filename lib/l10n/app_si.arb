@@ -238,6 +238,7 @@
   "medicineImageImportReviewTitle": "හඳුනාගත් ඖෂධ",
   "medicineImageImportEmpty": "රූපයෙන් කිසිදු ඖෂධයක් හඳුනාගත නොහැකි විය",
   "medicineImageImportSelectableLimit": "ඔබට තවත් ලියාපදිංචි කළ හැක්කේ ඖෂධ {count}ක් දක්වා පමණි.",
+  "medicineImageImportAddCount": "අයිතම {count}ක් එක් කරන්න",
   "minimumDoseInterval": "මාත්‍රා අතර පරතරය",
   "minimumDoseIntervalDescription": "පෙර මාත්‍රාවෙන් පසු මාත්‍රා අතර අවම කාලය",
   "minimumDoseIntervalNone": "නැත",

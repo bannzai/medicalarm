@@ -238,6 +238,7 @@
   "medicineImageImportReviewTitle": "ଚିହ୍ନଟ ହୋଇଥିବା ଔଷଧ",
   "medicineImageImportEmpty": "ଛବିରେ କୌଣସି ଔଷଧ ଚିହ୍ନଟ ହୋଇପାରିଲା ନାହିଁ",
   "medicineImageImportSelectableLimit": "ଆପଣ ଆଉ ସର୍ବାଧିକ {count}ଟି ଔଷଧ ଯୋଡ଼ିପାରିବେ।",
+  "medicineImageImportAddCount": "{count}ଟି ଆଇଟମ୍ ଯୋଡ଼ନ୍ତୁ",
   "minimumDoseInterval": "ଔଷଧ ସେବନ ବ୍ୟବଧାନ",
   "minimumDoseIntervalDescription": "ପୂର୍ବ ଡୋଜ୍ ପରଠାରୁ ଡୋଜ୍ ମଧ୍ୟରେ ସର୍ବନିମ୍ନ ସମୟ",
   "minimumDoseIntervalNone": "ନାହିଁ",

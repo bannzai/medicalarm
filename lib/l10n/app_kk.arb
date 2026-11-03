@@ -238,6 +238,7 @@
   "medicineImageImportReviewTitle": "Танылған дәрілер",
   "medicineImageImportEmpty": "Суреттен ешбір дәрі танылмады",
   "medicineImageImportSelectableLimit": "Тағы ең көбі {count} дәрі қоса аласыз.",
+  "medicineImageImportAddCount": "{count} элемент қосу",
   "minimumDoseInterval": "Дозалар арасындағы аралық",
   "minimumDoseIntervalDescription": "Алдыңғы дозадан кейін өтуі тиіс ең аз уақыт",
   "minimumDoseIntervalNone": "Жоқ",

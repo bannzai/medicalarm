@@ -238,6 +238,7 @@
   "medicineImageImportReviewTitle": "인식된 약",
   "medicineImageImportEmpty": "이미지에서 약을 인식하지 못했습니다",
   "medicineImageImportSelectableLimit": "약을 최대 {count}개 더 등록할 수 있습니다.",
+  "medicineImageImportAddCount": "{count}개 추가",
   "minimumDoseInterval": "복용 간격",
   "minimumDoseIntervalDescription": "이전 복용 후 다음 복용까지의 최소 간격",
   "minimumDoseIntervalNone": "없음",

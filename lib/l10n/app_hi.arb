@@ -238,6 +238,7 @@
   "medicineImageImportReviewTitle": "पहचानी गई दवाएँ",
   "medicineImageImportEmpty": "तस्वीर में किसी दवा की पहचान नहीं हो सकी",
   "medicineImageImportSelectableLimit": "आप अब अधिकतम {count} और दवाएँ जोड़ सकते हैं।",
+  "medicineImageImportAddCount": "{count} आइटम जोड़ें",
   "minimumDoseInterval": "खुराकों के बीच अंतराल",
   "minimumDoseIntervalDescription": "पिछली खुराक के बाद खुराकों के बीच न्यूनतम अंतराल",
   "minimumDoseIntervalNone": "कोई नहीं",

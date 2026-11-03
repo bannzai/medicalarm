@@ -238,6 +238,7 @@
   "medicineImageImportReviewTitle": "Thuốc đã nhận diện",
   "medicineImageImportEmpty": "Không nhận diện được thuốc nào trong ảnh",
   "medicineImageImportSelectableLimit": "Bạn chỉ có thể thêm tối đa {count} loại thuốc nữa.",
+  "medicineImageImportAddCount": "Thêm {count} mục",
   "minimumDoseInterval": "Khoảng cách giữa các liều",
   "minimumDoseIntervalDescription": "Khoảng thời gian tối thiểu giữa các liều kể từ liều trước",
   "minimumDoseIntervalNone": "Không có",

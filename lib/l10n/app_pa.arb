@@ -238,6 +238,7 @@
   "medicineImageImportReviewTitle": "ਪਛਾਣੀਆਂ ਗਈਆਂ ਦਵਾਈਆਂ",
   "medicineImageImportEmpty": "ਤਸਵੀਰ ਵਿੱਚ ਕਿਸੇ ਵੀ ਦਵਾਈ ਦੀ ਪਛਾਣ ਨਹੀਂ ਹੋ ਸਕੀ",
   "medicineImageImportSelectableLimit": "ਤੁਸੀਂ ਹੋਰ ਵੱਧ ਤੋਂ ਵੱਧ {count} ਦਵਾਈਆਂ ਦਰਜ ਕਰ ਸਕਦੇ ਹੋ।",
+  "medicineImageImportAddCount": "{count} ਆਈਟਮਾਂ ਸ਼ਾਮਲ ਕਰੋ",
   "minimumDoseInterval": "ਖੁਰਾਕਾਂ ਵਿਚਕਾਰ ਅੰਤਰਾਲ",
   "minimumDoseIntervalDescription": "ਪਿਛਲੀ ਖੁਰਾਕ ਤੋਂ ਬਾਅਦ ਖੁਰਾਕਾਂ ਵਿਚਕਾਰ ਘੱਟੋ-ਘੱਟ ਸਮਾਂ",
   "minimumDoseIntervalNone": "ਕੋਈ ਨਹੀਂ",
