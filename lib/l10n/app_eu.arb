@@ -315,5 +315,6 @@
   "featureRequestPromptMessage": "Esan zer funtzio gustatuko litzaizkizukeen edo zer hobetu genezakeen. Zure ideiak edozein unetan bidal ditzakezu Ezarpenetako «Funtzio-eskaerak» ataletik.",
   "featureRequestPromptCta": "Bidali iradokizuna",
   "later": "Geroago",
-  "featureRequestContentLabel": "Zure eskaeraren xehetasunak"
+  "featureRequestContentLabel": "Zure eskaeraren xehetasunak",
+  "featureRequestContentHint": "Idatzi zer funtzio nahi zenukeen"
 }

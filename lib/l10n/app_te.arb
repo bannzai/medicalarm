@@ -315,5 +315,6 @@
   "featureRequestPromptMessage": "మీరు కోరుకునే ఫీచర్‌లు లేదా మేము చేయగల మెరుగుదలల గురించి మాకు తెలియజేయండి. సెట్టింగ్‌లలోని “ఫీచర్ అభ్యర్థన” ద్వారా మీ సూచనలను ఎప్పుడైనా పంపవచ్చు.",
   "featureRequestPromptCta": "సూచన పంపండి",
   "later": "తర్వాత",
-  "featureRequestContentLabel": "మీ అభ్యర్థన వివరాలు"
+  "featureRequestContentLabel": "మీ అభ్యర్థన వివరాలు",
+  "featureRequestContentHint": "మీకు ఏ ఫీచర్ కావాలో సంకోచించకుండా రాయండి"
 }

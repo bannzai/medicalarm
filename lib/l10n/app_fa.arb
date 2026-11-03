@@ -315,5 +315,6 @@
   "featureRequestPromptMessage": "به ما بگویید چه قابلیت‌هایی دوست دارید اضافه شوند یا چه چیزهایی را می‌توانیم بهتر کنیم. هر زمان خواستید، ایده‌هایتان را از بخش «درخواست قابلیت» در تنظیمات بفرستید.",
   "featureRequestPromptCta": "ارسال پیشنهاد",
   "later": "بعداً",
-  "featureRequestContentLabel": "جزئیات درخواست شما"
+  "featureRequestContentLabel": "جزئیات درخواست شما",
+  "featureRequestContentHint": "بنویسید چه قابلیتی می‌خواهید"
 }

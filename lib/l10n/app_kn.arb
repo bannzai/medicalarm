@@ -315,5 +315,6 @@
   "featureRequestPromptMessage": "ನೀವು ಬಯಸುವ ವೈಶಿಷ್ಟ್ಯಗಳು ಅಥವಾ ನಾವು ಮಾಡಬಹುದಾದ ಸುಧಾರಣೆಗಳ ಬಗ್ಗೆ ನಮಗೆ ತಿಳಿಸಿ. ಸೆಟ್ಟಿಂಗ್‌ಗಳಲ್ಲಿರುವ “ವೈಶಿಷ್ಟ್ಯ ವಿನಂತಿ” ಮೂಲಕ ನಿಮ್ಮ ಸಲಹೆಗಳನ್ನು ಯಾವಾಗ ಬೇಕಾದರೂ ಕಳುಹಿಸಬಹುದು.",
   "featureRequestPromptCta": "ಸಲಹೆ ಕಳುಹಿಸಿ",
   "later": "ನಂತರ",
-  "featureRequestContentLabel": "ನಿಮ್ಮ ವಿನಂತಿಯ ವಿವರಗಳು"
+  "featureRequestContentLabel": "ನಿಮ್ಮ ವಿನಂತಿಯ ವಿವರಗಳು",
+  "featureRequestContentHint": "ನಿಮಗೆ ಯಾವ ವೈಶಿಷ್ಟ್ಯ ಬೇಕೆಂದು ಮುಕ್ತವಾಗಿ ಬರೆಯಿರಿ"
 }

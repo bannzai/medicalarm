@@ -315,5 +315,6 @@
   "featureRequestPromptMessage": "Qaysi funksiyalarni qo‘shishimizni yoki nimalarni yaxshilashimizni istashingizni ayting. Fikrlaringizni istalgan vaqtda Sozlamalardagi “Funksiya taklifi” orqali yuborishingiz mumkin.",
   "featureRequestPromptCta": "Taklif yuborish",
   "later": "Keyinroq",
-  "featureRequestContentLabel": "Taklifingiz tafsilotlari"
+  "featureRequestContentLabel": "Taklifingiz tafsilotlari",
+  "featureRequestContentHint": "Qanday funksiya xohlashingizni bemalol yozing"
 }

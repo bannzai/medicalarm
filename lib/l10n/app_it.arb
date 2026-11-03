@@ -315,5 +315,6 @@
   "featureRequestPromptMessage": "Dicci quali funzioni vorresti o cosa potremmo migliorare. Puoi inviare le tue idee in qualsiasi momento da “Suggerisci una funzione” nelle Impostazioni.",
   "featureRequestPromptCta": "Invia un suggerimento",
   "later": "Più tardi",
-  "featureRequestContentLabel": "Dettagli della richiesta"
+  "featureRequestContentLabel": "Dettagli della richiesta",
+  "featureRequestContentHint": "Scrivi quale funzionalità vorresti"
 }

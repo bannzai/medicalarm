@@ -315,5 +315,6 @@
   "featureRequestPromptMessage": "Säg üs, weli Funktione du gärn hättisch oder was mir chönnte verbessere. Dini Idee chasch jederziit über «Funktionswünsch» i de Istellige schicke.",
   "featureRequestPromptCta": "Vorschlag schicke",
   "later": "Spöter",
-  "featureRequestContentLabel": "Details zu Ihrem Vorschlag"
+  "featureRequestContentLabel": "Details zu Ihrem Vorschlag",
+  "featureRequestContentHint": "Schriibed Si, weli Funktion Si sich wünsche"
 }

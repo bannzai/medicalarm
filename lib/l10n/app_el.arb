@@ -315,5 +315,6 @@
   "featureRequestPromptMessage": "Πείτε μας ποιες λειτουργίες θα θέλατε ή τι θα μπορούσαμε να βελτιώσουμε. Μπορείτε να στείλετε τις ιδέες σας ανά πάσα στιγμή από το «Προτάσεις λειτουργιών» στις Ρυθμίσεις.",
   "featureRequestPromptCta": "Αποστολή πρότασης",
   "later": "Αργότερα",
-  "featureRequestContentLabel": "Λεπτομέρειες του αιτήματός σας"
+  "featureRequestContentLabel": "Λεπτομέρειες του αιτήματός σας",
+  "featureRequestContentHint": "Γράψτε ποια λειτουργία θα θέλατε"
 }

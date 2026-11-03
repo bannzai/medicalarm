@@ -315,5 +315,6 @@
   "featureRequestPromptMessage": "Görmək istədiyiniz funksiyaları və ya təkmilləşdirmə fikirlərinizi bizə bildirin. Onları istənilən vaxt Ayarlardakı “Funksiya təklifi” bölməsindən göndərə bilərsiniz.",
   "featureRequestPromptCta": "Təklif göndər",
   "later": "Sonra",
-  "featureRequestContentLabel": "İstəyinizin təfərrüatları"
+  "featureRequestContentLabel": "İstəyinizin təfərrüatları",
+  "featureRequestContentHint": "İstədiyiniz funksiyanı sərbəst şəkildə yazın"
 }

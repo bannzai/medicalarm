@@ -315,5 +315,6 @@
   "featureRequestPromptMessage": "Sitshele ukuthi yiziphi izici ongathanda zengezwe noma yini esingayithuthukisa. Ungathumela imibono yakho noma nini ngokusebenzisa “Isicelo sesici” kokuthi Izilungiselelo.",
   "featureRequestPromptCta": "Thumela isiphakamiso",
   "later": "Kamuva",
-  "featureRequestContentLabel": "Imininingwane yesicelo sakho"
+  "featureRequestContentLabel": "Imininingwane yesicelo sakho",
+  "featureRequestContentHint": "Bhala ngokukhululekile ukuthi yisiphi isici osifunayo"
 }

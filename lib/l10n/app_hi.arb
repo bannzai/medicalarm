@@ -315,5 +315,6 @@
   "featureRequestPromptMessage": "हमें बताएं कि आप कौन-सी सुविधाएं चाहते हैं या हम क्या बेहतर कर सकते हैं। आप सेटिंग में “सुविधा का अनुरोध” से कभी भी अपने सुझाव भेज सकते हैं।",
   "featureRequestPromptCta": "सुझाव भेजें",
   "later": "बाद में",
-  "featureRequestContentLabel": "आपके अनुरोध का विवरण"
+  "featureRequestContentLabel": "आपके अनुरोध का विवरण",
+  "featureRequestContentHint": "आप कौन-सी सुविधा चाहते हैं, बेझिझक लिखें"
 }

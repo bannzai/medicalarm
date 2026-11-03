@@ -315,5 +315,6 @@
   "featureRequestPromptMessage": "Kerro, millaisia ominaisuuksia toivoisit tai mitä voisimme parantaa. Voit lähettää ideasi milloin tahansa asetusten kohdasta ”Ominaisuustoiveet”.",
   "featureRequestPromptCta": "Lähetä ehdotus",
   "later": "Myöhemmin",
-  "featureRequestContentLabel": "Ehdotuksesi tiedot"
+  "featureRequestContentLabel": "Ehdotuksesi tiedot",
+  "featureRequestContentHint": "Kerro, millaisen ominaisuuden haluaisit"
 }

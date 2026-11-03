@@ -315,5 +315,6 @@
   "featureRequestPromptMessage": "ספרו לנו אילו תכונות הייתם רוצים או מה נוכל לשפר. אפשר לשלוח רעיונות בכל עת דרך ״בקשה לתכונה״ בהגדרות.",
   "featureRequestPromptCta": "שליחת הצעה",
   "later": "מאוחר יותר",
-  "featureRequestContentLabel": "פרטי הבקשה שלך"
+  "featureRequestContentLabel": "פרטי הבקשה שלך",
+  "featureRequestContentHint": "אפשר לכתוב איזו תכונה היית רוצה"
 }

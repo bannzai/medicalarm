@@ -315,5 +315,6 @@
   "featureRequestPromptMessage": "Segðu okkur hvaða eiginleika þú vilt sjá eða hvað við getum bætt. Þú getur sent hugmyndir þínar hvenær sem er í „Tillögur að eiginleikum“ í stillingum.",
   "featureRequestPromptCta": "Senda tillögu",
   "later": "Síðar",
-  "featureRequestContentLabel": "Nánari upplýsingar um óskina"
+  "featureRequestContentLabel": "Nánari upplýsingar um óskina",
+  "featureRequestContentHint": "Skrifaðu hvaða eiginleika þú vilt sjá"
 }

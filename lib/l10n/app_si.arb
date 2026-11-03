@@ -315,5 +315,6 @@
   "featureRequestPromptMessage": "ඔබ කැමති විශේෂාංග හෝ අපට වැඩිදියුණු කළ හැකි දේ ගැන අපට කියන්න. සැකසීම් තුළ ඇති “විශේෂාංග ඉල්ලීම” හරහා ඕනෑම වේලාවක ඔබේ අදහස් යැවිය හැකිය.",
   "featureRequestPromptCta": "යෝජනාව යවන්න",
   "later": "පසුව",
-  "featureRequestContentLabel": "ඔබේ ඉල්ලීමේ විස්තර"
+  "featureRequestContentLabel": "ඔබේ ඉල්ලීමේ විස්තර",
+  "featureRequestContentHint": "ඔබට අවශ්‍ය විශේෂාංගය නිදහසේ ලියන්න"
 }

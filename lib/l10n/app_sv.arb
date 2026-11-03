@@ -315,5 +315,6 @@
   "featureRequestPromptMessage": "Berätta vilka funktioner du skulle vilja ha eller vad vi kan förbättra. Du kan skicka dina idéer när som helst via ”Funktionsförslag” i Inställningar.",
   "featureRequestPromptCta": "Skicka förslag",
   "later": "Senare",
-  "featureRequestContentLabel": "Detaljer om ditt förslag"
+  "featureRequestContentLabel": "Detaljer om ditt förslag",
+  "featureRequestContentHint": "Skriv gärna vilken funktion du önskar"
 }

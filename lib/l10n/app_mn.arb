@@ -315,5 +315,6 @@
   "featureRequestPromptMessage": "Ямар боломж нэмээсэй гэж хүсэж байгаа эсвэл юуг сайжруулж болох талаар бидэнд хэлээрэй. Та санаагаа хүссэн үедээ Тохиргооны «Боломж санал болгох» хэсгээс илгээж болно.",
   "featureRequestPromptCta": "Санал илгээх",
   "later": "Дараа",
-  "featureRequestContentLabel": "Таны хүсэлтийн дэлгэрэнгүй"
+  "featureRequestContentLabel": "Таны хүсэлтийн дэлгэрэнгүй",
+  "featureRequestContentHint": "Ямар боломж хүсэж байгаагаа чөлөөтэй бичнэ үү"
 }

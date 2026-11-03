@@ -315,5 +315,6 @@
   "featureRequestPromptMessage": "Кажете ни кои функции би сакале да ги имате или што би можеле да подобриме. Вашите идеи можете да ги испратите во секое време преку „Предлог за функција“ во Поставки.",
   "featureRequestPromptCta": "Испрати предлог",
   "later": "Подоцна",
-  "featureRequestContentLabel": "Детали за вашиот предлог"
+  "featureRequestContentLabel": "Детали за вашиот предлог",
+  "featureRequestContentHint": "Напишете каква функција би сакале"
 }

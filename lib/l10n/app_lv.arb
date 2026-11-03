@@ -315,5 +315,6 @@
   "featureRequestPromptMessage": "Pastāstiet, kādas funkcijas jūs vēlētos vai ko mēs varētu uzlabot. Idejas jebkurā laikā varat nosūtīt iestatījumu sadaļā “Funkciju ieteikumi”.",
   "featureRequestPromptCta": "Nosūtīt ieteikumu",
   "later": "Vēlāk",
-  "featureRequestContentLabel": "Jūsu ierosinājuma apraksts"
+  "featureRequestContentLabel": "Jūsu ierosinājuma apraksts",
+  "featureRequestContentHint": "Uzrakstiet, kādu funkciju jūs vēlētos"
 }

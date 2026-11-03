@@ -315,5 +315,6 @@
   "featureRequestPromptMessage": "Розкажіть, які функції ви хотіли б додати або що можна поліпшити. Ви можете будь-коли надіслати свої ідеї через розділ «Запропонувати функцію» в налаштуваннях.",
   "featureRequestPromptCta": "Надіслати пропозицію",
   "later": "Пізніше",
-  "featureRequestContentLabel": "Подробиці вашої пропозиції"
+  "featureRequestContentLabel": "Подробиці вашої пропозиції",
+  "featureRequestContentHint": "Напишіть, яку функцію ви хотіли б бачити"
 }

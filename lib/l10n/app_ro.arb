@@ -315,5 +315,6 @@
   "featureRequestPromptMessage": "Spune-ne ce funcții ți-ai dori sau ce am putea îmbunătăți. Îți poți trimite ideile oricând din „Sugestii de funcții”, în Setări.",
   "featureRequestPromptCta": "Trimite o sugestie",
   "later": "Mai târziu",
-  "featureRequestContentLabel": "Detaliile solicitării dvs."
+  "featureRequestContentLabel": "Detaliile solicitării dvs.",
+  "featureRequestContentHint": "Scrieți ce funcție v-ați dori"
 }

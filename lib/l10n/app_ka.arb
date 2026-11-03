@@ -315,5 +315,6 @@
   "featureRequestPromptMessage": "გვითხარით, რომელი ფუნქციები გაგიხარდებოდათ ან რისი გაუმჯობესება შეგვიძლია. იდეების გაგზავნა ნებისმიერ დროს შეგიძლიათ პარამეტრების განყოფილებიდან „ფუნქციის შეთავაზება“.",
   "featureRequestPromptCta": "წინადადების გაგზავნა",
   "later": "მოგვიანებით",
-  "featureRequestContentLabel": "თქვენი მოთხოვნის დეტალები"
+  "featureRequestContentLabel": "თქვენი მოთხოვნის დეტალები",
+  "featureRequestContentHint": "დაწერეთ, რა ფუნქცია გსურთ"
 }

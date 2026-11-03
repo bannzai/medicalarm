@@ -315,5 +315,6 @@
   "featureRequestPromptMessage": "Recite nam koje biste funkcije voljeli ili šta bismo mogli poboljšati. Svoje prijedloge možete poslati bilo kada putem opcije „Prijedlog funkcije” u postavkama.",
   "featureRequestPromptCta": "Pošalji prijedlog",
   "later": "Kasnije",
-  "featureRequestContentLabel": "Detalji vašeg prijedloga"
+  "featureRequestContentLabel": "Detalji vašeg prijedloga",
+  "featureRequestContentHint": "Slobodno napišite koju funkciju želite"
 }

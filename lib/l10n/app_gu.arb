@@ -315,5 +315,6 @@
   "featureRequestPromptMessage": "તમને કઈ સુવિધાઓ ગમશે અથવા અમે શું સુધારી શકીએ તે અમને જણાવો. સેટિંગ્સમાં «સુવિધા માટે વિનંતી» દ્વારા તમે ગમે ત્યારે તમારા સૂચનો મોકલી શકો છો.",
   "featureRequestPromptCta": "સૂચન મોકલો",
   "later": "પછી",
-  "featureRequestContentLabel": "તમારી વિનંતીની વિગતો"
+  "featureRequestContentLabel": "તમારી વિનંતીની વિગતો",
+  "featureRequestContentHint": "તમને કઈ સુવિધા જોઈએ છે તે નિઃસંકોચ લખો"
 }

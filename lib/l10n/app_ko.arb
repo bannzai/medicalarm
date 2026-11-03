@@ -315,5 +315,6 @@
   "featureRequestPromptMessage": "추가되면 좋을 기능이나 개선 아이디어를 알려 주세요. 설정의 ‘기능 요청’에서 언제든지 보낼 수 있습니다.",
   "featureRequestPromptCta": "제안 보내기",
   "later": "나중에",
-  "featureRequestContentLabel": "요청 내용"
+  "featureRequestContentLabel": "요청 내용",
+  "featureRequestContentHint": "원하는 기능을 자유롭게 적어 주세요"
 }

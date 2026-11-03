@@ -315,5 +315,6 @@
   "featureRequestPromptMessage": "أخبرنا بالميزات التي تود إضافتها أو أفكارك لتحسين التطبيق. يمكنك إرسالها في أي وقت من «اقتراح ميزة» في الإعدادات.",
   "featureRequestPromptCta": "إرسال اقتراح",
   "later": "لاحقًا",
-  "featureRequestContentLabel": "تفاصيل طلبك"
+  "featureRequestContentLabel": "تفاصيل طلبك",
+  "featureRequestContentHint": "اكتب بحرية الميزة التي ترغب فيها"
 }

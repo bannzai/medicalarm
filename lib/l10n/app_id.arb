@@ -315,5 +315,6 @@
   "featureRequestPromptMessage": "Beri tahu kami fitur yang Anda inginkan atau hal yang bisa kami tingkatkan. Anda dapat mengirimkan ide kapan saja melalui “Usulan fitur” di Pengaturan.",
   "featureRequestPromptCta": "Kirim saran",
   "later": "Nanti",
-  "featureRequestContentLabel": "Detail permintaan Anda"
+  "featureRequestContentLabel": "Detail permintaan Anda",
+  "featureRequestContentHint": "Silakan tulis fitur yang Anda inginkan"
 }

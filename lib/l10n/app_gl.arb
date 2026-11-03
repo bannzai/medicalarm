@@ -315,5 +315,6 @@
   "featureRequestPromptMessage": "Cóntanos que funcións che gustaría ter ou que poderiamos mellorar. Podes enviar as túas ideas en calquera momento desde «Suxestións de funcións» nos axustes.",
   "featureRequestPromptCta": "Enviar unha suxestión",
   "later": "Máis tarde",
-  "featureRequestContentLabel": "Detalles da túa solicitude"
+  "featureRequestContentLabel": "Detalles da túa solicitude",
+  "featureRequestContentHint": "Escribe que función che gustaría ter"
 }

@@ -315,5 +315,6 @@
   "featureRequestPromptMessage": "ଆପଣ କେଉଁ ସୁବିଧା ଚାହୁଁଛନ୍ତି କିମ୍ବା ଆମେ କ’ଣ ଉନ୍ନତ କରିପାରିବୁ, ଆମକୁ ଜଣାନ୍ତୁ। ସେଟିଂସ୍‌ରେ ଥିବା “ସୁବିଧା ପାଇଁ ଅନୁରୋଧ” ମାଧ୍ୟମରେ ଯେକୌଣସି ସମୟରେ ଆପଣଙ୍କ ପରାମର୍ଶ ପଠାଇପାରିବେ।",
   "featureRequestPromptCta": "ପ୍ରସ୍ତାବ ପଠାନ୍ତୁ",
   "later": "ପରେ",
-  "featureRequestContentLabel": "ଆପଣଙ୍କ ଅନୁରୋଧର ବିବରଣୀ"
+  "featureRequestContentLabel": "ଆପଣଙ୍କ ଅନୁରୋଧର ବିବରଣୀ",
+  "featureRequestContentHint": "ଆପଣ କେଉଁ ସୁବିଧା ଚାହୁଁଛନ୍ତି, ନିର୍ଭୟରେ ଲେଖନ୍ତୁ"
 }

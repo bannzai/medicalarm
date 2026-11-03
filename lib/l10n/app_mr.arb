@@ -315,5 +315,6 @@
   "featureRequestPromptMessage": "तुम्हाला कोणती वैशिष्ट्ये हवी आहेत किंवा आम्ही काय सुधारू शकतो ते आम्हाला कळवा. सेटिंग्जमधील “वैशिष्ट्याची विनंती” या पर्यायातून तुम्ही कधीही सूचना पाठवू शकता.",
   "featureRequestPromptCta": "सूचना पाठवा",
   "later": "नंतर",
-  "featureRequestContentLabel": "तुमच्या विनंतीचा तपशील"
+  "featureRequestContentLabel": "तुमच्या विनंतीचा तपशील",
+  "featureRequestContentHint": "तुम्हाला कोणते वैशिष्ट्य हवे आहे ते मोकळेपणाने लिहा"
 }

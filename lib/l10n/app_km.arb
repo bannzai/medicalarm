@@ -315,5 +315,6 @@
   "featureRequestPromptMessage": "សូមប្រាប់យើងអំពីមុខងារដែលអ្នកចង់បាន ឬអ្វីដែលយើងអាចកែលម្អ។ អ្នកអាចផ្ញើគំនិតបានគ្រប់ពេលតាម «ស្នើសុំមុខងារ» ក្នុងការកំណត់។",
   "featureRequestPromptCta": "ផ្ញើសំណើ",
   "later": "ពេលក្រោយ",
-  "featureRequestContentLabel": "ព័ត៌មានលម្អិតនៃសំណើរបស់អ្នក"
+  "featureRequestContentLabel": "ព័ត៌មានលម្អិតនៃសំណើរបស់អ្នក",
+  "featureRequestContentHint": "សូមសរសេរអំពីមុខងារដែលអ្នកចង់បាន"
 }

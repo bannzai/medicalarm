@@ -315,5 +315,6 @@
   "featureRequestPromptMessage": "Fortell oss hvilke funksjoner du ønsker deg, eller hva vi kan forbedre. Du kan sende inn ideer når som helst via «Funksjonsforslag» i Innstillinger.",
   "featureRequestPromptCta": "Send forslag",
   "later": "Senere",
-  "featureRequestContentLabel": "Detaljer om forslaget ditt"
+  "featureRequestContentLabel": "Detaljer om forslaget ditt",
+  "featureRequestContentHint": "Skriv gjerne hvilken funksjon du ønsker deg"
 }

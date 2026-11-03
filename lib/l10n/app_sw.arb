@@ -315,5 +315,6 @@
   "featureRequestPromptMessage": "Tuambie vipengele ambavyo ungependa tuongeze au mambo tunayoweza kuboresha. Unaweza kutuma mawazo yako wakati wowote kupitia “Pendekeza kipengele” katika Mipangilio.",
   "featureRequestPromptCta": "Tuma pendekezo",
   "later": "Baadaye",
-  "featureRequestContentLabel": "Maelezo ya ombi lako"
+  "featureRequestContentLabel": "Maelezo ya ombi lako",
+  "featureRequestContentHint": "Andika kwa uhuru kipengele unachotaka"
 }

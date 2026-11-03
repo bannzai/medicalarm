@@ -315,5 +315,6 @@
   "featureRequestPromptMessage": "ሊኖሩ የሚፈልጓቸውን ባህሪያት ወይም የማሻሻያ ሀሳቦች ያሳውቁን። በቅንብሮች ውስጥ ካለው «የባህሪ ጥያቄ» በማንኛውም ጊዜ መላክ ይችላሉ።",
   "featureRequestPromptCta": "ጥቆማ ላክ",
   "later": "በኋላ",
-  "featureRequestContentLabel": "የጥያቄዎ ዝርዝር"
+  "featureRequestContentLabel": "የጥያቄዎ ዝርዝር",
+  "featureRequestContentHint": "ምን ዓይነት ባህሪ እንደሚፈልጉ በነፃነት ይጻፉ"
 }

@@ -315,5 +315,6 @@
   "featureRequestPromptMessage": "Powiedz nam, jakie funkcje chcesz zobaczyć lub co możemy ulepszyć. Swoje pomysły możesz przesłać w dowolnej chwili przez „Propozycje funkcji” w Ustawieniach.",
   "featureRequestPromptCta": "Wyślij sugestię",
   "later": "Później",
-  "featureRequestContentLabel": "Szczegóły Twojej propozycji"
+  "featureRequestContentLabel": "Szczegóły Twojej propozycji",
+  "featureRequestContentHint": "Napisz, jakiej funkcji potrzebujesz"
 }

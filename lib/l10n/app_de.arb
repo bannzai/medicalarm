@@ -315,5 +315,6 @@
   "featureRequestPromptMessage": "Teilen Sie uns mit, welche Funktionen Sie sich wünschen oder was wir verbessern können. Ihre Ideen können Sie jederzeit unter „Funktionswünsche“ in den Einstellungen senden.",
   "featureRequestPromptCta": "Vorschlag senden",
   "later": "Später",
-  "featureRequestContentLabel": "Details zu Ihrem Vorschlag"
+  "featureRequestContentLabel": "Details zu Ihrem Vorschlag",
+  "featureRequestContentHint": "Beschreiben Sie, welche Funktion Sie sich wünschen"
 }

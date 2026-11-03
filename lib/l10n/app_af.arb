@@ -315,5 +315,6 @@
   "featureRequestPromptMessage": "Vertel ons watter funksies of verbeterings jy graag wil sien. Jy kan jou idees enige tyd via “Funksieversoeke” in Instellings stuur.",
   "featureRequestPromptCta": "Stuur ’n voorstel",
   "later": "Later",
-  "featureRequestContentLabel": "Besonderhede van u versoek"
+  "featureRequestContentLabel": "Besonderhede van u versoek",
+  "featureRequestContentHint": "Beskryf gerus watter funksie u graag wil hê"
 }

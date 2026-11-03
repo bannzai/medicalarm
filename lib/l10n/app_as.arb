@@ -315,5 +315,6 @@
   "featureRequestPromptMessage": "আপুনি বিচৰা সুবিধা বা উন্নতিৰ ধাৰণা আমাক জনাওক। ছেটিংছৰ «সুবিধাৰ অনুৰোধ»ৰ পৰা যিকোনো সময়তে পঠিয়াব পাৰে।",
   "featureRequestPromptCta": "পৰামৰ্শ পঠিয়াওক",
   "later": "পিছত",
-  "featureRequestContentLabel": "আপোনাৰ অনুৰোধৰ বিৱৰণ"
+  "featureRequestContentLabel": "আপোনাৰ অনুৰোধৰ বিৱৰণ",
+  "featureRequestContentHint": "আপুনি কেনে সুবিধা বিচাৰে, নিৰ্দ্বিধায় লিখক"
 }
