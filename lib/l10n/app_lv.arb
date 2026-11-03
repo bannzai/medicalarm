@@ -313,5 +313,6 @@
   "featureRequestTitle": "Funkcijas ieteikums",
   "featureRequestPromptTitle": "Vai vēlaties ieteikt jaunu Medicalarm funkciju?",
   "featureRequestPromptMessage": "Pastāstiet, kādas funkcijas jūs vēlētos vai ko mēs varētu uzlabot. Idejas jebkurā laikā varat nosūtīt iestatījumu sadaļā “Funkciju ieteikumi”.",
-  "featureRequestPromptCta": "Nosūtīt ieteikumu"
+  "featureRequestPromptCta": "Nosūtīt ieteikumu",
+  "later": "Vēlāk"
 }

@@ -313,5 +313,6 @@
   "featureRequestTitle": "ਨਵੀਂ ਵਿਸ਼ੇਸ਼ਤਾ ਲਈ ਬੇਨਤੀ",
   "featureRequestPromptTitle": "ਕੀ ਤੁਸੀਂ Medicalarm ਲਈ ਕੋਈ ਨਵੀਂ ਸਹੂਲਤ ਸੁਝਾਉਣਾ ਚਾਹੁੰਦੇ ਹੋ?",
   "featureRequestPromptMessage": "ਸਾਨੂੰ ਦੱਸੋ ਕਿ ਤੁਸੀਂ ਕਿਹੜੀਆਂ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਚਾਹੁੰਦੇ ਹੋ ਜਾਂ ਅਸੀਂ ਕੀ ਸੁਧਾਰ ਸਕਦੇ ਹਾਂ। ਤੁਸੀਂ ਸੈਟਿੰਗਾਂ ਵਿੱਚ “ਵਿਸ਼ੇਸ਼ਤਾ ਲਈ ਬੇਨਤੀ” ਰਾਹੀਂ ਕਿਸੇ ਵੀ ਵੇਲੇ ਆਪਣੇ ਸੁਝਾਅ ਭੇਜ ਸਕਦੇ ਹੋ।",
-  "featureRequestPromptCta": "ਸੁਝਾਅ ਭੇਜੋ"
+  "featureRequestPromptCta": "ਸੁਝਾਅ ਭੇਜੋ",
+  "later": "ਬਾਅਦ ਵਿੱਚ"
 }

@@ -313,5 +313,6 @@
   "featureRequestTitle": "Návrh funkce",
   "featureRequestPromptTitle": "Chcete navrhnout novou funkci pro Medicalarm?",
   "featureRequestPromptMessage": "Napište nám, jaké funkce byste uvítali nebo co bychom mohli vylepšit. Své nápady můžete kdykoli poslat přes „Návrhy funkcí“ v nastavení.",
-  "featureRequestPromptCta": "Odeslat návrh"
+  "featureRequestPromptCta": "Odeslat návrh",
+  "later": "Později"
 }

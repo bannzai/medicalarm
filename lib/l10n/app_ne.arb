@@ -313,5 +313,6 @@
   "featureRequestTitle": "नयाँ सुविधाको अनुरोध",
   "featureRequestPromptTitle": "Medicalarm का लागि नयाँ सुविधा सुझाव दिन चाहनुहुन्छ?",
   "featureRequestPromptMessage": "तपाईंलाई चाहिने सुविधाहरू वा हामीले गर्न सक्ने सुधारबारे बताउनुहोस्। सेटिङको “सुविधा अनुरोध” बाट जुनसुकै बेला सुझाव पठाउन सक्नुहुन्छ।",
-  "featureRequestPromptCta": "सुझाव पठाउनुहोस्"
+  "featureRequestPromptCta": "सुझाव पठाउनुहोस्",
+  "later": "पछि"
 }

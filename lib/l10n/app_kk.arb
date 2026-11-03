@@ -313,5 +313,6 @@
   "featureRequestTitle": "Жаңа функция ұсынысы",
   "featureRequestPromptTitle": "Medicalarm үшін жаңа функция ұсынғыңыз келе ме?",
   "featureRequestPromptMessage": "Қандай мүмкіндіктерді қалайтыныңызды немесе нені жақсартуға болатынын айтыңыз. Ұсыныстарыңызды кез келген уақытта Параметрлердегі «Мүмкіндік ұсыну» бөлімі арқылы жібере аласыз.",
-  "featureRequestPromptCta": "Ұсыныс жіберу"
+  "featureRequestPromptCta": "Ұсыныс жіберу",
+  "later": "Кейін"
 }

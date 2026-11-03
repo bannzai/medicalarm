@@ -313,5 +313,6 @@
   "featureRequestTitle": "Funkcijos pasiūlymas",
   "featureRequestPromptTitle": "Ar norėtumėte pasiūlyti naują „Medicalarm“ funkciją?",
   "featureRequestPromptMessage": "Pasakykite, kokių funkcijų norėtumėte arba ką galėtume patobulinti. Savo idėjas bet kada galite siųsti nustatymų skiltyje „Funkcijų pasiūlymai“.",
-  "featureRequestPromptCta": "Siųsti pasiūlymą"
+  "featureRequestPromptCta": "Siųsti pasiūlymą",
+  "later": "Vėliau"
 }

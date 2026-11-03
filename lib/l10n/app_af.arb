@@ -313,5 +313,6 @@
   "featureRequestTitle": "Funksieversoek",
   "featureRequestPromptTitle": "Wil jy ’n nuwe funksie vir Medicalarm voorstel?",
   "featureRequestPromptMessage": "Vertel ons watter funksies of verbeterings jy graag wil sien. Jy kan jou idees enige tyd via “Funksieversoeke” in Instellings stuur.",
-  "featureRequestPromptCta": "Stuur ’n voorstel"
+  "featureRequestPromptCta": "Stuur ’n voorstel",
+  "later": "Later"
 }

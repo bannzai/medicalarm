@@ -313,5 +313,6 @@
   "featureRequestTitle": "សំណើមុខងារថ្មី",
   "featureRequestPromptTitle": "តើអ្នកចង់ស្នើមុខងារថ្មីសម្រាប់ Medicalarm ដែរឬទេ?",
   "featureRequestPromptMessage": "សូមប្រាប់យើងអំពីមុខងារដែលអ្នកចង់បាន ឬអ្វីដែលយើងអាចកែលម្អ។ អ្នកអាចផ្ញើគំនិតបានគ្រប់ពេលតាម «ស្នើសុំមុខងារ» ក្នុងការកំណត់។",
-  "featureRequestPromptCta": "ផ្ញើសំណើ"
+  "featureRequestPromptCta": "ផ្ញើសំណើ",
+  "later": "ពេលក្រោយ"
 }

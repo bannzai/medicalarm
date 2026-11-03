@@ -313,5 +313,6 @@
   "featureRequestTitle": "Solicitude dunha función",
   "featureRequestPromptTitle": "Queres suxerir unha nova función para Medicalarm?",
   "featureRequestPromptMessage": "Cóntanos que funcións che gustaría ter ou que poderiamos mellorar. Podes enviar as túas ideas en calquera momento desde «Suxestións de funcións» nos axustes.",
-  "featureRequestPromptCta": "Enviar unha suxestión"
+  "featureRequestPromptCta": "Enviar unha suxestión",
+  "later": "Máis tarde"
 }
