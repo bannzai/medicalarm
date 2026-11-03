@@ -319,5 +319,6 @@
   "featureRequestContentHint": "Isulat kung anong feature ang gusto mo",
   "featureRequestContentFooter": "Ilarawan ang mga partikular na sitwasyong gusto mo itong gamitin. Makakatulong ito sa amin na suriin ang iyong kahilingan.",
   "featureRequestEmailLabel": "Email address (opsyonal)",
-  "featureRequestEmailFooter": "Maaari namin itong gamitin para linawin ang mga detalye. Hindi namin magagarantiya ang tugon."
+  "featureRequestEmailFooter": "Maaari namin itong gamitin para linawin ang mga detalye. Hindi namin magagarantiya ang tugon.",
+  "featureRequestEmailInvalid": "Hindi wasto ang format ng email address"
 }

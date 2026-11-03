@@ -319,5 +319,6 @@
   "featureRequestContentHint": "ምን ዓይነት ባህሪ እንደሚፈልጉ በነፃነት ይጻፉ",
   "featureRequestContentFooter": "በምን ዓይነት ሁኔታ ሊጠቀሙበት እንደሚፈልጉ በዝርዝር ይግለጹ። ይህ ጥያቄዎን ለማጤን ይረዳናል።",
   "featureRequestEmailLabel": "የኢሜይል አድራሻ (አማራጭ)",
-  "featureRequestEmailFooter": "ዝርዝሮችን ለማረጋገጥ ልንጠቀምበት እንችላለን። ምላሽ እንደሚሰጥ ማረጋገጥ አንችልም።"
+  "featureRequestEmailFooter": "ዝርዝሮችን ለማረጋገጥ ልንጠቀምበት እንችላለን። ምላሽ እንደሚሰጥ ማረጋገጥ አንችልም።",
+  "featureRequestEmailInvalid": "የኢሜይል አድራሻው ቅርጸት ትክክል አይደለም"
 }

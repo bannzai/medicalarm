@@ -319,5 +319,6 @@
   "featureRequestContentHint": "Skrifaðu hvaða eiginleika þú vilt sjá",
   "featureRequestContentFooter": "Lýstu því í hvaða aðstæðum þú vilt nota þetta. Það hjálpar okkur að meta tillöguna þína.",
   "featureRequestEmailLabel": "Netfang (valfrjálst)",
-  "featureRequestEmailFooter": "Við gætum notað það til að staðfesta nánari upplýsingar. Við getum ekki ábyrgst svar."
+  "featureRequestEmailFooter": "Við gætum notað það til að staðfesta nánari upplýsingar. Við getum ekki ábyrgst svar.",
+  "featureRequestEmailInvalid": "Snið netfangsins er ógilt"
 }

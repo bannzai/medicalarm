@@ -319,5 +319,6 @@
   "featureRequestContentHint": "Parašykite, kokios funkcijos norėtumėte",
   "featureRequestContentFooter": "Aprašykite konkrečias situacijas, kuriose norėtumėte tai naudoti. Tai padės mums apsvarstyti jūsų pasiūlymą.",
   "featureRequestEmailLabel": "El. pašto adresas (neprivaloma)",
-  "featureRequestEmailFooter": "Galime jį naudoti detalėms patikslinti. Negalime garantuoti atsakymo."
+  "featureRequestEmailFooter": "Galime jį naudoti detalėms patikslinti. Negalime garantuoti atsakymo.",
+  "featureRequestEmailInvalid": "El. pašto adreso formatas neteisingas"
 }

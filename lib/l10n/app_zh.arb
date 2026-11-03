@@ -319,5 +319,6 @@
   "featureRequestContentHint": "请自由填写您希望增加的功能",
   "featureRequestContentFooter": "请具体描述您希望在哪些情况下使用，以便我们评估您的建议。",
   "featureRequestEmailLabel": "电子邮箱地址（选填）",
-  "featureRequestEmailFooter": "我们可能会用它来核实详情，但无法保证回复。"
+  "featureRequestEmailFooter": "我们可能会用它来核实详情，但无法保证回复。",
+  "featureRequestEmailInvalid": "电子邮箱地址格式不正确"
 }

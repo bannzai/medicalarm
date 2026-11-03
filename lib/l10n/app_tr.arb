@@ -319,5 +319,6 @@
   "featureRequestContentHint": "İstediğiniz özelliği dilediğiniz gibi yazın",
   "featureRequestContentFooter": "Hangi durumlarda kullanmak istediğinizi ayrıntılı olarak yazın. Bu, talebinizi değerlendirmemize yardımcı olur.",
   "featureRequestEmailLabel": "E-posta adresi (isteğe bağlı)",
-  "featureRequestEmailFooter": "Ayrıntıları netleştirmek için kullanabiliriz. Yanıt vereceğimizi garanti edemeyiz."
+  "featureRequestEmailFooter": "Ayrıntıları netleştirmek için kullanabiliriz. Yanıt vereceğimizi garanti edemeyiz.",
+  "featureRequestEmailInvalid": "E-posta adresinin biçimi geçersiz"
 }

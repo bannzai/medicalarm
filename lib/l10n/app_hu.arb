@@ -319,5 +319,6 @@
   "featureRequestContentHint": "Írja meg, milyen funkciót szeretne",
   "featureRequestContentFooter": "Kérjük, írja le, milyen helyzetekben szeretné használni. Ez segít mérlegelni a javaslatát.",
   "featureRequestEmailLabel": "E-mail-cím (nem kötelező)",
-  "featureRequestEmailFooter": "Felhasználhatjuk a részletek tisztázásához. Választ nem tudunk garantálni."
+  "featureRequestEmailFooter": "Felhasználhatjuk a részletek tisztázásához. Választ nem tudunk garantálni.",
+  "featureRequestEmailInvalid": "Az e-mail-cím formátuma nem megfelelő"
 }

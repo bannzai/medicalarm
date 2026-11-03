@@ -319,5 +319,6 @@
   "featureRequestContentHint": "Idatzi zer funtzio nahi zenukeen",
   "featureRequestContentFooter": "Azaldu, mesedez, zein egoeratan erabili nahiko zenukeen. Horrek zure proposamena aztertzen lagunduko digu.",
   "featureRequestEmailLabel": "Helbide elektronikoa (aukerakoa)",
-  "featureRequestEmailFooter": "Xehetasunak argitzeko erabil dezakegu. Ezin dugu erantzunik bermatu."
+  "featureRequestEmailFooter": "Xehetasunak argitzeko erabil dezakegu. Ezin dugu erantzunik bermatu.",
+  "featureRequestEmailInvalid": "Helbide elektronikoaren formatua ez da zuzena"
 }

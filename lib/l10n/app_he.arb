@@ -319,5 +319,6 @@
   "featureRequestContentHint": "אפשר לכתוב איזו תכונה היית רוצה",
   "featureRequestContentFooter": "נשמח אם תתארו באילו מצבים תרצו להשתמש בזה. התיאור יעזור לנו לבחון את הבקשה.",
   "featureRequestEmailLabel": "כתובת אימייל (לא חובה)",
-  "featureRequestEmailFooter": "ייתכן שנשתמש בו כדי לברר פרטים. אין באפשרותנו להבטיח מענה."
+  "featureRequestEmailFooter": "ייתכן שנשתמש בו כדי לברר פרטים. אין באפשרותנו להבטיח מענה.",
+  "featureRequestEmailInvalid": "הפורמט של כתובת הדוא״ל אינו תקין"
 }

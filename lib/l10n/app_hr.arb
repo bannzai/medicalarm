@@ -319,5 +319,6 @@
   "featureRequestContentHint": "Slobodno napišite koju značajku želite",
   "featureRequestContentFooter": "Opišite u kojim biste ga situacijama željeli koristiti. To će nam pomoći da razmotrimo vaš prijedlog.",
   "featureRequestEmailLabel": "Adresa e-pošte (neobavezno)",
-  "featureRequestEmailFooter": "Možemo ga upotrijebiti za provjeru pojedinosti. Ne možemo jamčiti odgovor."
+  "featureRequestEmailFooter": "Možemo ga upotrijebiti za provjeru pojedinosti. Ne možemo jamčiti odgovor.",
+  "featureRequestEmailInvalid": "Format adrese e-pošte nije ispravan"
 }

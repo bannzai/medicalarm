@@ -319,5 +319,6 @@
   "featureRequestContentHint": "Hãy viết tính năng bạn mong muốn",
   "featureRequestContentFooter": "Vui lòng mô tả cụ thể những tình huống bạn muốn sử dụng tính năng này. Điều đó sẽ giúp chúng tôi xem xét đề xuất của bạn.",
   "featureRequestEmailLabel": "Địa chỉ email (không bắt buộc)",
-  "featureRequestEmailFooter": "Chúng tôi có thể dùng thông tin này để xác nhận chi tiết. Chúng tôi không thể đảm bảo sẽ phản hồi."
+  "featureRequestEmailFooter": "Chúng tôi có thể dùng thông tin này để xác nhận chi tiết. Chúng tôi không thể đảm bảo sẽ phản hồi.",
+  "featureRequestEmailInvalid": "Định dạng địa chỉ email không hợp lệ"
 }

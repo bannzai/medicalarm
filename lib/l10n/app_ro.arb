@@ -319,5 +319,6 @@
   "featureRequestContentHint": "Scrieți ce funcție v-ați dori",
   "featureRequestContentFooter": "Descrieți situațiile concrete în care ați dori să o folosiți. Acest lucru ne va ajuta să analizăm solicitarea.",
   "featureRequestEmailLabel": "Adresă de e-mail (opțional)",
-  "featureRequestEmailFooter": "Îl putem folosi pentru a clarifica detalii. Nu putem garanta un răspuns."
+  "featureRequestEmailFooter": "Îl putem folosi pentru a clarifica detalii. Nu putem garanta un răspuns.",
+  "featureRequestEmailInvalid": "Formatul adresei de e-mail nu este valid"
 }

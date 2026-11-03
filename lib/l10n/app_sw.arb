@@ -319,5 +319,6 @@
   "featureRequestContentHint": "Andika kwa uhuru kipengele unachotaka",
   "featureRequestContentFooter": "Tafadhali eleza hali mahususi ambazo ungependa kuitumia. Hii itatusaidia kuzingatia ombi lako.",
   "featureRequestEmailLabel": "Anwani ya barua pepe (si lazima)",
-  "featureRequestEmailFooter": "Tunaweza kuitumia kuthibitisha maelezo. Hatuwezi kuhakikisha kuwa utapata jibu."
+  "featureRequestEmailFooter": "Tunaweza kuitumia kuthibitisha maelezo. Hatuwezi kuhakikisha kuwa utapata jibu.",
+  "featureRequestEmailInvalid": "Muundo wa anwani ya barua pepe si sahihi"
 }

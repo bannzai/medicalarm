@@ -319,5 +319,6 @@
   "featureRequestContentHint": "Beschrijf welke functie u graag zou willen",
   "featureRequestContentFooter": "Beschrijf in welke situaties je dit wilt gebruiken. Dat helpt ons je verzoek te beoordelen.",
   "featureRequestEmailLabel": "E-mailadres (optioneel)",
-  "featureRequestEmailFooter": "We kunnen het gebruiken om details te verduidelijken. We kunnen een antwoord niet garanderen."
+  "featureRequestEmailFooter": "We kunnen het gebruiken om details te verduidelijken. We kunnen een antwoord niet garanderen.",
+  "featureRequestEmailInvalid": "De indeling van het e-mailadres is ongeldig"
 }
