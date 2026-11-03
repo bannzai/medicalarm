@@ -78,6 +78,7 @@
   "silentModeNotificationDescription": "Ikiwa Msimbo wa Kuzungumza au kifaa kiko kimya, ilani muhimu bado zinaweza kuonyeshwa kwenye skrini ya kufuli na sauti itatungiwa.",
   "alarmKitNotification": "Kipengele cha kengele",
   "alarmKitNotificationDescription": "Arifa italia kama saa ya kuamsha. Utaipokea hata ukiwa katika hali ya kimya au hali ya umakini.",
+  "focusConnectBlockOtherApps": "Zuia programu nyingine kuanzia arifa inapopokelewa hadi matumizi ya dawa yanaporekodiwa",
   "everyXDaysFormat": "kila {count} siku",
   "cycleDaysFormat": "{consecutiveDays} siku za matumizi/{restDays} siku za kupumzika",
   "consecutiveDaysFormat": "{count} siku za kutumia",

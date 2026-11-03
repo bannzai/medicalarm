@@ -78,6 +78,7 @@
   "silentModeNotificationDescription": "Ať už je režim soustředění zapnutý, nebo je zařízení ztlumené, důležité upozornění se zobrazí na zamčené obrazovce a bude přehráno zvukem.",
   "alarmKitNotification": "Funkce budíku",
   "alarmKitNotificationDescription": "Oznámení zazní jako budík. Dostanete ho i v tichém režimu nebo režimu Soustředění.",
+  "focusConnectBlockOtherApps": "Blokovat ostatní aplikace od přijetí oznámení do zaznamenání užití léku",
   "everyXDaysFormat": "{count} dní",
   "cycleDaysFormat": "{consecutiveDays} dní užívání/{restDays} dní pauzy",
   "consecutiveDaysFormat": "{count} dní užívání",

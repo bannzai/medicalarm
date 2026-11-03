@@ -78,6 +78,7 @@
   "silentModeNotificationDescription": "Las notificaciones importantes se mostrarán en la pantalla de bloqueo y se reproducirá un sonido, incluso si el modo de concentración está activado o si el dispositivo está en silencio.",
   "alarmKitNotification": "Función de alarma",
   "alarmKitNotificationDescription": "Sonará una notificación como un despertador. La recibirás incluso en modo silencio o concentración.",
+  "focusConnectBlockOtherApps": "Bloquear otras apps desde que llega la notificación hasta que se registra la toma del medicamento",
   "everyXDaysFormat": "cada {count} días",
   "cycleDaysFormat": "{consecutiveDays} días de medicación/{restDays} días de pausa",
   "consecutiveDaysFormat": "{count} días de toma",

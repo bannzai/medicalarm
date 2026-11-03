@@ -78,6 +78,7 @@
   "silentModeNotificationDescription": "Vaikka keskittymismoodi on päällä tai laite on äänettömällä, tärkeät ilmoitukset näkyvät lukitusnäytöllä ja ääni toistetaan.",
   "alarmKitNotification": "Hälytystoiminto",
   "alarmKitNotificationDescription": "Ilmoitus soi herätyskellon tavoin. Saat sen myös äänettömässä tilassa tai keskittymistilassa.",
+  "focusConnectBlockOtherApps": "Estä muiden sovellusten käyttö ilmoituksen saapumisesta lääkkeen ottamisen kirjaamiseen asti",
   "everyXDaysFormat": "{count} päivän välein",
   "cycleDaysFormat": "{consecutiveDays} päivän käyttö/{restDays} päivän tauko",
   "consecutiveDaysFormat": "{count} päivää otettu",

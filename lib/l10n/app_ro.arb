@@ -78,6 +78,7 @@
   "silentModeNotificationDescription": "Notificările importante vor fi afișate pe ecranul de blocare și se va reda sunetul, chiar dacă modul de concentrare este activat sau dispozitivul este în modul silențios.",
   "alarmKitNotification": "Funcție de alarmă",
   "alarmKitNotificationDescription": "Notificarea va suna ca un ceas deșteptător. O vei primi și în modul silențios sau de concentrare.",
+  "focusConnectBlockOtherApps": "Blochează alte aplicații de la primirea notificării până la înregistrarea administrării medicamentului",
   "everyXDaysFormat": "la fiecare {count} zile",
   "cycleDaysFormat": "{consecutiveDays} zile de administrare/{restDays} zile de pauză",
   "consecutiveDaysFormat": "{count} zile de utilizare",

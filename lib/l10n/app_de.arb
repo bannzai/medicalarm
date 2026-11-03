@@ -78,6 +78,7 @@
   "silentModeNotificationDescription": "Wichtige Benachrichtigungen werden sowohl im Fokusmodus als auch im lautlosen Modus auf dem Sperrbildschirm angezeigt und der Sound wird abgespielt.",
   "alarmKitNotification": "Alarmfunktion",
   "alarmKitNotificationDescription": "Die Mitteilung ertönt wie ein Wecker. Du erhältst sie auch im Lautlos- oder Fokusmodus.",
+  "focusConnectBlockOtherApps": "Andere Apps vom Erhalt der Mitteilung bis zur Erfassung der Medikamenteneinnahme blockieren",
   "everyXDaysFormat": "{count} Tage",
   "cycleDaysFormat": "{consecutiveDays} Tage Einnahme / {restDays} Tage Pause",
   "consecutiveDaysFormat": "{count} Tage eingenommen",

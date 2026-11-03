@@ -78,6 +78,7 @@
   "silentModeNotificationDescription": "Кыйналган режимде же коймондо (муздоо) болсо да, маанилүү билдирүүлөр жабык экранда көрсөтүлөт, үн ойнотулат.",
   "alarmKitNotification": "Ойготкуч функциясы",
   "alarmKitNotificationDescription": "Эскертме ойготкуч сааттай үн чыгарат. Аны үнсүз же көңүл топтоо режиминде да аласыз.",
+  "focusConnectBlockOtherApps": "Билдирүү келгенден дары ичүү катталганга чейин башка колдонмолорду бөгөттөө",
   "everyXDaysFormat": "{count} күнү",
   "cycleDaysFormat": "{consecutiveDays} күн кабыл алуу/{restDays} күн эс алуу",
   "consecutiveDaysFormat": "{count} күн иче",

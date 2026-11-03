@@ -78,6 +78,7 @@
   "silentModeNotificationDescription": "ફોકસ મોડ ચાલુ હોય અથવા ડિવાઇસ મ્યૂટ હોય ત્યારે પણ, મહત્વપૂર્ણ સૂચનાઓ લૉક સ્ક્રીન પર દેખાશે અને અવાજ વાગશે",
   "alarmKitNotification": "અલાર્મ સુવિધા",
   "alarmKitNotificationDescription": "અલાર્મ ઘડિયાળની જેમ સૂચના વાગશે. સાયલન્ટ કે ફોકસ મોડમાં પણ તમને સૂચના મળશે.",
+  "focusConnectBlockOtherApps": "સૂચના મળ્યાથી દવા લીધાનું નોંધાય ત્યાં સુધી અન્ય ઍપ બ્લૉક કરો",
   "everyXDaysFormat": "{count} દિવસમાં એકવાર",
   "cycleDaysFormat": "{consecutiveDays} દિવસ દવા/{restDays} દિવસ વિરામ",
   "consecutiveDaysFormat": "{count} દિવસ દવા",

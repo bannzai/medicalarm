@@ -78,6 +78,7 @@
   "silentModeNotificationDescription": "महत्वपूर्ण सूचनाएँ ध्यान मोड चालू होने पर या उपकरण का साउंड बंद होने पर भी लॉक स्क्रीन पर प्रदर्शित होती हैं, और ध्वनि चलती है।",
   "alarmKitNotification": "अलार्म सुविधा",
   "alarmKitNotificationDescription": "अलार्म घड़ी की तरह सूचना बजेगी। साइलेंट या फ़ोकस मोड में भी आपको सूचना मिलेगी।",
+  "focusConnectBlockOtherApps": "सूचना मिलने से लेकर दवा लेने का रिकॉर्ड दर्ज करने तक अन्य ऐप्स ब्लॉक करें",
   "everyXDaysFormat": "{count} दिन पर",
   "cycleDaysFormat": "{consecutiveDays} दिन सेवन/{restDays} दिन विश्राम",
   "consecutiveDaysFormat": "{count} दिन दवा",

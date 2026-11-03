@@ -78,6 +78,7 @@
   "silentModeNotificationDescription": "Les notifications importantes s'affichent sur l'écran de verrouillage et un son est reproduit, même lorsque le mode concentration est activé ou que l'appareil est en mode silencieux.",
   "alarmKitNotification": "Fonction d’alarme",
   "alarmKitNotificationDescription": "Une notification sonnera comme un réveil. Vous la recevrez même en mode silencieux ou Concentration.",
+  "focusConnectBlockOtherApps": "Bloquer les autres applications de la réception de la notification à l’enregistrement de la prise du médicament",
   "everyXDaysFormat": "Tous les {count} jours",
   "cycleDaysFormat": "{consecutiveDays} jours de prise / {restDays} jours de pause",
   "consecutiveDaysFormat": "{count} jours de prise",

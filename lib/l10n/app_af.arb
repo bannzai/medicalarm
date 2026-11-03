@@ -78,6 +78,7 @@
   "silentModeNotificationDescription": "Belangrike kennisgewings sal op die vergrendelingskerm vertoon word, en klank sal gespeel word, selfs wanneer die fokusmodus aan is of wanneer die toestel op stil is.",
   "alarmKitNotification": "Alarmfunksie",
   "alarmKitNotificationDescription": "’n Kennisgewing klink soos ’n wekker. Jy kry dit ook in stilmodus of fokusmodus.",
+  "focusConnectBlockOtherApps": "Blokkeer ander toepassings van die kennisgewing af totdat die medikasie aangeteken is",
   "everyXDaysFormat": "{count} dae",
   "cycleDaysFormat": "{consecutiveDays} dae geneem/{restDays} dae rus",
   "consecutiveDaysFormat": "{count} dae ingeneem",

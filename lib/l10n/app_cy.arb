@@ -78,6 +78,7 @@
   "silentModeNotificationDescription": "Mae negesau pwysig yn ymddangos ar y sgrin clo a bydd sain yn chwarae, hyd yn oed pan fydd y modd canolbwyntio wedi'i actifadu neu pan fo'r dyfais ar dawel.",
   "alarmKitNotification": "Nodwedd larwm",
   "alarmKitNotificationDescription": "Bydd hysbysiad yn canu fel cloc larwm. Byddwch yn ei gael hyd yn oed yn y modd tawel neu’r modd ffocws.",
+  "focusConnectBlockOtherApps": "Rhwystro apiau eraill o dderbyn yr hysbysiad nes cofnodi cymryd y feddyginiaeth",
   "everyXDaysFormat": "cada {count} diwrnod",
   "cycleDaysFormat": "{consecutiveDays} diwrnod yn cymryd / {restDays} diwrnod yn seibiant",
   "consecutiveDaysFormat": "{count} diwrnod o feddiant",

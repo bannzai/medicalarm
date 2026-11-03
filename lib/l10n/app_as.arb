@@ -78,6 +78,7 @@
   "silentModeNotificationDescription": "বিহীন বা ডিভাইস নিষ্ক্রিয় থাকা সত্ত্বেও, গুরুত্বপূর্ণ বিজ্ঞপ্তিগুলি লক স্ক্রীনে প্রদর্শিত হবে এবং শব্দ বাজানো হবে।",
   "alarmKitNotification": "এলাৰ্ম সুবিধা",
   "alarmKitNotificationDescription": "এলাৰ্ম ঘড়ীৰ দৰে জাননী বাজিব। নীৰৱ বা ফ’কাছ মোডতো জাননী পাব।",
+  "focusConnectBlockOtherApps": "জাননী পোৱাৰ পৰা ঔষধ খোৱাৰ তথ্য নথিভুক্ত কৰালৈকে আন এপসমূহ ব্লক কৰক",
   "everyXDaysFormat": "{count} দিনৰ অন্তৰত",
   "cycleDaysFormat": "{consecutiveDays} দিন সেবন/{restDays} দিন বিরতি",
   "consecutiveDaysFormat": "{count} দিন সেবন",

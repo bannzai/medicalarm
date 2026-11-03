@@ -78,6 +78,7 @@
   "silentModeNotificationDescription": "Ойлану режимі ON немесе құрылғы тыныш режимде болса да, маңызды хабарламалар бағдарламалау экранында көрсетіледі және дыбыс ойналады.",
   "alarmKitNotification": "Оятқыш функциясы",
   "alarmKitNotificationDescription": "Хабарландыру оятқыш сияқты дыбысталады. Оны дыбыссыз немесе назар аудару режимінде де аласыз.",
+  "focusConnectBlockOtherApps": "Хабарлама келгеннен дәрі қабылдау тіркелгенге дейін басқа қолданбаларды бұғаттау",
   "everyXDaysFormat": "{count} күн сайын",
   "cycleDaysFormat": "{consecutiveDays} күн қабылдау/{restDays} күн демалу",
   "consecutiveDaysFormat": "{count} күн қабылдау",

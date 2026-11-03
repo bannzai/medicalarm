@@ -78,6 +78,7 @@
   "silentModeNotificationDescription": "Alvar þess að ekki er hægt að hindra mikilvægar tilkynningar á lásaskjánum, jafnvel þegar einbeitingarmóður er virkur eða þegar tækið er hljóðlaust.",
   "alarmKitNotification": "Vekjaraklukkueiginleiki",
   "alarmKitNotificationDescription": "Tilkynningin hljómar eins og vekjaraklukka. Þú færð hana einnig í hljóðlausri stillingu eða einbeitingarstillingu.",
+  "focusConnectBlockOtherApps": "Loka á önnur öpp frá því að tilkynning berst þar til lyfjataka er skráð",
   "everyXDaysFormat": "{count} daga frekvens",
   "cycleDaysFormat": "{consecutiveDays} dagar í notkun/{restDays} daga í hvíld",
   "consecutiveDaysFormat": "{count} dagar tekið",

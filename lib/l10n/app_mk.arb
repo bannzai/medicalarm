@@ -78,6 +78,7 @@
   "silentModeNotificationDescription": "Сериозни известувања ќе бидат прикажани на заклучениот екран и ќе се репродуцира звук, дури и ако е вклучен режимот на концентрирање или уредот е без звук.",
   "alarmKitNotification": "Функција за аларм",
   "alarmKitNotificationDescription": "Известувањето ќе се огласи како будилник. Ќе го добиете и во тивок режим или режим на фокусирање.",
+  "focusConnectBlockOtherApps": "Блокирај ги другите апликации од приемот на известувањето до евидентирањето на земањето на лекот",
   "everyXDaysFormat": "{count} дена",
   "cycleDaysFormat": "{consecutiveDays} дена меба/ {restDays} дена одмор",
   "consecutiveDaysFormat": "{count} дена за земање",

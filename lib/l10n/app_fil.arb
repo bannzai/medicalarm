@@ -78,6 +78,7 @@
   "silentModeNotificationDescription": "Kahit na ang mode ng konsentrasyon ay ON o ang aparato ay tahimik, ang mga mahahalagang abiso ay ipapakita sa lock screen at ang tunog ay ipapagana.",
   "alarmKitNotification": "Feature ng alarm",
   "alarmKitNotificationDescription": "Tutunog ang notification na parang alarm clock. Matatanggap mo ito kahit naka-silent o Focus mode.",
+  "focusConnectBlockOtherApps": "I-block ang ibang app mula sa pagtanggap ng abiso hanggang sa maitala ang pag-inom ng gamot",
   "everyXDaysFormat": "{count} araw-araw",
   "cycleDaysFormat": "{consecutiveDays} araw ng pag-inom/{restDays} araw ng pahinga",
   "consecutiveDaysFormat": "{count} araw na pag-inom",

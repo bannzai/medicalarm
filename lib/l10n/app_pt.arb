@@ -78,6 +78,7 @@
   "silentModeNotificationDescription": "Mesmo com o Modo Foco ativado ou com o dispositivo em modo silencioso, as notificações importantes serão exibidas na tela de bloqueio e o som será reproduzido.",
   "alarmKitNotification": "Função de alarme",
   "alarmKitNotificationDescription": "A notificação tocará como um despertador. Você a receberá mesmo no modo silencioso ou de foco.",
+  "focusConnectBlockOtherApps": "Bloquear outras aplicações desde a receção da notificação até ao registo da toma do medicamento",
   "everyXDaysFormat": "a cada {count} dias",
   "cycleDaysFormat": "{consecutiveDays} dias de uso/{restDays} dias de pausa",
   "consecutiveDaysFormat": "{count} dias de uso",

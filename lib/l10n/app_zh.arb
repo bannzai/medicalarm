@@ -78,6 +78,7 @@
   "silentModeNotificationDescription": "即使集中模式开启或设备处于静音状态，重要通知仍会显示在锁屏上，并且会播放声音。",
   "alarmKitNotification": "闹钟功能",
   "alarmKitNotificationDescription": "通知会像闹钟一样响起。即使处于静音或专注模式，也能收到通知。",
+  "focusConnectBlockOtherApps": "从收到通知到记录服药期间屏蔽其他应用",
   "everyXDaysFormat": "每{count}天",
   "cycleDaysFormat": "{consecutiveDays}天服用/{restDays}天休薬",
   "consecutiveDaysFormat": "{count}天服用",

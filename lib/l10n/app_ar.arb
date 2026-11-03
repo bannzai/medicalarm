@@ -78,6 +78,7 @@
   "silentModeNotificationDescription": "حتى في وضع التركيز أو عندما يكون الجهاز صامتًا، تظهر الإشعارات الهامة على شاشة القفل وتشغل الصوت.",
   "alarmKitNotification": "ميزة المنبّه",
   "alarmKitNotificationDescription": "سيصدر إشعار بصوت يشبه المنبّه. سيصلك الإشعار حتى في الوضع الصامت أو وضع التركيز.",
+  "focusConnectBlockOtherApps": "حظر التطبيقات الأخرى من وصول الإشعار حتى تسجيل تناول الدواء",
   "everyXDaysFormat": "كل {count} يوم",
   "cycleDaysFormat": "{consecutiveDays} أيام تناول الأدوية / {restDays} أيام توقف تناول الأدوية",
   "consecutiveDaysFormat": "{count} يوم المتابعة",

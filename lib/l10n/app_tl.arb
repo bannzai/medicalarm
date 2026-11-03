@@ -78,6 +78,7 @@
   "silentModeNotificationDescription": "Kahit na naka-ON ang Focus Mode o naka-silent ang device, ang mga mahalagang notification ay ipinapakita sa lock screen at tumutunog.",
   "alarmKitNotification": "Feature ng alarm",
   "alarmKitNotificationDescription": "Tutunog ang notification na parang alarm clock. Matatanggap mo ito kahit naka-silent o Focus mode.",
+  "focusConnectBlockOtherApps": "I-block ang ibang app mula sa pagtanggap ng abiso hanggang sa maitala ang pag-inom ng gamot",
   "everyXDaysFormat": "{count} araw-araw",
   "cycleDaysFormat": "{consecutiveDays} araw na pag-inom/{restDays} araw na pahinga",
   "consecutiveDaysFormat": "{count} araw na pag-inom",

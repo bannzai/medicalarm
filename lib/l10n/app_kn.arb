@@ -78,6 +78,7 @@
   "silentModeNotificationDescription": "ಫೋಕಸ್ ಮೋಡ್ ಆನ್ ಆಗಿದ್ದರೂ ಅಥವಾ ಸಾಧನವನ್ನು ಮ್ಯೂಟ್ ಮಾಡಿದ್ದರೂ, ಪ್ರಮುಖ ಅಧಿಸೂಚನೆಗಳು ಲಾಕ್ ಸ್ಕ್ರೀನ್‌ನಲ್ಲಿ ಕಾಣಿಸುತ್ತವೆ ಮತ್ತು ಧ್ವನಿ ಪ್ಲೇ ಆಗುತ್ತದೆ",
   "alarmKitNotification": "ಅಲಾರಂ ವೈಶಿಷ್ಟ್ಯ",
   "alarmKitNotificationDescription": "ಅಲಾರಾಂ ಗಡಿಯಾರದಂತೆ ಅಧಿಸೂಚನೆ ಧ್ವನಿಸುತ್ತದೆ. ಸೈಲೆಂಟ್ ಅಥವಾ ಫೋಕಸ್ ಮೋಡ್‌ನಲ್ಲಿಯೂ ನಿಮಗೆ ಅಧಿಸೂಚನೆ ಬರುತ್ತದೆ.",
+  "focusConnectBlockOtherApps": "ಅಧಿಸೂಚನೆ ಬಂದಾಗಿನಿಂದ ಔಷಧಿ ಸೇವನೆಯನ್ನು ದಾಖಲಿಸುವವರೆಗೆ ಇತರ ಆ್ಯಪ್‌ಗಳನ್ನು ನಿರ್ಬಂಧಿಸಿ",
   "everyXDaysFormat": "{count} ದಿನಗಳಿಗೊಮ್ಮೆ",
   "cycleDaysFormat": "{consecutiveDays} ದಿನ ಸೇವನೆ/{restDays} ದಿನ ವಿರಾಮ",
   "consecutiveDaysFormat": "{count} ದಿನ ಸೇವನೆ",

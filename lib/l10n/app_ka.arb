@@ -78,6 +78,7 @@
   "silentModeNotificationDescription": "კონცენტრაციის რეჟიმი ჩართული ყოფნისას ან მოწყობილობამ ხმამაღლა მიღებას, კრიტიკული შეტყობინებები ლოქ ინტერეფეისზე გამოჩნდება, ხოლო ზარები დაიწერება.",
   "alarmKitNotification": "მაღვიძარას ფუნქცია",
   "alarmKitNotificationDescription": "შეტყობინება მაღვიძარასავით გაიჟღერებს. მას უხმო ან ფოკუსირების რეჟიმშიც მიიღებთ.",
+  "focusConnectBlockOtherApps": "სხვა აპების დაბლოკვა შეტყობინების მიღებიდან წამლის მიღების აღრიცხვამდე",
   "everyXDaysFormat": "{count} დღის საფუძველზე",
   "cycleDaysFormat": "{consecutiveDays} დღის მიღება/{restDays} დღის შესვენება",
   "consecutiveDaysFormat": "{count} დღის აღების",

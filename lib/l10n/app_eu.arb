@@ -78,6 +78,7 @@
   "silentModeNotificationDescription": "Kontzentrazio modua ON badago edo gailua isilik badago ere, jakinarazpen garrantzitsuak itxita dauden pantailan agertuko dira soinuarekin batera.",
   "alarmKitNotification": "Alarma-funtzioa",
   "alarmKitNotificationDescription": "Jakinarazpenak iratzargailu baten antzera joko du. Modu isilean edo kontzentrazio moduan ere jasoko duzu.",
+  "focusConnectBlockOtherApps": "Blokeatu beste aplikazioak jakinarazpena jasotzen denetik sendagaia hartu dela erregistratu arte",
   "everyXDaysFormat": "{count} egunero",
   "cycleDaysFormat": "{consecutiveDays} egun hartzen/{restDays} egun eten",
   "consecutiveDaysFormat": "{count} egun hartu",

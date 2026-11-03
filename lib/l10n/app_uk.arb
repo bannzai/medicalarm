@@ -78,6 +78,7 @@
   "silentModeNotificationDescription": "Important notifications will be displayed on the lock screen and a sound will be played even when Focus Mode is ON or the device is on silent.",
   "alarmKitNotification": "Функція будильника",
   "alarmKitNotificationDescription": "Сповіщення пролунає як будильник. Ви отримаєте його навіть у беззвучному режимі чи режимі зосередження.",
+  "focusConnectBlockOtherApps": "Блокувати інші застосунки від отримання сповіщення до запису про прийом ліків",
   "everyXDaysFormat": "every {count} days",
   "cycleDaysFormat": "{consecutiveDays} days taken/{restDays} days off",
   "consecutiveDaysFormat": "{count} days of medication",

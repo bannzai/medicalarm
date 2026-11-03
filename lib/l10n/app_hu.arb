@@ -78,6 +78,7 @@
   "silentModeNotificationDescription": "A fontos értesítések megjelennek a zárolt képernyőn, még ha a fókusz mód be van kapcsolva, vagy az eszköz némítva is van, a hangok is lejátszásra kerülnek.",
   "alarmKitNotification": "Ébresztőfunkció",
   "alarmKitNotificationDescription": "Az értesítés ébresztőóraként szólal meg. Néma vagy Fókusz módban is megkapja.",
+  "focusConnectBlockOtherApps": "Más alkalmazások letiltása az értesítéstől a gyógyszer bevételének rögzítéséig",
   "everyXDaysFormat": "{count} naponta",
   "cycleDaysFormat": "{consecutiveDays} nap gyógyszerszedés/{restDays} nap szünet",
   "consecutiveDaysFormat": "{count} napja szedve",

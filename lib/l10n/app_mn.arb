@@ -78,6 +78,7 @@
   "silentModeNotificationDescription": "Анхаарлын горим включэгдсэн эсвэл төхөөрөмж дуу чимээгүй үед ч, чухал мэдэгдлүүд нь дээд талын дэлгэцэнд гарч, дуугаар тоглох болно.",
   "alarmKitNotification": "Сэрүүлгийн функц",
   "alarmKitNotificationDescription": "Мэдэгдэл сэрүүлэг шиг дуугарна. Чимээгүй эсвэл төвлөрөх горимд байсан ч мэдэгдэл ирнэ.",
+  "focusConnectBlockOtherApps": "Мэдэгдэл ирснээс эм ууснаа бүртгэх хүртэл бусад аппыг хориглох",
   "everyXDaysFormat": "{count} өдөр тутам",
   "cycleDaysFormat": "{consecutiveDays} хоног хэрэглэж/{restDays} хоног амар",
   "consecutiveDaysFormat": "{count} хоног",

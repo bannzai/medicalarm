@@ -78,6 +78,7 @@
   "silentModeNotificationDescription": "Njoftimet e rëndësishme do të shfaqen në ekranin e bllokimit dhe do të luajnë tingull edhe kur Modaliteti i Përqendrimit është aktiv apo kur pajisja është në heshtje.",
   "alarmKitNotification": "Funksioni i alarmit",
   "alarmKitNotificationDescription": "Njoftimi do të tingëllojë si zile zgjimi. Do ta marrësh edhe në modalitetin pa zë ose të përqendrimit.",
+  "focusConnectBlockOtherApps": "Blloko aplikacionet e tjera nga marrja e njoftimit deri te regjistrimi i marrjes së ilaçit",
   "everyXDaysFormat": "{count} ditë",
   "cycleDaysFormat": "{consecutiveDays} ditë marrjeje/{restDays} ditë pushimi",
   "consecutiveDaysFormat": "{count} ditë të përdorimit",

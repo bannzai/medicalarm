@@ -78,6 +78,7 @@
   "silentModeNotificationDescription": "Açık odak modu veya cihazın sessiz olduğu durumlarda bile, önemli bildirimler kilit ekranında görüntülenecek ve ses çalınacaktır.",
   "alarmKitNotification": "Alarm özelliği",
   "alarmKitNotificationDescription": "Bildirim çalar saat gibi ses çıkarır. Sessiz veya Odak modunda da bildirimi alırsınız.",
+  "focusConnectBlockOtherApps": "Bildirimin alınmasından ilaç kullanımının kaydedilmesine kadar diğer uygulamaları engelle",
   "everyXDaysFormat": "{count} günde bir kez",
   "cycleDaysFormat": "{consecutiveDays} gün ilaç kullanımı/{restDays} gün ara",
   "consecutiveDaysFormat": "{count} gün kullanıldı",

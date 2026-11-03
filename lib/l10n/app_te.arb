@@ -78,6 +78,7 @@
   "silentModeNotificationDescription": "కేంద్రిత మోడ్ ON అయి ఉండగా లేదా పరికరం మిన్నలో ఉన్నప్పుడు కూడా, ప్రముఖ సమాచారాలు లాక్ స్క్రీన్ పై ప్రదర్శించబడతాయి, శబ్దం ప్రసారం చేయబడుతుంది.",
   "alarmKitNotification": "అలారం ఫీచర్",
   "alarmKitNotificationDescription": "అలారం గడియారంలా నోటిఫికేషన్ మోగుతుంది. సైలెంట్ లేదా ఫోకస్ మోడ్‌లో ఉన్నా మీకు నోటిఫికేషన్ అందుతుంది.",
+  "focusConnectBlockOtherApps": "నోటిఫికేషన్ అందినప్పటి నుంచి మందు తీసుకున్నట్లు నమోదు చేసే వరకు ఇతర యాప్‌లను బ్లాక్ చేయండి",
   "everyXDaysFormat": "{count}రోజుల క్రమంలో",
   "cycleDaysFormat": "{consecutiveDays} రోజులు మందు తాగే/{restDays} రోజులు మందు విరమించు",
   "consecutiveDaysFormat": "{count} రోజుల మోతాదు",
