@@ -236,6 +236,7 @@
   "accountLinkBannerText": "Bendrinant grupę primygtinai rekomenduojame nustatyti paskyros perkėlimą.",
   "medicineImageImport": "Pridėti vaistą iš vaizdo",
   "medicineImageImportReviewTitle": "Atpažinti vaistai",
+  "medicineImageImportEmpty": "Nuotraukoje nepavyko atpažinti jokių vaistų",
   "minimumDoseInterval": "Dozių vartojimo intervalas",
   "minimumDoseIntervalDescription": "Minimalus laikas tarp dozių nuo paskutinės dozės",
   "minimumDoseIntervalNone": "Nėra",

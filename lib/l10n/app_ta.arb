@@ -236,6 +236,7 @@
   "accountLinkBannerText": "குழுவைப் பகிரும்போது, கணக்கு மாற்றத்தை அமைக்குமாறு நாங்கள் மிகவும் பரிந்துரைக்கிறோம்.",
   "medicineImageImport": "படத்திலிருந்து மருந்தைச் சேர்க்கவும்",
   "medicineImageImportReviewTitle": "அடையாளம் காணப்பட்ட மருந்துகள்",
+  "medicineImageImportEmpty": "படத்தில் எந்த மருந்தையும் அடையாளம் காண முடியவில்லை",
   "minimumDoseInterval": "மருந்து உட்கொள்ளும் இடைவெளி",
   "minimumDoseIntervalDescription": "முந்தைய மருந்தளவுக்குப் பிறகு மருந்தளவுகளுக்கு இடையிலான குறைந்தபட்ச நேரம்",
   "minimumDoseIntervalNone": "எதுவுமில்லை",

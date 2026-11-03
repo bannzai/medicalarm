@@ -236,6 +236,7 @@
   "accountLinkBannerText": "Mentre comparteixes un grup, et recomanem encaridament que configuris la transferència del compte.",
   "medicineImageImport": "Afegeix un medicament des d’una imatge",
   "medicineImageImportReviewTitle": "Medicaments identificats",
+  "medicineImageImportEmpty": "No s’ha pogut identificar cap medicament a la imatge",
   "minimumDoseInterval": "Interval entre dosis",
   "minimumDoseIntervalDescription": "Temps mínim entre dosis des de l’última presa",
   "minimumDoseIntervalNone": "Cap",

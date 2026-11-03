@@ -236,6 +236,7 @@
   "accountLinkBannerText": "هنگام اشتراک‌گذاری گروه، اکیداً توصیه می‌کنیم انتقال حساب را تنظیم کنید.",
   "medicineImageImport": "افزودن دارو از تصویر",
   "medicineImageImportReviewTitle": "داروهای شناسایی‌شده",
+  "medicineImageImportEmpty": "هیچ دارویی در تصویر شناسایی نشد",
   "minimumDoseInterval": "فاصله بین دوزها",
   "minimumDoseIntervalDescription": "حداقل فاصله زمانی بین دوزها از آخرین دوز",
   "minimumDoseIntervalNone": "هیچ‌کدام",

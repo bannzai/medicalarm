@@ -236,6 +236,7 @@
   "accountLinkBannerText": "При совместном использовании группы настоятельно рекомендуем настроить перенос аккаунта.",
   "medicineImageImport": "Добавить лекарство с изображения",
   "medicineImageImportReviewTitle": "Распознанные лекарства",
+  "medicineImageImportEmpty": "Не удалось распознать лекарство на изображении",
   "minimumDoseInterval": "Интервал между приёмами",
   "minimumDoseIntervalDescription": "Минимальный интервал между приёмами после предыдущей дозы",
   "minimumDoseIntervalNone": "Нет",

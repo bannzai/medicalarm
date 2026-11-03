@@ -236,6 +236,7 @@
   "accountLinkBannerText": "Når du deler en gruppe, anbefaler vi på det sterkeste at du konfigurerer kontooverføring.",
   "medicineImageImport": "Legg til medisin fra bilde",
   "medicineImageImportReviewTitle": "Gjenkjente medisiner",
+  "medicineImageImportEmpty": "Kunne ikke gjenkjenne noen medisiner på bildet",
   "minimumDoseInterval": "Doseringsintervall",
   "minimumDoseIntervalDescription": "Minste tid mellom doser siden forrige dose",
   "minimumDoseIntervalNone": "Ingen",

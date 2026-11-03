@@ -236,6 +236,7 @@
   "accountLinkBannerText": "ગ્રુપ શેર કરતી વખતે એકાઉન્ટ ટ્રાન્સફર સેટિંગ સેટ કરવાની અમે સખત ભલામણ કરીએ છીએ.",
   "medicineImageImport": "છબીમાંથી દવા ઉમેરો",
   "medicineImageImportReviewTitle": "ઓળખવામાં આવેલી દવાઓ",
+  "medicineImageImportEmpty": "ચિત્રમાં કોઈ દવા ઓળખી શકાઈ નથી",
   "minimumDoseInterval": "દવા લેવાના અંતરાલ",
   "minimumDoseIntervalDescription": "છેલ્લો ડોઝ લીધા પછી ઓછામાં ઓછો રાખવાનો સમય",
   "minimumDoseIntervalNone": "કંઈ નથી",

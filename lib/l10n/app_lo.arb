@@ -236,6 +236,7 @@
   "accountLinkBannerText": "ໃນຂະນະແບ່ງປັນກຸ່ມ ພວກເຮົາຂໍແນະນຳຢ່າງຍິ່ງໃຫ້ຕັ້ງຄ່າການໂອນບັນຊີ.",
   "medicineImageImport": "ເພີ່ມຢາຈາກຮູບພາບ",
   "medicineImageImportReviewTitle": "ຢາທີ່ລະບຸໄດ້",
+  "medicineImageImportEmpty": "ບໍ່ສາມາດລະບຸຢາໃນຮູບພາບໄດ້",
   "minimumDoseInterval": "ໄລຍະຫ່າງລະຫວ່າງການກິນຢາ",
   "minimumDoseIntervalDescription": "ໄລຍະເວລາຂັ້ນຕ່ຳລະຫວ່າງການກິນຢາ ຫຼັງຈາກຄັ້ງກ່ອນ",
   "minimumDoseIntervalNone": "ບໍ່ມີ",

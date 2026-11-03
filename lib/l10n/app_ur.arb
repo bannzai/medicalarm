@@ -236,6 +236,7 @@
   "accountLinkBannerText": "گروپ شیئر کرتے وقت، ہم اکاؤنٹ کی منتقلی ترتیب دینے کی پُرزور تجویز دیتے ہیں۔",
   "medicineImageImport": "تصویر سے دوا شامل کریں",
   "medicineImageImportReviewTitle": "شناخت کی گئی ادویات",
+  "medicineImageImportEmpty": "تصویر میں کسی دوا کی شناخت نہیں ہو سکی",
   "minimumDoseInterval": "خوراکوں کے درمیان وقفہ",
   "minimumDoseIntervalDescription": "پچھلی خوراک کے بعد خوراکوں کے درمیان کم از کم وقفہ",
   "minimumDoseIntervalNone": "کوئی نہیں",

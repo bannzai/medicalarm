@@ -236,6 +236,7 @@
   "accountLinkBannerText": "Qrup paylaşımı zamanı hesabın ötürülməsi ayarlarını qurmağınızı şiddətlə tövsiyə edirik.",
   "medicineImageImport": "Şəkildən dərman əlavə et",
   "medicineImageImportReviewTitle": "Şəkildən tanınan dərmanlar",
+  "medicineImageImportEmpty": "Şəkildə heç bir dərman müəyyən edilə bilmədi",
   "minimumDoseInterval": "Doza intervalı",
   "minimumDoseIntervalDescription": "Əvvəlki dozadan sonra keçməli olan minimum vaxt",
   "minimumDoseIntervalNone": "Yoxdur",

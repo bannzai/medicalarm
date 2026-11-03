@@ -236,6 +236,7 @@
   "accountLinkBannerText": "Csoportmegosztás esetén nyomatékosan javasoljuk a fiókátvitel beállítását.",
   "medicineImageImport": "Gyógyszer hozzáadása képről",
   "medicineImageImportReviewTitle": "Felismert gyógyszerek",
+  "medicineImageImportEmpty": "Nem sikerült gyógyszert felismerni a képen",
   "minimumDoseInterval": "Adagolási időköz",
   "minimumDoseIntervalDescription": "Az előző adag óta eltelő minimális idő a következő adagig",
   "minimumDoseIntervalNone": "Nincs",

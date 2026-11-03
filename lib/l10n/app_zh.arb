@@ -236,6 +236,7 @@
   "accountLinkBannerText": "共享群组时，强烈建议您设置账号转移。",
   "medicineImageImport": "从图片添加药物",
   "medicineImageImportReviewTitle": "识别出的药品",
+  "medicineImageImportEmpty": "无法识别图片中的药品",
   "minimumDoseInterval": "服药间隔",
   "minimumDoseIntervalDescription": "两次服用之间的最短间隔时间",
   "minimumDoseIntervalNone": "无",

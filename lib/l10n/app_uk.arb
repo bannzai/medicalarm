@@ -236,6 +236,7 @@
   "accountLinkBannerText": "Під час спільного використання групи наполегливо рекомендуємо налаштувати перенесення облікового запису.",
   "medicineImageImport": "Додати ліки із зображення",
   "medicineImageImportReviewTitle": "Розпізнані ліки",
+  "medicineImageImportEmpty": "Не вдалося розпізнати ліки на зображенні",
   "minimumDoseInterval": "Інтервал між прийомами",
   "minimumDoseIntervalDescription": "Мінімальний інтервал між прийомами після попередньої дози",
   "minimumDoseIntervalNone": "Немає",

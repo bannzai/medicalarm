@@ -236,6 +236,7 @@
   "accountLinkBannerText": "Κατά την κοινή χρήση μιας ομάδας, συνιστούμε ανεπιφύλακτα να ρυθμίσετε τη μεταφορά λογαριασμού.",
   "medicineImageImport": "Προσθήκη φαρμάκου από εικόνα",
   "medicineImageImportReviewTitle": "Φάρμακα που αναγνωρίστηκαν",
+  "medicineImageImportEmpty": "Δεν αναγνωρίστηκε κανένα φάρμακο στην εικόνα",
   "minimumDoseInterval": "Διάστημα μεταξύ δόσεων",
   "minimumDoseIntervalDescription": "Ελάχιστο χρονικό διάστημα μεταξύ δόσεων από την προηγούμενη δόση",
   "minimumDoseIntervalNone": "Κανένα",

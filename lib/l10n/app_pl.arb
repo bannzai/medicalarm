@@ -236,6 +236,7 @@
   "accountLinkBannerText": "Podczas udostępniania grupy zdecydowanie zalecamy skonfigurowanie przenoszenia konta.",
   "medicineImageImport": "Dodaj lek ze zdjęcia",
   "medicineImageImportReviewTitle": "Rozpoznane leki",
+  "medicineImageImportEmpty": "Nie udało się rozpoznać żadnego leku na zdjęciu",
   "minimumDoseInterval": "Odstęp między dawkami",
   "minimumDoseIntervalDescription": "Minimalny odstęp między dawkami od poprzedniej dawki",
   "minimumDoseIntervalNone": "Brak",

@@ -236,6 +236,7 @@
   "accountLinkBannerText": "Tijekom dijeljenja grupe toplo preporučujemo da postavite prijenos računa.",
   "medicineImageImport": "Dodaj lijek sa slike",
   "medicineImageImportReviewTitle": "Prepoznati lijekovi",
+  "medicineImageImportEmpty": "Nije moguće prepoznati lijek na slici",
   "minimumDoseInterval": "Razmak između doza",
   "minimumDoseIntervalDescription": "Minimalni razmak između doza od prethodne doze",
   "minimumDoseIntervalNone": "Nema",

@@ -236,6 +236,7 @@
   "accountLinkBannerText": "Խմբով կիսվելու ընթացքում խստորեն խորհուրդ ենք տալիս կարգավորել հաշվի փոխանցումը։",
   "medicineImageImport": "Ավելացնել դեղը պատկերից",
   "medicineImageImportReviewTitle": "Ճանաչված դեղերը",
+  "medicineImageImportEmpty": "Պատկերում որևէ դեղ չհաջողվեց ճանաչել",
   "minimumDoseInterval": "Դեղաչափերի միջև ընդմիջում",
   "minimumDoseIntervalDescription": "Նախորդ դեղաչափից հետո անհրաժեշտ նվազագույն ժամանակը",
   "minimumDoseIntervalNone": "Չկա",

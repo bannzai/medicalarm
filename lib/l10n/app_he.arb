@@ -236,6 +236,7 @@
   "accountLinkBannerText": "בזמן שיתוף קבוצה, אנו ממליצים בחום להגדיר העברת חשבון.",
   "medicineImageImport": "הוספת תרופה מתמונה",
   "medicineImageImportReviewTitle": "תרופות שזוהו",
+  "medicineImageImportEmpty": "לא ניתן היה לזהות תרופה בתמונה",
   "minimumDoseInterval": "מרווח בין מנות",
   "minimumDoseIntervalDescription": "הזמן המינימלי בין מנות מהמנה הקודמת",
   "minimumDoseIntervalNone": "אין",

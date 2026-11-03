@@ -236,6 +236,7 @@
   "accountLinkBannerText": "Grupi jagamise ajal soovitame tungivalt seadistada konto ülekandmise.",
   "medicineImageImport": "Lisa ravim pildilt",
   "medicineImageImportReviewTitle": "Tuvastatud ravimid",
+  "medicineImageImportEmpty": "Pildilt ei õnnestunud ühtegi ravimit tuvastada",
   "minimumDoseInterval": "Annustamisintervall",
   "minimumDoseIntervalDescription": "Minimaalne aeg annuste vahel alates eelmisest annusest",
   "minimumDoseIntervalNone": "Puudub",

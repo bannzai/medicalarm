@@ -236,6 +236,7 @@
   "accountLinkBannerText": "När du delar en grupp rekommenderar vi starkt att du konfigurerar kontoöverföring.",
   "medicineImageImport": "Lägg till läkemedel från bild",
   "medicineImageImportReviewTitle": "Identifierade läkemedel",
+  "medicineImageImportEmpty": "Det gick inte att identifiera något läkemedel på bilden",
   "minimumDoseInterval": "Doseringsintervall",
   "minimumDoseIntervalDescription": "Minsta tid mellan doser sedan den senaste dosen",
   "minimumDoseIntervalNone": "Ingen",

@@ -236,6 +236,7 @@
   "accountLinkBannerText": "Habang nagbabahagi ng grupo, lubos naming inirerekomendang i-set up ang paglilipat ng account.",
   "medicineImageImport": "Magdagdag ng gamot mula sa larawan",
   "medicineImageImportReviewTitle": "Mga natukoy na gamot",
+  "medicineImageImportEmpty": "Walang matukoy na gamot sa larawan",
   "minimumDoseInterval": "Agwat sa pagitan ng pag-inom",
   "minimumDoseIntervalDescription": "Pinakamababang pagitan ng mga dosis mula sa nakaraang pag-inom",
   "minimumDoseIntervalNone": "Wala",

@@ -236,6 +236,7 @@
   "accountLinkBannerText": "Топты ортақ пайдаланған кезде есептік жазбаны тасымалдауды баптауды қатаң ұсынамыз.",
   "medicineImageImport": "Суреттен дәрі қосу",
   "medicineImageImportReviewTitle": "Танылған дәрілер",
+  "medicineImageImportEmpty": "Суреттен ешбір дәрі танылмады",
   "minimumDoseInterval": "Дозалар арасындағы аралық",
   "minimumDoseIntervalDescription": "Алдыңғы дозадан кейін өтуі тиіс ең аз уақыт",
   "minimumDoseIntervalNone": "Жоқ",

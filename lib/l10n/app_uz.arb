@@ -236,6 +236,7 @@
   "accountLinkBannerText": "Guruhni ulashayotganingizda, hisobni ko‘chirishni sozlashni qat’iy tavsiya qilamiz.",
   "medicineImageImport": "Rasmdan dori qo‘shish",
   "medicineImageImportReviewTitle": "Aniqlangan dorilar",
+  "medicineImageImportEmpty": "Rasmda hech qanday dori aniqlanmadi",
   "minimumDoseInterval": "Dozalar orasidagi interval",
   "minimumDoseIntervalDescription": "Oldingi dozadan keyin dozalar orasidagi minimal vaqt",
   "minimumDoseIntervalNone": "Yo‘q",

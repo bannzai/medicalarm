@@ -236,6 +236,7 @@
   "accountLinkBannerText": "Unaposhiriki kikundi, tunapendekeza sana uweke mipangilio ya kuhamisha akaunti.",
   "medicineImageImport": "Ongeza dawa kutoka kwenye picha",
   "medicineImageImportReviewTitle": "Dawa zilizotambuliwa",
+  "medicineImageImportEmpty": "Hatukuweza kutambua dawa yoyote kwenye picha",
   "minimumDoseInterval": "Muda kati ya dozi",
   "minimumDoseIntervalDescription": "Muda wa chini kati ya dozi tangu dozi ya awali",
   "minimumDoseIntervalNone": "Hakuna",

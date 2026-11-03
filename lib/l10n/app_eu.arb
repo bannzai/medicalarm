@@ -236,6 +236,7 @@
   "accountLinkBannerText": "Talde bat partekatzen duzun bitartean, kontuaren transferentzia konfiguratzea gomendatzen dizugu.",
   "medicineImageImport": "Gehitu sendagaia irudi batetik",
   "medicineImageImportReviewTitle": "Identifikatutako sendagaiak",
+  "medicineImageImportEmpty": "Ezin izan da irudian botikarik identifikatu",
   "minimumDoseInterval": "Dosi arteko tartea",
   "minimumDoseIntervalDescription": "Aurreko dositik gutxienez igaro beharreko denbora",
   "minimumDoseIntervalNone": "Bat ere ez",

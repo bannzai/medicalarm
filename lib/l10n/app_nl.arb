@@ -236,6 +236,7 @@
   "accountLinkBannerText": "Als je een groep deelt, raden we je sterk aan om accountoverdracht in te stellen.",
   "medicineImageImport": "Medicijn toevoegen vanuit afbeelding",
   "medicineImageImportReviewTitle": "Herkende medicijnen",
+  "medicineImageImportEmpty": "Er kon geen medicijn op de afbeelding worden herkend",
   "minimumDoseInterval": "Tussenpoos tussen doses",
   "minimumDoseIntervalDescription": "Minimale tijd tussen doses sinds de vorige dosis",
   "minimumDoseIntervalNone": "Geen",

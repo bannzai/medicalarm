@@ -236,6 +236,7 @@
   "accountLinkBannerText": "Kun jaat ryhmän, suosittelemme vahvasti tilin siirron määrittämistä.",
   "medicineImageImport": "Lisää lääke kuvasta",
   "medicineImageImportReviewTitle": "Tunnistetut lääkkeet",
+  "medicineImageImportEmpty": "Kuvasta ei voitu tunnistaa lääkkeitä",
   "minimumDoseInterval": "Annosväli",
   "minimumDoseIntervalDescription": "Annosten välinen vähimmäisaika edellisestä annoksesta",
   "minimumDoseIntervalNone": "Ei mitään",

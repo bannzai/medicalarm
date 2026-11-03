@@ -236,6 +236,7 @@
   "accountLinkBannerText": "Топту бөлүшүп жатканда, аккаунтту өткөрүп берүү жөндөөлөрүн орнотууну абдан сунуштайбыз.",
   "medicineImageImport": "Сүрөттөн дары кошуу",
   "medicineImageImportReviewTitle": "Таанылган дарылар",
+  "medicineImageImportEmpty": "Сүрөттөн эч бир дары таанылган жок",
   "minimumDoseInterval": "Дозалардын ортосундагы аралык",
   "minimumDoseIntervalDescription": "Мурунку дозадан кийинки минималдуу аралык",
   "minimumDoseIntervalNone": "Жок",

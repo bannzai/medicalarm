@@ -236,6 +236,7 @@
   "accountLinkBannerText": "ቡድን በሚያጋሩበት ጊዜ የመለያ ማስተላለፊያ ቅንብርን እንዲያዘጋጁ በጥብቅ እንመክራለን።",
   "medicineImageImport": "ከምስል መድኃኒት ያክሉ",
   "medicineImageImportReviewTitle": "ከምስሉ የተለዩ መድኃኒቶች",
+  "medicineImageImportEmpty": "ከምስሉ መድኃኒት መለየት አልተቻለም",
   "minimumDoseInterval": "የመውሰጃ ክፍተት",
   "minimumDoseIntervalDescription": "ከቀደመው የመድኃኒት መውሰድ በኋላ ቢያንስ የሚቆይ ጊዜ",
   "minimumDoseIntervalNone": "የለም",

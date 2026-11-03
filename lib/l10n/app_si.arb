@@ -236,6 +236,7 @@
   "accountLinkBannerText": "කණ්ඩායමක් බෙදාගන්නා විට, ගිණුම් මාරු කිරීම සකසන ලෙස අපි තරයේ නිර්දේශ කරමු.",
   "medicineImageImport": "රූපයකින් ඖෂධයක් එක් කරන්න",
   "medicineImageImportReviewTitle": "හඳුනාගත් ඖෂධ",
+  "medicineImageImportEmpty": "රූපයෙන් කිසිදු ඖෂධයක් හඳුනාගත නොහැකි විය",
   "minimumDoseInterval": "මාත්‍රා අතර පරතරය",
   "minimumDoseIntervalDescription": "පෙර මාත්‍රාවෙන් පසු මාත්‍රා අතර අවම කාලය",
   "minimumDoseIntervalNone": "නැත",

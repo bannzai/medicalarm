@@ -236,6 +236,7 @@
   "accountLinkBannerText": "Бүлэг хуваалцаж байгаа бол бүртгэл шилжүүлэх тохиргоог хийхийг бид настойно зөвлөж байна.",
   "medicineImageImport": "Зургаас эм нэмэх",
   "medicineImageImportReviewTitle": "Танигдсан эмүүд",
+  "medicineImageImportEmpty": "Зураг дээрээс эм таньж чадсангүй",
   "minimumDoseInterval": "Тун хоорондын зай",
   "minimumDoseIntervalDescription": "Өмнөх тунгаас хойш тун хооронд баримтлах хамгийн бага хугацаа",
   "minimumDoseIntervalNone": "Байхгүй",

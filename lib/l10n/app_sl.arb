@@ -236,6 +236,7 @@
   "accountLinkBannerText": "Pri skupni rabi močno priporočamo, da nastavite prenos računa.",
   "medicineImageImport": "Dodaj zdravilo s slike",
   "medicineImageImportReviewTitle": "Prepoznana zdravila",
+  "medicineImageImportEmpty": "Na sliki ni bilo mogoče prepoznati nobenega zdravila",
   "minimumDoseInterval": "Razmik med odmerkoma",
   "minimumDoseIntervalDescription": "Najkrajši čas med odmerkoma od prejšnjega odmerka",
   "minimumDoseIntervalNone": "Brez",

@@ -236,6 +236,7 @@
   "accountLinkBannerText": "Ao partilhar um grupo, recomendamos vivamente que configure a transferência da conta.",
   "medicineImageImport": "Adicionar medicamento a partir de uma imagem",
   "medicineImageImportReviewTitle": "Medicamentos identificados",
+  "medicineImageImportEmpty": "Não foi possível identificar nenhum medicamento na imagem",
   "minimumDoseInterval": "Intervalo entre doses",
   "minimumDoseIntervalDescription": "Tempo mínimo entre doses desde a última toma",
   "minimumDoseIntervalNone": "Nenhum",

@@ -236,6 +236,7 @@
   "accountLinkBannerText": "ഗ്രൂപ്പ് പങ്കിടുമ്പോൾ അക്കൗണ്ട് കൈമാറ്റം സജ്ജീകരിക്കാൻ ഞങ്ങൾ ശക്തമായി ശുപാർശ ചെയ്യുന്നു.",
   "medicineImageImport": "ചിത്രത്തിൽ നിന്ന് മരുന്ന് ചേർക്കുക",
   "medicineImageImportReviewTitle": "തിരിച്ചറിഞ്ഞ മരുന്നുകൾ",
+  "medicineImageImportEmpty": "ചിത്രത്തിൽ മരുന്നുകളൊന്നും തിരിച്ചറിയാനായില്ല",
   "minimumDoseInterval": "ഡോസുകൾക്കിടയിലെ ഇടവേള",
   "minimumDoseIntervalDescription": "മുമ്പത്തെ ഡോസിന് ശേഷം ഡോസുകൾക്കിടയിലെ കുറഞ്ഞ സമയം",
   "minimumDoseIntervalNone": "ഇല്ല",

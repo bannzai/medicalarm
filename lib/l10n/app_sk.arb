@@ -236,6 +236,7 @@
   "accountLinkBannerText": "Pri zdieľaní skupiny dôrazne odporúčame nastaviť prenos účtu.",
   "medicineImageImport": "Pridať liek z obrázka",
   "medicineImageImportReviewTitle": "Rozpoznané lieky",
+  "medicineImageImportEmpty": "Na obrázku sa nepodarilo rozpoznať žiadny liek",
   "minimumDoseInterval": "Interval medzi dávkami",
   "minimumDoseIntervalDescription": "Minimálny odstup medzi dávkami od poslednej dávky",
   "minimumDoseIntervalNone": "Žiadne",
