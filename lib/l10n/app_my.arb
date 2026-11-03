@@ -76,6 +76,7 @@
   "followupNotificationDescription": "Sekiranya anda tidak merekod pengambilan ubat dalam masa 30 minit selepas notifikasi pertama, notifikasi susulan akan dihantar.",
   "enableNotificationInSilentMode": "Hantar pemberitahuan walaupun dalam mod senyap",
   "silentModeNotificationDescription": "Walau mod tumpuan dihidupkan atau peranti dalam mod senyap, pemberitahuan penting akan dipaparkan pada skrin kunci dan bunyi akan dimainkan.",
+  "alarmKitNotification": "နှိုးစက် လုပ်ဆောင်ချက်",
   "everyXDaysFormat": "{count} hari",
   "cycleDaysFormat": "{consecutiveDays} နေ့  သောက်ခြင်း/{restDays} နေ့  တားထားခြင်း",
   "consecutiveDaysFormat": "{count} hari pengambilan",

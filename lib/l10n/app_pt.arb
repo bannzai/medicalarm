@@ -76,6 +76,7 @@
   "followupNotificationDescription": "Se a medicação não for registrada dentro de 30 minutos após a primeira notificação, será enviado um lembrete de acompanhamento.",
   "enableNotificationInSilentMode": "Notificações mesmo no modo silencioso",
   "silentModeNotificationDescription": "Mesmo com o Modo Foco ativado ou com o dispositivo em modo silencioso, as notificações importantes serão exibidas na tela de bloqueio e o som será reproduzido.",
+  "alarmKitNotification": "Função de alarme",
   "everyXDaysFormat": "a cada {count} dias",
   "cycleDaysFormat": "{consecutiveDays} dias de uso/{restDays} dias de pausa",
   "consecutiveDaysFormat": "{count} dias de uso",

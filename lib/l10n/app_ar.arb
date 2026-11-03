@@ -76,6 +76,7 @@
   "followupNotificationDescription": "إذا لم تقم بتسجيل الأدوية خلال 30 دقيقة من الإشعار الأول، سيتم إرسال إشعار متابعة.",
   "enableNotificationInSilentMode": "إشعارات حتى في وضع الصامت",
   "silentModeNotificationDescription": "حتى في وضع التركيز أو عندما يكون الجهاز صامتًا، تظهر الإشعارات الهامة على شاشة القفل وتشغل الصوت.",
+  "alarmKitNotification": "ميزة المنبّه",
   "everyXDaysFormat": "كل {count} يوم",
   "cycleDaysFormat": "{consecutiveDays} أيام تناول الأدوية / {restDays} أيام توقف تناول الأدوية",
   "consecutiveDaysFormat": "{count} يوم المتابعة",

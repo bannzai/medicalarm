@@ -76,6 +76,7 @@
   "followupNotificationDescription": "As gevolg van die feit dat jy binne 30 minute na die eerste kennisgewing nie jou medisyne geregistreer het nie, sal 'n opvolg kennisgewing gestuur word.",
   "enableNotificationInSilentMode": "Stelseltone in stille modus",
   "silentModeNotificationDescription": "Belangrike kennisgewings sal op die vergrendelingskerm vertoon word, en klank sal gespeel word, selfs wanneer die fokusmodus aan is of wanneer die toestel op stil is.",
+  "alarmKitNotification": "Alarmfunksie",
   "everyXDaysFormat": "{count} dae",
   "cycleDaysFormat": "{consecutiveDays} dae geneem/{restDays} dae rus",
   "consecutiveDaysFormat": "{count} dae ingeneem",

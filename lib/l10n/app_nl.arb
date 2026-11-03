@@ -76,6 +76,7 @@
   "followupNotificationDescription": "Als je binnen 30 minuten na de eerste herinnering geen medicatie registreert, wordt er een follow-up herinnering verzonden.",
   "enableNotificationInSilentMode": "Meldingen in stille modus",
   "silentModeNotificationDescription": "Belangrijke meldingen worden weergegeven op het vergrendelscherm en het geluid wordt afgespeeld, zelfs wanneer de Focus-modus is ingeschakeld of het apparaat op stil staat.",
+  "alarmKitNotification": "Alarmfunctie",
   "everyXDaysFormat": "{count} dagen",
   "cycleDaysFormat": "{consecutiveDays} dagen innemen/{restDays} dagen pauze",
   "consecutiveDaysFormat": "{count} dagen inname",

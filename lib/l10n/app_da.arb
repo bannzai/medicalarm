@@ -76,6 +76,7 @@
   "followupNotificationDescription": "Hvis du ikke registrerer medicin inden for 30 minutter efter den første meddelelse, sendes der en opfølgningsmeddelelse.",
   "enableNotificationInSilentMode": "Underretter i lydløs tilstand",
   "silentModeNotificationDescription": "Når fokusmode er tændt, eller enheden er stille, vises vigtige meddelelser på låseskærmen, og lyden afspilles.",
+  "alarmKitNotification": "Alarmfunktion",
   "everyXDaysFormat": "{count} dage",
   "cycleDaysFormat": "{consecutiveDays} dages medicin/{restDays} dages pause",
   "consecutiveDaysFormat": "{count} dages indtagelse",

@@ -76,6 +76,7 @@
   "followupNotificationDescription": "Si no se registra la toma del medicamento en los 30 minutos posteriores a la primera notificación, se enviará una notificación de seguimiento.",
   "enableNotificationInSilentMode": "Notificar incluso en modo silencioso",
   "silentModeNotificationDescription": "Las notificaciones importantes se mostrarán en la pantalla de bloqueo y se reproducirá un sonido, incluso si el modo de concentración está activado o si el dispositivo está en silencio.",
+  "alarmKitNotification": "Función de alarma",
   "everyXDaysFormat": "cada {count} días",
   "cycleDaysFormat": "{consecutiveDays} días de medicación/{restDays} días de pausa",
   "consecutiveDaysFormat": "{count} días de toma",

@@ -76,6 +76,7 @@
   "followupNotificationDescription": "如果在第一次通知后的30分钟内未记录服药，则会发送后续通知。",
   "enableNotificationInSilentMode": "在静音模式下也会通知",
   "silentModeNotificationDescription": "即使集中模式开启或设备处于静音状态，重要通知仍会显示在锁屏上，并且会播放声音。",
+  "alarmKitNotification": "闹钟功能",
   "everyXDaysFormat": "每{count}天",
   "cycleDaysFormat": "{consecutiveDays}天服用/{restDays}天休薬",
   "consecutiveDaysFormat": "{count}天服用",

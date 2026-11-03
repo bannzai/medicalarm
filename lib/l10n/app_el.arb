@@ -76,6 +76,7 @@
   "followupNotificationDescription": "Εάν δεν καταγράψετε τη λήψη του φαρμάκου εντός 30 λεπτών από την πρώτη ειδοποίηση, θα σταλεί ειδοποίηση παρακολούθησης.",
   "enableNotificationInSilentMode": "Ειδοποιεί ακόμα και σε αθόρυβη λειτουργία",
   "silentModeNotificationDescription": "Ακόμη και όταν είναι ενεργοποιημένη η Λειτουργία συγκέντρωσης ή όταν η συσκευή είναι σε σίγαση, οι σημαντικές ειδοποιήσεις εμφανίζονται στην οθόνη κλειδώματος και αναπαράγεται ήχος.",
+  "alarmKitNotification": "Λειτουργία ξυπνητηριού",
   "everyXDaysFormat": "{count} ημέρες",
   "cycleDaysFormat": "{consecutiveDays} ημέρες λήψης/{restDays} ημέρες παύσης",
   "consecutiveDaysFormat": "{count} ημέρες λήψης",

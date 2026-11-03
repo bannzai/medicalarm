@@ -76,6 +76,7 @@
   "followupNotificationDescription": "Nëse nuk regjistroni marrjen e ilaçeve brenda 30 minutave nga njoftimi i parë, do të dërgohet një njoftim ndjekës.",
   "enableNotificationInSilentMode": "Njofto edhe kur është në modalitetin e heshtur",
   "silentModeNotificationDescription": "Njoftimet e rëndësishme do të shfaqen në ekranin e bllokimit dhe do të luajnë tingull edhe kur Modaliteti i Përqendrimit është aktiv apo kur pajisja është në heshtje.",
+  "alarmKitNotification": "Funksioni i alarmit",
   "everyXDaysFormat": "{count} ditë",
   "cycleDaysFormat": "{consecutiveDays} ditë marrjeje/{restDays} ditë pushimi",
   "consecutiveDaysFormat": "{count} ditë të përdorimit",

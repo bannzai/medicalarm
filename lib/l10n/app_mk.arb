@@ -76,6 +76,7 @@
   "followupNotificationDescription": "Ако не запишете прием на лековите во рок од 30 минути од првото известување, ќе биде испратено известување за следење.",
   "enableNotificationInSilentMode": "Да испраќа известување дури и кога е во мод на тишина",
   "silentModeNotificationDescription": "Сериозни известувања ќе бидат прикажани на заклучениот екран и ќе се репродуцира звук, дури и ако е вклучен режимот на концентрирање или уредот е без звук.",
+  "alarmKitNotification": "Функција за аларм",
   "everyXDaysFormat": "{count} дена",
   "cycleDaysFormat": "{consecutiveDays} дена меба/ {restDays} дена одмор",
   "consecutiveDaysFormat": "{count} дена за земање",

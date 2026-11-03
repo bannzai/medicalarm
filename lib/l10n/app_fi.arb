@@ -76,6 +76,7 @@
   "followupNotificationDescription": "Jos et kirjaa lääkkeitäsi ensimmäisen ilmoituksen jälkeen 30 minuutin kuluessa, seurantailmoitus lähetetään.",
   "enableNotificationInSilentMode": "Ilmoita myös äänettömässä tilassa",
   "silentModeNotificationDescription": "Vaikka keskittymismoodi on päällä tai laite on äänettömällä, tärkeät ilmoitukset näkyvät lukitusnäytöllä ja ääni toistetaan.",
+  "alarmKitNotification": "Hälytystoiminto",
   "everyXDaysFormat": "{count} päivän välein",
   "cycleDaysFormat": "{consecutiveDays} päivän käyttö/{restDays} päivän tauko",
   "consecutiveDaysFormat": "{count} päivää otettu",

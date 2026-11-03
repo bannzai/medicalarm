@@ -76,6 +76,7 @@
   "followupNotificationDescription": "אם לא תתעד את התרופה שלך תוך 30 דקות מההודעה הראשונה, תישלח הודעת מעקב.",
   "enableNotificationInSilentMode": "מקרי הודעות גם במצב שקט",
   "silentModeNotificationDescription": "במצב ריכוז שהוא דולק או כאשר המכשיר במצב שקט, התראות חשובות מוצגות על מסך הנעילה ומושמעות צלילים.",
+  "alarmKitNotification": "תכונת שעון מעורר",
   "everyXDaysFormat": "{count} ימים",
   "cycleDaysFormat": "{consecutiveDays} ימי נטילה/{restDays} ימי הפסקה",
   "consecutiveDaysFormat": "{count} ימי נטילה",

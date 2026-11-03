@@ -76,6 +76,7 @@
   "followupNotificationDescription": "మీరు మొదటి సంకేతం పంపిన 30 నిమిషాల్లోవైద్యాన్ని నమోదు చేయకపోతే, అనుకూలిత సంకేతం పంపబడుతుంది.",
   "enableNotificationInSilentMode": "మణా మోడ్‌లోనూ నోటిఫికేషన్‌లు",
   "silentModeNotificationDescription": "కేంద్రిత మోడ్ ON అయి ఉండగా లేదా పరికరం మిన్నలో ఉన్నప్పుడు కూడా, ప్రముఖ సమాచారాలు లాక్ స్క్రీన్ పై ప్రదర్శించబడతాయి, శబ్దం ప్రసారం చేయబడుతుంది.",
+  "alarmKitNotification": "అలారం ఫీచర్",
   "everyXDaysFormat": "{count}రోజుల క్రమంలో",
   "cycleDaysFormat": "{consecutiveDays} రోజులు మందు తాగే/{restDays} రోజులు మందు విరమించు",
   "consecutiveDaysFormat": "{count} రోజుల మోతాదు",

@@ -76,6 +76,7 @@
   "followupNotificationDescription": "Hvis du ikke registrerer medisineringen innen 30 minutter etter den første varslingen, sendes en oppfølgingsvarsling.",
   "enableNotificationInSilentMode": "Varsler i stille modus",
   "silentModeNotificationDescription": "Selv om konsentrasjonsmodus er PÅ eller enheten er i stille modus, vil viktige varsler vises på låseskjermen, og lyd vil bli spilt av.",
+  "alarmKitNotification": "Alarmfunksjon",
   "everyXDaysFormat": "hver {count} dag",
   "cycleDaysFormat": "{consecutiveDays} dager med medisinering / {restDays} dager uten medisinering",
   "consecutiveDaysFormat": "{count} dager med medisinering",

@@ -76,6 +76,7 @@
   "followupNotificationDescription": "Uma i-Notification yokulandela izothunyelwa uma ungakabhalisi ukuthatha imithi phakathi kuka-30 imizuzu kusukela i-Notification yokuqala.",
   "enableNotificationInSilentMode": "Vula izaziso ngisho uma kusemodeshi yokuthula",
   "silentModeNotificationDescription": "Izaziso ezisemqoka zikhonjiswa esikrinini se-lock nangesikhathi imodi yokugxila ivuliwe noma umshini uvumile.",
+  "alarmKitNotification": "Isici se-alamu",
   "everyXDaysFormat": "{count} ngosuku",
   "cycleDaysFormat": "{consecutiveDays} usuku sebenzisa/{restDays} usuku ukuphumula",
   "consecutiveDaysFormat": "{count} izinsuku zokusebenzisa",

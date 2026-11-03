@@ -76,6 +76,7 @@
   "followupNotificationDescription": "ប្រសិនបើអ្នកមិនបានកត់ត្រាការទទួលធ្មេញក្រោយពេលដែលបានទទួលសំណែងដំបូង ជាង 30 នាទី ការជូនដំណឹងអំបូរ សម្រាប់ការទទួលធ្មេញនឹងត្រូវបានផ្ញើ។",
   "enableNotificationInSilentMode": "ធ្វើឱ្យមានការជូនដំណឹងនៅពេលស្ថានភាពម៉ូដសំឡេង",
   "silentModeNotificationDescription": "ពេលដែលម៉ូដកែប្រែបានបើក ឬ កាន់ទូរស័ព្ទបានដាក់ទាស់ទេគ្របតទៅនេះ ប្រតិកម្មសំខាន់ៗនឹងត្រូវបង្ហាញនៅលើអេក្រង់តាំងពិព័រណ៍ជាមួយអូសវិទ្យាឆ្នាស់។",
+  "alarmKitNotification": "មុខងារម៉ោងរោទ៍",
   "everyXDaysFormat": "{count}ថ្ងៃម្តង",
   "cycleDaysFormat": "{consecutiveDays}ថ្ងៃចូលរបៀប/{restDays}ថ្ងៃសម្រាក",
   "consecutiveDaysFormat": "{count} ថ្ងៃសំរាប់ការប្រើចំរៀង",

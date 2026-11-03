@@ -76,6 +76,7 @@
   "followupNotificationDescription": "Jei per 30 minučių nuo pirmojo pranešimo neužregistruosite vaistų vartojimo, bus išsiųstas sekantis pranešimas.",
   "enableNotificationInSilentMode": "Pranešimus gauti tyliajame režime",
   "silentModeNotificationDescription": "Net jei jūsų prietaisas yra tylos režime arba įjungtas koncentracijos režimas, svarbūs pranešimai bus rodomi užrakto ekrane ir gros garsas.",
+  "alarmKitNotification": "Žadintuvo funkcija",
   "everyXDaysFormat": "{count} dienų intervalais",
   "cycleDaysFormat": "{consecutiveDays} dienų vartojimas/{restDays} dienų gydymo pertrauka",
   "consecutiveDaysFormat": "{count} dienų vartojimas",

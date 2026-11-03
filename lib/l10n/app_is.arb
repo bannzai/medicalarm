@@ -76,6 +76,7 @@
   "followupNotificationDescription": "Efnisráðning verður send ef þú skráir ekki inntöku innan 30 mínútna frá fyrstu tilkynningu.",
   "enableNotificationInSilentMode": "Tilkynna jafnvel í hljóðlágu máli",
   "silentModeNotificationDescription": "Alvar þess að ekki er hægt að hindra mikilvægar tilkynningar á lásaskjánum, jafnvel þegar einbeitingarmóður er virkur eða þegar tækið er hljóðlaust.",
+  "alarmKitNotification": "Vekjaraklukkueiginleiki",
   "everyXDaysFormat": "{count} daga frekvens",
   "cycleDaysFormat": "{consecutiveDays} dagar í notkun/{restDays} daga í hvíld",
   "consecutiveDaysFormat": "{count} dagar tekið",

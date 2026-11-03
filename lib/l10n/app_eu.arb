@@ -76,6 +76,7 @@
   "followupNotificationDescription": "Lehenengo jakinarazpenetik 30 minututan barru, medikazioa erregistratzen ez bada, jarraipen jakinarazpena bidaliko da.",
   "enableNotificationInSilentMode": "Isiltzen ez denean jakinarazteko",
   "silentModeNotificationDescription": "Kontzentrazio modua ON badago edo gailua isilik badago ere, jakinarazpen garrantzitsuak itxita dauden pantailan agertuko dira soinuarekin batera.",
+  "alarmKitNotification": "Alarma-funtzioa",
   "everyXDaysFormat": "{count} egunero",
   "cycleDaysFormat": "{consecutiveDays} egun hartzen/{restDays} egun eten",
   "consecutiveDaysFormat": "{count} egun hartu",

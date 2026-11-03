@@ -76,6 +76,7 @@
   "followupNotificationDescription": "প্রথম নোটিফিকেশন থেকে 30 মিনিটের মধ্যে যদি আপনি ওষুধ গ্রহণের রেকর্ড না করেন, তবে একটি ফলো-আপ নোটিফিকেশন পাঠানো হবে।",
   "enableNotificationInSilentMode": "মনা মোডে আপনাকে জানানো হবে",
   "silentModeNotificationDescription": "একাধিক মোড চালু কিংবা ডিভাইস মিউট থাকলেও, গুরুত্বপূর্ণ বিজ্ঞপ্তি লক স্ক্রীনে প্রদর্শিত হবে এবং শব্দ বাজানো হবে।",
+  "alarmKitNotification": "অ্যালার্ম সুবিধা",
   "everyXDaysFormat": "{count} দিনের মধ্যে",
   "cycleDaysFormat": "{consecutiveDays} দিনের ডোজ/{restDays} দিন বিশ্রাম",
   "consecutiveDaysFormat": "{count} দিনের ঔষধ সেবন",

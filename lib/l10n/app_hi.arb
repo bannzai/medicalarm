@@ -76,6 +76,7 @@
   "followupNotificationDescription": "यदि पहले नोटिफिकेशन के 30 मिनट के भीतर दवा का रिकॉर्ड नहीं किया गया, तो फॉलो-अप नोटिफिकेशन भेजा जाएगा।",
   "enableNotificationInSilentMode": "शांत मोड में भी सूचित करें",
   "silentModeNotificationDescription": "महत्वपूर्ण सूचनाएँ ध्यान मोड चालू होने पर या उपकरण का साउंड बंद होने पर भी लॉक स्क्रीन पर प्रदर्शित होती हैं, और ध्वनि चलती है।",
+  "alarmKitNotification": "अलार्म सुविधा",
   "everyXDaysFormat": "{count} दिन पर",
   "cycleDaysFormat": "{consecutiveDays} दिन सेवन/{restDays} दिन विश्राम",
   "consecutiveDaysFormat": "{count} दिन दवा",

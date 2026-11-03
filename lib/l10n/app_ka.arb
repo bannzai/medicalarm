@@ -76,6 +76,7 @@
   "followupNotificationDescription": "თუ პირველ შეტყობინებამდე 30 წუთი არ გაქვთ წამლის რეგისტრირებული, გაგზავნილ იქნება შემდგომი შეტყობინება.",
   "enableNotificationInSilentMode": "ცSilent რეჟიმშიც შეტყობინება",
   "silentModeNotificationDescription": "კონცენტრაციის რეჟიმი ჩართული ყოფნისას ან მოწყობილობამ ხმამაღლა მიღებას, კრიტიკული შეტყობინებები ლოქ ინტერეფეისზე გამოჩნდება, ხოლო ზარები დაიწერება.",
+  "alarmKitNotification": "მაღვიძარას ფუნქცია",
   "everyXDaysFormat": "{count} დღის საფუძველზე",
   "cycleDaysFormat": "{consecutiveDays} დღის მიღება/{restDays} დღის შესვენება",
   "consecutiveDaysFormat": "{count} დღის აღების",

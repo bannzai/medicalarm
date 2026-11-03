@@ -76,6 +76,7 @@
   "followupNotificationDescription": "Эгер биринчи билдирүүдөн 30 мүнөттүн ичинде дары ичкиликтин жазылышы болмосо, кошумча билдирүү жөнөтүлөт.",
   "enableNotificationInSilentMode": "Тынч режимде да билдирүүлөрдү көрсөтүү",
   "silentModeNotificationDescription": "Кыйналган режимде же коймондо (муздоо) болсо да, маанилүү билдирүүлөр жабык экранда көрсөтүлөт, үн ойнотулат.",
+  "alarmKitNotification": "Ойготкуч функциясы",
   "everyXDaysFormat": "{count} күнү",
   "cycleDaysFormat": "{consecutiveDays} күн кабыл алуу/{restDays} күн эс алуу",
   "consecutiveDaysFormat": "{count} күн иче",

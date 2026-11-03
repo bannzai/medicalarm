@@ -76,6 +76,7 @@
   "followupNotificationDescription": "If you do not record your medication within 30 minutes of the initial notification, a follow-up reminder will be sent.",
   "enableNotificationInSilentMode": "Notify even in silent mode",
   "silentModeNotificationDescription": "Important notifications will be displayed on the lock screen and a sound will be played even when Focus Mode is ON or the device is on silent.",
+  "alarmKitNotification": "Функція будильника",
   "everyXDaysFormat": "every {count} days",
   "cycleDaysFormat": "{consecutiveDays} days taken/{restDays} days off",
   "consecutiveDaysFormat": "{count} days of medication",

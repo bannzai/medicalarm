@@ -76,6 +76,7 @@
   "followupNotificationDescription": "Kui te ei registreeri ravimi võtmist 30 minuti jooksul esimesest teatisest, saadetakse järgnev teade.",
   "enableNotificationInSilentMode": "Teavitab ka häiresüsteemis",
   "silentModeNotificationDescription": "Olukorraga, kui keskendumise režiim on sisse lülitatud või seade on vaigistatud, kuvatakse kriitilised teavitused lukustatud ekraanil ja helisignaal kõlab.",
+  "alarmKitNotification": "Äratuskella funktsioon",
   "everyXDaysFormat": "{count} päeva pärast",
   "cycleDaysFormat": "{consecutiveDays} päev(a) kasutamine/{restDays} päev(a) pausi",
   "consecutiveDaysFormat": "{count} päeva võetud",

@@ -76,6 +76,7 @@
   "followupNotificationDescription": "Om du inte registrerar medicineringen inom 30 minuter efter den första notifikationen, skickas en uppföljningsnotifikation.",
   "enableNotificationInSilentMode": "Notis även i tyst läge",
   "silentModeNotificationDescription": "Viktiga meddelanden visas på låsskärmen och ljud spelas upp även när fokusläget är på eller när enheten är ljudlös.",
+  "alarmKitNotification": "Alarmfunktion",
   "everyXDaysFormat": "{count} dagar",
   "cycleDaysFormat": "{consecutiveDays} dagar med medicin/{restDays} dagar utan medicin",
   "consecutiveDaysFormat": "{count} dagar medicinering",

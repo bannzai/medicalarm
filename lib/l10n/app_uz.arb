@@ -76,6 +76,7 @@
   "followupNotificationDescription": "Birinchi xabardan 30 daqiqa ichida dori qabul qilmasangiz, kuzatuv xabari yuboriladi.",
   "enableNotificationInSilentMode": "Tinch rejimida ham xabarnoma beradi",
   "silentModeNotificationDescription": "Diqqat rejimi yoqilganda yoki qurilma sukutda boʻlsa ham, muhim xabarnomalar qulflangandan so'ng ekranda koʻrsatiladi, ovoz ijro etiladi.",
+  "alarmKitNotification": "Budilnik funksiyasi",
   "everyXDaysFormat": "{count} кунда",
   "cycleDaysFormat": "{consecutiveDays} кун қабул / {restDays} кун дам олиш",
   "consecutiveDaysFormat": "{count}-kun dori",

@@ -76,6 +76,7 @@
   "followupNotificationDescription": "İlk bildirişdən 30 dəqiqə ərzində dərman qəbulunu qeydə almadıqda, izləmə bildirişi göndəriləcək.",
   "enableNotificationInSilentMode": "Sabit rejimdə də bildiriş göndər",
   "silentModeNotificationDescription": "Konsentrasiya rejimi aktiv olduqda və ya cihaz səssiz vəziyyətdə olduqda belə, mühüm bildirişlər kilid ekranında görünəcək və səs ifa olunacaq.",
+  "alarmKitNotification": "Siqnal funksiyası",
   "everyXDaysFormat": "{count} gün",
   "cycleDaysFormat": "{consecutiveDays} gün istifadə/{restDays} gün istirahət",
   "consecutiveDaysFormat": "{count} gün istifadə",

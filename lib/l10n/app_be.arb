@@ -76,6 +76,7 @@
   "followupNotificationDescription": "Калі на працягу 30 хвілін з моманту першай апавяшчэння не будзе запісана прымаанне лекі, будзе адпраўлена дадатковае апавяшчэнне.",
   "enableNotificationInSilentMode": "Апавясціць нават у рэжыме маўчання",
   "silentModeNotificationDescription": "У рэжыме канцэнтрацыі або калі прылада ў беззвучным рэжыме, важныя апавяшчэнні будуць адлюстроўвацца на экране блакавання з прайграваннем гуку.",
+  "alarmKitNotification": "Функцыя будзільніка",
   "everyXDaysFormat": "{count} дзён",
   "cycleDaysFormat": "{consecutiveDays} дзён прыёму/{restDays} дзён перапынку",
   "consecutiveDaysFormat": "{count} дзён ужывання",

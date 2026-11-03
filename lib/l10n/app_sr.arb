@@ -76,6 +76,7 @@
   "followupNotificationDescription": "Ако не запишете узимање лекова у року од 30 минута од првог обавештења, биће вам послато подсећање.",
   "enableNotificationInSilentMode": "Обавештава и у режиму тишине",
   "silentModeNotificationDescription": "Обавештења о важним догађајима ће се приказивати на закључаном екрану и звук ће се пуштати, чак и када је укључен режим концентрације или је уређај на беззвучном режиму.",
+  "alarmKitNotification": "Функција аларма",
   "everyXDaysFormat": "{count} дана",
   "cycleDaysFormat": "{consecutiveDays} дана узимања/{restDays} дана паузе",
   "consecutiveDaysFormat": "{count} дана употребе",

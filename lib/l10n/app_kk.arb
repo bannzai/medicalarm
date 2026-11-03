@@ -76,6 +76,7 @@
   "followupNotificationDescription": "Егер алғашқы хабарламадан кейін 30 минут ішінде дәрі ішу жазбасаңыз, қосымша хабарлама жіберіледі.",
   "enableNotificationInSilentMode": "Дауыссыз режимде ескертулерді көрсетеді",
   "silentModeNotificationDescription": "Ойлану режимі ON немесе құрылғы тыныш режимде болса да, маңызды хабарламалар бағдарламалау экранында көрсетіледі және дыбыс ойналады.",
+  "alarmKitNotification": "Оятқыш функциясы",
   "everyXDaysFormat": "{count} күн сайын",
   "cycleDaysFormat": "{consecutiveDays} күн қабылдау/{restDays} күн демалу",
   "consecutiveDaysFormat": "{count} күн қабылдау",

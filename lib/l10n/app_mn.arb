@@ -76,6 +76,7 @@
   "followupNotificationDescription": "Эхний мэдэгдэлээс 30 минутын дотор эмийн бичилтийг хийдэггүй бол дагаж мөрдөх мэдэгдэл ирнэ.",
   "enableNotificationInSilentMode": "Чимээгүй горимд ч мэдээлэл хүргэнэ",
   "silentModeNotificationDescription": "Анхаарлын горим включэгдсэн эсвэл төхөөрөмж дуу чимээгүй үед ч, чухал мэдэгдлүүд нь дээд талын дэлгэцэнд гарч, дуугаар тоглох болно.",
+  "alarmKitNotification": "Сэрүүлгийн функц",
   "everyXDaysFormat": "{count} өдөр тутам",
   "cycleDaysFormat": "{consecutiveDays} хоног хэрэглэж/{restDays} хоног амар",
   "consecutiveDaysFormat": "{count} хоног",

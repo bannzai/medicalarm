@@ -76,6 +76,7 @@
   "followupNotificationDescription": "Ikiwa haujarekodi matumizi ya dawa katika dakika 30 baada ya notifikesheni ya mwanzo, notifikesheni ya kufuatilia itatumwa.",
   "enableNotificationInSilentMode": "Taarifa hata ukiwa kwenye hali ya kimya",
   "silentModeNotificationDescription": "Ikiwa Msimbo wa Kuzungumza au kifaa kiko kimya, ilani muhimu bado zinaweza kuonyeshwa kwenye skrini ya kufuli na sauti itatungiwa.",
+  "alarmKitNotification": "Kipengele cha kengele",
   "everyXDaysFormat": "kila {count} siku",
   "cycleDaysFormat": "{consecutiveDays} siku za matumizi/{restDays} siku za kupumzika",
   "consecutiveDaysFormat": "{count} siku za kutumia",

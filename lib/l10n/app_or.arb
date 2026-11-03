@@ -76,6 +76,7 @@
   "followupNotificationDescription": "यदि पहले सूचना के 30 मिनट के भीतर कोई दवा दर्ज नहीं की गई है, तो एक फॉलो-अप सूचना भेजी जाएगी।",
   "enableNotificationInSilentMode": "通知 कार्यान्वयन साधारण आहे",
   "silentModeNotificationDescription": "जब संचालित मोड चालू हो या उपकरण मूक हो, तब महत्त्वपूर्ण सूचनाएँ लॉक स्क्रीनमा प्रदर्शित हुनेछन् र ध्वनि बज्नेछ।",
+  "alarmKitNotification": "ଆଲାର୍ମ ସୁବିଧା",
   "everyXDaysFormat": "{count} ଦିନ ପରେ",
   "cycleDaysFormat": "{consecutiveDays} 針日 শুভন্তি / {restDays} 針日 বিশ্রাম",
   "consecutiveDaysFormat": "{count} ଦିନ ଦୌରନ୍ତି",
