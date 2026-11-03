@@ -20,7 +20,11 @@ if [[ "$DRY_RUN" == 0 ]]; then
   set -x
 fi
 
-# アップロードの時点で欠けていると、リリース PR のマージ後に止まるため先に確かめる
+# ビルドやアップロードの時点で欠けていると、リリース PR のマージ後に止まるため先に確かめる
+command -v fvm >/dev/null || {
+  echo "fvm が見つかりません" >&2
+  exit 1
+}
 : "${ASC_API_KEY_ID:?ASC_API_KEY_ID が未設定です}"
 : "${ASC_API_KEY_ISSUER_ID:?ASC_API_KEY_ISSUER_ID が未設定です}"
 # 探す場所は `xcrun altool --help` の --api-key の説明のとおり
@@ -28,7 +32,7 @@ if ! [[ -f ./private_keys/AuthKey_$ASC_API_KEY_ID.p8 ||
   -f ~/private_keys/AuthKey_$ASC_API_KEY_ID.p8 ||
   -f ~/.private_keys/AuthKey_$ASC_API_KEY_ID.p8 ||
   -f ~/.appstoreconnect/private_keys/AuthKey_$ASC_API_KEY_ID.p8 ||
-  -f ${API_PRIVATE_KEYS_DIR:-.}/AuthKey_$ASC_API_KEY_ID.p8 ]]; then
+  -f ${API_PRIVATE_KEYS_DIR:-./private_keys}/AuthKey_$ASC_API_KEY_ID.p8 ]]; then
   echo "AuthKey_$ASC_API_KEY_ID.p8 が見つかりません (~/.appstoreconnect/private_keys に置く)" >&2
   exit 1
 fi

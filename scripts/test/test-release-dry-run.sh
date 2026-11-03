@@ -69,6 +69,15 @@ assert "API key のファイルが無ければ失敗する" [ "$exit_code" -ne 0
 assert "無いファイル名を出す" output_has "AuthKey_NOKEYFILE.p8 が見つかりません"
 assert "API key のファイルが無ければ何も実行しない" calls_are ""
 
+# 本物の fvm を見つけないよう、偽物の fvm を消した PATH (標準のコマンドだけ) で実行する
+fvm_stub="$stub_dir/fvm"
+mv "$fvm_stub" "$fvm_stub.disabled"
+run_release ASC_API_KEY_ID=FAKEKEYID ASC_API_KEY_ISSUER_ID=FAKEISSUER PATH="$stub_dir:/usr/bin:/bin" /bin/zsh -f scripts/release.sh
+mv "$fvm_stub.disabled" "$fvm_stub"
+assert "fvm が無ければ失敗する" [ "$exit_code" -ne 0 ]
+assert "fvm が無いことを出す" output_has "fvm が見つかりません"
+assert "fvm が無ければ何も実行しない" calls_are ""
+
 run_release ASC_API_KEY_ID=FAKEKEYID ASC_API_KEY_ISSUER_ID=FAKEISSUER zsh -f scripts/release.sh --dryrun
 assert "未知の引数は exit 2" [ "$exit_code" -eq 2 ]
 assert "未知の引数では何も実行しない" calls_are ""
