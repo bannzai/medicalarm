@@ -76,7 +76,10 @@ run git fetch origin
 run git switch -d origin/main
 
 # ビルドに使う版 (.fvmrc) をログに残す。PATH の Flutter は版が保証されない
-fvm flutter --version
+run fvm flutter --version
+if [[ "$DRY_RUN" == 1 ]]; then
+  print -r -- "[dry-run] .fvmrc:" $(grep '"flutter"' .fvmrc)
+fi
 run fvm flutter build ipa --release --export-options-plist=$(pwd -P)/ios/Config/ExportOptions.plist
 run xcrun altool --upload-app --type ios -f "./build/ios/ipa/medicalarm.ipa" --api-key "$ASC_API_KEY_ID" --api-issuer "$ASC_API_KEY_ISSUER_ID"
 

@@ -52,7 +52,8 @@ assert "fvm を介さない flutter build を表示しない" output_lacks '^\[d
 assert "アップロードは ASC の API key を使う" output_has "--api-key FAKEKEYID --api-issuer FAKEISSUER"
 assert "Apple ID を使わない" output_lacks "apple-id-value"
 assert "アプリ用パスワードを使わない" output_lacks "app-password-value"
-assert "状態を変えるコマンドは表示だけ (実行は fvm flutter --version のみ)" calls_are "fvm flutter --version"
+assert ".fvmrc の版を表示する" output_has '[dry-run] .fvmrc: "flutter":'
+assert "コマンドは表示だけで何も実行しない" calls_are ""
 assert "pubspec.yaml を書き換えない" [ "$pubspec_before" = "$(cksum pubspec.yaml)" ]
 
 run_release ASC_API_KEY_ISSUER_ID=FAKEISSUER zsh -f scripts/release.sh --dry-run
