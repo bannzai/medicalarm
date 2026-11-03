@@ -311,5 +311,6 @@
   "onboardingPremiumRecommendedBody": "این طرح از سقف ثبت‌نام طرح رایگان فراتر می‌رود\nبا طرح Premium می‌توانید همه‌چیز را ثبت کنید",
   "onboardingPlanStart": "برنامه‌تان را شروع کنید",
   "featureRequestTitle": "درخواست قابلیت",
-  "featureRequestPromptTitle": "می‌خواهید قابلیت جدیدی برای Medicalarm پیشنهاد دهید؟"
+  "featureRequestPromptTitle": "می‌خواهید قابلیت جدیدی برای Medicalarm پیشنهاد دهید؟",
+  "featureRequestPromptMessage": "به ما بگویید چه قابلیت‌هایی دوست دارید اضافه شوند یا چه چیزهایی را می‌توانیم بهتر کنیم. هر زمان خواستید، ایده‌هایتان را از بخش «درخواست قابلیت» در تنظیمات بفرستید."
 }

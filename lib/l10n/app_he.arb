@@ -311,5 +311,6 @@
   "onboardingPremiumRecommendedBody": "תוכנית זו חורגת ממגבלת הרישום של התוכנית החינמית\nבתוכנית Premium אפשר לרשום הכול",
   "onboardingPlanStart": "התחלת התוכנית שלך",
   "featureRequestTitle": "בקשה לתכונה חדשה",
-  "featureRequestPromptTitle": "רוצה להציע תכונה חדשה ל־Medicalarm?"
+  "featureRequestPromptTitle": "רוצה להציע תכונה חדשה ל־Medicalarm?",
+  "featureRequestPromptMessage": "ספרו לנו אילו תכונות הייתם רוצים או מה נוכל לשפר. אפשר לשלוח רעיונות בכל עת דרך ״בקשה לתכונה״ בהגדרות."
 }

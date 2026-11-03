@@ -311,5 +311,6 @@
   "onboardingPremiumRecommendedBody": "Этот план превышает лимит регистрации бесплатного плана\nС планом Premium вы сможете зарегистрировать всё",
   "onboardingPlanStart": "Начать свой план",
   "featureRequestTitle": "Предложить функцию",
-  "featureRequestPromptTitle": "Хотите предложить новую функцию для Medicalarm?"
+  "featureRequestPromptTitle": "Хотите предложить новую функцию для Medicalarm?",
+  "featureRequestPromptMessage": "Расскажите, какие функции вам хотелось бы добавить или что можно улучшить. Вы можете отправить свои идеи в любое время через раздел «Предложить функцию» в настройках."
 }

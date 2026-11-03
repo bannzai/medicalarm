@@ -311,5 +311,6 @@
   "onboardingPremiumRecommendedBody": "Mae’r cynllun hwn yn fwy na therfyn cofrestru’r cynllun rhad ac am ddim\nGyda’r cynllun Premium gallwch gofrestru popeth",
   "onboardingPlanStart": "Dechrau ar eich cynllun",
   "featureRequestTitle": "Cais am nodwedd",
-  "featureRequestPromptTitle": "Hoffech chi awgrymu nodwedd newydd ar gyfer Medicalarm?"
+  "featureRequestPromptTitle": "Hoffech chi awgrymu nodwedd newydd ar gyfer Medicalarm?",
+  "featureRequestPromptMessage": "Dywedwch wrthym pa nodweddion yr hoffech eu gweld neu beth y gallem ei wella. Gallwch anfon eich syniadau unrhyw bryd drwy “Awgrymu nodwedd” yn y Gosodiadau."
 }

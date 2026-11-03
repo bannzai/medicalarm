@@ -311,5 +311,6 @@
   "onboardingPremiumRecommendedBody": "Dit abonnement overschrijdt de registratielimiet van het gratis abonnement\nMet het Premium-abonnement kun je alles registreren",
   "onboardingPlanStart": "Start je plan",
   "featureRequestTitle": "Functieverzoek",
-  "featureRequestPromptTitle": "Wil je een nieuwe functie voor Medicalarm voorstellen?"
+  "featureRequestPromptTitle": "Wil je een nieuwe functie voor Medicalarm voorstellen?",
+  "featureRequestPromptMessage": "Vertel ons welke functies je graag zou zien of wat we kunnen verbeteren. Je kunt je ideeën op elk moment sturen via ‘Functieverzoeken’ in Instellingen."
 }

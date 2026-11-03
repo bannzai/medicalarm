@@ -311,5 +311,6 @@
   "onboardingPremiumRecommendedBody": "Le phulani seqe umkhawulo wokubhalisa wephulani lamahhala\nNgephulani ye-Premium ungabhalisa yonke into",
   "onboardingPlanStart": "Qala uhlelo lwakho",
   "featureRequestTitle": "Isicelo sesici esisha",
-  "featureRequestPromptTitle": "Ungathanda ukuphakamisa isici esisha se-Medicalarm?"
+  "featureRequestPromptTitle": "Ungathanda ukuphakamisa isici esisha se-Medicalarm?",
+  "featureRequestPromptMessage": "Sitshele ukuthi yiziphi izici ongathanda zengezwe noma yini esingayithuthukisa. Ungathumela imibono yakho noma nini ngokusebenzisa “Isicelo sesici” kokuthi Izilungiselelo."
 }

@@ -311,5 +311,6 @@
   "onboardingPremiumRecommendedBody": "Ky plan tejkalon kufirin e regjistrimeve të planit falas\nMe planin Premium mund të regjistroni gjithçka",
   "onboardingPlanStart": "Fillo planin tënd",
   "featureRequestTitle": "Sugjerim për funksion",
-  "featureRequestPromptTitle": "Dëshironi të sugjeroni një funksion të ri për Medicalarm?"
+  "featureRequestPromptTitle": "Dëshironi të sugjeroni një funksion të ri për Medicalarm?",
+  "featureRequestPromptMessage": "Na tregoni cilat veçori do të dëshironit ose çfarë mund të përmirësojmë. Idetë tuaja mund t’i dërgoni në çdo kohë te “Sugjerim veçorie” në Cilësimet."
 }

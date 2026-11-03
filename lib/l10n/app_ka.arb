@@ -311,5 +311,6 @@
   "onboardingPremiumRecommendedBody": "ეს გეგმა აღემატება უფასო გეგმის რეგისტრაციის ლიმიტს\nPremium გეგმით ყველაფრის რეგისტრაცია შეგიძლიათ",
   "onboardingPlanStart": "დაიწყეთ თქვენი გეგმა",
   "featureRequestTitle": "ფუნქციის შეთავაზება",
-  "featureRequestPromptTitle": "გსურთ Medicalarm-ისთვის ახალი ფუნქციის შეთავაზება?"
+  "featureRequestPromptTitle": "გსურთ Medicalarm-ისთვის ახალი ფუნქციის შეთავაზება?",
+  "featureRequestPromptMessage": "გვითხარით, რომელი ფუნქციები გაგიხარდებოდათ ან რისი გაუმჯობესება შეგვიძლია. იდეების გაგზავნა ნებისმიერ დროს შეგიძლიათ პარამეტრების განყოფილებიდან „ფუნქციის შეთავაზება“."
 }

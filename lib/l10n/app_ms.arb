@@ -311,5 +311,6 @@
   "onboardingPremiumRecommendedBody": "Pelan ini melebihi had pendaftaran pelan percuma\nDengan pelan Premium, anda boleh mendaftarkan semuanya",
   "onboardingPlanStart": "Mulakan pelan anda",
   "featureRequestTitle": "Cadangan ciri",
-  "featureRequestPromptTitle": "Ingin mencadangkan ciri baharu untuk Medicalarm?"
+  "featureRequestPromptTitle": "Ingin mencadangkan ciri baharu untuk Medicalarm?",
+  "featureRequestPromptMessage": "Beritahu kami ciri yang anda inginkan atau perkara yang boleh kami tambah baik. Anda boleh menghantar idea pada bila-bila masa melalui “Cadangan ciri” dalam Tetapan."
 }

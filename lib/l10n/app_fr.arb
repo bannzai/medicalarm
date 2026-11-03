@@ -311,5 +311,6 @@
   "onboardingPremiumRecommendedBody": "Ce forfait dépasse la limite d’inscriptions du forfait gratuit\nAvec le forfait Premium, vous pouvez tout enregistrer",
   "onboardingPlanStart": "Commencer votre plan",
   "featureRequestTitle": "Suggestion de fonctionnalité",
-  "featureRequestPromptTitle": "Souhaitez-vous proposer une nouvelle fonctionnalité pour Medicalarm ?"
+  "featureRequestPromptTitle": "Souhaitez-vous proposer une nouvelle fonctionnalité pour Medicalarm ?",
+  "featureRequestPromptMessage": "Dites-nous quelles fonctionnalités vous aimeriez avoir ou ce que nous pourrions améliorer. Vous pouvez envoyer vos idées à tout moment depuis « Suggestions de fonctionnalités » dans les réglages."
 }

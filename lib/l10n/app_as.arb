@@ -311,5 +311,6 @@
   "onboardingPremiumRecommendedBody": "এই পৰিকল্পনাই বিনামূলীয়া পৰিকল্পনাৰ পঞ্জীয়নৰ সীমা অতিক্ৰম কৰে\nPremium পৰিকল্পনাত আপুনি সকলো পঞ্জীয়ন কৰিব পাৰে",
   "onboardingPlanStart": "আপোনাৰ পৰিকল্পনা আৰম্ভ কৰক",
   "featureRequestTitle": "নতুন সুবিধাৰ অনুৰোধ",
-  "featureRequestPromptTitle": "Medicalarmৰ বাবে নতুন সুবিধাৰ পৰামৰ্শ দিব বিচাৰে নেকি?"
+  "featureRequestPromptTitle": "Medicalarmৰ বাবে নতুন সুবিধাৰ পৰামৰ্শ দিব বিচাৰে নেকি?",
+  "featureRequestPromptMessage": "আপুনি বিচৰা সুবিধা বা উন্নতিৰ ধাৰণা আমাক জনাওক। ছেটিংছৰ «সুবিধাৰ অনুৰোধ»ৰ পৰা যিকোনো সময়তে পঠিয়াব পাৰে।"
 }

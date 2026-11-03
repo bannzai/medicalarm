@@ -311,5 +311,6 @@
   "onboardingPremiumRecommendedBody": "Tämä paketti ylittää ilmaispaketin rekisteröintirajan\nPremium-paketilla voit rekisteröidä kaiken",
   "onboardingPlanStart": "Aloita suunnitelmasi",
   "featureRequestTitle": "Ominaisuustoive",
-  "featureRequestPromptTitle": "Haluatko ehdottaa uutta ominaisuutta Medicalarmiin?"
+  "featureRequestPromptTitle": "Haluatko ehdottaa uutta ominaisuutta Medicalarmiin?",
+  "featureRequestPromptMessage": "Kerro, millaisia ominaisuuksia toivoisit tai mitä voisimme parantaa. Voit lähettää ideasi milloin tahansa asetusten kohdasta ”Ominaisuustoiveet”."
 }

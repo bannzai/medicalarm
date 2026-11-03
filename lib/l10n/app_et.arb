@@ -311,5 +311,6 @@
   "onboardingPremiumRecommendedBody": "See plaan ületab tasuta paketi registreerimislimiiti\nPremium-paketiga saate registreerida kõik",
   "onboardingPlanStart": "Alusta oma plaaniga",
   "featureRequestTitle": "Funktsioonisoov",
-  "featureRequestPromptTitle": "Kas soovite Medicalarmile uut funktsiooni soovitada?"
+  "featureRequestPromptTitle": "Kas soovite Medicalarmile uut funktsiooni soovitada?",
+  "featureRequestPromptMessage": "Andke meile teada, milliseid funktsioone sooviksite või mida võiksime parandada. Saate oma ideid igal ajal saata seadete jaotisest „Funktsioonisoovid”."
 }

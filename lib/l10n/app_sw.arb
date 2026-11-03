@@ -311,5 +311,6 @@
   "onboardingPremiumRecommendedBody": "Mpango huu unazidi kikomo cha usajili cha mpango wa bila malipo\nUkiwa na mpango wa Premium, unaweza kusajili kila kitu",
   "onboardingPlanStart": "Anza mpango wako",
   "featureRequestTitle": "Ombi la kipengele kipya",
-  "featureRequestPromptTitle": "Je, ungependa kupendekeza kipengele kipya cha Medicalarm?"
+  "featureRequestPromptTitle": "Je, ungependa kupendekeza kipengele kipya cha Medicalarm?",
+  "featureRequestPromptMessage": "Tuambie vipengele ambavyo ungependa tuongeze au mambo tunayoweza kuboresha. Unaweza kutuma mawazo yako wakati wowote kupitia “Pendekeza kipengele” katika Mipangilio."
 }

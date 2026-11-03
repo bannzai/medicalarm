@@ -311,5 +311,6 @@
   "onboardingPremiumRecommendedBody": "ఈ ప్లాన్ ఉచిత ప్లాన్ నమోదు పరిమితిని మించిపోయింది\nPremium ప్లాన్‌తో మీరు అన్నింటినీ నమోదు చేయవచ్చు",
   "onboardingPlanStart": "మీ ప్లాన్‌ను ప్రారంభించండి",
   "featureRequestTitle": "కొత్త ఫీచర్ కోసం అభ్యర్థన",
-  "featureRequestPromptTitle": "Medicalarm కోసం కొత్త ఫీచర్‌ను సూచించాలనుకుంటున్నారా?"
+  "featureRequestPromptTitle": "Medicalarm కోసం కొత్త ఫీచర్‌ను సూచించాలనుకుంటున్నారా?",
+  "featureRequestPromptMessage": "మీరు కోరుకునే ఫీచర్‌లు లేదా మేము చేయగల మెరుగుదలల గురించి మాకు తెలియజేయండి. సెట్టింగ్‌లలోని “ఫీచర్ అభ్యర్థన” ద్వారా మీ సూచనలను ఎప్పుడైనా పంపవచ్చు."
 }

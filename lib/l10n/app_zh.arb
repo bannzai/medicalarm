@@ -311,5 +311,6 @@
   "onboardingPremiumRecommendedBody": "此方案超出免费方案的注册上限\n使用 Premium 方案即可注册全部内容",
   "onboardingPlanStart": "开始您的计划",
   "featureRequestTitle": "功能建议",
-  "featureRequestPromptTitle": "想为 Medicalarm 提议新功能吗？"
+  "featureRequestPromptTitle": "想为 Medicalarm 提议新功能吗？",
+  "featureRequestPromptMessage": "请告诉我们您希望添加哪些功能，或有哪些改进建议。您随时可以通过设置中的“功能建议”发送想法。"
 }

@@ -311,5 +311,6 @@
   "onboardingPremiumRecommendedBody": "Ez a csomag meghaladja az ingyenes csomag regisztrációs korlátját\nA Premium csomaggal mindent regisztrálhat",
   "onboardingPlanStart": "Kezdje el a tervét",
   "featureRequestTitle": "Funkciójavaslat",
-  "featureRequestPromptTitle": "Szeretne új funkciót javasolni a Medicalarmhoz?"
+  "featureRequestPromptTitle": "Szeretne új funkciót javasolni a Medicalarmhoz?",
+  "featureRequestPromptMessage": "Írja meg, milyen funkcióknak örülne, vagy min javíthatnánk. Ötleteit bármikor elküldheti a Beállítások „Funkciójavaslat” menüpontjából."
 }

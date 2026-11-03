@@ -311,5 +311,6 @@
   "onboardingPremiumRecommendedBody": "Hierdie plan oorskry die registrasielimiet van die gratis plan\nMet die Premium-plan kan jy alles registreer",
   "onboardingPlanStart": "Begin jou plan",
   "featureRequestTitle": "Funksieversoek",
-  "featureRequestPromptTitle": "Wil jy ’n nuwe funksie vir Medicalarm voorstel?"
+  "featureRequestPromptTitle": "Wil jy ’n nuwe funksie vir Medicalarm voorstel?",
+  "featureRequestPromptMessage": "Vertel ons watter funksies of verbeterings jy graag wil sien. Jy kan jou idees enige tyd via “Funksieversoeke” in Instellings stuur."
 }

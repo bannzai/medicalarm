@@ -311,5 +311,6 @@
   "onboardingPremiumRecommendedBody": "ይህ ዕቅድ የነፃ ዕቅዱን የምዝገባ ገደብ ያልፋል\nበPremium ዕቅድ ሁሉንም መመዝገብ ይችላሉ",
   "onboardingPlanStart": "እቅድዎን ይጀምሩ",
   "featureRequestTitle": "የአዲስ ባህሪ ጥያቄ",
-  "featureRequestPromptTitle": "ለMedicalarm አዲስ ባህሪ መጠቆም ይፈልጋሉ?"
+  "featureRequestPromptTitle": "ለMedicalarm አዲስ ባህሪ መጠቆም ይፈልጋሉ?",
+  "featureRequestPromptMessage": "ሊኖሩ የሚፈልጓቸውን ባህሪያት ወይም የማሻሻያ ሀሳቦች ያሳውቁን። በቅንብሮች ውስጥ ካለው «የባህሪ ጥያቄ» በማንኛውም ጊዜ መላክ ይችላሉ።"
 }

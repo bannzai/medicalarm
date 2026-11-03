@@ -311,5 +311,6 @@
   "onboardingPremiumRecommendedBody": "Aquest pla supera el límit de registres del pla gratuït\nAmb el pla Premium, pots registrar-ho tot",
   "onboardingPlanStart": "Comença el teu pla",
   "featureRequestTitle": "Sol·licitud de funció",
-  "featureRequestPromptTitle": "Vols proposar una funció nova per a Medicalarm?"
+  "featureRequestPromptTitle": "Vols proposar una funció nova per a Medicalarm?",
+  "featureRequestPromptMessage": "Explica’ns quines funcions t’agradaria tenir o què podríem millorar. Pots enviar-nos les teves idees en qualsevol moment des de «Sol·licitud de funcions» a la configuració."
 }

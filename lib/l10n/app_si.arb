@@ -311,5 +311,6 @@
   "onboardingPremiumRecommendedBody": "මෙම සැලසුම නොමිලේ සැලසුමේ ලියාපදිංචි සීමාව ඉක්මවයි\nPremium සැලසුම සමඟ සියල්ල ලියාපදිංචි කළ හැකිය",
   "onboardingPlanStart": "ඔබේ සැලසුම ආරම්භ කරන්න",
   "featureRequestTitle": "නව විශේෂාංගයක් ඉල්ලන්න",
-  "featureRequestPromptTitle": "Medicalarm සඳහා නව විශේෂාංගයක් යෝජනා කිරීමට කැමතිද?"
+  "featureRequestPromptTitle": "Medicalarm සඳහා නව විශේෂාංගයක් යෝජනා කිරීමට කැමතිද?",
+  "featureRequestPromptMessage": "ඔබ කැමති විශේෂාංග හෝ අපට වැඩිදියුණු කළ හැකි දේ ගැන අපට කියන්න. සැකසීම් තුළ ඇති “විශේෂාංග ඉල්ලීම” හරහා ඕනෑම වේලාවක ඔබේ අදහස් යැවිය හැකිය."
 }

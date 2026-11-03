@@ -311,5 +311,6 @@
   "onboardingPremiumRecommendedBody": "આ પ્લાન મફત પ્લાનની નોંધણી મર્યાદા કરતાં વધુ છે\nPremium પ્લાન સાથે તમે બધું નોંધણી કરી શકો છો",
   "onboardingPlanStart": "તમારો પ્લાન શરૂ કરો",
   "featureRequestTitle": "નવી સુવિધા માટે વિનંતી",
-  "featureRequestPromptTitle": "Medicalarm માટે નવી સુવિધાનું સૂચન કરવું છે?"
+  "featureRequestPromptTitle": "Medicalarm માટે નવી સુવિધાનું સૂચન કરવું છે?",
+  "featureRequestPromptMessage": "તમને કઈ સુવિધાઓ ગમશે અથવા અમે શું સુધારી શકીએ તે અમને જણાવો. સેટિંગ્સમાં «સુવિધા માટે વિનંતી» દ્વારા તમે ગમે ત્યારે તમારા સૂચનો મોકલી શકો છો."
 }

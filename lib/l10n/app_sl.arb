@@ -311,5 +311,6 @@
   "onboardingPremiumRecommendedBody": "Ta paket presega omejitev registracij brezplačnega paketa\nS paketom Premium lahko registrirate vse",
   "onboardingPlanStart": "Začni svoj načrt",
   "featureRequestTitle": "Predlog funkcije",
-  "featureRequestPromptTitle": "Želite predlagati novo funkcijo za Medicalarm?"
+  "featureRequestPromptTitle": "Želite predlagati novo funkcijo za Medicalarm?",
+  "featureRequestPromptMessage": "Povejte nam, katere funkcije bi si želeli ali kaj bi lahko izboljšali. Svoje zamisli lahko kadar koli pošljete prek možnosti »Predlogi funkcij« v nastavitvah."
 }

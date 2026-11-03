@@ -311,5 +311,6 @@
   "onboardingPremiumRecommendedBody": "Þessi áskrift fer yfir skráningarmörk ókeypis áskriftar\nMeð Premium-áskrift geturðu skráð allt",
   "onboardingPlanStart": "Hefðu áætlunina þína",
   "featureRequestTitle": "Tillaga að eiginleika",
-  "featureRequestPromptTitle": "Viltu stinga upp á nýjum eiginleika fyrir Medicalarm?"
+  "featureRequestPromptTitle": "Viltu stinga upp á nýjum eiginleika fyrir Medicalarm?",
+  "featureRequestPromptMessage": "Segðu okkur hvaða eiginleika þú vilt sjá eða hvað við getum bætt. Þú getur sent hugmyndir þínar hvenær sem er í „Tillögur að eiginleikum“ í stillingum."
 }

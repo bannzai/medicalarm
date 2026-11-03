@@ -311,5 +311,6 @@
   "onboardingPremiumRecommendedBody": "Este plan supera o límite de rexistros do plan gratuíto\nCo plan Premium podes rexistralo todo",
   "onboardingPlanStart": "Comeza o teu plan",
   "featureRequestTitle": "Solicitude dunha función",
-  "featureRequestPromptTitle": "Queres suxerir unha nova función para Medicalarm?"
+  "featureRequestPromptTitle": "Queres suxerir unha nova función para Medicalarm?",
+  "featureRequestPromptMessage": "Cóntanos que funcións che gustaría ter ou que poderiamos mellorar. Podes enviar as túas ideas en calquera momento desde «Suxestións de funcións» nos axustes."
 }

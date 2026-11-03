@@ -311,5 +311,6 @@
   "onboardingPremiumRecommendedBody": "គម្រោងនេះលើសពីដែនកំណត់ការចុះឈ្មោះរបស់គម្រោងឥតគិតថ្លៃ\nជាមួយគម្រោង Premium អ្នកអាចចុះឈ្មោះបានគ្រប់យ៉ាង",
   "onboardingPlanStart": "ចាប់ផ្តើមគម្រោងរបស់អ្នក",
   "featureRequestTitle": "សំណើមុខងារថ្មី",
-  "featureRequestPromptTitle": "តើអ្នកចង់ស្នើមុខងារថ្មីសម្រាប់ Medicalarm ដែរឬទេ?"
+  "featureRequestPromptTitle": "តើអ្នកចង់ស្នើមុខងារថ្មីសម្រាប់ Medicalarm ដែរឬទេ?",
+  "featureRequestPromptMessage": "សូមប្រាប់យើងអំពីមុខងារដែលអ្នកចង់បាន ឬអ្វីដែលយើងអាចកែលម្អ។ អ្នកអាចផ្ញើគំនិតបានគ្រប់ពេលតាម «ស្នើសុំមុខងារ» ក្នុងការកំណត់។"
 }
