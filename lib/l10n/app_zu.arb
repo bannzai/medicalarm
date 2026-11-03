@@ -310,5 +310,6 @@
   "onboardingPremiumRecommendedTitle": "Kunconywa uhlelo lwe-Premium",
   "onboardingPremiumRecommendedBody": "Le phulani seqe umkhawulo wokubhalisa wephulani lamahhala\nNgephulani ye-Premium ungabhalisa yonke into",
   "onboardingPlanStart": "Qala uhlelo lwakho",
-  "featureRequestTitle": "Isicelo sesici esisha"
+  "featureRequestTitle": "Isicelo sesici esisha",
+  "featureRequestPromptTitle": "Ungathanda ukuphakamisa isici esisha se-Medicalarm?"
 }

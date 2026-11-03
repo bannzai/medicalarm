@@ -310,5 +310,6 @@
   "onboardingPremiumRecommendedTitle": "מומלץ לבחור בתוכנית Premium",
   "onboardingPremiumRecommendedBody": "תוכנית זו חורגת ממגבלת הרישום של התוכנית החינמית\nבתוכנית Premium אפשר לרשום הכול",
   "onboardingPlanStart": "התחלת התוכנית שלך",
-  "featureRequestTitle": "בקשה לתכונה חדשה"
+  "featureRequestTitle": "בקשה לתכונה חדשה",
+  "featureRequestPromptTitle": "רוצה להציע תכונה חדשה ל־Medicalarm?"
 }

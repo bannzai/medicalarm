@@ -310,5 +310,6 @@
   "onboardingPremiumRecommendedTitle": "Rekomandohet plani Premium",
   "onboardingPremiumRecommendedBody": "Ky plan tejkalon kufirin e regjistrimeve të planit falas\nMe planin Premium mund të regjistroni gjithçka",
   "onboardingPlanStart": "Fillo planin tënd",
-  "featureRequestTitle": "Sugjerim për funksion"
+  "featureRequestTitle": "Sugjerim për funksion",
+  "featureRequestPromptTitle": "Dëshironi të sugjeroni një funksion të ri për Medicalarm?"
 }

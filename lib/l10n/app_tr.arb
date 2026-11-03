@@ -310,5 +310,6 @@
   "onboardingPremiumRecommendedTitle": "Premium plan önerilir",
   "onboardingPremiumRecommendedBody": "Bu plan, ücretsiz planın kayıt sınırını aşıyor\nPremium plan ile her şeyi kaydedebilirsiniz",
   "onboardingPlanStart": "Planınızı başlatın",
-  "featureRequestTitle": "Özellik önerisi"
+  "featureRequestTitle": "Özellik önerisi",
+  "featureRequestPromptTitle": "Medicalarm için yeni bir özellik önermek ister misiniz?"
 }

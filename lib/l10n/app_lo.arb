@@ -310,5 +310,6 @@
   "onboardingPremiumRecommendedTitle": "ແນະນຳແຜນ Premium",
   "onboardingPremiumRecommendedBody": "ແຜນນີ້ເກີນຈຳກັດການລົງທະບຽນຂອງແຜນຟຣີ\nດ້ວຍແຜນ Premium ທ່ານສາມາດລົງທະບຽນທຸກຢ່າງໄດ້",
   "onboardingPlanStart": "ເລີ່ມແຜນຂອງທ່ານ",
-  "featureRequestTitle": "ຄຳຂໍຟີເຈີໃໝ່"
+  "featureRequestTitle": "ຄຳຂໍຟີເຈີໃໝ່",
+  "featureRequestPromptTitle": "ທ່ານຕ້ອງການສະເໜີຟີເຈີໃໝ່ສຳລັບ Medicalarm ບໍ?"
 }

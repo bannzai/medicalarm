@@ -310,5 +310,6 @@
   "onboardingPremiumRecommendedTitle": "Pelan Premium disyorkan",
   "onboardingPremiumRecommendedBody": "Pelan ini melebihi had pendaftaran pelan percuma\nDengan pelan Premium, anda boleh mendaftarkan semuanya",
   "onboardingPlanStart": "Mulakan pelan anda",
-  "featureRequestTitle": "Cadangan ciri"
+  "featureRequestTitle": "Cadangan ciri",
+  "featureRequestPromptTitle": "Ingin mencadangkan ciri baharu untuk Medicalarm?"
 }

@@ -310,5 +310,6 @@
   "onboardingPremiumRecommendedTitle": "Inirerekomenda ang Premium plan",
   "onboardingPremiumRecommendedBody": "Lumalagpas ang planong ito sa limitasyon ng pagpaparehistro ng libreng plano\nSa Premium plan, maaari mong irehistro ang lahat",
   "onboardingPlanStart": "Simulan ang iyong plano",
-  "featureRequestTitle": "Kahilingan para sa feature"
+  "featureRequestTitle": "Kahilingan para sa feature",
+  "featureRequestPromptTitle": "Gusto mo bang magmungkahi ng bagong feature para sa Medicalarm?"
 }

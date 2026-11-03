@@ -310,5 +310,6 @@
   "onboardingPremiumRecommendedTitle": "Premium-planen anbefales",
   "onboardingPremiumRecommendedBody": "Denne plan overskrider registreringsgrænsen for gratisplanen\nMed Premium-planen kan du registrere alt",
   "onboardingPlanStart": "Start din plan",
-  "featureRequestTitle": "Forslag til funktion"
+  "featureRequestTitle": "Forslag til funktion",
+  "featureRequestPromptTitle": "Vil du foreslå en ny funktion til Medicalarm?"
 }

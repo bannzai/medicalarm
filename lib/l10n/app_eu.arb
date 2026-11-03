@@ -310,5 +310,6 @@
   "onboardingPremiumRecommendedTitle": "Premium plana gomendatzen da",
   "onboardingPremiumRecommendedBody": "Plan honek doako planaren erregistro-muga gainditzen du\nPremium planarekin dena erregistra dezakezu",
   "onboardingPlanStart": "Hasi zure plana",
-  "featureRequestTitle": "Funtzio-eskaera"
+  "featureRequestTitle": "Funtzio-eskaera",
+  "featureRequestPromptTitle": "Medicalarm-erako eginbide berri bat proposatu nahi duzu?"
 }

@@ -310,5 +310,6 @@
   "onboardingPremiumRecommendedTitle": "Premium အစီအစဉ်ကို အကြံပြုထားသည်",
   "onboardingPremiumRecommendedBody": "ဤအစီအစဉ်သည် အခမဲ့အစီအစဉ်၏ မှတ်ပုံတင်နိုင်သည့် ကန့်သတ်ချက်ကို ကျော်လွန်ပါသည်\nPremium အစီအစဉ်ဖြင့် အားလုံးကို မှတ်ပုံတင်နိုင်ပါသည်",
   "onboardingPlanStart": "သင့်အစီအစဉ်ကို စတင်ပါ",
-  "featureRequestTitle": "လုပ်ဆောင်ချက်အသစ် တောင်းဆိုရန်"
+  "featureRequestTitle": "လုပ်ဆောင်ချက်အသစ် တောင်းဆိုရန်",
+  "featureRequestPromptTitle": "Medicalarm အတွက် လုပ်ဆောင်ချက်အသစ်တစ်ခု အကြံပြုလိုပါသလား။"
 }

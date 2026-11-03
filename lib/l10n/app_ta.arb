@@ -310,5 +310,6 @@
   "onboardingPremiumRecommendedTitle": "பிரீமியம் திட்டம் பரிந்துரைக்கப்படுகிறது",
   "onboardingPremiumRecommendedBody": "இந்தத் திட்டம் இலவசத் திட்டத்தின் பதிவு வரம்பை மீறுகிறது\nPremium திட்டத்தில் அனைத்தையும் பதிவு செய்யலாம்",
   "onboardingPlanStart": "உங்கள் திட்டத்தைத் தொடங்குங்கள்",
-  "featureRequestTitle": "புதிய அம்சத்திற்கான கோரிக்கை"
+  "featureRequestTitle": "புதிய அம்சத்திற்கான கோரிக்கை",
+  "featureRequestPromptTitle": "Medicalarm-க்கு ஒரு புதிய அம்சத்தைப் பரிந்துரைக்க விரும்புகிறீர்களா?"
 }

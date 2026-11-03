@@ -310,5 +310,6 @@
   "onboardingPremiumRecommendedTitle": "Soovitame Premium-paketti",
   "onboardingPremiumRecommendedBody": "See plaan ületab tasuta paketi registreerimislimiiti\nPremium-paketiga saate registreerida kõik",
   "onboardingPlanStart": "Alusta oma plaaniga",
-  "featureRequestTitle": "Funktsioonisoov"
+  "featureRequestTitle": "Funktsioonisoov",
+  "featureRequestPromptTitle": "Kas soovite Medicalarmile uut funktsiooni soovitada?"
 }

@@ -310,5 +310,6 @@
   "onboardingPremiumRecommendedTitle": "프리미엄 플랜을 추천합니다",
   "onboardingPremiumRecommendedBody": "이 플랜은 무료 플랜의 등록 한도를 초과합니다\nPremium 플랜에서는 모든 항목을 등록할 수 있습니다",
   "onboardingPlanStart": "플랜 시작하기",
-  "featureRequestTitle": "기능 요청"
+  "featureRequestTitle": "기능 요청",
+  "featureRequestPromptTitle": "Medicalarm에 새로운 기능을 제안하시겠어요?"
 }

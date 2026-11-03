@@ -310,5 +310,6 @@
   "onboardingPremiumRecommendedTitle": "Premium tarif tavsiya etiladi",
   "onboardingPremiumRecommendedBody": "Bu tarif bepul tarifdagi roʻyxatdan oʻtkazish limitidan oshadi\nPremium tarifda hamma narsani roʻyxatdan oʻtkazishingiz mumkin",
   "onboardingPlanStart": "Rejangizni boshlang",
-  "featureRequestTitle": "Yangi funksiya taklifi"
+  "featureRequestTitle": "Yangi funksiya taklifi",
+  "featureRequestPromptTitle": "Medicalarm uchun yangi funksiya taklif qilmoqchimisiz?"
 }

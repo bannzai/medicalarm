@@ -310,5 +310,6 @@
   "onboardingPremiumRecommendedTitle": "Препоръчваме премиум плана",
   "onboardingPremiumRecommendedBody": "Този план надхвърля лимита за регистрации на безплатния план\nС план Premium можете да регистрирате всичко",
   "onboardingPlanStart": "Започнете своя план",
-  "featureRequestTitle": "Предложение за функция"
+  "featureRequestTitle": "Предложение за функция",
+  "featureRequestPromptTitle": "Искате ли да предложите нова функция за Medicalarm?"
 }

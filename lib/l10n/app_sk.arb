@@ -310,5 +310,6 @@
   "onboardingPremiumRecommendedTitle": "Odporúčame prémiový plán",
   "onboardingPremiumRecommendedBody": "Tento plán prekračuje registračný limit bezplatného plánu\nS plánom Premium môžete zaregistrovať všetko",
   "onboardingPlanStart": "Začať svoj plán",
-  "featureRequestTitle": "Návrh funkcie"
+  "featureRequestTitle": "Návrh funkcie",
+  "featureRequestPromptTitle": "Chcete navrhnúť novú funkciu pre Medicalarm?"
 }

@@ -310,5 +310,6 @@
   "onboardingPremiumRecommendedTitle": "Argymhellir y cynllun Premium",
   "onboardingPremiumRecommendedBody": "Mae’r cynllun hwn yn fwy na therfyn cofrestru’r cynllun rhad ac am ddim\nGyda’r cynllun Premium gallwch gofrestru popeth",
   "onboardingPlanStart": "Dechrau ar eich cynllun",
-  "featureRequestTitle": "Cais am nodwedd"
+  "featureRequestTitle": "Cais am nodwedd",
+  "featureRequestPromptTitle": "Hoffech chi awgrymu nodwedd newydd ar gyfer Medicalarm?"
 }

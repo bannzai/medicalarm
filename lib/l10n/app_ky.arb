@@ -310,5 +310,6 @@
   "onboardingPremiumRecommendedTitle": "Premium планы сунушталат",
   "onboardingPremiumRecommendedBody": "Бул план акысыз пландын каттоо чегинен ашат\nPremium планында баарын каттай аласыз",
   "onboardingPlanStart": "Планыңызды баштаңыз",
-  "featureRequestTitle": "Жаңы функция сунушу"
+  "featureRequestTitle": "Жаңы функция сунушу",
+  "featureRequestPromptTitle": "Medicalarm үчүн жаңы функция сунуштагыңыз келеби?"
 }

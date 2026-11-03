@@ -310,5 +310,6 @@
   "onboardingPremiumRecommendedTitle": "Rekomenduojamas Premium planas",
   "onboardingPremiumRecommendedBody": "Šis planas viršija nemokamo plano registracijų limitą\nNaudodami Premium planą galite užregistruoti viską",
   "onboardingPlanStart": "Pradėkite savo planą",
-  "featureRequestTitle": "Funkcijos pasiūlymas"
+  "featureRequestTitle": "Funkcijos pasiūlymas",
+  "featureRequestPromptTitle": "Ar norėtumėte pasiūlyti naują „Medicalarm“ funkciją?"
 }

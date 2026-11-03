@@ -310,5 +310,6 @@
   "onboardingPremiumRecommendedTitle": "Խորհուրդ է տրվում Premium պլանը",
   "onboardingPremiumRecommendedBody": "Այս ծրագիրը գերազանցում է անվճար ծրագրի գրանցման սահմանաչափը\nPremium ծրագրով կարող եք գրանցել ամեն ինչ",
   "onboardingPlanStart": "Սկսեք ձեր ծրագիրը",
-  "featureRequestTitle": "Նոր գործառույթի առաջարկ"
+  "featureRequestTitle": "Նոր գործառույթի առաջարկ",
+  "featureRequestPromptTitle": "Ցանկանո՞ւմ եք նոր գործառույթ առաջարկել Medicalarm-ի համար:"
 }

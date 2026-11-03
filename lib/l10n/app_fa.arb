@@ -310,5 +310,6 @@
   "onboardingPremiumRecommendedTitle": "طرح پریمیوم پیشنهاد می‌شود",
   "onboardingPremiumRecommendedBody": "این طرح از سقف ثبت‌نام طرح رایگان فراتر می‌رود\nبا طرح Premium می‌توانید همه‌چیز را ثبت کنید",
   "onboardingPlanStart": "برنامه‌تان را شروع کنید",
-  "featureRequestTitle": "درخواست قابلیت"
+  "featureRequestTitle": "درخواست قابلیت",
+  "featureRequestPromptTitle": "می‌خواهید قابلیت جدیدی برای Medicalarm پیشنهاد دهید؟"
 }

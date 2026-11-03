@@ -310,5 +310,6 @@
   "onboardingPremiumRecommendedTitle": "የፕሪሚየም ዕቅዱ ይመከራል",
   "onboardingPremiumRecommendedBody": "ይህ ዕቅድ የነፃ ዕቅዱን የምዝገባ ገደብ ያልፋል\nበPremium ዕቅድ ሁሉንም መመዝገብ ይችላሉ",
   "onboardingPlanStart": "እቅድዎን ይጀምሩ",
-  "featureRequestTitle": "የአዲስ ባህሪ ጥያቄ"
+  "featureRequestTitle": "የአዲስ ባህሪ ጥያቄ",
+  "featureRequestPromptTitle": "ለMedicalarm አዲስ ባህሪ መጠቆም ይፈልጋሉ?"
 }

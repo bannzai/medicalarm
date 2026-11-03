@@ -310,5 +310,6 @@
   "onboardingPremiumRecommendedTitle": "Priporočamo paket Premium",
   "onboardingPremiumRecommendedBody": "Ta paket presega omejitev registracij brezplačnega paketa\nS paketom Premium lahko registrirate vse",
   "onboardingPlanStart": "Začni svoj načrt",
-  "featureRequestTitle": "Predlog funkcije"
+  "featureRequestTitle": "Predlog funkcije",
+  "featureRequestPromptTitle": "Želite predlagati novo funkcijo za Medicalarm?"
 }

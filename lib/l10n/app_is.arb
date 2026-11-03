@@ -310,5 +310,6 @@
   "onboardingPremiumRecommendedTitle": "Mælt er með Premium-áskrift",
   "onboardingPremiumRecommendedBody": "Þessi áskrift fer yfir skráningarmörk ókeypis áskriftar\nMeð Premium-áskrift geturðu skráð allt",
   "onboardingPlanStart": "Hefðu áætlunina þína",
-  "featureRequestTitle": "Tillaga að eiginleika"
+  "featureRequestTitle": "Tillaga að eiginleika",
+  "featureRequestPromptTitle": "Viltu stinga upp á nýjum eiginleika fyrir Medicalarm?"
 }

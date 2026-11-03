@@ -310,5 +310,6 @@
   "onboardingPremiumRecommendedTitle": "Planul Premium este recomandat",
   "onboardingPremiumRecommendedBody": "Acest plan depășește limita de înregistrări a planului gratuit\nCu planul Premium, puteți înregistra totul",
   "onboardingPlanStart": "Începeți planul",
-  "featureRequestTitle": "Sugestie de funcționalitate"
+  "featureRequestTitle": "Sugestie de funcționalitate",
+  "featureRequestPromptTitle": "Doriți să sugerați o funcție nouă pentru Medicalarm?"
 }

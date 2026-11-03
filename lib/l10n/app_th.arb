@@ -310,5 +310,6 @@
   "onboardingPremiumRecommendedTitle": "แนะนำแผน Premium",
   "onboardingPremiumRecommendedBody": "แผนนี้เกินขีดจำกัดการลงทะเบียนของแผนฟรี\nใช้แผน Premium เพื่อลงทะเบียนได้ทุกอย่าง",
   "onboardingPlanStart": "เริ่มแผนของคุณ",
-  "featureRequestTitle": "เสนอฟีเจอร์ใหม่"
+  "featureRequestTitle": "เสนอฟีเจอร์ใหม่",
+  "featureRequestPromptTitle": "ต้องการเสนอฟีเจอร์ใหม่สำหรับ Medicalarm ไหม?"
 }

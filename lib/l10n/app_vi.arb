@@ -310,5 +310,6 @@
   "onboardingPremiumRecommendedTitle": "Nên chọn gói Premium",
   "onboardingPremiumRecommendedBody": "Gói này vượt quá giới hạn đăng ký của gói miễn phí\nVới gói Premium, bạn có thể đăng ký mọi thứ",
   "onboardingPlanStart": "Bắt đầu gói của bạn",
-  "featureRequestTitle": "Đề xuất tính năng"
+  "featureRequestTitle": "Đề xuất tính năng",
+  "featureRequestPromptTitle": "Bạn muốn đề xuất tính năng mới cho Medicalarm?"
 }

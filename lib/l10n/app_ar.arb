@@ -310,5 +310,6 @@
   "onboardingPremiumRecommendedTitle": "نوصي بالخطة المميزة",
   "onboardingPremiumRecommendedBody": "تتجاوز هذه الخطة حد التسجيل في الخطة المجانية\nمع الخطة Premium، يمكنك تسجيل كل شيء",
   "onboardingPlanStart": "ابدأ خطتك",
-  "featureRequestTitle": "اقتراح ميزة"
+  "featureRequestTitle": "اقتراح ميزة",
+  "featureRequestPromptTitle": "هل تود اقتراح ميزة جديدة لتطبيق Medicalarm؟"
 }

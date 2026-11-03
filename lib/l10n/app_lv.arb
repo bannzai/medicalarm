@@ -310,5 +310,6 @@
   "onboardingPremiumRecommendedTitle": "Ieteicams Premium plāns",
   "onboardingPremiumRecommendedBody": "Šis plāns pārsniedz bezmaksas plāna reģistrācijas ierobežojumu\nIzmantojot Premium plānu, varat reģistrēt visu",
   "onboardingPlanStart": "Sāciet savu plānu",
-  "featureRequestTitle": "Funkcijas ieteikums"
+  "featureRequestTitle": "Funkcijas ieteikums",
+  "featureRequestPromptTitle": "Vai vēlaties ieteikt jaunu Medicalarm funkciju?"
 }

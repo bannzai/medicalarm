@@ -310,5 +310,6 @@
   "onboardingPremiumRecommendedTitle": "پریمیم پلان تجویز کیا جاتا ہے",
   "onboardingPremiumRecommendedBody": "یہ پلان مفت پلان کی رجسٹریشن کی حد سے تجاوز کرتا ہے\nPremium پلان کے ساتھ آپ ہر چیز رجسٹر کر سکتے ہیں",
   "onboardingPlanStart": "اپنا پلان شروع کریں",
-  "featureRequestTitle": "نئی خصوصیت کی درخواست"
+  "featureRequestTitle": "نئی خصوصیت کی درخواست",
+  "featureRequestPromptTitle": "کیا آپ Medicalarm کے لیے کوئی نئی خصوصیت تجویز کرنا چاہیں گے؟"
 }

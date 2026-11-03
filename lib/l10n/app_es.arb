@@ -310,5 +310,6 @@
   "onboardingPremiumRecommendedTitle": "Se recomienda el plan Premium",
   "onboardingPremiumRecommendedBody": "Este plan supera el límite de registros del plan gratuito\nCon el plan Premium puedes registrarlo todo",
   "onboardingPlanStart": "Empieza tu plan",
-  "featureRequestTitle": "Sugerir una función"
+  "featureRequestTitle": "Sugerir una función",
+  "featureRequestPromptTitle": "¿Quieres sugerir una nueva función para Medicalarm?"
 }

@@ -310,5 +310,6 @@
   "onboardingPremiumRecommendedTitle": "Premium жоспары ұсынылады",
   "onboardingPremiumRecommendedBody": "Бұл жоспар тегін жоспардың тіркеу лимитінен асып кетеді\nPremium жоспарымен бәрін тіркей аласыз",
   "onboardingPlanStart": "Жоспарыңызды бастаңыз",
-  "featureRequestTitle": "Жаңа функция ұсынысы"
+  "featureRequestTitle": "Жаңа функция ұсынысы",
+  "featureRequestPromptTitle": "Medicalarm үшін жаңа функция ұсынғыңыз келе ме?"
 }

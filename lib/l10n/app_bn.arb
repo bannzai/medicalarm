@@ -310,5 +310,6 @@
   "onboardingPremiumRecommendedTitle": "প্রিমিয়াম প্ল্যান প্রস্তাবিত",
   "onboardingPremiumRecommendedBody": "এই প্ল্যানটি ফ্রি প্ল্যানের নিবন্ধনসীমা অতিক্রম করে\nPremium প্ল্যানে আপনি সবকিছু নিবন্ধন করতে পারবেন",
   "onboardingPlanStart": "আপনার প্ল্যান শুরু করুন",
-  "featureRequestTitle": "নতুন ফিচারের অনুরোধ"
+  "featureRequestTitle": "নতুন ফিচারের অনুরোধ",
+  "featureRequestPromptTitle": "Medicalarm-এর জন্য নতুন কোনো ফিচারের প্রস্তাব দিতে চান?"
 }
