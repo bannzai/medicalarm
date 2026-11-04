@@ -8,7 +8,9 @@ part 'app_user.freezed.dart';
 @freezed
 abstract class AppUser with _$AppUser {
   const AppUser._();
-  @JsonSerializable(explicitToJson: true)
+  // includeIfNull: false は、AppUserCreate の merge の書き込みが遅れて届いた時に、createGroup がサーバーで書いた
+  // defaultGroupID を null に戻さないようにするため (#514)。
+  @JsonSerializable(explicitToJson: true, includeIfNull: false)
   const factory AppUser({
     String? id,
     // 起動時に表示・書き込み対象とするグループの ID。アプリ開始時点では未作成のため nullable。
