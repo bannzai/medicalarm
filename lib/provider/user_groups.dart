@@ -28,11 +28,13 @@ class ServerUserGroupsFetch {
 
   /// 自分が所属する全グループを返す。
   Future<List<Group>> call() async {
-    final snapshot = await FirebaseFirestore.instance
-        .collection('/groups')
-        .where('memberUserIDs', arrayContains: database.userID)
-        .get(const GetOptions(source: Source.server));
-    return snapshot.docs.map((doc) => Group.fromJson(doc.data()..['id'] = doc.id)).toList();
+    return (await FirebaseFirestore.instance
+            .collection('/groups')
+            .where('memberUserIDs', arrayContains: database.userID)
+            .get(const GetOptions(source: Source.server)))
+        .docs
+        .map((doc) => Group.fromJson(doc.data()..['id'] = doc.id))
+        .toList();
   }
 }
 

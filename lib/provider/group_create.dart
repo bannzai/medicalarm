@@ -45,6 +45,7 @@ String? oldestOwnedGroupID({required List<Group> groups, required String ownerUs
 ///
 /// createGroup は呼び出しごとに新しいグループを作り、無料プランでは 2 件で上限の例外を返すため、
 /// 自分がオーナーのグループが既にあれば作らず、それを既定にする (#514)。
+/// Firestore の操作は `call` を持つ class を Provider から返す、というこのリポジトリの規約 (CLAUDE.md) に合わせて class にしている。
 class SoloGroupPrepare {
   /// 既定グループを用意するユーザーの uid。
   final String userID;
