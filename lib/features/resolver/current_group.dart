@@ -40,7 +40,7 @@ class CurrentGroupResolver extends HookConsumerWidget {
     final defaultGroupID = appUser?.defaultGroupID;
     final migrated = appUser?.groupMigratedDateTime != null;
     final currentGroupIDNotifier = ref.watch(currentGroupIDProvider.notifier);
-    final createGroup = ref.watch(createGroupProvider);
+    final soloGroupPrepare = ref.watch(soloGroupPrepareProvider);
     final serverAppUserFetch = ref.watch(serverAppUserFetchProvider);
     final isCreatingFallbackGroup = useState(false);
     // 作り直しの失敗を保持し、Retry から再試行できるようにする。null なら失敗していない。
@@ -61,7 +61,7 @@ class CurrentGroupResolver extends HookConsumerWidget {
             // 取得に失敗した時 (オフライン等) は、サーバーの値を確かめられないまま作ると重複し得るため作り直さず、下の catch で再試行の画面を出す
             final serverAppUser = await serverAppUserFetch();
             if (serverAppUser?.groupMigratedDateTime != null && serverAppUser?.defaultGroupID == null) {
-              await createGroup.call(name: null, setAsDefault: true, iconName: 'home');
+              await soloGroupPrepare();
             }
           } catch (e, st) {
             // 依存の値は失敗しても変わらず再実行されないため、Retry から再試行できるよう error を保持する (#470)。
