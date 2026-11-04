@@ -10,6 +10,7 @@ import 'package:medicalarm/features/resolver/current_group.dart';
 import 'package:medicalarm/features/localization/l.dart';
 import 'package:medicalarm/features/resolver/database.dart';
 import 'package:medicalarm/provider/app_user.dart';
+import 'package:medicalarm/provider/default_group_update.dart';
 import 'package:medicalarm/provider/group_create.dart';
 import 'package:medicalarm/provider/user_groups.dart';
 import 'package:medicalarm/utils/analytics/error.dart';
@@ -61,6 +62,30 @@ class _FakeServerAppUserFetch extends ServerAppUserFetch {
   }
 }
 
+/// Firestore を読まずに [groups] をサーバーの所属グループとして返す ServerUserGroupsFetch。
+class _FakeServerUserGroupsFetch extends ServerUserGroupsFetch {
+  /// サーバーにある所属グループとして返す値。
+  final List<Group> groups;
+
+  _FakeServerUserGroupsFetch({required this.groups}) : super(database: UserDatabase(userID: 'test-user'));
+
+  @override
+  Future<List<Group>> call() async => groups;
+}
+
+/// Firestore に書かず、既定にしたグループの ID を記録する DefaultGroupUpdate。
+class _RecordingDefaultGroupUpdate extends DefaultGroupUpdate {
+  /// call に渡されたグループの ID。呼ばれていなければ null。
+  String? updatedGroupID;
+
+  _RecordingDefaultGroupUpdate() : super(userDatabase: UserDatabase(userID: 'test-user'));
+
+  @override
+  Future<void> call({required String groupID}) async {
+    updatedGroupID = groupID;
+  }
+}
+
 /// Crashlytics を呼ばない ErrorLogger。テストでは Firebase を初期化しないため差し替える。
 class _NoopErrorLogger extends ErrorLogger {
   @override
@@ -78,10 +103,15 @@ Future<void> _pumpCurrentGroupResolver(
   required AppUser serverAppUser,
   required CreateGroup createGroup,
   int serverAppUserFetchFailureCount = 0,
+  List<Group> serverUserGroups = const [],
+  _RecordingDefaultGroupUpdate? defaultGroupUpdate,
 }) {
   return tester.pumpWidget(
     ProviderScope(
       overrides: [
+        userDatabaseProvider.overrideWith((ref) => UserDatabase(userID: 'test-user')),
+        serverUserGroupsFetchProvider.overrideWith((ref) => _FakeServerUserGroupsFetch(groups: serverUserGroups)),
+        defaultGroupUpdateProvider.overrideWith((ref) => defaultGroupUpdate ?? _RecordingDefaultGroupUpdate()),
         appUserProvider.overrideWith((ref) => appUserStream),
         serverAppUserFetchProvider.overrideWith(
           (ref) => _FakeServerAppUserFetch(serverAppUser: serverAppUser, remainingFailureCount: serverAppUserFetchFailureCount),
@@ -137,6 +167,31 @@ void main() {
       await tester.pump();
 
       expect(createGroup.callCount, 1);
+    });
+
+    testWidgets('サーバーで defaultGroupID が null でも、自分がオーナーのグループがあれば作らずそれを既定にする', (tester) async {
+      final appUserController = StreamController<AppUser>();
+      addTearDown(appUserController.close);
+      final createGroup = _CountingCreateGroup();
+      final defaultGroupUpdate = _RecordingDefaultGroupUpdate();
+      await _pumpCurrentGroupResolver(
+        tester,
+        appUserStream: appUserController.stream,
+        serverAppUser: _migratedAppUser(defaultGroupID: null),
+        createGroup: createGroup,
+        serverUserGroups: const [
+          Group(id: 'owned', memberUserIDs: ['test-user'], name: null, ownerUserID: 'test-user'),
+        ],
+        defaultGroupUpdate: defaultGroupUpdate,
+      );
+
+      // アカウント削除の後に遅れて届いた AppUserCreate の書き込みが defaultGroupID を null に戻した状態 (#514)
+      appUserController.add(_migratedAppUser(defaultGroupID: null));
+      await tester.pump();
+      await tester.pump();
+
+      expect(createGroup.callCount, 0);
+      expect(defaultGroupUpdate.updatedGroupID, 'owned');
     });
   });
 

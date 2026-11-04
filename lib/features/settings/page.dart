@@ -5,6 +5,7 @@ import 'package:medicalarm/components/button/user_delete.dart';
 import 'package:medicalarm/features/account_link/tiles.dart';
 import 'package:medicalarm/features/feature_request/page.dart';
 import 'package:medicalarm/features/group_list/page.dart';
+import 'package:medicalarm/features/settings/components/debug_default_group_clear_tile.dart';
 import 'package:medicalarm/features/settings/components/local_notifications.dart';
 import 'package:medicalarm/features/settings/components/premium_introduction.dart';
 import 'package:medicalarm/features/settings/components/section.dart';
@@ -154,6 +155,7 @@ class SettingPage extends StatelessWidget {
               ]),
               if (kDebugMode) ...[
                 const DeleteUserButton(),
+                const DebugDefaultGroupClearTile(),
               ],
               const SettingSectionTitle(text: 'DEBUG', children: [
                 LocalNotifications(),
