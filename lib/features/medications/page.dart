@@ -272,7 +272,7 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
     // チェックボックスの操作(チェック・アンチェック)の世代。操作のたびに進める。
     // 待機明けの古い間隔チェック(takeWithIntervalCheck)の継続が最新の操作を追い越して記録しないよう、待機の前に取った世代と照合する (#81)
     final checkboxOperationGeneration = useRef(0);
-    // 最新のビルドの行。取消の書き込み中に記録が行へ反映されてから取消が失敗した時に、取消を始めた時点の古い行ではなく
+    // 最新のビルドの行。take・取消の書き込み中に行が更新されてから書き込みが失敗した時に、操作を始めた時点の古い行ではなく
     // 今の行で表示を実状態へ戻すために、ビルドのたびに更新する (#483)
     final latestScheduleRow = useRef(scheduleRow);
     latestScheduleRow.value = scheduleRow;
@@ -355,7 +355,7 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
           }
           if (context.mounted) {
             if (isLatestTake) {
-              isChecked.value = !hasPendingRevert.value && scheduleRow.medicationHistory != null;
+              isChecked.value = !hasPendingRevert.value && latestScheduleRow.value.medicationHistory != null;
             }
             showErrorAlert(context, e.toString());
           }
