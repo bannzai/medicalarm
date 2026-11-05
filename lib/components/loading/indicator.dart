@@ -88,8 +88,16 @@ class _LaunchStageDebugView extends HookWidget {
                   // 完了していない段階は止まった場所そのものなので、複数あっても読めるよう 3 行まで出す
                   maxLines: 3,
                 ),
-                for (final entry in entries.skip(entries.length > _visibleEntryCount ? entries.length - _visibleEntryCount : 0))
-                  Text(launchStageEntryText(entry: entry)),
+                // 文字の拡大や横向きで画面に収まらない時も、止まった場所に近い最新の記録が下端に見えるよう、
+                // 新しい順に並べた reverse のリストにする (古い記録は上へスクロールして読む)
+                Flexible(
+                  child: ListView(
+                    reverse: true,
+                    shrinkWrap: true,
+                    padding: EdgeInsets.zero,
+                    children: [for (final entry in entries.reversed.take(_visibleEntryCount)) Text(launchStageEntryText(entry: entry))],
+                  ),
+                ),
               ],
             ),
           ),

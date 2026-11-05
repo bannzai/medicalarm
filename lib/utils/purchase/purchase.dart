@@ -6,6 +6,7 @@ import 'package:medicalarm/utils/platform/environment.dart';
 import 'package:medicalarm/secret/secret.dart';
 import 'package:medicalarm/utils/analytics/analytics.dart';
 import 'package:medicalarm/utils/analytics/error.dart';
+import 'package:medicalarm/utils/launch/launch_stage.dart';
 import 'package:medicalarm/utils/purchase/error.dart';
 import 'package:riverpod/riverpod.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
@@ -161,8 +162,12 @@ Package? monthlyPremiumPackage(Ref ref) {
 
 Future<void> initializePurchase(String uid) async {
   await Purchases.setLogLevel(Environment.isDevelopment ? LogLevel.debug : LogLevel.info);
-  Purchases.configure(PurchasesConfiguration(Secret.revenueCatPublicAPIKey)..appUserID = uid);
-  Purchases.logIn(uid);
+  // 起動の時間を変えないよう await しないまま、SDK の呼び出しごとに完了・失敗を起動の段階として記録する (#516)
+  traceLaunchStage(
+    stage: 'Purchases.configure',
+    operation: () => Purchases.configure(PurchasesConfiguration(Secret.revenueCatPublicAPIKey)..appUserID = uid),
+  );
+  traceLaunchStage(stage: 'Purchases.logIn', operation: () => Purchases.logIn(uid));
 }
 
 final purchaseProvider = Provider((ref) => Purchase());

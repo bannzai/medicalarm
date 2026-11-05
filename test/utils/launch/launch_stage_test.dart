@@ -163,6 +163,28 @@ void main() {
       expect(tester.takeException(), isNull);
     });
 
+    testWidgets('文字を拡大した横向きの画面でも overflow せず、最新の記録と pending が見える', (tester) async {
+      tester.view.physicalSize = const Size(667, 375);
+      tester.view.devicePixelRatio = 1;
+      addTearDown(tester.view.reset);
+      for (var i = 0; i < 20; i++) {
+        recordLaunchStage(kind: 'reached', stage: 'stage $i');
+      }
+      recordLaunchStage(kind: 'start', stage: 'latest stage');
+      await tester.pumpWidget(
+        const MaterialApp(
+          home: MediaQuery(
+            data: MediaQueryData(size: Size(667, 375), textScaler: TextScaler.linear(2)),
+            child: IndicatorPage(),
+          ),
+        ),
+      );
+      expect(tester.takeException(), isNull);
+      expect(find.text('pending: latest stage'), findsOneWidget);
+      // reverse のリストの先頭 (下端) が最新の記録で、画面内に描かれている
+      expect(find.textContaining('start latest stage').hitTestable(), findsOneWidget);
+    });
+
     testWidgets('記録が無ければ何も表示しない', (tester) async {
       await tester.pumpWidget(const MaterialApp(home: IndicatorPage()));
       expect(find.textContaining('pending:'), findsNothing);
