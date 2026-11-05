@@ -5,6 +5,7 @@ import 'package:medicalarm/entity/medicine.dart';
 import 'package:medicalarm/features/localization/l.dart';
 import 'package:medicalarm/features/medicine_form/components/additional_info/dose_receiver.dart';
 import 'package:medicalarm/features/medicine_form/components/begin/tile.dart';
+import 'package:medicalarm/features/medicine_form/components/interval/tile.dart';
 import 'package:medicalarm/features/medicine_form/components/schedule/quantity_memo_text_field.dart';
 import 'package:medicalarm/features/medicine_form/components/schedule/section.dart';
 import 'package:medicalarm/l10n/app_localizations.dart';
@@ -171,6 +172,21 @@ void main() {
       expectWrappedAtWordBoundaries(tester, text: L.doseReceiver);
       expect(find.text(L.defaultDoseReceiver), findsOneWidget);
     });
+
+    // https://github.com/bannzai/medicalarm/issues/506
+    testWidgets('服用間隔の説明文は単語の境目で折り返されはみ出さない', (WidgetTester tester) async {
+      await _pump(
+        tester,
+        width: _labelRowSurfaceWidth,
+        textScaleFactor: _largestTextScaleFactor,
+        child: MedicationIntervalTile(minimumDoseIntervalHours: ValueNotifier(8)),
+      );
+
+      expect(tester.takeException(), isNull);
+      expectWrappedAtWordBoundaries(tester, text: L.minimumDoseIntervalDescription);
+      expectWrappedAtWordBoundaries(tester, text: L.minimumDoseInterval);
+      expectWrappedAtWordBoundaries(tester, text: L.minimumDoseIntervalHoursFormat(8));
+    });
   });
 
   group('日本語表示・既定の文字サイズの時', () {
@@ -207,6 +223,22 @@ void main() {
       expect(tester.takeException(), isNull);
       expect(lineTexts(tester, text: L.doseReceiver), [L.doseReceiver]);
       expect(lineTexts(tester, text: L.defaultDoseReceiver), [L.defaultDoseReceiver]);
+    });
+
+    // https://github.com/bannzai/medicalarm/issues/506
+    testWidgets('服用間隔のラベル・説明文・値は 1 行で表示され、値はシェブロンの左に上端を揃えて並ぶ', (WidgetTester tester) async {
+      await _pump(
+        tester,
+        width: _scheduleRowSurfaceWidth,
+        textScaleFactor: 1.0,
+        child: MedicationIntervalTile(minimumDoseIntervalHours: ValueNotifier(8)),
+      );
+
+      expect(tester.takeException(), isNull);
+      expect(lineTexts(tester, text: L.minimumDoseInterval), [L.minimumDoseInterval]);
+      expect(lineTexts(tester, text: L.minimumDoseIntervalDescription), [L.minimumDoseIntervalDescription]);
+      expect(lineTexts(tester, text: L.minimumDoseIntervalHoursFormat(8)), [L.minimumDoseIntervalHoursFormat(8)]);
+      expect(tester.getTopRight(find.text(L.minimumDoseIntervalHoursFormat(8))), tester.getTopLeft(find.byIcon(Icons.chevron_right)));
     });
   });
 }
