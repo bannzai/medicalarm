@@ -20,6 +20,8 @@ launched_at: 2025-03-04   # 公開日 (YYYY-MM-DD)。App Store の初回公開�
 | App Store JP 平均評価 | appstore-research skill: `bash ~/.agents/skills/appstore-research/scripts/fetch-app-metadata.sh 6740401642 --country jp` の `averageUserRating` | >= 4.0 | < 3.5 x2 | 評価は保てているが直近 14 日の新規レビューが 2 回連続 0 件なら、獲得 (ASO・オンボーディング) 側の転換を検討する |
 | 直近14日の★1〜2レビュー数 | appstore-research skill: `bash ~/.agents/skills/appstore-research/scripts/fetch-reviews.sh 6740401642 --country jp --pages 1` の出力で `date` が直近 14 日かつ `rating` が 2 以下の行数 | <= 1 | >= 3 x2 | 低評価の内容が同じ機能 (通知・記録) に集中していたら、その機能の作り直しを改善 issue の最優先にする |
 | 直近14日のFATALクラッシュissue数 | firebase-crashlytics-triage skill: `bash ~/.agents/skills/firebase-crashlytics-triage/scripts/crashlytics.sh top-issues --config ios/Firebase/GoogleService-Info.plist --days 14 --error-types FATAL` の topIssues の行数 | <= 5 | > 30 x2 | 上位 issue のイベント数が 1 件で 100 を超えていたら、機能追加より先にその修正 issue を出す |
+| MRR | product-loop skill: `bash ~/.agents/skills/product-loop/scripts/read-dashboard-metric.sh --repo bannzai/medicalarm --metric mrr --field mrr` の VALUE | >= 5 | < 3 x2 | 新規顧客数が保てているのに MRR が 2 回連続で下がっていたら、プレミアム紹介画面・paywall の訴求を改善 issue の最優先にする |
+| 直近14日の新規顧客数 | product-loop skill: `bash ~/.agents/skills/product-loop/scripts/read-dashboard-metric.sh --repo bannzai/medicalarm --metric new_customers --field new_customers --days 14 --agg sum` の VALUE | >= 30 | < 15 x2 | 新規顧客数が継続のしきい値を 2 回連続で下回ったら、獲得 (ASO・オンボーディング) 側の転換を検討する |
 
 ## 必要な機能
 
@@ -64,6 +66,8 @@ launched_at: 2025-03-04   # 公開日 (YYYY-MM-DD)。App Store の初回公開�
 | 2026-11-04 | 無人ループ | 2026-11-03 の nightly E2E (https://github.com/bannzai/medicalarm/actions/runs/41693915757 ) の失敗は issue にしない。フローを 1 つも実行する前に Maestro が `iOS driver not ready in time, consider increasing timeout by configuring MAESTRO_DRIVER_STARTUP_TIMEOUT env variable` で終了しており、アプリの変更が原因の失敗ではない。Simulator の起動 (`simctl bootstatus`) は 6 分 32 秒で、成功した 2026-11-02 の run の 5 分 22 秒と大きくは違わない。この失敗は 1 回しか観測しておらず、同じ文言の issue も無い。同じ文言でもう一度落ちたら、その run を根拠に `ci-e2e.yml` へ `MAESTRO_DRIVER_STARTUP_TIMEOUT` を足す issue を作る | agent |
 | 2026-11-05 | 無人ループ | 2026-11-02 の行の条件 (同じ `provider_dependencies` の警告で `analyze` がもう一度落ちる) を満たした。PR #512 の CI で同じ警告 (`test/provider/onboarding_medication_plan_test.dart:43:1`) で 2 回落ち、同じ commit の再実行でも落ちた。別のセッションが原因の確定を完了条件にした #513 を起票済みのため新しい issue は作らず、#513 を無人実装に出す。`tmux-issue-setup -a 513` は medicalarm セッションの同時実行数の上限 (agent 4 個、上限 3) で exit 75 になったため、`auto-implement` label を付けて watcher の待ち行列に入れた | agent |
 | 2026-11-05 | 無人ループ | #516 (新品の初回起動でスピナーのまま進まない) は単独で無人実装に出さない。原因の第一候補が open の PR #515 (#514 の修正) が初回起動の経路に足したタイムアウトの無いサーバー読み取り (`lib/provider/app_user.dart`・`lib/provider/user_groups.dart`。#516 の本文とコメントによる。ループでは再現を確かめていない) で、#515 と変更領域が重なり、#515 の作業中の window `issue-514` が起票して追跡しているため。#515 のマージ後も #516 が open のまま残っていたら、その時の実行で起動を判断する | agent |
+| 2026-11-06 | 無人ループ | 週次レポート (https://github.com/bannzai/inbox/issues/84 ) で承認された 2 件の提案 (P-2026-10-28-1・P-2026-10-28-2) に従い、判定基準に「MRR」と「直近14日の新規顧客数」の行を足した。次の判定日 (2026-11-10) から 5 行で判定する | agent |
+| 2026-11-06 | 無人ループ | 2026-11-04 の行の条件 (#495・PR #505・#506 が閉じる) を満たしたが、リリース前の全項目の QA を記録し直す issue は作らない。owner の指示で始まったリリース作業 #527 が QA の関門 (`check_qa_gate.sh`) を前提に含めていて、#527 のコメントによると関門の QA は司令塔が指定した別のセッションが #516 のマージ後に記録するため。#516 は PR #526 (初回起動の各段階を DEBUG ビルドで表示する) で作業中のため、このループからは起動しない | agent |
 
 ## agent に任せること
 
