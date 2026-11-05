@@ -312,7 +312,7 @@
   "onboardingPlanStart": "Započnite svoj plan",
   "featureRequestTitle": "Prijedlog funkcije",
   "featureRequestPromptTitle": "Želite li predložiti novu značajku za Medicalarm?",
-  "featureRequestPromptMessage": "Recite nam koje biste značajke voljeli ili što bismo mogli poboljšati. Svoje ideje možete poslati bilo kada putem opcije „Prijedlog značajke” u postavkama.",
+  "featureRequestPromptMessage": "Recite nam koje biste značajke voljeli ili što bismo mogli poboljšati. Svoje ideje možete poslati bilo kada putem opcije „Prijedlog funkcije” u postavkama.",
   "featureRequestPromptCta": "Pošalji prijedlog",
   "later": "Kasnije",
   "featureRequestContentLabel": "Pojedinosti vašeg prijedloga",

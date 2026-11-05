@@ -56,6 +56,12 @@ void main() {
           .toList();
       expect(violations, isEmpty);
     });
+
+    // 案内文が指す設定画面の項目は L.featureRequestTitle を表示するため、利用者が画面で探せるよう同じ訳文にする
+    test('app_$locale.arb の featureRequestPromptMessage が案内する項目名が featureRequestTitle と一致する', () {
+      final arb = jsonDecode(File('lib/l10n/app_$locale.arb').readAsStringSync()) as Map<String, dynamic>;
+      expect(arb['featureRequestPromptMessage'] as String, contains(arb['featureRequestTitle'] as String));
+    });
   }
 
   test('対象の言語は ja・en を除く 76 言語', () {

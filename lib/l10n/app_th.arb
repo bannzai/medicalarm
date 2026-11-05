@@ -312,7 +312,7 @@
   "onboardingPlanStart": "เริ่มแผนของคุณ",
   "featureRequestTitle": "เสนอฟีเจอร์ใหม่",
   "featureRequestPromptTitle": "ต้องการเสนอฟีเจอร์ใหม่สำหรับ Medicalarm ไหม?",
-  "featureRequestPromptMessage": "บอกเราได้เลยว่าคุณอยากให้มีฟีเจอร์อะไร หรืออยากให้ปรับปรุงตรงไหน คุณส่งไอเดียได้ทุกเมื่อผ่าน “เสนอฟีเจอร์” ในการตั้งค่า",
+  "featureRequestPromptMessage": "บอกเราได้เลยว่าคุณอยากให้มีฟีเจอร์อะไร หรืออยากให้ปรับปรุงตรงไหน คุณส่งไอเดียได้ทุกเมื่อผ่าน “เสนอฟีเจอร์ใหม่” ในการตั้งค่า",
   "featureRequestPromptCta": "ส่งข้อเสนอแนะ",
   "later": "ภายหลัง",
   "featureRequestContentLabel": "รายละเอียดคำขอของคุณ",

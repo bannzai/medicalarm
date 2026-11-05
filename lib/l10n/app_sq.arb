@@ -312,7 +312,7 @@
   "onboardingPlanStart": "Fillo planin tënd",
   "featureRequestTitle": "Sugjerim për funksion",
   "featureRequestPromptTitle": "Dëshironi të sugjeroni një funksion të ri për Medicalarm?",
-  "featureRequestPromptMessage": "Na tregoni cilat veçori do të dëshironit ose çfarë mund të përmirësojmë. Idetë tuaja mund t’i dërgoni në çdo kohë te “Sugjerim veçorie” në Cilësimet.",
+  "featureRequestPromptMessage": "Na tregoni cilat veçori do të dëshironit ose çfarë mund të përmirësojmë. Idetë tuaja mund t’i dërgoni në çdo kohë te “Sugjerim për funksion” në Cilësimet.",
   "featureRequestPromptCta": "Dërgo sugjerim",
   "later": "Më vonë",
   "featureRequestContentLabel": "Detajet e kërkesës suaj",

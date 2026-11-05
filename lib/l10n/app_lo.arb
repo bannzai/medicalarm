@@ -312,7 +312,7 @@
   "onboardingPlanStart": "ເລີ່ມແຜນຂອງທ່ານ",
   "featureRequestTitle": "ຄຳຂໍຟີເຈີໃໝ່",
   "featureRequestPromptTitle": "ທ່ານຕ້ອງການສະເໜີຟີເຈີໃໝ່ສຳລັບ Medicalarm ບໍ?",
-  "featureRequestPromptMessage": "ບອກພວກເຮົາໄດ້ວ່າທ່ານຢາກໃຫ້ມີຟັງຊັນໃດ ຫຼື ຢາກໃຫ້ປັບປຸງຫຍັງ. ທ່ານສາມາດສົ່ງຄຳແນະນຳໄດ້ທຸກເວລາຜ່ານ «ສະເໜີຟັງຊັນ» ໃນການຕັ້ງຄ່າ.",
+  "featureRequestPromptMessage": "ບອກພວກເຮົາໄດ້ວ່າທ່ານຢາກໃຫ້ມີຟັງຊັນໃດ ຫຼື ຢາກໃຫ້ປັບປຸງຫຍັງ. ທ່ານສາມາດສົ່ງຄຳແນະນຳໄດ້ທຸກເວລາຜ່ານ «ຄຳຂໍຟີເຈີໃໝ່» ໃນການຕັ້ງຄ່າ.",
   "featureRequestPromptCta": "ສົ່ງຄຳແນະນຳ",
   "later": "ພາຍຫຼັງ",
   "featureRequestContentLabel": "ລາຍລະອຽດຄຳຂໍຂອງທ່ານ",
