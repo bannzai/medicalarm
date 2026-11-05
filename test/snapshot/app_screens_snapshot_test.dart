@@ -108,9 +108,9 @@ void _snapshotTest({
   required String name,
   required Locale locale,
   required Widget Function() screen,
-  // 1 画面に収まる画面の既定の高さ
+  // 多くの画面はスクロールせずに 1 画面に収まるため、端末の 1 画面ぶんを既定にする
   double height = _screenHeight,
-  // 端末の文字サイズの既定 (等倍)
+  // 利用者の多くは端末の文字サイズを変えていないため、OS の既定の倍率 1.0 を既定にする
   double textScaleFactor = 1.0,
 }) {
   testWidgets(
@@ -167,20 +167,22 @@ void _snapshotTest({
 ThemeData _themeData({required String fontFamily}) {
   final theme = appThemeData();
   const fontFamilyFallback = ['NotoSansJP', 'NotoEmoji'];
-  final elevatedButtonTextStyle = theme.elevatedButtonTheme.style!.textStyle!.resolve({})!;
-  final textButtonTextStyle = theme.textButtonTheme.style!.textStyle!.resolve({})!;
   return theme.copyWith(
     textTheme: theme.textTheme.apply(fontFamily: fontFamily, fontFamilyFallback: fontFamilyFallback),
     primaryTextTheme: theme.primaryTextTheme.apply(fontFamily: fontFamily, fontFamilyFallback: fontFamilyFallback),
     // ボタンのテーマの文字スタイルは継承せず置き換わるため、フォントを個別に指定する
     elevatedButtonTheme: ElevatedButtonThemeData(
       style: theme.elevatedButtonTheme.style!.copyWith(
-        textStyle: WidgetStatePropertyAll(elevatedButtonTextStyle.copyWith(fontFamily: fontFamily, fontFamilyFallback: fontFamilyFallback)),
+        textStyle: WidgetStatePropertyAll(
+          theme.elevatedButtonTheme.style!.textStyle!.resolve({})!.copyWith(fontFamily: fontFamily, fontFamilyFallback: fontFamilyFallback),
+        ),
       ),
     ),
     textButtonTheme: TextButtonThemeData(
       style: theme.textButtonTheme.style!.copyWith(
-        textStyle: WidgetStatePropertyAll(textButtonTextStyle.copyWith(fontFamily: fontFamily, fontFamilyFallback: fontFamilyFallback)),
+        textStyle: WidgetStatePropertyAll(
+          theme.textButtonTheme.style!.textStyle!.resolve({})!.copyWith(fontFamily: fontFamily, fontFamilyFallback: fontFamilyFallback),
+        ),
       ),
     ),
   );
