@@ -272,6 +272,10 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
     // チェックボックスの操作(チェック・アンチェック)の世代。操作のたびに進める。
     // 待機明けの古い間隔チェック(takeWithIntervalCheck)の継続が最新の操作を追い越して記録しないよう、待機の前に取った世代と照合する (#81)
     final checkboxOperationGeneration = useRef(0);
+    // 最新のビルドの行。取消の書き込み中に記録が行へ反映されてから取消が失敗した時に、取消を始めた時点の古い行ではなく
+    // 今の行で表示を実状態へ戻すために、ビルドのたびに更新する (#483)
+    final latestScheduleRow = useRef(scheduleRow);
+    latestScheduleRow.value = scheduleRow;
     final medicationHistoryTake = ref.watch(medicationHistoryTakeProvider);
     final medicationHistoryRevert = ref.watch(medicationHistoryRevertProvider);
     final recentMedicationHistoriesFetch = ref.watch(recentMedicationHistoriesFetchProvider);
@@ -312,7 +316,8 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
     /// 服薬記録(take)を書き込む。
     /// [medicationHistory] が null なら、書き込み先の ID を事前に採番した新しい take を追記し、行に反映されるまで [pendingTake] に登録する。
     /// 非 null なら、その既存記録へ同じ ID で書き直す。
-    /// 書き込みに失敗した時はエラーを表示し、この take が最新の操作なら表示を実状態へ戻す。例外は投げない
+    /// 書き込みに失敗した時はエラーを表示し、この take が最新の操作なら表示を実状態へ戻す。
+    /// 書き込みの前の memberSettings の取得の失敗と、Focus 連携の起動の失敗は呼び出し元へ投げる
     Future<void> take({required MedicationHistory? medicationHistory}) async {
       // 最初の await より前に登録する。memberSettings の取得待ちの間のアンチェックも、この take の結果を取消対象にするため。
       // 既存記録の再書き込みは書き込み先が行に表示中の記録と同じで、アンチェックは行の記録を取り消せばよいため登録しない
@@ -506,7 +511,7 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
           pendingTake.value = revertTargetPendingTake;
         }
         if (context.mounted) {
-          isChecked.value = pendingTake.value != null || scheduleRow.medicationHistory != null;
+          isChecked.value = pendingTake.value != null || latestScheduleRow.value.medicationHistory != null;
           showErrorAlert(context, e.toString());
         }
         return;

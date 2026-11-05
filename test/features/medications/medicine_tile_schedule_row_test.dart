@@ -732,6 +732,46 @@ void main() {
       expect(tester.widget<Checkbox>(find.byType(Checkbox)).value, true);
     });
 
+    // #483: 取消の書き込み中にその take が行に反映された後で取消が失敗したら、取消を始めた時点の古い行ではなく
+    // 今の行 (取り消せなかった take が載っている) で表示を戻す
+    testWidgets('取消の書き込み中に take が行に反映された後で取消が失敗したら、チェック済みの表示へ戻す', (tester) async {
+      when(medicationHistoryTake.call(
+        medicationHistory: anyNamed('medicationHistory'),
+        newMedicationHistoryID: anyNamed('newMedicationHistoryID'),
+        recordedDateTime: anyNamed('recordedDateTime'),
+        scheduledRecordedDate: anyNamed('scheduledRecordedDate'),
+        medicine: anyNamed('medicine'),
+        medicationSchedule: anyNamed('medicationSchedule'),
+        memberSettings: anyNamed('memberSettings'),
+      )).thenAnswer((_) async => buildMedicationHistory().copyWith(id: 'history-2'));
+      when(medicationHistoryTake.newMedicationHistoryID()).thenReturn('history-2');
+      final revertCompleter = Completer<MedicationHistory>();
+      when(medicationHistoryRevert.call(takeMedicationHistory: anyNamed('takeMedicationHistory'))).thenAnswer((_) => revertCompleter.future);
+      final originalErrorLogger = errorLogger;
+      errorLogger = _NoopErrorLogger();
+      addTearDown(() => errorLogger = originalErrorLogger);
+      await pumpScheduleRow(tester, scheduleRow: buildUncheckedScheduleRow());
+
+      // チェック(history-2 は行に未反映) → アンチェック(history-2 の取消は書き込み中)
+      await tester.tap(find.byType(Checkbox));
+      await tester.pumpAndSettle();
+      await tester.tap(find.byType(Checkbox));
+      await tester.pump();
+      // 取消の書き込み中に history-2 が行に届く
+      final checkedScheduleRow = buildCheckedScheduleRow();
+      await pumpScheduleRow(
+        tester,
+        scheduleRow: checkedScheduleRow.copyWith(medicationHistory: checkedScheduleRow.medicationHistory!.copyWith(id: 'history-2')),
+      );
+      await tester.pump();
+      expect(tester.widget<Checkbox>(find.byType(Checkbox)).value, false);
+      // history-2 の取消が失敗する
+      revertCompleter.completeError(Exception('revert failed'));
+      await tester.pumpAndSettle();
+
+      expect(tester.widget<Checkbox>(find.byType(Checkbox)).value, true);
+    });
+
     testWidgets('最新の取消が失敗した時は、チェック済みの表示へ戻す', (tester) async {
       when(medicationHistoryRevert.call(takeMedicationHistory: anyNamed('takeMedicationHistory'))).thenAnswer((_) async {
         throw Exception('revert failed');
