@@ -174,101 +174,106 @@ void main() async {
   });
 }
 
+/// アプリ全体のテーマを返す。snapshot テストがアプリと同じテーマで画面を描くために [App] の外に置く。
+ThemeData appThemeData() {
+  final colorScheme = ColorScheme.fromSeed(
+    seedColor: AppColors.primary,
+    primary: AppColors.primary,
+    // Material 2 (useMaterial3: false) では Switch/Checkbox/Radio のアクティブ色の既定値が
+    // colorScheme.secondary のため、ここに設定するだけで選択系コントロールがアクセントカラーになる
+    secondary: AppColors.secondary,
+  );
+
+  return ThemeData(
+    colorScheme: colorScheme,
+    dividerColor: Colors.black,
+    bottomSheetTheme: const BottomSheetThemeData(
+      backgroundColor: AppColors.formBackground,
+    ),
+    textSelectionTheme: const TextSelectionThemeData(
+      cursorColor: AppColors.primary,
+    ),
+    inputDecorationTheme: InputDecorationTheme(
+      filled: true,
+      fillColor: Colors.white,
+      enabledBorder: OutlineInputBorder(
+        borderSide: const BorderSide(color: AppColors.border),
+        borderRadius: BorderRadius.circular(8),
+      ),
+      focusedBorder: const OutlineInputBorder(
+        borderSide: BorderSide(color: AppColors.primary),
+      ),
+      // 未指定だと validator のエラー表示中だけ Flutter 既定の下線の枠になり、他の入力欄の角丸の枠とそろわない。
+      // 色はエラー文と同じ colorScheme.error にする
+      errorBorder: OutlineInputBorder(
+        borderSide: BorderSide(color: colorScheme.error),
+        borderRadius: BorderRadius.circular(8),
+      ),
+      focusedErrorBorder: OutlineInputBorder(
+        borderSide: BorderSide(color: colorScheme.error),
+        borderRadius: BorderRadius.circular(8),
+      ),
+      contentPadding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 20.0),
+    ),
+    appBarTheme: const AppBarTheme(
+      // 白文字・白アイコンを載せる塗り面のため、primary ではなくコントラスト比を満たす primaryFilled を使う (#287)
+      backgroundColor: AppColors.primaryFilled,
+      // M2 の既定前景は colorScheme.onPrimary で、seed 由来の値が白から外れると 4.5:1 を割り込むため白に固定する
+      foregroundColor: Colors.white,
+      elevation: 1,
+    ),
+    textButtonTheme: TextButtonThemeData(
+      style: TextButton.styleFrom(
+        foregroundColor: colorScheme.primary,
+        textStyle: const TextStyle(fontSize: 16.0, fontWeight: FontWeight.bold),
+      ),
+    ),
+    elevatedButtonTheme: ElevatedButtonThemeData(
+      style: ElevatedButton.styleFrom(
+        // ラベルは白のため、コントラスト比 4.5:1 を満たす primaryFilled を背景にする (#287)
+        backgroundColor: AppColors.primaryFilled,
+        foregroundColor: Colors.white,
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
+        padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 12.0),
+        minimumSize: const Size(double.infinity, 48.0),
+        textStyle: const TextStyle(fontSize: 16.0, fontWeight: FontWeight.bold),
+        disabledBackgroundColor: AppColors.disabled,
+      ),
+    ),
+    floatingActionButtonTheme: const FloatingActionButtonThemeData(
+      // M2 の FAB 既定背景は colorScheme.secondary にフォールバックするため、
+      // 作成系の主要アクション(グループ作成 FAB 等)がアクセントカラーにならないようブランド色に固定する。
+      // アイコン・ラベルは白のため、コントラスト比 4.5:1 を満たす primaryFilled を使う (#287)
+      backgroundColor: AppColors.primaryFilled,
+      foregroundColor: Colors.white,
+      extendedTextStyle: TextStyle(fontSize: 16.0, fontWeight: FontWeight.bold),
+    ),
+    outlinedButtonTheme: OutlinedButtonThemeData(
+      style: OutlinedButton.styleFrom(
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(10),
+        ),
+        side: const BorderSide(),
+      ),
+    ),
+    sliderTheme: const SliderThemeData(
+      thumbColor: AppColors.primary,
+      overlayColor: AppColors.primary,
+      thumbShape: RoundSliderThumbShape(enabledThumbRadius: 10),
+    ),
+    useMaterial3: false,
+  );
+}
+
 class App extends StatelessWidget {
   const App({super.key});
 
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    final colorScheme = ColorScheme.fromSeed(
-      seedColor: AppColors.primary,
-      primary: AppColors.primary,
-      // Material 2 (useMaterial3: false) では Switch/Checkbox/Radio のアクティブ色の既定値が
-      // colorScheme.secondary のため、ここに設定するだけで選択系コントロールがアクセントカラーになる
-      secondary: AppColors.secondary,
-    );
-
     return MaterialApp(
       scaffoldMessengerKey: scaffoldMessengerKey,
-      theme: ThemeData(
-        colorScheme: colorScheme,
-        dividerColor: Colors.black,
-        bottomSheetTheme: const BottomSheetThemeData(
-          backgroundColor: AppColors.formBackground,
-        ),
-        textSelectionTheme: const TextSelectionThemeData(
-          cursorColor: AppColors.primary,
-        ),
-        inputDecorationTheme: InputDecorationTheme(
-          filled: true,
-          fillColor: Colors.white,
-          enabledBorder: OutlineInputBorder(
-            borderSide: const BorderSide(color: AppColors.border),
-            borderRadius: BorderRadius.circular(8),
-          ),
-          focusedBorder: const OutlineInputBorder(
-            borderSide: BorderSide(color: AppColors.primary),
-          ),
-          // 未指定だと validator のエラー表示中だけ Flutter 既定の下線の枠になり、他の入力欄の角丸の枠とそろわない。
-          // 色はエラー文と同じ colorScheme.error にする
-          errorBorder: OutlineInputBorder(
-            borderSide: BorderSide(color: colorScheme.error),
-            borderRadius: BorderRadius.circular(8),
-          ),
-          focusedErrorBorder: OutlineInputBorder(
-            borderSide: BorderSide(color: colorScheme.error),
-            borderRadius: BorderRadius.circular(8),
-          ),
-          contentPadding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 20.0),
-        ),
-        appBarTheme: const AppBarTheme(
-          // 白文字・白アイコンを載せる塗り面のため、primary ではなくコントラスト比を満たす primaryFilled を使う (#287)
-          backgroundColor: AppColors.primaryFilled,
-          // M2 の既定前景は colorScheme.onPrimary で、seed 由来の値が白から外れると 4.5:1 を割り込むため白に固定する
-          foregroundColor: Colors.white,
-          elevation: 1,
-        ),
-        textButtonTheme: TextButtonThemeData(
-          style: TextButton.styleFrom(
-            foregroundColor: colorScheme.primary,
-            textStyle: const TextStyle(fontSize: 16.0, fontWeight: FontWeight.bold),
-          ),
-        ),
-        elevatedButtonTheme: ElevatedButtonThemeData(
-          style: ElevatedButton.styleFrom(
-            // ラベルは白のため、コントラスト比 4.5:1 を満たす primaryFilled を背景にする (#287)
-            backgroundColor: AppColors.primaryFilled,
-            foregroundColor: Colors.white,
-            shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
-            padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 12.0),
-            minimumSize: const Size(double.infinity, 48.0),
-            textStyle: const TextStyle(fontSize: 16.0, fontWeight: FontWeight.bold),
-            disabledBackgroundColor: AppColors.disabled,
-          ),
-        ),
-        floatingActionButtonTheme: const FloatingActionButtonThemeData(
-          // M2 の FAB 既定背景は colorScheme.secondary にフォールバックするため、
-          // 作成系の主要アクション(グループ作成 FAB 等)がアクセントカラーにならないようブランド色に固定する。
-          // アイコン・ラベルは白のため、コントラスト比 4.5:1 を満たす primaryFilled を使う (#287)
-          backgroundColor: AppColors.primaryFilled,
-          foregroundColor: Colors.white,
-          extendedTextStyle: TextStyle(fontSize: 16.0, fontWeight: FontWeight.bold),
-        ),
-        outlinedButtonTheme: OutlinedButtonThemeData(
-          style: OutlinedButton.styleFrom(
-            shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(10),
-            ),
-            side: const BorderSide(),
-          ),
-        ),
-        sliderTheme: const SliderThemeData(
-          thumbColor: AppColors.primary,
-          overlayColor: AppColors.primary,
-          thumbShape: RoundSliderThumbShape(enabledThumbRadius: 10),
-        ),
-        useMaterial3: false,
-      ),
+      theme: appThemeData(),
       home: const RootPage(),
       localizationsDelegates: AppLocalizations.localizationsDelegates,
       supportedLocales: AppLocalizations.supportedLocales,

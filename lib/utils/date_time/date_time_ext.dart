@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart';
 import 'package:medicalarm/utils/date_time/weekday.dart';
 import 'package:timezone/timezone.dart';
 
@@ -58,12 +59,17 @@ extension DateTimeMonth on DateTime {
   }
 }
 
+/// [today] と [now] が返す現在時刻を固定する値。null の時は端末の現在時刻を返す。
+/// snapshot テストの基準画像が実行日で変わらないように差し替える。
+@visibleForTesting
+DateTime? fixedNowForTesting;
+
 DateTime today() {
-  return DateTime.now().date();
+  return now().date();
 }
 
 DateTime now() {
-  return DateTime.now();
+  return fixedNowForTesting ?? DateTime.now();
 }
 
 // Reference: https://stackoverflow.com/questions/52713115/flutter-find-the-number-of-days-between-two-dates/67679455#67679455

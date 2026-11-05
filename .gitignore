@@ -51,3 +51,6 @@ artifacts
 # 開発中のスクリーンショット・一時検証ファイル
 /var/
 /tmp/
+# snapshot testing (setup-snapshot-testing skill)
+test/snapshot/fonts/
+test/snapshot/failures/
