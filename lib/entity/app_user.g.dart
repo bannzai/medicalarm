@@ -23,15 +23,15 @@ _AppUser _$AppUserFromJson(Map<String, dynamic> json) => _AppUser(
 );
 
 Map<String, dynamic> _$AppUserToJson(_AppUser instance) => <String, dynamic>{
-  'id': instance.id,
-  'defaultGroupID': instance.defaultGroupID,
-  'groupMigratedDateTime': const NullableTimestampConverter().toJson(instance.groupMigratedDateTime),
+  'id': ?instance.id,
+  'defaultGroupID': ?instance.defaultGroupID,
+  'groupMigratedDateTime': ?const NullableTimestampConverter().toJson(instance.groupMigratedDateTime),
   'analyticsDebugIsEnabled': instance.analyticsDebugIsEnabled,
-  'maybeTrialDeadlineDate': const NullableTimestampConverter().toJson(instance.maybeTrialDeadlineDate),
-  'promotionStartPageCancelButtonTappedDateTime': const NullableTimestampConverter().toJson(instance.promotionStartPageCancelButtonTappedDateTime),
-  'onboardingCompletedDateTime': const NullableTimestampConverter().toJson(instance.onboardingCompletedDateTime),
-  'createdDateTime': const ClientCreatedTimestamp().toJson(instance.createdDateTime),
-  'updatedDateTime': const ClientUpdatedTimestamp().toJson(instance.updatedDateTime),
-  'serverCreatedDateTime': const ServerCreatedTimestamp().toJson(instance.serverCreatedDateTime),
-  'serverUpdatedDateTime': const ServerUpdatedTimestamp().toJson(instance.serverUpdatedDateTime),
+  'maybeTrialDeadlineDate': ?const NullableTimestampConverter().toJson(instance.maybeTrialDeadlineDate),
+  'promotionStartPageCancelButtonTappedDateTime': ?const NullableTimestampConverter().toJson(instance.promotionStartPageCancelButtonTappedDateTime),
+  'onboardingCompletedDateTime': ?const NullableTimestampConverter().toJson(instance.onboardingCompletedDateTime),
+  'createdDateTime': ?const ClientCreatedTimestamp().toJson(instance.createdDateTime),
+  'updatedDateTime': ?const ClientUpdatedTimestamp().toJson(instance.updatedDateTime),
+  'serverCreatedDateTime': ?const ServerCreatedTimestamp().toJson(instance.serverCreatedDateTime),
+  'serverUpdatedDateTime': ?const ServerUpdatedTimestamp().toJson(instance.serverUpdatedDateTime),
 };
