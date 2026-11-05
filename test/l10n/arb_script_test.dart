@@ -10,7 +10,8 @@ void main() {
   final template = jsonDecode(File('lib/l10n/app_ja.arb').readAsStringSync()) as Map<String, dynamic>;
 
   // 訳さずに英字のまま表示する語。ブランド名・OS の機能名・単位で、どの言語の arb でも英字で書いている
-  const allowedLatinWords = {'Alert', 'App', 'Apple', 'Critical', 'FAQ', 'Google', 'Medicalarm', 'OSS', 'Pilll', 'Premium', 'Store', 'mg'};
+  // Focus は連携アプリの名前で、app_ja.arb の description が訳さないと指示している (#495)
+  const allowedLatinWords = {'Alert', 'App', 'Apple', 'Critical', 'FAQ', 'Focus', 'Google', 'Medicalarm', 'OSS', 'Pilll', 'Premium', 'Store', 'mg'};
 
   for (final (locale, scriptStart, scriptEnd) in [('kn', 0x0C80, 0x0CFF), ('gu', 0x0A80, 0x0AFF)]) {
     group('app_$locale.arb', () {
