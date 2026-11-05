@@ -9,6 +9,7 @@ import 'package:medicalarm/provider/current_group_id.dart';
 import 'package:medicalarm/provider/group_create.dart';
 import 'package:medicalarm/provider/user_groups.dart';
 import 'package:medicalarm/utils/analytics/error.dart';
+import 'package:medicalarm/utils/launch/launch_stage.dart';
 
 /// currentGroupID が所属グループ [groups] から消えた際の付け替え先グループ ID を返す純粋関数。
 ///
@@ -59,9 +60,9 @@ class CurrentGroupResolver extends HookConsumerWidget {
             // 初回起動の移行では、リスナーが groupMigratedDateTime の書き込みの確定を、createGroup がサーバーで書いた
             // defaultGroupID の受信より前に流すことがある。その値で作り直すと 2 つ目のソログループができるため、サーバーの値で判定し直す (#465)。
             // 取得に失敗した時 (オフライン等) は、サーバーの値を確かめられないまま作ると重複し得るため作り直さず、下の catch で再試行の画面を出す
-            final serverAppUser = await serverAppUserFetch();
+            final serverAppUser = await traceLaunchStage(stage: 'CurrentGroup serverAppUserFetch', operation: serverAppUserFetch.call);
             if (serverAppUser?.groupMigratedDateTime != null && serverAppUser?.defaultGroupID == null) {
-              await soloGroupPrepare();
+              await traceLaunchStage(stage: 'CurrentGroup soloGroupPrepare', operation: soloGroupPrepare.call);
             }
           } catch (e, st) {
             // 依存の値は失敗しても変わらず再実行されないため、Retry から再試行できるよう error を保持する (#470)。

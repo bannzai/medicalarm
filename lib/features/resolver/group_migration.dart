@@ -8,6 +8,7 @@ import 'package:medicalarm/features/resolver/database.dart';
 import 'package:medicalarm/provider/app_user.dart';
 import 'package:medicalarm/provider/group_create.dart';
 import 'package:medicalarm/utils/analytics/error.dart';
+import 'package:medicalarm/utils/launch/launch_stage.dart';
 
 /// Firestore WriteBatch 1 回で実行できる書き込み操作の上限。
 /// Firestore の仕様上、1 バッチあたり最大 500 オペレーションのため。
@@ -101,15 +102,23 @@ class GroupMigrationResolver extends HookConsumerWidget {
           //    既に defaultGroupID がある(前回の途中失敗)なら手順 1 をスキップして 2 から再開される。
           //    アカウント削除の後は完了ダイアログの裏で新しいユーザーの移行が走り、終了の前に作ったグループをリスナーの
           //    最初の値が持たないことがあるため、サーバーの値で判定し直す (#514)。
-          final groupID = appUser.defaultGroupID ?? (await serverAppUserFetch())?.defaultGroupID ?? await soloGroupPrepare();
+          final groupID = appUser.defaultGroupID ??
+              (await traceLaunchStage(stage: 'GroupMigration serverAppUserFetch', operation: serverAppUserFetch.call))?.defaultGroupID ??
+              await traceLaunchStage<String>(stage: 'GroupMigration soloGroupPrepare', operation: soloGroupPrepare.call);
           // 2. 旧データをグループ配下へコピーする。
-          await GroupMigration(
-            source: userDatabase,
-            destination: GroupDatabase(groupID: groupID),
-            userID: userDatabase.userID,
-          ).migrate();
+          await traceLaunchStage(
+            stage: 'GroupMigration migrate',
+            operation: GroupMigration(
+              source: userDatabase,
+              destination: GroupDatabase(groupID: groupID),
+              userID: userDatabase.userID,
+            ).migrate,
+          );
           // 3. 完了マーカーを最後に書く。ここまで到達して初めて移行済みとみなす。
-          await userDatabase.userReference().update({'groupMigratedDateTime': FieldValue.serverTimestamp()});
+          await traceLaunchStage(
+            stage: 'GroupMigration groupMigratedDateTime update',
+            operation: () => userDatabase.userReference().update({'groupMigratedDateTime': FieldValue.serverTimestamp()}),
+          );
         } catch (e, st) {
           // 失敗しても例外を投げず記録し、Retry から再試行できるよう error を保持する（defaultGroupID 済みなら手順 2 から再開）。
           errorLogger.recordError(e, st);

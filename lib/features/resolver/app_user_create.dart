@@ -8,6 +8,7 @@ import 'package:medicalarm/components/retry/page.dart';
 import 'package:medicalarm/entity/app_user.dart';
 import 'package:medicalarm/features/resolver/database.dart';
 import 'package:medicalarm/provider/app_user.dart';
+import 'package:medicalarm/utils/launch/launch_stage.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 
 part 'app_user_create.g.dart';
@@ -50,7 +51,7 @@ class AppUserCreateResolver extends HookConsumerWidget {
     final appUserCreate = ref.watch(appUserCreateProvider);
 
     useEffect(() {
-      appUserCreate(firebaseUserID: firebaseUserID);
+      traceLaunchStage(stage: 'AppUserCreate', operation: () => appUserCreate(firebaseUserID: firebaseUserID));
       return null;
     }, []);
 

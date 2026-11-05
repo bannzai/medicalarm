@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:medicalarm/components/loading/indicator.dart';
+import 'package:medicalarm/utils/launch/launch_stage.dart';
 import 'package:medicalarm/utils/purchase/purchase.dart';
 
 class PurchaseSetupResolver extends HookConsumerWidget {
@@ -19,7 +20,7 @@ class PurchaseSetupResolver extends HookConsumerWidget {
     final isDone = useState(false);
     useEffect(() {
       void f() async {
-        await initializePurchase(userID);
+        await traceLaunchStage(stage: 'initializePurchase', operation: () => initializePurchase(userID));
         isDone.value = true;
       }
 
