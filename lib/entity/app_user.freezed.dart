@@ -223,7 +223,7 @@ return $default(_that.id,_that.defaultGroupID,_that.groupMigratedDateTime,_that.
 
 /// @nodoc
 
-@JsonSerializable(explicitToJson: true)
+@JsonSerializable(explicitToJson: true, includeIfNull: false)
 class _AppUser extends AppUser {
   const _AppUser({this.id, this.defaultGroupID, @NullableTimestampConverter() this.groupMigratedDateTime, this.analyticsDebugIsEnabled = false, @NullableTimestampConverter() this.maybeTrialDeadlineDate, @NullableTimestampConverter() this.promotionStartPageCancelButtonTappedDateTime, @NullableTimestampConverter() this.onboardingCompletedDateTime, @ClientCreatedTimestamp() this.createdDateTime, @ClientUpdatedTimestamp() this.updatedDateTime, @ServerCreatedTimestamp() this.serverCreatedDateTime, @ServerUpdatedTimestamp() this.serverUpdatedDateTime}): super._();
   factory _AppUser.fromJson(Map<String, dynamic> json) => _$AppUserFromJson(json);

@@ -81,7 +81,8 @@ class GroupMigrationResolver extends HookConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final appUser = ref.watch(appUserProvider).value;
     final userDatabase = ref.watch(userDatabaseProvider);
-    final createGroup = ref.watch(createGroupProvider);
+    final serverAppUserFetch = ref.watch(serverAppUserFetchProvider);
+    final soloGroupPrepare = ref.watch(soloGroupPrepareProvider);
     final isMigrating = useState(false);
     // 移行失敗を保持し、同一セッション内で Retry から再試行できるようにする。null なら失敗していない。
     final migrationError = useState<Object?>(null);
@@ -96,9 +97,11 @@ class GroupMigrationResolver extends HookConsumerWidget {
         isMigrating.value = true;
         migrationError.value = null;
         try {
-          // 1. defaultGroupID があればそれを使い、無ければソログループを作成する。
+          // 1. defaultGroupID があればそれを使い、無ければ既存のグループかソログループを既定にする。
           //    既に defaultGroupID がある(前回の途中失敗)なら手順 1 をスキップして 2 から再開される。
-          final groupID = appUser.defaultGroupID ?? await createGroup.call(name: null, setAsDefault: true, iconName: 'home');
+          //    アカウント削除の後は完了ダイアログの裏で新しいユーザーの移行が走り、終了の前に作ったグループをリスナーの
+          //    最初の値が持たないことがあるため、サーバーの値で判定し直す (#514)。
+          final groupID = appUser.defaultGroupID ?? (await serverAppUserFetch())?.defaultGroupID ?? await soloGroupPrepare();
           // 2. 旧データをグループ配下へコピーする。
           await GroupMigration(
             source: userDatabase,
