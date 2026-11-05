@@ -498,13 +498,11 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
         // 取り消せなかった take は有効な記録として残るので、後から別の取消を始めていても実状態はチェック済み。
         // 古い取消の失敗で戻さないと、行の記録が入れ替わるまで未チェック表示が残り、次のチェックで有効な take が重複する (#479)
         errorLogger.recordError(e, st);
-        // 取り消せなかった take は有効な記録として残るため、取消待ちから外す。残すと行に届いた時に未チェックと表示される (#483)。
-        // remove が true = まだ行に反映されていない (反映されると useEffect が外す)
-        final isRevertTargetUnreflected = revertTargetPendingTake != null && revertingTakes.value.remove(revertTargetPendingTake);
         hasPendingRevert.value = false;
-        // 行に反映されていない take は、反映されるまでチェック済みとして表示し、次のアンチェックの取消対象にする。
-        // 後から始めたチェックの take が行に未反映なら、そちらを取消対象に残す
-        if (isRevertTargetUnreflected && pendingTake.value == null) {
+        // 取り消せなかった take は有効な記録として残るため、取消待ちから外す。残すと行に届いた時に未チェックと表示される (#483)。
+        // remove が true = まだ行に反映されていない (反映されると useEffect が外す)。その take は反映されるまでチェック済みとして表示し、
+        // 次のアンチェックの取消対象にする。後から始めたチェックの take が行に未反映なら、そちらを取消対象に残す
+        if (revertTargetPendingTake != null && revertingTakes.value.remove(revertTargetPendingTake) && pendingTake.value == null) {
           pendingTake.value = revertTargetPendingTake;
         }
         if (context.mounted) {
