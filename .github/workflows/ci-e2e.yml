@@ -62,6 +62,10 @@ jobs:
       # ローカル Mac で E2E を再現しない運用 (#373) のため、失敗したフローのスクリーンショット・コマンドログを
       # artifact に残し、GitHub Actions の結果だけで原因を特定できるようにする
       - name: E2E フローを実行する
+        env:
+          # 既定の 2 分ではドライバの起動が間に合わず、フロー実行前に終了する回があった (#519)。成功した回の起動は約 35 秒。
+          # 60 分の job の timeout に収まる長さにする。Maestro は数値に変換できない値を無視して既定に戻すため、ミリ秒の整数で書く
+          MAESTRO_DRIVER_STARTUP_TIMEOUT: "300000"
         run: maestro test --test-output-dir "$RUNNER_TEMP/maestro-output" "maestro/flows"
       - name: Maestro の出力を artifact に残す
         if: always()
