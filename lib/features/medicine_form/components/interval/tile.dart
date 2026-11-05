@@ -10,7 +10,7 @@ class MedicationIntervalTile extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final value = Text(switch (minimumDoseIntervalHours.value) {
+    final minimumDoseIntervalHoursText = Text(switch (minimumDoseIntervalHours.value) {
       final int hours => L.minimumDoseIntervalHoursFormat(hours),
       null => L.minimumDoseIntervalNone,
     });
@@ -26,10 +26,12 @@ class MedicationIntervalTile extends StatelessWidget {
         child: ListTile(
           // spacing は、値を trailing に置いている時のラベルとの間隔 (ListTile の horizontalTitleGap の既定 16) に揃える
           title: isTextEnlarged
-              ? Wrap(alignment: WrapAlignment.spaceBetween, spacing: 16, children: [Text(L.minimumDoseInterval), value])
+              ? Wrap(alignment: WrapAlignment.spaceBetween, spacing: 16, children: [Text(L.minimumDoseInterval), minimumDoseIntervalHoursText])
               : Text(L.minimumDoseInterval),
           subtitle: Text(L.minimumDoseIntervalDescription),
-          trailing: isTextEnlarged ? const Icon(Icons.chevron_right) : Wrap(children: [value, const Icon(Icons.chevron_right)]),
+          trailing: isTextEnlarged
+              ? const Icon(Icons.chevron_right)
+              : Wrap(children: [minimumDoseIntervalHoursText, const Icon(Icons.chevron_right)]),
           onTap: () async {
             final hours = await showAppNumberPicker(context, initialNumber: minimumDoseIntervalHours.value ?? 0);
             if (hours != null) {
