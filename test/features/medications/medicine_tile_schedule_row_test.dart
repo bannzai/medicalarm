@@ -697,6 +697,39 @@ void main() {
       expect(captured, [null, null]);
     });
 
+    // 後から始めたのが取消でなければ (チェックし直しの take が失敗した等)、取り消せずに残った記録をチェック済みで表示する
+    testWidgets('古い取消とチェックし直しの take がどちらも失敗したら、残った take をチェック済みで表示する', (tester) async {
+      final revertCompleter = Completer<MedicationHistory>();
+      when(medicationHistoryRevert.call(takeMedicationHistory: anyNamed('takeMedicationHistory'))).thenAnswer((_) => revertCompleter.future);
+      when(medicationHistoryTake.call(
+        medicationHistory: anyNamed('medicationHistory'),
+        newMedicationHistoryID: anyNamed('newMedicationHistoryID'),
+        recordedDateTime: anyNamed('recordedDateTime'),
+        scheduledRecordedDate: anyNamed('scheduledRecordedDate'),
+        medicine: anyNamed('medicine'),
+        medicationSchedule: anyNamed('medicationSchedule'),
+        memberSettings: anyNamed('memberSettings'),
+      )).thenAnswer((_) async {
+        throw Exception('take failed');
+      });
+      when(medicationHistoryTake.newMedicationHistoryID()).thenReturn('history-2');
+      final originalErrorLogger = errorLogger;
+      errorLogger = _NoopErrorLogger();
+      addTearDown(() => errorLogger = originalErrorLogger);
+      await pumpScheduleRow(tester, scheduleRow: buildCheckedScheduleRow());
+
+      // アンチェック(history-1 の取消は書き込み中) → チェックし直し(history-2 の take は失敗)
+      await tester.tap(find.byType(Checkbox));
+      await tester.pump();
+      await tester.tap(find.byType(Checkbox));
+      await tester.pumpAndSettle();
+      // 古い history-1 の取消も失敗する
+      revertCompleter.completeError(Exception('revert failed'));
+      await tester.pumpAndSettle();
+
+      expect(tester.widget<Checkbox>(find.byType(Checkbox)).value, true);
+    });
+
     testWidgets('最新の取消が失敗した時は、チェック済みの表示へ戻す', (tester) async {
       when(medicationHistoryRevert.call(takeMedicationHistory: anyNamed('takeMedicationHistory'))).thenAnswer((_) async {
         throw Exception('revert failed');
