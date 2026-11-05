@@ -15,6 +15,10 @@
 
 default_platform(:ios)
 
+# 審査提出の lane submit_for_review を release-app skill の雛形から読み込む。使い方・前提は雛形のヘッダーコメントを参照
+release_app_submit_for_review_fastfile = ENV.fetch('RELEASE_APP_SUBMIT_FOR_REVIEW_FASTFILE', File.expand_path('~/.agents/skills/release-app/templates/submit_for_review/Fastfile'))
+import(release_app_submit_for_review_fastfile) if File.exist?(release_app_submit_for_review_fastfile)
+
 platform :ios do
   lane :metadata_upload do
     ENV['FASTLANE_ENABLE_BETA_DELIVER_SYNC_SCREENSHOTS'] = 'true'
