@@ -49,7 +49,9 @@ class _LaunchStageDebugView extends HookWidget {
 
   @override
   Widget build(BuildContext context) {
-    // 記録は build 中にも追記されるため listen できない。1 秒ごとに件数を見て、増えていれば描き直す
+    // 記録は build 中にも追記されるため listen できない。件数を定期的に見て、増えていれば描き直す。
+    // 間隔の 1 秒は、止まった時に撮るスクリーンショット (固まりは数分続く) に最新の記録が載るには十分で、
+    // 描き直しの負荷も無視できる長さとして選んだ
     final entryCount = useState(launchStageEntries.length);
     useEffect(() {
       final timer = Timer.periodic(const Duration(seconds: 1), (_) {
@@ -70,8 +72,12 @@ class _LaunchStageDebugView extends HookWidget {
       child: SafeArea(
         child: Padding(
           padding: const EdgeInsets.all(8),
+          // 11pt・1 行 1 件は、iPhone SE (高さ 667pt) でも 15 件と pending の行がスピナーに重ならず収まり、
+          // スクリーンショットで読める大きさとして選んだ。長いエラーは 1 行に切り詰め、画面からはみ出させない
           child: DefaultTextStyle(
             style: const TextStyle(fontSize: 11, color: Colors.black87),
+            maxLines: 1,
+            overflow: TextOverflow.ellipsis,
             child: Column(
               mainAxisSize: MainAxisSize.min,
               crossAxisAlignment: CrossAxisAlignment.start,
@@ -79,6 +85,8 @@ class _LaunchStageDebugView extends HookWidget {
                 Text(
                   'pending: ${pendingStages.isEmpty ? '-' : pendingStages.join(', ')}',
                   style: const TextStyle(fontWeight: FontWeight.bold, color: Colors.red),
+                  // 完了していない段階は止まった場所そのものなので、複数あっても読めるよう 3 行まで出す
+                  maxLines: 3,
                 ),
                 for (final entry in entries.skip(entries.length > _visibleEntryCount ? entries.length - _visibleEntryCount : 0))
                   Text(launchStageEntryText(entry: entry)),

@@ -138,6 +138,18 @@ void main() {
       expect(find.text('pending: -'), findsOneWidget);
     });
 
+    testWidgets('長いエラーの失敗と完了していない段階が積み重なっても小さい画面で overflow しない', (tester) async {
+      tester.view.physicalSize = const Size(375, 667);
+      tester.view.devicePixelRatio = 1;
+      addTearDown(tester.view.reset);
+      for (var i = 0; i < 20; i++) {
+        recordLaunchStage(kind: 'start', stage: 'GroupMigration serverAppUserFetch $i');
+        recordLaunchStage(kind: 'fail', stage: 'AppUserCreate', detail: 'cloud_firestore unavailable the service is currently unavailable ' * 4);
+      }
+      await tester.pumpWidget(const MaterialApp(home: IndicatorPage()));
+      expect(tester.takeException(), isNull);
+    });
+
     testWidgets('記録が無ければ何も表示しない', (tester) async {
       await tester.pumpWidget(const MaterialApp(home: IndicatorPage()));
       expect(find.textContaining('pending:'), findsNothing);
