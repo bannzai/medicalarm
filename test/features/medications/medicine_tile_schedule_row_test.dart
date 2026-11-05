@@ -643,9 +643,9 @@ void main() {
       expect(captured.map((medicationHistory) => (medicationHistory as MedicationHistory).id), ['history-1', 'history-2', 'history-2']);
     });
 
-    // #479: 書き込み中の古い取消が後から失敗した時に表示を戻すと、後のアンチェックが巻き戻ってチェック済みに見え、
-    // 次のチェックが取消済みの take への上書きになる
-    testWidgets('古い取消が後から失敗しても、後のアンチェックの表示と取消待ちの状態を変えない', (tester) async {
+    // #479: 取り消せなかった take は有効な記録として残るため、後から別の取消が成功していても実状態はチェック済み。
+    // 未チェックのまま残すと、次のチェックで有効な take が重複する
+    testWidgets('古い取消が後から失敗したら、後から別の取消が成功していても、取り消せなかった記録をチェック済みへ戻す', (tester) async {
       final firstRevertCompleter = Completer<MedicationHistory>();
       var revertCount = 0;
       when(medicationHistoryRevert.call(takeMedicationHistory: anyNamed('takeMedicationHistory'))).thenAnswer((_) {
@@ -678,14 +678,14 @@ void main() {
       firstRevertCompleter.completeError(Exception('revert failed'));
       await tester.pumpAndSettle();
 
-      expect(tester.widget<Checkbox>(find.byType(Checkbox)).value, false);
+      expect(tester.widget<Checkbox>(find.byType(Checkbox)).value, true);
 
-      // 自分の取消が行に未反映の間のチェックし直しは、新しい take の追記のまま。取消の失敗のエラーダイアログを閉じてから操作する
+      // 次のアンチェックは、取り消せなかった history-1 を取り消し直す。取消の失敗のエラーダイアログを閉じてから操作する
       await tester.tap(find.text('閉じる'));
       await tester.pumpAndSettle();
       await tester.tap(find.byType(Checkbox));
       await tester.pumpAndSettle();
-      final captured = verify(medicationHistoryTake.call(
+      final capturedTakes = verify(medicationHistoryTake.call(
         medicationHistory: captureAnyNamed('medicationHistory'),
         newMedicationHistoryID: anyNamed('newMedicationHistoryID'),
         recordedDateTime: anyNamed('recordedDateTime'),
@@ -694,7 +694,9 @@ void main() {
         medicationSchedule: anyNamed('medicationSchedule'),
         memberSettings: anyNamed('memberSettings'),
       )).captured;
-      expect(captured, [null, null]);
+      expect(capturedTakes, [null]);
+      final capturedReverts = verify(medicationHistoryRevert.call(takeMedicationHistory: captureAnyNamed('takeMedicationHistory'))).captured;
+      expect(capturedReverts.map((medicationHistory) => (medicationHistory as MedicationHistory).id), ['history-1', 'history-2', 'history-1']);
     });
 
     // 後から始めたのが取消でなければ (チェックし直しの take が失敗した等)、取り消せずに残った記録をチェック済みで表示する

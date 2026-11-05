@@ -272,9 +272,6 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
     // チェックボックスの操作(チェック・アンチェック)の世代。操作のたびに進める。
     // 待機明けの古い間隔チェック(takeWithIntervalCheck)の継続が最新の操作を追い越して記録しないよう、待機の前に取った世代と照合する (#81)
     final checkboxOperationGeneration = useRef(0);
-    // 最後に始めたアンチェック(revert)の操作の世代。古い取消の失敗が、後から始めた取消の取消待ちと表示を戻さないよう照合する (#479)。
-    // 後から始めたのがチェックだけなら戻す。チェックし直しの take が失敗すると、取り消せずに残った記録が未チェックのまま残るため
-    final latestRevertOperationGeneration = useRef(0);
     final medicationHistoryTake = ref.watch(medicationHistoryTakeProvider);
     final medicationHistoryRevert = ref.watch(medicationHistoryRevertProvider);
     final recentMedicationHistoriesFetch = ref.watch(recentMedicationHistoriesFetchProvider);
@@ -460,8 +457,6 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
     // アンチェック操作。take ドキュメントは削除せず、取消(revert)アクションを即時追記する論理削除 (#253)。
     // 誤タップでも他メンバーの記録は失われず、チェックし直せば新しい take の追記でチェック済みへ戻せる
     Future<void> revert() async {
-      final operationGeneration = checkboxOperationGeneration.value;
-      latestRevertOperationGeneration.value = operationGeneration;
       // 行に反映される前に取り消す take。取消に失敗した時に取消待ちから外し、チェック済みの表示対象へ戻すために保持する
       final revertTargetPendingTake = pendingTake.value;
       final MedicationHistory? medicationHistory;
@@ -499,24 +494,21 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
       try {
         await medicationHistoryRevert.call(takeMedicationHistory: medicationHistory);
       } catch (e, st) {
-        // 取消が書けていないのに未チェック表示のままだと二重服用を誘発するため、表示を実状態へ戻す
+        // 取消が書けていないのに未チェック表示のままだと二重服用を誘発するため、表示を実状態へ戻す。
+        // 取り消せなかった take は有効な記録として残るので、後から別の取消を始めていても実状態はチェック済み。
+        // 古い取消の失敗で戻さないと、行の記録が入れ替わるまで未チェック表示が残り、次のチェックで有効な take が重複する (#479)
         errorLogger.recordError(e, st);
         // 取り消せなかった take は有効な記録として残るため、取消待ちから外す。残すと行に届いた時に未チェックと表示される (#483)。
         // remove が true = まだ行に反映されていない (反映されると useEffect が外す)
         final isRevertTargetUnreflected = revertTargetPendingTake != null && revertingTakes.value.remove(revertTargetPendingTake);
-        // 取消の書き込み中に後から取消を始めていれば、取消待ちと表示はその取消のものなので戻さない (#479)
-        if (latestRevertOperationGeneration.value == operationGeneration) {
-          hasPendingRevert.value = false;
-          // 行に反映されていない take は、反映されるまでチェック済みとして表示し、次のアンチェックの取消対象にする。
-          // 後から始めたチェックの take が行に未反映なら、そちらを取消対象に残す
-          if (isRevertTargetUnreflected && pendingTake.value == null) {
-            pendingTake.value = revertTargetPendingTake;
-          }
-          if (context.mounted) {
-            isChecked.value = pendingTake.value != null || scheduleRow.medicationHistory != null;
-          }
+        hasPendingRevert.value = false;
+        // 行に反映されていない take は、反映されるまでチェック済みとして表示し、次のアンチェックの取消対象にする。
+        // 後から始めたチェックの take が行に未反映なら、そちらを取消対象に残す
+        if (isRevertTargetUnreflected && pendingTake.value == null) {
+          pendingTake.value = revertTargetPendingTake;
         }
         if (context.mounted) {
+          isChecked.value = pendingTake.value != null || scheduleRow.medicationHistory != null;
           showErrorAlert(context, e.toString());
         }
         return;
