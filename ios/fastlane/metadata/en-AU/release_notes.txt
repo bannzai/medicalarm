@@ -1,1 +1,6 @@
-- Fixed an issue where the day of the week could not be saved for medication frequency.
+- Create a group with family or caregivers and manage medications together
+- Look back on daily medication records in the calendar and keep a diary
+- Register medication schedules at once from a photo of your medicine
+- Set a minimum interval between doses for each medicine and get a warning when it is too soon
+- Send feature requests from the Settings screen
+- Fixed several issues, including notifications at the same time sometimes not arriving

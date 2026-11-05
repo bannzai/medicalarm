@@ -1,1 +1,6 @@
-- Ein Problem behoben, bei dem die Wochentage basierend auf der Einnahmehäufigkeit des Medikaments nicht gespeichert werden konnten.
+- Erstelle eine Gruppe mit Familie oder Pflegekräften und verwaltet die Medikamente gemeinsam
+- Sieh dir die täglichen Einnahmeprotokolle im Kalender an und führe ein Tagebuch
+- Erfasse Einnahmepläne auf einmal anhand eines Fotos des Medikaments
+- Lege für jedes Medikament einen Mindestabstand zwischen den Einnahmen fest und erhalte einen Hinweis, wenn es zu früh ist
+- Sende Funktionswünsche über den Bildschirm „Einstellungen“
+- Mehrere Fehler behoben, u. a. dass Benachrichtigungen zur gleichen Uhrzeit manchmal nicht ankamen

@@ -1,1 +1,6 @@
-- S'ha solucionat el problema que impedia desar el dia de la setmana segons la freqüència de presa de medicaments
+- Crea un grup amb la família o els cuidadors i gestioneu la medicació junts
+- Revisa els registres diaris de medicació al calendari i escriu un diari
+- Registra els horaris de medicació de cop a partir d'una foto del medicament
+- Defineix un interval mínim entre preses per a cada medicament i rep un avís si és massa aviat
+- Envia suggeriments de funcions des de la pantalla de Configuració
+- S'han corregit diversos errors, com ara notificacions a la mateixa hora que de vegades no arribaven

@@ -1,1 +1,6 @@
-- En bugg där veckodagar inte kunde sparas baserat på medicinens doseringsfrekvens har åtgärdats.
+- Skapa en grupp med familj eller vårdgivare och hantera mediciner tillsammans
+- Se tillbaka på dagliga medicinregistreringar i kalendern och skriv dagbok
+- Registrera medicinscheman på en gång från ett foto av medicinen
+- Ange ett minsta intervall mellan doser för varje medicin och få en varning om det är för tidigt
+- Skicka önskemål om funktioner från skärmen Inställningar
+- Flera fel har åtgärdats, bland annat att notiser vid samma tid ibland inte kom fram
