@@ -45,18 +45,23 @@ Future<T> traceLaunchStage<T>({required String stage, required Future<T> Functio
   }
 }
 
-/// [entries] のうち、最後の記録が start のままの段階 (完了も失敗もしていない段階) を、開始の順に返す。
+/// [entries] のうち、完了も失敗もしていない実行が残っている段階を、残っている実行を最後に開始した順に返す。
+///
+/// 同じ段階が並行して動くことがある (例: firstDoseReceiverAdd の実行中に doseReceivers が再度流れる) ため、
+/// 段階ごとに start の数から done・fail の数を引いた残りで判定する。
 List<String> pendingLaunchStages({required List<LaunchStageEntry> entries}) {
-  final lastKindByStage = <String, String>{};
+  final runningCountByStage = <String, int>{};
   for (final entry in entries) {
-    if (entry.kind != 'reached') {
-      lastKindByStage.remove(entry.stage);
-      lastKindByStage[entry.stage] = entry.kind;
+    switch (entry.kind) {
+      case 'start':
+        runningCountByStage[entry.stage] = (runningCountByStage.remove(entry.stage) ?? 0) + 1;
+      case 'done' || 'fail':
+        runningCountByStage[entry.stage] = (runningCountByStage[entry.stage] ?? 0) - 1;
     }
   }
   return [
-    for (final stageAndKind in lastKindByStage.entries)
-      if (stageAndKind.value == 'start') stageAndKind.key,
+    for (final stageAndCount in runningCountByStage.entries)
+      if (stageAndCount.value > 0) stageAndCount.key,
   ];
 }
 

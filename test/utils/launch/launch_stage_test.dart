@@ -46,6 +46,19 @@ void main() {
       );
     });
 
+    test('同じ段階が並行して 2 回始まり 1 回だけ完了した時は、残りの 1 回を完了していない段階として返す', () {
+      expect(
+        pendingLaunchStages(
+          entries: [
+            _entry(kind: 'start', stage: 'firstDoseReceiverAdd'),
+            _entry(kind: 'start', stage: 'firstDoseReceiverAdd'),
+            _entry(kind: 'done', stage: 'firstDoseReceiverAdd'),
+          ],
+        ),
+        ['firstDoseReceiverAdd'],
+      );
+    });
+
     test('到達点の記録 (reached) は完了待ちとして扱わない', () {
       expect(
         pendingLaunchStages(
