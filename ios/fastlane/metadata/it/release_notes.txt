@@ -1,1 +1,6 @@
-- Risolto il problema per cui i giorni della settimana non potevano essere salvati in base alla frequenza di assunzione del farmaco.
+- Crea un gruppo con familiari o assistenti per gestire insieme i farmaci
+- Rivedi nel calendario le registrazioni giornaliere dei farmaci e tieni un diario
+- Registra in una volta gli orari dei farmaci da una foto del farmaco
+- Imposta per ogni farmaco un intervallo minimo tra le dosi e ricevi un avviso se è troppo presto
+- Invia richieste di funzionalità dalla schermata Impostazioni
+- Corretti diversi problemi, tra cui notifiche alla stessa ora che a volte non arrivavano

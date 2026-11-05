@@ -1,1 +1,6 @@
-- Korjattu ongelma, jossa lääkkeen ottopäivät eivät tallentuneet oikein.
+- Luo ryhmä perheen tai hoitajien kanssa ja hallitse lääkitystä yhdessä
+- Katso päivittäiset lääkekirjaukset kalenterista ja kirjoita päiväkirjaa
+- Rekisteröi lääkeaikataulut kerralla lääkkeen valokuvasta
+- Aseta jokaiselle lääkkeelle annosten vähimmäisväli ja saat varoituksen, jos on liian aikaista
+- Lähetä toiveita uusista ominaisuuksista Asetukset-näytöltä
+- Korjattu useita virheitä, mm. samaan aikaan ajoitetut ilmoitukset, jotka eivät joskus tulleet perille

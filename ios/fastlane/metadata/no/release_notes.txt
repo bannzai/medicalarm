@@ -1,1 +1,6 @@
-- Fikset et problem der ukedager ikke kunne lagres for medisinens doseringsfrekvens
+- Opprett en gruppe med familie eller omsorgspersoner og administrer medisinene sammen
+- Se gjennom daglige medisinregistreringer i kalenderen og skriv dagbok
+- Registrer medisinplaner på én gang fra et bilde av medisinen
+- Angi et minsteintervall mellom doser for hver medisin og få en advarsel hvis det er for tidlig
+- Send ønsker om funksjoner fra Innstillinger-skjermen
+- Rettet flere feil, blant annet at varsler på samme tidspunkt noen ganger ikke kom frem

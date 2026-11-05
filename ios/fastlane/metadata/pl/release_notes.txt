@@ -1,1 +1,6 @@
-- Naprawiono problem, który uniemożliwiał zapisywanie dni tygodnia w zależności od częstotliwości zażywania leków
+- Utwórz grupę z rodziną lub opiekunami i wspólnie zarządzaj lekami
+- Przeglądaj dzienne zapisy przyjmowania leków w kalendarzu i prowadź dziennik
+- Zarejestruj harmonogram leków za jednym razem na podstawie zdjęcia leku
+- Ustaw minimalny odstęp między dawkami dla każdego leku i otrzymuj ostrzeżenie, gdy jest za wcześnie
+- Wysyłaj propozycje funkcji z ekranu Ustawienia
+- Naprawiono kilka błędów, m.in. czasem niedocierające powiadomienia o tej samej godzinie
