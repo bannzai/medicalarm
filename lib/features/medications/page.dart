@@ -241,6 +241,11 @@ class MedicationGroupTile extends StatelessWidget {
   }
 }
 
+/// 新しい記録を追記する take のうち、まだ行の snapshot に反映されていないもの。
+/// [medicationHistoryID] は書き込み前に採番した書き込み先の ID で、行に届いた記録が自分の take かの照合に使う。
+/// [write] は書き込んだ記録で完了する (書き込みに失敗した時は null)
+typedef _AppendingMedicationHistoryTake = ({String medicationHistoryID, Completer<MedicationHistory?> write});
+
 class MedicineTileScheduleRow extends HookConsumerWidget {
   final MedicationGroupScheduleRow scheduleRow;
   const MedicineTileScheduleRow({
@@ -256,17 +261,18 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
     // この間のチェックし直しを「既存 take への上書き」ではなく「新しい take の追記」として扱うために保持する。
     // 既存 take は revert に打ち消されたままなので、上書きしてもチェック済みには戻らない
     final hasPendingRevert = useRef(false);
-    // 新しい記録を追記する take の書き込み先の ID と、書き込んだ記録 (失敗時は null)。take の開始から、その記録が
+    // 最後にチェックした新しい記録の take。take の開始から、その記録が
     // 行の snapshot に反映されるかアンチェックされるまで非 null で、この間はチェック済みとして表示する。
     // 行に反映される前のアンチェックが、取消対象を行に残っている取消済みの古い take ではなくこの take から引き継ぐために保持する
-    final pendingTake = useRef<({String medicationHistoryID, Completer<MedicationHistory?> write})?>(null);
+    final pendingTake = useRef<_AppendingMedicationHistoryTake?>(null);
     // 行に反映される前にアンチェックされ、取消対象として完了を待っている take。待っている間に記録が行へ反映された時に
     // 書き込みの完了を待たずに取消へ進めることと、その記録を未チェックとして表示するために保持する。
     // チェックとアンチェックを書き込みの完了前に繰り返すと複数の take が同時に取消を待つため、すべて保持する
-    final revertingTakes = useRef(<({String medicationHistoryID, Completer<MedicationHistory?> write})>[]);
-    // 実行中の間隔チェック(takeWithIntervalCheck)の世代。チェックのたびに進め、
-    // フェッチ・ダイアログ待ちの古い継続が最新の操作を追い越して記録しないようにする (#81)
-    final takeOperationGeneration = useRef(0);
+    final revertingTakes = useRef(<_AppendingMedicationHistoryTake>[]);
+    // チェックボックスの操作(チェック・アンチェック)の世代。操作のたびに進める。
+    // 待機明けの古い間隔チェック(takeWithIntervalCheck)の継続が最新の操作を追い越して記録しないようにする (#81) ことと、
+    // 古い取消の失敗が後の操作の表示・状態を戻さないようにする (#479) ために、待機の前に取った世代と照合する
+    final checkboxOperationGeneration = useRef(0);
     final medicationHistoryTake = ref.watch(medicationHistoryTakeProvider);
     final medicationHistoryRevert = ref.watch(medicationHistoryRevertProvider);
     final recentMedicationHistoriesFetch = ref.watch(recentMedicationHistoriesFetchProvider);
@@ -288,13 +294,12 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
       // Firestore の set の Future はサーバーの応答まで完了せずオフラインでは待ち続けるため、反映された記録を take の結果として渡す。
       // 遅れて届いた古い take や他メンバーの記録と取り違えないよう、書き込み先の ID が一致する記録だけを対象にする
       if (medicationHistory != null) {
-        final pendingTakeValue = pendingTake.value;
-        for (final takeValue in [?pendingTakeValue, ...revertingTakes.value]) {
-          if (takeValue.medicationHistoryID == medicationHistory.id && !takeValue.write.isCompleted) {
-            takeValue.write.complete(medicationHistory);
+        for (final appendingTake in [?pendingTake.value, ...revertingTakes.value]) {
+          if (appendingTake.medicationHistoryID == medicationHistory.id && !appendingTake.write.isCompleted) {
+            appendingTake.write.complete(medicationHistory);
           }
         }
-        if (pendingTakeValue?.medicationHistoryID == medicationHistory.id) {
+        if (pendingTake.value?.medicationHistoryID == medicationHistory.id) {
           pendingTake.value = null;
         }
         revertingTakes.value.removeWhere((revertingTake) => revertingTake.medicationHistoryID == medicationHistory.id);
@@ -305,6 +310,10 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
       return null;
     }, [scheduleRow.medicationHistory?.id]);
 
+    /// 服薬記録(take)を書き込む。
+    /// [medicationHistory] が null なら、書き込み先の ID を事前に採番した新しい take を追記し、行に反映されるまで [pendingTake] に登録する。
+    /// 非 null なら、その既存記録へ同じ ID で書き直す。
+    /// 書き込みに失敗した時はエラーを表示し、この take が最新の操作なら表示を実状態へ戻す。例外は投げない
     Future<void> take({required MedicationHistory? medicationHistory}) async {
       // 最初の await より前に登録する。memberSettings の取得待ちの間のアンチェックも、この take の結果を取消対象にするため。
       // 既存記録の再書き込みは書き込み先が行に表示中の記録と同じで、アンチェックは行の記録を取り消せばよいため登録しない
@@ -404,10 +413,10 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
       if (minimumDoseIntervalHours == null || medicationHistory != null) {
         return take(medicationHistory: medicationHistory);
       }
-      final operationGeneration = ++takeOperationGeneration.value;
+      final operationGeneration = checkboxOperationGeneration.value;
       // フェッチ・ダイアログの待機中にアンチェックや新しいチェック操作が行われた場合、この継続が
       // 最新のユーザー操作を追い越して記録しないよう、待機明けごとに意図を確認して破棄する
-      bool isStale() => takeOperationGeneration.value != operationGeneration || !isChecked.value;
+      bool isStale() => checkboxOperationGeneration.value != operationGeneration || !isChecked.value;
       final now = DateTime.now();
       final DateTime? latestTakeRecordedDateTime;
       try {
@@ -449,9 +458,11 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
     // アンチェック操作。take ドキュメントは削除せず、取消(revert)アクションを即時追記する論理削除 (#253)。
     // 誤タップでも他メンバーの記録は失われず、チェックし直せば新しい take の追記でチェック済みへ戻せる
     Future<void> revert() async {
-      final pendingTakeValue = pendingTake.value;
+      final operationGeneration = checkboxOperationGeneration.value;
+      // 行に反映される前に取り消す take。取消に失敗した時に取消待ちから外し、チェック済みの表示対象へ戻すために保持する
+      final revertTargetPendingTake = pendingTake.value;
       final MedicationHistory? medicationHistory;
-      if (pendingTakeValue != null) {
+      if (revertTargetPendingTake != null) {
         // take の記録が行に反映される前のアンチェック。行に残っているのは記録なしか取消済みの古い take なので、
         // take の完了を待ってその結果を取り消す。古い take を取り消すと、後から完了した take でチェック済みに戻ってしまう。
         // 待っている間のチェックし直しが古い take への上書きにならないよう、待つ前に立てる
@@ -459,11 +470,11 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
         // アンチェックされたのでチェック済みの表示対象から外し、取消対象として完了を待つ。
         // 待っている間に行へ記録が反映された時は useEffect が完了させる
         pendingTake.value = null;
-        revertingTakes.value.add(pendingTakeValue);
-        medicationHistory = await pendingTakeValue.write.future;
+        revertingTakes.value.add(revertTargetPendingTake);
+        medicationHistory = await revertTargetPendingTake.write.future;
         // 書き込めた take は、記録が行に反映されるまで(useEffect が下ろすまで)未チェックとして表示するために残す
         if (medicationHistory == null) {
-          revertingTakes.value.remove(pendingTakeValue);
+          revertingTakes.value.remove(revertTargetPendingTake);
         }
       } else if (hasPendingRevert.value) {
         // 自分の取消が行に未反映で、表示中の take は取消済み。もう一度取り消すと取消の記録が重複する
@@ -487,9 +498,21 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
       } catch (e, st) {
         // 取消が書けていないのに未チェック表示のままだと二重服用を誘発するため、表示を実状態へ戻す
         errorLogger.recordError(e, st);
-        hasPendingRevert.value = false;
+        // 取り消せなかった take は有効な記録として残るため、取消待ちから外す。残すと行に届いた時に未チェックと表示される (#483)。
+        // remove が true = まだ行に反映されていない (反映されると useEffect が外す)
+        final isRevertTargetUnreflected = revertTargetPendingTake != null && revertingTakes.value.remove(revertTargetPendingTake);
+        // 取消の書き込み中に後の操作があれば、表示と状態はその操作のものなので戻さない (#479)
+        if (checkboxOperationGeneration.value == operationGeneration) {
+          hasPendingRevert.value = false;
+          // 行に反映されていない take は、反映されるまでチェック済みとして表示し、次のアンチェックの取消対象にする
+          if (isRevertTargetUnreflected) {
+            pendingTake.value = revertTargetPendingTake;
+          }
+          if (context.mounted) {
+            isChecked.value = pendingTake.value != null || scheduleRow.medicationHistory != null;
+          }
+        }
         if (context.mounted) {
-          isChecked.value = scheduleRow.medicationHistory != null;
           showErrorAlert(context, e.toString());
         }
         return;
@@ -525,6 +548,7 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
                           return;
                         }
                         isChecked.value = newValue;
+                        checkboxOperationGeneration.value += 1;
                         if (newValue) {
                           // 自分の revert が snapshot に未反映の間のチェックし直しは、revert に打ち消された
                           // 既存 take へ上書きしても戻らないため、新しい take の追記として記録する
