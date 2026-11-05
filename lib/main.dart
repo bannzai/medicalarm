@@ -17,6 +17,7 @@ import 'package:medicalarm/provider/shared_preferences.dart';
 import 'package:medicalarm/style/color.dart';
 import 'package:medicalarm/utils/config/remote_config.dart';
 import 'package:medicalarm/utils/firebase/app_check.dart';
+import 'package:medicalarm/utils/launch/launch_stage.dart';
 import 'package:medicalarm/utils/local_notification/client.dart';
 import 'package:medicalarm/utils/purchase/purchase.dart';
 import 'package:medicalarm/utils/push_notification/fcm_notification.dart';
@@ -50,6 +51,8 @@ void _printErrorDetailsByLine({required String label, required FlutterErrorDetai
 
 void main() async {
   runZonedGuarded(() async {
+    // 起動の段階の経過時間の起点にする (#516)
+    recordLaunchStageOnce(stage: 'main');
     WidgetsFlutterBinding.ensureInitialized();
     debugPrint('[BOOT] ensureInitialized done');
 
@@ -164,6 +167,7 @@ void main() async {
       child: const App(),
     ));
     debugPrint('[BOOT] runApp called');
+    recordLaunchStageOnce(stage: 'runApp');
   }, (error, stack) {
     // release ビルドで error・stack をコンソールへ出すと機微情報が端末ログに残り得るため debug に限定する。
     // release の記録は従来どおり Crashlytics が担う

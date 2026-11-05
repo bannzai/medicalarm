@@ -16,6 +16,7 @@ import 'package:medicalarm/features/resolver/force_update.dart';
 import 'package:medicalarm/features/resolver/group_migration.dart';
 import 'package:medicalarm/features/resolver/purchase_setup.dart';
 import 'package:medicalarm/utils/analytics/analytics.dart';
+import 'package:medicalarm/utils/launch/launch_stage.dart';
 
 class RootPage extends HookConsumerWidget {
   const RootPage({super.key});
@@ -23,36 +24,37 @@ class RootPage extends HookConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     return AppLocalizationResolver(builder: (context) {
-      debugPrint('Resolved: AppLocalizationResolver');
+      recordLaunchStageOnce(stage: 'Resolved: AppLocalizationResolver');
       return AuthResolver(builder: (_, user) {
-        debugPrint('Resolved: AuthResolver');
+        // uid を残し、Simulator ごとに新しい匿名ユーザーで起動したことを確かめられるようにする (#516)
+        recordLaunchStageOnce(stage: 'Resolved: AuthResolver', detail: 'uid=${user.uid}');
         return UserDatabaseResolver(
             user: user,
             builder: (context) {
-              debugPrint('Resolved: UserDatabaseResolver');
+              recordLaunchStageOnce(stage: 'Resolved: UserDatabaseResolver');
               return AppUserCreateResolver(
                   firebaseUserID: user.uid,
                   builder: (context, appUser) {
-                    debugPrint('Resolved: AppUserCreateResolver');
+                    recordLaunchStageOnce(stage: 'Resolved: AppUserCreateResolver');
                     return ForceUpdateResolver(builder: (context) {
-                      debugPrint('Resolved: ForceUpdateResolver');
+                      recordLaunchStageOnce(stage: 'Resolved: ForceUpdateResolver');
                       return PurchaseSetupResolver(
                         userID: user.uid,
                         builder: (context) {
-                          debugPrint('Resolved: PurchaseSetupResolver');
+                          recordLaunchStageOnce(stage: 'Resolved: PurchaseSetupResolver');
                           return GroupMigrationResolver(builder: (context) {
-                            debugPrint('Resolved: GroupMigrationResolver');
+                            recordLaunchStageOnce(stage: 'Resolved: GroupMigrationResolver');
                             return CurrentGroupResolver(builder: (context) {
-                              debugPrint('Resolved: CurrentGroupResolver');
+                              recordLaunchStageOnce(stage: 'Resolved: CurrentGroupResolver');
                               return AppEntityPrepareResolver(
                                 userID: user.uid,
                                 builder: (context) {
-                                  debugPrint('Resolved: AppEntityPrepareResolver');
+                                  recordLaunchStageOnce(stage: 'Resolved: AppEntityPrepareResolver');
                                   return OnboardingMedicationPlanResolver(
                                       child: OnboardingResolver(
                                     appUser: appUser,
                                     builder: (context, didCompleteOnboardingInThisSession) {
-                                      debugPrint('Resolved: OnboardingResolver');
+                                      recordLaunchStageOnce(stage: 'Resolved: OnboardingResolver');
                                       Widget home() => Stack(
                                             children: [
                                               const FeatureRequestPromptResolver(),
@@ -68,7 +70,7 @@ class RootPage extends HookConsumerWidget {
                                       return PromotionStartResolver(
                                           appUser: appUser,
                                           builder: (context) {
-                                            debugPrint('Resolved: PromotionStartResolver');
+                                            recordLaunchStageOnce(stage: 'Resolved: PromotionStartResolver');
                                             return home();
                                           });
                                     },

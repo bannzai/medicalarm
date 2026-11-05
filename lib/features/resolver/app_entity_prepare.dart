@@ -5,6 +5,7 @@ import 'package:medicalarm/components/loading/indicator.dart';
 import 'package:medicalarm/components/retry/page.dart';
 import 'package:medicalarm/provider/dose_receiver.dart';
 import 'package:medicalarm/utils/analytics/error.dart';
+import 'package:medicalarm/utils/launch/launch_stage.dart';
 
 class AppEntityPrepareResolver extends HookConsumerWidget {
   final String userID;
@@ -30,7 +31,7 @@ class AppEntityPrepareResolver extends HookConsumerWidget {
         if (doseReceivers is AsyncData && doseReceivers.value?.isEmpty == true) {
           initializationError.value = null;
           try {
-            await firstDoseReceiverAdd.call();
+            await traceLaunchStage(stage: 'firstDoseReceiverAdd', operation: firstDoseReceiverAdd.call);
           } catch (e, st) {
             // オフライン時はトランザクションがキューされず失敗する。クラッシュさせず記録し、
             // Retry(または接続回復後の snapshot 再emit)からの再試行に任せる

@@ -3,6 +3,7 @@ import 'package:medicalarm/features/resolver/database.dart';
 import 'package:medicalarm/provider/default_group_update.dart';
 import 'package:medicalarm/provider/user_groups.dart';
 import 'package:medicalarm/utils/functions/firebase_functions.dart';
+import 'package:medicalarm/utils/launch/launch_stage.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 
 part 'group_create.g.dart';
@@ -63,11 +64,17 @@ class SoloGroupPrepare {
 
   /// 既定になったグループの ID を返す。サーバーに届かない時は、重複を避けるため何も作らず例外を投げる。
   Future<String> call() async {
-    final ownedGroupID = oldestOwnedGroupID(groups: await serverUserGroupsFetch(), ownerUserID: userID);
+    final ownedGroupID = oldestOwnedGroupID(
+      groups: await traceLaunchStage(stage: 'SoloGroupPrepare serverUserGroupsFetch', operation: serverUserGroupsFetch.call),
+      ownerUserID: userID,
+    );
     if (ownedGroupID == null) {
-      return createGroup.call(name: null, setAsDefault: true, iconName: 'home');
+      return traceLaunchStage(
+        stage: 'SoloGroupPrepare createGroup',
+        operation: () => createGroup.call(name: null, setAsDefault: true, iconName: 'home'),
+      );
     }
-    await defaultGroupUpdate(groupID: ownedGroupID);
+    await traceLaunchStage(stage: 'SoloGroupPrepare defaultGroupUpdate', operation: () => defaultGroupUpdate(groupID: ownedGroupID));
     return ownedGroupID;
   }
 }

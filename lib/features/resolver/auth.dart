@@ -7,6 +7,7 @@ import 'package:medicalarm/components/retry/page.dart';
 import 'package:medicalarm/provider/app_user.dart';
 import 'package:medicalarm/provider/onboarding_medication_plan.dart';
 import 'package:medicalarm/utils/analytics/error.dart';
+import 'package:medicalarm/utils/launch/launch_stage.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 
 part 'auth.g.dart';
@@ -19,7 +20,7 @@ Stream<User?> firebaseUserChanges(Ref ref) {
   return FirebaseAuth.instance.userChanges().asyncMap((user) async {
     if (!receivedUser || previousUserID != user?.uid) {
       try {
-        await cancelOnboardingMedicationPlanNotifications();
+        await traceLaunchStage(stage: 'cancelOnboardingMedicationPlanNotifications', operation: cancelOnboardingMedicationPlanNotifications);
       } catch (error, stackTrace) {
         // 補助通知の失敗で認証を止めない。初期化後とアプリ復帰時の同期でも解除を再試行する。
         errorLogger.recordError(error, stackTrace);
@@ -81,7 +82,7 @@ class SignInResolver extends HookConsumerWidget {
       void f() async {
         if (userValue == null) {
           try {
-            final credential = await FirebaseAuth.instance.signInAnonymously();
+            final credential = await traceLaunchStage(stage: 'signInAnonymously', operation: FirebaseAuth.instance.signInAnonymously);
             user.value = credential.user;
           } catch (e) {
             debugPrint('error: $e');
