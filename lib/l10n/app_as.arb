@@ -154,6 +154,7 @@
   "autoRenewalNotice": "চুক্তির মেয়াদ শেষ হওয়ার পর এটি আপনাআপনিই নবীকৃত হবে।",
   "restorePurchase": "তে ইতিপূর্বে কিনেছেন",
   "purchaseRestored": "মুক্তিগত তথ্য পুনরুদ্ধার করা হয়েছে।",
+  "medicationTimeFollowup": "ঔষধ খোৱাৰ সময়ৰ পুনৰ সোঁৱৰনি",
   "updateRequired": "আপডেট প্রয়োজন",
   "updateRequiredMessage": "{storeName} এ সর্বশেষ সংস্করণে আপডেট করুন",
   "screenshotMedicationHistoriesMemo": "?দীর্ঘ সময় ঘুমিয়ে ছিলাম, তাই ঔষধ খাওয়ার সময় বেশি হয়ে গেছে.",
