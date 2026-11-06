@@ -123,6 +123,7 @@
   "monthlyPlanDiscountFormat": "{percent}% OFF from the monthly subscription",
   "purchaseErrorUnknown": "Сталася помилка з невідомої причини. Спробуйте ще раз трохи пізніше. Якщо проблему не вдасться вирішити, зв’яжіться з нами через Налаштування > Зв’язатися з нами. Докладніше: {message}",
   "purchaseErrorStoreProblem": "У {storeName} виникла помилка. Зачекайте трохи та спробуйте ще раз.",
+  "purchaseErrorInvalidPayment": "Не вдалося здійснити оплату. Перевірте, чи дійсний ваш спосіб оплати, і спробуйте ще раз.",
   "premiumUserThanksMessage": "Thank you for using our service.\nThanks to you, we are able to continue operating Medicalarm.",
   "installPilll": "Install Pilll",
   "specialGift": "🎉 Особливий подарунок 🎉",
