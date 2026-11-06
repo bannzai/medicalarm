@@ -47,6 +47,7 @@
   "everyXDaysDescription": "ဥပမာ) 2 ရက်တစ်ကြိမ်၊ 3 ရက်တစ်ကြိမ်",
   "specificWeekdaysDescription": "ဥပမာ - တနင်္လာနေ့တိုင်းသာ; ဗုဒ္ဓဟူးနေ့နှင့် သောကြာနေ့တိုင်း",
   "medicineFormValidationError": "အမည်နှင့် ဆေးသောက်ချိန်ဇယားကို ထည့်ပါ",
+  "quantity": "ဆေးပမာဏ",
   "quantityExample": "Contoh: 1 pil, 100mg",
   "viewFaq": "Lihat FAQ",
   "ok": "OK",
