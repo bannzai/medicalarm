@@ -52,6 +52,7 @@
   "medicationStartDate": "ဆေးစတင်သောက်သည့်ရက်",
   "otherInformation": "အခြားအချက်အလက်",
   "doseReceiver": "ဆေးသောက်သူ",
+  "defaultDoseReceiver": "မိမိ",
   "viewFaq": "Lihat FAQ",
   "ok": "OK",
   "silentModeNotificationDescription": "Walau mod tumpuan dihidupkan atau peranti dalam mod senyap, pemberitahuan penting akan dipaparkan pada skrin kunci dan bunyi akan dimainkan.",
