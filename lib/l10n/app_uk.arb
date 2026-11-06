@@ -49,6 +49,7 @@
   "medicineFormValidationError": "Введіть назву та графік прийому ліків",
   "quantity": "Доза",
   "quantityExample": "e.g., 1 tablet, 100mg",
+  "medicationStartDate": "Дата початку прийому ліків",
   "viewFaq": "View FAQ",
   "ok": "OK",
   "silentModeNotificationDescription": "Important notifications will be displayed on the lock screen and a sound will be played even when Focus Mode is ON or the device is on silent.",

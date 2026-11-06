@@ -49,6 +49,7 @@
   "medicineFormValidationError": "အမည်နှင့် ဆေးသောက်ချိန်ဇယားကို ထည့်ပါ",
   "quantity": "ဆေးပမာဏ",
   "quantityExample": "Contoh: 1 pil, 100mg",
+  "medicationStartDate": "ဆေးစတင်သောက်သည့်ရက်",
   "viewFaq": "Lihat FAQ",
   "ok": "OK",
   "silentModeNotificationDescription": "Walau mod tumpuan dihidupkan atau peranti dalam mod senyap, pemberitahuan penting akan dipaparkan pada skrin kunci dan bunyi akan dimainkan.",
