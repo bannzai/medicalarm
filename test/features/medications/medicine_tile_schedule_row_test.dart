@@ -986,6 +986,28 @@ void main() {
       verify(medicationHistoryRevert.call(takeMedicationHistory: anyNamed('takeMedicationHistory'))).called(1);
     });
 
+    // 自分の取消の書き込み中でも、行に届いた他メンバーの記録のアンチェックは、その記録を取り消す (#443)
+    testWidgets('取消の書き込み中に他メンバーの記録が届いたら、そのアンチェックは他メンバーの記録を取り消す', (tester) async {
+      when(medicationHistoryRevert.call(takeMedicationHistory: anyNamed('takeMedicationHistory')))
+          .thenAnswer((_) => Completer<MedicationHistory>().future);
+      await pumpScheduleRow(tester, scheduleRow: buildCheckedScheduleRow());
+
+      await tester.tap(find.byType(Checkbox));
+      await tester.pump();
+      final otherMemberScheduleRow = buildCheckedScheduleRow();
+      await pumpScheduleRow(
+        tester,
+        scheduleRow: otherMemberScheduleRow.copyWith(medicationHistory: otherMemberScheduleRow.medicationHistory!.copyWith(id: 'history-other')),
+      );
+      await tester.pump();
+      expect(tester.widget<Checkbox>(find.byType(Checkbox)).value, true);
+      await tester.tap(find.byType(Checkbox));
+      await tester.pump();
+
+      final captured = verify(medicationHistoryRevert.call(takeMedicationHistory: captureAnyNamed('takeMedicationHistory'))).captured;
+      expect(captured.map((medicationHistory) => (medicationHistory as MedicationHistory).id), ['history-1', 'history-other']);
+    });
+
     // 取消が失敗すると元の take が有効なまま残るため、チェックし直しで新しい take を追記すると記録が重複する (#443)
     testWidgets('取消の書き込み中にチェックし直して取消が失敗した場合、新しい take を追記せず元の take のチェック済みに戻す', (tester) async {
       final revertCompleter = Completer<MedicationHistory>();

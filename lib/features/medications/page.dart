@@ -548,9 +548,9 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
     Future<void> revert() async {
       // 行に反映される前に取り消す take。取消に失敗した時に取消待ちから外し、チェック済みの表示対象へ戻すために保持する
       final revertTargetPendingTake = pendingTake.value;
-      if (revertTargetPendingTake == null && (hasPendingRevert.value || latestRevertResult.value?.isCompleted == false)) {
-        // 自分の取消が行に未反映か書き込み中で、表示中の take は取消済み。もう一度取り消すと取消の記録が重複する。
-        // hasPendingRevert は取消の snapshot が行に届くと下りるため、書き込み中かは latestRevertResult でも判定する。
+      if (revertTargetPendingTake == null && (hasPendingRevert.value || scheduleRow.medicationHistory == null)) {
+        // 自分の取消が行に未反映で表示中の take は取消済みか、行に取消対象の記録が無い。もう一度取り消すと取消の記録が重複する。
+        // 取消の snapshot が行に届いた後 (hasPendingRevert は下りている) の、取消の結果を待つチェックし直しを取りやめるアンチェックも後者に当たる。
         // 書き込み中の取消の結果は latestRevertResult に残し、チェックし直しが待てるようにする
         return;
       }
