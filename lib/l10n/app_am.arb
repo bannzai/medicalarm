@@ -40,6 +40,7 @@
   "deleteAccountMessage": "አካውንትዎን ማጥፋት ከሚወዱ ጊዜ የተጠቃሚ ዝርዝር ሁሉ ይሰረየዋል።",
   "medicationFrequency": "የምግባት እንቅስቃሴ",
   "daily": "የዕለቱ ትንቢት።",
+  "everyXDays": "በየX ቀናት",
   "specificWeekdays": "ጠቅላላ ቀን",
   "cycle": "ጊዜ",
   "cycleDescription": "21ኛ ቀን መጠጣት/7ኛ ቀን አንቀሳቅስ",
