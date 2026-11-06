@@ -134,6 +134,7 @@
   "purchaseErrorInvalidCredentials": "ਖਰੀਦਣ ਵਿੱਚ ਅਸਫਲਤਾ ਹੋਈ ਹੈ। ਕਿਰਪਾ ਕਰਕੇ ਸਫ਼ਰ ਦਾ ਕਾਠ ਸਮੇਂ ਰਾਹੀਂ ਮੁੜ ਕੋਸ਼ਿਸ਼ ਕਰੋ। ਜੇਕਰ ਸਮੱਸਿਆ ਹੱਲ ਨਾ ਹੋਵੇ, ਤਾਂ ਕਿ੍ਰਪਾ ਕਰਕੇ ਸੈਟਿੰਗ > ਸੰਪਰਕ ਵਿੱਚ ਜਾਓ। ਵੇਰਵੇ: {message}",
   "purchaseErrorUnexpectedBackend": "ਤਕਰਾਰ ਹੋਈ ਹੈ। ਕਿਰਪਾ ਕਰਕੇ ਕੁਝ ਸਮਾਂ ਉਡੀਕ ਕਰੋ ਅਤੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ। ਜੇ ਹੱਲ ਨਾ ਹੋਵੇ, ਤਾਂ ਕਿਰਪਾ ਕਰਕੇ ਢਿੰਗੀਆਂ > ਪੁੱਛਗਿੱਛ 'ਤੇ ਜਾ ਕੇ ਸਾਡੇ ਨਾਲ ਸੰਪਰਕ ਕਰੋ। ਵੇਰਵਾ: {message}",
   "purchaseErrorOperationInProgress": "ਖਰੀਦਣ ਵਾਲੀ ਕਾਰਵਾਈ ਹਾਂ ਜਾਰੀ ਹੈ। ਦੁਬਾਰਾ ਜਾਂਚਣ ਲਈ ਕੁਝ ਸਮਾਂ ਉਡੀਕ ਕਰੋ।",
+  "purchaseErrorInsufficientPermissions": "ਤੁਹਾਡੇ {accountName} ਖਾਤੇ ਨਾਲ ਪਲਾਨ ਦੀ ਗਾਹਕੀ ਨਹੀਂ ਲਈ ਜਾ ਸਕਦੀ। ਆਪਣੀ ਭੁਗਤਾਨ ਜਾਣਕਾਰੀ ਦੀ ਜਾਂਚ ਕਰੋ ਅਤੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।",
   "purchaseErrorPaymentPending": "ਤੁਹਾਡਾ ਭੁਗਤਾਨ ਅਰਧ ਵਿਚ ਹੀ ਰੁਕ ਗਿਆ ਹੈ। {accountName} ਨਾਲ ਲੌਗ-ਇਨ ਕਰਕੇ {storeName} ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ।",
   "premiumUserThanksTitle": "ਪ੍ਰੀਮੀਅਮ ਮੈਂਬਰ",
   "premiumUserThanksMessage": "ਤੁਹਾਡਾ ਧੰਨਵਾਦ। ਤੁਹਾਡੇ ਕਰਮ ਨਾਲ, ਅਸੀਂ Medicalarm ਦੀ ਚੱਲਾਹਟ ਜਾਰੀ ਰੱਖ ਸਕਦੇ ਹਾਂ।",

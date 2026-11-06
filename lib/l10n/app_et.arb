@@ -134,6 +134,7 @@
   "purchaseErrorInvalidCredentials": "Ostmine ebaõnnestus. Palun oota ja proovi uuesti. Kui probleem püsib, kontakteeru palun seadmest > Klienditoe kaudu. Üksikasjad: {message}",
   "purchaseErrorUnexpectedBackend": "Praegu ei saa osta. Palun proovige hiljem uuesti. Kui see probleem ei lahene, võtke meiega ühendust jaotises Seaded > Kontakt. Üksikasjad: {message}",
   "purchaseErrorOperationInProgress": "Ostuprotsess on juba käimas. Palun oota ja kontrolli uuesti.",
+  "purchaseErrorInsufficientPermissions": "Teie {accountName} kontoga ei saa plaaniga liituda. Kontrollige oma makseandmeid ja proovige uuesti.",
   "purchaseErrorPaymentPending": "Teie makse on pooleli. Kontrollige {storeName} sisse logitud kontoga {accountName}.",
   "premiumUserThanksTitle": "Oled premium liige",
   "premiumUserThanksMessage": "Aitäh, et kasutasite meid. Teie abiga saame jätkata Medicalarmi haldamist.",
