@@ -84,6 +84,7 @@
   "focusInstallMessage": "Focus ഇൻസ്റ്റാൾ ചെയ്യുക",
   "everyXDaysFormat": "{count} ദിവസം ഒന്നിച്ചു",
   "cycleDaysFormat": "{consecutiveDays} ദിവസങ്ങൾ മരുന്നു വാങ്ങുന്നു / {restDays} ദിവസങ്ങൾ വിശ്രമിക്കുന്നു",
+  "consecutiveDaysFormat": "{count} ദിവസത്തേക്ക് മരുന്ന് കഴിക്കുക",
   "restDaysFormat": "{count} ദിവസങ്ങൾ മരുന്നില്ല",
   "limitedTimeDiscount": "അടുത്ത കാലത്തെ പരിമിതിച്ച നിരക്കിൽ സ്ഥിരമായി ഉപയോഗിക്കാൻ കഴിയും",
   "monthlyPlan": "മാസികമായ പദ്ധതി",
