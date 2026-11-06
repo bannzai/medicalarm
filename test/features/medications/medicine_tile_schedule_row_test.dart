@@ -924,8 +924,9 @@ void main() {
       ));
     });
 
-    // 取消の結果を待つ間に日付の切り替え等で行が破棄されても、チェックし直しの記録を失わない (#443)
-    testWidgets('取消の書き込み中にチェックし直してから行が破棄されても、取消が成功したらチェックし直しの take を書き込む', (tester) async {
+    // 取消の結果を待つ間に日付の切り替え等で行が破棄されたら、チェックし直しの take は書かない。
+    // 作り直された行は待ち状態を引き継がず未チェックと表示されるため、そこでのチェックと重複する (#443)
+    testWidgets('取消の書き込み中にチェックし直してから行が破棄され、戻った行でチェックしたら、take は 1 件だけ書き込む', (tester) async {
       final revertCompleter = Completer<MedicationHistory>();
       when(medicationHistoryRevert.call(takeMedicationHistory: anyNamed('takeMedicationHistory'))).thenAnswer((_) => revertCompleter.future);
       await pumpScheduleRow(tester, scheduleRow: buildCheckedScheduleRow());
@@ -934,7 +935,12 @@ void main() {
       await tester.pump();
       await tester.tap(find.byType(Checkbox));
       await tester.pump();
+      // 別の日付へ移って行が破棄され、取消のローカルの書き込みが反映された未チェックの行として作り直される
       await tester.pumpWidget(const SizedBox());
+      await pumpScheduleRow(tester, scheduleRow: buildUncheckedScheduleRow());
+      await tester.pump();
+      await tester.tap(find.byType(Checkbox));
+      await tester.pump();
       revertCompleter.complete(buildRevertMedicationHistory());
       await tester.pumpAndSettle();
 

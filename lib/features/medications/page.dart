@@ -326,16 +326,8 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
     /// 非 null なら、その既存記録へ同じ ID で書き直す。
     /// 書き込みに失敗した時はエラーを表示し、この take が最新の操作なら表示を実状態へ戻す。
     /// 書き込みの前の memberSettings の取得の失敗と、Focus 連携の起動の失敗は呼び出し元へ投げる。
-    /// ref に依存する値を引数で受け取り、ウィジェットの破棄後も書き込めるようにする。
-    /// [groupID]・[currentUserID]・[memberSettingsFuture] は、呼び出し元がウィジェットの生存中に ref から読み出した値。
     /// [checkedDateTime] はユーザーがチェックした時刻で、新しい take の服用時刻にする (取消の結果を待った後でも、待ち明けの時刻にしない)
-    Future<void> takeWithReadValues({
-      required MedicationHistory? medicationHistory,
-      required DateTime checkedDateTime,
-      required String? groupID,
-      required String currentUserID,
-      required Future<GroupMemberNotificationSettings?> memberSettingsFuture,
-    }) async {
+    Future<void> take({required MedicationHistory? medicationHistory, required DateTime checkedDateTime}) async {
       // 最初の await より前に登録する。memberSettings の取得待ちの間のアンチェックも、この take の結果を取消対象にするため。
       // 既存記録の再書き込みは書き込み先が行に表示中の記録と同じで、アンチェックは行の記録を取り消せばよいため登録しない
       final takeWrite = Completer<MedicationHistory?>();
@@ -344,7 +336,12 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
         pendingTake.value = (medicationHistoryID: newMedicationHistoryID, write: takeWrite);
       }
       try {
-        final memberSettings = await memberSettingsFuture;
+        // 記録の書き込みで snapshot が更新されると、この widget は再ビルドされる。
+        // await をまたいで ref を触るとウィジェット破棄後アクセスで例外になるため、ref 依存値は await の前に読み出す。
+        final groupID = ref.read(currentGroupIDProvider);
+        final currentUserID = ref.read(appUserIDProvider);
+        // memberSettings は take 内の AlarmKit 判定と Focus 連携の解決で共用するため、write より前に読み出して解決する。
+        final memberSettings = await readFutureKeepingAliveFromWidget(ref: ref, provider: groupMemberNotificationSettingsProvider.future);
 
         final MedicationHistory newMedicationHistory;
         try {
@@ -419,19 +416,6 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
         }
       }
     }
-
-    /// ウィジェットの生存中に ref から値を読み出して [takeWithReadValues] で服薬記録(take)を書き込む。
-    /// [checkedDateTime] は [takeWithReadValues] と同じ意味
-    Future<void> take({required MedicationHistory? medicationHistory, required DateTime checkedDateTime}) => takeWithReadValues(
-          medicationHistory: medicationHistory,
-          checkedDateTime: checkedDateTime,
-          // 記録の書き込みで snapshot が更新されると、この widget は再ビルドされる。
-          // await をまたいで ref を触るとウィジェット破棄後アクセスで例外になるため、ref 依存値は await の前に読み出す。
-          groupID: ref.read(currentGroupIDProvider),
-          currentUserID: ref.read(appUserIDProvider),
-          // memberSettings は take 内の AlarmKit 判定と Focus 連携の解決で共用するため、write より前に読み出して解決する。
-          memberSettingsFuture: readFutureKeepingAliveFromWidget(ref: ref, provider: groupMemberNotificationSettingsProvider.future),
-        );
 
     // 最低服用間隔([Medicine.minimumDoseIntervalHours])が空いていない場合に注意ダイアログを挟んでから記録する (#81)。
     // 記録は無効化せず、続行するかどうかはユーザーに委ねる。
@@ -589,13 +573,6 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
       }
       final operationGeneration = checkboxOperationGeneration.value;
       isRecheckWaitingRevert.value = true;
-      // 待っている間に日付の切り替え等で行が破棄されると ref を使えず、チェックし直しの take が書けなくなる。
-      // 破棄されても書き込めるよう、take が ref から読む値を待つ前に読み出しておく
-      final groupID = ref.read(currentGroupIDProvider);
-      final currentUserID = ref.read(appUserIDProvider);
-      final memberSettingsFuture = readFutureKeepingAliveFromWidget(ref: ref, provider: groupMemberNotificationSettingsProvider.future);
-      // 取消の結果を待つ間に取得が失敗しても、未処理の例外として報告させない。失敗は takeWithReadValues の await で扱う
-      unawaited(memberSettingsFuture.then((_) {}, onError: (Object _) {}));
       final isReverted = await revertResult.future;
       // 待っている間にアンチェック・チェックし直しが行われていたら、この継続は最新の操作ではないので何もしない
       if (checkboxOperationGeneration.value != operationGeneration) {
@@ -605,18 +582,10 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
       if (!isReverted) {
         return;
       }
+      // 待っている間に日付の切り替え等で行が破棄されたら書かない。作り直された行は待ち状態を引き継がず、
+      // 取消の snapshot で未チェックと表示されるため、そこでのチェックと重複する。戻った行の表示と記録は一致し、ユーザーはチェックし直せる
       if (context.mounted) {
         await takeWithIntervalCheck(medicationHistory: null, checkedDateTime: checkedDateTime);
-      } else {
-        // 破棄された行では服用間隔の注意ダイアログを出せない。ユーザーは既にチェックし直しで記録の意思を示しており、
-        // 服用間隔のチェックは記録を無効化しない補助機能 (#81) のため、確認を挟まずに記録する
-        await takeWithReadValues(
-          medicationHistory: null,
-          checkedDateTime: checkedDateTime,
-          groupID: groupID,
-          currentUserID: currentUserID,
-          memberSettingsFuture: memberSettingsFuture,
-        );
       }
     }
 
