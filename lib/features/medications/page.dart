@@ -582,6 +582,11 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
       if (!isReverted) {
         return;
       }
+      // 待っている間に他メンバーの take が行に届いていたら、同じ予定の有効な記録があるので追記しない (追記すると記録が重複する)。
+      // hasPendingRevert が立っている間に表示中の記録は自分の取消済みの take なので、他メンバーの記録として扱わない
+      if (latestScheduleRow.value.medicationHistory != null && !hasPendingRevert.value) {
+        return;
+      }
       // 待っている間に日付の切り替え等で行が破棄されたら書かない。作り直された行は待ち状態を引き継がず、
       // 取消の snapshot で未チェックと表示されるため、そこでのチェックと重複する。戻った行の表示と記録は一致し、ユーザーはチェックし直せる
       if (context.mounted) {

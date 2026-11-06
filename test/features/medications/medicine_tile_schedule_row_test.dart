@@ -1040,6 +1040,40 @@ void main() {
       expect((captured.single as DateTime).isAfter(checkedAfterDateTime), false);
     });
 
+    // 取消の結果を待つ間に他メンバーの記録が行に届いたら、同じ予定の有効な記録があるので、チェックし直しの take を追記しない (#443)
+    testWidgets('取消の結果を待つ間に他メンバーの記録が届いたら、取消が成功してもチェックし直しの take を追記しない', (tester) async {
+      final revertCompleter = Completer<MedicationHistory>();
+      when(medicationHistoryRevert.call(takeMedicationHistory: anyNamed('takeMedicationHistory'))).thenAnswer((_) => revertCompleter.future);
+      await pumpScheduleRow(tester, scheduleRow: buildCheckedScheduleRow());
+
+      await tester.tap(find.byType(Checkbox));
+      await tester.pump();
+      await tester.tap(find.byType(Checkbox));
+      await tester.pump();
+      // 取消のローカルの書き込みの後に、他メンバーの記録が行に届く
+      await pumpScheduleRow(tester, scheduleRow: buildUncheckedScheduleRow());
+      await tester.pump();
+      final otherMemberScheduleRow = buildCheckedScheduleRow();
+      await pumpScheduleRow(
+        tester,
+        scheduleRow: otherMemberScheduleRow.copyWith(medicationHistory: otherMemberScheduleRow.medicationHistory!.copyWith(id: 'history-other')),
+      );
+      await tester.pump();
+      revertCompleter.complete(buildRevertMedicationHistory());
+      await tester.pumpAndSettle();
+
+      expect(tester.widget<Checkbox>(find.byType(Checkbox)).value, true);
+      verifyNever(medicationHistoryTake.call(
+        medicationHistory: anyNamed('medicationHistory'),
+        newMedicationHistoryID: anyNamed('newMedicationHistoryID'),
+        recordedDateTime: anyNamed('recordedDateTime'),
+        scheduledRecordedDate: anyNamed('scheduledRecordedDate'),
+        medicine: anyNamed('medicine'),
+        medicationSchedule: anyNamed('medicationSchedule'),
+        memberSettings: anyNamed('memberSettings'),
+      ));
+    });
+
     // 自分の取消の書き込み中でも、行に届いた他メンバーの記録のアンチェックは、その記録を取り消す (#443)
     testWidgets('取消の書き込み中に他メンバーの記録が届いたら、そのアンチェックは他メンバーの記録を取り消す', (tester) async {
       when(medicationHistoryRevert.call(takeMedicationHistory: anyNamed('takeMedicationHistory')))
