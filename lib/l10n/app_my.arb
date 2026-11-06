@@ -87,6 +87,7 @@
   "consecutiveDaysFormat": "ဆေးကို {count} ရက်ဆက်တိုက် သောက်ထားသည်",
   "restDaysFormat": "ဆေးမသောက်သည့်ကာလ {count} ရက်",
   "limitedTimeDiscount": "ယခု အထူးဈေးနှုန်းဖြင့် အမြဲတမ်း အသုံးပြုနိုင်ပါသည်",
+  "monthlyPlan": "လစဉ်အစီအစဉ်",
   "calendar": "ပြက္ခဒိန်",
   "diary": "ဒိုင်ယာရီ",
   "writeDiary": "ဒိုင်ယာရီရေးရန်",
