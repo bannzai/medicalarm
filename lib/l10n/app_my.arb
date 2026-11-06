@@ -128,6 +128,7 @@
   "purchaseErrorAlreadyPurchased": "ဤအစီအစဉ်ကို ဝယ်ယူပြီးဖြစ်ပါသည်။ ဤစက်တွင် ဝယ်ယူမှုအချက်အလက်များကို ပြန်လည်ရယူရန် «ယခင်က ဝယ်ယူထားသူများ ဤနေရာကိုနှိပ်ပါ» ကိုနှိပ်ပါ။",
   "purchaseErrorReceiptInUse": "ဝယ်ယူပြီးဖြစ်သည်။ သို့မဟုတ် ဝယ်ယူမှုအချက်အလက်ကို အခြားအသုံးပြုသူက အသုံးပြုနေပါသည်။ {accountName} ကို စစ်ဆေးပါ။",
   "purchaseErrorInvalidReceipt": "ဝယ်ယူမှုအချက်အလက် မမှန်ကန်ပါ။ ဝယ်ယူမှုအချက်အလက်ကို စစ်ဆေးပါ။",
+  "purchaseErrorMissingReceipt": "ဝယ်ယူသူ၏ အချက်အလက်ကို မတွေ့ပါ။ စက်တွင် {accountName} ဖြင့် အကောင့်ဝင်ပြီး ထပ်မံကြိုးစားပါ။",
   "premiumUserThanksMessage": "Terima kasih atas penggunaan anda.\nBerkat anda, kami dapat terus menjalankan Medicalarm.",
   "installPilll": "Pasang Pilll",
   "specialGift": "🎉 အထူးလက်ဆောင် 🎉",
