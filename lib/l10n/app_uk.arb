@@ -136,6 +136,7 @@
   "purchaseErrorOperationInProgress": "Інша покупка вже обробляється. Зачекайте трохи та перевірте ще раз.",
   "purchaseErrorInsufficientPermissions": "З вашим обліковим записом {accountName} неможливо оформити підписку на план. Перевірте платіжні дані й спробуйте ще раз.",
   "purchaseErrorPaymentPending": "Оплату призупинено. Перевірте {storeName} в обліковому записі {accountName}, у який ви ввійшли.",
+  "premiumUserThanksTitle": "Ви — преміумучасник",
   "premiumUserThanksMessage": "Thank you for using our service.\nThanks to you, we are able to continue operating Medicalarm.",
   "installPilll": "Install Pilll",
   "specialGift": "🎉 Особливий подарунок 🎉",
