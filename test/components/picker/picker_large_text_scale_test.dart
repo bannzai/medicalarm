@@ -77,8 +77,10 @@ void main() {
       await _pumpNumberPicker(tester, width: _latinTextSurfaceWidth, textScaleFactor: _largestTextScaleFactor);
 
       expect(tester.takeException(), isNull);
-      final itemExtent = tester.widget<CupertinoPicker>(find.byType(CupertinoPicker)).itemExtent;
-      expect(itemExtent, greaterThanOrEqualTo(_textIntrinsicHeight(tester, text: '$_initialNumber')));
+      expect(
+        tester.widget<CupertinoPicker>(find.byType(CupertinoPicker)).itemExtent,
+        greaterThanOrEqualTo(_textIntrinsicHeight(tester, text: '$_initialNumber')),
+      );
     });
 
     testWidgets('PickerToolbar の Cancel・Done の文字は行からはみ出さない', (WidgetTester tester) async {
