@@ -74,6 +74,7 @@
   "notificationSetting": "ସୂଚନା ସେଟିଂ",
   "enableFollowupNotification": "ପରବର୍ତ୍ତୀ ସୂଚନାଗୁଡ଼ିକୁ ସକ୍ରିୟ କରନ୍ତୁ",
   "followupNotificationDescription": "ପ୍ରଥମ ବିଜ୍ଞପ୍ତି ଆସିବାର ୩୦ ମିନିଟ୍ ମଧ୍ୟରେ ଔଷଧ ଖାଇଥିବା ରେକର୍ଡ ନ କଲେ, ପୁଣି ଏକ ବିଜ୍ଞପ୍ତି ପଠାଯିବ।",
+  "enableNotificationInSilentMode": "ସାଇଲେଣ୍ଟ ମୋଡ୍‌ରେ ମଧ୍ୟ ବିଜ୍ଞପ୍ତି ଦିଅନ୍ତୁ",
   "alarmKitNotification": "ଆଲାର୍ମ ସୁବିଧା",
   "alarmKitNotificationDescription": "ଆଲାର୍ମ ଘଣ୍ଟା ପରି ବିଜ୍ଞପ୍ତି ବାଜିବ। ସାଇଲେଣ୍ଟ କିମ୍ବା ଫୋକସ୍ ମୋଡ୍‌ରେ ମଧ୍ୟ ଆପଣ ବିଜ୍ଞପ୍ତି ପାଇବେ।",
   "focusConnectBlockOtherApps": "ବିଜ୍ଞପ୍ତି ପାଇବାଠାରୁ ଔଷଧ ଖାଇବାର ତଥ୍ୟ ଲେଖାହେବା ପର୍ଯ୍ୟନ୍ତ ଅନ୍ୟ ଆପ୍‌ଗୁଡ଼ିକୁ ବ୍ଲକ୍ କରନ୍ତୁ",

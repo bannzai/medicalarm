@@ -74,6 +74,7 @@
   "notificationSetting": "Налаштування сповіщень",
   "enableFollowupNotification": "Увімкнути повторні сповіщення",
   "followupNotificationDescription": "Якщо протягом 30 хвилин після першого сповіщення не відмітити прийом ліків, буде надіслано повторне сповіщення.",
+  "enableNotificationInSilentMode": "Сповіщати навіть у беззвучному режимі",
   "silentModeNotificationDescription": "Important notifications will be displayed on the lock screen and a sound will be played even when Focus Mode is ON or the device is on silent.",
   "alarmKitNotification": "Функція будильника",
   "alarmKitNotificationDescription": "Сповіщення пролунає як будильник. Ви отримаєте його навіть у беззвучному режимі чи режимі зосередження.",
