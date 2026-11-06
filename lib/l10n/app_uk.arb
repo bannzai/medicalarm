@@ -72,6 +72,7 @@
   "addMedicationSchedule": "Додати графік прийому ліків",
   "medicationScheduleNotificationSetting": "Налаштування сповіщень про графік прийому ліків",
   "notificationSetting": "Налаштування сповіщень",
+  "enableFollowupNotification": "Увімкнути повторні сповіщення",
   "silentModeNotificationDescription": "Important notifications will be displayed on the lock screen and a sound will be played even when Focus Mode is ON or the device is on silent.",
   "alarmKitNotification": "Функція будильника",
   "alarmKitNotificationDescription": "Сповіщення пролунає як будильник. Ви отримаєте його навіть у беззвучному режимі чи режимі зосередження.",

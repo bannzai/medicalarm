@@ -72,6 +72,7 @@
   "addMedicationSchedule": "Ավելացնել դեղամիջոցի դավաճանության գրաֆիկ",
   "medicationScheduleNotificationSetting": "Դեղամիջոցների ժամանակացույցի ծանուցման կարգավորումներ",
   "notificationSetting": "Անհայտացման կարգավորումներ",
+  "enableFollowupNotification": "Միացնել հետագա ծանուցումները",
   "followupNotificationDescription": "Եթե առաջին ծանուցումից 30 րոպեի ընթացքում դեղամիջոցը չգրանցվի, կհետեւի լրացուցիչ ծանուցում։",
   "enableNotificationInSilentMode": "Տեղեկացնել նաև մոլորակի ռեժիմում",
   "silentModeNotificationDescription": "Երբ կենտրոնացման ռեժիմը ակտիվ է, կամ սարքն անջատման (մենակ) ռեժիմում է, կարևոր ծանուցումները ամբողջ էկրանին (տրամկապի մեջ) ցուցադրվելու են՝ իրականացնելով ձայներ",
