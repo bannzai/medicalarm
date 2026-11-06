@@ -58,13 +58,14 @@ bannzai（以下「提供者」といいます。）は、提供者の提供す�
 | Google LLC | Firebase Crashlytics | 不具合の調査 | クラッシュ情報 |
 | Google LLC | Firebase Cloud Messaging・Firebase Remote Config・Firebase App Check | 通知の送信、設定の配信、不正なアクセスの防止 | 通知用の端末のトークン、端末とアプリの情報 |
 | Google LLC | Google AdMob | 広告の表示 | 広告識別子、端末とアプリの情報 |
-| Google LLC | Google フォーム | お問い合わせの受付 | お問い合わせの内容、ユーザー ID、アプリのバージョン、プレミアムプランの加入状況 |
+| Google LLC | Google フォーム | お問い合わせの受付 | お問い合わせの内容、ユーザー ID、ユーザー情報の作成日時、アプリのバージョン、プレミアムプランの加入状況 |
 | RevenueCat, Inc. | RevenueCat | 課金（プレミアムプラン）の管理 | ユーザー ID、購入の履歴 |
 | OpenAI, L.L.C. | OpenAI API | 画像からの薬の登録 | ユーザーが選択した画像 |
-<!-- source: pubspec.yaml (firebase_auth・cloud_firestore・firebase_storage・cloud_functions・firebase_analytics・firebase_crashlytics・firebase_messaging・firebase_remote_config・firebase_app_check・google_mobile_ads・purchases_flutter・sign_in_with_apple・google_sign_in)、lib/components/button/inquiry.dart (Google フォームの URL にユーザー ID・アプリのバージョン・プレミアムの状態を付けて開く)、lib/utils/purchase/purchase.dart (Purchases.logIn に Firebase の uid を渡す)、firebase/functions/src/functions/generateMedicinesFromImage/function.ts (openai パッケージで画像を送る) -->
+<!-- source: pubspec.yaml (firebase_auth・cloud_firestore・firebase_storage・cloud_functions・firebase_analytics・firebase_crashlytics・firebase_messaging・firebase_remote_config・firebase_app_check・google_mobile_ads・purchases_flutter・sign_in_with_apple・google_sign_in)、lib/components/button/inquiry.dart (debugInfo が Google フォームの URL にユーザー ID・AppUser.createdDateTime・アプリのバージョン・プレミアムの状態を付けて開く)、lib/utils/purchase/purchase.dart (Purchases.logIn に Firebase の uid を渡す)、firebase/functions/src/functions/generateMedicinesFromImage/function.ts (openai パッケージで画像を送る) -->
 
 ## 外部の AI サービスへの送信
-本サービスの「画像から登録」の機能を使った場合、ユーザーが撮影または選択した画像（お薬手帳・処方箋・薬袋・薬のパッケージ等）を、Cloud Functions for Firebase を経由して OpenAI, L.L.C. の API に送信し、画像に写った薬の名前・服用の時刻・1 回あたりの服用量を読み取ります。提供者は、この機能のために送信された画像を本サービスのサーバーに保存しません。OpenAI, L.L.C. における送信された画像の取扱いは、同社のプライバシーポリシー（https://openai.com/policies/privacy-policy/ ）に従います。この機能を使わない場合、画像は送信されません。
+本サービスの「画像から登録」の機能を使った場合、ユーザーが撮影または選択した画像（お薬手帳・処方箋・薬袋・薬のパッケージ等）を、Cloud Functions for Firebase を経由して OpenAI, L.L.C. の API に送信し、画像に写った薬の名前・服用の時刻・1 回あたりの服用量を読み取ります。提供者は、この機能のために送信された画像を本サービスのサーバーに保存しません。OpenAI, L.L.C. は、API に送信された内容を、利用者が許可しない限りモデルの学習に使わず、不正利用の監視のために最大 30 日間保存します。OpenAI, L.L.C. における送信された画像の取扱いは、同社の API のデータの取扱いの説明（https://developers.openai.com/api/docs/guides/your-data ）に従います。この機能を使わない場合、画像は送信されません。
+<!-- source: https://developers.openai.com/api/docs/guides/your-data 「data sent to the OpenAI API is not used to train or improve OpenAI models」「By default, abuse monitoring logs are generated for all API feature usage and retained for up to 30 days」(2026-11-06 に確認) -->
 <!-- source: firebase/functions/src/functions/generateMedicinesFromImage/function.ts: 受け取った画像を base64 の data URL として openai.chat.completions.create に渡し、Firestore に書くのは月間の利用回数 (aiUsage) だけで画像は保存しない -->
 
 ## 広告
@@ -73,7 +74,8 @@ bannzai（以下「提供者」といいます。）は、提供者の提供す�
 
 ## 利用者情報の保存期間
 - サーバーに保存した利用者情報は、ユーザーが本サービスを利用している間保存し、ユーザーから削除の依頼を受けた場合は、ユーザーご本人からの依頼であることを確認の上で遅滞なく削除します。
-- 端末内に保存した利用者情報（端末内の設定等）は、本サービスのアプリを端末から削除すると端末から消去されます。
+- 端末内に保存した利用者情報（端末内の設定等）は、本サービスのアプリを端末から削除すると端末から消去されます。ただし iOS では、ログインの状態（Firebase Authentication の認証情報）が端末のキーチェーンに残り、アプリを再びインストールした時に引き継がれる場合があります。
+<!-- source: https://firebase.google.com/docs/auth/ios/single-sign-on は共有キーチェーンでの設定を「store the authentication state in a shared keychain using Keychain Services」と書き、「Switching from a shared to unshared keychain will not clear the signed-in user」と書く (2026-11-06 に確認)。ログインの状態がキーチェーンにあることはこの記述からの推定で、アプリの削除後に残るかは本アプリで未確認のため「場合があります」と書く (PR #547 の CodeRabbit の指摘) -->
 - 上記の外部サービスが保存する情報は、各事業者の定める期間保存されます。
 
 ## 利用者情報の削除の手順
