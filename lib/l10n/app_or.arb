@@ -101,6 +101,7 @@
   "doseReceiverRegistrationLimit": "ମେଡିକାଲର୍ମରେ ଗଣନା ପ୍ରଜ୍ଞା ରେ ମେଡିକେସନ୍ ବ୍ୟବହାର କରୁଥିବା ପେସିଏଣ୍ଟ୍ ସଂଖ୍ୟା ବଢିବା ପାଇଁ.",
   "notificationScheduleLimit": "ବିଜ୍ଞପ୍ତି ସୂଚୀର ସଂଖ୍ୟାକୁ",
   "addMedicine": "ଔଷଧ ଯୋଡନ୍ତୁ",
+  "medicineMaxCount": "ଆପଣ ସର୍ବାଧିକ {count}ଟି ଔଷଧ ପଞ୍ଜୀକରଣ କରିପାରିବେ।",
   "viewPremiumPlan": "ପ୍ରିମିୟମ୍ ପ୍ଲାନ୍ ଦେଖନ୍ତୁ",
   "constipation": "ଇନ୍ଗରେଡିୟେଣ୍ଟ",
   "purchaseErrorStoreProblem": "{storeName}ରେ ଏକ ତ୍ରୁଟି ଘଟୁଛି। କିଛି ସମୟ ଅପେକ୍ଷା କରନ୍ତୁ ଏବଂ ପୁନଃପରୀକ୍ଷା କରନ୍ତୁ।",
