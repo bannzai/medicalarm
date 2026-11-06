@@ -132,6 +132,7 @@
   "purchaseErrorNetwork": "З’єднання з мережею нестабільне. Перевірте підключення та спробуйте ще раз.",
   "purchaseNotAllowed": "На цьому пристрої покупки не дозволені",
   "purchaseErrorInvalidCredentials": "Не вдалося здійснити покупку. Спробуйте ще раз пізніше. Якщо проблема не зникне, зверніться до нас через Налаштування > Зв’язатися з нами. Деталі: {message}",
+  "purchaseErrorUnexpectedBackend": "Зараз покупка недоступна. Спробуйте ще раз пізніше. Якщо проблема не зникне, зверніться до нас через Налаштування > Зв’язатися з нами. Подробиці: {message}",
   "premiumUserThanksMessage": "Thank you for using our service.\nThanks to you, we are able to continue operating Medicalarm.",
   "installPilll": "Install Pilll",
   "specialGift": "🎉 Особливий подарунок 🎉",
