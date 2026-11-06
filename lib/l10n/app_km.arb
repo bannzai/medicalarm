@@ -120,7 +120,6 @@
   "lossOfAppetite": "ការខ្វះអត្ថប្រយោជន៍",
   "chestTightness": "ដាស្មារតី",
   "insomnia": "មិនអាចដេក",
-  "monthlyPlanDiscountFormat": " discounte  {percent}% OFF per month",
   "purchaseErrorUnknown": "មានកំហុសដែលមិនអាចកំណត់បាន។ សូមអាណាចក្រនៅពេលក្រោយហើយព្យាយាមម្ដងទៀត។ ប្រសិនបើមិនដោះសោបាន សូមទាក់ទងតាមរយៈ ការកំណត់ > សំណួរ។ លម្អិត: {message}",
   "purchaseErrorStoreProblem": "មានកំហុសកើតឡើងនៅ {storeName} សូមរងចាំប៉ុន្មាននាទី ហើយព្យាយាមម្តងទៀត",
   "purchaseErrorInvalidPayment": "ការទូទាត់បានបរាជ័យ។ សូមពិនិត្យថាវិធីបង់ប្រាក់របស់អ្នកនៅមានសុពលភាព ហើយព្យាយាមម្តងទៀត។",
