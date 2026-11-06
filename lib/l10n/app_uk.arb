@@ -82,6 +82,7 @@
   "focusConnectBlockOtherAppsDescription": "Інші застосунки буде заблоковано від отримання сповіщення до запису про прийом ліків.",
   "focusNotInstalled": "Focus не встановлено",
   "focusInstallMessage": "Установіть Focus",
+  "everyXDaysFormat": "З інтервалом {count} дн.",
   "calendar": "Календар",
   "diary": "Щоденник",
   "writeDiary": "Написати щоденник",
