@@ -138,6 +138,7 @@
   "purchaseErrorPaymentPending": "ငွေပေးချေမှု ဆိုင်းငံ့ထားပါသည်။ လက်ရှိ ဝင်ရောက်ထားသော {accountName} အကောင့်ဖြင့် {storeName} ကို စစ်ဆေးပါ။",
   "premiumUserThanksTitle": "သင်သည် ပရီမီယံအဖွဲ့ဝင်ဖြစ်ပါသည်",
   "premiumUserThanksMessage": "Terima kasih atas penggunaan anda.\nBerkat anda, kami dapat terus menjalankan Medicalarm.",
+  "premiumPricePerMonth": "（{price}/လ）",
   "installPilll": "Pasang Pilll",
   "specialGift": "🎉 အထူးလက်ဆောင် 🎉",
   "freePremiumTrialDays": "လက်ဆောင်အဖြစ် {count} ရက် အခမဲ့ အစမ်းသုံးကာလကို ရရှိပါမည်!",
