@@ -69,13 +69,13 @@ bannzai（以下「提供者」といいます。）は、提供者の提供す�
 <!-- source: firebase/functions/src/functions/generateMedicinesFromImage/function.ts: 受け取った画像を base64 の data URL として openai.chat.completions.create に渡し、Firestore に書くのは月間の利用回数 (aiUsage) だけで画像は保存しない -->
 
 ## 広告
-本サービスは、Google LLC の広告配信サービス Google AdMob を利用して広告を表示します。iOS では、アプリのトラッキングの許可を求める表示でユーザーが許可した場合に限り、Google AdMob は広告識別子を利用してユーザーの興味に応じた広告を表示します。許可しなかった場合も広告は表示されますが、広告識別子は利用されません。トラッキングの許可は端末の「設定」アプリからいつでも変更できます。Google LLC による広告での情報の取扱いは、同社のポリシー（https://policies.google.com/technologies/ads?hl=ja ）に従います。
-<!-- source: lib/components/admob/admob.dart が広告の読み込み前に requestAppTrackingTransparency (ios/Runner/requestAppTrackingTransparency.swift の ATTrackingManager.requestTrackingAuthorization) を呼ぶ。Apple の ATT は未許可の時に広告識別子をゼロの値で返す (https://developer.apple.com/documentation/adsupport/asidentifiermanager/advertisingidentifier 「the value of this property is all zeros」) -->
+本サービスは、Google LLC の広告配信サービス Google AdMob を利用して広告を表示します。iOS では、アプリのトラッキングの許可を求める表示でユーザーが許可した場合に限り、Google AdMob は広告識別子を利用してユーザーの興味に応じた広告を表示します。許可しなかった場合も広告は表示されますが、広告識別子は利用されません。トラッキングの許可は端末の「設定」アプリからいつでも変更できます。Android では、Google AdMob は Google Play 開発者サービスの広告 ID を利用します。広告 ID は端末の設定からリセットまたは削除できます。Google LLC による広告での情報の取扱いは、同社のポリシー（https://policies.google.com/technologies/ads?hl=ja ）に従います。
+<!-- source: lib/components/admob/admob.dart が広告の読み込み前に requestAppTrackingTransparency (ios/Runner/requestAppTrackingTransparency.swift の ATTrackingManager.requestTrackingAuthorization) を呼ぶ。Apple の ATT は未許可の時に広告識別子をゼロの値で返す (https://developer.apple.com/documentation/adsupport/asidentifiermanager/advertisingidentifier 「the value of this property is all zeros」)。Android の広告 ID は https://support.google.com/googleplay/android-developer/answer/6048248 「The advertising ID is a unique, user-resettable, and user-deletable ID for advertising, provided by Google Play services.」(2026-11-06 に確認) -->
 
 ## 利用者情報の保存期間
 - サーバーに保存した利用者情報は、ユーザーが本サービスを利用している間保存し、ユーザーから削除の依頼を受けた場合は、ユーザーご本人からの依頼であることを確認の上で遅滞なく削除します。
 - 端末内に保存した利用者情報（端末内の設定等）は、本サービスのアプリを端末から削除すると端末から消去されます。ただし iOS では、ログインの状態（Firebase Authentication の認証情報）が端末のキーチェーンに残り、アプリを再びインストールした時に引き継がれる場合があります。
-<!-- source: https://firebase.google.com/docs/auth/ios/single-sign-on は共有キーチェーンでの設定を「store the authentication state in a shared keychain using Keychain Services」と書き、「Switching from a shared to unshared keychain will not clear the signed-in user」と書く (2026-11-06 に確認)。ログインの状態がキーチェーンにあることはこの記述からの推定で、アプリの削除後に残るかは本アプリで未確認のため「場合があります」と書く (PR #547 の CodeRabbit の指摘) -->
+<!-- source: https://firebase.google.com/docs/auth/ios/single-sign-on は共有キーチェーンでの設定を「store the authentication state in a shared keychain using Keychain Services」と書き、「Switching from a shared to unshared keychain will not clear the signed-in user」と書く (2026-11-06 に確認)。ログインの状態がキーチェーンにあることはこの記述からの推定で、アプリの削除後に残るかは本アプリで未確認のため「場合があります」と書く -->
 - 上記の外部サービスが保存する情報は、各事業者の定める期間保存されます。
 
 ## 利用者情報の削除の手順
