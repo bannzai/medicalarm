@@ -32,6 +32,7 @@
   "premiumRegistrationThanks": "Дякуємо за реєстрацію.\nТепер вам доступні всі функції!",
   "unknownError": "Сталася невідома помилка",
   "error": "Сталася помилка",
+  "unexpectedError": "Сталася неочікувана помилка",
   "everyXDays": "every X days",
   "quantityExample": "e.g., 1 tablet, 100mg",
   "viewFaq": "View FAQ",
