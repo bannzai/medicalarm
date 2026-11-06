@@ -69,6 +69,7 @@
   "ok": "OK",
   "medicationScheduleLimit": "Максимальна кількість розкладів приймання ліків: {count}.",
   "increaseMedicationScheduleLimit": "Збільшити ліміт до {count} з преміумпланом",
+  "addMedicationSchedule": "Додати графік прийому ліків",
   "silentModeNotificationDescription": "Important notifications will be displayed on the lock screen and a sound will be played even when Focus Mode is ON or the device is on silent.",
   "alarmKitNotification": "Функція будильника",
   "alarmKitNotificationDescription": "Сповіщення пролунає як будильник. Ви отримаєте його навіть у беззвучному режимі чи режимі зосередження.",

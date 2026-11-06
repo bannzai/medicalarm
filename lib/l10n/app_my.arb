@@ -69,6 +69,7 @@
   "ok": "OK",
   "medicationScheduleLimit": "ဆေးသောက်ချိန်ဇယားကို {count} ခုအထိ ထည့်နိုင်ပါသည်။",
   "increaseMedicationScheduleLimit": "ပရီမီယံအစီအစဉ်ဖြင့် အများဆုံးအရေအတွက်ကို {count} အထိ တိုးမြှင့်ပါ",
+  "addMedicationSchedule": "ဆေးသောက်ချိန်ဇယား ထည့်ရန်",
   "silentModeNotificationDescription": "Walau mod tumpuan dihidupkan atau peranti dalam mod senyap, pemberitahuan penting akan dipaparkan pada skrin kunci dan bunyi akan dimainkan.",
   "alarmKitNotification": "နှိုးစက် လုပ်ဆောင်ချက်",
   "alarmKitNotificationDescription": "နှိုးစက်ကဲ့သို့ အသိပေးချက် မြည်ပါမည်။ အသံတိတ်မုဒ် သို့မဟုတ် အာရုံစိုက်မုဒ်တွင်လည်း အသိပေးချက်ကို ရရှိပါမည်။",
