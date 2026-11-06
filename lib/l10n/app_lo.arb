@@ -99,6 +99,7 @@
   "editDiaryTooltip": "ແກ້ໄຂບັນທຶກປະຈຳວັນ",
   "medicineRegistrationLimit": "ຈຳນວນສິນຄ້າແທນທີ່ຈະລົງບັດເຊື່ອງຢູ່",
   "doseReceiverRegistrationLimit": "ຈຳນວນສະຖານທີ່ບັດທັບສົງສູງ ສໍາລັບຜູ້ຮັບສິນໃບຄົນຕ່າງໆ",
+  "notificationScheduleLimit": "ຈຳນວນຕາຕະລາງການແຈ້ງເຕືອນ",
   "addMedicine": "ເພີ່ມຢາ",
   "medicineMaxCount": "ຍາໃສ່ໄດ້ແຕ່ {count} ຊິ່ນ.",
   "increaseMedicineLimitWithPremium": "ເພີ່ມຂອບເຂດໃນແຜນບໍ່ລາຄາສູງເປັນ {count}",
