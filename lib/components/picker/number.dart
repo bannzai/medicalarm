@@ -32,7 +32,9 @@ class AppNumberPicker extends StatelessWidget {
                 Navigator.pop(context);
               },
               child: CupertinoPicker(
-                itemExtent: 30,
+                // 既定の文字サイズの項目の高さ 30 を、端末の文字の倍率に合わせて伸ばす。
+                // 固定のままだと文字を拡大した時に数字の上下が切れる (#522)
+                itemExtent: MediaQuery.textScalerOf(context).scale(30),
                 scrollController: FixedExtentScrollController(
                   initialItem: selectedNumber,
                 ),
