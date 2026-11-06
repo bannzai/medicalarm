@@ -86,6 +86,7 @@
   "cycleDaysFormat": "{consecutiveDays} dagar med medicin/{restDays} dagar utan medicin",
   "consecutiveDaysFormat": "{count} dagar medicinering",
   "restDaysFormat": "{count} dagar utan medicin",
+  "limitedTimeDiscount": "Använd appen för alltid till ett specialpris – bara nu",
   "monthlyPlan": "Månadsplan",
   "annualPlan": "Årsplan",
   "weeklyPlan": "Veckoprenumeration",
