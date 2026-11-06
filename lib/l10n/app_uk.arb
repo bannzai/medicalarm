@@ -48,6 +48,7 @@
   "specificWeekdaysDescription": "Наприклад: лише щопонеділка; щосереди та щоп’ятниці",
   "medicineFormValidationError": "Введіть назву та графік прийому ліків",
   "quantity": "Доза",
+  "quantityExample": "Наприклад: 1 таблетка, 100 мг",
   "medicationStartDate": "Дата початку прийому ліків",
   "otherInformation": "Додаткова інформація",
   "doseReceiver": "Особа, яка приймає ліки",

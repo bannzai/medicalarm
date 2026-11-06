@@ -48,6 +48,7 @@
   "specificWeekdaysDescription": "ဥပမာ - တနင်္လာနေ့တိုင်းသာ; ဗုဒ္ဓဟူးနေ့နှင့် သောကြာနေ့တိုင်း",
   "medicineFormValidationError": "အမည်နှင့် ဆေးသောက်ချိန်ဇယားကို ထည့်ပါ",
   "quantity": "ဆေးပမာဏ",
+  "quantityExample": "ဥပမာ - 1 ပြား၊ 100 မီလီဂရမ်",
   "medicationStartDate": "ဆေးစတင်သောက်သည့်ရက်",
   "otherInformation": "အခြားအချက်အလက်",
   "doseReceiver": "ဆေးသောက်သူ",
