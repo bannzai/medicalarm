@@ -60,6 +60,7 @@
   "reloginRequired": "Увійдіть знову",
   "reloginMessage": "Щоб видалити обліковий запис, увійдіть знову.",
   "relogin": "Увійти знову",
+  "accountDeleted": "Обліковий запис видалено",
   "viewFaq": "View FAQ",
   "ok": "OK",
   "silentModeNotificationDescription": "Important notifications will be displayed on the lock screen and a sound will be played even when Focus Mode is ON or the device is on silent.",
