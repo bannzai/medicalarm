@@ -130,6 +130,7 @@
   "purchaseErrorInvalidReceipt": "Дані про покупку недійсні. Перевірте дані про покупку.",
   "purchaseErrorMissingReceipt": "Інформацію про покупця не знайдено. Увійдіть на пристрої в обліковий запис {accountName} і спробуйте ще раз.",
   "purchaseErrorNetwork": "З’єднання з мережею нестабільне. Перевірте підключення та спробуйте ще раз.",
+  "purchaseNotAllowed": "На цьому пристрої покупки не дозволені",
   "premiumUserThanksMessage": "Thank you for using our service.\nThanks to you, we are able to continue operating Medicalarm.",
   "installPilll": "Install Pilll",
   "specialGift": "🎉 Особливий подарунок 🎉",

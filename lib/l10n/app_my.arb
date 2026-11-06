@@ -130,6 +130,7 @@
   "purchaseErrorInvalidReceipt": "ဝယ်ယူမှုအချက်အလက် မမှန်ကန်ပါ။ ဝယ်ယူမှုအချက်အလက်ကို စစ်ဆေးပါ။",
   "purchaseErrorMissingReceipt": "ဝယ်ယူသူ၏ အချက်အလက်ကို မတွေ့ပါ။ စက်တွင် {accountName} ဖြင့် အကောင့်ဝင်ပြီး ထပ်မံကြိုးစားပါ။",
   "purchaseErrorNetwork": "ကွန်ရက်ချိတ်ဆက်မှု မတည်ငြိမ်ပါ။ ချိတ်ဆက်မှုကို စစ်ဆေးပြီး ထပ်မံကြိုးစားပါ။",
+  "purchaseNotAllowed": "ဤစက်တွင် ဝယ်ယူခွင့် မပြုထားပါ",
   "premiumUserThanksMessage": "Terima kasih atas penggunaan anda.\nBerkat anda, kami dapat terus menjalankan Medicalarm.",
   "installPilll": "Pasang Pilll",
   "specialGift": "🎉 အထူးလက်ဆောင် 🎉",

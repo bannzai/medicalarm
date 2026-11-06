@@ -130,6 +130,7 @@
   "purchaseErrorInvalidReceipt": "ଅବୈଧ କ୍ରୟ ସୂଚନା ଅଟେ। ଦୟାକରି କ୍ରୟ ସୂଚନା ପରୀକ୍ଷା କରନ୍ତୁ।",
   "purchaseErrorMissingReceipt": "କ୍ରେତାଙ୍କ ସୂଚନା ମିଳିଲା ନାହିଁ। ଡିଭାଇସ୍‌ରେ {accountName} ସହ ସାଇନ୍ ଇନ୍ କରି ପୁଣି ଚେଷ୍ଟା କରନ୍ତୁ।",
   "purchaseErrorNetwork": "ମାନେ ସଂଯୋଗ ସ୍ଥିତି ଅସଥିର ଅଟେ। ଦୟାକରି ସଂଯୋଗ ସ୍ଥିତିର ସଂଲ୍ପ ଓଡ଼ାଇଣ୍ଟିକୁ ଯାଞ୍ଚ କରନ୍ତୁ।",
+  "purchaseNotAllowed": "ଏହି ଡିଭାଇସ୍‌ରେ କିଣିବାକୁ ଅନୁମତି ନାହିଁ",
   "sixMonthPlan": "6 ମାସ ଯୋଜନା",
   "privacyPolicy": "ପ୍ରାଇଭେସୀ ପୋଲିସୀ",
   "purchaseRestored": "ଆପଣଙ୍କର କିଣା ତଥ୍ୟ ପୁନଃସ୍ଥାପିତ ହୋଇଛି",
