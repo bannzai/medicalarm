@@ -46,6 +46,7 @@
   "cycleDescription": "Приклад: 21 день прийому ліків / 7 днів перерви",
   "everyXDaysDescription": "Наприклад: кожні 2 дні, кожні 3 дні",
   "specificWeekdaysDescription": "Наприклад: лише щопонеділка; щосереди та щоп’ятниці",
+  "medicineFormValidationError": "Введіть назву та графік прийому ліків",
   "quantityExample": "e.g., 1 tablet, 100mg",
   "viewFaq": "View FAQ",
   "ok": "OK",
