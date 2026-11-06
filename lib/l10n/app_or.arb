@@ -105,6 +105,7 @@
   "increaseMedicineLimitWithPremium": "ପ୍ରିମିୟମ୍ ପ୍ଲାନ୍‌ରେ ଔଷଧ ପଞ୍ଜୀକରଣ ସୀମା {count}କୁ ବଢ଼ାନ୍ତୁ",
   "aboutApp": "ଆପ୍ ବିଷୟରେ",
   "viewPremiumPlan": "ପ୍ରିମିୟମ୍ ପ୍ଲାନ୍ ଦେଖନ୍ତୁ",
+  "cancelSubscriptionInstruction": "କିଣିବା ପରେ, {storeName} ଆପ୍‌ର ଆକାଉଣ୍ଟ ସେଟିଂସ୍‌ରେ ସ୍ୱୟଂଚାଳିତ ନବୀକରଣ ବାତିଲ କରିପାରିବେ। (ଏହି ଆପ୍‌ ମଧ୍ୟରୁ ସ୍ୱୟଂଚାଳିତ ନବୀକରଣ ବାତିଲ କରାଯାଇପାରିବ ନାହିଁ।)",
   "constipation": "ଇନ୍ଗରେଡିୟେଣ୍ଟ",
   "purchaseErrorStoreProblem": "{storeName}ରେ ଏକ ତ୍ରୁଟି ଘଟୁଛି। କିଛି ସମୟ ଅପେକ୍ଷା କରନ୍ତୁ ଏବଂ ପୁନଃପରୀକ୍ଷା କରନ୍ତୁ।",
   "purchaseErrorInvalidReceipt": "ଅବୈଧ କ୍ରୟ ସୂଚନା ଅଟେ। ଦୟାକରି କ୍ରୟ ସୂଚନା ପରୀକ୍ଷା କରନ୍ତୁ।",
