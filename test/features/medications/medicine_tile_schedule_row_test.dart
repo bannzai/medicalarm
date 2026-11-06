@@ -986,6 +986,54 @@ void main() {
       verify(medicationHistoryRevert.call(takeMedicationHistory: anyNamed('takeMedicationHistory'))).called(1);
     });
 
+    // 取消の snapshot で行の記録が消えた後に取消が失敗しても、取り消せなかった take が残るのでチェック済みへ戻す (#443)
+    testWidgets('取消の書き込み中にチェックし直し、取消の snapshot が届いてから取消が失敗したら、チェック済みへ戻す', (tester) async {
+      final revertCompleter = Completer<MedicationHistory>();
+      when(medicationHistoryRevert.call(takeMedicationHistory: anyNamed('takeMedicationHistory'))).thenAnswer((_) => revertCompleter.future);
+      final originalErrorLogger = errorLogger;
+      errorLogger = _NoopErrorLogger();
+      addTearDown(() => errorLogger = originalErrorLogger);
+      await pumpScheduleRow(tester, scheduleRow: buildCheckedScheduleRow());
+
+      await tester.tap(find.byType(Checkbox));
+      await tester.pump();
+      await tester.tap(find.byType(Checkbox));
+      await tester.pump();
+      await pumpScheduleRow(tester, scheduleRow: buildUncheckedScheduleRow());
+      await tester.pump();
+      revertCompleter.completeError(Exception('revert failed'));
+      await tester.pumpAndSettle();
+
+      expect(tester.widget<Checkbox>(find.byType(Checkbox)).value, true);
+    });
+
+    // 取消の結果を待ってから記録しても、服用時刻は待ち明けではなくチェックし直した時刻にする (#443)
+    testWidgets('取消の結果を待ったチェックし直しの take は、チェックし直した時刻を服用時刻にする', (tester) async {
+      final revertCompleter = Completer<MedicationHistory>();
+      when(medicationHistoryRevert.call(takeMedicationHistory: anyNamed('takeMedicationHistory'))).thenAnswer((_) => revertCompleter.future);
+      await pumpScheduleRow(tester, scheduleRow: buildCheckedScheduleRow());
+
+      await tester.tap(find.byType(Checkbox));
+      await tester.pump();
+      await tester.tap(find.byType(Checkbox));
+      await tester.pump();
+      final checkedAfterDateTime = DateTime.now();
+      await tester.runAsync(() => Future<void>.delayed(const Duration(milliseconds: 50)));
+      revertCompleter.complete(buildRevertMedicationHistory());
+      await tester.pumpAndSettle();
+
+      final captured = verify(medicationHistoryTake.call(
+        medicationHistory: anyNamed('medicationHistory'),
+        newMedicationHistoryID: anyNamed('newMedicationHistoryID'),
+        recordedDateTime: captureAnyNamed('recordedDateTime'),
+        scheduledRecordedDate: anyNamed('scheduledRecordedDate'),
+        medicine: anyNamed('medicine'),
+        medicationSchedule: anyNamed('medicationSchedule'),
+        memberSettings: anyNamed('memberSettings'),
+      )).captured;
+      expect((captured.single as DateTime).isAfter(checkedAfterDateTime), false);
+    });
+
     // 自分の取消の書き込み中でも、行に届いた他メンバーの記録のアンチェックは、その記録を取り消す (#443)
     testWidgets('取消の書き込み中に他メンバーの記録が届いたら、そのアンチェックは他メンバーの記録を取り消す', (tester) async {
       when(medicationHistoryRevert.call(takeMedicationHistory: anyNamed('takeMedicationHistory')))
