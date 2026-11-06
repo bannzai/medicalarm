@@ -243,6 +243,8 @@
   "medicineImageImportTimeFallbackCaption": "មិនអាចអានម៉ោងលេបថ្នាំបានទេ ដូច្នេះបានកំណត់ម៉ោងបណ្ដោះអាសន្ន។ អ្នកអាចកែប្រែវាបន្ទាប់ពីរក្សាទុក។",
   "medicineImageImportDroppedSchedulesCaption": "ម៉ោងលេបថ្នាំចំនួន {count} ដែលលើសកំណត់ នឹងមិនត្រូវបានចុះឈ្មោះទេ",
   "medicineImageImportGroupChangedError": "ការចុះឈ្មោះត្រូវបានលុបចោល ព្រោះក្រុមបានផ្លាស់ប្តូរ។",
+  "medicineImageImportConsentTitle": "ផ្ញើរូបភាពទៅ AI ខាងក្រៅ",
+  "medicineImageImportConsentMessage": "រូបភាពដែលបានជ្រើសរើសនឹងត្រូវបានផ្ញើទៅ AI របស់ OpenAI ដើម្បីអានឈ្មោះថ្នាំ និងម៉ោងលេប។ រូបភាពមិនត្រូវបានរក្សាទុកនៅលើម៉ាស៊ីនមេរបស់យើងទេ។",
   "minimumDoseInterval": "ចន្លោះពេលរវាងដូស",
   "minimumDoseIntervalDescription": "រយៈពេលអប្បបរមាដែលត្រូវរង់ចាំបន្ទាប់ពីលេបថ្នាំលើកមុន",
   "minimumDoseIntervalNone": "គ្មាន",

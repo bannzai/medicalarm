@@ -243,6 +243,8 @@
   "medicineImageImportTimeFallbackCaption": "દવા લેવાનો સમય વાંચી શકાયો નથી, તેથી અસ્થાયી સમય સેટ કર્યો છે. નોંધણી પછી તમે તેને બદલી શકો છો.",
   "medicineImageImportDroppedSchedulesCaption": "મર્યાદાથી વધુ દવા લેવાના {count} સમય નોંધવામાં આવશે નહીં",
   "medicineImageImportGroupChangedError": "જૂથ બદલાઈ ગયું હોવાથી નોંધણી રદ કરવામાં આવી છે.",
+  "medicineImageImportConsentTitle": "છબી બાહ્ય AI ને મોકલો",
+  "medicineImageImportConsentMessage": "દવાઓના નામ અને લેવાના સમય વાંચવા માટે પસંદ કરેલી છબી OpenAI ના AI ને મોકલવામાં આવશે. છબી અમારા સર્વર પર સંગ્રહિત થતી નથી.",
   "minimumDoseInterval": "દવા લેવાના અંતરાલ",
   "minimumDoseIntervalDescription": "છેલ્લો ડોઝ લીધા પછી ઓછામાં ઓછો રાખવાનો સમય",
   "minimumDoseIntervalNone": "કંઈ નથી",

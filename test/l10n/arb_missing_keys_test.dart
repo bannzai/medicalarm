@@ -4,8 +4,8 @@ import 'dart:io';
 import 'package:collection/collection.dart';
 import 'package:flutter_test/flutter_test.dart';
 
-// ja・en 以外の言語の arb に無く、日本語で表示されていた 28 キーの訳文があることを確かめる (#495)
-// 新機能の PR は ja・en だけにキーを足し、他の言語は後から翻訳するため、全キーではなくこの 28 キーを対象にする
+// ja・en 以外の言語の arb に無く、日本語で表示されていた 28 キー (#495) と、全言語に足したキーの訳文があることを確かめる
+// 新機能の PR は ja・en だけにキーを足し、他の言語は後から翻訳するため、全キーではなく列挙したキーを対象にする
 void main() {
   const keys = [
     'alarmKitNotification',
@@ -23,6 +23,10 @@ void main() {
     'medicineImageImportTimeFallbackCaption',
     'medicineImageImportDroppedSchedulesCaption',
     'medicineImageImportGroupChangedError',
+    // 外部の AI に画像を送る前の確認ダイアログ (#548)。App Store の審査で全言語に表示が要るため ja・en 以外にも足す
+    'medicineImageImportConsentTitle',
+    'medicineImageImportConsentMessage',
+    'cancel',
     'featureRequestTitle',
     'featureRequestPromptTitle',
     'featureRequestPromptMessage',
@@ -45,7 +49,7 @@ void main() {
   Set<String> placeholders(String message) => RegExp(r'\{(\w+)\}').allMatches(message).map((match) => match.group(1)!).toSet();
 
   for (final locale in locales) {
-    test('app_$locale.arb に 28 キーの訳文があり、プレースホルダが原文 (ja) と同じ', () {
+    test('app_$locale.arb に対象キーの訳文があり、プレースホルダが原文 (ja) と同じ', () {
       final arb = jsonDecode(File('lib/l10n/app_$locale.arb').readAsStringSync()) as Map<String, dynamic>;
       final violations = keys
           .where(

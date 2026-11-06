@@ -243,6 +243,8 @@
   "medicineImageImportTimeFallbackCaption": "Dorini qabul qilish vaqtini o‘qib bo‘lmadi, shuning uchun vaqtinchalik vaqt belgilandi. Saqlagandan keyin uni o‘zgartirishingiz mumkin.",
   "medicineImageImportDroppedSchedulesCaption": "Cheklovdan oshgan {count} ta dori qabul qilish vaqti roʻyxatga olinmaydi",
   "medicineImageImportGroupChangedError": "Guruh o‘zgargani uchun ro‘yxatdan o‘tkazish bekor qilindi.",
+  "medicineImageImportConsentTitle": "Rasmni tashqi sun'iy intellektga yuborish",
+  "medicineImageImportConsentMessage": "Tanlangan rasm dori nomlari va qabul qilish vaqtlarini o'qish uchun OpenAI sun'iy intellektiga yuboriladi. Rasm serverlarimizda saqlanmaydi.",
   "minimumDoseInterval": "Dozalar orasidagi interval",
   "minimumDoseIntervalDescription": "Oldingi dozadan keyin dozalar orasidagi minimal vaqt",
   "minimumDoseIntervalNone": "Yo‘q",

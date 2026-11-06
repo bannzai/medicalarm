@@ -243,6 +243,8 @@
   "medicineImageImportTimeFallbackCaption": "Ora administrării medicamentului nu a putut fi citită, așa că a fost setată o oră provizorie. O puteți modifica după salvare.",
   "medicineImageImportDroppedSchedulesCaption": "{count} ore de administrare a medicamentului care depășesc limita nu vor fi salvate",
   "medicineImageImportGroupChangedError": "Înregistrarea a fost anulată deoarece grupul s-a schimbat.",
+  "medicineImageImportConsentTitle": "Trimite imaginea către o IA externă",
+  "medicineImageImportConsentMessage": "Imaginea selectată va fi trimisă către IA OpenAI pentru a citi numele medicamentelor și orele de administrare. Imaginea nu este stocată pe serverele noastre.",
   "minimumDoseInterval": "Intervalul dintre doze",
   "minimumDoseIntervalDescription": "Intervalul minim dintre doze de la doza anterioară",
   "minimumDoseIntervalNone": "Niciunul",

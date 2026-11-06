@@ -243,6 +243,8 @@
   "medicineImageImportTimeFallbackCaption": "ওষুধ খাওয়ার সময় পড়া যায়নি, তাই একটি অস্থায়ী সময় নির্ধারণ করা হয়েছে। সংরক্ষণের পরে এটি পরিবর্তন করতে পারবেন।",
   "medicineImageImportDroppedSchedulesCaption": "সীমা ছাড়িয়ে যাওয়া ওষুধ খাওয়ার {count}টি সময় নিবন্ধিত হবে না",
   "medicineImageImportGroupChangedError": "গ্রুপ পরিবর্তিত হওয়ায় নিবন্ধন বাতিল করা হয়েছে।",
+  "medicineImageImportConsentTitle": "ছবিটি বাহ্যিক AI-তে পাঠান",
+  "medicineImageImportConsentMessage": "ওষুধের নাম ও সেবনের সময় পড়ার জন্য নির্বাচিত ছবিটি OpenAI-এর AI-তে পাঠানো হবে। ছবিটি আমাদের সার্ভারে সংরক্ষণ করা হয় না।",
   "minimumDoseInterval": "ওষুধ গ্রহণের ব্যবধান",
   "minimumDoseIntervalDescription": "আগের ডোজের পর ন্যূনতম বিরতির সময়",
   "minimumDoseIntervalNone": "নেই",

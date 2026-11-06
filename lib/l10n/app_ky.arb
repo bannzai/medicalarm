@@ -243,6 +243,8 @@
   "medicineImageImportTimeFallbackCaption": "Дарыны ичүү убактысын окуу мүмкүн болгон жок, ошондуктан убактылуу убакыт коюлду. Сактагандан кийин аны өзгөртө аласыз.",
   "medicineImageImportDroppedSchedulesCaption": "Чектен ашкан дары ичүү убактысынын {count}и катталбайт",
   "medicineImageImportGroupChangedError": "Топ өзгөргөндүктөн, каттоо токтотулду.",
+  "medicineImageImportConsentTitle": "Сүрөттү тышкы ЖИге жөнөтүү",
+  "medicineImageImportConsentMessage": "Тандалган сүрөт дары аттарын жана ичүү убактыларын окуу үчүн OpenAI ЖИсине жөнөтүлөт. Сүрөт биздин серверлерде сакталбайт.",
   "minimumDoseInterval": "Дозалардын ортосундагы аралык",
   "minimumDoseIntervalDescription": "Мурунку дозадан кийинки минималдуу аралык",
   "minimumDoseIntervalNone": "Жок",

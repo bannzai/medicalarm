@@ -243,6 +243,8 @@
   "medicineImageImportTimeFallbackCaption": "Не ўдалося распазнаць час прыёму лекаў, таму ўстаноўлены часовы час. Пасля захавання яго можна змяніць.",
   "medicineImageImportDroppedSchedulesCaption": "{count} часоў прыёму лекаў звыш ліміту не будуць зарэгістраваны",
   "medicineImageImportGroupChangedError": "Рэгістрацыю скасавана, бо група змянілася.",
+  "medicineImageImportConsentTitle": "Адправіць выяву знешняму ШІ",
+  "medicineImageImportConsentMessage": "Абраная выява будзе адпраўлена ШІ OpenAI, каб прачытаць назвы лекаў і час прыёму. Выява не захоўваецца на нашых серверах.",
   "minimumDoseInterval": "Інтэрвал паміж прыёмамі",
   "minimumDoseIntervalDescription": "Мінімальны інтэрвал паміж прыёмамі пасля папярэдняга прыёму",
   "minimumDoseIntervalNone": "Няма",

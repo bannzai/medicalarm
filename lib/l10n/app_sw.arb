@@ -243,6 +243,8 @@
   "medicineImageImportTimeFallbackCaption": "Muda wa kutumia dawa haukuweza kusomwa, kwa hiyo muda wa muda umewekwa. Unaweza kuubadilisha baada ya kuhifadhi.",
   "medicineImageImportDroppedSchedulesCaption": "Nyakati {count} za kutumia dawa zinazozidi kikomo hazitasajiliwa",
   "medicineImageImportGroupChangedError": "Usajili umeghairiwa kwa sababu kikundi kimebadilika.",
+  "medicineImageImportConsentTitle": "Tuma picha kwa AI ya nje",
+  "medicineImageImportConsentMessage": "Picha uliyochagua itatumwa kwa AI ya OpenAI ili kusoma majina ya dawa na nyakati za kumeza. Picha haihifadhiwi kwenye seva zetu.",
   "minimumDoseInterval": "Muda kati ya dozi",
   "minimumDoseIntervalDescription": "Muda wa chini kati ya dozi tangu dozi ya awali",
   "minimumDoseIntervalNone": "Hakuna",

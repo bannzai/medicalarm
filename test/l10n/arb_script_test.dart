@@ -11,7 +11,24 @@ void main() {
 
   // 訳さずに英字のまま表示する語。ブランド名・OS の機能名・単位で、どの言語の arb でも英字で書いている
   // Focus は連携アプリの名前で、app_ja.arb の description が訳さないと指示している (#495)
-  const allowedLatinWords = {'Alert', 'App', 'Apple', 'Critical', 'FAQ', 'Focus', 'Google', 'Medicalarm', 'OSS', 'Pilll', 'Premium', 'Store', 'mg'};
+  // OpenAI は画像の送り先の会社名、AI はその送り先を指す語で、App Store の審査で送り先を特定できるよう英字で書く (#548)
+  const allowedLatinWords = {
+    'AI',
+    'Alert',
+    'App',
+    'Apple',
+    'Critical',
+    'FAQ',
+    'Focus',
+    'Google',
+    'Medicalarm',
+    'OSS',
+    'OpenAI',
+    'Pilll',
+    'Premium',
+    'Store',
+    'mg',
+  };
 
   for (final (locale, scriptStart, scriptEnd) in [('kn', 0x0C80, 0x0CFF), ('gu', 0x0A80, 0x0AFF)]) {
     group('app_$locale.arb', () {

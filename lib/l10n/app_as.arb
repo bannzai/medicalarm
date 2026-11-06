@@ -243,6 +243,8 @@
   "medicineImageImportTimeFallbackCaption": "ঔষধ খোৱাৰ সময় পঢ়িব নোৱাৰাৰ বাবে অস্থায়ী সময় নিৰ্ধাৰণ কৰা হৈছে। পঞ্জীয়ন কৰাৰ পিছত সলনি কৰিব পাৰিব।",
   "medicineImageImportDroppedSchedulesCaption": "সীমা অতিক্ৰম কৰা ঔষধ খোৱাৰ {count}টা সময় পঞ্জীয়ন কৰা নহ’ব",
   "medicineImageImportGroupChangedError": "গোট সলনি হোৱাৰ বাবে পঞ্জীয়ন বাতিল কৰা হৈছে।",
+  "medicineImageImportConsentTitle": "ছবিখন বাহ্যিক AI লৈ পঠিয়াওক",
+  "medicineImageImportConsentMessage": "বাছনি কৰা ছবিখন ঔষধৰ নাম আৰু সেৱনৰ সময় পঢ়িবলৈ OpenAI ৰ AI লৈ পঠিওৱা হ'ব। ছবিখন আমাৰ ছাৰ্ভাৰত সংৰক্ষণ কৰা নহয়।",
   "minimumDoseInterval": "ঔষধ সেৱনৰ ব্যৱধান",
   "minimumDoseIntervalDescription": "আগৰ পালিৰ পিছত ন্যূনতম বিৰতিৰ সময়",
   "minimumDoseIntervalNone": "নাই",

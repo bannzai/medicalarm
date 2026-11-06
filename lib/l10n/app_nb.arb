@@ -243,6 +243,8 @@
   "medicineImageImportTimeFallbackCaption": "Tidspunktet for medisininntak kunne ikke leses, så et midlertidig tidspunkt er angitt. Du kan endre det etter lagring.",
   "medicineImageImportDroppedSchedulesCaption": "{count} tidspunkter for medisininntak over grensen blir ikke lagret",
   "medicineImageImportGroupChangedError": "Registreringen ble avbrutt fordi gruppen ble endret.",
+  "medicineImageImportConsentTitle": "Send bildet til en ekstern KI",
+  "medicineImageImportConsentMessage": "Det valgte bildet sendes til OpenAIs KI for å lese medisinnavn og inntakstider. Bildet lagres ikke på våre servere.",
   "minimumDoseInterval": "Doseringsintervall",
   "minimumDoseIntervalDescription": "Minste tid mellom doser siden forrige dose",
   "minimumDoseIntervalNone": "Ingen",

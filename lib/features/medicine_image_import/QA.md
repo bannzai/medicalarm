@@ -48,6 +48,10 @@ bash scripts/e2e/generate_medicines_from_image.sh
   - 自動化: manual（同上）
 - [x] **登録数上限時の無効化**: 自分が作成した薬が上限（無料 2 件 / プレミアム 10 件）に達していると「画像から登録」ボタンが無効になる
   - 自動化: manual（上限到達状態を手で作る必要があるため）
+- [x] **送信前の確認ダイアログ**: 画像を選ぶと、送る前に「画像を外部の AI に送信します」のダイアログが出て、送り先（OpenAI の AI）・目的・本サービスのサーバーに保存しないことが表示され、「キャンセル」「送信」のボタンがある（App Store Review Guidelines 5.1.2 (i)。#548）
+  - 自動化: manual（写真ライブラリからの画像選択を伴うため。ダイアログの表示は test/features/medicine_image_import/consent_test.dart でもカバー）
+- [x] **確認ダイアログのキャンセル**: 確認ダイアログで「キャンセル」を選ぶと画像は送られず（読み取りが始まらず）、ボタンを押した画面に戻る
+  - 自動化: manual（同上。キャンセル・外側タップで generateMedicinesFromImage を呼ばないことは test/features/medicine_image_import/consent_test.dart でカバー）
 
 #### 動作確認
 <details>
@@ -85,13 +89,29 @@ bash scripts/e2e/generate_medicines_from_image.sh
 
 </details>
 
+### **送信前の確認ダイアログ**: 画像を選ぶと、送る前に「画像を外部の AI に送信します」のダイアログが出て、送り先（OpenAI の AI）・目的・本サービスのサーバーに保存しないことが表示され、「キャンセル」「送信」のボタンがある
+
+<details><summary>動作確認スクショ</summary>
+
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/11/06/30e01767-3929-4a3a-8f91-823d2dfdb8d1-qa-consent-dialog.jpg" width="320" alt="写真ライブラリから画像を選んだ直後に出る、送り先の OpenAI と保存しないことを説明する確認ダイアログ (英語表示)">
+
+</details>
+
+### **確認ダイアログのキャンセル**: 確認ダイアログで「キャンセル」を選ぶと画像は送られず（読み取りが始まらず）、ボタンを押した画面に戻る
+
+<details><summary>動作確認スクショ</summary>
+
+<img src="https://pub-7f3469dd3e2e445b9b8ec2d1381b5ea8.r2.dev/2026/11/06/a347d1c2-0848-4a5e-b16a-79e099d53c5a-qa-consent-cancel.jpg" width="320" alt="確認ダイアログでキャンセルを選んだ後、読み取りが始まらずに服薬画面へ戻った状態">
+
+</details>
+
 </details>
 
 ---
 
 ## 2. 画像の読み取りとレビューシートの表示
 
-- [x] **読み取り中の表示**: 画像を選ぶとボタンがローディング表示になり、二重実行できない
+- [x] **読み取り中の表示**: 画像を選ぶとボタンがローディング表示になり（送信前の確認ダイアログの表示中も含む）、二重実行できない
   - 自動化: manual（AI 呼び出し中の一時的な表示のため）
 - [x] **レビューシートの表示**: 読み取りが終わるとシートが開き、テスト画像（medication_guide.png）の薬 4 種が候補として並び、それぞれ薬名・「毎日」・服用時刻・服用量が表示される
   - 自動化: manual（写真ライブラリからの画像選択を伴うため）
@@ -111,7 +131,7 @@ bash scripts/e2e/generate_medicines_from_image.sh
 <details>
 <summary>動作確認エビデンス</summary>
 
-### **読み取り中の表示**: 画像を選ぶとボタンがローディング表示になり、二重実行できない
+### **読み取り中の表示**: 画像を選ぶとボタンがローディング表示になり（送信前の確認ダイアログの表示中も含む）、二重実行できない
 
 <details><summary>動作確認スクショ</summary>
 

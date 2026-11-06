@@ -243,6 +243,8 @@
   "medicineImageImportTimeFallbackCaption": "Dose time could not be detected, so a provisional time is set. You can edit it after registration",
   "medicineImageImportDroppedSchedulesCaption": "{count} dose times over the limit will not be registered",
   "medicineImageImportGroupChangedError": "Import was cancelled because the current group changed",
+  "medicineImageImportConsentTitle": "Send the image to an external AI",
+  "medicineImageImportConsentMessage": "The selected image will be sent to OpenAI's AI to read medicine names and dose times. The image is not stored on our servers.",
   "minimumDoseInterval": "Dose interval",
   "minimumDoseIntervalDescription": "Minimum time to wait since the last dose",
   "minimumDoseIntervalNone": "None",

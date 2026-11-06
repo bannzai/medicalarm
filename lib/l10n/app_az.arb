@@ -243,6 +243,8 @@
   "medicineImageImportTimeFallbackCaption": "Dərman qəbulu vaxtını oxumaq mümkün olmadığından müvəqqəti vaxt təyin edilib. Qeydiyyatdan sonra onu dəyişə bilərsiniz.",
   "medicineImageImportDroppedSchedulesCaption": "Limiti aşan {count} dərman qəbulu vaxtı qeydə alınmayacaq",
   "medicineImageImportGroupChangedError": "Qrup dəyişdiyi üçün qeydiyyat ləğv edildi.",
+  "medicineImageImportConsentTitle": "Şəkli xarici süni intellektə göndərin",
+  "medicineImageImportConsentMessage": "Seçilmiş şəkil dərman adlarını və qəbul vaxtlarını oxumaq üçün OpenAI-nin süni intellektinə göndəriləcək. Şəkil serverlərimizdə saxlanılmır.",
   "minimumDoseInterval": "Doza intervalı",
   "minimumDoseIntervalDescription": "Əvvəlki dozadan sonra keçməli olan minimum vaxt",
   "minimumDoseIntervalNone": "Yoxdur",

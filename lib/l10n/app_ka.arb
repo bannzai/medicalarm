@@ -243,6 +243,8 @@
   "medicineImageImportTimeFallbackCaption": "წამლის მიღების დრო ვერ ამოვიკითხეთ, ამიტომ მითითებულია დროებითი დრო. შენახვის შემდეგ მისი შეცვლა შეგიძლიათ.",
   "medicineImageImportDroppedSchedulesCaption": "ლიმიტს გადაცილებული წამლის მიღების {count} დრო არ დარეგისტრირდება",
   "medicineImageImportGroupChangedError": "რეგისტრაცია გაუქმდა, რადგან ჯგუფი შეიცვალა.",
+  "medicineImageImportConsentTitle": "სურათის გაგზავნა გარე AI-ზე",
+  "medicineImageImportConsentMessage": "არჩეული სურათი გაეგზავნება OpenAI-ის AI-ს წამლების სახელებისა და მიღების დროის წასაკითხად. სურათი არ ინახება ჩვენს სერვერებზე.",
   "minimumDoseInterval": "დოზებს შორის ინტერვალი",
   "minimumDoseIntervalDescription": "წინა დოზის მიღებიდან გასავლელი მინიმალური დრო",
   "minimumDoseIntervalNone": "არცერთი",

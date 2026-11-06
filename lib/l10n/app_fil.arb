@@ -243,6 +243,8 @@
   "medicineImageImportTimeFallbackCaption": "Hindi mabasa ang oras ng pag-inom ng gamot, kaya pansamantalang oras ang itinakda. Maaari mo itong baguhin pagkatapos i-save.",
   "medicineImageImportDroppedSchedulesCaption": "Hindi irerehistro ang {count} oras ng pag-inom ng gamot na lampas sa limitasyon",
   "medicineImageImportGroupChangedError": "Kinansela ang pagpaparehistro dahil nagbago ang grupo.",
+  "medicineImageImportConsentTitle": "Ipadala ang larawan sa isang external na AI",
+  "medicineImageImportConsentMessage": "Ipapadala ang napiling larawan sa AI ng OpenAI para basahin ang mga pangalan ng gamot at oras ng pag-inom. Hindi iniimbak ang larawan sa aming mga server.",
   "minimumDoseInterval": "Agwat ng pag-inom",
   "minimumDoseIntervalDescription": "Minimum na pagitan ng mga dosis mula sa huling pag-inom",
   "minimumDoseIntervalNone": "Wala",

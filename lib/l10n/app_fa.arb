@@ -243,6 +243,8 @@
   "medicineImageImportTimeFallbackCaption": "زمان مصرف دارو خوانده نشد، بنابراین یک زمان موقت تعیین شده است. پس از ثبت می‌توانید آن را ویرایش کنید.",
   "medicineImageImportDroppedSchedulesCaption": "{count} زمان مصرف دارو که از سقف مجاز فراتر رفته‌اند ثبت نمی‌شوند",
   "medicineImageImportGroupChangedError": "ثبت به دلیل تغییر گروه لغو شد.",
+  "medicineImageImportConsentTitle": "ارسال تصویر به هوش مصنوعی خارجی",
+  "medicineImageImportConsentMessage": "تصویر انتخاب‌شده برای خواندن نام داروها و زمان مصرف به هوش مصنوعی OpenAI ارسال می‌شود. تصویر در سرورهای ما ذخیره نمی‌شود.",
   "minimumDoseInterval": "فاصله بین دوزها",
   "minimumDoseIntervalDescription": "حداقل فاصله زمانی بین دوزها از آخرین دوز",
   "minimumDoseIntervalNone": "هیچ‌کدام",

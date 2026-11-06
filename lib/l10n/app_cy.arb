@@ -243,6 +243,8 @@
   "medicineImageImportTimeFallbackCaption": "Nid oedd modd darllen amser cymryd y feddyginiaeth, felly gosodwyd amser dros dro. Gallwch ei newid ar ôl cadw.",
   "medicineImageImportDroppedSchedulesCaption": "Ni chaiff {count} o amseroedd cymryd meddyginiaeth sy'n fwy na'r terfyn eu cofrestru",
   "medicineImageImportGroupChangedError": "Cafodd y cofrestriad ei ganslo oherwydd bod y grŵp wedi newid.",
+  "medicineImageImportConsentTitle": "Anfon y ddelwedd at AI allanol",
+  "medicineImageImportConsentMessage": "Bydd y ddelwedd a ddewiswyd yn cael ei hanfon at AI OpenAI i ddarllen enwau meddyginiaethau ac amseroedd dosau. Nid yw'r ddelwedd yn cael ei chadw ar ein gweinyddion.",
   "minimumDoseInterval": "Cyfwng rhwng dosau",
   "minimumDoseIntervalDescription": "Yr amser lleiaf rhwng dosau ers y dos blaenorol",
   "minimumDoseIntervalNone": "Dim",

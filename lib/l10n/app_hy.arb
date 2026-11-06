@@ -243,6 +243,8 @@
   "medicineImageImportTimeFallbackCaption": "Դեղի ընդունման ժամը չհաջողվեց ընթերցել, ուստի սահմանվել է ժամանակավոր ժամ։ Գրանցելուց հետո կարող եք փոխել այն։",
   "medicineImageImportDroppedSchedulesCaption": "Սահմանաչափը գերազանցող դեղի ընդունման {count} ժամերը չեն գրանցվի",
   "medicineImageImportGroupChangedError": "Գրանցումը չեղարկվել է, քանի որ խումբը փոխվել է։",
+  "medicineImageImportConsentTitle": "Ուղարկել պատկերը արտաքին ԱԲ-ին",
+  "medicineImageImportConsentMessage": "Ընտրված պատկերը կուղարկվի OpenAI-ի ԱԲ-ին՝ դեղերի անունները և ընդունման ժամերը կարդալու համար։ Պատկերը չի պահվում մեր սերվերներում։",
   "minimumDoseInterval": "Դեղաչափերի միջև ընդմիջում",
   "minimumDoseIntervalDescription": "Նախորդ դեղաչափից հետո անհրաժեշտ նվազագույն ժամանակը",
   "minimumDoseIntervalNone": "Չկա",

@@ -243,6 +243,8 @@
   "medicineImageImportTimeFallbackCaption": "Die Einnahmezeit konnte nicht erkannt werden. Daher wurde eine vorläufige Uhrzeit festgelegt. Sie können sie nach dem Speichern ändern.",
   "medicineImageImportDroppedSchedulesCaption": "{count} Einnahmezeiten über dem Limit werden nicht gespeichert",
   "medicineImageImportGroupChangedError": "Die Registrierung wurde abgebrochen, weil die Gruppe gewechselt wurde.",
+  "medicineImageImportConsentTitle": "Bild an eine externe KI senden",
+  "medicineImageImportConsentMessage": "Das ausgewählte Bild wird an die KI von OpenAI gesendet, um Medikamentennamen und Einnahmezeiten auszulesen. Das Bild wird nicht auf unseren Servern gespeichert.",
   "minimumDoseInterval": "Einnahmeabstand",
   "minimumDoseIntervalDescription": "Mindestabstand zwischen den Einnahmen seit der letzten Einnahme",
   "minimumDoseIntervalNone": "Keine",

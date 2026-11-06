@@ -243,6 +243,8 @@
   "medicineImageImportTimeFallbackCaption": "மருந்து எடுத்துக்கொள்ளும் நேரத்தைப் படிக்க முடியாததால் தற்காலிக நேரம் அமைக்கப்பட்டுள்ளது. சேமித்த பிறகு அதை மாற்றலாம்.",
   "medicineImageImportDroppedSchedulesCaption": "வரம்பை மீறும் மருந்து உட்கொள்ளும் {count} நேரங்கள் பதிவு செய்யப்படாது",
   "medicineImageImportGroupChangedError": "குழு மாறியதால் பதிவு ரத்து செய்யப்பட்டது.",
+  "medicineImageImportConsentTitle": "படத்தை வெளிப்புற AI-க்கு அனுப்பவும்",
+  "medicineImageImportConsentMessage": "மருந்துகளின் பெயர்களையும் உட்கொள்ளும் நேரங்களையும் படிக்க, தேர்ந்தெடுத்த படம் OpenAI-இன் AI-க்கு அனுப்பப்படும். படம் எங்கள் சேவையகங்களில் சேமிக்கப்படாது.",
   "minimumDoseInterval": "மருந்து உட்கொள்ளும் இடைவெளி",
   "minimumDoseIntervalDescription": "முந்தைய மருந்தளவுக்குப் பிறகு மருந்தளவுகளுக்கு இடையிலான குறைந்தபட்ச நேரம்",
   "minimumDoseIntervalNone": "எதுவுமில்லை",

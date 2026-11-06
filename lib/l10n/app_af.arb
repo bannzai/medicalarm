@@ -243,6 +243,8 @@
   "medicineImageImportTimeFallbackCaption": "Die innametyd kon nie gelees word nie. ’n Tydelike tyd is ingestel. U kan dit ná registrasie wysig.",
   "medicineImageImportDroppedSchedulesCaption": "{count} medikasietye wat die limiet oorskry, sal nie geregistreer word nie",
   "medicineImageImportGroupChangedError": "Registrasie is gekanselleer omdat die groep verander het.",
+  "medicineImageImportConsentTitle": "Stuur die prent na 'n eksterne KI",
+  "medicineImageImportConsentMessage": "Die gekose prent word na OpenAI se KI gestuur om medisynename en dosistye te lees. Die prent word nie op ons bedieners gestoor nie.",
   "minimumDoseInterval": "Dosisinterval",
   "minimumDoseIntervalDescription": "Minimum tyd tussen dosisse sedert die vorige dosis",
   "minimumDoseIntervalNone": "Geen",

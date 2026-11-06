@@ -243,6 +243,8 @@
   "medicineImageImportTimeFallbackCaption": "Ora e marrjes së ilaçit nuk u lexua dot, ndaj është caktuar një orë e përkohshme. Mund ta ndryshoni pas ruajtjes.",
   "medicineImageImportDroppedSchedulesCaption": "{count} orare të marrjes së ilaçit mbi kufirin nuk do të regjistrohen",
   "medicineImageImportGroupChangedError": "Regjistrimi u anulua sepse grupi ndryshoi.",
+  "medicineImageImportConsentTitle": "Dërgo imazhin te një IA e jashtme",
+  "medicineImageImportConsentMessage": "Imazhi i zgjedhur do t'i dërgohet IA-së së OpenAI për të lexuar emrat e ilaçeve dhe oraret e marrjes. Imazhi nuk ruhet në serverat tanë.",
   "minimumDoseInterval": "Intervali midis dozave",
   "minimumDoseIntervalDescription": "Koha minimale ndërmjet dozave nga doza e mëparshme",
   "minimumDoseIntervalNone": "Asnjë",
