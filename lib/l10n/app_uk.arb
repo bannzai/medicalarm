@@ -127,6 +127,7 @@
   "purchaseErrorProductUnavailable": "Цей план наразі не продається. Будь ласка, перезапустіть застосунок і спробуйте ще раз.",
   "purchaseErrorAlreadyPurchased": "Ви вже придбали цей план. Щоб відновити дані про покупку на цьому пристрої, натисніть «Уже купували? Натисніть тут».",
   "purchaseErrorReceiptInUse": "Уже придбано або дані про покупку використовує інший користувач. Перевірте {accountName}.",
+  "purchaseErrorInvalidReceipt": "Дані про покупку недійсні. Перевірте дані про покупку.",
   "premiumUserThanksMessage": "Thank you for using our service.\nThanks to you, we are able to continue operating Medicalarm.",
   "installPilll": "Install Pilll",
   "specialGift": "🎉 Особливий подарунок 🎉",
