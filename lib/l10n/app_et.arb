@@ -45,6 +45,7 @@
   "cycle": "tsükkel",
   "cycleDescription": "21. päev ravim / 7. päev paus",
   "everyXDaysDescription": "näiteks iga kahe päeva tagant, iga kolme päeva tagant",
+  "specificWeekdaysDescription": "Nt ainult esmaspäeviti; kolmapäeviti ja reedeti",
   "medicineFormValidationError": "Palun sisestage nimi ja raviskeem",
   "quantity": "Maht",
   "quantityExample": "Näide: 1 tablett, 100 mg",

@@ -45,6 +45,7 @@
   "cycle": "Цикл",
   "cycleDescription": "Пример: 21 дан узимања лека / 7 дана паузе",
   "everyXDaysDescription": "Svaki drugi dan, Svaki treći dan",
+  "specificWeekdaysDescription": "Нпр. само понедељком; средом и петком",
   "medicineFormValidationError": "Молимо вас да унесете име и распоред узимања лекова.",
   "quantity": "Капацитет",
   "quantityExample": "пример: 1 таблет, 100mg",
