@@ -29,7 +29,13 @@ linter:
 # Additional information about this file can be found at
 # https://dart.dev/guides/language/analysis-options
 plugins:
-  riverpod_lint: ^3.1.9
+  riverpod_lint:
+    version: ^3.1.9
+    # provider_dependencies を満たすには ProviderScope の override が builder の中にあるため、scoped provider を読む
+    # widget から main() までの祖先すべてに @Dependencies を書き足すことになり、範囲外の利用の検出ではなく伝播の
+    # 書き写しの強制になる (実測: 64 ファイル・最大 42 個)。実行時 (debug) の StateError を検出の手段にする (#539)
+    diagnostics:
+      provider_dependencies: false
 
 analyzer:
   errors:
