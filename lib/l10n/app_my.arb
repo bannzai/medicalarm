@@ -106,6 +106,7 @@
   "aboutApp": "အက်ပ်အကြောင်း",
   "viewPremiumPlan": "ပရီမီယံအစီအစဉ်ကို ကြည့်ရန်",
   "cancelSubscriptionInstruction": "ဝယ်ယူပြီးနောက် အလိုအလျောက်သက်တမ်းတိုးခြင်းကို {storeName} အက်ပ်၏ အကောင့်ဆက်တင်များတွင် ပယ်ဖျက်နိုင်ပါသည်။ (ဤအက်ပ်အတွင်းမှ အလိုအလျောက်သက်တမ်းတိုးခြင်းကို ပယ်ဖျက်၍မရပါ။)",
+  "headache": "ခေါင်းကိုက်ခြင်း",
   "monthlyPlanDiscountFormat": "Diskaun {percent}% daripada pelan bulanan",
   "premiumUserThanksMessage": "Terima kasih atas penggunaan anda.\nBerkat anda, kami dapat terus menjalankan Medicalarm.",
   "installPilll": "Pasang Pilll",
