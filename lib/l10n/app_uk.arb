@@ -107,6 +107,7 @@
   "viewPremiumPlan": "Переглянути преміумплан",
   "cancelSubscriptionInstruction": "Після покупки автоматичне поновлення можна скасувати в налаштуваннях облікового запису застосунку {storeName}. (У цьому застосунку скасувати автоматичне поновлення неможливо.)",
   "headache": "Головний біль",
+  "stomachache": "Біль у животі",
   "monthlyPlanDiscountFormat": "{percent}% OFF from the monthly subscription",
   "premiumUserThanksMessage": "Thank you for using our service.\nThanks to you, we are able to continue operating Medicalarm.",
   "installPilll": "Install Pilll",
