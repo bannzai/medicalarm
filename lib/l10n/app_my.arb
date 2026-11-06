@@ -102,6 +102,7 @@
   "notificationScheduleLimit": "အကြောင်းကြားချက် အချိန်ဇယားအရေအတွက်ကို",
   "addMedicine": "ဆေးထည့်ပါ",
   "medicineMaxCount": "ဆေးဝါး {count} မျိုးအထိ စာရင်းသွင်းနိုင်ပါသည်။",
+  "increaseMedicineLimitWithPremium": "ပရီမီယံအစီအစဉ်ဖြင့် အများဆုံးစာရင်းသွင်းနိုင်သည့် ဆေးအရေအတွက်ကို {count} အထိ တိုးမြှင့်ပါ",
   "monthlyPlanDiscountFormat": "Diskaun {percent}% daripada pelan bulanan",
   "premiumUserThanksMessage": "Terima kasih atas penggunaan anda.\nBerkat anda, kami dapat terus menjalankan Medicalarm.",
   "installPilll": "Pasang Pilll",

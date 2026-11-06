@@ -102,6 +102,7 @@
   "notificationScheduleLimit": "ବିଜ୍ଞପ୍ତି ସୂଚୀର ସଂଖ୍ୟାକୁ",
   "addMedicine": "ଔଷଧ ଯୋଡନ୍ତୁ",
   "medicineMaxCount": "ଆପଣ ସର୍ବାଧିକ {count}ଟି ଔଷଧ ପଞ୍ଜୀକରଣ କରିପାରିବେ।",
+  "increaseMedicineLimitWithPremium": "ପ୍ରିମିୟମ୍ ପ୍ଲାନ୍‌ରେ ଔଷଧ ପଞ୍ଜୀକରଣ ସୀମା {count}କୁ ବଢ଼ାନ୍ତୁ",
   "viewPremiumPlan": "ପ୍ରିମିୟମ୍ ପ୍ଲାନ୍ ଦେଖନ୍ତୁ",
   "constipation": "ଇନ୍ଗରେଡିୟେଣ୍ଟ",
   "purchaseErrorStoreProblem": "{storeName}ରେ ଏକ ତ୍ରୁଟି ଘଟୁଛି। କିଛି ସମୟ ଅପେକ୍ଷା କରନ୍ତୁ ଏବଂ ପୁନଃପରୀକ୍ଷା କରନ୍ତୁ।",
