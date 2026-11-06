@@ -137,6 +137,7 @@
   "purchaseErrorInsufficientPermissions": "ບໍ່ສາມາດລົງຄະແນນໃນແຜນທີ່ຈິງສໍາລັບ {accountName} ຂອງເອກະສານຂອງທ່ານ ກະລຸນາເຊັກສະຖານທີ່ຈ່າຍແລະພະຍາຍາມສາມາດລົງຄະແນນອີກຄັ້ງ.",
   "purchaseErrorPaymentPending": "ການຊຳລະໄດ້ຖືກພິບິນໃນການອະນຸຍາດເວັບ ກະລຸນາແຈ້ງກັບ {accountName} ສໍາລັບ {storeName}.",
   "premiumUserThanksTitle": "ປະເພດພິເສດ",
+  "premiumUserThanksMessage": "ຂອບໃຈທີ່ໃຊ້ບໍລິການ.\nດ້ວຍການສະໜັບສະໜູນຂອງທ່ານ ພວກເຮົາຈຶ່ງສາມາດໃຫ້ບໍລິການ Medicalarm ຕໍ່ໄປໄດ້.",
   "premiumPricePerMonth": "({price}/ດືນ)",
   "premiumCancelDescription": "・ຫຼັງຈາກຊື້, ສາມາດຍົກເລີກການອັບເດດເອີ້ນສິນຄ້າໄດ້ທີ່ການຕັ້ງບັນຊີຂອງ{storeName} (ບໍ່ສາມາດຍົກເລີກໃນແອບເອັບ) 。",
   "purchaseErrorRestoreFailed": "ບໍ່ພົບຂໍໍ່ອນການຊື້ກ່ຽວກັບກໍ໑ດການໃຊ້າລາຍລະອຽດ. ກະລຸນາກວດສອບບັດສິບທີ່ອາສາບູລິຄິດຫຼືລອຍພິມລອດເກີນໄປໃໝ່.",
