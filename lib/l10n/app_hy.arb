@@ -46,6 +46,7 @@
   "cycleDescription": "օր 21 օգտագործել/օր 7 հանգստանալ",
   "everyXDaysDescription": "օրական 2 օր, օրական 3 օր",
   "specificWeekdaysDescription": "օր շաբաթն առնչվող դեղորայքի օգտագործման հաճախականությունը",
+  "medicineFormValidationError": "Խնդրում ենք մուտքագրել դեղի անվանումը և ընդունման ժամանակացույցը։",
   "quantity": "Հզորություն",
   "quantityExample": "օրինակ: 1 նետ, 100մգ",
   "medicationStartDate": "Դեղերի ընդունման սկսած օրը",
