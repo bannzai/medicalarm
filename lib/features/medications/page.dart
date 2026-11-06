@@ -316,8 +316,8 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
     /// 服薬記録(take)を書き込む。
     /// [medicationHistory] が null なら、書き込み先の ID を事前に採番した新しい take を追記し、行に反映されるまで [pendingTake] に登録する。
     /// 非 null なら、その既存記録へ同じ ID で書き直す。
-    /// 書き込みに失敗した時はエラーを表示し、この take が最新の操作なら表示を実状態へ戻す。
-    /// 書き込みの前の memberSettings の取得の失敗と、Focus 連携の起動の失敗は呼び出し元へ投げる
+    /// 書き込みの前の memberSettings の取得か書き込みに失敗した時はエラーを表示し、この take が最新の操作なら表示を実状態へ戻す。
+    /// Focus 連携の起動の失敗は呼び出し元へ投げる
     Future<void> take({required MedicationHistory? medicationHistory}) async {
       // 最初の await より前に登録する。memberSettings の取得待ちの間のアンチェックも、この take の結果を取消対象にするため。
       // 既存記録の再書き込みは書き込み先が行に表示中の記録と同じで、アンチェックは行の記録を取り消せばよいため登録しない
@@ -331,11 +331,12 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
         // await をまたいで ref を触るとウィジェット破棄後アクセスで例外になるため、ref 依存値は await の前に読み出す。
         final groupID = ref.read(currentGroupIDProvider);
         final currentUserID = ref.read(appUserIDProvider);
-        // memberSettings は take 内の AlarmKit 判定と Focus 連携の解決で共用するため、write より前に読み出して解決する。
-        final memberSettings = await readFutureKeepingAliveFromWidget(ref: ref, provider: groupMemberNotificationSettingsProvider.future);
-
+        final GroupMemberNotificationSettings? memberSettings;
         final MedicationHistory newMedicationHistory;
         try {
+          // memberSettings は take 内の AlarmKit 判定と Focus 連携の解決で共用するため、write より前に読み出して解決する。
+          // 取得の失敗も記録が作られていない点で書き込みの失敗と同じなので、同じ catch で表示を戻す (#525)
+          memberSettings = await readFutureKeepingAliveFromWidget(ref: ref, provider: groupMemberNotificationSettingsProvider.future);
           newMedicationHistory = await medicationHistoryTake.call(
             medicationHistory: medicationHistory,
             newMedicationHistoryID: newMedicationHistoryID,
@@ -397,7 +398,7 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
           );
         }
       } finally {
-        // 書き込み前の失敗(memberSettings の取得失敗を含む)でも、待っているアンチェックを止めない。
+        // memberSettings の取得や書き込みに失敗して記録が無い時も、待っているアンチェックを止めない。
         // 成功した take は、行に記録が反映されるまで(useEffect が下ろすまで)取消対象として残す
         if (!takeWrite.isCompleted) {
           takeWrite.complete(null);

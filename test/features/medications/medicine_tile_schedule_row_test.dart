@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:medicalarm/entity/dose_receiver.dart';
+import 'package:medicalarm/entity/group_member_notification_settings.dart';
 import 'package:medicalarm/entity/medication_frequency.dart';
 import 'package:medicalarm/entity/medication_history.dart';
 import 'package:medicalarm/entity/medicine.dart';
@@ -153,13 +154,21 @@ void main() {
     when(registerReminderLocalNotification.call()).thenAnswer((_) async {});
   });
 
-  Future<void> pumpScheduleRow(WidgetTester tester, {required MedicationGroupScheduleRow scheduleRow}) async {
+  /// [scheduleRow] の行を描画する。[groupMemberNotificationSettings] はメンバー個別通知設定の読み出し結果で、
+  /// 読み出しの失敗を再現するテスト以外は、未作成 (null) が流れる既定のままにする
+  Future<void> pumpScheduleRow(
+    WidgetTester tester, {
+    required MedicationGroupScheduleRow scheduleRow,
+    Stream<GroupMemberNotificationSettings?> Function()? groupMemberNotificationSettings,
+  }) async {
     await tester.pumpWidget(
       ProviderScope(
+        // アプリ (lib/main.dart) と同じく失敗した provider を自動で再試行しない。再試行が続くと読み出しの失敗が take に届かない
+        retry: (retryCount, error) => null,
         overrides: [
           // take 経路が参照する uid とメンバー個別通知設定を Firebase 非依存で解決させる
           appUserIDProvider.overrideWith((ref) => 'user-a'),
-          groupMemberNotificationSettingsProvider.overrideWith((ref) => Stream.value(null)),
+          groupMemberNotificationSettingsProvider.overrideWith((ref) => groupMemberNotificationSettings?.call() ?? Stream.value(null)),
           medicationHistoryTakeProvider.overrideWith((ref) => medicationHistoryTake),
           medicationHistoryRevertProvider.overrideWith((ref) => medicationHistoryRevert),
           recentMedicationHistoriesFetchProvider.overrideWith((ref) => recentMedicationHistoriesFetch),
@@ -802,6 +811,34 @@ void main() {
       await tester.pumpAndSettle();
 
       expect(tester.widget<Checkbox>(find.byType(Checkbox)).value, true);
+    });
+
+    // #525: 書き込みの前の通知設定の読み出しが失敗した時も、記録は作られていないので書き込みの失敗と同じく表示を戻してエラーを出す
+    testWidgets('take の前の通知設定の読み出しが失敗したら、未チェックの表示へ戻してエラーを表示する', (tester) async {
+      final originalErrorLogger = errorLogger;
+      errorLogger = _NoopErrorLogger();
+      addTearDown(() => errorLogger = originalErrorLogger);
+      await pumpScheduleRow(
+        tester,
+        scheduleRow: buildUncheckedScheduleRow(),
+        groupMemberNotificationSettings: () => Stream.error(Exception('member settings failed')),
+      );
+
+      await tester.tap(find.byType(Checkbox));
+      await tester.pumpAndSettle();
+
+      expect(tester.widget<Checkbox>(find.byType(Checkbox)).value, false);
+      expect(find.byType(AlertDialog), findsOneWidget);
+      expect(find.textContaining('member settings failed'), findsOneWidget);
+      verifyNever(medicationHistoryTake.call(
+        medicationHistory: anyNamed('medicationHistory'),
+        newMedicationHistoryID: anyNamed('newMedicationHistoryID'),
+        recordedDateTime: anyNamed('recordedDateTime'),
+        scheduledRecordedDate: anyNamed('scheduledRecordedDate'),
+        medicine: anyNamed('medicine'),
+        medicationSchedule: anyNamed('medicationSchedule'),
+        memberSettings: anyNamed('memberSettings'),
+      ));
     });
 
     testWidgets('最新の取消が失敗した時は、チェック済みの表示へ戻す', (tester) async {
