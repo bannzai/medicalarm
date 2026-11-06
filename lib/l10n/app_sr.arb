@@ -43,6 +43,7 @@
   "everyXDays": "Svaki X dan",
   "specificWeekdays": "Одређени дан у недељи",
   "cycle": "Цикл",
+  "cycleDescription": "Пример: 21 дан узимања лека / 7 дана паузе",
   "everyXDaysDescription": "Svaki drugi dan, Svaki treći dan",
   "medicineFormValidationError": "Молимо вас да унесете име и распоред узимања лекова.",
   "quantity": "Капацитет",

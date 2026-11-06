@@ -43,6 +43,7 @@
   "everyXDays": "every X days",
   "specificWeekdays": "Певні дні тижня",
   "cycle": "Цикл",
+  "cycleDescription": "Приклад: 21 день прийому ліків / 7 днів перерви",
   "quantityExample": "e.g., 1 tablet, 100mg",
   "viewFaq": "View FAQ",
   "ok": "OK",

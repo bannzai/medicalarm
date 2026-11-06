@@ -43,6 +43,7 @@
   "everyXDays": "দিন অন্তর",
   "specificWeekdays": "নিশ্চিত দিন",
   "cycle": "চক্র",
+  "cycleDescription": "উদাহৰণ: 21 দিন ঔষধ সেৱন / 7 দিন বিৰতি",
   "everyXDaysDescription": "উদাহরণস্বরূপ) 2 দিন পর, 3 দিন পর",
   "specificWeekdaysDescription": "নমুনা) শুধুমাত্র সোমবার, বুধবার এবং শুক্রবার",
   "medicineFormValidationError": "নাম আৰু ওষুধ গ্ৰহণৰ তালিৰ নিবন্ধন কৰক",
