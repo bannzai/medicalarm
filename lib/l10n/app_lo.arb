@@ -86,6 +86,7 @@
   "cycleDaysFormat": "{consecutiveDays} ວັນ ຮັບບິດ / {restDays} ວັນ ພັກຮັບບິດ",
   "consecutiveDaysFormat": "{count} ວັນ ສຽງດັງການໃຊ້",
   "restDaysFormat": "{count} ມື້ ບໍ່ ດື່ມ",
+  "limitedTimeDiscount": "ຕອນນີ້ ໃຊ້ໄດ້ຕະຫຼອດໃນລາຄາພິເສດ",
   "monthlyPlan": "ພະລະທັດປະຈໍາເດືອນ",
   "annualPlan": "ບົດແລງປະຈຳປີ",
   "weeklyPlan": "ລະບຽບປະຈໍາອາທິດ",

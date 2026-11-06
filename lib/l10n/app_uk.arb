@@ -86,6 +86,7 @@
   "cycleDaysFormat": "{consecutiveDays} дн. прийому/{restDays} дн. перерви",
   "consecutiveDaysFormat": "Прийом ліків {count} днів поспіль",
   "restDaysFormat": "Перерва у прийомі ліків: {count} дн.",
+  "limitedTimeDiscount": "Користуйтеся завжди за спеціальною ціною — лише зараз",
   "calendar": "Календар",
   "diary": "Щоденник",
   "writeDiary": "Написати щоденник",
