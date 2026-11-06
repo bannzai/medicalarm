@@ -924,6 +924,68 @@ void main() {
       ));
     });
 
+    // 取消の結果を待つ間に日付の切り替え等で行が破棄されても、チェックし直しの記録を失わない (#443)
+    testWidgets('取消の書き込み中にチェックし直してから行が破棄されても、取消が成功したらチェックし直しの take を書き込む', (tester) async {
+      final revertCompleter = Completer<MedicationHistory>();
+      when(medicationHistoryRevert.call(takeMedicationHistory: anyNamed('takeMedicationHistory'))).thenAnswer((_) => revertCompleter.future);
+      await pumpScheduleRow(tester, scheduleRow: buildCheckedScheduleRow());
+
+      await tester.tap(find.byType(Checkbox));
+      await tester.pump();
+      await tester.tap(find.byType(Checkbox));
+      await tester.pump();
+      await tester.pumpWidget(const SizedBox());
+      revertCompleter.complete(buildRevertMedicationHistory());
+      await tester.pumpAndSettle();
+
+      verify(medicationHistoryTake.call(
+        medicationHistory: anyNamed('medicationHistory'),
+        newMedicationHistoryID: anyNamed('newMedicationHistoryID'),
+        recordedDateTime: anyNamed('recordedDateTime'),
+        scheduledRecordedDate: anyNamed('scheduledRecordedDate'),
+        medicine: anyNamed('medicine'),
+        medicationSchedule: anyNamed('medicationSchedule'),
+        memberSettings: anyNamed('memberSettings'),
+      )).called(1);
+    });
+
+    // 取消の snapshot が行に届いた後の再アンチェックでも、書き込み中の取消の結果を待つ対象から外さない (#443)
+    testWidgets('取消の snapshot が届いた後に再アンチェックしてチェックし直し、取消が失敗した場合、新しい take を追記しない', (tester) async {
+      final revertCompleter = Completer<MedicationHistory>();
+      when(medicationHistoryRevert.call(takeMedicationHistory: anyNamed('takeMedicationHistory'))).thenAnswer((_) => revertCompleter.future);
+      final originalErrorLogger = errorLogger;
+      errorLogger = _NoopErrorLogger();
+      addTearDown(() => errorLogger = originalErrorLogger);
+      await pumpScheduleRow(tester, scheduleRow: buildCheckedScheduleRow());
+
+      // アンチェック(取消は書き込み中) → チェックし直し(取消の結果待ち)
+      await tester.tap(find.byType(Checkbox));
+      await tester.pump();
+      await tester.tap(find.byType(Checkbox));
+      await tester.pump();
+      // 取消のローカルの書き込みが行に反映される
+      await pumpScheduleRow(tester, scheduleRow: buildUncheckedScheduleRow());
+      await tester.pump();
+      // 再アンチェック → チェックし直し
+      await tester.tap(find.byType(Checkbox));
+      await tester.pump();
+      await tester.tap(find.byType(Checkbox));
+      await tester.pump();
+      revertCompleter.completeError(Exception('revert failed'));
+      await tester.pumpAndSettle();
+
+      verifyNever(medicationHistoryTake.call(
+        medicationHistory: anyNamed('medicationHistory'),
+        newMedicationHistoryID: anyNamed('newMedicationHistoryID'),
+        recordedDateTime: anyNamed('recordedDateTime'),
+        scheduledRecordedDate: anyNamed('scheduledRecordedDate'),
+        medicine: anyNamed('medicine'),
+        medicationSchedule: anyNamed('medicationSchedule'),
+        memberSettings: anyNamed('memberSettings'),
+      ));
+      verify(medicationHistoryRevert.call(takeMedicationHistory: anyNamed('takeMedicationHistory'))).called(1);
+    });
+
     // 取消が失敗すると元の take が有効なまま残るため、チェックし直しで新しい take を追記すると記録が重複する (#443)
     testWidgets('取消の書き込み中にチェックし直して取消が失敗した場合、新しい take を追記せず元の take のチェック済みに戻す', (tester) async {
       final revertCompleter = Completer<MedicationHistory>();
