@@ -83,6 +83,7 @@
   "focusNotInstalled": "Focus не встановлено",
   "focusInstallMessage": "Установіть Focus",
   "everyXDaysFormat": "З інтервалом {count} дн.",
+  "cycleDaysFormat": "{consecutiveDays} дн. прийому/{restDays} дн. перерви",
   "calendar": "Календар",
   "diary": "Щоденник",
   "writeDiary": "Написати щоденник",

@@ -83,6 +83,7 @@
   "focusNotInstalled": "Focus ଇନଷ୍ଟଲ୍ ହୋଇନାହିଁ",
   "focusInstallMessage": "Focus ଇନଷ୍ଟଲ୍ କରନ୍ତୁ",
   "everyXDaysFormat": "{count} ଦିନ ପରେ",
+  "cycleDaysFormat": "{consecutiveDays} ଦିନ ଔଷଧ ସେବନ/{restDays} ଦିନ ବିରତି",
   "consecutiveDaysFormat": "{count} ଦିନ ଦୌରନ୍ତି",
   "restDaysFormat": "{count} ଦିନ ଔଷଧ ନ ଖାଇବା",
   "calendar": "କ୍ୟାଲେଣ୍ଡର",

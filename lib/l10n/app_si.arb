@@ -83,6 +83,7 @@
   "focusNotInstalled": "Focus ස්ථාපනය කර නැත",
   "focusInstallMessage": "Focus ස්ථාපනය කරන්න",
   "everyXDaysFormat": "{count}දාකට",
+  "cycleDaysFormat": "{consecutiveDays} දින ඖෂධ ගැනීම/{restDays} දින විරාමය",
   "consecutiveDaysFormat": "{count} දින පරීක්ෂණ",
   "restDaysFormat": "{count} කරුණු නිවාඩු",
   "limitedTimeDiscount": "ඉදිරිපත් දිනයන්හි සීමිත මිලකට සෑම විටම භාවිතා කළ හැක",
