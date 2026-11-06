@@ -41,6 +41,7 @@
   "medicationFrequency": "Частота прийому ліків",
   "daily": "Щодня",
   "everyXDays": "every X days",
+  "specificWeekdays": "Певні дні тижня",
   "quantityExample": "e.g., 1 tablet, 100mg",
   "viewFaq": "View FAQ",
   "ok": "OK",
