@@ -38,6 +38,7 @@
   "deleteAccount": "Аккаунтту жок кылуу",
   "deleteAccountConfirm": "Колдонучунун маалыматтарын жок кылат",
   "deleteAccountMessage": "Эсептиканы өчүрсөңүз, колдонуучунун маалыматтары толугу менен өчүрүлөт.",
+  "medicationFrequency": "Дарыны ичүү жыштыгы",
   "daily": "Күн сайын",
   "everyXDays": "күн сайын",
   "specificWeekdays": "Белгилүү бир күнү",

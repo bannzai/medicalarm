@@ -38,6 +38,7 @@
   "deleteAccount": "Видалити обліковий запис",
   "deleteAccountConfirm": "Дані користувача буде видалено",
   "deleteAccountMessage": "Якщо видалити обліковий запис, усі дані користувача буде видалено.",
+  "medicationFrequency": "Частота прийому ліків",
   "everyXDays": "every X days",
   "quantityExample": "e.g., 1 tablet, 100mg",
   "viewFaq": "View FAQ",

@@ -38,6 +38,7 @@
   "deleteAccount": "खातामा हटाउनुहोस्",
   "deleteAccountConfirm": "तपाईं प्रयोगकर्ता जानकारी मेटाइ रहनुहुन्छ",
   "deleteAccountMessage": "खातामा हटनु भएमा, सबै प्रयोगकर्ता जानकारी मेटिन्छ।",
+  "medicationFrequency": "औषधि सेवनको आवृत्ति",
   "daily": "प्रत्येक दिन",
   "everyXDays": "दिनमा",
   "specificWeekdays": "विशिष्ट दिनहरू",
