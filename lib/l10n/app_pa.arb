@@ -85,6 +85,7 @@
   "everyXDaysFormat": "{count} ਦਿਨਾਂ ਵਿੱਚ",
   "cycleDaysFormat": "{consecutiveDays} ਰੋਜ਼ਾਂ ਦੀ ਦਵਾਈ/{restDays} ਰੋਜ਼ਾਂ ਦੀ ਛੁੱਟੀ",
   "consecutiveDaysFormat": "{count} ਦਿਨਾਂ ਦੀ ਖੁਰਾਕ",
+  "restDaysFormat": "ਦਵਾਈ ਲੈਣ ਤੋਂ {count} ਦਿਨ ਦਾ ਵਿਰਾਮ",
   "limitedTimeDiscount": "ਹੁਣ ਸੀਮਿਤ ਕੀਮਤ 'ਤੇ ਸਦਾ ਲਈ ਵਰਤ ਸਕਦੇ ਹੋ",
   "monthlyPlan": "ਮਾਸਿਕ ਯੋਜਨਾ",
   "annualPlan": "ਸਾਲਾਨਾ ਯੋਜਨਾ",

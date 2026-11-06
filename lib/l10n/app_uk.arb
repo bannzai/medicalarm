@@ -85,6 +85,7 @@
   "everyXDaysFormat": "З інтервалом {count} дн.",
   "cycleDaysFormat": "{consecutiveDays} дн. прийому/{restDays} дн. перерви",
   "consecutiveDaysFormat": "Прийом ліків {count} днів поспіль",
+  "restDaysFormat": "Перерва у прийомі ліків: {count} дн.",
   "calendar": "Календар",
   "diary": "Щоденник",
   "writeDiary": "Написати щоденник",
