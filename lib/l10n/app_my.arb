@@ -131,6 +131,7 @@
   "purchaseErrorMissingReceipt": "ဝယ်ယူသူ၏ အချက်အလက်ကို မတွေ့ပါ။ စက်တွင် {accountName} ဖြင့် အကောင့်ဝင်ပြီး ထပ်မံကြိုးစားပါ။",
   "purchaseErrorNetwork": "ကွန်ရက်ချိတ်ဆက်မှု မတည်ငြိမ်ပါ။ ချိတ်ဆက်မှုကို စစ်ဆေးပြီး ထပ်မံကြိုးစားပါ။",
   "purchaseNotAllowed": "ဤစက်တွင် ဝယ်ယူခွင့် မပြုထားပါ",
+  "purchaseErrorInvalidCredentials": "ဝယ်ယူမှု မအောင်မြင်ပါ။ ခဏအကြာတွင် ထပ်မံကြိုးစားပါ။ ပြဿနာ ဆက်ရှိနေပါက ဆက်တင်များ > ဆက်သွယ်ရန် မှတစ်ဆင့် ဆက်သွယ်ပါ။ အသေးစိတ်: {message}",
   "premiumUserThanksMessage": "Terima kasih atas penggunaan anda.\nBerkat anda, kami dapat terus menjalankan Medicalarm.",
   "installPilll": "Pasang Pilll",
   "specialGift": "🎉 အထူးလက်ဆောင် 🎉",
