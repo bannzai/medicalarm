@@ -157,6 +157,7 @@
   "medicationTimeFollowup": "Повторне нагадування про прийом ліків",
   "updateRequired": "Потрібне оновлення",
   "updateRequiredMessage": "Оновіть застосунок до останньої версії через {storeName}.",
+  "screenshotMedicationHistoriesMemo": "Через надто довгий денний сон прийом ліків затримався",
   "installPilll": "Install Pilll",
   "specialGift": "🎉 Особливий подарунок 🎉",
   "freePremiumTrialDays": "Ви отримаєте в подарунок безкоштовний пробний період на {count} днів!",
