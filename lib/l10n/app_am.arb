@@ -75,6 +75,7 @@
   "enableFollowupNotification": "እንከፍከፍ ማሳያ ማስታወቂያ ማንበብ አስቀድመን እንደሚለው እንደ ምርጥ አይቻልም",
   "followupNotificationDescription": "ከመጀመሪያ ማሳያ በ30 ደቂቀ ምልክት ውስጥ መድሃኒትን ያከብዱ አለመሆን አንቀጽ አርደው ይገኛል።",
   "enableNotificationInSilentMode": "መነሻ ሞዴ ቢሆንም የማስታወሻ መልእክት ይላካል",
+  "silentModeNotificationDescription": "የትኩረት ሁኔታ በርቶ ቢሆንም ወይም መሣሪያው ድምፅ አልባ ቢሆንም፣ ወሳኝ ማሳወቂያዎች በመቆለፊያ ማያ ገጽ ላይ ይታያሉ እና ድምፅ ይሰማል።",
   "alarmKitNotification": "የማንቂያ ተግባር",
   "alarmKitNotificationDescription": "እንደ የማንቂያ ደወል የሚሰማ ማሳወቂያ ይደርስዎታል። በዝምታ ወይም በትኩረት ሁኔታ ላይም ቢሆኑ ማሳወቂያው ይደርስዎታል።",
   "focusConnectBlockOtherApps": "ማሳወቂያው ከደረሰ ጀምሮ መድኃኒት መውሰዱ እስኪመዘገብ ድረስ ሌሎች መተግበሪያዎችን አግድ",
