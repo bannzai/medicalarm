@@ -84,6 +84,7 @@
   "focusInstallMessage": "Focus ကို ထည့်သွင်းပါ",
   "everyXDaysFormat": "{count} ရက်တစ်ကြိမ်",
   "cycleDaysFormat": "{consecutiveDays} နေ့  သောက်ခြင်း/{restDays} နေ့  တားထားခြင်း",
+  "consecutiveDaysFormat": "ဆေးကို {count} ရက်ဆက်တိုက် သောက်ထားသည်",
   "calendar": "ပြက္ခဒိန်",
   "diary": "ဒိုင်ယာရီ",
   "writeDiary": "ဒိုင်ယာရီရေးရန်",

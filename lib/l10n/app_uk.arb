@@ -84,6 +84,7 @@
   "focusInstallMessage": "Установіть Focus",
   "everyXDaysFormat": "З інтервалом {count} дн.",
   "cycleDaysFormat": "{consecutiveDays} дн. прийому/{restDays} дн. перерви",
+  "consecutiveDaysFormat": "Прийом ліків {count} днів поспіль",
   "calendar": "Календар",
   "diary": "Щоденник",
   "writeDiary": "Написати щоденник",
