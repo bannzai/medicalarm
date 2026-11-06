@@ -243,6 +243,8 @@
   "medicineImageImportTimeFallbackCaption": "ಔಷಧಿ ತೆಗೆದುಕೊಳ್ಳುವ ಸಮಯವನ್ನು ಓದಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ, ಆದ್ದರಿಂದ ತಾತ್ಕಾಲಿಕ ಸಮಯವನ್ನು ನಿಗದಿಪಡಿಸಲಾಗಿದೆ. ಉಳಿಸಿದ ನಂತರ ಅದನ್ನು ಬದಲಾಯಿಸಬಹುದು.",
   "medicineImageImportDroppedSchedulesCaption": "ಮಿತಿಯನ್ನು ಮೀರಿದ ಔಷಧ ತೆಗೆದುಕೊಳ್ಳುವ {count} ಸಮಯಗಳನ್ನು ದಾಖಲಿಸಲಾಗುವುದಿಲ್ಲ",
   "medicineImageImportGroupChangedError": "ಗುಂಪು ಬದಲಾಗಿರುವುದರಿಂದ ನೋಂದಣಿಯನ್ನು ರದ್ದುಗೊಳಿಸಲಾಗಿದೆ.",
+  "medicineImageImportConsentTitle": "ಚಿತ್ರವನ್ನು ಬಾಹ್ಯ AI ಗೆ ಕಳುಹಿಸಿ",
+  "medicineImageImportConsentMessage": "ಔಷಧಿಗಳ ಹೆಸರುಗಳು ಮತ್ತು ಸೇವನೆಯ ಸಮಯಗಳನ್ನು ಓದಲು ಆಯ್ಕೆ ಮಾಡಿದ ಚಿತ್ರವನ್ನು OpenAI ನ AI ಗೆ ಕಳುಹಿಸಲಾಗುತ್ತದೆ. ಚಿತ್ರವನ್ನು ನಮ್ಮ ಸರ್ವರ್‌ಗಳಲ್ಲಿ ಸಂಗ್ರಹಿಸಲಾಗುವುದಿಲ್ಲ.",
   "minimumDoseInterval": "ಡೋಸ್‌ಗಳ ನಡುವಿನ ಅಂತರ",
   "minimumDoseIntervalDescription": "ಹಿಂದಿನ ಡೋಸ್‌ನಿಂದ ಕನಿಷ್ಠ ಅಂತರದ ಸಮಯ",
   "minimumDoseIntervalNone": "ಯಾವುದೂ ಇಲ್ಲ",

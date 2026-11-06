@@ -243,6 +243,8 @@
   "medicineImageImportTimeFallbackCaption": "ບໍ່ສາມາດອ່ານເວລາກິນຢາໄດ້ ຈຶ່ງກຳນົດເວລາຊົ່ວຄາວໄວ້. ທ່ານສາມາດແກ້ໄຂໄດ້ຫຼັງຈາກບັນທຶກ.",
   "medicineImageImportDroppedSchedulesCaption": "ເວລາກິນຢາ {count} ລາຍການທີ່ເກີນຂີດຈຳກັດຈະບໍ່ຖືກບັນທຶກ",
   "medicineImageImportGroupChangedError": "ຍົກເລີກການລົງທະບຽນແລ້ວ ເນື່ອງຈາກກຸ່ມປ່ຽນໄປ.",
+  "medicineImageImportConsentTitle": "ສົ່ງຮູບໄປຫາ AI ພາຍນອກ",
+  "medicineImageImportConsentMessage": "ຮູບທີ່ເລືອກຈະຖືກສົ່ງໄປຫາ AI ຂອງ OpenAI ເພື່ອອ່ານຊື່ຢາ ແລະ ເວລາກິນຢາ. ຮູບຈະບໍ່ຖືກເກັບໄວ້ໃນເຊີບເວີຂອງພວກເຮົາ.",
   "minimumDoseInterval": "ໄລຍະຫ່າງລະຫວ່າງການກິນຢາ",
   "minimumDoseIntervalDescription": "ໄລຍະເວລາຂັ້ນຕ່ຳລະຫວ່າງການກິນຢາ ຫຼັງຈາກຄັ້ງກ່ອນ",
   "minimumDoseIntervalNone": "ບໍ່ມີ",

@@ -243,6 +243,8 @@
   "medicineImageImportTimeFallbackCaption": "ဆေးသောက်ချိန်ကို ဖတ်၍မရသောကြောင့် ယာယီအချိန် သတ်မှတ်ထားသည်။ သိမ်းဆည်းပြီးနောက် ပြင်ဆင်နိုင်သည်။",
   "medicineImageImportDroppedSchedulesCaption": "ကန့်သတ်ချက်ကျော်လွန်သော ဆေးသောက်ချိန် {count} ခုကို မှတ်ပုံတင်မည်မဟုတ်ပါ",
   "medicineImageImportGroupChangedError": "အဖွဲ့ပြောင်းလဲသွားသောကြောင့် စာရင်းသွင်းခြင်းကို ပယ်ဖျက်လိုက်ပါသည်။",
+  "medicineImageImportConsentTitle": "ပုံကို ပြင်ပ AI သို့ ပို့ပါ",
+  "medicineImageImportConsentMessage": "ရွေးချယ်ထားသော ပုံကို ဆေးအမည်များနှင့် သောက်ချိန်များ ဖတ်ရန် OpenAI ၏ AI သို့ ပို့ပါမည်။ ပုံကို ကျွန်ုပ်တို့၏ ဆာဗာများတွင် သိမ်းဆည်းထားခြင်း မရှိပါ။",
   "minimumDoseInterval": "ဆေးသောက်ချိန်ကြားကာလ",
   "minimumDoseIntervalDescription": "ယခင်ဆေးသောက်ပြီးနောက် ဆေးပမာဏများကြား အနည်းဆုံးကြာချိန်",
   "minimumDoseIntervalNone": "မရှိပါ",

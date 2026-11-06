@@ -243,6 +243,8 @@
   "medicineImageImportTimeFallbackCaption": "Эм уух цагийг уншиж чадсангүй. Тиймээс түр цаг тохируулсан. Хадгалсны дараа өөрчилж болно.",
   "medicineImageImportDroppedSchedulesCaption": "Хязгаараас хэтэрсэн эм уух {count} цагийг бүртгэхгүй",
   "medicineImageImportGroupChangedError": "Бүлэг өөрчлөгдсөн тул бүртгэлийг цуцаллаа.",
+  "medicineImageImportConsentTitle": "Зургийг гадны хиймэл оюун руу илгээх",
+  "medicineImageImportConsentMessage": "Сонгосон зургийг эмийн нэр болон уух цагийг уншихын тулд OpenAI-ийн хиймэл оюун руу илгээнэ. Зургийг манай серверт хадгалахгүй.",
   "minimumDoseInterval": "Тун хоорондын зай",
   "minimumDoseIntervalDescription": "Өмнөх тунгаас хойш тун хооронд баримтлах хамгийн бага хугацаа",
   "minimumDoseIntervalNone": "Байхгүй",

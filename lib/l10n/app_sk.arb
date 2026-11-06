@@ -243,6 +243,8 @@
   "medicineImageImportTimeFallbackCaption": "Čas užitia lieku sa nepodarilo prečítať, preto bol nastavený dočasný čas. Po uložení ho môžete upraviť.",
   "medicineImageImportDroppedSchedulesCaption": "{count} časov užitia lieku nad limit sa neuloží",
   "medicineImageImportGroupChangedError": "Registrácia bola zrušená, pretože sa zmenila skupina.",
+  "medicineImageImportConsentTitle": "Odoslať obrázok externej AI",
+  "medicineImageImportConsentMessage": "Vybraný obrázok bude odoslaný AI spoločnosti OpenAI, aby prečítala názvy liekov a časy užívania. Obrázok sa neukladá na našich serveroch.",
   "minimumDoseInterval": "Interval medzi dávkami",
   "minimumDoseIntervalDescription": "Minimálny odstup medzi dávkami od poslednej dávky",
   "minimumDoseIntervalNone": "Žiadne",

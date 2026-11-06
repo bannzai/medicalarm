@@ -242,6 +242,8 @@
   "medicineImageImportTimeFallbackCaption": "മരുന്ന് കഴിക്കേണ്ട സമയം വായിച്ചെടുക്കാൻ കഴിഞ്ഞില്ല, അതിനാൽ താൽക്കാലിക സമയം നിശ്ചയിച്ചു. സേവ് ചെയ്ത ശേഷം ഇത് മാറ്റാം.",
   "medicineImageImportDroppedSchedulesCaption": "പരിധി കവിയുന്ന മരുന്ന് കഴിക്കാനുള്ള {count} സമയങ്ങൾ രജിസ്റ്റർ ചെയ്യില്ല",
   "medicineImageImportGroupChangedError": "ഗ്രൂപ്പ് മാറിയതിനാൽ രജിസ്ട്രേഷൻ റദ്ദാക്കി.",
+  "medicineImageImportConsentTitle": "ചിത്രം ഒരു ബാഹ്യ AI-ലേക്ക് അയയ്ക്കുക",
+  "medicineImageImportConsentMessage": "മരുന്നുകളുടെ പേരുകളും കഴിക്കേണ്ട സമയങ്ങളും വായിക്കാൻ തിരഞ്ഞെടുത്ത ചിത്രം OpenAI-യുടെ AI-ലേക്ക് അയയ്ക്കും. ചിത്രം ഞങ്ങളുടെ സെർവറുകളിൽ സൂക്ഷിക്കുന്നില്ല.",
   "minimumDoseInterval": "ഡോസുകൾക്കിടയിലെ ഇടവേള",
   "minimumDoseIntervalDescription": "മുമ്പ് മരുന്ന് കഴിച്ചതിന് ശേഷം കുറഞ്ഞത് എത്ര സമയം ഇടവേള വേണം",
   "minimumDoseIntervalNone": "ഇല്ല",

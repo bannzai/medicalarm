@@ -243,6 +243,8 @@
   "medicineImageImportTimeFallbackCaption": "Ravimi võtmise aega ei õnnestunud tuvastada, seega määrati ajutine kellaaeg. Saate seda pärast salvestamist muuta.",
   "medicineImageImportDroppedSchedulesCaption": "{count} üle piirangu jäävat ravimi võtmise aega ei salvestata",
   "medicineImageImportGroupChangedError": "Registreerimine tühistati, sest rühm muutus.",
+  "medicineImageImportConsentTitle": "Saada pilt välisele tehisintellektile",
+  "medicineImageImportConsentMessage": "Valitud pilt saadetakse OpenAI tehisintellektile, et lugeda ravimite nimed ja võtmise ajad. Pilti meie serverites ei salvestata.",
   "minimumDoseInterval": "Annustamisintervall",
   "minimumDoseIntervalDescription": "Minimaalne aeg annuste vahel alates eelmisest annusest",
   "minimumDoseIntervalNone": "Puudub",

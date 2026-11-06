@@ -243,6 +243,8 @@
   "medicineImageImportTimeFallbackCaption": "మందు తీసుకునే సమయాన్ని చదవలేకపోయాము, కాబట్టి తాత్కాలిక సమయం సెట్ చేయబడింది. సేవ్ చేసిన తర్వాత దాన్ని మార్చవచ్చు.",
   "medicineImageImportDroppedSchedulesCaption": "పరిమితిని మించిన మందు తీసుకునే {count} సమయాలు నమోదు చేయబడవు",
   "medicineImageImportGroupChangedError": "గ్రూప్ మారినందున నమోదు రద్దు చేయబడింది.",
+  "medicineImageImportConsentTitle": "చిత్రాన్ని బాహ్య AIకి పంపండి",
+  "medicineImageImportConsentMessage": "మందుల పేర్లు మరియు వేసుకునే సమయాలను చదవడానికి ఎంచుకున్న చిత్రం OpenAI యొక్క AIకి పంపబడుతుంది. చిత్రం మా సర్వర్‌లలో నిల్వ చేయబడదు.",
   "minimumDoseInterval": "మోతాదుల మధ్య విరామం",
   "minimumDoseIntervalDescription": "మునుపటి మోతాదు తర్వాత మోతాదుల మధ్య కనీస సమయం",
   "minimumDoseIntervalNone": "ఏదీ లేదు",

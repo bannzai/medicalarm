@@ -243,6 +243,8 @@
   "medicineImageImportTimeFallbackCaption": "Waktu minum obat tidak terbaca, jadi waktu sementara telah ditetapkan. Anda dapat mengubahnya setelah menyimpan.",
   "medicineImageImportDroppedSchedulesCaption": "{count} waktu minum obat yang melebihi batas tidak akan didaftarkan",
   "medicineImageImportGroupChangedError": "Pendaftaran dibatalkan karena grup berubah.",
+  "medicineImageImportConsentTitle": "Kirim gambar ke AI eksternal",
+  "medicineImageImportConsentMessage": "Gambar yang dipilih akan dikirim ke AI milik OpenAI untuk membaca nama obat dan waktu minum. Gambar tidak disimpan di server kami.",
   "minimumDoseInterval": "Jarak antar dosis",
   "minimumDoseIntervalDescription": "Jeda minimum antar dosis sejak dosis terakhir",
   "minimumDoseIntervalNone": "Tidak ada",

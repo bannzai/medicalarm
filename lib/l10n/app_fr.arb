@@ -243,6 +243,8 @@
   "medicineImageImportTimeFallbackCaption": "L’heure de prise n’a pas pu être lue. Une heure provisoire a été définie. Vous pourrez la modifier après l’enregistrement.",
   "medicineImageImportDroppedSchedulesCaption": "{count} horaires de prise dépassant la limite ne seront pas enregistrés",
   "medicineImageImportGroupChangedError": "L’enregistrement a été annulé, car le groupe a changé.",
+  "medicineImageImportConsentTitle": "Envoyer l'image à une IA externe",
+  "medicineImageImportConsentMessage": "L'image sélectionnée sera envoyée à l'IA d'OpenAI pour lire les noms des médicaments et les heures de prise. L'image n'est pas conservée sur nos serveurs.",
   "minimumDoseInterval": "Intervalle entre les prises",
   "minimumDoseIntervalDescription": "Délai minimum entre les prises depuis la dernière prise",
   "minimumDoseIntervalNone": "Aucun",

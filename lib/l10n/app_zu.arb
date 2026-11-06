@@ -243,6 +243,8 @@
   "medicineImageImportTimeFallbackCaption": "Isikhathi sokuphuza umuthi asikwazekanga ukufundwa, ngakho kubekwe isikhathi sesikhashana. Ungasishintsha ngemva kokulondoloza.",
   "medicineImageImportDroppedSchedulesCaption": "Izikhathi {count} zokuphuza umuthi ezeqa umkhawulo ngeke zibhaliswe",
   "medicineImageImportGroupChangedError": "Ukubhalisa kukhanseliwe ngoba iqembu lishintshile.",
+  "medicineImageImportConsentTitle": "Thumela isithombe ku-AI yangaphandle",
+  "medicineImageImportConsentMessage": "Isithombe esikhethiwe sizothunyelwa ku-AI ka-OpenAI ukuze kufundwe amagama emithi nezikhathi zokuyiphuza. Isithombe asigcinwa kumaseva ethu.",
   "minimumDoseInterval": "Isikhawu phakathi kwemithamo",
   "minimumDoseIntervalDescription": "Isikhathi esincane phakathi kwemithamo kusukela emthamo odlule",
   "minimumDoseIntervalNone": "Akukho",

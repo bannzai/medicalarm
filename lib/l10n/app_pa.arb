@@ -243,6 +243,8 @@
   "medicineImageImportTimeFallbackCaption": "ਦਵਾਈ ਲੈਣ ਦਾ ਸਮਾਂ ਪੜ੍ਹਿਆ ਨਹੀਂ ਜਾ ਸਕਿਆ, ਇਸ ਲਈ ਅਸਥਾਈ ਸਮਾਂ ਸੈੱਟ ਕੀਤਾ ਗਿਆ ਹੈ। ਸੁਰੱਖਿਅਤ ਕਰਨ ਤੋਂ ਬਾਅਦ ਤੁਸੀਂ ਇਸਨੂੰ ਬਦਲ ਸਕਦੇ ਹੋ।",
   "medicineImageImportDroppedSchedulesCaption": "ਸੀਮਾ ਤੋਂ ਵੱਧ ਦਵਾਈ ਲੈਣ ਦੇ {count} ਸਮੇਂ ਦਰਜ ਨਹੀਂ ਕੀਤੇ ਜਾਣਗੇ",
   "medicineImageImportGroupChangedError": "ਗਰੁੱਪ ਬਦਲ ਜਾਣ ਕਾਰਨ ਰਜਿਸਟ੍ਰੇਸ਼ਨ ਰੱਦ ਕਰ ਦਿੱਤੀ ਗਈ ਹੈ।",
+  "medicineImageImportConsentTitle": "ਤਸਵੀਰ ਬਾਹਰੀ AI ਨੂੰ ਭੇਜੋ",
+  "medicineImageImportConsentMessage": "ਦਵਾਈਆਂ ਦੇ ਨਾਮ ਅਤੇ ਲੈਣ ਦੇ ਸਮੇਂ ਪੜ੍ਹਨ ਲਈ ਚੁਣੀ ਗਈ ਤਸਵੀਰ OpenAI ਦੇ AI ਨੂੰ ਭੇਜੀ ਜਾਵੇਗੀ। ਤਸਵੀਰ ਸਾਡੇ ਸਰਵਰਾਂ 'ਤੇ ਸੰਭਾਲੀ ਨਹੀਂ ਜਾਂਦੀ।",
   "minimumDoseInterval": "ਖੁਰਾਕਾਂ ਵਿਚਕਾਰ ਅੰਤਰਾਲ",
   "minimumDoseIntervalDescription": "ਪਿਛਲੀ ਖੁਰਾਕ ਤੋਂ ਬਾਅਦ ਖੁਰਾਕਾਂ ਵਿਚਕਾਰ ਘੱਟੋ-ਘੱਟ ਸਮਾਂ",
   "minimumDoseIntervalNone": "ਕੋਈ ਨਹੀਂ",

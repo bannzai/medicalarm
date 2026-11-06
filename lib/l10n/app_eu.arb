@@ -243,6 +243,8 @@
   "medicineImageImportTimeFallbackCaption": "Ezin izan da sendagaia hartzeko ordua irakurri; behin-behineko ordua ezarri da. Gorde ondoren alda dezakezu.",
   "medicineImageImportDroppedSchedulesCaption": "Ez dira erregistratuko muga gainditzen duten {count} sendagaiak hartzeko orduak",
   "medicineImageImportGroupChangedError": "Erregistroa bertan behera utzi da taldea aldatu delako.",
+  "medicineImageImportConsentTitle": "Bidali irudia kanpoko AA bati",
+  "medicineImageImportConsentMessage": "Hautatutako irudia OpenAI-ren AAri bidaliko zaio, botiken izenak eta hartzeko orduak irakurtzeko. Irudia ez da gure zerbitzarietan gordetzen.",
   "minimumDoseInterval": "Dosi arteko tartea",
   "minimumDoseIntervalDescription": "Aurreko dositik gutxienez igaro beharreko denbora",
   "minimumDoseIntervalNone": "Bat ere ez",

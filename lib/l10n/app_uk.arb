@@ -243,6 +243,8 @@
   "medicineImageImportTimeFallbackCaption": "Не вдалося розпізнати час прийому ліків, тому встановлено тимчасовий час. Після збереження його можна змінити.",
   "medicineImageImportDroppedSchedulesCaption": "{count} часів прийому ліків понад ліміт не буде збережено",
   "medicineImageImportGroupChangedError": "Реєстрацію скасовано, оскільки група змінилася.",
+  "medicineImageImportConsentTitle": "Надіслати зображення зовнішньому ШІ",
+  "medicineImageImportConsentMessage": "Вибране зображення буде надіслано ШІ OpenAI, щоб розпізнати назви ліків і час прийому. Зображення не зберігається на наших серверах.",
   "minimumDoseInterval": "Інтервал між прийомами",
   "minimumDoseIntervalDescription": "Мінімальний інтервал між прийомами після попередньої дози",
   "minimumDoseIntervalNone": "Немає",

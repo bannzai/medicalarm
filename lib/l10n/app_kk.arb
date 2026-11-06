@@ -243,6 +243,8 @@
   "medicineImageImportTimeFallbackCaption": "Дәріні қабылдау уақытын оқу мүмкін болмады, сондықтан уақытша уақыт қойылды. Сақтағаннан кейін оны өзгерте аласыз.",
   "medicineImageImportDroppedSchedulesCaption": "Шектен асқан дәрі қабылдаудың {count} уақыты тіркелмейді",
   "medicineImageImportGroupChangedError": "Топ өзгергендіктен, тіркеу тоқтатылды.",
+  "medicineImageImportConsentTitle": "Суретті сыртқы ЖИ-ге жіберу",
+  "medicineImageImportConsentMessage": "Таңдалған сурет дәрі атаулары мен қабылдау уақыттарын оқу үшін OpenAI ЖИ-іне жіберіледі. Сурет біздің серверлерде сақталмайды.",
   "minimumDoseInterval": "Дозалар арасындағы аралық",
   "minimumDoseIntervalDescription": "Алдыңғы дозадан кейін өтуі тиіс ең аз уақыт",
   "minimumDoseIntervalNone": "Жоқ",

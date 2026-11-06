@@ -243,6 +243,8 @@
   "medicineImageImportTimeFallbackCaption": "Nepavyko nuskaityti vaisto vartojimo laiko, todėl nustatytas laikinas laikas. Išsaugoję galėsite jį pakeisti.",
   "medicineImageImportDroppedSchedulesCaption": "{count} vaistų vartojimo laikai, viršijantys limitą, nebus išsaugoti",
   "medicineImageImportGroupChangedError": "Registracija atšaukta, nes pasikeitė grupė.",
+  "medicineImageImportConsentTitle": "Siųsti vaizdą išoriniam DI",
+  "medicineImageImportConsentMessage": "Pasirinktas vaizdas bus išsiųstas OpenAI DI, kad būtų nuskaityti vaistų pavadinimai ir vartojimo laikai. Vaizdas nesaugomas mūsų serveriuose.",
   "minimumDoseInterval": "Dozių vartojimo intervalas",
   "minimumDoseIntervalDescription": "Minimalus laikas tarp dozių nuo paskutinės dozės",
   "minimumDoseIntervalNone": "Nėra",

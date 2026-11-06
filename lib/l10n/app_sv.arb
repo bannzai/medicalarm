@@ -243,6 +243,8 @@
   "medicineImageImportTimeFallbackCaption": "Tiden för medicinintag kunde inte läsas av, så en tillfällig tid har angetts. Du kan ändra den när du har sparat.",
   "medicineImageImportDroppedSchedulesCaption": "{count} tidpunkter för läkemedelsintag över gränsen kommer inte att sparas",
   "medicineImageImportGroupChangedError": "Registreringen avbröts eftersom gruppen ändrades.",
+  "medicineImageImportConsentTitle": "Skicka bilden till en extern AI",
+  "medicineImageImportConsentMessage": "Den valda bilden skickas till OpenAI:s AI för att läsa läkemedelsnamn och doseringstider. Bilden sparas inte på våra servrar.",
   "minimumDoseInterval": "Doseringsintervall",
   "minimumDoseIntervalDescription": "Minsta tid mellan doser sedan den senaste dosen",
   "minimumDoseIntervalNone": "Ingen",

@@ -243,6 +243,8 @@
   "medicineImageImportTimeFallbackCaption": "Nie udało się odczytać godziny przyjęcia leku, dlatego ustawiono godzinę tymczasową. Możesz ją zmienić po zapisaniu.",
   "medicineImageImportDroppedSchedulesCaption": "{count} godzin przyjmowania leku ponad limit nie zostanie zapisanych",
   "medicineImageImportGroupChangedError": "Rejestracja została anulowana, ponieważ zmieniono grupę.",
+  "medicineImageImportConsentTitle": "Wyślij obraz do zewnętrznej SI",
+  "medicineImageImportConsentMessage": "Wybrany obraz zostanie wysłany do SI firmy OpenAI w celu odczytania nazw leków i godzin przyjmowania. Obraz nie jest przechowywany na naszych serwerach.",
   "minimumDoseInterval": "Odstęp między dawkami",
   "minimumDoseIntervalDescription": "Minimalny odstęp między dawkami od poprzedniej dawki",
   "minimumDoseIntervalNone": "Brak",

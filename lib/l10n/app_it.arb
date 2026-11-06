@@ -243,6 +243,8 @@
   "medicineImageImportTimeFallbackCaption": "Non è stato possibile leggere l’orario di assunzione, quindi è stato impostato un orario provvisorio. Puoi modificarlo dopo il salvataggio.",
   "medicineImageImportDroppedSchedulesCaption": "Non verranno registrati {count} orari di assunzione oltre il limite",
   "medicineImageImportGroupChangedError": "La registrazione è stata annullata perché il gruppo è cambiato.",
+  "medicineImageImportConsentTitle": "Invia l'immagine a un'IA esterna",
+  "medicineImageImportConsentMessage": "L'immagine selezionata verrà inviata all'IA di OpenAI per leggere i nomi dei farmaci e gli orari di assunzione. L'immagine non viene salvata sui nostri server.",
   "minimumDoseInterval": "Intervallo tra le dosi",
   "minimumDoseIntervalDescription": "Intervallo minimo tra le dosi dall’ultima dose",
   "minimumDoseIntervalNone": "Nessuno",
