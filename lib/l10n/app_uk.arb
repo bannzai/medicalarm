@@ -21,6 +21,7 @@
   "camera": "Камера",
   "photoLibrary": "Фотобібліотека",
   "medicationHistory": "Історія прийому ліків",
+  "noMedicationHistory": "Історії приймання ліків немає",
   "premiumRegistrationComplete": "Medicalarm Premium Registration Completed",
   "everyXDays": "every X days",
   "quantityExample": "e.g., 1 tablet, 100mg",

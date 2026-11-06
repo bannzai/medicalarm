@@ -21,6 +21,7 @@
   "camera": "කැමරා",
   "photoLibrary": "ෆොටෝ පුස්තකාලය",
   "medicationHistory": "ඖෂධ භාවිතභාරය",
+  "noMedicationHistory": "ඖෂධ ලබාගත් ඉතිහාසයක් නොමැත",
   "scheduledTime": "නියමිත කාලයට",
   "recordedTime": "නෝඩු වේලාව",
   "noMemo": "සටහනක් නැත",
