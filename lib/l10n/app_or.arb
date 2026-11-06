@@ -138,6 +138,7 @@
   "purchaseErrorPaymentPending": "ଦେୟ ପ୍ରକ୍ରିୟା ଅଟକି ରହିଛି। ବର୍ତ୍ତମାନ ଲଗ୍‌ଇନ୍ କରିଥିବା {accountName} ଖାତାରେ {storeName} ଯାଞ୍ଚ କରନ୍ତୁ।",
   "premiumUserThanksTitle": "ଆପଣ ପ୍ରିମିୟମ ସଦସ୍ୟ",
   "premiumPricePerMonth": "（{price}/ମାସ）",
+  "premiumCancelDescription": "・କିଣିବା ପରେ {storeName} ଆପ୍‌ର ଆକାଉଣ୍ଟ ସେଟିଂସ୍‌ରେ ସ୍ୱୟଂଚାଳିତ ନବୀକରଣ ବାତିଲ କରିପାରିବେ। (ଏହି ଆପ୍‌ ଭିତରୁ ସ୍ୱୟଂଚାଳିତ ନବୀକରଣ ବାତିଲ କରିହେବ ନାହିଁ।)",
   "sixMonthPlan": "6 ମାସ ଯୋଜନା",
   "privacyPolicy": "ପ୍ରାଇଭେସୀ ପୋଲିସୀ",
   "purchaseRestored": "ଆପଣଙ୍କର କିଣା ତଥ୍ୟ ପୁନଃସ୍ଥାପିତ ହୋଇଛି",

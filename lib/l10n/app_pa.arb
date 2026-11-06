@@ -139,6 +139,7 @@
   "premiumUserThanksTitle": "ਪ੍ਰੀਮੀਅਮ ਮੈਂਬਰ",
   "premiumUserThanksMessage": "ਤੁਹਾਡਾ ਧੰਨਵਾਦ। ਤੁਹਾਡੇ ਕਰਮ ਨਾਲ, ਅਸੀਂ Medicalarm ਦੀ ਚੱਲਾਹਟ ਜਾਰੀ ਰੱਖ ਸਕਦੇ ਹਾਂ।",
   "premiumPricePerMonth": "(ਤਨਖਾਹ {price}/ਮਹੀਨਾ)",
+  "premiumCancelDescription": "・ਖਰੀਦਣ ਤੋਂ ਬਾਅਦ, ਤੁਸੀਂ {storeName} ਐਪ ਦੀਆਂ ਖਾਤਾ ਸੈਟਿੰਗਾਂ ਵਿੱਚ ਆਟੋਮੈਟਿਕ ਨਵੀਨੀਕਰਨ ਰੱਦ ਕਰ ਸਕਦੇ ਹੋ। (ਇਸ ਐਪ ਵਿੱਚੋਂ ਆਟੋਮੈਟਿਕ ਨਵੀਨੀਕਰਨ ਰੱਦ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਦਾ।)",
   "purchaseErrorRestoreFailed": "ਪਿਛਲੇ ਖਰੀਦਣ ਦੀ ਜਾਣਕਾਰੀ ਮਿਲੀ ਨਹੀਂ। ਕ੍ਰਿਪਾ ਕਰਕੇ ਆਪਣੇ ਖਾਤੇ ਦੀ ਜਾਂਚ ਕਰੋ ਅਤੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ",
   "purchaseErrorUserNotFound": "ਯੂਜ਼ਰ ਦੀ ਪੁਸ਼ਟੀ ਨਹੀਂ ਹੋਈ। ਕਿਰਪਾ ਕਰਕੇ ਐਪ ਨੂੰ ਦੁਬਾਰਾ ਚਾਲੂ ਕਰੋ ਅਤੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ। ਵੇਰਵਾ: {message}",
   "purchaseErrorActivationPending": "ਤੁਸੀਂ ਆਪਣੇ ਚਾਰਜਿੰਗ ਨੂੰ ਸਮਰੱਥ ਕਰ ਸਕਦੇ ਹੋ। ਕ੍ਰਿਪਾ ਬਾਅਦ ਵਿੱਚ ਦੁਬਾਰਾ ਗੱਲ ਕਰੋ।",

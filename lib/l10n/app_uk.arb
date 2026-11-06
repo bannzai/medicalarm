@@ -139,6 +139,7 @@
   "premiumUserThanksTitle": "Ви — преміумучасник",
   "premiumUserThanksMessage": "Thank you for using our service.\nThanks to you, we are able to continue operating Medicalarm.",
   "premiumPricePerMonth": "（{price}/міс.）",
+  "premiumCancelDescription": "・Після покупки ви можете скасувати автоматичне поновлення в налаштуваннях облікового запису застосунку {storeName}. (У цьому застосунку скасувати автоматичне поновлення не можна.)",
   "installPilll": "Install Pilll",
   "specialGift": "🎉 Особливий подарунок 🎉",
   "freePremiumTrialDays": "Ви отримаєте в подарунок безкоштовний пробний період на {count} днів!",

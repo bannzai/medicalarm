@@ -139,6 +139,7 @@
   "premiumUserThanksTitle": "သင်သည် ပရီမီယံအဖွဲ့ဝင်ဖြစ်ပါသည်",
   "premiumUserThanksMessage": "Terima kasih atas penggunaan anda.\nBerkat anda, kami dapat terus menjalankan Medicalarm.",
   "premiumPricePerMonth": "（{price}/လ）",
+  "premiumCancelDescription": "・ဝယ်ယူပြီးနောက် {storeName} အက်ပ်၏ အကောင့်ဆက်တင်များတွင် အလိုအလျောက်သက်တမ်းတိုးမှုကို ပယ်ဖျက်နိုင်ပါသည်။ (ဤအက်ပ်အတွင်းမှ အလိုအလျောက်သက်တမ်းတိုးမှုကို ပယ်ဖျက်၍ မရပါ။)",
   "installPilll": "Pasang Pilll",
   "specialGift": "🎉 အထူးလက်ဆောင် 🎉",
   "freePremiumTrialDays": "လက်ဆောင်အဖြစ် {count} ရက် အခမဲ့ အစမ်းသုံးကာလကို ရရှိပါမည်!",
