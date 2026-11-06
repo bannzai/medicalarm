@@ -54,6 +54,7 @@
   "doseReceiver": "ဆေးသောက်သူ",
   "defaultDoseReceiver": "မိမိ",
   "doseReceiverMaxCount": "ဆေးသောက်သူ အများဆုံး {count} ဦးအထိ စာရင်းသွင်းနိုင်ပါသည်",
+  "increaseLimitWithPremium": "ပရီမီယံအစီအစဉ်ဖြင့် ကန့်သတ်ချက်ကို {count} အထိ တိုးမြှင့်ပါ",
   "viewFaq": "Lihat FAQ",
   "ok": "OK",
   "silentModeNotificationDescription": "Walau mod tumpuan dihidupkan atau peranti dalam mod senyap, pemberitahuan penting akan dipaparkan pada skrin kunci dan bunyi akan dimainkan.",

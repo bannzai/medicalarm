@@ -54,6 +54,7 @@
   "doseReceiver": "Особа, яка приймає ліки",
   "defaultDoseReceiver": "Я",
   "doseReceiverMaxCount": "Можна зареєструвати щонайбільше {count} осіб, які приймають ліки",
+  "increaseLimitWithPremium": "Збільшити ліміт до {count} з преміумпланом",
   "viewFaq": "View FAQ",
   "ok": "OK",
   "silentModeNotificationDescription": "Important notifications will be displayed on the lock screen and a sound will be played even when Focus Mode is ON or the device is on silent.",

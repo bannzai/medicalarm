@@ -54,6 +54,7 @@
   "doseReceiver": "ঔষধ গ্রহণকারী",
   "defaultDoseReceiver": "নিজেকে",
   "doseReceiverMaxCount": "ঔষধ গ্রহণকারী সর্বাধিক {count} জন পর্যন্ত নিবন্ধিত হতে পারে।",
+  "increaseLimitWithPremium": "প্ৰিমিয়াম প্লেনৰ জৰিয়তে সীমা {count}লৈ বৃদ্ধি কৰক",
   "addDoseReceiver": "পৰা অধিকাৰী যোগ কৰক",
   "newDoseReceiver": "নতুন ব্যবহারকারী",
   "reloginRequired": "পুনরায় লগইন করুন",
