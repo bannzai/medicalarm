@@ -122,6 +122,7 @@
   "insomnia": "የእንቅልት ጉዳት",
   "monthlyPlanDiscountFormat": "ወርሃዊ በ{percent}% ቅነስ",
   "purchaseErrorUnknown": "በዚህ የተደረገ የመረጃ እቅፍ ይኖርበታል። ጊዜውን እና እንደገና ይሞክሩ። እንደሚታይ ያልተፈጸመ ከሆነ እባኮትን ወደ ቅንብር > እንደገና መግለጫ ይደርሱ። ዝርዝር: {message}",
+  "purchaseErrorStoreProblem": "በ{storeName} ላይ ስህተት ተፈጥሯል። እባክዎ ትንሽ ቆይተው እንደገና ይሞክሩ።",
   "purchaseErrorInvalidPayment": "እቅፍ ያልተደረገባት ነው። እባኮትን የተጠቃሚ አስተዳደር እና የቅዱስ ሰነድ የሚጠቀም የወንድም እቅፍ ያልተደረገባት ማስጠንቀቅ ይፈቅድ።",
   "purchaseErrorProductUnavailable": "እቅፍ የሚታይ እቅፍ አሁን የሚሸጥ አይደለም። እቅፍ ይድረስ ማለት እባክህ አፕ ድግግሞ አሟላ ይሞከሩ።",
   "purchaseErrorAlreadyPurchased": "ይህ የተገዙባቸው ትክክለኛ ነው። በዚህ መሣሪያ ላይ የተገዙባቸውን መረጃ ለመሥረዝ \"ቀደመ የተገዙ ግን እንደዚህ\" ይጠቀሙ።",

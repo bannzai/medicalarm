@@ -122,6 +122,7 @@
   "insomnia": "အိပ်မပျော်ခြင်း",
   "monthlyPlanDiscountFormat": "Diskaun {percent}% daripada pelan bulanan",
   "purchaseErrorUnknown": "အကြောင်းရင်းမသိသော အမှားတစ်ခု ဖြစ်ပွားခဲ့သည်။ ခဏကြာမှ ထပ်မံကြိုးစားပါ။ ပြဿနာမပြေလည်ပါက ဆက်တင်များ > ဆက်သွယ်ရန် မှတစ်ဆင့် ကျွန်ုပ်တို့ကို ဆက်သွယ်ပါ။ အသေးစိတ်: {message}",
+  "purchaseErrorStoreProblem": "{storeName} တွင် အမှားတစ်ခု ဖြစ်ပေါ်နေပါသည်။ ခဏစောင့်ပြီး ထပ်မံကြိုးစားပါ။",
   "premiumUserThanksMessage": "Terima kasih atas penggunaan anda.\nBerkat anda, kami dapat terus menjalankan Medicalarm.",
   "installPilll": "Pasang Pilll",
   "specialGift": "🎉 အထူးလက်ဆောင် 🎉",
