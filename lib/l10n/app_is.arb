@@ -15,6 +15,7 @@
   "medicineList": "Lyfjaskrá",
   "medicationSchedule": "Lyfjaskáti",
   "medicationTime": "Virkja tilkynningar á töku tíma",
+  "medicationTimeDescription": "Tilkynningar eru sendar miðað við lyfjatökutíma.",
   "close": "Loka",
   "settings": "Stillingar",
   "camera": "Myndavél",
