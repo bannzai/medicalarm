@@ -45,6 +45,7 @@
   "cycle": "ວົງຈອນ",
   "cycleDescription": "ຕົວຢ່າງ: ກິນຢາ 21 ມື້ / ຢຸດກິນຢາ 7 ມື້",
   "everyXDaysDescription": "ຕົວຢ່າງ) ທຸກ 2 ມື້, ທຸກ 3 ມື້",
+  "specificWeekdaysDescription": "ຕົວຢ່າງ: ສະເພາະວັນຈັນ, ວັນພຸດແລະວັນສຸກ",
   "medicineFormValidationError": "ກະລຸນາເຂົ້າໃສ່ຊື່ແລະແຜນການໃຊ້ບໍລິສະດອນ.",
   "quantity": "ຄວາມໃຫຍ່",
   "quantityExample": "ແບບຢ່າງ: 1 ຊີດ, 100mg",
