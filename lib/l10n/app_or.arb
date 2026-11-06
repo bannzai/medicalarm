@@ -70,6 +70,7 @@
   "medicationScheduleLimit": "ଔଷଧ ସେବନ ସୂଚୀ {count}ଟି ପର୍ଯ୍ୟନ୍ତ ଯୋଡ଼ିପାରିବେ।",
   "increaseMedicationScheduleLimit": "ପ୍ରିମିୟମ୍ ପ୍ଲାନ୍‌ରେ ସୀମାକୁ {count} ପର୍ଯ୍ୟନ୍ତ ବଢ଼ାନ୍ତୁ",
   "addMedicationSchedule": "ଔଷଧ ସେବନ ସମୟସୂଚୀ ଯୋଡ଼ନ୍ତୁ",
+  "medicationScheduleNotificationSetting": "ଔଷଧ ସେବନ ସୂଚୀ ପାଇଁ ବିଜ୍ଞପ୍ତି ସେଟିଂସ୍",
   "notificationSetting": "ସୂଚନା ସେଟିଂ",
   "alarmKitNotification": "ଆଲାର୍ମ ସୁବିଧା",
   "alarmKitNotificationDescription": "ଆଲାର୍ମ ଘଣ୍ଟା ପରି ବିଜ୍ଞପ୍ତି ବାଜିବ। ସାଇଲେଣ୍ଟ କିମ୍ବା ଫୋକସ୍ ମୋଡ୍‌ରେ ମଧ୍ୟ ଆପଣ ବିଜ୍ଞପ୍ତି ପାଇବେ।",
