@@ -53,6 +53,7 @@
   "otherInformation": "სხვა",
   "doseReceiver": "მიმართვის მფლობელი",
   "defaultDoseReceiver": "ჩემი",
+  "doseReceiverMaxCount": "შეგიძლიათ დაარეგისტრიროთ მაქსიმუმ {count} ადამიანი, რომელიც მედიკამენტებს იღებს",
   "increaseLimitWithPremium": "პრემიუმ გეგმით ლიმიტის ზრდა {count} მდე",
   "addDoseReceiver": "გამხდელის დამატება",
   "newDoseReceiver": "ახალი მიმწვდელი",
