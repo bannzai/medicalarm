@@ -57,6 +57,7 @@
   "increaseLimitWithPremium": "Збільшити ліміт до {count} з преміумпланом",
   "addDoseReceiver": "Додати особу, яка приймає ліки",
   "newDoseReceiver": "Нова особа, яка приймає ліки",
+  "reloginRequired": "Увійдіть знову",
   "viewFaq": "View FAQ",
   "ok": "OK",
   "silentModeNotificationDescription": "Important notifications will be displayed on the lock screen and a sound will be played even when Focus Mode is ON or the device is on silent.",
