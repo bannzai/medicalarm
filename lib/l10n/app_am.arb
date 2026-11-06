@@ -158,6 +158,7 @@
   "updateRequired": "አውርድ አለባት",
   "updateRequiredMessage": "እቅፍ አውታረ ድር {storeName} ወደ ምርጥ አማራጭ ይቀይሩ።",
   "screenshotMedicationHistoriesMemo": "በማለዳ በጣም የተቀመጥኩ ስለዚህ አይተማር ዝውውም ማድረግ አለብኝ",
+  "screenshotMedicationDoserReceiver1": "እኔ",
   "screenshotMedicationDoserReceiver2": "ማና ቻን",
   "screenshotMedicationQuontityMemo1": "1 አንድ",
   "screenshotMedicationQuontityMemo2": "2 በትርዓት",
