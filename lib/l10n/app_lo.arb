@@ -75,6 +75,7 @@
   "enableFollowupNotification": "ເປີດໃຊ້ການແຈ້ງເຕືອນຕິດຕາມ",
   "followupNotificationDescription": "ຖ້າບໍ່ໄດ້ບັນທຶກການກິນຢາພາຍໃນ 30 ນາທີຫຼັງຈາກການແຈ້ງເຕືອນຄັ້ງທຳອິດ ຈະມີການສົ່ງການແຈ້ງເຕືອນຕິດຕາມ",
   "enableNotificationInSilentMode": "ແຈ້ງເຕືອນແມ່ນແຕ່ໃນໂໝດງຽບ",
+  "silentModeNotificationDescription": "ເຖິງແມ່ນຈະເປີດໂໝດໂຟກັດ ຫຼື ປິດສຽງອຸປະກອນ, ການແຈ້ງເຕືອນສຳຄັນກໍຈະສະແດງເທິງໜ້າຈໍລັອກ ແລະ ມີສຽງແຈ້ງເຕືອນ",
   "alarmKitNotification": "ຄຸນສົມບັດໂມງປຸກ",
   "alarmKitNotificationDescription": "ການແຈ້ງເຕືອນຈະດັງຄືໂມງປຸກ. ທ່ານຈະໄດ້ຮັບມັນແມ່ນແຕ່ໃນໂໝດງຽບ ຫຼື ໂໝດໂຟກັສ.",
   "focusConnectBlockOtherApps": "ບລັອກແອັບອື່ນຕັ້ງແຕ່ໄດ້ຮັບແຈ້ງເຕືອນຈົນກວ່າຈະບັນທຶກການກິນຢາ",
