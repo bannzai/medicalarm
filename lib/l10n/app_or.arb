@@ -135,6 +135,7 @@
   "purchaseErrorUnexpectedBackend": "ବର୍ତ୍ତମାନ କ୍ରୟ କରିହେବ ନାହିଁ। କିଛି ସମୟ ପରେ ପୁଣି ଚେଷ୍ଟା କରନ୍ତୁ। ସମସ୍ୟା ସମାଧାନ ନହେଲେ, ସେଟିଂସ୍ > ଯୋଗାଯୋଗ ମାଧ୍ୟମରେ ଆମ ସହ ଯୋଗାଯୋଗ କରନ୍ତୁ। ବିବରଣୀ: {message}",
   "purchaseErrorOperationInProgress": "ଅନ୍ୟ ଏକ କ୍ରୟ ପ୍ରକ୍ରିୟା ଚାଲିଛି। କିଛି ସମୟ ପରେ ପୁଣି ଯାଞ୍ଚ କରନ୍ତୁ।",
   "purchaseErrorInsufficientPermissions": "ଆପଣଙ୍କ {accountName} ଆକାଉଣ୍ଟରେ ପ୍ଲାନ୍‌ରେ ଯୋଗ ଦେଇହେବ ନାହିଁ। ଦେୟ ସୂଚନା ଯାଞ୍ଚ କରି ପୁଣି ଚେଷ୍ଟା କରନ୍ତୁ।",
+  "purchaseErrorPaymentPending": "ଦେୟ ପ୍ରକ୍ରିୟା ଅଟକି ରହିଛି। ବର୍ତ୍ତମାନ ଲଗ୍‌ଇନ୍ କରିଥିବା {accountName} ଖାତାରେ {storeName} ଯାଞ୍ଚ କରନ୍ତୁ।",
   "sixMonthPlan": "6 ମାସ ଯୋଜନା",
   "privacyPolicy": "ପ୍ରାଇଭେସୀ ପୋଲିସୀ",
   "purchaseRestored": "ଆପଣଙ୍କର କିଣା ତଥ୍ୟ ପୁନଃସ୍ଥାପିତ ହୋଇଛି",
