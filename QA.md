@@ -32,7 +32,6 @@ make secret  # 環境変数 FILE_FIREBASE_IOS / REVENUE_CAT_PUBLIC_API_KEY が�
 
 - `ios/Firebase/GoogleService-Info.plist` と `lib/secret/secret.dart` が生成される
 - シミュレータ起動は /sim-manager（sim-boot）を使い、`flutter run -d <simulator>` で起動する
-- git worktree 上で pod install / iOS ビルドが落ちる場合は `flutter-pod-warmup` を実行してから `flutter run` する
 
 ## ログイン方法
 
