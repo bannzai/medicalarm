@@ -1,0 +1,53 @@
+# 配布と同じ構成 (iphoneos・Release) の iOS ビルドが、CocoaPods を使わず SwiftPM だけで通ることを確かめる (#566)。
+# 配布の scripts/release.sh (`flutter build ipa --release`) はローカルで署名まで行うため、ここでは署名を除いた
+# ビルドまでを見る。依存の更新で SwiftPM 非対応の plugin が入ると Flutter は CocoaPods に戻り `pod install` を
+# 実行するため、ログにその行が出たら失敗させる。
+name: CI iOS Release ビルド
+
+on:
+  pull_request:
+    paths:
+      - "ios/**"
+      - "pubspec.yaml"
+      - "pubspec.lock"
+      - ".github/workflows/ci-ios-release-build.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: macos-26
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: subosito/flutter-action@1a449444c387b1966244ae4d4f8c696479add0b2 # v2.23.0
+        with:
+          flutter-version: "3.47.8"
+          channel: stable
+          cache: true
+      - name: 依存関係を取得する
+        run: flutter pub get
+      # ビルドの成否だけを見て成果物は捨てるため、Secrets を使わず git 管理外の 2 ファイルの代わりを置く。
+      # Dependabot の PR には Secrets が渡らないが、この job は同じ条件で動く
+      - name: ビルド用の設定の代わりを置く
+        run: |
+          cp lib/secret/secret.dart.sample lib/secret/secret.dart
+          plutil -create xml1 ios/Firebase/GoogleService-Info.plist
+      - name: iphoneos 向けに Release でビルドする
+        run: |
+          set -o pipefail
+          flutter build ios --release --no-codesign 2>&1 | tee "$RUNNER_TEMP/build.log"
+      - name: CocoaPods に戻っていないことを確かめる
+        run: |
+          if grep -n -E "Running pod install|CocoaPods" "$RUNNER_TEMP/build.log"; then
+            echo "iOS ビルドが CocoaPods を使った。SwiftPM 非対応の plugin が入っていないかを確かめる" >&2
+            exit 1
+          fi
