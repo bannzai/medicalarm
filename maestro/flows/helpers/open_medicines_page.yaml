@@ -1,0 +1,20 @@
+# 準備用の helper。服薬画面 AppBar 右上の編集アイコン（IconButton tooltip "薬を編集"）からお薬一覧画面へ遷移する。
+# CI の runner では、タップがアプリで処理されないまま tapOn が完了することがある (#552)。お薬一覧が出るまでタップからやり直す。
+# お薬一覧のカードの編集アイコンも同じ tooltip を持つ。遅れて処理された 1 回目のタップで遷移済みの時に
+# カードの編集アイコンを押さないよう、お薬一覧が見えていない間だけタップする。
+# 遷移そのものを検証するフローからは呼ばない (タップの無反応の回帰を隠すため)。
+# helpers/ 配下は `maestro test maestro/flows` の実行対象に含まれない (allow_notification.yaml の先頭コメントを参照)。
+appId: com.bannzai.medicalarm
+---
+- retry:
+    maxRetries: 3
+    commands:
+      - runFlow:
+          when:
+            notVisible: "お薬一覧"
+          commands:
+            - tapOn: "薬を編集"
+      # お薬一覧のタイトルは Firestore からの取得完了後に描画されるため、見えた時点で登録済みの薬が出揃っている
+      - extendedWaitUntil:
+          visible: "お薬一覧"
+          timeout: 15000

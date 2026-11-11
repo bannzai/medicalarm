@@ -1,0 +1,19 @@
+# 準備用の helper。お薬一覧画面から「戻る」で服薬画面へ戻る。
+# CI の runner では、タップがアプリで処理されないまま tapOn が完了することがある (#552)。お薬一覧が消えるまでタップからやり直す。
+# 遅れて処理された 1 回目のタップで戻り済みの時に別の画面の「戻る」を押さないよう、お薬一覧が見えている間だけタップする。
+# 戻った先の画面の確認は呼び出し側で行う。
+# 遷移そのものを検証するフローからは呼ばない (タップの無反応の回帰を隠すため)。
+# helpers/ 配下は `maestro test maestro/flows` の実行対象に含まれない (allow_notification.yaml の先頭コメントを参照)。
+appId: com.bannzai.medicalarm
+---
+- retry:
+    maxRetries: 3
+    commands:
+      - runFlow:
+          when:
+            visible: "お薬一覧"
+          commands:
+            - tapOn: "戻る"
+      - extendedWaitUntil:
+          notVisible: "お薬一覧"
+          timeout: 5000

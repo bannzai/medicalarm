@@ -5,12 +5,7 @@
 appId: com.bannzai.medicalarm
 ---
 - runFlow: helpers/allow_notification.yaml
-# 服薬画面 AppBar 右上の編集アイコン（IconButton tooltip "薬を編集"）
-- tapOn: "薬を編集"
-# お薬一覧のタイトルは Firestore からの取得完了後に描画されるため、見えた時点で登録済みの薬が出揃っている
-- extendedWaitUntil:
-    visible: "お薬一覧"
-    timeout: 15000
+- runFlow: helpers/open_medicines_page.yaml
 - runFlow:
     when:
       notVisible: "(?s).*テスト薬.*"
@@ -25,7 +20,7 @@ appId: com.bannzai.medicalarm
 - extendedWaitUntil:
     visible: "(?s).*テスト薬.*"
     timeout: 5000
-- tapOn: "戻る"
+- runFlow: helpers/back_from_medicines_page.yaml
 - extendedWaitUntil:
     visible: "(?s)服薬.*"
     timeout: 5000
