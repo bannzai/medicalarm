@@ -9,27 +9,31 @@ appId: com.bannzai.medicalarm
     when:
       notVisible: "(?s).*テスト薬.*"
     commands:
-      - tapOn: "薬を編集"
-      - extendedWaitUntil:
-          visible: "お薬一覧"
-          timeout: 15000
-      - tapOn:
-          id: "medicine_pause_switch"
-      # Snackbar は tapOn の完了待ちの間に消え得るため、消えない Switch の状態で再開を確かめる (#480)
-      - extendedWaitUntil:
-          visible:
-            id: "medicine_pause_switch"
-            checked: true
-          timeout: 5000
-      - tapOn: "戻る"
+      - runFlow: helpers/open_medicines_page.yaml
+      # タップがアプリで処理されないまま tapOn が完了することがあるため、再開されるまでタップからやり直す (#552)。
+      # 遅れて処理された 1 回目のタップで再開済みの時に一時停止へ戻さないよう、Switch が off の間だけタップする
+      - retry:
+          maxRetries: 3
+          commands:
+            - runFlow:
+                when:
+                  visible:
+                    id: "medicine_pause_switch"
+                    checked: false
+                commands:
+                  - tapOn:
+                      id: "medicine_pause_switch"
+            # Snackbar は tapOn の完了待ちの間に消え得るため、消えない Switch の状態で再開を確かめる (#480)
+            - extendedWaitUntil:
+                visible:
+                  id: "medicine_pause_switch"
+                  checked: true
+                timeout: 5000
+      - runFlow: helpers/back_from_medicines_page.yaml
       - extendedWaitUntil:
           visible: "(?s).*テスト薬.*"
           timeout: 5000
-# 服薬画面 AppBar 右上の編集アイコン（IconButton tooltip "薬を編集"）
-- tapOn: "薬を編集"
-- extendedWaitUntil:
-    visible: "お薬一覧"
-    timeout: 15000
+- runFlow: helpers/open_medicines_page.yaml
 # MedicinesPageSection は Semantics 上 1 ノードに束ねられ accessibilityText が "テスト薬\n自分\n10:00" になるため、複数行を含む正規表現で検出する
 - extendedWaitUntil:
     visible: "(?s).*テスト薬.*"
