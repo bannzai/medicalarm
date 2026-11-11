@@ -44,6 +44,10 @@ const _screenWidth = 390.0;
 /// 1 画面に収まる画面の論理高さ。iPhone 13 / 14 に合わせた。変えたら基準画像を撮り直す
 const _screenHeight = 844.0;
 
+/// 基準画像を撮る画素密度 (論理 1 px あたりの画像の px)。iPhone 13 / 14 の実機は 3 倍だが、基準画像の画素数を
+/// 3 倍の (2/3)^2 ≒ 44% に抑えるため 2 倍にする。変えたら基準画像を撮り直す
+const _devicePixelRatio = 2.0;
+
 /// 薬の登録フォームを末尾まで写す論理高さ。実測でフォームの内容 (服用者の行) がスクロールせずに収まる高さ
 const _medicineFormHeight = 1300.0;
 
@@ -116,8 +120,8 @@ void _snapshotTest({
   testWidgets(
     '$name (${locale.languageCode})',
     (tester) async {
-      tester.view.physicalSize = Size(_screenWidth, height) * 2;
-      tester.view.devicePixelRatio = 2;
+      tester.view.physicalSize = Size(_screenWidth, height) * _devicePixelRatio;
+      tester.view.devicePixelRatio = _devicePixelRatio;
       tester.platformDispatcher.textScaleFactorTestValue = textScaleFactor;
       addTearDown(tester.view.reset);
       addTearDown(tester.platformDispatcher.clearTextScaleFactorTestValue);

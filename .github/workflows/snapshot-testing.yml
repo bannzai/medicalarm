@@ -39,6 +39,7 @@ jobs:
           persist-credentials: false
       - uses: subosito/flutter-action@1a449444c387b1966244ae4d4f8c696479add0b2 # v2.23.0
         with:
+          # Flutter の版で文字・図形の描画が変わり基準画像と一致しなくなるため固定する。版を上げたら基準画像を撮り直す
           flutter-version: '3.47.8'
       - name: Prepare
         run: |

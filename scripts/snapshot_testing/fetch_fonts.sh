@@ -26,6 +26,8 @@ while read -r name path; do
     echo "skip (取得済み): $name"
     continue
   fi
+  # --retry 3: raw.githubusercontent.com の一時的な失敗 (タイムアウト・HTTP 408・429・500・502・503・504) を吸収する。
+  # curl は再試行の前に 1 秒から倍々で待つため (man curl の --retry)、3 回で待ちは計 7 秒になり、取得元が落ちている時に CI の失敗を長引かせない
   curl -fsSL --retry 3 "https://raw.githubusercontent.com/google/fonts/$GOOGLE_FONTS_COMMIT/$path" -o "$DEST/$name.tmp"
   mv "$DEST/$name.tmp" "$DEST/$name"
   echo "ok: $name"
