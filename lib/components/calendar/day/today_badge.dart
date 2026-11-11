@@ -8,10 +8,12 @@ class TodayBadge extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    // 既定の高さを下限にして、文字が大きい時は日付の文字に合わせて伸ばす。
+    // 横は左右の矢印の間の幅に収まらない時だけ縮める (#572。扱いは documents/DIRECTION.md の 2026-11-11 の行)
     return Container(
       color: Colors.white,
       width: double.infinity,
-      height: 50,
+      constraints: const BoxConstraints(minHeight: 50),
       child: Row(
         children: [
           IconButton(
@@ -21,14 +23,19 @@ class TodayBadge extends StatelessWidget {
             },
             icon: const Icon(Icons.arrow_back),
           ),
-          const Spacer(),
-          Center(
-            child: Text(
-              DateFormat(DateFormat.NUM_MONTH_DAY).format(date.value),
-              style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
+          Expanded(
+            // 親の高さが決まっている時に Center が縦いっぱいに広がり、見出しが画面の高さまで伸びるのを防ぐ
+            child: Center(
+              heightFactor: 1,
+              child: FittedBox(
+                fit: BoxFit.scaleDown,
+                child: Text(
+                  DateFormat(DateFormat.NUM_MONTH_DAY).format(date.value),
+                  style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
+                ),
+              ),
             ),
           ),
-          const Spacer(),
           IconButton(
             onPressed: () {
               analytics.logEvent(name: 'today_badge_next_day_pressed');

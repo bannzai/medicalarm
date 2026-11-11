@@ -25,10 +25,12 @@ class CalendarPage extends HookConsumerWidget {
         child: SingleChildScrollView(
           child: Column(
             children: [
+              // 既定の高さを下限にして、文字が大きい時は月の文字に合わせて伸ばす。
+              // 横は左右の矢印の間の幅に収まらない時だけ縮める (#572。扱いは documents/DIRECTION.md の 2026-11-11 の行)
               Container(
                 color: Colors.white,
                 width: double.infinity,
-                height: 50,
+                constraints: const BoxConstraints(minHeight: 50),
                 child: Row(
                   children: [
                     IconButton(
@@ -38,14 +40,19 @@ class CalendarPage extends HookConsumerWidget {
                       },
                       icon: const Icon(Icons.arrow_back),
                     ),
-                    const Spacer(),
-                    Center(
-                      child: Text(
-                        DateFormat(DateFormat.YEAR_MONTH).format(displayedMonth.value),
-                        style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
+                    Expanded(
+                      // 親の高さが決まっている時に Center が縦いっぱいに広がり、見出しが画面の高さまで伸びるのを防ぐ
+                      child: Center(
+                        heightFactor: 1,
+                        child: FittedBox(
+                          fit: BoxFit.scaleDown,
+                          child: Text(
+                            DateFormat(DateFormat.YEAR_MONTH).format(displayedMonth.value),
+                            style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
+                          ),
+                        ),
                       ),
                     ),
-                    const Spacer(),
                     IconButton(
                       onPressed: () {
                         analytics.logEvent(name: 'calendar_next_month_button_pressed');
