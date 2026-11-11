@@ -243,6 +243,8 @@
   "medicineImageImportTimeFallbackCaption": "Het tijdstip van inname kon niet worden gelezen. Daarom is een voorlopig tijdstip ingesteld. Je kunt dit na het opslaan wijzigen.",
   "medicineImageImportDroppedSchedulesCaption": "{count} innametijden boven de limiet worden niet opgeslagen",
   "medicineImageImportGroupChangedError": "De registratie is geannuleerd omdat de groep is gewijzigd.",
+  "medicineImageImportConsentTitle": "Afbeelding naar een externe AI sturen",
+  "medicineImageImportConsentMessage": "De gekozen afbeelding wordt naar de AI van OpenAI gestuurd om medicijnnamen en innametijden te lezen. De afbeelding wordt niet op onze servers opgeslagen.",
   "minimumDoseInterval": "Tussenpoos tussen doses",
   "minimumDoseIntervalDescription": "Minimale tijd tussen doses sinds de vorige dosis",
   "minimumDoseIntervalNone": "Geen",

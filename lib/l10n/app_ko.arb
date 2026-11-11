@@ -243,6 +243,8 @@
   "medicineImageImportTimeFallbackCaption": "복용 시간을 읽지 못해 임시 시간이 설정되었습니다. 등록한 뒤 수정할 수 있습니다.",
   "medicineImageImportDroppedSchedulesCaption": "한도를 초과한 복용 시간 {count}개는 등록되지 않습니다",
   "medicineImageImportGroupChangedError": "그룹이 변경되어 등록을 취소했습니다.",
+  "medicineImageImportConsentTitle": "이미지를 외부 AI로 전송합니다",
+  "medicineImageImportConsentMessage": "선택한 이미지를 OpenAI의 AI로 보내 약 이름과 복용 시간을 읽어 들입니다. 이미지는 저희 서버에 저장되지 않습니다.",
   "minimumDoseInterval": "복용 간격",
   "minimumDoseIntervalDescription": "이전 복용 후 다음 복용까지의 최소 간격",
   "minimumDoseIntervalNone": "없음",

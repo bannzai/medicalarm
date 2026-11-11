@@ -243,6 +243,8 @@
   "medicineImageImportTimeFallbackCaption": "Neizdevās nolasīt zāļu lietošanas laiku, tāpēc iestatīts pagaidu laiks. Pēc saglabāšanas to varēsiet mainīt.",
   "medicineImageImportDroppedSchedulesCaption": "{count} zāļu lietošanas laiki, kas pārsniedz ierobežojumu, netiks saglabāti",
   "medicineImageImportGroupChangedError": "Reģistrācija tika atcelta, jo mainījās grupa.",
+  "medicineImageImportConsentTitle": "Nosūtīt attēlu ārējam MI",
+  "medicineImageImportConsentMessage": "Izvēlētais attēls tiks nosūtīts OpenAI MI, lai nolasītu zāļu nosaukumus un lietošanas laikus. Attēls netiek glabāts mūsu serveros.",
   "minimumDoseInterval": "Devu lietošanas intervāls",
   "minimumDoseIntervalDescription": "Minimālais laiks starp devām kopš iepriekšējās devas",
   "minimumDoseIntervalNone": "Nav",

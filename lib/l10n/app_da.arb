@@ -243,6 +243,8 @@
   "medicineImageImportTimeFallbackCaption": "Tidspunktet for indtagelse kunne ikke aflæses, så der er angivet et midlertidigt tidspunkt. Du kan redigere det efter registrering.",
   "medicineImageImportDroppedSchedulesCaption": "{count} medicintidspunkter over grænsen bliver ikke tilføjet",
   "medicineImageImportGroupChangedError": "Registreringen blev annulleret, fordi gruppen blev ændret.",
+  "medicineImageImportConsentTitle": "Send billedet til en ekstern AI",
+  "medicineImageImportConsentMessage": "Det valgte billede sendes til OpenAI's AI for at aflæse medicinnavne og indtagelsestider. Billedet gemmes ikke på vores servere.",
   "minimumDoseInterval": "Doseringsinterval",
   "minimumDoseIntervalDescription": "Minimum tid mellem doser fra sidste dosis",
   "minimumDoseIntervalNone": "Ingen",

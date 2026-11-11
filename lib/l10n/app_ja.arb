@@ -1199,6 +1199,14 @@
   "@medicineImageImportGroupChangedError": {
     "description": "画像からの登録処理中に表示中のグループが切り替わり、登録を中止した場合に表示するエラー"
   },
+  "medicineImageImportConsentTitle": "画像を外部の AI に送信します",
+  "@medicineImageImportConsentTitle": {
+    "description": "画像から登録で、選んだ画像を外部の AI に送る前に出す確認ダイアログのタイトル"
+  },
+  "medicineImageImportConsentMessage": "選んだ画像を OpenAI の AI に送り、お薬の名前と服用時刻を読み取ります。画像は本サービスのサーバーには保存しません。",
+  "@medicineImageImportConsentMessage": {
+    "description": "画像から登録で、選んだ画像の送り先 (OpenAI の AI) と目的を説明する確認ダイアログの本文"
+  },
   "minimumDoseInterval": "服用間隔",
   "@minimumDoseInterval": {
     "description": "薬フォームの最低服用間隔設定タイルのタイトル"

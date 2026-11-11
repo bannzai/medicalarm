@@ -243,6 +243,8 @@
   "medicineImageImportTimeFallbackCaption": "Часът за прием на лекарството не беше разпознат, затова е зададен временен час. Можете да го редактирате след запазване.",
   "medicineImageImportDroppedSchedulesCaption": "{count} часа за прием на лекарство над лимита няма да бъдат добавени",
   "medicineImageImportGroupChangedError": "Регистрацията е отменена, защото групата е сменена.",
+  "medicineImageImportConsentTitle": "Изпращане на изображението към външен ИИ",
+  "medicineImageImportConsentMessage": "Избраното изображение ще бъде изпратено към ИИ на OpenAI, за да се разчетат имената на лекарствата и часовете за прием. Изображението не се съхранява на нашите сървъри.",
   "minimumDoseInterval": "Интервал между приемите",
   "minimumDoseIntervalDescription": "Минимално време между приемите от последния прием",
   "minimumDoseIntervalNone": "Няма",

@@ -243,6 +243,8 @@
   "medicineImageImportTimeFallbackCaption": "Lääkkeen ottoaikaa ei voitu lukea, joten ajaksi asetettiin väliaikainen aika. Voit muokata sitä tallennuksen jälkeen.",
   "medicineImageImportDroppedSchedulesCaption": "{count} rajan ylittävää lääkkeenottoaikaa ei tallenneta",
   "medicineImageImportGroupChangedError": "Rekisteröinti peruttiin, koska ryhmä vaihtui.",
+  "medicineImageImportConsentTitle": "Lähetä kuva ulkoiselle tekoälylle",
+  "medicineImageImportConsentMessage": "Valittu kuva lähetetään OpenAI:n tekoälylle lääkkeiden nimien ja ottoaikojen lukemista varten. Kuvaa ei tallenneta palvelimillemme.",
   "minimumDoseInterval": "Annosväli",
   "minimumDoseIntervalDescription": "Annosten välinen vähimmäisaika edellisestä annoksesta",
   "minimumDoseIntervalNone": "Ei mitään",

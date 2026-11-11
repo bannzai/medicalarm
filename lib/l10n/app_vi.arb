@@ -243,6 +243,8 @@
   "medicineImageImportTimeFallbackCaption": "Không đọc được giờ uống thuốc nên đã đặt giờ tạm thời. Bạn có thể chỉnh sửa sau khi lưu.",
   "medicineImageImportDroppedSchedulesCaption": "{count} giờ uống thuốc vượt quá giới hạn sẽ không được lưu",
   "medicineImageImportGroupChangedError": "Đã hủy đăng ký vì nhóm đã thay đổi.",
+  "medicineImageImportConsentTitle": "Gửi hình ảnh đến AI bên ngoài",
+  "medicineImageImportConsentMessage": "Hình ảnh đã chọn sẽ được gửi đến AI của OpenAI để đọc tên thuốc và giờ uống. Hình ảnh không được lưu trên máy chủ của chúng tôi.",
   "minimumDoseInterval": "Khoảng cách giữa các liều",
   "minimumDoseIntervalDescription": "Khoảng thời gian tối thiểu giữa các liều kể từ liều trước",
   "minimumDoseIntervalNone": "Không có",

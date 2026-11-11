@@ -4,6 +4,8 @@ name: CI 静的解析 (Flutter)
 
 on:
   pull_request:
+  push:
+    branches: [main]
 
 permissions:
   contents: read

@@ -1,6 +1,7 @@
 import 'dart:async';
 import 'dart:io';
 
+import 'package:cloud_functions/cloud_functions.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
@@ -16,6 +17,7 @@ import 'package:medicalarm/provider/app_user.dart';
 import 'package:medicalarm/provider/current_group_id.dart';
 import 'package:medicalarm/provider/medicine.dart';
 import 'package:medicalarm/style/button.dart';
+import 'package:medicalarm/utils/analytics/analytics.dart';
 import 'package:medicalarm/utils/billing/created_count.dart';
 import 'package:medicalarm/utils/date_time/date_time_ext.dart';
 import 'package:medicalarm/utils/functions/firebase_functions.dart';
@@ -68,6 +70,54 @@ MedicationSchedule _newSchedule({required int hour, required int minute, require
   );
 }
 
+/// 選んだ画像を外部の AI (Cloud Functions 経由で OpenAI) に送ってよいかを確かめるダイアログを出す。
+/// 「送信」を選んだ時だけ true を返し、「キャンセル」・ダイアログの外側のタップ・戻る操作では false を返す。
+Future<bool> showMedicineImageImportConsentDialog(BuildContext context) async {
+  return await showDialog<bool>(
+        context: context,
+        builder: (context) => AlertDialog(
+          title: Text(L.medicineImageImportConsentTitle),
+          content: Text(L.medicineImageImportConsentMessage),
+          actions: [
+            TextButton(
+              onPressed: () {
+                analytics.logEvent(name: 'image_import_consent_cancel_pressed');
+                Navigator.of(context).pop(false);
+              },
+              child: Text(L.cancel),
+            ),
+            TextButton(
+              onPressed: () {
+                analytics.logEvent(name: 'image_import_consent_send_pressed');
+                Navigator.of(context).pop(true);
+              },
+              child: Text(L.send),
+            ),
+          ],
+        ),
+      ) ??
+      false;
+}
+
+/// 利用者が送信を許可した時だけ、[imageFile] を [firebaseFunctions] の generateMedicinesFromImage に送り、
+/// 抽出結果を返す。許可されなかった時と、ダイアログを閉じた時点で画面が破棄されていた時は何も送らずに null を返す。
+/// App Store Review Guidelines 5.1.2 (i) が第三者の AI への個人データの送信の前に明示的な許可を求めるため、送信の直前で確認する。
+/// [firebaseFunctions] を受け取るのは、widget test でモックに差し替えて送信の有無を確かめるため。
+Future<List<Map<String, dynamic>>?> generateMedicinesFromImageAfterConsent({
+  required BuildContext context,
+  required FirebaseFunctions firebaseFunctions,
+  required File imageFile,
+}) async {
+  if (!await showMedicineImageImportConsentDialog(context)) {
+    return null;
+  }
+  if (!context.mounted) {
+    return null;
+  }
+  // base64CompressImage は元画像の形式を問わず JPEG に再エンコードするため、元ファイルの拡張子ではなく JPEG 固定で送る
+  return await firebaseFunctions.generateMedicinesFromImage(mimeType: 'image/jpeg', base64Image: await base64CompressImage(imageFile));
+}
+
 /// お薬手帳・処方箋などの画像から薬を読み取って登録するボタン。
 /// 画像選択 → Functions で AI 抽出 → レビューシートで取捨選択 → 選択分を登録、まで行う。
 class MedicineImageImportButton extends HookConsumerWidget {
@@ -103,9 +153,14 @@ class MedicineImageImportButton extends HookConsumerWidget {
       final importGroupID = medicineAdd.database.groupID;
       isLoading.value = true;
       try {
-        final base64Image = await base64CompressImage(File(photo.path));
-        // base64CompressImage は元画像の形式を問わず JPEG に再エンコードするため、元ファイルの拡張子ではなく JPEG 固定で送る
-        final generatedMedicines = await functions.generateMedicinesFromImage(mimeType: 'image/jpeg', base64Image: base64Image);
+        final generatedMedicines = await generateMedicinesFromImageAfterConsent(
+          context: context,
+          firebaseFunctions: functions,
+          imageFile: File(photo.path),
+        );
+        if (generatedMedicines == null) {
+          return;
+        }
         if (!context.mounted) {
           return;
         }

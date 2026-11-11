@@ -243,6 +243,8 @@
   "medicineImageImportTimeFallbackCaption": "无法识别服药时间，因此暂时设置了一个时间。保存后可以修改。",
   "medicineImageImportDroppedSchedulesCaption": "超出上限的 {count} 个服药时间将不会保存",
   "medicineImageImportGroupChangedError": "由于群组已切换，已取消登记。",
+  "medicineImageImportConsentTitle": "将图片发送给外部 AI",
+  "medicineImageImportConsentMessage": "所选图片将发送给 OpenAI 的 AI，用于读取药品名称和服药时间。图片不会保存在我们的服务器上。",
   "minimumDoseInterval": "服药间隔",
   "minimumDoseIntervalDescription": "两次服用之间的最短间隔时间",
   "minimumDoseIntervalNone": "无",

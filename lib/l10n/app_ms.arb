@@ -243,6 +243,8 @@
   "medicineImageImportTimeFallbackCaption": "Waktu pengambilan ubat tidak dapat dibaca, jadi waktu sementara telah ditetapkan. Anda boleh mengubahnya selepas menyimpan.",
   "medicineImageImportDroppedSchedulesCaption": "{count} waktu pengambilan ubat yang melebihi had tidak akan didaftarkan",
   "medicineImageImportGroupChangedError": "Pendaftaran dibatalkan kerana kumpulan telah berubah.",
+  "medicineImageImportConsentTitle": "Hantar imej kepada AI luaran",
+  "medicineImageImportConsentMessage": "Imej yang dipilih akan dihantar kepada AI OpenAI untuk membaca nama ubat dan waktu pengambilan. Imej tidak disimpan di pelayan kami.",
   "minimumDoseInterval": "Jarak antara dos",
   "minimumDoseIntervalDescription": "Tempoh minimum antara dos sejak dos terakhir",
   "minimumDoseIntervalNone": "Tiada",

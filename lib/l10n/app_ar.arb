@@ -243,6 +243,8 @@
   "medicineImageImportTimeFallbackCaption": "تعذّرت قراءة وقت تناول الدواء، لذا حُدّد وقت مؤقت. يمكنك تعديله بعد التسجيل.",
   "medicineImageImportDroppedSchedulesCaption": "لن تُسجَّل {count} من مواعيد تناول الدواء التي تتجاوز الحد الأقصى",
   "medicineImageImportGroupChangedError": "تم إلغاء التسجيل لأن المجموعة تغيّرت.",
+  "medicineImageImportConsentTitle": "إرسال الصورة إلى ذكاء اصطناعي خارجي",
+  "medicineImageImportConsentMessage": "سيتم إرسال الصورة المختارة إلى الذكاء الاصطناعي من OpenAI لقراءة أسماء الأدوية ومواعيد الجرعات. لا يتم حفظ الصورة على خوادمنا.",
   "minimumDoseInterval": "الفاصل بين الجرعات",
   "minimumDoseIntervalDescription": "الحد الأدنى للوقت بين الجرعات منذ الجرعة السابقة",
   "minimumDoseIntervalNone": "لا يوجد",

@@ -101,3 +101,9 @@ iOS,Androidアプリをサポートします。Firebase の設定ファイルは
 - QA の起動方法・ログイン方法・動作確認手段・実行ナレッジ・QA 対象外の feature は project の行の本文を参照する (`tansu query project --json --where repo=<owner/repo>`)
 - 何をどこに書くかは setup-qa skill の `references/qa-db-content.md` を SSOT とする。新規 feature の追加時は setup-qa skill の `register_qa.sh` で feature と item を登録する
 <!-- qa-config end -->
+
+## リポジトリのメモ
+
+作業の前に索引 `documents/notes/README.md` を読み、読むべき場面に当たるメモの本文 (`documents/notes/` の各ファイル) を読む。
+
+@documents/notes/README.md

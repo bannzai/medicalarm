@@ -243,6 +243,8 @@
   "medicineImageImportTimeFallbackCaption": "दवा लेने का समय पढ़ा नहीं जा सका, इसलिए अस्थायी समय तय किया गया है। सेव करने के बाद आप इसे बदल सकते हैं।",
   "medicineImageImportDroppedSchedulesCaption": "सीमा से अधिक दवा लेने के {count} समय दर्ज नहीं किए जाएँगे",
   "medicineImageImportGroupChangedError": "समूह बदल जाने के कारण पंजीकरण रद्द कर दिया गया है।",
+  "medicineImageImportConsentTitle": "छवि को बाहरी AI को भेजें",
+  "medicineImageImportConsentMessage": "दवाओं के नाम और लेने का समय पढ़ने के लिए चुनी गई छवि OpenAI के AI को भेजी जाएगी। छवि हमारे सर्वर पर सहेजी नहीं जाती।",
   "minimumDoseInterval": "खुराकों के बीच अंतराल",
   "minimumDoseIntervalDescription": "पिछली खुराक के बाद खुराकों के बीच न्यूनतम अंतराल",
   "minimumDoseIntervalNone": "कोई नहीं",
