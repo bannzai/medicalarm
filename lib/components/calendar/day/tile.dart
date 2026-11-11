@@ -1,5 +1,8 @@
+import 'dart:math';
+
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
+import 'package:medicalarm/components/calendar/const.dart';
 import 'package:medicalarm/components/calendar/day/badge.dart';
 import 'package:medicalarm/entity/diary.dart';
 import 'package:medicalarm/style/color.dart';
@@ -13,27 +16,10 @@ class CalendarDayTile extends StatelessWidget {
   final bool selected;
   final Function(DateTime)? onTap;
 
-  const CalendarDayTile.grayout({
-    Key? key,
-    required DateTime date,
-    required Weekday weekday,
-  }) : this(
-          key: key,
-          onTap: null,
-          weekday: weekday,
-          diary: null,
-          date: date,
-          selected: false,
-        );
+  const CalendarDayTile.grayout({Key? key, required DateTime date, required Weekday weekday})
+    : this(key: key, onTap: null, weekday: weekday, diary: null, date: date, selected: false);
 
-  const CalendarDayTile({
-    super.key,
-    required this.date,
-    required this.weekday,
-    required this.diary,
-    required this.onTap,
-    required this.selected,
-  });
+  const CalendarDayTile({super.key, required this.date, required this.weekday, required this.diary, required this.onTap, required this.selected});
 
   @override
   Widget build(BuildContext context) {
@@ -51,30 +37,25 @@ class CalendarDayTile extends StatelessWidget {
             child: SizedBox(
               child: Column(
                 children: <Widget>[
-                  SizedBox(
-                    width: 40,
-                    height: 40,
-                    child: Stack(
-                      children: [
-                        if (selected)
-                          const Positioned(
-                            child: Align(
-                              alignment: Alignment.center,
-                              child: _BackgroundCircle(),
+                  // 既定の大きさを下限にして、文字が大きい時は日付の数字に合わせて正方形の領域を伸ばす。
+                  // 横はセルの幅 (画面幅の 7 等分) で決まり伸ばせないため、収まらない時は選択日の丸と数字を一緒に縮める (#543)
+                  FittedBox(
+                    fit: BoxFit.scaleDown,
+                    child: SizedBox.square(
+                      dimension: _dayBoxSize(context: context),
+                      child: Stack(
+                        alignment: Alignment.center,
+                        children: [
+                          if (selected) const Positioned.fill(child: _BackgroundCircle()),
+                          Padding(
+                            padding: const EdgeInsets.all(_dayTextPadding),
+                            child: FittedBox(
+                              fit: BoxFit.scaleDown,
+                              child: _DayText(date: date, selected: selected, weekday: weekday, onTap: onTap),
                             ),
                           ),
-                        Positioned(
-                          child: Align(
-                            alignment: Alignment.center,
-                            child: _DayText(
-                              date: date,
-                              selected: selected,
-                              weekday: weekday,
-                              onTap: onTap,
-                            ),
-                          ),
-                        ),
-                      ],
+                        ],
+                      ),
                     ),
                   ),
                   CalendarDayBadge(date: date, diary: diary),
@@ -89,12 +70,7 @@ class CalendarDayTile extends StatelessWidget {
 }
 
 class _DayText extends StatelessWidget {
-  const _DayText({
-    required this.date,
-    required this.selected,
-    required this.weekday,
-    required this.onTap,
-  });
+  const _DayText({required this.date, required this.selected, required this.weekday, required this.onTap});
 
   final DateTime date;
   final bool selected;
@@ -106,9 +82,8 @@ class _DayText extends StatelessWidget {
     return Text(
       '${date.day}',
       textAlign: TextAlign.center,
-      style: TextStyle(
-          fontWeight: FontWeight.w600,
-          fontSize: 16,
+      style: _dayTextStyle.merge(
+        TextStyle(
           color: () {
             if (selected) {
               return Colors.white;
@@ -120,14 +95,49 @@ class _DayText extends StatelessWidget {
               Weekday.Wednesday => TextColor.gray,
               Weekday.Thursday => TextColor.gray,
               Weekday.Friday => TextColor.gray,
-              Weekday.Saturday => weekday.weekdayColor()
+              Weekday.Saturday => weekday.weekdayColor(),
             };
             final onTap = this.onTap;
             final alpha = (255 * (onTap != null ? 1 : 0.4)).floor();
             return weekdayColor.withAlpha(alpha);
-          }()),
+          }(),
+        ),
+      ),
     );
   }
+}
+
+/// 日付の数字の文字の形。セルの高さの計算 ([calendarWeeklyTileHeight]) と描画で同じものを使う。
+const _dayTextStyle = TextStyle(fontWeight: FontWeight.w600, fontSize: 16);
+
+/// 日付の領域 (選択日の丸を含む) の一辺の下限。既定の文字の大きさでの日付の領域の大きさ。
+const double _dayBoxMinSize = 40;
+
+/// 日付の数字と日付の領域の縁の間隔。既定の大きさで選択日の丸の直径が 32 (= 40 - 4 × 2) になる値。
+const double _dayTextPadding = 4;
+
+/// 日付の領域 (選択日の丸と数字を置く正方形) の一辺を、文字の倍率に合わせて返す。
+/// 日付の数字の 1 行の高さに余白を足した値で、既定の倍率では [_dayBoxMinSize] を返す。
+/// 幅は含めない。幅で決めると、既定の倍率でもテーマの letterSpacing の分だけ 40 を超え、従来の見た目が変わるため。
+/// 幅に収まらない数字は内側の FittedBox が縮める。
+double _dayBoxSize({required BuildContext context}) {
+  final dayTextPainter = TextPainter(
+    text: TextSpan(text: '30', style: DefaultTextStyle.of(context).style.merge(_dayTextStyle)),
+    textScaler: MediaQuery.textScalerOf(context),
+    textDirection: Directionality.of(context),
+  )..layout();
+  final size = max(_dayBoxMinSize, dayTextPainter.height + _dayTextPadding * 2);
+  dayTextPainter.dispose();
+  return size;
+}
+
+/// 週カレンダーの日付のセルの高さを、文字の倍率に合わせて返す。
+/// 週カレンダーは PageView のため中身の高さに合わせて伸びず、高さを先に決める必要がある。
+/// 既定の倍率では [CalendarConst.weeklyTileHeight] を返す。
+double calendarWeeklyTileHeight({required BuildContext context}) {
+  // 日付の領域の下の、日記のメモのアイコン (CalendarDayBadge) の分の高さ
+  const dayBadgeAreaHeight = CalendarConst.weeklyTileHeight - _dayBoxMinSize;
+  return _dayBoxSize(context: context) + dayBadgeAreaHeight;
 }
 
 class _BackgroundCircle extends StatelessWidget {
@@ -136,12 +146,11 @@ class _BackgroundCircle extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      width: 32,
-      height: 32,
-      decoration: BoxDecoration(
+      margin: const EdgeInsets.all(_dayTextPadding),
+      decoration: const BoxDecoration(
         // 選択日の数字は白のため、コントラスト比 4.5:1 を満たす primaryFilled を塗る (#287)
         color: AppColors.primaryFilled,
-        borderRadius: BorderRadius.circular(16),
+        shape: BoxShape.circle,
       ),
     );
   }

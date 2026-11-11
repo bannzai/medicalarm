@@ -7,23 +7,23 @@ abstract class WeekdayBadgeConst {
 
 class WeekdayBadge extends StatelessWidget {
   final Weekday weekday;
-  const WeekdayBadge({
-    super.key,
-    required this.weekday,
-  });
+  const WeekdayBadge({super.key, required this.weekday});
 
   @override
   Widget build(BuildContext context) {
-    return SizedBox(
-      width: 20,
-      height: WeekdayBadgeConst.height,
+    // 既定の高さを下限にして、文字が大きい時は曜日の文字に合わせて伸ばす。
+    // 横はセルの幅 (画面幅の 7 等分) で決まり伸ばせないため、収まらない曜日 (英語の Mon・Wed 等) だけ縮める (#543)
+    return ConstrainedBox(
+      constraints: const BoxConstraints(minWidth: 20, minHeight: WeekdayBadgeConst.height),
       child: Center(
-        child: Text(weekday.weekdayShortString(),
+        child: FittedBox(
+          fit: BoxFit.scaleDown,
+          child: Text(
+            weekday.weekdayShortString(),
             textAlign: TextAlign.end,
-            style: const TextStyle(
-              fontWeight: FontWeight.w600,
-              fontSize: 9,
-            ).merge(TextStyle(color: weekday.weekdayColor()))),
+            style: const TextStyle(fontWeight: FontWeight.w600, fontSize: 9).merge(TextStyle(color: weekday.weekdayColor())),
+          ),
+        ),
       ),
     );
   }
