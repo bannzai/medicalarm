@@ -23,7 +23,8 @@ const double _headerDefaultHeight = 50;
 /// 倍率 1.0 で、見出しの高さが既定のまま、文字が FittedBox で縮められずに描かれている (既定の見た目が変わらない) ことを確かめる。
 void _expectDefaultAppearance(WidgetTester tester, {required String text, required Finder header}) {
   expect(tester.getSize(header).height, _headerDefaultHeight);
-  expect(tester.getSize(find.text(text)), tester.renderObject<RenderParagraph>(find.text(text)).size, reason: '$text が縮められている');
+  // getSize は描画前の自身の大きさを返し FittedBox の縮小を含まないため、変換後の矩形の大きさで比べる
+  expect(tester.getRect(find.text(text)).size, tester.renderObject<RenderParagraph>(find.text(text)).size, reason: '$text が縮められている');
 }
 
 /// [child] を、文字の倍率 [textScaleFactor] の画面に描画する。日記は無い状態にする。
