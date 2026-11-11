@@ -37,22 +37,25 @@ class CalendarDayTile extends StatelessWidget {
             child: SizedBox(
               child: Column(
                 children: <Widget>[
-                  // 既定の大きさを下限にして、文字が大きい時は日付の数字に合わせて伸ばす。
-                  // 横はセルの幅 (画面幅の 7 等分) で決まり伸ばせないため、収まらない数字だけ縮める (#543)
-                  ConstrainedBox(
-                    constraints: const BoxConstraints(minWidth: _dayBoxMinSize, minHeight: _dayBoxMinSize),
-                    child: Stack(
-                      alignment: Alignment.center,
-                      children: [
-                        if (selected) const Positioned.fill(child: _BackgroundCircle()),
-                        Padding(
-                          padding: const EdgeInsets.all(_dayTextPadding),
-                          child: FittedBox(
-                            fit: BoxFit.scaleDown,
-                            child: _DayText(date: date, selected: selected, weekday: weekday, onTap: onTap),
+                  // 既定の大きさを下限にして、文字が大きい時は日付の数字に合わせて正方形の領域を伸ばす。
+                  // 横はセルの幅 (画面幅の 7 等分) で決まり伸ばせないため、収まらない時は選択日の丸と数字を一緒に縮める (#543)
+                  FittedBox(
+                    fit: BoxFit.scaleDown,
+                    child: SizedBox.square(
+                      dimension: _dayBoxSize(context: context),
+                      child: Stack(
+                        alignment: Alignment.center,
+                        children: [
+                          if (selected) const Positioned.fill(child: _BackgroundCircle()),
+                          Padding(
+                            padding: const EdgeInsets.all(_dayTextPadding),
+                            child: FittedBox(
+                              fit: BoxFit.scaleDown,
+                              child: _DayText(date: date, selected: selected, weekday: weekday, onTap: onTap),
+                            ),
                           ),
-                        ),
-                      ],
+                        ],
+                      ),
                     ),
                   ),
                   CalendarDayBadge(date: date, diary: diary),
@@ -113,20 +116,28 @@ const double _dayBoxMinSize = 40;
 /// 日付の数字と日付の領域の縁の間隔。既定の大きさで選択日の丸の直径が 32 (= 40 - 4 × 2) になる値。
 const double _dayTextPadding = 4;
 
-/// 週カレンダーの日付のセルの高さを、文字の倍率に合わせて返す。
-/// 週カレンダーは PageView のため中身の高さに合わせて伸びず、高さを先に決める必要がある。
-/// 既定の倍率では [CalendarConst.weeklyTileHeight] を返す。
-double calendarWeeklyTileHeight({required BuildContext context}) {
+/// 日付の領域 (選択日の丸と数字を置く正方形) の一辺を、文字の倍率に合わせて返す。
+/// 日付の数字の 1 行の高さに余白を足した値で、既定の倍率では [_dayBoxMinSize] を返す。
+/// 幅は含めない。幅で決めると、既定の倍率でもテーマの letterSpacing の分だけ 40 を超え、従来の見た目が変わるため。
+/// 幅に収まらない数字は内側の FittedBox が縮める。
+double _dayBoxSize({required BuildContext context}) {
   final dayTextPainter = TextPainter(
     text: TextSpan(text: '30', style: DefaultTextStyle.of(context).style.merge(_dayTextStyle)),
     textScaler: MediaQuery.textScalerOf(context),
     textDirection: Directionality.of(context),
   )..layout();
+  final size = max(_dayBoxMinSize, dayTextPainter.height + _dayTextPadding * 2);
+  dayTextPainter.dispose();
+  return size;
+}
+
+/// 週カレンダーの日付のセルの高さを、文字の倍率に合わせて返す。
+/// 週カレンダーは PageView のため中身の高さに合わせて伸びず、高さを先に決める必要がある。
+/// 既定の倍率では [CalendarConst.weeklyTileHeight] を返す。
+double calendarWeeklyTileHeight({required BuildContext context}) {
   // 日付の領域の下の、日記のメモのアイコン (CalendarDayBadge) の分の高さ
   const dayBadgeAreaHeight = CalendarConst.weeklyTileHeight - _dayBoxMinSize;
-  final height = max(CalendarConst.weeklyTileHeight, dayTextPainter.height + _dayTextPadding * 2 + dayBadgeAreaHeight);
-  dayTextPainter.dispose();
-  return height;
+  return _dayBoxSize(context: context) + dayBadgeAreaHeight;
 }
 
 class _BackgroundCircle extends StatelessWidget {

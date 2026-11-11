@@ -122,6 +122,22 @@ void main() {
             _expectInside(tester, text: day, area: Rect.fromLTRB(dayRect.left, pageViewRect.top, dayRect.right, pageViewRect.bottom));
             expect(dayRect.width, lessThanOrEqualTo(_weeklyDayCellWidth + 0.01), reason: '日付 $day がセルの幅 $_weeklyDayCellWidth を超えている ($dayRect)');
           }
+          // 選択日 (今日) の白い数字が、背景の丸の外接する正方形からはみ出さない (白い背景の上で数字が見えなくならない)。
+          // 丸は Container の短い辺を直径にして中央に描かれる。テスト用のフォントは数字が正方形のため、実機の縦長の 1 桁の数字で起きる
+          // はみ出しは再現しない。実機のフォントでの見え方は simulator のスクリーンショットで確かめる
+          final selectedCircleFinder = find.byWidgetPredicate(
+            (widget) => widget is Container && widget.decoration is BoxDecoration && (widget.decoration as BoxDecoration).shape == BoxShape.circle,
+          );
+          final selectedCircleRenderBox = tester.renderObject<RenderBox>(selectedCircleFinder);
+          final selectedCircleRect = tester.getRect(selectedCircleFinder);
+          // Container の margin (4) は FittedBox の縮小の後の大きさに直して内側に寄せる
+          final circleScale = selectedCircleRect.width / selectedCircleRenderBox.size.width;
+          final selectedCircleSquare = Rect.fromCenter(
+            center: selectedCircleRect.center,
+            width: selectedCircleRect.shortestSide,
+            height: selectedCircleRect.shortestSide,
+          ).deflate(4 * circleScale);
+          _expectInside(tester, text: '${today().day}', area: selectedCircleSquare);
           for (final weekday in Weekday.values) {
             _expectNotClipped(tester, weekday.weekdayShortString());
             final weekdayRect = tester.getRect(find.text(weekday.weekdayShortString()).first);
