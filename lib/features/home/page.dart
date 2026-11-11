@@ -78,51 +78,48 @@ class HomePage extends HookConsumerWidget {
         backgroundColor: AppColors.background,
         appBar: null,
         bottomNavigationBar: Ink(
-          child: SafeArea(
-            child: TabBar(
-              controller: tabController,
-              labelColor: AppColors.primary,
-              labelStyle: const TextStyle(fontSize: 12),
-              indicatorColor: Colors.transparent,
-              unselectedLabelColor: TextColor.gray,
-              tabs: <Tab>[
-                Tab(
-                  text: L.medication,
-                  icon: const Icon(Icons.timer_outlined),
-                ),
-                Tab(
-                  text: L.history,
-                  icon: const Icon(Icons.list_alt_outlined),
-                ),
-                Tab(
-                  text: L.calendar,
-                  icon: const Icon(Icons.calendar_month_outlined),
-                ),
-                Tab(
-                  text: L.settings,
-                  icon: const Icon(Icons.settings_outlined),
-                ),
-              ],
-            ),
-          ),
+          child: SafeArea(child: HomePageTabBar(tabController: tabController)),
         ),
         body: TabBarView(
           physics: const NeverScrollableScrollPhysics(),
           controller: tabController,
-          children: const [
-            MedicationsPage(),
-            MedicationHistoriesPage(),
-            CalendarPage(),
-            SettingPage(),
-          ],
+          children: const [MedicationsPage(), MedicationHistoriesPage(), CalendarPage(), SettingPage()],
         ),
       ),
     );
   }
 
   void _screenTracking(int index) {
-    analytics.setCurrentScreen(
-      screenName: HomePageTabType.values[index].screenName,
+    analytics.setCurrentScreen(screenName: HomePageTabType.values[index].screenName);
+  }
+}
+
+/// ホーム画面の下のタブ (服薬・履歴・カレンダー・設定)。
+/// HomePage の provider を用意せずに文字サイズごとの表示を widget test で確かめるため、HomePage から分けている。
+class HomePageTabBar extends StatelessWidget {
+  final TabController tabController;
+  const HomePageTabBar({super.key, required this.tabController});
+
+  @override
+  Widget build(BuildContext context) {
+    // 文字の倍率は 1.0 を上限にする。タブの文字に使える幅は iPhone 17 (幅 402) で 68.5 しかなく、
+    // 「カレンダー」(12pt × 5 文字 = 60) が収まる倍率は約 1.14 までのため。Flutter の BottomNavigationBar・CupertinoTabBar・
+    // iOS 標準のタブバーも、下のタブの文字は大きくしない (#543)
+    return MediaQuery.withClampedTextScaling(
+      maxScaleFactor: 1.0,
+      child: TabBar(
+        controller: tabController,
+        labelColor: AppColors.primary,
+        labelStyle: const TextStyle(fontSize: 12),
+        indicatorColor: Colors.transparent,
+        unselectedLabelColor: TextColor.gray,
+        tabs: <Tab>[
+          Tab(text: L.medication, icon: const Icon(Icons.timer_outlined)),
+          Tab(text: L.history, icon: const Icon(Icons.list_alt_outlined)),
+          Tab(text: L.calendar, icon: const Icon(Icons.calendar_month_outlined)),
+          Tab(text: L.settings, icon: const Icon(Icons.settings_outlined)),
+        ],
+      ),
     );
   }
 }

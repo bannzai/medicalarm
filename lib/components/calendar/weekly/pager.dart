@@ -1,7 +1,6 @@
 import 'package:collection/collection.dart';
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
-import 'package:medicalarm/components/calendar/const.dart';
 import 'package:medicalarm/components/calendar/day/tile.dart';
 import 'package:medicalarm/components/calendar/weekly/badge.dart';
 import 'package:medicalarm/components/calendar/weekly/line.dart';
@@ -15,11 +14,7 @@ const double _horizontalPadding = 10;
 class WeeklyCalendarPager extends HookConsumerWidget {
   final ValueNotifier<DateTime> date;
   final PageController pageController;
-  const WeeklyCalendarPager({
-    super.key,
-    required this.date,
-    required this.pageController,
-  });
+  const WeeklyCalendarPager({super.key, required this.date, required this.pageController});
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
@@ -31,7 +26,7 @@ class WeeklyCalendarPager extends HookConsumerWidget {
         children: [
           _WeekdayLine(),
           LimitedBox(
-            maxHeight: CalendarConst.weeklyTileHeight,
+            maxHeight: calendarWeeklyTileHeight(context: context),
             child: PageView.builder(
               controller: pageController,
               physics: const PageScrollPhysics(),
@@ -94,7 +89,9 @@ final List<List<DateTime>> weekcalendarDataSource = () {
     days.add(begin.addDays(i));
   }
   return List.generate(
-      ((diffDay) / Weekday.values.length).round(), (i) => days.sublist(i * Weekday.values.length, i * Weekday.values.length + Weekday.values.length));
+    ((diffDay) / Weekday.values.length).round(),
+    (i) => days.sublist(i * Weekday.values.length, i * Weekday.values.length + Weekday.values.length),
+  );
 }();
 
 class _WeekdayLine extends StatelessWidget {
