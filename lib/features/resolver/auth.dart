@@ -91,10 +91,15 @@ class SignInResolver extends HookConsumerWidget {
         if (userValue == null && signInErrorValue == null) {
           try {
             final credential = await traceLaunchStage(stage: 'signInAnonymously', operation: firebaseAuth.signInAnonymously);
-            user.value = credential.user;
+            // サインインの成功で AuthResolver が先の画面へ切り替えると、完了前にこの widget が破棄され state も破棄される
+            if (context.mounted) {
+              user.value = credential.user;
+            }
           } catch (error, stackTrace) {
             errorLogger.recordError(error, stackTrace);
-            signInError.value = error;
+            if (context.mounted) {
+              signInError.value = error;
+            }
           }
         }
       }

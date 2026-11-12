@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
@@ -87,6 +89,50 @@ void main() {
       expect(signInCallCount, 2);
       expect(find.byType(RetryPage), findsNothing);
       expect(find.text('signed-in: anonymous-user'), findsOneWidget);
+    });
+  });
+
+  // サインインの成功で AuthResolver が先の画面へ切り替えると、signInAnonymously の完了前に SignInResolver が破棄される。
+  // 破棄後の完了・失敗を、サインインの失敗として記録したり破棄済みの状態へ書き込んだりしない。
+  group('SignInResolver が匿名サインインの完了前に破棄された時', () {
+    late _RecordingErrorLogger recordingErrorLogger;
+
+    setUp(() {
+      final originalErrorLogger = errorLogger;
+      recordingErrorLogger = _RecordingErrorLogger();
+      errorLogger = recordingErrorLogger;
+      addTearDown(() => errorLogger = originalErrorLogger);
+    });
+
+    testWidgets('破棄の後にサインインが成功しても、例外も失敗の記録も出ない', (tester) async {
+      final firebaseAuth = MockFirebaseAuth();
+      final user = MockUser();
+      when(user.uid).thenReturn('anonymous-user');
+      final userCredential = MockUserCredential();
+      when(userCredential.user).thenReturn(user);
+      final signInCompleter = Completer<UserCredential>();
+      when(firebaseAuth.signInAnonymously()).thenAnswer((_) => signInCompleter.future);
+
+      await _pumpSignInResolver(tester, firebaseAuth: firebaseAuth);
+      await tester.pumpWidget(const SizedBox());
+      signInCompleter.complete(userCredential);
+      await tester.pump();
+
+      expect(recordingErrorLogger.recordedErrors, isEmpty);
+      expect(tester.takeException(), isNull);
+    });
+
+    testWidgets('破棄の後にサインインが失敗しても、破棄済みの状態へ書き込まない', (tester) async {
+      final firebaseAuth = MockFirebaseAuth();
+      final signInCompleter = Completer<UserCredential>();
+      when(firebaseAuth.signInAnonymously()).thenAnswer((_) => signInCompleter.future);
+
+      await _pumpSignInResolver(tester, firebaseAuth: firebaseAuth);
+      await tester.pumpWidget(const SizedBox());
+      signInCompleter.completeError(FirebaseAuthException(code: 'network-request-failed'));
+      await tester.pump();
+
+      expect(tester.takeException(), isNull);
     });
   });
 
