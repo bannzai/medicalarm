@@ -4,7 +4,19 @@
 # helpers/ 配下は `maestro test maestro/flows` の実行対象に含まれない (allow_notification.yaml の先頭コメントを参照)。
 appId: com.bannzai.medicalarm
 ---
-- tapOn: "はじめる"
+# CI の runner では、タップがアプリで処理されないまま tapOn が完了することがある (#552・#583)。次の画面の選択肢が出るまでタップからやり直す。
+# 遅れて処理された 1 回目のタップで次の画面へ進んだ後に押す対象が無いまま失敗しないよう、「はじめる」が見えている間だけタップする
+- retry:
+    maxRetries: 3
+    commands:
+      - runFlow:
+          when:
+            visible: "はじめる"
+          commands:
+            - tapOn: "はじめる"
+      - extendedWaitUntil:
+          visible: "たまにある"
+          timeout: 5000
 - tapOn: "たまにある"
 - tapOn: "自分"
 - tapOn: "2回"
