@@ -49,6 +49,7 @@ class AuthResolver extends HookConsumerWidget {
             debugPrint('user.uid: ${user?.uid}');
             if (user == null) {
               return SignInResolver(
+                firebaseAuth: FirebaseAuth.instance,
                 builder: (context, user) => builder(context, user),
               );
             } else {
@@ -68,35 +69,46 @@ class AuthResolver extends HookConsumerWidget {
   }
 }
 
+/// サインインしていない時に匿名サインインし、サインインしたユーザーで [builder] を描画する。
+/// 匿名サインインが失敗した時は再試行の画面を出し、再試行の操作でサインインをやり直す (#582)。
 class SignInResolver extends HookConsumerWidget {
+  /// 匿名サインインに使う FirebaseAuth。widget test でモックに差し替えて、失敗と再試行を確かめるために受け取る。
+  final FirebaseAuth firebaseAuth;
   final Widget Function(BuildContext, User) builder;
 
-  const SignInResolver({super.key, required this.builder});
+  const SignInResolver({super.key, required this.firebaseAuth, required this.builder});
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final user = useState(FirebaseAuth.instance.currentUser);
+    final user = useState(firebaseAuth.currentUser);
     final userValue = user.value;
+    // 直近の匿名サインインの失敗。null の間はサインインを試み、失敗中は再試行の操作を待つ。
+    final signInError = useState<Object?>(null);
+    final signInErrorValue = signInError.value;
 
     useEffect(() {
       void f() async {
-        if (userValue == null) {
+        if (userValue == null && signInErrorValue == null) {
           try {
-            final credential = await traceLaunchStage(stage: 'signInAnonymously', operation: FirebaseAuth.instance.signInAnonymously);
-            user.value = credential.user;
-          } catch (e) {
-            debugPrint('error: $e');
+            final credential = await traceLaunchStage(stage: 'signInAnonymously', operation: firebaseAuth.signInAnonymously);
+            // サインインの成功で AuthResolver が先の画面へ切り替えると、完了前にこの widget が破棄され state も破棄される
+            if (context.mounted) {
+              user.value = credential.user;
+            }
+          } catch (error, stackTrace) {
+            errorLogger.recordError(error, stackTrace);
+            if (context.mounted) {
+              signInError.value = error;
+            }
           }
         }
       }
 
       f();
       return null;
-    }, [user.value]);
+    }, [user.value, signInError.value]);
 
-    if (userValue == null) {
-      return const IndicatorPage();
-    } else {
+    if (userValue != null) {
       debugPrint('userValue: ${userValue.uid}');
       return ProviderScope(
         overrides: [
@@ -105,5 +117,12 @@ class SignInResolver extends HookConsumerWidget {
         child: builder(context, userValue),
       );
     }
+    if (signInErrorValue != null) {
+      return Retry(
+        retry: () => signInError.value = null,
+        child: RetryPage(exception: signInErrorValue),
+      );
+    }
+    return const IndicatorPage();
   }
 }
