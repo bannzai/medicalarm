@@ -97,6 +97,7 @@ class HomePage extends HookConsumerWidget {
 /// ホーム画面の下のタブ (服薬・履歴・カレンダー・設定)。
 /// HomePage の provider を用意せずに文字サイズごとの表示を widget test で確かめるため、HomePage から分けている。
 class HomePageTabBar extends StatelessWidget {
+  /// 選んでいるタブと、HomePage の TabBarView の表示を同期させる controller。HomePage が持つものを受け取る。
   final TabController tabController;
   const HomePageTabBar({super.key, required this.tabController});
 
