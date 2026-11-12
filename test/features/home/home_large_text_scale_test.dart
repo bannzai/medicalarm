@@ -128,16 +128,17 @@ void main() {
           final selectedCircleFinder = find.byWidgetPredicate(
             (widget) => widget is Container && widget.decoration is BoxDecoration && (widget.decoration as BoxDecoration).shape == BoxShape.circle,
           );
-          final selectedCircleRenderBox = tester.renderObject<RenderBox>(selectedCircleFinder);
           final selectedCircleRect = tester.getRect(selectedCircleFinder);
-          // Container の margin (4) は FittedBox の縮小の後の大きさに直して内側に寄せる
-          final circleScale = selectedCircleRect.width / selectedCircleRenderBox.size.width;
-          final selectedCircleSquare = Rect.fromCenter(
-            center: selectedCircleRect.center,
-            width: selectedCircleRect.shortestSide,
-            height: selectedCircleRect.shortestSide,
-          ).deflate(4 * circleScale);
-          _expectInside(tester, text: '${today().day}', area: selectedCircleSquare);
+          _expectInside(
+            tester,
+            text: '${today().day}',
+            // Container の margin (4) は FittedBox の縮小の後の大きさに直して内側に寄せる
+            area: Rect.fromCenter(
+              center: selectedCircleRect.center,
+              width: selectedCircleRect.shortestSide,
+              height: selectedCircleRect.shortestSide,
+            ).deflate(4 * selectedCircleRect.width / tester.renderObject<RenderBox>(selectedCircleFinder).size.width),
+          );
           for (final weekday in Weekday.values) {
             _expectNotClipped(tester, weekday.weekdayShortString());
             final weekdayRect = tester.getRect(find.text(weekday.weekdayShortString()).first);
