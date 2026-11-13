@@ -1,0 +1,37 @@
+{
+  "appId": "6740401642",
+  "defaults": {
+    "fail_strategy": "fail-fast"
+  },
+  "cpps": [
+    {
+      "name": "family-care-202610",
+      "visible": true,
+      "comment": "家族・介護の服薬管理軸。子どもや親など「誰かの代わりに薬を管理する人」向け。流入元: 介護・持病・薬管理系の検索キーワード。スクリーンショットは既定の製品ページ (公開中バージョン) を雛形に複製し、header / search results の Creative Asset だけ差し替える",
+      "locales": [
+        {
+          "locale": "ja",
+          "promotionalText": "家族の薬をまとめて管理。服用者ごとに薬と時刻を登録すると、服用時刻に通知が届き、記録しなければ繰り返し知らせます。子どもや親の服薬を代わりに見守る人のための服薬管理アプリです。",
+          "keywords": [
+            "介護",
+            "持病",
+            "糖尿病",
+            "高血圧",
+            "薬管理",
+            "処方薬管理",
+            "お薬手帳"
+          ]
+        },
+        {
+          "locale": "en-US",
+          "promotionalText": "Manage medication for the whole family. Register each person's meds and times, get alerts that repeat until logged, and keep a history for every caregiver handoff.",
+          "keywords": [
+            "caregiver",
+            "diabetes",
+            "prescription"
+          ]
+        }
+      ]
+    }
+  ]
+}
