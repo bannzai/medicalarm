@@ -50,9 +50,10 @@ void main() {
   });
 
   /// 確認ダイアログを経て送信する関数を呼ぶボタンだけの画面を pump し、ボタンを押してダイアログを開く。
-  /// 戻り値は関数の結果を返す関数 (呼び出しが終わるまでは null)。
-  Future<List<Map<String, dynamic>>? Function()> pumpAndOpenDialog(WidgetTester tester) async {
+  /// 戻り値の result は関数の結果 (呼び出しが終わるまでは null)、isCompleted は関数の呼び出しが終わったか。
+  Future<({List<Map<String, dynamic>>? Function() result, bool Function() isCompleted})> pumpAndOpenDialog(WidgetTester tester) async {
     List<Map<String, dynamic>>? result;
+    var isCompleted = false;
     await tester.pumpWidget(
       MaterialApp(
         home: Scaffold(
@@ -60,6 +61,7 @@ void main() {
             builder: (context) => TextButton(
               onPressed: () async {
                 result = await generateMedicinesFromImageAfterConsent(context: context, firebaseFunctions: firebaseFunctions, imageFile: imageFile);
+                isCompleted = true;
               },
               child: const Text('open'),
             ),
@@ -69,7 +71,20 @@ void main() {
     );
     await tester.tap(find.text('open'));
     await tester.pumpAndSettle();
-    return () => result;
+    return (result: () => result, isCompleted: () => isCompleted);
+  }
+
+  /// 関数の呼び出しが終わるまで待つ。
+  /// base64CompressImage のファイル読み込みは実際の I/O で、その続きは fake async 側で動くため、
+  /// 実時間を進める runAsync と fake async を進める pump を交互に行う。pumpAndSettle だけでは読み込みが終わらず、
+  /// 同意を無視して送る不具合があっても送信 (httpsCallable) の前に確認が終わってしまう。
+  /// 終わらない不具合でテストが止まらないよう、待つのは最大 5 秒 (10ms × 500 回) にする
+  Future<void> pumpUntilCompleted({required WidgetTester tester, required bool Function() isCompleted}) async {
+    for (var i = 0; i < 500 && !isCompleted(); i++) {
+      await tester.runAsync(() => Future<void>.delayed(const Duration(milliseconds: 10)));
+      await tester.pump();
+    }
+    await tester.pumpAndSettle();
   }
 
   testWidgets('送る前に送り先を説明する確認ダイアログが出る', (tester) async {
@@ -83,39 +98,34 @@ void main() {
   });
 
   testWidgets('「キャンセル」を選ぶと generateMedicinesFromImage を呼ばずに null を返す', (tester) async {
-    final result = await pumpAndOpenDialog(tester);
+    final (:result, :isCompleted) = await pumpAndOpenDialog(tester);
 
     await tester.tap(find.text(L.cancel));
-    await tester.pumpAndSettle();
+    await pumpUntilCompleted(tester: tester, isCompleted: isCompleted);
 
+    expect(isCompleted(), isTrue);
     expect(find.text(L.medicineImageImportConsentTitle), findsNothing);
     expect(result(), isNull);
     verifyNever(firebaseFunctions.httpsCallable(any));
   });
 
   testWidgets('ダイアログの外側をタップして閉じると generateMedicinesFromImage を呼ばずに null を返す', (tester) async {
-    final result = await pumpAndOpenDialog(tester);
+    final (:result, :isCompleted) = await pumpAndOpenDialog(tester);
 
     await tester.tapAt(const Offset(10, 10));
-    await tester.pumpAndSettle();
+    await pumpUntilCompleted(tester: tester, isCompleted: isCompleted);
 
+    expect(isCompleted(), isTrue);
     expect(find.text(L.medicineImageImportConsentTitle), findsNothing);
     expect(result(), isNull);
     verifyNever(firebaseFunctions.httpsCallable(any));
   });
 
   testWidgets('「送信」を選ぶと generateMedicinesFromImage を呼び、抽出結果を返す', (tester) async {
-    final result = await pumpAndOpenDialog(tester);
+    final (:result, :isCompleted) = await pumpAndOpenDialog(tester);
 
     await tester.tap(find.text(L.send));
-    // base64CompressImage のファイル読み込みは実際の I/O で、その続きは fake async 側で動くため、
-    // 実時間を進める runAsync と fake async を進める pump を交互に行う。
-    // 送信されない不具合でテストが止まらないよう、待つのは最大 5 秒 (10ms × 500 回) にする
-    for (var i = 0; i < 500 && result() == null; i++) {
-      await tester.runAsync(() => Future<void>.delayed(const Duration(milliseconds: 10)));
-      await tester.pump();
-    }
-    await tester.pumpAndSettle();
+    await pumpUntilCompleted(tester: tester, isCompleted: isCompleted);
 
     verify(firebaseFunctions.httpsCallable('generateMedicinesFromImage')).called(1);
     final payload = verify(httpsCallable.call(captureAny)).captured.single as Map<String, dynamic>;
