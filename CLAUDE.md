@@ -3,7 +3,7 @@
 薬の飲み忘れの不安をなくすための、複数人の服薬管理アプリ。
 
 ## ライブラリ
-@pubspec.yaml を参照。
+`pubspec.yaml` を参照。
 
 ## コーディング
 ### コーディング規約
@@ -15,7 +15,7 @@
 - 関数・メソッドの引数は原則 `{required}` でラベルが呼び出し元につくようにする
 - コンストラクタの引数も nullable であっても `required` をつける。ただしtimestamp等のメタデータフィールドは除く
 - Entityのフィールド名は省略せず、長くても実態がわかる名前をつける
-- FirestoreのDBをクライアントから操作する場合は、`call` 関数を定義したclassを通じて行い、Providerからそのインスタンスを返す（参考: @lib/provider/medicine.dart の `MedicineAdd`）
+- FirestoreのDBをクライアントから操作する場合は、`call` 関数を定義したclassを通じて行い、Providerからそのインスタンスを返す（参考: `lib/provider/medicine.dart` の `MedicineAdd`）
 - firestoreのDBに書き込むProviderでは、ref.readを使用してClosureの中で呼ぶ
 - エラーメッセージについては、基本的にそのまま表示する（`e.toString()` の加工・プレフィックス除去等はしない）
 - Firestoreのサブコレクションに保存されるEntityは、親ドキュメントのIDをフィールドとして保持する（詳細: `documents/entity-parent-id-rules.md`）
@@ -23,15 +23,15 @@
 ### ケーススタディ
 #### 一覧画面・マスター画面
 - 基本的にユースケースごとに Firestore からデータを取得するProviderを作成して、それをref.watchしてください
-  * 参考画面: @lib/features/medicines/page.dart
-  * 参考Provider: @lib/provider/medicine.dart
+  * 参考画面: `lib/features/medicines/page.dart`
+  * 参考Provider: `lib/provider/medicine.dart`
 
 #### フォーム画面
 既存の以下の画面を参考にしてください
-- @lib/features/medicine_form/page.dart 
-- @lib/features/dose_receiver_form/page.dart 
-- @lib/features/medication_frequency_form/page.dart 
-- @lib/features/medicine_schedule_setting_form/page.dart
+- `lib/features/medicine_form/page.dart` 
+- `lib/features/dose_receiver_form/page.dart` 
+- `lib/features/medication_frequency_form/page.dart` 
+- `lib/features/medicine_schedule_setting_form/page.dart`
 
 ### ファイル構成・命名規則
 - `lib/entity/` にはFirestoreのドキュメントを表現するクラスと、Widgetの表現にどうしても必要なドメインモデルを置く。
