@@ -39,7 +39,7 @@
 - コンポーネントは `lib/components/` 配下で都合よくパッケージを分割する。atoms/molecules/organisms/page/templateのAtomic Design構成は非推奨。
 
 ### Lint・フォーマット
-- `analysis_options.yaml` を参照。フォーマットは `dart format lib -l 150`。
+- @analysis_options.yaml を参照。フォーマットは `dart format lib -l 150`。
 
 ### コード生成
 - `build_runner` を使用
