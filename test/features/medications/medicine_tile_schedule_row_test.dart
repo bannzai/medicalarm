@@ -1504,5 +1504,39 @@ void main() {
       expect(call.setting.isFollowupEnabled, true);
       expect(call.setting.focusConnectScheduleID, isNull);
     });
+
+    testWidgets('行が再ビルドされた後に服薬を記録しても、開いた URL の authCode の戻りを受け取る', (tester) async {
+      final scheduleRow = MedicationGroupScheduleRow(
+        id: 'row-1',
+        medicationHistory: null,
+        medicine: buildMedicine().copyWith(schedules: const [focusConnectedMedicationSchedule]),
+        medicationSchedule: focusConnectedMedicationSchedule,
+        quantityMemo: '',
+        date: DateTime.now(),
+      );
+      await pumpScheduleRow(
+        tester,
+        groupMemberNotificationSettings: () => Stream.value(null),
+        scheduleRow: scheduleRow,
+        groupMemberNotificationSettingsUpdate: groupMemberNotificationSettingsUpdate,
+      );
+      // 服薬を記録する前に、行が別の値で再ビルドされる (他のメンバーの更新が届いた時と同じ)
+      await pumpScheduleRow(
+        tester,
+        groupMemberNotificationSettings: () => Stream.value(null),
+        scheduleRow: scheduleRow.copyWith(quantityMemo: '1 錠'),
+        groupMemberNotificationSettingsUpdate: groupMemberNotificationSettingsUpdate,
+      );
+      await tester.tap(find.byType(Checkbox));
+      await tester.pumpAndSettle();
+      final authCode = Uri.parse(urlLauncherPlatform.launchedURLs.single).queryParameters['authCode'];
+
+      await openAppLinkAndSettle(
+        tester,
+        'medicalarm:///focus-connect/schedule?connected=false&reason=not-found&authCode=$authCode&focusConnectScheduleID=focus-schedule-1',
+      );
+
+      expect(groupMemberNotificationSettingsUpdate.calls.single.setting.focusConnectScheduleID, isNull);
+    });
   });
 }
