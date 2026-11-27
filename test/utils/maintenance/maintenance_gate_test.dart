@@ -36,7 +36,8 @@ class SwitchableClient {
   /// 応答の body (JSON にして返す値)
   Object? body;
 
-  /// 応答の HTTP の status
+  /// 応答の HTTP の status。
+  /// 既定を 200 にするのは、ほとんどのテストが読めた応答を前提にし、読めない応答のテストだけが書き換えるため
   int statusCode = 200;
 
   /// true の間、通信の失敗として例外を投げる
@@ -54,7 +55,8 @@ class SwitchableClient {
 }
 
 /// MaintenanceGate を、アプリの一番外側 (MaterialApp の builder) に置いたアプリを組み、押されたボタンの URL を貯める一覧を返す。
-/// [home] は通常の画面。[settle] が false の時は、読み取りが返るのを待たずに戻る (返らない読み取りを試すテストのため)
+/// [home] は通常の画面。[settle] が false の時は、読み取りが返るのを待たずに戻る (返らない読み取りを試すテストのため)。
+/// [settle] の既定を true にするのは、ほとんどのテストが最初の読み取りを反映した画面から始めるため
 Future<List<Uri>> pumpApp(WidgetTester tester, http.Client client, {Widget home = const Scaffold(body: Text('通常の画面')), bool settle = true}) async {
   final openedURLs = <Uri>[];
   await tester.pumpWidget(
