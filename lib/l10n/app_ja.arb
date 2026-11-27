@@ -1554,5 +1554,9 @@
   "send": "送信",
   "@send": {
     "description": "送信ボタン汎用"
+  },
+  "maintenanceDefaultMessage": "ただいまメンテナンス中です\nしばらく経ってからもう一度お試しください",
+  "@maintenanceDefaultMessage": {
+    "description": "サービスのメンテナンス中にアプリ全体の代わりに出す画面の文。運営がメンテナンスの文を指定しなかった時に出す"
   }
 }

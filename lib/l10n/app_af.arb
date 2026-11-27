@@ -324,5 +324,6 @@
   "featureRequestEmailFooter": "Ons kan dit gebruik om besonderhede te bevestig. Ons kan nie ’n antwoord waarborg nie.",
   "featureRequestEmailInvalid": "Die e-posadres se formaat is ongeldig",
   "featureRequestThanks": "Jou voorstel is gestuur. Dankie.",
-  "send": "Stuur"
+  "send": "Stuur",
+  "maintenanceDefaultMessage": "Ons doen tans instandhouding.\nProbeer asseblief later weer."
 }

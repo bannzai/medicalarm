@@ -324,5 +324,6 @@
   "featureRequestEmailFooter": "Galime jį naudoti detalėms patikslinti. Negalime garantuoti atsakymo.",
   "featureRequestEmailInvalid": "El. pašto adreso formatas neteisingas",
   "featureRequestThanks": "Jūsų pasiūlymas išsiųstas. Ačiū.",
-  "send": "Siųsti"
+  "send": "Siųsti",
+  "maintenanceDefaultMessage": "Šiuo metu atliekami priežiūros darbai.\nPabandykite dar kartą šiek tiek vėliau."
 }

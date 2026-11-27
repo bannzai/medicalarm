@@ -324,5 +324,6 @@
   "featureRequestEmailFooter": "Mund ta përdorim për të sqaruar hollësitë. Nuk mund të garantojmë përgjigje.",
   "featureRequestEmailInvalid": "Formati i adresës së emailit nuk është i saktë",
   "featureRequestThanks": "Sugjerimi juaj u dërgua. Faleminderit.",
-  "send": "Dërgo"
+  "send": "Dërgo",
+  "maintenanceDefaultMessage": "Aktualisht po kryhen punime mirëmbajtjeje.\nJu lutemi, provoni përsëri pas pak."
 }

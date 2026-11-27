@@ -6,6 +6,14 @@ import OpenAI from "openai";
 import { database } from "../../core/database";
 import { OnCallResponse } from "../../core/response";
 import { hasPremiumEntitlement, revenueCatAPISecretParam } from "../utils/premium";
+import { createMaintenanceReader } from "../../lib/maintenance/maintenance-state";
+import { assertNotInMaintenance } from "../../lib/maintenance/firebase-functions-maintenance-guard";
+
+/// メンテナンス中かを読む。`service-maintenance on medicalarm` の間は OpenAI を呼ぶ前に断る (castle の service-maintenance-setup skill)。
+/// 呼び出しごとに作ると読んだ状態を覚えないため、モジュールの先頭で 1 度だけ作る。
+const readMaintenanceState = createMaintenanceReader({
+  stateURL: "https://service-maintenance.star-kojiki.workers.dev/medicalarm",
+});
 
 /// OpenAI の API キー。Secret Manager 経由で取得する。
 const openAIApiKey = defineSecret("OPENAI_API_KEY");
@@ -132,6 +140,8 @@ async function generateMedicinesFromImageHandler(req: {
     base64Image?: string;
   };
 }): Promise<OnCallResponse> {
+  // 月間利用回数を数える前に断る。下の try の外に置き、HttpsError("unavailable") のままクライアントへ返す
+  await assertNotInMaintenance(readMaintenanceState);
   const uid = req.auth?.uid;
   // 月間利用回数ドキュメントの ID。タイムゾーンによる月境界のブレを避けるため UTC 基準で揃える。
   const yearMonth = new Date().toISOString().slice(0, 7);

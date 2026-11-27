@@ -324,5 +324,6 @@
   "featureRequestEmailFooter": "Tafsilotlarni aniqlashtirish uchun undan foydalanishimiz mumkin. Javob berilishini kafolatlay olmaymiz.",
   "featureRequestEmailInvalid": "Elektron pochta manzilining formati noto‘g‘ri",
   "featureRequestThanks": "Taklifingiz yuborildi. Rahmat.",
-  "send": "Yuborish"
+  "send": "Yuborish",
+  "maintenanceDefaultMessage": "Hozir texnik xizmat ko‘rsatish ishlari olib borilmoqda.\nBirozdan keyin qayta urinib ko‘ring."
 }

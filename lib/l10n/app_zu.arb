@@ -324,5 +324,6 @@
   "featureRequestEmailFooter": "Singayisebenzisa ukuze siqinisekise imininingwane. Asikwazi ukuqinisekisa ukuthi uzothola impendulo.",
   "featureRequestEmailInvalid": "Ifomethi yekheli le-imeyili ayilungile",
   "featureRequestThanks": "Isiphakamiso sakho sithunyelwe. Siyabonga.",
-  "send": "Thumela"
+  "send": "Thumela",
+  "maintenanceDefaultMessage": "Kwenziwa umsebenzi wokulungisa okwamanje.\nSicela uzame futhi ngemva kwesikhashana."
 }

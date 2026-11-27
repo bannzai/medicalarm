@@ -324,5 +324,6 @@
   "featureRequestEmailFooter": "विवरण की पुष्टि के लिए हम इसका उपयोग कर सकते हैं। हम जवाब देने की गारंटी नहीं दे सकते।",
   "featureRequestEmailInvalid": "ईमेल पते का प्रारूप सही नहीं है",
   "featureRequestThanks": "आपका सुझाव भेज दिया गया है। धन्यवाद।",
-  "send": "भेजें"
+  "send": "भेजें",
+  "maintenanceDefaultMessage": "अभी रखरखाव का काम चल रहा है।\nकृपया थोड़ी देर बाद फिर कोशिश करें।"
 }

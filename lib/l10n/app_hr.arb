@@ -324,5 +324,6 @@
   "featureRequestEmailFooter": "Možemo ga upotrijebiti za provjeru pojedinosti. Ne možemo jamčiti odgovor.",
   "featureRequestEmailInvalid": "Format adrese e-pošte nije ispravan",
   "featureRequestThanks": "Vaš je prijedlog poslan. Hvala vam.",
-  "send": "Pošalji"
+  "send": "Pošalji",
+  "maintenanceDefaultMessage": "Trenutačno je u tijeku održavanje.\nPokušajte ponovno malo kasnije."
 }

@@ -324,5 +324,6 @@
   "featureRequestEmailFooter": "Можемо га користити за разјашњење детаља. Не можемо да гарантујемо одговор.",
   "featureRequestEmailInvalid": "Формат адресе е-поште није исправан",
   "featureRequestThanks": "Ваш предлог је послат. Хвала вам.",
-  "send": "Пошаљи"
+  "send": "Пошаљи",
+  "maintenanceDefaultMessage": "Тренутно је у току одржавање.\nПокушајте поново мало касније."
 }

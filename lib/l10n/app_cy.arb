@@ -324,5 +324,6 @@
   "featureRequestEmailFooter": "Mae’n bosibl y byddwn yn ei ddefnyddio i gadarnhau manylion. Ni allwn warantu ateb.",
   "featureRequestEmailInvalid": "Nid yw fformat y cyfeiriad e-bost yn ddilys",
   "featureRequestThanks": "Mae eich awgrym wedi'i anfon. Diolch.",
-  "send": "Anfon"
+  "send": "Anfon",
+  "maintenanceDefaultMessage": "Mae gwaith cynnal a chadw ar y gweill.\nRhowch gynnig arall arni ymhen ychydig."
 }

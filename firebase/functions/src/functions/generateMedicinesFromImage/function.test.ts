@@ -57,6 +57,8 @@ jest.mock("firebase-admin/firestore", () => ({
 
 jest.mock("firebase-functions/v2/https", () => ({
   onCall: (_opts: unknown, handler: unknown) => handler,
+  // メンテナンス中の判定が投げる HttpsError は本物を使い、クライアントへ返る code と details を確かめる
+  HttpsError: jest.requireActual("firebase-functions/v2/https").HttpsError,
 }));
 
 jest.mock("firebase-functions", () => ({
@@ -81,6 +83,28 @@ jest.mock("openai", () => ({
   })),
 }));
 
+/// 状態を返す Worker (service-maintenance) への読み取りの代わり。実際の Worker へ通信しないよう global の fetch を差し替える
+const mockFetch = jest.fn();
+global.fetch = mockFetch as unknown as typeof fetch;
+
+/// 状態を返す Worker が返す、メンテナンス中でない状態の JSON
+const notInMaintenanceStateJSON = {
+  maintenance: false,
+  message: null,
+  button: null,
+  source: "owner",
+  changedAt: "2026-11-25T08:00:00.000Z",
+};
+
+/// 状態を返す Worker が返す、メンテナンス中の状態の JSON
+const inMaintenanceStateJSON = {
+  maintenance: true,
+  message: "復旧までお待ちください",
+  button: null,
+  source: "owner",
+  changedAt: "2026-11-25T07:00:00.000Z",
+};
+
 // eslint-disable-next-line @typescript-eslint/no-var-requires
 const handler = require("./function") as Handler;
 
@@ -95,6 +119,7 @@ function setup(args: {
   aiResponse?: Record<string, unknown> | null;
 }): void {
   jest.clearAllMocks();
+  mockFetch.mockImplementation(async () => new Response(JSON.stringify(notInMaintenanceStateJSON), { status: 200 }));
   mockHasPremiumEntitlement.mockResolvedValue(args.isPremium ?? false);
   mockTransactionGet.mockResolvedValue({
     exists: args.aiUsageDocExists ?? true,
@@ -349,5 +374,71 @@ describe("generateMedicinesFromImage", () => {
     expect(result.statusCode).toBe(500);
     expect(result.error?.message).toBe("OpenAI API error");
     expect(mockTransactionUpdate).toHaveBeenCalled();
+  });
+});
+
+describe("generateMedicinesFromImage のメンテナンス中の判定", () => {
+  /// 読んだ状態を 60 秒覚える読み手をテストごとに作り直すため、関数のモジュールを読み直す
+  function freshHandler(): Handler {
+    let isolatedHandler: Handler | undefined;
+    jest.isolateModules(() => {
+      // eslint-disable-next-line @typescript-eslint/no-var-requires
+      isolatedHandler = require("./function") as Handler;
+    });
+    return isolatedHandler as Handler;
+  }
+
+  test("メンテナンス中は unavailable で断り、利用回数を数えず OpenAI を 1 回も呼ばない", async () => {
+    setup({});
+    mockFetch.mockImplementation(async () => new Response(JSON.stringify(inMaintenanceStateJSON), { status: 200 }));
+
+    await expect(
+      freshHandler()({
+        auth: { uid: "me" },
+        data: { mimeType: "image/jpeg", base64Image: validBase64Image },
+      })
+    ).rejects.toMatchObject({
+      code: "unavailable",
+      details: { maintenance: inMaintenanceStateJSON },
+    });
+    expect(mockFetch).toHaveBeenCalledWith(
+      "https://service-maintenance.star-kojiki.workers.dev/medicalarm",
+      expect.anything()
+    );
+    expect(mockChatCompletionsCreate).toHaveBeenCalledTimes(0);
+    expect(mockRunTransaction).toHaveBeenCalledTimes(0);
+  });
+
+  test("メンテナンス中でなければ OpenAI を呼んで抽出結果を返す", async () => {
+    setup({});
+
+    expect(
+      (
+        await freshHandler()({
+          auth: { uid: "me" },
+          data: { mimeType: "image/jpeg", base64Image: validBase64Image },
+        })
+      ).result
+    ).toBe("OK");
+    expect(mockChatCompletionsCreate).toHaveBeenCalledTimes(1);
+  });
+
+  test.each([
+    ["通信の失敗", async () => Promise.reject(new TypeError("fetch failed"))],
+    ["200 以外の応答", async () => new Response("error", { status: 500 })],
+    ["形の違う応答", async () => new Response(JSON.stringify({ maintenance: "yes" }), { status: 200 })],
+  ])("状態を読めない時 (%s) は通常どおり OpenAI を呼ぶ", async (_label, fetchImpl) => {
+    setup({});
+    mockFetch.mockImplementation(fetchImpl);
+
+    expect(
+      (
+        await freshHandler()({
+          auth: { uid: "me" },
+          data: { mimeType: "image/jpeg", base64Image: validBase64Image },
+        })
+      ).result
+    ).toBe("OK");
+    expect(mockChatCompletionsCreate).toHaveBeenCalledTimes(1);
   });
 });

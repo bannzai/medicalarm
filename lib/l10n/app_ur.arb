@@ -324,5 +324,6 @@
   "featureRequestEmailFooter": "ہم تفصیلات کی تصدیق کے لیے اسے استعمال کر سکتے ہیں۔ ہم جواب کی ضمانت نہیں دے سکتے۔",
   "featureRequestEmailInvalid": "ای میل پتے کی ساخت درست نہیں ہے",
   "featureRequestThanks": "آپ کی تجویز بھیج دی گئی ہے۔ شکریہ۔",
-  "send": "بھیجیں"
+  "send": "بھیجیں",
+  "maintenanceDefaultMessage": "اس وقت دیکھ بھال کا کام جاری ہے۔\nبراہِ کرم کچھ دیر بعد دوبارہ کوشش کریں۔"
 }

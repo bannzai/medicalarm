@@ -324,5 +324,6 @@
   "featureRequestEmailFooter": "Możemy go użyć do wyjaśnienia szczegółów. Nie możemy zagwarantować odpowiedzi.",
   "featureRequestEmailInvalid": "Format adresu e-mail jest nieprawidłowy",
   "featureRequestThanks": "Twoja sugestia została wysłana. Dziękujemy.",
-  "send": "Wyślij"
+  "send": "Wyślij",
+  "maintenanceDefaultMessage": "Trwają prace konserwacyjne.\nSpróbuj ponownie za chwilę."
 }

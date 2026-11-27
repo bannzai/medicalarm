@@ -324,5 +324,6 @@
   "featureRequestEmailFooter": "Təfərrüatları dəqiqləşdirmək üçün ondan istifadə edə bilərik. Cavab veriləcəyinə zəmanət verə bilmirik.",
   "featureRequestEmailInvalid": "E-poçt ünvanının formatı düzgün deyil",
   "featureRequestThanks": "Təklifiniz göndərildi. Təşəkkür edirik.",
-  "send": "Göndər"
+  "send": "Göndər",
+  "maintenanceDefaultMessage": "Hazırda texniki xidmət aparılır.\nZəhmət olmasa, bir az sonra yenidən cəhd edin."
 }
