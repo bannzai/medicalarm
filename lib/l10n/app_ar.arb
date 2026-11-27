@@ -147,6 +147,7 @@
   "purchaseErrorNetworkError": "خطأ في الاتصال. يرجى التحقق من بيئة الاتصال الخاصة بك والمحاولة مرة أخرى. إذا لم يتم حل المشكلة، يرجى الاتصال بنا من خلال الإعدادات > الاستفسارات. تفاصيل: {message}",
   "sixMonthPlan": "خطة 6 أشهر",
   "premiumMonthlyContractPeriod": "مدة الاشتراك في الخطة الشهرية شهر واحد من تاريخ الشراء.",
+  "premiumAnnualContractPeriod": "مدة الاشتراك في الخطة السنوية سنة واحدة من تاريخ الشراء.",
   "privacyPolicy": "سياسة الخصوصية",
   "termsOfService": "شروط الاستخدام",
   "specifiedCommercialTransactionAct": "بيانات التاجر بموجب قانون المعاملات التجارية الخاصة",

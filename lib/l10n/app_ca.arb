@@ -147,6 +147,7 @@
   "purchaseErrorNetworkError": "Hi ha un error de connexió. Si us plau, comproveu el vostre entorn de connexió i torneu a provar-ho. Si el problema persisteix, poseu-vos en contacte amb nosaltres a Configuració > Consultes. Detall: {message}",
   "sixMonthPlan": "Plaça de 6 mesos",
   "premiumMonthlyContractPeriod": "El període de contractació del pla mensual és d’un mes a partir de la data de compra.",
+  "premiumAnnualContractPeriod": "La durada del pla anual és d’un any a partir de la data de compra.",
   "privacyPolicy": "Política de privadesa",
   "termsOfService": "Termes d'ús",
   "specifiedCommercialTransactionAct": "Declaració d'acord amb la Llei de Comerç Electrònic",

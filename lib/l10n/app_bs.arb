@@ -147,6 +147,7 @@
   "purchaseErrorNetworkError": "Došlo je do greške u komunikaciji. Provjerite svoje komunikacijsko okruženje i pokušajte ponovo. Ako se problem ne riješi, obratite se putem Postavke > Upit. Detalji: {message}",
   "sixMonthPlan": "6-mjesečni plan",
   "premiumMonthlyContractPeriod": "Trajanje mjesečnog plana je jedan mjesec od datuma kupovine.",
+  "premiumAnnualContractPeriod": "Ugovorni period godišnjeg plana traje godinu dana od datuma kupovine.",
   "privacyPolicy": "Politika privatnosti",
   "termsOfService": "Uslovi korištenja",
   "specifiedCommercialTransactionAct": "Izjava u skladu sa Zakonom o posebnoj trgovini",

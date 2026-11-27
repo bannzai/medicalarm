@@ -147,6 +147,7 @@
   "purchaseErrorNetworkError": "የመረጃ መስመር ችግር አለ። እባኮትን የመረጃ ሁኔታዎን ያረጋግጡ እና እንደገና ይሞክሩ። አልተፈታም ከሆነ በቅንብር > ጥያቄ ይገኙ። ዝርዝር: {message}",
   "sixMonthPlan": "6 ወር እቅድ",
   "premiumMonthlyContractPeriod": "የወርሃዊ ዕቅዱ የውል ጊዜ ከግዢው ቀን ጀምሮ አንድ ወር ነው።",
+  "premiumAnnualContractPeriod": "የዓመታዊ ዕቅዱ የውል ጊዜ ከግዢው ቀን ጀምሮ አንድ ዓመት ነው።",
   "privacyPolicy": "የግል ፖሊሲ",
   "termsOfService": "የአገልግሎት አጠቃቀም ውሎች",
   "specifiedCommercialTransactionAct": "የተለያዩ የንግድ ሥርዓቶች መረጃ መታወቂያ",

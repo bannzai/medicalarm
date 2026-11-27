@@ -147,6 +147,7 @@
   "purchaseErrorNetworkError": "Kukhona iphutha lokuxhumana. Sicela uqinisekise ukuthi imvelo yokuxhumana iyavuma bese uzama futhi. Uma lokhu kungaxazululeki, sicela uthintane nathi ngalesi sixhumanisi: Izilungiselelo > Ukuxhumana. Imininingwane: {message}",
   "sixMonthPlan": "uHlelo lweNyanga eziyi-6",
   "premiumMonthlyContractPeriod": "Isikhathi senkontileka yohlelo lwanyanga zonke siyinyanga eyodwa kusukela ngosuku lokuthenga.",
+  "premiumAnnualContractPeriod": "Isikhathi senkontileka yohlelo lonyaka singunyaka owodwa kusukela ngosuku lokuthenga.",
   "privacyPolicy": "uMthetho Wobumfihlo",
   "termsOfService": "imigomo yokusebenzisa",
   "specifiedCommercialTransactionAct": " ukubekwa kwemigomo yeMithetho Yokuhweba Ethile",

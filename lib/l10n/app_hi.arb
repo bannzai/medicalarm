@@ -147,6 +147,7 @@
   "purchaseErrorNetworkError": "नेटवर्क अनुपलब्ध है। कृपया अपने नेटवर्क कनेक्शन को जांचें और पुनः प्रयास करें। यदि समस्या हल नहीं होती है, तो पर जाएं सेटिंग्स > पूछताछ और संपर्क करें। विवरण: {message}",
   "sixMonthPlan": "6 महीने की योजना",
   "premiumMonthlyContractPeriod": "मासिक प्लान की अनुबंध अवधि खरीद की तारीख से एक महीने की है।",
+  "premiumAnnualContractPeriod": "वार्षिक प्लान की अनुबंध अवधि खरीद की तारीख से एक वर्ष है।",
   "privacyPolicy": "गोपनीयता नीति",
   "termsOfService": "उपयोग की शर्तें",
   "specifiedCommercialTransactionAct": "विशिष्ट वाणिज्यिक लेन-देन कानून के अनुसार प्रकाशन",

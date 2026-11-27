@@ -147,6 +147,7 @@
   "purchaseErrorNetworkError": "יש בעיית תקשורת. אנא בדוק את סביבת התקשורת שלך ונסה שוב. אם הבעיה נמשכת, אנא פנה אלינו דרך הגדרות > שאלות. פרטים: {message}",
   "sixMonthPlan": "תוכנית של 6 חודשים",
   "premiumMonthlyContractPeriod": "תקופת המינוי החודשי היא חודש אחד מתאריך הרכישה.",
+  "premiumAnnualContractPeriod": "תקופת המינוי השנתי היא שנה אחת מתאריך הרכישה.",
   "privacyPolicy": "מדיניות פרטיות",
   "termsOfService": "תנאי שימוש",
   "specifiedCommercialTransactionAct": "הצהרת לפי החוק לסחר מוצרים",

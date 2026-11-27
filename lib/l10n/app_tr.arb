@@ -147,6 +147,7 @@
   "purchaseErrorNetworkError": "İletişim hatası. Lütfen iletişim ortamınızı kontrol edip tekrar deneyin. Çözülmezse Ayarlar > İletişim kısmından bizimle iletişime geçebilirsiniz. Ayrıntılar: {message}",
   "sixMonthPlan": "6 aylık plan",
   "premiumMonthlyContractPeriod": "Aylık planın sözleşme süresi satın alma tarihinden itibaren bir aydır.",
+  "premiumAnnualContractPeriod": "Yıllık planın sözleşme süresi satın alma tarihinden itibaren bir yıldır.",
   "privacyPolicy": "Gizlilik Politikası",
   "termsOfService": "Kullanım Şartları",
   "specifiedCommercialTransactionAct": "Satış Sözleşmesi Hakkında Bilgilendirme",

@@ -147,6 +147,7 @@
   "purchaseErrorNetworkError": "Komunikazio akats baten berri ematen du. Mesedez, ziurtatu komunikazio ingurunea eta berriro saiatu. Arazoa konpondu ez bada, mesedez, joan ezazu Ezarpenak > Kontsulta eta kontaktatu gu. Zehaztasuna: {message}",
   "sixMonthPlan": "6 hilabeteko plana",
   "premiumMonthlyContractPeriod": "Hileko planaren kontratu-aldia hilabetekoa da erosketa-egunetik aurrera.",
+  "premiumAnnualContractPeriod": "Urteko planaren kontratuak urtebete irauten du erosketa-datatik aurrera.",
   "privacyPolicy": "Pribatutasun-politika",
   "termsOfService": "Erabilera baldintzak",
   "specifiedCommercialTransactionAct": "Salmenta bereziak arautzen dituen legearen arabera",

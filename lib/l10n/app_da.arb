@@ -147,6 +147,7 @@
   "purchaseErrorNetworkError": "Der kommunikation er ikke tilfredsstillende. Kontroller venligst dit netværksmiljø og prøv igen. Hvis problemet ikke løses, bedes du kontakte os via Indstillinger > Kontakt. Detaljer: {message}",
   "sixMonthPlan": "6-måneders plan",
   "premiumMonthlyContractPeriod": "Den månedlige plans aftaleperiode er én måned fra købsdatoen.",
+  "premiumAnnualContractPeriod": "Årsabonnementets aftaleperiode er ét år fra købsdatoen.",
   "privacyPolicy": "Fortrolighedspolitik",
   "termsOfService": "Brugsvilkår",
   "specifiedCommercialTransactionAct": "Oplysninger i henhold til lov om særlig handelspraksis",

@@ -147,6 +147,7 @@
   "purchaseErrorNetworkError": "Es liegt ein Netzwerkfehler vor. Bitte überprüfen Sie Ihre Internetverbindung und versuchen Sie es erneut. Sollte das Problem weiterhin bestehen, kontaktieren Sie uns bitte über Einstellungen > Kontakt. Details: {message}",
   "sixMonthPlan": "6-Monats-Plan",
   "premiumMonthlyContractPeriod": "Die Vertragslaufzeit des Monatsplans beträgt einen Monat ab dem Kaufdatum.",
+  "premiumAnnualContractPeriod": "Die Vertragslaufzeit des Jahresplans beträgt ein Jahr ab dem Kaufdatum.",
   "privacyPolicy": "Datenschutzrichtlinie",
   "termsOfService": "Nutzungsbedingungen",
   "specifiedCommercialTransactionAct": "Angaben gemäß dem Telemediengesetz",

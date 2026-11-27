@@ -147,6 +147,7 @@
   "purchaseErrorNetworkError": "Mae nameth gysylltiad. Gwiriwch y sefyllfa gysylltu a chymhwyswch eto. Os nad yw hyn yn datrys y broblem, cysylltwch drwy fynd i Ddewisiadau > Cysylltu. Manylion: {message}",
   "sixMonthPlan": "Cynllun 6 mis",
   "premiumMonthlyContractPeriod": "Mae cyfnod y cynllun misol yn un mis o ddyddiad y pryniant.",
+  "premiumAnnualContractPeriod": "Mae cyfnod contract y cynllun blynyddol yn para blwyddyn o ddyddiad y pryniant.",
   "privacyPolicy": "Polisi Preifatrwydd",
   "termsOfService": "Telerau Ddefnyddio",
   "specifiedCommercialTransactionAct": "Nodyn ynghylch y Gyfraith Masnach arbennig",

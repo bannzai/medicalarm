@@ -147,6 +147,7 @@
   "purchaseErrorNetworkError": "Yra ryšio problema. Patikrinkite ryšių aplinką ir bandykite dar kartą. Jei problema neišspręsta, kreipkitės į mus per Nustatymai > Klausimai. Išsamesnė informacija: {message}",
   "sixMonthPlan": "6 mėnesių planas",
   "premiumMonthlyContractPeriod": "Mėnesio plano sutarties laikotarpis yra vienas mėnuo nuo pirkimo datos.",
+  "premiumAnnualContractPeriod": "Metinio plano sutarties laikotarpis yra vieni metai nuo įsigijimo dienos.",
   "privacyPolicy": "Privatumo politika",
   "termsOfService": "Naudojimo sąlygos",
   "specifiedCommercialTransactionAct": "Informacija, pateikta remiantis specialiųjų prekybos įstatymų nuostatomis",

@@ -147,6 +147,7 @@
   "purchaseErrorNetworkError": "Şəbəkə qalxanında nasazlıq var. Şəbəkə şərtlərini yoxlayın və yenidən cəhd edin. Hələ də həll olunmursa, ayarlar > Əlaqə bölməsindən bizimlə əlaqə saxlayın. Ətraflı: {message}",
   "sixMonthPlan": "6 ay planı",
   "premiumMonthlyContractPeriod": "Aylıq planın müqavilə müddəti alış tarixindən etibarən bir aydır.",
+  "premiumAnnualContractPeriod": "İllik planın müqavilə müddəti alış tarixindən etibarən bir ildir.",
   "privacyPolicy": "Məxfilik Siyasəti",
   "termsOfService": "İstifadə Şərtləri",
   "specifiedCommercialTransactionAct": "Xüsusi ticarət qanununa uyğun olaraq göstərilmə",

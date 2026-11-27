@@ -147,6 +147,7 @@
   "purchaseErrorNetworkError": "مشکلی در ارتباط وجود دارد. لطفاً شرایط ارتباطی خود را بررسی کنید و دوباره تلاش کنید. اگر حل نشد، لطفاً از طریق تنظیمات > تماس با ما با ما تماس بگیرید. جزییات: {message}",
   "sixMonthPlan": "برنامه ۶ ماهه",
   "premiumMonthlyContractPeriod": "مدت قرارداد طرح ماهانه از تاریخ خرید یک ماه است.",
+  "premiumAnnualContractPeriod": "مدت قرارداد طرح سالانه از تاریخ خرید، یک سال است.",
   "privacyPolicy": "سیاست حفظ حریم خصوصی",
   "termsOfService": "شرایط استفاده",
   "specifiedCommercialTransactionAct": "بیان طبق قانون تجارت خاص",

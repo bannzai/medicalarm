@@ -147,6 +147,7 @@
   "purchaseErrorNetworkError": "Ühenduse viga. Kontrollige oma ühenduse tingimusi ja proovige uuesti. Kui probleem ei lahene, võtke ühendust seades > Küsimus. Üksikasjad: {message}",
   "sixMonthPlan": "6-kuuline plaan",
   "premiumMonthlyContractPeriod": "Kuupaketi lepinguperiood kestab ostukuupäevast ühe kuu.",
+  "premiumAnnualContractPeriod": "Aastaplaani lepinguperiood kestab ostukuupäevast ühe aasta.",
   "privacyPolicy": "Privaatsuspoliitika",
   "termsOfService": "Kasutustingimused",
   "specifiedCommercialTransactionAct": "Teave, mis põhineb nõuetele, mis tulenevad müügilepingute seadusest",

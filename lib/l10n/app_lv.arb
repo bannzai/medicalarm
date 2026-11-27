@@ -147,6 +147,7 @@
   "purchaseErrorNetworkError": "Ir irģestrēts savienojuma traucējums. Lūdzu, pārbaudiet savienojuma vidi un mēģiniet vēlreiz. Ja tas neatrisina problēmu, lūdzu, sazinieties ar mums, izmantojot Iestatījumi > Kontakti. Detalizēta informācija: {message}",
   "sixMonthPlan": "6 mēnešu plāns",
   "premiumMonthlyContractPeriod": "Mēneša plāna līguma termiņš ir viens mēnesis no iegādes datuma.",
+  "premiumAnnualContractPeriod": "Gada plāna līguma termiņš ir viens gads no iegādes datuma.",
   "privacyPolicy": "Privātuma politika",
   "termsOfService": "Lietošanas noteikumi",
   "specifiedCommercialTransactionAct": "Informācija saskaņā ar Noteikumiem par īpašiem tirdzniecības darījumiem",

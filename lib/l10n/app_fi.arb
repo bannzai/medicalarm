@@ -147,6 +147,7 @@
   "purchaseErrorNetworkError": "Verkkoyhteys on huono. Tarkista internet-yhteytesi ja yritä uudelleen. Jos ongelma ei ratkea, ota yhteyttä asetusten kautta > Ota yhteyttä. Yksityiskohdat: {message}",
   "sixMonthPlan": "6 kuukauden suunnitelma",
   "premiumMonthlyContractPeriod": "Kuukausitilauksen sopimuskausi on yksi kuukausi ostopäivästä.",
+  "premiumAnnualContractPeriod": "Vuosisopimuksen kesto on yksi vuosi ostopäivästä.",
   "privacyPolicy": "Tietosuojakäytäntö",
   "termsOfService": "Käyttöehdot",
   "specifiedCommercialTransactionAct": "Sisältää tietoja, jotka perustuvat erityiseen kaupankäyntilakiin",

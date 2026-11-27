@@ -147,6 +147,7 @@
   "purchaseErrorNetworkError": "Det är ett kommunikationsfel. Kontrollera din anslutningsmiljö och försök igen. Om problemet kvarstår, kontakta oss via Inställningar > Kontakta oss. Detaljer: {message}",
   "sixMonthPlan": "6 månaders plan",
   "premiumMonthlyContractPeriod": "Avtalsperioden för månadsplanen är en månad från köpdatumet.",
+  "premiumAnnualContractPeriod": "Avtalsperioden för årsplanen är ett år från inköpsdatumet.",
   "privacyPolicy": "Integritetspolicy",
   "termsOfService": "Användarvillkor",
   "specifiedCommercialTransactionAct": "Information enligt lagen om särskilda kommersiella transaktioner",

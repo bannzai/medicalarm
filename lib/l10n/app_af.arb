@@ -147,6 +147,7 @@
   "purchaseErrorNetworkError": "Daar is 'n kommunikasiefout. Controleer asseblief u kommunikasie-omstandighede en probeer weer. As dit nie oplos nie, kontak ons asseblief via Instellings > Kontak. Besonderhede: {message}",
   "sixMonthPlan": "6 maande plan",
   "premiumMonthlyContractPeriod": "Die maandelikse plan se kontraktydperk is een maand vanaf die aankoopdatum.",
+  "premiumAnnualContractPeriod": "Die jaarplan se kontraktydperk is een jaar vanaf die aankoopdatum.",
   "privacyPolicy": "Privaatheidsbeleid",
   "termsOfService": "gebruikersvoorwaardes",
   "specifiedCommercialTransactionAct": "Verklaring volgens die Wet op Bepaalde Handelspraktyke",

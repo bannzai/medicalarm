@@ -147,6 +147,7 @@
   "purchaseErrorNetworkError": "Houve um erro de comunicação. Verifique o ambiente de rede e tente novamente. Se o problema persistir, entre em contato através de Configurações > Contato. Detalhes: {message}",
   "sixMonthPlan": "Plano de 6 meses",
   "premiumMonthlyContractPeriod": "O período contratual do plano mensal é de um mês a partir da data da compra.",
+  "premiumAnnualContractPeriod": "O período contratual do plano anual é de um ano a partir da data de compra.",
   "privacyPolicy": "Política de Privacidade",
   "termsOfService": "Termos de Uso",
   "specifiedCommercialTransactionAct": "Declaração de acordo com a Lei sobre Transações Comerciais Específicas",

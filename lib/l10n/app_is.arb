@@ -147,6 +147,7 @@
   "purchaseErrorNetworkError": "Tengingarvillur. Vinsamlegast athugaðu tengingarumhverfið þitt og reyndu aftur. Ef vandamálið leysist ekki vinsamlegast hafðu samband við okkur í Stillingar > Fyrirspurn. Nánari upplýsingar: {message}",
   "sixMonthPlan": "6 mánaáætlun",
   "premiumMonthlyContractPeriod": "Samningstími mánaðaráætlunarinnar er einn mánuður frá kaupdegi.",
+  "premiumAnnualContractPeriod": "Samningstími ársáskriftar er eitt ár frá kaupdegi.",
   "privacyPolicy": "Persónuverndarstefna",
   "termsOfService": "Skilmál",
   "specifiedCommercialTransactionAct": "Upplýsingar samkvæmt lögum um sérstakar viðskiptakannanir",

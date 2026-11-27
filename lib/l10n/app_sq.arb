@@ -147,6 +147,7 @@
   "purchaseErrorNetworkError": "Ka kaqenë lëvizjet. Ju lutemi kontrolloni ambientin e komunikimit dhe provoni përsëri. Nëse problemi vazhdon, ju lutemi kontaktoni përmes cilësimeve > Kërkesë. Detajet: {message}",
   "sixMonthPlan": "Plani 6-mujor",
   "premiumMonthlyContractPeriod": "Periudha e kontratës për planin mujor është një muaj nga data e blerjes.",
+  "premiumAnnualContractPeriod": "Periudha e kontratës për planin vjetor është një vit nga data e blerjes.",
   "privacyPolicy": "Politika e Privatësisë",
   "termsOfService": "Kushtet e përdorimit",
   "specifiedCommercialTransactionAct": "Shënimi sipas Ligjit për Tregtinë e veçantë",

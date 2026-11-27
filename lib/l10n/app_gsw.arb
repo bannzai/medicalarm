@@ -147,6 +147,7 @@
   "purchaseErrorNetworkError": "I bi der Netzwerkproblem. Bitte prufen Sie Ihre Netzwerkbedingungen und versuchen Sie es erneut. Falls das Problem nicht behoben wird, kontaktieren Sie uns bitte unter Einstellungen > Anfrage. Details: {message}",
   "sixMonthPlan": "6 Monat Plan",
   "premiumMonthlyContractPeriod": "D Vertragsduur vom Monatsabo isch ei Monet ab em Chaufdatum.",
+  "premiumAnnualContractPeriod": "D Vertragsduur vom Jooresabo isch es Joor ab em Chaufdatum.",
   "privacyPolicy": "Privacy Policy",
   "termsOfService": "Nutzungsbedingunge",
   "specifiedCommercialTransactionAct": "Angabe gemäß dem Gesetz über den Verkehr mit besonderen Waren",

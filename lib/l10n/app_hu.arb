@@ -147,6 +147,7 @@
   "purchaseErrorNetworkError": "Hálózati hiba történt. Kérem, ellenőrizze a hálózati környezetet, majd próbálja újra. Ha a probléma továbbra is fennáll, kérjük, lépjen kapcsolatba velünk a Beállítások > Kapcsolatfelvétel menüpont alatt. Részletek: {message}",
   "sixMonthPlan": "6 hónapos terv",
   "premiumMonthlyContractPeriod": "A havi csomag szerződéses időszaka a vásárlás napjától számított egy hónap.",
+  "premiumAnnualContractPeriod": "Az éves csomag szerződéses időtartama a vásárlás napjától számított egy év.",
   "privacyPolicy": "Adatvédelmi irányelvek",
   "termsOfService": "Felhasználási feltételek",
   "specifiedCommercialTransactionAct": "A speciális kereskedelmi törvény alapján készített nyilatkozat",

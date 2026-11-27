@@ -147,6 +147,7 @@
   "purchaseErrorNetworkError": "Det er et kommunikasjonsproblem. Vennligst sjekk nettverksforholdene dine og prøv igjen. Hvis problemet vedvarer, vennligst kontakt oss via Innstillinger > Kontakt oss. Detaljer: {message}",
   "sixMonthPlan": "6-månedersplan",
   "premiumMonthlyContractPeriod": "Avtaleperioden for månedsabonnementet er én måned fra kjøpsdatoen.",
+  "premiumAnnualContractPeriod": "Avtaleperioden for årsplanen er ett år fra kjøpsdatoen.",
   "privacyPolicy": "Personvernerklæring",
   "termsOfService": "Bruksvilkår",
   "specifiedCommercialTransactionAct": "Informasjon i henhold til lov om spesifikke handelsavtaler",

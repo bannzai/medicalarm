@@ -147,6 +147,7 @@
   "purchaseErrorNetworkError": "Kakulangan sa komunikasyon. Pakisuri ang iyong kapaligiran sa komunikasyon at subukang muli. Kung hindi ito malulutas, mangyaring makipag-ugnayan sa pamamagitan ng Mga Setting > Pagtatanong. Detalye: {message}",
   "sixMonthPlan": "6 na buwan na plano",
   "premiumMonthlyContractPeriod": "Ang panahon ng kontrata para sa buwanang plano ay isang buwan mula sa petsa ng pagbili.",
+  "premiumAnnualContractPeriod": "Ang panahon ng kontrata para sa taunang plano ay isang taon mula sa petsa ng pagbili.",
   "privacyPolicy": "Patakaran sa Privacy",
   "termsOfService": "Mga Tuntunin at Kundisyon",
   "specifiedCommercialTransactionAct": "Talaan ng mga Pahayag batay sa Batas ng Espesyal na Komersyal na Transaksyon",

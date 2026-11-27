@@ -147,6 +147,7 @@
   "purchaseErrorNetworkError": "Er is een verbindingsprobleem. Controleer uw netwerkverbinding en probeer het opnieuw. Als het probleem aanhoudt, neem dan contact op via Instellingen > Neem contact op. Details: {message}",
   "sixMonthPlan": "6 maanden plan",
   "premiumMonthlyContractPeriod": "De contractduur van het maandabonnement is één maand vanaf de aankoopdatum.",
+  "premiumAnnualContractPeriod": "De contractduur van het jaarabonnement is één jaar vanaf de aankoopdatum.",
   "privacyPolicy": "Privacybeleid",
   "termsOfService": "Gebruiksvoorwaarden",
   "specifiedCommercialTransactionAct": "Vermelding op basis van de wet op de specifieke handelspraktijken",

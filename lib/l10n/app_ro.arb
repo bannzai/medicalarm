@@ -147,6 +147,7 @@
   "purchaseErrorNetworkError": "Există o problemă de conectivitate. Vă rugăm să verificați condițiile de rețea și să încercați din nou. Dacă problema persistă, contactați-ne accesând Setări > Întrebări. Detalii: {message}",
   "sixMonthPlan": "Plan de 6 luni",
   "premiumMonthlyContractPeriod": "Perioada contractuală a planului lunar este de o lună de la data achiziției.",
+  "premiumAnnualContractPeriod": "Perioada contractuală a planului anual este de un an de la data achiziției.",
   "privacyPolicy": "Politica de confidențialitate",
   "termsOfService": "Termeni și condiții",
   "specifiedCommercialTransactionAct": "Informații conform legii comerțului electronic",

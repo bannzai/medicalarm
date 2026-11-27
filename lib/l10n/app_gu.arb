@@ -147,6 +147,7 @@
   "purchaseErrorNetworkError": "સંચારમાં ભૂલ આવી છે. કૃપા કરીને નેટવર્કની સ્થિતિ તપાસીને ફરી પ્રયાસ કરો. જો સમસ્યા ઉકેલાય નહીં, તો સેટિંગ્સ > સંપર્ક કરો દ્વારા અમારો સંપર્ક કરો. વિગત: {message}",
   "sixMonthPlan": "6 મહિનાનો પ્લાન",
   "premiumMonthlyContractPeriod": "માસિક પ્લાનનો કરાર સમયગાળો ખરીદીની તારીખથી એક મહિનાનો છે.",
+  "premiumAnnualContractPeriod": "વાર્ષિક પ્લાનનો કરાર ખરીદીની તારીખથી એક વર્ષ માટે છે.",
   "privacyPolicy": "ગોપનીયતા નીતિ",
   "termsOfService": "ઉપયોગની શરતો",
   "specifiedCommercialTransactionAct": "ચોક્કસ વ્યાપારી વ્યવહાર કાયદા હેઠળની જાહેરાત",

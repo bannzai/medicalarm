@@ -147,6 +147,7 @@
   "purchaseErrorNetworkError": "Wystąpił błąd połączenia. Sprawdź swoje połączenie i spróbuj ponownie. Jeśli problem nie ustąpi, skontaktuj się z nami przez Ustawienia > Kontakt. Szczegóły: {message}",
   "sixMonthPlan": "Plan 6 miesięcy",
   "premiumMonthlyContractPeriod": "Okres obowiązywania planu miesięcznego wynosi jeden miesiąc od daty zakupu.",
+  "premiumAnnualContractPeriod": "Okres obowiązywania planu rocznego wynosi rok od daty zakupu.",
   "privacyPolicy": "Polityka prywatności",
   "termsOfService": "Warunki korzystania",
   "specifiedCommercialTransactionAct": "Informacja zgodna z ustawą o szczególnych zasadach sprzedaży",

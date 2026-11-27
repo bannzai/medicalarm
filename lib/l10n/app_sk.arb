@@ -147,6 +147,7 @@
   "purchaseErrorNetworkError": "Došlo k chybe pripojenia. Skontrolujte svoj prístup na internet a skúste to znova. Ak problém pretrváva, kontaktujte nás cez Nastavenia > Dotazy. Podrobnosti: {message}",
   "sixMonthPlan": "6-mesačný plán",
   "premiumMonthlyContractPeriod": "Zmluvné obdobie mesačného plánu je jeden mesiac od dátumu nákupu.",
+  "premiumAnnualContractPeriod": "Zmluvné obdobie ročného plánu trvá jeden rok od dátumu nákupu.",
   "privacyPolicy": "Zásady ochrany osobných údajov",
   "termsOfService": "Podmienky používania",
   "specifiedCommercialTransactionAct": "Vystavenie v súlade so zákonom o regulovanom obchode",

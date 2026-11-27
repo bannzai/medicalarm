@@ -147,6 +147,7 @@
   "purchaseErrorNetworkError": "Aloqa uzilishi sodir bo'ldi. Iltimos, aloqa muhitini tekshirib, qayta urinib ko'ring. Agar hal bo'lmasa, Sozlamalar > Murojaat orqali bizga murojaat qiling. Tafsilotlar: {message}",
   "sixMonthPlan": "6 oylik reja",
   "premiumMonthlyContractPeriod": "Oylik rejaning shartnoma muddati xarid qilingan kundan boshlab bir oy.",
+  "premiumAnnualContractPeriod": "Yillik rejaning shartnoma muddati xarid qilingan kundan boshlab bir yil.",
   "privacyPolicy": "Maxfiylik siyosati",
   "termsOfService": "Foydalanuvchi shartnomasi",
   "specifiedCommercialTransactionAct": "Maxsus savdo bitimlari to'g'risidagi qonunga muvofiq e'lon",
