@@ -86,11 +86,16 @@ Future<MaintenanceState> fetchMaintenanceState(
   // (service-maintenance-setup skill の SKILL.md「読む間隔と待つ上限」)
   Duration timeout = const Duration(seconds: 2),
 }) async {
+  // client を渡されない時は、この読み取りのためにクライアントを作り、読み終えた時と時間切れの時に閉じる
+  // (timeout は待つのをやめるだけで通信は続くため、閉じないと応答しない読み取りが読み直しのたびに残る)
+  final ownedClient = client == null ? http.Client() : null;
   try {
-    final response = await (client?.get(stateURL) ?? http.get(stateURL)).timeout(timeout);
+    final response = await (client ?? ownedClient!).get(stateURL).timeout(timeout);
     if (response.statusCode != 200) return MaintenanceState.notInMaintenance;
     return MaintenanceState.tryParse(jsonDecode(utf8.decode(response.bodyBytes))) ?? MaintenanceState.notInMaintenance;
   } catch (_) {
     return MaintenanceState.notInMaintenance;
+  } finally {
+    ownedClient?.close();
   }
 }

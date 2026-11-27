@@ -356,6 +356,30 @@ void main() {
     expect(find.text('復旧までお待ちください'), findsOneWidget);
   });
 
+  testWidgets('画面に収まらない長い文の時も、スクロールしてボタンを押せる', (tester) async {
+    final openedURLs = await pumpApp(
+      tester,
+      SwitchableClient({...inMaintenanceWithButton, 'message': List.filled(200, '復旧までお待ちください').join('\n')}).client,
+    );
+    expect(tester.takeException(), isNull);
+
+    await tester.scrollUntilVisible(find.text('お知らせを見る'), 500);
+    await tester.tap(find.text('お知らせを見る'));
+    expect(openedURLs, [Uri.parse('https://example.com/news')]);
+  });
+
+  test('client を渡さない時は、作ったクライアントを時間切れの時にも閉じる', () async {
+    var closeCount = 0;
+    expect(
+      (await http.runWithClient(
+        () => fetchMaintenanceState(stateURL, timeout: const Duration(milliseconds: 10)),
+        () => _ClosingCountClient(onClose: () => closeCount += 1),
+      )).maintenance,
+      false,
+    );
+    expect(closeCount, 1);
+  });
+
   group('MaintenanceState.tryParse', () {
     test('5 つの項目がそろった値を読む', () {
       final maintenanceState = MaintenanceState.tryParse(inMaintenanceWithButton)!;
@@ -415,4 +439,21 @@ void main() {
       );
     });
   });
+}
+
+/// 応答を返さず、close された回数を数える HTTP のクライアント。時間切れの後にクライアントを閉じるかを確かめるために使う
+class _ClosingCountClient extends http.BaseClient {
+  /// close された時に呼ぶ処理から作る
+  _ClosingCountClient({required this.onClose});
+
+  /// close された時に呼ぶ処理
+  final void Function() onClose;
+
+  /// 応答を返さない (状態を返す Worker が応答しない時の代わり)
+  @override
+  Future<http.StreamedResponse> send(http.BaseRequest request) => Completer<http.StreamedResponse>().future;
+
+  /// 閉じられたことを数える
+  @override
+  void close() => onClose();
 }

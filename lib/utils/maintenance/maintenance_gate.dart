@@ -158,7 +158,8 @@ class MaintenanceScreen extends StatelessWidget {
     return Material(
       child: SafeArea(
         child: Center(
-          child: Padding(
+          // 長い文や大きな文字の設定でも、ボタンまで届くようにスクロールできるようにする
+          child: SingleChildScrollView(
             // 余白 (24) は組み込むプロダクトのデザインに合わせて直す前提の仮の値で、Material の画面の端の余白として一般的な 24 にした
             padding: const EdgeInsets.all(24),
             child: Column(
