@@ -733,9 +733,13 @@
   "@sixMonthPlan": {
     "description": "6ヶ月プランの表示名"
   },
-  "premiumContractPeriod": "契約期間は購入日から1ヶ月間です。",
-  "@premiumContractPeriod": {
-    "description": "プレミアムプランの契約期間の説明"
+  "premiumMonthlyContractPeriod": "月額プランの契約期間は購入日から1ヶ月間です。",
+  "@premiumMonthlyContractPeriod": {
+    "description": "購入画面の注意書きに出す月額プランの契約期間の説明。年額プランの行と並べて表示する"
+  },
+  "premiumAnnualContractPeriod": "年額プランの契約期間は購入日から1年間です。",
+  "@premiumAnnualContractPeriod": {
+    "description": "購入画面の注意書きに出す年額プランの契約期間の説明。月額プランの行と並べて表示する"
   },
   "privacyPolicy": "プライバシーポリシー",
   "@privacyPolicy": {
