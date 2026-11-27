@@ -1538,5 +1538,33 @@ void main() {
 
       expect(groupMemberNotificationSettingsUpdate.calls.single.setting.focusConnectScheduleID, isNull);
     });
+
+    testWidgets('戻りを待つ間に連携が別の ID に作り直されていたら、reason=not-found の戻りでも今の連携の ID を消さない', (tester) async {
+      final authCode = (await takeAndCaptureUnlockURL(tester)).queryParameters['authCode'];
+      // 解除を頼んだ後に、通知設定の画面で連携を作り直した行が届く
+      final reconnectedMedicationSchedule = focusConnectedMedicationSchedule.copyWith(
+        focusConnectSetting: const MedicineScheduleFocusConnectSetting(focusConnectScheduleID: 'focus-schedule-2'),
+      );
+      await pumpScheduleRow(
+        tester,
+        groupMemberNotificationSettings: () => Stream.value(null),
+        scheduleRow: MedicationGroupScheduleRow(
+          id: 'row-1',
+          medicationHistory: null,
+          medicine: buildMedicine().copyWith(schedules: [reconnectedMedicationSchedule]),
+          medicationSchedule: reconnectedMedicationSchedule,
+          quantityMemo: '',
+          date: DateTime.now(),
+        ),
+        groupMemberNotificationSettingsUpdate: groupMemberNotificationSettingsUpdate,
+      );
+
+      await openAppLinkAndSettle(
+        tester,
+        'medicalarm:///focus-connect/schedule?connected=false&reason=not-found&authCode=$authCode&focusConnectScheduleID=focus-schedule-1',
+      );
+
+      expect(groupMemberNotificationSettingsUpdate.calls, isEmpty);
+    });
   });
 }

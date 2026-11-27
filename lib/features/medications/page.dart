@@ -288,6 +288,8 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
     latestScheduleRow.value = scheduleRow;
     // 服薬の記録で開いた Focus の解除の戻りを、この行が開いたものだけ受け取るために渡す値
     final focusConnectAuthCode = useMemoized(() => const Uuid().v4());
+    // この行が最後に解除を頼んだ Focus の連携の ID。戻りを待つ間に別の連携へ替わっていたら、その新しい連携の ID を消さないために持つ
+    final launchedFocusConnectScheduleID = useRef<String?>(null);
     // Focus の側で連携が消えていた戻りを受けたら、次の服薬の記録で Focus を開かないよう、記録の時に読む有効設定から ID を消す。
     // 購読は 1 回だけ張り、行を閉じる時に解除する
     useEffect(() {
@@ -297,19 +299,25 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
             // await をまたいで ref を触るとウィジェット破棄後アクセスで例外になるため、ref 依存値は await の前に読み出す
             final memberSettingsUpdate = ref.read(groupMemberNotificationSettingsUpdateProvider);
             final currentUserID = ref.read(appUserIDProvider);
-            final currentScheduleRow = latestScheduleRow.value;
             try {
               final memberSettings = await readFutureKeepingAliveFromWidget(ref: ref, provider: groupMemberNotificationSettingsProvider.future);
+              // 設定の読み出しを待つ間に行が更新されても、古い通知設定を個別設定として書かないよう、待った後の行を使う
+              final currentScheduleRow = latestScheduleRow.value;
+              final effectiveSetting = resolveEffectiveNotificationSetting(
+                medicine: currentScheduleRow.medicine,
+                schedule: currentScheduleRow.medicationSchedule,
+                memberSettings: memberSettings,
+                currentUserID: currentUserID,
+              );
+              // 戻りを待つ間に連携が作り直されていたら、見つからなかったのは古い連携なので、今の連携の ID は消さない
+              if (effectiveSetting.focusConnectScheduleID != launchedFocusConnectScheduleID.value) {
+                return;
+              }
               await memberSettingsUpdate.call(
                 current: memberSettings,
                 medicineID: currentScheduleRow.medicine.id,
                 scheduleID: currentScheduleRow.medicationSchedule.id,
-                setting: resolveEffectiveNotificationSetting(
-                  medicine: currentScheduleRow.medicine,
-                  schedule: currentScheduleRow.medicationSchedule,
-                  memberSettings: memberSettings,
-                  currentUserID: currentUserID,
-                ).copyWith(focusConnectScheduleID: null),
+                setting: effectiveSetting.copyWith(focusConnectScheduleID: null),
               );
             } catch (e, st) {
               errorLogger.recordError(e, st);
@@ -435,6 +443,7 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
           currentUserID: currentUserID,
         ).focusConnectScheduleID;
         if (focusConnectScheduleID != null) {
+          launchedFocusConnectScheduleID.value = focusConnectScheduleID;
           await launchUrl(focusConnectScheduleUnlockURL(focusConnectScheduleID: focusConnectScheduleID, authCode: focusConnectAuthCode));
         }
       } finally {
