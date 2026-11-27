@@ -54,6 +54,8 @@ for (const [name, button] of [
   ["url が URL の形でない button", { label: "開く", url: "example.com/news" }],
   ["label が空の button", { label: "", url: "https://example.com/news" }],
   ["label が無い button", { url: "https://example.com/news" }],
+  // 文字列に変換すると https の URL になる配列。型の判定だけが弾く
+  ["url が文字列でない (配列の) button", { label: "開く", url: ["https://example.com/news"] }],
   ["文字列の button", "https://example.com/news"],
 ] as const) {
   test(`parseMaintenanceState: ${name} は、メンテナンス中のまま button だけ null にする`, () => {
@@ -87,7 +89,7 @@ test("fetchMaintenanceState: stateURL を読み、応答の状態を返す", asy
       return new Response(JSON.stringify(IN_MAINTENANCE_WITH_BUTTON_JSON));
     },
   });
-  assert.deepEqual(requestedURLs, ["https://service-maintenance.example.workers.dev/snapmon"]);
+  assert.deepEqual(requestedURLs, [STATE_URL]);
   assert.equal(state.maintenance, true);
   assert.equal(state.message, "復旧までお待ちください");
 });

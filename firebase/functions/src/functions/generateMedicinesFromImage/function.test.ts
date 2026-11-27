@@ -1,6 +1,8 @@
 // generateMedicinesFromImageHandler のユニットテスト。
 // 入力検証・月間利用回数の上限判定とカウント更新・AI 出力のサニタイズ・空応答フォールバックを検証する。
 
+import { NOT_IN_MAINTENANCE_JSON } from "../../lib/maintenance/test/support/fixtures";
+
 type OnCallResult = {
   result: "OK" | "NG";
   statusCode: number;
@@ -87,15 +89,6 @@ jest.mock("openai", () => ({
 const mockFetch = jest.fn();
 global.fetch = mockFetch as unknown as typeof fetch;
 
-/// 状態を返す Worker が返す、メンテナンス中でない状態の JSON
-const notInMaintenanceStateJSON = {
-  maintenance: false,
-  message: null,
-  button: null,
-  source: "owner",
-  changedAt: "2026-11-25T08:00:00.000Z",
-};
-
 /// 状態を返す Worker が返す、メンテナンス中の状態の JSON
 const inMaintenanceStateJSON = {
   maintenance: true,
@@ -119,7 +112,7 @@ function setup(args: {
   aiResponse?: Record<string, unknown> | null;
 }): void {
   jest.clearAllMocks();
-  mockFetch.mockImplementation(async () => new Response(JSON.stringify(notInMaintenanceStateJSON), { status: 200 }));
+  mockFetch.mockImplementation(async () => new Response(JSON.stringify(NOT_IN_MAINTENANCE_JSON), { status: 200 }));
   mockHasPremiumEntitlement.mockResolvedValue(args.isPremium ?? false);
   mockTransactionGet.mockResolvedValue({
     exists: args.aiUsageDocExists ?? true,
