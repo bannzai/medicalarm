@@ -325,5 +325,5 @@
   "featureRequestEmailInvalid": "Please enter a valid email address",
   "featureRequestThanks": "Thanks for your feedback!",
   "send": "Send",
-  "maintenanceDefaultMessage": "We’re currently performing maintenance.\nPlease try again in a little while."
+  "maintenanceDefaultMessage": "We’re currently performing maintenance\nPlease try again in a little while"
 }
