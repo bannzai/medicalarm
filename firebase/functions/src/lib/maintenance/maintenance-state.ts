@@ -122,19 +122,19 @@ export const DEFAULT_SERVER_CACHE_MS = 60_000;
  */
 export function createMaintenanceReader(options: MaintenanceReaderOptions): () => Promise<MaintenanceState> {
   const now = options.now ?? Date.now;
-  let cached: { state: MaintenanceState; readAt: number; readNumber: number } | null = null;
+  let cached: { maintenanceState: MaintenanceState; readAt: number; readNumber: number } | null = null;
   let reading: Promise<MaintenanceState> | null = null;
   let latestReadNumber = 0;
   /** 状態を読んで返す。後から始めた読み取りの結果を既に覚えていなければ、読んだ状態を覚える */
   const readAndRemember = () => {
     const readNumber = ++latestReadNumber;
-    return fetchMaintenanceState(options.stateURL, options).then((state) => {
-      if (cached === null || cached.readNumber < readNumber) cached = { state, readAt: now(), readNumber };
-      return state;
+    return fetchMaintenanceState(options.stateURL, options).then((maintenanceState) => {
+      if (cached === null || cached.readNumber < readNumber) cached = { maintenanceState, readAt: now(), readNumber };
+      return maintenanceState;
     });
   };
   return () => {
-    if (cached !== null && now() - cached.readAt < (options.cacheMs ?? DEFAULT_SERVER_CACHE_MS)) return Promise.resolve(cached.state);
+    if (cached !== null && now() - cached.readAt < (options.cacheMs ?? DEFAULT_SERVER_CACHE_MS)) return Promise.resolve(cached.maintenanceState);
     if (options.shareConcurrentReads === false) return readAndRemember();
     reading ??= readAndRemember().finally(() => {
       reading = null;

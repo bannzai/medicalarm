@@ -59,9 +59,9 @@ for (const [name, button] of [
   ["文字列の button", "https://example.com/news"],
 ] as const) {
   test(`parseMaintenanceState: ${name} は、メンテナンス中のまま button だけ null にする`, () => {
-    const state = parseMaintenanceState({ ...IN_MAINTENANCE_WITH_BUTTON_JSON, button });
-    assert.equal(state?.maintenance, true);
-    assert.equal(state?.button, null);
+    const maintenanceState = parseMaintenanceState({ ...IN_MAINTENANCE_WITH_BUTTON_JSON, button });
+    assert.equal(maintenanceState?.maintenance, true);
+    assert.equal(maintenanceState?.button, null);
   });
 }
 
@@ -83,15 +83,15 @@ test("parseMaintenanceState: 空文字と文字列でない message は null に
 
 test("fetchMaintenanceState: stateURL を読み、応答の状態を返す", async () => {
   const requestedURLs: string[] = [];
-  const state = await fetchMaintenanceState(STATE_URL, {
+  const maintenanceState = await fetchMaintenanceState(STATE_URL, {
     fetchImpl: async (url) => {
       requestedURLs.push(url);
       return new Response(JSON.stringify(IN_MAINTENANCE_WITH_BUTTON_JSON));
     },
   });
   assert.deepEqual(requestedURLs, [STATE_URL]);
-  assert.equal(state.maintenance, true);
-  assert.equal(state.message, "復旧までお待ちください");
+  assert.equal(maintenanceState.maintenance, true);
+  assert.equal(maintenanceState.message, "復旧までお待ちください");
 });
 
 for (const [name, fetchImpl] of [
@@ -192,7 +192,7 @@ test("createMaintenanceReader: 同時に呼ばれた読み直しは 1 回にま�
   const { fetchImpl, calls } = fetchReturning(IN_MAINTENANCE_WITH_BUTTON_JSON);
   const read = createMaintenanceReader({ stateURL: STATE_URL, fetchImpl });
   assert.deepEqual(
-    (await Promise.all([read(), read(), read()])).map((state) => state.maintenance),
+    (await Promise.all([read(), read(), read()])).map((maintenanceState) => maintenanceState.maintenance),
     [true, true, true],
   );
   assert.equal(calls(), 1);
@@ -202,7 +202,7 @@ test("createMaintenanceReader: shareConcurrentReads が false の時は、同時
   const { fetchImpl, calls } = fetchReturning(IN_MAINTENANCE_WITH_BUTTON_JSON);
   const read = createMaintenanceReader({ stateURL: STATE_URL, fetchImpl, shareConcurrentReads: false });
   assert.deepEqual(
-    (await Promise.all([read(), read(), read()])).map((state) => state.maintenance),
+    (await Promise.all([read(), read(), read()])).map((maintenanceState) => maintenanceState.maintenance),
     [true, true, true],
   );
   assert.equal(calls(), 3);

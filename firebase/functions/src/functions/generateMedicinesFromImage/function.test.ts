@@ -1,7 +1,7 @@
 // generateMedicinesFromImageHandler のユニットテスト。
 // 入力検証・月間利用回数の上限判定とカウント更新・AI 出力のサニタイズ・空応答フォールバックを検証する。
 
-import { NOT_IN_MAINTENANCE_JSON } from "../../lib/maintenance/test/support/fixtures";
+import { IN_MAINTENANCE_WITH_BUTTON_JSON, NOT_IN_MAINTENANCE_JSON } from "../../lib/maintenance/test/support/fixtures";
 
 type OnCallResult = {
   result: "OK" | "NG";
@@ -90,13 +90,7 @@ const mockFetch = jest.fn();
 global.fetch = mockFetch as unknown as typeof fetch;
 
 /// 状態を返す Worker が返す、メンテナンス中の状態の JSON
-const inMaintenanceStateJSON = {
-  maintenance: true,
-  message: "復旧までお待ちください",
-  button: null,
-  source: "owner",
-  changedAt: "2026-11-25T07:00:00.000Z",
-};
+const inMaintenanceStateJSON = { ...IN_MAINTENANCE_WITH_BUTTON_JSON, button: null };
 
 // eslint-disable-next-line @typescript-eslint/no-var-requires
 const handler = require("./function") as Handler;

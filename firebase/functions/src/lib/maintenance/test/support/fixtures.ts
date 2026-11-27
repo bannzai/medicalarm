@@ -30,7 +30,8 @@ export const NOT_IN_MAINTENANCE_JSON = {
   changedAt: "2026-11-25T08:00:00.000Z",
 };
 
-/** body を JSON で返す 200 の応答を返す fetch の代わり。呼ばれた回数を calls に数える */
+/** body を JSON で、status (既定は 200) の応答として返す fetch の代わり。呼ばれた回数を calls に数える */
+// status の既定を 200 にするのは、ほとんどのテストが読めた応答を前提にし、読めない応答のテストだけが status を渡すため
 export function fetchReturning(body: unknown, status = 200): { fetchImpl: () => Promise<Response>; calls: () => number } {
   let callCount = 0;
   return {

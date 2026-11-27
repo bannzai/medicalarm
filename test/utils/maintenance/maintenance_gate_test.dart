@@ -333,15 +333,36 @@ void main() {
     });
   }
 
+  testWidgets('client を渡さない時は、package:http の既定のクライアントで stateURL を読む', (tester) async {
+    final requestedURLs = <Uri>[];
+    await http.runWithClient(
+      () async {
+        await tester.pumpWidget(
+          MaterialApp(
+            builder: (context, child) => MaintenanceGate(stateURL: stateURL, defaultMessage: 'ただいまメンテナンス中です', onOpenURL: (_) {}, child: child!),
+            home: const Scaffold(body: Text('通常の画面')),
+          ),
+        );
+        await tester.pumpAndSettle();
+      },
+      () => MockClient((request) async {
+        requestedURLs.add(request.url);
+        return http.Response.bytes(utf8.encode(jsonEncode(inMaintenanceWithButton)), 200);
+      }),
+    );
+    expect(requestedURLs, [stateURL]);
+    expect(find.text('復旧までお待ちください'), findsOneWidget);
+  });
+
   group('MaintenanceState.tryParse', () {
     test('5 つの項目がそろった値を読む', () {
-      final state = MaintenanceState.tryParse(inMaintenanceWithButton)!;
-      expect(state.maintenance, true);
-      expect(state.message, '復旧までお待ちください');
-      expect(state.button!.label, 'お知らせを見る');
-      expect(state.button!.url, Uri.parse('https://example.com/news'));
-      expect(state.source, 'owner');
-      expect(state.changedAt, '2026-11-25T07:00:00.000Z');
+      final maintenanceState = MaintenanceState.tryParse(inMaintenanceWithButton)!;
+      expect(maintenanceState.maintenance, true);
+      expect(maintenanceState.message, '復旧までお待ちください');
+      expect(maintenanceState.button!.label, 'お知らせを見る');
+      expect(maintenanceState.button!.url, Uri.parse('https://example.com/news'));
+      expect(maintenanceState.source, 'owner');
+      expect(maintenanceState.changedAt, '2026-11-25T07:00:00.000Z');
     });
 
     test('maintenance・source・changedAt の形が違う値は null を返す', () {
@@ -376,9 +397,9 @@ void main() {
         {'url': 'https://example.com/news'},
         'https://example.com/news',
       ]) {
-        final state = MaintenanceState.tryParse({...inMaintenanceWithButton, 'button': button})!;
-        expect(state.maintenance, true, reason: '$button');
-        expect(state.button, isNull, reason: '$button');
+        final maintenanceState = MaintenanceState.tryParse({...inMaintenanceWithButton, 'button': button})!;
+        expect(maintenanceState.maintenance, true, reason: '$button');
+        expect(maintenanceState.button, isNull, reason: '$button');
       }
     });
 
