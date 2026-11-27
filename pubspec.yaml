@@ -93,6 +93,9 @@ dependencies:
 
 dev_dependencies:
   firebase_core_platform_interface: ^8.1.1
+  # 服薬の記録で開く Focus の URL を widget テストで受け取るため、url_launcher の実装を差し替える
+  url_launcher_platform_interface: ^2.3.2
+  plugin_platform_interface: ^2.1.8
   flutter_test:
     sdk: flutter
 

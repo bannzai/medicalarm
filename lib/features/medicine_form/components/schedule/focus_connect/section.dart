@@ -7,11 +7,60 @@ import 'package:medicalarm/entity/medicine.dart';
 import 'package:medicalarm/features/localization/l.dart';
 import 'package:medicalarm/features/medicine_form/components/section_layout.dart';
 import 'package:medicalarm/utils/analytics/analytics.dart';
-import 'package:medicalarm/utils/foundation/cast.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:uuid/uuid.dart';
 
 const focusConnectAppID = 'jmHpoAiQQw0GqE9oFEEH';
+
+/// Focus から Medicalarm へ届いた戻り (`medicalarm:///focus-connect/schedule?...`) を受けて、連携の ID をどう扱うか。
+sealed class FocusConnectScheduleReturnAction {
+  const FocusConnectScheduleReturnAction();
+}
+
+/// 連携が作られた。Focus が返した ID を保存する。
+class FocusConnectScheduleReturnSave extends FocusConnectScheduleReturnAction {
+  /// Focus が作ったスケジュールの ID。Focus が付けなかった時は null
+  final String? focusConnectScheduleID;
+  const FocusConnectScheduleReturnSave({required this.focusConnectScheduleID});
+}
+
+/// 連携が無くなった (削除した・Focus の側でスケジュールが見つからない)。ID を消す。
+class FocusConnectScheduleReturnClear extends FocusConnectScheduleReturnAction {
+  const FocusConnectScheduleReturnClear();
+}
+
+/// 連携の状態が変わらない戻りか、Medicalarm が開いたものではない戻り。ID をそのまま保つ。
+class FocusConnectScheduleReturnKeep extends FocusConnectScheduleReturnAction {
+  const FocusConnectScheduleReturnKeep();
+}
+
+/// [uri] の `connected`・`unlocked`・`reason`・`authCode`・`focusConnectScheduleID` から、連携の ID の扱いを決める。
+/// パラメータ名と値は Focus が返すものに合わせる。[authCode] は Focus を開いた時に渡した値で、一致しない戻りは扱わない。
+FocusConnectScheduleReturnAction focusConnectScheduleReturnAction({required Uri uri, required String authCode}) {
+  final parameters = uri.queryParameters;
+  if (uri.path != '/focus-connect/schedule' || parameters['authCode'] != authCode) {
+    return const FocusConnectScheduleReturnKeep();
+  }
+  if (parameters['connected'] == 'true') {
+    // 解除が成功した戻り。連携は続いている
+    if (parameters['unlocked'] == 'true') {
+      return const FocusConnectScheduleReturnKeep();
+    }
+    return FocusConnectScheduleReturnSave(focusConnectScheduleID: parameters['focusConnectScheduleID']);
+  }
+  // 上限に達してスケジュールを作れなかった戻り。連携の状態は変わっていない
+  if (parameters['reason'] == 'limit-reached') {
+    return const FocusConnectScheduleReturnKeep();
+  }
+  return const FocusConnectScheduleReturnClear();
+}
+
+/// 服薬を記録した時に Focus の制限を解除する URL。[authCode] は戻りをこの記録の分だけ受け取るために渡す。
+Uri focusConnectScheduleUnlockURL({required String focusConnectScheduleID, required String authCode}) {
+  return Uri.parse(
+    'focus-connect://schedule/unlock?focusConnectScheduleID=$focusConnectScheduleID&focusConnectAppID=$focusConnectAppID&authCode=$authCode',
+  );
+}
 
 class MedicineScheduleFocusConnectSettingSection extends HookConsumerWidget {
   final MedicationSchedule schedule;
@@ -26,22 +75,19 @@ class MedicineScheduleFocusConnectSettingSection extends HookConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final authCode = useState(const Uuid().v4());
-    final appLinks = AppLinks();
-    appLinks.uriLinkStream.listen((uri) {
-      final returnedAuthCode = tryCast<String>(uri.queryParameters['authCode']);
-      debugPrint('returnedAuthCode: $returnedAuthCode, authCode: ${authCode.value}, uri: $uri, path: ${uri.path}');
-      if (returnedAuthCode != authCode.value) {
-        return;
-      }
-      if (uri.path == '/focus-connect/schedule') {
-        final connected = tryCast<String>(uri.queryParameters['connected']) == 'true';
-        if (connected == true) {
-          focusConnectScheduleID.value = tryCast<String>(uri.queryParameters['focusConnectScheduleID']);
-        } else {
-          focusConnectScheduleID.value = null;
+    // 戻りの購読は 1 回だけ張り、画面を閉じる時に解除する。build のたびに listen すると購読が重なり、閉じた後も残る
+    useEffect(() {
+      return AppLinks().uriLinkStream.listen((uri) {
+        switch (focusConnectScheduleReturnAction(uri: uri, authCode: authCode.value)) {
+          case FocusConnectScheduleReturnSave(focusConnectScheduleID: final returnedFocusConnectScheduleID):
+            focusConnectScheduleID.value = returnedFocusConnectScheduleID;
+          case FocusConnectScheduleReturnClear():
+            focusConnectScheduleID.value = null;
+          case FocusConnectScheduleReturnKeep():
+            break;
         }
-      }
-    });
+      }).cancel;
+    }, []);
 
     return MedicineFormSectionLayout(
       icon: Icons.notifications,
