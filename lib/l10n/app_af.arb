@@ -146,7 +146,6 @@
   "purchaseErrorTimeout": "Die tyd het verval. Kontroleer asseblief jou kommunikasie-omgewing en probeer weer. As dit nie opgelos word nie, neem kontak op via Instellings > Kontak. Besonderhede: {message}",
   "purchaseErrorNetworkError": "Daar is 'n kommunikasiefout. Controleer asseblief u kommunikasie-omstandighede en probeer weer. As dit nie oplos nie, kontak ons asseblief via Instellings > Kontak. Besonderhede: {message}",
   "sixMonthPlan": "6 maande plan",
-  "premiumContractPeriod": "Die kontrakperiode is een maand vanaf die koopdatum.",
   "privacyPolicy": "Privaatheidsbeleid",
   "termsOfService": "gebruikersvoorwaardes",
   "specifiedCommercialTransactionAct": "Verklaring volgens die Wet op Bepaalde Handelspraktyke",

@@ -146,7 +146,6 @@
   "purchaseErrorTimeout": "Aeg on aegumise lõppenud. Palun kontrollige oma ühenduse tingimusi ja proovige uuesti. Kui probleem püsib, võtke ühendust seadete > Klienditeenindus kaudu. Üksikasjad: {message}",
   "purchaseErrorNetworkError": "Ühenduse viga. Kontrollige oma ühenduse tingimusi ja proovige uuesti. Kui probleem ei lahene, võtke ühendust seades > Küsimus. Üksikasjad: {message}",
   "sixMonthPlan": "6-kuuline plaan",
-  "premiumContractPeriod": "Lepinguperiood on 1 kuu alates ostupäevast.",
   "privacyPolicy": "Privaatsuspoliitika",
   "termsOfService": "Kasutustingimused",
   "specifiedCommercialTransactionAct": "Teave, mis põhineb nõuetele, mis tulenevad müügilepingute seadusest",

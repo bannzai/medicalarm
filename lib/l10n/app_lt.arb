@@ -146,7 +146,6 @@
   "purchaseErrorTimeout": "Laikas pasibaigė. Patikrinkite ryšio sąlygas ir bandykite dar kartą. Jei problema išlieka, užsukite į Nustatymai > Kontaktai ir susisiekite. Išsami informacija: {message}",
   "purchaseErrorNetworkError": "Yra ryšio problema. Patikrinkite ryšių aplinką ir bandykite dar kartą. Jei problema neišspręsta, kreipkitės į mus per Nustatymai > Klausimai. Išsamesnė informacija: {message}",
   "sixMonthPlan": "6 mėnesių planas",
-  "premiumContractPeriod": "Apskaitos laikotarpis yra 1 mėnuo nuo pirkimo datos.",
   "privacyPolicy": "Privatumo politika",
   "termsOfService": "Naudojimo sąlygos",
   "specifiedCommercialTransactionAct": "Informacija, pateikta remiantis specialiųjų prekybos įstatymų nuostatomis",

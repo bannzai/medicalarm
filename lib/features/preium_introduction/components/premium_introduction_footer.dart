@@ -35,7 +35,9 @@ class PremiumIntroductionFotter extends StatelessWidget {
                   color: Colors.grey.shade700,
                 ),
                 children: [
-                  TextSpan(text: '・${L.premiumContractPeriod}\n'),
+                  // 月額・年額の購入ボタンを同じ画面に並べるため、両プランの契約期間を併記する (#549)
+                  TextSpan(text: '・${L.premiumMonthlyContractPeriod}\n'),
+                  TextSpan(text: '・${L.premiumAnnualContractPeriod}\n'),
                   const TextSpan(text: '・'),
                   TextSpan(
                     text: L.privacyPolicy,

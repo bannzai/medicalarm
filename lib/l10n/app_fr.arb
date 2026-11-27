@@ -146,7 +146,6 @@
   "purchaseErrorTimeout": "Le délai a expiré. Veuillez vérifier votre connexion et réessayer. Si le problème persiste, veuillez nous contacter via Paramètres > Contactez-nous. Détails : {message}",
   "purchaseErrorNetworkError": "Il y a un problème de connexion. Veuillez vérifier votre environnement de connexion et réessayez. Si le problème persiste, veuillez nous contacter via Paramètres > Contacter. Détails : {message}",
   "sixMonthPlan": "Plan de 6 mois",
-  "premiumContractPeriod": "La période de contrat est de 1 mois à partir de la date d'achat.",
   "privacyPolicy": "Politique de confidentialité",
   "termsOfService": "Conditions d'utilisation",
   "specifiedCommercialTransactionAct": "Mention légale en vertu de la loi sur des transactions commerciales spécifiques",

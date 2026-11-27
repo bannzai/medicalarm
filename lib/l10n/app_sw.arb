@@ -146,7 +146,6 @@
   "purchaseErrorTimeout": "Timu ya muda imemalizika. Tafadhali hakikisha mazingira ya mawasiliano kabla ya kujaribu tena. Ikiwa tatizo halitatuli, tafadhali wasiliana nasi kupitia mipangilio > Maswali. Maelezo zaidi: {message}",
   "purchaseErrorNetworkError": "Kuwa na uhusiano mbaya. Tafadhali angalia mazingira yako ya mtandao kisha jaribu tena. Ikiwa huwezi kutatua shida hiyo, tafadhali wasiliana nasi kupitia Mpangilio > Maswali. Maelezo zaidi: {message}",
   "sixMonthPlan": "mpango wa miezi 6",
-  "premiumContractPeriod": "Muda wa mkataba ni mwezi mmoja kuanzia tarehe ya oduka.",
   "privacyPolicy": "Sera ya Faragha",
   "termsOfService": "Masharti ya matumizi",
   "specifiedCommercialTransactionAct": "Taarifa kulingana na Sheria ya Biashara Maalum",

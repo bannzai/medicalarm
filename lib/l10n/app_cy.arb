@@ -146,7 +146,6 @@
   "purchaseErrorTimeout": "Mae'r amser yn dod i ben. Gwiriwch y cyflyrau cyfathrebu ac rhowch cynnig arall. Os nad yw'n cael ei datrys, cysylltwch â ni drwy Ddewislen > Cwestiynau. Manylion: {message}",
   "purchaseErrorNetworkError": "Mae nameth gysylltiad. Gwiriwch y sefyllfa gysylltu a chymhwyswch eto. Os nad yw hyn yn datrys y broblem, cysylltwch drwy fynd i Ddewisiadau > Cysylltu. Manylion: {message}",
   "sixMonthPlan": "Cynllun 6 mis",
-  "premiumContractPeriod": "Mae cyfnod y cytundeb yn un mis o'r diwrnod prynu.",
   "privacyPolicy": "Polisi Preifatrwydd",
   "termsOfService": "Telerau Ddefnyddio",
   "specifiedCommercialTransactionAct": "Nodyn ynghylch y Gyfraith Masnach arbennig",

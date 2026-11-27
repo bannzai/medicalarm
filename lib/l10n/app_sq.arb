@@ -146,7 +146,6 @@
   "purchaseErrorTimeout": "Keni në kohë për të dalë. Kontrolloni ambientin tuaj të komunikimit dhe provoni përsëri. Nëse problemi vazhdon, ju lutemi kontaktoni në Caktimet > Kërkesa. Detajet: {message}",
   "purchaseErrorNetworkError": "Ka kaqenë lëvizjet. Ju lutemi kontrolloni ambientin e komunikimit dhe provoni përsëri. Nëse problemi vazhdon, ju lutemi kontaktoni përmes cilësimeve > Kërkesë. Detajet: {message}",
   "sixMonthPlan": "Plani 6-mujor",
-  "premiumContractPeriod": "Periudha e kontratës është nga data e blerjes deri në 1 muaj.",
   "privacyPolicy": "Politika e Privatësisë",
   "termsOfService": "Kushtet e përdorimit",
   "specifiedCommercialTransactionAct": "Shënimi sipas Ligjit për Tregtinë e veçantë",

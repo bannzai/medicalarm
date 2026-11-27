@@ -146,7 +146,6 @@
   "purchaseErrorTimeout": "Vypršal časový limit. Skontrolujte svoj komunikačný signál a vyskúšajte to znova. Ak problém pretrváva, kontaktujte nás cez Nastavenia > Kontaktujte nás. Podrobnosti: {message}",
   "purchaseErrorNetworkError": "Došlo k chybe pripojenia. Skontrolujte svoj prístup na internet a skúste to znova. Ak problém pretrváva, kontaktujte nás cez Nastavenia > Dotazy. Podrobnosti: {message}",
   "sixMonthPlan": "6-mesačný plán",
-  "premiumContractPeriod": "Zmluvná doba je 1 mesiac od dátumu zakúpenia.",
   "privacyPolicy": "Zásady ochrany osobných údajov",
   "termsOfService": "Podmienky používania",
   "specifiedCommercialTransactionAct": "Vystavenie v súlade so zákonom o regulovanom obchode",
