@@ -146,6 +146,7 @@
   "purchaseErrorTimeout": "Denbora amaitu da. Mesedez, ziurtatu komunikazio-ingurunea eta saiatu berriro. Arazoa konpondu ez bada, jar zaitez harremanetan konfigurazioa > Kontsulta bidez. Xehetasunak: {message}",
   "purchaseErrorNetworkError": "Komunikazio akats baten berri ematen du. Mesedez, ziurtatu komunikazio ingurunea eta berriro saiatu. Arazoa konpondu ez bada, mesedez, joan ezazu Ezarpenak > Kontsulta eta kontaktatu gu. Zehaztasuna: {message}",
   "sixMonthPlan": "6 hilabeteko plana",
+  "premiumMonthlyContractPeriod": "Hileko planaren kontratu-aldia hilabetekoa da erosketa-egunetik aurrera.",
   "privacyPolicy": "Pribatutasun-politika",
   "termsOfService": "Erabilera baldintzak",
   "specifiedCommercialTransactionAct": "Salmenta bereziak arautzen dituen legearen arabera",

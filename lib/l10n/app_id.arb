@@ -146,6 +146,7 @@
   "purchaseErrorTimeout": "Waktu habis. Silakan periksa kondisi jaringan Anda dan coba lagi. Jika masalah belum teratasi, silakan kontak melalui Pengaturan > Pertanyaan. Rincian: {message}",
   "purchaseErrorNetworkError": " Ini adalah pesan kesalahan yang muncul ketika terjadi masalah jaringan. Silakan periksa lingkungan jaringan Anda dan coba lagi. Jika masalah tidak teratasi, silakan hubungi melalui Pengaturan > Kontak. Rincian: {message}",
   "sixMonthPlan": "Rencana 6 bulan",
+  "premiumMonthlyContractPeriod": "Masa kontrak paket bulanan adalah satu bulan sejak tanggal pembelian.",
   "privacyPolicy": "Kebijakan Privasi",
   "termsOfService": "Ketentuan Penggunaan",
   "specifiedCommercialTransactionAct": "Pernyataan Berdasarkan Undang-Undang Perdagangan Tertentu",

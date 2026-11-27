@@ -146,6 +146,7 @@
   "purchaseErrorTimeout": "Der timeout er opstået. Kontroller venligst din kommunikationsforhold og prøv igen. Hvis problemet fortsætter, kontakt venligst os via Indstillinger > Forespørgsel. Detaljer: {message}",
   "purchaseErrorNetworkError": "Der kommunikation er ikke tilfredsstillende. Kontroller venligst dit netværksmiljø og prøv igen. Hvis problemet ikke løses, bedes du kontakte os via Indstillinger > Kontakt. Detaljer: {message}",
   "sixMonthPlan": "6-måneders plan",
+  "premiumMonthlyContractPeriod": "Den månedlige plans aftaleperiode er én måned fra købsdatoen.",
   "privacyPolicy": "Fortrolighedspolitik",
   "termsOfService": "Brugsvilkår",
   "specifiedCommercialTransactionAct": "Oplysninger i henhold til lov om særlig handelspraksis",

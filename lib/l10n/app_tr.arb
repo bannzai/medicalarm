@@ -146,6 +146,7 @@
   "purchaseErrorTimeout": "Zaman aşımına uğradı. Lütfen ağ bağlantınızı kontrol edip yeniden deneyin. Sorun çözülmezse, Ayarlar > İletişim sekmesinden bizimle iletişime geçin. Ayrıntılar: {message}",
   "purchaseErrorNetworkError": "İletişim hatası. Lütfen iletişim ortamınızı kontrol edip tekrar deneyin. Çözülmezse Ayarlar > İletişim kısmından bizimle iletişime geçebilirsiniz. Ayrıntılar: {message}",
   "sixMonthPlan": "6 aylık plan",
+  "premiumMonthlyContractPeriod": "Aylık planın sözleşme süresi satın alma tarihinden itibaren bir aydır.",
   "privacyPolicy": "Gizlilik Politikası",
   "termsOfService": "Kullanım Şartları",
   "specifiedCommercialTransactionAct": "Satış Sözleşmesi Hakkında Bilgilendirme",

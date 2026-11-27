@@ -146,6 +146,7 @@
   "purchaseErrorTimeout": "Timeout scaduto. Controlla le condizioni di rete e riprova. Se il problema persiste, contattaci tramite Impostazioni > Assistenza. Dettagli: {message}",
   "purchaseErrorNetworkError": "C'è un problema di connessione. Controlla l'ambiente di rete e riprova. Se il problema persiste, contattaci tramite Impostazioni > Contattaci. Dettagli: {message}",
   "sixMonthPlan": "Piano di 6 mesi",
+  "premiumMonthlyContractPeriod": "La durata contrattuale del piano mensile è di un mese dalla data di acquisto.",
   "privacyPolicy": "Informativa sulla privacy",
   "termsOfService": "Termini e condizioni",
   "specifiedCommercialTransactionAct": "Dichiarazione ai sensi della legge sulle transazioni commerciali specifiche",

@@ -146,6 +146,7 @@
   "purchaseErrorTimeout": "Timeout oldu. Xahiş edirik, əlaqə mühitinizi yoxlayın və yenidən cəhd edin. Hələ də problem yaranarsa, Ayarlar > Əlaqə bölməsindən bizimlə əlaqə saxlayın. Ətraflı: {message}",
   "purchaseErrorNetworkError": "Şəbəkə qalxanında nasazlıq var. Şəbəkə şərtlərini yoxlayın və yenidən cəhd edin. Hələ də həll olunmursa, ayarlar > Əlaqə bölməsindən bizimlə əlaqə saxlayın. Ətraflı: {message}",
   "sixMonthPlan": "6 ay planı",
+  "premiumMonthlyContractPeriod": "Aylıq planın müqavilə müddəti alış tarixindən etibarən bir aydır.",
   "privacyPolicy": "Məxfilik Siyasəti",
   "termsOfService": "İstifadə Şərtləri",
   "specifiedCommercialTransactionAct": "Xüsusi ticarət qanununa uyğun olaraq göstərilmə",

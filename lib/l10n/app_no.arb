@@ -146,6 +146,7 @@
   "purchaseErrorTimeout": "Tiden er ute. Vennligst sjekk kommunikasjonsmiljøet ditt og prøv igjen. Hvis det ikke løser seg, vennligst kontakt oss via Innstillinger > Spørsmål. Detaljer: {message}",
   "purchaseErrorNetworkError": "Det er et nettverksproblem. Vennligst sjekk nettverksforholdene dine og prøv igjen. Hvis problemet vedvarer, vennligst kontakt oss via Innstillinger > Forespørsel. Detaljer: {message}",
   "sixMonthPlan": "6 måneders plan",
+  "premiumMonthlyContractPeriod": "Avtaleperioden for månedsabonnementet er én måned fra kjøpsdatoen.",
   "privacyPolicy": "Personvernerklæring",
   "termsOfService": "Bruksvilkår",
   "specifiedCommercialTransactionAct": "Informasjon i henhold til lov om spesifikke handelsforhold",

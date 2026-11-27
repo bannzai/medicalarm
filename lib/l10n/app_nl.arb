@@ -146,6 +146,7 @@
   "purchaseErrorTimeout": "De time-out is opgetreden. Controleer uw netwerkverbinding en probeer het opnieuw. Als het probleem zich blijft voordoen, neem dan contact met ons op via Instellingen > Vraag. Details: {message}",
   "purchaseErrorNetworkError": "Er is een verbindingsprobleem. Controleer uw netwerkverbinding en probeer het opnieuw. Als het probleem aanhoudt, neem dan contact op via Instellingen > Neem contact op. Details: {message}",
   "sixMonthPlan": "6 maanden plan",
+  "premiumMonthlyContractPeriod": "De contractduur van het maandabonnement is één maand vanaf de aankoopdatum.",
   "privacyPolicy": "Privacybeleid",
   "termsOfService": "Gebruiksvoorwaarden",
   "specifiedCommercialTransactionAct": "Vermelding op basis van de wet op de specifieke handelspraktijken",

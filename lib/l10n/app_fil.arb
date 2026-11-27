@@ -146,6 +146,7 @@
   "purchaseErrorTimeout": "Nag-timeout. Pakisuriin ang iyong koneksyon sa internet at subukan muli. Kung hindi ito malulutas, mangyaring makipag-ugnayan sa amin sa pamamagitan ng Settings > Inquiry. Detalye: {message}",
   "purchaseErrorNetworkError": "Kakulangan sa komunikasyon. Pakisuri ang iyong kapaligiran sa komunikasyon at subukang muli. Kung hindi ito malulutas, mangyaring makipag-ugnayan sa pamamagitan ng Mga Setting > Pagtatanong. Detalye: {message}",
   "sixMonthPlan": "6 na buwan na plano",
+  "premiumMonthlyContractPeriod": "Ang panahon ng kontrata para sa buwanang plano ay isang buwan mula sa petsa ng pagbili.",
   "privacyPolicy": "Patakaran sa Privacy",
   "termsOfService": "Mga Tuntunin at Kundisyon",
   "specifiedCommercialTransactionAct": "Talaan ng mga Pahayag batay sa Batas ng Espesyal na Komersyal na Transaksyon",
