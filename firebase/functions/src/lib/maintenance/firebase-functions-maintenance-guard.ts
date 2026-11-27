@@ -9,6 +9,6 @@ import type { MaintenanceState } from "./maintenance-state";
  * 状態を読めなかった時は readMaintenanceState が NOT_IN_MAINTENANCE を返すため、何も投げない
  */
 export async function assertNotInMaintenance(readMaintenanceState: () => Promise<MaintenanceState>): Promise<void> {
-  const state = await readMaintenanceState();
-  if (state.maintenance) throw new HttpsError("unavailable", "The service is under maintenance", { maintenance: state });
+  const maintenanceState = await readMaintenanceState();
+  if (maintenanceState.maintenance) throw new HttpsError("unavailable", "The service is under maintenance", { maintenance: maintenanceState });
 }

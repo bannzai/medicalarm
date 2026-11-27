@@ -43,6 +43,7 @@ class MaintenanceGate extends StatefulWidget {
   /// 状態の取得に使う HTTP のクライアント。テストで差し替える
   final http.Client? client;
 
+  /// 読んだ状態と読み直しのタイマーを持つ State を作る
   @override
   State<MaintenanceGate> createState() => _MaintenanceGateState();
 }
@@ -58,6 +59,7 @@ class _MaintenanceGateState extends State<MaintenanceGate> with WidgetsBindingOb
   /// 始めた読み取りの通し番号。後から始めた読み取りが先に返った時に、古い結果で画面を戻さないために使う
   int _latestReadNumber = 0;
 
+  /// 前面と背面の切り替えの通知を受け始め、前面ならタイマーを動かし、最初の読み取りを始める
   @override
   void initState() {
     super.initState();
@@ -70,6 +72,7 @@ class _MaintenanceGateState extends State<MaintenanceGate> with WidgetsBindingOb
     _read();
   }
 
+  /// 切り替えの通知を受けるのをやめ、タイマーを止める
   @override
   void dispose() {
     WidgetsBinding.instance.removeObserver(this);
@@ -108,6 +111,7 @@ class _MaintenanceGateState extends State<MaintenanceGate> with WidgetsBindingOb
     setState(() => _maintenanceState = maintenanceState);
   }
 
+  /// メンテナンス中は通常の画面を隠してメンテナンス中の画面を重ね、そうでなければ通常の画面を出す
   @override
   Widget build(BuildContext context) {
     return Stack(
@@ -147,6 +151,7 @@ class MaintenanceScreen extends StatelessWidget {
   /// ボタンが押された時に URL を開く処理
   final void Function(Uri url) onOpenURL;
 
+  /// 文と、button があればボタンを画面の中央に並べる
   @override
   Widget build(BuildContext context) {
     final button = this.button;

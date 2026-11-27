@@ -63,6 +63,10 @@ for (const [name, button] of [
   });
 }
 
+test("parseMaintenanceState: source が usage (利用量で切り替わった) の値を読む", () => {
+  assert.equal(parseMaintenanceState({ ...IN_MAINTENANCE_WITH_BUTTON_JSON, source: "usage" })?.source, "usage");
+});
+
 test("parseMaintenanceState: http の url の button は読む", () => {
   assert.deepEqual(parseMaintenanceState({ ...IN_MAINTENANCE_WITH_BUTTON_JSON, button: { label: "開く", url: "http://example.com/" } })?.button, {
     label: "開く",
@@ -205,25 +209,25 @@ test("createMaintenanceReader: shareConcurrentReads が false の時は、同時
 });
 
 test("createMaintenanceReader: まとめない時、先に始めた読み取りが後から失敗で返っても、後から始めた読み取りの結果を覚えたままにする", async () => {
-  const pending: ((response: Response) => void)[] = [];
-  const failures: ((error: Error) => void)[] = [];
+  const resolveResponses: ((response: Response) => void)[] = [];
+  const rejectResponses: ((error: Error) => void)[] = [];
   const read = createMaintenanceReader({
     stateURL: STATE_URL,
     shareConcurrentReads: false,
     fetchImpl: () =>
       new Promise((resolve, reject) => {
-        pending.push(resolve);
-        failures.push(reject);
+        resolveResponses.push(resolve);
+        rejectResponses.push(reject);
       }),
   });
   const first = read();
   const second = read();
-  pending[1](new Response(JSON.stringify(IN_MAINTENANCE_WITH_BUTTON_JSON)));
+  resolveResponses[1](new Response(JSON.stringify(IN_MAINTENANCE_WITH_BUTTON_JSON)));
   assert.equal((await second).maintenance, true);
-  failures[0](new TypeError("fetch failed"));
+  rejectResponses[0](new TypeError("fetch failed"));
   assert.deepEqual(await first, UNREADABLE_FALLBACK);
   assert.equal((await read()).maintenance, true);
-  assert.equal(pending.length, 2);
+  assert.equal(resolveResponses.length, 2);
 });
 
 test("createMaintenanceReader: まとめた読み直しが終わった後、cacheMs が過ぎれば次の読み直しを始める", async () => {
