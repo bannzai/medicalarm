@@ -1566,5 +1566,62 @@ void main() {
 
       expect(groupMemberNotificationSettingsUpdate.calls, isEmpty);
     });
+
+    testWidgets('通知設定の読み出しを待つ間に連携が作り直されたら、待った後の行で照合して今の連携の ID を消さない', (tester) async {
+      // 2 回目以降の読み出しは、テストが値を流すまで終わらないストリームにする
+      final pendingGroupMemberNotificationSettings = StreamController<GroupMemberNotificationSettings?>();
+      addTearDown(pendingGroupMemberNotificationSettings.close);
+      var groupMemberNotificationSettingsReadCount = 0;
+      /// 自分のメンバー個別通知設定のストリームを返す。1 回目 (服薬の記録) はすぐに null を流し、2 回目以降 (戻りを受けた時) は
+      /// pendingGroupMemberNotificationSettings に値を流すまで終わらない
+      Stream<GroupMemberNotificationSettings?> groupMemberNotificationSettings() {
+        groupMemberNotificationSettingsReadCount += 1;
+        return groupMemberNotificationSettingsReadCount == 1 ? Stream.value(null) : pendingGroupMemberNotificationSettings.stream;
+      }
+
+      final scheduleRow = MedicationGroupScheduleRow(
+        id: 'row-1',
+        medicationHistory: null,
+        medicine: buildMedicine().copyWith(schedules: const [focusConnectedMedicationSchedule]),
+        medicationSchedule: focusConnectedMedicationSchedule,
+        quantityMemo: '',
+        date: DateTime.now(),
+      );
+      await pumpScheduleRow(
+        tester,
+        groupMemberNotificationSettings: groupMemberNotificationSettings,
+        scheduleRow: scheduleRow,
+        groupMemberNotificationSettingsUpdate: groupMemberNotificationSettingsUpdate,
+      );
+      await tester.tap(find.byType(Checkbox));
+      await tester.pumpAndSettle();
+      final authCode = Uri.parse(urlLauncherPlatform.launchedURLs.single).queryParameters['authCode'];
+      // 戻りを受けた時の通知設定の読み出しが終わらないよう、読み直させる
+      ProviderScope.containerOf(tester.element(find.byType(MedicineTileScheduleRow))).invalidate(groupMemberNotificationSettingsProvider);
+
+      await openAppLinkAndSettle(
+        tester,
+        'medicalarm:///focus-connect/schedule?connected=false&reason=not-found&authCode=$authCode&focusConnectScheduleID=focus-schedule-1',
+      );
+      // 読み出しを待つ間に、通知設定の画面で連携を作り直した行が届く
+      final reconnectedMedicationSchedule = focusConnectedMedicationSchedule.copyWith(
+        focusConnectSetting: const MedicineScheduleFocusConnectSetting(focusConnectScheduleID: 'focus-schedule-2'),
+      );
+      await pumpScheduleRow(
+        tester,
+        groupMemberNotificationSettings: groupMemberNotificationSettings,
+        scheduleRow: scheduleRow.copyWith(
+          medicine: buildMedicine().copyWith(schedules: [reconnectedMedicationSchedule]),
+          medicationSchedule: reconnectedMedicationSchedule,
+        ),
+        groupMemberNotificationSettingsUpdate: groupMemberNotificationSettingsUpdate,
+      );
+      pendingGroupMemberNotificationSettings.add(null);
+      await tester.runAsync(() => Future<void>.delayed(const Duration(milliseconds: 50)));
+      await tester.pumpAndSettle();
+
+      expect(groupMemberNotificationSettingsReadCount, 2);
+      expect(groupMemberNotificationSettingsUpdate.calls, isEmpty);
+    });
   });
 }
