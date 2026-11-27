@@ -35,7 +35,7 @@ class FocusConnectScheduleReturnKeep extends FocusConnectScheduleReturnAction {
 }
 
 /// [uri] の `connected`・`unlocked`・`reason`・`authCode`・`focusConnectScheduleID` から、連携の ID の扱いを決める。
-/// パラメータ名と値は Focus が返すものに合わせる。[authCode] は Focus を開いた時に渡した値で、一致しない戻りは扱わない。
+/// パラメータ名と値は Focus が返すものに合わせる (https://github.com/bannzai/Focus/issues/1372 で決めた形)。[authCode] は Focus を開いた時に渡した値で、一致しない戻りは扱わない。
 FocusConnectScheduleReturnAction focusConnectScheduleReturnAction({required Uri uri, required String authCode}) {
   final parameters = uri.queryParameters;
   if (uri.path != '/focus-connect/schedule' || parameters['authCode'] != authCode) {

@@ -297,16 +297,16 @@ class MedicineTileScheduleRow extends HookConsumerWidget {
             // await をまたいで ref を触るとウィジェット破棄後アクセスで例外になるため、ref 依存値は await の前に読み出す
             final memberSettingsUpdate = ref.read(groupMemberNotificationSettingsUpdateProvider);
             final currentUserID = ref.read(appUserIDProvider);
-            final row = latestScheduleRow.value;
+            final currentScheduleRow = latestScheduleRow.value;
             try {
               final memberSettings = await readFutureKeepingAliveFromWidget(ref: ref, provider: groupMemberNotificationSettingsProvider.future);
               await memberSettingsUpdate.call(
                 current: memberSettings,
-                medicineID: row.medicine.id,
-                scheduleID: row.medicationSchedule.id,
+                medicineID: currentScheduleRow.medicine.id,
+                scheduleID: currentScheduleRow.medicationSchedule.id,
                 setting: resolveEffectiveNotificationSetting(
-                  medicine: row.medicine,
-                  schedule: row.medicationSchedule,
+                  medicine: currentScheduleRow.medicine,
+                  schedule: currentScheduleRow.medicationSchedule,
                   memberSettings: memberSettings,
                   currentUserID: currentUserID,
                 ).copyWith(focusConnectScheduleID: null),

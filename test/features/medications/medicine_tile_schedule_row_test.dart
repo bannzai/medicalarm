@@ -18,12 +18,11 @@ import 'package:medicalarm/utils/analytics/error.dart';
 import 'package:medicalarm/utils/local_notification/client.dart';
 import 'package:mockito/annotations.dart';
 import 'package:mockito/mockito.dart';
-import 'package:plugin_platform_interface/plugin_platform_interface.dart';
-import 'package:url_launcher_platform_interface/link.dart';
 import 'package:url_launcher_platform_interface/url_launcher_platform_interface.dart';
 
 import 'medicine_tile_schedule_row_test.mocks.dart';
 import '../../support/app_links.dart';
+import '../../support/url_launcher.dart';
 
 // AlarmKit 等の platform channel に触れないよう useAlarmKit はデフォルト(false)のままにする
 const medicationSchedule = MedicationSchedule(
@@ -125,28 +124,25 @@ class _NoopErrorLogger implements ErrorLogger {
   void log(String message) {}
 }
 
-/// 開いた URL を記録し、実際には開かない [UrlLauncherPlatform]。服薬の記録で開く Focus の URL を取り出すために使う
-class _RecordingUrlLauncherPlatform extends UrlLauncherPlatform with MockPlatformInterfaceMixin {
-  /// [launchUrl] に渡された URL。開いた順に並ぶ
-  final launchedURLs = <String>[];
+/// 受けた失敗を記録する [ErrorLogger]。Focus の連携の ID を消す書き込みの失敗が記録されることを確かめるために使う
+class _RecordingErrorLogger implements ErrorLogger {
+  /// [recordError] に渡された例外。記録された順に並ぶ
+  final recordedErrors = <Object?>[];
 
   @override
-  LinkDelegate? get linkDelegate => null;
+  void recordError(dynamic exception, StackTrace? stack) => recordedErrors.add(exception);
 
   @override
-  Future<bool> canLaunch(String url) async => true;
-
-  @override
-  Future<bool> launchUrl(String url, LaunchOptions options) async {
-    launchedURLs.add(url);
-    return true;
-  }
+  void log(String message) {}
 }
 
 /// 書き込まずに呼び出しを記録する [GroupMemberNotificationSettingsUpdate]。Focus の連携の ID を消す書き込みを確かめるために使う
 class _RecordingGroupMemberNotificationSettingsUpdate implements GroupMemberNotificationSettingsUpdate {
   /// [call] に渡された薬の ID・服用スケジュールの ID・設定。呼ばれた順に並ぶ
   final calls = <({String medicineID, String scheduleID, MemberScheduleNotificationSetting setting})>[];
+
+  /// [call] が記録した後に投げる例外。null なら成功する
+  Object? errorToThrow;
 
   @override
   GroupDatabase get database => throw UnimplementedError();
@@ -162,6 +158,10 @@ class _RecordingGroupMemberNotificationSettingsUpdate implements GroupMemberNoti
     required MemberScheduleNotificationSetting setting,
   }) async {
     calls.add((medicineID: medicineID, scheduleID: scheduleID, setting: setting));
+    final errorToThrow = this.errorToThrow;
+    if (errorToThrow != null) {
+      throw errorToThrow;
+    }
   }
 }
 
@@ -1325,12 +1325,12 @@ void main() {
       focusConnectSetting: MedicineScheduleFocusConnectSetting(focusConnectScheduleID: 'focus-schedule-1'),
     );
 
-    late _RecordingUrlLauncherPlatform urlLauncherPlatform;
+    late RecordingUrlLauncherPlatform urlLauncherPlatform;
     late _RecordingGroupMemberNotificationSettingsUpdate groupMemberNotificationSettingsUpdate;
 
     setUp(() {
       final originalUrlLauncherPlatform = UrlLauncherPlatform.instance;
-      urlLauncherPlatform = _RecordingUrlLauncherPlatform();
+      urlLauncherPlatform = RecordingUrlLauncherPlatform();
       UrlLauncherPlatform.instance = urlLauncherPlatform;
       addTearDown(() => UrlLauncherPlatform.instance = originalUrlLauncherPlatform);
       groupMemberNotificationSettingsUpdate = _RecordingGroupMemberNotificationSettingsUpdate();
@@ -1422,6 +1422,30 @@ void main() {
       );
 
       expect(groupMemberNotificationSettingsUpdate.calls, isEmpty);
+    });
+
+    testWidgets('連携が作られた戻り (connected=true) では書き込まない', (tester) async {
+      final authCode = (await takeAndCaptureUnlockURL(tester)).queryParameters['authCode'];
+
+      await openAppLinkAndSettle(tester, 'medicalarm:///focus-connect/schedule?connected=true&authCode=$authCode&focusConnectScheduleID=focus-schedule-2');
+
+      expect(groupMemberNotificationSettingsUpdate.calls, isEmpty);
+    });
+
+    testWidgets('連携の ID を消す書き込みが失敗しても例外を漏らさず、失敗を記録する', (tester) async {
+      final recordingErrorLogger = _RecordingErrorLogger();
+      final originalErrorLogger = errorLogger;
+      errorLogger = recordingErrorLogger;
+      addTearDown(() => errorLogger = originalErrorLogger);
+      groupMemberNotificationSettingsUpdate.errorToThrow = StateError('書き込みの失敗');
+      final authCode = (await takeAndCaptureUnlockURL(tester)).queryParameters['authCode'];
+
+      await openAppLinkAndSettle(
+          tester, 'medicalarm:///focus-connect/schedule?connected=false&reason=not-found&authCode=$authCode&focusConnectScheduleID=focus-schedule-1');
+
+      expect(groupMemberNotificationSettingsUpdate.calls, hasLength(1));
+      expect(recordingErrorLogger.recordedErrors, [isA<StateError>()]);
+      expect(tester.takeException(), isNull);
     });
   });
 }
