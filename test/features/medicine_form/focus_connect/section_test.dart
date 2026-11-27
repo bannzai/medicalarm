@@ -15,6 +15,23 @@ void main() {
       );
     });
 
+    test('connected=true で focusConnectScheduleID が無い: 保存する ID は null', () {
+      expect(
+        focusConnectScheduleReturnAction(uri: Uri.parse('medicalarm:///focus-connect/schedule?connected=true&authCode=$authCode'), authCode: authCode),
+        isA<FocusConnectScheduleReturnSave>().having((save) => save.focusConnectScheduleID, 'focusConnectScheduleID', isNull),
+      );
+    });
+
+    test('connected が無い戻り: connected=true でないので ID を消す (変更前と同じ扱い)', () {
+      expect(
+        focusConnectScheduleReturnAction(
+          uri: Uri.parse('medicalarm:///focus-connect/schedule?authCode=$authCode&focusConnectScheduleID=schedule-1'),
+          authCode: authCode,
+        ),
+        isA<FocusConnectScheduleReturnClear>(),
+      );
+    });
+
     test('connected=true&unlocked=true: 解除の成功なので ID をそのまま保つ', () {
       expect(
         focusConnectScheduleReturnAction(

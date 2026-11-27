@@ -3,7 +3,6 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:medicalarm/entity/medicine.dart';
 import 'package:medicalarm/features/medicine_form/components/schedule/focus_connect/section.dart';
-import 'package:url_launcher_platform_interface/url_launcher_platform_interface.dart';
 
 import '../../../support/app_links.dart';
 import '../../../support/url_launcher.dart';
@@ -18,15 +17,12 @@ void main() {
     focusConnectSetting: null,
   );
 
-  late void Function(String uri) openAppLink;
+  late Future<void> Function(WidgetTester tester, String uri) openAppLinkAndSettle;
   late RecordingUrlLauncherPlatform urlLauncherPlatform;
 
   setUp(() {
-    openAppLink = mockAppLinksEventChannel();
-    final originalUrlLauncherPlatform = UrlLauncherPlatform.instance;
-    urlLauncherPlatform = RecordingUrlLauncherPlatform();
-    UrlLauncherPlatform.instance = urlLauncherPlatform;
-    addTearDown(() => UrlLauncherPlatform.instance = originalUrlLauncherPlatform);
+    openAppLinkAndSettle = mockAppLinksEventChannel();
+    urlLauncherPlatform = useRecordingUrlLauncherPlatform();
   });
 
   /// 通知設定の画面の Focus Connect の項目を描き、タップして Focus を開いた URL から authCode を返す。
@@ -46,14 +42,6 @@ void main() {
     return Uri.parse(urlLauncherPlatform.launchedURLs.single).queryParameters['authCode'];
   }
 
-  /// アプリが [uri] で開かれた時と同じく戻りを届け、画面の処理を終えるまで進める。
-  /// EventChannel のメッセージは fake async の pump だけでは届かないため、実時間を少し進める
-  Future<void> openAppLinkAndSettle(WidgetTester tester, String uri) async {
-    openAppLink(uri);
-    // 届くまでに要るのはイベントループの数回分で、余裕を見て 50ms 待つ
-    await tester.runAsync(() => Future<void>.delayed(const Duration(milliseconds: 50)));
-    await tester.pumpAndSettle();
-  }
 
   testWidgets('連携が作られた戻り (connected=true) で、返った ID を入れる', (tester) async {
     final focusConnectScheduleID = ValueNotifier<String?>(null);

@@ -55,7 +55,7 @@ FocusConnectScheduleReturnAction focusConnectScheduleReturnAction({required Uri 
   return const FocusConnectScheduleReturnClear();
 }
 
-/// 服薬を記録した時に Focus の制限を解除する URL。[authCode] は戻りをこの記録の分だけ受け取るために渡す。
+/// 服薬を記録した時に Focus の制限を解除する URL。[authCode] は服薬の一覧の行ごとに作った値で、その行が開いた解除の戻りだけを受け取るために渡す。
 Uri focusConnectScheduleUnlockURL({required String focusConnectScheduleID, required String authCode}) {
   return Uri.parse(
     'focus-connect://schedule/unlock?focusConnectScheduleID=$focusConnectScheduleID&focusConnectAppID=$focusConnectAppID&authCode=$authCode',
