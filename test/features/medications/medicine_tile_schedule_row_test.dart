@@ -10,6 +10,7 @@ import 'package:medicalarm/entity/medication_history.dart';
 import 'package:medicalarm/entity/medicine.dart';
 import 'package:medicalarm/features/medications/entity/grouped.dart';
 import 'package:medicalarm/features/medications/page.dart';
+import 'package:medicalarm/features/resolver/database.dart';
 import 'package:medicalarm/provider/app_user.dart';
 import 'package:medicalarm/provider/group_member_notification_settings.dart';
 import 'package:medicalarm/provider/medication_history.dart';
@@ -19,6 +20,8 @@ import 'package:mockito/annotations.dart';
 import 'package:mockito/mockito.dart';
 
 import 'medicine_tile_schedule_row_test.mocks.dart';
+import '../../support/app_links.dart';
+import '../../support/url_launcher.dart';
 
 // AlarmKit 等の platform channel に触れないよう useAlarmKit はデフォルト(false)のままにする
 const medicationSchedule = MedicationSchedule(
@@ -120,6 +123,52 @@ class _NoopErrorLogger implements ErrorLogger {
   void log(String message) {}
 }
 
+/// 受けた失敗を記録する [ErrorLogger]。Focus の連携の ID を消す書き込みの失敗が記録されることを確かめるために使う
+class _RecordingErrorLogger implements ErrorLogger {
+  /// [recordError] に渡された例外。記録された順に並ぶ
+  final recordedErrors = <Object?>[];
+
+  @override
+  void recordError(dynamic exception, StackTrace? stack) => recordedErrors.add(exception);
+
+  @override
+  void log(String message) {}
+}
+
+/// 書き込まずに呼び出しを記録する [GroupMemberNotificationSettingsUpdate]。Focus の連携の ID を消す書き込みを確かめるために使う
+class _RecordingGroupMemberNotificationSettingsUpdate implements GroupMemberNotificationSettingsUpdate {
+  /// [call] に渡された書き込み前の個別通知設定・薬の ID・服用スケジュールの ID・設定。呼ばれた順に並ぶ
+  final calls = <({
+    GroupMemberNotificationSettings? current,
+    String medicineID,
+    String scheduleID,
+    MemberScheduleNotificationSetting setting,
+  })>[];
+
+  /// [call] が記録した後に投げる例外。null なら成功する
+  Object? errorToThrow;
+
+  @override
+  GroupDatabase get database => throw UnimplementedError();
+
+  @override
+  String get userID => 'user-a';
+
+  @override
+  Future<void> call({
+    required GroupMemberNotificationSettings? current,
+    required String medicineID,
+    required String scheduleID,
+    required MemberScheduleNotificationSetting setting,
+  }) async {
+    calls.add((current: current, medicineID: medicineID, scheduleID: scheduleID, setting: setting));
+    final errorToThrow = this.errorToThrow;
+    if (errorToThrow != null) {
+      throw errorToThrow;
+    }
+  }
+}
+
 @GenerateNiceMocks([
   MockSpec<MedicationHistoryTake>(),
   MockSpec<MedicationHistoryRevert>(),
@@ -131,8 +180,10 @@ void main() {
   late MockMedicationHistoryRevert medicationHistoryRevert;
   late MockRecentMedicationHistoriesFetch recentMedicationHistoriesFetch;
   late MockRegisterReminderLocalNotification registerReminderLocalNotification;
+  late Future<void> Function(WidgetTester tester, String uri) openAppLinkAndSettle;
 
   setUp(() {
+    openAppLinkAndSettle = mockAppLinksEventChannel();
     medicationHistoryTake = MockMedicationHistoryTake();
     medicationHistoryRevert = MockMedicationHistoryRevert();
     recentMedicationHistoriesFetch = MockRecentMedicationHistoriesFetch();
@@ -160,6 +211,7 @@ void main() {
     WidgetTester tester, {
     required MedicationGroupScheduleRow scheduleRow,
     Stream<GroupMemberNotificationSettings?> Function()? groupMemberNotificationSettings,
+    GroupMemberNotificationSettingsUpdate? groupMemberNotificationSettingsUpdate,
   }) async {
     await tester.pumpWidget(
       ProviderScope(
@@ -173,6 +225,8 @@ void main() {
           medicationHistoryRevertProvider.overrideWith((ref) => medicationHistoryRevert),
           recentMedicationHistoriesFetchProvider.overrideWith((ref) => recentMedicationHistoriesFetch),
           registerReminderLocalNotificationProvider.overrideWith((ref) => registerReminderLocalNotification),
+          if (groupMemberNotificationSettingsUpdate != null)
+            groupMemberNotificationSettingsUpdateProvider.overrideWith((ref) => groupMemberNotificationSettingsUpdate),
         ],
         child: MaterialApp(
           home: Scaffold(
@@ -1261,6 +1315,313 @@ void main() {
       expect(tester.widget<Checkbox>(find.byType(Checkbox)).value, false);
       verifyTakeNeverCalled();
       expect(find.text('服用間隔が空いていません'), findsNothing);
+    });
+  });
+
+  group('MedicineTileScheduleRow の Focus Connect の解除の戻り', () {
+    // 作成者 (user-a) が Focus と連携した服用スケジュール。個別設定が無いので、テンプレートの連携の ID が有効設定になる
+    const focusConnectedMedicationSchedule = MedicationSchedule(
+      id: 'schedule-1',
+      hour: 9,
+      minute: 0,
+      quantityMemo: '',
+      notificationSetting: MedicineScheduleNotificationSetting(isReminderEnabled: true, isFollowupEnabled: false, useCriticalAlert: false),
+      focusConnectSetting: MedicineScheduleFocusConnectSetting(focusConnectScheduleID: 'focus-schedule-1'),
+    );
+
+    late RecordingUrlLauncherPlatform urlLauncherPlatform;
+    late _RecordingGroupMemberNotificationSettingsUpdate groupMemberNotificationSettingsUpdate;
+
+    setUp(() {
+      urlLauncherPlatform = useRecordingUrlLauncherPlatform();
+      groupMemberNotificationSettingsUpdate = _RecordingGroupMemberNotificationSettingsUpdate();
+    });
+
+
+    /// 連携した服用スケジュールの行で服薬を記録し、開いた解除の URL を返す
+    /// [groupMemberNotificationSettings] は自分のメンバー個別通知設定で、null は未作成
+    Future<Uri> takeAndCaptureUnlockURL(WidgetTester tester, {GroupMemberNotificationSettings? groupMemberNotificationSettings}) async {
+      await pumpScheduleRow(
+        tester,
+        groupMemberNotificationSettings: () => Stream.value(groupMemberNotificationSettings),
+        scheduleRow: MedicationGroupScheduleRow(
+          id: 'row-1',
+          medicationHistory: null,
+          medicine: buildMedicine().copyWith(schedules: const [focusConnectedMedicationSchedule]),
+          medicationSchedule: focusConnectedMedicationSchedule,
+          quantityMemo: '',
+          date: DateTime.now(),
+        ),
+        groupMemberNotificationSettingsUpdate: groupMemberNotificationSettingsUpdate,
+      );
+      await tester.tap(find.byType(Checkbox));
+      await tester.pumpAndSettle();
+      return Uri.parse(urlLauncherPlatform.launchedURLs.single);
+    }
+
+    testWidgets('服薬の記録で開く解除の URL に authCode が付く', (tester) async {
+      final unlockURL = await takeAndCaptureUnlockURL(tester);
+
+      expect(unlockURL.host, 'schedule');
+      expect(unlockURL.path, '/unlock');
+      expect(unlockURL.queryParameters['focusConnectScheduleID'], 'focus-schedule-1');
+      expect(unlockURL.queryParameters['authCode'], isNotEmpty);
+    });
+
+    testWidgets('reason=not-found の戻りを受けると、その服用スケジュールの連携の ID を消した設定を書き込む', (tester) async {
+      final authCode = (await takeAndCaptureUnlockURL(tester)).queryParameters['authCode'];
+
+      await openAppLinkAndSettle(
+        tester,
+        'medicalarm:///focus-connect/schedule?connected=false&reason=not-found&authCode=$authCode&focusConnectScheduleID=focus-schedule-1',
+      );
+
+      final call = groupMemberNotificationSettingsUpdate.calls.single;
+      expect(call.medicineID, 'medicine-1');
+      expect(call.scheduleID, 'schedule-1');
+      expect(call.setting.focusConnectScheduleID, isNull);
+      // 連携の ID 以外の通知設定は有効設定のまま引き継ぐ
+      expect(call.setting.isReminderEnabled, true);
+      expect(call.setting.isFollowupEnabled, false);
+    });
+
+    testWidgets('authCode が一致しない reason=not-found の戻りでは書き込まない', (tester) async {
+      await takeAndCaptureUnlockURL(tester);
+
+      await openAppLinkAndSettle(
+        tester,
+        'medicalarm:///focus-connect/schedule?connected=false&reason=not-found&authCode=other&focusConnectScheduleID=focus-schedule-1',
+      );
+
+      expect(groupMemberNotificationSettingsUpdate.calls, isEmpty);
+    });
+
+    testWidgets('解除が成功した戻り (connected=true&unlocked=true) では書き込まない', (tester) async {
+      final authCode = (await takeAndCaptureUnlockURL(tester)).queryParameters['authCode'];
+
+      await openAppLinkAndSettle(
+        tester,
+        'medicalarm:///focus-connect/schedule?connected=true&unlocked=true&authCode=$authCode&focusConnectScheduleID=focus-schedule-1',
+      );
+
+      expect(groupMemberNotificationSettingsUpdate.calls, isEmpty);
+    });
+
+    testWidgets('行を閉じた後に届いた戻りでは書き込まない (購読を解除している)', (tester) async {
+      final authCode = (await takeAndCaptureUnlockURL(tester)).queryParameters['authCode'];
+
+      await tester.pumpWidget(const SizedBox());
+      await openAppLinkAndSettle(
+        tester,
+        'medicalarm:///focus-connect/schedule?connected=false&reason=not-found&authCode=$authCode&focusConnectScheduleID=focus-schedule-1',
+      );
+
+      expect(groupMemberNotificationSettingsUpdate.calls, isEmpty);
+    });
+
+    testWidgets('連携が作られた戻り (connected=true) では書き込まない', (tester) async {
+      final authCode = (await takeAndCaptureUnlockURL(tester)).queryParameters['authCode'];
+
+      await openAppLinkAndSettle(tester, 'medicalarm:///focus-connect/schedule?connected=true&authCode=$authCode&focusConnectScheduleID=focus-schedule-2');
+
+      expect(groupMemberNotificationSettingsUpdate.calls, isEmpty);
+    });
+
+    testWidgets('連携の ID を消す書き込みが失敗しても例外を漏らさず、失敗を記録する', (tester) async {
+      final recordingErrorLogger = _RecordingErrorLogger();
+      final originalErrorLogger = errorLogger;
+      errorLogger = recordingErrorLogger;
+      addTearDown(() => errorLogger = originalErrorLogger);
+      groupMemberNotificationSettingsUpdate.errorToThrow = StateError('書き込みの失敗');
+      final authCode = (await takeAndCaptureUnlockURL(tester)).queryParameters['authCode'];
+
+      await openAppLinkAndSettle(
+          tester, 'medicalarm:///focus-connect/schedule?connected=false&reason=not-found&authCode=$authCode&focusConnectScheduleID=focus-schedule-1');
+
+      expect(groupMemberNotificationSettingsUpdate.calls, hasLength(1));
+      expect(recordingErrorLogger.recordedErrors, [isA<StateError>()]);
+      expect(tester.takeException(), isNull);
+    });
+
+    testWidgets('個別通知設定があるメンバーは、その設定を書き込み前の値として渡し、連携の ID だけを消した個別の値を書き込む', (tester) async {
+      // テンプレート (focusConnectedMedicationSchedule) と違う値を持つ、自分の個別通知設定
+      const memberScheduleNotificationSetting = MemberScheduleNotificationSetting(
+        isReminderEnabled: false,
+        isFollowupEnabled: true,
+        useCriticalAlert: true,
+        criticalAlertVolume: 0.3,
+        useAlarmKit: false,
+        focusConnectScheduleID: 'focus-schedule-member',
+      );
+      const groupMemberNotificationSettings = GroupMemberNotificationSettings(
+        id: 'user-a',
+        groupID: 'group-1',
+        userID: 'user-a',
+        settings: {
+          'medicine-1': {'schedule-1': memberScheduleNotificationSetting},
+        },
+      );
+      final unlockURL = await takeAndCaptureUnlockURL(tester, groupMemberNotificationSettings: groupMemberNotificationSettings);
+      // 解除の URL も、テンプレートではなく個別通知設定の連携の ID で開く
+      expect(unlockURL.queryParameters['focusConnectScheduleID'], 'focus-schedule-member');
+
+      await openAppLinkAndSettle(
+        tester,
+        'medicalarm:///focus-connect/schedule?connected=false&reason=not-found&authCode=${unlockURL.queryParameters['authCode']}&focusConnectScheduleID=focus-schedule-member',
+      );
+
+      final call = groupMemberNotificationSettingsUpdate.calls.single;
+      expect(call.current, groupMemberNotificationSettings);
+      expect(call.setting, memberScheduleNotificationSetting.copyWith(focusConnectScheduleID: null));
+    });
+
+    testWidgets('服薬の記録の後に行が更新されたら、戻りを受けた時点の行の有効設定から連携の ID を消す', (tester) async {
+      final authCode = (await takeAndCaptureUnlockURL(tester)).queryParameters['authCode'];
+      // 記録の後に、他のメンバーがテンプレートのフォローアップ通知を有効にした行が届く
+      final updatedMedicationSchedule = focusConnectedMedicationSchedule.copyWith(
+        notificationSetting: focusConnectedMedicationSchedule.notificationSetting.copyWith(isFollowupEnabled: true),
+      );
+      await pumpScheduleRow(
+        tester,
+        groupMemberNotificationSettings: () => Stream.value(null),
+        scheduleRow: MedicationGroupScheduleRow(
+          id: 'row-1',
+          medicationHistory: null,
+          medicine: buildMedicine().copyWith(schedules: [updatedMedicationSchedule]),
+          medicationSchedule: updatedMedicationSchedule,
+          quantityMemo: '',
+          date: DateTime.now(),
+        ),
+        groupMemberNotificationSettingsUpdate: groupMemberNotificationSettingsUpdate,
+      );
+
+      await openAppLinkAndSettle(
+        tester,
+        'medicalarm:///focus-connect/schedule?connected=false&reason=not-found&authCode=$authCode&focusConnectScheduleID=focus-schedule-1',
+      );
+
+      final call = groupMemberNotificationSettingsUpdate.calls.single;
+      expect(call.setting.isFollowupEnabled, true);
+      expect(call.setting.focusConnectScheduleID, isNull);
+    });
+
+    testWidgets('行が再ビルドされた後に服薬を記録しても、開いた URL の authCode の戻りを受け取る', (tester) async {
+      final scheduleRow = MedicationGroupScheduleRow(
+        id: 'row-1',
+        medicationHistory: null,
+        medicine: buildMedicine().copyWith(schedules: const [focusConnectedMedicationSchedule]),
+        medicationSchedule: focusConnectedMedicationSchedule,
+        quantityMemo: '',
+        date: DateTime.now(),
+      );
+      await pumpScheduleRow(
+        tester,
+        groupMemberNotificationSettings: () => Stream.value(null),
+        scheduleRow: scheduleRow,
+        groupMemberNotificationSettingsUpdate: groupMemberNotificationSettingsUpdate,
+      );
+      // 服薬を記録する前に、行が別の値で再ビルドされる (他のメンバーの更新が届いた時と同じ)
+      await pumpScheduleRow(
+        tester,
+        groupMemberNotificationSettings: () => Stream.value(null),
+        scheduleRow: scheduleRow.copyWith(quantityMemo: '1 錠'),
+        groupMemberNotificationSettingsUpdate: groupMemberNotificationSettingsUpdate,
+      );
+      await tester.tap(find.byType(Checkbox));
+      await tester.pumpAndSettle();
+      final authCode = Uri.parse(urlLauncherPlatform.launchedURLs.single).queryParameters['authCode'];
+
+      await openAppLinkAndSettle(
+        tester,
+        'medicalarm:///focus-connect/schedule?connected=false&reason=not-found&authCode=$authCode&focusConnectScheduleID=focus-schedule-1',
+      );
+
+      expect(groupMemberNotificationSettingsUpdate.calls.single.setting.focusConnectScheduleID, isNull);
+    });
+
+    testWidgets('戻りを待つ間に連携が別の ID に作り直されていたら、reason=not-found の戻りでも今の連携の ID を消さない', (tester) async {
+      final authCode = (await takeAndCaptureUnlockURL(tester)).queryParameters['authCode'];
+      // 解除を頼んだ後に、通知設定の画面で連携を作り直した行が届く
+      final reconnectedMedicationSchedule = focusConnectedMedicationSchedule.copyWith(
+        focusConnectSetting: const MedicineScheduleFocusConnectSetting(focusConnectScheduleID: 'focus-schedule-2'),
+      );
+      await pumpScheduleRow(
+        tester,
+        groupMemberNotificationSettings: () => Stream.value(null),
+        scheduleRow: MedicationGroupScheduleRow(
+          id: 'row-1',
+          medicationHistory: null,
+          medicine: buildMedicine().copyWith(schedules: [reconnectedMedicationSchedule]),
+          medicationSchedule: reconnectedMedicationSchedule,
+          quantityMemo: '',
+          date: DateTime.now(),
+        ),
+        groupMemberNotificationSettingsUpdate: groupMemberNotificationSettingsUpdate,
+      );
+
+      await openAppLinkAndSettle(
+        tester,
+        'medicalarm:///focus-connect/schedule?connected=false&reason=not-found&authCode=$authCode&focusConnectScheduleID=focus-schedule-1',
+      );
+
+      expect(groupMemberNotificationSettingsUpdate.calls, isEmpty);
+    });
+
+    testWidgets('通知設定の読み出しを待つ間に連携が作り直されたら、待った後の行で照合して今の連携の ID を消さない', (tester) async {
+      // 2 回目以降の読み出しは、テストが値を流すまで終わらないストリームにする
+      final pendingGroupMemberNotificationSettings = StreamController<GroupMemberNotificationSettings?>();
+      addTearDown(pendingGroupMemberNotificationSettings.close);
+      var groupMemberNotificationSettingsReadCount = 0;
+      /// 自分のメンバー個別通知設定のストリームを返す。1 回目 (服薬の記録) はすぐに null を流し、2 回目以降 (戻りを受けた時) は
+      /// pendingGroupMemberNotificationSettings に値を流すまで終わらない
+      Stream<GroupMemberNotificationSettings?> groupMemberNotificationSettings() {
+        groupMemberNotificationSettingsReadCount += 1;
+        return groupMemberNotificationSettingsReadCount == 1 ? Stream.value(null) : pendingGroupMemberNotificationSettings.stream;
+      }
+
+      final scheduleRow = MedicationGroupScheduleRow(
+        id: 'row-1',
+        medicationHistory: null,
+        medicine: buildMedicine().copyWith(schedules: const [focusConnectedMedicationSchedule]),
+        medicationSchedule: focusConnectedMedicationSchedule,
+        quantityMemo: '',
+        date: DateTime.now(),
+      );
+      await pumpScheduleRow(
+        tester,
+        groupMemberNotificationSettings: groupMemberNotificationSettings,
+        scheduleRow: scheduleRow,
+        groupMemberNotificationSettingsUpdate: groupMemberNotificationSettingsUpdate,
+      );
+      await tester.tap(find.byType(Checkbox));
+      await tester.pumpAndSettle();
+      final authCode = Uri.parse(urlLauncherPlatform.launchedURLs.single).queryParameters['authCode'];
+      // 戻りを受けた時の通知設定の読み出しが終わらないよう、読み直させる
+      ProviderScope.containerOf(tester.element(find.byType(MedicineTileScheduleRow))).invalidate(groupMemberNotificationSettingsProvider);
+
+      await openAppLinkAndSettle(
+        tester,
+        'medicalarm:///focus-connect/schedule?connected=false&reason=not-found&authCode=$authCode&focusConnectScheduleID=focus-schedule-1',
+      );
+      // 読み出しを待つ間に、通知設定の画面で連携を作り直した行が届く
+      final reconnectedMedicationSchedule = focusConnectedMedicationSchedule.copyWith(
+        focusConnectSetting: const MedicineScheduleFocusConnectSetting(focusConnectScheduleID: 'focus-schedule-2'),
+      );
+      await pumpScheduleRow(
+        tester,
+        groupMemberNotificationSettings: groupMemberNotificationSettings,
+        scheduleRow: scheduleRow.copyWith(
+          medicine: buildMedicine().copyWith(schedules: [reconnectedMedicationSchedule]),
+          medicationSchedule: reconnectedMedicationSchedule,
+        ),
+        groupMemberNotificationSettingsUpdate: groupMemberNotificationSettingsUpdate,
+      );
+      pendingGroupMemberNotificationSettings.add(null);
+      await tester.runAsync(() => Future<void>.delayed(const Duration(milliseconds: 50)));
+      await tester.pumpAndSettle();
+
+      expect(groupMemberNotificationSettingsReadCount, 2);
+      expect(groupMemberNotificationSettingsUpdate.calls, isEmpty);
     });
   });
 }

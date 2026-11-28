@@ -33,6 +33,7 @@ import 'package:medicalarm/utils/date_time/date_time_ext.dart';
 import 'package:medicalarm/utils/local_notification/client.dart';
 import 'package:medicalarm/utils/purchase/purchase.dart';
 import 'package:purchases_flutter/purchases_flutter.dart';
+import '../support/app_links.dart';
 
 /// 画面が描く日付の基準。基準画像が実行日で変わらないように固定する。
 /// 週カレンダーが月をまたがず、月カレンダーの週の行が埋まる日付として 2026-01-15 (木) を使う
@@ -74,6 +75,7 @@ void main() {
   // 週カレンダーのデータソースが最初の参照で today() を読むトップレベルの final のため、どのテストよりも先に固定する
   fixedNowForTesting = _fixedNow;
   setUpAll(_loadFonts);
+  setUp(mockAppLinksEventChannel);
 
   for (final locale in const [Locale('ja'), Locale('en')]) {
     _snapshotTest(name: 'medications', locale: locale, screen: () => const MedicationsPage());
