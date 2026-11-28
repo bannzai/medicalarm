@@ -347,3 +347,22 @@ test("fetchMaintenanceState: 応答を読み終えた後に timeoutMs が過ぎ�
   assert.equal(signals.length, 1);
   assert.equal(signals[0].aborted, false);
 });
+
+test("fetchMaintenanceState: 200 以外の応答は、読まない本文を取り消して、メンテナンス中でない状態を返す", async () => {
+  let cancelled = false;
+  assert.deepEqual(
+    await fetchMaintenanceState(STATE_URL, {
+      fetchImpl: async () =>
+        new Response(
+          new ReadableStream({
+            cancel() {
+              cancelled = true;
+            },
+          }),
+          { status: 503 },
+        ),
+    }),
+    UNREADABLE_FALLBACK,
+  );
+  assert.equal(cancelled, true);
+});

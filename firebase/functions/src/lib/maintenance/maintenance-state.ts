@@ -89,7 +89,11 @@ export async function fetchMaintenanceState(stateURL: string, options: Maintenan
     // options.fetchImpl が無い時は fetch をそのまま呼ぶ (fetch を変数に取り出して別の this で呼ぶと、Cloudflare Workers では Illegal invocation になる)
     const init = { signal: controller.signal };
     const response = await (options.fetchImpl === undefined ? fetch(stateURL, init) : options.fetchImpl(stateURL, init));
-    if (!response.ok) return NOT_IN_MAINTENANCE;
+    if (!response.ok) {
+      // 読まない本文を取り消す。取り消さないと、本文が届かない応答の接続が待つ上限の後も残る
+      await response.body?.cancel();
+      return NOT_IN_MAINTENANCE;
+    }
     return parseMaintenanceState(await response.json()) ?? NOT_IN_MAINTENANCE;
   } catch {
     return NOT_IN_MAINTENANCE;

@@ -375,6 +375,8 @@ void main() {
         {'label': '開く', 'url': 'ftp://example.com/'},
         // スキームは https で、authority だけが無い
         {'label': '開く', 'url': 'https:news'},
+        // authority はあるが host が空
+        {'label': '開く', 'url': 'https://'},
         // URL として解析できない (Uri.tryParse が null を返す)
         {'label': '開く', 'url': 'http://[::1'},
         {'label': '開く'},
