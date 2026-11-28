@@ -62,12 +62,14 @@ class UnansweredClient extends http.BaseClient {
   /// close が呼ばれたら true
   bool closed = false;
 
+  /// 読まれた URL を残し、応答を返さない (状態を返す Worker が応答しない時の代わり)
   @override
   Future<http.StreamedResponse> send(http.BaseRequest request) {
     requestedURLs.add(request.url);
     return Completer<http.StreamedResponse>().future;
   }
 
+  /// 閉じられたことを残す
   @override
   void close() => closed = true;
 }
@@ -198,12 +200,12 @@ void main() {
     expect(find.text('本来の画面'), findsOneWidget);
 
     switchableClient.body = inMaintenanceWithButton;
-    for (final state in [AppLifecycleState.inactive, AppLifecycleState.hidden, AppLifecycleState.paused]) {
-      tester.binding.handleAppLifecycleStateChanged(state);
+    for (final appLifecycleState in [AppLifecycleState.inactive, AppLifecycleState.hidden, AppLifecycleState.paused]) {
+      tester.binding.handleAppLifecycleStateChanged(appLifecycleState);
     }
     await tester.pump(const Duration(hours: 1));
-    for (final state in [AppLifecycleState.hidden, AppLifecycleState.inactive, AppLifecycleState.resumed]) {
-      tester.binding.handleAppLifecycleStateChanged(state);
+    for (final appLifecycleState in [AppLifecycleState.hidden, AppLifecycleState.inactive, AppLifecycleState.resumed]) {
+      tester.binding.handleAppLifecycleStateChanged(appLifecycleState);
     }
     await tester.pump(const Duration(hours: 1));
     await tester.pumpAndSettle();
@@ -287,38 +289,60 @@ void main() {
     });
   });
 
+  testWidgets('client を渡さない時は、package:http の既定のクライアントで stateURL を読み、メンテナンス中の画面を出す', (tester) async {
+    final requestedURLs = <Uri>[];
+    await http.runWithClient(
+      () async {
+        await tester.pumpWidget(
+          MaterialApp(
+            builder: (context, child) => MaintenanceResolver(stateURL: stateURL, defaultMessage: 'ただいまメンテナンス中です', onOpenURL: (_) {}, child: child!),
+            home: const Scaffold(body: Text('本来の画面')),
+          ),
+        );
+        await tester.pumpAndSettle();
+      },
+      () => MockClient((request) async {
+        requestedURLs.add(request.url);
+        return http.Response.bytes(utf8.encode(jsonEncode(inMaintenanceWithButton)), 200);
+      }),
+    );
+    expect(requestedURLs, [stateURL]);
+    expect(find.text('復旧までお待ちください'), findsOneWidget);
+    expect(find.text('本来の画面', skipOffstage: false), findsNothing);
+  });
+
   group('fetchMaintenanceState', () {
     test('client を渡さずに時間切れになった時は、自分で作った client を閉じて、メンテナンス中でない状態を返す', () async {
       final unansweredClient = UnansweredClient();
-      final state = await http.runWithClient(
+      final maintenanceState = await http.runWithClient(
         () => fetchMaintenanceState(stateURL, timeout: const Duration(milliseconds: 10)),
         () => unansweredClient,
       );
 
       expect(unansweredClient.requestedURLs, [stateURL]);
       expect(unansweredClient.closed, true);
-      expect(state.maintenance, false);
+      expect(maintenanceState.maintenance, false);
     });
 
     test('client を渡された時は、時間切れになってもその client を閉じない (渡した側が使い続けるため)', () async {
       final unansweredClient = UnansweredClient();
-      final state = await fetchMaintenanceState(stateURL, client: unansweredClient, timeout: const Duration(milliseconds: 10));
+      final maintenanceState = await fetchMaintenanceState(stateURL, client: unansweredClient, timeout: const Duration(milliseconds: 10));
 
       expect(unansweredClient.requestedURLs, [stateURL]);
       expect(unansweredClient.closed, false);
-      expect(state.maintenance, false);
+      expect(maintenanceState.maintenance, false);
     });
   });
 
   group('MaintenanceState.tryParse', () {
     test('5 つの項目がそろった値を読む', () {
-      final state = MaintenanceState.tryParse(inMaintenanceWithButton)!;
-      expect(state.maintenance, true);
-      expect(state.message, '復旧までお待ちください');
-      expect(state.button!.label, 'お知らせを見る');
-      expect(state.button!.url, Uri.parse('https://example.com/news'));
-      expect(state.source, 'owner');
-      expect(state.changedAt, '2026-11-25T07:00:00.000Z');
+      final maintenanceState = MaintenanceState.tryParse(inMaintenanceWithButton)!;
+      expect(maintenanceState.maintenance, true);
+      expect(maintenanceState.message, '復旧までお待ちください');
+      expect(maintenanceState.button!.label, 'お知らせを見る');
+      expect(maintenanceState.button!.url, Uri.parse('https://example.com/news'));
+      expect(maintenanceState.source, 'owner');
+      expect(maintenanceState.changedAt, '2026-11-25T07:00:00.000Z');
     });
 
     test('maintenance・source・changedAt の形が違う値は null を返す', () {
@@ -330,16 +354,16 @@ void main() {
     });
 
     test('source が usage の値をメンテナンス中として読む', () {
-      final state = MaintenanceState.tryParse({...inMaintenanceWithButton, 'source': 'usage'})!;
-      expect(state.maintenance, true);
-      expect(state.source, 'usage');
+      final maintenanceState = MaintenanceState.tryParse({...inMaintenanceWithButton, 'source': 'usage'})!;
+      expect(maintenanceState.maintenance, true);
+      expect(maintenanceState.source, 'usage');
     });
 
     test('空文字と文字列でない message は、メンテナンス中のまま message だけ null にする', () {
       for (final message in ['', 503]) {
-        final state = MaintenanceState.tryParse({...inMaintenanceWithButton, 'message': message})!;
-        expect(state.maintenance, true, reason: '$message');
-        expect(state.message, isNull, reason: '$message');
+        final maintenanceState = MaintenanceState.tryParse({...inMaintenanceWithButton, 'message': message})!;
+        expect(maintenanceState.maintenance, true, reason: '$message');
+        expect(maintenanceState.message, isNull, reason: '$message');
       }
     });
 
@@ -351,15 +375,17 @@ void main() {
         {'label': '開く', 'url': 'ftp://example.com/'},
         // スキームは https で、authority だけが無い
         {'label': '開く', 'url': 'https:news'},
+        // URL として解析できない (Uri.tryParse が null を返す)
+        {'label': '開く', 'url': 'http://[::1'},
         {'label': '開く'},
         {'label': '開く', 'url': 1},
         {'label': '', 'url': 'https://example.com/news'},
         {'url': 'https://example.com/news'},
         'https://example.com/news',
       ]) {
-        final state = MaintenanceState.tryParse({...inMaintenanceWithButton, 'button': button})!;
-        expect(state.maintenance, true, reason: '$button');
-        expect(state.button, isNull, reason: '$button');
+        final maintenanceState = MaintenanceState.tryParse({...inMaintenanceWithButton, 'button': button})!;
+        expect(maintenanceState.maintenance, true, reason: '$button');
+        expect(maintenanceState.button, isNull, reason: '$button');
       }
     });
 

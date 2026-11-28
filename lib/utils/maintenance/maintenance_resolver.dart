@@ -34,6 +34,7 @@ class MaintenanceResolver extends StatefulWidget {
   /// 状態の取得に使う HTTP のクライアント。テストで差し替える
   final http.Client? client;
 
+  /// 起動時に読んだ状態を持つ State を作る
   @override
   State<MaintenanceResolver> createState() => _MaintenanceResolverState();
 }
@@ -43,6 +44,7 @@ class _MaintenanceResolverState extends State<MaintenanceResolver> {
   /// 起動時に読んだ状態。読み終わるまでは null (読めなかった時はメンテナンス中でない状態が入る)
   MaintenanceState? _maintenanceState;
 
+  /// 状態の読み取りを 1 回だけ始める
   @override
   void initState() {
     super.initState();
@@ -56,6 +58,7 @@ class _MaintenanceResolverState extends State<MaintenanceResolver> {
     setState(() => _maintenanceState = maintenanceState);
   }
 
+  /// 読み終わるまではアプリの背景の色だけ、メンテナンス中はメンテナンス中の画面だけ、それ以外は本来の画面を出す
   @override
   Widget build(BuildContext context) {
     final maintenanceState = _maintenanceState;
@@ -86,6 +89,7 @@ class MaintenanceScreen extends StatelessWidget {
   /// ボタンが押された時に URL を開く処理
   final void Function(Uri url) onOpenURL;
 
+  /// 文と、button があればボタンを画面の中央に並べる
   @override
   Widget build(BuildContext context) {
     final button = this.button;
