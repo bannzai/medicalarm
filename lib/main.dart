@@ -20,7 +20,7 @@ import 'package:medicalarm/utils/config/remote_config.dart';
 import 'package:medicalarm/utils/firebase/app_check.dart';
 import 'package:medicalarm/utils/launch/launch_stage.dart';
 import 'package:medicalarm/utils/local_notification/client.dart';
-import 'package:medicalarm/utils/maintenance/maintenance_gate.dart';
+import 'package:medicalarm/utils/maintenance/maintenance_resolver.dart';
 import 'package:medicalarm/utils/purchase/purchase.dart';
 import 'package:medicalarm/utils/push_notification/fcm_notification.dart';
 import 'package:purchases_flutter/purchases_flutter.dart';
@@ -284,7 +284,7 @@ class App extends StatelessWidget {
       home: const RootPage(),
       // メンテナンス中は通常の画面の代わりにメンテナンス中の画面を出す。
       // L は RootPage の AppLocalizationResolver が設定するため、その外側のここでは AppLocalizations.of で端末の言語の文を引く
-      builder: (context, child) => MaintenanceGate(
+      builder: (context, child) => MaintenanceResolver(
         stateURL: Uri.parse(Environment.maintenanceStateURL),
         defaultMessage: AppLocalizations.of(context)!.maintenanceDefaultMessage,
         onOpenURL: (url) => launchUrl(url, mode: LaunchMode.externalApplication),

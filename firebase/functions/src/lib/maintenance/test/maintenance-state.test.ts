@@ -264,3 +264,86 @@ test("createMaintenanceReader: 読めなかった結果も cacheMs の間覚え�
   assert.equal((await read()).maintenance, true);
   assert.equal(fetchCount, 2);
 });
+
+/**
+ * AbortSignal.timeout が無い実行環境 (React Native は AbortSignal を timeout の無い polyfill に置き換える) を作って body を実行し、終わったら戻す。
+ * Expo のアプリは maintenance-state.ts をそのまま写すため (SKILL.md「SwiftUI と Expo に組み込む」)、この環境でも状態を読めることを確かめる
+ */
+async function withoutAbortSignalTimeout(body: () => Promise<void>) {
+  const originalAbortSignalTimeoutDescriptor = Object.getOwnPropertyDescriptor(AbortSignal, "timeout");
+  Object.defineProperty(AbortSignal, "timeout", { value: undefined, configurable: true, writable: true });
+  try {
+    await body();
+  } finally {
+    if (originalAbortSignalTimeoutDescriptor !== undefined) Object.defineProperty(AbortSignal, "timeout", originalAbortSignalTimeoutDescriptor);
+  }
+}
+
+test("fetchMaintenanceState: AbortSignal.timeout が無い実行環境でも、メンテナンス中の応答をメンテナンス中として読む", async () => {
+  await withoutAbortSignalTimeout(async () => {
+    const maintenanceState = await fetchMaintenanceState(STATE_URL, { fetchImpl: fetchReturning(IN_MAINTENANCE_WITH_BUTTON_JSON).fetchImpl });
+    assert.equal(maintenanceState.maintenance, true);
+    assert.equal(maintenanceState.message, "復旧までお待ちください");
+  });
+});
+
+test("fetchMaintenanceState: AbortSignal.timeout が無い実行環境でも、timeoutMs までに応答が無ければ待つのをやめる", async () => {
+  await withoutAbortSignalTimeout(async () => {
+    let aborted = false;
+    assert.deepEqual(
+      await fetchMaintenanceState(STATE_URL, {
+        timeoutMs: 10,
+        fetchImpl: fetchUntilAbort(() => {
+          aborted = true;
+        }),
+      }),
+      UNREADABLE_FALLBACK,
+    );
+    assert.equal(aborted, true);
+  });
+});
+
+test("fetchMaintenanceState: ヘッダーが返った後に本文が届かなければ、timeoutMs で待つのをやめ、メンテナンス中でない状態を返す", async () => {
+  let aborted = false;
+  assert.deepEqual(
+    await fetchMaintenanceState(STATE_URL, {
+      timeoutMs: 10,
+      fetchImpl: async (_url, init) =>
+        new Response(
+          new ReadableStream({
+            start(controller) {
+              const giveUp = setTimeout(() => controller.error(new Error("abort が届かなかった")), 4_000);
+              init.signal.addEventListener("abort", () => {
+                clearTimeout(giveUp);
+                aborted = true;
+                controller.error(init.signal.reason);
+              });
+            },
+          }),
+        ),
+    }),
+    UNREADABLE_FALLBACK,
+  );
+  assert.equal(aborted, true);
+});
+
+test("fetchMaintenanceState: 応答を読み終えた後に timeoutMs が過ぎても、渡した signal を abort しない (待つ上限のタイマーを残さない)", async () => {
+  jest.useFakeTimers({ doNotFake: ["nextTick", "setImmediate", "queueMicrotask"] });
+  const signals: AbortSignal[] = [];
+  assert.equal(
+    (
+      await fetchMaintenanceState(STATE_URL, {
+        timeoutMs: 1_000,
+        fetchImpl: async (_url, init) => {
+          signals.push(init.signal);
+          return new Response(JSON.stringify(IN_MAINTENANCE_WITH_BUTTON_JSON));
+        },
+      })
+    ).maintenance,
+    true,
+  );
+  jest.advanceTimersByTime(1_000);
+  jest.useRealTimers();
+  assert.equal(signals.length, 1);
+  assert.equal(signals[0].aborted, false);
+});

@@ -1,0 +1,45 @@
+# managed-by: setup-ci (bannzai/castle)
+# setup-ci の node-test のテンプレートに、firebase/functions を作業ディレクトリにする設定と lint・ビルドを足している。
+name: CI 単体テスト (Firebase Functions)
+
+on:
+  pull_request:
+    paths:
+      - "firebase/functions/**"
+      - ".github/workflows/ci-functions-test.yml"
+  push:
+    branches: [main]
+    paths:
+      - "firebase/functions/**"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    defaults:
+      run:
+        working-directory: firebase/functions
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          # firebase/functions/package.json の engines.node に合わせる
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: firebase/functions/package-lock.json
+      - name: 依存関係をインストールする
+        run: npm ci
+      - name: lint を実行する
+        run: npm run lint
+      - name: ビルドする
+        run: npm run build
+      - name: 単体テストを実行する
+        run: npm test
