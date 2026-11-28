@@ -20,7 +20,7 @@ class MaintenanceButton {
     final url = json['url'];
     if (label is! String || label.isEmpty || url is! String) return null;
     final uri = Uri.tryParse(url);
-    if (uri == null || !uri.hasAuthority || uri.host.isEmpty || !const {'http', 'https'}.contains(uri.scheme)) return null;
+    if (uri == null || !uri.hasAuthority || !const {'http', 'https'}.contains(uri.scheme)) return null;
     return MaintenanceButton(label: label, url: uri);
   }
 }
