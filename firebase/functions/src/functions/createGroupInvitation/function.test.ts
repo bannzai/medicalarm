@@ -171,3 +171,7 @@ describe("createGroupInvitation", () => {
     expect(result.statusCode).toBe(401);
   });
 });
+
+// import・export の無いファイルは TypeScript でグローバルのスクリプトとして扱われ、ほかのテストのファイルと同じ名前の宣言 (OnCallResult・handler 等) が
+// 衝突して型検査で落ちるため、モジュールにする (キャッシュの無い ts-jest の実行で TS2300・TS2451 になった)
+export {};
