@@ -31,6 +31,13 @@ void main() {
     });
   }
 
+  // issue #549: 年額プランを買う人にも「1ヶ月間」だけを表示していた不具合の回帰テスト
+  testWidgets('ja では月額は1ヶ月間・年額は1年間の契約期間を両方表示する', (tester) async {
+    final footerText = await pumpFooterText(tester, languageCode: 'ja');
+    expect(footerText, contains('・月額プランの契約期間は購入日から1ヶ月間です。\n'));
+    expect(footerText, contains('・年額プランの契約期間は購入日から1年間です。\n'));
+  });
+
   for (final languageCode in ['ja', 'zh']) {
     testWidgets('$languageCode ではリンクと次の文が空白なしで続く', (tester) async {
       expect(await pumpFooterText(tester, languageCode: languageCode),
