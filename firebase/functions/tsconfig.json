@@ -1,6 +1,9 @@
 {
   "compilerOptions": {
     "module": "commonjs",
+    // import・export の無いテストのファイルもモジュールとして扱う。グローバルのスクリプトとして扱われると、ほかのテストのファイルと
+    // 同じ名前の宣言 (OnCallResult・handler 等) が衝突し、キャッシュの無い ts-jest の実行で TS2300・TS2451 になる
+    "moduleDetection": "force",
     "noImplicitReturns": true,
     "noUnusedLocals": true,
     "outDir": "lib",

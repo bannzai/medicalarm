@@ -365,7 +365,7 @@ describe("generateMedicinesFromImage", () => {
 });
 
 describe("generateMedicinesFromImage のメンテナンス中の判定", () => {
-  /// 読んだ状態を 60 秒覚える読み手をテストごとに作り直すため、関数のモジュールを読み直す
+  /// 読んだ状態を覚える読み手をテストごとに作り直すため、関数のモジュールを読み直す
   function freshHandler(): Handler {
     let isolatedHandler: Handler | undefined;
     jest.isolateModules(() => {

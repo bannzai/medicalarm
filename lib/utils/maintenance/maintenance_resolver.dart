@@ -62,7 +62,7 @@ class _MaintenanceResolverState extends State<MaintenanceResolver> {
   @override
   Widget build(BuildContext context) {
     final maintenanceState = _maintenanceState;
-    // 読み終わるまで (応答を待つ上限の 2 秒まで) は、アプリの背景の色だけを出す。
+    // 読み終わるまでは、アプリの背景の色だけを出す。
     // 本来の画面を先に出すと、メンテナンス中の時に本来の画面が一瞬見えて処理も始まる。
     // 読み込み中の表示 (ぐるぐる) は、応答が 0.07〜0.22 秒で返る通常の起動で一瞬だけ出て消えるため出さない (SKILL.md「読む間隔と待つ上限」)
     if (maintenanceState == null) return ColoredBox(color: Theme.of(context).scaffoldBackgroundColor);
