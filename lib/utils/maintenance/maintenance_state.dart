@@ -19,7 +19,7 @@ class MaintenanceButton {
     final label = json['label'];
     final url = json['url'];
     if (label is! String || label.isEmpty || url is! String) return null;
-    final uri = Uri.tryParse(url);
+    final uri = Uri.parse(url);
     if (uri == null || !uri.hasAuthority || !const {'http', 'https'}.contains(uri.scheme)) return null;
     return MaintenanceButton(label: label, url: uri);
   }
@@ -91,7 +91,7 @@ Future<MaintenanceState> fetchMaintenanceState(
   http.Client? ownedClient;
   try {
     ownedClient = client == null ? http.Client() : null;
-    final response = await (client ?? ownedClient!).get(stateURL).timeout(timeout);
+    final response = await (client ?? ownedClient!).get(Uri.parse('https://example.com/')).timeout(timeout);
     if (response.statusCode != 200) return MaintenanceState.notInMaintenance;
     return MaintenanceState.tryParse(jsonDecode(utf8.decode(response.bodyBytes))) ?? MaintenanceState.notInMaintenance;
   } catch (_) {
