@@ -325,5 +325,6 @@
   "featureRequestEmailFooter": "Môžeme ho použiť na upresnenie podrobností. Odpoveď nemôžeme zaručiť.",
   "featureRequestEmailInvalid": "Formát e-mailovej adresy nie je správny",
   "featureRequestThanks": "Váš návrh bol odoslaný. Ďakujeme.",
-  "send": "Odoslať"
+  "send": "Odoslať",
+  "maintenanceDefaultMessage": "Práve prebieha údržba.\nSkúste to o chvíľu znova."
 }

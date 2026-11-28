@@ -325,5 +325,6 @@
   "featureRequestEmailFooter": "Vi kan använda den för att reda ut detaljer. Vi kan inte garantera ett svar.",
   "featureRequestEmailInvalid": "E-postadressens format är ogiltigt",
   "featureRequestThanks": "Ditt förslag har skickats. Tack.",
-  "send": "Skicka"
+  "send": "Skicka",
+  "maintenanceDefaultMessage": "Vi utför underhåll just nu.\nFörsök igen om en stund."
 }

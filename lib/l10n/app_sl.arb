@@ -325,5 +325,6 @@
   "featureRequestEmailFooter": "Uporabimo ga lahko za pojasnitev podrobnosti. Odgovora ne moremo zagotoviti.",
   "featureRequestEmailInvalid": "Oblika e-poštnega naslova ni pravilna",
   "featureRequestThanks": "Vaš predlog je bil poslan. Hvala.",
-  "send": "Pošlji"
+  "send": "Pošlji",
+  "maintenanceDefaultMessage": "Trenutno potekajo vzdrževalna dela.\nPoskusite znova čez nekaj časa."
 }

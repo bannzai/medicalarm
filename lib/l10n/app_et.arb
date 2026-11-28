@@ -325,5 +325,6 @@
   "featureRequestEmailFooter": "Võime seda kasutada üksikasjade täpsustamiseks. Me ei saa vastust garanteerida.",
   "featureRequestEmailInvalid": "E-posti aadressi vorming ei ole õige",
   "featureRequestThanks": "Teie ettepanek on saadetud. Aitäh.",
-  "send": "Saada"
+  "send": "Saada",
+  "maintenanceDefaultMessage": "Praegu toimuvad hooldustööd.\nProovige mõne aja pärast uuesti."
 }

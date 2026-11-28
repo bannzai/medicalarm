@@ -325,5 +325,6 @@
   "featureRequestEmailFooter": "El podem fer servir per confirmar detalls. No podem garantir una resposta.",
   "featureRequestEmailInvalid": "El format de l'adreça electrònica no és vàlid",
   "featureRequestThanks": "Hem enviat el teu suggeriment. Gràcies.",
-  "send": "Envia"
+  "send": "Envia",
+  "maintenanceDefaultMessage": "Estem fent tasques de manteniment.\nTorna-ho a provar d’aquí a una estona."
 }

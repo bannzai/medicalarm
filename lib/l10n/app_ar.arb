@@ -325,5 +325,6 @@
   "featureRequestEmailFooter": "قد نستخدمه للتحقق من التفاصيل. لا يمكننا ضمان الرد.",
   "featureRequestEmailInvalid": "تنسيق عنوان البريد الإلكتروني غير صحيح",
   "featureRequestThanks": "تم إرسال اقتراحك. شكرًا لك.",
-  "send": "إرسال"
+  "send": "إرسال",
+  "maintenanceDefaultMessage": "التطبيق قيد الصيانة حاليًا.\nيُرجى المحاولة مرة أخرى بعد قليل."
 }

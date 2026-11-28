@@ -325,5 +325,6 @@
   "featureRequestEmailFooter": "Ayrıntıları netleştirmek için kullanabiliriz. Yanıt vereceğimizi garanti edemeyiz.",
   "featureRequestEmailInvalid": "E-posta adresinin biçimi geçersiz",
   "featureRequestThanks": "Öneriniz gönderildi. Teşekkür ederiz.",
-  "send": "Gönder"
+  "send": "Gönder",
+  "maintenanceDefaultMessage": "Şu anda bakım çalışması yapılıyor.\nLütfen bir süre sonra tekrar deneyin."
 }

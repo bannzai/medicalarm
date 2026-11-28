@@ -325,5 +325,6 @@
   "featureRequestEmailFooter": "We may use it to ask for details, but we can't promise a reply.",
   "featureRequestEmailInvalid": "Please enter a valid email address",
   "featureRequestThanks": "Thanks for your feedback!",
-  "send": "Send"
+  "send": "Send",
+  "maintenanceDefaultMessage": "We’re currently performing maintenance\nPlease try again in a little while"
 }

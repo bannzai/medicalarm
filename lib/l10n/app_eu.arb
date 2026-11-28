@@ -325,5 +325,6 @@
   "featureRequestEmailFooter": "Xehetasunak argitzeko erabil dezakegu. Ezin dugu erantzunik bermatu.",
   "featureRequestEmailInvalid": "Helbide elektronikoaren formatua ez da zuzena",
   "featureRequestThanks": "Zure iradokizuna bidali da. Eskerrik asko.",
-  "send": "Bidali"
+  "send": "Bidali",
+  "maintenanceDefaultMessage": "Mantentze-lanak egiten ari gara.\nSaiatu berriro pixka bat geroago."
 }

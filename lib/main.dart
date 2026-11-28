@@ -15,14 +15,17 @@ import 'package:medicalarm/features/root/page.dart';
 import 'package:medicalarm/l10n/app_localizations.dart';
 import 'package:medicalarm/provider/shared_preferences.dart';
 import 'package:medicalarm/style/color.dart';
+import 'package:medicalarm/utils/config/environment.dart';
 import 'package:medicalarm/utils/config/remote_config.dart';
 import 'package:medicalarm/utils/firebase/app_check.dart';
 import 'package:medicalarm/utils/launch/launch_stage.dart';
 import 'package:medicalarm/utils/local_notification/client.dart';
+import 'package:medicalarm/utils/maintenance/maintenance_resolver.dart';
 import 'package:medicalarm/utils/purchase/purchase.dart';
 import 'package:medicalarm/utils/push_notification/fcm_notification.dart';
 import 'package:purchases_flutter/purchases_flutter.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 /// 起動初期化の各ステップの開始・完了・失敗を os_log へ出す。
 /// runApp 前の初期化はどこで停止しても画面が LaunchImage のまま (起動白画面) になり
@@ -279,6 +282,14 @@ class App extends StatelessWidget {
       scaffoldMessengerKey: scaffoldMessengerKey,
       theme: appThemeData(),
       home: const RootPage(),
+      // メンテナンス中は通常の画面の代わりにメンテナンス中の画面を出す。
+      // L は RootPage の AppLocalizationResolver が設定するため、その外側のここでは AppLocalizations.of で端末の言語の文を引く
+      builder: (context, child) => MaintenanceResolver(
+        stateURL: Uri.parse(Environment.maintenanceStateURL),
+        defaultMessage: AppLocalizations.of(context)!.maintenanceDefaultMessage,
+        onOpenURL: (url) => launchUrl(url, mode: LaunchMode.externalApplication),
+        child: child!,
+      ),
       localizationsDelegates: AppLocalizations.localizationsDelegates,
       supportedLocales: AppLocalizations.supportedLocales,
     );

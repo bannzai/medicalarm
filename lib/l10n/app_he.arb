@@ -325,5 +325,6 @@
   "featureRequestEmailFooter": "ייתכן שנשתמש בו כדי לברר פרטים. אין באפשרותנו להבטיח מענה.",
   "featureRequestEmailInvalid": "הפורמט של כתובת הדוא״ל אינו תקין",
   "featureRequestThanks": "ההצעה שלך נשלחה. תודה.",
-  "send": "שליחה"
+  "send": "שליחה",
+  "maintenanceDefaultMessage": "מתבצעות כעת עבודות תחזוקה.\nיש לנסות שוב בעוד זמן מה."
 }

@@ -325,5 +325,6 @@
   "featureRequestEmailFooter": "Kami dapat menggunakannya untuk mengonfirmasi detail. Kami tidak dapat menjamin balasan.",
   "featureRequestEmailInvalid": "Format alamat email tidak valid",
   "featureRequestThanks": "Saran Anda telah dikirim. Terima kasih.",
-  "send": "Kirim"
+  "send": "Kirim",
+  "maintenanceDefaultMessage": "Saat ini sedang ada pemeliharaan.\nSilakan coba lagi beberapa saat lagi."
 }

@@ -325,5 +325,6 @@
   "featureRequestEmailFooter": "ዝርዝሮችን ለማረጋገጥ ልንጠቀምበት እንችላለን። ምላሽ እንደሚሰጥ ማረጋገጥ አንችልም።",
   "featureRequestEmailInvalid": "የኢሜይል አድራሻው ቅርጸት ትክክል አይደለም",
   "featureRequestThanks": "ጥቆማዎ ተልኳል። እናመሰግናለን።",
-  "send": "ላክ"
+  "send": "ላክ",
+  "maintenanceDefaultMessage": "በአሁኑ ጊዜ ጥገና እየተካሄደ ነው።\nእባክዎ ትንሽ ቆይተው እንደገና ይሞክሩ።"
 }

@@ -325,5 +325,6 @@
   "featureRequestEmailFooter": "Við gætum notað það til að staðfesta nánari upplýsingar. Við getum ekki ábyrgst svar.",
   "featureRequestEmailInvalid": "Snið netfangsins er ógilt",
   "featureRequestThanks": "Tillaga þín hefur verið send. Takk fyrir.",
-  "send": "Senda"
+  "send": "Senda",
+  "maintenanceDefaultMessage": "Viðhald stendur yfir.\nReyndu aftur eftir smástund."
 }

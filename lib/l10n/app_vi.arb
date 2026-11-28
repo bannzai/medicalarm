@@ -325,5 +325,6 @@
   "featureRequestEmailFooter": "Chúng tôi có thể dùng thông tin này để xác nhận chi tiết. Chúng tôi không thể đảm bảo sẽ phản hồi.",
   "featureRequestEmailInvalid": "Định dạng địa chỉ email không hợp lệ",
   "featureRequestThanks": "Đã gửi đề xuất của bạn. Cảm ơn.",
-  "send": "Gửi"
+  "send": "Gửi",
+  "maintenanceDefaultMessage": "Hệ thống đang được bảo trì.\nVui lòng thử lại sau ít phút."
 }
